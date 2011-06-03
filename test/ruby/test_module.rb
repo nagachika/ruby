@@ -1127,4 +1127,47 @@ class TestModule < Test::Unit::TestCase
     }
     assert_equal(42, bar::D)
   end
+
+  def test_mix_constant
+    m1 = Module.new do
+      const_set :C, "m1::C"
+      const_set :D, "m1::D"
+    end
+    m2 = Module.new do
+      const_set :C, "m2::C"
+    end
+
+    # don't copy constants by default
+    c = Class.new
+    assert_nothing_raised(ArgumentError) {
+      c.class_eval { mix m1 }
+    }
+    assert_raise(NameError) {
+      c::C
+    }
+
+    # specified constants are copied
+    c = Class.new
+    assert_nothing_raised(ArgumentError) {
+      c.class_eval { mix m1, [:C] }
+    }
+    assert_equal(c::C, "m1::C")
+    assert_raise(NameError) {
+      c::D
+    }
+
+    # copy with renaming
+    c = Class.new
+    assert_nothing_raised(ArgumentError) {
+      c.class_eval { mix m1, [:C => :C_m1] }
+    }
+    assert_nothing_raised(ArgumentError) {
+      c.class_eval { mix m2, [:C => :C_m2] }
+    }
+    assert_equal(c::C_m1, "m1::C")
+    assert_equal(c::C_m2, "m2::C")
+    assert_raise(NameError) {
+      c::C
+    }
+  end
 end

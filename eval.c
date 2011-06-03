@@ -929,7 +929,17 @@ rb_mod_mix_into(int argc, VALUE *argv, VALUE klass)
     if (!NIL_P(constants)) {
 	VALUE hash = rb_hash_new();
 	for (i = 0; i < RARRAY_LEN(constants); ++i) {
-	    rb_hash_update_by(hash, RARRAY_PTR(constants)[i], NULL);
+	    if (!NIL_P(tmp = rb_check_hash_type(RARRAY_PTR(constants)[i]))) {
+		rb_hash_update_by(hash, tmp, NULL);
+	    }
+	    else if (!NIL_P(tmp = rb_to_id(RARRAY_PTR(constants)[i]))) {
+		tmp = ID2SYM(tmp);
+		rb_hash_aset(hash, tmp, tmp);
+	    }
+	    else
+	    {
+		Check_Type(RARRAY_PTR(constants)[i], T_SYMBOL);
+	    }
 	}
 	const_tbl = RHASH_TBL(RB_GC_GUARD(constants) = hash);
     }
