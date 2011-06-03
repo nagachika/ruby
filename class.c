@@ -746,7 +746,7 @@ do_mix_const_i(st_data_t key, st_data_t value, st_data_t arg)
     }
     if (!argp->mtbl)
 	argp->mtbl = st_init_numtable();
-    clone_const(id, value, argp->mtbl);
+    clone_const(id, (const rb_const_entry_t *)value, argp->mtbl);
     return ST_CONTINUE;
 }
 
