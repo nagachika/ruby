@@ -1,0 +1,4 @@
+Thread.new に Method オブジェクトを渡して実行させると SEGV する不具合を修正。
+cfp (control frame stack pointer) が 0 の時にそのままアクセスして落ちているので
+とりあえず例外を発生させて SEGV は回避するようにしています(このようなスレッドは
+実行はできない)。 [ruby-dev:44208] [Bug #5083]
