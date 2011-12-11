@@ -1,0 +1,3 @@
+rb_big2ull() でアンダーフローチェックが間違っていたのを修正。sizeof(VALUE) は
+sizeof(LONG_LONG) より小さい可能性があるので(32bit 環境では普通小さい。sizeof
+(long) と一緒)、LONG_LONG のビット幅のまま判定するようにしています。
