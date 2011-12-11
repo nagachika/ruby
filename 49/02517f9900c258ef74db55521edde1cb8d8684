@@ -1,0 +1,5 @@
+external symbol を nm で表示した時の prefix をチェックする configure の処理で
+type が 'T' (text section symbol)のものだけチェック対象にするようにしています。
+コミットログによると「x86_64-w64-mingw32-gcc on Debian GNU/Linux だと 'D'
+(datal section) に _GLOBAL__F__conftest_external みたいなシンボルができたから」
+とのこと。
