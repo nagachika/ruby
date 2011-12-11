@@ -1,0 +1,16 @@
+パース時に文法エラーの例外を発生させる関数にエンコーディングの指定を含む
+rb_compile_error_with_enc() 関数を追加して、これを利用するようにしています。
+SyntaxError のメッセージに元のスクリプトの文字列を含むのにエンコーディングが
+ASCII-8BIT 固定だったのでスクリプトエンコーディング(?)で生成するようにしていま
+す。
+[Bug #4217] の1つめのエラーはこれじゃなくて端末の external_encoding で不正な文
+字列を出力しようとしてエラーみたいな感じなので、これとは別に何か修正が必要なよ
+うな気がします。手元の環境(Mac OS X)だとちゃんと '?' に置換して出力されるのです
+けど。
+$ ruby -e 'print(Regexp.compile("\xff"))'
+-e:1:in `initialize': invalid multibyte character: /?/ (RegexpError)
+        from -e:1:in `compile'
+        from -e:1:in `<main>'
+[追記]そういえば ChangeLog には re.c の修正も書かれているのですけどコミットには
+含まれていませんでした。ChangeLog を見たときにあれっ無いなと思ってたんですけど
+調べてるうちに忘れてしまってました。コミット漏れだったようです。[/追記]
