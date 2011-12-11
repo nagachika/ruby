@@ -1,0 +1,5 @@
+r33064 で対処したのと似ていますが yield を含むメソッドの ensure 節で Proc.new
+で Proc オブジェクトを作成するとブロック内で return した時に "unexpected
+return" というエラーになってしまうのを修正。 rb_vm_rewrite_dfp_in_errinfo() と
+いう関数に errinfo の書き換え処理を切り出して Proc.new でも呼び出すようにしてい
+ます。 [ruby-core:39125] [Bug #5234]
