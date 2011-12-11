@@ -1,0 +1,1 @@
+addr2line.c に errno.h を include するようにしています。
