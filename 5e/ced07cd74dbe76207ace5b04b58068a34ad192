@@ -1,0 +1,3 @@
+プロセスの終了時にファイナライザを呼ぶために rb_objspace_call_finalizer を呼ぶ
+パスが2つあって2回呼ばれているので、objspace の開放時に呼ぶのをやめています。
+[ruby-dev:42479]
