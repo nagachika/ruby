@@ -1,0 +1,1 @@
+OpenSSL::X509::Extension.new の rdoc を追加。
