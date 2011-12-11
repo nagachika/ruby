@@ -1,0 +1,2 @@
+const と volatile が利用できないとコンパイルできないので configure でチェックを
+入れています。
