@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.disasm で Proc オブジェクトを YARV の命令列にして文
+字列でダンプする処理で rb_iseq_t* 型で受けるべきところ VALUE の変数で受けてしま
+って値を壊していたのを修正しています。いつのまに……
