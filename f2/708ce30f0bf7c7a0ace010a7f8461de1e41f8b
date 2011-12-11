@@ -1,0 +1,5 @@
+test_fcntl_lock という fcntl を使って file lock をテストするメソッドが Linux で
+しかテストしていなかったので、メソッド名を test_fcntl_lock_linux と改名して、
+FreeBSD でのテストをする test_fcntl_lock_freebsd を追加しています。 ioctl/fcntl
+は結果が C の構造体そのままを String に pack したものが返ってくるため、結果の解
+釈がプラットフォーム毎に異なるために別のテストになっています。
