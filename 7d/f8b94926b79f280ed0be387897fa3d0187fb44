@@ -1,0 +1,6 @@
+csv のテストの DifferentOFS モジュールを使って $, を変更してテストを走らせるし
+くみを test/with_diffent_ofs.rb に分離しています。メタプログラミングを駆使して
+いる感じです。けどファイル名は with_different_ofs.rb?
+また test/digest/test_digest_extend.rb で String#join を引数省略して呼んでいる
+ために $, の変更で影響を受けてしまっているので明示的に空文字列を引数に指定する
+ように修正しています。
