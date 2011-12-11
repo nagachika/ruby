@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の ObjectSpace.memsize_of 等の rdoc 用コメントの typo
+を修正しています。
