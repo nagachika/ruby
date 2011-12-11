@@ -1,0 +1,4 @@
+String#to_c や String#to_r で文字列から Complex, Rational を生成するために正規
+表現を利用しているところで、MatcheData#[] のメソッド呼び出しでマッチ部を取得し
+ていたのを rb_reg_nth_match() を使ってメソッド呼び出しを介さずに取得するように
+しています。
