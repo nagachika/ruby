@@ -1,0 +1,3 @@
+universal binary を利用する時の RbConfig::CONFIG["UNIVERSAL_INTS"] の設定に
+short を追加しています。これは mkmf.rb が convertible_int で指定された型がどの
+整数型とサイズが一致するかをチェックする時の候補に使わるようです。
