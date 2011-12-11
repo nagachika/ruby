@@ -1,0 +1,2 @@
+bigdecimal/jacobian.rb の Jacobian#isEqual のドキュメント追加です。
+[ruby-core:36344] [Bug #4744]
