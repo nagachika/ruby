@@ -1,0 +1,2 @@
+Module#method_added, Module#method_removed のドキュメントを追加しています。
+[ruby-core:36943] [Feature #4867]
