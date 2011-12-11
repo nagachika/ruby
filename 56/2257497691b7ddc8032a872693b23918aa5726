@@ -1,0 +1,3 @@
+拡張ライブラリ socket で listen(2) に渡す接続待ちソケットの backlog 数を 5固定
+にしていたのを SOMAXCONN という定数を利用するようにしています。 Linux 2.6 だと
+128 のようですね。[ruby-core:38493] [Bug #4934]
