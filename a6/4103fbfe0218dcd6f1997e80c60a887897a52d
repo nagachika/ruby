@@ -1,0 +1,5 @@
+Kernel#Integer や Kernel#Array はオブジェクトを Integer や Array に変換するため
+に、まず to_int や to_ary といったメソッドを呼んでから変換できなかったら to_i,
+to_a を呼びますが、Kernel#String はいきなり to_s を呼ぶだけなので、同様に
+to_str で変換できるか試してみてから to_s を呼ぶようにしています。[Feature #
+4468]
