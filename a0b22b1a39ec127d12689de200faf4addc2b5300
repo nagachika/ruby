@@ -1,0 +1,3 @@
+拡張ライブラリ socket の rsock_socket() で SOCK_CLOEXEC が未定義だったり有効で
+なかった場合に close-on-exec フラグを立てないままになることがあったので、
+rb_fd_fix_cloexec() の呼び出しを追加しています。
