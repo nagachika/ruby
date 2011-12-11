@@ -1,0 +1,3 @@
+DL::CPtr#[] で不正なアドレスを指すポインタを dereference しようとしたら SIGSEGV
+や SIGBUS が発生していましたが、一応 NULL ポインタだけは事前にチェックして
+DL::DLError の例外発生にするようにしています。
