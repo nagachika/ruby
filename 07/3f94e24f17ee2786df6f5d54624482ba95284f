@@ -1,0 +1,3 @@
+PTY.open を用いたテストで Solaris では master 側の IO が端末でないので、IO#echo
+= でエコーバックを抑制する操作を slave 側の仮想端末に行うようにしています。
+[ruby-dev:44420] [Bug:#5222]
