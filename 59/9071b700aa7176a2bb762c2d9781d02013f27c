@@ -1,0 +1,6 @@
+GC::Profiler.report で表示される GC のプロファイル情報をそのまま Array オブジェ
+クトで返すメソッド GC::Profiler.raw_data を追加しています。 [ruby-core:37857]
+[Bug #4991]
+GC::Profiler.enable でプロファイラを有効にしてから GC が実行された回数ぶん Hash
+オブジェクトが格納された Array オブジェクト。キーは追記された rdoc のコメントを
+参照してください。
