@@ -1,0 +1,4 @@
+Mutex の deadlock 検出処理をシンプルにして pthread_cond_timedwait() の spurious
+wakeup (signal の受信もタイムアウトもしていないけど関数から抜けること。UNIX の
+シグナル受信時など)で誤動作しないようにしています。詳細はチケットを参照のこと。
+[ruby-dev:43554] [Bug #4696]
