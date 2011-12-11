@@ -1,0 +1,3 @@
+r30835 で configure に --disable-rubygems オプションを追加した時に win32/
+configure.bat を修正して win32/setup.mak を変更していなかったので Windows 環境
+では有効になっていなかったのを修正。
