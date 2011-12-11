@@ -1,0 +1,3 @@
+symbian 向けの configure.bat でパッケージのバージョン番号を RUBY_VERSION_(MAJOR
+|MINOR|TEENY) から取るのをやめて RUBY_API_VERSION_(MAJOR|MINOR|TEENY) から取る
+ように変更しています。
