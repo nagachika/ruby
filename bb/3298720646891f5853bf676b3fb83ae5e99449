@@ -1,0 +1,3 @@
+Process.seteuid, Process.setegid のテストで NotImplementedError はプラットフォ
+ームが seteuid, setguid をサポートしていない時(Windows)に発生するので単に無視す
+るようにしています。
