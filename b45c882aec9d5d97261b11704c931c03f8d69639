@@ -1,0 +1,2 @@
+rsock_socketpair() から socketpair(2) の呼び出し部分を切り出して
+rb_fd_fix_cloexec() を呼ぶ処理を追加しています。
