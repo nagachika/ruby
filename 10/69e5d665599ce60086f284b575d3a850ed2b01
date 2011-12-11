@@ -1,0 +1,2 @@
+JSON::Parser を2重に初期化するときに発生する例外は ArgumentError から TypeError
+へ変更。
