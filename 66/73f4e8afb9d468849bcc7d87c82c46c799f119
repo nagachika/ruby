@@ -1,0 +1,3 @@
+Psych::JSON::Stream が生成する YAML が文字列にシングルクオートを使っていたので
+ダブルクオートを使うようにしています。
+Psych::JSON::Stream はこの名前なのに YAML を生成するんですね。
