@@ -1,0 +1,2 @@
+"SJIS" が Shift_JIS から Windows_31J に変わったためテストが失敗していたのを修正
+。
