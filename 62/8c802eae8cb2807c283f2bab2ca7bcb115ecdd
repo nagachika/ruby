@@ -1,0 +1,2 @@
+SystemCallError のメッセージが引数から与えられていて、それが tainted だった時に
+例外オブジェクトに格納される message の文字列も taint するようにしています。
