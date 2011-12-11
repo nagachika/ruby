@@ -1,0 +1,3 @@
+昨日の r32902 で mkmf.rb が $LIBRUBYARG を常に設定するようにしたのは revert し
+て、標準添付でない拡張ライブラリ用の Makefile 生成時にはRbConfig の $LIBRUBYARG
+を利用するようにしています。 [ruby-core:38802] [Bug #5147]
