@@ -1,0 +1,2 @@
+configure で AC_C_CONST, AC_C_INLINE, AC_C_VOLATILE などのチェックはそれをコン
+パイルで利用するチェックよりも前にチェックするように移動しています。
