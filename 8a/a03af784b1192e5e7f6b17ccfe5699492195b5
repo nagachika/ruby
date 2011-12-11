@@ -1,0 +1,3 @@
+String#=~ の rdoc で、デフォルト(右辺が Regexp でない時)で呼ばれる Object#=~ が
+常に nil を返すのに false を返すと書かれていたのを修正しています。
+[ruby-core:34562] [Bug #4292]
