@@ -1,0 +1,1 @@
+test/rexml/test_doctype_mixin.rb を test/rexml/test_doctype.rb に移動。
