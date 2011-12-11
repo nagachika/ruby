@@ -1,0 +1,4 @@
+YAML::Store#initialize の引数のインタフェースを superclass の PStore に揃えて
+super を利用するようにしています。……と、コミットログからは読めるのですが
+PStore#initialize(file, thread_safe=false) なので型が一致していないんですよね。
+super(file_name) にしたほうがいいんじゃないかな。
