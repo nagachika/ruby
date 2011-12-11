@@ -1,0 +1,2 @@
+BigDecimal の文字列化時の snprintf へのフォーマットの修正。ssize_t 用のフォーマ
+ットへ変更。
