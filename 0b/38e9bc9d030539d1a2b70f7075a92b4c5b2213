@@ -1,0 +1,2 @@
+Psych::Parser#mark で index, line, column というアトリビュートをもつ Mark オブ
+ジェクトを返すようにしています。
