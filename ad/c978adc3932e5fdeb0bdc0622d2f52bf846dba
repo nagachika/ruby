@@ -1,0 +1,30 @@
+特異クラスを定義してそこで可視性を protected に変更されたメソッドを同じクラスの
+別のオブジェクトから呼ぶとエラーになる不具合を修正。protected のメソッドはその
+メソッドが定義されているクラスと呼び出し元のself が is_a? 関係にないといけない
+ので、特異クラスのメソッドの時は superclass (つまり元のクラス)を判定に使うよう
+にしています。……これ Module を extend されたオブジェクトの場合は super が
+Module (正確には Module への参照である IClass)になるからここはさらに辿ったほう
+がいいんじゃないかなーと思って実験してみました。
+module M
+end
+class A
+  def meth
+    :called
+  end
+  def test
+    a = dup
+    a.extend M
+    class << a
+      protected :meth
+    end
+    a.meth
+  end
+end
+o = A.new
+p o.test
+実行結果
+test_protected.rb:11:in `test': protected method `meth' called for #<A:0x82de440> (NoMethodError)
+        from test_protected.rb:19:in `<main>'
+よーしパッチ送っちゃうぞ。
+[追記]この修正は元々特異クラス内で protected にしたら呼べないというのが仕様通り
+ということで revert されています。次の日の r30074 を参照してください。[/追記]
