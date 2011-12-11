@@ -1,0 +1,3 @@
+yaml/dbm.rb と yaml/store.rb のドキュメント追加です。 [ruby-core:36182] [Bug #
+4693]
+assocated -> associated ですかね。
