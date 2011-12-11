@@ -1,0 +1,5 @@
+scanf.rb のドキュメント追加、というか整形でしょうか。 [ruby-core:36324] [Bug #
+4735]
+修正前からですが unsuccesful -> unsuccessful, merchantibility ->
+merchantability でしょうか。
+acknowledgements -> acknowledgments ? これはどっちもありみたいですね。
