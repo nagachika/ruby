@@ -1,0 +1,16 @@
+こちらも次の r29519 に絡んで発覚したものと思われますが、ネストした Module や
+Class を定義した時に rb_gc_register_mark_object を呼んでそれを GC のルートに追
+加しています。テストを見ると、
+  assert_normal_exit('File.__send__(:remove_const, :Stat); at_exit{File.stat(".")}; GC.start')
+こんな感じなので、「C で実装されているメソッドからは定数を(VALUE 型の変数で直
+接)アクセスできてしまうけど、remove_const で消されていると GC で回収されていて
+SEGV」みたいな状況なのだろうと思います。
+無名モジュールに module_eval 等でクラスやモジュールを定義した時に GC 対象になる
+のかちょと気になったので確認してみたのですが、rb_define_class_id_under 等は組み
+込みや拡張ライブラリのクラス/モジュールを定義する時に使われる C の API で Ruby
+からクラスやモジュールを定義してもここは通らないみたいでした。なのでこんなこと
+しても大丈夫です。
+100000.times do
+  mod = Module.new
+  mod.module_eval "class A; end"
+end
