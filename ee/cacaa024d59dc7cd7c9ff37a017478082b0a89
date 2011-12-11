@@ -1,0 +1,1 @@
+io.c の linux_get_max_fd() のローカル変数 n を np に改名するリファクタリング。
