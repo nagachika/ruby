@@ -1,0 +1,2 @@
+assign_heap_slot にて、xmalloc の返り値を NULL チェックする前に使用したり、エラ
+ー時に解放忘れしていたりしたのを修正。これも Coverity Scan により発見。
