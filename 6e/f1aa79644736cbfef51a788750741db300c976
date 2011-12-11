@@ -1,0 +1,3 @@
+[DEL:gcc の警告除去のため:DEL]に NUM2LONG_internal マクロに long へのキャストを
+追加しています。
+[追記] gcc 以外のコンパイラでの警告除去、でした。not を見落し orz [/追記]
