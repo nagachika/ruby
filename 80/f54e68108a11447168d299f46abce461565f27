@@ -1,0 +1,3 @@
+Float#round や Fload#divmod で利用している double の数値を Integer(Fixnum or
+Bignum) に変換する処理で round() の位置が Fixnum の時だけ丸めるようになっていた
+ので、最初に丸めるようにしています。 [ruby-core:39279] [Bug #5276]
