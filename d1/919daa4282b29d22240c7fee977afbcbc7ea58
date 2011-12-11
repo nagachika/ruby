@@ -1,0 +1,4 @@
+r33039 の minitest のマージでこれまで直接 Object の拡張をしていたのを、
+MiniTest::Expectations にまとめてそれを include するように変更されています。こ
+れにより test_module.rb で mixin されているモジュールが増えたので、テスト用に判
+定する前に除去するコードを追加しています。
