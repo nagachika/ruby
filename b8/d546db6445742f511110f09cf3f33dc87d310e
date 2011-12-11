@@ -1,0 +1,5 @@
+Process のテストで Windows 環境かどうか RUBY_PLATFORM でチェックして skip した
+り条件を変更したりしているのがたくさんあって、条件もまちまちだったので
+TestProcess#windows? メソッドにまとめています。また Process.spawn の file
+descriptor に :close オプションを渡すのは Windows 環境では close on exit が未サ
+ポートなのでやめています。
