@@ -1,0 +1,1 @@
+ext/openssl/ossl_ns_spki.c の OpenSSL::Netscape::SPKI についての rdoc を整備。
