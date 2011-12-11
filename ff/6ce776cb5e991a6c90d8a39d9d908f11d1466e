@@ -1,0 +1,3 @@
+rb_signal_buff_size, rb_signal_exec のプロトタイプ宣言を thread.c から
+vm_core.h に移動しています。また rb_disable_interrupt と
+rb_thread_stop_timer_thread の宣言は削除されています。
