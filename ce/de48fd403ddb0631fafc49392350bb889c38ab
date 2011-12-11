@@ -1,0 +1,3 @@
+RubyGems 1.8.9 がマージされています。 gem uninstall や cleanup コマンドで gem
+毎にパスの設定(GEM_HOME とか GEM_PATH とか)を戻していなくて失敗していたのを修正
+しているようです。
