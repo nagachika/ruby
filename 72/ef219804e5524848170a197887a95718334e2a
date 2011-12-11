@@ -1,0 +1,2 @@
+Set#replace でインスタンス変数の取り出しに instance_eval を利用していたのを
+instance_variable_get を利用するように変更。パフォーマンスのためみたいです。
