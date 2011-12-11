@@ -1,0 +1,2 @@
+symbian 向けに config.h に HAVE_LABS と HAVE_LLABS というマクロの定義を追加して
+います。
