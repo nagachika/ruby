@@ -1,0 +1,3 @@
+rubygems のマージで DIRECTORIES という定数が消えたので tool/rbinstall.rb で
+gems のディレクトリを探すのに Gem.ensure_gem_subdirectories を利用するように変
+更しています。
