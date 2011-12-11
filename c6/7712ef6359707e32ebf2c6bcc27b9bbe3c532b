@@ -1,0 +1,2 @@
+Date, DateTime の strftime, strptime に不正な引数を渡した時に ArgumentError が
+発生することを確認するテストを追加しています。
