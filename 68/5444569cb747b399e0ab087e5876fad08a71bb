@@ -1,0 +1,2 @@
+Solaris 10 でビルドできるように型名の衝突の解消や ieeefp.h の include 追加など
+の修正。
