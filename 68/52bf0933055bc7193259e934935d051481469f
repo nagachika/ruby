@@ -1,0 +1,2 @@
+mkmf の find_executable のテストの修正。実行可能ファイルの拡張子を configure 結
+果から取得するようにしています。
