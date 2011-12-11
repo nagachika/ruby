@@ -1,0 +1,2 @@
+configure.in にもうひとつ -Werror=implicit-function-declaration の影響でチェッ
+クに失敗していた関数があったので #include を追加しています。
