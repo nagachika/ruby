@@ -1,0 +1,4 @@
+json のテスト(test/json/test_json_rails.rb) で Symbol#to_json を定義しています
+。
+Symbol#to_json は require "json" で定義済みだと思いますが、なぜだろう。消しても
+テストは動くようですし(@ Ubuntu)。
