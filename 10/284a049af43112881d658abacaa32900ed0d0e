@@ -1,0 +1,16 @@
+Psych.to_json で配列はハッシュなど JSON で表現できるもの以外の普通のオブジェク
+トを !ruby/object のタグつきで表現するのをやめてただの空の Hash としてエンコー
+ドするようにしています。Regexp は !ruby/regexp のタグ付き表現のままみたいですが
+これはどうでしょうか。
+あと Range は Hash を使った表現に変換されるんですね。
+>> Psych.to_json(0..3)
+=> "{'begin': 0, 'end': 3, 'excl': false}\n"
+それから、JSON では文字列はダブルクオートで囲むはずなのですが Psych.to_json は
+シングルクオートで囲んでいるため、以下がエラーになります。これはバグ？チケット
+作ったほうがいいでしょうか。
+>> JSON.parse(Psych.to_json(["hoge"]))
+JSON::ParserError: 706: unexpected token at ''hoge']
+'
+[追記]一応チケット作成しました。 http://redmine.ruby-lang.org/issues/show/4244
+しかし Psych は YAML のためのライブラリだし、ドキュメントもみあたらず、どういう
+位置付けのものなのかいまいちわからないのでよけいなお世話だったかも。[/追記]
