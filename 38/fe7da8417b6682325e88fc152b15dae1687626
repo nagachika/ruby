@@ -1,0 +1,2 @@
+Syck::DBM のテストで YAML::ENGINE.yamler に "syck" を設定すべきところ "psych"
+になっていたのを修正。
