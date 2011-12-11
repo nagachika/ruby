@@ -1,0 +1,3 @@
+AIX での Fiber のスタックアドレスの計算を修正しています。 AIX で
+pthread_getthrds_np() で取得できるアドレスも base address のようで size を加算
+して開始位置にしています。 [Bug #1813]
