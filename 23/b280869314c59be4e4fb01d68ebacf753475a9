@@ -1,0 +1,5 @@
+Time#strftime に %Z を渡すと Windows (日本語版)では非ASCII文字(CP932)の文字が含
+まれてしまうので、internal_encoding に変換するようにしています。また Time#to_s
+は internal_encoding の指定があった時でも、ASCII文字しか含まないはずなのでエン
+コーディングは US-ASCII にするようにしています(r33073 の変更をとりやめ)。
+[ruby-core:39092] [Bug #5226]
