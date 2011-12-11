@@ -1,0 +1,2 @@
+sysconf() および RSTRING_LEN() は long 型を返すので、int の変数に格納する際にキ
+ャストを追加しています。
