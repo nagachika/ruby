@@ -1,0 +1,2 @@
+rb_cloexec_dup2() で newfd と oldfd が同じだった場合は、close-on-exit フラグを
+立てる処理だけ実行するように修正しています。 [ruby-dev:44713]
