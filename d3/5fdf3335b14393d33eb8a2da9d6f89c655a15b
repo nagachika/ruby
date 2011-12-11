@@ -1,0 +1,3 @@
+Windows 環境での Process.spawn を CreateProcess を使って実装している所で
+CreateProcessW という関数に変更して引数を char * から WCHAR * に変更しています
+。コマンドやコマンドライン引数のマルチバイト文字列の対応でしょうか。
