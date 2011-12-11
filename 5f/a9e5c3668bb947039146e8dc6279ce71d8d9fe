@@ -1,0 +1,2 @@
+さらに .travis.yml で configure は ./configure として実行しないといけなかったの
+で修正。
