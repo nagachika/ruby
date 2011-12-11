@@ -1,0 +1,3 @@
+String#match の rdoc から重複していた文を削除しています。
+この修正は GitHub で pull request で送信されたものだそうです。
+参考URL: https://github.com/shyouhei/ruby/pull/3
