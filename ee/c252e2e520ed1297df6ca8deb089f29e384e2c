@@ -1,0 +1,2 @@
+更に rb_io_ctl から ioctl/fcntl のバッファサイズを計算する部分を setup_narg()
+として切り出しています。
