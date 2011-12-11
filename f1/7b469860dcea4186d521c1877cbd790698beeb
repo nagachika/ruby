@@ -1,0 +1,5 @@
+r30836 で --gem オプションが追加されたので --gem=enabled を --enable=gems の別
+名、 --gem=disabled を --disable=gems の別名にしています。なおパッケージ名がか
+ぶらないように enabled, disabled という名前の gems パッケージは yugui さんが
+rubygems.com で取得しています。 https://rubygems.org/gems/enabled https://
+rubygems.org/gems/disabled
