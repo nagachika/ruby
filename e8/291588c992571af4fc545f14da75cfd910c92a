@@ -1,0 +1,2 @@
+OpenBSD で共有ライブラリのファイル名に RUBY_INSTALL_NAME が使われてしまって
+RUBY_SO_NAME が効かないのを修正(configure.in)。[ruby-core:32474].
