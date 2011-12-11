@@ -1,0 +1,6 @@
+Matrix#index, Matrix#find_index というメソッド(find_index は index の alias)を
+追加しています。引数に渡されたオブジェクトと Object#== で一致するか、ブロックが
+渡された場合は要素をブロックに渡して呼び出した結果が true になる要素の位置を
+[row, col] という配列で返す Array#index の Matrix 版のようなメソッドです。ブロ
+ックも省略すると Enumerator を返します。またこのメソッドも r32277 で Matrix#
+each に追加したような指定で探す範囲を限定できるようになっています。テスト……。
