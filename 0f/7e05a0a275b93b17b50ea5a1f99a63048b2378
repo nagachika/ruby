@@ -1,0 +1,4 @@
+make install などで man page をインストールする際に --mantype=$(MANTYPE) を渡し
+ている時と渡してない時があって、Solaris など mantype を指定する必要がある時にう
+まく変換されなかったので、INSTRUBY 自体に常に --mantype=$(MANTYPE) オプションを
+付けるようにしています。 [ruby-core:40844] [Bug 5598]
