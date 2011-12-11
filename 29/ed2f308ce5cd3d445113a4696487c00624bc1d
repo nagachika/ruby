@@ -1,0 +1,2 @@
+misc/ruby-mode.el と misc/ruby-style.el で (setq show-trailing-whitespace) を追
+加。きっと行末の空白文字がハイライトとかされて気がつくようになるのでしょう。
