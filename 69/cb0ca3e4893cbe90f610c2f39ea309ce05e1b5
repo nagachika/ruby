@@ -1,0 +1,4 @@
+ext/psych/lib/psych/deprecated.rb で Object に to_yaml_properties というメソッ
+ドを追加しているところでその前に一旦同じメソッドを undef しています。ruby を -w
+オプションをつけて実行するとメソッドの再定義で警告メッセージが出力されるのでそ
+れを抑制しています。
