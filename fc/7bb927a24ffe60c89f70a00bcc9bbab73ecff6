@@ -1,0 +1,3 @@
+ioctl/fcntl の引数をまとめた構造体 struct io_cntl_arg から ioctl か fcntl かを
+識別するメンバー io_p を削除し、ioctl() と fcntl() を呼ぶ関数が共有されていたの
+をそれぞれ別の関数として分離しています。
