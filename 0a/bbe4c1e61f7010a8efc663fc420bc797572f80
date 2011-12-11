@@ -1,0 +1,2 @@
+Bigdecimal#sqrt の rdoc 用コメントの記述修正。精度の指定は省略不可能です。
+[ruby-dev:44452] [Bug #5267]
