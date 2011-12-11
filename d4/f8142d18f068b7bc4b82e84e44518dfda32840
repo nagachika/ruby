@@ -1,0 +1,3 @@
+Process.spawn に長い文字列を渡した時のテストで、Errno::E2BIG 例外発生することも
+あったのでそれも assert_raise の条件に追加しています。assert_raise は複数の例外
+の候補を受け取れるのかー、メモメモ。
