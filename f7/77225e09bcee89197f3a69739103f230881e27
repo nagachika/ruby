@@ -1,0 +1,2 @@
+mingw64 で ftruncate, truncate の prototype 宣言がなくなってしまうので条件コン
+パイルの外に出しています。 ftello() は同じように変更しなくてもいいんでしょうか?
