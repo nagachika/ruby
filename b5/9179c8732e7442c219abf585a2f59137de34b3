@@ -1,0 +1,2 @@
+ex/date/date_core.c で localtime_r() を呼び出しているところでエラーチェックして
+例外(Errno::EXXX)を発生させるようにしています。
