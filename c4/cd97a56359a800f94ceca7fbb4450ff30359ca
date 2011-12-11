@@ -1,0 +1,2 @@
+コンパイラが gcc だった時の -fstack-protector の追加を DLDFLAGS にもするように
+しています。 [ruby-core:41317] [Bug #5676]
