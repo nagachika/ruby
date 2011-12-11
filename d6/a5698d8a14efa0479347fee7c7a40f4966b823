@@ -1,0 +1,3 @@
+Solaris(sun が define されている場合)で FIBER_USE_NATIVE を 0 にして setcontext
+/swapcontext を利用した Fiber の実装を使わないようにしています。 Solaris で
+Fiber#resume が SEGV したそうです。
