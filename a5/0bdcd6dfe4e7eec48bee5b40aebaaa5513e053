@@ -1,0 +1,2 @@
+OpenStruct でと = メソッドが時に method_missing での引数のチェックがまずくて例
+外になっていたのを修正。 [ruby-core:33792] [Bug #4179]
