@@ -1,0 +1,2 @@
+rb_cloexec_dup() と rb_cloexec_dup2() の成功時の処理をすこしシンプルに修正して
+います。
