@@ -1,0 +1,4 @@
+r30747 の lib/benchmark.rb Benchmark#bmbm で後始末を Object#tap を使っていたの
+を ensure を使うようにしています。ただ影響がグローバルな STDOUT.sync を変更する
+手法をライブラリで取るのは望ましくないので IO#flush を使うように Benoit さんが
+リファクタリングしてくれそうなのでそちらはおまかせ。
