@@ -1,0 +1,4 @@
+define_method で定義したメソッドの呼び出しと return で set_trace_func で登録し
+た trace_func が呼び出されない不具合を修正しています。また trace_func に渡され
+る引数のメソッドIDとクラスがイベントの種類に依らず渡されるようになっているよう
+です。 [ruby-core:35894] [Bug #4613]
