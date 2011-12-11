@@ -1,0 +1,4 @@
+vm_call_cfunc() の宣言の引数 recv に volatile 指示子を付けています。 Mac OS X
+10.7 (Lion) のコンパイラである llvm-gcc での最適化の不具合で GC 避けに失敗して
+いたようです。 [ruby-dev:44185] [Bug #5074]
+Lion さんかなり大胆ですね。
