@@ -1,0 +1,4 @@
+r29302 の Zlib::GZipReader のテストで文字コードを指定する位置が File.new だった
+ので Zlib::GZipReader.new で指定するように変更。
+先日の changes であれっとか言ってますがちゃんとひっかかったら報告しないといけせ
+んね。
