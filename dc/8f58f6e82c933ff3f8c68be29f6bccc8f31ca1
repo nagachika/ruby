@@ -1,0 +1,2 @@
+r32187 で socket のビルドの依存関係で internal.h のパスを指定するための変数名の
+間違いを修正。 $(topdir) -> $(top_srcdir)
