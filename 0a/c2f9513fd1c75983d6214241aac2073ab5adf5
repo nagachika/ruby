@@ -1,0 +1,1 @@
+configure.in でクオートの追加。autoconf 2.68 向けの対応だそうです。
