@@ -1,0 +1,4 @@
+OpenSSL で省メモリのために zlib での圧縮を off に指定するための定数
+SSL_OP_NO_COMPRESSION が存在すれば、対応する定数 OpenSSL::SSL
+::OP_NO_COMPRESSION を定義するようにしています。使用方法は一緒に追加されている
+テストコードを参照してください。 [ruby-core:38911] [Feature #5183]
