@@ -1,0 +1,2 @@
+Pathname() で Pathname.new() を呼ぶメソッドを C の拡張ライブラリへ移動していま
+す。
