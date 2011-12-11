@@ -1,0 +1,2 @@
+gdbm も gdbm_fdesc() という関数を用いて file descriptor を取り出して
+rb_fd_fix_cloexec() を呼んで close-on-exec フラグをセットするようにしています。
