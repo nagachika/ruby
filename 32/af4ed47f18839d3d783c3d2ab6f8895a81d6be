@@ -1,0 +1,2 @@
+date_core.c で nth, sf というメンバに Rational をセットする時に既約ならば
+Integer に変換しておくようにしています。
