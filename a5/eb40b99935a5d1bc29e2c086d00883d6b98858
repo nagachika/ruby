@@ -1,0 +1,4 @@
+signal.c で sigaction に渡す struct sigaction の sa_flags に SA_SIGINFO を設定
+する時のプリプロセッサの変数を SA_SIGINFO から USE_SIGALTSTACK が定義されている
+時に変更しています。sigsegv() 関数が sigaltstack が使える時に引数を拡張されたハ
+ンドラを使っているから、だと思います。
