@@ -1,0 +1,2 @@
+そして configure で target_os が darwin の時には _DARWIN_UNLIMITED_SELECT を定
+義するようにしています。
