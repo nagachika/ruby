@@ -1,0 +1,3 @@
+date のテスト TestDateStrftime で Time#strftime が "%G" を受け付けない時にテス
+トケースをスルーしていたのを明示的な skip にしています。これもスルーでいいんじ
+ゃないですかね。
