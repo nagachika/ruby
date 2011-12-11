@@ -1,0 +1,4 @@
+WEBrick のテストで子プロセス?の共有ライブラリリンクがうまくいかないのに対処する
+ため WEBrich::HTTP::Request#meta_vars で RbConfig::CONFIG["LIBPATHENV"] で指定
+される環境変数(Linux だと LD_LIBRARY_PATH のあれ。共有ライブラリを探すパス指定)
+をセットするようにしています。 [ruby-core:38653] [Bug #5135]
