@@ -1,0 +1,5 @@
+localtime_r() の第一引数が time_t * なのに対して struct timeval の tv_sec が
+long で定義されている環境([DEL:usa さんのコミットなので Windows でしょうね:DEL]
+POSIX.1-2001 に準拠していない場合、ということのようです。コメント欄参照)があり
+型が間違っているため修正しています。その他 double から int/long への明示的な型
+キャスト追加。
