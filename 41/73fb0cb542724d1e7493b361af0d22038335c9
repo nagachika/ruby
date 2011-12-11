@@ -1,0 +1,3 @@
+r31778 で flo_round() から rb_big_uminus() を利用するために internal.h に
+rb_big_umiuns() の prototype 宣言を追加していましたが、numeric.h で include し
+ていなかったので追加しています。
