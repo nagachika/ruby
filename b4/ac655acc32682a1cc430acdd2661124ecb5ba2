@@ -1,0 +1,2 @@
+Process.setrlimit でリソース名を判定する部分を修正して、strcasecmp を利用するよ
+うにしています。
