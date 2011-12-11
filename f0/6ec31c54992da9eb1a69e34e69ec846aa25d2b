@@ -1,0 +1,2 @@
+Gems::TestCase のカレントディレクトリを @@project_dir に保持するのを使うのでは
+なく setup 時に @current_dir に保存して利用するように修正しています。
