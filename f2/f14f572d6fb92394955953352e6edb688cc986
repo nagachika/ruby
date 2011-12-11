@@ -1,0 +1,3 @@
+Time#strftime で結果の文字列が大きすぎる(元の format 文字列の 1024 倍以上に膨れ
+あがった)場合に Errno::ERANGE 例外を発生させるようにしています。
+[ruby-dev:43285] [Bug #4457]
