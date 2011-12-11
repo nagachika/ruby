@@ -1,0 +1,2 @@
+拡張ライブラリ io/console で追加される IO.console が端末と切り離されたプロセス
+(Process.daemon とかしたもの)の時に nil を返すようにしています。
