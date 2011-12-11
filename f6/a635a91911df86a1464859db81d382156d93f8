@@ -1,0 +1,2 @@
+make で gperf を用いて自動生成される enc/unicode/name2ctype.h というヘッダに #
+ifdef USE_UNICODE_PROPERTIES が重複して出力されていたのを修正しています。
