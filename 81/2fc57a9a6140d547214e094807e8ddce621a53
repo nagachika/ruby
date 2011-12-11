@@ -1,0 +1,1 @@
+mkmf.rb の create_makefile で生成する Makefile に改行が足りてなかったので追加。
