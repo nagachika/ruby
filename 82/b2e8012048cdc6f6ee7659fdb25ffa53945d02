@@ -1,0 +1,2 @@
+ext/socket/init.c でも rb_wait_for_single_fd() を利用するように変更しています。
+[ruby-core:35565] [Feature #4531]
