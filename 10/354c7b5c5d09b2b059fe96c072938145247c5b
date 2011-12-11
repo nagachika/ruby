@@ -1,0 +1,3 @@
+enc/shift_sjis.c で int 型の戻り値を期待しているところで pointer の演算をしてい
+るところにキャストを追加。また enc/utf_*.c で pointer 同士の差を格納する変数に
+ptrdiff_t を利用するようにしています。
