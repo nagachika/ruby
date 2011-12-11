@@ -1,0 +1,7 @@
+native_cond_timeout() でタイムアウト時刻の計算時に[DEL:タイムアウトに負の時間が
+指定されたら:DEL] ではなくて、オーバフローが発生した時のことを考慮して、time_t
+の最大秒数待つようにしています。
+また native_thread_init() でも native_cond_initialize() に
+RB_CONDATTR_CLOCK_MONOTONIC を渡すようにしているので、これでおそらく全ての
+pthread_cond_t は(利用可能ならば) CLOCK_MONOTONIC の指定で生成されるようになっ
+ています。
