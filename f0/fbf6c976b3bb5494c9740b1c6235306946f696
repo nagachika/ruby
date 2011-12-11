@@ -1,0 +1,2 @@
+variable.c の check_before_mod_set() という関数を static に宣言するようにしてい
+ます。
