@@ -1,0 +1,2 @@
+NUM2MODET/MODET2NUM マクロが定義されない環境で NUM2INT/INT2NUM になるように定義
+しています。Windows でビルドできなかった模様。
