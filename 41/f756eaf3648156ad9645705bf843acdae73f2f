@@ -1,0 +1,2 @@
+DLDFLAGS に -fstack-protector を含めるために XLDFLAGS を継承するように Makefile
+.in を変更しています。 [ruby-core:41317] [Bug #5676]
