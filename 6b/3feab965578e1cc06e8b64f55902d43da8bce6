@@ -1,0 +1,2 @@
+psych のテストで psych と syck の require でロードされる順番に依存した raise を
+削除しています。
