@@ -1,0 +1,4 @@
+CSV.foreach で option から :encoding の情報を抜いてわざわざ mode 引数の文字列を
+作りなおしているのでそのまま option を open に渡すように修正。また CSV#
+initialize で option に :encoding, :internal_encoding を受けとって利用するよう
+に変更しています。
