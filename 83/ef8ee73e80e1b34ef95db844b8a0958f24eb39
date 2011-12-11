@@ -1,0 +1,4 @@
+clone_const() を st_foreach() に渡した時に関数の型の違いを吸収するために
+clone_const_i() というラッパ関数を定義して利用するようにしています。また
+ins_methods_push() のラッパである ins_methods_i() 等の一群の関数も引数の型を変
+更しています。
