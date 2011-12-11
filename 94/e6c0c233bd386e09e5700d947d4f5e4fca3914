@@ -1,0 +1,3 @@
+r29868 で今度は [DEL:default_external が us-ascii の時(?):DEL]文字列のエンコー
+ディングが ASCII-compatible なものだった時に inspect した時の結果がおかしくなっ
+ていたので再修正。
