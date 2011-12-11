@@ -1,0 +1,2 @@
+関数マクロ rb_enc_step_back() が onigenc_step_back() に渡す第4引数は int にキャ
+ストするようにしています。おそらく警告除去？
