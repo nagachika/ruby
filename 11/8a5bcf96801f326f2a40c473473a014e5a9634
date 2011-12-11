@@ -1,0 +1,3 @@
+test/testunit/test_parallel.rb が環境によって時々 1つ Failure になるのを修正。
+テストケースの実行順序は変化し得るので、それを想定したチェックにしました。
+[ruby-dev:43300] [Bug #4466]
