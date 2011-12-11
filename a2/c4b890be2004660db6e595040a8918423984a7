@@ -1,0 +1,3 @@
+SystemExit で、ということはつまり Kernel#exit でということですが、プロセスを終
+了する時に ruby_vm_destruct を呼んで VM と objspace の解放処理をするようにして
+います。おそらく次のコミットのための準備だと思います。
