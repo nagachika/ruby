@@ -1,0 +1,5 @@
+Test::Unit::Assertions に assert_include を assert_includes の alias、
+assert_not_include を assert_no_includes の alias として追加。assert_no_match
+の alias は削除されています。test/ の下で assert_includes を利用しているものは
+assert_include に変更されています。これもtest-unitとの互換性向上のためでしょう
+。昨日追加した assert_no_match は消してしまって良かったんでしょうか?
