@@ -1,0 +1,10 @@
+rubygems/source_index.rb で gem パッケージの gemspec ファイルを読み込む時に
+File.binread を用いるようにしています。これは gemspec ファイルに UTF-8 の文字が
+含まれている時などに、エンコードを指定するマジックコメントが含まれるのですが、
+Encoding.default_encoding が指定されているとエンコード変換が自動で行なわれてし
+まって内容を eval した時にエンコード不一致が起きてしまうためです。
+そうか、File.binread で読んでしまえば変換はされないんですね。文字列のエンコード
+も揃えないといけないんじゃないかと File.read(path, :encoding => "UTF-8:UTF-8")
+みたいな指定をして警告が出るのでどうすればいいのだろうかと思ってました。
+ただしこれにより make test-all で test_self_load_specification_utf_8
+(TestGemSourceIndex) が Failure になっています。
