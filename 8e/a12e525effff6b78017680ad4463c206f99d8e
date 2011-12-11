@@ -1,0 +1,2 @@
+例によって Pathname#directory? を Ruby スクリプトから C の拡張ライブラリへ移動
+しています。
