@@ -1,0 +1,2 @@
+minitest 修正。 --gc-stress オプションをつけると GC.stress = true にしてテスト
+を実行するようになるらしい。
