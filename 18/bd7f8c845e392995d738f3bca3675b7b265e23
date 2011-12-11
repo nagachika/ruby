@@ -1,0 +1,3 @@
+export されるシンボルの prefix('_' などが付くことがあるようです)を
+SYMBOL_PREFIX という変数にして、win32/mkexports.rb でシンボルにマッチさせる正規
+表現に利用するようにしています。
