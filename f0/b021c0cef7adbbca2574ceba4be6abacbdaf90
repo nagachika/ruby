@@ -1,0 +1,3 @@
+rb_cloexec_dup() においても fcntl(2) で file descriptor を複製する時に標準入力/
+標準出力/標準エラー出力が複製先にならないようにして、これらの file descriptor
+に close-on-exec フラグが立たないようにしています。
