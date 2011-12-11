@@ -1,0 +1,2 @@
+psych で Psych::JSON の autoload に "psych/json" を設定していたのをやめて事前に
+require するようにしています。何かまずいことがあったのでしょうか。
