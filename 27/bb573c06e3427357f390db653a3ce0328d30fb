@@ -1,0 +1,1 @@
+ext/openssl/ossl_pkey_dsa.c の関数マクロの引数にかっこをつける修正です。
