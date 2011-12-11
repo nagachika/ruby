@@ -1,0 +1,2 @@
+Test::Unit::Runner::Worker#read (並列テスト用の子プロセスとの通信用クラス)で IO
+#read や IO#gets が EOF に達して nil を返す場合を考慮するように修正。
