@@ -1,0 +1,8 @@
+同じく OptionParser を利用しているコマンドの補完機能の zsh 版です。
+今度は misc/rb_optparse.zsh をロードしてから
+$ generate-complete-function/ruby/optparse COMMAND1
+のように一度だけ実行しておけば後は補完が効きます(~/.zshrc で compinit を呼んで
+いる必要があるかもしれません)。zsh は補完候補の設定をファイルに記載して置いてお
+くディレクトリがあるので、一度そこにファイルをインストールすれば起動ごとに
+rb_optparse.zsh を読み込む必要はありません。
+というか、zsh の関数には "/" を含めることができるんですね、初めて知りました。
