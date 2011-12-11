@@ -1,0 +1,4 @@
+IO を close した時に例外を受けとれるように GVL を解放して blocking region に突
+入するための API rb_thread_io_blocking_region() を ruby/intern.h から
+internal.h へ移動しています。この API はささださんが反対していたのでこれから議
+論するため非公開にしているということだと思います。 [ruby-dev:43698]
