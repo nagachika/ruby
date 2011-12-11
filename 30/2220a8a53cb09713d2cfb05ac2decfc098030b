@@ -1,0 +1,2 @@
+rb_fix2ushort() で rb_num2ushort() を num2uint() に typo していてコンパイル失敗
+していたのを修正。
