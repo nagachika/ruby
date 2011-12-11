@@ -1,0 +1,4 @@
+で rb_str_new_shared() は元と klass を共有してしまうので、rb_str_resurrect() と
+いう klass を rb_cString(String クラスを格納している CRuby インタプリタ内の変数
+)に指定する関数を使うことで内部用ではない文字列を明示的に作って返すようにしてい
+ます。
