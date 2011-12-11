@@ -1,0 +1,3 @@
+r33112 で RB_GC_GUARD() を追加しているのを revert しています。RB_GC_GUARD は
+VALUE 型の変数に利用するはずですが reg_cfp (rb_control_frame_t *)に使われていま
+した。
