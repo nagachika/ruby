@@ -1,0 +1,2 @@
+Net::BufferedIO という IO を wrap するクラスで #eof? メソッドをバイパスするよう
+にしています。
