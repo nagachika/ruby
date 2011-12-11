@@ -1,0 +1,3 @@
+openssl が no-ssl2 オプションつきでビルドされている時に openssl 拡張ライブラリ
+のビルドに失敗するので、extconf.rb で SSLv2_method などの関数をチェックするよう
+にしています。 [Bug #4562] [Bug #4556]
