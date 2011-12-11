@@ -1,0 +1,3 @@
+template/yarvarch.ja のエンコーディングを UTF-8 に変更しています。
+yarvarch.(en|ja) って何だろう……と grep してみると tool/instruction.rb で YARV
+のドキュメントを生成するために読んでいるようですね。
