@@ -1,0 +1,5 @@
+stdlib.h と stddef.h の include 位置を ruby.h から defines.h へ移動。また
+missing.h で stddef.h を include する時に HAVE_STDDEF_H をチェックしないように
+しています。stddef.h は環境に依存しない(常にある)? そんな気がしますね。けど
+stdlib.h は HAVE_STDLIB_H をチェックしているので stdlib.h が存在しない環境って
+いうのはあるんですね。
