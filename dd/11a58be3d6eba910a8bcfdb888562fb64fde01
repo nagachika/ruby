@@ -1,0 +1,5 @@
+ext/readline/extconf.rb に --disable-libedit を指定した時の動作が --(enable|
+disable)-libedit を指定しなかった時(libreadline でも libedit でもみつかったほう
+を使う)になっていたので、 libedit は利用しないようにしています。
+[ruby-dev:41492] [Feature #3375]
+なおコミットログと ChangeLog には fix #4550 とありますが #3375 ですよね。
