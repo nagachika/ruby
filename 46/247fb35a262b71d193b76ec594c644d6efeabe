@@ -1,0 +1,2 @@
+RubyGems の Gem::StreamUI#tty? で RUBY_VERSION の条件判定は反転していたのを修正
+。
