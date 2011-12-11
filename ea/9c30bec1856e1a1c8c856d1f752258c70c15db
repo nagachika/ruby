@@ -1,0 +1,1 @@
+rake の Rake::VERSION と Rake::Version::NUMBERS の作りかたを少し変更。
