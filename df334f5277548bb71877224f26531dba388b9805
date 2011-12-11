@@ -1,0 +1,3 @@
+Test::Unit の起動時のオプションに --ruby が指定されていなかった時のデフォルトが
+RbConfig.ruby になっていたけど配列にしておかないといけなかったので [ RbConfig.
+ruby ] に修正しています。 [ruby-dev:44782]
