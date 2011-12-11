@@ -1,0 +1,3 @@
+r33668 で FreeBSD の posix_openpt() への O_CLOEXEC フラグの対応状況についてのコ
+メントに URL を追記しています。参考 URL: http://www.freebsd.org/cgi/
+query-pr.cgi?pr=162374
