@@ -1,0 +1,2 @@
+RB_CONDATTR_CLOCK_MONOTONIC を常に定義するようにしています。 CLOCK_MONOTONIC が
+利用可能な時だけ定義していました。
