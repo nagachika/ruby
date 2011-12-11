@@ -1,0 +1,2 @@
+OpenSSL::ASN1.decode で不正なデータを decode しようとして SEGV することがある不
+具合を修正。tag の判定文が間違っていたのを修正。 [ruby-dev:44542] [Bug #5363]
