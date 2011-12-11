@@ -1,0 +1,2 @@
+移植した strftime のうち struct timespec を利用するコードは未使用なので削除して
+います。
