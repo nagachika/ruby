@@ -1,0 +1,2 @@
+REXML::FOrmatters::Pretty の整形出力で width の指定を無視して 80桁固定になって
+いたのを修正。 [ruby-core:35551] [Bug #4498]
