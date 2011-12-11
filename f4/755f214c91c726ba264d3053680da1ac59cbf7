@@ -1,0 +1,6 @@
+Mac OS X で fdatasync(2) は使えないのに configure 時にあると検出されてしまうの
+で明示的に off にしています。[ruby-core:35493][Bug #4500]
+なんとなく既視感が、と思って過去ログをあさってみました。2011-01-30 にほぼ同じ修
+正が入って、2011-02-08 で revert したものです。fdatasync() に失敗したら fsync()
+に fallback するようにしたからですね。けど Mac OS X で fdatasync() の prototype
+宣言がないと警告がでるのでやっぱり off にしています。
