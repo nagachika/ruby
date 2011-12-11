@@ -1,0 +1,3 @@
+test/test_tempfile.rb の Windows 環境で skip しているテストのいくつかを明示的な
+skip ではなくてテストメソッド自体を Windows 環境では定義しないように変更してい
+ます。
