@@ -1,0 +1,2 @@
+openssl のテストのいくつかで MiniTest::Unit::TestCase を直接継承していたものを
+Test::Unit::TestCase を継承するように修正しています。 [ruby-core:37275]
