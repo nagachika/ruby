@@ -1,0 +1,2 @@
+dl/win32/registry.rb の RegCreateKeyExA() のシグネチャを修正しています。[Bug #
+4203]
