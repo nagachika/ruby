@@ -1,0 +1,4 @@
+test/openssl/test_ec.rb の内容を test/openssl/test_pkey_ec.rb へ移動しています
+。また OpenSSL::PKey::EC のテスト用の鍵を作成するのは EC が利用可能な時だけにす
+るようにしています。openssl のバージョンによってテストがエラーになっていました
+。
