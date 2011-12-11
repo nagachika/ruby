@@ -1,0 +1,3 @@
+BigDecimal を生成するメソッド Kernel#BigDecimal() が BigDecimal を引数に受け付
+ける(複製を返す)ようにしています。そのために VpDup という関数を追加しています。
+[ruby-dev:44245]
