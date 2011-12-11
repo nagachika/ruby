@@ -1,0 +1,5 @@
+UNIXSocket.sendmsg の rdoc の使用例を更新しています。
+Socket::AncillaryData.unix_rights というメソッドがあるんですね。 SCM_RIGHTS と
+いうと、UNIX ドメインソケットを使って他のプロセスにファイルディスクリプタを転送
+するやつの、設定(ファイルディスクリプタ)を wrap するクラスが導入されていたので
+すね。
