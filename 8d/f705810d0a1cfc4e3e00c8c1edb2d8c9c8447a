@@ -1,0 +1,3 @@
+Ruby の 18歳の誕生日に導入された make の love ターゲットが make up all test
+install test-all を一気に実行するターゲットとして定義されなおしています。これか
+ら Rubyist にとって make love と言えば ruby のテストのことですね。
