@@ -1,0 +1,3 @@
+IO#advise で引数に :normal, :sequential, :random, :willneed, :dontneed,
+:noreuse 以外のシンボルが渡された時に NotImplementedError が raise されるように
+なりました。ありがとうございます。 [Feature #4204]
