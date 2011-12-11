@@ -1,0 +1,8 @@
+で、再度修正。case 文を使って UNASSIGNED の時は別途 caller の調整をスキップさせ
+つつ msg を nil に初期化しなおしています。
+case 文だと when の右辺値とは
+case msg
+when UNASSIGNED
+...
+の場合 UNASSIGNED === msg で比較するので大丈夫ですね。Object#=== は Object#==
+と同一なので。
