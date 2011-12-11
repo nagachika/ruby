@@ -1,0 +1,2 @@
+Net::SMPT::Response.parse の定義方法を少し変更(def Response.parse じゃなくて
+def self.parse の記法を使用)して、テストをさらに追加しています。
