@@ -1,0 +1,3 @@
+r33587 での NetBSD の pipe2(2) が正の整数を返すことの workaround を削除していま
+す。これは NetBSD の不具合として修正されたそうです。 (参考URL: http://
+gnats.netbsd.org/cgi-bin/query-pr-single.pl?number=45545 )
