@@ -1,0 +1,2 @@
+Windows 版にて Process.kill で pid に 0 を指定すると EINVAL の例外になっていた
+のを修正。 [ruby-dev:43421] [Bug #4596]
