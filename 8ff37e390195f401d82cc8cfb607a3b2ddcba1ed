@@ -1,0 +1,3 @@
+test/psych/test_yamlstore.rb の YAMLStoreTest も同様に Psych::TestCase を継承す
+るようにしています。それに伴ない assert_raise -> assert_raises に変更。うーんこ
+れは何故だろう?
