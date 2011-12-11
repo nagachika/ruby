@@ -1,0 +1,2 @@
+Windows で rubystub.exe のターゲットの依存関係に LIBRUBY を追加するなどの
+Makefile.sub の修正。
