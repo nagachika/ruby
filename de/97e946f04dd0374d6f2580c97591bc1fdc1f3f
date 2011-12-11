@@ -1,0 +1,6 @@
+Matrix#diagonal? Matrix#hermitian? Matrix#lower_triangular? Matrix#normal?
+Matrix#orthogonal? Matrix#permutation? Matrix#symmetric? Matrix#unitary? Matrix
+#upper_triangular? Matrix#zero? といった Matrix の性質を調べて返すメソッドを追
+加しています。テス……ぐふっ
+ちなみに permutation matrix って何だったっけと思いましたが、正方行列のうちどの
+行、列をみても1つだけ1であとは0になってるような行列でした。
