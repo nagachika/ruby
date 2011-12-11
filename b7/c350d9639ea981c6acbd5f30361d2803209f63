@@ -1,0 +1,2 @@
+これは FreeBSD 用。IO.popen のテストの1つ(test_popen_fork)が FreeBSD では動かな
+いらしいので skip するようにしています。
