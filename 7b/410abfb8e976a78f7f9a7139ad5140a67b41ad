@@ -1,0 +1,6 @@
+同じく signal.c の gcc のビルトイン関数を使うようにした修正について、条件コンパ
+イルの条件が gcc 4 以降だと Mac OS X の Xcode の gcc だと利用できないらしいので
+、configure で利用できるかチェックしてその定数 HAVE_GCC_ATOMIC_BUILTINS を使う
+ようにしています。
+わたしも Snow Leopard でビルドしていますが、上の typo の影響で顕在化していなか
+ったみたいです。
