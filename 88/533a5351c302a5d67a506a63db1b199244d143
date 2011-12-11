@@ -1,0 +1,2 @@
+rb_threadptr_revmove_event_hook -> rb_threadptr_remove_event_hook という非公開
+関数名の typo 修正。
