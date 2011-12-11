@@ -1,0 +1,3 @@
+Encoding の "SJIS" は Shift_JIS ではなくて Windows-31J へのエイリアスにしていま
+す。また "PCK" をやはり "Windows-31J" のエイリアスとして追加しています。
+[ruby-dev:43027] [Feature #4280]
