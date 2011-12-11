@@ -1,0 +1,6 @@
+add_signal_thread_list()/remove_signal_thread_list で xmalloc/xfree を用いて
+struct signal_thread_list を確保/解放するようにしています。
+xmalloc は GC が走る可能性と、確保失敗時に例外が発生する可能性があるので、
+FGLOCK でロック取得中に例外発生すると signal_thread_list_lock を取りっぱなしに
+なってしまう危険がありそうです。まあ malloc が失敗しても FATAL で強制終了なんで
+すけど。
