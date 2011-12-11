@@ -1,0 +1,3 @@
+[ruby-dev:43392] で報告されているように StringIO#readline や StringIO#each_line
+で引数(limit)に 0 を渡すと無限ループに陥る不具合の修正です。引数のチェックを追
+加しています。
