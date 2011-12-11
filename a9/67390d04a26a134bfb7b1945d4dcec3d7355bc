@@ -1,0 +1,3 @@
+r31933 で lib/net/http.rb で OpenSSL の読み込みのために autoload を使うのをやめ
+て必要に応じて require するようにしていたのを、また autoload を利用するように戻
+しています。
