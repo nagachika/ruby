@@ -1,0 +1,2 @@
+Array.new の rdoc の英文の修正。サンプル(call-seq)の書きかたと first, second
+... などの単語をそろえています。 [ruby-core:39645] [Bug #5344]
