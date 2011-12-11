@@ -1,0 +1,1 @@
+rb_fd_init() の引数の volatile 指示子を削除しています。
