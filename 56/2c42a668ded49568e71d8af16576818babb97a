@@ -1,0 +1,9 @@
+lib/set.rb で initialize の再定義の警告を抑制するために、再定義前に old_init と
+いうメソッドに alias した上でこれを remove_method で削除しているのですが、この
+方法で警告が抑制できるかどうかは GC のタイミングに依存するそうなので、まず
+remove_method での old_init の削除をやめています。 [ruby-dev:44892]
+警告を出力している部分(vm_method.c の rb_method_entry_make())を見ると、元の定義
+の method entry に alias_count というメンバがあって、これが 0 でなければ警告を
+出力しないのですが、alias したメソッドをすぐに remove_method で消して GC で回収
+されてしまうと、結局 alias した method entry も削除されて alias_count が 0 に戻
+ってしまうからでしょう、きっと。
