@@ -1,0 +1,4 @@
+拡張ライブラリ io/console で IO に追加されるメソッドの rdoc について、require
+"io/console" してから使うことを示唆する記述を追加しています。また io.c のコメン
+ト(rdoc)にも io/console で追加されるメソッドについて記述しています。うーん io.c
+に書く必要はあるのかな……。 [ruby-core:40868] [Bug #5602]
