@@ -1,0 +1,2 @@
+Tempfile.mkdir/rmdir はロックのために利用していたので名前を lock_tempfile/
+unlock_tempfile と変更しています(処理は同じ)。
