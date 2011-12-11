@@ -1,0 +1,2 @@
+同じく consume_communication_pipe() で配列の宣言で配列のサイズに変数を使うのを
+やめています。
