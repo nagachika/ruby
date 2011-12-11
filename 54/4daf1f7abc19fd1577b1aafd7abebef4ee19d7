@@ -1,0 +1,3 @@
+OpenSSL::SSL::Session#time= と OpenSSL::SSL::Session#timeout= の実装はマクロで
+共有されていたのですが、timeout= のほうは Time を受け付けないのが正しいので分離
+して、型のチェック部分を変更しています。 [Bug #4919]
