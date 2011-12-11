@@ -1,0 +1,3 @@
+Fiber#resume や Fiber#transfer の呼び出しがその同じ Fiber 内で実行された場合に
+、Fiber の切り替え処理をスキップして単に引数の値を返すだけにしています。
+FreeBSD 9 で Fiber のテストが SEGV するのを回避しているそうです。
