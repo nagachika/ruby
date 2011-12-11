@@ -1,0 +1,6 @@
+native_cond_timedwait() に渡すタイムアウト時刻を計算する関数が似たものがいくつ
+かあったのを native_cond_timeout() として定義してこれを利用するようにしています
+。クロックの種類が CLOCK_MONOTONIC の時は clock_gettime() を使って時刻を取得す
+るようにしています。
+また mutex_alloc() でも native_cond_initialize() に RB_CONDATTR_CLOCK_MONOTONIC
+を渡すようにしています。
