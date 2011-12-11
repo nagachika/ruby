@@ -1,0 +1,2 @@
+OpenSSL::PKey::DH の rdoc で public_key と pub_key の差が明確になるように記述を
+追加しています。
