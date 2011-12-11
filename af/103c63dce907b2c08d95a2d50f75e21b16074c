@@ -1,0 +1,4 @@
+autoload を設定した Module をさらに他の Class や Module に include して、そこで
+autoload? で検査した時に nil がかえるようになっていたので、設定されているスクリ
+プト名(require に渡す名前)をかえすようにしています。 [ruby-core:35679] [Bug #
+4565]
