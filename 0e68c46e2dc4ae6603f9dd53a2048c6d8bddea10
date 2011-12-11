@@ -1,0 +1,2 @@
+rsock_socket() から socket(2) を呼び出して close-on-exec フラグをセットするとこ
+ろを rsock_socket0() という関数に切り出しています。
