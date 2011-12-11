@@ -1,0 +1,2 @@
+win32/win32.c に rb_w32_fdcopy() を追加して Windows 版でも FD_SETSIZE を越える
+fdset を正しくコピーできるように実装しています。
