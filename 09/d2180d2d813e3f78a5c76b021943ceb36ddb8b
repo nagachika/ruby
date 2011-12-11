@@ -1,0 +1,4 @@
+dbm の extconf.rb で DBM 型をチェックする際に Darwin では db.h と gdbm.h を #
+include しないといけないらしいということで have_type に追加のヘッダを渡したチェ
+ックも試行していたのですが、どうも必要ないんじゃないかということでやめています
+。 [ruby-dev:44884] SnowLeopard でも dbm.bundle ビルド成功していました。
