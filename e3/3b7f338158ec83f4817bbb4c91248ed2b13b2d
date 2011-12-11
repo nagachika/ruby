@@ -1,0 +1,15 @@
+mkmf.rb に convertible_int というメソッドが追加されています。型名を渡すとそれを
+基本型で表現した型の文字列を返してくれます。実装はけっこうゴツいので深追いして
+いませんが、ちょっと irb で実行してみたら、これおもしろいというか便利ですね。
+>> require "mkmf"
+=> true
+>> convertible_int("size_t")
+checking for convertible type of size_t... unsigned int
+=> "unsigned int"
+>> convertible_int("pid_t")
+checking for convertible type of pid_t... int
+=> "int"
+>> convertible_int("FILE")
+checking for convertible type of FILE... failed
+=> nil
+整数型で表現できない型の時は nil になるようです。
