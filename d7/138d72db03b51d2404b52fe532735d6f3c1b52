@@ -1,0 +1,3 @@
+FileUtils のテストのファイル権限の仕様と SIGCHLD のシグナルハンドラと wait(2)
+の関係について FreeBSD では除外していたテストが OpenBSD でも同様の問題があった
+ことが確認できていたので skip 条件に追加しています。 [ruby-core:38530]
