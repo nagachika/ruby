@@ -1,0 +1,2 @@
+Windows XP 以前だと ENV.delete で環境変数を削除すると例外が発生してしまっていた
+ののを修正。[ruby-core:32353]
