@@ -1,0 +1,1 @@
+Module#constant は private constants を返さないようにしています。
