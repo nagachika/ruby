@@ -1,0 +1,6 @@
+OpenBSD 向けの configure.in の修正です。最近 OpenBSD の開発者の Jeremy Evans さ
+んが ruby-core で、というか 1.9.3 のサポートプラットフォームについてのチケット
+で ruby のビルドやテストの実行について協力してくださっているので OpenBSD での動
+作用の修正がぽつぽつ入ってきています。これはコンパイラオプションで pthread ライ
+ブラリを指定するのが OpenBSD では -lpthread という形式じゃなくて -pthread と書
+くらしいのでプラットフォームをみて変更しています。 [ruby-core:38572]
