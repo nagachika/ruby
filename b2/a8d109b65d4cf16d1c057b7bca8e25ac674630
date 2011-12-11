@@ -1,0 +1,2 @@
+fcntl/ioctl の間の GVL 解放に rb_thread_io_blocking_region() を使うように変更さ
+れています。
