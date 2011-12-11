@@ -1,0 +1,2 @@
+ext/dbm/extconf.rb の gdbm_compat というライブラリを検出する用のデータのコメン
+トに libgdbm_compat の出自を追記しています。
