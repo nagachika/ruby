@@ -1,0 +1,5 @@
+.gitignore のエントリの /ext/ の下のファイル群などをまとめて記述するなどコンパ
+クトにまとめています。
+なのですが Linux の git 1.7.1 および 1.7.3.3 では "**" の表記に対応していないみ
+たいで、/ext/ の下2つ以上ネストしたサブディレクトリ内の mkmf.log, extconf.h,
+Makefile が git status で Untracked files として表示されてしまっていました。
