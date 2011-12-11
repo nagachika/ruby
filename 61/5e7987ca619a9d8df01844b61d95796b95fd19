@@ -1,0 +1,4 @@
+ドキュメント追加のパッチです。 bject#hash, rexml で追加される Object#dclone
+etc, REXML::XPath::EMPTY_HASH, REXML::QuickPath::EMPTY_HASH, mkmf.rb, Addrinfo#
+connect_internal など。 [Bug #4664]
+Object#hash のは桁が長いので少し改行を調整したほうが良さそうですね。
