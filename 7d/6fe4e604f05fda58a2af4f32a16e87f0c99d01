@@ -1,0 +1,1 @@
+make test で verbose mode の時に改行の出力がいくつか追加されています。
