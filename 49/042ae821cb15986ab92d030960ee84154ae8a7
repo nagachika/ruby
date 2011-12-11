@@ -1,0 +1,3 @@
+GC の動作を変更するマクロ GC_PROFILE_MORE_DETAIL, CALC_EXACT_MALLOC_SIZE は設定
+しても問答無用で 0 に定義されてしまって無効になっていたので、未定義の時だけ 0
+に define するようにしています。 [ruby-core:39326] [Feature #5291]
