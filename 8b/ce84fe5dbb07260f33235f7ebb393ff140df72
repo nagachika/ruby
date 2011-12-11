@@ -1,0 +1,1 @@
+Process.euid= の関数 proc_seteuid_m() の引数が間違っていたのを修正。
