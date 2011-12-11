@@ -1,0 +1,3 @@
+ruby-mode.el のコンパイル時警告除去だそうです。参考URL: http://bugs.debian.org/
+cgi-bin/bugreport.cgi?bug=502926
+make-variable-buffer-local のかわりに make-local-variable を使うなど。
