@@ -1,0 +1,10 @@
+r33303 で vm_call_cfunc() の引数 reg_cfp を最適化から保護するために RB_GC_GUARD
+() を使っていましたが、その中身の RB_GC_GUARD_PTR() マクロを利用して、(volatile
+VALUE *) へのキャストを付けるようにしています。
+あとコミットログに "note that `volatile type *var' doesn't make var itself
+volatile." て書かれていて、volatile type *var だと var が指す先が volatile であ
+って var そのものが volatile じゃないので、type * volatile var でないといけなか
+ったんじゃないかってことですね、多分。ただ volatile がついててもその変数が利用
+されなくなった位置では最適化でその変数(のメモリやレジスタ上の領域)が消される可
+能性はあるので RB_GC_GUARD() のようなコンパイラを騙す方法を取るほうが良いという
+のが最近の定説です。
