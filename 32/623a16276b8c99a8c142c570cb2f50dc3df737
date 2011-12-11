@@ -1,0 +1,5 @@
+test/profile_test_all.rb を追加して make test-all のメモリプロファイルを取るこ
+とができるようにしています。このメモリプロファイルを on にするには
+$ RUBY_TEST_ALL_PROFILE=true make test-all
+のように環境変数 RUBY_TEST_ALL_PROFILE を "true" に設定します。環境変数の値は正
+確に "true" でなくてはいけません。1 とか TRUE だとだめです。
