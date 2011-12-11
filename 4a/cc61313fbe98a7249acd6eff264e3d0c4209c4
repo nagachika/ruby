@@ -1,0 +1,5 @@
+vm の at_exit の実行を ruby_cleanup() から ruby_vm_destruct() で object space
+が解放された後にタイミングを移動しています。終了ステータスの確定などの処理をし
+た後に遅らされています。at_exit の関数ポインタは Array オブジェクトに格納されて
+いますが、この Array は rb_vm_t に struct RVALUE ごと埋め込まれているものなので
+object space を消した後でも使えるのですね。
