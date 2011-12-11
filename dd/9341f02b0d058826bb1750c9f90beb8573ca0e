@@ -1,0 +1,2 @@
+assert_block の定義を FileUtils のテスト用ユーティリティでの再定義から lib/test
+/unit/assertions.rb に移動しています。
