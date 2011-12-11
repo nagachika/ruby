@@ -1,0 +1,5 @@
+test/ruby/test_module.rb で Module#ancestors のテストのために、Object に
+include されている可能性のあるモジュールを除外する処理を個別に書いていたのです
+が、おもいきって Object.ancestors から期待している Class/Module 以外を一括で除
+外してしまってチェックするようにしています。
+このテストを子プロセスできれいな状態で実行できればいいんでしょうけど。
