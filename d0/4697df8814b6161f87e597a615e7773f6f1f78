@@ -1,0 +1,3 @@
+r32702 で Mac OS X では __syscall が存在するのに宣言されていないというので
+include/ruby/missing.h に宣言を追加していましたが、OpenBSD も同じだったようで条
+件に追加しています。
