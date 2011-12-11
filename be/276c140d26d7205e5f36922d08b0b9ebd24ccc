@@ -1,0 +1,3 @@
+正規表現で Unicodeプロパティ名 /\p{Other_Default_Ignorable_Code_Point}/ を使う
+と SyntaxError 例外になる不具合を修正しています。プロパティ名の最大長のマクロ定
+義が1つ足りなかったのが理由でした。 [ruby-dev:44894] [Bug #5652]
