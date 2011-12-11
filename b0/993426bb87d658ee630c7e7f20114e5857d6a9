@@ -1,0 +1,2 @@
+VC++で --enable-tcltk-stubs を有効にしてmakeすると、ヘッダファイルの指定方法の
+違いで tk のビルドに失敗するのを修正。[Bug #3771] [ruby-dev:42159].
