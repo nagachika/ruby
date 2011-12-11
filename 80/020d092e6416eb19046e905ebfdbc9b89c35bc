@@ -1,0 +1,2 @@
+Test::Unit::Runner::Worker#initialize がキーワード風引数(ハッシュを引数に取る)
+を受け取っていたのを普通の引数にしています。
