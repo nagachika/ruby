@@ -1,0 +1,3 @@
+thread_win32.c と include/ruby/win32.h に関数のプロトタイプ宣言を追加しています
+。 thread_win32.c のほうは r31382 で削除されたものの復活ですが、include/ruby/
+win32.h の rb_w32_subtract() の宣言は2つになってしまっていますね。
