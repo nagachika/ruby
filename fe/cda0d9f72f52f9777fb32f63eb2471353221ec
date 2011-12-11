@@ -1,0 +1,6 @@
+r33201 で $SAFE が 3 以上の時に Encoding 用のライブラリを require する時に
+SecurityError を発生させる問題に対処するために汚染フラグを落として require に渡
+すようにしていましたが、$SAFE が 4 だと結局例外が発生するらしく Encoding のロー
+ドに失敗してしまうので、require_enc() と load_transcoder_entry() で
+rb_require_safe() に渡す safe_level を 3 以上だったら 3に丸めて渡すようにしてい
+ます。 [ruby-dev:44541] [Bug #5279]
