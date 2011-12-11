@@ -1,0 +1,2 @@
+include/ruby/win32.h の frexp, modf マクロについては GPL と書かれていましたが
+Ruby's に改められています。
