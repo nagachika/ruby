@@ -1,0 +1,2 @@
+r33766 の assert_raises の修正でテストに pass した時に assert 自体が呼ばれなく
+なっていたので exception_details を呼ぶところだけ分岐するようにしています。
