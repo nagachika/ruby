@@ -1,0 +1,3 @@
+ruby_1_9_2 のブランチから r31402 のうち Thread.kill に不正な引数(Thread でない
+オブジェクト)を渡した時のテストを forward port しています。 [ruby-core:35086]
+[Backport #4367]
