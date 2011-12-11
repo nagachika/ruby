@@ -1,0 +1,4 @@
+C の API の rb_path2class() (A::B といった表記から Class/Module を取得する)で、
+未定義だったんだけど path の最後の名前(basename に相当するもの)がトップレベルに
+存在する名前だと、ArgumentEror が発生すべきところが NameError が発生するのを修
+正しています。 [ruby-core:41410] [Bug #5691]
