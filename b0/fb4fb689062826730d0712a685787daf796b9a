@@ -1,0 +1,2 @@
+OpenSSL::Digest の rdoc 用のコメントを追加しています。 [ruby-core:38833] [Bug #
+5166]
