@@ -1,0 +1,5 @@
+numeric.c の rb_num2ull() で Float からの変換の処理(やその他の例外処理)を
+rb_num2ll() (unsigned なし版)を unsigned LONG_LONG にキャストするだけにしていた
+のを自前で同様の処理をするようにしています。signed LONG_LONG で返させて
+unsigned LONG_LONG にキャストする方法だと 18446744073709551615 =
+0xffffffffffffffff を処理することができません。
