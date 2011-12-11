@@ -1,0 +1,5 @@
+DEFAULT_TEXTMODE が真の時(Windows 環境)に IO.pipe の mode の指定で
+FMODE_BINMODE が立ってたら FMODE_TEXTMODE を落とすようにしています。IO オブジェ
+クトを生成した時に DEFAULT_TEXTMODE を付加するのでバイナリモードの指定があった
+時(option 引数で指定した時?)に両方が on になってしまうことがあるようです。いや
+ー IO の初期化はとても込み入ってますね。これで合ってるでしょうか……。
