@@ -1,0 +1,2 @@
+Hash#inspect の結果の文字列の Encoding が最初のキーを inspect した結果の
+Encoding を使うようにしています。
