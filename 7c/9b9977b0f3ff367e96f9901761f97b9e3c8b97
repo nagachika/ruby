@@ -1,0 +1,3 @@
+r33153 で Windows 環境では skip されたテストと同様のテストを Fiber を使ったテス
+トで書いています。あちらは Win32OLE が Thread#initialize を書き換えることが原因
+だったので Fiber を使っているのでこっちは大丈夫のはず。
