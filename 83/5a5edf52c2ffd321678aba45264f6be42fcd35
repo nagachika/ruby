@@ -1,0 +1,5 @@
+Makefile.in は CPP を @CPP@ キーワードで configure で置き換えさせる。
+cygwin/GNUmakefile.in では @DLLWRAP@ コマンドに --driver-name オプション、
+@WINDRES@ コマンドに --preprocessor オプションと -DRC_INVOKED を指定させるよう
+に定義しています。[ruby-core:32776] によると llvm-gcc でコンパイルするための修
+正だそうです。
