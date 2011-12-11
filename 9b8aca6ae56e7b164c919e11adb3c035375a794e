@@ -1,0 +1,4 @@
+load_file() に渡すファイルパスを const char * から VALUE (String オブジェクト)
+に変更しています。 open(2) に渡す文字列は Windows ではファイルシステムのエンコ
+ーディングでないといけないため、rb_str_encode_ospath() という関数を呼んで必要な
+エンコーディング変換をするようにしています。
