@@ -1,0 +1,2 @@
+FileUtils#chmod のテストで FreeBSD では通常ファイルに sticky bit を付与できない
+のでスキップしていたところは NetBSD でも同様だったようで条件に追加しています。
