@@ -1,0 +1,2 @@
+ext/json/parser/prereq.mk で ragel という parser generator で自動生成したソース
+コードの行末の空白を削除するルールを追加しています。そこまでしますか。
