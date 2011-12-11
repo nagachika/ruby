@@ -1,0 +1,8 @@
+r30852 の操作中の IO(pipe や socket)を別の Thread から close すると IOError が
+発生するようにした修正で、test/xmlrpc/webrick_testing.rb で IOError が発生して
+失敗していたものの対処です。rb_thread_t::waiting_fd を
+rb_thread_io_blocking_region() で設定した後リセットしていなかったので -1 に戻す
+ようにしています。例外を送信する時の判定で waiting_fd 以外の条件も見ているので
+すが、別の blocking_region に入るところで誤判定されるようなケースがあるのか、本
+来その IO の操作を終えた後に rb_thread_t::errinfo に IOError がセットされてしま
+うことがあるようでした。
