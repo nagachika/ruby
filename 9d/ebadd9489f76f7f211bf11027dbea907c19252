@@ -1,0 +1,2 @@
+include/ruby/ruby.h の NUM2???() や ???2NUM() のマクロの条件コンパイルの #else
+のところにコメント追加。
