@@ -1,0 +1,4 @@
+openssl のテストが OpenSSL のライブラリバージョンに依存していて、0.9.7 以前では
+対応していない TLS extension つきの PEM SSL セッションというのを使っていたので
+、extension なしのセッションを使うようにして extension つきのテストは OpenSSL
+のバージョンを確認して実行するようにしています。 [ruby-core:37726] [Bug #4961]
