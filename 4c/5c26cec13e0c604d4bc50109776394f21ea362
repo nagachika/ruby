@@ -1,0 +1,4 @@
+r33906 で Module#ancestors のテストで Object に include されているモジュールを
+除外するようにしましたが、json が String に JSON
+::Ext::Generator::GeneratorMethods::String を include することもあるので、それ
+も除外するようにしています。ううむ。
