@@ -1,0 +1,4 @@
+r32795 で XMLRPC のテストで起動する WEBrick の :BindAddress オプションに
+localhost を指定したのと同様に test/xmlrpc/webrick_testing.rb で起動している
+WEBrick サーバにも :BindAddress => "localhost" オプションを渡すようにしています
+。
