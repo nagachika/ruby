@@ -1,0 +1,4 @@
+OpenSSL::BN#prime? で rb_scan_args の引数が間違っていたという不具合の修正です。
+OpenSSL::BN なんてクラスがあったんですね。BN は BigNum の略で openssl での多倍
+長整数の実装(BIGNUM)のラッパーのようです。公開鍵ペアの作成などで内部的に利用す
+るんでしょうね。
