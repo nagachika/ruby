@@ -1,0 +1,2 @@
+rb_thread_select() の API 用のテストで assert_operator を利用するように変更して
+います。 assert_operator という assertion は知りませんでした。よし憶えた。
