@@ -1,0 +1,3 @@
+ruby.pc ファイルの雛形に LIBPATH, LIBRUBY, LIBRUBY_A, LIBRUBY_SO など変数を追加
+しています。mswin 向けの変数だそうです。また Makefile.sub で変数がみつからなか
+った(nil)のガードを入れて空文字列として扱うようにしています。
