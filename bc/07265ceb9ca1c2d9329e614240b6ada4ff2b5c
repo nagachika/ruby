@@ -1,0 +1,7 @@
+そして r33369 の修正は Thread のマーク時に自分自身を再度マークするようになって
+いたので、cont_mark で saved_thread をマークするのを rb_thread_mark() の呼び出
+しから rb_gc_make() の呼び出しに変更しています。
+ただ r33369 で直ったってことは rb_thread_t::self がその構造体を wrap している
+Thread オブジェクト自体じゃないことがあるってことで、saved_thread は
+rb_thread_t をコピーしているのでまさにその状態なのでこれだと今度は saved_thread
+の内容がマーク漏れになると思います。 [ruby-dev:44567] [Bug #5386]
