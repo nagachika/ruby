@@ -1,0 +1,2 @@
+OpenSSL::PKey::DH の rdoc 追記、OpenSSL::PKey::DSA のサンプルコードの修正をして
+います。
