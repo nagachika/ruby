@@ -1,0 +1,4 @@
+test/unit で minitest のライブラリのディレクトリを取得するために
+MiniTest::MINI_DIR という定数を参照していたのが警告が出るということで、とりあえ
+ず lib/test/unit/assertions.rb で MINI_DIR という定数を定義してしまうようにして
+います。
