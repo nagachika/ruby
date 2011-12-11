@@ -1,0 +1,1 @@
+r31326 のうち RSTRING_LEN を RSTRING_LENINT に変更した部分を元に戻しています。
