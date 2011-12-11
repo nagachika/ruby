@@ -1,0 +1,6 @@
+https プロトコルの SNI(Server Name Indication) という機能のサポートを Net::HTTP
+に追加しています。 SNI とは何かなと少し検索してみると、同じアドレスのマシンに複
+数のホスト名/ドメイン名を割り当てて見えるページを振り分けるというのを https(SSL
+)プロトコルでできるようにするための仕様のようです。 [ruby-dev:43164] 参考URL:
+http://stackoverflow.com/questions/4685736/
+openssl-server-name-indication-support-in-ruby
