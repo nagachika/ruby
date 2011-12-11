@@ -1,0 +1,2 @@
+test/ruby/test_require.rb のひとつのテストケースにまとめってた assert を分割し
+ています。
