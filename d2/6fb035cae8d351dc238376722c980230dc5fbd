@@ -1,0 +1,3 @@
+r30589 の rubuygems/source_index.rb での gemspec ファイル読み込みの修正を
+revert しています。lib/rubygems は外部リポジトリで管理されてるのでそちらと同期
+させるためには 1.8 compatible じゃないとだめとのこと。
