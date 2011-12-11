@@ -1,0 +1,4 @@
+で date/format.rb の require はやっぱり削除して timer.rb で require "date/
+format" を require "date" に変更しています。
+うーん不要な require は速度に影響するので標準ライブラリくらいは細かく制御したい
+ところですね。
