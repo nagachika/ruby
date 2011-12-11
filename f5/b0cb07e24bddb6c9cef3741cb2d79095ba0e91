@@ -1,0 +1,4 @@
+ブロックを受け取るメソッドについて Method#to_proc と Symbol#to_proc で作成され
+た Proc オブジェクトを call する時にブロックを渡しても効かない不具合の修正。ま
+た rb_funcall3 の類似の関数として rb_funcall_passing_block を新設しています。
+[ruby-core:32075]
