@@ -1,0 +1,2 @@
+Encoding::Converter.new の rdoc の :crlf_newline, :cr_newline オプションの説明
+を修正。
