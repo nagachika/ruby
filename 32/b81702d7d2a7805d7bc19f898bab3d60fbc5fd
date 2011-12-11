@@ -1,0 +1,1 @@
+test/rexml/test_encoding.rb に require 'rexml/document' を追加。
