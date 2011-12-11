@@ -1,0 +1,3 @@
+Timeout#timeout でタイマー用の Thread の停止確認の位置が問題で timeout 時の例外
+が意図せず発生してしまう可能性があったのを修正しています。 [ruby-core:34534]
+[Bug #4283]
