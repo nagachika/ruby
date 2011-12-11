@@ -1,0 +1,4 @@
+date/format.rb の Date._iso8601 や Date._rfc3339, Date._rfc2822,
+Date._httpdate, Date._jisx0301 などで Date._parse を呼び出していたのを正規表現
+へのマッチ結果を利用してそれぞれ独自に実装するようにしています。なぜこういうこ
+とになったんでしょう……。
