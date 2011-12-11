@@ -1,0 +1,1 @@
+Pathname#world_readable? が C の拡張ライブラリに移動されています。
