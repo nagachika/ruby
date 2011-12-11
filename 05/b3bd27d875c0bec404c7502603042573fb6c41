@@ -1,0 +1,2 @@
+ext/date/date_parse.c にて index(3) のかわりに strchr(3) を利用するように修正。
+また未使用の関数マクロを削除。
