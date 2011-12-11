@@ -1,0 +1,2 @@
+mkmf.rb が --enable-shared でビルドされた ruby の拡張ライブラリ用のコンパイルオ
+プションで static link 版のライブラリをリンクしようとする不具合を修正。
