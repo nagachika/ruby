@@ -1,0 +1,3 @@
+r33567 で追加した fill_standard_fds() で標準入出力の file descriptor が閉じられ
+てるかどうかの検出に fcntl(2) を利用していたのが MinGW で動かなかったので fstat
+(2) を使うように変更しています。 [ruby-core:40526] [Bug #5516]
