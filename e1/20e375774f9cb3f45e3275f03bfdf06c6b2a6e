@@ -1,0 +1,2 @@
+configure で test(1) の -e を使っているところが Solaris 10 では動かないというこ
+とで、test -f に変更しています。 [ruby-core:40841] [Bug #5594]
