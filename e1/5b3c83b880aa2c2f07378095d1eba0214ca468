@@ -1,0 +1,2 @@
+Net::HTTP のテストの teardown メソッドで @server の未初期化(nil)の時に対応して
+チェックを追加しています。
