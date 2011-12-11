@@ -1,0 +1,3 @@
+test/fileutils/fileasserts.rb で Test::Unit::Assertions を再openして再定義して
+いたのを FileAssertions というモジュールを定義して必要なところで include するよ
+うにしています。再openしてしまうと全体に変更が影響してしまいますからね。
