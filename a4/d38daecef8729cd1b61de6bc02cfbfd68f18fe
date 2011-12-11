@@ -1,0 +1,3 @@
+コンパイラが gcc だった時のコンパイルオプション -fstack-protector の追加は
+XCFLAGS だけでなく XLDFLAGS (リンク時のオプション)にも追加するようにしています
+。
