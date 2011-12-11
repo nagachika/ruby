@@ -1,0 +1,7 @@
+URI.encode_www_form_component, URI.decode_www_form_component で利用されている定
+数 TBLENCWWWCOMP_ と TBLDECWWWCOMP_ は空の Hash で初期化されて初回の呼び出し時
+に内容を設定するようになっていますが、これが定数の Hash を直接書き換えていたの
+で複数の Thread から同時に呼び出すと競合状態をひきおこします。そのため別途 Hash
+を生成して replace するようにしています。これでもまだ同時に if の中に入って
+Hash#replace が freeze のためにこけることはあるような気がしますが、そこは例外を
+rescue しています。[ruby-core:35717] [Bug #4572]
