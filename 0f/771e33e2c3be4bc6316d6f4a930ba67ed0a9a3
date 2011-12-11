@@ -1,0 +1,3 @@
+IO#close を呼ぶと同じ IO オブジェクトを操作中の Thread に IOError が飛ぶという
+件 [Bug #4558] ですが r31230 の close する時に GVL を解放する修正を revert する
+ことで対応しています。
