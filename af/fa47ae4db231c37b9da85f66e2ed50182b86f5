@@ -1,0 +1,2 @@
+gvl_destroy() で rb_global_vm_lock_t の条件変数(rb_thread_cond_t)の解放の呼び忘
+れを修正しています。
