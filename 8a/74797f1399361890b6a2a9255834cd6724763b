@@ -1,0 +1,2 @@
+bigdecimal のバージョン番号をチェックしている test_version というテストを削除し
+ています。
