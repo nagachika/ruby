@@ -1,0 +1,1 @@
+Date#strftime の rdoc を追記しています。 Time#strftime からもってきたそうです。
