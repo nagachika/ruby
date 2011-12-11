@@ -1,0 +1,10 @@
+io.c の rb_econv_binmode() という Windows 版での改行コード変換モードの設定処理
+している関数のリファクタリングをしています。 cygwin での警告を回避ということで
+す。
+元のコードは get_transcoder_entry() が返す transcoder_entry_t の transcoder フ
+ィールドが NULL であった場合を考慮しているようなのですが、新しいコードではチェ
+ックせずに使っていてこれは OK なのか……と思いましたが、多分 enc/trans/
+newline.trans というファイルで rb_universal_newline/rb_crlf_newline/
+rb_cr_newline についてrb_register_transcoder() を呼んでいそうなので大丈夫そうで
+す。このファイルはビルド時に生成される newline.c というソースコードに展開される
+ようです。まだまだ ruby には知らないことがたくさんありますねぇ。
