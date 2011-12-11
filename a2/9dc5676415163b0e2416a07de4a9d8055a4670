@@ -1,0 +1,7 @@
+ObjectSpace.each_object が SEGV する不具合が修正されています。LazySweep の影響
+で each_object で mark からは漏れたけどまだ sweep されていないオブジェクトが見
+えてしまい、そこから sweep 済みオブジェクトを触ってしまうというのが原因だそうで
+す。
+そこで ObjectSpace.each_object を呼ぶとまず sweep を完全に(lazy じゃなく)実行さ
+せて、each_object 中は Lazy Sweep を無効にするという方法で回避されています。
+[Bug #3940] [ruby-dev:42369]
