@@ -1,0 +1,5 @@
+シグナルマスクの処理を利用するかどうかの条件コンパイルを USE_TRAP_SIGMASK に集
+約して、pthread_sigmask(3) が利用できるかどうかで切り替えるようにしています。元
+々コードは pthread_sigmask() を利用していて sigprocmask() は使わなくなっていま
+したが configure でのチェックや #ifdef の分岐が古いままになっていたのを整理した
+ようです。
