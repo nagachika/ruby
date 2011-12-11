@@ -1,0 +1,2 @@
+テストで refute_??? のかわりに assert_not_??? を利用するようにしています。
+refute は minitest のメソッドみたいです。
