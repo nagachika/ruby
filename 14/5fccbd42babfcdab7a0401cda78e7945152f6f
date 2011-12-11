@@ -1,0 +1,2 @@
+Hash#reject の rdoc にブロックなしの時の呼び出しかたを追記しています。
+[ruby-core:36800] [Bug #4847]
