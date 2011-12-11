@@ -1,0 +1,2 @@
+lib/rake/rdoctask.rb を lib/rdoc/task.rb を利用するようにしています。require "
+rake/rdoctask" は deprecate なので require "rdoc/task" を使います。
