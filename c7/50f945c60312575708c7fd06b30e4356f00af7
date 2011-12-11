@@ -1,0 +1,8 @@
+test/ruby/test_m17n_comb.rb で例外のメッセージのチェックをしているようにみえて
+していなかったのを修正。assert_raise(except, regexp){ ... } でいかにも regexp
+がメッセージのチェックかのように書かれていましたが、そうじゃないみたいです。
+assert_match(regexp, assert_raise(except){...}.message という書きかたに変更され
+ています。[DEL:assert_raise の第2引数は ML へのリンクなどエラー時のメッセージを
+書くようですね。:DEL] assert_raise は複数引数(例外クラスやモジュール)を受け付け
+る(どれかの例外が発生すればよい)ので、最後の引数が文字列だったらメッセージと解
+釈されるそうです。
