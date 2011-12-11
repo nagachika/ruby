@@ -1,0 +1,4 @@
+win32/Makefile.sub rc.exe の -nologo オプションをつけるのは $(MSC_VER) >= 1600
+の時(コメントによると
+VC10 and after)にしています。コミットログでは r30015 の修正と書いてありますが多
+分 r30012 のことですね。 [ruby-core:33530]
