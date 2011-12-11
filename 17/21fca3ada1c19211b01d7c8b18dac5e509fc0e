@@ -1,0 +1,2 @@
+Psych::Visitors::ToRuby.new と Psych::Visitors::YAMLTree.new の引数に
+ScalarScanner を指定できるようにしています。
