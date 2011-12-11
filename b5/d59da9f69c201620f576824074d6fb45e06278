@@ -1,0 +1,4 @@
+test/ruby/test_module.rb のユーティリティメソッド remove_rake_mixins で引数の配
+列から Rake のモジュールを取り除いているところで RakeFileUtils という名前のもの
+を取り除いていたのを、 Rake という名前ではじまるものは全て除くようにしています
+。
