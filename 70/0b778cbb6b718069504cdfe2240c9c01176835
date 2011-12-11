@@ -1,0 +1,2 @@
+date_strftime.c にて、time() の返り値を long で受けているところがあったので
+time_t で受け取るように修正しています。
