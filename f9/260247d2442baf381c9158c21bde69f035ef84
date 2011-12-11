@@ -1,0 +1,6 @@
+Fiber の実装を getcontext/swapcontext を利用するかどうかを HAVE_SETCONTEXT とそ
+の他プラットフォームによって切り替えていましたが、DragonFly BSD の x64 では
+getcontext(3) がない(setcontext(3) はある?)そうなので HAVE_GETCONTEXT をチェッ
+クに追加しています。というか実は setcontext(3) は使っていなくて、makecontext/
+getcontext/swapcontext を使っているので HAVE_SETCONTEXT で代表していたというの
+も妙な感じですね。
