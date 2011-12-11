@@ -1,0 +1,2 @@
+拡張ライブラリ ffi の extconf.rb の修正。Windows での libffi の検索する名前を追
+加しています。[ruby-core:32930]
