@@ -1,0 +1,2 @@
+Date.strptime, DateTime.strptime が不正な引数を渡された時に SEGV する不具合を修
+正しています。 [ruby-core:38855] [Bug #5170]
