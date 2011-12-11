@@ -1,0 +1,3 @@
+time.c の struct time_object の gmt メンバの取る値についてのコメントを追記。ま
+た Time.at の rdoc に引数が整数の時にはタイムゾーンが local time のオブジェクト
+が生成されるということを明記しています。
