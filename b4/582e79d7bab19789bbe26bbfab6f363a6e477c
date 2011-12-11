@@ -1,0 +1,4 @@
+r32438 で configure でスタックフレームサイズを検出するようにしましたが、Windows
+では有効でないので Makefile.sub で config.h を生成する時にとりあえず 30 という
+値で GC_MARK_STACKFRAME_WORD を定義するようにしています。実際は 20～24 word く
+らいらしいですが、安全側に倒して30としているようです。
