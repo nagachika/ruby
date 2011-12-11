@@ -1,0 +1,2 @@
+addr2line.c の #include <alloca.h> を HAVE_ALLOCA_H が定義されている時だけにし
+ています。
