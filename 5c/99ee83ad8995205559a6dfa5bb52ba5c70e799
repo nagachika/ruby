@@ -1,0 +1,6 @@
+拡張ライブラリ fiddle の extconf.rb で windows.h ヘッダの有無をチェックしていま
+す。これにより Fiddle::WINDOWS という定数が正しく初期化されるようになっています
+。 [ruby-core:33923]
+windows.h っていうヘッダがあるんですね、と Linux で locate windows.h したら
+directfb 向けの内部ヘッダに存在してたりするので、他の判定済みの情報からひっぱっ
+てくるように変更されるかもしれません。
