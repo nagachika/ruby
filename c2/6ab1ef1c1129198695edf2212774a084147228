@@ -1,0 +1,4 @@
+Encoding::Converter などのエンコーディング変換のオプションに :newline を追加し
+て、その Hash に :universal, :crlf, :cr, :lf などをキーとして指定する書きかたを
+サポート。ただし #ifdef ENABLE_ECONV_NEWLINE_OPTION で定義されているので通常は
+有効になっていないものと思います。デバッグ用？
