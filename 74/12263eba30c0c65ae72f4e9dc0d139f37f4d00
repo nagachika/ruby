@@ -1,0 +1,2 @@
+rb_strftime_timespec() のプロトタイプ宣言を internal.h に書いていたのを time.c
+に移動。
