@@ -1,0 +1,3 @@
+Makefile.in で CFLAGS に ARCH_FLAG を追加し、configure.in で CFLAGS から
+ARCH_FLAG にセットされたオプションは除外するようにしています。 ARCH_FLAG には
+-m32 とか -m64 が入ります。
