@@ -1,0 +1,2 @@
+Socket::Option#inspect の修正で Windows でビルド失敗していたので if_indextoname
+のチェック追加と inet_ntoa の有無で処理を分けるように再修正。
