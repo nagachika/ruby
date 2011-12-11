@@ -1,0 +1,2 @@
+enc/Makefile での make distclean で tarball に含まれているファイルを消していた
+のでそれは realclean で消すように修正。
