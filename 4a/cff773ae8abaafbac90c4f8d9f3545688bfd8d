@@ -1,0 +1,2 @@
+addr2line.c を OpenBSD で利用できるように elf_abi.h を include するように分岐を
+追加しています。[ruby-core:34384]
