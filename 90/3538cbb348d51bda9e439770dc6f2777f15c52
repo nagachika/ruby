@@ -1,0 +1,2 @@
+BSD での simple_sendfile は test_io.rb のテストが通らなくなったということでとり
+やめになっています。
