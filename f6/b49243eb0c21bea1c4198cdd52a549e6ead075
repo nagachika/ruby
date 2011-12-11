@@ -1,0 +1,2 @@
+openssl の extconf.rb でまず pkgconfig を使ってみて、失敗したら通常の
+have_library を使うようにしています。[ruby-core:32406]
