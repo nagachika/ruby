@@ -1,0 +1,3 @@
+OpenSSL のテストでも assert_raise の第2引数に Regexp を渡していたところがあった
+ので、メッセージ(ruby-core のリンク)を渡して、例外のメッセージは別途
+assert_match でチェックするように修正しています。
