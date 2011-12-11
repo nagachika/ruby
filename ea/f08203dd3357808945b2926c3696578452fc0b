@@ -1,0 +1,2 @@
+intern.h の rb_mutex_trylock() のプロトタイプ宣言で関数名が間違っていたのを修正
+。 [ruby-dev:43213]
