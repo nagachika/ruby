@@ -1,0 +1,3 @@
+rubygems のテストで Gem::Security.build_self_signed_cert の :trust_dir オプショ
+ンに ~/.gem/trust (正確には Gem.user_home を基にしたパス)を渡すようにしています
+。
