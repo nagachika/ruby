@@ -1,0 +1,3 @@
+rb_cloexec_fcntl_dupfd() でも fcntl(2) で errno=EINVAL が返ってきた時
+F_DUPFD_CLOEXEC が原因かどうかチェックしてその時だけ try_dupfd_cloexec を 0 に
+してもう F_DUPFD_CLOEXEC を実行しないようにしています。
