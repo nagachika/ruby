@@ -1,0 +1,4 @@
+r31470 で Windows 向けに IO.pipe を Socket.pair にした修正ですが、Linux では(
+Mac OS X でも) Socket.pair では AF_UNIX のドメインのソケットしか作れないのでダ
+メで、しかし Windows では AF_UNIX は使えない、ということで結局プラットフォーム
+で使い分けないといけませんでした、ぐぬぬ。
