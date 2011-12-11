@@ -1,0 +1,6 @@
+rb_thread_cond_t は pthread_cond_t と同じものだったのを、pthread_cond_t * を含
+む構造体として別途定義して、clockid というメンバを追加しています。利用可能であ
+れば pthread_condattr_setclock(3) で CLOCK_MONOTONIC を設定して pthread_cond_t
+を初期化するようにしています。これによりタイムアウトの判定に使うクロックを
+CLOCK_MONOTONIC に指定して、システム時刻の変更の影響を受けないようにしています
+。
