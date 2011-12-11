@@ -1,0 +1,3 @@
+Windows では open(2) に O_NOINHERIT という(O_CLOEXEC と同類？)フラグがあり、そ
+れをセットするようにしています。また fcntl() の F_DUPFD を Windows でエミュレー
+トしているところで FNOINHERIT というフラグを考慮するようにしています。
