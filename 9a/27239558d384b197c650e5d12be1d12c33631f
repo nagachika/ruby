@@ -1,0 +1,12 @@
+rb_method_entry_t というメソッドの情報を保持する構造体は YARV の control frame
+stack から参照されるので thread をマークする時に mark されて通常のオブジェクト
+とは別に free list のような構造で管理されているのですが(unlinked method entry
+list)、Method オブジェクトの実体である struct METHOD には rb_method_entry_t が
+ポインタでなく埋め込みで保持されていて、この領域の管理は Method オブジェクトの
+GC によるので、Method オブジェクトは解放されたけど Thread の VM スタック(Fiber
+などで保存されてるぶんなど)は保守的 GC の為に解放の対象になっていないという状態
+が起こる可能性があり、解放済みの領域に mark 処理のためにアクセスして SEGV する
+可能性がありました。 struct METHOD で rb_method_entry_t を埋め込みからポインタ
+での保持に変更し、rb_method_entry_t のメモリ管理に倣うようにしています。
+[ruby-core:38171] [Bug #5047]
+これはとても込み入った不具合ですね。 mame さんお疲れ様でした。
