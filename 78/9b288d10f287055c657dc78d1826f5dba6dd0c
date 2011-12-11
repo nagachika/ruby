@@ -1,0 +1,2 @@
+make benchmark で BASERUBY と RUNRUBY での結果(実行時間)の差を表示する機能を
+benchmark ライブラリに追加しています。 [ruby-core:37822] [Feature #4982]
