@@ -1,0 +1,2 @@
+Pathname#mkdir を C の拡張ライブラリに移動しています。
+今日の ruby-trunk-changes は有意義でした。多分。
