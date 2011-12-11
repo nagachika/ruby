@@ -1,0 +1,2 @@
+WEBrick::HTTPAuth::ProxyDigestAuth#check_uri の可視性を private に変更していま
+す。[ruby-dev:42344]
