@@ -1,0 +1,2 @@
+mkmf.rb の check_signedness がうまく動作できていなくなっていたのを修正。
+[ruby-dev:42731]
