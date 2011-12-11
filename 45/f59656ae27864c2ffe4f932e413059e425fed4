@@ -1,0 +1,4 @@
+MSDN に "Windows XP or earlier limits the total size of environment block to
+5,120 chars." と書かれているそうで、長すぎる環境変数の値はセットできないし
+putenv() すると SEGV するそうなので、ENV#[]= で 5120 byte を越える値はセットで
+きないように制限を加えています。
