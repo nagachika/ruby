@@ -1,0 +1,5 @@
+$SAFE を 3以上に設定すると自動的にオブジェクトが汚染状態になり、String#encode
+で内部的に新しいエンコーディングの変換用のコードを require しようとした時に
+tainted な文字列を使って require しようとして SecurityError が発生してしまうた
+め、汚染フラグを落とした文字列を渡して require するようにしています。
+[ruby-dev:44469] [Bug #5279]
