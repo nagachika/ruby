@@ -1,0 +1,3 @@
+envutil.rb(Ruby 自体のテスト用ユーティリティ)で Test::Unit::Assersions#
+assert_warn というメソッドを追加しています。stderr への出力の内容を検査する
+assert の一種です。
