@@ -1,0 +1,2 @@
+BigDecimal.save_rounding_mode にブロックを渡した時にメソッドの返り値がブロック
+の評価結果になるようにしています。
