@@ -1,0 +1,11 @@
+Process.seteuid の実装のリファクタリング。実際の処理する内部関数 proc_seteuid()
+の責務から VALUE -> uid_t への変換と check_uid_switch() の呼び出しを消していま
+す。で Process.euid= を実装する proc_seteuid_m() は単に proc_seteuid() の別名マ
+クロになっていたので改めて関数として実装しています。そこで check_uid_switch()
+は呼んでいます。
+[DEL:ただ他の proc_seteuid() を呼んでいたところとして Process.switch というメソ
+ッド(始めて知りました……)で euid を切り替えるところでも呼んでます。
+check_uid_switch() はこの switch での euid の交換がネストしないようにチェックし
+ているみたいなので、ここから check_uid_switch() を呼ばなくなるのは OK でしょう
+か。 if (uid != euid) などの分岐で実質チェック済みのような気もしますが。:DEL]
+p_uid_switch() で check_uid_switch() は呼び出し済みでした。
