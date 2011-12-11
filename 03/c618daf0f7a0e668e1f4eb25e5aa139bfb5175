@@ -1,0 +1,2 @@
+numeric.c で unsigned LONG_LONG の最大値を表す ULLONG_MAX が未定義だったら定義
+するように #define を追加しています。
