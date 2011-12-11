@@ -1,0 +1,4 @@
+subversion のプロパティで exts.mk, change.log, ext/date/{Makefile
+,extconf.h,mkmf.log} 等を svn:ignore に追加しています。
+話が逸れますが ChangeLog に追記する雛形を change.log に生成してくれる make
+change なんていうターゲットがあったんですね。知りませんでした。
