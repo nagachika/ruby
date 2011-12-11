@@ -1,0 +1,4 @@
+GC.stress = true の時には lazy sweep するだけでなく make & sweep を完了させて解
+放できるメモリは解放した状態にするようにしています。
+また rb_newobj_from_heap() という関数はリファクタリングされて rb_newobj() だけ
+になっています。
