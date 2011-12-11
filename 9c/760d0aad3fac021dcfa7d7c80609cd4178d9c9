@@ -1,0 +1,2 @@
+さっそく openssl の未使用の変数を削除しています。 [ruby-core:38798] [Feature #
+5157]
