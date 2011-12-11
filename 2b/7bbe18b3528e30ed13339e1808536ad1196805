@@ -1,0 +1,1 @@
+ext/psych/parser.c の未使用変数の削除。
