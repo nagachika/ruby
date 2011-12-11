@@ -1,0 +1,4 @@
+Net::HTTP.get で content-encoding が "gzip" の時に取得した HTTPResponce.body の
+encoding を ASCII-8BIT に指定。
+ちなみに元ネタは2ちゃんねるの書きこみ。2ちゃんねるもちゃんと観測されているんで
+すね。
