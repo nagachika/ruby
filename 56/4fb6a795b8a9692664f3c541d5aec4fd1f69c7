@@ -1,0 +1,4 @@
+instance_eval のブロックの中で autoload を使うと NameError になる不具合を修正し
+ています。 autoload を呼び出した時のコンテキストの class を取得した時にそれが特
+異クラスだった場合に superclass を辿るようにしています。 [ruby-dev:43816] [Bug
+#4886]
