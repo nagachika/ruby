@@ -1,0 +1,2 @@
+ext/gdbm/gdbm.c の rb_gdbm_fatal() という関数の引数 char * に const を付けてい
+ます。
