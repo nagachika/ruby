@@ -1,0 +1,4 @@
+RubyGems の 1.8.8 をマージしています。 gzip された gemspec(YAML ファイル)を解凍
+する時に Encoding を UTF-8 と指定しないために非ASCII文字が含まれていた時にエラ
+ーになっていた不具合を修正しています。参考URL: https://github.com/rubygems/
+rubygems/issues/149
