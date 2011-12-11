@@ -1,0 +1,4 @@
+OpenSSL::ASN1.decode で "indefinite length primitive encoding" なデータは不正な
+ので例外を発生させるようにしています。ASN1 のことを知らないのでよくわかりません
+が、primitive なデータのデータ長のレコードに 0 が入ってたらエラーという感じのよ
+うです。テストがついているので詳しくはそちらを参照してください。[Bug #4324]
