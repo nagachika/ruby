@@ -1,0 +1,2 @@
+BasicLog, Log と WEBrick::HTTPStatus のドキュメント追加です。 [ruby-core:36775]
+[Bug #4833]
