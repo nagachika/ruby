@@ -1,0 +1,4 @@
+rubygems/custom_require が有効になっていなかった(RUBY_VERSION > "1.9" の条件で
+除外されてた)ので条件を削除。この修正で require できるようになりました。
+RubyGems の本家にも反映されているようなので一安心です。 https://github.com/
+rubygems/rubygems
