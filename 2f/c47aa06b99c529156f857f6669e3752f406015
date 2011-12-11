@@ -1,0 +1,2 @@
+test/misc/test_ruby_mode.rb テストケースのメソッド名が重複していたのがあったの
+で改名。
