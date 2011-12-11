@@ -1,0 +1,5 @@
+File.grpowned? などが呼ぶ rb_group_member() で NGROUPS ぶんの配列をマシンスタッ
+ク上に確保するためスタックを食い潰していたのでヒープから確保するように修正して
+います。[ruby-core:35699] [Feature #4568]
+ところで Linux Kernel のソースツリーにある scripts/checkstack.pl というので
+disassemble した命令からスタック消費量のチェックができるんですねぇ。
