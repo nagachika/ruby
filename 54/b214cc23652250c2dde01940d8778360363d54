@@ -1,0 +1,5 @@
+r33900 で Psych.parse に省略可能な引数を追加してエラー時のメッセージに含めるフ
+ァイルパスを指定できるようにしましたが、Psych.load、Psych.parse_file、
+Psych.parse_stream、Psych.load_stream、Psych.load_file などでも同じように省略可
+能な第2引数を追加して Psych.parse に渡すようにしています。また省略時に第2引数が
+nil になることでエラーにならないようにしています。
