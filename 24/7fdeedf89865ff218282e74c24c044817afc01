@@ -1,0 +1,5 @@
+rb_funcall_passing_block() を ruby.h で公開するようにしています。
+[ruby-core:35501] [Feature #4504]
+rb_funcall_passing_block() は r29335 で導入された API で、これにより拡張ライブ
+ラリで渡されたブロックをそのまま別のメソッドに渡す呼び出しができるようになりま
+す。テストコードを参照するとその効果がよくわかります。
