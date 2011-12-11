@@ -1,0 +1,5 @@
+r32669 で struct METHOD の解放時に rb_method_entry_t を free list に繋げるため
+にメモリを確保する必要があるため、GC 中にメモリ確保しようとしてしまいます。これ
+を避けるために事前に struct METHOD の確保時にそのための struct
+unlinked_method_entry_list_entry という構造体も確保してしまって、解放時にはそれ
+を利用するようにしています。 [ruby-core:38498]
