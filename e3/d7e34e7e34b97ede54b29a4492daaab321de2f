@@ -1,0 +1,3 @@
+Module.constants で現在のスコープの定数リストを取得する際に class_eval/
+module_eval の cref(NODE_FL_CREF_PUSHED_BY_EVAL ビットフラグが付いているもの)を
+無視するようにしています。
