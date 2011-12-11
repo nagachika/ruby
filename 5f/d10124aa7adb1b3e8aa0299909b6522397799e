@@ -1,0 +1,5 @@
+io/console のテストで端末から切り離されたプロセスを作るために Process.daemon を
+利用するようにしていましたが、Fedora Rawhide では daemon() の第2引数 noclose に
+非ゼロを渡すと標準入出力を切断しないのと同時に端末の切り離しも行なわれないらし
+いので、Process.daemon の第2引数に true を渡さずに利用するようにテストを修正し
+ています。 [ruby-core:38653] [Bug #5135]
