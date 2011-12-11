@@ -1,0 +1,2 @@
+lib/resolv-replace.rb と lib/open-uri.rb で未使用のローカル変数への代入の警告を
+除去。
