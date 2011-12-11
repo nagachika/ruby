@@ -1,0 +1,1 @@
+dl/struct.rb と dl/import.rb の未使用のローカル変数の警告除去。[ruby-dev:42722]
