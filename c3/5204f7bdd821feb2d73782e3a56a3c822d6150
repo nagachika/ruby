@@ -1,0 +1,3 @@
+openssl の未使用変数の削除。また rb_thread_blocking_region に渡す関数の返り値が
+void になっていたので VALUE 型を返す関数として定義しなおし。返り値は利用しない
+ので nil(Qnil)。
