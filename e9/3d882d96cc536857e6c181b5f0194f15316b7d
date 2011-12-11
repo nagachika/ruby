@@ -1,0 +1,11 @@
+RubyGems の 1.8.10 をマージしています。 psych を gem でインストールしている場合
+にそちらを利用するようにする変更とか、gem uninstall で複数の gem パッケージを指
+定した時に途中で Gem::InstallError が発生すると残りの gem の uninstall が中断さ
+れてしまう不具合修正とか、Gem.dir が Gem.path より優先して探索されるようにする
+変更(多分 GEM_HOME と GEM_PATH のことかな？)、それから gem パッケージを生成する
+時に gemspec ファイルに文字列を埋め込む時に String#dump を使うようにしています
+。
+なんか最近(RubyKaigi2011以降) RubyGems や RDoc のマージの時の commit log に変更
+点が簡単に書かれるようになったのですが、もしかしたら LT のおかげで「なんかコミ
+ット読んでるやつがいるらしーぜ」と認知されて気をつかってもらっているのかもしれ
+ませんね。ありがたいことです。
