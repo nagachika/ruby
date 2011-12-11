@@ -1,0 +1,2 @@
+cygwin/GNUmakefile.in で SCRIPTPROGRAMS にバックアップファイルなどを含まないよ
+うに。また stubprogram に実行権限を付与するように。
