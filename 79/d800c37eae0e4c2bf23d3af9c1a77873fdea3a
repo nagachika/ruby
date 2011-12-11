@@ -1,0 +1,1 @@
+make clean-local で ruby*.pc ファイルを削除するように。
