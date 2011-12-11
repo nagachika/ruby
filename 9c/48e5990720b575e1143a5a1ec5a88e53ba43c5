@@ -1,0 +1,4 @@
+open や popen、 `` でデフォルトの TEXTMODE フラグを rb_io_t::mode にセットする
+ようにしています。Windows では FMODE_TEXTMODE がデフォルトになります [Bug #
+4619] ただこれでまだ Windows での make test-all が直っていないそうなので修正は
+未完成のようです。
