@@ -1,0 +1,2 @@
+IO#fsync, IO#fdatasync の fsync(2), fdatasync(2) の呼び出しのあいだ GVL を解放
+するようにしています。
