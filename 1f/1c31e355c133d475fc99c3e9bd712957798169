@@ -1,0 +1,2 @@
+ruby-mode.el から Ctrl-m のキーバインディング(改行)を削除しています。参考URL:
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=468952
