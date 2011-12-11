@@ -1,0 +1,2 @@
+iconv のテストで iconv を require すると警告が出るのに対処しています。 $VERBOSE
+が真値だと警告が出るので一時的に off にして require するようにしています。
