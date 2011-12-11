@@ -1,0 +1,5 @@
+json の 1.5.4 をマージしています。一時オブジェクトのからの保護、 quirks_mode オ
+プションの追加。Rational や Complex の対応などです。quirks_mode は、これまで
+JSON.parse や JSON.generate は Array か Hash しか対応していなくて、いきなり
+true, false や文字列、数値だけがあるデータを扱えなかったのですが、:quirks_mode
+=> true を指定すると受け付けるようになります。 [ruby-core:38866] [Bug #5173]
