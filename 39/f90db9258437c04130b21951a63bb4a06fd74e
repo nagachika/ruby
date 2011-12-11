@@ -1,0 +1,6 @@
+r30999 で STDOUT を何度も dup して file descriptor を変更しているっぽい処理があ
+るのですがその dup を繰り返す回数を 500 -> 32 に減らしています。システムによっ
+ては同時に open できる file descriptor の数が少なかったりしますしね。ところでこ
+の dup は file descriptor の番号を大きくしたいんでしょうかね。なんのためなのか
+よくわからない……。
+もしかして: increment_io
