@@ -1,0 +1,2 @@
+ext/socket/addrinfo.c の関数引数の const 付け忘れによるコンパイラ警告を除去して
+います。
