@@ -1,0 +1,3 @@
+rb_fd_set_cloexec() という関数名と rb_fd_fix_cloexec() に変更しています。
+FD_CLOEXEC を立てるだけじゃなくて標準入出力などの場合は落とすので名称変更したの
+でしょう。
