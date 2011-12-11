@@ -1,0 +1,2 @@
+test/unit.rb の修正もうひとつ。 Interrupt で(コマンドラインからの Ctrl-C などに
+よる SIGINT)テストが中断した時にも途中結果を表示するように。
