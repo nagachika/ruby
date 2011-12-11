@@ -1,0 +1,3 @@
+ext/socket/init.c を再修正。select/poll は正常終了時に IN/OUT(READ/WRITE)両方の
+ビットを立てて返し、エラー時に OUT(WRITE)のビットのみ立てて返すらしいので(ソケ
+ットの場合?)エラー判定を修正しています。これはややこしい!
