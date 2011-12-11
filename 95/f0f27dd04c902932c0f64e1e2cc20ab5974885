@@ -1,0 +1,5 @@
+win32/win32.c rb_w32_isatty() ファイルディスクリプタが端末かどうかを検査するの
+に GetConsoleMode() を利用するようにしています。[DEL:しかし rb_w32_isatty() は
+grep してみても使ってるところがみあたらないですね。:DEL] コメントで教えて頂きま
+したが include/ruby/win32.h で isatty に define されているので IO#tty? 等のため
+に利用されていました。
