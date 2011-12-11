@@ -1,0 +1,2 @@
+Process.spawn 等で umask のオプションを扱う時に mode_t からの変換に MODET2NUM()
+を利用するようにしています。
