@@ -1,0 +1,4 @@
+BasicObject についての rdoc を追加しています。 BasicObject の用途とか。また
+const_missing による定数探索(BasicObject からは通常どこからでも見つかる Object
+の定数が見えません)の workaround の例が入ってます。 [ruby-core:38337] [Bug #
+5067]
