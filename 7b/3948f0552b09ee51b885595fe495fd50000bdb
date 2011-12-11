@@ -1,0 +1,4 @@
+File.write, File.binwrite を追加しています。 IO.read, IO.binread の write 版と
+いうべきクラスメソッドです。 [Feature #1081] [ruby-core:21701]
+しかしちょっと凄いものを見ました。return 文がないんですけど、これでもたまたま戻
+り値が最後の文の値になることもあるんですねぇ。
