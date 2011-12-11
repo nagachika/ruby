@@ -1,0 +1,2 @@
+URI::Parser.new の rdoc の記法の変更と typo 修正をしています。
+[ruby-core:38873] [Bug #5177]
