@@ -1,0 +1,2 @@
+doc/NEWS-1.9.3 に BigDecimal#power が Fixnum 以外の引数を受け付けるようになった
+ことを追記しています。
