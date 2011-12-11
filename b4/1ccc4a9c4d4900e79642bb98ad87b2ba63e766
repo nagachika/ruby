@@ -1,0 +1,3 @@
+r32579 で追加した rb_update_max_fd() を ruby/intern.h で宣言して拡張ライブラリ
+などで open/dup/socket などで新たに file descriptor を作ったらこれを読んで最大
+値を更新するようにしています。
