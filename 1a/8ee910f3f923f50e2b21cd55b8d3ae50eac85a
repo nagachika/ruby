@@ -1,0 +1,1 @@
+Process.maxgroups の最大値は sysconf() で取得するようにしています。
