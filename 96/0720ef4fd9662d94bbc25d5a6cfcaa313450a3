@@ -1,0 +1,4 @@
+psych で Psych::Nodes::Node クラスが Enumerable を include するようにしています
+。また YAML のツリー構造を深さ優先で巡回する Visitor クラス
+Psych::Visitors::DepthFirst が追加されています。だから何って言われると困っちゃ
+いますが。
