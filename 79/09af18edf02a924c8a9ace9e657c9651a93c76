@@ -1,0 +1,4 @@
+存在しないファイルを引数に指定して
+ARGF.gets rescue nil
+ARGF.gets
+とすると SEGV してしまう不具合を修正しています。[ruby-core:34446] [Bug #4274]
