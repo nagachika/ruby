@@ -1,0 +1,2 @@
+Net::SMTP::Response.parse が返す Net::SMTP::Response のインスタンスの
+exception_class が正しいかのテストを追加しています。
