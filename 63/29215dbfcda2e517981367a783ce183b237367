@@ -1,0 +1,2 @@
+rb_set_kcode, rb_get_kcode という関数が削除されていたのに intern.h に宣言だけ残
+っていたのでそれを削除しています。
