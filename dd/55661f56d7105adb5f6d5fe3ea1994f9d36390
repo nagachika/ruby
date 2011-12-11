@@ -1,0 +1,17 @@
+ファイルシステムが大文字小文字を区別しないシステムで $LOADED_FEATURES が大文字
+小文字を区別する比較で既に require 済みかをチェックしているため、同じファイルを
+何度も require してしまうのを修正。また Mac OS X で採用されているファイルシステ
+ム HFS+ も大文字小文字を区別しないので条件に追加しています。[Bug #4255]
+そういえば Mac OS X も大文字小文字区別しないよなーということでちょっと実験。
+>> require "CSV"
+=> true
+>> require "FileUtils"
+=> true
+おお、本当に require できる。
+>> require "STRINGIO"
+LoadError: dlsym(0x101074f70, Init_STRINGIO): symbol not found - /Users/nagachika/opt/ruby-trunk/lib/ruby/1.9.1/x86_64-darwin10.5.0/STRINGIO.bundle
+        from <internal:lib/rubygems/custom_require>:29:in `require'
+        from <internal:lib/rubygems/custom_require>:29:in `require'
+        from (irb):2
+拡張ライブラリだと Init_xxx() のエントリポイントに影響してロードできないようで
+すね。
