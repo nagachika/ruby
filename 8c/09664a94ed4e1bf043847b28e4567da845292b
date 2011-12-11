@@ -1,0 +1,11 @@
+メソッドキャッシュのクリアには rb_clear_cache, rb_clear_cache_for_undef,
+rb_clear_cache_by_id, rb_clear_cache_by_class などきめ細かくクリアする対象を制
+御してキャッシュから消していましたが、常に vm state version をインクリメントす
+るだけにして、キャッシュからメソッドエントリを引く時に vm state version が更新
+されていたら常に再解決するようにしています。 [ruby-core:36908] [Feature #3905]
+この修正にはちょっと歴史があって、non-blocking I/O を使うと IO::WaitReadable や
+IO::WaitWritable を extend した Errno::EAGAIN を発生させるために頻繁に特異クラ
+スを持つオブジェクトが GC されて、その度にメソッドキャッシュがクリアされて高負
+荷になるという問題を、一旦は r29673 でメソッド定義が空のクラスの GC の時にはメ
+ソッドキャッシュをクリアしないようにしたものの race condition があったために
+r31378 で revert していたものです。こういう着地のしかたをしたんですね。
