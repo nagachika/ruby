@@ -1,0 +1,1 @@
+ruby_executable_node のプロトタイプ宣言を ruby.h に追加。
