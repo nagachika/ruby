@@ -1,0 +1,3 @@
+openssl のテストに OpenSSL::SSL::SSLSocket#session と OpenSSL::SSL::SSLSocket#
+session= のテストを追加しています。Session 用の証明書?が埋め込まれていますがこ
+ういうのは定数が用意してあったような。
