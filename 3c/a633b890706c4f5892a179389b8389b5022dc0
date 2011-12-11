@@ -1,0 +1,3 @@
+Ruby/Tk の 64bit 環境でのビルド対応やドキュメントの修正、Tk.mainloop がすぐに終
+了してしまう不具合の修正、Tk::Canvas#create_itemobj_from_id メソッドの追加など
+です。
