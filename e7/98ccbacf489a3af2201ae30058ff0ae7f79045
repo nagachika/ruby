@@ -1,0 +1,5 @@
+rubygems 1.5.0 がマージされています。でかい。
+gemspec の読み込み部分は元に戻されたままなので Encoding.default_internal を指定
+するテストで警告が出そうなものですがそれは出なくなっています。
+しかし、この時点では require "rspec" みたいに gem パッケージを require するのが
+失敗するようになっていました。
