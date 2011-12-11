@@ -1,0 +1,3 @@
+拡張ライブラリ readline での replace_history_entry() という関数は libreadline
+と libedit で指定するインデックスが絶対値か history_base からのオフセットかが異
+なるので、その差異を吸収する関数ポインタの初期化をするようにしています。
