@@ -1,0 +1,3 @@
+拡張ライブラリ io/console には端末サイズを返す winsize というメソッドがあります
+が、io/console が利用できない時には環境変数 COLUMNS/LINES から取得する処理に
+fallback する IO#console_size というメソッドを追加しています。
