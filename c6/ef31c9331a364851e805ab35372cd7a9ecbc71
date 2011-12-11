@@ -1,0 +1,2 @@
+AIX でのビルド向けにコンパイラフラグに -qinfo=por というのを追加するように
+configure.in を修正しています。 [ruby-core:32859] [Bug #3971]
