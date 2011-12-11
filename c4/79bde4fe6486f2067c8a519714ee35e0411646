@@ -1,0 +1,4 @@
+Windows で端末の codepage を取得しようとしているところで、Ruby プロセスが
+Service として起動している時は GetConsoleCP が 0 を返してしまうので、GetACP()
+を使って取得する手段も追加しています。 [ruby-core:36832] [Bug #4854]
+参考URL: http://blogs.msdn.com/b/michkap/archive/2005/02/08/369197.aspx
