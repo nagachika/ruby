@@ -1,0 +1,5 @@
+mingw-w64 では truncate(), ftruncate(), ftello() といったライブラリ関数がサポー
+トされているけど、ruby は独自に実装した関数を持っているため衝突するので、
+configure で関数の存在チェックして、あれば定義を省くようにしています。また
+truncate -> rb_w32_truncate のように別名で関数定義して、必要に応じて #define す
+るようにしています。 [ruby-core:35678] [Bug #4564]
