@@ -1,0 +1,2 @@
+bigdecimal.h で VPrint という関数の宣言は BIGDECIMAL_DEBUG というマクロが定義さ
+れている時だけ定義されているので #ifdef の中に入れるようにしています。
