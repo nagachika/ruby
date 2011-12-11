@@ -1,0 +1,3 @@
+configure での rlim_t の型のチェックをべたに書いていたのを RUBY_REPLACE_TYPE と
+いう関数を利用するようにしています。これにより RLIM2NUM/NUM2RLIM というマクロが
+定義されます。
