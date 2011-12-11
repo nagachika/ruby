@@ -1,0 +1,4 @@
+r31680 で openssl がコンパイルできなくなっていたので、RCLASS_SUPER() を利用して
+いたところを rb_class_superclass() を呼ぶようにしています。 RCLASS_SUPER() は
+struct RClass の rb_classext_t 構造体の内容を利用するのですが、r31627 でその宣
+言が internal.h に隠されたので利用できなくなっていました。
