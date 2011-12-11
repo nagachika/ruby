@@ -1,0 +1,4 @@
+Test::Unit::Assertions#assert_not_match というメソッドの alias を
+assert_no_match という名前で定義しています。後方互換性のためとのこと。実際 test
+ディレクトリの下のテストでは assert_no_match というメソッドがたくさん使われてい
+ます。
