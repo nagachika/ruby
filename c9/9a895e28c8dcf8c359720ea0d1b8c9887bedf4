@@ -1,0 +1,1 @@
+encoding.c で free() を利用していたところを xfree() を使うように修正。
