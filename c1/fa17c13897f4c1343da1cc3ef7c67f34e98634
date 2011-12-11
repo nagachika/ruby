@@ -1,0 +1,2 @@
+Readline.completion_proc= のサンプルの rdoc を追加しています。
+[ruby-core:38200] [Bug #5057]
