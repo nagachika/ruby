@@ -1,0 +1,2 @@
+FileUtils の chmod のテストで *BSD が sticky bit の操作が無視されるのでスキップ
+していたところは Solaris でも同じ挙動のようなのでスキップ条件に追加しています。
