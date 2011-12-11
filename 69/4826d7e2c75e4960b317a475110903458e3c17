@@ -1,0 +1,1 @@
+dev_t は unsigned だったので追加修正。
