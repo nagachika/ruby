@@ -1,0 +1,5 @@
+r33590 で切り出した rsock_socketpair() で rsock_socket() と同じように
+SOCK_CLOEXEC が定義されていたら type 引数にセットして socketpair(2) を呼ぶよう
+にしています。こちらは元々呼び元(切り出し元)の rsock_sock_s_socketpair() で
+rb_fd_fix_cloexec() が呼ばれているのですが、やっぱり rsock_socketpair() 内で呼
+んだほうがいいかと。
