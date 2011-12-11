@@ -1,0 +1,5 @@
+Integer(Fixnum と Bignum) の '&' メソッドによるビット演算に Float を渡すとエラ
+ーになるので、Rational や BigDecimal が渡された時もエラーにするように、というか
+引数(右辺)も Integer (Fixnum か Bignum) でないと例外を発生させるようにしていま
+す。 [Bug #1792]
+ただこれでテストが1つ失敗するようになっています。
