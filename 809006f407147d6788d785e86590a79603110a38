@@ -1,0 +1,3 @@
+r33605 は rb_maygvl_fd_fix_cloexec() じゃなくて rb_fd_fix_cloexec() を呼ぶよう
+にして、file descriptor のプロセス内の最大値の更新も一緒にするようにしています
+。
