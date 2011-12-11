@@ -1,0 +1,2 @@
+Process.groups= で getgrnam() は thread safe でないので getgrnam_r() を利用する
+ように変更しています。
