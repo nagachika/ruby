@@ -1,0 +1,5 @@
+Time のオブジェクトを Marshal.dump と Marshal.load でシリアライズしてから復元し
+たものを Time.at に渡すと inspect や to_s で文字列表示に失敗する Time オブジェ
+クトができる不具合の修正です。 Time.at でタイムゾーンの情報をコピーする時に
+vtm.utc_offset と vtx.zone というメンバも一緒にコピーするようにしています。
+[ruby-dev:44827] [Bug #5586]
