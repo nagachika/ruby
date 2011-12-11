@@ -1,0 +1,5 @@
+configure.in の RUBY_REPLACE_TYPE の type name, default type に複数の値を受け付
+けるようにしている、そうです。patsubst というのは autoconf が使っている m4 の関
+数らしいです。調べてみると makefile にも patsubst という関数があって、これとは
+引数の順番が違うというひどいワナがありました。これでしばらく悩んだ……。ともか
+くダブルクオートをエスケープしているようです。
