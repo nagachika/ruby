@@ -1,0 +1,4 @@
+不要な Symbol の生成を抑制する修正、さらに remove_method, undef, alias,
+private, protected, public, autoload, const_get などでも文字列を引数に渡された
+時には Symbol が登録済みか先にチェックすることで不要な Symbol を生成しないよう
+にしています。 [ruby-core:38447] [Feature #5089]
