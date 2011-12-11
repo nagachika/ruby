@@ -1,0 +1,2 @@
+CSV の private method CSV#raw_encoding のドキュメント追加です。
+[ruby-core:37039] [Bug #4874]
