@@ -1,0 +1,2 @@
+testunit の並列テストのテストを Windows では skip したのを消しています。
+Windows でも並列テストが動くようになったようです。
