@@ -1,0 +1,2 @@
+Date::MONTHNAMES, Date::DAYNAMES, Date::ABBR_MONTHNAMES, Date::ABBR_DAYNAMES と
+いった定数が保持する文字列の Encoding を US-ASCII にするようにしています。
