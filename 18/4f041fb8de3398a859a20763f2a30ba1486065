@@ -1,0 +1,2 @@
+lib/net/pop.rb, lib/net/http.rb, lib/net/imap.rb の rdoc の :call-seq: というタ
+グの typo を修正しています。
