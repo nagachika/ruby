@@ -1,0 +1,6 @@
+Thread のテストで Module.nesting などのメソッドの Method オブジェクトをブロック
+のかわりに渡した場合に例外が発生するというテストが win32ole を require すると失
+敗するという現象のため、Windows ではこのテストを skip するようにしています。
+win32ole は Thread#initialize を再定義していて、そこで元来の initialize にブロ
+ックで包んで手続きを渡してしまうため、テストしたい Method オブジェクトを直接渡
+すという挙動ができなくなってしまうためですね。
