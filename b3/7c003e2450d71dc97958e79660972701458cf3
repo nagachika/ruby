@@ -1,0 +1,4 @@
+select のベンチマークスクリプトでプロセス内の open できる fd の数の上限を
+Process.getrlimit(Process::RLIMIT_NOFILE) で取得しているところを
+Process::RLIMIT_NOFILE が未定義な時に対応して、仮に上限を 64 としてベンチマーク
+を走らせるようにしています。
