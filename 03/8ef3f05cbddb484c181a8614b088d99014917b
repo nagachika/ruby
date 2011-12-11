@@ -1,0 +1,6 @@
+メソッドキャッシュの更新のために ruby_vm_global_state_version をインクリメント
+してオーバフローした時に呼ぶ vm_clear_all_cache() という関数を新設しています。
+また vm_clear_all_inline_method_cache() という関数でインラインキャッシュもクリ
+アしようとしていますがこれの内容は未実装です。コメントによると GC 中は
+rb_objspace_each_objects() が使えないので全ての iseq を巡回するのをどうしようか
+というのが課題のようです。
