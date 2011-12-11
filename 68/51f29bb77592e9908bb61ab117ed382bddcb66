@@ -1,0 +1,4 @@
+PTY のテストで PTY.spawn に失敗したら skip するようにしています。多分 SELinux
+などで制限が厳しい環境で PTY を開けないとかのことだと思います。まあでも
+RuntimeError で rescue しているので Errno::EXXX 系の(SystemCallError の子クラ
+ス)ではないようですね。
