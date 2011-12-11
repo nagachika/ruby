@@ -1,0 +1,4 @@
+BigDecimal への変換を行なう Integer#to_d メソッドを追加しています。
+[ruby-dev:44210] [Bug #5098]
+to_d で BigDecimal へ変換。ちょっと憶えるのに苦労しそうですが BigDecimal は値と
+して big とは限らないので Decimal に変換と憶えましょう。
