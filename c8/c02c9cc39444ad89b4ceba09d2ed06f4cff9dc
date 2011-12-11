@@ -1,0 +1,2 @@
+r32824 の WEBrick へのオプションの記法が 1.9 からの JSON っぽい記法だったので周
+囲にあわせて :BindAddress => "localhost" な表記に変更。
