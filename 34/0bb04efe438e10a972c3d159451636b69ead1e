@@ -1,0 +1,2 @@
+InstructionSequence.compile の省略可能引数の数が間違っていたのを修正しています
+。
