@@ -1,0 +1,4 @@
+rb_thread_select() で error 用の fdset (efds) を初期化すべきところ wfds を初期
+化していて SEGV する可能性のある不具合を修正。 [ruby-core:39380] [Bug #5299]
+rb_thread_select() は deprecated になった API ですが EventMachine が拡張ライブ
+ラリで利用していたんですね。
