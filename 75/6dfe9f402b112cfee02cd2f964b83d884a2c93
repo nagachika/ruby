@@ -1,0 +1,2 @@
+configure.in の typo(クオートの位置がちょっとずれてた)と test_transcode.rb のデ
+バッグ出力が残っていたのを修正。
