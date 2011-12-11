@@ -1,0 +1,3 @@
+pthread 版のthread 実装に native_fd_select() を追加して、do_select() での #
+udder _WIN32 の条件コンパイルをやめて native_fd_select() を呼ぶようにしています
+。
