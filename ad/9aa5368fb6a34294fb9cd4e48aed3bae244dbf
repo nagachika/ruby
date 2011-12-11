@@ -1,0 +1,4 @@
+拡張ライブラリ psych の Psych::Visitors::Visitor#accept の実装を case文による分
+岐から Hash を使ったものにして高速化しています。数値や Symbol、文字列だと VM が
+勝手にこの最適化をしてくれるんですけど、ここでは when に Class が渡されているの
+で自前でやっています。
