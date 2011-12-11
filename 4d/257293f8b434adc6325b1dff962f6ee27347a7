@@ -1,0 +1,5 @@
+test_io.rb でエラーが発生した時にTempfileにわたすprefixが"foo"という適当すぎた
+ので"test_io"に変更。またTempfileに二重にcloseを呼んでいるところを修正。
+Tempfileはなんどもcloseしても例外を発生させないんですね。
+どうでもいいんですけど ChangeLog のエントリの "the old one" は「旧支配者」とひ
+っかけてるんだろうかというしょうもないことが気になってしかたありません。
