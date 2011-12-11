@@ -1,0 +1,3 @@
+r32885 で Time#strftime の結果の文字列が長くなりすぎる時は Errno::ERANGE を発生
+させるようにしたのに Date#strftime と DateTime#strftime でも同じような挙動をす
+るように追随しています。
