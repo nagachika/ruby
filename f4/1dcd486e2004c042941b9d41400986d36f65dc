@@ -1,0 +1,2 @@
+r31353 の Encoding::Converter#initialize のドキュメント変更を revert しています
+。 [ruby-dev:43512]
