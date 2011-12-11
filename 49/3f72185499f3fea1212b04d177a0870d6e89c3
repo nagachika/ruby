@@ -1,0 +1,2 @@
+random.c の rb_rand_internal という関数を rb_genrand_ulong_limited に改名して、
+さらに公開シンボルにしています。bignum で利用しています。
