@@ -1,0 +1,4 @@
+構造体 rb_global_vm_lock_struct の waiting メンバに volatile 修飾子を付けていま
+す。GVL取得、解放する時には同構造体の lock で排他処理していますがタイマースレッ
+ドはロックせずに参照しているので race condition があるのかも。たぶんあっても一
+度 polling の動作するだけなのであまり害はないと思われます。
