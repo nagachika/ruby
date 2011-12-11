@@ -1,0 +1,1 @@
+OpenSSL::PKCS12.create のテストを追加しています。
