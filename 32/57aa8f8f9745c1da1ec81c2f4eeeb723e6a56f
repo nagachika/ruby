@@ -1,0 +1,2 @@
+net/http.rb の Net::HTTP.version_1_1? に :nodoc: タグを付けています。
+[ruby-core:36229] [Ruby 1.9 - Bug #4713]
