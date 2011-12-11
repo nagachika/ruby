@@ -1,0 +1,3 @@
+Thread のオブジェクト型を指定する構造体の名称を ruby_thread_data_type から
+ruby_threadptr_data_type へ変更しています。 r32985 での非公開にする指定にマッチ
+するようにしているのでしょうか。 [ruby-core:38972] [Bug #5193]
