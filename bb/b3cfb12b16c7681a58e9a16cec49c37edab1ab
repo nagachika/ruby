@@ -1,0 +1,8 @@
+openssl についていくつかの修正がまとめて入っています。
+まず OpenSSL::PKey.read というメソッドを新設し、文字列から任意の鍵をロードでき
+るようになっています。 [ruby-core:35330] [Feature #4424]
+また OpenSSL::PKey::EC のテストを追加しています。
+OpenSSL::PKey::DH の rdoc の修正もあります。
+あと細かい点ですがテストで PKey を使う時に test/openssl/utils.rb にあらかじめテ
+スト用の鍵を定数に用意していたので、それを使うようにリファクタリングしていたり
+します。
