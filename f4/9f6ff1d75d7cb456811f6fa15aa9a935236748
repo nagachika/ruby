@@ -1,0 +1,3 @@
+Linux で procfs が mount されていたら /proc/self/status から FDSize というエン
+トリが読めるので、そこから最大の fd のヒントを読み込む linux_get_maxfd() という
+関数を追加して、rb_close_before_exec() で利用するようにしています。
