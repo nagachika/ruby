@@ -1,0 +1,2 @@
+Test::Unit::Options の並列テストのオプションは OptionParser の機能で変換済みな
+ので明示的な変換(to_i, to_sym) は不要なので削除しています。
