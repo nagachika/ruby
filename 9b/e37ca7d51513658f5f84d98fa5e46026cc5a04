@@ -1,0 +1,5 @@
+select(2) を呼ぶ処理をまとめて関数を切り出しています。rb_wait_for_single_fd()
+という API が追加されています。ビットフラグ(RB_WAITFD_IN, RB_WAITFD_PRI,
+RB_WAITFD_OUT)とタイムアウトの指定つきで fd にイベントが発生するのを待ってくれ
+ます。rb_io_wait_readable/writable の上位種みたいな感じですね。
+[ruby-core:35565] [Feature #4531]
