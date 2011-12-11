@@ -1,0 +1,2 @@
+ext/sdbm/_sdbm.c でも open の flags に O_CLOEXEC をセットしているところを
+O_CLOEXEC が定義されている時だけ実行するようにしています。
