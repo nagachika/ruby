@@ -1,0 +1,11 @@
+r30438 で入った mkmf.rb で RbConfig["warnflags"] から、標準添付でない拡張ライブ
+ラリのビルド時には -Werror= を消すという修正で、オプションが複数あった時に間の
+空白が消えてしまうのを修正しています。
+しかし部分マッチの後方参照をしているのに (?:) を使っているのがまずいので、多分
+こうでいいんじゃないかと思います。
+-    warnflags = warnflags.gsub(/(?:\A|\s)-Werror=/, '\1-W')
++    warnflags = warnflags.gsub(/(\A|\s)-Werror=/, '\1-W')
+ああこういうのは GitHub で fork してコミット作っておけばいいんですかね。とりあ
+えずブランチ作って push してみました。
+https://github.com/nagachika/ruby/commit/
+55748999554de1466043277855e5d6eb51fe99c4
