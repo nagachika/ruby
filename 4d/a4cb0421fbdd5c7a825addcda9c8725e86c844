@@ -1,0 +1,2 @@
+ext/readline/readline.c でも rb_wait_for_single_fd() を利用するように変更してい
+ます。 [ruby-core:35565] [Feature #4531]
