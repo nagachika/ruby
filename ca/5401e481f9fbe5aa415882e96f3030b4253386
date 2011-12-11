@@ -1,0 +1,2 @@
+date_core.c で GREGORIAN というマクロ(Float::INFINITY を取得して double に変換
+して負にしている)と同じ値を用いているところをマクロを利用するようにしています。
