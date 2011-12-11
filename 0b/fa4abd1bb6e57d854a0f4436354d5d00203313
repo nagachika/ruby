@@ -1,0 +1,4 @@
+Zlib::GzipReader を使った rexml のテストで GzipReader.new を直に使っていたため
+に Windows で改行コードの変換モードがテキストモードになって失敗していたので
+GzipReader.open を使うようにしています。これは r33946 で r33937 の一部を revert
+したためにエラーになっていたもの。
