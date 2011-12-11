@@ -1,0 +1,2 @@
+GVL の fairness (Thread.pass した時に他の Thread に制御がスムーズに移るか)につ
+いてのベンチマークを追加しています。
