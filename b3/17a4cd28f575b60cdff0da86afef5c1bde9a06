@@ -1,0 +1,3 @@
+r33520 のチケットにあるように Solaris を検出するには __sun というマクロをチェッ
+クするのが better ということなので defined(sun) とチェックしているところを
+defined(__sun) に置き換えています。 [ruby-dev:44693]
