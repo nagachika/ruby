@@ -1,0 +1,3 @@
+unpack("M") の返す文字列が 7bit(ASCII)の範囲じゃないのに US-ASCII になっていた
+ので ASCII-8BIT のエンコーディングの文字列を返すように修正。 [ruby-core:34482]
+[Bug #4279]
