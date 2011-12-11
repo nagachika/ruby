@@ -1,0 +1,5 @@
+make reconfig という新しいターゲットが追加されています。前回の configure と同じ
+オプションで再度 configure してくれるようです。また make showconfig で前回の
+configure のオプションを表示してくれるようになっています。個人的には手動で
+configure やりなおす時は config.log をみてオプションを思い出してたのでうれしい
+機能です。
