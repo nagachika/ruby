@@ -1,0 +1,2 @@
+OpenSSL::PKey::RSA の他にも DH, DSA, EC も同様に ERR_get_error() を呼ぶようにす
+る修正を行なっています。[ruby-core:35605] [Bug #4550]
