@@ -1,0 +1,2 @@
+gc_finalize_deferred という関数を消しています。呼び元によって free_unused_heaps
+() を呼ぶ必要があるかどうかが異なるため展開されています。
