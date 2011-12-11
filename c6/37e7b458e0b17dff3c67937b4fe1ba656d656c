@@ -1,0 +1,2 @@
+test_rubyoptions.rb にも PTY.open を使ったテストが潜んでいたので、PTY.open が使
+えない環境のために skip するようにしています。
