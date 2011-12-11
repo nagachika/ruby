@@ -1,0 +1,5 @@
+定数 File::CLOEXEC を追加しています。1.9 には IO#close_on_exec= というメソッド
+もありますがこれは open の時に mode のビットフラグに使うための定数です。
+[ruby-core:22893] [Feature #1291]
+ところでチケットをみてると Linux では fopen(3) の mode が "e" を受け付けるとあ
+ってほーと思いました。知りませんでした。
