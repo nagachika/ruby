@@ -1,0 +1,8 @@
+gcc-4 以降では _sync_lock_test_and_set, __sync_fetch_and_add,
+__sync_fetch_and_sub といった atomic な処理をする組み込み関数があるのでそれを利
+用するようにしています。
+といっても定義されているマクロのうち ATOMIC_INC と ATOMIC_DEC しか利用されてい
+ないです。
+修正前は int を rb_atomic_t としてただの ++, -- を ATOMIC_INC, ATOMIC_DEC とし
+ていたんですね。 atomic_t でいいんじゃないかなーと一瞬思いましたが atomic_t は
+Linux 固有みたいですね。
