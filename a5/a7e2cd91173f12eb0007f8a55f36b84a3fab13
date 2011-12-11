@@ -1,0 +1,5 @@
+Xcode 4.2 の llvm-gcc で r33408 で削除した reg_cfp をコンパイラの最適化しすぎか
+ら保護する workaround がないと cfp consistency error になったので復活させていま
+す。ただ llvm-gcc はもうリリースされない(Xcode 4.3 からは消える)予定なので ruby
+のビルドに llvm-gcc を利用するのはサポートされていません。clang を使うか GNU
+gcc を使ってください。
