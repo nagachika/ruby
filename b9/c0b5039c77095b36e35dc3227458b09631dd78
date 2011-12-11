@@ -1,0 +1,2 @@
+pty と io/console が利用できない時に test_io_console.rb のテストをスキップする
+ようにしています。
