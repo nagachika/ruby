@@ -1,0 +1,8 @@
+thread_pthread.c の get_stack() にてマシンスタックのアドレスとサイズの取得で
+FreeBSD など BSD 系の環境向けの部分(pthread_attr_getstackaddr() 等を利用)でも返
+ってくるのはスタックの base address なので size を足して start address にするよ
+うにしています。その他 #ifdef にコメントを付加しています。
+こうなると、その後の MacOS X 用とコメントされた pthread_get_stackaddr_np() を利
+用している場合も同じようにしないといけないのではないかという気がしてきますが、
+実験してみると Mac OS X で pthread_get_stackaddr_np() はスタックの一番上のアド
+レス(開始位置)を返しているようです。ふーん。
