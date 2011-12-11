@@ -1,0 +1,2 @@
+lambda 内の class 定義の中で return すると SEGV していたのを修正しています。
+[ruby-dev:43464] [Bug #4648]
