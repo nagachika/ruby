@@ -1,0 +1,2 @@
+URI.parse におかしな http の URI を渡すと NoMethodError 例外になることがあった
+のを修正しています。 [ruby-core:36375] [Bug #4759]
