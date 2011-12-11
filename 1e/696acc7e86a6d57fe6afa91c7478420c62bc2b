@@ -1,0 +1,4 @@
+Vector#magnitude の alias として Vector#norm を追加しています。また Vector の
+norm を 1 に正規化する Vector#normalize メソッドも追加。そして Vector#collect2
+に似ているけど Array を返す Vector#map2 も追加しています。 [ruby-dev:43829]
+[Feature #4891]
