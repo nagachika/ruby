@@ -1,0 +1,5 @@
+r31262 の変更で HAVE_FTRUNCATE などのマクロが定義されたら ftruncate() などの関
+数は自前で定義しないようにしていますが、 VC では ftruncate() は存在しないけど
+HAVE_FTRUNCATE は定義しているらしい(win32/Makefile.sub の config.h を生成してい
+るところがそれらしい)ので defined(_MSC_VER) の時はやっぱり自前の関数を定義する
+ようにしています。
