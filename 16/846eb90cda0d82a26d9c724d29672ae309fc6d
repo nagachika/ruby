@@ -1,0 +1,3 @@
+test/io/wait/test_io_wait.rb は pipe を使っていたのが問題だったようなので、
+IO.pipe のかわりに Socket.pair で IO のペアを生成するようにして、mswin でも再度
+テストを有効にしています。
