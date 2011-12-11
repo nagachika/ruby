@@ -1,0 +1,9 @@
+ri は環境変数 HOME がセットされていないと例外を発生させていたので rescue してい
+ます。また File.expand_path を使って "~" を展開させていますが、[DEL:これでは
+USERPROFILE や HOMEPATH という環境変数が効かなくなってしまうのでこれでいいんで
+しょうか。:DEL] コメントで教えていただきましたが Windows 環境だと HOME が存在し
+ない時は初期化時に HOMEDRIVE, HOMEPATH か USERPROFILE から、さらにそれもないと
+SHGetSpecialFolderLocation() という関数を使ってプロファイルフォルダ、パーソナル
+フォルダというのを探してきて、それを環境変数 HOME にセットしているので、
+File.expand_path で HOME だけを参照しているけど大丈夫だそうです。USERPROFILE と
+か HOMEPATH というのは Windows 環境での環境変数だったんですね。
