@@ -1,0 +1,2 @@
+複数の Thread で Fiber を生成した時に Fiber に保存されている Thread オブジェク
+トがマーク漏れて SEGV するという不具合の対応です。 [ruby-dev:44566] [Bug #5386]
