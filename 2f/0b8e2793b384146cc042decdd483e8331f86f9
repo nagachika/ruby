@@ -1,0 +1,1 @@
+rb_num2long の返り値を格納しておく変数が long だったので SIGNED_VALUE へ変更。
