@@ -1,0 +1,2 @@
+deprecated になった Gem::Specification#loaded というメソッドが常に false を返す
+ようになっていたのを修正しています。 [ruby-dev:44117] [Bug #5032]
