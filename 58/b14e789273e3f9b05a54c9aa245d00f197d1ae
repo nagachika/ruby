@@ -1,0 +1,3 @@
+Encoding.compatible? の rdoc に追記しています。 Encoding.compatible? には
+String だけではなくて他にも encoding を持つもの (Regexp や IO それに Encoding
+オブジェクト)も受け付けていることを記述しています。
