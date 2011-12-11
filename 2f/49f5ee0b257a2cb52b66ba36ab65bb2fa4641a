@@ -1,0 +1,3 @@
+拡張ライブラリ dbm が libgdbm を利用している時に gdbm_version を検出してバージ
+ョン情報を取得し、DBM::VERSION にその情報をセットするようにしています。
+[ruby-dev:44944]
