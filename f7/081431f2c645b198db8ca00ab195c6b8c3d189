@@ -1,0 +1,4 @@
+PStore がデータを保存するファイルを open する時に File::BINARY を指定するだけだ
+ったため external encoding がデフォルトのままになっていてので、:encoding =>
+Encoding::ASCII_8BIT の指定も追加して開くようにしています。 [ruby-core:39503]
+[Bug #5311]
