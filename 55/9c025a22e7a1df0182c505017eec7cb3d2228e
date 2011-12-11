@@ -1,0 +1,1 @@
+ext/date/lib/* の ruby 製のコードをほぼ date_parse.c の C 版に移植しています。
