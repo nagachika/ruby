@@ -1,0 +1,3 @@
+BigDecimal と Rational の coerce (演算する時に Rational を BigDecimal に自動的
+に変換する)で精度としてレシーバの BigDecimal の精度をそのまま使うようにしていま
+す。 [ruby-core:34318]
