@@ -1,0 +1,2 @@
+rss.rb にコメント(ドキュメント)を追加しています。 [ruby-core:36082] [Bug #4663]
+accessable -> accessible ですかね。
