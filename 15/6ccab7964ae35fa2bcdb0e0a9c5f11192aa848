@@ -1,0 +1,2 @@
+rb_fd_init_copy() という rb_fdset_t の複製を作る API を追加して do_select() で
+利用するようにしています。
