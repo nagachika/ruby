@@ -1,0 +1,3 @@
+さらに NUM2SHORT() と NUM2USHORT() というその名の通り short/unsigned short へ変
+換するマクロを追加しています。なんと、これまで存在していなかったのかー。これも
+README.EXT および NEWS に追記ですね。
