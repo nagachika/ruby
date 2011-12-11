@@ -1,0 +1,3 @@
+OpenSSL::PKey::EC#to_pem で秘密鍵のエンコードに暗号化を付与できるようにしていま
+す。これにより引数に省略可能な cipher と password が追加されています。
+[ruby-core:35329] [Bug #4423]
