@@ -1,0 +1,2 @@
+test/misc/test_ruby_mode.rb による misc/ruby-mode.el のテストはインストールされ
+ている emacs のバージョンが 23以上の時だけ実行するようにしています。
