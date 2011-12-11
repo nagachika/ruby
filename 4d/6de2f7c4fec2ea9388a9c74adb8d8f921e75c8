@@ -1,0 +1,1 @@
+さらに parse.y で debug 用関数を static に宣言するようにしています。
