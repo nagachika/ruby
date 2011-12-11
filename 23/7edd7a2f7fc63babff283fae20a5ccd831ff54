@@ -1,0 +1,1 @@
+native_thread_destroy(pthread 版)で gvl_cond の破棄漏れを修正。
