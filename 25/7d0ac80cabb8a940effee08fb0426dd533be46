@@ -1,0 +1,4 @@
+Fiber (Continuation) で Thread の構造体をコピーした時に、Fiber(Continuation) を
+GC マークする時にコピー元の Thread オブジェクトもマークしないと Thread 内で
+Fiber を作ってその Thread が終了後に回収されて Fiber だけ残った状態で SEGV など
+が起きることがあるというのを修正しています。 [ruby-dev:44567] [Bug #5386]
