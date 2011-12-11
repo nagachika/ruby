@@ -1,0 +1,7 @@
+check_funcall() でメソッドが呼べるかチェックする時に method_missing を呼ぶ前に
+respond_to? でチェックして false を返してきたら method_missing を呼ばないように
+しています。
+うーんつまり respond_to? が true を返さない(つまり respond_to_missing? で明示的
+に指定した)メソッドでないと method_missing が呼ばれなくなる!? と一瞬思いました
+が check_funcall() は内部的に to_??? で暗黙の変換をする時に使われているので通常
+のメソッド呼び出しの時には関係ありませんでした。 [ruby-core:38799] [Bug #5158]
