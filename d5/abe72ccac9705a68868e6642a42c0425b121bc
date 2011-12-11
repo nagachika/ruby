@@ -1,0 +1,2 @@
+benchmark/bm_vm3_clearmethodcache.rb を追加しています。大量にクラスを定義してメ
+ソッドキャッシュのクリアのベンチマークとしています。
