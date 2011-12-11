@@ -1,0 +1,1 @@
+ext/date/date_core.c の警告除去のためキャスト追加。
