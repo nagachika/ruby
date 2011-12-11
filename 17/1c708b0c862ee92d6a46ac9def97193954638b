@@ -1,0 +1,3 @@
+r33419 で NoMethodError を生成するための処理を切り出して使い回すために定義した
+make_no_method_exception() という関数の spell が間違っていたので修正しています
+。
