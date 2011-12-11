@@ -1,0 +1,2 @@
+prime.rb の rdoc の修正。インデント整形や Prime が Enumerable として使えること
+の例の追加など。 [ruby-core:36380] [Bug #4762]
