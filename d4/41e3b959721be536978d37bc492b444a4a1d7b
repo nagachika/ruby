@@ -1,0 +1,2 @@
+TestSyntax#test_syntax で assert にひっかかった時にスクリプト名をメッセージに含
+めるようにしています。
