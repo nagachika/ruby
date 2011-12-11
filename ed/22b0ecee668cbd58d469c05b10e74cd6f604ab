@@ -1,0 +1,2 @@
+r29984 の String#inspect の修正で BOM のペアのリテラルが間違っていたので修正
+(0xFD -> 0xFE)
