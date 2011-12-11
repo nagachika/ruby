@@ -1,0 +1,3 @@
+signal_thread_list を利用するかどうかの条件コンパイルをプラットフォームを基準に
+していたのですが、一部条件が漏れてたりしていたので SIGVTALRM があるかどうかも含
+めて USE_SIGNAL_THREAD_LIST というフラグに集約しています。
