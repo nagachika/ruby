@@ -1,0 +1,6 @@
+rb_enc_associate() (文字列等に Encoding を関連付ける関数)で引数の obj が feeze
+されていたら例外を発生させるようにしています。また parse.y や ruby.c で内部的に
+保持する String を freeze するようにしています。[追記]freeze はもともとやってい
+たことですが、rb_enc_associate() が frozen な文字列で例外になってしまうので、そ
+の後で freeze するようにタイミングをずらしただけでした[/追記]
+また拡張ライブラリを利用してこの API を呼ぶテストを追加しています。
