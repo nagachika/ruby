@@ -1,0 +1,2 @@
+syck/rubyext.c で const char * が必要なところで char * だったのを修正したり、関
+数の引数や返り値の型の間違いを修正。
