@@ -1,0 +1,7 @@
+r32586 の修正についてのテストを追加しています。またコメントで詳しい原因について
+触れられています。
+それによると、FreeBSD (7.2 から 7.2 となってるのは typo?)では getaddrinfo(3) か
+ら nsdispatch(3) が呼ばれていて、nsdispatch(3) が
+_nss_cache_cycle_prevention_function を呼ぶために dlsym(3) を使った後に dlerror
+(3) を呼んでいないのでエラー情報が残ってしまっていた、ということのようです。
+[ruby-dev:44091] [Bug #5021]
