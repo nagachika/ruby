@@ -1,0 +1,3 @@
+Unix 版の Makefile も for を使ってメッセージを順に出力するようにしています。ま
+たメッセージを挟む変数名を MSG/EOM から MESSAGE_BEGIN/MESSAGE_END と長めの命名
+に変更しています。
