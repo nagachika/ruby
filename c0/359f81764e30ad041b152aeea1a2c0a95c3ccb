@@ -1,0 +1,9 @@
+IO#fcntl と IO#ioctl で fcntl(2), ioctl(2) の呼び出しはブロックする場合があるの
+で rb_thread_blocking_region() を使ってシステムコール呼び出し中は GVL を解放す
+るようにしています。[ruby-core:35417][Bug #4463]
+rb_thread_io_blocking_region() (close 検出するやつ)じゃなくてもいいんでしょうか
+。そういえば rb_thread_io_blocking_region() は [ruby-dev:43199] でささださんが
+少し反対意見を出していたけど特に進展していないままでしたね。
+それから IO#fcntl のテストを追加しています。この GVL 解放についてのテストではな
+くてそもそもテストがないので作ったという感じです。fcntl/ioctl は使い方がそもそ
+もプラットフォームに依存しているので Linux/x86_64 の環境のみです。
