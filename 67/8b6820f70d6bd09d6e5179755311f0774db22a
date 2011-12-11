@@ -1,0 +1,4 @@
+さらに Float から BigDecimal を生成することもできるように機能追加されています。
+to_r で一旦 Rational に変換してから BigDecimal を作るようになっています。精度が
+Float (というか double)の精度(DBL_DIG+1)を越える値が指定されたら例外にしていま
+す。
