@@ -1,0 +1,4 @@
+test/rubygems/test_gem_commands_help_command.rb に require_relative
+"rubygems_plugin" を追加しています。並列テストで走らせている場合にテストケース
+が別々のプロセスに分離するから(？)か必要な定数が未定義になるのを防いでいるそう
+です。 [ruby-core:36168] [Bug #4686]
