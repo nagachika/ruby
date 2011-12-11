@@ -1,0 +1,23 @@
+r30064 と r30071 を revert しています。 #4106 は、元々定義されているメソッドを
+オブジェクトの特異クラス内で protected にした時に呼び出せない、という報告だった
+のですが、これは仕様という判断だったようです。
+class A
+  def meth
+    :meth
+  end
+  def test(other)
+    other.meth
+  end
+end
+a = A.new
+class << a
+  protected :meth
+end
+a2 = A.new
+a2.test(a)    # <- ここで a2 から a の meth が呼べるか?
+こういう状況ですが、特異クラス内で protected にするということは、その特異クラス
+と is_a? 関係にあるオブジェクトからしか呼べない、つまり a からしか呼べないとい
+うことで NoMethodError になるのが正解。なるほどー。
+たとえば特異クラス内で alias すると特異メソッドが定義されることになるので、
+protected を実行するのも同様に protected な特異メソッドを追加することになるんで
+すね。という解釈です。
