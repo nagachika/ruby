@@ -1,0 +1,2 @@
+ext/psych/parser.c の関数マクロの引数にかっこをつける修正です。
+ついに、openssl を抜けました!
