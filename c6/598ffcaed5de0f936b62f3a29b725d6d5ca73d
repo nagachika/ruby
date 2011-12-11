@@ -1,0 +1,6 @@
+worker プロセスを起動するのに Process.spawn を使っていのたを IO.popen に変更し
+ています。また Test::Unit::Runner::Worker が Hash を使って内部状態を保持してい
+たのをばらしてインスタンス変数を適宜持つようにしています。比較するとだいぶすっ
+きりした見た目になりました。それから端末サイズを取得するために require "io/
+console" して IO.winsize を利用しています。Windows での動作が良くなったかもしれ
+ません。
