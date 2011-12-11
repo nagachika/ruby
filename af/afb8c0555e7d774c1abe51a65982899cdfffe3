@@ -1,0 +1,8 @@
+test/io/nonblock/test_flush.rb の flush_test メソッドは true か false で
+nonblock= がセットできたか(ちゃんとテスト実行できたか)を返しているのに最後に
+true を返していなかったので明示的に true を返すようにしています。ちなみに
+test_flush.rb は古めの Linux Kernel だと select 中に他の Thread で close された
+時に起こされないので止まってしまって timeout で Error になるというのが起きてい
+たのですが(http://d.hatena.ne.jp/nagachika/20090204/working_for_0f0e)、たぶんこ
+れも Error にならなくなってるんじゃないかなぁ。月曜日にチェックしてみることにし
+ます。
