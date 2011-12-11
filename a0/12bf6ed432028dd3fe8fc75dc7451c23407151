@@ -1,0 +1,6 @@
+r29541 の test_io.rb, test_io_m17n.rb で pipe の読み書きを別々の Thread でする
+ようにした修正で、Thread 起動などをまとめた pipe メソッドで、各 Thread での例外
+を捕捉して親 Thread であらためて raise するようにしています。Tread#join したら
+再発生するから……と思ってたんですけど、よく考えたら ensure の前に join してい
+るのでそこで例外が発生して、ensure 節に入ってまた join して……とよろしくない感
+じになっていました。反省。
