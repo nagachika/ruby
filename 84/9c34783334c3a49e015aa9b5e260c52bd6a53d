@@ -1,0 +1,5 @@
+Windows で openssl の SSLSocket へのブロックするメソッド呼び出しがスレッド切り
+替えされずにインタプリタ全体が止まってしまう現象(多分)の修正。WinSock の設定す
+る errno は変換が必要なのだそうです。
+(追記：詳しいことが Redmine のチケットのコメントに書かれてました http://
+redmine.ruby-lang.org/issues/show/3794#note-6 )
