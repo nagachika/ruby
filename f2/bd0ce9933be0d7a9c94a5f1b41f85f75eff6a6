@@ -1,0 +1,5 @@
+lib/yaml.rb の Yaml::EngineManager#yamler= で Object を利用する際に ::Object と
+トップレベルの Object を明示的に指定するようにしています。 Syck::Object という
+のもあるので明示するようにしているそうです。 EngineManager は Syck の下を見るこ
+とはなさそうなので単に Object と書いても ::Object を参照すると思いますが、どっ
+ちのことか明示するためにつけているのだと思います。
