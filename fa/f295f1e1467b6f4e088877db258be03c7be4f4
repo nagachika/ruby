@@ -1,0 +1,5 @@
+encoding.c のリファクタリング。to_encoding() から str_to_encindex() を切り出し
+て enc_find() で利用するように、また to_encoding() を str_to_encoding() に改名
+。そして rb_obj_encoding() で rb_enc_get() を利用せずに rb_enc_get_index で
+index に変換して存在チェックしてから rb_enc_from_encoding_index() で Encoding
+オブジェクトに変換して返すようにして余分な変換を省いています。
