@@ -1,0 +1,6 @@
+SUPPORT_JOKE というマクロが未定義という警告が出ていたのを修正。[ruby-dev:42730]
+SUPPORT_JOKE は YARV の命令に bitblt("a bit of bacon, lettuce and tomato" を返
+す) とか answer(42 を返す)といったジョーク命令を追加するマクロです。YARV に命令
+を追加して遊ぶのは楽しいので一度やってみるといいと思います。insns.def で定義を
+追加して、compile.c で新規命令にコンパイルするメソッドを作れば確かさくっとでき
+たはず。
