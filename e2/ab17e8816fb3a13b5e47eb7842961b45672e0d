@@ -1,0 +1,2 @@
+Complex と Rational のテストでも skip していたところを return にしています。し
+かし Complex も Rational も組み込みクラスなので消してもいいような。
