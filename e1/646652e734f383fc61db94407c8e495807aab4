@@ -1,0 +1,8 @@
+rb_io_set_encoding においてオブジェクトの型が T_FILE (組み込みの IO クラスを継
+承するクラスのインスタンスの内部表現の型)でない時に rb_funcall2 を使って
+"set_encoding" メソッドを呼び出している。rb_io_set_encoding 自体 IO#
+set_encoding の実装なのでそこでは常に T_FILE のはず。
+rb_stdio_set_default_encoding 経由で呼ばれた時に $stdin, $stdout, $stderr 等が
+別のクラス(たとえば StringIO)にすりかえられていた時のためと思われます。
+  • r オプションでロードするライブラリ内で $stdin 等を Tempfile や StringIO に
+    すりかえると [BUG] で落ちる不具合が元みたいです。[ruby-dev:42356]
