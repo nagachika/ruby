@@ -1,0 +1,5 @@
+configure で mode_t 型のチェックを追加し、Process.spawn の :umask オプションの
+Integer を扱う型に変換するところを NUM2LONG から NUM2MODET を利用するように修正
+しています。環境によって(64bit 環境？)バイト幅が違ってしまうのかも。
+[追記]64bit環境で clang でビルドするとコンパイルエラーになったのだそうです。[/
+追記]
