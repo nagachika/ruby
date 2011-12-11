@@ -1,0 +1,4 @@
+IO#read の rdoc にシステムコールの read(2) みたいなことをしたかったら
+readpartial、read_nonblock、sysread などを使うこと、と書いてあるところで IO#
+read は non-blocking だろうが指定されただけ読み込むか EOF がくるまでブロックす
+るよということを追記しています。
