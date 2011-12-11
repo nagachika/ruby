@@ -1,0 +1,2 @@
+ext/syslog/syslog.c の rdoc 用コメントの修正です。 [ruby-core:35592] [Bug #
+4545]
