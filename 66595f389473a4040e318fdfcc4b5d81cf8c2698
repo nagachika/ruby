@@ -1,0 +1,4 @@
+Windows 環境で io_fflush() で fsync() を呼んでいたのを rb_io_flush() と
+rb_io_rewind() に移動しています。fsync() の回数を減らして Windows での出力のパ
+フォーマンスを改善するためのようです。 [ruby-list:48515] [Bug #5585]
+なんとなく見おぼえのある変更だなぁと思ったら r31901 の逆向きの変更なんですね。
