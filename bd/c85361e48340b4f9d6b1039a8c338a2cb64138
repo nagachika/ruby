@@ -1,0 +1,2 @@
+rb_cloexec_fcntl_dupfd() の呼び出しは F_DUPFD が定義されている時だけにするよう
+に修正しています。
