@@ -1,0 +1,4 @@
+testunit で最後の Skip/Failure/Error のレポートを種類でソートして表示するように
+しています。また最後に ruby -v の出力を表示するようにしています。おお、これなら
+TESTS に -q を指定しなくても Failure/Error を探すのが楽になりますね。
+[ruby-dev:44476] [Feature #5282]
