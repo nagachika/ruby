@@ -1,0 +1,4 @@
+さらに lib や ext の下に *.gemspec ファイルを置いているライブラリは、defs/
+default_gems に記述しなくてもそこからかってに読みこんで fakegem としてインスト
+ールするように tool/rbinstall.rb を拡張しています。これにより標準添付ライブラリ
+の fakegem 化は *.gemspec ファイルを置くだけで良くなります。
