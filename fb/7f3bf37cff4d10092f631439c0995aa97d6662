@@ -1,0 +1,2 @@
+rb_f_syscall の条件コンパイルで HAVE__SYSCALL を直接参照していたのを defined
+(HAVE__SYSCALL) で判定するようにしています。警告除去。
