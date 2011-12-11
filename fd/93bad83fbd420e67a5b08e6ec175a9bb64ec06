@@ -1,0 +1,1 @@
+date/format.rb の require "date_core.so" を require "date" に変更しています。
