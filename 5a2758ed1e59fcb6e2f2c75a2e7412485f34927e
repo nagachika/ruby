@@ -1,0 +1,4 @@
+Windows 版で locale のエンコーディングを nl_langinfo_codeset() を呼んで決めてい
+るのを cygwin 版以外ではやめています。 nl_langinfo_codeset() は missing/
+langinfo.c に実装があって、環境変数 LANG や LC_ALL などからエンコーディングを決
+定する関数のようです。
