@@ -1,0 +1,2 @@
+rb_fd_copy() を rb_fd_dup() に(win32 版は rb_w32_fdcopy -> rb_w32_fd_dup())名称
+を変更しています。 [ruby-dev:43538] [Bug #4674]
