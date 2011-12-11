@@ -1,0 +1,2 @@
+IO.sysopen の mode 引数を mode_t に変換する時に NUM2MODET() を利用するように修
+正しています。
