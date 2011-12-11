@@ -1,0 +1,2 @@
+既に利用されていない関数マクロ native_mutex_reinitialize_atfork を削除していま
+す。
