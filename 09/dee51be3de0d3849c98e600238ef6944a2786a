@@ -1,0 +1,3 @@
+CMath のメソッドで TypeError を発生させるべきところが ArgumentError になってい
+たのを修正。 Object#handle_no_method_error というメソッドを追加して Object に
+real? メソッドを追加するのをやめています。 [ruby-dev:40961] [Bug #3137]
