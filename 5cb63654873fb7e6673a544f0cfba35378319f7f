@@ -1,0 +1,3 @@
+recvmsg(2) の flag に MSG_CMSG_CLOEXEC をセットして呼ぶ処理を rsock_recvmsg()
+として切り出して、nogvl_recvmsg_func() および recvmsg_blocking() から利用するよ
+うにするリファクタリングです。
