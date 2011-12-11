@@ -1,0 +1,4 @@
+atomic.h で _WIN32 で利用している _InterlockedOr は mingw では利用できないので
+gcc のインラインアセンブラで代用しています。また mingw 版では vm 毎に object
+space を持つ実装になっていないので、gc のパラメータ設定の修正も #if で一部括ら
+れています。
