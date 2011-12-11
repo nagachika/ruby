@@ -1,0 +1,2 @@
+mkmf.rb で arch_hdrdir と libpath をクオートつきにするようにしています。 prefix
+に空白を含むパスを指定された時の動作のためとのこと。
