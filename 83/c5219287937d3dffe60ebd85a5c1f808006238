@@ -1,0 +1,4 @@
+RUBY_DEBUG_ENV が定義されている時は main で getenv を使うので stdlib.h を
+include しています。省略されると自動的に getenv の型が int とされてしまいますが
+、int とポインタ(char *) の型のサイズが違う環境では一旦 int を経由して情報が落
+ちるのでおかしなことになってしまいます。
