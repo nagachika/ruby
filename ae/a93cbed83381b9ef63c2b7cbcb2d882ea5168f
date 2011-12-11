@@ -1,0 +1,2 @@
+configure で --with-valgrind の指定がない時にデフォルトで on になるように修正し
+ているそうです。
