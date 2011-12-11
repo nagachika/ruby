@@ -1,0 +1,5 @@
+configure に渡すオプションで --disable-install-doc というのがあって rdoc の生成
+を抑制してくれるので、わたしも時間がない時やドキュメント不要な環境には付けるよ
+うにしているのですが、これを --disable-install-rdoc と --disable-install-capi
+に分離して個別に制御できるようにしています。--disable-install-doc は両方まとめ
+て抑制してくれるので普段は使うことはないだろうと思います。
