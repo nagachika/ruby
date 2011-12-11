@@ -1,0 +1,3 @@
+r31436 で追加した control frame stack と iseq から method entry を検索する処理
+はメソッド呼び出しが深いとかなり高コストなので検索した結果を cfp->me に保存して
+おくようにしています。
