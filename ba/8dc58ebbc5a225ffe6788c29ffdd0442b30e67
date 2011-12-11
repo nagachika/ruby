@@ -1,0 +1,2 @@
+dev_t 型の変換マクロ (NUM2DEVT, DEVT2NUM, PRI_DEVT_PREFIX) を unsigned int 型と
+して定義。
