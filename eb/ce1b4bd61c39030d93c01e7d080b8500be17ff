@@ -1,0 +1,6 @@
+Tempfile.mkdir と Tempfile.rmdir のドキュメント追加です。 [ruby-core:36300]
+[Bug #4728]
+しかし Tempfile.mkdir とかは単に Dir.mkdir などに委譲してるだけなんですがなんな
+んでしょうね。いずれにせよこれは内部用のような気も。あーいや Tempfile を継承し
+てクラスを定義した時に open, mkdir, rmdir の挙動を上書きできるようにしているの
+ですね。
