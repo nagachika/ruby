@@ -1,0 +1,3 @@
+さっきのは struct stat の st_size メンバについてのチェックだったので、struct
+stat の st_blocks メンバのチェックも他にあったのでそちらにも #include <sys/
+stat.h> を含める修正を追加。
