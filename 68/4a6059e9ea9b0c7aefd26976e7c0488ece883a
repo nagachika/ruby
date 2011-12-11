@@ -1,0 +1,4 @@
+make all, make main などで最初に showflags ターゲットを読んでコンパイルフラグを
+表示させるようにしています。
+configure.in の書きかた勉強しないといけないなと思いました。configure.in の修正
+は半分くらいわかってません。
