@@ -1,0 +1,4 @@
+Hash#key のドキュメント修正。"Returns the key of the first occurrence of a
+given value." を "Returns the key of an occurrence of a given value." と変更。
+Hash#key が返すキーは Hash に同じ値に対応するキーが複数あった場合どれを返すのか
+は不定です。 [ruby-core:36377] [Bug #4760]
