@@ -1,0 +1,2 @@
+拡張ライブラリ向けの extmk.rb で nmake のために MAKEFLAGS を MFLAGS に流用する
+ような Makefile を生成するようにしています。
