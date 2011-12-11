@@ -1,0 +1,1 @@
+r33688 で追加したテストに require 追加と Tempfile.new の引数追加。
