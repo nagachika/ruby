@@ -1,0 +1,9 @@
+r32598 で応急処置した recvmsg で file descriptor passing をした時に MSG_PEEK つ
+きで読むと、FreeBSD や Mac OS X では取り出した fd が有効なものでない(しかし
+Linux などでは MSG_PEEK で読んでもその都度有効な fd が開かれるので、再度読むな
+ら閉じないといけない)ため、discard_cmsg() にその cmsg が MSG_PEEK つきで読んだ
+ものかどうか指定する引数を追加して、 __FreeBSD__, __NetBSD__, __APPLE__ が定義
+されていたら MSG_PEEK つきの時は rb_update_max_fd() と close() を呼び出す処理を
+スキップするようにしています。また rb_update_max_fd() も防衛的に引数に渡された
+fd を fstat(2) で有効な file descriptor かチェックして不正だったら rb_bug() で
+インタプリタを異常終了させるようにしています。 [ruby-dev:44189] [Bug #5075]
