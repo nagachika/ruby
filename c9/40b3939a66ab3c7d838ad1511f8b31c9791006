@@ -1,0 +1,3 @@
+gcc のオプション -Werror=implicit-function-declaration をつけるようにしたので
+configure.in で関数のチェックをする時に生成するソースも宣言を生成するようにして
+いる模様。
