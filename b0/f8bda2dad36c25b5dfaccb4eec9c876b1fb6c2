@@ -1,0 +1,2 @@
+common.mk で ripper と ext/json/parser が適切に再ビルドされるように依存関係を追
+加しています。
