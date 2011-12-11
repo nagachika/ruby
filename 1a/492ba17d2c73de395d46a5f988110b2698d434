@@ -1,0 +1,2 @@
+String#[]= で Encoding が変化しないというテストを追加しています。
+[ruby-core:35142]
