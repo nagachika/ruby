@@ -1,0 +1,5 @@
+Complex#rationalize は虚数部が 0 の時に実数部の値を Rational に変換する際に
+to_r を呼んでいたため、Float#rationalize を呼んだものと結果が一致しない場合があ
+ったので、変換のために rationalize を呼ぶように修正しています。rationalize は
+Float を誤差が小さくなるような Rational に変換してくれるようで(リファレンスよ
+り)。 [ruby-core:38885] [Bug #5178]
