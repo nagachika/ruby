@@ -1,0 +1,3 @@
+OpenSSL 1.0.0 で提供されている X509_NAME_hash_old という互換性のための関数への
+インタフェースを OpenSSL::X509::Name#hash_old というメソッドとして提供していま
+す。
