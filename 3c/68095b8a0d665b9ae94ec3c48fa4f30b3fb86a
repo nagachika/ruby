@@ -1,0 +1,3 @@
+do_select() の引数の型を fdset -> rb_fdset_t に変更。do_select が fdset を直接
+*var のように dereference している不具合を修正しています。ファイルディスクリプ
+タが大きいとちゃんと動いてなかったようですね。 [ruby-dev:43460] [Bug #4636]
