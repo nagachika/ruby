@@ -1,0 +1,9 @@
+gem_prelude.rb は空っぽにしてしまって、autoload 機能を使って Gem が利用された時
+に require "rubygems" するようにしています。
+しかし、これだと
+require "rack"
+みたいにいきなり RubyGems でインストールしているライブラリを require すると失敗
+してしまいますね。
+require "rubygems"
+require "rack"
+とすれば動きます。
