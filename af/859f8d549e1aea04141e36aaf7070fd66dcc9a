@@ -1,0 +1,6 @@
+r26135 で、なのでもう去年の 12月頃からですが、BasicObject の initialize は任意
+の数の引数を受け付けるようにされていたのですが、ruby-core でこれが誤って使った
+時にエラーにならなくなってしまうのでよろしくないという議論になって revert され
+ています。[ruby-core:27080]、[ruby-core:32952]。
+BasicObject#initialize の仕様変更でエラーが見えなくなった例としては r29528 で対
+処していたものがありましたね。→ ruby-trunk-changes r29520 - r29530 - PB memo
