@@ -1,0 +1,5 @@
+Psych::Parser でパースエラー時の例外を生成する時に行番号、カラム番号(文字位置)
+を取得するために参照する yaml_parser_t 構造体のメンバを mark から context_mark
+へ変更しています。 yaml_parser_t は libyaml で定義されている構造体で、mark は現
+在位置、context_mark は context position だそうなので……たぶん今読もうとした要
+素(読んでしまったら mark は先に動く)を指しているということかなと。
