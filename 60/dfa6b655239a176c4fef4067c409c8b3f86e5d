@@ -1,0 +1,3 @@
+文字コードの変更です。コメントによると Big5 および Big5-HKSCS というエンコーデ
+ィングから CP951 を分離したとのこと。[ruby-core:33256] http://
+source.icu-project.org/repos/icu/data/trunk/charset/data/ucm/
