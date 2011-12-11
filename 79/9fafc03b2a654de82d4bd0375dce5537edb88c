@@ -1,0 +1,2 @@
+numeric.c で round() のプロトタイプ宣言していたのを missing.h に移動しています
+。
