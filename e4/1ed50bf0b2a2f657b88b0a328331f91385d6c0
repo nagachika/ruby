@@ -1,0 +1,5 @@
+URI.encode_www_form に渡した Hash (あるいは 2要素の配列の配列などでも OK)の値の
+ほうが to_ary で配列に変換できるオブジェクトだったら、変換して複数のペアに分解
+する。
+つまりこんな感じですね。
+URI.encode_www_form({ :key => [0, 1] }) #=> "hoge=0&hoge=1"
