@@ -1,0 +1,2 @@
+で更に r31432 を revert? 実際には revert ではなくて calendar に依存しているテス
+トは黙って return にする修正は残されてます。
