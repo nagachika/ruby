@@ -1,0 +1,2 @@
+定数 WEBrick::DigestAuth およびクラス WEBrick::HTTPAuth::DigestAuth のヘッダコ
+メント(rdoc)を追加しています。
