@@ -1,0 +1,2 @@
+r31319 で XMLRPC を修正したところで Float が Infinity か NaN かをそれぞれ判定し
+ていたところを Float#finite? を使った判定に書き直しています。
