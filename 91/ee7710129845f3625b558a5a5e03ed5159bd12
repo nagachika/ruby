@@ -1,0 +1,2 @@
+Date#strftime で localtime の utc からの差分を取得し忘れていたのを取得するよう
+にしています。
