@@ -1,0 +1,2 @@
+r31642 で test_signal.rb の PLATFORM での分岐で mingw の typo で正しくスキップ
+できていなかったのを修正しています。 [ruby-core:36550] [Bug #4798]
