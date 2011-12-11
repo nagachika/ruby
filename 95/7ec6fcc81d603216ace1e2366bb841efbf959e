@@ -1,0 +1,2 @@
+ext/syck/rubyext.c で未使用の変数削除や #if DEBUG を #ifdef DEBUG へ変更するな
+ど警告除去。
