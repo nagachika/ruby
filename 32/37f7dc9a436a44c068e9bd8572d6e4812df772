@@ -1,0 +1,5 @@
+XMLRPC のテストの修正。テスト用に使っている WEBrick::HTTPServer に渡すオプショ
+ンに :BindAddress => "localhost" を追加しています。 XMLRPC::Client.new3() が
+:host オプションの指定がない時に "localhost" に接続しようとするので、localhost
+が getaddrinfo(AF_UNSPEC) で返されるアドレスに名前解決されないような環境ではエ
+ラーになるからだそうです。
