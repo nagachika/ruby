@@ -1,0 +1,2 @@
+Windows 版のスタックトレースの取得処理の修正。SymGetModuleBase64 の返り値は
+BOOL じゃなく DWORD だったらしい。
