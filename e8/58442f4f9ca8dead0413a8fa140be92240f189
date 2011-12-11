@@ -1,0 +1,4 @@
+CVS.open で open の :universal_newline オプションを false に指定して改行の自動
+変換をオフにするようにしています。またファイルのエンコーディングが ASCII
+compatible でなくて mode の指定がない時に例外が発生したら mode に "rb" を指定し
+て open し直すようにしています。[Bug #4603]
