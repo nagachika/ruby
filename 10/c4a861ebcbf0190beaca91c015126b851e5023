@@ -1,0 +1,2 @@
+date と Complex, Rational のテストの return は結局 skip に戻されました。
+[ruby-dev:43468] からのスレッドで skip の用途について議論されはじめました。
