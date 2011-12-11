@@ -1,0 +1,5 @@
+vm_insnhelper.c の vm_call_cfunc() で control frame pointer を GC から保護する
+ために引数を volatile で宣言していたのを RB_GC_GUARD() を使うように変更していま
+す。最近の議論では volatile をつけても利用していないとスタックから消える可能性
+があるので、残っている必要がある場所に RB_GC_GUARD() を使うほうが確実ということ
+でした。
