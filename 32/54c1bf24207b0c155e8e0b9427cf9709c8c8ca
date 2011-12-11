@@ -1,0 +1,2 @@
+ext/io/console/console.c のマクロの typo を修正しています(DEVISE -> DEVICE)。挙
+動は変化していません。
