@@ -1,0 +1,2 @@
+fd が不正だと poll(2) が POLLNVAL を立てて返すのでそのチェックを追加しています
+。 [ruby-core:35991] [Feature #4531]
