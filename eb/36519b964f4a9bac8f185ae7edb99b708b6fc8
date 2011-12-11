@@ -1,0 +1,3 @@
+Mac OS X では IO.copy_stream で sendfile を利用できるようにしています。マルチコ
+アで固まるのも maygvl_copy_stream_wait_readwrite でファイルの読み書きが可能にな
+るまで rb_fd_select で待つことで解決? FreeBSD ではまだ無効のままです。
