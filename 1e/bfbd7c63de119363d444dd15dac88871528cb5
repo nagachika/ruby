@@ -1,0 +1,2 @@
+webrick/compat.rb のドキュメント追加です。ChangeLog に UTF-8 が。
+[ruby-core:36273] [Bug #4725]
