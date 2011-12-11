@@ -1,0 +1,9 @@
+Thread 内で Fiber.current で root Fiber を生成してから Thread が GC されると
+Fiber の mark で SEGV する不具合を修正。rb_cont_t::machine_stack_start/end を 0
+clear していないと cont_mark から rb_thread_mark() を呼ばれた時に解放済みの
+machine_stack を mark しようとしてしまうためでした。 [ruby-core:35891] [Bug #
+4612]
+子 Fiber の場合は fiber_init() で clear されるのですが root Fiber の時は
+fiber_init() を通らないため最初に clear しています。 Continuation の時も
+cont_capture() から cont_save_machine_stack() が呼ばれてそこで clear されるので
+常に初期化しておいて問題ないと思います。
