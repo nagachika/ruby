@@ -1,0 +1,2 @@
+rb_ary_rotate() を ruby/intern.h に追加して公開しています。 ChangeLog は
+rb_ary_reverse になってますね。
