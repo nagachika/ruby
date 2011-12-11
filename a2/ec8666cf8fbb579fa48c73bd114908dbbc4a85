@@ -1,0 +1,10 @@
+private constant になっている Class や Module を class/module 文で再オープンす
+る場合に
+class A::B
+end
+のような書き方は例外を発生させて
+class A
+  class B
+  end
+end
+は許容するための修正です。
