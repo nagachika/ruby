@@ -1,0 +1,14 @@
+[ruby-core:32689] で報告されている、rb_clear_cache_by_class が頻繁に呼ばれるた
+めに non-blocking I/O のパフォーマンスが悪くなっているという現象の修正です。
+Class/Module が GC で回収される際にメソッドキャッシュのクリアが必要ないか検査さ
+れるのですが、インスタンスメソッドをひとつも持っていない Class/Module の場合は
+キャッシュを検査するまでもないのでスキップするようにしています。ところでなぜ
+non-blocking I/O で Class/Module が GC されるかというのは、ちょっと自信がないん
+ですけど、read_nonblock や write_nonblock が発生する Errno::EAGAIN 例外はただの
+Errno::EAGAIN のインスタンスではなくて、そこに IO::WaitReadable や
+IO::WaitWritable を extend したものなので、extend するために特異クラスが発生し
+てそれが GC 対象になるためだと思います。特異クラスじゃなくて IClass かな。 [追
+記] T_ICLASS はたんに Module のエイリアスとして挿入されるだけでメソッドエントリ
+を持たないので、GC の回収時にメソッドキャッシュのクリアは呼ばれていませんので、
+特異クラスのほうですね。[/追記]
+修正内容はほんの3行ですが、奥深い修正でした。
