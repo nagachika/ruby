@@ -1,0 +1,2 @@
+YAML::DBM の values, values_at, select などのテストケースを追加しています。DBM
+は順序を保存してくれるみたいですね。
