@@ -1,0 +1,8 @@
+もうひとつ、PTY.getpty が使用できない環境で例外が発生した時にテストを skip させ
+ています。
+Errno::ENOENT が発生することを確認しているテストなのに？と一瞬思いましたが
+>> Errno::ENOENT.ancestors
+=> [Errno::ENOENT, SystemCallError, StandardError, Exception, Object, Kernel, BasicObject]
+>> RuntimeError.ancestors
+=> [RuntimeError, StandardError, Exception, Object, Kernel, BasicObject]
+と Errno::ENOENT は RuntimeError の直接の子孫ではないので大丈夫なのでした。
