@@ -1,0 +1,3 @@
+r33078 の autoload を thread safe にする修正が ChangeLog 以外はそのまま同じもの
+が適用されています。 Rails のテストが失敗するということで revert されたものです
+が、その修正は次のコミットで行なわれています。 [ruby-core:20797] [Bug #921]
