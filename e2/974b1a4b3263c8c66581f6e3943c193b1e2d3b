@@ -1,0 +1,2 @@
+Enumerable の rdoc の修正。英文の表現の変更や細かい体裁の変更です。
+[ruby-core:39972] [Bug #5411]
