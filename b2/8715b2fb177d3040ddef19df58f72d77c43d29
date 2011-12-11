@@ -1,0 +1,2 @@
+Solaris の 64bit 版では共有ライブラリの探索パスを追加する環境変数の名称が
+LD_LIBRARY_PATH_64 と変化するので configure で対応しています。
