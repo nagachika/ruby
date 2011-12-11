@@ -1,0 +1,3 @@
+dbm/extconf.rb の gdbm と gdbm_compat についてのコメントを修正しています。1.8.1
+以降 gdbm_compat という名前になったということのようです、よくわかってませんが…
+…。
