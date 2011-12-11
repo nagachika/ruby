@@ -1,0 +1,5 @@
+Fiber のコンテキスト切り替えのタイミングで GC が走ると、
+rb_context_t::saved_thread の machine_stack_start, machine_stack_end がカレント
+スレッドからコピーされたままになっていて、GC のマークフェーズでマシンスタックを
+余分にマークしていたので、saved_thread へコピーした直後に必ず 0 クリアしておく
+ようにしています。 [ruby-dev:43680] [Bug #4855]
