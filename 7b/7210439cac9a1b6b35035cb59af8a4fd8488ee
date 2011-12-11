@@ -1,0 +1,3 @@
+rb_iseq_t のメンバ local_table は ID の配列なのに、メモリ確保する時の ALLOC_N
+に渡している型が ID * になっていた。ID はポインタと同じサイズなので発覚していな
+くて、これも Coverity Scan で発見されたとのこと。
