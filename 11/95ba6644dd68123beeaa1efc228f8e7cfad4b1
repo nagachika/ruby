@@ -1,0 +1,2 @@
+benchmark/driver.rb で benchmark が異常終了した時にコマンドラインを例外メッセー
+ジに含めるようにしています。
