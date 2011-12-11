@@ -1,0 +1,4 @@
+test/ruby/test_symbol.rb で %w{ } の中のバッククオート記号が ruby-mode.el で問
+題があるみたいでエスケープを前置しています。しかし %w{ } の中に "\" を書くとそ
+のまま挿入されてしまうんじゃないでしょうか。と思ったらやっぱり TestSymbol#
+test_inspect が Failure になっていますね。
