@@ -1,0 +1,2 @@
+extern したシンボルに "_" の prefix が付くようなコンパイラがあるらしく
+configure でそれをチェックして EXPORT_PREFIX にセットするようにしています。
