@@ -1,0 +1,2 @@
+同じく OpenSSL::SSL::SSLSocket#cert のテストの修正。例外が発生しないことのテス
+トなのでただ呼ぶんじゃなくて assert_nil で明示的にテスト内容を指定。
