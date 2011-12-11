@@ -1,0 +1,3 @@
+exec(2) 前に file descriptor を閉じるために open 済みの file descriptor の最大
+値を取得するところで NetBSD では fcntl(2) の F_MAXFD というコマンドが利用できる
+そうでこれを使って最大の file descriptor を取得してみるようにしています。
