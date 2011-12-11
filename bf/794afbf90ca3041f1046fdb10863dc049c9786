@@ -1,0 +1,2 @@
+load.c の rb_get_expanded_load_path() の先頭で相対パスが含まれているかチェック
+しているけどやめて常に rb_file_expand_path() を通すようにしています。
