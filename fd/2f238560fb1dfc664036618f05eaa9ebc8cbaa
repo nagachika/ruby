@@ -1,0 +1,3 @@
+カレントスレッドが thread_free() で解放される時(終了時)に、ruby_current_thread
+を NULL にリセットして、終了時に RUBY_VM_SET_FINALIZER_INTERRUPT で解放済みのス
+レッド構造体へのフラグ操作をしないようにしています。[ruby-dev:43000]
