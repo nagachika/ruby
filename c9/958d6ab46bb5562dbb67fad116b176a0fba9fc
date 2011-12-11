@@ -1,0 +1,3 @@
+popen や open に "|cmd" のようにパイプコマンドを引数として渡した時の pipe_open
+() でも rb_fork() で fork した子プロセスで rb_thread_atfork() を呼んで GVL を初
+期化するようにしています。
