@@ -1,0 +1,3 @@
+rubygem で Windows 版の時に IO#tty? を利用しないようにしていたのを利用するよう
+にしています。IO#tty? の Windows での不具合は r29969 で修正済み。またこれに伴な
+い Windows で skip していたテストを通すようにしています。
