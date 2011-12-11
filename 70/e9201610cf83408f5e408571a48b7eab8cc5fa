@@ -1,0 +1,2 @@
+test/io/wait/test_io_wait.rb のテストは mswin ではスキップするようにしています
+。
