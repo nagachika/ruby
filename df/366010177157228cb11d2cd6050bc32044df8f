@@ -1,0 +1,2 @@
+Net::HTTP#use_ssl? で常に require "openssl" していたのを https を利用する時(で
+まだ require していない時)だけにしています。 r31933 の変更を再修正。
