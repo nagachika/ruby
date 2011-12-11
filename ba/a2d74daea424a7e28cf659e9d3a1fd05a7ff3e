@@ -1,0 +1,2 @@
+rb_cloexec_open() で open(2) の flags に O_CLOEXEC をセットしているところは
+O_CLOEXEC が定義されている時だけ利用するようにしています。
