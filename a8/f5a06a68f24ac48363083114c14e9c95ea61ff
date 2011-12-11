@@ -1,0 +1,4 @@
+Encoding.compatible? は第一引数が空文字でもその Encoding を優先するようにしてい
+ます。これにより文字列を連結した時などの結果のエンコーディングが変化する場合が
+あります。
+("".encode("UTF-8") + "aaa".encode("EUC-JP")).encoding #=> <Encoding:UTF-8>
