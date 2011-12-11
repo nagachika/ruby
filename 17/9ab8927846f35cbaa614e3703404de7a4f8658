@@ -1,0 +1,1 @@
+IO.console のテストで IO.console が利用できない時の skip を追加しています。
