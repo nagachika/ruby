@@ -1,0 +1,1 @@
+Module#const_get, Module#const_defined? のドキュメントを修正しています。
