@@ -1,0 +1,2 @@
+date/format.rb に require "date_core.so" を追加しています。rdoc の生成のための
+ようです。
