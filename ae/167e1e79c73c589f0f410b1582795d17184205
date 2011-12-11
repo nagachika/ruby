@@ -1,0 +1,2 @@
+io.c の maygvl_copy_stream_wait_readwrite() の定義を #if USE_SENDFILE の条件の
+中に入れています。
