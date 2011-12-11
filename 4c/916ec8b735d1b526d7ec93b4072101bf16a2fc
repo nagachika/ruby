@@ -1,0 +1,2 @@
+socket.h で 64bit 版 darwin のヘッダファイルの __DARWIN_ALIGNBYTES というマクロ
+がダメダメなのを救うようにしている。[ruby-core:32341]
