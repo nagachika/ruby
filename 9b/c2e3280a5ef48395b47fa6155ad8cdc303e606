@@ -1,0 +1,3 @@
+RDoc::RI::Driver.process_args から OptionParser を作る部分と実際に argv をパー
+スする部分、デフォルトのオプション内容をセットアップするところを分離したメソッ
+ドにしています。
