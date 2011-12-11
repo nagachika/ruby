@@ -1,0 +1,1 @@
+rb_ary_modify() を array.c 以外からも呼べるように export しています。
