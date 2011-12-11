@@ -1,0 +1,9 @@
+Windows 版の関数 rb_w32_has_cancel_io() を rb_w32_io_cancelable_p() と改名して
+、引数に渡した file descriptor が端末でないこともチェックに追加しています。これ
+により STDIN.gets で入力を待つ時に例外や Thread.kill で割り込みがかけられるよう
+にしているようです。
+中身はちゃんと調べていませんが、名前からして is_socket() と is_console() は同時
+に真にならないんじゃないかと思えるのでそうすると !is_console() だけでも良さそう
+な気がします。
+[追記]コメントで教えて頂きました。 socket の fd について is_console() を呼んで
+はいけないので、is_socket() の条件も必須ということでした。[/追記]
