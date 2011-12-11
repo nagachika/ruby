@@ -1,0 +1,2 @@
+hash.c と st.c にあった st_hash_type の identhash と type_numhash は内容が同じ
+だったので st_hashtype_num として共有するようにしています。
