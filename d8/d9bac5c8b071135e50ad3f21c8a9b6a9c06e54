@@ -1,0 +1,3 @@
+StringIO を freeze したら新規に書き込みや reopen できないように修正されています
+。[ruby-core:33648] 実装は freeze のチェックだけでなく taint フラグのチェックも
+行なうようにされています。
