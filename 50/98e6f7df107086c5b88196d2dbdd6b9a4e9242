@@ -1,0 +1,4 @@
+make install の時に SUDO が設定されていたらそれを使うようにしています。環境変数
+に設定して make install すれば使えるんじゃないかと思います。
+$ SUDO=sudo make install
+こんな感じでしょうか。
