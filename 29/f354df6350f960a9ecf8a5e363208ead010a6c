@@ -1,0 +1,2 @@
+更に socket の extconf.rb のチェック用プログラムのエラー時のメッセージの強化や
+、利用する file descriptor に pipe を利用するなどの修正です。
