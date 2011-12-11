@@ -1,0 +1,2 @@
+rb_maygvl_fd_fix_cloexec() は非公開ということにして internal.h から削除していま
+す。
