@@ -1,0 +1,5 @@
+さらに Rational から BigDecimal を生成できるようにしています。また Rational か
+らの変換の時に bigdecimal/util.rb を require するのをやめて Rational の分子を
+BigDecimal に変換して除算するようにしています。あとはインデントの修正など。
+[ruby-core:34318]
+あ、util_loaded が未使用な変数になっていますね。
