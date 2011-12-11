@@ -1,0 +1,2 @@
+r30190 で入れた simple_sendfile の BSD 版に #define USE_SENDFILE を追加。また
+Mac OS X は外されてます。sendfile の引数が違うらしい……。
