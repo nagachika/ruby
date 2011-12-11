@@ -1,0 +1,3 @@
+Net::IMAP で受信スレッドが停止した時に Net::IMAP#idle から抜けてこなくなるので
+、停止を検出して Net::IMAP::Error 例外を発生させるようにしています。
+[ruby-core:38930] [Bug #5190]
