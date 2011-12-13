@@ -1,0 +1,2 @@
+Pathname#chardev? を pure ruby から C の拡張ライブラリに移植。
+最近 akr さんが毎日1メソッドずつ ruby から C 拡張ライブラリに移植していますね。
