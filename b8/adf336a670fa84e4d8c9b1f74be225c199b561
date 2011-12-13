@@ -1,0 +1,2 @@
+akr さんの Pathname メソッド移植。Pathname#exacutable? を C 拡張ライブラリへ移
+動。
