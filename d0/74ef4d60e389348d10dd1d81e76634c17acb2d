@@ -1,0 +1,1 @@
+r29146 で入ってしまった不具合修正と String#count, String#delete の追加の修正。
