@@ -1,0 +1,2 @@
+test/syck/test_array.rb のテストの間 YAML::ENGINE.yamler = 'syck' をセットして
+おくようにしています。
