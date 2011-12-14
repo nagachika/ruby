@@ -1,0 +1,2 @@
+StringIO#truncate の引数に負の数値を渡した時の例外メッセージの typo を修正。
+https://github.com/ruby/ruby/pull/65
