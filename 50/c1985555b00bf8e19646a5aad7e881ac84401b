@@ -1,0 +1,4 @@
+rb_barrier_release() と rb_barrier_destroy() もその Barrier で待っている Thread
+がまだ残っているかを true, false の戻り値で判定できるようにして、load_unlock()
+で自分が最後の Thread だったらテーブルから削除するようにしています。r34027 で修
+正したもののリファクタリングです。 [Bug #5754]
