@@ -1,0 +1,7 @@
+Windows の nmake で make V=1 で実際のコマンドを省略せずに表示する機能がうまく動
+いていなかったので NULLCMD (なにもしないコマンド)を configure で作っていたもの
+を common.mk で参照して ECHO1 を定義していたのを、Makefile.in や win32/Makefile
+.sub で直接 ECHO1 を定義するようにしています。 configure.in では NULLCMD に使え
+るコマンドをチェックしているのですが、win32/configure.bat は NULLCMD を作ってい
+ないので、win32/Makefile.sub では NULLCMD を参照せず直接 ":" を使って ECHO1 を
+定義するようにしています。 [ruby-dev:44933] [Bug #5711]
