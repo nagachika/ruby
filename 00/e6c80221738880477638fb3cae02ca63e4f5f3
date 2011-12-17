@@ -1,0 +1,2 @@
+拡張ライブラリ strscan の StringScanner クラスを TypedData を使うようにリファク
+タリングしています。
