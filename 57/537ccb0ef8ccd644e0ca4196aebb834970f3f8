@@ -1,0 +1,3 @@
+IO 待ちしているプロセスをシグナルで止めるテスト test_thread_timer_and_interrupt
+で送信するシグナルを SIGQUIT から SIGINT にしています。おそらく Windows でも
+SIGINT なら使える(エミュレートしている実装が含まれている)からでしょう。
