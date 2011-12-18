@@ -1,0 +1,7 @@
+README, README.ja に記述されている ruby インストール手順中のテストのところで
+make test を make check (test と test-all の実行)に書き換えています。
+この後でテストをパスした時に "test succeeded" と表示されるって書いてあるんです
+が、make test だと "PASS all # tests" で test-all だと "# tests, # assertions,
+0 failures, 0 errors, # skips" みたいな感じなのでここも記述が古いですね。
+README を変えるか、test-all で 0F0E だったら "test succeeded" って出力するよう
+にしてもらうとか。
