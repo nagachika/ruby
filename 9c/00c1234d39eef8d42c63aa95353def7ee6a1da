@@ -1,0 +1,5 @@
+拡張ライブラリではクラスは allocate クラスメソッドを定義して、未初期化のオブジ
+ェクトを生成する手段と initialize で初期化するのを分離して提供するのが今のやり
+かたなのですが(Marshal.load する時なども allocate が使われる) BigDecimal は
+BigDecimal.new を定義する古い方法を使っていて独自の allocate メソッドを定義して
+いないため、allocate を提供するのをやめています。 [ruby-core:41710] [Bug #5773]
