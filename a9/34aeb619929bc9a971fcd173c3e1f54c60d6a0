@@ -1,0 +1,2 @@
+lib/pstore.rb の表記の変更や不要な require の削除など追加のリファクタリング。
+[ruby-core:39172] [Feature #5248]
