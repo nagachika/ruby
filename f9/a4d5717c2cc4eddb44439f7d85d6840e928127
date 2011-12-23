@@ -1,0 +1,8 @@
+拡張ライブラリで実装されている BigDecimal が BigDecimal.new を直接実装していて
+allocate と initialize/initialize_copy を実装していなかったので、現在のマナーに
+従い BigDecimal.allocate と BigDecimal#initialize, BigDecimal#initialize_copy
+を実装し、BigDecimal.new は独自に実装するのをやめています。BigDecimal.new の実
+装だった BigDecimal_new() 関数は VALUE 型を返すのではなくて実体の Real のポイン
+タを返すように変更されています。 ext/bigdecimal/bigdecimal.h に extern "C" { }
+のくくりを無効にするような括弧がコメントアウトされた状態で入っているのは消し忘
+れでしょうか。 [Bug #5775]
