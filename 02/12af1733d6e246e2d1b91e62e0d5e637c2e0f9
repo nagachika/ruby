@@ -1,0 +1,3 @@
+ext/bigdecimal/bigdecimal.h と util.c の extern "C" { ... } のところにコメント
+アウトして対になる括弧を書くことで emacs の cc-mode の不要なインデント抑制にし
+ている部分にその旨コメントを追加しています。
