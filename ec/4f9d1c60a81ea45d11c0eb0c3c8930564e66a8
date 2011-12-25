@@ -1,0 +1,6 @@
+拡張ライブラリ readline の初期化時の rl_getc_function の設定を using_history()
+を呼ぶ前に移動することで、Editline とリンクしている時に Readline.readline で入
+力を待っている間インタプリタ全体がブロックしてしまう問題を修正しています。これ
+で Mac OS でシステムに元からインストールされている libeditline とリンクした時も
+irb などで Thread がちゃんと背後で動いてくれます。 [ruby-core:40641] [Bug #
+5539]
