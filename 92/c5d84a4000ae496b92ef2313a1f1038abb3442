@@ -1,0 +1,2 @@
+Thread#kill で IO 待ちする Thread を停止する処理のテストをする test_thr_kill の
+タイムアウト時間を短くしています。
