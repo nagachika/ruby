@@ -1,0 +1,4 @@
+mswin版の configure (win32/configure.bat) には --with-ntver というオプションが
+あってターゲットの Windows のバージョンを指定できるらしいのですが mingw 版も同
+様の指定ができるように configure.in にも --with-ntver オプションを追加していま
+す。デフォルトは 0x0501 [ruby-core:35010] [ruby-core:35035]
