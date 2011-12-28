@@ -1,0 +1,4 @@
+r34121 の testunit の --separate 追加で子プロセスが回収されずゾンビプロセスが大
+量に残ってプロセスIDが枯渇することがあったので、終了時に popen のパイプを閉じて
+停止するようにしています。
+しかし @io.close if @io.closed? は unless @io.closed? の間違いでしょうね。
