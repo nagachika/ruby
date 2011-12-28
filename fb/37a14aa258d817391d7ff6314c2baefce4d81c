@@ -1,0 +1,2 @@
+r33774 以降 libruby.a は main.o に依存しているので common.mk で Makefile の依存
+関係に追加しています。 [ruby-core:41786] [Bug #5796]
