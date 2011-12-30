@@ -1,0 +1,1 @@
+test/gdbm/test_gdbm.rb と doc/ChangeLog-1.9.3 の mignw -> mingw の typo 修正。
