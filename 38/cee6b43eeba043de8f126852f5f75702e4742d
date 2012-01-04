@@ -1,0 +1,3 @@
+同じく testunit の Test::Unit::Runner::Worker#run で File.basename で拡張子 .rb
+を取り除くために gsub を使っているところは File.basename の第2引数 suffix に指
+定することで除くようにしています。
