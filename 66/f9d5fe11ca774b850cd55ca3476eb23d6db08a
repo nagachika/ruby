@@ -1,0 +1,2 @@
+r34113 で追加した Object#send にブロック渡しした時の挙動のテストを
+bootstraptest/test_flow.rb から test/ruby/test_object.rb へ移動しています。
