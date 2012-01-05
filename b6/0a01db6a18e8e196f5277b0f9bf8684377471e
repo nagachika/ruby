@@ -1,0 +1,3 @@
+これもツールの修正。 tool/merger.rb というブランチに trunk から変更をバックポー
+トするツールで、自動的に version.h の日付を更新するのですが、この時日付を日本時
+刻として更新するようにしています。 ChangeLog の locale は local?
