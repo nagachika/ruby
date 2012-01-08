@@ -1,0 +1,3 @@
+inspect で ASCII incompatible な、というか default_external のエンコーディング
+と compatible でないエンコーディングの文字列を返すと例外が発生させるようにして
+います。 [ruby-core:41931] [Bug #5848]
