@@ -1,0 +1,3 @@
+test_old_thread_select.rb の select(2) のタイムアウト時間のチェックが Snow
+Leopard でもひっかかることがあるので skip するようにしています。
+[ruby-dev:45108] [Bug #5858]
