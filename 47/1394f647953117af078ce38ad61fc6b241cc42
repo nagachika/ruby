@@ -1,0 +1,2 @@
+i686-linux で posix_memalign を利用するためには #define _XOPEN_SOURCE 600 して
+おかないといけないそうです。
