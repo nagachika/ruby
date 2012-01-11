@@ -1,0 +1,2 @@
+Zlib::GzipWriter.wrap のテストで渡す Tempfile を binmode でバイナリモードに設定
+しておくようにしています。
