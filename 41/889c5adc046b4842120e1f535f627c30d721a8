@@ -1,0 +1,2 @@
+readline.c の rb_mem_error -> rb_memerror の修正と rb_raise(rb_eNoMemError) の
+メッセージの引数修正。
