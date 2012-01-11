@@ -1,0 +1,2 @@
+Pathname#entries の rdoc に "." と ".." が含まれることを明記して Pathname#
+children とう代替を示すようにしています。 [ruby-core:41959] [Bug #5859]
