@@ -1,0 +1,2 @@
+readline.c で NoMemoryError の発生のために rb_raise() を使ってましたが
+rb_memerror() を使うように統一しています。
