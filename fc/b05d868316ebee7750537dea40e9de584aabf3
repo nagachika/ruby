@@ -1,0 +1,4 @@
+finalizer の実行中の例外の発生は rb_protect() で捕捉して無視しているのですが、
+rb_thread_t::errinfo のクリアがされていなかったため例外が外に漏れてしまい
+Kernel#load などから抜ける時に例外が再発生してしまうのを修正しています。
+[ruby-dev:45113] [Bug #5850]
