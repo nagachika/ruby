@@ -1,0 +1,2 @@
+ext/dbm/dbm.c の mswin32 版でのコンパイルのために extern は RUBY_EXTERN を利用
+するようにしています。 [ruby-core:41996] [Bug #5869]
