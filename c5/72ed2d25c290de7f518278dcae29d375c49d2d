@@ -1,0 +1,4 @@
+Tempfile#close した時に IO#close で例外が発生すると finalizer のためのデータの
+クリアがされず finalizer で再度 close しようとして例外が発生するのを修正してい
+ます。また Tempfile#unlink で同じく finalizer のためのデータクリアする時の配列
+の添字の typo を修正しています。 [ruby-dev:45113] [Bug #5850]
