@@ -1,0 +1,7 @@
+objspace が使えない時の ruby_xmalloc() の代替 ruby_mimmalloc() が
+CALC_EXACT_MALLOC_SIZE が真に define されていた場合のヘッダ部分に確保したサイズ
+を格納せずに 0 をセットするようにしています。ここにセットした値は ruby_xfree()
+で objspace->malloc_params.allocated_size から引かれますが、ruby_mimmalloc() は
+ここに加算できないので ruby_xfree() で余計に減算してしまうことになるためです。
+ruby_xfree() でこの値が 0 だったら objspace->malloc_params.allocated_size/
+allocations を減算しないようにしています。
