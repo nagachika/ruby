@@ -1,0 +1,3 @@
+readline のテスト test_completion_proc_empty_result の終了後に Readline のバッ
+ファにデータ("first")が残っていたので再度 Readline.readline を呼んでクリアさせ
+るようにしています。
