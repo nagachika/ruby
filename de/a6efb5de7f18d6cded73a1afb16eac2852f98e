@@ -1,0 +1,10 @@
+Module.constants の rdoc のサンプルの追加と説明を変更しています。
+Module.constants は「Module.constants が呼ばれた位置で参照できる定数のシンボル
+のリスト」を返します。また Module.constants(true) や Module.constants(false) は
+、Module#constants (インスタンス変数)を呼び、こちらは「Module の配下に定義され
+ている定数のシンボルのリスト」を返します。これは Module は Module を継承した
+Class のインスタンスであるため、Module.constants というクラスメソッドがインスタ
+ンスメソッドと名前が衝突しているため、引数が明示的に渡されたらインスタンスメソ
+ッドを呼ぶようにしているようです。本来の Module#constants (インスタンスメソッド
+のほう)は引数は省略可能ですが、Module に対して呼ぶ時だけは省略不可能ということ
+ですね。 [ruby-core:42080] [Bug #5887]
