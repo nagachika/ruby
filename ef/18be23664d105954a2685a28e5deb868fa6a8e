@@ -1,0 +1,5 @@
+Object#inspect で返される文字列のエンコーディングのチェックを再度変更しています
+。 default_external によって変化していて、default_external が ASCII compatible
+ならエンコーディングが同じか ASCII 文字のみ含むなら OK。 default_external が
+ASCII incompatible なら ASCII 文字のみ含む文字列のみ OK となっています。
+[ruby-core:42095] [Bug #5848]
