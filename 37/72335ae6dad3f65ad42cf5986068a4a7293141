@@ -1,0 +1,2 @@
+README.EXT, README.EXT.ja に rb_protect() で例外を無視した時には rb_set_errinfo
+(Qnil) で例外情報をクリアしないといけないことを追記しています。
