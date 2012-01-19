@@ -1,0 +1,3 @@
+Darwin(Mac OS X)の時に SPT_TYPE を SPT_REUSEARGV に設定して missing/
+setproctitle.c で argv の領域を書き換える実装を利用するようにしています。これま
+では Mac OS X では $0 への代入が効いてなかったようです。
