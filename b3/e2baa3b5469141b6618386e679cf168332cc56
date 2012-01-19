@@ -1,0 +1,2 @@
+missing/setproctitle.c で定義されている comp_init_setproctitle() というプロセス
+名を設定する関数を ruby_init_setproctitle() に改名しています。
