@@ -1,0 +1,3 @@
+configure.in にて setproctitle(3) のチェックが AC_REPLACE_FUNCS() でチェックし
+ているところと AC_CHECK_FUNCS() でチェックしているところで重複していたので後者
+から削除しています。
