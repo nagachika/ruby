@@ -1,0 +1,2 @@
+同様に Psych による YAML の load/dump で String のサブクラスとインスタンス変数
+の復元をサポートしています。
