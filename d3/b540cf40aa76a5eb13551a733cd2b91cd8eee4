@@ -1,0 +1,2 @@
+拡張ライブラリ curses の cWindow, cMouseEvent というクラスを T_DATA から
+T_TYPEDDATA に変更しています。
