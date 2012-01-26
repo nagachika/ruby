@@ -1,0 +1,5 @@
+Array() や String() と同様に Hash に変換する Kernel.Hash メソッドを追加していま
+す。内部で to_hash メソッドを呼んで Hash に変換している他、 nil や [] (空の配列
+)については特別に空の Hash ({})を返しています。 [ruby-core:29462] [Feature #
+3131]
+けど中身のある Array はエラーになるんですね。
