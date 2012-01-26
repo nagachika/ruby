@@ -1,0 +1,3 @@
+r34367 で追加した rb_Hash で TYPE(val) == T_ARRAY で型チェックしているところを
+RB_TYPE_P(val, T_ARRAY) を使うように変更しています。またテストの answer とチェ
+ック対象の引数が反対だったので入れ替え。
