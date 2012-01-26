@@ -1,0 +1,3 @@
+r34358 で追加した open のテストに :binmode => true で開いた時の IO#
+external_encoding が ASCII-8BIT になっていることをチェックする assert を追加し
+ています。
