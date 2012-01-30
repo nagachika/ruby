@@ -1,0 +1,4 @@
+Windows 版の $stdin.read で ReadFile() でエラーが発生した時に GetLastError() で
+エラー内容を取得して、ERROR_OPERATION_ABORTED だったら抜けるようにすることで
+$stdin.read が Ctrl-C で止まらないのを修正しています。 [ruby-dev:45149] [Bug #
+5812]
