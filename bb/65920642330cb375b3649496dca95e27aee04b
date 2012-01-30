@@ -1,0 +1,5 @@
+Windows 版で SIGINT のシグナル送信処理をエミュレートしている実装で、
+CTRL_C_EVENT というシグナル? を利用していましたが、対象がプロセスグループの場合
+は CTRL_C_EVENT が利用できないため CTRL_BREAK_EVENT を利用するようにしています
+。また子プロセスを生成する時に CREATE_NEW_PROCESS_GROUP というフラグを追加して
+います。 [ruby-dev:45149] [Bug #5812]
