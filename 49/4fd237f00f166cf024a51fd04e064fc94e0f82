@@ -1,0 +1,5 @@
+thread_win32.c で現在のスレッドの rb_thread_t を取得するのに GET_THREAD() を利
+用するかわりに ruby_thread_from_native() で実際に現在のスレッドのスレッドローカ
+ルストレージから取得するようにしています。 [ruby-dev:45149] [Bug #5812]
+GET_THREAD() が現在のスレッドを返さないことがあるということなのですが posix 版
+にはその問題はないのでしょうか。
