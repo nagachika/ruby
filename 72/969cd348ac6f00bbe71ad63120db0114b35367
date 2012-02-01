@@ -1,0 +1,5 @@
+vm_call0(), method_missing(), vm_call_method() などで
+rb_thread_t::passing_block の設定を引き継いでいなくて Object#enum_for で
+Enumerator にしたり、Object#method で Method オブジェクトにしてから call で呼ん
+だ時に method_missing にブロックが渡されていなかった不具合を修正。
+[ruby-dev:44961] [Bug #5731]
