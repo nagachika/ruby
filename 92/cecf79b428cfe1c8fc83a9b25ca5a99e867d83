@@ -1,0 +1,2 @@
+REXML による XML のパース時に xmlns:xml 属性の namespace のチェックで比較すべき
+変数を間違えていた不具合を修正しています。 [ruby-dev:45169] [Bug #5956]
