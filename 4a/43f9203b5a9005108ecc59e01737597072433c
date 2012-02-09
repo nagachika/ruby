@@ -1,0 +1,7 @@
+st.c の packed 状態の処理は table->bins を st_value 型の key と value のペアが
+順番に並んだ配列として扱うのですが、 key, value がの2つのメンバをもつ構造体
+st_packed_entry を導入して、table->bins を st_packed_entry の配列として扱うよう
+にリファクタリングしています。
+構造体がうまくpackされている(余計なpaddingがない)ことをチェックさせるために
+STATIC_ASSERT というマクロが定義されていておもしろいです。typedef 中に三項演算
+子を使うのとか古いコンパイラでも動くでしょうか。
