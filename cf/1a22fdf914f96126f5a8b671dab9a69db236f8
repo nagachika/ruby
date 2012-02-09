@@ -1,0 +1,3 @@
+st_update() (st_lookup() + st_insert()/st_delete() 相当の関数)でもブロックの実
+行中に packed 状態のテーブルに要素が追加されて unpack された場合に unpacked 版
+の処理に移行する処理を実装しています。
