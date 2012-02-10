@@ -1,0 +1,3 @@
+OpenSSL::Cipher の rdoc に IV (初期ベクトル/初期値(Value)かも)を OpenSSL::
+Cipher#random_iv で生成すべきという説明のところに、key もランダムに生成されるけ
+ど、これを IV として流用してしまうと脆弱性になるよということを追記しています。
