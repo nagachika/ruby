@@ -1,0 +1,5 @@
+DL::ValueUtil で LONG_LONG 型の値を取り出すのに pack/unpack の "q!", "Q!" とい
+う指示子を使っていましたがこの記法はまだサポートされていないので ! なしを使うよ
+うにしています。あー q/Q にはサイズ指示子 ! はまだ追加されていなかったんでした
+ね。一度はコミットしたもののすぐ revert されていたようです。 http://
+d.hatena.ne.jp/nagachika/20101018/ruby_trunk_changes_29520_29530
