@@ -1,0 +1,4 @@
+拡張ライブラリ psych の Psych::Parser#external_encoding= というメソッドの C の
+実装は削除して、 Ruby で書かれたライブラリで attr_writer として定義するようにし
+ています。元の実装は一度 external_encoding= で設定すると2度目以降は例外を発生さ
+せていたのですが、parser を使いまわせるように再設定できるようにしています。
