@@ -1,0 +1,5 @@
+Zlib::Inflate#add_dictionary というメソッドを追加して、解凍に利用する辞書を事前
+に設定できるようにしています。 set_dictionary は一度 inflate して
+Zlib::NeedDict 例外が発生してから利用するようになっているのですが、ユーザ辞書が
+必要だとあらかじめわかっていたら設定しておけるようにしています。
+[ruby-core:42240] [Feature #5937]
