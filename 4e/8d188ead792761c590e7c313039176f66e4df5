@@ -1,0 +1,3 @@
+Time の rdoc に現在の Time の内部表現は epoch (1977/1/1)からの nano second を
+63bit signed integer (1823-11-12 から 2116-02-20 あたりの範囲を表現可能)もしく
+は Bignum, Rational を利用していることを追記しています。
