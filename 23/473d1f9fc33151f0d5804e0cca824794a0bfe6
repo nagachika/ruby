@@ -1,0 +1,5 @@
+respond_to? メソッドで protected なメソッドがデフォルト(省略可能な第2引数に
+true を渡さなければ) false を返すように変更されています。 protected なメソッド
+は呼び元の self に依存しますが呼べないことがあるのに respond_to? で true を返し
+ていたので仕様変更になりますが呼べない(可能性がある)時は false を返すというよう
+しています。 [ruby-dev:40461] [ruby-dev:41739] [ruby-dev:41837]
