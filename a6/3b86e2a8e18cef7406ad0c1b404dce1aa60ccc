@@ -1,0 +1,3 @@
+Enumerator.new の rdoc に遅延 map/select を実装する例を追記しています。またその
+他の Enumerator の rdoc のサンプルの typo 修正など。 [ruby-core:19679] [Feature
+#707]
