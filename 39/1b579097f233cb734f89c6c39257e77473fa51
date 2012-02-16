@@ -1,0 +1,2 @@
+rb_autoload_load() で rb_ensure() に渡すコールバック関数 autoload_require() と
+autoload_const_get() の関数の型を rb_ensure() の引数に揃えています。
