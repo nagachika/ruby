@@ -1,0 +1,2 @@
+Process.wait と wait2 の rdoc に SystemError と書かれている例外名を
+SystemCallError と修正しています。 [ruby-core:42327] [Bug #5962]
