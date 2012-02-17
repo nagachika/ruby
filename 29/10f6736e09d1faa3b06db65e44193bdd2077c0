@@ -1,0 +1,9 @@
+Fiber の中から fork すると、子プロセスが終了時に二重 free で abort などしてしま
+う不具合を修正しています。 Fiber は個別の Thread Local Storage を持つのですが、
+root Fiber だけは元の Thread のテーブルを共有するので、root Fiber の時は解放せ
+ず Thread にまかせることになっているのですが、Fiber の中から fork すると、終了
+時に子 Fiber 用のテーブルが rb_thread_t::local_storage にセットされたまま解放処
+理に来てしまうため、既に解放済みの st_table を再度解放しようとしてしまっていま
+した。終了時に main thread の fiber が切り替わったままだったら local_storage だ
+けは root Fiber のものに戻しておくようにしています。 [ruby-core:41456] [Bug #
+5700]
