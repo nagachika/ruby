@@ -1,0 +1,6 @@
+Zlib::Deflate.new の strategy に渡す定数として Zlib::FIXED と Zlib::RLE を追加
+しています。それぞれ Z_RLE と Z_FIXED という定数に対応しています。圧縮に用いる
+アルゴリズムの指定で RLE はランレングスエンコーディングを指定、FIXED は「
+Z_FIXED prevents the use of dynamic Huffman codes, allowing for a simpler
+decoder for special applications.」ということなので圧縮率は犠牲にしつつ高速なエ
+ンコードをするってことですかね。参考URL: http://zlib.net/manual.html
