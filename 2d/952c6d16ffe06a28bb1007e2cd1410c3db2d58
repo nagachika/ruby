@@ -1,0 +1,3 @@
+OpenStruct を dup するとメンバにアクセスする setter/getter の定義が特異メソッド
+であるためコピーされないので、initialize_copy で同じメソッドを定義するようにし
+ています。 [ruby-core:42647] [Bug #6028]
