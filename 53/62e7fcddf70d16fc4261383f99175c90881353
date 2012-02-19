@@ -1,0 +1,2 @@
+r34661 の再修正。Enumearable#each_slice でブロックに渡す配列は each のブロック
+(each_slice_i())で作った新しい配列を渡すように修正しています。
