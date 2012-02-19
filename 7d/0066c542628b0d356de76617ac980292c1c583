@@ -1,0 +1,2 @@
+mkmf.rb で create_header で extconf.h の生成する時に内容をログに出力するように
+しています。
