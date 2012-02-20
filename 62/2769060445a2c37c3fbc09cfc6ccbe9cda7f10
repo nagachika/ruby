@@ -1,0 +1,2 @@
+tool/enc-unicode.rb で 1.9 からサポートされている JSON like な Hash の記法など
+を使わないようにしています。
