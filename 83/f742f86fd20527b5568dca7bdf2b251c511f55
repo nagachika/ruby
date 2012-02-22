@@ -1,0 +1,2 @@
+拡張ライブラリ curses に Curses::VERSION という定数を追加しています。存在すれば
+NCURSES_VERSION の内容を含む文字列を返します。
