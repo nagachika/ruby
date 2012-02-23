@@ -1,0 +1,2 @@
+拡張ライブラリ curses の Curses::VERSION の定義に NCURSES_VERSION ではなく
+curses_version() という関数の返す文字列を利用するように変更しています。
