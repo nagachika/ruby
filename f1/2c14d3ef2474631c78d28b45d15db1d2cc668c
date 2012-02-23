@@ -1,0 +1,3 @@
+Method#hash, UnboundMethod#hash をその定義に基づいて計算するように実装を追加し
+ています。これにより全く同じメソッド(alias で複製されたメソッドなど)の Method
+オブジェクトは同じ hash 値を持つようになります。 [ruby-core:42755] [Bug #6048]
