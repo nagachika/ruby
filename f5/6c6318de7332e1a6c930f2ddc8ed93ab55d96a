@@ -1,0 +1,2 @@
+iconv のテスト TestIconv::Option の定義をする条件にリテラルの false が含まれて
+いて常にスキップされていたのを修正しています。 [ruby-core:42802] [Bug #6061]
