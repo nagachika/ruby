@@ -1,0 +1,3 @@
+r34278 の修正により llvm-gcc で Fiber/Continuation が動くようになったので
+configure.in で llvm-gcc を使っていたらエラーにして clang を使うように促してい
+たのをやめにしています。
