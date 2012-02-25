@@ -1,0 +1,2 @@
+require の rdoc に require されるスクリプトは呼び元とスコープを共有しない点を追
+記しています。 [ruby-core:42178] [Bug #5910]
