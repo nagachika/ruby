@@ -1,0 +1,3 @@
+Psych のパーサーが渡された文字列や IO の external_encoding から取得した
+Encoding をセットするようにしています。でもテストをみると parse(Psych.load) し
+た結果に含まれる文字列は UTF-8 になるみたいですね。
