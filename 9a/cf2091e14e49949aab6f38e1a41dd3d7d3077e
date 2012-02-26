@@ -1,0 +1,5 @@
+dir.c, file.c, io.c の SystemCallError (Errno::EXXX といったシステムコールや標
+準ライブラリが errno にエラーを返した時の例外)を発生させる時に rb_sys_fail() を
+呼んでいたところを rb_sys_fail_path() に変更しています。この段階だと
+rb_sys_fail_path(path) は単に rb_sys_fail(RSTRING_PTR(path)) と同じです(関数マ
+クロ)。
