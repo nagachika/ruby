@@ -1,0 +1,2 @@
+Complex::I 定数に (0+1i) という rdoc を追記しています。 [ruby-core:40968]
+[Feature #5623]
