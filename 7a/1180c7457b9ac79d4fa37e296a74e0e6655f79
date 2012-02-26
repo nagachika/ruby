@@ -1,0 +1,5 @@
+Net::HTTP#transport_request で EOFError や Errno::ECONNRESET が発生した時
+(keep-alive で接続したままのソケットをサーバ側から切断された等)に retry 文でリ
+トライ(再接続)するようになっていましたが、メソッド全体にかかる rescue 節で処理
+していたため何度目の実行かをカウントする count 変数までリセットしてやりなおされ
+ていて何度でもリトライを続けるようになっていたので begin 節を入れています。
