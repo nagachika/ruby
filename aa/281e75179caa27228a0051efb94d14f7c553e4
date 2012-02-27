@@ -1,0 +1,3 @@
+Curses::VERSION の定義でライブラリが特定できなかった時にだたの "(unknown)" から
+"curses (unknown)" に変更しています。 DBM::VERSION も "(unknown)" は "ndbm
+(unknown)" に変更。
