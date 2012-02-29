@@ -1,0 +1,2 @@
+lib/mkmf.rb に try_cppflags, try_cflags, try_ldflags という、利用したいフラグの
+有無をチェックして利用可能なら追加する処理をまとめたメソッドを追加しています。
