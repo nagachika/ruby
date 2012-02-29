@@ -1,0 +1,3 @@
+digest と openssl のコンパイル時に gcc のオプション
+-Wno-deprecated-declarations というのを付けるようにしています。 Mac OS X だと警
+告が出るようになっている関数などがあるようです。
