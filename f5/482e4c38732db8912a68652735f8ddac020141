@@ -1,0 +1,3 @@
+BigDecimal#to_d を require "mathn" した状態で実行すると to_r が返すオブジェクト
+のクラスが変化するため戻り値をチェックしなおすようにしています。
+[ruby-core:42969] [Bug #6093]
