@@ -1,0 +1,4 @@
+Net::HTTP でタイムアウトで中断するために Timeout.timeout から発生させる例外のク
+ラスを Net::HTTP::OpenTimeout という独自のクラスにしています。またソケットの切
+断を検出するために rescue する対象を増やしています。OpenSSL::SSL::SSLError もあ
+りえるんですね。 [ruby-core:42495] [Bug #6001]
