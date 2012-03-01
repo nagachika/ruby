@@ -1,0 +1,4 @@
+IO#readpartial, IO#sysread で読み込み先のバッファ用 String オブジェクトを渡した
+場合に別の Thread からその String のサイズを truncate すると SEGV してしまう不
+具合修正。実際に IO の読み込み可能になって GVL 取得した後に String のサイズを改
+めて保障するようにしています。 [ruby-dev:45297] [Bug #6099]
