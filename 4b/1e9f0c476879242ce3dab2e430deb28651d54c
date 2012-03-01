@@ -1,0 +1,5 @@
+詳細まで読み込んでないので見落しあるかもしれませんが、win32 の IO まわりのコー
+ドの file.c と win32/file.c の依存関係のリファクタリングと、Makefile, Makefile
+.sub に win32 関係のルールを追加、移動、それから移動してきた win32 用の win32/
+file.c の rb_fileloadok() でファイルが読み込み用に開けるかのチェックを Windows
+用に最適化した実装を用意して Windows での require などのが高速になるようです。
