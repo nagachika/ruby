@@ -1,0 +1,6 @@
+win32/Makefile.sub の MAKEDIRS というマクロは ruby を利用してディレクトリ作成す
+るコマンドが定義されていましたが mkdir を利用するようにしています。 $(BASERUBY)
+を利用していたのでビルドに失敗することがあったようです。 [ruby-core:43012] [Bug
+#6103]
+また win32/README.win32 に "Command Extension を有効にしておくこと" と注意書き
+を追記しています。 mkdir を利用するために必要なのでしょう。
