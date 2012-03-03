@@ -1,0 +1,2 @@
+rb_file_const() と rb_file_load_ok() という関数の宣言を include/ruby/intern.h
+から internal.h に移動して、コア部分からしか利用されないようにしています。
