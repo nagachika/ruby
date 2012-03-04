@@ -1,0 +1,3 @@
+test/ruby/test_string.rb で String のテストを String を継承したクラス S2 につい
+ても同じものを実行するようにしています。テストケースのクラス自体を継承して作っ
+ています。 [ruby-core:43030]
