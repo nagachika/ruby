@@ -1,0 +1,2 @@
+common.mk に clean-ext, distclean-ext, realclean-ext というターゲットのルールに
+exts.mk の削除を追加しています。
