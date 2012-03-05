@@ -1,0 +1,2 @@
+XMLRPC::Client では Net::HTTP.version_1_2 を読んでいましたが、既に version_1_2
+がデフォルトになっているので明示的な呼び出しは削除しています。
