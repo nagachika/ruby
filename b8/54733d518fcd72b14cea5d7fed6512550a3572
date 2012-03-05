@@ -1,0 +1,4 @@
+Cygwin 版のコンパイル時に syck が isdigit(3) の引数に char 型をわたしているため
+に警告が発生しているので、ISDIGIT() マクロ(unsigned char へのキャストを含んでい
+る)を使ったり unsigned char へのキャストをするようにしたりしています。なんで両
+方 ISDIGIT() にしてないんでしょうね。 [ruby-core:43060] [Bug #6108]
