@@ -1,0 +1,2 @@
+BigMath の rdoc から BigMath#log の記述を削除しています。また String#byteslice
+の rdoc の typo を修正しています。 [ruby-dev:45307] [Bug #6112]
