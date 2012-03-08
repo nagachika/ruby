@@ -1,0 +1,4 @@
+XMLPRC::Client のテストで Net::HTTP#post2 を利用していたところを Net::HTTP#
+request_post を利用するようにしています。この2つのメソッドは alias ですが post2
+は obsolete なので使わないようにしてくださいとリファレンスには書かれていました
+。
