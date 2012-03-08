@@ -1,0 +1,3 @@
+文法エラーが起きないことを確認するテストのために assert_valid_syntax という
+$VERBOSE を nil にして eval して SyntaxError が発生しないことをチェックするユー
+ティリティメソッドを定義して使うようにしています。
