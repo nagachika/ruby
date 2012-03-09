@@ -1,0 +1,3 @@
+r34938 で追加した rb_load_fail でファイルパスを const char * として渡していたの
+を String オブジェクトで(VALUE 型で)渡してメッセージを作りつつそのまま埋め込む
+ようにしています。また rb_load_fail() の宣言は internal.h に移動しています。
