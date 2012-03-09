@@ -1,0 +1,3 @@
+XMLRPC::Client が http サーバから Content-Type ヘッダのないリプライを受信した時
+にエラーになるのを修正。指定がなかったら "text/xml" として処理するようにしてい
+ます。 [ruby-core:41204] [Bug #5660]
