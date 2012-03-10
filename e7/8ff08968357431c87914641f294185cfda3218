@@ -1,0 +1,2 @@
+Array オブジェクトに n 個の要素を C の VALUE の配列から追加する API rb_ary_cat
+() を追加しています。
