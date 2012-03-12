@@ -1,0 +1,11 @@
+IO#readpartial のテスト TestIO#test_readpartial_locktmp で IO#readpartial に読
+み込み先のバッファ用 String を渡していると読み込み処理中にその String を触るこ
+とで一時的 lock のチェックにひっかかって例外が発生することがあるのでそれを
+rescue しています。もともとここのテストは別 Thread からバッファ用の String を破
+壊的に変更することで期待したバッファサイズでなくなっている場合に救済する処理の
+テストをしていましたが、IO#readpartial の場合は temporary lock を取得した状態で
+GVL を解放して fd の読み込み処理に入る(sysread はその前に読み込みできるデータが
+あるかのチェックで GVL 解放する)ので、このようなバッファ文字列の破壊的変更自体
+がエラーになっていたようです。 fd に O_NONBLOCK をセットしてブロックしないよう
+にはしていましたが、それでも一瞬 GVL を解放する時があって、そこで触ると例外にな
+るようです。 [ruby-dev:45296] [Bug #6099]
