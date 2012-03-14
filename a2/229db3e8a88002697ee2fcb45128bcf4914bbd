@@ -1,0 +1,11 @@
+Object#method_missing を再定義して常に例外を発生させるようにすると、存在しない
+メソッドを呼んだ時に例外オブジェクトの method_missing がまた呼ばれて……と無限
+再帰が起きてしまうようなので Exception の method_missing, respond_to?,
+respond_to_missing? のメソッドを Object のメソッドと実体は同じだけどメソッドエ
+ントリは別物として再登録して Object#method_missing の再定義の影響を受けないよう
+にしているようです。メソッドエントリのフラグとして NOEX_NOREDEF というのを追加
+して、Exception のこれらのメソッドエントリには付加されていますが、実際に再定義
+を禁止するコードが #if 0 のコメントアウトつきで書かれていますので本当に禁止はさ
+れていないですが、禁止したいみたいですね。まだ Exception#method_missing を再定
+義して例外を発生させると同じことが起きるのだと思います。 [ruby-core:40287] [Bug
+#5473]
