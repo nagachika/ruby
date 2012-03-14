@@ -1,0 +1,8 @@
+FileUtils の中で symlink が利用可能かどうかの判定に File.symlink(nil, nil) を呼
+んでみて NotImplementError が発生するかどうかで判定しているところで、それ以外の
+例外を例外クラスの指定なしの rescue で捕捉して false としていたのを TypeError
+を指定して捕捉するようにしています。ちなみにこれは path 名の文字列を期待してい
+る引数に nil を渡しているので TypeError が返ってくるのです。
+ちなみに Ruby はこういう時 TypeError か ArgumentError か曖昧ですよね。
+ArgumentError が万能すぎるという指摘もありましたがこのあたり 3.0 で整理されると
+いいですね。
