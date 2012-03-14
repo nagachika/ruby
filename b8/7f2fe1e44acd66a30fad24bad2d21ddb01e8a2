@@ -1,0 +1,2 @@
+Random.rand を fork した子プロセスから利用すると SEGV する不具合を修正していま
+す。 [ruby-core:41209] [Bug #5661]
