@@ -1,0 +1,5 @@
+tool/rbinstall.rb で CONFIG に bindir, libdir などインストール先のディレクトリ
+や LIBRUBY_SO, LIBRUBY などライブラリ名などが未定義だったらエラーにするようにし
+ています。また prepare で basedir 引数が nil だったら処理をスキップするようにし
+ています。 configure に --with-sitedir=no や --with-vendordir=no を指定した時に
+インストールが失敗してしまうのを修正しています。 [ruby-core:39135] [Bug #5238]
