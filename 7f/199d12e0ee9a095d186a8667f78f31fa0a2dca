@@ -1,0 +1,5 @@
+test/ruby/test_io_m17n.rb に警告メッセージをチェックする assert_warning を定義
+して assert_warn に代わりこれを使うようにしています。[DEL:あと test/ruby/
+test_m17n_comb.rb からはテストを削除しています。こっちは消したままでいいのでし
+ょうか?:DEL] また test/ruby/test_m17n_comb.rb で未使用だった assert メソッド類
+を削除しています。
