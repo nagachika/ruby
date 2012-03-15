@@ -1,0 +1,4 @@
+ObjectSpace::WeakMap というクラスを追加して、weakref.rb で ObjectSpace._id2ref
+を使って object_id で参照を管理するのをやめて ObjectSpace::WeakMap で弱参照テー
+ブルを finalizer の実行を認識できるように C で実装したものを利用するようにして
+います。 [ruby-dev:44565] [Bug #5350]
