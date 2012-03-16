@@ -1,0 +1,4 @@
+Module#remove_const の rdoc で Module や Class も remove_const で消せるけどクラ
+スの名前は変化しなくておかしな状態になるけど自分の足を撃つのはご自由に、みたい
+な文を削ってます。チケットの指摘はちょっと違うみたいですけど。
+[ruby-core:39676] [Bug #5354]
