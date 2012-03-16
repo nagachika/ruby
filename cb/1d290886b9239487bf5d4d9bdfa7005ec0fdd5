@@ -1,0 +1,2 @@
+Enumerable::Lazy#grep で要素と引数がマッチするかの判定に =~ を使っていたのは
+Enumerable#grep と同じく === を使って判定するように変更しています。
