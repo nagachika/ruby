@@ -1,0 +1,2 @@
+Enumerable::Lazy の実装部分でArrayのループのカウンタを int -> long に変更してい
+ます。
