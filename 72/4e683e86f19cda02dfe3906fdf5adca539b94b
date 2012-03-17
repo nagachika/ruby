@@ -1,0 +1,5 @@
+check_funcall() という関数でメソッドが呼び出し可能かチェックするために
+respond_to? を呼ぶところで、対象のオブジェクトの respond_to? の arity (要求する
+引数の数)が 3以上だったら ArgumentError を発生させるようにしています。 r34564
+で arity を2に変更して呼ぶようにしたのですが3引数以上要求する respond_to? を定
+義すると SEGV してしまうようになっていました。 [ruby-core:42493] [Bug #6000]
