@@ -1,0 +1,2 @@
+ruby_enc_find_basename() で alllen が NULL の時を考慮するように修正しています。
+[ruby-dev:45363] [Bug #6146]
