@@ -1,0 +1,2 @@
+test/ruby/test_parse.rb で assert_equal の引数の順番が逆になっていたのを修正し
+ています。
