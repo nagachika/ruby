@@ -1,0 +1,2 @@
+test/ruby/envutil.rb と test/ruby/test_exception.rb で未使用の変数による警告を
+除去しています。
