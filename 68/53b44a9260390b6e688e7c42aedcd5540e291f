@@ -1,0 +1,3 @@
+Net::IMAP で通信相手が greeting レスポンスを返さずに切断してきた時に
+NoMethodError が発生していたので、レスポンスの有無を確認して Net::IMAP::Error
+を発生させるようにしています。 [ruby-core:40938] [Bug #5616]
