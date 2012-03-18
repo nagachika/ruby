@@ -1,0 +1,2 @@
+さらに class_eval/module_eval の rdoc にクラス変数の探索もブロック渡しと文字列
+渡しの時で違うことを追記しています。 [ruby-core:40649] [Bug #5544]
