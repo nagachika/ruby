@@ -1,0 +1,2 @@
+test/ruby/test_module.rb の typo 修正。同じ alias を2度実行した時のテストなのに
+2つめの alias を間違えてたのでテストになってなかった。
