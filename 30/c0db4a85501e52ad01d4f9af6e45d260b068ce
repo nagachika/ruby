@@ -1,0 +1,2 @@
+r35040 で Enumerable::Lazy から Enumerator::Lazy に名前を変更したのに合わせて
+rdoc も修正しています。
