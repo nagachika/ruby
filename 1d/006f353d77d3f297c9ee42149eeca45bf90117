@@ -1,0 +1,7 @@
+gc.c で posix_memalign() や memalign() が利用できないプラットフォームでも
+malloc(3) を使って余分なサイズを確保しつつ、malloc() が返した元のポインタを
+align されたポインタの位置のひとつ前に格納するようにする実装で代替するようにし
+ています。 Mac OS X の Leopard で posix_memalign() が存在していなくてコンパイル
+できなかったそうです。
+しかしどうもこれが入ってからビルド時に miniruby の実行が SEGV するようになって
+いるようです(Snow Leopard)。
