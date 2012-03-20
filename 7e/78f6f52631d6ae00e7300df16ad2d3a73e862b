@@ -1,0 +1,2 @@
+特異クラスの内部のバックトレース上での表記の typo 修正(singleton と class の間
+に空白を挿入)。 [ruby-core:28368] [Bug #2824]
