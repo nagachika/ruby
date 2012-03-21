@@ -1,0 +1,3 @@
+compile.c で if ... else if ... で else if をたくさん並べていたところを switch
+文で書き直して、共通した処理をマクロでコンパクトに書くようにしています。 https:
+//github.com/ruby/ruby/pull/105
