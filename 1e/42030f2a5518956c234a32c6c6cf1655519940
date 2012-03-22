@@ -1,0 +1,3 @@
+test/ruby/test_thread.rb の test_condvar_wait_not_owner というテストが
+test_condvar_nolock と全く同じ内容だったので削除しています。あと少し体裁の修正
+など。
