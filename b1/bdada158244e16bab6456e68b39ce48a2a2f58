@@ -1,0 +1,2 @@
+lib/mkmf.rb で定数マクロの検出のためのメソッドで conftest を実行後に conftest
+ファイルを削除するようにしています。
