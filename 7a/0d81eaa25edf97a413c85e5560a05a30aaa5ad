@@ -1,0 +1,3 @@
+r35129, r35131 の修正で Visual C++ では S_ISDIR() マクロが使えないらしくて
+GetFileAttributesW() を利用して属性を取得するように変更しています。
+[ruby-core:26925] [Feature #2408]
