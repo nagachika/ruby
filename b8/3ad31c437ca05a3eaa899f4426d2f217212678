@@ -1,0 +1,3 @@
+Windows 版の open の実装 rb_w32_open()/rb_w32_wopen() で errno=EACCES でエラー
+が返ってきた時に、対象のパスがディレクトリだった場合には errno=EISDIR にすりか
+えるようにしています。
