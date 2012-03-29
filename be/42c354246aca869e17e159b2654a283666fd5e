@@ -1,0 +1,3 @@
+tool/make-snapshot というツール(snapshot tarball を作るためのものらしい)で生成
+する ruby スクリプトが定数の再初期化をしていて警告が出ることがあるので
+remove_const で一旦削除するようにしているようです。
