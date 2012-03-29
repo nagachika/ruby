@@ -1,0 +1,2 @@
+同じく tool/make-snapshot で config.status を作る時に EXEEXT の定義を追加するよ
+うにしています。 [ruby-core:43685]
