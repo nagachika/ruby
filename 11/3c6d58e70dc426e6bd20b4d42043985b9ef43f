@@ -1,0 +1,3 @@
+marshal.c の Symbol のロードで String を rb_intern() ではなくて rb_intern_str()
+で VALUE 型のまま渡せるようになったので不要になっていた変数宣言の volatile 修飾
+子を削除しています。
