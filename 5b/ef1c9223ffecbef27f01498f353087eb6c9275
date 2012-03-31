@@ -1,0 +1,4 @@
+OpenSSL::ASN1::Boolean や OpenSSL::ASN1::Integer 等のプリミティブ型を表わすクラ
+スに nil を渡して作成したオブジェクトの to_der メソッドを呼ぶと SEGV などしてし
+まう不具合を修正しています。nil をチェックして TypeError を発生させるようにして
+います。 [ruby-core:43009] [Bug #6102]
