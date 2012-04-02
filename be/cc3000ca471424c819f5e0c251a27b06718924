@@ -1,0 +1,2 @@
+Hash のテストで真偽値を返すメソッドのチェックに assert を使っていたところを
+assert_send と assert_not_send を使ってより意図がわかるようにしています。
