@@ -1,0 +1,4 @@
+Hash#[] (や values_at など rb_hash_aref() を利用しているメソッド)と Hash#shift
+でキーが存在しない時のデフォルト値を参照する処理を関数に切り出して共通化してい
+ます。これに伴ない Hash#shift では Hash#default メソッドが利用されていなかった
+のですが、Hash#shift でも Hash#default の再定義が考慮されるようになっています。
