@@ -1,0 +1,3 @@
+hash.c にて freeze されているかや taint フラグのチェックが必要なところで
+rb_hash_modify() を呼んでいるけど、チェックだけが必要でテーブルの確保は不要な場
+合には rb_hash_modify_check() を呼ぶようにしています。
