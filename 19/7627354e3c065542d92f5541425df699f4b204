@@ -1,0 +1,4 @@
+st_foreach_check() でコールバック関数から ST_DELETE が返された時に never 引数の
+値を key にセットすることで要素の削除を表現するようにしています。また hash.c の
+hash_foreach_iter() で要素を削除するために st_delete_safe() を呼ぶのではなく
+ST_DELETE を返して st_foreach_check() 側に処理させるようにしています。
