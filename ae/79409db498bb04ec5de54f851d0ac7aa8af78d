@@ -1,0 +1,3 @@
+r35194 で導入された Net::BufferedSocket で addr, peeraddr だけでなく send メソ
+ッドも @io に委譲しないと Net::FTP#abort や Net::FTP#status がうまく動作しなか
+ったので追加しています。
