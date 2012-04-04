@@ -1,0 +1,3 @@
+OptionParser::AC という子クラスを導入して、--enable/disable-??? や --with/
+without--??? といった形式の configure で使われているようなものを受け付けるよう
+にしています。
