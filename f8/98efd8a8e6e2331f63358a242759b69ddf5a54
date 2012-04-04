@@ -1,0 +1,2 @@
+WEBrick::GenericServer の終了処理でソケットを close する時に closed? で既に閉じ
+られていないかチェックして閉じるようにしています。
