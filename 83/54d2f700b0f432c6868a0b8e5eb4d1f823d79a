@@ -1,0 +1,2 @@
+r35244 で struct.c の修正と一緒に入ってしまったらしい enc/unicode/name2ctype.h
+と tool/transcode-tblgen.rb の変更を revert しています。
