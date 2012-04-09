@@ -1,0 +1,7 @@
+Process.spawn のオプションに Windows 版でのみ有効な :new_group => (true/false)
+を追加して、CreateProcessW() に CREATE_NEW_PROCESS_GROUP を渡すようにしています
+。そして先程のテストではこのオプションを指定して子プロセスを起動するようにして
+、あらためてスキップを削除しています。Process.kill で子プロセスを確実に停止させ
+るのにこれを付けないといけないようです。 [Bug #5812]
+:new_group は :pgroup => true を流用するわけにはいかなかったんでしょうか。
+[ruby-core:43245] [Bug #6131]
