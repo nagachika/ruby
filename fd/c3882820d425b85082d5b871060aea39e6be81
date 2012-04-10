@@ -1,0 +1,3 @@
+json の Bignum の JSON エンコード処理に RB_GC_GUARD() を追加しています。
+fbuffer_append_str() 内(static 関数)の RB_GC_GUARD() の位置を関数末尾に移動する
+のがいいのではないでしょうか。
