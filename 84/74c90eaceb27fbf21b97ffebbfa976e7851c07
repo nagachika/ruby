@@ -1,0 +1,3 @@
+readline の補完処理のテストで EditLine とリンクしていると失敗するものがあるよう
+で、Readline::VERSION が "EditLine" を含んでいたらテストを飛ばすようにしていま
+す。
