@@ -1,0 +1,10 @@
+WEBrick::Utils::TimeoutHandler の内部で生成されるスレッドで @timeout_info とい
+う Hash を dup してから each するように r35199 で修正していましたが、Hash#key
+でキーの配列を取得してそれを利用するように再度修正しています。
+"can't add a new key into hash during iteration" になるのは Hash#each の途中に
+別の Thread から(register メソッドで)その Hash に要素が追加されるからで、そこで
+は TimeoutHandler::TimeoutMutex で排他されているのですが、内部的に生成された
+Thread 内の処理が Hash#each する間その Mutex を使って排他処理していないので結局
+処理が同時に行なわれてしまう可能性があったようです。うーん singleton を使ってい
+るのはいいとして Mutex をインスタンス内ではなくクラスのほうに持たせている設計が
+悪いような気がしますね。
