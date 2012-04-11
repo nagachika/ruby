@@ -1,0 +1,2 @@
+mathn を require していると Complex#** が期待と違う内部表現のオブジェクトを受け
+取ってしまって SEGV する不具合を修正。 [ruby-core:44170] [Bug #6267]
