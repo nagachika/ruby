@@ -1,0 +1,3 @@
+Zlib::Deflate#deflate の rdoc のサンプルコードで指定するフラグを Zlib::NO_FLUSH
+から Zlib::FINISH に変更しています。 inflate のサンプルと併せて実行してみるとエ
+ラーになるサンプルだったそうです。
