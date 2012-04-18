@@ -1,0 +1,4 @@
+CRuby のソースディレクトリから RubySpec のチェックをするための spec/
+default.mspec で ruby の -I オプションなどに渡すためのパスが相対パスになってい
+て chdir すると動かなくなっていたので File.expand_path で絶対パスにしておくよう
+にしています。
