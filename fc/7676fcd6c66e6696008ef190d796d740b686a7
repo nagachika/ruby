@@ -1,0 +1,2 @@
+Env.to_h を追加しています。 Env.to_h はもともと存在していた Env.to_hash と同じ
+です。 [ruby-core:44269] [Feature #6276]
