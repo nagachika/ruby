@@ -1,0 +1,4 @@
+Gem::RemoteFetcher#download でファイルのコピーをする前にコピー元とコピー先が同
+一のファイルでないかをチェックするために File.expand_path で同じパスにならない
+かチェックしていたのを File.identical? というメソッドを利用するようにしています
+。これは Windows でのテストの失敗の修正だそうです。
