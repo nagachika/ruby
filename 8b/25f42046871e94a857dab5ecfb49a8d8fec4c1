@@ -1,0 +1,2 @@
+configure.in の NO_RUBY_VENDOR_LIB の定義のカンマの漏れを修正しています。 "[]"
+のあとはいいんでしょうか。
