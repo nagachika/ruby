@@ -1,0 +1,3 @@
+Makefile の reconfig, config.status の依存関係から version.h を除外するようにし
+ています。 version.h は毎日(コミットがあれば)更新されるので毎回 configure しな
+おしすると遅いので省いています。
