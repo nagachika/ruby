@@ -1,0 +1,2 @@
+cont.c の return_fiber でも if 条件文の組みかたをリファクタリングして
+UNREACHABLE マクロを不要にしています。
