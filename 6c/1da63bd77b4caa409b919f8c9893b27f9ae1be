@@ -1,0 +1,4 @@
+RubyGems の 1.8.22 + αをマージしています。
+gem build の gemspec の validation をスキップするオプション(--force)の廃止など
+が含まれているようです。1.8.11 からの変更点については https://github.com/
+rubygems/rubygems/blob/1.8/History.txt も参照。
