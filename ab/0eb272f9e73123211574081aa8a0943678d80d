@@ -1,0 +1,4 @@
+IO#read や sysread, readpartial などの read 系のメソッドで第2引数に読み込んだ内
+容を格納する String オブジェクトを渡すと、元々長い String でも読んだ内容で
+truncate されるということを rdoc に追記して、テストも追加しています。
+[ruby-core:44314] [Bug #6285]
