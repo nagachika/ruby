@@ -1,0 +1,6 @@
+Thread のテスト test_status_and_stop_p で Thread#kill で別の Thread を殺した後
+のステータスをチェックする内容で Thread の切り替えが起きると失敗してしまうよう
+なテストだったので、assert_equal を呼ぶ前に Thread#status, Thread#stop? を呼ん
+で状態を先に格納しておいてから assert のチェックにかけるようにしています。これ
+でもメソッド呼び出しで割り込みチェックポイントになるのでまだタイミングよく切り
+替わると d.stop? で期待しない値が返ってくる可能性は残っているような気がします。
