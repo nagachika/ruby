@@ -1,0 +1,2 @@
+open-uri の proxy 経由で https 接続のテストでテスト後に proxy サーバ(WEBrick
+::HTTPProxyServer を利用)が停止するまで待つようにしています。
