@@ -1,0 +1,5 @@
+openssl の extconf.rb で -Wno-deprecated-declarations (deprecated と指定された
+関数などを利用しても警告しないことを指定するオプション)を指定した時に
+SSL_library_init() が見付からなかったら openssl の検出失敗にしています。メッセ
+ージやコミットログによると Apple 同梱の OpenSSL に何か不備があってそのバージョ
+ンは利用しないようにしようとしているのではないかと思われます。
