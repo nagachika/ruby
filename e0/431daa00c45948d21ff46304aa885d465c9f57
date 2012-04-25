@@ -1,0 +1,5 @@
+rubygems のテストで Psych が生成する YAML が正しいかというテストで YAML::ENGINE
+を psych に設定してテストするようにしています。
+この if 文の条件ってちょっと変な気がします。!YAML::ENGINE.syck? の時に psych に
+設定しているので、つまり psych の時に psych にして syck の時はそのままになって
+いるのでは?
