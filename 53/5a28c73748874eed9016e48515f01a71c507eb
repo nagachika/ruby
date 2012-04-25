@@ -1,0 +1,4 @@
+Net::IMAP で openssl が利用できるかのチェックで defied?(OpenSSL) が使われていた
+ところで OpenSSL が autoload の設定がされていると "constant" が返ってきてしまう
+ので defined?(OpenSSL::SSL) を使うように変更しています。 autoload の設定と
+defined? の組合せは注意が必用ですね。
