@@ -1,0 +1,4 @@
+文字エンコーディングの変換は CRuby は独自の機能を持っていて iconv (や nkf) での
+変換は不要で deprecated メッセージも出ていたので、ついに iconv が削除されていま
+す。 [ruby-core:44442] [Feature #6322]
+String#encode などを使いましょう。
