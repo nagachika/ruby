@@ -1,0 +1,3 @@
+configure で BASERUBY として 1.9.3 の ruby を使うと make に失敗する問題の対処と
+して baseruby では --disable-rubygems オプションを付けるようにしています。
+[ruby-core:44492] [Bug #6329]
