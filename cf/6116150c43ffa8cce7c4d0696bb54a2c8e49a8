@@ -1,0 +1,2 @@
+lib/net/http.rb で OpenSSL の autoload の設定が module Net の中でされていたので
+トップレベルで実行するように修正されています。
