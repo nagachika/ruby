@@ -1,0 +1,3 @@
+昨日 iconv が削除されましたが、String#encode では EUC-JISX0213 (EUC-JP-2004) の
+変換ができなかったので、文字コード変換テーブルに追加しています。
+[ruby-dev:45571] [Feature #6349]
