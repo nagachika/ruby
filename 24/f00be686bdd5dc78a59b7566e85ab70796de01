@@ -1,0 +1,2 @@
+Windows 版の waitpid の実装で FindChildSlotByHandle() という関数のエラーチェッ
+クが漏れていたため SEGV することがあったのを修正しています。
