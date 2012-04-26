@@ -1,0 +1,2 @@
+エンコーディング変換についての rdoc に Encoding::Converter#primitive_errinfo や
+last_error といったメソッドについての記述を追加しています。
