@@ -1,0 +1,4 @@
+ext/openssl/extconf.rb から ext/openssl/deprecation.rb に OpenSSL の関数チェッ
+クの処理を切り出して、拡張ライブラリ digest の extconf.rb からこれを利用して
+OpenSSL の digest 関数のチェックをするようにリファクタリングしています。
+[ruby-core:44755] [Bug #6379]
