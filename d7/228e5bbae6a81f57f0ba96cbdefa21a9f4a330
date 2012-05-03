@@ -1,0 +1,2 @@
+拡張ライブラリ digest の extconf.rb で ext/openssl/deprecation.rb を利用したも
+のについて extconf.h の依存関係に ext/openssl/deprecation.rb を追加しています。
