@@ -1,0 +1,3 @@
+digest/sha2/sha2.c のビット演算マクロ REVERSE32 で型の明示的なキャストの追加。
+また SHAxxx_Final/End でcontext の中身をクリアしているところでサイズの指定が間
+違っていたのを修正しています。
