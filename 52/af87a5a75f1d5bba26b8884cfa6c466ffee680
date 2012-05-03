@@ -1,0 +1,2 @@
+r35499 のテストに FileUtils.cp_r で例外が発生しないこと(assert_nothing_raised)
+というアサーションを追加しています。
