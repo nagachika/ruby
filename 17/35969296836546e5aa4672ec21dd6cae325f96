@@ -1,0 +1,4 @@
+mkmf.rb で生成する Makefile に extconf.h の依存関係に extconf.rb を追加して
+extconf.rb が更新されていたら extconf.h を削除して再生成を促すようにしています
+。自動で再生成ではなくて make をエラーにして再実行させるようにメッセージを出す
+ようです。
