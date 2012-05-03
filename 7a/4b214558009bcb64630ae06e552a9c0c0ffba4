@@ -1,0 +1,4 @@
+Readline に補完時の動作をカスタマイズするための pre_input_hook, insert_text,
+redisplay という GNU Readline の機能のサポートを追加しています。補完処理からこ
+れらのメソッドを使って補完後のコマンドラインの状態を変更することができます。
+[ruby-dev:45018] [Feature #5785]
