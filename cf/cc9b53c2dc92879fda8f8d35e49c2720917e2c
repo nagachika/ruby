@@ -1,0 +1,2 @@
+template/Doxyfile.tmpl の除外ファイルパターンの -test- を */ext/-test-/* に変更
+して ext/dl/callback は EXCLUDE に移動しています。
