@@ -1,0 +1,3 @@
+tool/rbinstall.rb を修正して capi ドキュメントをドキュメントディレクトリ(典型的
+には `prefix`/share/doc/ruby) のすぐ下ではなく capi サブディレクトリの下にイン
+ストールするようにしています。
