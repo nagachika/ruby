@@ -1,0 +1,2 @@
+template/Doxyfile.tmpl に Doxygen 向けに除外するファイルに自動生成されるファイ
+ルを追加しています。
