@@ -1,0 +1,2 @@
+make distclean-local でビルド時に自動生成される verconf.h を削除するようにして
+います。
