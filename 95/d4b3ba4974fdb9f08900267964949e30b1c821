@@ -1,0 +1,7 @@
+zlib の TestZlib に TestZlibInflate#test_inflate と TestZlibDeflate#
+test_deflate のテストを呼び出すテストを追加しています。 __name__ って何だろうか
+と思ったらMiniTest::Unit::TestCase のメソッドなんですね。 [ruby-core:44859]
+[Bug #6398]
+チケットを参照してもいまいちこれで何が追加されたことになるのかよくわからないの
+ですが(setup も特にないので前提条件も変化しないように思える、JRuby のテストに反
+映させたいらしいです。
