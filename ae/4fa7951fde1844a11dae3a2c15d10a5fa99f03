@@ -1,0 +1,2 @@
+で r35443 を revert しています。 assert_match/refute_match の挙動を直すべきって
+ことですね。
