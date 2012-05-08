@@ -1,0 +1,3 @@
+SecureRandom.random_byte で /dev/urandom からの read が指定したサイズまで読み込
+めないことがあるようで、その時の例外メッセージに実際に読めたサイズを含めるよう
+にしています。
