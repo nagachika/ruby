@@ -1,0 +1,2 @@
+ついでに SecureRandom.random_bytes で読み込みサイズが不一致の時の例外メッセージ
+を少し修正。
