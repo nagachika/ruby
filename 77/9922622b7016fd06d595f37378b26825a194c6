@@ -1,0 +1,2 @@
+テストの成功時、失敗時のプログレスの色付けの ASCII コードを環境変数
+PASSED_COLOR、FAILED_COLOR で指定可能にしています。
