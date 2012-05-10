@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で SSL_connect() や SSL_accept() の実行で
+SSL_ERROR_SYSCALL エラーが発生した時に SSLError でなく SystemCallError
+(Errno::EXXX) を発生させていたのを削除しています。
