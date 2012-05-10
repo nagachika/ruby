@@ -1,0 +1,2 @@
+minitest のテストで minitest/metametameta.rb を require する時のパス指定を修正
+しています。
