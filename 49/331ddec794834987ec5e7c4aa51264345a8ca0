@@ -1,0 +1,4 @@
+r35563 での minitest の assert_match, refute_match の修正の再修正です。第1引数
+のオブジェクトが String の時に Regexp にコンパイルする条件として第2引数も
+String であることをチェックするようにしていましたが、to_str メソッドで String
+に変換可能ならコンパイルするようにしています。
