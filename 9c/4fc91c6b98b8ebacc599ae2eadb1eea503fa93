@@ -1,0 +1,2 @@
+r35568 の json のマージで抜けていたファイル ext/json/lib/json/generic_object.rb
+を追加しています。
