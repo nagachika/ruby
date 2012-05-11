@@ -1,0 +1,3 @@
+Rinda::RingFinder#lookup_ring_any という UDP パケットをブロードキャストしてサー
+ビスを提供しているサーバを検出するライブラリのメソッドで呼び出した Thread がブ
+ロックしてしまうのを修正しています。 [ruby-talk:395364]
