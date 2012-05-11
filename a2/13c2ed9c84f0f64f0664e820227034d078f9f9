@@ -1,0 +1,7 @@
+minitest 3.0.0 がマージされています。 r35563 と r35572 での assert_match/
+refute_match の修正が戻されて、失敗していた rubygems のテストのほうの
+assert_match の使いかたを変更しています。また Object#stub というメソッドを追加
+して任意のオブジェクトにブロックの中でだけメソッドの stub を提供するメソッドを
+追加しています。
+test/rubygems/test_gem_remote_fetcher.rb は変更(openssl が利用可能でない時に実
+行できないテストをスキップする)が巻き戻されているようです。
