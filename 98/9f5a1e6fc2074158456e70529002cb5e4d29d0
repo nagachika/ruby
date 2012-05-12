@@ -1,0 +1,1 @@
+minitest のテストで metametameta.rb を require するためのパスを修正しています。
