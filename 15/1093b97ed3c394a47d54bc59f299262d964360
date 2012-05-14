@@ -1,0 +1,29 @@
+test/ruby/test_signal.rb の test_signal_requiring というテストが require 中にシ
+グナルを受信した時の挙動をテストするために生成した子プロセスが本来シグナルを送
+信したい require したファイル内の sleep ではなくてその前にファイルを load しよ
+うとした時の IO 待ちのタイミングでシグナルを受信すると失敗してしまうという問題
+に対する対応です。現象についてコミットログにとても詳細に書かれているので訳しま
+す。
+(1) プロセスが lex_io_gets() -> rb_thread_internal() ->
+rb_thread_io_blocking_region() と呼び出ししているタイミングでシグナルを受信する
+(2) rb_threadptr_execute_interrupts_common() で th->errinfo に INT2FIX
+(TAG_FATAL) をセットする。(訳注: rb_thread_t::errinfo には Qnil, 例外オブジェク
+ト、および fatal エラー(Fixnum)や break, 大域脱出(throw)などのフロー制御用の情
+報(NODE)が入ります)
+(3) rb_load_file() から rb_load_internal() の EXEC_TAG() までジャンプします(訳
+注: EXEC_TAG() は ruby で言う rescue している点みたいなもので C 言語としては
+setjmp/longjmp でマシンスタックを一気に巻き戻して戻ります)。このとき非0を返すの
+で loaded を TRUE にセットすることなく処理が進みます。
+(4) loaded が FALSE のままなので rb_exc_raise(GET_THREAD()->errinfo) を呼ぶ。し
+かしこの時点で th->errinfo に Fixnum(INT2FIX(TAG_FATAL))が格納されているので
+SEGVする。
+というわけで rb_load_internal() で rb_exc_raise() している所で errinfo が
+Fixnum だったら例外発生はしないようにしています。
+詳細で事情がよくわかるコミットログでした。すばらしいです。
+ここで TAG_FATAL をスルーしてもすぐ下で EXEC_TAG() の戻り値の state をチェック
+して再度フロー制御関係の処理をさせているので fatal エラーは伝播します。
+load.c のこの周辺を読むと、修正した rb_exc_raise() の下に上にも書いたフロー制御
+関係の rb_vm_jump_tag_but_local_jump() を呼んで、その後再度 rb_exc_raise(th->
+errinfo) を呼ぶ分岐があります。上の rb_exc_raise() はファイルを読み込んでパース
+して AST にするところまでで例外が発生した場合のためのようなのですが、これを後の
+ものとまとめてしまっていいんじゃないでしょうか。
