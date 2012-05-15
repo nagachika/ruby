@@ -1,0 +1,32 @@
+test/ruby/test_io.rb のテストで IO.for_fd で生成した IO オブジェクトの close で
+不正な file descriptor を持つ IO ができてしまって、後続のテストが走りはじめてか
+ら使用中の file descriptor を close してしまってエラーになる現象の対策として、
+全てのテストの setup/teardown で GC.disable と GC.enable を呼ぶようにしています
+。 [ruby-core:43951][Bug #6228]
+コミットログにわたしの名前が上がっていて、以前このチケットをみかけて心当たりが
+あったのでパッチを貼っておいたのですが(http://bugs.ruby-lang.org/issues/6228#
+note-12)、修正内容はちょっと違うようです。既にチケットでもこの修正方法はやりす
+ぎだと指摘されているので revert されるんじゃないかと思います。パッチ投げたっき
+りすっかり忘れてました……。というか GC.disable すると肝心の
+test_flush_in_finalizer1 が IO が回収されなくてテストにならないどころか "Too
+many open files" でエラーになってしまいます。
+解説しておくと、test_flush_in_finalizer1 というテストは [Bug #3910] のために IO
+オブジェクトが finalizer で close される時にエラーがおきないことをチェックする
+ため、たくさんファイルを開いて開きっぱなしにしています。で、おそらくたくさん IO
+オブジェクトを生成しているのでそれをちゃんと閉じようとしているのだと思うのです
+が ensure 節で IO.for_fd を使って開いた IO オブジェクトの file descriptor を直
+接閉じようとしています。しかしこれだとテスト本体で open した IO オブジェクトの
+うちまだ GC で回収 & finalizer実行されていないものを閉じてしまうので、無効な
+file descriptor を持った IO オブジェクトが未回収の状態で存在してしまいます。
+file descriptor は再利用されるので後続のテストでその file descrptor を open す
+る可能性があり、その状態で GC が走って、今度は無効な file descriptor を持った
+IO オブジェクトが回収されると、再利用されている file descriptor を自分が open
+したものだと思って close してしまうので、まだ利用中の IO オブジェクトの file
+descriptor が閉じられてしまって Errno::EBADF が発生するという次第です。ensure
+での IO.for_fd を使った close はおそらく IO をたくさん作るのでここで回収してお
+こうという配慮だと思うのですが、このような問題があるのでここは単に GC.start し
+て回収できるぶんは回収しておけばそれでいいんじゃないかと思って書いたのが投稿し
+たパッチです。
+と、いうことをちゃんと英語で説明できていたらよかったんですけど。mame さんが
+comment:14で補足して下さったのでこれで大丈夫だろうと思って終わった気になってし
+まってました。
