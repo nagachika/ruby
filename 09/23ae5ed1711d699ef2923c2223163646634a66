@@ -1,0 +1,3 @@
+r33878 で #ifdef HAVE_FSYNC でくくる関数の範囲を間違えて rb_io_rewind()、
+io_fillbuf()、rb_io_eof()、rb_io_sync()、rb_io_set_sync() などの関数が fsync()
+が未定義の環境でごっそり削れてたのを修正しています。
