@@ -1,0 +1,4 @@
+test/ruby/test_file.rb のテストケースで Dir.mktmpdir のブロック内でファイルを
+open しているものがあったのですが Dir.mktmpdir してもカレントディレクトリが変化
+するわけではないので File.join で一時ディレクトリの下のファイルパスを作って
+open するようにしています。
