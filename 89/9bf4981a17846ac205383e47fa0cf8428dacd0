@@ -1,0 +1,3 @@
+ext/extmk.rb で extconf.rb が例外を発生させた時には rescue してそのメッセージを
+表示するようにして、openssl の extconf.rb でエラー時にメッセージを出力して exit
+1 しているところを例外を投げるように変更しています。
