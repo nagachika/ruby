@@ -1,0 +1,3 @@
+ext/extmk.rb で static link の対象をチェックしているところで json を省くために
+Makefile に OBJS が指定されていない拡張ライブラリはスキップするようにしています
+。
