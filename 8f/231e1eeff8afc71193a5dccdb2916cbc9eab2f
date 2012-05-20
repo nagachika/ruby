@@ -1,0 +1,3 @@
+拡張ライブラリ syslog に SyslogLogger という gem パッケージの Syslog::Logger ク
+ラスを取り込んでいます。出力先が syslog でインタフェースは Logger と同じように
+使えるもののようです。 [ruby-core:38503] [Feature #5096]
