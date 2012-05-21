@@ -1,0 +1,2 @@
+dmyext.c で Init_enc() を Init_enc(void) に。 K&R style はもう使わないようにし
+ます。
