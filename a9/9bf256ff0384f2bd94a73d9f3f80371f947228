@@ -1,0 +1,3 @@
+r35708 でリファクタリングした ext/extmk.rb の修正。拡張ライブラリが静的リンクさ
+れない時に EXTOBJS に dmyext.o を指定するようにしています。 ChangeLog とコミッ
+トログの DLDOBJS は typo?
