@@ -1,0 +1,1 @@
+enc/encinit.c.erb の Init_enc() の定義でも K&R style を修正しています。
