@@ -1,0 +1,3 @@
+ext/extmk.rb で $stdout, $stderr を File::NULL を open して代入していたところを
+IO#reopen で file descriptor レベルで置き換えるようにしています。子プロセスにま
+で標準出力のリダイレクトを伝播させるためとのこと。
