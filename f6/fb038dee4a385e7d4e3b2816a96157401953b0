@@ -1,0 +1,3 @@
+Net::FTP#retrbinary で close を ensre 節に移動したので close を呼ぶ変数 conn が
+nil でないかチェックを追加しています。また Net::FTP#retrlines でも同様に close
+を ensure 節にして例外発生時に閉じ忘れがないようにしています。
