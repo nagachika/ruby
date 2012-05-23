@@ -36,6 +36,8 @@ VALUE rb_cRubyVM;
 VALUE rb_cThread;
 VALUE rb_cEnv;
 VALUE rb_mRubyVMFrozenCore;
+VALUE rb_cBacktrace;
+VALUE rb_cFrameInfo;
 
 VALUE ruby_vm_const_missing_count = 0;
 
@@ -731,6 +733,12 @@ rb_lastline_set(VALUE val)
 
 /* backtrace */
 
+inline static int
+calc_line_no(const rb_iseq_t *iseq, VALUE *pc)
+{
+    return rb_iseq_line_no(iseq, pc - iseq->iseq_encoded);
+}
+
 int
 rb_vm_get_sourceline(const rb_control_frame_t *cfp)
 {
@@ -738,10 +746,319 @@ rb_vm_get_sourceline(const rb_control_frame_t *cfp)
     const rb_iseq_t *iseq = cfp->iseq;
 
     if (RUBY_VM_NORMAL_ISEQ_P(iseq)) {
-	size_t pos = cfp->pc - cfp->iseq->iseq_encoded;
-	line_no = rb_iseq_line_no(iseq, pos);
+	line_no = calc_line_no(cfp->iseq, cfp->pc);
     }
     return line_no;
+}
+
+typedef struct rb_frame_info_struct {
+    enum FRAME_INFO_TYPE {
+	FRAME_INFO_TYPE_ISEQ = 1,
+	FRAME_INFO_TYPE_CFUNC,
+	FRAME_INFO_TYPE_IFUNC,
+    } type;
+
+    union {
+	struct {
+	    rb_iseq_t *iseq;;
+	    VALUE *pc;
+	} iseq;
+	struct {
+	    VALUE filename;
+	    ID mid;
+	} cfunc;
+	struct {
+	    VALUE filename;
+	} ifunc;
+    } body;
+} rb_frame_info_t;
+
+static void
+frame_info_mark(void *ptr)
+{
+    if (ptr) {
+	rb_frame_info_t *fi = (rb_frame_info_t *)ptr;
+
+	switch (fi->type) {
+	  case FRAME_INFO_TYPE_ISEQ:
+	    rb_gc_mark(fi->body.iseq.iseq->self);
+	    break;
+	  case FRAME_INFO_TYPE_CFUNC:
+	  case FRAME_INFO_TYPE_IFUNC:
+	    rb_gc_mark(fi->body.cfunc.filename);
+	  default:
+	    break;
+	}
+    }
+}
+
+static void
+frame_info_free(void *ptr)
+{
+    if (ptr) {
+	rb_frame_info_t *fi = (rb_frame_info_t *)ptr;
+	ruby_xfree(fi);
+    }
+}
+
+static size_t
+frame_info_memsize(const void *ptr)
+{
+    /* rb_frame_info_t *fi = (rb_frame_info_t *)ptr; */
+    return sizeof(rb_frame_info_t);
+}
+
+static const rb_data_type_t frame_info_data_type = {
+    "frame_info",
+    {frame_info_mark, frame_info_free, frame_info_memsize,},
+};
+
+static VALUE
+rb_frame_info_create(rb_frame_info_t *srcfi)
+{
+    rb_frame_info_t *fi = ruby_xmalloc(sizeof(rb_frame_info_t));
+    *fi = *srcfi;
+    return TypedData_Wrap_Struct(rb_cFrameInfo, &frame_info_data_type, fi);
+}
+
+static inline rb_frame_info_t *
+frame_info_ptr(VALUE fiobj)
+{
+    rb_frame_info_t *fi;
+    GetCoreDataFromValue(fiobj, rb_frame_info_t, fi);
+    return fi;
+}
+
+static VALUE
+frame_info_line_no(VALUE fiobj)
+{
+    rb_frame_info_t *fi = frame_info_ptr(fiobj);
+    if (fi->type == FRAME_INFO_TYPE_ISEQ) {
+	return INT2FIX(calc_line_no(fi->body.iseq.iseq, fi->body.iseq.pc));
+    }
+    else {
+	return INT2FIX(0);
+    }
+}
+
+static VALUE
+frame_info_name(VALUE fiobj)
+{
+    rb_frame_info_t *fi = frame_info_ptr(fiobj);
+    switch (fi->type) {
+      case FRAME_INFO_TYPE_ISEQ: 
+	return fi->body.iseq.iseq->location.name;
+      case FRAME_INFO_TYPE_CFUNC:
+	return rb_sym_to_s(ID2SYM(fi->body.cfunc.mid));
+      case FRAME_INFO_TYPE_IFUNC:
+	return rb_str_new2("<IFUNC>");
+      default:
+	rb_bug("frame_info_name: unreachable");
+    }
+}
+
+static VALUE
+frame_info_basename(VALUE fiobj)
+{
+    rb_frame_info_t *fi = frame_info_ptr(fiobj);
+    switch (fi->type) {
+      case FRAME_INFO_TYPE_ISEQ: 
+	return fi->body.iseq.iseq->location.basename;
+      case FRAME_INFO_TYPE_CFUNC:
+	return rb_sym_to_s(ID2SYM(fi->body.cfunc.mid));
+      case FRAME_INFO_TYPE_IFUNC:
+	return rb_str_new2("<IFUNC>");
+      default:
+	rb_bug("frame_info_basename: unreachable");
+   }
+}
+
+static VALUE
+frame_info_filename(VALUE fiobj)
+{
+    rb_frame_info_t *fi = frame_info_ptr(fiobj);
+    switch (fi->type) {
+      case FRAME_INFO_TYPE_ISEQ: 
+	return fi->body.iseq.iseq->location.filename;
+      case FRAME_INFO_TYPE_CFUNC:
+	return fi->body.cfunc.filename;
+      case FRAME_INFO_TYPE_IFUNC:
+	return fi->body.ifunc.filename;
+      default:
+	rb_bug("frame_info_filename: unreachable");
+    }
+}
+
+static VALUE
+frame_info_filepath(VALUE fiobj)
+{
+    rb_frame_info_t *fi = frame_info_ptr(fiobj);
+    switch (fi->type) {
+      case FRAME_INFO_TYPE_ISEQ: 
+	return fi->body.iseq.iseq->location.filepath;
+      case FRAME_INFO_TYPE_CFUNC:
+	return fi->body.cfunc.filename;
+      case FRAME_INFO_TYPE_IFUNC:
+	return fi->body.ifunc.filename;
+      default:
+	rb_bug("frame_info_filepath: unreachable");
+    }
+}
+
+
+static VALUE
+frame_info_to_str(VALUE fiobj)
+{
+    VALUE args[3];
+    args[0] = frame_info_filename(fiobj);
+    args[1] = frame_info_line_no(fiobj);
+    args[2] = frame_info_name(fiobj);
+
+    if (args[1] == INT2FIX(0)) {
+	args[1] = args[2];
+	return rb_str_format(2, args, rb_str_new2("%s:in `%s'"));
+    }
+    else {
+	return rb_str_format(3, args, rb_str_new2("%s:%d:in `%s'"));
+    }
+}
+
+static VALUE
+frame_info_to_ary(VALUE fiobj)
+{
+    VALUE args[3];
+    args[0] = frame_info_filename(fiobj);
+    args[1] = frame_info_line_no(fiobj);
+    args[2] = frame_info_name(fiobj);
+    return rb_ary_new4(3, args);
+}
+
+static VALUE
+frame_info_to_inspect(VALUE fiobj)
+{
+    return rb_str_inspect(frame_info_to_str(fiobj));
+}
+
+typedef struct rb_backtrace_struct {
+    rb_frame_info_t *backtrace;
+    int backtrace_size;
+} rb_backtrace_t;
+
+static void
+backtrace_mark(void *ptr)
+{
+    if (ptr) {
+	rb_backtrace_t *bt = (rb_backtrace_t *)ptr;
+	int i;
+
+	for (i=0; i<bt->backtrace_size; i++) {
+	    frame_info_mark(&bt->backtrace[i]);
+	}
+    }
+}
+
+static void
+backtrace_free(void *ptr)
+{
+   if (ptr) {
+       rb_backtrace_t *bt = (rb_backtrace_t *)ptr;
+       ruby_xfree(bt->backtrace);
+       ruby_xfree(bt);
+   }
+}
+
+static size_t
+backtrace_memsize(const void *ptr)
+{
+    rb_backtrace_t *bt = (rb_backtrace_t *)ptr;
+    return sizeof(rb_backtrace_t) + sizeof(rb_frame_info_t) * bt->backtrace_size;
+}
+
+static const rb_data_type_t backtrace_data_type = {
+    "backtrace",
+    {backtrace_mark, backtrace_free, backtrace_memsize,},
+};
+
+int
+rb_backtrace_p(VALUE obj)
+{
+    if (TYPE(obj) == T_DATA && RTYPEDDATA_P(obj) && RTYPEDDATA_TYPE(obj) == &backtrace_data_type) {
+	return 1;
+    }
+    else {
+	return 0;
+    }
+}
+
+VALUE
+vm_backtrace_create(rb_thread_t *th, int start, int end)
+{
+    rb_backtrace_t *bt = ruby_xmalloc(sizeof(rb_backtrace_t));
+    rb_control_frame_t *last_cfp = th->cfp;
+    rb_control_frame_t *start_cfp = RUBY_VM_END_CONTROL_FRAME(th);
+    rb_control_frame_t *cfp;
+    int size = (start_cfp - last_cfp), i, j;
+    VALUE file = th->vm->progname ? th->vm->progname : Qnil;
+
+    bt->backtrace = ruby_xmalloc(sizeof(rb_frame_info_t) * size);
+    bt->backtrace_size = size;
+
+    for (i=0, j=0, cfp=start_cfp; i<size; i++, cfp = RUBY_VM_NEXT_CONTROL_FRAME(cfp)) {
+	/* TODO: how to skip it? */
+	rb_frame_info_t *fi = &bt->backtrace[j];
+
+	if (cfp->iseq) {
+	    if (cfp->pc) {
+		fi->type = FRAME_INFO_TYPE_ISEQ;
+		fi->body.iseq.iseq = cfp->iseq;
+		fi->body.iseq.pc = cfp->pc;
+		file = cfp->iseq->location.filename;
+		j++;
+	    }
+	}
+	else if (RUBYVM_CFUNC_FRAME_P(cfp)) {
+	    fi->type = FRAME_INFO_TYPE_CFUNC;
+	    if (cfp->me->def) {
+		fi->body.cfunc.mid = cfp->me->def->original_id;
+		fi->body.cfunc.filename = file;
+	    }
+	    else {
+		fi->body.cfunc.mid = cfp->me->called_id;
+		fi->body.cfunc.filename = file;
+	    }
+	    j++;
+	}
+    }
+
+    bt->backtrace_size = j; /* TODO: realloc? */
+    return TypedData_Wrap_Struct(rb_cBacktrace, &backtrace_data_type, bt);
+}
+
+VALUE
+rb_backtrace_to_ary(VALUE btobj)
+{
+    rb_backtrace_t *bt;
+    VALUE btary = rb_ary_new();
+    int i;
+
+    GetCoreDataFromValue(btobj, rb_backtrace_t, bt);
+
+    for (i=0; i<bt->backtrace_size; i++) {
+	rb_frame_info_t *fi = &bt->backtrace[bt->backtrace_size - i - 1];
+
+	switch (fi->type) {
+	  case FRAME_INFO_TYPE_ISEQ:
+	  case FRAME_INFO_TYPE_CFUNC:
+	  case FRAME_INFO_TYPE_IFUNC:
+	    rb_ary_push(btary, rb_frame_info_create(fi));
+	    break;
+	  default:
+	    rb_bug("unreachable");
+	    break;
+	}
+    }
+
+    return btary;
 }
 
 static int
@@ -818,9 +1135,12 @@ vm_backtrace(rb_thread_t *th, int lev)
 {
     VALUE ary = 0;
 
+    return vm_backtrace_create(th, 0, 0);
+
     if (lev < 0) {
 	ary = rb_ary_new();
     }
+
     vm_backtrace_each(th, lev, vm_backtrace_alloc, vm_backtrace_push, &ary);
     if (!ary) return Qnil;
     return rb_ary_reverse(ary);
@@ -2171,6 +2491,25 @@ Init_VM(void)
     /* ::Thread */
     rb_cThread = rb_define_class("Thread", rb_cObject);
     rb_undef_alloc_func(rb_cThread);
+
+    /* ::RubyVM::Backtrace */
+    rb_cBacktrace = rb_define_class_under(rb_cRubyVM, "Backtrace", rb_cObject);
+    rb_undef_alloc_func(rb_cBacktrace);
+    rb_undef_method(CLASS_OF(rb_cFrameInfo), "new");
+
+    /* ::RubyVM::FrameInfo */
+    rb_cFrameInfo = rb_define_class_under(rb_cRubyVM, "FrameInfo", rb_cObject);
+    rb_undef_alloc_func(rb_cFrameInfo);
+    rb_undef_method(CLASS_OF(rb_cFrameInfo), "new");
+    rb_define_method(rb_cFrameInfo, "line_no", frame_info_line_no, 0);
+    rb_define_method(rb_cFrameInfo, "name", frame_info_name, 0);
+    rb_define_method(rb_cFrameInfo, "basename", frame_info_basename, 0);
+    rb_define_method(rb_cFrameInfo, "filename", frame_info_filename, 0);
+    rb_define_method(rb_cFrameInfo, "filepath", frame_info_filepath, 0);
+    rb_define_method(rb_cFrameInfo, "to_str", frame_info_to_str, 0);
+    rb_define_method(rb_cFrameInfo, "to_s", frame_info_to_str, 0);
+    rb_define_method(rb_cFrameInfo, "inspect", frame_info_to_inspect, 0);
+    rb_define_method(rb_cFrameInfo, "to_ary", frame_info_to_ary, 0);
 
     /* ::RubyVM::USAGE_ANALYSIS_* */
     rb_define_const(rb_cRubyVM, "USAGE_ANALYSIS_INSN", rb_hash_new());

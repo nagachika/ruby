@@ -640,6 +640,9 @@ exc_inspect(VALUE exc)
     return str;
 }
 
+VALUE rb_backtrace_to_ary(VALUE obj);
+int rb_backtrace_p(VALUE obj);
+
 /*
  *  call-seq:
  *     exception.backtrace    -> array
@@ -673,9 +676,17 @@ static VALUE
 exc_backtrace(VALUE exc)
 {
     ID bt;
+    VALUE obj;
 
     CONST_ID(bt, "bt");
-    return rb_attr_get(exc, bt);
+    obj = rb_attr_get(exc, bt);
+
+    if (rb_backtrace_p(obj)) {
+	obj = rb_backtrace_to_ary(obj);
+	rb_iv_set(exc, "bt", obj);
+    }
+
+    return obj;
 }
 
 VALUE
@@ -686,6 +697,7 @@ rb_check_backtrace(VALUE bt)
 
     if (!NIL_P(bt)) {
 	if (RB_TYPE_P(bt, T_STRING)) return rb_ary_new3(1, bt);
+	if (rb_backtrace_p(bt)) return bt;
 	if (!RB_TYPE_P(bt, T_ARRAY)) {
 	    rb_raise(rb_eTypeError, err);
 	}

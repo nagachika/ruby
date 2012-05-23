@@ -1605,6 +1605,8 @@ rb_catch_obj(VALUE tag, VALUE (*func)(), VALUE data)
  *     c(5)   #=> nil
  */
 
+VALUE rb_backtrace_to_ary(VALUE btobj);
+
 static VALUE
 rb_f_caller(int argc, VALUE *argv)
 {
@@ -1620,7 +1622,7 @@ rb_f_caller(int argc, VALUE *argv)
     if (lev < 0)
 	rb_raise(rb_eArgError, "negative level (%d)", lev);
 
-    return vm_backtrace(GET_THREAD(), lev);
+    return rb_backtrace_to_ary(vm_backtrace(GET_THREAD(), lev));
 }
 
 static int
