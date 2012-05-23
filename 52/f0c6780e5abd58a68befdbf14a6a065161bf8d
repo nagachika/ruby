@@ -1,0 +1,3 @@
+r35732 の変更で shutdown を呼ぶ時に例外は rescue して無視するようにしています。
+またテストでサーバ側の Thread の終了を待つように Thread#join の呼び出しを
+teardown に追加しています。
