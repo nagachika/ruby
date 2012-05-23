@@ -1,0 +1,3 @@
+.travis.yml にビルド前に apt-get build-dep ruby1.9.1 で必要なライブラリをインス
+トールしておくようにしています。 Travis-CI で tcl/tk がなくて拡張ライブラリ tcl
+のコンパイルがされていなかったそうです。
