@@ -1,0 +1,4 @@
+Syslog の下に Syslog::Priority、Syslog::Level、Syslog::Option、Syslog::Macros
+といったサブモジュールを追加して Syslog::Constants に定義されていた syslog 用の
+定数はその下に分類されるようにしています。 Syslog::Constants にこれらのサブモジ
+ュールが include されるので元の変数名でも参照はできるようにしています。
