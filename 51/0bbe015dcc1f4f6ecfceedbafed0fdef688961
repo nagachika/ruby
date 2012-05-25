@@ -1,0 +1,3 @@
+lib/net/http.rb の内容がクラスごとに response.rb responses.rb
+generic_request.rb request.rb requessts.rb header.rb proxy_delta.rb
+exceptions.rb backward.rb などにファイルを分割しています。
