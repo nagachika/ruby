@@ -1,0 +1,14 @@
+例外発生時に Exception にセットする backtrace の情報を効率的に生成するように内
+部的な RubyVM::Backtrace というクラスを導入しています。Exception#backtrace メソ
+ッドが呼ばれた時にはその場で従来の文字列の配列というオブジェクトに変換して返す
+ようにしているため表には見えないようになっているようですが*1、Marshal.dump した
+時にはそのままダンプされているようです。なお、この影響で、dRuby でこの変更が入
+る前の ruby からと新しい ruby のメソッドを呼んで、そこで例外が発生すると、
+DRb::DRbUnknownError: RubyVM::Backtrace
+のような別の例外が発生していまします。例外の情報に今回追加した
+RubyVM::Backtrace のオブジェクトが含まれるため、そのクラスが見付からなくて本来
+の例外が読み込めないためです。
+あと rb_backtrace_p() などのオブジェクトの型をチェックしている関数は [DEL:
+rb_check_typeddata() みたいに汎用的なのがあったほうがいいかもしれませんね。
+rb_check_typeddata() は例外を発生させるので真偽値を返す関数が。:DEL]
+rb_typeddata_is_kind_of() という関数があるのでこれを使うのがよさそうですね。
