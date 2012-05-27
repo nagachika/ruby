@@ -1,0 +1,4 @@
+r35795 のテストの直しかただと Errno::ECONNRESET を rescue してから OpenSSL::SSL
+::SSLError を raise しなおしていて意図がわかりにくかったので、全体的に
+OpenSSL::SSL::SSLError と Errno::ECONNRESET を両方 rescue するように、両方発生
+し得るということがわかるようにテストを修正しなおしています。
