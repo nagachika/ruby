@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の修正 r35583 を revert しています。SSL_connect() などの
+エラー時に SystemCallError(Errno::EXXX)を発生させていたのを消しえちたのですが、
+テストのほうが間違っていたということで失敗していたテストで rescue するようにし
+ています。
