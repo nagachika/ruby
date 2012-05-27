@@ -1,0 +1,1 @@
+rb_backtrace_p() の実装を rb_typeddata_is_kind_of() を使うようにしています。
