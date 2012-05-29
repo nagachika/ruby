@@ -1,0 +1,2 @@
+DateTime#strftime の修飾子 O に "%Ok" と "%Ol" のように指示子 k, l を許容するよ
+うにしています。
