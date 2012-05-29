@@ -1,0 +1,1 @@
+DateTime#strftime のテストにも "%Ok" と "%Ol" のテストを追加しています。
