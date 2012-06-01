@@ -1,0 +1,6 @@
+lib/test/unit.rb で出力の色付けの条件の書きかたをリファクタリングしています。
+condition = a && b && c
+を
+condition = a && b
+condition &&= c
+と分割するイディオムですね。
