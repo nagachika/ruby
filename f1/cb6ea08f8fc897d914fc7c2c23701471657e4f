@@ -1,0 +1,3 @@
+拡張ライブラリ dl の DL::CUnionEntity.size の型のサイズ計算をリファクタリングし
+て無意味な each_with_index の利用をやめて map + max で union の型のサイズを計算
+するようにしています。
