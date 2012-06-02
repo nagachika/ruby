@@ -1,0 +1,2 @@
+同じく DL::CStructEntity.size もアライメント計算に map + max を使うようにリファ
+クタリングしています。
