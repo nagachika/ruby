@@ -1,0 +1,3 @@
+DL::CUnionEntity#set_ctypes で先程リファクタリングした DL::CUnionEntity.size を
+呼び出して利用するようにリファクタリングしています。またテストも追加しています
+。
