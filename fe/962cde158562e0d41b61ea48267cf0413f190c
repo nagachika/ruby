@@ -1,0 +1,2 @@
+DL::CStructEntity#set_ctypes のリファクタリング。機能の DL のリファクタリングと
+同様にアライメント計算に map + max を使用するようにしています。
