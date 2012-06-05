@@ -1,0 +1,2 @@
+Date と DateTime も marshal_load で freeze されていないかチェックを追加していま
+す。
