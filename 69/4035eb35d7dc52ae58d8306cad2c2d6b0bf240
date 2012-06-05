@@ -1,0 +1,4 @@
+r35877 で追加した Complex と Rational の _dump/_load の実装で marshal_dump()/
+marshal_load() 関数を直接呼んでいたのを rb_marshal_dump()/rb_marshal_load() を
+呼ぶようにして、r35879 で marshal_dump()/marshal_load() を static を消していた
+のを戻しています。
