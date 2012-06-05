@@ -1,0 +1,2 @@
+Date, DateTime の freeze されたものに marshal_load を呼んだ時のテストを追加して
+います。
