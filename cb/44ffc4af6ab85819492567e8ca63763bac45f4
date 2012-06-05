@@ -1,0 +1,1 @@
+process.c の rb_exec_getargs() から未使用の引数を削除しています。
