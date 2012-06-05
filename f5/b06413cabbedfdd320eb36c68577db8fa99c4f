@@ -1,0 +1,9 @@
+これも MARSHAL_LOAD_DIRECT というマクロが定義されている時だけ有効な変更なので多
+分作業中ということなのだと思いますが Complex と Rational の marshal_load の関数
+に extern されたラッパを定義して marshal.c の marshal_load でそれを直接呼ぶよう
+にしています。また Complex#marshal_load や Rational#marshal_load の定義には
+marshal_load_fake() という関数を当てて、Ruby レベルからはそのメソッドは呼べない
+ようにしています。うーんなるほど、Marshal.load が内部的に呼ぶ時は関数を直に呼ぶ
+ので実行できるけど Ruby からは呼べないようにしようとしてるんですね。直接関数を
+呼ぶ方法が決め打ちなのはつらいと思うので何かそういうことができる仕組みを作るの
+か、そこまでして immutable なことを保証するかという気もしますね。
