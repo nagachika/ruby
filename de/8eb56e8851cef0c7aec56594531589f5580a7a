@@ -1,0 +1,3 @@
+process.c の proc_exec_v() と rb_proc_exec_e() の NaCl 版との条件コンパイルの分
+岐を関数の定義ごと分けてていたのを関数の中で分岐(#ifdef __native_client__)する
+ようにしています。
