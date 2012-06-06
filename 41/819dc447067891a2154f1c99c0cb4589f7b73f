@@ -1,0 +1,3 @@
+process.c でコマンドラインを argv 形式の String オブジェクトに分割したものから
+argc と argv に変換するマクロ ARGVSTR2ARGC()、ARGVSTR2ARGV() を定義して、これを
+利用するようにリファクタリングしています。
