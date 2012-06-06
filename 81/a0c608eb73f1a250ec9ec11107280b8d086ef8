@@ -1,0 +1,5 @@
+コードをよく理解していないのですがテストをみると rb_marsal_define_compat() で別
+のクラスの dump/load を利用する時に marshal_dump/marshal_load を定義してカスタ
+マイズしたものをや _load/_dump を定義してカスタマイズしたものもサポートするよう
+にしているようです。 rb_marshal_define_compat() の使いかた自体よくわかってない
+ので機会があったら調べてみたいです。
