@@ -1,0 +1,2 @@
+r35877 と r35886 で Rational と Complex の Marshal.dump/load の実験的なコードを
+条件コンパイルつきで入れていたのを revert しています。
