@@ -1,0 +1,1 @@
+process.c の proc_spawn_n() で未使用の引数 argc を削除しています。
