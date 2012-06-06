@@ -1,0 +1,2 @@
+fork() がない環境での rb_exec_err() で rb_run_exec_options_err() の呼び出し前後
+で errno を保存するようにしています。
