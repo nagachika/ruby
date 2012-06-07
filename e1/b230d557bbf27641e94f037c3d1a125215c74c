@@ -1,0 +1,2 @@
+IO.open, File.open, Kernel#open の rdoc を編集しています。 mode の詳しい説明な
+どは Kernel#open の項に移動しています。
