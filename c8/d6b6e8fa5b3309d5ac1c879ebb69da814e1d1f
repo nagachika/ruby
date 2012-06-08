@@ -1,0 +1,2 @@
+process.c の rb_spawn_process() で prog という変数はプラットフォームに依存して
+利用するようになったので宣言を #ifdef の中に移動しています。
