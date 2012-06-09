@@ -1,0 +1,4 @@
+async-signal-safe かどうかのチェックコメントを更新しています。修正してめでたく
+async-signal-safe になったものに加えて、まだそうなっていない箇所がどの関数のせ
+いで async-signal-safe でないのかも追記されています。 akr さんの
+async-signal-safe への旅はもうちょっとだけ続きそうです。
