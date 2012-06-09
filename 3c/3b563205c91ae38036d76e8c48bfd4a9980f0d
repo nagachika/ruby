@@ -1,0 +1,2 @@
+process.c の proc_exec_?? とか proc_spawn_?? といった関数マクロや関数をより説明
+的な名前に変更しています。
