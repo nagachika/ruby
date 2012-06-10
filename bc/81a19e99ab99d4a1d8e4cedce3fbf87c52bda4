@@ -1,0 +1,3 @@
+r35955 で rb_fork_err() が rb_protect() を使うのが status 引数を渡した時だけに
+なったので拡張ライブラリ pty で rb_fork_err() を呼んでいるところで status を渡
+すようにしています。
