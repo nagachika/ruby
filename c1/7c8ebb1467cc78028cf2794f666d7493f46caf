@@ -1,0 +1,3 @@
+process.c で after_exec() という exec系(2) の後に呼ぶ関数が proc_exec_cmd() と
+r_exec_sh() に存在していたので eb_exec_err() と rb_proc_exec() に中にまとめてい
+ます。
