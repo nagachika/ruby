@@ -1,0 +1,4 @@
+rb_exec_err() から before_exec() と after_exec() の呼び出し以外の部分を
+rb_exec_async_signal_safe() として切り出しています。名前の通りこの部分は async
+signal safe で、before_exec()/after_exec() が async signal safe でないというこ
+とですね。
