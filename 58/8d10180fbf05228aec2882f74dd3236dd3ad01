@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#load で Symbol の変数を ID として利用しようとしてい
+た不具合を修正しています。
