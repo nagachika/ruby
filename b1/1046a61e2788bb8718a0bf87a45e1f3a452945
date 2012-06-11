@@ -1,0 +1,2 @@
+なにやら process.c の rb_fork_internal() などで chfunc_is_async_signal_safe 引
+数を追加して指定によって処理を切り替えられるようにしています。
