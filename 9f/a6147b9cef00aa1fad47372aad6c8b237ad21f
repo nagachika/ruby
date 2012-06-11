@@ -1,0 +1,2 @@
+String#start_with? と end_with? の rdoc のマークアップ方法やサンプルコードを修
+正しています。 [ruby-core:45459] [Bug #6553]
