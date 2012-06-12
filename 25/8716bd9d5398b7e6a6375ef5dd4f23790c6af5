@@ -1,0 +1,2 @@
+proces.c の rb_fork_internal() で引数の chfunc_is_async_signal_safe の指定が偽
+の時だけ after_fork() を呼ぶようにしています。
