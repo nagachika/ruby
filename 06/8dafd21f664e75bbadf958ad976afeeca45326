@@ -1,0 +1,4 @@
+pthread 版の Thread 実装でマシンスタックの情報を取得する関数 get_stack() の条件
+コンパイルの分岐を修正しています。 pthread_get_stackaddr_np() と
+pthread_get_stacksize_np() が利用できる環境を Mac OS X として、この時
+pthread_attr_init() が呼ばれなくなっています。
