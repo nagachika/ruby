@@ -1,0 +1,4 @@
+NetBSD 6 adm 64 版で libexecinfo が利用可能になったので configure.in でこの環境
+では execinfo() と backtrace() の存在チェックをするようにしています。 execinfo
+() は ruby がSEGVなどして強制終了する時にバックトレースを出力するために利用して
+いるものです。
