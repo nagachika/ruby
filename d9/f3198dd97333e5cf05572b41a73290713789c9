@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence#disasm でのエンコーディングの扱いをチェックしている
+テストで、一時的に default_internal をソースコード文字列のエンコーディングに置
+き換えるようにしています。
