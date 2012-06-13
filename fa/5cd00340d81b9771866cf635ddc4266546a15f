@@ -1,0 +1,2 @@
+rb_exec_err() を rb_exec_without_timer_thread() と改名して、rb_exec_err() をそ
+の関数を呼ぶだけのスタブとして定義しています。
