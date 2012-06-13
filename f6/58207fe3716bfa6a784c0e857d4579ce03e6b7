@@ -1,0 +1,4 @@
+FreeBSD で execinfo.h を探すために /usr/local/include/execinfo.h を
+configure.in でベタ書きしていたのをやめて FreeBSD と NetBSD (x86_64) の処理をま
+とめています。 FreeBSD でコンパイルする人は --with-opt-dir か --with-execinfo-
+dir で /usr/local を明示的に指定しましょうとのことです。
