@@ -1,0 +1,2 @@
+.gdbinit に rb_vmdebug_stack_dump_raw_current() を呼ぶコマンド SDR というのを追
+加しています。 VM のデバッグ用とのこと。
