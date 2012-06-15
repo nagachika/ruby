@@ -1,0 +1,2 @@
+process.c で Windows 版では未使用になっている構造体の宣言を #ifndef _WIN32 でく
+くるようにしています。
