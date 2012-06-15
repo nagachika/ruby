@@ -1,0 +1,2 @@
+mkmf.rb で生成する Makefile に clean-static という clean が依存するターゲットを
+追加しています。
