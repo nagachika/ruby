@@ -1,0 +1,2 @@
+configure で NativeClient 環境の型のチェックは host-os が nacl の時だけ実施する
+ようにしています。
