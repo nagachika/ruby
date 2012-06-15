@@ -1,0 +1,1 @@
+process.c の char * にいくつか const 修飾子を付けています。
