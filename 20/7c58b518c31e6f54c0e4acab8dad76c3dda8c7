@@ -1,0 +1,2 @@
+r36079 でリファクタリングされた ruby_eval_main_internal() で result に空を返す
+場合に Qnil の代入が抜けていたので修正しています。
