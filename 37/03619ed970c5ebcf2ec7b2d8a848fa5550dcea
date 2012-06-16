@@ -1,0 +1,4 @@
+RFC 2817 と 4918 で追加されている HTTP ステータスコードのサポートを Net::HTTP
+に追加しています。 [ruby-core:45547] [Feature #6569]
+また Net::HTTPMultipleChoice を Net::HTTPMultipleChoices に改名しています(古い
+名前も互換性のため別名として残しています)。
