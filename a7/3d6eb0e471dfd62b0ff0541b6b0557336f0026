@@ -1,0 +1,2 @@
+tool/make-snapshot で config.status に enc/unicode/name2ctype.h の生成に必要な
+ので MKDIR_P 変数の定義を追加しています。
