@@ -1,0 +1,3 @@
+bootstraptest/runner.rb が色付けの指定を環境変数 PASSED_COLOR と FAILED_COLOR
+で受けつけていたのを TEST_COLORS という1つの環境変数にまとめて受け付けて ":" で
+分割するようにしています。
