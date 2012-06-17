@@ -1,0 +1,3 @@
+r35576 の Test::Unit::Runner#puke の再定義の変更を revert しています。 make
+test-all に TESTS 環境変数で "-j" オプションを渡すと常に skip の情報が抑制され
+ていたのを修正しているそうです。 [ruby-dev:45746] [Bug #6595]
