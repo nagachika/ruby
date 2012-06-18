@@ -1,0 +1,2 @@
+Date と DateTime の中で利用している struct tmx_funcs の offset (タイムゾーンの
+オフセット)は VALUE (Numeric) でなく int をそのまま使うように変更しています。
