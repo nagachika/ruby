@@ -1,0 +1,2 @@
+Test::Unit で --job-status に replace 以外を指定した時に余分な表示が出力される
+のを抑制しています。
