@@ -1,0 +1,4 @@
+Date/DateTime の内部表現に使っている構造体 SimpleDateData の sg というメンバの
+型を float と double に切り替えるための USE_FLOAT というマクロを定義して条件コ
+ンパイルしていたのを date_sg_t というマクロを定義して、単にこれを float として
+定義するか double として定義するかで分けるようにしています。
