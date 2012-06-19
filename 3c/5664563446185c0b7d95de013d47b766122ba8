@@ -1,0 +1,2 @@
+thread_win32.c で USE_WIN32_MUTEX が真の時の return の不在や引数の間違いなどの
+バグを修正しています。
