@@ -1,0 +1,2 @@
+API テスト用の拡張ライブラリ ext/-test-/exception/enc_raise.c の例外を発生させ
+た場所に UNREACHABLE の指定を追加しています。
