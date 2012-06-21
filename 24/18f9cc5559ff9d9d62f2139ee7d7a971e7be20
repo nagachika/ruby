@@ -1,0 +1,3 @@
+readline の pre_input_hook と insert_text を使ったテストを Readline 4.3 ではス
+キップするようにしています。 Readline 本体の不具合もしくは仕様の変化のためのよ
+うです。 [ruby-dev:45620] [Feature #5785]
