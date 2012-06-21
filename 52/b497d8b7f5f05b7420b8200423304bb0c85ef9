@@ -1,0 +1,7 @@
+Process.spawn のコマンド解析時に NUM2MODET() を呼ぶと、Ruby のメソッドが呼ばれ
+る可能性があるので signal-async-safe でなくなるので FIX2LONG() に置き換えて、
+STATIC_ASSERT というマクロを利用して long と mode_t のサイズが同じことをチェッ
+クするようにしています。 STATIC_ASSERT() は sizeof(long) と sizeof(mode_t)の比
+較結果を使って不一致だと負の数値になるようにして配列サイズに利用することでコン
+パイルエラーを引き起こそうとしています。
+マイナーなコンパイラでこの部分がコンパイル通らなくなりそうな……。
