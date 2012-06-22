@@ -1,0 +1,2 @@
+Process.exec 等のオプション情報をまとめた struct rb_exec_arg を T_DATA 型のオブ
+ジェクトとしてラップして Ruby のオブジェクトとして扱えるようにしています。
