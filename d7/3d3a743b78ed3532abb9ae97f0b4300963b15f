@@ -1,0 +1,3 @@
+Process.exec や spawn の引数の情報を受け取って環境変数の構築など事前に準備処理
+する rb_execarg_fixup() が struct rb_execarg ではなくそれをラップしたオブジェク
+ト(VALUE 型)を受け取るように引数を変更しています。
