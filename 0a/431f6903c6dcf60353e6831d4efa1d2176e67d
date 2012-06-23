@@ -1,0 +1,2 @@
+process.c の rb_exec_fillarg() も引数に struct rb_execarg ではなくてそれをくる
+んだオブジェクトを渡すように変更しています。
