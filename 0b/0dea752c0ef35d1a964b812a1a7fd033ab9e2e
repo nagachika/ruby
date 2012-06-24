@@ -1,0 +1,3 @@
+Random#marshal_load で先程追加した rb_check_copyable() を使って freeze していな
+いかとコピー元が汚染されていないかをチェックすることで、marshal_load で freeze
+したオブジェクトが変更できてしまう不具合に対策しています。 [Bug #6540]
