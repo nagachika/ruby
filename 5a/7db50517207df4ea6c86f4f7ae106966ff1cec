@@ -1,0 +1,2 @@
+.gdbinit で Ruby のデバッグ用のコマンド rp (VALUE の中身を認識して表示してくれ
+るコマンド)で struct RClass の時に表示する内容を増やしています。
