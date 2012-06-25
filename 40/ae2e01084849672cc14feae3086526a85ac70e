@@ -1,0 +1,2 @@
+exec や spawn のオプションの unsetenv_others の情報を配列に格納していたのを
+struct rb_execarg に直接格納するようにするリファクタリングをしています。
