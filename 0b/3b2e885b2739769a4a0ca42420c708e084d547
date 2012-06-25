@@ -1,0 +1,2 @@
+Complex と Rational の freeze したオブジェクトの marshal_load で内容を上書きで
+きないことをチェックするテストがコメントアウトされていたのを戻しています。
