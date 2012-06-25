@@ -1,0 +1,2 @@
+exec/spawn の環境変数の引数の情報を struct rb_execarg に格納するようにしていま
+す。これも Array オブジェクトで保持しています。
