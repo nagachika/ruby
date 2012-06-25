@@ -1,0 +1,4 @@
+これまた同じく exec/spawn の chdir オプションの情報を struct rb_execarg に格納
+するように変更しています。 VALUE 型(String のオブジェクト)で持っていますね。文
+字列を取り出す時に signal-async-safe じゃない関数を使ったりしないので参照するだ
+けのものは別にいいのか。
