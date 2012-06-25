@@ -1,0 +1,3 @@
+exec/spawn のオプション new_pgroup の情報を struct rb_execarg に直接保持するよ
+うにしています。これで eargp->options に格納されるオプションはなくなったようで
+す。お疲れさまでした。
