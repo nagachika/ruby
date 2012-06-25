@@ -1,0 +1,2 @@
+またまた同じく exec/spawn の rlimit_??? のオプションの情報を struct rb_execarg
+に直接格納するようにしています。 Array オブジェクトで(VALUE 型)保持しています。
