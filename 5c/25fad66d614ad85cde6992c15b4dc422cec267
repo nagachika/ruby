@@ -1,0 +1,2 @@
+process.c と io.c で struct rb_execarg のポインタの変数を sargp という名称に揃
+えています。 eargp との使い分けはどういう基準なんでしょうか。
