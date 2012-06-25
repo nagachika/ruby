@@ -1,0 +1,2 @@
+同じく、exec/spawn のオプション close_others を struct rb_execarg に格納するよ
+うにしています。
