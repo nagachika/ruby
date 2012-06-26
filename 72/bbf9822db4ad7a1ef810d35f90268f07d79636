@@ -1,0 +1,2 @@
+昨日の一連のリファクタリングで不要になった struct rb_execarg の options メンバ
+を削除しています。
