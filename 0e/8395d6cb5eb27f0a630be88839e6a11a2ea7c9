@@ -1,0 +1,3 @@
+struct rb_execarg で pid_t を使っていたところを rb_pid_t という型を使うようにし
+ています。 rb_pid_t は Windows 環境でも使えるように定義されている代替の型だそう
+です。
