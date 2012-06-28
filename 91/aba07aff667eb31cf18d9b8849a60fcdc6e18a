@@ -1,0 +1,5 @@
+pthread 版の thread 実装で USE_THREAD_CHECK というマクロが指定されていたら、
+Ruby の Thread の終了時に一度起動した pthread のスレッドを止めずに別の Ruby の
+Thread の実行(別の rb_thread_t)に使い回すという実装があるのですが(デフォルト
+off)、ここに malloc(3) の返り値をチェックしていない部分があったので修正していま
+す。 [ruby-core:43960] [Bug #6235]
