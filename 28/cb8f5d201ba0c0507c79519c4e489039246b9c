@@ -1,0 +1,3 @@
+Module#prepend の追加により T_CLASS 型のオブジェクトで m_tbl が NULL の場合があ
+りえるようになったため、拡張ライブラリ objspace で ObjectSpace に追加される
+memsize_of で SEGV が発生していたので NULL チェックを追加しています。
