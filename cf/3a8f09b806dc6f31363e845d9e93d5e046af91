@@ -1,0 +1,13 @@
+Module#prepend で別のモジュール M1 を include しているモジュール M2 を Mix-in
+(と言うのでしょうか?)した時に M2 のメソッドだけ取り込まれて M1 のメソッドが取り
+込まれない、つまり継承関係のリストに M1(の IClass) が入らないので、prepend と同
+時に対象のモジュールの継承関係の親も辿って全て include するように(Module#
+include と同様に)処理するようにしています。[ruby-core:45914] [Bug #6654]
+ここの修正の影響かどうか未確認ですが、Module#prepend すると Module#ancestors に
+なぜか Class が入り込むようです。 include だと入らないので意図的ではないような
+気がします。また ancestors で入るだけで Object#is_a? の判定やメソッドの呼び出し
+ができてしまったりはしないようです。 [Bug #6658]
+module M; end
+class C; prepend M; end
+C.ancestors # => [C, M, Class, Object, Kernel, BasicObject]
+C.new.is_a?(Class) # => false
