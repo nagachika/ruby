@@ -1,0 +1,6 @@
+Module#prepend を使った Module/Class に対して instance_methods(false) と
+superclass などを辿らずにインスタンスメソッドを取得しようとすると常に空配列が帰
+ってきてしまう不具合を修正しています。メソッドテーブルが RCLASS_ORIGIN() が指し
+ている IClass に移動してしまっているので、引数が false で親を辿る必要がない時は
+そこから探索するようにしています。 [ruby-dev:45863] [Bug #6660]
+しかしチケットにも書きましたがこれだとまだ不十分なケースがあるかも。
