@@ -1,0 +1,10 @@
+Module#prepend した Class/Module に対して ancestors メソッドを呼ぶと
+  • 順番が include と同じで prepend した Class/Module → prepend に渡された
+    Module の順番になる
+  • Class というのが入りこむ
+という問題の対処をしています。よく読まずに重複だと思ってしまいましたが、厳密に
+はちょっと違う内容でしたね。 [ruby-core:45919] [Bug #6658] [ruby-dev:45861]
+[Bug #6659]
+しかしまだ superclass や include したモジュールなど継承ツリー上の上流に prepend
+した Class/Module があった時には同じような問題が残っているようです。
+[ruby-dev:45868] [Bug #6662]
