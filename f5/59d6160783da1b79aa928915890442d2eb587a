@@ -1,0 +1,3 @@
+exec/spawn のオプション :close_others の rdoc に close-on-exec がセットされてい
+る file descriptor はこのオプションに依らず exec 時に close される旨追記してい
+ます。
