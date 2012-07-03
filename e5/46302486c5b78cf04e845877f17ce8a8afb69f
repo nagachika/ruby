@@ -1,0 +1,3 @@
+ブロックの中で return 文を使った時にそのブロックを呼び出すメソッド(とは限らない
+かも)の ensure 節で Proc.new されていると `unexpected return' と例外になってし
+まうバグを KNOWNBUGS.rb に追加しています。 [ruby-dev:45656] [Bug #6460]
