@@ -1,0 +1,8 @@
+先週 Module#prepend が追加されたのですが、Module#ancestors が返すクラス/モジュ
+ール順序や Class が挿入されたりする不具合を修正するため、prepend した時にクラス
+のメソッドテーブルを移す IClass の klass を元のクラスオブジェクトを指すようにし
+て、また prepend と include を併用した時に include したモジュールが挿入される位
+置などを修正しています。 [ruby-dev:45868] [Bug #6662]
+prepend したクラスの構造は元々のクラスの RCLASS_ORIGIN() がメソッドテーブルを移
+植した IClass を指して、その IClass の basic.klass が元々のクラスを指すという相
+互参照ができています。
