@@ -1,0 +1,3 @@
+Time の localtime や strftime などで値のチェックに使う timew_out_of_timet_range
+() という関数に sizeof(time_t) と sizeof(int64_t) が一致している場合の最適化処
+理を入れています。
