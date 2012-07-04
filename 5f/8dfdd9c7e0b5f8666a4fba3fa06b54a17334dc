@@ -1,0 +1,2 @@
+r36266 の struct RClass の構造の追加に .gdbinit を追随させて、gdb で情報を表示
+するようにしています。
