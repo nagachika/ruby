@@ -1,0 +1,3 @@
+CALC_EXACT_MALLOC_SIZE を真に定義している時に ruby_xmalloc() などで確保したメモ
+リサイズを記録するようにしているのですが、vm_xrealloc() で realloc(3) する時に
+確保量の更新が間違っていたのを修正しています。
