@@ -1,0 +1,2 @@
+object.c の ???_methods 系のメソッドの rb_define_method() に rdoc 用に class.c
+で定義されている旨のコメントを追記しています。 [ruby-core:45944] [Bug #6666]
