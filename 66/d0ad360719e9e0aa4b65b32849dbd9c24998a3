@@ -1,0 +1,2 @@
+lib/test/unit/parallel.rb で Test::Unit::TestCase#on_parallel_worker? を定義す
+る前に再定義の警告を抑制するために undef するようにしています。
