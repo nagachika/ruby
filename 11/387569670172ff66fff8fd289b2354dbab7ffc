@@ -1,0 +1,3 @@
+拡張ライブラリ zlib でバッファの String オブジェクトに tainted フラグをつける処
+理を zstream_detach_buffer() という共通して通る関数内に移動するリファクタリング
+です。
