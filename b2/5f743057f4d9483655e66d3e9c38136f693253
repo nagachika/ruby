@@ -1,0 +1,2 @@
+lib/cgi/core.rb, html.rb の rdoc 用コメントの typo 修正など。 [ruby-core:45792]
+[Bug #6632]
