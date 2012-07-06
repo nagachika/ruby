@@ -1,0 +1,2 @@
+gc.c から ATOMIC_SIZE_??? のマクロ群を atomic.h に移動しています。
+[ruby-dev:45909]
