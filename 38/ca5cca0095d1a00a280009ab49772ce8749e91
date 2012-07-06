@@ -1,0 +1,2 @@
+gc.c に追加された ATOMIC_SIZE_??? の 64bit 版 Windows での不具合修正をしていま
+す。
