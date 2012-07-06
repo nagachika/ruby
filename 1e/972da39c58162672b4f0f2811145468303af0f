@@ -1,0 +1,2 @@
+r36284 で gc.c に追加されていた ATOMIC_SIZE_EXCHANGE の Solaris 版の実装の関数
+名を修正しています。 [ruby-dev:45904] [Bug #6689]
