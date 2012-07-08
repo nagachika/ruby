@@ -1,0 +1,2 @@
+test/ruby/test_basicinstructions.rb の正規表現のテストで無意味な assertion があ
+ったのを修正しています。
