@@ -1,0 +1,2 @@
+r36349 の streaming 版 Zlib::Inflate#inflate を revert しています。ブロック呼び
+出し時に GVL 再獲得していなかったようです。
