@@ -1,0 +1,10 @@
+rb_thread_blocking_region() という API は戻り値が VALUE なのですが、この関数は
+GVL を解放してその間に blocking な処理をするものなので、通常 Ruby のコードを実
+行することができないため VALUE 型のオブジェクトを返すことはなく、実際に使ってい
+るところでも別の型を VALUE にキャストしてやりとりしていて無意味であったので、
+rb_thread_call_without_gvl() という API を公開して、拡張ライブラリ等でこちらを
+利用するようにリファクタリングしています。また thread 関係の定義をまとめる
+include/ruby/thread.h というヘッダファイルを追加しています。拡張ライブラリを書
+いている人はこのヘッダの有無をチェックする必要があるのですね。ruby.h か
+intern.h から include してしまってもいいのではないかと思いますが。
+[ruby-core:34888] [Feature #4328] [ruby-core:40648] [Feature #5543]
