@@ -1,0 +1,3 @@
+configure のオプションに --enable-shared を指定した時に enc/encinit.o を
+EXTSOLIBS に入れていたのを DLDOBJS に入れるように変更しています。拡張ライブラリ
+ではなくて本体のほうの共有ライブラリに入れるようにしているのだと思いす。
