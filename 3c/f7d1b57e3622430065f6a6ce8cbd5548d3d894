@@ -1,0 +1,6 @@
+拡張ライブラリ zlib の Zlib::Inflate と Zlib::Deflate にブロックを渡して
+streaming で少しずつ解凍/圧縮データを受け取れる機能を追加しています。
+[ruby-core:45724] [Feature #6612]
+今度はバッファが足りなくなって拡張する時に rb_thread_call_with_gvl() つきで処理
+を呼ぶようになっています。
+参考URL: http://blog.segment7.net/2012/07/10/streaming-zlib-processing-for-ruby
