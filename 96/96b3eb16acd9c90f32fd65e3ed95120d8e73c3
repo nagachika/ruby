@@ -1,0 +1,4 @@
+minitest 3.2.0 をマージしています。MiniTest::Mock#call というメソッドを __call
+に改名しています。また MiniTest::Unit#out という deprecated だったメソッドを削
+除しています。かわりに output を使うようです。あと RUBY_VERSION が 1.9 以上の時
+という分岐を削っているところを見ると 1.8 対応をやめているようです。
