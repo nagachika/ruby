@@ -1,0 +1,2 @@
+lib/test/unit.rb で @options[:job_status] のセットしている不要な行を削除してい
+ます。ここに入ってくる時には初期化済みのはず。
