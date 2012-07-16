@@ -1,0 +1,3 @@
+Test::Unit::Runner#_run_parallel で後始末の不要な初期化処理を begin 節の中から
+その前に移動しています。 ChangeLog のエントリがこの変更だけじゃないみたいですね
+。
