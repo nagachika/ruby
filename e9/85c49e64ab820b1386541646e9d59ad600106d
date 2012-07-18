@@ -1,0 +1,2 @@
+Readline.get_completion_append_character の rdoc 用コメントにデフォルトの単語区
+切りとなる文字種の説明で空白文字が抜けていたのを修正しています。
