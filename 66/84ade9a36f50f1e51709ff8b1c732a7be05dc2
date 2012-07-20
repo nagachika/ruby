@@ -1,0 +1,2 @@
+configure に AIX, BeOS, Haiku などでの ruby.pc (pkg-conf 用の設定ファイル)の出
+力についての修正のようです。
