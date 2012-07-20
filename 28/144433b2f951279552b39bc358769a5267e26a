@@ -1,0 +1,10 @@
+Thread#raise や Thread#kill など外部から Thread へ割り込みをかけた時に例外など
+を格納するのに使っていた rb_thread_t::thrown_errinfo を削除し、かわりに queue
+として扱われる async_errinfo_queue というメンバを追加しています。割り込みする時
+には async_errinfo_queue へ enque して、逐次処理されるようにしています。また
+rb_thread_io_blocking_region() で呼び出す関数から例外など大域脱出で抜けてくるこ
+とを想定して TH_TAG_PUSH() しておいて rb_thread_t::waiting_fd をリセットする後
+始末処理を確実に実行するように修正しています。
+async_errinfo_queue のために Array オブジェクトを生成しているところは
+ObjectSpace で見えないように rb_ary_tmp_new() を使ったほうが良いのではないでし
+ょうか?
