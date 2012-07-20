@@ -1,0 +1,2 @@
+test/ruby/test_autoload.rb のテストで Tempfile を利用しているところは積極的に一
+時ファイルを削除するようにしています。
