@@ -1,0 +1,1 @@
+thread_pthread.c で #ifdef のかわりに #if を使っていた部分を修正しました。
