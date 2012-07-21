@@ -1,0 +1,3 @@
+Net::HTTP の local_host, local_port 指定のテストでテスト用に立てるサーバのアド
+レスを "localhost" として起動することで IPv6 しか使えない環境でもテスト通るよう
+にしています。 [ruby-dev:45974] [Bug #6746]
