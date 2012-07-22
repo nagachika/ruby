@@ -1,0 +1,4 @@
+socket の udp のテストで IPv6 の UDP ソケットの bind が動作しないという問題があ
+り iCloud を有効にすると unique local address になるというのを検出してスキップ
+できるようにするために、Addrinfo#ipv6_unique_local? というメソッドを追加してい
+ます。 [ruby-core:46159] [Bug #6692]
