@@ -1,0 +1,2 @@
+で r36474 で追加した Addrinfo#ipv6_unique_local? を使ってエラーになるテストを
+skip するようにしています。
