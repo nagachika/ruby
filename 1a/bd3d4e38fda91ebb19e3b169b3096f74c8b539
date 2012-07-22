@@ -1,0 +1,4 @@
+Array#sample や Array#shuffle で乱数エンジンが rand を無引数で呼んだ時に 0.0 <=
+x < 1.0 の範囲外の値を返した時に発生させる例外(RangeError)のメッセージが常に
+"random number too big" だったので、負の値の時は "random number too small" にす
+るようにしています。
