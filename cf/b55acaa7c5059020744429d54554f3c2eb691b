@@ -1,0 +1,2 @@
+test/ruby/test_array.rb で assert に演算結果を渡しているところを assert_send や
+assert_operator などを使ってより良いエラーメッセージが出るようにしています。
