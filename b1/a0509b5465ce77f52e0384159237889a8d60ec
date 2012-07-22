@@ -1,0 +1,4 @@
+Net::HTTP でリクエストの Accept-Encoding ヘッダにデフォルトで gzip, deflate を
+付けるようにして、受信したレスポンスが gzip, deflate だった時に Net::HTTP で自
+動的に解凍して解凍結果のレスポンスを返してくれるようにしています。
+[ruby-core:45222] [Feature #6942] [ruby-core:45224] [Feature #6944]
