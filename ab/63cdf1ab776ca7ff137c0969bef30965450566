@@ -1,0 +1,5 @@
+r36417 で open-uri が Tempfile を使っている時に close! を使って積極的に一時ファ
+イルを閉じるようにしていたのですが、open-uri.rb が tempfile.rb を require して
+いなかったために定数 Tempfile が未定義のまま利用しようとしてしまう可能性があっ
+たので、is_a? で判定するのではなく respond_to? で close! が呼べればそちらを呼ぶ
+ようにしています。 [ruby-dev:45995] [Bug #6781]
