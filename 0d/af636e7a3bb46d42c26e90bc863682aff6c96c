@@ -1,0 +1,4 @@
+r36519 で test/ruby/test_dir_m17n.rb でファイルシステムエンコーディングが US-
+ASCII か ASCII-8BIT だったら変換しないようにしていましたが、常に変換はするよう
+にしています。force_encoding をやめて String#encode の第2引数で変換元エンコーデ
+ィングを指定するようにするという変更だけ残しています。
