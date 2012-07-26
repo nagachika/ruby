@@ -1,0 +1,3 @@
+test/ruby/test_dir_m17n.rb で ASCII-8BIT の文字列をファイルシステムエンコーディ
+ングに変換しようとしていたのですがこれは常に失敗するということで一旦
+force_encoding で EUC-JP にしてから変換するようにしています。
