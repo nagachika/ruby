@@ -1,0 +1,3 @@
+Win32OLE のテストで Windows の 64bit 環境の検出方法が間違っていたのを修正してい
+ます。 RUBY_PLATFORM をmingw64 じゃなくて x64-mingw で判定するようにしています
+。 [ruby-core:46651] [Bug #6782]
