@@ -1,0 +1,4 @@
+AIX、BeOS などの環境でビルドするために EXTDLDFLAGS を DLDFLAGS に含めるようにし
+ています。また r36338 で公開シンボルの prefix に対応して拡張ライブラリのエント
+リポイントの関数名を TARGET_ENTRY として設定する処理を enc/Makefile.in に追加し
+ています。 [ruby-core:46600] [Bug #6768]
