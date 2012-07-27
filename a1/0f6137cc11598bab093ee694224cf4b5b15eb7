@@ -1,0 +1,3 @@
+Regexp.last_match の rdoc のマークアップの修正と、$~ という変数について単に
+global variable と書かれていたのを special global variable と書き直しています。
+[ruby-core:46335] [Bug #6723]
