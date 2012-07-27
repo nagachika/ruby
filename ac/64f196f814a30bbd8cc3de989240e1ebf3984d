@@ -1,0 +1,3 @@
+atomic.h で ATOMIC_XXX な処理のマクロの定義を条件コンパイルで分岐する際に
+HAVE_GCC_ATOMIC_BUILTINS の条件を _WIN32 をより前にもってきています。 MinGW の
+時に(?) gcc の機能のほうを利用したいということみたいです。
