@@ -1,0 +1,3 @@
+Complex と Rational の 1.8 系の Marshal.dump の形式を load できるように
+rb_marshal_define_compat() を使って互換性を確保しています。 [ruby-core:45775]
+[Bug #6625]
