@@ -1,0 +1,5 @@
+Rational, Complex で freeze したオブジェクトを marshal_load を直接呼ぶことで書
+き換えることができてしまうのを修正した時に追加したテストが
+assert_not_respond_to で marshal_load が呼べないという確認方法になっていたので
+すが、これを実際に marshal_load を呼んでみて変更できないとを確認する方法に変更
+しています。
