@@ -1,0 +1,4 @@
+r36430 で th->async_errinfo_queue や th->async_errinfo_mask_stack などに Array
+を使うようになったのですが、これの RBasic(x)->klass を 0 にして(rb_ary_tmp_new
+() を使って)内部オブジェクトとして ObjectSpace.each_object で取り出せないように
+しています。
