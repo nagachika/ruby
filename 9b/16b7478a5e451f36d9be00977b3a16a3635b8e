@@ -1,0 +1,3 @@
+Net::HTTP の SSL セッション再利用のテストで "localhost" を使って接続しようとし
+ているのですが、localhost で接続できない環境もあるのでとりあえず
+SystemCallError を rescue して skip するようにしています。
