@@ -1,0 +1,4 @@
+x64-mingw で共有ライブラリから DllMain() というシンボルを export していたために
+衝突が生じて拡張ライブラリのロードに失敗していたので DllMain は export しないよ
+うに win32/mkexports.rb というツールを修正しています。 [ruby-core:46743] [Bug #
+6790]
