@@ -1,0 +1,4 @@
+x86_64-w64-mingw32 (すごいプラットフォーム名ですね)で gmtime_s() と localtime_s
+() として _gmtime64_s()/_localtime64_s() を利用するようにしています。
+FileTimeToSystemTime() に不具合があって Time.at がオーバフローしてしまうようで
+す。 [ruby-core:46780] [Bug #6794]
