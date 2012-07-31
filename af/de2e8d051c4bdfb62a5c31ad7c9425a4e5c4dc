@@ -1,0 +1,5 @@
+r36539 で th->async_errinfo_queue_checked と th->async_errinfo_mask_stack を
+ObjectSpace から見えないように klass = 0 にする(rb_ary_tmp_new() を使う)ように
+したのですが、rb_ary_dup() の後で klass = 0 しようとしていたつもりがなぜか
+rb_ary_tmp_new() の後でクリア(重複しているので不要)していたのでそれを削除してい
+ます。
