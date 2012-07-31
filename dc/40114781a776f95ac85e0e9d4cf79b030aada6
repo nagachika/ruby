@@ -1,0 +1,4 @@
+拡張ライブラリ socket で Windows 環境では inet_ntop() のかわりに
+rb_w32_inet_ntop() を利用するようにマクロを定義しています。HAVE_ARPA_INET_H が
+未定義の時に宣言を追加していたのを削除しているのは元々 Windows 環境向けだったと
+いうことでしょうか。
