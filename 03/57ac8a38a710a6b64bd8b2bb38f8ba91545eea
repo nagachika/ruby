@@ -1,0 +1,3 @@
+lib/rubygems/platform.rb でのプラットフォームの解析でも同じように x86_64-netbsd
+??? のような表記に対応するように RUBY_PLATFORM を検査する正規表現を修正していま
+す。
