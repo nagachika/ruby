@@ -1,0 +1,5 @@
+configure に enable-shared が指定された時に LIBRUBY_RELATIVE=no の設定をしてい
+ます。 load-relative が可能な時は実行するためにフルパスの指定が不要なので make
+runnable で作るリンクに影響させているのではないかと思うのですが、そうだとすると
+enable-shared=yes の時は LIBRUBY_RELATIVE=${load_relative} なんじゃないのかと思
+うのですが。あまり自信ないです。
