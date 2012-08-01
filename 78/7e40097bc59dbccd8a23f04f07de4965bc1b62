@@ -1,0 +1,3 @@
+Process.daemon のスレッド数を検出するために /proc/self/task を利用しているテス
+トで NetBSD では /proc/self/task はあるものの期待した動作をしないみたいでこのテ
+ストを省略するようにしています。
