@@ -1,0 +1,2 @@
+r36507 で Time#sec の rdoc に追記したうるう秒の記述を削除して Wikipedia へのリ
+ンクをはるようにしています。 [ruby-core:46535] [Bug #6749]
