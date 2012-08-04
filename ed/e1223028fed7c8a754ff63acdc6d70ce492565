@@ -1,0 +1,2 @@
+Module#refine の rdoc について、戻り値が self と表記されていましたが生成した
+Module を返すと修正しています。
