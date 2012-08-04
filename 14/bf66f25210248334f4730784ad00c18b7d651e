@@ -1,0 +1,4 @@
+Mac OS X でコンパイラを clang, gcc, cc の順に選択するようにしています。最新の
+Xcode だと gcc は llvm-gcc になっていてこれの最適化が不具合を引き起こすので非推
+奨になっています。これで configure --with-gcc=clang としなくてもよくなりそうで
+すね。 [ruby-core:46888] [Bug #6816]
