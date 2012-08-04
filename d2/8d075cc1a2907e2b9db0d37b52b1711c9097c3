@@ -1,0 +1,2 @@
+string.c, vm_insnhelper.c, vm_method.c で TYPE() マクロを利用していた部分を
+RB_TYPE_P() と BUILTIN_TYPE() を利用するように変更しています。
