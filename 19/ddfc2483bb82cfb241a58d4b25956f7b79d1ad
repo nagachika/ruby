@@ -1,0 +1,26 @@
+Refinement の機能がコミットされました!
+Refinement は Module/Class のメソッドの再定義を影響範囲を限定して行なうことがで
+きるようにする機能です。 Module#refine というメソッドのブロックで再定義して
+class C
+  def m1
+    :M
+  end
+end
+module M_ex
+  refine C do
+    def m1
+      :M_ex
+    end
+  end
+end
+そのモジュールを Module#using で取り込むとその Module 内だけで再定義が有効にな
+ります。
+class A
+  C.new.m1 # => :M
+end
+class B
+  using M_ex
+  C.new.m1 # => :M_ex
+end
+今日はとりあえずさわりの紹介だけ。詳しい仕様や実装の確認もそのうちしたいですね
+。
