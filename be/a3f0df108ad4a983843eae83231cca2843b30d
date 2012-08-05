@@ -1,0 +1,3 @@
+configure で clang を優先するようにするのは target_os と host_os がどちらも
+darwin の時、つまり Mac OS X 上で Mac OS X 向けのビルドをする時にしています。ク
+ロスコンパイルする場合のことを考慮しているようです。
