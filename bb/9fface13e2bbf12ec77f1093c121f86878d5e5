@@ -1,0 +1,3 @@
+.travis.yml に TravisCI でビルド/テスト失敗した時に IRC に通知する設定を追加し
+ています。 irc.freenode.org の #ruby-core と #ruby-ja に通知するようにしていま
+す。
