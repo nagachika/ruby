@@ -1,0 +1,3 @@
+r36603 の configure.in の変更は再度入れて、さらに AC_PROG_CC を AS_CASE の中で
+使うのはやめて、変数に候補を格納するのを AS_CASE でやっておいてその後で
+AC_PROG_CC を呼ぶように変更しています。 [Bug #6816]
