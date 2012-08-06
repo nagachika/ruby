@@ -1,0 +1,22 @@
+Module のメソッドが alias されている場合の super の挙動についてのテストを追加し
+ています。なるほど、こういうケースは alias 元のメソッドの super が呼ばれるんで
+すね。そりゃまあそうか……。 [ruby-dev:46028]
+class Base
+  def m1
+    p :m1
+  end
+  def m2
+    p :m2
+  end
+end
+module M
+  def m1
+    p :M_m1
+    super
+  end
+  alias m2 m1
+end
+class C < Base
+  include M
+end
+C.new.m2 # => :M_m1 :m1
