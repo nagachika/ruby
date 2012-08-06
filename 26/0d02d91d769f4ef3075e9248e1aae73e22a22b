@@ -1,0 +1,5 @@
+vm_search_normal_superclass() というレシーバとクラスを渡して super で辿るべき親
+クラス(Module の IClass)を探すときに Module の IClass が挿入されている場所を探
+す処理(これが receiver のクラスから遡って探すだけだったので同じモジュールが重複
+して ancestors に入っていると無限ループの元になっていた)はもう不要になったので
+recv 引数ごと削除しています。
