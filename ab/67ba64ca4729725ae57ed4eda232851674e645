@@ -1,0 +1,2 @@
+DateTime の strftime の rdoc で %Q について microsecond と表記していたのを
+millisecond に修正しています。 [ruby-core:46990] [Bug #6835]
