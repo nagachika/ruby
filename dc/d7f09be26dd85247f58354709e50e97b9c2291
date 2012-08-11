@@ -1,0 +1,8 @@
+Windows 環境で File#stat のために FindFirstFileW() という API を使っていたのを
+GetFileAttributeExW() を先に利用するようにしてパフォーマンス改善しています。
+GetFileAttributeExW() はより高速な代わりにシステムファイル(*.sys)等に対して利用
+するとエラーを返すことがあるらしいのですが、そういう時は FindFirstFileW() を利
+用する方法に fallback することでエラーを起こさず、たいていの場合はより高速にで
+きるようにしているようです。チケットに詳しく方針が書かれています。 require の
+Windows での処理高速化のための修正だそうです。 [ruby-core:47083] [Feature #
+6845]
