@@ -1,0 +1,6 @@
+OpenSSL の OpenSSL::Config::DEFAULT_CONFIG_FILE で返ってくる openssl.conf のパ
+スが OpenSSL 内で固定値が書かれていて Mac OS X 上で homebrew を使ってインストー
+ルした openssl パッケージを使ってビルドしていたり、Windows 環境でファイルパスが
+異なるためテストに失敗することがあるため、RUBY_PLATFORM を見てテストを skip す
+るようにしています。 Mac OS X に同梱の OpenSSL では独自のパスを返すようにパッチ
+が当てられているようですね。 [ruby-core:46974] [Bug #6830]
