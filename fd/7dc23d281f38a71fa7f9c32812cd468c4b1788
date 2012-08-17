@@ -1,0 +1,3 @@
+inspect の変更(to_s を呼ばなくなる)と PP の追随する修正を再度入れています。今度
+は NEWS ファイルの記述追加と test/drb/test_drb.rb の修正も一緒です。
+[ruby-core:43238] [Feature #6130] [ruby-core:47182] [Bug #6866]
