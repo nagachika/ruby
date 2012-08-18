@@ -1,0 +1,18 @@
+set_trace_func/add_trace_func による trace_func の管理方法の変更です。コミット
+ログによると……
+ 1. rb_hook_list_t という型を導入して RubyVM や Thread 毎の trace_func を管理す
+    るようにした。実体は rb_event_hook_t にあってフラグだけ管理している。また削
+    除はすぐにリストから外さずに clean_flag だけ立てておいて trace_func 実行前
+    に掃除するようにしている。
+ 2. チェック方法を変更した。詳しくは vm_core.h の EXEC_EVENT_HOOK() をみてね。
+      □ ではあんまりなんでみてみると、Thread 毎のフラグと RubyVM 毎(全体)のフラ
+        グを OR しておくグローバル変数を持っておいてそれをチェックするようにす
+        ることで RUBY_EVENT_VM という不要なフラグを排除しているみたいです
+ 3. "raw" タイプの hook を登録する API を追加した。通常 hook は rb_protect() で
+    大域脱出とか例外があってもいいように保護されて呼ばれるけど、例外などを発生
+    させないとわかっている小さな関数を呼びたい場合にも rb_protect() 経由で呼ば
+    れるとオーバヘッドがあるのでそれを省きたい場合のため。なのだけど、実は今は
+    API があるだけで実際に rb_protect() なしで直接呼ぶようにはなっていない。今
+    後の布石。
+また trace_func で Continuation でコンテキスト切り替えすると trace_func 実行中
+のフラグが消えてしまう不具合修正。 [ruby-core:34998] [Feature #4347]
