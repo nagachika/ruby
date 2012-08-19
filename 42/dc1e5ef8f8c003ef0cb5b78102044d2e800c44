@@ -1,0 +1,2 @@
+id.c の依存関係から vm_opts.h を削除しています。 SUPPORT_JOKE というマクロのた
+めに #include していたのですが #if を削除して #include をやめています。
