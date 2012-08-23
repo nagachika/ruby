@@ -1,0 +1,4 @@
+Test::Unit の並列実行時に worker で発生した例外を ProxyError という例外にすりか
+えて master に渡すことで master で定義されていない例外が worker で発生した時に
+Marshal.load で復元できなきてエラーになるのを回避するようにしています。
+[ruby-dev:46054] [Bug #6882]
