@@ -1,0 +1,3 @@
+configure.in の型のサイズをチェックして SIZEOF_XXX を定義する処理を書き換えてい
+ます。 case 文を使っていたのをシンプルな test に書き換えたらしい。うーん
+autoconf 難しい。
