@@ -1,0 +1,2 @@
+r36765 で rubygems のテストで YAML::ENGINE に psych を指定するようにしていまし
+たが lib/rubygems/test_case.rb に移動しています。
