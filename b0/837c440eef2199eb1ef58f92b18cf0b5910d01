@@ -1,0 +1,4 @@
+lib/net/http/response.rb で未使用のローカル変数の警告が出ていたので変数への代入
+を削除、また iseq のテストでもコンパイルする文字列が未使用のローカル変数があっ
+たので修正。また rubygems のテストで YAML::ENGINE.yamler に psych を指定するよ
+うにしています。
