@@ -1,0 +1,2 @@
+NativeClient 版が require のサーチバスを x86_64 版決め打ちで作っていたのを修正
+しています。 [ruby-dev:46049] [Bugs #6873]
