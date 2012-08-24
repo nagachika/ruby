@@ -1,0 +1,2 @@
+.travis.yml の makeオプションからデバッグ用にさらに -s (--silent, --quiet) を削
+除しています。
