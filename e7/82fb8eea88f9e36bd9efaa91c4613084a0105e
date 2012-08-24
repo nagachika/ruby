@@ -1,0 +1,1 @@
+vm_backtrace.o と nkf, ripper の依存関係が不足していたのを追加しています。
