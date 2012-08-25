@@ -1,0 +1,2 @@
+win32/configure.bat に --with[out]-ext[ensions] というオプションに対応するよう
+にしています。
