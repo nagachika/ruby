@@ -1,0 +1,3 @@
+parse.h を parse.y から一旦 parse.h.new に生成してから変更があったら rename し
+ていたのを、直に出力するようにしています。parse.y が変更されたら parse.h も更新
+されるようにしています。
