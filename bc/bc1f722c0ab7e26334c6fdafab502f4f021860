@@ -1,0 +1,2 @@
+id.h を生成するための ERBテンプレート template/id.h.tmpl の --vpath オプション
+の実装を tool/generic_erb.rb に移動しています。
