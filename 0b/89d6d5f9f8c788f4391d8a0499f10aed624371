@@ -1,0 +1,4 @@
+Float を VALUE 型から double に変換する rb_float_value() で flonum(即値版)の
+VALUE を double に変換する処理でビット反転 + 1bit 左へローテートする処理を 2か
+らの減算におきかえています。 shinichiro さんの指摘により。参考URL: http://
+shinh.skr.jp/m/?date=20120825#p02
