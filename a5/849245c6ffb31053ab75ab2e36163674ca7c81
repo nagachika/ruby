@@ -1,0 +1,4 @@
+Mac OS X で Etc.getgrgid が返すエントリが Etc.group の順番に依存するとは限らな
+いのでどれが返ってきてもいいようにテストを修正しています。 r36625 と同じような
+内容であちらは getpwpid() でこちらは getgrgid() です。 [ruby-core:47312] [Bug #
+6935]
