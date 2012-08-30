@@ -1,0 +1,3 @@
+win32/Makefile.sub に記述されている Makefile 群の依存関係に common.mk を追加し
+ています。 common.mk が変更されたら configure しなおして再度 make するように促
+されます。
