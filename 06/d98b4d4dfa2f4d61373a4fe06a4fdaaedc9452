@@ -1,0 +1,2 @@
+tool/mkrunnable.rb で bin/ および lib/ のパスを決め打ちにしていたのを config の
+bindir, libdir から取得するようにしています。
