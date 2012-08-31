@@ -1,0 +1,2 @@
+addr2line.c に stdint.h の include を追加しています。 32bit FreeBSD で SIZE_MAX
+の定義のために必要だったようです。 [ruby-core:47360] [Bug #6948]
