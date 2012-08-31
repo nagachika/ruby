@@ -1,0 +1,4 @@
+拡張ライブラリ openssl のテストで利用する鍵の鍵長を 1024bit を使うようにしてい
+ます。 FIPS モード(FIPS = "Federal Information Processing Standard" 米国政府が
+定めた連邦情報処理規格。セキュリティ要件が示されている)に従うためとのこと。
+[ruby-core:47326] [Bug #6938]
