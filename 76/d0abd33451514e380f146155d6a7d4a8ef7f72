@@ -1,0 +1,2 @@
+r36849 と同様 open にパイプでコマンドを記述して popen のように使った場合に
+close する時に rb_thread_t::last_status をクリアするようにしています。
