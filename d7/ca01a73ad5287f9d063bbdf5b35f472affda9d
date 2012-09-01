@@ -1,0 +1,3 @@
+BigDecimal#to_f で strtod(3) が errno=ERANGE を返した時にオーバフローのみ想定し
+ていましたが、アンダーフロー時(戻り値に 0 を返して errno=ERANGE が設定される)も
+検出して例外メッセージを変更しています。 [ruby-core:47342] [Bug #6944]
