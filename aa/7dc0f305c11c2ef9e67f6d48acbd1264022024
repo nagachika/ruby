@@ -1,0 +1,3 @@
+標準ライブラリの Set のの比較演算子メソッド <, %gt;, %lt;=, %gt;= を
+proper_subset?, proper_superset?, subset?, superset? の alias として定義するよ
+うにしています。
