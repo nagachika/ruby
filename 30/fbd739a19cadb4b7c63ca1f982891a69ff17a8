@@ -1,0 +1,2 @@
+ext/json/parser.o の依存関係に ${ruby_headers} を追加しています。 rb_float_new
+() の宣言が必要になったためとのこと。
