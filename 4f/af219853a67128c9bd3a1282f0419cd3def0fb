@@ -1,0 +1,2 @@
+vm_trace.c の rb_threadptr_exec_event_hooks() で state という変数が未初期化で利
+用される可能性があったので初期化を追加。
