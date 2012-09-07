@@ -1,0 +1,4 @@
+r36911 で追加した parse.y の警告用マクロ rb_warn4() を rb_warn4S() と改名してい
+ます。末尾の S には引数に文字列を受け取るという意味があるようです。そのため
+Ripper 用のマクロは ripper_warnI() を使っていたのを ripper_warnS() に変更し、さ
+らにコメントアウトされていた ripper_warnS() を復活させています。
