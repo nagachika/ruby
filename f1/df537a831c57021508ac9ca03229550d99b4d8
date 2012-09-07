@@ -1,0 +1,2 @@
+Dir.glob に UTF-16 の文字列を渡した時などのテストを test_dir.rb から
+test_dir_m17n.rb に移動しています。
