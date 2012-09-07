@@ -1,0 +1,2 @@
+file.c の getcwdofdrv() と append_fspath() という関数は既に cygwin 以外で利用さ
+れなくなっていたので #ifndef _WIN32 で括るようにしています。
