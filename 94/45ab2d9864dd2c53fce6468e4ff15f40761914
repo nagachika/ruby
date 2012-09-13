@@ -1,0 +1,3 @@
+mkmf.rb の have_framework (Mac OS X 版 gcc の -framework オプションのチェック)
+で毎回 -ObjC をセットで挿入するのをやめ、最初の1回目だけ -ObjC を追加して
+-framework のみ追加するようにしています。
