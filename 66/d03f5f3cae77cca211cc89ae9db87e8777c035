@@ -1,0 +1,2 @@
+parse.y の gettable_gen() と assignable_gen() で if-else の連続で書かれていた部
+分を switch 文に書き換えています。
