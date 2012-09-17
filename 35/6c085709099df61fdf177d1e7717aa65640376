@@ -1,0 +1,2 @@
+test_parse.rb の eval/instance_eval の第2、3引数に __FILE__, __LINE__+1 を渡す
+ことでエラー時の位置の表示に実際のファイル位置を反映させるようにしています。
