@@ -1,0 +1,3 @@
+configure.in で OS が aix の時に warnflags に -qinfo を負荷するところで追加では
+なく上書きになっていたのを修正しています。また rb_cv_warnflags にも追加するよう
+にしています。
