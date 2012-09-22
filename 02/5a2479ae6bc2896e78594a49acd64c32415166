@@ -1,0 +1,2 @@
+drb/ssl.rb で OpenSSL::SSL::SSLContext の SSLTmpDhCallback オプションのサポート
+を追加しています。 DH 鍵を使えるようにしている模様。
