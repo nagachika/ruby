@@ -1,0 +1,4 @@
+lib/mkmf.rb で $arch_hdrdir を構築する時に $hdrdir をその時点で展開していたのを
+"$(hdrdir)" というマクロ参照のままで作成するようにしています。また Makefile の
+ruby という変数に格納するパスの $(bindir) と一致する部分を $(bindir) という変数
+参照に置換しています。
