@@ -1,0 +1,4 @@
+cygwin 上で cygwin 以外のプラットフォーム向けのクロスコンパイルをする場合に
+cygpath というコマンドを使ったパスの変換を mkintpath メソッドを定義することで利
+用できるようにして、RbConfig::CONFIG の "prefix" がつくパスをこれで変換して定義
+するように Makefile を生成しています。
