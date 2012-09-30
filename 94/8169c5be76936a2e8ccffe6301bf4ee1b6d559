@@ -1,0 +1,3 @@
+Windows 環境で rubygems のテストがファイルパスの大文字小文字区別しないために環
+境変数 PATH のチェックでエラーになっていたので、Windows 環境では rubygems でフ
+ァイルパスを downcase してからチェックするようにしています。 [ruby-core:47711]
