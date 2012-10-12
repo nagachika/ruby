@@ -1,0 +1,6 @@
+drb のテストで起動したプロセスを停止するのに Windows 版では Process.kill に
+:INT を渡すようにしていましたが、これを :KILL に変更しています。 new_pgroup を
+false に指定して起動したプロセスに INT を呼ぶのはWindows 7 では SIGINT が黙って
+失敗し、Windows XP では EINVAL を返すとのこと。 CRuby の Windows 版は SIGINT は
+エミュレートしているので使うとしたら SIGINT ときいたことがあるので少し不思議で
+すね。
