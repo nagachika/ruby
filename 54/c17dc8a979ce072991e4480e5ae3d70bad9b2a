@@ -1,0 +1,4 @@
+Mac OS X にて pthread_get_stack{addr,size}_np() がメインスレッドにおいて ulimit
+の制限値を反映しないデフォルト値を返してしまうので、getrlimit() を用いてスタッ
+クのサイズなどの情報を取得するように条件コンパイルの条件を修正しています。
+[ruby-dev:46174] [Bug #7084]
