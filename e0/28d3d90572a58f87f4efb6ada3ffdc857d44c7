@@ -1,0 +1,6 @@
+refinement で Class/Module を拡張する Module を管理する omod に関する構造体メン
+バ名、関数名を nd_omod -> nd_refinements、rb_overlay_module() ->
+rb_using_refinement()、__overlaid_modules__ -> refinements などと改名しています
+。
+また管理用の Hash を生成する関数名も identity_hash_new() ->
+hidden_identity_hash_new() と改名しています。
