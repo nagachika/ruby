@@ -1,0 +1,6 @@
+直前の r37082 で finalizer_table からの参照を mark する処理は
+rb_objspace_call_finalizer() の冒頭に挿入されましたが、処理の中で mark_tbl() を
+呼んでいるところがあるのでその下に gc_mark_stacked_objects() で参照先全てを
+mark するように呼び出し位置を移動しています。
+うーん、しかし rest_sweep() という呼び出しがあるのですが、この後に移動してしま
+って大丈夫なんでしょうか。
