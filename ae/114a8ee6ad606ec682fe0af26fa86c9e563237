@@ -1,0 +1,2 @@
+template/Doxyfile.tmpl から Doxygen 1.8.2 で obsolete になっている設定を削除し
+ています。
