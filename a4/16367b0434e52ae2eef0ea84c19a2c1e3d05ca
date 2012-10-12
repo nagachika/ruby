@@ -1,0 +1,5 @@
+r37064 で refinement の拡張する Module を管理するための Hash を作る
+identity_hash_new で RBasic::klass を 0 にして ObjectSpace から不可視にするのを
+コメントアウトしていたのを有効にして、Hash を参照する時に rb_hash_aref() ではな
+く rb_hash_lookup() を使うようにしています。 rb_hash_lookup() は要素が存在しな
+かった時に default を呼ばず Qnil を返します。
