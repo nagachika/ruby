@@ -1,0 +1,5 @@
+Module#refinements というメソッドを新設して、Module#refine で拡張している Class
+/Module とその拡張に使われている無名モジュールの対応を Hash にして返すようにし
+ています。拡張される側の Class/Module ではなくて refine を呼んでいる(拡張するが
+わの) Module に対して使えます。また実際に using で拡張を適用していなくても拡張
+対象を調べることができます。
