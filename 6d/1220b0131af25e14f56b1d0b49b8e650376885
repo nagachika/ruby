@@ -1,0 +1,4 @@
+r37051 で test/ruby/test_unicode_escape.rb で LANG=C の時に ruby で出力させるの
+に失敗したので RUBY_PLATFORM で分岐するようにしましたが、ruby の -e オプション
+にマジックコメントも追加してエンコーディングを指定することでプラットフォームに
+依存せずにすむようにしています。 [ruby-core:47709] [Bug #7076]
