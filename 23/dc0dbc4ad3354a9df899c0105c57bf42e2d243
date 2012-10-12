@@ -1,0 +1,5 @@
+VM_COLLECT_USAGE_DETAILS というマクロを非0に定義すると YARV の命令/オペランド/
+レジスタの利用状況を集計する機能を追加しているようです。
+どうも情報の収集自体はこれまでもしていたようで、それを RubyVM::USAGE_ANALYSIS_
+{INSN, INSN_BIGRAM, REGS} といった定数でアクセスできるようにしたということのよ
+うです。
