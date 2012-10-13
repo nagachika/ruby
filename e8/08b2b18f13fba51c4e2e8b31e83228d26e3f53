@@ -1,0 +1,4 @@
+String#each_line や String#codepoints, matal String#split などで使う string.c
+の関数でコンパイラの最適化によりVALUE型の値がマシンスタック/レジスタからなくな
+って GC の mark 漏れが起きる不具合修正。 RB_GC_GUARD() をいくつか追加しています
+。 [ruby-core:47881] [Bug #7135]
