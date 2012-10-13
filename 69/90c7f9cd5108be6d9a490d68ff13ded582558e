@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#disasm で r37121 で追加(インラインキャッシュから分
+離)されたメソッドキャッシュ用の callinfo の出力を追加しています。
