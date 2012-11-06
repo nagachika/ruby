@@ -1,0 +1,4 @@
+File.fnmatch の受け付けるフラグに File::FNM_EXTGLOB というのを追加して "{}" で
+括って複数の文字列をカンマ区切りで列挙する記法にマッチできるように機能追加して
+います。Dir.glob で可能なマッチ方法を File.fnmatch でも使えるようにしています。
+[ruby-core:40037] [Feature #5422]
