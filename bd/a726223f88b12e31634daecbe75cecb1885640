@@ -1,0 +1,2 @@
+r37211 で改名した free_object_aquire() をさらに gc_aquire_free_object() に改名
+しています。
