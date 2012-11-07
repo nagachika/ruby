@@ -1,0 +1,4 @@
+Windows 版の Process.exec や spawn でコマンド実行する時に利用される
+rb_w32_spawn() でシェル(cmd.exe)を経由して実行すべきかどうか判定する
+has_redirection() でメタキャラクタとして判定する文字に "&" を追加しています。
+[ruby-core:47912] [Bug #7143]
