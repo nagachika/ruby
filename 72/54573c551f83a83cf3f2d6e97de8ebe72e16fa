@@ -1,0 +1,4 @@
+configure のオプション --with-opt-dir に $PATH_SEPARATOR で区切って複数のパスを
+渡せるようになっています。おおーこれたまに欲しくなることがあったんですよねー。
+PATH_SEPARATOR は多分 Linux や Mac OS X や *BSD だと ":" で Windows だと ";" で
+はないかと思われます。 [ruby-core:47868] [Bug #7120]
