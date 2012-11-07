@@ -1,0 +1,2 @@
+拡張ライブラリ dl の Windowx 64bit 版でのポインタ型の String#unpack の型指定を
+修正しています。 [ruby-core:47451] [Bug #6990]
