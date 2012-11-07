@@ -1,0 +1,1 @@
+Dir#glob の rdoc のフォーマット修正。 [ruby-core:48528] [Bug #7230]
