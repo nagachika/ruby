@@ -1,0 +1,2 @@
+vm_call_method() でも switch 文のメソッド種別に VM_METHOD_TYPE_UNDEF の case を
+追加して、default ラベルは削除しています。
