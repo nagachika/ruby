@@ -1,0 +1,3 @@
+NEWS ファイルに CGI::Html5 のタグ生成メソッド群の追加と、CGI#header のメソッド
+の変更(元の header は http_header に改名されて header は header タグ生成メソッ
+ドになった)を追記しています。
