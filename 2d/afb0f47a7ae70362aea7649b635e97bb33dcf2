@@ -1,0 +1,2 @@
+標準添付ライブラリ ostruct の OpenStruct#new_ostruct_member を protected に指定
+しています。 [ruby-core:42779] [Feature #6056]
