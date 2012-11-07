@@ -1,0 +1,19 @@
+OPT_CALL_CFUNC_WITHOUT_FRAME というマクロが非0に定義されている時に有効になる
+YARV の最適化が追加されています。デフォルトでは OFF になっています。
+CFUNC のメソッドを呼ぶ時に frame を積まずに rb_call_info_t を
+rb_thread_t::passed_ci に保存しておいて、必要になったら後で
+vm_call_cfunc_push_frame() を呼んで保存しておいた rb_call_info_t の情報で frame
+をつくるようにしています。その「必要になったら」というのは GET_THREAD() マクロ
+が呼ばれた時(に passed_ci に保存されていたら)自動的につくるようにしてあるのです
+が、なんで GET_THREAD() なんでしょう。メソッド呼び出しする時以外でも呼ばれるこ
+とはあると思うのですが。[追記] フレームの情報が欲しい時は cfp を参照するはずで
+、その cfp は rb_thread_t に格納されているので、GET_THREAD() で current_thread
+を取得しようとした時にフレームを作るようにすればいいだろう、ということだそうで
+す。 [/追記]
+またこのために、r37268 で導入された rb_method_cfunc_t::invoker の関数に
+rb_call_info_t 経由ではなく引数に直接呼び出す関数ポインタを渡すようにしています
+。 CFUNC で frame 情報を省略できる時に cfunc->func を直接呼ぶようにしているため
+です。
+あとついでに VM_PROFILE_UP/VM_PROFILE_AT_EXIT というマクロが追加されていて
+VM_PROFILE が非0に定義されている時はなにやら vm_profile_counter という配列にカ
+ウンタが格納されて、最後に atexit(3) で表示されるようになっています。
