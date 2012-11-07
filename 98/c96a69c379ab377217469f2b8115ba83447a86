@@ -1,0 +1,2 @@
+NEWS ファイルに新規メソッド ObjectSpace.reachable_objects_from を追記しています
+。
