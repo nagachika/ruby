@@ -1,0 +1,10 @@
+vm_invoke_block() において vm_caller_setup_args() を呼ぶのは flags に
+VM_CALL_ARGS_SPLAT が立っている時だけにしています。 vm_caller_setup_args() は
+VM_CALL_ARGS_BLOCKARG のビットフラグに対応した処理もありますが vm_inboke_block
+() は yield 文に対応する命令の invokeblock からのみ呼ばれるので、文法上ブロック
+引数を受け取れないのでありえないですね。なお最近の CPU は分岐予測や reorder が
+賢いので UNLIKELY() みたいなので手動でヒントをつけるとかえって遅くなる時もある
+と kosaki さんに教わりましたが、ここの UNLIKELY() はどうなんでしょうか。
+関係ないですけど yield にブロック引数を受け取れるようにして Proc#call と同等に
+したいなあと思っていたことを思い出したので、その時にはここの条件も修正しましょ
+う。
