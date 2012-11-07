@@ -1,0 +1,5 @@
+Thread#raise を実行している Thread 自身に実行した時(つまり
+Thread.current.raise)に、Kernel#raise と同じようにすぐに例外発生することを期待
+する spec が rubyspec にあるそうで、それを通すために rb_threadptr_raise() の最
+後で RUBY_VM_CHECK_INTS() を呼ぶようにしています。がこれはすぐに revert されて
+います。
