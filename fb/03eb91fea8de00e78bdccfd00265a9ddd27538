@@ -1,0 +1,5 @@
+r37232 および r37248 で変更、修正された Hash#dup (initialize_copy) の実装に追加
+の修正です。 rb_hash_modify_check() で複製された Hash が freeze されていないか
+のチェック、コピー元のオブジェクトを to_hash で確実に Hash に変換する、複製元の
+Hash の flag に HASH_PROC_DEFAULT がついていなかったら落とす処理の追加などです
+。
