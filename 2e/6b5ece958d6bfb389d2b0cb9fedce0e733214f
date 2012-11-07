@@ -1,0 +1,7 @@
+BigDecimal#+ で引数が Rational の時、つまり BigDecimal と Rational の足し算で左
+辺が BigDecimal の時に coerce に失敗して TypeError が発生していたので
+GetVpValueWithPrec() を使って精度の指定つきで変換するように修正しています。引数
+が Float の時も失敗はしていなかったけど精度の指定をつけるようにしています。これ
+で BigDecimal + Float が Float に変換されていたのが BigDecimal に変換されるよう
+になりました(が、これはついででテストもないようです)。 [ruby-core:48045] [Bug #
+7176]
