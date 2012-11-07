@@ -1,0 +1,2 @@
+test_many_fibers_with_threads という Thread と Fiber を大量に発生させるテストを
+メモリ使用量が大きいので子プロセスを作ってそこで走らせるようにしています。
