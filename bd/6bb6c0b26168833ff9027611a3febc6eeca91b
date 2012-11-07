@@ -1,0 +1,5 @@
+Net::IMAP に対応するレスポンスを追加しています。 IMAP の仕様がわからないので詳
+しい内容はチケット等を見ていただくとして、message/delivery-status (
+[ruby-core:47920] [Bug #7146])、message/rfc822 attachments ([ruby-core:47921]
+[Bug #7147])、(BODY ("MIXED")) ([ruby-core:47951] [Bug #7153]) の対応を追加して
+いるそうです。
