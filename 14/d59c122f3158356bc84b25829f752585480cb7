@@ -1,0 +1,4 @@
+mingw 環境で make に -j オプションを渡して並列ビルドさせると ruby.exe と rubyw.
+exe を同時にリンクしようとした場合に失敗するそうなので、 ext/extmk.rb で ruby.
+exe と rubyw.exe を順にビルドするように Makefile を生成するようにしています。
+[ruby-core:48007] [Bug #7165]
