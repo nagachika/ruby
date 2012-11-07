@@ -1,0 +1,3 @@
+久々にベンチマークの追加です。attr_reader, attr_writer でできるメソッドの呼び出
+しのベンチマーク bm_vm1_attr_ivar.rb, bm_vm1_attr_ivar_set.rb と、flonum 用に
+Float の演算を繰り返すベンチマーク rb_vm1_float_simple.rb が追加されています。
