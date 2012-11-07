@@ -1,0 +1,2 @@
+refinement のテストで send や Symbol#to_proc の挙動についてのテストを追加してい
+ます。
