@@ -1,0 +1,2 @@
+C の API rb_thread_call_without_gvl2() と rb_thread_call_with_gvl() の rdoc の
+英語を全体的に修正。
