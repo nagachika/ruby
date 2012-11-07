@@ -1,0 +1,11 @@
+refinement の機能(仕様)の拡張で、いくつかのモジュールを Module#using で拡張した
+Module (チケットの例だと Z)を作っておいて、それを Module#using で取り込むことで
+その Module が using していた Module たち(チケットの例だと X, Y) を using で取
+り込んだのと同じように振る舞うようにしています。 Module#include も Module に
+include しておいたものを include すると全て Module#ancestors に現われるのでそれ
+と同じようなものですね。 [ruby-dev:46326] [Feature #7251]
+実装は Module に __using_modules__ という隠しインスタンス変数があり using した
+Module を記録しているので、using した時にその Module たちも rb_using_module()
+を呼んで同時に using したように挙動しています。
+さて、このコミットの説明で何回 using と書いたでしょう。 using がゲシュタルト崩
+壊気味です。
