@@ -1,0 +1,6 @@
+eval.c と vm_eval.c の PUSH_TAG()/POP_TAG() マクロを rb_thread_t の指定つきに
+TH_PUSH_TAG() を利用するように変更しています。 TH_ のつかないほうは GET_THREAD
+() の結果を渡していて、変更しているところでは th には GET_THREAD() した結果が入
+っているので動作には変更はないはずです。
+rb_rescue2() には他にも PUSH_TAG()/EXEC_TAG()/POP_TAG() のトリオになっていると
+ころがありますが、ここも変更していいのでしょうか。
