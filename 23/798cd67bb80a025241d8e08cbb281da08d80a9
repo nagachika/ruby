@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix の Matrix#determinant_e で determinant を呼ぶべきとこ
+ろを rank を呼んでしまっていたのを修正しています。コピペ修正忘れ。こんなの残っ
+てるんですねぇ。 [ruby-dev:46305] [Bug #7228]
