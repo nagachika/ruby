@@ -1,0 +1,5 @@
+rb_bug() などでバックトレースを出力するところで Mac OS X だと ~/Library/Logs/
+CrashReporterなどにファイルとして出力されるので、そのファイルパスを表示してそこ
+を観るように促していますが、そのファイルパスに ~/Library/Logs/DiagnosticReports
+を追加しています。実際のファイルはここに出力されて ~/Library/Logs/CrashReporter
+にはシンボリックリンクが置かれますね。
