@@ -1,0 +1,3 @@
+標準添付ライブラリ ostruct に OpenStruct#each_pair メソッドを新たに追加していま
+す。 Hash#each_pair のように項目名(Symbol) と値の配列を yield するメソッドです
+。 [ruby-core:42550] [Feature #1400]
