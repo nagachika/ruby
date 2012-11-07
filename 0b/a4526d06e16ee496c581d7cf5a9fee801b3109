@@ -1,0 +1,3 @@
+r37471 の ChangeLog のエントリ追記、および再修正。 Tempfile を使う前に defined?
+で Tempfile が定義済みかチェックするようにしています。また ensure 節で例外発生
+時に消す時には変数 tempfile が初期化済みかのチェックを追加しています。
