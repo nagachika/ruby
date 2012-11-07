@@ -1,0 +1,20 @@
+Symbol#to_proc でメソッド呼び出しの Proc オブジェクトに変換する機能でも
+refinement の影響を考慮して呼ぶメソッドを切り替えるようにしています。実装が難し
+くてよく読めていませんが、テストをみると確かに refine で拡張したメソッドが
+using したモジュール内で to_proc した Proc を call すると呼べています。変更箇所
+をざっとみた限りだと to_proc を呼ぶ場所の影響を受けるので、できた Proc オブジェ
+クトは外に持ち出して呼んでもいいようです。 [ruby-dev:46345] [Bug #7261]
+class C
+end
+module M
+  refine(C) do
+    def foo
+      :foo
+    end
+  end
+  module_function
+  def foo_proc
+    :foo.to_proc
+  end
+end
+M.foo_proc.call(C.new) # => :foo
