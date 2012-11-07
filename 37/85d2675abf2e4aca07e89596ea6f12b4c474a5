@@ -1,0 +1,7 @@
+標準添付ライブラリ ostruct の OpenStruct#new に Hash だけでなく Struct や
+OpenStruct も受け付けるようにしています。具体的には要素を抽出するのに each (for
+文を使っていますが for 文は each を呼び出します)ではなく each_pair メソッドを使
+うようにしています。つまり each_pair でキーと値を yield するインタフェースがあ
+れば OpenStruct.new に渡せるようになっています。ドキュメントには Hash か Struct
+か OpenStruct と書かれているので、この実装に依存しないほうがいいと思いますけど
+ね。 [ruby-core:47476] [Feature #7007]
