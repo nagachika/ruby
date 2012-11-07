@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::Document#write の rdoc でのサンプルコードの
+間違いを修正しています。
