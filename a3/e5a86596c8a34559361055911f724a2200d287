@@ -1,0 +1,3 @@
+BigDecimal.new に Float や Rational を渡した時に精度の指定がないと
+ArgumentError が発生しますが、そのメッセージに含まれるクラス名が Rational で固
+定になっていたので、引数のクラス名を埋め込むようにしています。
