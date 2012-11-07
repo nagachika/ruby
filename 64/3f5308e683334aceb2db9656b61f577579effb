@@ -1,0 +1,6 @@
+Windows や *BSD 環境で Socket の connect_nonblock で localhost に接続する場合、
+一旦 EINPROGRESS を返してから select(2) などでチェックした後で再度
+connect_nonblock を呼ぶと errno=EINVAL で返ってくるので、その前に Socket#
+getsockopt を使って明示的にエラーを検出してチェックするようにしています。多分テ
+ストがエラーになること自体は避けていなくて、エラー内容がわかるような assert を
+追加しているのだと思います。 [ruby-dev:43181] [Bug #4387]
