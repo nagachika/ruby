@@ -1,0 +1,5 @@
+拡張ライブラリ psych の Psych::SyntaxError が組み込みの SyntaxError を継承して
+いたのを StandardError を継承した Psych::Error を継承するようにしています。
+SyntaxError は StandardError を継承していないので対象を明示的に指定しない
+rescue で捕捉されなかったのですが、新しい定義では StandardError を継承した例外
+になるので捕捉されるようになります。
