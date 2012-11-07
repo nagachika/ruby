@@ -1,0 +1,4 @@
+Solaris 10 で PTHREAD_STACK_MIN が関数呼び出しとして定義されているため enum の
+値として使えなくてコンパイルエラーになっていたのに対処しています。
+RUBY_STACK_MIN と RUBY_STACK_MIN_SPACE, RUBY_STACK_SPACE を enum としてではなく
+定数マクロとして定義するように変更しています。 [ruby-dev:46322] [Bug #7247]
