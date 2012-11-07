@@ -1,0 +1,2 @@
+昨日の r37341 での Float を freeze するようにしたのに続けて Fixnum や Bignum も
+Freeze するようにしています。 [ruby-core:29891] [Feature #3222]
