@@ -1,0 +1,3 @@
+REXML::Encoding を使って XML のエンコーディング指定を元に変換するのをやめていま
+す。 REXML::XMLDecl#encoding を廃止。 XML タグで指定されるエンコーディング名を
+upcase で揃えるのもやめているそうです。
