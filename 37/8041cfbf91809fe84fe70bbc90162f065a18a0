@@ -1,0 +1,4 @@
+eval_error.c, vm_eval.c, vm_trace.c で PUSH_TAG()/EXEC_TAG()/POP_TAG() のかわり
+に TH_PUSH_TAG()/EXEC_TAG()/POP_TAG() など rb_thread_t* を引数に受け取るマクロ
+を利用するようにリファクタリングしています。 th は current_thread なので内容に
+変化はないと思います。
