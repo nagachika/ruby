@@ -1,0 +1,4 @@
+Process.exec が Linux 3.5.0-17-generic で Errno::EACCES を発生させることがある
+ということで Process のテストの rescue 節に Errno::EACCES を追加しています。実
+行権限がなかったら EACCES になると思いますが……と思ったらこれはすぐ次の r37405
+で revert されていました。
