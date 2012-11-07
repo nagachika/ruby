@@ -1,0 +1,3 @@
+r37307 で追加した ObjectSpace::InternalObjectWrapper に internal_object_id メソ
+ッドを追加して、reachable_objects_from が返した内部的オブジェクトの object_id
+を取得できるようにしています。
