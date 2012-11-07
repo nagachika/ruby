@@ -1,0 +1,2 @@
+バックポート用のツール tool/merger.rb に preview, rc(release candidate) のタグ
+を打つ機能を追加しています。
