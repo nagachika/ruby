@@ -1,0 +1,3 @@
+GCC 4 より前のだと -fvisibility オプションが利用できないそうなので configure で
+GCC のバージョンをチェックして GCC 3以前の場合は -fvisibility オプションを使わ
+ないようにしています。
