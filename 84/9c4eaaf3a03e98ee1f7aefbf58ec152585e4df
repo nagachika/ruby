@@ -1,0 +1,2 @@
+self nil true false __FILE__ __LINE__ __ENCODING__ などの予約語? に代入する文は
+SyntaxError になることを確認するテストを追加しています。
