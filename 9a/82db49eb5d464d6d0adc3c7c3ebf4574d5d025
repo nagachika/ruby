@@ -1,0 +1,5 @@
+method_missing の実装の変更です。メソッドが見付からなかった時に method_missing
+を rb_funcall2() で ruby のメソッド呼び出しの機構を使って読んでいたのを
+vm_call_method() 関数を直接使って rb_call_info_t のキャッシュが効くようにしてい
+ます。このため rb_call_info_t の union で同居させているメンバ(aux) に
+missing_reason が追加されています。
