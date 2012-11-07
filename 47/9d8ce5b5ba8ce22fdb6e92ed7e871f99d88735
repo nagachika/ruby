@@ -1,0 +1,3 @@
+r37294 で追加され r37295 で revert された、Thread#raise が Kernel#raise と同じ
+ように振る舞うようにするための再修正です。Thread#raise を実装している関数の側で
+処理後に RUBY_VM_CHECK_INTS() で割り込みチェックするようにしています。
