@@ -1,0 +1,6 @@
+load.c の loaded_feature_path() のコメントとして引数が何を指すのかを説明する文
+章を追記しています。また rb_feature_p() にもコメントを追記しています。
+ChangeLog にはコメントについてだけ書かれているのですが実際には
+loaded_feature_path() でループ内の return を外に括り出すリファクタリングや
+feature 名とファイルパスの文字列長をチェックする条件の変更なども入っています。
+[ruby-core:47970] [Bug #7158]
