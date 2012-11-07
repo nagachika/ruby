@@ -1,0 +1,2 @@
+Struct#eql? の rdoc 用コメントのマークアップ(?) の call-seq が code-seq と typo
+していたのを修正。
