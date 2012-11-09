@@ -1,0 +1,1 @@
+Range#step が返す Enumerator の size 対応。
