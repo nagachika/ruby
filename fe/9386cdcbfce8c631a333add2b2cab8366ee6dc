@@ -1,0 +1,2 @@
+Enumerable#each_cons のブロックを省略した時に返す Enumerator の size 対応です。
+[ruby-core:45805] [Feature #6636]
