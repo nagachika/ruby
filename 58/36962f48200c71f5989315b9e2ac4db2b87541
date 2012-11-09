@@ -1,0 +1,8 @@
+refinement の不具合修正。 Module#refine のブロック内で method_added を再定義す
+ると、Fixnum#+ のように VM の命令のレベルで特殊命令にコンパイルされているメソッ
+ドが再定義されていても、それを検出せず元々の動作をしてしまっていたのを修正して
+います。 refinement が再定義検出のために method_added を利用していたので、
+method_added に頼らず、T_CLASS (struct RClass) のフラグに RMODULE_IS_REFINEMENT
+というのを追加して refinement 用のモジュールかどうか判定できるようにして、メソ
+ッドの追加時(定義時)にそのモジュールが拡張しているクラスの再定義を検出するよう
+にしています。 [ruby-core:48970] [Bug #7290]
