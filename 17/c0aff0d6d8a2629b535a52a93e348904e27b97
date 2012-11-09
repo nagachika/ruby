@@ -1,0 +1,2 @@
+ENV オブジェクトのメソッドが返す Enumerator の size 対応。 [ruby-core:45805]
+[Feature #6636]
