@@ -1,0 +1,2 @@
+Enumerable のメソッドでブロックを省略した時に返す Enumerator を size 対応してい
+ます。 [ruby-core:45805] [Feature #6636]
