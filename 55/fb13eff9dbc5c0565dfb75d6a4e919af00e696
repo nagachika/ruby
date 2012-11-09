@@ -1,0 +1,4 @@
+Array の each, each_index, reverse_each, sort_by, collect, collect!, select,
+select!, keep_if, reject, reject!, delete_if といった Enumerable のメソッドがブ
+ロックなしで呼び出された時にかえす Enumerator はを size 対応しています。配列の
+サイズを返すようにしています。 [ruby-core:45805] [Feature #6636]
