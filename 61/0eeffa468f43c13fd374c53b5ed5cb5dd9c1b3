@@ -1,0 +1,14 @@
+Enumerator#size というメソッドを追加しています。これは Enumerator の要素の数、
+つまり yield する回数を返します。無限に止まらないものは Float::INFINITY を、い
+つ止まるかわからないものは nil を返すという仕様です。また Enumerator.new に
+size 引数を受け付けるようにしています。これは数値を指定すればその数値
+(Float::INFINITY 含む)を、Proc オブジェクトを指定すればその Proc を呼び出した結
+果を Enumerator#size の結果として返すようにしています。 Proc オブジェクトを受け
+付けているのは、Enumerator を作る時点ではサイズがわからなくて、しかし呼び出した
+時点ではわかる(配列を to_enum で Enumerator にして、その後要素を追加する、など)
+ということがあるので、その場合に元となるオブジェクトを受け取って Proc オブジェ
+クトを呼び出すことで Enumerator#size を呼んだ時点でサイズを計算できるようにする
+ためです。また C API からはこのサイズ計算は C の関数も登録でき、
+RETURN_ENUMERATOR という Enumerator を生成するマクロに RETURN_SIZED_ENUMERATOR
+という亜種を追加してサイズ決定関数を登録しつつ Enumerator を生成する方法を提供
+しています。 [ruby-core:45805] [Feature #6636]
