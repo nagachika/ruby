@@ -1,0 +1,3 @@
+Range#size で要素数を返すメソッドを追加しています。また Range#each でブロックを
+省略した時に返す Enumerator の size 対応をしています。 [ruby-core:45805]
+[Feature #6636]
