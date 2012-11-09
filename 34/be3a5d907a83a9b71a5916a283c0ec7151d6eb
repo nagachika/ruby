@@ -1,0 +1,1 @@
+Numeric#step の返す Enumrator の size対応。 [ruby-core:45805] [Feature #6636]
