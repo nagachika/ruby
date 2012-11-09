@@ -1,0 +1,2 @@
+Kernel#loop が返す Enumerator の size 対応。今度こそ Float::INFINITY を常に返し
+ます。 [ruby-core:45805] [Feature #6636]
