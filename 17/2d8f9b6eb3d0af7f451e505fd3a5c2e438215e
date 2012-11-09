@@ -1,0 +1,2 @@
+r37514 で切り出した ruby_float_step() の unit が Float::INFINITY だった時の挙動
+(NaN を yield する)を追加しています。
