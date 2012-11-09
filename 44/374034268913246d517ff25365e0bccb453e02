@@ -1,0 +1,2 @@
+String の Enumerator を返すメソッドで Enumerator#size 対応をしています。
+[ruby-core:45805] [Feature #6636]
