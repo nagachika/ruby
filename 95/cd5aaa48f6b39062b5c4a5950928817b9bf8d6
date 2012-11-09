@@ -1,0 +1,2 @@
+拡張ライブラリ zlib の extconf.rb でターゲットのライブラリとして zlibwapi とい
+うライブラリもチェックするようにしています。 [ruby-core:44979] [Feature #6421]
