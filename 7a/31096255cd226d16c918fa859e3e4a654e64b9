@@ -1,0 +1,2 @@
+Enumerator::Lazy#drop の返す Enumerator の size対応です。 [ruby-core:45805]
+[Feature #6636]
