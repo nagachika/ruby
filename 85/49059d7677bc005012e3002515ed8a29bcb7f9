@@ -1,0 +1,8 @@
+r37470 で CGI#header が http_header に改名されて header はタグ生成用メソッドに
+変更された件ですが、header は http_header の alias として残しておいて、HTML5 の
+タグ生成メソッドの定義が実行された時は header をタグ生成用メソッドで再定義する
+ようにしています。 HTML5 サポートも比較的最近入って(2.0 から?)いるのでそれを使
+っている場合は header -> http_header の変更も必要ということで。これで互換性の問
+題は自分で書いているところは HTML5 を使うけど third party のライブラリが CGI#
+header を使っているというような場合に困るくらいでしょうか。 [ruby-dev:46412]
+[Bug #7286]
