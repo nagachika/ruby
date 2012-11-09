@@ -1,0 +1,2 @@
+Hash の Enumerator を返す各種メソッドで size 対応した Enumerator を返すようにし
+ています。 [ruby-core:45805] [Feature #6636]
