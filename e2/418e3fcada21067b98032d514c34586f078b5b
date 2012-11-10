@@ -1,0 +1,6 @@
+Solaris 10 で #include <atomic.h> で /usr/include/atomic.h を include しようと
+しても ruby のソースツリー上の atomic.h を include してしまう問題を回避するため
+にその内容の "sys/atomic.h" を include するようにしています。ただし Solaris の
+リファレンスによると "sys/atomic.h" を直接 include するのは将来の変更の可能性も
+あるのでよくないようなのでこれは当面の回避策とのころです。 [ruby-dev:46414]
+[Bug #7287]
