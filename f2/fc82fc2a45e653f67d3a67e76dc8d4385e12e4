@@ -1,0 +1,3 @@
+WIN32OLE のテスト test/win32ole/test_win32ole.rb でソースエンコーディングのデフ
+ォルトが UTF-8 になったので ASCII-8BIT を期待していた文字列リテラルに String#b
+の呼び出しを付けて対応しています。
