@@ -1,0 +1,4 @@
+r37497 で rb_enumeratorize() という C API のインタフェースが変更されてしまって
+いたので、rb_enumeratorize_with_size() という別の関数を追加して
+RETURN_SIZED_ENUMERATOR() ではこちらを利用するように変更しています。
+[ruby-core:49026] [Bug #7302]
