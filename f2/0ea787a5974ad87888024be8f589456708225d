@@ -1,0 +1,2 @@
+siphash.h で inttypes.h が存在しない時も #include しようとしていたので
+HAVE_INtTYPES_H のチェックを追加しています。
