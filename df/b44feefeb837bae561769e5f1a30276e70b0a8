@@ -1,0 +1,3 @@
+String#crypt で crypt(3) が NULL を返した時のことを想定して SystemCallError を
+発生させるようにしています。最新版の glibc (2.16?)で crypt(3) が NULL を返すこ
+とがあったそうです。 [ruby-core:49106] [Bug #7312]
