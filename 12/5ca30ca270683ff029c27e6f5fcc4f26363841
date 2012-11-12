@@ -1,0 +1,3 @@
+r37597 に追加して stdint.h の存在も HAVE_STDINT_H でチェックしてから #include
+するようにしています。 ChangeLog のエントリは r37597 のエントリを書き換えていま
+す。
