@@ -1,0 +1,2 @@
+r37541 で追加されている Enumerator.new の挙動の変更を指摘するテストを revert し
+ています。 [ruby-core:49001] [Bug #7298]
