@@ -1,0 +1,4 @@
+gc.c の struct heaps_slot に struct sorted_heaps_slot のメンバを埋め込み不要な
+ポインタ参照をやめるようにして、さらに membase, slot などのメンバは struct
+heaps_header から取得できるため削除するリファクタリングをしています。
+[ruby-core:43592] [Feature #6199]
