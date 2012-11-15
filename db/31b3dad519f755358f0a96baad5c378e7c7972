@@ -1,0 +1,5 @@
+dtrace 絡みのビルドの変更、特に r37638、r37639 あたりをやめにして、dmyprobes.h
+という dtrace 無効時のプローブの定義を記述したヘッダファイルは常に生成するよう
+にして、 probes.h は dmyprobes.h に依存するように書き換えています。 dmyprobes.h
+が probes.d に依存しているので結果的に probes.h は probes.d に依存しています、
+というところは変わりありません。
