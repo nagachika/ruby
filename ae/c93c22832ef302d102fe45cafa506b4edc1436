@@ -1,0 +1,4 @@
+r37636 で common.mk に追加した .d.h (*.d から *.h の生成)の依存関係は Makefile
+.in に移動して、win32/Makefile.sub に tool/gen_dummy_probes.rb を使って生成する
+ルールを別途書いています。ルールにシェルスクリプトが書かれていたところが nmake
+(か Windows のコマンド?)で動作しなかったとかでしょうきっと。
