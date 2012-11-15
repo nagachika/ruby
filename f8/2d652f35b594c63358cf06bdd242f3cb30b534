@@ -1,0 +1,5 @@
+r37631 の DTrace のサポートで Mac OS X 以外の環境でのビルドについて修正していま
+す。 configure で Free BSD では DTrace を無効にしています。また tool/
+gen_dummy_probes.sed というツールを tool/gen_dummy_probes.rb として ruby で書き
+直しています。 Windows の VC++ でコンパイルする環境では sed が使えないため。そ
+の他 make の依存関係の追加など。 [ruby-core:27448] [Feature #2565]
