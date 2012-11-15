@@ -1,0 +1,3 @@
+String#index や String#index で利用されている rb_memsearch_ss() の実装を memmem
+(3) が利用できたら利用して実装するようにしてパフォーマンス向上を試みています。
+[ruby-dev:45530] [Feature #6311]
