@@ -1,0 +1,3 @@
+標準添付ライブラリ csv の CSV#init_comments の rdoc を追記しています。 private
+なメソッドなのでコード利用例とかはなくて処理内容を記述したような感じです。
+[ruby-core:49172] [Bug #7319]
