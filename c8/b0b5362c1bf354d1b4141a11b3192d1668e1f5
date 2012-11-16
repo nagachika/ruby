@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の FileUtils.chmod の rdoc にモードを指定する文字
+種の "X" の説明を追記して、また rdoc のマークアップを修正しています。
+[ruby-core:48965] [Bug #7288]
