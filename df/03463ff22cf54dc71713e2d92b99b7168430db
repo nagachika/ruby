@@ -1,0 +1,2 @@
+標準添付ライブラリ net/pop の Net::POP3.certs の rdoc コメントの typo 修正。
+[ruby-dev:46519] [Bug #7355]
