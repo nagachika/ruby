@@ -1,0 +1,5 @@
+rake 0.9.4 をマージしています。連続で rake のバージョンアップですね。これも変更
+点はこちらをどうぞ http://rake.rubyforge.org/doc/release_notes/
+rake-0_9_4_rdoc.html
+Rake.glob を FileList.glob に置き換えているという変更が目立ちます。メソッドの内
+容は同じなのでただのリファクタリングでしょうか。
