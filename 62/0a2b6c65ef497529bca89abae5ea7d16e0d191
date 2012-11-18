@@ -1,0 +1,4 @@
+Makefile.in、win32/Makefile.sub で DTrace 対応で DTrace に非対応な環境で
+probes.h を生成するルールとして dmyprobes.h をソースディレクトリからコピーする
+ようにしています。また VERBOSE によるメッセージの抑制がきくようにしています。で
+も dmyprobes.h はビルドディレクトリに生成するようになっているような気が……。
