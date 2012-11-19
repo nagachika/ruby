@@ -1,0 +1,3 @@
+標準ライブラリ内で inistance_variable_{get,set} や const_set などの名前の指定文
+字列を使っていたところを Symbol に変更しています。 [ruby-core:47979] [Bug #
+7161]
