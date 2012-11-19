@@ -1,0 +1,4 @@
+拡張ライブラリ psych の Kernel#y (YAML 形式でダンプ)を ext/psych/lib/psych/y.rb
+に切り出しています。 require "psych/y" でそこだけ Kernel#y だけ require できる
+ようになっています。が Psych がロード済みじゃないと使えないので "psych/y" だけ
+require しても実は使えません。これ何の意味があるんでしょう。
