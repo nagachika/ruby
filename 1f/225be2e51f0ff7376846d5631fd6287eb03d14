@@ -1,0 +1,6 @@
+Solaris での DTrace 対応です。 Solaris ではかなり仕組みが異なるみたいで
+probes.o というオブジェクトファイルを生成してリンクするみたいです(参考リンク
+http://mail.opensolaris.org/pipermail/dtrace-discuss/2005-August/000207.html )
+。また configure で --{enable,disable}-dtrace で DTrace サポートを明示的に指定
+できるようにしています。その他 *BSD での DTrace のサポートのチェックもなにかし
+ているようですが詳しく読んでいません。
