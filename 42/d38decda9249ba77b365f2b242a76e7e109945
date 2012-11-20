@@ -1,0 +1,5 @@
+Complex() や Rational() で Complex/Rational を生成するのに
+CANONICALIZATION_FOR_MATHN が定義されていると(デフォルトで定義されている) rb_
+{complex,rational}_new2 は虚数部が0だったり分母が1だったりするとFloat や
+Integer に丸められてしまうので rb_{complex,rational}_raw2() を呼ぶように修正し
+ています。
