@@ -1,0 +1,4 @@
+r37711 および r37713 の DTrace 対応のビルドの再修正。 probes.h の依存関係の記述
+を common.mk に移動して probes.h を $VPATH をみるのではなく必ずソースディレクト
+リにあるものを参照するようにしています。あと win32/Makefile.sub の .SUFFIXES は
+元々重複していたものを削除したのでしょうか。
