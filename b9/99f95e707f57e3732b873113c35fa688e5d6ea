@@ -1,0 +1,2 @@
+.travis.yml の設定で make test を実行する時に OPTS=-v を指定して verbose モード
+で実行するようにしています。
