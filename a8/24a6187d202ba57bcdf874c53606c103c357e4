@@ -1,0 +1,4 @@
+common.mk で RUBYLIB に "-" をセットしていたのが test/ruby/test_encoding.rb の
+test_unsafe のテスト($SAFE=4 の時の String#encode のテスト)に影響していたそうで
+FILE_SEPARATOR をセットするように修正しています。どういうことかよくわかりません
+が、テスト実行に影響するだけだとは思います。
