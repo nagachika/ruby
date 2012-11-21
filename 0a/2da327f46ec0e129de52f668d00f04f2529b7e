@@ -1,0 +1,8 @@
+rb_thread_blocking_region_end() でカレントスレッドを取得するのに GET_THREAD()
+を利用せず ruby_thread_from_native() という関数を利用するように修正しています。
+GET_THREAD() はグローバル変数 ruby_current_thread を参照するだけですが、この位
+置では GVL を解放した状態(再取得する前)なので、ruby_current_thread が自分の
+thread を参照していないので thread local storage などから取得する確実な方法を利
+用するようにしています。 rb_thread_blocking_region_end() は既に deprecated とし
+てマークされている関数でコアでは利用されていませんので ruby 本体は影響なかった
+ですが拡張ライブラリで利用していたものはマズかったはず。
