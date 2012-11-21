@@ -1,0 +1,5 @@
+Thread#backtrace_locations というメソッドを新設しています。これは Thread#
+backtrace の元となる情報を文字列化せずに RubyVM::Backtrace::Location オブジェク
+トのまま配列で返すものです。 caller に対する caller_locations と同じですね。ま
+た Thread#backtrace に引数として level (現在のフレームから起点を遡って指定でき
+る)と n(取得するフレームの情報数)を指定できるようにしています。
