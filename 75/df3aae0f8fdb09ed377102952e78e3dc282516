@@ -1,0 +1,6 @@
+Signal.trap で Ruby レベルでのシグナルハンドラを設定時に pthread_sigmask() で
+(pthread_sigmask() がある環境なら)シグナルマスクを設定していたのをやめています
+。現在の Ruby レベルのシグナルハンドラは C の signal handler とは別もので、タイ
+マースレッドがチェックするだけなのでマスクは不要になっていたようです。その関連
+で USE_TRAP_MASK というマクロ定数や struct trap_arg という構造体も削除していま
+す。
