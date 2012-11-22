@@ -1,0 +1,2 @@
+probes.o を probes.d から dtrace コマンドで生成する時に probes.o を削除しておく
+ようにしています。 dtrace は上書きしてくれない?
