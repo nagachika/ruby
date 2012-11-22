@@ -1,0 +1,5 @@
+complex.c と rational.c で issign() や isdecimal(), islettere()などの文字種の判
+定をインライン関数として切り出すリファクタリングや関数宣言に inline の追加など
+。
+また read_digits() では strict 引数が真なのでエラーで返す時でも VALUE *num 引数
+には変換結果を格納して返すようにしているみたいですね。
