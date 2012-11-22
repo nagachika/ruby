@@ -1,0 +1,2 @@
+r37739 で revert したぶんの configure の --enable-dtrace による DTrace 対応の検
+出を再修正しています。
