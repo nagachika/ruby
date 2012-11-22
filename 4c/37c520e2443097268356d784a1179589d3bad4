@@ -1,0 +1,2 @@
+Array#bsearch と Range#bsearch の rdoc に記述されていた計算量の間違いを修正して
+います。 [ruby-core:49661] [Bug #7409]
