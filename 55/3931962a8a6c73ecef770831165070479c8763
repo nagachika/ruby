@@ -1,0 +1,4 @@
+TracePoint に新たに情報取得用のメソッドを2つ新設しています。 :return と
+:c_return のイベントで戻り値を取得するための TracePoint#return_value と :raise
+イベントで発生した例外を取得するための TracePoint#raised_exception が追加されて
+います。 [ruby-core:47243] [Feature #6895]
