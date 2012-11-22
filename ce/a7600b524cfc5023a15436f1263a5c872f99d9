@@ -1,0 +1,3 @@
+include/ruby/debug.h というヘッダを新設して TracePoint の API を公開しています
+。もともとあった debug.h は vm_debug.h というファイル名に変更しています。また公
+開に伴い関数名や定数名の prefix 追加などもありました。
