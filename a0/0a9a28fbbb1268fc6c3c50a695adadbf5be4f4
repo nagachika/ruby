@@ -1,0 +1,3 @@
+WIN32OLE のテストで Windows 8 で IShellDispatch5 が IShellDispatch6 になってい
+たのに対応して implemented_ole_types のチェック内容を変更しています。
+[ruby-core:49580] [Bug #7403]
