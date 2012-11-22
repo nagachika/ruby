@@ -1,0 +1,5 @@
+io.c で rb_file_const() を使って定義していた定数を file.c で rb_define_const()
+を使って定義するように移動&変更しています。 rdoc が rb_file_const() で定義した
+定数を認識してくれないためだそうです。 rb_file_const() は単に rb_define_const()
+を呼んでいるだけで実質同じ関数なので動作上の変更はありません。
+[ruby-core:40573] [Bug #5530]
