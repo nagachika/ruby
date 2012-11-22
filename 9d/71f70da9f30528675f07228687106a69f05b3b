@@ -1,0 +1,3 @@
+r37766 の String#crypt のテストの再修正。 libc のバージョンの検出のために /lib/
+libc.so.6 決め打ちでなく RbConfig を使って /lib64 など別のディレクトリに置かれ
+ているケースに対応しています。 [ruby-core:49763] [Bug #7312]
