@@ -1,0 +1,4 @@
+file.c で File::NULL を定義している関数も r37746 と同様に rb_file_const() から
+file_define_const() に変更しています(rdoc 対策のため)。こうして rb_file_const()
+は Dir.glob 用の FNM_XXX 定数にしか使われなくなりました。せっかく定義しているの
+に悲しいですね。
