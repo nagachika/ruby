@@ -1,0 +1,3 @@
+DTrace の probe で GC のスイープフェーズの開始時のプローブは
+gc_prof_sweep_timer_start() と garbage_collect() に重複していたので
+garbage_collect() のほうを削除しています。
