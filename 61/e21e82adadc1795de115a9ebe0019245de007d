@@ -1,0 +1,2 @@
+rb_memsearch_ss() でバイト単位の文字列内の検索で memmem(3) が使えない環境での
+memchr(3) を使った高速化です。 [ruby-dev:45530] [Feature #6311]
