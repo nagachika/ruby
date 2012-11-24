@@ -1,0 +1,3 @@
+r37798 で probe.h に #if を導入したので tool/gen_dummy_probes.rb で #include や
+#if を upcase してしまっていたのを抑制しています。 [ruby-core:49410] [Bug #
+7370]
