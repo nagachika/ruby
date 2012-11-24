@@ -1,0 +1,3 @@
+r37796 で戻した VM_COLLECT_USAGE_DETAILS の定義について
+VM_COLLECT_USAGE_DETAILS が偽の時は vm_collect_usage_insn() と
+vm_collect_usage_operand() の定義自体を消すようにしています。
