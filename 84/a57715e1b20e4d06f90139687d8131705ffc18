@@ -1,0 +1,2 @@
+r37802 の .dmyh.h のルールに $(VPATH) がついていたのを削除しています。 GNU make
+は Suffix rule に VPATH が使えないとのこと。ビルドプロセス難しいですね。
