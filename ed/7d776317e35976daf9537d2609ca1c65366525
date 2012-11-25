@@ -1,0 +1,3 @@
+CGI.header の rdoc を追記しています。 html5 のタグ生成が有効になるまでは
+http_header の alias であることが記述されています。 [ruby-core:49585] [Bug #
+7405]
