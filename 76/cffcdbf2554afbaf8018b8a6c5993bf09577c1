@@ -1,0 +1,3 @@
+r37825 で追加した Process.setsid のテストで ruby インタプリタの起動を "./ruby
+-trunk" と決め打ちで書かれていたところを定数 RUBY を使うように修正しています。
+[ruby-dev:45977] [Feature #6757]
