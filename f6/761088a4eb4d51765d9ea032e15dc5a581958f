@@ -1,0 +1,5 @@
+configure に --disable-dln というオプションを追加して dln.c をコンパイルしない
+ようにしています。 --with-static-link-ext を指定して静的リンクをするように ruby
+をビルドしても dln.o がリンクされていると dlopen(3) が使われているので警告がで
+ることがあるらしく、これを抑制するためのようです。 [ruby-core:37676] [Feature #
+4946]
