@@ -1,0 +1,2 @@
+getsid(2) を呼び出すためのメソッド Process.getsid を追加しています。
+[ruby-dev:45977] [Feature #6757]
