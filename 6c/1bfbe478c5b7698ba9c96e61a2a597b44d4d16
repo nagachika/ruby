@@ -1,0 +1,6 @@
+ruby 本体のテスト用のライブラリ test/ruby/envutil.rb で定義されている
+assert_warning と assert_warn を入れ替えています。これまでは assert_warn が警告
+メッセージをチェックするもので、assert_warning が assert_warn を使いつつ
+$VERBOSE を false に設定するものでしたが、逆になっています。まぎらわしい名前で
+すね。 ruby 本体の関数に rb_warn() と rb_warning() というのがあって、それと対応
+するようにしているのではないかと思います。
