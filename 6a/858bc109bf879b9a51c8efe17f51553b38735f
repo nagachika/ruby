@@ -1,0 +1,1 @@
+r37821 に抜けてた win32/Makefile.sub の DLNOBJ 変数の設定を追加しています。
