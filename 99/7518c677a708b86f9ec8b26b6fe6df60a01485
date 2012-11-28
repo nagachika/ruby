@@ -1,0 +1,4 @@
+r37825 で追加した Process.setsid のテストで、親プロセスで IO.popen で作った子プ
+ロセスの pid に対して Process.getsid を呼ぶ時に既に子プロセスが終了しているから
+か Errno::ESRCH が発生していたので、子プロセス内で Process.getsid($$) の結果も
+取得して返しておくようにしています。
