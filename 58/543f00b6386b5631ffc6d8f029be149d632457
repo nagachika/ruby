@@ -1,0 +1,5 @@
+r37852 でシグナルトラップハンドラ内での Thread#join を禁止するために導入した
+rb_thread_t::in_trap を削除して、かわりに interrupt_mask で trap_interrupt
+(0x08) がマスクされているかどうかをトラップハンドラ内かどうかの判定に使っていま
+す。ところで今更ですが Signal.trap のハンドラ内で Thread#join が明示的に禁止さ
+れたことは NEWS にも書いたほうがいいのではないでしょうか。
