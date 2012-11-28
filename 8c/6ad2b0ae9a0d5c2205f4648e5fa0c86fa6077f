@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.compile_option が trace_instruction オプションの値
+を返していなかったので追加しています。しかしこのオプションは今どこにも使われて
+なさそうですね。 [ruby-core:46711] [Bug #6786]
