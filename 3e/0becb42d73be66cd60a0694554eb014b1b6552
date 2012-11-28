@@ -1,0 +1,4 @@
+ARGF には each_{byte, char, line} や bytes, chars, lines はあるのに
+each_codepoint, codepoints は存在していなかったので String などと同じく
+each_codepoint, codepoints も追加しています。両者は同じ実装(ブロック省略時には
+Enumerator を返す)です。 [ruby-core:50152] [Bug #7438]
