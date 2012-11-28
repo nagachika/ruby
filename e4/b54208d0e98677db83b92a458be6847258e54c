@@ -1,0 +1,2 @@
+r37838 で変更した rb_str_enumerate_{lines, chars, codepoints} で未初期化変数の
+参照の警告が出ていたのを抑制しています。
