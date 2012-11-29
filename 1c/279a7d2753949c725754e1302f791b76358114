@@ -1,0 +1,4 @@
+RDoc の 4.0 をマージしています。内容はチェックしていませんが NEWS ファイルへの
+追記をみると ri フォーマットの変更で、 ri ドキュメントは再生成しないといけなさ
+そうですが、その他非互換はあまりないバージョンアップだそうです。参考URL: https:
+//github.com/rdoc/rdoc/blob/master/History.rdoc
