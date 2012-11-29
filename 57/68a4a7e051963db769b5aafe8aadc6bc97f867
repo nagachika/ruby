@@ -1,0 +1,2 @@
+Array#delete の rdoc の戻り値の記述の修正およびサンプルコードの追加。
+[ruby-core:50145] [Bug #7437]
