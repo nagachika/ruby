@@ -1,0 +1,2 @@
+r37871 で rb_str_enumerate_bytes() の ary の初期化を追加したのを
+UNINITIALIZED_VAR() マクロを使うように書き換えています。
