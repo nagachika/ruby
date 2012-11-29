@@ -1,0 +1,4 @@
+r37875 で rb_thread_terminate_all() による終了時の全 Thread 停止の待ちループ中
+に Interrupt 発生が追加された時に全 Thread に再度停止のための割り込みをかけるよ
+うにしましたが、常に native_sleep() から帰ってきた時は再度全 Thread に割り込み
+をかけるようにしています。
