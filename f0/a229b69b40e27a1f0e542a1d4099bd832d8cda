@@ -1,0 +1,4 @@
+ext/digest/md5/extconf.rb や ext/digest/sha1/extconf.rb、ext/digest/sha2/
+extconf.rb、ext/openssl/extconf.rb に require_relative が使われていたので 1.8
+系の ruby でも動くように File.expand_path を使うように変更しています。
+[ruby-core:50160] [Bug #7439]
