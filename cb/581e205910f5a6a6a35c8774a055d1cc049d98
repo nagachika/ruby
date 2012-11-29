@@ -1,0 +1,5 @@
+rdoc の lib/rdoc/rubygems_hook.rb で RDoc#generate で @rdoc.store に
+Rdoc::Store のインスタンスを格納するようにしています。が、これ RDoc::Store.new
+して options から encoding やら dry_run やらオプションを設定してからそれを無視
+して再度 RDoc::Store.new していますがこれでいいんでしょうか。コミットログによる
+と来たるべき RubyGems 2 のマージに備えた変更だそうです。
