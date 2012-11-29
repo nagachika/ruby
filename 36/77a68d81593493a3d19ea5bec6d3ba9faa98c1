@@ -1,0 +1,2 @@
+ext/extmk.rb でライブラリの実行毎に mkmf.log への File を close して余計なメッ
+セージが出力されるのを防いでいます。
