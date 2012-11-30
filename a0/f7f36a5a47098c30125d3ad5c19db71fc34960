@@ -1,0 +1,7 @@
+標準添付ライブラリ mkmf に COMPILE_RULES に "$(*VPATH*)" という文字列を含むルー
+ルを書いておくと、その部分を $VPATH ([$(srcdir)、 $(topdir)、 $(arch_hdrdir)/
+ruby、 $(hdrdir)/ruby])毎に展開してくれるような機能を追加しています。
+[DEL:そして win32/Makefile.sub がその機能を使っているようです。っていうか win32
+/Makefile.sub って mkmf.rb を経由するんですね、知らなかった!:DEL]
+おまえは何を言っているんだ……。 Makefile.sub が config.status を生成する部分で
+した。
