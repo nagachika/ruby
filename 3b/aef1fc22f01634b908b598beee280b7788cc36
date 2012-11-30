@@ -1,0 +1,2 @@
+lib/test/unit.rb で Test::Unit::{Glob,LoadPath}Option での不要なモジュールの
+include をやめています。
