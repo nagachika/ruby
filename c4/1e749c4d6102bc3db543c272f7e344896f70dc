@@ -1,0 +1,3 @@
+ruby_atomic.h で定義している ATOMIC_CAS() で利用している
+__sync_val_compare_and_swap_4 は x86/Linux では gcc に -march=i486 を指定しない
+と(少なくとも gcc 4.1 では)動かないそうなのでオプションを追加しています。
