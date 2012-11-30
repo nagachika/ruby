@@ -1,0 +1,4 @@
+r37904, r37906, r37911 で ATOMIC_CAS のための __sync_val_compare_and_swap のチ
+ェックとコンパイラオプションの追加をしたのを revert しています。 Solaris Studio
+や Fujitsu C Compiler などのコンパイラでビルドできなくなっていたとのこと。
+[ruby-dev:46646] [Bug #7451]
