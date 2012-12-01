@@ -1,0 +1,4 @@
+tool/generic_erb.rb, tool/id2token.rb に MinGW 用に --path-separator というオプ
+ションを追加しています。また tool/vpath.rb というツールを tool/instruction.rb
+から切り出して新規作成しています。ビルドプロセスに関するツールだと思いますが詳
+しい内容は見ていません。
