@@ -1,0 +1,3 @@
+拡張ライブラリ psych の extconf.rb に --enable-bundled-libyaml というオプション
+を追加して、システムの libyaml が見付かった時でも psych に同梱されている
+libyaml のソースを利用するように指示できるようにしています。
