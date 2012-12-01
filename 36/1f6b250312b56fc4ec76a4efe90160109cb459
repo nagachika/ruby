@@ -1,0 +1,5 @@
+拡張ライブラリ openssl のテストに、CTR モードの OpenSSL::Cipher のテストを追加
+しています。 openssl 1.0.1 以降でサポートされているモードなので例外メッセージを
+チェックして "unsupported cipher algorithm" が含まれていたら無視するようにして
+います。バージョンでチェックしたほうがいいんじゃないでしょうか。
+[ruby-core:35293] [Bug #4408]
