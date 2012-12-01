@@ -1,0 +1,4 @@
+r37953 で消して r37960 で revert された Thread 終了時の $SAFE (safe_mode) のチ
+ェックを削る変更の再修正。 2つ目の if の条件の safe_level も削ったために $SAFE
+== 4 で終了した時の errinfo のクリアが抜けていたので条件分岐を整理して
+safe_level のチェックと SystemExit で終了しているかのチェックに分解しています。
