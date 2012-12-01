@@ -1,0 +1,2 @@
+thread.c の do_select() という関数の変数 result のコンパイラの未初期化変数の警
+告を抑制するためにマクロ UNINITIALIZED_VAR() を使うようにしています。
