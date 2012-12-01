@@ -1,0 +1,2 @@
+r37956 で small cleanups とだけ書いて thread_start_func_2() の中の処理順序を変
+更していたのを revert しています。何か問題があったんでしょうか。
