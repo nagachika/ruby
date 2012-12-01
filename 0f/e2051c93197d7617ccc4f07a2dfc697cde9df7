@@ -1,0 +1,2 @@
+バックトレース情報を保持するクラス RubyVM::Backtrace を Thread::Backtrace へ名
+前空間を移動しています。
