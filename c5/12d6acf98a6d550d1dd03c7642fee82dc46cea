@@ -1,0 +1,9 @@
+GC.stat が返す情報に項目を追加しています。
+  • total_allocated_object
+      □ 確保されたオブジェクトの総数(通算)
+  • total_freed_object
+      □ GC で回収されたオブジェクトの総数(通算)
+これらは通算なのでどんどん増えていく一方(そしていずれ overflow して 0 に戻る)と
+いうカウンタです。total_allocated_object - total_freed_object でまだ生きている
+オブジェクトの数が計算できるのでこれを用いて objspace_live_num() という関数を実
+装して、 rb_objspace_t の live_num メンバは削除しています。
