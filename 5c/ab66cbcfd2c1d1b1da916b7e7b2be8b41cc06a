@@ -1,0 +1,4 @@
+lib/rubygems.rb 詳細はわかりませんが Kernel#gem メソッドが未定義の時に rubygems
+.rb の Gem.load_yaml で処理を抜けるようにしています。 --disable-gems をつけて起
+動して起動時に rubygems がロードされない時にある順序で require すると落ちること
+があるようです。どこかで require が足りないとかでしょうか。
