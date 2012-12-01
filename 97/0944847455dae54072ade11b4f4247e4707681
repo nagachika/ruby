@@ -1,0 +1,3 @@
+DTrace 対応の RUBY_DTRACE_METHOD_RETURN_HOOK() にカレントスレッドを渡す th 引数
+を追加して、 klass を省略した時に現在のメソッドが取得できるようにしています。そ
+うして例外でメソッドから抜ける時も METHOD_RETURN のプローブを追加しています。
