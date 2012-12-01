@@ -1,0 +1,2 @@
+vm_backtrace.c で他にも backtrace の level とインデックスの引数の型を int ->
+long に変更しています。
