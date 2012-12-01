@@ -1,0 +1,3 @@
+GC.stat で返す Hash のキーとなる Symbol を毎回 rb_intern() を呼ばずに最初に呼ば
+れた時に static 変数に作っておいたものを使いまわすようにしています。 GC.stat の
+高速化のため。
