@@ -1,0 +1,2 @@
+r38010 の変更の結果使われなくなった gc.c の関数 chain_finalized_object() を削除
+しています。
