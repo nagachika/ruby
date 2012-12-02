@@ -1,0 +1,4 @@
+RubyGems で gemspec に executable として登録されているファイルに実行権限のビッ
+トがあることをチェックしているのですが、Windows ではこのチェックは不要なので
+unless Gem.win_platform? で括るようにしています。 [ruby-core:50388] [Feature #
+7427]
