@@ -1,0 +1,6 @@
+Thread.control_interrupt を Thread.async_interrupt_timing に改名しています。ま
+た :never というオプションを :defer に変更しています。また
+Thread.check_interrupt も Thread.async_interrupted? に変更して機能もマスクされ
+ている例外を発生させるものだったのを、マスクで待たされている例外などがあるかど
+うかをチェックするだけの機能に変更しています。もう preview版も出たというのにか
+なり大きく変更しますね。 [ruby-core:50375] [Feature #6762]
