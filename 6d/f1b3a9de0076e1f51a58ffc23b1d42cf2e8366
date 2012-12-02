@@ -1,0 +1,2 @@
+TracePoint#enable, disable にブロックを渡した時にブロックパラメータに
+TracePoint オブジェクト自身を渡していたのをブロックパラメータなしにしています。
