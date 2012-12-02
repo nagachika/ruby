@@ -1,0 +1,3 @@
+r38056 で ::Fiddle = ::DL で定数に代入して DL に Fiddle のまねをさせようとして
+いたのですが、なにやらうまくいかなかったみたいで Win32 に extend している所で
+Fiddle::Importer がなかったら DL::Importer を使うようにしています。
