@@ -1,0 +1,2 @@
+r38121 で追加した Thread::Backtrace::Location#inspect のテストを追加しています
+。
