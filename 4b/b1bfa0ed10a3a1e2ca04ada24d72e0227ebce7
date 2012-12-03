@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle のビルドで FFI_STDCALL のチェックをこれがマクロ定数のつも
+りで書かれていたのに実際は enum 定数だったので、extconf.rb で存在チェックをして
+HAVE_CONST_FFI_STDCALL を定義してこれを使うようにしています。 [ruby-core:50398]
+[Bug #7483]
