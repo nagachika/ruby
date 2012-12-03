@@ -1,0 +1,3 @@
+r38075 で rubygems で gem ファイルを File.binread で読み込むようにしましたが
+rubygems には 1.8 互換性のために Gem.read_binary というメソッドがあるらしくこち
+らを使うように再修正しています。
