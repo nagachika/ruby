@@ -1,0 +1,3 @@
+標準添付ライブラリ thread.rb の ConditionVariable で待っている Thread のリスト
+を管理するのに配列じゃなくて Thread をキーにした Hash を使うようにしています。
+はて、なぜでしょう。
