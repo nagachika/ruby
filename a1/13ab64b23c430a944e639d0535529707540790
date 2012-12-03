@@ -1,0 +1,2 @@
+thread.c で rb_threadptr_interrupt_mask() と async_interrupt_timing_func() を呼
+び元の rb_thread_s_async_interrupt_timing() に展開して定義を削除しています。
