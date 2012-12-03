@@ -1,0 +1,3 @@
+r38053 で入って r38061 で revert された RubyGems のインストール時に
+default_gems を考慮する変更が再度入っています。 r38096 で変更した test/
+runner.rb のGEM_SKIP の設定がまずかったみたいですね。
