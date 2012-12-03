@@ -1,0 +1,3 @@
+Time#_dump, _load などの rdoc を削って :nodoc: タグをつけたりしています。また
+respond_to_missing? の rdoc に内部的に呼ばれるものなんので直接呼ばないようにと
+コメントを追加しています。
