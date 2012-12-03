@@ -1,0 +1,2 @@
+標準添付ライブラリ thread.rb の Queue と SizedQueue を ConditionVariable を使っ
+て再実装するように書き換えています。
