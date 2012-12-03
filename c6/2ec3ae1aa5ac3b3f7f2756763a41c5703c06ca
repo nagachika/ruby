@@ -1,0 +1,3 @@
+標準ライブラリ Sync の sync_synchronize と sync_lock を
+Thread.async_interrupt_timing で非同期例外をマスクして実行するようにしています
+。
