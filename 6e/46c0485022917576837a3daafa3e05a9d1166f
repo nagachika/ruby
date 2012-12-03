@@ -1,0 +1,2 @@
+rubygems は $LOAD_PATH に各 gem の lib を追加するのですが、default_gems は標準
+添付ライブラリとしてインストールされているので追加しないようにしています。
