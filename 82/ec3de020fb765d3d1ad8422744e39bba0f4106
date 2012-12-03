@@ -1,0 +1,2 @@
+逆に remove_instance_variable は private なメソッドでしたが public に変更してい
+ます。 [ruby-core:45395] [Feature #6539]
