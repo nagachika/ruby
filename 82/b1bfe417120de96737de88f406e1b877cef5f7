@@ -1,0 +1,2 @@
+tool/make-snapshot で PATH_SEPARATOR を make のオプションに渡すようにしています
+。 id2token.rb が必要とするようになったそうです。
