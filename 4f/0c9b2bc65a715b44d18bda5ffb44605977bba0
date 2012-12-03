@@ -1,0 +1,3 @@
+marshal.c の w_object, r_object0 から private に変えられたメソッド群を呼ぶため
+に rb_funcall() を rb_funcall2() にする rb_respond_to() を rb_obj_respond_to()
+に変更するなど呼びかたを変更しています。 [ruby-core:45395] [Feature #6539]
