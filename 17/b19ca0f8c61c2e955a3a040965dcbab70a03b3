@@ -1,0 +1,2 @@
+tool/gen_dummy_probes.rb が probes.h を生成する時に emacs 用のコメントを最初の
+行に置くようにして C モードで開くようにしています。
