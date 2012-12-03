@@ -1,0 +1,4 @@
+rdoc のテストで ensure 節で一時ファイルの掃除を追加。また ensure で操作しようと
+したファイルが存在しない場合のことを考慮(Windows だと skip されるテストなので
+begin ボディを実行せずに ensure に行ってしまうため)しています。
+[ruby-core:50388] [Feature #7427]
