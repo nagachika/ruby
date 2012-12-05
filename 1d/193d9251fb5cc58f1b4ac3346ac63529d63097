@@ -1,0 +1,2 @@
+Thread#backtrace や backtrace_location で第2引数に負の数を指定すると SEGV して
+いたのでチェックして ArgumentError を発生させるようにしています。
