@@ -1,0 +1,4 @@
+BigDecimal.new で文字列を BigDecimal に変換する時に taint されていると $SAFE が
+1以上の時に SecurityError が発生していたのですが、文字列の整数化は to_i などで
+は $SAFE チェックされていないので BigDecimal でもチェックを外しています。
+[ruby-core:40510] [Bug #5508]
