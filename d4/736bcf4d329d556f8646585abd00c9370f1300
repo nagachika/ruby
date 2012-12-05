@@ -1,0 +1,7 @@
+オブジェクトの複製する Object#clone の実装である rb_obj_clone() で struct
+RBasic::flags の FL_TAINT と FL_UNTRUST が allocate した段階で立っていたら保持
+するビット操作を一度にまとめるようにしようとしています。とは思うのですが、ここ
+で FL_TAINT と FL_UNTRUST を操作する意味はあるんでしょうか。 [DEL:allocate 直後
+は普通これらのビットは 0 なんじゃないかというのと、:DEL] すぐ後の init_copy()
+ですぐに FL_TAINT と FL_UNTRUST はコピー元の obj の flags からコピーされると思
+います。
