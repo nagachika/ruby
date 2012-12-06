@@ -1,0 +1,2 @@
+r38168 で .document に doc/NEWS-?-?-? を追加しましたが doc/NEWS-* という記法で
+まとめています。また doc/ChangeLog-* も RDoc の処理対象に含めています。
