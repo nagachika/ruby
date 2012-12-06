@@ -1,0 +1,3 @@
+marshal.c で GC のマーク漏れに繋がるコンパイラ最適化の抑制のために volatile を
+つけていた変数を RB_GC_GUARD() で保護するようにしています。また variable.c でも
+RB_GC_GUARD() による保護を追加しています。
