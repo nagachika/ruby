@@ -1,0 +1,2 @@
+r38151 で bitblt と answer の命令については毎回 rb_intern() でシンボル作成する
+ようにしたので template/id.h.tmpl からその2つを削除しています。
