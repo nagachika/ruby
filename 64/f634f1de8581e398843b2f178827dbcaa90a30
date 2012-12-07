@@ -1,0 +1,7 @@
+まず sleep_forever() や sleep_timeval() で sleep に入る前に
+RUBY_VM_CHECK_INTS_BLOCKING() を呼んで割り込みをチェックするようにしています。
+また RUBY_VM_CHECK_INTS_BLOCKING() は Thread.async_interrupt_timing の機能でた
+められている割り込みの存在をチェックするようにしています。 Thread.current.raise
+のようにしてカレントスレッドに対して Thread#raise で非同期例外を発生させると(非
+同期といっても自分に対して送っているのに)その直後に sleep すると眠り続けてしま
+うので、眠る前に例外をチェックするようにしているのだと思います。
