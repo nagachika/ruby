@@ -1,0 +1,8 @@
+標準添付ライブラリ timeout.rb の Timeout.timeout では別の Thread を生成してそこ
+からタイマーで Thread#raise で割り込みをかけることでタイムアウト処理を実装して
+いますが、デフォルトでは Thread.async_interrupt_timing(:on_blocking) を使うよう
+にして完全な非同期ではなく、ブロックする処理(IO 待ちや sleep など)でのみ割り込
+みがかかるように変更しています。つまり while true; 0; end とか loop { } みたい
+なビジーループする処理はタイムアウトで止まらなくなります。ただし
+Timeout.timeout のキーワード引数 immediate に true を指定すると従来のように全て
+の割り込みをチェックするポイントで止まるようにもできます。
