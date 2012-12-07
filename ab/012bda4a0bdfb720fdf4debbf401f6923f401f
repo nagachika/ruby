@@ -1,0 +1,2 @@
+GC::Profiler の CPU 時間の測定に Linux では clock_gettime(2) により精度のよい測
+定ができるのでそれを利用するようにしています。 [ruby-core:50495] [Bug #7500]
