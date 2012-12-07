@@ -1,0 +1,2 @@
+id.c を id.h と同様に template/id.c.tmpl から自動生成するようにしています。この
+ための元ネタを defs/id.def に書くようにしています。
