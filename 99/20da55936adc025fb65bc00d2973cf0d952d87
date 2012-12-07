@@ -1,0 +1,4 @@
+Fiddle を使っている時に DL::Function#bind で @ptr を初期化していなかったためそ
+の後 DL::Function#call を呼ぶと SEGV していたのを修正しています。 DL と Fiddle
+の互換性の吸収漏れの一種? @ptr が存在しないからといって SEGV しないようにしたほ
+うがいいような気もしますが難しいのでしょうか。 [ruby-dev:46708] [Bug #7516]
