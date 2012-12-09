@@ -1,0 +1,5 @@
+r38216 で標準添付ライブラリ timeout.rb で Thread.async_interrupt_timing を使っ
+て割り込みをブロックする処理の実行まで遅延させるようにしましたが、
+Thread.async_interrupt_timing のブロックがタイムアウト時の例外の処理より外にな
+っていたのでタイムアウト時の例外を上げ直す処理が飛ばされていたので内側に移動し
+ています。 [ruby-core:50524] [Bug #7503]
