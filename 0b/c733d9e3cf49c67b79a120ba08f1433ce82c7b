@@ -1,0 +1,4 @@
+Win32::Registry が DL から Fiddle に移行するために Fiddle::Function#name という
+属性に対応する必要があったので Fiddle::Function に追加しているようです。
+instance_eval でインスタンス変数に代入していて、attr_accessor にしてもよかった
+んじゃないかと思います。
