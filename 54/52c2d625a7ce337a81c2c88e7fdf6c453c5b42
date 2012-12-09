@@ -1,0 +1,2 @@
+doc/forwardable.rd という標準ライブラリ forwardable についてのドキュメントが存
+在していたのを削除して lib/forwardable.rb の中に rdoc として埋め込んでいます。
