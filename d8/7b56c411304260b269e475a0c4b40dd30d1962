@@ -1,0 +1,2 @@
+Refinement のテストを module_eval と Module#using を使わずに書くように変更して
+います。
