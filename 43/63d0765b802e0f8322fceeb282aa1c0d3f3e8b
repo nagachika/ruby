@@ -1,0 +1,2 @@
+Module#refinements (refine している Module とその無名モジュールを Hash で返すメ
+ソッド)を削除しています。
