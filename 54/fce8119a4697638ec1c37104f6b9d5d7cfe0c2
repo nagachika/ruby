@@ -1,0 +1,4 @@
+refinement で修飾された Module で include を再定義していたのをやめています。こ
+れまで refinement は refine した Module 内ではどこでも影響していたので include
+した時にその Module での refine も混ぜこむようにしていましたが、refine のブロッ
+ク内に影響を限定したのでもう不要になっていました。
