@@ -1,0 +1,5 @@
+Refinement の仕様変更の続き。 send や method 系(instance_method, public_method
+など UnboundMethod や Method オブジェクトを返すメソッド)および respond_to? でも
+refinement の影響を考慮しないようにしています。このために
+rb_method_entry_without_refinements() という関数を追加しているので、ここはあえ
+てそうしているみたいですね。
