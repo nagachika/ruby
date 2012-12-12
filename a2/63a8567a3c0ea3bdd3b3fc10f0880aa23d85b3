@@ -1,0 +1,2 @@
+rubyci の FreeBSD で RubyGems の prelude でエラーになっているので、それを調査す
+るための debug print を入れています。調査用の一時的なものですね。
