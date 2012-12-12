@@ -1,0 +1,5 @@
+r38279 で rb_method_entry_without_refinements() を導入したときに me->def->
+body.orig_me が NULL の時に親クラスを辿る処理がなくなっていたので修正しています
+。 superclass には定義があるメソッド(従って respond_to? には true を返す)を
+Module#refine で拡張して定義すると、その影響で respond_to? で false を返すよう
+になってしまう不具合を修正しています。
