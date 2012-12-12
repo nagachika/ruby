@@ -1,0 +1,2 @@
+Makefile で libruby.so(LIBRUBY_SO)のリンク後にも $(POSTLINK) を呼んで可能なら署
+名をするようにしています。
