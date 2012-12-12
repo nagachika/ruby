@@ -1,0 +1,4 @@
+Windows 環境で拡張ライブラリ dl から fiddle への移行をしているようです。 ext/dl
+/win32/ から ext/fiddle/win32/ へディレクトリごと移動して DL -> Fiddle へ書き換
+えています。 extconf.rb のところはよくわかりませんが、fiddle がコンパイルされて
+いたら dl/win32/ はビルドしないようにしているようです。
