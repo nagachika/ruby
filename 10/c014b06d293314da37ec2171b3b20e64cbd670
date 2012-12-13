@@ -1,0 +1,2 @@
+tool/make-snapshot で $BASERUBY の実行時に受け付けていれば --disable-gem オプシ
+ョンを追加しています。 [ruby-core:50736] [Bug #7541]
