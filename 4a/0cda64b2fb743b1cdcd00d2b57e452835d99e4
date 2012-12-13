@@ -1,0 +1,2 @@
+test/ruby/test_settracefunc.rb に require "envutil" を追加しています。単体で走
+らせた時に必要だったようです。
