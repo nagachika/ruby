@@ -1,0 +1,1 @@
+r38294 での ext/dl/win32/extconf.rb に追加されたメソッド呼び出しの typo 修正。
