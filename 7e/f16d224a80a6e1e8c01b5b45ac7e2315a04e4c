@@ -1,0 +1,6 @@
+Refinement の修正です。 Module#refine のブロック内で include した時に
+refinement の影響範囲内にのみ Mixin が効き、また super で辿る順が refine したメ
+ソッド -> include で Mixin したモジュールのメソッド -> 元のメソッドとなるように
+しています。この変更はややこしいので refine 内での include は禁止したほうがいい
+かも、と書かれているので最近の流れからするとやっぱり禁止されることになるかもし
+れません。
