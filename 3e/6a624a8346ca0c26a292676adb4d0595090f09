@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle の Fiddle::Function.new でキーワード引数の :name にて
+Fiddle::Function#name の指定を受け付けるようにしています。 r38243 で
+instance_eval を使って無理矢理セットしていたのを正式に initialize の引数で対応
+しています。 [ruby-core:50566]
