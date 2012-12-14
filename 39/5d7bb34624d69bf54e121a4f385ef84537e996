@@ -1,0 +1,2 @@
+Process.spawn のテストで spawn に長い文字列を渡すと "too long path" という警告
+が出るので EnvUtil.suppress_warning を使って警告を抑制しています。
