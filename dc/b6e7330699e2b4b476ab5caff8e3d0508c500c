@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_getivar(), vm_setivar() で条件コンパイルとプログラム上の
+if-else の組み合わせで重複していた文をまとめるリファクタリングをしています。
