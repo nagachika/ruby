@@ -1,0 +1,2 @@
+rdoc のテストで character device file として File::NULL を使うようにしています
+。
