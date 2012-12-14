@@ -1,0 +1,5 @@
+sample/test.rb に --verbose オプションを追加して、メッセージを --verbose をつけ
+ないと同じ行で表示する(改行しない)ようにしているみたいです。
+また tool/rubytest.rb で CROSS_COMPILING という定数をチェックしているところで
+defined? で定義されているかどうかだけでなくその内容の真偽値もチェックしています
+。CROSS_COMPILING は通常 rbconfig.rb で定義されるみたいですね。
