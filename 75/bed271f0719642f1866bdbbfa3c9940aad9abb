@@ -1,0 +1,10 @@
+Refinement の修正です。 Module#prepend した時にその Class/Module の IClass を作
+ってメソッドテーブルをその IClass に移動するのですが(prepend した Module のメソ
+ッドのほうを優先して探索するため)、その時に refine されたメソッドはやっぱりオリ
+ジナルの Class/Module のメソッドテーブルに残す(再移動する)ようにしています。
+Refinement で変更されたメソッドは prepend したモジュールのメソッドよりも優先す
+るようです。
+ということは refine で変更したメソッドの中で super すると prepend したモジュー
+ルのメソッドが呼ばれるんですね。というか、今更ですけど refine したメソッドから
+super すると refine で上書きしたメソッドがもともと定義されていたらそれが呼ばれ
+るんですね。これってそういう仕様なのでしょうか。
