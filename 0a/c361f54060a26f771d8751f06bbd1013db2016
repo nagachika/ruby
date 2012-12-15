@@ -1,0 +1,4 @@
+Marshal.load に tainted な文字列からロードした時に関連する Class/Module も
+taint されてしまっていましたが、Class/Module は名前から対応をつけるだけで実体を
+ロードするわけではないので taint しないようにしています。 [ruby-core:49198]
+[Bug #7325]
