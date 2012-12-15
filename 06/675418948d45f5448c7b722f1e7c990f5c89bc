@@ -1,0 +1,4 @@
+UnboundMethod に bind メソッドを呼んでオブジェクトに結びつけて Method にするに
+はそのオブジェクトのクラスと UnboundMethod のもとのクラスが継承関係にないといけ
+ないのですが、Module に定義されたメソッドから作った UnboundMethod はこの制限に
+よらず bind できるように制限を緩めています。 [ruby-core:34267] [Feature #4254]
