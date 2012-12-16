@@ -1,0 +1,5 @@
+r38369 で追加した EnvUtil.assert_separately を使って GC::Profiler のテストや
+ObjectSpace.reachable_objects_from のテストなどを子プロセスで実行するようにして
+います。テストの高速化のためみたいです。テスト中はメモリのヒープが大きいため GC
+の負荷がかかるので新しいプロセスを作ってそちらで実行することで高速化しようとし
+ているのだと思います。
