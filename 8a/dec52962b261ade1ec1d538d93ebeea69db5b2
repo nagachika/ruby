@@ -1,0 +1,3 @@
+RDoc の修正。 rubygems インストール時の rdoc 生成のデフォルトを false にしてい
+ます。RubyGems 側のデフォルトの設定にそろえている、ということですが RubyGems
+::RDoc と RDoc の関係はどういうふうになってるんでしょうね。
