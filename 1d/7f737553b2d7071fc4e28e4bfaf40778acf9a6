@@ -1,0 +1,4 @@
+r38365 で VC++ の最適化対策で入れた volatile つき変数の宣言を revert して、VC++
+でコンパイルする時に __forceinline という修飾子を付けることで vm_call_general()
+と vm_call_super_method() がまとめられるのを防ぐように変更しています。
+[ruby-core:50867] [Bug #7556]
