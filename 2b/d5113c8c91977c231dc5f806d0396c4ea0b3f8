@@ -1,0 +1,3 @@
+r38369 で追加した Test::Unit::Assertions#assert_separately の子プロセスが親に渡
+す結果の出力方法を修正しています。 assertion の数も返して親プロセスで
+_assertions に追加するようにしています。
