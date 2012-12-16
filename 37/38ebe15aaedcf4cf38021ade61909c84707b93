@@ -1,0 +1,2 @@
+r38364 の再修正。Class#initialize_copy と Module#initialize_copy は実体が同じに
+なったので Class#initialize_copy の定義は削除しています。
