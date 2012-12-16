@@ -1,0 +1,9 @@
+Class#initialize_copy を再定義して使うとクラスの superclass を変更できてしまう
+という不具合の修正。super すると Class#initialize_copy の実装でチェックしていた
+のをスキップされて Module#initialize_copy を実行し、ここでチェックがされていな
+かったので initialize_copy に superclass にしたいクラスを継承したクラスを渡すと
+superclass もコピーするので上書きされてしまっていました。 Module#
+initialize_copy で clone が T_CLASS の時はチェックするようにしています。
+[ruby-core:50869] [Bug #7557]
+新しくコミッタになった charliesome さんの初コミットです。 Charlie, Wellcome to
+ruby-core team.
