@@ -1,0 +1,4 @@
+signal.c の default_handler() で SIGSEGV のハンドラを再設定する時に
+rb_register_sigaltstack() を呼んでいたのを削除しています。メインスレッドは
+Init_signal() で、その他のスレッドは thread_start_func_2() でスレッド生成する時
+に呼ぶので再度呼ぶ必要はありませんでした。
