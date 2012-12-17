@@ -1,0 +1,4 @@
+io_flush_buffer_async2() という関数も追加しています。これも
+rb_thread_call_without_gvl2() を使うようにした io_flush_buffer_async() の代替で
+す。そして io_flush_buffer() で io_flush_buffer_async2() を使うように変更してい
+ます。
