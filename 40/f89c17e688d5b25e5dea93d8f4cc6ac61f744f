@@ -1,0 +1,4 @@
+mingw32 の環境で __sync_val_compare_and_swap がなくて ATOMIC_CAS() が定義できな
+くてコンパイルエラーになるのを、gcc 拡張のチェックを linux に限定していたので
+os をチェック対象から外して mingw32 でも利用できるように configure を修正してい
+ます。 [ruby-core:50424] [Bug #7485]
