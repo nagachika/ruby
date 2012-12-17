@@ -1,0 +1,6 @@
+test/ruby/test_thread.rb で利用する Thread を継承した TestThread::Thread で
+Thread#abort_on_exception *1の変更を消しています。グローバルな変更をするべきで
+はない、ということなのですが Thread.abort_on_exception= (クラスメソッド)は全て
+の Thread の挙動を変えますが Thread#abort_on_exception= (インスタンスメソッド)
+はその Thread のみ指定するので global flag というのとはちょっと違うかも。デフォ
+ルトの挙動でテストすべきというのはわかりますが。
