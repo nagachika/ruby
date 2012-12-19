@@ -1,0 +1,7 @@
+Class/Module を clone した時にその特異メソッド内の cref が複製されていなくて
+Class/Module 内の定数が探索できていない不具合を修正しています。
+rewrite_cref_stack() という関数で iseq->cref_stack (スタックといっているけど
+linked list で表現されている)の nd_klass を新しい Class/Module にすりかえていま
+す。node->nd_class == old_klass の時に更に nd_next を辿って変更しようとしていな
+いのはいいんでしょうか。 cref なので同じクラスが複数回でてくることはあるりそう
+ですけど。 [ruby-core:47834] [Bug #7107]
