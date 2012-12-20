@@ -1,0 +1,9 @@
+OpenSSL::SSL::SSLContext#options のデフォルト値を OpenSSL::SSL::OP_ALL &
+~OpenSSL::SSL::OP_DONT_INSERT_EMPTY_FRAGMENTS に変更しています。これは
+insertion of empty fragments を可能にして暗号化の攻撃に対処できるようにしている
+みたいです。詳しくはチケットやそこから参照されているリンク先へ! CBCモード(ブロ
+ック暗号でブロック間を混ぜ合わせる方法のひとつ)に対する攻撃の対処が入っているの
+ですが、これがデフォルトのオプションだと有効にならないので対象のビットフラグを
+落とすようにしています。一部の SSL/TLS 実装はこの対処をしたプロトコルをうまく扱
+えないからデフォルトで有効にしていないということですが、Ruby の openssl はデフ
+ォルトで有効になります(2.0 から?)。 [ruby-core:39673] [Bug #5353]
