@@ -1,0 +1,4 @@
+lib/optparse.rb に " Developer Documentation (not for RDoc output)" と評された
+コメントがあるのでこれを rdoc で解釈しないようにコメントアウトしています。 "#
+--" の行でコメントアウト開始、"#++" の行で戻すということができるんですねぇ。
+[ruby-core:50526] [Bug #7504]
