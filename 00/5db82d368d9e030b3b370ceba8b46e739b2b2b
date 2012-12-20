@@ -1,0 +1,3 @@
+rb_thread_wait_fd_rw() で rb_wait_for_single_fd() が正の数を返すまでループして
+いるところがあったのですが、rb_wait_for_single_fd() は正の数を返さないので無限
+ループしてたのを修正しています。なんということでしょう。
