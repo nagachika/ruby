@@ -1,0 +1,3 @@
+拡張ライブラリ psych のパーサの一部 Psych::Visitors::ToRuby#
+visit_Psych_Nodes_Mapping で大きな case 文で、頻出するもの(よくマッチするもの)
+を前のほうに移動させることでパフォーマンスを改善させようとしています。
