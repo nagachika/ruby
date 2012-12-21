@@ -1,0 +1,4 @@
+r38458 の TracePoint のテストでブロックを抜けるのに break してしまって local
+jump になっていたので next で抜けるようにしています。なお TracePoint.new
+{break}.enable{nil} すると処理が返ってこなくなるので、これはこれで対処しないと
+いけなさそうです。何が起きているんだろう。
