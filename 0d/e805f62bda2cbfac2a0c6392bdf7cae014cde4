@@ -1,0 +1,3 @@
+test/ruby/test_syntax.rb で定義していたカスタム assertion を test/ruby/
+envutil.rb に移動しています。また assert_normal_exit で渡されたスクリプトの文法
+エラーをチェックするようにしています。
