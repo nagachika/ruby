@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の暗号化機能に Authenticated Encryption with Associated
+Data (AEAD) 機能のサポートを追加しています。 OpenSSL::Cipher:XXX に auth_data,
+auth_tag メソッドを追加して認証情報? 付きで暗号化して同じ情報を与えないと復号化
+できないようになるみたいです。 [ruby-core:47426] [Feature #6980]
