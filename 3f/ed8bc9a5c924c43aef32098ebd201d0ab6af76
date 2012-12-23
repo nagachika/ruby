@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle の ext/fiddle/lib/fiddle/import.rb に dl からコピーしてき
+た時の名残りで CPtr のままだった定数参照があったので Pointer に修正しています。
