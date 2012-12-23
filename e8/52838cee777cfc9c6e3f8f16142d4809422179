@@ -1,0 +1,2 @@
+同じく拡張ライブラリ fiddle の ext/fiddle/lib/fiddle/struct.rb にも CPtr を参照
+していたところが残っていたので Pointer に修正しています。
