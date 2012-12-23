@@ -1,0 +1,1 @@
+vm_trace.c の rb_suppress_tracing() の未使用のローカル変数を削除しています。
