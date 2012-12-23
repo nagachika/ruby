@@ -1,0 +1,7 @@
+ruby の -r オプションで require したスクリプト内で TOPLEVEL_BINDING で参照した
+Binding が本体のスクリプトの TOPLEVEL_BINDING と同じものを参照していないらしく
+、-r オプションでロードしたスクリプト内で TOPLEVEL_BINDING.eval でローカル変数
+を定義しても未定義のままになってしまう不具合を修正しています。 TOPLEVEL_BINDING
+に含まれている rb_env_t の内容は変更されることがあるので必要な時は毎回
+TOPLEVEL_BINDING 定数に格納されているオブジェクトから再取得するようにしています
+。 [ruby-core:50701] [Bug #7536]
