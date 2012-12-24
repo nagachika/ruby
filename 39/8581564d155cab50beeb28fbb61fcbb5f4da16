@@ -1,0 +1,10 @@
+rb_io_wait_readable() および rb_io_wait_writable() で errno == EINTR 時に
+rb_thread_wait_fd() や rb_thread_fd_writable() を呼んで対象の fd が読み込み/書
+き込み可能になるのを待っていたところを、rb_thread_check_ints() を呼んで return
+するようにしています。
+ソース中に追記されたコメントによると古い Linux で /proc や /sys のファイルに対
+して select(2) が正しく動かなくてブロックしっぱなしになる可能性があったそうです
+。そのためここでは RUBY_VM_CHECK_INTS_BLOCKING() で割り込みチェックだけして再試
+行すれば良いということにしているそうです。 EINTR で返ってきたということは割り込
+みを受けて処理が戻ってるのですぐに再試行してもいいはず、ということだと思います
+。
