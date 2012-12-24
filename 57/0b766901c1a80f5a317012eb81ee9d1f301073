@@ -1,0 +1,4 @@
+Net::HTTPRequest にリクエストする URI のパスのみでなく URI そのものも保持して
+uri メソッドで取得できるようにしています。また Net::HTTPResponse にも uri メソ
+ッドでそのレスポンスの元になったリクエストの URI を取得できるようにしています。
+[ruby-core:45193] [Feature #6482]
