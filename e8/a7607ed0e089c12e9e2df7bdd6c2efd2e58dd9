@@ -1,0 +1,3 @@
+irb の IRB::InputMethod の readable_atfer_eof? というメソッドの typo を修正して
+メソッド名を readable_after_eof? に改名しています。 [ruby-core:51069] [Bug #
+7599]
