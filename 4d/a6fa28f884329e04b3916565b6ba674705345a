@@ -1,0 +1,2 @@
+irb の定数 IRB::INSPECTORS を IRB::Inspector::INSPECTORS に移動し、メソッドも
+IRB::Inspector のクラスメソッドに移動しています。 [ruby-core:51067] [Bug #7598]
