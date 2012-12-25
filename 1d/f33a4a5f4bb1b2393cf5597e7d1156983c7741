@@ -1,0 +1,5 @@
+rb_compile_error(), rb_compile_warn(), rb_compile_warning(), rb_warn(),
+rb_warning() などのメッセージ出力する関数のフォーマット文字列にも %PRIsVALUE で
+文字列として String オブジェクトを渡す指示子が利用できるようにしています。こう
+することで文字列オブジェクトから RSTRING_PTR() で C の文字列を使うために
+RB_GC_GUARD() を使うことを避けることができます。
