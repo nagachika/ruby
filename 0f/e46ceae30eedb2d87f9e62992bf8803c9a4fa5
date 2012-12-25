@@ -1,0 +1,4 @@
+rb_obj_respond_to() によるメソッド有無のチェックとメソッド呼び出しをセットにし
+た rb_check_funcall() にさらにメソッド呼び出し前に実行するフック関数を指定でき
+るようにした rb_check_funcall_with_hook() を新設して、marshal.c で利用していま
+す。
