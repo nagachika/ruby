@@ -1,0 +1,2 @@
+拡張ライブラリ dl の ext/dl/callback/callback.c を common.mk の SRCS_EXT 変数に
+含めています。どうやらこれは自動生成するソースを指定するもののようです。
