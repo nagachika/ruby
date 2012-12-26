@@ -1,0 +1,4 @@
+Net::HTTPRequest で POST メソッド等の body が空の時に content-length ヘッダにサ
+イズ 0 を明示して渡すようにしています。こうしないとサーバが 411 "Length
+Required" を返すことがあるらしいです。参考URL: https://github.com/ruby/ruby/
+pull/201
