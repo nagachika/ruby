@@ -1,0 +1,4 @@
+eval_intern.h の CHECK_STACK_OVERFLOW() を vm_core.h に移動して
+CHECK_VM_STACK_OVERFLOW() に改名するなどのリファクタリングです。スタックサイズ
+変更に関連して vm_core.h にスタックサイズ関係のマクロが集中したのでそこに持って
+きているのでしょうか。
