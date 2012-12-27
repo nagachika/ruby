@@ -1,0 +1,3 @@
+NameError の Marshal.dump 用のメソッドの実装で to_str の実装である
+name_err_mesg_to_str() を使いまわしていたのですが、引数の数が一致していないので
+きちんと別に関数(name_err_mesg_dump)を定義してそれを使うようにしています。
