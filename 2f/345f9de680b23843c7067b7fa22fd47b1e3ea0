@@ -1,0 +1,3 @@
+r38595 で recursive_check() のコメントの 'iff' という単語を 'if' にしたのを元に
+戻しています。 iff は "if and only if" (iff A は「A のときかつその時のみ」)とい
+う意味なので typo ではなかったとのこと。
