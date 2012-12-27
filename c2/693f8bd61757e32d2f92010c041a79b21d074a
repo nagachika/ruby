@@ -1,0 +1,9 @@
+set_trace_func の "return" イベントのハンドラブロック内で例外が発生した時に、
+trunk では例外が外にも伝播するのですが rescue や ensure が効かずにすり抜けてし
+まう不具合があったのを修正しています。ちなみに 1.9 でも set_trace_func のハンド
+ラが繰り返し呼ばれる無限ループ状態に陥るそうです。
+EXEC_EVENT_HOOK_AND_POP_FRAME() という関数マクロと
+rb_threadptr_exec_event_hooks_and_pop_frame() という関数を導入してイベントハン
+ドラの呼び出しで TH_TAG_JUMP() で例外や throw など大域脱出する時に VM スタック
+フレームを pop するようにしています。関連して r38331 の一部も revert されていま
+す。 [ruby-core:51128] [Bug #7624]
