@@ -1,0 +1,4 @@
+rb_enc_cr_str_copy_for_substr() という部分文字列の String オブジェクトにエンコ
+ーディングを設定する関数で、部分文字列が空文字列だったら RBasic::flags に立てる
+フラグを常に ENC_CODERANGE_VALID もしくは ENC_CODERANGE_7BIT にするようにしてい
+ます。
