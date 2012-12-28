@@ -1,0 +1,3 @@
+string.c の rb_str_enumerate_chars() で部分文字列を切り出した String オブジェク
+トを変数に格納して RB_GC_GUARD() を使っています。しかし RB_GC_GUARD() に str を
+渡しているのですが str は引数なので不要で、substr の間違いじゃないでしょうか?
