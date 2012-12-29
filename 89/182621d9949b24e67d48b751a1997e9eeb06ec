@@ -1,0 +1,3 @@
+StringIO#gets の第2引数 limit に nil を渡した時に TypeError を発生させていたの
+ですが、IO#gets の場合は limit なしとみなすのでその挙動を合わせるように修正して
+います。 [ruby-core:48531] [Bug #7232]
