@@ -1,0 +1,3 @@
+r38542 で irb の IRB::INSPECTORS を IRB::Inspector::INSPECTORS に移動した影響で
+IRB.keys_with_inspector で定数参照が必要になっていたので修正しています。
+[ruby-core:51067] [Bug #7598]
