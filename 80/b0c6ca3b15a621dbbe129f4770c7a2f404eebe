@@ -1,0 +1,4 @@
+IRB::Context#new で defined?(Context) と名前空間の明示的指定なしでチェックして
+いたのを defined?(IRB::Context) と定数のパスを明示的に指定するようにしています
+。 JobManager というクラスを定義すると誤動作するため。 [ruby-dev:46801] [Bug #
+7628]
