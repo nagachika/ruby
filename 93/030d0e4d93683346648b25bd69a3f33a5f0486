@@ -1,0 +1,4 @@
+標準添付ライブラリ csv の CSV::Row に fetch, has_key? といった Hash のようなメ
+ソッドを追加しています。 fetch の引数 varargs を rest 引数として受け取ったうえ
+でサイズが2以上だったら ArgumentError にしているんですけど、これ省略可能引数(デ
+フォルト値つき引数)でよかったんじゃ?
