@@ -1,0 +1,2 @@
+def/id.def で 1.8 版の ruby でも動くように String#lines のかわりに split(/^/)
+による分割を使うように書き換えています。
