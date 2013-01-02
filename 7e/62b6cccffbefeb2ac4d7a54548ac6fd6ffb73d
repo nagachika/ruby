@@ -1,0 +1,3 @@
+Kernel#caller_locations およびそれが返すオブジェクトである
+Thread::Backtrace::Location のメソッドの rdoc コメントの追記をしています。また
+Kernel#caller の rdoc も修正しています。
