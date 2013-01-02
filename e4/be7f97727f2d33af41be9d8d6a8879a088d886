@@ -1,0 +1,2 @@
+caller_locations の引数に Range を受け付けるようにした r37957 のテストを追加し
+ています。 [ruby-core:50092] [Feature #7434]
