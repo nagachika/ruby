@@ -1,0 +1,1 @@
+ext/zlib/zlib.c の Zlib::GzipReader の rdoc コメントの typo を修正しています。
