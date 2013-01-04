@@ -1,0 +1,3 @@
+同じく bootstraptest/test_thread.rb で while 文のブロックを1行で do ... end で
+記述しているところをセミコロン(";") と end で書くように変更しています。これも
+ruby-mode.el がインデントの誤判定をするのを避けるための書き換えだそうです。
