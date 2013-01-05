@@ -1,0 +1,3 @@
+標準添付ライブラリ forwardable.rb の rdoc のサンプルコードが省略された書きかた
+だったのを実際に動くサンプルとして書き直しています。 https://github.com/ruby/
+ruby/pull/231
