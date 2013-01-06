@@ -1,0 +1,3 @@
+標準添付ライブラリ forwardable.rb の rdoc の def_single_delegator についての説
+明内の引数の名称をメソッド定義の仮引数名と揃えるように修正しています。 https://
+github.com/ruby/ruby/pull/230
