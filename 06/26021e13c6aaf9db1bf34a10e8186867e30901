@@ -1,0 +1,3 @@
+NativeClient では fcntl(2) で F_DUPFD_CLOEXEC や F_DUPFD を使った fd の dup が
+できないので条件コンパイルの分岐を修正して __native_client__ が定義されていたら
+dup2(2) を利用するようにしています。
