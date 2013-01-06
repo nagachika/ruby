@@ -1,0 +1,2 @@
+r38692 で Makefile.in で $(RBCONFIG) を参照するようにしたので RBCONFIG の定義を
+common.mk から Makefile.in と win32/Makefile.sub に移動しています。
