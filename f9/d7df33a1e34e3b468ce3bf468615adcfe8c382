@@ -1,0 +1,3 @@
+make run と make parse (って何だろ?)も fake を依存関係に含めてクロスコンパイル
+している時(NativeClient とか)に miniruby ではなく baseruby でスクリプトを実行さ
+せるようにしています。
