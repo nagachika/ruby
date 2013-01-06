@@ -1,0 +1,7 @@
+bootstraptest/test_io.rb と bootstraptest/test_literal.rb のテストで
+NativeClient 版では実行できない処理(File.unlink とバッククオート(``) によるコマ
+ンドの実行)をスキップするようにしています。またそのために bootstraptest/
+runner.rb に nacl? というメソッドを追加して実行体のパスから NativeClient 版かど
+うか判定するようにしています。あと configure で NaCl では PIE を無効にしたり
+libnosys というライブラリのリンクオプションをつけるかどうかを条件を追加したりし
+ています。
