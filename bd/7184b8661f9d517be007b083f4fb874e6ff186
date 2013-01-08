@@ -1,0 +1,2 @@
+test/net/http/test_http.rb で警告メッセージが出力される部分を
+EnvUtil.suppress_warning のブロックで囲んで警告を抑制するようにしています。
