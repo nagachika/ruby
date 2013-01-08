@@ -1,0 +1,8 @@
+r38683 で NativeClient 版で fd の dup の実装を dup2(2) を使うように conditional
+compile の条件を変更していたのを r38699 で条件をより厳密にした結果不要になった
+defined(__native_client__) を削除しています。また dup2(2) は fcntl(2) に
+F_DUPFD を使ったのと同じ挙動をしない(移動先の newfd が既に使われていた時に dup2
+は強制的にその番号を再利用してしまう)ので、dup(2) を使って繰り返し複製してみて
+それが minfd を越えた時にはじめてそれを採用するような実装に変更しています。
+rb_cloexec_fcntl_dupfd() を再帰呼び出しすることで dup(2) で途中に複製された fd
+は close するようにしています。 [ruby-dev:46834]
