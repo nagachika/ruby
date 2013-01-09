@@ -1,0 +1,2 @@
+NEWS ファイルに起動時に環境変数で VM Stack Size および Machine Stack Size を指
+定できる機能について追記しています。
