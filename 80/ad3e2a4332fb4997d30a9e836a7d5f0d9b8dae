@@ -1,0 +1,4 @@
+test/ruby/test_syntax.rb の assert_not_label で assert_valid_syntax を利用して
+いたのを assert_nothing_raised で代替しています。引数がマッチしなくなった、とい
+うより元から一致していなかったみたいですね。あと @result に値を入れるため同じス
+コープで eval する必要があったようです。
