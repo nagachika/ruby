@@ -1,0 +1,2 @@
+また test/ruby/envutil.rb に SyntaxError になることを確認する
+assert_syntax_error という新しい assertion を追加しています。
