@@ -1,0 +1,6 @@
+TracePoint のフックのイベントの種類を表すビットフラグの
+RUBY_EVENT_SPECIFIED_LINE を値を変更して、RUBY_EVENT_SWITCH/RUBY_EVENT_COVERAGE
+と共に special events としています。また RUBY_EVENT_SPECIFIED_LINE のイベントで
+も TracePoint からは :line イベントとして見えるようにしています。
+このフラグは experimental で 2.0.1 からまた名前が変わったり消されるかもしれない
+よとのことです。
