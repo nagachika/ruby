@@ -1,0 +1,4 @@
+r38744 の load.c の修正を再修正しています。既存の ThreadShield が Mutex を保持
+していなかった時は、既にそれは使われていない、つまり待っている Thread がないの
+で、新しい ThreadShield を作って loading_tbl に追加するようにしています。この場
+合 return 0 で返ってもいいんでしょうか? [ruby-core:50645] [Bug #7530]
