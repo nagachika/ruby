@@ -1,0 +1,3 @@
+m68k で struct RBasic のアライメントエラーが発生してしまうため gcc (__GNUC__ が
+定義されていたら)では _attribute__((aligned())) を使って VALUE 型のサイズに
+align するように宣言しています。 [ruby-core:51224] [Bug #7647]
