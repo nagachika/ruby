@@ -1,0 +1,3 @@
+DTrace の probe のインタフェースに LOAD_RETURN, REQUIRE_RETURN にファイル名と行
+番号を追加しています。また probe.d に各 probe の説明のコメントを追記しています
+。
