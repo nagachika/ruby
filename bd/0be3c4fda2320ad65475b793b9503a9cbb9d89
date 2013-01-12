@@ -1,0 +1,2 @@
+r38144 以降 IA64版の RB_GC_SAVE_MACHINE_REGISTER_STACK() に文法エラーがあってコ
+ンパイルできていなかったのを修正しています。
