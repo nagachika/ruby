@@ -1,0 +1,5 @@
+numeric.c の do_coerce で coerce メソッドの呼び出しを rb_rescue() を使って行な
+っていたところを rb_check_funcall() を使って余分な例外の発生を抑制するパフォー
+マンスの最適化を行っています。 [ruby-core:51213] [Bug #7645]
+v は (rb_raise が NORETURN なので効かないかもしれないけど) RB_GC_GUARD() してい
+たほうがいいかもしれませんね。
