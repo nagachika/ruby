@@ -1,0 +1,2 @@
+IA64 で swapcontext(3) を使った Fiber がうまく動いてなかったそうで #defined
+(__ia64) の時は FIBER_USE_NATIVE を 0 に定義するようにしています。
