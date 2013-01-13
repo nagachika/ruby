@@ -1,0 +1,3 @@
+tool/mkrunnable.rb でファイルパスの組み立てとプラットフォームの判定を変更してい
+ます。 mswin 環境向けのビルドを remote file system (Windows のファイル共有のこ
+とでしょうか?)で実行できるようにしているそうです。
