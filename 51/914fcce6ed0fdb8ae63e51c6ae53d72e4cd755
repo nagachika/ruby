@@ -1,0 +1,3 @@
+Windows 向けビルドのリファクタリング? win32/setup/mak で -osname- というルール
+を追加して -runtime- ルールから target_os の指定を出力する部分を切り出していま
+す。よくわかりませんけど…。
