@@ -1,0 +1,2 @@
+ruby --help での --external-encoding と --internal-encoding の順番をいれかえて
+います。 -E オプションの引数でまとめて指定する時の順序に合わせているとのこと。
