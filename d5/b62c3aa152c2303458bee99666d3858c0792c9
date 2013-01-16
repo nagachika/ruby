@@ -1,0 +1,2 @@
+Regexp.new, Regexp.compile の rdoc コメントの省略可能な第3引数の仮引数名を
+kcode に修正し、説明も加筆しています。
