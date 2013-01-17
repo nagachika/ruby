@@ -1,0 +1,5 @@
+doc/syntax/calling_methods.rdoc の引数の説明に "Positional Argument" (通常の引
+数に加えて省略可能引数と rest 引数も含めたもののようです)、"Keyword Argument"
+を追記したり、ブロックパラメータ(ブロックに渡す引数)の仮引数の記述でブロックロ
+ーカルパラメータを定義できることなどを追記しています。
+こうしてみると Ruby の引数の仕様はずいぶん複雑ですね。
