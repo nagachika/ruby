@@ -1,0 +1,2 @@
+doc/syntax/control_expressions.rdoc というファイルを追加して if, unless, case,
+while, until, for, break, next, redo などの制御構文の説明を記述しています。
