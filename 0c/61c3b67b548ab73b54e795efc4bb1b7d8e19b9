@@ -1,0 +1,8 @@
+拡張ライブラリ win32ole で Thread の起動を捕捉して WIN32OLE.ole_initialize を呼
+ぶようにしているのですが、 Thread#initialize を再定義すると本来 thread local で
+あるべき svar が共有されてしまうという問題で flip-flop 条件式のテストが失敗して
+いたので、 Thread#initialize の再定義ではなく TracePoint で thread_start と
+thread_end で WIN32OLE.ole_initialize と WIN32OLE.ole_uninitialize を呼ぶように
+設定するように実現方法を変更しています。 [ruby-core:51365] [Bug #7681]
+Thread#initialize の再定義時の挙動もそれはそれで問題なのでしょうけど、どうも修
+正が難しいという判断だったみたいですね。
