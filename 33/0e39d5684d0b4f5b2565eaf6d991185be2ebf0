@@ -1,0 +1,2 @@
+io.c の pipe_open() で HAVE_SPAWNVE が未定義の時に未使用の変数の警告になるのを
+除去しています。
