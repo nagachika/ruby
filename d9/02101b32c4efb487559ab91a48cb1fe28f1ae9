@@ -1,0 +1,3 @@
+doc/syntax/control_expressions.rdoc と doc/syntax/exceptions.rdoc に retry 文に
+ついて追記しています。 retry って 1.9 以降 rescue 節でしか使えなくなってるんで
+すね。忘れてた……。
