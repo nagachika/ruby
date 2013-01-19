@@ -1,0 +1,4 @@
+RubyGems を 2.0.0.preview3.1 から 2.0.0.rc.2 にアップデートしています。 $SAFE=1
+の環境で install が動作するように String#untaint の呼び出しの追加をしている変更
+と、Gem.refresh した時に gem の active かどうかの状態が消えてしまっていた不具合
+修正を修正しています。
