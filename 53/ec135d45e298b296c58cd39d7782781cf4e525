@@ -1,0 +1,1 @@
+eval.c の ruby_finalize() のコメントの typo を修正しています。
