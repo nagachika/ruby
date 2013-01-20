@@ -1,0 +1,3 @@
+r38868 の変更により r38848 で書き換えた TracePoint を使って Thread の開始、終了
+時に WIN32OLE.ole_initialize, ole_uninitialize を呼び出すフックを登録する処理は
+不要になったので削除しています。 [ruby-core:27634] [Bug #2618]
