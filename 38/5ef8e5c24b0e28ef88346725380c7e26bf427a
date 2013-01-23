@@ -1,0 +1,6 @@
+tool/mkconfig.rb で rbconfig.rb を生成する時に BASERUBY を出力しないようにして
+います。また拡張ライブラリ json の parser をビルドする時に VPATH と BASERUBY を
+設定するようにしています。
+tool/mkconfig.rb の2つめの hunk (l.135 あたり)の変更は val に String#dump した
+文字列が入っているので文字列リテラルの連結を利用するようにしているということで
+しょうか。
