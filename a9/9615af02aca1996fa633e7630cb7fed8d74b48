@@ -1,0 +1,3 @@
+r37913, r38419 で追加された doc/global.rdoc および doc/syntax.rdoc の svn
+property の設定。
+最近 svn property の設定が遅延することが多いですね。
