@@ -1,0 +1,2 @@
+__dir__ の NEWS の説明と rdoc 用コメントを再度修正しています。 File.realdirpath
+(__FILE__) と同等であるとしています。 [ruby-core:51578] [Bug #7729]
