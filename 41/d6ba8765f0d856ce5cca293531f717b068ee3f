@@ -1,0 +1,6 @@
+Enumerator::Lazy#zip で引数を lazy で Enumerator::Lazy 化して取り扱うようにして
+いたのを to_enum で Enumerator に変換して使うように変更しています。これにより
+Enumerator::Lazy#zip が返す Enumerator::Lazy を繰り返し force で評価しても同じ
+結果が返るようにしています。これどっちがいいのか迷うところだと思うのですが、他
+と合わせたのでしょうか。 [ruby-core:51430] [Bug #7696] [ruby-core:51420] [Bug #
+7691]
