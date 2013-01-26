@@ -1,0 +1,3 @@
+再度 __dir__ のドキュメントの説明を修正しています。 File.realdirpath と
+File.dirname(File.realpath) はパスの最後の要素が存在しない時にエラーになるかど
+うかで微妙に挙動が異なるそうです。 [ruby-core:51578] [Bug #7729]
