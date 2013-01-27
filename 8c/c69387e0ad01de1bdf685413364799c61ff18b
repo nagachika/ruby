@@ -1,0 +1,4 @@
+Process.spawn のテストでパスとして非常に長い文字列を渡した時のテストで 10MB も
+の文字列を渡していたのを 1MB からはじめて、NoMemoryError が発生したら小さくして
+retry するように修正しています。 [ruby-core:51592] [Bug #7721]
+assert_fail_too_long_path() の第1引数に ML番号を渡しているのは意図的でしょうか?
