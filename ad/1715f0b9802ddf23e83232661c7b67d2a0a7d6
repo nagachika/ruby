@@ -1,0 +1,5 @@
+Windows 環境での Kernel#system のテストで利用していたコマンドが ping.exe を打つ
+というもので環境に依存していたので find.exe を利用するように変更しています。
+[ruby-core:50396] [Bug #7482]
+しかし条件が反対の assert があってまだテストが通ってないそうです。 http://
+ci.rubyinstaller.org/job/ruby-trunk-x64-test-all/607/console
