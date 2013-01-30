@@ -1,0 +1,3 @@
+rb_debug_inspector_???_get というデバッガ用の情報をスタックフレームから
+rb_debug_inspector_t という構造体を介して取得する関数群で index を int から
+long に変更しています。
