@@ -1,0 +1,2 @@
+Net::HTTP::GenericRequest の multipart form data の処理で生成した Tempfile を利
+用後に明示的に Tempfile#close(true) で削除するようにしています。
