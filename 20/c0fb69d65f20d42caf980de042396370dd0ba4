@@ -1,0 +1,3 @@
+Array#bsearch と Range#bsearch でブロックから返された値が true, false, nil もし
+くは整数以外だった時になんとなく真偽値として変換して使うようにしていたのを
+TypeError が発生するようにしています。 [ruby-core:51565] [Bug #7726]
