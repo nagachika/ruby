@@ -1,0 +1,4 @@
+Range#bsearch の start と end が Rational や BigDecimal などの精度の制限のない
+数値を表すクラスの場合に際限なく yield を繰り返し続ける場合があるので Float と
+Integer 以外の数値は許容しないようにしています。具体的には integer? メソッドを
+呼んで判定しています。 [ruby-core:51573] [Bug #7728]
