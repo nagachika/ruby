@@ -1,0 +1,2 @@
+Module#attr_reader の rdoc 用コメントで引数名が signature と説明文で一貫性が取
+れていなかったのを修正。 [ruby-core:51737] [Bug #7753]
