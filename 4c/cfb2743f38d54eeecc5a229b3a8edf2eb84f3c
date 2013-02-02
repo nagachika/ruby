@@ -1,0 +1,11 @@
+拡張ライブラリ socket の Addrinfo で UNIX ドメインソケットの path に空文字を渡
+された時に、bind(2) で auto bind という機能で自動的に抽象アドレス(abstract
+address)の名前が割り振られるのに倣って sock_len に sizeof(sa_family_t) を返すよ
+うにしています。またこれに追随して UNIX ドメインソケットの抽象アドレスかどうか
+の判定に空文字も条件に追加されるようにしています。なお先日から UNIX ドメインソ
+ケットに NUL 文字('\0')が許容されるようだと書いていましたが、これは Linux の拡
+張である抽象アドレスという機能によるもので、名前の先頭を NUL 文字にすることで区
+別するようになっているそうでした。
+参考URL:
+http://linux.die.net/man/7/unix
+http://linuxjm.sourceforge.jp/html/LDP_man-pages/man7/unix.7.html
