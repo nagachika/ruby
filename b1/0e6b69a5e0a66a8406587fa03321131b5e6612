@@ -1,0 +1,2 @@
+test/ruby/test_signal.rb のテストで STDOUT.sync = false とすべきところが sync =
+false とローカル変数になっていたのを修正しています。
