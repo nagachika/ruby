@@ -1,0 +1,2 @@
+r39059 で追加した Range#bsearch のテストで assert_separately を使ってエラー時に
+より意味のある assertion が出るように書き直しています。
