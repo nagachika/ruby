@@ -1,0 +1,2 @@
+racc の do_parse と yyparse の定義に class_eval に文字列を渡していたのを
+__send__ を使った定義をするように修正しています。
