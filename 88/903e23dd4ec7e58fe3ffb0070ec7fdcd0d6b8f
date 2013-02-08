@@ -1,0 +1,2 @@
+OpenBSD で Process.setsid のテストが失敗するので skip するようにしています。
+[ruby-core:51889] [Bug #7789]
