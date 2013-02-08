@@ -1,0 +1,4 @@
+doc/rubygems/ の古いドキュメントを削除しています。また lib/rubygems/LICENSE.txt
+にライセンスファイルを追加(doc/rubygems/ から移動?)し、また lib/rubygems.rb な
+どで rdoc のドキュメントが正しく生成されるように require の位置をコメントと
+module Gem の間からコメントの前に移動しています。
