@@ -1,0 +1,2 @@
+Hash#reject! と Hash#select! で内部的に生成した keys の配列の klass = 0 にセッ
+トして ObjectSpace.each_object から見えないようにしています。
