@@ -1,0 +1,2 @@
+configure で RUBY_VERSION_NAME という定数を定義して ruby.pc にも出力するように
+しています。
