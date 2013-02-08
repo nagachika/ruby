@@ -1,0 +1,4 @@
+shvar_to_cpp() で ${arch}, ${sitearch} の置換する変数名を変更しています。また
+RUBY_ARCH_LIB_FOR()、RUBY_SITE_ARCH_LIB_FOR()、RUBY_VENDOR_ARCH_LIB_FOR() など
+のマクロを定義して、それを使って version.h の標準のライブラリロードパスの定数マ
+クロを定義するようにしています。
