@@ -1,0 +1,3 @@
+doc/pty/README.expect という拡張ライブラリ pty の IO#expect についてのドキュメ
+ントのファイルは削除して、ext/pty/lib/expect.rb に rdoc 用コメントとして追記し
+ています。
