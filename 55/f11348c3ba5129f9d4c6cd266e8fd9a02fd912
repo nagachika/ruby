@@ -1,0 +1,1 @@
+CSV.dump/load の削除に伴い doc/security.rdoc の CSV の項目も削除しています。
