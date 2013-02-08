@@ -1,0 +1,4 @@
+メソッドの定義位置を取得する C の API rb_method_entry_location() および
+rb_mod_method_location()、rb_obj_method_location() を追加して、r39069 でインタ
+プリタ内部から再定義された respond_to? を呼び出す時に arity が 1 だった時に出力
+する警告にそのメソッド定義のファイルパスや行数も表示するようにしています。
