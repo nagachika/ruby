@@ -1,0 +1,3 @@
+アーキテクチャ依存のライブラリロードパスを configure オプション
+--with-rubyarchprefix, --with-arch-sitedir, --with-arch-vendordir などで指定で
+きるようにしています。ここまでこの変更のための準備だったんですね、多分。
