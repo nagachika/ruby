@@ -1,0 +1,3 @@
+tool/vpath.rb で -path-separator オプションのデフォルト値として
+RbConfig::CONFIG を参照しようとしていたのですが、rbconfig.rb の生成に tool/
+vpath.rb が必要ということで省略不可能にしています。
