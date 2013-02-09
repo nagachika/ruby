@@ -1,0 +1,3 @@
+configure で共有ライブラリのリンク用のオプションの設定を MirOS BSD という OS で
+OpenBSD と同様の設定を利用するようにしています。 MirOS BSD って始めてみる名前で
+す。
