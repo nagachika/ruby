@@ -1,0 +1,3 @@
+tool/mkconfig.rb で config.status から rbconfig.rb を生成する時に変数に追加する
+条件の判定の不具合を修正しています。 r39107 で vars[name] への代入を追加してし
+まったために入った不具合の修正だと思います。
