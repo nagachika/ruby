@@ -1,0 +1,2 @@
+mkmf.rb の merge_libs で重複を含むライブラリ群をマージした時に ArgumentError 例
+外が発生する不具合を修正しています。 [ruby-core:50314] [Bug #7467]
