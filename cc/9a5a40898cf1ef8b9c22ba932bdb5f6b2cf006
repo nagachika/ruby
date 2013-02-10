@@ -1,0 +1,2 @@
+tool/make-snapshot でファイルパスの生成に文字列埋め込みしていたところを
+File.join に置き換えています。
