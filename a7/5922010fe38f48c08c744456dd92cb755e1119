@@ -1,0 +1,2 @@
+RubyGems で --trust-policy で security policy が指定された時は署名のない古いフ
+ォーマットの gem パッケージはインストールできないようにしています。
