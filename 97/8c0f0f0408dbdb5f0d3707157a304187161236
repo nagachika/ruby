@@ -1,0 +1,2 @@
+mkmf.rb で生成する Makefile に RbConfig の RUBY_???_NAME 変数を定義させるように
+しています。
