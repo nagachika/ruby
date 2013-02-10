@@ -1,0 +1,3 @@
+標準ライブラリ net/http の HTTP.post_form の rdoc コメントのサンプルコードで
+HTTP と書かれていたところを Net::HTTP とフルネームで表記するようにしています。
+[ruby-core:51955] [Bug #7794]
