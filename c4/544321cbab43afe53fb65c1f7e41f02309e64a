@@ -1,0 +1,6 @@
+configure で ruby_version が空っぽの時(--with-ruby-version で明示的に指定した時
+にありえる)にライブラリロードパスに重複したエントリが作られてしまうのでエラーに
+しています。
+version.c で ruby_lib_version_string という型を定義しているのですが、これは
+RUBY_LIB_VERSION が空文字列の時は負のサイズの配列の定義になるのでコンパイルエラ
+ーになるのを利用してビルドできないようにしているトリックだそうです。
