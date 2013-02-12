@@ -1,0 +1,2 @@
+標準ライブラリ pp.rb, prettyprint.rb の rdoc コメントの追記と体裁の修正や
+:nodoc: タグの追加などです。 [ruby-core:51253] [Bug #7656]
