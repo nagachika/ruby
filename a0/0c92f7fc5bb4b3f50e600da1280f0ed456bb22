@@ -1,0 +1,4 @@
+IO#close_on_exec= の rdoc コメントに 2.0.0 からは close-on-exec フラグはデフォ
+ルトで on になっていることと、手動で off にするとマルチスレッド時に fd leak す
+る可能性があるので Process.spawn のオプションを使うべきということが追記されてい
+ます。
