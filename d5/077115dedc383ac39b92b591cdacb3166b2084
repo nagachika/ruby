@@ -1,0 +1,2 @@
+rake/doc/MIT-LICENSE を追加(rake の upstream リポジトリからコピー)して、lib/
+rake/doc/README.rdoc lib/rake/version.rb で参照やリンクを追加、修正しています。
