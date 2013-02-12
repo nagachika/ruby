@@ -1,0 +1,3 @@
+vm_exec.h の DISPATCH_ARCH_DEPEND_WAY() というインラインアセンブラを含む関数マ
+クロでも asm volatile を __asm__ __volatile__ に変更しています。 r39186 と同じ
+理由でしょう。
