@@ -1,0 +1,2 @@
+vm_exec.h の DISPATCH_ARCH_DEPEND_WAY() 関数マクロのコメント部分の typo を修正
+しています。
