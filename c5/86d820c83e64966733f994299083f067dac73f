@@ -1,0 +1,2 @@
+configure での -pthread オプションの追加も MirOS BSD 向けに Open BSD と同じよう
+に追加しています。
