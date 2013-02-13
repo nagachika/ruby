@@ -1,0 +1,2 @@
+拡張ライブラリ socket の extconf.rb で have_struct_member による構造体メンバの
+チェックを have_type による型のチェックの直後にまとめるように移動しています。
