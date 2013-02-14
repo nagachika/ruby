@@ -1,0 +1,2 @@
+test/ruby/test_m17n.rb でエンコーディングに関する警告メッセージがでるテストを
+EnvUtil.suppress_warning のブロックで囲って警告抑制しています。
