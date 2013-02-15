@@ -1,0 +1,6 @@
+同名のメソッドが定義された Module を prepend した Class の instance_method で
+UnboundMethod を得る時に prepend された Module に定義されたメソッドが取れてしま
+い、クラスのインスタンスメソッドを取得することができなくなる不具合を修正してい
+ます。 Object#method および Module#instance_method で Method や UnboundMethod
+を取得する時には prepend による IClass はスキップするようにしています。
+[ruby-core:52160] [Bug #7836]
