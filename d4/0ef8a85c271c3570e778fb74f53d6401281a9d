@@ -1,0 +1,3 @@
+Method および UnboundMethod の inspect メソッドで表示されるメソッド名が alias
+したメソッドの時にオリジナルのメソッド名を表示してしまっていたのを修正していま
+す。 [ruby-core:52048] [Bug #7806]
