@@ -1,0 +1,3 @@
+拡張ライブラリ socket の extconf.rb で socklen_t という型が定義されていなかった
+ら -Dsocklen=int でコンパイラオプションでマクロとして定義を追加していたのを、
+HAVE_SOCKET_LEN_T をみて rubysocket.h で typedef するようにしています。
