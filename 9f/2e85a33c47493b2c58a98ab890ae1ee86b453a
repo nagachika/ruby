@@ -1,0 +1,4 @@
+configure でコンパイラの警告に関するオプション
+-Werror-implicit-function-declaration による未定義関数の呼び出しをエラーにする
+指定を -Werror=implicit-function-declaration の形式他のオプションと同じにそろえ
+て不要な置換処理を削除するリファクタリング。
