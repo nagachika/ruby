@@ -1,0 +1,6 @@
+r39222 の修正にも関連して、Method, UnboundMethod の name メソッドでは alias し
+た後のメソッド名を取得するのに対して alias 元のオリジナルのメソッド名を取得する
+original_name というメソッドを追加しています。 alias されていないメソッドの場合
+は name と同じ結果を返すようです。コミットメッセージに [EXPERIMENTAL] と記され
+ているのでとりあえず入れてみたというもののようです。 [ruby-core:52048] [Bug #
+7806]
