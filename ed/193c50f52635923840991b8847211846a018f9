@@ -1,0 +1,4 @@
+r39225 と同様に拡張ライブラリ socket の extconf.rb で構造体 struct sockaddr_in
+のメンバ sa_len と sin_len の存在チェックした結果の -D オプションを HAVE_{SA|
+SIN}_LEN にわざわざ置換していたのをやめて、利用しているソースコード側で
+HAVE_STRUCT_SOCKADDR_{SA|SIN}_LEN をチェックするように修正しています。
