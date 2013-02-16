@@ -1,0 +1,2 @@
+拡張ライブラリ socket の extconf.rb の libnsl と libsocket をチェックしていると
+ころに SunOS 向けにチェックしていることをコメントとして追記。
