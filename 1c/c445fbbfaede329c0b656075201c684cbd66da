@@ -1,0 +1,5 @@
+拡張ライブラリ socket で ext/socket/socket.c の sockaddr_obj() からソケットアド
+レス構造体のサイズを指定する部分を sockaddr_len() として切り出しています。また
+これを利用して(というか切り出した処理を利用しないようにして)
+Socket.ip_address_list で渡すソケットアドレスサイズを ioctl(SIOCGLIFCONF) で取
+得したサイズを渡すようにしています。
