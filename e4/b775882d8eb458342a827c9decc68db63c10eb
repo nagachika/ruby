@@ -1,0 +1,7 @@
+Process.setsid のテストでタイミングによって子プロセスが終了した後で
+Process.getsid を呼ぶと Errno::ESRCH を返すことがあったので、子プロセスで sleep
+させて終了前に Process.getsid が呼べるようにしています。チケットのコメントによ
+ると getsid(2) で Zombie 状態(終了したけどまだ親プロセスが wait していない)のプ
+ロセスに対して実行して ESRCH が返るのは Mac OS X でのおかしな挙動って感じみたい
+なので、少なくとも Linux では session id が取れるんでしょうね、多分。
+[ruby-core:52126] [Bug #7826]
