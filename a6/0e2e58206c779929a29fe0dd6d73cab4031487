@@ -1,0 +1,5 @@
+拡張ライブラリ socket の extconf.rb で struct sockaddr_storage のメンバ
+ss_family をチェックした時に -DDHAVE_SOCKADDR_STORAGE をコマンドラインオプショ
+ンに追加して、それを使って条件コンパイルしていたところを、have_type() で構造体
+の存在チェックをしてその結果の HAVE_TYPE_STRUCT_SOCKADDR_STORAGE を使うように修
+正しています。
