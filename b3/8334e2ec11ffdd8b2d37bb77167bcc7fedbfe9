@@ -1,0 +1,4 @@
+configure の --with-opt-dir オプションを指定した時に LIBRUBY_DLDFLAGS に反映さ
+れていなかったのを修正しています。
+[追記]チケットに詳しい解説がありました。
+[ruby-dev:47000] [ruby-trunk - Bug #7101] [/追記]
