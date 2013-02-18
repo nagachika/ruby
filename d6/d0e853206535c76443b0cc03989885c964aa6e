@@ -1,0 +1,4 @@
+r39262 と似たような変更で、NextStep と OpenStep, Rhapsody でのビルドのために
+netinet/in_systm.h というヘッダも configure でチェックせず socket の extconf.rb
+でチェックするようにしています。これもまたずいぶん古い ruby-core の投稿が参照さ
+れていますね。 [ruby-core:1596]
