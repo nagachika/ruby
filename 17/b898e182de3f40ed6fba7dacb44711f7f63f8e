@@ -1,0 +1,4 @@
+configure.in で unexpand_shvar という、変数の展開を巻き戻す処理を行う関数を定義
+して、rubylibprefix, rubyarchprefix, rubysitearchprefix, exec_prefix を置換して
+います。 RbConfig::CONFIG に格納する時に変数展開をやりなおすようにするためだと
+思われます。
