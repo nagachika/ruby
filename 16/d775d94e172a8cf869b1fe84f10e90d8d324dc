@@ -1,0 +1,2 @@
+r39267 で rubyarchdir の置換をするようにした影響で RbConfig::CONFIG
+["includedir"] に不正確なパスが格納されるようになったのに対処しています。
