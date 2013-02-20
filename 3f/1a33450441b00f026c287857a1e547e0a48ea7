@@ -1,0 +1,2 @@
+config.status から rbconfig.rb を生成する tool/mkconfig.rb でも rubyarchdir の
+置換の時に exec_prefix を空文字列にしています。
