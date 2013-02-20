@@ -1,0 +1,3 @@
+configure で unexpand_shvar を使って exec_prefix を置換しています。置換する位置
+を RUBY_EXEC_PREFIX の設定後にすることで LOAD_PATH への影響を防いでいるみたいで
+す。
