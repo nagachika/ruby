@@ -1,0 +1,2 @@
+r39293 で revert した r39289 での configure の unexpand_shvar 関数の導入と利用
+を再度入れています。ただし exec_prefix の置換は削っています。
