@@ -1,0 +1,5 @@
+拡張ライブラリ syslog の Syslog#inspect が module_function として定義されていた
+のを特異メソッド(クラスメソッド)として定義するように変更しています。 Syslog
+.inspect の実装は self が Module(T_MODULE 型)であることを期待しているので
+include してインスタンスメソッドとして使うことは想定されていませんでした。
+[ruby-dev:45682] [Bug #6502]
