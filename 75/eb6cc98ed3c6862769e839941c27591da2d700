@@ -1,0 +1,4 @@
+r39307 でも対応した gem install に --user-install オプションをつけた時のコマン
+ドのインストール先が変更されない問題が Gem::DependencyInstaller の生成タイミン
+グに依存していて gem update サブコマンドの時に有効になっていなかったのを修正し
+ています。 [ruby-core:51832] [Bug #7779]
