@@ -1,0 +1,2 @@
+r39333 の修正で tool/rbinstall.rb の変更に定数名の typo があったのを修正してい
+ます。 [ruby-core:52395] [Bug #7874]
