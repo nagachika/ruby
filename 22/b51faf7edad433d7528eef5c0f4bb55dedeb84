@@ -1,0 +1,6 @@
+multi architecture 対応の修正。 configure で libdir_basename を Makefile の変数
+として定義するようにして -Wl,-rpath の指定に configure 時でなく Makefile 上で変
+数展開するようにしています。multiarch だと libdir_basename に arch 名がつくので
+変化に追随しないといけないとか、そういうことっぽいです。コミットログには
+-install_name というフラグにも影響するみたいに書いてあるんですけどどこが関連し
+ているのかわかりませんでした。 [ruby-core:52395] [Bug #7874]
