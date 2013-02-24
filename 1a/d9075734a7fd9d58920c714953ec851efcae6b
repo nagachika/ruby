@@ -1,0 +1,11 @@
+REXML へ不正なデータを渡して巨大な String を生成させる DOS 攻撃が可能な脆弱性に
+対する対策が施されています。詳細についてはこちら http://www.ruby-lang.org/ja/
+news/2013/02/22/rexml-dos-2013-02-22/
+これと r39208 で対応した JSON.load の脆弱性対策を合わせて security fix として
+ruby 1.9.3-p392 がリリースされています。リリースお疲れさまでした。 http://
+www.ruby-lang.org/ja/news/2013/02/22/ruby-1-9-3-p392-is-released/
+実装は詳しいところはわかりませんが、REXML::Document.entity_expansion_text_limit
+= というメソッドが追加されていてエンティティ展開で生成する文字列のサイズの上限(
+デフォルトは10240)を設定できるようにしてこれを越えたら打ち切って例外発生させる
+という感じです。ちなみに entity_expansion_text_limit の reader と writer のメソ
+ッドのコメントでデフォルト値が若干食い違ってますね。
