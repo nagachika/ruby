@@ -1,0 +1,4 @@
+r38934 で導入した test/ruby/test_process.rb の assert_fail_too_long_path という
+独自に定義した assertion 用メソッドの引数を間違えていたので修正して、ついでに第
+2引数のメッセージを省略不可能にしています。
+これも ruby-trunk-changes に書いただけで指摘するの忘れてた……。
