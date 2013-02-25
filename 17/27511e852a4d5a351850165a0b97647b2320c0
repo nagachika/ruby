@@ -1,0 +1,2 @@
+NEWS に ARGF.codepoints, ARGF.each_codepoint の追加について追記しています。メソ
+ッドの表記が # 区切りになっていてインスタンスメソッドっぽいですね。
