@@ -1,0 +1,2 @@
+Thread#handle_interrupt や Thread#pending_interrupt? の rdoc コメントの追記など
+。
