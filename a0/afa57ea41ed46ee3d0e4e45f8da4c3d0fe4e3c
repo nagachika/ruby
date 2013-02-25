@@ -1,0 +1,2 @@
+r39384 の REXML::Document.entity_expansion_text_limit のコメントのデフォルトサ
+イズの間違いを修正しています。
