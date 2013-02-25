@@ -1,0 +1,5 @@
+File.fnmatch に pattern を US-ASCII, path に UTF-8 のエンコーディングの文字列を
+渡すと "invalid byte sequence in US-ASCII" というメッセージで例外が発生する不具
+合を修正しています。 pattern と path のエンコーディングが異なっていたら ASCII
+互換であるか、ASCII 文字しか含まない path かなどチェックして不正な時はマッチな
+しとしてかえすようにしています。 [ruby-dev:47069] [Bug #7911]
