@@ -1,0 +1,2 @@
+NEWS に Thread#pending_interrupt? と Thread.handle_interrupt という非同期割り込
+みを制御する新規メソッドについて追記しています。
