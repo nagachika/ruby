@@ -1,0 +1,2 @@
+multiarch 用の変更とのこと。 Makefile.in に archlibdir の変数定義を追加していま
+す。
