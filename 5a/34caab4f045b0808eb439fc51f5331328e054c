@@ -1,0 +1,2 @@
+Thread#backtrace_locations のテストで引数に Range オブジェクトが渡された時のテ
+ストを追加しています。
