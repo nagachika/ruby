@@ -1,0 +1,2 @@
+Module#prepend で引数に渡された時に呼ばれるコールバックの Module#prepended の
+rdoc コメントを追記。
