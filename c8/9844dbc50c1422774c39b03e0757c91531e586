@@ -1,0 +1,5 @@
+拡張ライブラリ socket でソケットアドレス構造体を模倣した sockaddr_storage とい
+う構造体を定義して利用していましたが、キャストを多用しないといけなかったので、
+sockaddr, sockaddr_in, sockaddr_in6, sockaddr_un などと sockaddr_storage を
+union にした union_sockaddr という共用体を定義してこれを使うようにリファクタリ
+ングしています。
