@@ -1,0 +1,3 @@
+String#lines, bytes, chars, codepoints などのテストで RUBY_VERSION >= "2.1.0"
+という条件で渡されたブロックが無視される機能をテストしているのですが、この条件
+を ENUMERATOR_WANTARRAY という定数としてまとめています。
