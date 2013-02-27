@@ -1,0 +1,4 @@
+mkmf.rb で $DEFLIBPATH に使う変数名を RbConfig::CONFIG["libdirname"] から取得し
+ようとしていたところで、未定義だったら $libdir を使うようにしています。 tool/
+rbinstall.rb でも同様の修正をしています。
+ビルドプロセス難しすぎますね。
