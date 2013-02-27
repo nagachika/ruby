@@ -1,0 +1,3 @@
+r39484 で Thread.start, fork のコメントにも Thread を継承したら initialize 内で
+super を呼べと記述していましたが、start/fork とは関係のない記述としいて削除して
+います。
