@@ -1,0 +1,2 @@
+r39489 の再修正。 RbConfig::CONFIG["ARFLAGS"] や ["RANLIB"] が nil の場合を考慮
+するようにしています。 [ruby-core:52851] [Bug #7950]
