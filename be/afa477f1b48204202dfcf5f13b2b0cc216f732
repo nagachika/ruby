@@ -1,0 +1,2 @@
+ChangeLog と NEWS ファイルを doc/ChangeLog-2.0.0 と doc/NEWS-2.0.0 として移動し
+て ChangeLog と NEWS ファイルを空にしています。
