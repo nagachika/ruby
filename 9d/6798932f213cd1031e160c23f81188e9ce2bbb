@@ -1,0 +1,4 @@
+test-all のユーティリティ test/ruby/envutil.rb の
+Test::Unit::Assertions::AssertFile という Struct から作ったクラスのメンバを
+message -> failure_message に変更しています。 Assersions の message メソッドと
+かぶっていたのを避けているらしいです。
