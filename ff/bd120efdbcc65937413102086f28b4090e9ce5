@@ -1,0 +1,3 @@
+SignalException の rdoc コメントのサンプルコードで、自分のプロセスにシグナルを
+送信した時に、シグナルの配信は非同期なため begin-rescue-end の間に例外を受けと
+れるとは限らないので sleep を追加しています。 [ruby-core:52864] [Bug #7951]
