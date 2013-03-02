@@ -1,0 +1,4 @@
+拡張ライブラリ socket で UNIXドメインソケットの Addrinfo の inspect でパスが長
+すぎた時に "## bytes too long" とメッセージを埋め込んでいたのをやめています。
+SunOS と Darwin では構造体のサイズを越えたサイズがかえってくることがあるための
+ようです。
