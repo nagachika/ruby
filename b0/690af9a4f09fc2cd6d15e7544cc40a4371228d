@@ -1,0 +1,2 @@
+r34303 で入った変更で RubyVM::InstructionSequence#to_a で変換した結果に行番号情
+報が抜けていたのを修正しています。
