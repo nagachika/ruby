@@ -1,0 +1,5 @@
+WEBrick でサーバが bind するソケットアドレスを TCPServer で作ると IPv4 と IPv6
+の両方のアドレスに bind されないことがあるので Socket.tcp_server_sockets を使っ
+てソケットを作っておいてから TCPServer.for_fd で TCPServer オブジェクトに変換す
+る方法を取っています。チケットに詳しい調査報告があるので参考になります。
+[ruby-dev:46189] [Bug #7100]
