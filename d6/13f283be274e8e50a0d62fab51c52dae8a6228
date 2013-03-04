@@ -1,0 +1,2 @@
+win32/Makefile.sub で config.status の生成に MAKEDIRS 変数を追加しています。
+win32/makedirs.bat を利用するようにしています。
