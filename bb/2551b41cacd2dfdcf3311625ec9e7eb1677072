@@ -1,0 +1,4 @@
+mkmf.rb から Kernel#system でコマンドを起動する時に RbConfig::CONFIG
+["libpathenv"] の設定が存在したら、その環境変数名にライブラリロードパスを追加し
+て起動するようにしています。 libpathenv って Linux だと LD_LOAD_PATH でしょうか
+。
