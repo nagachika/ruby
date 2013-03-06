@@ -1,0 +1,4 @@
+gcc の最新版では linker の引数はオブジェクトファイルの指定の後ろに置かないとい
+けなくなったそうで、Makefile.in の miniruby, ruby のルールの $MAINLIB の位置を
+移動しています。 $MAINLIB には -pthread など(というか現状ではそれだけ?)が含まれ
+るようです。 [ruby-core:53121] [Bug #8009]
