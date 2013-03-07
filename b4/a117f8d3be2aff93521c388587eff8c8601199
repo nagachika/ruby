@@ -1,0 +1,7 @@
+ObjectSpace.count_nodes という主に Ruby を parse した結果の AST のノードとして
+使われる NODE 構造体の数をカウントするメソッドで比較的新しいノードの対応が漏れ
+ていたのを追加しています。結果は NODE を表現する Symbol をキーとした Hash オブ
+ジェクトとして返されるのですが、不明な NODE として扱われるとキーが数値になって
+いました。 [ruby-core:53130] [Bug #8014]
+なお追加されたノードは NODE_OP_CDECL, NODE_KW_ARG, NODE_CREF で 2.0.0 では既に
+追加済みです。 1.9.3 では NODE_OP_CDECL のみ存在しています。
