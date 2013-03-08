@@ -1,0 +1,2 @@
+r39606 の変更で test/rubygems/test_gem_spec_fetcher.rb の未使用になった変数を削
+除しています。
