@@ -1,0 +1,3 @@
+r39598 で rb_check_arity() を関数マクロから inline 関数に変更したので #ifdef で
+チェックしている場合を考慮して #define rb_check_arity rb_check_arity を定義して
+おいています。
