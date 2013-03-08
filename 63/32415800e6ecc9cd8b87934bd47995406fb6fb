@@ -1,0 +1,2 @@
+GNUMAkefile を生成する処理を configure.in から切り出してテンプレートを template
+/GNUmakefile.in に置いています。
