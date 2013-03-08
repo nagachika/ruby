@@ -1,0 +1,4 @@
+internal.h で ruby のソースのコア部分で公開している関数に rb_ という prefix を
+つけ忘れていたところに追加しています。 num_interval_step_size だけ rb_ ではなく
+て ruby_ をつけているのですがこれはどう違うんでしたっけ。[追記] ruby_float_step
+() という関数が ruby_ を prefix にしていたのでそれと揃えたんだそうです。[/追記]
