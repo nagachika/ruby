@@ -1,0 +1,4 @@
+Module#ancestors で継承/include/prepend している Class/Module を返す時に特異ク
+ラスも含めるようにしています。NEWS ファイルにも追記しています。
+こいつはでっかい変更だ、と思うのですが影響はどんなもんでしょうか。
+[ruby-core:53171] [Feature #8035]
