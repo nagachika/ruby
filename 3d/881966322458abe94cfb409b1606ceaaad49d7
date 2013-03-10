@@ -1,0 +1,2 @@
+標準添付ライブラリ test/unit の Test::Unit::Assertions#message で message に
+Proc オブジェクトを受け取れるようにしています。
