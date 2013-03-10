@@ -1,0 +1,2 @@
+test/ruby/marshaltestlib.rb での assertion を失敗時のメッセージがよりわかりすく
+するようにしています。
