@@ -1,0 +1,2 @@
+Test::Unit::Assertions#message で message が Proc オブジェクトだった時にブロッ
+クの呼び出し結果との表示の間に改行を入れるようにしています。
