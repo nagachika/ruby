@@ -1,0 +1,2 @@
+load.c の loaded_feature_path() の if 文を条件を分けてシンプルにするリファクタ
+リング。
