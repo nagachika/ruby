@@ -1,0 +1,2 @@
+Marshal.dump, load で特異クラスに prepend した Class/Module の情報を load でき
+るように対応しています。 [ruby-core:53202] [Bug #8041]
