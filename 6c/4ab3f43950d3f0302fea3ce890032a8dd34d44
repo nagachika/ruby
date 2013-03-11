@@ -1,0 +1,2 @@
+load.c で内部的に生成している Array オブジェクトを struct RBasic::klass を 0 に
+することで ObjectSpace からも見えないようにしています。
