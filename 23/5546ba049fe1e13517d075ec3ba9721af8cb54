@@ -1,0 +1,4 @@
+プロセスで開いている file descriptor の最大値を管理する rb_update_max_fd() で
+ATOMIC_CAS() マクロを利用して排他処理するようにしています。 rb_update_max_fd()
+はタイマースレッドも呼ぶので GVL で保護されていたとしても複数スレッドから呼ばれ
+る可能性がありました。
