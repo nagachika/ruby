@@ -1,0 +1,8 @@
+タイマースレッドへの通知用の pipe を2セットに増やして、timer_thread_pipe_low と
+いう優先度の低い pipe というのを追加しています。この pipe は polling モードで短
+い時間だけ待機する時には無視され、起こされるのを待つスレッドがいないため休眠モ
+ードでタイムアウト設定なしで眠る時にだけチェック対象にしています。そして
+gvl_acquire_common() でこの timer_thread_pipe_low のほうを使って通知することで
+gvl_yield() するたびにタイマースレッドが起床して割り込みが発生することで thread
+starvation (切り替え処理ばかりが走る可能性がある?)に対処しています。特に single
+core の VM 上で発生しやすいようです。 [ruby-core:53095] [Bug #7999]
