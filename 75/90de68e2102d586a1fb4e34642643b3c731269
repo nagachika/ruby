@@ -1,0 +1,5 @@
+テスト用のユーティリティを定義する test/ruby/envutil.rb に
+with_default_external と with_default_internal という
+Encoding.default_external, Encoding.default_internal を変更してブロックを実行す
+るヘルパーメソッドを追加しています。そしてこれを利用して test/ruby/
+test_io_m17n.rb のテストを書き換えています。
