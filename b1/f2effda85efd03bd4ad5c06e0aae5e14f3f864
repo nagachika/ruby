@@ -1,0 +1,5 @@
+標準添付ライブラリ resolv-replace.rb で TCPSocket#initialize の第3引数に明示的
+に nil が渡された時に引数が省略されたのと同じように振る舞うことで
+IPSocket.getaddress に不正な引数が渡されてエラーになるのを防いでいます。 open-
+uri と resolv-replace.rb の併用で起きるエラーの対処です。 [ruby-dev:47150] [Bug
+#8054]
