@@ -1,0 +1,6 @@
+Enumerator::Lazy#drop_while のテストで drop_while に渡すブロックでの判定を i >
+5 から i % 5 > 0 に変更しています。コミットログがないので意図ははっきりしません
+が 5 で true になって 6 でまた false になるというパターンを試したかったんでしょ
+うか。
+JRuby のコミッタでもある headius (Charles Oliver Nutter) の初 commit です。
+Welcome to ruby-core team, headius san!
