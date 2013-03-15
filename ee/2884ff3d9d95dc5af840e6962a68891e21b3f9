@@ -1,0 +1,3 @@
+make uninstall を実行する tool/rbuninstall.rb で、ディレクトリに対する symbolic
+link がパスの最後に "/" が付いていると file.symlink? でリンク先のディレクトリの
+判定になって false を返すのを回避しています。余計に消し過ぎてたとかでしょうか。
