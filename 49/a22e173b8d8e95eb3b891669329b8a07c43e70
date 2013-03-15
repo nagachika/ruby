@@ -1,0 +1,3 @@
+標準添付ライブラリの test/unit の Test::Unit::Assertion#assert_respond_to で第2
+引数のメソッドの指定のところに配列で private のフラグを渡して Object#
+respond_to? のチェックする時の第2引数に指定することができるようにしています。
