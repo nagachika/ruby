@@ -1,0 +1,6 @@
+Module#prepend で Module を prepend した後でメソッドを private/protected などで
+可視性を変更するとそのメソッドが呼べなくなる(NoMethodError になる)不具合を修正
+。 [ruby-core:53106] [Bug #8005]
+可視性変更時にメソッドが定義されているクラスを特定する時に prepend でメソッドエ
+ントリを移植された IClass も対象にするようにしています。 [ruby-core:53106] [Bug
+#8005]
