@@ -1,0 +1,2 @@
+refinements のかつての機能のひとつで using が呼ばれた時のフックメソッドの
+Module#used を削除しています。 [ruby-core:52719] [Bug #7916]
