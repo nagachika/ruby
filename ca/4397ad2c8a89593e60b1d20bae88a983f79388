@@ -1,0 +1,2 @@
+拡張ライブラリ socket の Socket.pair の rdoc に stream 型の UNIX ドメインソケッ
+トペアを作る時のサンプルを追加しています。
