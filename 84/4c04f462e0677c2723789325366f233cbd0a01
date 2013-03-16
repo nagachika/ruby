@@ -1,0 +1,3 @@
+r39752, r39753 のさらに続きで、configure 時に __func__ に相当するもの (gcc では
+__FUNCTION__ が使えるそうです)が利用できるか確認して、利用できたら
+RUBY_FUNCTION_NAME_STRING というマクロで定義するようにしています。
