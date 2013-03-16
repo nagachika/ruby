@@ -1,0 +1,2 @@
+r39746 で追加した GC のパラメータ調節用環境変数 RUBY_HEAP_SLOTS_GROWTH_FACTOR
+について NEWS ファイルに追記しています。
