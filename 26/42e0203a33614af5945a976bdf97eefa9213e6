@@ -1,0 +1,3 @@
+r39752, r39753 から続く一連の変更の續きで、win32/Makefile.sub で VC9 以降
+(MSC_VER > 1500)の時は __FUNCTION__ というマクロが使えるのでこれを config.h で
+RUBY_FUNCTION_NAME_STRING として定義するようにしています。
