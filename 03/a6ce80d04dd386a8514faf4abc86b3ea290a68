@@ -1,0 +1,2 @@
+r39772 の続き、include/ruby/missing.h で struct timespec の定義部分でも必要に応
+じて sys/time.h を include するようにしています。
