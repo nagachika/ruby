@@ -1,0 +1,2 @@
+r39772 あたりの sys/time.h の include の変更に関連して mingw でのビルドエラーに
+対処するため "time.h" も include するようにしています。
