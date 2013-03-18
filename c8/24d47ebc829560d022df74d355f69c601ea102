@@ -1,0 +1,3 @@
+include/ruby/missing.h の __syscall の定義を io.c に移動しています。
+また sys/type.h の include を include/ruby/intern.h に移動しています。
+ML 番号が間違ってるみたいですね。
