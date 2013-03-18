@@ -1,0 +1,3 @@
+r39772 および r39777 の再修正。 include/ruby/missing.h で sys/time.h を include
+する条件をいじっています。 Linux で glibc の不具合を回避するため sys/time.h を
+include するのを避けているそうですが、r39783 でこれは消されています。
