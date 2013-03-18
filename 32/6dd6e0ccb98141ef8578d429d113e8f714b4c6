@@ -1,0 +1,2 @@
+拡張ライブラリ date の ext/date/date_core.c で sys/time.h を include するように
+しています。 gettimeofday() の宣言のため。
