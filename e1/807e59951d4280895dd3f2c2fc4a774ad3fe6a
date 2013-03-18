@@ -1,0 +1,2 @@
+r39686 で thread_pthread.c に追加した配列サイズを計算する ARRAY_SIZE() を
+numberof() という名前に変更しています。
