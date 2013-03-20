@@ -1,0 +1,3 @@
+r39811 の続きでそもそも objspace_live_num() の精度をよくするため objspace->
+total_freed_object_num および objspace->heap.free_num の管理を早めにインクリメ
+ントするようにしています。 [ruby-core:53392] [Bug #8092]
