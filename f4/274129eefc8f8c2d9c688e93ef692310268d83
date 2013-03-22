@@ -1,0 +1,3 @@
+r39829 でもコメント追記した Process.kill して SignalException を受信することを
+確認するテストで SIGHUP を使っているので、Signal.list に HUP が含まれていなかっ
+たら skip するようにしています。
