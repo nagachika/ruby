@@ -1,0 +1,4 @@
+r39855 で vm_core.h に UNINITIALIZED_VAR() に clang 4.2 の拡張を使うようにしま
+したが、include/ruby/ruby.h に RB_UNUSED_VAR() というほぼ同じマクロがあるので、
+こちらに r39855 の変更を反映させて UNINITIALIZED_VAR() は RB_UNUSED_VAR() を呼
+び出すだけにしています。が、これは後ほど revert されています。
