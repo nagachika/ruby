@@ -1,0 +1,6 @@
+r39861 での vm_core.h の UNINITIALIZED_VAR() から RB_UNUSED_VAR() を使うように
+したのを revert しています。 RB_UNUSED_VAR() は拡張ライブラリで配列の変数に対し
+て利用されているからということですが __attribute__*2 は配列変数には使えないから
+でしょうか。
+[追記] __attribute__*3 は大丈夫で、x = x による回避のほうがエラーになったんだそ
+うです[/追記]
