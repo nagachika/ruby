@@ -1,0 +1,2 @@
+process.c と拡張ライブラリ pty の ext/pty/pty.c で型として pid_t を直接利用して
+いたところを rb_pid_t を使うように修正しています。
