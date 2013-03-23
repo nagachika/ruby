@@ -1,0 +1,3 @@
+拡張ライブラリのビルド時に DESTDIR の指定つきで make install するとエラーになる
+不具合の対処。 mkmf.rb で各種インストール先ディレクトリに $(DESTDIR) を追加して
+います。 [ruby-core:53502] [Bug #8115]
