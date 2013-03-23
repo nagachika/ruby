@@ -1,0 +1,7 @@
+Intel Solaris で SolarisStudio 12.3 でビルドした時に Marshal.dump でコンパイラ
+の最適化避けがうまく働かないらしく GC のマーク漏れによる解放で SEGV する現象が
+おきるようで、変数の宣言に volatile をつけることで回避しています。r38174 で変数
+の volatile を消して RB_GC_GUARD() を使うように変更したものの volatile を消して
+たのを再度つけているようです。ということは他にも消した変数もつけておかないと潜
+在的な問題があるんじゃないかって気もします。根本的には SolarisStudio で
+RB_GC_GUARD() が効くようになればいいんですけど。 [ruby-core:52042] [Bug #7805]
