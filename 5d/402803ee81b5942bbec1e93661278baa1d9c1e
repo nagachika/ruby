@@ -1,0 +1,2 @@
+拡張ライブラリ date の Date::MONTHNAMES の rdoc コメントの typo を修正していま
+す。 https://github.com/ruby/ruby/issues/261
