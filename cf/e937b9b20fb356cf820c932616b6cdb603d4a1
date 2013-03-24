@@ -1,0 +1,5 @@
+標準添付ライブラリ forwardable.rb で def_instance_delegator や
+def_single_delegator で eval して定義するメソッド内で正規表現を作っていたのを定
+数として保持しておいてそれを参照するように変更しています。正規表現オブジェクト
+を毎回作成しなくてすむのでパフォーマンスの向上に繋るのだと思います。
+[ruby-core:53620] [Bug #8143]
