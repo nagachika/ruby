@@ -1,0 +1,12 @@
+r39890 の本体です。 Rinda::TupleSpaceProxy で tuple が喪失することがある不具合
+の修正です。 Rinda::TupleSpace は TupleSpace から tuple を取り出す時にクライア
+ント側のオブジェクトを dRuby の参照(DRbObject)にして TupleSpace から移動するこ
+とで take の失敗による tuple 喪失を防いでいますが、この時に dRuby 経由で push
+された時にプロセスは生きていても実行していた Thread が例外などで move 待ちの状
+態から抜けていたら処理が行われないのに tuple は移動されてしまって喪失するので、
+Rinda::TupleSpaceProxy::Port というクラスを導入して対象の Thread が待ちから抜け
+てたら move に失敗するようにしています。まあこれでも非同期シグナルによる割り込
+みだと厳密にはタイミングによって喪失の可能性を完全になくせるわけではないとは思
+いますが。 [ruby-core:53552] [Bug #8125]
+あとテストで SIGTERM を使っているところは Windows では動くんでしたっけ。SIGINT
+と SIGKILL だけエミュレートしてたような。
