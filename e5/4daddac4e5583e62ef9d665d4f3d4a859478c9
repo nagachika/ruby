@@ -1,0 +1,6 @@
+LazySweep の on/off を制御するマクロ GC_ENABLE_LAZY_SWEEP を導入しています。通
+常は on です。ついに LazySweep を off にできるようになったんですね。 LazySweep
+そのものが悪いわけじゃないと思うんですが、mark 処理のバグや sweep の順序やタイ
+ミングによる潜在的な不具合が誘発されやすいなどの理由でデバッグ用に LazySweep を
+切りたいという動機があってこのマクロの導入に到ったようです*2。 [Feature #8024]
+[ruby-dev:47135]
