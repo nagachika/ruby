@@ -1,0 +1,3 @@
+Rinda::TupleSpaceProxy で tuple が喪失することがある不具合の修正らしいのですが
+、このコミットには ChangeLog の変更しか入っていません。 [ruby-core:53552] [Bug
+#8125]
