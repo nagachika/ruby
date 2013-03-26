@@ -1,0 +1,4 @@
+r39896 で戻した Rinda のテストのうち r39895 で追加した Rinda::RingServer の
+multicast 対応についてのテストで Rinda::RingFinger#multicast_interface に指定す
+るネットワークインタフェース番号を 1固定にしていたのを IPv6 multicast を利用可
+能なインタフェースを検索するようにしています。
