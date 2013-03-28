@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence#load というメソッドは存在しないのですが、
+RubyVM::InstructionSequence#to_a したオブジェクトから ISeq を再構築する関数
+iseq_load で rb_iseq_t::local_iseq にその iseq 自身を入れています。なにやら
+SEGV が発生していたのを直したらしいです。テストがないので詳細は不明。
