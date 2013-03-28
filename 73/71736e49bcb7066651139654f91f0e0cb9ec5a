@@ -1,0 +1,5 @@
+拡張ライブラリ socket でソケットアドレス構造体サイズを返す sockaddr_len() で
+sa_family が AF_INET, AF_INET6, AF_UNIX いずれでもなかった時の値を適当に(多分)
+AF_INET と同じにしていたのを lstruct sockaddr の sa_family メンバまでのサイズ
+(最小のサイズ)を計算して返すようにしています。これはメモリ削減のためなのかなぁ
+。ここを通ることがあまりないのではないかと思いますけど。
