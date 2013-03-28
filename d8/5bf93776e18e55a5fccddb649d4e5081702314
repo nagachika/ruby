@@ -1,0 +1,2 @@
+拡張ライブラリ psych のテストでも helper.rb を require するのに
+require_relative を使うように修正しています。
