@@ -1,0 +1,2 @@
+test/-ext-/num2int/test_num2int.rb で asert_num2i_success と asert_num2i_error
+というユーティリティを定義して使いまわすリファクタリング。
