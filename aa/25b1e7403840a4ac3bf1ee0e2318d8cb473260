@@ -1,0 +1,3 @@
+defs/gmake.mk で test-all が test-knownbugs ターゲットに依存しないようにしてい
+ます。 knownbugs が指定された時は TEST_TARGETS に含まれるので依存関係をつけて同
+時に実行されないようにする必要がないってことでしょうか。
