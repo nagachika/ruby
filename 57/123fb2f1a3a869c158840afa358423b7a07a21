@@ -1,0 +1,2 @@
+thread_pthread.c で poll.h を二重に include していた(ruby/io.h で include 済み)
+ので include を削除しています。
