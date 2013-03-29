@@ -1,0 +1,3 @@
+numeric.c で浮動小数点数が long や long long にした時ダウンフローしないかのチェ
+ックに新しいマクロ LONG_MIN_MINUS_ONE_IS_LESS_THAN() および
+LLONG_MIN_MINUS_ONE_IS_LESS_THAN() を導入してこれを使うようにしています。
