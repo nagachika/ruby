@@ -1,0 +1,1 @@
+test/-ext-/num2int/test_num2int.rb でテストする型を間違えていたのを修正。
