@@ -1,0 +1,4 @@
+include/ruby/io.h で poll(2) に使う struct pollfd 構造体メンバの events,
+revents が AIX の poll.h では reqevents, reqrevents という名前になっているらし
+く、これをすりかえるためのマクロ定義してから #include poll.h するようにしていま
+す。 AIX でのビルドエラー修正です。 [ruby-core:53765] [Bug #8174]
