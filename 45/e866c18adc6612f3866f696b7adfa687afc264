@@ -1,0 +1,2 @@
+r39968 および r39969 で追加/利用した asert_num2i_success と asert_num2i_error
+の typo (asert -> assert) を修正。
