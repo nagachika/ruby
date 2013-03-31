@@ -1,0 +1,5 @@
+rb_num2ull() という Numeric のオブジェクトを unsigned LONG_LONG に変換する関数
+で Float からの変換の時に一旦 signed LONG_LONG にキャストしてから unsigned
+LONG_LONG にキャストするようにしています。 Mac OS X の 32bit clang でコンパイル
+した時に直接キャストすると -1.0 が 0 になってしまうという不具合に対処するためだ
+そうです。
