@@ -1,0 +1,2 @@
+ARGF.each のブロックの中から ARGF.skip した時に IOError が発生する不具合を修正
+しています。 [ruby-list:49185]
