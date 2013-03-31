@@ -1,0 +1,2 @@
+win32/Makefile.sub で make prog が make config に依存するように依存関係が追加さ
+れています。
