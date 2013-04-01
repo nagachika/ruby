@@ -1,0 +1,6 @@
+Windows でファイルの rename に使う関数を MoveFileW() から MoveFileExW() に変更
+しています。元々 MoveFileW() で既にファイルが存在していてエラーになった時はあら
+ためて MoveFileExW() で移動していたみたいですが、こちらに一本化しています。これ
+は MoveFileW() だとドライブをまたいだ移動ができないことがあるため FileUtil.mv
+がドライブ間でファイル移動できなかったためとのことです。 [ruby-core:53492] [Bug
+#8109]
