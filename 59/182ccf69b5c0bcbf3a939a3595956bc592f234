@@ -1,0 +1,5 @@
+数値オブジェクトを C の unsigned long に変換する rb_num2ulong() の実装を
+rb_num2ulong_internal() として切り出して、signed にした時にオーバフローするかど
+うかのフラグを返すことができるようにしています。そして追加した
+rb_num2ulong_internal() を rb_num2uint(), rb_num2short() でも再利用するようにリ
+ファクタリングしています。
