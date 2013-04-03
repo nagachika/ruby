@@ -1,0 +1,2 @@
+Apple の古い clang でビルドすると SEGV などするので configure で弾くようにして
+います。 [ruby-dev:47204] [Bug #8192]
