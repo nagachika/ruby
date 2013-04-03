@@ -1,0 +1,2 @@
+test/-ext-/num2int/test_num2int.rb の整数変換 API のテストに Bignum の変換テス
+トを追加。
