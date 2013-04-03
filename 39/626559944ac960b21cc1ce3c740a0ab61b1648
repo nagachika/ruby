@@ -1,0 +1,3 @@
+r40030 で AC_COMPILE_IFELSE() を使っていたのをやめています。
+AC_USE_SYSTEM_EXTENSIONS を呼ぶ前に AC_COMPILE_IFELSE を使ってはいけないとのこ
+と。 [ruby-dev:47204] [Bug #8192]
