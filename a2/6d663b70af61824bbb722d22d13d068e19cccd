@@ -1,0 +1,5 @@
+test-all 用のユーティリティ assert_separately の変更。:ignore_stderr オプション
+がないときは stderr へ出力があったらエラーにするようにしています。また
+Test::Unit::Runner の @@stop_auto_run を true にして、ARGV を参照しないようにし
+ているそうです。それから子プロセスを起動する時に -I オプションで親プロセスの
+$LOAD_PATH を指定して同じロードパスを使うようにしています。
