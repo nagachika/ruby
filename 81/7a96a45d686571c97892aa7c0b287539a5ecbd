@@ -1,0 +1,3 @@
+SecureRandom.random_bytes で seed に渡す配列を to_s で文字列化していたのを join
+("") で文字列化するようにしています。 1.8 で Array#to_s が inspect とは違って
+join("") のように振る舞っていた時の名残ですね。 [ruby-core:52058] [Bug #7811]
