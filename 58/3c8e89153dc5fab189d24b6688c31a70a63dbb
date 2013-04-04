@@ -1,0 +1,3 @@
+Array#pack および String#unpack の指示子の Q! および q! を LONG_LONG 型を指定す
+るために追加しています。 NEWS にも追記されています。 [ruby-dev:43970] [Feature
+#3946]
