@@ -1,0 +1,2 @@
+test/ruby/test_require.rb で使っている assert_separately に :ignore_stderr オプ
+ションを追加しています。
