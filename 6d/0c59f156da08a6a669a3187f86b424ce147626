@@ -1,0 +1,3 @@
+r40044 でテスト用の拡張ライブラリのメソッドを global function として定義しなお
+したのを再度 Num2int モジュールの module function として定義するように変更して
+います。
