@@ -1,0 +1,2 @@
+IO#seek が whence 引数として :CUR, :END, :SET といったシンボルを受け付けるよう
+にしています。 [ruby-dev:45818] [Feature #6643]
