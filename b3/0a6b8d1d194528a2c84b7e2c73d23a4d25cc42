@@ -1,0 +1,4 @@
+Bignum と Fixnum の比較で coerce などでサイズ 0 の Bignumができると 0 と比較し
+ても一致していなかった不具合を修正しています。 ObjectSpace.each_object などで内
+部で一時的に使っていたそういう珍しい Bignum が見えるようです。
+[ruby-core:53893] [Bug #8204]
