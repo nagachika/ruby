@@ -1,0 +1,4 @@
+Module#const_set および Object#instance_variable_set, Module#class_variable_set
+でも Symbol を生成するのを遅延しています。 set 系は成功すれば結局 Symbol が作ら
+れるのですが、その前の文字種などのチェックで弾かれた時には Symbol を作らないよ
+うにしています。
