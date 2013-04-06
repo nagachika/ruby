@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で OpenSSL::BN.new の引数に OpenSSL::BN のインスタンスを
+渡された時に、型による分岐前に StringValue() で文字列としてアクセスしようとして
+しまって TypeError が発生していたのを修正しています。
