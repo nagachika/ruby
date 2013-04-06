@@ -1,0 +1,3 @@
+Thread#[] や Thread#thread_variable_get による fiber local 変数や thread local
+変数のアクセス時にキーワードに文字列を渡した時に不必要な Symbol の生成を行なわ
+ないようにしています。
