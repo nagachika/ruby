@@ -1,0 +1,3 @@
+標準添付ライブラリ resolv.rb で SunOS 上で bind(2) が EACCES を返して失敗するこ
+とがあるらしく、Socket#bind からの例外 Errno::EACCES の rescue と retry を追加
+しています。 [ruby-core:48064] [Bug #7183]
