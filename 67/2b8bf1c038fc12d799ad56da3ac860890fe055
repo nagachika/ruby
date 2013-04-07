@@ -1,0 +1,3 @@
+r40100 および r40104 の Symbol 生成の遅延のうち r40108 で revert された Module#
+class_variable_set の部分を再度修正しています。 else if の条件部の
+rb_is_class_id() -> rb_is_class_name() に変更。
