@@ -1,0 +1,3 @@
+configure で XCFLAGS に -include オプションで ruby/config.h と ruby/missing.h
+を include させるのをやめています。既にこれらのヘッダはソース内で #include され
+ているはずとのこと。
