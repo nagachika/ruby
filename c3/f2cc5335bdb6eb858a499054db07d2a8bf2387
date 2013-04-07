@@ -1,0 +1,2 @@
+API テスト用の拡張ライブラリ ext/-test-/win32/dln/ の extconf.rb で make clean
+時に static library も削除するようにしています。
