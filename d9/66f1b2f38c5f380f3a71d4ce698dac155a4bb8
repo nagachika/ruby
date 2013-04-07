@@ -1,0 +1,2 @@
+pack/unpack の Q!/q! 指示子の対応で long long を指定していたのを LONG_LONG を使
+うようにしています。 mswin 版のコンパイルのため。
