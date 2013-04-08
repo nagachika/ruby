@@ -1,0 +1,2 @@
+拡張ライブラリ psych で Hash (YAML 的には map?) のキーに Symbol を使えなかった
+のを修正しています。
