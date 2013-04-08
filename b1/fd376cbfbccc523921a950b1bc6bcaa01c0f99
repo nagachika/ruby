@@ -1,0 +1,2 @@
+r40149 で追加した rsock_sys_fail_sockaddr の第2引数を削除しています。詳細を読ん
+でないですが rb_cSocket 決め打ちでよかったみたいです。
