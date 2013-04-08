@@ -1,0 +1,4 @@
+拡張ライブラリ pysch で発生させる例外に psych 独自の例外のベースとなる
+Psych::Exception を導入してこれを継承するようにしています。といっても
+Psych::SyntaxError と Psych::BadAlias くらいしかないみたいですけど。 https://
+github.com/tenderlove/psych/issues/125
