@@ -1,0 +1,5 @@
+r40149 の変更の続き。 rsock_sys_fail_addrinfo() と
+rsock_sys_fail_sockaddr_or_addrinfo() という例外発生用の関数も追加してアドレス
+の表示の方法を変更しています。またこのために SockAddrStringValueWithAddrinfo()
+というマクロを新設してソケットアドレスの文字列表現を取得するのと同時にその元と
+なった Addrinfo を取っておくようにしています。
