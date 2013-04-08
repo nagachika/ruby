@@ -1,0 +1,3 @@
+r40143 で NATINT_LEN_Q の定義と一緒に移動してしまった NATINT_LEN の定義を元の位
+置に戻しています。 NATINT_LEN の定義は NATINT_PACK の後でないといけなかったため
+。
