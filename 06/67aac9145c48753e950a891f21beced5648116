@@ -1,0 +1,2 @@
+pack.c の HAVE_TRUE_LONG_LONG の判定している部分を移動して、LONG_LONG ではなく
+long long を使っているのは意図的であることをコメントとして残しています。
