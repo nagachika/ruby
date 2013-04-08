@@ -1,0 +1,5 @@
+標準添付ライブラリ resolv.rb に LOC の参照するための機能を追加しています。位置
+情報の取得ですね。 Resolv::LOC::Size、Resolv::LOC::Alt および Resolv::LOC
+::Coord というクラスを追加して、Resolv::DNS::Resource::LOC でこれらの情報をオブ
+ジェクト化して返せるようにしているみたいです。 [ruby-core:23361] [Feature #
+1436]
