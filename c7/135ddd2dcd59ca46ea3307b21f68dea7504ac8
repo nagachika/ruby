@@ -1,0 +1,3 @@
+拡張ライブラリ socket で使うための RSTRING_LEN() の結果を socklen_t にキャスト
+するマクロを RSTRING_SOCKELEN() として定義して、socket のコード内で利用するよう
+にしています。
