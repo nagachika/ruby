@@ -1,0 +1,4 @@
+internal.h に整数の乗算のオーバーフローチェックをまとめたマクロ
+MUL_OVERFLOW_SIGNED_INTEGER_P(), MUL_OVERFLOW_FIXNUM_P(), MUL_OVERFLOW_LONG_P()
+などを定義して、各所でそれぞれにオーバフローチェックしていた部分で使うようにリ
+ファクタリング/修正しています。
