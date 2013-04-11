@@ -1,0 +1,2 @@
+test/ruby/test_hash.rb と test/ruby/test_env.rb のテストの assertion をよりわか
+りやすいメッセージが出るようなメソッドを使うように変更しています。
