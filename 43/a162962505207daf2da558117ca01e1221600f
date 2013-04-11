@@ -1,0 +1,2 @@
+Thread#keys および Thread#thread_variables の rdoc 用コメントの typo 修正。
+https://github.com/ruby/ruby/issues/278
