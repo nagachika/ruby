@@ -1,0 +1,2 @@
+test/ruby/test_regexp.rb で envutil.rb を読み込むのに require_relative を利用す
+るようにしています。
