@@ -1,0 +1,3 @@
+common.mk に記述しているいくつかのオブジェクトファイルの依存関係に internal.h
+や vm_opts.h, node.h, probes_helper.h を追加しています。また tool/update-deps
+を書き換えています。詳細は読んでいません。
