@@ -1,0 +1,4 @@
+tool/update-deps で依存関係を抽出するための make -p のターゲットに ruby,
+miniruby を追加しています。 all は ruby と miniruby を含んでいるような気がしま
+すが。そしていくつかのオブジェクトファイルに ruby.h への依存関係を追加していま
+す。
