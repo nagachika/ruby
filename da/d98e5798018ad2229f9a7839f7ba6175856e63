@@ -1,0 +1,2 @@
+test/test_curses.rb で pty 内の子プロセスで標準出力に出力した後に明示的に
+$stdout.flush でバッファクリアを呼ぶようにしています。
