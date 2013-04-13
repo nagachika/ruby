@@ -1,0 +1,3 @@
+r40195 で IO::WaitReadable, IO::WaitWritable を include した例外のバリエーショ
+ンを作った修正の一部で openssl での例外クラスが SSLErrorWaitWritable でないとい
+けなかったところが SSLErrorWaitReadable になっていたのを修正。
