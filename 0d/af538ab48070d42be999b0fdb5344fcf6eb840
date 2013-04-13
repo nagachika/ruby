@@ -1,0 +1,2 @@
+File.fnmatch の rdoc コメントに {a,b} のような選択の記法についてと
+File::FNM_EXTGLOB フラグについての記述を追記しています。
