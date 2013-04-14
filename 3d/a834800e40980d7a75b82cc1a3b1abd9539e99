@@ -1,0 +1,3 @@
+ソースディレクトリ以下にある version.h と include/ruby/version.h の依存関係の参
+照の混乱があり include/ruby/version.h が更新されても version.o が再コンパイルさ
+れていなかったのを修正しています。 [ruby-dev:47249] [Bug #8256]
