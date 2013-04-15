@@ -1,0 +1,3 @@
+mkmf.rb で ruby_headers に ruby/ruby.h, ruby/missing.h, ruby/intern.h, ruby/
+st.h ruby/subst.h を追加するようにして、その結果増えた依存関係を拡張ライブラリ
+の depend ファイルに追加しています。
