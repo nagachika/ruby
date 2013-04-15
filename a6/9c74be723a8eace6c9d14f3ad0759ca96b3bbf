@@ -1,0 +1,2 @@
+struct.c で Struct の属性名を保持するために使っている Array を klass = 0 にして
+ObjectSpace から見えないようにしています。
