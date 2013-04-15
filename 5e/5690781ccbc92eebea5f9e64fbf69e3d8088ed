@@ -1,0 +1,6 @@
+struct.c の Struct のインスタンス(クラス)を作る関数 make_struct() を
+anonymous_struct(), new_struct(), setup_struct() に分解しています。
+anonymous_struct は定数名を持たないクラスを作る時で new_struct() は名前を持たせ
+る時、setup_struct() は共通の初期化部分という分けかたみたいです。
+このコミットで ChangeLog がかなり削られてしまっていて後に r40271 で修正されてい
+ます。
