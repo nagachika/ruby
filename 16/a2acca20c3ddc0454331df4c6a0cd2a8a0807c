@@ -1,0 +1,4 @@
+pack.c にあった gcc のバージョンをチェックする GCC_VERSION_SINCE() マクロの定義
+を internal.h に移動。また bignum.c の整数の 1 のビット数を数える関数で GCC
+3.4.0 以降だったら __builtin_popcountl() という組込み関数を利用するようにしてい
+ます。
