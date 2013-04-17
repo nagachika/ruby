@@ -1,0 +1,2 @@
+misc/ruby-electric.el の修正です。空ハッシュや空文字列の入力を邪魔しないように
+改善したそうです。参考URL: https://twitter.com/knu/status/323788390543790081
