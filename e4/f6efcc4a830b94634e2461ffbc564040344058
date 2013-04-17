@@ -1,0 +1,3 @@
+r40287 で追加した depend ファイルのうち r40287 で id.h を $(top_srcdir) にある
+ものとして記述していたので r40283 と同様に {$(VPATH)} と書いておいて extconf.rb
+で $VPATH に $(topdir) と $(top_srcdir) を追加しています。
