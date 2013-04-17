@@ -1,0 +1,1 @@
+String#gsub の rdoc コメントの特殊変数名の typo を修正しています。
