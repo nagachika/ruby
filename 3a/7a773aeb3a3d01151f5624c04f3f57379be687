@@ -1,0 +1,2 @@
+拡張ライブラリの rdoc コメントのメソッド名の alias の追加やメソッド名 typo の修
+正などドキュメントの修正です。 https://github.com/ruby/ruby/pull/277
