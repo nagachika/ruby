@@ -1,0 +1,2 @@
+ext/socket/unixsocket.c で構造体の padding のために構造体の最後に配列を置いてい
+たのですが clang で警告が出るそうで共用体を使うように変更しています。
