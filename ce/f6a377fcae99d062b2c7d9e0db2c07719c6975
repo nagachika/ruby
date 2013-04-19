@@ -1,0 +1,5 @@
+VM の命令列 iseq が保持するファイルパスの文字列が path と absolute_path で同一
+だったら同じ String オブジェクトを使い回すようにして余分なオブジェクトを使わな
+いですむようにしています。 [ruby-core:53639] [Bug #8149]
+tmm1 さんは今日新たにコミット権を得た Github のかたです。 Welcome to ruby core
+team!
