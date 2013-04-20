@@ -1,0 +1,3 @@
+Rinda のテストで fork して DRb のサーバ群を作っているところを Process.spawn で
+子プロセスを起動するようにしています。これって [Bug #8203] の Thread.current
+["DRb"] が引き継がれるため DRb.here? の判定に失敗する現象の対処でしょうか?
