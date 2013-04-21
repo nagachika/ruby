@@ -1,0 +1,3 @@
+.travis.yml を修正して test-all のテストのうち test_make_socket_ipv6_multicast
+を除外するようにしています。また実行するブランチの変更と irc への通知のコメント
+アウトを解除しています。
