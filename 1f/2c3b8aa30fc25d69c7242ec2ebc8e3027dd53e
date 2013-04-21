@@ -1,0 +1,3 @@
+require "cgi/cookie" だけ読み込んだ時に必要なライブラリが読み込まれないためエラ
+ーになるので lib/cgi/cookie.rb に require を追加しています。 [ruby-core:53081]
+[Bug #7997]
