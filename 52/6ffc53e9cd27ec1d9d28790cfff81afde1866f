@@ -1,0 +1,3 @@
+SmartOS というプラットフォームのコンパイラで -g および -fstack-protector が動か
+ないため configure でチェックしてつけるようにしています。 [ruby-core:54277]
+[Bug #8268]
