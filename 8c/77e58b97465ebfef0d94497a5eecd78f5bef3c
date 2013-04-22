@@ -1,0 +1,10 @@
+昨日の r40366 で marshal_dump, marshal_load を使った時の Marshal.dump でインス
+タンス変数の dump の必要性の判定を変更したのを revert して、そもそも常にインス
+タンス変数情報の dump をやめています。 marshal_dump を使っていたらそこで必要な
+ものは dump/load されるはずなので別途インスタンス変数を dump する必要はないとい
+うことでしょう。 [ruby-core:54334] [Bug #8276]
+また load 時に marshal_load に渡すためのオブジェクトのインスタンス変数を load
+結果のオブジェクトにコピーするようにしています。 [ruby-core:51163] [Bug #7627]
+marshal_load で読み込んだオブジェクトを自動的に freeze させることが
+marshal_load で freeze するのがダメなのでできないんじゃないかという指摘がチケッ
+トでされています。うーん。
