@@ -1,0 +1,2 @@
+r40273 で追加した標準添付ライブラリ matrix.rb の Vector#cross_product の rdoc
+コメントの typo 修正。
