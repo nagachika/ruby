@@ -1,0 +1,2 @@
+test-all のテスト内で Tempfile を利用しているところで Tempfile.create を利用す
+るように書き換えています。
