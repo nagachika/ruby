@@ -1,0 +1,3 @@
+r40402 の setjmp(3) を sigsetjmp(3) に変更するのを revert しています。
+sigsetjmp() がマクロだった場合を考慮した検出方法の変更の部分はそのままなので完
+全な revert ではないです。
