@@ -1,0 +1,2 @@
+test/-ext-/num2int/test_num2int.rb の整数の変換のテストにオーバフロー時のテスト
+ケースを追加しています。
