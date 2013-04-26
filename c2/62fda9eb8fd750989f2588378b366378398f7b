@@ -1,0 +1,2 @@
+ext/tk/sample/demos-en/text.rb のコメントの番号つきの箇条書きの番号がずれていた
+のを修正。 http://github.com/ruby/ruby/issues/295
