@@ -1,0 +1,4 @@
+r40195 で導入した nonblock-io 時の errno = EAGAIN などすぐに読み書きできない時
+に発生させる例外を子クラスとして追加した変更で EAGAIN と EWOULDBLOCK が異なるプ
+ラットフォームでのコードで IO::EWOULDBLOCKRWaitReadable のクラス名を typo して
+いたのを修正。 [ruby-core:43325] [Feature #6154]
