@@ -1,0 +1,7 @@
+Array#index の rdoc で用例に find_index を併記したので、index と find_index が
+同じ実装であること(alias であると書かれていますが正確には同じ実装を使っているだ
+けで alias ではないです)の記述を削っています。また Array#replace の rdoc に
+initialize_copy の用例も併記しています。 http://github.com/ruby/ruby/issues/282
+initialize_copy には dup 時に呼ばれるという意味があり replace と同じ実装である
+のは実装の詳細であるような気がするので、ドキュメントとしては別々に書かれてもい
+いような気はします。が、実際に内容は同じですからねぇ。
