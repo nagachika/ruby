@@ -1,0 +1,2 @@
+String#setbyte の第2引数名と戻り値の表記を int -> integer に変更しています。
+http://github.com/ruby/ruby/issues/294
