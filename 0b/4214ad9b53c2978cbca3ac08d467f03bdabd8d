@@ -1,0 +1,8 @@
+Object#method の rdoc で引数の説明の変更と、サンプルの追加をしています。 false
+が渡されたら継承したメソッドや、クラスに include されたモジュールはオブジェクト
+に extend で追加されたメソッドは含まないのですが、この文章だと singleton method
+だけ含まれるように見えなくもない気がします。
+また Kernel#sub, Kernel#gsub, Kernel#chop の用例で戻り値を $_ と表記するように
+しています。 ruby に -n オプションをつけて起動した時にだけ定義されるグローバル
+関数であるこれらのメソッドは標準入力から読み込んだ文字列に対して操作をしてそれ
+を返すんですね。 http://github.com/ruby/ruby/issues/293
