@@ -1,0 +1,2 @@
+拡張ライブラリ socket の extconf.rb から --with-ipv6-lib という obsolete として
+警告を出していたコマンドラインオプションを削除しています。
