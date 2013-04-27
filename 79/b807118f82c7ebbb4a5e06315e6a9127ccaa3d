@@ -1,0 +1,4 @@
+拡張ライブラリ socket の extconf.rb に --{enable,disable}-close-fds
+-by-recvmsg-with-peek および --{enable,disable}-wide-getaddrinfo というコマンド
+ラインオプションを追加して、プラットフォーム依存の挙動をチェックする項目を外か
+ら指定できるようにしています。クロスコンパイルの為のようです。
