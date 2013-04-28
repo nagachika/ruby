@@ -1,0 +1,4 @@
+r40464 で拡張ライブラリ socket の extconf.rb に追加した --{enable,disable}
+-close-fds-by-recvmsg-with-peek オプションのチェックで enable_config メソッドの
+ブロック渡しを利用するようにしています。ついでに警告やメッセージで recvmsg の
+fd passing の機能についてのチェックであることを明示するようにしています。
