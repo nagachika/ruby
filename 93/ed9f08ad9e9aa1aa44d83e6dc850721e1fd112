@@ -1,0 +1,5 @@
+r39896 でコメントアウトから戻して r39908 で IPv6 の multicast のインタフェース
+を選択するようにした Rinda::RingServer のテストが Windows 版でエラーになるのに
+対策しています。Rinda::RingServer.new の address に配列を受け付けるようにして
+interface address と multicast address を独立して指定できるようにしています。
+[ruby-core:53692] [Bug #8159]
