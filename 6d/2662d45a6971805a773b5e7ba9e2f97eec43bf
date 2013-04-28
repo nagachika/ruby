@@ -1,0 +1,5 @@
+configure.in の AC_FUNC_GETPGRP の呼び出し部分にも古い autoconf で問題があるこ
+とをコメントとして追記しています。参考URL http://lists.gnu.org/archive/html/
+bug-gnu-utils/2001-09/msg00181.html
+autoconf 2.52 あたりの話らしいので最近のディストリビューションなどではたいてい
+大丈夫だと思います。
