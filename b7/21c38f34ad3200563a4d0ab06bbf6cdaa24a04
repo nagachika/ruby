@@ -1,0 +1,3 @@
+Rinda::RingServer.new でインスタンス変数 @sockets にソケットのオブジェクトを格
+納するのを make_socket メソッド内で行うように変更しています。initialize 後に
+make_socket メソッドを呼ばれた場合のことを考慮するためだそうです。
