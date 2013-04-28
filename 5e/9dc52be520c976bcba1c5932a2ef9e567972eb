@@ -1,0 +1,3 @@
+拡張ライブラリ curses の extconf.rb でも openssl と同様に --with-curses-version
+={function,variable} というプラットフォーム依存の検出を指定できるようにするオプ
+ションを追加しています。これもクロスコンパイル時のためとのこと。
