@@ -1,0 +1,4 @@
+ARM 向けのクロスコンパイル時に IS_STACK_DIR_UPPER() の判定に必要な変数が宣言さ
+れないためコンパイルエラーになるそうで thread_pthread.c の ruby_init_stack() の
+machine stack のアドレス範囲を計算するところで STACK_GROW_DIR_DETECTION を追加
+しています。
