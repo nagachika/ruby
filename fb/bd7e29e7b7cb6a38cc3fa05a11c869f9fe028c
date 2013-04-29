@@ -1,0 +1,2 @@
+拡張ライブラリ socket の extconf.rb で UNIX ドメインソケットによる fd passing
+の機能のチェックをメソッドとして切り出すリファクタリング。
