@@ -1,0 +1,4 @@
+r40195 で non blocking IO のために IO::例外クラスを導入して、r40428 で EAGAIN
+と EWOULDBLOCK が異なるプラットフォームでのクラス名を typo していたのを修正して
+いたのですがまだ間違えていたのを修正……。気がつかなかった。 [ruby-core:43325]
+[Feature #6154]
