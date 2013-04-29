@@ -1,0 +1,6 @@
+整数のオーバフロー検出用のマクロで使うためのユーティリティマクロとして
+SIGNED_INTEGER_TYPE_P() という、型が符号ありかどうかの判定をするマクロと、符号
+あり整数の最大値を得るためのマクロ SIGNED_INTEGER_MAX()、符号つき整数の最小値を
+得るマクロ SIGNED_INTEGER_MIN()、符号なし整数の最大値を得るマクロ
+UNSIGNED_INTEGER_MAX() というのを追加して、time_t と struct timeval の tv_sec
+の最大値、最小値のマクロ定義で使うようにリファクタリングしています。
