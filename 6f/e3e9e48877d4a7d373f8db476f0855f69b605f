@@ -1,0 +1,3 @@
+Object#taint と Object#untrust の rdoc コメントに追記して、taint や untrust の
+意味について説明を追加しています。 untrust ってこういう意味だったんですね。
+[ruby-core:53706] [Bug #8162]
