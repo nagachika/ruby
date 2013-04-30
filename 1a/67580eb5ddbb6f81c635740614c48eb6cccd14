@@ -1,0 +1,5 @@
+process.c の obj2gid() で getgrnam(3) の後始末に endgrent(3) を呼ぶところで
+endgrent(3) が利用可能かのチェックをするようにしています。またそのために
+configure にチェックを追加しています。が、HAVE_GETGRNAME というのをチェックして
+いて endgrname() という関数はないみたい……と思ったら typo だったようで後で修正
+されています。 Bionic (Android の libc) は endgrent() がないんだそうです)。
