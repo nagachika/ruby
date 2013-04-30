@@ -1,0 +1,4 @@
+r40509 で lib/yaml.rb の rdoc コメントを RDoc に認識させるために追加した module
+文を if false で実行されないようにしましたが、YAML = Psych のの代入を先にしてか
+ら module 文を書く方法を取るようにしています。参考tweet https://twitter.com/
+n0kada/status/328342207511801856
