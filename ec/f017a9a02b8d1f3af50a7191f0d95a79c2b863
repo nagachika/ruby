@@ -1,0 +1,3 @@
+Bionic libc (Android NDK の libc) は langinfo.h というヘッダを持っていないため
+拡張ライブラリ nkf がコンパイルエラーになるので条件コンパイルの分岐を追加して #
+include をしないようにしています。 [ruby-dev:47301] [Feature #8338]
