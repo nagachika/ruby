@@ -1,0 +1,4 @@
+r40499 で追加した lib/yaml.rb の YAML の rdoc コメントを修正しています。 YAML
+のエンジンはもう Psych のみなので YAML は単に Psych の別名になっているのでそれ
+に追随しています。さらに YAML::ENGINE.yamler = 'syck' とした時の警告メッセージ
+も少し修正しています。 [ruby-core:54665] [Bug #8344]
