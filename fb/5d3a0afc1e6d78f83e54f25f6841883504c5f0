@@ -1,0 +1,4 @@
+ext/tk/MANUAL_tcltklib.eucj と old-README.tcltklib.eucj は既に内容のエンコーデ
+ィングは UTF-8 に変更されているので、拡張子を *.jp に変更しています。しかし .jp
+より .ja のほうがいいという意見もチケットに出ているので再変更あるかもしれません
+。 [ruby-dev:47172] [Bug #8084]
