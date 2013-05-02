@@ -1,0 +1,3 @@
+r40525 の続き。 include/ruby/intern.h に rb_block_lambda() の prototype 宣言を
+追加しています。ついでに deprecated な API の rb_f_lambda() の prototype 宣言を
+削除しています。
