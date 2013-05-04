@@ -1,0 +1,2 @@
+r40549 で Windows でも Process::Status の exited?, signaled?, stopped?, termsig
+などが使えるようになったのでテストで除外していたものを通すようにしています。
