@@ -1,0 +1,2 @@
+同じく r40553 の minitest のマージで require が足りていなくて test-all が失敗し
+ていたのを修正。
