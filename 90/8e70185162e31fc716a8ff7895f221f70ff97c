@@ -1,0 +1,2 @@
+bin/irb の不要な if $0 == __FILE__ の条件分岐を削除しています。
+ChangeLog の sample/irb.rb は bin/irb.rb の間違いでしょうか?
