@@ -1,0 +1,3 @@
+r40553 の minitest のマージで失敗したテストケースの表示が変化したために
+TestUnit のテストが失敗するようになっていたので、TestUnit のテスト側(test/
+testunit/test_parallel.rb)を対応しています(ややこしい)。
