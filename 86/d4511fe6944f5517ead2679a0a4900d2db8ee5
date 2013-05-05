@@ -1,0 +1,2 @@
+Cygwin 環境で拡張ライブラリ socket の extconf.rb で default_ipv6 のチェックを
+true にしています。 Cygwin 1.7.1 から IPv6 がサポートされているそうです。
