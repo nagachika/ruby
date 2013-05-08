@@ -1,0 +1,5 @@
+拡張ライブラリ socket の Socket.ip_address_list でマシンの IP アドレス一覧を取
+得する時に、getifaddrs(3) が IPv6 のローカルアドレスを返す時に struct
+sockaddr_in6 の sin6_scope_id メンバを 0 にして返す環境があるそうで(OpenIndiana
+SunOS 5.11)、その場合に sin6_scope_id に if_nametoindex() で取得したインデック
+スを格納しておくように対策しています。
