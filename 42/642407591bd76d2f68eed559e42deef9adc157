@@ -1,0 +1,5 @@
+拡張ライブラリ readline で ISALPHA() に (char *) 型のポインタを dereference す
+る前に (unsigned char *) にキャストするようにしています。 cygwin でのコンパイル
+警告の除去のためとのこと。 ISALPHA() は rb_isalpha( (unsigned char)(c) ) に展開
+されるので、いずれにせよ dereference 後に unsigned char にキャストされるのです
+が、それで警告が出るようですね。
