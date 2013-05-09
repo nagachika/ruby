@@ -1,0 +1,2 @@
+cygwin 環境で UNIX ドメインソケットによる file descriptor passing が使えないの
+で、拡張ライブラリ socket の extconf.rb で条件分岐を追加しています。
