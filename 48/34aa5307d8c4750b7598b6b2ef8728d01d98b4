@@ -1,0 +1,6 @@
+external_encoding を ASCII-8BIT にした IO からの読み込みは internal_encoding に
+依らず ASCII-8BIT のままにするようにしています。元のチケットは open の mode や
+オプションで external_encoding と internal_encoding を指定した時などは変換され
+るのに IO.readlines では変換されない、という不具合報告でしたが、IO.readlines が
+わではなくて open などが変換してしまうほうが間違いということで修正されています
+。 [ruby-core:54656] [Bug #8342]
