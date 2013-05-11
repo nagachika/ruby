@@ -1,0 +1,4 @@
+r40612 で修正した Module#prepend した時の Module#included_modules にクラスが現
+れるという不具合が不完全で、継承した親クラスが Module#prepend を使っていると
+included_modules に現れてしまっていたので、クラスは included_modules に出てこな
+いように条件を追加しています。 [ruby-core:53158] [Bug #8025]
