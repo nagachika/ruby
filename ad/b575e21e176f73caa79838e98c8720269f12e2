@@ -1,0 +1,3 @@
+拡張ライブラリ socket の UNIXSocket で scm_rights 機能をつかって file
+descriptor を転送するオプションを使おうとすると、未サポートの環境では
+NotImplementedError 例外が発生するようにしています。
