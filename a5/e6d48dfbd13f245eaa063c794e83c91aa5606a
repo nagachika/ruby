@@ -1,0 +1,6 @@
+拡張ライブラリ socket で HAVE_ST_MSG_CONTROL というマクロが定義されているかをチ
+ェックしていた条件コンパイルのところを全て HAVE_STRUCT_MSGHDR_MSG_CONTROL をチ
+ェックするように変更しています。元の HAVE_ST_MSG_CONTROL は定義は socket の
+extconf.rb で定義はあれていたのですが、独自に定義が追加されていたので、 mkmf.rb
+が生成してくれるマクロを使うようにしたということではないかと思います。と思った
+のですが独自に定義しているところがみつからないですね。
