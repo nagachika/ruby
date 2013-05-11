@@ -1,0 +1,3 @@
+configure で socketpair(2) の存在チェックをしていたのですが、ruby 本体では
+socketpair は使っていないので消しています。もちろん拡張ライブラリ socket では使
+っていますが、そちらあ socket の extconf.rb でチェックしています。
