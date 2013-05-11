@@ -1,0 +1,2 @@
+拡張ライブラリ socket の UNIXServer#recv_io のエラー時の例外メッセージを少し修
+正。
