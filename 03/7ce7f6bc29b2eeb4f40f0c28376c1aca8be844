@@ -1,0 +1,5 @@
+拡張ライブラリ socket で r40639 で Socket.getifaddrs の追加のために
+Socket::Addrinfo の実装に追加した struct sockaddr_dl を利用したコードが Windows
+の MSVC では strct sockaddr_dl が存在するものの内容が異なるようでコンパイルエラ
+ーになるため、構造体が存在しないものとして扱うように ext/socket/rubysocket.h で
+HAVE_TYPE_STRUCT_SOCKADDR_DL マクロを削除するようにしています。
