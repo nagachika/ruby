@@ -1,0 +1,2 @@
+NEWS ファイルに r40639 で追加した Socket.getifaddrs を新機能として追記していま
+す。
