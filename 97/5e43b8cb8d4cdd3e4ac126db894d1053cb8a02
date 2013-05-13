@@ -1,0 +1,4 @@
+r40642 で Rinda::RingServer のテストに Socket.getifaddrs を使ったのが Travis-CI
+で失敗していた件の修正。OpenVZ の venet0 インタフェースは Socket::Ifaddr の
+addr が nil でかえってくることがあったので、スキップするようにしています。不要
+になったデバッグプリントを消しています。
