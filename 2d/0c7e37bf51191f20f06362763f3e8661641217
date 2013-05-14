@@ -1,0 +1,2 @@
+configure.in から close(2) のチェックを削除しています。 HAVE_CLOSE がどこにも使
+われていなかったため。
