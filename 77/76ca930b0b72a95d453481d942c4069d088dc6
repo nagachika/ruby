@@ -1,0 +1,3 @@
+configure に getenv(3) のチェックを追加して dln_find.c で getenv() を利用すると
+ころで条件コンパイルの条件に追加しています。これまでは Windows 環境でなければ
+getenv() はあるものとされていたようです。
