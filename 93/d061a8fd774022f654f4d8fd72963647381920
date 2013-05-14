@@ -1,0 +1,3 @@
+process.c で Windows 環境でのみ定義していた HAVE_SPAWNV というマクロの定義を
+win32/Makefile.sub で生成する config.h に移動しています。 ChangeLog には #
+define SPAWNV と書かれていますね。 r40676 で修正しました。
