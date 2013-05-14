@@ -1,0 +1,2 @@
+同じく include/ruby/ruby.h で宣言済みの rb_iv_set() と rb_iv_get() のプロトタイ
+プ宣言を include/ruby/intern.h から削除しています。
