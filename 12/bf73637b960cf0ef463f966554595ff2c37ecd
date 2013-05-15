@@ -1,0 +1,5 @@
+include/ruby/ruby.h に Array オブジェクトの要素を参照、変更するためのマクロ
+RARRAY_AREF() と RARRAY_ASET() を追加しています。今後は RARRAY_PTR(ary)[i] のよ
+うにアクセスしたり代入したりしていたのはこのマクロを使うほうが推奨されるようで
+す。これは RGENGC という世代別GC のための変更だそうです。 [ruby-core:54621]
+[Feature #8339]
