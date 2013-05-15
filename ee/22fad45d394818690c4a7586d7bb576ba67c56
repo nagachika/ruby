@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OPENSSL_NO_SOCK というマクロが定義されていたら
+OpenSSL::SSL::SSLSocket の定義を削るようにしています。 socket がない環境でも
+openssl の暗号化関係のライブラリ部分は利用したいプラットフォームがあるのでのよ
+うな対処をしているそうです。 NativeClient でしょうか。
