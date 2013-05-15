@@ -1,0 +1,5 @@
+Module#instance_method に対応する、特異メソッドのみを取り出す Kernel#
+singleton_method メソッドを追加しています。r40681, 40682, 40683 から連なる変更
+です。 [ruby-core:54914] [Feature #8391]
+method や public_method もそうなのですが、なぜ Object#singleton_method でなくて
+Kernel#singleton_method になってるんでしょう。
