@@ -1,0 +1,3 @@
+拡張ライブラリ socket の extconf.rb で socketpair(2) の存在チェックを追加してい
+ます。 r40693 で rb_w32_socketpair() チェックと一緒に削ってしまっていたので
+Unix 環境向けに再度追加しています。
