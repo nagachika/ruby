@@ -1,0 +1,4 @@
+Windows 環境で getipaddrs(3) をエミュレートするための関数 getipaddrs() を win32
+/win32.c で実装しています。詳しいところはわかりませんが iphlpapi.lib というライ
+ブラリを利用して GetAdaptersAddresses() という関数を呼び出してエミュレートして
+いるようです。
