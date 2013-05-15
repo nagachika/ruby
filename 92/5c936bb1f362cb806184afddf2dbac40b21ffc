@@ -1,0 +1,5 @@
+r37275 で追加した NEWOBJ() + OBJSETUP() をまとめたマクロ NEWOBJ_OF() を利用する
+ように gc.c の rb_data_object_alloc() と rb_data_typed_object_alloc() をリファ
+クタリングしています。
+リファクタリングといっても rb_data_object_alloc() で klass が 0 の時の分岐がな
+くなって常に Check_Type() するようにされていますけどこれは大丈夫でしょうか。
