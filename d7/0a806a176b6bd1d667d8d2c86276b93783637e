@@ -1,0 +1,3 @@
+include/ruby/ruby.h で LONG_LONG 型が有効な場合の条件コンパイルの条件が間違って
+いて常に LONG_LONG が使えるように判定していたのを修正しています。
+[ruby-dev:47341]
