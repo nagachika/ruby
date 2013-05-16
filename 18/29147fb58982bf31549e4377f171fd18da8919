@@ -1,0 +1,2 @@
+r40703 と r40704 の続きでさらに RGENGC_WB_PROTECTED_XXXX というマクロも on にし
+て、各種オブジェクトの型の write barrier による保護を有効にしています。
