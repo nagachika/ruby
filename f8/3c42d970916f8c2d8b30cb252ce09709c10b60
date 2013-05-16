@@ -1,0 +1,4 @@
+include/ruby/win32.h で INTPTR_MAX, INTPTR_MIN, UINTPTR_MAX が未定義の時に定義
+するようにしています。コミットログによると VC9 でのビルド時に intptr_t と
+uintptr_t のみ定義されていて INTPTR_MAX, INTPTR_MIN, UINTPTR_MAX などが未定義だ
+ったのでそれをカバーするようにしているそうです。
