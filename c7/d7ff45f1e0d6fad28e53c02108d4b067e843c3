@@ -1,0 +1,6 @@
+DL と Fiddle で DL::Function#call や Fiddle::Function#call で関数を呼び出す時に
+引数に String を渡す場合にその String が taint で汚染されていた場合にチェックが
+されていなかったので、チェックを追加しています。これは CVE-2013-2065 という脆弱
+性の修正になります。 http://www.ruby-lang.org/ja/news/2013/05/14/
+taint-bypass-dl-fiddle-cve-2013-2065/ 既に 2.0.0 および 1.9.3 のブランチにはバ
+ックポートされて、最新版リリースに含められています。
