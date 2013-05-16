@@ -1,0 +1,2 @@
+rb_objspace_t から marked_num というメンバを削除しています。このかわりに
+objspace_live_num() を使えるので不要とのこと。
