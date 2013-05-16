@@ -1,0 +1,2 @@
+r40684 で追加した Kernel#signleton_method について NEWS ファイルに追記していま
+す。 [ruby-core:54914] [Feature #8391]
