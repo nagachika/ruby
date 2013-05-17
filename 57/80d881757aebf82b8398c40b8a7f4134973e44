@@ -1,0 +1,2 @@
+common.mk で verconf.h が tool/shvar_to_cpp.rb に依存するように依存関係を修正し
+ています。 r40758 の変更の追随ですね。
