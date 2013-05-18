@@ -1,0 +1,6 @@
+make に loadpath っていう $LOAD_PATH を表示するターゲットがあったそうで(知らな
+かった)、しかし miniruby で $: を表示するというものだったので、完全なパス群が表
+示されていなかったので、loadpath.c をプリプロセッサにかけて展開後に sed でロー
+ドパス部分を切り出すというかなり力技な方法に切り替えています。またこのため
+Windows 版では cmd.exe で実行できるようにするため common.mk から Makefile.in と
+win32/Makefile.sub に分離しています。
