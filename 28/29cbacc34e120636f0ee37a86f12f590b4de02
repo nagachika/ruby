@@ -1,0 +1,5 @@
+標準添付ライブラリ cgi の lib/cgi/util.rb で String を ASCII-8BIT エンコーディ
+ングに変更するため dup.force_encoding("ASCII-8BIT") していたのを 2.0.0 から導入
+された String#b メソッドを使うようにリファクタリングしています。チケットでは
+cgi と erb のパッチが提示されていましたが、このコミットは cgi のぶんだけです。
+[ruby-dev:47336] [Feature #8394]
