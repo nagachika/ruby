@@ -1,0 +1,6 @@
+template/verconf.h.in で RbConfig::CONFIG['exec_prefix'] の変数参照が .h.in か
+ら .h に変換する時に展開されないようにしている、のだと思います。多分。うーん
+template から .h.in にする時に、かも。
+[追記]なかださんに教えていただきました。--enable-load-relativeのときにできるだ
+け相対パスになるように、$(exec_prefix)に一致するパスをRUBY_EXEC_PREFIXに置換し
+ている、のだそうです。ほうほう。[/追記]
