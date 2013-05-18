@@ -1,0 +1,3 @@
+verconf.h を生成する方法を変更して template/verconf.h.in を作って tool/
+generic_erb.rb で展開して作るようにしています。r40758 で追加した tool/
+shvar_to_cpp.rb というツールは不要になったので削除しています。
