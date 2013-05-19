@@ -1,0 +1,3 @@
+Fiber のマシンスタック用のメモリ領域をキャッシュする個数を定義する定数の typo
+を修正して MAX_MACHINE_STACK_CACHE にしています。 http://github.com/ruby/ruby/
+issues/307
