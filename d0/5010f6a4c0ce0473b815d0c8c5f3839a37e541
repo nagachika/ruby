@@ -1,0 +1,3 @@
+拡張ライブラリ socket で Socket::Ifaddr#ifindex を実装する関数の rdoc 用コメン
+トが if_nametoindex() の有無のチェックをする #if の前に置かれていて認識されてい
+なかったので、#if の中、関数の直前に置くように修正しています。
