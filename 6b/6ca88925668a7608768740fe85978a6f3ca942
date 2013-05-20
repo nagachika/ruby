@@ -1,0 +1,2 @@
+enumerator.c の inspect_enumerator() から Enumerator のメソッド名を取得して文字
+列に追加する処理を append_method() として切り出すリファクタリング。
