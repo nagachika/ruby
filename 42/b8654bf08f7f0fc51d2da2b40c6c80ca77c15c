@@ -1,0 +1,6 @@
+String#scrub と scrub! の実装をリファクタリングしています。 rb_str_scrub() から
+str_scrub0() という関数を切り出して rb_str_srcub() と str_scrub_bang() の両方か
+ら利用するようにしています。 str_scrub0() は不正な文字があればそれを置換した結
+果を、なければ Qnil を返すようにしています。また String#scrub! の実装する関数は
+rb_str_scrub_bang() という名称で static が付いてなかったのですが、rb_ を削って
+static 関数にしています。
