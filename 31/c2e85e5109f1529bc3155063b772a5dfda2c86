@@ -1,0 +1,2 @@
+同じく標準添付ライブラリ WEBrick の WEBrick::HTTPServlet::FileHandler のディレ
+クトリリストの表示で table タグを使って表示を整えているみたいです。
