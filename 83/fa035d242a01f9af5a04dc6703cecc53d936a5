@@ -1,0 +1,3 @@
+標準添付ライブラリ WEBrick の WEBrick::HTTPServlet::FileHandler のディレクトリ
+リストを表示する時の HTML を生成するところで title と h1 タグの両方で使っていた
+文字列を変数に格納しておいて使い回すようにリファクタリング。
