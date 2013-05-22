@@ -1,0 +1,3 @@
+r40839 の forwardable.rb の rdoc コメントの修正を revert しています。 demo のた
+めに revert したとあるのですが、再修正はされていないようです。これはなんでしょ
+う。
