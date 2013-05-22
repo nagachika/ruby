@@ -1,0 +1,3 @@
+標準添付ライブラリ logger.rb の Logger::Application の rdoc コメントで
+Logger::Application の表記を名前空間の Logger も含めて書くように修正しています
+。
