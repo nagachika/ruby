@@ -1,0 +1,2 @@
+ext/extmk.rb を rdoc の処理対象にしないように :stopdoc: と :startdoc: を使って
+はさんでいます。
