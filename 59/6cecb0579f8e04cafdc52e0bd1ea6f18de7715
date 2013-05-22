@@ -1,0 +1,2 @@
+test-all の ObjectSpace のテスト test_each_object でメモリを食うテストなので
+assert_separately を使って子プロセスで起動するようにしています。
