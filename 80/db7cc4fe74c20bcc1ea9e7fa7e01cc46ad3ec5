@@ -1,0 +1,2 @@
+test-all のユーティリティを定義している test/ruby/envutil.rb の
+assert_separately で子プロセスで envutil.rb を require させるようにしています。
