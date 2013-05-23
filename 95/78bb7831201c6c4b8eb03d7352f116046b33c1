@@ -1,0 +1,2 @@
+GC::Profiler の報告する項目を追加して RGENGC の major GC か minor GC かの区別や
+GC が走り始めた理由を表示するようにしているようです。
