@@ -1,0 +1,3 @@
+r40868 で追加したテストで filesystem encoding が US-ASCII だった時にテストが失
+敗しないようにファイル名の文字列を ASCII-8BIT に force_encoding するようにして
+います。
