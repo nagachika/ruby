@@ -1,0 +1,3 @@
+GC::Profiler の sweep 時間の計測が LazySweep 導入によりスロット毎に sweep 時間
+を記録していたのを、全スロットの sweep 時間の合計を計算するようにしているそうで
+す。
