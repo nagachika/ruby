@@ -1,0 +1,2 @@
+Enumerator#feed メソッドの rdoc コメントに Enumerable#map の返す Enumerator を
+使ったサンプルコードを追加しています。
