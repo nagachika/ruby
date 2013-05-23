@@ -1,0 +1,2 @@
+struct gc_profile_record の is_marked というメンバーは常に Qtrue になるので削っ
+ています。
