@@ -1,0 +1,3 @@
+Windows 版の read()/write() の実装 rb_win32_read()/rb_win32_write() からファイ
+ルポインタの操作処理(?)を setup_overlapped() と finish_overlapped() として切り
+出して共通化するリファクタリングです。
