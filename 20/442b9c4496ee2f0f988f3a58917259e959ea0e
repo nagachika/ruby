@@ -1,0 +1,2 @@
+r40839 で入れて r40987 で demonstration のために revert した forwardable.rb の
+rdoc コメントを再度コミットしています。
