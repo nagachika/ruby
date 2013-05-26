@@ -1,0 +1,2 @@
+ext/extmk.rb で Makefile を生成する時に $DLDFLAGS に既に dldflags の指定したオ
+プションが含まれていたら再度追加しないようにしています。
