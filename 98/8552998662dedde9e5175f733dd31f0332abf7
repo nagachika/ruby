@@ -1,0 +1,4 @@
+Module#private_constant を無引数で読んだ時に警告を出す(private や public と違っ
+て private_constant は無引数で呼んでその後の定数に全てに影響するような使いかた
+はできません)処理でメソッド名の取得方法が間違っていて SEGV する恐れがあったのを
+修正しています。
