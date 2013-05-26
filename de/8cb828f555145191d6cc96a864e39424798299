@@ -1,0 +1,3 @@
+r38364 で削除されて既に存在しなくなっていた rb_class_init_copy() という関数のプ
+ロトタイプ宣言が include/ruby/intern.h に残っていたのを削除しています。
+[ruby-core:55120] [Bug #8434]
