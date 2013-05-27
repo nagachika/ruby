@@ -1,0 +1,5 @@
+拡張ライブラリ pty で posix_openpt(3) で端末を開く時に O_CLOEXEC フラグがサポー
+トされていなかった FreeBSD で 10-current や 9-stable ではサポートされるようにな
+ったので、FreeBSD 9.2 以降では利用するように条件コンパイルの判定を変更していま
+す。 r33665, r33668 や r33689 も参照。参考URL: http://www.freebsd.org/cgi/
+query-pr.cgi?pr=162374
