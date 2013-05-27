@@ -1,0 +1,6 @@
+set_method_visibility() という関数に無引数(argc == 0) で呼ぶと何も影響がおきな
+いという警告を表示する時にメソッド名をクオートして表示するようにしています。ち
+なみに Ruby スクリプト上で private とか public を無引数で呼び出した時はこの関数
+に入る前にその呼び元の関数でモードを切り替える処理をするように分岐しているので
+、この警告が効くのは Module#public_class_method, Module#private_class_method だ
+けのようです。 private_class_method っていうメソッドあったんですね。
