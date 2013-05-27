@@ -1,0 +1,4 @@
+proc.c の rb_method_entry_min_max_arity() で switch 文の break 漏れで fall
+through していたのを修正しています。 r38236 で入ったものですがこの関数の現状の
+呼ばれかたではこの部分に来ることがないので実害はなかったそうです。これも
+Coverity Scan によって検出されたそうです。
