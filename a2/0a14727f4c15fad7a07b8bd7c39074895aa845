@@ -1,0 +1,7 @@
+RGENGC にからんで Hash の実装に write barrier を追加するようにしています。
+struct RHash の ifnone メンバーが VALUE 型なので、その宣言に const をつけて直接
+代入できないようにして、RHASH_SET_IFNONE() というマクロを定義してこれを使って
+write barrier つきで ifnone メンバーに値を格納するようにしています。また
+st_update() や hash_aset(), hash_aset_str() などの Hash オブジェクトの要素を書
+き替える関数で write barrier を挿入しています。世代別GC で write barrier という
+のがなぜ必要なのかというのは(以下略)。
