@@ -1,0 +1,2 @@
+TracePoint のイベントのマクロ名 RUBY_INTERNAL_EVENT_FREE を
+RUBY_INTERNAL_EVENT_FREEOBJ に改名しています。
