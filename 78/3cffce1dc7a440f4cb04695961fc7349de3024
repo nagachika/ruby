@@ -1,0 +1,3 @@
+include/ruby/ruby.h で定義されている struct RHash の要素数を返すマクロ
+RHASH_SIZE() の結果が符号つき整数と符号なし整数の比較の警告が出るのを抑制するた
+め明示的な st_index_t へのキャストを追加しています。
