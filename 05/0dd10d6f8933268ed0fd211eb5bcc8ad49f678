@@ -1,0 +1,3 @@
+拡張ライブラリ objspace に ObjectSpace.trace_object_allocations というメソッド
+を新設して、TracePoint に追加されたイベントを利用してオブジェクトにそのオブジェ
+クトを確保した位置を記録して調査できるようにしています。
