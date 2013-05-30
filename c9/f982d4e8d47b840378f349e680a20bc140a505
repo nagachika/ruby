@@ -1,0 +1,2 @@
+ext/objspace/gc_hook.c と ext/objspace/object_tracing.c の Subversion の
+$Author$ タグが展開された状態でコミットされていたので戻しています。
