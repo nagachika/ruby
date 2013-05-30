@@ -1,0 +1,2 @@
+GC_ENABLE_LAZY_SWEEP のチェックの条件が反転していて Lazy Sweep が無効になってい
+たのを修正しています。
