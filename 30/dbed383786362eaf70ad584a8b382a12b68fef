@@ -1,0 +1,5 @@
+拡張ライブラリ objspace で ObjectSpace.after_gc_start_hook= と
+ObjectSpace.after_gc_end_hook= という GC の開始/終了時のフックを登録するメソッ
+ドを追加しています。これは postponed_job を使って実際の実行は次の finalizer 実
+行のタイミングで行なわれます。 rb_postponed_job と TracePoint の internal event
+のサンプルとして実装してみた、とあります。
