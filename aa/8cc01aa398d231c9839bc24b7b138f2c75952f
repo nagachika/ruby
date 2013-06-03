@@ -1,0 +1,4 @@
+拡張ライブラリ zlib で Zlib::GzipReader を rewind でファイルポジションを巻き戻
+すと SEGV が発生するという不具合を修正しています。 [ruby-core:55220] [Bug #
+8467]
+ここでもまた ChangeLog が巻き戻ってしまっていますね。
