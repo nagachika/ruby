@@ -1,0 +1,3 @@
+lib/cgi/util.rb, lib/erb.rb で 2.0.0 から追加された str.dup.force_encoding("
+ASCII-8BIT") を同等の String#b メソッドの呼び出しに置き換えるようにしています。
+[ruby-dev:47336] [Feature #8394]
