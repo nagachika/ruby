@@ -1,0 +1,3 @@
+Kernel#fork および Kernel#spawn の rdoc コメントに、fork はいくつかのプラットフ
+ォームで動かないので spawn 推奨ということと、spawn のサンプルコードとして実行し
+ているrubyインタプリタを実行するサンプルを追加しています。
