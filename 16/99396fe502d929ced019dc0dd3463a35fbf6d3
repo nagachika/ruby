@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal に含まれている bigdecimal/util.rb で追加される Float#
+to_d メソッドのデフォルトの精度が 1 大きかったのを修正しています。 https://
+github.com/ruby/ruby/pull/323
