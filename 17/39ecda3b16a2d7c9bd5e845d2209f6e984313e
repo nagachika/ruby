@@ -1,0 +1,2 @@
+r41047 で fileutils に導入した remove_tailing_slash を FileUtils.rmdir からも呼
+ぶようにして "/" が渡された時に対応するようにしています。
