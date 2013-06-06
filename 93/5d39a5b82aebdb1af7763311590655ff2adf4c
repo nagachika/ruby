@@ -1,0 +1,2 @@
+bignum.c に bitlength_bdigit() という関数を新規作成して ffs(3) を直接呼ぶかわり
+に使うようにしています。
