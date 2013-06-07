@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の rdoc 用コメントの重複した文の削除や文法の修正など。
+https://github.com/ruby/ruby/pull/299
