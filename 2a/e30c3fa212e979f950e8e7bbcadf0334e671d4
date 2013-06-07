@@ -1,0 +1,3 @@
+tool/mkrunnable.rb でプラットフォームを判定するために CROSS_COMPILING のみ参照
+していたのを CROSS_COMPILING が未定義なら普通に RUBY_PLATFORM をチェックするよ
+うに修正しています。
