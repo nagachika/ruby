@@ -1,0 +1,2 @@
+Array#+ メソッドの rdoc 用コメントのサンプルコードで非破壊的に動作することがわ
+かるように修正しています。 https://github.com/ruby/ruby/pull/324
