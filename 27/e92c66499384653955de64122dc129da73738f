@@ -1,0 +1,2 @@
+include/ruby/ruby.h の flonum 導入による VALUE のタグ(ビットフラグ)の説明のコメ
+ントのインデントを修正。
