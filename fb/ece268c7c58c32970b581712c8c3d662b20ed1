@@ -1,0 +1,3 @@
+同じく拡張ライブラリ objspace の object_tracing.c の allocation_info() という関
+数を lookup_allocation_info() と改名しています。構造体のタグ名と同じでまぎらわ
+しかったので変更したとのこと。
