@@ -1,0 +1,4 @@
+RGenGC の旧世代のオブジェクトの管理用にビットマップをひとつ追加しています。構造
+を追加して RVALUE_PROMOTE() と RVALUE_DEMOTE() でビット操作をしているだけでまだ
+内容は使っていないようです。あと gc_mark_children() で旧世代に既に入っているオ
+ブジェクトを RVALUE_PROMOTE() と rgengc_report() の呼び出しを抑制しています。
