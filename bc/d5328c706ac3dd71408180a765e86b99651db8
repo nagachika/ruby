@@ -1,0 +1,4 @@
+lib/rubygems/specification.rb で Gem::NoAliasYAMLTree.new を使っていて
+deprecated の警告が出ていたので Gem::NoAliasYAMLTree.create を使うように修正し
+ています。 GitHub の master でもまだ修正されていないみたいですね。 https://
+github.com/rubygems/rubygems/blob/master/lib/rubygems/specification.rb#L2249
