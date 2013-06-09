@@ -1,0 +1,2 @@
+rb_const_set() で可視性のフラグを格納する変数の型を rb_const_flag_t に変更して
+います。
