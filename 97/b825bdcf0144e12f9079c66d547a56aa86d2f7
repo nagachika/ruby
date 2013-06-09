@@ -1,0 +1,2 @@
+inline関数の RCLASS_SUPER() および RCLASS_SET_SUPER() の引数が適当な1文字の名前
+だったのを内容のわかりやすい命名に変更しています。
