@@ -1,0 +1,2 @@
+bignum.c の rb_int_export() と rb_int_import() から引数のチェックをする処理を括
+り出して validate_integer_format() という関数を追加するリファクタリング。
