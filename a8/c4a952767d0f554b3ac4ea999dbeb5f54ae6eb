@@ -1,0 +1,1 @@
+rb_int_export() と rb_int_import() の仮引数名を変更しています。
