@@ -1,0 +1,2 @@
+set_visibility() に引数の可視性を指定するフラグの型を rb_method_flag_t に変更し
+てついでに引数名も変更しています。
