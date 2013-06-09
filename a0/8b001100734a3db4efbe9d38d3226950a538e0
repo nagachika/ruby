@@ -1,0 +1,4 @@
+rb_int_export()/rb_int_import() を rb_integer_pack()/rb_integer_unpack() と改名
+しています。確かにこのほうが pack/unpack メソッドからの類推でわかりやすいですね
+。それに伴ないテスト用の拡張ライブラリやテストスクリプトも全体的に命名を変更し
+ています。
