@@ -1,0 +1,3 @@
+rb_int_import() というバイト列の表現から整数(Fixnum, Bignum) を生成する C API
+を新設しています。またこの API を使って String#unpack の "W" (BER compressed
+integer) のデコードの実装を書きかえています。
