@@ -1,0 +1,4 @@
+拡張ライブラリ ext/json/fbuffer/fbuffer.h の fbuffer_append_str() で
+RB_GC_GUARD() で str を保護していましたがポインタを利用した後に置かないと
+GC_GC_GUARD() の後で不要とみなされてしまうかもしれないので、ポインタを利用して
+いる分の後に位置を移動しています。
