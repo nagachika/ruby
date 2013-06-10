@@ -1,0 +1,2 @@
+random.c の make_seed_value() でバッファサイズとして渡す引数を直前で計算してい
+るのに常に DEFAULT_SEED_CNT という定数を渡してしまっていたのを修正しています。
