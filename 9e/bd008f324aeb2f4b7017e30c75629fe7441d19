@@ -1,0 +1,4 @@
+random.c の random_load() という関数で Integer(Fixnum/Bignum) からバイト列を生
+成するのに rb_integer_pack() を利用するようにしています。なるほどー、このような
+処理が頻出していたから汎用的に使える rb_integer_pack()/rb_integer_unpack() を作
+っていたんですね。
