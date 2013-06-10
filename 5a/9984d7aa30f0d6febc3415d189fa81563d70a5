@@ -1,0 +1,2 @@
+marshal.c の r_object0() でも Bignum をロードするのに rb_integer_unpack() を利
+用するようにしています。
