@@ -1,0 +1,2 @@
+random.c の limited_big_rand() で変数 rnd, lim を long と定義していたのが環境に
+よっては警告を発生させるため uint32_t 型に宣言するように修正しています。
