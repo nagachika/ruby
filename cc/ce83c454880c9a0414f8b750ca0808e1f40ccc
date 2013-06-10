@@ -1,0 +1,2 @@
+random.c の rand_init() でも rb_integer_pack() を利用するようにしています。
+またこれに伴なって不要になった roomof() というマクロの定義を削除しています。
