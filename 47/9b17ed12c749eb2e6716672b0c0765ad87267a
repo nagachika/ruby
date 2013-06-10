@@ -1,0 +1,2 @@
+random.c の int_pair_to_real_inclusive() で uint32_t の配列から Integer を生成
+するのに rb_integer_unpack() を利用するようにしています。
