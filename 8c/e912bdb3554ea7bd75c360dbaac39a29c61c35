@@ -1,0 +1,4 @@
+r41154 で改名された integer_pack_loop_setup() の引数から word_num_nailbytes_ret
+を削除しています。 rb_integer_pack()/rb_integer_unpack() の引数からは対応する引
+数の nails は残っていますが、ループの条件で word_num_nailbytes は利用しないよう
+にしています。
