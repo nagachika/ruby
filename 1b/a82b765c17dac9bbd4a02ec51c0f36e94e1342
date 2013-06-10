@@ -1,0 +1,4 @@
+r41163 で configure で NET_LUID をチェックするようにしたので win32/Makefile.sub
+で生成する config.h に HAVE_TYPE_NET_LUID の定義を追加しています。 mswin32/
+mswin64 向けとのこと。この定義にさらに条件分岐が必要かどうかは usa さんのレビュ
+ーが必要と書かれています。
