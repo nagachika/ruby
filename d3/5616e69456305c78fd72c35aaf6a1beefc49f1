@@ -1,0 +1,5 @@
+rb_integer_unpack() で rb_funcall() でメソッド呼び出しで演算していたところを
+numwords の範囲をチェックして可能なら直接計算するようにする最適化を施しています
+。また random.c の make_seed_value() でも rb_integer_unpack() を利用するように
+しています。またこのために seed を int の配列として定義していたのを uint32_t の
+配列としてワード幅を明示的に指定するようにしています。
