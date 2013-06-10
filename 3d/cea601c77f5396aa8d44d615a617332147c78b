@@ -1,0 +1,3 @@
+rb_integer_pack()/rb_integer_unpack() から使うユーティリティ関数(?)の関数名を
+int -> integer にしたり pack という名称を含めるようにする関数名変更を行なってい
+ます。
