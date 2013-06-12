@@ -1,0 +1,2 @@
+bignum.c の rb_absint_numwords() のリファクタリングをして処理を別の関数に切り出
+しています。
