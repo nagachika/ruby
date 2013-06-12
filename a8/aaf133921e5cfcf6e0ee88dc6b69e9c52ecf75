@@ -1,0 +1,4 @@
+gc.c の rgengc_remember() で RGENGC_CHECK_MODE を on にしてコンパイルされた時の
+引数 obj が新世代であることをチェックしていたのを削っています。よく調べていませ
+んが rb_gc_writebarrier() から remember set に入れる時に旧世代のオブジェクトが
+渡される可能性があったようです。
