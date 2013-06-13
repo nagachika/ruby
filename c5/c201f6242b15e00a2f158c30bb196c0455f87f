@@ -1,0 +1,4 @@
+ARRAY_DEBUG を定義すると array.c の ary_resize_capa() で assert() 文が
+ary_make_shared() から呼ばれた時に失敗していたので、ary_make_shared() から
+ary_resize_capa() を呼び出さずに専用の ary_shrink_capa() という関数を定義してこ
+ちらを使うようにしています。 [ruby-dev:47416] [Bug #8510]
