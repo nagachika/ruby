@@ -1,0 +1,2 @@
+validate_integer_pack_format() での wordorder_bits のチェックの例外メッセージを
+よりこまかく条件分けして作るようにしています。
