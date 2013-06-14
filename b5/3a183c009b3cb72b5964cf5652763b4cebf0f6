@@ -1,0 +1,8 @@
+rb_integer_unpack() から Bignum で使うメモリ領域のサイズを計算するのに
+integer_unpack_num_bdigits_bytes() を呼んでいたところを
+integer_unpack_num_bdigits_generic() を使うように書きかえています。しかし書き変
+えたところはもともと #if 0 ... #endif でくくられた中なので現在の動作には影響が
+なくて、デバッグ用のコードっぽいです。
+また integer_unpack_num_bdigits_generic() では Integer に変換して rb_funcall()
+でメソッド呼び出しすることで演算していたのを直接計算するように書き変えているよ
+うです。
