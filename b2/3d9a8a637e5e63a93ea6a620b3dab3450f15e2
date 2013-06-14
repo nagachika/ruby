@@ -1,0 +1,2 @@
+rb_integer_pack() や rb_integer_unpack() で numwords が 1以下の時は word order
+の指定は不要なので指定されていなくてもエラーにしないようにしています。
