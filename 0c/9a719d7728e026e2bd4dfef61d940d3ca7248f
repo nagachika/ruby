@@ -1,0 +1,3 @@
+rb_integer_unpack() の引数 sign を削除して、flags のビットフラグを使って指定す
+るように変更しています。またそのために INTEGER_PACK_NEGATIVE という定数を定義し
+ています。また仕様が揺らぎそうですね。
