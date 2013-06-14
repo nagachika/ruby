@@ -1,0 +1,3 @@
+parse.y の parser_set_encode() で Array オブジェクトの ruby_debug_lines を
+RARRAY_PTR() でバッファを取りして RGenGC の shady なオブジェクトにしてしまって
+いたのを RARRAY_AREF() を使うようにして防いでいます。
