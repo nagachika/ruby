@@ -1,0 +1,2 @@
+tool/ifchange の r40755 での変更により古い /bin/sh をもつ Solaris では動かなく
+なっていたのを修正しています。 [ruby-dev:47420] [Bug #8524]
