@@ -1,0 +1,3 @@
+rb_integer_unpack_2comp() という関数を追加して(おそらく)2の補数表現のワード列か
+ら Bignum/Fixnum で数値を取り出せるようにしています。詳しい内容は省略。で
+pack.c で String#unpack の実装にこの関数を利用するようにしています。
