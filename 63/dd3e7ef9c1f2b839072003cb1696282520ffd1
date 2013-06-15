@@ -1,0 +1,2 @@
+bignum.c の bigdivrem() で中間の Bignum オブジェクトの作成を削って直接バッファ
+を ALLOCV_N() で確保するようにするリファクタリングです。
