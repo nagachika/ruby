@@ -1,0 +1,2 @@
+configure.in で tool/config.{guess,sub} のそれぞれが存在しなかったらその時に
+tool/get-config_files を使ってダウンロードするようにしています。
