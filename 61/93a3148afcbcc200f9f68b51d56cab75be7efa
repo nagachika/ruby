@@ -1,0 +1,2 @@
+bignum.c の bigdivrem() と bdigs_small_rshift() という関数から右シフト演算の処
+理を bdigs_small_rshift() として括り出しています。
