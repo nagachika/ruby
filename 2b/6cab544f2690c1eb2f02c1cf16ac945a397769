@@ -1,0 +1,2 @@
+bignum.c の bigdivrem() からシフト演算処理を bdigs_small_lshift() として切り出
+して再利用するリファクタリング。
