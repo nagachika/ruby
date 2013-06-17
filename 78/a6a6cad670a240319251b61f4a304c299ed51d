@@ -1,0 +1,2 @@
+bignum.c の absint_numwords_bytes() absint_numwords_small()
+absint_numwords_generic() などの切り出した関数群に static をつけています。
