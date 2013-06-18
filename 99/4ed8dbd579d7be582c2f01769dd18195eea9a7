@@ -1,0 +1,2 @@
+GC_PROFILE_MORE_DETAIL が真に定義されていた時に収集する GC の profile 情報を追
+加しています。
