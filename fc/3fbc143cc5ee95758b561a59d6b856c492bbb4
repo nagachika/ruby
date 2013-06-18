@@ -1,0 +1,4 @@
+bignum.c の absint_numwords_generic() で rb_funcall() を用いてメソッド呼び出し
+で計算していた部分を削っています。同様に bary_pack() と rb_integer_unpack() の
+結果を比較していた assert() 文も削っていて、やっぱりこのあたりは元々ある計算と
+ダブルチェックをしていたみたいですね。
