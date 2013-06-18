@@ -1,0 +1,6 @@
+bignum.c のリファクタリング。 bary_2comp() という関数を get2comp() から括り出し
+、integer_unpack_num_bdigits() を rb_integer_unpack_internal() から括り出し、
+bary_unpack_internal() を bary_unpack() から括り出して INTEGER_PACK_2COMP フラ
+グのサポートを追加、rb_integer_unpack_internal() と rb_integer_unpack_2comp は
+削除する、などなど r41336 の変更に追随するための関数の呼び出し関係の再構築をし
+ている感じです。
