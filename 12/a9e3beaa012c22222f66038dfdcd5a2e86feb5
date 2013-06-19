@@ -1,0 +1,3 @@
+bignum.c から absint_numwords_bytes() という関数を削除して rb_absint_numwords()
+でこの関数を呼んでいたところは absint_numwords_generic() を使う(条件分岐を削除
+する)ようにしています。
