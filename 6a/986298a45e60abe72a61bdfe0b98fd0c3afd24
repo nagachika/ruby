@@ -1,0 +1,5 @@
+test/json/test_json_generate.rb の TestJSONGenerate#test_broken_bignum という大
+きすぎる整数を JSON 化しようとした時のテストを fork を使って書かれていたのを
+assert_separately を使って書き変えています。また TestJSONGenerate#test_gc とい
+うテストは assert_in_out_err を使って子プロセスで raise することでテストが書か
+れていたので assert_separately を使うように書き変えています。
