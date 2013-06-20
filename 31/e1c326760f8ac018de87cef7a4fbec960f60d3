@@ -1,0 +1,2 @@
+r41385 で追記した ext/objspace/object_tracing.c の rdoc 用コメントのメソッド名
+の typo を修正。
