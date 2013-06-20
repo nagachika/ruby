@@ -1,0 +1,5 @@
+configure で 128bit 整数型 int128_t が利用可能かチェックして、利用可能な時には
+bignum.c で BDIGIT を uint64_t に、BDIGIT_DBL を uint128_t に定義するようにして
+います。 Bignum の演算のパフォーマンスの向上が見込めるようです。しかしこれで環
+境によっては BigDecimal のテストが失敗するらしいです(手元では発生せず)。
+[ruby-dev:47413] [Feature #8509]
