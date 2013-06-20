@@ -1,0 +1,3 @@
+gc.c のプロファイル情報取得用に GC が走る原因を表す定数 gc_profile_record_flag
+の GPR_FLAG_STRESS の値を変更しています。ビットフラグとして使えるように2の累乗
+にするようにしています。 one-hot encoding という呼び方はじめて知りました。
