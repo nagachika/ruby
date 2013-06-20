@@ -1,0 +1,2 @@
+r41345 の変更で T_ZOMBIE 型になったオブジェクトは mark 関数を呼び出さなくなった
+ので gc_mark_children() で T_ZOMBIE を考慮していたのを削っています。
