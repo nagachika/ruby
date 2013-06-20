@@ -1,0 +1,2 @@
+gc.c で ObjectSpace の Module を格納する変数名が rb_mObSpace だったのを
+rb_ObjSpace に改名しています。
