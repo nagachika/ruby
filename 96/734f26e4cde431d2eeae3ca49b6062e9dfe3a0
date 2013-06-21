@@ -1,0 +1,2 @@
+test/rinda/test_rinda.rb で fork が使えるかチェックするための have_fork? メソッ
+ドは既に使われなくなったのでメソッド定義を削除しています。
