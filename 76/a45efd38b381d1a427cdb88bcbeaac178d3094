@@ -1,0 +1,1 @@
+test/gdbm/test_gdbm.rb でも fork した子プロセスの終了を待つようにしています。
