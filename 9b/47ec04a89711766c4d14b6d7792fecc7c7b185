@@ -1,0 +1,6 @@
+T_DATA 型のオブジェクトも Write Barrier を挿入して normal (shady じゃない)オブ
+ジェクトであることを宣言することができるようにしています。struct
+rb_data_type_struct に flags メンバを追加して、ここに FL_WB_PROTECTED を格納す
+ることでそこから生成したオブジェクトにもフラグが継承されるようになります。
+またこのしくみを使って、さっそく RubyVM::InstructionSequence を Write Barrier
+で保護するようにしています。
