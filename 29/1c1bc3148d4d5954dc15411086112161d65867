@@ -1,0 +1,1 @@
+r41436 での gc_free_stored_bitmaps() の定義のインデント修正。
