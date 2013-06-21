@@ -1,0 +1,8 @@
+RGenGC のデバッグ用の関数 gc_marks_test() の処理を変更しているようです。差分が
+込み入っているので ChangeLog から抜粋すると、RGENGC_CHECK_MODE が 2以上の時に
+minor marking 後に major marking を実行して major marking で生きていると判定さ
+れたオブジェクトが minor marking でマークされていないのを検出するように(これは
+前からしていたような気もしますが)しているそうです。またバグ検出時に
+RGENGC_CHECK_MODE の値に応じてそのオブジェクトへの参照や、全ての参照を出力する
+ようにしているそうです(が、差分に RGENGC_CHECK_MODE をチェックしている部分が含
+まれていないので、これも既存のコードに含まれている模様)。
