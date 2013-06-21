@@ -1,0 +1,3 @@
+gc_mark_children() で T_NONE や T_ZOMBIE のオブジェクトが渡された時には rb_bug
+() で停止するようにしています。また GC_DEBUG が定義されていた時は
+rb_gcdebug_print_obj_condition() を呼び出して情報を表示するようにしています。
