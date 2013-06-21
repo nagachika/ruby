@@ -1,0 +1,4 @@
+bitnum.c で BDIGIT が long よりも大きいサイズの時のことを考慮するようにした修正
+。 DIGSPERLONG というマクロの定義は sizeof(BDIGIT) が sizeof(long) 以下のときだ
+け定義するように、また DIGSPERLL は sizeof(long long) 以下の時だけ定義するよう
+にしています。
