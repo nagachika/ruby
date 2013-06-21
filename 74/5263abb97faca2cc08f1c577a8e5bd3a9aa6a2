@@ -1,0 +1,5 @@
+RGenGC 用のマクロ RVALUE_PROMOTED() を inline 関数として定義しなおして、
+RGENGC_CHECK_MODE が 1以上に定義されてコンパイルされている時(デバッグ用)は
+struct RBasic::flag で管理されている旧世代のマークと oldgen bitmap (旧世代
+bitmap) で管理されている旧世代のマークが一致しているかをチェックして食い違って
+いたら rb_bug() で止めるようにしています。
