@@ -1,0 +1,4 @@
+標準添付ライブラリ cgi の CGI.unescapeHTML で文字列に '&' が含まれていなかった
+ら unescape すべき文字列は存在しないので先に return するようにして不要な処理を
+避けています。どうせなら string.encoding の前に return すれば良いのにという気も
+しますね。 https://github.com/ruby/ruby/pull/333
