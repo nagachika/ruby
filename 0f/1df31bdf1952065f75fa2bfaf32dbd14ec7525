@@ -1,0 +1,2 @@
+hash.c の st_update() でも r41396 と同様に Write Barrier の挿入位置を GC が走る
+可能性のある更新操作の後に移動しています。
