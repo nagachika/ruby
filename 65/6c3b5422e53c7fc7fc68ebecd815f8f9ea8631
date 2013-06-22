@@ -1,0 +1,2 @@
+test/ruby/test_notimp.rb のテストで子プロセスに SIGKILL を送るだけで
+Process.wait で待っていないテストがあったので修正しています。
