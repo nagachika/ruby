@@ -1,0 +1,3 @@
+bignum.c で sizeof(BDIGIT) のかわりに SIZEOF_BDIGITS を参照するようにしたり、
+BDIGIT のサイズによる条件コンパイルの条件を修正したりと、BDIGIT のサイズ依存の
+コードの整理/修正をしているようです。
