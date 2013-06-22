@@ -1,0 +1,2 @@
+test/test_open3.rb の test_noblock という Open3.popen3 のテストで子プロセスを待
+つ Thread の join を追加して終了を待つようにしています。
