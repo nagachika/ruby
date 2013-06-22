@@ -1,0 +1,3 @@
+Windows 版の Process.waitpid のための poll_child_status() という関数でエラーを
+取得するための GetLastError() を1度呼び出してその結果をローカル変数に格納して使
+いまわすようにしています。
