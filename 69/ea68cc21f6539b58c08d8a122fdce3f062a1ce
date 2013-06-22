@@ -1,0 +1,3 @@
+r41431 での CGI.unescapeHTML の最適化で文字列に "&" が含まれていなかったらすぐ
+return するという変更ですが return をさらに encoding の取得の前に移動しています
+。
