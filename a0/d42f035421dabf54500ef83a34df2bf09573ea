@@ -1,0 +1,2 @@
+bignunm.c の Toom3 アルゴリズムによる乗算関数 bigmul1_toom3() で最後に2度
+bignorm() が呼び出されていたので1回にしています。
