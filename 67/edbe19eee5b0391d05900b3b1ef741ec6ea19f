@@ -1,0 +1,2 @@
+GC.stress のフラグを保持する変数が VALUE 型に変更されたので、その変数へのポイン
+タである ruby_initial_gc_stress_ptr の型も追随して変更しています。
