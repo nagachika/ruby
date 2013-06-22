@@ -1,0 +1,2 @@
+benchmark/gc/pentomino.rb というペントミノを GC 用ベンチマークとして追加してい
+ます。単に benchmark/ にある bm_app_pentomino.rb を読み込んでいます。
