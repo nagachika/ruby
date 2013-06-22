@@ -1,0 +1,3 @@
+test/ruby/test_process.rb のテストで標準出力や標準エラー出力を File::NULL にリ
+ダイレクトするようにしています。 Windows 環境では標準の handle は閉じることがで
+きないのでそれを考慮するようにしているそうです。
