@@ -1,0 +1,3 @@
+benchmark/bm_app_aobench.rb に Ambient Occlusion というアルゴリズムで 3DCG をレ
+ンダリングするベンチマークを追加して、benchmark/gc/aobench.rb にもこれを読み込
+むベンチマークスクリプトを追加しています。
