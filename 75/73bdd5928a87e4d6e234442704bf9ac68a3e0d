@@ -1,0 +1,1 @@
+逆に template/GNUmakefile.in からは不要な mode line を削除しています。
