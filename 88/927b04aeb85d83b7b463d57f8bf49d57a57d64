@@ -1,0 +1,5 @@
+rb_gc_writebarrier() で A -> B という参照の Write Barrier で A が T_ARRAY か
+T_HASH で要素数が 2**16 以上と大きい場合は A を remember set に追加するのではな
+く B のほうを remember set に追加することで remember set 経由のマーク処理を軽く
+しようとするチューニングを施しています。 2**16 というと結構大きいサイズでないか
+ぎりは A をマークしたほうが早いんでしょうね。おもしろいですね。
