@@ -1,0 +1,1 @@
+defs/gmake.mk の先頭に emacs 用の mode line を追加しています。
