@@ -1,0 +1,2 @@
+test/xmlrpc/test_client.rb に require "openssl" を追加しています。 autoload に
+よるロードをさせないようにするためだそうです。
