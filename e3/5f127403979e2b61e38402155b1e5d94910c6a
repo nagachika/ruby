@@ -1,0 +1,2 @@
+GC::Profiler で収集するプロファイル情報の heap_use_slots、heap_live_objects、
+heap_free_objects の計算方法を修正しているようです。
