@@ -1,0 +1,4 @@
+gc.c で GC に使う各種 bitmap を struct objspace に直接追いていたのから
+heaps_slot 構造体に移動しています。
+なお RGENGC_CHECK_MODE のデフォルト値が 2 に変更されているみたいです。これはミ
+ス?
