@@ -1,0 +1,3 @@
+GC::Profiler の収集するプロファイル情報に旧世代オブジェクト数や remember set に
+入っているオブジェクト数などを追加しています。しかし GC_ENABLE_LAZY_SWEEP が 0
+に変更されているので LazySweep が off に変更されてしまっているようです。
