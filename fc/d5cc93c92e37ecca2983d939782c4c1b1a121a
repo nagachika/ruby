@@ -1,0 +1,3 @@
+gc.c で objspace->heap.sweep_slots を参照して lazy_sweep 中かチェックしていたと
+ころで定義済みのマクロ is_lazy_sweeping() を利用するようにするリファクタリング
+。
