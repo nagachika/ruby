@@ -1,0 +1,5 @@
+r41544 で bary_pack() に条件がそろった時に最適化された特別な実装を使うように追
+加されていましたが、これを利用せず常に一般的な実装を利用するように指定するフラ
+グ INTEGER_PACK_FORCE_GENERIC_IMPLEMENTATION を追加しています。また wordsize が
+BDIGIT のサイズの整数倍だった時の特別処理で byte order と word order の組み合わ
+せに応じた word order の入れ替え処理を追加しています。
