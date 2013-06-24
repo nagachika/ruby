@@ -1,0 +1,2 @@
+r41128 の変更で gc.c の rb_gc_giveup_promoted_writebarrier() で rest_sweep() を
+呼んで sweep を終了させる必要がなくなったので削除しています。
