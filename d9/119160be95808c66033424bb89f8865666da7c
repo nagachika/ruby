@@ -1,0 +1,3 @@
+load.c の rb_load_internal() で gcc 以外の時に警告除去のために定義していた
+volatile 変数と RB_GC_GUARD() の呼び出しが gcc 4.4 では必要になったみたいなので
+条件コンパイルの条件に追加しています。
