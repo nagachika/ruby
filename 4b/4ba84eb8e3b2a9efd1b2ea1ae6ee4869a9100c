@@ -1,0 +1,3 @@
+拡張ライブラリ dl の DL::CFunc#call の実装で rb_big_pack() を利用するように書き
+変えています。このため不要になった rb_big2ulong_pack() は deprecated としてマー
+クされています。
