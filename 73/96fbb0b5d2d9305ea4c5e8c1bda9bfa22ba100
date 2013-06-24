@@ -1,0 +1,3 @@
+gc.c の rgengc_rememberset_mark() で remember set に入っているオブジェクトを
+mark stack に push して後でマークさせずに gc_mark_children() を呼んでその場で参
+照オブジェクトのマークを実行するようにしています。
