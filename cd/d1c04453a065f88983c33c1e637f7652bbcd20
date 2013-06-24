@@ -1,0 +1,4 @@
+pack.c の String#unpack の "c" と "C" の実装を整数の unpack 処理に goto で飛ば
+すようにしています。これは r41532 に対応する unpack 側の変更みたいです。そして
+整数の unpack() 処理にサイズに応じて実装を分岐していたのを全て
+rb_integer_unpack() に任せるようにしています。
