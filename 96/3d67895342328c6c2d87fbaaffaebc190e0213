@@ -1,0 +1,5 @@
+bignum.c のリファクタリング。 quad_buf_complement() というバッファの全bit が 1
+かどうかチェックする関数を bytes_2comp() と改名して bary_pack() からオーバフロ
+ーチェックのために利用するようにしています。また rb_quad_pack() と
+rb_quad_unpack() でそれぞれ rb_integer_pack() と rb_integer_unpack() を利用して
+実装するように変更しています。
