@@ -1,0 +1,2 @@
+拡張ライブラリ etc で struct passwd に pw_passwd が存在しない時に Etc::Passwd
+として定義する Struct のメンバーに passwd を定義しないようにしています。
