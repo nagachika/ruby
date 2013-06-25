@@ -1,0 +1,2 @@
+bignum.c の rdoc 用コメントに一般的な実装を常に利用するようにする
+INTEGER_PACK_FORCE_GENERIC_IMPLEMENTATION フラグについて追記しています。
