@@ -1,0 +1,4 @@
+method entry 生成時に Write Barrier を挿入しています。また Module#include や
+Module#using で IClass を挿入する Class/Module やその IClass は method table を
+共有することがあり、メソッドが追加された時に Write Barrier で保護しきれないので
+OBJ_WB_GIVEUP() を呼んで両方を shady オブジェクトにするようにしています。
