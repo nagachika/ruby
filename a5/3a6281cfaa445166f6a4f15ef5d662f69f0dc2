@@ -1,0 +1,2 @@
+bignum.c の bary_unpack_internal() において Visutal Studio でのコンパイラ警告の
+抑制のため整数の演算順序を変更しています。
