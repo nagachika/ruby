@@ -1,0 +1,3 @@
+bignum.c の integer_unpack_single_bdigit() で型の指定のために ((BDIGIT)0) -
+(...) のように定数0 に BDIGIT へのキャストを付けていましたが ((BDIGIT)(-(...)))
+のように本体の式に直接キャストをつけるようにしています。
