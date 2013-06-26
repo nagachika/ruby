@@ -1,0 +1,3 @@
+RubyGems のテストで ruby が make install でインストールされていないと失敗するテ
+ストを、テスト用に生成する extconf.rb で $ruby をビルドディレクトリの ruby を使
+うことで回避しようとしているようです。 [ruby-core:53265] [Bug #8058]
