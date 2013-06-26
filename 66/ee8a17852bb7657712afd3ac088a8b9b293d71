@@ -1,0 +1,3 @@
+標準添付ライブラリ rinda のテストでも Windows 版ではサポートされていない
+Socket::Ifaddr の ifindex を使っていたので、ここで NotImplementedError が発生し
+たら Addrinfo#ipv6? を使うチェックに切り替えるようにしています。
