@@ -1,0 +1,2 @@
+bignum.c の integer_unpack_single_bdigit() で負値の時の上位ビットを 1 で埋める
+処理を BIGLO() マクロを利用するように書き変えるリファクタリング。
