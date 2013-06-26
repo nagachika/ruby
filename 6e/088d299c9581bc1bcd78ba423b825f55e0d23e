@@ -1,0 +1,2 @@
+Array#reject の rdoc 用コメントのサンプルコードの間違いを修正。 https://
+github.com/ruby/ruby/pull/336
