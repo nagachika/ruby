@@ -1,0 +1,9 @@
+RubyGems の拡張ライブラリビルド時に実行する make に DESTDIR="" を渡して
+MAKEFLAGS による指定を無視させるようにしています。これは RPM パッケージを作るた
+めのビルド時に MAKEFLAGS 経由で DESTDIR が指定されてしまって、拡張ライブラリの
+ビルド/インストールで問題が発生していました。 gem では環境変数から DESTDIR をク
+リアするようにすることで DESTDIR が指定された時の問題を回避していたのですが RPM
+パッケージ作成の時は MAKEFLAGS 経由で DESTDIR が再度設定されてしまっていたので
+、これも回避するようにしています。 td-agent のパッケージ作成時におきてた問題だ
+そうです。 [ruby-core:55513] [Bug #8533] https://github.com/ruby/ruby/pull/327
+https://github.com/rubygems/rubygems/pull/573
