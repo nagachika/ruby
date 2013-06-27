@@ -1,0 +1,3 @@
+bignum.c の integer_unpack_single_bdigit() で BDIGIT 型の変数 u に対して -u と
+していたところを (1 + ~u) を使うようにして Visual Studio でのコンパイラ警告を抑
+制しようとしています。
