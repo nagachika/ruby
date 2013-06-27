@@ -1,0 +1,2 @@
+bignum.c の big2ulong() および big2ull() で BDIGIT のサイズが LONG_LONG 以上の
+時を考慮した修正やコンパイラ警告除去のためのキャスト追加など。
