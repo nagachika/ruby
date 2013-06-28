@@ -1,0 +1,3 @@
+bignum.c の rb_big_pow() で y が Bignum だけど Fixnum で表現可能な数値だった時
+に一旦 Fixnum に変換してから型による条件分岐をやりなおすようにしています。また
+rb_absint_numwords() を利用するようにするリファクタリング。
