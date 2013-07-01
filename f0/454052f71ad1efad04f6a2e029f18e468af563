@@ -1,0 +1,5 @@
+bignum.c の bigor_int() にて RB_GC_GUARD() を追加しています。
+また bigxor_int() でも x のバッファサイズ xn と最上位ワードの値 hibitsx を引数
+に追加して twocomp2abs_bang() を利用して負値の時の計算をシンプルにしています。
+また呼び元の rb_big_xor() では volatile 変数の代わりに RB_GC_GUARD() を使った最
+適化避けを使うように変更したり、負値の時の計算をシンプルにしています。
