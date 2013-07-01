@@ -1,0 +1,7 @@
+bignum.c の bigand_int() で x が 0 の時に y に hibitsx をビットAND を取っていた
+のをやめています。また bigor_int() では r41683 と同様に引数に x のバッファサイ
+ズ xn と上位ワードのビットの hibitsx を引数に追加して twocomp2abs_bang() を利用
+するようにリファクタリングしています。rb_big_or() でも abs2comp() から
+twocomp2abs_bang() を利用するように書きかえて、また最適化による GC マーク漏れを
+避けるために volatile 宣言した変数を使っていたのを RB_GC_GUARD() を利用するよう
+に書きかえています。
