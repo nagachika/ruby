@@ -1,0 +1,2 @@
+bignum.c の bary_2comp() の do{}while ループを for ループで書き直して、ループ途
+中で判定が完了したら return するようにしています。
