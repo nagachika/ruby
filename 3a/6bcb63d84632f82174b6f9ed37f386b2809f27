@@ -1,0 +1,3 @@
+test/ruby/test_process.rb で一時ディレクトリ作成時に Pathname#realpath を使って
+いたのを File.realpath を使うように書き変えて pathname への依存をなくしています
+。
