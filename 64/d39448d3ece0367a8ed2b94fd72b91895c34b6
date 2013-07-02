@@ -1,0 +1,4 @@
+更に win32/win32.c のリファクタリング。 rb_w32_aspawn_flags() から codepage 変
+換の処理を w32_aspawn_flags() として切り出して、これを利用して
+rb_w32_uaspawn_flags() rb_w32_uaspawn_flags() という UTF-8 版の関数を追加してい
+ます。
