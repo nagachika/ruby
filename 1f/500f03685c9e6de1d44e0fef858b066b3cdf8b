@@ -1,0 +1,5 @@
+ちょっと理由がわかりませんが dln_find.c の dln_find_exe_r() と dln_find_file_r
+() の宣言の末尾に DLN_FIND_EXTRA_ARG_DECL というマクロと配置、呼び出し時は
+DLN_FIND_EXTRA_ARG を置くようにしています。これらのマクロはデフォルトで空に宣言
+されています。なので引数の最後のカンマはなしでこれらのマクロを置いています。あ
+と ChangeLog の extract -> extra でしょうか。
