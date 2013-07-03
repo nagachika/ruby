@@ -1,0 +1,5 @@
+Module#refine で Refinements を定義した Module を別の Module に include すると
+その Module でも同じような refine を書いたかのように Refinements が取り込まれる
+という機能を追加しています。実装をみるとどちらかというと main.using で引数の
+Module の ancestors まで見るようにするという変更です。 [ruby-core:55671]
+[Feature #8571]
