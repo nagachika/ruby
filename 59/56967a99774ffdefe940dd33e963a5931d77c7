@@ -1,0 +1,2 @@
+r41701 で指摘していた通常は不要な arg への代入が #ifdef
+DEFAULT_PROCESS_ENCODING の中に移動しています。
