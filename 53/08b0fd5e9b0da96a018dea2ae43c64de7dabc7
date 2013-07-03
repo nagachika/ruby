@@ -1,0 +1,2 @@
+template/encdb.h.tmpl で Encoding のインデックス番号を ENCIDX_XXX のようなマク
+ロとして定義するようにしています。
