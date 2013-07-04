@@ -1,0 +1,3 @@
+internal.h で rb_ascii8bit_encindex() rb_utf8_encindex() rb_usascii_encindex()
+などの組込みエンコーディングのインデックス取得を定数参照に置換するマクロ定義を
+追加しています。ただし encoding.c ではこれらのマクロは無効化しています。
