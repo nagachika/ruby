@@ -1,0 +1,3 @@
+bignum.c の関数マクロ roomof() で結果のキャストを int から long に変更。また
+rb_ull2big() で最初に Bignum オブジェクトを生成する bignew8) の引数の順番とバッ
+ファサイズの間違いを修正しています。
