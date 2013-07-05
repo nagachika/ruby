@@ -1,0 +1,2 @@
+bignum.c の Bignum の文字列化で使う calc_hbase() を maxpow_in_bdigit() という関
+数名に改名して、結果の返しかたなどインタフェースも少し変更しています。
