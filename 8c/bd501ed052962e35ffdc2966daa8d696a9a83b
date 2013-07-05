@@ -1,0 +1,3 @@
+test/ruby/test_dir.rb と test/ruby/test_rubyoptions.rb で Pathname#realpath を
+使っていたところを File.realpath を使うようにして拡張ライブラリ pathname への依
+存をなくしています。
