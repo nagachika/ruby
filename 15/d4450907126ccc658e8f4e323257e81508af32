@@ -1,0 +1,3 @@
+r41759 で VC6 向けの ATOMIC_CAS() の定義で関数呼び出しがなかったのを修正。また
+rb_w32_atomic_cas() のなかで InterlockedCompareExchange() を呼びだすところを
+ATOMIC_CAS() にしていたのを修正。
