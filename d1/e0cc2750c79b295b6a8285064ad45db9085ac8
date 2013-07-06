@@ -1,0 +1,2 @@
+internal.h で定義されているマクロ SIGNED_INTEGER_MAX で VC6 の警告抑制のためキ
+ャストを追加しています。
