@@ -1,0 +1,3 @@
+mkmf.rb の Mac OS X での Framework 検出用の have_framework にヘッダ指定の引数を
+追加してフレームワーク名と異なるヘッダを参照できるようにしています。
+[ruby-core:55745] [Bug #8593]
