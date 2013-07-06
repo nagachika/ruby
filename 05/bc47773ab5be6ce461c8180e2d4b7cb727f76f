@@ -1,0 +1,7 @@
+string.c の succ の実装でマルチバイト文字も考慮して1文字ずつ処理するところで
+rb_enc_precise_mbclen() の戻り値をチェックするために ONIGENC_MBCLEN_CHARFOUND_P
+() という Onigmo のマクロを利用するように修正しています。マクロの定義内容をみる
+と実質的な変化はなさそうですが、このマクロおよび ONIGENC_MBCLEN_CHARFOUND_LEN()
+を用いて戻り値を処理するのが正式なインタフェースということのようです。また
+String#dump の実装では MBCLEN_CHARFOUND_P() が既に使用されていましたが渡す値が
+-1 されていたのを修正しています。
