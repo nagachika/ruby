@@ -1,0 +1,2 @@
+拡張ライブラリ opensll の OpenSSL::Digest.digest の rdoc 用コメントのサンプルの
+間違いを修正。
