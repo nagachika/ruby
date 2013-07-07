@@ -1,0 +1,4 @@
+標準添付ライブラリ test/unit に assert_raise_with_message という新しい
+assertion を追加しています。例外クラスとメッセージの両方をチェックする assert
+で test/fileutils/test_fileutils.rb に類似のものが定義されていたのを本体に組み
+込んだようです。
