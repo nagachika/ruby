@@ -1,0 +1,2 @@
+test/openssl/test_x509crl.rb の未使用のローカル変数を除去。 [ruby-core:53501]
+[Bug #8114]
