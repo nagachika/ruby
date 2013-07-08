@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OpenSSL の CRYPTO_set_id_callback() と
+CRYPTO_set_locking_callback() を用いてOpenSSL の関数をスレッドセーフに呼べるよ
+うにしています。なんか無邪気に rb_mutex_lock() を呼んでいる感じがして不安があり
+ますね。大域脱出とか考慮されてるだろうか……。 [ruby-core:54900] [Bug #8386]
