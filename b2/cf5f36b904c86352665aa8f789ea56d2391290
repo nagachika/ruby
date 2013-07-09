@@ -1,0 +1,3 @@
+bignum.c の bigsqr_fast() から BDIGIT の配列を扱う部分を bary_sq_fast() として
+切り出して、結果を格納する配列のサイズ zn が xn*2 を超えないことをチェックする
+assert() を追加しています。
