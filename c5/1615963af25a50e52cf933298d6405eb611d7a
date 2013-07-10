@@ -1,0 +1,2 @@
+tool/ の svn property 設定。config.guess と config.sub を snv:ignore に追加して
+いるようです。
