@@ -1,0 +1,4 @@
+bignum.c に乗算のアルゴリズムを指定して実行する rb_big_mul_normal()、
+rb_big_mul_balance()、rb_big_mul_karatsuba() という関数を追加しています。これら
+の関数はテスト用の拡張ライブラリから使われていて、アルゴリズム毎のテストのため
+に使われるようです。
