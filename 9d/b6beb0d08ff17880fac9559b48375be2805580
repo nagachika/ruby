@@ -1,0 +1,3 @@
+拡張ライブラリ dl に同梱されている Windows のレジトトリ操作用ライブラリ ext/dl/
+win32/lib/win32/registory.rb で利用する WIN32 API を WCHAR バージョンのものにし
+て UTF-8 の文字列を扱えるようにしています。
