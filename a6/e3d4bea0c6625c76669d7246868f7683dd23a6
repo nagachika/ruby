@@ -1,0 +1,3 @@
+FileUtils の mode_to_s メソッドを private_module_function として宣言しています
+。 FileUtils.chmod を特異メソッドとして呼ぶと verbose モードでエラーになってい
+たのを修正しています。
