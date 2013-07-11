@@ -1,0 +1,3 @@
+r41796 の FileUtils.chown, chown_R の :verbose オプションが on の時のメッセージ
+の再修正。 user も group も nil の時に ":" を表示するようにしています。 user も
+group も nil だと呼ぶ意味がなさそうですね。
