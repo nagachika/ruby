@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils.rb の FileUtils#chown_R で user も group も nil の
+時もディレクトリ走査はスキップしないようにしています。
