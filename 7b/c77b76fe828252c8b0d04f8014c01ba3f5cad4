@@ -1,0 +1,3 @@
+もうひとつ rubygems のテストの修正。 Tempfile を明示的に unlink するようにして
+います。ChangeLog には Windows の削除が云々と書かれていますが、これって Windows
+限定で問題があったんでしょうか?
