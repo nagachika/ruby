@@ -1,0 +1,3 @@
+r41879 のさらに追加修正。 ossl_lock_callback() の引数 file に const を追加して
+、CRYPTO_set_id_callback() CRYPTO_set_locking_callback() に渡す引数の不要なキャ
+ストを削除しています。
