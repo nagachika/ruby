@@ -1,0 +1,6 @@
+r41879 のさらに追加修正。作成した Mutex オブジェクトを GC から保護するために
+rb_global_variable() で登録していたのを rb_gc_register_mark_object() を使うよう
+に書きかえています。 rb_global_variable() は C の変数(メモリ領域)をアドレス指定
+で監視するもので、その内容(VALUE の値)が変化しても追随しますが、確保したオブジ
+ェクトを mark したいだけなら rb_gc_register_mark_object() で管理するほうが軽い
+みたいです。
