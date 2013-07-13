@@ -1,0 +1,3 @@
+r41886 と r41903 の続き。 rb_daemon() でも daemon(3) 呼び出し時に
+rb_thread_atfork() を呼んで Thread の停止などを行なうようにしています。そのため
+r41903 で追加した freebsd の時のテストは revert しています。
