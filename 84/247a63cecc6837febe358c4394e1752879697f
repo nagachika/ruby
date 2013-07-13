@@ -1,0 +1,2 @@
+標準添付ライブラリ securerandom.rb で if !... のような条件分岐しているところを
+unless を使うように変更しています。 https://github.com/ruby/ruby/pull/326
