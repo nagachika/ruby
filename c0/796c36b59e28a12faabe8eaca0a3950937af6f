@@ -1,0 +1,2 @@
+bignum.c に RBIGNUM_EMBED_LEN_MAX の値をチェックする STATIC_ASSERT() を追加して
+います。
