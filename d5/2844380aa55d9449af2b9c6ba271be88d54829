@@ -1,0 +1,3 @@
+string.c の rb_str_subpos() という関数を公開関数にして include/ruby/intern.h に
+宣言を追加しています。
+[Feature #6626] のパッチのための変更だそうです。
