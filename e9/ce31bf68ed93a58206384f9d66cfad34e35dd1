@@ -1,0 +1,2 @@
+r41922 と同様に ext/fiddle/win32/lib/win32/registry.rb からも WCHAR_NUL を追加
+するようにした workaround を削除しています。
