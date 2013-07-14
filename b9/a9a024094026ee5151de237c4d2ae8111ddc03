@@ -1,0 +1,2 @@
+hash.c の recursive_hash() で Hash の要素数を調べるのに RHASH_SIZE() マクロを利
+用するようにしています。
