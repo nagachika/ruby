@@ -1,0 +1,1 @@
+hash.c の Hash#size の実装で RHASH_SIZE() を使うようにしています。
