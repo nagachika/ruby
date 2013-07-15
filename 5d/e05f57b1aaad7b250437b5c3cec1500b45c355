@@ -1,0 +1,2 @@
+rubygems 内の lib/rubygems/psych_additions.rb というファイルに Psych モジュール
+を定義しているところがあって、そこに rdoc の :nodoc: タグを追加しています。
