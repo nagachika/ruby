@@ -1,0 +1,2 @@
+bignum.c の bary_small_lshift() および bary_small_rshift() で BDIGIT の配列の要
+素数を指定する引数 n の型を long から size_t に変更しています。
