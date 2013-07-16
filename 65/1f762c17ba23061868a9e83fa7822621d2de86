@@ -1,0 +1,2 @@
+bignum.c で未使用になっていたマクロ DIGSPERLONG と DIGSPERLL の定義を削除してい
+ます。
