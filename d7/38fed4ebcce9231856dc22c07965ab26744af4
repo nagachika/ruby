@@ -1,0 +1,3 @@
+r41984 の Hash#each_pair と同様に Struct#each_pair でも rb_block_arity() を使っ
+てブロックパラメータが2以上あったら rb_yield_values() を使うことで rb_assoc_new
+() で一時データの配列を作らなくてすむようにしています。
