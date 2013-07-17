@@ -1,0 +1,2 @@
+Encoding#inspect で autoload 前は "(autoload)" という文字列を追加するようにして
+います。
