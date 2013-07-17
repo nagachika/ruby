@@ -1,0 +1,1 @@
+bignum.c の #if SIZEOF_BDIGIT_DBL == 0 という不要な条件分岐を削除しています。
