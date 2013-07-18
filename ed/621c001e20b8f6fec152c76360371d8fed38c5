@@ -1,0 +1,2 @@
+gc.c から r41999 で追加した heaps_add_freeslot() で link_free_heap_slot() をお
+きかえています。
