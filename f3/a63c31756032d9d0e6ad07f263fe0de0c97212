@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal で組み込みのクラスを拡張している ext/bigdecimal/lib/
+bigdecimal/util.rb で各組み込みクラスの rdoc 用コメントを追加しています。
