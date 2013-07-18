@@ -1,0 +1,4 @@
+configure で strcasecmp(3) の存在チェックをして st.c で独自の実装 st_strcasecmp
+() を使っていたところを可能なら strcasecmp(3) で置き換えるようにしています。
+strcasecmp(3) って locale によって大文字小文字の判定が変化したりしませんでした
+っけ?
