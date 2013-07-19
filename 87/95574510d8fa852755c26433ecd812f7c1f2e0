@@ -1,0 +1,3 @@
+r42008 で st_strcasecmp() を strcasecmp(3) で置き換えようとしたからか
+st_strcasecmp() と st_strncasecmp() をそれぞれ st_locale_insensitive_strcasecmp
+() と st_locale_insensitive_strncasecmp() に改名しています。
