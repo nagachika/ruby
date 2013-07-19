@@ -1,0 +1,2 @@
+r42012 で st_strcasecmp() と st_strncasecmp() を改名してしまったので互換性のた
+めに include/ruby/st.h にマクロとして定義を残すようにしています。
