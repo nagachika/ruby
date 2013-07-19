@@ -1,0 +1,4 @@
+gc.c の heap 管理用の関数群に heap_ という prefix を付けたり、heap_ で始まるよ
+うに単語を入れ替えたりしています。また関数の宣言位置の移動や rb_gc_set_params()
+に initial_expand_heap() の内容を展開したりといったリファクタリングを行っていま
+す。
