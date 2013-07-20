@@ -1,0 +1,2 @@
+RGenGC の Write Barrier 用の inline 関数 rb_obj_write() でデバッグ用のログ出力
+のマクロ名を typo していて常に出力されていなかったのを修正しています。
