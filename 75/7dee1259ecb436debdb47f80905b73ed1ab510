@@ -1,0 +1,3 @@
+lib/rubygems のファイル群のコメントでも "ruby" を "Ruby" と capitalize していま
+す。 https://github.com/ruby/ruby/pull/341
+rubygems の変更は upstream にも反映されてるんでしょうか?
