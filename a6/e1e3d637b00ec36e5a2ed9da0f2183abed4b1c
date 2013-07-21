@@ -1,0 +1,3 @@
+r42066 で array.c のデバッグ用の機能を有効にする #define
+RGENGC_UNPROTECT_LOGGING 1 が一緒にコミットされてしまっていたので 0(off) に戻し
+ています。
