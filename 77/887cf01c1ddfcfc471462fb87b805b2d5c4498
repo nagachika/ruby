@@ -1,0 +1,4 @@
+array.c の rb_ary_store() で配列サイズを拡張する時に Qnil でクリアする時にも、
+書き込みはしますが新たなオブジェクトへの参照が書き込まれないので Write Barrier
+が不要なので RARRAY_PTR_USE() というマクロを利用しています。なるほど、書き込む
+としても Qnil とか即値だけなら Write Barrier を使わなくてもいいんですね。
