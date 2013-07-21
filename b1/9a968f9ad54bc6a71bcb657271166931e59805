@@ -1,0 +1,3 @@
+lib/rdoc/ 配下のファイル群のコメントでも "ruby" を "Ruby" と capitalize してい
+ます。 https://github.com/ruby/ruby/pull/341
+これも upstream への反映が必要ですね。
