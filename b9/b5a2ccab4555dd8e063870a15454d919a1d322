@@ -1,0 +1,4 @@
+array.c の Array#equal や Array#push の実装内で配列のバッファを取り出すのに
+RARRAY_PTR() を使っていたところで、書き込みを行なわない場合には Write Bbarrier
+を含まない RARRAY_RAWPTR() を利用するようにしています。なるほどバッファ内に書き
+込みしない時は RARRAY_RAWPTR() を使うのですね。
