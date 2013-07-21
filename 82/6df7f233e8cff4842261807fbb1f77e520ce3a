@@ -1,0 +1,3 @@
+ext/psych/lib/ の配下のコメントでも "ruby" を "Ruby" に capitalize しています。
+https://github.com/ruby/ruby/pull/341
+upstream (ry
