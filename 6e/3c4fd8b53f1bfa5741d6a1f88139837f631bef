@@ -1,0 +1,2 @@
+array.c の RGenGC 絡みの最適化の続き。 Write Barrier の不要なところでの
+RARRAY_PTR() のかわりに RARRAY_RAWPTR() を利用するようにする変更。
