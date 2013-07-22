@@ -1,0 +1,3 @@
+Array#resize で配列が RVALUE に埋め込まれる時に要素をコピーする処理で新たな参照
+の書きこみがないので Write Barrier 不要として MEMCPY() でのコピーに置き換えてい
+ます。
