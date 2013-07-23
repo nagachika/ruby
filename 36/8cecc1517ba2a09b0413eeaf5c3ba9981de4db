@@ -1,0 +1,2 @@
+doc/regexp.rdoc のサンプルコード内の誤ったエスケープを消しています。 https://
+github.com/ruby/ruby/pull/365
