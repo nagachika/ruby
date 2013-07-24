@@ -1,0 +1,3 @@
+Binding クラスの TypedData の型を指定する構造体を公開して eval 系のメソッドで
+Binding オブジェクトを rb_obj_is_kind_of() でチェックしていたのを
+Check_TypedStruct() を利用してチェックするようにしています。
