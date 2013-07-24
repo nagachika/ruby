@@ -1,0 +1,4 @@
+拡張ライブラリ readline に line_buffer の編集のために Readline.delete_text メソ
+ッドを追加しています。リンクする readline/editline ライブラリが対応していれば編
+集中のテキストの変更が楽にできるようになります。 [ruby-dev:45789] [Feature #
+6626]
