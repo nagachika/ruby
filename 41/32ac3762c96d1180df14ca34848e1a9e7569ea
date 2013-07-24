@@ -1,0 +1,4 @@
+r42004 の gc.c のリファクタリングで make test-all で大量のメモリを消費するよう
+になって test_many_fibers_and_threads がタイムアウトするようになっていたのを修
+正しています。 gc_slot_sweep() で struct RBasic::flags が 0 の RVALUE スロット
+(の要素)を freelist に戻し忘れていたのを修正しています。
