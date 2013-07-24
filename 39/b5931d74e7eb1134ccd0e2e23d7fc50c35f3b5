@@ -1,0 +1,4 @@
+r42102 で Readline.delete_text の実装で rb_ensure(4) を消すようにしましたが、
+RUBY_SAFE_LEVEL_MAX を rb_ensure() に渡すようにしたのですが 4 が max とも限らな
+いので(現実には今後増えることはないような気がしますが)、RUBY_SAFE_LEVEL_MAX が
+4以上なら rb_eunsure(4) を呼ぶように書きかえています。
