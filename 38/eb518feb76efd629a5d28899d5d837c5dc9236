@@ -1,0 +1,2 @@
+r42101 で readline に入った実装が未サポートになった rb_ensure(4) を含んでいたの
+で RUBY_SAFE_LEVEL_MAX を渡すようにしています。
