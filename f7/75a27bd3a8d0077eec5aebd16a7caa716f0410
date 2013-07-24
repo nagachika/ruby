@@ -1,0 +1,3 @@
+string.c の String#chars と String#codepoints の Enumerator#size 用のコールバッ
+ク関数 rb_str_each_char_size() を単に rb_str_length() を呼ぶように変更していま
+す。
