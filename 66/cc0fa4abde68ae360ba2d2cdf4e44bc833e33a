@@ -1,0 +1,4 @@
+bignum.c のリファクタリング。 bary_mul_toom3() から BDIGIT の配列で表現される
+Bignum に 1 つの BDIGIT をかけ算する処理を bary_mulsub_1xN として切り出していま
+す。あれ、なんかこれ r42119 でみたのと同じような処理だな、と思ったら r42119 で
+作成された bigdivrem_mulsub() を利用して実装しなおされていました。
