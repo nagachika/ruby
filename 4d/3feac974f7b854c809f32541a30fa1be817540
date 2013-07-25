@@ -1,0 +1,2 @@
+rb_thread_cond_t も native thread を対象としたものなので rb_nativethread_cond_t
+に改名しています。
