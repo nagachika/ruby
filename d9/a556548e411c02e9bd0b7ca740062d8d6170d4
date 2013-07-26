@@ -1,0 +1,3 @@
+vm_insnhelper.c で Array オブジェクトの要素を参照しているところで内容は書き変え
+ていないので RARRAY_PTR() から RARRAY_RAWPTR() に変更して不要な Shady 化を消し
+ています。
