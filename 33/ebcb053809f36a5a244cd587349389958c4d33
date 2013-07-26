@@ -1,0 +1,3 @@
+r42038 で array.c に追加した、Array オブジェクトが shady になる時に記録しておい
+て終了時にログ出力するデバッグ機能を gc.c に rb_gc_unprotect_logging() 等の名称
+で移動して Array 以外にも使えるようにしています。
