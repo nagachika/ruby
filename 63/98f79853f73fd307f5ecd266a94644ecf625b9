@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の URI::Generic#find_proxy で URI が相対的URLだった時に
+nil への NoMethodError 例外になっていたので明示的にチェックして BadURIError 例
+外を発生させるようにしています。 [ruby-core:56045] [Bug #8645]
