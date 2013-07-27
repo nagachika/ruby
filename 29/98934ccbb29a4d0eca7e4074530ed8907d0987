@@ -1,0 +1,5 @@
+make update-rubyspec や make update-mspec で rubyspec や mspec を更新する git
+レポジトリを github.com/rubyspec のものから github.com/nurse のものに変更してい
+ます。本家の mspec の機能削減や rubyspec にたびたび失敗するテストが追加されるこ
+とから naruse さんが fork したリポジトリをメンテナンスしており、CI もそちらを使
+うようにしています。
