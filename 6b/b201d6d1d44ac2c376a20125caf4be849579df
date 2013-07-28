@@ -1,0 +1,2 @@
+r42184 に追加して Fiddle::Handle.new と Fiddle.dlopen の rdoc に man 3 dlopen
+の参照や挙動が OS によって異なることなどの説明を追記しています。
