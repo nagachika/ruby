@@ -1,0 +1,3 @@
+拡張ライブラリの Syslog::Logger に facility というインスタンス変数を追加して
+syslog に表示する facility (メッセージの種類を指定する短かい文字列)を指定できる
+ようにしています。 https://github.com/ruby/ruby/pull/305
