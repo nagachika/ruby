@@ -1,0 +1,3 @@
+test/ruby/test_require.rb の assert_require_nonascii_path は assert_separetely
+を使って子プロセスでテストしていたのを $LOAD_PATH と $LOADED_FEATURES の書き戻
+しをすることで子プロセスを作らず同じプロセスの中でテストするようにしています。
