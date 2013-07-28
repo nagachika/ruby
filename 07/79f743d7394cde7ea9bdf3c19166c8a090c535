@@ -1,0 +1,2 @@
+test/ruby/test_require.rb のブロックパラメータによるローカル変数の遮蔽の警告除
+去。
