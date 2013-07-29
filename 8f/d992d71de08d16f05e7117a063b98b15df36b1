@@ -1,0 +1,4 @@
+Bignum を文字列に pack/unpack する rb_integer_pack() と rb_integer_unpack() を
+公開 API にしています。 internal.h から ruby/include/intern.h に宣言および利用
+する定数マクロなどを移動したので、拡張ライブラリからも利用可能になっています。
+[ruby-core:42813] [Feature #6065]
