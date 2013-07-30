@@ -1,0 +1,4 @@
+昨日の r42202 での rb_integer_pack,unpack の公開に続いて rb_absint_size() と
+rb_absint_numwords() といった整数のサイズを取得する関数や rb_absint_singlebit_p
+() という符号つき整数の pack に必要なバッファサイズの計算に必要な関数を公開して
+います。 [ruby-core:42813] [Feature #6065]
