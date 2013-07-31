@@ -1,0 +1,2 @@
+File.expand_path のテストで環境変数 USER が空だったら失敗するように事前に
+assertion でチェックするようにしています。
