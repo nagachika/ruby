@@ -1,0 +1,3 @@
+Hash#assoc で一時的に要素の比較方法などを定義した struct st_hash_type をすりか
+えることで rb_hash_lookup2() を流用して実装しています。最適化のためとのこと。し
+かし後で revert されています。
