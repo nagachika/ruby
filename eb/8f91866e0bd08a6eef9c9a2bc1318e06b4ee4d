@@ -1,0 +1,4 @@
+r42224 の Hash#assoc の最適化のリベンジのようです。元の hash_type が identhash
+の時だけ hash_type を一時的にすりかえる方法を利用するようにしているみたいです。
+これは Hash#compare_by_identity でキーの同値性で判定をするようにした時のことみ
+たいです。
