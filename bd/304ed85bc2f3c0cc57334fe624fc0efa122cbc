@@ -1,0 +1,3 @@
+標準添付ライブラリ set.rb に Set#intersect? と Set#disjoint? を追加しています。
+引数に Set を受け取って両者の要素に重複があるかをチェックするメソッドです
+(disjoin? は intersect? の否定)。 [ruby-core:45641] [Feature #6588]
