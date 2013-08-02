@@ -1,0 +1,2 @@
+rexml のテスト TestNotationDeclMixin から test_name というテストメソッドを
+TestNotationDecl に移動しています。
