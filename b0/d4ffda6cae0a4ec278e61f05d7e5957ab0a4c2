@@ -1,0 +1,5 @@
+r42249 でテストが例外で終了した時の Object.count_objects を出力するようにしたの
+を revert しています。といっても "/proc/meminfo" の出力は残っています。
+[ruby-dev:47559] [Bug #8711]
+ChangeLog には r42255 を revert と書かれていますが、これは rescue を
+NoMemoryError に限定する変更なので多分 r42249 のことだろうと思います。
