@@ -1,0 +1,3 @@
+test/rexml/test_notationdecl_parsetest.rb に1つしかテストメソッドがないので
+setup メソッドをテストメソッド内に埋め込んでいます。なんか別にそれは前準備なら
+分けててもいい気はしますけどね。
