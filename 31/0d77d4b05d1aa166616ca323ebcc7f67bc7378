@@ -1,0 +1,3 @@
+RubyGems の master から最新版をマージしています。 outdated サブコマンドのリファ
+クタリング、拡張ライブラリのビルド回りのコードを Gem::Installer から Gem::Ext::
+Builder へ移動、証明書の出力時の暗号化アルゴリズムの変更などです。
