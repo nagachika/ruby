@@ -1,0 +1,3 @@
+rb_big_cmp() から BGIDIT の配列の表現で処理する部分を bary_cmp() として分離して
+big2str_karatsuba() から利用するようにしています。こっちの bit2str の変更はよく
+わからず。
