@@ -1,0 +1,2 @@
+lib/rubygems.rb のコメントで記載されているドキュメントの URL を修正しています。
+https://github.com/ruby/ruby/pull/369
