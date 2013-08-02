@@ -1,0 +1,3 @@
+"Module#refine is no longer experimental." とのことで、refine や using を使った
+時の "Refinements are experimental" という警告メッセージの出力を消しています。
+[ruby-core:55993] [Feature #8632]
