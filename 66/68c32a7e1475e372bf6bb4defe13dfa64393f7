@@ -1,0 +1,2 @@
+test/rexml/test_notationdecl_parsetest.rb を test/rexml/parse/
+test_notation_declaration.rb に移動しています。
