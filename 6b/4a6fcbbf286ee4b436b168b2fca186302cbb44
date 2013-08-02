@@ -1,0 +1,2 @@
+test/rexml/test_notationdecl_mixin.rb を削除しています。重複したテストだったと
+のこと。
