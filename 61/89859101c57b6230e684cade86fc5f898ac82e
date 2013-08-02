@@ -1,0 +1,3 @@
+bignum.c で Bignum を文字列化するための処理に使う変数などをまとめた struct
+big2str_struct という構造体を導入して big2str_orig(), big2str_karatsuba() の引
+数の一部をこの構造体で置き換えています。
