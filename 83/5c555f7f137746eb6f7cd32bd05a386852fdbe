@@ -1,0 +1,3 @@
+Rdoc#finish で root path を include_file のサーチパスに追加するようにしています
+。以前移動した sample/curses/*.rb が rdoc 生成時に include できなくなったのを修
+正しているようです。 [ruby-core:56282] [Bug #8712]
