@@ -1,0 +1,2 @@
+test/rubygems/test_gem_commands_uninstall_command.rb で Windows で警告メッセー
+ジが出るため失敗していたテストを修正しています。
