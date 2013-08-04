@@ -1,0 +1,2 @@
+parse.y で拡張ライブラリ ripper 用の ripper_validate_object() でも新規にリテラ
+ルが取りうるオブジェクトの種別に T_RATIONAL と T_COMPLEX を追加しています。
