@@ -1,0 +1,4 @@
+bootstraptest/test_literal_suffix.rb に "1if true" や "1rescue nil" などのこれ
+までも動いていた分がパースできることを確認するテストを追加しています。 r42311
+で数値リテラルの suffix に r i をつけられるようにしたので、その影響を受けていな
+いことを確認するテストを追加したようです。
