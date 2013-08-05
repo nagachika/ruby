@@ -1,0 +1,3 @@
+doc/syntax/refinements.rdoc の影響のスコープについての記述から instance_eval と
+module_eval についての記述を削除しています。これらの eval 系での using はサポー
+トされないため。
