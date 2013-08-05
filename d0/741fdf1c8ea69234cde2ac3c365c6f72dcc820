@@ -1,0 +1,2 @@
+bignum.c の bary_add() のラッパになっていた bigadd_core() という関数を削除して
+、bigadd() では直接 bary_add() を利用するようにしています。
