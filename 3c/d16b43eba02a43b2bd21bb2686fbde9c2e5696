@@ -1,0 +1,2 @@
+README.EXT と README.EXT.ja に rb_integer_pack() と rb_integer_unpack() の関数
+名を追記しています。
