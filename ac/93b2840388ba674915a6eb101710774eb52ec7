@@ -1,0 +1,2 @@
+include/ruby/encoding.h の ENCODING_MASK の定義部分に該当する FL_USER10～
+FL_USER19 のビットフラグの集合であることをコメントに追記しています。
