@@ -1,0 +1,2 @@
+test/ruby/test_econv.rb の default_external のテストで子プロセスを起動するのに
+EnvUtil の assert_separately を使うように書きかえています。
