@@ -1,0 +1,3 @@
+TracePoint の rdoc 用コメントのサンプルコードで表示している TracePoint#inspect
+の例を現在の実装に合わせて修正しています。 inspect で enabled/disabled などを表
+示するようになっているからですね。 https://github.com/ruby/ruby/pull/373
