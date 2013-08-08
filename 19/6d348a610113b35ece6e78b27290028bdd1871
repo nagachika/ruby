@@ -1,0 +1,3 @@
+標準添付ライブラリ rss の rss/2.0.rb の rdoc コメントに RSS::Rss クラスのドキュ
+メントの追加と、rss/atom.rb の rdoc の typo 修正。 [ruby-core:56392] [Bug #
+8740]
