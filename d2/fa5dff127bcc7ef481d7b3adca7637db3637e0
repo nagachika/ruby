@@ -1,0 +1,5 @@
+拡張ライブラリ readline の Readline.output=, Readline.input= で入出力の IO を切
+り替えた時に IO オブジェクトから FILE 構造体へのポインタを取り出して保存してい
+たのが、元の IO オブジェクトが close されると破棄されて SEGV を引き起こす可能性
+があったので fd を dup(2) して fdopen() で別の FILE 構造体を確保してそちらを保
+持するように変更しています。 [ruby-dev:47509] [Bug #8644]
