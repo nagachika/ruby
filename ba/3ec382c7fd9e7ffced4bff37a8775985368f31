@@ -1,0 +1,2 @@
+Integer#next の rdoc の call seq で self として fixnum と書かれていたのを
+integer に変更しています。
