@@ -1,0 +1,2 @@
+random.c の random_load() でも配列オブジェクトのアクセスに RARRAY_RAWPTR() を使
+うようにして無用な shady 化を抑制しています。
