@@ -1,0 +1,3 @@
+thread.c の thread_start_func_2() で引数を表す配列オブジェクトの読み込み専用の
+アクセスに RARRAY_PTR() を使っていたのを RARRAY_RAWPTR() を利用して無用な shady
+化を抑制しています。
