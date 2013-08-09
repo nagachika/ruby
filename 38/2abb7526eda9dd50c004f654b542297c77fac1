@@ -1,0 +1,2 @@
+cont.c と proc.c でも引数を表す配列オブジェクトのアクセスに RARRAY_RAWPTR() を
+使うようにして無用な shady 化を防いでいます。
