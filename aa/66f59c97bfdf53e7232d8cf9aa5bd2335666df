@@ -1,0 +1,23 @@
+String#== の rdoc 用コメントの説明が古くなっていて to_str で変換できるかチェッ
+クすることなどが説明されていなかったので追記修正しています。 https://github.com
+/ruby/ruby/pull/375
+と、言いつつ良く読むと実は結構複雑なことをしていますね。自然言語で書くと str ==
+obj は obj が String でない時(正確には T_STRING 型でない時なので String を継承
+したクラスの時は String として比較)には、to_str メソッドが呼び出せるかをチェッ
+ク(respond_to? 相当、実際には呼び出さない)。obj.to_str が呼び出せるなら obj ===
+str を呼ぶ、ということをしている。Ruby で書くとするとこんな感じ。
+class String
+  def ==(obj)
+    unless obj.is_a?(String)
+      if obj.respond_to?(:to_str)
+        return obj === self
+      else
+        return false
+      end
+    end
+    str_sql(self, obj)
+  end
+end
+推測するに、to_str を定義しているということはそのオブジェクトは String 相当とし
+て振る舞うように実装されているので、== メソッドも String との比較方法を知ってい
+るはずだからそっちにまかせよう、ということでしょうか。
