@@ -1,0 +1,2 @@
+Process.setproctitle や $0 への代入で変更する前の元々のプロセスの名称を返す
+Process.argv0 というメソッドを追加しています。 [ruby-dev:47548] [Feature #8696]
