@@ -1,0 +1,4 @@
+include/ruby/ruby.h に TracePoint のイベント定数 RUBY_EVENT_SWITCH を復活させて
+います。定数は RUBY_INTERNAL_EVENT_SWITCH と同じです。これは ruby-prof がこの非
+互換で動かなくなったための対処とのこと。 obsolete であることは変わらないという
+ことなので今後は使わないようにしましょう。
