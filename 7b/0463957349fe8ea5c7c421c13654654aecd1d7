@@ -1,0 +1,3 @@
+NEWS ファイルに r42396 の eval 内での Refinement の修正のため eval 内での
+module_function や private などの可視性の影響も eval 内に閉じるようになったこと
+を追記しています。 [ruby-core:56329] [Bug #8722]
