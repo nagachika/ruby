@@ -1,0 +1,23 @@
+Binding オブジェクトに local_variable_get, local_variable_set,
+local_variable_defined? というメソッドを新設して Binding オブジェクトが作られた
+スコープでのローカル変数を操作できるようにしています。
+実装的にはローカル変数はパース時に決定されて配列が確保されるので、get や
+defined? はともかく set が定義されているのがちょっと不思議だったのですが、追加
+時にはメソッドのスコープのトップレベルのローカル変数のところではなくて、binding
+内に env を追加してブロック変数に相当するところに追加しているようです。
+従って以下のようにしてもメソッド内のローカル変数が本当に後から増えるわけではな
+いので eval で遅延しても追加したローカル変数はメソッド内からは見えません。
+def m1
+  [lambda{ eval("a") }, binding]
+end
+l, b = m1
+l.call # => NameError: undefined local variable or method `a' for main:Object
+b.local_variable_set(:a, 72)
+l.call # => NameError: undefined local variable or method `a' for main:Object
+しかし Binding オブジェクトは追加した変数も持っているので、Binding#eval や eval
+の第2引数に渡した時はこの追加した変数も見えます
+b.eval("a")  # => 72
+eval("a", b) # => 72
+なるほどー。vm.c に追加した rb_binding_add_dynavars() で vm_pop_frame() してい
+るのは vm_set_eval_stack() で push したぶんが不要なのですぐに排除しているってこ
+とでしょうか。おもしろいですね。
