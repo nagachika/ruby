@@ -1,0 +1,4 @@
+r42465 で追記した NEWS ファイルの Binding#local_variable_set の引数のミスを修正
+しています。今日直そうかと思ってたのですが Github でコメントがあったそうで、読
+んでいる人いますねー。 https://github.com/ruby/ruby/commit/a39e724#
+commitcomment-3831489
