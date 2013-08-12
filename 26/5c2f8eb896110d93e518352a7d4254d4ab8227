@@ -1,0 +1,4 @@
+ついでに標準添付ライブラリ rexml の lib/rexml/parsers/baseparser.rb のリファク
+タリング。 DOCTYPE の閉じタグにマッチさせるための正規表現を CDATA_END という定
+数を流用していたのを、内容は同じ正規表現ですが DOCTYPE_END という別の定数を定義
+して利用するようにしています。
