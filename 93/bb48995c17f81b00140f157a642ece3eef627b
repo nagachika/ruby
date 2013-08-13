@@ -1,0 +1,4 @@
+Ruby開発者会議で決まった Process.clock_gettime メソッドの追加。clock_gettime(2)
+(もしくは gettimeofday(2))のラッパとして、指定した種類のタイマーを指定の形式で
+(ミリ秒、マイクロ秒、ナノ秒などの単位と、整数か Float かの指定)取得するメソッド
+です。 [ruby-core:56087] [Feature #8658]
