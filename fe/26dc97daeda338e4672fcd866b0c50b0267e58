@@ -1,0 +1,2 @@
+標準添付ライブラリ time.rb の定数について rdoc 用コメントを追記してます。
+https://github.com/ruby/ruby/pull/377
