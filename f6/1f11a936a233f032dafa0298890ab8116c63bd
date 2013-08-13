@@ -1,0 +1,4 @@
+標準添付ライブラリ REXML の REXML::Parsers::SAX2Parser に NDATA の external ID
+entity declaration をサポートするようにしています。はい、なんのことかよくわかっ
+てません。が、テストにあるようなタグの XML を SAX2 パーサでもパースできるように
+したのだと思います。
