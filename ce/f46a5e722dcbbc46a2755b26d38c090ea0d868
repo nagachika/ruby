@@ -1,0 +1,2 @@
+Process.clock_gettime の rdoc 用コメントにタイマーの指定をする引数の定数の説明
+を追加しています。
