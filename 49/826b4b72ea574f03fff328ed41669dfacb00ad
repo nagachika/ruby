@@ -1,0 +1,3 @@
+r42498 で file.c の rb_str_normalize_ospath() だったものを
+rb_str_normalize_ospath0() と改名して呼び出しをひとつネストさせたのですがこの関
+数を static 関数に変更しています。
