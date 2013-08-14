@@ -1,0 +1,3 @@
+r42525 で Readline.input= と Readline.output= で Readline で作った FILE を IO
+にもセットしていたのをとりあえず FILE が stdin, stdout だった時だけに変更してい
+ます。 [ruby-dev:47608] で指摘されていた点の対処のためでしょうか。
