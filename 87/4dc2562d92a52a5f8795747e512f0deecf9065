@@ -1,0 +1,8 @@
+拡張ライブラリ readline の Readline.output=, Readline.input= を r42402 で dup
+した fd を fdopen(3) した FILE 構造体を保持させるように変更したところ Mac OS X
+の editline では rl_getc() を使わないため動作しなくなってしまったということで、
+作った FILE を IO オブジェクトに持たせるようにしています。 [ruby-dev:47509]
+[Bug #8644]
+が [ruby-dev:47608] で akr さんから Readline ライブラリの FILE を IO オブジェク
+トに持たせると IO#close で SEGV の恐れがあるという報告があるので、この方法だと
+だめみたいです。
