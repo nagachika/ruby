@@ -1,0 +1,5 @@
+r42527 の再修正。 Readline で作った FILE は新たに fdopen(3) で作っているので
+stdin/stdout と一致することはないので revert して、readline_getc() で常に
+rl_getc() に rl_instream を渡すようにしています。 rl_instream が外部の拡張ライ
+ブラリで変更されるとこれでもだめだけど、ということですがさすがにそこまでは面倒
+みきれないっていう気も。 [ruby-dev:47608] [ruby-dev:47609] [Bug #8760]
