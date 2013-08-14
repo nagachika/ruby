@@ -1,0 +1,2 @@
+拡張ライブラリ dbm の extconf.rb に :stopdoc: タグを追加して RDoc の対象から外
+すようにしています。
