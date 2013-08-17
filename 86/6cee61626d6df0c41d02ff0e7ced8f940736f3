@@ -1,0 +1,13 @@
+r42504 で追加された Process.clock_gettime メソッドの Windows 版の対応が追加され
+ています。 Windows では当然(?) clock_gettime(2) はないので、gettimeofday(2) と
+QueryPerformanceFrequency() と QueryPerformanceCounter() を使って
+CLOCK_REALTIME と CLOCK_MONOTONIC には対応しています。 freq.QuadPart の大きさで
+分岐しているのは不要な時は浮動小数点数の演算を避けてパフォーマンスを良くするた
+めでしょうか。常に浮動小数点数を使っても演算結果は変わらない……と思ったけど整
+数のほうがオーバフローには強いのかも。 LARGE_INTEGER はどうも LONG_LONG らしい
+ので double よりも精度があるので。ただ乗算の左辺は freq.QuadPart で mod を取っ
+てるので結果は 1000000000 未満になるはずなのでオーバフローは大丈夫なはず。やっ
+ぱり性能のためでしょう。
+[追記]じゃなくて、freq が大きいと先に 1000000000 をかけるとオーバフローしてしま
+うためしかたなく除算しておく必要があるために浮動小数点数を経由しないといけない
+ということでした。[/追記]
