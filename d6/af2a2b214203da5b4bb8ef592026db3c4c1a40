@@ -1,0 +1,6 @@
+Windows 版の rb_io_flush() に引数を追加して rb_io_flush_raw() という関数を追加
+(改名)して引数の指定によって fsync(2) を実行しないようにできるようにしています
+。そして IO#truncate で Windows 版では rb_io_flush_raw() を呼んで fsync(2) を実
+行しないようにしています。これも r42552 と r42554 でタイムアウトを延ばしていた
+PStore のテストで Windows だと遅い問題の対処だと思います。タイムアウト値も元に
+戻しています。
