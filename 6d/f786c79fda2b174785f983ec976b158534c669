@@ -1,0 +1,2 @@
+bignum.c の bigdivrem_single() で y が 2 の累乗だった時にシフト演算する特別処理
+を追加しています。
