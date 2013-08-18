@@ -1,0 +1,5 @@
+make test-all をメモリプロファイラつきで実行するための test/profile_test_all.rb
+をリファクタリングして、計測方法に /proc/meminfo と /proc/self/status からの取
+得を追加しています。またメモリプロファイラつきで実行するための環境変数
+RUBY_TEST_ALL_PROFILE を変数の内容によらず、設定されていれば有効になるように条
+件を変更してします。
