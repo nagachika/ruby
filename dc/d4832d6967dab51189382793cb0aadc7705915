@@ -1,0 +1,4 @@
+bignum.c のリファクタリング。 bigdivrem_single() を bigdivrem_single1() と改名
+して x_higher_bdigit という x の最上位の BDIGIT を受け取る引数を追加して、
+bigdivrem_restoring() の y が最上位の BDIGIT 以外 0 だった時の特別処理で
+MEMMOVE() を不要にしています。
