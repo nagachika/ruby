@@ -1,0 +1,3 @@
+bignum.c の big2str_karatsuba() で bary_divmod() を呼ぶかわりに r42543 で
+bigdivrem_normal() から切り出した bigdivrem_restoring() を利用するようにして中
+間バッファの利用を減らすパフォーマンス改善の変更です。
