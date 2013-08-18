@@ -1,0 +1,3 @@
+bignum.c の bary_mul_toom3() で詳細は理解していませんが bary_add() もしくは
+bary_sub() を呼び出す分岐を減らして MEMCPY() と BDIGITS_ZERO() の処理におきかえ
+ています。
