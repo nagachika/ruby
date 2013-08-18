@@ -1,0 +1,6 @@
+r42564 で File#truncate 時に Windows 版だと fsync(2) を呼ばない rb_io_flush_raw
+() を呼ぶようにしましたが、同名の関数は Windows 環境以外でも io.c でも定義され
+ていたのでプラットフォームによる条件分岐は消して常に rb_io_flush_raw() を呼ぶよ
+うにしています。また(たぶんこっちが本命) File#size および File#flock でも
+rb_io_flush_raw() を使うようにして fsync(2) を抑制しています。 Windows での IO
+の性能向上のため。
