@@ -1,0 +1,2 @@
+r42594 の Process.clock_gettime の rdoc の追記のうち precision を resolution と
+変更しています。
