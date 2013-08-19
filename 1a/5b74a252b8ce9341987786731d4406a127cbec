@@ -1,0 +1,3 @@
+r42573 で Process.clock_gettime の clock_id に Mac OS X で CLOCK_REALTIME と
+CLOCK_MONOTONIC をサポートするようになったので rdoc コメントでも対応プラットフ
+ォームに追加しています。
