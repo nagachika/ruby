@@ -1,0 +1,2 @@
+configure で clock_gettime(2) のチェックをする時にまず librt をリンクしてチェッ
+クするようにしています。
