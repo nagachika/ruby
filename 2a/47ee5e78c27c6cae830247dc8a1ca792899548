@@ -1,0 +1,3 @@
+Process.clock_gettime の clock_id 用の定数 CLOCK_REALTIME_COARSE、
+CLOCK_MONOTONIC_COARSE、CLOCK_BOOTTIME の定義を追加しています。新しめ(2.6.32 と
+か 2.6.39)の Linux でサポートされている定数を導入しています。
