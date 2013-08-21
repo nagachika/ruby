@@ -1,0 +1,4 @@
+test/ruby/test_fiber.rb の test_many_fibers という大量の Fiber を生成するテスト
+で Fiber を生成後に GC.start で Full GC を実行してすぐにメモリを回収するように
+しています。おそらくメモリ使用量を抑えて test-all での fork(2) 時のエラーを回避
+しようとしているのではないかと思われます。
