@@ -1,0 +1,5 @@
+r42604 で修正して r42606 で revert された clock_gettime(2) の configure での検
+出のリベンジだと思いますが librt をリンクして clock_gettime() が見つかった時に
+は再度 AC_CHECK_FUNCS() による検出は行なわず HAVE_CLOCK_GETTIME も定義しておく
+ようにしています。どうやら make reconfig の問題はこの clock_gettime() の検出に
+まつわるものだったみたいです。
