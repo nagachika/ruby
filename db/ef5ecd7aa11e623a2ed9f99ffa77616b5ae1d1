@@ -1,0 +1,5 @@
+#include "ruby/missing.h" を include/ruby/ruby.h から include/ruby/defines.h に
+移動しています。 ChangeLog によると Debian squeeze 上の gcc-mingw32 でビルド時
+(クロスコンパイル?)に clock_gettime() で使う struct timespec の定義のために
+include/ruby/win32.h より前に ruby/missing.h を #include しないといけなかったた
+めとのことです。
