@@ -1,0 +1,2 @@
+Process.spawn や fork、system などで fork(2) を実行した時に errno == ENOMEM で
+失敗した時には Full GC を実行してリトライしてみるようにしています。
