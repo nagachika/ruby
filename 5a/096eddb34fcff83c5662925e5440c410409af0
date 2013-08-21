@@ -1,0 +1,3 @@
+include/ruby/win32.h の定数マクロ CLOCK_MONOTINIC -> CLOCK_MONOTONIC の typo 修
+正。また win32/win32.c で定数や方 clockid_t の定義が重複していたので削除してい
+ます。
