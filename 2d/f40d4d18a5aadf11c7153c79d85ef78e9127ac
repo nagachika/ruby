@@ -1,0 +1,1 @@
+configure.in で mingw 環境下で ac_cv_func_clock_gettime=yes にしています。
