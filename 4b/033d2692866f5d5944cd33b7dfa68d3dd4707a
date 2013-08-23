@@ -1,0 +1,6 @@
+process.c の get_clk_tck() から sysconf(_SC_CLK_TCK) を使って1秒あたりのクロッ
+ク数を取得する処理を get_clk_tck() として分離して Process.clock_gettime の実装
+で clock_id の CLOCK_PROCESS_CPUTIME_ID のエミュレーションに使って
+:POSIX_TIMES_CALLING_PROCESS_USER_AND_SYSTEM_TIME_CLOCK_PROCESS_CPUTIME_ID
+という clock_id を受け付けるように追加しています。シンボルが長い!*1 内容は
+times(3) でユーザ時間をシステム時間を合計してクロック数で割って計算しています。
