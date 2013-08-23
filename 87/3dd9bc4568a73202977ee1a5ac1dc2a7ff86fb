@@ -1,0 +1,5 @@
+GC::Profiler で GC 時間を取得するのに clock_gettime(2) と
+CLOCK_PROCESS_CPUTIME_ID が定義されていたらこれを使うようにしていたのですが、定
+義されていても実際に利用しようとするとエラーになる環境があるらしく(SmartOS)、常
+に clock_gettime() を使うのではなくてエラーになったら getrusage(2) を利用するよ
+うに切り替えるようにしています。 [ruby-core:56762] [Bug #8805]
