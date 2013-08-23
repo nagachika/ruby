@@ -1,0 +1,5 @@
+Process.clock_gettime の clock_id で CLOCK_PROCESS_CPUTIME_ID のエミュレーショ
+ン
+:SUS_GETRUSAGE_SELF_USER_AND_SYSTEM_TIME_CLOCK_PROCESS_CPUTIME_ID
+(長すぎてはてなダイアリーでうまく表示されないので pre 記法にしてみました)をサポ
+ートし、getrusage(2) を使ってエミュレートするようにしています。
