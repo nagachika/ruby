@@ -1,0 +1,4 @@
+process.c の rb_proc_times() で rb_struct_new() に渡す引数を volatile VALUE な
+変数に代入して保護していたのを RB_GC_GUARD() を使うように書き換えています。この
+保護不要そうに見えるのですが、[ruby-dev:47650] によれば [ruby-dev:19206] r3274
+で Windows XP での不具合修正として入れられたものだそうです。はて。
