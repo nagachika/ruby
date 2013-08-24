@@ -1,0 +1,2 @@
+Process.clock_gettime の実装 rb_clock_gettime() から正常終了時の戻り値の調整処
+理を make_clock_result() という関数に切り出すリファクタリング。
