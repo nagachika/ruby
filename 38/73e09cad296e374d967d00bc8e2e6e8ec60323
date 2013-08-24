@@ -1,0 +1,4 @@
+configure で clock_t のサイズをチェックして process.c で Process.clock_gettime
+の実装のために unsigned_clock_t という unsigned 版の clock_t の型を定義して、
+clock_id :ISO_C_CLOCK_BASED_CLOCK_PROCESS_CPUTIME_ID の時の実装でオーバフローを
+防ぐために利用するようにしています。
