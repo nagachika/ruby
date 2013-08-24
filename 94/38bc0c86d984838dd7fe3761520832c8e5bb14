@@ -1,0 +1,5 @@
+Process.clock_gettime の clock_id の
+:ISO_C_CLOCK_BASED_CLOCK_PROCESS_CPUTIME_ID と
+:POSIX_TIMES_BASED_CLOCK_PROCESS_CPUTIME_ID の rdoc コメントの説明およびマクロ
+の定義の順番を入れ替えています。これはどういうポリシーでソートされてるんでしょ
+うか。
