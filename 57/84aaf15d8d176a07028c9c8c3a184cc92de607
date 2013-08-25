@@ -1,0 +1,2 @@
+r42651 の追加で configure で clock_t のサイズをチェックする時に time.h を
+include するようにしています。
