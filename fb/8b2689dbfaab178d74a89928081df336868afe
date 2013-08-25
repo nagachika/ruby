@@ -1,0 +1,2 @@
+process.c の rb_clock_gettime() で VC での警告を除去するため明示的なキャストを
+追加しています。
