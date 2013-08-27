@@ -1,0 +1,2 @@
+Object#taint の rdoc コメントの $SAFE が 3 の時の記述から untrust に関する記述
+を削除しています。 $SAFE=4 を廃止した影響の一端です。
