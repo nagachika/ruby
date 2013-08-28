@@ -1,0 +1,2 @@
+RbConfig::SIZEOF に C の型のサイズを設定する sizes.c を configure.in の
+RUBY_CHECK_SIZEOF() の呼び出しから抽出して自動生成するようにしています。
