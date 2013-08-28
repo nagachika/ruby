@@ -1,0 +1,2 @@
+r42668 で gcd_ul() から改名した bignum.c の関数 gcd_timtick_int() をさらに
+gcd_timetick_int() に改名しています。
