@@ -1,0 +1,4 @@
+Array#slice や Enumerable#sort_by、Struct.new で配列を操作する時に内容を変更し
+ないので RGenGC の Write Barrier の挿入なしで実行するようにしています。また拡張
+ライブラリ pathname で RARRAY_PTR() を使っていたところでも RARRAY_AREF() を使う
+ようにしています。
