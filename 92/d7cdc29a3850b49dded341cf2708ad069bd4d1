@@ -1,0 +1,2 @@
+rb_check_funcall()、rb_check_funcall_hook()、rb_check_funcall_with_hook() など
+の関数の argv 引数(VALUE の配列)に const を付加する変更です。
