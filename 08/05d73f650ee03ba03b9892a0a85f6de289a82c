@@ -1,0 +1,2 @@
+NEWS ファイルに r42695 の IO#read_nonblock, write_nonblock の変更について追記し
+ています。
