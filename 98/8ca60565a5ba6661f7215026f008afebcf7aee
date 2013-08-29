@@ -1,0 +1,14 @@
+IO#read_nonblock にキーワード引数 exception を追加して、これに false を指定する
+とまだ読めない時に例外を発生させるかわりに :wait_readable を返すようにしていま
+す。また StringIO と OpenSSL::Buffering の read_nonblock もこの仕様追加に追随し
+ています。ただしこれらは :wait_readable ではなくて nil を返すようです。なんでこ
+こ統一しないんでしょうね……。また write_nonblock も同様にキーワード引数
+exeption を追加して例外を発生させずに :wait_writable を返すようにしています。こ
+ちらも OpenSSL::Buffering も追随させています(StringIO もメソッドの引数の追加は
+対応していますが、書き込めないことがないので処理内容に変更はありません)。
+[ruby-core:38666] [Feature #5138]
+このチケットすっかり見落していたーと思ったらかなり前から議論が続いていて、先日
+の開発者会議でプレゼンして採用が決まったものだったみたいですね。ただこの変更で
+stringio に変数の宣言がブロックの途中で行なわれていて VC でコンパイルエラーにな
+っていたり、Linux で OpenSSL のテストがエラーになっていたりするのでもう少し手が
+入ると思われます。
