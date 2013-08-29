@@ -1,0 +1,4 @@
+Enumerator.new には size メソッドで予測サイズを返すために Proc オブジェクトを渡
+すことができるのですが、これを Proc に限らず call メソッドが呼べるオブジェクト
+なら受け付けるようにしています。 [ruby-core:56032] [Bug #8641] https://
+github.com/ruby/ruby/pull/362
