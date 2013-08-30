@@ -1,0 +1,3 @@
+r42695 で OpenSSL::SSLSocket#sysread_nonblock の rdoc でキーワード引数に
+exception: false を指定した時に返されるシンボルの typo を修正しています。ドキュ
+メントのみの修正なので [DOC] タグが必要ですね。
