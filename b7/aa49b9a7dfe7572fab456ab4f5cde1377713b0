@@ -1,0 +1,2 @@
+thread_pthread.c でマシンスタックの情報を取得するための STACK_DIR_UPPER() が #
+ifdef の中で重複して記述されていたので分岐の外にくくり出しています。
