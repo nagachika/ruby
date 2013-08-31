@@ -1,0 +1,3 @@
+struct.c の公開 API に rb_struct_define_without_accessor_under() という Struct
+によるクラスを別の Module/Class による名前空間の下に生成する関数を追加していま
+す。チケットの参照とかないですがなにに使う用なんでしょうか。
