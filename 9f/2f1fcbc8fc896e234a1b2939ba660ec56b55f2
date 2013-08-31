@@ -1,0 +1,2 @@
+拡張ライブラリ zlib の Zlib::Inflate.inflate で不正なバイトストリームを読むと
+SEGV することがあった不具合を修正しています。 [ruby-core:56848] [Bug #8829]
