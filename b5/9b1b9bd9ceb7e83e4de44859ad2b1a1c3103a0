@@ -1,0 +1,4 @@
+thread_pthread.c の #ifdef での分岐によって利用されない変数の宣言を同じ #ifdef
+の条件内に入れたり、pthread_attr_t へのポインタを変数として宣言しておくことで
+pthread_create() 部分を #ifdef で分岐しなくてもすむようにしたりするリファクタリ
+ング。
