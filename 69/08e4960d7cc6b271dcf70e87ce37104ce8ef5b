@@ -1,0 +1,4 @@
+r41741 で rb_ascii8bit_encindex(), rb_utf8_encindex(), rb_usascii_encindex() な
+ど組み込みの Encoding のインデックスを取得する関数をマクロとして定義していたの
+が include/ruby/encoding.h の関数宣言と衝突していたので、マクロが未定義の時だけ
+宣言するように修正しています。
