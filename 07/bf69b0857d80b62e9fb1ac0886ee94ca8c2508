@@ -1,0 +1,2 @@
+respond_to_missing? の rdoc コメントに BasicObject のところの例を参照するように
+追記しています。
