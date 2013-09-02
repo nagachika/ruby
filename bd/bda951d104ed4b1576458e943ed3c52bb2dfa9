@@ -1,0 +1,3 @@
+proc.c の umethod_bind() のなかで繰り返しアクセスされる struct METHOD::rclass
+をローカル変数に代入しておいてそれを使いまわすようにリファクタリングしています
+。
