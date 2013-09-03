@@ -1,0 +1,3 @@
+process.c の Process.clock_getres の実装で #if defined(HAVE_CLOCK_GETRES) の条
+件の時しか使っていない変数をそのブロックの中で行うようにして環境によって起きる
+未使用変数の警告除去。
