@@ -1,0 +1,2 @@
+NEWS ファイルに昨日の Process.clock_getres の追加と Bignum の GMP の利用につい
+てと、Fixnum#bit_length, Bignum#bit_length の追加について追記しています。
