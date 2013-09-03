@@ -1,0 +1,2 @@
+bit_length() と nlz_int(), nlz_long(), nlz_long_long(), nlz_int128() の定義を
+bignum.c から internal.h に移動しています。
