@@ -1,0 +1,5 @@
+Bignum#bit_length および Fixnum#bit_length というその数を表現するのに必要なビッ
+ト数を返すメソッドを追加しています。 rdoc によると正確には「符号ビットと異なる
+値の最上位のビット位置」を返すものだそうで、2の補数表現なので 0.bit_length が 0
+になるのはもちろん、(-1).bit_length も 0 になります。 [ruby-core:56247]
+[Feature #8700]
