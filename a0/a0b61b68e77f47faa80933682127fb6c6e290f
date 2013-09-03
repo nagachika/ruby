@@ -1,0 +1,2 @@
+Bignum#bit_length と Fixnum#bit_length の rdoc に bit_length が ceil(log2(self
+< 0 ? -self : self+1)) と同じであることを追記しています。
