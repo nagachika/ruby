@@ -1,0 +1,3 @@
+bignum.c の rb_cstr_to_inum() からいくつかの処理を str2big_poweroftwo()、
+str2big_normal()、str2big_karatsuba() などの関数として切り出すリファクタリング
+。
