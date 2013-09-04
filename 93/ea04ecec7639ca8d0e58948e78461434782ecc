@@ -1,0 +1,3 @@
+r42773 で内部的に String#b メソッドを呼び出しているところがありましたが、String
+#b は dup + force_encoding 相当で文字列オブジェクトのコピーを生成するので、直接
+force_encoding を呼ぶように変更しています。
