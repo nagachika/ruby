@@ -1,0 +1,5 @@
+Module#include と Module#prepend が public なメソッドに変更されています。つまり
+mod.include(MyModule) とか klass.prepend(MyModule) みたいに書けて module_eval
+とか __send__ を使ったりする必要がなくなるわけですね。 [ruby-core:56911]
+[Feature #8846]
+これも先日の開発者会議で採用された仕様変更みたいですね。
