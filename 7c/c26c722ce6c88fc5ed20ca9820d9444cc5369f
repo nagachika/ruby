@@ -1,0 +1,3 @@
+r42781 で Numeric#step の引数 step に nil を渡すのは OK になったので Float#step
+で TypeError になることを確認しているテストを削除し、Numeric#step のテストに同
+様のテストケースを追加しています。
