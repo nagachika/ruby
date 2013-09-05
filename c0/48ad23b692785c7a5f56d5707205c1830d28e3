@@ -1,0 +1,2 @@
+bignum.c の rb_cstr_to_inum() から、文字列から数値部分を切り出す処理を
+str2big_scan_digits() という関数に切り出すリファクタリング。
