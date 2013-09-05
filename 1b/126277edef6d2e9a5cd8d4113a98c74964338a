@@ -1,0 +1,2 @@
+拡張ライブラリ win32 の Win32::Registry#values というメソッドを追加して値を配列
+にして取得できるようにしています。 [ruby-core:51783] [Feature #7763]
