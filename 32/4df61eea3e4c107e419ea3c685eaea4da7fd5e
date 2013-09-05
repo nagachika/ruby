@@ -1,0 +1,3 @@
+標準添付ライブラリ thread.rb の ConditionVariable#wait の rdoc 用コメントでタイ
+ムアウト時の挙動についての説明の英語の文法を修正しています。 https://github.com
+/ruby/ruby/pull/386
