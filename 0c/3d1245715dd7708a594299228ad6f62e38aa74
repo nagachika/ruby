@@ -1,0 +1,3 @@
+bignum.c の bytes_2comp() という関数は little endian のアーキテクチャでのみ利用
+されているので、同じ条件(#if !defined(WORDS_BIGENDIAN) ) で定義するようにしてい
+ます。
