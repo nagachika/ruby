@@ -1,0 +1,2 @@
+win32/win32.c の is_invalid_handle() および rb_w32_select_with_thread() で引数
+や変数に const を付けています。
