@@ -1,0 +1,3 @@
+ruby 内部で使うための rb_big_divrem_normal() という関数を追加しています。
+bary_divmod_normal() の wrapper で Bignum 同士の除算の商と余剰を取得する関数で
+すね。
