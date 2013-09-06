@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml の REXML::Parsers::TreeParser#parse で不正な XML をパ
+ースすると例外のメッセージが何度も同じものが表示されるのを修正しています。
+[ruby-dev:47672] [Bug #8844]
