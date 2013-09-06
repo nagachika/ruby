@@ -1,0 +1,3 @@
+win32/win32/c の do_select() で struct timeval の型に const が付いていて select
+() の宣言の型と異なっていたためコンパイラの警告が出ていたのを抑制するため const
+を消しています。
