@@ -1,0 +1,3 @@
+transcode.c の rb_econv_substr_append() の引数 src を RB_GC_GUARD() で保護する
+ようにしています。引数は呼び元で保護されるのでは……と思ったけどやっぱり消える
+ことがあるのかなぁ。
