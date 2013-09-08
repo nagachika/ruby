@@ -1,0 +1,2 @@
+transcode.c の rb_econv_substr_append() の必ず1回は実行されるようにしている
+while ループを do{}while() ループに書き換えています。
