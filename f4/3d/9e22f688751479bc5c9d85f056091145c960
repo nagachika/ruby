@@ -1,0 +1,2 @@
+configure で mingw プラットフォーム用に clock_getres() が存在するものとして扱う
+ようにしています。
