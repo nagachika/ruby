@@ -1,0 +1,5 @@
+拡張ライブラリ socket で setsocketopt に使う定数 TCP_FASTOPEN を追加して、TCP
+ソケットの fast open という機能を利用可能にしています。 [ruby-core:57048]
+[Feature #8871]
+fast open とは接続時の handshake を簡素化して高速化する方法みたいです。参考URL:
+http://lwn.net/Articles/508865/
