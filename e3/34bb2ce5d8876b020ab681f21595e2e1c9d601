@@ -1,0 +1,5 @@
+標準添付ライブラリ thread.rb で実装されていた Queue, SizedQueue,
+ConditionVariable などを C で再実装して拡張ライブラリにしています。あと common
+.mk で INSTRUBY が ${MINIRUBY} ではなく ${RUNRUBY} を使って ruby スクリプトを実
+行するようにしています。 miniruby だと拡張ライブラリがロードできない問題があっ
+たため。[ruby-core:31513] [Feature #3620]
