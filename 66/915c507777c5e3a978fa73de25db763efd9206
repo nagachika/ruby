@@ -1,0 +1,5 @@
+case 文で when の値とマッチさせる時には "===" メソッドで判定するのですが、これ
+が Refinements による上書きを考慮していなかったので
+rb_method_entry_with_refinements() で Refinements の影響を考慮して呼び出すメソ
+ッドを探索するように修正しています。なるほどー、これは微妙なところですけど不具
+合扱いですかねぇ。 [ruby-core:57051] [Bug #8872]
