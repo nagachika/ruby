@@ -1,0 +1,3 @@
+Numeric#step の引数のチェックで step に 0 を指定して limit を指定しなかった時に
+互換性のために limit を負の Float::INFINITY にするようにしています RubySpec の
+失敗を回避するためとのこと。
