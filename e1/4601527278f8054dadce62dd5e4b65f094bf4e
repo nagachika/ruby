@@ -1,0 +1,2 @@
+bignum.c と math.c に RB_BIGNUM_TYPE_P() という T_BIGNUM 専用の RB_TYPE_P() マ
+クロのラッパを定義してこれを使うようにしています。
