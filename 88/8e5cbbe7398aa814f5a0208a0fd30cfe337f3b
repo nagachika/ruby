@@ -1,0 +1,6 @@
+Process.clock_gettime や Process.clock_getres, Time#strftime, 拡張ライブラリ
+socket の Socket::AncillaryData の rdoc で milli second や nano second などの
+SI単位系の表記の標準は millisecond や nanosecond のように空白を入れずに繋げる記
+法とのことで、それに倣って空白を除去しています。おおー勉強になります。参考 URL:
+http://www.bipm.org/en/si/si_brochure/ https://www.nmij.jp/library/units/si/
+この変更はコメントのみの変更なので [DOC] タグつきと扱うべきですね。
