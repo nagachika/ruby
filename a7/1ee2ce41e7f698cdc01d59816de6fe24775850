@@ -1,0 +1,4 @@
+Refinements とメソッドキャッシュの変更の(おそらく)組合せで、using で
+Refinements 用の Module を追加した後で Module#refine でメソッド定義を追加した時
+にメソッドキャッシュの無効化漏れで不正なメソッドエントリにアクセスして SEGV し
+てしまっていた不具合を修正しています。 [ruby-core:57079] [Bug #8880]
