@@ -1,0 +1,1 @@
+eval.c と vm_insnhelper.c での関数定義のコーディングスタイルの修正。
