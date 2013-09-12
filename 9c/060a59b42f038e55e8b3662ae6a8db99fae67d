@@ -1,0 +1,6 @@
+rational.c と complex.c で CANON マクロが定義されていない時、つまり
+CANONICALIZATION_FOR_MATHN が定義されていない時に未定義の変数 canonicalization
+を参照してしまっていたところがあったので、 #ifdef #endif でくくっています。また
+おそらく漏れがないようにだと思いますが、未定義の時はマクロで <<<No
+canonicalization>>> と定義するようにしています。うっかり参照していたらコンパイ
+ルエラーになってすぐに気が付けるようにしているのだと思います。
