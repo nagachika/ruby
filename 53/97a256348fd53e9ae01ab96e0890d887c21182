@@ -1,0 +1,6 @@
+r42850 から r42864 のどこかで(おそらく r42862 で thread を拡張ライブラリ化した
+時の INSTRUBY の変更の影響ではないかと) cross compile 時の make install がエラ
+ーになるようになっていたのを修正。 RUNRUBY のコマンドと引数のあいだに "--" を入
+れて明示的に引数部分をコマンドラインオプションとして解釈されないようにするのを
+Makefile.in から configure.in での RUNRUBY の定義に移動しています。 cross
+compile 時には "--" が不要だったそうです。 [ruby-dev:47703] [Bug #8893]
