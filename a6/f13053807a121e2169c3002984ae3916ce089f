@@ -1,0 +1,5 @@
+Makefile.in で $(LIBRUBY_A) のルールでコンパイラオプションの $(LDFLAGS) を最初
+のほうに移動しています。 Solaris で GMP を使うようになってから libgmp の解決に
+失敗して libruby-static.a のビルドに失敗していたのを修正しているそうです。
+Solaris の cc で -lgmp の前に -L でライブラリの場所を指定しておかないとリンクで
+きないためみたいです。 [ruby-dev:47707] [Bug #8901]
