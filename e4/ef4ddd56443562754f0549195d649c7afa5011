@@ -1,0 +1,2 @@
+signal.c の rb_sigaltstack_size() と ruby_abort() の関数定義のコーディングスタ
+イルを修正しています。
