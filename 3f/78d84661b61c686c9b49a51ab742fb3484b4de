@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal, digest/md5, json などのソースコードで size_t の変数
+を x <= 0 と比較していたのを x == 0 に修正しています。 size_t は unsigned なの
+で cppcheck など静的解析ツールで検出されていたそうです。 [ruby-core:57117]
+[Feature #8890]
