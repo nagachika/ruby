@@ -1,0 +1,6 @@
+拡張ライブラリ socket で client 側の fast open に対応するため(環境に定義があれ
+ば)定数 MSG_FASTOPEN を定義するようにしています。 server side の fast open 対応
+は r42865 で TCP_FASTOPEN を定義して対応していますが今度は client side のソケッ
+トから指定する方法が提供されたようです。これを使うには TCPSocket.new してしまう
+とその時点で connect してしまうので、Socket.new でソケットを生成して Socket#
+send を使わないといけないようです。 [ruby-core:57138] [Feature #8897]
