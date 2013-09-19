@@ -1,0 +1,3 @@
+標準添付ライブラリ test/unit に Test::Unit::Assertions#assert_throw という
+assertion を追加しています。 MiniTest::Assertions#assert_throws というのも存在
+するそうですがこれは throw に渡された値を取得できないので別に定義したとのこと。
