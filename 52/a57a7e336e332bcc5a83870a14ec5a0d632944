@@ -1,0 +1,3 @@
+r42942 の(そして r42954 の) revert の理由を ChangeLog に追記しています。
+inexact な数(Float) で Rational を割った時に結果が Rational になってしまってい
+るが Rational は exact な数なのでこれはおかしいということだそうです。なるほど。
