@@ -1,0 +1,2 @@
+標準添付ライブラリ test/unit の Test::Unit::Assertions#assert_nothing_thrown で
+渡されたブロックの返した値を assert_nothing_thrown が返すようにしています。
