@@ -1,0 +1,2 @@
+r42976 の行末空白除去などで変更してしまっていた lib/rdoc/generator/template/
+darkfish/fonts/ の ttf ファイルを元に戻しています。
