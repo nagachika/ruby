@@ -1,0 +1,6 @@
+Enumerable#to_a の rdoc 用コメントに引数を受け付ける synopsis も追加しています
+。 https://github.com/ruby/ruby/pull/388
+ただし Enumerable を include しているクラスで to_a メソッドが引数を受け付けると
+も限らず、実際 Range#to_a は引数を受け付けません(渡すと ArgumentError)。 each
+に引数を受け付けるように定義されていると to_a の引数がそのまま each にも渡され
+るということが言いたいみたいです。
