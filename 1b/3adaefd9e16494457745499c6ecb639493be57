@@ -1,0 +1,6 @@
+string.c の rb_str_conv_enc_opts() で文字列オブジェクトのエンコーディングが
+ASCII 文字であることをチェックするのに関数マクロ is_ascii_string() を使うように
+リファクタリングしています。
+[追記]リファクタリングだけではなくて make btest も --disable-gemsで走るようにな
+ったために Mac OS X で test_load.rb が失敗していたのを修正していたそうです。[/
+追記]
