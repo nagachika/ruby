@@ -1,0 +1,2 @@
+標準添付ライブラリ benchmark の Benchmark#bm の rdoc 用コメントの英文法の修正。
+[ruby-core:57115] [Bug #8888]
