@@ -1,0 +1,5 @@
+make test すると miniruby の実行に --disable-gems を付けずに実行してしまい
+thread が拡張ライブラリ化しているため RubyGems から require しようとして失敗し
+ていたので、$(RUN_OPT) を渡すようにしています。また tool/rubytest.rb の内部で
+ruby を起動していたところでも同じく --run-opt というオプションで $(RUN_OPT) を
+伝播させるようにしています。
