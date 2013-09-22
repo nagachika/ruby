@@ -1,0 +1,3 @@
+Enumerator#each の rdoc 用コメントにも引数を受け取ってそれを each (または
+Enumerator を生成する時に指定されたメソッド)の引数に渡すことができることを追記
+しています。 https://github.com/ruby/ruby/pull/388
