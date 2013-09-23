@@ -1,0 +1,11 @@
+IO.select の rdoc 用コメントに IO#read_nonblock で IO::WaitReadable や
+IO::WaitWritable が発生した時に IO.select の第1引数と第2引数のどちらに IO オブ
+ジェクトを渡して待つかを判定するのに使うサンプルを追記しています。 IO#
+read_writale なら IO::WaitReadable しか発生しなさそうな気がしますが、OpenSSL::
+SSL::SSLSocket の場合内部的には更にプロトコルが遮蔽されているため
+IO::WaitWritable が発生し得ること、また IO.select から返ってきても実際に read
+してみると読めずにブロックしてしまう可能性もある(生の IO ではない場合)について
+も追記しています。その他にも Linux では select(2) の第1引数に渡した file
+descriptor が読めるとして返ってきても実際に読めることを保証しない(!)という仕様
+らしく、IO.select と IO#read_nonblock を組み合わせた書きかたがベストだとしてい
+ます。
