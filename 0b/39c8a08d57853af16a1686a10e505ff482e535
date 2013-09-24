@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_make_proc_with_iseq() 内の rb_bug() のメッセージが古い関
+数名のままだったので現在の関数名に変更しています。 r42637 の追随とのこと。
