@@ -1,0 +1,3 @@
+test/ruby/test_module.rb の assert_top_method_is_private でトップレベルでのメソ
+ッド定義のために eval に TOPLEVEL_BINDING を渡して実行していたのを
+assert_separately を使って子プロセスで実行するように変更しています。
