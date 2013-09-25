@@ -1,0 +1,2 @@
+rb_ary_cat() の宣言を internal.h から include/ruby/intern.h に移動しています。
+README.EXT で言及されているため公開しておかないといけないからだそうです。
