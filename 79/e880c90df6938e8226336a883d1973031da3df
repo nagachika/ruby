@@ -1,0 +1,4 @@
+拡張ライブラリ win32 に添付されている win32/registry.rb の Win32::Registry::API
+#EnumKey, Win32::Registry::API#EnumValue と Win32::Registry#each_value, Win32
+::Registry#each_key で返す文字列を default_internal に encode するようにしてい
+ます。
