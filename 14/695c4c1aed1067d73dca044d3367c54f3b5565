@@ -1,0 +1,2 @@
+拡張ライブラリ win32 に添付されている win32/registry.rb の Win32::Registry::API
+#EnumKey でも文字列の切り出しサイズの計算の間違いを修正しています。
