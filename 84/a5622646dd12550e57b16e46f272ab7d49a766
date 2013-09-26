@@ -1,0 +1,2 @@
+CSV のテスト test/csv/test_encodings.rb でも r43032 と同様に UTF-16 と UTF-32
+を除外するために条件を追加しています。
