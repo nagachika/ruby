@@ -1,0 +1,4 @@
+RGenGC のための配列オブジェクトのアクセス用マクロ RARRAY_RAWPTR() を
+RARRAY_CONST_PTR() に改名しています。また構造体オブジェクトのアクセス用マクロ
+RSTRUUCT_RAWPTR() も RSTRUCT_CONST_PTR() に改名しています。 const VALUE * 型の
+read only のポインタを得るためのものなのでより相応しい名前にしたとのことです。
