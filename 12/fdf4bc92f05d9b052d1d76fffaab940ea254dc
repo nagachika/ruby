@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の rdoc で OpenSSL::PKey::RSA#export のサンプルコードの
+変数名 typo を修正しています。 https://github.com/ruby/ruby/pull/401
