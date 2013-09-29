@@ -1,0 +1,2 @@
+GC のパラメータを変更できる環境変数に RUBY_GC_MALLOC_LIMIT_MAX と
+RUBY_GC_MALLOC_LIMIT_GROWTH_FACTOR を追加しています。
