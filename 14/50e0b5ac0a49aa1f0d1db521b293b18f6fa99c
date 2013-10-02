@@ -1,0 +1,5 @@
+拡張ライブラリ objspace で ObjectSpace に trace_object_allocations_start,
+trace_object_allocations_stop, trace_object_allocations_clear というメソッドを
+追加して、オブジェクトの確保された位置をファイル名と行数で取得できるようにして
+います。内部的には既に実装されていたものを objspace で Ruby から使えるようにし
+たというような感じです。
