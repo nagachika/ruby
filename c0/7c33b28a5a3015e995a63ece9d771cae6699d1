@@ -1,0 +1,3 @@
+file.c の File::Stat を生成する API を rb_stat_new() として公開するようにしてい
+ます。拡張ライブラリから C の API で直接 File::Stat を作れるようになりました。
+これは NEWS ファイルにも追記が必要ですね。 [ruby-core:53225] [Feature #8050]
