@@ -1,0 +1,2 @@
+NEWS ファイルに C の型のサイズを取得する RbConfig::SIZEOF について追記していま
+す。 [ruby-core:55638] [Feature #8568]
