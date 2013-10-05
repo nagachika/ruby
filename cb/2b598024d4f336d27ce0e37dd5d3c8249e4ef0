@@ -1,0 +1,4 @@
+拡張ライブラリ化された thread で ConditionVariable, Queue, SizedQueue などを
+Thread の下に定義するかどうかを制御するマクロを整理しています。あー拡張ライブラ
+リ版の thread だと Queue が Thread::Queue とかになるんですね。気がついていませ
+んでした。
