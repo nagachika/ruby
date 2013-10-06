@@ -1,0 +1,3 @@
+r43139 でそれまで GC.stat[:heap_free_num] の値として使っていた
+rb_objspace::heap.free_num を swept_num という名称に改名しています。より実体を
+表した名称にしたとのことです。
