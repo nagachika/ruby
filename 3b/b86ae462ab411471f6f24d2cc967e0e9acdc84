@@ -1,0 +1,2 @@
+r43179, r43180 での FIBER_USE_NATIVE の configure での設定は revert して cont.c
+での条件分岐を整理してネストした #if で書くように変更しています。
