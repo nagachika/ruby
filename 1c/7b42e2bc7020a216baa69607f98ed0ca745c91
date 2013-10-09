@@ -1,0 +1,3 @@
+win32/file.c の code_page() という関数で rb_encoding のエンコーディングのコード
+ページを返すときにキャッシュしているマップをみる前に US-ASCII と ASCII-8BIT の
+時は固定値(1252 Microsoft においてはいわゆる Latin-1)を返すようにしています。
