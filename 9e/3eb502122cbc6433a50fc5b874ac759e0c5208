@@ -1,0 +1,2 @@
+r43179 の configure での FIBER_USE_NATIVE の設定が Windows 版の考慮がされていな
+かったのでそれを追加しています。
