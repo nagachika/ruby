@@ -1,0 +1,3 @@
+misc/ruby-electric.el に ruby-electric-keywords という予約語リストを設定するた
+めの変数を追加して(これまであった ruby-electric-simple-keywords-re を置き換え
+て)います。また自動的に end を挿入する機能の誤動作の修正もしているようです。
