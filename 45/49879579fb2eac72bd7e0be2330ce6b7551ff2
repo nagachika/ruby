@@ -1,0 +1,4 @@
+Fiber の実装に makecontext()/swapcontext() や CreateFiber()/SwitchToFiber() (
+Windows 版) などのシステムライブラリを利用した実装にするか、自前でスタックの切
+り替えを行う実装を使うかの変更に使う FIBER_USE_NATIVE というマクロの設定を
+cont.c で #if の条件で切り替えていたのを configure で検出するようにしています。
