@@ -1,0 +1,2 @@
+win32/win32.c の w32_spawn(), w32_aspawn_flags() に static を付けて内部関数にし
+ています。
