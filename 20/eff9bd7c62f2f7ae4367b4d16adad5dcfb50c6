@@ -1,0 +1,2 @@
+r43182 と同様に misc/ruby-mode.el でも char-before を preceding-char に置き換え
+ています。
