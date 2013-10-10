@@ -1,0 +1,2 @@
+misc/ruby-mode.el のエンコーディングの設定を行う ruby-mode-set-encoding を新し
+い Emacs の機能を利用したりして改善しているみたいです。
