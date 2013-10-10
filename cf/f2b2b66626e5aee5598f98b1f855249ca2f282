@@ -1,0 +1,5 @@
+r43170 で追加した C API で取得できるプロファイラ向けのスタックフレーム情報から
+メソッド名を取り出す API rb_profile_frame_method_name() と
+rb_profile_frame_qualified_method_name() を追加しています。 method_name はメソ
+ッド名のみ、qualified_method_name は定義されているクラスやモジュールの名前も込
+みで取得できるようです。
