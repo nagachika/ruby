@@ -1,0 +1,2 @@
+cont.c の FIBER_USE_NATIVE の設定に GNU/Hurd で FIBER_USE_NATIVE を 0 にする条
+件を追加しています。 [ruby-core:57685] [Bug #8990]
