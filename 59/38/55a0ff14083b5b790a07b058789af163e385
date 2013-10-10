@@ -1,0 +1,2 @@
+misc/ruby-additional.el と misc/ruby-mode.el の変更続き。条件分岐 cond の else
+部が抜けてたので補っているみたいです。
