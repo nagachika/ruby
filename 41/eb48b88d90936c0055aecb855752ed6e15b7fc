@@ -1,0 +1,4 @@
+Array#uniq の実装で Hash を作ってからそのキーを取り出すのにループを回して Hash
+の中身の st_table を操作していたのを rb_hash_keys() の呼び出しにおきかえていま
+す。また rb_hash_keys() は static 関数だったので static を削って internal.h で
+プロトタイプ宣言を追加して ruby 本体では利用できるようにしています。
