@@ -1,0 +1,6 @@
+r43170 で追加した C API で取得できるプロファイラ向けのスタックフレーム情報から
+full label を取り出す C API rb_profile_frame_full_label() を追加しています。
+full label は caller とかで取得できるような、メソッド名や、ブロックの場合はどの
+メソッドのブロックかを表示するもので、full label はメソッド名をクラス/モジュー
+ル名も表示したものです。将来のバージョンでは label と full label は同じものにす
+るかもしれないとのことです。
