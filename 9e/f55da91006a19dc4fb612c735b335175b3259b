@@ -1,0 +1,3 @@
+標準添付ライブラリの test/unit の Test::Unit::Assertions#
+assert_raise_with_message が捕捉した例外オブジェクトを返すようにして、これまで
+assert_raise を使っていたところを置き換えるリファクタリングをしています。
