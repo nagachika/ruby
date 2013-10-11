@@ -1,0 +1,3 @@
+Module#attr_reader, attr_writer, attr_accessor などで引数に不正な文字列が渡され
+た時に発生させる NameError 例外のメッセージに、引数の属性名のエンコーディングを
+反映させるようにしています。
