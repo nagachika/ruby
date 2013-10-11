@@ -1,0 +1,2 @@
+TracePoint のオブジェクト確保等のイベントのテストで GC.stat と照らしあわせてい
+たところで解放数の確認に GC.stat[:heap_final_num] を加味しています。
