@@ -1,0 +1,1 @@
+r43199 で入った test/-ext-/debug/test_profile_frames.rb の行末の空白を除去。
