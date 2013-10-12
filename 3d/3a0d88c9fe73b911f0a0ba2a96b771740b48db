@@ -1,0 +1,3 @@
+klass を 0 にして ObjectSpace からも見えなくした文字列オブジェクトから再び Ruby
+スクリプトから見えるコピーを生成する rb_str_resurrect() で str_duplicate() とい
+う関数を利用するようにするリファクタリング。
