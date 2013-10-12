@@ -1,0 +1,2 @@
+テストで assert_raise +αのかわりに assert_raise_with_message を利用するように
+するリファクタリング。
