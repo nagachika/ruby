@@ -1,0 +1,2 @@
+numeric.c で finite() の宣言を Windows 環境ではしないように条件を修正しています
+。 ruby/win32.h で既にしているためとのこと。
