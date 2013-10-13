@@ -1,0 +1,3 @@
+引き続き r43245 で変更した rb_postponed_job_flush() の再修正。
+rb_thread_t::interrupt_mask を戻すところで POSTPONED_JOB_INTERRUPT_MASK の部分
+だけ戻すようにビット演算を修正しています。
