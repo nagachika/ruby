@@ -1,0 +1,2 @@
+r43255 で追加した rb_gc_mark_symbols() の引数は full_marking だったのでこれも合
+わせて full_mark という名称に変更しています。
