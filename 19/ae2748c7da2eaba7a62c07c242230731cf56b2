@@ -1,0 +1,2 @@
+と思ったら r43248 を revert しています。マクロは interrupt_flag を立てるもので
+、ここでは interrupt_mask を操作しているので間違っていました。
