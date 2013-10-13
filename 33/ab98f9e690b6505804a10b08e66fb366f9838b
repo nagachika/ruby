@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.after_gc_start_hook= で再入を禁止して、
+postponed job 登録中にフックなどでさらに同じ postponed job を登録してしまうのを
+防いでいます。 [ruby-dev:47400] [Bug #8492] に対する修正だと思います。
