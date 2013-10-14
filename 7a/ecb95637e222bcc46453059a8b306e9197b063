@@ -1,0 +1,2 @@
+古くから存在していた Class/Module を管理する rb_class_tbl という st_table がも
+う不要だったので削除しています。
