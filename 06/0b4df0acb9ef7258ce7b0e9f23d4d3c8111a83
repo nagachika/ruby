@@ -1,0 +1,5 @@
+test/ruby/test_notimp.rb の test_call_fork で fork のテストでのタイムアウト時に
+ps コマンドを環境に応じて利用してプロセスの情報をメッセージに含めているところを
+Proc オブジェクトにして assert_nothing_raised のメッセージに直接渡すようにして
+います。第2引数に Proc オブジェクトを渡すとそれを実行してメッセージにしてくれる
+みたいですね。
