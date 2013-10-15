@@ -1,0 +1,2 @@
+Rake のテスト test/rake/test_rake_clean.rb でファイルの削除時の permission に関
+するテストが Windows では通らないので skip するようにしています。
