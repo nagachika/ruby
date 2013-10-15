@@ -1,0 +1,4 @@
+r43263 で rb_class_tbl を廃止してかわりに導入した defined_module_hash を初期化
+するのを Init_top_self() から Init_BareVM() に移動しています。 Init_top_self()
+だとコア部分の Class/Module が定義された後なので登録が間に合わないからとのこと
+。
