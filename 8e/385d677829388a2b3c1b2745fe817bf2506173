@@ -1,0 +1,2 @@
+r43278 の configure の修正を win32/Makefile.sub でも追随して常に gem_prelude.rb
+を利用するようにしています。
