@@ -1,0 +1,4 @@
+標準ライブラリ mkmf.rb で ranlib の実行のコマンドラインで引数を $(DLLIB) にして
+いたのを static library に修正しています。よく動いていたなぁと思いましたが手元
+だと RbConfig::CONFIG["RANLIB"] は nil だったので ranlib を実行する環境があまり
+なかったから気がつかなかったのかもしれません。
