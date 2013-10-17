@@ -1,0 +1,4 @@
+process.c で exec() 前にタイマースレッドを止める処理のところのコメントで Mac OS
+X 10.5 (Leopard) 以前では errno=ENOTSUPP を返すのでスレッドを止めておかないとい
+けないと書いてあったところを ENOTSUP に修正しています。 Mac OS X には ENOTSUPP
+というエラーはないとのこと。検索してみると、Linux にはあるみたいですね。
