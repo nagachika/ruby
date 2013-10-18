@@ -1,0 +1,3 @@
+更に更に RubyGems の最新版(commit hash b955554)をマージしています。 lib/
+rubygems/ext.rb で require "rubygems" していたのを削除しています。循環 require
+によって NameError が発生することがあったのを修正しているよのこと。
