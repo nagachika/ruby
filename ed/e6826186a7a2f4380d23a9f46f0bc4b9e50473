@@ -1,0 +1,4 @@
+拡張ライブラリ objspace に ObjectSpace.reachable_objects_from_root というメソッ
+ドを追加して、 GC の mark 時の root 毎(category 毎)に Hash でそこから到達できる
+オブジェクトのリストを返すようにしています。参照のリークのデバッグに便利そうな
+メソッドが追加されましたね。
