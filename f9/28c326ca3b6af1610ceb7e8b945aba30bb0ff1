@@ -1,0 +1,3 @@
+bootstraptest/runner.rb で子プロセスの status の signaled? をチェックしていると
+ころで例外が発生したなどで nil だった時のことを考慮してチェックをするようにして
+います。
