@@ -1,0 +1,3 @@
+r43307 で Windows 版の psapi.h というヘッダのチェックをしていたところで
+HAVE_SPAPI_H が未定義の時は win32/Makefile.sub であらかじめ 0 にセットしておく
+ことで判定部分を if $(HAVE_PSAPI_H) でチェックできるようにしています。
