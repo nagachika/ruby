@@ -1,0 +1,2 @@
+win32/file.c の rb_file_expand_path_internal() で一時的に確保されたバッファのエ
+ラー時の解放漏れでメモリリークが発生していたのを修正しています。
