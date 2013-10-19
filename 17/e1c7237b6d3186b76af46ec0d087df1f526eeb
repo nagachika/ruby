@@ -1,0 +1,7 @@
+拡張ライブラリ objspace に ObjectSpace.trace_object_allocations_debug_start と
+いうメソッドを追加しています。GC のデバッグ用に
+ObjectSpace.trace_object_allocations_start を呼び出しておいて r43303 で追加した
+rb_bug() で実行するフック関数を追加する rb_bug_reporter_add() を利用してインタ
+プリタの異常終了時にオブジェクトの確保情報を表示するようにしています。 "[BUG]
+... is T_NONE" みたいな GC 絡みの不具合があった時にこれを使うと有用な情報が得ら
+れるかもしれないのでやってみて、とのこと。
