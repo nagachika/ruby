@@ -1,0 +1,4 @@
+テスト用のユーティリティ集 test/ruby/envutil.rb の EnvUtil#
+assert_no_memory_leak で子プロセス起動のための引数の先頭に環境変数の設定が Hash
+で渡せるようにしています。また EnvUtil.invoke_ruby へのオプションも渡せるように
+キーワードrest引数を追加しています。
