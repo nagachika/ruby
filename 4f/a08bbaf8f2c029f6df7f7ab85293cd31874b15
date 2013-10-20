@@ -1,0 +1,2 @@
+RubyGems の最新版(master ブランチの f738c67)をマージしています。 configure で
+--disable-shared でビルドした ruby でのテストのエラーを修正しています。
