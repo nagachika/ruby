@@ -1,0 +1,4 @@
+ruby_atomic.h の Windows 版の時の InterlockedExchangeAdd64()/
+InterlockedExchangeAdd() を使って定義している関数マクロ ATOMIC_SIZE_ADD()/
+ATOMIC_SIZE_SUB() で明示的なキャストを追加して VC++ でのコンパイル時の警告を抑
+制しています。
