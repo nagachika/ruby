@@ -1,0 +1,3 @@
+新しい RubyGems が拡張ライブラリの再コンパイルをしてしまうのを防ぐため標準添付
+ライブラリ resolv.rb で win32/resolv の require をスキップするように一時的な
+workaround を行なっています。
