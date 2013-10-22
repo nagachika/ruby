@@ -1,0 +1,2 @@
+r43365 の再修正。 rb_class2name() は特異クラスや Module の include で使われる
+IClass ではなくて Class だけ認識するように rb_class_real() を呼び出しています。
