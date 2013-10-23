@@ -1,0 +1,6 @@
+test/unit の Test::Unit::Assertions#assert_raise_with_message で省略可能な第3引
+数の msg を assert_raise に渡す時に *msg と splat する引数渡し(受け取るほうは
+rest 引数とか言うと思いますが渡すほうはなんて言えばいいんだろう)をしています。
+msg が省略されて nil だった時に対応とあるのですが、最初は meth(*nil) のように渡
+しても [nil] になって同じじゃないかと思いました。でもそうじゃなくて nil.to_a が
+[] なので meth(*nil) は引数が渡されないのに相当するんですね。ほほう。
