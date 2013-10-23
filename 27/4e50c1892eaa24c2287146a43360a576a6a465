@@ -1,0 +1,7 @@
+eval 系で文字列を渡した時に文法エラーがあった時に SyntaxError ではなくて
+RuntimeError が発生することがあったのを修正しています。エンコーディングを読み込
+む load_encoding() で rb_thread_t::errinfo を元に戻さずに nil に戻してしまって
+いたのを修正しています。チケットは instance_eval についての不具合報告ですが、原
+因は require/load などにも影響がある箇所で require されたスクリプト内で例外が発
+生した時にその例外が無視されてしまうという不具合がありました。
+[ruby-core:57949] [Bug #9038]
