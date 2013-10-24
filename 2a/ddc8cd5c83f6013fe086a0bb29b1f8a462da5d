@@ -1,0 +1,2 @@
+r43372 で internal.h で定義したマクロ rb_syserr_fail_path() の呼び出す関数名の
+typo を修正しています。
