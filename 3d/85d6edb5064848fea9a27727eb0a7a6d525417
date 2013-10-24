@@ -1,0 +1,2 @@
+gc.c の heap_pages_init() の内容をその唯一の呼び元である Init_heap() に展開する
+リファクタリング。
