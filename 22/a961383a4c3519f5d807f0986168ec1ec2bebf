@@ -1,0 +1,3 @@
+昨日の r43377 および r43379 で File.exists? や FileTest.exists? で deprecated
+の警告メッセージを出すようにしたのに追加して Dir.exists? も警告メッセージを出す
+ようにしています。 [ruby-core:57953] [Bug #9041]
