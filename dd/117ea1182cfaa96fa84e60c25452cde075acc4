@@ -1,0 +1,3 @@
+メモリ管理で page を追加/解放する条件につかうパラメータの名称を変更しています。
+free_min -> min_free_slots, free_min_page -> max_free_slots としています。元の
+名前があまりにもわかりにくかったですね。
