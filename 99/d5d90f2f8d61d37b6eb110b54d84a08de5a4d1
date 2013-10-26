@@ -1,0 +1,5 @@
+同じく標準添付ライブラリ ostruct.rb の OpenStruct#delete_field で削除すべきメソ
+ッドの指定に一部引数を文字列化したものを使っていたのを to_sym で Symbol にした
+ものを文字列化して使うようにしています。普通は一致するはずですが、to_sym を定義
+したクラスのオブジェクトや to_sym を再定義していた時などに対応しているものと思
+います。 https://github.com/ruby/ruby/pull/383
