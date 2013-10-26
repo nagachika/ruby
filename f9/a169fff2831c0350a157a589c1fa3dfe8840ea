@@ -1,0 +1,4 @@
+標準添付ライブラリ ostruct.rb で OpenStruct#method_missing でフィールドのアクセ
+スのメソッドを偽装しているところで、対応するフィールドがみつからなくて
+NoMethodError 例外を発生させる時にバックトレースを呼び元の位置にすりかえていま
+す。 https://github.com/ruby/ruby/pull/383
