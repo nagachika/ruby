@@ -1,0 +1,3 @@
+標準添付ライブラリ ostruct.rb の OpenStruct で freeze されたインスタンスを変更
+しようとした時に TypeError を発生させていたのを RuntimeError に変更しています。
+https://github.com/ruby/ruby/pull/383
