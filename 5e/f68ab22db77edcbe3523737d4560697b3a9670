@@ -1,0 +1,2 @@
+r43398 で win32/Makefile.sub の MISSING に代入するファイル名の typo (というか拡
+張子漏れ)を修正しています。
