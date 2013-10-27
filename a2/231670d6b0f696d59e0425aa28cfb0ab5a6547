@@ -1,0 +1,4 @@
+Range の初期化用関数 range_init() で exclude フラグの引数の型が int で、それを
+そのまま VALUE 型を期待しているフィールドにセットしてしまっていたので Ruby の真
+偽値(Qtrue, Qfalse) にしてからセットするようにし、range_init() の第3引数の型も
+VALUE に変更しています。
