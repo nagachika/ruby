@@ -1,0 +1,3 @@
+range.c で RSTRUCT_SET() マクロを使って Range オブジェクトの範囲や exclude フラ
+グを設定していたのを、さらにこれを wrap する RANGE_SET_{BEG, END, EXCL}() マク
+ロを定義してこれを使うようにするリファクタリング。
