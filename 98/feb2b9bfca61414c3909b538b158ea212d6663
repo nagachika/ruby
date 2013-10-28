@@ -1,0 +1,6 @@
+メモリ管理の freelist の gc_before_heap_sweep() での操作で
+rb_heap_t::using_page::freelist を rb_heap_t::freelist で上書きしていたところで
+、rb_heap_t::using_page::freelist がこの時点で空リストでない可能性があった
+(rb_heap_t::freelist に属しているオブジェクトに対する rb_gc_force_recycle() が
+呼ばれた場合)ので、それを消してしまわないように末尾に追加するようにしています。
+オブジェクトがリークする可能性があったみたいですね。
