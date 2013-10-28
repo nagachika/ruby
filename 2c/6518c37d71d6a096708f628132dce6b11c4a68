@@ -1,0 +1,4 @@
+テスト用のユーティリティ test/ruby/envutil.rb の assert_separately で子プロセス
+を起動する時のオプションに常に --disable=gems を付加するようにしています。
+test-unit.gem があったときにそちらを読み込んでしまわないようにしているそうです
+。
