@@ -1,0 +1,2 @@
+Range オブジェクトに __send__ や instance_eval を使って initialize_copy を呼ん
+で無理矢理再初期化するのを NameError を発生させてエラーにするようにしています。
