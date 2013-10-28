@@ -1,0 +1,6 @@
+addr2line.c で ELF フォーマット用のヘッダ elf.h もしくは elf_abi.h の #include
+をシステムヘッダ(特に sys/types.h が問題らしいです)の後に #include するように位
+置を移動しています。これは NetBSD/sh3 (SH3 チップで動いている NetBSD で
+DreamCast などのプラットフォームだそうです。DreamCast で Ruby が動く! 正確には
+ビルドできるというだけで動くかどうかはわからないそうですけど)向けのクロスコンパ
+イル時のビルドエラーを修正するための変更だそうです。
