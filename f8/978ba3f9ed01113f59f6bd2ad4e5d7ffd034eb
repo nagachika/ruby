@@ -1,0 +1,3 @@
+r43432 の assert_separately で子プロセスに --disable=gems をつける変更の再修正
+です。 --disable=gems を最後につけてしまっていたので引数の先頭に付加するように
+修正しています。
