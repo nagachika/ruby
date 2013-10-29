@@ -1,0 +1,8 @@
+拡張ライブラリ readline の r42402 や r42525、r42527、r42528 あたりの Readline
+.input=, Readline.output= で入出力の IO を変更した時の SEGV する可能性があるの
+に対処する修正の再修正みたいです。少し入り組んでいるので要点をはずしているかも
+しれませんが、readline_getc() で rb_thread_call_without_gvl2() を使って GVL を
+解放して getc_func() を呼ぶようにして、Readline が開いた FILE ストリームは
+Readline の拡張ライブラリで閉じるように、 input/output の現在のストリームだけで
+はなくて、それが自分で開いたものかどうかも記録するようにしているみたいです。
+[ruby-dev:47033] [Bug #8749] [ruby-core:57951] [Bug #9040]
