@@ -1,0 +1,2 @@
+Readline のテストの teardown で Readline.input= と Readline.output= を nil でク
+リアしてリセットしておくようにしています。
