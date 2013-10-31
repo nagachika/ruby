@@ -1,0 +1,5 @@
+vm_malloc_increase() で malloc_increase を減算するのに malloc_increase を参照し
+てアンダーフローしないかチェックしてから ATOMIC_SIZE_SUB() を利用したり単に 0
+を代入したりしていたのを、事前に減算後の結果を計算しておいて ATOMIC_SIZE_CAS()
+でその値をセットする(競合したらリトライする)ようにしてマルチスレッドでの利用時
+により安全に malloc_increase を操作するようにしています。
