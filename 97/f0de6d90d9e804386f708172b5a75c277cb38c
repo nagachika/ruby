@@ -1,0 +1,3 @@
+未使用の page をまとめておく Tomb heap から page を再利用するために取ってくる
+heap_page_resurrect() で freelist が NULL のページをスキップしていたのを、無視
+して常に先頭の page を取ってくるように修正しています。
