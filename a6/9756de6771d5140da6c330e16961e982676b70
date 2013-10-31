@@ -1,0 +1,3 @@
+拡張ライブラリ readline で rl_getc_function にセットしている readline_getc() に
+EditLine の場合は NULL が渡されることがあるのでその時は stdin を利用するように
+しています。
