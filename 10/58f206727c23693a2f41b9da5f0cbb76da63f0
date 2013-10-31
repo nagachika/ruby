@@ -1,0 +1,2 @@
+ruby_atomic.h に size_t の CAS (Compare And Swap) を行うマクロ ATOMIC_SIZE_CAS
+() を追加しています。
