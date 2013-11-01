@@ -1,0 +1,2 @@
+Array#uniq! の実装で rb_ary_modify() を呼ぶかわりに rb_ary_modify_check() だけ
+呼ぶようにしています。一時的に使われるだけの配列だからとのこと。
