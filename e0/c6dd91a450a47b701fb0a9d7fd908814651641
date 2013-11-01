@@ -1,0 +1,4 @@
+拡張ライブラリ psych で String を継承したクラスのインスタンスを Psych.dump で
+YAML エンコーディングすると binary として扱かわれるのにクラス名がつくため !
+binary というタグが失なわれるため、load すると文字列が化ける不具合を修正してい
+ます。 https://github.com/tenderlove/psych/issues/166
