@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml で rexml/parsers/streamparser.rb を利用する時に "rexml
+/parsers/baseparser" も別途 require しないといけなかったので require を追加して
+います。 [ruby-dev:47779] [Bug #9062]
