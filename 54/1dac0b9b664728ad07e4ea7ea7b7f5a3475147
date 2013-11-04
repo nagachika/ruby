@@ -1,0 +1,3 @@
+WeakRef のテストで SEGV することがあった問題の追加修正です。 WeakMap の mark 関
+数で T_ZOMBIE のオブジェクトは mark しないようにしています。 [ruby-dev:47787]
+[Bug #9069]
