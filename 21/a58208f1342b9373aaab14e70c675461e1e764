@@ -1,0 +1,5 @@
+gc.c のリファクタリング。 struct heap_page に before_sweep メンバを追加して
+page 毎に LazySweep の sweep 前の状態かどうかをこのメンバで管理するようにして、
+不要になった heap_is_before_sweep() is_before_sweep() などは削除しています。
+page 数が増えた時に is_before_sweep() で毎回チェックすると遅くなるので高速化し
+ています。
