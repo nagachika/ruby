@@ -1,0 +1,4 @@
+gc.c の make_deferred() で struct RBasic::flags に T_ZOMBIE をセットするのと、
+heap_pages_deferred_final のリストに繋ぐ処理を同時に行うようにしています。おそ
+らくこれまでもひとつのオブジェクトは両方の処理を通っていたのでしょうが
+(Refactoring とあるので)、一ヶ所にまとめることで明確にしているのだと思います。
