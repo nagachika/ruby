@@ -1,0 +1,2 @@
+test/ruby/test_m17n.rb の String#scrub のテストで expect の文字列にも u() を使
+って locale が UTF-8 でない環境を考慮するようにしています。
