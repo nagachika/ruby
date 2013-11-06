@@ -1,0 +1,5 @@
+setjmp(3) を代入文の右辺値に使った時の未定義の挙動を回避するためにタグジャンプ
+時に rb_thread_t::status に status を格納してから longjmp() して setjmp() から
+非0 で返ってきた時には rb_thread_t::status の値を取り出して使うように
+TH_EXEC_TAG() および TH_JUMP_TAG() の実装を変更しています。 (参考 [ISO/IEC
+9899:1999] 7.13.1.1)
