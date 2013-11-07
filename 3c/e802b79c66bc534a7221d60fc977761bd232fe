@@ -1,0 +1,3 @@
+is_live_object() で struct RBasic::klass を 0 にして ObjectSpace から隠している
+オブジェクトが死んだオブジェクトとして判定されていて WeakRef で不具合が出ていた
+のを修正しています。 [ruby-dev:47788] [Bug #9072]
