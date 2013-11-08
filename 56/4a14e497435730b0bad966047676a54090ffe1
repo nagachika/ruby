@@ -1,0 +1,2 @@
+Array#shift の実装でも RARRAY_PTR() を使っていたところを RARRAY_PTR_USE() を使
+って書き換えています。
