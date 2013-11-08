@@ -1,0 +1,2 @@
+lib/rubygems/specifications.rb で未定義のインスタンス変数の参照の警告を抑制する
+ために defined? でのチェックを追加しています。
