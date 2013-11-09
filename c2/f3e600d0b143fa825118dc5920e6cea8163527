@@ -1,0 +1,2 @@
+Array#shuffle! でも RARRAY_PTR() を使っていたところを RARRAY_PTR_USE() を使って
+shady になるのを防いでいます。
