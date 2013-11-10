@@ -1,0 +1,2 @@
+gc.c の rb_objspace_call_finalizer() でオブジェクトの BUILTIN_TYPE() による型で
+分岐しているところを if-else if から switch 文に変更しています。
