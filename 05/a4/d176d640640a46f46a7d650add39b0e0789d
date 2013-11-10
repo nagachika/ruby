@@ -1,0 +1,3 @@
+io.c の open_key_args() でも RARRAY_PTR() のかわりに RARRAY_CONST_PTR() を利用
+するようにしています。またその影響でいくつかの関数の宣言の引数に const 修飾子を
+付加しています。
