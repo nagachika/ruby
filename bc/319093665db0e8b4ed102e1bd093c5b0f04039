@@ -1,0 +1,6 @@
+xmalloc() などでメモリ確保する時に GC 起動のチェックに使う vm_malloc_increase()
+で gc_rest_sweep() を呼んで全て sweep して条件を再チェックしているところで GVL
+を確保済みかどうかをチェックするようにしています。 gc_rest_sweep() は GVL 確保
+した状態で呼ばれることを想定しているのに vm_malloc_increase() は GVL を保持して
+いない状態で呼ばれる可能性がありまれに [BUG] による異常終了が発生する可能性があ
+ったのを修正しているそうです。 [ruby-dev:47794] [Bug #9090]
