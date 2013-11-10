@@ -1,0 +1,3 @@
+Enumerator#inspect で利用する append_method() や Enumerator::Lazy 用の関数
+lazy_init_iterator() などの関数で RARRAY_PTR() を利用していたところを参照するだ
+けなので RARRAY_CONST_PTR() を利用するようにして shady 化を防いでいます。
