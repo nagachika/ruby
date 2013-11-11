@@ -1,0 +1,4 @@
+gc.c の gc_page_sweep() および rgengc_rememberset_mark() で mark_bits を得るの
+に GET_HEAP_MARK_BITS() マクロを利用していたのをこの関数内では対象の page をす
+でに持っているので直接構造体メンバを参照するようにしています。マクロ経由だとペ
+ージまで辿る処理も含まれてしまうため。
