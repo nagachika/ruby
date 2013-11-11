@@ -1,0 +1,2 @@
+拡張ライブラリ dl の DL::CFunc の rdoc コメントのサンプルコードの typo を修正し
+ています。 [ruby-core:57345] [Bug #8944]
