@@ -1,0 +1,2 @@
+ext/objspace/objspace_dump.c の dump_object() で未使用の変数削除や明示的なキャ
+ストの追加などコンパイラの警告を除去しています。
