@@ -1,0 +1,5 @@
+拡張ライブラリ objspace に ObjectSpace.dump_all というメソッドで JSON 形式でオ
+ブジェクトの参照関係をダンプするメソッドを追加しています。 [ruby-core:57893]
+[Bug #9026] https://github.com/ruby/ruby/pull/423
+これはまだゴツいのがきましたね。一時ファイルに出力してメソッドはそのファイル名
+のみを返すようです。
