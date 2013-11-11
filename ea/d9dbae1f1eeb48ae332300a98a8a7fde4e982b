@@ -1,0 +1,2 @@
+gc.c の RVALUE_PROMOTE_INFANT() (inline 関数)で上のほうで書かれている処理が重複
+して最後に書かれていたのを削除しています。
