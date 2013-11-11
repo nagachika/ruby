@@ -1,0 +1,2 @@
+ext/objspace/objspace_dump.c で objspace_dump() と objspace_dump_all() で共通し
+ていた引数の処理などを関数に括り出すリファクタリングです。
