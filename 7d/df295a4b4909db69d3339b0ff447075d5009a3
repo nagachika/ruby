@@ -1,0 +1,3 @@
+file.c に cygwin 版の時に GetLastError() の宣言をしていたのを削除しています。最
+近の cygwin では windows.h で定義されていて衝突していたので不要とのこと。
+https://github.com/ruby/ruby/pull/433
