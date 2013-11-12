@@ -1,0 +1,17 @@
+String の freeze について文字列リテラルに対して呼ばれた時には命令列へのコンパイ
+ル時点で特別扱いをして、同じ内容の文字列に対する freeze は同一のオブジェクトを
+返すようにするしくみを導入しています。
+a = "str".freeze
+b = "str".freeze
+a.object_id == b.object_id
+上のようにするとこれまで a と b は別のオブジェクトだったので object_id の比較は
+false でしたが、今後は同じオブジェクトを返すようになるので true になります。
+なおこの特別扱いは文字列リテラルに直接 freeze が呼ばれた時だけコンパイル時から
+別の処理にしているので、一旦変数に代入したりメソッド返したものに freeze を呼ん
+だ時は別のオブジェクトのままです。
+a = "str"
+b = "str"
+a.freeze.object_id == b.freeze.object_id # => これは false
+"str"f のような f suffix で freeze された文字列を共有するようにする仕様が追加さ
+れていましたが、f suffix はその後やっぱりやめにして String#freeze に最適化をお
+こなうようにするという方針になりました。 [ruby-core:57705] [Feature #8992]
