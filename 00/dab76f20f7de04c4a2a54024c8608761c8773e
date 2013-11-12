@@ -1,0 +1,3 @@
+昨日追加された ObjectSpace.dump_all の修正の続きです。dump_output() の引数
+filename の const を外しています。 mkstemp(3) が char * を要求するためとのこと
+。
