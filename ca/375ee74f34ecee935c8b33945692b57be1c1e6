@@ -1,0 +1,2 @@
+Thread#thread_variable_get の rdoc 用コメントで Thread#[ ] を参照しているコメン
+トが重複していたので後のを消しています。
