@@ -1,0 +1,26 @@
+Exception#cause というメソッドを導入して、例外オブジェクトは rescue 節で raise
+された時にはその時点での例外オブジェクトを保持して、cause メソッドで元となった
+例外オブジェクトにアクセスできるようにしています。 [ruby-core:54185] [Feature #
+8257]
+おお、この Feature チケット見逃していましたが、これは結構ありがちな要求で、定義
+した例外に元の例外のメッセージを埋め込んだり backtrace を偽装したりしてなんとか
+していたと思うんですけどこういう対処方法もありますね。
+つまり以下のような rescue で例外を捕捉して別の例外を投げ直す時に、元となった例
+外を簡単に取得できるようになります。
+def foo
+  begin
+    do_something()
+  rescue
+    raise MyError, "something wrong"
+  end
+end
+begin
+  foo
+rescue MyError
+  $!.cause # => do_something で発生した元々の例外が取得できる
+end
+これはたぶんとても便利! JRuby の Charles Nutter の提案です。rescue で例外発生さ
+せると常に参照が発生するので例外オブジェクトが GC されにくくなる点がちょっとだ
+け気になりますが、例外がそんなに長生きすることはないと思うのであまり影響ない、
+かも……(RGenGC で旧世代へ promote しやすくなるという点はあるかもしれないです
+ね)。
