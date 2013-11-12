@@ -1,0 +1,3 @@
+文字列リテラルの "f" suffix 機能を revert しています。 r43627 で String#freeze
+の最適化機能が代替として導入されたのに伴ない "str"f のような f suffix は廃止さ
+れています。 [ruby-core:57966] [Feature #9042]
