@@ -1,0 +1,4 @@
+拡張ライブラリ io/console の gems パッケージとしての io-console.gemspec に証明
+書の指定を追加して署名するようにしているようです。当然なかださんの環境でないと
+署名はできないですよね。参考URL: http://www.benjaminfleischer.com/2013/11/08/
+how-to-sign-your-rubygem-cert/
