@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::Config.parse の引数名 str -> string に改名し
+ています。これはなんででしょうね。string のほうが明確ではありますが str はよく
+使われている変数名なのでそんなに問題ないと思いますけど。
