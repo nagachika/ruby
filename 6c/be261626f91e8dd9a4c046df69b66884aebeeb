@@ -1,0 +1,3 @@
+r43669 と r43672 の続きで拡張ライブラリ bigdecimal の bigdecimal/util.rb の
+Rational#to_d の rdoc コメントから引数なしの Rational#to_d の呼び出しをしている
+サンプルコードを削りました。 [Bug #8958]
