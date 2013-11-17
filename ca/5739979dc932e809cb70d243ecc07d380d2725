@@ -1,0 +1,13 @@
+標準添付ライブラリ delegate.rb で Delegator#send を method_missing の alias と
+して定義しなおしています。 send でメソッドを呼ぼうとすると delegate 先のオブジ
+ェクトのメソッドではなくて Delegator 自身のメソッドを呼ぼうとしてしまうため、と
+のことなのですが、 send メソッド自体が再定義されたものの場合はそれを呼ぶべきな
+んじゃないでしょうか。
+class A
+  def send
+    "A#send"
+  end
+end
+a = SimpleDelegator.new(A.new)
+a.send # => ArgumentError: no method name given
+       # => "A#send" を呼んで欲しいのでは?
