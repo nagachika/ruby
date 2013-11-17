@@ -1,0 +1,4 @@
+r43636 で追加された Exception#cause を保存する機能の修正で、Exception#cause を
+セットするのを例外を作る時ではなくて raise する時にまで遅延させるようにしていま
+す。ある例外を捕捉した rescue 節内でその例外を raise した時に cause が自分自身
+を指すようになってしまっていたようです。 [ruby-core:54185] [Feature #8257]
