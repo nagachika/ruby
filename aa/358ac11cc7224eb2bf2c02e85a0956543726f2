@@ -1,0 +1,2 @@
+VM 命令列のコンパイル時の最適化で send, send_simple の命令の末尾再帰の最適化を
+invokesuper の時、つまり super の呼び出しの時も有効にしています。
