@@ -1,0 +1,3 @@
+r43697 の ChangeLog エントリに理由を追記しています。 libgmp が $LIBS にある環境
+でビルドできるようにするためということ。ふーむ? configure lflags=-lgmp ってした
+時ことですかね。
