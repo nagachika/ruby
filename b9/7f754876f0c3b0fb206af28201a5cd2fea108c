@@ -1,0 +1,1 @@
+string.c の tr_find() という static 関数の引数に const を付加しています。
