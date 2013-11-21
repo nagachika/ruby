@@ -1,0 +1,2 @@
+.gitignore に r43708 で拡張ライブラリ化に追い出した自動生成するソースファイル
+ext/rbconfig/sizeof/sizes.c の指定を追加しました。
