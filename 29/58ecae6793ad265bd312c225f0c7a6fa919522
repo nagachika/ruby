@@ -1,0 +1,3 @@
+標準ライブラリ tempfile の Tempfile#initialize で $VERBOSE が真の時の警告が出る
+のを抑制するために create メソッドを Dir::Tmpname のクラスメソッドを呼ぶように
+変更しています。
