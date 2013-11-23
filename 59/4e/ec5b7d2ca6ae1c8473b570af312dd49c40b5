@@ -1,0 +1,6 @@
+r43682, r43727 での Delegator の修正を revert して method_missing で private な
+メソッドの起動にも対応するようにすることで send も呼べるようにしています。また
+Kernel で定義されているメソッドも転送できるように Delegator では private なメソ
+ッドの定義は undef するようにしています。ただし block_given? と iterator? は呼
+び元で評価されないと意図した動きにならないので消さないようにしています。 https:
+//github.com/ruby/ruby/pull/449
