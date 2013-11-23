@@ -1,0 +1,4 @@
+Digest::Class の bubblebabble メソッドの rdoc コメントが rb_path2class
+("Digest::Class") でクラスを取得して定義しているために RDoc がクラスを認識して
+くれないので、コメントアウトした状態で rb_define_class() を書いて RDoc にクラス
+名がわかるようにしています。
