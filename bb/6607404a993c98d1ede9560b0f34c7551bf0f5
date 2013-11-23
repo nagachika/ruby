@@ -1,0 +1,4 @@
+標準添付ライブラリ delegate で r43752 で導入した private メソッドを転送するよう
+にする変更で raise も undef してしまっていたので、 raise を __raise__ として
+alias した上で __raise__ は undef しないようにして __raise__ を使って例外を発生
+させるようにしています。
