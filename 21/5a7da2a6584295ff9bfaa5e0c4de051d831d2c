@@ -1,0 +1,3 @@
+r43763 で malloc_usable_size() のために malloc.h を #include するようにしました
+が FreeBSD では malloc_np.h でないといけなくてビルドに失敗していたので
+configure でヘッダを検出して使えるほうを #include するようにしています。
