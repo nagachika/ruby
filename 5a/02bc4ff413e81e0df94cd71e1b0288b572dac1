@@ -1,0 +1,3 @@
+NEWS ファイルの拡張ライブラリ objspace で追加されたメソッド群についてを
+compatibility issue の節から新機能の節に移動、また RubyGems と RDoc のバージョ
+ンを preview2 に更新しています。
