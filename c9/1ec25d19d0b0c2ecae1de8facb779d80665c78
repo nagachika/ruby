@@ -1,0 +1,4 @@
+GC のパラメータを制御する環境変数のひとつ page あたりの slot 数の下限を指定する
+RUBY_HEAP_MIN_SLOTS が有効に効かずに page の追加がされるパスがあったので
+heap_set_increment() に引数を追加しています。この引数を 0 で呼んでいる箇所はい
+いんでしょうか? [ruby-core:58474] [Bug #9137]
