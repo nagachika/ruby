@@ -1,0 +1,5 @@
+rb_gc_set_params() という GC のパラメータを設定する関数が intern.h で公開されて
+いたのですが、これは internal で利用するためのものなので deprecate としてマーク
+しています。rb_gc_set_params() は ruby_gc_set_params() と改名して元の名前の関数
+を別名として定義するようにして、internal.h に ruby_gc_set_params() のプロトタイ
+プ宣言を追加して内部からはこちらを利用するように変更しています。
