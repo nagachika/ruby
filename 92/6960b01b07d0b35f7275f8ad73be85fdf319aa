@@ -1,0 +1,5 @@
+拡張ライブラリ bigdecimal の BigDecimal_div2() のリファクタリング。引数に argc
+と argv の形式で渡していたのをそのまま VALUE 型を渡すようにして Qnil で省略され
+ているのを判定するようにして内部的にはこちらを利用するようにし、
+rb_define_method() に渡すための関数としては rb_scan_args() を呼び出す
+BigDecimal_div3() を追加しています。
