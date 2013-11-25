@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の BigMath.exp の最適化。よく読んでいませんが除算の回
+数を減らしているようです。 [ruby-core:47130] [Feature #6857]
