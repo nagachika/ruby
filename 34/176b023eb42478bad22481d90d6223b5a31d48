@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all で出力時の fprintf(3) の size_t
+に対するフォーマット指示子を PRIuSIZE に修正することで Window 環境でのオーバフ
+ロー対策をしています。
