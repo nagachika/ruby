@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal の BigDecimal_power() で指数部の値? を変換するのに
+FIX2INT() を使っていたところを FIX2LONG() を利用するように修正しています。代入
+先は SIGNED_VALUE 型なので、long と一致するとも限らないんですよね(VALUE はポイ
+ンタと同じサイズ)。
