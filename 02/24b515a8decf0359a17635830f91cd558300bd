@@ -1,0 +1,7 @@
+SIZEOF_ACTUAL_BDIGIT というマクロを定義して、RVALUE に Bignum の数値が埋め込め
+るかの判定にこの新しいマクロを利用するようにしています。 SIZEOF_BDIGITS は
+sizeof(BDIGIT) とは異なる場合があるため。よくわかりませんが BDIGIT に unsigned
+short を利用していて short が long の半分以下のサイズの時は SIZEOF_BDIGITS は
+sizeof(short) ではなくて sizeof(long)/2 に丸め(切り上げ)られていて実際に必要な
+サイズよりも大きい可能性があるようです。おそらくメモリアライメントの都合じゃな
+いかなと思います。
