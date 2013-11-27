@@ -1,0 +1,9 @@
+GC.stat の項目の追加や項目名の変更。 heap_xxx_num は heap_xxx_slot と slot 数を
+指していることがわかりやすいように改名されています。また GC のパラメータに関わ
+る状態である heap_swept_slot, malloc_increase, malloc_limit,
+remembered_shady_object, remembered_shady_object_limit, old_object,
+old_object_limit, oldmalloc_increase, oldmalloc_limit などを追加しています。 GC
+.stat の RDoc には "The contents of the hash are implementation specific and
+may be changed in the future." と書かれているので変更してもいいんだぜみたいなこ
+とがコミットログに書かれています。あきらめましょう。っていうこんなところに依存
+してるプロダクト向けのライブラリなんてまさかないですよね。
