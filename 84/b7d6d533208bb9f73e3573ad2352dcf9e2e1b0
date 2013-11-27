@@ -1,0 +1,1 @@
+TracePoint のテストで GC.stat の返す Hash の項目名の変更に追随しています。
