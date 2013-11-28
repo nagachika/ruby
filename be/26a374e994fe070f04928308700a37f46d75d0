@@ -1,0 +1,4 @@
+make run.gdb ターゲットで gdb の起動時に実行するコマンドに set breakpoint
+pending on を追加しています。この設定は break コマンドで breakpoint を設定する
+時に拡張ライブラリの関数などでまだロードされていない時に警告が出るのを抑制して
+くれるというものみたいです。
