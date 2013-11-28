@@ -1,0 +1,2 @@
+ext/bigdecimal/bigdecimal.gemspec の svn property 設定。svn のキーワード置換を
+有効にするために svn:keywords を設定しているようです。
