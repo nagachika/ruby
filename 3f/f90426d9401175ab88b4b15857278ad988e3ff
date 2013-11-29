@@ -1,0 +1,3 @@
+ATOMIC_{INC, DEC, EXCHANGE} と ATOMIC_SIZE_{INC, DEC, EXCHANGE} で同一の実装に
+なっていたものはまとめて ATOMIC_SIZE_XXX() を ATOMIC_XXX() として #define する
+ようにしています。
