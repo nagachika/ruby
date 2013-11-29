@@ -1,0 +1,2 @@
+lib/irb/notifier.rb の rdoc 用コメントにも typo があったのを修正しています。ま
+た拡張ライブラリ json の rdoc 用コメントも typo を修正しています。
