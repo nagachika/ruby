@@ -1,0 +1,2 @@
+gc.c の rb_heap_t の構造体メンバ名を used -> page_length, limit -> total_slots
+と改名しています。
