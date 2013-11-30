@@ -1,0 +1,3 @@
+Hash#values の実装でも keys と同様に st.c に st_values() および st_values_check
+() を追加して st_table の値を配列で取得する処理を直接書いてその関数を利用するよ
+うにして高速化しています。
