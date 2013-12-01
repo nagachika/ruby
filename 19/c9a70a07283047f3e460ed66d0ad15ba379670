@@ -1,0 +1,2 @@
+lib/racc/parser.rb の定数名 Racc_No_Extentions を Racc_No_Extensions に typo 修
+正しています。 :nodoc: タグがついてるので内部的な定数みたいです。
