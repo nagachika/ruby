@@ -1,0 +1,2 @@
+標準ライブラリ webrick のエラーメッセージの typo 修正。およびテストでのメソッド
+名の typo 修正。 allowd -> allowed
