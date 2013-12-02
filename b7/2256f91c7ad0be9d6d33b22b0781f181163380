@@ -1,0 +1,3 @@
+拡張ライブラリ tk の extconf.rb でビルドできる Tcl/Tk のバージョンのチェックの
+追加(8.6 が未サポートのため弾くようにしているそうです)や Tk::TkTable や Tk
+::TkMsgCatalog の不具合修正など。
