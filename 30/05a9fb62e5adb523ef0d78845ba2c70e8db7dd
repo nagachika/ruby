@@ -1,0 +1,2 @@
+VM のデバッグ用関数 rb_vmdebug_debug_print_pre() の警告除去のための明示的なキャ
+スト追加。
