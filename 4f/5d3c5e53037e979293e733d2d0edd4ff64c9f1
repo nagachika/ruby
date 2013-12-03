@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils.rb の rdoc 用コメントの typo 修正。 perserve ->
+preserve
+なおこのコミットログには [ci skip] というタグみたいなのが書かれているのですがこ
+れはもしや TravisCI でのテストをスキップする指定とかでしょうか。
