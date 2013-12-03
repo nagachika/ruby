@@ -1,0 +1,5 @@
+doc/maintainers.rdoc を追加して現在の各機能やライブラリのメンテナリストを記述し
+ています。これも http://bugs.ruby-lang.org/projects/ruby/wiki/Maintainers の
+Wiki からの転載だと思いますが、これも両方更新するのかなぁ。バグ登録する時にメン
+テナリストはよく確認するのですぐ読めるところにあるのは確かにちょっと嬉しいです
+ね。
