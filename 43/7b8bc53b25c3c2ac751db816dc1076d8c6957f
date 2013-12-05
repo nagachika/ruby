@@ -1,0 +1,3 @@
+r43942 で Hash の rehash 時のメモリリーク修正時に st_table 保持用の Hash オブジ
+ェクトを生成するのに rb_hash_new() ではなくてより内部的な hash_alloc() を利用す
+るように変更しています。 [ruby-core:58728] [Bug #9187]
