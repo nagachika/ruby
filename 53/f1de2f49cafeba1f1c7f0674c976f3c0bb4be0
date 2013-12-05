@@ -1,0 +1,5 @@
+Object#clone 時に新規に作成したオブジェクトの struct RBasic::flags に
+rb_obj_alloc() から返ってきた時点で既に GC が発生していて RGenGC 用の
+FL_PROMOTED や FL_WB_PROTECTED のフラグが立っている可能性があり、コピー元のフラ
+グを or する前にこれらのフラグがクリアされてしまっていたので残すようにしていま
+す。
