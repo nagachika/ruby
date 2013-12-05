@@ -1,0 +1,4 @@
+r43962 の RDoc の更新で r43006 の拡張ライブラリの時に nil に対して documented?
+が呼ばれる件の対応が消えていたので再々適用しています。 upstream にパッチ当てな
+いとまた消えるような気が……と思ったらこの後取り込まれたようですね。 https://
+github.com/rdoc/rdoc/commit/a883e14b8bd0eb4714466e7d9bd5068619c4c998
