@@ -1,0 +1,6 @@
+大域脱出 throw - catch の catch の C API である rb_catch() の亜種で
+rb_catch_protect() という API を追加しています。これは rb_catch() と rb_protect
+() を合わせたようなもので throw 以外の例外などの大域脱出も捕捉することができま
+す。追加された第4引数の stateptr にポインタを渡すとそこに state を格納して返し
+ます。従って呼び元では state をチェックして必要なら再度 JUMP_TAG() で例外などを
+伝播させなくてはいけません。
