@@ -1,0 +1,6 @@
+文字列リテラルや内部的に利用されている文字列で freeze + 共有化された文字列を作
+る rb_fstring() で文字列オブジェクトの共有化のために st_table を管理する方法を
+st_lookup() と st_insert() を使う方法から st_update() を使う方法に変更して効率
+化しています。けど existing が[DEL:真:DEL] 偽の時は ST_STOP を返したほうがいい
+ような。 fstr_update_callback() で value を書きかえてないので動作上は問題ないと
+思いますけど。
