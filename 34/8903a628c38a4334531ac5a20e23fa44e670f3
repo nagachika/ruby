@@ -1,0 +1,2 @@
+TracePoint のフックの呼び出しを抑制する rb_suppress_tracing() で構造体の初期化
+漏れて意図せずに INTERNAL_EVENT_GC がスキップされる可能性があったそうです。
