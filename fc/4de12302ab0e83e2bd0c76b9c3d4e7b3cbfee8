@@ -1,0 +1,6 @@
+標準添付ライブラリ delegate.rb で委譲先のオブジェクトを取得する __getobj__ メソ
+ッドで委譲先のオブジェクトが未設定の時にブロックつきで呼び出されていたら例外を
+発生させるからりに yield するようにして、method_missing や respond_to_missing?
+で未設定の時に転送しないようにする修正を行なっています。最近の delegate.rb の変
+更で initialize で super を呼ぶ前に Kernel のメソッドを呼ぶと例外になってしまっ
+ていたのを修正しています。 [ruby-core:58572] [Bug #9155]
