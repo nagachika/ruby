@@ -1,0 +1,3 @@
+ruby_atomic.h で ATOMIC_SIZE_CAS() の定義が ATOMIC_CAS() と同一だったので削除し
+て使いまわすようにしています。元々 ATOMIC_SIZE_CAS() が未定義だったら
+ATOMIC_CAS() の別名として #define していたので定義が不要でした。
