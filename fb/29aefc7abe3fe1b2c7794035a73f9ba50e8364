@@ -1,0 +1,4 @@
+ruby_atomic.h で今度は逆に ATOMIC_PTR_EXCHANGE() を ATOMIC_SIZE_EXCHANGE() とし
+て定義するようにして、GCC のビルトイン関数が使える環境では別途
+__atomic_exchange_n() や __sync_lock_test_and_set() を使って定義するようにして
+います。
