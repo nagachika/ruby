@@ -1,0 +1,6 @@
+finalizer の実行時に heap_pages_deferred_final を 0 にクリアするのを
+ATOMIC_PTR_EXCHANGE() を利用して atomic に行なうようにしています。また処理中に
+新たに実行すべき finalizer 処理が登録されたらそれも実行してから抜けるようにして
+います。どういうシナリオなのかはっきりわかっていませんが LazySweep の影響で
+finalizer 実行中に新たに finalizer が積まれる場合があるみたいです。
+[ruby-core:58833] [Bug #9205]
