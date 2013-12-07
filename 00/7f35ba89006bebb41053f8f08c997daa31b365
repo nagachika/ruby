@@ -1,0 +1,2 @@
+tool/strip-rdoc.rb でファイルを binary mode で読み込むために最初に ARGF.binmode
+を呼び出すようにしています。
