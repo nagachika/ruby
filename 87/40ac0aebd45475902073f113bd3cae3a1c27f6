@@ -1,0 +1,2 @@
+lib/webrick/httpresponse.rb の rdoc 用コメントの typo 修正。 resopnse ->
+response
