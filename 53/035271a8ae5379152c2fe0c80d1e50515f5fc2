@@ -1,0 +1,3 @@
+メモリ管理用の関数 vm_malloc_XXX() や vm_xfree() などの関数名を
+objspace_malloc_XXX() や objspace_xfree() のように objspace_ の prefix に改名し
+ています。
