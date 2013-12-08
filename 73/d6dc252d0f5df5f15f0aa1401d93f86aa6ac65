@@ -1,0 +1,5 @@
+rb_gc() からの GC のトリガの種類を表すフラグを GPR_FLAG_METHOD から
+GPR_FLAG_CAPI に変更しています。 GC.start で呼ばれる関数が gc_start_internal()
+に変化したのでこの関数による GC は C API として呼ばれた時だけになったためでしょ
+う。また gc_start_internal() と rb_gc() で heap_pages_free_unused_pages() を呼
+んでいたのを削除しています。 after_sweep() で呼ばれているため不要とのこと。
