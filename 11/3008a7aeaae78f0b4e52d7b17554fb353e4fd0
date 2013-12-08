@@ -1,0 +1,2 @@
+r44035 で追加したキーワード引数取得用の C API rb_get_kwargs() などを
+vm_insnhelper.c から class.c に移動しています。
