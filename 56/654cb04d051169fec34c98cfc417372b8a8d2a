@@ -1,0 +1,3 @@
+標準添付ライブラリ erb の rdoc では RAA へのリンクがあったのですが RAA は今年終
+了したのでかわりに RubyGems や The Ruby Toolbox へのリンクを書くようにしていま
+す。 [ruby-core:58789] [Bug #9197]
