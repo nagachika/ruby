@@ -1,0 +1,2 @@
+Struct でメンバーに ? や ! などの記号を持った名前を使えることを確認するテストを
+追加しています。 https://github.com/ruby/ruby/pull/468
