@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils.rb の未使用のローカル変数を削除しています。 https:
+//github.com/ruby/ruby/pull/463
