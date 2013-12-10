@@ -1,0 +1,3 @@
+r44057 のあたりで rb_id2str() が返す String オブジェクトが fstring になったので
+fc_path() や classname() などの関数で dup していたのが不要になったので削除して
+います。
