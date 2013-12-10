@@ -1,0 +1,3 @@
+common.mk の ruby.imp というターゲットの依存関係の $(EXPORTOBJS) を $
+(COMMONOBJS) に変更しています。 AIX での循環した依存関係になるのを修正している
+そうです。
