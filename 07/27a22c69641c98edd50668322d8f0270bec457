@@ -1,0 +1,5 @@
+拡張ライブラリ bigdecimal で BigDecimal#coerce に Float が渡された時にレシーバ
+の BigDecimal を Float に変換していたのを引数の Float を BigDecimal に変換する
+ように修正しています。 BigDecimal の精度が小さい時にその精度に丸めてあげること
+で比較などで変換する時により正確な結果が出せるからだと思います。
+[ruby-core:58756] [Bug #9192]
