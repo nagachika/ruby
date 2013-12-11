@@ -1,0 +1,2 @@
+RCLASS_EXT(klass)->class_serial のショートカットとして RCLASS_SERIAL() という関
+数マクロ定義を追加して、各所でこれを利用するようにリファクタリングしています。
