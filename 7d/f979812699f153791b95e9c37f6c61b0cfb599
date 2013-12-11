@@ -1,0 +1,4 @@
+メソッドキャッシュおよび定数キャッシュの invalidation のために保持する連番の名
+前を method_serial/constant_serial から global_method_state/
+global_constant_state に改名しています。ささださんと議論した結果改名することに
+したそうです。
