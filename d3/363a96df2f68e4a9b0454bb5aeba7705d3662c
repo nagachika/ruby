@@ -1,0 +1,5 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations_start で NEWOBJ
+() のフック内で class_path を r44087 で追加した rb_class_path_cached() を使って
+取得するようにしています。このフック内では新規のオブジェクト確保はしてはいけな
+いので、そのために rb_class_path_cached() を追加したみたいですね。
+[ruby-core:58853] [Bug #9212]
