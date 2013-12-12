@@ -1,0 +1,2 @@
+WeakMap#[]= の実装で st_lookup() と st_insert() を使っていたところを st_update
+() を使うようにリファクタリングしています。
