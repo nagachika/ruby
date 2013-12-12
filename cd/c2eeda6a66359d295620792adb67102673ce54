@@ -1,0 +1,5 @@
+WeakMap で内部的に Array オブジェクトをバッファとして利用していたのを GC 負荷の
+軽減のため直接 ruby_xmalloc2() や ruby_sized_xrealloc2() で確保した C の配列を
+利用するように変更しています。 Array の便利関数(たぶん主に rb_ary_delete_same
+()) を使いたいために Array を使っていたのだと思いますが性能のためにやめたっぽい
+です。
