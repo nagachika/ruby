@@ -1,0 +1,2 @@
+gc.c で static 関数名 objspaec_allrefs_destruct() の objspaec -> objspace と
+typo 修正しています。
