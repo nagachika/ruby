@@ -1,0 +1,7 @@
+Hash#reject が返す Enumerator の size の不具合修正 r44047 で Hash#reject が元の
+Hash のインスタンス変数や default 値などを複製しなくなっていたのですが、Hash#
+reject は元の Hash をコピーしないという仕様に変更しています。 [ruby-core:59045]
+[Bug #9223]
+うーんしかし Hash#reject == dup + reject! というのはドキュメントにも記述されて
+いた仕様で、おそらくかなり昔からこの挙動をしていたと思うので 2.1 直前でこの仕様
+変更してしまうのは危ないんではないでしょうか。
