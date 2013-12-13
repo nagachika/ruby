@@ -1,0 +1,2 @@
+win32ole のインスタンス変数名、openssl と webrick の rdoc 用コメントおよび
+template/yarvarch.ja で receive → receive の typo 修正。
