@@ -1,0 +1,3 @@
+テストで assert を使っていたところをよりわかりやすいメッセージが出るように
+assert_equal, assert_not_equal, assert_include, assert_predicate 等々適当な
+assertion を使うようにしたり、メッセージを追加したりしています。
