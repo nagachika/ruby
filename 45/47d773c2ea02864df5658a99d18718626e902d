@@ -1,0 +1,3 @@
+eval.c では main.using および Module#using によるメソッドキャッシュのクリアをそ
+れぞれの実装関数から共通部分の rb_using_module() の中で呼ぶようにまとめています
+。
