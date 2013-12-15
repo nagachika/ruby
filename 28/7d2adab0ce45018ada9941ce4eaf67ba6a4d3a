@@ -1,0 +1,4 @@
+標準添付ライブラリ test/unit の Test::Unit::Assersions#
+assert_raise_with_message で expected に正規表現が渡された時にブロック内の $~
+を assert_raise_with_message での例外メッセージのマッチの結果を格納するようにし
+ています。うーんこれはなぜでしょう……。
