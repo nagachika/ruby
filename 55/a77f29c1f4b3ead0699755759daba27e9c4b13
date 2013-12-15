@@ -1,0 +1,5 @@
+RGenGC の Shady という語彙をやめようとしているようで、まず RVALUE_RAW_SHADY()
+と RVALUE_SHADY() というマクロを RVALUE_WB_PROTECTED_RAW() と
+RVALUE_WB_PROTECTED() に変更しています。ただしこれらのマクロは意味が反転してい
+て RVALUE_SHADY() == !(RVALUE_WB_PROTECTED()) という関係になってます。また
+rgengc_check_shady() も rgengc_check_relation() と改名しています。
