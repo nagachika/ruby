@@ -1,0 +1,2 @@
+gc.c の gc_prof_timer_start() で GC 中に呼ばれたら assert(3) で異常終了させてい
+たのを rb_bug() を呼ぶように変更しています。 [ruby-core:58886] [Bug #9222]
