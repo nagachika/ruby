@@ -1,0 +1,7 @@
+拡張ライブラリ socket で Addrinfo#listen が ensure 節で $! をチェックして例外が
+あったらすぐに socket を close していたため、このメソッドの呼び元で rescue 節の
+中から呼ばれると listen の処理自体では例外が発生していないにもかかわらず close
+されてしまうという不具合を修正しています。ブロックの呼び出し部分で rescue
+Exception で捕捉して後始末するようにしています。 [ruby-core:59088] [Bug #9247]
+また同様に ensure で $! をチェックしていたコードが lib/cgi/core.rb と lib/drb/
+ssl.rb にも存在していたので同様に修正しています。
