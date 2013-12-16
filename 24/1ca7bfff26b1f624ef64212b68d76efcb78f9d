@@ -1,0 +1,2 @@
+Module#const_defined? が "::" で連結したネストした名前も受け付けるようにしてい
+ます。 [ruby-core:49770] [Feature #7414]
