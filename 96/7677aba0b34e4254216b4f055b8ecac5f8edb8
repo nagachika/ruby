@@ -1,0 +1,2 @@
+lib/uri/common.rb の rdoc 用コメントで参照している URL がリンク切れになっていた
+そうで修正しています。 https://github.com/ruby/ruby/pull/478
