@@ -1,0 +1,2 @@
+configure の --with-rubylibprefix を指定した時に RbConfig::CONFIG["prefix"] が
+空文字列になってしまう不具合を修正。 [ruby-dev:47852] [Bug #9160]
