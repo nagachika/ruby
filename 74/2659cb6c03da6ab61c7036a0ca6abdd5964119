@@ -1,0 +1,2 @@
+test/ruby/envutil.rb の assert_file_predicate でエラー時に出力するメッセージを
+少し整形しています。
