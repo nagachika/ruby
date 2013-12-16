@@ -1,0 +1,4 @@
+Module#const_get で名前の Symbol の ID を取得して rb_const_get() または
+rb_const_get_at() に委譲するようにしています。 ChangeLog に Symbol はネストした
+定数名部分だけではないって書かれているのですがそうとは限らないような…。
+Math.const_get(:PI) みたいな。
