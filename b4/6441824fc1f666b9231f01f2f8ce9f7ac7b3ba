@@ -1,0 +1,3 @@
+Process のテスト test/ruby/test_process.rb でも sleep を使ってタイミングをはか
+っているテストを pipe を使って確実に協調して動くようにリファクタリングしていま
+す。
