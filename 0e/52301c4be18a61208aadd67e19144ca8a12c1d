@@ -1,0 +1,3 @@
+r44203 で Logger の log rotate 時の挙動を修正した時に追加したテストが Windows
+で動かないため mswin および mingw ではテスト実行しないように分岐を追加していま
+す。
