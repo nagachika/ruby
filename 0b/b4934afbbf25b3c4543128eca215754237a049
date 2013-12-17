@@ -1,0 +1,3 @@
+r44200 で追加した Dir[] のテストで File.symlink を呼んでいるところが Windows な
+ど symlink が使えないプラットフォームでエラーになっていたので
+NotImplementedError を検出して assertion をスキップするようにしています。
