@@ -1,0 +1,3 @@
+r44230 で追加した Process.clock_gettime のテストで 32bit 環境だと整数の結果が
+Bignum になることがあるので Fixnum と比較するのではなくて整数の時は Integer と
+kind_of? の関係にあることをチェックするように修正しています。
