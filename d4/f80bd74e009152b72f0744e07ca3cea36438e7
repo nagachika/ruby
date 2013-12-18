@@ -1,0 +1,7 @@
+r44222 でとりあえずの対策をしていた問題の修正だと思うのですが、
+ObjectSpace.reachable_objects_from_root の返す Hash 自身も走査対象にしてしまっ
+て "can't add a new key into hash during iteration" という例外が発生していたの
+を修正しています。戻り値に使う Hash を compare_by_identity を呼んで VALUE の値
+のみで比較するようにしています。あーなるほど別のオブジェクトが Hash の同じキー
+として扱かわれてしまうとここの用途ではまずそうですね。 [ruby-core:59125] [Bug #
+9252]
