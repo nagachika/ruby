@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.each_object での LazySweep を off にする
+フラグの設定を戻す時に強制的に on に戻していたので、再入した場合を考慮して変更
+前の値に戻すようにしています。
