@@ -1,0 +1,3 @@
+Process.clock_gettime で結果の単位を指定するシンボルに :second を追加しています
+。 :second_float はあったのですが整数で秒単位で結果を取得できなかったので追加し
+ています。
