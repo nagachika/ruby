@@ -1,0 +1,12 @@
+Hash#dup の関数 rb_hash_dup() から Hash の要素は空でその他の情報(class, default
+値、インスタンス変数、taint されているかなど)はコピーしたものを返す
+rb_hash_dup_empty() という処理を切り出して、Hash#reject で
+HASH_REJECT_COPY_TRIVIAL_ATTRIBUTES というマクロが真に定義されていたらこっちを
+使って Hash の空のコピーを生成するようにしています。 r44137 で Hash#reject を
+dup+reject! ではなくしてしまったのがまずくないかというのを受けて、その場合の対
+応を入れておいたというもののようで、今は HASH_REJECT_COPY_TRIVIAL_ATTRIBUTES は
+0 で定義しているので r44137 の変更のままで Hash#reject は新しい(コピーではない)
+Hash を返しています。また #if 0 でコメントアウトした状態で Hash#reject がインス
+タンス変数やデフォルト値の指定のある Hash に呼ばれた時に警告を発生するようにす
+るコードも追加されています。移行措置を設けることにした時のためのコードを準備し
+ているようです。
