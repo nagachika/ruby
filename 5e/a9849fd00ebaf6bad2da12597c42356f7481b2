@@ -1,0 +1,2 @@
+gc.c の gc_finalize_deferred_register() が引数を受け付けないのを明示的に void
+を書くようにしています。
