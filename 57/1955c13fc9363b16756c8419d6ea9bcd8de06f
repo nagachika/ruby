@@ -1,0 +1,6 @@
+r44247 の Hash#reject についてのさらに変更で HASH_REJECT_COPY_MISC_ATTRIBUTES
+を 1 に定義して、元々の dup.reject! の挙動に戻しているようです。
+HashWithDifferentAccess の互換性のためにクラスがコピーされる必要があったようで
+す。ただし警告が出るようになっています。仕様変更は matz によって承認されたので
+次のリリースでは Hash#reject の挙動が変更されることでしょう。けど 2.1 では見送
+られることになったようです。 [ruby-core:59154] [Bug #9223]
