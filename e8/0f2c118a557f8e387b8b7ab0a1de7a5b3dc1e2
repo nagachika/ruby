@@ -1,0 +1,5 @@
+RubyGems を最新版に更新しています。拡張ライブラリのビルド時の挙動を Gem
+.install_extension_in_lib で変更できるようにしているみたいなのですが、このメソ
+ッドは常に true を返すように実装されています。ChangeLog を読むと RubyGems の
+repackeger (Bundler とかのことでしょうか)でこの挙動を変更できるように(互換性を
+壊すけど)しているみたいです。
