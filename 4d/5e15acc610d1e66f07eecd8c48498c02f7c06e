@@ -1,0 +1,2 @@
+r44268 で page 数のチェックで誤差を許容するようにしたテストで assertion を
+assert_in_delta を使うように修正しています。なるほど assert_in_delta か。
