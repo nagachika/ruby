@@ -1,0 +1,3 @@
+r44276 で gc_profile_record_get() の objspace->profile.run のチェックも
+gc_prof_enabled() マクロに置き換えてしまったのですが、ここでは current_record
+がない時空の配列を返すため変更してはいけなかったので戻しています。
