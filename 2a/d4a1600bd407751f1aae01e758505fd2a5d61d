@@ -1,0 +1,3 @@
+benchmark/gc/gcbench.rb で GC::OPTS を表示しようとしていたところを古いバージョ
+ンの ruby で実行する場合を考慮して define? で定数の存在チェックするようにしてい
+ます。
