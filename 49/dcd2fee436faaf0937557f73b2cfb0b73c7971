@@ -1,0 +1,3 @@
+r44278 で test/runner.rb にデバッグ用の GC.verify_internal_consistency が入って
+いたのを削っています。なんかぽつんと入ってるなーと思ってましたがコミットミスだ
+ったんですね。
