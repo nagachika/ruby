@@ -1,0 +1,3 @@
+newobj_of() でオブジェクトを生成する時に klass を設定するのに Write Barrier つ
+きの RBASIC_SET_CLASS() を使っていましたが obj は作ったばかりでまだ新世代のはず
+なので RBASIC_SET_CLASS_RAW() を使うようにしています。
