@@ -1,0 +1,2 @@
+そして RGenGC の Write Barrier 用のマクロ OBJ_WRITE() と OBJ_WRITTEN() に RB_
+と prefix を追加しています。
