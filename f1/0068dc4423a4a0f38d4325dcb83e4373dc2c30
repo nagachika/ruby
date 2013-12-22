@@ -1,0 +1,4 @@
+configure.in で --with-opt-dir オプションを処理している AC_ARG_WITH() で withal
+を $1 で初期化しているのを削除しています。多分 withbal という変数は AC_ARG_WITH
+() を使うと自動的にセットされているものなのをあえて引数を再代入していたのだと思
+いますが FreeBSD で動かなかったので消したとのことです。
