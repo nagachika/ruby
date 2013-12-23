@@ -1,0 +1,3 @@
+パッケージを作るための tool/make-snapshot で version.h の RUBY_PATCHLEVEL_STR
+に preview や rc (release candidate) の表記に変更する対応を追加しています。
+ruby -v した時に preview1 とか rc1 とか出るようになるわけですね多分。
