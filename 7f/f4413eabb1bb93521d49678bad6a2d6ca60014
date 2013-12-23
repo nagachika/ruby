@@ -1,0 +1,3 @@
+Windows 環境でのビルドで tool/rbinstall.rb を起動する時に RUBY_PLATFORM の値が
+間違っていたためインストールに失敗することがあったのを修正しています。
+[ruby-core:58801] [Bug #9199]
