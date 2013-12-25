@@ -1,0 +1,3 @@
+test/ruby/envutil.rb で ruby インタプリタのパスを作る時に Windows 環境での ".
+exe" を付加する処理を固定の suffix を使うのでなく RbConfig::CONFIG["EXEEXT"] を
+確認するようにしています。
