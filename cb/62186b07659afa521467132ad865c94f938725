@@ -1,0 +1,2 @@
+Hash#reject の警告出力の判定用のマクロ HAS_EXTRA_STATES の定義で r44359 でかっ
+この対応付けが間違っていたのを修正しています。 [ruby-core:59254] [Bug #9275]
