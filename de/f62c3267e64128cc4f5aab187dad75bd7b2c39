@@ -1,0 +1,3 @@
+RARRAY_ASET() マクロでコンパイラの警告が出ていたのを回避するため
+RARRAY_PTR_USE_START() と RARRAY_PTR_USE_END() を使うように定義方法を変更してい
+ます。 [ruby-dev:47858] [Bug #9287]
