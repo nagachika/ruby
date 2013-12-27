@@ -1,0 +1,5 @@
+Binding#local_variables メソッドを追加しています。 [ruby-core:56543] [Feature #
+8773]
+あれ、local_variables はまだ追加されてなかったっけ、と調べてみたら r42464 で追
+加されていたのは local_variable_set, local_variable_get,
+local_variable_defined? でローカル変数一覧の取得はまだだったようです。
