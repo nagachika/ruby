@@ -1,0 +1,4 @@
+mingw で localtime_r(3) がうまく動かないので _gmtime64_s() と _localtimee64_s()
+という関数をチェックしてこれを利用するようにしているそうです。 Time の
+Marshal.dump のテストが mingw で失敗していたのを修正しているそうです。
+[ruby-core:58764] [ruby-core:58391] [Bug #9119]
