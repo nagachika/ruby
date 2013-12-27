@@ -1,0 +1,2 @@
+ChangeLog と NEWS ファイルを doc/(NEWS, ChangeLog)-2.1.0 に移動して ChangeLog
+と NEWS ファイルを 2.2 向けにリセットしています。
