@@ -1,0 +1,2 @@
+template/verconf.h.in というファイルを template/verconf.h.tmpl に改名しています
+。 erb によって処理するテンプレートファイルだからとのこと。
