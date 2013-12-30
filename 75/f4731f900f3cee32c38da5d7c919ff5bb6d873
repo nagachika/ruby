@@ -1,0 +1,2 @@
+拡張ライブラリに含まれるスクリプトやベンチマークスクリプトのコメントの typo を
+修正。 https://github.com/ruby/ruby/pull/490
