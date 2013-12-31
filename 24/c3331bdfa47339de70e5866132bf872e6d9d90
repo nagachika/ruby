@@ -1,0 +1,5 @@
+r44179 の変更で Module のメソッド内で super を呼んでいる時にそれを include した
+クラスのインスタンスから作った Method オブジェクトを呼ぶと SEGV する不具合が入
+っていたので修正しています。 rspec-mocks の and_call_original で発生していると
+のこと。このメソッドよく trunk の変更の影響を受けてますね。 [ruby-core:59358]
+[Bug #9315]
