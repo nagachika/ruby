@@ -1,0 +1,7 @@
+標準添付ライブラリ mkmf.rb で生成する extconf.h に埋め込む CXXFLAGS の値を
+RbConfig::CONFIG["CXXFLAGS"] の値を直接参照せずに init_mkmf で引数の指定を考慮
+したグローバル変数 $CXXFLAGS のほうを参照するように修正しています。 extconf.rb
+の実行時に CXXFLAGS を変更できるようにしています。 https://github.com/ruby/ruby
+/pull/492
+でもどうやらこの変更から RubyCI で make dist が失敗するようになっているみたいで
+す。
