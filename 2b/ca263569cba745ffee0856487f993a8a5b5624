@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf.rb で RbConfig::CONFIG の RUBY_SO_NAME の項目を展開する
+ようにしています。 configure に --enable-shared を渡すとビルドに失敗するのを修
+正しています。 [ruby-core:59426] [Bug #9329]
