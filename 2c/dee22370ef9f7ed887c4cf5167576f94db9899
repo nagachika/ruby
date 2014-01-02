@@ -1,0 +1,2 @@
+win32/Makefile.sub から不要になったマクロ定義 HAVE_FSEEKO の config.h への出力
+を削除しています。
