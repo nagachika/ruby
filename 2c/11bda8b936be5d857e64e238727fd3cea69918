@@ -1,0 +1,5 @@
+rb_hash_keys() という C API を static 関数に変更しています。rb_hash_keys() はも
+ともと static 関数だったのを r43194 で Array#| などの実装で利用するために
+internal.h でインタプリタ内部では利用可能にしていたのですが、r43969 で array.c
+から利用しなくなったため static 関数に戻しています。 [ruby-core:59449] [Feature
+#9336]
