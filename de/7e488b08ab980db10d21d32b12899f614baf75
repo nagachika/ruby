@@ -1,0 +1,2 @@
+RubyVM::OPTS が返す VM のオプションのうち "operands unification" に余分な文字が
+入っていたのを削っています。
