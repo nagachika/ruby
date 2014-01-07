@@ -1,0 +1,3 @@
+r44504 で deprecated な宣言をエラーにするようにしましたが、finite(3) という
+math ライブラリのマクロが deprecated になっていたので、isfinite() という C99 標
+準のマクロを利用するようにしています。
