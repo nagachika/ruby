@@ -1,0 +1,5 @@
+RubyGems の 2.2.1 への更新です。更新履歴はこちらを参照 http://
+rubygems.rubyforge.org/rubygems-update/History_txt.html
+ちらっと眺めた感じでは Gemfile.lock でのプラットフォーム指定の不具合修正、依存
+関係解決の改善、gem install の Bundler API 対応をして高速化などの変更があったそ
+うです。
