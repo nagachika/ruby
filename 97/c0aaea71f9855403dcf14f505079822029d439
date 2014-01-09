@@ -1,0 +1,4 @@
+標準添付ライブラリ timeout の Timeout::ExitException を raise で例外として発生
+させた時にタイムアウト時の処理として扱わない(現在の timeout.rb はデフォルトでは
+raise - rescue ではなくて throw - catch を使うようになっています)ようにしていま
+す。
