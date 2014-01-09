@@ -1,0 +1,3 @@
+拡張ライブラリ json の generator および parser の depend ファイルに $
+(ruby_headers) への依存関係を追加しています。 ABI 変更時に拡張ライブラリを再コ
+ンパイルするようにしています。 [ruby-core:59609] [Bug #9374]
