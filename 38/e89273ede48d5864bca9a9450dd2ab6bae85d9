@@ -1,0 +1,2 @@
+rb_num2ull() での整数オブジェクトの unsigned long long への変換でのエラー時の例
+外メッセージの typo 修正。
