@@ -1,0 +1,5 @@
+標準添付ライブラリ timeout で throw - catch を使うようにしたため Enumerator (内
+部で Fiber を利用しているため、Fiber をまたいだ throw - catch が使えない)を利用
+中にタイムアウトすると throw に失敗してしまうので、throw が ArgumentError を発
+生させたらしかたないので例外発生を使うようにしています。 [ruby-dev:47872] [Bug
+#9380]
