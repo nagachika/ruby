@@ -1,0 +1,4 @@
+RubyGems のテスト用のメソッド Gem#teardown で RbConfig::CONFIG["BASERUBY"] を書
+き換えてる可能性があるのでそれを書き戻す時に nil にしてしまうことがあって、その
+影響で mkmf.rb のテストが失敗していたので元々存在しなかった時は nil を格納する
+のではなくて BASERUBY のキーを削除するようにしています。
