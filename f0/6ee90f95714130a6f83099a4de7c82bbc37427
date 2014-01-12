@@ -1,0 +1,2 @@
+r44507 での拡張ライブラリ tk の extconf.rb で libpathflag() を使うようにしたと
+ころで配列を渡すように再修正しています。 [ruby-core:59665] [Bug #9386]
