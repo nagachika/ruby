@@ -1,0 +1,5 @@
+2.0.0 から UnboundMethod は継承関係にない Class/Module 間の define_method に渡
+して移植可能になっていましたが、Method#bind もそのメソッドの定義が Module のも
+のであれば他のクラスのインスタンスに bind して呼べるようにしています。
+Refinements に関連した制限もあるようで、多分 refine ブロック内で include された
+Module のメソッドは移植できないようです。
