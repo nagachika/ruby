@@ -1,0 +1,1 @@
+Array#<=> と File::Stat#<=> の rdoc で nil を返す条件について追記しています。
