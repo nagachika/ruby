@@ -1,0 +1,3 @@
+r44558 で修正した BigMath.log のテスト(r44561 で追加)を再修正して
+FloatDomainError が発生したプラットフォームでは無視するようにしています。また
+BigMath.log の結果が Float::INFINITY になった場合も無視するようにしています。
