@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.load で ISeq のタイプを判定するテーブルがキャッシュ
+されずに毎回使い捨てられていたので ATOMIC_PTR_CAS() を使って static 変数に残し
+ておくようにしています。 [ruby-core:59699] [Bug #9399]
