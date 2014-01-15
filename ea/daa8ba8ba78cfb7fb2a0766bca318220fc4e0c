@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal, openssl, racc, syslog などでも、例外メッセージ等にク
+ラス名を埋め込む際に rb_obj_class() を利用するようにし、また C の文字列を %s で
+埋め込むかわりに PRIsVALUE を利用するように修正しています。
