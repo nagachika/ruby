@@ -1,0 +1,4 @@
+r44610 で追加した Numeric#coerce の例外メッセージのテストが default_external に
+よって結果が異なるので EnvUtil.with_default_external を使って UTF-8 に固定して
+テストするようにしています。また default_external が US-ASCII の時の assertion
+も追加しています。
