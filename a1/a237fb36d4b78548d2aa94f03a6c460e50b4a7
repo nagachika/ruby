@@ -1,0 +1,5 @@
+r44572 で拡張ライブラリでも PRIsVALUE を使うようにしたのですが、fiddle は gem
+パッケージとしても提供されているため 1.9 の ruby でもビルドできるように
+bigdecimal と同様に差異を吸収するためのマクロ RB_OBJ_CLASSNAME() と
+RB_OBJ_STRING() を追加しています。こちらは RB_OBJ_STRING() も利用されていますね
+。
