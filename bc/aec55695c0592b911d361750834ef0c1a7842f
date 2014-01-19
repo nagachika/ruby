@@ -1,0 +1,5 @@
+r43759 のあたりで標準添付ライブラリ delegate の Delegator で Kernel#raise を呼
+ぶために __raise__ に alias しておいて、これは委譲しないようにしていましたが、
+__raise__ に限らず __xxx__ のようにアンダースコア2つで囲まれたメソッド名は委譲
+しないようにしています。 __method__ とか __callee__ とか __dir__ は委譲されない
+ですね。 [ruby-core:59718] [Bug #9403]
