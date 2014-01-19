@@ -1,0 +1,5 @@
+特異クラスに対する constants メソッドの呼び出しが Module#constants による、その
+特異クラスが持つ定数を返すメソッドではなくて、 Module.constants (全てのトップレ
+ベルの定数を返す)の挙動になっていたのを修正しています。 [ruby-core:59763] [Bug
+#9413]
+Module.constants ってまぎらわしいですよね。
