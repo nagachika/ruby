@@ -1,0 +1,4 @@
+拡張ライブラリ socket でソケットオプションの IP_MULTICAST_LOOP と
+IP_MULTICAST_TTL が NetBSD では 1byte なので条件コンパイルで変数の型を分けてい
+ましたが、OpenBSD でも同様だったそうなので条件に追加しています。
+[ruby-core:59496] [Bug #9350]
