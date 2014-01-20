@@ -1,0 +1,3 @@
+localeinit.c で Windows 環境で使う codepage のためのバッファ長やエンコーディン
+グ処理を SIZEOF_CP_NAME および CP_FORMAT() というマクロに切り出すリファクタリン
+グ。
