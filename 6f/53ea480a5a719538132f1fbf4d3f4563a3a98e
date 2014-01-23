@@ -1,0 +1,2 @@
+Dir.getwd の rdoc に別名である Dir.pwd のサンプルを追加。 https://github.com/
+ruby/ruby/pull/504
