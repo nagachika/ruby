@@ -1,0 +1,2 @@
+拡張ライブラリ socket の Socket::Option の IP_MULTICAST_TTL と
+IP_MULTICAST_LOOP についての rdoc コメントの typo 修正。
