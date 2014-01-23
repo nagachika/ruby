@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の URI.encode_www_form_component の rdoc コメントにあっ
+た HTML の仕様へのリンクを更新しています。 https://github.com/ruby/ruby/pull/
+484
