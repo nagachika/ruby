@@ -1,0 +1,2 @@
+r44664 の条件追加。 Windows でも IP_MULTICAST_LOOP と IP_MULTICASt_TTL の型を
+int にしています。
