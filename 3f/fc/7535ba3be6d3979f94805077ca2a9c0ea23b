@@ -1,0 +1,2 @@
+r44664 のソケットオプション IP_MULTICAST_LOOP と IP_MULTICAST_TLL の型について
+の条件追加。DragonFly BSD、Cygwin、GNU/Hurd でも int にしています。
