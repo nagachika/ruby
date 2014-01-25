@@ -1,0 +1,5 @@
+Kernel#fork, Process.spawn, IO.popen などで子プロセスを fork する時には pipe を
+使って子プロセスでのエラー情報を親プロセスに転送するのですが、親プロセスで読み
+込み時に割り込みがあって errno=EINTR が返ってきたときの考慮がされてなくてデッド
+ロックする可能性があったのでリトライするように修正しています。 https://
+github.com/ruby/ruby/pull/513
