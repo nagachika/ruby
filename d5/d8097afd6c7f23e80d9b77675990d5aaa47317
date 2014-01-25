@@ -1,0 +1,3 @@
+標準添付ライブラリ test/unit の assert_raise を minitest の assert_raises に丸
+投げしていたのを独自実装にして、メッセージの部分に Proc オブジェクトを受け取っ
+てその戻り値で判定する方法をサポートするようにしています。
