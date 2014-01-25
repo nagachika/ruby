@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils の FileUtils.options_of というメソッドの rdoc 用コ
+メントのサンプルコードの typo を修正しています。 [Bug #9392]
