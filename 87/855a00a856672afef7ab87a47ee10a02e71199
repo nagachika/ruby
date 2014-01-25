@@ -1,0 +1,3 @@
+READM と README.ja を README.md、README.ja.md にリネームしています。 Markdown
+を使うようにしているんですね。このチケット見覚えがあるけど特に反対はなかったん
+ですねー。 [ruby-core:59167] [Bug #9255]
