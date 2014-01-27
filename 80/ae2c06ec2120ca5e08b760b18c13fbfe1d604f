@@ -1,0 +1,5 @@
+実はメーリングリストの操作用のメールアドレスが変化していたそうで、README.md と
+README.ja.md の説明を変更しています。
+これまでは ruby-core-ctl@ruby-lang.org など xxx-ctl@ruby-lang.org のアドレスで
+コマンドを受け付けてましたが xxx-request@ruby-lang.org で受け付けるようになって
+いるそうです。
