@@ -1,0 +1,4 @@
+doc/contributing.rdoc に GitHub にアカウントがないと contribute できない的な感
+じで書かれていたので、別のところにホスティングされた git リポジトリからだって
+OK だよと追記されています。
+normalperson こと Eric Wong さんの初コミットです。 Welcome!
