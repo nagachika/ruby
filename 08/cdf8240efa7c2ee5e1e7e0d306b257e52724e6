@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket で read_nonblock が呼ばれた時
+は wrap している IO の read_nonblock メソッドを呼ぶ時にはオプション引数も引き渡
+すようにしています。
