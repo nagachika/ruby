@@ -1,0 +1,3 @@
+LIKELY()、UNLIKELY()、UNINITIALIZED_VAR()、__has_attribute() などのマクロ定義を
+vm_core.h から internal.h に移動して、string.c の vm_core.h から連なるヘッダ群
+への依存を解消しています。
