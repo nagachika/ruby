@@ -1,0 +1,5 @@
+string.c で共有文字列のフラグに ELTS_SHARED のかわりに STR_SHARED を利用するよ
+うにリファクタリングしています。 STR_SHARED は ELTS_SHARED と同じ値になるように
+internal.h で定義されていますが、ELTS_SHARED は多分配列の共有を表現するために利
+用されているので意味的に STR_SHARED を使ったほうがよい場面で STR_SHARED を使う
+ようにしているのだと思います。
