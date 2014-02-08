@@ -1,0 +1,3 @@
+同じく r44809 で変更した libyaml のソースコードの修正ですが 44816 の変更で型の
+サイズのマクロを利用するようにしたため ruby のヘッダが必要になったため ext/
+psych/yaml/yaml_private.h で RUBY_EXTCONF_H を #include するようにしています。
