@@ -1,0 +1,1 @@
+class.c の rb_obj_methods() を goto 文を使わない書き方にリファクタリング。
