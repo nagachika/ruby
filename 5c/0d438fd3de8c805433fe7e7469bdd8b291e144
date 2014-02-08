@@ -1,0 +1,5 @@
+r44809 の libyaml 更新から連なる修正です。 ext/psych/yaml/config.h に定義されて
+いる PACKAGE_VERSION, PACKAGE_STRING および YAML_VERSION_PATCH,
+YAML_VERSION_STRING というのを更新しています。 0.1.5 のはずなのに 0.1.4 のまま
+だったみたいです。 libyaml のリポジトリには config.h はないので、多分 configure
+などで生成したものを取り込み漏れてたのでしょう。
