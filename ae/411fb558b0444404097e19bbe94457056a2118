@@ -1,0 +1,2 @@
+vsnprintf.c で独自に UNINITIALIZED_VAR() マクロを定義していたのを internal.h で
+定義するようにしたことで不要になったので削除しています。
