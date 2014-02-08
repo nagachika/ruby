@@ -1,0 +1,6 @@
+IO.copy_stream で sendfile(2) を利用する実装は送信先が socket の時だけ有効なよ
+うにチェックされていたのですが、新しい Linux では送信先の file descriptor が
+socket でなくても使えるようになっていて、EINVAL や ENOSYS などで失敗した時は別
+の実装に fallback するので、チェックを削っています。 [ruby-core:59856] [Feature
+#9427] ただこの次で Linux 以外のプラットフォームではチェックを復活させています
+。
