@@ -1,0 +1,2 @@
+標準添付ライブラリ set の Set#intersect? と Set#disjoint? の rdoc コメントにサ
+ンプルコードを追記しています。 [ruby-core:59432] [Bug #9331]
