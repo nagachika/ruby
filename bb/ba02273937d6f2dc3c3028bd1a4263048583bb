@@ -1,0 +1,4 @@
+キーワード引数の取り出しを行うユーティリティ関数 rb_extract_keywords() で第1引
+数の keyword_hash が Qnil の時は 0 (Qfalse) に上書きしておくようにしています。
+この関数内では keyword_hash が存在しない時は 0 を前提としているのですが、
+rb_scan_args() が nil を返した時に nil が渡される可能性があった模様。
