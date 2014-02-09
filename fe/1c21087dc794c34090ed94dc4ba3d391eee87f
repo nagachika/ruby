@@ -1,0 +1,2 @@
+古い VC で strtoll() と strtoull() が使えなかったそうで include/ruby/win32.h に
+_strtoi64/_strtoui64 を使ったマクロ定義を追加しています。
