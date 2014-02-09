@@ -1,0 +1,2 @@
+get_envparam_int() と get_envparam_double() の警告メッセージが間違っていたのを
+修正しています。
