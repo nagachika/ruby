@@ -1,0 +1,3 @@
+拡張ライブラリ ripper の Ripper.tokenize、Ripper.lex の rdoc 用コメントの記法で
+、Array のインスタンスをあらわす時に Array と書いてたところを array と小文字始
+まりにしています。 [ruby-core:60457] [Bug #9483]
