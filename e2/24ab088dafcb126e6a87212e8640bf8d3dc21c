@@ -1,0 +1,3 @@
+FreeBSD 10 で gcc のオプション "-ansi -std=iso9899:199409" のかわりに -std=
+iso9899:1999 を使わないと strtoll(3) が使えなかったそうで configure.in で両方を
+ためすようにしています。
