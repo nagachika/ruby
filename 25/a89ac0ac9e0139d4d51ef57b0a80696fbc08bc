@@ -1,0 +1,3 @@
+標準添付ライブラリ resolv の Resolv::DNS::Message::MessageDecoder で受け取った
+メッセージが途中で途切れてた時に DecodeError 例外を発生させるようにしています。
+[ruby-core:60557] [Bug #9498]
