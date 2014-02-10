@@ -1,0 +1,3 @@
+標準添付ライブラリ resolv で Socket に明示的に CLOEXEC フラグをセットしているの
+をやめています。 Ruby はデフォルトで開いた file descriptor 全てに CLOEXEC フラ
+グをつけようとするので不要になっていました。
