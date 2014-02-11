@@ -1,0 +1,6 @@
+Marshal.load で taint された文字列からロードした Bignum と flonum(即値)じゃない
+Float が tainted になっているのですが、Fixnum, Symbol, flonum などは tainted で
+はないので、これにあわせて tainted でないインスタンスを返すようにしています。
+flonum の導入のあたりで Numeric は全て freeze された状態になるようにされている
+ため taint フラグもつけないようになっていて、Bignum と flonum じゃない Float だ
+け挙動が違っていたようです。 [ruby-core:57346] [Bug #8945]
