@@ -1,0 +1,2 @@
+Enumerable#take の rdoc 用コメントのサンプルコードにサイズより大きな数を引数に
+指定した時の挙動について追加しています。 https://github.com/ruby/ruby/pull/525
