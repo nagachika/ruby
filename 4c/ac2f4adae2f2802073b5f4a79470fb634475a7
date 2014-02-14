@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal で VpSetZero() と VpSetInf() というマクロで未使用の式
+の警告除去のため (void) を付加しています。 gcc 4.9 で警告になるそうです。
