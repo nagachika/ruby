@@ -1,0 +1,5 @@
+Refinements と可視性(public, private)との仕様を修正しています。 private メソッ
+ドを public なメソッドで refine したモジュールを using していた時は public メソ
+ッドとして呼べるようにしています。つまり Refinements は可視性も変更できるように
+しています。逆に refine 内で private なメソッドを定義すると private なメソッド
+に変更することもできるようです。 [ruby-core:60111] [Bug #9452]
