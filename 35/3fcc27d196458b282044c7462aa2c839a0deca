@@ -1,0 +1,2 @@
+configre.in で AC_CHECK_FUNCS() を AC_CHECK_FUNC() を使うように変更しています。
+なんかこれ前も誰かがやってたような…。そして次で revert されています。
