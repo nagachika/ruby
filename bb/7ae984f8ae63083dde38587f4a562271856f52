@@ -1,0 +1,4 @@
+タイマースレッドのネイティブスレッドに名前をつけるのに Mac OS X の時は
+pthread_setname_np() を利用していたのが古い(10.6 以前)だと利用できなかったそう
+で configure で pthread_setname_np() の存在チェックをして利用可能な時だけ使うよ
+うにしています。 [ruby-core:60524] [Bug #9492]
