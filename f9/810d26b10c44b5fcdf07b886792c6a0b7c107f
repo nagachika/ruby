@@ -1,0 +1,2 @@
+r44963の追加として struct RBignum の非公開化で代替として rb_integer_pack() と
+rb_integer_unpack() の API の利用について示唆しています。
