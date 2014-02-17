@@ -1,0 +1,2 @@
+NEWS ファイルに昨日の r44955 で削除した deprecated API と r44957 で struct
+RBignum を非公開にした変更について非互換な変更のセクションに追記しています。
