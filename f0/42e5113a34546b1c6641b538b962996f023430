@@ -1,0 +1,11 @@
+rb_integer_pack() のテストにフラグ MSBYTE_FIRST と LSBYTE_FIRST を指定した時の
+テストケースを追加しています。はて BIGENDIAN と LITTLEENDIAN とどう違うんだっけ
+、と bignum.c のコメントを読むとこうありました。
+- [INTEGER_PACK_MSWORD_FIRST] Store the most significant word as the first word.
+- [INTEGER_PACK_LSWORD_FIRST] Store the least significant word as the first word.
+- [INTEGER_PACK_MSBYTE_FIRST] Store the most significant byte in a word as the first byte in the word.
+- [INTEGER_PACK_LSBYTE_FIRST] Store the least significant byte in a word as the first byte in the word.
+- [INTEGER_PACK_LITTLE_ENDIAN] Same as INTEGER_PACK_LSWORD_FIRST|INTEGER_PACK_LSBYTE_FIRST
+- [INTEGER_PACK_BIG_ENDIAN] Same as INTEGER_PACK_MSWORD_FIRST|INTEGER_PACK_MSBYTE_FIRST
+rb_integer_pack() には wordsize も引数で指定するので、ワードの順番とそのワード
+の中のバイトオーダーも別々に指定できるのでした。
