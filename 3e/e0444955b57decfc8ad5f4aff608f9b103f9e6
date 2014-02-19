@@ -1,0 +1,3 @@
+GC のチューニング用パラメータを変更する環境変数
+RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR が導入されました。世代別 GC の major GC と
+minor GC の頻度を調整するパラメータだそうです。
