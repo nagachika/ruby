@@ -1,0 +1,2 @@
+doc/keywords.rdoc というドキュメントを追加しています。内容は予約語が列挙されて
+いるだけですね。 https://github.com/documenting-ruby/ruby/pull/29
