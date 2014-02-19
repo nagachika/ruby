@@ -1,0 +1,4 @@
+r44994 で marshal_dump() 内でコンパイラ最適化による GC マーク漏れからの保護のた
+めに rb_gc_force_recycle() を使って明示的に解放するようにしたのは callcc で継続
+が保存されていて再入された時に SEGV してしまうのでやはり RB_GC_GUARD() を使った
+保護に再修正しています。 callcc コワイ [ruby-dev:47970] [Bug #9523]
