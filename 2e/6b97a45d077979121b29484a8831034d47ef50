@@ -1,0 +1,4 @@
+glibc の getaddrinfo() の実装に不具合があるらしく、CentOS 6.2 で拡張ライブラリ
+socket の Socket.pack_sockaddr_in で処理が返ってこなくなってしまうことがあるの
+を回避するため、渡されているアドレスが既に名前解決済みだったら getaddrinfo() を
+呼ばないようにする workaround を行っています。 [ruby-core:60801] [Bug #9525]
