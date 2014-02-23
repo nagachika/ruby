@@ -1,0 +1,4 @@
+tool/redmine-backporter.rb というツールを追加しています。ちらっとみたところ
+bugs.ruby-lang.org のチケットを閲覧、検索したり close したり Backport フィール
+ドの操作をしたり、バックポート用コマンドのオプションを生成したりということを行
+うツールのようです。
