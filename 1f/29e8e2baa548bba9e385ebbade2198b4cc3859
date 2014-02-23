@@ -1,0 +1,3 @@
+チケットは Kernel (モジュール)に initialize_copy で Kernel 自身を渡すと SEGV し
+たという報告ですが、全般的に initialize_copy に自分自身が渡された時になにもしな
+いようにするという対応が行なわれています。 [ruby-dev:47989] [Bug #9535]
