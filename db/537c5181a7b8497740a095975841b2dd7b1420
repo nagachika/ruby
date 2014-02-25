@@ -1,0 +1,4 @@
+標準添付ライブラリ resolv で UDPSocket#bind に失敗した時にポートを変えてリトラ
+イする例外に Errno::EPERM を追加しています。 FreeBSD で security.mac
+.portacl.port_high というパラメータ(カーネルモジュールのパラメータのようです)を
+変更している時に発生する可能性があるそうです。 [ruby-core:60917] [Bug #9544]
