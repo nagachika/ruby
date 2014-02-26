@@ -1,0 +1,2 @@
+README.md と README.ja.md のファイル末尾の emacs 用のモード指定を削除しています
+。 rdoc モードのままになってたみたいです。
