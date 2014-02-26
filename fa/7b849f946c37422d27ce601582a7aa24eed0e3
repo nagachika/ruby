@@ -1,0 +1,2 @@
+fiddle, fileutils, io/console のテストの未使用の変数を削除して警告除去していま
+す。
