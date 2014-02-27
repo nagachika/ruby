@@ -1,0 +1,2 @@
+x64-mingw でも非 aligned pack が使えるそうなので PACKED_STRUCT_UNALIGNED を実体
+ありの定義にするようにしています。
