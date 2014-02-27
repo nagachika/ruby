@@ -1,0 +1,3 @@
+r45165 の PACKED_STRUCT_UNALIGNED の定義の判定のために $target_cpu をチェックし
+ているところで i?86 を判定すべきところを x?86 としていた typo を修正しています
+。
