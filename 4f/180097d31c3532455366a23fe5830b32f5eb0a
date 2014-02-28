@@ -1,0 +1,2 @@
+拡張ライブラリ dl と fiddle で NUM2INT() を使っていたところを型にあわせて
+NUM2SIZET() に修正しています。 Coverity Scan で検出したバグとのこと。
