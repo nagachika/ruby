@@ -1,0 +1,3 @@
+setup_exception() で r41598 でメッセージの構築に PRIsVALUE を使って直接 VALUE
+型の変数を渡すようになったために不要になっていた RB_GC_GUARD() を削除しています
+。
