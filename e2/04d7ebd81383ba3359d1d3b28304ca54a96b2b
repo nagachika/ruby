@@ -1,0 +1,7 @@
+setup_exception() で EXEC_TAG() に含まれる setjmp() のために "clobbered by
+'longjmp' or 'vfork'" の警告が出るのを抑制するため rb_obj_as_string() に渡すの
+を mesg 変数(内容は r45180 で e を退避させるようにしているので同じもの)を渡すよ
+うに変更しています。なぜ mesg ならいいのかというのをみてみると、mesg は
+volatile VALUE 型の引数として定義されているんですね。つまりこれ mesg じゃなくて
+このための変数を定義してもいいけどそこに適当な引数があるから使いまわしてるんで
+すね。
