@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb でリスト表示している時に Enter キーで1画面でなく1行
+ごとのスクロールをするように変更しています。
