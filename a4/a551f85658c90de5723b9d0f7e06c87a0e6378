@@ -1,0 +1,3 @@
+r45187 および r45205 の Numeric#step の修正の再修正。from, to, step が全て
+Fixnum だった時に step size を LONG2FIX() で変換していたのをオーバフロー対策と
+して ULONG2NUM() で返すようにしています。
