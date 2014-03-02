@@ -1,0 +1,3 @@
+Numeric#step で引数 by に 0 を指定した時に ZeroDivisionError が発生するなどうま
+く動かなかったので、Float::INFINITY を返し無限ループのような挙動をするように修
+正しています。 [ruby-core:61125] [Bug #9575]
