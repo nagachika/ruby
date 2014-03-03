@@ -1,0 +1,4 @@
+拡張ライブラリ readline で Readline-6.3 を使ってビルドできるように消された
+Function という型のかわりに rl_hook_func_t を利用するように修正しています。
+rl_hook_func_t は Readline-4.2 から存在するのでそれ以降であれば古い Readline で
+もビルドできるそうです。 [ruby-core:61141] [Bug #9578]
