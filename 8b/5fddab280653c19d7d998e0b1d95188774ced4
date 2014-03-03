@@ -1,0 +1,3 @@
+GC のパラメータの環境変数からの取り込みで RUBY_GC_OLDMALLOC_LIMIT を取り込むの
+は RGENGC_ESTIMATE_OLDMALLOC が定義されている時だけという条件でしたが、
+USE_RGENGC が偽の時にコンパイルエラーになっていたので条件を追加しています。
