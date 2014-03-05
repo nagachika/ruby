@@ -1,0 +1,4 @@
+Global Method Cache が無効にしてコンパイルされる時に Global Method Cache への書
+き込みが行なわれていたため OPT_GLOBAL_METHOD_CACHE をチェックして不要な処理は行
+わないようにしています。通常は Global Method Cache は有効なので普段使っている
+Ruby には影響しない部分の修正になります。 [ruby-core:61218]
