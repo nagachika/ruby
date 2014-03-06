@@ -1,0 +1,3 @@
+Makefile.in に .DEFAULT というルールがありましたが不要なので(最初のルール、この
+すぐ上に書かれてる all がデフォルトのルールになる)削除しています。
+参考URL: http://www.gnu.org/software/make/manual/html_node/Last-Resort.html
