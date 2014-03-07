@@ -1,0 +1,4 @@
+Find.find に ignore_error というキーワード引数が追加されたのに対応して拡張ライ
+ブラリ pathname の Pathname#find も ignore_error キーワード引数を受け取るように
+しています。そういえば Find.find もですけど NEWS に追記しておいたほうがいいです
+ね。
