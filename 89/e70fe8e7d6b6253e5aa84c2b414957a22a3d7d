@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で OpenSSL のライブラリのエラーを処理する
+ossl_make_error() で ERR_reason_error_string() でエラー理由のメッセージが取得で
+きなくて NULL だった時の考慮をするようにしています。
