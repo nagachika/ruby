@@ -1,0 +1,3 @@
+doc/syntax/assignment.rdoc で左辺値(left-hand side)と右辺値(right-hand side)の
+説明を間違えていたところを修正しています。 https://github.com/ruby/ruby/pull/
+555
