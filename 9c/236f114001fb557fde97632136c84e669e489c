@@ -1,0 +1,4 @@
+r45282 で修正した vm_call0_body() と check_funcall_exec() のところで(変更内容と
+は直接関係ないと思いますが) RARRAY_PTR() を利用していたところを
+RARRAY_CONST_PTR() を利用することで配列オブジェクトの RGenGC の shady 化を防い
+でいます。 [ruby-core:61360]
