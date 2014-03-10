@@ -1,0 +1,7 @@
+r45284 で ChageLog のみコミットされてた件の修正が改めてコミットされています。
+Enumerable で複数の値を yield でブロックパラメータに渡して呼び出す時に配列にし
+て rb_yield() に渡すのでなくて enum_yield() で argc, argv の引数の形式で渡すか
+、rb_yield_splat() で明示的に配列変換するようにしています。 Enumerable#
+each_with_index などで作った Enumerator のメソッドに lambda 型の Proc オブジェ
+クトをブロック引数として渡した時に ArgumentError になる(lambda は引数の arity
+チェックがあるため)のを修正しています。 [ruby-core:61340] [Bug #9605]
