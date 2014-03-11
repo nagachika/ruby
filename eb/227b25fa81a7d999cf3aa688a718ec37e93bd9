@@ -1,0 +1,2 @@
+variable.c の構造体 struct global_variable のメンバーの順番を入れ替えることでア
+ライメントを調整して 64bit 環境で 8バイト構造体のサイズを節約しています。
