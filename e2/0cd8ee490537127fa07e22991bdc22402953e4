@@ -1,0 +1,3 @@
+テストのユーティリティ envutil.rb の assert_no_memory_leak でメモリリークがない
+か検査する方法に size だけでなく RSS も比較するようにしています。また明示的な
+GC.start の呼び出しも追加するようにしています。
