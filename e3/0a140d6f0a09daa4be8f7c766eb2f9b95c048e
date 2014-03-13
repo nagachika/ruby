@@ -1,0 +1,2 @@
+r45306 の FreeBSD でのメモリマップ出力のために FreeBSD で configure で
+procstat_open_sysctl() の存在チェックを行うようにしています。
