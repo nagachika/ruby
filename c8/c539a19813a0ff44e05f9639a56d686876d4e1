@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.dump で出力先のファイルの FILE 構造体が
+NULL の時にチェックなしで触っていたところがあったのを修正しています。 https://
+github.com/ruby/ruby/pull/562
