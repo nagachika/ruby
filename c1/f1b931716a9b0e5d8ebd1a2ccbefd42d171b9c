@@ -1,0 +1,2 @@
+拡張ライブラリの rdoc 対象ファイルリストの ext/.document に ext/objspace/
+objspace_dump.c を追加しています。
