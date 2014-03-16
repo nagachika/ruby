@@ -1,0 +1,9 @@
+Enumerator に lambda を渡した時に複数の値を yield した時の arity チェックによる
+エラーを回避するため invoke_block_from_c() に splattable という引数を追加して
+yield によるブロック起動時には arity チェックを回避して配列渡しを splat するよ
+うにしています。ただし splat して配列の中身をばらした時にやっぱりブロックパラメ
+ータの数と異なる時は(lambda 型の Proc だったら) ArgumentError を発生させるよう
+にしています。 [ruby-core:61340] [Bug #9605]
+この変更でメソッドにブロックを &blk のようなブロック引数で渡した時の yield に配
+列を渡した時の挙動が微妙に異なっていたのが変化しているんじゃないかなぁと思いま
+す。
