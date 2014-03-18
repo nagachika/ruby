@@ -1,0 +1,2 @@
+標準添付ライブラリ gserver.rb の rdoc 用コメントの typo 修正。
+[ruby-core:60910] [Bug #9543]
