@@ -1,0 +1,2 @@
+標準添付ライブラリ time.rb の Time.parse の rdoc 用コメントの typo 修正。
+[ruby-core:60778] [Bug #9521]
