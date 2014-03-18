@@ -1,0 +1,4 @@
+r45339 で変更した configure.in での Mac OS X の時のコンパイラオプション
+-multiply_definedsuppress と -undefined dynamic_lookup の追加の処理で gcc 以外
+のコンパイラで動くようにオプションとその引数のあいだに空白を入れて渡すようにし
+ています。 [ruby-core:61429] [Bug #9624]
