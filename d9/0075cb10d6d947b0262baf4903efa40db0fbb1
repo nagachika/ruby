@@ -1,0 +1,4 @@
+拡張ライブラリ json の ext/json/parser/parser.c で定数を static const int で宣
+言していたのが未使用の const 変数として警告されるらしく enum を使って宣言するよ
+うにしています。またこのファイルを生成するための prereq.mk でも置換する処理を追
+加しています。うえー、妙な感じですね。
