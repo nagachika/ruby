@@ -1,0 +1,5 @@
+Complex#to_s や Complex#inspect の定義で実数部、虚数部の文字列化に rb_funcall()
+でメソッド呼び出しするのではなくて rb_String() や rb_inspect() を直接呼び出すよ
+うに変更しています。再定義した時にはどうなるのかな。
+また rb_raise() で例外メッセージに PRIsVALUE を使ってオブジェクトを直接埋め込む
+ようにして RB_GC_GUARD() しなくてもすむようにしています。
