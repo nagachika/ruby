@@ -1,0 +1,5 @@
+configure の os_version_style の検出時に Mac OS X では /usr/bin/ruby -v から検
+出するようにしています。どういう影響があるのかよくわかっていませんが Mavericks
+から /usr/bin/ruby -v で表示される OS のバージョン番号のフォーマットが変化して
+いるようで(darwin12.0 から darwin13 になっている)、それにあわせるようにしている
+ようです。
