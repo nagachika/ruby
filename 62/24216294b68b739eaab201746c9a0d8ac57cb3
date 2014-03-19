@@ -1,0 +1,4 @@
+complex.c, rational.c および拡張ライブラリ date の ext/date/date_core.c で未使
+用の関数の除去、ext/utf_16be.c, enc/utf_16le.c の未使用の(利用箇所がコメントア
+ウトされている) const 変数のコメントアウトなどです。 clang 5.1 が警告を出すよう
+になったそうです。
