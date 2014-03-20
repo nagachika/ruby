@@ -1,0 +1,3 @@
+r45353 の ChangeLog エントリの typo 修正。 PARRAY_CONST_PTR() ->
+RARRAY_CONST_PTR() の変更なのですが、diff をじーっとみてもわからず検索してみて
+はじめて気がつきました。よく気がつきましたねぇ。
