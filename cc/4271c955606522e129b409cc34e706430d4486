@@ -1,0 +1,5 @@
+clang でコンパイルしている時に configure に --with-opt-dir を渡していると -I で
+指定したディレクトリのヘッダを #include しない場合に警告がでるためにビルドに失
+敗することがあるのを抑制するために -Qunused-arguments を CFLAGS に追加するよう
+にしています。 [ruby-dev:48062] [Bug #9658] https://github.com/ruby/ruby/pull/
+571
