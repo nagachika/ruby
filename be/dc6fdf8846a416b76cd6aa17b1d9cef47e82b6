@@ -1,0 +1,4 @@
+r45367 の include と継承と alias と super の組み合わせてメソッド探索が無限ルー
+プする現象の修正で Module での alias と include をしてメソッド呼び出し時に SEGV
+するケースがあったので再修正しています。 rb_method_entry の klass が 0 になるケ
+ースがあるのに対応しています。 [ruby-core:61636] [Bug #9663]
