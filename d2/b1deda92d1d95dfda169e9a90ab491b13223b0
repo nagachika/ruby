@@ -1,0 +1,4 @@
+r45383 あたりの rb_bug() での C level backtrace 表示の修正でさらに DWARF の
+line_Base のエントリを char として解釈してしまっていたので signed char として読
+むように明示的に符号つきを指定しています。あれ、char って指定ない時に unsigned
+char になるんでしたっけ? [ruby-dev:48068] [Bug #9654]
