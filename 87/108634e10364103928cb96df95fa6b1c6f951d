@@ -1,0 +1,3 @@
+もうひとつ r45364 で追加されたテストについて assertion の引数が result,
+expected になっていたので expected, result になるように修正しています。 [Bug #
+9652]
