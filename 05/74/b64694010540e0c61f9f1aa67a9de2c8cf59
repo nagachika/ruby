@@ -1,0 +1,3 @@
+parse.y で定義されている構造体 struct parser_params で先頭の int is_ripper メン
+バーを後ろのほうの int 型のメンバが並ぶところに移動してアライメントがうまくとれ
+て 64bit 環境で余分な padding が入らないように調整しています。
