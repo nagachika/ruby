@@ -1,0 +1,6 @@
+r45399 の続きっぽいのですが同様に Array から Hash を作る処理が
+m_core_hash_merge_ptr() にもあったので core_hash_merge() という関数に括り出して
+共有するリファクタリングです。
+また配列にアクセスするのに RARRAY_AREF() で毎回参照するのではなくて
+RARRAY_CONST_PTR() でポインタを渡して C の配列としてアクセスするようにしていま
+す。
