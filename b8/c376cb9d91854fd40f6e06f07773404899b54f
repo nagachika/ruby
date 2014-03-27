@@ -1,0 +1,4 @@
+GNUMakefile の元になる defs/gmake.mk で -O0 が指定されていた時に
+-D_FORTIFY_SOURCE を XCFLAGS から削るようにしているみたいです。 _FORTIFY_SOURCE
+は最適化ありのコンパイルする必要があるそうです。へー。これはバックポート必要で
+しょうか。
