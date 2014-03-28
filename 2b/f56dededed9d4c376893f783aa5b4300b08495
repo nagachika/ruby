@@ -1,0 +1,4 @@
+C level backtrace 取得の関数 fill_lines() で base_addr と saddr の型を intptr_t
+から uintptr_t に変更しています。それから不要になっていた(?) syms 引数を削除し
+ています。あと lines のループを回す順番を反対にしたりしていますがここはよくわか
+らず。
