@@ -1,0 +1,3 @@
+NEWS ファイルに Symbol GC について追記しています。また rb_sym2str() という C
+API の追加についても追記しています。これは SYM2ID() を避けて Symbol から String
+を得るために追加されたようです。
