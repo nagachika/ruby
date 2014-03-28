@@ -1,0 +1,3 @@
+詳細わかりませんが rb_bug() での C level backtrace の表示位置の変更と
+powerpc64-linux のプラットフォームでの C level backtrace 取得時のデバッグメッセ
+ージ追加をしています。CI のデバッグ用だと思います。
