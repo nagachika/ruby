@@ -1,0 +1,4 @@
+C level backtrace を取得する fill_lines() で ELF フォーマットの .debug_line セ
+クション、.symtab セクション、.strtab セクションのアドレスを取得したら ELFヘッ
+ダのスキャンを止めるようにしていたのをやめています。どうせ strtab と symtab が
+最後のセグメントだからあんまり意味がないとのこと。
