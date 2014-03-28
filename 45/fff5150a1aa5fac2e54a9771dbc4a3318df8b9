@@ -1,0 +1,2 @@
+Encoding.compatible? の引数に Symbol も受け付けるように enc_capable() で
+T_SYMBOL の時も真を返すようにしています。
