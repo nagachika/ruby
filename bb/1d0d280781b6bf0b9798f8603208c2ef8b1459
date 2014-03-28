@@ -1,0 +1,4 @@
+r45438 の変更を revert してそのかわり parse.y の rb_str_dynamic_intern() で
+rb_enc_associate() を呼び出して Symbol に Encoding を直接紐づけるようにしていま
+す。参照している fstring 経由で Encoding をもつか、直接 Symbol オブジェクトで(
+インスタンス変数で)持つかという違いですかね。
