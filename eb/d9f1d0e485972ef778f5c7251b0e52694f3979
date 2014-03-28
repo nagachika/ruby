@@ -1,0 +1,3 @@
+lib/rubygem.rb のコメントに書かれていた RubyGems の作者のひとりである Jim
+Weirich の名前のスペルが間違っていたのを修正しています。 https://github.com/
+ruby/ruby/pull/577
