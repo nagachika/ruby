@@ -1,0 +1,2 @@
+C level backtrace の行番号を取得する fill_lines() で traces のエントリをスキッ
+プする条件の間違いを修正しています。
