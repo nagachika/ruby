@@ -1,0 +1,3 @@
+拡張ライブラリ thread の ConditionVarable と Queue は Marshal.dump でダンプでき
+ないように TypeError を発生させる marshal_dump メソッドを定義しています。
+[ruby-core:61677] [Bug #9674]
