@@ -1,0 +1,2 @@
+rb_str_dynamic_intern() で rb_str_symname_type() の第2引数にビットマスクを渡す
+べきところを TRUE を渡していたのを修正しています。
