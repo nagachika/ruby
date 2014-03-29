@@ -1,0 +1,3 @@
+test/ruby/test_m17n_comb.rb で assertion にメッセージを渡すようにしたり
+assert_raise + assert_match のかわりに assert_raise_with_message を利用するよう
+にしたりというテストの改善をしています。
