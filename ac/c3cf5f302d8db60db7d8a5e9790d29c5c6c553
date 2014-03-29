@@ -1,0 +1,4 @@
+C level backtrace 取得の powerpc64-linux 対応の続き。 r45441 の一時的な revert
+して、ELF のセクションを参照するところで shdr[i].sh_type もチェックするようにし
+ています。 .symtab セクションが存在しても内容が空で sh_type が SHT_NOBITS にな
+っている場合があったそうです。 [ruby-dev:48058] [Bug #9654]
