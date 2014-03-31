@@ -1,0 +1,6 @@
+GC のトリガのひとつで malloc で確保したメモリサイズが一定量を越えたら full GC
+するようにする閾値の malloc_limit の更新に不具合があり、malloc_limit の上限値
+malloc_limit_max が効いていなかったのを修正しています。次のブログで指摘されてい
+たとのこと http://www.omniref.com/blog/blog/2014/03/27/
+ruby-garbage-collection-still-not-ready-for-production/ [ruby-dev:48074] [Bug #
+9687]
