@@ -1,0 +1,3 @@
+String#to_sym, #intern の rdoc 用コメントを string.c の rb_str_intern() の前か
+ら rb_str_dynamic_intern() の前へ移動しています。これらのメソッド定義の実体が
+Symbol GC の導入に伴なって変更されたのに対応しています。
