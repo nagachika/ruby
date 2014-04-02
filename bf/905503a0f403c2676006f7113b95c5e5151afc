@@ -1,0 +1,3 @@
+test/ruby/memory_status.rb で fiddle が使えない時にかわりに dl を使う際に
+EnvUtil.suppress_warning を呼んでいたので、その前に test/ruby/envutil.rb を
+require_relative で読み込んでおくようにしています。
