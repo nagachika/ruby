@@ -1,0 +1,4 @@
+SignalException に不正なシグナル名を渡した時の ArgumentError のメッセージに渡さ
+れたシグナル名を埋め込む時に PRIsVALUE を使ってエンコーディングを保持するように
+しています。 SignalException.new で任意のシグナル名を指定することができたんです
+ねー、知らなかった。 SystemException.new に errno を渡すような感じですね。
