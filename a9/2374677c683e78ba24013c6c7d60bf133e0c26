@@ -1,0 +1,6 @@
+GC.stat や GC.latest_gc_info は必要な項目だけ取得するために Symbol で項目名を引
+数に渡せますが、この時不明なキー名が渡された時に SYM2ID() を呼んでいたため
+Symbol が pin down されて GC 対象外になっていたので、rb_sym2str() で dynamic
+Symbol のまま文字列化するようにしています。またメッセージの生成に PRIsVALUE を
+利用することで、一時的に生成した String オブジェクトのバッファのみ利用すること
+による GC の mark 漏れがおきないようにしています。
