@@ -1,0 +1,3 @@
+標準添付ライブラリ csv で header を取得する時に :header_converters オプションで
+header の内容を変更する時に空の要素は処理をスキップして NoMethodError などが発
+生しないようにしています。
