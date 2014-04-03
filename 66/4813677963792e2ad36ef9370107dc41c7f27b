@@ -1,0 +1,4 @@
+拡張ライブラリ readline の extconf.rb で r45240 で古い Readline で
+rl_hook_func_t という型がない時に -D オプションで定義を追加する時に $DEFS とい
+う誤ったグローバル変数を使ってたので $defs に修正しています。 [ruby-core:61756]
+[Bug #9578]
