@@ -1,0 +1,3 @@
+標準添付ライブラリ csv で :header_converters オプションの :symbol でヘッダ要素
+を Symbol に変換する時に前後の空白を除去してから Symbol 化するようにしています
+。 https://github.com/ruby/ruby/pull/575
