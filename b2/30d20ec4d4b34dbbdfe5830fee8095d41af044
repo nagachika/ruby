@@ -1,0 +1,6 @@
+r45503 で configure での検出でも修正したように gcc 4.9 からは __builtin_longjmp
+() の第2引数は 1 固定でないといけないので rb_threadptr_tag_jump() で利用してい
+るところでも値は rb_thread_t::state へ格納して ruby_longjmp() には 1 を渡すよう
+に修正しています。マジか。まあ生のまま ruby_setjmp() 使っているところはあまりな
+くてだいたい TH_EXEC_TAG() 経由なので値はちゃんと th->state から取り出している
+のであまり影響なさそうでした。 [ruby-core:61800] [Bug #9692]
