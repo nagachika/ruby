@@ -1,0 +1,2 @@
+make help で表示される DeveloperHowto へのリンクを最新版の有効な URL に変更して
+います。 [ruby-core:60657] [Bug #9511]
