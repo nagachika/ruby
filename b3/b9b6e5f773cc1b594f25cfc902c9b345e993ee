@@ -1,0 +1,2 @@
+doc/syntax/assignment.rdoc の <code> タグが閉じられてなかったのを修正しています
+。 https://github.com/ruby/ruby/pull/574
