@@ -1,0 +1,6 @@
+configure.in の __builtin_setjmp()/__builtin_longjmp() の検出で r45509 の変更で
+AC_TRY_LINK の成功時の中に break を入れてたのを、あらかじめ
+ac_cv_func___builtin_setjmp=no をセットしておいて yes に更新されてたら break す
+るように書き換えています。あの位置で break すると RUBY_WERROR_FLAG() によるオプ
+ションの復旧もスキップされてしまっていたとのこと。 Solaris でビルドエラーになっ
+ていたそうです。 [ruby-dev:48086] [Bug #9698]
