@@ -1,0 +1,4 @@
+gcc 4.7 と 4.8 での未初期化変数の警告を抑制するための VAR_FROM_MEMORY() と
+VAR_INITIALIZED() マクロを追加して cont.c、eval_jump.c、proc.c、vm_eval.c など
+で利用しています。またローカル変数の定義を EXEC_TAG() の後のブロックに移動する
+変更など。
