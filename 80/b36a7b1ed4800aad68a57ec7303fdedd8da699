@@ -1,0 +1,1 @@
+configure.in の __builtin_setjmp() の検出のところのインデント修正のみ。
