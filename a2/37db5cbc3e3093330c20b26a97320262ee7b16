@@ -1,0 +1,5 @@
+r45521 で公開関数にした rb_w32_mbstr_to_wstr() を利用して dln.c の dln_load()
+で Windows 環境の時に拡張ライブラリのファイルパスを WCHAR* 型で扱い LoadLibrary
+() のかわりに LoadLibraryW() を利用するようにしています。 Windows 環境で拡張ラ
+イブラリのファイルパスに非ASCII文字が含まれているときにロードできない不具合を修
+正しているそうです。 [ruby-core:61845] [Bug #9699]
