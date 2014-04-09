@@ -1,0 +1,4 @@
+標準添付ライブラリ xmlrpc の XMLRPC::Client#do_rpc でレスポンスのサイズが
+Content-Length ヘッダの値と異なっている時に例外を発生させるのをやめています。
+HTTP の Content-Encoding が利用されている時には一致しない可能性があるので、動作
+しなくなってしまうことがあったそうです。 [ruby-core:53811] [Bug #8182]
