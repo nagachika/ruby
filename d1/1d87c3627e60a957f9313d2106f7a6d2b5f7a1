@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix に Matrix.cofactor というメソッドを追加して指定した
+row と col を除いた余行列の行列式に -1**(row+col) を掛けた余因子(cofactor)を返
+すようにしています。 NEWS ファイルにも追記されています。 https://github.com/
+ruby/ruby/pull/568
