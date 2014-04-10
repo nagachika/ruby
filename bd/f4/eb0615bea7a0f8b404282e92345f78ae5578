@@ -1,0 +1,7 @@
+RGenGC の 3世代バージョンを有効にするマクロ名を RGENGC_THREEGEN から
+RGENGC_AGE2_PROMOTION に改名しています。また 3世代バージョンの時に remember set
+からマークされるオブジェクトが infant (まだ GC を経験していない最も若い世代のオ
+ブジェクト)の時に young に promote せずに remember set に入れたままにしておくよ
+うにしています。コメントによると remember set に入っているオブジェクトは old に
+なるべきだから、と書いてありますがどういうことかよくわかりません。ここで
+promote しないと他からの参照がないと infant のままなのでは?
