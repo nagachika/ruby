@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf の MakeMakefile#dir_config の rdoc コメントに call-seq
+を追加して idefault, ldefault 引数を渡す呼び方についての説明を追記しています。
