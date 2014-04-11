@@ -1,0 +1,3 @@
+process.c で USE_GETPWNAM_R が未定義の時も OBJ2UID1() と OBJ2GID1() いうマクロ
+を定義するようにしています。内容は OBJ2UID() や OBJ2GID() と同じものなのですが
+Android 版のビルド時にエラーになってしまっていたのを修正しているそうです。
