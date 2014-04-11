@@ -1,0 +1,3 @@
+configure で x64-mingw では __builtin_setjmp()/__builtin_longjmp() を無効にして
+います。 callcc のまわりで SEGV が発生するとのこと。 [ruby-core:61887] [Bug #
+9710]
