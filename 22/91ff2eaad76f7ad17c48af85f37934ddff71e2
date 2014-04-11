@@ -1,0 +1,3 @@
+拡張ライブラリ openssl に OpenSSL::OPENSSL_LIBRARY_VERSION という定数を導入して
+います。 SSLeay_version(SSLEAY_VERSION) でランタイムに取得できるバージョンを返
+します。
