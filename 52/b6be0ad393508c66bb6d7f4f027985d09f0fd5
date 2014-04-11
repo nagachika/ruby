@@ -1,0 +1,3 @@
+test/ruby/test_gc.rb の test_sweep_in_finalizer のタイムアウト時間を 30秒から60
+秒にのばしています。 RGENGC_CHECK_MODE を 2以上にすると時間がかかってこのテスト
+がエラーになることがあるからとのこと。
