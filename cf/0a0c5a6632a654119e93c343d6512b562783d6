@@ -1,0 +1,5 @@
+Windows の拡張ライブラリロードのテスト用のスクリプト test/-ext-/win32/
+test_dln.rb で File クラスを使っているところが、実は test/-ext-/file/
+test_stat.rb に Bug::File クラスが定義されているせいでそちらを参照してしまって
+いたので ::File とトップレベルの定数を明示的にアクセスするように修正しています
+。
