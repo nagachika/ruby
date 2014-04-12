@@ -1,0 +1,7 @@
+rb_ary_modify() で shared array を参照している配列が RGenGC の old に promote
+した時に shared array が young だったら参照している remember set に追加して
+shared array が Minor GC でマークされるようにしています。 Queue に push/pop を
+繰り返しているとマーク漏れで SEGV することがあったようです。チケットをみると
+Queue に lambda を push/pop して実行したりしていますけど、修正内容からすると多
+分 Array の出し入れあたりが問題で lambda と Queue は直接は関係ないのだろうと思
+います。 [ruby-core:61919] [Bug #9718]
