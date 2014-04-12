@@ -1,0 +1,5 @@
+r45517 で Linux の時に signal.c の check_stack_overflow() の引数に sigaction(3)
+のコールバックで受け取れる ucontext_t* の引数を追加してそのスタックポインタの値
+で判定するようにしましたが、Android 版のビルド時に ucontext_t 型が利用できない
+のにこちらの定義を利用しようとしてしまってビルドできなかったそうで、defined
+(HAVE_UCONTEXT_H) を条件に追加しています。
