@@ -1,0 +1,4 @@
+addr2line.c で C level backtrace 取得のため読みとったデバッグ情報を管理するリス
+トのエントリの確保を malloc(3) でなく calloc(3) で確保してメモリ内容をクリアし
+て使うようにしています。また rb_dump_backtrace_with_lines() でベースアドレスの
+配列 base_addrs のメモリ領域を解放し忘れていたのを修正しています。
