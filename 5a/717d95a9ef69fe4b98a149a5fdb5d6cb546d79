@@ -1,0 +1,4 @@
+r45553 の Array の実装での shared array の remember set 追加のテストを Timeout
+を利用せずに決まった回数ループをまわすように変更したり、GC
+.verify_internal_consistency の出力を削るようにしています。 r45557 で導入された
+invoke_ruby の stdout_filter キーワード引数を早速利用しています。
