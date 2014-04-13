@@ -1,0 +1,9 @@
+2つの Module A, B で同名のメソッドを定義して B のほうでは super を呼んでいて、
+しかも B で Module#instance_method で UnboundMethod として取り出した上で同名の
+メソッドを再定義してその中で UnboundMethod を再度 bind して呼び出す、なんていう
+なんでそんなことがしたいのか理解に苦しむコードで super が TypeError を発生させ
+ていたのを修正しています。 UnboundMethod を bind して呼ぶとメソッド探索時に定義
+クラスを IClass にして、その時も super を呼べるようにしています。
+[ruby-core:61936] [Bug #9721]
+r45564 はこの修正に絡んで例外メッセージにクラス名を埋め込んでいるところをみつけ
+たんでしょうね。
