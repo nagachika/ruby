@@ -1,0 +1,3 @@
+make test-all のユーティリティ test/ruby/envutil.rb で invoke_ruby のキーワード
+引数に stdout_filter, stderr_filter を追加して call メソッドで標準出力/標準エラ
+ー出力を加工できるようにしています。
