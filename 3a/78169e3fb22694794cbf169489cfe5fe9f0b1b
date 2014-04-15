@@ -1,0 +1,3 @@
+拡張ライブラリ psych の rdoc コメントの libyaml の upstream の参照 URL を
+GitHub のものから Bitbucket のものに変更しています。 https://github.com/ruby/
+ruby/pull/593
