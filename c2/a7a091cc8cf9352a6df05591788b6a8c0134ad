@@ -1,0 +1,3 @@
+rb_obj_is_kind_of() からあるクラスの継承ツリー上に指定のクラスを検索する処理を
+rb_class_search_ancestor() として切り出して、rb_class_inherited_p() でもこれを
+利用するようにしています。次の r45585 とも関係しているかも。
