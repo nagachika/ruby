@@ -1,0 +1,4 @@
+UnboundMethod#bind で既に必要な IClass が存在していたら挿入しないようにしていま
+す。 UnboundMethod#bind した Method を call したメソッド中の super の呼び出しが
+失敗するのを修正した r45565 で今度はメソッド探索で無限ループに陥る不具合があっ
+たそうで、その修正になります。 [ruby-core:62014] [Bug #9721]
