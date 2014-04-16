@@ -1,0 +1,5 @@
+addr2line.c の C level backtrace 取得で fill_lines() がベースアドレスを返すよう
+にして r45563 で導入した dladdr_fbases に格納するようにしています。 PIE でなか
+った時にこれまで呼び元で traces のアドレスを元に dladdr(3) を呼んでいたのを
+fill_lines() の中で .dynsym/.dynstr のセクションの情報を元に dladdr(3) を呼んで
+いるのでその結果を返して使いまわすようにしたということかなと思います。
