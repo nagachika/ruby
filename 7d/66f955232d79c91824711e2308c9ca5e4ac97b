@@ -1,0 +1,2 @@
+おそらく r45592 の変更で win32/win32.c で使っている NtCmdLineElement という構造
+体の len メンバの型がが合わなくなったので int -> long に変更しています。
