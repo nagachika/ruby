@@ -1,0 +1,2 @@
+FileUtils.cp の rdoc 用コメントの :preserve オプションについての記述を修正して
+います。 [ruby-core:62065] [Bug #9748]
