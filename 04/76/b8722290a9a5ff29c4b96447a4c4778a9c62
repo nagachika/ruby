@@ -1,0 +1,5 @@
+prelude.rb というインタプリタ起動時に実行される Ruby スクリプトがインタプリタ自
+体に埋め込まれているのですが、その中のコメントの Thread.exclusive のコメントを
+修正しています。1.9 からはもうなくなった Thread.critical をベースにした記述にな
+っているので、Mutex ベースの実装にあわせて記述を修正しています。 https://
+github.com/ruby/ruby/pull/589
