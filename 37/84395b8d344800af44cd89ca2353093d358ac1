@@ -1,0 +1,4 @@
+r45606 からの流れっぽいですが rb_str_cat() と rb_str_cat() がそれぞれ
+rb_str_buf_cat() と rb_str_buf_cat2() を呼ぶだけのただのラッパだったのを
+RUBY_ALIAS_FUNCTION() というマクロを使って定義するようにしています。 r40998 で
+導入されたマクロで gcc 拡張機能を利用するもののようですね。
