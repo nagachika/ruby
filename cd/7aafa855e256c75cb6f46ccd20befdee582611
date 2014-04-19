@@ -1,0 +1,4 @@
+template/opt_sc.inc.tmpl, template/optinsn.inc.tmpl, template/optunifs.inc.tmpl
+などの VM 用のファイルを生成するためのテンプレートのコメントに書かれている生成
+ツール insns2vm.rb のファイルパスを修正しています。 https://github.com/ruby/
+ruby/pull/595
