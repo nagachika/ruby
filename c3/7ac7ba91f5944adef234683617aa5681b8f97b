@@ -1,0 +1,3 @@
+文字列の文字数をカウントする str_strlen() で一度 rb_enc_strlen_cr() で
+coderange がわかったら struct RBasic::flags にセットして次回からはそれを利用し
+て直接 enc_strlen() を呼んで高速化するようにしています。
