@@ -1,0 +1,4 @@
+rb_big2ulong()、rb_num2ulong() や rb_big2long()、rb_num2long() がそれぞれ VALUE
+や SIGNED_VALUE 型を返すように宣言されていたのを long/unsigned long を返すよう
+に宣言を変更しています。なんか当初は理由があったんだったような気もしますけど、
+xxx2long() が long を返してなかったというのはトラップですよね。
