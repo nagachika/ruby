@@ -1,0 +1,3 @@
+文字列を連結する str_buf_cat() で rb_str_modify() を呼んでいたところを
+coderange を保持するように str_modify_keep_cr() の呼び出しに変更しています。け
+ど文字列追加したら coderange の再検索必要になるような気がしますけど…
