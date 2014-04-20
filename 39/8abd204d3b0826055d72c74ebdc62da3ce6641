@@ -1,0 +1,2 @@
+NEWS、README.EXT などで NULL-terminated -> NUL-terminated と typo 修正していま
+す。
