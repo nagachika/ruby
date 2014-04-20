@@ -1,0 +1,4 @@
+拡張ライブラリ zlib の zstream_shift_buffer() でバッファに使っている文字列オブ
+ジェクトから rb_str_subseq() と rb_obj_reveal() を使って無理矢理内部的オブジェ
+クトのコピーを作っていたのを rb_str_new() で単にバッファからコピーを作るように
+修正しています。
