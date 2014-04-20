@@ -1,0 +1,3 @@
+time.c の month_arg()、time_strftime() などで RSTRING_PTR() が NUL-terminated
+であることを前提とした部分があったので RSTRING_LEN() を考慮した処理に修正してい
+ます。
