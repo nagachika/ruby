@@ -1,0 +1,3 @@
+str_strlen() の第2引数に NULL を渡したら第1引数の文字列のエンコーディングを利用
+するようにして、明示的に str_strlen(str, STR_ENC_GET(str)); のように渡していた
+ところを NULL 渡しに変更しています。
