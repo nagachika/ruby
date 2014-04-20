@@ -1,0 +1,4 @@
+rb_str_modify_expand() で ENC_CODERANGE_CLEAR() で flags に記憶している
+coderange をクリアしているのを ENC_CODERANGE_BROKEN の時だけにしています。こっ
+ちは文字列の内容は(まだ)変更していないのでいいのでしょうけど、今までここでクリ
+アしてたから追記時にクリアしてない箇所があったりしそう…。
