@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で文字列オブジェクトから NUL-terminated な C の文字列を
+取り出すべく StringValueCStr() を呼び出すようにしています。そういえば
+RSTRING_PTR() って NUL-terminated という保証はないんでしたっけ(実際にはされてた
+と思いますが)。
