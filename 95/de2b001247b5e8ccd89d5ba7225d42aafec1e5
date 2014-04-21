@@ -1,0 +1,2 @@
+struct RBignum の len メンバの型を long から size_t に変更して、関数定義等もそ
+れに追随させています。
