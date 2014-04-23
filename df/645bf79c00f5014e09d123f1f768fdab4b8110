@@ -1,0 +1,5 @@
+string.c の coderange_scan() で ASCII_8BIT の encindex を 0 固定で判定していた
+のを rb_ascii8bit_encindex() で判定するようにしています。また
+rb_str_coderange_scan_restartable() でエンコーディングが ASCII_8BIT の時の
+coderange のスキャンで既に ENC_CODERANGE_VALID が返されてた時(非ASCII文字を検出
+していた時)はすぐ末尾までスキップするようにしています。
