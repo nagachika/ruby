@@ -1,0 +1,5 @@
+string.c の rb_str_update() と rb_str_splice() が同じ実装だったのを wrapper 関
+数として定義していたのを関数マクロとして別名定義するようにしています。これは
+RUBY_ALIAS_FUNCTION() は使わないんですかね。
+[追記] static 関数なので RUBY_ALIAS_FUNCTION() を使わなかったとのことでした。[/
+追記]
