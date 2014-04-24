@@ -1,0 +1,2 @@
+.travis.yml で make test-all の TESTS 変数で渡すオプションに -q と -j2 を追加し
+ています。
