@@ -1,0 +1,4 @@
+struct statfs の f_fsid の値は File::Statfs には見せないように変更(削除)してい
+ます。 f_fsid が環境によって型が違っていて値が取れても利用しにくいのでとりあえ
+ずこのままでは意味がなさそう、ということのようです。参考URL: http://
+togetter.com/li/658517
