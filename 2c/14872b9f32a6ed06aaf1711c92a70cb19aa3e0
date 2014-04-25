@@ -1,0 +1,5 @@
+これも r45670 とそれを revert した r45674 の続きで拡張ライブラリ stringio で、
+追記する文字列のエンコーディングが ASCII_8BIT の時はこれまで通り
+rb_enc_str_buf_cat() で追加してから OBJ_INJECT() で書き込む文字列の汚染フラグを
+伝播させるようにして、それ以外は rb_str_buf_append() を利用するようにしています
+。 [ruby-dev:48118] [Bug #9769]
