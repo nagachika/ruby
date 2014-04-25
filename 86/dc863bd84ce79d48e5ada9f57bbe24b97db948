@@ -1,0 +1,3 @@
+r45661 で追加の IO#statfs の Windows 対応の実装を追加しています。
+GetVolumePathNameW()/GetVolumeInformationW()/GetDiskFreeSpaceW() などの API を
+利用してエミュレーションしています。filesystem type は 0 固定になっています。
