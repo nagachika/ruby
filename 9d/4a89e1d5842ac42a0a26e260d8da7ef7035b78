@@ -1,0 +1,2 @@
+.travis.yml で実行前に `uname -a` と `cat /proc/version_signature` を実行して実
+行環境の情報を表示するようにしています。
