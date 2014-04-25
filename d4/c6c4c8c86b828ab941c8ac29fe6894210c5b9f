@@ -1,0 +1,4 @@
+r45666 で File#seek の SEEK_DATA を使えるファイルシステムかどうかチェックすると
+ころで ext3 と ext4 は File::Statfs#type では区別がつかないそうで、 mtime/atime
+/ctime の精度で ext4 以上を検出するようにしています(ext3 までは精度が秒までなの
+で nsec が 0 のはず。たまたま ext4 でも 0 にならないとも限らないですが)。
