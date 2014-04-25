@@ -1,0 +1,3 @@
+Travis-CI での make test-all で lib/test/unit.rb の minitest.gem のバージョン指
+定がエラーになるのを回避するために gem "minitest", "< 5.0.0" で発生した Gem
+::LoadError を rescue して無視するようにしています。
