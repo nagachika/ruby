@@ -1,0 +1,3 @@
+同じく r45661 で導入した IO#statfs も fstatfs(2) がない環境では
+NotImplementedError を発生させるようにしています。またテストもスキップするよう
+にしています。
