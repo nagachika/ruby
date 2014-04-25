@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の LCID や EXCEPINFO.scode の文字列化する時のフォーマッ
+トの指定を修正しています。
