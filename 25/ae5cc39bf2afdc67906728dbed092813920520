@@ -1,0 +1,2 @@
+同じく r45695 で追加された File::Statfs#inspect のテストで assert_match のメソ
+ッド呼び出しをかっこ就きにして警告除去。
