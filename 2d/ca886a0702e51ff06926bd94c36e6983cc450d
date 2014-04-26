@@ -1,0 +1,4 @@
+r45492 の rb_str_dynamic_intern() の修正と同様に SymbolGC の導入時に LazySweep
+で mark されなかったけどまだ sweep されていない Symbol を見てしまうことを考慮し
+て dsym_node_gen() でも rb_gc_resurrect() でみつけた Symbol を復活させるように
+しています。
