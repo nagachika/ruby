@@ -1,0 +1,3 @@
+r45492 で mark されなくて sweep 前の Symbol を使ってしまうのと rb_gc_resurrect
+() を呼ぶ修正の条件分岐を !STATIC_SYM_P(sym) でなくて ID_DYNAMIC_SYM_P(id) を使
+うようにしています。少し効率的にしているそうです。
