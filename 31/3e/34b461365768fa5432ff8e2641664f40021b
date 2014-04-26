@@ -1,0 +1,2 @@
+r45492、r45693、r45698 の Symbol GC と LazySweep の組み合わせで sweep 予定の
+Symbol を復活させる修正についてのテストを追加しています。
