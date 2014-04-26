@@ -1,0 +1,3 @@
+r45693 の dsym_node_gen() での rb_gc_resurrect() は revert して
+rb_pin_dynamic_symbol() で Symbol を pin down する時に復活させるように移動して
+います。
