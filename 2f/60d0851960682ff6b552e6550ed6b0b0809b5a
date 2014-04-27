@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の webrick/utils.rb でも require "etc" の LoadError
+を捕捉して Etc が未定義の時を考慮ていたのをやめています。 r45692 で etc が常に
+ビルドされるようになったため。
