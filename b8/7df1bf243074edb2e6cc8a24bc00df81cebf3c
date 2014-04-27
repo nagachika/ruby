@@ -1,0 +1,3 @@
+configure での pthread_setname_np() の検出で NetBSD では第3引数まであるそうで検
+出するために生成する呼び出しの引数の候補を追加しています。 [ruby-core:61200]
+[Bug #9586]
