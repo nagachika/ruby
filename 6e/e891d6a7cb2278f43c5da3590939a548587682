@@ -1,0 +1,3 @@
+gc.c の objspace_xrealloc() および objspace_xfree() で CALC_EXACT_MALLOC_SIZE
+が真に定義されていたときのコードで変数名を typo していたのを修正しています。普
+段はコンパイルされない部分のようですね。
