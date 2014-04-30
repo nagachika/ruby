@@ -1,0 +1,3 @@
+struct statfs の f_type というメンバも存在チェックを configure でして、存在する
+時だけ File::Statfs#type が呼べるようにしています。 OpenBSD 対応のためだそうで
+す。つまり OpenBSD では struct statfs::f_type は存在しないみたいですね。
