@@ -1,0 +1,5 @@
+File::Statfs で利用できるメソッドを決めるための構造体メンバの存在チェックを
+struct statfs と struct statvfs で別々に結果を利用していたのを statfs_t のよう
+にどちらの型を利用するかであらかじめ HAVE_STRUCT_STATFS_T_F_FSTYPENAME/
+HAVE_STRUCT_STATFS_T_F_TYPE といった定数を定義しておいてこれを参照するようにし
+ています。その他 File::Statfs 関連の条件コンパイルの条件を修正しています。
