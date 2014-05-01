@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils で require "etc" に失敗した時に fu_get_uid,
+fu_get_gid を別途定義していましたが、拡張ライブラリ etc は常にビルドされるよう
+になったので rescue 節ごと削除しています。
