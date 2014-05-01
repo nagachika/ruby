@@ -1,0 +1,1 @@
+test/ruby/test_symbol.rb の Symbol GC 用のテストメソッド名の typo 修正。
