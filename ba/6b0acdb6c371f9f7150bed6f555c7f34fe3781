@@ -1,0 +1,4 @@
+Module#define_method にブロックや Proc オブジェクトを渡して定義されたメソッド
+(BMETHOD)から抜ける時に TracePoint や set_trace_func で設定したフックの return
+イベントが呼び出されていない不具合を修正しています。 [ruby-core:62096] [Bug #
+9759]
