@@ -1,0 +1,3 @@
+parse.y の rb_id_attrset() で NameError 例外を発生させる時のメッセージに埋め込
+むシンボル名を作る時に %PRIsVALUE を利用して VALUE 値のまま埋め込むようにしてい
+ます。
