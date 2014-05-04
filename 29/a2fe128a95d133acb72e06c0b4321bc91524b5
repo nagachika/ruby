@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf.rb で生成する Makefile の pre-install-rb ルールでインス
+トールするファイルがない時に "installing ... libraries" というメッセージを表示
+しないように NULLCMD(":" など)に置き換えています。
