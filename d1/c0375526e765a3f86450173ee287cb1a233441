@@ -1,0 +1,5 @@
+File#seek の SEEK_DATA のテストでエラーメッセージに埋め込む File::Statfs#type
+の呼び出しを Proc オブジェクトで包んで評価を遅延させるようにしています。 seek
+自体には成功するのに File::Statfs#type が存在しない環境でエラーになるのを避ける
+ためとのこと。具体的には Solaris でエラーになっていたようです。
+[ruby-dev:48154] [Bug #9789]
