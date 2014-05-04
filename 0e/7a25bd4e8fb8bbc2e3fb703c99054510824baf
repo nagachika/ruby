@@ -1,0 +1,4 @@
+r45771 で must_be_dynamic_symbol() に渡されたのが static symbol だったら
+TypeError 例外を発生させるようにしていましたが、rb_bug() で強制終了するように変
+更しています。またそもそも Symbol じゃないオブジェクトが渡された時も rb_bug()
+で止めるようにしています。やっぱり assert 相当のバグ検出用だったみたいです。
