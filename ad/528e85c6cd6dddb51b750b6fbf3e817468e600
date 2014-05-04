@@ -1,0 +1,3 @@
+parse.y の must_be_dynamic_symbol() で渡されたのが static symbol だったら
+TypeError を発生させて Symbol 名をエラーメッセージに含めるようにしています。デ
+バッグ用っぽいですね。
