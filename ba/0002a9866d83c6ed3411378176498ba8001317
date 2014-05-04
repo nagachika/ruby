@@ -1,0 +1,2 @@
+標準添付ライブラリ rinda の Rinda::TupleEntry#renew の rdoc 用コメントの引数の
+説明を修正しています。 [ruby-core:62003] [Bug #9738]
