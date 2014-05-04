@@ -1,0 +1,5 @@
+r45782 の xxx= の Symbol の修正の続きで rb_id_attrset() を呼ぶ前に ID に
+ID_STATIC_SYM フラグを追加していたのを消しています。rb_intern3() で dynamic
+symbol が返ってくることもありえるのでここで static とマークする必要はないとのこ
+と。ここでフラグ立ててたので rb_id_attrset() で dynamic symbol 用の処理を通らな
+くなっておかしくなってたんですねきっと。 [ruby-core:62226] [Bug #9787]
