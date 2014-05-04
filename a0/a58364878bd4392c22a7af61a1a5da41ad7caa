@@ -1,0 +1,2 @@
+file.c の IO#statfs の #ifdef や #define などのプリプロセッサの directive をネ
+ストに応じてインデントさせるようにしています。
