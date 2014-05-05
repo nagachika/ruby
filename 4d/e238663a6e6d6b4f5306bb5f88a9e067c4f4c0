@@ -1,0 +1,3 @@
+標準添付ライブラリ time.rb の Time.strptime で %s (seconds) が指定されていない
+時にも %z(offset) を解釈して localtime を呼び出すようにしています。
+[ruby-core:62286] [Bug #9794]
