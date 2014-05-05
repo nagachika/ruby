@@ -1,0 +1,2 @@
+math.c の Math.log の実装 math_log() に self を渡す引数が抜けていたので追加して
+います。
