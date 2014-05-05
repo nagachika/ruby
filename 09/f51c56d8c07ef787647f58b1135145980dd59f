@@ -1,0 +1,3 @@
+Solaris, AIX, HP-UX で File::Statfs の fstypename として struct statvfs の
+f_basetype というメンバが利用できるので f_fstypename のかわりにそちらを参照する
+ようにしています。
