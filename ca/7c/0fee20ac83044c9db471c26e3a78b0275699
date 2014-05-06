@@ -1,0 +1,4 @@
+NEWS ファイルに r45796、r45798、r45800、r45802 などの Time.strptime や
+Time.rfc2822、Time.xmlschema がシステムのローカルタイム以外のタイムゾーンも正し
+く解釈して変換した Time オブジェクトを返すことや Time.httpdate が常に UTC を返
+すようになったことを追記しています。
