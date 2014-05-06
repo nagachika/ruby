@@ -1,0 +1,4 @@
+標準添付ライブラリ time.rb に頻出してた zone が UTC でない時に Time#localtime
+でタイムゾーンを設定する処理を Time.force_zone! というメソッドに抽出しています
+。また標準添付ライブラリ rss で定義している Time.w3cdtf でも Time.force_zone!
+を利用するようにリファクタリングしています。
