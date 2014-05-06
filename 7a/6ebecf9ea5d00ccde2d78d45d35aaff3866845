@@ -1,0 +1,4 @@
+Math.atan2 の2つの引数にとどちらも Float::INFINITY を渡した時に
+Math::DomainError 例外を発生させていたのを値(Math::PI / 4.0)を返すように変更し
+ています。 C の atan(3) の C99 での挙動にあわせるようにしているそうです。
+[ruby-core:62310] [Feature #9799]
