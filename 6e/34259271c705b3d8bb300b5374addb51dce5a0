@@ -1,0 +1,4 @@
+test/ruby/test_math.rb で check というメソッド名で定義されていた独自の
+assertion 用メソッドを assert_float と改名して、check は alias として定義してい
+ます。バックトレースからの除外が効くようにするため assert_xxx という名称にする
+必要があるそうです。
