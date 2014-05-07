@@ -1,0 +1,2 @@
+rb_math_sqrt() が未使用になっていたので export するのをやめて internal.h の宣言
+もコメントアウトしています。
