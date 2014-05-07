@@ -1,0 +1,5 @@
+拡張ライブラリ pathname の Pathname#/ を Pathname#+ の alias として定義していま
+す。おおーこれで dir/file みたいなのが(dir が Pathname の場合)連結になるわけで
+すね。個人的には使わないと思うけど、互換性への影響もほとんどないでしょうし、あ
+って悪くはない機能ですね。 NEWS ファイルにも追記されています。
+[ruby-core:61432] [Feature #9625]
