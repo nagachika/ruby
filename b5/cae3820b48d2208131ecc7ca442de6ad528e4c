@@ -1,0 +1,4 @@
+r45845 の続きみたいです。parse.y の shadowing_lvar_gen() を shadowing_lvar_0()
+と改名し、変数名ではなく重複の有無を返すようにしてブロックのダイナミック変数に
+よる shadowing の時も local_variables で余分な Symbol が含まれないようにしてい
+ます。 [ruby-core:60501] [Bug #9486]
