@@ -1,0 +1,2 @@
+parse.y の arg_var_gen() と local_var_gen() の戻り値が利用されていなかったので
+、そもそも戻り値を返さないように void 型に変更しています。
