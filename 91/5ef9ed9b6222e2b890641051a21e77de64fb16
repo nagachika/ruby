@@ -1,0 +1,4 @@
+標準添付ライブラリ time.rb の Time.parse や Time.strptime で Date._strptime の
+結果必要な情報がないのをチェックしていたのを Time.make_time に移動しています。
+r45823 で追加したチェックが重複していたので一箇所にまとめるリファクタリングとい
+う感じです。
