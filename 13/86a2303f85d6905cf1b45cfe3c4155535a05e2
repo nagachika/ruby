@@ -1,0 +1,2 @@
+openssl のテスト test/openssl/test_pair.rb で TCPSocket の両端を作成する処理を
+test_connect_accept_nonblock から tcp_pair というメソッドに抽出しています。
