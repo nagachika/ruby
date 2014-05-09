@@ -1,0 +1,2 @@
+numeric.c の Numeric#step のキーワード引数等の解釈のための関数マクロ
+NUM_STEP_SCAN_ARGS() を static 関数 num_step_scan_args() に変更しています。
