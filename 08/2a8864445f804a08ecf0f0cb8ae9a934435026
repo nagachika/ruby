@@ -1,0 +1,3 @@
+というわけで r45856 で static を外した rb_hash_keys() を local_variables の中間
+データの Hash の keys を取得するために直接呼ぶように変更しています。また中間デ
+ータの Hash の klass をクリアして Ruby スクリプトから見えないようにしています。
