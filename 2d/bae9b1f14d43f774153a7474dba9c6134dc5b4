@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLServer#accept で @svr の accept を呼
+ぶ時に TCPServer なら TCPSocket が戻り値なのですが、Socket#accept は [socket,
+addrinfo] と配列で返すのでどちらでも socket のみ受け取るように修正しています。
+Addrinfo#connect や Addrinfo#listen で Socket オブジェクトを作ってそれを
+OpenSSL::SSL::SSLServer に渡すような使いかたもできるようにしています。
+[ruby-core:62064] [Bug #9750]
