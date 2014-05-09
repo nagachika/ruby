@@ -1,0 +1,2 @@
+local_variables の中間データに使う Hash の st_table を st_init_numtable() で作
+るようにして、追加時も st_update() を直接呼ぶようにしています。
