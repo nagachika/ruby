@@ -1,0 +1,2 @@
+rb_hash_keys() を static 関数だったのを外して internal.h にプロトタイプ宣言する
+ようにしています。これも local_variables 関連で直接呼ぶためでしょうね。
