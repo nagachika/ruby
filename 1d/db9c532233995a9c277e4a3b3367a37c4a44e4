@@ -1,0 +1,3 @@
+benchmark/driver.rb に --rawdata-output というオプションを追加して、/proc/
+cpuinfo (存在すれば) と一緒にそこに指定されたファイルに出力する、とみせかけて
+pp で標準出力へ! デバッグ用の処理の消し忘れのようです。
