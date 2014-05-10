@@ -1,0 +1,3 @@
+Object#initialize_copy の実装 init_copy に T_CLASS, T_MODULE 用のテーブルコピー
+する処理があったのですが、既に rb_mod_init_copy() が使われるようになっていて不
+要になっていたので削除しています。
