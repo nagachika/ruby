@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServer で停止しようとしても
+IO.select で IO が読み込み可能だとループを抜けないようになっていたのですぐに停
+止しないようになっていたのを、すぐに抜けるように変更しています。また IO.select
+が Windows で Errno::ENOTSOCK 例外を発生させるのでそれを捕捉するようにしていま
+す。 https://github.com/ruby/ruby/pull/607
