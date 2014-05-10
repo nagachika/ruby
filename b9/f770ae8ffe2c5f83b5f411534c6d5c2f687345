@@ -1,0 +1,3 @@
+r45863 の OpenSSL::SSL::SSLServer に渡すソケットを TCPSocket/TCPServer を渡すケ
+ースと Socket を渡すケースのテストメソッドを Module に分離して include の組み合
+わせで網羅するようにリファクタリングしています。
