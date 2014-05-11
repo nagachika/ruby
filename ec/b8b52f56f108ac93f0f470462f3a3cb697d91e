@@ -1,0 +1,2 @@
+ext/extmk.rb で --extstatic オプションの指定を読み取るための変数名の typo 修正
+。
