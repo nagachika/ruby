@@ -1,0 +1,2 @@
+標準添付ライブラリ shell に Shell.def_system_command、Shell.alias_command、
+Shell.install_system_commands の rdoc 用コメントを追記しています。
