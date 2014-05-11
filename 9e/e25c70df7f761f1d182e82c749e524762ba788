@@ -1,0 +1,5 @@
+r45503 あたりから連綿と続いている(ってほどでもないですけど) configure での
+__builtin_setjmp() の検出処理の修正です。 PPC Linux 上での gcc 4.4.0 では PIE
+(位置独立実行形式)では __builtin_setjmp() が利用できないのに検出されてしまうの
+で、CCDLFLAGS のオプション(おそらく -fPIE の影響)を含めて検出処理を実行するよう
+にしています。 [ruby-core:62469] [Bug #9818]
