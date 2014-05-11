@@ -1,0 +1,2 @@
+標準添付ライブラリ delegate の rdoc 用コメントの整数リテラルが誤って8進数表記に
+なっていたところを修正しています。 https://github.com/ruby/ruby/pull/505
