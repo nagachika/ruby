@@ -1,0 +1,2 @@
+test/ruby/envutil.rb の invoke_ruby にキーワード引数 rubybin を追加して起動する
+ruby インタプリタのファイル名を指定可能にしています。
