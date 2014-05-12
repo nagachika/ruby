@@ -1,0 +1,2 @@
+thread_pthread.c と thread_win32.c の native_cond_timedwait() の引数に const を
+付加する変更です。
