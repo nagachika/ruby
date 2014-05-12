@@ -1,0 +1,2 @@
+タイマースレッドへの通知用のパイプ timer_thread_pipe, timer_thread_pipe_low な
+どの static 変数を構造体にまとめるリファクタリングです。
