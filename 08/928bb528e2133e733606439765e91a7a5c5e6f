@@ -1,0 +1,2 @@
+Signal.trap で元々デフォルトのシグナルハンドラが設定されていた(sigaction(2) で
+SIG_DFL が返ってきた)時に "SYSTEM_DEFAULT" という文字列を返すようにしています。
