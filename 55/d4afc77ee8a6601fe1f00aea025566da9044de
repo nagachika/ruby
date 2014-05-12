@@ -1,0 +1,4 @@
+Kernel#exit の実装である rb_exit() で ruby_finalize() + exit(3) を呼び出してい
+たところを ruby_stop() に置き換えています。ちなみに ruby_stop() は ruby_cleanup
+() + exit(3) で、他の Thread を停止したり VM を破棄したりとかもうちょっとやるこ
+とが多いみたいです。
