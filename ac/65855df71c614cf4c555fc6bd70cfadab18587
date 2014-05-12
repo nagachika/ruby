@@ -1,0 +1,4 @@
+test-all 用のユーティリティ test/ruby/envutil.rb で子プロセスの状態をメッセージ
+にするための FailDesc という定数に格納している Proc オブジェクトで、子プロセス
+がシグナルで終了したのでない場合に Process::Status#termsig が nil を返すのに常
+にシグナル番号があるものとして扱っていたので修正しています。
