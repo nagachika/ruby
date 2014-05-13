@@ -1,0 +1,3 @@
+compile.c、vm.c、pack.c、time.c の未使用のマクロ BUFSIZE、BYTEWIDTH、INT64toNUM
+()、UINT64toNUM()、lshift() などの定義を削除しています。また time.c の未使用の
+変数削除。
