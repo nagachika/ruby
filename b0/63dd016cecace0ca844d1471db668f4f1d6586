@@ -1,0 +1,3 @@
+configure.in で関数が検出されなかった時に AC_LIBOBJ() で代替を探すチェックマク
+ロ AC_REPLACE_FUNCS() の呼び出しの引数に関数をたくさん並べていたところを、1つず
+つ AC_REPLACE_FUNCS() を呼び出すように書きかえています。
