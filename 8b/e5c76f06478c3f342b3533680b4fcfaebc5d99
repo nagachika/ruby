@@ -1,0 +1,5 @@
+RGenGC の 3世代GC(デフォルトは 2世代)を有効にしてビルドした時に GC.stat で取得
+できる GC の統計情報に young オブジェクトの総数を追加しています。また
+objspace->rgengc.young_object_count の old への promotion と sweep による free
+時のデクリメントを追加して、正しくカウントされるようにしています。これまで追加
+しっぱなしだったみたいですね。
