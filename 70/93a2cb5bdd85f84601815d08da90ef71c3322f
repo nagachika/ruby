@@ -1,0 +1,4 @@
+拡張ライブラリ openssl を rubygems パッケージ化するための準備として openssl で
+利用している native_thread.h ヘッダを include/ruby/native_thread.h に移動して、
+rb_nativethread_lock_t という型の定義を追加しています。 [ruby-core:61378]
+[Feature #9612]
