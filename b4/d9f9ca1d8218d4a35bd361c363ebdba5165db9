@@ -1,0 +1,4 @@
+RGenGC の3世代 GC が有効な時に、mark 処理時に remember set に入っているオブジェ
+クトは一気に old 世代に昇格するようにしています。これまでは infant は remember
+set に入れたままにしておいて、young のオブジェクトは old に昇格して remember
+set から消すようにしていました。
