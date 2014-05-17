@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の depend ファイルに thread_native.h を追加しています。
+[ruby-core:61378] [Feature #9612]
