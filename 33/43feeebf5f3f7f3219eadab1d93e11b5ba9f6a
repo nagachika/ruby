@@ -1,0 +1,3 @@
+r43748 で Windows 版のマシンスタックオーバフロー検出をしましたが、mingw では
+__try/__except がサポートされていないことから対象外だったのですが、Structured
+Exception を利用して mingw 向けの実装も追加しています。
