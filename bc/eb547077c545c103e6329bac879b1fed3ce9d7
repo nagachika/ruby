@@ -1,0 +1,3 @@
+gc.c の gc_heap_prepare_minimum_pages() の呼び出しを gc_sweep() の最後から
+garbage_collect_body() へ移動しています。プロファイラのタイマーを止めた後にペー
+ジ追加するようにしているってことでしょうか。
