@@ -1,0 +1,4 @@
+gc_before_sweep() で heap_pages_swept_slots を 0 にリセットしていたのを
+heap_pages_increment を元に初期化するように修正しています。コミットログによると
+malloc_limit の閾値によって GC が実行される時は heap_pages_increment が 0 でな
+い場合もあるから、とのことです。
