@@ -1,0 +1,3 @@
+GC の統計情報で major GC 時に young object 数を old object 数ぶん増やすようにし
+ています。 old object は major GC 時には全て(一旦?) young object になるからだそ
+うです。ほー、そうなのか。
