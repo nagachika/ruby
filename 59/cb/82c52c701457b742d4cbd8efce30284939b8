@@ -1,0 +1,3 @@
+make install-doc で C API ドキュメントのインストールをデフォルトでは off にする
+ようにしています。 configure で --enable-install-capi をつけるとインストールす
+るようにできます。 [ruby-core:62557]
