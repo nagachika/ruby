@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf.rb で生成する Makefile に NULLCMD マクロを定義するよう
+にして、RbConfig::CONFIG["NULLCMD"] を埋め込んでいたところをそのマクロの参照に
+変更しています。
