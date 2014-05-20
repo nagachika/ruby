@@ -1,0 +1,5 @@
+r45982 で導入した Float#next_float などのための代替実装 missing/nextafter.c の
+Windows でのビルドのための修正 r45986, r45992 の続きで、r45992 の MISSING への
+代入もやめて、win32/win32.c で #if RUBY_MSVCRT_VERSION < 120 の時は直接 missing
+/nextafter.c を #include で取り込むようにしています。無限再帰を避けるためという
+ことなのでなにか依存関係の循環があったのでしょう。
