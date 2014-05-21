@@ -1,0 +1,1 @@
+ext/etc/constdefs.h を svn が無視するように svn property を設定追加しています。
