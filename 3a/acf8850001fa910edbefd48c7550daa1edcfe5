@@ -1,0 +1,1 @@
+Socket::Option#inspect に TCP_INFO の時の詳細情報の表示に対応しているようです。
