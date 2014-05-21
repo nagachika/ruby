@@ -1,0 +1,2 @@
+r46014 の Windows 版 Etc.uname の実装で古い VC のために GetComputerNameW() を利
+用する場合も追加しています。
