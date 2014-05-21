@@ -1,0 +1,4 @@
+r45983 で追加された拡張ライブラリ etc の Etc.uname の Windows 版の実装を追加し
+ています。 GetVersionExW()、GetSystemInfo()、GetComputerNameExW() などの関数を
+利用して実装していて、sysname には "Win32s"、"Windows_NT"、"Windows" などが入る
+ようです。 [ruby-core:62600] [Feature #9842]
