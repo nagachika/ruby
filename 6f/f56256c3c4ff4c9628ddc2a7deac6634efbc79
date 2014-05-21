@@ -1,0 +1,2 @@
+r45984 の Etc.sysconf, Etc.confstr, IO#pathconf のテストで必要な定数が定義され
+ている時だけテスト実行するようにしています。
