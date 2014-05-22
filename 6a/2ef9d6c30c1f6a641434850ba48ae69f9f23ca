@@ -1,0 +1,4 @@
+to_int, to_ary, to_str, to_sym, to_hash, to_proc, to_io, to_a, to_s などの変換
+メソッド名の Symbol と ID をインタプリタ起動時に組み込みで定義しておくようにす
+るため defs/id.def に移動しています。このほうが少し効率的だったりするのでしょう
+か。
