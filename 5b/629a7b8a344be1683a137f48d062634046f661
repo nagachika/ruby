@@ -1,0 +1,8 @@
+r46017 の Socket::Option#inspect での TCP_INFO の対応で Android 版のビルドが失
+敗するようになっていたのを修正しています。 Android 用の標準ライブラリ Bionic で
+は TCP_XXX のようなマクロが定義されていないそうなのですが、HAVE_CONST_XXX が定
+義される(extconf.rb では検出された)のに XXX が未定義というのは…あっ、マクロじ
+ゃなくて変数として定義されているということですかね。そして ext/socket/option.c
+では defined(TCP_XXX) で分岐しているところがあるので、マクロとして定義されてい
+る必要があるため #define TCP_XXX TCP_XXX という一見無駄な定義を追加しているよう
+です。
