@@ -1,0 +1,4 @@
+エンコーディングの euc-jp、shift_jis の文字種の判定などのためのテーブルを gperf
+(GNU Perf 完全ハッシュ関数を生成するツール)を使って生成するようにしているみたい
+です。 enc/jis/props.h.blt、enc/jis/props.h.blt、enc/jis/props.kwd などのファイ
+ルを追加(.h は生成物だと思いますが)しています。
