@@ -1,0 +1,4 @@
+標準添付ライブラリ net/smtp で行頭の "." を ".." に置換する処理(dot stuffing)
+が改行のない最後の行で行われない不具合を Net::InternetMessageIO#
+using_each_crlf_line でも行うようにして修正しています。 [ruby-core:61441] [Bug
+#9627] https://github.com/ruby/ruby/pull/616
