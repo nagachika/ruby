@@ -1,0 +1,4 @@
+ext/socket/mkconstants.rb にで生成する拡張ライブラリ socket の定数定義に Linux
+で使用できる定数 TCP_CONGESTION、TCP_COOKIE_TRANSACTIONS、TCP_QUEUE_SEQ etc...
+を追加しています。また説明に利用できる Linux と glibc のバージョンを追記してい
+ます。
