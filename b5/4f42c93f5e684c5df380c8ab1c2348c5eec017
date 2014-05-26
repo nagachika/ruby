@@ -1,0 +1,2 @@
+r46048 に続いて ext/socket/mkconstants.rb に Linux で使える socket option の定
+数の定義を追加しています。
