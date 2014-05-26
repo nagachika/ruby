@@ -1,0 +1,3 @@
+r45970 で test/lib の下に minitest と test/unit の必要な部分をコピーした際に不
+要な test/lib/test/unit/test-unit.gemspec もコピーしてしまっていたので削除して
+います。
