@@ -1,0 +1,2 @@
+標準添付ライブラリ resolv のテストでブロック付きの Tempfile.open のかわりに
+Tempfile.create を使うことで Tempfile の削除漏れを修正しています。
