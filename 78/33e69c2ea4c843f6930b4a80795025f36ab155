@@ -1,0 +1,2 @@
+lib/yaml.rb から Psych::EngineManager を削除しています。 syck と psych を選択す
+る機能を消しているようです。 [ruby-core:54665] [Bug #8344]
