@@ -1,0 +1,3 @@
+Process.groups や Process.groups= の実装で ALLOCA_N() を利用していたところを
+ALLOCV_N() に置き換えて、大きなバッファをマシンスタック上に確保しないようにして
+います。
