@@ -1,0 +1,3 @@
+Module#instance_methods のサンプルを追加して引数の解釈についての説明を強化して
+います。
+https://github.com/documenting-ruby/ruby/pull/31
