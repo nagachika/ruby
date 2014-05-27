@@ -1,0 +1,2 @@
+標準添付ライブラリ logger で Logger::Period の定義位置を Period を include する
+LogDevice よりも前に移動しています。
