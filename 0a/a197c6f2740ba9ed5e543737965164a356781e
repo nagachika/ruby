@@ -1,0 +1,3 @@
+標準添付ライブラリ csv で CSV.new の第一引数が nil の時に明示的に ArgumentError
+を発生させるようにしています。 csv メンテナの jeg2 が旅行中のため代理コミットと
+のこと。 https://github.com/ruby/ruby/pull/580
