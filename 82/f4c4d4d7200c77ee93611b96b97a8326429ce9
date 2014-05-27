@@ -1,0 +1,3 @@
+error.c の report_bug() をいくつかの関数に分解するリファクタリングと、
+ucontext_t を引数に受け付けることで SEGV などの発生時のマシンレジスタの情報を表
+示するようにしています。 https://github.com/ruby/ruby/pull/584
