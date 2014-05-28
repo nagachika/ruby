@@ -1,0 +1,1 @@
+test/ruby/test_backtrace.rb でもうひとつ Thread の後始末の修正。
