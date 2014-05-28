@@ -1,0 +1,3 @@
+標準添付ライブラリ optparse の OptionParser の別名 OptParser を定義して、ファイ
+ルは optionparser.rb というファイル(内容は optparse を require するだけ)を追加
+しています。 [ruby-core:62751] [Feature #9864]
