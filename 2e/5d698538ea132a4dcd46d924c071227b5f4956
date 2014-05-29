@@ -1,0 +1,3 @@
+IO オブジェクトを freeze すると #fileno, #inspect など参照するだけのメソッドで
+も RuntimeError が発生していたのを修正しています。 GetOpenFile() マクロで取得す
+るだけでもチェックされてしまうんですね。 [ruby-dev:48241] [Bug #9865]
