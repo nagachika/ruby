@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::PKCS7#type= のテストを追加しています。
+[ruby-core:49565] [Feature #7399]
