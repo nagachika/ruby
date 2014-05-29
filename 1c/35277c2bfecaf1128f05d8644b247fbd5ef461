@@ -1,0 +1,5 @@
+r46151 と同様に freeze された IO オブジェクトの IO#autoclose? メソッドを呼ぶと
+例外が発生していたのでエラーにならないようにしています。また minitest での file
+descriptor の leak 検出で IO#autoclose? は IOError が発生する可能性があるので
+rescue でガードされているところで呼びだしてその結果を使いまわすようにしています
+。
