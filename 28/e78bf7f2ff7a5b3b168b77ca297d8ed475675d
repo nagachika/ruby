@@ -1,0 +1,3 @@
+同じく r46166 の REXML のテストを REXML モジュール内にネストしたのは REXMLTests
+というモジュールの下にネストさせるように修正しています。 test_comment.rb の
+REXMLTest も REXMLTests に改名しています。
