@@ -1,0 +1,1 @@
+rubygems のテストで Tempfile の後始末をするようにしています。
