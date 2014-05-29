@@ -1,0 +1,4 @@
+test/lib/minitest/unit.rb でテストの前後で file descriptor も増減をチェックして
+leak している fd を表示するようにしています。 file descriptor は /proc/(pid)/fd
+/ を使ってチェックしているので、procfs や sysfs が使える Linux でのみチェックが
+有効になりますが、これで pipe や Socket などの閉じ忘れも検出できそうです。
