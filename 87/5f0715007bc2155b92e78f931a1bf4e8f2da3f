@@ -1,0 +1,3 @@
+REXML のテスト test/rexml/test_document.rb では REXML::TestDocument というテス
+トクラスが定義されていたのを REXMLTests モジュールの下にネストさせるように書き
+換えています。
