@@ -1,0 +1,2 @@
+envutil.rb の assert_separately で子プロセスで発生した例外のバックトレースに
+assert_separately 自体の呼び出しのバックトレースも追加するようにしています。
