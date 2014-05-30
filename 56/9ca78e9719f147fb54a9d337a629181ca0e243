@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp で Net::FTP#transfercmd が例外で割り込まれた時に
+socket の close が行われていなかったのを修正しています。これもテストの fd leak
+チェックの産物でしょうね。
