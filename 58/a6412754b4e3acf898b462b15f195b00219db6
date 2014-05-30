@@ -1,0 +1,3 @@
+Net::IMAP のテストで Thread の後始末のために Thread#kill で Thread を停止してい
+たのですが、これは不要とのことで消しています。 Thread#kill してしまうと、この
+Thread 内での socket の close が確実に行われなくなってしまうためだと思います。
