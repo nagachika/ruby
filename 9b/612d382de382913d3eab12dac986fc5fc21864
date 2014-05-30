@@ -1,0 +1,5 @@
+標準添付ライブラリ cgi の CGI::QueryExtension#read_multipart で Tempfile を閉じ
+る時に close! で閉じるようにしています。 #close(true) は close! と同じなので、
+実質ここは変更なしですね。
+またいくつかのテストで Tempfile#unlink を呼んでいたところは close! に置き換えて
+ファイルを閉じるようにしています。
