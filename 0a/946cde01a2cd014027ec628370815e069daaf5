@@ -1,0 +1,3 @@
+localinit.c ってなんだっけ…。というのはともかく、Mac OS X での filesystem
+encoding を決定する時に default external encoding が US-ASCII だった時に強制的
+に UTF-8 をセットするようにしています。
