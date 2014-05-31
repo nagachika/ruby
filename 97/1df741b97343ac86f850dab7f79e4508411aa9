@@ -1,0 +1,2 @@
+OpenSSL のテスト test/openssl/test_pair.rb でソケットの閉じ忘れを修正しています
+。
