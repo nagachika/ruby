@@ -1,0 +1,5 @@
+拡張ライブラリ socket で UNIXSocket を作成する時にファイルパス(UNIX ソケットの
+アドレス)の長さのチェックを実行する前に socket(2) で file descriptor を確保して
+しまって、例外発生時に閉じていなかったので、パスのサイズチェック後に socket を
+開くようにしています。テストの file descriptor leak チェックで発見されたようで
+すね。 [Bug #9879]
