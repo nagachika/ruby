@@ -1,0 +1,6 @@
+IO.pipe で pipe を生成する時に pipe(2) で file descriptor を生成した後で
+io_encoding_set() で Encoding を関連付ける際に例外が発生する可能性があり、その
+時に file descriptor が leak するので rb_protect() で保護して大域脱出(例外など)
+が発生した時には close するようにしています。
+また IO のテストで IO.pipe を利用しているところで閉じていないものやエラー時に閉
+じられない可能性があるところを修正しています。
