@@ -1,0 +1,3 @@
+r46240 で追加したテストで使うための Dir#fileno の実装の rb_check_typeddata0()
+という関数は HAVE_DIRFD が未定義の時は使われないので #ifdef HAVE_DIRFD でくくる
+ようにしてコンパイラの警告除去をしています。
