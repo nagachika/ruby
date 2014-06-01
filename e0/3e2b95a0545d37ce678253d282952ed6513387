@@ -1,0 +1,2 @@
+minitest での file descriptor leak のチェックの前に GC.start して開きっぱなしの
+fd が回収されやすいようにしています。
