@@ -1,0 +1,2 @@
+test/lib/minitest/unit.rb で並列実行時の子プロセスの出力を格納するために
+$stdout, $stderr を dup した IO オブジェクトを閉じるようにしています。
