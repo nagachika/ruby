@@ -1,0 +1,2 @@
+拡張ライブラリ io/console の PTY.spawn のテストでの IO 閉じ忘れを修正しています
+。
