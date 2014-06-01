@@ -1,0 +1,6 @@
+ruby_signal() で元のハンドラを返すのに常に struct sigaction::sa_handler を返し
+ていたのを、sa_flags に SA_SIGINFO フラグが立っていたら struct
+sigaction::sa_sigaction を返すようにしています。 SA_SIGINFO ってなんだっけとみ
+てみると、ハンドラを取得するためにセットするフラグみたいですね。参考: http://
+linuxjm.sourceforge.jp/html/LDP_man-pages/man2/sigaction.2.html
+[ruby-core:62836] [Bug #9878]
