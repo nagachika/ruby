@@ -1,0 +1,2 @@
+enc/unicode.c と enc/unicode/casefold.h を変更しているのですが、r46266 で追加し
+た enc/unicode/case-folding.rb で生成したのかなぁ。
