@@ -1,0 +1,2 @@
+テストの Thread, Tempfile, file descriptor の leak の検出関係の処理を test/lib/
+leakchecker.rb に抽出しています。
