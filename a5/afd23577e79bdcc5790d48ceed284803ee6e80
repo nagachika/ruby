@@ -1,0 +1,5 @@
+拡張ライブラリ digest の ext/digest/lib/digest/hmac.rb に単独でスクリプトとして
+実行した時に実行されるように書かれていた単体テスト部分を test/digest/
+test_digest_hmac.rb に切り出しています。というか test/digest/
+test_digest_hmac.rb はこの __END__ 以降の部分を読み出して実行するように書かれて
+たんですね。独立したライブラリだった時の名残りでしょうかね。
