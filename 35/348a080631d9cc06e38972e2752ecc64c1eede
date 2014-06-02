@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb の修正続き。 unfolding table 1 も生成するようにして
+います。 unfolding table 1 って何や、というのは置いておきます…。
