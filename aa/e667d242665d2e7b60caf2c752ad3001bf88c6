@@ -1,0 +1,1 @@
+test/test_syslog.rb の shebang とヘッダ部分のコメントを削除しています。
