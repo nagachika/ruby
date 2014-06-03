@@ -1,0 +1,1 @@
+rinda のテストで起動した Rinda::RingServer の shutdown 漏れを修正しています。
