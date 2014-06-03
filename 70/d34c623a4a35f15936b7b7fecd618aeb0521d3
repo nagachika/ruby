@@ -1,0 +1,4 @@
+intern_str() で文字列を Symbol 化する時にその ID が既に GC 可能な Symbol
+(dynamic symbol) として登録済みだったら二重に登録しないように
+register_static_symid_str() の呼び出しをスキップするようにしています。
+[ruby-core:62861]
