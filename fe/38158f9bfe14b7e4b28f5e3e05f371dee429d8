@@ -1,0 +1,5 @@
+test/ruby/envutil.rb に EnvUtil.default_warning という $VERBOSE に false をセッ
+トしてブロックを実行するテスト用のユーティリティメソッドを追加しています。 nil
+をセットするのは suppress_warning というのがあるのですが、それの false 版です。
+そして昨日 r46294、r46299 と r46300 で suppress_warning を利用するようにしたテ
+ストでこの default_warning を利用するようにしています。
