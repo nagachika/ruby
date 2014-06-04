@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb の usage が古いまま(コピー元のまま)だったので現在の
+利用方法に追随させています。
