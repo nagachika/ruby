@@ -1,0 +1,4 @@
+Module#using や main.using で Refinements を有効にする時に cref->nd_refinements
+を更新する時に RB_OBJ_WRITE() で write barrier を有効にして新しいオブジェクトを
+remember set に追加するようにしています。これが不具合修正ってことですよね。 2.1
+にもバックポートしたほうがいいかな。
