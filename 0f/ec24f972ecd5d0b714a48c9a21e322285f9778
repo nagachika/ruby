@@ -1,0 +1,2 @@
+include/ruby/encoding.h から encindex (Encoding を表す整数のインデックス)の内容
+をチェックするためのマクロなどを encoding.c に移動しています。
