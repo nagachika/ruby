@@ -1,0 +1,3 @@
+load_file_internal() のうちファイルを開いた後の内容を load_file_internal2() に
+切り出して rb_protect() で保護して、例外など大域脱出が発生した時の開いたファイ
+ルの閉じ漏れを修正しています。
