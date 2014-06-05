@@ -1,0 +1,2 @@
+rb_gc_call_finalizer_at_exit() で RGENGC_CHECK_MODE が2以上に定義されている時に
+gc_verify_internal_consistency() を呼ぶようにしています。
