@@ -1,0 +1,3 @@
+r46309 で rb_encoding * に const をつけた変更は、そもそも rb_encoding の
+typedef の段階で const を付加するようにしています。うーんこれは C API の非互換
+になりそうですね。バイナリには影響ないでしょうけど。
