@@ -1,0 +1,4 @@
+gc.c の rb_gc_force_recycle() でオブジェクトが old かどうかの判定結果を
+RVALUE_OLD_P() を int 型の変数に代入していたのを論理式にして代入するようにして
+います。 RVALUE_OLD_P() が VALUE 型なので clang がビルドエラーになっていたのを
+回避するためだそうです。
