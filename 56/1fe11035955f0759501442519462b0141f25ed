@@ -1,0 +1,3 @@
+MatchData#[] で引数が Symbol だった時にそれを文字列化した String オブジェクトが
+NUL 文字で終端していることを期待したコードになっていたので、 StringValuePtr()
+を通すようにしています。 [ruby-dev:48275] [Bug #9902]
