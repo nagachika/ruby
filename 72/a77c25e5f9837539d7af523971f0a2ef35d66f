@@ -1,0 +1,3 @@
+gc_page_sweep() で T_ZOMBIE のオブジェクトの時に empty_slots をカウントアップし
+ないようにして、sweep_page->final_slots に final_slots を代入していたのを加算す
+るように修正しています。
