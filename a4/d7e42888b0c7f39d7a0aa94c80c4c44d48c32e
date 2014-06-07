@@ -1,0 +1,4 @@
+ruby -v で malloc_conf という利用している malloc 実装を判別するための定数を表示
+するようにしています。そのため jemalloc を使わなくても jemalloc/jemalloc.h は
+(あれば) #include しておくようにしています。 [Feature #9113]
+malloc_conf って jemalloc を使わなくても意味がある表示になるんですかね?
