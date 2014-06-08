@@ -1,0 +1,2 @@
+test/ruby/test_assignment.rb の test_assign が内部に大量の assertion を持ってい
+たので、グループ化していくつかのテストメソッドに分解しています。
