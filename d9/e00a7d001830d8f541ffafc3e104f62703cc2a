@@ -1,0 +1,2 @@
+String#slice! の rdoc 用コメントで synopsis で返り値の表示が間違っていたのを修
+正しています。 https://github.com/ruby/ruby/pull/631
