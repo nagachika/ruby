@@ -1,0 +1,2 @@
+gc.c の関数名 gcdebug_sential() -> gcdebug_sentinel() と typo 修正。 https://
+github.com/ruby/ruby/pull/634
