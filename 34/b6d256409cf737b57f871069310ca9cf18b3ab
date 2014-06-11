@@ -1,0 +1,2 @@
+compile.c の static 関数 new_insn_body() で引数 insn_id の型を int ではなくて
+enum ruby_vminsn_type に変更しています。
