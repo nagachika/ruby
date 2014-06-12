@@ -1,0 +1,3 @@
+test/ruby/envutil.rb のユーティリティ EnvUtil#assert_valid_syntax にキーワード
+引数 verbose を追加して $VERBOSE に値をセットするのをこのキーワード引数の指定で
+行うようにしています。
