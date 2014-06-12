@@ -1,0 +1,3 @@
+win/Makefile.sub と win/setup.mk で verconf.mk というのを生成して Makefile.sub
+に include するようにしています。 trunk は RUBY_RELWASE_DATE が毎日変化するので
+変更が必要なファイルを局所化しようとしたって感じでしょうか。
