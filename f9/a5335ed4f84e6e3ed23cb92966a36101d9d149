@@ -1,0 +1,5 @@
+標準添付ライブラリ csv の CSV#<< で行を追加するときに :encoding オプションが渡
+されていたら常にその Encoding に force_encoding して追加するようにしています。
+CSV.open にも :encoding オプションはありますけど、CSV.generate メソッドにも(こ
+んなメソッドあったのか…) :encoding オプションを追加しています。
+[ruby-core:62113] [Bug #9766]
