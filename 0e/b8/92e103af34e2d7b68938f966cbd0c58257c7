@@ -1,0 +1,2 @@
+同じく win32/setup.mk と win32/Makefile.sub で RUBY_PROGRAM_RELEASE_DATE から
+RUBY_RELEASE_DATE と変数名を改名しています。
