@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http に HTTP ステータスコード 308 Permanent Redirect を
+意味するレスポンスクラス Net::HTTPPermanentRedirect を追加しています。先日 HTTP
+/1.1 の仕様が改訂されて RFC7238 が出たのでさっそくそれに準拠した機能が追加され
+たみたいですね。速い。 https://github.com/ruby/ruby/pull/638
