@@ -1,0 +1,3 @@
+TracePoint のテスト用に TracePoint.stat というメソッドを追加して登録されている
+TracePoint のフックの数などを取得できるようにして、これで TracePoint のテストの
+終了時にフックが残ってないかチェックするようにしています。
