@@ -1,0 +1,5 @@
+Array#combination のブロックの中でその Array オブジェクト自身を変更してバッファ
+を切り詰めたり realloc すると SEGV する不具合を修正しています。一時バッファに
+tmpbuf() を使っていたのを ALLOCV_N() を使って直に確保するようにしたり、
+ary_make_shared_copy() で共有配列を作って利用するようにしています。
+[ruby-core:63149] [Bug #9939]
