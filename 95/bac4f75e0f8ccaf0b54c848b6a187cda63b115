@@ -1,0 +1,3 @@
+array.c で permute0(), rpermute0(), rcombinate0() から配列の部分要素を配列につ
+めて yield する処理を括り出して yield_indexed_values() という関数にするリファク
+タリング。
