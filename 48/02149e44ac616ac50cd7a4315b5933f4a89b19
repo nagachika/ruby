@@ -1,0 +1,2 @@
+Array#repeated_permutation の実装でも再帰を使わずループで実装するように変更して
+います。
