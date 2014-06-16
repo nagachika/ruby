@@ -1,0 +1,4 @@
+標準添付ライブラリ rss の RSS::Maker::SetupDefaultDate#_set_default_values で
+self.date を上書きした後で ensure 節で書き戻す時に self.date= を使うべきところ
+で date ローカル変数への代入になっていたため復帰できていなかったのを修正してい
+ます。
