@@ -1,0 +1,3 @@
+同じく r46420 の TracePoint の hook の leak 検出で event のタイプ毎に増加分をみ
+て assert するようにしています。けどこれだと最初に leak を検出した event で
+assert_equal が失敗するので変化ないですね。
