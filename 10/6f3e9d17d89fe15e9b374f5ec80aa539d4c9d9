@@ -1,0 +1,4 @@
+r46410 あたりの File.exand_path の文字列の capa を切り詰めたことを確認するテス
+トが Windows で失敗していたので、ファイルパスのサイズを決め打ちせずに String#
+size で取得するようにしています。 Windows だと driver letter などが頭につくので
+長さが違っていたようです。 [ruby-core:63114] [Bug #9934]
