@@ -1,0 +1,2 @@
+basic_obj_respond_to() で引数 priv は VALUE ではなくただの int 型のフラグなので
+RTEST() でチェックしていたのをやめています。
