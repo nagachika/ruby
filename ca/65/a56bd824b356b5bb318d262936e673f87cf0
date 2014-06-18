@@ -1,0 +1,4 @@
+Symbol#succ, #cmp, #casecmp, #match, #aref などの Symbol オブジェクトのメソッド
+で rb_sym_to_s() のかわりに rb_sym2str() を使って Symbol を管理しているテーブル
+で使われている String オブジェクトそのものを使って、コピーを生成しないようにし
+ています。
