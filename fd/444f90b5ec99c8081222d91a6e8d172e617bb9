@@ -1,0 +1,3 @@
+Windows 版で system や Process.spawn のリダイレクトのために使う open の実装を非
+ASCII文字を含むパスを扱えるように rb_w32_uopen() を利用するようにしています。チ
+ケットにある例はよくわかりませんでしたが… [ruby-core:63185] [Bug #9946]
