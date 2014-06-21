@@ -1,0 +1,5 @@
+Method#curry メソッドを追加しています。おおっ。実体は既に存在している Proc#
+curry を利用していて、Method を Proc オブジェクトに変換してから Proc#curry でカ
+リー化しているようです。また可変長引数のメソッドは curry の引数で arity を受け
+取っていくつ引数を受けとるか(何段階まで Proc を返すか)を指定できるようです。
+[ruby-core:62212] [Feature #9783]
