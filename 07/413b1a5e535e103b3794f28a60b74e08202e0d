@@ -1,0 +1,2 @@
+test/ruby/test_settracefunc.rb のテストが r46471 で導入された
+assert_consistent_calll_return メソッドを利用してリファクタリングされています。
