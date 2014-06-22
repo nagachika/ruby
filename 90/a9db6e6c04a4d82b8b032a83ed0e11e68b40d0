@@ -1,0 +1,2 @@
+test/ruby/test_regexp.rb の test_once という長いテストメソッドをシチュエーショ
+ン毎に分割しています。
