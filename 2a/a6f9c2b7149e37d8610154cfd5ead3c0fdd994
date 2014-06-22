@@ -1,0 +1,5 @@
+test/lib/tracepointchecker.rb を追加して TracePoint の hook の漏れのチェックを
+行う処理を TracePointChecker::ZombieTraceHunter というモジュールに切り出してい
+ます。また call 系と return 系のイベントの対応がとれているかのチェックするため
+のメソッドも追加しています。デフォルトで有効にはなってないみたいですが、多分ロ
+ーカルで有効にしてこれで TracePoint のデバッグに使うのでしょう。
