@@ -1,0 +1,2 @@
+test/ruby/test_regexp.rb のユーティリティメソッド check、failcheck を
+assert_check、assert_failcheck と assert_ ではじまるように改名しています。
