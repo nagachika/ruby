@@ -1,0 +1,3 @@
+r46465 と同様に rb_iterate() と rb_catch_protect() でも大域脱出時に cfp を巻き
+戻すのを単に書き戻していたのを rb_vm_rewind_cfp() を使って TracePoint の return
+イベントが発生するようにしています。 [ruby-dev:48299] [Bug #9961]
