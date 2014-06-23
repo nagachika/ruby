@@ -1,0 +1,5 @@
+拡張ライブラリ fiddle の extconf.rb で libffi の modversion を利用して
+RUBY_LIBFFI_MODVERSION マクロを定義するようにしているところで、modversion が 3
+つの数値を "." で区切った形式であることを前提としていたのを、libffi 3.1 から 2
+つの数値になったので足りない場合に "000" を補うようにしています。
+[ruby-core:62920] [Bug #9897]
