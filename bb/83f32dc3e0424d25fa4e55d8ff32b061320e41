@@ -1,0 +1,10 @@
+標準添付ライブラリ uri で RFC3986 に対応。 RFC3986 は RFC2396 に定義されていた
+URL および RFC2732 の IPv6 のアドレスのフォーマットの定義を更新するもので URI
+のフォーマットを定めているようです。 lib/uri/common.rb からパーサ部分を lib/uri
+/rfc2396_parser.rb に分離して、新たに lib/uri/rfc3986_parser.rb を追加してデフ
+ォルトではこの追加された RFC3986_Parser を利用するようにしているようです。
+RFC3986_Parser の実装はなが～い正規表現が2つありますがその他はシンプルで短くな
+っていますね。またこれによりこれまで URI::InvalidURIError が発生していた URI も
+パースできるようになったためテストも一部変更されています。 [ruby-core:27360]
+[Feature #2542]
+これで addressable.gem の Addressable::URI が不要になるかもしれませんね。
