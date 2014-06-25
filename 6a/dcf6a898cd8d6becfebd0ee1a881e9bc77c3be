@@ -1,0 +1,4 @@
+先日の開発者会議で決定された方針として、組み込みクラスのオブジェクトの struct
+RVALUE の内容を遮蔽するようにするというのがあったようで、ここでは struct RFloat
+の内容を internal.h に移動して include/ruby/ruby.h では Float の内部実装はみえ
+ないようにしています。 [ruby-core:62748]
