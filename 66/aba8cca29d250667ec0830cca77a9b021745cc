@@ -1,0 +1,2 @@
+obsolete になったため警告が出るようになった URI.extract のテストで
+EnvUtil.suppress_warning を使って警告を抑制するようにしています。
