@@ -1,0 +1,5 @@
+struct RHash も internal.h に移動して内部構造を遮蔽されています。おっと RHash
+もなんですね。デフォルト値(ifnone) やイテレータのネスト回数にアクセスするための
+マクロは関数で実装され、rb_hash_iter_lev() と rb_hash_ifnone() は DEPRECATED に
+マークされています。 rb_hash_size() は今回公開API 化されていますがこれはさすが
+に使っていいみたいですね。 [ruby-core:62884] [Feature #9889]
