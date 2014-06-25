@@ -1,0 +1,3 @@
+init_copy() から T_OBJECT 型のオブジェクトのインスタンス変数をコピーする処理を
+rb_obj_copy_ivar() という関数に切り出すリファクタリング。 rb_obj_copy_ivar() の
+プロトタイプ宣言は internal.h に追加されています。
