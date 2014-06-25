@@ -1,0 +1,6 @@
+同じく struct RComplex を internal.h へ移動して、T_COMPLEX 型のオブジェクトの内
+部構造を遮蔽しています。 [ruby-core:62880] [Feature #9888]
+rb_complex_set_real() および rb_complex_set_imag() という関数が追加されています
+がいきなり DEPRECATED にマークされていて、コメントにも do not use this. とか書
+かれているので、直接 real/imag を操作するなってことみたいです。メソッド呼び出し
+を経由しろってことかなぁ。
