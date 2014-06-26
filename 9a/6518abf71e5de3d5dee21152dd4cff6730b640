@@ -1,0 +1,3 @@
+Windows 版で環境変数を取得する際に UTF-8 から locale encoding や filesystem
+encoding に変換する時に変換できない文字を置換するオプションつきで変換するように
+しています。
