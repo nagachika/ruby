@@ -1,0 +1,3 @@
+r46517 で tool/config_file.rb から改名された tool/downloader.rb で URL 文字列の
+特異メソッドとして定義していた処理を Downloader クラスを定義してそのクラスメソ
+ッドとして定義しなおしています。
