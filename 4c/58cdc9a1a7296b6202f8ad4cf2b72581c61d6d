@@ -1,0 +1,1 @@
+tool/downloader.rb のエラー時の例外メッセージに使っている変数名の typo 修正。
