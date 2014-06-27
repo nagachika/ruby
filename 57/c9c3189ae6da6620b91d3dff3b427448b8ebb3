@@ -1,0 +1,3 @@
+ccan/container_of/container_of.h のポインタ演算時のキャストに const を付加して
+います。コンパイルオプションに -Wcast-qual がついている時の警告抑制のためだそう
+です。
