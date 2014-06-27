@@ -1,0 +1,2 @@
+hash.c で invalid_envname() と check_envname() が Windows 環境でのみ利用されて
+いたので #if のコンパイル条件をまとめています。
