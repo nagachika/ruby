@@ -1,0 +1,2 @@
+今は test/lib の下に置かれている test/unit の assert_raise_with_message で msg
+が省略された時のデフォルトのメッセージを追加しています。
