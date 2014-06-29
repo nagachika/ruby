@@ -1,0 +1,1 @@
+eval.c の setup_exception() で未初期化の変数の警告を除去するため初期化を追加。
