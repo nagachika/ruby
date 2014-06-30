@@ -1,0 +1,2 @@
+File::Stat#birthtime が追加されたのに追随して拡張ライブラリ pathname でも
+Pathname#birthname を追加しています。 [ruby-dev:48232] [Feature #9857]
