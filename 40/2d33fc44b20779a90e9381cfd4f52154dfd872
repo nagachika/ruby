@@ -1,0 +1,2 @@
+r46531 を revert して SystemStackError の backtrace を 1 frame だけにするように
+しています。
