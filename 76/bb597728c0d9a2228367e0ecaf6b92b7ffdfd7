@@ -1,0 +1,3 @@
+r46586 の tool/mkconfig.rb の修正の再修正。 vars["prefix"] や vars
+["rubyarchdir"] がセットされていないケースを考慮しています。 https://github.com
+/ruby/ruby/pull/643
