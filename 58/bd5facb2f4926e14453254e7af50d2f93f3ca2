@@ -1,0 +1,2 @@
+rb_fstring_new() という C の文字列から fstring オブジェクトを作成する API を追
+加しています。
