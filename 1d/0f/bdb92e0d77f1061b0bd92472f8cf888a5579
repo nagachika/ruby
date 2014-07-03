@@ -1,0 +1,2 @@
+r46626 で追加した rb_fstring_new() を利用して GC::OPTS の Array とその中身を
+freeze するようにしています。
