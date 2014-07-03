@@ -1,0 +1,3 @@
+拡張ライブラリ digest の Digest::HMAC を削除しています。 OpenSSL::HMAC または
+gem で提供されているものを使いましょうということだそうです。 https://github.com
+/ruby/ruby/pull/648
