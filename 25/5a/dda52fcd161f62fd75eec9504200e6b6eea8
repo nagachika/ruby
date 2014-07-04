@@ -1,0 +1,6 @@
+hash.c の rb_hash_initialize()、rb_hash_fetch_m()、rb_hash_default()、env_fetch
+() など 1つの省略可能引数をもつメソッドの実装で引数の取り出しに rb_scan_args()
+を使っていたのを、rb_check_arity() を直接呼んで引数の数のチェックを行なうだけに
+変更しています。これはなぜでしょうね。 rb_scan_args() は汎用的なのでこれでいい
+ような気がするのですが、効率のためかな。
+やっぱり効率のためだったみたいです。 [ruby-core:63495] [Bug #10003]
