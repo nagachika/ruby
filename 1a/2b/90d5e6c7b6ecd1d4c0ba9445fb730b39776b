@@ -1,0 +1,4 @@
+bind_local_variables() から envval からローカル変数名リストを返す部分を
+rb_vm_env_local_variables() として vm.c の関数に抽出して、これを利用するように
+リファクタリングしています。また rb_f_local_variables() からもループの前後の処
+理を local_var_list_init() と local_var_list_finish() として切り出しています。
