@@ -1,0 +1,3 @@
+Binding#local_variables が Binding オブジェクトが生成されたスコープの変数名リス
+トを返すことを確認するテストを追加しています。 r44392 で追加した機能のテスト追
+加。 [ruby-core:56543] [Feature #8773]
