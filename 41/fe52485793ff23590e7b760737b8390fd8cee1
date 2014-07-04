@@ -1,0 +1,3 @@
+gc_page_sweep() の戻り値を TRUE/FALSE を返すようにして、解放する slot があった
+ら TRUE を返すようにしています。また空き slot がなかったら heap->free_pages か
+ら free_next へ page を取り出すようにしています。
