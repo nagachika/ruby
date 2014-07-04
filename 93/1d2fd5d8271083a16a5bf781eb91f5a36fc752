@@ -1,0 +1,3 @@
+標準添付ライブラリ logger から Logger::Application を削除しています。
+logger-application.gem に追い出したのでそちらを使うようにとのことです。
+[ruby-core:62724] [Feature #9860]
