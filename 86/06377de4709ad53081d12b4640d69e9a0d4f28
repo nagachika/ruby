@@ -1,0 +1,3 @@
+r46636 で rubygems のテストで起動したダミーのサーバを停止するのに Thread#kill
+で殺していたのを WEBrick::HTTPServer#stop でちゃんと停止するようにしています。
+SSL server はちゃんと殺してあげないとなにかがリークするんでしょうね。
