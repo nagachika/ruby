@@ -1,0 +1,2 @@
+Binding#local_variables のテストを test/ruby/test_variable.rb から test/ruby/
+test_proc.rb へ移動しています。 Binding のメソッドなので、とのこと。
