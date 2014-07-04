@@ -1,0 +1,2 @@
+sprintf.c の GETNAMEARG() マクロの定義から posarg のチェック部分を
+check_name_arg() に括り出しています。
