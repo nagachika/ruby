@@ -1,0 +1,3 @@
+Binding#receiver メソッドを追加しています。 NEWS にも追記されています。これは
+Binding オブジェクトのコンテキストでの self を返すものです。 [ruby-dev:47613]
+[Feature #8779]
