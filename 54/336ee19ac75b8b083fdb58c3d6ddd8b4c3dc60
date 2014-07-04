@@ -1,0 +1,1 @@
+test/ruby/test_io.rb のテストで Thread の終了待ちをするようにしています。
