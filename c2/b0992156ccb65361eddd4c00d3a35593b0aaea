@@ -1,0 +1,9 @@
+configure のオプション --with-static-linked-ext の指定時に静的リンク用拡張ライ
+ブラリへの依存関係を作るように ext/extmk.rb を修正しています。また enc/ のエン
+コーディングのライブラリの静的リンクのための指定は ENCSTATIC という Makefile の
+変数を別に作ってそれを参照するようにしています。基本的に ENCSTATIC は EXTSTATIC
+と連動しているみたいですが、configure ENCSTATIC="" (make 時かな?) などするとエ
+ンコーディングライブラリだけ静的リンクにしたり、その逆ができるのかもしれません
+。
+[追記] --with-static-linked-ext=enc などと指定するのでいけるそうです。なるほど
+AC_CASE() のデフォルト部でセットされるんですね。[/追記]
