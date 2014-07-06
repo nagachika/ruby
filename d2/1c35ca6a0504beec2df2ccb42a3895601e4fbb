@@ -1,0 +1,2 @@
+tool/compile_prelude.rb で prelude.rb を読み込む時にコメント行はあらかじめ除い
+ておくようにしています。
