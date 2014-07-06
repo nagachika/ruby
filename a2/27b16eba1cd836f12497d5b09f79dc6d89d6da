@@ -1,0 +1,3 @@
+parse.y の Dynamic Symbol であるはずの引数をチェックする must_be_dynamic_symbol
+() で分岐の条件を整理して、まず DYNAMIC_SYM_P() で Dynamic Symbol かチェックし
+てそこに UNLIKELY() を使うようにしています。
