@@ -1,0 +1,1 @@
+parse.y の rb_pin_dynamic_symbol() を static 関数にしています。
