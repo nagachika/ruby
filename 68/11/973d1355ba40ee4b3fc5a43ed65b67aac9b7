@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http で Net::HTTPResponse#inflater で後始末で
+Net::HTTPResponse::Inflater#finish を実行中に例外が発生した場合に、例外で抜ける
+途中だった時は元の例外を投げるようにしています。 finish も例外を発生させる蓋然
+性が高いからみたいです。
