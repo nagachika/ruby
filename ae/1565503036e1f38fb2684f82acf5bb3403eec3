@@ -1,0 +1,2 @@
+rubygems のテストで Tempfile.open にブロックを渡していて Tempfile が leak して
+いたのを修正しています。
