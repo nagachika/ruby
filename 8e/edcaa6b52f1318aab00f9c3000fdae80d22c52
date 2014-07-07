@@ -1,0 +1,3 @@
+Makefile.in および win32/Makefile.sub から common.mk へ DEFAULT_PRELUDES 変数の
+定義を移動しています。 r43278 以降この変数の内容を変更することはなくなったから
+とのこと。
