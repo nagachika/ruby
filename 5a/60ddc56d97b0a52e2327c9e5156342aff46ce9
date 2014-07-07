@@ -1,0 +1,2 @@
+Module#ancestors の rdoc 用コメントに include だけでなく prepend されたモジュー
+ルについても言及するように追記しています。
