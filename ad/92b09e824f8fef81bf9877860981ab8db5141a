@@ -1,0 +1,3 @@
+template/fake.rb.in から変更さえない部分を tool/fake.rb に分離して、tool/
+fake.rb の内容を読み込んで eval するように template/fake.rb.in を書き換えていま
+す。うーん eval とは剛毅な…。
