@@ -1,0 +1,3 @@
+昨日 r46716 de is_dead_object() から is_dying_object() に改名された関数をさらに
+is_garbage_object() に改名しています。また rb_objspace_dying_object_p() も
+rb_objspace_garbage_object_p() に改名しています。
