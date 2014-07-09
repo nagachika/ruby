@@ -1,0 +1,3 @@
+lib/rbconfig/obsolete.rb を削除して tool/mkconfig.rb からの autoload による
+require も削除しています。こんなファイル知りませんでしたが、ruby-1.8.4 以前との
+互換性のため、と書かれてますね。
