@@ -1,0 +1,6 @@
+test/ruby/find_executable.rb というファイルを追加してテスト用のユーティリティモ
+ジュール EnvUtil に find_executable という、環境変数 PATH から実行可能なファイ
+ルパスを探すメソッドを追加して、test/ruby/test_rubyoptions.rb で ps コマンドが
+呼べるかどうかのチェックに利用するようにしています。デフォルトで呼ばれる ps で
+はないところにオプションに対応した ps があったらそれを使うようにしているという
+感じでしょうか。
