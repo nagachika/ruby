@@ -1,0 +1,4 @@
+make のターゲット clean-rdoc, clean-capi, clean-platform のルールは Makefile.in
+および win32/Makefile.sub でそれぞれ記述されていたのを common.mk に移動していま
+す。また Windows コマンドライン環境での rmdir の wrapper の win32/rmall.bat を
+削除しています。かわりに rm.bat に -r オプションを付けて呼ぶようにしています。
