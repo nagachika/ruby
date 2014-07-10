@@ -1,0 +1,4 @@
+r46751 で追加した EnvUtil.find_executable を test/ruby/memory_status.rb でも利
+用して ps コマンドを探索するようにしています。 Solaris でのテストのためみたいで
+すが、チケットのコメントをみるとどうもまだだめみたいですね。 [ruby-dev:48370]
+[Bug #10010]
