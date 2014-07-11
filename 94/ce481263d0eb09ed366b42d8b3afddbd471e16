@@ -1,0 +1,2 @@
+parse.y から Symbol の管理用のコードを symbol.h と symbol.c に分離しているよう
+です。
