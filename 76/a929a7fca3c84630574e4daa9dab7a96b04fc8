@@ -1,0 +1,22 @@
+Symbol GC の導入以降の ID と Symbol の対応の管理について方針を変更しています。
+詳細はチケットのほうに非常に丁寧に書かれているのでそちらに丸投げしたいと思いま
+す。ありがとうございます。 [ruby-dev:48384] [Bug #10014]
+まあ一応おおざっぱに書くと、GC 対象となる Symbol (チケットでは mortal symbol)
+と対応する ID はなくなる(使いまわされる)可能性があるため、うっかりその ID を保
+存して後で使おうとするとエラーになってしまうので、mortal symbol は ID を持たな
+いようにしよう、という変更です。mortal symbol はどのみちテーブルで管理されてい
+て、struct RVALUE から辿るので ID との対応を持つ必要はないのだった、ということ
+ですね。
+[追記]ここで dynamic <-> static と mortal <-> immortal という Symbol の区別を分
+けているのが気になっていたのですが、その後ささださんとなかださんに教えてもらっ
+たところ
+  • dynamic は struct RVALUE の slot で T_SYMBOL 型のオブジェクト (struct
+    RSymbol) として確保されている Symbol
+  • static は VALUE のビットパターンで判定される Symbol (slot は消費しない即値)
+  • immortal は GC 対象とならない(正確には常に mark されるので GC で回収されな
+    い) Symbol で static な Symbol + pindown で参照を登録された dynamic な
+    Symbol
+  • mortal は GC で回収され得る Symbol (= pindown されていない dynamic な
+    Symbol)
+という関係ということでした。 static/dynamic は名前を変更したいけどなにかいい名
+前がないかなぁということでした。[/追記]
