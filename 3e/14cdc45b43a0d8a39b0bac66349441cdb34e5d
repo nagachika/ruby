@@ -1,0 +1,2 @@
+thread_pthread.h で semaphore.h を #include していたのを、もう使わなくなったの
+で削除しています。
