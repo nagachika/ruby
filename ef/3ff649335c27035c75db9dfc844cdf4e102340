@@ -1,0 +1,2 @@
+gc.c のマクロ global_List を global_list と "L" が大文字になっていたのを修正し
+ています。
