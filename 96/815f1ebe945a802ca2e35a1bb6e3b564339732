@@ -1,0 +1,7 @@
+rb_gc_mark_symbols() を削除しています。Symbol 名を表す fstring のマーク処理は
+static symbol と pindown された dynamic symbol (決して解放されないもの)は
+r46749 で rb_gc_register_mark_object() で登録してマークするようにされていて、そ
+れ以外の dynamic symbol のものは global_symbols.dsymbol_fstr_hash に登録して、
+これを Hash オブジェクトで包んだものを rb_gc_register_mark_object() で登録して
+マークされるようにして、global_symbols.id_str からのマーク処理はなくしています
+。
