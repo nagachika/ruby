@@ -1,0 +1,3 @@
+r46768 で symbol.h と symbol.c を parse.y から分離したために Solaris でのビルド
+が失敗したということで common.mk で dtrace の probe を含むファイルのリストを格
+納する変数に symbol.c を追加しています。
