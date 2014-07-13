@@ -1,0 +1,2 @@
+標準添付ライブラリ matrix で Vector#cross_product の符号が反転していた不具合を
+修正。ああー、これはひどい…。 [ruby-core:60564] [Bug #9499]
