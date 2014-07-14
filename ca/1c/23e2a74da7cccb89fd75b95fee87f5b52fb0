@@ -1,0 +1,6 @@
+test/ruby/envutil.rb の EnvUtil#assert_no_memory_leak で Solaris 版では環境変数
+LD_PRELOAD と UMEM_OPTIONS を付加して子プロセスを起動するようにしています。
+Solaris ではデフォルトの malloc(3) は free(3) してもシステムにメモリを返さない
+ため、すぐにシステムにメモリを返却するように利用するライブラリと動作モードを指
+定しているようです。メモリリークのテストは難しいですね。 [ruby-dev:48391] [Bug
+#10020]
