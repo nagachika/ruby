@@ -1,0 +1,2 @@
+標準添付ライブラリ net/smtp の Net::SMTP#send_message の書き込み時のバッファリ
+ングを有効にして効率化しています。 [ruby-dev:48329] [Feature #9981]
