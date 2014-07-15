@@ -1,0 +1,3 @@
+struct rb_iseq_struct の stack_max を size_t から uint32_t に型を変更(64bit 環
+境ではサイズの節約)して、ついでにアライメントを考慮してメンバの位置を移動してい
+ます。
