@@ -1,0 +1,5 @@
+rubygems の Gem.install メソッドに rest キーワード引数を受け付けるようにして、
+そのまま Gem::DependencyInstaller.new に渡すようにしています。また tool/
+rbinstall.rb で Gem.install に install_gem オプションを渡すようにして DESTDIR
+の設定を伝播させるようにしています。標準添付されている gem 化されたライブラリの
+インストール用でしょうか。
