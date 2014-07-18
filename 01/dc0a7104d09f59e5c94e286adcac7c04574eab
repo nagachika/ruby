@@ -1,0 +1,4 @@
+シグナルハンドラの登録を保持する C の配列 rb_vm_t::trap_list を削除して、Array
+オブジェクト trap_list_cmds と int の配列 trap_list_safes の2つのメンバに分解し
+て、マーク処理を Array オブジェクトを rb_gc_register_mark_object() で登録してお
+くことで済ませるようにしています。しかし次で revert されています。
