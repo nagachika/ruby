@@ -1,0 +1,5 @@
+rb_vm_t のマークのために VALUE で wrap したオブジェクトについて rb_gc_mark() 関
+数を呼んでいたのを、直接 rb_vm_mark() を呼ぶようにして、T_TYPEDDATA の mark 関
+数には関数ポインタを登録しないようにしています。そのかわり bitmap を更新するた
+め VALUE 型の値のほうも gc_mark_ptr() を直接呼び出しています。これは…なにが違
+うんでしょう。
