@@ -1,0 +1,2 @@
+parse_numeric() からさらに Rational リテラルのパース部分を parse_rational() と
+いう関数として切り出し。
