@@ -1,0 +1,2 @@
+拡張ライブラリ thread の Queue および SizedQueue の実装で引数のチェックに
+rb_check_arity() を使うなどして簡潔になるようにリファクタリングしています。
