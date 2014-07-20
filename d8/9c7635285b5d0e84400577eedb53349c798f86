@@ -1,0 +1,4 @@
+拡張ライブラリ win32ole で WIN32OLE_VARIANT.new に VT_RECORD(整数の 36 らしい。
+よく理解していませんが)を渡した時にチェックして例外を発生させるようにしています
+。 VT_RECORD は WIN32OLE_VARIANT じゃなくて WIN32OLE_RECORD を使うべきとのこと
+。
