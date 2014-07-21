@@ -1,0 +1,2 @@
+private な attr_accessor を定義した時に self.a += のようなメソッド呼び出しでが
+できない不具合を修正しています。 [ruby-core:63817] [Bug #10060]
