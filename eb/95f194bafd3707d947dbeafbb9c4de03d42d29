@@ -1,0 +1,2 @@
+拡張ライブラリ thread の undumpable() 関数に rdoc の nodoc タグをつけています。
+https://github.com/ruby/ruby/pull/672
