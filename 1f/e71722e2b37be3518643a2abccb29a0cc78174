@@ -1,0 +1,2 @@
+win32/Makefile.sub で PACKED_STRUCT() が古い VC で利用できない機能を使っていた
+ので空の定義を追加しています。
