@@ -1,0 +1,2 @@
+r46899 の続き。 OpenSSL の MD5 署名検証機能がサポートされなくなった環境のために
+OpenSSL::X509::CertificateError 例外を許容するようにしています。
