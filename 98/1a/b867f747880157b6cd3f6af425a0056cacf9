@@ -1,0 +1,2 @@
+r46903 の OpenSSL::X509::Request のテストで rescue する例外を OpenSSL
+::X509::RequestError に修正しています。
