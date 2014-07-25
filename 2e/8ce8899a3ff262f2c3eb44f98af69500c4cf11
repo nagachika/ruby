@@ -1,0 +1,2 @@
+Time#zone が 7bit ASCII 文字しか含まない時には文字列の Encoding は ASCII-8BIT
+にするように変更しています。
