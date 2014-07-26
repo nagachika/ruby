@@ -1,0 +1,6 @@
+r46884 で rb_io_buffer_t に PACKED_STRUCT() を使って構造体サイズを切り詰めるよ
+うにしたところ Sparc64 で Bus error が発生するようになったとのことで、
+PACKED_STRUCT() ではなく PACKED_STRUCT_UNALIGNED() を使うように変更しています。
+プラットフォームのことを考慮しているのは PACKED_STRUCT_UNALIGNED() で
+PACKED_STRUCT() は直接は使うべきではないとのこと。そうなのか…。
+[ruby-core:63988] [Bug #10088]
