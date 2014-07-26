@@ -1,0 +1,2 @@
+ext/rbconfig/sizeof/depend でソースツリー以外のディレクトリで nmake でビルトす
+る時の対応で sizes.c のターゲットの書きかたを修正しています。
