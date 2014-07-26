@@ -1,0 +1,4 @@
+構造体を pack するコンパイラの拡張機能を使うための関数マクロ
+PACKED_STRUCT_UNALIGNED() の定義を configure で定義してたのを include/ruby/
+defines.h で条件分岐して定義するようにしています。 universal binary のためとの
+こと。
