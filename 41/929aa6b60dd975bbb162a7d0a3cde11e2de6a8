@@ -1,0 +1,3 @@
+RGenGC のための構造体 rb_objspace_t::rgengc のメンバ parent_object_is_old を
+VALUE 型の parent_object に変更しています。あと gc_marks_body() でこのメンバの
+クリアのタイミングをすこし変更しています。詳細は追ってないので理由は不明。
