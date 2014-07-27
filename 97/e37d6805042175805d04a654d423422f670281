@@ -1,0 +1,2 @@
+compile.c の defined_expr() のリファクタリング。 https://github.com/ruby/ruby/
+pull/681
