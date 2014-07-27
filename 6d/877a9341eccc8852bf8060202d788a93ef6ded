@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の VT_RECORD サポートの追加。ちらっとしかみてないですが
+WIN32OLE_RECORD の WIN32OLE_VARIANT との相互の変換機能を追加しているっぽいです
+。
