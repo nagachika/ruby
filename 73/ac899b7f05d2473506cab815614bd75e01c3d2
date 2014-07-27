@@ -1,0 +1,4 @@
+拡張ライブラリ socket の Socket#gethostname でホスト名の最大サイズの定数
+HOST_NAME_MAX がない時に 1024 と決め打ちしてたのを、さらに NI_MXHOST や
+HOST_NAME_MAX などの定数もチェックするようにしています。 https://github.com/
+ruby/ruby/pull/683
