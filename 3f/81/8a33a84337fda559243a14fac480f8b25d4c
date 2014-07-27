@@ -1,0 +1,1 @@
+Gem::Util.silent_system で dup した IO オブジェクトの閉じ漏れを修正しています。
