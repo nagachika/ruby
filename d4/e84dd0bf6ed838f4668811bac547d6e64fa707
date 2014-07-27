@@ -1,0 +1,3 @@
+test/ripper/test_scanner_events.rb の空っぽだったテストメソッドに内容を追加して
+います。 Hash の {key: value} 記法や ->() { ... } の lambda 記法の lexer のテス
+ト。
