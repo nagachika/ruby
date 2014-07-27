@@ -1,0 +1,2 @@
+gc_mark_stacked_objects() で RGENGC_CHECK_MODE が有効なとき実施するチェックでの
+rb_bug() のメッセージを修正。
