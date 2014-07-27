@@ -1,0 +1,2 @@
+rb_gc_writebarrier_remember_promoted() の RGENGC_CHECK_MODE が有効な時のチェッ
+ク追加と AGE2_PROMOTION の時の対応。
