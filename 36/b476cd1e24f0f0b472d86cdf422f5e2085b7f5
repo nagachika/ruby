@@ -1,0 +1,5 @@
+構造体 struct iseq_compile_data_storage でも pos, size を unsigned long から
+unsigned int に変更し、さらに別途メモリ領域を確保してそのポインタを buff に保持
+するようにしていたのを、char buff[1] のような配列として宣言しておいて必要なサイ
+ズのぶんこの構造体につけたしてまとめてメモリ確保するようにしてサイズを削減して
+います。 C ではよくやる手法ですが、いやーすごい執念だなぁ。
