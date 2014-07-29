@@ -1,0 +1,4 @@
+Method#super_method および UnboundMethod#super_method というメソッドを追加して
+Method/UnboundMethod オブジェクトがそこで super が呼ばれたら呼び出されるメソッ
+ドを Method/UnboundMethod オブジェクトとして返すようにしています。先日の開発者
+会議で採択された新機能みたいです。 [ruby-core:62202] [Feature #9781]
