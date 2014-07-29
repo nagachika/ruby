@@ -1,0 +1,2 @@
+irb の rdoc 用コメントで IRB.conf の :PROMPT_I の値が nil だったけど nil は不正
+なので ">>" に修正しています。 https://github.com/documenting-ruby/ruby/pull/37
