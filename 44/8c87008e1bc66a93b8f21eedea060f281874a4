@@ -1,0 +1,2 @@
+標準添付ライブラリ cgi、erb、mkmf、net/http、optparse、prime、racc、rexml など
+でも未使用のローカル変数を削除して警告除去しています。
