@@ -1,0 +1,3 @@
+rb_print_undef()、rb_print_undef_str() および r46961 で切り出した
+rb_print_inaccessible() で PRIsVALUE を利用するように、また必要に応じてクオート
+するようにしています。
