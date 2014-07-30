@@ -1,0 +1,3 @@
+Symbol GC の導入に絡んで、内部的に ID を利用していたけど ID を直接使う必要はな
+いところでは ID ではなくて Symbol を使うようにして、不要な pindown による
+Immortal Symbol 化を防いでいます。
