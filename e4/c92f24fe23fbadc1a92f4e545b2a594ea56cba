@@ -1,0 +1,3 @@
+common.mk の clean-platform ターゲットのコマンドで /dev/null を決め打ちで書いて
+いたところがあったので Windows 環境などを考慮して $(NULL) という変数を利用する
+ようにしています。
