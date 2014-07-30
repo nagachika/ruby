@@ -1,0 +1,2 @@
+File.file? の symbolic link の扱いについて追記と、マークアップの修正。
+[ruby-core:63842] [Bug #10067]
