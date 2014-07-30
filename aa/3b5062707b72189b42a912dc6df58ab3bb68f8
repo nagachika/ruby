@@ -1,0 +1,2 @@
+定数 Bignum::GMP_VERSION、Dir::FNM_SYSCASE の rdoc 用コメント追加、nodoc タグの
+追加などドキュメントの修正。
