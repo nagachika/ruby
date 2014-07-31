@@ -1,0 +1,2 @@
+compile.c の compile_data_alloc() で gcc-4.2 での警告抑制のため明示的なキャスト
+を追加しています。
