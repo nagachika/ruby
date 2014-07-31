@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_RECORD から WIN32OLE_VARIANT への変換時にイ
+ンスタンス変数 fields の Hash の値が nil のものはスキップするようにしています。
