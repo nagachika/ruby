@@ -1,0 +1,5 @@
+Marshal.load で Symbol を load する時に sym2encidx() の引数に r_symbol() と
+r_object() を直接書いていたのを、先に r_symbol() を呼んで結果を変数に代入するよ
+うにしています。 r_symbol() と r_object() は Marshal.load の読み込み元からの入
+力を読む副作用のある関数なので、呼ばれる順番に意味がありますが、関数の引数は評
+価順が定まっていないので、明示的に r_symbol() を先に呼ばれるようにしています。
