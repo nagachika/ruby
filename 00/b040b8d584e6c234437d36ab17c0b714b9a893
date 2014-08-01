@@ -1,0 +1,2 @@
+r47003 で導入した rb_to_symbol() を ID2SYM(rb_to_id(id)) を使っていたところに利
+用して不要な pindown を避けるようにしています。
