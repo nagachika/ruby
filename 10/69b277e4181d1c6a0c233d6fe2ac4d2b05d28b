@@ -1,0 +1,4 @@
+拡張ライブラリ win32ole に WIN32OLE_RECORD#ole_instance_variable_set および
+WIN32OLE_RECORD#ole_instance_variable_get というメソッドを追加しています。ここ
+でいうインスタンス変数というのは Ruby のインスタンス変数のことではなくて OLE に
+おけるインスタンス変数のことなんでしょうね。
