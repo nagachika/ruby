@@ -1,0 +1,2 @@
+Numeric#div, Numeric#remainder, #divmod などのメソッドで Float::NAN で割り算し
+た時の FloatDomainError が発生することを確認するテストを追加しています。
