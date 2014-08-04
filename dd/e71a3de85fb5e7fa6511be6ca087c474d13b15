@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_PARAM.new、 WIN32OLE_RECORD.new、
+WIN32OLE_RECORD#inspect および定数の rdoc 用コメントを追記しています。
