@@ -1,0 +1,3 @@
+拡張ライブラリ strscan の StringScanner#aref での IndexError 例外メッセージの作
+成時に文字列のエンコーディングを保持したままメッセージに埋め込むようにしていま
+す。
