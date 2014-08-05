@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole のソースファイルを分割して WIN32OLE::VARIANT の実装部分
+を win32ole_variant_m.(h,c) に分離しています。
