@@ -1,0 +1,4 @@
+拡張ライブラリ objspace、openssl、strscan、tk で Symbol の文字列化のために
+rb_id2name(SYM2ID()) を使っていたところも同様に rb_sym2str() を使って String オ
+ブジェクトに変換することで不要な pindown を避けて、エンコーディングを保持したま
+ま処理するように(メッセージ等に埋め込む場合)しています。
