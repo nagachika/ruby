@@ -1,0 +1,3 @@
+symbol.h から SYMBOL_PINNED, SYMBOL_PINNED_P() ID_DYNAMIC_SYM_P()、
+STATIC_SYM2ID()、STATIC_ID2SYM() などのマクロ定義は外部から使わなくなったので
+symbol.c へ移動しています。
