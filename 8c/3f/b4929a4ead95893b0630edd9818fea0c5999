@@ -1,0 +1,5 @@
+拡張ライブラリ win32ole で Hash オブジェクトの要素についてループするために
+rb_block_call() で each メソッドを呼び出すということをしていたのを、直接
+rb_hash_foreach() を呼ぶように変更しています。また WIN32OLE_VARIANT の rdoc 用
+コメントを追加しています。 ChangeLog の日付が日本語?になってて文字化けしてます
+ね。
