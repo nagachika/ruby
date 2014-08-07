@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の ole_invoke() で引数が VT_RECORD の時の考慮をするよう
+にしています。
