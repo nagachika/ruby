@@ -1,0 +1,3 @@
+gems/bundled_gems のパッケージに同梱する gem の test-unit を 2.5.5 から 3.0.0
+に、minitest を 5.3.4 から 5.4.0 に更新し、さらに power_assert も同梱するように
+しています。 power_assert は test-unit からの依存関係みたいですね。
