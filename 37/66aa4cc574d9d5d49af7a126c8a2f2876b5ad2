@@ -1,0 +1,2 @@
+標準添付ライブラリ set で Set#clone を実装しています。 initialize_clone メソッ
+ドを追加することで対応しています。 https://github.com/ruby/ruby/pull/661
