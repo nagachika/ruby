@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http で Net::HTTP::Options のレスポンスが body を持てる
+ようにしています。 [ruby-core:55093] [Feature #8429] 参考URL: http://
+tools.ietf.org/html/rfc7231#section-4.3.7
