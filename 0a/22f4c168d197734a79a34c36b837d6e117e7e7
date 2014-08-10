@@ -1,0 +1,3 @@
+標準添付ライブラリ securerandom で OpenSSL::BN が利用可能だった時は OpenSSL
+::BN.rand を利用するようにしています。高速化のためみたいです。また benchmark に
+SecureRandom.random_number のベンチマークを追加しています。
