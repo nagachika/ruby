@@ -1,0 +1,2 @@
+test/ruby/test_syntax.rb で Tempfile の削除を ensure 節にすることで例外発生時の
+閉じ忘れを防ぐようにしています。
