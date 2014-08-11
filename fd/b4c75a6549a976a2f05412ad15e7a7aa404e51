@@ -1,0 +1,3 @@
+test_io.rb のテストで Tempfile の削除を Tempfile.open のブロック内で行なってい
+たのが Windows だと開いているファイルは削除できないので、close 後に消すようにし
+ています。
