@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_PARAM の実装部分を win32ole_param.(hc) へ分
+離しています。
