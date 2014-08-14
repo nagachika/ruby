@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils の内部的なクラス FileUtils::Entry_ の private メソ
+ッドの名称の typo 修正。 [ruby-dev:47831] [Bug #9180]
