@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_METHOD への変換メソッドの実装を
+win32ole_method.c へ移動しています。
