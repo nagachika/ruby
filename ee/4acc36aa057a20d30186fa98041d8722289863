@@ -1,0 +1,2 @@
+README.EXT の Appendix E として RB_GC_GUARD() についてのドキュメントを追加して
+います。おお。 [ruby-core:60741] [Bug #10100]
