@@ -1,0 +1,5 @@
+thread_pthread.c で pthread_mutex_t や pthread_mutex_lock/unlock() 関数を直接使
+っていたところを rb_nativethread_lock_t や native_mutex_lock/unlock() などの
+generic な wrapper 関数を利用するように修正しています。また mutex や cond の初
+期化のためのマクロ RB_NATIVETHREAD_LOCK_INIT と RB_NATIVETHREAD_COND_INIT も導
+入しています。 [ruby-core:64364] [Feature #10134]
