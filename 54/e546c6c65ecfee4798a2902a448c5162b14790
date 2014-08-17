@@ -1,0 +1,3 @@
+vm.c の rb_thread_mark() で method entry の mark についてのコメントを変更してい
+ます。詳細はリンク先のメールを確認してもらいたいですが bitmap marking してもあ
+んまり効果はないと思うよという内容に変更されています。
