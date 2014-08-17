@@ -1,0 +1,3 @@
+r46977 でリンク切れのため削除した compat_common_month_table のテーブルについて
+のコメントを revert して戻して、リンクは internet archive へ変更しています。
+[ruby-core:63857] [Bug #10071]
