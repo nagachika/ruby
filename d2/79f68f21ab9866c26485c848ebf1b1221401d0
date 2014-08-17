@@ -1,0 +1,2 @@
+cont.c の CAPTURE_JUST_VALID_VM_STACK が未定義の時(ソースコード内で定義されてい
+るので実質コメントアウトされたコード)の関数呼び出しの typo 修正。
