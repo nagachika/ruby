@@ -1,0 +1,2 @@
+Kernel#sleep や IO#select のタイムアウトの数値に Float を渡した時の tv_nsec の
+オーバフロー時の処理を追加しています。 [ruby-core:64407] [Bug #10144]
