@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の WIN32OLE_EVENT の実装で evs_length が Array オブジェ
+クトに rb_funcall() で length メソッドを呼ぶという実装だったのを RARRAY_LEN()
+マクロを利用するように変更しています。
