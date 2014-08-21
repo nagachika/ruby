@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の ole_invoke() で RHASH_SIZE() を int 型の変数に代入し
+ていたところで、オーバフローを検出するため rb_long2int() を呼ぶようにしています
+。
