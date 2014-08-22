@@ -1,0 +1,11 @@
+Thread のテストでメインスレッドが子 Thread の実行中に終了した時のテストでメイン
+スレッドの Thread#run を呼び出すようにしています。はて、この後で Thread.pass で
+メインスレッドの Thread#stop? が真になるまでループしているのですが、これ必要な
+のかな…。まあ必要だったんでしょうね。Thread.new で子 Thread を作った瞬間は
+stop 状態になるんでしょうか。
+mt = Thread.current
+Thread.new { p mt.stop? } # => false
+Thread.start { p mt.stop? } #=> false
+とやってみると、どちらも false になるみたいですけど。(Thread.new と
+Thread.start には作った子 Thread をすぐに実行するか、後のコンテキストスイッチ時
+に実行開始するかが違ってたはずだけど stop? の結果には影響しない模様)
