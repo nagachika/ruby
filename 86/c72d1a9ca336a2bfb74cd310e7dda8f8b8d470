@@ -1,0 +1,4 @@
+configure の RUBY_TRY_CFLAGS, RUBY_TRY_LDFLAGS, RUBY_CHECK_BUILTIN_SETJMP,
+RUBY_SETJMP_TYPE などの AC_DEFUN() での定義でクオートされていないため、autoconf
+でバージョンによっては警告が出ているのを修正するため、 [] で囲んでいます。
+[ruby-core:64473] [Bug #10156]
