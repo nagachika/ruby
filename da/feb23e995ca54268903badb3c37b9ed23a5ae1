@@ -1,0 +1,6 @@
+Struct#inspect の実装で rb_obj_class() の戻り値を rb_class_name() に渡していた
+のですが、rb_obj_class() はオブジェクトの struct RBasic::klass を rb_class_real
+() に渡して Ruby スクリプトから見えるクラスを(内部的には特異クラスや prepend し
+た Module のための IClass が挟まれてたりするので、それをスキップするため)取得す
+るようになっていて、rb_obj_class() も同様の処理が入っていて重複しているので、よ
+り直接的な関数 rb_class_path() を呼ぶように変更しています。
