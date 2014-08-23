@@ -1,0 +1,2 @@
+lib/rinda/ring.rb からも if __FILE__ == $0 で括ったサンプルコードを sample/
+rinda-ring.rb に分離しています。
