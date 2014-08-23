@@ -1,0 +1,4 @@
+Windows 版での reverse (ESC[7m) というエスケープシークエンスが正常に働かない不
+具合を修正。 Windows 版はエミュレートしているので、reverse 用の引数を追加して
+foreground と background の入れ換えする実装を追加しているようです。詳細は読んで
+いませんが、地道なエミュレート大変そうです。 [ruby-dev:48483] [Bug #10158]
