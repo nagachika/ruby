@@ -1,0 +1,2 @@
+test/ruby/test_complex.rb のコメントアウトされていた assertion を削除しています
+。ふーむ、これは本当にいらないやつだったのかな。
