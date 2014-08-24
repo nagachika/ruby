@@ -1,0 +1,4 @@
+互換性のために組み込みになった Complex と Rational の初期化時に
+$LOADED_FEATURES に complex.so と rational.so を追加するようにしています。 1.9
+(確か)で組み込みになった Enumerator のための "enumerator.so" と同じようなもので
+すかね。
