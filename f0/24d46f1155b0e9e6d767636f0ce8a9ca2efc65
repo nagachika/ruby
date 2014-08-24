@@ -1,0 +1,4 @@
+r43888 の make Doxyfile の変更で C API のドキュメントが $BASERUBY の存在が必要
+になってしまっていたので miniruby を利用するように修正しています。またこのため
+にライブラリ time.rb を利用しないようにしています。 [ruby-core:64488] [Bug #
+10161]
