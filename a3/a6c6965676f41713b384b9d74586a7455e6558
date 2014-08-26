@@ -1,0 +1,2 @@
+test/ruby/test_complex.rb に Complex や Rational が組込みになる前のものと思われ
+る条件分岐があったので削除しています。
