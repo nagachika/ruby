@@ -1,0 +1,6 @@
+標準添付ライブラリ benchmark で時間をはかるのに Time.now による時刻ではなく
+Process.clock_gettime を利用するようにしています。 Time.now はシステムの時計の
+調整で歪む可能性がありますが、Process.clock_gettime の CLOCK_MONOTONIC もしくは
+CLOCK_REALTIME のどちらかを利用するようにしています。チケットをみると精度の問題
+というより Time.now でオブジェクトが生成されるので速度や GC 圧力になることを避
+けるのが主目的みたいですね。 [ruby-core:64511] [Feature #10165]
