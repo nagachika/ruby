@@ -1,0 +1,2 @@
+Range のテストでも $VERBOSE 対策として assert_separately の stderr のメッセージ
+を無視するオプションを利用するようにしています。
