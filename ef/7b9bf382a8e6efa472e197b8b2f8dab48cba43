@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で VT_DATE 型の WIN32OLE のオブジェクトから millisecond
+の精度までを Time オブジェクトに変換するようにしています。
