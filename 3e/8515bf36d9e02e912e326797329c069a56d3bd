@@ -1,0 +1,4 @@
+標準添付ライブラリ drb, irb, net/telnet, rdoc, thwait などで Module#attr を利用
+していたところを attr_reader を利用するように変更しています。 Module#attr、そう
+いうのもあったなぁと思ったら deprecated になっていたようです。
+[ruby-core:64582] [Feature #10172]
