@@ -1,0 +1,4 @@
+IO.open などのエンコーディングのオプション解析で、指定が(external_encoding/
+internal_encoding と encoding オプションで)重複した時の警告メッセージに埋め込む
+文字列を %s ではなくて PRIsVALUE で埋め込むことでエンコーディングを保持するよう
+にしています。
