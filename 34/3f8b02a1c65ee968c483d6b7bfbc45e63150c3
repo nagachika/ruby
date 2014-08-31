@@ -1,0 +1,5 @@
+r47310 の frozen_strings の移動を revert して、かわりに frozen_strings を利用す
+るところで直接 static 変数を参照するのではなくて rb_vm_fstring_table() という関
+数を経由して取得するようにしています。チケットの議論によると MVM は今停止されて
+いるので、そのためにヘッダの依存関係を増やしたくないなぁ、ということだそうです
+。 [ruby-core:64627] [Feature #10182]
