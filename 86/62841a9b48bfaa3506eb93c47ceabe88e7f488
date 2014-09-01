@@ -1,0 +1,4 @@
+拡張ライブラリ psych で数字と改行を含む文字列を古い(Psych 1.3.4 で) dump した結
+果を load しようとするとエラーになっていたのを修正しています。dump 時の余分な改
+行をなくした時に load できなくなったんでしょうかね。 https://github.com/
+tenderlove/psych/issues/189
