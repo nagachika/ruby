@@ -1,0 +1,3 @@
+拡張ライブラリ psych で NameError 例外オブジェクトを load できなかった不具合を
+修正しています。むしろこんなものまでまともに dump/load できるんですね。 https:/
+/github.com/tenderlove/psych/issues/85
