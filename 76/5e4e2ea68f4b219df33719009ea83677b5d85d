@@ -1,0 +1,3 @@
+rb_sym2id() で pindown されていない Symbol を pindown してから返す場合
+dsymbol_pindown() の戻り値を返すようにしています。 pindown する前の sym を返し
+てしまっていたのでたまに test-all で SEGV が発生していたとのこと。
