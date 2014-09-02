@@ -1,0 +1,5 @@
+r47260 および r47262 で Benchmark の時間計測を Process.clock_gettime に変更して
+環境によっては失敗するようになったテストで assert_in_delta を使っていたのを
+assert_in_epsilon を利用するように変更しています。 assert_in_delta はデフォルト
+の誤差が 0.001 なのに対して assert_in_epsilon はテストする値からの相対値
+(sleeptime が 1.0 ならおおよそ 0.001、つまり現在だとほぼ同じ)になります。
