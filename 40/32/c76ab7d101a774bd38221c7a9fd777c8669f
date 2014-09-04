@@ -1,0 +1,4 @@
+tool/rbinstall.rb での bundle gems (標準添付ライブラリではなく、gem パッケージ
+を ruby の tar.bz2 などのパッケージに同梱するもの)のインストール時にエラーにな
+るのを避けるため Gem.install に :local オプションと :ignore_dependencies オプシ
+ョンを追加しています。 [ruby-core:64702] [Bug #10192]
