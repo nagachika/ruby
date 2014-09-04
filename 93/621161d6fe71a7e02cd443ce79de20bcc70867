@@ -1,0 +1,5 @@
+process.c の retry_fork() を retry_fork_async_signal_safe() と retry_fork_ruby
+() に分割して、こちらも引数で async-signal-safe かどうかの指定を渡していたのを
+関数ごと別の定義にするようにリファクタリングしています。これは before_fork() と
+after_fork() の呼び出しの有無だけなので、分ける必要あるかなぁ、ちょっと微妙な気
+がしますね。
