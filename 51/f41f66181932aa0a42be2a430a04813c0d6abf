@@ -1,0 +1,6 @@
+r47302 で追加した IO.new にブロックを渡した時の警告のテストで、IO#fileno で
+file descriptor を渡す元の IO オブジェクト(pipe) の autoclose を false に設定し
+て、fd 利用前に閉じられないようにしています。 Errno::EBADF の対策とのこと。しか
+し autoclose は finalize 時に close されるかどうかの制御だと思うのですが、元に
+なる IO はそれぞれローカル変数やブロックパラメータに格納されているので GC され
+ないような気がするんですよね。はて…。
