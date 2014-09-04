@@ -1,0 +1,3 @@
+process.c の retry_fork() から fork(2) の戻り値をチェックして errno によっては
+GC を実行したり sleep 入れたりしてリトライしている処理を handle_fork_error() と
+いう関数に切り出すリファクタリング。
