@@ -1,0 +1,4 @@
+process.c の fork した子プロセスからエラーを pipe 経由で送受信する処理の関数
+send_child_error() と recv_child_error() でコールバック関数が async-signal-safe
+かどうかのフラグを削除して、常に async-signal-safe であるものとして扱うようにし
+て処理をシンプルにしています。
