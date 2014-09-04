@@ -1,0 +1,9 @@
+環境変数 COVERAGE を設定している時に make test-all でのカバレッジを simplecov
+を利用して出力するようにしています。 simplecov は hsbt さんが fork したものを
+git clone して使うようにしているみたいです。このためまず make update-coverage
+しておかないといけないみたいです。依存関係をつけたほうがいいかも? 結果は
+coverage ディレクトリに HTML できれいに出力されます。便利。 [ruby-core:64681]
+[Feature #10189] https://github.com/ruby/ruby/pull/708
+あと、ソースディレクトリとは別のところでビルドしていると、そのビルドディレクト
+リ以下のファイルのみ対象にしているみたいで .ext/common/openssl/*.rb の結果だけ
+出力されますね。
