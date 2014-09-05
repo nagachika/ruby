@@ -1,0 +1,2 @@
+tool/make-snapshot で X.Y のような記法も受け付けるようになったことを usage に追
+加しています。
