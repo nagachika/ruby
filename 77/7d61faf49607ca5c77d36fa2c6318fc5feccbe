@@ -1,0 +1,2 @@
+process.c の関数マクロ before_fork()/after_fork() をそれぞれ before_fork_ruby()
+/after_fork_ruby() と改名しています。
