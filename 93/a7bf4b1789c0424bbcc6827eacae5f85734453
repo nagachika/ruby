@@ -1,0 +1,4 @@
+configure.in に AC_FUNC_FORK を追加して fork(2), vfork(2) のチェックをさせて
+(AC_CHECK_FUNCS で fork はチェックしていましたが AC_FUNC_FORK は両方チェックし
+て HAVE_WORKING_FORK というマクロを定義してくれるそうです)これを使って fork(2)
+の有無を判定するように変更しています。
