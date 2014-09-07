@@ -1,0 +1,2 @@
+拡張ライブラリ pathname の Pathname#mountpoint のテストを追加しています。こんな
+メソッドもあるのか。 https://github.com/ruby/ruby/pull/709
