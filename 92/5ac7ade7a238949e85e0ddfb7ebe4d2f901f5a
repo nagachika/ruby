@@ -1,0 +1,2 @@
+標準添付ライブラリ shellwords の rdoc 用コメントの文法修正です。
+[ruby-core:64471] [Bug #10155]
