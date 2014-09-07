@@ -1,0 +1,2 @@
+r47386 の権限チェックの実装で getresuid()/getresgid() の実装を AIX では getuidx
+() と getgidx() というシステムコールを利用して実装するようにしています。
