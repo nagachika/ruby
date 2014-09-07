@@ -1,0 +1,6 @@
+process.c の handle_fork_error() で try_gc という変数の宣言に volatile 修飾子を
+追加しています。コンパイラの "clobbered by 'longjmp' or 'vfork'" 警告を抑制する
+ためとのこと。 rb_jump_tag() を呼んでいるからかと思いましたが rb_jump_tag() は
+eval.c で関数として定義されているから展開されないし、はて、どこで警告が出るんだ
+ろう。 handle_fork_error() が inline に展開された時に、呼び元の vfork() がある
+からかも。
