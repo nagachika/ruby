@@ -1,0 +1,3 @@
+Symbian は 2013年に最後の端末が出荷されてもうサポートも打ち切られているそうで
+(参考URL: http://symbian.nokia.com/ )、ruby も Symbian サポートを削除しています
+。 [ruby-core:64725] [Feature #10199]
