@@ -1,0 +1,2 @@
+標準添付ライブラリ csv の CSV::Row や CSV::Table のテストメソッドをいくつか追加
+しています。 https://github.com/ruby/ruby/pull/710
