@@ -1,0 +1,8 @@
+process.c にさらに fork 時の処理として disable_child_handler_before_fork()、
+disable_child_handler_fork_parent()、disable_child_handler_fork_child() などの
+関数を追加して、fork(2) や vfork(2) で作った子プロセスでシグナルハンドラの設定
+を SIG_DFL にリセットするようにしています。しかしその前に割り込まれてしまわない
+ように fork()/vfork() の瞬間にシグナルをマスクしておくようにしています。 fork
+前にマスクしておかないと子プロセスでリセットする処理の前に割り込まれる可能性が
+あるので、親プロセスでマスクしてから fork し、親ではすぐ元に戻して、子プロセス
+ではシグナルハンドラのリセット後にマスクを外すようにしています。
