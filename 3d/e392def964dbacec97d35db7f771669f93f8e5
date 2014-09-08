@@ -1,0 +1,5 @@
+r47412 で導入した disable_child_handler_before_fork()、
+disable_child_handler_fork_parent()、disable_child_handler_fork_child() の引数
+の sigset_t のかわりに struct child_handler_disabler_state という構造体を定義し
+て使うようにしています。ただこの構造体の内容は sigset_t だけなので実質的には(ま
+だ)変化ありません。
