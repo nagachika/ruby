@@ -1,0 +1,5 @@
+ruby_signal() で sigaction(3) でシグナルハンドラを設定する時に SIG_IGN と
+SIG_DFL に設定する時に flags に SA_SIGINFO をセットしないようにしています。
+SA_SIGINFO はシグナルハンドラ関数のインタフェースを指定する(3引数あることを教え
+る)ものですが、SIG_IGN と SIG_DFL の設定の時はシグナルハンドラ関数は渡していな
+いので。
