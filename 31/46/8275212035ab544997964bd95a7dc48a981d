@@ -1,0 +1,6 @@
+rb_exec_async_signal_safe() の中で before_exec_async_signal_safe() と(エラー時
+に) after_exec_async_signal_safe() を呼んでいたのをやめて、
+rb_exec_async_signal_safe() の呼び出し側の前後で呼ぶようにしています。また fork
+した子プロセスでシグナルハンドラをリセットする disable_child_handler_fork_child
+() で SIGPIPE だけは元のハンドラに戻すようにしています。エラー時などに親プロセ
+スにエラー内容を渡すために pipe に書き込みをするからですかね。
