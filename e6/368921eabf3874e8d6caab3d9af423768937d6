@@ -1,0 +1,10 @@
+r47437 で pthread_setcancelstate(3) を使って fork 前後で pthread の cancelstate
+をリセット/復元していた部分で PTHREAD_CANCEL_DISABLE が未定義の時はコンパイルし
+ないようにしています。 Android でこの定数が存在しないそうです。
+ちなみに akr さんがブログで詳しく書かれていますが (参考URL: http://
+www.a-k-r.org/d/2014-09.html#a2014_09_06 )、pthread_setcancelstate() で cancel
+無効化しているのは、子プロセスで pthread_cleanup_push(3) で登録した関数が
+cancel 時に呼び出される可能性があるのを潰すために念のためやっておく、というもの
+だそうです。 vfork(2) 利用時は子プロセスで意図しない処理が(atexit(3)、シグナル
+ハンドラ、pthread_atfork(3) など)実効されないように注意しないといけないようです
+。なかなか大変ですね。
