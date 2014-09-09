@@ -1,0 +1,3 @@
+r47441 の Mac OS X で vfork(2) の利用を無効化するのを ac_cv_func_vfork_works=no
+を設定していたのを ac_cv_func_vfork=no に変更しています。 ac_cv_func_vfork_work
+は上書きされてしまうので効かなかったそうです。
