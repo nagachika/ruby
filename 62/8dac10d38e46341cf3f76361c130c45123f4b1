@@ -1,0 +1,5 @@
+benchmark/ ディレクトリに lambda calculus を使った FizzBuzz の実装を追加してい
+ます。
+"Understanding Computation" という書籍で説明されている実装だそうです。 http://
+computationbook.com/
+もうすぐ日本語訳も出るそうです。 http://www.oreilly.co.jp/books/9784873116976/
