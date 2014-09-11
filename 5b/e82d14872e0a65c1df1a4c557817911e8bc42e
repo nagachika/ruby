@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf.rb で pkgconfig --cflags の内容を $CXXFLAGS にも追加す
+るようにしています。 [ruby-core:54532] [Bug #8315]
