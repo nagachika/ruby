@@ -1,0 +1,2 @@
+更に rb_objspace_t のメンバ marked_objects を marked_slots に改名して GC.stat
+の対応するキーも改名しています。
