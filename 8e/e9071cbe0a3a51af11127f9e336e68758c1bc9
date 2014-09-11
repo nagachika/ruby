@@ -1,0 +1,10 @@
+構造体 rb_objspace_t::heap_pages のメンバ名を改名したり(と、いうか used,
+length, limit, increment が allocated_pages, allocatable_pages, sorted_length
+になっていて1つ減っているのですがこれは…。limit が使われてなかったのかな)、そ
+れに対応して GC.stat のキーの名前も変更したりしています。 [ruby-core:63021]
+[Feature #9924]
+ここに改名の履歴がありました https://docs.google.com/spreadsheets/d/
+11Ua4uBr6o0k-nORrZLEIIUkHJ9JRzRR0NyZfrhEEnc8/edit?pli=1#gid=0
+..._slot -> ..._slots とかは正直どっちでもいいのであんまり変えて欲しくないよう
+な…(それか両方で取れるかようにしておくか)。まあ GC.stat の内容なんて実装の詳細
+に関係するので、全体としては変わってしまうのはしょうがないと思います。
