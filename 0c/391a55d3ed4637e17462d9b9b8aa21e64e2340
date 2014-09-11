@@ -1,0 +1,6 @@
+gc.c の ruby_disable_gc_stress という GC.stress を一時的に無効化するフラグを削
+除して、かわりに ruby_disable_gc というフラグを追加しています。
+ruby_disable_gc_stress は SIGSEGV のハンドラで立ててそれ以降の GC.stress を無視
+させるようにしていたのですが、通ることが多い GC.stress の条件分岐の条件を減らし
+て、そもそも SIGSEGV の後始末では GC を実行しないようにしてしまうようにしている
+ようです。
