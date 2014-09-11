@@ -1,0 +1,4 @@
+rb_objspace_t::flags::gc_stressfull という bit field フラグを追加して、
+gc_stress メンバは gc_stress_mode と改名して、両方をセットするようにしておいて
+、newobj_of() では bit field のほうを参照するようにしています。これもキャッシュ
+効率をよくして高速化のためだと思われます。どれくらい効くのかな…。
