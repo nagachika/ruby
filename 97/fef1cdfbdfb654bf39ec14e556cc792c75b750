@@ -1,0 +1,5 @@
+rb_objspace_t のメンバを total_allocated_object_num -> total_allocated_objects
+および total_allocated_object_num_at_gc_start ->
+total_allocated_objects_at_gc_start、total_freed_object_num ->
+total_freed_objects と改名、対応して GC.stat の返すキーの Symbol 名も変更してい
+ます。
