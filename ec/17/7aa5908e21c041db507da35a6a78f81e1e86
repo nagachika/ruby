@@ -1,0 +1,5 @@
+const char * 型の C の文字列を pindown せずに ID 化する
+rb_intern_cstr_without_pindown() でテーブルから取得できた ID が Dynamic Symbol
+の ID だった時に dsymbol_check() を呼び出して LazySweep で回収予定の Symbol を
+参照してしまわないようにしています。 [Bug #10206] に関連した修正で、いくらか
+crash する確率を減らしてくれるけどまだ完全に直ってはいない、とこのと。
