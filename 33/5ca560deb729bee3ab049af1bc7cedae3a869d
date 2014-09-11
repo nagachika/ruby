@@ -1,0 +1,3 @@
+Incremental GC の導入時に追加された enum gc_stat の定数の名称に gc_stat_ と
+prefix を追加して、遷移を gc_stat_transition() という関数で行うようにして、遷移
+前と遷移先が整合しているかチェックするようにしています。
