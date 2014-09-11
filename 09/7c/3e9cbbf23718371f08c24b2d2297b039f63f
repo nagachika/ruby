@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf で pkgconfig の --cflags-only-I や --cflags-only-other
+が使えたらそれを使って $INCFLAGS と cflags に分離してプリプロセッサ用のオプショ
+ンを別に渡せるようにしています。
