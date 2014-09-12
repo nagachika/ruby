@@ -1,0 +1,3 @@
+Time の実装で TypedDateStruct で持たせたポインタの NULL チェックをしているとこ
+ろは、NULL にはなりえないのでチェックを削ってわずかに高速化させています。
+[ruby-core:64907] [Feature #10219]
