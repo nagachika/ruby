@@ -1,0 +1,1 @@
+compile.c の rb_vm_addr2insn() を rb_vm_insn_addr2insn() に改名しています。
