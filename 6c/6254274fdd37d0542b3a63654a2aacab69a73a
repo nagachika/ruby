@@ -1,0 +1,3 @@
+GC.stat が返す GC の統計情報の名称変更や項目追加をしています。
+:heap_available_slots というキーを追加しています。 [ruby-core:63021] [Feature #
+9924]
