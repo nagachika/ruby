@@ -1,0 +1,3 @@
+GC.stat の GC 統計情報に :total_allocated_pages と :total_freed_pages という項
+目を追加しています。それぞれ文字通り page(slot の配列)の確保/解放回数が管理され
+るようです。 [ruby-core:63021] [Feature #9924]
