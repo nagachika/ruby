@@ -1,0 +1,5 @@
+標準添付ライブラリ benchmark で時刻の計測のために Process.clock_gettime のクロ
+ックの種類に CLOCK_MONOTONIC_RAW が使えたらこれを優先的に利用するようにしていた
+r47320 および r47330 の変更を revert しています。 ARM で Benchmark.realtime の
+テストが失敗していたそうです。 [ruby-core:64744] [Bug #10202]
+normalperson さんは計測には外部から調整された時計を使うべき派みたいですね。
