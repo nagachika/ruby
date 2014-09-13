@@ -1,0 +1,1 @@
+NEWS ファイルに nil, true, false が freeze されたことを追記しています。
