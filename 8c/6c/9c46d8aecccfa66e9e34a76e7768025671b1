@@ -1,0 +1,3 @@
+fatal や NoMemoryError、SystemStackError などの異状終了する系の例外オブジェクト
+を事前にインスタンスを作っておく処理を rb_vm_register_special_exception() とい
+う関数として抽出しています。
