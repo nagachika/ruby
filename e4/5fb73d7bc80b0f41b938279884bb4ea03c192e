@@ -1,0 +1,3 @@
+VM の stack を markする時に、スタックポインタまでは rb_gc_mark_values() を使っ
+て mark するようにしています。残りは rb_gc_mark_locations() を使って
+conservative に mark しています(元から)。
