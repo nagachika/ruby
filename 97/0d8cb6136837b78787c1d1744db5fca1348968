@@ -1,0 +1,8 @@
+インクリメンタルGCの導入に伴い TracePoint のイベントの種類に
+RUBY_INTERNAL_EVENT_GC_ENTER と RUBY_INTERNAL_EVENT_GC_EXIT を追加しています。
+インクリメンタルGC では LazySweep と同様に細切れに mark 処理が走るようになるの
+で、GC に関連した処理(mark, sweep)を実行する都度イベントを発生させることで GC
+時間を正確に計測できるようにしています。
+あれ、これまでは LazySweep のそれぞれの sweep で発火するイベントは存在しなかっ
+たんでしったっけ? r43997 で mark と sweep の全体の終了のイベントは追加されてい
+ましたが、1 heap ごとのイベントはなかったみたいですね。
