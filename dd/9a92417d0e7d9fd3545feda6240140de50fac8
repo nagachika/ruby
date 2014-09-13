@@ -1,0 +1,2 @@
+r47523 のテストに true.frozen? などが true を返すことをチェックする assertion
+を追加しています。 [ruby-core:57273] [Feature #8923]
