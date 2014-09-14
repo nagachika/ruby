@@ -1,0 +1,6 @@
+Symbol GC の導入による必要性が薄れた Symbol.find を削除しています。Symbol.find
+は 2.2 で追加された新機能なので、リリースされることなく廃止されることになりそう
+ですね。 https://bugs.ruby-lang.org/projects/ruby/wiki/
+DevelopersMeeting20140904Japan
+テストで必要としていたところがあったので、それはテスト用拡張ライブラリに実装を
+移しています。
