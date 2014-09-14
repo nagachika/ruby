@@ -1,0 +1,4 @@
+vm.c の env_alloc() 関数を呼び元の vm_make_env_each() に展開して、xcalloc() の
+かわりに xmalloc() を使うことで不要な 0 埋めをせずに構造体を初期化するようにし
+ています。例の lambda calculation による FizzBuzz のベンチマークで 1.5% 程度の
+高速化ということで、だいぶ細かい最適化ですねー。
