@@ -1,0 +1,3 @@
+string.c の Init_frozen_strings() で fstring 用の管理テーブル frozen_strings の
+初期化時に st_init_table_with_size() を利用して初期サイズを 1000 で作成するよう
+にしています。起動時のリサイズで時間が取られないようにしているそうです。
