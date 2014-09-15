@@ -1,0 +1,7 @@
+Proc オブジェクトを確保する rb_proc_alloc() 関数を klass だけでなく rb_block_t
+、envval, blockprocval, safe_level, is_from_method, is_lambda などの引数も追加
+して初期化処理をまとめています。 0 クリアを含む ZALLOC() を使う
+TypedData_Make_Struct() で構造体のメモリ確保していたのを ALLOC() を使って確保し
+て必要な初期化を 0 セットも含めて全て行うことで、確保時の 0クリアのコストを抑え
+る最適化が目的のようで、lambda を生成するベンチマークも同時に追加しています。
+[ruby-core:64994] [Bug #10212]
