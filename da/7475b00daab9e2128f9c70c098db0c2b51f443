@@ -1,0 +1,5 @@
+parse.y の関数マクロ intern_cstr_without_pindown() を intern_cstr() と改名して
+います。また ripper でない時の実装も rb_intern_cstr_without_pindown() から
+rb_intern3() に変更していて、これだともう RIPPER での分岐は不要になっていますが
+、"for the time being" とあるのでまた変更するのかも。 [ruby-core:65009] [Bug #
+10206]
