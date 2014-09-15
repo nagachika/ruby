@@ -1,0 +1,2 @@
+thread_alloc() の obj 変数の volatile 修飾子を削除しています。不要っぽいのにな
+ぜかついてました。
