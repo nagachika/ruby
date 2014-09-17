@@ -1,0 +1,6 @@
+拡張ライブラリ pathname に同梱されている pathname.rb で大文字小文字を区別しない
+環境での比較のための Proc オブジェクトを生成しているところで String#casecmp の
+戻り値に zero? を呼んでいるのですが、casecmp は Encoding が異なる時に nil を返
+すことがあるので "== 0" での比較に修正しています。うーんなるほど…。 nil が返る
+のはつらい感じですが +1 も -1 もまして 0 も返せないしな…。 https://github.com/
+ruby/ruby/pull/713
