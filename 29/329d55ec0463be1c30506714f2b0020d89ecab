@@ -1,0 +1,2 @@
+benchmark/bm_app_aobench.rb のコメントに記述されている URL がリンク切れになって
+いるので新しい URL に更新しています。 [ruby-dev:48550] [Feature #10247]
