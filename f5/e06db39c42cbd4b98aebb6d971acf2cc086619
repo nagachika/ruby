@@ -1,0 +1,7 @@
+拡張ライブラリ zlib の zlib_mem_alloc() で配列のメモリ確保に呼び出す関数を
+ruby_xmalloc() からサイズのオーバフローチェックつきの ruby_xmalloc2() に変更し
+ています。なるほどー自分で xmalloc(size*n) のようにかけ算でサイズを求めるような
+ところは xmalloc2() を使ったほうがいいんですね。これは知らなかった。そして
+README.EXT(.ja) にも書いてなかった。というか xmalloc() 自体書かれてないですね。
+ALLOC() も Data_Make_Struct() の説明としてしか書かれていない。あれ、そんなもん
+でしたっけ?
