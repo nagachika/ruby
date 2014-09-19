@@ -1,0 +1,3 @@
+tool/rbinstall.rb の Gem.install の引数の間違いを修正しています。RubyGems の更
+新でメソッドの仕様が変化したということですかね。 https://github.com/rubygems/
+rubygems/issues/1013
