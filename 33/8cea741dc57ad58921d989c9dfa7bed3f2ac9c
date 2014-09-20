@@ -1,0 +1,2 @@
+拡張ライブラリ zlib の struct gzfile でメンバの順番入れ換えで構造体サイズの
+shrink をしています。
