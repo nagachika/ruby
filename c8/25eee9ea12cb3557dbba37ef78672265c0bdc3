@@ -1,0 +1,4 @@
+rubygems のテストで Encoding.default_external が既に生成済みの StringIO には影
+響しないために、@ui オブジェクトに直接 external_encoding= でエンコーディングを
+設定するようにしています。 default_external が US-ASCII もしくは UTF-8 だと発生
+しない問題とのことでこれも多分 Windows 環境でのテスト失敗の修正だと思います。
