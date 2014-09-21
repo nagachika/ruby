@@ -1,0 +1,2 @@
+README.EXT(.ja) に r47625 で追加した rb_utf8_str_new() と rb_utf8_str_new_cstr
+() について追記しています。
