@@ -1,0 +1,6 @@
+send を使って foo= のような代入記号つきメソッドを呼び出した時に undefined
+method になっていた不具合を修正しています。 "foo=" のような Symbol を得る時に
+"foo" の部分が既に static symbol として登録されていたら同じく static symbol 化
+するようにしています。 "foo=" のような Symbol は :"foo" の ID に対して特定のビ
+ットのフラグを立てて表現しているので…というより、attr_writer で定義する時に
+:foo の部分の Symbol のみ渡すからということかな。 [ruby-dev:48559] [Bug #10259]
