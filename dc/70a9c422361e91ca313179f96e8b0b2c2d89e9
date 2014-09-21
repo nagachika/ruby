@@ -1,0 +1,3 @@
+拡張ライブラリ json の fbuffer_to_s() で rb_str_new() の引数を FBUFFER_PAIR(fb)
+で多値みたいに展開していたのでそれぞれの引数毎のマクロにまで展開しています。
+rb_str_new() もマクロなのでまずかったらしい。
