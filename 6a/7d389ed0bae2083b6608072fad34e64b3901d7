@@ -1,0 +1,5 @@
+標準添付ライブラリ drb の DRbServer の停止を graceful にするようにしています。
+これまでは Thread#kill して DRbServer の接続待ちスレッドを止めていたのですが、
+shutdown 通知用の pipe を用意してこれを select することで終了を通知されたらルー
+プを抜けるようにしています。これにより @protocol.close が実行されるようになり
+test-all での fd の leak 検出でひっかからなくなる、ということかと思います。
