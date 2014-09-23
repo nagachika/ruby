@@ -1,0 +1,3 @@
+test/ruby/test_thread.rb の test_main_thread_status_at_exit で子 Thread が
+begin 節に入ったことを確認してからメインスレッドを終了させるように Queue を使っ
+た同期を行うようにしています。
