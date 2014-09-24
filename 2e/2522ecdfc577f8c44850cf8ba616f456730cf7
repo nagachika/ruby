@@ -1,0 +1,2 @@
+標準添付ライブラリ tmpdir の Dir::Tmpname#make_tmpname で prefix と suffix が
+String オブジェクトじゃない時に変換する処理を追加しています。
