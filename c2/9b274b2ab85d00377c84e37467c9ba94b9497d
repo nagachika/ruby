@@ -1,0 +1,2 @@
+r47668 で Thread のテストに同期用に Queue を追加したのを利用できるように
+require "thread" を追加しています。
