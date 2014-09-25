@@ -1,0 +1,2 @@
+.travis.yml で make test と make test-all で -v オプションを渡すのをやめて、ま
+た make test-rubyspec で rubyspec も実行するようにしています。
