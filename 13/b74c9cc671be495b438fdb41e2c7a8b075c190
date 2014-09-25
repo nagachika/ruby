@@ -1,0 +1,3 @@
+test/ruby/test_thread.rb の test_main_thread_status_at_exit で Thead.pass →
+Thread.pass と typo 修正。実際には mth.stop? の条件がすぐに真になってここは殆ど
+実行されてなかったみたいですね。
