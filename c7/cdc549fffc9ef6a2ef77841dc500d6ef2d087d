@@ -1,0 +1,3 @@
+tool/downloader.rb のリファクタリング。 r47691 で追加した
+Downloader.download_if_modified_since を Donwloader.donwload メソッドと共通部分
+を括り出して引数のフラグで更新時刻チェックの処理を切り替えるようにしています。
