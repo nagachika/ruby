@@ -1,0 +1,2 @@
+tool/downloader.rb の If-Modified-Since ヘッダを使った更新確認の機能についての
+コメントの間違いを修正しています。
