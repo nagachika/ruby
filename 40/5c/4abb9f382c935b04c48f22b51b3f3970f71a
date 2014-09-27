@@ -1,0 +1,5 @@
+io.c で rb_io_buffer_t::ptr の解放処理をまとめる free_io_buffer() という関数を
+導入してこれを利用するようにするリファクタリングを行っています。また
+free_io_buffer() では ruby_sized_xfree() を呼び出すことで malloc_increase を更
+新してメモリ使用量に反映させるようにすることで GC タイミングへの影響をより正し
+く判断できるようにしています。
