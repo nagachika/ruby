@@ -1,0 +1,4 @@
+標準添付ライブラリ uri の URI.parse に文字列か to_str で文字列変換できるオブジ
+ェクト以外を渡した時の例外が NoMethodError になっていたのを URI
+::InvalidURIError を発生させるように修正しています。 [ruby-core:64453] [Bug #
+10150]
