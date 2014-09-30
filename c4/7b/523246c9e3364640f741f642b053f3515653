@@ -1,0 +1,7 @@
+r47717 で struct RData の利用が deprecated にされましたが、警告を出す方法とその
+制御するマクロ名を少し変更しています。 RUBY_UNTYPED_DATA_WARNING が 1 に定義さ
+れている時に警告するようにしています。また rb_data_object_alloc_deprecated() で
+警告するようにしていたのを、Data_Get_Struct の実体を関数 rb_data_object_get()
+として定義して、この関数の利用でも警告を出力するようにしています。
+Wrap_Data_Struct() は使わずに独自にメモリ確保するケースもあるかもしれないので警
+告ポイントを増やしたということでしょうか。
