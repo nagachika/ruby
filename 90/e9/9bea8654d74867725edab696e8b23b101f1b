@@ -1,0 +1,3 @@
+gc.c で GC_DEBUG が真の時に mark 対象のオブジェクトの情報をダンプする
+rb_gcdebug_print_obj_condition() でオブジェクトが remember set に含まれているか
+の出力に RVALUE_REMEMBERED() 関数を利用するようにしています。
