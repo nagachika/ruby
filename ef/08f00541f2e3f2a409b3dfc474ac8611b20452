@@ -1,0 +1,6 @@
+Windows で File.expand_path で "~" を展開する時に rb_bug() で異常終了する不具合
+を修正しています。 r47639 で導入された、String オブジェクトのバッファ部分に C
+の静的メモリ領域をそのまま使った時に struct RBasic::flags に STR_NOFREE を立て
+ておいて sweep 時のバッファの free() 処理をスキップさせるしくみが、String のバ
+ッファが拡張された時に flags から STR_NOFREE フラグを落としていなかったのを修正
+しています。 [ruby-core:65317] [Bug #10304]
