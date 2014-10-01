@@ -1,0 +1,4 @@
+拡張ライブラリ racc/cparse で Racc::CparseParams というクラスを内部クラスとして
+allocate メソッドや initialize/initialize_copy を undef しています。初期化され
+ないオブジェクトを作って SEGV させたりできないようにするためのケアだと思います
+。
