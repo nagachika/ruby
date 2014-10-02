@@ -1,0 +1,2 @@
+拡張ライブラリ digest で内部的に利用する struct RData 型のオブジェクトの klass
+に 0 を渡して ObjectSpace から Ruby レベルで見えないようにしています。
