@@ -1,0 +1,2 @@
+r47740、r47742 のさらに続き。update-config_files や update-unicode およびその他
+の依存関係を持たないターゲットを PHONY をつけています。
