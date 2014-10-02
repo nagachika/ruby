@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole でも WIN32OLE_TYPELIB の実装に struct RData のかわりに
+struct RTypedData を利用するように変更しています。
