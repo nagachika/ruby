@@ -1,0 +1,4 @@
+make update-config_files ターゲットを config.guess と config.sub への依存関係に
+していたのをやめて、常に tool/downloader.rb を使うようにしています。 tool/
+downloader.rb 内で更新時刻チェックをしているので、ここでファイルの存在やタイム
+スタンプを確認する必要がなくなったのですね。
