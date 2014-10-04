@@ -1,0 +1,2 @@
+r47761 で追加された Etc.nprocessors の Windows サポートを追加しています。定番の
+流れですね。 [ruby-core:65142] [Feature #10267]
