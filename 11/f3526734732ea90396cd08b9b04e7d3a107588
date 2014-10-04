@@ -1,0 +1,4 @@
+TracePoint などのイベントのビットフラグの型 rb_event_flag_t を unsigned long か
+ら uint32_t に変更しています。 32bit で足りるので 64bit 環境でも 32bit に収める
+ようにして更なる構造体のスリム化を図っているようです。あいかわらずすごい執念で
+すね。 [ruby-core:65083] [misc #10249]
