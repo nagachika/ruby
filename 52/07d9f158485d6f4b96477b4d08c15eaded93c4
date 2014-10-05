@@ -1,0 +1,2 @@
+r47771 の IO#advise のテストで古い Linux じゃない時に retry していたのを再raise
+するように修正しています。
