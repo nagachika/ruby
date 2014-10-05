@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix の Matrix.rows の第2引数 copy の指定が効かない不具合
+があったのを修正しています。うーん、こりゃまた単純な……というかこんな引数があ
+ったの知らなかった。 https://github.com/ruby/ruby/pull/707
