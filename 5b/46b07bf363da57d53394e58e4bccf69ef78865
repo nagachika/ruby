@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix に Matrix.hstack と Matrix.vstack という、Matrix をそ
+れぞれ横や縦に連結した新しい dimension の Matrix を返すメソッドを追加しています
+。もちろん連結する Matrix はそれぞれ行や列の数が一致していないといけません。(不
+一致だと ErrDimensionMismatch 例外が発生) https://github.com/ruby/ruby/pull/344
