@@ -1,0 +1,3 @@
+.travis.yml で Travis-CI 上でビルドする時の configure に --disable-install-doc
+と --disable-install-rdoc を追加してドキュメントの生成を抑制するようにしていま
+す。
