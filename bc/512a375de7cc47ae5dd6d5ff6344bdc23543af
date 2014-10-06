@@ -1,0 +1,3 @@
+parse.y で list_concat() はマクロとして定義されていて list_concat_gen() の呼び
+出しにしていましたが、list_concat_gen() の不要な引数を削って list_concat() を直
+接関数として定義するようにしています。
