@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole と pty のコメントで rdoc 用のタグ :nodoc: のコロンが漏
+れてたのを修正しています。 https://github.com/ruby/ruby/pull/705
