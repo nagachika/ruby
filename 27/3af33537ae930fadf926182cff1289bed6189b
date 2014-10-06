@@ -1,0 +1,2 @@
+r47775 の Travis-CI での Mac OS X 上での gcc コンパイル時に brew install gcc は
+不要だったみたいで削っています。
