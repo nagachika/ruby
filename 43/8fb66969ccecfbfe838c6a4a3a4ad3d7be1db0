@@ -1,0 +1,3 @@
+mingw で make install が失敗していたのを修正。 template/fake.rb.in でソースディ
+レクトリのパスをWindowsのドライブレターをつけたパス記法に置換するようにしていま
+す。 [ruby-core:64965] [Bug #10230]
