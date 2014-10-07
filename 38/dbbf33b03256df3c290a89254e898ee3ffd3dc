@@ -1,0 +1,5 @@
+拡張ライブラリ digest の rmd160 のハッシュ関数実装の extconf.rb でチェックする
+関数名を RMD160_Transform() から RIPEMD160_Transform() に修正しています。けど実
+際 ext/digest/rmd160/rmd160ossl.c で使ってるのは RIPEMD160_Final() という関数だ
+けで、このへん OpenSSL 実装を使う時の Digest の実装というのはよくわからないんで
+すよねー。 [ruby-core:65091] [Bug #10252]
