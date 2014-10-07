@@ -1,0 +1,2 @@
+拡張ライブラリ zlib で Zlib::ZStream の型を struct RData から struct RTypedData
+を利用した実装に切り替えています。 [ruby-core:65377] [Feature #10319]
