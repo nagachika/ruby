@@ -1,0 +1,2 @@
+同じく拡張ライブラリ json の JSON::Parser も TypedData を利用した実装に変更して
+います。
