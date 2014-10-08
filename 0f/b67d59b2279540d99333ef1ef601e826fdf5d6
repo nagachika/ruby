@@ -1,0 +1,3 @@
+tool/downloader.rb のコメントの Downloader.download の第1引数が種類を表す
+Symbol を受け付けるように書かれていましたが、このメソッドはURLを受け取るのでそ
+のように修正しています。
