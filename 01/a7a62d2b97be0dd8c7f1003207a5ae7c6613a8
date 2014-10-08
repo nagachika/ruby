@@ -1,0 +1,2 @@
+r46384 で configure で posix_fadvise(2) をチェックするようにした時のマクロ名の
+typo 修正。おおう…。 [ruby-core:62968] [Bug #9914]
