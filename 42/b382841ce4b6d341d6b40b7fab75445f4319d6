@@ -1,0 +1,2 @@
+r47808 で追加した tool/unicode_norm_gen.rb を ruby のディレクトリ構成にあわせる
+ように修正しています。
