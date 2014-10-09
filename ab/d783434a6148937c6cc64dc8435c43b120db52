@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole で Data_Get_Struct() を wrap した
+olemethod_data_get_struct() という関数を定義して ext/win32ole/win32ole_param.c
+からこれを呼び出すようにしています。うーんこれはなぜだろう。
