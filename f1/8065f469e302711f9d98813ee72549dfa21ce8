@@ -1,0 +1,3 @@
+拡張ライブラリ etc の Etc.systmpdir で Mac OS X では confstr(3) でユーザの temp
+directory の指定を利用するようにしています。 http://www.opensource.apple.com/
+source/ruby/ruby-104/patches/ext_etc_etc.c.diff
