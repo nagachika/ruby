@@ -1,0 +1,2 @@
+Process.setsid のテストで AIX ではセッションの異なるプロセスで getsid(2) できな
+いので(OpenBSD と同様)テストをスキップしています。
