@@ -1,0 +1,3 @@
+定数の可視性のチェックを行うマクロ RB_CONST_PRIVATE_P() を定義して、直接
+CONST_PUBLIC, CONST_PRIVATE と比較していたところをこれを利用するように修正して
+います。
