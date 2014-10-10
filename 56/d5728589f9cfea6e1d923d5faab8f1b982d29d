@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix に Matrix#laplace_expansion (alias で
+cofactor_expansion) を追加しています。行列のラプラス展開を返すメソッドです。式
+は Wikipedia でも見ましょう。 http://en.wikipedia.org/wiki/Laplace_expansion
+[ruby-core:63859] [Feature #10073]
