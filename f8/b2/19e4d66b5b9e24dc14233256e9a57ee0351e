@@ -1,0 +1,8 @@
+st_foreach() と st_foreach_check() のテストを追加しています。 st_foreach()/
+st_foreach_check() では要素数の変更で packed 状態のテーブル(配列に直接キーと値
+を詰めた状態)から unpack する機能があるのですが、それがテストされていないという
+ことで、テスト用の C の拡張ライブラリを追加してテストしています。コールバック関
+数から force_unpack_check() という関数を読んで要素を追加して unpack させて期待
+通り unpack されていることを確認しています。チェックもほぼ C でやっていて
+rb_bug() で止めてるので、assert_nil じゃなくて assert_separately で子プロセスを
+作ってそこでやったほうがよさそうですね。 [ruby-core:65396] [Feature #10321]
