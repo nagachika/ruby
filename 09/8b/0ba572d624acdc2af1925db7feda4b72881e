@@ -1,0 +1,4 @@
+benchmark/bm_hasharef_sym.rb bm_hasharef_sym_long.rb という Hash#[] に Symbol
+をキーとしてアクセスするベンチマークで %i{} 記法を使うことで強制的に static
+symbol 化して GC 対象にしないようにしています。 Symbol GC のないバージョンと比
+較して不利にならないようにしているようです。
