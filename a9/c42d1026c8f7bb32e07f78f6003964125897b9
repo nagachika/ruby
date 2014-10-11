@@ -1,0 +1,3 @@
+拡張ライブラリ tk でも struct RTypedData を使った実装に切り替えています。また内
+部で使うキューのオブジェクトの klass を 0 にして ObjectSpace.each_object から見
+えないようにしています。
