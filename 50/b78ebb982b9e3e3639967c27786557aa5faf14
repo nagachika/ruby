@@ -1,0 +1,4 @@
+gcc 拡張の __builtin_choose_expr() が利用可能なら RUBY_SAFE_LEVEL_CHECK() や
+only_if_constant() マクロをこれを用いて定義するようにしています。これってコンパ
+イル時にどちらが採用されるか決まるからランタイムの分岐がないってことなんでしょ
+うか。
