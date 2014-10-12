@@ -1,0 +1,4 @@
+io.h の rb_io_mode_flags() と rb_io_modenum_flags() というマクロはそれぞれ
+rb_io_modestr_fmode() と rb_io_oflags_fmode() に置き換えられるようになっていた
+のですが、代替を示しつつエラーになるようにしています。1.8 以前? のかなり前に置
+き換えられてたものみたいですね。
