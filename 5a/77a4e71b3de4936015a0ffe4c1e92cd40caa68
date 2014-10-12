@@ -1,0 +1,9 @@
+Enumerable#slice_before の rdoc 用コメントで、slice_before が返した Enumerator
+を複数回 each などで呼び出した時にローカル変数を使っていたら再初期化しないとい
+けないという注意事項に、サンプルコード Enumerator.new を使った手法で書きなおし
+ています。Enumerator.new のブロックの中に slice_before の呼び出しと、すぐに
+each などの呼び出しを閉じ込めて、そのブロック内の dynamic variable を利用するよ
+うにすると毎回初期化されるからいいよ、という。ブロックつきの lambda でもいいか
+もしれませんね。ちょっとややこしいですが、サンプルコードの変更の肝は、cols の初
+期化がブロックスコープになっていて、slice_before の結果を利用しようとした時に必
+ず初期化されるようにしていることです、多分。
