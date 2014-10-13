@@ -1,0 +1,2 @@
+configure.in の修正で PNaCl 用のビルドを naclports のソースツリーの外でもビルド
+できるようにしているそうです。
