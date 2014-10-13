@@ -1,0 +1,4 @@
+標準添付ライブラリ open-uri のオプションに :open_timeout というのを追加して、
+Net::HTTP#open_timeout にセットして socket の connect(2) のタイムアウトをつけら
+れるようにしています。これまでも :read_timeout というオプションはありましたが
+connect(2) のほうはなかったのですね。 [ruby-core:65594] [Feature #10361]
