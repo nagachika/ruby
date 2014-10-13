@@ -1,0 +1,3 @@
+NaCl ではシグナルハンドラの設定がサポートされていないそうなので NaCl では
+install_sighandler() や init_sigchld() のマクロ定義をやめてエラーを無視するよう
+にしています。
