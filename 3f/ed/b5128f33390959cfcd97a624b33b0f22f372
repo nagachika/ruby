@@ -1,0 +1,3 @@
+iseq_build_from_ary_exception() で RB_GC_GUARD() の呼び出しを、保護したい関数呼
+び出しの後に移動しています。また文字列フォーマットの時に PRIsVALUE を用いて
+RB_GC_GUARD() を不要にして消したりしています。
