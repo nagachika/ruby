@@ -1,0 +1,3 @@
+r47866 で __builtin_choose_expr_constant_p() を使ったところ gcc 4.8 以前だと第1
+引数の定数として __builtin_constant_p() を受け付けてくれなかったそうなので、
+configure でチェックして使うようにしています。
