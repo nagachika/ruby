@@ -1,0 +1,4 @@
+標準添付ライブラリ xmlrpc に利用できる XML Parser として libxml-ruby.gem の
+LibXML::XML::SaxParser を利用するためのラッパ LibXMLStreamParser を追加していま
+す。より高速な実装として使いたいみたいですね。 [ruby-core:59633] [Feature #
+9379]
