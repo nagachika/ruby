@@ -1,0 +1,5 @@
+rb_ary_diff() で VALUE 型の変数に volatile 修飾子をつけていたのをやめて、そこか
+ら呼ばれている ary_recycle_hash() に RB_GC_GUARD() を追加しています。これそもそ
+も関数呼び出ししてるから…と思いましたが ary_recycle_hash() には inline がつい
+てるし(ついてなくても展開される可能性はありますが)展開されて引数の VALUE も消え
+る可能性があるんですねきっと。 [ruby-core:65622] [Bug #10369]
