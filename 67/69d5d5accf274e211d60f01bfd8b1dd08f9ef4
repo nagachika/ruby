@@ -1,0 +1,2 @@
+ext/date/date_core.c の rdoc 用コメントの体裁の修正。 https://github.com/ruby/
+ruby/pull/724
