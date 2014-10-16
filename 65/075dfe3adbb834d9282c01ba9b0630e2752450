@@ -1,0 +1,5 @@
+r47913 の追加変更。 global_symbols に格納する文字列とSymbolの対応表を struct
+id_entry という C の構造体の配列にしていたのを Ruby の Array オブジェクトを使っ
+て管理するように変更しています。Array の要素に 512ごのと Array オブジェクトを格
+納して、そこに String と Symbol を交互に格納という感じみたいです。 write
+barrier の挿入のためとのこと。
