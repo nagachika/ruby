@@ -1,0 +1,6 @@
+symbol.c の rb_str_dynamic_intern() を rb_str_intern() と改名して、string.c で
+定義していた rb_str_intern() は削除しています。 rb_str_intern() は拡張ライブラ
+リ json や win32ole でも少し使われていたみたいですが、この時の Symbol が
+dynamic symbol になっても、必要に応じて(SYM2ID() を呼ばれるなどすると) pindown
+されるので、基本的には拡張ライブラリで文字列から作った Symbol も dynamic になる
+はず。
