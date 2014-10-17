@@ -1,0 +1,3 @@
+test/ruby/test_rubyoptions.rb の test_segv_test で rb_bug() の出力するメッセー
+ジをマッチさせる正規表現を分割してより細かい単位で相違点が表示されるようにして
+います。
