@@ -1,0 +1,1 @@
+test/ruby/envutil.rb の未使用ローカル変数の削除。
