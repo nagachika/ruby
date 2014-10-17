@@ -1,0 +1,3 @@
+r47924 の test_segv_test で複数の正規表現を順にチェックしていたのを test/ruby/
+envutil.rb の EnvUtil#assert_regexp_list という assertion メソッドとして切り出
+しています。
