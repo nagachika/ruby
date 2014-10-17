@@ -1,0 +1,2 @@
+Enumerable の inject の Enumerator 対応に使う NODE の値の未初期化(Ruby レベル
+で)の値として Qundef を初期値に使うように修正しています。
