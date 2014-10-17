@@ -1,0 +1,3 @@
+r47925 で EnvUtil#assert_regexp_list と分離した複数の正規表現に順にマッチさせる
+assertion メソッドを assert_pattern_list と改名しています。また失敗した時の表示
+をさらに改行を反映させてインデントして整形して表示するようにしています
