@@ -1,0 +1,2 @@
+r47926 の修正で Enumerable#inject で空配列などで一度も yield されなかった時に
+Qundef を返してしまっていたので nil を返すようにしています。
