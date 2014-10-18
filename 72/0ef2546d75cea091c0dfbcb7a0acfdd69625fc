@@ -1,0 +1,3 @@
+test/ruby/test_rubyoptions.rb の test_segv_test で自分自身に SIGSEGV を送信した
+後に sleep するようにしています。シグナルの送信は非同期なので配送前にプロセスが
+終了してしまう可能性もあるので待つようにしています。
