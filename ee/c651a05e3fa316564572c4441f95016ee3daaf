@@ -1,0 +1,2 @@
+r47971 と同様に test/-ext-/bug_reporter/test_bug_reporter.rb でも自分自身に
+SIGSEGV を送信してから sleep で待つようにしています。
