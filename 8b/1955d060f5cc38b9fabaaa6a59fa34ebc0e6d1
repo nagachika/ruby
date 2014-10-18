@@ -1,0 +1,3 @@
+cont.c さらに再修正。不要な typedef 予約語が書かれていたのを削除しています。
+rb_fiber_t の typedef は vm_core.h に移動されたのですね。 [ruby-core:65518]
+[Feature #10341]
