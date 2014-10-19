@@ -1,0 +1,2 @@
+test/-ext-/bug_reporter/test_bug_reporter.rb の SEGV のメッセージのチェックで
+stderr の文字列を ASCII-8BIT に変換してマッチさせるようにしています。
