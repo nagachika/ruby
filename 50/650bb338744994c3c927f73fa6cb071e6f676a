@@ -1,0 +1,2 @@
+pack.c に明示的なキャストを追加するなど、これも -fsanitie=undefined 対策でしょ
+うか。
