@@ -1,0 +1,3 @@
+signal.c の sigaltstack に設定するシグナル処理用のスタックサイズを 8KB から
+16KB に変更しています。 control_frame_dump() でスタックが足りなくなることがある
+そうです。
