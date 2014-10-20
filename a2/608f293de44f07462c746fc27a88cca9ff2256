@@ -1,0 +1,3 @@
+Binding オブジェクトの作成で r48000 で切り出した rb_vm_make_binding() を直接呼
+び出すようにして、ただのラッパとなっていた rb_binding_new_with_cfp() 関数は削除
+しています。
