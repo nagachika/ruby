@@ -1,0 +1,2 @@
+lib/unicode_normalize.rb でも利用していたモジュール名を Normalize から
+UnicodeNormalize に変更して追随させています。 [Feature #10084]
