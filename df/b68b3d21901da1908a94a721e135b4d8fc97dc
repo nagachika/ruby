@@ -1,0 +1,5 @@
+さらに lib/unicode_normalize.rb で String に追加しているメソッド名を
+normalize... から unicode_nomalize... に変更しています。これらの一連の追加はこ
+のチケットに関連していました。 [Feature #10084]
+けど String#unicode_normalize! で呼んでいるメソッドが normalize のままなのでエ
+ラーになりそう。
