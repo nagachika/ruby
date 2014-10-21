@@ -1,0 +1,2 @@
+lib/unicode_normalize/normalize.rb で require "unicode_normalize/tables" に明示
+的に ".rb" 拡張子を書くように変更しています。
