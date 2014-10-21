@@ -1,0 +1,5 @@
+lib/unicode_normalize/normalize.rb になにやら https://github.com/duerst/eprun/
+blob/master/lib/normalize.rb から Normalize というモジュールが移植されています
+。おお、初耳なんですが標準添付ライブラリにするんですかね…。
+と思ったらこのチケットに関連していたようです。まだ結論出てないようですけど…
+[Feature #10084]
