@@ -1,0 +1,2 @@
+common.mk で srcs-enc の依存関係として unicode_normalize/tables.rb を追加して自
+動生成が走るようにしています。
