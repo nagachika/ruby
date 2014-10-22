@@ -1,0 +1,3 @@
+unicode_normalize/normalize.rb で変数名にハンガリアン記法(?)で prefix が付いて
+たのをやめるようにしています。がこれは後にハンガリアン記法でなくて Unicode の仕
+様上の名前なのだということで revert されています。
