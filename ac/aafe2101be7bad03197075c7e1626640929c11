@@ -1,0 +1,4 @@
+r48046 の lib/unicode_normalize.rb のローカル変数名の変更を revert しています。
+これは syllable index という用語を元にした変数名でハンガリアン記法じゃないとの
+こと。まあ、sIndex みたいな Pascal Case よりは s_index のような snake case のほ
+うが ruby っぽいとは思いますが。
