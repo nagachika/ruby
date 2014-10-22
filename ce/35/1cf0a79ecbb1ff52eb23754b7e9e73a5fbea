@@ -1,0 +1,2 @@
+lib/unicode_normalize.rb の String#unicode_normalize! で unicode_normalize を呼
+び出す時の不要な self を削っています。
