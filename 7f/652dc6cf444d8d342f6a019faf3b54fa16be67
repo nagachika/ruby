@@ -1,0 +1,3 @@
+lib/unicode_normalize/normalize.rb で Hash から Hash#first で取り出せる要素を削
+除するのに Hash#shift というメソッドがあるのでそれを使うようにしています。 Hash
+#shift 知らなかった……。
