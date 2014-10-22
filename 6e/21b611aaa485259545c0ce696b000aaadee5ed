@@ -1,0 +1,6 @@
+variable.c の rb_ivar_get() と vm_insnhelper.c の vm_getivar() でインスタンス変
+数取得時に未初期化だったら警告を出力するところで、rb_warning() を呼び出す時に
+ruby_verbose のチェックを追加することで不要な rb_warning() 呼び出しをしないよう
+にして高速化しています。 rb_warning() は中でも ruby_verbose のチェックをしてい
+るのですが、頻繁に通るところなので関数呼び出しのコストも削りたい、ということで
+しょう。 [ruby-core:65786] [Feature #10396]
