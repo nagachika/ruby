@@ -1,0 +1,3 @@
+configure で BASERUBY が使えない時に tool/downloader.rb で config.guess と
+config.sub のダウンロードを実行してしまっていたので、利用できる時だけダウンロー
+ドするようにしています。
