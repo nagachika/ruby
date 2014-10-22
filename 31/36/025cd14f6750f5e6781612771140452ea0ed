@@ -1,0 +1,3 @@
+r48047 で追加した未初期化インスタンス変数の参照時の警告のエンコーディングのテス
+トで default_external を UTF-8 に指定して実行するように
+EnvUtil.with_default_external を使って実行するようにしています。
