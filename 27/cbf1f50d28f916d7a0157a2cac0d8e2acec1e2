@@ -1,0 +1,5 @@
+r48031 で追加した update-unicode への依存関係に enc/unicode/data/
+CompositionExclusions.txt と enc/unicode/data/NormalizationTest.txt からの依存
+関係も追加しています。
+あとこのコミットで r48053 の ChangeLog エントリを消してしまっているようです。多
+分コミットミスじゃないかと。
