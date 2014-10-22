@@ -1,0 +1,4 @@
+lib/unicode_normalize/normalize.rb で UnicodeNormalize のメソッド内で
+UnicodeNormalize のメソッドを呼ぶのに明示的に receiver を指定しないようにしてい
+ます。また特異メソッドの定義をモジュール名を明記する方法じゃなくて def self.xxx
+のように定義するようにしています。
