@@ -1,0 +1,2 @@
+config.sub や config.guess と同様にそもそも configure で BASERUBY の利用可否を
+確認した時に enc/unicode/data/*.txt もダウンロードするようにしています。
