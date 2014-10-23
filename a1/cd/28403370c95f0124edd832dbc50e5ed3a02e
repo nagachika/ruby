@@ -1,0 +1,6 @@
+さらに tool/downloader.rb に -e の反対の、毎回更新確認させるようにする -a オプ
+ションを追加して、ALWAYS_UPDATE_UNICODE が yes に指定されていたら -a オプション
+をつけるように make update-unicode のコマンドを変更しています。で、
+ALWAYS_UPDATE_UNICODE = yes はコメントアウトされた状態で common.mk に追加されて
+いるので、現状は結局ダウンロード済みのファイルがあったらそれを使うということで
+すね。
