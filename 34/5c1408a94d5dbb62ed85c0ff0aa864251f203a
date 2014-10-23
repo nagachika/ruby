@@ -1,0 +1,2 @@
+lib/unicode_normalize/tables.rb の自動生成のコマンドをソースディレクトリ以外で
+ビルドしている時も動くように $(srcdir)/ を付加しています。
