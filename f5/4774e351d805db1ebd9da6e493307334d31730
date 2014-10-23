@@ -1,0 +1,2 @@
+r48063 と同様に make の after-update ターゲットで update-gems も実施するように
+しています。
