@@ -1,0 +1,3 @@
+make update-unicode で enc/unicode/data ディレクトリを作成しておくようにしてい
+ます。 git だと空のディレクトリがチェックアウト時に作られないのでその対策として
+。
