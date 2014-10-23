@@ -1,0 +1,4 @@
+r48031 と r48054 で enc/unicode/data/*/txt から update-unicode ターゲットへの依
+存関係を追加していましたが、after-update というターゲットからの依存関係にしてい
+ます。 config.sub や config.guess をダウンロードするターゲット
+(update-config_files)と同様なので、相応しそうですね。
