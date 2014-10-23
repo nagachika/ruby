@@ -1,0 +1,2 @@
+やっぱり make after-configure というターゲットを追加して configure 後に enc/
+unicode/data/*.txt と bundled gems はここでダウンロードするようにしています。
