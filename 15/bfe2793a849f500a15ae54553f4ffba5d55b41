@@ -1,0 +1,3 @@
+unicode_normalize のテストを https://github.com/duerst/eprun/ から移植してきて
+います。 Encode.default_external, default_internal を変更してるのでこのままだと
+ちょっとまずそうですが、EnvUtil を使って書き直せばいいはず……。
