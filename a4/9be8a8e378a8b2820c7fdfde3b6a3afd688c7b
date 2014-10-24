@@ -1,0 +1,2 @@
+configure の --with-static-linked-ext オプションつきの時の $(EXTSTATIC) を make
+build-ext で exts.mk を起動する時に伝播させるようにしています。
