@@ -1,0 +1,4 @@
+common.mk で enc/unicode/data/*.txt にダウンロードしてくるファイルを
+UNICODE_FILES として変数にまとめています。あと r48069 で導入した
+after-configure というターゲットはやっぱりやめて after-update で処理するように
+しています。
