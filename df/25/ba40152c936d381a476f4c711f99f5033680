@@ -1,0 +1,2 @@
+NEWS ファイルに String#unicode_normalize, String#unicode_normalize!, String#
+unicode_normalized メソッドの追加について追記しています。
