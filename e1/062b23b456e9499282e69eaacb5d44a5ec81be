@@ -1,0 +1,2 @@
+insns.def の getlocal と setlocal 命令に最適化命令についてコメントを追加してい
+ます。
