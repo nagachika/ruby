@@ -1,0 +1,2 @@
+unicode_normalize のテストで assertion のメッセージの生成を Proc オブジェクトに
+包んで遅延することで高速化を図っています。
