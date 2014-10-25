@@ -1,0 +1,2 @@
+make の依存関係不足で lib/unicode_normalize/tables.rb の生成が走らないのを修正
+しています。 [ruby-core:65840] [Bug #10414]
