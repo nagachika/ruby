@@ -1,0 +1,5 @@
+tool/make-snapshot で IO.popen や system の引数の文字列ではなく配列で与えること
+でシェルを介さない起動をするようにしています。また make prereq の実行時に
+RUNRUBY や NULLCMD などの make の変数をコマンドライン引数で渡すようにしています
+。まあ、make-snapshot はリリース作業する環境とか snapshot パッケージを作る環境
+でしか使わないので、あまり環境依存の問題は踏まないんですけどね。
