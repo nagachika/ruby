@@ -1,0 +1,3 @@
+unicode_normalize のテストで Unicode ではないエンコーディングの文字列に対して呼
+んだ時に Encoding::CompatibilityError が発生することを確認するテストを追加して
+います。
