@@ -1,0 +1,4 @@
+GC_ENABLE_INCREMENTAL_MARK の定義で条件コンパイルしていた関数マクロ
+is_incremental_marking() と will_be_incremental_marking() を #if
+GC_ENABLE_INCREMENTAL_MARK で分岐するのではなくて GC_ENABLE_INCREMENTAL_MARK &&
+... のような形で展開するようにしています。
