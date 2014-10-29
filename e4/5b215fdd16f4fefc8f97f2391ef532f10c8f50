@@ -1,0 +1,3 @@
+Method オブジェクトから to_proc で Proc オブジェクト化したものの binding で取得
+した Binding オブジェクトの receiver が Method オブジェクトになっていた不具合を
+修正しています。 [ruby-core:65917] [Bug #10432]
