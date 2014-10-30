@@ -1,0 +1,3 @@
+ruby に --dump=xxx オプションや -y (--dump=yydebug) をつけた時に -r オプション
+で指定されたファイルを require しないようにしています。 [ruby-dev:48712] [Bug #
+10435]
