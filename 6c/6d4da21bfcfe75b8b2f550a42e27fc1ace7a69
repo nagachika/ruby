@@ -1,0 +1,5 @@
+古い Mac OS X でしばしば __builtin_setjmp() が原因で TAG_JUMP() が無限ループ状
+態に陥るという不具合が報告されてたのですが、configure で Mac OS X で古い gcc や
+clang では(OS X じゃなくてコンパイラのほうのバージョンだったんですね)、
+__builtin_setjmp() を利用しないようにしています。 [ruby-core:65174] [Bug #
+10272]
