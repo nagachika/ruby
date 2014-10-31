@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix の Vector#cross_product を 3次の Vector だけでなく n-
+次の Vector について実行できるようにしています。このため引数の数は可変になって
+います。 [ruby-core:63860] [Feature #10074]
