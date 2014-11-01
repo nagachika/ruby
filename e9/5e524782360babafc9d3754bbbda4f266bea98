@@ -1,0 +1,19 @@
+lambda や ->() で作られた Proc オブジェクト(lambda 型)は引数の arity チェックが
+厳格で、return 文の解釈が変化する(break 扱いになる)という違いがありますが、
+lambda 型の Proc オブジェクトをブロックとしてメソッド呼び出しした時に、yield に
+配列を渡しても splat されずにエラーになっていたのを、to_ary で変換して引数に受
+け取れるようにしています。
+# yield x, y と複数の値を渡せば(lambdaの引数と一致すれば)OK
+def m1
+  yield 0, 1
+end
+m1(&->(a, b) { p [a, b] }) # => [0, 1]
+# yield [x, y] みたいに配列(や配列に変換できるオブジェクト)は ArgumentError だった
+def m2
+  yield [0, 1]
+end
+m2(&->(a, b) { p [a, b] }) # => ArgumentError: wrong number of arguments (1 for 2)
+これが m2 も変換されてエラーにならなくなりました。
+おお、これメソッド定義側で呼び元でどっちが渡されたかを想定しないといけないので
+微妙、というか非常に使いずらい点でしたが、仕様変更されましたね。
+[ruby-core:65887] [Bug #9605]
