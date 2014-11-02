@@ -1,0 +1,3 @@
+r48197 で make の変数 ALWAYS_UPDATE_UNICODE=no に対応したのですが、これが nmake
+では動かないということで否定するために UPDATE_LIBRARIES という別の変数を導入し
+てこちらで制御できうようにしています。ビルドプロセス難しい……。
