@@ -1,0 +1,2 @@
+digest のテスト test/digest/test_digest.rb になぜか shebang が書かれていたので
+削除しています。昔はテストは単独で動かせるようになってたんですね。
