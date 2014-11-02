@@ -1,0 +1,1 @@
+.travis.yml でビルド時に make update-unicode も実行するようにしています。
