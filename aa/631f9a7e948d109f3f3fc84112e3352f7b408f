@@ -1,0 +1,3 @@
+common.mk で lib/unicode_normalize/tables.rb の生成のためのタイムスタンプファイ
+ルの依存関係を修正しています。ビルドプロセス難しい……。 [ruby-core:66026] [Bug
+#10461]
