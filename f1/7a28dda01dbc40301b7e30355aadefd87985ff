@@ -1,0 +1,2 @@
+r48199 の .travis.yml での make update-unicode を実行する変更を revert していま
+す。あれ、いらないんですね。
