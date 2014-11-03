@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_VARIANT の実装に struct RTypedData を利用す
+るように切り替えています。
