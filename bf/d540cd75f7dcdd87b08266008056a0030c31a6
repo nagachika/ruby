@@ -1,0 +1,3 @@
+EnvUtil に assert_join_threads という複数の Thread を join して例外が発生してい
+ないことをチェックする assertion メソッドを追加して test/ruby/test_io.rb で利用
+しています。
