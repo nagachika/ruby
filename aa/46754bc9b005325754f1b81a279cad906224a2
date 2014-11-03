@@ -1,0 +1,2 @@
+r48223 で導入した EnvUtil#assert_join_threads のコメントで引数に Queue を受け付
+けると書かれていたのを Array のみに修正しています。
