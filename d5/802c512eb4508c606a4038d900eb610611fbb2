@@ -1,0 +1,3 @@
+r48224 のさらに続きで openssl のテストで起動するダミーサーバ start_server で
+OpenSSL::SSL::SSLSocket の accept で OpenSSL::SSL::SSLError が発生した時に無視
+するかどうかを指定できるようにしています。
