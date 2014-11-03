@@ -1,0 +1,3 @@
+r48225 で openssl のテストのダミーサーバ起動メソッド start_server に導入したキ
+ーワード引数 ignore_ssl_accept_error を ignore_listener_error に改名しています
+。
