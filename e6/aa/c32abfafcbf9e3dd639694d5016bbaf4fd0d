@@ -1,0 +1,2 @@
+openssl のテストでダミーサーバ start_server の ignore_listen_error を false を
+指定する箇所を増やしています。
