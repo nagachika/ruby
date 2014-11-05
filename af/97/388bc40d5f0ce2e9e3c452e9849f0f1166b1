@@ -1,0 +1,2 @@
+iseq_memsize() で RubyVM::InstructionSequence の利用メモリサイズの計算時にキー
+ワード引数の最適化の時に追加された領域について計算に追加しています。
