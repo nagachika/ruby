@@ -1,0 +1,2 @@
+r48239 で追加した vm_args.c で型の変換エラーで clang でコンパイルできていなかっ
+たところを RARRAY_LEN() → RARRAY_LENINT() と修正しています。
