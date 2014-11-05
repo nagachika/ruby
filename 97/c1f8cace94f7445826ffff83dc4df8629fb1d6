@@ -1,0 +1,3 @@
+拡張ライブラリの書きかたについてのドキュメント README.EXT と README.EXT.ja に
+rb_vsprintf() と rb_bug() のフォーマット文字列の PRIsVALUE と一般的な %i の利用
+の衝突について追記しています。
