@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の RFC3986 準拠したほうのパーサ URI
+::RFC3986_Parser::RFC3986_URI で query string に "[" と "]" を含められるように
+しています。 [ruby-core:65800] [Bug #10402]
