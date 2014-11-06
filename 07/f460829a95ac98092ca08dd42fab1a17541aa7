@@ -1,0 +1,3 @@
+標準添付ライブラリ securerandom で Windows 版で CryptAcquireContext() と
+CryptGenRandom() を拡張ライブラリ Win32API を使って叩いていたのを fiddle を直接
+使うように変更しています。
