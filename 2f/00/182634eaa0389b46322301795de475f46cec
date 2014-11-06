@@ -1,0 +1,2 @@
+vm.c およびテスト用の拡張ライブラリ ext/-test-/win32/console/attribute.c で VC6
+での警告除去のため明示的なキャストを追加しています。
