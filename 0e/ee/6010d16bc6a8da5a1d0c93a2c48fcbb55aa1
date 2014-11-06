@@ -1,0 +1,2 @@
+r48201 で .gitignore では対応されてましたが enc/unicode/data のバージョン毎の
+Unicode データのディレクトリを無視するように svn property を設定しています。
