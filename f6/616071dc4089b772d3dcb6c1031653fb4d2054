@@ -1,0 +1,3 @@
+rubygems のテストで Gem::RemoteFetcher のコネクションプールの socket を全て閉じ
+るように Refinements を使って close_all を追加してテストの file descriptor leak
+の検出を抑えるようにしています。
