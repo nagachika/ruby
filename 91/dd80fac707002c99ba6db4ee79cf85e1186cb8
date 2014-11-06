@@ -1,0 +1,4 @@
+標準添付ライブラリ open3 の rdoc コメントで code タグを適宜利用するようにしてい
+ます。 https://github.com/ruby/ruby/pull/747
+関係ないですけどこの pull request に結果のブラウザ表示のスクリーンショットが貼
+ってあってわかりやすくていいですね。
