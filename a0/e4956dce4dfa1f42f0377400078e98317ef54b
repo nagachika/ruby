@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer#start で shutdown 時にルー
+プから return で抜けてたのを break 文に修正しています。まあ while ループから抜
+けたら ensure 節の後始末処理だけなので実際の処理の流れは同じだと思うのですが…
+と思ったら JRuby では LocalJumpError が発生する場合があるみたいですね。
+[ruby-core:66085] [Bug #10478]
