@@ -1,0 +1,4 @@
+r48275 の続き。 String の実装では rb_str_substr() で文字列の途中の部分文字列を
+作った時に NUL-終端させない文字列ができてもいいようにしようとしていて、
+SHARABLE_MIDDLE_SUBSTRING というマクロが非0に定義されていたら String#lstrip!,
+rstrip! などでも終端文字の書き込みをしないようにしています。
