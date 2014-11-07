@@ -1,0 +1,3 @@
+標準添付されている rake の lib/rake/cpu_counter.rb で Etc.nprocessors が使える
+時はクラスの実装自体を大幅にすげかえて他の不要なメソッド群の定義もしないように
+しています。
