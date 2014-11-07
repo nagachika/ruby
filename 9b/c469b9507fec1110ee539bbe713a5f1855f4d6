@@ -1,0 +1,1 @@
+rb_clear_cache() という C-API を deprecated にマークしています。
