@@ -1,0 +1,3 @@
+Solaris というか SPARC 上の gcc でアライメントが厳密でないといけなくて Bus
+Error が発生するので compile.c の compile_data_alloc() でのメモリ領域の取得時に
+適切に padding を詰めるようにしています。 [ruby-core:61715] [Bug #9681]
