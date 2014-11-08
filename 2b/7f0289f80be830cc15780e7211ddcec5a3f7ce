@@ -1,0 +1,2 @@
+lib/unicode_normalize/normalize.rb のコメントをちょっと修正。バブルソートすると
+書いてあるけど厳密にはバブルソートではないらしい。
