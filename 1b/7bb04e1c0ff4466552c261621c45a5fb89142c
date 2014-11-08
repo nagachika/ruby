@@ -1,0 +1,2 @@
+tool/make-snapshot で HAVE_BASERUBY および BASERUBY をセットして make を実行す
+るようにしています。
