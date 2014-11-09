@@ -1,0 +1,7 @@
+Symbol#inspect などで使われる sym_printable() でエンコーディングに対して不正な
+バイト列があっても例外を発生せず FALSE を返すようにしています。
+なるほど、確かに
+"\xff".force_encoding("UTF-8").inspect
+は例外は発生しませんが
+"\xff".force_encoding("UTF-8").to_sym.inspect
+は EncodingError を発生させますね。
