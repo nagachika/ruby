@@ -1,0 +1,2 @@
+r48326 の webrick のテストでのログのチェックに assert_operator を使っていたとこ
+ろを assert を使うように再修正しています。
