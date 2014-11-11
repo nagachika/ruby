@@ -1,0 +1,2 @@
+lib/webrick/httpstatus.rb で AccessLog を利用しているため require "webrick/
+accesslog" するようにしています。
