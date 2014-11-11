@@ -1,0 +1,2 @@
+標準添付ライブラリ securerandom で Windows 版の実装を無名モジュールを使っていた
+のを SecureRandom::AdvApi32 というモジュールとして切り出しています。
