@@ -1,0 +1,3 @@
+さらに標準添付ライブラリ securerandom で Windows 版の実装が有効な時(つまり
+Windows 版の時)は /dev/urandom のチェック前にその実装を使うようにチェックの順番
+を入れ換えています。
