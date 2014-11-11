@@ -1,0 +1,2 @@
+r48322 の続きで lib/securerandom.rb の Windows 版実装のリファクタリングをしてい
+ます。
