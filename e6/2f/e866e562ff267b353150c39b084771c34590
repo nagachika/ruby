@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick で shutdown 通知用 pipe に通知するために
+write_nonblock で書き込むのではなくて、close することで通知するようにしています
+。 Windows 版で write_nonblock が使えなかったとのこと。
