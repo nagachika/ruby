@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer で @shutdown_pipe の初期化
+は initialize 時ではなくて listen 時に行うようにしています。テストをみたところ
+、WEBrick::GenericServer を一度 shutdown して、再度 listen でサーバとして起動し
+た時に動作するようにしているようです。
