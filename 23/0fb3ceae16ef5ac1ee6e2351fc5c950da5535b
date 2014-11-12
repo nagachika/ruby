@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の lib/webrick/server.rb で shutdown 通知用 pipe を
+read 用と write 用それぞれインスタンス変数に格納していたのをまとめて配列に入れ
+て1つのインスタンス変数に持つように変更しています。
