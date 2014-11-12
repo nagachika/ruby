@@ -1,0 +1,3 @@
+test/webrick/webrick.cgi と test/webrick/webrick_long_filename.cgi の shebang
+で ruby のオプション -d が渡されていたのを削除しています。 .cgi! こんなファイル
+があったんですね。更新履歴をみると前の変更が2005年とか2008年とかです。
