@@ -1,0 +1,3 @@
+template/unicode_norm_gen.tmpl で Unicode 用のデータファイルの生成時にバージョ
+ン番号を生成先のディレクトリ名から取得して UnicodeNormalize::UNICODE_VERSION に
+定義するようにしています。
