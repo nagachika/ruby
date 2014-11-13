@@ -1,0 +1,2 @@
+net/http の https proxy のテストでも assert_join_threads を使ってダミーサーバの
+Thread のエラーをチェックするようにしています。
