@@ -1,0 +1,3 @@
+net/ftp のテストで立ち上げるダミーサーバのスレッドで例外を rescue して無視して
+いたのをやめています。その結果みつかった sock.read_timeout の NoMethodError 修
+正のためメソッド呼び出しを削除しています。 oh...
