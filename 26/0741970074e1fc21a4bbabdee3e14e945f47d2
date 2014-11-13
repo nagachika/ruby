@@ -1,0 +1,2 @@
+template/unicode_norm_gen.tmpl でブロックパラメータで外のローカル変数を遮蔽して
+いる警告を除去。
