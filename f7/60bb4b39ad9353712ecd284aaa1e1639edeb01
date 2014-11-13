@@ -1,0 +1,2 @@
+r48373 の続きで common.mk でターゲット preludes の依存関係に prelude.c を追加し
+ています。
