@@ -1,0 +1,2 @@
+gems/bundled_gems に記述されている、パッケージに同梱する gem パッケージのバージ
+ョンを test-unit を 3.0.6、minitest 5.4.3 に更新しています。
