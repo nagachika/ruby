@@ -1,0 +1,2 @@
+rb_yield_splat() に RB_GC_GUARD() を追加してコンパイラ最適化による GC マーク漏
+れを防ぐようにしています。 [ruby-core:66272] [Bug #10509]
