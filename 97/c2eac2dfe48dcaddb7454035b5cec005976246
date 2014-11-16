@@ -1,0 +1,3 @@
+gc.c でインクリメンタル GC が有効かどうかのチェックに USE_RINCGC を使ってたとこ
+ろを GC_ENABLE_INCREMENTAL_MARK を使うように修正しています。また GC 理由の記録
+のために RGENGC_FORCE_MAJOR_GC をチェックするようにしています。
