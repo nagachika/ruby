@@ -1,0 +1,2 @@
+common.mk に自動生成されるソースファイル(parse.c、miniprelude.c、prelude.c)につ
+いての依存関係を追記しています。
