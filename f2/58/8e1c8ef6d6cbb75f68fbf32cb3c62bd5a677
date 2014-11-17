@@ -1,0 +1,3 @@
+rexml の entity expansion の制限のテストを
+REXMLTests::TestDocument::EntityExpansionLimitTest というテストクラスに括り出し
+ています。
