@@ -1,0 +1,3 @@
+ruby のソースコードで ruby/ruby.h や ruby/encoding.h、ruby/st.h などを個別に #
+include していたのを internal.h を #include するように修正して、common.mk や
+depend ファイルでの依存関係も修正しています。
