@@ -1,0 +1,3 @@
+vm_eval.c では Init_vm_eval() で初期化時に :tag と :value の ID を
+rb_intern_const() で定義して static 変数に格納しておいて、それを使うようにリフ
+ァクタリングしています。
