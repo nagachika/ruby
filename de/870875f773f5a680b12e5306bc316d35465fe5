@@ -1,0 +1,2 @@
+現在のスコープの receiver (つまり self)を取得する C-API rb_current_receiver()
+を追加しています。 [ruby-core:64713] [Feature #10195]
