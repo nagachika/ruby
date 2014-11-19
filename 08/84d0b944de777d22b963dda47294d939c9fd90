@@ -1,0 +1,3 @@
+Method#to_proc で作られた Proc オブジェクトの binding の binding#
+local_variable_{set,get} などのメソッドがうまく機能するように binding 取得時に
+iseq をメソッド定義の iseq から取得するようにしています。
