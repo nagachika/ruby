@@ -1,0 +1,3 @@
+r48472 でついでに追加した Module#const_set の例外メッセージのエンコーディングが
+保持される確認のテストが Encoding.default_internal に依存していたので
+EnvUtil.with_default_internal で UTF-8 に固定して実行されるようにしています。
