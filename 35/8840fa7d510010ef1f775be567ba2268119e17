@@ -1,0 +1,4 @@
+Module#const_set, Object#instance_variable_set, Module#class_variable_set など
+で定数/変数名のチェックに失敗した時の TypeError のメッセージに含めるのがチェッ
+ク結果の Qnil を渡してしまっていたので元の文字列/Symbol をメッセージに含めるよ
+うにしています。
