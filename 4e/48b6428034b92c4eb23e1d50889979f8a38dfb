@@ -1,0 +1,5 @@
+is_{local,global,instance,attrset,const,class,junk}_sym() という Symbol の type
+を取得する C-API を追加しています。 internal.h で宣言されているのでインタプリタ
+内部での利用のためです。 Symbol にはその文字列の表記によって type があり、ID の
+一部のビットで表現されているのですがそれを判定できるようにしています。なんとな
+くデバッグ用(デバッガでの確認用)のような気がします。
