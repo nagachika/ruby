@@ -1,0 +1,3 @@
+common.mk の変数 $PRELUDE_SCRIPTS および $GEM_PRELUDE の定義で $(srcdir) の
+prefix をはずしています。 tool/generic_erb.rb でサーチしてくれるので不要とのこ
+と。ビルドプロセス難しい…。
