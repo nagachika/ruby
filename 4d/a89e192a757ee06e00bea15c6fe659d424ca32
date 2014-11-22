@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix に Vector#angle_with メソッドを追加しています。2 つの
+(次元の同じ) Vector オブジェクトのなす角をラジアン単位で返すようです。
+[ruby-core:65947] [Feature #10442]
