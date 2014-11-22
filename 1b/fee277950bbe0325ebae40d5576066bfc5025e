@@ -1,0 +1,2 @@
+r48506 で追加した Vector.independent? のテストで例外クラスの名前の間違いを修正
+しています。 [ruby-core:65999] [Feature #10451]
