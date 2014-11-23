@@ -1,0 +1,3 @@
+r48526 の依存関係の記述で $(top_srcdir) という変数が必要になったのに Windows 版
+の win32/Makefile.sub も追随するため top_srcdir に $(srcdir) を引き継ぐようにし
+ています。
