@@ -1,0 +1,2 @@
+tool/update-deps の更新に伴い common.mk と各種 depend ファイルの依存関係記述を
+更新しています。
