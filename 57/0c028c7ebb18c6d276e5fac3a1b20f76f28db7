@@ -1,0 +1,4 @@
+標準添付ライブラリ resolv で Resolv::DNS::Config#generate_candidates で /etc/
+resolv.conf に options ndots:2 のように ndots というオプションが 2 以上に設定さ
+れているとうまく動かないという不具合を修正しています。うーむ名前解決もよくわか
+ってない仕様がありますねぇ。 [ruby-core:65836] [Bug #10412]
