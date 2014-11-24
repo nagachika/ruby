@@ -1,0 +1,2 @@
+Module#const_missing で Symbol を pindown しないようにして、GC されない Symbol
+の生成を防いでいます。
