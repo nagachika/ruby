@@ -1,0 +1,3 @@
+r48530 で ext/ripper/ripper.c の生成時の VPATH に $(PWD) か $(MAKEDIR) を利用し
+ていたのを、win32/Makefile.sub で PWD に $(MAKEDIR) を設定しておくことで差異を
+吸収して common.mk では $(PWD) を使うように戻しています。
