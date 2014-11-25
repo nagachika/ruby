@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence の disassemble の時のメソッド名を PRIsVALUE を使っ
+て埋め込むようにしています。
