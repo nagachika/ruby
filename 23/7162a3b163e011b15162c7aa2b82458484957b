@@ -1,0 +1,2 @@
+test/ruby/test_variable.rb の未初期化変数の参照や未使用のローカル変数などの警告
+除去。
