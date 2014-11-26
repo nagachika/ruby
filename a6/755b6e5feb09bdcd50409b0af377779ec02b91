@@ -1,0 +1,2 @@
+process.c の Init_process() で内部で利用しているメソッド名などの ID を毎回
+rb_intern() せずに事前に static 変数に定義しておくようにしています。
