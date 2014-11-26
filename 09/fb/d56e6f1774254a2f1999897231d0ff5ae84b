@@ -1,0 +1,3 @@
+Process.spawn や exec での引数のオプションのキーの Symbol やリダイレクトの指定
+のための Symbol (err: :out のような標準入出力の指定をするやつなど)をチェックす
+る時に pindown しないようにしています。
