@@ -1,0 +1,4 @@
+rake のバージョンを 10.4.0 に更新しています。
+また rake のテストは minitest 5 を利用しているようで、 test/lib/minitest/
+unit.rb は minitest 4 ベースなので、利用している minitest 5 のメソッドの互換性
+のため名前空間を追加しています。
