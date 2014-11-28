@@ -1,0 +1,2 @@
+tool/make-snapshot で enc/trans/newline.c を生成するのを防いでいるそうです。手
+元だと newline.c はビルド時にビルドディレクトリ直下にできるみたいですね。
