@@ -1,0 +1,3 @@
+r48588 の require "continuation" での警告の追加で autoload のテストがこけるよう
+になってしまったので autoload 対象のライブラリを continuation から date に変更
+しています。
