@@ -1,0 +1,5 @@
+compile.c の iseq_set_sequence() で命令列へのコンパイル時に adjuststack 命令が
+不要だった時に jump 命令を使っていたのを nop を利用するようにしています。
+ISeq.load でコンパイル結果をロードして最適化にかけると消えるので roundtrip テス
+トが失敗する、というのを回避するためみたいです。 https://bugs.ruby-lang.org/
+issues/8543#change-50085
