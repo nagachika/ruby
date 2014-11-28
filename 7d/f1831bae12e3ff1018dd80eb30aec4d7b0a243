@@ -1,0 +1,2 @@
+template/prelude.c.tmpl で RbConfig::CONFIG の値の参照を展開する処理は、もうこ
+の値の参照を使っていないとのことで削っています。
