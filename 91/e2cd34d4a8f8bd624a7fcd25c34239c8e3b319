@@ -1,0 +1,2 @@
+Module#remove_method で対象のメソッドがない時の例外メッセージでも PRIsVALUE を
+使って埋め込むようにしています。
