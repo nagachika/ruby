@@ -1,0 +1,2 @@
+template/prelude.c.tmpl で対象の prelude が空の時は余分なソースコードの生成を抑
+制するようにしています。
