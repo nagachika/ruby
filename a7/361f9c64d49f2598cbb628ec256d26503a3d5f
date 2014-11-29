@@ -1,0 +1,2 @@
+iseq.c の iseq_data_to_ary() に RB_GC_GUARD() によるコンパイラ最適化避けを追加
+しています。
