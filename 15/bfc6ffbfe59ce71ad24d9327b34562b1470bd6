@@ -1,0 +1,4 @@
+Time.utc や Time.mktime などの 10個引数を受け付ける時に wday, yday, isdst(は
+Time.utc の時だけ), tz などの引数(第7から第10引数)は rdoc コメント上で dummy と
+して利用されないように表記しています。 time_arg() をみると isdst は見てるみたい
+ですけど、utc の時はその後 isdst が 0 に上書きされるので意味がないみたいです。
