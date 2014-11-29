@@ -1,0 +1,3 @@
+r48566 で template/prelude.c.tmpl で RbConfig::CONFIG の値の展開の機能を削った
+ので、prelude の生成に miniruby を利用する必要がなくなったということで、
+BASERUBY で生成するようにしています。
