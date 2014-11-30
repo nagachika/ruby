@@ -1,0 +1,2 @@
+common.mk で miniprelude.c の依存関係から prelude.rb を消しています。 r48606 で
+利用しなくなったため。
