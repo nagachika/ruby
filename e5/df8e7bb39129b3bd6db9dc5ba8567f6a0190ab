@@ -1,0 +1,2 @@
+r48623 の変更の絡みだと思いますが dmyext.o と dmyenc.o をあわせたものを common
+.mk 内で DMYEXT という変数にしていたのを INITOBJS という名前に変更しています。
