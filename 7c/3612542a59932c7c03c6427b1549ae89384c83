@@ -1,0 +1,2 @@
+r48608 で追加された ArgumentError 生成のための関数 arugment_kw_error() →
+argument_kw_error() と typo を修正しています。おお、気がつかなかった。
