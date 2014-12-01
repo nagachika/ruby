@@ -1,0 +1,4 @@
+rb_typeddata_inherited_p() を deprecated にしています。かわりに RTYPEDDATA_TYPE
+(obj) でチェックすればいいみたいです。TypedData の継承がなくなったみたいですね
+。 struct RTypedData の parent メンバも削除されていますが、構造体のレイアウトは
+保持するために reserved というメンバとして残しています。
