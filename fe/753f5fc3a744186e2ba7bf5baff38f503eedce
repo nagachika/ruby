@@ -1,0 +1,2 @@
+encoding.c から不要なプロトタイプ宣言 rb_locale_charmap() を削除しています。
+include/ruby/encoding.h で宣言済みとのこと。
