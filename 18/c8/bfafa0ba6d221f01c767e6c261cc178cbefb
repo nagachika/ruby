@@ -1,0 +1,4 @@
+r48648 で修正した Windows 版でのメタキャラクタの展開のエンコーディング変換のテ
+ストで default_external を UTF-8 から locale encoding に変更しています。ファイ
+ルシステムエンコーディングが cp932 以外の場合のためとのこと。 [ruby-dev:48752]
+[Bug #10555]
