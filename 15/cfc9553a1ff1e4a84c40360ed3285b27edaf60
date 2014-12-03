@@ -1,0 +1,4 @@
+Windows 版の場合の verconf.h の依存関係に verconf.mk を追加し、configure しなお
+したら verconf.h も再生成するようにしています。またこのため tool/generic_erb.rb
+の -c オプションを消して、テンプレートファイルに差分がなくても再生成するように
+しています。
