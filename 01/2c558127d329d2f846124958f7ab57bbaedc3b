@@ -1,0 +1,2 @@
+re.c に rb_reg_region_copy() という reg_region_copy() の wrapper でメモリ確保に
+失敗した時に GC してリトライする関数を追加してこれを利用するようにしています。
