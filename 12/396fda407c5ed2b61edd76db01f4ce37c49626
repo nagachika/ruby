@@ -1,0 +1,3 @@
+拡張ライブラリ psych で BasicObject を継承したオブジェクトの dump/load をサポー
+トしています。ただし marshal_dump/marshal_load に対応していないといけないようで
+す。
