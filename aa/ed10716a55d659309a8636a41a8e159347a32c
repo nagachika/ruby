@@ -1,0 +1,4 @@
+include/ruby/intern.h のリファクタリングで RETURN_SIZED_ENUMERATOR() から
+rb_enumeratorize_with_size() の呼び出し部分を SIZED_ENUMERATOR() というマクロと
+して切り出して string.c の rb_str_enumerate_chars() でこれを利用しています。条
+件分岐部分が重複していて不要だったので効率化のためみたいですね。
