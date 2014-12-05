@@ -1,0 +1,2 @@
+encoding.c で rb_require_safe() を rb_protect() つきで呼んでいたのを、r48696 で
+切り出した rb_require_internal() を使うことでシンプルにしています。
