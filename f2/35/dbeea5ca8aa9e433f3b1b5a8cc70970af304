@@ -1,0 +1,4 @@
+rb_require_safe() から大域脱出の処理を除いた部分を rb_require_internal() という
+関数に追い出して、初期化時の enc/encdb と enc/trans/transdb のロード処理に
+rb_require_internal() を利用するようにしています。これは r48700 の下準備だそう
+です。
