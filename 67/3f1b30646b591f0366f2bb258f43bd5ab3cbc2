@@ -1,0 +1,2 @@
+r48696 で Init_enc() で enc/encdb と enc/trans/transdb の require が実行される
+ようになったため enc/prelude.rb での require が不要になったので削除しています。
