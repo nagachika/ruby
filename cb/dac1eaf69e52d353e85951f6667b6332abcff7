@@ -1,0 +1,4 @@
+パーサで { 'symbol-key': value } のようにクオート付きの Symbol キーの記述をする
+と value の位置に配列や Hash のリテラル、Symbol リテラルなどを書くと Syntax
+Error になるようになっていたのを修正しています。 'symbol-key': を読んだ時の
+lex_state が間違っていたのを修正しています。 [ruby-core:66705] [Feature #4935]
