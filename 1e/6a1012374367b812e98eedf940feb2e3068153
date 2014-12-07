@@ -1,0 +1,4 @@
+configure に --enable-shared をつけた時に ext/extmk.rb で生成する Makefile に
+EXTOBJS の定義を空で追加して、拡張ライブラリのオブジェクトがリンクされないよう
+にしています。 Linux 上での mingw-w64 版のクロスコンパイルができないのを修正し
+ているみたいです。 [ruby-core:66675] [Bug #10566]
