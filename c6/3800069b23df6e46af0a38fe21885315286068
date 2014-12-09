@@ -1,0 +1,2 @@
+rdoc の lib/rdoc/known_classes.rb から標準添付から削除された DL を再度削除して
+います。
