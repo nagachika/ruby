@@ -1,0 +1,6 @@
+thread.c の再帰呼び出しの検出処理でメソッド名の ID として不正な ID を作ってしま
+い SEGV する可能性があった不具合を修正しています。 rb_frame_this_func() のかわ
+りに rb_frame_last_func() という関数を作成して、また Qnil の時は idNULL を使う
+ようにしています。これ recursive_pop() のほうでは rb_frame_this_func() を使って
+いるままなのですけど、ここは同じように変更しなくても大丈夫でしょうか?
+[ruby-core:66742] [Bug #10579]
