@@ -1,0 +1,4 @@
+thread.c の再帰チェックで、メソッド名の ID の取得を recursive_list_access() か
+ら exec_recursive() に引き上げて recursive_pop() のエラー時のメッセージに同じ名
+前を利用するようにしています。 r48744 の続きだと思います。 [ruby-core:66742]
+[Bug #10579]
