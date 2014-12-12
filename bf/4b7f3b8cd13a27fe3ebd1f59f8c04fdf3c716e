@@ -1,0 +1,3 @@
+open-uri と net/http のテストで SSL の検証失敗した時に Windows 環境では
+Errno::ECONNRESET が発生して期待したログがダミーのサーバ側で残らない可能性があ
+るのでチェックを省くようにしています。
