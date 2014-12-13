@@ -1,0 +1,4 @@
+r46419 の TracePoint の修正でパフォーマンスが悪くなってしまっていたそうで、
+rb_thread_t に local_storage_recursive_hash_for_trace というメンバを追加して再
+帰チェックの Hash と trace の処理の時に差し替えるようにしているみたいです。
+[ruby-core:66282] [Bug #10511]
