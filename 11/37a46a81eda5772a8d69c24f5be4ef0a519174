@@ -1,0 +1,4 @@
+gems/bundled_gems の test-unit の取得するバージョンを 3.0.8 に更新しています。
+r48433 で対応する catch がない時の throw が発生させる例外を ArgumentError を継
+承した UncaughtThrowError を発生させるようにしたため assert_throw や
+assert_nothing_throw が動かなくなっていたのを修正したそうです。
