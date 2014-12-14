@@ -1,0 +1,2 @@
+GC.latest_gc_info が返す Hash に :state というキーを追加して、今 GC のどのフェ
+ーズにいるのかを返すようにしています。 [ruby-core:66786] [Feature #10590]
