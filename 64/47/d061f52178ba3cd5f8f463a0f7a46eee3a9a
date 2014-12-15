@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC のテストでも OpenSSL::TestUtils に
+依存しているので存在チェックするようにしています。元々 OpenSSL::PKey::EC をチェ
+クしていたのでここは変更が漏れていたようです。
