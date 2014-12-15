@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Point の RTypedData 化。
