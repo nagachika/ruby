@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::OCSP::CertificateId の RTypedData 化。
