@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http のテストでも OpenSSL::TestUtils に依存していたとこ
+ろがあったので defined? のチェックを OpenSSL から OpenSSL::TestUtils に変更して
+います。
