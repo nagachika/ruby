@@ -1,0 +1,2 @@
+uconext_t.h が存在していたら signal.h で #include しておくようにしています。
+FreeBSD でビルドできなかったみたいです。
