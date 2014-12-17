@@ -1,0 +1,2 @@
+tool/vcs.rb の VCS#get_revisions と VCS::SVN.get_revisions で引数の path に
+to_path で変換できるオブジェクト(Pathname など)も受け付けるようにしています。
