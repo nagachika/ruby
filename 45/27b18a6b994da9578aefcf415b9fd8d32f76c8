@@ -1,0 +1,2 @@
+tool/vcs.rb の VCS::SVN#url での svn info --xml の解析が間違っていたのを修正し
+ています。
