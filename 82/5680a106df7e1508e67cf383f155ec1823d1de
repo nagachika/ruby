@@ -1,0 +1,3 @@
+tool/make-snapshot で -srcdir 指定時にダウンロードしてある config.guess,
+config.sub や bundled gems のパッケージファイルなどをコピーして再度ダウンロード
+しないですむようにしています。
