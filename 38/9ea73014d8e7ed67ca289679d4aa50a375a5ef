@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence(通称 ISeq)#to_a でダンプする時にも TC_FUNCPTR とい
+う命令タイプに対応しています。って言っても nil を入れてるんですけど。
