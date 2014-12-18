@@ -1,0 +1,4 @@
+r48748 あたりで Struct の高速化のために動的に ISeq を作るようにした
+rb_method_for_self_aref() や rb_method_for_self_aset() でファイル名や行番号の設
+定を caller_location() という関数に括り出して、可能なら呼び出し元を設定するよう
+にしています。
