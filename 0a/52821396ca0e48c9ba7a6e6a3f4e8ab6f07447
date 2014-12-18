@@ -1,0 +1,3 @@
+古い Linux では ioctl(2) が pipe に対して errno=ENOTTY で返るべきところで
+EINVAL で返ることがあるそうで、テストで捕捉する例外を追加しています。
+[ruby-core:66191] [Bug #10494]
