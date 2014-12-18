@@ -1,0 +1,1 @@
+iseq.c の rb_method_for_self_aref() から不要な行を削除しています。
