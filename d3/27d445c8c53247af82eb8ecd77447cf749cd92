@@ -1,0 +1,3 @@
+r48851 の Struct の高速化のための ISeq 生成の処理で caller_location() という関
+数を切り出したものに、さらに絶対パスを返させて prepare_iseq_build() への引数に
+使うようにしています。
