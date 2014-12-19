@@ -1,0 +1,4 @@
+vm.c の rb_vm_get_binding_creatable_next_cfp(), rb_vm_get_ruby_level_next_cfp
+(), vm_get_ruby_level_caller_cfp() および vm_insnhelper.c の
+vm_get_ruby_level_caller_cfp() などの関数の rb_thread_t * の引数に const を付加
+しています。
