@@ -1,0 +1,3 @@
+Windows 版でのシグナル処理で signal(3) に SIGKILL を指定しようとした時に呼び出
+す前にチェックして errno=EINVAL でエラーにするようにしています。
+[ruby-dev:48762] [Bug #10615]
