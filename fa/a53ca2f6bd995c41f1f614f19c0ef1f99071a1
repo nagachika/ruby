@@ -1,0 +1,2 @@
+.travis.yml で OS X でのエラー時のクラッシュダンプ表示を after_failure: の項目
+にまとめています。便利。
