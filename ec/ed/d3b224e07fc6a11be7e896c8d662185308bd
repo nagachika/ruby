@@ -1,0 +1,2 @@
+r48897 の tool/update-deps の変更を受けて再度 common.mk と各種 depend ファイル
+の依存関係を更新しています。
