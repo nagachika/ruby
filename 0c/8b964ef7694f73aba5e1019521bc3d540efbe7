@@ -1,0 +1,3 @@
+ext/fiddle/extconf.rb の再修正。 libffi のインクルードパスの追加を他のチェック
+に影響しないように create_makefile の直前に移動したり static-linked-ext の時の
+ために $LOCAL_LIBS に拡張ライブラリへのパスを追加したり。
