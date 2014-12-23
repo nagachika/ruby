@@ -1,0 +1,4 @@
+configure の --with-jemalloc オプションや --without-jemalloc オプションが正しく
+効いていなかった不具合を修正しています。まずそもそも --without-jemalloc が指定
+された時のことが考慮されていなかったのでそれを修正して、LIBS に -ljemalloc を追
+加するタイミングを後のほうにずらしています。 [ruby-core:66994] [Bug #10625]
