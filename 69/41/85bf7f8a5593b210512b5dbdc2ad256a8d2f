@@ -1,0 +1,2 @@
+r48935 で追加した tool/extlibs.rb でアーカイブファイル展開時の popen で開かれる
+pipe を binmode で開くようにしています。
