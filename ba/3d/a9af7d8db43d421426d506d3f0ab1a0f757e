@@ -1,0 +1,3 @@
+拡張ライブラリ win32 の win32/registry.rb で FormatMessageW() 後の整形で
+EncodingError が発生したら en_US を指定して FormatMessageW() で再度メッセージ生
+成するようにしています。
