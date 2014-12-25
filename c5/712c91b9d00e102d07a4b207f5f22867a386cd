@@ -1,0 +1,4 @@
+make after-update の依存関係から common-srcs を common.mk での定義から Makefile
+.in に移動しています。 mswin でビルドできなかったためとのこと。 common-srcs は
+自動生成されるソースコード類の生成のための依存関係みたいですが、なぜこれがだめ
+だったのかちょっと不思議ですね。いいのかな…。
