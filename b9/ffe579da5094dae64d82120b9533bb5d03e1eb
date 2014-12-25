@@ -1,0 +1,2 @@
+r48929 の追加。 make realclean-libffi で $(RMDIR) のかわりに $(RMALL) を使うよ
+うにしています。
