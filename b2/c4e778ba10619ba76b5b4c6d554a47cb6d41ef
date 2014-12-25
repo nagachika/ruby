@@ -1,0 +1,3 @@
+fiddle の extconf.rb 修正。 mswin で libffi をビルドする際に mingw としてビルド
+するようにしているそうです。このへんどうやら libffi の mswin 対応がよくないらし
+いですね。
