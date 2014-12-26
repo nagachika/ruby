@@ -1,0 +1,2 @@
+tool/downloader.rb で引数に key: value の記法が使われていたところがあったので
+1.8 でも動くように :key => value の記法に直しています。
