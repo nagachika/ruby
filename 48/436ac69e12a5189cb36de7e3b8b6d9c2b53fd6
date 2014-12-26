@@ -1,0 +1,3 @@
+r48958 での rb_hash_delete() の修正と rb_hash_delete_entry() の追加の対応で
+rb_hash_delete_entry() の宣言をテスト用の拡張ライブラリにも追加しています。
+[ruby-core:66989] [Bug #10623]
