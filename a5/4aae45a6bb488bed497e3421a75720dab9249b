@@ -1,0 +1,5 @@
+拡張ライブラリ fiddle の extconf.rb で mswin 版で libffi のバンドル版に
+ffitarget.h が存在していたら削除するようにしています。 configure で生成されるそ
+うですが cygwin の symlink ファイルなので system attribute を持っていて…とかコ
+メントに書いてありともかく邪魔みたいです。 libffi の configure に cygwin 使うの
+…。
