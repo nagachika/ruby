@@ -1,0 +1,3 @@
+拡張ライブラリ io/console のテストの run_pty で IO#readlines にブロック引数とし
+て &:chomp を渡していたのを readlines.map(&:chomp) と修正しています。 readlines
+はブロックを受け取っても呼び出していませんでした。
