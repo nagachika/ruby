@@ -1,0 +1,3 @@
+r48988 の mingw-w64 向けのビルドの再修正。 #include <ifdef.h> の追加のかわりに
+#include <winsock2.h> を追加して #include <windows.h> も削除するようにしていま
+す。 [ruby-core:67125] [Bug #10640]
