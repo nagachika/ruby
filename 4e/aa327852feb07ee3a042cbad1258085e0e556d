@@ -1,0 +1,3 @@
+tool/rbinstall.rb で拡張ライブラリ zlib が利用できない環境では rubygems が使え
+ないので bundled gem パッケージのインストールをスキップするようにしています。
+[ruby-dev:48787] [Bug #10647]
