@@ -1,0 +1,4 @@
+r49007 での ext/fiddle/extconf.rb のリンクするライブラリの libffi_convinience.a
+に変更したのに追随しているのだと思いますが mswin 版の Makefile のテンプレート
+ext/fiddle/win32/libffi.mk.tmpl でも STATICLIB を _convinience を追加するように
+修正しています。 [ruby-core:67128]
