@@ -1,0 +1,5 @@
+r48941 で open-uri の :ssl_ca_cert オプションに配列で複数の証明書を指定できるよ
+うにしましたが、tool/downloader.rb がこれに依存していたため、tool/downloader.rb
+でモンキーパッチを書いて古い ruby でも実行できるようにしています。また net/
+https (つまり openssl) が使えない時は警告を出した上で http 経由でダウンロードす
+るようにしています。
