@@ -1,0 +1,3 @@
+パッケージのリリース時のチェックサムに MD5, SHA256, SHA512 に加えて SHA1 も追加
+するように tool/make-snapshot で表示するようにしています。 https://github.com/
+ruby/www.ruby-lang.org/issues/921 https://github.com/ruby/ruby/pull/794
