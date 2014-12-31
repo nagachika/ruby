@@ -1,0 +1,4 @@
+doc/syntax/literals.rdoc から Symbol は GC されないので Symbol リテラルでの式の
+埋め込みは注意するようにという注意書きを削除しています。 Symbol GC が導入された
+ので埋め込みされた Symbol は dynamic symbol になり GC 対象になります。
+[ruby-core:67194] [Bug #10671]
