@@ -1,0 +1,2 @@
+r49059 での RUBY_VERSION の更新に合わせて API version も 2.3.0 になるように
+RUBY_API_VERSION_MINOR を 3 に更新しています。
