@@ -1,0 +1,4 @@
+configure のオプションに特定の拡張ライブラリをビルドから除外する --with-out-ext
+というオプションがありますが、このデフォルト値を Windows 版(mingw, mswin) だと
+pty, readline, syslog を除外、その他のプラットフォームでは win32 および
+win32ole を除外するようにしています。
