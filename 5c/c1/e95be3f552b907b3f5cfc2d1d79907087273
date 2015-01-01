@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle の extconf.rb にバンドル版の libffi のビルドに失敗した時
+にその config.log を mkmf.log に出力するようにしています。
