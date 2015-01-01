@@ -1,0 +1,2 @@
+lib/unicode_normalize.rb のドキュメント用コメントの typo 修正。
+[ruby-dev:48794] [misc #10675]
