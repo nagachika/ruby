@@ -1,0 +1,4 @@
+dynamic symbol の解放処理で global_symbols.dsymbol_fstr_hash からの削除が抜けて
+いたためメモリリークが発生していたのを修正しています。 Symbol GC で Symbol (の
+うち to_sym などで作られるもの)が解放できるのがウリなのでこれも重要な不具合修正
+ですね。 [ruby-core:67268] [Bug #10686]
