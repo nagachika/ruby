@@ -1,0 +1,4 @@
+test/ruby/test_module.rb のメソッドキャッシュの無効化のテストで、Module#include
+によるメソッド探索のツリーの変更は global method cache をクリアしなくなっている
+ので、RubyVM.stat[:global_method_state] が変化しないこともチェック対象に追加し
+ています。 https://github.com/ruby/ruby/pull/472 [ruby-core:59035] [Bug #9240]
