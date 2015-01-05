@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で SSL_SESSION_cmp() という関数が存在しない時の代替実装
+で memcmp() のかわりに CRYPTO_memcmp() を利用するようにしています。 https://
+github.com/ruby/ruby/pull/591
