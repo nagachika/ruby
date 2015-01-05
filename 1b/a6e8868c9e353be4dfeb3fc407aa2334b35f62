@@ -1,0 +1,2 @@
+r49110 での拡張ライブラリ fiddle の Fiddle::CParser の機能強化は Fiddle::Import
+が動かなくなる場合があったため追加修正しています。
