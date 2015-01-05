@@ -1,0 +1,5 @@
+r49118 で標準添付ライブラリ net/http で proxy の user/password を環境変数
+http_proxy から取得するようにした変更を revert しています。セキュリティ上の懸念
+および RFC 1738 に proxy の user と password は利用しないと明記されているとのこ
+とで revert しています。チケットの報告者の動機もよくわかるので、なにか方法があ
+ればいいのですが…。 [ruby-core:67138] [Feature #10652]
