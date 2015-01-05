@@ -1,0 +1,2 @@
+r47640 で追加した関数マクロ rb_{usascii,utf-8,enc}_str_new_literal() などを gcc
+でビルドする時だけでなく常に定義するようにしています。
