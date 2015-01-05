@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http で環境変数 http_proxy から proxy user と proxy
+password を取得できるようにしています。がこれは後で r49124 にてセキュリティ上の
+懸念から revert されています。 https://github.com/ruby/ruby/pull/763 こちらのチ
+ケットも参照。 [ruby-core:67138] [Feature #10652]
