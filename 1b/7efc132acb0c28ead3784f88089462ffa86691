@@ -1,0 +1,4 @@
+test/lib/test/unit.rb に ExcludesOption という Module を追加して -X/--excludes-
+dir オプションおよび環境変数 EXCLUDES による実行から除外するテストの指定を受け
+付けるようにする機能を追加しています。なるほど、この追加をするためにまずリファ
+クタリングしていたんですね。 [ruby-core:67255] [Feature #10682]
