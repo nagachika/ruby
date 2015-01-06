@@ -1,0 +1,2 @@
+test/lib/test/unit.rb のリファクタリング。 Test::Unit をいくつかのモジュールに
+分割しています。
