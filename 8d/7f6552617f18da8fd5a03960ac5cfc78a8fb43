@@ -1,0 +1,1 @@
+r49129 で追加したテストの assertion に assert_file を利用するようにしています。
