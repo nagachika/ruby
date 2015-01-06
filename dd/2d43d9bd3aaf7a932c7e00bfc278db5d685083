@@ -1,0 +1,2 @@
+r49131 と同様に他のテストケースでも assert File.exist? としていたところを
+assert_file.exist? を利用するようにしています。
