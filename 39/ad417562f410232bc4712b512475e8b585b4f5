@@ -1,0 +1,2 @@
+なのですが r49145 のうち OpenStruct#table の改名は revert しています。 JSON が
+使っていたらしい?
