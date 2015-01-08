@@ -1,0 +1,5 @@
+拡張ライブラリ fiddle のテストで Fiddle::Handle.sym の確認のために
+Init_objspace() を利用していたのを、テスト用の拡張ライブラリ ext/-test-/dln/
+empty の Init_empty() を利用するようにしています。 Solaris で require
+"objspace" によるロードの順番に依存してテストが失敗することがあったそうです。
+[ruby-dev:48629] [Bug #10384]
