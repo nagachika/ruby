@@ -1,0 +1,2 @@
+C-API テスト用の拡張ライブラリ ext/-test-/win32/dln に depend ファイルを追加し
+ています。ついでに create_makefile のブロックつきの使いかたに変更しています。
