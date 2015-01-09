@@ -1,0 +1,4 @@
+UnboundMethod を & をつけてブロック引数として渡そうとすると TypeError になるこ
+とや UnboundMethod を Module#define_method の第2引数に渡した時に継承関係の有無
+によって結果が異なることを確認するテストケースを追加しています。 JRuby でのテス
+トを意識したものでしょうね。
