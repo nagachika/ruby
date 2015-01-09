@@ -1,0 +1,2 @@
+Dir.new で dirname を RB_GC_GUARD() で最適化による GC マーク漏れから保護するよ
+うにしています。
