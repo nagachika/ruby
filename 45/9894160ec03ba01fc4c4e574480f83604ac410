@@ -1,0 +1,5 @@
+Refinements で refine ブロック内で追加したメソッド名を private や protected な
+どの引数に渡すと SEGV したりする不具合を修正しています。メソッドエントリが見付
+からない時だけでなく、refinements 用のメソッドエントリがみつかったけど今有効じ
+ゃないという時も NameError にする必要がありました。 [ruby-core:67387] [Bug #
+10706]
