@@ -1,0 +1,3 @@
+.travis.yml で configure のオプションに --disable-install-doc と
+--disable-install-rdoc が両方指定されていましたが、前者が後者を含んでいるので削
+除しています。 https://github.com/ruby/ruby/pull/809
