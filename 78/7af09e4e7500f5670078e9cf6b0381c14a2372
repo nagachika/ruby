@@ -1,0 +1,3 @@
+configure の __builtin_setjmp() の検出に使っている AS_CASE() にセミコロンをつけ
+ていて、autoconf 2.63 で syntax error になっていたそうで修正しています。
+[ruby-core:67429] [Bug #10716]
