@@ -1,0 +1,2 @@
+test/ruby/test_integer_comb.rb で Integer#size を8倍してビット数を得ていたとこ
+ろを Integer#bit_length メソッドを利用するようにリファクタリングしています。
