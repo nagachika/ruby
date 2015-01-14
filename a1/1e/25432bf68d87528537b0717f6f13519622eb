@@ -1,0 +1,3 @@
+と、思ったら Refinements を考慮して undefined method を判定するマクロ
+UNDEFINED_REFINED_METHOD_P() というのを追加してこれまでの修正をこれを利用するよ
+うにおきかえています。 r49182、r49184 および r49222 の修正への追加修正ですね。
