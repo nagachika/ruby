@@ -1,0 +1,4 @@
+tool/rbinstall.rb で bundled gems をインストールした先の mode を変更する時に指
+定するディレクトリを Gem.dir からローカル変数の gem_dir に修正しています。
+r49047 と同様に環境変数 GEM_HOME に影響をうけないようにするためでしょう。
+https://github.com/ruby/ruby/pull/812
