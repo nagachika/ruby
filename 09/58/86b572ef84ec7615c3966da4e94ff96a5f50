@@ -1,0 +1,4 @@
+拡張ライブラリ readline で Readline.refresh_line を Readline.readline を一度も
+呼ばないうちに呼ぶと SEGV する不具合を修正しています。Readline.refresh_line メ
+ソッドから rl_refresh_line() が呼ばれるとその中で未初期化の出力ストリームにさわ
+ってしまうようでした。 [ruby-core:43957] [Bug #6232]
