@@ -1,0 +1,5 @@
+tool/downloader.rb の RubyGems からのダウンロードで、Gem::Package#verify を使っ
+て gem パッケージに署名がついていたらその検証をするようにしています。 Gem
+::Security::LowSecurity というポリシーを使っているので今は信頼できない証明書も
+許可しているそうです。信頼されない証明書による署名を検証することにどれくらいの
+意味があるのか…。
