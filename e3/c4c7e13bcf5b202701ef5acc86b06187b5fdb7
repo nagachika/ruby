@@ -1,0 +1,4 @@
+標準添付ライブラリ uri/mailto で mailto: プロトコルの URI で不正なものを parse
+しようとすると、nil への NoMethodError 例外でエラーになってしまうので、チェック
+してちゃんと URI::InvalidComponentError を発生させるように対応しています。
+[ruby-core:67563] [Bug #10738]
