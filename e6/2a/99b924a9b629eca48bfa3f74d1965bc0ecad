@@ -1,0 +1,5 @@
+TracePoint#binding を :c_return などのイベントで呼んだ時の break での脱出時に
+errinfo が書き替わってしまって unexpected break というエラーになってしまう不具
+合を修正しています。 [ruby-dev:48797] [Bug #10689]
+ep のかわりに cfp をバックアップしておくようにしているとのことなのですが、ep っ
+て何でしたっけ。 Env Pointer かな。
