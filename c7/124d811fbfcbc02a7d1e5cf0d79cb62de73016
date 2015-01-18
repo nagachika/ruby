@@ -1,0 +1,3 @@
+VM_CF_LEP(), VM_CF_PREF_EP(), VM_CF_BLOCK_PTR() などの inline 関数および
+rb_vm_control_frame_block_ptr() などの関数の cfp 引数に const 修飾子を付けてい
+ます
