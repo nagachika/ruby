@@ -1,0 +1,3 @@
+tool/rbinstall.rb で拡張ライブラリのファイル名の拡張子を ".so" 決め打ちで Dir
+.glob でマッチさせていたところを RbConfig::CONFIG["DLEXT"] を参照するようにして
+います。
