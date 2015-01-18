@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb で redmine のチケットに関連リビジョン番号を付加する
+rel コマンドを追加しています。
