@@ -1,0 +1,2 @@
+NEWS ファイルに r49260 で IO#close が close 済みでも IOError を発生させなくなっ
+たことを追記しています。
