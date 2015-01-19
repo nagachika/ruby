@@ -1,0 +1,3 @@
+tool/make-snapshot で YACC BASERUBY RUBY MV MINIRUBY などの環境変数は空白を含む
+(オプション付き)の場合があるので Shellwords.split で先頭のコマンド名だけ取り出
+すようにしています。
