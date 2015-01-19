@@ -1,0 +1,3 @@
+tool/rbinstall.rb で require "zlib" の実行を先頭でするようにしています。 Gem
+::Installer のロード時に autoload で zlib の require が発生するのを防いでいるそ
+うです。
