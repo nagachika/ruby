@@ -1,0 +1,2 @@
+tool/make-snapshot で実行する make prereq で extract-gems を実行するようにして
+います。
