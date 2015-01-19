@@ -1,0 +1,3 @@
+tool/gem-unpack.rb および tool/downloader.rb で rubygems の gem パッケージの署
+名検証の policy を Gem::Security::LowSecurity からさらに ui を Gem::SilentUI と
+いうのに変更して警告メッセージを抑制するようにしています。
