@@ -1,0 +1,3 @@
+common.mk の依存関係記述での unicode/casefold.h と unicode/name2ctype.h になっ
+ていたのを enc/unicode/casefold.h と enc/unicode/name2ctype.h に修正しています
+。
