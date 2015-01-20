@@ -1,0 +1,2 @@
+r44684 で README(.ja) ファイルは README(.ja).md に改名されたので .document ファ
+イルでの指定も追随するようにしています。 [ruby-core:59167] [Bug #9255]
