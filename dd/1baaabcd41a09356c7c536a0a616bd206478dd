@@ -1,0 +1,4 @@
+Module#{public,private,protected}_method_defined? でメソッドの存在チェックをす
+る check_definition() で Refinements による method entry は Module#refine のブ
+ロック外では無視するように修正しています。やっぱりこのパターンまだありましたね
+。 [ruby-core:67656] [Bug #10753]
