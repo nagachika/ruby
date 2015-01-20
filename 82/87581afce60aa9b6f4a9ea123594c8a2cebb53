@@ -1,0 +1,4 @@
+tool/vcs.rb の VCS::SVN#export で svn export のかわりにチェックアウト済みの
+working copy があったらそこの .svn/ を利用してソースディクトリを生成しているよ
+うです。 .svn/* をコピー(正確には symblic link) して svn revert -R で復元とは裏
+技チックですね。
