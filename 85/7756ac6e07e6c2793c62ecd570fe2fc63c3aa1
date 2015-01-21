@@ -1,0 +1,6 @@
+File::Stat#birthtime と Pathname#birthtime の rdoc 用コメントに birthtime が利
+用できない時は ctime を返すとあるのを NotImplementedError を発生させると修正し
+ています。 https://github.com/ruby/ruby/pull/817
+あれ、Windows では ctime で代替するようにしていたような…と思いましたが確かに
+HAVE_STAT_BIRTHTIME が未定義だと NotImplementedError を発生させるようになってい
+ました。
