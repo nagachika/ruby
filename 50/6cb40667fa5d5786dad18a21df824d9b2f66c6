@@ -1,0 +1,2 @@
+r49339 で tool/redmine-backporter.rb に追加した mygets を readline と改名してプ
+ロンプトも表示するようにしています。
