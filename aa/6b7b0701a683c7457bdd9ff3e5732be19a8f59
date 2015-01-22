@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb の readline ですが、可能なら拡張ライブラリの
+readline を使うようにしています。このツールのメインユーザのひとりは確実に
+Windows ユーザなので互換性重要なのです。
