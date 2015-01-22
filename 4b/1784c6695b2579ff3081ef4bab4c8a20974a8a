@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb の ls コマンドにページ指定の引数のサポートを追加して
+います。
