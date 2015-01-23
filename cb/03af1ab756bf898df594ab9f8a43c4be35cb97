@@ -1,0 +1,4 @@
+IO#close が close 済みの IO オブジェクトでも IOError を発生しなくなる変更
+(r49260、r49263)や Array#select! などのブロック内での receiver の変更タイミング
+の変更(r49255)についての NEWS エントリにチケット番号の参照を追記しています。
+[ruby-core:67701] [Bug #10760] [Feature #10714] [Feature #10718]
