@@ -1,0 +1,5 @@
+r49336 の Pathname や File::Stat の birthtime のドキュメントと同様に、
+File.birthtime や File.birthtime の rdoc 用コメントでも Windows で ctime が
+birthtime として使われることは削除して、未サポートのプラットフォームでは
+NotImplementedError が利用されることを追記しています。 https://github.com/ruby/
+ruby/pull/817
