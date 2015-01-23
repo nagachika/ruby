@@ -1,0 +1,3 @@
+ext/extmk.rb で Makefile から CLEANFILES や DISTCLEANFILES を抽出して利用するの
+を extconf.rb の成否にかかわらず実行するようにしています。よくわかりませんが tk
+の extconf.rb が config_list を常に生成するのに対応しているとのこと。
