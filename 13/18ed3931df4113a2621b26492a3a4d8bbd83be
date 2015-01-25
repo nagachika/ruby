@@ -1,0 +1,2 @@
+tool/vcs.rb の VCS#after_export の定義が直前の VCS#relative_to のメソッド内に入
+ってしまっていたので def ... end の対応を修正しました。
