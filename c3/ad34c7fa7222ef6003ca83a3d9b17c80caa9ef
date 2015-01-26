@@ -1,0 +1,3 @@
+r49391 および 49393 のさらに再修正。 file.c の rb_readlink() の static 宣言をは
+ずして Linux では /proc/self/exe の link 先を呼んで自分自身のファイルパスを得る
+ようにしています。 [ruby-core:67766] [Bug #10776]
