@@ -1,0 +1,2 @@
+dln_find_1() で require で $LOAD_PATH からライブラリを検索する時にディレクトリ
+は除外するようにしています。 [ruby-core:67766] [Bug #10776]
