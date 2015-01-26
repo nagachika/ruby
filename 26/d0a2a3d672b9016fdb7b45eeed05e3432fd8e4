@@ -1,0 +1,4 @@
+ブロック内のネストした begin..rescue..end の rescue 節で break すると
+LocalJumpError になっていたのを修正しています。 vm_throw_start() で cfp を1回し
+か辿っていなかったのを修正しています。 https://github.com/ruby/ruby/pull/820
+[ruby-core:67765] [Bug #10775]
