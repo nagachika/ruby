@@ -1,0 +1,4 @@
+str_make_independent_expand() で struct RVALUE 内に文字列を埋め込んだ時に終端文
+字 '\0' を追記するようにしています。あれ、ここではエンコーディングは意識しなく
+ていいのかな……と思ったらとりあえず Pull Request の変更を取り込んで後で再修正
+しているみたいです。 https://github.com/ruby/ruby/pull/821
