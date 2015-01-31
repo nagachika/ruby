@@ -1,0 +1,5 @@
+拡張ライブラリ bigdecimal で Rational の構造体を遮蔽するようになった 2.2.0 から
+導入された rb_rational_num() と rb_rational_den() や構造体 struct RRational を
+利用していたため古い ruby で gem install で gem パッケージ版のインストールがで
+きなくなっていたのを修正しています。存在しなかったら代替を自前実装するようにし
+ています。 [ruby-core:67867] [Bug #10796]
