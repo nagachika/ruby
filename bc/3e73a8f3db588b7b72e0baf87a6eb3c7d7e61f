@@ -1,0 +1,3 @@
+tool/rbinstall.rb で Makefile の変数の置換つき展開のために ":" と書きたいところ
+で Path separator を使っていた(Unix 系だと ":" だけど Windows だと ";" なので意
+図した Makefile にならない)のを修正しています。
