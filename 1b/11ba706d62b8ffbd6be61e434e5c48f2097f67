@@ -1,0 +1,4 @@
+configure で dtrace -G が動くかどうかと、オブジェクトファイルが書きかえられるか
+どうかはそれぞれ別に判定して DTRACE_GLOMMED_OBJ の設定はオブジェクトファイルが
+書き変えられる時だけするようにしています。また $DTRACE_OBJ は $COMMONOBJS に含
+めるようにしています。
