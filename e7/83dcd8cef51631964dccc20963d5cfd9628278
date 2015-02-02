@@ -1,0 +1,4 @@
+tool/rbinstall.rb で PROLOG_SCRIPT に埋め込む bindir を cd + pwd で取得するのを
+やめて、スクリプトを呼び出した時のパスをそのまま利用するようにしています。
+symbolic link で呼ばれた時にその symbolic link の名前をそのまま使おうとしている
+ようです。
