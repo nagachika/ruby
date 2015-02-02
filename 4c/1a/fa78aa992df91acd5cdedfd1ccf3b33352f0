@@ -1,0 +1,2 @@
+r49460 で追加した Kernel#caller_locations のテストをさらに path と
+absolute_path でテストメソッドを分割するようにしています。
