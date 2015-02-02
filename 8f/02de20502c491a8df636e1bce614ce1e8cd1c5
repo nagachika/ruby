@@ -1,0 +1,2 @@
+さらに Kernel#caller_locations のテストに lineno についてのテストを追加していま
+す。
