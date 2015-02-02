@@ -1,0 +1,2 @@
+tool/rbinstall.rb で $LOAD_PATH に標準ライブラリ用のパスを明示的に追加して
+require "rubygems" していたのを削除しています。既に重複していたようです。
