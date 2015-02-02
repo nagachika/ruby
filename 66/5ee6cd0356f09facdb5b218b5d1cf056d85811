@@ -1,0 +1,5 @@
+tool/downloader.rb で rubygems.org からのダウンロード時に署名の検証の Gem
+::Security::LowSecurity#ui= でメッセージを抑制するようにしていたのですが、 ui=
+メソッドが未定義の時はスキップするようにしています。このメソッドが実装されたの
+が最近の rubygems からなので、古い ruby のバージョンで実行すると存在しない可能
+性もあったみたいです。
