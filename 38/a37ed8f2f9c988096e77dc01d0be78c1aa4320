@@ -1,0 +1,4 @@
+tool/rbinstall.rb で .bat ファイルの作成をやめて .cmd のみサポートするようにし
+ています。 Windows95 のサポートはもう終了しているので、 cmd ファイルでよかろう
+ということだそうで、bat と cmd の違いはよく知りませんが…。 [ruby-core:67913]
+[Feature #10806]
