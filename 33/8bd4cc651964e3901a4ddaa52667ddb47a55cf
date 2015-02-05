@@ -1,0 +1,2 @@
+dir.c の sys_warning_1() や error.c の rb_sys_warning() で errno がメッセージに
+重複して出力されていたのを修正しています。
