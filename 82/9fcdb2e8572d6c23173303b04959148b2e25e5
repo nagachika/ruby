@@ -1,0 +1,6 @@
+rb_objspace_free() で LazySweep 中だったら rb_bug() で異常終了させるようにして
+います。 r46340 で rb_objspace_free() で rest_sweep() を呼ぶのをやめるようにし
+ていましたが、より明示的に禁止しています。また rb_objspace_call_finalizer() の
+最後で gc_rest() を呼んで追加で GC を実行するようにしています。 finalizer の実
+行中に確保されたオブジェクトがあるので再度 GC を完了させるようにしています。
+[ruby-core:67734] [Bug #10768]
