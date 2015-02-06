@@ -1,0 +1,3 @@
+拡張ライブラリ sdbm でマクロ DEBUG が定義されている時に利用されているマクロ
+PRIdPTRDIFF を取り込むため "ruby/ruby.h" を include するようにしています。
+[ruby-core:67987]. [Bug #10825]
