@@ -1,0 +1,3 @@
+r49499、r49500 の追加修正。 send_internal() でも Symbol が ID を持っていない時
+に immortal 化していたのを修正しているみたいです。 [ruby-core:68008] [Bug #
+10828]
