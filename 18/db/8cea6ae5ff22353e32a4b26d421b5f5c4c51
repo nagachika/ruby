@@ -1,0 +1,3 @@
+error.c で rb_enc_warn()、rb_enc_warning() という全く同じ関数が2つコメントアウ
+トされた状態で追加し、さらに rb_sys_enc_warning() という strerror(3) の文字列も
+追加する関数を追加しています。
