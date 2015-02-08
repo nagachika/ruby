@@ -1,0 +1,4 @@
+RubyGems を最新版(commit hash 5c3b6f3) に更新しています。 https://github.com/
+rubygems/rubygems/pull/1115 https://github.com/rubygems/rubygems/pull/1139
+https://github.com/rubygems/rubygems/pull/1142 https://github.com/rubygems/
+rubygems/pull/1156 などの細かな不具合修正、性能改善を取り込んでいるようです。
