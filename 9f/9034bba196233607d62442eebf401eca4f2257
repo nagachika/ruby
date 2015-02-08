@@ -1,0 +1,3 @@
+openssl のテストで OpenSSL 1.0.2 が wrap mode というのをサポートしていないため
+OpenSSL::Cipher::Cipher.new が OpenSSL::Cipher::CipherError 例外を発生させるの
+でその場合は無視するようにしています。 [Bug #10839]
