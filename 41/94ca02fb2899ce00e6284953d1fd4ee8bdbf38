@@ -1,0 +1,5 @@
+r45487 を revert しているそうです。大分前の Symbol GC 導入直後のものですね。
+rb_alias_variable() と rb_method_entry_make() で SYM2ID(ID2SYM()) を呼んで強制
+的に immortal symbol にしているところを削除しています。 Symbol と ID の管理方法
+が変化して ID があるものは immortal なのでここで pin down する必要がなくなった
+とのこと。
