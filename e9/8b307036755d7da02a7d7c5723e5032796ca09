@@ -1,0 +1,2 @@
+classname() で SYM2ID() を呼んでいたのをやめて rb_check_id() で mortal symbol
+だったら名前の解決には利用しないようにしています。
