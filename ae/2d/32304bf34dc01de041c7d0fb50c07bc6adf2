@@ -1,0 +1,3 @@
+error.c の warn_print() から rb_encoding の指定も追加して文字列を作るところまで
+を warning_string() という関数に切り出し、というか置き換えて、出力は呼び元でそ
+れぞれ rb_write_error_str() を利用するようにリファクタリングしています。
