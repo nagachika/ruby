@@ -1,0 +1,5 @@
+dir.c で Windows での Dir.glob で short filepath ("Progra~1" みたいなチルダつき
+で省略されたやつ。 DOS プロンプトでよくみましたね…)での glob をサポートするよ
+うにしています。 [ruby-core:68011] [Bug #10819] また "<" や ">" を含んだパスで
+Dir.glob した時に無視される不具合が has_magic() の変更で復活しないように再修正
+しているようです。 [ruby-core:55764] [Bug #8597]
