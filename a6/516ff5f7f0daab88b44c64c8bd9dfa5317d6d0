@@ -1,0 +1,3 @@
+拡張ライブラリ win32 の Win32::Registry::API で RegDeleteValue() と
+RegDeleteKey() のかわりにそれぞれ RegDeleteValueW() と RegDeleteKeyW() という
+wide 版の API を利用するようにしています。 [ruby-core:67958] [Bug #10820]
