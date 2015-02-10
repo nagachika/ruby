@@ -1,0 +1,2 @@
+拡張ライブラリ socket の extconf.rb で --wide-getaddrinfo の処理を条件分岐を整
+理してシンプルにリファクタリングしています。
