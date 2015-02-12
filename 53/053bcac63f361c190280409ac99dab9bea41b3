@@ -1,0 +1,4 @@
+Refinements で Module#refine のブロック内で undef したメソッドが Module#using
+したスコープでは未定義になるように、refine されたメソッドで undef されていたら
+それ以上メソッド探索しないで止めるように修正しています。 [ruby-core:66741] [Bug
+#10578]
