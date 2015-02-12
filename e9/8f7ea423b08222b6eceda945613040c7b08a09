@@ -1,0 +1,5 @@
+よくわかりませんが tool/mkconfig.rb で RbConfig::CONFIG["SDKROOT"] という項目を
+環境変数の SDKROOT から取り込むように rbconfig.rb を生成するようにしているよう
+です。 Apple の独自パッチを適用しているみたいです。そのまま当ててるわけではなさ
+そうですが。 http://www.opensource.apple.com/source/ruby/ruby-106/patches/
+tool_mkconfig.rb.diff
