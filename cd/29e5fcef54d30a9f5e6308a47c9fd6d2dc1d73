@@ -1,0 +1,2 @@
+標準添付ライブラリ net/ftp の各種メソッドでパス名として Pathname を渡すことがで
+きるようにしています。 https://github.com/ruby/ruby/pull/828
