@@ -1,0 +1,3 @@
+拡張ライブラリ digest で各種アルゴリズムの XXX_Finish() を生成するマクロ
+DEFINE_FINISH_FUNC_FROM_FINAL() を ext/digest/digest.h に追加して、これで定義す
+るようにしています。
