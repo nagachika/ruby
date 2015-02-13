@@ -1,0 +1,2 @@
+r49563 での digest の extconf.rb のリファクタリングの時に ext/digest/md5/
+md5init.c でチェックするマクロ名を typo していたのを修正。
