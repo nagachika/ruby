@@ -1,0 +1,4 @@
+拡張ライブラリ digest の各種アルゴリズム毎の extconf.rb から openssl の機能チェ
+ック部分を ext/digest/digest_conf.rb というファイルに切り出して共有させています
+。しかし ext/digest/md5/md5init.c でチェックしているマクロ名に typo があります
+ね。 r49566 で修正されています。
