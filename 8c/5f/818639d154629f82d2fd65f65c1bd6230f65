@@ -1,0 +1,4 @@
+r49555 で configure で CPPFLAGS に -isystem を追加するようにしたところを
+-iquote に変更したうえで /usr/local/include もやっぱり追加しています。 -iquote
+は #include <header.h> では利用されず #include "header.h" とダブルクオートで括
+られたヘッダのみ探索するオプションみたいです。うーむ知らなかった。
