@@ -1,0 +1,2 @@
+Proc#call の rdoc 用コメントの整形とサンプルコードに prc.() という記法の利用を
+追記。 https://github.com/ruby/ruby/pull/761
