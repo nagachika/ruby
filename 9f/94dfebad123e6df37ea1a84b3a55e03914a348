@@ -1,0 +1,2 @@
+configure.in で CFLAGS と LDFLAGS の組み立てで末尾の空白がはいらないようにして
+います。
