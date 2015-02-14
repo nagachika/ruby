@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の extconf.rb で OpenSSL ライブラリの RAND_edg() という
+関数の存在確認をするようにして、未定義の時は対応するメソッドの定義をスキップし
+ています。 libressl (多分 OpenSSL を fork した LibreSSL のことでしょう)対応のた
+めとのこと。 https://github.com/ruby/ruby/pull/829
