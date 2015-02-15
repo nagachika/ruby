@@ -1,0 +1,2 @@
+16進数に使う文字をならべた char[] 型の変数 hexdigit を ruby_hexdigits として
+util.c に定義して、各所で使いまわすようにしています。
