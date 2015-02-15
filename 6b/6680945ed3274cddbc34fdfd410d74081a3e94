@@ -1,0 +1,6 @@
+標準添付ライブラリ base64 の urlsafe_encode64 が padding 文字に "=" を使うため
+url-safe でないので、キーワード引数 padding を追加して false を指定されると
+padding を削るようにしています。デフォルトは true なのでこれまでの呼びかただと
+結果は同じ(padding あり)になっています。互換性のためですね。
+また urlsafe_encode64 も padding がないものも受け付けるようにしています。 NEWS
+ファイルにも追記されています。 [ruby-core:67570] [Feature #10740]
