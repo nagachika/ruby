@@ -1,0 +1,4 @@
+標準添付ライブラリ securerandom でさらに SecureRandom.random_bytes も
+Random::Formatter に移動しています。また整数や実数で乱数を取得する
+Random::Formatter#random_number は組込みクラスの Random で実装するように移動し
+ています。
