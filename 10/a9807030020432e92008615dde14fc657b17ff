@@ -1,0 +1,3 @@
+Random.random_number で SecureRandom の時の実装と同様に nil が渡されたら
+ArgumentError 例外を発生させるようにしています。 r49598 で許容するほうに倒しす
+ぎたのでその修正でしょう。
