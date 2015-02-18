@@ -1,0 +1,9 @@
+詳しくは後述のささださんの日記の後半にありますが、a[x], a[y] = 0, 1 のように左
+辺値が attrset である多重代入で中間データとして配列を作っていたのを、代入する/
+される要素の数が 2つだった時は newarray + expandarry で順番を保存するようにして
+いたのを、swap 命令で VM スタックの top 2つの要素を入れ変えることで順番を保持し
+て配列の作成を抑制するように最適化しています。
+http://kokizzu.blogspot.jp/2015/02/c-java-hhvm-ruby-nodejsrhinojscspidermo.html
+というブログ記事のベンチマークを受けてささださんが ruby のメモリ使用量を削減す
+るように業務命令を受けて調査中に判明した最適化の余地をさっそく修正したようです
+。 http://www.atdot.net/~ko1/diary/201502.html#d16
