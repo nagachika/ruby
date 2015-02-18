@@ -1,0 +1,3 @@
+拡張ライブラリ io/console の IO.console の Symbol 渡しによるメソッド呼び出し部
+分で、引数の Symbol が mortal symbol だったら Kernel#__send__ を使って呼び出す
+ことで不要な pindown を抑制するようにしています。
