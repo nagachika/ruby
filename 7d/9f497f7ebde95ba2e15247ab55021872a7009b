@@ -1,0 +1,2 @@
+tool/vcs.rb の VCS::Git.get_revisions で git の共通のオプション(-C)の組み立てを
+git log と git symbolic-ref で共有するようにリファクタリングしています。
