@@ -1,0 +1,2 @@
+common.mk で rubyspec のチェックアウト先を GitHub の nurse/rubyspec だったのを
+ruby/rubyspec に移動しています。
