@@ -1,0 +1,2 @@
+vsnprintf.c から ruby_vsnprintf() と ruby_sprintf() を sprintf.c に移動していま
+す。 ruby 特有の関数を移動しているとのこと。
