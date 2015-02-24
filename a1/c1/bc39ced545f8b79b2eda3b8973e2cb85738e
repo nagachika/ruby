@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の rdoc 用コメントの修正、という ChangeLog エントリの追
+加のみされています。たぶん対応するコミットは r49678 のマージに含まれています。
+https://github.com/ruby/ruby/pull/834
