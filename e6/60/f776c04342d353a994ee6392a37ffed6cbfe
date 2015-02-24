@@ -1,0 +1,5 @@
+class.c の static 関数だった rewrite_cref_stack() を vm_insnhelper.c に移動して
+rb_vm_rewrite_cref_stack() にして、COPY_CREF_OMOD() で cref の nd_refinements
+メンバをコピーするようにしています。 dup で複製された Module の refine で追加し
+たメソッドを呼ぶと SEGV する不具合を修正しています。 [ruby-dev:48878] [Bug #
+10885]
