@@ -1,0 +1,3 @@
+error.c と vm_args.c でインスタンス変数 bt や locations の設定に使う ID を初期
+化時や毎回 rb_intern() していたのが、id.h で組み込みで定義される ID なのでそち
+らを利用するようにしています。
