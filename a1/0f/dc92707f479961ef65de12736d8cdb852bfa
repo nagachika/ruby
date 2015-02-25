@@ -1,0 +1,3 @@
+String#split の引数に不正なエンコーディングの文字列を渡した時に発生する例外が
+ArgumentError でなく RegexpError になっていたのを修正しています。
+[ruby-core:68229] [Bug #10886]
