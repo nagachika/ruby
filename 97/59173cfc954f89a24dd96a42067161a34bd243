@@ -1,0 +1,2 @@
+r46907 で Time#zone が 7bit ASCII 文字のみ含む時に ASCII-8BIT のエンコーディン
+グにするようにしていましたが、US-ASCII にするように再修正しています。
