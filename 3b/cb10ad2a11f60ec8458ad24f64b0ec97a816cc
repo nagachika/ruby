@@ -1,0 +1,2 @@
+Complex#* で real 部または imag 部が Float::INFINITY だった時に Complex(1, 0)
+や Complex(0, 1) を掛けると回転するように振る舞うようにしています。
