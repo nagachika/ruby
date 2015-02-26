@@ -1,0 +1,3 @@
+common.mk に TESTOPTS 変数を環境変数 RUBY_TESTOPTS で初期化するようにしています
+。 TESTOPTS だと他のツールなどの環境変数とかぶるので RUBY_ を prefix につけるよ
+うにしたものを受け付けるようにしているみたいです。
