@@ -1,0 +1,2 @@
+r49740 の続き。 tool/runruby.rb でも rbconfig.rb の RUBY_VERSION のチェックに追
+随させています。
