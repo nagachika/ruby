@@ -1,0 +1,2 @@
+complex.c で Visual C の場合に _USE_MATH_DEFINES というマクロを #define するよ
+うにしています。 M_PI を利用するために必要とのこと。
