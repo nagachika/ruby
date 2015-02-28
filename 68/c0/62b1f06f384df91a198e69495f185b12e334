@@ -1,0 +1,4 @@
+tool/runruby.rb でプロセスの起動時に共有ライブラリをロードする環境変数
+LD_PRELOAD を Linux では利用するようにしていましたが、OS X でも
+DYLD_INSERT_LIBRARIES という環境変数名で同様のことができるので両方に対応してい
+ます。
