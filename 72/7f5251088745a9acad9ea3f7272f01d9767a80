@@ -1,0 +1,4 @@
+r49760 の tool/runruby.rb での LD_PRELOAD や DYLD_INSERT_LIBRARIES 環境変数に複
+数のパスを指定するときのデリミタが空白になってた(LD_PRELOAD は空白でも OK だっ
+たそうですが DYLD_INSERT_LIBRARIES は ":" 区切り)のを File::PATH_SEPARATOR を使
+うように修正しています。
