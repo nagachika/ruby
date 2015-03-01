@@ -1,0 +1,3 @@
+test/ruby/test_io.rb で have_nonblock? とか RUBY_PLATFORM のチェックでテストを
+スキップしているのを、テストメソッド内で return していたところをそもそもテスト
+メソッドを定義しないように分岐をするようにしています。
