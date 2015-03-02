@@ -1,0 +1,4 @@
+Enumerable#each_slice や Enumerable#each_cons で引数に渡されたサイズが receiver
+のサイズを越えていたら receiver のサイズまで小さくしたり、結果を作らないように
+しています。内部的に無条件で指定されたサイズの配列オブジェクトを作ろうとしてエ
+ラーになっていたのを回避しています。 [ruby-core:68335] [Bug #10913]
