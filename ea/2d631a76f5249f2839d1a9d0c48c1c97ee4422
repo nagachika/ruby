@@ -1,0 +1,3 @@
+r44920 で configure で memmem(3) が空文字列に対して期待した動きをしているか確認
+するチェックを HAVE_MEMMEM を confdefs.h に追加する前に実行するようにしています
+。
