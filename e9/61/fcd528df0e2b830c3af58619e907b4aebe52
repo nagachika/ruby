@@ -1,0 +1,2 @@
+test-all 用のユーティリティ EnvUtil.invoke_ruby で子プロセスを停止させるための
+シグナルをキーワード引数 signal で指定できるようにしています。
