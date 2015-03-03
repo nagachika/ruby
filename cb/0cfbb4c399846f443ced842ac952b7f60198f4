@@ -1,0 +1,3 @@
+tool/mkconfig.rb で rbconfig.rb を作る際に XXX_RUBY_COMMAND や INSTALLDOC、
+TARGET、DTRACE_XXXX などのビルド時にのみ利用する変数を除外する条件を追加(強化)
+しています。
