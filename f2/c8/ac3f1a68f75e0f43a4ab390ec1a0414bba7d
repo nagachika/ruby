@@ -1,0 +1,2 @@
+r49794 と同様 configure.in で定義している RUBY_REPLACE_TYPE() で符号の有無をチ
+ェックした時に n に unsigned 修飾子を追加するようにしています。
