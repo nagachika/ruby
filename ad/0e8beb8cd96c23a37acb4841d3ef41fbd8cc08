@@ -1,0 +1,2 @@
+r49794 や r49799 の続き。 configure.in で定義している RUBY_REPLACE_TYPE() で
+unsigned が余分につく可能性があったので追加修正しています。
