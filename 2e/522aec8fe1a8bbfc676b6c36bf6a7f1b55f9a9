@@ -1,0 +1,4 @@
+r49760 あたりの PRELOADENV 導入の変更で Solaris 版で --enable-shared でのビルド
+がエラーになっていたので、Solaris で PRELOADENV に LD_PRELOAD_{64,32} を指定す
+るようにしています。また 32bit 版のための LIBPATHENV の指定も追加しています。
+[ruby-dev:48888] [Bug #10926]
