@@ -1,0 +1,5 @@
+r49795 の test-all 用ユーティリティの EnvUtil.invoke_ruby の signal キーワード
+引数の引数のシグナル名を Signal.list を使って解決するようにして、対応するシグナ
+ルがなかったら SIGKILL を使うようにしています。また Windows 版のときの対応は
+Signal.list から "TERM" を除外するようにしています。多分元々ないんでしょうけど
+。
