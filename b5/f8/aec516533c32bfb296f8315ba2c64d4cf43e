@@ -1,0 +1,2 @@
+r49818 の変更に関して Math.cos や Math.log、Math.exp などに Rational を渡すテス
+トケースを追加しています。
