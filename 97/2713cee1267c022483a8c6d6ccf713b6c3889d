@@ -1,0 +1,3 @@
+Math の各メソッドで引数の数値を double に変換する時 Fixnum や Bignum と同様にに
+Rational も直接変換するショートカットを追加して最適化しています。
+[ruby-core:68325] [Feature #10909]
