@@ -1,0 +1,3 @@
+EnvUtil.assert_in_out_err で stdout と stderr からの出力の期待値を指定する引数
+に複数の Regexp を渡せるように、String や Regexp でなかった時は
+assert_pattern_list でチェックするようにしています。
