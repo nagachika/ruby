@@ -1,0 +1,3 @@
+.travis.yml で OS X の時だけ test_deadlock_by_signal_at_forking というテストを
+除外するように test/excludes/TestProcess.rb を作成するようにしています。調査中
+だそうです。
