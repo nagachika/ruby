@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb で自前実装している Readline.readline (Windows 向けで
+すね)でコントロール文字を表示しないようにしています。
