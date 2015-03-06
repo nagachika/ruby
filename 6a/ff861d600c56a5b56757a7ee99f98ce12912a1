@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb でコマンドの省略形を受け付けるようにしています。
