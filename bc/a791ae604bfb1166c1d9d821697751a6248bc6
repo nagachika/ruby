@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb でチケットの関連リビジョンが trunk の変更を含んでい
+るときだけ利用するようにしています。
