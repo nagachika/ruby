@@ -1,0 +1,2 @@
+tool/rbinstall.rb で gem パッケージのインストール時にインストール先のディレクト
+リの permission を File.chmod で設定するようにしています。
