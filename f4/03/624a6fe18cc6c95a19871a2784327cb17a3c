@@ -1,0 +1,4 @@
+Binding オブジェクトに Refinements の Module#using の利用状況を記憶させて、同じ
+Binding オブジェクトを eval に渡した時に前回の Refinements の状態が引き継がれる
+ようにしています。うーむ実装がよくわからなくなってきた。 [ruby-core:67945] [Bug
+#10818]
