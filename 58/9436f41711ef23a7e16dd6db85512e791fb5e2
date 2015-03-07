@@ -1,0 +1,2 @@
+ベンチマーク結果を整形する benchmark/driver.rb で Markdown 形式のテーブルで結果
+を出力できるようにしています。
