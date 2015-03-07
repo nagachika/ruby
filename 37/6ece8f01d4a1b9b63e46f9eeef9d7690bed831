@@ -1,0 +1,2 @@
+r49832 で .tarvis.yml に追加した OS X でのテスト終了後の ~/Library/Logs/
+DiagnosticReports のファイルチェックを削除しています。
