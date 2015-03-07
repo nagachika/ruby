@@ -1,0 +1,2 @@
+lib/rubygems/test_case.rb でテスト用に作成して環境変数 GEM_HOME や GEM_PATH に
+設定しておいた一時ディレクトリを終了時に削除するようにしています。
