@@ -1,0 +1,5 @@
+Refinements のテストのための test/ruby/test_refinement.rb の先頭で警告除去のた
+め Module#refine を一度呼んでいたのを削除しています。 2.0.0 の時に Refinements
+はまだ experimental な機能だったので利用しようとすると初回に警告が出ていたので
+それを抑制するためにやっていたのだと思います。今はもう警告自体がなくなったので
+不要になっていました。
