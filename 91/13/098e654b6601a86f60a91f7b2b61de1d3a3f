@@ -1,0 +1,3 @@
+rb_prepend_module() で RCLASS_ORIGIN(klass) を更新する時にインクリメンタルGC の
+ための WriteBarrier の挿入をしています。おお、これは 2.1/2.2 にもバックポートが
+必要ですよね?
