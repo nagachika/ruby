@@ -1,0 +1,2 @@
+benchmark/driver.rb で --rawdata_output オプションで指定されたファイルに出力す
+る時に拡張子に応じて YAML や JSON での出力も行うようにしています。
