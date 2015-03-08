@@ -1,0 +1,4 @@
+Module#prepend で Module を挿入した継承ツリーをもつクラスで rb_call_super() を
+呼ぶと無限再帰してしまっていた不具合を修正しています。 RCLASS_ORIGIN(cfp->
+klass) の superclass を辿るように修正。 [ruby-core:68434] [ruby-core:68093]
+[Bug #10847]
