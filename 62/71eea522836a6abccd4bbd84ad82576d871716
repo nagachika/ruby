@@ -1,0 +1,2 @@
+Mutex#owned? の rdoc 用コメントに experimental API だという記述があったのを削除
+しています。 https://github.com/ruby/ruby/pull/839
