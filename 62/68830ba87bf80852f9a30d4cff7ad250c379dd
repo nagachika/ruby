@@ -1,0 +1,3 @@
+r49881 の BOOTSTRAPRUBY の変更を利用して tool/mkconfig.rb で ruby のバージョン
+を RUBY_VERSION ではなく引数に渡されたものを使うようにしています(BASERUBY で実
+行されるようになるため)。
