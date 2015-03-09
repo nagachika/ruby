@@ -1,0 +1,4 @@
+tool/expand-config.rb も $(BOOTSTRAPRUBY) で実行するようにして rbconfig.rb は無
+名モジュール内で module_eval することで指定されたファイルから読み込んだものを参
+照するように変更されています。 r49882 もですが fake.rb に依存しないようにしてい
+るそうです。
