@@ -1,0 +1,2 @@
+Array#uniq, #uniq! の rdoc 用コメントで、同値だった要素のうち最初の要素が残され
+ることを明記しています。 https://github.com/ruby/ruby/pull/845
