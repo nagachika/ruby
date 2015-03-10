@@ -1,0 +1,2 @@
+win32/Makefile.sub で config.status を生成する時に RUBY_PROGRAM_VERSION を出力
+するようにしています。 fake.rb の生成に必要になったため。
