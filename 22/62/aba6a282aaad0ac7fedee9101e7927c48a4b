@@ -1,0 +1,2 @@
+special variable の代入処理 lep_svar_set() で WriteBarrier を追加しています。こ
+の部分は昔からなので 2.1 と 2.2 にもバックポートが必要そうですね。
