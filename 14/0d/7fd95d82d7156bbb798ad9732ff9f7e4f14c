@@ -1,0 +1,4 @@
+proc.c の rb_mod_define_method() と vm.c の vm_define_method() でメソッドの可視
+性のフラグを扱う変数の型を int から rb_method_flat_t という専用の型に変更してい
+ます。そんなのあるのか…。 64bit 環境で切り詰めが起きて警告が出ることがあったよ
+うです。
