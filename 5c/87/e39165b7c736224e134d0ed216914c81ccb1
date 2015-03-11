@@ -1,0 +1,1 @@
+test/ruby/beginmainend.rb で未使用のローカル変数への代入を削除して警告除去。
