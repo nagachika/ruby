@@ -1,0 +1,2 @@
+tgamma(3) という math 関数が mingw では非常に大きな数に対して NaN を返すので
+mingw_tgamma() という wrapper 関数を導入して INFINITY を返すようにしています。
