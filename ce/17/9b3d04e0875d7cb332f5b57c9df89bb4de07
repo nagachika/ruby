@@ -1,0 +1,2 @@
+struct THROW_DATA も struct vm_throw_data に改名されて T_IMEMO 型の共用体に追加
+され T_NODE 型から T_IMEMO 型を利用するように変更されています。
