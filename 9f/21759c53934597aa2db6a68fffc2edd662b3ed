@@ -1,0 +1,1 @@
+struct THROW_DATA::throw_state へのアクセスのキャスト追加。
