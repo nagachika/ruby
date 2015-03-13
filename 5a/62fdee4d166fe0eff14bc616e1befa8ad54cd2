@@ -1,0 +1,5 @@
+FreeBSD 9.1 で libprocstat のチェックで procstat_getvmmap() の存在チェックをせ
+ずに procstat_open_sysctl() の存在チェックを流用していたのがうまくいかなかった
+(procstat_open_sysctl() はあるけど procstat_getvmmap() はなかった)ので
+procstat_getvmmap() の存在チェックもするようにしています。 [ruby-core:68468]
+[Bug #10954]
