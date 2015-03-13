@@ -1,0 +1,5 @@
+今度は struct SVAR の実体を T_NODE 型から T_IMEMO 型のオブジェクトを利用するよ
+うに変更しています。struct RVALUE の共用体 imemo に struct vm_svar 型のメンバ
+svar を追加しています。なるほどー、この調子で T_NODE から T_IMEMO に引越しする
+んですね。なおこれにより r49899 で導入された struct SVAR は struct vm_svar とし
+て改名されています。
