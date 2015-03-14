@@ -1,0 +1,2 @@
+さらに struct rb_global_entry の定義を node.h から internal.h に移動して
+variable.c からも #include "node.h" を削除しています。
