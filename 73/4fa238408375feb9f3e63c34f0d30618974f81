@@ -1,0 +1,3 @@
+ObjectSpace.count_xxx のテストで assert_equal のかわりに assert_not_empty や
+assert_operator などの assertion を利用してエラー時によりわかりやすいメッセージ
+になるようにしています。
