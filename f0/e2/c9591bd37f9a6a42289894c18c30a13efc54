@@ -1,0 +1,3 @@
+Makefile.in で probes.o の probes.stamp の依存関係は DTRACE_REBUILD が yes の時
+だけにしています。これは configure で dtrace -G の挙動をチェックしてオブジェク
+トファイルが更新される時に yes になる変数です。
