@@ -1,0 +1,2 @@
+Math.cbrt の rdoc 用コメントの結果の値の取り得る範囲を修正しています。 Domain
+も Codomain も負の値を取り得る。
