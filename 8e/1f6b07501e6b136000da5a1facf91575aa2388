@@ -1,0 +1,3 @@
+r49966 で struct dirent::d_dtype を glob_helper() で利用するようにして lstat(2)
+の呼び出しを減らした時に d_dtype が DT_UNKNOWN という定数の場合も考慮するように
+条件を追加しています。
