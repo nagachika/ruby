@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick で Socket#do_not_reverse_lookup で逆引きを抑制するフ
+ラグ :DoNotReverseLookup を導入した時に config[:DoNotReverseLoopup] をそのまま
+代入していたためデフォルト値の時にも明示的に false を代入したのと同様になってし
+まっていたので、nil チェックをした上で !! で ture もしくは false にして代入する
+ようにしています。 https://github.com/ruby/ruby/pull/731
