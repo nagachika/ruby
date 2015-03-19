@@ -1,0 +1,5 @@
+glob_helper() の引数 exist と isdir の情報をまとめて rb_pathtype_t という型を導
+入して struct dirent::d_dtype の値で判定するようにしています。 Linux では一部の
+ファイルシステムで d_dtype が DT_UNKNOWN になるそうで、再帰的処理をするかどうか
+の判定時には DT_UNKNOWN もディレクトリである場合と同じ判定をするようにしていま
+す。
