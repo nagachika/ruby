@@ -1,0 +1,14 @@
+GC 用の WriteBarrier の実装が RGenGC 用の rb_gc_writebarrier_generational() と
+インクリメンタルGC 用の rb_gc_writebarrier_incremental() に分かれていて
+rb_obj_written() では rb_gc_writebarrier_incremental() をまず呼んで偽が帰ってき
+たらオブジェクトの世代チェックをして rb_gc_writebarrier_generational() を呼ぶと
+いう処理をしていたのを、rb_gc_writebarrier() という関数を導入して
+gc_writebarrier_incremental() での条件分岐をここに追い出して先に分岐するように
+しています。また rb_gc_writebarrier_incremental() や
+rb_gc_writebarrier_generational() は NOINLINE() を使って inline 展開されるのを
+防いで rb_gc_writebarrier() が軽量になるようにしています(コメントによるとレジス
+タ退避操作を減らすためとのことで、ここは頻繁に呼ばれるところなので軽量にして本
+当にインクリメンタルGC用の WriteBarrier が必要な時だけ
+rb_gc_writebarrier_incremental() を呼ぶようにするという最適化みたいです。先に
+r49985 で追加したベンチマークで 2.2 以降 WriteBarrier 処理が重くなっていたのを
+改善しているようです。
