@@ -1,0 +1,18 @@
+RGenGC 用 Write Barrier の実装 gc_writebarrier_generational() で a -> b の参照
+で A が old object で b が new object の時に b が WB_PROTECTED なオブジェクトだ
+ったら promote して old object するという実装を #if 1 ... #else #endif でコメン
+トアウトした状態で追加しています。結局現在の実装は変更されていません。ただ
+check_rvalue_consistency() の呼び出しを追加しています。これ確か a が巨大な配列
+だったりした時にたくさん mark する必要ができるからということで…あれ逆か。
+tarui さんがこれを逆にしたらどうかという提案をどこかでされてたような気が。
+Twitter でこれに関連してそうなつぶやきがあったので記録しておきます。
+https://twitter.com/_ko1/status/578064005236793346
+https://twitter.com/_ko1/status/578111509143781377
+https://twitter.com/_ko1/status/578111806280843264
+https://twitter.com/_ko1/status/578111972647923712
+https://twitter.com/_ko1/status/578112043598757888
+https://twitter.com/_ko1/status/578116649259159553
+https://twitter.com/_ko1/status/578120812860870656
+https://twitter.com/_ko1/status/578120932008448000
+[追記]日記にも解説がありました。 http://www.atdot.net/~ko1/diary/201503.html#
+d18 [/追記]
