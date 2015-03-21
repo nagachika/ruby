@@ -1,0 +1,3 @@
+Windows 版で File::Stat の mode で取得できるパーミッション情報を変換する
+fileattr_to_unixmode() で group/others の write 権限をなくして wstati64() で明
+示的にフラグを落としていたのをやめています。
