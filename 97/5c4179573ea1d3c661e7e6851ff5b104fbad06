@@ -1,0 +1,5 @@
+RGenGC の用語を整理して変数名や関数名などを改名しています。 long_lived ->
+uncollectible、remembered_wb_unprotected_objects ->
+uncollectible_wb_unprotected_objects と改名。 long lived というと結果的に長生き
+したという感じになりますが、実際は「これから次の Major GC までは sweep してはい
+けない」という意味なので、とのこと。
