@@ -1,0 +1,4 @@
+rb_obj_clone() でオブジェクトの複製した時に rb_obj_alloc() から返ってきたオブジ
+ェクトの struct RBasic::flags の FL_PROMOTED0, FL_PROMOTED1 の age 用フラグも保
+存するようにしています。普通は 0 のはずですが r50013 でデバッグ用にあらかじめ
+old なオブジェクトが返されることができたのでそれを消さないため。
