@@ -1,0 +1,4 @@
+iseq_mark で iseq->orig があった場合は重複しているので不要な mark 処理をスキッ
+プするように最適化しています。また rb_iseq_clone() で MEMCPY() でコピーした時の
+iseq->klass のぶんの WriteBarrier を追加しています。一括でコピーした時の
+WriteBarrier 忘れやすそうですね。
