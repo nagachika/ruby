@@ -1,0 +1,7 @@
+GC に関する一貫性チェックの check_rvalue_consistency() のリファクタリングとチェ
+ックの追加。オブジェクトの flags による age と bitmap で管理している remember
+set のつじつまがあっているかのチェックを追加しています。また RVALUE_MARKED() で
+bitmap で管理しているほうの remember set のビットをクリアするようにしています。
+remember set に入るのは old object だけとしています。実際には uncollectible
+WB-unprotected なオブジェクトなので Minor GC でも mark されるので影響はないはず
+とのこと。
