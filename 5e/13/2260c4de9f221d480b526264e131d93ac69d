@@ -1,0 +1,4 @@
+r49593 で拡張ライブラリ securerandom から random.c に一部機能を取り込んだ時に追
+加した fill_random_bytes() の Windows 版実装で static 変数じゃないほうのローカ
+ル変数を rb_gc_register_mark_object() で GC の mark 処理の root として登録して
+しまっていたのを修正しています。
