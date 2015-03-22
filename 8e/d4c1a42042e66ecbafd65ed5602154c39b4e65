@@ -1,0 +1,4 @@
+r50027 で dest が WB-unprotected だったら rb_bug() で異常終了するチェックを追加
+していましたが、dest が WB-unprotected な可能性もあるということで単に条件分岐に
+追加するようにしています。今は rb_obj_clone() のところからしか呼ばれないから
+obj が WB-protected で dest が WB-unprotected という場合はあるのかなぁ。
