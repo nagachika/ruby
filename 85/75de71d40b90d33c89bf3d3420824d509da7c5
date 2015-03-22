@@ -1,0 +1,3 @@
+xxx_method 系のメソッド名として Symbol と String を受け付けるメソッドで未定義の
+メソッド名を String で受け付けた時に不要に intern しないことを確認するテストで
+Module#singleton_method もテストするように追加しています。
