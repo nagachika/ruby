@@ -1,0 +1,13 @@
+BasicObject#method_missing (今気がついたんですけど method_missing って
+BasicObject にもあるんですね)で処理可能なメソッド名を Kernel#respond_to? でチェ
+ックした時に true にするために Kernel#respond_to_missing? というメソッドがあっ
+て、これにメソッド名を渡して true だったら respond_to? も true にするようになっ
+ています。で、これを拡張して respond_to_missing? で true を返すメソッド名につい
+ては Kernel#method メソッドで Method オブジェクトを取り出すことができるらしいの
+ですが、この時メソッド名の指定を String ですると取り出せなくなっていたのを修正
+しています。 [ruby-core:68564] [Bug #10985]
+これてっきり機能追加だと思ったらチケットをみると元々こういうことはできて、2.2
+系での regression の修正みたいです。実際にはそんなメソッドは定義されていないの
+ですがまるでメソッドが定義されているかのように振る舞うようにしているようです。
+ちなみにこの時 Method#source_location はどこになるんだろうかと思ったら nil がか
+えってくるようです。
