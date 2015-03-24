@@ -1,0 +1,2 @@
+win32/win32.c で wstati64() からパス名を生成する部分を name_for_stat() という
+static 関数として切り出すリファクタリング。
