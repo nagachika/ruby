@@ -1,0 +1,2 @@
+Dir#close も IO#close と同様に重複して close しても IOError を発生させないよう
+にしています。 [ruby-core:68463] [Feature #10950]
