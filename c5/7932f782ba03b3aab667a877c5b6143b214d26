@@ -1,0 +1,1 @@
+Windows 版の readlink(2) の代替実装を追加しています。
