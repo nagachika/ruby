@@ -1,0 +1,4 @@
+テスト用の拡張ライブラリ ext/-test-/file/fs.c でファイルシステムの種類を取得す
+るのに setmntent() と getmntent_r() を使っていたのを statfs(2), statvfs(2) を利
+用してより直接的に取得するようにしています。 chroot された環境でテストが失敗す
+るのを回避するためのようです。 [ruby-core:68624] [Bug #10998]
