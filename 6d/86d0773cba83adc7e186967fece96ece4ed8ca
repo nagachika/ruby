@@ -1,0 +1,5 @@
+README.EXT, README.EXT.ja を doc/extention.rdoc, doc/extention.ja.rdoc に移動し
+ています。おおー、ついにこのファイルも移動されましたか。 .document も追随が必要
+そう。他にもないかと思って grep してみたら rdoc のテストで README.EXT という名
+前が含まれてますね。これはなんだろう。まあ rdoc のテストは通ってるみたいなので
+多分問題ないでしょう。
