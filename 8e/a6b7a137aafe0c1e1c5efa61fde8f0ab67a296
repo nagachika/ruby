@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb でコマンド ! の場合に空白を明けなくてもいいようにし
+ています。
