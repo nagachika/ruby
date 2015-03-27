@@ -1,0 +1,3 @@
+complex.c で k_inexact_p() || k_nonzero_p() を k_exact_zero_p() に置き換えて
+k_inexact_p() マクロの定義を削除するリファクタリング。ちなみに k_exact_zero_p()
+は 0.0 に対して偽を返すんですね。ふーむ。
