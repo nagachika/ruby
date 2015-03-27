@@ -1,0 +1,2 @@
+tool/make-snapsot でクロスコンパイル時に RUBY_PLATFORM だけでなく RUBY_VERSION
+も再定義するようにしています。
