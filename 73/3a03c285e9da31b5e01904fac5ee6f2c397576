@@ -1,0 +1,4 @@
+tool/mkconfig.rb での RUBY_VERSION のチェックで version 変数に teeny が含まれて
+いなかった時のことを考慮するようにしています。teeny まであったらその直前の "."
+までチェックするようにしてたのですが、teeny がない時はその前の "." もないので、
+その時は version が RUBY_VERSION の先頭と一致するかで判定するようにしています。
