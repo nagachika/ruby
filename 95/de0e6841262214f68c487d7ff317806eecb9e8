@@ -1,0 +1,3 @@
+enc.mk を生成する時に $(MINIRUBY) ではなく $(BOOTSTRAPRUBY) を利用するようにし
+ています。 enc/make_encmake.rb は $(BASERUBY) で実行してもかまわなかったようで
+す。
