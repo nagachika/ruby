@@ -1,0 +1,4 @@
+r50093 で enc.mk を生成するための enc/make_encmake.rb の実行に $(BOOTSTRAPRUBY)
+を利用するようにした変更を revert しています。 enc/depend が RbConfing::CONFIG
+を利用しているので $(BASERUBY) を使えなかったとのこと。 [ruby-core:68647] [Bug
+#11004]
