@@ -1,0 +1,4 @@
+rb_imemo_new_debug() の利用を呼び元で IMEMO_DEBUG の定義で preprocessor で分岐
+していたのを、internal.h の定義部分でマクロによって切り替えるようにしています。
+また rb_imemo_new_debug() で T_IMEMO 型オブジェクトの生成に rb_imemo_new() を呼
+ぶようにしています。
