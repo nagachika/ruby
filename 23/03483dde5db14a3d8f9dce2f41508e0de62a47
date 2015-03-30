@@ -1,0 +1,5 @@
+rb_iterate() から IFunc の生成部分と GET_THREAD() の呼び出しだけ残してあとを
+rb_iterate0() として別の関数に切り出しています。 gcc 4.4 での警告除去とのこと。
+TH_EXEC_TAG() 後の変数の参照の "clobbered by 'longjmp' or 'vfork'" 警告でしょう
+か。
+[追記]ifuncとth の未初期化変数の警告が出ていたそうです。[/追記]
