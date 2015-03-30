@@ -1,0 +1,2 @@
+rb_iterate() で TAG_BREAK と TAB_RETRY で TAG_JUMP してきた時の処理はほとんど同
+じなので、分岐を共通化するリファクタリング。
