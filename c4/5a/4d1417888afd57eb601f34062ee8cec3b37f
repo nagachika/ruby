@@ -1,0 +1,2 @@
+test/ruby/test_proc.rb のテストメソッド名を test_binding2 → test_curry_binding
+と改名。
