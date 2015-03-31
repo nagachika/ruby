@@ -1,0 +1,4 @@
+Method オブジェクトを to_proc した Proc オブジェクトから binding で取得した
+Binding オブジェクトの Binding#local_variable_get すると SEGV することがある不
+具合を修正しています。 Proc#binding で env をコピーするようにしています。
+[ruby-core:68673] [Bug #11012]
