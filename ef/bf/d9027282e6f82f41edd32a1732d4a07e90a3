@@ -1,0 +1,5 @@
+IO.copy_stream で引数が IO オブジェクトでない場合でも src なら read と
+readpartial メソッドが呼び出せれば、dst なら write メソッドが呼び出せればそのま
+ま利用し、to_path でファイルパスを取得して fd を開き直さないようにしています。
+Tempfile オブジェクトを IO.copy_stream に渡した時に別途 fd を開かなくてすむよう
+にしているようです。 [ruby-core:68676] [Bug #11015]
