@@ -1,0 +1,2 @@
+r50063 で追加した Windows 版の rb_readlink() で mbstr_to_wstr() で wide char 文
+字列に変換する時に終端文字のぶんもサイズを考慮するようにしています。
