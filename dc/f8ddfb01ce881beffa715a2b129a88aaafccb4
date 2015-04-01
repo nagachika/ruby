@@ -1,0 +1,2 @@
+Sparc 上の Solaris では vfork(2) は deprecated で警告が出るそうで(i386-solaris
+は違うそうですが)、vfork(2) を利用しないようにしています。
