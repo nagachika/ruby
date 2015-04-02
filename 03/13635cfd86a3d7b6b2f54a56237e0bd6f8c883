@@ -1,0 +1,2 @@
+test/ruby/test_dir.rb の test_foreach で assertion のテスト対象の式と期待する結
+果の引数が逆だったのを修正しています。
