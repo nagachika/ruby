@@ -1,0 +1,2 @@
+test/ruby_test_dir.rb に test_entries という名前で Dir#entries のテストを追加し
+ています。
