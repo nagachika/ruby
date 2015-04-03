@@ -1,0 +1,3 @@
+いまいち理解できてませんが dir.c の glob の再帰的実行のための push_glob() でコ
+ールバック関数のユーザデータ struct glob_args をさらに wrap して flags を持たせ
+た struct push_glob_args を導入しています。
