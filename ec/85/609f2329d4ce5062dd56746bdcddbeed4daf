@@ -1,0 +1,4 @@
+dir.c の ruby_brace_glob_with_enc() に ruby_brace_glob0() を展開して
+ruby_brace_glob() から ruby_brace_glob_with_enc() を直接呼ぶようにリファクタリ
+ングしています。 flags に GLOB_VERBOSE がつくかどうかが違いだったようですが、他
+に呼び元がなかったのでまとめています。
