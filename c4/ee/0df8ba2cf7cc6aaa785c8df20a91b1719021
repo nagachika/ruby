@@ -1,0 +1,3 @@
+標準添付ライブラリから rake を削除しています。 rake は bundled gem として ruby
+のリポジトリに含めるのではなくて、パッケージ化する時に gem ファイルを同梱するよ
+うにするみたいです。 [Feature #11025] https://github.com/ruby/ruby/pull/862
