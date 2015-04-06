@@ -1,0 +1,2 @@
+Windows で実行可能形式にするための win32/stub.c の stub_sysinit() にて argv の
+再構築で argv[0] を書き変えないように修正(?)しています。
