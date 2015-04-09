@@ -1,0 +1,5 @@
+tool/rbinstall.rb で Gem::Installer の install メソッドを再定義して spec
+.post_install_message を nil にして実行するようにしています。 rdoc のインストー
+ル時のメッセージを抑制するためだそうです。 prepend 使えば良さそうですけど
+$BASERUBY で実行されるので古い ruby でも実行できるように UnboundMethod を使った
+実装しているんでしょうね。
