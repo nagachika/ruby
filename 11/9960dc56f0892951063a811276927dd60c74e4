@@ -1,0 +1,5 @@
+RUBY_ENGINE_VERSION という ruby の実装のバージョンを示す定数を追加しています。
+RUBY_VERSION は JRuby や Rubinius では CRuby(MRI) のどのバージョンと互換かを表
+すために使われているため、これらの処理系そのもののバージョンを表すために定数を
+追加しているようです。 CRuby(MRI) では RUBY_ENGINE_VERSION は常に RUBY_VERSION
+と同じにするようです。 https://github.com/ruby/ruby/pull/858
