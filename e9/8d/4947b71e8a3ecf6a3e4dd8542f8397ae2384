@@ -1,0 +1,2 @@
+r50190 の続きで rubygems のテスト用のライブラリ lib/rubygems/test_case.rb でも
+require "rake" が LoadError を発生させた時に例外を補足するようにしています。
