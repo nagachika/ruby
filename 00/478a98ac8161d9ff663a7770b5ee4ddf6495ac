@@ -1,0 +1,2 @@
+process.c の run_exec_dup2() から fcntl(2) の FD_CLOEXEC フラグを消す処理を
+fd_clear_cloexec() という関数名で切り出すリファクタリング。
