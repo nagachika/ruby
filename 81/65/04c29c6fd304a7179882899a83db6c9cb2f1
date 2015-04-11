@@ -1,0 +1,2 @@
+Marshal.load で Addrinfo をロードした時にメモリリークしていたのを修正しています
+。 [ruby-dev:48923] [Bug #11051]
