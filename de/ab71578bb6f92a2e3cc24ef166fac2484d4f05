@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb に pipe に対する File::Stat#pipe? のテストを
+追加しています。
