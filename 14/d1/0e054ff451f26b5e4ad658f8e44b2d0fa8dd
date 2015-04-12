@@ -1,0 +1,3 @@
+r50187 で追加した Addrinfo の Marshal.load でのメモリリークの修正のテストで CI
+で失敗する環境があるのでしきい値を緩和しています。これ手元(Mavericks, Yosemite)
+でも失敗していました。
