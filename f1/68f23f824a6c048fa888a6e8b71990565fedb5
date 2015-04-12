@@ -1,0 +1,2 @@
+r50215 に追加で mkmf.rb の try_cppflags でも werror: true オプションを常に渡す
+ようにしています。
