@@ -1,0 +1,5 @@
+process.c の rb_execarg_parent_start1() でファイルを開く処理で open_func() で実
+際に開いたかどうかを struct open_struct::entered というフラグで管理していたのを
+やめて struct open_struct::ret と struct open_struct::errno をみて EINTR で失敗
+していたら割り込みチェックをするという方法に変更して open(2) が割り込まれていた
+時にジグナル処理をするように修正しています。
