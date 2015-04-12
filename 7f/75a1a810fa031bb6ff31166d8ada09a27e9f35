@@ -1,0 +1,3 @@
+拡張ライブラリ objspace に ObjectSpace.count_imemo_objects というメソッドを追加
+しています T_IMEMO 型のオブジェクトの種類毎の数を Hash に格納して返してくれるそ
+うです。
