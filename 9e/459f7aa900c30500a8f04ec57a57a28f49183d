@@ -1,0 +1,5 @@
+Dir.glob などの処理で OS X で fgetattrlist(2) を利用してファイルシステムの種類
+を取得して NFC と NFD の正規化方式の差異を吸収する処理で fgetattrlist(2) が OS
+X の 10.6 から追加されたシステムコールなので、存在しなかったら getattrlist(2)
+をかわりに利用するようにしています。 10.5 ってだいぶ古いですね。 Leopard か。
+[ruby-core:68829] [Bug #11054]
