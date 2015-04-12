@@ -1,0 +1,7 @@
+r50203 および r50205 での mkmf.rb と win32/Makefile.sub での警告をエラーにする
+コンパイルオプションの設定について再修正。 mkmf.rb の try_cflags では常に
+:werror を true にするようにして ext/date/extconf.rb で明示的に werror: true を
+渡すようにしていたのは revert しています。また try_ldflags でも werror: true を
+渡すようにしています。 win32/Makefile.sub で -weD9002 または -we9002 を渡してい
+たのは、どうも VC のバージョンでオプションが違うらしく、結局 revert してこのオ
+プションは渡さないようにしています。
