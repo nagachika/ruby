@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb に File::Stat のキャラクタデバイスでのテスト
+を追加しています。
