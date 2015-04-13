@@ -1,0 +1,2 @@
+r50227 と同様に test/ruby/test_file_exhaustive.rb で hardlinkfile の呼び出し位
+置の修正など。
