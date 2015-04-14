@@ -1,0 +1,4 @@
+defs/default_gems を削除して json と rake に .gemspec ファイルを直接追加して、
+gem パッケージもあるけど標準添付されている他のライブラリと同様の扱いにしていま
+す。これにより tool/rbinstall.rb の default_gems についての処理も不要になったよ
+うです。
