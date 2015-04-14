@@ -1,0 +1,2 @@
+rubygems の rubygems/test_case.rb で gem "json" の LoadError を捕捉するようにし
+ています。
