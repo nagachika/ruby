@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb で NTFS の時のみ有効なテストの条件分岐を NTFS
+という定数に条件を格納して使いまわすようにしています。
