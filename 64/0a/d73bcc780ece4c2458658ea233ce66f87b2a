@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb で POSIX の時限定のテストはそもそもテストメソ
+ッドを定義しないように分岐位置を修正しています。
