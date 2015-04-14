@@ -1,0 +1,3 @@
+拡張ライブラリ io/wait の IO#wait_writable の rdoc 用コメントで self or nil を
+返す条件についての記述を修正しています。 EOF についての記述は wait_writable に
+は不要でした。またタイムアウト時は nil を返します。
