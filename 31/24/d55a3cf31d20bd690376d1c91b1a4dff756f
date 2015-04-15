@@ -1,0 +1,2 @@
+variable.c で rb_const_set() から定数テーブルへの追加部分を setup_const_entry()
+という関数名で切り出すリファクタリング。
