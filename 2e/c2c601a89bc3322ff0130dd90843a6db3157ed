@@ -1,0 +1,2 @@
+template/fake.rb.in の builddir を File.expand_path で展開しておくようにしてい
+ます。 symbolic link を解決するためみたいです。
