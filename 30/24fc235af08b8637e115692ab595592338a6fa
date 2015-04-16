@@ -1,0 +1,2 @@
+mkfifo(1) の実行を test/lib/envutil.rb に移動しています。 File.mkfifo メソッド
+として定義するようにしています。
