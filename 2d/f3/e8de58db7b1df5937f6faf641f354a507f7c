@@ -1,0 +1,3 @@
+Backtrace::Location#base_label の実装でメソッド名の ID を文字列化するのに
+rb_id2str() を利用するようにしています。こちらも fstring がかえる可能性があるの
+で厳密には仕様が変化していますが。
