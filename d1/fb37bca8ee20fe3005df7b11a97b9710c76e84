@@ -1,0 +1,2 @@
+cygwin での initgroups() が宣言されていないため process.c に prototype 宣言を追
+加しています。
