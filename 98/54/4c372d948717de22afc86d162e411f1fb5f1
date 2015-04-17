@@ -1,0 +1,2 @@
+doc/extension.rdoc、doc/extension.ja.rdoc に TypedData についての解説を追加して
+います。ついに TypedData についてドキュメントが。 [ruby-dev:40881] [Bug #3064]
