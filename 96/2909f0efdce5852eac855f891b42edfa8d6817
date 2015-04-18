@@ -1,0 +1,2 @@
+NEWS ファイルに r50263 での拡張ライブラリ io/wait の IO#wait_readable の EOF で
+の挙動の変更について追記しています。
