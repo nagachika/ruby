@@ -1,0 +1,4 @@
+拡張ライブラリ json の parser.rl で String#encode メソッドを rb_funcall() で呼
+んでいたのを、直接 C-API rb_str_conv_enc() を呼び出すようにリファクタリングして
+います。またエンコーディングオブジェクトも Encoding.find を rb_funcall() で呼び
+出して取得していたものを rb_enc_find() を呼ぶようにしています。
