@@ -1,0 +1,3 @@
+拡張ライブラリ json の parser.rl で rb_raise() のかわりに rb_enc_raise() を用い
+て例外メッセージを UTF-8 エンコーディングにするようにしています。
+[ruby-core:67386] [Bug #10705]
