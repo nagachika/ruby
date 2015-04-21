@@ -1,0 +1,3 @@
+拡張ライブラリ etc, openssl, tk などで条件部に代入が書かれていて -Wparentheses
+オプションでコンパイル時の警告が出るのを抑制するため代入をかっこでくくるように
+しています。 https://github.com/ruby/ruby/pull/875
