@@ -1,0 +1,3 @@
+test/ruby/test_enum.rb で assert_not_warn という独自の assertion を定義して使っ
+ていましたが EnvUtils に assert_warning という assertion があったのでこれを利用
+するようにリファクタリングしています。
