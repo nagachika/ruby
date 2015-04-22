@@ -1,0 +1,5 @@
+connect(2) 済みのソケットに再度 connect(2) を呼ぶと errno=EISCONN というエラー
+コードがかえってくるそうなのですが、拡張ライブラリ socket で connect_nonblock
+に exception: false オプションを渡した時の例外の抑制の対象にこの Errno::EISCONN
+の例外も含めるようにしています。 [ruby-core:68926] [Feature #11072] EISCONN 知
+らなかった。
