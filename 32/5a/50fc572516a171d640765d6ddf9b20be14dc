@@ -1,0 +1,3 @@
+拡張ライブラリ openssl と標準添付ライブラリ net/https のコメントの "licenced"
+を "licensed" に変更しています。英国式だと動詞は licence でいいそうなので間違い
+じゃないんですけどね。 https://github.com/ruby/ruby/pull/876
