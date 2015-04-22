@@ -1,0 +1,3 @@
+r50357 の tool/expand-config.rb での path separator の置換で String#tr を使って
+いるのに戻り値を使っていなかったため置換できていなかったので、String#tr! を利用
+するように修正しています。
