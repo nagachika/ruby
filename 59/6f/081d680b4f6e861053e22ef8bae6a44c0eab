@@ -1,0 +1,2 @@
+Windows 版の readlink() の実装で ReparseTag をチェックして junction の時にドラ
+イブレターのぶんがなくなる不具合を修正しています。
