@@ -1,0 +1,2 @@
+tool/fake.rb で libdir をすりかえているのをやめて libdirname を変更するようにし
+ています。ビルドプロセスむずい…。
