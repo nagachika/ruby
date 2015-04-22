@@ -1,0 +1,2 @@
+mkmf.rb の MakeMakefile#configuration で top_srcdir と buildir には
+with_destdir() で環境変数 DESTDIR の値が影響しないようにしています。
