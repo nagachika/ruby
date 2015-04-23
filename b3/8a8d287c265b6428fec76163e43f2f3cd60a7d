@@ -1,0 +1,5 @@
+r50352 の再修正で Windows 版の readlink() の実装で junction を用いたシンボリッ
+クリンクのときの DeviceIoControl() という API から取得した情報の構造体を
+REPARSE_DATA_BUFFER にあわせて宣言するようにしています。 PathBuffer メンバのオ
+フセットが SymbolicLinkReparseBuffer の時と異なっているのでそのまま流用できなか
+ったようです。
