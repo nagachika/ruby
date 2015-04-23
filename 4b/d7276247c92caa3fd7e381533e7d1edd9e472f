@@ -1,0 +1,2 @@
+test/ruby/test_object.rb のテストメソッドの名称を修正しています。 https://
+github.com/ruby/ruby/pull/877
