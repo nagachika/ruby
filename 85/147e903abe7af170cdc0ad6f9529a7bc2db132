@@ -1,0 +1,3 @@
+Kernel#String() と Kernel#Array() の変換メソッドのテストに to_str や to_ary メ
+ソッドを利用する変換のケースを追加しています。 https://github.com/ruby/ruby/
+pull/879 https://github.com/ruby/ruby/pull/880
