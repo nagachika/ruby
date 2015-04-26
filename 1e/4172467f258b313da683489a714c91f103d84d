@@ -1,0 +1,4 @@
+Windows 版の MSVC 14 向けの修正。新しいコンパイラおよび runtime のサポートのた
+めの変更がいくつか続きます。 tzname や daylight というシンボルが _tzname と
+_daylight と改名されていたそうでマクロで別名を定義するようにしているようです。
+また win32/rtname.cmd で vcruntime140.dll に対応するようにしています。
