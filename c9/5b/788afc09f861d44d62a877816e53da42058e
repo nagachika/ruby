@@ -1,0 +1,2 @@
+vm_trace.c で TracePoint.new メソッドの undef を行っていたのを削除しています。
+TracePoint.new は再定義されているので undef する必要はなかったため。
