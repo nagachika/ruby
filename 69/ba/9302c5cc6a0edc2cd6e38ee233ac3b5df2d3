@@ -1,0 +1,3 @@
+gc.c の gc_event_hook_body() の引数に rb_thread_t *th を追加して関数内で
+GET_THREAD() でカレントスレッドを取得していたのを呼び元で取得して渡すように修正
+しています。
