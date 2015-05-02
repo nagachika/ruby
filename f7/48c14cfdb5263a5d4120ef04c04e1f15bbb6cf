@@ -1,0 +1,3 @@
+rational.c の Rational の rdoc 用コメントで 2r のような r-suffix による
+Rational の literal 表記について追記しています。 [Bug #11075] https://
+github.com/ruby/ruby/pull/885
