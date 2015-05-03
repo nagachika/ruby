@@ -1,0 +1,3 @@
+拡張ライブラリのロード時に呼び出すエントリポイントの関数名の prefix が _Init_
+か Init_ かの分岐を消し、export される symbol の prefix を保持する
+EXPORT_PREFIX を利用するようにしています。
