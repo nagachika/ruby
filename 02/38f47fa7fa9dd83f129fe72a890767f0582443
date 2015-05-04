@@ -1,0 +1,3 @@
+range.c の <=> と succ というメソッドのための id を Init_Range() で rb_intern()
+していたのを id.h で組み込みで定義されている idCmd と idSucc を利用するように変
+更しています。
