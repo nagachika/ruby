@@ -1,0 +1,3 @@
+拡張ライブラリ io/console で rb_w32_map_errno() の有無を確認している
+preprocessor の条件分岐を削除して Windows 環境では常に rb_w32_map_errno() を利
+用するようにしています。
