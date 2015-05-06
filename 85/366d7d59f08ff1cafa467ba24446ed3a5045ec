@@ -1,0 +1,4 @@
+拡張ライブラリ io/console に Windows でのみ利用できる IO#goto, IO#cursor, IO#
+cursor= メソッドを追加しています。カーソルの位置を取得/変更できるメソッドみたい
+ですね。非 Windows 環境での curses (標準添付からは外れましたが)のかわりって感じ
+ですかね。
