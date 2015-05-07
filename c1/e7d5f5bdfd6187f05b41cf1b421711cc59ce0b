@@ -1,0 +1,3 @@
+r50427 で拡張ライブラリ io/console に IO#pressed? を導入した時に追加した
+win32_vk.h は Windows でのみ利用するので、他のプラットフォームでは ext/io/
+console/depend に含まれないよう変数経由で参照するようにしています。
