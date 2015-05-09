@@ -1,0 +1,3 @@
+test/excludes/ にファイルを追加して test_redefinition_memory_leak と
+test_xxxx_stack_size を除外するようにしています。 too expensive なためとのこと
+。
