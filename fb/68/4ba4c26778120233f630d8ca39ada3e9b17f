@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix のテストで Matrix#determinant と Matrix#det のテスト
+が重複していたのを 1つにまとめて、det が determinant の alias になっていること
+を確認するテストを追加することで済ませています。 https://github.com/ruby/ruby/
+pull/897
