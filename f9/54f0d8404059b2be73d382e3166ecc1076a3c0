@@ -1,0 +1,2 @@
+標準添付ライブラリ net/imap でレスポンスの body-fld-dsp が省略された時に parse
+error になっていたのを修正しています。 [ruby-core:69093] [Bug #11128]
