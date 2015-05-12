@@ -1,0 +1,3 @@
+拡張ライブラリ zlib に GzipReader#external_encoding メソッドを追加しています。
+利用している IO オブジェクトの external_encoding を見せるメソッドですね。
+[ruby-core:68287] [Bug #10900]
