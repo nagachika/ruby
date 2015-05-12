@@ -1,0 +1,5 @@
+r50462 の変更に絡んでですが、そもそも Data_Make_Struct() や
+TypedData_Make_Struct() も先に ptr 用のメモリ領域を ZALLOC() で確保してから
+Data_Wrap_Struct()/TypedData_Wrap_Struct() でオブジェクトを確保するという順番に
+なっていて、オブジェクト確保で例外になった時に memory leak するようになっていた
+ので、専用の関数を導入して順番を入れかえるようにしています。
