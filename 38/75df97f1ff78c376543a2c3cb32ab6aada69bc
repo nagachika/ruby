@@ -1,0 +1,5 @@
+r50462 で ptr が NULL の T_DATA オブジェクトが作れるようになったので r50461 は
+revert し、さらに vm.c の vm_make_env_each() でも同じように xmalloc() してから
+TypedData_Wrap_Struct() でオブジェクトを作っていたところがあったので、ここも先
+にオブジェクトを ptr=NULL で作っておいてから xmalloc() でメモリ確保するようにし
+ています。
