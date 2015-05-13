@@ -1,0 +1,4 @@
+昨日の r50464 での Data_Make_Struct() と TypedData_Make_Struct() のメモリ確保順
+の変更で gcc の strict-aliasing 警告の除去のため、__GNUC__ が定義されている時は
+関数にポインタ変数へのポインタを渡して上書きさせるのではなくマクロを使った定義
+に切り替えるようにしています。
