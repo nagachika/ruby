@@ -1,0 +1,4 @@
+Range#include? の実装で Range の始点、終点が文字列だったときの処理を
+rb_str_include_range_p() という関数として切り出して string.c に追加しています。
+またそこで rb_str_upto() から str_upto_each() という関数を切り出してそれを利用
+するようにリファクタリングしています。
