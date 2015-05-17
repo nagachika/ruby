@@ -1,0 +1,3 @@
+Array#assoc と Array#rassoc で rdoc には戻り値は新しい Array オブジェクトが作成
+されると書かれていたのですが、実際は Array の要素の Array そのものが返されてい
+たので、ドキュメントのほうを修正しています。
