@@ -1,0 +1,5 @@
+autoload でファイルを require するのに C API の rb_require_safe() を呼ぶのでは
+なくて、rb_funcall() で ruby レベルで require メソッドを呼ぶように変更していま
+す。autoload でも RubyGems で再定義した require を介在させることで intercept で
+きるようにするためだそうです。ただこのせいで rubygems の require が無限再帰する
+現象が起きているようですね。 [ruby-core:69132] [Feature #11140]
