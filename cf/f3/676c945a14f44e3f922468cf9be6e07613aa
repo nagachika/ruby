@@ -1,0 +1,2 @@
+Enumerable#grep_v の rdoc 用コメントのサンプルの結果の間違いを修正しています。
+https://github.com/ruby/ruby/pull/901
