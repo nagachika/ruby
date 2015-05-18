@@ -1,0 +1,5 @@
+r50494 で autoload が require メソッドを呼ぶようになったことで、テストで
+require が無限再帰するようになっていたのを修正。 test/ruby/test_require.rb で子
+プロセスに --disable-gems をつけて rubygems を無効化して起動するようにしていま
+す。これ本当に rubygems を無効化してテストに意味あるのかな。一時的な措置ですか
+ね。
