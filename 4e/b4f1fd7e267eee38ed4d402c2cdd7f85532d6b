@@ -1,0 +1,3 @@
+Windows 版の accept(2) の wrapper 実装 rb_w32_accept() で rb_w32_open_osfhandle
+() を呼ぶのを accept(2) の後にすることで後始末のコードの分岐を減らすリファクタ
+リング。
