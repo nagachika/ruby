@@ -1,0 +1,3 @@
+test/ruby/test_numeric.rb で DummyNumeric という Numeric を継承したクラスをテス
+トメソッド間で使いまわしていたのを、Class.new でその場で無名クラスを生成して利
+用するように書きかえています。
