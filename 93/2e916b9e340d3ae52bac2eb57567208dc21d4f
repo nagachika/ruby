@@ -1,0 +1,4 @@
+Numeric#positive? と Numeric#negative? というメソッドを追加しています。 NEWS フ
+ァイルにも追記されています。 Complex はどうするんだろ…と思ったら undef してい
+てメソッド自体持たないようにしているようです。うーむなるほど…。
+[ruby-core:69173] [Feature #11151]
