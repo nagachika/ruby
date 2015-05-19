@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick で O_NONBLOCK や O_CLOEXEC フラグを立てるのに IO#
+fcntl を利用していたのを、IO#nonblock= や IO#close_on_exec= を利用するようにし
+ています。個別のメソッドを使ったほうがポータブルで余計な system call を回避して
+くれるとのこと。 [ruby-core:69126] [Feature #11136]
