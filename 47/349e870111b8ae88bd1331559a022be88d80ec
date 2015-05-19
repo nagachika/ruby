@@ -1,0 +1,3 @@
+テスト用の拡張ライブラリとそれを使ったテスト ext/-test-/bug-3662 と test/-ext-/
+test_bug-3662.rb をそれぞれ ext/-text-/notimplement と test/-ext-/
+test_notimplement.rb に改名しています。
