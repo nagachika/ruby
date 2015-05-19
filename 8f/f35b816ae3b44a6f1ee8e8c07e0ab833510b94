@@ -1,0 +1,3 @@
+拡張ライブラリ socket で Socket#accept_nonblock で作成した socket をにソケット
+オプション O_NONBLOCK を付加するようにしています。 [ruby-core:69129] [Feature #
+11138]
