@@ -1,0 +1,6 @@
+r50506 で rb_data_object_alloc() と rb_data_typed_object_alloc() をそれぞれ
+rb_data_object_wrap() と rb_data_typed_object_wrap() に改名しましたが、この C
+API は昔からあったものなので拡張ライブラリ向けバイナリ互換性のために古い名称の
+wrapper 関数を RUBY_ALIAS_FUNCTION() で定義するようにしています。またソース互換
+性のために include/ruby/ruby.h で preprocessor で古い名称を新しい名称に置換する
+ようにマクロ定義を追加しています。
