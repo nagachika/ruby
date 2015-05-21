@@ -1,0 +1,3 @@
+標準添付ライブラリ uri で URI::Generic.build の :port オプションが正しく受け付
+けられていなかった不具合を修正しています。 https://github.com/ruby/ruby/pull/
+804
