@@ -1,0 +1,2 @@
+vm_dump.c で libexec の backtrace() の戻り値を int 型の変数に代入しているところ
+で、戻り値の型は size_t だったので明示的キャストを追加しています。
