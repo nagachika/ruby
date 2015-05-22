@@ -1,0 +1,3 @@
+r50554 に続いて configure.in の RUBY_FUNC_ATTRIBUTE の修正なんですが、
+__attribute__ のチェックで引数を持つ attribute にも対応しているそうです。もうこ
+の変更読めないですね…。
