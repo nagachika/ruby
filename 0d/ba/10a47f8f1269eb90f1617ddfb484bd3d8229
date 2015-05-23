@@ -1,0 +1,1 @@
+proc.c の rb_method_get_iseq() を rb_method_iseq() に改名しています。
