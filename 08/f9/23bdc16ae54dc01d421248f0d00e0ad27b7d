@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence#to_a で catch table の例外タイプを Symbol に変換す
+るところで、不正な例外タイプだった時の rb_bug() のメッセージが適当だったのでち
+ゃんと表示するようにしています。
