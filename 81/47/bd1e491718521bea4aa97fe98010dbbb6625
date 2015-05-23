@@ -1,0 +1,1 @@
+proc.c の method_proc() という関数を method_to_proc() と改名しています。
