@@ -1,0 +1,5 @@
+r48160 で Method オブジェクトから to_proc で Proc オブジェクト化したものの
+binding で取得した Binding オブジェクトの receiver を修正した時に、この Binding
+オブジェクトの eval を呼ぶと rb_bug() になっていた不具合を修正しています。
+Method が呼ばれた時に作られるのに似た、しかし別の rb_env_t を作成して利用するよ
+うにしています。 [Bug #11163]
