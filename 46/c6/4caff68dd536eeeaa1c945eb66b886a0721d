@@ -1,0 +1,4 @@
+Thread 内で Kernel#system や Kernel#spawn など子プロセスを生成するメソッドで存
+在しないコマンドを実行しようとしてエラーを起こすと、Thread が hang up すること
+がある不具合を修正。後始末の処理を rb_ensure() で必ず実行されるようにしています
+。 [ruby-core:69304] [Bug #11166]
