@@ -1,0 +1,2 @@
+標準添付ライブラリ prime の for 文を Enumerable#each に書きかえたり、明示的な
+return を削除したりするコーディングスタイルの修正。
