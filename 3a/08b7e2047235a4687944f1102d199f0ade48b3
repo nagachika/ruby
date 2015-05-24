@@ -1,0 +1,2 @@
+include/ruby/intern.h で rb_sym_all_symbols() の宣言の位置を symbol.c のセクシ
+ョンに移動しています。
