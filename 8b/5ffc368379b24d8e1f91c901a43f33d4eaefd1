@@ -1,0 +1,2 @@
+r50610 で win32/win32.c に追加された WriteConsoleW() に渡すための変数 witten の
+型を DWORD にして警告除去しています。
