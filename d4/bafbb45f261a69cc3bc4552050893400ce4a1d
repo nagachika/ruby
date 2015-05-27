@@ -1,0 +1,5 @@
+Windows で IO#read や IO#write で利用している Overlapped I/O という
+Asynchronous IO を実現する仕組みを使うためにファイルを開く時に、書き込み用に開
+いた時だけファイル末尾に seek するようにしています。 open の modeに "ab+" を渡
+した時に既存のファイルの内容が読めない(読み込み用の時も末尾に seek していたの
+で)という不具合の修正だそうです。 [ruby-dev:48989] [Bug #11172]
