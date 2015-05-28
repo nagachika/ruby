@@ -1,0 +1,3 @@
+gcc 拡張の __attribute__( (__alloc_size__) ) を利用する RUBY_ATTR_ALLOC_SIZE()
+を定義する条件が major 4 以上 minor 3以上になっていた(つまり 5.1 とかは偽になっ
+てた)ので 4.3 以上が対象になるように修正しています。
