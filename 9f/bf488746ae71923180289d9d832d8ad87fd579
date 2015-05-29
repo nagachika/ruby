@@ -1,0 +1,2 @@
+拡張ライブラリ openssl で変数に volatile をつけるかわりに RB_GC_GUARD() で最適
+化からの変数の保護をするように修正しています。 [ruby-core:69371] [Bug #11185]
