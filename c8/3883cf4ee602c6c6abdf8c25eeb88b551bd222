@@ -1,0 +1,3 @@
+拡張ライブラリ tk で TclTkIp#initialize の実装で、send などで2重に呼ばれた時に
+既に wrap しているポインタが確保済みだったらメモリリークを防ぐため
+ArgumentError を発生させるようにしています。
