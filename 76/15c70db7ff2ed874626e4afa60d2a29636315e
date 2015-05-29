@@ -1,0 +1,3 @@
+デバッグ用にコンパイルした時に GC.add_stress_to_class と GC
+.remove_stress_to_class で Class を指定して、その Class のインスタンスの作成時
+にのみ NoMemoryError を発生させるようにできるようにしています。
