@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::ASN1::ObjectId の rdoc 用コメントの typo 修
+正。 https://github.com/ruby/ruby/pull/913
