@@ -1,0 +1,2 @@
+拡張ライブラリ tk で TclTkLib.split_tklist の戻り値が Array であることをチェッ
+クするようにしています。
