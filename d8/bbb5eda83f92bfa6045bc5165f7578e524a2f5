@@ -1,0 +1,4 @@
+拡張ライブラリ socket で MSG_DONTWAIT が利用できる時は fd に fcntl(3) で
+O_NONBLOCK フラグをセットしなくても non-blocking I/O が利用できるので、冗長な
+rb_io_set_nonblock() の呼び出しをスキップするようにしています。
+[ruby-core:69154] [Feature #11145]
