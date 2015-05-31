@@ -1,0 +1,6 @@
+標準添付ライブラリ net/http と resolv で Time.now のかわりに
+Process.clock_gettime(Process::CLOCK_MONOTONIC) を利用する最適化(Time.now はオ
+ブジェクトを生成するのに対して Process.clock_gettime は即値である Fixnum を返す
+ので GC pressure がないのです)。CLOCK_MONOTONIC が全てのプラットフォームで利用
+可能のはず、ということで標準添付ライブラリに導入されています。
+[ruby-core:69384] [Feature #11124]
