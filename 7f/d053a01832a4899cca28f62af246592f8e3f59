@@ -1,0 +1,3 @@
+tool/make_hgraph.rb というツールを追加しています。IClass や Singleton Class を
+含むオブジェクトのクラスの instance_of や super の関係を表すグラフを生成する
+Graphviz 用の dot ファイルを生成するものみたいです。
