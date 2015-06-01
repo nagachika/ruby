@@ -1,0 +1,6 @@
+alias が include/extend している Module や継承している Class で定義されているメ
+ソッドに対する別名を定義していて、そのメソッド内で super した時にメソッドがみつ
+からないことがある不具合を修正しています。
+alias で定義する対象のメソッドが別の Module/Class で定義されているものだった時
+に VM_METHOD_TYPE_ALIAS という新たなタイプの method entry を作るようにしていま
+す。 [ruby-dev:48992] [Bug #11173]
