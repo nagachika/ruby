@@ -1,0 +1,4 @@
+T_OBJECT 型のオブジェクトのインスタンス変数用のテーブルの操作を関数
+(iv_index_tbl_make(), iv_index_tbl_extend(), iv_index_tbl_newsize())に切り出す
+リファクタリング。後の r50678 での T_DATA 型オブジェクトの変更で再利用するため
+の準備みたいです。 [ruby-core:69323] [Feature #11170]
