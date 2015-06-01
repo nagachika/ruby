@@ -1,0 +1,2 @@
+rb_free_method_entry() の引数の型に const を追加した、vm_core.h から不要になっ
+ていた rb_unlink_method_entry() の宣言を削除したりといった細かな変更です。
