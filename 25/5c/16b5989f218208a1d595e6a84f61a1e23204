@@ -1,0 +1,2 @@
+r50687 で vm_core.h から宣言を削除した vm_method.c の rb_unlink_method_entry()
+を static 関数に変更しています。
