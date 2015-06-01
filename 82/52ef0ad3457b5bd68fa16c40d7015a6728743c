@@ -1,0 +1,3 @@
+doc/dtrace_probes.rdoc および probes.d で probe 名の "ruby::function-entry" を
+"ruby::method-entry" に改名しています。ふむ、一応これも非互換と言えなくはないの
+で NEWS に書いたほうがいいのかなぁ。
