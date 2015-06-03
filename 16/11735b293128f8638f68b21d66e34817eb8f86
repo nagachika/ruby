@@ -1,0 +1,5 @@
+eval_intern.h で定義されていた cref の scope の操作マクロ SCOPE_TEST(),
+SCOPE_CHECK(), SCOPE_SET() を vm_method.c に rb_frame_visibility_test(),
+rb_frame_visibility_check(), rb_frame_visibility_check() という関数として定義し
+なおして、さらに rb_frame_visibility_set() は vm_intern.h で宣言して load.c で
+利用するようにしています(他の2つは static 関数)。
