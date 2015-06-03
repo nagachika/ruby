@@ -1,0 +1,3 @@
+hash.c の has_extra_methods() からクラスの method entry テーブルに中身があるか
+どうかチェックする処理を class.c の rb_class_has_methods() という関数に切り出し
+て公開関数にしています。
