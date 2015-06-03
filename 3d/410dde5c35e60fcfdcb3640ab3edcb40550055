@@ -1,0 +1,2 @@
+デバッグ用の関数 obj_info() に rb_obj_info() という wrapper 関数を作ってこれを
+gc.h で公開するようにしています。
