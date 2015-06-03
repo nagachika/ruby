@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf の pkg_config メソッドで pkg-config コマンドが
+--libs-only-l オプションに対応していない時に ldflags から文字列操作で libs を得
+るように代替実装を追加しています。 [ruby-core:69421] [Bug #11201]
