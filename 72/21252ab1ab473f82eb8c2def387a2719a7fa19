@@ -1,0 +1,4 @@
+vm_method.c の rb_method_entry_make() で r50691 で新規に導入した method entry
+のタイプ VM_METHOD_TYPE_ALIAS をメソッド再定義の警告の時の判定に追加しています
+。 alias で作ったメソッドは再定義しても警告しないんですね。
+しかしなんか gc.c にゴミが入りこんでる…
