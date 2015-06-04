@@ -1,0 +1,2 @@
+拡張ライブラリ socket のテストに Socket#sendmsg_nonblock のテストを追加していま
+す。
