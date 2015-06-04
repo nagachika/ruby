@@ -1,0 +1,2 @@
+r50728 で proc_curry() に残っていたデバッグ用の bp() の呼び出し
+(ruby_debug_breakpoint() の呼び出し)を削除しています。
