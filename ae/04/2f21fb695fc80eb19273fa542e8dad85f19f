@@ -1,0 +1,2 @@
+テストで minitest の assert_raises を利用しているところを assert_raise (テスト
+用に添付されている test/unit で定義されている assertion) に変更しています。
