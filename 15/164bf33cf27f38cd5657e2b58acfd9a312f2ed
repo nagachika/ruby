@@ -1,0 +1,3 @@
+VM の命令の定義が記述された insns.def の defined 命令の内容を vm_insnhelper.c
+の vm_defined() という関数に移動して、命令の定義は単にこれを呼び出すようにして
+います。
