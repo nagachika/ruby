@@ -1,0 +1,4 @@
+標準添付ライブラリ benchmark で Process.clock_gettime に利用する clock の種類を
+Process::CLOCK_MONOTONIC が未定義の環境では Process::CLOCK_REALTIME を使うよう
+にしていましたが、Process::CLOCK_MONOTONIC 存在しない環境はなさそうなので常に
+Process::CLOCK_MONOTONIC を使うようにしています。 [ruby-core:69390]
