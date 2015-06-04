@@ -1,0 +1,2 @@
+r50691 で導入した find_defiend_class_by_owner() → find_defined_class_by_owner
+() と関数名の typo 修正。
