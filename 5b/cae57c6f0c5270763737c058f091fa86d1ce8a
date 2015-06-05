@@ -1,0 +1,4 @@
+r50736 で defined 命令から切り出した(移動した) vm_defined() で
+respond_to_missing? のチェックが method entry がみつかっていた時も行なわれてい
+たので、else 節の中に入れて method entry がみつからなかった時だけ行なうようにし
+ています。 [ruby-dev:49011] [Bug #11211]
