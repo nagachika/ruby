@@ -1,0 +1,5 @@
+r50737 のさらに追加修正。 respond_to_missing? のチェック部分を vm_defined() か
+ら check_resopnd_to_missing() という関数に切り出して、vm_defined() の
+DEFINED_FUNC の時にもチェックするようにしています。 [ruby-dev:49012] [Bug #
+11212]
+関数名 typo してますね…。
