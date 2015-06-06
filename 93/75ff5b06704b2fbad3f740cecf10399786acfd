@@ -1,0 +1,3 @@
+Windows 環境で File::Constants::FNM_SHORTNAME という Dir.glob 用のフラグの定数
+を追加して、省略されたパス名(short name) でのマッチもできるようにしています。
+[ruby-core:69435] [Bug #11206]
