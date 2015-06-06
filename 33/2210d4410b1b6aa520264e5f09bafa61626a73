@@ -1,0 +1,3 @@
+class.c の method_entry_i() で me の NULL チェックをしていましたが、ここは mtbl
+に対する st_foreach() のコールバックとして呼ばれているはずで NULL にはならない
+はずなので、余分なチェックを削っています。
