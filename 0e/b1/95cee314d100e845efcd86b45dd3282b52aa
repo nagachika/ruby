@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole および st.h, util.h のコメントの typo 修正。 https://
+github.com/ruby/ruby/pull/923
