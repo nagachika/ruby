@@ -1,0 +1,4 @@
+rb_method_definition_t の構造体のメンバ orig_me を、そのメンバだけ持つ
+rb_method_refined_t という別の構造体型を導入してその構造体をメンバとして埋め込
+むようにしています。つまり def->orig_me としていたのを def->refined.orig_me に
+しています。
