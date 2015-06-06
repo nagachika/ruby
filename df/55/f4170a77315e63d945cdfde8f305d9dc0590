@@ -1,0 +1,3 @@
+Array#sort! の再入チェックの例外のメッセージを変更しています。 reentered ->
+re-entered。しかし reentered もちゃんとした単語だというのと、テストがこけてたそ
+うで後に revert されています。 https://github.com/ruby/ruby/pull/922
