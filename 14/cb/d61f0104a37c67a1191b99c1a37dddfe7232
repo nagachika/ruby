@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext::Nonblock で IO#fcntl を使っ
+て File::NONBLOCK フラグをセットしていたのを、拡張ライブラリ io/nonblock を利用
+して IO#nonblock= でセットするように変更しています。 [ruby-core:69382] [Feature
+#11190]
