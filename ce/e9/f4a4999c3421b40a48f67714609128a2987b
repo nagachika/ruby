@@ -1,0 +1,6 @@
+IO#readpartial や IO#read_nonblock が利用する io_getpartial() や IO#
+write_nonblock の実装 io_write_nonblock() で Symbol :wait_readable,
+:wait_writable をその場で毎回 rb_intern を呼び出していたのを、初期化時に作って
+おいて static 変数に格納したものを利用するようにしています。コミットログみると
+高速化というより(結果的にそれもあるでしょうけど)コードサイズの削減が目的みたい
+です。あいかわらずのこだわりですね…。
