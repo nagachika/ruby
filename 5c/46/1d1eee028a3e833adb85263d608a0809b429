@@ -1,0 +1,2 @@
+rb_scan_args() の rdoc 用コメントに、渡された keywords_hash が破壊的に操作され
+る(要素が削除される)ことを追記しています。 [ruby-core:68507]
