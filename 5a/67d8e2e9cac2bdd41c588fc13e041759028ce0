@@ -1,0 +1,4 @@
+拡張ライブラリ socket の BasicSocket#sendmsg で controls_str が 0 の時の構造体
+struct msghdr のメンバ msg_control, msg_controllen を初期化していましたが、この
+構造体は memset(3) で 0 クリアされているため不要だったので削っています。コンパ
+イルしたら消えるはずですが、貴重な端末の4行を節約するために削除とのこと。
