@@ -1,0 +1,3 @@
+class.c の ins_methods_push() でメソッドの可視性の enum 型
+rb_method_visibility_t と long の比較をしていたところを警告除去のため cast を追
+加しています。
