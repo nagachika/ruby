@@ -1,0 +1,3 @@
+rb_objspace_t のみメンバとして持つ構造体 struct mark_tbl_arg を廃止して
+mark_entry(), mark_key(), mark_tbl() などには直接 rb_objspace_t を渡すように変
+更しています。
