@@ -1,0 +1,2 @@
+test/ruby/test_complex.rb にあった CMath のメソッドのテストケースを test/
+test_cmath.rb の対応するテストメソッド内に移動しています。
