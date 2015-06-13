@@ -1,0 +1,1 @@
+r50830 の METHOD_ENTRY_BASIC_SET() の再修正。閉じかっこを追加しています。
