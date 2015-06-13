@@ -1,0 +1,3 @@
+r45202 で移植性のためにマクロ化した、スレッドに名前をつける SET_THREAD_NAME()
+を FreeBSD でも pthread_set_name_np() を使って定義して、Linux 以外でも Thread
+に名前がつけられるようにしています。
