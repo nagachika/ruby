@@ -1,0 +1,3 @@
+r50792 で rb_method_definition_t::flags から rb_method_entry_t::attr::flags に
+移動した flags を、さらに rb_method_entry_t::flags の中に同居させるようにしてい
+ます。これにあわせてアクセス用のマクロの変更と追加も行なわれています。
