@@ -1,0 +1,2 @@
+標準添付ライブラリ prime の Prime#with_index を each_with_index の alias として
+いたのを offset という引数を受け付けるように拡張しています。 [Feature #11007]
