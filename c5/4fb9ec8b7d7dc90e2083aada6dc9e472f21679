@@ -1,0 +1,3 @@
+r50839 で新規追加した Array#bsearch_index にブロックが渡されなかった時の
+Enumerator を返す処理が long を返す関数内にあったので関数の戻り値を VALUE にな
+るように修正しています。
