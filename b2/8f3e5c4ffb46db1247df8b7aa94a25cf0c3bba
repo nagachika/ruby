@@ -1,0 +1,4 @@
+r50854 および r50856 で修正した標準添付ライブラリ prime の Prime#with_index と
+Prime#with_obj で返す Enumerator に size を指定するブロックを渡して、常に
+Enumerator#size が Float::INFINITY を返すようにしています。 https://github.com/
+ruby/ruby/pull/931
