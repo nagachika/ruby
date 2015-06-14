@@ -1,0 +1,3 @@
+test/ruby/test_extlibs.rb の拡張ライブラリがビルドできているかのテストで
+mkmf.log を読み込む時に File.binread を利用するように修正しています。
+[ruby-dev:49079] [Bug #11255]
