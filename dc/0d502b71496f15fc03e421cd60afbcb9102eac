@@ -1,0 +1,3 @@
+Array#pack と String#unpack に新たな指示子 "j" と "J" を追加しています。これは
+ポインタと同じサイズの整数(intptr_t および uintptr_t)を表すものです。 "j" が符
+号つきで "J" が符号なし(unsigned)です。 [ruby-dev:49015] [Feature #11215]
