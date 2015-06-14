@@ -1,0 +1,2 @@
+test/-ext-/string/test_nofree.rb の assert_no_memory_leak を使ったメモリリーク
+のテストで事前にもループを回しておいて誤検出を減らそうとしています。
