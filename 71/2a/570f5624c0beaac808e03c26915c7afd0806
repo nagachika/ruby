@@ -1,0 +1,5 @@
+Thread#name および Thread.name= メソッドを追加して、Thread に名前をつけることが
+できるようにしています。またプラットフォームがサポートしていれば
+pthread_setname_np() や pthread_set_name_np() や sysctl() で Ruby レベルでなく
+ネイティブスレッドにも名前を付けることで ps(1) の結果などでも表示できるようにし
+ているようです。 [ruby-dev:49068] [Feature #11251]
