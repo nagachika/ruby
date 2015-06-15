@@ -1,0 +1,4 @@
+Windows では常に 0 だった File::Stat#ino に
+BY_HANDLE_FILE_INFORMATION::nFileIndexHigh と nFileIndexLow を元とした情報を返
+させるようにしています。 log rotate でファイルが変更されたことを検出されるため
+に使ったりするそうです。 [ruby-dev:49017] [Feature #11216]
