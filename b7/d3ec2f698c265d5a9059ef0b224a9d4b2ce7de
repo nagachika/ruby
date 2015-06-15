@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の rdoc 用コメントの OpenSSL::OCSP::Response#add_status
+と OpenSSL::OCSP::Response#status の数値の意味の記述が間違っていたのを修正して
+います。 https://github.com/ruby/ruby/pull/932
