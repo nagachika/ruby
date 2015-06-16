@@ -1,0 +1,2 @@
+gc.c の ObjectSpace.count_objects の rdoc 用コメントに "T_" から始まるキーの説
+明を追記しています。
