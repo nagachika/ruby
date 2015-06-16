@@ -1,0 +1,2 @@
+Time#getlocal の rdoc 用コメントのサンプルコードに整数(秒)で offset を渡す例を
+追加しています。 [ruby-core:68306] [misc #10905]
