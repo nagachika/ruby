@@ -1,0 +1,3 @@
+tool/runruby.rb で rbconfig.rb の RUBY_VERSION のチェックを削除しているところで
+"true" に置換しているのを、"possibly useless use of true in void context" とい
+う警告になるのを避けるため単に消すようにしています。
