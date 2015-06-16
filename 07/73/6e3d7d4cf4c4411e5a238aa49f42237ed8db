@@ -1,0 +1,3 @@
+NEWS ファイルの Enumerable#grep_v と Numeric#positive?, Numeric#negative? のエ
+ントリにそれぞれチケット番号の参照を追記しています。 [Feature #11049] [Feature
+#11151]
