@@ -1,0 +1,3 @@
+テストで Tempfile のリークがないかチェックしている test/lib/leakchecker.rb で
+Tempfile が未定義の時の戻り値が配列になっていたので単に false を返すようにして
+います。
