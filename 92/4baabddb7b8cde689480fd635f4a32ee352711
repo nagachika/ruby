@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml で REXML::AttlistDecl の rdoc 用コメントの typo 修正。
+https://github.com/ruby/ruby/pull/934
