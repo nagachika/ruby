@@ -1,0 +1,2 @@
+IO.binread で第3引数の offset が指定されてた時に rb_io_seek() で例外などが発生
+した時に開いた fd を close するようにして fd leak の可能性を修正しています。
