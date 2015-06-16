@@ -1,0 +1,2 @@
+同じく test/lib/leakchecker.rb でいくつかの leak のチェック結果をみて GC.start
+を呼ぶところをリファクタリングしてローカル変数を除去しています。
