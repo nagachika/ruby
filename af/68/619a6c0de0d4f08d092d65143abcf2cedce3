@@ -1,0 +1,2 @@
+拡張ライブラリ socket の UDPSocket#recvfrom_nonblock と UNIXSocket#recvfrom の
+rdoc 用コメントの call-seq の大括弧の対応が取れてなかったのを修正。
