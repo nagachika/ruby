@@ -1,0 +1,4 @@
+拡張ライブラリ socket の BasicSocket#sendmsg_nonblock と BasicSocket#
+recvmsg_nonblock にオプション :exception を追加して exception: false を指定する
+と例外を発生させるかわりに :wait_readable や :wait_writable という Symbol を返
+すという挙動をするようにしています。 [ruby-core:69542] [Feature #11229]
