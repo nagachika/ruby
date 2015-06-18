@@ -1,0 +1,3 @@
+拡張ライブラリ rbconfig/sizeof でチェックする型を追加しています。 _Bool や long
+double の他 double _Complex とか、x86_64 ABI 用の __float128, _Decimal32 なども
+。
