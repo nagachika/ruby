@@ -1,0 +1,4 @@
+ObjectSpace.dump のテストで dump 結果のチェックから uncollectible と marked の
+項目についてのチェックを削っています。これらのフラグは major GC 時に false にな
+りえるとのこと。 Incremental GC の導入によるものですかね。[ruby-dev:48864] [Bug
+#10852]
