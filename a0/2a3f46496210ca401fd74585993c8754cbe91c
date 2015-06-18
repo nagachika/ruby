@@ -1,0 +1,6 @@
+拡張ライブラリ socket の BasicSocket#recv, BasicSocket#recv_nonblock で引数に明
+示的にバッファの String オブジェクトを渡せるようにしています。バッファのオブジ
+ェクトを渡した場合別の Thread でその文字列オブジェクトを触るとまずいことになり
+ますが、そこは抜かりなく(IO#read と同様に) locktmp を使って読み込み完了までその
+文字列オブジェクトを変更できないように処理してありますね。 [ruby-core:69543]
+[Feature #11242]
