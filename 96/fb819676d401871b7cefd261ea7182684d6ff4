@@ -1,0 +1,2 @@
+標準添付ライブラリ csv の CSV::Row#field に Range オブジェクトを渡すことができ
+るように拡張しています。 [ruby-dev:49091] [Feature #11267]
