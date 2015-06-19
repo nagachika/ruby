@@ -1,0 +1,2 @@
+common.mk に enc.mk の依存関係に fake を追加しています。 cross compile 時に必要
+だったとのこと。 [ruby-dev:49098] [Bug #11272]
