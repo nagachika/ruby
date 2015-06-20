@@ -1,0 +1,2 @@
+compile.c の ISeq の配列からのロード処理(普通は利用できない)で rb_inspect() の
+かわりに %+PRIsVALUE を利用するようにしています。
