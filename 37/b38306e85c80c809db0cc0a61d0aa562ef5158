@@ -1,0 +1,2 @@
+拡張ライブラリ objspece の ObjectSpace.count_imemo_objects に method entry 用の
+IMemo のキーを追加しています。
