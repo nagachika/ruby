@@ -1,0 +1,2 @@
+r50932 の $SAFE = 3 の廃止の時に関数名 ruby_safe_level_4_warning() の
+ruby_safe_level_3_warning() への改名が漏れていたので追加修正しています。
