@@ -1,0 +1,3 @@
+common.mk で make dist のエラーを避けるため no-fake に -fake という alias を追
+加しています。おそらく r50937 によるエラーの回避だと思います。うーむなるほど
+make dist 時には $(CROSS_COMPILING) がないですよねぇ。
