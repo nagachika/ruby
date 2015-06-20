@@ -1,0 +1,3 @@
+拡張ライブラリ socket の UNIXSocket.recv_nonblock のテストでデータが届くのを待
+つのに sleep していたところを IO.select におきかえています。
+"Not sure what drugs I was on" ってすごいコミットメッセージですね。
