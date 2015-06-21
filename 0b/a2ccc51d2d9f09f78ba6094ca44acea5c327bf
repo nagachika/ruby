@@ -1,0 +1,2 @@
+Module#define_method に渡された名前を ID 化して immortal symbol にしてしまわな
+いようにしています。
