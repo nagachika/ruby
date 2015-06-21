@@ -1,0 +1,2 @@
+ext/extmk.rb で --with-ext や --without-ext の引数が効かなくなっていたのを修正
+しています。 [ruby-dev:49108] [Bug #11280]
