@@ -1,0 +1,2 @@
+make test (bootstraptest) でも $SAFE = 2 の廃止によって不要になったテストを削除
+しています。
