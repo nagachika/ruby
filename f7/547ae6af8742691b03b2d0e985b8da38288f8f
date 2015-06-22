@@ -1,0 +1,1 @@
+Object#taint の rdoc 用コメントに $SAFE = 3 の記述があったので削除しています。
