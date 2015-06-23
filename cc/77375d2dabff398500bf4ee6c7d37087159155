@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の ObjectSpace.dump に即値オブジェクトを渡すと SEGV し
+ていたのを '{}' を返すように修正しています。 [ruby-core:69692] [Bug #11291]
