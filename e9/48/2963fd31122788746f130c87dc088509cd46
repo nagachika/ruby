@@ -1,0 +1,3 @@
+tool/runruby.rb で Kernel#exec に渡すオプションに :close_others => false を追加
+して、明示的に指定した以外の fd を閉じる挙動を off にしています。閉じると
+rubyspec が失敗するからだそうです。
