@@ -1,0 +1,2 @@
+bignum.h から roomof() マクロの定義を internal.h に移動して、type_roomof() をこ
+れを使って定義するようにリファクタリングしています。
