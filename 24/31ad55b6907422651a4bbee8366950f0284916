@@ -1,0 +1,2 @@
+r50868 での Thread#name と Thread#name= についての NEWS ファイルへの追記で #
+name= のイコール記号が抜けてたのを修正しています。
