@@ -1,0 +1,3 @@
+r50945 で追加した NameError#receiver の実装で NameError が内部的に保持している
+TypedData 型のオブジェクトの型のチェックを追加しています。定数の参照の時などの
+NameError では型が異なるため。 [Feature #10881]
