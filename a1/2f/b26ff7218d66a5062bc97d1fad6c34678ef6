@@ -1,0 +1,2 @@
+rb_str_justify() で変数 pad に volatile をつけていたのをやめて RB_GC_GUARD() で
+最適化から保護するようにしています。
