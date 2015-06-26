@@ -1,0 +1,3 @@
+rb_attr() でスコープの visibility (public, protected, private など)のチェックが
+何度も現在のスコープの visibility を取得するようになってたので、1回取得してそれ
+で分岐するように最適化しています。
