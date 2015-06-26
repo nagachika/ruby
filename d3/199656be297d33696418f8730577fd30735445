@@ -1,0 +1,2 @@
+rb_fstring_cstr() という C の文字列(NUL 文字で終端している) から frozen String
+を作成する API を追加しています。
