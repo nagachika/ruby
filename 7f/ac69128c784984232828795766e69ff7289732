@@ -1,0 +1,3 @@
+MatchData#to_a や Regexp#match などの rdoc 用コメントで C のコメントの文法との
+衝突とをさけるための workaround を変更したり、サンプルを追加したりしています。
+https://github.com/ruby/ruby/pull/937
