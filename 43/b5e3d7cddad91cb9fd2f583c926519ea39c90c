@@ -1,0 +1,2 @@
+load.c の rb_feature_provided() で変数 fullpath に volatile 修飾子をつけていた
+のを RB_GC_GUARD() を使って最適化から保護するようにしています。
