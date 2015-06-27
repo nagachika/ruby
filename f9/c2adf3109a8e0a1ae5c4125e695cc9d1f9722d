@@ -1,0 +1,2 @@
+fill_random_bytes() の Windows 版の実装で ATOMIC_PTR_CAS() を使った排他処理で競
+合があったかどうかの分岐を先にするようにリファクタリングしています。
