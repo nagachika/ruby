@@ -1,0 +1,5 @@
+テスト用のユーティリティ test/lib/envutil.rb の assert_no_memory_leak で
+Solaris 用に子プロセスに渡す環境変数とオプションを指定する定数
+NO_MEMORY_LEAK_ENVS を作っていたのを test/lib/memory_status.rb に移動しています
+。ここでチェックのために EnvUtil.invoke_ruby が呼ばれているので、余分な実行を抑
+えるためみたいですね。
