@@ -1,0 +1,3 @@
+r50977 の Solaris での execv(3) 廃止と同様に Solaris でのデッドロック対策として
+Solaris では vfork(2) を使わず fork(2) を利用するようにしています。 Solaris で
+の vfork(2) は MT Unsafe なのだそうです。 [ruby-dev:49089] [Bug #11265]
