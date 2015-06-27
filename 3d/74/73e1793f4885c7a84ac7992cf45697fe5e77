@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSockt#sysread で nonblock モードでは
+ない時にはキーワード引数を受け付けず ArgumentError にするようにしています。
