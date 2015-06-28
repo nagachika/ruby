@@ -1,0 +1,2 @@
+object.c の convert_type() で method の先頭の "to_" との一致を先に調べるように
+して、conv_method_names の静的テーブル内に持つ名前のサイズを削減しています。
