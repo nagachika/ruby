@@ -1,0 +1,2 @@
+r51036 の ChangeLog に volatile -> RB_GC_GUARD() への変更についての記述がなかっ
+たのを追記しています。
