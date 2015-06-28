@@ -1,0 +1,4 @@
+Enumerable#minmax で戻り値をあらかじめ配列を作っておいて rb_ary_store() でセッ
+トして返していたのを rb_assoc_new() で作って return するようにしています。主に
+コードサイズの削減が目的のようです。また hash.c で変数に volatile をつけていた
+のをやめて RB_GC_GUARD() で保護するようにしています。
