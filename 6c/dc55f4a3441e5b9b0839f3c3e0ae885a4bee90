@@ -1,0 +1,4 @@
+標準添付ライブラリ net/ftp で Net::FTP#makeport で TCPServer を開いて PORT/EPRT
+コマンドで @sock に書きこみを行なっているところで例外が発生すると開いた
+TCPServer のソケットが leak していたのを修正しています。 makeport で sendport
+は呼ばず呼び元で begin ... ensure で保護されてる場所で呼ぶようにしています。
