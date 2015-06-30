@@ -1,0 +1,3 @@
+rb_define_class_id_under() でネストしたクラス定義で継承元を替えて再定義しようと
+した時の例外が NameError だったので TypeError を raise するように修正しています
+。
