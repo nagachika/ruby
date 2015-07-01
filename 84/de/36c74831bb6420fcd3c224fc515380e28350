@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http でレスポンスヘッダの Content-Encoding の内容の大文
+字小文字を無視して処理するように downcase してから処理するようにしています。
+[ruby-core:69670] [Bug #11285]
