@@ -1,0 +1,5 @@
+Module#refine の実装で有効になっている refinements へ追加する eval.c の
+add_activated_refinement() で superclass を辿る処理で refinement が対象の klass
+と一致したらループから抜けるようにしています。うーむ、Module にその Module 自体
+を refine するとおきるのかな、と思ったけど Module の refine はできなかったよう
+な。
