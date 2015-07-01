@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf.rb の check_sizeof と what_type でチェックのために生成
+する C ソースで警告除去のため不要な static 修飾子を削除しています。
