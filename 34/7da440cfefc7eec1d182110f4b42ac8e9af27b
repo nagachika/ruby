@@ -1,0 +1,3 @@
+r51070 と関連あるのかどうかわかりませんが、dir.c の check_dirname() および io.c
+の rb_sysopen() で rb_str_encode_ospath() に渡す前または後のパスを NUL 終端する
+ように StringValueCStr() を呼ぶようにしています。
