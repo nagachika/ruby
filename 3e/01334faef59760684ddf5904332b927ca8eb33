@@ -1,0 +1,2 @@
+r51069 で追加した Windows 用 rb_freopen() で WCHAR の文字列に変換したパス名を
+NUL 文字終端するようにしています。
