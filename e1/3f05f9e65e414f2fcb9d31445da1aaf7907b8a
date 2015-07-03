@@ -1,0 +1,4 @@
+NOEX_NOREDEF というマクロを 0 に定義して vm_method.c にいくつか preprocessor の
+分岐があったのを METHOD_ENTRY_NOREDEF というマクロを参照するように変更していま
+す。しかし METHOD_ENTRY_NOREDEF も定義されてなくて次の r51090 で分岐ごと削られ
+てます。
