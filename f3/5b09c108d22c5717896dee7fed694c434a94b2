@@ -1,0 +1,3 @@
+vm_method.c の初期化関数 Init_eval_method() で Exception の method_missing/
+respond_to?/respond_to_missing? の method entry を複製する処理で visibility を
+固定していたのを、元の method entry のものを流用するようにしています。
