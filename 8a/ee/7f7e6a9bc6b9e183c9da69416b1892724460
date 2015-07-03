@@ -1,0 +1,3 @@
+method.h の rb_method_entry_t を操作する各種 inline 関数で visibiliy の値の範囲
+をチェックしている VM_ASSERT() のチェックを強化しています。また $SAFE = 2,3 の
+廃止に伴なって safe のチェック範囲も変更しています。
