@@ -1,0 +1,3 @@
+gc.c のデバッグ用関数 obj_info() をバッファなどを引数として渡すようにして
+rb_raw_obj_info() という関数にして、obj_info() は static な配列をバッファとして
+渡す wrapper 関数として定義しなおしています。
