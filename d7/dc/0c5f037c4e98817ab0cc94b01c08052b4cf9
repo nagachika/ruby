@@ -1,0 +1,4 @@
+replace_real_basename() で getattrlist(2) および FindFirstFileW() の呼び出しが
+エラーになった時に errno が無視できるものだったら警告を出すに留めるようにしてい
+ます。無視できるかどうかは to_be_ignored() という関数で判定していて、ENOENT と
+ENOTDIR が対象です。 [ruby-core:63591] [Bug #10015]
