@@ -1,0 +1,4 @@
+拡張ライブラリ socket で rsock_getfamily() の引数を int (file descriptor) から
+rb_io_t * に変更して、取得した sa_family を fptr->mode のフラグとしてキャシュす
+ることで繰り返し getsockname(2) を呼ばなくてすむようにしています。
+[ruby-core:69713] [Feature #11298]
