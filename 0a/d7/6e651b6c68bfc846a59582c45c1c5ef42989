@@ -1,0 +1,2 @@
+r51092 の rubygems の更新のテストの修正。 test/rubygems/test_require.rb の
+test_dash_i_beats_gems を skip するようにしています。が次で revert されてます。
