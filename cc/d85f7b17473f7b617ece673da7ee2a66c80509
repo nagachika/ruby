@@ -1,0 +1,2 @@
+r51095 の対応のために必要になった require "rubygems/util" を lib/rubygems/
+resolver.rb に追加しています。
