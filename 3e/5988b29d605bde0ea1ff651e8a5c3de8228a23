@@ -1,0 +1,3 @@
+win32/file.c に mingw の時に #define MINGW_HAS_SECURE_API 1 を追加しています。
+_wfreopen_s() の定義のために #include <stdio.h> の前に必要なんだそうです。
+r51069 の追加修正ですね。 [ruby-core:69780] [Bug #11320]
