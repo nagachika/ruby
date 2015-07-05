@@ -1,0 +1,10 @@
+rb_control_frame_t から klass メンバを削除し、かわりに rb_classext_t に
+rb_callable_method_entry_t という型(内容は rb_method_entry_t と同じ。なぜ別の型
+にしたんだろう)を管理する callable_m_tbl メンバを追加して、Module のインスタン
+スメソッドの場合は実際に include や prepend で追加された IClass に所属するよう
+に owner をセットしたテーブルも別に持つようにしています。 control frame は節約
+されますが method entry のほうは数が増えるので、メモリ消費量は増える可能性があ
+るみたいですね。 [ruby-dev:49107] [Bug #11278] [ruby-core:69651] [Bug #11279]
+なお Coverity Scan が proc.c:2333 で data->me の NULL チェックせずにアクセスし
+てると検出してますね。上の分岐では data->me をチェックしてるので実際必要そうで
+すね。
