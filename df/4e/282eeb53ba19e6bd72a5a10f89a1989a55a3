@@ -1,0 +1,4 @@
+拡張ライブラリ socket と stringio で read_nonoblock/write_nonblock などで
+exception: false のオプションをチェックするのを、実際に待ちが必要で例外を発生さ
+せるか Symbol を返すかを判定する必要が出た時に引数をチェックするように遅延させ
+るようにしています。ここまでしますか。 [ruby-core:69778] [Feature #11318]
