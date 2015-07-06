@@ -1,0 +1,2 @@
+Enumerable#sort のテストにブロックつき呼び出しのテストケースを追加しています。
+https://github.com/ruby/ruby/pull/954
