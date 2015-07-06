@@ -1,0 +1,2 @@
+Enumerable#first の rdoc 用コメントの用例とテストに空の配列に対する呼び出しのケ
+ースを追加しています。 https://github.com/ruby/ruby/pull/955
