@@ -1,0 +1,5 @@
+vm.c の rb_vm_mark() で RUBY_MARK_UNLESS_NULL() マクロを使って NULL チェックつ
+きで mark 処理の呼び出しをしていたメンバのうち、NULL でありえないものはマクロを
+使わず常に rb_gc_mark() を呼び出すようにして分岐を押さえています。また
+rb_vm_add_root_module() でも vm->defined_module_hash の NULL チェックの分岐をや
+めています。コードサイズの削減のためだそうです。
