@@ -1,0 +1,3 @@
+rb_method_entry_location() を static 関数にして関数名も method_entry_location()
+に改名しています。 static でなかったといっても method.h で宣言されていたので内
+部的な関数で公開 API ではありませんでした。
