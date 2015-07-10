@@ -1,0 +1,3 @@
+rubygems の Gem::Resolver#resolve での依存関係解決で例外が発生した時にメッセー
+ジ出力用の IO が閉じられてなかったので ensure 節を追加して閉じるようにしていま
+す。
