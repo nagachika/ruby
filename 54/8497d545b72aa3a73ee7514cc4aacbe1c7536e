@@ -1,0 +1,2 @@
+r51166 で残っていた vm_backtrace.c の #define VM_CHECK_MODE 2 を削除しています
+。
