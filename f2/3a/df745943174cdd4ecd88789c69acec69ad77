@@ -1,0 +1,2 @@
+r51200 の修正漏れ。 rb_call_info_t::call への代入を CI_SET_FASTPATH() マクロを
+利用するように書きかえています。
