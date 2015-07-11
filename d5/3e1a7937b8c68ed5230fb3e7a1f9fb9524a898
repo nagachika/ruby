@@ -1,0 +1,4 @@
+メソッド呼び出しの情報の構造体 rb_call_info_t からメンバ klass を削除しています
+。 rb_iseq_t::klass と同様に control frame stack から
+rb_callable_method_entry_t を取得して同等の情報を知ることができるようになったた
+め不要になったようです。
