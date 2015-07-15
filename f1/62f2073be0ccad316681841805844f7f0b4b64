@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPProxyServer#do_CONNECT でのデバッグ
+出力の typo 修正。 https://github.com/ruby/ruby/pull/967
