@@ -1,0 +1,3 @@
+標準添付ライブラリで Object#timeout を利用していたところを Timeout.timeout を利
+用するようにしています。 require "timeout" すると Object#timeout なんてのも定義
+されてたんですね。
