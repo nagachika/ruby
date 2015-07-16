@@ -1,0 +1,4 @@
+標準添付ライブラリ WEBrick::HTTPServlet::DefaultFileHandler のテストで Windows
+上で :DocumentRoot に指定するパスが UNC path ("\\" ではじまる)だと失敗していた
+ので Dir.chdir で移動するのをやめて dir コマンドにフルパスで渡して short file
+name を取得するように修正しています。
