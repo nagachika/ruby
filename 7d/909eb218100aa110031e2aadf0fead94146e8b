@@ -1,0 +1,3 @@
+r51234 の WEBrick::Utils::TimeoutHandler の変更で #register で登録してもタイマ
+ー用の Thread が起きないので機能しなくなっていたので、#register でこの Thread
+の #wakeup を呼んで起こして機能するように修正しています。
