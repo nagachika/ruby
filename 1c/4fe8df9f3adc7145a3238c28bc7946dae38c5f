@@ -1,0 +1,7 @@
+webrick のテストで assert_expired という assertion が引数にタイムアウトが発生し
+たかどうかの判定を渡すようになっていたのを、タイムアウトが発生しているべきかど
+うかでメソッドごと分けるようにしています。また WEBrick::Utils::TimeoutHandler
+のインスタンス変数をチェックするところで Thread.handle_interrupt で例外の割り込
+みを抑制しています。 assert_not_expired のチェック中に割り込みが飛んだのは無視
+するようにするのと、WEBrick::Utils::TimeoutHandler.timeout をネストさせたテスト
+があるのでそのためというのもあるかも。
