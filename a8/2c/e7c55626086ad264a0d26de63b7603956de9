@@ -1,0 +1,5 @@
+構造体メンバ rb_proc_t::blockprocval と rb_binding_t::blockprocval を削除してい
+ます。これらのメンバは mark 関数で参照しているブロックが解放されてしまわないよ
+うに mark するために持っていたようですが、同じものは rb_env_t::env 経由でマーク
+できるので不要だったそうです。また rb_env_t::local_size というメンバも
+rb_env_t::env_size から固定的に計算できるため未使用にできたので削除しています。
