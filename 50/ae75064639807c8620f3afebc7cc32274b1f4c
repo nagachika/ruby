@@ -1,0 +1,4 @@
+r51240 と同じく clang での警告の修正だそうですが、 STATIC_ASSERT() マクロの定義
+で GC_VERSION_SINCE() でチェックしていたものを __has_extension() や
+__has_feature() を使って _Static_assert() マクロを利用するかどうかを分岐するよ
+うにしています。
