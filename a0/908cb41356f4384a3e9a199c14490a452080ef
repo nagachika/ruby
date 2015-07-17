@@ -1,0 +1,4 @@
+iseq_mark(), binding_mark(), tb_thread_mark(), tp_mark(TracePoint のオブジェク
+トの mark 処理)で不要なポインタの NULL チェックを削っています。mark 関数は呼び
+元で NULL チェック済みなので各 mark 関数内でのチェックは不要なため削っています
+。
