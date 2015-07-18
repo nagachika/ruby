@@ -1,0 +1,3 @@
+fork 時の signal 受信によるデッドロックのテストで起動する子プロセスの ruby を
+EnvUtil.rubybin から取得していたのを RUBY という定数を利用するようにしています
+。実体は一緒です(RUBY は EnvUtil.rubybin が代入されている)。
