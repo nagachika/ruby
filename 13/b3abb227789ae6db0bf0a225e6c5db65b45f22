@@ -1,0 +1,3 @@
+Range.new のテストを追加しています。 Range.new の第3引数で終端を含むかどうかの
+指定ができるんですね(普通 x..y や x...y の記法を使うのであまり Range.new を使っ
+たことがない)。 https://github.com/ruby/ruby/pull/971
