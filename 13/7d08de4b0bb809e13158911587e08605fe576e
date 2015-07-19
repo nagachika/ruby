@@ -1,0 +1,3 @@
+include/ruby/encoding.h に ENC_CODERANGE_CLEAN_P() というマクロを導入して
+coderange が ENC_CODERANGE_VALID もしくは ENC_CODERANGE_7BIT であることをビット
+演算を使って判定するようにして、re.c や string.c でこれを利用しています。
