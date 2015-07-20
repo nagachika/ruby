@@ -1,0 +1,3 @@
+拡張ライブラリ socket no sendmsg_nonblock のテストをするために用意するバッファ
+のサイズを小さくしています。 OpenBSD でのサイズ制限にひっかかったとのこと。
+[ruby-core:70016] [Bug #11364]
