@@ -1,0 +1,4 @@
+run_finalizer() で rb_safe_level() と rb_errinfo() を保存しておいて finalizer
+の実行後に戻すようにすることで、run_single_final() で rb_eval_cmd() を使って
+EXEC_TAG つきで(SAFE level を変えて実行するため)実行していたのを
+rb_check_funcall() で単なるメソッドコールとして呼び出すように軽量にしています。
