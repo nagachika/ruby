@@ -1,0 +1,3 @@
+r51291 と同様に rb_load_internal0() と rb_load_protect() でもスクリプトを load
+した中で発生した例外を発生しなおしているところで TAG_RAISE を返して呼び元で
+rb_exc_raise() するようにしてネストした EXEC_TAG() を減らすようにしています。
