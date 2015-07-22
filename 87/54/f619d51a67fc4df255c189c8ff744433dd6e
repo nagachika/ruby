@@ -1,0 +1,3 @@
+parse.y の parser_initialize() で struct parser_params のメンバを初期化していた
+ところで、構造体はゼロクリアされた状態で渡されているので不要な代入を削っていま
+す。コードサイズを削減しています。
