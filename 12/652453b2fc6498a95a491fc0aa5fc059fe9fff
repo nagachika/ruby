@@ -1,0 +1,2 @@
+r51302 の変更で struct parser_params::eofp を VALUE から bit field に変更したの
+に Qfalse を代入していたところが残っていたので 0 代入に修正しています。
