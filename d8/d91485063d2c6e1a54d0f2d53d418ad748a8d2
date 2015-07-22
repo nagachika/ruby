@@ -1,0 +1,3 @@
+rb_thread_terminate_all() で止める Thread 毎に TH_PUSH_TAG() と EXEC_TAG() を使
+って終了待ちをしていたのを、全体で1つの TH_PUSH_TAG()/EXEC_TAG() の中にループを
+入れるようにしています。
