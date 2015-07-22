@@ -1,0 +1,3 @@
+parse.y で定義されている struct parser_params 構造体のメンバの順番を入れ替えた
+り、ただの on/off だけのフラグは bit-field にしたりして構造体サイズを縮小してい
+ます。 [ruby-core:70034] [Feature #11371]
