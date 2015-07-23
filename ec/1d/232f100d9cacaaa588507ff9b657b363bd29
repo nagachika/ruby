@@ -1,0 +1,2 @@
+標準添付ライブラリ optparse の OptionParser#complete の rdoc 用コメントでの
+typo 修正。 https://github.com/ruby/ruby/pull/973
