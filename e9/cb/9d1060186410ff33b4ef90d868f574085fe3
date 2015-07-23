@@ -1,0 +1,2 @@
+win32/Makefile.sub での config.h の生成部分で UNREACHABLE マクロの定義を出力す
+るようにしています。 __assume(0) という組み込み関数を利用するようにしています。
