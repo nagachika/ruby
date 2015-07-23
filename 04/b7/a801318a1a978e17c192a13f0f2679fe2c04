@@ -1,0 +1,4 @@
+r51288 で Socket の BasicSocket#sendmsg_nonblock に使うバッファサイズを OpenBSD
+の制限にあわせて小さく(63 に)していましたが、実はそんなに小さくなかったというこ
+とがわかったそうで([ruby-core:70058]) 4096 まで増やしています。
+[ruby-core:70016] [Bug #11364]
