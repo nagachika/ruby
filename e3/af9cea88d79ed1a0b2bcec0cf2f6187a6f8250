@@ -1,0 +1,1 @@
+load.c の ruby_dln_librefs というグローバル変数を static 変数にしています。
