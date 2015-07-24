@@ -1,0 +1,2 @@
+r51319 で rb_wait_for_single_fd() の goto を do { } while ループに書きかえた時
+にエラー処理が抜けていたのを修正しています。
