@@ -1,0 +1,3 @@
+r51235 以降 test/webrick/test_utils.rb の WEBrick::Utils::TimeoutHandler のテス
+トでタイムアウトが短すぎてテストが失敗することがあったそうで 0.01 → 0.1 にのば
+しています。 10msec だと確かにちと短すぎますね。
