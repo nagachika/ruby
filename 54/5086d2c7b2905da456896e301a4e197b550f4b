@@ -1,0 +1,2 @@
+Numeric#coerce の rdoc 用コメントで引数の mark up の閉じ漏れを修正しています。
+https://github.com/ruby/ruby/pull/974
