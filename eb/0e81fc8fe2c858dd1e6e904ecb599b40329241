@@ -1,0 +1,2 @@
+lib/matrix/eigenvalue_decomposition.rb の代入文が連続しているところで等号の前後
+に空白を入れるようにスタイルの修正。 https://github.com/ruby/ruby/pull/959
