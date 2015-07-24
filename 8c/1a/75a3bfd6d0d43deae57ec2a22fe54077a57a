@@ -1,0 +1,2 @@
+r51064 の st_table の linked list 構造に ccan/list を利用するようにした変更に追
+随して .gdbinit の gdb 用コマンド rb_ps_vm を変更しています。
