@@ -1,0 +1,3 @@
+構造体メンバ rb_method_iseq_t::iseqptr の型を rb_iseq_t * const から const
+rb_iseq_t * const に変更し、def_iseq_ptr() の戻り値にも const 修飾子を追加して
+います。
