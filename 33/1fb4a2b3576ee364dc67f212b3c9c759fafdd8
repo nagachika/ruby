@@ -1,0 +1,2 @@
+構造体メンバ rb_call_info_t::kw_arg と rb_control_frame_t::iseq と
+rb_control_frame_t::block_iseq の型にも const 修飾子を追加しています。
