@@ -1,0 +1,3 @@
+構造体メンバ struct rb_iseq_constant_body::local_table や、その構造体内の埋め込
+みの構造体 struct rb_iseq_param_keyword のメンバ table, default_values などの型
+に const 修飾子を追加しています。
