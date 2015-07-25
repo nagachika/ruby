@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で ECDH (楕円曲線 Diffie-Hellman による鍵共有)のコールバ
+ックを登録する機能をサポートするようにしています。 OpenSSL::SSL::SSLContext#
+tmp_ecdh_callback= で Proc オブジェクトを登録できて OpenSSL のコールバックから
+呼ばれるようです。 [ruby-core:69986] [Feature #11356]
