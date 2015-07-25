@@ -1,0 +1,6 @@
+VALUE が即値でないことをチェックしていない FL_TEST_RAW() を利用した FL_ANY_RAW
+(), FL_ALL_RAW() や FL_SET_RAW()/FL_UNSET_RAW()/FL_REVERSE_RAW() などの sturct
+RBasic::flags 操作用のマクロを追加して、OBJ_TAINTED_RAW()/OBJ_TAINT_RAW()/
+OBJ_INFECT_RAW() などの taint flag の関連マクロにも _RAW 版を追加しています。ま
+た STR_EMBED_P()/STR_SHARED_P() でこの _RAW 版のマクロを利用するようにしたり
+string.c での taint フラグの操作を _RAW 版を利用するようにしたりしています。
