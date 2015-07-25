@@ -1,0 +1,5 @@
+string.c の rb_str_new_frozen() で文字列が struct RVALUE に embed されてなくて
+heap 版であることがチェック済みのところで RSTRING_PTR() マクロのかわりに直接
+struct RString::as.heap.ptr をアクセスするようにしてマクロ内のチェックをスキッ
+プしたり、str_make_independent_expand() で RSTRING_PTR() の結果をローカル変数に
+格納して使いまわすなどの最適化。
