@@ -1,0 +1,6 @@
+拡張ライブラリ openssl で OpenSSL の ALPN という TLS 拡張機能のサポートを追加し
+ています。 ALPN とはサーバ/クライアント間でのプロトコルネゴシエーションのための
+機能で SPDY や HTTP2 で利用されるものだそうです。 OpenSSL::SSL::SSLContext#
+alpn_protocols= で利用できるプロトコル群を指定したり、OpenSSL::SSL::SSLcontext#
+alpn_select_cb で Proc オブジェクトを登録してプロトコルの選択する処理を渡せるよ
+うになったりするようです。 [Feature #9390]
