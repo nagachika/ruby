@@ -1,0 +1,2 @@
+rb_call_info_t::index や struct rb_iseq_constant_body のサイズを表すメンバの型
+をのきなみ int -> unsigned int に変更しています。
