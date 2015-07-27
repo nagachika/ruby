@@ -1,0 +1,5 @@
+rb_str_hash_cmp() で文字列の比較をするときに、まず長さが一致するかをチェックし
+てから rb_str_comparable() を呼び出すようにしています。また fstring のテーブル
+での同値性チェックのための fstring_cmp() で rb_str_hash_cmp() を使っていたのを
+、似たような実装で rb_str_comparable() を呼び出すかわりに Encoding を比較するよ
+うな定義に書きかえています。 fstring では coderange の比較は不要なんでしょうか?
