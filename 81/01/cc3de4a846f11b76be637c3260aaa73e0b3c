@@ -1,0 +1,2 @@
+String#replace の時の str_replace_shared_without_enc() でワイド文字のエンコーデ
+ィングでの終端文字に対応しています。
