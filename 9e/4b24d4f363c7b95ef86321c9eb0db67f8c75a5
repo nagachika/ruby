@@ -1,0 +1,3 @@
+str_replace() で分岐によって str_replace_shared() で既に呼び出し済みの
+rb_enc_cr_str_exact_copy() が再度呼ばれていたので、もう一方の分岐でのみ呼び出す
+ように修正しています。
