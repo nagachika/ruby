@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DH::DEFAULT_512 および OpenSSL::PKey::
+DH::DEFAULT_1024 という定数の実装を C 拡張から Ruby 版に変更しています。また
+DEFAULT_TMP_DH_CALLBACK も OpenSSL::PKey::DEFAULT_TMP_DH_CALLBACK に名前空間を
+移動しています。
