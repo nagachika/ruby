@@ -1,0 +1,2 @@
+load.c の rb_construct_expanded_load_path() の引数 type の型に int ではなくてす
+ぐ上で宣言されている enum 型を指定するようにしています。
