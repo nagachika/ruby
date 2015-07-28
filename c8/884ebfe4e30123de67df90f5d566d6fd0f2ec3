@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext の initialize メソッドの実装
+を C から ext/openssl/lib/openssl/ssl.rb での Ruby 実装に変更しています。
