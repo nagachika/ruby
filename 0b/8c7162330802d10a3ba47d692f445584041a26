@@ -1,0 +1,2 @@
+make clean と distclean の依存関係の clean-local と clean-platform の順序を入れ
+換えています。
