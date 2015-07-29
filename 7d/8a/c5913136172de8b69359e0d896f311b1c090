@@ -1,0 +1,2 @@
+ext/fiddle/depend の distclean-libffi ターゲットで "." からはじまる隠しディレク
+トリも削除するようにしています。
