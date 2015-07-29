@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle の extconf.rb で $LOCAL_LIBS や $INCFLAGS に libffi のパ
+スを追加する時に直接パスを指定するのではなくて $(LIBFFI_DIR) の変数参照にして埋
+め込むようにしています。 make 時の環境変数での指定が効くようにするんですね。
