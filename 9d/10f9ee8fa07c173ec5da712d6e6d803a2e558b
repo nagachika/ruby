@@ -1,0 +1,6 @@
+configure.in での RUBY_FUNC_ATTRIBUTE マクロの引数に type, mode という第5,6引数
+を追加して、RUBY_DECL_ATTRIBUTE という名前にして、RUBY_FUNC_ATTRIBUTE はこれを
+利用するようにし、もうひとつ RUBY_TYPE_ATTRIBUTE という型に対する __attribute__
+のチェックを行うマクロを追加しています。そして追加した RUBY_TYPE_ATTRIBUTE を利
+用して DEPRECATED_TYPE(mesg,x) というマクロ(こっちは preprocessor 用、だと思う)
+を定義させるようにしています。
