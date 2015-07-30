@@ -1,0 +1,4 @@
+struct RClass の定義を include/ruby/ruby.h から internal.h に移動して非公開にし
+ています。そして r51412 で定義するようにした DEPRECATED_TYPE() をさっそく使って
+include/ruby/ruby.h では struct RClass を struct RClassDeprecated として定義し
+て、利用すると警告が出るようにしています。
