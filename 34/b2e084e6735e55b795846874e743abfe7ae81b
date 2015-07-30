@@ -1,0 +1,2 @@
+make test-all の並列テスト用の Test::Unit::Parallel::Worker#died で子プロセスが
+シグナルを受信して終了した場合は受信シグナルも表示するようにしています。
