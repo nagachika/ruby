@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#post_connection_check で接続
+先から証明書が得られなかった時のエラーが NoMethodError だったので、意味のあるメ
+ッセージを含む例外を発生させるようにしています。 [ruby-core:68330] [Bug #10910]
