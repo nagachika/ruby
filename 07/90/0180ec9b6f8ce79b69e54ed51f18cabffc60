@@ -1,0 +1,4 @@
+r51401 で ext/fiddle/extconf.rb で libffi のライブラリパスを展開せずに LIBFFI_A
+変数の参照として埋め込むようにしたもののうち、$LOCAL_LIBS へ追加する部分は
+revert しています。 $LOCAL_LIBS は exts.mk にコピーされるので展開しておかないと
+いけなかったとのこと。
