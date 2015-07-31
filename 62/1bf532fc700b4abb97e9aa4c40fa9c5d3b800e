@@ -1,0 +1,2 @@
+r51348 で追加した openssl のテストで生成した Thread を待っていなくて Thread
+leak していたので Thread#join を追加しています。
