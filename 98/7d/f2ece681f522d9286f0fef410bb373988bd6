@@ -1,0 +1,4 @@
+r51426 で Symbol 用の hash の定義 rb_sym_hash() はやっぱり削除して、rb_any_hash
+() から hash 関数の実装を関数ポインタで渡す any_hash() を切り出して rb_obj_hash
+() からこれを呼び出すようにしています。ん、結局これ dynamic symbol の時の hash
+は objid_hash() になる(r51426 の修正前と同じ)んじゃないのかな?
