@@ -1,0 +1,5 @@
+send_internal() で method_missing を呼び出す時にその理由を
+rb_thread_t::method_missing_reason にセットし忘れていたため、send でメソッドを
+呼び出した時に method_missing でも対応せず Object#method_missing まで行った時に
+NoMethodError ではなく NameError が発生していたのを修正しています。
+method_missing_reason なんてあったんですね…。 [ruby-core:68515] [Bug #10969]
