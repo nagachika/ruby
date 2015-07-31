@@ -1,0 +1,3 @@
+r51329 の .gdbinit での rb_ps_vm コマンドの再修正。linked list 構造を利用して辿
+るようにしています。また rb_ps_thread で Thread の情報の表示を追加、整形してい
+ます。
