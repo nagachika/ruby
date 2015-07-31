@@ -1,0 +1,2 @@
+internal.h の LIKELY() と UNLIKELY() の定義で引数 x を __builtin_expect() に渡
+すまえに ! で一旦真偽値を反転させて、常に 0 か 1 を渡すようにしています。
