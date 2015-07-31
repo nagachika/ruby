@@ -1,0 +1,3 @@
+test/ruby/test_hash.rb の即値をキーにした Hash のテストで Fixnum だけテストして
+たのを true, false, nil でもテストするようにしています。 [ruby-core:59638] [Bug
+#9381]
