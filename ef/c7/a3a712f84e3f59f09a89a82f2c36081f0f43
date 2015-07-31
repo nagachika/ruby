@@ -1,0 +1,4 @@
+Hash のキーに Float を使った時に 64bit 環境で即値の flonum になっている Float
+の場合の hash 値の計算が Fixnum から long に変換されていない不具合を修正してい
+ます。これ、2.1 向けに backport 済みのチケットですけど、追加 backport が必要で
+すかね。 [ruby-core:59638] [Bug #9381]
