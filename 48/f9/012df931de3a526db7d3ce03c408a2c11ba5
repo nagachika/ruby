@@ -1,0 +1,5 @@
+Symbol の hash 値を r51410 での dynamic symbol の hash 値を文字列としての hash
+値を使うようにした変更に追随するため Symbol#hash を定義し(rb_sym_hash() を追加)
+しています。 r51425 と同様に Hash のキーに使う即値のテストに Symbol のリテラル
+と to_sym による dynamic symbol も追加しています。 [ruby-core:59638] [Bug #
+9381]
