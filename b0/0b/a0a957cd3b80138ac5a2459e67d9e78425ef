@@ -1,0 +1,3 @@
+test/ruby/test_settracefunc.rb で assert_ruby_status で書かれてたテストを
+assert_in_out_err を使って出力されるメッセージもチェックするように書きなおして
+います。
