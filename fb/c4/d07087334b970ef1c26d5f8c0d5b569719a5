@@ -1,0 +1,3 @@
+テスト用のユーティリティ EnvUtil の assert_separately で起動する子プロセスの
+ruby に -w を付けるようにしています。また test/ruby/test_require.rb で未使用変
+数の警告抑制の修正をしています。
