@@ -1,0 +1,5 @@
+Module#deprecate_constant というメソッドを追加して、定数を参照すると警告を出す
+ように指定する機能を追加しています。 rb_const_entry_t::flag にセットできるビッ
+トフラグ CONST_DEPRECATED を追加しています。またさっそくこの機能を利用して標準
+添付ライブラリ timeout で TimeoutError を deprecate に指定しています。ライブラ
+リ作者にとっても使える機能ですね。 [ruby-core:70142] [Feature #11398]
