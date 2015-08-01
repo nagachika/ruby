@@ -1,0 +1,2 @@
+r51441 の再修正。 rb_uninterruptible() で作成する mask も ident hash table にし
+ています。
