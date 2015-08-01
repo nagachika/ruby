@@ -1,0 +1,2 @@
+dynamic symbol や Fixnum を Hash のキーとして使った時の Hash#[ ] の benchmark
+を追加しています。 [ruby-core:70129] [Bug #11396]
