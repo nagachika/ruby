@@ -1,0 +1,5 @@
+同一のファイルを複数の Thread からロードしないように排他処理するための
+ThreadShield というオブジェクトの rb_thread_shield_release(),
+rb_thread_shield_destroy() などで mutex を取り出すのに関数マクロ
+GetThreadShieldPtr() を直接呼んでいたのを、NULL チェックを行う
+thread_shield_get_mutex() という関数を定義してこれを使うようにしています。
