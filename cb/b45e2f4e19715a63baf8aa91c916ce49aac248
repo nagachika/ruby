@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket で SSLContext から
+tmp_ecdh_callback をコピーして保持してましたが常に context 経由で取得するように
+リファクタリングしています。
