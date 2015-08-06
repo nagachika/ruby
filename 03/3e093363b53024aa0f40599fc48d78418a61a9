@@ -1,0 +1,5 @@
+r51243 の構造体メンバ rb_proc_t::blockprocval と rb_binding_t::blockprocval の
+削除の時に rb_block_clear_env_self() で env->env[0] を Qnil でクリアしてしまっ
+ていたのを Qfalse でクリアするように修正しています。 eval に &:m のように
+Symbol を to_proc で Proc 化したブロックを渡すと SEGV する不具合があったようで
+す。 [ruby-core:70211] [Bug #11409] https://github.com/ruby/ruby/pull/988
