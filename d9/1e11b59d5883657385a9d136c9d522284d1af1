@@ -1,0 +1,2 @@
+UnboundMethod クラスの rdoc 用コメントの重複した be を削除。 https://github.com
+/ruby/ruby/pull/987
