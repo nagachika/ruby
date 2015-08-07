@@ -1,0 +1,3 @@
+拡張ライブラリ socket の ext/socket/socket.c の関数 socket_s_ip_address_list()
+で静的領域の文字列ポインタを代入する変数 reason の宣言に const を追加して警告を
+抑制しています。
