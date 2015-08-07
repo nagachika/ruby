@@ -1,0 +1,4 @@
+r51380, r51381, r51455 などのさらに続きで、拡張ライブラリ openssl の OpenSSL::
+SSL::SSLSocket で tmp_dh_callback と同様に client_cert_cb, tmp_ecdh_callback,
+session_new_cb, session_get_cb などの callback を Ruby 実装のメソッドとして
+@context から取得するようにしています。
