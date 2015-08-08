@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::Nonblock という Module を削除して、それ
+を include していた OpenSSL::SSL::SSLSocket の #initialize に直接その内容を追加
+するリファクタリング。
