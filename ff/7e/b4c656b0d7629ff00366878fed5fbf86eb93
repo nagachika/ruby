@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#close の実装のうち OpenSSL の
+関数 ossl_ssl_shutdown() の呼び出しと SSL 構造体の解放の部分だけを #stop という
+private method に分離して、あとは Ruby 実装に移植しています。
+こうしてみると openssl の実装は C で Ruby のメソッドを呼び出してごにょごにょす
+るみたいな実装が多くて、これから徐々に Ruby 実装の部分を増やしていこうとしてい
+るんですかね。
