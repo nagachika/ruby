@@ -1,0 +1,4 @@
+parse.y で YYPURE が未定義の時に yylex() のシグネチャを変更するなどの対応をして
+いたのを、YYPURE が未定義だとエラーにするように変更しています。拡張ライブラリ
+ripper の為には pure parser (reentrant なコードを生成してくれるように Bison に
+指定する)でないといけないからとのこと。
