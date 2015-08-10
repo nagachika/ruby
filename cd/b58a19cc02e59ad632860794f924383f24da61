@@ -1,0 +1,2 @@
+Hash リテラルの Symbol キーの記法についての rdoc 用コメントの表現を修正していま
+す。 https://github.com/documenting-ruby/ruby/pull/51
