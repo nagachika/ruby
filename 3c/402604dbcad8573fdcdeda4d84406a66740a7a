@@ -1,0 +1,5 @@
+win32/win32.c で lstrlen() や lstrcpy() を利用していたところを ruby_strdup() を
+利用するように書きかえています。このため util.h を win32/win32.c の依存関係に追
+加しています。 lstrlen() とかって何だっけ…と思ったら Windows API の LPCTSTR と
+いう文字列型を操作する関数のようです。 Windows の文字の型や関数にはいろいろあり
+ますね。
