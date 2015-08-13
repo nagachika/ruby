@@ -1,0 +1,3 @@
+String#end_with? の rdoc 用コメントにサンプルコードを追記しています。 String#
+start_with? の rdoc コメントとあわせるようにしたとのこと。 https://github.com/
+ruby/ruby/pull/992
