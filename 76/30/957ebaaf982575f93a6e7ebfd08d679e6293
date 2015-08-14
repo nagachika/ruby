@@ -1,0 +1,5 @@
+T_IMEMO 型のオブジェクトである ISeq を参照する wrapper としてのオブジェクトであ
+る RubyVM::InstructionSequence を TypedData 型のオブジェクトとして実装していま
+す。また r51546 で切り出した rb_call_info_kw_arg_bytes() を利用しています。動機
+は ObjectSpace.memsize_of で正確なメモリ使用量を返すようにすることみたいです。
+[ruby-core:70344] [Feature #11435]
