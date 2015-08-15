@@ -1,0 +1,2 @@
+Thread.handle_interrupt で内部的に確保する mask のオブジェクトを freeze するよ
+うにしています。
