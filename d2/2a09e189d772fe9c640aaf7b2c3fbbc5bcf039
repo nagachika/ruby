@@ -1,0 +1,2 @@
+r51546 で inline 関数として切り出したキーワード引数用のメモリ領域計算を行う関数
+rb_call_info_kw_arg_bytes() の定義を vm_core.h から iseq.h へ移動しています。
