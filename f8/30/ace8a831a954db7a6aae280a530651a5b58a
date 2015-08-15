@@ -1,0 +1,3 @@
+math.c の num2dbl_with_to_f() から object.c に rb_num_to_dbl() という名前の関数
+として移動して、数値オブジェクトの double 化や Float 化のあたりをリファクタリン
+グしています。正直何が変わったのかよくわかりませんが…。
