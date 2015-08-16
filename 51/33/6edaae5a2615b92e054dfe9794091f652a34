@@ -1,0 +1,2 @@
+win32/registry.rb で文字列の終端文字の wide character 対応をしています。
+[ruby-core:70365] [Bug #11439]
