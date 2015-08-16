@@ -1,0 +1,3 @@
+rubygems のテストの setup で common_installer_setup を呼ぶようにしています。
+make test-all で -j オプションを渡して並列テストすると初期化漏れしてることがあ
+ったみたいです。
