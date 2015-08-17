@@ -1,0 +1,3 @@
+拡張ライブラリ openssl と socket でメソッド名などの Symbol を受け付ける時に
+SYM2ID() を使って pindown してしまっていたので rb_sym2str() を使って dynamic
+symbol のまま扱えるように修正しています。
