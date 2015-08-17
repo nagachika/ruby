@@ -1,0 +1,2 @@
+openssl のテストで assert_raises という minitest の assertion メソッドを使って
+いたところを assert_raise に変更しています。
