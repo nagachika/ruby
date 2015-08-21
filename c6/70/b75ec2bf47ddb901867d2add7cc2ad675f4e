@@ -1,0 +1,2 @@
+Kernel#spawn の rdoc 用コメントの環境変数のオプションについて値も nil か String
+でないといけないということを追記しています。 [ruby-core:70456] [Bug #11463]
