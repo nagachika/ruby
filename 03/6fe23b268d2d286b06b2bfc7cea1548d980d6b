@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#initialize で options を
+OpenSSL::SSL::OP_ALL で初期化していたのを、フラグを追加するように書きかえていま
+す。拡張ライブラリではこの時点で未初期化ですが、OpenSSL ライブラリのほうで
+SSL_CTX_get_options() で取得するオプションのデフォルトの値が設定されていること
+がありえるので、それを消してしまわないようにしています。
