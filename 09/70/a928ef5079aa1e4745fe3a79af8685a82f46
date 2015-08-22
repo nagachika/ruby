@@ -1,0 +1,4 @@
+r51646 の追加修正で respond_to_missing? の呼び出しを rb_funcall2() を使ったメソ
+ッド呼び出しから basic_obj_respond_to_missing() という関数を導入して th->
+passed_block を保護しつつ vm_call0() で呼び出すように変更しています。
+[ruby-core:70460] [Bug #11465]
