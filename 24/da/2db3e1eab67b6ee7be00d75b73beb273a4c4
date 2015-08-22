@@ -1,0 +1,6 @@
+rb_obj_respond_to() で respond_to? の ID を元にメソッドの定義の有無や arity や
+location やらの情報取得と呼び出しを毎回 method entry の検索からやってたのを、最
+初に method entry を検索してより内部的な関数を利用して直接 method entry から取
+得するようにリファクタリングしています。そのため proc.c で定義されていた
+method_entry_location() を rb_method_entry_location() と改名して extern された
+関数にしています。
