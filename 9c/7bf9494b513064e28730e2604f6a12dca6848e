@@ -1,0 +1,3 @@
+r51651 の vm_invoke_block() の再修正。 rb_call_info_t::argc をローカル変数にバ
+ックアップするのを CALLER_SETUP_ARG() の呼び出しの後にするように修正しています
+。 [Bug #11451]
