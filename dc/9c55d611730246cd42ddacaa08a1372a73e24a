@@ -1,0 +1,3 @@
+構造体 struct rescue_funcall_arg に defined_class と me メンバを追加して
+check_funcall_exec() および check_funcall_missing() で method entry の探索を1回
+にまとめて結果を使いまわすようにしています。
