@@ -1,0 +1,6 @@
+rb_locale_encindex() で locale の Encoding index を得るのに毎回エンコーディング
+名を示す String オブジェクトを作成せずに直接 encoding index を取得できるよう
+rb_locale_charmap_index() という関数を導入してこれを利用するようにしています。
+ENV の値を取得するのに文字列オブジェクトが3つ生成されているというチケットに対す
+るコミットになってます。3つのうち 1 つはエンコーディング名の文字列だったのです
+ね。 [ruby-core:58160] [Bug #9080]
