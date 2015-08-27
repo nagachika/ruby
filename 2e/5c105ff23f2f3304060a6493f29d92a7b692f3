@@ -1,0 +1,3 @@
+Windows 版に symlink() の実装を追加しています。 win32/Makefile.sub で config.h
+に #define HAVE_SYMLINK 1 が追加されているので、これにより Windows でも
+File.symlink が使えるようになっているようです。
