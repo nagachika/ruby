@@ -1,0 +1,2 @@
+Windows 版の rename() で CreateFileW() がエラーをかえした時の errno マッピング
+で errno=ELOOP をかえせるようにしています。
