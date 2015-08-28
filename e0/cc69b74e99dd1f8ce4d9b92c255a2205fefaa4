@@ -1,0 +1,2 @@
+FileUtils のテストで定義しているユーティリティ my_rm_rf の Windows 版の実装とし
+て rmdir /q/s コマンドを利用するようにしています。
