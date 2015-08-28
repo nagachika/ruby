@@ -1,0 +1,3 @@
+Windows 版の unlink() の実装で symbolic link の対応を追加しています。
+RemoveDirectoryW() で削除するようにしていますが、Windows における symbolic link
+(REPARSE POINT や dedup?) は directory 扱いなのか…。
