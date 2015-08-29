@@ -1,0 +1,4 @@
+ファイル操作のエラー時の SystemError 例外を発生させる file.c の sys_fail2() で
+RUBY_FUNCTIONAL_NAME_STRING が定義されている時に関数名をメッセージに含めること
+ができるように関数マクロ定義を追加しています。これ RUBY_FUNCTIONAL_NAME_STRING
+が未定義の時に sys_fail2() が未定義にならないですかね?(マクロ定義のところが逆?)
