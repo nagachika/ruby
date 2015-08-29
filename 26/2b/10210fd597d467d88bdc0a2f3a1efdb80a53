@@ -1,0 +1,3 @@
+Windows 版の File.chmod の実装が追加されています。 SetFileInformationByHandle()
+を用いて FileAttributes の read only のフラグ(FILE_ATTRIBUTE_READONLY)を操作す
+ることができるようです。
