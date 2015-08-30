@@ -1,0 +1,2 @@
+鬼雲の OnigEncodingType のメンバである関数ポインタの property_name_to_ctype の
+引数の型に const 修飾子を付加して、対応する各所の関数の型も追随させています。
