@@ -1,0 +1,5 @@
+TracePoint で define_method のブロック渡しで定義されたメソッドを呼び出した時に
+:return イベントが2回重複して呼ばれる不具合を修正しています。 vm_exec() のルー
+プを抜けて C 実装に戻る時に :return イベントが呼ばれるため、hook_before_rewind
+() に引数を追加して、呼び元によって EXEC_EVENT_HOOK_AND_POP_FRAME() を呼ぶかど
+うかを分岐するようにしています。 [Bug #11492]
