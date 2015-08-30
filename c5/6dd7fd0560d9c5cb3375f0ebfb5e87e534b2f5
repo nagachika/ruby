@@ -1,0 +1,2 @@
+enc/unicode.c からもう不要になっていたので #include "ruby/st.h" を削除していま
+す。
