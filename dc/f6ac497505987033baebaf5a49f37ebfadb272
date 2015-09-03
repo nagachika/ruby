@@ -1,0 +1,2 @@
+r51660 で拡張ライブラリから組み込みクラスの昇格した Mutex や Queue などの実装の
+ファイルを thread_tools.c から thread_sync.c に改名しています。
