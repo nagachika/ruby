@@ -1,0 +1,1 @@
+vm_insnhelper.h の未使用になっていたマクロ GET_PC_COUNT() を削除しています。
