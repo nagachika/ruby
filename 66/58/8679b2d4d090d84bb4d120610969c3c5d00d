@@ -1,0 +1,2 @@
+gmake.mk で TEST_DEPENDS に make doc を含めるのは make check の時で make test,
+make test-all の時は含めないようにしています。というか含まれてたのか…。
