@@ -1,0 +1,3 @@
+method_missing の引数のエラー時に発生させる例外メッセージを引数の数の違いと
+Symbol でない時とで分けてより正確なメッセージになるように修正しています。
+https://github.com/ruby/ruby/pull/1013
