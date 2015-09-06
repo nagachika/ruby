@@ -1,0 +1,2 @@
+doc/contributing.rdoc のインストールのためのコマンドの例で $HOME を ${HOME} と
+しています。 https://github.com/ruby/ruby/pull/1009
