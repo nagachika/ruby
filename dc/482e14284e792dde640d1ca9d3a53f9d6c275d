@@ -1,0 +1,3 @@
+r51749 の BOOTSTRAPRUBY に BASERUBY があればそれを使う修正の追加。BASERUBY を利
+用するには fake.rb が必要だったので PREP に追加して BOOTSTRAPRUBY には -r./$
+(arch)-fake をオプションに追加しています。
