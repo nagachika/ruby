@@ -1,0 +1,2 @@
+と思ったら r51752 の BOOTSTRAPRUBY に fake.rb をロードさせる変更は revert され
+ていました。
