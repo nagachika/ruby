@@ -1,0 +1,4 @@
+template.h.tmpl でテンプレート内で RbConfig::MAKEFILE_CONFIG をロードするところ
+で無名モジュールを使って別の定数に rbconfig.rb の内容をロードして参照するように
+しています。 BOOTSTRAPRUBY が BASERUBY の場合があるので、既に定義されている
+RbConfig の定数を上書きしてしまうのをさけるためですかね。
