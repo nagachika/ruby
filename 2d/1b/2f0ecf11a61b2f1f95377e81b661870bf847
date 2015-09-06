@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf で RbConfig::CONFIG の top_srcdir というキーもスキップ
+して読み込まないようにしています。
