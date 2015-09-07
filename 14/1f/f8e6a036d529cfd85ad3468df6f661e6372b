@@ -1,0 +1,5 @@
+include/ruby/win32.h で stati64() のマクロ定義を切り換えるためのチェックしてい
+るマクロ名を RT_VER から RUBY_MSVCRT_VERSION に変更しています。
+RUBY_MSVCRT_VERSION は win32/Makefile.sub が生成する config.h で $(RT_VER) に定
+義されていますが、これは Makefile 内の変数で config.h 内では展開された値が入っ
+ているのでソースでは利用できませんでした。
