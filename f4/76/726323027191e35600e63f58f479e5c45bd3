@@ -1,0 +1,2 @@
+thread.c の do_select() でも rb_fdset_t::maxfd の未初期化の警告除去のために
+ASSUME() を利用するようにしています。
