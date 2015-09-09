@@ -1,0 +1,2 @@
+thread_pthread.c の rb_async_bug_errno() の呼び出しを async_bug_fd() という関数
+に切り出して fd の番号もメッセージに埋め込むようにしています。
