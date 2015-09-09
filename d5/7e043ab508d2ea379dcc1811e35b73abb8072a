@@ -1,0 +1,4 @@
+標準添付ライブラリ mkmf のテストで OS X での have_framework のテストでチェック
+対象の framework として CoreFoundation が使われていたのを Ruby framework を利用
+するように変更しています。コミットログによると OS X の clang 以外の gcc だと
+CoreFoundation がうまく扱えないみたいです。
