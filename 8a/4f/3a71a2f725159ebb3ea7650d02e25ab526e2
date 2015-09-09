@@ -1,0 +1,4 @@
+thread_pthread.c の consume_communication_pipe() で read(2) がエラーを返した時
+の rb_async_bug_errno() のメッセージに改行が含まれていたのを削っています。また
+CLOSE_INVALIDATE() というマクロに引数の共通部分も埋め込むようにするリファクタリ
+ングなど。
