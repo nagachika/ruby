@@ -1,0 +1,3 @@
+vm_core.h で ENABLE_VM_OBJSPACE というマクロをチェックして #if ... #endif で分
+岐していたところを分岐をやめています。もう常に objspace は宣言されているので分
+岐が不要になったとのこと。
