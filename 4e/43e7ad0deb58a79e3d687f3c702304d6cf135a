@@ -1,0 +1,6 @@
+win32/win32.c で #undef strdup でマクロとしての strdup を未定義にして、
+ruby_strdup() を利用するのを避けるようにしています。 strdup() を呼んでるのは
+insert() という static 関数で、cmdglob() から呼ばれていて、これはプロセス起動時
+のコマンドラインの処理のための関数(rb_w32_sysinit() から呼ばれる)で、まだ
+RubyVM も初期化されてない状態なので、通常の strdup(3) を呼ぶ必要があるようです
+。
