@@ -1,0 +1,4 @@
+構造体 rb_call_info_t から blockiseq メンバを削除しています。 rb_call_info_t に
+持つのではなく send, invokesuper などの VM 命令のオペランドとして渡すようになっ
+ています。また ISeq のdump 時の構造が変化しているため minor version を 2→3に更
+新しています。おお、ISeq のバージョンが更新されるのはじめてみたかも。
