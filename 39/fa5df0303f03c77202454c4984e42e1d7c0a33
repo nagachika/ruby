@@ -1,0 +1,4 @@
+gems/bundled_gems に変数や定数名を typo した時に正しい名前の候補を教えてくれる
+便利な gem、 did_you_mean.gem が追加されています。 [ruby-core:69536] [Feature #
+11252]
+did_you_mean.gem の開発者である yuki さんの初コミットです。ようこそ。
