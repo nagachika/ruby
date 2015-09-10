@@ -1,0 +1,3 @@
+process.c の rb_waitpid() で GVL を外して rb_waitpid_blocking() を呼んで EINTR
+の時にリトライする処理を GVL 外してるところを do_waitpid_nonblocking() という関
+数に切り出してシンプルな while ループで実装するようリファクタリングしています。
