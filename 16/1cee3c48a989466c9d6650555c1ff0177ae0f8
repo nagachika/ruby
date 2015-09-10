@@ -1,0 +1,3 @@
+r51749 の configure.in の BOOTSTRAPRUBY に BASERUBY を使うようにする変更の追加
+修正で、BASERUBY が古すぎると fileutils.rb がうまく動かないということで、Module
+#instance_methods が Symbol を返すかどうか? で判定するようにしているようです。
