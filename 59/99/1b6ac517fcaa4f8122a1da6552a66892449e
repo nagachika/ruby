@@ -1,0 +1,4 @@
+rubygems を最新版に更新しています。 gem パッケージのライセンスのチェックなどの
+機能追加の他、ドキュメントの追記や不具合修正などが行われているようです。詳細は
+rubygems の History.txt を参照してください。 https://github.com/rubygems/
+rubygems/blob/master/History.txt
