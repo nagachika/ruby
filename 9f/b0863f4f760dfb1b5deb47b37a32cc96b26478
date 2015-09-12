@@ -1,0 +1,3 @@
+Process.spawn の :pgroup オプションについての rdoc 用コメントに説明を追記したり
+、nil も渡せることを明記したりしています。 https://github.com/ruby/ruby/pull/
+1008
