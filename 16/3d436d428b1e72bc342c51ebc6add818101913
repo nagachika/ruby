@@ -1,0 +1,5 @@
+vm_push_frame() から type 毎の block, method entry, cref などのチェックをする部
+分を vm_check_frame() という関数に切り出しています。また vm_push_frame() でキャ
+ストの追加や sp の操作などリファクタリング。vm_call_iseq_setup_normal() で VM
+スタックのローカル変数領域のクリアをしていたのをやめています(vm_push_frame() で
+初期化されるので冗長)。
