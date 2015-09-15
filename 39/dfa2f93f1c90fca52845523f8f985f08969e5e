@@ -1,0 +1,2 @@
+r51849 での ENUM_OVER_INT のチェックで ULONG_LONG_MAX という定数を使っていたと
+ころは ULLONG_MAX を利用するように修正しています。
