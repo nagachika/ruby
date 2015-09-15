@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp で r51840 に続いて MLSxEntry に size, modify,
+create, type, unique, perm, lang, media_type, charset などのメソッドを追加して
+います。
