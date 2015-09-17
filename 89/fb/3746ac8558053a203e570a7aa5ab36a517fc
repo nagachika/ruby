@@ -1,0 +1,2 @@
+localeinit.c でも ENCINDEX_ASCII と ENCINDEX_US_ASCII を利用していたので r51861
+で分離した encindex.h を #include するようにしています。
