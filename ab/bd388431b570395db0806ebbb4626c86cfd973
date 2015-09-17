@@ -1,0 +1,5 @@
+ENABLE_VM_OBJSPACE というマクロが偽でも rb_objspace_alloc() と
+free_stack_chunks() は定義するようにしています。これが偽のことってあるのかなー
+と思って調べてみると、Windows 版では rb_w32_sysinit() でソケットの管理用の
+st_table をオブジェクトの管理が始まる前に作っているため 0 に定義されているよう
+です。そうなのかー。
