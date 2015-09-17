@@ -1,0 +1,2 @@
+internal.h から encoding index 関連の定数の定義を encindex.h というヘッダに分離
+しています。
