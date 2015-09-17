@@ -1,0 +1,2 @@
+win32/win32.c でも ENCINDEX_XXX の定数を参照していたので #include "encindex.h"
+するようにしています。
