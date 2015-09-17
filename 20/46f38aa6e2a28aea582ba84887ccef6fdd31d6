@@ -1,0 +1,3 @@
+dir.c に fundamental_encoding_p() という関数を導入して、ASCII, US_ASCII, UTF-8
+などの組み込みのエンコーディングを encoding index を元に判定できるようにしいま
+す。
