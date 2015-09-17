@@ -1,0 +1,2 @@
+enc/ascii.c と enc/us_ascii.c, enc/utf_8.c で encindex.h を #include して index
+を 0 にしていたところを定数を利用するようにしています。
