@@ -1,0 +1,3 @@
+String#setbyte で 1byte の値を書きかえた時に coderange の情報を調べて、変更が必
+要ないかをチェックして壊れてしまっていたら ENC_CODERANGE_BROKEN をセットしたり
+、ENC_CODERANGE_CLEAR() で次に必要になった時に取り直すようにしたりしています。
