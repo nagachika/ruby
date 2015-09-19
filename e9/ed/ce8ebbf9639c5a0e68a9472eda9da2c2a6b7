@@ -1,0 +1,2 @@
+id_table.h に重複した #include を防ぐための定石の #ifdef RUBY_ID_TABLE_H と #
+define RUBY_ID_TABLE_H を追加しています。
