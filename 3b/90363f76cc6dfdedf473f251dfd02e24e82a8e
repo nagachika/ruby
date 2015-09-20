@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.dump でオブジェクトの情報を JSON でダン
+プする時に利用される関数 obj_type() で T_IMEMO 型のオブジェクトに対応しています
+。
