@@ -1,0 +1,2 @@
+r51903 で rb_iseq_free() で rb_iseq_t::body::cc_entries の解放が漏れていたのを
+修正。
