@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole で rb_intern() や rb_to_id() の呼び出しで fole_missing
+() などで引数の文字列の Symbol 化が行なわれていたので rb_check_id_cstr() や
+rb_check_symbol() を用いて不要な Symbol 生成を行なわないようにしています。
