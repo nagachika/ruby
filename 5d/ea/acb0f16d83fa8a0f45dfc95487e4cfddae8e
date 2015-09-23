@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の IEVENTSINKOBJ::lpVtbl の型に const 修飾子を追加して
+います。また EVENTSINK_Constructor() 内で初期化していた static 変数 vtEventSink
+を関数の外で静的に初期化するようにしています。
