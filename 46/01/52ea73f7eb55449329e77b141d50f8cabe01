@@ -1,0 +1,3 @@
+r51936 (コミットメッセージでは r51946 となっていますが typo だと思います)の拡張
+ライブラリ json の ext/json/parser/parser.rl の変更を生成される C のソースコー
+ド ext/json/parser/parser.c にも反映させています。
