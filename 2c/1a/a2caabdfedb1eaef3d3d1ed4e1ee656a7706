@@ -1,0 +1,2 @@
+marshal.c で MARSHAL_INFECTION が int に収まるかチェックするのに独自に配列の宣
+言を利用してたのを STATIC_ASSERT() マクロを利用するようにしています。
