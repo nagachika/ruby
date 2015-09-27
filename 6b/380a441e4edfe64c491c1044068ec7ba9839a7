@@ -1,0 +1,4 @@
+marshal.c の marshal_dump() と marshal_load() の引数チェック後の部分をそれぞれ
+rb_markshal_dump_limited() と rb_marshal_load_with_proc() という関数に分離して
+、rb_marshal_dump() と rb_marshal_load() から呼び出す時に冗長な arity check を
+省くようにしています。
