@@ -1,0 +1,6 @@
+標準添付ライブラリ ostruct.rb で属性の reader/writer メソッドの定義を
+OpenStruct#initialize から削除して、method_missing で実際に呼ばれた時に定義する
+ように遅延させています。これ initialized_copy も同様じゃないですかね。というの
+と、OpenStruct#respond_to_missing? が定義されていないので、respond_to? での判定
+がうまくいかなくなるという副作用があるように思います。 https://github.com/ruby/
+ruby/pull/1033
