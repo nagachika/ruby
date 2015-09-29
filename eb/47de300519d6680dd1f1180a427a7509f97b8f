@@ -1,0 +1,4 @@
+Module#define_class や Module#define_module で既に定数が定義済みだった時の例外
+メッセージに、既存の定数の内容のクラスや、super の不一致の場合は両方の super
+class の名前などを埋め込むようにしてより詳細なメッセージを作るようにしています
+。
