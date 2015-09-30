@@ -1,0 +1,2 @@
+標準添付ライブラリ net/ftp の Net::FTP#mtime で、小数点以下の値の parse に対応
+しています。
