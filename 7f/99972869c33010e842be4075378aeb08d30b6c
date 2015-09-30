@@ -1,0 +1,2 @@
+benchmark/bm_vm2_symbol_block_pass.rb を追加して、Object#tap に Symbol を &sym
+のようにブロック引数として渡す時のベンチマークを追加しています。
