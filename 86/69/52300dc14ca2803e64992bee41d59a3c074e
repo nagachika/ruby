@@ -1,0 +1,2 @@
+proc.c の proc_call() で passed_procval という変数を保護するための RB_GC_GUARD
+() が代入部分についていたので、中身のポインタを利用した後に移動しています。
