@@ -1,0 +1,3 @@
+tool/unicode_norm_gen.tmpl と lib/unicode_normalize/tables.rb で文字列リテラル
+に .freeze を呼び出していたところを r51953 で導入された magic comment の
+frozen_string_literal: true を指定することでおきかえています。
