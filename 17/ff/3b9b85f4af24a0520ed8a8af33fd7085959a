@@ -1,0 +1,2 @@
+parse.y で拡張ライブラリ ripper で利用される時に struct parser の解放処理で
+token_info が解放漏れしていたのを修正しています。
