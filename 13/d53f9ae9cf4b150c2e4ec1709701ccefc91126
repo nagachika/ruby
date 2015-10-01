@@ -1,0 +1,3 @@
+parse.y の parser_mark() で struct parser_params::compile_option を mark するよ
+うにしています。 r51953 の frozen_string_literal pragma の導入時に導入された時
+に mark が漏れていたようです。
