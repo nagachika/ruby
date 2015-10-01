@@ -1,0 +1,2 @@
+parse.y の for 文の規則のところのコメントの typo (かっこの閉じ忘れ)を修正してい
+ます。 https://github.com/ruby/ruby/pull/1038
