@@ -1,0 +1,2 @@
+Symbol#to_proc で作られた Proc オブジェクトを inspect で文字列化した時に、元と
+なった Symbol の名前を表示するようにしています。
