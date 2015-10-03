@@ -1,0 +1,5 @@
+r51989 のブロック引数に Symbol を渡した時の最適化で blockiseq 用に作成した
+IFunc が GC で回収されないように変数に入れておくようにして、
+vm_caller_setup_arg_block() から戻り値として返すようにしています。戻り値にして
+いるのは VM 命令の実装で RB_GC_GUARD() で必要な範囲まで保護するためみたいですが
+、calling 経由で mark されないのかな?
