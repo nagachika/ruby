@@ -1,0 +1,2 @@
+test/ruby/test_thread.rb の Thread.handle_interrupt のテストで例外発生時に
+Thread が join されずに残されていたのを修正しています。
