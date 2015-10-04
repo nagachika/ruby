@@ -1,0 +1,2 @@
+lib/unicode_normalize/tables.rb でダウンロードする Unicode のバージョンを 8.0.0
+に変更しています。
