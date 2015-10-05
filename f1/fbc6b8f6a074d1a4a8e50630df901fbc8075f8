@@ -1,0 +1,2 @@
+r52008 で追加した template/ruby-runner.c.in で #define _POSIX_C_SOURCE 200809L
+というのを追加しています。 setenv(3) のためだそうです。
