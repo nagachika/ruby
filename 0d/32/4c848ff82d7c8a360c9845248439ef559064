@@ -1,0 +1,2 @@
+r51888 で追加した make test-testframework ですが make-all の一部としてではなく
+別のテストとして make check 時に実行されるようにしています。
