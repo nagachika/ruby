@@ -1,0 +1,5 @@
+拡張ライブラリ pathname の ext/pathname/lib/pathname.rb に
+freeze_string_literals のマジックコメントを追加しています。 [ruby-core:70043]
+[Feature #11375]
+そういえば知らなかったのですがマジックコメントには "-*- ... -*-" が必須なんだそ
+うです。
