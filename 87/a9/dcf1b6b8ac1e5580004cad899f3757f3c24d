@@ -1,0 +1,3 @@
+test/ruby/test_dir_m17n.rb の r52012 で追加した Dir.pwd のテストで filesystem
+encoding を考慮するようにしています。主に Windows 環境でテストが失敗していたの
+を修正しているのではないかと思います。
