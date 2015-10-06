@@ -1,0 +1,3 @@
+file.c の rb_str_normalize_ospath0() を rb_str_append_normalized_ospath() と改
+名して、引数 str に文字列オブジェクトを渡してこれに直接追加するようにしています
+。
