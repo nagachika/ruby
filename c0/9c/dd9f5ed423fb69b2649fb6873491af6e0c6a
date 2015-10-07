@@ -1,0 +1,2 @@
+ruby-runner で LIBPATHENV で指定される環境変数の内容が separator のみ、または空
+文字列の時にスキップするようにしています。
