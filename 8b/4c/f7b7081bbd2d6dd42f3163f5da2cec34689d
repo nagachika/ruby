@@ -1,0 +1,2 @@
+eval_intern.h の PASS_PASSED_BLOCK_TH() と PASS_PASSED_BLOCK() という関数マクロ
+の実体を inline 関数 pass_passed_block() として定義するようにしています。
