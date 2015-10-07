@@ -1,0 +1,5 @@
+r37293 で inline 関数化されてた GET_THREAD() の実装を
+OPT_CALL_CFUNC_WITHOUT_FRAME という VM の最適化が無効の時には
+ruby_current_thread をそのまま返すようにしています。
+OPT_CALL_CFUNC_WITHOUT_FRAME の最適化については r37293 の解説を参照してください
+。そういえばこんなのあったなぁ。我ながらよくできた外部記憶装置です。
