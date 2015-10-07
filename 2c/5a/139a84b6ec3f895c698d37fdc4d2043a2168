@@ -1,0 +1,4 @@
+Numeric クラスの rdoc 用コメントを追加しています。 [Bug #11555]
+"numeric classes such as Integer are implemented as immediates" のあたりは微妙
+に間違いで immeditate なのは Fixnum と、Float の一部(x86_64 での flonum)ですね
+。サンプルはおもしろいですね。なるほどこういうことできるのか…。
