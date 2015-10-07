@@ -1,0 +1,5 @@
+test/ruby/test_thread.rb の test_mutex_owned2 というテストメソッドで、生成した
+Thread の Thread#status が "sleep" になるまで待つという方法で Mutex が取得済み
+であることをチェックするようにしていたところは、Mutex#lock で取得するために(完
+全に取得する前に) "sleep" になることがあるらしいので、Mutex#locked? をチェック
+することで Thread が lock 取得済みであることを確認するようにしています。
