@@ -1,0 +1,2 @@
+test/pathname/test_pathname.rb に frozen_string_literal: true のマジックコメン
+トを追加して、必要な箇所に String#dup を追加しています。
