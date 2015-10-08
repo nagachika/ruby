@@ -1,0 +1,2 @@
+Method#arity で引数の数を取得するための関数 rb_method_entry_min_max_arity() で
+r52050 で有効にしたOPTIMIZED_METHOD_TYPE_CALL のメソッドに対応しています。
