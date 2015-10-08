@@ -1,0 +1,4 @@
+r52023 および r52042 で標準添付ライブラリやテストスクリプトに追加していた
+frozen_string_literal: true の magic comment の前に空のコメント行を追加していま
+す。 emacs の動作に関係あるみたいですが、チケットのほうをみるとあまり関係なかっ
+たのかな…? https://bugs.ruby-lang.org/issues/8976#note-49
