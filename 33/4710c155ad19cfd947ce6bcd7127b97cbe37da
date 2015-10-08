@@ -1,0 +1,3 @@
+RB_CLONESETUP() や RB_DUPSETUP()、RSTRUCT_CONST_PTR()、RSTRUCT_PTR() といったマ
+クロを inline 関数として定義しなおすリファクタリング。これもデバッガで扱いやす
+くするためみたいです。
