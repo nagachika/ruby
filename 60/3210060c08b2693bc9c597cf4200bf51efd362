@@ -1,0 +1,2 @@
+vm_call_method0() で method entry の visibility での分岐を if-else から switch
+文に書きかえています。
