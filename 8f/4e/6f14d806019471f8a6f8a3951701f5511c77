@@ -1,0 +1,2 @@
+str_new_frozen() でオブジェクトが String だとわかっているので FL_TEST() のかわ
+りに即値チェックのない FL_TEST_RAW() を使うように最適化しています。
