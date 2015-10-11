@@ -1,0 +1,3 @@
+r52083 で追加した require のベンチマークのために require すべきファイルを生成す
+るスクリプト benchmark/prepare_require.rb で、既にファイルが作ってあったら上書
+きせずスキップするようにしています。
