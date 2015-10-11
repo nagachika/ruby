@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp およびそのテストで frozen_string_literal: true の
+magic comment を追加して、破壊的操作が必要な文字列の生成には String.new を使う
+ようにしています。
