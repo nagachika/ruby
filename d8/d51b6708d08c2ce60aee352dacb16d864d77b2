@@ -1,0 +1,2 @@
+コマンドラインオプション --dump=parsetree_with_comment で表示する式展開を含む文
+字列リテラルの node のコメントを修正しています。
