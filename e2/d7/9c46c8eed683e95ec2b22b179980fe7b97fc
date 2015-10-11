@@ -1,0 +1,5 @@
+r52082 の拡張ライブラリ openssl のデフォルトでの ssl_version の TLS v1.2 化と
+TLS v1 の drop を revert しています。 :ssl_version に TLSv1_2 を指定するとクラ
+イアントとして接続する場合に TLS v1.2 をサポートしていないサーバに接続できない
+ことになってしまい、現状多くのサーバに接続できなくなってしまうとのこと。 https:
+//github.com/ruby/ruby/pull/873 [Feature #11524]
