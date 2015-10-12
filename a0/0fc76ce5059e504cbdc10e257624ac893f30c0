@@ -1,0 +1,6 @@
+r37186 で導入された callinfo にメソッドに対応する関数をキャッシュして直接呼び出
+す CI_SET_FASTPATH() による機能の利用を指示する引数 enable_fastpath を
+vm_call_method0()、vm_call_zsuper() や vm_call_method_each_type() などから削除
+して、enable_fastpath に FALSE を渡していたところではダミーの struct
+rb_call_cache を作成してこれにキャッシュさせることで結果的に fastpath 機能を無
+効にさせるようにしています。
