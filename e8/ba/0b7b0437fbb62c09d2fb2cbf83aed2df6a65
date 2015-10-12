@@ -1,0 +1,7 @@
+newobj_of() で GC を起動する時の関数 newobj_of_slowpass() の引数を 6個に減らし
+て x86_64 でレジスタ経由で引数が渡せるようにする高速化(hook_needed は関数内部で
+gc_event_hook_needed_p を呼ぶことで取得させてます)、str_duplicate() の inline
+関数化、また newobj_of_init() と newobj_of_slowpass() の引数の先頭のほうを同じ
+にしておくために newobj_of_slowpass() の引数の順序を変更…と読めるんですが、実
+際は _init() と _slowpass() で順序が変わってるのですが、これでいいのかな。
+https://github.com/ruby/ruby/pull/1050
