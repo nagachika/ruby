@@ -1,0 +1,4 @@
+拡張ライブラリ socket の UDPSocket の #bind, #connect, #send などで close した
+socket について呼ばれた場合 GetOpenFile() で例外が発生するので、その前に struct
+rb_addrinfo 構造体のメモリを確保していたためメモリリークしていたのを修正してい
+ます。
