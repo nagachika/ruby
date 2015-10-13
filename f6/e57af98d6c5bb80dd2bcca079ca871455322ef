@@ -1,0 +1,3 @@
+r52072 で newobj_of() 内の GC 起動無しの時と有りの時の path を分けた関数
+newobj_of_init() と newobj_of_slowpass() を newobj_init() と newobj_slowpath()
+に改名しています。また vm_insnhelper.c のインデント修正。
