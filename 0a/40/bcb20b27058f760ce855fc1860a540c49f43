@@ -1,0 +1,3 @@
+rb_yield() に引数の値が Qundef でないかのチェックを省いたバージョン rb_yield_1
+() を追加して Integer#times の実装 int_dotimes() でブロック呼び出しの時にこちら
+を呼ぶようにしています。
