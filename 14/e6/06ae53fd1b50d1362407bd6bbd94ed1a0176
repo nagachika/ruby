@@ -1,0 +1,2 @@
+ruby --dump=parsetree で AST を表示する時に r52113 で attrset ID が NODE に含ま
+れなくなったのに対応しています。
