@@ -1,0 +1,9 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations_start と
+ObjectSpace.trace_object_allocations_stop でオブジェクト確保のトレースを on/off
+した時の ObjectSpace.allocation_sourcefile などで取得できるオブジェクトの確保さ
+れた位置の情報を取得するメソッドのテストで、既に登録されているオブジェクト確保
+情報とたまたま object_id が一致してしまうと、トレースされないはずのタイミングの
+オブジェクトの情報が取れてしまう可能性があるので、まず
+ObjectSpace.trace_object_allocations_clear でクリアするようにしています。また、
+GC のタイミングによっても起きうるので、GC.disable しておくようにしています。
+[ruby-dev:49095] [Bug #11271]
