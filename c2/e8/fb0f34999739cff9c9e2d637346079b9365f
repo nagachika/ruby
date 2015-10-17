@@ -1,0 +1,5 @@
+Symbol からブロックを作る関数 rb_sym_to_proc() を string.c から proc.c に移動し
+て、また rb_proc_new() で Proc オブジェクトを生成して rb_block_clear_env_self()
+を使って環境から切り離していたところを rb_proc_alloc() で 0 から Proc オブジェ
+クトを生成することで、生成時のローカル変数の情報が漏れてしまっていたのを修正し
+ています。 [ruby-core:71088] [Bug #11594]
