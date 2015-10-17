@@ -1,0 +1,8 @@
+r51944 および r51947 の標準添付ライブラリ ostruct の OpenStruct の reader/
+writer メソッド定義の遅延の追加修正で、initialize と同様に initialize_copy や
+marshal_load でもメソッド定義を遅延させるようにして、また r51944 の時に指摘して
+いたように respond_to? に対する挙動が変わってしまう対策として
+respond_to_missing? を定義するようにしています。また method_missing で @table
+には存在するけどまだ reader メソッドが定義されてない attribute の reader メソッ
+ドが呼び出された時にもメソッド定義するようにしています。 https://github.com/
+ruby/ruby/pull/1033 https://github.com/ruby/ruby/pull/1037
