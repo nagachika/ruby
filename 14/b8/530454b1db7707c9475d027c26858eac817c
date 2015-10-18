@@ -1,0 +1,5 @@
+r52129 で移動/修正した rb_sym_to_proc() の再修正で sym_proc_t という rb_proc_t
+を拡張した構造体を導入して、ここに空の env を持たせて、rb_sym_to_proc() で作る
+Proc オブジェクトの block.ep はこの env を指すようにしています。 Symbol#to_proc
+で Proc 化した時にまだ env の侵食があったようです。 [ruby-core:70980] [Bug #
+11566]
