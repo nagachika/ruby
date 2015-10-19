@@ -1,0 +1,3 @@
+load_file_internal() と load_file_internal2() をまとめて同じ関数
+(load_file_internal())にして、rb_ensure() の後始末処理も restore_load_file() に
+まとめるリファクタリング。
