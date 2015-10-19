@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_yield_with_cfunc() で VC での警告除去のため明示的 cast を
+追加しています。
