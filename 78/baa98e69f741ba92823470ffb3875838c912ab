@@ -1,0 +1,3 @@
+rb_str_conv_enc_opts() から rb_str_cat_conv_enc_opts() と str_cat_conv_enc_opts
+() と関数を分割して、File.expand_path の実装でこれを利用するようにしています。
+違いはよくわかりませんが、多分効率のためかな。
