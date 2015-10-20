@@ -1,0 +1,4 @@
+random.c の fill_random_bytes_syscall() で syscall(SYS_getrandom, ...) を呼んで
+みて(実際に呼んでみないとサポートされているかどうかわからないため。 r51182 のあ
+たりでの追加部分)、その結果をキャッシュする変数 try_syscall への代入を
+ATOMIC_SET() を使うようにしています。
