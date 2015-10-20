@@ -1,0 +1,4 @@
+fptr_finalize() で fd を close(2) する時に mode をみて writable でなければ GVL
+を解放しないようにしています。 writable な fd は NFS で block する可能性がある
+けど、readonly だと block しないので GVL を解放しなくても安全とのこと。これで
+require のベンチマークがだいぶ速くなるそうです。 [Bug #11060] [Bug #11559]
