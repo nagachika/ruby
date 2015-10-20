@@ -1,0 +1,2 @@
+r52184 の再修正。rb_data_object_wrap_warning() と rb_data_object_get_warning()
+の宣言も条件付コンパイル内に入れるように移動しています。
