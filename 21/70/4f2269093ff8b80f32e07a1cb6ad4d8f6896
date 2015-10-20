@@ -1,0 +1,4 @@
+r52154 で ruby_is_fd_loadable() のエラー時の errno を EISDIR にセットするように
+した結果、エラーになる条件が変化していたのを、fd が通常ファイル(S_ISREG())か
+fifo の時だけ成功するようにして、ディレクトリ以外のエラーの時は errnor に ENXIO
+(Device not configured) をセットするようにしています。
