@@ -1,0 +1,3 @@
+r52151 で load 用に fd を開いた時の O_NONBLOCK を fcntl() でリセットするのは
+O_NONBLOCK や O_NDELAY を使って開いた時だけにしています。 Windows で LoadError
+が発生していたそうです。
