@@ -1,0 +1,5 @@
+r50464 や r50466 で追加され r50506 で改名された T_DATA 型のオブジェクトの操作マ
+クロ TypedData_Wrap_Struct() などの実体の関数群で r47717 で deprecated になった
+struct RData の利用時の警告のために定義しているものが inline 化が有効でない時に
+うまく働かないみたいなので defined(__NO_INLINE__) をチェックするようにしていま
+す。
