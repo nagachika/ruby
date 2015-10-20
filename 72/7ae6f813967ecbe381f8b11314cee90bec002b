@@ -1,0 +1,2 @@
+common.mk の test-all のところにも make test-all でのオプションの渡しかたについ
+てコメントを追記しています。
