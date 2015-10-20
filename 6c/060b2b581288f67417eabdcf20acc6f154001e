@@ -1,0 +1,4 @@
+random.c の fill_random_bytes_urandom() のコメントに O_NONBLOCK と O_NOCTTY フ
+ラグは /dev/urandom については意味がないことを追記しています。しかしフラグを渡
+すのは削ってないのですが、これは /dev/urandom にあるファイルが実際には urandom
+のデバイスではないというケースを考慮してとのこと。
