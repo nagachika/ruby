@@ -1,0 +1,3 @@
+file.c の rb_file_identical_p() で DOSHISH と _WIN32 による条件付きコンパイルの
+分岐を整理しています。 DOSISH による分岐は不要(というか _WIN32 の時の処理を
+DOSISH の時と同じにできる)のでシンプルにしています。
