@@ -1,0 +1,4 @@
+拡張ライブラリ objspace の ObjectSpace.dump で即値オブジェクトおよび Symbol の
+JSON 形式での dump に対応しています。基本的に ObjectSpace.dump_all で object
+slots の値を dump するための実装の流用だったので即値は dump 対象じゃなかったの
+ですね。
