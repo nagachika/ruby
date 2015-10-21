@@ -1,0 +1,3 @@
+拡張ライブラリ socket の例外発生の関数 rsock_raise_socket_error() で glibc のバ
+グで getaddrinfo(3) で返り値に EAI_SYSTEM がかえってきて errno が 0 の場合があ
+るらしく、errno=0 で呼ばれた時に対応しています。 [ruby-core:71100] [Bug #11600]
