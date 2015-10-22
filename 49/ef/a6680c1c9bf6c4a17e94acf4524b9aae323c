@@ -1,0 +1,3 @@
+AIX では pthread_getattr_np(3) が返すマシンスタック情報は間違いがあるそうで、こ
+れが利用されないように configure.in で AIX の時は強制的に pthread_getattr_np()
+を未定義扱いにするようにしています。
