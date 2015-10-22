@@ -1,0 +1,3 @@
+r52197 の INFINITY と NAN の存在チェックに関連して include/ruby/missing.h の
+union bytesequence4_or_float 型の定義を行うかどうかの条件も HAVE_INFINITY と
+HAVE_NAN をチェックするように追随しています。
