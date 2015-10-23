@@ -1,0 +1,5 @@
+拡張ライブラリ date の extconf.rb で RbConfig::CONFIG["strict_warnflags"] に -
+ansi -std=iso9899:199409 などが入ってたら warnflags に追加するようにしています
+。 r52197 で date のビルド時のオプションから -std=iso9899:1999 を削ってましたが
+、ruby のビルド時にこのオプションが使われていたら date でも使うようにしているみ
+たいです。
