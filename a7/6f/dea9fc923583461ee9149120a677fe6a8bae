@@ -1,0 +1,5 @@
+magic comment が "-*- ... -*-" で挟む必要がなくなりました。script encoding を指
+定するための magic comment が coding: だけで動くので自分も勘違いしてしまってい
+ましたが、実は magic comment は "-*- ... -*-" が必須でした。
+frozen_string_literal: true の導入で今後書くことも増えそうなので不要にしたみた
+いです。 [ruby-core:57574] [Feature #8976]
