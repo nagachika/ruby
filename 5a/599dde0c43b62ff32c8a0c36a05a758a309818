@@ -1,0 +1,3 @@
+tool/generic_erb.rb に --color オプションを追加して出力の "unchanged" と
+"updated" の出力に色をつけるようにしています。 r52202 からの configure & make
+時の出力の colorize の一環でしょうね。
