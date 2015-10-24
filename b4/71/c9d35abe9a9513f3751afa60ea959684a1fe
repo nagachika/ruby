@@ -1,0 +1,4 @@
+test/ruby/test_io.rb の test_dup_many で loop で Errno::EMFILE などのリソース不
+足のエラーになるまで IO.pipe で IO オブジェクトを作り続けるテストで
+Process.setrlimit を使って開けるファイル数を減らすことでテストが高負荷にならな
+いようにしています。
