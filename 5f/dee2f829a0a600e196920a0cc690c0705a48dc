@@ -1,0 +1,2 @@
+File.extname の rdoc 用コメントやテストスクリプトの空白やインデントの修正。
+https://github.com/ruby/ruby/pull/977 https://github.com/ruby/ruby/pull/975
