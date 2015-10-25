@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix の matrix/eigenvalue_decomposition.rb でインデントや
+ブロックパラメータ名のローカル変数との重複などの警告除去。またテストを追加して
+います。
