@@ -1,0 +1,2 @@
+obj.?meth= のテストに obj.? ||= のような syntax sugar のケースも追加しています
+。 https://github.com/ruby/ruby/pull/1064
