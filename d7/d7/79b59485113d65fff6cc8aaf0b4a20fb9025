@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の SSLContext#npn_select_cb で next protocol negotiation
+機能で選択するプロトコル名のサイズをチェックして、長すぎる時(256 以上が不正みた
+いです)に例外を発生させるようにしています。 [ruby-core:70021] [Bug #11369]
