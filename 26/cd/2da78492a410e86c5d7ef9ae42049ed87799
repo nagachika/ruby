@@ -1,0 +1,2 @@
+String#gsub! の rdoc 用コメントの call-seq に gsub と同様に第2引数に Hash を渡
+す例を追加しています。 https://github.com/ruby/ruby/pull/1023
