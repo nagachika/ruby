@@ -1,0 +1,3 @@
+r52249 と同様に標準添付ライブラリ forwardable で文字列で eval するためのソース
+コードで定数参照している部分で Forwardable -> ::Forwardable と絶対パスで名前空
+間を指定するようにしています。 [ruby-core:71176] [Bug #11616]
