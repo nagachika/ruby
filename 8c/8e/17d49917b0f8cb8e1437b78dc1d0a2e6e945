@@ -1,0 +1,4 @@
+標準添付ライブラリ forwardable で rescue 節の Exception が利用するクラスに同名
+の定数が定義済みだとトップレベルの Exception ではなくてそちらを参照してしまうの
+で ::Exception と明示的に名前空間を指定するようにしています。 [ruby-core:71175]
+[Bug #11615]
