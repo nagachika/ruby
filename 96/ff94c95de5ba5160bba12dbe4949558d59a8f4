@@ -1,0 +1,2 @@
+r52265 の続きで r52264 で ArgumentError のメッセージが変更されたのに FileUtils
+のテストも追随させています。 [Feature #9025], [ruby-core:71178] [Bug #11617]
