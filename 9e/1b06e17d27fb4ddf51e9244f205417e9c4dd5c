@@ -1,0 +1,2 @@
+VMDEBUG というデバッグ用マクロ定義とコメントを vm_insnhelper.h から vm_core.h
+に移動しています。
