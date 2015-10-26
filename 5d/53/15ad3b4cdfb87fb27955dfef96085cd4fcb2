@@ -1,0 +1,4 @@
+Haiku でのビルド失敗の修正で configure.in のライブラリについての変数の設定を
+Linux/*BSD などと同じにしているのと、拡張ライブラリ socket で #include <net/
+socket.h> の追加や #define _BSD_SOURCE の追加などを行なっています。 https://
+github.com/ruby/ruby/pull/984
