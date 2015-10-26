@@ -1,0 +1,2 @@
+r52257 の追加。 --enable-frozen-string-literal-debug オプションを有効にするため
+の VM の compile option 追加漏れ。
