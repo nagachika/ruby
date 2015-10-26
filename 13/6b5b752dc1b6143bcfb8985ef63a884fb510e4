@@ -1,0 +1,2 @@
+undef 時の対象のメソッドの method entry がみつからなかった時の例外発生の処理に
+rb_method_name_error() を利用するようにしてシンプルにしています。
