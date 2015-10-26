@@ -1,0 +1,2 @@
+struct rb_call_cache の関数型のメンバ call の型を inline で書いていたのを
+vm_call_handler として typedef するようにしています。
