@@ -1,0 +1,2 @@
+obj.?meth 記法の ripper の対応のため DOTQ という定数を追加しています。 [Feature
+#11537]
