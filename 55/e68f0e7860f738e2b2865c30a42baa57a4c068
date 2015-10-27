@@ -1,0 +1,2 @@
+test/ruby/test_io.rb のテストで assert_separately を利用するようにリファクタリ
+ングしています。
