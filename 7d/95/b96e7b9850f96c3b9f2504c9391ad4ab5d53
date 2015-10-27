@@ -1,0 +1,5 @@
+r52273 のテストで Process.spawn に rlimit_nproc オプションを渡す条件を
+RUBY_PLATFORM をみるのではなく Process::RLIMIT_NPROC が定義されているかどうかで
+判定するようにしています。また dup のテストで Process.setrlimit に
+Process::RLIMIT_NOFILE をセットしているところでも Process::RLIMIT_NOFILE が定義
+されている時だけ設定するようにしています。
