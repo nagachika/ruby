@@ -1,0 +1,2 @@
+vm_method.c の rb_method_entry_make() のコメントで空白が連続していたところを削
+っています。 https://github.com/ruby/ruby/pull/1069
