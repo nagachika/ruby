@@ -1,0 +1,2 @@
+{public,protected,private}_method_defined? の引数に文字列を渡した時のテストを追
+加しています。 https://github.com/ruby/ruby/pull/1067
