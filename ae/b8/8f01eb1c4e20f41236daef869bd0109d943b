@@ -1,0 +1,2 @@
+標準添付ライブラリ logger の ProgName、SEV_LABEL、Format などの定数の値を
+freeze するようにしています。
