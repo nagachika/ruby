@@ -1,0 +1,1 @@
+r52282 の parse.y の call_op2 導入の ripper 対応。 [Feature #11537]
