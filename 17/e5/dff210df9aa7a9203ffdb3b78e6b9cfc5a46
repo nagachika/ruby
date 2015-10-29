@@ -1,0 +1,3 @@
+rb_bug() などでバックトレースを取得するための関数 rb_dump_backtrace_with_lines
+() が Sparc で動かないそうで条件分岐に defined(__sparc) を追加して
+backtrace_symbols(3) に fallback するようにしています。
