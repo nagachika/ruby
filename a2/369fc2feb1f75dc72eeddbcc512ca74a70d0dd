@@ -1,0 +1,2 @@
+NameError 例外の発生するテストで inspect の結果を確認する場合に
+Encoding.default_external を指定して実行するようにしています。 [Feature #10881]
