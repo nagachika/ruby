@@ -1,0 +1,5 @@
+rubygems の Gem::Commands::ServerCommand のテストで Solaris では port 番号の指
+定に -p http を指定すると例外が発生することから RUBY_PLATFORM でチェックして
+Solaris の時は該当する assertion を飛ばすようにしています。 ngoto さんによると
+Solaris ではデフォルトで /etc/inet/services に http のエントリがないため名前で
+ポート番号を指定できないためだそうです。
