@@ -1,0 +1,4 @@
+r52311 でテスト時の Process.spawn に :rlimit_core オプションを追加してたところ
+は、[0, max] のように hard limit を指定するため Process.getrlimit で取得してい
+ましたが soft limit だけ指定もできたので Process.getrlimit は省いて 0 を指定す
+るようにしています。
