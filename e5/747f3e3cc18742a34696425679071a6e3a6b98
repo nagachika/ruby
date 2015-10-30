@@ -1,0 +1,4 @@
+標準添付ライブラリ ring (TupleSpace を使った Name Server) で Linux での
+SO_REUSEPORT は multicast 用のソケットには set_sockopt できないそうなので、
+RUBY_PLATFORM をチェックして Linux ではかわりに SO_REUSEADDR を使うようにしてい
+ます。
