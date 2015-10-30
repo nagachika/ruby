@@ -1,0 +1,4 @@
+r52320 で追加した rb_name_err_raise() と rb_name_err_raise_str() を使って、定数
+の参照時の NameError ("uninitialized constant") の receiver メソッドで名前空間
+の親を返すようにしています。この時点では message に receiver を埋め込むようにな
+っています。 [Feature #10881]
