@@ -1,0 +1,2 @@
+r52257 で導入された --frozen-string-literal-debug オプションのための内部的なイ
+ンスタンス変数が Marshal.dump した時に出力されないようにしています。
