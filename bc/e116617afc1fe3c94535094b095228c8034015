@@ -1,0 +1,6 @@
+gc.c の gc_mark_ptr() に NOINLINE() マクロを使って inline 化しないようにしてい
+ます。gc_mark() は is_markable_object(objspace, obj) が偽の時はすぐ return して
+この呼び出しにこないから、と書かれてるんですがそれでなぜ inline すべきでないの
+かなぁ。 is_markable_object() は要するに即値かどうかの判定みたいなので、すぐに
+return する率はある程度高いだろうとはいえ rb_mark_ptr() に来るケースもかなりあ
+ると思うのですが。 rb_mark_ptr() のコードサイズを小さく保つためかな。
