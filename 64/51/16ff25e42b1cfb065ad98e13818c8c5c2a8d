@@ -1,0 +1,3 @@
+DTrace の probe 挿入の RUBY_DTRACE_CREATE_HOOK() というマクロを追加して、オブジ
+ェクト生成時の probe 追加をこのマクロを利用するようにリファクタリングしています
+。
