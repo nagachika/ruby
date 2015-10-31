@@ -1,0 +1,4 @@
+rb_objspace::flags に has_hook という bit field を追加して newobj_of() で
+gc_event_hook() を呼ぶ必要があるかどうかのチェックにこのフラグを参照するように
+してチェックを軽量にしています。その他条件分岐の条件に UNLIKELY() を追加するな
+ど最適化のための変更。
