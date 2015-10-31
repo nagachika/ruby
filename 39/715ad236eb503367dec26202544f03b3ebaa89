@@ -1,0 +1,5 @@
+r52326 で SIGQUIT のテストの spawn 前の GC.start で full_mark: true,
+immediate_sweep: true オプションを指定して完全に GC 完了させるようにしています
+。また finalizer 実行中の SIGINT の受信時のテストでも GC を行なってから子プロセ
+スを起動するようにして、またタイムアウトも伸ばしています。メモリサイズが大きい
+状態での fork の速度の対策とかでしょうか。
