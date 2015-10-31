@@ -1,0 +1,7 @@
+autoload を設定した定数への参照を複数 Thread で同時に行なった時にうまくロックが
+できずロードされた定数が見えない状態になることがある不具合の修正です。
+これまであった struct autoload_data_i をさらに wrap した struct autoload_state
+という構造体を導入して、ここに待っている Thread の情報を linked list で持たせて
+load が終わった thread が明示的に待ってる thread を起こすようになります。
+autoload の lock は超むずかしいのですが、追加された部分は比較的わかりやすいです
+ね。 [ruby-core:70075] [ruby-core:71239] [Bug #11384]
