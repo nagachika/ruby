@@ -1,0 +1,3 @@
+r52344 で UNLIKELY() を関数マクロ gc_event_hook_needed_p() のビット演算に入れて
+たのをやめて、呼び元の if の条件部に書くようにしています。これ違うんだ…。また
+newobj_init() にも hook の有無のチェックの条件に UNLIKELY() を追加しています。
