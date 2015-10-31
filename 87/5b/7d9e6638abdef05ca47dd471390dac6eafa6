@@ -1,0 +1,2 @@
+Thread.handle_interrupt のテストで生成した Thread を後始末で kill して止めるよ
+うにしています。
