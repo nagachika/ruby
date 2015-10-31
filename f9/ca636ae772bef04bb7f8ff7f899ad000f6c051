@@ -1,0 +1,3 @@
+r52346 で追加した internal.h の rb_wb_protected_newobj_of() と
+rb_wb_unprotected_newobj_of() を gc.c の (export) とコメント書かれたセクション
+に移動しています。
