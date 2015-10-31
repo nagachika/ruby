@@ -1,0 +1,6 @@
+r52332 で追加した autoload の lock 用の構造体 struct autoload_state が struct
+autoload_data_i を指すようにしていたのを、struct autoload_data_i から struct
+autoload_state を指すようにして struct autoload_data_i から thread や link list
+の head などのメンバを削除して、heap に確保するメモリ領域を減らすように最適化し
+ています。struct autoload_state はマシンスタック上に置かれるのでそちらに寄せる
+ようにしているみたいです。
