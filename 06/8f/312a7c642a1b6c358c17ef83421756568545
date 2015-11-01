@@ -1,0 +1,2 @@
+テストで assert_raises を使っているところを assert_raise を使うように一括で置換
+しています。
