@@ -1,0 +1,5 @@
+r52375 でテスト時の rlimit 設定に Proc.spawn に渡すオプションを利用するようにし
+たところで、rlimit_nofile を 1034 にしようとしていたところ、古い Linux では
+rlimit_nofile に 1024 という hard limit がありこれ以上増やせないそうなので、や
+っぱり子プロセス内で Process.setrlimit して Errno::EPERM を捕捉してスキップする
+ようにしています。
