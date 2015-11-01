@@ -1,0 +1,4 @@
+テスト用のユーティリティ EnvUtil の子プロセスのエラー表示用の Proc オブジェクト
+FailDesc で子プロセスの標準出力などの先頭に "| " という prefix をつけるための
+String#gsub の呼び出し前に String#b でエンコーディングを ASCII-8BIT 化しておく
+ようにしています。
