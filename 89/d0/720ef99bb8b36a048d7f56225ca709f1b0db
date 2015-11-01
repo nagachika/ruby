@@ -1,0 +1,3 @@
+test/ruby/test_io.rb で子プロセス内で Process.setrlimit を使っていたところを
+assert_separately に渡すオプションで Process.spawn にオプションを渡して設定する
+ようにしてシンプルにしています。
