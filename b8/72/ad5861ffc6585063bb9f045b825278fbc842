@@ -1,0 +1,7 @@
+newobj_of() で GC の起動が必要な時の newobj_slowpath() の呼び出しを
+wb_protected の引数を渡すかわりにここで分岐して、newobj_slowpath_wb_protected()
+と newobj_slowpath_wb_unprotected() という関数を導入してこれを呼ぶようにしてい
+ます。結局これらの関数では引数に wb_protected を受け取る newobj_slowpath() を呼
+ぶので、なんだかまわりくどい感じですが、これによって引数を register だけで渡す
+ようにしているそうです。こっちの引数の数が fastpath のほうにも影響するというこ
+とかな? また fastpath と slowpath の分岐の LIKELY() を削っています。
