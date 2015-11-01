@@ -1,0 +1,2 @@
+bundled gems の test-unit と minitest のバージョンをそれぞれ 3.1.5 と 5.8.2 に
+更新しています。
