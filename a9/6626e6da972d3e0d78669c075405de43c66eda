@@ -1,0 +1,2 @@
+r52378 でのテストの assertion 追加で assert_raises -> assert_raise に変更したり
+assert_not_send を利用したりと assertion の修正。
