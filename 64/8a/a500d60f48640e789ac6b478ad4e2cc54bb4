@@ -1,0 +1,3 @@
+VM の setinlinecache 命令で IC::ic_value::value が Qundef だったら iseq の
+mark_ary に登録するようにしていましたが、そもそも未初期化なのがおかしいので
+VM_ASSERT() でデバッグ時はチェックしつつ分岐を削っています。
