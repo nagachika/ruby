@@ -1,0 +1,2 @@
+r52384 でテストの assert_raises を assert_raise に一括置換したのを、fiddle のテ
+ストについては元に戻しています。なんでだろ。
