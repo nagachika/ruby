@@ -1,0 +1,3 @@
+vm_call_method_missing() で引数の前にメソッド名の Symbol を追加するために VM ス
+タック上の引数を1つずらす処理で argc は +1 済みなので1つ余分に MEMMOVE() してい
+たのを修正しています。
