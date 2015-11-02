@@ -1,0 +1,4 @@
+super で親クラスに対応するメソッドがみつからなかった時の NoMethodError 例外の
+message, receiver, name などのテストを追加しています。
+r52402 は revert されましたが、super や alias による時の method_missing で SEGV
+をしていたそうで、そのケースを追加しているそうです。
