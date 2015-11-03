@@ -1,0 +1,3 @@
+template/ruby-runner.c.in で RUBY_INSTALL_NAME を @RUBY_BASE_NAME@ を展開して使
+うのではなく、ruby-runner のコンパイル時のオプションに -DRUBY_INSTALL_NAME で名
+前を渡してこれを展開するようにしています。
