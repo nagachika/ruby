@@ -1,0 +1,2 @@
+r52432 の続き。gdbm のテストで FileUtils.remove_entry_secure が失敗した時の ls
+に -a オプションも追加して隠しファイルも表示させるようにしています。
