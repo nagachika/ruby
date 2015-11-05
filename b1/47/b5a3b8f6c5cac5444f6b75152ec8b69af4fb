@@ -1,0 +1,2 @@
+id_table.c の関数の引数に const 修飾子をつけています。 rb_id_table_memsize() と
+st_memsize() の互換性を高めるのが動機だったみたいです。
