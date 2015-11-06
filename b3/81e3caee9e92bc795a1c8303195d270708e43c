@@ -1,0 +1,3 @@
+C API の rb_define_class_under() と rb_define_class_id_under() の rdoc 用コメン
+トで発生する例外のクラス名を修正しています。 https://github.com/ruby/ruby/pull/
+991
