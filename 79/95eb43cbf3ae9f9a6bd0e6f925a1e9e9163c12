@@ -1,0 +1,2 @@
+mkmf のテストで出力を capture するためのクラス TestMkmf::Base::Capture で出力が
+本来の出力先に出なくなっていたのを修正しています。
