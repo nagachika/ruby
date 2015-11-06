@@ -1,0 +1,3 @@
+拡張ライブラリ tk の CallbackSubst#_setup_subst_table で strndup() が未定義の時
+に key に値がセットされない状態だったので代替実装を追加してこれを使うようにして
+います。
