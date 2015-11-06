@@ -1,0 +1,2 @@
+method.h の rb_method_attr_t の定義のコメントの typo 修正。 https://github.com/
+ruby/ruby/pull/1076
