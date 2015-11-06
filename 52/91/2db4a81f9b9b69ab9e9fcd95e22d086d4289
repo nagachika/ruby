@@ -1,0 +1,4 @@
+拡張ライブラリ date, dbm, gdbm, sdbm, fiddle, openssl, psych などで配列の各要素
+についてループする時にインデックスの型を RARRAY_LENINT() で int 型にしてたとこ
+ろを long 型で受けて RARRAY_LEN() を使うようにしています。 INT_MAX を超える要素
+数の配列に対応できるようになるはず。
