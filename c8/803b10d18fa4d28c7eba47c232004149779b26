@@ -1,0 +1,2 @@
+variable.c の autoload_reset() で Visual C で変数の未初期化の警告が出るそうで初
+期化を追加しています。
