@@ -1,0 +1,2 @@
+symbol.c で定義している予約語のトークンや id.c.tmpl で定義する組み込みの Symbol
+の ID などを defs/id.def から自動生成するようにしています。
