@@ -1,0 +1,3 @@
+さらに r52453 の続きで拡張ライブラリ socket と tk で RUBY_PTR() を使って配列の
+要素を上書きしているところを RARRAY_ASET() を利用するようにして WriteBarrier を
+考慮して WB-unprotected にならないようにしています。
