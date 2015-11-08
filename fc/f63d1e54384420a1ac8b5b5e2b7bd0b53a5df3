@@ -1,0 +1,4 @@
+Solaris 10 での Fujitsu C Compiler (fcc) の古いバージョンで警告が出ていたのを抑
+制するために include/ruby/ruby.h でキャストを追加するマクロを定義して
+rb_array_const_ptr() と rb_struct_const_ptr() で利用するようにしています。
+[ruby-dev:49326] [Bug #11644]
