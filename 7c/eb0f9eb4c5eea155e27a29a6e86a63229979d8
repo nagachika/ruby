@@ -1,0 +1,3 @@
+Solaris 10 での Dir#fileno のサポートを追加しています。 dirfd(3) が存在しない場
+合に struct DIR の要素を返す代替実装のマクロを追加するようにしています。dirfd
+(3) は Solaris 11 からは追加されているそうです。
