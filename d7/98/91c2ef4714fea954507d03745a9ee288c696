@@ -1,0 +1,2 @@
+thread.c の rb_cThreadShield という変数が他で利用されていなかったので static 変
+数にしています。
