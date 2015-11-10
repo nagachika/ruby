@@ -1,0 +1,2 @@
+r52479 で string.c から id.h を #include するようにしたのにあわせて common.mk
+の依存関係にも追加しています。
