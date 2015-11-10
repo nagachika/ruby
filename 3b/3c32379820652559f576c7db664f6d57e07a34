@@ -1,0 +1,2 @@
+拡張ライブラリ psych で Ruby 2.0 との互換性のために RARRAY_CONST_PTR() と
+RARRAY_AREF() というマクロが未定義の時に自前で定義するようにしています。
