@@ -1,0 +1,5 @@
+IO#gets の rdoc 用コメントにて gets(1) とサイズを指定して読み込んだ場合、その
+byte 数から IO の encoding での1文字のサイズに切り上げたところまで読み込まれる
+ことを追記しています。 https://github.com/ruby/ruby/pull/1085
+おー、しかし例はファイルに書いているものが StringIO と書かれているところがあり
+ますね。
