@@ -1,0 +1,5 @@
+TracePoint の event hook のリストを無効にした時に要素を後で消すべきかどうかの
+rb_hook_list::need_clean をカウンタとして使っていたのを TRUE/FALSE をセットして
+真偽値としてチェックするようにしています。
+また exec_hooks_precheck() でイベントの処理対象がなくても list を clean する必
+要があるかどうかのチェックは行なうように順番を入れ換えています。
