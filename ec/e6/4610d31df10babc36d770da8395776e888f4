@@ -1,0 +1,3 @@
+r52500 の続きで simplecov は本家の github.com/colszowka/simplecov を直接使うよ
+うにして、タグ(v0.10.0)を指定して clone するようにしています。また simplecov-
+html と docile といったリポジトリも clone してくるようにしています。
