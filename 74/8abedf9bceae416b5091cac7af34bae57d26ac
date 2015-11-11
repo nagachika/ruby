@@ -1,0 +1,5 @@
+r52504 で追加した rb_obj_dig() でもありましたが rb_check_funcall() でメソッドが
+あったら呼び出して、なかったら指定の VALUE の値を返す(Qundef の場合が多いと思い
+ますが dig だと Qnil ですね)という処理を rb_check_funcall_default() という関数
+として切り出して使いまわすようにするリファクタリングをしています。
+[ruby-core:71293] [Feature #11643]
