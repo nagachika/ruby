@@ -1,0 +1,10 @@
+C の関数を呼び出すような Proc オブジェクトを作成するための API rb_func_proc_new
+() および rb_func_lambda_new() を追加して cfunc_proc_t::env の要素数を増やして
+method entry も積むようにしています。これは変更しているところだけみると追加して
+いるだけですが、参照され得る(block.ep - 1 に method entry が入っていることが期
+待されている)のに対応しているようです。確かに vm_insnhelper.c の
+rb_vm_frame_method_entry() とかみると ep[-1] をみてるっぽい。これまでは
+rb_proc_t basic の領域をうっかりみてた(method entry でないと判定されれば、
+VM_CHECK_MODE が1以上でコンパイルされてなければ無視するだけなので不正な参照だけ
+ど見逃がされてた)のを修正したということですかね。まあでもこのへんは 2.3 からの
+部分のはずなので backport は不要かな。
