@@ -1,0 +1,3 @@
+Solaris 10 では Process:RLIMIT_NPROC が未定義なので bootstraptest/test_fork.rb
+で参照しているところで defined? でチェックしてなかったら Process.setrlimit の呼
+び出しをスキップするようにしています。
