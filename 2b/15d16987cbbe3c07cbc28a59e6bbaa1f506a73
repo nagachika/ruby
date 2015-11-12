@@ -1,0 +1,2 @@
+time.c の struct time_object のメンバ gmt の値について書かれたコメントの
+0:localtime と 1:utc が逆になっていたので修正しています。
