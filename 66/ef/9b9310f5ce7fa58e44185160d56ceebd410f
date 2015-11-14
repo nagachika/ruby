@@ -1,0 +1,3 @@
+r52518 で追加された Hash#>= や Hash#> などのメソッドで同じキーで値が異なる場合
+のテストメソッドを追加しています。 https://bugs.ruby-lang.org/issues/10984#
+note-13
