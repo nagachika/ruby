@@ -1,0 +1,3 @@
+template/prelude.c.tmpl で ruby コードの parse して実行する時に compile option
+を指定して実行するようにして、末尾再帰最適化(tailcall_optimization) を有効にし
+て実行するようにしています。デフォルトは OFF なんでしたね。
