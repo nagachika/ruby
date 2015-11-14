@@ -1,0 +1,5 @@
+IO#read_nonblock と IO#write_nonblock のキーワード引数の処理が遅いので、prelude
+.rb にキーワード引数を受け取るメソッド定義を移動して、そこからキーワード引数を
+通常の引数にした __read_nonblock と __write_nonblock という C 定義のメソッドを
+呼ぶようにしています。キーワード引数の解析については C 実装より Ruby 実装のほう
+が早いというのちょっとおもしろいですね。 [ruby-core:71439] [Feature #11339]
