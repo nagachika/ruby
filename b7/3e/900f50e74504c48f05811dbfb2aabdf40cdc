@@ -1,0 +1,5 @@
+メソッド定義時の命令列で VM の内部的な動作のためのメソッド
+RubyVM::FrozenCore.define_method への引数に VM_SPECIAL_OBJECT_CBASE を渡してい
+たのをやめて、vm_define_method() で cref から対象のクラスを決めさせるようにして
+います。また vm_defined_method() の引数から cref を削って関数内で rb_vm_cref()
+で cref を取得させるようにしています。
