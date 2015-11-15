@@ -1,0 +1,3 @@
+mingw で PRELOADENV を空にして tool/runruby.rb で環境変数 LD_PRELOAD を使わない
+ようにさせています。テストで diff.exe を起動する時にエラーになってしまうそうで
+す。 [ruby-core:71461] [Bug #11680]
