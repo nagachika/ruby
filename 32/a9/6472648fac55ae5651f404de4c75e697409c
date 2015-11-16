@@ -1,0 +1,4 @@
+CREF の操作に関するコードのリファクタリング。 NODE_FL_CREF_PUSHED_BY_EVAL_/
+NODE_FL_CREF_OMOD_SHARED_ などの定数名を CREF_FL_PUSHED_BY_EVAL/
+CREF_FL_OMOD_SHARED に改名。未使用の setter 関数の削除。vm_cref_push() に
+pushed_by_eval 引数の追加などなど。
