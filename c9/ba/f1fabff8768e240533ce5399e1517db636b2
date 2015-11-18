@@ -1,0 +1,2 @@
+Struct#[ ]= の rdoc 用コメントで仮引数名を Struct#[ ] の rdoc 用コメントとそろ
+えるように修正しています。 https://github.com/ruby/ruby/pull/1095
