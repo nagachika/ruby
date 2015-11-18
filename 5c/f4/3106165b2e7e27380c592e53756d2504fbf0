@@ -1,0 +1,4 @@
+標準添付ライブラリ set に frozen_string_literal: true の magic comment を追加し
+ています。また Set#inspect の実装で無限再帰を防ぐために Thread.current の
+thread local storage に object_id を保管するところで後始末の pop と対応がつくよ
+うに begin ブロックの前に追加するようにしています。
