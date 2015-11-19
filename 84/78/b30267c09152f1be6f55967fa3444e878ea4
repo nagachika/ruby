@@ -1,0 +1,4 @@
+拡張ライブラリ socket の Socket.udp_server_recv や Socket.accept_loop で
+UDPSocket#recvmsg_nonblock や Socket#accept_nonblock でループするところで引数に
+exception: false を渡して例外ではなく戻り値で読み込み待ちを得るようにしています
+。 [ruby-core:66385] [ruby-core:69473]
