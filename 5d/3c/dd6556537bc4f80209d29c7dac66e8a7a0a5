@@ -1,0 +1,2 @@
+enc/unicode/casefold.h と env/unicode/name2ctype.h のテーブルを更新して Unicode
+のバージョンを 7.0.0 から 8.0.0 に更新しています。 [Feature #11563]
