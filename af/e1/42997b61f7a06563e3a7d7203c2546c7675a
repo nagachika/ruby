@@ -1,0 +1,3 @@
+拡張ライブラリ socket の rsock_init_sock() から fd が socket かどうか判定するた
+めの fstat(2) または Windows 用の rb_w32_is_socket() を呼ぶ部分を is_coekt() と
+いう static 関数に切り出すリファクタリング。
