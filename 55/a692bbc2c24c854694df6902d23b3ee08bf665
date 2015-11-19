@@ -1,0 +1,4 @@
+拡張ライブラリ socket の Socket#recvfrom_nonblock と UDPSocket#
+recvfrom_nonblock の rdoc 用コメントに第3引数 outbuf とキーワード引数について追
+記しています。 [ruby-core:69542] [Feature #11229] [ruby-core:69543] [Feature #
+11242]
