@@ -1,0 +1,4 @@
+拡張ライブラリ socket の BasicSocket#sendmsg や #sendmsg_nonblock でも同様に
+Ruby 製のメソッドでキーワード引数を処理してから C 製の内部的メソッド __sendmsg
+や __sendmsg_nonblock に委譲するようにしています。 [ruby-core:71439] [Feature #
+11339]
