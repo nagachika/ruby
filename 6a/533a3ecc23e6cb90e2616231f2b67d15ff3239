@@ -1,0 +1,2 @@
+r52614, r52615, r52617 の rb_method_definition_t::complemented_count の導入に関
+する変更を revert しています。 "they cause serious errors" とのこと。
