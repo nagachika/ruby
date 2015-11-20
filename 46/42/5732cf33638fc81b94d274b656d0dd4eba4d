@@ -1,0 +1,3 @@
+doc/syntax/refinements.rdoc に Refinements の 2.1 以降の変更について追記/変更し
+ています。 using が toplevel でしかできないみたいに書かれてるので結構古い記述に
+なっていたみたいですね。 [ruby-core:71466] [misc #11681]
