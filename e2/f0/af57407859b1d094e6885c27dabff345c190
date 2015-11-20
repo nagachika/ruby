@@ -1,0 +1,3 @@
+gc.c の主にデバッグ用の関数 rb_raw_obj_info() で即値の VALUE の値にも対応するよ
+うにしたり、method entry 用の T_IMEMO オブジェクトの出力に owner を追加したりし
+ています。
