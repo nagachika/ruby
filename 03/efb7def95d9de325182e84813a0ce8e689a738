@@ -1,0 +1,2 @@
+r52636 の続きで RCLASS_EXT()->callable_m_tbl のかわりに RCLASS_CALLABLE_M_TBL()
+マクロを使って callable method table にアクセスするようにしています。
