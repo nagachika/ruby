@@ -1,0 +1,7 @@
+Class/Module のオブジェクトの RCLASS_CALLABLE_M_TBL() でアクセスできる callable
+method table には継承したメソッドや include された Module のメソッドなどの参照
+をキャッシュしているのでメソッド再定義したり新たに include した時にクリアしない
+といけないのですが、Refinements を考慮すると複雑な参照状態になりうるので、再帰
+的に method entry のキャッシュクリアするようにしています。 refine のブロック内
+でのメソッド再定義がちゃんと影響するようにするための修正です。これで r52509 で
+追加されていたテストが通る状態になりました。 [ruby-core:71423] [Bug #11672]
