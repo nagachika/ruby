@@ -1,0 +1,4 @@
+compile.c の iseq_peephole_optimize() で branchif, branchnil, branchunless など
+の命令のジャンプ先のラベルの直後の命令が jump だったら、その jump の飛び先に直
+接飛ぶようにする最適化で INSN::insn_id をチェックする前にそれを参照してもいいか
+どうか INSN::link::type をチェックしておくようにしています。
