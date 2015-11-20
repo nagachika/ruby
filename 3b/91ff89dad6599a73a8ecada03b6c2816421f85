@@ -1,0 +1,2 @@
+configure の --with-ruby-pc (pkg-config 用の ruby.pc ファイルを指定するオプショ
+ン)の help メッセージを修正しています。
