@@ -1,0 +1,8 @@
+configure.in で AC_ARG_VAR() で cflags, cppflags, cxxflags などのフラグを指定し
+て --help で説明が出るようにしているようです。 AC_ARG_VAR() は precious
+variable というものを宣言するもので、--help に出る以外にも、環境変数からは取り
+込まないなど、機能的にも意味があるようです。ふーむ。 optflags とかもそうでした
+よね、と思ったけど他に AC_ARG_VAR() はなかったので optflags=-O0 ./configure み
+たいなのは OK なのかな。確かだめだったような記憶があったのですが。
+あと全く関係ありませんが、"precious variable" と書かれると「いとしい変数」って
+訳したくなりますね(「いとしいへんしゅう」とかかな)。
