@@ -1,0 +1,2 @@
+ext/extmk.rb に --extflags というオプションを追加して EXTLDFLAGS を拡張ライブラ
+リのビルドに伝播させるようにしています。
