@@ -1,0 +1,3 @@
+拡張ライブラリ socket の BasicSocket#recvmsg{_nonblock} の読み込みバッファサイ
+ズの取得について struct msghdr::msg_control の有無で分岐していたところで結果的
+に同様の処理をするようになった部分を分岐の外に出しています。
