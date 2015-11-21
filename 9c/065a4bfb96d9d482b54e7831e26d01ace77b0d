@@ -1,0 +1,2 @@
+ruby.c で ISeq のコンパイルオプションのデフォルト設定を DEFAULT_FEATURES という
+enum 定数に切り出すリファクタリング。
