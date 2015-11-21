@@ -1,0 +1,4 @@
+gc.c の rb_raw_obj_info() で TYPE() でオブジェクトの型を取得しているところを
+BUILTIN_TYPE() に変更しています。 BUILTIN_TYPE() は即値オブジェクトに対応する分
+岐を省いているので、ここでは既に SPECIAL_CONST_P() で分岐済みなので冗長な分岐を
+除去しているようです。
