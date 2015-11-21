@@ -1,0 +1,4 @@
+iseq_compile_each() で I_IMEMO の iseq 用オブジェクトのデバッグ用メッセージ出力
+の引数で r_iseqw_new() で wrapper object を作るようにする変更の追随漏れがあった
+(通常は preprocessor によって消えるのでエラーにならない)のを追随させています。
+[ruby-core:71446] [Bug #11676]
