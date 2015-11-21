@@ -1,0 +1,5 @@
+gc_writebarrier_generational() や gc_writebarrier_incremental() で引数の順序を
+入れ換えることで引数をレジスタ渡しされやすくするようにする最適化や、
+rb_gc_writebarrier() で LIKELY() の利用をやめる最適化。LIKELY() 使うと関数のコ
+ードが配置される位置が変化して、かえって遅くなるみたいです。以前も r52389 で
+LIKELY() 削ってましたね。
