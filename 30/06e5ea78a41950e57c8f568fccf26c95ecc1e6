@@ -1,0 +1,4 @@
+拡張ライブラリ socket の BasicSocket#recvmsg{_nonblock} の実装で Windowns など
+struct msghdr::msg_control がない環境受け取るメッセージのサイズに合わせてバッフ
+ァサイズを拡張するのを第1引数の最大受信サイズが nil (省略)された時だけにするよ
+うにしています。
