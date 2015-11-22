@@ -1,0 +1,2 @@
+標準添付ライブラリ rss の private メソッド validate_sy_updatePeriod に :nodoc:
+コメントをつけています。 https://github.com/ruby/ruby/pull/1105
