@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http で Expect: 100-continue というリクエストヘッダが含
+まれていると Net::HTTP#transport_request で throw によってレスポンスが返される
+ことがあり、その場合にレスポンスの読み込みが行なわれない不具合があったので修正
+しています。 https://github.com/ruby/ruby/pull/949
+これはバックポート対象っぽいですね。 [Bug #11722]
