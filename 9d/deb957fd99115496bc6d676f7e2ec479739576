@@ -1,0 +1,3 @@
+テスト用のライブラリ test/lib/test/unit.rb の Test::Unit::Parallel::Worker#deal
+で read で読んだ文字列へのメソッド呼び出し部分で read が nil を返した場合を考慮
+するようにしています。
