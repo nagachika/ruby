@@ -1,0 +1,3 @@
+Windows 版で VC を使ってビルドすると拡張ライブラリ digest がビルドできない不具
+合を修正しています。 digest.h の前に ruby/ruby.h を #include するようにしていま
+す。 #[ruby-core:29911] [Bug #3231]
