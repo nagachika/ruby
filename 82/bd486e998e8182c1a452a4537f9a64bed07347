@@ -1,0 +1,3 @@
+r52257 で導入されていた --enable-frozen-string-literal-debug を
+--debug-frozen-string-literal に変更しています。 [ruby-core:71616] [Feature #
+11725]
