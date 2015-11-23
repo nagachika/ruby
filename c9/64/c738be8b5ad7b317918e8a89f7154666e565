@@ -1,0 +1,3 @@
+拡張ライブラリ openssl のヘッダ ext/openssl/ossl.h で LibreSSL 対応として
+LIBRESSL_VERSION_NUMBER が定義されていたら e_os2.h を #include しないようにして
+います。
