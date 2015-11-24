@@ -1,0 +1,3 @@
+Solaris 10 にて拡張ライブラリ socket の socket option の SO_TIMESTAMP を使った
+テストが失敗することがあるそうで Socket::SO_TIMESTAMP が未定義だったらスキップ
+するようにしています。 [ruby-dev:49377] [Bug #11728]
