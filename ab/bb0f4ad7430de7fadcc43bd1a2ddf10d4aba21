@@ -1,0 +1,2 @@
+compile.c で label を管理する st_table を T_DATA 型のオブジェクトに wrap するこ
+とで例外発生時のメモリリークを避けるようにしています。
