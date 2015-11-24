@@ -1,0 +1,5 @@
+iseq_peephole_optimize() に VM の命令列の jump や leave の後の決して到達しない
+コードを削る最適化を remove_unreachable_chunk() という関数に定義して追加してい
+ます。またこれにより parse.y でやっていた if や &&, || でのリテラルなど真偽値が
+確定していた時の最適化はやめて compile.c での VM 命令列にしてからの最適化にまか
+せるようにしています。
