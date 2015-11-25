@@ -1,0 +1,4 @@
+r52703 や r52713 で Solaris で gcc に -D_XOPEN_SOURCE={5,6,7}00 を渡すようにす
+るところで $ansi_options に -std=iso9899:1999 が含まれていたら、通常は CFLAGS
+にのみ追加されるのですが、Solaris では preprocessor にも必要なので CPPFLAGS に
+も $ansi_options を追加するようにしています。
