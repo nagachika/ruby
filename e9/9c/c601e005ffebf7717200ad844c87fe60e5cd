@@ -1,0 +1,2 @@
+File の rdoc 用コメントのピリオドの抜けを修正しています。 https://github.com/
+ruby/ruby/pull/1111
