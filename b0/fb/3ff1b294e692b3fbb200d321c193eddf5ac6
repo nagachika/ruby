@@ -1,0 +1,4 @@
+parse.y で本体での利用時のみ使っていた token_info という構造体を ripper でも利
+用して、さらに token_seen などの bit field も ripper でも参照するようにして、
+magic comment がスクリプトの先頭にない時に警告を出す機能を ripper 経由でも使え
+るようにしています。こういう警告出るようになってたんですね。
