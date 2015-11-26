@@ -1,0 +1,3 @@
+r52596 の NEWS ファイルへの Struct#dig の追加についてのエントリのチケットの参照
+が間違っていたので修正しています。 https://github.com/ruby/ruby/pull/1110
+[Feature #11688]
