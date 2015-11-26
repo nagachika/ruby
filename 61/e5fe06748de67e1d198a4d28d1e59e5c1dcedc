@@ -1,0 +1,4 @@
+r52725 で導入した rb_gc_for_fd() をさらに dir.c の dir_initialize() や拡張ライ
+ブラリ socket からもお利用するようにしています。このため rb_gc_for_fd() は
+static 宣言を外して internal.h に宣言を追加しています。 [ruby-core:71623]
+[Feature #11727]
