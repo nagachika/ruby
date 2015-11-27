@@ -1,0 +1,5 @@
+r52698 での --enable-frozen-string-literal-debug から
+--debug-frozen-string-literal へのオプション名変更にあわせてコンパイルオプショ
+ンの定数マクロや構造体メンバなどの名前も改名しています。また --debug オプション
+に引数がなかった時だけ $VErBOSE と $DEBUG をセットするようにしています。
+[Feature #11725]
