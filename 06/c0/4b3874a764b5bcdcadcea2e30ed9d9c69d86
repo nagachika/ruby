@@ -1,0 +1,2 @@
+Solaris で _FILE_OFFSET_BITS ga 64 に定義されていたら _LARGEFILE_SOURCE を定義
+するようにしています。
