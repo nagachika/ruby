@@ -1,0 +1,3 @@
+configure から tool/ifchange を呼び出す時に CONFIGURE_TTY をみて端末からの実行
+であれば --color オプションを渡して reconfig 時の出力の色付けを有効にするように
+しています。
