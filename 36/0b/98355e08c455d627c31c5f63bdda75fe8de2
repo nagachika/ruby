@@ -1,0 +1,5 @@
+r52695 での digest/sha1 の openssl 利用判定の再修正です。 ext/
+digestdigest_conf.rb の diget_conf の funcs 引数を使うようにしてたのを、types
+引数を追加してこちらで SHA を指定するようにしています。型の名前は SHA_CTX だけ
+ど関数名は SHA1_Transform() なので区別する必要があったようです。 http://
+openssl.org/docs/man0.9.8/crypto/SHA1.html
