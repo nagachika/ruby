@@ -1,0 +1,3 @@
+正規表現エンジンとして利用している鬼雲(Onigmo)の VM を direct threaded code 化
+して高速化する変更を取り込んでいます。 https://github.com/k-takata/Onigmo/pull/
+52
