@@ -1,0 +1,4 @@
+iseq_peephole_optimize() で tail call optimization (末尾再帰呼び出しの最適化)の
+対象となる命令に opt_aref_with と opt_aset_in という [ ] や [ ]= の最適化命令も
+追加しています。また opt_aref_with/opt_aset_with の命令の CALL_CACHE に渡すオペ
+ランドを Qnil から NULL に修正しています。
