@@ -1,0 +1,5 @@
+r52758 の tool/downloader.rb での https 利用の修正で、config.status,
+config.guess をダウンロードする時に https を利用する場合は raw
+.githubusercontent.com からダウンロードするようにしています。おお、GitHub にミ
+ラーがあるんですね。また http の時も repo.or.cz からダウンロードするように変更
+しています。こちらもミラーサイトですね。 https://gcc.gnu.org/wiki/GitMirror
