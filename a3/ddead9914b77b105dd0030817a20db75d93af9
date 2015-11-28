@@ -1,0 +1,4 @@
+tool/downloader.rb で net/https が利用できない時(openssl が利用できない時)に
+rubygems.org からのパッケージダウンロードを http 経由で行うようにする処置を一般
+化して gcc.gnu.org からのダウンロードもデフォルトでは https を利用するようにし
+ています。
