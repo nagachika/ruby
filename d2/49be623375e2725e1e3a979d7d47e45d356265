@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http で keep-alive により接続を使いまわす場合に、タイム
+アウトでサーバ側から接続が切られていた時に EOFError が発生しないように eof? で
+判定して再接続するようにしています。 https://github.com/ruby/ruby/pull/1089
