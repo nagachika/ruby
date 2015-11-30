@@ -1,0 +1,2 @@
+拡張ライブラリ ripper で Ripper::Lexer のコールバックメソッド群 on_XXXX も
+_push_token というメソッドへの alias で定義するように変更しています。
