@@ -1,0 +1,2 @@
+テスト用のユーティリティ EnvUtil の assert_ruby_status で捕捉するシグナルの種類
+に SIGTERM を追加しています。
