@@ -1,0 +1,4 @@
+global_variable, global_entry, gvar_getter_t, gvar_setter_t, gvar_marker_t など
+に rb_ の prefix をつけるために #define でマクロ定義していましたが、ちゃんと利
+用箇所で rb_ を付けるようにしてマクロ定義を削除しています。 [ruby-core:71735]
+[Feature #11749]
