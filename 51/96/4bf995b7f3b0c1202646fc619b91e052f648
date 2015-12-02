@@ -1,0 +1,7 @@
+rb_cstr_intern() を rb_sym_intern() に改名して、rb_sym_intern_cstr()/
+rb_sym_intern_ascii()/rb_sym_intern_ascii_cstr() などの wrapper 関数を追加して
+います。また文字列の引数が定数だったら strlen() の呼び出し付きの関数呼び出しに
+展開するマクロ rb_sym_intern_cstr() と rb_sym_intern_ascii_cstr() も追加してい
+ます。おそらく定数の時に strlen(3) が最適化されて定数になることを見越して関数呼
+び出しのネストを抑えるためだと思いますが、xxx_cstr() のほうは関数定義しないで常
+にマクロでの提供でもいいような気がしますね。
