@@ -1,0 +1,3 @@
+Random の init_randomseed() で seed 生成時に使うバッファを Init_RandomSeed() の
+ローカル変数にして init_randomseed() の引数で渡していたのを、init_randomseed()
+のローカル変数に移動しています。
