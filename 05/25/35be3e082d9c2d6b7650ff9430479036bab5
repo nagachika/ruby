@@ -1,0 +1,2 @@
+random.c の Init_RandomSeed() から関数 init_hashseed() と init_siphash() を切り
+出すリファクタリング。
