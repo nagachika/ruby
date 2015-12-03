@@ -1,0 +1,3 @@
+r52806 でコミット漏れしていた explicit_bzero(3) の代替実装のファイル missing/
+explicit_bzero.c をとりあえずただの memset(3) を使って定義するようにしています
+。 RubyCI のエラーを修正するために置いておいたそうです。
