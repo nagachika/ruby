@@ -1,0 +1,2 @@
+r52848 の lib/csv.rb の magic comment の修正。 encoding: の指定のほうを1行目に
+しています。お、これは順番が重要なのか。 https://github.com/ruby/ruby/pull/1116
