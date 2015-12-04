@@ -1,0 +1,2 @@
+missing/explicit_bzero.c で #undef explicit_bzero するのを実装を分岐する
+preprocessor の #ifdef directive の前に置くようにしています。
