@@ -1,0 +1,2 @@
+r52839 の missing/explicit_bzero.c の weak attribute を使うバージョンの実装で
+memset() の引数の数を修正しています。
