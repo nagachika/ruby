@@ -1,0 +1,4 @@
+Marshal.load で taint された文字列からロードすると Encoding::XXX のクラスが誤っ
+て taint されることがある不具合を修正しています。 rb_marshal_define_compat() で
+Encoding のロード時のすりかえを定義して USERDEF のオブジェクトロード時にも
+compat table を参照するようにしています。 [ruby-core:71793] [Bug #11760]
