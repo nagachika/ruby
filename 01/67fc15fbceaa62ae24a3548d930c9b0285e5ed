@@ -1,0 +1,2 @@
+r52833 で str_make_independent_expand() に追加した引数に const 修飾子を追加して
+います。 VC の不具合対応とのこと。
