@@ -1,0 +1,4 @@
+struct rb_iseq_variable_body::coverage にアクセスするためのマクロ ISEQ_COVERAGE
+() および ISEQ_COVERAGE_SET() を定義して、これを利用するようにするリファクタリ
+ング。また構造体メンバ名を struct rb_iseq_variable_body::coverate_ に変更してい
+ます。これ変更しなくても(ry
