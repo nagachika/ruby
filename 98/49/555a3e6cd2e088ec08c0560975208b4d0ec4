@@ -1,0 +1,3 @@
+missing/explicit_bzero.c のコメントの英文と、Windows でのサポート状況について修
+正しています。 Visual Sdutio 12.0 では memset_s() がないとのこと。
+SecureZeroMemory() を代替としています。
