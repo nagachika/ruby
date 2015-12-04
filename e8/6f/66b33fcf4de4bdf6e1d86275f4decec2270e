@@ -1,0 +1,3 @@
+Encoding#name や Encoding.name_list で freeze された文字列を作るのに
+rb_fstring_cstr() を利用するようにして実体が共有される fstring を使うようにして
+います。
