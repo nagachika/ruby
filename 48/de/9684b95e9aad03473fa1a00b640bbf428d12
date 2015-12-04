@@ -1,0 +1,4 @@
+r52806 (実際は r52821) で追加された random.c で explicit_bzero() を使うための代
+替実装で gcc の拡張の attribute weak が使えたら ruby_explicit_bzero_hook_unused
+() という空の関数を weak 参照で定義して最適化を抑制させる方法で memset(3) を使
+って実装するようにしています。
