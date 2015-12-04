@@ -1,0 +1,5 @@
+struct rb_iseq_variable_body::iseq を参照/メモリ確保を行うマクロ
+ISEQ_ORIGINAL_ISEQ() と ISEQ_ORIGINAL_ISEQ_ALLOC() を定義してこれを利用するよう
+にしています。また構造体メンバ名も truct rb_iseq_variable_body::iseq_ に(ry
+あと rb_iseq_free() と iseq_memsize() では定義したマクロを利用していないみたい
+ですがこれはわざとでしょうか?
