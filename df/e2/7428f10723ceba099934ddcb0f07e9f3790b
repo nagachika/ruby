@@ -1,0 +1,4 @@
+Thread#name= で利用するための関数(pthread_setname_np() や pthread_set_name_np()
+およびこれらの引数の数の違い)を #if で分岐して書いていたのを、configure でその
+差異を検出して SET_ANOTHER_THREAD_NAME() というマクロを定義することで分岐せずに
+書くようにしています。
