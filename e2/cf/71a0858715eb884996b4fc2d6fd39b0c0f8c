@@ -1,0 +1,4 @@
+RubyGems を 2.5.0 の最新版に追随させています。依存関係の pre release バージョン
+の扱いの修正などが含まれているようです。 https://github.com/rubygems/rubygems/
+pull/1396 https://github.com/rubygems/rubygems/pull/1397 https://github.com/
+rubygems/rubygems/pull/1398 https://github.com/rubygems/rubygems/pull/1399
