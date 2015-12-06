@@ -1,0 +1,3 @@
+RB_FL_SET_RAW(), RB_FL_SET(), RB_FL_UNSET_RAW(), RB_FL_UNSET(),
+RB_FL_REVERSE_RAW(), RB_FL_REVERSE() などの struct RBasic::flags を操作するマク
+ロの戻り値というか展開時に (void) へのキャストを追加するようにしています。
