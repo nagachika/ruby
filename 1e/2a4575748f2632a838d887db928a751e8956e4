@@ -1,0 +1,2 @@
+vm.c の ruby_vm_verbose_ptr() と ruby_vm_debug_ptr() という関数を static にして
+います。
