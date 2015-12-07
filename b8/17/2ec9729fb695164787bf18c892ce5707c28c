@@ -1,0 +1,2 @@
+make reconfig 時に出力の色付けのために CONFIGYRE_TTY という変数を設定するところ
+で export して環境変数として設定しておくようにしています。
