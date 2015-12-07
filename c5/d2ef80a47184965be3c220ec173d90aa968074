@@ -1,0 +1,2 @@
+Windows 版の ATOMIC_SIZE_CAS() の InterlockedCompareExchange64() に渡す引数の順
+番が入れかわっていたのを修正しています。おおう…。
