@@ -1,0 +1,3 @@
+RB_OBJ_TAINT() マクロで taint できないオブジェクトの時の 0 に (void) キャストを
+追加しています。 r52881 に追随させています。 Oracle Solaris Studio でエラーにな
+ったそうです。
