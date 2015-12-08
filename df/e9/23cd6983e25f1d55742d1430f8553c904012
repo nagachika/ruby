@@ -1,0 +1,2 @@
+r52839 の explicit_bzero() の代替実装のため configure で weak attribute の有無
+をチェックする時の条件文の間違いを修正しています。
