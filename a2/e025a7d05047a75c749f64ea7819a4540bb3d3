@@ -1,0 +1,5 @@
+rb_autoload() の実体を rb_autoload_str() と改名して、file を VALUE 型でオブジェ
+クトとして受け取るようにしています。これにより拡張ライブラリから rb_autoload()
+を直接利用するのは deprecated とされています。 file に fstring を使うことによる
+最適化と、rb_autoload() を外部から使わせないようにするのが主眼でしょうか。
+[ruby-core:71369] [Feature #11664]
