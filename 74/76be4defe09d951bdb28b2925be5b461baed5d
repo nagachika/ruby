@@ -1,0 +1,8 @@
+テストに r52921 で追加した RubyVM::InstructionSequence.translate を利用して
+rb_iseq_load() を使った ISeq load のテストを追加していますが、現在は難しいバグ
+があって通らないのでコメントアウトされています。 rb_iseq_load() は C API として
+は公開されていますが標準で呼べるメソッドがないのでちょくちょく壊れるので、不具
+合修正のたびに test/-ext-/iseq_load/test_iseq_load.rb で拡張ライブラリを利用し
+たテストが追加されていましたがちゃんとしたテストがなかったので、網羅的なテスト
+用の準備でしょうか。ところで ISeq.compare_dump_and_load でエラー時に exit(1) し
+ているのはまずいのでは(EnvUtil.assert_normal 内などで使うのかな)。
