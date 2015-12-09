@@ -1,0 +1,3 @@
+拡張ライブラリ socket の UNIXSocket#send_io, #recv_io の rdoc 用コメントに引数
+の説明を追記して、recv_io の klass と mode の引数を指定するテストを追加していま
+す。
