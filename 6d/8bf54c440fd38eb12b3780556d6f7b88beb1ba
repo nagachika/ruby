@@ -1,0 +1,6 @@
+単項演算子としての String#+@ と String#-@ を追加しています。つまり +"foo" や
+-"foo" ですね。 +str は str が freeze されていれば dup してそうでなければそのま
+ま返す、-str はその逆で freeze されていればそのまま返しそうでなければ dup して
+freeze するというメソッドで、freeze されてない/された文字列を余分なdupなしに作
+る方法のショートカットとして追加されたようです。frozen string literal への布石
+としてでしょうね。 [ruby-core:71898] [Feature #11782]
