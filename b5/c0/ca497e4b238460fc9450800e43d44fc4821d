@@ -1,0 +1,2 @@
+r52902 で追加した io/console の IO#getpass のテストで CI でのテスト失敗の対応で
+とりあえず prompt はなしにしています。
