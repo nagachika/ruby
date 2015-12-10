@@ -1,0 +1,5 @@
+NameError に発生元の ISeq も保持しておいて NameError#local_variables で例外発生
+時点でのローカル変数名一覧も取得できるようにしています。おそらく did_you_mean.
+gem で利用するためで、internal use only とコメントされているのであまり外部から
+使って欲しくはない(依存しないほうがいい、というくらいかな)みたいですね。
+[ruby-core:71855] [Feature #11777]
