@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#to_binary_format で引数の extra_data を出力する時に
+1バイト余分なサイズをヘッダに出してしまっていたのを修正しています。
