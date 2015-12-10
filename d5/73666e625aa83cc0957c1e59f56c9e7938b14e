@@ -1,0 +1,3 @@
+拡張ライブラリ io/console のテストで run_pty というユーティリティで
+Process.wait が else 節と ensure 節で重複しているのを ensure 節のみにしています
+。
