@@ -1,0 +1,3 @@
+rb_iseq_load() で配列から RubyVM::InstructionSequence を構築する時に
+opt_case_dispatch 最適化命令用の CDHASH をロードする時に余分な dup をしていたの
+を省略しています。
