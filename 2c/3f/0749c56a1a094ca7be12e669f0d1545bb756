@@ -1,0 +1,3 @@
+さらにさらに r52949 の ISeq のバイナリフォーマットへのダンプで struct ibf_dump
+を T_TYPEDDATA 型のオブジェクトに wrap してメモリ管理を GC にまかせるようにして
+います。
