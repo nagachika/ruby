@@ -1,0 +1,3 @@
+r52945 で revert された拡張ライブラリ io/console の IO#getpass メソッドを再度追
+加しています。今度は Thread を使わずに run_pty で PTY.spawn を使って子プロセス
+で IO#getpass を実行させるようにしています。
