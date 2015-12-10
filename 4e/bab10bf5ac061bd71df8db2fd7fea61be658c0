@@ -1,0 +1,5 @@
+case 文の when のマッチで使う最適化命令で true/false/nil も最適化を行うようにし
+ています。このため TrueClass/FalseClass/NilClass の === 演算子メソッドも定義さ
+れるようになっています(実体は rb_equal() なので Object#equal というか正確には
+Kernel#equal と同じ)。ベンチマークも追加されています。 [ruby-core:71923]
+[Feature #11769]
