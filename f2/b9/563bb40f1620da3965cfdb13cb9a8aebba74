@@ -1,0 +1,4 @@
+標準添付ライブラリ uri の lib/uri_generic.rb に frozen_string_literal: true を
+指定する magic comment を追加して、不要な文字列リテラルへの freeze を消していま
+す。また変更する文字列の生成には String.new を使うようにしています。
+[ruby-core:71910] [Bug #11759]
