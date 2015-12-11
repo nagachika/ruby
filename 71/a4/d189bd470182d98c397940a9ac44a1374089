@@ -1,0 +1,3 @@
+NEWS ファイルに RubyVM::InstructionSequence.from_binary_format で不正な内容をロ
+ードすると SEGV など異常終了することもあるというのを追記しています。
+[ruby-core:71970]
