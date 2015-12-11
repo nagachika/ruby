@@ -1,0 +1,3 @@
+r52978 では ibf_dump_memsize() を修正しましたが、そもそも memsize 用関数を呼ぶ
+ほうの rb_objspace_data_type_memsize() で RTYPEDDATA_DATA() で取り出したポイン
+タの NULL チェックをして呼び出しを抑制するようにしています。
