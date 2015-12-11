@@ -1,0 +1,2 @@
+IO#getpass のテストは環境変数 RUBY_TESTS に "IO#getpass" という文字列が含まれて
+なかったら skip するようにしています。
