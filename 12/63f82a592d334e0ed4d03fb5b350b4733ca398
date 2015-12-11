@@ -1,0 +1,3 @@
+regparse.h の SET_NTYPE() というマクロの展開結果で strict aliasing が起きている
+のを一旦変数を介してコピーすることで回避しています。 [ruby-core:71953] [Bug #
+11790]
