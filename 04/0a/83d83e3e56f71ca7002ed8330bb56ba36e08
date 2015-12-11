@@ -1,0 +1,2 @@
+拡張ライブラリ io/console の IO#getpass のテストで、やぱり sleep 1 を入れるよう
+にしています。
