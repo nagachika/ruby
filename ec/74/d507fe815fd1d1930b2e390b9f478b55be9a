@@ -1,0 +1,2 @@
+r52980 で追加された URI::Generic#to_s の freeze されているかどうかのテストの
+assert 文を refute から assert_not に変更しています。
