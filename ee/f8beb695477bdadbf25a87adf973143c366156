@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.to_binary_format と
+RubyVM::InstructionSequence.from_binary_format_extra_data の rdoc 用コメントに
+説明を追記しています。
