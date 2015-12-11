@@ -1,0 +1,3 @@
+r52976 の String.new の encoding オプション追加の実装で Symbol の :encoding を
+作るのに rb_intern() を読んでいたのを rb_id_encoding() を使うように変更していま
+す。
