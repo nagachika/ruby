@@ -1,0 +1,3 @@
+struct METHOD を wrap している T_TYPEDDATA 型オブジェクトの free 用関数 bm_free
+() はデフォルトの挙動をしているので、削除して RUBY_TYPED_DEFAULT_FREE を指定し
+ておくようにしています。
