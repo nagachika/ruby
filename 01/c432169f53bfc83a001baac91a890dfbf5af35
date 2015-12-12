@@ -1,0 +1,4 @@
+標準添付ライブラリ mkmf.rb と shellwords.rb で frozen-string-literal: false の
+magic comment を追加して --enable-frozen-string-literal が指定された時にそれを
+無効化するようにしています。これらも frozen-string-literal でうまく動かないよう
+です。 [ruby-core:72011] [Bug #11800]
