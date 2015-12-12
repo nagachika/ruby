@@ -1,0 +1,3 @@
+r53001 で環境変数をみて IO#getpass のテストを skip するようにしていたのを、text
+/excludes/TestIO_Console.rb に追加して --excludes オプションで実行除外するよう
+にしています。
