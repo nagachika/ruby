@@ -1,0 +1,3 @@
+r52949 で追加した RubyVM::InstructionSequence#to_binary_format や
+RubyVM::InstructionSequence.from_binary_format{_extra_data} を #to_binary や #
+load_from_binary に改名しています。 https://github.com/ruby/ruby/pull/1134
