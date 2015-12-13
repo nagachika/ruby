@@ -1,0 +1,2 @@
+tool/merger.rb で tag サブコマンドの最後に GitHub に svn のタグを push する方法
+を出力するようにしています。
