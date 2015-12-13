@@ -1,0 +1,3 @@
+IO#advise のテストが aarch64-linux というプラットフォーム(ARM かな?)では
+posix_fadvise(2) が未実装で Errno::ENOSYS が発生するためテストで Errno::ENOSYS
+は捕捉して skip したり無視したりするようにしています。
