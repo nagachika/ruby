@@ -1,0 +1,2 @@
+make help の出力に make exam も追記しています。 make check test-rubyspec の別名
+ですね。
