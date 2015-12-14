@@ -1,0 +1,2 @@
+ruby_vm_destruct() で rb_vm_t の解放時に loading_table と frozen_strings を解放
+するようにしています。
