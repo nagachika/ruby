@@ -1,0 +1,5 @@
+r53034 で aarch64-linux 上で IO#advise が Errno::ENOSYS を発生させるためテスト
+で rescue するようにしていましたが、そもそも advise はシステムへの hint でベス
+トエフォートなので errno=ENOSYS の時は例外を発生させないように修正しています。
+ただこれだとテストで例外を期待していたところで失敗するようになっているようです
+ね。 [ruby-core:72066] [Feature #11806]
