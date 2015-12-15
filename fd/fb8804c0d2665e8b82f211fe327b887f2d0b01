@@ -1,0 +1,3 @@
+標準添付ライブラリ shellwords に frozen-string-literal: true の magic comment
+を追加して、一部破壊的に利用する文字列オブジェクトの生成を String.new に置き換
+えています。
