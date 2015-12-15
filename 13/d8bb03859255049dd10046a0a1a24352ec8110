@@ -1,0 +1,3 @@
+OpenStruct#dig で引数が Symbol もしくは to_sym で Symbol 化できないオブジェクト
+だった時に黙って nil を返していたのを TypeError を返すようにしています。
+[ruby-core:71798] [Bug #11762]
