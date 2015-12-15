@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext の "#alpn_select_cb=, #
+npn_select_cb= などで NUL 文字で終端を探していたのをサイズで判定するように修正
+しています。 OpenSSL が返す文字列は NUL 終端していないものだったそうです。
+[ruby-core:72082] [Bug #11810]
