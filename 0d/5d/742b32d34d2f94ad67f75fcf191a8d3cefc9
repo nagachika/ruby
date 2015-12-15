@@ -1,0 +1,4 @@
+テスト用のユーティリティとして以前は test/ruby/envutil.rb に存在していた test/
+lib/envutil.rb から独自の assert メソッドの定義を test/lib/test/unit/
+assertions.rb に移動しています。もうこれは ruby のテスト専用のライブラリですか
+らね。
