@@ -1,0 +1,4 @@
+そして configure で BASERUBY を full path 化するようにしています。どうも PATH
+にカレントパスなどが入っていてビルド時に BASERUBY がただの ruby だとビルドした
+ばかりでインストールしてない ruby を起動してしまってインストールに失敗すること
+があるみたいです。 [ruby-core:72065] [Bug #11807]
