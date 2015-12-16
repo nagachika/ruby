@@ -1,0 +1,3 @@
+tool/ytab.sed で関数マクロで可変長引数の定義ができないコンパイラのために
+yy_symbol_value_print() と yy_symbol_print() の wrapper の定義を追加しています
+。
