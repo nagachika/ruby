@@ -1,0 +1,2 @@
+標準添付ライブラリでも && で receiver のチェックをしていたのを &. 演算子を使う
+ようにしています。 https://github.com/ruby/ruby/pull/1142
