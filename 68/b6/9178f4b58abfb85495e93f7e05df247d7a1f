@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の URI.decode_www_form の rdoc 用コメントでサンプルコー
+ド部分のインデントを調整してコードブロックとしてレンダリングされるようにしてい
+ます。 https://github.com/ruby/ruby/pull/1152
