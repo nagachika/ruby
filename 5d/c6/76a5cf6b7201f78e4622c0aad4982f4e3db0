@@ -1,0 +1,7 @@
+r51243 で構造体メンバ rb_proc_t::blockprocval と rb_binding_t::blockprocval を
+削除していましたが、これによりマーク漏れがおきていたのを修正しています。
+vm_make_env_each() で vm_make_proc_from_block() の戻り値のチェックがまちがって
+たので戻り値の型を int にして、ポインタ渡しの引数でブロックの VALUE を返すよう
+にしています。しかし vm_make_env_each() でのチェックが Qfalse との比較になって
+いるので、意味的には FALSE との比較じゃないですかね(展開したら同じことですけど)
+。 [ruby-core:71737] [Bug #11750]
