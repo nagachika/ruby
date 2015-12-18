@@ -1,0 +1,2 @@
+r53149 の NEWS ファイルと ChageLog エントリの IO#fadvise を IO#advise に修正し
+ています。
