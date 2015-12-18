@@ -1,0 +1,4 @@
+Queue#close のテストのうち Queue#pop で待っている Thread の数をチェックする
+assertion を消しています。タイミングによってはここで Thread が終了しているとは
+限らないので失敗する可能性がある assertion だったようです。 JRuby でここが失敗
+していたようです。
