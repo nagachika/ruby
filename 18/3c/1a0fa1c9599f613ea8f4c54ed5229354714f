@@ -1,0 +1,3 @@
+test/lib/test/unit/parallel.rb で子プロセスから例外を受け取った時に backtrace
+が nil だとエラーになってしまうので、["unknown method"] という1つだけのダミーの
+トレースを入れておくようにしています。
