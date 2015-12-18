@@ -1,0 +1,7 @@
+r35199 とか r35258 で標準添付ライブラリ webrick の WEBrick
+::Utils::TimeoutHander で起動する Thread 内で @timeout_info に排他処理せずにア
+クセスするためイテレータ中の Hash/Array が操作されてしまう問題を dup したりして
+回避していましたが、ThreadMutex による排他をして停止対象の Thread を別の配列に
+入れておいて、排他処理を抜けてからそれらについて interrupt を呼ぶように割り込み
+対象の取得と実際の割り込み処理を分離して race condition を避けるようにしていま
+す。 [ruby-dev:49387] [Bug #11742]
