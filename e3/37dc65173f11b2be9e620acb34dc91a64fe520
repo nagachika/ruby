@@ -1,0 +1,6 @@
+r53130 の再修正。 WEBrick::Utils::TimeoutHandler で TimeoutMutex で排他するのは
+@timeout_info を操作する時になるように整理しています。なんとなく register など
+で wakeup しているところもクリティカルセクションに入れておかないとシグナル喪失
+しそうな気がしてしまいますが、ここ ConditionVariable を使ってるわけじゃなくてた
+だの Thread#wakeup みたいなのでその必要はなさそうです。というか、これ全体的にあ
+んまり堅牢に作られてないような気はしますね…。 [ruby-dev:49387] [Bug #11742]
