@@ -1,0 +1,4 @@
+Enumerator::Lazy のブロックが Symbol から Proc に変換したブロック引数に対応して
+いない不具合を修正しています。 r52138 のあたりで Symbol を Proc オブジェクトと
+して引きまわすことがあるようになった時に vm_make_proc_from_block() での対応が不
+足していたようです。 [ruby-core:72083] [Bug #11811]
