@@ -1,0 +1,3 @@
+逆に vm_caller_setup_arg_block() でブロックの proc には IFUNC が入ることはなく
+なった(r52138 で Symbol のまま引きまわすようになった)のでその時の分岐を削除して
+います。
