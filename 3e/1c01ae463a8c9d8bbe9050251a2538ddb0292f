@@ -1,0 +1,6 @@
+拡張ライブラリ stringio の Encoding の扱いについての変更で、Encoding はバッファ
+となる String オブジェクトのものをそのまま使うのではなく StringIO の構造体
+struct String() のメンバとして別に保持するようにして、読み込みモード時には
+String オブジェクト自体の encoding は変更しないようにしています。チケットは
+StringIO のバッファとなる文字列に freeze されたものを渡すと read するだけでも例
+外が発生するというものです。 [ruby-core:72189] [Bug #11827]
