@@ -1,0 +1,3 @@
+拡張ライブラリ stringio の #ungetc と #ungetbyte の実装で処理のメイン部分を
+strio_unget_bytes() という関数に括り出して共有するようにリファクタリングしてい
+ます。
