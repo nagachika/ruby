@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::Utils::TimeoutHandler の Thread 間の協調
+に Thread#wakeup と sleep などを使っていてやや不安だったのを Queue を使って新し
+い Thread の追加時の wakeup を実現するようにしています。 r53130 や r53134 の再
+修正ですね。 [ruby-dev:49387] [Bug #11742]
