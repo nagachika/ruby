@@ -1,0 +1,3 @@
+Module#define_method にブロック引数に Symbol を渡した時に rb_mod_define_method
+() に Symbol がそのままやってくるので rb_sym_to_proc() で Proc 化するようにして
+います。 [ruby-core:72398] [Bug #11850]
