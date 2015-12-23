@@ -1,0 +1,4 @@
+バックトレース表示のために control frame の位置情報を処理する rb_profile_frames
+() で ifunc を無視するようにしています。ブロック引数に Symbol を渡した時にその
+中で rb_profile_frames() が呼ばれると SEGV することがあったようです。
+[ruby-core:72409] [Bug #11851]
