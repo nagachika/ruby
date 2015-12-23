@@ -1,0 +1,8 @@
+r52277 の test_dup_many と同様に test/ruby/test_io.rb のテストの子プロセス起動
+時に :rlimit_nproc オプションを指定するところでも Process.getrlimit を使って
+Process::RLIMIT_NPROC の値を取得してから…あれこっちは2つめの値、つまり現在の値
+じゃなくて設定可能な最大値を取ってきてつかっていますけど、これでいいんですかね?
+チケットをみると環境の hard limit を超えてエラーになることがあるというものなの
+でこれでいいのか。 [ruby-dev:49446] [Bug #11852]
+じゃあ test_dup_many のほうは…と思いきやこっちの :rlimit_nofile の設定は今は
+1024 に固定されているので既に Process.getrlimit を呼ばなくなっていますね。
