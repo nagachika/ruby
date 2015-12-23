@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket で ExtConfig::OPENSSL_NO_SOCK
+が定義されていた時の NotImplementedError 例外を発生させるところでクラス名を
+typo していたのを修正しています。 https://github.com/ruby/ruby/pull/1165
