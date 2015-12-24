@@ -1,0 +1,4 @@
+vm_insnhelper.c の関数 vm_callee_setup_block_arg_arg0_check()、
+vm_callee_setup_block_arg_arg0_splat()、simple_iseq_p()、
+vm_callee_setup_block_arg() などをファイルの後のほうに移動しています。こうした
+ほうが速くなるそうで、ううむ、そうか… [ruby-core:72200] [Bug #11829]
