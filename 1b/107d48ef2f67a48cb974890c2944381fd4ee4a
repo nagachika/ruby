@@ -1,0 +1,6 @@
+r53220 で CGI.escape_html を拡張ライブラリ化した時に freeze は taint などの状態
+が結果の文字列に伝播しなくなっていた不具合があったので再修正しています。 https:
+//github.com/ruby/ruby/pull/1166 [ruby-dev:49451] [Bug #11855]
+RB_OBJ_INFECT() とかで…と思いましたが freeze のフラグと同時に伝播させるマクロ
+はないんですね。というか、あれ、freeze は伝播すべきなのかな…? と思ったら次で再
+修正されてました。
