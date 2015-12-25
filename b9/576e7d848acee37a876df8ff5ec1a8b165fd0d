@@ -1,0 +1,2 @@
+C99 mode で memset_s(3) を利用するために __STDC_WANT_LIB_EXT1__ というマクロを
+定義するようにしています。
