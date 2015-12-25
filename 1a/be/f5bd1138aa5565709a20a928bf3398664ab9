@@ -1,0 +1,3 @@
+BasicSocket.for_fd に timer thread への通知用 pipe の fd などインタプリタが内部
+で利用している file drscriptor は渡せないようにしています。 [ruby-core:72445]
+[Bug #11862]
