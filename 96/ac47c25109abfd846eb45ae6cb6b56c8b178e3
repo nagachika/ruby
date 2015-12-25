@@ -1,0 +1,2 @@
+r53228 のリトライ。ObjectSpace.each_object でクラスの特異クラスが出現してしまう
+のを抑制しています。 [ruby-core:71682] [Bug #11740]
