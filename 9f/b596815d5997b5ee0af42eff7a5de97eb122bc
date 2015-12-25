@@ -1,0 +1,4 @@
+r53248 の再修正。 Onigmo の direct threaded 化は gcc の時だけ有効にするようにし
+ています。確か goto のラベルを直接アドレス指定にする gcc 拡張とかを使ってた(
+YARV の場合ですが)と思うので gcc が必須なんだと思います。また regexec.c 内の
+direct threaded code 関連のマクロや変数定義を前のほうに移動しています。
