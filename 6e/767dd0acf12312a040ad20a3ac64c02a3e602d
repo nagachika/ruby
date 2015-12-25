@@ -1,0 +1,2 @@
+正規表現エンジン Onigmo の VM を direct threaded code にする高速化をデフォルト
+で有効にしています。USE_DIRECT_THREADED_VM を真に定義しているだけですけどね。
