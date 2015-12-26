@@ -1,0 +1,5 @@
+tool/file2lastrev.rb で ruby 1.8.7 で動作するように proc は Proc.new に変更して
+います。おおう、proc { .. } って 1.9 からだったっけ…。使わないので完全に忘れて
+る(proc より Proc.new 派)。
+[追記]1.8.7 で proc は引数の数が一致しないと ArgumentError が発生する(lambda 同
+様)のでうまく動かないことがあったようです。
