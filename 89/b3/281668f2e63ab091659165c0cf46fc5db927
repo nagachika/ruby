@@ -1,0 +1,3 @@
+rb_iseq_compile_with_option() で TH_PUSH_TAG() で大域脱出から保護する部分を
+parse 関数の呼び出しと rb_iseq_new_with_opt() の呼び出し部分だけにして、引数の
+準備などはその前にすましておくようにしています。
