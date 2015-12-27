@@ -1,0 +1,3 @@
+拡張ライブラリ socket のテスト TestSocket#test_accept_loop_with_unix で TCP ソ
+ケットの接続に失敗した時に IPv6 のアドレスだったら無視するようにしています。
+RubyCI で環境によっては IPv6 が有効になっていないことがあるとのこと。
