@@ -1,0 +1,3 @@
+doc/extension.rdoc および doc/extension.ja.rdoc の "nul 文字" という時の nul は
+大文字で NUL を書くように修正しています。 https://github.com/ruby/ruby/pull/
+1172
