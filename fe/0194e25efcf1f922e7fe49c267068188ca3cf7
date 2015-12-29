@@ -1,0 +1,2 @@
+process.c で Windows 版では chdir() のかわりに rb_w32_uchdir() を利用するように
+マクロ定義を追加しています。
