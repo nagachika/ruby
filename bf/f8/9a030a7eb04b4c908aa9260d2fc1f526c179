@@ -1,0 +1,3 @@
+r53324 の続き。 enc/depend で依存するファイルを enc.mk から config.status に変
+更しています。enc.mk は毎回作りなおされるからとのこと。ってことは configure や
+りなおすと毎回 enc/ 以下は再コンパイルされるのか。
