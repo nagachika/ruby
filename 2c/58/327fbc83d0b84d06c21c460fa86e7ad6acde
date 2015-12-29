@@ -1,0 +1,2 @@
+拡張ライブラリ tk のサンプルスクリプトの Tk::BWidget::Tree::Node に渡していた
+:drawcross の Symbol の typo 修正。
