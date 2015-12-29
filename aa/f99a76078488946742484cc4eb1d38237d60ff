@@ -1,0 +1,3 @@
+parse.y で cond_stack と cmdarg_stack という構造体フィールドを bit の LIFO とし
+て操作するマクロ群にデバッグ出力の機能を追加して yydebug が真の時は操作するたび
+に stdout に状態を出力するようにしています。
