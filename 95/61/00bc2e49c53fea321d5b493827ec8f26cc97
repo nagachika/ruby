@@ -1,0 +1,2 @@
+Process.spawn などの :chdir オプションに渡すパスを rb_str_encode_ospath() でエ
+ンコーディング変換するようにしています。
