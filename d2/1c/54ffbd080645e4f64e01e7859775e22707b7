@@ -1,0 +1,2 @@
+拡張ライブラリ tk のサンプルアプリ demo-en/demo-ja で TkMenu#add のオプションに
+accelerator が複数回渡されていて警告が出ていたのを修正しています。
