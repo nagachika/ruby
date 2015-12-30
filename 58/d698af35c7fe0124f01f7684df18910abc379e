@@ -1,0 +1,2 @@
+拡張ライブラリ tk の ext/tk/lib/remote-tk.rb に require "tkutil" を追加していま
+す。
