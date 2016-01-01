@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::HTTPStatus::StatusMessage に HTTP ステー
+タス 451 Unavailable For Legal Reasons を追加しています。法的/政治的な理由で検
+閲によりレスポンスが返せないということを表すために最近追加されたってやつですね
+。 https://github.com/ruby/ruby/pull/1167 参考URL: https://tools.ietf.org/html/
+draft-tbray-http-legally-restricted-status-00
