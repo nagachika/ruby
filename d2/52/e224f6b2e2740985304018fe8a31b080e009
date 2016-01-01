@@ -1,0 +1,3 @@
+Kernel#open のテストに不正な mode 引数を渡した時の assertion を追加しています。
+"b" と "t" は排他的なので同時に指定すると ArgumentError になります。
+[ruby-dev:49465] [Feature #11921]
