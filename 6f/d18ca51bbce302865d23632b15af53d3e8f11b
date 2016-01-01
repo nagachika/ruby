@@ -1,0 +1,8 @@
+標準添付ライブラリ forwardable.rb で module_eval や instance_eval で動的メソッ
+ドを定義する時に文字列をそのまま使うのではなくて、
+RubyVM::InstructionSequence.compile で一旦 ISeq にコンパイルしてから eval する
+ようにしています。またこの時 trace_instruction: false で trace 命令の除去や
+tailcall_optimization: true で末尾呼び出し最適化の有効化などを行うようにしてい
+ます。またこれにあわせて accessor の呼び出しで例外が発生した時のバックトレース
+の調整を delegate しているメソッド自体の呼び出しでの例外発生時には行わないよう
+にしています。
