@@ -1,0 +1,3 @@
+misc/ruby-aditional.el で ruby-encode-unicode という非 ASCII 文字を \u{###} の
+形式にエンコードする関数で \t や \n などのコントロール文字もエンコードしてしま
+っていたのを修正しているようです。
