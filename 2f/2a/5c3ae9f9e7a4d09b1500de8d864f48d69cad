@@ -1,0 +1,4 @@
+標準添付ライブラリ ostruct の OpenStruct#new_ostruct_member でメソッドの再定義
+を避けるため respond_to? でメソッドが定義済みでないかチェックしているところを
+singleton_class.method_defined? でのチェックに代替しています。このほうが効率的
+なのだそうです。 [ruby-core:72523] [Bug #11901]
