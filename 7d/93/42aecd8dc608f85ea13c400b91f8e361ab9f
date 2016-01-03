@@ -1,0 +1,5 @@
+r49556 で Apple のパッチを取り込んで tool/mkconfig.rb で環境変数 SDKROOT を
+includedir の prefix に追加するようにしていたのを、oldincludedir に追加するよう
+にしています。 https://developer.apple.com/library/mac/documentation/
+DeveloperTools/Conceptual/cross_development/Configuring/configuring.html
+[ruby-core:72496] [Bug #11881]
