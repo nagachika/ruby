@@ -1,0 +1,6 @@
+aclocal.m4 を acinclude.m4 というファイル名に変更したみたいです。 aclocal.m4 は
+aclocal コマンドで acinclude.m4 を元に生成するようにしています。 r52202 の
+configure で端末への色付けの方法を検出する時に aclocal.m4 を追加したのですがこ
+れがお作法に則ってなかったようです(よくわかってない)。またこれに対応して make
+realclean で aclocal.m4 を削除するようにしています。 [ruby-core:72675] [Bug #
+11941]
