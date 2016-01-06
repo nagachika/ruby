@@ -1,0 +1,4 @@
+r53314 あたりの RUBY_BUILD_VERSION_STR_3() マクロの展開が Solaris の古い fcc (
+Fujitsu C Compiler) でうまくいかないらしく、RUBY_BUILD_VERSION_STR_2() を呼び出
+しているところを1段展開して STRINGIZE() を直接呼ぶように変更しています。
+[ruby-dev:49468] [Bug #11944]
