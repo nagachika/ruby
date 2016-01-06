@@ -1,0 +1,3 @@
+r53431 の parse.y の修正を revert しています。 RubyCI の Solaris での失敗の調査
+のために一時的に revert してみているそうです。 http://rubyci.s3.amazonaws.com/
+unstable11s/ruby-trunk/log/20151225T162507Z.diff.html.gz
