@@ -1,0 +1,2 @@
+r52691 で Queue#close の exception 引数を削除したのに対応して rdoc 用コメントの
+call-seq も修正しています。
