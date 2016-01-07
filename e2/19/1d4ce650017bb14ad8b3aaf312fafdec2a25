@@ -1,0 +1,2 @@
+String#chr のテストを追加しています。結構テストの抜けてるメソッドまだまだあるも
+んですね。 https://github.com/ruby/ruby/pull/1179
