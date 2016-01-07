@@ -1,0 +1,2 @@
+doc/marshal.rdoc で同じオブジェクトの参照が正しくロードで復元されることを説明し
+た英文を修正しています。 https://github.com/ruby/ruby/pull/1156
