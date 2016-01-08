@@ -1,0 +1,3 @@
+template/id.h.tmpl で require "optparse" していたのを削っています。確かにこのフ
+ァイル内では OptionParser 使ってませんね。 template/Doxyfile.tmpl では使ってい
+るけど。
