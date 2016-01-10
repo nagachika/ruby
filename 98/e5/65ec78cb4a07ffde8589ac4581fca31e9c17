@@ -1,0 +1,7 @@
+include/ruby/ruby.h で C++ 向けのコンパイル時に
+HAVE_BUILTIN___BUILTIN_CHOOSE_EXPR_CONSTANT_P と
+HAVE_BUILTIN___BUILTIN_TYPES_COMPATIBLE_P を #undef しておくようにしています。
+r43885 とか r47866 などでこの gcc 拡張を使ってランタイムの分岐を抑える最適化を
+使っていましたが、C++ ではこれらの拡張が使えないためヘッダで使っているところが
+C++ の拡張ライブラリのビルドでエラーになっていたようです。 [ruby-core:72736]
+[Bug #11962]
