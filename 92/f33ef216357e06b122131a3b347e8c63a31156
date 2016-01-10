@@ -1,0 +1,3 @@
+r53460 の rb_iseq_compile_with_option() で変数に volatile 修飾子をつける条件を
+少し変更して、gcc の 4.8 もしくは gcc 以外のコンパイラでは volatile をつけ、4.8
+以外の gcc では volatile を付けないようにしています。
