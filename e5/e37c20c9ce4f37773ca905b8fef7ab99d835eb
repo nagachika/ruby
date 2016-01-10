@@ -1,0 +1,5 @@
+struct heap_page の heap メンバを削ってかわりに flags に in_tomb というフラグを
+追加することで heap_page が tomb heap に所属していることを判定するようにしてい
+ます。また total_slots, free_slots, final_slots などのメンバは上限が heap_page
+内の slot 数までなので short で充分ということで型を変更してサイズを小さくしてい
+ます。
