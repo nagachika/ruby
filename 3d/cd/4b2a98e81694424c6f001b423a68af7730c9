@@ -1,0 +1,2 @@
+r53454 と同様の要素の比較の Fixnum と String での最適化を Enumerable#min と
+Enumerable#max でも適用しています。
