@@ -1,0 +1,7 @@
+r53314 あたりの version.h の RUBY_VERSION の定義方法の変更に tool/make-snapshot
+を対応させています。 RUBY_VERSION というマクロの定義を抜き取るようにしてました
+が、trunk (2.4) 以降は直接バージョンを書かなくなったので RUBY_API_VERSION_{
+MAJOR,MINOR,TEENY} の定義から抜き取る処理に fallback させるようにしています。
+RUBY_VERSION の定義から抜けたらそっちを使うので、古いブランチに対して使った時は
+これまでの処理が生きてくれるので trunk の tool/make-snapshot を安定版ブランチの
+リリースに使っても問題なさそうですね(ごく限られた人にしか関係ないことですが)。
