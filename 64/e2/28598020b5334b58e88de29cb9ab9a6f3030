@@ -1,0 +1,2 @@
+ext/rbconfig/sizeof/depend の sizes.c のターゲットに nmake 向けに {$(VPATH)} を
+追加していますが、これは次で revert されています。
