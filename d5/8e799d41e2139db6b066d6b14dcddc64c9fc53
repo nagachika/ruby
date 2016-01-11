@@ -1,0 +1,4 @@
+tool/mkconfg.rb で RbConfig::CONFIG の "MAJOR", "MINOR", "TEENY" は version.h
+の RUBY_VERSION から取得するようにして、include/ruby/version.h の
+RUBY_API_VERSION から取得していたのはやめています。ってことは "TEENY" はこれま
+で 0 固定(というか API Version の teeny)だったんですね。
