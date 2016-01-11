@@ -1,0 +1,3 @@
+configure で libruby のファイル名などに MAJOR, MINOR, TEENY をドットで繋げてい
+たところは RUBY_PROGRAM_VERSION というマクロを参照するようにリファクタリングし
+ています。
