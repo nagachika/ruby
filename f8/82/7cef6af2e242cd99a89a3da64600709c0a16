@@ -1,0 +1,2 @@
+gc.c の HEAP_XXX の定数名を PAGE_XXX に改名しています。また GC
+::INTERNAL_CONSTANTS で取得できる Hash のキーも同様に改名しています。
