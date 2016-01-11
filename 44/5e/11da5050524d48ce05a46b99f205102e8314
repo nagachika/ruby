@@ -1,0 +1,2 @@
+DTrace 用の probes.h を probes.dmyh からコピーしていたのを、.dmyh のファイルを
+#include で取り込むようにしています。これも並列ビルドがらみかなぁ。
