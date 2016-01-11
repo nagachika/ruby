@@ -1,0 +1,2 @@
+r53468 の PAGE_XXX からさらに HEAP_PAGE_XXX に改名しています。 PAGE_SIZE という
+定数名が OS X で衝突していたそうです。
