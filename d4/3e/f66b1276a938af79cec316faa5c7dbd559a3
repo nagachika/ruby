@@ -1,0 +1,7 @@
+configure および win32/setup.mak で MAJOR, MINOR, TEENY のマクロを
+RUBY_API_VERSION_{MAJOR,MINOR,TEENY} から切り取っていたのを version.h の
+RUBY_VERSION から取得するようにしています。こっちも TEENY は実際のリリースバー
+ジョンの teeny から取るようになるんですね。
+これはつまり r53474 で共有ライブラリのバージョンの teeny は ${TEENY} に依存しな
+いようにしたので ${TEENY} を 0 (RUBY_API_VERSION 由来)にする必要がなくなったか
+ら、ってことでしょうか。
