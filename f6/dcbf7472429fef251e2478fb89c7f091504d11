@@ -1,0 +1,2 @@
+r53482 のリベンジ。 ext/rbconfig/sizeof/depend の {$(VPATH)} の追加に伴う
+common.mk での sed のコマンドの修正がちょっと違うようです。
