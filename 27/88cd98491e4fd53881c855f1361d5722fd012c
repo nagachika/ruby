@@ -1,0 +1,6 @@
+r53499 で追加した ONIGENC_CASE_FOLD_XXX を利用して String#upcase, String#
+downcase, String#capitalize, String#swapcase など大文字小文字を変換するメソッド
+群に省略可能な引数として :ascii, :turkic, :lithuanian, :fold を指定可能にしてい
+ます。関連するチケットはないのかなぁ。今だと省略可能引数として追加するよりキー
+ワード引数などにしたほうが拡張性としては良い(さらに引数を追加する時に順番を気に
+しなくて良い)と思いますが。まあキーワード引数の解析は遅いみたいですが。
