@@ -1,0 +1,2 @@
+common.mk の rubyspec のリポジトリの URL の参照を修正しています。いろいろあって
+RubySpec は Ruby Spec Suite と改名したそうです。
