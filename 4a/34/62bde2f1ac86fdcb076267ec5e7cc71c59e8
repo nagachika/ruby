@@ -1,0 +1,3 @@
+Thread#name のテストで生成した Thread が sleep で状態が stop になるまで待つよう
+にしています。 inspect で文字列化した時に状態も入るので、それが変化して
+assertion にひっかかるのを防ぐようにしています。
