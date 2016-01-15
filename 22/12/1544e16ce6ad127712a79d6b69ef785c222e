@@ -1,0 +1,4 @@
+r53514 の iseqw_mark() の修正の再修正。やはり iseqw_mark() で iseq->body->
+parent_iseq を mark するのはやめて rb_iseq_mark で直接 parent_iseq を mark する
+ようにしています。もっと lambda でネストした環境で eval で作られた iseq が GC
+で回収される可能性が残っていたようです。 [ruby-core:72620] [Bug #11928]
