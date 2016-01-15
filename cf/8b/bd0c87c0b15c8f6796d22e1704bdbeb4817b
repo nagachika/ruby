@@ -1,0 +1,3 @@
+.travis.yml で make test-all の TESTOPTS で渡すオプションに --job-status=normal
+を追加して、テストの実行状態を \r で端末の同じ行を書き換える出力を抑制していま
+す。ログが長くなってしまうため Travis CI でエラーになってたみたいです。
