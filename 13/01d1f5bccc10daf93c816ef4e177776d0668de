@@ -1,0 +1,2 @@
+Kernel#sprintf の %f 指示子に Bignum で大きな数を渡した時に、Rational の時と同
+様に正確な数値を表示するようにしています。
