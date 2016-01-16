@@ -1,0 +1,4 @@
+Hash#initialize_copy で flags の HASH_PROC_DEFAULT をコピーするために、オリジナ
+ルの Hash のフラグがで分岐していたのを、一旦 FL_UNSET() でクリアしてオリジナル
+のフラグをそのままセットするようにして分岐を削り、また FL_SET_RAW() を用いて
+special constant のチェックを省くようにして最適化しています。
