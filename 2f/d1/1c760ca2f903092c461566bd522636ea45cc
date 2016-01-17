@@ -1,0 +1,2 @@
+.gdbinit に dump_node というコマンドを追加して NODE を rb_parser_dump_tree() で
+文字列化した結果を表示できるようにしています。
