@@ -1,0 +1,3 @@
+r53537 で移動した basictest の出力するメッセージに sample/test.rb というファイ
+ル名が残っていたのでこれも test/basictest.rb に変更しています。
+[ruby-core:72823] [Feature #11982]
