@@ -1,0 +1,8 @@
+regint.h の PLATFORM_UNALIGNED_WORD_ACCESS というマクロ定義に
+UNALIGNED_WORD_ACCESS というマクロを参照するようにしています。プラットフォーム
+によらず -DUNALIGNED_WORD_ACCESS=0 をつけてビルドすることでアライメントに厳格な
+プラットフォームと同じソースコードを利用できるようにしています。
+PLATFORM_UNALIGNED_WORD_ACCESS が定義されていない場合のコードにビルドエラーにな
+るようなミスあるのに気がつけるようにというようなチェック目的かな、と思ったので
+すが、gcc 6 でのビルドエラーへの対策のために入れたみたいですね。
+[ruby-core:72211] [Bug #11831]
