@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DH に 2048-bit の DH 鍵のサポートを追
+加しています。
