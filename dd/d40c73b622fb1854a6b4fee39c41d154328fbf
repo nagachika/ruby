@@ -1,0 +1,3 @@
+test/ruby/test_env.rb の Env#reject! と Env#delete_if のテストメソッドを分ける
+ようにしています。また環境変数名の大文字小文字の区別についてのチェックを追加し
+ています。 https://github.com/ruby/ruby/pull/1201
