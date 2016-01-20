@@ -1,0 +1,2 @@
+String#rstrip! と String#lstrip! のテストに非 ASCII 文字を含む文字列についての
+テストケースを追加しています。 https://github.com/ruby/ruby/pull/1178
