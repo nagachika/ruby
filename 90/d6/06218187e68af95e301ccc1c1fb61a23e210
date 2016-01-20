@@ -1,0 +1,3 @@
+template/unicode_norm_gen.tmpl で生成するスクリプトの frozen_string_literal:
+true の magic comment に "-*- ... -*-" の indicator を付けていたのを削っていま
+す。 r52208 で indicator が不要になったので、ここでもそれに追随しています。
