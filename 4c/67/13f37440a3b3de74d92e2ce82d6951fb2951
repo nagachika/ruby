@@ -1,0 +1,3 @@
+String#split の rdoc 用コメントのクオート記号の不一致修正。クオートの始端と終端
+が別の記号なのは自然言語の時はありますけどね。 https://github.com/ruby/ruby/
+pull/1202
