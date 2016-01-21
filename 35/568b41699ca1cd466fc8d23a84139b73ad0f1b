@@ -1,0 +1,3 @@
+r53524 で追加されたネストした環境の ISeq の mark 処理のテスト test/ruby/
+test_iseq.rb の test_parent_iseq_work でタイムアウトをのばしています。 ARMv7 で
+の CI のテストが失敗していたそうです。
