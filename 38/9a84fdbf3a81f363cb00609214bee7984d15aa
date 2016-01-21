@@ -1,0 +1,2 @@
+respond_to? の定義がひとつしか引数を受け付けないように定義されていた時の警告の
+文法修正。 https://github.com/ruby/ruby/pull/1047
