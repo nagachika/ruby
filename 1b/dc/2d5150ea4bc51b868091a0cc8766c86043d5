@@ -1,0 +1,6 @@
+tool/vcs.rb で VCS::GIT.detect でリポジトリの working copy を検出するために .
+git を探すところで、.git がファイルでも検出できるようにしています。
+Git 2.6 からの worktree という機能で作られた作業ディレクトリに作られる .git は
+ディレクトリではなくてファイルなので、この worktree も working copy として扱え
+るようにしているようです。Git の worktree 機能を知りませんでした。作業中に急遽
+別の修正などを実施するのに便利ですね。
