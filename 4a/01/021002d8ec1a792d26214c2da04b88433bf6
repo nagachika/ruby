@@ -1,0 +1,2 @@
+vm_core.h で定義しています VM_ASSERT() を r53615 で追加した RUBY_ASSERT_WHEN()
+を使って実装するように変更しています。
