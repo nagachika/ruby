@@ -1,0 +1,3 @@
+r53620、r53621、r53622 などの win32/configure.bat の改行コード変換の問題ですが
+svn:eol-style という svn property に設定することで変換を回避するようにしたよう
+です。 svn: の prefix が必要だったんですね。
