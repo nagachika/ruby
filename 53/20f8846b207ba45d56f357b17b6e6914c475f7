@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の IO#wait_readable のテストを追加しています。
