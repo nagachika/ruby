@@ -1,0 +1,2 @@
+r53633 の make update-unicode のリベンジ。どうやら RubyCI は無事みたいなので大
+丈夫そうですね。 [Bug #12007]
