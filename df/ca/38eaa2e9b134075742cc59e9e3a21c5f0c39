@@ -1,0 +1,4 @@
+文字列から Symbol を生成する時に ASCII 非互換な文字を含むかどうかチェックする
+sym_check_asciionly() で coderange が ENC_CODERANGE_BROKEN になっていて判定でき
+ない時の例外メッセージに Encoding 名と文字列自体を inspect したものを含めるよう
+にしています。 [ruby-core:73398] [Feature #12016]
