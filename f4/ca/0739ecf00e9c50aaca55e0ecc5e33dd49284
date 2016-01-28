@@ -1,0 +1,6 @@
+r51903 で rb_call_info_t を struct rb_call_info と struct rb_call_info_kw_arg
+という構造体に分離した時に VM の命令 send/invokesuper の blockiseq のオペランド
+の順番が 3つ目に変更されていたのに、iseq_peephole_optimize() でブロックの有無を
+チェックするのに2つ目のオペランドをチェックしてしまっていたため、本来 tailcall
+optimization を行なってはいけないところで適用してしまっていたのを修正しています
+。 [ruby-core:73413] [Bug #12018]
