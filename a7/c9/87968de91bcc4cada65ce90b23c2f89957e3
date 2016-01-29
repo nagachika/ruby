@@ -1,0 +1,1 @@
+r53669 の OnigCodePointCount() の bit mask を 0x7 に修正しています。
