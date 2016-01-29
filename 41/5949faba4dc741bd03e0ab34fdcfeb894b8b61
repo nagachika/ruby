@@ -1,0 +1,5 @@
+enc/unicode.c で CodePointList3::no に格納するバイト数の取る範囲は小さいので下
+位3bit だけ使うようにして OnigCodePointCount() というマクロを使って取り出すよう
+に変更しています。これによって残った bit を他のフラグとして流用できるように、と
+いう意図のようです。しかし OnigCodePointCount() で mask しているビットパターン
+が 0x111 でちょっと変ですね。(0b111 の意図でしょうけど)
