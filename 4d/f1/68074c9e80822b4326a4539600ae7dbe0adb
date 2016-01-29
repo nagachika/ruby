@@ -1,0 +1,2 @@
+Array#dig の rdoc 用コメントのサンプルで発生する例外が間違っていたところを修正
+しています。 https://github.com/ruby/ruby/pull/1224
