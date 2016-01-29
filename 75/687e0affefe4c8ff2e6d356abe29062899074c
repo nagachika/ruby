@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile の Tempfile.new の rdoc 用コメントを第1引数が省略可
+能になっているのに追随させています。 https://github.com/ruby/ruby/pull/1225
