@@ -1,0 +1,3 @@
+File.realpath のテストで symbolic link を作るため File.symlink を呼んでいるとこ
+ろで権限不足で Errno::EACCES が発生する時に skip するようにしています。 Windows
+ではユーザが管理者権限を持っていないと場所にかかわらず失敗するからとのこと。
