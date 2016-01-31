@@ -1,0 +1,3 @@
+標準添付ライブラリ erb の ERB#def_method で src に magic comment が付加されてい
+る場合を考慮してメソッド定義の def 文を先頭のコメントの後の行に追加するようにし
+ています。 https://github.com/ruby/ruby/pull/1229
