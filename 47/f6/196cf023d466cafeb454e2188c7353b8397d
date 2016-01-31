@@ -1,0 +1,2 @@
+Windows 版の File.symlink? で mount point を symlink として誤検出していたのを修
+正しています。 [ruby-core:72483] [Bug #11874]
