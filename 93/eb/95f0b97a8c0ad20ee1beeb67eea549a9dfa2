@@ -1,0 +1,2 @@
+Enumerable#take_while と Enumerable#drop_while の rdoc 用コメントの説明のブロッ
+クパラメータの名称を変更しています。 https://github.com/ruby/ruby/pull/1226
