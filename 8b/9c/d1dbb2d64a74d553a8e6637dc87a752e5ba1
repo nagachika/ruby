@@ -1,0 +1,2 @@
+symbolic link に対する File.lstat と File#lstat のテストを追加しています。
+https://github.com/ruby/ruby/pull/1231
