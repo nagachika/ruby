@@ -1,0 +1,3 @@
+Windows 用の rb_w32_read_reparse_point() で mount point の場合の先頭の "\??\"
+の4文字を削るための操作で 4 という数がマジックナンバー化していたので
+rb_strlen_lit() を使って定数化するようにしています。
