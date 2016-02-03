@@ -1,0 +1,5 @@
+RubyGems の 2.5.2 をマージしています。変更点はこちらを参照してください。 https:
+//github.com/rubygems/rubygems/blob/a8aa3bac723f045c52471c7b9328310a048561e0/
+History.txt#L3 という感じで久々に大きな差分のあるマージでした。
+frozen-string-literal: false だった magic comment を true に変更して、文字列リ
+テラルが freeze された状態で動くようにしたみたいです。
