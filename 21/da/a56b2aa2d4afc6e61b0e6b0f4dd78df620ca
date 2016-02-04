@@ -1,0 +1,3 @@
+struct RRegexp のメンバ ptr にアクセスするマクロ RREGEXP_PTR() を定義して、既存
+の RREGEXP_SRC() とあわせて直接メンバにアクセスせずにこのマクロを利用するように
+リファクタリングしています。 https://github.com/ruby/ruby/pull/497
