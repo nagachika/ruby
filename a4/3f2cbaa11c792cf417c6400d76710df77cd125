@@ -1,0 +1,3 @@
+拡張ライブラリ ripper の Ripper::Lexer#on_heredoc_dedent でインデント除去ヒアド
+キュメントのトークンを得る時の不具合修正。 https://github.com/ruby/ruby/pull/
+1234
