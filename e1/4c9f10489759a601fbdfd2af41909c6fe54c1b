@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の Init_ossl_pkey() のコメントの typo 修正。 https://
+github.com/ruby/ruby/pull/1235
