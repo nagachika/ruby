@@ -1,0 +1,3 @@
+r53562 の Unicode の Encoding での String#downcase などの大文字小文字についての
+変換のオプション対応で onigenc_unicode_case_map() で :ascii オプションが指定さ
+れていたら :turkish などの特別処理をしないように条件を追加しています。
