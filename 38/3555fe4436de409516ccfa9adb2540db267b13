@@ -1,0 +1,3 @@
+include/ruby/encoding.h の rb_enc_asciicompat() の定義を
+rb_enc_asciicompat_inline() という inline 関数に切り出してこの呼び出しにマクロ
+展開されるようにしています。引数が複数回評価されるのを避けるためとのこと。
