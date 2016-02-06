@@ -1,0 +1,2 @@
+common.mk の Unicode 定義用ファイルのパスの指定のための変数 UNICODE_DATA_DIR と
+UNICODE_SRC_DATA_DIR を導入しています。
