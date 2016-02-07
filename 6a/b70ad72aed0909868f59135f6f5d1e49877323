@@ -1,0 +1,2 @@
+r53740 の String#upcase, #downcase, #swapcase, #capitalize などのメソッドの :
+ascii オプションの指定についての修正に関するテスト追加と思われます。
