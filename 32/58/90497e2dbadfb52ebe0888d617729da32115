@@ -1,0 +1,3 @@
+r53756 で追加した test/ruby/enc/test_regex_casefold.rb で CaseFolding.txt を読
+み込む時に ASCII-8BIT で読み込むように encoding の指定オプションを追加していま
+す。
