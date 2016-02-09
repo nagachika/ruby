@@ -1,0 +1,3 @@
+r53764 に追加して enc/unicode/case-folding.rb の print_table というメソッドに
+CaseMapping を渡すようにして、表示する文字列に flags を埋め込むようにしています
+(今は flags は常に空文字列なので実際には何も変化していません)。
