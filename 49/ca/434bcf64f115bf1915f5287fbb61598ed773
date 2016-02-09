@@ -1,0 +1,5 @@
+enc/unicode/casefold.h の依存関係に UnicodeData.txt と SpecialCasing.txt という
+ファイルも追加して enc/unicode/case-folding.rb で UnicodeData.txt を読み込んで
+MapItem というクラスのインスタンスを CaseMapping に保持するようにしています。し
+かし結局 MapItem#flags は常に空文字列なので、まだ実際の動作には影響していないよ
+うです。あと SpecialCasing.txt はまだ読んでないですね。
