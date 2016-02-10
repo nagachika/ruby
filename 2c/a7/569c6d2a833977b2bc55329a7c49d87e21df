@@ -1,0 +1,6 @@
+String#downcase で省略可能引数に :fold を指定した場合内部的な flags には
+ONIGENC_CASE_DOWNCASE と ONIGENC_CASE_FOLD の論理和が渡されていたのを、
+ONIGENC_CASE_FOLD だけビットを立てるようにしています。 ONIGENC_CASE_FOLD が
+downcase であるという意味を内包するようにしているってことだと思います。しかし
+onigenc_unicode_case_map で flags のチェックを1箇所だけ変更していますが、その下
+の code==I_WITH_DOT_ABOVE の時のところとかはいいのかなぁ。
