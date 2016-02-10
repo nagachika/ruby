@@ -1,0 +1,3 @@
+enc/unicode/case-folding.rb で生成するヘッダファイルの flags に CaseFolding.txt
+から得た type に応じて ONIGENC_CASE_FOLD のフラグを追加するように処理を加えて、
+enc/unicode/casefold.h を生成し直したものをコミットしています。
