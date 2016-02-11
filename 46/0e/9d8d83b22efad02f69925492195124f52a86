@@ -1,0 +1,3 @@
+標準添付ライブラリ logger の Logger#add の未使用だったブロック引数を削除してい
+ます(yield でブロックを起動していた)。 https://github.com/ruby/ruby/pull/1240
+[ruby-core:73709] [Bug #12054]
