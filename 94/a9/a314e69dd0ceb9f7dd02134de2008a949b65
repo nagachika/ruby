@@ -1,0 +1,3 @@
+Windows で ruby スクリプトを含みつつ実行可能な bat ファイルでもあるファイル群を
+生成する tool/mkrunnable.rb で symbolic link の生成前に既存の link を削除するよ
+うにしています。
