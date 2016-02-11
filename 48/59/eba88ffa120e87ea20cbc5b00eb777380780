@@ -1,0 +1,2 @@
+ruby の --enable/--disable オプションの feature 名のあいまいな時のメッセージに
+使う ADD_FEATURE() というマクロ名を ADD_FEATURE_NAME() に改名しています。
