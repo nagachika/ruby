@@ -1,0 +1,2 @@
+.gdbinit の rp_imemo コマンドで method entry と iseq 用の imemo の表示に対応し
+ています。
