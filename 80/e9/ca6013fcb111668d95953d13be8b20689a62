@@ -1,0 +1,2 @@
+ruby の --dump オプションでも --enable/--disable と同様に EACH_DUMPS() というマ
+クロを定義して dump 方式の名前をまとめて1ヶ所に書くようにしています。
