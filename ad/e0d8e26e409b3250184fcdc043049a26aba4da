@@ -1,0 +1,3 @@
+ruby の --debug オプションの feature 名も --enable/--disable と同じように
+EACH_DEBUG_FEATURES() というマクロを導入して1ヶ所で名前のリストを定義するように
+しています。まあ今は frozen_string_literal の 1つしかないのですが。
