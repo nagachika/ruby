@@ -1,0 +1,2 @@
+shell 力か autoconf 力が足りなくて何やっているのかよくわからないのですが、
+universal binary での型の sizeof の検出の変更をしています。
