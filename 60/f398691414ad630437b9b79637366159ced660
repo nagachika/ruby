@@ -1,0 +1,3 @@
+r53801 の configure.in の変更のうち confdefs.h に #ifdef で HAVE_XXX をチェック
+するのを出力する部分を削除しています。 RUBY_CHECK_SIZEOF() ではこのマクロを定義
+せず $ac_cv_sizeof_xxx を利用するので不要だったとのこと。
