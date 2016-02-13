@@ -1,0 +1,3 @@
+configure で universal binary で複数のアーキテクチャのうち一部でだけ使える整数
+型の RUBY_DEFINT() や RUBY_CHECK_SIZEOF() でのチェック用ソースコードにやっぱり
+#ifdef の分岐を入れるようにしているようです。
