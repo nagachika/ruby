@@ -1,0 +1,2 @@
+NameError.new と NoMethodError.new の rdoc 用コメントで call-seq に省略可能なオ
+プションについて反映させています。
