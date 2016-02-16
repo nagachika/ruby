@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf の Mkmf#with_cppflags, #with_cflags, #with_ldflags など
+で引数に渡しているオプションの文字列を破壊的操作で変更してしまうのを避けるため
+dup しておくようにしています。 https://github.com/ruby/ruby/pull/1246
