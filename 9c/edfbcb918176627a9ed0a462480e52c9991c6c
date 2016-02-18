@@ -1,0 +1,2 @@
+tool/rbinstall.rb の Windows 向けドライブレター対応をしたので不要になった行を削
+っています。 https://github.com/ruby/ruby/commit/0e5f9ae#commitcomment-16101763
