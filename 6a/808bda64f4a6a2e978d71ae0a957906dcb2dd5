@@ -1,0 +1,3 @@
+nc/unicode/case-folding.rb で flags を決めるときに type が CaseUnfold_11 の時に
+最初の要素だけ利用するようにしています(よくわからないですが)。で casefold.h も
+再生成しています。
