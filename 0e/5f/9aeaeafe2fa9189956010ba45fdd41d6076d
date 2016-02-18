@@ -1,0 +1,3 @@
+r49270 の再修正。 tool/rbinstaller.rb で Windows 向けにドライブレターの考慮を追
+加しています。 https://github.com/ruby/ruby/commit/d0cf23b#
+commitcomment-16100407
