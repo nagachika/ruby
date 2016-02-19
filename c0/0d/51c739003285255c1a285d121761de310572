@@ -1,0 +1,2 @@
+test/lib/test/unit/assertions.rb の assert_no_memory_leak で memory_status.rb
+を require_relative でロードする時のパスがずれていたのを修正しています。
