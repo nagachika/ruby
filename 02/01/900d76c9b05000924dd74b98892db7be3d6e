@@ -1,0 +1,3 @@
+特殊変数の $~ と $_ も組み込みの ID として defs/id.def で作っておくようにして、
+動的に rb_intern() で ID を作っていたところを idBACKREF とか idLASTLINE を使う
+ようにしています。
