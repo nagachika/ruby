@@ -1,0 +1,2 @@
+r53847 の続きで coerce_rescue() と coerce_rescue_quiet はさらに errinfo の引数
+も受け取るように型を変更しています。
