@@ -1,0 +1,3 @@
+標準添付ライブラリ cgi の CGI.unescape も ASCII-compatible なエンコーディングの
+時に拡張ライブラリ化して高速化しています。 https://github.com/ruby/ruby/pull/
+1250
