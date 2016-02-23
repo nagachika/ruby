@@ -1,0 +1,3 @@
+拡張ライブラリ cgi の CGI.unescapeHTML も ASCII-compatible なエンコーディングの
+場合に拡張ライブラリ化によって高速化しています。 https://github.com/ruby/ruby/
+pull/1242
