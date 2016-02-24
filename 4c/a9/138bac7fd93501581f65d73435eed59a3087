@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb に title-case のフラグを出力する機能を追加して
+casefold.h を再作成しています。
