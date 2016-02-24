@@ -1,0 +1,4 @@
+process_options() で rb_parser_append_print() および rb_parser_while_loop() と
+いう関数を呼び出す時に PREPARE_PARSE_MAIN() というマクロを使って rb_env_t で
+TOPLEVEL_BINDING をセットして呼び出していたのをやめています。これらの関数は
+ruby の context は利用しないので不要だったみたいです。
