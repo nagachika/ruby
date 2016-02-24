@@ -1,0 +1,3 @@
+r53767 で enc/unicode/case-folding.rb に追加した CaseMapping#initialize の不具
+合修正と casefold.h の再作成。正規表現のマッチに行頭という指定がなかったので余
+分な flags が出力されてしまっていたようです。
