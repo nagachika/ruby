@@ -1,0 +1,3 @@
+internal.h に struct RRational::num と struct RRational::den に write barrier
+つきでセットするマクロ RRATIONAL_SET_NUM() と RRATIONAL_SET_DEN() というマクロ
+を定義しています。
