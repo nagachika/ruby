@@ -1,0 +1,2 @@
+Math のテストで Fixnum/Bignum/Rational などの to_f メソッドを上書きしていたのを
+戻す処理を ensure 節にして、確実に戻すようにしています。
