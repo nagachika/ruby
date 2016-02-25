@@ -1,0 +1,4 @@
+Thread 内の例外発生時の $DEBUG=true による警告のテストで EnvUtil.invoke_ruby を
+起動する引数にオプションが空白区切りで渡されていたのを、配列で渡すように修正し
+ています。むむ、なるほど "warning: unknown argument for ..." の警告が出るだけだ
+ったので気がつかなかったんですね。
