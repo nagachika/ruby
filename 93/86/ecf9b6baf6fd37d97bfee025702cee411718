@@ -1,0 +1,2 @@
+拡張ライブラリ psych のテストで JRuby の parser だとエラーになってしまうので
+Psych::Emitter#start_stream を最初に呼んでおくようにしています。
