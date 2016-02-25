@@ -1,0 +1,3 @@
+enc/unicode/case-folding.rb で casefold.h を生成する時に Unicode 関連のダウンロ
+ードファイル SpecialCasing.txt の内容を呼んでそれに応じた flag を持たせるように
+しています。これが一連の Unicode の casefold.h がらみの変更のゴールですかね。
