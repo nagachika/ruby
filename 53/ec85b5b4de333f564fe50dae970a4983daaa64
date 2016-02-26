@@ -1,0 +1,3 @@
+Float#to_s や Fixnum#to_s の実装で文字列のサイズがわかっている場合に
+rb_usascii_str_new2() ではなくサイズも指定する rb_usascii_str_new() を呼ぶよう
+にして余分な strlen(3) の呼び出しを抑制しています。
