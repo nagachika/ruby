@@ -1,0 +1,3 @@
+struct parser_params::compile_option に保持する Hash オブジェクトを rb_obj_hide
+() で klass を NULL にして内部オブジェクトにしています(ObjectSpace.each_object
+に表れないようにする)。
