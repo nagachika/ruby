@@ -1,0 +1,5 @@
+メソッドの再定義を判定する rb_method_basic_definition_p() で引数の klass が
+NULL の時は ObjectSpace.each_object から隠すための内部オブジェクトで、そのメソ
+ッドが再定義されることはないはずなので、rb_method_entry() を呼び出すまえに TRUE
+を返すように分岐を追加しています。内部オブジェクトをうっかり渡すと SEGV する危
+険があったみたいです。
