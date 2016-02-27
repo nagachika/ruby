@@ -1,0 +1,3 @@
+r53906 で casefold.h に生成するようにした titlecase のインデックスを利用するよ
+うにしています。ついでにマクロ定義を enc/unicode.c から include/ruby/
+oniguruma.h に移動したりしています。
