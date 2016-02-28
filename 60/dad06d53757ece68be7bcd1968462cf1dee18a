@@ -1,0 +1,3 @@
+Numeric#step の刻み幅の引数に String など数値と比較できないオブジェクトを渡した
+時の例外が ArgumentError だったのを TypeError を発生させるようにしています。
+[ruby-core:62430] [Bug #9810]
