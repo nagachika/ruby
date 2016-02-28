@@ -1,0 +1,3 @@
+doc/extension(.ja).rdoc の末尾の emacs 向け? の directive を削除しています。
+rdoc のレンダリングがエラーになってたみたいです。 [ruby-core:73990] [Bug #
+12111]
