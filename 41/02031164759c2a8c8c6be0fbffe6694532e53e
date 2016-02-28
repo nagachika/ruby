@@ -1,0 +1,5 @@
+2.3 から標準添付されるようになった did_you_mean.gem を gem_prelude.rb で
+require する前に gem 'did_you_mean' で activate するようにしています。これによ
+り $LOAD_PATH に必要なパスが追加されるので require での system call 数を減らし
+高速化できるとのこと。コミットログに詳細な説明があります。なるほど gem を呼んで
+おいたほうが高速なんですねぇ。
