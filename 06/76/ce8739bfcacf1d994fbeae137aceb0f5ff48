@@ -1,0 +1,3 @@
+標準添付ライブラリ xmlrpc の rdoc 用コメントから NQXML という parser の実装を削
+除しています。 https://github.com/ruby/ruby/pull/1245 [ruby-core:59593]
+[Feature #9371]
