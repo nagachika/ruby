@@ -1,0 +1,2 @@
+Array#& と Array#| の rdoc 用コメントの記述をより明確にしています。 https://
+github.com/ruby/ruby/pull/1273
