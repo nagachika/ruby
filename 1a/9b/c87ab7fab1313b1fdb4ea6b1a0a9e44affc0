@@ -1,0 +1,1 @@
+configure.in で cflags と cppflags の先頭の空白を除去しているそうです。
