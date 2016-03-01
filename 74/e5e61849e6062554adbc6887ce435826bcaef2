@@ -1,0 +1,2 @@
+test/ruby/test_exception.rb の test_name_error_info を複数のテストメソッドに分
+割しています。
