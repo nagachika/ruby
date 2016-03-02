@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils の LowMethods という Module で dry run を実現する
+ため空のメソッドを実装しているところで module_eval で必要なメソッドを全て定義し
+ていたのを _do_nothing というメソッドを1つ定義して、全てそのメソッドへの alias
+として定義しなおすように変更しています。
