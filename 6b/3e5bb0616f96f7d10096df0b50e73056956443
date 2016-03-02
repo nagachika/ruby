@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils で Verbose, NoWrite, DryRun などの Module でクラス
+メソッドに public 宣言をするところで each でループを回してひとつひとつ public
+を呼び出していたのを public は複数の引数を受け取れるので配列を展開して1度に引数
+に渡すように効率化しています。
