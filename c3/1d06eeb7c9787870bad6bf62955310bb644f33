@@ -1,0 +1,2 @@
+Array#push の rdoc 用コメントのサンプルコードで配列リテラルの最後の要素の後にカ
+ンマがあったのを修正しています。 https://github.com/ruby/ruby/pull/1279
