@@ -1,0 +1,3 @@
+vm_method.c の prepare_callable_method_entry() で VM_ASSERT() による cme という
+変数のチェックを分岐の後にしていたのですが、一部の分岐の中では既に同じチェック
+をしていたので、同様に代入の直後に移動させています。
