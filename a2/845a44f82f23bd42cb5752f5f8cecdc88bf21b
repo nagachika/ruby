@@ -1,0 +1,4 @@
+同じく標準添付ライブラリ xmlrpc から XML パーサーの XMLScanStreamParser のサポ
+ートを削っています。 https://github.com/ruby/ruby/pull/1271 [ruby-core:59588]
+[Bug #9369]
+結局今サポートされてるのは REXML と libxml (LibXMLStreamParser) ですね。
