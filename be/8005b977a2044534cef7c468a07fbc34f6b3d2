@@ -1,0 +1,3 @@
+vm_call0_body() で struct rb_call_cache::me のタイプが VM_METHOD_TYPE_MISSING
+の時の method_missing メソッドの呼び出しは専用の関数 method_missing() を利用す
+るようにリファクタリングしています。ちょっと処理も違うみたいですが。
