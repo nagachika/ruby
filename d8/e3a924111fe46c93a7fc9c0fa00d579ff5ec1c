@@ -1,0 +1,3 @@
+標準添付ライブラリ xmlrpc のサポートするパーサー実装から最新の Ruby でビルドで
+きない XMLTreeParser (Expat) のサポートを削っています。 https://github.com/ruby
+/ruby/pull/1271 [ruby-core:59590] [Bug #9370]
