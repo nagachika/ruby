@@ -1,0 +1,3 @@
+vm_eval.c の method_missing() で NoMethodError 例外を発生させるために method
+entry を検索するので、rb_funcall2() ではなく vm_call0() を使ってメソッド呼び出
+しするようにして処理の重複を省いています。
