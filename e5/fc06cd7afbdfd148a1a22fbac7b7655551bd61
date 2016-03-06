@@ -1,0 +1,3 @@
+test/ruby/test_io_m17n.rb のテストで assert_in_out_err で子プロセスを起動する時
+のタイムアウトが 1秒に設定されていたところを 10秒にしています。 JRuby 向けでし
+ょうね。
