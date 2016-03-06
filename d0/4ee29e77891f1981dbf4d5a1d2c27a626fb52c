@@ -1,0 +1,3 @@
+r53996 の再修正。 gc_mode を enum から unsingned int の bit field に指定を変更
+して bit 数を 2 に戻しています。そうか確か enum は int と互換という仕様だったは
+ず。
