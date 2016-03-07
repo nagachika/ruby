@@ -1,0 +1,2 @@
+AIX で getaddrinfo(3) の IN6_IS_ADDR_V4COMPAT と IN6_IS_ADDR_V4MAPPED の対応の
+不具合があるそうで socket の対応するテストでも skip を追加しています。
