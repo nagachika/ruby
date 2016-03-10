@@ -1,0 +1,2 @@
+拡張ライブラリ tk の tkextlib/blt/tree.rb で initialize メソッド名を typo して
+いたのを修正しています。
