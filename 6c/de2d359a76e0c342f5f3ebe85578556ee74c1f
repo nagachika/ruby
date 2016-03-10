@@ -1,0 +1,2 @@
+alias した時に起動される Module#method_added の時点で method entry に元のメソッ
+ド名のIDがセットされた状態で呼ばれるように修正しています。
