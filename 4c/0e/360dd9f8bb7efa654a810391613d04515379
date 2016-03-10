@@ -1,0 +1,3 @@
+test/ruby/test_array.rb の Array#repeated_permutation についてのテストメソッド
+を分割しています。また子プロセスを起動する assert_separately を使っているところ
+で timeout を 30秒に伸ばしています。
