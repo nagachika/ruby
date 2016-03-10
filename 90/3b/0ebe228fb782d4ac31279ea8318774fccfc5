@@ -1,0 +1,2 @@
+拡張ライブラリ tk の tkextlib/tcllib/toolbar.rb でも initialize メソッドのメソ
+ッド名を typo していたのを修正しています。 [ruby-core:72511] [Bug #11891]
