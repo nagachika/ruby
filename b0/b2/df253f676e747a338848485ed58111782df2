@@ -1,0 +1,4 @@
+同じく rb_w32_write_console() で WriteConsoleW() のエラーをチェックするのに
+GetLastError() をみて未実装(ERROR_CALL_NOT_IMPLEMENTED)だったら disable フラグ
+をたてて次からなにもせず -1 を返すようにしていたのを削除しています。 Windows 9X
+のサポートのための部分だったようです。 disable 変数はもう不要みたいですね。
