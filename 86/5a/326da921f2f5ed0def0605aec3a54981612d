@@ -1,0 +1,2 @@
+Hashを rb_hash_dup() で複製する時に作成するオブジェクトの flags に Write
+Barrier のフラグをセットして作るようにしています。
