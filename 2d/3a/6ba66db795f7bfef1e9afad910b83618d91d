@@ -1,0 +1,2 @@
+さらに hash.c にデフォルト値用の flags のビットフラグと ifnone の設定をコピーす
+るマクロ COPY_DEFAULT() を導入しています。
