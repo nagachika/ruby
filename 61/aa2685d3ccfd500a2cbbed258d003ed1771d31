@@ -1,0 +1,4 @@
+benchmark/driver.rb にメモリ使用量のベンチマーク機能で計測する metrics を指定す
+る --measure-target オプションを追加しています。 real, peak, size といった引数
+が指定できて、テスト用のライブラリ test/lib/memory_status.rb を再利用しているよ
+うです。
