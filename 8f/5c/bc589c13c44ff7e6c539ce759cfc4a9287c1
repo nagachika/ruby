@@ -1,0 +1,5 @@
+test/io/wait/test_io_wait.rb の test_wait_readwrite_timeout というテストで IO#
+wait が AIX では select(2) で pipe の書き込み側の fd についても書き込み可能とし
+て判定されてしまうため assertion の条件を変更しています。このテスト自体は IO#
+wait のタイムアウトの挙動をテストするためのものですが、AIX では pipe を使ってこ
+の挙動を確認できないようです。
