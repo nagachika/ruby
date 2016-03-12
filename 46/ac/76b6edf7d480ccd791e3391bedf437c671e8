@@ -1,0 +1,2 @@
+rb_compile_option_t の各メンバは on/off のフラグなのでそれぞれで int を使ってい
+たのを bit field を使って圧縮しています。
