@@ -1,0 +1,3 @@
+r54090 でも利用するようにしてた CodePointListValidP() ですがチェックの条件に等
+号が抜けてて最後の1つが valid と判定されなくなっていたのを修正。ってことは
+OnigCodePointCount() は 1 オリジンなんですね。
