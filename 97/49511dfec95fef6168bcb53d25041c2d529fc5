@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#setup の rdoc 用コメントにこ
+れが MT-unsafe であることを追記しています。 [ruby-core:73803] [Bug #12069]
