@@ -1,0 +1,2 @@
+r54092 の rb_fix2str() の LONG_MIN の時の対応を分岐せずに unsigned long に変換
+するように最適化しています。
