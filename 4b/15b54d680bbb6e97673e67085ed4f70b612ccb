@@ -1,0 +1,3 @@
+r54085 の続き。enc/unicode/case-folding.rb で生成するようにしたフラグのマクロを
+enc/unicode.c でもちゃんと参照するように定義しています。またこのために include/
+ruby/oniguruma.h でビットフラグの幅の変更にあわせてマクロ定義を変更しています。
