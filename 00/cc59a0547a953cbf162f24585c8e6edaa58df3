@@ -1,0 +1,4 @@
+enc/unicode.c で CaseMappingSpecials.txt からのデータを元にしたフラグを利用する
+マクロがちゃんとフラグを参照するように定義しています。また
+onigenc_unicode_case_map() で特殊な casemap のフラグをみて処理を分岐するように
+しています。 r54101 はまだフラグを利用するようにはなってなかったんですね。
