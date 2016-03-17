@@ -1,0 +1,5 @@
+gc.c に rb_objspace_of() というマクロを追加して rb_vm_t から objspace を取り出
+すのをマクロ化しています。また gc_finalize_deferred_register() の引数に
+rb_objspace_t のポインタを受け取るよう追加して finalizer の登録を object space
+を認識して行うようにしています。 ChangeLog に後者の変更が書かれてないですね。こ
+ちらのほうが本命のような気がしますけど。
