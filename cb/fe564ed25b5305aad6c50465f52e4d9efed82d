@@ -1,0 +1,2 @@
+gc.c で rb_gc_mark_locations() という gc_mark_locations() の wrapper マクロを展
+開してマクロ定義を削除しています。
