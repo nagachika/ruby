@@ -1,0 +1,2 @@
+同じく String#upcase, #downcase, #capitalize のテストで cherokee (チェロキー文
+字?)を含む文字列に対するものを追加しています。
