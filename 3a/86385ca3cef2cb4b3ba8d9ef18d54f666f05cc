@@ -1,0 +1,3 @@
+r54129 で更新した trans/*.src の一部に © や ® など非 ASCII 文字が含まれていたの
+で tool/transcode-tblgen.rb 読み込む時にバイナリモードで open するように修正し
+ています。
