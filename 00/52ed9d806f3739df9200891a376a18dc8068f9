@@ -1,0 +1,3 @@
+String#upcase, #downcase, #capitalize, #swapcase などのテストに特殊な文字を含む
+文字列を使ったテストを追加し、既存のテストで文字列の破壊的操作メソッドを呼ぶ前
+に dup してなかったのを修正しています。
