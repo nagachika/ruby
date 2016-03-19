@@ -1,0 +1,2 @@
+r54112 で追加した enc/unicode.c のマクロ OnigSpecialIndexMask() と I() の不具合
+と実装漏れの修正。
