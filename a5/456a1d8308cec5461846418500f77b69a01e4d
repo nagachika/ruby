@@ -1,0 +1,4 @@
+gc.c でプロファイル用に使っている tick_t という型を、powerpc64 アーキテクチャで
+の tick_t 型の定義に unsigned long long を利用するように条件コンパイルの分岐を
+増やしています。大きいサイズが使えたほうがわずかながらパフォーマンスが良いみた
+いですね。 https://github.com/ruby/ruby/pull/1291
