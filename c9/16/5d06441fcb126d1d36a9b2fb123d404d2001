@@ -1,0 +1,2 @@
+Marshal.load で不正なオブジェクトの参照(link)が読み込まれた時に SEGV せずに
+ArgumentError 例外を発生させるように修正しています。
