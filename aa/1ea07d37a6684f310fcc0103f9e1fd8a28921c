@@ -1,0 +1,4 @@
+Bignum#even?, Bignum#odd?, Fixnum#zero?, Fixnum#even?, Fixnum#odd? などのメソッ
+ド定義は削除して、それぞれ Integer#event?, Integer#odd?, Numeric#zero? での実装
+でまとめて扱うように統合しています。ふーむ組み込みの数値クラスはこういう流れな
+んですね。
