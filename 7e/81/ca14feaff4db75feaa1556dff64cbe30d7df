@@ -1,0 +1,2 @@
+r54145 で powerpc64 向けの tick_t の定義を追加した時にかっこの対応が間違ってい
+たのを修正。 https://github.com/ruby/ruby/pull/1291
