@@ -1,0 +1,5 @@
+parse.y の parse_numvar() で nth_ref_max という変数は INT_MAX または FIXNUM_MAX
+の 1/2 のどちらか小さいほうにしていましたが、INT_MAX の 1/2 との比較にしていま
+す。これにより境界付近の整数をリテラルとして書くとエラーになっていたようです。
+うーむ、こんな不具合が潜んでいたとは…。 https://github.com/ruby/ruby/pull/1296
+[ruby-core:74444] [Bug #12192]
