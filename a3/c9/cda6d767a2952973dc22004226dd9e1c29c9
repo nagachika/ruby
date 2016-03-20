@@ -1,0 +1,5 @@
+bignum.c の rb_big_odd_p() と rb_big_even_p() を公開関数にしています。 include/
+ruby/intern.h に追加しているので、third party の拡張ライブラリからも利用できる
+という意味で公開 C API にしています。
+[追記]これは間違いだったみたいで r54196 で internal.h に宣言が移動されています
+。[/追記]
