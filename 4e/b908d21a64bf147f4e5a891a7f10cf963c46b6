@@ -1,0 +1,6 @@
+time.c の HAVE_GMTIME_R によって #ifdef で分岐していた関数定義などを
+rb_gmtime_r() と rb_localtime_r() という関数内の分岐におさめてシンプルにしてい
+ます。 rb_localtime_r() と rb_localtime_r2() や rb_gmtime_r() と rb_gmtime_r2()
+とプリプロセッサによる分岐部分を関数として切り出していたものはまとめて
+rb_localatime_r() と rb_gmtime_r() という関数に収めるようにリファクタリングされ
+ています。
