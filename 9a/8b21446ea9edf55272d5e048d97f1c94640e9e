@@ -1,0 +1,4 @@
+glibc で struct tm の tm_gmtoff メンバの宣言が有効になるには time.h ヘッダの #
+include 前に _BSD_SOURCE というマクロが定義されてないといけないみたいなので、
+time.c に追加して configure での構造体メンバ存在チェック時にも定義してからチェ
+ックするようにしています。
