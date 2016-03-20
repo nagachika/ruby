@@ -1,0 +1,1 @@
+Fixnum#to_f のメソッド定義も削除して Integer#to_f に移動しています。
