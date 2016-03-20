@@ -1,0 +1,2 @@
+Bignum#eql? のメソッド定義を削除して Numeric#eql? の実体の関数 num_eql() で
+Bignum の時も処理できるようにしています。
