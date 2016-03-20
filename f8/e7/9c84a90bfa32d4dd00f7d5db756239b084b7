@@ -1,0 +1,3 @@
+Bignum#hash メソッドもメソッド定義は削除して、Object#hash で rb_big_hash() を呼
+び出すように統合しています。また rb_big_hash() を公開 C API にしています。がこ
+れは意図的ではなかったようで後で internal.h に宣言が移動されてます。
