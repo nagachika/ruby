@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence.compile でスクリプトをコンパイルする時に
+SyntaxError 例外が発生した場合エラーメッセージが標準エラー出力(正確には
+$stderr)に出力されてしまっていたので例外メッセージに含めるようにしています。
+[ruby-core:72711] [Feature #11951]
