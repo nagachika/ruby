@@ -1,0 +1,2 @@
+rb_big_cmp() と rb_big_eq() で normalize した Bignum と Fixnum だと常に Bignum
+のほうが大きいことを折り込んで不要な比較を削ったりしています。
