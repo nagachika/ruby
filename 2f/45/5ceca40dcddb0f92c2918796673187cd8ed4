@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb および enc/unicode.c に titlecase 用の
+ONIGENC_CASE_IS_TITLECASE フラグの対応を追加しています。
