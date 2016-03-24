@@ -1,0 +1,3 @@
+r54218 で time.c の divmodv() で rb_fix_divmod_fix() を利用する分岐で
+rb_fix_divmod_fix() の戻り値を return していましたが divmodv() は void 型の関数
+なので値はかえさないので空の return 文に変更しています。
