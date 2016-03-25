@@ -1,0 +1,2 @@
+Module#constants の rdoc 用コメントに順序には規則はないことを明記するようにして
+います。 https://github.com/ruby/ruby/pull/1301 [ruby-dev:49505] [Bug #12121]
