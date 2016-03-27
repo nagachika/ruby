@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf の find_executable0 で Windows 環境では "" によるクオー
+トがある可能性があるので削る処理を入れています。 https://github.com/ruby/ruby/
+pull/1305
