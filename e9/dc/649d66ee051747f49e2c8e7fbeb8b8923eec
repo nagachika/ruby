@@ -1,0 +1,3 @@
+r54296 に続いて int_round_0() を rb_int_round() と改名して rb_int_idiv(),
+rb_int_modulo(), rb_int_minus() などを利用するようにして任意の整数オブジェクト
+を受け取るようにしています。
