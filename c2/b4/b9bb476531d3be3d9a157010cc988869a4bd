@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb で rel コマンドで関連するリビジョンを追加できるよう
+にしています。
