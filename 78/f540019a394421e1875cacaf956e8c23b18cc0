@@ -1,0 +1,3 @@
+enc/unicode/case-folding.rb で CaseUnfold_11 の時の特別処理を入れて enc/unicode
+.c でもその結果の複数の code を利用するようにしています。ギリシア文字の大文字小
+文字変換に関係しているみたいですね。
