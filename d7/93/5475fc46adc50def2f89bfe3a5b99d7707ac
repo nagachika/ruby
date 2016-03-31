@@ -1,0 +1,4 @@
+Ruby の parser に eval 用に eval しているかどうかを伝えるフラグ parse_in_eval
+を rb_thread_t から struct parser_params に移動して、defined? のための変数の定
+義の有無チェックのためにも GET_THREAD() で直接 rb_thread_t を取得するのをやめて
+引数に必要な情報を受け取るようにしています。
