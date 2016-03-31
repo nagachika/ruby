@@ -1,0 +1,2 @@
+tool/merger.rb でコミットログの最初につける "merge revision(s) " の形式でリビジ
+ョンを指定できるようにしています。
