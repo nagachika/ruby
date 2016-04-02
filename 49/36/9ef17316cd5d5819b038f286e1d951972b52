@@ -1,0 +1,5 @@
+GC の mark 後に page の確保/解放の判定のための空きスロット数をカウントするのを
+、sweep phase の最初にカウントしたものを次の mark phase で使っていたのを、mark
+phase 終了後の値を使うようにして、値を保存しておかなくても良いようにしています
+。そのかわり rb/objspace_t::heappages::freeable_pages というメンバを追加して解
+放可能なページ数を保持しておくようにしています。
