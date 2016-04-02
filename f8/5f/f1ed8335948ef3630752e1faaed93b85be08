@@ -1,0 +1,3 @@
+拡張ライブラリ date の DateTime についての rdoc 用コメントが Date のクラス定義
+のところにあったのを DateTime の定義の前に移動しています。 [ruby-core:74729]
+[Bug #12233]
