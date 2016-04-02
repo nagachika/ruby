@@ -1,0 +1,4 @@
+gc.c の gc_page_sweep() で戻り値に空きスロット数を返すようにして gc_sweep_step
+() で戻り値を使うように修正しています。 gc_page_sweep() で struct
+heap_page::free_slots に格納していたのを参照していたのを同じ値を戻り値に返すよ
+うにしていますね。最適化のためでしょうか。
