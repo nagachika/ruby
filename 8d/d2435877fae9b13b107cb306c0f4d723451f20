@@ -1,0 +1,4 @@
+coverage を取る update_coverage() で coverage 測定対象の範囲を超えた時の判定で
+RARRAY_AREF() で範囲外のアクセスをしてしまうのではなくて RARRAY_LEN() で配列サ
+イズを取得してそれを行番号が超えているかどうかで判定するように修正しています。
+[ruby-core:74741] [Bug #12237]
