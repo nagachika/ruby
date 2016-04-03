@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb で swapcase のためのフラグも追加するようにしていま
+す。
