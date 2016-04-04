@@ -1,0 +1,2 @@
+inline 関数 rb_check_arity() を void 型から int に変更して argc を返すようにし
+ています。
