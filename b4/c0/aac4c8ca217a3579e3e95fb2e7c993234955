@@ -1,0 +1,4 @@
+numeric.c の Float の処理のリファクタリング。 dbl2ival() で四捨五入の丸めを行っ
+ていたのをやめて切り捨てにするようにして、かわりに flodivmod() や flo_round()
+などの呼び元などで round() を呼ぶようにしています。また flo_ceil() で独自に
+double の整数オブジェクト化していたのも dbl2ival() を使うようにしています。
