@@ -1,0 +1,4 @@
+GC のパラメータのデフォルト値 RUBY_GC_HEAP_FREE_SLOTS_MIN_RATIO と
+RUBY_GC_HEAP_FREE_SLOTS_MAX_RATIO をそれぞれ 0.3 -> 0.2, 0.8 -> 0.65 に変更して
+います。メモリを回収しやすくしているみたいですが世代別 GC の導入で page の回収
+が比較的やりやすくなったのかも。
