@@ -1,0 +1,2 @@
+r54485 のテストで OpenSSL::SSL::SSLSocket#tmp_key で取得した鍵オブジェクトのク
+ラスをチェックしているところで assert_instance_of を利用するようにしています。
