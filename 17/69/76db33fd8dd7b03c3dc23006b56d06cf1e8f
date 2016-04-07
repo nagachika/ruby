@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OpenSSL 1.0.2 以降でサポートされている ephemeral TLS
+session key の取得を利用できるようにしています。 OpenSSL::SSL::SSLSocket#
+tmp_key というメソッドが新設されています。 https://github.com/ruby/ruby/pull/
+1318
