@@ -1,0 +1,2 @@
+Math.lgamma の -0.0 を渡した時の挙動も mingw と OS X 向けの実装を修正しています
+。 [ruby-core:74817] [Bug #12249]
