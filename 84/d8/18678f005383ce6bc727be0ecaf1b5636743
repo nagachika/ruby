@@ -1,0 +1,2 @@
+標準添付ライブラリ logger の rdoc 用コメントに引数のデフォルト値の追記と、未使
+用のローカル変数の除去。 https://github.com/ruby/ruby/pull/1319
