@@ -1,0 +1,3 @@
+標準添付の rubygems を 2.6.3 に更新しています。 aaron による require の高速化が
+入ってるのかな? また ruby のバージョン番号2桁の対応も入っています(2.1.10 のリリ
+ース向け)。 https://github.com/rubygems/rubygems/blob/master/History.txt
