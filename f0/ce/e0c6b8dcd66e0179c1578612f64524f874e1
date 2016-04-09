@@ -1,0 +1,3 @@
+r54485 で追加された拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#tmp_key の
+テストで OpenSSL::SSL::SSLContext#ciphers= で暗号化方式が利用できないために発生
+した例外は無視するようにしています。 https://github.com/ruby/ruby/pull/1318
