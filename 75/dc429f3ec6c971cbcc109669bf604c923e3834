@@ -1,0 +1,3 @@
+win32/file.c の rb_file_expand_path_internal() でメモリ解放時に xfree() を使っ
+ていましたが、対応するバッファの確保は malloc() で行なわれていたので free() を
+使うように修正しています。
