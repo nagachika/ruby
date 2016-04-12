@@ -1,0 +1,5 @@
+標準添付ライブラリ win32/registry で Win32::Registry::API#DeleteValue と #
+DeleteKey で呼び出す関数名をそれぞれ RegDeleteValueW と RegDeleteKeyW に修正し
+ています。 r49542 で Fiddle::Importer を使って呼べるようにしている関数名と呼び
+出してるメソッド名を変更していたのに、呼び出し部分が追随していなかったのを修正
+しています。 [ruby-core:74863] [Bug #12264]
