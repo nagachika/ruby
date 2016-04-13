@@ -1,0 +1,4 @@
+vm_backtrace.c の frame2klass() で引数の imemo_type が imemo_ment でない時は
+VM_ASSERT() で [BUG] を発生させていたのを、単に Qnil を返すようにチェックを緩め
+ています。 imemo_iseq 型の T_IMEMO オブジェクトが渡される可能性があったとのこと
+。
