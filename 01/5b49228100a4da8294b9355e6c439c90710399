@@ -1,0 +1,1 @@
+test/ruby/test_rubyoptions.rb で未使用のローカル変数を削除して警告除去。
