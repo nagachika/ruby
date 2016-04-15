@@ -1,0 +1,3 @@
+Bignum#size の実装関数を rb_big_size() から rb_big_size_m() に改名して、
+rb_big_size() は BIGSIZE() マクロの wrapper 関数として定義して、numeric.c から
+これを呼び出して rb_int_round() で利用するようにしています。
