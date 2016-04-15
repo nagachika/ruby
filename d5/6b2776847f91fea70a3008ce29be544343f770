@@ -1,0 +1,2 @@
+Float#floor も Integer と同様に省略可能な引数を受け付けて切り捨てする桁を指定で
+きるようにしています。 [ruby-core:74788] [Feature #12245]
