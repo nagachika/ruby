@@ -1,0 +1,4 @@
+Thread#name= が initialize が完了する前に呼ばれると SEGV する不具合を修正してい
+ます。このため GetThreadPtr() を初期化済みかどうかのチェックつきの
+get_initialized_threadptr() という wrapper 関数を定義してこれを使うようにしてい
+ます。 [ruby-core:74963] [Bug #12290]
