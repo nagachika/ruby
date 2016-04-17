@@ -1,0 +1,2 @@
+make benchmark, make benchmark-each, make tbench などのベンチマーク実行用のター
+ゲットで -I オプションや --disable-gems オプションの指定を追加しています。
