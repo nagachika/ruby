@@ -1,0 +1,2 @@
+r54602 の続き。さらに rb_rational_add() -> rb_rational_plus() と関数名を改行し
+ています。 Fixnum 用の rb_fix_plus() にあわせたみたいです。
