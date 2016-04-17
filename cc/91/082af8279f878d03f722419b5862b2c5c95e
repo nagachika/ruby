@@ -1,0 +1,3 @@
+拡張ライブラリ io/console で rb_funcall2() のかわりに rb_funcallv() という関数
+名を使うようにして、未定義の場合には rb_funcall2 に fallback するようにしていま
+す。
