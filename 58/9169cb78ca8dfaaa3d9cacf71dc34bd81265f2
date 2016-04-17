@@ -1,0 +1,3 @@
+標準添付ライブラリ irb の r54576 で save_history= メソッドの再定義の警告除去の
+ため remove_method していたところで、まだメソッドが定義されていない場合に
+NoMethodError が発生するのを修正しています。
