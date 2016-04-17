@@ -1,0 +1,4 @@
+NEWS の Compatibility issues のセクションに Array#sum の追加により
+ActiveSupport などもともと Enumerable#sum メソッドなどを提供していたライブラリ
+を使っていたら若干挙動が異なることで非互換になる可能性があることについて追記し
+ています。
