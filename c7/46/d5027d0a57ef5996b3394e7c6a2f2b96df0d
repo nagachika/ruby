@@ -1,0 +1,6 @@
+struct.c で rb_struct_define_without_accessor_under(),
+rb_struct_define_without_accessor(), rb_struct_define(), rb_struct_define_under
+() などで可変長引数からメンバ名を Array オブジェクトに Symbol として詰める処理
+を struct_make_members_list() という関数として切り出して共有し、rb_intern() +
+ID2SYM() で ID を経由して static symbol 化(じゃなくて immortal な dynamic
+symbol だっけ)しないようにしています。va_list って他の関数に渡せるんですね。
