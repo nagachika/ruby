@@ -1,0 +1,2 @@
+Numeric#floor, #ceil, #truncate も省略可能な引数を受け付けるようにしています。
+[Feature #12245]
