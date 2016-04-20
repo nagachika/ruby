@@ -1,0 +1,3 @@
+error.c の rb_compile_warning() に rb_encoding * の引数を追加して warn_vsprintf
+() という関数名に改名して warning_string() からも利用するようにリファクタリング
+しています。
