@@ -1,0 +1,2 @@
+Float#floor, #round, #ceil のテストに receiver が負の時のテストケースを追加して
+います。 [Feature #12245]
