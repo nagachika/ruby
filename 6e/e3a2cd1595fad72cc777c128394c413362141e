@@ -1,0 +1,6 @@
+VM 命令列(ISeq)の最適化で jump 後の命令が leave だったら jump 命令のかわりに直
+接 leave するという最適化で、命令の linked list の操作を新しいノードを作って
+REMOVE_ELEM() で入れ換えていたのを、元々あるノードの内容を書き変えるように変更
+しています。先頭のノードを置換すると呼び元に反映されずに SEGV する可能性があり
+、safe navigation operator を使った時に実際起こっていたようです。
+[ruby-core:74993] [Bug #11816]
