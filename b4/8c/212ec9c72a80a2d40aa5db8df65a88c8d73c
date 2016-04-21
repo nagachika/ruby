@@ -1,0 +1,3 @@
+logger のテストで assert のかわりに assert_predicate や assert_not_predicate,
+assert_file などの assertion メソッドを使ってよりわかりやすいメッセージが出るよ
+うにしています。
