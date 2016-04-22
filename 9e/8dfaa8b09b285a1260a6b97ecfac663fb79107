@@ -1,0 +1,4 @@
+さらに compile error 関係の関数のリファクタリング。 prepare_compile_error() で
+事前に SyntaxError の例外オブジェクトを作っておいて struct
+iseq_compile_data::err_info にセットしていたのを最初に append_compile_error()
+を呼ばれた時点で生成するように遅延しています。
