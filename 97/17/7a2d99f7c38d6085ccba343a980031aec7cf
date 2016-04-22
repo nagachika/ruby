@@ -1,0 +1,6 @@
+r54649 の続きのリファクタリング。 append_compile_error() からエラーメッセージの
+追記に rb_syntax_error_append() を利用するようにし、rb_syntax_error_append() で
+は exc が 0 でない時には文字列ではなく例外(SyntaxError)オブジェクトを受け取って
+そのメッセージの文字列に追記するように変更しています。parse.y でもこれにあわせ
+て rb_parser_t::error_buffer には SyntaxError オブジェクトが入っているものとし
+て扱うようにしています。
