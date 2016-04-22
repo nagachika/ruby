@@ -1,0 +1,3 @@
+SyntaxError のデフォルトのメッセージを parse.y で指定して rb_exc_new_str() で例
+外オブジェクトを作成していたのを、SyntaxError の initialize メソッドを定義して
+そこに埋め込むようにしています。
