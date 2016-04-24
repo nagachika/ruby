@@ -1,0 +1,2 @@
+tool/merger.rb で一時ファイル revision.tmp を削除するようにしています。こんなの
+できてたっけ…。
