@@ -1,0 +1,5 @@
+gc.c のメモリ確保関係の関数群で確保するサイズが負になってないかのチェックを重複
+していた場合があるので、整理して objspace_xmalloc() でチェックして、チェックな
+しの objspace_xmalloc2() という関数を導入しています。また include/ruby/ruby.h
+で定義していた inline 関数の ruby_xmalloc2_size() のオーバフローチェックに使っ
+ていた定数を unsigned の SIZE_MAX から SSIZE_MAX に修正しています。
