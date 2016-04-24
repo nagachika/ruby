@@ -1,0 +1,7 @@
+整数の乗算のオーバフローチェックをする関数 rb_mul_size_overflow() を include/
+ruby/ruby.h で inline 関数として導入して rb_alloc_tmp_buffer2() で使うようにし
+ています。またこれにより xmalloc2_size() は gc.c に移動して同じく
+rb_mul_size_overflow() を呼ぶようにしています。その LONG_LONG または uint128_t
+がある環境ではこれを使って乗算した結果が元の型での最大値を超えてないかをチェッ
+クすることで除算なしでオーバフローチェックするようにしています。除算の命令は遅
+いのでそれを避けることによる最適化と思われます。
