@@ -1,0 +1,6 @@
+Time のテストから Europe/Moscow のタイムゾーンを利用したものを削除しています。
+tzdata のパッケージに修正があり、 Europe/Moscow のタイゾーンで過去の時刻が DST
+(いわゆる夏時間)の処理の間違いがあったのが修正された? らしく、過去の時間にずれ
+が発生してしまった影響を受けてしまったので、テストを削除したようです。こんなこ
+とがあるんですね… (参考URL: tz の修正。https://github.com/eggert/tz/commit/
+8ee11a301cf173afb0c76e0315b9f9ec8ebb9d95 )
