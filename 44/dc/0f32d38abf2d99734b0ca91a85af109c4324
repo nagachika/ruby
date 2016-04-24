@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http で https で SSL ありの GET は今は簡単に URI のスキ
+ーマを https にして Net::HTTP.get メソッドで可能になっているので rdoc 用コメン
+トを加筆修正しています。
