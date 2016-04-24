@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::Config::GenericServer の SSL 関係のオプ
+ションに :SSLCiphers を追加し利用する暗号化方式の指定を可能にしています。
+https://github.com/ruby/ruby/pull/1321
