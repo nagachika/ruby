@@ -1,0 +1,2 @@
+benchmark/bm_so_meteor_contest.rb のコメントの typo 修正。 https://github.com/
+ruby/ruby/pull/1330
