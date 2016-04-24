@@ -1,0 +1,3 @@
+r54661 と同様に rb_alloc_tmp_buffer() のサイズチェック部分を省いた
+rb_alloc_tmp_buffer_with_count() という関数を切り出して rb_alloc_tmp_buffer2()
+で利用するようにしています。メモリ確保の最適化のためみたいです。
