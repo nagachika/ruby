@@ -1,0 +1,2 @@
+error_print() の引数に rb_thread_t* を渡すようにして例外の表示の時の GET_THREAD
+() の呼び出し回数を減らすようにしています。
