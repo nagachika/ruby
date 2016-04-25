@@ -1,0 +1,3 @@
+AIX で round(3) がおかしな挙動をすることがあるので numeric.c で定義されている
+round() を使うように configure で AIX の時はシステムの round(3) をチェックしな
+いようにしています。
