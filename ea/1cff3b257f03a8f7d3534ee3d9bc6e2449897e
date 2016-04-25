@@ -1,0 +1,4 @@
+r54728 の vm_getivar() の宣言に再び static を追加しています。最適化を off にし
+た時に symbol が export されて link 失敗することがあるとのこと。 ChangeLog のエ
+ントリも revert するか revert した旨の ChangeLog を追加したほうがいいのではない
+かな。
