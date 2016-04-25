@@ -1,0 +1,4 @@
+NEWS ファイルに Time#to_time が timezone を保存するようにした変更について追記し
+ています。先程の r54724 の DateTime#to_time のぶんもそうですが rails でこの挙動
+の変化の影響を受ける部分があるようなので、feature change として扱うようにしてい
+るみたいです。 [ruby-core:74889] [Bug #12271]
