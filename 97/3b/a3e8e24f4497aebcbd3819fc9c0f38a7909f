@@ -1,0 +1,2 @@
+rb_mul_size_overflow() でオーバフロー時の分岐の条件に RB_UNLIKELY() をつけてい
+たのをやめています。
