@@ -1,0 +1,2 @@
+compile.c に LINK_ELEMENT の種類を判定するマクロ IS_INSN(), IS_LABEL(),
+IS_ADJUST() といったマクロを導入しています。
