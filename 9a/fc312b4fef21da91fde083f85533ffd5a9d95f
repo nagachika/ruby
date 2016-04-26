@@ -1,0 +1,5 @@
+Windows 版で MSVC14 以降をサポートするため ioinfo という型の代替定義を自前で定
+義しておけるようにしています。 MSVC14 以降は _pioinfo が公開されなくなったので
+Windows 向けの IO の実装がビルドできなくなっていたそうです。 [ruby-core:69065]
+[Bug #11118] [ruby-core:73260] [Bug #12014] https://github.com/ruby/ruby/pull/
+884
