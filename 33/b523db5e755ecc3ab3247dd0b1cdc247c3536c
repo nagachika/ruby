@@ -1,0 +1,3 @@
+ruby.c の gcc 以外のコンパイラでの compile error の修正とのことですが、r54744
+で revert されています。 r54720 が関係あるんですかねぇ。だとすると ruby_2_3 に
+backport しているので気になります。
