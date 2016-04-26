@@ -1,0 +1,8 @@
+r54728 と r54729 で static inline vs inline で最適化の有無の両方で得たい結果が
+得られないので、INLINE というマクロ(は元々あったのですね)で __OPTIMIZE__ をチェ
+ックして最適化時には inline に、最適化が off の時には static inline に展開する
+ようにして、vm_getivar() ではこれを使うようにしています。また vm_setivar() はた
+だの static だったのを static inline にしています。こっちに INLINE を使わなかっ
+たのはなぜだろう。inline をつけてないとパフォーマンスが悪くなるそうですが。
+しかしどうも __OPTIMIZE__ は関係なかったみたいで後でここの条件が二転三転します
+。
