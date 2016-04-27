@@ -1,0 +1,2 @@
+よく理解できてませんが configure.in で $ruby_version の処理中に余計な verconf.h
+の生成を抑制しています。
