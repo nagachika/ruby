@@ -1,0 +1,2 @@
+VM の命令の合成命令用の設定ファイル defs/opt_insn_unif.def からすでに setlocal
+に改名されて存在しなくなっている setdynamic 命令の記述を削除しています。
