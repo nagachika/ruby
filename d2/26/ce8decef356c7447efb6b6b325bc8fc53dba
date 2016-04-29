@@ -1,0 +1,4 @@
+rb_compile_error_with_enc()、rb_compile_error()、rb_compile_error_append()、
+rb_str_associate()、rb_str_associated()、rb_frame_pop()、rb_clear_cache() など
+の deprecated になっている内部用関数を呼び出した時に fatal error で異常終了させ
+るようにしています。
