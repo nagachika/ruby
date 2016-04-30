@@ -1,0 +1,4 @@
+time.c で time.h の #include 前に _BSD_SOURCE を #define しておくようにしていた
+のですが glibc 2.20 から _BSD_SOURCE が deprecated になってこれだけだと警告が出
+るようになっているので _DEFAULT_SOURCE というマクロも定義しておくようにしていま
+す。参考URL: https://sourceware.org/glibc/wiki/Release/2.20
