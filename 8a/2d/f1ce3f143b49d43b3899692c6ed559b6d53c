@@ -1,0 +1,1 @@
+Fixnum#** と Bignum#** を Integer#** へ統合しています。
