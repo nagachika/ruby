@@ -1,0 +1,2 @@
+Bignum の実装に GMP を利用している場合に Integer::GMP_VERSION という定数を追加
+しています。 Bignum と Integer の挙動をあわせるためですね。
