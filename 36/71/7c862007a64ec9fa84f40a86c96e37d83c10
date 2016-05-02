@@ -1,0 +1,3 @@
+拡張ライブラリ pty の no_mesg の定義を posix_openpt(), openpty(), ptsname() の
+いずれかが利用できる時だけ(呼び出す場所がある時だけ)定義するようにしたり、
+waitpid() の flags に使える定数をチェックするようにしたりしています。
