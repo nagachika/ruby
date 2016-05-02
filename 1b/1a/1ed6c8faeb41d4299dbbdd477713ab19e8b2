@@ -1,0 +1,1 @@
+Fixnum#divmod と Bignum#divmod を Integer#divmod へ統合しています。
