@@ -1,0 +1,2 @@
+Fixnum#& と Bignum#& を Integer#& へ統合しています。
+ChangeLog エントリの Bignum#| は typo みたいですね。
