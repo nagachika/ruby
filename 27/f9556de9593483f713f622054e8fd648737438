@@ -1,0 +1,1 @@
+Fixnum#fdiv と Bignum#fdiv を Integer#fdiv へ統合しています。
