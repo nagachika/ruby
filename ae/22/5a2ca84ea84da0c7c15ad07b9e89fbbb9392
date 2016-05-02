@@ -1,0 +1,1 @@
+単項演算子メソッド Fixnum#-@ と Bignum#-@ を Integer#-@ へ統合しています。
