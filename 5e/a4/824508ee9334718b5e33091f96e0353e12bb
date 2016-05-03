@@ -1,0 +1,5 @@
+テスト用のライブラリに Fixnum および Bignum のインスタンスであることをチェック
+する assert_fixnum と assert_bignum を追加して assert_instance_of を使っていた
+ところをこの assertion メソッドを利用するようにリファクタリングしています。
+Fixnum と Bignum の Integer への統合でクラス自体の統合をした時のための下準備で
+しょうか。
