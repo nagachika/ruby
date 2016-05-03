@@ -1,0 +1,3 @@
+r54859 の search_nonascii() の最適化での endian の考慮で BYTE_ORDER をチェック
+するのではなくて WORDS_BIGENDIAN というマクロをみて分岐するように変更しています
+。
