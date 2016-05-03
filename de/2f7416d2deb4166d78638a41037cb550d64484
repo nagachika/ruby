@@ -1,0 +1,3 @@
+テスト用のライブラリの test/lib/envutil.rb に Integer::FIXNUM_MIN と
+Integer::FIXNUM_MAX という定数を追加して、Fixnum と Bignum の境界をあちこちで独
+自に調べていたのをこの定数を参照するようにリファクタリングしています。
