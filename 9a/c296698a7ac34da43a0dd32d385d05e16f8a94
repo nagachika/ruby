@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb で定義している assert_integer_or_nil という独
+自の assertion で出力するメッセージの Fixnum -> Integer に修正しています。
