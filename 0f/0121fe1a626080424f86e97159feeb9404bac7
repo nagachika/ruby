@@ -1,0 +1,2 @@
+昨日の r54854 の search_nonascii() の最適化で big endian なシステムでは
+ntz_intptr() のかわりに nlz_intptr() を利用するようにしています。
