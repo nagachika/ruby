@@ -1,0 +1,2 @@
+search_nonascii() で UNALIGNED_WORD_ACCESS が偽の時に変数宣言がブロックの途中に
+あったので関数の先頭に移動しています。
