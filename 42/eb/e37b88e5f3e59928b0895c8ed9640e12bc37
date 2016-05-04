@@ -1,0 +1,3 @@
+UTF-8 のマルチバイト文字を持つファイルパスを File.open や File.path,
+File.directory? などなど File のメソッド群に渡すテストを追加しています。
+[ruby-core:75304] [Bug #12340]
