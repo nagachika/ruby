@@ -1,0 +1,2 @@
+test/ruby/test_refinement.rb の Module#refine が返す Module の inspect のテスト
+で Fixnum を使っていたところを Integer にかえています。
