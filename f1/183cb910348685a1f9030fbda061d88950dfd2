@@ -1,0 +1,3 @@
+complex.c の k_fixnum_p() と k_bignum_p() で rb_cFixnum と rb_cBignum を直接参
+照しているところがあったので、それぞれ FIXNUM_P() と RB_TYPE_P() マクロを利用す
+るようにしています。
