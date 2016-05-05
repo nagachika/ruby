@@ -1,0 +1,1 @@
+eval.c の extract_raise_opts() の第2引数 argv に const 修飾子を追加しています。
