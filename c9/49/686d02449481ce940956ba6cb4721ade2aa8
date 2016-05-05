@@ -1,0 +1,4 @@
+complex.c の C API rb_complex_set_imag() でまちがって実数部にセットしていた不具
+合を修正。まじか。しかしこの関数は struct RComplex を隠すようにした時に拡張ライ
+ブラリ用に追加したものなので、本体では使われていませんでした。
+[ruby-core:75333] [Bug #12343]
