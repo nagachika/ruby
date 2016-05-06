@@ -1,0 +1,4 @@
+標準添付ライブラリ set の Set#delete_if, #keep_if, #collect!, #reject!, #
+select!, #classify, #divide などのメソッドがブロックなしで呼ばれて Enumerator
+を返す時に size の指定のためのブロックつきで Enumerator を作るようにしています
+。
