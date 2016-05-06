@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の Net::HTTPHeader#each_header, #each_name, #
+each_capitalized_name, #each_value, #each_capitalized などのメソッドでブロック
+が渡されなかった時に返す Enumerator が size を返せるようにしています。
