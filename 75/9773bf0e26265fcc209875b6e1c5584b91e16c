@@ -1,0 +1,2 @@
+proc.c でブロックの Proc オブジェクトの VALUE 型変数から rb_block_t * の参照を
+取り出す処理を passed_block() として切り出すリファクタリング。
