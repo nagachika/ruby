@@ -1,0 +1,3 @@
+r54903 で修正した Set#delete_if, #keep_if, #collect!, #reject!, #select!, #
+classify, #divide の rdoc 用コメントに、ブロックを渡さずに呼ぶと Enumerator が
+かえされることを追記しています。
