@@ -1,0 +1,2 @@
+test/ruby/test_complexrational.rb で raise がダブっていたところがあったのを修正
+しています。
