@@ -1,0 +1,4 @@
+古い gcc での TH_EXEC_TAG() 内での "clobbered by 'longjmp' or 'vfork'" 警告の対
+策だと思われますが、r54910 で導入した proc.c の call_method_data_safe() で
+call_method_data() の戻り値を代入する result を一旦 volatile VALUE * にキャスト
+することで警告を抑制しようとしています。
