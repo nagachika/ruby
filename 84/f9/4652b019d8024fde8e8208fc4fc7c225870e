@@ -1,0 +1,4 @@
+全体的に JUMP_TAG() を使っていたところを TH_JUMP_TAG() を利用するようにして、
+rb_catch_protect() からは vm_catch_protect() という rb_thread_t を引数に追加し
+た関数を切り出して rb_catch_obj() からもこちらを利用するようにリファクタリング
+しています。
