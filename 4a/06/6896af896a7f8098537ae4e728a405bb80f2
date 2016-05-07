@@ -1,0 +1,4 @@
+random.c の Windows 版の CryptGenRandom() を使った実装や Linux のシステムコール
+getrandom を使った実装を wrap した fill_random_bytes_syscall() という関数の定義
+を arc4random_buf() という関数が使えるときにはこちらを利用するようにしています
+。
