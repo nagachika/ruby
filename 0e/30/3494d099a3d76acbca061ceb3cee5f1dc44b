@@ -1,0 +1,3 @@
+random.c の random_init()、rb_f_srand()、rb_f_rand() などでシンプルな省略可能引
+数の処理は rb_scan_args() を使うかわりに rb_check_arity() を使うようにリファク
+タリングしています。
