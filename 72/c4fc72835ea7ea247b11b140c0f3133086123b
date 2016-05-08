@@ -1,0 +1,5 @@
+random.c の Init_Random_default() で TypedData_Wrap_Struct() の前に seed の生成
+や rb_global_variable() への登録などしていたのですが TypedData_Wrap_Struct() は
+メモリ確保で例外になる可能性があるので先に TypedData_Wrap_Struct() しておくよう
+にしています。また rb_global_variable() の登録は参照している Random のオブジェ
+クトを rb_gc_register_mark_object() で登録するので不要として削除しています。
