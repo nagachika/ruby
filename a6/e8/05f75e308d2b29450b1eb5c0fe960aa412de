@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の SSL 用の設定の :SSLCertName に String も受け付け
+るようにして、OpenSSL::X509::Name.parse で parse するようにしています。rackup
+のコマンドラインオプションから指定できるようにしたいというのが動機だそうです。
+https://github.com/ruby/ruby/pull/1329
