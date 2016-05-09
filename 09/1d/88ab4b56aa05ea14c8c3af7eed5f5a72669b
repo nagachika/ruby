@@ -1,0 +1,3 @@
+random.c の random_int32() を rb_random_t 構造体を利用する時とその他のオブジェ
+クトを利用する時で random_int32() と obj_random_int32() と別の関数に分けて呼び
+元で分岐するようにしています。
