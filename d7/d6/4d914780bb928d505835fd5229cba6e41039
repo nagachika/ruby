@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の dump_append_string_content() と dump_object() で
+String や Hash のサイズを埋め込むのに %ld ではなく PRIdSIZE を利用するように修
+正しています。
