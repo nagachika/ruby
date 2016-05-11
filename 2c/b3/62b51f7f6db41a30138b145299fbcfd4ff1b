@@ -1,0 +1,3 @@
+r54955 の再修正。 include/ruby/ruby.h ではなく include/ruby/defines.h で関数の
+attributes に関するマクロを定義するように移動しています。 oniguruma.h でもマク
+ロが利用されていたため。
