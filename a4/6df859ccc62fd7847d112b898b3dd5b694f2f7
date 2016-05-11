@@ -1,0 +1,6 @@
+HAVE_WORKING_FORK が定義されていない時(fork() は単に HAVE_FORK ではなく
+configure で実際に動作するか確認して HAVE_WORKING_FORK というマクロが定義される
+ようになっているようです)に rb_thread_atfork() や rb_thread_atfork_before_exec
+() といった関数を空に定義するようにしています。またこれにより不要になる関数群の
+定義も #ifdef HAVE_WORKING_FORK の中に入れるようにしています。また不要になった
+thread_win32.c の gvl_atfork() も削除しています。
