@@ -1,0 +1,2 @@
+r54952 で CONSTFUNC() と PUREFUNC() が定義されない環境でビルドが失敗するように
+なっていたので include/ruby/ruby.h で未定義だったら定義するようにしています。
