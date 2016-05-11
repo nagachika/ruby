@@ -1,0 +1,5 @@
+configure で gcc 拡張の const と pure 属性をつけるマクロ CONSTFUNC() と
+PUREFUNC() を定義するようにして、-Wsuggest-attribute で判定された関数につけてい
+るようです。しかし -Wsuggest-attribute=pure などのオプション自体は追加していま
+せん。 longjmp() の呼び出しを考慮していないなど false-positive な検出が多いみた
+いです。
