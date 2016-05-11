@@ -1,0 +1,2 @@
+さらに rb_thread_atfork_internal() や rb_thread_atfork() でそれぞれ GET_THREAD
+() を呼び出していたのをやめて引数に rb_thread_t を受け取るようにしています。
