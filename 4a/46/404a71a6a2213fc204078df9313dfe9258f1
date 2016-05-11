@@ -1,0 +1,3 @@
+r54939 で追加された webrick の SSL server のテスト test/webrick/
+test_ssl_server.rb をリファクタリングして専用の assertion メソッド
+assert_self_signed_cert を切り出しています。
