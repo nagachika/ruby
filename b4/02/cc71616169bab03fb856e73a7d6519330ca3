@@ -1,0 +1,4 @@
+random.c の obj_random_int32() で引数のオブジェクトの rand メソッドを呼び出して
+いたのを obj_random_bytes() と改名して bytes メソッドを呼び出すようにして任意の
+サイズの乱数を生成できるようにしています。またこれに対応するために
+SecureRandom.bytes メソッドを gen_random の alias として追加しています。
