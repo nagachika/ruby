@@ -1,0 +1,2 @@
+r54968 の続きで random.c の random_ulong_limited() で limit までで不要な部分の
+obj_random_bytes() の呼び出しを抑制するようにしています。
