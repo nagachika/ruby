@@ -1,0 +1,3 @@
+GCC のバージョンをチェックするマクロ GCC_VERSION_SINCE を internal.h から
+include/ruby/defines.h に移動して include/ruby/ruby.h での preprocessor の分岐
+にも使うようにしています。
