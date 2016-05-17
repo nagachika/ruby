@@ -1,0 +1,4 @@
+r54976 でインスタンス変数のインラインキャッシュの共有のために導入された struct
+rb_iseq_compile_data::ivar_cache_table を st_table から rb_id_table に変更して
+、初期化を最初の要素を追加する時まで遅延するようにして不要なテーブルの確保を抑
+制しています。
