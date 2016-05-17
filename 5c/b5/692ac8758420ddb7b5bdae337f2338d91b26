@@ -1,0 +1,3 @@
+Module#deprecate_constant で deprecate とマークした定数を Module#const_get で参
+照すると警告が出るという機能を、namespace なしでの通常の定数参照でも有効にして
+います。 [ruby-core:75505] [Bug #12382]
