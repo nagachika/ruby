@@ -1,0 +1,3 @@
+random.c の random_ulong_limited() で n bytes の連続した bit mask を作る初期化
+で long が 32 bit 以下で shift 量が long の幅を超える場合に警告が出るので、条件
+分岐を入れて shift を使わず全bitを立てるようにしています。
