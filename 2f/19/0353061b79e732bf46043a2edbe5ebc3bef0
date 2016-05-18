@@ -1,0 +1,3 @@
+r55013 で bundled gem 化した xmlrpc の gems/bundled_gems でのバージョン番号を
+0.1.1 に更新しています。 0.1.0 には trunk の ruby でインストールできない問題が
+あったようです。
