@@ -1,0 +1,8 @@
+しばらく前から Fixnum と Bignum にそれぞれ定義されていたメソッドを Integer に移
+動して統合していましたが、ついに Fixnum と Bignum というクラスは Integer に統合
+されて、即値の Fixnum と Bignum は実装上の詳細として Ruby レベルからは遮蔽され
+るようになったようです。したがって 1.class は Integer になり、(1<<128).class も
+Integer になり、rb_cFixnum や rb_cBignum は rb_cInteger を参照するようにしてい
+ます。また脱最適化のためにメソッドの再定義チェックしている箇所でも追随していま
+す。ううむ、これは大きな変更ですね。しかしコード上の変更点は思ったほどではない
+ような…。下準備してきたからですかね。 [ruby-core:72918] [Feature #12005]
