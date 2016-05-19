@@ -1,0 +1,4 @@
+configure.in で _setjmp(), _setjmpex() などの組み込み関数のチェック用に
+sigsetjmp(3) のチェック用の処理を RUBY_CHECK_SETJMP というマクロに切り出して流
+用するようにしています。 _setjmpex() のチェック時に "setjmpex.h" ヘッダの
+include を追加しているようです。
