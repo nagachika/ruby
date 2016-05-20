@@ -1,0 +1,3 @@
+Enumerable#sum で Hash の時に each メソッドが再定義されてなければ
+rb_hash_foreach() を直接呼んで不要なブロック呼び出しをスキップする最適化をして
+います。
