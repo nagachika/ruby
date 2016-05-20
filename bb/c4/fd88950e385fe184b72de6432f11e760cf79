@@ -1,0 +1,4 @@
+test/openssl/test_random.rb でテストクラスを定義するかどうかを OpenSSL::Random
+という定数の存在チェックを使っていたのを OpenSSL::TestCase のチェックに変更して
+います。コミットログによると古い OpenSSL とリンクしている openssl の時にテスト
+を省略するようにしているようです。
