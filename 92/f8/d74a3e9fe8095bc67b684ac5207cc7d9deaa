@@ -1,0 +1,5 @@
+MatchedData#values_at で部分マッチした文字列を参照するのにインデックスだけでな
+く named capture の名前(Symbol でも String でも)による参照も受け付けるようにし
+ています。MatchedData#[ ] の実装の match_aref() から名前をインデックスにする処
+理を namev_to_backref_number() という関数に切り出して再利用しています。
+[ruby-core:58701] [Feature #9179]
