@@ -1,0 +1,3 @@
+FIXNUM_P() と RB_TYPE_P() で T_FIXNUM か T_BIGNUM 型であることをチェックしてい
+たところを RB_INTEGER_TYPE_P() マクロを使ったチェックに置換しています。 Integer
+への統合の関係ですね。
