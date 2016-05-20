@@ -1,0 +1,7 @@
+拡張ライブラリ openssl のエラー処理の修正。 OpenSSL にはグローバルな error
+queue というのがあって、前の関数の呼び出しがエラーになったかどうかを
+ERR_get_error() で取得して…というしくみがあって、その error queue をクリアする
+ERR_clear_error() の wrapper 関数 ossl_clear_error() を追加して、OpenSSL.debug
+が設定されている場合はクリアする前に積まれているエラーの内容をダンプするように
+しています。おお、すごい、ちゃんとしている。ちなみに ERR_get_error() でエラーが
+取れなくなったら ERR_clear_error() しなくても良かったりするんでしょうか。
