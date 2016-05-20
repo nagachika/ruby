@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Point#mul のテストで例外発生時に環
+境によってはサポートしていない可能性もあるので "unsupported field" というメッセ
+ージが含まれてたら無視するようにしています。
