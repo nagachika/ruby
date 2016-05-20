@@ -1,0 +1,2 @@
+r55061 の MatchedData#match? の実装でマッチ位置を受け取る変数の型を
+OnigPosition に修正しています。
