@@ -1,0 +1,2 @@
+test/openssl/test_random.rb で require "openssl" していたのをやめて test/
+openssl/utils.rb を読み込むようにしています。
