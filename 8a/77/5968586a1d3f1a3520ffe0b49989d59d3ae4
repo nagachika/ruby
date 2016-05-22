@@ -1,0 +1,3 @@
+r55082 の続き。 symbol.h でも __extension__ を RB_GNUC_EXTENSION_BLOCK を使うよ
+うにして、また __builtin_constant_p() を使っている部分を #ifdef __GNUC__ のかわ
+りに #ifdef HAVE_BUILTIN___BUILTIN_CONSTANT_P を使うようにしています。
