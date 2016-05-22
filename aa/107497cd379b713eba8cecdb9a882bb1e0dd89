@@ -1,0 +1,4 @@
+fork() も spawnv() もない環境(Windows? )で rb_execarg_commandline() という関数
+を定義してコマンドライン文字列の組み立てにこれを使うようにしています。またこの
+条件のときだけ利用されていた rb_spawn_process() のローカル変数の宣言がなかった
+ので追加しています。 [ruby-core:75611] [Bug #12398]
