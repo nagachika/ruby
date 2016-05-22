@@ -1,0 +1,2 @@
+thread_pthread.c の gvl_atfork() を #if defined(HAVE_WORKING_FORK) で括っていま
+す。同じ条件の部分でしか呼び出されていないため。
