@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の rdoc 用コメントのサンプルコードで変数名が間違っていた
+のを修正。 https://github.com/ruby/openssl/pull/32
