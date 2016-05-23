@@ -1,0 +1,3 @@
+io.c で rdoc に ARGF をクラスとして認識させるための #if 0 でコメントアウトされ
+た rb_define_class() の呼び出しで "ARGF.class" としていたのを "ARGF" に修正して
+います。 rdoc が少し賢くなったのかな。 https://github.com/ruby/ruby/pull/1358
