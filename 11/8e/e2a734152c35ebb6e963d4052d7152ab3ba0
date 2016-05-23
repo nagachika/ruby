@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#stop で #connect とほぼ同じタ
+イミングで呼ばれると利用中の構造体のメモリ領域を解放してしまって SEGV する可能
+性があったのを修正しています。 ossl_ssl_stop() では ossl_ssl_shutdown() の呼び
+出しのみ行いメモリ解放はしないようにしています。 [ruby-core:74978] [Bug #12292]
