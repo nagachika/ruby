@@ -1,0 +1,4 @@
+Complex, Range, Rational, Struct の hash メソッドのテストで、Fixnum がかえって
+くることを期待していたテストを Integer であることをチェックするようにしています
+。 Fixnum/Bignum クラスの Integer への統合の関係かなと思いましたが、コミットロ
+グをみると Bignum (内部的な)が帰ってくることもあるのかも。
