@@ -1,0 +1,2 @@
+transcode.c の GC のための最適化避けに変数に volatile 修飾子をつけていたのを
+RB_GC_GUARD() を使うように修正しています。 [ruby-core:75664] [Bug #12411]
