@@ -1,0 +1,9 @@
+拡張ライブラリ openssl で OpenSSL の RND_egd(), RND_egd_bytes() などの関数がエ
+ラー時に -1 を返すのに 0 をエラーとしてチェックしていたのを修正しています。また
+RND_pseudo_bytes() は 0 または -1 をエラーとして返すのでこれもチェック方法を修
+正しています。 0 は返す乱数が暗号論的強度を持ってない時に返すみたいです。また
+-1 は関数がサポートされてない時に返すようです(RND_bytes() も同様)。参考URL:
+https://www.openssl.org/docs/manmaster/crypto/RAND_bytes.html https://
+www.openssl.org/docs/manmaster/crypto/RAND_egd.html ついでに RND_bytes() を呼び
+出したエラー時の例外発生の処理を ossl_raise() を使うようにリファクタリングして
+います。 [ruby-core:63795] [Bug #10053]
