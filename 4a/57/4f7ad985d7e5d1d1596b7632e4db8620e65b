@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal の GetVpValueWithPrec() で Float::INFINITY や
+Fload::NAN と比較しようとすると FloatDomainError 例外が発生するのを抑制して、
+nil を返すようにしています。 GetVpValueWithPrec() で引数が Float の INFINITY だ
+った場合を考慮するようにしています。 [ruby-core:75682] [Bug #12414]
