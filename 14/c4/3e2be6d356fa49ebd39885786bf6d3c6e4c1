@@ -1,0 +1,2 @@
+rb_scan_arg() のマクロ版から呼ばれる rb_scan_args0() で引数の数が一致しない場合
+rb_raise() ではなく rb_fatal() で強制終了させるようにしています。
