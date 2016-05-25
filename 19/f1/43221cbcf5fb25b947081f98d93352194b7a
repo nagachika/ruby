@@ -1,0 +1,2 @@
+拡張ライブラリ tk の cbsubst_table_setup() で変数に volatile 修飾子をつけるかわ
+りに RB_GC_GUARD() を使うように修正しています。
