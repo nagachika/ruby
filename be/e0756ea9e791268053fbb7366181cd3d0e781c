@@ -1,0 +1,3 @@
+Dir#close の rdoc 用コメントに重複した close で IOError が発生しなくなったこと
+を追記しています。
+[ruby-core:75679] [Bug #12413]
