@@ -1,0 +1,3 @@
+コンパイラオプション -fexcess-precision=standard や -fp-model precise を
+optflags ではなく cflags に追加するようにしています。 C++ の拡張ライブラリでう
+まくビルドできないことがあったようです。 [ruby-core:75658] [Bug #12409]
