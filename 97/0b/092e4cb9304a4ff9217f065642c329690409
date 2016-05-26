@@ -1,0 +1,3 @@
+configure で gcc 拡張の attribute をチェックする RUBY_FUNC_ATTRIBUTE() で
+__error__ と __warning__ の時にこれらに展開するマクロはメッセージも渡すのでそれ
+を受け付けるようにしています。
