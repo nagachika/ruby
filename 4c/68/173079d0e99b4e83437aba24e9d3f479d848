@@ -1,0 +1,2 @@
+regcomp.c のデバッグ用の出力の条件を ONIG_DEBUG の定義から ONIG_DEBUG_COMPILE
+と ONIG_DEBUG_MATCH, ONIG_DEBUG_PARSE_TREE の定義と細かくわけています。
