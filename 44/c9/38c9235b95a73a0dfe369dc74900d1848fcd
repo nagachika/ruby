@@ -1,0 +1,4 @@
+tool/fake.rb で RbConfig::CONFIG["buildlibdir"] にもビルドディレクトリを格納す
+るようにしています。で RbConfig::MAKEFILE_CONFIG["libdirname"] には
+"buildlibdir" のほうを入れるようにしています。 mkmf.rb の MakeMakefile#
+configuration で builddir は filter されるからということですが、どこだろう。
