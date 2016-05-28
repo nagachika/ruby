@@ -1,0 +1,4 @@
+Unicode の文字列の downcase, upcase, capitalize の時の casefold をチェックする
+テストを追加しています。 enc/unicode/data にダウンロードした UnicodeData,
+CaseFolding, SpecialCasing などのデータを元に自動的にテストを生成するようにして
+います。
