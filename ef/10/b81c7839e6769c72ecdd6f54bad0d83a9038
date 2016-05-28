@@ -1,0 +1,3 @@
+rb_scan_args_count() で clang での警告除去のため rb_scan_args_count_var() と
+rb_scan_args_count_opt() に渡す fmt に fmt"\0\0\0\0" のように余分な NUL 文字を
+連結しておくようにしています。
