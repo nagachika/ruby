@@ -1,0 +1,2 @@
+rb_define_class() の rdoc 用コメントの super が NULL の時の記述の修正と、再定義
+で super が異なる場合の例外を NameError から TypeError に修正しています。
