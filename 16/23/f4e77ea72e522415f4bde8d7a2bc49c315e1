@@ -1,0 +1,5 @@
+symbol.c の is_identchar()、is_special_global_name()、rb_enc_symname_type() な
+どのマクロ/関数で文字の種別を判定するのに rb_enc_is{alnum,digit,alpha}() などの
+エンコーディングを考慮した関数を利用していましたが、この場所では single byte の
+文字しか扱っておらず ASCII 互換なエンコーディングしか使えないはずなので、速度の
+ために ISALNUM() や ISDIGIT() などの標準のマクロを利用するようにしています。
