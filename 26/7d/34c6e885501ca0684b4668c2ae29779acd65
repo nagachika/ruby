@@ -1,0 +1,3 @@
+regexec.c で ONIGENC_IS_MBC_ASCII_WORD() というマクロを再定義していて、encoding
+が ASCII-compatible なら ISALNUM() と "_" との比較だけで済ませるようにして高速
+化を図っています。
