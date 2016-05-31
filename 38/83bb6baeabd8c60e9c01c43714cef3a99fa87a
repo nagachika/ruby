@@ -1,0 +1,4 @@
+test/test_unicode_normalize.rb でも r55193 と同様に Unicode のデータファイルが
+存在するかのテストを追加しています。また文字列に破壊的変更を加える
+unicode_normalize! というメソッドを直に呼び出していたところで dup するようにし
+ています。
