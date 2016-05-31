@@ -1,0 +1,2 @@
+r55198 で追加した ext/-text-/auto_ext.rb で create_makefile に渡す feature 名の
+切り出しかたがまちがっていた("-test-/" を含んでなかった)のを修正しています。
