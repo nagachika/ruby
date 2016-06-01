@@ -1,0 +1,3 @@
+String#upcase, #upcase!, #downcase!, #capitalize, #capitalize!, #swapcase, #
+swapcase! の rdoc 用コメントにも省略可能な引数について追記して、 r55215 で追記
+した String#downcase の説明を参照させるようにしています。
