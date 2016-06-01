@@ -1,0 +1,2 @@
+String#downcase の rdoc 用コメントに省略可能な引数 :ascii/:turkic/:lithuanian
+/:fold について追記しています。
