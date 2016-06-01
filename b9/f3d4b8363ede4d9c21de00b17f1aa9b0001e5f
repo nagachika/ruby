@@ -1,0 +1,3 @@
+r55214 で追加した拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#ecdh_curves
+= のテストで渡す curve のリストを変更しています。 RHEL だと P-224 という種類は
+利用できないそうです。
