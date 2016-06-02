@@ -1,0 +1,3 @@
+String#downcase, #upcase, #capitalize, #swapcase などでデフォルトの挙動を :
+ascii が指定された場合と同様にしていたのを Encoding が UTF-8 だったら Unicode
+の casemap を意識した挙動になるように変更しています。
