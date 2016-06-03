@@ -1,0 +1,1 @@
+missing/crypt.c から構造体宣言やマクロ定義を crypt.h に分離しています。
