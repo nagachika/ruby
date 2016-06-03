@@ -1,0 +1,2 @@
+missing/crypt.c で void 型にした関数内で return を使っていたのを削除しています
+。
