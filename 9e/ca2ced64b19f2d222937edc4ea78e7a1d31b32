@@ -1,0 +1,4 @@
+r55219 で拡張ライブラリ openssl の ASN1 のコードで time_t 型の変換の修正があり
+ましたが、そもそも OpenSSL の ASN1_TIME_set() では 32bit の壁を超えることができ
+ず 2038年問題があったので ASN1_TIME_adj() や X509_time_adj_ex() が利用できる時
+はこちらに対応するようにしています。 [ruby-core:45552] [Bug #6571]
