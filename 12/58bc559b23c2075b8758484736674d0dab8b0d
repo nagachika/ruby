@@ -1,0 +1,4 @@
+missing/crypt_r.c から DES 用のテーブル部分を #ifdef でコメントアウトして
+missing/des_tables.c というファイルに切り出しています。 missing/crypt_r.c に #
+ifdef DUMP で追加されているコードはこの des_tables.c を生成するためのコードみた
+いですね。
