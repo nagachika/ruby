@@ -1,0 +1,4 @@
+r55237 を revert して missing/crypt.c を復活させて String#crypt で crypt_r() を
+使うのをやめて、configure で crypt(3) が salt に 8bit 目が立っているバイト列を
+渡すと結果がおかしくなる不具合を検出して、その場合には salt の 8bit 目を落とし
+て使うようにしています。
