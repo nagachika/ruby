@@ -1,0 +1,1 @@
+crypt.h から DES のテーブルの定義を missing/crypt_r.c に移動しています。
