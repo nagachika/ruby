@@ -1,0 +1,2 @@
+missing/crypt.c を missing/crypt_r.c に移動して String#crypt で crypt_r(3) を利
+用するように変更しています。
