@@ -1,0 +1,3 @@
+Windows 10 でパスの長さの MAXPATHLEN の制限がなくなったのに対応して Windows 版
+での LOAD_PATH の設定で GetModuleFileNameW() を使って必要なサイズまで文字列バッ
+ファを伸長して作成するようにしています。
