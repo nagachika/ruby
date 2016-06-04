@@ -1,0 +1,2 @@
+rb_scan_args() のマクロ版で rb_scan_args_hash_idx() と rb_scan_args_block_idx()
+で同じインデックス計算を繰り返さず使いまわすようにしています。
