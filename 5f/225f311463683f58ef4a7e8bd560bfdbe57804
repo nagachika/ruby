@@ -1,0 +1,2 @@
+missing/crypt.c に USE_NONREENTRANT_CRYPT というマクロで crypt() などの定義を括
+って未使用の関数の警告を抑制するようにしています。
