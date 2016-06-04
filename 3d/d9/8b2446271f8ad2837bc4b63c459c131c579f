@@ -1,0 +1,2 @@
+String#downcase などの Unicode の casemap 処理時に不正なバイト列をみつけたら
+ArgumentError を発生させるようにしています。
