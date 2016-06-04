@@ -1,0 +1,4 @@
+r5524r で missing/crypt.c から missing/des_tables.c を切り出した時にこのソース
+コードを生成するためのコードもコメントアウトされた状態で missing/crypt.c に追加
+されていましたが、これを使って missing/des_tables.c を自動生成するルールを
+common.mk に追加しています。
