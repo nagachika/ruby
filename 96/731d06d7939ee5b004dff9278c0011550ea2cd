@@ -1,0 +1,4 @@
+dln_find.c で MAXPATHLEN の定義のためにヘッダを include したり代替定義している
+ところを削除しています。 MAXPATHLEN はもう使わなくなったので。昨日からの対応の
+一部かなと思いましたが dln_find.c で MAXPATHLEN を消したのは r41032 なのでだい
+ぶ前の話ですね。
