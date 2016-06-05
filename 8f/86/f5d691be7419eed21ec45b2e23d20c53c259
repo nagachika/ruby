@@ -1,0 +1,3 @@
+r55260 の再修正。 ruby.c の process_options() で LOAD_PATH のエンコーデング変換
+のために rb_str_conv_enc() を読んでいるところで path を複製してから渡すようにし
+ています。
