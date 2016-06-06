@@ -1,0 +1,2 @@
+r55274 で defs/gmake.mk に移動した missing/des_tables.c の生成ルールを cross
+compile 時の対応を行なっています。
