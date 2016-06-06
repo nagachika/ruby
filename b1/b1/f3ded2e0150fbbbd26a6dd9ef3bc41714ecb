@@ -1,0 +1,3 @@
+missing/des_tables.c を生成するルールを common.mk から defs/gmake.mk に移動して
+います。また des_tables.c が生成されてなかったら init_des() を実行時に呼んでテ
+ーブル初期化するようにしているようです。
