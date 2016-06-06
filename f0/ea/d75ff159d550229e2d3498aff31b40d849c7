@@ -1,0 +1,3 @@
+r55261 の win32/win32.c の get_special_folder() の再修正。バッファサイズが 260
+以下の時は SHGetPathFromIDListW() が呼べないのですぐに return するようにしてい
+ます。
