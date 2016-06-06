@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OpenSSL の BN_generate_prime(), BN_is_prime(),
+BN_is_prime_fastest() などの関数は deprecated になっているそうで、かわりに
+BN_generate_prime_ex(), BN_is_prime_ex(), BN_is_prime_fastest_ex() など _ex の
+suffix つきの関数を利用するように変更しています。
