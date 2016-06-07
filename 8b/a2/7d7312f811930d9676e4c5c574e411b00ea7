@@ -1,0 +1,3 @@
+r55277 の String#downcase, #upcase, #capitalize, #swapcase などの大文字小文字変
+換に関するメソッド群のデフォルトの挙動の変更について NEWS ファイルに追記してい
+ます。
