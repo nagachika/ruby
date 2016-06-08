@@ -1,0 +1,3 @@
+rb_str_casemap() で onigenc_unicode_case_map() を直接呼んでいたのを、
+rb_encoding のメンバにセットされている関数ポインタ case_map を介して呼ぶように
+修正しています。
