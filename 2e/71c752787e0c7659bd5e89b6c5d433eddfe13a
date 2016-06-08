@@ -1,0 +1,3 @@
+Thread が例外で終了した場合に標準エラー出力にバックトレースなどを出力するように
+するフラグ Thread#report_on_exception およびインタプリタ全体の設定
+Thread.report_on_exception を導入しています。 [ruby-core:45864] [Feature #6647]
