@@ -1,0 +1,3 @@
+test/ruby/enc/test_case_comprehensive.rb でループ内でテストメソッドを動的に定義
+しているところで文字列の encode をしているところをループ外に出してテストの高速
+化を図っています。
