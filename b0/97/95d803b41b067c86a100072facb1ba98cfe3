@@ -1,0 +1,2 @@
+r55277 で String#downcase などのメソッド群のデフォルトが：lithuanian になったの
+でテストで明示的に :lithuanian を指定していたところを省略しています。
