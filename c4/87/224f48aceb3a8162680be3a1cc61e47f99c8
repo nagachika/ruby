@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL 1.1.0 対応の一部。 r55287 で OpenSSL::Cipher
+の中のポインタの確保を ZALLOC() から EVP_CIPHER_CTX_new() に置き換えたのに対応
+して ossl_cipher_free() で解放する時も EVP_CIPHER_CTX_free() を利用するようにし
+ています。 [ruby-core:75225] [Feature #12324]
