@@ -1,0 +1,4 @@
+misc/ruby-additional.el の r55197 で追加された関数 ruby
+-insert-heredoc-code-block で assert_separately 用のヒアドキュメントブロックを
+追加する時に begin と end の 2つのヒアドキュメントのトークンの間で改行を入れる
+ようにしています。
