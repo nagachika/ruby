@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL 1.1.0 対応つづき。 1.1.0 から導入される
+SSL_CTX_get_security_level() および SSL_CTX_set_security_level() の wrapper で
+ある OpenSSL::SSL::SSLContext#security_level, #securyti_level= メソッドを新設し
+ています。 [ruby-core:75225] [Feature #12324]
