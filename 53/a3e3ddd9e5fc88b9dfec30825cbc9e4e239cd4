@@ -1,0 +1,3 @@
+String#downcase! の実装で分岐の順番を変えて ASCII 文字のみ含まれる場合を除いて
+rb_str_casemap() を呼び出すように共通化しています。ここでも
+onigenc_ascii_only_case_map() と同様の処理を独立して実装していたみたいですね。
