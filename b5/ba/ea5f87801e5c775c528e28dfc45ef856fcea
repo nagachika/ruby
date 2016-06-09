@@ -1,0 +1,3 @@
+test/ruby/enc/test_case_comprehensive.rb でテストメソッドを動的に生成するメソッ
+ドの名前を generate_casefold_tests → generate_case_mapping_tests に改名してい
+ます。
