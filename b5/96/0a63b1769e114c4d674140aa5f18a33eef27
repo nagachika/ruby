@@ -1,0 +1,4 @@
+拡張ライブラリ date の date_parse.c に埋め込まれていたタイムゾーンの名前と
+offset のテーブルを ext/date/zonetab.list というファイルに分離して gperf コマン
+ドで zonetab.h というヘッダファイルを生成して利用するようにしています。けど
+common.mk には zonetab.c というファイル名が書かれてますね。
