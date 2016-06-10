@@ -1,0 +1,2 @@
+ext/date/zonetab.list および生成された zonetab.h で static 関数のプロトタイプ宣
+言を前方に追加しています。
