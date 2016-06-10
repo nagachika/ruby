@@ -1,0 +1,3 @@
+String#upcase!, #downcase! などで ASCII 文字のみの処理を行う条件を修正していま
+す。また rb_str_ascii_casemap() という関数を追加して #downcase, #downcase! では
+:ascii オプションが指定された時の処理はまた別に分岐して行うようにしています。
