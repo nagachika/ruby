@@ -1,0 +1,3 @@
+r55329 の #downcase, #downcase! の :ascii オプションを渡した時と同様に
+rb_str_upcase_bang() でも rb_str_ascii_casemap() を利用するようにしていますが、
+これは次で revert されています。
