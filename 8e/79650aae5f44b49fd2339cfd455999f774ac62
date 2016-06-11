@@ -1,0 +1,2 @@
+win32/ifchange.bat の場合標準入力から読む機能がないので一旦 rbconfig.tmp にリダ
+イレクトしてそれを渡すように rbconfig.rb のルールを変更しています。
