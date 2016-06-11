@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の OpenSSL 1.1.0 ビルド対応。 pkg-config でのチェックが
+使えない環境で libcypto or libeay32 のチェックをOpenSSL_add_all_digests という
+シンボルで行なっていたのを CRYPTO_malloc で行なうようにし、libssl or
+libssleay32 のチェックを SSL_library_init のかわりに SSL_new で行なうようにして
+います。[ruby-core:75225] [Feature #12324]
