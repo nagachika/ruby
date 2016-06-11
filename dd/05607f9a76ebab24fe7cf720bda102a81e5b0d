@@ -1,0 +1,5 @@
+r55214 で ECDH が使えるかどうか SSL_CTX_set_ecdh_auth() という関数をみるように
+していましたが、OpenSSL では ECDH が無効化されていても SSL_CTX_set_ecdh_auth()
+という関数は定義されているようなので OPENSSL_NO_EC というマクロの定義の有無もみ
+るようにしています。また ECDH が使えない環境を考慮してテストで
+NotImplementedError や OpenSSL::SSL::SSLError の例外の捕捉を追加しています。
