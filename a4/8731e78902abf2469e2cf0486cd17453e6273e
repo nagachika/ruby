@@ -1,0 +1,3 @@
+拡張ライブラリ stringio の strio_init() で最後に return self するようにして
+strio_initialize() から最後に末尾呼び出しになるようにして最適化がききやすくなる
+ようにしています。
