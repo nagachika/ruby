@@ -1,0 +1,2 @@
+common.mk で rbconfig.rb と update-bundled_gems で ifchange を参照するところで
+Windows 版の場合も考慮して $(IFCHANGE) 変数の参照に変更しています。
