@@ -1,0 +1,2 @@
+標準添付ライブラリ forwardable の Forwardable._delegator_method に rdoc 向けの
+:nodoc: タグのコメントを追加しています。
