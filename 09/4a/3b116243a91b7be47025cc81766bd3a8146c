@@ -1,0 +1,2 @@
+標準添付ライブラリ forwardable の SingleForwardable を Object に extend するケ
+ースのテストを追加しています。
