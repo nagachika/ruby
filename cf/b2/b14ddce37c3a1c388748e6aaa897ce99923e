@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all で行指向の JSON ではなく全体と
+して JSON として parse で出力するようにしています。
