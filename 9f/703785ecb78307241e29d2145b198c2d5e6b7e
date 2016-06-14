@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で OpenSSL 1.0.1 でサポートされている AES-GCM AEAD とい
+う暗号化形式をサポートするようにしています。 ossl_cipher_get_auth_tag() で
+EVP_CIPHER_CTX_flags() を使って得たフラグをチェックするようにしています。
