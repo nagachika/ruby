@@ -1,0 +1,2 @@
+test/ruby/enc/test_case_comprehensive.rb で Unicode のエンコーディングの
+swapcase のテストを生成するようにしています。
