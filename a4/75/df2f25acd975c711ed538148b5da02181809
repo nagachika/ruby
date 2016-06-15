@@ -1,0 +1,7 @@
+デッドロック検出時のデバッグメッセージで出力の意味がわかりやすいようにラベルを
+追加して、さらに Thread 間の依存関係(rb_thread_t::join_list) の表示と、各
+Thread のバックトレースの表示も追加しています。 [ruby-dev:47217] [Feature #
+8214]
+また Thread#inspect で Thread の状態として "sleep" のうち
+THREAD_STOPPED_FOREVER を "sleep_forever" と表記するようにして "sleep" と区別で
+きるようにしています。
