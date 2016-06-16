@@ -1,0 +1,2 @@
+test/ruby/enc/test_case_comprehensive.rb で正規表現の ^ と $ を \A と \z に変更
+しています。
