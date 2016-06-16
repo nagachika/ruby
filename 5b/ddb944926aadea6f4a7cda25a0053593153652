@@ -1,0 +1,6 @@
+r55394 で RUBY_INTEGER_UNIFICATION マクロの導入時に rb_cFixnum と rb_cBignum の
+マクロ定義(rb_cInteger に展開)を追加していたのを削除しています。 "to fail
+incompatible extension libraries earily" とあるので、これで非互換を踏んでいる拡
+張ライブラリの問題を遮蔽しないようにということですが、これがあるだけで何もしな
+くても動くケースもあるんじゃないかなぁと考えるとあっても良いのでは。
+[ruby-core:75718] [Bug #12427]
