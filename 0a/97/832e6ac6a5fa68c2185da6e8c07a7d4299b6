@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の OpenSSL::OCSP::CertificateId に #issue_name_hash, #
+issue_key_hash, #hash_algorithm などのメソッドを追加しています。
+[ruby-core:48062] [Feature #7181]
+また OpenSSL::OCSP::CertificateId#serial の rdoc 用コメントでメソッド名が
+get_serial になっていたのを修正しています。
