@@ -1,0 +1,2 @@
+拡張ライブラリ stringio の StringIO#gets や readlines で int のオーバフローした
+時に不正ポインタアクセスする可能性があった不具合を修正しています。
