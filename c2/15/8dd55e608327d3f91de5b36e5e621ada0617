@@ -1,0 +1,3 @@
+Ubuntu 16.04 の OpenSSL の不具合でテストがこけることがあるので OpenSSL::PKeyEC#
+generate_key を Oakley- ではじまる名前の curves について呼ばないようにしていま
+す。 [ruby-dev:49670] [Bug #12504]
