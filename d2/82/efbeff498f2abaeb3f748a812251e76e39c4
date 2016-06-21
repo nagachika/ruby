@@ -1,0 +1,4 @@
+localeinit.c の Init_enc_set_filesystem_encoding() で cygwin でも Windows 版と
+同様に GetACP() や GetOEMCP() を使って filesystem encoding を取得していたのを、
+常に UTF-8 固定にしています。参考URL: https://cygwin.com/cygwin-ug-net/
+using-specialnames.html#pathnames-unusual
