@@ -1,0 +1,2 @@
+r55451 の修正に対応して test/ruby/test_dir_m17n.rb のテストをいくつか cygwin の
+時に skip するようにしています。 [ruby-core:75789] [Bug #12443]
