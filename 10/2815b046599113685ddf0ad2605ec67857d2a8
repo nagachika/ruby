@@ -1,0 +1,5 @@
+拡張ライブラリ openssl に OpenSSL::OCSP::SingleResponse というクラスを追加して
+います。また OpenSSL::OCSP::BasicResponse には #responses と find_response とい
+うメソッドを追加して、BasicResponse が複数の SingleResponse を所有するようにし
+ています。BasicResponse の従来のメソッドの挙動は変わってないので互換性は保って
+いますがより使いやすい validation の方法を提供しているということみたいです。
