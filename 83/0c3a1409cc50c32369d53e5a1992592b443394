@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::OCSP::BasicResponse#add_status で時刻を表す
+属性の設定に整数だけでなく Time オブジェクトを受け付けるようにしています。
