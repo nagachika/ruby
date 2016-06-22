@@ -1,0 +1,4 @@
+r52104 の invoke_block_from_c() の最適化で特殊な条件で(テストみると GC も絡んだ
+かなりこみ入った条件みたいです)エラーになるので、invoke_bmethod() で
+rb_thread_t::passed_bmethod_me を使わずに invoke_block_from_c_0() の時点で取り
+出しておいて引数で渡すように修正しています。 [ruby-core:72724] [Bug #11954]
