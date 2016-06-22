@@ -1,0 +1,4 @@
+OpenSSL 1.1.0 対応として rubygems のテストで OpenSSL::PKey::DH#priv_key= を使っ
+ている部分を削っています。 openssl を OpenSSL 1.1.0 上でビルドすると使えなくな
+るため。 https://github.com/rubygems/rubygems/pull/1648 [ruby-core:75225]
+[Feature #12324]
