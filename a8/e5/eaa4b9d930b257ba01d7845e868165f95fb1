@@ -1,0 +1,3 @@
+test/ruby/enc/test_case_comprehensive.rb で casemap 関係のテストでテスト用のデ
+ータをキャッシュすると全テストの実行中にメモリを消費し続けるのキャッシュするの
+をやめています。
