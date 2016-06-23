@@ -1,0 +1,2 @@
+win32/win32.c の get_special_folder() で get_path_func の型宣言を修正しています
+。 http://twitter.com/arton/status/744884064277016576
