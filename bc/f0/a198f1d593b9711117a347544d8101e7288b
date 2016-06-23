@@ -1,0 +1,3 @@
+rb_str_casemap() と rb_str_ascii_casemap() でデバッグ用の出力が残っていたのを
+CASEMAP_DEBUG というマクロが定義されている時だけ出力するように条件分岐の中に移
+動しています。
