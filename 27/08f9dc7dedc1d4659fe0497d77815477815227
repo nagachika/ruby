@@ -1,0 +1,3 @@
+r55486 の追加修正。 make の unicode-up ターゲットの依存関係を enc/unicode/
+casefold.h にして ALWAYS_UPDATE_UNICODE=yes の時のみ作りなおすようにして不要な
+再生成を抑制するようにしています。
