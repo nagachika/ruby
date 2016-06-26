@@ -1,0 +1,4 @@
+rubygems を 2.6.6 に更新しています。リリースノートは https://github.com/
+rubygems/rubygems/commit/656f5d94dc888d78d0d00f3598a4fa37391aac80 と https://
+github.com/rubygems/rubygems/commit/ccb9c3300c063f5b5656669972d24a10ef8afbf5 を
+参照。 trunk/2.4 の Integer 統合への対応が入っているみたいですね。
