@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb でデータファイルを読む時に mode: "rb" を追加してバ
+イナリモードで読むようにしています。
