@@ -1,0 +1,7 @@
+vm_respond_to() で respond_to? の method entry がみつからない時に TRUE(1) を返
+していたのを -1 を返して method_missing を呼ばせるようにしています。チケットは
+Marshal.dump で BasicObject を継承したオブジェクト(respond_to? も定義されてな
+い)を dump する時に marshal_dump メソッドが呼べるかチェックしているところで誤判
+定されてしまって動かないという問題のものですが、Marshal のコードで
+vm_respond_to() を呼ぶようになったので表面化したけど vm_respond_to() に元々修正
+漏れがあったという感じですね。 [ruby-core:75377] [Bug #12353]
