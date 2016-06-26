@@ -1,0 +1,4 @@
+r55486, r55488, r55489 のリベンジ。 Unicode 関連のデータファイルのダウンロード
+なしでビルドできるようにしています。環境変数に ALWAYS_UPDATE_UNICODE=yes がセッ
+トされていなかったら enc/unicode/casefold.h の再生成を抑制しています。
+[ruby-dev:49681]
