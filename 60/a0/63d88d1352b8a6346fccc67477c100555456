@@ -1,0 +1,3 @@
+cygwin/GNUmakefile.in と template/GNUmakefile.in で MAKEFLAGS から -j オプショ
+ンの指定を削るようにしています。 sub make に並列度オプションを渡さないようにし
+ているみたいです。
