@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils の FileUtils#install の keyword 引数に owner と
+group を追加してファイルの所有者情報を可能なら変更するようにしています。
