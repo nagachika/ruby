@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils の FileUtils::Entry_#copy_metadata で同じ処理をま
+とめるリファクタリング。
