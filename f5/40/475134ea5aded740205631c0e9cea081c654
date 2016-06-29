@@ -1,0 +1,4 @@
+VM 命令列へのコンパイル時に trace 命令を埋め込む ADD_TRACE() マクロで行番号が 0
+以下の時に trace 命令を生成しないようにしています。そんなことあるのかな、と思い
+ましたが RubyVM::InstructionSequence.compile に行番号 0 を渡した時にエラーにな
+ってたみたいです。 [ruby-core:76141] [Bug #12517]
