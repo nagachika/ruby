@@ -1,0 +1,3 @@
+test/ruby/enc/test_case_comprehensive.rb の Unicode 用のデータファイルの存在に
+依存しているテストを、データファイルがダウンロードされてなかったらskip するよう
+にしています。 [ruby-core:76160] [Bug #12433]
