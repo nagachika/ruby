@@ -1,0 +1,2 @@
+r55514 の enc/unicode/casemap.h 生成の gperf 変更を revert しています。コミット
+ミスだったみたい。
