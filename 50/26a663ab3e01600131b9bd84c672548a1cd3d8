@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の Net::HTTP#proxy_uri でインスタンス変数
+@proxy_uri キャッシュしてましたが、find_proxy が nil を返した時は結局毎回
+find_proxy してしまっていたので、false を格納して再検索しないようにしています。
