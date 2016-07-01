@@ -1,0 +1,2 @@
+random.c で VC6 でのコンパイルエラーを抑制するため uint64_t を使っている部分で
+preprocessor の条件に _MSC_VER の範囲を追加しています。
