@@ -1,0 +1,2 @@
+r55515 の opt_plus の最適化のように opt_succ でも FIXNUM_MAX で分岐して不要な
+rb_big_plus() の呼び出しを抑制して FIXNUM_MAX + 1 を利用するようにしています。
