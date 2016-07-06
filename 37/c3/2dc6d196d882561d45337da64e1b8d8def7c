@@ -1,0 +1,3 @@
+configure で signal.h で定義されている sig_t という型の存在をチェックして未定義
+だったら process.c で定義しておくようにしています。 Solaris 10 と Solaris 11 で
+は sig_t が未定義だったそうです。
