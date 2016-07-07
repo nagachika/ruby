@@ -1,0 +1,2 @@
+r55576 で新規追加されたファイルの svn property 設定。
+ところで ext/json/lib/json/ext/.keep のディレクトリは必要なのかな。
