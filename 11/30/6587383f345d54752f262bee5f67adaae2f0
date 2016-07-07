@@ -1,0 +1,6 @@
+拡張ライブラリ json を 2.0.1 に更新しています。 ChangeLog はこちら https://
+github.com/flori/json/blob/f679ebd0c69a94e3e70a897ac9a229f5779c2ee1/CHANGES.md
+RFC 7159 という新しい RFC に準拠するようになったので、 :quirks_mode というオプ
+ションはなくなった(まあでもキーワード引数ではなくて Hash のオプション引数だから
+指定しててもこけることはないのでそんなに影響はないか…)。 https://github.com/
+ruby/ruby/pull/1395 [ruby-dev:49706] [Feature #12542]
