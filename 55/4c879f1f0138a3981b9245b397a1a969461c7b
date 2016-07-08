@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http の Net::HTTP#write_header で request line (GET/POST
+などのメソッドとパスなどが含まれるリクエストの先頭の行)の部分に改行コード(CR,
+LF)が含まれていたら ArgumentError を発生させるようにしています。
+[ruby-core:76275] [Bug #12557]
