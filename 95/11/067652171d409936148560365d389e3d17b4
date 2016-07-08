@@ -1,0 +1,2 @@
+enc/iso_8859_1.c, enc/iso_8859_15.c, enc/iso_8859_16.c の case_map() のインデン
+ト調整。
