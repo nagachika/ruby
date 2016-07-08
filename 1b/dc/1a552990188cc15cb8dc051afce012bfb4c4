@@ -1,0 +1,6 @@
+mkmf.rb で $headers の内容を LOCAL_HDRS という Makefile の変数に展開するように
+して、拡張ライブラリ digest の各種 depend で LOCAL_HDRS を依存関係に追加するよ
+うにしています。そして ext/digest/digest_conf.rb で $headers に各 digest の必要
+なヘッダファイルを追加するようにしています。
+digest_conf.rb -> mkmf.rb/extmk.rb -> depend と経由してようやく追加したいヘッダ
+が追加できるので実に迂遠ですね。
