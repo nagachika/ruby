@@ -1,0 +1,2 @@
+tool/update-deps で make の依存関係調節のための timestamp ファイルは対象から外
+すようにしています。
