@@ -1,0 +1,2 @@
+thread.c の rb_wait_for_single_fd() で ppoll(2) を呼ぶ前に fds.revents を 0 に
+リセットしています。 [ruby-dev:49725] [Bug #12575]
