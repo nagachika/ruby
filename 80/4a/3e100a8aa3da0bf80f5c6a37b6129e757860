@@ -1,0 +1,3 @@
+vm_eval.c の yield_under() で引数を Ruby の Array オブジェクトで受け取っていた
+のを argc, argv で VALUE の配列として受け取ってそのまま vm_yield_with_cref() に
+渡すように変更して、呼び元での不要な中間オブジェクト生成をなくしています。
