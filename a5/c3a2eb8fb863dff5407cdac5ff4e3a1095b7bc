@@ -1,0 +1,4 @@
+標準添付ライブラリ getoptlong にも定数の FALSE が使われている箇所があったので予
+約語の false に変更しています。 TRUE/FALSE/NIL などの定数を削除しようという
+Feature Request があったので、そのための対応でしょう。しかし ChangeLog には
+tool/mkconfig.rb についても記載されていて…。
