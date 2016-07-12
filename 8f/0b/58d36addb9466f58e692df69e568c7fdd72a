@@ -1,0 +1,4 @@
+ISO-8859-1 と ISO-8859-15 の case_map() の変更しないする code を追加して、test/
+ruby/enc/test_case_comprehensive.rb のテストで
+Encoding::UndefinedConversionError が発生した時に i と I 以外は無視させるように
+しています。いいのかな。
