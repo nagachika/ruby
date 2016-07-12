@@ -1,0 +1,2 @@
+thread.c の getclockofday() で明示的なキャストを追加しています OS X の clang で
+のビルドエラー対策とのこと。
