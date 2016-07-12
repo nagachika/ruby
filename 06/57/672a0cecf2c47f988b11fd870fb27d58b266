@@ -1,0 +1,4 @@
+test/ruby/enc/test_case_comprehensive.rb の
+generate_ascii_only_case_mapping_tests というテスト生成ユーティリティのコメント
+を修正しています。 casemap 関連のエンコード毎のテスト対応は完了したってことです
+かね。
