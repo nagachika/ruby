@@ -1,0 +1,2 @@
+Encoding の ISO-8859-1 の case_map() 関数で、小文字に対応する大文字が存在しない
+code point のチェックを操作が upcase の操作の時の分岐内に移動しています。
