@@ -1,0 +1,4 @@
+r55603 で IO.readlines や IO.foreach の引数の解析を行毎のコールバック内でやって
+たのを最初に1回だけするようにしましたが、拡張ライブラリ stringio の StringIO#
+each_line や StringIO#readlines でも同様に stringio_getline() から引数解釈の部
+分を切り出して事前にやっておくようにしています。
