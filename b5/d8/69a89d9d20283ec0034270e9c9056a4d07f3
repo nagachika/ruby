@@ -1,0 +1,3 @@
+Encoding の ISO-8859-{4,10,14,15,16} の casemap 対応の関数 case_map() で code
+point を直書きして分岐していたところを ENC_ISO_8859_XX_TO_LOWER_CASE() というテ
+ーブル参照のマクロを利用するようにリファクタリングしています。
