@@ -1,0 +1,2 @@
+math.c の math_log1(), math_log2(), math_log10() から Bignum を double へ変換す
+る処理を get_double_rshift() という関数に切り出すリファクタリング。
