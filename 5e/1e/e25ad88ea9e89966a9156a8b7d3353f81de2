@@ -1,0 +1,4 @@
+configure や mkmf.rb, win32/Makefile.sub に CSRCFLAG という変数を追加して、これ
+まで -Tc と決め打ちになっていたのを設定可能にしています。また Windows のコンパ
+イラに -nologo というオプションを付けていたのをコンパイラが cl の時だけにしてい
+ます。
