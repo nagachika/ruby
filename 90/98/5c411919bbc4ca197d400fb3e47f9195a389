@@ -1,0 +1,2 @@
+NEWS ファイルの Fixnum と Bignum の統合についての記述に
+RUBY_INTEGER_UNIFICATION マクロの導入について追記しています。
