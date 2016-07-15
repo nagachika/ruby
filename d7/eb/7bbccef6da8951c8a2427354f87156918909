@@ -1,0 +1,6 @@
+ObjectSpace.each_object のブロック内で singleton_class と instance_methods を呼
+ぶと SEGV することがある不具合を修正。なんだかよくわからないのですが RubyVM 自
+体を GC の root として mark していなかったみたいです。正確には rb_mark_set() で
+RubyVM 自体の mark はしてたけど再帰的な mark をしていなかったので RubyVM の特異
+クラスが生成されるとそれが mark から漏れてたということみたいです。
+[ruby-dev:49731] [Bug #12583]
