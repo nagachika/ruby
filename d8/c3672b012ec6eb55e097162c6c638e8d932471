@@ -1,0 +1,7 @@
+r52921 で導入された RubyVM::InstructionSequence で translate というメソッドがあ
+ったら命令列をこのメソッドにわたして変換をかけるようにするというフックに思わぬ
+副作用があって、Object とか Kernel に translate メソッドを定義してしまうと
+RubyVM::InstructionSequence でも respond_to? で反応してしまうので、変換機能があ
+ると誤解して呼んでしまって落ちる、という問題があったので、明示的に undef して
+RubyVM::InstructionSequence に再定義された時だけ反応するようにしています。さっ
+きのはこれの修正の過程で発見されたのかも。
