@@ -1,0 +1,2 @@
+拡張ライブラリ json のテストで minitest の assert_raises を使っていたところを
+assert_raise に変更しています。
