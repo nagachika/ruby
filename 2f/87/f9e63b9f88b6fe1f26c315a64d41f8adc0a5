@@ -1,0 +1,5 @@
+r55676 の続き。 Makefile.in のほうにあった enc/unicode/name2ctype.h のためのル
+ールを削除しています。また common.mk のほうのルールで tool/enc-unicode.rb に
+--header オプションをわたすようにして name2ctype.h を生成させるように修正してい
+ます。リポジトリからは enc/unicode/name2ctype.{h.blt, kwd, src} などのファイル
+は削除しています。これらも自動生成されるんですね。
