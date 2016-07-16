@@ -1,0 +1,2 @@
+common.mk の incs というターゲットの依存関係にある enc/unicode/name2ctype.h と
+enc/jis/props.h に $(srcdir)/ をつけるようにしています。
