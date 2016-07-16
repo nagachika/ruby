@@ -1,0 +1,3 @@
+rbconfig.rb の生成時のルールに ${UNICODE_VERSION} と enc/unicode/casefold.h の
+ONIG_UNICODE_VERSION_STRING マクロが一致しているかチェックするコマンドを追加し
+ています。
