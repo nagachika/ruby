@@ -1,0 +1,4 @@
+Module#constants の引数に false を渡して継承/include している Class/Module の定
+数は含めないようにすると private に指定した定数が含まれてしまう不具合を修正して
+います。これは、確かに不具合ですね。安定版で直すかは悩ましいところですが….
+[ruby-core:75338] [Bug #12345]
