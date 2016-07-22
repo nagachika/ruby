@@ -1,0 +1,2 @@
+ary_add_hash() と ary_add_hash_by() から Hash に要素がなければ追加するという処
+理を rb_hash_add_new_element() という関数に切り出しています。
