@@ -1,0 +1,2 @@
+NEWS ファイルに r55709 と r55710 の Enumerable#uniq と Enumerator::Lazy#uniq の
+追加について追記しています。 [ruby-core:68969] [Feature #11090]
