@@ -1,0 +1,2 @@
+r55709 の Enumerable#uniq の rdoc 用コメントに説明を追記しています。
+[ruby-core:68969] [Feature #11090]
