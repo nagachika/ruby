@@ -1,0 +1,6 @@
+チケットによると PVS-Studio という静的コード解析ツールで報告された問題の対応で
+いくつか修正がまとめられています。 vm.c の vm_set_main_stack() で bind は必ず初
+期化されているのでチェックを削除しています。string.c ではサイズチェックで不要な
+ポインタ演算をやめています。 win32/win32.c では関数型 create_symbolic_link_func
+の定義で戻り値の型を DWORD -> BOOLEAN に修正しています。 [ruby-core:76519] [Bug
+#12611]
