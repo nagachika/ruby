@@ -1,0 +1,3 @@
+run_finalizer() で table の要素を処理する毎に rb_protect() で保護していたのをル
+ープ全体を TH_PUSH_TAG()/TH_POP_TAG() で保護して、失敗した要素のインデックスは
+スキップするようにして効率化しています。
