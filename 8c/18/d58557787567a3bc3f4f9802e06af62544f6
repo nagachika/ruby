@@ -1,0 +1,2 @@
+LEGAL ファイルに enc/trans/GB/GB*、 enc/trans/GB/UCS%GB*、 ext/json/generator/
+generator.c のライセンスについて追記しています。 [ruby-core:76428] [Bug #12598]
