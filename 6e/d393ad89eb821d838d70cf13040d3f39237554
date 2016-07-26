@@ -1,0 +1,2 @@
+enc/* の Encoding のソースから ONIG_CASE_MAPPING というマクロによる
+preprocessor の分岐を消しています。 [ruby-core:75525] [Feature #12386]
