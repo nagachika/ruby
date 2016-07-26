@@ -1,0 +1,2 @@
+DTrace を使ったテストの helper で実行するコマンドが ruby-runner の時は miniruby
+を使うように書き換えるようにしています。
