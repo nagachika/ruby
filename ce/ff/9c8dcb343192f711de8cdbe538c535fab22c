@@ -1,0 +1,2 @@
+DTrace を使ったテストの helper で r55735 で ruby-runner を miniruby に置換する
+部分を条件分岐をやめて String#sub で正規表現で変換するようにしています。
