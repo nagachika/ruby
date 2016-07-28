@@ -1,0 +1,2 @@
+テストで(minitest の?) assert_includes を使っていたところを assert_include を利
+用するように修正しています。
