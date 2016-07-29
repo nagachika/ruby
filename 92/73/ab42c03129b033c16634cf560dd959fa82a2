@@ -1,0 +1,2 @@
+make install の前に make test-framework でテスト用フレームワーク自体のテストを
+実施するように依存関係を調節しています。
