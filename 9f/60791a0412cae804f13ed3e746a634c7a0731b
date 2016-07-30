@@ -1,0 +1,11 @@
+RubyVM の stack frame と env (環境変数ではなくて Thread 毎の RubyVM の実行環境)
+の構造を変更しています。大きなパッチでいくつかの変更が混ざってます。
+メソッドに渡されたブロックを表現するためBH(Block Handler) という概念を導入して
+、これまで rb_block_t を直接扱っていたところで VALUE 型の変数で取り回すようにし
+ています。また rb_block_t という型は struct rb_block にして型名の宣言をやめてい
+ます。
+rb_control_frame_t::flag というメンバは特殊ローカル変数を持つ ep[0] に移動して
+います。
+Proc, Binding, RubyVM::Env などのオブジェクトを RGenGC の write-barrier を実装
+して wb-protected な種類のオブジェクトにしています。 [ruby-core:76568] [Bug #
+12628]
