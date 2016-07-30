@@ -1,0 +1,7 @@
+r55766 の再修正。 rb_vm_make_proc_lambda() で導入した VM_ENV_ESCAPED_P() マクロ
+を利用するようにリファクタリングしています。また [DEL:VM_ENV_LOCAL_P() の戻り値
+を 0 か 1 にそろえるようにしています。:DEL] っていうのは間違いで 0 か 1 を返す
+ようにしていたのを、条件部の値をそのまま返すようにしています。ただ手元の環境だ
+と VM_ENV_FLAGS() のところで整数型の long to int の暗黙の変換の警告がエラー扱い
+になっててビルドできないですね…。 CI でも同様みたいです。 http://
+rubyci.s3.amazonaws.com/osx1010/ruby-trunk/log/20160728T194501Z.fail.html.gz
