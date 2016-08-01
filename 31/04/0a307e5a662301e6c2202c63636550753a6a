@@ -1,0 +1,2 @@
+r55775 をもって ISO-8859-{1～16} の全ての Encoding の casemap 対応が完了したよ
+うで、NEWS ファイルと String#downcase の rdoc 用コメントに追記しています。
