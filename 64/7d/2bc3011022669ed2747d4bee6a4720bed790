@@ -1,0 +1,2 @@
+r55781 で追加した ext/win32/resolv/resolv.c の Init_resolv() で未使用の変数代入
+があったので削っています。 [ruby-core:76478] [Bug #12604]
