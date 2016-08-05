@@ -1,0 +1,4 @@
+RubyVM の env のフラグに VM_FRAME_FLAG_CFRAME というビットフラグを追加して、
+vm_push_frame() で control stack frame が C実装のメソッドやブロックの呼び出しの
+時の種類を表現させるようにしています。とりあえず vm_check_frame() でのチェック
+の強化に使っているだけ、かな?
