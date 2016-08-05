@@ -1,0 +1,2 @@
+NEWS ファイルに Kernel#clone の keyword 引数 freeze の追加について追記していま
+す。 [ruby-core:75017] [Feature #12300]
