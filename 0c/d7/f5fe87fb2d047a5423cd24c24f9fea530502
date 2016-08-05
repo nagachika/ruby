@@ -1,0 +1,4 @@
+VM_FRAME_TYPE_FINISH_P() と VM_FRAME_TYPE_BMETHOD_P() という env のフラグをチェ
+ックするマクロ定義を削除して、かわりに VM_FRAME_FINISHED_P() と
+VM_FRAME_BMETHOD_P() という inline 関数を vm_core.h に追加してこちらを利用する
+ように変更しています。
