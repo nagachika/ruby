@@ -1,0 +1,6 @@
+r55813 で w32_getenv についてやったのと同様に win32/win32.c の get_final_path
+も関数ポインタの変数として定義して get_final_path_unknown() を代入しておいて、
+この中で最初に呼ばれた時に get_proc_address() で GetFinalPathNameByHandleW とい
+うシンボルが得られるかどうかチェックしてその結果に応じて get_final_path 変数に
+再代入することで、2回目以降は直接それらの関数が呼ばれるようにして分岐しないよう
+にしています。
