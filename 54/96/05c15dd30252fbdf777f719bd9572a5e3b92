@@ -1,0 +1,3 @@
+r55811 の ENV.assoc の Encoding 変換の変更でテストが失敗するようになったのを修
+正するため env_str_new() で Windows 版の時に返す文字列を taint しておくようにし
+ています。
