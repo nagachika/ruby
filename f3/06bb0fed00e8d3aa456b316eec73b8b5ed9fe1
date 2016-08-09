@@ -1,0 +1,2 @@
+basictest/runner.rb と bootstraptest/runner.rb で警告オプションを -W1, $VERBOSE
+= false にして警告を抑制するようにしています。
