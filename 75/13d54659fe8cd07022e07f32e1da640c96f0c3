@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で SSL_write() の第3引数のバッファサイズ num=0 で呼び出
+すと結果が未定義なので、ossl_ssl_write_internal() で呼び出し前のチェックして呼
+ばないようにしています。 [ruby-core:76751] [Bug #12660]
