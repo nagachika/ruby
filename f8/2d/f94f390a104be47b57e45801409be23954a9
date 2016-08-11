@@ -1,0 +1,3 @@
+ext/tk/tcltklib.c で r55842 で StringValueCStr() に変更したところで strcmp(3)
+への引数に繰り返し同じオブジェクトの StringValueCStr() を渡してたので、1回変換
+してポインタを取り出して memcmp(3) でチェックするように最適化しています。
