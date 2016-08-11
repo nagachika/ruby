@@ -1,0 +1,6 @@
+vm_insnhelper.c の vm_getivar() には INLINE ではなく ALWAYS_INLINE() マクロによ
+る __always_inline__ attribute の設定 or __forceinline 修飾子の付加に変更してい
+ます。こっちを使わないと gcc7 でインライン化されないとのこと。 ALWAYS_INLINE()
+マクロは引数に関数のプロトタイプ宣言を渡すのが本来の呼び方だと思いますが、まあ
+展開後も引数の前に __attribute__ ( (__always_inline__) ) が付くだけだと思うので
+展開後の結果は同じですね。
