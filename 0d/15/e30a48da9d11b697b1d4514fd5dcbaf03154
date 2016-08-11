@@ -1,0 +1,3 @@
+拡張ライブラリ tk で switch 文の case 節の最後の break が忘れられていて
+fallthrough していたのを修正しています。TckTkLib.set_max_block_time() に Float
+でタイムアウトを渡した時に ArgumentError になってしまっていたようです。
