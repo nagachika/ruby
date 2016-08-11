@@ -1,0 +1,2 @@
+拡張ライブラリ tk は標準添付から外されて https://github.com/ruby/tk で管理され
+るようになりました。 [ruby-core:55530] [Feature #8539]
