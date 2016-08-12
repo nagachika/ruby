@@ -1,0 +1,4 @@
+拡張ライブラリ win32 の cygwin でのビルドエラーの修正。 cygwin では win32/
+resolv のビルドのための windows.h というヘッダがなかったので Makefile の生成を
+抑制しているようです。また Win32::Resolv::Error という定数に Win32::Registry::
+Error を別名として代入しています。 [ruby-core:76791] [Bug #12663]
