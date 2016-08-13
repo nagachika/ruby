@@ -1,0 +1,2 @@
+parse.y に代入文とその仲間達と後置 rescue の対応のためにルールを分割して
+command_rhs と arg_rhs というルールを追加しています。
