@@ -1,0 +1,3 @@
+正規表現のマッチ内容に関する $1, $2... などの変数への代入を構文エラーにする処理
+でも backref_assign_error() という共通の名前のマクロを用意して parser と ripper
+で preprocessor 分岐を不要にしています。
