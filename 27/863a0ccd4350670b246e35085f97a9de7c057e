@@ -1,0 +1,5 @@
+r55849 の追加修正? cygwin で拡張ライブラリ win32/resolv のビルドに失敗していた
+のを修正しています。 iphlpapi.h を include する前に windows.h を include して
+NTDDI_VERSION というマクロを定義しておきます。また Win32::Error クラスの定義を
+削って Win32::Resolv::Error を利用するようにしています。 [ruby-core:76791] [Bug
+#12663]
