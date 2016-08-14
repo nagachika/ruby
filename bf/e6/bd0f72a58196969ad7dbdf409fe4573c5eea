@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::Config::General のデフォルトの設定で
+:DoNotReverseLookup を false から true に変更しています。 accept した TCPSocket
+の do_not_reverse_lookup に設定する値で IP アドレスからの逆引きで時間がかかるの
+を抑制します。 [ruby-core:45527] [ruby-core:45514] [Feature #6559]
