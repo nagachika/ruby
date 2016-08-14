@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence.compile で r54189 あたりでコンパイル時に
+SyntaxError 例外を発生させる時のメッセージの組み立てかたをリファクタリングした
+時に2つ以上のエラーがあって追記する時に余分な改行を追加していたのを修正していま
+す。 [ruby-core:72711] [Feature #11951]
