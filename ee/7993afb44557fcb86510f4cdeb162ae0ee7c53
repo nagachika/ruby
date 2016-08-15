@@ -1,0 +1,3 @@
+拡張ライブラリ socket の ext/socket/getnameinfo.c で rubysocket.h というヘッダ
+も include するようにしています。 inet_ntop() の代替実装が必要な場合にこのヘッ
+ダが必要だったようです。
