@@ -1,0 +1,2 @@
+Data クラスの rdoc 用コメントに README.EXT の参照があったので doc/
+extension.rdoc に変更しています。
