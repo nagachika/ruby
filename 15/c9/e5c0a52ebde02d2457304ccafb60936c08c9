@@ -1,0 +1,2 @@
+Windows での CI用の appveyor.yml で利用する libressl のバージョンを 2.3.5 から
+2.3.7 に更新しています。
