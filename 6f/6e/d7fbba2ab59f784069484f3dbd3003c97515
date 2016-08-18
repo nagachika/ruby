@@ -1,0 +1,2 @@
+Encoding::Converter と標準添付ライブラリ net/http の Net::HTTP::Header#set_form
+の rdoc 用コメントの typo 修正。 https://github.com/ruby/ruby/pull/1407
