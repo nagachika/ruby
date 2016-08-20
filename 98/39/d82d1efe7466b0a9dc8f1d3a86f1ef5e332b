@@ -1,0 +1,2 @@
+ext/extmk.rb と tool/rbinstall.r で bundled gems に拡張ライブラリを含む gem が
+あった場合のビルドの対応をしています。 [ruby-core:76931] [Bug #12681]
