@@ -1,0 +1,2 @@
+構造体 struct ruby_cmdline_options に ruby_cmdline_options_t という型名を
+typedef しています。
