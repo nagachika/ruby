@@ -1,0 +1,2 @@
+cygwin/GNUmakefile.in にて strip コマンドの名前を STRIP 変数にセットするように
+しています。
