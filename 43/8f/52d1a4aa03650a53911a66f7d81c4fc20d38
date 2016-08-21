@@ -1,0 +1,2 @@
+ext/extmk.rb の extmake メソッドにブロックを渡して create_makefile にそのブロッ
+クを渡して Makefile が変更が不要なのに更新してしまうのを避けているそうです。
