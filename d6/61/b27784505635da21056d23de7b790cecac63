@@ -1,0 +1,3 @@
+Enumerable#sort で enum_to_a() で生成した配列をさらに rb_ary_sort() で複製を返
+していたので rb_ary_sort_bang() で破壊的にソートするようにして余分な中間オブジ
+ェクトの生成を抑制しています。
