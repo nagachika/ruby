@@ -1,0 +1,5 @@
+r43514 で拡張ライブラリを static link した時に mathn/rational などが明示的に
+require されてなくてもロードされてしまう対策として ruby_init_ext() では Init 関
+数は登録するだけで呼び出さなくなっていたので、その余波で goruby で Init_golf()
+が呼ばれなくなっていたので、ruby_init_ext() を使わず明示的に Init_golf() を呼ん
+で rb_provide() で golf.so がロードされた状態にするようにしています。
