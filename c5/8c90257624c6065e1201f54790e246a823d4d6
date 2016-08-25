@@ -1,0 +1,2 @@
+拡張ライブラリ psych のテストで Tempfile.create をブロックつきで使って消し忘れ
+のないようにしています。 https://github.com/tenderlove/psych/pull/288
