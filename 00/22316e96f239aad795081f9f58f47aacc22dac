@@ -1,0 +1,2 @@
+prelude.c の生成時の依存関係に lib/rubygems/defaults.rb や lib/rubygems/
+core_ext/kernel_gem.rb などが含まれていたのを削っています。
