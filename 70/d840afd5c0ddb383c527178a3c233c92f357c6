@@ -1,0 +1,2 @@
+win32/file.c の rb_w32_filecp() のプロトタイプ宣言を win32/file.h に追加して
+win32/win32.c で宣言していたのは削っています。
