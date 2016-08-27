@@ -1,0 +1,3 @@
+win32/file.c の append_wstr() の引数 path_cp で codepage を渡しているのを削って
+います。呼び元で cp が INVALID_CODE_PAGE だったかどうかを渡すためだけにあったみ
+たいなので、呼び元で処理せずに append_wstr() 内に判断を取り込んでいるようです。
