@@ -1,0 +1,2 @@
+win32/file.c の append_wstr() で引数 len が -1 の時には lstrlenW() で終端文字ま
+での文字数を数えてセットするようにしています。
