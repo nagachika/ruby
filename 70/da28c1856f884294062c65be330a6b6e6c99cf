@@ -1,0 +1,3 @@
+r56014 で切り出した parser_parse_string() で struct NODE の nd_func メンバ(マク
+ロで u1.id に展開されてた)を参照していたクオートの種類を u2.id に格納するように
+変更しています。
