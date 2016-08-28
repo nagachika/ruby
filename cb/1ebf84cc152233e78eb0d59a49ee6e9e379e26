@@ -1,0 +1,2 @@
+parse.y の xstring のルールの処理も new_xstring_gen() という関数に切り出すリフ
+ァクタリング。
