@@ -1,0 +1,2 @@
+parse.y の parser_heredoc_dedent() で戻り値に渡した引数をそのまま返すようにして
+heredoc_indent の 0 へのリセットも関数内で行うようにしています。
