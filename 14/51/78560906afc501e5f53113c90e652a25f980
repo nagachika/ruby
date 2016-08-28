@@ -1,0 +1,3 @@
+parse.y の regex のルールの処理を new_regexp_gen() という関数に切り出すリファク
+タリング。ルール部で ripper 用と parser 用の分岐を不要にしています(同名で別の関
+数が定義されるように preprocessor で分岐している)。
