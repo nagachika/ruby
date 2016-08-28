@@ -1,0 +1,2 @@
+test/ruby/enc/test_regex_casefold.rb で setup 時の例外発生時にエラーではなく
+skip 扱いにするようにしています。
