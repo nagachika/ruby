@@ -1,0 +1,6 @@
+openssl の gem パッケージ化がどうやらリリース間近なようで upstream から 2.0.0.
+beta.1 をマージしています。履歴は https://github.com/ruby/openssl/compare/
+08e1881f5663...v2.0.0.beta.1 に。 bundled gem とは違って標準添付を外すわけでは
+なく、default gem として標準添付にも入っているけど別途 gem パッケージとしてもリ
+リースしているので更新もできる、というもの(json, psych, io/console などもそうで
+すね)。 [ruby-core:61378] [Feature #9612]
