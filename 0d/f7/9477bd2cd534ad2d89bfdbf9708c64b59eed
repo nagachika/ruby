@@ -1,0 +1,3 @@
+io.c の nogvl_fsync(), nogvl_fdatasync() で Windows 用に fd が指すファイルハン
+ドルの GetFileType() で取得した種別が FILE_TYPE_DISK でなかったら fsync()/
+fdatasync() を呼ばずにすぐ return するようにしています。
