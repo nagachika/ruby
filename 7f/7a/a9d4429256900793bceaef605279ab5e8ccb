@@ -1,0 +1,4 @@
+ext/extmk.rb で bundled gem の Makefile を生成する時に install-so ターゲットか
+ら gem.build_complete というファイルを $(TARGET_SO) ディレクトリに置くようにし
+ています。ビルドされた gem のみ make install 時にインストールするようにするため
+の対応みたいです。 [ruby-core:77057] [Bug #12681]
