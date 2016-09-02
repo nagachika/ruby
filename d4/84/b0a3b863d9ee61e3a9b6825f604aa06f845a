@@ -1,0 +1,2 @@
+ext/extmk.rb で bundled gems のパッケージの拡張ライブラリも configure 時の
+--with-xxx オプションの指定がきくようにしています。
