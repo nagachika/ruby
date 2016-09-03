@@ -1,0 +1,2 @@
+tool/rbinstall.rb で bindir に空白が含まれていた時に shebang で実行すると問題が
+あるので /bin/sh のコマンド起動経由で実行するようにしています。
