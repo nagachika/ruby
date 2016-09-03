@@ -1,0 +1,4 @@
+ext/extmk.rb で bundled gem の拡張ライブラリのビルド時に ${TARGET_SO_DIR} を書
+きかえるようにしています。また mkmf.rb の create_makefile でブロックに渡す文字
+列に configuration メソッドの結果だけでなくその後で追加している変数なども追加す
+るようにしています。
