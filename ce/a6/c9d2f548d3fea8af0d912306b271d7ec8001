@@ -1,0 +1,3 @@
+r56054 の変更を revert して name が "$(TARGET_SO_DIR)" だったら直接 "$
+(RUBYARCHDIR)" に変更するようにしています。また RUBYCOMMONDIR が含まれていたら
+削るようにしています。
