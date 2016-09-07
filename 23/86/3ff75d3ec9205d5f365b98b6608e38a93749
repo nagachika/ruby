@@ -1,0 +1,5 @@
+標準添付ライブラリ rdoc の 4.2.3 のリリース前の master をマージしています。更新
+履歴は https://github.com/rdoc/rdoc/blob/master/History.rdoc#422--2016-02-09 と
+https://github.com/rdoc/rdoc/blob/master/History.rdoc#423--2016--
+C ソースのパースの修正や .svg をパースしないようにする修正や、ドキュメント生成
+の性能向上などがあるようです。
