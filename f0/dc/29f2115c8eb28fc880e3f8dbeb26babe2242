@@ -1,0 +1,5 @@
+common.mk の ext/socket/constdefs.c の生成ルールでも submake に渡す top_srcdir
+と VPATH の修正と、common.mk で明示的にターゲットを書いていたのを ext/socket/
+depend にデフォルトターゲットの依存関係として追加するしています。
+ext/socket の内容が common.mk にあるんだっけ、と思ったら r53430 でシステムの定
+数を元に自動生成するファイルのルールでした。
