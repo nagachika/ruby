@@ -1,0 +1,3 @@
+標準添付ライブラリ csv の CSV::Row と CSV::Table の each, delete_if メソッドに
+ブロックを渡さなかったら Enumerator を返すようにしています。コミットログのチケ
+ット番号は違っているみたいですね。 [ruby-core:75346] [Feature #12347]
