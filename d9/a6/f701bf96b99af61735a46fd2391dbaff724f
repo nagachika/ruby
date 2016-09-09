@@ -1,0 +1,5 @@
+Module#instance_methods で method table からメソッド名を配列に格納するためのコ
+ールバック関数群で ins_methods_push() というユーティリティ関数の中で挿入するか
+どうかチェックしていたのを、呼び元の ins_methods_{,priv,prot,pub}_i() という関
+数群のほうでチェックしてから ins_methods_push() を呼ぶようにリファクタリングし
+ています。
