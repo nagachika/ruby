@@ -1,0 +1,3 @@
+標準添付ライブラリ open-uri でレスポンスが redirect だった時に http から https
+への redirect を辿るようにしています。逆(https から http へ)は禁止されているま
+まです。 [ruby-core:20485] [Feature #859]
