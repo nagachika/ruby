@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の upstream から v2.0.0.beta.2 をマージしています。 ALPN
+/NPN のコールバックメソッドが例外を発生させた時の対応や、リファクタリング、テス
+トの修正などが含まれているようです。 https://github.com/ruby/openssl/compare/
+v2.0.0.beta.1...v2.0.0.beta.2
