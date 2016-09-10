@@ -1,0 +1,3 @@
+r55847 で追加された Hash#map_v および #map_v! というメソッドはメソッド名を
+transform_values/transform_values! に改名しています。 [ruby-core:76095]
+[Feature #12512]
