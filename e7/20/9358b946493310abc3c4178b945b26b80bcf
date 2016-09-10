@@ -1,0 +1,5 @@
+File.new で fd から作る場合に対応するため引数が整数かどうかチェックするところで
+rb_check_convert_type() で Fixnum (または to_int で Fixnum に変換できるオブジェ
+クト)かどうかを確認していたのを rb_check_to_int() を使って Integer に変換できる
+かのチェックに置き換えています。これも Fixnum と Bignum の統合の一環でしょう。
+実際に Bignum になるくらい大きな fd は扱えない場合が多いでしょうけど。
