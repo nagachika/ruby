@@ -1,0 +1,3 @@
+Refinements で using で refine を導入している Module 名の配列を返す
+Module.used_refinements メソッドを新規追加しています。 [ruby-core:49805]
+[Feature #7418]
