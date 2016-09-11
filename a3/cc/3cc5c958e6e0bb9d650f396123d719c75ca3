@@ -1,0 +1,3 @@
+private constant を参照した時の NameError 例外メッセージに埋め込まれる時の
+Module/Class 名を引数の klass ではなくて super を辿って実際に private constant
+が定義されていた Module/Class の名前を使うように修正しています。
