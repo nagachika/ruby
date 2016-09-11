@@ -1,0 +1,2 @@
+const char * の引数で定数名で指定して定数を depreceted にする
+rb_deprecate_constant() という関数を追加しています。
