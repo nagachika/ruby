@@ -1,0 +1,4 @@
+NIL, TRUE, FALSE などの定数を depreceted にするのに Symbol(ID) を生成してから
+rb_mod_deprecate_constant() に渡していたのを r56119 で追加した
+rb_deprecate_constant() を利用して名前で直接指定するようにリファクタリングして
+います。
