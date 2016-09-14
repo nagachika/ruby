@@ -1,0 +1,4 @@
+singleton class を作成する時に Module/Class 毎の method cache 用の serial
+number を親クラスからコピーして、singleton class を作っただけでは method cache
+が invalidate されないようにしています。なるほど。まあしかしこういう使いかた実
+際にどのくらいされてるでしょうね…。 [ruby-core:75425] [Feature #12364]
