@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#options のテストが Ubuntu
+16.04 で失敗するので pend を使って回避しています。 Ubuntu 16.04 で OpenSSL にパ
+ッチが当てられて SSL_CTX_set_options() の挙動が変わっているみたいです。
