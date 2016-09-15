@@ -1,0 +1,4 @@
+r56125 の Thread#raise で別の Thread に例外を投げた時の cause のセットについて
+の修正のテストで Thread 間の動機のためにローカル変数と Thread.pass で同期を取っ
+ていたのを Queue を使うようにしています。また Thread#join で終了を待つようにし
+ています。
