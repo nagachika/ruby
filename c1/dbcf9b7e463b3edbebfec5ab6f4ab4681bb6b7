@@ -1,0 +1,3 @@
+r56158 で hash.c の each_pair_i_fast() で rb_yield_values2() を呼ぶために argv
+を変数を含む初期化子で初期化していたのが Solris 10 でビルドエラーになったので、
+添字つき代入に書きなおしています。 [ruby-dev:49808] [Bug #12768]
