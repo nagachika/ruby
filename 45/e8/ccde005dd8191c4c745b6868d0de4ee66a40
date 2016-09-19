@@ -1,0 +1,4 @@
+r55377 で拡張ライブラリ objspace の ObjectSpace.dump_all が出力するのを行指向の
+JSON から通常の JSON の配列にしていましたが、逐次処理できるようにまた1行ごとに
+JSON のオブジェクトを出力する JSON lines format (http://jsonlines.org) に変更し
+ています。
