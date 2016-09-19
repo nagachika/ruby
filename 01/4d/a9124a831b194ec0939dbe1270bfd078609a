@@ -1,0 +1,4 @@
+Ubuntu 16.04 で拡張ライブラリ openssl の OpenSSL::SSL::SSLContext のテストが失
+敗するため r56147 で pend で問題の部分を回避していましたが、OpenSSL::SSL
+::SSLContext#option= に nil を代入するのを後に実施するように再修正しています。
+一旦 nil でデフォルトにしたあと代入すると挙動が異なることがあるみたいですね。
