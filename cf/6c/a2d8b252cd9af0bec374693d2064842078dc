@@ -1,0 +1,2 @@
+r56130 の拡張ライブラリ objspace の ObjectSpace.dump_all のフォーマット変更で
+heap_i() の変数 dc は未使用になったので削っています。
