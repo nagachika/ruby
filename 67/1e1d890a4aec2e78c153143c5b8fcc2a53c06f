@@ -1,0 +1,4 @@
+標準添付ライブラリ rss の inherit_convert_attr_reader, uri_convert_attr_reader,
+convert_attr_reader, yes_clean_other_attr_reader, csv_attr_reader に Symbol が
+整数だったころの名残で id2name を呼ぶコードがあったので削っています。
+[ruby-dev:49813] [Bug #12773]
