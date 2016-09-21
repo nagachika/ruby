@@ -1,0 +1,3 @@
+gems/bundled_gems から minitest-5.9.0 を削っています。 certificate expired とい
+うことで、証明書の期限切れみたいですが gem パッケージの署名についてでしょうか。
+明示的に gem install すると入るみたいですが…。
