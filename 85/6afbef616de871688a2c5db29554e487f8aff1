@@ -1,0 +1,12 @@
+Enumerator::Lazy で使うため struct enumerator に procs というメンバを追加して
+Lazy の高速化を図っています。この中に配列を格納して、その各要素に
+proc_entry_data_type という T_TYPEDDATA 型で定義した struct proc_entry という構
+造体を wrap したオブジェクトを並べています。この構造体内には
+Enumerator::Generator のオブジェクトと proc と size のふたつの関数ポインタが含
+まれていて、それぞれ Lazy 化した処理と Enumerator#size のための関数を持たせるよ
+うにしています。これを使ってブロックを受け取らない Enumerator::Lazy のメソッド
+では method chain された処理を配列に詰めて直接関数を呼び出すようにして、ブロッ
+クを呼ぶ時も毎回 yield メソッドを呼んでいたのを直接 Proc オブジェクトを
+rb_proc_call_with_block() で呼ぶようにして高速化しています。久しぶりに Lazy の
+実装を読みましたけどやっぱり頭がこんがらがりますね。 [ruby-core:43529] [Feature
+#6183]
