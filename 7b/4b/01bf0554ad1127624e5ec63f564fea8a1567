@@ -1,0 +1,2 @@
+parse.y の do_block, brace_block などからブロックの中身を別の規則として
+brace_body, do_body として切り出すリファクタリング。
