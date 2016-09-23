@@ -1,0 +1,5 @@
+macOS 10.12 (sierra) で clock_gettime() が対応されたので Process.clock_gettime
+の clock_id 用の各定数のサポートするプラットフォームへ macOS 10.12 を追記してい
+ます。さらに新たに追加されるフラグとして Process に定数
+CLOCK_MONOTONIC_RAW_APPROX、CLOCK_UPTIME_RAW、CLOCK_UPTIME_RAW_APPROX を追加し
+ています。
