@@ -1,0 +1,3 @@
+Refinements で Class だけでなく Module のメソッドも再定義できるようにしています
+。 Refinements の Module#refine は Class しか対象にできなかったんですね。けどそ
+んなに実装に大きな変更はないみたいです。 [ruby-core:76199] [Feature #12534]
