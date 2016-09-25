@@ -1,0 +1,2 @@
+r56105 の svn:ignore の対応にあわせて .gitignore に /enc/unicode/data/9.0.0/
+*.txt を追加しています。
