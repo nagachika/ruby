@@ -1,0 +1,4 @@
+appveyor.yml で Windows 環境のテスト時に Libressl と zlib のパッケージファイル
+をダウンロードするのに "ps: Start-FileDownload ..." というのを使っていたのを
+"appveyor DownloadFile ..." というコマンドを使うように変更しています。
+Start-FileDownload は1回しか使えなくなっていたそうです。
