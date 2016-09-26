@@ -1,0 +1,2 @@
+appveyor.yml で btest, test-basic に渡す環境変数に OPTS のかわりに TESTOPTS を
+使うようにしています。
