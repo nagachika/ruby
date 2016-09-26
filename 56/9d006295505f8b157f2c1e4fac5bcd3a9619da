@@ -1,0 +1,5 @@
+misc/ruby-mode.el のテストの test/misc/test_ruby_mode.rb で emacs にバックアッ
+プファイルを作らせないための方法に save-buffer に引数 0 を渡すようにしています
+。そういえばここしばらく変更されてなかったのですっかり忘れてましたが misc/ruby
+-mode.el のテストというものがあるんでした…(新しめの emacs がインストールされて
+いる時のみ動く)。
