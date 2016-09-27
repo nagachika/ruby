@@ -1,0 +1,3 @@
+make_unused_kw_hash() で最後の引数 key_only で挙動を変化させていたのを、
+make_unknown_kw_hash() と make_rest_kw_hash() という別の関数として分離するリフ
+ァクタリング。
