@@ -1,0 +1,3 @@
+rb_proc_arity() から rb_proc_min_max_arity() を呼んでいたため GetProcPtr() を2
+回重複して呼んでいたので直接 rb_block_min_max_arity() を呼び出すようにする最適
+化。
