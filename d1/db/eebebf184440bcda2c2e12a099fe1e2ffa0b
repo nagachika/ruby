@@ -1,0 +1,2 @@
+tool/rbinstall.rb で bundled gem パッケージのインストール時に拡張ライブラリのビ
+ルドに失敗していた時に gemspec ファイルもコピーしないようにしています。
