@@ -1,0 +1,2 @@
+enc_strlen() と rb_enc_strlen_cr() で rb_enc_mbminlen() 単位で丸めるための演算
+で整数のオーバフローの回避のために演算順序を変更しています。
