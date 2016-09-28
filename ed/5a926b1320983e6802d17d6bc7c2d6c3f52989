@@ -1,0 +1,5 @@
+対応する catch がない throw で引数に false を渡すと [BUG] で異常終了してしまう
+不具合を修正しています。 TH_PUSH_TAG() で struct rb_vm_tag::tag は 0 (= Qfalse)
+に初期化されているので throw false は catch ではない struct rb_vm_tag にも捕捉
+されてしまって不正な位置に飛んでしまうみたいです。うーむなるほど。
+[ruby-core:77229] [Bug #12743]
