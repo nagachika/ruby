@@ -1,0 +1,3 @@
+標準添付ライブラリ tempfile で Tempfile.create も Tempfile.new の第1引数が省略
+可能になったのに追随して第1引数を省略可能にしています。 [ruby-core:72747]
+[Feature #11965]
