@@ -1,0 +1,2 @@
+r56252 の throw false のテストで発生した例外の UncaughtThrowError#tag のチェッ
+クも追加しています。 [ruby-core:77229] [Bug #12743]
