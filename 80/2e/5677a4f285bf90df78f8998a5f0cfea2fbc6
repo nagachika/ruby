@@ -1,0 +1,4 @@
+iseqw_s_compile_file() から rb_parser_compile_file() を呼んでいたのを
+rb_parser_compile_file_path() を呼ぶように変更してファイル名の String オブジェ
+クトをバッファを取り出さずそのまま引数に渡すようにしています。これにより
+Encoding 情報もそのまま渡せるようになっています。
