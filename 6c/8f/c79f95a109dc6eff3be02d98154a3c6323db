@@ -1,0 +1,3 @@
+Signal の番号から名前を返す Signal.signame の rdoc 用コメントに、対応するシグナ
+ルのない番号が渡された場合には nil を返すことを追記しています。 https://
+github.com/ruby/ruby/pull/1449
