@@ -1,0 +1,2 @@
+appveyor.yml で zlib ライブラリのソースパッケージのダウンロード元の URL を
+sourceforge.net のミラーに変更しています。
