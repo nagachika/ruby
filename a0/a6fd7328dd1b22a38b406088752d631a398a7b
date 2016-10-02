@@ -1,0 +1,2 @@
+標準添付ライブラリ yaml/store の YAML::Store#initialize の rdoc 用コメントに
+thread_safe 引数を省略して yaml_opts を渡すパターンも追記しています。
