@@ -1,0 +1,2 @@
+Range のテストで Test::Unit::Assertion#for を使ってループで回しているテストケー
+スのなかのある assertion が失敗しても続きをチェックするようにしています。
