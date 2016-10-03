@@ -1,0 +1,5 @@
+win32/win32.c の poll_child_status() で子プロセスが終了している時に
+rb_w32_wait_events_blocking() を呼んでステータスを取得するのに失敗した場合の
+goto の飛び先のラベルを移動しています。 errno の設定の処理の前に飛んでいました
+が、rb_w32_wait_events_blocking() でも errno をセットしているのでそこはスキップ
+するように修正しています。
