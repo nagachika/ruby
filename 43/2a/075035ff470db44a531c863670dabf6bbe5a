@@ -1,0 +1,3 @@
+INT2FIX(), LONG2FIX() などのマクロに RB_ と prefix を追加して RB_INT2FIX(),
+RB_LONG2FIX() という名前に改名しています。まだ互換性のため古い名前も別名として
+define しています。
