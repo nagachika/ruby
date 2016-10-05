@@ -1,0 +1,5 @@
+拡張ライブラリ readline で Readline の rl_char_is_quoted_p というコールバック関
+数を登録する変数に対応して Readline.quoting_detection_proc= で call メソッドを
+呼べるオブジェクトを登録できるようにしています。これは入力する文字がクオート内
+でエスケープされているかどうかを判定するものだそうです。 [ruby-core:76750]
+[Feature #12659]
