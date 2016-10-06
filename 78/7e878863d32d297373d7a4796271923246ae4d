@@ -1,0 +1,2 @@
+RBIGNUM_SIGN(), RBIGNUM_POSITIVE_P(), RBIGNUM_NEGATIVE_P() などのマクロで使って
+いた FIX2LONG() を RB_FIX2LONG() と prefix つきのマクロを使うようにしています。
