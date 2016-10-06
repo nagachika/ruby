@@ -1,0 +1,2 @@
+NEWS ファイルに r56326 で追加した拡張ライブラリ readline の Readline
+.quoting_detection_proc= の機能について追記しています。
