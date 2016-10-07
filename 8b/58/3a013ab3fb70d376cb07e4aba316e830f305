@@ -1,0 +1,3 @@
+test/ruby/test_io.rb のテストで /dev/tty デバイスファイルを利用していましたが、
+Docker コンテナ内(に限らないと思いますが)でテストを実行すると Errno::ENXIO が発
+生する場合があるので rescue して skip するようにしています。
