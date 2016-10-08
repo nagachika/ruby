@@ -1,0 +1,2 @@
+Enumerable#reject, #slice_before, #slice_when の rdoc 用コメントの markup の追
+加や記述追加。
