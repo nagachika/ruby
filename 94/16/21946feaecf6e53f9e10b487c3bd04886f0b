@@ -1,0 +1,3 @@
+io.c の fptr_finalize() で err に errno が入っているかどうかのチェックに
+T_FIXNUM と T_BIGNUM が使われていたので RB_INTEGER_TYPE_P() マクロを利用するよ
+うにリファクタリングしています。
