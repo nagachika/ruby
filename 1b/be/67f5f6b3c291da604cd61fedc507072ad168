@@ -1,0 +1,2 @@
+r56376 で追加したテスト用の拡張ライブラリ memory_status に Windows 版の
+GetProcessMemoryInfo() を利用した実装を追加しています。
