@@ -1,0 +1,5 @@
+vm_method.c の prepare_callable_method_entry() で引数の defined_class について
+チェックする VM_ASSERT() で T_ICLASS のみ受け付けるようにしていましたが
+T_MODULE も受け付けるように条件を緩和しています。 r56213 の Refinements の
+Module の refine も可能にした時にここに T_MODULE が来る可能性ができていたようで
+す。 [ruby-core:76199] [Feature #12534]
