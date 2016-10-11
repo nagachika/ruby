@@ -1,0 +1,3 @@
+vm_insnhelper.c の callable_class_p() という関数で VM_CHECK_MODE マクロが 2以上
+の時のチェックで引数の klass が T_ICLASS や T_MODULE だった時の考慮を追加してい
+ます。これも Refinements の Module 対応の影響みたいですね。 [Feature #12534]
