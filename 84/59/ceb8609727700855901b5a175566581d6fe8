@@ -1,0 +1,2 @@
+vm_core.h の VM_ASSERT() で RUBY_ASSERT_WHEN() のかわりに RUBY_ASSERT_MESG_WHEN
+() を使って、評価する式をそのままメッセージに使うようにしています。
