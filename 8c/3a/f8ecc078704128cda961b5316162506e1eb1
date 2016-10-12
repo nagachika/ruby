@@ -1,0 +1,3 @@
+open_load_file() で FIFO を require に渡した時に ruby_is_fd_loadable() でエラー
+が帰ってきた時にエラーを返す前に rb_io_fdopen() を呼んで fd を IO オブジェクト
+に関連付けて GC で回収される時に閉じられるようにしています。
