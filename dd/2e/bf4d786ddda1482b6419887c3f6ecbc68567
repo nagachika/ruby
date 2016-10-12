@@ -1,0 +1,3 @@
+Fixnum と Bignum の統合に伴い Array#sum と C API rb_singleton_class() の rdoc
+用コメントで Fixnum と書かれていたところを Integer に修正しています。 https://
+github.com/ruby/ruby/pull/1459
