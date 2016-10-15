@@ -1,0 +1,2 @@
+r56385 の load/require 用に開くファイルを O_BINMODE つきで開く変更を revert し
+ています。 DATA.binmode? の挙動に非互換が現れたため。
