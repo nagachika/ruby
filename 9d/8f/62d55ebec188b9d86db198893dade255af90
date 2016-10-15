@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml のテストで assert(a.kind_of?(B)) のような assertion を
+assert_kind_of を使うようにしています。
