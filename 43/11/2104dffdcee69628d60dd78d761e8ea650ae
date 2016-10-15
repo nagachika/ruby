@@ -1,0 +1,2 @@
+doc/extension.rdoc の RB_GC_GUARD() マクロに対して volatile は使うなという説明
+の英文を修正しています。
