@@ -1,0 +1,2 @@
+NEWS に r56414 の Hash#compact, #compact! の追加について追記しています。
+[ruby-core:72133] [Feature #11818]
