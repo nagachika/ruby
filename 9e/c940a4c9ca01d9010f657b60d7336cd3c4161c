@@ -1,0 +1,3 @@
+r56426 で test/ruby/test_symbol.rb に追加した &:meth のようなブロック引数の
+to_proc 呼び出しに Refinements が効くようになった変更のテストを test/ruby/
+test_refinement.rb に移動しています。 [ruby-core:60109] [Feature #9451]
