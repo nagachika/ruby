@@ -1,0 +1,5 @@
+r56445 でリンカオプション --compress-debug-sections=zlib をつけるようにしたら
+addr2line.c の C のバックトレースを取得するところで SEGV してしまったそうで、デ
+バッグ情報からファイルパスを検索していて debug section の境界を超えてしまわない
+ようにチェックを追加しています。 cu_start/cu_end とかの cu って何の略だろう。
+[ruby-dev:49840] [Bug #12850]
