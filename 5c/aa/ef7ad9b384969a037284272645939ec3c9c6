@@ -1,0 +1,4 @@
+r56471 の修正はこの修正のための前置きだったようですが、DLDFLAGS を LDFLAGS で初
+期化して、主要なプラットフォームで LIBRUBY_DLDFLAGS をセットするところで
+RUBY_APPEND_OPTION を使って LDFLAGS の指定が影響するようにしているようです。
+[ruby-core:72444] [Bug #11863]
