@@ -1,0 +1,2 @@
+include/ruby/encoding.h に #include "ruby/ruby.h" を追加しています。
+ruby_fl_type と VALUE のために必要だったようです。
