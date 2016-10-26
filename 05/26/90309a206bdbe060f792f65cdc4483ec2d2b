@@ -1,0 +1,3 @@
+というわけで r56482 で追加した rb_undef_methods_from() を使って Complex から
+Comparable のメソッド群を全て undef するようにしています。 [ruby-core:77720]
+[Bug #12866]
