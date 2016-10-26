@@ -1,0 +1,5 @@
+Init_Complex() で Complex#clamp を undef するようにしています。 clamp は r55863
+で Comparable モジュールに追加されたメソッドで指定された範囲内に丸める処理です
+が Complex には <=> がないので呼べないとのこと。 Numeric に Comparable が
+include されているので Complex も Comparable ってことになってますが対応してない
+わけですね。ふーむ。 [ruby-core:77720] [Bug #12866]
