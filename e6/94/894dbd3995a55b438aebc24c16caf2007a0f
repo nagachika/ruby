@@ -1,0 +1,3 @@
+Array#pack, String#unpack の rdoc 用コメントに 2.3 から追加になった指示子 j と
+J (ポインタと同じサイズの signed/unsigned の整数。 intptr_t/uintptr_t に対応)に
+ついて追記しています。
