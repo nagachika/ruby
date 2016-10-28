@@ -1,0 +1,3 @@
+rb_intern() マクロ(これマクロだったんだ)の定義で CONST_ID_CACHE() というマクロ
+を使っていたところを prefix つきの RUBY_CONST_ID_CACHE() を利用するように修正し
+ています。
