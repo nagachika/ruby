@@ -1,0 +1,2 @@
+test/digest/test_digest.rb で文字列リテラルで行が長くなるところを折り返すように
+しています。
