@@ -1,0 +1,3 @@
+TYPE() のかわりに即値にも対応した RB_OBJ_BUILTIN_TYPE() というマクロを導入して
+file.c や拡張ライブラリ objspace で TYPE() の利用が残っていた場所で使うようにし
+ています。
