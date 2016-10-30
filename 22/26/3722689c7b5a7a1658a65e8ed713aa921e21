@@ -1,0 +1,2 @@
+Complex#finite? と Complex#infinite? の実装で TYPE() マクロを利用して分岐してい
+たところを RB_TYPE_P() を利用するように変更しています。
