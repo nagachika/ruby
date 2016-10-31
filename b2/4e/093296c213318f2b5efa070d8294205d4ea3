@@ -1,0 +1,2 @@
+enc/trans/window-1255-tbl.rb の 0xCA の変換ルールを追加しています。
+[ruby-dev:49850] [Feature #12877]
