@@ -1,0 +1,2 @@
+標準添付ライブラリ uri で URI::Generic#merge に merge0 というメソッドの内容を展
+開するリファクタリングを行なっています。 https://github.com/ruby/ruby/pull/1469
