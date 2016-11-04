@@ -1,0 +1,2 @@
+r56544 と同様に doc/extension.rdoc, doc/extension.ja.rdoc の rb_ensure() の
+prototype を修正しています。
