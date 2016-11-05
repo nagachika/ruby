@@ -1,0 +1,3 @@
+ArchLinux で major() および minor() が sys/types.h から sys/sysmacros.h に追い
+出されたみたいで #include <sys/sysmacros.h> が(configure でチェックしてヘッダが
+存在したら)追加されています。
