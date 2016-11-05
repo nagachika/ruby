@@ -1,0 +1,2 @@
+rb_stat_dev_major() および rb_stat_dev_minor() で dev_t 型を INT2NUM() で VALUE
+に変換していたところを DEV2NUM() マクロで変換するように修正しています。
