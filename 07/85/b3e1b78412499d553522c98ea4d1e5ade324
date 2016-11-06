@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils の FileUtils::Entry_#copy で lstat が抜けていて誤
+ったエラーが発生していたのを修正しています。 [ruby-core:77885] [Bug #12892]
