@@ -1,0 +1,6 @@
+gc.c の heap_page_resurrect() で tomb_pages から空きの heap_page を返す時に
+freelist が NULL で空きスロットがないものを返さないようにしています。
+rb_objspace_t::heap_tomb に入っているのに freelist が NULL ってことはあるのかな
+ぁ。全て finalizer 待ちの状態で Zombie の slot ってことでしょうか。 r43461 で
+freelist が NULL でも返すようにされていましたが、実質これを revert しているよう
+です。 [ruby-core:76837] [Bug #12670]
