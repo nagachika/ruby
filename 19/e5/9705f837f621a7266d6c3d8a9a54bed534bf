@@ -1,0 +1,3 @@
+r56200 で追加された Process.clock_gettime 用の定数 CLOCK_MONOTONIC_RAW_APPROX、
+CLOCK_UPTIME_RAW、CLOCK_UPTIME_RAW_APPROX の追加について NEWS ファイルに追記し
+ています。
