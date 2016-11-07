@@ -1,0 +1,3 @@
+cont.c の cont_capture() という関数に clang が 3.8.0 の時だけ optnone という
+attribute を指定して最適化をさせないようにしています。 clang 3.8.0 の最適化の不
+具合を回避するためのようですね。 [ruby-core:77894] [Bug #12893]
