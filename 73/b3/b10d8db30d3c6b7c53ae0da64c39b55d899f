@@ -1,0 +1,5 @@
+標準添付ライブラリ net/smtp で TLS の handshake にタイムアウトを設定できるよう
+にしています。 net/http で実装していた SSL socket の接続処理を net/protocol.rb
+に ssl_socket_connect メソッドとして切り出して共有するようにしています。そして
+Net::SMTP は Net::Protocol を継承していなかったので、継承するようにしています。
+[ruby-core:76893] [Bug #12678]
