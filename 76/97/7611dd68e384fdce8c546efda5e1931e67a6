@@ -1,0 +1,4 @@
+標準添付ライブラリ set に利用している Hash を compare_by_identity を使うように
+する Set#compare_by_identity とその設定をチェックする Set#compaire_by_identity?
+というメソッドを新設しています。ふーむ、しかしどういう時にこれを使うかなぁ。
+[ruby-core:74498] [Feature #12210]
