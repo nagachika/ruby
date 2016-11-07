@@ -1,0 +1,2 @@
+Array#sum の rdoc 用コメントで Array#join や Array#flatten のほうが高速だという
+コメントにそれが有用なケースについてもう少しくわしく書き足しています。
