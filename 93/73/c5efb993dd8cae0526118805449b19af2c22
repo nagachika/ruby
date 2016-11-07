@@ -1,0 +1,3 @@
+拡張ライブラリ pathname に Pathname#empty? というメソッドを追加しています。パス
+名の文字列が空の時に真になるのかなと思いましたが、そうじゃなくて File.empty? や
+Dir.empty? と同等のものみたいです。ふーむ。 [ruby-core:76404] [Feature #12596]
