@@ -1,0 +1,3 @@
+Time#strftime で大晦日の時刻にタイムゾーン(offset)を加味してうるう年を考慮した
+時の day of year が間違っていたのを修正しています。 [ruby-core:72878] [Bug #
+11994]
