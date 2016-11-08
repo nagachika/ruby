@@ -1,0 +1,3 @@
+標準添付ライブラリ e2mmap で E2MM.def_exception が重複して呼ばれた時に警告が出
+ないように定数が定義済みだったら一度 remove_const で削除してから const_set する
+ようにしています。
