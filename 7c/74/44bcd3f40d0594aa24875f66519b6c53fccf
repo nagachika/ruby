@@ -1,0 +1,2 @@
+Enumerable#chunk_while を lazy 化した Enumerator::Lazy#chunk_while メソッドを追
+加しています。 https://github.com/ruby/ruby/pull/1186
