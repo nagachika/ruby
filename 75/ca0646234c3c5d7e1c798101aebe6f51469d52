@@ -1,0 +1,2 @@
+r56619 のテストコードで SIGINT の番号をチェックするのに Signal.list を使ってい
+たのを Signal.signame を利用するように修正しています。
