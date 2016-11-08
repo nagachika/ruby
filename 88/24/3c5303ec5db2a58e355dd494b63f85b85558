@@ -1,0 +1,6 @@
+標準添付ライブラリ net/http に POST のリクエストを送信する Net::HTTP.post メソ
+ッドを追加しています。 Net::HTTP.post_form というメソッドもありますが、こちらは
+パラメータを application/x-www-form-urlencoded でエンコードする前提ですが、こち
+らはリクエストボディをそのまま指定するので JSON エンコードしたリクエストボディ
+を渡すこともできます。また header の指定もできるようになっているので、より便利
+になりました。 [ruby-core:75484] [Feature #12375]
