@@ -1,0 +1,5 @@
+Module#include や Module#prepend は複数の引数を受け付けますが、実は引数がなくて
+もエラーにはならないようになっていたみたいで、一方 Kernel#extend は引数なしだと
+ArgumentError が発生するので、そちらにあわせて ArgumentError が発生するように変
+更しています。 https://github.com/ruby/ruby/pull/1470 [ruby-dev:49854] [Bug #
+12887]
