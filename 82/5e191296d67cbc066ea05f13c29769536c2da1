@@ -1,0 +1,4 @@
+gcc 7 で switch 文で break せずに fall through すると警告が出るようになったそう
+なのですが、わざと fall though を利用しているところは結構あるのでそれが警告され
+てしまうのを抑制するため -Wimplicit-fallthrough=0 というオプションを追加するよ
+うにしています。参考URL: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=7652
