@@ -1,0 +1,3 @@
+TracePoint で alias で作られたメソッド名で呼び出した時に method_id が常に元のメ
+ソッド名を返すようにしています。次の callee_id の導入の下準備みたいです。
+[ruby-core:77241] [Feature #12747]
