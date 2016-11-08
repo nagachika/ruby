@@ -1,0 +1,4 @@
+r56592 で TracePoint に渡す method_id を呼ばれたメソッドの本来の名前にする
+(alias されたものが呼ばれても original の名前にする)ようにしたのにあわせて
+DTrace の CMETHOD_ENTRY_HOOK と CMETHOD_RETURN_HOOK に渡す id も本来の名前のほ
+うを渡すように変更しています。
