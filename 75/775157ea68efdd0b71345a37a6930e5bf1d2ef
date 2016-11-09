@@ -1,0 +1,18 @@
+インタプリタが内部で使い、Hash の実装のベースにもなっている st.c の実装を変更し
+ています。これまでの st_table は Hash Table の実装方法として chain 法を採用して
+いましたが、新しい実装では open addressing を採用しています。
+hash table の実装の改善については funny-falcon こと Yura Sokolov が昔 [Feature
+#5903] というチケットでも open addressing 化に取り組んでいましたが、Vladimir
+Makaroc 氏が今年 [Feature #12142] を投稿してから hash 実装改善の議論が再燃して
+、どちらかの実装を採用しようということで評価されていたのですが、最終的には
+Vladimir 氏のパッチをベースにしたものがコミットされたみたいです。評価結果は両者
+に決定的な差はなくて、どっちにするかずっと悩んでいた様子でしたね。
+実装的には bins という hash 値を元に open addressing で配置を決めるための配列と
+、実際の値を格納する entries という 2つの配列を保持していて、bins には entries
+の配列内のインデックスを保持する方法で、rebuild (chain 法の時は rehash という呼
+びかたをしてたと思いますが open addressing 法では hash 値によるインデックスが衝
+突した時に次のハッシュ値を探すことを rehash というので呼びかたを変えたみたいで
+すね) 時の bins の再構築を軽くして、また Ruby の Hash は順序を保存するのでこれ
+はこれまで linked list を利用していたのを entries の順序を利用するようにしてポ
+インタ操作を抑制して Enumerable のメソッドで巡回する時の操作を高速化しているよ
+うです。 [ruby-core:74124] [Feature #12142]
