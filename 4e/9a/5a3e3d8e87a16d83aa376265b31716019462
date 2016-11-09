@@ -1,0 +1,2 @@
+r56638 で ChangeLog を自動生成するようにしたのでついに ChangeLog を削除していま
+す。 [ruby-core:74951] [Misc #12283]
