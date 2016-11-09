@@ -1,0 +1,3 @@
+r56610 で追加したテストで Process::Status の termsig をチェックしていますが
+Windows では signal の情報は取得できないのでテストメソッドの定義を mswin と
+mingw ではスキップするようにしています。
