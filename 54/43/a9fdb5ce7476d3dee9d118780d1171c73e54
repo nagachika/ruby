@@ -1,0 +1,4 @@
+tool/vcs.rb で git を使う時に IO.popen を専用のメソッドに再定義した時に :chdir
+オプションが必要かどうかチェックして自動でつけるようにして、tool/make-snapshot
+の -srcdir オプションが省略された時に不要な :chdir オプションを付けないようにし
+ています。 [ruby-core:78036] [Bug #12908]
