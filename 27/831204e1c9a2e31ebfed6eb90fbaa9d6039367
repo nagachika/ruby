@@ -1,0 +1,2 @@
+tool/vcs.rb の VCS::GIT で srcdir がローカルのファイルパスだった場合に
+File.realpath で絶対パスにしておくようにしています。
