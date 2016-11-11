@@ -1,0 +1,5 @@
+spec/default.mspec のコマンドライン引数を記述した flags の最後に "--" を追加し
+て、これ以降のオプションが tool/runruby.rb でなく起動される ruby のほうに渡され
+るようにしています。 https://github.com/ruby/spec/commit/
+a0e55dbf8ce1ce2ffbc3ac16a208db2631e8dae0 で ruby/spec に追加したテストがうまく
+うごかなかったのを修正しているようです。
