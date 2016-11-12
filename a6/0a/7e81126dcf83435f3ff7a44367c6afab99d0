@@ -1,0 +1,2 @@
+tool/make-snapshot に -svn と -git というオプションを追加して指定した URL から
+checkout/clone するのに対応しています。
