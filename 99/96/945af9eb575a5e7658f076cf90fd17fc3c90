@@ -1,0 +1,8 @@
+Refinements を持っている(refine が呼ばれた) Module を Module#prepend で追加した
+時に refine での上書きが効いてしまっていた不具合を修正しています。
+2.4.1-preview2 では再現しなかったとのことなので r56520 とかそのへんの
+Refinements がらみの修正で顕在化した問題ですかね。 method_entry_t::def::type が
+VM_METHOD_TYPE_REFINED の時に RCLASS_ORIGIN() を使ってしまうと Refinements の影
+響が出るようなので辿らないようにしています。 RCLASS_ORIGIN() が prepend と
+Refinements の両方のために使われているのでうかつに RCLASS_ORIGIN() を使うとまず
+いのでしょうか。 [ruby-core:78073] [Bug #12920]
