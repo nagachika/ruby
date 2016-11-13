@@ -1,0 +1,2 @@
+rational.c で RB_TYPE_P() で T_FIXNUM と T_BIGNUM のチェックをしているところを
+RB_INTEGER_TYPE_P() を使ったチェックに置き換えています。
