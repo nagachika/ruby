@@ -1,0 +1,2 @@
+r56695 で static 関数でなくした rb_int_fdiv() を rational.c の nurat_to_f() で
+利用するようにしています。最適化のためとのこと。
