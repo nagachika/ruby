@@ -1,0 +1,3 @@
+rational.c の f_expt(), f_fdiv() の定義が不要になったので削除して、ID を保持し
+ていた変数 id_expt, id_fdiv も削除しています。ここでも一部 rb_intern() を実行時
+に呼ぶようになっていますね。
