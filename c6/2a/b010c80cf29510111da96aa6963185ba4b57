@@ -1,0 +1,2 @@
+r56747 で追加した fstring に singleton_class を呼んだ時のテストで期待する例外ク
+ラスを TypeError に限定しています。 [ruby-dev:49867] [Bug #12923]
