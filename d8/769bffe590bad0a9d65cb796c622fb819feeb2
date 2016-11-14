@@ -1,0 +1,3 @@
+次は Rational#** の最適化です。numeric.c の flo_pow() を rb_float_pow() と改名
+して static をはずして、rational.c でこれを利用して f_expt() のかわりに
+rb_int_pow() や rb_float_pow() を呼ぶようにしています。
