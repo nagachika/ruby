@@ -1,0 +1,3 @@
+rational.c の nurat_coerce() で T_FLOAT 型のチェックに TB_TYPE_P() のかわりに
+RB_FLOAT_TYPE_P() を使うようにし、また f_to_f() のかわりに nurat_to_f() を直接
+呼ぶようにして最適化しています。
