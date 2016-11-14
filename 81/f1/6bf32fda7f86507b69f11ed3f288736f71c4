@@ -1,0 +1,3 @@
+rational.c で ZeroDivisionError 例外を発生させるためのマクロ rb_raise_zerodiv()
+を定義して使っていたのを rb_num_zerodiv() という関数が numeric.c に定義されてい
+たのでそっちを使うようにしています。
