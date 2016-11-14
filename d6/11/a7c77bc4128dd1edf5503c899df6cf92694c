@@ -1,0 +1,2 @@
+Rational#== および Rational#=== の実装も numeric.c の int_equal() を
+rb_int_equal() として static を外して直接呼ぶようにして最適化しています。
