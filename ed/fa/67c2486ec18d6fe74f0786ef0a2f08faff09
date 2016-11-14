@@ -1,0 +1,3 @@
+r56756 で追加した関数を利用して nurat_rationalize() から f_negative_p() および
+f_negate(), f_abs() の呼び出しを消して直接対応する関数を呼び出すように最適化し
+ています。
