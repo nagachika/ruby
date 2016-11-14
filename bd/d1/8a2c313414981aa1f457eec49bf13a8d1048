@@ -1,0 +1,3 @@
+Integer#lcm の実装のために numeric.c の int_abs() を rb_int_abs() に改名して
+static を外して rational.c の f_abs() の実装をメソッド呼び出しする形式から
+Integer なら rb_int_abs() を直接呼ぶ関数に定義しなおしています。
