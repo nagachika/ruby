@@ -1,0 +1,3 @@
+Float#to_r の実装で f_to_r() を呼んでいたのを rb_rational_new{1,2}() を直接呼ぶ
+ようにしています。また numeric.c の int_lshift() を rb_int_lshift() に改名して
+static を取って f_lshift() のかわりに呼ぶようにしています。
