@@ -1,0 +1,2 @@
+rational.c から f_negative_p() の定義を削除して、1箇所残っていた呼び元は
+rb_num_negative_p() を直接呼ぶようにしています。
