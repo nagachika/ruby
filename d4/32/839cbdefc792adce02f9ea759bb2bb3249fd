@@ -1,0 +1,6 @@
+例外クラスの backtrace を undef で未定義にしてからその例外を発生させると SEGV
+するという不具合を修正しています。eval_error.c の get_backtrace() を error.c に
+移動して rb_get_backtrace() という export される関数にして、exc_backtrace() を
+直接呼び出すようにしています。例外の処理時に Ruby のメソッド呼び出しを利用して
+いたので undef されるとそこでさらに例外が発生して…と無限に再帰してスタックオー
+バーフローしていたようです。 [ruby-core:78097] [Bug #12925]
