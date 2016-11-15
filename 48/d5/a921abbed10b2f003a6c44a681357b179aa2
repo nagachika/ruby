@@ -1,0 +1,2 @@
+拡張ライブラリ readline から internal.h への依存関係を消して、rb_setup_fake_str
+() を呼んでいたところを rb_enc_str_new_static() という関数で代替しています。
