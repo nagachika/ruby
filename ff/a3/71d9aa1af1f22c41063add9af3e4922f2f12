@@ -1,0 +1,2 @@
+numeric.c の num_equal() で == メソッドを呼んだ結果をそのまま返すのではなくて
+RTEST() で真偽値を判定して Qtrue または Qfalse のみ返すようにしています。
