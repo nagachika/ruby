@@ -1,0 +1,2 @@
+complex.c の f_zero_p() の戻り値を VALUE から int に変更して rb_complex_mul()
+での !! で 0 or 1 に変換するのを省けるようにしています。
