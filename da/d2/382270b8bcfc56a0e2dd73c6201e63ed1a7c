@@ -1,0 +1,4 @@
+標準添付ライブラリ net/protocol で Net::BufferedIO#initialize にも
+:read_timeout, :continue_timeout, :debug_output というキーワード引数を追加して
+Net::HTTP, Net::FTP, Net::POP, Net::SMTP などで IO 用のクラスのインスタンス化の
+時に使うようにしています。
