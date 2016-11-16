@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Addrinfo#connect_from, #connect_to, #connect および
+Socket.tcp で :timeout や :connect_timeout などのオプション引数をキーワード引数
+にするようにしています。
