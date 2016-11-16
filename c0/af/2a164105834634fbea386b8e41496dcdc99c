@@ -1,0 +1,3 @@
+complex.c の f_negative_p()、f_kind_of_p()、k_numeric_p()、f_signbit()、
+f_tpositive_p() などの関数で戻り値を VALUE から int に変更してメソッド呼び出し
+していたり f_boolcast() を使っていたところを省略するようにしています。
