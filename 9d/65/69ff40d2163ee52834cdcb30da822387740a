@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp で IPSocket#peeraddr でプロトコルを特定していたのを
+remote_address で Addrinfo オブジェクトを取得して ipv4?, ipv6? などのメソッドで
+判定するように変更しています。
