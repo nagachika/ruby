@@ -1,0 +1,2 @@
+.gdbinit の rb_classname コマンドで classname() という関数を利用していましたが
+、これは static 関数だったので rb_mod_name() におきかえています。
