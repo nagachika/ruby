@@ -1,0 +1,5 @@
+r56445 で configure でリンカオプションに --compress-debug-sections=zlib を追加
+するようにしていましたが、configure のオプションに
+--with-compress-debug-sections を追加してこれで configure 時に指定できるように
+しています。これを使うと rpm がうまく扱えないとかで、off にしたいみたいです。
+[ruby-core:78121] [Bug #12934]
