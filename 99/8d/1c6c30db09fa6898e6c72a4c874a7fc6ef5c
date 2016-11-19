@@ -1,0 +1,2 @@
+numeric.c の rb_fix2str() の preprocessor directive に条件のない #elif があった
+のを #else に修正しています。 mingw64 でビルドエラーになっていたそうです。
