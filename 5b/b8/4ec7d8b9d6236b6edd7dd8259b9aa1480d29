@@ -1,0 +1,4 @@
+ext/extmk.rb から compiled? メソッドを削除して、拡張ライブラリ win32 の
+extconf.rb で fiddle がビルドされたかどうかをチェックしていたのをやめています。
+win32 のライブラリには fiddle を使っているものがありますが、fiddle がなくてもビ
+ルドはするようにしています。
