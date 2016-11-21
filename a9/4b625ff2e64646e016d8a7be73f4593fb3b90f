@@ -1,0 +1,3 @@
+complex.c で nucomp_abs() や nucomp_arg() で使っていた m_atan2() や m_hypot()
+という rb_math_xxx() 関数を呼び出すだけのマクロを使わず直接対応する関数を呼び出
+すようにしてマクロ定義を削除しています。
