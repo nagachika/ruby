@@ -1,0 +1,3 @@
+r56834 で追加した Net::FTP.new のオプション引数でオプション名を passwd や acct
+など省略形式にしてたのを password や account などちゃんとした単語になるようにし
+ています。
