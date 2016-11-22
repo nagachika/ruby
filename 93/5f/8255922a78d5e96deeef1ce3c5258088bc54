@@ -1,0 +1,2 @@
+r56848 で追加された ext/rubyvm/lib/forwardable/impl.rb で未使用の変数による警告
+を除去しています。
