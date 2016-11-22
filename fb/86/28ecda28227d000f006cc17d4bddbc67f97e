@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp で remote_address を取得するのが OpenSSL::SSL
+::SSLSocket を使っている場合失敗するので @bare_sock から取得するように修正して
+います。
