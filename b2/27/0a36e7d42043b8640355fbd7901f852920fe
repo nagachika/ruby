@@ -1,0 +1,2 @@
+Integer#round や Float#round などのキーワード引数 half の値が文字列や Symbol じ
+ゃなかった時を考慮するようにして、またエラーメッセージを少し変更しています。
