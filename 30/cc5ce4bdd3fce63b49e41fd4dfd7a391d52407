@@ -1,0 +1,4 @@
+標準添付ライブラリ net/ftp の Net::FTP.new に r56834 が option 形式の引数に対応
+しましたが、ここに :open_timeout と :read_timeout というオプションを追加して、
+それぞれ Socket からの connect と read のタイムアウトを設定できるようにしていま
+す。
