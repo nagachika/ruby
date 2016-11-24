@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::Daemon.start で fork や reopen を使って
+いたのを Process.daemon というそのものずばりのメソッドがあるのでこれを利用する
+ようにしています。 [ruby-core:78137] [Misc #12937]
