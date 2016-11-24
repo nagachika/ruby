@@ -1,0 +1,2 @@
+ext/socket/lib/socket.rb でも配列に入っている全 Socket を閉じるのに each
+(&:close) のように Symbol のブロック引数渡しを利用するようにしています。
