@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp の Net::FTP#status メソッドで pathname 引数に "\r" "
+\n" など改行コードが含まれていたら ArgumentError を発生させるようにチェックを追
+加しています。
