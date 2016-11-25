@@ -1,0 +1,4 @@
+テスト TestDir_M17N#test_glob_encoding が AIX で失敗していたのを修正しています
+。 Dir.[] のエントリが ASCII-8BIT の時に force_encoding で UTF-8 に変換していま
+したが ISO-8851-1 の時も String#encode で変換できないことがあるみたいなので
+force_encoding で変換するようにしています。 [ruby-core:78271] [Bug #12972]
