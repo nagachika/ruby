@@ -1,0 +1,3 @@
+r56860 で分離した Net::FTP::BufferedSSLSocket に @is_shutdown というインスタン
+ス変数を追加して、shutdown 後に読み込もとしたら EOFError 例外を発生させるように
+しています。
