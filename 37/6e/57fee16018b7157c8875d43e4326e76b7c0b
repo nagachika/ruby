@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer#shutdown で pipe を閉じる
+のに Symbol のブロックパラメータ渡しを利用するようにしています。
