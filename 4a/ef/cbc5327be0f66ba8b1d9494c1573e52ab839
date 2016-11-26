@@ -1,0 +1,4 @@
+r56884 での fileutils のテストの修正ですが、assert_output_lines という独自の
+assertion メソッドで pipe を使って Thread 間通信をしていて、例外発生時に pipe
+の閉じ漏れで deadlock 状態になることがあったのでそちらを修正しています。
+[ruby-core:78053] [Bug #12910]
