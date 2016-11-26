@@ -1,0 +1,2 @@
+標準添付ライブラリ resolv の Resolv::Hosts#each_name でも &. 演算子と Symbol の
+ブロック引数渡しの記法を利用するようにしています。
