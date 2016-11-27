@@ -1,0 +1,2 @@
+マクロ RSTRUCT_PTR() の定義が rb_struct_const_ptr() になっていたので
+rb_struct_ptr() に修正しています。
