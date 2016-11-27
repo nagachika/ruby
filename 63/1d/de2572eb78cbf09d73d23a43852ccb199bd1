@@ -1,0 +1,3 @@
+Integer#round, Float#round, Rational#round のキーワード引数 half に :down とい
+う指定(ちょうど 0.5 は 0 に丸める)を受け付けるようにしています。 [ruby
+-core:78192] [Feature #12953]
