@@ -1,0 +1,3 @@
+win32/file.c の static 関数 home_dir() を rb_w32_home_dir() にして win32/win32
+.c に移動し、環境変数でホームディレクトリが決まらない時に get_special_folder()
+という API を利用して取得する処理を追加しています。
