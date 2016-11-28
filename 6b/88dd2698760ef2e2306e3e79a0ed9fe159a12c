@@ -1,0 +1,6 @@
+ホームディレクトリを取得する rb_default_home_dir() を file.c の実装は Windows
+以外のプラットフォーム用にして、win32/file.c に r56901 で移動した
+rb_w32_home_dir() を元にした Windows 専用の rb_default_home_dir() を定義するよ
+うにしています。
+また非 Windows 環境では getpwnam(3) を利用してホームディレクトリを取得するよう
+にしています。 [ruby-core:77019] [Feature #12695]
