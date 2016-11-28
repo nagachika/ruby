@@ -1,0 +1,2 @@
+NEWS ファイルの r56897 の round の half キーワード引数の :down 対応の記述にチケ
+ット番号を追記しています。 [ruby-core:78192] [Feature #12953]
