@@ -1,0 +1,9 @@
+即値のオブジェクト (Fixnum(今は独立したクラスではなくて Integer のうち VALUE に
+埋め込めるものという内部的な区別になっていますが)、nil, true, false など)に対し
+て dup を呼んだ時に TypeError が発生するようになっていましたが、例外は発生させ
+ずにかわりに同じ即値を返すようにしています。うんうん、このほうが嬉しですよね。
+[ruby-core:78308] [Feature #12979]
+test/rubygems/test_gem_specification.rb のテストが書きかわっているのはなんでし
+ょうね?
+[追記]Symbol#dup が例外を発生させることに依存したテストだったので singleton
+class に変更しておいたそうです。[/追記]
