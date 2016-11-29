@@ -1,0 +1,4 @@
+signal.c の check_stack_overflow() で stack base pointer のレジスタの値を取得し
+て、segmentation fault がおきたアドレスが bp と sp の間にあったら stack
+overflow によるものと判定するようにしています。一気に page size 以上に sp が突
+き抜けた場合を考慮しているのかな。
