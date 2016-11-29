@@ -1,0 +1,5 @@
+r50152 で OS X で libruby ビルド時のオプションの -compatibility_version に $
+(RUBY_PROGRAM_VERSION) を使うようにしていましたが、$(MAJOR).$(MINOR) までのバー
+ジョンを使うようにして、逆に -current_version のほうを $(RUBY_PROGRAM_VERSION)
+を使うようにしています。 teeny が変わったバージョンで拡張ライブラリが使えなくな
+る問題があったようです。ふーむ普段使ってるけど特に気がつかなかった…。
