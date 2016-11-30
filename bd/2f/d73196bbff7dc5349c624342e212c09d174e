@@ -1,0 +1,2 @@
+insns.def の checkmatch 命令のコードでインデックス用の変数の型を int から long
+に変更して overflow 対策しています。
