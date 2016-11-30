@@ -1,0 +1,4 @@
+Ruby VM の命令列のコンパイル時の peephole 最適化に newarray, duparray,
+expandarray, concatarray, splatarray などのスタックトップに Array を置く命令の
+直後に splatarray 命令があったら不要なので splatarray 命令を削る最適化を追加し
+ています。
