@@ -1,0 +1,3 @@
+r56910 の Net::FTP の TLS 対応のテストに sleep を追加したのは効かなかったみたい
+で accept を呼んでるほうの Thread で SystemCallError と IOError の例外を捕捉し
+て無視するようにして対処しています。
