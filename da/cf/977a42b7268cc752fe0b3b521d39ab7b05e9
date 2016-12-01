@@ -1,0 +1,2 @@
+r56912 で追加した String#casecmp? と Symbol#casecmp? の rdoc 用コメントのサンプ
+ルのメソッド名が casecmp になっていたので ? を追加しています。
