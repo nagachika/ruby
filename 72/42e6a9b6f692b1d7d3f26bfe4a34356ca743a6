@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp の Net::FTP.new に :ssl_handshake_timeout オプション
+を追加して :open_timeout とは別に TLS handshake のタイムアウトを指定できるよう
+にしています。
