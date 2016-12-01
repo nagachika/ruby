@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp の Net::FTP#connect で OpenTimeout 例外時にも @sock
+を close しておくようにしています。 TLS handshake のタイムアウト時に発生する可
+能性があるため。
