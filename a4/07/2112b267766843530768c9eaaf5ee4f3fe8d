@@ -1,0 +1,3 @@
+r56916 の追加修正。 Net::FTP#connect で例外発生時の close 処理を Net::FTP#close
+の呼び出しではなく @sock.close を直接呼ぶようにしています。 Net::FTP#close だと
+shutdown 後 read してしまってタイムアウトするまで待たされる可能性があったので。
