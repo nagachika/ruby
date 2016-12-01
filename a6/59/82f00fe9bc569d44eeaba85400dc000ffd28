@@ -1,0 +1,3 @@
+test/ruby/test_keyword.rb 必須キーワード引数のテストで発生する例外を検査するの
+に begin ... rescue を使ってわざわざ書いてたので assert_raise_with_message が返
+す例外オブジェクトを使ってチェックするように修正しています。
