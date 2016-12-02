@@ -1,0 +1,4 @@
+openssl の upstream (https://github.com/ruby/openssl) で開発されていた 2.0.0 の
+ブランチから差分がマージされています。 https://github.com/ruby/openssl/compare/
+v2.0.0.beta.2...v2.0.0
+OpenSSL 0.9.7 以前のバージョンはサポートされなくなっています。
