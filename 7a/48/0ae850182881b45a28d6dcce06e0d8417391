@@ -1,0 +1,2 @@
+r56912 で追加した String#casecmp? と Symbol#casecmp? メソッドについて NEWS ファ
+イルに追記しています。 [ruby-core:77375] [Feature #12786]
