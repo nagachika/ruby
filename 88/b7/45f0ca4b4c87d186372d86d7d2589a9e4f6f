@@ -1,0 +1,3 @@
+文字列リテラルの \u{XXXX} の記法で X に不正な文字が含まれていた時のエラーメッセ
+ージが "unterminated Unicode escape" となっていたので "invalid Unicode escape"
+という例外メッセージが出るように修正しています。
