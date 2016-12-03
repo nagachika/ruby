@@ -1,0 +1,3 @@
+tool/enc-unicode.rb で生成する name2ctype.h で配列のメモリ量を削減するため構造
+体メンバの型を変更しています。また offsetof() マクロを利用するようにしています
+。
