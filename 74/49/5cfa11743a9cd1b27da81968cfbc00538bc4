@@ -1,0 +1,2 @@
+parse.y の \u{XXXX} の記法の解析で Unicode として不正な codepoint の値が表現さ
+れていたらエラーにするようにしています。
