@@ -1,0 +1,2 @@
+test/ruby/enc/test_case_comprehensive.rb のテストクラスの名称を
+TestComprehensiveCaseFold から TestComprehensiveCaseMapping に改名しています。
