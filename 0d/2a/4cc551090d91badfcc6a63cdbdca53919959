@@ -1,0 +1,3 @@
+test/ruby/enc/test_case_mapping.rb に Unicode の casemap を考慮した正規表現の大
+文字小文字を無視したマッチの動作を確認するテストを追加しています。
+[ruby-core:78410] [Bug #12990]
