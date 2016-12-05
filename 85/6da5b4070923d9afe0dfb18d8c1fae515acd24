@@ -1,0 +1,2 @@
+拡張ライブラリ stringio のテストに StringIO#gets および StringIO#each に "" を
+渡して paragraph mode で読み込む時のテストを追加しています。
