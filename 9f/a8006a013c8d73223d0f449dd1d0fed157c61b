@@ -1,0 +1,2 @@
+hash.c の rb_define_method() の実引数に空白を追加して整形しています。 https://
+github.com/ruby/ruby/pull/1492 [ruby-core:78297] [Misc #12977]
