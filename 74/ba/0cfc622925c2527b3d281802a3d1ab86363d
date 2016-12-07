@@ -1,0 +1,5 @@
+random.c の rb_random_ulong_limited() で乱数器オブジェクトの obj の rand メソッ
+ドを呼び出す時に Kernel#rand メソッドが存在するため意図しないオブジェクトを渡し
+ても呼べてしまっていたので rb_funcallv_public() で public method に限定してメソ
+ッド呼び出しするようにして Kernel#rand を使ってしまうのを防いでいます。
+[ruby-dev:49892] [Misc #13003]
