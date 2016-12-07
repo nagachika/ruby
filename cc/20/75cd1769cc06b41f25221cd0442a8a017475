@@ -1,0 +1,2 @@
+複数の Thread から同時に require した時のテストでタイムアウトすることがあったの
+で assert_in_out_err の timeout を 20 にのばしています。
