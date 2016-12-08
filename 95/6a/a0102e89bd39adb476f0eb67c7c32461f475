@@ -1,0 +1,3 @@
+NEWS ファイルに String#each_line, String#lines にもキーワード引数 chomp を追加
+したことと StringIO の行指向メソッド群にもキーワード引数 chomp を追加したことを
+追記しています。
