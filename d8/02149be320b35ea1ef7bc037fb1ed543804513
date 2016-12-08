@@ -1,0 +1,2 @@
+MatchData の initialize を呼ばれてないインスタンス(allocate で確保だけしたもの)
+に対して hash メソッドを呼ぶと SEGV する不具合を修正しています。
