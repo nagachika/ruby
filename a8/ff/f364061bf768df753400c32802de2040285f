@@ -1,0 +1,2 @@
+File.symlink のテストで cygwin で Errno::EPERM が発生することがあったそうなので
+rescue する例外に追加しています。
