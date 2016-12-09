@@ -1,0 +1,3 @@
+Array#sum で Float の加算の時に Kahan's compensated summation というアルゴリズ
+ムを使って誤差を軽減するようにしていたのを Kahan-Babuska balancing compensated
+summation という改善版に修正しています。 [ruby-core:77771] [Feature #12871]
