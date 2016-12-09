@@ -1,0 +1,3 @@
+Solaris unstable10s での RubyCI のテストのタイムアウトを解消するため
+test_deadlock_by_signal_at_forking と test_require_with_loaded_features_pop の
+子プロセスの終了待ちのタイムアウト制限を緩めています。
