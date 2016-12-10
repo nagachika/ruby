@@ -1,0 +1,2 @@
+IO#write_nonblock の rdoc 用コメントのサンプルコードの typo 修正。 https://
+github.com/ruby/ruby/pull/1496
