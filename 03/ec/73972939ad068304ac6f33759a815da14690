@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::Utils::General の :ServerName の値に
+Utils.getservername の呼び出しをロード時に行ってたのを、Hash の default proc に
+包むことで必要になった時に呼ぶように遅延して不要な名前解決を避けるようにしてい
+ます。 [ruby-core:78492] [Bug #13007]
