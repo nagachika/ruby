@@ -1,0 +1,3 @@
+cont.c, thread.c, vm_eval.c などの変数や引数の宣言に volatile 修飾子をいくつか
+追加しています。 FreeBSD と NetBSD 上の clang でビルドした時に最適化で不具合が
+発生するのを回避するためだそうです。 [ruby-core:78531] [Bug #13014]
