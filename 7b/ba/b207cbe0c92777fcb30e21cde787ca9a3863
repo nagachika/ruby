@@ -1,0 +1,2 @@
+private メソッドを Refinements で public 変更したものを using して呼ぶと無限再
+帰になる? のを修正しています。 [ruby-core:77161] [Bug #12729]
