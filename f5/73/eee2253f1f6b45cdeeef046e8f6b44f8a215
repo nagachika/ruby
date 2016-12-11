@@ -1,0 +1,3 @@
+doc/extension.rdoc および doc/extension.ja.rdoc で関数のプロトタイプの表示で関
+数ポインタの型で引数を指定しない時の表記に ANYARGS マクロを利用するようにしてい
+ます。 https://github.com/ruby/ruby/pull/1473
