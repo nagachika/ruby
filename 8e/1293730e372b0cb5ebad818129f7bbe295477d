@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal を upstream から 1.3.0.pre をマージしています。
+https://github.com/ruby/bigdecimal/compare/5c43a9e...v1.3.0.pre Integer 統合対
+応や BigDecimal#inspect の表示内容の改善などがあったみたいです。
