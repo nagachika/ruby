@@ -1,0 +1,3 @@
+GCC_VERSION_SINCE() マクロの定義内で defined directive を利用するのは移植性がな
+く動かない可能性があるということで defined() での分岐を #define の外側に移動し
+ています。参考URL: https://gcc.gnu.org/ml/gcc-patches/2014-10/msg01577.html
