@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal の upstream から 1.3.0.pre.2 をマージしています。
+BigDecimal() に渡した文字列の前後に空白文字があった時に不具合があったのを修正し
+ています。 https://github.com/ruby/bigdecimal/compare/v1.3.0.pre...v1.3.0.pre.2
