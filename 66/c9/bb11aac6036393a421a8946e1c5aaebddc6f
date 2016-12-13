@@ -1,0 +1,3 @@
+標準添付ライブラリ pp の String#pretty_print メソッドを定義しているところで
+rdoc の :nodoc: タグを追加して余計なドキュメント生成を抑制しています。 https://
+github.com/ruby/ruby/pull/1482
