@@ -1,0 +1,4 @@
+Hash#value? および Hash#has_value? の rdoc 用コメントのサンプルコードで使ってる
+のを has_value? から value? に変更しています。 [ruby-core:43765] によると Hash#
+has_value? は deprecated なのでドキュメントのサンプルにするにはふさわしくないと
+いうことみたいです。 https://github.com/ruby/ruby/pull/1491
