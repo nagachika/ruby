@@ -1,0 +1,1 @@
+String#== と String#=== の rdoc 用コメントで呼び出すメソッド名の typo を修正。
