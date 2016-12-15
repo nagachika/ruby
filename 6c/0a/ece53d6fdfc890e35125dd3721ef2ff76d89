@@ -1,0 +1,4 @@
+標準添付ライブラリ uri/mailto で URI::MailTo#to_mailtext を利用すると URI
+::RFC2396_Parser#unescape を呼ぼとして NoMethodError が発生していたところを URI
+.decode_www_form_component を利用するように修正しています。 [ruby-core:67763]
+[Bug #10774]
