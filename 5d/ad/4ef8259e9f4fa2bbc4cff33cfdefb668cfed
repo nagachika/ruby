@@ -1,0 +1,2 @@
+標準添付ライブラリ irb の irb/context.rb に require "irb/output-method" を追加
+しています。
