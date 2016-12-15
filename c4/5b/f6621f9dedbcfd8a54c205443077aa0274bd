@@ -1,0 +1,2 @@
+NEWS ファイルに r57053 で追加された String#match? と Symbol#match? メソッドにつ
+いて追記しています。
