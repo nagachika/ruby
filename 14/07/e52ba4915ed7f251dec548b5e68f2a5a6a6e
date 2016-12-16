@@ -1,0 +1,2 @@
+vm_dump.c の rb_vmdebug_debug_print_pre() という関数の第3引数に const 修飾子を
+追加しています。
