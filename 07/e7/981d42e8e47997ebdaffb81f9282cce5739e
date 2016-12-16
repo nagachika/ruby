@@ -1,0 +1,3 @@
+同じく parse.y の parser_yyerror() で max_line_margin という変数の指定による幅
+を超えて切り取らないようにしています。 max_line_margin = 30 だからそんなに長い
+行は出力しないんですね。
