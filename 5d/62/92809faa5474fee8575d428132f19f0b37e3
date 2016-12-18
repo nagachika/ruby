@@ -1,0 +1,2 @@
+r57090 の続きでチェックして存在しなかったら HAVE_CRYPT_H をみて #include
+<crypt.h> を省くようにしています。 [ruby-core:78664] [Bug #13038]
