@@ -1,0 +1,2 @@
+r57092 の configure.in の DTrace 関係のチェックの重複除去のほうを revert してい
+ます。
