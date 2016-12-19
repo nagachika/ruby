@@ -1,0 +1,2 @@
+configure.in で RUBY_DTRACE_AVAILABLE のためのチェックの重複を省いているそうで
+すが、これは後で revert されています。
