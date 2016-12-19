@@ -1,0 +1,3 @@
+r57092 のリトライ。細かくみてませんが $rb_cv_prog_dtrace_g = rebuild の時の
+DTRACE_OBJ=probes.$(OBJEXT) を追加するようにしているようです(そのため AS_CASE
+で書いてたのを AS_IF に書き直してたりもしますが)。
