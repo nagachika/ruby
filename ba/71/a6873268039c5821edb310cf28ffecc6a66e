@@ -1,0 +1,2 @@
+test/uri/test_mailto.rb で test_to_mailtext というテストメソッドが 2つ定義され
+ていて上書きされていたのを修正しています。 [ruby-core:67763] [Bug #10774]
