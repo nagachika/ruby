@@ -1,0 +1,2 @@
+RubyCI が失敗していたようで r57093, r57094, r57097 の FreeBSD での dtrace チェ
+ック関係の変更を revert しています。
