@@ -1,0 +1,2 @@
+numeric.c の rb_num_get_rounding_option() で r57130 で不要になってた条件分岐を
+削除しています。
