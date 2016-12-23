@@ -1,0 +1,4 @@
+rescue 節のなかで例外を発生させた時に Exception#cause に元の例外オブジェクトの
+参照を格納するのですが、rescue がネストした状態で外側の rescue の例外を再 raise
+した時に cause の循環参照が発生するのを抑制するように修正しています。
+[ruby-core:78688] [Bug #13043]
