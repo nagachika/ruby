@@ -1,0 +1,2 @@
+require された時にスクリプトの途中で抜けるための TOP_LEVEL の return 文を書ける
+ようにする変更がありました。 [ruby-core:36785] [Feature #4840]
