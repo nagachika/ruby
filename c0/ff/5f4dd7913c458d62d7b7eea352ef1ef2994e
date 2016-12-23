@@ -1,0 +1,3 @@
+st.c の st_hash関数群の MURMUR というマクロの値で分岐を各所に入れていたのをやめ
+て、murmur_finish() の実装は MurmurHash3 から取ってきて? 書き直しています。
+[ruby-core:78559] [Bug #13019]
