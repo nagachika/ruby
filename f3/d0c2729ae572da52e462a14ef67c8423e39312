@@ -1,0 +1,2 @@
+zlib のテストで書き込み途中の Zlib::Deflate に close を呼ぶところで警告が出るの
+で EnvUtil.suppress_warning のブロック内に入れて警告を抑制しています。
