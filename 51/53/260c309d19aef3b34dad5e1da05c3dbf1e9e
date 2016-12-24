@@ -1,0 +1,3 @@
+RB_TEST() に明示的キャストを追加して警告除去しています。また
+rb_alloc_tmp_buffer2() でも同様に rb_mul_size_overflow() に渡す引数を size_t に
+代入した変数を使うようにしています。 [ruby-core:78794] [Bug #13060]
