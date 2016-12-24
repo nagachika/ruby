@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal に upstream から 1.3.0 を取り込んでます。主に
+BigDecimal#round メソッドのキーワード引数 half の nil を許容する変更とドキュメ
+ントの修正がありました。 https://github.com/ruby/bigdecimal/compare/
+v1.3.0.pre.2...v1.3.0
