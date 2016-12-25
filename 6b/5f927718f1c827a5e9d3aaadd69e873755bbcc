@@ -1,0 +1,3 @@
+test/lib/test/unit/assertions.rb で文法のチェックをするための assertion
+assert_valid_syntax と assert_syntax_error でチェックのため eval するかわりに
+RubyVM::InstructionSequence.compile を利用するように書きかえています。
