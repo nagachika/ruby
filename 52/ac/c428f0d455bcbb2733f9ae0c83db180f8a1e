@@ -1,0 +1,8 @@
+ruby のテスト用のユーティリティ EnvUtil の invoke_ruby に子プロセスのタイムアウ
+トを増減させる EnvUtil.subprocess_timeout_scale という属性を追加して、
+Test::Unit に --subprocess-timeout-scale オプションを追加してこれをセットするよ
+うにしています。環境変数 RUBY_TEST_SUBPROCESS_TIMEOUT_SCALE でも設定できるよう
+です。 RubyCI でテストを実行しているプラットフォームによっては処理に時間がかか
+るのでタイムアウトを伸ばすということがよくあるので、個別に伸ばすのではなくてこ
+のパラメータで子プロセスを起動するテストでは一律タイムアウトを伸ばそうというこ
+とでしょう。
