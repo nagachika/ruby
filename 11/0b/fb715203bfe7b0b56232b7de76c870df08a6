@@ -1,0 +1,2 @@
+include/ruby/version.h の RUBY_API_VERSION_MINOR も更新され、 API Version が
+2.5.0 になりました。拡張ライブラリはインストールしなおしです。
