@@ -1,0 +1,2 @@
+.gdbinit で gdb の rp コマンドで T_STRUCT と T_BIGNUM 型のオブジェクトの表示を
+強化しています。
