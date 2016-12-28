@@ -1,0 +1,2 @@
+addr2line.c dln.c gc.c で strcpy(3) を使っているところを memcpy(3) におきかえた
+り malloc(3)+strcpy(3) を strdup(3) におきかえたりといったリファクタリング。
