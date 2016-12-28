@@ -1,0 +1,2 @@
+win32/Makefile.sub の $(RUBYDEF) の依存関係の $(PREP) を $(RBCONFIG) に修正して
+います。 win32/mkexports.rb の実行に rbconfig.rb が必要だったため。
