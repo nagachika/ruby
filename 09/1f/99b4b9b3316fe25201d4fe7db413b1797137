@@ -1,0 +1,2 @@
+String#lines や String#each_line で引数に "" を渡して複数の連続した改行で分割す
+る paragraph mode にした時に結果に余計な改行がつかないようにしています。
