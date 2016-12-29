@@ -1,0 +1,3 @@
+r57199 の IO#close のマルチスレッド対応の変更部分は revert しています。拡張ライ
+ブラリ io/console の IO#getch が壊れていたそうです。 [ruby-core:78857] [Bug #
+13076]
