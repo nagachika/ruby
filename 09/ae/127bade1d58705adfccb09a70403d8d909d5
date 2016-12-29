@@ -1,0 +1,4 @@
+r57206 で revert された r57199 のリベンジ。 io_fillbuf() に READ_CHECK() を追加
+していたのを rb_io_check_closed() を直接呼ぶように変更しています。 READ_CHECK()
+に含まれる WAIT_FD_IN_WIN32() を避けたということかな。 [ruby-core:78845] [Bug #
+13076]
