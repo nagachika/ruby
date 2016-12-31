@@ -1,0 +1,2 @@
+rational.c の nurat_s_canonicalize_internal() で CANON が未定義の時に
+canonicalization を 0 に定義しておくことで不要な #ifdef を消しています。
