@@ -1,0 +1,3 @@
+r57249 と同様に Class.allocate の rb_obj_alloc() にも Check_Type() マクロによる
+チェックを追加しています。こちらも Class.allocate の実装の関数は別名にされてチ
+ェックを省いています。 [ruby-core:78934] [Bug #13093]
