@@ -1,0 +1,2 @@
+OS X 10.5 で fgetattrlist() がないのでかわりに getattrlist() を利用するように条
+件分岐を追加しています。 [ruby-core:68829] [Bug #11054]
