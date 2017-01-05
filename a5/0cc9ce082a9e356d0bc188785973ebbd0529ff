@@ -1,0 +1,4 @@
+r57255 の続き。標準添付ライブラリ forwardable の instance_delegate と
+single_delegate の引数のハッシュが Enumerator (というか each メソッドを持つオブ
+ジェクト)でなかった時の処理を不要な中間オブジェクトの配列を生成しないように条件
+分岐に置き換えています。
