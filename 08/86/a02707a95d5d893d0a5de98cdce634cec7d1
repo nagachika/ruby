@@ -1,0 +1,2 @@
+r57256 の修正。 instance_delegate と single_delegate の条件分岐を書き換えた時に
+if と unless が逆になっていたのを修正しています。
