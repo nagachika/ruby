@@ -1,0 +1,2 @@
+lib/benchmark.rb と test/benchmark/test_benchmark.rb も magic comment の
+frozen_string_literal を false から true に変更しています。
