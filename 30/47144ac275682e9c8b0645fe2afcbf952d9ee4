@@ -1,0 +1,5 @@
+Windows 環境において resolv.rb による名前解決が registry の不具合によって失敗す
+ることがあるそうなので、その workaround として Win32::Resolv で Registry#read_s
+を refine で上書きして type が Registry::REG_SZ でない時の値を無視させるように
+しています。 https://github.com/rubygems/rubygems/issues/1700 [ruby-dev:49924]
+[Bug #13081]
