@@ -1,0 +1,4 @@
+プロセス起動時に実行される prelude.rb で Binding#irb を定義しておいて、動的に
+require "irb" をするようにしています。これで require "irb" しておかなくてもいき
+なり binding.irb でそのコンテキストで irb を開けるようになります。
+[ruby-core:78960] [Bug #13099]
