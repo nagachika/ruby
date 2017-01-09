@@ -1,0 +1,4 @@
+Hash#compare_by_identity でキーの判定を同値性でなく同一性で行うようにした時に
+VM の最適化命令 opt_aset_with と opt_aref_with で誤って rb_hash_aset()/
+rb_hash_aref() を呼び出す最適化がされて、同一性での判定をしてしまっていたのを修
+正しています。 [ruby-core:78797] [ruby-core:78783] [Bug #12855]
