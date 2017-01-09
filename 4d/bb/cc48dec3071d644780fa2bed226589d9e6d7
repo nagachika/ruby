@@ -1,0 +1,2 @@
+bignum.c の C API rb_cstr_parse_inum() で重複していて不要だった符号文字のチェッ
+クを削除しています。
