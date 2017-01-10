@@ -1,0 +1,2 @@
+benchmark/driver.rb で opt[:output] の設定はファイルからのロード時には設定しな
+いようにしています。
