@@ -1,0 +1,2 @@
+拡張ライブラリ io/console の IO#winsize= のテストを一部コメントアウトしています
+。 CentOS 5 で pty 経由で端末のサイズの変更ができなかったとか。CentOS 5 かー。
