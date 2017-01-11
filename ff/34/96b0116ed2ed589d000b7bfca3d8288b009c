@@ -1,0 +1,5 @@
+標準添付ライブラリ forwardable で末尾呼び出しの最適化が行われるようになって発覚
+した不具合の修正で rb_call_iseq_setup_tailcall() で RUBY_VM_CHECK_INTS() で割り
+込みの処理を vm_push_frame() で新たな VM stack frame を積んだ後に行うようにして
+います。割り込みで finalizer の処理が走ると VM stack の値が壊される可能性があっ
+たみたいです。 [ruby-core:78981] [Bug #13107]
