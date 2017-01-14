@@ -1,0 +1,3 @@
+CompileError のメッセージの表示で iseq->aux.compile_data.err_info にエラーメッ
+セージを格納していたのを top や main の context ではすぐにメッセージを表示して
+おいて Qtrue を格納して重複を防ぐようにしているみたいです。
