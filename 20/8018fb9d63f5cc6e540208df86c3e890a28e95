@@ -1,0 +1,4 @@
+random.c でシステムコールを呼ぶための定数 SYS_getrandom を __NR_getrandom に変
+更しています。SYS_ のほうは glibc が定義しているもので __NR_ が Linux kernel で
+定義されているもので、こっちを直接使うことで glibc が対応していなくても使えるよ
+うになるから、ということみたいですね。
