@@ -1,0 +1,4 @@
+tool/rbinstall.rb で install?(:local, :comm, :bin, :'bin-comm') の呼び出しのブ
+ロックの内容を Struct を使ってインスタンス化して $script_installer という変数に
+格納しておいてそれを使うようにして Gem::Installer でもこのオブジェクト化したも
+のを流用するようにしています。 shebang の解釈などをさせたいのかな。
