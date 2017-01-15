@@ -1,0 +1,3 @@
+tool/rbinstall.rb で LIBRUBY_RELATIVE の値を config.h から切り出して検出してい
+たのを rbconfig.rb の RbConfig::CONFIG に LIBRUBY_RELATIVE の項目があったのでそ
+れを直接参照するように変更しています。
