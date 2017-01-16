@@ -1,0 +1,4 @@
+net/protocol と open-uri のテストで StringIO のオブジェクトを作るところに "".
+dup を渡すようにしていましたが、引数を省略するようにしています。
+また zlib のテストで magic comment frozen_string_literal を true に変更して
+String.new を使ったりするようにしています。
