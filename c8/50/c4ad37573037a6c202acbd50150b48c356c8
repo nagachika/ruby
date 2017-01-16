@@ -1,0 +1,3 @@
+r57322 の tool/rbinstall.rb の再修正。 $script_installer に格納する Struct を利
+用したインスタンスで ruby_install_name という属性も必要だったので Struct の属性
+に追加しています。
