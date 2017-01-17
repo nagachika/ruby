@@ -1,0 +1,4 @@
+tool/rbinstall.rb で RbInstall::UnpackedInstaller で shebang を書き換える時に実
+行ファイルと対象のファイルが同じものであったら自己参照になってしまうので処理を
+skip するようにしています。gem パッケージのインストール時の処理に関するものみた
+いですね。
