@@ -1,0 +1,4 @@
+rb_get_path_check_convert() でファイルパスの文字列オブジェクトに NUL 文字が含ま
+れていた時の ArgumentError 例外メッセージを rb_string_value_cstr() が出してたも
+のから独自のメッセージ(string -> path name とパス名であることを明示したもの)を
+使うようにしています。
