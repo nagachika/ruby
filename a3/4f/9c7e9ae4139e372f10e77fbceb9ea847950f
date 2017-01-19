@@ -1,0 +1,2 @@
+拡張ライブラリ socket の rsock_bsock_send() で blocking function の戻り値を int
+に受けていたのを ssize_t に修正しています。
