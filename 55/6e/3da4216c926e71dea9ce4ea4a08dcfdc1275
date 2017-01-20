@@ -1,0 +1,5 @@
+標準添付ライブラリ uri の URI::Generic#find_proxy で no_proxy 環境変数で指定さ
+れたアドレスに名前解決されるドメインの URI は fnid_proxy でアドレスを返さないよ
+うにしています。 https://github.com/ruby/ruby/pull/1513
+このテスト子プロセスじゃないところで IPSocket.getaddress を上書きしてるみたいだ
+けど大丈夫かな?
