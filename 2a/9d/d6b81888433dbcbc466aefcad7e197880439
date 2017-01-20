@@ -1,0 +1,2 @@
+標準添付ライブラリ pstore とそのテストの frozen_string_literal を true に変更し
+ています。内容は変更はないみたいですね。
