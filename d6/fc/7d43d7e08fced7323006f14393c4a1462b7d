@@ -1,0 +1,2 @@
+r57300 の続き? iseq_setup() で iseq->aux.compile_data->err_info にエラー情報が
+あったらエラーを返すようにしています。 [ruby-core:76531] [Bug #12613]
