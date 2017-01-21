@@ -1,0 +1,4 @@
+protected の rdoc 用コメントに Java の protected とは違うよと挙動について注釈を
+追記しています。どうも rdoc で private メソッドのドキュメントを生成するために
+protected にするという Tips が出回ってるみたいで(?)、そうじゃなくて :doc: タグ
+を使えと書かれています。
