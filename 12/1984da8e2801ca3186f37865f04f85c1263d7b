@@ -1,0 +1,2 @@
+lib/rbconfig/datadir.rb という標準添付ライブラリを削除しています。既に 2011年か
+ら deprecated になってました。
