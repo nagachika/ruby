@@ -1,0 +1,3 @@
+r57370 の Kernel#warn で Warning.warn を呼ぶようにした変更に関連して空文字列の
+時に追加する改行コードを rb_default_rs を使うようにしています。
+[ruby-core:78156] [Feature #12944]
