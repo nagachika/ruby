@@ -1,0 +1,3 @@
+Random.raw_seed を Random.urandom に改名して、標準添付ライブラリ securerandom
+で OpenSSL の実装よりも先に Random.urandom の実装を試すようにしています。
+[ruby-core:61094] [Bug #9569]
