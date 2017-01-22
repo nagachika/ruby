@@ -1,0 +1,3 @@
+r55505 で GNUMakefile.in で sub-make に渡す時に -j オプションを filter-out で削
+るようにしていたのをコメントアウトしています。 make test-all の並列化が伝播しな
+くなっていたのを戻したみたいです。
