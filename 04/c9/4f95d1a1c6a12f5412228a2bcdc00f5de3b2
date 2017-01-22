@@ -1,0 +1,3 @@
+random.c で利用している SipHash の実装を SipHash24 から SipHash13 に変更してい
+ます。こちらのほうが高速で、かつ充分に Secure だから、ということかな?
+[ruby-core:78549] [Feature #13017]
