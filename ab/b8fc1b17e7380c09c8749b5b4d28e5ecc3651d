@@ -1,0 +1,3 @@
+r57401 で追加した template/configure-ext.mk.tmpl で .PHONY ターゲットとして指定
+した FORCE を実際に空のターゲットとして宣言するようにしています。 BSD make では
+そうする必要があったとのこと。
