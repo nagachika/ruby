@@ -1,0 +1,3 @@
+RubyVM の命令列に出てくる命令のテスト coverage を上げるため、命令ごとにそれが登
+場するように式を compile するテストを bootstraptest (make test で実行されるテス
+ト)に追加しています。
