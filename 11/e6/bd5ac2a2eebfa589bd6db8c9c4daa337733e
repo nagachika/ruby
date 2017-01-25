@@ -1,0 +1,4 @@
+special_object_p() が T_SYMBOL の時(つまり即値じゃない dynamic symbol? mortal
+symbol? どっちでしたっけ?) も Qtrue を返すようにしています。 Symbol#clone で複
+製しようとすると例外が発生していたのを修正して self を返すようにしています。
+[ruby-core:79216] [Bug #13145]
