@@ -1,0 +1,3 @@
+ext/extmk.rb で extinit.c に渡すための features 名(basename)とそのファイルパス
+は "," 区切りで渡されてましたが、extinit.c のテンプレートでは basename のほうは
+無視されていたので、最初からファイルパスのみ渡すようにしています。
