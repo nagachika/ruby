@@ -1,0 +1,2 @@
+ext/extinit.c を生成するためのテンプレートが ext/extmk.rb に埋め込まれていたの
+を template/extinit.c.tmpl に切り出しています。
