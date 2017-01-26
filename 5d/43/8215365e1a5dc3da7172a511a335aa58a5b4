@@ -1,0 +1,5 @@
+標準添付ライブラリ rubygems のバージョンを 2.6.10 に更新しています。 ChangeLog
+が以下の URL にあります。 Ruby 2.4 での不具合の修正などが含まれているようです。
+https://github.com/rubygems/rubygems/commit/
+2ee5bf9fd3bd7649d3e244bc40107ff32070ef47 https://github.com/rubygems/rubygems/
+commit/be510dd4097e65c6a256a6e173d6b724a3a96472
