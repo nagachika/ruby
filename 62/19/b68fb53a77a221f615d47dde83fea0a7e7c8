@@ -1,0 +1,2 @@
+標準添付ライブラリ uri の URI#escape の rdoc 用コメントのメソッド名の typo 修正
+。 [ruby-core:79218] [Bug #13147]
