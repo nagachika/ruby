@@ -1,0 +1,3 @@
+VMDEBUG が 3以上の時の VM スタックの内容をダンプする vm_stack_dump_each() で
+T_IMEMO オブジェクトは詳細は表示せず imemo とだけ表示するようにしています。
+[ruby-core:78631] [Bug #13030]
