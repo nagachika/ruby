@@ -1,0 +1,2 @@
+拡張ライブラリ date に同梱されている ruby スクリプトと date のテストの magic
+comment frozen_string_literal を true に変更しています。
