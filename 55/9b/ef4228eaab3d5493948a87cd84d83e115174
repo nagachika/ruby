@@ -1,0 +1,3 @@
+Enumerable#min, #min_by, #max, #max_by の rdoc 用コメントに引数 n が指定された
+場合の戻り値がソート済みである点を追記しています。 [ruby-core:79274] [Bug #
+13161]
