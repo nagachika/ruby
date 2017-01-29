@@ -1,0 +1,3 @@
+r57439 で template/exts.mk.tmpl の all, static ターゲットの依存関係を消してまし
+たが rubies という依存関係を追加しています。 rubies なんてターゲットあったんだ
+…。
