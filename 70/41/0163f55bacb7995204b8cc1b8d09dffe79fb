@@ -1,0 +1,3 @@
+enum.c の rb_nmin_run() で戻り値の配列オブジェクトの klass をセットするのに
+RBASIC_SET_CLASS() マクロを利用して Write Barrier つきでセットするように修正し
+ています。
