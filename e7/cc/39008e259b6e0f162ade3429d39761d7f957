@@ -1,0 +1,2 @@
+標準添付ライブラリ weakref とそのテストの magic comment frozen_string_literal
+を true に変更しています。
