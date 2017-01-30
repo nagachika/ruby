@@ -1,0 +1,3 @@
+template/configure-ext.mk.tmpl と template/exts.mk.tmpl で configure に
+--static-linked-exts が指定された時に bundled gems の拡張ライブラリは static
+link してしまわないようにするための追加対応みたいです。
