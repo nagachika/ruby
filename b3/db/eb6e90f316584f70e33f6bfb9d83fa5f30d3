@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf.rb で生成する Makefile で static のターゲットの依存関係
+に install-rb を含むかどうかの判定を修正しています。
