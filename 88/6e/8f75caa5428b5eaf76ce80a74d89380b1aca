@@ -1,0 +1,2 @@
+r57465 の rbconfig/sizeof の limit 対応について common.mk でビルド用のルールを
+追加しています。
