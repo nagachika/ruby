@@ -1,0 +1,3 @@
+r57462 の追加修正。 VC18 以降では stdbool.h が利用可能だったそうなので win32/
+Makefile.sub で MSC_VER をチェックして HAVE_STDBOOL_H を定義しておくようにして
+います。
