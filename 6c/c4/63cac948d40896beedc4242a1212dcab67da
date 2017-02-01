@@ -1,0 +1,2 @@
+test/ruby/test_io.rb の r57199 や r57422 の IO#close の race condition について
+のタイミング依存の不具合のテストでループする回数を減らしています。
