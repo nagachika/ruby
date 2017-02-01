@@ -1,0 +1,2 @@
+internal.h に #include <stdbool.h> を追加しています。これからは bool 型を使うよ
+うにしよう、ということみたいです。
