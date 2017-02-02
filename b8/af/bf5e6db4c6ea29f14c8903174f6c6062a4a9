@@ -1,0 +1,3 @@
+lib/webrick/webrick.gemspec というファイルが追加されています。標準添付ライブラ
+リ webrick を default gems にするみたいですね。 [ruby-core:79339] [Feature #
+13173]
