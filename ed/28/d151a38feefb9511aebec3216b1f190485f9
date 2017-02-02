@@ -1,0 +1,2 @@
+template/limits.c.tmpl で ULLONG_MAX が未定義の時に独自の定義をするようにしてい
+ます。古い CentOS で未定義になってたそうです。
