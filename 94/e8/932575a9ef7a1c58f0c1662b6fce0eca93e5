@@ -1,0 +1,3 @@
+README.md にビルド時に RUBY_CODESIGN 環境変数に証明書名を指定することで
+codesign で署名することで make test-all する時に firewall の警告ダイアログを抑
+制できることを追記しています。
