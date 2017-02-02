@@ -1,0 +1,3 @@
+time_strftime でも rb_str_format() と同様に r57469 で導入した
+rb_str_tmp_frozen_acquire() と rb_str_tmp_frozen_release() を利用して一時オブジ
+ェクトの生成を抑制する最適化を導入しています。
