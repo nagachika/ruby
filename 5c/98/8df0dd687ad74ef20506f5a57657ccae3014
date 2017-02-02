@@ -1,0 +1,2 @@
+r57469 で追加した rb_str_tmp_frozen_release() で embed された文字列のチェックを
+先に分岐するように修正しています。 [ruby-core:78898] [Bug #13085]
