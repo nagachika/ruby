@@ -1,0 +1,5 @@
+libgmp (多倍長整数のためのライブラリ)と jemalloc の存在チェックをする
+configure.in の記述を AC_SEARCH_LIBS という標準のマクロ(コマンド?)を使うように
+書き換えています。 FreeBSD ではデフォルトで jemalloc なのに --with-jemalloc を
+指定するとうまくビルドできないという問題があったようです。 [ruby-core:79368]
+[Bug #13175]
