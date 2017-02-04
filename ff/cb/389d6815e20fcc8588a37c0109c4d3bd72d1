@@ -1,0 +1,2 @@
+今日の default gem 化シリーズ。標準添付ライブラリ cmath のための .gemspec ファ
+イルを追加しています。 [ruby-core:79391] [Feature #13182]
