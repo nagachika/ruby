@@ -1,0 +1,2 @@
+Queue とシグナルのテストで SIGUSR2 を使っていたのを portability のため SIGINT
+に変えています。Windows でも動くように、ということですかね。
