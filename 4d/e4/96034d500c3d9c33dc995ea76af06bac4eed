@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.iseq_load で配列から ISeq を組み立てる時に misc
+params というのを再計算できるとして無視していたのをちゃんと読み取るようにしてい
+ます。VM スタック消費量の計算に必要だった模様。
