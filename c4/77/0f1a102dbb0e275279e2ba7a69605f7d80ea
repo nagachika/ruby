@@ -1,0 +1,5 @@
+compile.c の iseq_build_from_ary_exception() なのでやっぱり
+RubyVM::InstructionSequence.iseq_load ですね。例外テーブル(つまり rescue や
+ensure 節に関するブロック)のロード時に sp をインクリメントするようにしています
+。コメントに TODO: Dirty Hack! Fix me とあるしコミットログにも正確なスタックサ
+イズが計算できないとあるので、暫定的な(アドホックな)修正みたいです。
