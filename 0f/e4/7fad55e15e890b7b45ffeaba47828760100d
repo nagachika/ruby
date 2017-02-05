@@ -1,0 +1,3 @@
+test/lib/test/unit.rb の並列テスト機能で MAKEFLAGS から --jobserver-auth を抜き
+出してきてこれを流用するようにしているようです。 fd を流用しているみたいだけど
+いいのかな。
