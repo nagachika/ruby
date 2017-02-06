@@ -1,0 +1,3 @@
+sample/pty/shl.rb で stty コマンドを Kernel#system で実行して端末の状態を変更し
+ていたのを拡張ライブラリ io/console の STDIN.raw! を利用するようにしています。
+[ruby-dev:49974] [Bug #13191]
