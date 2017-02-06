@@ -1,0 +1,3 @@
+sample/pty/expect_sample.rb の magic comment frozen_string_literal も true にし
+ています。またサンプルのなかで(仮想端末上で) ftp コマンドを起動していますが
+pass コマンドを追加して passive モードで動かすようにしています。
