@@ -1,0 +1,2 @@
+rubygems のテストで default gems が干渉していたみたいなので除外するようにテスト
+に手を入れています。 [ruby-core:79408] [Feature #13186]
