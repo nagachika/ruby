@@ -1,0 +1,1 @@
+r57518 と同様 .gitignore にも ext/rbconfig/sizeof/limits.c を追加しています。
