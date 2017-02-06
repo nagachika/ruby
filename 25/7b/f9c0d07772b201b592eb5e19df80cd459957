@@ -1,0 +1,4 @@
+ruby.h の inline 関数 rb_scan_args_set() から引数の数を渡す varc 引数を削除して
+います。使ってなかったみたいですね。unused parameter で警告になってそれがエラー
+扱いになって拡張ライブラリがビルドできないということがあったようです。
+[ruby-core:79399] [Feature #13184]
