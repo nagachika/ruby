@@ -1,0 +1,2 @@
+Symbol#id2name と Symbol#to_s (同じ実装の別名)の rdoc 用コメントのサンプルコー
+ドには id2name のほうしかなかったので to_s のサンプルも追記しています。
