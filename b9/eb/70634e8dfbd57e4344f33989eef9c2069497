@@ -1,0 +1,2 @@
+r57544 で追加した tool/rbinstall.rb の install? メソッドが受け付けるタグ名の
+xxx-gem → xxx-gems を改名しています。
