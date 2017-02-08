@@ -1,0 +1,4 @@
+tool/rbinstall.rb の File.umask を 077 から 0222 に変更しています。 r49841 で
+077 に変更されてましたが、この時これでいいのか? とか書いてましたがよくなかった
+模様。symbolic link の時に permission を設定することができなくて umask の影響を
+受けていたようです。 [ruby-dev:49975] [Bug #13194]
