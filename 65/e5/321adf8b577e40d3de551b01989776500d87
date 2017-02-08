@@ -1,0 +1,2 @@
+common.mk の make rdoc や make html で rdoc コマンドに --debug オプションを渡し
+ていたのを削って余計なメッセージが出ないようにしています。
