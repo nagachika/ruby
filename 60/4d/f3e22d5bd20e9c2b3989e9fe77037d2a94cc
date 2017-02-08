@@ -1,0 +1,2 @@
+tool/rbinstall.rb で default gem の install 元を lib の配下もサポートするように
+しています。
