@@ -1,0 +1,3 @@
+r57546 で tool/rbinstall.rb 内で Gem::Installer#install を呼び出す前後で
+File.umask を変更するようにしていましたが、Gem::Installer#install を再定義して
+いたところで File.umask 変更するようにしています。
