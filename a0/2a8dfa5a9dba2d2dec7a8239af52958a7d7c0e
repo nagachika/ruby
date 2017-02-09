@@ -1,0 +1,3 @@
+r57554 でテストに導入した Test::Unit::Statistics にさらに --most-asserted とい
+うオプションを追加して assertion の数の多い順に記録したものも表示できるようにし
+ています。
