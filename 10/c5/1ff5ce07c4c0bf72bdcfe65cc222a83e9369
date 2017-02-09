@@ -1,0 +1,3 @@
+test/lib/test/unit.rb に Test::Unit::Statistics というモジュールを導入して
+--longest というオプションを指定したらテストケースのうち最も時間のかかったもの
+上位 N 件を表示するようにしています。
