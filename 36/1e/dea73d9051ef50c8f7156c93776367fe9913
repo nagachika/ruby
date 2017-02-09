@@ -1,0 +1,7 @@
+vm_core.h の vm_block_handler_verify() で vm_block_handler_type() の結果を 0 と
+比較しているのがコンパイラの警告になることがあるので、関数の返り値は捨てるよう
+にしています。 vm_block_handler_type() はその内部にさらに VM_ASSERT() を持って
+いるので呼ぶだけでいいようです。 block_handler == VM_BLOCK_HANDLER_NONE で分岐
+して vm_block_handler_type() 呼ぶだけでもいいような気が…。[追記]と思ったけど
+VM_ASSERT() は通常のビルドでは消えるので、その引数内に分岐を押し込めておくほう
+が良いのでした。[/追記]
