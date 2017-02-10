@@ -1,0 +1,2 @@
+parse.y の =~ の演算子のところで named capture の設定のノードを生成していたのを
+match_op_gen() の内部に移動しています。
