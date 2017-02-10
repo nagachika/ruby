@@ -1,0 +1,2 @@
+拡張ライブラリ dbm にも .gemspec ファイルを追加して default gem 化しています。
+[ruby-core:79479] [Feature #13201]
