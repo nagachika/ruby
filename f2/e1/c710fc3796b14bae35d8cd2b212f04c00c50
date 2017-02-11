@@ -1,0 +1,2 @@
+doc/maintainers.rdoc も標準添付ライブラリと default gems, bundled gems でセクシ
+ョンを分けるようにしています。
