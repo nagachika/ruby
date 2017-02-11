@@ -1,0 +1,5 @@
+拡張ライブラリ fiddle の depend で SUBMAKE_LIBFFI という変数で sub make を起動
+するようにしていたのを $(MAKE) を直接利用するようにしています。 jobserver によ
+る並列ビルドのためみたいです。この jobserver って ruby のビルドシステムでそうい
+う機構を作ってるんだと思ってたんですけど、これ GNU make の並列実行の機構なんで
+すね。いやー勘違いしてた。
