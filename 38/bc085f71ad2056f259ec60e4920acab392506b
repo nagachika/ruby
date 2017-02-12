@@ -1,0 +1,4 @@
+Thread#raise による別 Thread への例外による割り込みで SEGV することがある不具合
+を修正。 rb_threadptr_raise() で対象の Thread が既に終了している時に不正に処理
+してしまっていたのでスキップするようにしています。 [ruby-core:57725] [Bug #
+8996]
