@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle の ext/fiddle/depend でシステムの libffi があった時に $
+(LIBFFI_A) が空になる? ので Makefile のダーゲットが空になってしまう可能性があっ
+たので build-libffi と併置するようにしています。他にも不要なターゲットを削除し
+ています。
