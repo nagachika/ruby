@@ -1,0 +1,2 @@
+compile.c の iseq_build_kw() で ALLOC_N() の引数に明示的なキャストを追加して警
+告除去しています。 gcc 7 で警告が出るとのこと。
