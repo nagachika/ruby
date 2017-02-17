@@ -1,0 +1,4 @@
+marshal.c の rb_marshal_load_with_proc() と rb_marshal_dump_limited() で一時的
+に作成する wrapper オブジェクトの klass = 0 にして内部的オブジェクトとして、解
+放時に rb_gc_force_recycle() を呼んで強制的に(GC を待たずに) slot を解放するよ
+うにしています。 [ruby-core:79518]
