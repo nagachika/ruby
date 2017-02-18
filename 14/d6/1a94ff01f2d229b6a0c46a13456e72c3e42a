@@ -1,0 +1,3 @@
+もう不要になったはずの(?) rb_generic_ivar_table() の中身を
+ONLY_FOR_INTERNAL_USE() マクロを使って rb_fatal() で異常終了させるようにしてい
+ます。
