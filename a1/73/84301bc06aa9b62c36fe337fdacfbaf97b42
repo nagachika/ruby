@@ -1,0 +1,4 @@
+proc.c の rb_block_min_max_arity() でブロックの rb_iseq_t を参照するときに
+rb_iseq_check() を呼ぶようにしています。 USE_LAZY_LOAD が有効な時に rb_iseq_t
+が NULL の可能性があるので rb_iseq_complete() で遅延したロード(r52949 で ISeq
+のロード機能カスタマイズを追加した時に追加されてた)する時に必要だったようです。
