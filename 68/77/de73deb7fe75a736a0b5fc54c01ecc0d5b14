@@ -1,0 +1,2 @@
+外部(拡張ライブラリ)から利用されないようにしたい関数で異常終了するためのマクロ
+ONLY_FOR_INTERNAL_USE() を DEPRECATED_INTERNAL_FEATURE() と改名しています。
