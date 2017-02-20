@@ -1,0 +1,3 @@
+標準添付ライブラリ cgi とそのテストのスクリプトの magic comment
+frozen_string_literal を true に変更しています。文字列操作が多いのでスクリプト
+の内容の変更も多少あります。
