@@ -1,0 +1,5 @@
+テスト用のユーティリティ EnvUtil の macOS 用に異常終了時に C のバックトレースを
+含んだ diagnostic report の内容を取得するための diagnostic_reports メソッドで実
+行形式ファイルのパスを RbConfig::CONFIG["RUBY_INSTALL_NAME"] から得るようにして
+います。テストは make ruby-runner で起動されるので、それが起動する ruby の名前
+を探す必要があったようです。
