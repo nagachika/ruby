@@ -1,0 +1,2 @@
+ruby 本体専用の test/unit の assert_separately で子プロセスの例外オブジェクトを
+Marshal.load したものが SystemExit だったら無視するようにしています。
