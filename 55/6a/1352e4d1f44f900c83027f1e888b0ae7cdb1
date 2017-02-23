@@ -1,0 +1,5 @@
+rb_disable_super(), rb_enable_super(), rb_hash_iter_lev(), rb_hash_ifnone(),
+rb_str_associate(), rb_str_associated(), rb_clear_cache(), rb_frame_pop() など
+の内部的な関数で既に利用できなくなっているものを include/ruby/backward.h に
+DECLARE_DEPRECATED_FEATURE() というマクロを追加してビルドエラー時にメッセージを
+表示するようにしています。
