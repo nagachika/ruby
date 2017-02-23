@@ -1,0 +1,2 @@
+variable.c から rb_generic_ivar_table() も nclude/ruby/backward.h に移動してい
+ます。これそもそも deprecated だったのか。
