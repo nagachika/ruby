@@ -1,0 +1,2 @@
+compile.c の compile_branch_condition() の NODE_LIT についてのコメントの内容が
+間違っていたので修正しています。
