@@ -1,0 +1,4 @@
+Thread#[] でアクセスできる Thread local storage の内容に別の Thread から取得す
+る Thread#fetch というメソッドを追加しています。キーがない時は KeyError 例外を
+発生させるか、第2引数かブロックが渡されていたらそれを返すようにしています。
+[ruby-core:78500] [Feature #13009]
