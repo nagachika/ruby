@@ -1,0 +1,2 @@
+同じく IO, Socket, OpenSSL::SSL::SSLSocket の read_nonblock, write_nonblock の
+rdoc 用コメントでマークアップを追加しています。
