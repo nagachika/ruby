@@ -1,0 +1,3 @@
+拡張ライブラリ socket の BasicSocket#recv_nonblock, #recvmsg_nonblock, Socket#
+recvfrom_nonblock, UDPSocket#recvfrom_nonblock などのメソッドの rdoc 用コメント
+で例外クラス名が間違っていたのを修正しています。
