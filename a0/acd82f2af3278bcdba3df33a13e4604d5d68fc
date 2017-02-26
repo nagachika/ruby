@@ -1,0 +1,4 @@
+r57384 で SecureRandom.raw_seed を SecureRandom.urandom に改名してましたが、
+Random.gen_random_openssl で raw_seed のほうをまだ呼んでいるところが残っていた
+ので Random.urandom のほうを呼ぶように修正しています。 [ruby-core:61094] [Bug #
+9569]
