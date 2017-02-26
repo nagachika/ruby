@@ -1,0 +1,2 @@
+拡張ライブラリ gdbm の gemspec ファイルを追加して default gem 化しています。
+[ruby-core:79742] [Feature #13248]
