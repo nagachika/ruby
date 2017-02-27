@@ -1,0 +1,1 @@
+bignum.c の bary_zero_p() で引数 xds に const 修飾子を追加しています。
