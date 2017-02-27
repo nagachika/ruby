@@ -1,0 +1,2 @@
+rb_big_isqrt() からおおまかな数値を推定する前処理の部分を estimate_initial_sqrt
+() という関数に切り出しています。 [ruby-core:79623] [Feature #13219]
