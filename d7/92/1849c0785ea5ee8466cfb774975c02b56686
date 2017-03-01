@@ -1,0 +1,2 @@
+common.mk に clean-rubyspec というターゲットを追加して rubyspec の C-API のテス
+トで生成されるオブジェクトファイル群を削除するようにしています。
