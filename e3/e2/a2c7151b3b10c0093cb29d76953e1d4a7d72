@@ -1,0 +1,4 @@
+Makefile.in の $LIBRUBY_A のターゲットで $PURIFY コマンド? によるライブラリの検
+証をしていたのを verify-static-library という独立したターゲットに分離しています
+。また標準添付ライブラリ mkmf.rb で .dSYM ディレクトリの削除を try_do から
+try_link0 に移動して try_link の時だけ削除するようにしています。
