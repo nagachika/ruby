@@ -1,0 +1,3 @@
+Integer.sqrt の rdoc 用コメントを追加しています。 stomar さんはドキュメントとか
+サイト(www.ruby-lang.org) で英訳とかよくしてくださってた方ですがコミッターにな
+られたみたいですね。 [ruby-core:79762] [Bug #13251]
