@@ -1,0 +1,2 @@
+make clean-ext で ext のサブディレクトリ内の exts.mk を削除するようにしています
+。
