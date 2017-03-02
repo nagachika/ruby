@@ -1,0 +1,2 @@
+numeric.c の Integer.sqrt のためのマクロ DEFINE_INT_SQRT() で int と double の
+精度の関係によって警告が出るようになっていたのを修正しています。
