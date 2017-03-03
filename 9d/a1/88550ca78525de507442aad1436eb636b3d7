@@ -1,0 +1,2 @@
+拡張ライブラリ zlib の extconf.rb で Windows 環境向けの Makefile にビルドした
+libz の DLL の削除のルールを追加しています。
