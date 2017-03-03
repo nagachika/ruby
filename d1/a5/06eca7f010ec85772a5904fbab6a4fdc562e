@@ -1,0 +1,3 @@
+compile.c や load.c で RubyVM::InstructionSequence の内部的に確保する文字列を
+rb_str_new2() などで生成していたのを rb_fstring_cstr() で生成するようにして不要
+な文字列オブジェクトの確保を抑制する最適化。
