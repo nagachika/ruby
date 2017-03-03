@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Point のテストで OpenSSL
+::PKey::EC::Group#set_generator の引数を修正しています。よくわかりませんが
+Intel Compiler でのテストの SEGV 対策みたいです。
