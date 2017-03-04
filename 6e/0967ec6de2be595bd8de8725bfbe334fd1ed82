@@ -1,0 +1,2 @@
+make test-rubyspec の依存関係に cross compile 用に $(TEST_RUNNABLE) をつけて分
+岐するようにしています。
