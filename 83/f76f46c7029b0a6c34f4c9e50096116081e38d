@@ -1,0 +1,2 @@
+mingw64 で util.c の MINGW_HAS_SECURE_API というマクロ定義がされなくて qsort_s
+() が使えないのを修正しています。
