@@ -1,0 +1,2 @@
+拡張ライブラリのビルドのための ext.mk の生成に miniruby を利用するため cross
+compile 時を考慮して MINIRUBY 変数を sub-make に渡すようにしています。
