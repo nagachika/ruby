@@ -1,0 +1,2 @@
+拡張ライブラリ zlib の extconf.rb で mingw 向けの cross compile がビルドできな
+くなっていたらしいのを修正しています。
