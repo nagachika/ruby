@@ -1,0 +1,3 @@
+拡張ライブラリ readline の Windows 向け実装で getc_body() で文字を受け取る変数
+の型を int から DWORD に変更し、_get_osfhandle() の呼び出し結果を変数に格納して
+使いまわすようにリファクタリングしています。
