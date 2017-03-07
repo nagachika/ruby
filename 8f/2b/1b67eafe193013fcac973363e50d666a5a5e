@@ -1,0 +1,4 @@
+compile.c の validate_label() でエラーメッセージに埋め込む label_name を ID で
+はなく Symbol から文字列化するようにしています。iseq_compile_each() で
+label_name という変数に ID ではなく Symbol を格納するようにしていますが、この変
+数の型は ID だから VALUE にしたほうがいいのではないかなぁ。
