@@ -1,0 +1,3 @@
+compile.c で COMPILE_ERROR() でエラーを返す時に generated_iseq と
+line_info_table の解放を忘れないように BADINSN_ERROR というマクロを追加してこれ
+を使うようにしています。一部で解放漏れがあったみたいです。
