@@ -1,0 +1,4 @@
+r57793 の整数変換の最適化で DL2NUM() の定義で LONG2NUM() を使う条件を
+RB_POSFIXABLE() と RB_NEGFIXABLE() を両方満たす場合に変更しています。RB_FIXABLE
+() だと __builtin_add_overflow() が使える場合に一旦 SIGNED_VALUE の型の変数に代
+入してしまうのでそれを避けるためかな?
