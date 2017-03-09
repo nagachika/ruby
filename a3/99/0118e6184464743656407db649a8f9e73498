@@ -1,0 +1,2 @@
+test/lib/minitest/unit.rb で未初期化インスタンス変数の警告除去のため
+@repeat_count の初期化を追加しています。
