@@ -1,0 +1,2 @@
+String#valid_encoding のテストで配列に入れておいた大量の文字列についてループで
+assertion を書いていたのを all_assertions を利用するように書き直しています。
