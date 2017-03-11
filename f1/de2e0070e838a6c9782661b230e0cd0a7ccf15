@@ -1,0 +1,2 @@
+拡張ライブラリ socket の Addrinfo の mark 関数 addrinfo_mark() で引数が NULL の
+時は呼び元でチェックしているのでチェックを省いてよけいな分岐を削除してます。
