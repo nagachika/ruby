@@ -1,0 +1,2 @@
+configure の --with-soname で省略時の名前を OS によって分岐して変更するようにし
+ています。 [ruby-core:79972] [Misc #13296]
