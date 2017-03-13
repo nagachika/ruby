@@ -1,0 +1,2 @@
+r57676 で導入された debug_counter.c/.h でカウンターの種類の定義
+debug_counter_names を .c のほうに移動しています。
