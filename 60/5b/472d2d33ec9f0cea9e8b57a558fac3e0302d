@@ -1,0 +1,1 @@
+String#casecmp の rdoc 用コメントに Encoding が異なった時の挙動の追記など。
