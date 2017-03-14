@@ -1,0 +1,3 @@
+compile.c の compile_cpath() で Qtrue/Qfalse を返していたのを
+VM_DEFINECLASS_FLAG_SCOPED のビットフラグの有無をそのまま返すようにしています。
+呼び元での分岐を減らすためみたいですね。
