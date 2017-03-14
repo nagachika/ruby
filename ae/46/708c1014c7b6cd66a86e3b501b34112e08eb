@@ -1,0 +1,2 @@
+compile.c の r57890 で分離された iseq_compile_each0() で NODE_VALUES の時に
+popped フラグが立ってたら CompileError にするようにしています。
