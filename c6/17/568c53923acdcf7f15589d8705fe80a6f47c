@@ -1,0 +1,3 @@
+rb_thread_fd_close() を DEPRECATED_INTERNAL_FEATURE() で呼ぶとエラーにするよう
+にしています。r57422 で削除されたのですが abi check でエラーになるので宣言は戻
+したということみたいですね。なるほど…。 [ruby-core:80078] [Bug #13304]
