@@ -1,0 +1,3 @@
+rubygem の Gem::Specification._latest_specs で specs に nil が混っていることが
+あるそうで、デバッグのためにチェックして明示的に Gem::Exception 例外を発生させ
+るようにしています。
