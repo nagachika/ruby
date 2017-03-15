@@ -1,0 +1,3 @@
+compile.c の compile_colon2() を compile_const_prefix() と文法上の見た目ではな
+く意味を元にした名前に変更して、呼び元でエラーチェックをするように修正していま
+す。
