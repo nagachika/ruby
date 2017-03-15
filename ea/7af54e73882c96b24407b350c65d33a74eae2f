@@ -1,0 +1,4 @@
+r57948 と r57949 の deprecate した rb_thread_fd_close() の定義はやめて while
+(rb_notify_fd_close(fd)); の実装に戻しています。 ABI の互換性のためにインタフェ
+ースだけ戻しても呼べなくては意味がないってことですかね。 [ruby-core:80078] [Bug
+#13304]
