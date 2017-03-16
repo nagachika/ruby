@@ -1,0 +1,4 @@
+r57969 と同様に Fiber.new に Symbol をブロック引数化して渡すと SEGV するように
+なっていたので NULL チェックを含んだアクセサ rb_vm_proc_local_ep() を切り出して
+rb_fiber_start() でもこれを利用するようにしています。 [ruby-core:80147] [Bug #
+13313]
