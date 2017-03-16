@@ -1,0 +1,3 @@
+vm_core.h の vm_proc_block() で VM_ASSERT() で procval の型チェックをしてから
+RTYPEDDATA_DATA() マクロでアクセスするように位置を移動しています。また
+vm_proc_iseq() での VM_ASSERT() は消しています。
