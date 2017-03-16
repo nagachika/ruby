@@ -1,0 +1,2 @@
+テスト用のユーティリティ EnvUtil の diagnostic_reports で ruby の実行形式ファイ
+ルのパスを basename のみにするようにしています。
