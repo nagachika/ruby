@@ -1,0 +1,2 @@
+IO#puts の rdoc 用コメントで INPUT_RECORD_SEPARATOR について言及しているところ
+でグローバル変数の prefix $ がついていなかったので追記しています。
