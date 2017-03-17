@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix に全要素が 0 の Vector を作成する Vector.zero と全要
+素が 0 かチェックする Vector#zero? が追加されています。 [ruby-core:79503]
+[Feature #13208]
