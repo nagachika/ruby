@@ -1,0 +1,3 @@
+rb_str_casecmp() や rb_str_casecmp_p() から引数の型チェックした後の処理を
+str_casecmp(), str_casecmp_p() という関数に切り出して sym_casecmp() や
+sym_casecmp_p() からはこのチェック省略版を呼ぶように最適化しています。
