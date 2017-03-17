@@ -1,0 +1,3 @@
+test/rinda/test_rinda.rb でモジュールのトップレベルで dRuby のサーバーが起動さ
+れてたのを setup で起動して teardown で停止するようにしています。 fd leak が検
+出されていたみたいです。
