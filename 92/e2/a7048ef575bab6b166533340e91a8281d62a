@@ -1,0 +1,3 @@
+rb_cstr_parse_inum() から符号、アンダースコア、0x や 0b のような prefix を許容
+するかどうかなどを指定する flags を受けとる関数 rb_int_parse_cstr() を切り出し
+て再利用できるようにしています。
