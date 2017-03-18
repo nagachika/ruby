@@ -1,0 +1,2 @@
+String#to_r のテストを専用の assertion メソッド assert_valid_rational、
+assert_invalid_rational を定義してこれを使うようにリファクタリングしています。
