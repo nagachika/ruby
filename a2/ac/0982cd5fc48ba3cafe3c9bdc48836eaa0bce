@@ -1,0 +1,3 @@
+r57989 の続きで parse_rat() で分母の parse に rb_int_parse_cstr() でなく
+parse_num() を呼ぶようにして浮動小数点数リテラルを分母に書く記法も許容するよう
+にしています。 [ruby-core:79104] [Bug #13134]
