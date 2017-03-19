@@ -1,0 +1,4 @@
+String#each_codepoint の rdoc 用コメントで UTF 以外の Encoding の時には単に文字
+毎のバイナリ値が返されることを追記しています。 [ruby-core:80194] [Bug #13321]
+たぶん accidental だと思いますが r57997 の String#upto の内部文字列オブジェクト
+の fstring 化が revert されていますね。
