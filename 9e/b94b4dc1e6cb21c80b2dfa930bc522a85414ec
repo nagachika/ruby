@@ -1,0 +1,2 @@
+Time#strftime や String#upto でフォーマット文字列のために作る文字列オブジェクト
+も fstring 化しています。あいかわらず徹底してるなー。
