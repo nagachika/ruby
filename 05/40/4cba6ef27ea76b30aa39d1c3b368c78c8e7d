@@ -1,0 +1,2 @@
+Init_File() や Init_IO() で rb_default_rs や File::SEPARATOR に格納する文字列オ
+ブジェクトを fstring 化しています。
