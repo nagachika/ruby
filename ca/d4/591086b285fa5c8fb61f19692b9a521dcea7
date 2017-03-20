@@ -1,0 +1,3 @@
+Continuation, Fiber, Dir, StringIO, Binding, Mutex, Thread あとバイナリフォーマ
+ットからの ISeq Loader の mark/free 関数の中で NULL チェックの分岐をしていたの
+を不要なので削除しています。
