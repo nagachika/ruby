@@ -1,0 +1,2 @@
+test/ruby/test_lambda.rb から Proc no lambda 型とそうでないもので引数の受け取り
+かたの違いをチェックするテストをひとつ削除しています。
