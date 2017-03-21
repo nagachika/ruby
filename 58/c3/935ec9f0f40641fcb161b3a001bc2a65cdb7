@@ -1,0 +1,2 @@
+標準添付ライブラリ uri の URI::Generic#normalize の rdoc 用コメントにサンプルと
+説明を追記しています。 [ruby-core:58430] [Bug #9127]
