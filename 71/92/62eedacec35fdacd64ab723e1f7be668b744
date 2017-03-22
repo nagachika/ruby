@@ -1,0 +1,2 @@
+標準添付ライブラリ mathn を default gem 化しています。 [ruby-core:80248]
+[Feature #13335]
