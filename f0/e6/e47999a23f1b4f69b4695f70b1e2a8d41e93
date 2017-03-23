@@ -1,0 +1,5 @@
+String オブジェクトの Encoding 変更時に終端文字のサイズが変化する場合にバッファ
+のサイズを調節する rb_str_change_terminator_length() で capa の初期値に
+oldtermlen を加えておくようにしています。しかし条件分岐も代入時も oldtermlen の
+ぶん加減算しているので変化はないような気がするんですが、チケットをみると異常終
+了の修正みたいです。なんでだろ。 [ruby-core:80257] [Bug #13339]
