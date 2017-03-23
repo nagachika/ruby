@@ -1,0 +1,3 @@
+r58040 の続き。 StringIO#ungetc で int に収まらない大きさの整数を渡された時には
+TypeError を発生させていたのを RangeError を発生させるようにしています。 IO#
+ungetc と挙動を揃えているとのこと。
