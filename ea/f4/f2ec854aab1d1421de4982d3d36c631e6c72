@@ -1,0 +1,2 @@
+doc/ の古い ChangeLog や NEWS に書かれている URL の schema を http から https
+に変更しています。
