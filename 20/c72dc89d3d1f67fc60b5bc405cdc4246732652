@@ -1,0 +1,3 @@
+tool/update-deps で common.mk および各拡張ライブラリの depend などを更新してい
+ます。 r57045 で入った Onigmo の更新で include/ruby/onigmo.h が追加されてあちこ
+ちで依存関係への追加が必要だったというのが動機としてあったみたいです。
