@@ -1,0 +1,3 @@
+tool/enc-unicode.rb で name2ctype.h を生成する時に uniname2ctype_offset() とい
+うマクロを定義して短く書けるようにして、もう一度 enc/unicode/9.0.0/name2ctype.h
+を再生成しています。
