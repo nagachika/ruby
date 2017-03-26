@@ -1,0 +1,3 @@
+enc/unicode/data にダウンロードする Unicode 関係のファイルのうち
+GraphemeBreakProperty.txt を auxiliary/GraphemeBreakProperty.txt とサブディレク
+トリの下にダウンロードするようにしています。
