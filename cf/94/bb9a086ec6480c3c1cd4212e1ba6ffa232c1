@@ -1,0 +1,4 @@
+Travis CI と appveyor での Unicode.org からのダウンロード抑制の追加。 make
+after-update でも更新されるのを防ぐため UNICODE_FILES=. を追加して、tool/
+make-snapshot で生成する Makefile に touch-unicode-files ターゲットを追加するよ
+うにしています。 common.mk にあるのではだめなのかな。
