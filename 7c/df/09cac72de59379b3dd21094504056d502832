@@ -1,0 +1,2 @@
+r58067 で ALWAYS_UPDATE_UNICODE = yes の時に Unicode 用データファイルをダウンロ
+ードするようにしていたのをリファクタリングしています。
