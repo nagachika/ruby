@@ -1,0 +1,3 @@
+macOS の最新版 10.12 から syscall(2) が deprecated になったそうで(え!?)
+configure で target_os のバージョンをチェックして syscall を使わないようにして
+います。 [ruby-core:80300] [Bug #13361]
