@@ -1,0 +1,4 @@
+標準添付ライブラリ ostruct の OpenStruct.allocate を new の alias にしていたの
+をやめて通常の allocate に加えてインスタンス変数 @table の初期化を行うようにし
+ています。継承したクラスで initialize を上書きした場合に対応するためだそうで。
+[ruby-core:80292] [Bug #13358]
