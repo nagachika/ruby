@@ -1,0 +1,5 @@
+tool/generate-backport-changelog.rb というツールが追加されています。 2.4 から
+ChangeLog が廃止されたので trunk へのコミットには ChangeLog がないのですが、バ
+ックポートする時に 2.3 以前には ChangeLog があるけどバックポートで更新されない
+、という問題のためコミットログから ChangeLog エントリを生成するツールのようです
+。
