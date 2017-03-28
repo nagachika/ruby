@@ -1,0 +1,2 @@
+def/gmake.mk で MSPECOPT という変数を導入して test-rubyspec の並列実行に対応し
+ています。
