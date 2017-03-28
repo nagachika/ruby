@@ -1,0 +1,2 @@
+make test-rubyspec で $(gnumake_recursive) を使って make の並列実行機構を有効に
+しておくようにしています。
