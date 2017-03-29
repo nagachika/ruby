@@ -1,0 +1,3 @@
+error.c の rb_warn() や rb_enc_warn()、rb_sys_warning() の可変長引数から
+warning_string() と rb_write_warning_str() を呼び出して文字列を組み立てる処理を
+with_warning_string() というマクロに切り出すリファクタリング。
