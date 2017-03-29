@@ -1,0 +1,2 @@
+error.c に rb_sys_warn() rb_syserr_warn() などの関数を追加しているんですが全部
+#if 0 ... #endif で囲まれているので、なんだろこれ。
