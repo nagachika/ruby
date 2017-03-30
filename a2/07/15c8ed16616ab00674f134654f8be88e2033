@@ -1,0 +1,2 @@
+標準添付ライブラリ ostruct の OpenStruct#method_missing で独自に NoMethodError
+を発生させていたのを super を呼んで本体にまかせるようにしています。
