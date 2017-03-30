@@ -1,0 +1,2 @@
+Float#round の rdoc 用コメントに第2引数の :up, :down, :even などのオプションに
+ついて説明とサンプルを追加しています。 https://github.com/ruby/ruby/pull/1541
