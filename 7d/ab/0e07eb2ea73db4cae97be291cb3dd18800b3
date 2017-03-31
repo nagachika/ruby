@@ -1,0 +1,2 @@
+r51511 で削除されていた Init_frozen_strings() の宣言が internal.h に残っていた
+ので削除しています。 https://github.com/ruby/ruby/pull/1558 [Bug #11423]
