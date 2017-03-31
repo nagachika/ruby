@@ -1,0 +1,3 @@
+test/minitest/test_minitest_unit.rb の独自 assertion メソッド
+util_assert_triggered を assert_triggered に改名しています。 backtrace から削ら
+せるためだそうです。
