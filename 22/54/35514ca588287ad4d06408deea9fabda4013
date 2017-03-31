@@ -1,0 +1,3 @@
+exts.mk や spec/rubyspec/optional/capi/ext ディレクトリが存在しない時に make
+clean するとエラーになるのを修正しています。 https://github.com/ruby/ruby/pull/
+1563 [Bug #13384]
