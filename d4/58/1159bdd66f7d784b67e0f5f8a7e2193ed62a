@@ -1,0 +1,3 @@
+.travis.yml で環境変数 RUBYSPEC_PULL_REQUEST が定義されていたら spec/rubyspec
+に rubyspec の指定された pull request のブランチをチェックアウトするようにして
+います。
