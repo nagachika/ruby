@@ -1,0 +1,2 @@
+Makefile のルールから git のリポジトリを更新する処理を tool/git-refresh という
+シェルスクリプトに切り出しています。
