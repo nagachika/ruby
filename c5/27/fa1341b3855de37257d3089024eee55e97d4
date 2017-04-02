@@ -1,0 +1,2 @@
+template/exts.mk.tmpl で ext/*/exts.mk の最後の node: というターゲットが重複し
+ないようにしています。
