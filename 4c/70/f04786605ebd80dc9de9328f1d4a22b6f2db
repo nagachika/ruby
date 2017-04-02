@@ -1,0 +1,2 @@
+win32/setup.mk で環境変数 ENABLE_DEBUG_ENV を Makefile に変数として渡すようにし
+ています。
