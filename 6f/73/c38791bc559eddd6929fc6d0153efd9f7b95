@@ -1,0 +1,4 @@
+r58233 で when 節の文字列リテラルによる Range オブジェクトの最適化で生成した
+range オブジェクトの mark をコンパイル時のみ行なう配列に入れておくようにしてい
+ます。compile 後は ISeq の operand に入るからそっちで mark されるってことですか
+ね。 [ruby-core:80536] [Feature #13355]
