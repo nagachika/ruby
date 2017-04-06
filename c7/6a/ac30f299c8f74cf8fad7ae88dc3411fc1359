@@ -1,0 +1,2 @@
+Float#round, Integer#round, Rational#roun の rdoc 用コメントの説明の英文修正。
+また half キーワード引数を指定したサンプルの追加。
