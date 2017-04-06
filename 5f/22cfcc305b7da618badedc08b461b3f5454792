@@ -1,0 +1,2 @@
+Float, Integer, Rational の #truncate, #floor, #ceil の rdoc 用コメントの英文の
+修正とサンプルの追加。
