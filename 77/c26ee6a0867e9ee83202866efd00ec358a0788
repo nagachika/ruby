@@ -1,0 +1,3 @@
+r57490 で configure.in で libgmp のチェックに AC_SEARCH_LIBS() を使うようにした
+影響で --with-gmp で HAVE_LIBGMP が定義されなくなっていたそうなので明示的に定義
+するように修正しています。 [ruby-core:80569] [Bug #13402]
