@@ -1,0 +1,2 @@
+NEWS ファイルに r58227 で追加された Array#append および Array#prepend について
+追記しています。 [Feature #12746]
