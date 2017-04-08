@@ -1,0 +1,2 @@
+RbConfig::SIZEOF と RbConfig::LIMITS は Hash オブジェクトなので中身をいじれない
+ように freeze するようにしています。
