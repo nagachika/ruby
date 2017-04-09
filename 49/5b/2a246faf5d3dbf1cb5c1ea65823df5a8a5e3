@@ -1,0 +1,1 @@
+さらに ruby 本体のテスト用ライブラリに assert_not_respond_to を追加しています。
