@@ -1,0 +1,2 @@
+r58273 および r58274 の .travis.yml の rubyspec の pull request をマージする処
+理を複数の before_script のコマンドに分割するように再度書き換えています。
