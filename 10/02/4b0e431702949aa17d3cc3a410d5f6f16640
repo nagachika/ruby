@@ -1,0 +1,3 @@
+.travis.yml で rubyspec の pull request についてテストする時に
+RUBYSPEC_PULL_REQUEST にカンマ区切りもしくは空白区切りで複数の pull request を
+指定できるようにしています。
