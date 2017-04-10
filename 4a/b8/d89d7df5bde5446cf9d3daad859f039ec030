@@ -1,0 +1,2 @@
+r58278 のさらに続きで .travis.yml で rubyspec の pull request のマージ結果を
+git log で表示するようにしています。
