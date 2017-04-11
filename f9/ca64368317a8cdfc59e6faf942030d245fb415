@@ -1,0 +1,5 @@
+Thread 間で同一の IO オブジェクトを操作したために起きる IOError の "stream
+closed" という例外メッセージを "stream closed in another thread" と詳細にしてい
+ます。 IOError のメッセージって "closed stream" と "stream closed" という2種類
+があって、微妙に発生原因が違うんですよね(もうどう違うのかは忘れた)。
+[ruby-core:80583] [Bug #13405]
