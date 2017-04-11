@@ -1,0 +1,3 @@
+あらかじめ確保しておく例外オブジェクトのメッセージを作る時の
+rb_vm_register_special_exception() をマクロにしてこの時点で static String オブ
+ジェクト化するようにしています。
