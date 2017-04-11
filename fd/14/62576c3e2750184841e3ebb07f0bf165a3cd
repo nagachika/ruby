@@ -1,0 +1,2 @@
+node.c の rb_gc_mark_node() で NODE_BLOCK_PASS の時に struct RNODE の u3 メンバ
+は mark しなくて良かったのでスキップするようにしています。
