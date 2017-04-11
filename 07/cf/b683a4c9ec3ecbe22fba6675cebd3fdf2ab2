@@ -1,0 +1,3 @@
+r58251 で spec/default.mspec で MSpecScript#cores を再定義していたのを
+MSpecScript::JobServer という Module を定義して、それを prepend するように変更
+しています。
