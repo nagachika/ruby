@@ -1,0 +1,2 @@
+ARGF.file の rdoc 用コメント標準入力として定数 STDIN のかわりに $stdin を示すよ
+うにしています。
