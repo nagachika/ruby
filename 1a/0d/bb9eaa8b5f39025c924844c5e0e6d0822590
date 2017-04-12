@@ -1,0 +1,3 @@
+Float#ceil, Float#floor, Float#to_i, Float#truncate に浮動小数点数の精度の影響
+で意外な結果になるケースについて追記しています。よくチケットに不具合として報告
+されて "learn floating point number" って言われるケースですね。
