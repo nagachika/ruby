@@ -1,0 +1,2 @@
+r58296 で --with[out]-baseruby オプションがない時に HAVE_BASERUBY が初期化され
+なかったのでデフォルトを yes にしています。
