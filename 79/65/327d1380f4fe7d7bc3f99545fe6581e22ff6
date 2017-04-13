@@ -1,0 +1,4 @@
+tool/rbinstall.rb で gem パッケージインストール時にパッケージを展開したディレク
+トリから install_recursive で全てのファイルをインストールしていたのをちゃんと
+spec.files をみて必要なファイルだけコピーするようにしています。 https://
+github.com/ruby/ruby/pull/1580 [ruby-core:80635] [Bug #13417]
