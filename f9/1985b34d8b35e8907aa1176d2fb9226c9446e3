@@ -1,0 +1,3 @@
+tool/git-refresh で shell の変数の置換展開の記法が Solaris 10 で動かなかったそ
+うなので expr で置換するようにしています。っていうか expr コマンドではこれなに
+をやっているんだ…。 [ruby-dev:50069] [Bug #13424]
