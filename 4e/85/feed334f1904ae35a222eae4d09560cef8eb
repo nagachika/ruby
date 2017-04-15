@@ -1,0 +1,4 @@
+ObjectSpace.memsize_of でオブジェクトが消費しているメモリ量を返すための Array
+版の関数 rb_ary_memsize() で ARY_CAPA() マクロを利用して shared 状態の配列を考
+慮するようにしています。といっても shared 版だと共有してるから和を取ると合計サ
+イズは大きめに出てしまうんですかね。
