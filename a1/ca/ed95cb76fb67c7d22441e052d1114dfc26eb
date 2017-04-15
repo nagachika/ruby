@@ -1,0 +1,5 @@
+GC 中かどうか調べる関数 rb_during_gc() に rb_thread_t を受け取る
+rb_threadptr_during_gc() というのを追加して thread.c の stack overflow チェック
+時に呼ぶのをこちらにしています。 during_gc はマクロで rb_objspace_t::flags をチ
+ェックするので ObjectSpace が分かれると別になるんですね。将来の Guild 対応用か
+な。
