@@ -1,0 +1,3 @@
+ruby_thread_stack_overflow() の先頭で TracePoint のイベント発生を抑制するフラグ
+を操作して stack overflow の検査中に SEGV してしまう不具合を修正しています。
+[ruby-core:80662] [Bug #13425]
