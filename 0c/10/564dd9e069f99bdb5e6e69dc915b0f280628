@@ -1,0 +1,2 @@
+lib/unicode_normalize/*.rb や template/unicode_norm_gen.tmpl で rdoc が余計なド
+キュメントを生成しないように nodoc タグのコメントを追加しています。
