@@ -1,0 +1,4 @@
+r58334 の TracePoint のイベントを stack overflow の処理中は止める変更を再修正し
+ています。 ruby_vm_event_flags をクリアしてもだめだったみたいで、TracePoint の
+return のイベント呼び出しの関数 hook_before_rewind() に state を渡してそこで
+SystemStackError 例外の発生中だったらスキップするようにしています。
