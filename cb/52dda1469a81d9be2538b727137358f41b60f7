@@ -1,0 +1,4 @@
+rb_yield_values() を include/ruby/ruby.h でマクロとして定義して、可能なら
+__builtin_constant_p() などを利用して引数の数をチェックして 2つなら
+rb_yield_values2() の呼び出しとして展開するようにしています。 r58339 のような最
+適化を自動でやってしまおうってことですね。
