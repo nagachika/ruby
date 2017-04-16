@@ -1,0 +1,2 @@
+tool/rbinstall.rb で default gem のインストール処理で Gem::Specification#files
+は見ないので files を作る処理を削除しています。 [ruby-core:80667] [Bug #13428]
