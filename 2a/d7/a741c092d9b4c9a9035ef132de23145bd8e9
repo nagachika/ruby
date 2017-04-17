@@ -1,0 +1,4 @@
+別 Thread での IO#close のテストで IO#gets を呼び出す Thread が IO#gets で
+sleep 状態に入るのを待つのに sleep 0.01 でタイミングに依存した待ちかたをしてい
+たのを Queue を使って IO#puts 呼び出しの直前まで待つのと、そこから sleep 0.1 で
+待つようにして確実性を上げています。
