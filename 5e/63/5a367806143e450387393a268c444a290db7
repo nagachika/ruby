@@ -1,0 +1,3 @@
+check_stack_overflow() で page fault が発生したページが最後の TAG に近かったら1
+つ TAG を取り消すようにしています。元は stack pointer のページで判定していまし
+たが不正アクセスがあったページを基準にするように変更しています。
