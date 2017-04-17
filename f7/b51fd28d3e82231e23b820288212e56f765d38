@@ -1,0 +1,2 @@
+r58353 で追加した raise_stack_overflow() で HAVE_SIGPROCMASK の値で
+preprocessor で分岐させるようにしています。
