@@ -1,0 +1,3 @@
+r58350 で rb_yield_value() を最適化したのと同様に可能なら __builtin_choose_expr
+() や __builtin_constant_p() を駆使して rb_funcall() をマクロとして定義して
+rb_funcallv() を利用するように最適化しています。
