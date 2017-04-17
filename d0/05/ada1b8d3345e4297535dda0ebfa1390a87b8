@@ -1,0 +1,2 @@
+configure の --with-setjmp-type オプションに sigsetjmp に続けてカンマ区切りでオ
+プションを渡せるようにしています。
