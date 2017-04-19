@@ -1,0 +1,3 @@
+tool/rbinstall.rb で拡張ライブラリの default gem の Makefile の処理でファイルが
+存在しない時に全体を止めずにスキップして次の gem に行くようにエラー処理を追加し
+ています。
