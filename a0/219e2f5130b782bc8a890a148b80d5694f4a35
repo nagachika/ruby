@@ -1,0 +1,2 @@
+rb_longjmp() の引数に rb_thread_t *th を追加しています。また rb_raise_jump() で
+大域脱出の処理を独自に書いてたのを rb_longjmp() の呼び出しにおきかえています。
