@@ -1,0 +1,2 @@
+String#[]= で文字列の一部を変更する時に文字列が single byte の文字だけだった場
+合に code range の再設定を最適化しています。 [ruby-dev:49984] [Bug #13228]
