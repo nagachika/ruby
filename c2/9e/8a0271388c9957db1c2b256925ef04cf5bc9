@@ -1,0 +1,2 @@
+TracePoint のテストで TracePoint.new のブロック内で別の Thread だったらスキップ
+するための分岐で return してしまっていたので next に変更しています。
