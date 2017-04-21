@@ -1,0 +1,6 @@
+拡張ライブラリ socket で Linux や Socket::MSG_DONTWAIT が定義されている環境では
+read_nonblock と write_nonblock の実装に recv_nonblock と sendmsg_nonblock を利
+用するようにしています。これは fd に O_NONBLOCK フラグを付けるのを避けるように
+しているのだそうです。ふーむ。 O_NONBLOCK は付けないほうが望ましいんですかね?
+別のプロセスから渡された fd だと副作用があるとかはあるのかも。
+[ruby-core:80780] [Feature #13362]
