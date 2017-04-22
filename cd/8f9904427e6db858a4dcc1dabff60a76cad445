@@ -1,0 +1,4 @@
+r58304 の tool/rbinstall.rb で default gem インストール時に Gem::Specification#
+to_ruby_for_cache を利用するようにしたのを revert しています。ちょっとよくわか
+ってませんが rubygems のほうでも default gem 向けに特別な処理を入れてるそうで、
+それを呼ばないといけないみたいです。
