@@ -1,0 +1,2 @@
+lib/irb/ruby-lex.rb の RubyLex#lex で行が継続しているかどうかの判定を改善してい
+るみたいです。
