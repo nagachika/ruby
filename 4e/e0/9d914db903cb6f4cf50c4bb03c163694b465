@@ -1,0 +1,5 @@
+r58416 で toregexp 命令の実装を最適化したのと同様に newhash 命令で rb_hash_new
+() と rb_hash_aset() で1つずつ要素をセットしていたのを rb_hash_new_from_values
+() という関数を切り出して一気に生成するようにしています。ただ GC のための write
+barrier の不足かなにかで不具合があるんではないかという噂で、追加修正があるかも
+しれません。
