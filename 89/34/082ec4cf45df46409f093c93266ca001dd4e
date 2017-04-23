@@ -1,0 +1,4 @@
+r58408 で追加した rb_vmdebug_stack_dump_all_threads() で thread_id を unsigned
+long にキャストしていたのを void * にキャストしてから %p で表示するように修正し
+ています。なんですがそもそも pthread_t は数値やポインタにキャストできるとは限ら
+ないんですよね、ということで続く。
