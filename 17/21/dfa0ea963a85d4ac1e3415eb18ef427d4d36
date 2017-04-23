@@ -1,0 +1,6 @@
+標準添付ライブラリ rubygems で require を上書きしているところで gem メソッドの
+呼び出しで例外が発生すると RUBYGEMS_ACTIVATION_MONITOR という Monitor を取りっ
+ぱなしにしてしまうようになっていたので Monitor#exit を追加しています。っていう
+か Monitor#synchronize を使えばいいのになんで enter/exit で書いてるんだろ…。あ
+ーこれ require 内でブロック呼び出しにして余計なスタックフレームが入るのをいやが
+っているのか。じゃあ begin ... ensure ... end とか。
