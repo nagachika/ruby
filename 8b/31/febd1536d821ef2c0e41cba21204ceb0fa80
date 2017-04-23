@@ -1,0 +1,2 @@
+test/ruby/test_thread.rb のテストで Thread 間の協調を Thread#pass を sleep に頼
+っていたところを Queue を使ってより信頼性のある同期を取るようにしています。
