@@ -1,0 +1,4 @@
+BasicSocket#read_nonblock のテストでマシンのパフォーマンスが悪くて読み込めると
+思っていたところで :wait_readable がかえってくることがあるんじゃないかというこ
+とで、IO.select でもうちょっと待たせるようにしています。 [ruby-core:80817] [Bug
+#13491]
