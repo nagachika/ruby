@@ -1,0 +1,6 @@
+構造体を padding を減らして詰めるように宣言するためのマクロ
+PACKED_STRUCT_UNALIGNED() の定義をconfigure でなにもしないように定義していたの
+を削除しています。 r46914 で universal binary のために include/ruby/defines.h
+で既に定義済みなら再定義しないようになっていたため、常に何もしない実装になって
+いたようです。これに対するテストも追加しています。 RUBY_PLATFORM をみて x86 の
+Linux でのみテストするようにしています。
