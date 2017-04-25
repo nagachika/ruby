@@ -1,0 +1,2 @@
+r58439 と同様に win32/Makefile.sub でも enc/jis/props.h を参照するのに $
+(srcdir)/ を前に付けてソースディレクトリに作成するようにしています。
