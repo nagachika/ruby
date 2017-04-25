@@ -1,0 +1,3 @@
+r58427 の newhash 命令の最適化の GC mark 漏れの r58434 と r58435 に続く修正で
+rb_hash_new_from_object() でも先に st_table を wrap する Hash オブジェクトを生
+成して mark の root になるようにしています。
