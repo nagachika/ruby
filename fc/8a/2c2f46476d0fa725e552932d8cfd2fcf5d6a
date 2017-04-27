@@ -1,0 +1,2 @@
+spec/default.mspec で rbconfig を読み込むのに Kernel#load を使っていたのを、重
+複して読み込むのを防ぐため require_relative を使うようにしています。
