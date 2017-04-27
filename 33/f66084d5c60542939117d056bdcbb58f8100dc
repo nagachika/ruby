@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の gemspec ファイルを更新して Gem::Specification#
+files のファイルリストを "lib/" つきにしています。
