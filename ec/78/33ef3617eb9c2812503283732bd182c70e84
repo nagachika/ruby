@@ -1,0 +1,3 @@
+Warning モジュールに write メソッドを実装して rb_warn_m() からの複数の文字列の
+出力を rb_io_puts() を使って実装するようにしています。 [ruby-core:80849]
+[Feature #12944]
