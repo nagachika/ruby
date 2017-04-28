@@ -1,0 +1,1 @@
+thread_sync.c の rb_mutex_lock() の注意事項が書かれたコメントの typo 修正。
