@@ -1,0 +1,2 @@
+r58499 で追加した set_line_body() は RIPPER が未定義の時だけ定義するように #
+ifndef を移動しています。
