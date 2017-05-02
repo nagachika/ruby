@@ -1,0 +1,2 @@
+benchmark/bm_vm_thread_sized_queue.rb に SizedQueue の push/pop のベンチマーク
+スクリプトを追加しています。
