@@ -1,0 +1,1 @@
+SizedQueue#clear の rdoc 用コメントでクラス名が間違っていたのを修正。
