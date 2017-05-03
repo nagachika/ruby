@@ -1,0 +1,3 @@
+拡張ライブラリ zlib の zstream_expand_buffer_without_gvl() を
+zstream_expand_buffer_non_stream() に改名して zstream_expand_buffer() の同じ処
+理部分でこの関数を呼ぶようにリファクタリングしています。
