@@ -1,0 +1,2 @@
+tool/generate-backport-changelog.rb の --target オプションの引数を取り出せてい
+なかったのを修正しています。
