@@ -1,0 +1,3 @@
+Kernel#yield_self というメソッドを新規追加しています。ブロックに receiver をパ
+ラメーターに渡して呼び出し、その結果を返すメソッドです。 [ruby-core:46320]
+[Feature #6721]
