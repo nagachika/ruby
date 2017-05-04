@@ -1,0 +1,5 @@
+r58537 および r58538 の lib/unicode_normalize.rb で String#unicode_normalize
+{!?} の中で require "unicode_normalize/normalize" しているところで
+UnicodeNormalize が定義済みかどうかで分岐していましたが、require は重複しても無
+視されるので条件分岐をやめています。確かに UnicodeNormalize という名前の定数に
+何か値が入ってたらただの無限再帰になってしまいますしね。
