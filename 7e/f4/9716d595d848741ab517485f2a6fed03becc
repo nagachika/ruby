@@ -1,0 +1,2 @@
+SizedQueue や ConditionVariable など元 thread ライブラリのクラスのベンチマーク
+スクリプトを追加しています。
