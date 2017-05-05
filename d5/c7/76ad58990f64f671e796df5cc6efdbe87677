@@ -1,0 +1,2 @@
+tool/mkconfig.rb のオプションから cross_compiling を削除して、$LOAD_PATH を書き
+換えるのをやめています。
