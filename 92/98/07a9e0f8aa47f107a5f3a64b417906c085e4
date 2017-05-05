@@ -1,0 +1,2 @@
+configure で head -c というオプションが Solaris で動かなかったそうで、dd コマン
+ドを使った実装に変更しています。 [ruby-dev:50106] [Bug #13538]
