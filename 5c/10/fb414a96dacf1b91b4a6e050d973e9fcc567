@@ -1,0 +1,2 @@
+sample/cbreak.rb のサンプルアプリで String#print を呼んでいて NoMethodError に
+なっていたので Kernel#display メソッドを呼ぶように修正しています。
