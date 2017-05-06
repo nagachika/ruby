@@ -1,0 +1,2 @@
+Dir.new, Dir.open, Dir.entries の rdoc 用コメントのキーワード引数の名前を修正し
+ています。 https://github.com/ruby/ruby/pull/1543
