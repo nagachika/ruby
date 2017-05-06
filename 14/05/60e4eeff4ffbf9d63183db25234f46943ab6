@@ -1,0 +1,2 @@
+r58550, r58553 に続いて String#unicode_normalized? も string.c で C で定義して
+おくようにしています。
