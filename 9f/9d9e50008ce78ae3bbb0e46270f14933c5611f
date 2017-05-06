@@ -1,0 +1,4 @@
+RGenGC 関係のベンチマークスクリプトで GC.start に lazy_sweep: false を渡してい
+たところをかわりに immediate_sweep: true を渡すようにしています。 lazy_sweep と
+いうキーワード引数は実はもともとなかったのが、r56981 のキーワード引数の修正でエ
+ラーとして顕在化していたようです。まじか。
