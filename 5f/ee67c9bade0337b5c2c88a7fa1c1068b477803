@@ -1,0 +1,4 @@
+lib/unicode_normalize.rb の String#uncode_normalize の実装を string.c で組み込
+みの実装に移動しています。しかし "to make sure it is documented" とあるので
+rdoc でドキュメント生成されるようにするためみたいです。lib の下でもドキュメント
+にはのると思うけど、生成されてなかったのかな。
