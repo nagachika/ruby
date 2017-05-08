@@ -1,0 +1,2 @@
+lib/unicode_normalize.rb の内容は string.c に移動したため不要になっていたのでフ
+ァイルごと削除しています。
