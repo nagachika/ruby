@@ -1,0 +1,3 @@
+標準添付ライブラリ cgi で CGI::Util のクラス変数 @@accept_charset を共有するた
+め CGI に CGI::Util を include するようにしています。 [ruby-core:80986] [Bug #
+13539]
