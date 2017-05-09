@@ -1,0 +1,4 @@
+Integer#round, Integer#floor, Integer#ceil, Integer#truncate などで引数で丸める
+桁数を指定した時に、Float に変換せずにそのまま Integer を返すようにしています。
+Integer を Float にした時に精度が足りずに値が変化してしまうのを避けるためだそう
+です。とはいえ仕様変更ですね。 [ruby-core:80645] [Bug #13420]
