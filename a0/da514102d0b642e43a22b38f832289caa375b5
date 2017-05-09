@@ -1,0 +1,2 @@
+NEWS ファイルに r58586 での Integer#round, #floor, #ceil, #truncate の仕様変更
+について追記しています。 [ruby-core:80645] [Bug #13420]
