@@ -1,0 +1,2 @@
+ext/socket/depend で constdefs.h と constdefs.c の依存関係を分離しています。並
+列ビルド時に同時に同じコマンドが実行されるのを防ぐためみたいです。
