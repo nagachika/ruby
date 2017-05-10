@@ -1,0 +1,2 @@
+parse.y の rb_parser_fatal() の宣言を export するための関数の位置に移動していま
+す。
