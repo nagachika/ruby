@@ -1,0 +1,3 @@
+spec/mspec に GitHub のリポジトリから mspec をマージしています。本体に mspec お
+よび ruby/spec を取り込むことになってたんですね。この議論見逃してた。
+[ruby-core:79246] [Feature #13156]
