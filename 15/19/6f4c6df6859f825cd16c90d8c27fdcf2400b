@@ -1,0 +1,2 @@
+insns.def の opt_send_without_block 命令のドキュメントの日本語ドキュメント部分
+を日本語訳しています。 https://github.com/ruby/ruby/pull/1608
