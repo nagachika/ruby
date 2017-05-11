@@ -1,0 +1,3 @@
+r58558 でリファクタリングして括り出した unicode_normalize_common() でメソッド呼
+び出しに rb_funcall() にかわって rb_funcallv() を利用するようにしています。
+[ruby-core:81005] [Bug #11078]
