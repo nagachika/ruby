@@ -1,0 +1,3 @@
+rubygems のテスト用の test/rubygems/test_gem_gem_runner.rb で require "rubygems
+/gem_runner" で例外発生時に環境変数 GEM_HOME の配下のファイルリストを表示するよ
+うにしています。これも CI のデバッグ用ですね。
