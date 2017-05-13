@@ -1,0 +1,3 @@
+spec/rubyspec/core/process/fixtures/kill.rb で子プロセスで ruby を起動して
+Process.kill でシグナル送信させるテストで system の引数に配列で渡すようにしてい
+ます。shell が間にはさまるのを避けるためかな。
