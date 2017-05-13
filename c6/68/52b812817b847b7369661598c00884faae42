@@ -1,0 +1,3 @@
+r58649 と同じく spec/rubyspec/core/process/fixtures/kill.rb で子プロセスからシ
+グナルを送信する pid を Process.getpgrp でプロセスグループを取得するようにして
+います。
