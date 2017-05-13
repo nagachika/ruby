@@ -1,0 +1,4 @@
+Process.spawn や Kernel#system で gid にグループ名を与えた時に
+rb_alloc_tmp_buffer() でスタックにバッファを割り当てていたのを rb_str_tmp_new()
+でバッファとして文字列オブジェクトを作成するようにしています。 frozen string を
+変更しようとしてエラーになっていたようです。 [ruby-core:81084] [Bug #13554]
