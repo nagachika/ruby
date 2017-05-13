@@ -1,0 +1,4 @@
+ruby_sized_xrealloc() で指定されたサイズが負の値だったら例外を発生させるように
+しています。逆に objspace_xrealloc() ではサイズチェックつきの objspace_xmalloc
+() でなくチェックなしの objspace_xmalloc0() を直接呼ぶようにしているけど、こっ
+ちはなんでだろ?
