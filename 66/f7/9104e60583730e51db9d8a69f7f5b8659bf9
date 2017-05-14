@@ -1,0 +1,2 @@
+ruby_vm_run_at_exit_hooks() で ruby_xmalloc() で確保したメモリを free(3) で解放
+していたのを ruby_xfree() を利用するように修正しています。
