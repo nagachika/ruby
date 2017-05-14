@@ -1,0 +1,2 @@
+rubyspec の Time#gmt_offset のテスト部分を Windows の時に skip するようにしてい
+ます。
