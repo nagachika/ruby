@@ -1,0 +1,2 @@
+spec/rubyspec/optional/capi/kernel_spec.rb の fork を利用したテストを skip して
+います。
