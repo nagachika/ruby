@@ -1,0 +1,5 @@
+gc.c の objspace_xmalloc() からサイズのチェックを ruby_xmalloc() に移動して、
+objspace_xmalloc0() などはチェックしないようにしています。また
+objspace_xmalloc2() は削除しています。また objspace_xcalloc() はサイズと要素数
+を受け取るようにしていたのを、まとめたサイズを受け取るように引数を変更していま
+す。
