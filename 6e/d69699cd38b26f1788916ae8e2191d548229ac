@@ -1,0 +1,2 @@
+objspace_xmalloc0() と objspace_xcalloc() で共通のメモリ使用量の加算処理を
+objspace_malloc_fixup() に移動して共有させています。
