@@ -1,0 +1,3 @@
+rubyspec の C API テスト用の拡張ライブラリのソース spec/rubyspec/optional/capi/
+ext/thread_spec.c で unistd.h を include する時に HAVE_UNISTD_H をチェックする
+ようにしています。これも Windows でビルドできるようにするためでしょうね。
