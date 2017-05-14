@@ -1,0 +1,3 @@
+math.c の tgamma() の代替実装 ruby_tgamma() の定義を __MINGW32__ の時に定義して
+いたのを _WIN32 で判定するようにしています。 mswin の時も組み込みの tgamma() の
+実装に問題があったようです。
