@@ -1,0 +1,2 @@
+win32/Makefile.sub で config.h に NEGATIVE_TIME_T を定義するようにしています。
+これも rubyspec 対策かな?
