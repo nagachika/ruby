@@ -1,0 +1,4 @@
+r58549 で標準添付ライブラリ net/imap の Net::IMAP.new に read_timeout オプショ
+ンを追加してデフォルトを 60秒に設定したのを revert しています。 Net::IMAP#
+get_response を受信用 Thread で呼んで待ち続けるような用途でエラーになるのを避け
+るためみたいです。
