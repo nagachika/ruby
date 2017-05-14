@@ -1,0 +1,2 @@
+Windows での ENV の環境変数の文字列の Encoding に Encoding.default_internal を
+影響させるようにしています。
