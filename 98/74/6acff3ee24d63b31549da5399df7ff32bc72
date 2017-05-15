@@ -1,0 +1,3 @@
+rubyspec で Windows でのテストで C:\Windows\nodepad.exe というパスを決め打ちで
+書いていたところを環境変数 WINDIR を利用して etc/services ファイルを参照するよ
+うに書き換えています。
