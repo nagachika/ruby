@@ -1,0 +1,3 @@
+String#unicode_normalize の rdoc 用コメントに Unicode のマルチバイトの文字が直
+接書かれていたのを \uxxxx の記法で書くようにしています。日本語版の VC はコメン
+トに UTF-8 があると警告が出るそうです。
