@@ -1,0 +1,3 @@
+r58708 で revert した r58703, r58705 の rb_external_str_new_with_enc() の変更の
+リトライ。必要に応じてdefault_internal の Encoding への変換を行うようにしていま
+す。
