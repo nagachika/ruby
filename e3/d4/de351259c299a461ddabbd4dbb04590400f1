@@ -1,0 +1,2 @@
+thread_sync.c の rb_mutex_num_waiting() で未初期化の変数の警告が VC で出るとの
+ことで初期化を追加しています。
