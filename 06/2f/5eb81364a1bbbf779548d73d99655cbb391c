@@ -1,0 +1,2 @@
+cygwin と mingw 環境での LDSHARED に -s を条件つきて追加していたのを削っていま
+す。
