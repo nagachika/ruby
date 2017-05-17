@@ -1,0 +1,2 @@
+spec/default.mspec の IO.for_fd で make の job server の通信を利用しているとこ
+ろで Errno::EBADF 例外は無視するようにしています。
