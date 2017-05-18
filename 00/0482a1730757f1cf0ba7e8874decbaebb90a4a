@@ -1,0 +1,4 @@
+Windows 版の rb_w32_ugetcwd() を追加して GetCurrentDirectoryW() を利用してワイ
+ド文字列で取得してから WideCharToMultiByte() で(UTF-8 に?)変換して返すようにし
+ています。さらに rb_dir_getwd() でrb_w32_ugetcwd() を利用して UTF-8 からファイ
+ルシステムエンコーディングへの変換するようにしています。
