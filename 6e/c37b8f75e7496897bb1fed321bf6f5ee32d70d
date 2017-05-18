@@ -1,0 +1,2 @@
+r58721 の続き? cygwin でも ruby_w32_codepage の変数を定義するようにしています。
+[ruby-core:81163] [Bug #13567]
