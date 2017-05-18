@@ -1,0 +1,2 @@
+net/ftp と net/smtp のテストで OpenSSL が未定義だと実行できないテストを skip す
+るようにしています。
