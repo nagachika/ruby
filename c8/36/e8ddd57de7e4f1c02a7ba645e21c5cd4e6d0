@@ -1,0 +1,2 @@
+test/test_extlibs.rb で fiddle がビルドされていることを確認するテストを削ってい
+ます。libffi がなくて失敗するのを避けるためだそうです。
