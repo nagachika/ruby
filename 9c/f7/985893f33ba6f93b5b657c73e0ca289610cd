@@ -1,0 +1,4 @@
+正規表現エンジンの Onigmo の 6.1.2 をマージしています。といっても tool/enc-
+unicode.rb の変更だけみたいですね。テーブルの作成に使う gperf の出力の変更に対
+応しているようです。 https://github.com/k-takata/Onigmo/commit/
+1364ae3488cac0acbf2d61ef3ce2b62fe0c0f528
