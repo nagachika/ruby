@@ -1,0 +1,2 @@
+r58752 の mspec の raise_error の複数例外対応を revert して、r58753 の rubyspec
+の変更は raise_error のブロック渡しを利用してチェックするようにしています。
