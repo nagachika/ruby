@@ -1,0 +1,2 @@
+rubyspec の spec/rubyspec/library/socket/fixtures/classes.rb でクラス変数のかわ
+りにクラスのインスタンス変数を利用するようにしています。
