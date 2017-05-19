@@ -1,0 +1,2 @@
+rubyspec の Windows 環境での Dir.home のテストで環境変数 HOMEDRIVE と HOMEPATH
+による指定より HOME による指定を優先するようにしています。
