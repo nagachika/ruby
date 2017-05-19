@@ -1,0 +1,5 @@
+.gdbinit の nd_tree コマンドで文字列オブジェクトを生成するのに rb_str_new() を
+使っていたところを rb_str_tmp_new() を利用するようにしています。 get rid of
+__extension__ とあるけど rb_str_tmp_new() もどちらも str_new() を呼んでるしなぁ
+。klass が 0 でないと write barrier かなにかの部分で __extension__ を使ったマク
+ロを使うからかな。
