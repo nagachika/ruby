@@ -1,0 +1,4 @@
+Dir.entries が返す文字列の Encoding のテストで Windows で Dir.entries への
+:encoding オプション引数に Encoding.default_external を渡していたのを
+filesystem encoding を指定するように変更しています。うーむ、WIndows のファイル
+パスを返すメソッドのエンコーディング周りはむずかしい。
