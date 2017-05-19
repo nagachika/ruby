@@ -1,0 +1,3 @@
+ruby のテスト用の test/unit の Test::Unit#after_worker_down から make の
+jobserver 用の fd への書き込み処理を flush_job_token というメソッドに切り出して
+_run_parallel で終了時にも呼び出すようにしています。
