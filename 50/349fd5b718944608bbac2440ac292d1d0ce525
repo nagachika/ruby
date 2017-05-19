@@ -1,0 +1,4 @@
+rubyspec の TCPSocket.send のテストで接続できない port 番号として一度 TCPServer
+で port を開いて空いてる番号を取得してたのを常に 0 を返す
+SocketSpecs.reserved_unused_port を定義してこれを使うようにしています。 send で
+も 0 でいいんだ。
