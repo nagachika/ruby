@@ -1,0 +1,2 @@
+標準添付ライブラリ csv の CSV#shift で一時オブジェクトの生成を抑制する最適化を
+行なっています。 https://github.com/ruby/ruby/pull/1607
