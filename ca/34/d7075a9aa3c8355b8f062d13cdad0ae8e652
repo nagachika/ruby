@@ -1,0 +1,4 @@
+標準添付ライブラリ erb の ERB::Compiler::SimpleScanner というクラスはテストでし
+た使われていなかったそうなので SimpleScanner2 という似たような実装(なんで 2つあ
+ったんだろ)を SimpleScanner に改名して元の実装は削除しています。SimpleScanner2
+も別名として残しています。
