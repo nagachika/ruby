@@ -1,0 +1,3 @@
+r58804 で改名した struct sync_waiter の linked list を使って Queue、SizedQueue
+と ConditionVariable の同期処理を全面的に書き換えています。パワーあるなぁ。
+[ruby-core:81235] [Feature #13552]
