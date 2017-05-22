@@ -1,0 +1,5 @@
+マルチスレッド環境での IO#close を高速化しています。 rb_thread_t から
+waiting_fd メンバを削除して、かわりに rb_vm_t に waiting_fds として linked list
+で struct waiting_fd という新たに定義した構造体を持たせるようにしています。これ
+により vm->living_thread を全て舐めてチェックする必要がなくなって、IO 待ちをし
+ている Thread の数だけループを回せばよくなります。
