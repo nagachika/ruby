@@ -1,0 +1,5 @@
+compile.c の compile_branch_condition() で NODE_AND と NODE_OR の右辺値のための
+分岐命令を、変数 cond を書き換えて goto で先頭にジャンプして同じコードを再利用
+するようにしています。でもこれ then_label とか else_label の書き換えが変わって
+しまうのでは? と思ったけど cond を書き換えているから 2回目は別のところにいって
+うまいこと書き換えられるのかな。
