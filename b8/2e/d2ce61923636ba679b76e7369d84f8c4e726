@@ -1,0 +1,3 @@
+標準添付ライブラリ erb の ERB::Compiler::TrimScanner で今度は trim_mode が - の
+時にも改行コード \r\n を考慮するように修正しています。 [ruby-core:39625] [Bug #
+5339]
