@@ -1,0 +1,3 @@
+Time#+ と Time#- でもメソッド呼び出ししていたところを直接 addv() や subv() 関数
+を呼ぶようにして高速化しています。 https://github.com/ruby/ruby/pull/1547
+[ruby-dev:50036] [Bug #13357]
