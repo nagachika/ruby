@@ -1,0 +1,3 @@
+r58833 の tool/downloader.rb の cache 対応で cygwin の時に symbolic link を利用
+していると mingw/mswin で参照できないことがあるそうなので symbolic link を利用
+する条件を追加しています。
