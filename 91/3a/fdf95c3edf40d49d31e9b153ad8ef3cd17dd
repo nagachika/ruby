@@ -1,0 +1,2 @@
+rubyspec に String#casecmp や Symbol#casecmp などのメソッドのテストケースを追加
+しています。
