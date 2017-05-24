@@ -1,0 +1,2 @@
+tool/downloader.rb の RubyGems のダウンロード機能から --verify オプションによる
+パッケージの検証機能を使わなくなったので削っています。
