@@ -1,0 +1,2 @@
+tool/downloader.rb で .downloaded-cache というディレクトリ(環境変数 CACHE_DIR
+で変更可能)にキャッシュするようにしています。
