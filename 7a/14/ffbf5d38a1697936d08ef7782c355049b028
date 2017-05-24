@@ -1,0 +1,3 @@
+r58833 の tool/downloader の cache 対応で cache file をダウンロードした場合に
+hard link を貼るようにしています。 save_cache でも link_cache は呼んでるけど
+rename がエラーになるからスキップするってことかな。
