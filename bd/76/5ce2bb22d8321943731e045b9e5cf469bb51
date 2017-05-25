@@ -1,0 +1,2 @@
+appveyor.yml で不要になっていた環境変数 UNICODE_VERSION, UNICODE_URL_BASE の設
+定と UNICODE_DATA_DIR のディレクトリ作成を削っています。
