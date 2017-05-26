@@ -1,0 +1,3 @@
+IO.select に MSG_OOB に書き込みのある TCPSocket を渡して exceptfds で検出できる
+というテストが Solaris 11 でうまくパスしないそうで(readfds のほうで検知されるら
+しい)、skip するようにしています。
