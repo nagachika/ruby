@@ -1,0 +1,3 @@
+r58869 で追加した assert_all_assertions_foreach をさっそく利用して Integer の演
+算子メソッドを再定義した時の Array#inject の挙動のテストを + だけじゃなく他の二
+項演算子もテストするようにしています。 [ruby-dev:49510] [Bug #12178]
