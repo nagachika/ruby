@@ -1,0 +1,2 @@
+Dir.glob に base というキーワード引数を追加して、glob の結果に prefix を付けた
+ものを返すことができるようにしています。 [ruby-core:78767] [Feature #13056]
