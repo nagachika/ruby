@@ -1,0 +1,6 @@
+Array#index と Array#rindex で rb_equal_opt() が Qundef を返した時に rb_equal()
+に fallback していたのを rb_equal() の中に rb_equal_opt() の呼び出しを埋め込ん
+でいます。これは Array#index, #rindex のほうが主眼じゃなくて、rb_equal() を最適
+化版を使うように高速化して、Array#index, #rindex のほうは同じ高速化のための分岐
+をしてたのが冗長になったので削ってるってことですね。 https://github.com/ruby/
+ruby/pull/1552 [ruby-core:80360] [Bug #13365]
