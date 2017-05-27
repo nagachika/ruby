@@ -1,0 +1,3 @@
+rb_eql() も最適化版の rb_eql_opt() を導入して即値オブジェクトの比較でメソッド呼
+び出しを回避して高速にするようにしています。 https://github.com/ruby/ruby/pull/
+1589 [ruby-core:80761] [Bug #13447]
