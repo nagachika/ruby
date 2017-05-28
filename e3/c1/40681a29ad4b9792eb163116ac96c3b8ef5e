@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で OleInitialize() を二重に呼び出していたのを修正してい
+ます。 https://github.com/ruby/ruby/pull/1629
