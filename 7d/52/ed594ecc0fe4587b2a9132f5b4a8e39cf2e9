@@ -1,0 +1,5 @@
+ruby 自体のテスト用のユーティリティ EnvUtil に EnvUtil.apply_timeout_scale を追
+加して、環境変数 RUBY_TEST_SUBPROCESS_TIMEOUT_SCALE で指定したタイムアウト値を
+変更するパラメータを考慮したタイムアウトを計算することができるようにしています
+。これを使って Thread と Process.fork を使ったテストのタイムアウト値に適用して
+います。
