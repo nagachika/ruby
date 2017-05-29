@@ -1,0 +1,2 @@
+r58905 で追加した erb のベンチマークスクリプトを benchmark/bm_app_erb_render.rb
+から benchmark/bm_erb_render.rb に改名しています。
