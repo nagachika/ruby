@@ -1,0 +1,3 @@
+rb_wait_for_sindle_fd() で rb_fdset_t に fd を登録する時に不正な fd (負の値)だ
+ったら 0 を返して空にするようにしています。不正な fd を渡すと Segmentation
+fault や NoMemoryError になってしまう可能性があるのでそれを避けるためとのこと。
