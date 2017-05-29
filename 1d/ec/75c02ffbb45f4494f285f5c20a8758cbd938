@@ -1,0 +1,2 @@
+Dir.glob の base キーワード引数対応で fdopendir(3) の失敗時に fd leak していた
+のを修正しています。 [ruby-core:78767] [Feature #13056]
