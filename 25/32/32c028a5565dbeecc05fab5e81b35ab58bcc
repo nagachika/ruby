@@ -1,0 +1,2 @@
+Process.times で可能なら getrusage() を利用するようにしてより精度のよい計測結果
+を返すようにしています。 [ruby-dev:49471] [Feature #11952]
