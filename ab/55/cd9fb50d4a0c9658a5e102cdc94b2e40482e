@@ -1,0 +1,4 @@
+ruby.c の load_file() に引数を追加して open_load_file() で開いた IO オブジェク
+トを引数で渡すようにしています。また open_load_file() で引数の文字列を path
+encoding でエンコードしなおすようにしています。将来的に IO オブジェクトを使いま
+わすことを考えているみたいです。
