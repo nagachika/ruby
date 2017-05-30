@@ -1,0 +1,2 @@
+misc/lldb_cruby.py に lldb 用の ruby のデバッグ用コマンド実装を追加しています。
+ついに lldb 向けの .gdbinit 的なものが。
