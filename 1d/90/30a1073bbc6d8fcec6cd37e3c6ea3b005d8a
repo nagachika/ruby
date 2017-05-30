@@ -1,0 +1,2 @@
+bootstraptest/test_insns.rb の各 VM 命令が出現するスクリプトをコンパイルするテ
+ストで toregexp の名前が間違っていたのを修正しています。
