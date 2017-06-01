@@ -1,0 +1,2 @@
+rubyspec の Process.setpriority のテスト対象のプラットフォームの条件を広げてい
+ます。
