@@ -1,0 +1,3 @@
+r58975 の make lldb-ruby で変数展開が $(...) になってたのを修正しています。また
+win32/Makefile.sub で ENABLE_SHARED = yes を追加して常に enable-shared 状態にし
+ています。
