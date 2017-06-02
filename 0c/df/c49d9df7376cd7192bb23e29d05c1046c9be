@@ -1,0 +1,2 @@
+make lldb および make lldb-ruby というターゲットを追加して lldb で misc/
+lldb_cruby.py を読み込んで実行することができるようにしています。
