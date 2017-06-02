@@ -1,0 +1,2 @@
+Object#itself と Object#yield_self の rdoc 用コメントのマークアップ修正やサンプ
+ルの追加。 https://github.com/ruby/ruby/pull/1637
