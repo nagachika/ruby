@@ -1,0 +1,3 @@
+Enumerable#min, #min_by, #max, #max_by などのメソッドで比較用の関数 nmin_cmp()
+と nmin_cmp_block() で再入チェック用の処理を cmpint_reenter_check() という関数
+に切り出すリファクタリング。 [ruby-core:80689] [Feature #13437]
