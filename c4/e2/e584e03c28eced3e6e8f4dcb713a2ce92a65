@@ -1,0 +1,5 @@
+r58984 を revert して rb_check_funcall_default() のほうで戻り値が Qundef だった
+時の対処を入れています。 check_funcall_missing() で respond_to_missing が再定義
+されていない時の挙動は考慮されていたみたいですね。 r58970 の Enumerator#size の
+実装の変更あたりで顕在化した問題があったんでしょうけどテストがないからどういう
+時に問題になるのかはわからず。
