@@ -1,0 +1,3 @@
+include/ruby/ruby.h の struct RBasic::flags 用のビットフラグの定数を enum 化し
+ています。 lldb_cruby.py で定数定義していたのを消しているので、デバッガからシン
+ボルとして見えるようにしたのだと思います。
