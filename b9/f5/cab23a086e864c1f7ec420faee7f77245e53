@@ -1,0 +1,3 @@
+file.c の rb_get_path_check() の static を外して rb_require_internal() でファイ
+ルパス用のオブジェクトの変換および safe level の考慮にこれを利用するようにして
+います。
