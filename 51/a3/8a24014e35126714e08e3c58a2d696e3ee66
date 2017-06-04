@@ -1,0 +1,2 @@
+mspec の helper メソッド cp でファイルの読み書きのための open の mode に "b" を
+追加しています。 https://bugs.ruby-lang.org/issues/13570
