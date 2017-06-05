@@ -1,0 +1,3 @@
+cfp-ep のフラグから VM_FRAME_MAGIC_PROC と VM_FRAME_MAGIC_LAMBDA というフラグを
+削除し、かわりに VM_FRAME_FLAG_LAMBDA を追加してビットフラグで lambda かどうか
+の判定をするようにしています。
