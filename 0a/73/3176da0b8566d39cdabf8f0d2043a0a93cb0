@@ -1,0 +1,2 @@
+require の safe level チェックのテストで Encoding.default_internal の設定の影響
+を受けないようにパスの部分はチェックしないようにしています。
