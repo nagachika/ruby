@@ -1,0 +1,2 @@
+Array#sort, #sort! の rdoc 用コメントのサンプルのブロックパラメータ名を変更して
+います。 https://github.com/ruby/ruby/pull/1628
