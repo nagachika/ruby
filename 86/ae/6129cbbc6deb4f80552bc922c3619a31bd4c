@@ -1,0 +1,3 @@
+load.c の rb_require_internal() でローカル変数 path のスコープを EXEC_TAG() の
+if 文の外に出して、rb_str_encode_ospath() で生成するのも EXEC_TAG() の前に移動
+しています。いつもの "clobbered by 'longjmp' or 'vfork'" 警告の対策でしょうか。
