@@ -1,0 +1,3 @@
+r59009 で修正してた test_require_with_unc の再修正。ファイルパスにドメイン部分
+を付加する時に余分な slash がついていたのを修正。 https://github.com/ruby/ruby/
+commit/4ef849bd9014746821402e21053a53ea61b3690d#commitcomment-22391133
