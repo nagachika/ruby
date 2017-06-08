@@ -1,0 +1,2 @@
+今日は String#encode での invalid: :replace オプション指定時にデフォルトの置換
+文字 \uFFFD に置換される挙動のテストを追加しています。
