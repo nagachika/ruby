@@ -1,0 +1,5 @@
+thread.c の rb_thread_fd_close() で rb_notify_fd_close() で busy = 1 が返されて
+いる限り繰り返し呼び出す処理の合間に rb_thread_schedule() を呼び出してビジール
+ープになるのを避けるようにしています。この関数は ruby のコアではもう使ってない
+そうですが拡張ライブラリ用に C API として公開されていたので残しているみたいです
+。
