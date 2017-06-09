@@ -1,0 +1,2 @@
+tool/update-deps を実行して common.mk の依存関係を更新しています。 file.o と
+rational.o に id.h への依存が追加されています。
