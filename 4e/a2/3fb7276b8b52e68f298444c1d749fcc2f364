@@ -1,0 +1,1 @@
+appveyor.yml で make test-all と test-spec も実行するようにしています。
