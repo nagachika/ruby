@@ -1,0 +1,2 @@
+appveyor.yml でテスト前に locale と filesystem encoding を表示するコマンドを追
+加しています。調査用ですね。
