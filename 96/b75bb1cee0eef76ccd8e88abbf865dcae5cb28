@@ -1,0 +1,2 @@
+tool/make-snapshot で make コマンドが直書きされていたのを環境変数 MAKE や make
+も参照するようにしています。
