@@ -1,0 +1,4 @@
+signal.c の install_sighandler() がエラーを返した時に rb_bug() で異常終了させて
+いたのを、SIGSEGV, SIGBUS, SIGILL や SIGVTALRM など予約されているシグナルでなか
+ったら無視するようにしています。 valgrind から実行された時に SIGUSR2 を設定しよ
+うとして失敗することがあるそうです。
