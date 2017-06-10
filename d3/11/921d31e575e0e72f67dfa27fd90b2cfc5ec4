@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml の REXML::Parsers::StreamParser#parse でドキュメントの
+終端でのタグの閉じ忘れをチェックするようにしています。 [ruby-core:81593] [Bug #
+13636]
