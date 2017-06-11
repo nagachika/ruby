@@ -1,0 +1,5 @@
+r59046 および r59051 の install_sighandler() のエラー処理をまとめて
+INSTALL_SIGHANDLER() というマクロを定義して使いまわすようにしています。また
+reserved signal でなかった時に ruby_enable_coredump に 1 を代入して SIGBUS,
+SIGILL, SIGSEGV などのシグナルのハンドラについて install_sighandler() を呼び出
+さないようにしています。 macOS での valgrind での障害を回避するためだそうです。
