@@ -1,0 +1,5 @@
+r59052 で追加した install_sighandler() のエラー時の ruby_enable_coredump のセッ
+トを消しています。これが Mac OS X での valgrind での実行時の SEGV の原因だった
+のかな。
+[追記]これも valgrind のハングを解消する意味はあったけど、次の r59055 の変更で
+valgrind 関係の修正ができるとわかったので消したみたいです。[/追記]
