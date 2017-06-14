@@ -1,0 +1,3 @@
+RSTRING_PTR() は引数を2回評価し得るように展開されるので gc.c の
+rb_raw_iseq_info() で RSTRING_PTR() の引数に rb_iseq_path() の呼び出しを入れて
+いたのを、一度変数に受けてそれを使うようにリファクタリングしています。
