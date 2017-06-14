@@ -1,0 +1,4 @@
+get_local_variable_ptr() で引数に rb_env_t のポインタではなくポインタのポインタ
+を渡して、ローカル変数がみつかった時にそれが定義されている rb_env_t のポインタ
+も上書きして返すようにしています。呼び元で RGenGC のための Write-Barrier を効か
+せるためだそうです。 [ruby-core:81424] [Bug #13605]
