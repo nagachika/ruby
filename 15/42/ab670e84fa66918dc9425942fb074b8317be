@@ -1,0 +1,2 @@
+thread_win32.c で native_cond_signal(), native_cond_wait() などの関数が未使用に
+なっていたので #if 0 でコメントアウトしています。
