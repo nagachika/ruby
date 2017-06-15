@@ -1,0 +1,3 @@
+compile.c の insn_set_sc_state() で LABEL::sc_state (たぶん VM スタックの状態を
+表すメンバ。stack caching ?)が不正だった時のデバッグメッセージを強化しています
+。
