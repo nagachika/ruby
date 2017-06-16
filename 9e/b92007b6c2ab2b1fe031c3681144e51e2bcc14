@@ -1,0 +1,2 @@
+拡張ライブラリ openssl を upstream の v2.0.4 からマージしています。LibreSSL で
+の Windows (mswin) でのビルドの不具合修正などが含まれています。 [Bug #11033]
