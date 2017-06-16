@@ -1,0 +1,2 @@
+iseq_set_sequence で BADINSN_ERROR マクロを使っていたところを直接 COMPILE_ERROR
+を呼び出すようにして、iseq_set_sequence() では冗長な初期化を削っています。
