@@ -1,0 +1,1 @@
+Method#inspect の返す文字列に taint フラグを伝播させるようにしています。
