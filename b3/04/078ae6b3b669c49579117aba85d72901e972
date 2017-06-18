@@ -1,0 +1,5 @@
+拡張ライブラリ json に upstream のリポジトリから 2.1.0 をマージしています。
+https://github.com/flori/json/blob/master/CHANGES.md#2017-04-18-210 JSON.parse
+で decimal_class というオプションを追加して、数値をオブジェクト化する時にどのク
+ラスのインスタンスにするかを指定できるようにしています。これで BigDecimal など
+を指定して Float 化した時の誤差を低減することができるようです。
