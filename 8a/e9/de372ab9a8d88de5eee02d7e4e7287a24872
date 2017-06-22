@@ -1,0 +1,2 @@
+r59121 で frozen_string_literal: true を追加した影響で dup が必要だった部分に追
+加漏れしていたので追加しています。
