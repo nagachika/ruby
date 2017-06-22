@@ -1,0 +1,2 @@
+拡張ライブラリや標準添付ライブラリの magic comment に frozen-string-literal:
+true を追加しています。
