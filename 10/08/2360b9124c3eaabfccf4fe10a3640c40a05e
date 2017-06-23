@@ -1,0 +1,5 @@
+String#delete_prefix と String#delete_prefix! というメソッドを追加しています。
+これはその名の通り文字列の先頭に引数にマッチする prefix があったらそれを削除す
+るというメソッドです。String#sub などでもできるけど、パフォーマンスのために専用
+のメソッドが欲しいってことかなぁと思います。 https://github.com/ruby/ruby/pull/
+1632 [ruby-core:77016] [Feature #12694]
