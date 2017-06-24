@@ -1,0 +1,4 @@
+make parse というターゲットで tool/parse.rb を使っていたのを --dump=
+parsetree_with_comment,insns を付けて実行する方法に変えています。 tool/parse.rb
+は YARV のマージ時、つまり 1.9 の頃からあったみたいですね。けどもう不要になった
+ようです。
