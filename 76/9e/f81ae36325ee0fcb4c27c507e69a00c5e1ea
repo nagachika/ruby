@@ -1,0 +1,5 @@
+r59155 の state の型の変更で、分岐の if 節と else 節で異なる型が期待されている
+ところでそれぞれのブロック内で変数定義するようにして警告除去しています。
+rb_catch_protect() が int * 型を期待していたため。しかしその後その state は
+JUMP_TAG() に渡されるので、rb_catch_protect() の引数も enum ruby_tag_type * に
+変更したほうがよさそうですね。
