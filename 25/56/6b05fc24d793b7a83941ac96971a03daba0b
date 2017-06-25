@@ -1,0 +1,2 @@
+TracePoint のテストで別の Thread で TracePoint のブロックが呼ばれた時に処理をス
+キップする対応を追加しています。
