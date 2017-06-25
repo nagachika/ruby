@@ -1,0 +1,2 @@
+r59151 のリトライ。 TracePoint#enable のブロックではなくて TracePoint.new のブ
+ロックのほうで別 Thread じゃないかチェックするようにしています。
