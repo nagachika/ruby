@@ -1,0 +1,3 @@
+ObjectSpace.count_symbols のテストでメソッド定義前にも
+ObjectSpace.count_symbols で元々存在していた Symbol 数からの差分をチェックする
+ように変更しています。
