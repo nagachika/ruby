@@ -1,0 +1,5 @@
+AST のノードの種類に演算子っぽいメソッドの呼び出し専用の NODE_OPCALL という
+type を追加して通常の recv.meth のような呼びかたをしている時と区別がつくように
+しています。演算子的なメソッドを forwardable で def_delegator に渡すと意図しな
+い警告が出てしまうのを避けるためみたいです。 https://github.com/ruby/ruby/pull/
+1660
