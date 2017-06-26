@@ -1,0 +1,3 @@
+標準添付ライブラリ delegate.rb で to_s, inspect, =~ や <=> と同じく eql? も委譲
+するようにしています。またこれにあわせて rubyspec のテストも変更しています。
+https://github.com/ruby/ruby/pull/1564 [ruby-core:76950] [Bug #12684]
