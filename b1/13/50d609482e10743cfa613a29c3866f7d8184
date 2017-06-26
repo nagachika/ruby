@@ -1,0 +1,2 @@
+Queue#close の rdoc 用コメントの説明で close した Queue に要素を追加しようとし
+た時の挙動が間違ってたので修正しています。 [ruby-core:81749] [Misc #13673]
