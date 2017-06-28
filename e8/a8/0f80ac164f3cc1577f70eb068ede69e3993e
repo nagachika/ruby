@@ -1,0 +1,1 @@
+cont.c の enum fiber_status の定数に FIBER_ という prefix を追加しています。
