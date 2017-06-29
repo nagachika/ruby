@@ -1,0 +1,2 @@
+トップレベルに書かれている ensure 節の中での return 文で VM stack consistency
+で異常終了する不具合を修正しています。 [ruby-core:81777] [Bug #13682]
