@@ -1,0 +1,2 @@
+parse.y で yylex(), parser_parse_string() と parser_parse_string() の戻り値の型
+を int から enum yytokentype に変更しています。
