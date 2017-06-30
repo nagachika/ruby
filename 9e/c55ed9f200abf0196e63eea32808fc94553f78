@@ -1,0 +1,2 @@
+default gem が増えてきたので tool/sync_default_gems.rb というツールを追加して
+GitHub から同期させるようにしています。
