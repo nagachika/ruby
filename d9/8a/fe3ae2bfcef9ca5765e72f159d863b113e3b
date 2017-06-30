@@ -1,0 +1,2 @@
+thread local storage を格納している rb_thread_t::local_storage を構造体
+rb_execution_context_t の下に移動しています。
