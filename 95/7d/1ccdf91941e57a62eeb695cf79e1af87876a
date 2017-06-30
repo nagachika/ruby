@@ -1,0 +1,2 @@
+rb_thread_t から root_lep, root_svar, ensure_list を構造体
+rb_execution_context_t に移動しています。
