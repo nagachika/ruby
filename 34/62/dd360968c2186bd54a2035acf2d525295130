@@ -1,0 +1,2 @@
+r59192 で導入した rb_thread_ptr() でオブジェクトの型のチェックに
+rb_check_typeddata() を利用するようにしています。
