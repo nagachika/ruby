@@ -1,0 +1,4 @@
+構造体 rb_fiber_t に first_proc というフィールドを追加して fiber の操作では
+rb_thread_t::first_proc のかわりにこちらを利用するようにしています。 Thread 内
+で Fiber を作ると Thread#inspect した時の Thread に渡したブロックの行番号が変わ
+ってしまう不具合を修正しています。 [ruby-core:81802] [Bug #13689]
