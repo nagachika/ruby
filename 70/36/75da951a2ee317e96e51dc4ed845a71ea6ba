@@ -1,0 +1,4 @@
+compile.c でも VM 命令列へのコンパイル時のエラーで append_compile_error() 内で
+compile_debug マクロの値で分岐して rb_exc_fatal() で強制終了させるようにして
+prepare_compile_error() で呼び出す関数ポインタを切り替えさせているのをやめてい
+ます。
