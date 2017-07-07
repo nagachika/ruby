@@ -1,0 +1,3 @@
+tool/run-gcov.rb で coverage 計測対象から rubyspec_temp ディレクトリ配下を除外
+するようにしています。 C API テスト用にビルドする拡張ライブラリが含まれるディレ
+クトリみたいです。
