@@ -1,0 +1,3 @@
+r59265 で un.rb で https 対応した秘密鍵の読み込みを OpenSSL::PKey::RSA.new のか
+わりに OpenSSL::PKey.read を使うように変更しています。なるほどー。
+[ruby-core:81901] [Feature #13714]
