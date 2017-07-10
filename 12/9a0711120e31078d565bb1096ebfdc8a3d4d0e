@@ -1,0 +1,3 @@
+NEWS ファイルの r58604 で追加した BasicSocket#read_nonblock と #write_nonblock
+の O_NONBLOCK フラグを利用しないようにしたという記述に、Linux でのみ変更された
+ことを追記しています。 [ruby-core:80913] [Feature #13517]
