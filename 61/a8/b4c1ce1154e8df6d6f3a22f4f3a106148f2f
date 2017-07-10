@@ -1,0 +1,2 @@
+NEWS ファイルに r59281 で追加した WEBrick の SNI 対応について追記しています。
+[ruby-dev:50165] [Feature #13729]
