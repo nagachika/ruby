@@ -1,0 +1,3 @@
+template/exts.mk.tmpl で SUBMAKEOPTS を独自に定義していたのを exts.mk から抽出
+して再構築するようにしています。並列ビルドで問題が起きていたのを修正しているよ
+うです。 [ruby-core:81962] [Bug #13730]
