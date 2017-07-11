@@ -1,0 +1,3 @@
+tool/make-snapshot で生成する Makefile に _touch-unicode-files というターゲット
+を追加して 2.4 で Unicode 用データファイルのダウンロードのタスクが飛ばされない
+ようにしています。 [ruby-core:81972] [Bug #13734]
