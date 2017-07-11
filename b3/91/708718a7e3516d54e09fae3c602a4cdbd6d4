@@ -1,0 +1,2 @@
+tool/downloader.rb で環境変数 CACHE_SAVE=no が指定されていた時にダウンロードし
+なおす条件を追加しています。 [ruby-core:81887] [Bug #13709]
