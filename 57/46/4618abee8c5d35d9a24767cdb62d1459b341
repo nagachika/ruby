@@ -1,0 +1,2 @@
+File#read などのオプションで :newline が指定されたら text mode が指定されたもの
+として自動的に扱うように変更しています。 [ruby-core:80270] [Bug #13350]
