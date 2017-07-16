@@ -1,0 +1,2 @@
+標準添付ライブラリ set の Set#to_s を #inspect への alias にしています。
+[ruby-core:81753] [Feature #13676]
