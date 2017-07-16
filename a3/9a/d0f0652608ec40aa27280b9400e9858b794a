@@ -1,0 +1,2 @@
+test/ruby/test_rubyoptions.rb でファイルパスのデリミタの書き替えに String#gsub!
+を使ってたところを tr! に変更しています。
