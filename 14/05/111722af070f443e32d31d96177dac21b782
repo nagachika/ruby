@@ -1,0 +1,5 @@
+Hash#transform_keys と Hash#transform_keys! メソッドを新規追加しています。キー
+をブロックパラメーターとしてブロックを呼び出して、その結果でキーを置き換えた
+Hash を返す、または破壊的に変更するというメソッドです。ほほー、キーの Symbol
+<-> String を変換したいっていうのはありがちですね。 [ruby-core:81290] [Feature
+#13583]
