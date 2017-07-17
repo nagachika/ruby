@@ -1,0 +1,3 @@
+test/ripper/test_lexer.rb で require_relative を使っていたところを require
+"ripper" に変更しています。実際にはこのファイル内で DummyParser は使っていなか
+ったので不要だったみたいです。
