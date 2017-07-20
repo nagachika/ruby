@@ -1,0 +1,3 @@
+r59354 の追加修正。 String#-@ で fstring 化する時に tainted フラグを考慮するよ
+うに、というか rb_fstring() 自体 tainted フラグをチェックして
+tainted_frozen_strings テーブルに追加するように修正しています。
