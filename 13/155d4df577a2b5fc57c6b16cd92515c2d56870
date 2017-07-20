@@ -1,0 +1,4 @@
+拡張ライブラリ digest の ext/digest/digest_conf.rb で OpenSSL や LibreSSL のラ
+イブラリを探索するのに様々な名前に対応できるように find_openssl_library という
+メソッドを追加して細かいロジックを実装しています。 openssl の extconf.rb から判
+定ロジックを持ってきたそうです。
