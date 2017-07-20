@@ -1,0 +1,5 @@
+r59304 や r59310 でやっていた Hash#[]= でキーが String オブジェクトだった時に
+dedup して fstring を使うようにする変更の再修正。taint された文字列の場合を考慮
+して、別途 rb_vm_t::tainted_frozen_strings というテーブルを追加して、fstring が
+既に存在するかどうかの判定をする関数を rb_fstring_existing() として string.c に
+追加してこれを利用するようにしています。 [ruby-core:82012] [Bug #13737]
