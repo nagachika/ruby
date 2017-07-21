@@ -1,0 +1,3 @@
+test/ruby/test_rand.rb で定義されている特殊な assertion assert_fork_status を、
+子プロセスでエラーが起きた時にエラー内容を受け取って FailDesc で表示するように
+しています。
