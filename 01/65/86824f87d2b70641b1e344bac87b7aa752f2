@@ -1,0 +1,3 @@
+標準添付ライブラリ net/imap でコマンド(?)行末の余分な空白を読み飛ばすようにして
+います。 Microsoft Exchange Server の対応だそうです。 [ruby-core:81641] [Bug #
+13649]
