@@ -1,0 +1,3 @@
+eval.c の #if 0 でコメントアウトされていた関数 errinfo_setter() と、ずっと未使
+用だった関数 rb_rubylevel_errinfo() を削除しています。static じゃないけどシンボ
+ルは公開されていない関数だったそうです。
