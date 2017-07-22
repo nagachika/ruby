@@ -1,0 +1,2 @@
+r59328 で追加された Hash#transform_keys と Hash#transform_keys! について NEWS
+ファイルに追記しています。 [ruby-core:81290] [Feature #13583]
