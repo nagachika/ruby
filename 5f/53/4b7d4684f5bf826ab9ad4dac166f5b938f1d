@@ -1,0 +1,3 @@
+標準添付ライブラリ optparse の ARGV.getopts の rdoc 用コメントで、戻り値の Hash
+のキーが Symbol で返されるように書かれていましたが、実際は String で返されてい
+たので例を修正しています。
