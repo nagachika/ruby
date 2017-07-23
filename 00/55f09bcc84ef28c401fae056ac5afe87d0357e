@@ -1,0 +1,2 @@
+標準添付ライブラリ net/smtp で String#unpack に [0] を組みあわせて使っていたと
+ころを String#unpack1 を使うようにリファクタリングしています。
