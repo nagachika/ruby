@@ -1,0 +1,2 @@
+r59377 の String#delete_suffix と String#delete_suffix! について NEWS ファイル
+に追記しています。
