@@ -1,0 +1,5 @@
+標準添付ライブラリ logger の Logger#add で progname の指定がなかった時にデフォ
+ルト値の @progname を使うようにするところで、nil? で明示的に nil のみ判定するよ
+うにしています。false が渡された時にそれを文字列化して "false" として使うように
+するとのこと。ふーむ、実際 false 渡すことあるのかな? https://github.com/ruby/
+ruby/pull/1667
