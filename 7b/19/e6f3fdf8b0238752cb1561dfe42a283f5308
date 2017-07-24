@@ -1,0 +1,3 @@
+include/ruby/ruby.h の deprecated なマクロ群にその旨ドキュメント用のコメントを
+追記しています。また object.c の C API の関数にもドキュメント用のコメントを追加
+しています。
