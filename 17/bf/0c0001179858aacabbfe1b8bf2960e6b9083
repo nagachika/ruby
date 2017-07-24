@@ -1,0 +1,2 @@
+ConditionVariable、Queue、SizedQueue、Mutex などの内部実装の変更について NEWS
+ファイルに追記しています。 [Feature #13552] [Feature #13517]
