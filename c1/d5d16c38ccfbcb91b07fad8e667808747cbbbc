@@ -1,0 +1,4 @@
+flip-flop 演算子の ISeq へのコンパイル時に余分な jump 命令があって、決して到達
+しない命令ができていて、peephole optimization で到達不可能なコードの削除をして
+いたら(通常は)問題がないけど最適化しないと VM stack consistency の異常でエラー
+になっていたので不要な jump 命令を削除しています。
