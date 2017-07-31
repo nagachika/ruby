@@ -1,0 +1,2 @@
+configure の fd_mask の型チェックの時に sys/select.h を #include しておくように
+しています。 AIX 向けの対応みたいです。 [Feature #13637]
