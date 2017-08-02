@@ -1,0 +1,2 @@
+macOS で ar コマンドとして libtool というコマンドを利用して debug_counter.o が
+通常 symbol を1つも持たないので警告が出るのを抑制するようにしているそうです。
