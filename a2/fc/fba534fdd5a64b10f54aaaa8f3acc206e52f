@@ -1,0 +1,4 @@
+r59155 で struct ruby_tag_type という TAG_JUMP() 用の state 専用の型を導入した
+時に eval.c の setup_exception() の state も型を変更していたのですが、ここの
+state は EXEC_TAG() の戻り値を受け取るためのものではなかったので int に戻してい
+ます。
