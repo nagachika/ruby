@@ -1,0 +1,2 @@
+標準添付ライブラリ ipaddr に .gemspec ファイルを追加して default gem 化していま
+す。
