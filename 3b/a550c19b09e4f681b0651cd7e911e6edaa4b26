@@ -1,0 +1,2 @@
+.travis.yml から rubyspec が trunk に同梱されたため不要になった make
+update-rubyspec の実行を削っています。
