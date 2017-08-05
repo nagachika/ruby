@@ -1,0 +1,2 @@
+test/ruby/test_dir.rb の assert_entries という独自 assertion メソッドの引数名を
+変更しています。 dir.c の変数名に合わせたとのこと。
