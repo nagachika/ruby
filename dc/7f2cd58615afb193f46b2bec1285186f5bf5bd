@@ -1,0 +1,3 @@
+misc/test_lldb_cruby.rb という misc/lldb_cruby.py のテストを追加しています。フ
+ァイルの配置は Python の流儀(?)だけどテストの実装は ruby なんですね。当然テスト
+の実行には lldb が必要です。
