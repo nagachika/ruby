@@ -1,0 +1,2 @@
+r59477 で win32/configure.bat に追記した --with-opt-dir オプションの説明で
+$PATH_SEPARATOR を展開して ";" に変更しています。
