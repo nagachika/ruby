@@ -1,0 +1,2 @@
+標準添付ライブラリ net/ftp の Net::FTP.build の rdoc 用コメントのサンプルコード
+の配列のかっこ閉じ忘れの修正。 https://github.com/rurema/doctree/pull/462
