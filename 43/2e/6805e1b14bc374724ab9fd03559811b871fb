@@ -1,0 +1,5 @@
+rubyspec の C API 用のテストで子プロセスで make を起動する時に jobserver 用の
+fd を受け渡すため close_others: false オプションを付けていたのを、オプションを
+みて必要な fd を割り出してそれだけ autoclose: false に設定した IO オブジェクト
+で wrap して close させないようにしています。 close_on_exec フラグが付けられて
+しまうことがあるみたいです。
