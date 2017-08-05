@@ -1,0 +1,3 @@
+r59462 の続きみたいです。 VM stack の管理は Fiber ではなくて Thread 側で責任を
+持つように r55766 あたりで変更されているので、それにあわせて fiber_current() で
+fib->cont.saved_thread の ec.stack を NULL クリアするようにしています。
