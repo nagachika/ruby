@@ -1,0 +1,2 @@
+標準添付ライブラリ erb で ERB::Compiler::SimpleScanner2 を deprecate_constant
+で deprecate とマークしています。
