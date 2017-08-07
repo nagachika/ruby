@@ -1,0 +1,3 @@
+rubygems の依存関係解決の Gem::Resolver#sort_dependencies でソート結果を stable
+にするために Enumerator#with_index を使ってインデックスも比較対称に含めるように
+しています。
