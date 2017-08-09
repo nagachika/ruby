@@ -1,0 +1,3 @@
+enum.c で static 変数に call と size メソッド用に ID を初期化時に確保していたの
+を、マクロを定義して idCall と idSize という組み込みの ID を利用するように変更
+しています。
