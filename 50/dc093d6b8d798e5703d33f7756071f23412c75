@@ -1,0 +1,5 @@
+r59481 で Dir.glob の実装で不要な lstat(2) の実行を回避するために struct
+dirent::d_type が DT_UNKNOWN か(DT_UNKNOWN が定義されてたら)どうかで分岐するよ
+うにしていたのですが、古いシステムで d_type メンバーが存在していて、なおかつ常
+に DT_UNKNOWN が埋められているという場合があるらしくて、DT_UNKNOWN でない時だけ
+この値を利用するように修正しています。 [ruby-core:82266] [Bug #13785]
