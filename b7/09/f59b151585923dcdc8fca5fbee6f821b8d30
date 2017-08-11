@@ -1,0 +1,2 @@
+tool/generate-backport-changelog.rb の Usage の出力時に $0 を変数展開するように
+しています。
