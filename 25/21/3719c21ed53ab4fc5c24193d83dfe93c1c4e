@@ -1,0 +1,2 @@
+r59557 の struct rb_fiber_struct::status の状態追加の修正。 #if !
+FIBER_USE_NATIVE の時にビルドエラーになっていたようです。
