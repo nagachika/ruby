@@ -1,0 +1,2 @@
+Thread#inspect を Thread#to_s に変更して、inspect は to_s への alias として定義
+するようにしています。 to_s でも詳細な情報が入るようになりました。
