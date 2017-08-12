@@ -1,0 +1,2 @@
+Fiber の struct rb_fiber_struct::cont->saved_thread に保存しておいた Thread の
+状態を復旧させる処理を fiber_restore_thread() という関数に切り出しています。
