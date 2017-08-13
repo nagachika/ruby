@@ -1,0 +1,2 @@
+enum.c に symbol.h を include して each メソッドの ID を static な変数に格納す
+るようにしています。
