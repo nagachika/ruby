@@ -1,0 +1,1 @@
+test/ruby/test_string.rb のブロックパラメータによる変数の遮蔽の警告除去。
