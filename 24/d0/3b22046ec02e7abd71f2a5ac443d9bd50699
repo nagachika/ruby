@@ -1,0 +1,3 @@
+拡張ライブラリ stringio の StringIO#gets で引数のサイズ上限に 0 を渡して空文字
+列がかえる時にも default_external の Encoding の文字列を返すように修正していま
+す。
