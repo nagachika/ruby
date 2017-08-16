@@ -1,0 +1,2 @@
+mspec でテストスクリプトのない空のディレクトリをスキップするようにしています。
+https://github.com/ruby/spec/issues/459
