@@ -1,0 +1,3 @@
+拡張ライブラリ ripper の ext/ripper/lib/ripper.rb の先頭部分のライセンス表記を
+整形しています。 rdoc で処理された時の結果を意識した変更みたいです。
+[ruby-core:82376]. [Bug #13813]
