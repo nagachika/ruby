@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の ObjectSpace.allocation_sourceline の rdoc 用コメント
+で戻り値の型の記述が間違っていたのを修正しています。
