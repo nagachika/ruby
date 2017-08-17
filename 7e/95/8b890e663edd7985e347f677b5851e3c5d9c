@@ -1,0 +1,2 @@
+compile.c の iseq_compile_each0() から切り出すシリーズ。次は next 文のコンパイ
+ルを compile_next() に切り出しています。
