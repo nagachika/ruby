@@ -1,0 +1,1 @@
+r59604 の vm.c と vm_eval.c の変更を revert しています。
