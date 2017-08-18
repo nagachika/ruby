@@ -1,0 +1,2 @@
+insns.def の VM 命令 getinstancevariable と setinstancevariable のコメントに既
+に削除されたオペランドの説明が残っていたので削除しています。
