@@ -1,0 +1,4 @@
+Dir のテスト test/ruby/test_dir_m17n.rb で新しい macOS の High Sierra で APFS
+を使っている時のエラーの対処。 APFS では不正な UTF-8 のバイト列を使うことはでき
+ないので、そのようなケースのテストは skip させています。 [ruby-core:82383] [Bug
+#13816]
