@@ -1,0 +1,3 @@
+拡張ライブラリ digest に .gemspec ファイルを追加して default gem 化しています。
+リポジトリも ruby/digest に独立したものを upstream として作ったみたいです。
+[ruby-core:82179] [Misc #13771]
