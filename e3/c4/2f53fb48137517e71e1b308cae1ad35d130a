@@ -1,0 +1,2 @@
+vm_insnhelper.c のマクロ CHECK_CFP_CONSISTENCY() から cfp や th->errinfo のチェ
+ックを vm_cfp_consistent_p() という inline 関数に切り出しています。
