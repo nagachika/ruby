@@ -1,0 +1,3 @@
+r59618 で予約例外オブジェクトとして追加した stack overflow 時に GC 中だった時の
+例外オブジェクトの enum の名前を ruby_error_sysstack_gc から
+ruby_error_stackfatal に改名しています。
