@@ -1,0 +1,2 @@
+Vm 命令の operand の情報を保持している insn_operand_info も同様に1つの配列に詰
+めるようにしています。
