@@ -1,0 +1,3 @@
+rb_context_t から vm_stack に関するメンバを struct cont_saved_vm_stack という構
+造体に切り出しています。名前からして Continuation でコンテキストを切り替える時
+に使うものみたいです。
