@@ -1,0 +1,3 @@
+標準添付ライブラリ csv の CSV::Table#to_a と CSV::Table#to_csv で中間オブジェク
+トの配列を行ごとに生成しないようにする最適化を行なっています。 https://
+github.com/ruby/ruby/pull/946
