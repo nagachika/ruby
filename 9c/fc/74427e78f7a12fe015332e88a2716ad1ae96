@@ -1,0 +1,2 @@
+NEWS ファイルに r59660 および r59661 での Thread#name= の Windows 対応について
+追記しています。 Windows 10 から可能になったみたいですね。
