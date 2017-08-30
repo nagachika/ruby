@@ -1,0 +1,2 @@
+r59590 からの「iseq_compile_each0() から切り出すシリーズ」の続きで rescue の
+compile 処理を compile_rescue() という関数に切り出すリファクタリングです。
