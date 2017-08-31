@@ -1,0 +1,2 @@
+Binding#local_variable_get で対象のローカル変数が存在しない時の例外メッセージの
+文法修正。
