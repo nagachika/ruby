@@ -1,0 +1,2 @@
+rdoc を upstream から 6.0.0-beta1 をマージしています。Major バージョンアップで
+すね。ruby の parser の挙動の修正などがあるみたいです。
