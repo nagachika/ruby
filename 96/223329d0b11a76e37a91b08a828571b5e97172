@@ -1,0 +1,3 @@
+Array#permutation が返す Enumerator の size メソッド用の関数
+descending_factorial() という関数で how_many が 1 の時の乗算を省略するようにす
+る最適化。
