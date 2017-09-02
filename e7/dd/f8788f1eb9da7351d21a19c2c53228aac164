@@ -1,0 +1,4 @@
+拡張ライブラリ socket の Socket::Ifaddr に vhid というメソッドを追加しています
+。これはその環境の struct if_data に ifi_vhid というメンバーが存在する時だけ定
+義されます。 Virtual Host ID の略みたいですね。 [ruby-core:82336] [Feature #
+13803]
