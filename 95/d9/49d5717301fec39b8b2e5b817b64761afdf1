@@ -1,0 +1,3 @@
+標準添付ライブラリ coverage に coverage 収集中かどうか確認する
+Coverage.running? を追加しています。コミットログには Coverage.enabled? って書い
+てあるけど running? ですね。 [ruby-core:81726] [Feature #13667]
