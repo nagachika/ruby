@@ -1,0 +1,3 @@
+Fiber#to_s で root fiber の時に rb_fiber_t::first_proc が空なので SEGV してしま
+っていたのを修正しています。最近の r59558 での追加時の不具合なので trunk だけだ
+と思います。 [ruby-core:82629] [Bug #13859]
