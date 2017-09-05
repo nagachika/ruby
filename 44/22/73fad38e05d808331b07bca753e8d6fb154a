@@ -1,0 +1,2 @@
+spec/default.mspec で RUBYOPT 環境変数から -w オプションを削って警告を抑制する
+ようにしています。
