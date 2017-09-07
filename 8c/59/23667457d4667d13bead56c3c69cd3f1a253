@@ -1,0 +1,2 @@
+r59741 で追加したテストで Windows で NotImplementedError が発生していたので
+rescue しておくようにしています。
