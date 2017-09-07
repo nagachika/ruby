@@ -1,0 +1,2 @@
+拡張ライブラリ io/nonblock の IO#nonblock, IO#nonblock? の簡単なテストを追加し
+ています。
