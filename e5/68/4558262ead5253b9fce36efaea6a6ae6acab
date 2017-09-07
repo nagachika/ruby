@@ -1,0 +1,3 @@
+String#each_grapheme_cluster のブロック内で receiver の String オブジェクトの内
+容を書き換えられても、変更前の内容を元に処理するように rb_str_new_frozen() でバ
+ッファを共有した frozen string を作ってそちらを参照するようにしています。
