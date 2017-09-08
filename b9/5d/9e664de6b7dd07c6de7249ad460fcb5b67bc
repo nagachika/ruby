@@ -1,0 +1,3 @@
+rb_execution_context_t の構造体のタグ名を struct rb_thread_context_struct から
+struct rb_execution_context_struct に改名しています。typedef された型のほうを使
+っているのであまり影響はなさそうですね。
