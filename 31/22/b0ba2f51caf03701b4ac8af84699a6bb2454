@@ -1,0 +1,4 @@
+ruby のテスト時の coverage のための simplecov および simplecov-html を GitHub
+からチェックアウトするときのタグを更新して、Fixnum を利用しているために trunk
+で警告が出ているのを解消するようにしています。利用している人は(あんまりいないと
+思いますが) make update-coverage して更新しましょう。
