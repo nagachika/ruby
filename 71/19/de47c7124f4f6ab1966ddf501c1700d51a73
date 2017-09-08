@@ -1,0 +1,4 @@
+ep が VM stack の範囲内に収まっているかチェックする VM_EP_IN_HEAP_P() および
+vm_ep_in_heap_p_() で第1引数を rb_thread_t から rb_execution_context_t に変更し
+ています。これにより r59755 で GET_THREAD() を読んでいたところが ec を渡せばよ
+くなるので解決していました。
