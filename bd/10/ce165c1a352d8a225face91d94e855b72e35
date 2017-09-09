@@ -1,0 +1,5 @@
+String#scrub などの実装で、実際に文字列に含まれる codepoint の範囲をチェックし
+た coderange もチェックしていますが、String#encode で本来の Encoding とは異なる
+Encoding とみなして不正文字チェックしようとした時に coderange のキャッシュされ
+た値を参照すると誤判定する可能性があるので無視するようにしています。
+[ruby-core:82674] [Bug #13874]
