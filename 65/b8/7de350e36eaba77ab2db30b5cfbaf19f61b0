@@ -1,0 +1,4 @@
+hash メソッドなどで計算する st_index の値を Fixnum に変換する時に INT2FIX() や
+LONG2FIX() を利用していたところを ST2FIX() マクロを利用するように変更しています
+。 mingw/mswin 環境(LLP64環境)で [BUG] で異常終了になることがあったようです。
+[ruby-core:82687] [Bug #13877]
