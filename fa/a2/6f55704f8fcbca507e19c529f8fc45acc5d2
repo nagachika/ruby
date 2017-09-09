@@ -1,0 +1,3 @@
+String#each_grapheme_cluster などで Unicode 系ではない Encoding の時に
+each_char などの実装を利用するようにしていたのですが、Unicode でも single byte
+文字のみ含んでいる時には each_char の実装を利用するようにしています。
