@@ -1,0 +1,3 @@
+r59770 で test/runner.rb に追加した require "tool/test-coverage.rb" がソースデ
+ィレクトリ内で make しないと動かなくなっていたので require_relative を利用する
+ように修正しています。
