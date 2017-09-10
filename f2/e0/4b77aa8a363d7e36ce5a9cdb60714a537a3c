@@ -1,0 +1,4 @@
+configure で環境変数 RUBY_DEVEL が真の時に追加する -DRUBY_DEVEL オプションを
+debugflags に追加していたのを XCFLAGS に追加するように変更しています。また
+-fno-fast-math オプションは optflags から CFLAGS に追加するように変更しています
+。オプションの変数いろいろありますね。
