@@ -1,0 +1,7 @@
+make test-all に COVERAGE=1 環境変数を渡してカバレッジ計測するときに利用するラ
+イブラリを simplecov を使っていたのを、拡張ライブラリ coverage を利用するように
+変更しています。そのため tool/test-coverage.rb というツールを追加しています。
+simplecov 自身がいくつかの標準添付ライブラリを利用しているため、coverage 計測開
+始時点でそれらのライブラリがロード済みのため一部の標準添付ライブラリの coverage
+が計測できないことや、拡張ライブラリの coverage は branch coverage などの機能追
+加の予定があること、可視化のためのデータ整形の対応のためなどだそうです。
