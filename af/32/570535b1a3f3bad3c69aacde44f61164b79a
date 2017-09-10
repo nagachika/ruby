@@ -1,0 +1,2 @@
+golf_prelude.rb で Symbol の配列リテラルを %i[] 記法を使うように書き換えていま
+す。
