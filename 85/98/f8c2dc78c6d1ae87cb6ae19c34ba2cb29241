@@ -1,0 +1,4 @@
+ついに bundler-1.15.4 を標準添付ライブラリとして lib/bundler.rb および lib/
+bundler/ に追加しています。そして bundler のテストは make test-bundler としてま
+だ別ターゲットで追加しているようです。まだ Windows でテストがうまく動かないため
+とのこと。 [ruby-core:77172] [Feature #12733]
