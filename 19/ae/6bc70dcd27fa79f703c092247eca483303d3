@@ -1,0 +1,5 @@
+bundler のテストの spec/bundler/support/path.rb で環境変数 BUNDLE_RUBY と
+BUNDLE_GEM をチェックして ruby 本体でのテストかどうか判定している部分を
+for_ruby_core? というメソッドに切り出すリファクタリング。また spec/bundler/
+support/path.rb と spec/bundler/support/rubygems_ext.rb で環境変数 PATH に追加
+するのを ruby 本体の時は exe でなくて bin ディレクトリを使うようにしています。
