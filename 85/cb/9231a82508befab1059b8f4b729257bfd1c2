@@ -1,0 +1,3 @@
+bundler のテストの spec/bundler/support/rubygems_ext.rb で gem install 実行させ
+る時に環境変数 BUNDLE_GEM を参照して呼び出す gem コマンドを変更できるようにして
+います。
