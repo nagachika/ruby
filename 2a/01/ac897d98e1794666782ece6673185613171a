@@ -1,0 +1,4 @@
+fiber_store() で cont_save_machine_stack() の呼び出し位置を移動しています。
+fiber_verify() でのチェックにひっかかる可能性があったのを修正しているそうです。
+"This patch is very dirty and it should be removed soon." って書いてあるので、
+そのうち再修正されるかも
