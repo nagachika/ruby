@@ -1,0 +1,2 @@
+rubygems のテストで default gem のテストで ruby 本体ではインストール前にはテス
+トできないケースについて skip つきで追加しています。 rubygems 難しい。
