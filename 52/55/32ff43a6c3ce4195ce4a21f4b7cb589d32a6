@@ -1,0 +1,6 @@
+r59825 で cont_save_thread() に追加していた #if FIBER_USE_NATIVE の分岐をやはり
+削っています。ただし sth->ec.machine.stack_end だけクリアして sth->
+ec.machine.stack_start はそのままにしています。コミットログによると #if
+FIBER_USE_NATIVE の分岐を入れたのは stack_start は FIBER_USE_NATIVE が 0 の時に
+利用されるためで、 stack_end のほうはクリアして良かったようです。また IA64 の時
+の register_stack_start/end は両方常にクリアするように戻しています。
