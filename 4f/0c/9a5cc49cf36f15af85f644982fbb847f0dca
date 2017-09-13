@@ -1,0 +1,3 @@
+rb_thread_t::machine メンバーを rb_execution_context_t::machine に移動していま
+す。 cont_save_thread() で #if FIBER_USE_NATIVE による preprocessor 分岐を入れ
+てるのはいいのかな。
