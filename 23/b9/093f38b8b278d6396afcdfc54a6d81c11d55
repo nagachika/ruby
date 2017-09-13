@@ -1,0 +1,2 @@
+vm_core.h の vm_block_handler_verify() の引数に MAYBE_UNUSED() マクロを使うこと
+で未使用引数の警告除去をしています。
