@@ -1,0 +1,2 @@
+拡張ライブラリ io/console の IO#winsize= のテストを defined?(IO.console) の条件
+つきで定義するようにしています。そもそもメソッドが未定義な環境への対応かな。
