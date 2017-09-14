@@ -1,0 +1,6 @@
+r52475 あたりの Windows 環境での拡張ライブラリ io/console による IO#winsize= の
+対応の追加修正。端末サイズを小さくする時も SetConsoleScreenBufferSize() を呼び
+出すようにしています。また SetConsoleWindowInfo() に渡すサイズの指定が縦横とも
+に大きかったのを修正し、SetConsoleWindowInfo() が失敗した時に引数のウィンドウサ
+イズが書き換えられるみたいなので、それを使って SetConsoleScreenBufferSize() か
+らやりなおすようにしています。 [ruby-core:82741] [Bug #13888]
