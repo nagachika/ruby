@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb で bundler のテスト用のディレクトリコピーに -r オプシ
+ョンを追加しています。
