@@ -1,0 +1,2 @@
+lib/rdoc/rdoc.gemspec の encoding 指定の magic comment を coding: utf-8 に修正
+しています。 emacs でのエンコーディング指定が効かなかったみたいです。
