@@ -1,0 +1,2 @@
+標準添付ライブラリ csv の gemspec ファイルでバージョンの更新と spec.files の修
+正。また lib/csv.rb の冗長な private を削除しています。
