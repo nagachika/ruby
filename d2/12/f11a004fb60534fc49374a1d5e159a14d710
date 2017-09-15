@@ -1,0 +1,3 @@
+Random.urandom で getrandom(2) や arc4random(2) などのシステムコールも /dev/
+urandom からの読み込みも失敗した時に nil を返していたのを、例外発生させるように
+しています。 [ruby-dev:50231] [Bug #13885]
