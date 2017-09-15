@@ -1,0 +1,2 @@
+r59845 の rdoc の更新で IO.console.winsize を使っていたところを IO.console_size
+を使うように修正しています。 CI でドキュメント生成に失敗してたそうです。
