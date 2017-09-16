@@ -1,0 +1,2 @@
+配列リテラルが条件部に書かれていた時に空配列なら newarray 命令と pop 命令を削れ
+るので iseq_peephole_optimize() で最適化するようにしています。
