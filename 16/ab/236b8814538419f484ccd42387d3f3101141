@@ -1,0 +1,2 @@
+r59876 に続き compile_loop() で while や until でも branch coverage 計測のため
+の trace2 の挿入を追加しています。
