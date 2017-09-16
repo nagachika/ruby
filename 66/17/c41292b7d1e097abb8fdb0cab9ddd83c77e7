@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick でアクセスログに出力する文字列が確実に escape される
+ようにする修正。 https://hackerone.com/reports/223363
