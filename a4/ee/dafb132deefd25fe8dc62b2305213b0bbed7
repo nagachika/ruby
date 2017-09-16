@@ -1,0 +1,3 @@
+環境変数 PATH および RUBYPATH の影響を確認するテストで PATH は Windows などの環
+境ではライブラリのサーチパスにもなっているので、元の値を消さないようにしていま
+す。 https://github.com/ruby/ruby/pull/1616 [ruby-core:81178] [Bug #13569]
