@@ -1,0 +1,2 @@
+Windows 環境(mswin, mingw, cygwin いずれも)で LIBPATHENV に PATH を設定しておく
+ように configure および win32/Makefile.sub を修正しています。
