@@ -1,0 +1,3 @@
+convert_type() から conv_method_names の配列内の探索を conv_method_index() とい
+う関数に切り出し convert_type_with_id() でも同じ関数を使って、引数 index に負の
+値を渡すことで自動的に暗黙の変換用のメソッドを検索できるようにしています。
