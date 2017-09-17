@@ -1,0 +1,2 @@
+parse.y で lex_state への代入を SET_LEX_STATE() というマクロを利用するようにし
+て yydebug が指定された時のデバッグ出力に対応させています。
