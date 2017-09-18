@@ -1,0 +1,3 @@
+r59927 の修正、ということで svn property が設定されているので、多分
+.gitattributes に追加されてた bin/ruby を実際に svn:ignore に追加する設定だと思
+います。
