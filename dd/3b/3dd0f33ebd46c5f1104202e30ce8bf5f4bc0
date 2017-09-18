@@ -1,0 +1,2 @@
+test/ruby/test_rubyoptions.rb で配列を多値的に代入する時に右辺値に不要な * をつ
+けていたのを消しています。
