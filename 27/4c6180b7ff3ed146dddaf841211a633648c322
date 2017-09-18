@@ -1,0 +1,3 @@
+標準添付ライブラリの .gemspec ファイルで spec.homepage に https://
+www.ruby-lang.org/ を使ってたものを GitHub のそれぞれのリポジトリを使うように変
+更しています。 [ruby-core:82817] [Bug #13906]
