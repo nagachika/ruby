@@ -1,0 +1,3 @@
+r59927 の ruby-runner の bin/ruby 改名の続きで make bin/ruby のルールで $
+(RUBY_INSTALL_NAME) のかわりに $(@F) という Makefile のマクロを使って、ターゲッ
+トの basename 部分(つまり ruby)を取り出して使うようにしています。
