@@ -1,0 +1,4 @@
+式展開を含む文字列リテラルに : をつけて :"#{var}" のように dynamic Symbol を作
+る記法で send 命令を使って intern メソッドを呼び出していたのを
+opt_call_c_function 命令を使って直接 C 関数を呼び出すように最適化しています。
+String#intern の再定義の影響を受けないようにするためみたいです。
