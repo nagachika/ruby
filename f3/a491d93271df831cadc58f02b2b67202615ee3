@@ -1,0 +1,3 @@
+r31628 で追加された ext/io/console/lib/console/size.rb で require "io/console"
+が LoadError で失敗した時に代替実装する時に IO のクラスメソッドではなくインスタ
+ンスメソッドとして定義してしまっていたのを修正しています。
