@@ -1,0 +1,3 @@
+tool/run-lcov.rb で Coverage.results の結果の branch coverage と method
+coverage の内容で通し番号を示す id を誤って行番号として扱かってたところがあった
+のを修正しています。
