@@ -1,0 +1,4 @@
+r59927 で ruby-runner を bin/ruby に改名した影響で srcdir でビルド/インストール
+した時に元の ruby-runner が ruby としてインストールされてしまっていたそうです。
+そこで bin/ruby ではなく exe/ruby という名前(パス)に変更しています。
+[ruby-dev:50250] [Bug #13911]
