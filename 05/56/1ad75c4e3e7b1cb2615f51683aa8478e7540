@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の count_objects_size() と count_symbols() と
+count_nodes() で setup_hash() で生成しているので冗長だった nil チェックなどを削
+除しています。
