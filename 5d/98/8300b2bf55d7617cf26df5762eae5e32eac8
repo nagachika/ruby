@@ -1,0 +1,4 @@
+String から Symbol を生成するいわゆる rb_str_intern() を VM 命令として intern
+命令を追加しています。 r59946 で opt_call_c_function 命令を直接コンパイラが吐く
+ようにしてましたが、これは ISeq.dump で出力できないそうなので専用の命令を追加し
+て対処することにしたようです。
