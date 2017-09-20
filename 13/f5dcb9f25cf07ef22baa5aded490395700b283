@@ -1,0 +1,3 @@
+例外クラス KeyError に receiver と key というメソッドを追加していて、Hash#fetch
+や ENV.fetch でエラー発生したときに、なんというキー名がみつからなかったのか例外
+からわかるようにしています。 [ruby-core:73774] [Feature #12063]
