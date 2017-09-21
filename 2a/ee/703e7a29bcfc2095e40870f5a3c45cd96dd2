@@ -1,0 +1,3 @@
+標準添付ライブラリ set で Set#=== メソッドを include? の alias として追加してい
+ます。 https://github.com/ruby/ruby/pull/1673 [ruby-core:82334] [Feature #
+13801]
