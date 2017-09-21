@@ -1,0 +1,3 @@
+Thread#abort_on_exception= と Thread#report_on_exception= で両方 true がセット
+されていた時に report_on_exception のほうが無視されて表示されなくなっていた不具
+合を修正しています。 [ruby-core:79280] [Bug #13163]
