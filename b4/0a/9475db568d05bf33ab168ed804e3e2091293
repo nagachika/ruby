@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::HTTPProxyServer#do_connect で IO#sysread
+や IO#syswrite を使っていて、シグナルで割り込まれて EAGAIN などでかえってきた時
+のリトライなどが実装されていない状態だったので IO#readpartial や IO#write を使
+うように修正しています。 [ruby-core:82861] [Bug #12130]
