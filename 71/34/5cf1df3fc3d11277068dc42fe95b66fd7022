@@ -1,0 +1,4 @@
+r59972 の ripper の Ripper.lex_state_name で lexer の状態を取れるようにして
+inspect の結果に埋め込む変更の再修正。 Array を継承した
+Ripper::Lexer::Elem::List で変数に自分自身の要素を splat して代入していなかった
+ので代入を追加しています。
