@@ -1,0 +1,3 @@
+標準添付ライブラリ ftp で rubyspec での Net::FTP#initialize のテストで Net::FTP
+#connect の引数の数が1であるという前提で書かれてたために、それを壊さないような
+workaround をしていたのを消して、ruby/spec のほうを修正しています。
