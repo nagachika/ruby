@@ -1,0 +1,3 @@
+rb_check_realpath() というほぼ rb_realpath_internal() を外部に見せるようにした
+C API を追加しています。 symbolic link を解決した本当のパスを返すもので、解決が
+できない時に Qnil を返すようになっているそうです。
