@@ -1,0 +1,4 @@
+spec/rubyspec を spec/ruby とディレクトリ名を変更しています。 upstream のリポジ
+トリ名が ruby/spec になっていて、他の ruby 実装でも ruby/spec というディレクト
+リ構成を使っているそうなのでそれに合わせるみたいです。 [ruby-core:82287] [Misc
+#13792]
