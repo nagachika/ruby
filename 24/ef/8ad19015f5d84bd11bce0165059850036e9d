@@ -1,0 +1,5 @@
+rb_big_fdiv_double() および fix_fdiv_double() でオブジェクトの型が T_FLOAT でな
+い時に RFLOAT_VALUE() を使って double の値を得ようとしてしまっていたので、変換
+を含む NUM2DBL() マクロを利用するように修正しています。うわー、これいつからだろ
+う。2.4.2 にはこの不具合が含まれているようですが。 [ruby-core:82924] [Bug #
+13928]
