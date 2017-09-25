@@ -1,0 +1,3 @@
+String#partition メソッドで分割されなかった時に receiver の String オブジェクト
+がそのまま返されていたのを、dup した別のオブジェクトを返すように変更しています
+。 [ruby-core:82911] [Bug #13925]
