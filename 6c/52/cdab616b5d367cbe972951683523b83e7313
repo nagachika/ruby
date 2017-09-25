@@ -1,0 +1,5 @@
+r59992 で LEGAL に転載した rubygems のライセンス情報の対象ファイルに lib/
+ubygems.rb が抜けてたので追加しています。ちなみにこの ubygems.rb ってのは、コマ
+ンドラインオプションで ruby -rubygems とすると -r rubygems と require したのと
+同じように動作するためのショートカット(?)です。今はもうデフォルトで rubygems は
+require されているので使う機会ないですね。
