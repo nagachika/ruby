@@ -1,0 +1,3 @@
+r60000 と同様に String#rpartition でも分割が行なわれなかった時に receiver をそ
+のまま返していたのを dup して返すようにしています。 [ruby-core:82911] [Bug #
+13925]
