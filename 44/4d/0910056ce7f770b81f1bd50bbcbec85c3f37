@@ -1,0 +1,4 @@
+r60005 での make exe/ruby でファイル名が ruby じゃない時に symbolic link をはる
+ようにした変更の続きで、symbolic link を作る処理を miniruby を利用するようにし
+ています。まず既存のファイルを unlink してから File.symlink をするようにもして
+いますが、exe/ruby 自身を使うのだと機能が足りないのかな?
