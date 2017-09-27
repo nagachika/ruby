@@ -1,0 +1,3 @@
+libruby.so の suffix につけるバージョン番号を major.minor にしていたのを
+RUBY_API_VERSION を使うようにしています。 r56905 の再修正みたいです。なんか修正
+したかったのは同じ現象のような気もするけど。 [ruby-dev:50262] [Bug #13931]
