@@ -1,0 +1,3 @@
+ThreadGroup#enclose の rdoc 用コメントで Thread::new のように "::" でクラスメソ
+ッドを呼ぶ記法が使われていたので Thread.new のように "." を使う記法に修正してい
+ます。 https://github.com/ruby/ruby/pull/1700
