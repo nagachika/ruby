@@ -1,0 +1,2 @@
+appveyor.yml でビルド時の BASERUBY として(?) 2.4 系の ruby を使うように設定を書
+き換えています。 https://github.com/ruby/ruby/pull/1702
