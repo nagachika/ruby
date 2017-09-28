@@ -1,0 +1,2 @@
+標準添付ライブラリ erb のテストに ERB#version や ERB#def_module などのテストケ
+ースを追加しています。
