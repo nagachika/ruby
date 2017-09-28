@@ -1,0 +1,3 @@
+rb_vm_make_jump_tag_but_local_jump() のリファクタリング。 make_localjump_error
+() の呼び出しの共通化と th->ec.tag.retval の参照を必要な時だけ実行するように分
+岐の後に移動するなど。
