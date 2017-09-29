@@ -1,0 +1,2 @@
+Complet#infinite? の実装もあらためて abs を使わずに real/imag 部を直に判定する
+実装に書き換えています。
