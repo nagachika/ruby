@@ -1,0 +1,2 @@
+拡張ライブラリの etc, dbm, sdbm, stringio, syslog, zlib などでインデントの修正
+のみ。
