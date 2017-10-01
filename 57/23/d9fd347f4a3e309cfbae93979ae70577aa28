@@ -1,0 +1,3 @@
+標準添付ライブラリ erb で String#unpack に [0] を使って最初の要素だけ使っていた
+のを String#unpack1 を利用するようにリファクタリングしています。
+[ruby-core:83027] [Feature #13943]
