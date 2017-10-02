@@ -1,0 +1,1 @@
+configure.ac で未使用になってたマクロ RUBY_PREREQ_AC の定義を削除しています。
