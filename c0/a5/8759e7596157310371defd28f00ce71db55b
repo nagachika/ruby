@@ -1,0 +1,4 @@
+拡張ライブラリ gdbm で StringValue() を使っていたところを ExportStringValue()
+というマクロに変更しています。なんだっけこれ…。doc/extension.rdco にも書かれて
+ないけど SafeStringValue() + rb_str_export() で、Encoding.default_external に変
+換するのも追加しているようです。
