@@ -1,0 +1,2 @@
+拡張ライブラリ ripper に r59972 で導入した Ripper::Lexer::Elem::List の inspect
+の表示を少し変更しています(状態名がクオートされないようにしています)。
