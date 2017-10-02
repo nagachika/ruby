@@ -1,0 +1,2 @@
+template/sizes.c.tmpl で Init_limits() の extern 宣言を関数内に書いてたのを外に
+出して、仮引数部も省略していたのを void を明示的に書くようにしています。
