@@ -1,0 +1,3 @@
+String#succ で返す文字列の coderange が更新されていなかったので r60059 や
+r60060 と同様に String#ascii_only? が不正な結果を返すことがあったのを修正してい
+ます。 [ruby-core:83062] [Bug #13952]
