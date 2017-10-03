@@ -1,0 +1,4 @@
+hash.c の rb_hash_invert() や struct.c の rb_struct_to_h()、キーワード引数を受
+け取る make_rest_kw_hash() などの関数でも r60078 と同様に ary_tmp_hash_new() の
+かわりに rb_hash_new_with_size() を使ってあらかじめ必要な容量を確保した Hash を
+作るようにしています。
