@@ -1,0 +1,2 @@
+r59946 の String#intern の再定義に dynamic symbol 作成が影響を受けないようにす
+る修正のテストを追加しています。
