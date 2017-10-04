@@ -1,0 +1,5 @@
+safe navigation operator (いわゆる「ぼっち演算子」)と代入記号つきメソッドの組み
+合わせで stack consistency error が発生することがある不具合を修正しています。
+iseq_compile_each0() で演算子つき代入のコンパイル時の LABEL の挿入箇所が popped
+が真の時に間違ってたみたいです。うーんこれはわからん。 [ruby-core:83078] [Bug #
+13964]
