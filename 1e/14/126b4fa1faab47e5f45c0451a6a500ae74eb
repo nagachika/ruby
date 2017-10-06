@@ -1,0 +1,3 @@
+rb_dir_s_empty_p() で opendir(3)、readdir(3)、closedir(3) でディレクトリが空か
+どうか確認する間 GVL を解放するようにしています。 [ruby-core:83071] [Feature #
+13958]
