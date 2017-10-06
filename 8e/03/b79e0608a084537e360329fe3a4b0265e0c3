@@ -1,0 +1,3 @@
+r60102 の parse.y の ripper 向けとの差を減らすため TOKEN2EID() マクロを定義して
+たのを revert しています。 Ripper.sexp で演算子メソッドの定義部分の結果が変わっ
+てしまっていたようです。 [ruby-core:83089] [Bug #13967]
