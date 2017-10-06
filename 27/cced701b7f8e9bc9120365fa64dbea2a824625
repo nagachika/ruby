@@ -1,0 +1,4 @@
+file.c の check3rdbyte() という関数で stat(2) を呼んでいたところも r60027 と同
+様 rb_stat() を使って GVL を解放するようにしています。 check3rdbyte() ってなん
+だろうかというと File.setuid?, setgid?, sticky? などで mode をチェックするため
+に呼んでいる関数みたいです。
