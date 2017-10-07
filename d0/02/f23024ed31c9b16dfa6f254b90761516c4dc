@@ -1,0 +1,2 @@
+r60117 で lib/webrick/webrick.gemspec に追加した metadata で文法エラーがあった
+のを修正しています。
