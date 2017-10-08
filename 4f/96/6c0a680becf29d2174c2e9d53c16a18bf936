@@ -1,0 +1,3 @@
+configure 時に環境変数 MANTYPE=doc を設定する条件に mandoc コマンドがあった時と
+いうのも追加しています。 OpenBSD では nroff ではなく mandoc コマンドを利用する
+そうです。 [ruby-core:83146] [Feature #13981]
