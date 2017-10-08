@@ -1,0 +1,4 @@
+define_method の例外メッセージや Method#inspect でクラス名を文字列化するところ
+で rb_class_name() で String オブジェクトを生成していたのをフォーマット文字列の
+PRIsVALUE で文字列するようにしています。inspect メソッドが再定義されていた時に
+その結果を使うようにするためみたいですね。
