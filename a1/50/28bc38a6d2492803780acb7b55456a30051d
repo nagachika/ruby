@@ -1,0 +1,5 @@
+struct METHOD に iclass というメンバーを追加して、UnboundMethod#super_method で
+複数の Module で同じメソッドが定義されているものを include していた時に親が正し
+く辿れていなかった不具合を修正しています。なるほど Module がどこに挿入された所
+で生えたメソッドかを静的に持っておかないといけなかったんですね。
+[ruby-core:83114] [Bug #13973]
