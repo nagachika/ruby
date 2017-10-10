@@ -1,0 +1,2 @@
+.gdbinit の rp_id と print_id で最後に改行を追加するのを rp_id コマンドのほうに
+移動しています。
