@@ -1,0 +1,3 @@
+template/verconf.h.tmpl で RbConfig::MAKEFILE_CONFIG の "sitedir" と
+"vendordir" に "no" を代入して無効にしようとした時に対応していたなかったのを修
+正しています。 [ruby-core:81563] [Bug #13631]
