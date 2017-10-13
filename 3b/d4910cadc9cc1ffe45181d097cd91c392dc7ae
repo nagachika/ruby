@@ -1,0 +1,2 @@
+file.c で DOSISH が定義されている環境でしか使わない変数 file_alt_separator の宣
+言を preprocessor の #ifdef DOSISH で括るようにしています。
