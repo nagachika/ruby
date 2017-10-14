@@ -1,0 +1,2 @@
+[DEL:r60166 の .gitignore の変更:DEL] と思ったのですが実は r59794 の変更だそう
+でした、を svn property svn:ignore に同期させています。
