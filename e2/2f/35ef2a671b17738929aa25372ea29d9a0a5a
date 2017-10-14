@@ -1,0 +1,5 @@
+tool/rbinstall.rb で stub ファイルを生成するためのファイルの先頭の shell 部分を
+ruby として無視するために =begin と =end のコメントアウトを使うようにしています
+。 =begin は shell として解釈されてしまうのでバックスラッシュによる行継続を使っ
+て変数の右辺として解釈させています。 Polyglot なスクリプトの書きかたですね。
+bundle コマンドの binstub が壊れてたそうです。 [ruby-core:83202] [Bug #13997]
