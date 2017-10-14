@@ -1,0 +1,2 @@
+.gitignore の bin/ruby を exe/ruby に変更し /exe/.time も追加しています。 [Bug
+#13911]
