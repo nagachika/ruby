@@ -1,0 +1,4 @@
+r60172 の WEBrick の TLS ソケットの accept の blocking 対策で OpenSSL::SSL
+::SSLSocket#accept_nonblock を利用して、wait_readable または wait_writable
+(SSLSocket は handshake などを行うので、読み書きどっちの block もありえる)で待
+つ処理を追加しています。 [Bug #14013] [Bug #14005]
