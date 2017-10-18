@@ -1,0 +1,3 @@
+r60180 とか r60184 の再々修正。 FreeBSD NetBSD などで LIBRUBY_SONAME を先に変数
+展開しておくようにしています。ruby.pc で LIBRUBY_SONAME が存在しない環境があっ
+たみたいです。 [ruby-core:83208] [Bug #14002]
