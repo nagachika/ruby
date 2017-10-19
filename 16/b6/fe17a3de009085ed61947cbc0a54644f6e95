@@ -1,0 +1,2 @@
+rubygems のテストで Gem::DefaultUserInteraction.ui が開きっぱなしになって fd
+leak していたので明示的に teardown で close するようにしています。
