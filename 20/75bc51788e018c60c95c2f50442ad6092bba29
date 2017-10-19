@@ -1,0 +1,1 @@
+rdoc のテストでも close 漏れしていた File の close を追加しています。
