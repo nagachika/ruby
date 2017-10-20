@@ -1,0 +1,4 @@
+外のスコープの変数と同名の変数の宣言を解消しています。なお r60201 のインデント
+修正もだと思いますが、コンパイラの警告をエラー扱いにするように -Werror=
+misleading-indentation、-Werror=duplicated-cond、-Werror=restrict などの gcc の
+オプションを追加しています。
