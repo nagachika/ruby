@@ -1,0 +1,2 @@
+Complex と Rational が常に freeze された状態になるようにしています。おお、まだ
+されてなかったのか。 [ruby-core:83167] [Feature #13983]
