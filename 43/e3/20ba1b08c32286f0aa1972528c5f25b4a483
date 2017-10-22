@@ -1,0 +1,2 @@
+rubygems の upstream から master の最新版をマージしています。ひとつ不具合修正が
+入っているようです。 https://github.com/rubygems/rubygems/issues/2041
