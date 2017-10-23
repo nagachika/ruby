@@ -1,0 +1,2 @@
+拡張ライブラリ pty の IO#expect の実装で不要な String#chr があったのを削ってい
+ます。
