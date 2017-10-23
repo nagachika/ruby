@@ -1,0 +1,3 @@
+拡張ライブラリ win32 の win32/registry の Win32::Registry#read, #write で
+REG_NONE というタイプに対応するようにしています。 REG_BINARY と同じ扱いにしてい
+ます。 [ruby-core:50627] [Bug #7526]
