@@ -1,0 +1,2 @@
+chomp_rs(), deleted_prefix_length(), deleted_suffix_length() に doxygen 用のコ
+メントを追加しています。
