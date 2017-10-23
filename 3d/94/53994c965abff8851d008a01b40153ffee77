@@ -1,0 +1,4 @@
+標準添付ライブラリ open3 の各種メソッドで stdin_data 引数に文字列でなく
+readpartial メソッドを呼び出せる IO のようなオブジェクトが渡された時に
+IO.copy_stream を使って対応するようにしています。 [ruby-core:80936] [Feature #
+13527]
