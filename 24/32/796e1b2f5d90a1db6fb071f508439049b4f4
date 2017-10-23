@@ -1,0 +1,2 @@
+NEWS ファイルに RbConfig::LIMITS の参照に require "rbconfig/sizeof" が必要なこ
+とを追記しています。
