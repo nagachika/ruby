@@ -1,0 +1,2 @@
+r60250 で const 型の変数 imemo_name を不要な初期化してたのを revert しています
+。
