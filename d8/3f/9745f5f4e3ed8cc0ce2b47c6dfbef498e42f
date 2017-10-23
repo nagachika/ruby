@@ -1,0 +1,2 @@
+同じく拡張ライブラリ pty の IO#expect で MatchData#to_a を使っていたところを
+MatchData#captures を利用するようにリファクタリングしています。
