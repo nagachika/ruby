@@ -1,0 +1,2 @@
+r60243 の tool/vcs.rb の git で revision 番号検出の修正。 git log で最後のコミ
+ットが svn に入ってないものだと取れないのに対応したのかな。
