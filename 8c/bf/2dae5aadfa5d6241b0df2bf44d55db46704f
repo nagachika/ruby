@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#min_version= や #max_version
+= で Symbol による指定が使えないのに rdoc には書いてあったので、METHODS_MAP の
+テーブルを lookup するように修正しています。
