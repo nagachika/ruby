@@ -1,0 +1,3 @@
+Linux の新しめのカーネルで追加された copy_file_range(2) というシステムコールを
+IO.copy_stream で利用して高速化を図っています。kernel 内で直接移動するので user
+land へのコピーが不要になるということですね。
