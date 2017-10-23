@@ -1,0 +1,2 @@
+拡張ライブラリ psych の yaml_emitter_write_block_scalar_hints() で変数に const
+修飾子を追加しています。これも警告除去のため。
