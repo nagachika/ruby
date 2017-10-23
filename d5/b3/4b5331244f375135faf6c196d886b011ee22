@@ -1,0 +1,4 @@
+make update-bundled_gems で Gem::SpecFetcher.fetcher.detect を呼んでるところで
+他の情報も break で返すようにしています。が、この $$F ってなんだろう…。[追記]
+$F は -a オプションの時に入力を自動で split して格納されている特殊変数らしい。
+$$ になっているのは Makefile のエスケープ。[/追記]
