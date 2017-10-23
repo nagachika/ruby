@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の FileUtils.cp のテストで assert_equal_filemode
+という独自 assertion の第4引数に ~File.umask を渡して umask の設定に依存した失
+敗を回避するようにしているようです。
