@@ -1,0 +1,3 @@
+Dir.glob に {a,b,c} のようなパターンマッチつきの時に fnmatch_helper() で分割し
+て処理するように最適化しています。 Rails がこういう Dir.glob を使ってるそうなの
+でその高速化のためみたいです。 [ruby-core:82660] [Feature #13873]
