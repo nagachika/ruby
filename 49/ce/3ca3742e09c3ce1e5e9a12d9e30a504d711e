@@ -1,0 +1,3 @@
+標準添付ライブラリ drb の ACL 機能の ACL::ACLEntry.new で引数の IP アドレスの
+net mask 部分が不正な時のエラーを無視してたのを、例外
+IPAddr::InvalidPrefixError をそのまま発生させるようにしています。
