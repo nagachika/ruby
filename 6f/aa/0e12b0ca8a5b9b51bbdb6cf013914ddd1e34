@@ -1,0 +1,2 @@
+make test-bundled-gems というターゲットを追加して、bundled gem のソースツリーを
+GitHub からとってきてテストを実施するようにしています。
