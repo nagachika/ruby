@@ -1,0 +1,2 @@
+benchmark/driver.rb に shebang を追加して直接実行できるようにしています。うーん
+env 使うと誰かが文句をいいそう。
