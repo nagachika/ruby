@@ -1,0 +1,2 @@
+node.h からすでに削除されている関数 rb_node_newnode_longlife() の宣言を削除して
+います。
