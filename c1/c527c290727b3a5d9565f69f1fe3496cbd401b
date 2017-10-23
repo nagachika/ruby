@@ -1,0 +1,5 @@
+標準添付ライブラリ set の Set#superset?, #proper_superset?, #subset?, #
+proper_subset? などのメソッドで @hash が比較演算子に対応しているかチェックする
+ようにしています。ふーむどうやら SortedSet は RBTree というのを利用しているので
+、all? を使った実装を使わないといけなかったようです。 [ruby-core:73807] [Bug #
+12072]
