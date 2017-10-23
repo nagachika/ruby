@@ -1,0 +1,4 @@
+標準添付ライブラリ set の Set#collect! で self.class.new(self) としていたのをや
+めて、引数なしで self.class.new してから each でループ回してセットするようにし
+ています。これはサブクラスの initialize で collect! を使ってると無限ループに陥
+る可能性があるから、とのこと。 [ruby-core:75770] [Bug #12437]
