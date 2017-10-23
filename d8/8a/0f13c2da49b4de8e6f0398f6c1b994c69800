@@ -1,0 +1,3 @@
+r60266 で拡張ライブラリ socket の Socket.gethostbyname と Socket.gethostbyaddr
+が deprecated だとコメントに追記したに対応して、代替として
+Addrinfo.getaddrinfo, Addrinfo#getnameinfo があることも追記しています。
