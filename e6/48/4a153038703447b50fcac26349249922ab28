@@ -1,0 +1,3 @@
+ruby_current_thread, ruby_current_vm, ruby_vm_event_flags,
+ruby_vm_const_missing_count などの VM 関係の変数を export するようにしています
+。JIT コンパイラを作りやすくするためみたいです。
