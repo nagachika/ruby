@@ -1,0 +1,3 @@
+__dir__ の返す文字列の Encoding を __FILE__ と同じく locale encoding に変換する
+ようにしています。 Windows 向け、かと思いきや macOS でも NFD/NFC の正規化の扱い
+で UTF-8-MAC という Encoding があったりするので影響あるようです。
