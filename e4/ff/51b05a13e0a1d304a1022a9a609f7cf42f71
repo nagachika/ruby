@@ -1,0 +1,2 @@
+拡張ライブラリ etc の Etc.sysconfdir の rdoc 用コメントで Windows 向けの追記を
+しています。 [ruby-core:43110] [Bug #6121]
