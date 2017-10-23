@@ -1,0 +1,3 @@
+r60247 の make test-bundled-gems で bundled gem のソースディレクトリで gem
+install の --install-dir を spec/rspec から .bundle に改名しています。テストに
+rspec 使ってるとは限らないから、ということかな。
