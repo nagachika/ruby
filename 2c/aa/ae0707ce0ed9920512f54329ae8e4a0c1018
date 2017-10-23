@@ -1,0 +1,2 @@
+r60218 で追加された FileUtils.cp_r のテストを symbolic link が有効な環境でのみ
+実施するようにしています。
