@@ -1,0 +1,3 @@
+doct/syntax/methods.rdoc の r60341 で追記した代入記号つきメソッドの呼び出しで評
+価値が常に右辺値になる記述のサンプルで receiver つきにしてメソッド呼び出しにな
+るようにしています。 https://github.com/ruby/ruby/pull/1725
