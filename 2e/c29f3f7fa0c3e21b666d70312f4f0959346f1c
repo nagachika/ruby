@@ -1,0 +1,4 @@
+Hash#compare_by_identity でキーを同一性でチェックするようにモードをセットする時
+に rb_init_identtable_with_size() で st_table を新たにサイズ指定で作成しておい
+てそっちに挿入後に RHASH(hash)->ntbl を差し替えるように最適化しています。これ
+rehash するより速いのかな?
