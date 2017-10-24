@@ -1,0 +1,4 @@
+String#delete で coderange の設定が正常にされることをチェックしているテストで
+String#tr を使っていた assertion があったので String#delete に変更しています。
+たぶん同様の String#tr についてのテストは r60060 で追加されているので大丈夫、と
+いうことではないかと。
