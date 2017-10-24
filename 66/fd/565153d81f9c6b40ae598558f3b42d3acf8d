@@ -1,0 +1,4 @@
+拡張ライブラリ openssl に upstream からマージしています。 OpenSSL::SSL
+::SSLContext#session_remove_cb= を利用するテストを skip するようにしています。
+コールバックは OpenSSL のライブラリから呼ばれるのですが、thread safe ではなくデ
+ッドロックを起こすことがあるため。
