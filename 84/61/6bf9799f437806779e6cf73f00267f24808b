@@ -1,0 +1,3 @@
+String#<< と String#concat の rdoc 用コメントを分離して String#concat には複数
+の引数が渡せるのでその差異を明確にしています。 https://github.com/ruby/ruby/
+pull/1614
