@@ -1,0 +1,5 @@
+ブラウザ(Chrome)でバイナリが動作する NaCl/PNaCl のサポートを削除しています。も
+う Google も PNaCl のサポートは終了することをアナウンスしているので、ruby も
+NaCl 向けビルドのためのコードは削除することにしています。 https://
+bugs.chromium.org/p/chromium/issues/detail?id=239656#c160 https://github.com/
+ruby/ruby/pull/1726 [ruby-core:83497] [Feature #14041]
