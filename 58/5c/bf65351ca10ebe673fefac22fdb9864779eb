@@ -1,0 +1,2 @@
+拡張ライブラリ zlib の Zlib::GipWriter#write も IO#write に合わせて複数引数を受
+け付けるようにしています。
