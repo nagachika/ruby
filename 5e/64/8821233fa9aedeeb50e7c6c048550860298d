@@ -1,0 +1,3 @@
+標準添付ライブラリ rss の <itunes:explicit> というタグの対応を修正しています。
+rss.rb ってこんなものもサポートしてたんだ。 https://help.apple.com/itc/
+podcasts_connect/#/itcb54353390
