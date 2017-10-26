@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の IO オブジェクトを模倣している OpenSSL::Buffering やテ
+ストで使っている IO を模倣するクラスで write の複数引数対応に追随させています。
