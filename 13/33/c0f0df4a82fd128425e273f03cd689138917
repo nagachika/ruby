@@ -1,0 +1,3 @@
+r60279 の Windows で拡張ライブラリ etc の Etc.sysconfdir をビルド時の変数から受
+け取るようにしてたのを revert しています。 Appveyer でのテストがこけてたようで
+す。 https://ci.appveyor.com/project/ruby/ruby/build/1.0.5571
