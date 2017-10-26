@@ -1,0 +1,3 @@
+ARGF.read_nonblock が IO#read_nonblock と同様にオプション引数で exception: true
+を受け付けるようになっているので、rdoc 用コメントにも反映させています。
+[ruby-core:70000] [Feature #11358]
