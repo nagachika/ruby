@@ -1,0 +1,3 @@
+rb_type_str() の switch 文で default 節で return していたのを switch の引数(っ
+ていうのかな)を enum 型にしたので、case T_MASK に変更してコンパイラの警告除去し
+ています。
