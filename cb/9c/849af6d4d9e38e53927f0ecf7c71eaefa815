@@ -1,0 +1,5 @@
+File.chmod, File.lchmod, File.chown, File.lchown, File.unlin, File.utime などの
+ファイルシステム操作するメソッド群でシステムコールを呼ぶ時に GVL を解放するよう
+にしています。シングルスレッドでの性能は落ちますが、遅いファイルシステムで他の
+Thread をブロックしないようにしているのだと思います。 [ruby-core:83200]
+[Feature #13996]
