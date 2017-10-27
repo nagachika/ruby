@@ -1,0 +1,2 @@
+make test-bundled-gems の前準備用のターゲットで power_assert 向けに pry も事前
+インストールする gem に追加しています。
