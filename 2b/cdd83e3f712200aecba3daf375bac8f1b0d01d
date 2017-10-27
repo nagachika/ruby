@@ -1,0 +1,3 @@
+tool/make-snapshot で gems/bundled_gems の内容を読んで gem ファイル名をつくると
+ころで変数名が衝突して上書きされてたそうなので改名しています。
+[ruby-core:83553] [Misc #14050]
