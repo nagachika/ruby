@@ -1,0 +1,3 @@
+r60297 で標準添付ライブラリ securerandom に追加された SecureRandom::Formatter#
+choose の rdoc 用コメントで省略不可能な第2引数を省略したサンプルが書かれてたの
+で修正しています。
