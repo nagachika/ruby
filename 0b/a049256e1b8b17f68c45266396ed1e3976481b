@@ -1,0 +1,4 @@
+begin, end メソッドがあるオブジェクトは Enumerable#sum で Range オブジェクトと
+いう想定で処理されて、exclude_end? が未定義だと NoMethodError が発生するみたい
+ですが(そりゃそうだ)、これを TypeError を発生させるようにしています。
+[ruby-core:83541] [Bug #14048]
