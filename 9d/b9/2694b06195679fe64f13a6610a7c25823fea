@@ -1,0 +1,2 @@
+rb_iseq_compile_node() で不正な iseq type の時のエラーメッセージにタイプ名を含
+めるようにしています。
