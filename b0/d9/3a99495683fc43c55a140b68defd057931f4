@@ -1,0 +1,2 @@
+r60407 と同様に debug.c の ruby_dummy_gdb_enums に struct RSymbol のメンバーも
+追加しています。これもデバッガから見えるようにするためかな。
