@@ -1,0 +1,3 @@
+Array#max, Array#min などのメソッドの rdoc 用コメントのサンプルコードでブロック
+パラメータに receiver と同じ変数名を使っていて警告が出るようなサンプルになって
+いたのを修正しています。 https://github.com/rurema/doctree/pull/697
