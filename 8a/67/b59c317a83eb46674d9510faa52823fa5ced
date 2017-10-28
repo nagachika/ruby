@@ -1,0 +1,3 @@
+r60417 の IO#puts の writev(2) 対応で Windows でのテストで後始末時に close が
+Errno::EPIPE で失敗していたそうで、rescue を追加しています。並列テスト時におき
+るのかな。
