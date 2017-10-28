@@ -1,0 +1,2 @@
+test/ostruct/test_ostruct.rb の #frozen_string_literal magic comment を true に
+変更しています。
