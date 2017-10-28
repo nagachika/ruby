@@ -1,0 +1,2 @@
+vm_push_frame() も引数の rb_thread_t を rb_execution_context_t に変更しています
+。
