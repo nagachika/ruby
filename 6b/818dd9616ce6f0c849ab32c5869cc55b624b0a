@@ -1,0 +1,4 @@
+Array/Hash/Symbol への変換関数 rb_to_ary_type(), rb_to_hash_type(),
+rb_to_symbol_type() という関数を extern 関数として定義/改名して、
+rb_convert_type_with_id() を呼んで変換していた箇所でこれを使うようにリファクタ
+リングしています。
