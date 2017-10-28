@@ -1,0 +1,2 @@
+r60441 の続きで struct cont_saved_vm_stack コメントに書いてある th->ec->... を
+ec->... に変更しています。
