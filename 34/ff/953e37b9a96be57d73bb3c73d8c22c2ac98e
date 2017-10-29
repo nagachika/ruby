@@ -1,0 +1,2 @@
+vm_getspecial(), lep_svar(), lep_svar_write(), lep_svar_get(), lep_svar_set()
+などの関数も引数の rb_thread_t を rb_execution_context_t に変更しています。
