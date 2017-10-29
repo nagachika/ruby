@@ -1,0 +1,2 @@
+vm_block_handler_to_proc() という関数は削除してかわりに rb_vm_bh_to_procval()
+を利用するようにリファクタリングしています。
