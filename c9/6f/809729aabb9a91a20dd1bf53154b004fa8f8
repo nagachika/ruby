@@ -1,0 +1,2 @@
+vm_call_xxx() の関数群(および生成ツールの tool/mk_call_iseq_optimized.rb)も引数
+の rb_thread_t を rb_execution_context_t に変更しています。
