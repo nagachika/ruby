@@ -1,0 +1,2 @@
+vm_search_super_method() も引数の rb_thread_t を rb_execution_context_t に変更
+しています。
