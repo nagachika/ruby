@@ -1,0 +1,2 @@
+vm_cref_push() も引数の rb_thread_t を rb_execution_context_t に変更しています
+。また先に変更した関数の引数に const 修飾子を追加しています。
