@@ -1,0 +1,2 @@
+vm_get_ev_const() も引数の rb_thread_t を rb_execution_context_t に変更していま
+す。
