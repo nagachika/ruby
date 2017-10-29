@@ -1,0 +1,4 @@
+vm_caller_setup_arg_block() と VM の実行のメインループである vm_exec_core() も
+(従って各 VM 命令の実行部分も) rb_thread_t ではなく rb_execution_context_t を受
+け取るように変更しています。rb_thread_t が必要なところは逆に rb_ec_thread_ptr()
+で ec から辿るようにしています。
