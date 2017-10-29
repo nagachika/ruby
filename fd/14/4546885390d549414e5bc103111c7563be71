@@ -1,0 +1,2 @@
+compile.c iseq.c の関数の引数や変数の NODE型のポインタに const 修飾子をあちこち
+追加しています。
