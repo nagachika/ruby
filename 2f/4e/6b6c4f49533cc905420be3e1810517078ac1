@@ -1,0 +1,2 @@
+vm_throw() および vm_throw_continue(), vm_throw_start() も引数の rb_thread_t を
+rb_execution_context_t に変更しています。
