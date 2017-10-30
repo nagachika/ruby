@@ -1,0 +1,2 @@
+struct node_buffer_struct の node_buffer_t への typedef は node.h でしているの
+で node.c の定義部での typedef は削っています。
