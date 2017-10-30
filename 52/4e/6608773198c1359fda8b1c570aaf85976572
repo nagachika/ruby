@@ -1,0 +1,4 @@
+r60284 の copy_file_range(2) という Linux のシステムコールを使った
+IO.copy_stream の実装で copy_file_range(2) が EBADF を返した時に fd に O_APPEND
+が設定されてたら例外を発生させずに他の実装を利用するようにしています。
+[ruby-core:82646] [Feature #13867]
