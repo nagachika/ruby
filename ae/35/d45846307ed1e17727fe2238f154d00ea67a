@@ -1,0 +1,3 @@
+TracePoint.trace の rdoc 用コメントのサンプルコードで、ブロックパラメータに渡さ
+れるオブジェクトに line メソッドを呼んでいる例があったので lineno に修正してい
+ます。 https://github.com/ruby/ruby/pull/1731
