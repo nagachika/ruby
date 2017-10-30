@@ -1,0 +1,2 @@
+TracePoint#disable の rdoc 用コメントのサンプルコードの戻り値が間違ってたのを修
+正しています。 https://github.com/ruby/ruby/pull/1727
