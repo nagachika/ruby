@@ -1,0 +1,3 @@
+命令列の disassemble (コマンドラインオプション --dump=insns が指定された時など
+に表示するもの)のための関数 rb_insn_operand_intern() で最近追加された
+rb_call_info_t::flag の種類の対応を追加しています。
