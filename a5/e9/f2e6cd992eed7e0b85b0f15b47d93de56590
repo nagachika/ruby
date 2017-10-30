@@ -1,0 +1,1 @@
+error.c に冗長な #include <stdio.h> があったので削除しています。
