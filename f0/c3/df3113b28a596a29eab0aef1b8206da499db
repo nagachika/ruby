@@ -1,0 +1,2 @@
+IO#close_read と IO#close_write の rdoc 用コメントで 2.3 以降は close 済みの IO
+に呼んでも無視されて IOError は発生しないことを追記しています。
