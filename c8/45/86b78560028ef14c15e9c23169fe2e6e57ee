@@ -1,0 +1,2 @@
+r60440 の rb_execution_context_t を切り出す変更に追随して .gdbinit で参照してた
+変数名を変更しています。
