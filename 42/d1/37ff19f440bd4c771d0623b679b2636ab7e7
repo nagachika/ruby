@@ -1,0 +1,2 @@
+rb_block_arity(), rb_block_min_max_arity(), rb_mod_define_method() などの関数で
+も GET_THREAD() は不要になったので GET_EC() を使うように変更しています。
