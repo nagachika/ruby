@@ -1,0 +1,2 @@
+vm_exec() の引数も rb_thread_t から rb_execution_context_t に変更。あれ、
+vm_exec() はもうしてなかったけ…。あれは vm_exec_core() か。
