@@ -1,0 +1,2 @@
+REWIND_CFP() というマクロ内で GET_THREAD() を使ってたのは ec だけで良くなったの
+で GET_EC() に変更。
