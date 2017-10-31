@@ -1,0 +1,2 @@
+io_fwritev() で引数が文字列オブジェクトでなかった時のために rb_obj_as_string()
+で変換するようにしています。 [ruby-core:59408] [Feature #9323]
