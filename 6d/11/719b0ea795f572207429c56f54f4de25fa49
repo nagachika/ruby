@@ -1,0 +1,3 @@
+rb_set_safe_level() および safe_setter() で GET_THREAD() のかわりに GET_EC() を
+利用するようにしています。また rb_set_safe_level() で rb_vm_stack_to_heap() を
+呼ぶようにしています。ログを読むとブロック引数をProc化するためっぽいですね。
