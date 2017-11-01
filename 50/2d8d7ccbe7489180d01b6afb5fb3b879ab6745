@@ -1,0 +1,1 @@
+rb_eval_cmd() で GET_THREAD() のかわりに GET_EC() を使うようにしています。
