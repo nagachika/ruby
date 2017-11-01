@@ -1,0 +1,2 @@
+gc_mark_roots() で GET_THREAD() のかわりに GET_EC() を利用するようにリファクタ
+リングしています。
