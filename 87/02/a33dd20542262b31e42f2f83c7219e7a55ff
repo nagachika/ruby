@@ -1,0 +1,3 @@
+rb_vmdebug_stack_dump_raw(), rb_vmdebug_debug_print_pre(),
+rb_vmdebug_debug_print_post(), control_frame_dump() や関数マクロ VM_CFP_CNT()
+の引数の rb_thread_t も rb_execution_context_t に変更しています。
