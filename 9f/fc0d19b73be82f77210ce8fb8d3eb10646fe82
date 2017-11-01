@@ -1,0 +1,2 @@
+vm_catch_protect() の引数の rb_thread_t を rb_execution_context_t に変更してい
+ます。
