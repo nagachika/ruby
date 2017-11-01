@@ -1,0 +1,2 @@
+rb_vmdebug_stack_dump_all_threads() でも rb_vm_t の取得に GET_THREAD() を使って
+いたところを GET_VM() を利用するようにリファクタリングしています。
