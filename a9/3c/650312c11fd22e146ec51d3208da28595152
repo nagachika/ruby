@@ -1,0 +1,2 @@
+error_print() および rb_threadptr_error_print() も引数の rb_thread_t を
+rb_execution_context_t に変更して、関数名も変更しています。
