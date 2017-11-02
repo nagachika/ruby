@@ -1,0 +1,2 @@
+r60589 で切り出した compile_return で、top-level return の時に ensure 節の実行
+が行なわれない不具合の修正をしています。 [ruby-core:83589] [Bug #14061]
