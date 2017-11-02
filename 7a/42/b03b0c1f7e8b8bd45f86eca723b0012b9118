@@ -1,0 +1,5 @@
+NODE に行番号を struct RNode::nd_reserved を前後 16bit に分けて lineno と
+column を詰めるようにしています。ついでに parse.y で各 NODE の確保の引数に
+column を渡してたのを YYLTYPE という位置情報を持つ型を渡すようにしています。今
+までは行番号はどうしてたんだっけなぁ、と思ったら struct RBasic::flags の一部に
+格納してて、このコミットではそこはいじらず両方存在するような状態です。
