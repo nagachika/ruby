@@ -1,0 +1,2 @@
+r60598 の File.realpath の taint フラグの伝播を revert して常に taint するよう
+に戻しています。追加したテストが失敗してたそうです。
