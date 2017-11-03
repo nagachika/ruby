@@ -1,0 +1,4 @@
+File.realpath で引数の path が tainted でなくて cwd も利用していない時にも戻り
+値の文字列が taint されるようになっていたので、OBJ_INFECT() を使って引数のオブ
+ジェクトの tainted フラグを伝播させるように修正しています。 [ruby-core:83583]
+[Bug #14060]
