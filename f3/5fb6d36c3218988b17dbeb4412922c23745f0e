@@ -1,0 +1,6 @@
+標準添付している bundler のテスト用の spec/bundler/spec_helper.rb で Windows 環
+境(mingw, mswin)で open3 のかわりに win32/open3 というライブラリ? を使うように
+していたのですが、Windows でも open3 は動くので単に require "open3" するように
+修正いています。またスクリプト自体のファイルパスをチェックしているところで ":"
+や "-" が含まれていたらエラーにしているところがあって、これも許可する文字に追加
+しています。
