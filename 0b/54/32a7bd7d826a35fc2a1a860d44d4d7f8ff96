@@ -1,0 +1,2 @@
+spec/bundler/install/global_cache_spec.rb でオプション引数の後に通常引数を渡し
+ているところがあったので、順序を入れ換えています。
