@@ -1,0 +1,3 @@
+rubygems も upstream から 2.7.0 をマージしています。新しい minor version だ!
+といってもこのコミットではあまり大きな変更はありません。 http://
+blog.rubygems.org/2017/11/01/2.7.0-released.html
