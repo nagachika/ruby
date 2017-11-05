@@ -1,0 +1,2 @@
+IO#readlines と IO.readlines の rdoc 用コメントの文法やマークアップの修正と、サ
+ンプルコードの追加をしています。
