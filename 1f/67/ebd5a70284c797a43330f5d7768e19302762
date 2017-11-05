@@ -1,0 +1,2 @@
+構造体 node_buffer_elem_t と node_buffer_t の最後のメンバーの部分に可変長のメモ
+リ確保のための placeholder である点をコメントとして書いています。
