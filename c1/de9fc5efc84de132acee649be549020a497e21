@@ -1,0 +1,4 @@
+NODE_STRTERM と NODE_HEREDOC というヒアドキュメントの parse 時の一時バッファ利
+用のための NODE を T_IMEMO 型オブジェクトに新たなサブタイプ imemo_strterm とい
+うのを追加してこれを利用するようにしています。 NODE をいろいろ便利に使ってるの
+をやめようとする動きの一環みたいです。
