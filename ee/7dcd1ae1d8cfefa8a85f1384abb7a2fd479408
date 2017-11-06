@@ -1,0 +1,4 @@
+r60634 (r60637) の NODE_STRTERM と NODE_HEREDOC の T_IMEMO 化で起きてた mswin/
+mingw での不具合修正みたいです。rb_strterm_literal_t および
+rb_strterm_heredoc_t で LLP64 環境向けに alignment の調整のために全メンバを
+VALUE 型との union として定義するようにしています。
