@@ -1,0 +1,2 @@
+r60634 (r60637) で追加した T_IMEMO 型オブジェクトの imemo_strterm タイプを
+imemo_parser_strterm に改名しています。
