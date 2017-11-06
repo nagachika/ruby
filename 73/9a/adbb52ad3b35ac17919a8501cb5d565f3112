@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の ObjectSpace.count_imemo_objects に imemo_strterm タ
+イプの対応を追加しています。
