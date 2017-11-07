@@ -1,0 +1,3 @@
+rb_free_tmp_buffer() で VALUE を struct RNode として利用していたところを
+rb_imemo_alloc_t* としてアクセスするように修正しています。r60239 の変更に追随が
+漏れてたところがあったようです。
