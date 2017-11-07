@@ -1,0 +1,3 @@
+rb_strterm_heredoc_t の sourceline というメンバーも int に変更したうえで LP64
+の環境向けに union を使って alignment を調整するようにしています。また
+parser_set_line() という関数は削除しています。
