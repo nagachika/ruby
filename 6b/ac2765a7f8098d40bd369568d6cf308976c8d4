@@ -1,0 +1,3 @@
+r60630 で拡張ライブラリ win32ole の WIN32OLE#methods で WIN32OLE#ole_methods の
+結果も混ぜるようにしたやつの続きで ole_methods が WIN32OLEQueryInterfaceError
+を発生させた場合に rescue して空配列にするようにしています。
