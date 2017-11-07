@@ -1,0 +1,3 @@
+parse.y で ripper 向けの時に rb_strterm_mark() という関数の定義をしないように
+preprocessor の #ifndef で括っています。未使用だから、かと思ったけど拡張ライブ
+ラリを static link した時に symbol が重複しないように、とのこと。
