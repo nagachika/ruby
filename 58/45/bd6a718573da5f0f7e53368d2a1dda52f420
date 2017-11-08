@@ -1,0 +1,3 @@
+bootstraptest/runner.rb でテストが Interrupt で割り込まれた(端末からのシグナル
+とか)時に rescue 節で実行したテスト数と現在実行中のファイルを表示するようにして
+います。
