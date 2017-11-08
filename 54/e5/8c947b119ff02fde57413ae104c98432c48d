@@ -1,0 +1,2 @@
+rubygems の upstream から 2.7.1 をマージしています。 gem update --system の不具
+合修正らしいです。mkdir 忘れとかそんなのっぽい。
