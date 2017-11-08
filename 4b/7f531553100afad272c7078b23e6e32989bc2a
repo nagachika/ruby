@@ -1,0 +1,3 @@
+Enumerable#cycle が返す Enumerator の size メソッドの実装で receiver の要素数よ
+りまえに引数のチェックをして、不正な引数が渡されたのに無視されないようにしてい
+ます。
