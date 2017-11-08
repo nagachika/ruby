@@ -1,0 +1,2 @@
+r60666 の修正のテストの Enumerator::Lazy 版も追加しています。 [ruby-core:83680]
+[Bug #14082]
