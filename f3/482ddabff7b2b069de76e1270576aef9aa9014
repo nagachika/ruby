@@ -1,0 +1,2 @@
+rb_threadptr_exec_event_hooks_orig() を rb_exec_event_hooks_orig() に改名してい
+ます。
