@@ -1,0 +1,3 @@
+rb_thread_raised_{set,reset,p,clear}() などの関数マクロを
+rb_execution_context_t * 型の変数を受け取るようにして rb_ec_raised_... に改名し
+ています。
