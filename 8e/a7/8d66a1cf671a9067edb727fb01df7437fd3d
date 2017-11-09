@@ -1,0 +1,2 @@
+vm_once_dispatch() の引数の rb_thread_t を rb_execution_context_t に変更し、つ
+いでに引数の順番も変更しています。
