@@ -1,0 +1,6 @@
+rb_threadptr_exec_event_hooks() と rb_threadptr_exec_event_hooks_and_pop_frame
+() は呼び元で pop_p という変数で分岐して呼びわけられてましたが、その実体は
+rb_exec_event_hooks_orig() という関数で結局引数 pop_p に同じ条件を渡してるだけ
+だったので rb_exec_event_hooks_orig() を rb_exec_event_hooks() と改名して直接こ
+れを呼ぶようにしています。そして rb_threadptr_exec_event_hooks() と
+rb_threadptr_exec_event_hooks_and_pop_frame() は削除しています。
