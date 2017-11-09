@@ -1,0 +1,2 @@
+rb_gc_register_mark_object() で GET_THREAD()->vm をみてたところを GET_VM() に置
+き換えています。
