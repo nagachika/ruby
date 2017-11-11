@@ -1,0 +1,3 @@
+コマンドラインオプションの --dump=parsetree で NODE をダンプする dump_node() で
+NODE_HASH の nd_alen の内容に応じて keyword argument か hash literal かの表示を
+するようにしています。
