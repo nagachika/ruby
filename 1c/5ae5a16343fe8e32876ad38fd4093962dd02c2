@@ -1,0 +1,4 @@
+INSN の line_no メンバーを埋め込みの構造体の中に括り出しています。なんでだろ。
+また構造体 struct iseq_line_info_entry を struct iseq_insn_info_entry に改名し
+たり、構造体 struct rb_iseq_constant_body のメンバー line_info_table を
+insns_info に改名したりといったリファクタリング。
