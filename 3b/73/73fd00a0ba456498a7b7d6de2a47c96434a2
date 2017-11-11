@@ -1,0 +1,3 @@
+ArgumentError の発生時に backtrace の行番号の設定が間違うことがあったみたいで、
+rb_backtrace_use_iseq_first_lineno_for_last_location() という関数を追加して
+iseq->body->location.first_lineno で書き換えるようにしています。
