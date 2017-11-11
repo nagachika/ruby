@@ -1,0 +1,2 @@
+iseq_peephole_optimize() で concatstrings 命令で連結する文字列が1つだけだったり
+した時に不要な命令を削るような最適化をしているようです。
