@@ -1,0 +1,2 @@
+struct parser_params から in_single という bit field を削除しています。 in_def
+のフラグに統合しているみたいです。
