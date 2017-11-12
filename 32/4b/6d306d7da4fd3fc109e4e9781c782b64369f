@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence を disassemble する時の rb_insn_operand_intern() で
+ローカル変数のオペランドの文字列化の処理を、命令融合でできた命令にも対応させる
+ようにしています。
