@@ -1,0 +1,4 @@
+拡張ライブラリ date のテストで Calendar クラスが未定義の時にテストを skip して
+いたのを、そもそもテストメソッドを定義しないようにして Skip の結果が出ないよう
+にしています。 https://github.com/ruby/ruby/pull/1743 [ruby-core:83690] [Bug #
+14088]
