@@ -1,0 +1,4 @@
+rb_iseq_line_no() という関数は find_line_no() の wrapper として引数 pos が 0 の
+時だけ -1 しないように分岐してましたが、呼び元で -1 してるところもあったので
+find_line_no() を rb_iseq_line_no() と改名して常に呼び元で考慮するようにしてい
+ます。
