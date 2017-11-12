@@ -1,0 +1,2 @@
+TracePoint.new にブロックが渡されなかった時になぜか ThreadError 例外が発生して
+いたのを ArgumentError に変更しています。 [ruby-core:83632] [Bug #14074]
