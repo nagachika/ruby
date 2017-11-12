@@ -1,0 +1,2 @@
+tool/mk_call_iseq_optimized.rb で生成するファイルの先頭に emacs 向けの mode
+line のコメントを追加するようにしています。
