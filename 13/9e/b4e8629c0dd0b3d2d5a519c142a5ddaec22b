@@ -1,0 +1,3 @@
+rb_ast_dispose() で rb_gc_writebarrier_remember() のかわりに RB_OBJ_WRITE() を
+使って ast->mark_ary を Qnil にリセットするようにしています。そのかわり
+rb_ast_free() のほうで ast->mark_ary を 0 クリアするのはやめています。
