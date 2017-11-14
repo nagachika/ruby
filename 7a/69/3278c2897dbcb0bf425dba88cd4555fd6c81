@@ -1,0 +1,6 @@
+$LOADED_FEATURES に格納される load したスクリプトの絶対パスを構築するのに cwd
+を得るために load_path_getcwd() という関数を利用していたのを
+rb_dir_getwd_ospath() という関数を使うように変更しています。よくわかってないの
+ですが Encoding の扱いが違っていて、ある条件で require 時に Encoding のロードの
+ためにまた Encoding が必要という状態になって再帰的に呼び出されてエラーになって
+しまうことがあったみたいです。 [ruby-dev:50221] [Bug #13863]
