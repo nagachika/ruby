@@ -1,0 +1,3 @@
+test/lib/envutil.rb の invoke_ruby で子プロセスに渡す環境変数の指定に RUBYLIB
+があった時に、自分自身も RUBYLIB の指定があったら、それに追加する形で渡すように
+修正しています。
