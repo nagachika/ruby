@@ -1,0 +1,2 @@
+.gitignore に MinGW でのテストで生成される /ext/-test-/win32/dln/dlntest.dll を
+追加しています。
