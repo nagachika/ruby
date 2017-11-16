@@ -1,0 +1,2 @@
+r60727 の iseq_peephole_optimize() の concatstrings 命令の対象によって命令を削
+る最適化で、freezestring 命令が続いてた時も考慮して削るようにしています。
