@@ -1,0 +1,6 @@
+VM 命令の trace を廃止して、struct iseq_insn_info_entry に events メンバーを追
+加して、コンパイル時にその箇所の命令のこの events にフラグを立てて処理するよう
+にして、TracePoint などによるトレースが不要な時のオーバーヘッドを抑えるようにし
+ているみたいです。このため tool/instruction.rb で各命令に trace_ の prefix つき
+のバージョンも定義しています。でもこの命令は動的に使われるみたいなので、--dump=
+insns でみようとしても表示されないですね。 [ruby-core:83758] [Feature #14104]
