@@ -1,0 +1,2 @@
+compile.c の remove_unreachable_chunk() で LINK_ELEMENT の TRACE タイプはスキッ
+プして判定するようにしています。
