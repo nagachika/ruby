@@ -1,0 +1,2 @@
+遅い filesystem 向けの GVL 解放の一環で readdir(3) の間も GVL を解放するように
+しています。が、これは後で revert されています。
