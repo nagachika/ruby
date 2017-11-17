@@ -1,0 +1,4 @@
+compile.c の iseq_set_sequence() で未初期化のメモリ領域の参照の不具合があったよ
+うで iseq->body->ci_entries の先のキーワード引数用の領域の MEMZERO() でのクリア
+を追加しています。どうも VM 命令列の peephole_optimization で命令が消えた時など
+に、初期化処理も消えて未初期化のままになるようなケースがあったみたいです。
