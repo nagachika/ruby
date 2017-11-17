@@ -1,0 +1,3 @@
+r60763 で追加された update_global_event_hook() という関数で ISeq の trace 版の
+命令の書き換えが ruby_vm_event_flags の現在のフラグと異なる時だけ実行するように
+して不要な処理をスキップするようにしています。
