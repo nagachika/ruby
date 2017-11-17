@@ -1,0 +1,4 @@
+r60769 の readdir(3) 時の GVL 解放で Windows 版で SEGV してたそうなので、#ifdef
+_WIN32 の環境では readdir_without_gvl() は READDIR() のままに戻すようにしていま
+す。チケットみると DIR* の扱いが thread-safe じゃなかったとか書かれてますね。
+[ruby-core:83772] [Bug #14108]
