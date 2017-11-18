@@ -1,0 +1,2 @@
+eval.c の rb_iterator_p() という関数を削除しています。ただの rb_block_given_p()
+の wrapper で、多分互換性のために残してたのかな?
