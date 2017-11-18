@@ -1,0 +1,1 @@
+vm_eval.c の rb_f_block_given_p() も static 関数にしています。
