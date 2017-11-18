@@ -1,0 +1,2 @@
+rb_thread_mark() に static 修飾子を付けて名前も thread_mark() に改名しています
+。
