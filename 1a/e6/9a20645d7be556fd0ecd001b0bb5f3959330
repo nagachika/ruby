@@ -1,0 +1,2 @@
+r60792 の追加修正。 warning_string() で cstr (つまり const char *)に対して
+RSTRING_PTR() を呼んでいたので、そのまま参照するように修正しています。
