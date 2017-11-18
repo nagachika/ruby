@@ -1,0 +1,2 @@
+vm.c の rb_proc_create_from_captured() も static 関数にして名前も
+vm_proc_create_from_captured() に変更しています。
