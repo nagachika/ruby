@@ -1,0 +1,4 @@
+thread_win32.c の native_mutex_lock(), native_mutex_unlock(), native_cond_wait
+() の戻り値が int になっていたので void に修正しています。 thread_pthread.c の
+ほうの同名の関数は void でした。 JIT の導入時に利用するため、揃えたかったとのこ
+と。 https://github.com/ruby/ruby/pull/1751
