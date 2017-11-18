@@ -1,0 +1,2 @@
+vm_eval.c の vm_raise_method_missing() を static 関数にして、名前も
+vm_raise_method_missing() に変更しています。
