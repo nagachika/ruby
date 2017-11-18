@@ -1,0 +1,1 @@
+addr2line.c の main_exe_path() も static 関数にしています。
