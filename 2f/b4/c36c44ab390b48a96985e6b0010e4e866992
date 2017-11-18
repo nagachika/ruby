@@ -1,0 +1,3 @@
+vm_check_match() および check_match() の第1引数に rb_execution_context_t を受け
+取るようにしています。 check_match() の中で GET_EC() していたのを呼び元(は VM
+の命令のところだったので ec は元から参照できてた)から渡すようにしています。
