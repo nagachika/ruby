@@ -1,0 +1,3 @@
+struct parser_params で in_class という bit field を追加して、class ... end の
+中での return を SyntaxError にするようにしています。トップレベルの return が許
+容された時に class の中でも呼べるようになってしまってました。
