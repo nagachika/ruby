@@ -1,0 +1,2 @@
+vm_method.c の rb_resolve_refined_method_callable() も static 関数にしています
+。これは rb_ を削らないのかな?
