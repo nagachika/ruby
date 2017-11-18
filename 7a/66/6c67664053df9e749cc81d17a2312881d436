@@ -1,0 +1,3 @@
+rb_source_location() という VALUE 型の関数で return 0 しているところがあったの
+で return Qnil に変更して、呼び元でも NIL_P() でチェックするように修正していま
+す。
