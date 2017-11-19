@@ -1,0 +1,2 @@
+NODE_GASGN, NODE_IASGN, NODE_LASGN など代入演算子の NODE で位置のカラムが正常に
+セットされてない不具合を修正しています。
