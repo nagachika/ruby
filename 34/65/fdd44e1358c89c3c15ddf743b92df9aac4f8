@@ -1,0 +1,3 @@
+parse.y の関数マクロ YYLLOC_DEFAULT() から first_loc, last_loc の設定をしている
+部分を RUBY_SET_YYLLOC() という関数マクロとして切り出して、yylex() から利用する
+ようにリファクタリングしています。
