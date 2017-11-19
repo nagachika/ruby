@@ -1,0 +1,2 @@
+r60825 の続きで RUBY_SET_YYLOC() の処理の内容を rb_parser_set_location() という
+関数として定義して、マクロでは単にこれを呼ぶようにしています。
