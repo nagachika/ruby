@@ -1,0 +1,4 @@
+EXEC_EVENT_HOOK_ORIG() という関数マクロに ruby_vm_event_flags を渡す引数を追加
+して rb_exec_event_hook_orig() でなにやら VM_ASSERT() によるチェックを追加して
+います。たぶん event_flags は rb_vm_t に統一したから不要になったチェックを削っ
+てかわりに念のため VM_ASSERT() を入れたのかな。
