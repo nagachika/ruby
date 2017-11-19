@@ -1,0 +1,2 @@
+vm_trace.c の rb_exec_event_hooks() のリファクタリング。 goto 文で移動していた
+のを分岐を整理して書き直しています。
