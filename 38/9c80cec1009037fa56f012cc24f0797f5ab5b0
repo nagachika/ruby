@@ -1,0 +1,3 @@
+.gdbinit の print_pathobj コマンドで String オブジェクトの VALUE である $str を
+そのまま C の文字列として printf(3) に渡していたので print_string コマンドを利
+用するように修正しています。
