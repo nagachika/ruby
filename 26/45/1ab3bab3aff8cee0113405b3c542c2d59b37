@@ -1,0 +1,5 @@
+rb_iseq_t::aux に trace_events というメンバーを追加して RUBY_EVENT_LINE,
+RUBY_EVENT_CLASS, RUBY_EVENT_END, RUBY_EVENT_CALL, RUBY_EVENT_RETURN,
+RUBY_EVENT_B_CALL, RUBY_EVENT_B_RETURN などの event hook は ISeq にもフラグをセ
+ットするようにしています。 rb_iseq_trace_set() で event hook に変更がない時に処
+理を skip できるようにしています。
