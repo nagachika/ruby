@@ -1,0 +1,1 @@
+File.mkfifo で mode 変数の型を int から mode_t に変更しています。
