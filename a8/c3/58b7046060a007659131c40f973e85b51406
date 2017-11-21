@@ -1,0 +1,2 @@
+vm_core.h で定義していた ENABLE_VM_OBJSPACE マクロの定義を gc.c に移動していま
+す。なるほど gc.c でしか参照していませんね。
