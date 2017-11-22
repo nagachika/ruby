@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix で Matrix.vstack および Matrix.hstack の引数に Vector
+も受け付けるようにしています。ここで to_matrix で変換するために Matrix#
+to_matrix も定義したんですね。
