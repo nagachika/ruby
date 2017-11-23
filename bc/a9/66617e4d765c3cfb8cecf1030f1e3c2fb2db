@@ -1,0 +1,2 @@
+test/erb/test_erb.rb で明示的な require "stringio" の追加と、未使用変数の警告除
+去のためのダミーの文追加。 https://github.com/ruby/ruby/pull/1763
