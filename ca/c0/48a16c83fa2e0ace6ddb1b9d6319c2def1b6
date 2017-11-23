@@ -1,0 +1,4 @@
+vm_args.c の args_setup_kw_parameters() で中で GET_EC() で
+rb_execution_context_t を取得していましたが、呼び元でも ec は持ってるので、引数
+で rb_execution_context_t を渡すようにしています。ついでに引数の順番も変更され
+てます。
