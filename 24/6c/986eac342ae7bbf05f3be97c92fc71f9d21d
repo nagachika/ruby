@@ -1,0 +1,3 @@
+opendir_without_gvl() の中で定義している union 型で const char * 型のメンバー
+(っていうのかな)を定義していたのを const void * に変更しています。
+nogvl_opendir() への引数が void * だから?
