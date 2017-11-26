@@ -1,0 +1,2 @@
+node.h で不要になっていたマクロ nd_modl, nd_clss_, nd_tval, nd_visi_ などの定義
+を削除しています。
