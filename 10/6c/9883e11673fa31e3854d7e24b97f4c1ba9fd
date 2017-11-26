@@ -1,0 +1,3 @@
+標準添付ライブラリ irb の Bidingin#irb でプロンプトを出す時に、その周辺のソース
+コードを表示するようにしています。便利そう。 https://github.com/ruby/ruby/pull/
+1764 [ruby-dev:50319] [Feature #14124]
