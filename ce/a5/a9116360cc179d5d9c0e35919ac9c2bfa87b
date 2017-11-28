@@ -1,0 +1,3 @@
+include/ruby/util.h に定義されてた my_getcwd() というマクロを削除しています。単
+に ruby_getcwd() に展開されるだけなので直接 ruby_getcwd() を呼ぶようにしていま
+す。
