@@ -1,0 +1,2 @@
+File.readable? File.writable? などのメソッドで呼び出す access(2) の呼び出し時に
+GVL を解放するようにしています。これも遅い file system への対策の一環ですね。
