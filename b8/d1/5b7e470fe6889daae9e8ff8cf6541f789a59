@@ -1,0 +1,2 @@
+r60930 の Data クラスの deprecate にあわせて rubyspec の C API のテストで
+rb_cData をチェックしていたテストを 2.4以前だけ実行するように変更しています。
