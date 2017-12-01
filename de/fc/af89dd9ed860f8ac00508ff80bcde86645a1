@@ -1,0 +1,6 @@
+File.lutime というメソッドを追加しています。 lutimes(3) という symblic link の
+atime, mtime をセットする関数に対応するメソッドのようです。ずいぶん昔のチケット
+ですね。 [ruby-core:33163] [Feature #4052]
+あれでも configure.ac で AC_CHECK_FUNCS(lutime) でチェックしてるけど、#ifdef で
+チェックしてるのは HAVE_LUTIMES で実際の関数も lutimes() なので configure.ac が
+間違ってないかな?
