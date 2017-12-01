@@ -1,0 +1,4 @@
+拡張ライブラリ strscan に StringScanner#size と StringScanner#captures、
+StringScanner#values_at といったメソッドを追加して、直前の scan でマッチした
+group の capture 数やその内容を取得できるようにしています。ありそうでなかったメ
+ソッドって感じですね。 [ruby-core:20412] [Feature #836]
