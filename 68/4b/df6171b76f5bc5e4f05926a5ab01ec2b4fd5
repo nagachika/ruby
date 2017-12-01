@@ -1,0 +1,3 @@
+T_DATA 型のオブジェクトは deprecated として拡張ライブラリでは T_TYPEDDATA 型に
+移行することにして、Data クラスの定数は depreceted にマークして警告が出るように
+しています。ついに。 [ruby-core:29186] [Feature #3072]
