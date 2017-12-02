@@ -1,0 +1,4 @@
+prelude.rb に Kernel#pp の定義を追加して、メソッドが呼ばれた時に動的に require
+"pp" するメソッドを定義しておくことで明示的に require しなくても pp メソッドは
+いきなり使えるようにしています。irb や pry 使ってる時など便利そう。
+[ruby-core:83850] [Feature #14123]
