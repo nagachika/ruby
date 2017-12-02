@@ -1,0 +1,2 @@
+r60933 の configure.ac の関数名 lutimes() の typo を修正しています。
+[ruby-core:33163] [Feature #4052]
