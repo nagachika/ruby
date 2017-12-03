@@ -1,0 +1,3 @@
+prelude.rb で Kernel#pp および Binding#irb の定義をしたところで、再定義時の警告
+除去のため alias irb irb のように自分自身に alias することで警告抑制しています
+。バグ技っぽいですね。
