@@ -1,0 +1,2 @@
+拡張ライブラリ psych の 3.0.0 をマージしています。 r60917 で YAML.load に追加し
+たキーワード引数 symbolize_names を YAML.safe_load にも追加しています。
