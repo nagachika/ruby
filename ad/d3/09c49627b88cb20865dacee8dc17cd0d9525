@@ -1,0 +1,4 @@
+Kernel#pp の再定義ですが、まだ race condition があったようで、lib/pp.rb で
+Kernel module の再定義を module PP の定義後に行うようにしています。なるほどー
+Kernel#pp の再定義は終わったけどまだ PP が定義される前に再定義された Kernel#pp
+を別 Thread で呼ばれてしまうと今度は定数 PP が未定義のエラーになるんですね。
