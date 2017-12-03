@@ -1,0 +1,3 @@
+vm_trace.c の rb_suppress_tracing() で clobbered の警告除去のため変数 ec や vm
+の宣言に const を追加し EC_EXEC_TAG() の分岐に else 節を追加しています。こうい
+う回避のしかたははじめて見たような気がする。
