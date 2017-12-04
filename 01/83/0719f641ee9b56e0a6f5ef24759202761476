@@ -1,0 +1,3 @@
+make update-unicode-property-files でダウンロードする Unicode のデータファイル
+に emoji-data.txt を追加しています。また casefold.h を gperf 3.1 を使って再生成
+しているみたいです。
