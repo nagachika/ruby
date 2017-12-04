@@ -1,0 +1,5 @@
+rb_external_str_new_with_enc() で Ruby の管理していないメモリ領域をバッファとし
+て持つ String オブジェクトを生成する時に、ptr が NULL だったら
+rb_tainted_str_new_with_enc() を使って普通の文字列オブジェクトを生成するように
+しています。バッファ領域が NULL だったら特別扱いする必要はないし
+search_nonascii() を呼ぶと SEGV してしまうため。 [ruby-core:84055] [Bug #14150]
