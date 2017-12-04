@@ -1,0 +1,5 @@
+標準添付ライブラリ uri で scheme が file と postgres の URI の to_s メソッドで
+file:/path のように '//' が含まれていなかったのを file:///path のようになるよう
+に修正しています。慣習的にこうなるもんだと思ってましたが https://
+url.spec.whatwg.org/#url-serializing で明示的に file scheme については記述があ
+るみたいです。
