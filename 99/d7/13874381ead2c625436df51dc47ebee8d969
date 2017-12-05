@@ -1,0 +1,5 @@
+r60980 の追加修正? Refinements で Module を refine した時に superclass に
+IClass を生成してた処理を refinement_superclass() という関数に切り出して r60980
+の部分も同じ処理を利用するようにしています。たぶん同じことをしていることになる
+と思うのですが VM_CHECK_MODE が 2 に設定してコンパイルされた時に VM_ASSERT() の
+チェックにひっかかってたそうです。
