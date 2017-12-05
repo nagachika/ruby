@@ -1,0 +1,3 @@
+win32/setup.mak で BASERUBY の変数を setup.mk 自体の変数としてたのを、生成する
+Makefile の中の変数として定義するようにしている? みたいです。よくわかってません
+が to make Makefile stable とのこと。
