@@ -1,0 +1,3 @@
+doc/syntax/refinements.rdoc に Module#refine で refinements を定義した Module
+を include した Module を using した時にも refinements は有効になることを追記し
+ています。 [ruby-core:79880] [Bug #13271]
