@@ -1,0 +1,2 @@
+test/logger/test_logdevice.rb の log rotation のテストにいくつか sleep 0.01 を
+追加しています。少し待たないと rotation が起きなかったのかな?
