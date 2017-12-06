@@ -1,0 +1,3 @@
+rb_file_identical_p() から Windows 版の実装を rb_w32_file_identical_p() という
+関数に切り出して、 Windows の ReFS という filesystem で同一ファイルの判定が行な
+えるようにしているそうです。 [ruby-dev:50166] [Feature #13731]
