@@ -1,0 +1,2 @@
+拡張ライブラリ coverage の method coverage に r61025 で追加した ISeq の範囲情報
+を追加しています。 Coverage.result の結果にもフィールドが追加されています。
