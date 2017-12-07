@@ -1,0 +1,3 @@
+Fiber で使うマシンスタックの最小サイズ RUBY_VM_FIBER_MACHINE_STACK_SIZE_MIN を
+powerpc64 の環境では 32K * sizeof(VALUE) に引き上げています。スタックサイズが足
+りなくてテストが失敗していたそうです。 [ruby-core:82114] [Bug #13757]
