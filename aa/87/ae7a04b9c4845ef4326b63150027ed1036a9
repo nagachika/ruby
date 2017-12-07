@@ -1,0 +1,4 @@
+ruby のコマンドラインオプション --dump=parsetree や --dump=
+parsetree_with_comment で表示する時の NODE の位置情報を first_(lineno, column),
+last_(lineno, column) をそれぞれ表示してたのを (a,b)-(c,d) のように簡略化した表
+示をするようにしています。
