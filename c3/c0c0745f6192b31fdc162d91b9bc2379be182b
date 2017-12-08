@@ -1,0 +1,4 @@
+thread.c の update_coverage() は今では branch coverage のための操作だけ行うよう
+になったので update_branch_coverage() に改名して、int の中の bit を分割して利用
+していたのももう不要になったので普通に int を index として利用するようにしてい
+ます。
