@@ -1,0 +1,4 @@
+eval_intern.h の VAR_FROM_MEMORY(), VAR_INITIALIZED(), VAR_NOCLOBBERED() などの
+変数を gcc の未初期化の参照の警告を抑制するために、volatile をつけて宣言するよ
+うにするマクロを clang の時にも利用するようにしています。 clang 4.0.0 と 4.0.1
+で SEGV していたのがこれで回避できるそうです。
