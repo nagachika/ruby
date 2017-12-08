@@ -1,0 +1,3 @@
+tool/file2lastrev.rb で r61054 の変更に対応して VCS::NotFoundError でエラーにな
+った場合は終了ステータスをエラーにしないようにして、r60987 の make revision.h
+のコマンド先頭の - 削除(r60994 で revert された)を再度入れています。
