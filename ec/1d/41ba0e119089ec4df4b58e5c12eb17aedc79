@@ -1,0 +1,2 @@
+r61044 で RUBY_EVENT_SPECIFIED_LINE の参照の消し漏れと RUBY_EVENT_LINE の case
+節が重複していたのを消しています。
