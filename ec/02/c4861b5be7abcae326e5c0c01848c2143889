@@ -1,0 +1,3 @@
+拡張ライブラリ coverage の line coverage の取得のために trace2 命令を埋め込んで
+いたのをやめて TracePoint の RUBY_EVENT_LINE のフックを利用して取得するようにし
+ています。
