@@ -1,0 +1,3 @@
+coverage 用の VM 命令を trace2 から tracebranch に改名しています。 r61023 や
+r61043 の変更で trace2 命令も branch coverage 用にだけ利用されるようになったの
+で、tracebranch という名称にできるようになったということみたいです。
