@@ -1,0 +1,2 @@
+Integer#pow の rdoc 用コメントの 1引数の時の引数は integer 限定ではないので
+integer -> numeric に修正しています。
