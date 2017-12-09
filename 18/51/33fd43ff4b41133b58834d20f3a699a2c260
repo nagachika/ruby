@@ -1,0 +1,4 @@
+r61005 の Windows での ReFS のサポートで追加した GetFileInformationByHandleEx()
+でエラーが発生したら GetFileInformationByHandle() という古い? API に fallback
+するように修正しています。対象がネットワーク越しのドライブだとうまく動かなかっ
+たようです。
