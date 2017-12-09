@@ -1,0 +1,3 @@
+r61067 の追加修正。 GetFileInformationByHandleEx() は Windows 8 以降では常に使
+えるはずというコメントがありましたが、ダメなケースがあった(ので fallback した)
+のでこのコメントを削除しています。
