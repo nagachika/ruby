@@ -1,0 +1,5 @@
+r60970 の標準添付ライブラリ uri で URI::Generic#to_s で scheme が file と
+postgres の時に "://" をつけるようにした変更で bundler のテストに影響があったみ
+たいで、spec/bundler の spec ファイル群の "file://" で Gemfile.lock のリポジト
+リの指定を書いてたところに、localhost を追記するようにしています。 "file://" の
+時ってドメイン(localhost)があってもいいんだ。
