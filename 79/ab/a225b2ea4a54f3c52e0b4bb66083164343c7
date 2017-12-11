@@ -1,0 +1,2 @@
+class Xxx ... end のような class 文の NODE_SCOPE の範囲情報に、予約語 class の
+部分を含めないように修正しています。
