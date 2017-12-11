@@ -1,0 +1,6 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer#start でインスタンス変数
+@status に :Running を代入するのを開始時の :StartCallback コールバックの呼び出
+し前にするように修正しています。 WEBrick のサーバー停止時にうまく止まらなく可能
+性があったみたいです。1.9.2 でまだ再現するそうなのですが、それは他の multi
+thread 時の(おそらく修正済みの)不具合が絡んでるんじゃないかなぁとのこと。
+[ruby-core:36787] [Bug #4841]
