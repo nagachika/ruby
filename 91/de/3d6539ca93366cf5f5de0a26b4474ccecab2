@@ -1,0 +1,4 @@
+Windows の ReFS のサポートの一環で ReFS では inode 相当の id が 128bit の数値を
+利用しているので、これをサポートするため GetFileInformationByHandleEx() を呼ぶ
+処理を get_ino() という関数に切り出して、rb_w32_{,u,l,ul}stat64ns() を rb_w32_
+{,u,l,ul}stati128() と改名しています。 [ruby-dev:50166] [Feature #13731]
