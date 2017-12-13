@@ -1,0 +1,2 @@
+lib/bundler/templates/.document というファイルを追加して rdoc にこのディレクト
+リのファイル群を無視させるようにしています。 [ruby-core:84141] [Bug #14163]
