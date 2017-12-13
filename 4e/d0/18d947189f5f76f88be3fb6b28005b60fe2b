@@ -1,0 +1,2 @@
+lib/mkmf.rb で Windows プラットフォームでは常に include/ruby/win32.h への依存関
+係を追加するようにしています。
