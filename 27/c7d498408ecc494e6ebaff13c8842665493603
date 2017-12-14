@@ -1,0 +1,2 @@
+NEWS ファイルに r61131 で追加した FrozenError 例外クラスについて追記しています
+。 [ruby-core:79581] [Feature #13224]
