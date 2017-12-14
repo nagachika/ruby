@@ -1,0 +1,2 @@
+r61155 の Kernel#warn の uplevel キーワード引数追加について NEWS ファイルに追記
+しています。 [ruby-core:77802] [Feature #12882]
