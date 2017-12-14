@@ -1,0 +1,3 @@
+r61154 の Exception#full_message の追加に prototype 宣言の漏れがあったので修正
+しています。さらにrb_ec_error_write() の引数の不要な volatile 修飾子を削除して
+います。
