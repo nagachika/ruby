@@ -1,0 +1,4 @@
+r59874 で拡張ライブラリ coverage に experimental feature として入っていた
+branch coverage の機能を、環境変数 COVERAGE_EXPERIMENTAL_MODE の指定がなくても
+常に有効にするようにしています。 NEWS ファイルにも新機能として追記しています。
+[Feature #13901]
