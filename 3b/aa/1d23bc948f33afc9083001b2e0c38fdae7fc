@@ -1,0 +1,2 @@
+r61158 で追加したテストで Method.instance_methods(false) をチェックしている
+assertion は削除しています。
