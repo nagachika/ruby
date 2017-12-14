@@ -1,0 +1,2 @@
+tool/downloader.rb で Unicode のデータファイルをダウンロードする時の URL を
+http -> https に変更しています。 [ruby-core:83074] [Bug #13962]
