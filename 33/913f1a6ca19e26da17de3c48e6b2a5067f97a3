@@ -1,0 +1,2 @@
+NEWS ファイルに標準添付ライブラリ matrix の Matrix.combine, Matrix#combine と
+Matrix#entrywise_product のメソッド追加について追記しています。
