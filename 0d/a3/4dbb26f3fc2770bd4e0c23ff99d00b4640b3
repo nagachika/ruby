@@ -1,0 +1,5 @@
+Integer#allbits?, Integer#anybits?, Integer#nobits? というメソッド群を追加して
+、整数をビット列として解釈して引数に mask を渡してそれらの bit が全て立ってるか
+、一部立ってるか、全て立ってないかという判定をすることができるようにしています
+。つまりは a.allbits?(b) で a & b == b ってことですね。 [ruby-core:77251]
+[Feature #12753]
