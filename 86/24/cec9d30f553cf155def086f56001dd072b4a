@@ -1,0 +1,5 @@
+Process.last_status というメソッドを $? の代替として追加しています。そういえば
+$? には同じ機能をもつメソッドがなかったのかー。 Process.last_status は同じ
+Thread で Process.waitpid や Kernel#system などで起動した子プロセスの終了ステー
+タスの Process::Status オブジェクトを返します。 $? も実は見た目はグローバル変数
+だけど thread local なんですよね。 [ruby-core:83514] [Feature #14043]
