@@ -1,0 +1,4 @@
+他にも IO#close の Thread 間の挙動のテストや拡張ライブラリ digest のテストでも
+Thread.report_on_exception = true の影響でメッセージが出ていたので、rescue した
+り対象の Thread で Thread#report_on_exception = false に設定して実行するように
+したりしています。 [ruby-core:83979] [Feature #14143]
