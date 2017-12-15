@@ -1,0 +1,2 @@
+Enumerable#one? の rdoc 用コメントに、空の配列の場合 false を返すサンプルを追記
+しています。
