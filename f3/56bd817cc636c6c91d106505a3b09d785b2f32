@@ -1,0 +1,3 @@
+r61192 の変更で EnvUtil.assert_raise_with_message の中で
+EnvUtil.with_default_external を使わなくしたので、一部呼び元で
+EnvUtil.with_default_external を付けるようにしています。
