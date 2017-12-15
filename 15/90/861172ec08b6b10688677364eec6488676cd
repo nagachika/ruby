@@ -1,0 +1,3 @@
+r61094 の Process.maxgroups のテストが Process.groups が空配列を返した時にエラ
+ーになってたので、その場合はとりあえず [0] にしておくようにしています。
+[ruby-core:84224] [Bug #14174]
