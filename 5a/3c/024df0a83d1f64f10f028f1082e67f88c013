@@ -1,0 +1,2 @@
+Thread.report_on_exception をデフォルトで true にする変更を行なっています。おー
+2.5 直前にこれ入れるのか。 [ruby-core:83979] [Feature #14143]
