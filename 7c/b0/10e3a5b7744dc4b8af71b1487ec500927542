@@ -1,0 +1,2 @@
+追加で Bignum のテストでも Thread.report_on_exception = true 対策で rescue を追
+加しています。
