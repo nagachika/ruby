@@ -1,0 +1,2 @@
+r61209 の続きで .travis.yml の sudo: false を sudo: required にする変更も行なっ
+ています。
