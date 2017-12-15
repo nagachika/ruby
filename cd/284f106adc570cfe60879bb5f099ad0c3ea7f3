@@ -1,0 +1,4 @@
+Thread.report_on_exception = true のデフォルト化の対応の続きで、シグナルハンド
+ラと Thread#raise に Interrupt が渡された時の組み合わせのテストで、子プロセスで
+Thread.report_on_exception = false を使ってメッセージを抑制するようにしています
+。
