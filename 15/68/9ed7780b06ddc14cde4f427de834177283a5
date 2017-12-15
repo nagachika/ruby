@@ -1,0 +1,4 @@
+他にも make test-all で Thread.report_on_exception = true の影響でメッセージが
+出ているところを assert_raise で明示的にチェックするようにしたり、Thread#
+report_on_exception = false を使うようにしたりして対応しています。
+[ruby-core:83979] [Feature #14143]
