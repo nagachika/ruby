@@ -1,0 +1,6 @@
+r61192 と r61193 の対応を別の方法でやりなおし。 EnvUtil の特異メソッドとして
+EnvUtil.capture_global_values を追加して、全体の最初で $VERBOSE と
+Encoding.default_internal と Encoding.default_external の元の値を保存しておいて
+、復旧はこれを使うようにしています。これで EnvUtil.assert_raise_with_message で
+race condition を気にせず EnvUtil.with_default_external を使えるようにしていま
+す。
