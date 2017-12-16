@@ -1,0 +1,3 @@
+Regexp#fixed_encoding? の rdoc 用コメントで String#force_encoding? の発生する例
+外を ArgumentError と書かれてたので Encoding::CompatibilityError に修正していま
+す。
