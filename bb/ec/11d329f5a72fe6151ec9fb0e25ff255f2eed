@@ -1,0 +1,4 @@
+String#undump というメソッドを追加しています。これは String#dump で変換された文
+字列を元の文字列に戻すことを目的としたものみたいです。うまく戻せないような文字
+列の可能性もありますが、それはチェックして RuntimeError を発生させているようで
+す。 https://github.com/ruby/ruby/pull/1765 [ruby-core:74903] [Feature #12275]
