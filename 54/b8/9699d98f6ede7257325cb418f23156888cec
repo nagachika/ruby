@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal の extconf.rb で生成する Makefile に extconf.h の依存
+関係として gemspec ファイルを追加するようにしています。 [ruby-core:84247] [Bug
+#14180]
