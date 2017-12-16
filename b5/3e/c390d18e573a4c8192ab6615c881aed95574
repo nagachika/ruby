@@ -1,0 +1,5 @@
+標準添付ライブラリ uri で URI::Generic#split_path で path を "/" で分割する時に
+、複数の "/" が連続しているのを1つに正規化してしまっていたのを修正しています。
+[ruby-core:54729] [Bug #8352]
+"According to the relevant RFCs and WHATWG URL Standard, empty path components
+are simply valid" だそうで、へーそうだったのか……。
