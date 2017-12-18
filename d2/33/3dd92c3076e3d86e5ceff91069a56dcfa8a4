@@ -1,0 +1,4 @@
+macOS で SEGV 時の出力に特別なメッセージが入ってるか確認する
+assert_darwin_vm_dump_works で main 関数のシンボルがあることもチェックしてたの
+ですが、macOS で MacPorts で入れた gcc などではこれが見えないことがある? みたい
+でその部分のチェックを削っています。
