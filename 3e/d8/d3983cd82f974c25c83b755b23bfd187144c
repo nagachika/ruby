@@ -1,0 +1,2 @@
+NEWS ファイルに Dir.chdir, Dir.empty? や File.readable?, File.truncate などのメ
+ソッドで GVL を解放するようにした変更について追記しています。
