@@ -1,0 +1,6 @@
+vm.c の rb_frame_method_id_and_class() の定義に RUBY_FUNC_EXPORTED というマクロ
+による修飾子を追加しています。このマクロなんだっけなーと日記を検索したけど出て
+こなかったのですが configure でチェックして定義されていて、doc/ChangeLog-1.9.3
+に記述があるのでかなり昔からあるみたいです。 extern でに場合によっては gcc 拡張
+の __attribute__ ((__visibility__("default"))) みたいなのが付くみたいです。
+[ruby-core:84302] [Bug #14192]
