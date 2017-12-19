@@ -1,0 +1,7 @@
+thread_join_sleep() で待ち時間の上限がある時に RUBY_VM_CHECK_INTS_BLOCKING() の
+呼び出しと th->status の復帰が抜けてたので分岐内の処理を一部分岐の後に括り出し
+ています。このため sleep_wait_for_interrupt() を呼んでたのは native_sleep() を
+呼ぶようにして、利用箇所がなくなった sleep_wait_for_interrupt() の定義は削除し
+ています。 sleep_wait_for_interrupt() の中でも RUBY_VM_CHECK_INTS_BLOCKING() が
+呼ばれている所はあるので th->status の管理のほうが主眼かも。 r61274 の追加修正
+みたいですね。 [ruby-core:84248] [Bug #14181]
