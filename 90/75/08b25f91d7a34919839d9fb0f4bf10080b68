@@ -1,0 +1,3 @@
+r61147 で追加された Integer#allbits?, #anybits?, #nobits? などのメソッドで引数
+の mask に to_int で Integer に変換する処理を追加しています。 [ruby-core:77251]
+[Feature #12753]
