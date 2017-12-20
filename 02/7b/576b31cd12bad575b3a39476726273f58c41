@@ -1,0 +1,3 @@
+include/ruby/ruby.h, include/ruby/intern.h, internal.h などで型が void の関数に
+const をつけていると警告が出ることがあるようなので CONSTFUNC() というマクロを使
+っていたのを外しています。
