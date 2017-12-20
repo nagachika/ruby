@@ -1,0 +1,3 @@
+io.c の open_key_args() で引数の扱いを整理して、rb_io_open_with_args() という関
+数は削除して常に rb_io_open() を利用するようにしています。 IO.open の open_args
+というキーワード引数が効いてなかったそうです。むしろそんな引数あったっけ…。
