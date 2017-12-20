@@ -1,0 +1,7 @@
+Hash オブジェクトで利用されている st_table を linked list 構造で管理して、直接
+free() せずに再利用するようにすることで malloc()/free() を減らすようにしていま
+す。 ST_TABLE_POOL_MAX_LENGTH という定数(500 に定義されています)までは再利用す
+るようにして、解放時にリストにある数がこれを超えてたら直接 free() するようにし
+ています。これで Hash オブジェクトを頻繁に生成削除するようなケースで高速化する
+みたいです。 https://github.com/ruby/ruby/pull/1766 [ruby-core:84008] [Feature
+#14146]
