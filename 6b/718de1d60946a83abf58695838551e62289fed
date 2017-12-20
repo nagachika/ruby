@@ -1,0 +1,3 @@
+r61317 で IO.binread の実装で誤って file 専用の open 用関数
+rb_file_open_generic() を使ってしまっていたためコマンドが使えない状態になってい
+たので rb_io_open_generic() を使うように修正しています。
