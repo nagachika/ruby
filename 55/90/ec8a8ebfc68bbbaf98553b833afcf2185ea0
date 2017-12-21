@@ -1,0 +1,5 @@
+拡張ライブラリ strscan の gemspec ファイルのバージョンを 1.0.0 に更新しています
+。
+ただ、rubygems.org が strscan を標準添付ライブラリと同名ということでロックして
+いるみたいで、まだリリースはできてないみたいです。 https://github.com/rubygems/
+rubygems.org/pull/1696
