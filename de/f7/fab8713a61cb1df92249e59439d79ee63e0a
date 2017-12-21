@@ -1,0 +1,4 @@
+拡張ライブラリ psych を upstream から 3.0.2 をマージしています。 YAML.load や
+YAML.parse の省略可能な第2引数 fallback を、キーワード引数に変更しています。こ
+れにより第2引数をつけて呼び出していたところではエラーになるので非互換になると思
+います。 https://github.com/ruby/psych/issues/340
