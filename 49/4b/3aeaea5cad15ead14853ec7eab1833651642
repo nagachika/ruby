@@ -1,0 +1,2 @@
+rubyspec の IO#select のテストで書き込み時に IO のバッファをバイパスするために
+IO#write のかわりに IO#syswrite を使うように修正しています。
