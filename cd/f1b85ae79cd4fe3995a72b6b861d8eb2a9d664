@@ -1,0 +1,3 @@
+r61349 と類似の修正で標準添付ライブラリ resolv の
+Resolv::Config.parse_resolv_conf でも Kernel#open のかわりに File.open を使うよ
+うに変更しています。 [ruby-core:84347] [Bug #14205]
