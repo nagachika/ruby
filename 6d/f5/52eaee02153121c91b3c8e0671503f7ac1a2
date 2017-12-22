@@ -1,0 +1,2 @@
+vm_trace() で LINE_EVENT 以外のイベントの時の vm_dtrace() の呼び出しの引数を
+RUBY_EVENT_LINE にしてしまっていたのを修正しています。
