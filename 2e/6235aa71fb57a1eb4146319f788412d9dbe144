@@ -1,0 +1,2 @@
+r61309 の Hash 用の st_table の再利用のための list を持つようにしたのを revert
+しています。 mswin の CI でこけてるそうです。 [ruby-dev:50370] [Bug #14203]
