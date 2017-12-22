@@ -1,0 +1,4 @@
+Solaris の Oracle Developer Studio 12.4〜12.6 で String#unpack が最適化の影響で
+異常終了することがあるそうなので、pack.c の AVOID_CC_BUG というマクロを
+volatile にして最適化を抑制する条件の __SUNPRO_C の範囲を調整しています。
+[ruby-core:84351] [Bug #11684]
