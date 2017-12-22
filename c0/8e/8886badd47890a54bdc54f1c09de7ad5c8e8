@@ -1,0 +1,5 @@
+拡張ライブラリ coverage で line coverage を取ると 2.4 に比べて遅くなってしまっ
+ていたので、その理由である vm_trace() 経由でのイベントフック起動をせずに直接フ
+ックを呼び出す tracecoverage という VM 命令を導入しています。このため r61047 で
+tracebranch に改名した命令を tracecoverage として、coverage 共用の命令に戻して
+います。 [ruby-core:83758] [Feature #14104] [ruby-core:84294] [Bug #14191]
