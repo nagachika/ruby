@@ -1,0 +1,3 @@
+class/module 文の NODE_SCOPE の範囲情報を変更して、class/module の予約語を含め
+るようにしています。けどこういう調整は ad-hoc なので将来的にはやめたい、とのこ
+と。
