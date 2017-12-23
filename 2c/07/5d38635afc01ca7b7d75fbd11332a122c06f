@@ -1,0 +1,2 @@
+拡張ライブラリ objspace で T_IMEMO 型オブジェクトのダンプ時にサブタイプの
+alloc, ast, parser_strterm の対応を追加しています。
