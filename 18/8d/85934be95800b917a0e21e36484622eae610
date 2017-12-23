@@ -1,0 +1,3 @@
+同じく r61228 の String#undump の実装で check_undump_source_format() は削除して
+str_undump() に展開しています。また \u{ ... } のエスケープを使っているのに元の
+文字列の Encodingが Unicode 系でなかったら例外を発生させるようにしています。
