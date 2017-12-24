@@ -1,0 +1,3 @@
+rdoc のテストで RDoc::Markup::PreProcess.post_process のテストの assertion にメ
+ッセージ用の引数を追加しています。デバッグ用とのことで、たぶん CI でこけてるん
+だと思います
