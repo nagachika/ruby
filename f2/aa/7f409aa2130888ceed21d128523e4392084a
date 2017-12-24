@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::HTTPUtils#load_mime_types のコメントで
+Kernel#open を使っていますが、ここはコマンド実行をあえて使っている人もいるかも
+…ということでそのままにしておいて、コメントだけ追記しています。
+[ruby-core:84391] [Misc #14216]
