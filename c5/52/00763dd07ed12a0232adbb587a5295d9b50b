@@ -1,0 +1,2 @@
+Net::FTP のテストのタイムアウトを一部伸ばしています。 CI で失敗してる環境があっ
+たみたいです。 http://ci.rvm.jp/results/trunk-asserts-nopara@ruby-sky1/266962
