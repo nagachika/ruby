@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の lib/webrick/httpservlet/cgi_runner.rb で STDOUT,
+STDERR を reopen ですりかえる時の open も Kernel#open を使っていましたが、IO#
+reopen はそもそも path を文字列で受け取れるので文字列のまま渡すようにしています
+。reopen は "|cmd" のような文字列でコマンド起動する心配はないみたいですね。
+[ruby-core:84391] [Misc #14216]
