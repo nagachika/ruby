@@ -1,0 +1,2 @@
+標準添付ライブラリ stringio の StringIO#write の rdoc 用コメントで r60377 で複
+数の引数を受け取れるようにしたのに追随して call-seq の表記を修正しています。
