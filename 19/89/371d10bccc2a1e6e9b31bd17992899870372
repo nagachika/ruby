@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::BasicLog.new でも Kernel#open を使ってい
+たところを File.open に変更しています。 [ruby-core:84391] [Misc #14216]
