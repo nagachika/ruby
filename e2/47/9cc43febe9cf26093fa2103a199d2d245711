@@ -1,0 +1,3 @@
+String#undump の実装で Encoding の encindex を取得する処理のために
+rb_enc_find_index2() という関数を追加して、ヒープに Encoding 名のためのバッファ
+を確保せずにすむようにしています。
