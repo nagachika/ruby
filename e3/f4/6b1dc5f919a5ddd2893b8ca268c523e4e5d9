@@ -1,0 +1,1 @@
+insns.def の checkkeyword 命令の実装の引数の型を修正しています。
