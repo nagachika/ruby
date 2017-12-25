@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#inspect の文字列に ISeq の位置情報の開始位置の行番
+号を含めるようにしています。
