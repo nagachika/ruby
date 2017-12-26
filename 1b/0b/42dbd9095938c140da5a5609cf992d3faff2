@@ -1,0 +1,3 @@
+NEWS ファイルに bigdecimal の 1.3.4 への更新と、BigDecimal#clone と #dup を
+deprecated と書いていたのを消して、コピーでなく self を返すようになったことを追
+記しています。
