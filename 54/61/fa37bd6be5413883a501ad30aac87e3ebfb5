@@ -1,0 +1,2 @@
+NEWS ファイルに WEBrick の rubygems.org でのリリースと、Kernel#open を
+File.open に変更した件を追記しています。
