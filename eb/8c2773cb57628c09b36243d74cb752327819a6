@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence#each_child というメソッドを追加して、ISeq の例外テ
+ーブルやブロックなどの「子ISeq」を辿るのが簡単にできるようにしています。あー
+class/module 文もネストした ISeq なのか。
