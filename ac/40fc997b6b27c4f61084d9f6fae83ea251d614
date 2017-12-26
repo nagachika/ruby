@@ -1,0 +1,2 @@
+拡張ライブラリ io/console の IO.console.getpass と ioflush のテストで sleep を
+追加しています。 timing issues の対策のためとのこと。
