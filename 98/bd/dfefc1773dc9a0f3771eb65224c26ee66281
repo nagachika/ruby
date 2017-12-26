@@ -1,0 +1,4 @@
+gcc の 4.8.6 以前では不具合があるみたいで(?) __builtin_choose_expr_constant_p()
+がビルドできないことがあるそうなので、利用しないようにしています。このために
+GCC のバージョンを確認するためのマクロ GCC_VERSION_BEFORE を追加しています。
+https://github.com/ruby/ruby/pull/1778 [ruby-core:84401] [Bug #14221]
