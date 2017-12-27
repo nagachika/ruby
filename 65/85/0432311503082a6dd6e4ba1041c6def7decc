@@ -1,0 +1,3 @@
+NEWS ファイルに拡張ライブラリ coverage の branch coverage と method coverage 機
+能の追加について説明を追加しています。コミットログには "a brief explanation" っ
+てあるけど NEWS ファイルのなかではかなり詳細な説明です。
