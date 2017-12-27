@@ -1,0 +1,4 @@
+prelude.rb で Thread.exclusive の定義にブロック引数を追加して
+MUTEX_FOR_THREAD_EXCLUSIVE.synchronize にそのままブロック引数として引き渡すよう
+にしています。これまで yield するようにしてましたがブロック引数をそのまま渡す時
+に効率的になったのでこれを使うようにしたのですね。
