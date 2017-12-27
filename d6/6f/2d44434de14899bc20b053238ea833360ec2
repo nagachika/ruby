@@ -1,0 +1,3 @@
+template/prelude.c.tmpl で prelude.rb をインタプリタに埋め込む時に
+rb_usascii_str_new_static() を使って C の文字列リテラルの静的領域を使って文字列
+オブジェクト化して不要なコピーを抑制するようにしています。
