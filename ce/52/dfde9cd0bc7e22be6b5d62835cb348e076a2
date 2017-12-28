@@ -1,0 +1,3 @@
+r61471 の追加修正。 HAVE_UINT128_T をチェックするようにしたので、型として
+__uint128_t のかわりに uint128_t を利用するようにしています。 https://
+github.com/ruby/ruby/pull/1781 [ruby-core:84438] [Bug #14231]
