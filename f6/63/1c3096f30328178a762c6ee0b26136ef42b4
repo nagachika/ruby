@@ -1,0 +1,3 @@
+rb_autoload() の定義に RUBY_FUNC_EXPORTED をつけてシンボルを export するように
+しています。2.5.0 で意図せず(?)関数の可視性が変化してしまっていたみたいです。
+[ruby-core:84454] [Bug #14236]
