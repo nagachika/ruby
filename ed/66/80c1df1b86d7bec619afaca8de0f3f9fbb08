@@ -1,0 +1,3 @@
+r61492 の続き? eval_string_with_cref() から rb_cref_t * を使う部分を残して
+VALUE scope を使う部分を eval_string_with_scope() という関数に切り出して呼び元
+の eval_string() で scope の有無で分岐して呼び分けるようにしています。
