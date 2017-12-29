@@ -1,0 +1,3 @@
+rubyspec の C API テスト用の helper で libruby.so のチェック部分を書き換えて
+File.exists? せず File.mtime だけして Errno::ENOENT を無視するように書き換え、
+File.mtime の結果を変数に受けて繰り返し呼ばないようにしています。
