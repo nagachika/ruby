@@ -1,0 +1,3 @@
+r61492 と r61493 の続きで eval_string() も削除してさらにその呼び元で
+eval_string_with_cref() と eval_string_with_scope() を呼び分けるようにしていま
+す。
