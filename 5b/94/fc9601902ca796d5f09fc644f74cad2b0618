@@ -1,0 +1,4 @@
+spec/rubyspec の空ディレクトリを削除しています。 2.5 でパッケージサイズが大きく
+なった、という話題のチケットでのコメント由来なんですが、"We can remove those
+empty trees ASAP and save our users' inodes." って言い回しがおもしろい。
+[ruby-core:84397] [ruby-core:84533] [Bug #14219]
