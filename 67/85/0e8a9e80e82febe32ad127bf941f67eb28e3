@@ -1,0 +1,3 @@
+Proc#binding で block_type_ifunc の時に空の ISeq を生成する時の path と
+realpath のダミーの文字列をそれぞれ rb_str_new2() で別に確保してたのを、同じオ
+ブジェクトを使いまわすようにしています。
