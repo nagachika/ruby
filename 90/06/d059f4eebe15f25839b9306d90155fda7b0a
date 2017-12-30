@@ -1,0 +1,2 @@
+2.5 で deprecated constant にしておいた標準添付ライブラリ erb の
+ERB::Compiler::SimpleScanner2 という定数を削除しています。
