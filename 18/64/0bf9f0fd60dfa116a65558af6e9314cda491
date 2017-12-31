@@ -1,0 +1,3 @@
+[Feature #14225] の Hash の key を taint しないようにする変更に供えた準備とのこ
+とですが、Hash#keys のキーについてのテストで assert_equal を assert_predicate
+や assert_not_predicate を使うようにするテストのリファクタリング。
