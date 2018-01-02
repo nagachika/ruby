@@ -1,0 +1,4 @@
+"x, true" のような式で Syntax error になるのですが "Can't assign to true" とい
+うエラーになった上で SEGV していたのを修正しています。 assignable() がエラーを
+返した時に new_begin() で作った NODE で埋めてたのを assignable() が常にエラー時
+に NODE_BEGIN を返しておくようにしています。 [ruby-core:84565] [Bug #14261]
