@@ -1,0 +1,4 @@
+rdoc のテスト用の RDoc::TestCase の setup メソッドで
+RDoc::Markup::PreProcess.reset の呼び出しを最後に移動しています。ファイルのロー
+ド順によってまれに再現する(辞書順に実行すると常に起きるそうですが)テストの失敗
+の修正です。
