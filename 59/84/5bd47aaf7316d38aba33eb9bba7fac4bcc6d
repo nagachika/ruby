@@ -1,0 +1,3 @@
+parser_yyerror() の引数に const YYLTYPE *yylloc を追加して bison が渡す位置情報
+をそのまま利用するようにしています。どうでもいいけど parser_yyerror() は第2引数
+への追加なので yyerror() は第1引数への追加なんだろう。
