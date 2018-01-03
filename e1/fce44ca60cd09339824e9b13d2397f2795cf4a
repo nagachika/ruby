@@ -1,0 +1,2 @@
+r61534 の struct rb_iseq_constant_body の構造の変更に追随漏れしていたところが
+VM_CHECK_MODE が有効な場合の箇所にあったので追加変更しています。
