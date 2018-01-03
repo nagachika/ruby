@@ -1,0 +1,2 @@
+struct rb_iseq_constant_body の insns_info と insns_info_size を一箇所にまとめ
+て埋め込み構造体としてまとめています。
