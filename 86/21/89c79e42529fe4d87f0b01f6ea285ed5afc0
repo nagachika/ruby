@@ -1,0 +1,2 @@
+parser_yyerror() でエラー位置の抽出時に yyloc->last_loc の行が first_loc と別の
+行になっていた時にバッファを超えた位置をみないように対応しています。
