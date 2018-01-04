@@ -1,0 +1,10 @@
+r61534 の struct rb_iseq_constant_body の構造体のリファクタリングの続きで、今度
+は struct iseq_insn_info_entry の position というメンバーを、その上位の struct
+iseq_insn_info の positions という配列に釣り上げています。たぶん body->position
+だけ同時に舐めることが多いのでキャッシュに同時に乗りやすいようにまとめようとし
+ているんだと思います。コミットログによると、さらに get_insn_info() で位置情報を
+検索する時に2分探索でなく succinct bitvector という構造を利用しようかという構想
+があるそうで、その時のための予備的な変更でもあるようです。これは TracePoint の
+ための trace 命令をなくした時に trace 版の命令で位置情報を得るのに長い ISeq で
+は時間がかかるようになったので、それを改善するために導入しようかというものです
+ね。
