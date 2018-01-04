@@ -1,0 +1,4 @@
+nlz_intptr() という inline 関数で SIZEOF_VOIDP == 8 の時に nlz_long_long() を利
+用するように実装されていましたが、厳密には 8 bytes == long long とは限らないの
+で SIZEOF_UINTPTR_T と各種整数型の SIZEOF_XXX を比較して分岐するようにしていま
+す。
