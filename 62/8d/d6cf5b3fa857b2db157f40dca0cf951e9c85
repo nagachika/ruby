@@ -1,0 +1,3 @@
+gc_writebarrier_incremental() でも r61568 と同様に解放済みの RVALUE スロットに
+対して obj_info() を呼ぶ恐れがあったので %p でポインタの表示に留めるようにして
+います。 [ruby-dev:50406] [Bug #14269]
