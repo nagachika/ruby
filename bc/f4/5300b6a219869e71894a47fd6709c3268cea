@@ -1,0 +1,4 @@
+int (signed, unsigned は含む)以外の型の bit field は C90 では許容されていないそ
+うなので、一部別の型つきで bit field を定義していたところは、専用の型をマクロ定
+義して、__STDC_VERSION__ をチェックして古いコンパイラでは unsigned int などで代
+替するようにしています。
