@@ -1,0 +1,3 @@
+variable.c の rb_class_path_cached() で引数の klass の T_CLASS 型オブジェクトの
+rb_classext_t のポインタが NULL の場合に SEGV するようになっていたので、明示的
+にチェックするようにしています。 [ruby-dev:50406] [Bug #14269]
