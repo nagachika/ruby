@@ -1,0 +1,4 @@
+thread_pthread.c の ubf_wakeup_all_threads() で ccan の linked list の構造体ポ
+インタから rb_thread_t のポインタを得るのに offsetof() を使って計算していたのを
+、container_of() というマクロ(たぶん)を使うようにしています。これは linked list
+構造体のために導入している ccan で定義されているマクロのようです。
