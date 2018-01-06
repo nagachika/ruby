@@ -1,0 +1,4 @@
+test/-ext-/iseq_load/test_iseq_load.rb でスクリプトをヒアドキュメントで書いてる
+ところを begin; と end; というラベルを利用してエディタがインデントを保持できる
+ようにする手法の導入と、ISeq.compile に path, realpath, lineno の引数を指定して
+コンパイルするようにしています。
