@@ -1,0 +1,5 @@
+tool/rbinstall.rb で File.umask で umask を 0222 にセットしていたのを 022 に変
+更しています。なんかこれ前も変更して、何か問題があって再修正してたような…。
+"Denying write permissions to the owner seems wrong." とのことで、チケットみる
+と 2.4 でのみ rubygems で bundled gems のインストールする時に問題があるとか。う
+ーむ、rubygems 側の問題なのかなぁ。 [ruby-core:84420] [Bug #14227]
