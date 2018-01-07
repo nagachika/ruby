@@ -1,0 +1,3 @@
+r61613 の続き。 NODE_OP_CDECL だけでなく NODE_OP_ASGN1, NODE_OP_ASGN2 でも同様
+に演算子を判定してダンプ文字列を作っているところがあったので add_operator() と
+いう関数に切り出すリファクタリング。
