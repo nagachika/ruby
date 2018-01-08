@@ -1,0 +1,3 @@
+Process.spawn などの gid オプションのテストで Process.groups で取得した group
+が常に利用できるとは限らないみたいで(Open Directory で管理されている時とか?)
+Etc.getgrgid で id が取得できるものだけ利用するようにしています。
