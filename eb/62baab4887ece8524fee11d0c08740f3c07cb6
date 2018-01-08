@@ -1,0 +1,2 @@
+parse.y の yycompile0() で block_append() で既に nd_loc のセットがされているの
+で冗長になっていた代入文を削除。
