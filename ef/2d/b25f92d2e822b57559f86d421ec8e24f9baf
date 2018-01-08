@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http の HTTP ステータスを表すクラスの名前を最新のステー
+タスコード名にあわせて改名しています。たとえば Request Time-Out は Request
+Timeout になっていたり Request Entity Too Large は Payload Too Large になったり
+、結構変わってますね。古い名前も互換性のため定数に代入して残しています。 https:
+//www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
