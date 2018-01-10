@@ -1,0 +1,3 @@
+vm_invoke_block_noinline() を vm_invoke_block_opt_call() に改名し、呼び元の
+vm_call_opt_call() や vm_call_opt_block_call() で共通して行なわれていた VM スタ
+ック操作をこの関数内で実行するように移動しています。
