@@ -1,0 +1,2 @@
+コマンドラインオプション --dump=parsetree で AST をダンプする時に NODE_HEADER
+の出力に NODE_FL_NEWLINE フラグが立っているかどうかを示す文字を追加しています。
