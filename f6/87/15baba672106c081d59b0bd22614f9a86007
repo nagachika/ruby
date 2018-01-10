@@ -1,0 +1,2 @@
+parse.y の case 文の NODE_CASE2 と NODE_WHEN の nd_loc の設定は既に NEW_xxx()
+でデフォルトで行なわれるようになったので削除しています。
