@@ -1,0 +1,4 @@
+r61668 の続き。 parse.y の new_lit(), new_str, new_dstr() などのマクロも削除し
+て NEW_LIT() などのマクロを呼ぶようにしています。また一時オブジェクトの mark の
+ため add_mark_object_gen() を通すようにしています。シンプルに書くためか
+add_mark_object_gen() は引数の obj をそのまま return するようにしています。
