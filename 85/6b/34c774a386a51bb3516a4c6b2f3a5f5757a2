@@ -1,0 +1,2 @@
+iseq.c の iseq_data_to_ary() で rb_iseq_body_t::insns_info を直接参照していた部
+分を get_insn_info() を呼び出して抽象的に扱うようにしています。
