@@ -1,0 +1,3 @@
+r61719 に続いて pthread_cond_init() と pthread_condattr_init() のチェックも省い
+て #ifdef の分岐を消しています。これも NaCl サポート時に入ったものだったのでも
+う不要とのこと。 [ruby-core:84758] [Misc #14342]
