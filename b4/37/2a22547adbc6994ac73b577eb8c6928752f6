@@ -1,0 +1,2 @@
+r61739 で定義したマクロ imm_block_rank_get() および small_block_rank_get() に明
+示的キャストを追加。
