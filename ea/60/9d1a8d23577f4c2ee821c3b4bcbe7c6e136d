@@ -1,0 +1,2 @@
+pthread 版で timer thread の起動時に pthread_attr_setstacksize() でスタックサイ
+ズの設定に失敗した時に rb_bug() で異常終了させるようにしています。
