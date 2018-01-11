@@ -1,0 +1,2 @@
+common.mk の依存関係の記述を更新するためのツール tool/update-deps で環境変数
+GNUMAKEFILES から -j オプションを削るようにしています。
