@@ -1,0 +1,2 @@
+r61706 の timer thread 起動時の VM_ASSERT() を pthread_attr_init() のエラー時じ
+ゃなくて pthread_create() のエラー時のほうに移動しています。 [ruby-core:84756]
