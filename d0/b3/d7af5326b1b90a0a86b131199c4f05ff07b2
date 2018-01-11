@@ -1,0 +1,2 @@
+internal.h から #include "ruby/encoding.h" も削除して必要なソースファイルで個別
+に #include するようにしています。
