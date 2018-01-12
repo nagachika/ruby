@@ -1,0 +1,2 @@
+r61739 で get_infns_info() のデフォルトの実装を succinct bitvector にしていまし
+たが、Rasbian (x86_64) でうまく動かなかったそうなので二分探索に戻しています。
