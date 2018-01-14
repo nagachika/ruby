@@ -1,0 +1,2 @@
+parse.y の lexer で ")" と "]" と "}" を switch 文の fallthrough を使って同じ節
+に、一部分岐して書いてたのを、それぞれ別の case 節に分けています。
