@@ -1,0 +1,2 @@
+insns.def の adjuststack 命令の sp_inc の annotation に明示的な rb_snum_t への
+キャストを追加しています。 VC12 で警告が出ていたそうなのでその対策。
