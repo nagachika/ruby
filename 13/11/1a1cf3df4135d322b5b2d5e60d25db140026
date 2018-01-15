@@ -1,0 +1,2 @@
+r61746 の tool/ruby_vm/views/_insn_stack_increase.erb で生成する C のソースコー
+ドで char に明示的に signed 修飾子をつける修正を再適用しています。
