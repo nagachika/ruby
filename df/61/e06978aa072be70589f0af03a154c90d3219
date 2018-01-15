@@ -1,0 +1,3 @@
+parse.y の token_info の初期化処理を setup_token_info() という関数に切り出して
+います。また token_info_push_gen(), token_info_pop_gen() の引数から未使用だった
+len を削除しています。
