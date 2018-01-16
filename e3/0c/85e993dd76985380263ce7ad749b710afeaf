@@ -1,0 +1,2 @@
+compile.c の struct ibf_id_entry という構造体定義を削除しています。未使用になっ
+ていた模様。
