@@ -1,0 +1,3 @@
+parse.y の struct parser_params のメンバー yydebug を debug に改名して、yydebug
+() というマクロを p->debug とメンバーのアクセスとして定義しなおしています。
+static link する拡張ライブラリのリンクエラー予防とのこと。
