@@ -1,0 +1,3 @@
+r61845 で RUBY_ALIGNAS() の引数に sizeof(VALUE) を渡してしまっていましたが、
+r61833 で修正したように sizeof() が渡せない環境があるので SIZEOF_VALUE 定数を使
+うように修正しています。
