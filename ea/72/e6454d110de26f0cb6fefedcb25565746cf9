@@ -1,0 +1,5 @@
+r61827 で RUBY_ALIGNAS() を導入した時に VALUE の alignment に制限した char * の
+型として ruby_aligned_char という型を定義していましたが、もう struct
+RString::ptr をあきらめたりしてもう 1箇所でした使ってないので、 typedef は削除
+して残り 1箇所の struct ibf_load では直接 RUBY_ALIGNAS() を使って宣言するように
+しています。
