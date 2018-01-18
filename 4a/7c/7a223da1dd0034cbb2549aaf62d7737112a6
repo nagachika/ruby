@@ -1,0 +1,7 @@
+C の文字列リテラルは C89 の規格だと 509文字を超えると保証されていないので、
+prelude.c.tmpl の展開などで頑張っていましたが、あきらめて
+-Wno-overlength-strings というオプションを付けて全体的に長い C の文字列リテラル
+はサポートされている前提にすることにしたようです。このため部分的に無視するため
+に loadpath.c で使っていた #pragma も削除しています。
+CRuby のビルドに必要な条件について https://bugs.ruby-lang.org/projects/
+ruby-trunk/wiki/Assumptions でまとめるようにしたようです。
