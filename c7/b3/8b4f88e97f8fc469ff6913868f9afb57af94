@@ -1,0 +1,6 @@
+NODE_FOR という種類の NODE は for 文と for で複数の変数への代入の文と役割の異な
+るところで流用されていたので、後者のために専用の NODE_FOR_MASGN という NODE タ
+イプを新たに導入して、compile.c の compile_for() は後者の NODE_FOR_MASGN() のコ
+ンパイル用にしています(NODE_FOR は NODE_ITER と同じコンパイル処理で済むので)。
+こうなると今度は NODE_FOR は NODE_ITER を使ってもいいのでは、というくらい似た処
+理になりますね。
