@@ -1,0 +1,3 @@
+r61880 で ext/ripper/depend に追加した ripper.y の依存関係で id.h のパスを $
+(top_srcdir) を参照していたのを {$(VPATH)} を使うようにしています。 nmake 対策
+ですかね。
