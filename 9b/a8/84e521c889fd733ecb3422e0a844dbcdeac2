@@ -1,0 +1,3 @@
+common.mk の ripper.c の生成時に ext/ripper/depend の {$(VPATH)} の部分を削るよ
+うにしています。うへー。けど common.mk にあるってことは Windows 版でも参照され
+るんじゃないのかな。
