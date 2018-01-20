@@ -1,0 +1,5 @@
+r61560 で GCC 拡張の offsetof() マクロの使いかたを避けるために struct
+autoload_state のメンバーの union を展開したのを、struct list_node のメンバー
+waitq のひとつだけに統合して、必要に応じて list_head にキャストして利用するよう
+にしています。これ head と node が同じノードを常に指してても問題はないのか。ま
+あ差分をぱっと見たかぎり node が別の位置を指すことはなさそうにみえます。
