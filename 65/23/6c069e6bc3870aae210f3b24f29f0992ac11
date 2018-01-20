@@ -1,0 +1,1 @@
+tool/ytab.sed で古い bison で yydestruct() も置換するようにしています。
