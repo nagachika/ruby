@@ -1,0 +1,3 @@
+eval_intern.h の pass_passed_block_handler() で vm_block_handler_verify() を呼
+んでいましたが、その次に呼んでる vm_passed_block_handler_set() の中でも呼ばれて
+いたので削っています。
