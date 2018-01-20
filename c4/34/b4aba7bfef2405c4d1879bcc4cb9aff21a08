@@ -1,0 +1,2 @@
+dln.c の reloc_r_rightshift、 reloc_r_bitsize、 reloc_r_length などの変数に
+const 修飾子を追加しています。
