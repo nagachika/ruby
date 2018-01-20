@@ -1,0 +1,4 @@
+parse.y の tokadd_memchar() を parser_tokadd_memchar() への wrapper マクロとし
+て定義して、暗黙に struct parser_params の引数を補うようにしていたのをやめて、
+tokadd_memchar() を関数として定義して呼び元で明示的に引数 p を渡して直接呼ぶよ
+うにしています。xxx_gen() の削除と同じ方針の変更ですね。
