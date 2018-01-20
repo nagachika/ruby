@@ -1,0 +1,2 @@
+include/ruby/ruby.h の extern している関数の宣言の順番をソートしなおしています
+。
