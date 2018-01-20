@@ -1,0 +1,4 @@
+iseq.c succinct bitvector の実装で導入された型 succ_index_table で構造体の最後
+に配列を置く手法で、配列サイズを省略する記法は C99 以降で許された方法なので
+__STDC_VERSION__ をチェックして必要なら 0 or 1 のサイズを明示するようにしていま
+す。
