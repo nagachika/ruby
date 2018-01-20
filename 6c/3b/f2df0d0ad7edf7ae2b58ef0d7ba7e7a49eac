@@ -1,0 +1,4 @@
+r58874 で pthread 版の timer thread の起動時に pthread_attr() に失敗した時に警
+告だけ出して継続していたのを、VM_ASSERT() で VM_CHECK_MODE では異常終了させるよ
+うにしています。たまにこの警告が出るそうで(CI 環境で?)、デバッグのために
+assertion を追加するそうです。
