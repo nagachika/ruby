@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_stackoverflow() を NORETURN() で宣言しています。
