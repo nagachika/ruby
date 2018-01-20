@@ -1,0 +1,4 @@
+pthread_attr_init() が利用可能かチェックして #ifdef HAVE_PTHREAD_ATTR_INIT で分
+岐しているところがありましたが、これは NaCl のサポート時に入れられたもので、
+NaCl のサポートは終了しているので削除しています。 [ruby-core:84758] [Misc #
+14342]
