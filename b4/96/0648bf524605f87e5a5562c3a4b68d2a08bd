@@ -1,0 +1,4 @@
+r61691 で追加したコードで VM_ENV_ESCAPED_P() で ep のフラグチェックをしていたの
+ですが、この関数内では VM_ASSERT() での異常終了もしていたので、フラグチェックの
+みするようにしています。 "Not sure why there is an inconsistency." とのことなの
+で、もしかすると assert も本当は通るべきなのかもしれませんけど。
