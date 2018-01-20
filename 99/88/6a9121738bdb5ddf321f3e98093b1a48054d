@@ -1,0 +1,2 @@
+thread.c の thread_cleanup_func() のコメントに FIXME コメントで atfork が真の時
+には僅かに memory leak の可能性があるということについて追記しています。
