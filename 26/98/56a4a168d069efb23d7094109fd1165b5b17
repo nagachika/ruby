@@ -1,0 +1,3 @@
+parse.y の #ifdef OLD_YACC というマクロで分岐された YYMAXDEPTH という定数の定義
+を削除しています。既に configure にチェックがないのでこのマクロが定義されること
+もないので不要でした。
