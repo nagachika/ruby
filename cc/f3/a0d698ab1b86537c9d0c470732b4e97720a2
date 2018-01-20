@@ -1,0 +1,3 @@
+parse.y の token_info_push()、 token_info_pop() などのマクロや関数に
+rb_code_location_t の引数を追加して、token_info の位置情報に bison の返す位置情
+報を利用するようにしています。
