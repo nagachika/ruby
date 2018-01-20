@@ -1,0 +1,1 @@
+thread_sync.c の raise_closed_queue_error() を NORETURN() で宣言しています。
