@@ -1,0 +1,4 @@
+Data_Make_Struct() や TypedData_Make_Struct() などのマクロ定義でも利用されてい
+ましたが、複文ブロックをかっこで括って式として扱うのは GCC の拡張機能だったそう
+で、この差異を吸収するため RB_GNUC_EXTENSION_BLOCK というマクロが定義済みなので
+これを使うようにしています。
