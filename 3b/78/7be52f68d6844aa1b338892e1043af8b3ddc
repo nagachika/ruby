@@ -1,0 +1,1 @@
+thread.c の rb_threadptr_to_kill() を NORETURN() で宣言しています。
