@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http の Net::HTTPResponse#inflate_adapter で定義している
+レスポンスを処理する Proc オブジェクトで読み込んだバッファを String#clear で空
+にして、GC を待たずにバッファを解放させるようにしてメモリ消費量を抑えるようにし
+ています。
