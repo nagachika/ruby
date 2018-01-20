@@ -1,0 +1,3 @@
+rb_execution_context_mark() で rb_execution_context_t の mark 時に Env からの参
+照の mark が漏れていたのを修正しています。r61624 と r61659 の blk.call の最適化
+で Proc オブジェクト化を回避した影響で Env の mark が必要になっていたようです。
