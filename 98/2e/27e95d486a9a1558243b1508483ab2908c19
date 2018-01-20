@@ -1,0 +1,2 @@
+common.mk と enc/depend の依存関係を修正しています。 tool/update-deps ツールの
+依存関係検出が間違ってたのかな。
