@@ -1,0 +1,2 @@
+parse.y の block_append() や block_append_gen() で r61686 の結果未使用になった
+引数 location を削除しています。
