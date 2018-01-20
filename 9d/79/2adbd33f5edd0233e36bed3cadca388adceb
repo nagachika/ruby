@@ -1,0 +1,1 @@
+signal.c の sigill() を NORETURN() で宣言しています。
