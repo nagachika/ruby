@@ -1,0 +1,4 @@
+enum の値を明示的に定義する時に、その範囲が int で表現できる範囲を超えるのは
+GCC の拡張機能とのことで VM_FRAME_MAGIC_RESCUE、VM_FRAME_MAGIC_DUMMY、
+VM_FRAME_MAGIC_MASK などの定数の値を最上位ビットを落としておくようにしています
+。
