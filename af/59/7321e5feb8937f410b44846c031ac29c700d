@@ -1,0 +1,3 @@
+AST を VM 命令列にコンパイルする時に利用する LINK_ELEMENT という構造体の type
+という enum に ISEQ_ELEMENT_ANCHOR を追加して、初期化時にこれを埋め草として利用
+するようにしています。
