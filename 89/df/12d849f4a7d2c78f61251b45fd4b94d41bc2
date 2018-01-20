@@ -1,0 +1,5 @@
+insns.def の命令ごとのコメント部分から日本語の説明や @c (カテゴリ?)の記述を削除
+して、また // の行コメントで inc (VM スタックの増加量)を指定するところを sp_inc
+という変数に変更しています。ここで r61728 で追加した rb_snum_t の型を利用してい
+ます。これにあわせてソース生成の tool/instruction.rb も変更し、また insns.def
+の変更に使ったスクリプトを tool/ruby_vm/scripts/converter.rb に置いています。
