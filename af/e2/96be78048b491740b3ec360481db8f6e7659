@@ -1,0 +1,2 @@
+r61774 の Resolv::MDNS のテストの mock で IPv6 が有効かどうかによって localhost
+のアドレスを変更するようにしています。
