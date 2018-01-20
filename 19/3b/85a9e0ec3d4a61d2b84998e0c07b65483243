@@ -1,0 +1,1 @@
+numeric.c の num_funcall_op_1_recursion() を NORETURN() で宣言しています。
