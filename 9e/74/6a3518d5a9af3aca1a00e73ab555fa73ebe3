@@ -1,0 +1,1 @@
+variable.c の rb_global_tbl という変数にも static 修飾子を付加しています。
