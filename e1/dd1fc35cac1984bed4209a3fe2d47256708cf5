@@ -1,0 +1,5 @@
+r58846 で Net::Protocol のバッファの操作の Ruby レベルのでの race condition の
+修正をしたので、標準添付ライブラリ open-uri で Net::HTTPResponse#read_body のブ
+ロックの中で読み終えた文字列バッファに対して String#clear を呼んでバッファを解
+放させることで早めのメモリ解放を図る最適化を行なっています。すごい細かい最適化
+だ。けどメモリ使用量にはかなり効くようです。 [ruby-core:84662] [Feature #14320]
