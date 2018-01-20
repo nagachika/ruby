@@ -1,0 +1,6 @@
+RUBY_ALIGNAS() や RUBY_ALIGNOF() のマクロ定義でコンパイラ拡張が使えない時の定義
+で引数の名前と展開時の名前が間違っていたのを修正しています。 Solaris の Fujitsu
+C Compiler および Oracle Solaris Studio でのビルドの修正です。
+RUBY_ALIGNAS() ではコメントアウトした状態で展開しているけどいいのかな、と一瞬思
+ったけどこれは修飾子的に使うマクロ(つまり ALIGNAS(type_a) type_b var みたいに宣
+言する)なのでこれでいいのか。
