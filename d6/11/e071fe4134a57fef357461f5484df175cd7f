@@ -1,0 +1,2 @@
+ext/ripper/ripper.c の依存関係に ext/ripper/tools/preproc.rb を追加、ripper.y
+の依存関係に id.h を追加しています。
