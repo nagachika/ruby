@@ -1,0 +1,4 @@
+r61739 で導入した succinct bitvector 実装が 32 bit 環境で壊れてたのを修正して、
+また get_insns_info() のデフォルトの実装を succinct bitvector 実装に変更してい
+ます。 64bit の整数を期待して suffix に L をつけた整数リテラルを書いていたのを
+、明示的に uint64_t にキャストするようにしています。
