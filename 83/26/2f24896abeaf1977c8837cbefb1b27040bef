@@ -1,0 +1,6 @@
+r61537 で get_insns_info() の探索の実装を切り替えできるようにしましたが、
+VM_INSN_INFO_TABLE_IMPL == 2 の時に succinct bitvector というアルゴリズムを使っ
+て探索するようにしています。デフォルトも VM_INSN_INFO_TABLE_IMPL == 2 にしてい
+るので通常これを使うようにしているようです。これにより長い ISeq の時に高速に探
+索できるようになるので TracePoint を有効にした時の処理がもうちょっと高速になる
+ことが期待できます。
