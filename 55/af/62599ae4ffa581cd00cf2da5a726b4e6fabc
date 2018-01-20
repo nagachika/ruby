@@ -1,0 +1,2 @@
+tool/ruby_vm/models/attribute.rb で生成する C の関数の宣言で引数が空の時に void
+を明示的に書くようにしています。
