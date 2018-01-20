@@ -1,0 +1,4 @@
+r61166 の Struct.new の :keyword_init オプション引数追加を使って作ったクラスの
+インスタンスを Marshal.dump したものが正常に load できない状態だったので、load
+時にインスタンス変数からオプションを取得して、:keyword_init が利用されていたら
+Hash を作って初期化するように修正しています。 [ruby-core:84629] [Bug #14314]
