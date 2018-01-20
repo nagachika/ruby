@@ -1,0 +1,2 @@
+rb_eUndefinedConversionError, rb_eInvalidByteSequenceError,
+rb_eConverterNotFoundError の export。
