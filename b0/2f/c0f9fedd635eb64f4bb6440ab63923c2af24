@@ -1,0 +1,4 @@
+標準添付ライブラリ net/protocol の Net::Protocol#rbuf_fill で @rbuf が空文字列
+になっていたら、IO#read_nonblock に結果を格納するバッファとして直接渡してそこに
+格納させるようにして不要な一時オブジェクトの生成やコピーを抑制する最適化。
+[ruby-core:84678] [Feature #14326]
