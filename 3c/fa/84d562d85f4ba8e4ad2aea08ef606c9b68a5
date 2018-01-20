@@ -1,0 +1,4 @@
+lambda の記法で do ... end のブロックを書いた時に -> do rescue; end のような
+rescue 節を書くと文法エラーになっていたので書けるようにしています。 ->() による
+lambda の記法で do..end ブロックを書くのか。 https://twitter.com/takiuchi/
+status/950593389963051008
