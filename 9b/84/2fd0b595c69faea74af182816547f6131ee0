@@ -1,0 +1,3 @@
+cmpile.c の ADD_CATCH_TABLE() で追加するブロック終端と rescue 時のジャンプ先の
+label を LABEL_UNREMOVABLE() ではなく LABEL_REF() で追加するようにして、最適化
+で削除可能にしています。
