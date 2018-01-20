@@ -1,0 +1,2 @@
+r61804 で internal.h に定義した可変のつもりの配列サイズの指定を定数化した
+FLEX_ARY_LEN を node.c の node_buffer_elem_t でも利用するようにしています。
