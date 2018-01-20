@@ -1,0 +1,3 @@
+VM ソース生成ツールの tool/ruby_vm/views/optinsn.inc.erb の Enumerable#grep_v
+も 2.3 からのメソッドなので Enumerable#reject を利用するように書き換えています
+。
