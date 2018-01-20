@@ -1,0 +1,2 @@
+gc.c, regcomp.c, regparse.c, regparse.h の構造体メンバーや static な関数の名前
+の typo を修正しています。
