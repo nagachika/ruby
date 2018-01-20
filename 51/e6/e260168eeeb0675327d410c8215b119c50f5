@@ -1,0 +1,1 @@
+r61669 の続き。 parse.y の NULL_LOC 変数にさらに const 修飾子も追加しています。
