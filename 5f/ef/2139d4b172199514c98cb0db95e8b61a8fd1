@@ -1,0 +1,1 @@
+st.c の st_hashtype_num という変数に static 修飾子を追加しています。
