@@ -1,0 +1,4 @@
+ファイル操作関係で mode_t 型を使うべきところ int を使っていたところを修正してい
+ます。また configure.ac で RUBY_REPLACE_TYPE() というマクロで代替を探す時に
+short も対象にするように拡張して、mode_t の互換の型として unsigned short も候補
+にしています。実際 macOS では uint16_t なんだそうです。
