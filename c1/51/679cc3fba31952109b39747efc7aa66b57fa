@@ -1,0 +1,2 @@
+r61950 で FreeBSD と Darwin (macOS) で mode_t の型が変わったので rubyspec のテ
+ストを追随させています。
