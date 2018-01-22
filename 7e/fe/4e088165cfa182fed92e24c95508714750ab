@@ -1,0 +1,4 @@
+引数などの最後に余計なカンマがあった時のアクションで ripper の時に
+excessed_comma イベントに new_args() の結果を渡していたのを、逆に new_args() の
+引数に excessed_comma イベントの結果を渡すようにしています。 excessed_comma イ
+ベントに渡される範囲を修正しているってことかと思います。
