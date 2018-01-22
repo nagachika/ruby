@@ -1,0 +1,2 @@
+parse.y の ripper 向け DSL の var_field_1 というオプションを削除して、DSL のア
+クション部分(?)で明示的に var_field() 関数を呼ぶように書いています。
