@@ -1,0 +1,4 @@
+r61981 の続き。 acinclude.m4 ファイルは完全に削除して aclocal.m4 に展開し、
+configure.ac で tool/m4/*.m4 を m4_include() で取り込んでいたのも
+AC_CONFIG_MACRO_DIRS() を使って一度に取り込むようにしています。 https://
+github.com/ruby/ruby/pull/1793
