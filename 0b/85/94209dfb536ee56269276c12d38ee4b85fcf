@@ -1,0 +1,3 @@
+parse.y の struct parser_params の変数 p も ripper 向けの DSL でクオートせずに
+直接書けるように変換ツールに p という変数を追加してから評価するようにしています
+。
