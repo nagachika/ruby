@@ -1,0 +1,2 @@
+parse.y の parse_numeric() でトークンの種類を格納する変数の型を int から enum
+yytokentype に変更しています。
