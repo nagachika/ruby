@@ -1,0 +1,2 @@
+struct kwtable のメンバー name の型を int から short に変更してサイズを削減して
+います。 16 bit で足りるから、とのこと。
