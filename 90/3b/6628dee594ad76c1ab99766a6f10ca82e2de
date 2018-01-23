@@ -1,0 +1,4 @@
+load.c の load_lock() から警告メッセージを出すのに rb_mWarning を参照して
+rb_warning_warn() を呼んでたのを、公開 API の rb_warning() を呼ぶようにしていま
+す。 rb_mWarning の extern の必要をなくしてるみたいです。ちょっと遅くなるけど
+cold path だからまあいいだろ、って感じみたいですね。
