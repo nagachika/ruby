@@ -1,0 +1,4 @@
+parse.y に parser_token_value_print() という token を文字列化して表示する関数を
+追加してこれを利用して YYPRINT() というマクロを定義することで Bison のエラーメ
+ッセージをカスタマイズするようにしているのだと思います。 https://www.gnu.org/
+software/bison/manual/html_node/The-YYPRINT-Macro.html
