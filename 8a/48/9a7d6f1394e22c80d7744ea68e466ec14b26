@@ -1,0 +1,3 @@
+ripper 用 DSL の実装で String#delete_suffix を使っていましたが、これは 2.5 から
+の新メソッドなので古い ruby を使ってビルドできるように String#sub を使うように
+おきかえています。
