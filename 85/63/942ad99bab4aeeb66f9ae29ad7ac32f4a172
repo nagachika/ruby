@@ -1,0 +1,2 @@
+parse.y の struct parser_params::lex::strterm に格納する T_IMEMO 型オブジェクト
+の生成処理を new_strterm() という static 関数に切り出すリファクタリング。
