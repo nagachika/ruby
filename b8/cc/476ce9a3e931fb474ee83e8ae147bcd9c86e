@@ -1,0 +1,4 @@
+complex.c, dir.c, io.c, proc.c, rational.c, variable.c, vm_eval.c などで to_i,
+to_r, to_f, to_s, mesg, call, const_missing, __send__ などのメソッド名の ID を
+rb_intern() していたのを、組み込みの idXxxx を利用するようにリファクタリングし
+ています。
