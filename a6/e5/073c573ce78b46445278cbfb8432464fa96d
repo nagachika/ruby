@@ -1,0 +1,5 @@
+ブロック引数に ary.map(&:to_s) みたいな感じで Symbol を渡すことで暗黙のうちに
+Symbol#to_proc で Proc 化する時に呼ばれる to_proc メソッドが呼び元での
+Refinements の影響を受けるようにしています。そうかー。文字列の interpolation で
+効くようにしたので、いもづる式に増えそうだなーと思いましたが、まだあるかな。
+[ruby-dev:50384] [Feature #14223]
