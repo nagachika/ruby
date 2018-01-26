@@ -1,0 +1,3 @@
+昨日の r62007 の mkmf.rb の linker フラグの -Werror を削った件で、mswin の時は
+link.exe はエラーにはならないということで復活させています。 [ruby-core:78827]
+[Bug #13069]
