@@ -1,0 +1,5 @@
+Kernel#system のオプション引数に :exception を追加して、これに真を指定したらエ
+ラー時に false を返すかわりに例外を発生させるようにしています。実装上は
+Process.spawn などと同じ exec 族のオプション struct rb_execarg にメンバーを追加
+していますが、実際に利用するのは Kernel#system の時だけだと思います。 https://
+github.com/ruby/ruby/pull/1795 [ruby-core:85013] [Feature #14386]
