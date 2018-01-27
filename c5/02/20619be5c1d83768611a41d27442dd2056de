@@ -1,0 +1,6 @@
+r62025 の Kernel#system の :exception オプションの追加について rubyspec のテス
+トと NEWS のエントリを追加しています。rubyspec は version の guard がないと古い
+バージョンでエラーになりそう(upstream に入れる時は)。そういえば rubyspec は
+ruby のリポジトリに埋め込まれるようになったけど、安定版ブランチに入ったものは
+upstream に追随し続けるのか、安定版ブランチ内で独立してメンテするのか、どっちな
+んだろう……。
