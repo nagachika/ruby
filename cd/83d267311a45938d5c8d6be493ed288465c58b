@@ -1,0 +1,4 @@
+例外クラス KeyError の KeyError.new でキーワード引数 key と receiver を追加して
+receiver と検索した key を渡せるようにしています。 NameError も receiver と
+name を保持してるけど、ruby レベルでは指定できませんね確か。 [ruby-core:84626]
+[Feature #14313]
