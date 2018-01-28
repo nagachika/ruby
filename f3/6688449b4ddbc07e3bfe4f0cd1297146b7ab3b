@@ -1,0 +1,2 @@
+ext/readline/.gitignore と ext/zlib/.gitignore を追加して、ダウンロードしたライ
+ブラリのアーカイブファイルを無視するようにしています。
