@@ -1,0 +1,2 @@
+NameError.new と NoMethodError.new について省略可能引数やキーワード引数を指定し
+た場合についてテストケースを追加しています。
