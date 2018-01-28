@@ -1,0 +1,4 @@
+Hash#transform_keys! で Hash の key を変更する時に元からある別の key に変更する
+ような書き換えができるように、key, value のペアを取っておいてから一旦 Hash の内
+容をクリアして追加しなおす処理に書き換えています。 [ruby-core:84951] [Bug #
+14380]
