@@ -1,0 +1,2 @@
+r62042 の Hash#transform_keys! の変更で rubyspec が壊れてたのでテスト内容を変更
+しています。 [ruby-core:84951] [Bug #14380]
