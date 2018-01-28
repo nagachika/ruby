@@ -1,0 +1,2 @@
+NoMethodError.new の rdoc 用コメントに省略可能な引数 priv について追記していま
+す。こんなのあったっけ。
