@@ -1,0 +1,2 @@
+標準添付ライブラリの lib/optparse.rb の magic comment frozen_string_literal を
+false から true に変更して、dup が必要なところには String#+@ をつけています。
