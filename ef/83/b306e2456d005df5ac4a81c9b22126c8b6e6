@@ -1,0 +1,6 @@
+configure で INFINITY, NAN, HUGE_VAL などのマクロの存在チェックをしていたのはや
+めて、include/ruby/missing.h で HAVE_INFINITY や HAVE_NAN をチェックしていたと
+ころは直接 defined?(INFINITY) や defined?(NAN) でチェックするようにしています。
+言われてみれば定数マクロならそうだな…。また include/ruby/missing.h で HAVE_XXX
+のかわりの USE_RB_INFINITY や USE_RB_NAN といったマクロを定義して代替実装を利用
+するかどうかの判定に使うようにしています。
