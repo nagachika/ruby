@@ -1,0 +1,4 @@
+r57244 で定数の探索のルールが変更されて、Foo::Bar でトップレベルの ::Bar が見え
+てしまわないようにしたのに defined? の判定が追随していなくて "constant" を返し
+てしまっていたので、追随して nil を返すようにしています。 https://github.com/
+ruby/ruby/pull/1800 [ruby-core:85142] [Bug #14407]
