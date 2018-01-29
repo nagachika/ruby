@@ -1,0 +1,3 @@
+tool/ruby_vm/helpers/dumper.rb の RubyVM::Dumper でカレントディレクトリをベース
+にして出力先ファイルを決定するのをやめて、明示的に Pathname オブジェクトを受け
+取るようにリファクタリングしています。
