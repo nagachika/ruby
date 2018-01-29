@@ -1,0 +1,3 @@
+tool/ruby_vm/scripts/insns2vm.rb のメソッド群を Module の特異メソッドとして定義
+しなおして、また generate_parser は同じファイルの router メソッドからしか使われ
+てないので private_class_method で private にしています。
