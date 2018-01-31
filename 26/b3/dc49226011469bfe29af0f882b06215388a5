@@ -1,0 +1,5 @@
+標準添付ライブラリ uri の lib/uri/common.rb の magic comment
+frozen_string_literal を true に変更して、必要なところに String#+@ を追加してい
+ます。また TBLDECWWWCOMP_ というテーブルのキーと格納する値の文字列は fstring 化
+するようにしています。後者は動的に作った(String#% で生成した) String オブジェク
+トを fstring 化して意味あるのかな? [ruby-core:85161] [Feature #14410]
