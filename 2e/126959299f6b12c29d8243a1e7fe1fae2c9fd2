@@ -1,0 +1,2 @@
+struct rb_method_definition_struct の bit field 型のメンバー type の bit 数を
+VM_METHOD_TYPE_MINIMUM_BITS という定数マクロに切り出すリファクタリング。
