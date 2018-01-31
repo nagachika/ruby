@@ -1,0 +1,5 @@
+opt_plus などの最適化つきメソッド呼び出し系の VM 命令で VM スタック操作 +
+CALL_SIMPLE_METHOD() というマクロを利用していたのを r61120 で導入した
+DISPATCH_ORIGINAL_INSN() を利用して opt_send_without_block 命令の実装に委譲する
+ようにしています。これで VM 命令の実装のバイナリサイズがぐっと小さくなるみたい
+です。 https://github.com/ruby/ruby/pull/1779
