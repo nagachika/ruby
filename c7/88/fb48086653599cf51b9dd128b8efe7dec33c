@@ -1,0 +1,6 @@
+さらに opt_neq、opt_aset_with、opt_aref_with などの最適化命令でも
+CALL_SIMPLE_METHOD() のかわりに DISPATCH_ORIGINAL_INSN() を使って
+opt_send_without_block 命令の実装にジャンプするようにしています。オペランドに引
+数があるのでオペランドの順番を変更して CALL_INFO と CALL_CACHE が最後になるよう
+にして、VM スタックの sp を調整してからジャンプするようにしています。 https://
+github.com/ruby/ruby/pull/1779
