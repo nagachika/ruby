@@ -1,0 +1,2 @@
+insns.def から VM 用のコードを生成するツールで命令の attribute の sp_inc の処理
+を一般化して、INSNS_ATTR() という C のマクロで参照できるようにしています。
