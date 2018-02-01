@@ -1,0 +1,2 @@
+make showflags で BASERUBY のバージョンを表示するようにしています。これそもそも
+BASERUBY がない時に大丈夫かな。
