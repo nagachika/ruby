@@ -1,0 +1,2 @@
+IA64 の環境で rb_thread_t::machine が rb_execution_context_t::machine に移動さ
+れたのに追随していなかったので修正しています。
