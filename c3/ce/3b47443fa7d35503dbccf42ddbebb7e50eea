@@ -1,0 +1,4 @@
+tool/vcs.rb の VCS::Git#commit で HEAD のリビジョンを取得して rebase 前に
+checkout HEAD しなおすようにしています。確か git svn だと最新の revision が別ブ
+ランチのコミットだと、そのブランチに移動した状態になっちゃったりするんですよね
+ー。そういう現象の対策だと思います。
