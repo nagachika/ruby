@@ -1,0 +1,4 @@
+rubyspec の File::TMPFILE のテストで File.open が発生する例外として
+Errno::EINVAL も許容するようにしています。 filesystem がサポートしていなかった
+ら Errno::EOPNOTSUPP が発生するとして rescue していましたが、環境によっては
+Errno::EINVAL も発生しうるので無視するようにしているようです。
