@@ -1,0 +1,3 @@
+ruby/spec の upstream の変更をマージしています。 KeyError.new のキーワード引数
+のテストなんかもうまいこと 2.6 移行のバージョンの guard つきにしてくれているよ
+うです。ありがとう eregon。
