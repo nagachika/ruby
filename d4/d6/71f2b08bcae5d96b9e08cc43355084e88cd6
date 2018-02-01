@@ -1,0 +1,3 @@
+insns.def の命令の attribute の sp_inc の型を rb_num_t から符号ありの rb_snum_t
+に変更しています。またこれによりマクロ ADJ_SP() の定義を mswin 版とそれ以外で分
+岐していたのをやめています。
