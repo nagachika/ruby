@@ -1,0 +1,4 @@
+pipe_add_fptr() だと pipe_list の linked list に同じ fptr のエントリが重複して
+追加される可能性があり、解放済みのポインタに再度アクセスして SEGV する恐れがあ
+ったので pipe_register_fptr() という重複して挿入しないチェックつき関数を追加し
+て、io_reopen() および rb_io_init_copy() からはこちらを呼ぶようにしています。
