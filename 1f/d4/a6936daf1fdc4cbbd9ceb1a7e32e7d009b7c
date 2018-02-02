@@ -1,0 +1,2 @@
+空になってた spec/ruby/core/bignum/ と spec/ruby/core/fixnum/ のディレクトリを
+削除。
