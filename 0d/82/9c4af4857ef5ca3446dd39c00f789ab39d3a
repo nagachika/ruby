@@ -1,0 +1,3 @@
+Kernel#system のキーワード引数 exception の指定があった時のテストで、子プロセス
+を異常終了させるために exit 1 していたのを Kernel#abort で異常終了させるように
+しています。 portability のためってあるけど exit 1 がダメな環境ってあるのかな。
