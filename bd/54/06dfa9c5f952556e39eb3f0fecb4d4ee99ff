@@ -1,0 +1,6 @@
+"a"..."z" のように文字列リテラルからなる Range オブジェクトを生成する VM 命令の
+最適化の判定時に magic comment やコンパイルオプションの frozen_string_literal
+が真の時に生成される VM 命令が異なるので判定ミスしていたのを修正しています。
+[ruby-core:80290] [Feature #13355]
+それにしてもコミットログの FSL で frozen string literal の略なのかな。新たな略
+語がうまれてた。
