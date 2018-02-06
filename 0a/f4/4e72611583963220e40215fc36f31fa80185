@@ -1,0 +1,5 @@
+vm.c から rb_mjit_header.h というヘッダを生成するルールを追加して、さらに tool/
+transform_mjit_header.rb というツールを導入して rb_mjit_header.h から
+architecture 毎に特化して不要な部分を削ったヘッダファイルを生成するようにしてい
+ます。名前の通り MJIT のために必要なものみたいです。 [Feature #12589] [Feature
+#14235]
