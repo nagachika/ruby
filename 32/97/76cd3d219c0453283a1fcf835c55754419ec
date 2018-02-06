@@ -1,0 +1,5 @@
+mjit.c の worker() で ATOMIC_SET() マクロを利用していたところを、Windows 版で
+InterlockedExchangePointer() が利用可能だったらこれを利用するように独自の
+MJIT_ATOMIC_SET() というマクロを導入してこれを使うようにしています。 Windows で
+ATOMIC_SET() が InterlockedExchange() を利用してて、ビルド時に警告が出ていたの
+でこの対策のためだそうです。
