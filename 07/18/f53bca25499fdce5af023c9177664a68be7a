@@ -1,0 +1,3 @@
+r62183 で timespec_for() という struct timeval から struct timespec に変換する
+関数が導入されましたが、これは poll(3) を利用する時だけ呼ばれるので、#ifdef
+USE_POLL で括るようにしています。
