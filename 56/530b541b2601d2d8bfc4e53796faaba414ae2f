@@ -1,0 +1,4 @@
+Makefile.in の rb_mjit_header.h を vm.c から生成する時のコンパイラオプションか
+ら -arch を削ったものを使うようにしています。 arch の違いはこの後で tool/
+transform_mjit_header.rb で個別のヘッダ生成する時に吸収するのでここで指定するの
+はまずいということかと。
