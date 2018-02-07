@@ -1,0 +1,2 @@
+tool/transform_mjit_header.rb の実行に BASERUBY のかわりに MINIRUBY を利用する
+ようにしています。
