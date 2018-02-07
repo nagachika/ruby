@@ -1,0 +1,3 @@
+tool/transform_mjit_header.rb で Kernel#system の shell のパイプ表記で標準エラ
+ー出力をリダイレクトしていたのを、Kernel#system の :err オプションでリダイレク
+トするようにしています。
