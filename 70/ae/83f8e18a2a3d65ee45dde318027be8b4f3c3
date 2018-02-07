@@ -1,0 +1,4 @@
+tool/transform_mjit_header.rb の MJITHeader.separate_macro_and_code で関数宣言
+とマクロ定義を分類といいつつ順番を揃えてただけなのを別の文字列として返して、続
+く定義の書き換えやチェックをマクロ定義部分を除外して行うようにしています。効率
+の問題かな?
