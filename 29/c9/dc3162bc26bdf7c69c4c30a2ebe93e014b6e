@@ -1,0 +1,5 @@
+rb_mjit_header.h の生成ルールも Makefile.in と win32/Makefile.sub にそれぞれ書
+かれてたのを common.mk に統合しています。コンパイラというか preprocessor の展開
+だけするオプションで vm.c から生成するのでコンパイラ依存が大きそうですが、
+configure 時に使うオプションを調べて MJIT_HEADER_FLAGS にセットしておくようにし
+ています。
