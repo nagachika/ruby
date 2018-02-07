@@ -1,0 +1,4 @@
+tool/vcs.rb の Kernel#system を上書きするための DebugSystem#system で古い ruby
+向けに :exception オプションを削った後 opts が空になったら引数の配列から削るよ
+うにしています。うーんそもそもオプションを受け取らないというバージョンがあった
+のかな。
