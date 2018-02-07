@@ -1,0 +1,4 @@
+r62197 の MJIT Compiler 追加時に rb_control_frame_t にメンバーを追加したので
+VM_ASSERT で rb_control_frame_t のサイズをチェックしていたところがこけるように
+なってたので VM_ASSERT のチェックを修正しています。 rb_control_frame_t に追加し
+た bp メンバーは今後消せたら消すみたいですが、とりあえず CI を通すため。
