@@ -1,0 +1,4 @@
+aclocal.m4 から include している tool/m4/ac_checking.m4 と tool/m4/
+ruby_prepend_options.m4 は削除して、ac_checking.m4 の内容は configure.ac に直接
+書くようにしています。ruby_prepend_options.m4 のほうは単に RUBY_PREPEND_OPTIONS
+というコマンド? マクロ? がもう未使用なので削除したみたいです。
