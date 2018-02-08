@@ -1,0 +1,2 @@
+rubygems のテストで Dir.tmpdir のパスが "/tmp" にあることを前提にしたテストがあ
+ったので assertion を修正しています。
