@@ -1,0 +1,4 @@
+tool/transform_mjit_header.rb で rb_mjit_header.h に preprocessor が埋め込む
+__DATE__ とか __TIME__ といったマクロが先頭に入ることがあって、これを残しておく
+とビルド時に警告やエラーが出るので削るようにしています。このあたりコンパイラの
+挙動に深く依存しますね。
