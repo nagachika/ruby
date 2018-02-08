@@ -1,0 +1,5 @@
+common.mk の rb_mjit_header.h の生成時のコンパイラオプションに $
+(CFLAGS_NO_ARCH) を使うようにしていましたが、$(CFLAGS) に戻し、tool/
+transform_mjit_header.rb で architecture 毎のヘッダ生成時のコンパイラコマンドの
+指定に ARCH_FLAG を渡したものを指定するようにしています。 64bit 環境で 32bit 向
+けビルドをする時などオプションの指定が必要だったとのこと。
