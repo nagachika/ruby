@@ -1,0 +1,3 @@
+tool/transform_mjit_header.rb で MinGW では MJITHeader.separate_macro_and_code
+がうまく機能しないそうなので Windows 環境かどうかで分岐しています。コミットログ
+だと icc って書いてあるけど cl.exe のことかな。
