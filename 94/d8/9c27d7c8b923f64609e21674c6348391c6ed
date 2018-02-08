@@ -1,0 +1,2 @@
+mjit.c の init_header_filename() で Windows 向けの実装で変数の宣言が漏れてたの
+で追加しています。
