@@ -1,0 +1,3 @@
+添付している RubyGems を 2.7.5 に更新しています。http://blog.rubygems.org/2018/
+02/06/2.7.5-released.html
+Kernel#open から File.open への変更を含みいろいろ差分があるみたいです。
