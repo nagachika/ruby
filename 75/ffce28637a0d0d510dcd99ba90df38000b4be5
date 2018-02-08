@@ -1,0 +1,2 @@
+mjit.c で独自に定義してた get_string() を ruby_strdup() を利用するようにしてい
+ます。
