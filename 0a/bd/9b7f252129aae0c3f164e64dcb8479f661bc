@@ -1,0 +1,4 @@
+thread.c, thread_pthread.c などで時間の表現として struct timeval を標準的に使う
+ようにしていましたが、struct timespec を使うほうが変換が少なくてすむということ
+で、struct timespec を内部で使うようにしています。 [ruby-core:85416] [Feature #
+14452]
