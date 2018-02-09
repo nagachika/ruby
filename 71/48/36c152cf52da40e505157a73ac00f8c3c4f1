@@ -1,0 +1,3 @@
+internal.h で extern 宣言されていた ruby_engine という変数の宣言を削除していま
+す。また ruby.c に #include "ruby/version.h" を削除しています。 include/ruby/
+version.h に ruby_engine は宣言されているので、これを取り込むためですかね。
