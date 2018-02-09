@@ -1,0 +1,2 @@
+r62268 で file.c の変数 ruby_null_device を mjit.c で extern 宣言しているところ
+で変数の型がちょっと間違ってたので修正しています。
