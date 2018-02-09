@@ -1,0 +1,2 @@
+common.mk の MJIT 用ヘッダファイルの architecture 毎のものに変換するところで
+miniruby を使ってファイルをコピー(インストール)する処理を書いていいます。
