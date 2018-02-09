@@ -1,0 +1,2 @@
+mjit.c で出力を捨てるための null device を "/dev/null" と決め打ちで書いてたのを
+File::NULL の定数を参照してこれを使うようにしています。
