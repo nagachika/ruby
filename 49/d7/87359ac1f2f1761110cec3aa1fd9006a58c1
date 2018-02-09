@@ -1,0 +1,2 @@
+tool/transform_mjit_header.rb の正規表現で不要なかっこ(grouping)があったのを削
+っています。
