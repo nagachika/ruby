@@ -1,0 +1,4 @@
+common.mk で MJIT 用のコンパイラオプションを MJIT_CPPFLAGS という変数にしておく
+ようにしています。
+MJIT_MIN_HEADER 変数の代入が MJIT_HEADER_BUILD_DIR の代入より前になっているのは
+、Makefile ってこういうの大丈夫なんでしたっけ。
