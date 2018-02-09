@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix の Matrix#elements_to_f, #elements_to_i, #
+elements_to_r などの deprecated になっているメソッドに rdoc 用コメントを追加し
+ています。こんなメソッドあったのか。 [ruby-core:73567] [Feature #12032]
