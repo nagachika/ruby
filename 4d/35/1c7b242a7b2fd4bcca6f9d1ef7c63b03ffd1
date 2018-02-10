@@ -1,0 +1,4 @@
+error.c の nometh_err_initialize_options() で条件演算子で RTEST() の結果で
+Qtrue もしくは Qfalse を使うようにしているところがありましたが、この変数 priv
+は代入の時点でも同じように条件演算子で Qtrue または Qfalse のどちらかが代入され
+るようにしてあったので、そのまま参照するように修正しています。
