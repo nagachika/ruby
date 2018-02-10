@@ -1,0 +1,2 @@
+common.mk で mjit 用のヘッダの依存関係を timestamp ファイルを導入して解決してい
+ます。
