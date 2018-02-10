@@ -1,0 +1,5 @@
+Solaris 上での Oracle Developer Studio や Fujitsu Compiler などでビルドした時に
+mjit 用ヘッダの生成がエラーになるのを修正しています。サポートできるコンパイラか
+どうかをホワイトリスト方式で? チェックして未対応と判定したらあきらめて MJIT 無
+効の状態でビルドは進めるようにしているのだと思います。 [ruby-core:85392] [Bug #
+14446] [ruby-dev:50469] [Bug #14447]
