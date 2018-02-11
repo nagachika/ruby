@@ -1,0 +1,3 @@
+win32/Makefile.sub で MESSAGE_BEGIN および MESSAGE_END の変数にコマンドライン
+(cmd.exe?)の for 文が書かれてましたが、前後にそれぞれ開きかっこと閉じかっこを追
+加するようにしています。
