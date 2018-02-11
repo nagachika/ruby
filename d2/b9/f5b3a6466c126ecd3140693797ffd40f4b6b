@@ -1,0 +1,2 @@
+mjit.c で rb_w32_system_tmpdir() の宣言を(Windows 環境の時)追加しています。
+r62283 で system_tmpdir() の呼び出しを追加してたので必要になったようです。
