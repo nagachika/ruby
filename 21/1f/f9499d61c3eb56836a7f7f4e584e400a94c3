@@ -1,0 +1,3 @@
+tool/transform_mjit_header.rb でコンパイラが "conflicting types for..." のよう
+なエラーメッセージを出した時にコンパイラにオプション -std=c99 を渡すようにして
+います。 AIX 環境でのビルドの修正のためみたいです。
