@@ -1,0 +1,2 @@
+test/ruby/test_jit.rb の test_jit で MJIT が無効な環境では skip するようにして
+います。不要なタイムアウト待ちを抑制するためとのこと。
