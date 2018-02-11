@@ -1,0 +1,2 @@
+io.c で USE_COPY_FILE_RANGE は定義されてるけど USE_SENDFILE は未定義という環境
+でビルドエラーになるそうなので、preprocessor の条件を強化しています。
