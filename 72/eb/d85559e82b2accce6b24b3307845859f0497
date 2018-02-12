@@ -1,0 +1,5 @@
+mjit.c の compile_c_to_so() で mswin 版でファイルパスを組み立てるところで、
+append_str() というマクロで第2引数に char * 型のポインタである so_file を渡して
+いたので、文字列サイズを渡す append_str2() を使うように修正しています。
+append_str() は sizeof() で文字列長を取ってるので、第2引数がリテラルの時を想定
+しているみたいなので。
