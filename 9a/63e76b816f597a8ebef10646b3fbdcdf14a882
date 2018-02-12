@@ -1,0 +1,3 @@
+MJIT 用のヘッダを minimize する時のルールで複数 architecture 対応のヘッダを作る
+時1つのヘッダ内で #ifdef の分岐をしてから各 architecture 用のヘッダを #include
+する方式に変更しています。
