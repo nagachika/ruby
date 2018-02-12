@@ -1,0 +1,3 @@
+tool/vcs.rb の VCS::GIT#commit のオプション引数に :dry_run というオプションの対
+応を追加して、これまで $DEBUG が真の時に git commit の -n オプションを追加して
+いたのを、この :dry_run オプションの値に応じて追加するようにしています。
