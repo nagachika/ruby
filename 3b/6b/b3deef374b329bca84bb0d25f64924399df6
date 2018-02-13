@@ -1,0 +1,4 @@
+MJIT 用に rb_obj_info() も必要だったので MJIT_FUNC_EXPORTED をつけて export す
+るようにしています。そして rb_mjit_header.h を生成する時にコンパイラオプション
+-DMJIT_HEADER を付けるようにしています。minimize 時に -D で指定されたマクロが削
+除されるのを抑制するためとのこと。
