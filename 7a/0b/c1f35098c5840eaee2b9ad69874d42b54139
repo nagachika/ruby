@@ -1,0 +1,2 @@
+test/ruby/test_jit.rb の独自 assertion assert_compile_once でスクリプト内容が複
+数行あった時にインデントしてメッセージが読みやすいようにしています。
