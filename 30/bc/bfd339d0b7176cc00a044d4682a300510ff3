@@ -1,0 +1,1 @@
+test/ruby/test_jit.rb の MJIT のテストのメソッドを VM 命令毎に分割しています。
