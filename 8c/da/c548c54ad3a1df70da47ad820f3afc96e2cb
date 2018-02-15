@@ -1,0 +1,3 @@
+r62392 のリトライの下準備。 rb_autoloading_value() の prototype 宣言を変更し、
+cm_core.h から constant.h に宣言を移動しています。 [ruby-core:85516] [Bug #
+14469]
