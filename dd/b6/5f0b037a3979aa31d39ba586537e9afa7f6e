@@ -1,0 +1,5 @@
+MJIT で VM 命令 opt_aref をコンパイルする時に opt_send_without_block 命令にすり
+かえてコンパイルするようにしているようです。コミットログによると receiver が
+Hash や Array 以外の時の脱最適化で JIT のキャンセル(キャンセルがどういう事象な
+のかはちょっとわかってませんが)がおこるためペナルティが大きいので、
+osp_send_without_block のほうがトータルで速くなることがあるとのこと。
