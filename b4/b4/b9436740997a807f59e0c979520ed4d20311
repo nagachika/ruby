@@ -1,0 +1,2 @@
+そして gc.c に #ifdef __EMSCRIPTEN__ の時に STACK_GROW_DIRECTION の定義を追加し
+ています。
