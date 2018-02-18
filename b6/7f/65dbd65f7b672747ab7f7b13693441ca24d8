@@ -1,0 +1,3 @@
+String#-@ による dedup の効果を確認するテストで object_id で比較していたのを
+assert_same という assertion メソッドを利用するようにリファクタリングしています
+。
