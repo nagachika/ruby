@@ -1,0 +1,3 @@
+tool/m4/ruby_check_va_copy.m4 で shell の if 文を使っていたのを AC_IF() を使う
+ようにし、AC_TRY_RUN() を使っていたところを AC_TRY_LINK() という専用のマクロを
+使うようにしています。 cross compile のサポートのためだそうです。
