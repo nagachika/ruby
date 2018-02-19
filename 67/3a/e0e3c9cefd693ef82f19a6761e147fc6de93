@@ -1,0 +1,5 @@
+configure で clockid_t 型のチェック時に time.h や sys/time.h など必要なヘッダを
+include してチェックするようにしています。どっちかというと AC_CHECK_TYPE() して
+るほうを消して RUBY_REPLACE_TYPE() に統合しているんですが RUBY_REPLACE_TYPE()
+ってなんだっけな。変換用のマクロや printf() 用のフォーマット指示子用のマクロも
+定義するやつか。
