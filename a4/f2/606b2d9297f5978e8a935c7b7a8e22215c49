@@ -1,0 +1,2 @@
+configure のオプションで --with-static-linked-ext が指定されて拡張ライブラリの
+静的リンクする時の対応のため libruby.a のビルドの依存関係を修正しています。
