@@ -1,0 +1,4 @@
+common.mk にあった PRE_LIBRUBY_UPDATE という変数を Makefile.in と win32/
+Makefile.sub に分割して、ruby スクリプトで FileUtils 使って書いてたのを各プラッ
+トフォームのコマンドを使うように書き換えています。 miniruby への依存をなくすた
+めみたいです。
