@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle で long long は未定義の環境があるので TYPE_LONG_LONG の対
+応は定数が定義されているか defined? でチェックしてから行うようにしています。
