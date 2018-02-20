@@ -1,0 +1,8 @@
+thread_pthread.c にはシステムスレッド(pthread)をプールに管理しておいて Thread
+を頻繁に生成/削除した時に毎回 pthread を実際に生成/削除せずにすむようにする
+cache 用のリストがある(けどデフォルトでは有効になってない)のですが、fork 時にこ
+のリストを排他するための mutex を再初期化するように修正しています。さらにリスト
+のエントリである struct cached_thread_entry のメンバーも rb_nativethread_cond_t
+をポインタで持ってたのを埋め込みで持つようにしたり rb_nativethread_id_t を持つ
+ようにしたりと変更して、use_cached_thread() の中でより早めに th->thread_id にセ
+ットするようにしています。
