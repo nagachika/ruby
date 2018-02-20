@@ -1,0 +1,2 @@
+構造体 struct timespec で表現されている時刻の比較をする処理を timespec_cmp() と
+いう関数に切り出しています。
