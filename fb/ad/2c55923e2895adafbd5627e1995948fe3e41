@@ -1,0 +1,5 @@
+thread.c の double2timespec() が struct timespec をそのまま戻り値に持つようにな
+っていたのを、引数に struct timespec のポインタを受け取るようにして、戻り値もそ
+のポインタを返すようにしています。また引数の double を変換してオーバーフローし
+た時に NULL を返すようにしています。Float::INFINITY が扱えるようにしているみた
+いです。
