@@ -1,0 +1,2 @@
+thread.c の do_select() から update_timespec() を呼ぶ時に渡す timeout をタイム
+アウトがある時のみ有効なポインタを渡すようにしています。
