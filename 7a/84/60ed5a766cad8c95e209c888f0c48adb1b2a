@@ -1,0 +1,5 @@
+thread_pthread.c の MJIT 用スレッドを起動する rb_thread_create_mjit_thread() で
+pthread_create() 後に pthread_detach() を使っていたのを、
+pthread_attr_setdetachstate() を使って pthread_attr にフラグセットしてから
+pthread_create() するようにしています。こっちのほうが排他処理が減るからちょっと
+効率的だ、とのこと。
