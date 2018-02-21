@@ -1,0 +1,4 @@
+r62466 の pthread cache の変更の再修正。 register_cached_thread_and_wait() でタ
+イムアウトする時刻を end にせっとする処理を native_cond_timeout() という関数に
+まかせるようにしています。 USE_MONOTONIC_COND が真の時の処理が抜けてたので専用
+の関数を使うようにしています。
