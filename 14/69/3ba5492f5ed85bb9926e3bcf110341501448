@@ -1,0 +1,4 @@
+template/configure-ext.mk.tmpl で変数 MINIRUBY を展開するところでクオートされて
+いなかったので、cross compile 時にコマンドラインオプションつきになる時に正しく
+実行されないことがあった不具合を修正しています。 https://github.com/ruby/ruby/
+pull/1819 [ruby-core:85620] [Bug #14486]
