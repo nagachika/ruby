@@ -1,0 +1,3 @@
+MJIT で JIT コンパイル時には dtrace を無効にするため "probes.h" のかわりに
+"probes.dmyh" を include するようにしています。 JIT コンパイルしたメソッドには
+DTrace が効かないのか。
