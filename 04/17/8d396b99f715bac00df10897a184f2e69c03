@@ -1,0 +1,3 @@
+mjit.c で JIT コンパイル時のコンパイラに渡すオプションのうち -nostartfiles,
+-nodefaultlibs, -nostdlib はコンパイラの種類に応じて必要なものだけ渡すように #
+ifdef で分岐するようにしています。
