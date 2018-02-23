@@ -1,0 +1,2 @@
+Process.maxgroups のテストで macOS では MAXGROUPS の制限の影響を受けない? みた
+いなのでテストを skip するようにしています。
