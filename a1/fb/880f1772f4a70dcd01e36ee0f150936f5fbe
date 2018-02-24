@@ -1,0 +1,2 @@
+NEWS ファイルに KeyError#initialize, NameError#initialize, NoMethodError#
+initialize のキーワード引数の追加について追記しています。 [Feature #14313]
