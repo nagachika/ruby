@@ -1,0 +1,3 @@
+test/ruby/test_jit.rb から MJIT が有効かどうか確認するメソッド群などを test/lib
+/jit_support.rb に分離して、r62530 の -v オプションの挙動についてのテストを
+MJIT が使える環境でのみ行うようにしています。
