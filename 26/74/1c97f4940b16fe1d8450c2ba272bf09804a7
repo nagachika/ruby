@@ -1,0 +1,2 @@
+rubyspec に Struct::Tms を使っているところがあったので、Process::Tms を使うよう
+に変更しています。
