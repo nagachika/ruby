@@ -1,0 +1,2 @@
+Fixnum と Bignum というクラスと Process::Tms の rdoc 用コメントを追加して
+obsoleted であることを明記しています。
