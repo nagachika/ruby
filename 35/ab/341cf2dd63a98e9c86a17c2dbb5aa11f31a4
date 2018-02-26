@@ -1,0 +1,2 @@
+vm.c の構造体タグ名およびコメントの typo 修正。 https://github.com/ruby/ruby/
+pull/1824
