@@ -1,0 +1,2 @@
+bignum.c の Integer#pow の実装で "**" の呼び出しを rb_funcall() で実際にメソッ
+ド呼び出しにしていたのを C の関数 rb_int_pow() を直接呼び出すようにしています。
