@@ -1,0 +1,2 @@
+process.c の rb_f_system() で execarg_obj を RB_GC_GUARD() で保護していないパス
+があったので追加しています。
