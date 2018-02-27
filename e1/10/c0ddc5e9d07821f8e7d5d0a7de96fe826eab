@@ -1,0 +1,3 @@
+r62570 の再修正。 rb_f_system() の RB_GC_GUARD() が rb_syserr_fail_str() や
+rb_exc_raise() など NORETURN として宣言されている関数の後にあったので、コンパイ
+ラが無視してしまう恐れがあったのでその直線に置くように変更しています。
