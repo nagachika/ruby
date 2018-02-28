@@ -1,0 +1,2 @@
+tool/make-snapshot で環境変数 GNUMAKEFLAGS から -j オプションの指定は消すように
+しています。
