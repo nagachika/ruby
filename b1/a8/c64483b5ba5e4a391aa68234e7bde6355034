@@ -1,0 +1,5 @@
+Enumerable#filter および Enumerable#filter! を Enumerable#select, #select! の別
+名として追加しています。 alias じゃなくて同じC関数で別の名前のメソッド定義を追
+加しています。同様に Array, Enumerator::Lazy, Hash, Set などにも同名のメソッド
+を追加しています。 https://github.com/ruby/ruby/pull/1824 [ruby-core:82285]
+[Feature #13784]
