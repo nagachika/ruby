@@ -1,0 +1,4 @@
+tool/vcs.rb の VCS::GIT#export で clone したリポジトリの .git ファイルは削除し
+ていましたが、after_export というフックメソッド? で削除する処理があったので、こ
+こでは削除しないようにしています。after_export は tool/make-snapshot で
+Makefile の作成あたりの後で呼ばれてますね。
