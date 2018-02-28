@@ -1,0 +1,2 @@
+tool/make-snapshot のヘルプメッセージに -unicode_version、-svn、-git、-help な
+どのオプションの説明を追加しています。
