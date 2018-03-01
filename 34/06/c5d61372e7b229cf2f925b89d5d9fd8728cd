@@ -1,0 +1,5 @@
+ERB.new の引数を呼び分けるため tool などの BASERUBY で実行される可能性のあるス
+クリプト(とも限らないかも)で ERB.version でチェックしていたのを ERB#initialize
+の UnboundMethod を Object#instance_method で取り出して、Method#parameters でキ
+ーワード引数の存在をチェックする方法に変えています。なるほどこのほうが直接的で
+すね。
