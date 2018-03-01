@@ -1,0 +1,3 @@
+object.c の数値の変換系の処理で rb_convert_type() を使っていたところを
+rb_convert_type_with_id() を使うようにして、変換用メソッドの指定を文字列でなく
+ID で行うように最適化しています。
