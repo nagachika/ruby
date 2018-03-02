@@ -1,0 +1,4 @@
+Random::Formatter という Module を Random に extend するようにしています。
+include もしてますが、Random.random_number と呼べるようにするためかな?
+Random.bytes のチケットに参照されてますが特にそっちでは言及はなさそうです。
+[ruby-core:37576] [Feature #4938]
