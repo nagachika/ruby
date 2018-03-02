@@ -1,0 +1,2 @@
+complex.o と dir.o に組み込みの ID の利用を追加したので common.mk で id.h への
+依存関係を追加しています。
