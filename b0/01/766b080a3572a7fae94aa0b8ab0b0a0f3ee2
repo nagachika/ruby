@@ -1,0 +1,4 @@
+ibf_dump_object_regexp() で REGEXP_SRC() の戻り値を一旦 long 型の構造体メンバー
+に代入してから ibf_dump_object() に渡してたので、long と VALUE のサイズが異なる
+環境では情報が落ちてる可能性があったので VALUE 型の変数に一時的に受けるようにし
+ています。
