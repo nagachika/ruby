@@ -1,0 +1,2 @@
+win32/Makefile.sub で生成する config.status の LIBS 変数に user32 を追加してい
+ます。 [ruby-core:85247] [Bug #14422]
