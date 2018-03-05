@@ -1,0 +1,2 @@
+mjit_config.h の MJIT_LDSHARED というマクロ定義を変数 MJIT_LDSHARED で上書きで
+きるようにしています。 r62623 と類似の変更です。
