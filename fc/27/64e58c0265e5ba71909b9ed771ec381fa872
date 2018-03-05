@@ -1,0 +1,4 @@
+VM 命令 invokeblock の実装で vm_invoke_block() が Qundef を返した時に vm_exec()
+を呼ぶ前に mjit_exec() を直接呼んでいます。この上の vm_exec() で大域脱出の捕捉
+をしているので、ここで vm_exec() を呼ばなくても大丈夫なので MJIT が有効な時は
+tag の push をひとつ省略できるという最適化みたいです。
