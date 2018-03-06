@@ -1,0 +1,6 @@
+r62654 で追加した rb_iseq_body_t::catch_except_p を利用して、例外を処理する必要
+がない ISeq を MJIT でコンパイルする際には、mjit_exec() を直接呼んで不要な
+TAG_PUSH() を抑制しています。さらに struct compile_status::local_stack_p という
+フラグもセットして、MJIT コンパイル時に本来 VM スタックに乗せる値を C のローカ
+ル変数で取り回すようにする最適化も行なっているようです。 [ruby-core:84451]
+[Feature #14235]
