@@ -1,0 +1,3 @@
+compile.c で ISeq が例外を rescue や ensure で捕捉して実行する可能性がある場合
+に立てるフラグ rb_iseq_body_t::catch_except_p というメンバーを追加しています。
+MJIT での最適化のために使う予定とのこと。
