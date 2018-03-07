@@ -1,0 +1,2 @@
+rubyspec に upstream の変更を merge しています。全体的に spec_helper などを
+require_relative を使うように変更しているようです。
