@@ -1,0 +1,2 @@
+win32/Makefile.sub に reconfig というターゲットを追加して Makefile 類を再生成す
+るようにしています。
