@@ -1,0 +1,2 @@
+MJIT 用ヘッダを arch 毎に minimize する tool/transform_mjit_header.rb で型の
+conflict を検出した時のデバッグ用出力を削除しています。
