@@ -1,0 +1,2 @@
+r62644 の win32/Makefile.sub で mjit_config.h の生成時の参照変数名の typo 修正
+。
