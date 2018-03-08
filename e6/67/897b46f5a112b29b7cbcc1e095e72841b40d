@@ -1,0 +1,3 @@
+標準添付ライブラリ resolv の Resolv::DNS.rangerand という特異メソッドを削除して
+います。 random メソッドが引数に Range を受け付けるのでもう不要になっていたよう
+です。
