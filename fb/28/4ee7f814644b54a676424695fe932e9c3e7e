@@ -1,0 +1,2 @@
+標準添付ライブラリ resolv の Resolv::IPv6.create のテストでエラー時のメッセージ
+を追加。
