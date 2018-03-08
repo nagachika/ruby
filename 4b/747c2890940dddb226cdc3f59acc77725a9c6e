@@ -1,0 +1,2 @@
+test/lib/test/unit.rb に重複した宣言的な private メソッド呼び出しがあったので削
+っています。
