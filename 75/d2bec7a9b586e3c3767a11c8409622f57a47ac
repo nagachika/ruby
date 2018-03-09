@@ -1,0 +1,4 @@
+rational.c と complex.c にあった CANONICALIZATION_FOR_MATHN の省略形の CANON と
+いうマクロを定義するようにして、こっちで分岐していましたが、これは削除して直接
+CANONICALIZATION_FOR_MATHN で分岐するようにしています。このマクロなんであるんだ
+ろって不思議だったんですが、単に短く書きたいだけだったんですかね?
