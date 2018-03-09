@@ -1,0 +1,5 @@
+VM の関数 vm_call_opt_block_call() でメソッドの rescue 節内でブロック引数を利用
+した時に VM_CF_LEP() を噛ませていなかったのでブロック引数の遅延した Proc 化がさ
+れなくて SEGV していたのを修正しています。
+https://twitter.com/wannabe53/status/970955125786263552
+https://twitter.com/wannabe53/status/970955247626567680
