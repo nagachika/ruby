@@ -1,0 +1,3 @@
+Complex と Rational の文字列からの変換 nucomp_s_convert() と nurat_s_convert()
+で既に正規表現は利用していないので不要になっていた backref 変数と
+rb_backref_get() の呼び出しを削除しています。
