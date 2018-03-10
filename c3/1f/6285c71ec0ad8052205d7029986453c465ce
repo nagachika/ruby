@@ -1,0 +1,2 @@
+complex.c の m_cos(), m_sin() でも f_real_p() でメソッド呼び出ししていたのを
+RB_TYPE_P() でチェックするように変更しています。
