@@ -1,0 +1,3 @@
+tool/transform_mjit_header.rb で r62677 で inline 関数化するようにした VM 命令
+の実装関数リストに vm_getinstancevariable, vm_setinstancevariable, vm_setivar
+も追加しています。
