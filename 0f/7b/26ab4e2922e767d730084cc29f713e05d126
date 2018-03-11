@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http で渡された URI が host の部分を持たないような URI
+だった時に ArgumentError 例外を発生させるように修正しています。 https://
+github.com/ruby/ruby/pull/1278
