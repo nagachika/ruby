@@ -1,0 +1,2 @@
+Signal.trap で文字列を渡した時に NUL 文字が含まれていたら ArgumentError を発生
+させるようにしています。
