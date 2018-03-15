@@ -1,0 +1,3 @@
+標準添付ライブラリ irb の補完を高速するため無視すべき Module の判定のための
+Module#name の呼び出しやめるようにしています。 https://github.com/ruby/ruby/
+pull/1798
