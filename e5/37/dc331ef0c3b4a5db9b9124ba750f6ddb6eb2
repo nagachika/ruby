@@ -1,0 +1,2 @@
+r62731 で追加した Enumerator::Lazy#uniq のテストで既に存在してた assertion があ
+ったので削っています。
