@@ -1,0 +1,5 @@
+iseq.c の TRACE_INSN_P() というマクロの定義を OPT_DIRECT_THREADED_CODE や
+OPT_CALL_THREADED_CODE など VM のメインループの実装方法によらず定義するようにし
+ています。2つめの引数 insn_encoded は不要で常に decode された insn で判定できる
+(これはおそらく trace 命令の廃止と、全ての命令に trace 版を作るようにした時にこ
+うなったんじゃないかと思います)ので、不要な引数は削除しています。
