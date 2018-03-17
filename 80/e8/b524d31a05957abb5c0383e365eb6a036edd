@@ -1,0 +1,2 @@
+win32/configure.bat で生成する setup.mk で Makefile の作成時のエラー時に処理を
+止めるようにしています。
