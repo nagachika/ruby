@@ -1,0 +1,3 @@
+Kernel#Integer() にキーワード引数 exception というのを追加して、これが false だ
+ったら to_i と同様に変換に失敗した時に例外を発生させずに nil を返すようにしてい
+ます。へー、こんな提案があったのか。 [ruby-core:77171] [Feature #12732]
