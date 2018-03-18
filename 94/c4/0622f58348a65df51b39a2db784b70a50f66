@@ -1,0 +1,2 @@
+r62706 の ISeq の operand の GC mark の実装変更を revert しています。 Debian の
+i686-linux と armv7l-linux-eabihf での CI で SEGV が発生していたとのこと。
