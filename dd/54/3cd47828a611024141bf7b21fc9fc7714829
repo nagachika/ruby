@@ -1,0 +1,2 @@
+configure.ac で DLDFLAGS に LDFLAGS をコピーするのを target_cpu に依存したフラ
+グ追加の前に移動しています。mjit_header.h の生成のためみたいですね。
