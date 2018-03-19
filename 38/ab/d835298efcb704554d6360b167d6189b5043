@@ -1,0 +1,3 @@
+IO#reopen の rdoc 用コメントに省略可能な第3引数 opt が表示されていなかったので
+追記しています。 https://github.com/ruby/ruby/pull/1841 [ruby-core:47806]
+[Feature #7103]
