@@ -1,0 +1,2 @@
+r62763 の String#split のブロック受け付けについて rdoc 用コメントの call-seq と
+説明文を追加しています。 [ruby-core:36466] [Feature #4780]
