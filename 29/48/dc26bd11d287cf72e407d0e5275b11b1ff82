@@ -1,0 +1,4 @@
+r62791 の続き。 ibf_dump_align() でバッファの文字列オブジェクトを
+rb_str_modify_expand() で拡張していましたが、rb_str_modify_expand() は capa は
+増やすけど len を変更はしないので、rb_str_resize() で len も伸ばして alignment
+するようにしています。
