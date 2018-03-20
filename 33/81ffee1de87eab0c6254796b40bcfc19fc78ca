@@ -1,0 +1,4 @@
+標準添付ライブラリ drb の DRb::DRbTCPSocket.getservername でホスト名が省略され
+た時に Socket.gethostname で取得してホスト名にさらに Socket.getaddrinfo を使っ
+て IP アドレスを取得して使うようにしています。なんでもコンテナ内で起動した時な
+どにデフォルトの挙動を使いやすくするためとのこと。
