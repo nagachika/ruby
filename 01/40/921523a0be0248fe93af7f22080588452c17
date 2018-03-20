@@ -1,0 +1,3 @@
+ISeq#to_binary 関係の関数 lbf_dump_object_object() の先頭、よくみると l (エル)
+になってたので ibf_dump_object_object() に改名しています。全く気がつかなかった
+。
