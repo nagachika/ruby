@@ -1,0 +1,4 @@
+標準添付ライブラリ csv で正規表現を使っているところで Regexp#=~ でマッチするか
+確認していたところを Regexp#match? を使うように書き換えて高速化しています。
+r62740 と同様の最適化ですね。 https://github.com/ruby/ruby/pull/1836 https://
+github.com/ruby/ruby/pull/1842
