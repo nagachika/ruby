@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#to_binary のテストですが x86 系のアーキテクチャでの
+みテストするように skip を追加しています。
