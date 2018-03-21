@@ -1,0 +1,4 @@
+parse.y で rescue, ensure, when, else, elsif などのトークンの処理を end の時と
+同じようにインデントが一致していないと警告を出すようにしています。
+token_info_pop() からインデントチェック部分を token_info_warn() に切り出してそ
+れぞれのトークンのアクション部から呼ぶようにしています。
