@@ -1,0 +1,4 @@
+parse.y の yycompile() で ruby のスクリプトファイル名を文字列オブジェクトから
+StringValueCStr() で取り出して NUL 文字終端させるようにしています。また
+template/prelude.c.tmpl でも ruby スクリプトを埋め込むための prelude_name_xxx
+の変数に NUL 文字を置くようにしています。
