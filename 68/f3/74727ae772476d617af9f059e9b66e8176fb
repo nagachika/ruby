@@ -1,0 +1,2 @@
+win32/README.win32 に Windows 環境での開発に必要なものとして patch コマンドを追
+記しています。またビルドの手順に nmake up の実行を追加しています。
