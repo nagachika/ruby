@@ -1,0 +1,9 @@
+ISeq のバイナリフォーマットからのロード時に struct
+rb_iseq_constant_body::iseq_encoded を ibf_load_iseq_each() でセットしていたの
+を、ここから呼ぶ ibf_load_code() の中でセットするようにして、struct
+rb_iseq_constant_body::iseq_size もこの中で実際にデコードした命令数を逐次セット
+するようにしています。これは GC の mark 処理がこの iseq_size をみて
+iseq_encoded の配列の中身の mark する範囲を決めてるみたいなので、そのため後で全
+体のサイズを入れるのだと mark 漏れが起きる可能性があったようです。[追記]じゃな
+くて iseq_encoded が NULL の瞬間があってそれによって SEGV する可能性があったの
+で先にセットしておくということだそうです。[/追記]
