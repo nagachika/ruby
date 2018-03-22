@@ -1,0 +1,7 @@
+File.read, File.binread, File.write, File.binwrite メソッドでは IO.read などの
+コマンド実行と pipe で読み書きすることができる機能を無効にするようにしています
+。 File クラスの特異メソッドを使うと安全にファイルパスを引数として渡せるように
+するためのものだと思います。 File クラスでメソッドを再定義しているわけではなく
+て、むしろ receiver が IO クラスでなかったら pipe 使えないようにするという感じ
+になってます。つまり Socket.read とかも pipe 機能は無効になってると思います。
+[ruby-core:84495] [Feature #14245]
