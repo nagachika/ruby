@@ -1,0 +1,3 @@
+r62706 の ISeq の operand の GC mark 処理の再挑戦。 i686 環境での不具合修正と、
+バイナリフォーマットからのロード処理時の ISeq への ISEQ_MARKABLE_ISEQ のセット
+も追加しているそうです。 [ruby-core:84909] [Feature #14370]
