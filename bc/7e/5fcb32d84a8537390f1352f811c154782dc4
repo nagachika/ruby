@@ -1,0 +1,5 @@
+r62856 で RubyVM::InstructionSequence.load_from_binary のテストを skip するよう
+にしていましたが assert のところだけ skip してて肝心の
+RubyVM::InstructionSequence.load_from_binary の呼び出しは行なわれてたのでその前
+で skip するようにしています。 r62851 の ISeq の GC mark の変更で
+load_from_binary に問題があるみたいです。
