@@ -1,0 +1,3 @@
+NODE の rest 引数や必須 keyword 引数を表現するものを判定するマクロ
+NODE_NAMED_REST_P() と NODE_REQUIRED_KEYWORD_P() を導入してこれを使ってチェック
+するようにリファクタリングしています。
