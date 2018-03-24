@@ -1,0 +1,3 @@
+String#split の rdoc 用コメントで引数の pattern に空白文字1つが指定された時の特
+別処理について終端空白があった時の挙動についても明記するようにしています。
+https://github.com/ruby/ruby/pull/1845
