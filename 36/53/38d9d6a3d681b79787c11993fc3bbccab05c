@@ -1,0 +1,3 @@
+Proc#binding の rdoc 用コメントから Kernel#eval が第2引数として Proc を受け取れ
+るという廃止された仕様への言及を削除しています。 https://github.com/ruby/ruby/
+pull/1843
