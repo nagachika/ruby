@@ -1,0 +1,4 @@
+String#each_grapheme_cluster にブロックを渡さずに呼び出してできた Enumerator に
+Enumerator#size メソッドを呼ぶと本来のではなく each_char と同じサイズが返されて
+たのを修正しています。とりあえず nil を返すようにしています。 [ruby-core:84887]
+[Bug #14363]
