@@ -1,0 +1,2 @@
+r62888 の String#each_grapheme_cluster の Enumerator#size の変更を revert して
+います。 [ruby-core:84887] [Bug #14363]
