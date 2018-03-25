@@ -1,0 +1,2 @@
+sample/timeout.rb で Integer#times のブロック内でインデックスを無駄にインクリメ
+ントしていたのを消しています。
