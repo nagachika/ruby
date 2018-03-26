@@ -1,0 +1,4 @@
+compile.c の add_insn_info() でネストした if 文の else 節で return FALSE してい
+るところを外に括り出して関数の最後に return FALSE を移動しています。このほうが
+わかりにくいような、と思ったけどコンパイラが return がないって警告を出すことが
+あるみたいでその対策のようです。
