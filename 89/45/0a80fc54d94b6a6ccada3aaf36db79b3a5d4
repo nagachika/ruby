@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::CGIHandler で WEBrick
+::HTTPRequest#body メソッドをブロック付きで呼び出してちょっとずつ読むようにして
+います。
