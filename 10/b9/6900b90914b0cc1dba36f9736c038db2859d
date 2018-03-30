@@ -1,0 +1,2 @@
+標準添付ライブラリ tmpdir でディレクトリ名の元になる prefix に File::SEPARATOR
+が含まれてたら削るようにしています。
