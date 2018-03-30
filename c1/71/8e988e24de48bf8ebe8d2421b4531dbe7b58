@@ -1,0 +1,5 @@
+r62955 および r62959 で IO.copy_stream の第4引数 offset つきの利用をしていたの
+ですが、Windows 環境では offset を指定した IO.copy_stream は
+NotImplementedError を発生させるので、呼び元で rescue して IO#seek でファイルポ
+ジションを移動してから offset 指定なしの IO.copy_stream を呼ぶようにしています
+。ここで使われてる IO はすぐ閉じられるので seek しても問題ないみたいです。
