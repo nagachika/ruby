@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPRequest#read_chunked で @buffer_size
+のサイズ毎に読み込んでコールバックに渡すようにしています。
