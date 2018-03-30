@@ -1,0 +1,2 @@
+標準添付ライブラリ time.rb で正規表現を使ったチェックで Regexp#match? を使うよ
+うに最適化しています。 https://github.com/ruby/ruby/pull/1852
