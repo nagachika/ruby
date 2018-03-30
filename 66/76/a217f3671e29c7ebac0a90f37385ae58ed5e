@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick で multipart のレスポンスで複数の範囲を含む
+Content-Range ヘッダがあった時に chunked で返すようにしています。
