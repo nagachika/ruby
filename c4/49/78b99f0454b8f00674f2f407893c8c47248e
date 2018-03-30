@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick で WEBrick::HTTPResponse#_write_data というメソッド
+でソケットへの書き込みしていたのを write メソッドを直接呼ぶようにリファクタリン
+グしています。
