@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse で読み書きを IO.copy_stream
+を利用するようにしています。 [ruby-core:84456] [Feature #14237]
