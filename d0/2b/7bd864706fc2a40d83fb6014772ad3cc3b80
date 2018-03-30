@@ -1,0 +1,2 @@
+String#unpack で "@" 指示子による位置の指定が大きすぎて underflow して負の値に
+なった時に RangeError を発生させるようにしています。
