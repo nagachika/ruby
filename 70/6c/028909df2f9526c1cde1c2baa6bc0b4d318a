@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPProxyServer でも chunked のリクエス
+トをちょっとずつ読み書きする対応を入れています。 Fiber 使ってる…。
