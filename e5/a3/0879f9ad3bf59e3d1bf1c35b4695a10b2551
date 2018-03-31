@@ -1,0 +1,4 @@
+parse.y の bitstack 操作のマクロ群 BITSTACK_PUSH(), BITSTACK_POP(),
+BITSTACK_SET_P(), BITSTACK_SET() などの展開時に p-> という構造体メンバー参照も
+含めるようにして呼び元で p->cond_stack などと書いていたのを cond_stack だけ書く
+ようにしています。
