@@ -1,0 +1,2 @@
+rubyspec で require のファイルパスを操作していたのを require_relative を使うよ
+うにしています。symbolic link を解決して二重ロードを避けるためとのこと。
