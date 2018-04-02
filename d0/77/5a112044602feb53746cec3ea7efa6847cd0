@@ -1,0 +1,2 @@
+テストでの fd や Thread の後始末漏れを検出する test/lib/leakchecker.rb で
+$VERBOSE 変数の変更が復帰されてないのをチェックする機能も追加しています。
