@@ -1,0 +1,7 @@
+r63069 で revert した Fiber を使った webrick の実装に関連した修正。
+rb_threadptr_root_fiber_setup() を rb_threadptr_root_fiber_setup_by_parent() と
+rb_threadptr_root_fiber_setup_by_child() という関数に分けて
+rb_threadptr_root_fiber_setup_by_child() のほうは起動した Thread 内から呼ぶよう
+にしています。 Windows 環境では root fiber の rb_fiber_t::fib_handle というメン
+バーがセットされますが、これに親の Thread のものがセットされてしまって問題にな
+っていたようです。 [ruby-core:86376] [Bug #14642]
