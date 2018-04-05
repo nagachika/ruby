@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb で default gem の csv の upstream repository のファイ
+ル構成への対応。
