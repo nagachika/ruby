@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence.load_from_binary で SEGV することがある不具合の再現
+テストを追加しています。不正な binary の時だけかと思ったけど to_binary でダンプ
+したものを load_from_binary しても起きるんですね。 [ruby-core:84909] [Feature #
+14370] [ruby-core:86437] [Bug #14660]
