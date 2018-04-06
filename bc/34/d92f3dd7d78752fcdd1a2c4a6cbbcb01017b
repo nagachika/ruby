@@ -1,0 +1,3 @@
+r63053 と同様に mjit_init() で rb_vm_top_self() で返されるトップレベルオブジェ
+クト(main)のクラスにも mjit_add_class_serial() を呼んでメソッドキャッシュの管理
+が可能なようにしています。
