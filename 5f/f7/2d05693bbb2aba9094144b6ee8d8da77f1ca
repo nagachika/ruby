@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence を disasm した時の出力の行末の空白を消すようにして
+います。
