@@ -1,0 +1,7 @@
+r63073 の Fiber の実装の修正で追加した win32_convert_thread_to_fiber() はやっぱ
+り消して、root_fiber_alloc() に展開するようにしています。また
+rb_threadptr_root_fiber_setup_by_parent() はまた rb_threadptr_root_fiber_setup
+() に戻して rb_threadptr_root_fiber_setup_by_child() は削除しています。
+root_fiber_alloc() は実際に Fiber 関連の操作をした時に呼ばれるので root fiber
+の fib_handle の設定は Thread 起動時には行なわず実際に Fiber を作る時まで遅延す
+るようにしています。
