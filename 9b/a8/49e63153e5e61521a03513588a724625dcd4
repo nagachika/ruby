@@ -1,0 +1,2 @@
+r63073 で追加したテストの assert_equal のメソッド名が typo していたのを修正して
+います。 https://github.com/ruby/ruby/pull/1855 [ruby-core:86376] [Bug #14642]
