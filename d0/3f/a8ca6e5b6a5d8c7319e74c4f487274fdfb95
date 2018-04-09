@@ -1,0 +1,2 @@
+symbol.h から r47913 で既に削除済みの rb_intern_cstr_without_pindown() という関
+数のプロトタイプ宣言を削除しています。
