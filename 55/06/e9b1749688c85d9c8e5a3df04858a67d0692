@@ -1,0 +1,2 @@
+r62064 のリファクタリングで tool/ruby_vm/scripts/insns2vm.rb の条件チェックのメ
+ソッドが typo していたのを修正。
