@@ -1,0 +1,2 @@
+webrick のテストでログの内容を include? でチェックしているところでただの assert
+を使っていたところを assert_operator を使うように書き換えています。
