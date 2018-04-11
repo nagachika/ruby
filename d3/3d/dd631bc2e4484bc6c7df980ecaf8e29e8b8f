@@ -1,0 +1,3 @@
+parse.y の Ripper.dedent_string の rdoc 用コメント(こんなところに ripper 用のド
+キュメントがあったのか)で戻り値が string となっていたのを Integer に修正してい
+ます。
