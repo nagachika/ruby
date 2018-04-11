@@ -1,0 +1,2 @@
+test/ruby/test_literal.rb で文法エラーになるのをテストするのに eval を使ってい
+たのを assert_syntax_error を利用するように書き換えています。
