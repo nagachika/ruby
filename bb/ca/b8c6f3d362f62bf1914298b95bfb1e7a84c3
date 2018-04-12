@@ -1,0 +1,3 @@
+parse.y にある Ripper.dedent_string というメソッドの rdoc 用コメントに "USE OF
+RIPPER LIBRARY ONLY." という一文を追加して内部用メソッドであることを明記してい
+ます。 :nodoc: でドキュメント化を抑制すればいいような気も。
