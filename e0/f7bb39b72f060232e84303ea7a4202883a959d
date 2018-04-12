@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の XPath の parse に使う正規表現の typo 修正。
+[ruby-core:86098] [Bug #14600]
