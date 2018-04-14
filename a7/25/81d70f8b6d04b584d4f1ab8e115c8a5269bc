@@ -1,0 +1,6 @@
+例外オブジェクトに内部的なインスタンス変数に message や backtrace のためのオブ
+ジェクトをセットする処理を exc_initialize() から exc_init() という関数に切り出
+して、NameError の初期化の実装 name_err_initialize() から利用するようにしていま
+す。NameError や NoMethodError はキーワード引数を追加したため実装が分離していて
+、NoMethodError の initialize が super を呼ばなくなっていたのを修正しています。
+[ruby-dev:50522] [Bug #14670]
