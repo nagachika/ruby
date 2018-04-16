@@ -1,0 +1,2 @@
+標準添付ライブラリ irb の eval_input から例外処理部分を handle_exception という
+メソッドに切り出すリファクタリング。
