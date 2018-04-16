@@ -1,0 +1,4 @@
+rb_iseq_t から GC のマークで辿られる要素に RB_OBJ_WRITTEN() を呼んで RGenGC の
+write barrier を設定するようにしています。 r62851 でオペランドを直接
+rb_iseq_mark() で mark するようにしたために write barrier が必要になっていたよ
+うです。
