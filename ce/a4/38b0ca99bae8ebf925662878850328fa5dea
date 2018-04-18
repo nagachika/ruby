@@ -1,0 +1,4 @@
+String#dump で .force_encoding を追加する時に、dup を追加するようにしています。
+frozen_string_literal: true な環境だと文字列リテラルに対して force_encoding を
+呼ぶのは FrozenError になるのでその場合でもそのまま eval できる表現にするためみ
+たいです。 [ruby-core:86539] [Bug #14687]
