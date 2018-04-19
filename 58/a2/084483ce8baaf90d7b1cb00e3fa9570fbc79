@@ -1,0 +1,3 @@
+ISeq のバイナリフォーマットへのダンプ時のアライメントの調整を struct
+ibf_object_struct_range のダンプ時に漏れてたので追加しています。
+[ruby-core:86548] [Bug #14689]
