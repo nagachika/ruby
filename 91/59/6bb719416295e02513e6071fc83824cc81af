@@ -1,0 +1,4 @@
+空の配列の each, each_index のブロックや拡張ライブラリ gdbm の GDBM.open が重複
+した open のためブロックするのを確認するテストでの GDBM.open に渡されたブロック
+など、実行されないことが期待されるブロックの assertion を assert(false) にして
+呼ばれないことを確認する assertion に変更しています。
