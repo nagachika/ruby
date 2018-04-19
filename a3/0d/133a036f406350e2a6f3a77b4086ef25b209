@@ -1,0 +1,2 @@
+TracePoint#inspect のテストでフックを呼び出した Thread のチェックも追加していま
+す。
