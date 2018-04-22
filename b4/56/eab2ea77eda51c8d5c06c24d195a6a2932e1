@@ -1,0 +1,3 @@
+複数 Thread を作った状態で fork した時に autoload 用のロック機構で解放済みの領
+域を触ってしまわないように修正しています。multi thread + fork はまだまだなんか
+ありそうですねー。 [ruby-core:86410] [Bug #14634]
