@@ -1,0 +1,3 @@
+Range#min, Range#max, Range#include?, Range#cover? や Range#=== などのメソッド
+で終端が nil の Rage オブジェクトに対応するようにしています。 max は nil を返す
+んですね。 [ruby-core:78061] [Feature #12912]
