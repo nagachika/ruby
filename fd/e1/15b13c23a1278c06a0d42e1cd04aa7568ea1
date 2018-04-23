@@ -1,0 +1,4 @@
+r63225 の branchiftype の checktype と branchif への分割を利用した最適化? でチ
+ェック対象のオブジェクトの型があらかじめわかっていたら checktype を省略して
+jump 命令に変更するようにしています。ふーむ、しかしこれなら branchiftype のまま
+でも最適化できそうですけど。
