@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の XPath parser で position の指定があった時の不具合を
+修正しています。
