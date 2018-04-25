@@ -1,0 +1,4 @@
+標準添付ライブラリ net/imap で開く TCPSocket で TCPSocket#setsockopt で
+SO_KEEPALIVE をセットするようにしています。繋ぎっぱなしにした状態で接続が切れて
+いるとそれに気がつけないので定期的に keepalive パケットを送信するようにしていま
+す。 [ruby-core:86628] [Feature #14703]
