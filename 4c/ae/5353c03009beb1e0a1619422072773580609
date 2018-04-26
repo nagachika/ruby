@@ -1,0 +1,4 @@
+iseq_peephole_optimize() による VM 命令列の最適化で、jump 命令で飛んだ先で即
+leave している場合に jump せずにその場で leave するようにする最適化で、jump 先
+に operand のない命令1つだけはさんで leave だった時もインライン化というか命令を
+コピーするようにしています。 dniobj の代入がトリッキーだなぁ。
