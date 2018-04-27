@@ -1,0 +1,4 @@
+標準添付ライブラリ url の URI::HTML5ASCIIINCOMPAT という定数を削除しています。
+もう不要になっていたけど defined? の優先度の変化で本来の Encoding の配列じゃな
+くて "expression" という文字列が格納されてしまっていたみたいです。
+[ruby-core:86678] [Bug #14711]
