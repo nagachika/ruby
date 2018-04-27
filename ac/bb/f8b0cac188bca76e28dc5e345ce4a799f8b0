@@ -1,0 +1,3 @@
+Copy-on-Write friendly GC と相性の悪い Linux の Transparent Huge Pages 機能を
+off にするため起動時の ruby_setup() で prctl(2) を呼んでおくようにしています。
+[ruby-core:86651] [Feature #14705]
