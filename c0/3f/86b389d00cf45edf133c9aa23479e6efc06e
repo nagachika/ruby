@@ -1,0 +1,2 @@
+r63265 の rb_profile_frames() の変更を revert しています。なんでだろ。
+[ruby-core:86147] [Bug #14607]
