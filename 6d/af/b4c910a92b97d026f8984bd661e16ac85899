@@ -1,0 +1,3 @@
+これも r63269 の追加修正だと思いますが ruby_init_loadpath_safe() で #if defined
+LOAD_RELATIVE で括る位置を移動して static 変数 libdir の宣言を中に入れるように
+しています。
