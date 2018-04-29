@@ -1,0 +1,4 @@
+Windows 環境では DLL ファイルはロード中は削除できないため構造体 struct
+rb_mjit_unit に so_file というメンバーを追加して unload_units() で dlclose() し
+た後に後始末でファイル削除するようにしています。 clean_so_file() の中で #undef
+Sleep しているのはなぜだろう。
