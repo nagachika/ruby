@@ -1,0 +1,2 @@
+thread_sync.c の rb_mutex_unlock_th() の引数と一部の変数につけていた volatile
+修飾子を削除しています。
