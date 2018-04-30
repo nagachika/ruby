@@ -1,0 +1,3 @@
+r63286 のテスト修正の再修正。String#gsub で置換していましたが String#sub を使う
+ようにしています。また test/-ext-/bug_reporter/test_bug_reporter.rb のテストで
+も同様の修正を行っています。
