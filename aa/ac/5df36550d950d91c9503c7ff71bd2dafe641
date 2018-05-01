@@ -1,0 +1,3 @@
+spec/ruby/command_line/dash_upper_i_spec.rb で実行している ruby が miniruby か
+どうか判定している箇所で拡張子を無視するようにしています。 Windows だと .exe が
+つくので誤判定を防ぐためだと思います。
