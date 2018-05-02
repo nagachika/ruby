@@ -1,0 +1,2 @@
+rubyspec の symbolic link を使った時の -I オプションの挙動についてのテストを
+Windows では実行しないように guard を追加しています。
