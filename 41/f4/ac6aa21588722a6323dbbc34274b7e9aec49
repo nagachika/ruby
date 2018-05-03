@@ -1,0 +1,3 @@
+テスト用の拡張ライブラリ ext/-test-/ast/ast.c で switch 文にわたすための Node
+種別を enum node_type の変数に一旦受けてから使うようにしています。 switch 文の
+警告を抑制するためみたいです。ついでに rb_bug() のメッセージの typo 修正。
