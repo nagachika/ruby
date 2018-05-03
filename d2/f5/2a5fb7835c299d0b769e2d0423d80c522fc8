@@ -1,0 +1,4 @@
+[Bug #14634] の修正の r63215 のあたりで multi thread 状態での Kernel#fork で
+ConditionVariable の状態をリセットする処理に問題があって子プロセスで deadlock
+することがあったようで、struct rb_condvar::fork_gen を再初期化するようにしてい
+ます。 [ruby-core:86781][Bug #14725]
