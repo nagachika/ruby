@@ -1,0 +1,3 @@
+構造体 struct rb_fiber_struct のメンバー status に const 修飾子をつけていたため
+明示的なキャストをして代入してておかしかったので、const を外しています。
+[ruby-core:86788] [Misc #14720]
