@@ -1,0 +1,2 @@
+r63325 で導入した TEST_PENDING_INSNS からさっそく opt_aref_with 命令を削除して
+、これを使う MJIT のテストを追加しています。
