@@ -1,0 +1,1 @@
+test/ruby/test_jit.rb に tmpdir の require を追加しています。
