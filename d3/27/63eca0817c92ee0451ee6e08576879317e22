@@ -1,0 +1,3 @@
+標準添付ライブラリ securerandom の rdoc 用コメントのサンプルコードに、実際にそ
+こだけコピペしても動くように require "securerandom" の文を追加しています。
+[ruby-core:85933] [Bug #14576]
