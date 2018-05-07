@@ -1,0 +1,5 @@
+handle_fork_error() で rb_protect() への関数ポインタとして rb_thread_sleep を直
+接渡していたのですが、引数の型が一致していないため
+rb_thread_sleep_that_takes_VALUE_as_sole_argument() という専用の関数で wrap し
+てこれを渡すようにしています。んーでもこれ渡すほうでも int から VALUE に変換し
+ないといけないのでは、と思ったら次でフォローされてました。
