@@ -1,0 +1,2 @@
+test/ruby/test_io.rb のテストメソッド内で require "tempfile" しているところがあ
+りましたが、トップレベルで require 済みのため不要なので削除しています。
