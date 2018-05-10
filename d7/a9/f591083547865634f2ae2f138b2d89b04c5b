@@ -1,0 +1,3 @@
+cont.c で makecontext() の関数ポインタの引数に渡すために rb_fiber_start() の
+wrapper 関数 fiber_entry() を定義してこっちを渡すようにしています。signature の
+違いを吸収しているようです。
