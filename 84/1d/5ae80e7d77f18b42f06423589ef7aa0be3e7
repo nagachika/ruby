@@ -1,0 +1,1 @@
+array.c の rb_ary_dig() と hash.c の rb_hash_dig() に static をつけています。
