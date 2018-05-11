@@ -1,0 +1,3 @@
+r63352 と同様に rb_eval_string() も rb_protect() に渡す時に関数ポインタの型が不
+一致になるので eval_string_protect() という static 関数で wrap してこれを渡すよ
+うにしています。
