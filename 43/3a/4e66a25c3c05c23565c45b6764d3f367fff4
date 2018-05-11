@@ -1,0 +1,1 @@
+lib/csv/csv.gemspec の rquire_relative のパスが間違ってたのを修正しています。
