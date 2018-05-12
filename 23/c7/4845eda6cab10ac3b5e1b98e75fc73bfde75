@@ -1,0 +1,3 @@
+ruby.c の moreswitches() でも r63373 などと同様に String オブジェクトをバッファ
+確保のために使うのを alignment の点から問題として ALLOC_N() を使うように変更し
+ています。
