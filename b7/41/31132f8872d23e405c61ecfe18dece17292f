@@ -1,0 +1,6 @@
+Module#autoload による遅延 load 時の排他処理のためのデータ構造を変更して struct
+autoload_state から struct autoload_const という linked list の構造体を分離して
+1つのファイルに対して複数の autoload 設定? を対応づけられるようにしています。そ
+こそこ大きな変更なので読み切れてませんがチケットみるにやはり複数の定数で同じフ
+ァイルを load 対象として設定した時の deadlock の恐れがあったのを修正しているよ
+うです。 [ruby-core:86935] [Bug #14742]
