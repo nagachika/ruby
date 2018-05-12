@@ -1,0 +1,2 @@
+ruby --dump=parsetree_with_comment で表示される NODE_DEFN と NODE_DEFS のコメン
+トの typo を修正しています。
