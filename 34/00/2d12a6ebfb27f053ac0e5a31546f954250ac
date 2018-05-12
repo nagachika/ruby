@@ -1,0 +1,2 @@
+test/ruby/test_rubyoptions.rb の nil チェックのための後置 if つきのメソッド呼び
+出しを &. 演算子を使うように書き換えています。
