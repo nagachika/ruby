@@ -1,0 +1,2 @@
+構造体 rb_execution_context_t のメンバー machine::regs を VALUE 型の alignment
+にあわせるために RUBY_ALIGNAS() を使ってメモリ確保するようにしています。
