@@ -1,0 +1,5 @@
+rb_imemo_alloc_new() は戻り値を VALUE に変更して確保したオブジェクトの VALUE を
+そのまま返すようにして、一時的なメモリバッファ確保用には
+rb_imemo_alloc_parser_heap() や rb_imemo_alloc_auto_free_pointer()、
+rb_imemo_alloc_auto_free_maybe_mark_buffer() といった用途別に signature の異な
+る別の関数を定義して使うようにしています。
