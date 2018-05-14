@@ -1,0 +1,2 @@
+test/ruby/test_syntax.rb で後始末の IO#close の呼び出しに後置 if を使っていたの
+を &. 演算子を使うようにしています。
