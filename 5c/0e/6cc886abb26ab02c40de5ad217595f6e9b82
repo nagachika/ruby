@@ -1,0 +1,3 @@
+標準添付ライブラリ optparse の rdoc 用コメントに OptionParser#parse! のオプショ
+ン :into について追記しています。へー、このオプション知らなかった。
+[ruby-core:87004] [Misc #14753]
