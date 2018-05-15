@@ -1,0 +1,5 @@
+ISeq のバイナリフォーマットでの dump の ibf_dump_iseq_each() で get_insn_info()
+の実装がデフォルトの succinct bitvector (VM_INSN_INFO_TABLE_IMPL == 2)以外だっ
+た時に dump_body という変数の初期化がされていなくて SEGV していたのを修正してい
+ます。また逆に VM_INSN_INFO_TABLE_IMPL == 2 の時のみ利用されている変数の宣言は
+#if VM_INSN_INFO_TABLE_IMPL == 2 の中に入れています。
