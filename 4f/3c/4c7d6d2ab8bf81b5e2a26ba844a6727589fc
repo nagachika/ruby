@@ -1,0 +1,6 @@
+process.c で argv や envp などのための char * 型の配列のバッファとして String
+オブジェクトのバッファを利用していたのを alignment の問題があるためにやめて、
+T_IMEMO 型のオブジェクトを利用したメモリ確保を使うようにしています。ただ元にな
+るメモリは既に String オブジェクトとして用意されているので、そこからコピーする
+関数を rb_imemo_tmpbuf_auto_free_pointer_new_from_an_RString() として定義してい
+ます。
