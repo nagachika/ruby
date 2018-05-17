@@ -1,0 +1,4 @@
+C API rb_wait_for_single_fd() のテスト test/-ext-/wait_for_single_fd/
+test_wait_for_single_fd.rb で FreeBSD の古いバージョンで不具合があってテストが
+通らないので skip しているところで、より正確にバージョンを検出するようにしてい
+ます。
