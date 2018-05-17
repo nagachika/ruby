@@ -1,0 +1,3 @@
+"cause" というシンボルの ID を error.c と eval.c でそれぞれ rb_intern_const()
+で確保していたので static 変数ではなくグローバル変数にして共有するようにしてい
+ます。
