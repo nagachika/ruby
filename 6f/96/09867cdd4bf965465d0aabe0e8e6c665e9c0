@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils に upstream から 1.1.0 をマージしています。
+fileutils ももう別にリポジトリがあるんだったっけ。 remove_entry_secure に JRuby
+用の対応が入ってるみたいです。 https://github.com/ruby/fileutils/pull/18
