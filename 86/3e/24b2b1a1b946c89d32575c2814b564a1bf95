@@ -1,0 +1,2 @@
+rb_wait_for_single_fd() のテストのための拡張ライブラリで FreeBSD 用? に kqueue
+(2) の fd を使う実装を追加してそれを使ったテストも追加しています。
