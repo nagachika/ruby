@@ -1,0 +1,6 @@
+r63430 で fileutils.rb の require "rbconfig" の LoadError を無視するようにした
+ので、RbConfig を参照しようとしているところで defined? でチェックしてアクセスで
+きなかったら RUBY_PLATFORM 定数をかわりに使うようにしています。元々 r63430 の前
+は RUBY_PLATFORM だったので、元の実装に fallback するってことのようです。たぶん
+ここが JRuby 対応なのでビルド時には fallback しても問題ないじゃろ、ということで
+すね。
