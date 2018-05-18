@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の OS/2 emx 用の rename_cannot_overwrite_file? と
+いうメソッドとそれを呼び出している特別処理のコードを削除しています。すでにサポ
+ート停止しているので。
