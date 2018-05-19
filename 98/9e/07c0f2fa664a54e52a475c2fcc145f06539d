@@ -1,0 +1,7 @@
+Range#=== は Range#include? メソッドでチェックしていたのですが、rb_funcall() で
+実際にメソッド呼び出しはやめて range_include_internal() で include? 相当のチェ
+ックをしてみて、include? で判定不能だった時には cover? 相当の処理で判定するよう
+にしています。 Range#include? は始点が整数に変換可能か、文字列かでないと処理で
+きないのでこれ以外の要素による Range の時には <=> メソッドの大小関係のみで判定
+できる cover? のほうがより汎用的に使えるということのようです。
+[ruby-core:85918] [Feature #14575]
