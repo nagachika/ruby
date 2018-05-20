@@ -1,0 +1,5 @@
+gc.c の rb_objspace_t::malloc_params::increase というメンバーを size_t から
+size_t の2つのメンバー(add, sub)をもつ構造体による表現に変更し、減算時に sub を
+増やすことで表現するようにしています。ATOMIC_SIZE_CAS() を利用した atomic な減
+算がコストが高いのでこれでシンプルに減算を行なえるようにしてパフォーマンスを改
+善しているそうです。 [ruby-core:87096] [Feature #14767]
