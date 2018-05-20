@@ -1,0 +1,3 @@
+r63212 で入って r63249 で一旦 revert されて r63333 で再度入った attr_reader に
+よるメソッドの MJIT コンパイル時の inline 化の一部、opt_send_without_block 命令
+の VM スタック消費量を調整しているところを revert しています。
