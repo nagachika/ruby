@@ -1,0 +1,7 @@
+標準添付ライブラリ fileutils の Windows 環境かどうか判定する fu_windows? という
+メソッドですが、判定方法は RbConfig::CONFIG["host_os"] か RUBY_PLATFORM の値で
+、これはプロセス内で変化しないはずのものなので、メソッド内で分岐して判定してい
+たのをメソッド定義自体を分岐して true or false のリテラルで返すメソッドを定義す
+るようにしています。あと bccwin と emx というプラットフォームは判定から削ってい
+ます。 emx って先日特別処理を削った OS/2 emx ですよね。OS/2 って Windows とか
+DOS の系譜なのか。
