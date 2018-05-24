@@ -1,0 +1,7 @@
+array.c の ary_resize_capa() および ary_shrink_capa() でバッファのメモリ
+realloc および free を SIZED_REALLOC_N() や ruby_sized_xfree() を使うようにして
+malloc 済みの容量を記録するようにしています。 malloc_usable_size の依存をやめる
+ためってあるけど malloc_usable_size ってこの記録してる malloc 済みサイズと関係
+してるやつじゃなかったっけ、と思ったけどこれはライブラリ関数で確保済みメモリ容
+量を得るものを wrap してる関数みたいです。これらのライブラリ関数を呼ばなくてす
+むようにできるだけ正確に管理しよう、ってことですかね。 [Feature #10238]
