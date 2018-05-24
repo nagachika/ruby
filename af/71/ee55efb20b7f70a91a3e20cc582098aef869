@@ -1,0 +1,2 @@
+mjit_exec() で MJIT のオプション mjit_opts.wait のチェックを必要な時にまで遅延
+させるようにする最適化。
