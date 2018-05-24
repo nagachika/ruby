@@ -1,0 +1,2 @@
+rb_hash_bulk_insert() の宣言を internal.h から include/ruby/st.h に移動していま
+す。 msgpack-ruby で使いたいとのこと。
