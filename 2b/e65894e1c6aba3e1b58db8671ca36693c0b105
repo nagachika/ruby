@@ -1,0 +1,4 @@
+gc.c の rb_objspace_call_finalizer() で T_DATA 型オブジェクトの free 関数が未設
+定かどうかのチェックに -1 をキャストして使ってたのを RUBY_DEFAULT_FREE というそ
+のための定数マクロを使うようにしています。内容は同じですが readability のために
+。
