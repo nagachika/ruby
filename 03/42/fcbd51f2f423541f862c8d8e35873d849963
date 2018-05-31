@@ -1,0 +1,4 @@
+template/fake.rb.in で RUBY_DESCRIPTION に MJIT が有効な時に +JIT つきの文字列
+を使うようにしています。 r63521 もこれに依存しているのかな? また r63501 の test
+/ruby/test_rubyoptions.rb の -v オプションのテストの対応も revert して単に
+RUBY_DESCRIPTION を参照するようにしています。
