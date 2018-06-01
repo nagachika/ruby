@@ -1,0 +1,3 @@
+r63522 の続き。 template/fake.rb.in で RUBY_DESCRIPTION の置換に fake.rb 生成時
+の ruby の設定ではなく実行時の ruby の設定ですりかえすようにしています。 r63522
+では置換する時に miniruby で実行される場合があって不十分だったみたいです。
