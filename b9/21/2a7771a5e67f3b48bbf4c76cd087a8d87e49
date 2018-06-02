@@ -1,0 +1,4 @@
+r63528 の rubygems の更新で追加されたテストで bundler 絡みのテストを Gem
+::USE_BUNDLER_FOR_GEMDEPS をチェックしてから実行するようにしています。たぶん
+ruby 本体に bundler が組込まれかけてキャンセルしたあたりの都合で ruby 本体のテ
+ストで実行すると通らないやつかと。
