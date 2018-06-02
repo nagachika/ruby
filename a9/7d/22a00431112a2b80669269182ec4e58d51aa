@@ -1,0 +1,4 @@
+ASt の C API テスト用の拡張ライブラリで TOPLEVEL_BINDING を参照していたのをやめ
+ています。rb_parser_set_context() の第2引数には NULL を渡すようにしています。こ
+れは defined? とかでローカル変数を扱う時意外使わないから NULL でもテストの範疇
+だったら大丈夫、ということかな。
