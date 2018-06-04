@@ -1,0 +1,4 @@
+r63551 のさらに続き。 unsigned long でもあふれたらどうするのかな、と思ってたら
+さっそく struct MEMO::u3.value を使って Bignum に切り換える処理を追加しています
+。このため imemo_count_up() という関数を導入しています。これでメモリの許すかぎ
+り大きな Enumerator の size が呼べますね。 [ruby-core:87340] [Bug #14805]
