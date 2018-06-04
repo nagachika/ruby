@@ -1,0 +1,4 @@
+r63549 の続きっぽいですが Enumerator#size のための struct MEMO::u3::cnt を
+Integer に変換する際にULONG2NUM() で unsigned long として扱うことでオーバーフロ
+ー対策しています。また他にも int として扱ってたところもあったのでそこも修正。
+[ruby-core:87348] [Bug #14805]
