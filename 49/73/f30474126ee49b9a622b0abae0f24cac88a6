@@ -1,0 +1,1 @@
+r63552 で追加した rexml.gemspec の require_relative のパスを修正しています。
