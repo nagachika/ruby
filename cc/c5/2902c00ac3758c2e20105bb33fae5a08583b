@@ -1,0 +1,2 @@
+標準添付ライブラリ rss に .gemspec ファイルを追加して default gem 化しています
+。独立したリポジトリができたようです。 https://github.com/ruby/rss
