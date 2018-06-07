@@ -1,0 +1,6 @@
+isnan(3) と isinf(3) のために新しめの C++ のコンパイラでは #include <cmath> す
+るようにしています。コミットログをみると C++11 では isnan() などのマクロが
+undef されてかわりに関数が定義されてて、しかも戻り値が bool に変わってて困るみ
+たいなことが書かれてますね。参考URL: https://developers.redhat.com/blog/2016/02
+/29/why-cstdlib-is-more-complicated-than-you-might-think/ [ruby-core:87364]
+[Bug #14816]
