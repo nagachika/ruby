@@ -1,0 +1,3 @@
+r63590 の追加修正。 lib/net/http/responses.rb に Net::HTTPServerException を参
+照しているところが残っていたので Net::HTTPClientException を使うように修正して
+います。
