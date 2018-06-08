@@ -1,0 +1,5 @@
+test/dtrace/helper.rb で DTrace と SystemTap の両方に対応するようにしているよう
+です。しかしコマンド差し替えても SystemTap 用の stub は DTrace と互換性あるんだ
+っけ? なんか文法がすごい独特だって昔きいたような。と、思ったけど
+dtrace2systemtap というメソッドが定義されてて、単純な置換で変換できるみたいです
+。すごい。
