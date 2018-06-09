@@ -1,0 +1,2 @@
+標準添付ライブラリ openstruct も gemspec ファイルを追加して default gem 化して
+います。 https://github.com/ruby/ostruct
