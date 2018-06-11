@@ -1,0 +1,4 @@
+r63598 の Windows で Net::HTTP の write_timeout のテストを skip するようにした
+件ですが、skip するのではなくて windows? でプラットフォームをみて元の r63597 と
+同じ方針で Net::ReadTimeout を起こすテストにするようにしています。
+[ruby-core:87427] [Bug #14829]
