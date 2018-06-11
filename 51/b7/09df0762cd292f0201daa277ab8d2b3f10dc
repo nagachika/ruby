@@ -1,0 +1,3 @@
+r63601 で matrix を default gem 化した時に doc/standard_library.rdoc から
+Matrix が消されてたのでDefault gems のセクションに移動して追加しなおしています
+。
