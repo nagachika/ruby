@@ -1,0 +1,7 @@
+random.c の fill_random_seed() の fill_random_bytes() の呼び出し時に第3引数
+need_secure (環境によっては未使用で unused という名前)を FALSE にして、secure
+な乱数を得るために実行がブロックされないようにしています。プロセス起動時にも呼
+ばれるためそこでブロックされるのを避けるためのようです。そのかわり
+Random.urandom の実装 random_raw_seed() では逆に need_secure を TRUE に変更して
+cryptographically secure な乱数を提供するようにしています。 [ruby-core:87462]
+[Bug #14837]
