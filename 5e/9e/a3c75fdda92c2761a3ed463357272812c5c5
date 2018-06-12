@@ -1,0 +1,3 @@
+doc/extension.rdoc に Data_Get_Struct() を使うように書かれてたところが残ってた
+ので TypedData_Get_Struct() に変更しています。 https://github.com/ruby/ruby/
+pull/1884
