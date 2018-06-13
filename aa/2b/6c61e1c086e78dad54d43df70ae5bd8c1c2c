@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb で webrick の同期をとる時に lib/webrick.rb も一旦削除
+するようにしています。
