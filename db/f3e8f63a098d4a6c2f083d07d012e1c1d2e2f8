@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb に最近 default gems 入りした logger, prime, matrix,
+ostruct, rexml, rss などのリポジトリからのコピー処理を追加しています。
