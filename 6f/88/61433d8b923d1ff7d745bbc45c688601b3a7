@@ -1,0 +1,2 @@
+r63629 の続きで tool/sync_default_gems.rb で lib/webrick.rb もコピーするように
+して、 lib/webrick/.document を復活させるようにしています。
