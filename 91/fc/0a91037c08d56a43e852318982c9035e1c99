@@ -1,0 +1,3 @@
+test/test_tempfile.rb で後置 if のかわりに &. 演算子を利用するようにしています
+。 close 済みの IO に close を呼んでも IOError にならなくなってるので closed?
+のチェックは不要。
