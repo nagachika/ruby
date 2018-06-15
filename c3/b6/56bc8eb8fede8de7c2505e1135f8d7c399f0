@@ -1,0 +1,5 @@
+bignum.c の rb_big_pow() で引数が負の Float の時に Complex を返すのに
+rb_funcall() で Complex#pow をメソッド呼び出ししてたのを pow(3) と
+rb_complex_polar() でこの場で計算して Complex を生成して返すようにしています。
+また引数が負の整数(Fixnum)だった時も同様に rb_funcall() で Rational#pow を呼ん
+でたのをこの場で Rational を組み立てて返すように最適化しています。
