@@ -1,0 +1,3 @@
+sleep_forever() の引数 deadlockable と spurious_check が呼び元でどっちがどっち
+かわからなくなるから、ということでまとめて 1つの unsigned int の引数にしてビッ
+トフラグで指定するようにしています。うむ、気持ちはわかる。
