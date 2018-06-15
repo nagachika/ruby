@@ -1,0 +1,3 @@
+vm_insn_info() の実装を succinct bitvector とかそれ以外(なんだったっけ……)に切
+り替える VM_INSN_INFO_TABLE_IMPL が 1 の時に未使用の関数の宣言が残っていたので
+preprocessor の分岐を修正しています。
