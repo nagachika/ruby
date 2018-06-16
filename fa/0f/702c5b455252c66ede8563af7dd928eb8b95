@@ -1,0 +1,3 @@
+r63590 で Net::HTTPServerException を deprecate にしたので警告を抑制するため
+rubyspec でこの定数を参照しているところをバージョンの guard つきで新しい名前
+Net::HTTPClientException をみるようにしています。
