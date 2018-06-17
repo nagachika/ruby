@@ -1,0 +1,2 @@
+random.c の fill_random_seed() および mjit.c の real_ms_time() で gettimeofday
+(2) のかわりに clock_gettime(2) が使えればそちらを使うようにしています。
