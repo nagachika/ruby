@@ -1,0 +1,1 @@
+flip-flop 演算子を parse 時点で警告を出力するようにしています。 [Feature #5400]
