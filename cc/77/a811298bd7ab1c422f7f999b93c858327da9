@@ -1,0 +1,2 @@
+ext/openssl/openssl_missing.h の IMPL_KEY_ACCESSOR2 および IMPL_KEY_ACCESSOR3
+というマクロで宣言される関数の引数に const 修飾子を追加しています。
