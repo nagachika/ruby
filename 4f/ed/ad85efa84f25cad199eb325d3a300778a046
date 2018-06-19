@@ -1,0 +1,3 @@
+double で絶対値と偏角を指定して Complex オブジェクトを作る rb_dbl_complex_polar
+() という関数を追加しています。これを使って rb_big_pow() や fix_pow()、
+rb_float_pow() から利用してメソッド呼び出しを迂回するようにしています。
