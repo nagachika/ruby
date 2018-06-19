@@ -1,0 +1,2 @@
+common.mk の libruby.a のビルド時のオブジェクトの指定から $(EXTOBJS) を削ってい
+ます。 EXTOBJS は DLDOBJS に含まれてるはずなので冗長とのこと。
