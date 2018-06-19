@@ -1,0 +1,2 @@
+Integer#** の実装 fix_pow() でも rb_funcall() でメソッド呼び出ししていたところ
+を直接計算して Rational を生成するようにしています。
