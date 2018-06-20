@@ -1,0 +1,6 @@
+vm_insnhelper.h に struct RBasic::klass が 0 にセットされている内部的オブジェク
+トかどうかをチェックする inline 関数 rb_obj_hidden_p() を追加して、PUSH() マク
+ロで VM スタックにオブジェクトを push する時に内部的オブジェクトだったらエラー
+にするように VM_ASSERT() を仕込んでいます。
+hidden object かどうか判定するマクロとか関数って他にもあったよな…と軽く grep
+してみたら iseq.c に hidden_obj_p() ってマクロがありました。
