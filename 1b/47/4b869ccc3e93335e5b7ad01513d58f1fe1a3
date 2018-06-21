@@ -1,0 +1,3 @@
+NameError 例外オブジェクトの NameError#receiver で Module#include で導入された
+private constant を親名前空間つきの参照をした時の例外で IClass が返される不具合
+があったのを修正しています。
