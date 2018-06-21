@@ -1,0 +1,3 @@
+RGENGC_CHECK_MODE が2以上に設定されている時にチェックされる
+gc_verify_heap_pages() で heap_eden と heap_tomb の page 数を加算してなくて
+heap_tomb のほうだけ戻り値にしていたのを修正しています。
