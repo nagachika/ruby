@@ -1,0 +1,2 @@
+thread.c の sleep_timespec() で spurious wakeup のチェックの前にタイマーの更新
+をしていたのでチェックの後にずらしています。
