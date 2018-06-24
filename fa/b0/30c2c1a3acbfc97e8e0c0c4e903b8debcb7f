@@ -1,0 +1,2 @@
+r63721 の続きで今度は sysctl net.core.wmem_default と sysctl
+net.core.wmem_default をメッセージに含めるようにしています。
