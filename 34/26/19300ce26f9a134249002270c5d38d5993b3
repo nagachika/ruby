@@ -1,0 +1,4 @@
+終端が nil の Range いわゆる endless range に Range#size が呼ばれたら
+Float::INFINITY を返すようにしています。修正前は例外になりそうな感じなので、そ
+れよりはましな気がしますが、うーん、そうか Float::INFINITY か……。
+[ruby-core:86612] [Bug #14699]
