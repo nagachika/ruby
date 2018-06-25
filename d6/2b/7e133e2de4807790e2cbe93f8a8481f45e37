@@ -1,0 +1,2 @@
+Array#any? と Hash#any? の rdoc 用コメントの call-seq にブロックなしで引数に
+pattern を渡す呼びかたを追記しています。え、そんな仕様あったのか…。
