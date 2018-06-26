@@ -1,0 +1,4 @@
+gc.c の ruby_mimmalloc() という関数で r63701 で導入した
+USE_GC_MALLOC_OBJ_INFO_DETAILS という malloc の統計情報を集計する機能を on にし
+た時に SEGV してたのを修正しています。struct malloc_obj_info::gen と line の再
+初期化を追加しています。
