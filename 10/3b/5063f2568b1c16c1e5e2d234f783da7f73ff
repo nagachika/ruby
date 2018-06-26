@@ -1,0 +1,2 @@
+標準添付ライブラリ prime の不要なメソッド TrialDivision#cache, #primes, #
+primes_so_far を削除しています。
