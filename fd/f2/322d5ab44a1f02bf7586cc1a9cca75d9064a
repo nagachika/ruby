@@ -1,0 +1,2 @@
+標準添付ライブラリ prime のテストに Integer.each_prime や Prime.prime? などのテ
+ストを追加しています。 https://github.com/ruby/prime/pull/3
