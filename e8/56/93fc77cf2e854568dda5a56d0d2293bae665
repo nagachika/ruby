@@ -1,0 +1,3 @@
+r63744 の mjit.c で execvp(3) のかわりに execv(3) を使うようにする変更で、パス
+の解決に失敗した(みつからなかった)時のメッセージを fprintf(3) で stderr に出力
+していたのを mjit.c 内の utility 関数 verbose() を利用するようにしています。
