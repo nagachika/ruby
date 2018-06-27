@@ -1,0 +1,3 @@
+mjit.c のコンパイラオプションの選択のための preprocessor の分岐で FreeBSD や
+Debian 上での clang のための __FreeBSD__ や __GLIBC__ をチェックも条件に追加し
+ています。
