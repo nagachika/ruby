@@ -1,0 +1,4 @@
+拡張ライブラリ socket の UNIXSocket#recv_io で fd が枯渇していて recvmsg(2) か
+ら EMFILE または ENFILE がかえってきた時に余計な IO が close されるのを期待して
+rb_gc_for_fd() を呼んで GC を起動してリトライするようにしています。また struct
+msghdr::msg_control_len が足りない時も GC を呼ぶようにしています。
