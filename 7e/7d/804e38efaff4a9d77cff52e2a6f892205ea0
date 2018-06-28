@@ -1,0 +1,2 @@
+Range のテストに start が Symbol の時の Range#step に引数が渡されたケースのテス
+トを追加しています。 https://github.com/ruby/ruby/pull/1899
