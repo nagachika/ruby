@@ -1,0 +1,2 @@
+rubyspec でも r63758 の対応を受けて Process.wait のテストの skip を削除していま
+す。
