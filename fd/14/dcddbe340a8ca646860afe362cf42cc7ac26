@@ -1,0 +1,2 @@
+r63758 で Process.wait と MJIT の問題を対処したので test/ruby/test_process.rb
+の skip を削除しています。
