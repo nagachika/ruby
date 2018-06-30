@@ -1,0 +1,7 @@
+encoding.c の enc_capable() という Encoding との関連付けを持てるオブジェクトか
+どうかをチェックする関数の wrapper として rb_enc_capable() という関数を定義して
+、marshal.c の r_ivar() などでオブジェクトに関連する Encoding が読み込まれた時
+にチェックして、不正なオブジェクトだったら ArgumentError を発生させるようにして
+います。普通に Marshal.dump したものなら Encoding がつかないオブジェクトにくっ
+ついていくことはないと思うので、バイナリをいじって不正なものを読み込ませるとま
+ずかったのかな。
