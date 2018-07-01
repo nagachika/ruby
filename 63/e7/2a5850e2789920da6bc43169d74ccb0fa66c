@@ -1,0 +1,2 @@
+RubyVM::AST::Node#children で NODE_DEFN と NODE_DEFS の時にメソッドの ID を含め
+るようにしています。
