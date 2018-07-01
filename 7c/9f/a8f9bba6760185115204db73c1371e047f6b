@@ -1,0 +1,3 @@
+ruby --dump=parsetree_with_comment で表示される AST のコメントの子ノードの表示
+を u1.xxx みたいなのじゃなくて別名の nd_xxx で表示するようにしています。 https:
+//github.com/ruby/ruby/pull/1901
