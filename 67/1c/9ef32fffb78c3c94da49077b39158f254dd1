@@ -1,0 +1,3 @@
+test/ruby/test_rubyoptions.rb のエラーを調査するため Process.wait で子プロセス
+の終了を待つ処理にタイムアウトをかけるようにしています。うーん、手元ではここじ
+ゃないところでハングしているのでなんか race condition があるんじゃないかなぁ。
