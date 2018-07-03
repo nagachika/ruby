@@ -1,0 +1,2 @@
+Windows 環境での rubyspec のテストのため環境変数 RUBYLIB の設定を伝播させるよう
+にしています。 https://github.com/ruby/spec/pull/607
