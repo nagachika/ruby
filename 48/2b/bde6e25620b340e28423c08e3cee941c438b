@@ -1,0 +1,5 @@
+Time#localtime メソッドの rdoc 用コメントに引数に offset が渡されてなくて、元々
+receiver が localtime の Time オブジェクトだったらそのまま(複製せずに)返すこと
+を明記しています。またテストや rubyspec に Time#localtime を呼んで time zone が
+変更したオブジェクトが返されても receiver は変更されないことを確認するテストを
+追加しています。 [ruby-core:87675] [Bug #14880]
