@@ -1,0 +1,8 @@
+r63498 で USE_THREAD_CACHE をデフォルトで 1 に定義して Thread の実態である
+pthread を使いまわすようにしたのですが、これで pthread を使いまわすと TSD とい
+う thread 固有データが次の Thread に引き継がれてしまうので
+native_thread_destroy() で pool に返す前に ruby_thread_set_native() を呼んでク
+リアしておくようにしています。どうやら TSD は Thread Specific Data の略で
+Thread Local Storage の代替もしくはその実装の一種みたいなものみたいですね。そう
+いえばちょっと前に pthread_setspecific() っていうのをみてなんだこれ、と思ったん
+だった。
