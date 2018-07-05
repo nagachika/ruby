@@ -1,0 +1,3 @@
+configure.ac の cflags, cppflags, cxxflags の定義に書いてあるコメントの説明をも
+うちょっと詳しくしています。それぞれ対応する CFLAGS, CPPFLAGS, CXXFLAGS などの
+変数の指定があるとそっちで上書きされてしまう。
