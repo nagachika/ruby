@@ -1,0 +1,2 @@
+rb_source_location() で cfp->iseq の NULL チェックを追加しています。cfp->iseq
+が NULL ってことは C 関数定義のメソッドの時かなぁ。
