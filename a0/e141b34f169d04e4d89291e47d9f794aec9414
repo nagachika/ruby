@@ -1,0 +1,4 @@
+signm2signo() でシグナルの番号と名前を管理するテーブル siglist でシグナル名を埋
+め込みで持つようにして signm2signo() に長い名前を渡した時に事前にエラーにするよ
+うにしています。 https://github.com/ruby/ruby/pull/1904 [ruby-core:87767] [Bug
+#14893]
