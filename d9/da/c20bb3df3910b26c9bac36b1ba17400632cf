@@ -1,0 +1,2 @@
+timer_thread_sleep() の引数を rb_global_vm_lock_t からそれを含む rb_vm_t 全体に
+変更しています。コメントをみると readability のためらしい。 [Feature #14859]
