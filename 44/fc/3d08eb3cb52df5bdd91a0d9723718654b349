@@ -1,0 +1,4 @@
+r63852 で revert された SIGCHLD 関連の変更を再度適用しています。 RUBY_SIGCHLD
+と SIGCHLD_LOSSY をまとめて WAITPID_USE_SIGCHLD というマクロで SIGCHLD を使わず
+従来の(?) waitpid の実装に戻せるようにしていますが、その他の実装はほぼ元のまま
+なので直ってるわけではなさそう?
