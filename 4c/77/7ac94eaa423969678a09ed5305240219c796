@@ -1,0 +1,2 @@
+Windows 環境での PRI_PIDT_PREFIX の定義を PRI_INT_PREFIX にしています。うーんい
+いのかなこれは。けど VC でのビルドができなかったみたいです。 [ruby-core:87794]
