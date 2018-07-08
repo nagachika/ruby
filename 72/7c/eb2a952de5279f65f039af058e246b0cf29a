@@ -1,0 +1,5 @@
+VM 命令の peephole optimization で if/unless の分岐の後に jump 命令があった時に
+jump 命令を消して分岐条件を反転するようにする最適化が、if の body 部が最適化で
+消えるような条件だと jump の前が LABEL になってると誤って jump の前の命令が実行
+されてしまう不具合があったので最適化する条件を厳しくしています。
+[ruby-core:87830] [Bug #14897]
