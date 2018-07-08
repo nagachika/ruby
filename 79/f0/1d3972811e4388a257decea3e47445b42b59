@@ -1,0 +1,3 @@
+mjit.c の Windows 版での waitpid() を WaitForSingleObject() で実装しているマク
+ロで、戻り値が必要になったので pid を返すように定義しています。これもう inline
+関数でいいんじゃないかな。 [ruby-core:87832] [Bug #14867]
