@@ -1,0 +1,4 @@
+r63857 および r63858 でテスト用にうるう秒処理をリセットする C API
+reset_leap_second_info() に ruby_ という prefix を追加して
+ruby_reset_leap_second_info() にしています。 rb_ ではじまるシンボルも公開用だっ
+たと思うけど rb_ と ruby_ ってどういう使い分けでしたっけ。
