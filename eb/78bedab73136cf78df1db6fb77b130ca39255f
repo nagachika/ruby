@@ -1,0 +1,3 @@
+拡張ライブラリ socket の UDPSocket のテストでごく稀に localhost の loopback
+interface でもパケットロスが生じることがあるそうで、それを考慮して成功するまで
+send を繰り返すようにしています。 [ruby-core:87842] [Bug #14898]
