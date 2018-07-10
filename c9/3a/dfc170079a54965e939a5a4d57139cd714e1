@@ -1,0 +1,3 @@
+RubyVM::MJIT.resume すると pthread_atfork() が繰り返しフックを登録するためメモ
+リリークが生じていたので、このフックは thread.c の rb_thread_atfork() から呼ば
+せるようにして MJIT の thread 起動時にセットしないようにしています。
