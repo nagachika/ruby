@@ -1,0 +1,2 @@
+rubyspec の Process.wait のテストで pid が残ってないかのテストで MJIT 有効時に
+は今は失敗する可能性があるので skip するようにしています。
