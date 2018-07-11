@@ -1,0 +1,1 @@
+benchmark/driver.rb で YAML のコメント行を削るための正規表現のミスを修正。
