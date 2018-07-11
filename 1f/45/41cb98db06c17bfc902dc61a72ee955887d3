@@ -1,0 +1,4 @@
+make benchmark および make benchmark-each のターゲットでベンチマークスクリプト
+実行する時に prelude.rb を読み込むようにしています。miniruby が IO#
+write_nonblock を実行できないので prelude.rb を読み込んでおかないといけないとの
+こと。
