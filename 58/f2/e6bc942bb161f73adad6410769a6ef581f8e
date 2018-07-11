@@ -1,0 +1,4 @@
+Pathname#glob でパターンに最後に path separator ("/")が含まれているものを渡すと
+結果から 1文字欠けてしまうという不具合を修正しています。 pathname 特有の実装と
+いうわけではなくて Dir.glob でも使われている glob_helper() の修正です。
+[ruby-dev:50588] [Bug #14899]
