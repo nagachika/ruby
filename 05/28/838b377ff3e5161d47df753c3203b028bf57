@@ -1,0 +1,2 @@
+addr2line.c で mmap(3) でファイルをメモリにマップした後に fd を struct obj_info
+に保持していたのですが、mmap() 後にすぐに fd を close するようにしています。
