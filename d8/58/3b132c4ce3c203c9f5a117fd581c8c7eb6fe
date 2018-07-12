@@ -1,0 +1,4 @@
+compile.c の iseq_set_sequence() で VM 命令へのコンパイル処理で TS_ISEQ と
+TS_VALUE、TS_ISE と TS_IC はそれぞれ同じ処理が繰り返し書かれていたので switch
+分の case 節をまとめて1つずつにしています。正確には TS_ISE は TS_IC に比べてち
+ょっとだけ処理が多いので case の間にその差分を挟むようにしています。
