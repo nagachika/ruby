@@ -1,0 +1,3 @@
+benchmark/lib/benchmark_driver/ の配下に benchmark_driver.gem の plugin 機構を
+使って peak/size といったメモリ使用量のベンチマークを取るオプションに対応するよ
+うにしています。benchmark_driver.gem のバージョンも v0.14.3 に更新しています。
