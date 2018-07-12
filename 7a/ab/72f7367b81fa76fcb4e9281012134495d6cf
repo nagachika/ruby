@@ -1,0 +1,2 @@
+GC.stress 化で RubyVM::InstructionSequence の dump と load を行った時に mark 漏
+れで SEGV することがあった不具合を修正しています。
