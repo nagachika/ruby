@@ -1,0 +1,4 @@
+benchmark/driver.rb は完全に削除されて make benchmark では benchmark_driver.gem
+の benchmark-driver コマンドを利用するように変更されています。また make
+benchmark_each は benchmark ターゲットに変数を渡すことで代替できるようになるの
+で削除しています。
