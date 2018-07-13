@@ -1,0 +1,3 @@
+benchmark/README.md で gem の名前が benchmark-driver になっていたので
+benchmark_driver に修正しています。 benchmark-driver でも本家に dependency を持
+たせた alias 用の gem があってそれでも動くみたいですが。
