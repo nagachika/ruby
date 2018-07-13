@@ -1,0 +1,2 @@
+test/ の配下の Tempfile と Dir.mktmpdir のテストでも一時ファイルの leak があっ
+たみたいで後始末するように修正しています。
