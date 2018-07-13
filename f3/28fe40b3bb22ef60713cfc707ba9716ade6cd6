@@ -1,0 +1,3 @@
+benchmark/lib/benchmark_driver/runner/ の benchmark_driver の plugin にさらに
+cstime/cutime/stime/utime/total などの CPU 時間で測定する runner も追加していま
+す。
