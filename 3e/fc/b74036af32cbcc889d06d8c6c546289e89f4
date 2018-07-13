@@ -1,0 +1,2 @@
+benchmark/ の app_erb と erb_render を .rb から .yml にまた戻しています。YAML
+記法を使ったほうが正確に測定できるとのこと。
