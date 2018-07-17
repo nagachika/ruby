@@ -1,0 +1,3 @@
+vm_dump.c の rb_vmdebug_stack_dump_raw() の変数 ep に const 修飾子をつけて警告
+除去。といってもここ #if 0 でコメントアウトされてる位置なので通常は使われてない
+ところです。
