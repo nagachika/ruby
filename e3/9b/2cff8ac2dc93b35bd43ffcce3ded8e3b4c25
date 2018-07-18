@@ -1,0 +1,2 @@
+コマンドラインオプション --disable-gems で rubygems を無効にした場合
+did_you_mean も利用できないので無効にするようにしています。
