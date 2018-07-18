@@ -1,0 +1,2 @@
+node.h の struct NODE のメンバーへのショートカット用のマクロ nd_compile_option
+がもう未使用になっていたので削除しています。
