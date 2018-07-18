@@ -1,0 +1,2 @@
+parse.y の構造体 struct rb_strterm_heredoc_struct のメンバー sourceline にコメ
+ントを追記しています。開始マーカーがある行番号を格納するものとのこと。
