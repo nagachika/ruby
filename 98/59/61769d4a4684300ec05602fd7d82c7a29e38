@@ -1,0 +1,4 @@
+例外のスタックトレースつきメッセージを得る Exception#full_message のキーワード
+引数 order に渡されたのが :top でも :bottom でもなかった時の例外メッセージで誤
+って :down と書かれてたので修正しています。 https://github.com/ruby/ruby/pull/
+1916
