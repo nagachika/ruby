@@ -1,0 +1,2 @@
+コマンドラインオプションに --disable-jit や --disable=jit で MJIT を無効化する
+フラグを追加しています。 [ruby-core:87671] [Feature #14878]
