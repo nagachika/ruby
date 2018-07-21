@@ -1,0 +1,3 @@
+r63994 で環境変数 TZ が更新されたことを伝えるフラグを ruby_tz_update から
+ruby_tz_uptodate_p に変更して、rb_localtime_r() で tzset() が呼ばれたらフラグを
+立てるという挙動がわかりやすくしています。
