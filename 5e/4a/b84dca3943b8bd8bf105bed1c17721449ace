@@ -1,0 +1,2 @@
+r64000 で追加した tracer.gemspec ファイルで spec.files を git ls-files で取得す
+るようになっていたのでファイルリストを直書きするように修正しています。
