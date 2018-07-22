@@ -1,0 +1,1 @@
+さらに tracer.gemspec の require_relative の相対パスを修正しています。
