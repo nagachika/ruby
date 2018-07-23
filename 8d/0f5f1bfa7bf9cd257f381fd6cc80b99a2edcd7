@@ -1,0 +1,5 @@
+do_select() に割り込みポイントでシグナルや別 Thread からの raise などで例外が発
+生した場合に fdset 用に確保したメモリ領域が free されずに leak する可能性があっ
+たので、このために select_set_type という TypedData オブジェクトの型を導入して
+Object に wrap することで例外発生時も GC で回収されるようにしています。
+[ruby-core:88037] [Bug #14929]
