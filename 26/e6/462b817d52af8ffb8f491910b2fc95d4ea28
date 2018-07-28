@@ -1,0 +1,2 @@
+標準添付ライブラリ forwardable も .gemspec ファイルを追加して default gem にし
+ています。
