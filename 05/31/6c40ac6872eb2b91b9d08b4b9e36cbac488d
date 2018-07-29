@@ -1,0 +1,3 @@
+fork(2) は Solaris では deprecated だそうで(かわりは何だろう?)、gcc で警告が出
+るそうなので process.c と mjit.c の対応する部分で #pragma を使って部分的に警告
+のオプションを抑制するようにしています。
