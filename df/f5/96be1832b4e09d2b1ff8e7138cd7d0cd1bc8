@@ -1,0 +1,3 @@
+ruby.c の runtime_libruby_path() で dladdr(3) に const void * のポインタを渡し
+ていますが、Solaris ではこの引数に const 修飾子がついていないそうなので警告除去
+のため明示的なキャストを追加しています。
