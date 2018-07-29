@@ -1,0 +1,3 @@
+標準添付ライブラリ ostruct で Module#remove_method が [Feature #14133] によって
+2.5 から public になっているため不要になっていた Object#__send__ をやめて直接メ
+ソッドを呼ぶようにしています。 https://github.com/ruby/ruby/pull/1890
