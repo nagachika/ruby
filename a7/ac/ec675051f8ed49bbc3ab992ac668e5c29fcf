@@ -1,0 +1,2 @@
+lib/unicode_normalize/normalize.rb のハングルの文字の normalizeation に不具合が
+あったみたいで修正しています。 [ruby-core:88070] [Bug #14934]
