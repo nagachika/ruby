@@ -1,0 +1,3 @@
+test/test_unicode_normalize.rb で Unicode 用のデータファイルのパスを格納する定
+数 UNICODE_DATA_PATH に r61417 と同様に ucd というサブディレクトリを使うように
+しています。
