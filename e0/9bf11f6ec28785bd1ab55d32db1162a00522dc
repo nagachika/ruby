@@ -1,0 +1,5 @@
+r64073 と r64075 のさらに続きで free_unit() で ISeq がまだ GC されてない時の
+rb_iseq_body_t::jit_func のクリアを NOT_READY_JIT_ISEQ_FUNC から
+NOT_COMPILED_JIT_ISEQ_FUNC に変更しています。 enum rb_mjit_iseq_func にはもとも
+と NOT_COMPILABLE_JIT_ISEQ_FUNC という定数があったのですが、これを
+NOT_COMPILED_JIT_ISEQ_FUNC に改名してこれを使うようにしています。
