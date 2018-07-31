@@ -1,0 +1,5 @@
+MJIT で複数のメソッドの JIT コンパイルが完了したら全ての *.o ファイルを1つの
+*.so にまとめて改めてロードするようにしています。 [ruby-core:85625] [Bug #
+14490]
+この変更の動機/目的やしくみについては k0kubun さんのブログに投稿がありました。
+https://k0kubun.hatenablog.com/entry/mjit-compaction
