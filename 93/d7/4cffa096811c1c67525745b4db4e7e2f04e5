@@ -1,0 +1,3 @@
+r64103 の再修正。 make test-all で install が必要なのは --enable-load-relative
+が指定されてない時だけなので $LIBRUBY_RELATIVE で判定して必要な時だけ依存するよ
+うにしています。
