@@ -1,0 +1,3 @@
+Thread cache の管理構造体 struct cached_thread_entry にシグナル発生時の
+altstack も持たせるようにして、GVL の削除時に先に altstack たちを解放するように
+しています。 [ruby-core:85621] [Feature #14487]
