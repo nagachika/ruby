@@ -1,0 +1,2 @@
+win32/mkexports.rb で deprecated になっている flip-flop 演算子が利用されていた
+ので使わないように書き換えています。 [ruby-core:88147] [Bug #14946]
