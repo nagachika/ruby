@@ -1,0 +1,2 @@
+r64118 で追加したマクロ COMPILER_WARNING_IGNORED の定義部分で IGNORED のところ
+が小文字になってしまっていたので修正しています。
