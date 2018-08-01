@@ -1,0 +1,6 @@
+ソースコード内の一部でどうしても消せない警告を preprocessor の #pragma を使って
+警告オプションの挙動を局所的に変更して抑制する手法がところどころ使われてるので
+、これをまとめて COMPILER_WARNING_PUSH/COMPILER_WARNING_IGNORED/
+COMPILER_WARNING_POP といったマクロに定義して使いまわすようにしています。ただし
+マクロは internal.h に定義しているので include/ruby/ruby.h では使えない(非公開
+マクロにしたかったため)のでそこは置き換えてないとのこと。
