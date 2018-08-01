@@ -1,0 +1,2 @@
+さらに r64118 で COMPILER_WARNING_ERROR() と COMPILER_WARNING_IGNORED() の引数
+の数に間違いがあったのも修正しています。
