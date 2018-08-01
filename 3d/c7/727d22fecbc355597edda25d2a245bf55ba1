@@ -1,0 +1,2 @@
+r64109 の追加修正。そもそも ruby_ppoll() の定義を thread_pthread.c に移動してい
+ます。 [ruby-core:88173] [Bug #14950]
