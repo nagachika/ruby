@@ -1,0 +1,2 @@
+thread_pthread.c の unregister_ubf_list() に th->unblock.func が 0 であることを
+チェックする VM_ASSERT() を追加しています。CI での失敗の調査用かな。
