@@ -1,0 +1,4 @@
+gvl_yield() で GVL 確保待ち中の thread がいなかった時に適当に
+native_thread_yield() を呼ぶ前に ubf_wakeup_all_threads() を呼んでブロック中の
+スレッドを起こしちゃうようにしています。これもシグナル喪失の対策なんだろうけど
+全 thread 起こすとなると場合によっては CPU 負荷が高くなりそうな気も。
