@@ -1,0 +1,2 @@
+r64141 の thwait の gemspec ファイルの移動に tool/sync_default_gems.rb も追随し
+ています。
