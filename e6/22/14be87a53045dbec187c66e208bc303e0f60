@@ -1,0 +1,9 @@
+mjit.c で定義されていた MJIT_ATOMIC_SET() というマクロは Windows 版のときに
+InterlockedExchangePointer() を使った実装をする以外は ATOMIC_SET() を利用してい
+たので、ruby_atomic.h にこの InterlockedExchangePointer() を使った実装を移植し
+て、ATOMIC_PTR_EXCHANGE() を使うようにしています。というか ATOMIC_SET() を使っ
+てたら Windows で警告が出るからということで r62193 で
+InterlockedExchangePointer() を使う MJIT_ATOMIC_SET() を定義してましたが、この
+引数に ATOMIC_SET() を使うのが間違いで ATOMIC_PTR_EXCHANGE() を使うべきだった
+(が当時 Windows 版の InterlockedExchangePointer() を使った実装がなかった)という
+ことみたいですね。
