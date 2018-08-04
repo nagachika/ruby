@@ -1,0 +1,3 @@
+r64156 で mjit.c の MJIT_ATOMIC_SET() を ATOMIC_PTR_EXCHANGE() に変更したのです
+が MinGW の実装だと戻り値があるのでそれを無視して警告を除去するため明示的な
+(void) へのキャストを追加しています。
