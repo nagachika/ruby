@@ -1,0 +1,6 @@
+拡張ライブラリ socket のテストの test_timestamp および test_timestampns から
+UDPSocket#recvmsg が返す stamp.timestamp のテストの共通部分を切り出して
+test_timestampns ではやっていなかった IO.select で Thread 間協調のための pipe
+の close をチェックしてリトライする処理をどちらでも行うようにしています。たまに
+先に recvmsg してしまってテストが止まってしまうことがあったみたいです。
+[ruby-core:88104] [Bug #14898]
