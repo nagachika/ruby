@@ -1,0 +1,3 @@
+r64143 の MJIT 用ヘッダをビルドディレクトリのものも許容するようにする環境変数
+MJIT_SEARCH_BUILD_DIR が設定されていた時の処理は configure 時のオプション
+--enable-load-relative が設定されていなかった時のみ行うようにしています。
