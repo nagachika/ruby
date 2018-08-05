@@ -1,0 +1,3 @@
+AST::Node クラスの allocate を undef して initialize を通さずにオブジェクトを生
+成するのを禁止するようにしています。未初期化の AST::Node を使うと SEGV してしま
+う不具合があったため。
