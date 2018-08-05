@@ -1,0 +1,4 @@
+更に更に range_values() で rb_check_funcall() でチェック後に Qnil がかえってき
+ていたら Qfalse を返すようにしていたのを、未定義時に返すオブジェクトを指定でき
+る rb_check_funcall_default() をいう関数を使うようにリファクタリングしています
+。
