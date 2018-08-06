@@ -1,0 +1,2 @@
+rb_enc_get_index() でも引数のオブジェクトが Encoding と関連しないオブジェクトの
+時にむりやり enc_get_index_str() を呼び出してたのを -1 を返すようにしています。
