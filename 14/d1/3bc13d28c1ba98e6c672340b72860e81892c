@@ -1,0 +1,3 @@
+Process.wait と SIGCHLD の処理のテストで MJIT が有効な時に MJIT 用 worker のぶ
+んの SIGCHLD のせいで(?) テストが失敗することがあるので余分なシグナル処理を許容
+するようにしているようです。
