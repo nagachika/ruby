@@ -1,0 +1,2 @@
+mjit.c で mswin 版の precompiled header を利用する MJIT で利用するため変数宣言
+と初期化をプラットフォームで分岐するようにしています。
