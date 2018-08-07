@@ -1,0 +1,5 @@
+MJIT 用の mjit_header.h を tool/transform_mjit_header.rb を使って arch 毎のヘッ
+ダに変換するルールを common.mk から Makefile.in に移動しています。 mswin では
+cl.exe の仕様でマクロの置換を抑制できない? ため min header の生成をあきらめ、ビ
+ルド時に precompiled header を生成するとのこと。けどルールの変更は min header
+作成を抑制しただけにみえるけどこの後追加の変更があるのかな。
