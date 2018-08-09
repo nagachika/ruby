@@ -1,0 +1,3 @@
+default gem の logger, prime, rexml, rss, webrick の gemspec ファイルでも
+r64145 と同様に upstream のリポジトリで単独でも動くように require_relative のパ
+スを2通り試すようにしています。
