@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPAuth::Htgroup のテストを追加していま
+す。 https://github.com/ruby/webrick/pull/10 [ruby-core:87602] [Bug #14866]
