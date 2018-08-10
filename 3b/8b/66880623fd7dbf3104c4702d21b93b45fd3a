@@ -1,0 +1,3 @@
+FreeBSD 11.1 で拡張ライブラリ socket の rubyspec のテストがハングアップすること
+があるため一部 FreeBSD で実行しないようにしたり、早めに socket の close をする
+ように対処しています。
