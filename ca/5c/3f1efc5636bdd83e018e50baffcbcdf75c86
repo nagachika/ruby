@@ -1,0 +1,3 @@
+rubyspec の socket のテストで macOS でもハングアップするものがあるみたいで、い
+くつか platform_is_not の guard に :darwin を追加して実行させないようにしていま
+す。
