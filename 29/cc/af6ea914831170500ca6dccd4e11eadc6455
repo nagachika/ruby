@@ -1,0 +1,2 @@
+appveyor.yml で MJIT のテストを行うように RUBY_FORCE_TEST_JIT=1 をつけて nmake
+test-all するようにしています。
