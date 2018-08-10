@@ -1,0 +1,3 @@
+mswin 版での MJIT で cl.exe の標準出力への出力を捨てる対応と extern のかわりに
+RUBY_EXTERN を使う対応を入れています。これで mswin の VC++ での MJIT が動くよう
+になるらしいです。テストはまだいくつか skip されています。
