@@ -1,0 +1,3 @@
+rubyspec の socket のテストで IPv6 の localhost のアドレスが名前解決できない場
+合がある(/etc/hosts にIPv6 のアドレスが書かれてない)ので、ホスト名に "localhost
+" を使ってるところは明示的に "::1" を使うようにしています。
