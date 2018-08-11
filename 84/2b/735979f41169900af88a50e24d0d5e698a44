@@ -1,0 +1,2 @@
+Kernel#open などのメソッドの mode を示す文字列に "x" で O_EXCL を示すという機能
+を追加しています。 [ruby-core:69568] [Feature #11258]
