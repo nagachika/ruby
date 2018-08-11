@@ -1,0 +1,4 @@
+r64182 で MJIT の mswin 以外のプラットフォームで min header 生成するための make
+のルールを common.mk から Makefile.in に移動しましたが、再度 common.mk に戻して
+います。よくわかってないですが universal binary 生成のために defs/universal.mk
+で上書きするマクロを使っているルールなので common.mk にないといけないとのこと。
