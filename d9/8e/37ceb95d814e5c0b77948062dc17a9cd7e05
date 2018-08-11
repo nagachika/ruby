@@ -1,0 +1,2 @@
+rubyspec の socket のテストで bind していない Socket の accept のテストを macOS
+, FreeBSD, Windows に加えて Solaris 環境でも実施しないようにしています。
