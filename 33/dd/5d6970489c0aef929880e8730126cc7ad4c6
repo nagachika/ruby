@@ -1,0 +1,6 @@
+r64234 で TLSv1.3 の対応のため net/ftp と net/http で OpenSSL::SSL::SSLContext#
+session_new_cb を利用するようにしたやつに対応するものだと思いますが、net/ftp と
+net/http のテストで OpenSSL::SSL::SSLContext を使いまわしたら session が再利用
+されているのを確認するようにしています。ただし OpenSSL 1.1.0h では不具合があっ
+てうまく働かないようなので、リンクしている OpenSSL のバージョンによっては skip
+するようにしています。
