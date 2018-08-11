@@ -1,0 +1,2 @@
+r64243 の修正で追加したテストで external encoding が US-ASCII だった場合に skip
+するようにしています。がまた後で再修正されてます。
