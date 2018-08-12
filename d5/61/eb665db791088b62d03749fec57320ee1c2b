@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence#load と #to_a のテストで GC.stress = true の環境下
+でテストするものを assert_separately を使って別プロセスで実行するようにしていま
+す。 mswin の CI で10分以上かかってたとのこと。
