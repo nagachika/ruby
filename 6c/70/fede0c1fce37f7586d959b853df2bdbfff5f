@@ -1,0 +1,3 @@
+RUBY_DESCRIPTION という定数の内容を mjit_init() で書き換えていたのを
+Init_ruby_description() という初期化関数を追加して MJIT の on/off をみて最初か
+ら文字列を変えておくようにしています。
