@@ -1,0 +1,2 @@
+doc/maintainers.rdoc および doc/standard_library.rdoc に標準添付ライブラリ
+ipaddr に default gem 化を反映させてカテゴリを移動しています。
