@@ -1,0 +1,2 @@
+Enumerator::ArithmeticSequence#last の引数に Integer でないオブジェクトが渡され
+た時に Integer に変換してから処理するようにしています。
