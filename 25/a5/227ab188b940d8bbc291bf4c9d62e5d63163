@@ -1,0 +1,4 @@
+r64205 で追加した Enumerator::ArithmeticSequence の allocate および new メソッ
+ドを直接呼んでオブジェクト生成はできないようにしています。 Numeric#step や
+Range#step で内部的に生成する時だけ使われるようにしています。 [ruby-core:82816]
+[Feature #13904]
