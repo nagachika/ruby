@@ -1,0 +1,5 @@
+vm_caller_setup_arg_block() で引数に受け取った struct rb_calling_info のメンバ
+ーを上書きしていたのを戻り値で返して呼び元でメンバーに再代入するようにリファク
+タリングしています。MJIT が生成するコードで戻り値になる blocks_handler が欲しい
+ためだけに rb_calling_info を渡さないといけなかったので無駄を省くためみたいです
+。
