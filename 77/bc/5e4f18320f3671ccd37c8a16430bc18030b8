@@ -1,0 +1,2 @@
+Numeric#step の実装の num_step() の r64205 でコメントアウトされた
+RETURN_SIZED_ENUMERATOR() がもう不要なので削除しています。
