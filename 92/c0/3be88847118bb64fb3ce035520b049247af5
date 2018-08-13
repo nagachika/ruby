@@ -1,0 +1,2 @@
+tool/downloader.rb で Errno::ETIMEDOUT や SocketError の他 HTTP レスポンスのス
+テータスが 502 または 503 の時にもリトライするようにしています。
