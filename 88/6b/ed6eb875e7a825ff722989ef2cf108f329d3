@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence の load/to_a を GC.stress = true の環境下でやるテス
+トのタイムアウトを伸ばしています。mswin の CI ではまだ時間がかかるため。
