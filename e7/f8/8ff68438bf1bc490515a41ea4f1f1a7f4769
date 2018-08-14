@@ -1,0 +1,2 @@
+compile.c の when_vals() およびその呼び元の compile_case() で COMPILE() がエラ
+ーを返した時のエラー処理が漏れてたので修正しています。
