@@ -1,0 +1,3 @@
+さらに rubyspec の socket のテストで Solaris 10 で通せないものにも
+platform_is_not を追加。このプラットフォームの指定に solaris2.10 なんて指定もで
+きるんですね。
