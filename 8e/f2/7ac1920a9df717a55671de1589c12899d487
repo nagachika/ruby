@@ -1,0 +1,5 @@
+r64271 や r64278 で GC.stress = true の状態での
+RubyVM::InstructionSequence.load のテストのタイムアウトを伸ばしていましたが、環
+境変数 RUBY_TEST_SUBPROCESS_TIMEOUT_SCALE で一律子プロセスを使うテストのタイム
+アウトを伸ばすのを使うようにすべきということで、ここでのタイムアウトは 30 に戻
+しています。
