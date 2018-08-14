@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_call_iseq_setup_normal_internal() の宣言に inline 修飾子
+と ALWAYS_INLINE() マクロ両方使ってて重複していたので修飾子は消しています。
