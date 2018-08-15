@@ -1,0 +1,3 @@
+time.c の timegm_noleapsecond() という関数でうるう秒チェックのため tm_yday を取
+得する処理が calc_tm_yday() という関数に定義されていたのでそちらを使うようにリ
+ファクタリングしています。
