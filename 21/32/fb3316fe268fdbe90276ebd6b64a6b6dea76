@@ -1,0 +1,5 @@
+mingw と cygwin 環境で Makefile の LIBRUBY_DLDFLAGS にリンカオプションを追加す
+る時に DLDFLAGS を参照してしまってたので、これより上の LIBRUBY_DLDFLAGS の変更
+が無視されてたのを修正しています。また solaris の時の処理では GCC かどうかで分
+岐していたところを $linker_flag という変数を使って分岐なしで書くようにリファク
+タリングしています。
