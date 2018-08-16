@@ -1,0 +1,2 @@
+r64340 で revert された r64337 を再適用して me->def->type が
+VM_METHOD_TYPE_NOTIMPLEMENTED が明示的に設定されてた時の対応を追加しています。
