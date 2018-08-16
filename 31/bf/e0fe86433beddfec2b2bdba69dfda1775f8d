@@ -1,0 +1,2 @@
+r64356 で Solaris でも timer_settime(2) を使うほうを有効にしていましたが、CI で
+の rubyspec の失敗が解決できないので timer thread を使う方式にしています。
