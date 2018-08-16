@@ -1,0 +1,4 @@
+r64353 の timer thread の廃止の修正で timer_settime() に使ってた
+CLOCK_MONOTONIC が Solaris 環境だとないということで、かわりに CLOCK_REALTIME を
+使うようにマクロ UBF_TIMER_CLOCK を導入しています。 [ruby-core:88360] [Misc #
+14937]
