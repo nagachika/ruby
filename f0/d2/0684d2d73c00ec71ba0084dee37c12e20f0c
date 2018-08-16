@@ -1,0 +1,2 @@
+Module#method_defined? や {private,protected}_method_defined? のテストを追加し
+ています。
