@@ -1,0 +1,4 @@
+r64362 で revert したテスト時の Tempfile の消し忘れ検出で File.exist? もチェッ
+クするようにしたのは、webrick のテストで Tempfile で作ったファイルを rename し
+てたせいらしくて、正常時のみ rename して例外発生時は後始末するように修正してい
+ます。 [ruby-core:88477]
