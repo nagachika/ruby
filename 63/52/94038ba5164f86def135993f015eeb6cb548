@@ -1,0 +1,2 @@
+r64357 の Solaris で timer thread を使うようにしたのは r64359 の rubyspec の修
+正(?)で不要になったそうなので revert しています。
