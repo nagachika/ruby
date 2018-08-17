@@ -1,0 +1,5 @@
+thread_pthread.c の gvl_acquire_common() から gvl.timer が無効な時に timer
+thread 代わりの thread が完全に wait せずにタイムアウトつきで定期的に起きるよう
+にする処理を do_gvl_timer() という関数名で切り出すリファクタリング。また
+UBF_TIMER マクロの定義部分のコメントで blocking region の thread を定期的に起こ
+す理由を詳細に追加しています。 [ruby-core:88475] [Misc #14937]
