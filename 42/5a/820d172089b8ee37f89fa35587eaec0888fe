@@ -1,0 +1,4 @@
+r64364 の AppVeyor 上での MinGW での make test-all に TEST_EXCLUDES 変数を明示
+するようにしたのを revert して、set MSYS_NO_PATHCONV=1 という変数設定をしておく
+ようにしています。よくわかりませんが msys がパスを勝手に変換してしまうのを抑制
+するものみたいですね。
