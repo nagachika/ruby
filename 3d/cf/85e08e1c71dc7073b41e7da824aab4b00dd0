@@ -1,0 +1,3 @@
+rb_timer_disarm() などの rb_timer_xxx() の関数群を ubf_timer_disarm() のように
+ubf_timer_xxx() に改名しています。 export しないので rb_ という prefix を使わな
+いようにしています。 [ruby-core:88475] [Misc #14937]
