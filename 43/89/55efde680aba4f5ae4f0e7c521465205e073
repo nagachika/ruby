@@ -1,0 +1,2 @@
+io_spec_rb_io_wait_readable() の宣言に NORETURN() を使って処理が戻ってこないこ
+とを明示するようにしています。
