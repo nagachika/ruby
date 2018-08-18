@@ -1,0 +1,5 @@
+time.c のうるう秒処理する gmtimew_noleapsecond() で leap_year_yday_offset およ
+び common_year_yday_offset というテーブルを参照していたのを mon および mday を
+lookup する common_year_mon_of_yday, leap_year_mon_of_yday,
+common_year_mday_of_yday, leap_year_mday_of_yday というテーブルを新規に定義して
+これを使うようにリファクタリング(?)しています。
