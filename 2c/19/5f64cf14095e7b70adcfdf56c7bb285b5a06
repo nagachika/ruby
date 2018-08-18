@@ -1,0 +1,1 @@
+enumerator.c の id_lazy はもう未使用になっていたので削除しています。
