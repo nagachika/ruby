@@ -1,0 +1,5 @@
+rb_thread_wakeup_timer_thread() の引数に 0 を渡すと ubf_timer_arm() でタイマー
+をセットさせるようにしていましたが -1 も受け付けて -1 の時だけ ubf_timer_arm()
+を呼び、 0 の時は signal_self_pipe の pipe を通じて timer thread 役の thread に
+通知するだけに留めるようにしています。SIGVTALRM 利用を減らして spurious wakeup
+を減らすのが目的のようです。
