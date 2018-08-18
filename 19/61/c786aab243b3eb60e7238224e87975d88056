@@ -1,0 +1,5 @@
+macOS の時のライブラリ探索パスを指す環境変数を指定する LIBPATHENV (Linux なら
+LD_LIBRARY_PATH)に DYLD_LIBRARY_PATH を設定していましたが、
+DYLD_FALLBACK_LIBRARY_PATH というのを指定するようにしています。チケットによると
+DYLD_LIBRARY_PATH を直接設定すると pkg-config(1) が探索に失敗してしまうそうです
+。 [ruby-core:88487] [Bug #14992]
