@@ -1,0 +1,2 @@
+Makefile.in の ruby.pc と ruby-runner.h の依存関係に config.status を追加して
+configure しなおされた時に生成しなおすようにしています。
