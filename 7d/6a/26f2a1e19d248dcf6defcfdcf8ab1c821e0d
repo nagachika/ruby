@@ -1,0 +1,5 @@
+r56185 でやってた Enumerator::Lazy のメソッドチェインした時の Proc オブジェクト
+を配列に詰めてメソッド呼び出しを迂回して直接 rb_proc_call_with_block() を呼ぶよ
+うにした最適化を Enumerator::Lazy#uniq と #grep_v でも対応しています。 r56185
+の後で追加されたメソッドだから漏れてたのかな。 https://github.com/ruby/ruby/
+pull/1930 [ruby-core:88492] [Feature #14994]
