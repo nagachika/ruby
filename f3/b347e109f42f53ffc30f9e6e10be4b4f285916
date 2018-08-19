@@ -1,0 +1,3 @@
+rubyspec で Enumerator::ArithmeticSequence の導入に関連して 2.6 以降とそれより
+前のバージョンで Numeric#step などのテストの結果の確認を分けるようにしています
+。
