@@ -1,0 +1,2 @@
+r64398 で修正された regression に対応する ConditionVariable のテストを rubyspec
+に追加しています。 [ruby-core:88503] [Bug #14999]
