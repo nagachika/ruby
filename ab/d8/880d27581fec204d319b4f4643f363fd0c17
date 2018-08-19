@@ -1,0 +1,2 @@
+rubyspec の socket のテストで connect_nonblock のテストは FreeBSD で実行しない
+ように platform_is_not メソッドのブロックで括るようにしています。
