@@ -1,0 +1,2 @@
+r64407 の SIGCHLD がない環境での不要コードを preprocessor の分岐内に収めるよう
+にする変更で mswin の CI が壊れてるそうなので revert しています。
