@@ -1,0 +1,5 @@
+thread.c の sleep_timespec() などで sleep から割り込みで起きた時に
+vm_check_ints_blocking() やその先の rb_threadptr_execute_interrupts() などで割
+り込みの原因に応じて Thread#raise など ruby レベルの割り込みの場合はすぐに起き
+て spurious check を省略するようにしています。 [ruby-core:88537] [Feature #
+15002]
