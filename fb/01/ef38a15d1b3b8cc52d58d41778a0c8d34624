@@ -1,0 +1,2 @@
+r64416 で FreeBSD 向けの guard を追加した rubyspec の socket のテストに Solaris
+でも実行しないように guard を追加しています。
