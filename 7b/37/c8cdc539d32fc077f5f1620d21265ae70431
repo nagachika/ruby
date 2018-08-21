@@ -1,0 +1,3 @@
+rubyspec で IO.for_fd で既に存在している fd を wrap する IO オブジェクトを作っ
+た時には IO#autoclose を false に設定して GC で回収される時に close させないよ
+うにしています。 socket のテストのためみたいです。 [Feature #2250]
