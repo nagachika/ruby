@@ -1,0 +1,2 @@
+rubyspec の Addrinfo のテストで Solaris と Windows で実行しないようにしていたも
+のを、逆に Linux でのみ実行するようにしています。
