@@ -1,0 +1,2 @@
+rubyspec の socket のテストで localhost の有無によって失敗するテストを
+solaris2.11 では実行しないように platform_is_not を追加しています。
