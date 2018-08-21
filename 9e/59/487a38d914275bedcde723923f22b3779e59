@@ -1,0 +1,4 @@
+r64444 の再修正。sleep_forever() および sleep_timespec() で
+RUBY_VM_CHECK_INTS_BLOCKING() の後に th->status を変更するようにしています。
+r64448 で言ってた semantic の修正というのがこれかな? [ruby-core:88510] [Bug #
+15002]
