@@ -1,0 +1,2 @@
+さらに rubyspec の Addrinfo のテストで service 名の解決に使ってるのを http から
+ftp に変更。 Solaris では http が解決できなかったそうで、それはそれですごい。
