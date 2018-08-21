@@ -1,0 +1,2 @@
+rubyspec の Socket.getnameinfo のテストで不正な文字列を渡した時の例外が FreeBSD
+では TypeError になるのでそれも許容するようにテストを修正しています。
