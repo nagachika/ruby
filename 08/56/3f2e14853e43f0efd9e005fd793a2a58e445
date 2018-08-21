@@ -1,0 +1,2 @@
+rubyspec の Addrinfo のテストで "localhost" のかわりに "127.0.0.1" を使うように
+しています。
