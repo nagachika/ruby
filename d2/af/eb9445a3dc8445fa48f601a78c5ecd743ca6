@@ -1,0 +1,6 @@
+do_gvl_timer() 内の static 変数として持っていた err を構造体
+rb_global_vm_lock_t のメンバー timer_err として保持させるようにして(この構造体
+のインスタンスは VM に1つなので実質的にはここはリファクタリング)、
+gvl_acquire_common() 内で GVL 獲得待ちをしている Thread がなかった時に
+ETIMEDOUT に再初期化して、time slice のためのタイマーをリセットさせるようにして
+います。 [ruby-core:88503] [Bug #14999]
