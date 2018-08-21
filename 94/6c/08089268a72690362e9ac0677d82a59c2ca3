@@ -1,0 +1,2 @@
+rubyspec の Addrinfo のテストで solaris で動かないものを platform_is_not で
+guard するようにしています。
