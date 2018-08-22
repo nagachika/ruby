@@ -1,0 +1,2 @@
+r64409 で追加された rubyspec のテストが Windows で動かないということで
+platform_is_not を追加しています。
