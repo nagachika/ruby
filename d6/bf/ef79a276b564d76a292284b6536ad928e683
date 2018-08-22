@@ -1,0 +1,3 @@
+標準添付ライブラリ uri/mailto のメールアドレスの正規表現の出典(?)のURLがリンク
+切れしていたようなので新しいものに修正しています。 https://github.com/ruby/ruby
+/pull/1929
