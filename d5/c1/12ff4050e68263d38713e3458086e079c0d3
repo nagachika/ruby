@@ -1,0 +1,2 @@
+r64355 で謎の IO.select を追加してた rubyspec の socket のテストですが FreeBSD
+と macOS のみ追加してたのを、常に IO.select 実行するようにしています。
