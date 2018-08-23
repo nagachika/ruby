@@ -1,0 +1,2 @@
+構造体 rb_fiber_t のメンバー status と transferred を bitfield 化することで構造
+体サイズダイエットしています。
