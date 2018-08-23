@@ -1,0 +1,3 @@
+MJIT 用の minimized header 生成のルールに timestamp ファイルを利用するため、タ
+イムスタンプファイル用ディレクトリへの依存も追加しています。 [ruby-core:88584]
+[Bug #15015]
