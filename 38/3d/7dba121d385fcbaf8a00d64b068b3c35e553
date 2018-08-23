@@ -1,0 +1,3 @@
+r59192 の rb_thread_ptr() に倣って cont.c のオブジェクトの VALUE から
+rb_context_t や rb_fiber_t のポインタを得る関数 rb_cont_ptr() や rb_fiber_ptr()
+を定義して GetContPtr(), GetFiberPtr() のかわりに使うようにしています。
