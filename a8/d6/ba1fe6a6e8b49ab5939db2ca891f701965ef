@@ -1,0 +1,2 @@
+r64471 の rubyspec のテストを Windows で一部動かないようにする platform_is_not
+の追加を revert しています。
