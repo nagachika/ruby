@@ -1,0 +1,2 @@
+rubyspec の socket のテストで bind せずに accept するやつが AIX でもうまく通ら
+なかったので platform_is_not の guard に追加しています。
