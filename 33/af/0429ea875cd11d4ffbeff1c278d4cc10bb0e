@@ -1,0 +1,4 @@
+拡張ライブラリ coverage の Coverage.result で結果を取り出した時の
+rb_reset_coverages() のタイミングで全 ObjectSpace から
+RubyVM::InstructionSequence のオブジェクトに対して coverage 用のカウンターを削
+除する処理を入れています。
