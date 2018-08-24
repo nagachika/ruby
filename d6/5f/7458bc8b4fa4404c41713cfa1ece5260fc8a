@@ -1,0 +1,4 @@
+parse.y の struct parser_params から coverage を削除して、coverage 計測用のデー
+タの初期化は rb_iseq_new_top() に移動して ISeq の生成時に作るようにしています。
+そのために parse.y の yycompile() ではテーブルの初期化に必要なスクリプト行数を
+rb_ast_body_t::line_count にセットしておくようにしています。
