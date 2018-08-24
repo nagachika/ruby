@@ -1,0 +1,2 @@
+time.c の calc_wday() の引数 year を year_mod400 に改名しています。呼び元で 400
+での mod にして渡しているみたいですね。
