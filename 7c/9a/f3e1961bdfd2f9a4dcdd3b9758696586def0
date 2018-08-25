@@ -1,0 +1,2 @@
+r64518 で導入した rb_vm_encoded_insn_data_table_init() で clang でのビルドのた
+めに明示的なキャストを追加しています。
