@@ -1,0 +1,2 @@
+rubyspec の socket のテストで bind してない socket に sysaccept を呼ぶテストを
+AIX でも実行除外するようにしています。
