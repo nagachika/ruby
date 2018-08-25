@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence でバイナリからロードしたメソッドでは TracePoint に
+よるイベントフックが効かないという不具合があったので、ロード時に TracePoint が
+有効だったら iseq のフラグを立てるようにしています。 [ruby-core:86626] [Bug #
+14702]
