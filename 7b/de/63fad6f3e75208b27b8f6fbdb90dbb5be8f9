@@ -1,0 +1,2 @@
+thread_pthread.c の ubf_timer_destroy() で getpid() を呼び出して fork した子プ
+ロセスではないことを確認してたのが冗長だったので削っています。
