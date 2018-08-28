@@ -1,0 +1,3 @@
+r64533 で導入した rb_hrtime_t の操作関数 hrtime_update_expire() が gcc7 だと未
+初期化変数の警告が出てしまうということで #pragma で局所的に警告のオプション
+-Wmaybe-uninitialized をオフにするようにしています。
