@@ -1,0 +1,4 @@
+r64529 でもいじってた IO の fd 再利用がらみのテスト test_recycled_fd_close で
+Linux でのみ謎の IO#write を追加しています。コメントにも "not sure why this is
+needed on Linux" とか書いてあって不穏な感じですが……。なんかまだ timer thread
+廃止がらみで不具合があるのでは……。
