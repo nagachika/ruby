@@ -1,0 +1,3 @@
+rubyspec の socket のテストで bind していない socket の accept も、
+platform_is_not にいろいろプラットフォームを列挙していましたが、結局 Linux での
+み実行するように条件を反転させています。
