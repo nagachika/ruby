@@ -1,0 +1,5 @@
+do_select() や rb_wait_for_single_fd() などの blocking region 内で遅延されてい
+る割り込みのチェックポイントを追加しています。timer thread 廃止時に全 thread を
+定期的に起こすみたいなことをして r64389 とかで今度は spurious wakeup 対策で絞っ
+ていっているのですが、絞りすぎてテスト通らなくなったものがあるのでまた調整して
+いる、みたいな状態でしょうか。
