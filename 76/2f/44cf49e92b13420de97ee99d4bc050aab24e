@@ -1,0 +1,2 @@
+format 文字列で使う int64_t 型に使う指示子の PRI_64_PREFIX の定義を configure.
+ac で RUBY_CHECK_PRINTF_PREFIX() 定義を生成させるようにしています。
