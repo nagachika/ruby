@@ -1,0 +1,7 @@
+do_gvl_timer() 内で timer thread 役をする thread の vm->gvl.timer へのセットを
+POSIX timer の解除(disarm)前に早めて、main thread 以外が
+threadptr_trap_interrupt() を呼ぶ時に一時的に vm->gvl.lock のロック解除するのを
+やめています。うーむ、わからん。
+ところでようやく気がついたんですがこの一連の(timer thread 廃止の?)変更は auto
+fiber (というのが議論されていることだけは知ってるけど具体的な中身はよく知らな
+い)への布石のつもりだったみたいですね。
