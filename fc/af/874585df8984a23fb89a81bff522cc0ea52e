@@ -1,0 +1,8 @@
+sigwait_th と sigwait_fd について説明のコメントを追加しています。丁度さっきのコ
+ミットで sigwait_th ってなんだって思ったのでした。sigwait_th は sigwait_fd から
+の読み込みをする権利を持っていて、sigwait_fd で ppoll(2) することで sleep して
+る(かもしれない) thread だそうです。
+うーん、てことは timer thread 役の thread と sigwait_fd で待ってる thread はど
+っちかがいたらいいのか? いや一定時間の割り込みは timer thread 役の thread の仕
+事なので、r64579 の sigwait_th だったら timer thread を起こさなくていいという修
+正の意味がよくわからなくなってくるなぁ。
