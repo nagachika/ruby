@@ -1,0 +1,3 @@
+ubf_select() にて起こす対象の thread が timer thread 役になってないかのチェック
+と同時に sigwait_th になってないかもチェックするようにしています。 r64575 で
+sigwait_fd を使った待ちを一部やめた影響で deadlock の恐れがあったようです。
