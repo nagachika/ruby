@@ -1,0 +1,6 @@
+構造体 struct args_info にメンバー rest_dupped を追加して引数の処理する関数群で
+何度も args->rest の配列オブジェクトが dup されてたのを1回 dup したら余計な dup
+を抑制するようにする最適化と、配列の先頭N個をとりのぞいて後ろの要素を先頭に詰め
+る rb_ary_behead() という関数を追加して args_rest_array() で rb_ary_subseq() の
+かわりに呼ぶようにしています。 rb_ary_subseq() と違って rb_ary_behead() は破壊
+的にオブジェクトを変更します。 [ruby-core:88555] [Feature #15010]
