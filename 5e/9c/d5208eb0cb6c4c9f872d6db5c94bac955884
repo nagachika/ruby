@@ -1,0 +1,2 @@
+template/fake.rb.in で tool/fake.rb を読み込む時に File.binread で読み込み
+external encoding や internal encoding の影響を受けないようにしています。
