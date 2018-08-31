@@ -1,0 +1,4 @@
+Kernel#fork などで fork した時に main thread のその時点での fiber を
+rb_thread_t::root_fiber にセットしてそいつがその Thread の root fiber であるか
+のように偽装するようにしています。おー。しかし本来の root fiber だったやつのマ
+シンスタックとかはどうなるんだろうこれ……。 [ruby-core:88723] [Bug #15041]
