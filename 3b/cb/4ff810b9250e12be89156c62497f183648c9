@@ -1,0 +1,2 @@
+hrtime.h の rb_hrtime_mul() で overflow チェックの条件で変数名を間違えていたの
+を修正しています。
