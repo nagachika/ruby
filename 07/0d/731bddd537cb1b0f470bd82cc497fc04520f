@@ -1,0 +1,5 @@
+テスト用ライブラリ test/lib/test/unit/assertions.rb の assert_valid_syntax で
+prepare_syntax_check に引数を委譲する時にキーワード引数を rest 引数として渡すよ
+うになってたのを明示的に ** で受け取って ** つきの splat 引数渡しするようにして
+います。Ruby 3 でキーワード引数の仕様を変更したいと Matz が言っていたので、今の
+うちに問題のある呼びかたは撲滅しておこうということですかね。
