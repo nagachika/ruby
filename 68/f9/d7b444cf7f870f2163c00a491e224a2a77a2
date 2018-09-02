@@ -1,0 +1,3 @@
+macOS で SecRandomCopyBytes() というライブラリ関数が利用できる場合はこれを使っ
+て乱数生成するようにしています。 Security.framework の関数みたいで、検索すると
+SecRandomCopyBytes は Swift の関数のドキュメントが出てきますね。
