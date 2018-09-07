@@ -1,0 +1,2 @@
+ruby.h から internal.h に移動した RCOMPLEX_SET_REAL/RCOMPLEX_SET_IMAG などのマ
+クロの定義が ruby.h に残ってた(?)ので、この定義を削除しています。
