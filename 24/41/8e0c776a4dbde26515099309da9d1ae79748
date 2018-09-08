@@ -1,0 +1,4 @@
+拡張ライブラリ socket の BasicSocket#getsockopt で SO_DEBUG や SO_REUSEADDR と
+いった真偽値を返すオプションに対して AIX では len に実際のサイズをセットしない
+とのことであらかじめ sizeof(int) をセットしておくようにしています。この #ifdef
+Qnil っていう分岐はなんだろう。Qnil は常にあると思うのだけど……。
