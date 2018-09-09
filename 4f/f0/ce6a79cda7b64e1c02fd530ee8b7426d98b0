@@ -1,0 +1,3 @@
+拡張ライブラリ objspace で st_get_key() や st_lookup(), st_delete() などに型の
+異なるポインタへの参照をキャストして無理矢理渡していたのを、一旦別の変数で受け
+てからキャストして代入するように修正しています(aliasing pointer の修正)。
