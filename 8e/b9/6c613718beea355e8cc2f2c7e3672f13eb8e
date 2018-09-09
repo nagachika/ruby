@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations の実装でオブジ
+ェクト解放時のフックで st_delete() する時には st_lookup() で要素を取り出す必要
+がないので分岐を修正して冗長な呼び出しを抑制しているようです
