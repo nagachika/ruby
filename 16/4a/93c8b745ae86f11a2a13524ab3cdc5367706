@@ -1,0 +1,6 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations_start で登録す
+る TracePoint のオブジェクトを rb_gc_register_mark_object() で GC の mark 対象
+に追加するようにしています。 GC で回収される可能性があったみたいです? そのかわ
+り stop で newobj_trace/freeobj_trace をクリアしているのはやめて同じオブジェク
+トを使いまわすようにしています。これはいいのかな。まあオブジェクトが残るだけか
+な。というかこれまではポインタは残ってても回収されるおそれがあったわけですが。
