@@ -1,0 +1,6 @@
+同じく r64661 の qsort_s(3) を使った ruby_qsort() の実装の再修正で
+__STDC_VERSION__ も未定義のことがあるので? 結局 HAVE_QSORT_S のチェックだけで
+qsort_s() を使った実装をするようにしています。Windows 環境で qsort_s() の引数の
+順序が微妙に違う問題は qsort_r() のマクロとして定義して吸収して、Windows 環境で
+は qsort_r() が存在する場合の実装のほうを使うようにしています。うーむややこしい
+。 [ruby-core:88899] [ruby-core:88921] [Bug #15091]
