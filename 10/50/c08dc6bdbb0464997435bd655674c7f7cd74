@@ -1,0 +1,2 @@
+.travis.yml で gcc-8 を使ったビルドも追加するようにしています。 https://
+github.com/ruby/ruby/pull/1937
