@@ -1,0 +1,3 @@
+tool/transform_mjit_header.rb で Init_XXX() 関数もヘッダに展開するようにしてい
+ます。たぶん r64677 の VM_CHECK_MODE が 1以上の時の leaf フラグチェックで
+Init_vm_stack_canary() が必要になったからだと思います。
