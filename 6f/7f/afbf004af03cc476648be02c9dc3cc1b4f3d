@@ -1,0 +1,3 @@
+r64677 で leaf フラグチェックのためにプロセス起動時にランダムなバイト列を用意す
+るために fill_random_bytes() の static を外してましたので
+ruby_fill_random_bytes() と改名しています。
