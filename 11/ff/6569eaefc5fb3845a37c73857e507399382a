@@ -1,0 +1,6 @@
+64692 のリベンジ。 begin と step が T_FLOAT の時だけ ruby_float_step() を呼ぶと
+してたのを逆に step が Complex の時は ruby_float_step() を使わない、という条件
+に変更しています。ふーむ ruby_float_step() は from, to, step のいずれかが Float
+ならいいみたいなので、そこで NUM2DBL() を呼ばれるのがまずいのかな。それだと
+from や to が Complex の時もまずそうだけど、そもそもそういう Range は作れないし
+Complex#step も未定義なのでいいのか。
