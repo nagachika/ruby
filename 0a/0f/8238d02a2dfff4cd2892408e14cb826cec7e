@@ -1,0 +1,4 @@
+Numeric#step や Range#step を Enumerator 化した時に使われる
+Enumerator::ArithmeticSequence の each メソッドで step が Complex だった時に対
+応するため Float として扱う前に T_FLOAT 型であることを確認するようにしています
+。なんですがこれは次で revert されています。
