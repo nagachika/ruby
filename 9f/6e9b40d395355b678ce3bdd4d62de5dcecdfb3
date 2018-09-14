@@ -1,0 +1,3 @@
+MJIT 用の worker の verbose() でメッセージの後の改行を別の fprintf() で出力して
+たのを format 文字列を改行つきのものを組み立てて渡すようにして1度の vfprintf()
+で出力するようにしています。
