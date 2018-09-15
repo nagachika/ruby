@@ -1,0 +1,3 @@
+mjit_exec() の引数に struct rb_iseq_constant_body::catch_except_p のチェックを
+バイパスできる引数 guard_except_p を追加して不要なのが自明な時はチェックしない
+ようにしています。
