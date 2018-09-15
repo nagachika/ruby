@@ -1,0 +1,2 @@
+appveyor.yml でテストに --subprocess-timeout-scale オプションで子プロセスを起動
+するテストのタイムアウト値を一律 1.5 倍に指定するようにしています。
