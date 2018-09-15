@@ -1,0 +1,3 @@
+qsort_t() がマクロとして定義されていた時に configure での検出時に展開されるのを
+防ぐために prototype 宣言の関数名をかっこでくくっています。へー、こうするとマク
+ロの展開を抑制できるのか。 https://github.com/ruby/ruby/pull/1954
