@@ -1,0 +1,3 @@
+fiber_memsize() で root fiber かどうかの判定に rb_context_t::type をみていたの
+を、th->root_fiber とのチェックでできるので type に依存しないようにしています。
+[ruby-core:88762] [Bug #15050]
