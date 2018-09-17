@@ -1,0 +1,2 @@
+Coverity Scan などの静的解析ツールで検出された dlopen() や mmap() の閉じ忘れな
+どリソースリークの修正。 https://github.com/ruby/ruby/pull/1956
