@@ -1,0 +1,2 @@
+mspec で spec ファイルのパスを展開するために File.expand_path を使っていたのを
+File.realpath を使うように変更しています。
