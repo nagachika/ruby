@@ -1,0 +1,4 @@
+スクリプトに magic comment で #frozen_string_literal: true が指定されていた時に
+Proc#[] メソッドに文字列リテラルが渡された時にその引数が fstring になってないと
+いう不具合を修正しています。ふえー、よく気がついたなこれ。 https://github.com/
+ruby/ruby/pull/1957 [ruby-core:89003] [Bug #15118]
