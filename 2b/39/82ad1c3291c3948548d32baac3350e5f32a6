@@ -1,0 +1,3 @@
+コマンドラインオプション --dump=parsetree-with-comment を指定した時に
+NODE_UNDEF の説明が alias のものになってたのを修正しています。 https://
+github.com/ruby/ruby/pull/1880
