@@ -1,0 +1,2 @@
+標準添付ライブラリ benchmark の Benchmark::Tms の rdoc 用コメントの追記およびマ
+ークアップの修正。 [ruby-core:88874] [Bug #15080]
