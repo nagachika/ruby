@@ -1,0 +1,2 @@
+String#strip の rdoc 用コメントのサンプルに両側に空白文字がなかった場合の例を追
+記しています。 https://github.com/ruby/ruby/pull/1933
