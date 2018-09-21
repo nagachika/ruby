@@ -1,0 +1,3 @@
+標準添付ライブラリ rinda のテストで IPv6 アドレス "ff02::1" の socket open で
+Errno::EHOSTUNREACH が発生した時にエラーにせずテストをスキップするようにしてい
+ます。
