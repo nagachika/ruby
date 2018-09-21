@@ -1,0 +1,2 @@
+CI_SET_FASTPATH というマクロの名称を実体に合わせて CC_SET_FASTPATH に変更してい
+ます。
