@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の Net::HTTPHeader#initialize_http_header でヘッダ
+に改行コードが入っていた時の例外メッセージにヘッダ名とその値も埋め込むようにし
+ています。 https://github.com/ruby/ruby/pull/1849
