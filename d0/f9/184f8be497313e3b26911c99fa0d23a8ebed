@@ -1,0 +1,3 @@
+r64787 で追加した Array#union の実装と Array#| の実装からサイズが小さい時の共通
+の処理を rb_ary_union() に切り出すリファクタリング。 https://github.com/ruby/
+ruby/pull/1747 [ruby-core:83721] [Feature #14097]
