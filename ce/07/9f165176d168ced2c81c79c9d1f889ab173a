@@ -1,0 +1,4 @@
+r64787 で追加した Array#union と Array#| の実装からさらにサイズが大きい時の
+Hash を使った実装も共通部分を rb_ary_union_hash() という関数に切り出すリファク
+タリングをしています。 https://github.com/ruby/ruby/pull/1747 [ruby-core:83721]
+[Feature #14097]
