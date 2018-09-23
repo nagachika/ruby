@@ -1,0 +1,4 @@
+Enumerable#to_h や Array#to_h、ENV#to_h、Struct#to_h などがブロックを受け付ける
+ようになり、ブロックを評価した結果を使って作った Hash を返せるようになっていま
+す。なるほど、確かに便利そう。しかし to_h に追加されるとは。 [ruby-core:89088]
+[Feature #15143]
