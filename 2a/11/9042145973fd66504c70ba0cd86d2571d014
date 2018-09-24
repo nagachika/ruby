@@ -1,0 +1,4 @@
+Dir.glob でパターンに波かっこを使った時の処理を glob_helper() 内のその他のメタ
+キャラクタの処理と同じところで処理するようにして、事前のパターン展開を抑制して
+replace_real_basename() の回数を減らすことで高速化を図っています。 https://
+github.com/ruby/ruby/pull/1864 [ruby-core:79304] [Feature #13167]
