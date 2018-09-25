@@ -1,0 +1,2 @@
+tool/enc-unicode.rb で flip-flop を使っているところがまだ残っていたので使わない
+ように書き換えています。
