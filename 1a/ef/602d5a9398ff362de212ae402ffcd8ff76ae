@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::HTTPRequest#read_request_line でインスタ
+ンス変数 @request_line の存在チェックが参照しているところより後になってたのを修
+正しています。 [ruby-core:89126] [Bug #15146]
