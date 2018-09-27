@@ -1,0 +1,2 @@
+r64824 の Integer#& と Integer#| の最適化命令の導入を revert しています。
+Appveyor で MinGW でのビルドが失敗したみたいです。
