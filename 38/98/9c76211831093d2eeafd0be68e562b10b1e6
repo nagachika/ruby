@@ -1,0 +1,5 @@
+rubyspec の Encoding の変換のテストで Encoding::Converter.search_convpath の引
+数の Encoding オブジェクトではなく文字列の名前を渡すようにしています。Windows
+で SEGV するそうでその対策とのことですが、たぶん何か不具合があるんでしょうね。
+Encoding::Converter.search_convpath の実装みると Encoding オブジェクトも受付け
+てるみたいなので。
