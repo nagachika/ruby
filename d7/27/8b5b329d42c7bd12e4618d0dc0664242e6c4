@@ -1,0 +1,2 @@
+構造体 struct vtm の宣言および strftime.c の関数のプロトタイプ宣言を internal.h
+から timev.h に移動しています。
