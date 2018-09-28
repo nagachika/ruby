@@ -1,0 +1,3 @@
+VM のメインループの実装が OPT_CALL_THREADED_CODE が真に定義されている時に VM 命
+令の参照のために命令のコード順に依存関係があるので opt_send_without_block 命令
+の実装を前のほうに移動しています。
