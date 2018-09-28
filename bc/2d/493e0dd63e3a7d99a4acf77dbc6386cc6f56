@@ -1,0 +1,4 @@
+rb_intern() で引数がリテラルの時に __builtin_constant_p() を使った最適化をする
+という実装を __GNUC__ というマクロをチェックして分岐していましたが configure で
+__builtin_constant_p() の有無をチェックして定義した
+HAVE_BUILTIN___BUILTIN_CONSTANT_P を参照するように修正しています。
