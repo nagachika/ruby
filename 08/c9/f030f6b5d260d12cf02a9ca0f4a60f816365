@@ -1,0 +1,2 @@
+r64829 で revert した r64824 の Integer#& と Integer#| の最適化命令の導入のリト
+ライ。AppVeyor での MinGW ビルド失敗の対処は別コミットで入れるみたいです。
