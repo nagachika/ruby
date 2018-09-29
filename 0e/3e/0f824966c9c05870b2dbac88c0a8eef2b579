@@ -1,0 +1,3 @@
+Time オブジェクトの Marshal.dump の実装で year が小さすぎる時も例外メッセージに
+は "year too big to dump" と表示されてしまってたので "too small" と表示されるよ
+うにしています。
