@@ -1,0 +1,2 @@
+Range#step の rdoc 用コメントの項目に r64869 で追加の Range#% についての
+call-seq も追記しています。
