@@ -1,0 +1,2 @@
+rational.c の nurat_canonicalize() で assert(3) の条件に && で連結して2つ式を書
+いてたのを別々の assert() に分けています。
