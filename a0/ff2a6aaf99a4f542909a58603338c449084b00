@@ -1,0 +1,4 @@
+tool/rbinstall.rb の load_gemspec でファイルパスを File.realpath で symbolic
+link の解決をしておくようにしています。 forwardable.gemspec と prime.gemspec の
+両方から require されてたため forwardable.rb を 2回ロードしてしまっていたそうで
+す。
