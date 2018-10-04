@@ -1,0 +1,2 @@
+make install で rdoc で生成した HTML のドキュメントのインストールに対応していま
+す。
