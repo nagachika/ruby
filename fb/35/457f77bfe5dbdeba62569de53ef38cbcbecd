@@ -1,0 +1,2 @@
+misc/lldb_cruby.py の lldb_rp で T_HASH、T_BIGNUM、T_FLOAT などのタイプにも対応
+しています。っていうかまだ対応してなかったのか。
