@@ -1,0 +1,2 @@
+lldb_cruby.py の lldb_rp() に T_CLASS、T_MODULE、T_ICLASS 型オブジェクトの表示
+の対応を追加しています。
