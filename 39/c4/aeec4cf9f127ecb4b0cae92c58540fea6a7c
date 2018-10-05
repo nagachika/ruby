@@ -1,0 +1,7 @@
+internal.h のマクロ BIGNUM_EMBED_LEN_SHIFT の定義で誤って(たまたま同じ数値だっ
+た) BIGNUM_EMBED_LEN_NUMBITS を使っていたのをマジックナンバーで置き換えて、
+BIGNUM_EMBED_LEN_MASK の定義に BIGNUM_EMBED_LEN_SHIFT を利用するようにしていま
+す。実際にはマクロ展開される場所はさらに後だから問題ないけどなんとなく
+BIGNUM_EMBED_LEN_SHIFT がそれを利用する BIGNUM_EMBED_LEN_MASK の後に定義される
+のはちょっと気持ち悪さが(まあそういう例はいっぱいありそうだけどここはすぐ次の行
+なので)。
