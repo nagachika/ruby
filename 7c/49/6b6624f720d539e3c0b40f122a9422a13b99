@@ -1,0 +1,4 @@
+misc/lldb_cruby.py のオブジェクトの詳細を表示する lldb_rp メソッドで、さらに
+debugger.HandleCommand() を呼んでデバッガにコマンドを解釈させてその出力を得るの
+を append_command_output() という関数に切り出しています。表示順が狂うのに対処し
+ているみたいです。
