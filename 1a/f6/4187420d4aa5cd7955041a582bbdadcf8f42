@@ -1,0 +1,4 @@
+configure.ac に configure 時のオプション --with-arch=x86_64h というのを受け付け
+るというか、このせいでビルド失敗するのを回避するようにしています。これは最近の
+macOS で使われてる architecture 名だそうです。知らなかった……。 https://
+github.com/ruby/ruby/pull/1971
