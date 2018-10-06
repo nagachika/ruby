@@ -1,0 +1,2 @@
+RubyVM::AST.parse や RubyVM::AST.parse_file, RubyVM::AST::Node#inspect の rdoc
+用コメントの typo 修正や文法や記法の修正。
