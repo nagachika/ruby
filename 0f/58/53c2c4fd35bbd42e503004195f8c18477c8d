@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick のテストで binmode で読むべきファイルを open のモー
+ドで指定するんじゃなくて File.binread を利用するようにしています。
+[ruby-core:89279] [Bug #15203]
