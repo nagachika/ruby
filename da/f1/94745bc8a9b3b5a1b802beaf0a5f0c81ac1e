@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence.compile の引数の型チェックを強化して SEGV しないよ
+うにしています。これは backport したほうがいいやつですね。
