@@ -1,0 +1,4 @@
+r64938 で -j なしのテストをするように AppVeyor でのみ exclude するようにした
+WIN32OLE のテストですが、Queue のほうは r64943 であきらめたので、もう AppVeyor
+でのみ exclude する設定は削除して明示的に make test-all 時に --exclude オプショ
+ンを渡して除外するようにしています。
