@@ -1,0 +1,2 @@
+mswin 版の MJIT 用の precompiled header 生成の make のルールにインストール先へ
+のリンク生成も追加しています。これって make install 時にコピーしないのかな。
