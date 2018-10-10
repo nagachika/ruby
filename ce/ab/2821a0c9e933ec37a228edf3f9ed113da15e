@@ -1,0 +1,3 @@
+mjit_worker.c の TODO コメントにあった mswin 版で cl.exe の出力を null デバイス
+にリダイレクトして抑制するのを --jit-verbose が 1以下の時のみにする変更を行なっ
+ています。
