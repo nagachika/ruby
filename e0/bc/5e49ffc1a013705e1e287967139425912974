@@ -1,0 +1,2 @@
+mswin での MJIT のテストで一時ファイル削除に関するものが AppVeyor でのみ失敗す
+るので APPEYOR 環境変数をみて skip するようにしています。
