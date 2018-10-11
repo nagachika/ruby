@@ -1,0 +1,5 @@
+標準添付ライブラリ time の Time.make_time で引数の now に getlocal メソッドがあ
+るかどうかのチェックを追加しています。 Time.parse の rdoc ドキュメントには Time
+オブジェクトに限らず year/mon/day メソッドに反応できるオブジェクト(Date,
+DateTime など)も受付けると書いてあるのですが、実際には getlocal も呼んでたので
+呼べるときだけ呼ぶように修正しています。 [ruby-core:68775] [Bug #11037]
