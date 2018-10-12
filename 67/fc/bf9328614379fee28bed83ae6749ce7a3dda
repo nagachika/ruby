@@ -1,0 +1,3 @@
+configure で ppc64 版の Linux という環境では ___builtin_longjmp() に不具合があ
+るらしく、MJIT でビルドした共有ライブラリ内で問題があるそうで ___builtin_setjmp
+() を使わないように強制的にセットしています。
