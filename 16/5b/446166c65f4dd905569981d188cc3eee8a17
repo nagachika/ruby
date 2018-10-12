@@ -1,0 +1,3 @@
+array.c の rb_ary_rotate() で RARRAY_PTR() で配列オブジェクトのポインタを取り出
+して処理していたところを RARRAY_PTR_USE() マクロを利用して RGenGC の
+WB-unprotected 化を防ぐようにしています。
