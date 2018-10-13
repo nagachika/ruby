@@ -1,0 +1,4 @@
+r60952 で ruby 本体に埋め込む起動時のスクリプト prelude.rb で標準添付ライブラリ
+pp の自動 require のために Kernel#pp を定義した時の警告除去のための alias を追
+加していましたが、pp を private メソッドにしていなかったので private 化を追加し
+ています。
