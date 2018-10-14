@@ -1,0 +1,2 @@
+r65000 の続きで mswin 版での MJIT のための precompiled header と一緒に .pdb と
+いう拡張子のファイルもインストールするようにしています。
