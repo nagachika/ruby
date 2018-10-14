@@ -1,0 +1,3 @@
+r64507 での rb_ast_t から GC の mark 用の配列 mark_ary を struct
+node_buffer_struct に移動した時に RGenGC 用の write barrier が漏れてたというこ
+とで RB_OBJ_WRITTEN() の利用を追加しています。
