@@ -1,0 +1,2 @@
+appveyor.yml の build matrix で VC のバージョン毎に image タグ(?)で VM イメージ
+の指定をしています。
