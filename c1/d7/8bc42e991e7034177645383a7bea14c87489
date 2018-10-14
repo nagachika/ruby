@@ -1,0 +1,2 @@
+appveyor.yml で VS140COMNTOOLS という環境変数を明示的に定義しておくようにしてい
+ます。
