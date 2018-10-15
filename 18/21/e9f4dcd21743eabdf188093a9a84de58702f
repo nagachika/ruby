@@ -1,0 +1,4 @@
+time.c の zone_str() で rb_fstring_usascii() や rb_fstring_enc_cstr() といった
+関数を呼んでいましたが、これらの関数は渡された文字列のバッファが変更されないこ
+とを期待しているとのことで、ここの zone はその前提を満たしていないので
+rb_fstring() による fstring 化を使うように修正しています。
