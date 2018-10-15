@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole のテストで r65027 と同様に Microsoft Internet Controls
+を利用していたのをやめています。かわりに ADODB.Connection を使うようにしていま
+す。
