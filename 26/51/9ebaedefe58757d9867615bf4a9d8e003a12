@@ -1,0 +1,3 @@
+CreateChild() で FindFreeChildSlot() という API を呼んでたのをやめて引数で受け
+取るようにしています。 MJIT 用 worker から FindFreeChildSlot() を呼ぶのは
+thread-unsafe なのでやめたいとのことで。
