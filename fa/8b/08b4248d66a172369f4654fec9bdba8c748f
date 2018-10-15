@@ -1,0 +1,2 @@
+C の文字列リテラルから fstring を作るのに rb_fstring_cstr() を使っていたところ
+を rb_fstring_lit() を使うようにしています。
