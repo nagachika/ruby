@@ -1,0 +1,2 @@
+rubyspec の spec/ruby/library/socket/socket/ipv6only_bang_spec.rb に fixture の
+require を追加しています。
