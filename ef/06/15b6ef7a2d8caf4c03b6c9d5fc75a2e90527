@@ -1,0 +1,3 @@
+default gem 化した標準添付ライブラリの gemspec ファイルで version を読み込むた
+めの require_relative のところに ruby リポジトリ上で使う時用だとコメントを追記
+しています。
