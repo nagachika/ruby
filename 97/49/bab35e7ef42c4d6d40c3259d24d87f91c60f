@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole のテストのただの assert のかわりに assert_equal を使う
+ようにしています。
