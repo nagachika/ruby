@@ -1,0 +1,2 @@
+iseq.h の include/ruby/version.h への依存関係をなくして変数を参照させるようにし
+ています。
