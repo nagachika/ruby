@@ -1,0 +1,2 @@
+include/ruby/ruby.h に PRIdPTR など intptr_t や uintptr_t を埋め込むフォーマッ
+ト指示子のマクロ PRI*PTR を定義しています。
