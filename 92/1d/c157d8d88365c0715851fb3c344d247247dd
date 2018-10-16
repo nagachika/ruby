@@ -1,0 +1,2 @@
+Array#concat, Array#difference, Array#union などの rdoc 用コメントのマークアッ
+プ修正。
