@@ -1,0 +1,4 @@
+r65083 の続きで Travis-CI で gcc-8 を使う build 時に addons.apt.config.retries:
+true という設定を追加して apt-get update のエラー時のリトライを有効にしています
+。Travis-CI がそのように推奨してるとのこと。 https://github.com/travis-ci/
+travis-ci/issues/9112#issuecomment-376305909
