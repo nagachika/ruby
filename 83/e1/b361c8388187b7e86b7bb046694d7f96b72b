@@ -1,0 +1,2 @@
+r65073 に続いて setinstancevariable 命令でも inline cache の index が使える時は
+MJIT で直接 ROBJECT_IVPTR()[index] に書き込むような最適化をしています。
