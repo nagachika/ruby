@@ -1,0 +1,4 @@
+regparse.c の \X で Grapheme cluster の展開? をしているところで頻出している
+propname2ctype() してから add_ctype_to_cc() を呼ぶ、という処理を
+add_property_to_cc() という関数に切り出して、propname2ctype() がエラーを返した
+場合の処理を追加しています。
