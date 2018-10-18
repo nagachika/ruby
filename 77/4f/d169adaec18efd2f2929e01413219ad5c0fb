@@ -1,0 +1,2 @@
+regerror.c の MAX_ERROR_PAR_LEN というエラーメッセージ用のバッファのサイズを拡
+張しています。
