@@ -1,0 +1,3 @@
+string.c の get_reg_grapheme_cluster() で onig_new() がエラーを返した時に
+rb_bug() で異常終了していたのを rb_fatal() に変更して、エラー内容に
+OnigErrorInfo の情報を利用するようにしています。
