@@ -1,0 +1,2 @@
+r65086 に関連して? regparse.c の node_extended_grapheme_cluster() の関数内にあ
+ったテーブルを enc/unicode.c に括り出しています。
