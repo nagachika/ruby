@@ -1,0 +1,2 @@
+.travis.yml で r65122 で追加した osx でのビルド時の homebrew で入れる openssl
+を 1.1 から 1.0 に変更しています。
