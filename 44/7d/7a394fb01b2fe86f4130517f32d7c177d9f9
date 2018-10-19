@@ -1,0 +1,3 @@
+addr2line.c で .debug_ranges セクションの情報を読むのに read_uint64() を使って
+いたところを read_uintptr() という関数を導入してこちらを使って uintptr_t で読み
+取るようにしています。
