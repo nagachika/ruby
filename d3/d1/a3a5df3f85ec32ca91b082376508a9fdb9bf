@@ -1,0 +1,2 @@
+rb_raw_obj_info() に imemo_type の imemo_ast と imemo_parser_strterm の対応を追
+加しています。
