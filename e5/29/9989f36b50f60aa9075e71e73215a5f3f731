@@ -1,0 +1,2 @@
+.travis.yml の osx のビルド時の環境変数 CONFIG_FLAG の設定のオプション
+--disable-install-docs を --disable-install-doc に修正。
