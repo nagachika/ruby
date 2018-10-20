@@ -1,0 +1,4 @@
+.travis.yml の build matrix で linux の gcc と gcc-8 とで before_install の内容
+を YAML の alias? で共有させてたのをやめて、env の項目に個別に書くようにしてい
+ます。osx でも -j オプションを指定する環境変数 JOBS 指定は env を使うように移動
+しています。
