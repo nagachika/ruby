@@ -1,0 +1,2 @@
+.travis.yml の build matrix の 2.3 での rubyspec のチェックのところに空っぽの
+addons.apt.packages を追加しています。はて、なんでだろう。
