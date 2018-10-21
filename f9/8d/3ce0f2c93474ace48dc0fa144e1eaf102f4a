@@ -1,0 +1,1 @@
+.travis.yml の build matrix で全ての build に name で名前をつけています。
