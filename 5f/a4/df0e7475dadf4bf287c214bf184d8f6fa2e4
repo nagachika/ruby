@@ -1,0 +1,2 @@
+.travis.yml の allow_failures から osx を削っています。最近安定してきたからとの
+こと。
