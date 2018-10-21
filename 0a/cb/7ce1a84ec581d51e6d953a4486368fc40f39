@@ -1,0 +1,3 @@
+.travis.yml の build matrix 内の設定で CONFIG_FLAG に --disable-install-doc を
+指定しているのは before_script で configure 実行時に常に付けているので冗長だっ
+たので削っています。
