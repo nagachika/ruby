@@ -1,0 +1,5 @@
+tool/ruby_vm/views/_mjit_compile_ivar.erb で MJIT の JIT コンパイル時に生成する
+C のコードを生成するための C のコードで fprintf(3) のフォーマット指示子に
+size_t 型の数値埋め込みに %lu を使っていたのを PRIuSIZE マクロを利用するように
+しています。 .travis.yml に追加した pedantic チェックの検出ですね。 https://
+travis-ci.org/ruby/ruby/jobs/443560810#L2263
