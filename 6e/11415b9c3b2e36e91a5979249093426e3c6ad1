@@ -1,0 +1,3 @@
+configure のオプションに --disable-install-mjit-header を追加して MJIT のヘッダ
+インストールを抑制できるようにしています。MJIT がらみでのビルドエラーへの
+workaround の手段を残しておくためみたいです。
