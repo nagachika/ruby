@@ -1,0 +1,2 @@
+r65218 で toplevel で RbConfig::CONFIG の参照できるように test/lib/
+jit_support.rb で require "rbconfig" しておくようにしています。
