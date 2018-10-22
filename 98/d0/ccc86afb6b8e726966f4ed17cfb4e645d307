@@ -1,0 +1,2 @@
+rb_sigwait_sleep() で時間の指定に struct timespec のかわりに rb_hrtime_t を引数
+に受け取るように変更しています。
