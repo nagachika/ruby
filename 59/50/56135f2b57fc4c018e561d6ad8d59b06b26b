@@ -1,0 +1,2 @@
+addr2line.c の DWARF の読み取りで ELF 形式だけでなくて macOS の Mach-O もサポー
+トするようにしています。
