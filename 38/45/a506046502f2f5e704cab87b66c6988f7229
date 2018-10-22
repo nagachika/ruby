@@ -1,0 +1,4 @@
+test/ruby/test_rubyoptions.rb と test/ruby/test_rubyvm_mjit.rb で MJIT 関係のテ
+ストを configure 時に --disable-mjit-support を指定してビルドされた時は実行しな
+いように早期 return するようにしています。さりげなく toplevel return が使われて
+ますね。
