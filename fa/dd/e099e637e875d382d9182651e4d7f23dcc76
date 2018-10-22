@@ -1,0 +1,2 @@
+RubyVM::AST.parse と RubyVM::AST.parse_file の rdoc 用コメントで parse error 時
+に例外が発生するように修正されたのを反映させています。
