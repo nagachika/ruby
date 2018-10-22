@@ -1,0 +1,3 @@
+tool/transform_mjit_header.rb でヘッダの分離する時にマクロ扱いしないようにする
+対象 PREDEFINED_MACRO に inline も追加しています。inline がマクロとして定義され
+る環境もあるとのこと。
