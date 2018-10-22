@@ -1,0 +1,7 @@
+vm_getivar() でインスタンス変数の取得時に inline cache へのセットを最初の1回だ
+けにして、それ以外の場合は別の Class を klass に持つインスタンスの場合なので、
+ic_serial は RUBY_VM_CLASS_SERIAL_INVALID にセットして以降は inline cache を使
+わないようにしています。これって ISeq の同じ命令で一度別の Class で cache
+invalidate してしまうと同じ Class の時ももう inline cache は使わなくなるってこ
+とでしょうか。 VM と MJIT 用の worker thread との race condition を避けるための
+対処らしいです。
