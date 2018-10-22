@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb で fiddle を upstream の repo と動機する時に最後に拡
+張ライブラリの掃除をするようにしています。
