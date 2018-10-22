@@ -1,0 +1,7 @@
+tool/transform_mjit_header.rb でコードを生成する時に .c ファイルに直接吐くので
+はなくて .h ファイルを作ってそれを #include するようにしています。そして gcc で
+は "#pragma GCC system_header" という preprocessor の pragma を付けるようにして
+います。うーん system_header という pragma はそれ以降の内容をシステムの header
+ファイルとして扱うというものみたいで、MJIT はシステムヘッダも含むヘッダを展開し
+たコードを含んでいるので、それらの警告とかエラー(エラーになるの?)を抑制するため
+というものみたいですね。
