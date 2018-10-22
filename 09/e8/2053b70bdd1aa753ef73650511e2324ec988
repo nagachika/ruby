@@ -1,0 +1,2 @@
+NEWS ファイルに r65195 の Coverage.start の :onshot_lines と Coverage.result の
+:stop, :clear オプションの追加について追記しています。
