@@ -1,0 +1,4 @@
+r65169 の tool/transform_mjit_header.rb で MJIT のヘッダに #pragma GCC
+system_header を付ける変更で、コードの文字列連結のほうほうをちょっと書きかえて
+ます。code っていう変数に #pragma を追加した状態で後の処理にも渡したいってこと
+かな。
