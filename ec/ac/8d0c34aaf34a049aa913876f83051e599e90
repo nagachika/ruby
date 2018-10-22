@@ -1,0 +1,2 @@
+r65217 で改名した MJIT をサポートするかどうかのマクロ MJIT_SUPPORT を win32/
+Makefile.sub で真に定義しておくようにしています。
