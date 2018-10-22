@@ -1,0 +1,2 @@
+r65213 と r65215 で vm_getivar() と vm_setivar() の inline cache の扱いを変更し
+たのを revert しています。
