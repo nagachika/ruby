@@ -1,0 +1,2 @@
+addr2line.c の parse_debug_line_cu() にて header_length という変数は精度が必要
+なので unsigned int から unsigned long に変更しています。
