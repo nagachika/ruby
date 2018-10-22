@@ -1,0 +1,2 @@
+Array#concat, Array#union, File.chown, File.utime, File.lutime, String#concat,
+String#prepend などの rdoc 用コメントで call-seq の記法の修正。
