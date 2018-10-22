@@ -1,0 +1,2 @@
+appveyor.yml で --subprocess-timeout-scale の値を大きくしてタイムアウトを伸ばし
+ています。
