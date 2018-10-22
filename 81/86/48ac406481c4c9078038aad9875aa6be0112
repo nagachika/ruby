@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils に upstream からマージしています。また
+fileutils.gemspec は lib/fileutils/fileutils.gemspec に移動して version 番号用
+のファイルも分離して標準的な gem の構造に近付けています。
