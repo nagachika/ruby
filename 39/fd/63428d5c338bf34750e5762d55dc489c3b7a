@@ -1,0 +1,1 @@
+parse.y で不要になってた構造体 struct ripper_args の定義を削除しています。
