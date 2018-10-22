@@ -1,0 +1,2 @@
+rb_iseq_trace_flag_cleared() の引数 pos の型を int から size_t に変更しています
+。clang での型変換の警告の抑制のため。
