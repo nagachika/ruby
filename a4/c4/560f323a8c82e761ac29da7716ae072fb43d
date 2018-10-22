@@ -1,0 +1,2 @@
+標準添付ライブラリ drb の DRb.remove_server でインスタンス変数の
+@primary_server を nil にリセットするようにしています。
