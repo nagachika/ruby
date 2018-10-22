@@ -1,0 +1,3 @@
+RubyVM::MJIT.pause で worker thread の停止を待つときに --jit-max-cache オプショ
+ンの指定によるキャッシュサイズのチェックも追加しています。テスト時の hang up を
+避けるため。 [ruby-core:88841] [Bug #15071]
