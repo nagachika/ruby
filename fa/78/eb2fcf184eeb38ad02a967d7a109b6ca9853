@@ -1,0 +1,2 @@
+misc/lldb_cruby.py の lldb_rp/lldb_inspect で T_RATIONAL 型のオブジェクトに対応
+するようにしています。
