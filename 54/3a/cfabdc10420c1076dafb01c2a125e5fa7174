@@ -1,0 +1,3 @@
+configure 時に --disable-mjit-support を指定してビルドした ruby にコマンドライ
+ンオプションの --jit-xxx が指定された時の警告メッセージを MJIT is disabled から
+MJIT support is disabled に変更しています。
