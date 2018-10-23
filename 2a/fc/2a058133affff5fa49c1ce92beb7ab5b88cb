@@ -1,0 +1,2 @@
+win32ole のテストで ADODB.Connection が利用可能かチェックするメソッドを test/
+win32ole/available_ole.rb に切り出すリファクタリング。
