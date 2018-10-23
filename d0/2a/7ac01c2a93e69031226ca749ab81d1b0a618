@@ -1,0 +1,2 @@
+win32ole のテストで r65189 の続きで ADODB.Connection のかわりに System Monitor
+Control をテストのために利用するようにしています。
