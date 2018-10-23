@@ -1,0 +1,3 @@
+標準添付ライブラリ drb の DRb::ExtServManager#invoke_thread でイベントを受け付
+ける @queue から nil が pop された時に例外にせずに Thread を停止させるようにし
+ています。
