@@ -1,0 +1,2 @@
+r65256 で切り出した addr2line.c の構造体 struct LineNumberProgramHeader の
+line_base メンバーの型を uint8_t から int8_t に変更しています。
