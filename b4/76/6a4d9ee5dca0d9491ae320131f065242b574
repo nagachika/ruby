@@ -1,0 +1,2 @@
+configure に追加された --disable-mjit-support と同様のものを win32/
+configure.bat でも対応するようにしています。mswin 環境のため。
