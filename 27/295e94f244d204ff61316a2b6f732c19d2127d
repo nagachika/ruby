@@ -1,0 +1,2 @@
+構造体 struct rb_iseq_constant_body の cc_entries のコメントに書いてあった配列
+サイズについての記述の誤りを修正。
