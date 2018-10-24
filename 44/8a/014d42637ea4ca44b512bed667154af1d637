@@ -1,0 +1,3 @@
+addr2line.c の parse_debug_line_cu() で変数 is_stmt をヘッダの default_is_stmt
+で初期化しておくようにしています。うーむこのへんは DWARF 形式の中身がわかってな
+いとよくわからない。
