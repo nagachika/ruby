@@ -1,0 +1,3 @@
+MJIT 用のコードのテンプレートとして tool/ruby_vm/views/
+_mjit_compile_send_guard.erb に分離されてた call cache の invalidate の処理が1
+箇所でしか使われなくなってたので直接展開するようにしています。
