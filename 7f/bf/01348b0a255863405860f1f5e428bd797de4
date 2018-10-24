@@ -1,0 +1,3 @@
+.travis.yml の build matrix の pedanticism のビルド時に -O0 と -g0 のオプション
+は削るようにしています。最適化抑制すると遅くなりすぎてテストが Travis-CI で完走
+できないそうです。そんなに遅くなるんだ。
