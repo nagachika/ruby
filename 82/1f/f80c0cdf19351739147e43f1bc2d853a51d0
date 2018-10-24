@@ -1,0 +1,6 @@
+r65275 で MJIT の worker thread で main thread に依頼した inline cache などのコ
+ピーのジョブの終了待ちしてるところで race condition があって既に ruby_cleanup()
+が実行されてて worker を止めようとしている状態だとコピーが行なわれずに待ち続け
+てしまってデッドロックになる不具合があったので、copy_cache_from_main_thread()
+で rb_postponed_job_register() の戻り値のチェックと worker_stopped フラグのチェ
+ックを追加して、ジョブの依頼が失敗してたら待ちに入らないように修正しています。
