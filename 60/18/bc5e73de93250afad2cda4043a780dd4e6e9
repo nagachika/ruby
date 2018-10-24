@@ -1,0 +1,3 @@
+addr2line.c の DWARF のセクション情報を選択する obj_dwarf_section_at() が構造体
+obj_info_t のレイアウトに依存したマクロで定義されていたので inline 関数として定
+義して暗黙の前提を排除しています。
