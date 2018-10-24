@@ -1,0 +1,2 @@
+拡張ライブラリ stringio の .gemspec ファイルの files と extensions に指定してい
+るファイルパスを独立したリポジトリの時の相対パスに修正しています。
