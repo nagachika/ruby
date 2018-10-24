@@ -1,0 +1,2 @@
+r65281 の続きで NEWS ファイルの MJIT のエントリに configure の
+--disable-mjit-support オプションについても追記しています。
