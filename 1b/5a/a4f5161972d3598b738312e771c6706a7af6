@@ -1,0 +1,6 @@
+MJIT の JIT コンパイル時に ISeq の inline cache の情報をコピーするために struct
+mjit_copy_job という構造体を追加して、postponed_job_register() を使って main
+thread 側にコピーさせて MJIT の worker がその完了を待つようにして race
+condition を解消しています。これってこの直後にコンパイル中に Class の serial と
+かが更新された場合はどうなるんかな、と思ったけどそれは普通に JIT されたコードが
+cancel されるだけか。
