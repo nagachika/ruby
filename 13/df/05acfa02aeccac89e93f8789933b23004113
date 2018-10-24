@@ -1,0 +1,3 @@
+r65275 の inline cache と同様に call cache も MJIT の worker thread でコンパイ
+ル前に main thread にコピーさせたものを利用するようにして race condition を回避
+しています。
