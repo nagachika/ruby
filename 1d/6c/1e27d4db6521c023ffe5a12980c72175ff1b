@@ -1,0 +1,3 @@
+r65309 でも skip してた assert_no_memory_leak が MJIT 有効時に worker のメモリ
+仕様のせいで誤検出するというやつを、個別のテストメソッドでやるのではなくて
+assert_no_memory_leak のメソッドの先頭で skip するようにしています。
