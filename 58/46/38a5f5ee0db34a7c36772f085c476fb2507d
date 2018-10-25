@@ -1,0 +1,4 @@
+String#crypt のテストを MJIT 有効時に skip するようにしています。メッセージによ
+ると assert_no_memory_leak が MJIT worker thread によるメモリ使用を leak と誤検
+出するんじゃないかってことです。同様のメッセージを IO#select のテストの skip に
+も追加しています。
