@@ -1,0 +1,2 @@
+wercker.yml でやっぱり --jit-wait つきのほうの test-all を test/ruby & test/
+testunit とそれ以外の2回に分けて実行するようにしています。
