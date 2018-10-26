@@ -1,0 +1,2 @@
+標準添付ライブラリ drb の OpenSSL::SSL::SSLSocket を使った時のテストが Solaris
+ではうまく動かないとのことで skip するようにしています。
