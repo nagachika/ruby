@@ -1,0 +1,2 @@
+appveyor.yml で make test-all の -j つきのほうから test/rubygems/
+test_bundled_ca.rb を除外して、-j なしのほうで実行するようにしています。
