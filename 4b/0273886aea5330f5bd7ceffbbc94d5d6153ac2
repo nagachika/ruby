@@ -1,0 +1,2 @@
+wercker.yml でさらに Test::Unit 自体の parallel 機能のテストを --jit-wait オプ
+ション付きの時に除外するようにしています。
