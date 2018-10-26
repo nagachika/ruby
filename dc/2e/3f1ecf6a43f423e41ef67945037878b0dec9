@@ -1,0 +1,4 @@
+File::Stat#dev_major, #dev_minor などのメソッドで整数変換するのに DEVT2NUM() を
+使ってたのを UINT2NUM() に変更しています。 struct stat::st_dev を直接でなく
+major()/minor() といったマクロを通した後の値で、それは dev_t ではないので、との
+こと。環境によっては int32_t の場合もあるみたいですが。
