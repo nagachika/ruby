@@ -1,0 +1,3 @@
+iseq_peephole_optimize() で VM 命令の最適化で newarray の operand が 1 だった時
+の pop 命令の挿入箇所が間違ってた不具合を修正しています。 [ruby-core:89536]
+[Bug #15245]
