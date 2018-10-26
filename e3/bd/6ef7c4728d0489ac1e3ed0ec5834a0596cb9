@@ -1,0 +1,2 @@
+r65340 の wercker.yml での test-all で除外するテストは --jit-wait の指定時にも
+除外するようにしています。
