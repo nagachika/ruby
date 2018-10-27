@@ -1,0 +1,2 @@
+wercker.yml で test-all のテストの 2つのグループへの分離を調整して rubygems や
+rss のテストも test/ruby/ と同じグループのほうへ移しています。
