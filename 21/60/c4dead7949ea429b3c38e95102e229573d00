@@ -1,0 +1,2 @@
+wercker.yml で webrick のテストを --jit-wait つきの時に exclude するようにして
+います。
