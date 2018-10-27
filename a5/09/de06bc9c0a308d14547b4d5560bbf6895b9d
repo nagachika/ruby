@@ -1,0 +1,3 @@
+tool/sync_default_gems.rb にコマンドライン引数で up か all かという処理の指示を
+与えられるようにして、up (update) の時は upstream のリポジトリを clone する処理
+をするようにして通常の更新時に毎回 clone しなくていいようにしています。
