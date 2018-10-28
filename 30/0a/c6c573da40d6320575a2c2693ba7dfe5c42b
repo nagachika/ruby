@@ -1,0 +1,7 @@
+r65371、r65372、r65373 のさらに続きで r65372 で fstring_existing_str() から変形
+して改名した fstring_key_str() という関数も削除して呼び元の rb_hash_key_str()
+で key が文字列なら問答無用で rb_fstring() を呼ぶようにしています。常に Hash の
+key が文字列の時常に fstring なら存在してるかどうかチェックする必要もないだろ、
+ということかな。ただ rb_objspace_garbage_object_p() のチェックをはずしても大丈
+夫なのかな。と、思ったけどこれが真の時は結局 rb_fstring() を呼んでたわけで問題
+ないのか。 [ruby-core:89549] [Feature #15251]
