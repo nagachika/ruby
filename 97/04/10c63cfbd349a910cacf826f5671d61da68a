@@ -1,0 +1,2 @@
+r65331 の appveyor.yml に続いて .travis.yml でも make test-spec のオプションに
+-j をつけるのをやめています。
