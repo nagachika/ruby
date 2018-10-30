@@ -1,0 +1,3 @@
+rubyspec の win32ole のテストで InternetExplorer.Application を使っていたところ
+を、ここは MSXML.DOMDocument を使うように変更。ここで r65395 で追加した
+WIN32OLESpecs::MSXML_AVAILABLE を参照するようにしています。
