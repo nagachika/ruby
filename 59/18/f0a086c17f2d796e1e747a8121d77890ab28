@@ -1,0 +1,2 @@
+r65402 で revert されてた r65401 の再適用と、Windows 以外でこのファイルを
+require しないように rubyspec のファイルの修正。
