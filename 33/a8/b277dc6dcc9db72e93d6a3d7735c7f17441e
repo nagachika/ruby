@@ -1,0 +1,3 @@
+r65398 と同様に rubyspec の別の win32ole のテストでも
+InternetExplorer.Application を使っていたところを Scripting.Dictionary に変更し
+ています。
