@@ -1,0 +1,3 @@
+rubyspec の win32ole のテストの可否を確認するために WIN32OLE_TYPELIB に "
+Microsoft XML" ではじまるものが存在するか確認して定数 MSXML_AVAILABLE に格納し
+ておくようにしています。
