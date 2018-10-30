@@ -1,0 +1,3 @@
+rubyspec の Thread#exit のテストを r64991 で MinGW で実行しないようにしていたの
+を、shared behavior 全体にかけてたのを shared behavior の中の固有のテストケース
+にのみかけるように局所化しています。
