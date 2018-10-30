@@ -1,0 +1,3 @@
+rubyspec の win32ole のテストで InternetExplorer.Application を使っていたところ
+を Scripting.Dictionary を使うように変更。また win32ole/fixtures/classes を
+Windows 環境でのみ require するように platform_is ブロック内に移動しています。
