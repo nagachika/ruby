@@ -1,0 +1,2 @@
+appveyor.yml で test-all の open-uri のテストも -j なしのほうで実行するように分
+離しています。
