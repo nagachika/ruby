@@ -1,0 +1,4 @@
+VM 命令の attribute の leaf はデフォルトが true でしたが、同じく attribute の
+handles_sp が true なら false にするようにしています。また handles_sp も
+operand に ISeq が含まれてるかどうかでデフォルト値を決めるようにして、明示的な
+記述を減らしています。
