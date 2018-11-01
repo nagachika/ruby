@@ -1,0 +1,3 @@
+vm_eval.c のローカル変数を管理するテーブルの初期化に st_init_numtable() のかわ
+りに rb_hash_new_compare_by_id() を利用するようにしています。最近できるだけ
+st_xxx を直接使わないように変更しているっぽいですね。
