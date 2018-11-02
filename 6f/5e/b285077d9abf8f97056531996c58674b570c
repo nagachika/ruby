@@ -1,0 +1,2 @@
+transient_heap.c で fprint() 系のフォーマット文字列の %p に渡される引数を void
+* に明示的にキャストしています。
