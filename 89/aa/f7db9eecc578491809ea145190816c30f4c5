@@ -1,0 +1,3 @@
+ubf_select() で m->gvl.lock のロック取得を rb_native_mutex_lock() でしていまし
+たが native_mutex_trylock() を使うようにしてデッドロックを避けるようにしていま
+す。高負荷時? に二重ロックになる可能性があったみたいです。
