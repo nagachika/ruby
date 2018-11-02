@@ -1,0 +1,2 @@
+.travis.yml で allow_failures から pedanticism を消してます。今失敗するからとの
+ことで、?? と思ったけど、壊れてるぞーって気づかせるためらしいですね。
