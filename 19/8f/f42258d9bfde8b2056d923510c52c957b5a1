@@ -1,0 +1,2 @@
+T_STRUCT 型オブジェクトでも Transient Heap を利用するようにしています。
+[ruby-core:87538] [Bug #14858]
