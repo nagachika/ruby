@@ -1,0 +1,2 @@
+mjit.c の JIT 単位のリストを解放する free_list() で list->length を 0クリアする
+ようにしています。 "For robustness against future changes." とのこと。
