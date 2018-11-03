@@ -1,0 +1,2 @@
+rubyspec の Socket.getnameinfo のテストでひとつのホスト名が複数のアドレスに紐づ
+けられてると失敗する spec を削除しています。 [ruby-core:88828] [Bug #15067]
