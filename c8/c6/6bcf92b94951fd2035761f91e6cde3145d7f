@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix で private をメソッド定義の def の前に書く(def 文は今
+は定義したメソッド名の Symbol を返すので private def m; end は def m; end;
+private :m と同義になる)ようにスタイルを変更しています。
