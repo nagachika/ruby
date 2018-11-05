@@ -1,0 +1,3 @@
+r65511 と同様に r65505 の require -> require_relative に変更したもののうち lib/
+racc/parser.rb の racc/cparse も require に戻しています。これも拡張ライブラリで
+あるため。
