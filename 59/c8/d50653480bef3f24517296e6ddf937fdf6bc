@@ -1,0 +1,3 @@
+2.5 の時に断念した bundler の default gem としての標準添付のリトライをしていま
+す。 tool/sync_default_gems.rb にも bundler 用のコードを追加しています。
+[ruby-core:77172] [Feature #12733]
