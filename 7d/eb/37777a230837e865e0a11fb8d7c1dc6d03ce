@@ -1,0 +1,3 @@
+make test-bundled-gems-prepare というターゲットで gem install 時のオプションを
+--no-ri --no-rdoc から --no-document に更新しています。新しい rubygems でこのよ
+うにオプションが変更になったみたいですね。
