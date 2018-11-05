@@ -1,0 +1,2 @@
+標準添付ライブラリ matrix で alias を定義するのに予約語 alias でなく Module#
+alias_method を利用するように統一しています。
