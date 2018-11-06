@@ -1,0 +1,2 @@
+Hash#filter と Hash#filter! の rdoc 用コメントのサンプルの追加と、それぞれ
+select/select! の別名であることを追記しています。
