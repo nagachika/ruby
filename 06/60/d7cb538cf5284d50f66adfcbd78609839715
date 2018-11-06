@@ -1,0 +1,3 @@
+r65499 で ARM の CI のためにタイムアウトを追加していた drb のテストですが、
+SSLSocket でクライアントが接続を検出できないみたいなのであきらめて
+RUBY_PLATFORM が armv7l-linux だったら skip するようにしています。
