@@ -1,0 +1,3 @@
+rubyspec の 2.6 以降の Time.new の timezone 引数についてのテストで timezone を
+指定するオブジェクトに mock を使っていたのを独自にクラスを定義するようにしてい
+ます。
