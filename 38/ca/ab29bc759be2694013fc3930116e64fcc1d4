@@ -1,0 +1,2 @@
+rb_to_integer() の宣言に ALWAYS_INLINE() をつけてコンパイラが対応されていたら常
+に inline 化されるようにしています。 https://github.com/ruby/ruby/pull/2001
