@@ -1,0 +1,3 @@
+mjit.c で MJIT 用ヘッダファイルのファイルパスを作る init_header_filename() で
+MJIT_BUILD_DIR が相対パスだったり、world writable なディレクトリだったりすると
+セキュリティ上問題があるのでエラーにするようにしています。
