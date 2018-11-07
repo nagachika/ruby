@@ -1,0 +1,1 @@
+addr2line.c では #pragma で -Wpedantic オプションを無効にするようにしています。
