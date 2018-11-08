@@ -1,0 +1,3 @@
+rb_wait_for_single_fd() で ppoll(2) の前後で struct pollfd::revents を 0 クリア
+していたところを消しています。うーんコミットログがよくわからないのですが ppoll
+(2) がクリアするはずなので不要ってことかな。
