@@ -1,0 +1,2 @@
+rb_fiber_reset_root_local_storage() の引数を VALUE から rb_thread_t* に変更。呼
+び元で th->self を渡してたので単に th を渡すようにしています。
