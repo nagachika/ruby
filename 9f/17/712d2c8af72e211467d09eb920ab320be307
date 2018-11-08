@@ -1,0 +1,3 @@
+r65562 の再修正。 MJIT_CC_COMMON の設定をフルパスに解決する時に MinGW では
+cygpath というコマンドを利用するようにしています。 cygpath は cygwin で Windows
+のコマンドを shell から使う時のコマンドに変換するためのツールみたいです。
