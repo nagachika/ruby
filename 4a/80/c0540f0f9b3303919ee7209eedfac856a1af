@@ -1,0 +1,5 @@
+sanitizer/asan_interface.h や sanitizer/msan_interface.h といった Address
+Sanitier, Memory Sanitizer のヘッダファイルがあれば導入して不正なメモリアクセス
+を検出するようにしています。 gc.c などでは普通じゃないメモリの触りかたをするこ
+とが多いので、poison_xxx() と unpoison_xxx() という関数群が導入されててこれで明
+示的にアドレスやメモリ領域を一時的に許可したりしています。
