@@ -1,0 +1,6 @@
+r65275 で導入した inline cache や call cache を MJIT 用にコピーする機構の
+copy_cache_from_main_thread() で main thread に実行させる遅延ジョブの登録を
+rb_postponed_job_register_one() を使ってたのを rb_postponed_job_register() を使
+うように変更しています。 rb_postponed_job_register_one() を使うことで重複してジ
+ョブが登録される可能性があって、どうも r65569 で修正しようとしていた SEGV はこ
+れが原因だったっぽいですね。
