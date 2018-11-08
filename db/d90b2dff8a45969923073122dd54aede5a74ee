@@ -1,0 +1,3 @@
+r65569 の続きで mjit_copy_job_handler() で job->finish_p を参照するための mutex
+の排他処理前に stop_worker_p のチェックを移動しています。こっちを先にチェックし
+ないと mutex 自体も destroy されてるかもしれないからかな。
