@@ -1,0 +1,3 @@
+.travis.yml の build matrix 用に YAML の alias 機能(っていうのかな)を使いシンプ
+ルに書くようにして、一部のテストは cron 型で trunk で1日1回だけ実行するようにし
+ています。
