@@ -1,0 +1,3 @@
+vm_backtrace.c の calc_lineno() において pos が 0 になる可能性があったのを考慮
+して 0 の時は -1 しないようにしています。 pos=0 だった時にデバッグ用の
+__builtin_trap() も追加されてます。
