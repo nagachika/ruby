@@ -1,0 +1,3 @@
+ruby-runner.c で環境変数 MJIT_SEARCH_BUILD_DIR をセットするのは configure 時に
+--enable-load-relative が有効な状態でビルドされた時には行なわないようにしていま
+す。不要だからでしょうね。
