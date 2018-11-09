@@ -1,0 +1,5 @@
+string.c で __builtin_assume_aligned() という builtin function が使えるかどうか
+の判定に HAVE_BUILTIN___BUILTIN_ASSUME_ALIGNED だけみてたのを
+UNALIGNED_WORD_ACCESS もチェックして word のメモリアドレスが align されていない
+といけない環境でのみ使うようにしています。 "it is clear than a blue sky" ってコ
+ミットログがいいですね。
