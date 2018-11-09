@@ -1,0 +1,3 @@
+bundler を同梱したことでパッケージサイズが急に大きくなるのを抑えるため spec/
+bundler/support/artifice/vcr_cassettes/ の下のファイルを削除しています。
+[ruby-core:84396] [Bug #14219]
