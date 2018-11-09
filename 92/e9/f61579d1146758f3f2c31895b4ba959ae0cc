@@ -1,0 +1,4 @@
+r65577 の configure で MJIT_CC のコマンドをフルパスに展開する処理で cygpath で
+ファイルパスを変換する条件の $build_os と $host_os が逆になってたのを修正。
+Cygwin 上で MinGW 版のビルドをする時ということですかね。いや、逆か。ややこしい
+。
