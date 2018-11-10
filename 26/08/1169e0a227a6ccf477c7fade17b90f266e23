@@ -1,0 +1,10 @@
+Thread の実体である構造体 rb_thread_t の first_proc, first_args, first_func な
+どのメンバーを invoke_arg という共用体にまとめて、Thread の生成が Thread.start
+などのメソッドで行なわれてブロックを実行するのか rb_thread_create() で C の関数
+ポインタを渡して作ったかの種別を invoke_type というメンバーに格納しておくように
+しています。また引数を格納した配列オブジェクト invoke_args.args のサイズが小さ
+い(8未満)時には ALLOCA_N() でスタック上にメモリ領域を確保してここにコピーして配
+列オブジェクトは破棄されるようにしています。また rb_thread_create() で引数に渡
+される void * 型の引数は GC の mark 対象ではなかったのですが、VALUE をキャスト
+して渡してて mark されることを期待したテストが rubyspec にあったそうで、本来の
+意図とは違うのですが mark 対象に追加しています。
