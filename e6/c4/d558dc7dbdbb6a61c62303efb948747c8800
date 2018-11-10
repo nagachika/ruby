@@ -1,0 +1,2 @@
+test/rdoc/minitest_helper.rb で gem "minitest" から Bundler::GemfileNotFound が
+発生する場合があるようになったので rescue に追加しています。
