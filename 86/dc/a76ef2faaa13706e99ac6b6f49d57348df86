@@ -1,0 +1,4 @@
+拡張ライブラリ socket の wait_connectable() で getsockopt() で socket のエラー
+情報を取得して EHOSTUNREACH, ECONNREFUSED, EISCONN, EALREADY などのエラーを検出
+したらエラーを返すようにしています。socket を non-blocking で開いた時に必要との
+こと。 [ruby-core:88305] [Bug #14968]
