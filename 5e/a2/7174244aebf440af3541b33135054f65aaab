@@ -1,0 +1,2 @@
+r65583 で rubyspec の bundler 用のスタブデータのファイル群(?)を削除したのを
+tool/sync_default_gems.rb で同期した時も自動で消すように対応しています。
