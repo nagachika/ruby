@@ -1,0 +1,4 @@
+st.c の st_rehash_indexed() でも st_table::entries の要素を取り出す処理を
+EMPTY_OR_DELETED_BIN_P(bin) が偽の時には bin - ENTRY_BASE すると st_index_t 型
+の unsigned の bin より大きい数を引くことになってしまう可能性があるので条件分岐
+後に参照するように修正しています。
