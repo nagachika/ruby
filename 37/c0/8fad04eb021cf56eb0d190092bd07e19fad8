@@ -1,0 +1,5 @@
+標準添付ライブラリ fileutils の FileUtils::Entry_#entries で r58879 で追加され
+た Dir.children を利用するようにして "." と ".." の除外しなくても良いようにして
+います。fileutils って upstream があると思うので、そちらで 2.4 以前の ruby の対
+応のコードがあるのかな。 https://github.com/ruby/ruby/pull/1754
+[ruby-core:83777] [Feature #14109]
