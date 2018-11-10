@@ -1,0 +1,4 @@
+rubygems の lib/rubygems/indexer.rb で gem 'builder' した時の例外として
+LoadError を捕捉していましたが、Bundler::GemfileNotFound も捕捉するようにしてい
+ます。 require 'bundler/errors' が LoadError になった時は例外クラス自体が参照で
+きないのでその場合も考慮しています。
