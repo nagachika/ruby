@@ -1,0 +1,3 @@
+r65636 の追加修正。vm_yield_with_cfunc() でも引数で rb_callable_method_entry*
+を受け取るようにして invoke_block_from_c_proc() 経由で呼ばれた時のその引数の me
+をそのまま渡すようにしています。
