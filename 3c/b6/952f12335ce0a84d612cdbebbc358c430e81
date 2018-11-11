@@ -1,0 +1,7 @@
+rb_vm_invoke_bmethod() や invoke_iseq_block_from_c()、invoke_block_from_c_proc
+() などの引数に rb_callable_method_entry_t* を追加して rb_execution_context_t
+から method entry を取り出してたのを引数で外から指定するようにして、
+rb_execution_context_t のメンバー passed_bmethod_me は削除しています。発生条件
+はよくわかりませんが define_method などで Proc オブジェクトから定義したメソッド
+の呼び出しのために passed_bmethod_me に一時的にセットしてたのが GC 時に問題をお
+こして SEGV することがあったようです。
