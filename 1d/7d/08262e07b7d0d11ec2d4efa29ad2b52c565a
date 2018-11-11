@@ -1,0 +1,1 @@
+RubyVM::AST を RubyVM::AbstractSyntaxTree と改名しています。
