@@ -1,0 +1,3 @@
+r65651 の RubyVM::AbstractSyntaxTree.of の実装に SCRIPT_LINES__ を使うケースの
+ために parse.y で配列から直接 token を取得できるようにして、不要な文字列の連結
+を省けるようにしています。
