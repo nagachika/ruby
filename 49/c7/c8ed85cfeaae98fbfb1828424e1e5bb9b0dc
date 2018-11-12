@@ -1,0 +1,3 @@
+ast.c のリファクタリングで rb_ast_s_parse() から rb_ast_parse_str() を、
+rb_ast_s_parse_file() から rb_ast_parse_file() を括り出して static なしの関数を
+作ってます。
