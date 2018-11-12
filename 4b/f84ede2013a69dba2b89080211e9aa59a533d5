@@ -1,0 +1,4 @@
+すっかり忘れてましたが parse.y には(というか ruby の parser には)
+SCRIPT_LINES__ という定数に Hash を入れておくと parse した行が追加されていくと
+いう機能があって、RubyVM::AbstractSyntaxTree.of で内部的に parse しなおした時に
+この定数に追加されてしまっていたらしいのを修正しています。
