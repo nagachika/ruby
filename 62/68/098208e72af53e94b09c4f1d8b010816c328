@@ -1,0 +1,2 @@
+r65656 の psych の更新のリトライ。rubygems の lib/rubygems/safe_yaml.rb も
+psych の更新に追随させています。
