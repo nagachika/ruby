@@ -1,0 +1,2 @@
+r65678 で追加した rb_flo_div_flo() が MJIT の JIT コンパイル時にシンボルが必要
+ということで MJIT_FUNC_EXPORTED をつけて宣言するようにしています。
