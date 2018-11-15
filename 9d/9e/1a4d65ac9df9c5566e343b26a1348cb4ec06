@@ -1,0 +1,1 @@
+addr2line.c で #pragma を使って -Wgcc-compat の警告も抑制するようにしています。
