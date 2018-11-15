@@ -1,0 +1,3 @@
+r65690 で Array.new のテストで GC.start していたのはやはり効かなかったみたいで
+revert して、かわりに appveyor.yml で test/ruby_array.rb を -j オプションなしの
+グループのほうに移動しています。
