@@ -1,0 +1,2 @@
+defs/known_errors.def という errno の名前を列挙してるファイルを生成するルールを
+Makefile.in に追加して、ファイル内容を辞書順でソートしています。
