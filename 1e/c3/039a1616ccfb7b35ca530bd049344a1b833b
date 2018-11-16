@@ -1,0 +1,1 @@
+.travis.yml で再び macOS 版のテストを allow_failure から削っています。
