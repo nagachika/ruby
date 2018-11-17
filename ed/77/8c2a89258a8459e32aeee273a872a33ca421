@@ -1,0 +1,2 @@
+rationa.c の nurat_div() で Rational を Float に変換するのに、一旦 double にし
+てから変換してたのを nurat_to_f() を呼ぶようにリファクタリングしています。
