@@ -1,0 +1,1 @@
+.travis.yml で macOS の universal binary のビルドを消しています。
