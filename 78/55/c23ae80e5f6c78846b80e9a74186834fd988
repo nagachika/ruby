@@ -1,0 +1,2 @@
+.travis.yml に ccache を有効にしてビルド高速化を図っています。 https://
+github.com/ruby/ruby/pull/2013
