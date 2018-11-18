@@ -1,0 +1,2 @@
+r65765 の続き。 ruby.imp に MJIT 用に追加で MJIT_FUNC_EXPORTED のついている関数
+も出力するようにしています。
