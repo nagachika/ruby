@@ -1,0 +1,2 @@
+NEWS ファイルの NameError, KeyError についての変更を #initialize メソッドでなく
+クラスメソッド .new についての変更として書き変えています。
