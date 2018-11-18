@@ -1,0 +1,2 @@
+ec_set_vm_stack() という関数に rb_ の prefix を追加して rb_ec_set_vm_stack() と
+改名しています。元々 static はついていませんでした。
