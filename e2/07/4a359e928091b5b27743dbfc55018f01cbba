@@ -1,0 +1,2 @@
+wercker の除外テストを管理するファイル群を test/excludes/_wercker/
+test-mjit-wait/ から test/excludes/_wercker/jit-wait/ のように改名しています。
