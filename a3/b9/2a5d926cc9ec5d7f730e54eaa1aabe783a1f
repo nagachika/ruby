@@ -1,0 +1,2 @@
+tool/rbinstall.rb で rdoc の生成物をインストールする時に created.rid というファ
+イルはコピーしないようにしています。
