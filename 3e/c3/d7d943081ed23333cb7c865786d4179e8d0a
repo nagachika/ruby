@@ -1,0 +1,2 @@
+bundler を upstream の 2-0-stable ブランチのものに更新しています。 gemspec にコ
+メントが追加された他はテストの変更のみでした。
