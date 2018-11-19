@@ -1,0 +1,2 @@
+mkmf のテストでビルドディレクトリ直下の Makefile から CC_WRAPPER の値を抜き出し
+て RbConfig::MAKEFILE_CONFIG の CC_WRAPPER にも設定するようにしています。
