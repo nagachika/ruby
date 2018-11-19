@@ -1,0 +1,4 @@
+make test-almost っていうターゲットで mjit_build_dir.so への依存関係を追加して
+います。 test-almost ってなんだっけ、と思ったら r55758 の時にも同じようなことを
+言ってましたが、r52022 で作った test-all から test/util 自体のテストを除外した
+ものでした。 [ruby-core:89830] [Bug #15311]
