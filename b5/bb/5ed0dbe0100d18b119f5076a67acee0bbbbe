@@ -1,0 +1,2 @@
+nogvl_wait_for_single_fd() で到達しないはずの switch 文の default 節に assert
+(3) で異常終了させてたのを VM_UNREACHABLE() を使うように修正しています。
