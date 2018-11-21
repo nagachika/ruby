@@ -1,0 +1,2 @@
+tool/update-deps で環境変数の文字列は freeze されているため sub! で破壊的に置換
+はできないので String#sub を使うように書き換えています。
