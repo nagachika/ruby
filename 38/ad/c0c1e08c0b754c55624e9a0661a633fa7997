@@ -1,0 +1,5 @@
+tool/m4/_colorize_result_prepare.m4 で r65702 で変更した CONFIGURE_TTY の設定を
+反映させる変数名を rb_cv_configure_tty から configure_tty に変更しています。
+rb_cv_ という prefix は reconfig 時に継承するものという意味があるそうで、出力が
+端末かどうかというのは configure しなおす度に変わるかもしれないものなので継承す
+べきではないということでした。
