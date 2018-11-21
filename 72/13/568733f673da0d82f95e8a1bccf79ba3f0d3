@@ -1,0 +1,2 @@
+String#setbyte でも IO#ungetbyte と同様に引数に渡されたバイト値を意味する整数が
+0-255 の範囲外だったら RangeError 例外を発生させるようにしています。
