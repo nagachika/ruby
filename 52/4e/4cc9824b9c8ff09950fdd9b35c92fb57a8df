@@ -1,0 +1,5 @@
+r65785 の子プロセスでの MJIT 有効化でデッドロックが入ってしまったのを修正。
+mjit.c の stop_worker() で stop_worker_p フラグを立てるのを while ループ内で
+rb_native_cond_broadcast() する前に行なうようにしています。 RUBY_VM_CHECK_INTS
+() で割り込みチェックすると start_worker() が別の thread から呼ばれる可能性があ
+って(fork 直後の再起動のため?)そこと競合する可能性があるため。
