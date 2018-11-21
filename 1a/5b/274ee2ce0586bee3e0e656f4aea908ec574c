@@ -1,0 +1,2 @@
+r65796 の続きで .travis.yml の CFLAGS に設定する警告オプションに
+-Wno-unknown-warning-option も追加するようにしています。
