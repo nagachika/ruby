@@ -1,0 +1,3 @@
+やっぱり r65875 の preprocessor の分岐は範囲が広すぎたみたいで、
+fiber_machine_stack_alloc() の定義部分だけ FIBER_ALLOCATE_STACK でコントロール
+するように修正しています。
