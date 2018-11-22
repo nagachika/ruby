@@ -1,0 +1,4 @@
+MJIT の子プロセスでの有効化に関連して fork 前に MJIT worker thread を止める時に
+割り込み処理しないようにするため mjit.c の stop_worker() に引数を追加して、
+RUBY_VM_CHECK_INTS() の実行有無を指定できるようにして before_fork_ruby() からは
+実行しない指定で呼ぶようにしています。 [ruby-core:89877] [Bug #15320]
