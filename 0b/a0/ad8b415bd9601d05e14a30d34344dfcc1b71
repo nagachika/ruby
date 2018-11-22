@@ -1,0 +1,1 @@
+coroutine/win{32,64}/Context.h の構造体 coroutine_context の typedef 追加。
