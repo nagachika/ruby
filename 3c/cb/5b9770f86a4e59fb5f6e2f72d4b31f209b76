@@ -1,0 +1,2 @@
+coroutine の Windows 版(mswin) のビルド用のルールを win32/Makefile.sub に追加し
+ています。
