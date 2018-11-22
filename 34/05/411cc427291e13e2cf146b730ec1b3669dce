@@ -1,0 +1,7 @@
+引き続き fork 前の MJIT worker 停止のハングアップ修正。before_fork_ruby() で
+MJIT worker thread を停止していたのをやめて呼び元の rb_fork_ruby() や rb_daemon
+() から直接 mjit_pause() や mjit_resume() を呼ぶようにしています。fork 時には
+SIGCHLD の独自処理で導入された子プロセス処理も一時的に停止されているので
+before_fork_ruby() の位置では worker thread が正常に停止できない可能性があった
+みたいです。waitpid 処理を止める前に mjit_pause() し、再開後に mjit_resume() す
+るようにしています。 [ruby-core:89877] [Bug #15320]
