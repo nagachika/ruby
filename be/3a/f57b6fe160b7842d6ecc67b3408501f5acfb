@@ -1,0 +1,1 @@
+cont.c の fiber_entry() の宣言に static を追加しています。
