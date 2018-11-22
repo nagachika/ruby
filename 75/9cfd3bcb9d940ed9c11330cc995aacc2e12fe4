@@ -1,0 +1,2 @@
+r65805 のさらに続きで configre.ac の extra_warning という変数名を
+extra_warnflags に改名しています。うん、ちょっと気になってたのでした。
