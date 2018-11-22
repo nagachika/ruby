@@ -1,0 +1,3 @@
+bootstraptest の Thread#join のテストが Windows 環境で通らないことがあるそうで
+bootstraptest/pending.rb に移動しています。socket の read でエラー? 別のテスト
+の後始末漏れとかですかね。
