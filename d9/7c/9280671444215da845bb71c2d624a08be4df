@@ -1,0 +1,2 @@
+coroutine/win{32,64} の実装を修正しています。 Windows TIB のサポートとのこと。
+TIB = Thread Information Block かな? それがなんなのかは知らないのですが。
