@@ -1,0 +1,2 @@
+cont_free() の変数 fib に const を付けてましたが const なしの引数に渡す必要があ
+ったので const を削っています。
