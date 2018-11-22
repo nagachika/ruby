@@ -1,0 +1,2 @@
+benchmark/bm_vm2_fiber_chain.rb を benchmark/vm2_fiber_chain.rb に改名していま
+す。
