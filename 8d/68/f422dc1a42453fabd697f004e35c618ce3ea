@@ -1,0 +1,3 @@
+標準添付ライブラリ monitor で mon_initialize が二重に呼ばれた時にインスタンス変
+数 @mon_mutex をチェックして例外発生させるようにしています。 [ruby-core:88504]
+[Feature #15000]
