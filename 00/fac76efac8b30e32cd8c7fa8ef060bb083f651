@@ -1,0 +1,5 @@
+gcc 8 の -fcf-protection というオプションをつけていると MJIT で(つまり共有ライ
+ブラリで?) __builtin_longjmp() を使った大域脱出がエラーになるそうで、コンパイラ
+が -fcf-protection オプションをサポートする時に __builtin_longjmp() が使えない
+ように判定するように configre.ac を修正しています。 [ruby-core:89812] [Bug #
+15307]
