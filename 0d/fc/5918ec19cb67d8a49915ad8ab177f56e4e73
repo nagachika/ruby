@@ -1,0 +1,5 @@
+r65822 の monitor の修正で rubyspec が失敗するそうで revert しています。わざわ
+ざ mon_initialize を2回呼んだ時のテストがあったのか、と思ったけどよくみると
+initialize_copy からコピーしたオブジェクトで再初期化する時に mon_initialize を
+呼んだ時なので、この時は再度 Mutex を作るのが正しそう。なるほどー。難しいですね
+。
