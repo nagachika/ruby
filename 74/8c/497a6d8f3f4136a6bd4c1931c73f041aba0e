@@ -1,0 +1,2 @@
+fiber_benchmark.rb を削除して書き直したベンチマークを benchmark/
+bm_vm2_fiber_chain.rb に追加しています。
