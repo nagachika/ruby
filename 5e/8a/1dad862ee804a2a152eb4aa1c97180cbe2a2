@@ -1,0 +1,4 @@
+cont.c の fiber_machine_stack_alloc() などの関数の定義を FIBER_USE_NATIVE から
+FIBER_ALLOCATE_STACK というマクロの定義で分岐するようにしています。coroutine を
+使う時もそうでない時も Windows 以外では使うので。 fiber_setcontext() も分岐内に
+入ってるっぽいけどこれはいいのかな。
