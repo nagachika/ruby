@@ -1,0 +1,4 @@
+r65821 で bootstraptest の assert_finish() で IO::WaitReadable の時にリトライす
+るようにしていましたが、この begin 節(後置 while つき)の外にも while ループがあ
+ってタイムアウトまで繰り返すようになっているので、Errno::EAGAIN が発生した時と
+同様に単に break するようにしています。
