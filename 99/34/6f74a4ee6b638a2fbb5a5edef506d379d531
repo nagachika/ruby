@@ -1,0 +1,2 @@
+coroutine/*/Context.h で定義している関数の宣言に使う COROUTINE マクロに
+noreturn の attribute をつけうようにしています。
