@@ -1,0 +1,4 @@
+AppVeyor 用の除外テストの指定ファイルをさらに vs と msys2 のサブディレクトリに
+分割して msys2 のほうに Enumerator のテストを除外するようにしています。おそらく
+coroutine による Fiber 実装の影響で SEGV するらしいです。Enumerator は内部的に
+Fiber を使っていますしね。
