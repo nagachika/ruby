@@ -1,0 +1,3 @@
+test/ と spec/ のテストのうち IO の auto close や Process.spawn のパス探索、
+IO.for_fd などのテストが MJIT が有効な状態でランダムに失敗するそうでとりあえず
+skip するようにしています。
