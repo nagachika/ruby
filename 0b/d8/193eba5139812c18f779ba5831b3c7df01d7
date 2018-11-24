@@ -1,0 +1,2 @@
+r65922 の追加修正。 rsock_socket0() で rsock_make_fd_nonblock() の呼び出しが漏
+れていたので追加しています。 [ruby-core:89965] [Bug #14968]
