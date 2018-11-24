@@ -1,0 +1,4 @@
+Dir.home のテストで環境変数 HOME の値ではなくて File.expand_path に "~username"
+を渡した結果を答として使うようにしています。環境変数は優先順位として後のほうな
+ので /etc/password とかで設定されているのは File.expand_path のほうがちゃんとみ
+ているので。 [ruby-core:89911] [Bug #15324]
