@@ -1,0 +1,4 @@
+Object#respond_to? も Refinements の影響を受けてメソッドが呼べるかどうか判定す
+るようにしています。うーん、確かに呼んだら呼べる位置では respond_to? も true を
+返して欲しいような気がしますねぇ。 https://github.com/ruby/ruby/pull/2020
+[ruby-core:89922] [Feature #15327]
