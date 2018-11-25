@@ -1,0 +1,5 @@
+MJIT 用の worker で main thread に inline cache や call cache をコピーさせるジ
+ョブのための struct mjit_copy_job 構造体で ISeq の struct rb_iseq_constant_body
+へのポインタを直接持っていたのを struct rb_mjit_unit を持ってここから辿るように
+して、既に対象の ISeq が GC されて解放されていた時にコピーをキャンセルして不正
+なアドレスへのアクセスを避けるように修正しています。
