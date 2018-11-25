@@ -1,0 +1,3 @@
+enc/unicode/case-folding.rb の Unicode の case mapping ファイルの中身を parse
+する時に CaseUnfold_11 で今までエラーにしていた条件に IT というフラグをつけて出
+力するようにしています。 Unicode の 11.0.0 を受け付けるための前準備らしいです。
