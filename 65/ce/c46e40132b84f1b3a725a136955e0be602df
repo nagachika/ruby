@@ -1,0 +1,2 @@
+common.mk の EXT_SRCS に ext/etc/constdefs.h を追加して make srcs-ext でこのヘ
+ッダを生成するようにしています。
