@@ -1,0 +1,8 @@
+なんとなく r65931 と絡んでそうですが IO オブジェクトの finalizer でバッファを
+flush する fptr_finalize_flush() で race condition があって fptr->fd が -1 にク
+リアされた後で利用される可能性が残っているそうで io_close_fptr() から呼ばれる時
+に同じ fd に大して処理している thread へ通知したリストをみてそれらが抜けるのを
+待つ処理を fptr_finalize_flush() の中に移動しています。もう関係ないですが
+thread.c に rb_thread_fd_close() っていう変更前の io_close_fptr() 内の処理に類
+似のがあるからこれでリファクタリングできたんじゃないかなぁ。まあこの変更でもう
+できなくなりましたが。
