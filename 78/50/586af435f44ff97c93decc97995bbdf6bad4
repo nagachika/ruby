@@ -1,0 +1,6 @@
+String#grapheme_clusters の Enumerator で single_byte_optimizable() という関数
+で文字列の内容が 7bit ASCII のみだったらバイト単位の処理の関数を呼んで最適化し
+ていたのをやめています。 Unicode では CR+LF という 2 byte の改行コードを1つの文
+字として扱うそうなので、Encoding が Unicode 系である場合は内容が ASCII のみでも
+バイト単位で処理はできないとのこと。うーん、残念。 [ruby-core:90031] [Bug #
+15337]
