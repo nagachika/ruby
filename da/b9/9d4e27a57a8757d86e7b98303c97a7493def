@@ -1,0 +1,6 @@
+r65939 と類似だと思いますが rb_wait_for_single_fd() でも
+RUBY_VM_CHECK_INTS_BLOCKING() を呼ぶところで context switch がおきて別 Thread
+で fd が閉じられている可能性があるので、内側のループで RUBY_VM_INTERRUPTED() の
+前に waiting_fds への追加をしていたのをもっと外側で行なって close の通知を受け
+取るようにしています。また大域脱出の発生時に waiting_fds に不正なポインタを残さ
+ないように EC_PUSH_TAG()/EC_POP_TAB() を追加しています。
