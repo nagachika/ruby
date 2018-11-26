@@ -1,0 +1,4 @@
+common.mk で Unicode 用のデータファイルとして GraphemeBreakTest.txt という名前
+も追加しています。ファイル名の通り grapheme cluster の分割の仕様が記述されるフ
+ァイルみたいで、正規表現の /\X/ や String#each_grapheme_cluster のテストに使う
+つもりとのこと。
