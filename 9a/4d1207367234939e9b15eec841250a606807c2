@@ -1,0 +1,2 @@
+regparse.c の node_extended_grapheme_cluster() から共通部分を
+create_property_node() という関数に切り出すリファクタリング。
