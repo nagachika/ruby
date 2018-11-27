@@ -1,0 +1,4 @@
+r65922 の pipe と socket の fd のデフォルト non-blocking 化に関連して Windows
+では r65929 で socket はデフォルト non-blocking にするのをやめましたが、pipe も
+うまくいかないみたいで無効にしています。 [ruby-core:90042] [ruby-core:90044]
+[Bug #14968]
