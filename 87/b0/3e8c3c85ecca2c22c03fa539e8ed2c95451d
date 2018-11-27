@@ -1,0 +1,3 @@
+ParseError 発生時に予約語は keyword_xxxx のような内部的な token 名で表示されて
+いたのをそれぞれ自然な文字列で表示するようにしています。 https://github.com/
+ruby/ruby/pull/2011
