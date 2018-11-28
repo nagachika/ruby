@@ -1,0 +1,2 @@
+rubygems で他にも Object#=~ に依存していたところを、String かどうかのチェックつ
+きに修正しています。 [ruby-core:89438] [Feature #15231]
