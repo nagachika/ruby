@@ -1,0 +1,2 @@
+.travis.yml の warnflags の設定に bash 依存があったみたいでそれを避けるようにし
+ています。
