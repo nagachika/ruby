@@ -1,0 +1,2 @@
+r65977 に続いて tool/sync_default_gems.rb で bundler の更新時にコマンドファイル
+を bin/ でなく libexec/ にコピーするようにしています。
