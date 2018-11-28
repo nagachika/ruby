@@ -1,0 +1,5 @@
+Encoding 関係のテストに複数の codepoint の連続で 1つの絵文字になるような絵文字
+を String#each_grapheme_cluster で分割したテストを追加しています。 r65976 でダ
+ウンロードするようにした emoji-test.txt などのデータファイルを使うようにしてい
+ます。一度 make update-unicode-property-files で明示的にダウンロードしないと自
+動では落とさないようですけどね(テスト用なので)。 [ruby-core:90073] [Bug #15343]
