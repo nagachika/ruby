@@ -1,0 +1,3 @@
+r65963 の bin/ や libexec/ のファイル群の更新に伴なって tool/
+sync_default_gems.rb で掃除するファイルも libexec/ 配下のものを消すように修正し
+ています。
