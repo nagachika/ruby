@@ -1,0 +1,2 @@
+regparse.c に grapheme cluster について Unicode のバージョンに依存した部分に?
+コメントを追加しています。
