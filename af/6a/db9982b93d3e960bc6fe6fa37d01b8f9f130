@@ -1,0 +1,2 @@
+r65629 の rubygems のテスト対策の require "bundler/xchar" の例外捕捉の変更が
+r65904 で消えちゃったとのことで再度適用しています。
