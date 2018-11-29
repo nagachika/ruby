@@ -1,0 +1,3 @@
+regparse.c の node_extended_grapheme_cluster() から node_new_quantifier() で
+Node を生成してエラーチェックする処理を quantify_node() という関数に切り出すリ
+ファクタリング。
