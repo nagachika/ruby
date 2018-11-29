@@ -1,0 +1,8 @@
+r65928 で MJIT の worker thread から postponed job で main thread に inline
+cache や call cache をコピーさせる時に ISeq が GC された場合の対策をしてました
+が、それでも SEGV は直らなかったみたいで、さらに mjit_worker() 全体を抜ける時に
+も struct mjit_copy_job::finish_p に TRUE をセットしておくようにしています。
+stop_worker_p が TRUE になって MJIT worker thread の終了が要求されてループを抜
+ける時に copy job のリクエストが残ってて、ってことかな。けどこの job って
+mjit_worker() の自動変数(スタック領域に確保されてる)なのでこれを抜けた後で main
+thread から参照され得るのだとしたらこの finish_p を見るのもまずいような。
