@@ -1,0 +1,8 @@
+postponed_job_register() による postponed job の登録には race condition があり
+MJIT worker thread は GVL のないところで動いているので、先にインデックスをイン
+クリメントしてから本体を入れる前に main thread が触ってしまう可能性があるという
+ことで、mjit.c 側の排他処理を mjit_postponed_job_register_start_hook() および
+mjit_postponed_job_register_finish_hook() という関数として export して
+postponed_job_register() から登録部分でこれを使って排他処理するようにしています
+。うーむなるほど。postponed job は GVL が前提になってたのか……。
+[ruby-core:89848] [Bug #15316]
