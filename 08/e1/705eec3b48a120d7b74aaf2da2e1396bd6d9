@@ -1,0 +1,3 @@
+r63877 で Kernel#exec などでプロセスイメージを別のコマンドに変更する前に
+mjit_pause() で MJIT 用の worker thread を止めるようにしていましたが、ファイル
+の削除も行うため mjit_finish() を呼ぶように変更しています。
