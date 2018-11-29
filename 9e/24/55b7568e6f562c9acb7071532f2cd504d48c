@@ -1,0 +1,3 @@
+regparse.c の node_extended_grapheme_cluster() から複数の Node を node_new_list
+() にまとめる処理を create_sequence_node() という関数に切り出すリファクタリング
+。
