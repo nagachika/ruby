@@ -1,0 +1,5 @@
+r65993 で mjit_worker() の最後で mjit_copy_job_t.finish_p を TRUE にしておくよ
+うにしていましたが、この変数はスタック上に置かれるので mjit_worker() を抜けると
+thread も終了してしまうので main thread から finish_p を見るのも NG なので、こ
+れを mjit_copy_job という static 変数として定義してをのポインタを使うようにして
+います。
