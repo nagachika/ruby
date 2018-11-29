@@ -1,0 +1,3 @@
+regparse.c の node_extended_grapheme_cluster() から create_property_node() で
+Node 生成してquantify_node() に渡す処理を quantify_property_node() という関数と
+して切り出して共有するリファクタリング。
