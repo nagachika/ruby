@@ -1,0 +1,2 @@
+(おそらく r66003 での?) AppVeyor での rubyspec のエラー? 突然死? の場所を特定す
+るため spec/ruby/core/main/using_spec.rb の一部をコメントアウトしています。
