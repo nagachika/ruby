@@ -1,0 +1,2 @@
+rubyspec の Refinements のテストで MinGW で動かないものがあるので一時的に
+platform_is_not で除外するようにしています。
