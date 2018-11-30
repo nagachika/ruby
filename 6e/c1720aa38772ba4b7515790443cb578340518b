@@ -1,0 +1,2 @@
+標準添付ライブラリ monitor で Thread.handle_interrupt を利用して割り込み制御す
+ることで race condition 修正しています。 [ruby-core:88502] [Bug #14998]
