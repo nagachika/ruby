@@ -1,0 +1,3 @@
+node_extended_grapheme_cluster() で create_sequence_node() を使うことで未使用に
+なった np2, np3 という変数を削除しています。ということはこれでリファクタリング
+シリーズも一段落かな。
