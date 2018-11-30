@@ -1,0 +1,4 @@
+coroutine/win32/Context.asm で .model flat の前に .386 というモードを指定する
+directive を追加しています。また win32/Makefile.sub のこの coroutine 配下の
+.asm ファイルのルールの書きかたが .obj のほうのディレクトリが限定されてなかった
+ので 64bit 版で上書きされてたそうで記法を修正しています。あーそうなるんだ。
