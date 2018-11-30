@@ -1,0 +1,2 @@
+Enumerator::Chain#size の rdoc 用コメントで戻り値に Float::INFINITY や nil がか
+える可能性もあることを追記。
