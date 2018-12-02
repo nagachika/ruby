@@ -1,0 +1,2 @@
+make update-bundled_gems で gem の source_code_uri が空の時に gemspec の
+homepage をかわりに使うようにしています。
