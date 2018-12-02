@@ -1,0 +1,8 @@
+r66001 で postponed job の管理を MJIT の worker thread のみ特別に race
+condition 回避するために排他処理を追加した時に signal safe でなくなってしまった
+とのことで r66001 は revert して、かわりに postponed job のジョブ管理のために
+rb_vm_t::workqueue という list によるキューを作って、rb_postponed_job_flush()
+でこのリストに入れられた job を同期的に追加するようにする仕組みを追加しています
+。もう postponed job 自体をリストで管理したらいいんじゃ……とか思わなくもないで
+すが、そうすると Ruby の Thread から使われる通常のジョブの処理が遅くなるとかな
+んだろうな。 [ruby-core:89848] [Bug #15316]
