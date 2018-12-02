@@ -1,0 +1,4 @@
+r65922 の socket と pipe のデフォルト non-blocking 化の影響で rack の Rack
+::Deflator が不具合を起こしていたので RUBY_PIPE_NONBLOCK_DEFAULT を 0 にしてデ
+フォルト non-blocking 化をやめています。 [ruby-core:88305] [Bug #14968]
+[ruby-core:90133] [Bug #15356]
