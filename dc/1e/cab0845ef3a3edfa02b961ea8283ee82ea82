@@ -1,0 +1,3 @@
+test/testunit/test_parallel.rb のテストで MJIT が有効な時にタイムアウトを変更し
+ているところに --subprocess-timeout-scale オプションの係数もかけるようにしてい
+ます。
