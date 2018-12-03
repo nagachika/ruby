@@ -1,0 +1,5 @@
+Fiber の native 実装じゃない時に、切り換える前の Fiber の machine stack のポイ
+ンタを NULL クリアするようにしています。利用しなくなった領域の mark をしないよ
+うにするためとのこと。 native じゃない時の Fiber の machine stack の実装ってヒ
+ープに退避してコピーする昔の green thread みたいなことしてるんだっけ?
+[ruby-core:85870] [Bug #14561] [ruby-core:90193] [Bug #15362]
