@@ -1,0 +1,4 @@
+enc/unicode.c の onigenc_unicode_GCB_ranges_E_Base というテーブルに WRESTLERS
+と GENIE, ZOMBIE という絵文字を追加しています。 String#each_grapheme_cluster で
+これらの絵文字が分割されるのを修正しているみたいです。 [ruby-core:90073] [Bug #
+15343]
