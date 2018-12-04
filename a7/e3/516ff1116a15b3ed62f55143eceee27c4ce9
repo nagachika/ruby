@@ -1,0 +1,2 @@
+拡張ライブラリ json でも bigdecimal の更新にあわせて BigDecimal のロード時の処
+理を修正しています。
