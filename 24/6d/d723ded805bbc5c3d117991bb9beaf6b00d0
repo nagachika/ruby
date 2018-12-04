@@ -1,0 +1,3 @@
+LEGAL の Copyright の年表記を変更と、configure, tool/config.guess, tool/
+config.sub、parse.c (bison で生成したソース)のライセンスの内容を最新版に合わせ
+て更新しています。
