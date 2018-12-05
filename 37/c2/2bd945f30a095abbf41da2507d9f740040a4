@@ -1,0 +1,2 @@
+String#crypt の rdoc 用コメントに legacy で使うべきでないと理由を列挙して書いて
+います。 [ruby-core:87959] [Feature #14915]
