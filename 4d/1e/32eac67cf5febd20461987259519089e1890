@@ -1,0 +1,3 @@
+r66151 のブロック引数に Symbol から作った Proc を渡した時の Refinements 対応の
+修正ですが、また revert されています。 VM_CHECK_MODE を 2以上にした時に
+VM_ASSERT にひっかかってたみたいです。
