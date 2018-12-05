@@ -1,0 +1,3 @@
+r66140 の RubyVM::AbstractSyntaxTree::Node の pretty print 対応とも関連してだと
+思いますが type メソッドで返す Symbol から NODE_ という prefix を省くようにして
+います。
