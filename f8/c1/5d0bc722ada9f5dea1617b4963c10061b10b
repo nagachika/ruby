@@ -1,0 +1,2 @@
+process.c の rb_execarg_init() という関数は以前 io.c から使われてたみたいですが
+もう未使用になっているので static 関数に戻しています。
