@@ -1,0 +1,3 @@
+rubygems の Gem::RemoteFetcher で OpenSSL 1.1.1 を使っている時に fetch_https で
+OpenSSL::SSL::SSLError が発生することがあるので捕捉して FetchError などの例外を
+投げ直しているところの rescue 節の条件に追加いています。
