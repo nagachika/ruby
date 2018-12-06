@@ -1,0 +1,2 @@
+r66177 の rubyspec の Dir.home のテストの getent のコマンドライン引数に ~ が混
+じってたので削除。
