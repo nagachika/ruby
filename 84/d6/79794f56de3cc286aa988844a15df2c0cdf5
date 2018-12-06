@@ -1,0 +1,3 @@
+絵文字の grapheme cluster 分割のテストで codepoint 0x1F3FB から 0x1F3FF のもの
+は肌の色を指定するもの? (skin tones)のため前の文字に結合する性質がある? みたい
+でテストから除外しています。
