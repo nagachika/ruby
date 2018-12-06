@@ -1,0 +1,2 @@
+r66181 を revert しています。今回も VM_CHECK_MODE が 2以上の時の VM_ASSERT() に
+ひっかかるようです。 [ruby-dev:50638] [Bug #15114]
