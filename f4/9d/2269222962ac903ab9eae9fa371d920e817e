@@ -1,0 +1,2 @@
+AppVeyor で除外するテストに Array のテスト test_unshift_over_ary_max テストメソ
+ッドのものを追加しています。メモリを多く使うのでつらいらしい。
