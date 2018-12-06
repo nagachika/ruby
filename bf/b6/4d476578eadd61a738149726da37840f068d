@@ -1,0 +1,3 @@
+同じく bigdecimal の extconf.rb で生成する Makefile に依存関係を追加してたのを
+普通に depend ファイルに記述するようにしています。そのための gemspec ファイルの
+ファイル名を変数定義として Makefile に出力するようにしています。
