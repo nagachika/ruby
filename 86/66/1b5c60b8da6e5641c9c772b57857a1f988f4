@@ -1,0 +1,2 @@
+r66124 の bigdecimal の更新で extconf.rb で生成する Makefile で不要な ls/dir が
+実行されるようになってたので削除するようにしています。
