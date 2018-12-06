@@ -1,0 +1,2 @@
+r66160 の続き。 rubyspec の File.expand_path のテストでホームディレクトリの取得
+に echo を使ってたのを Dir.home を参照するようにしています。
