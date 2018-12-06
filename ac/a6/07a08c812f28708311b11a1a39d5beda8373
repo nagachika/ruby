@@ -1,0 +1,2 @@
+mjit.c で const char ** な cc_common_args という変数を memcpy(3) や free(3) の
+const ではない引数に渡していて警告が出ていたのでキャストするようにしています。
