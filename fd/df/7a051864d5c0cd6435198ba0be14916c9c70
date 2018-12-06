@@ -1,0 +1,2 @@
+tool/update-deps で coroutine/ サブディレクトリも検査するようにして make
+update-deps で common.mk の依存関係を更新しています。
