@@ -1,0 +1,4 @@
+Unicode の grapheme cluster や正規表現の \X でのマッチのテストで COMBINING
+DIAERESIS という codepoint を使ってたところを一部 COMBINING DIAERESIS BELOW に
+変更しています。ウムラウトのようなアクセント記号の一種みたいです。出力をみやす
+くするためとのこと。
