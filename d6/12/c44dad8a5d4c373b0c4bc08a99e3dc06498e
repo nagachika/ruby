@@ -1,0 +1,3 @@
+AIX でも configure で __builtin_setjmp() を利用しないようにして AIX で MJIT を
+サポートするようにしています。 AIX では共有ライブラリをまたいで longjmp できな
+い? またコンパイルのため liker option を調整しています。
