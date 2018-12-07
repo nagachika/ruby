@@ -1,0 +1,5 @@
+標準添付ライブラリ monitor の r65822 での mon_initialize の二重初期化の対策は
+revert されましたがリトライ。インスタンス変数に object_id を格納しておいて、同
+じ object_id のもので二重に初期化された時だけ例外にするようにしています。
+initialize_copy の時は MonitorMixin のオブジェクト自体は別のものだから確かにこ
+れで回避できますね。 [ruby-core:88504] [Feature #15000]
