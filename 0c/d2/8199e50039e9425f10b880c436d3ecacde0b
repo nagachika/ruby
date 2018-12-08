@@ -1,0 +1,5 @@
+RubyVM.resolve_feature_path というメソッドを追加しています。引数を require した
+場合に実際にロードされるのはどのファイルかという解決後のパスとファイルの種類を
+返すというメソッドです。なにに使うんだろう。static analysis というけど実行時に
+ならないと $LOAD_PATH がわからないような気も。 [ruby-core:89431] [Feature #
+15230]
