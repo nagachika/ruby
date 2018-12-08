@@ -1,0 +1,1 @@
+string.c の rb_str_sum() で未使用の変数 vbits が残っていたのを削除しています。
