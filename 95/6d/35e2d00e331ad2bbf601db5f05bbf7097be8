@@ -1,0 +1,5 @@
+r66200 からの rb_ary_ptr_use_start() の prototype 宣言追加の再修正。 internal.h
+ではなく include/ruby/ruby.h に移動しています。拡張ライブラリ socket から使って
+いるからですね。と思ったけど rubysocket.h から #include していますね。あれ
+internal.h って開発用にインストールされないよなと思ったけど socket など
+internal.h に依存しているものは gem になってないですから特別ですね。
