@@ -1,0 +1,2 @@
+と、思ったら r66219 が revert されて libexec/bundle_ruby 復活しています。なんで
+だろ。 [ruby-dev:50663] [Bug #15291]
