@@ -1,0 +1,2 @@
+io.c の io_fflush() の rb_io_check_closed() のチェックが2度も呼ばれてたので削っ
+ています。
