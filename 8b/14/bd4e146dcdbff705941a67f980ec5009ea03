@@ -1,0 +1,2 @@
+r66200 の ICC 向けの prototype 宣言の r66241 で include/ruby/ruby.h に移動した
+のは消して internal.h の export 部分に移動しています。
