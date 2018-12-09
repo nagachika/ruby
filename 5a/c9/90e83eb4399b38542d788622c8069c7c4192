@@ -1,0 +1,6 @@
+TracePoint に script_compiled というイベントフックの種類を追加しています。その
+名の通り require や eval でスクリプトが compile されて ISeq が作られた後に呼ば
+れるようです。どんなふうに使うんだろう。 TracePoint#
+compiled_instruction_sequence メソッドも追加されて、このイベントの時に作られた
+ISeq オブジェクトも取れるようになっています。 [ruby-core:89742] [Feature #
+15287]
