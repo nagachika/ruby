@@ -1,0 +1,4 @@
+r65027 あたりの win32ole のテストと同様に Microsoft Internet Controls という
+COM(?) を使っていたのを Microsoft Scripting Runtime というのを使うようにしてい
+ます。コミットコメントをみると Microsoft Intenrt Controls というのはつまり IE
+の一部みたいですね。
