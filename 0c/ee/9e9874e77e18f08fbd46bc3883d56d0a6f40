@@ -1,0 +1,2 @@
+r66200 から続いてた ICC 向けの prototype 宣言追加ですが rb_ary_ptr_use_end() も
+必要だったので追加しています。
