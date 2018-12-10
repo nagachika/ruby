@@ -1,0 +1,3 @@
+mjit.c の init_header_filename() で precompiled header のファイルパスエラー時の
+メモリ解放漏れがあったのを修正しています。なんですが get_uniq_filename() って
+xmalloc() 使ってて 0 を返すことがなさそう。
