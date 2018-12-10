@@ -1,0 +1,2 @@
+rubyspec の win32ole のテストでも Internet Explorer が利用できない環境のために
+かわりに System Monitor Control を利用するようにしています。
