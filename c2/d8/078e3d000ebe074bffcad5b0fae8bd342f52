@@ -1,0 +1,2 @@
+enc/unicode/10.0.0 に残っていた Unicode 10.0.0 向けのヘッダファイルを削除してい
+ます。 [ruby-core:87335] [Feature #14802]
