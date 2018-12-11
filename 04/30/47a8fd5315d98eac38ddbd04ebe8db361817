@@ -1,0 +1,2 @@
+r66288 のリトライ。 ubf_timer_destroy() の処理で ubf_timer_disarm() が漏れてた
+みたいですね。
