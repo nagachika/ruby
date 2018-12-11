@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#to_binary で不正なオブジェクトに対して VM_ASSERT()
+や rb_bug() で異常終了させていたのを、例外発生に留めるようにしています。
