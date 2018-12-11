@@ -1,0 +1,2 @@
+ubf_timer_destroy() で POSIX timer による実装の時に timer_delete() していないメ
+モリリークを修正。しかし後に revert されています。
