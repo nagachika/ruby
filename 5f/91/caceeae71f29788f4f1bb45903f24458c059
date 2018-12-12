@@ -1,0 +1,5 @@
+net/http などの net/xxx 系標準添付ライブラリが利用する net/protocol で定義して
+いる ReadTimeout と WriteTimeout という例外クラスで原因となった IO オブジェクト
+(主に socket)を initialize で渡せるようにして、例外メッセージにその IO オブジェ
+クトの inspect 結果を埋め込むようにしています。これは便利そう。
+[ruby-core:87440] [Feature #14832]
