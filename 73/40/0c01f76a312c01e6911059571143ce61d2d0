@@ -1,0 +1,3 @@
+拡張ライブラリ date の struct SimpleDateData および struct ComplexDateData のメ
+ンバーの順番を変更しています。packing のため? と思いきやコメントをみると先頭の
+あたりの並びを Simple と Complex で同一にするためみたいでした。
