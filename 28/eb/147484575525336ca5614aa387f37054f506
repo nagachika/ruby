@@ -1,0 +1,5 @@
+iseq_setup() を前半と後編に分割して前半を iseq_setup_insn() として、
+rb_iseq_compile_node() と rb_iseq_compile_ifunc() からも iseq_setup_insn() は呼
+ぶようにしています。たぶんこれはどっちかというと iseq_build_from_ary_body() か
+ら元の iseq_setup() が呼ばれてて、配列から load した ISeq に対して最適化が働い
+てしまうという不具合修正みたいです。
