@@ -1,0 +1,3 @@
+DTrace のテストで r66003 の TracePoint.enable へのキーワード引数追加で
+TracePoint.enable のメソッド定義が prelude.rb に移動したので miniruby で呼べな
+くなったので、直接 TracePoint.__enable を呼ぶように書き換えています。
