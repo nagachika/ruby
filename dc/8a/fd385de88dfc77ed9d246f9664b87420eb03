@@ -1,0 +1,4 @@
+complex.c の rb_dbl_complex_polar_pi() を rb_dbl_complex_new_polar_pi() と改名
+しています。新しいインスタンスを返すということをはっきりさせるため。
+rb_complex_polar() も wrapper として残していますが DEPRECATED_BY() マクロを使っ
+て警告が出るようにしています。
