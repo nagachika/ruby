@@ -1,0 +1,3 @@
+Complex オブジェクトのインスタンスメソッドに相当する各種関数を公開 API としてい
+ます。 rb_complex_real()、rb_complex_imag()、rb_complex_plus()、rb_complex_mul
+() などなど。 [ruby-core:88827] [Feature #15066]
