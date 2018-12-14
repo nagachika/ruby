@@ -1,0 +1,2 @@
+bootstraptest で使う子プロセスを起動する assert_finish でタイムアウト時間を
+MJIT 有効時に 3倍にするようにしています。
