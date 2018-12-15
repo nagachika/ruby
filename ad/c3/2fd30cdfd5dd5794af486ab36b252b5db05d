@@ -1,0 +1,6 @@
+tool/rbinstall.rb で defailt gem のインストールに $script_installer っていうオ
+ブジェクト(Class.new で動的に作ったクラスのインスタンスを作っていれている。良い
+子は真似をしないようにしよう)の install メソッドを使っていたのをトップレベルに
+定義されている install メソッドを呼ぶようにしています。 $script_installer のほ
+うは shebang と本体に分離してから Windows 上で stub つきのファイルにしたりして
+いるのをやめているようです。gem の作法では不要ということかな。
