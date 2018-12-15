@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence の binary format からのロードで SEGV することがある
+不具合修正。 r62851 のoperand の GC mark のための配列を消して直接 mark するよう
+にした時に iseq_size を +1 するのを消し忘れていて余計な領域にアクセスしていたみ
+たいです。 [ruby-core:90456] [Bug #15406]
