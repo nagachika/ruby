@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile の Tempfile::Remover という内部クラスを rdoc でドキ
+ュメント化しないように :nodoc: タグをつけています。
