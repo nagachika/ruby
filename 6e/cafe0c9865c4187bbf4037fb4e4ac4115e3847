@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http の openssl の autoload の設定を module Net の中に入
+れてしまってたので Net::OpenSSL という定数を対象にしてしまっていて autoload が
+トップレベルの OpenSSL の参照で発火しないようになっていたので、module 文の外に
+出しています。おお、これ前からなので backport がいりそうですね。
