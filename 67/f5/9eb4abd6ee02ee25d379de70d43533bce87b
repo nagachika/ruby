@@ -1,0 +1,3 @@
+r66163 の rubygems の更新で Gems::RemoteFetcher の例外 rescue 時に openssl が未
+ロードの場合を考慮して OpenSSL::SSL::SSLError の参照を defined? でチェックして
+から行うようにしています。
