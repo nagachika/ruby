@@ -1,0 +1,3 @@
+rubyspec の win32ole のテストでさらに Internet Explorer のかわりに System
+Monitor Control を使うように変更しています。これもしかして rubyspec のマージの
+時に巻き戻ってるのかな。
