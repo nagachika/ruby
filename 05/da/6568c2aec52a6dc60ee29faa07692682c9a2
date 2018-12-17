@@ -1,0 +1,3 @@
+test/lib/test/unit.rb の並列テストで子プロセスに MAKEFLAGS 環境変数を渡さないよ
+うにしています。 r64399 の影響で jobserver が競合してデッドロックすることがある
+そうです。
