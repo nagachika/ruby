@@ -1,0 +1,3 @@
+OpenBSD 上の make が {$(VPATH)} という記述をうまく扱えなかったみたいで、
+node_name.inc の依存関係とルールの記述を $(srcdir) を利用するように書き直してい
+ます。 [ruby-core:89151] [Bug #15154]
