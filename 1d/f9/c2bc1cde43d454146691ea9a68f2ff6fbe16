@@ -1,0 +1,7 @@
+VALUE から構造体 rb_mutex_t のポインタを取り出す mutex_ptr() で fork した時に子
+プロセスで既に対応する thread が存在しない Mutex の時に再初期化して待ちキューを
+リセットするように r66230 でしたのですが、mutex->next_mutex と mutex->th を 0ク
+リアするのはやめています。 Mutex を unlock 状態にしてしまうと子プロセスで
+unlock しようとした時にエラーになってしまうため。うーん、いいのかな。ロックかか
+りっぱなしになると今度は存在しない Thread への参照が残ると思うけど…。
+[ruby-core:90581] [Bug #15424] [ruby-core:90595] [Bug #15430]
