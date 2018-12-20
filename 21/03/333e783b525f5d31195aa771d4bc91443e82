@@ -1,0 +1,6 @@
+メソッド呼び出しで使われる vm_call_method_each_type() のメソッドの種類が ZSUPER
+(引数なし super 相当)だった時に Class として method entry の me->owner ではなく
+me->define_class の RCLASS_ORIGIN() を使うように修正しています。 include した
+Module のメソッドを private にした新しい Module を Module#extend で取り込んだ時
+にデバッグビルドで異常終了することがあったようです。このサンプルの場合 owner が
+M2 で defined_class が T_ICLASS(M2) だそうです。 [ruby-core:90589] [Bug #15427]
