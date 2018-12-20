@@ -1,0 +1,2 @@
+標準添付ライブラリ ipaddr に upstream から 1.2.2 がマージされています。 magic
+comment の frozen_string_literal が false から true に変更されています。
