@@ -1,0 +1,3 @@
+r66149 あたりの Refinements が Symbol#to_proc で作った Proc オブジェクトをブロ
+ック引数に渡した場合などに効かない不具合修正のリトライ。 [ruby-dev:50638] [Bug
+#15114] https://github.com/ruby/ruby/pull/2039
