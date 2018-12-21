@@ -1,0 +1,3 @@
+tool/downloader.rb に --unicode-beta というオプションを追加して、環境変数
+UNICODE_BETA で切り替えて(YES, NO を指定するらしい)なにかするようにしてますが、
+今のところ YES にした時の実装はされてません。
