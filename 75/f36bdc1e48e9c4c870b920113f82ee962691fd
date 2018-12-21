@@ -1,0 +1,2 @@
+r66442 の resolve_refined_method() のリファクタリングで警告除去のため変数に
+const 修飾子を追加。
