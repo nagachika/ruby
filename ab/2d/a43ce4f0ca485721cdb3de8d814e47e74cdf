@@ -1,0 +1,3 @@
+拡張ライブラリ coverage の Coverage.line_stub にて lines の初期化に TracePoint
+のイベントの行番号を元にしていましたが、全てのイベントを使っていたのを :line イ
+ベントのみ使うように修正しています。
