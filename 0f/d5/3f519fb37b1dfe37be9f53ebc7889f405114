@@ -1,0 +1,6 @@
+r66477 のコメントでも書いてましたが、rb_mutex_t::fork_gen に Mutex の保有者のプ
+ロセスを持っておくのは実は不要で、rb_mutex_abandon_locking_mutex() で th が保持
+している Mutex のリスト全てをクリアしてたのがまずくて、待ちキューから外すだけに
+修正して、rb_mutex_t::fork_gen メンバーは不要になったとして削除しています。これ
+で fork 時の rb_mutex_cleanup_keeping_mutexes() も削除しています。fork_gen はわ
+かりやすい仕組みだったけど、本当に大丈夫かなぁ。 [Bug #14578] [Bug #15383]
