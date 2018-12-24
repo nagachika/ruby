@@ -1,0 +1,3 @@
+r66488 の続き。 Process.getrlimit(:NPROC) が小さい時だけ起動する Thread 数を半
+分にしていましたが、常に 25個に抑えるようにしています。 RLIMIT_NPROC がないシス
+テムもあるから。
