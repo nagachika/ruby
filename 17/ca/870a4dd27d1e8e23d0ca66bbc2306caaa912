@@ -1,0 +1,2 @@
+benchmark/app_erb.yml から埋め込まれてる ruby スクリプト内の未使用の変数を削除
+しています。
