@@ -1,0 +1,8 @@
+fork した時の Mutex のオリジナルのプロセスを保持するための rb_mutex_t::fork_gen
+に rb_mutex_cleanup_keeping_mutexes() で Thread が保持してる Mutex の待ちキュー
+を解放する時にも VM の fork_gen をセットしておくようにしています。ここでリセッ
+トしないと親のプロセスの Thread が確保した Mutex として扱われて利用しているのに
+解放される恐れがあるからみたいです。と、書いてあるけど、なんかちょっと違う気が
+する。どうもこの後にも再修正があるみたいです。そもそも
+rb_mutex_cleanup_keeping_mutexes() という関数が消えてる。 [ruby-core:90312]
+[Bug #15383] [ruby-core:90595] [Bug #15430]
