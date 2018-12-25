@@ -1,0 +1,3 @@
+rb_iseq_free() で引数のポインタ iseq が NULL の時にチェックせずに参照していると
+ころがあったので NULL チェックを追加しています。Coverity Scan による検出とのこ
+と。
