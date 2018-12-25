@@ -1,0 +1,6 @@
+r66486 で .travis.yml で macOS でのテストに -v オプションをつけるようにしました
+が、これを消してかわりに make test-all を travis-wait というコマンド? 経由で起
+動するようにしています。 travis_wait ってなにかなーと調べてみると、Travis-CI は
+標準出力などに出力がないまましばらく止まってるとハングアップとみなして? 止めら
+れてしまうようなので、その待ち時間を伸ばすために指定するものみたいです。30分に
+指定ってことかな。 https://docs.travis-ci.com/user/common-build-problems/
