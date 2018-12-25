@@ -1,0 +1,4 @@
+r64794 で Array#to_h や ENV.to_h などに加えて Struct で作ったクラスのインスタン
+スメソッド to_h がブロックを受け付けるようになったので、標準添付ライブラリ
+ostruct の OpenStruct#to_h もブロックを受け付けて評価結果を値として持つ Hash を
+返すようにしています。 [ruby-dev:50725] [Feature #15451]
