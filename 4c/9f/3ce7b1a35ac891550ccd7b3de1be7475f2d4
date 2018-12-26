@@ -1,0 +1,9 @@
+rb_ary_splice() で配列オブジェクトの部分配列を書きかえる時に RARRAY_PTR() で取
+得したポインタを MEMMOVE() に渡していましたが、RB_OBJ_WB_UNPROTECT_FOR() で
+write barrier の追加と RARRAY_PTR_USE_TRANSIENT() を利用するようにしています。
+RARRAY_PTR() は GC を起動する可能性があるため、T_NONE が格納されているバッファ
+が ruby レベルで見えてしまう可能性があったとのこと。えっ RARRAY_PTR() で GC 走
+るっけ? と疑問でしたが Transient Heap が入った時に transient な配列だったら
+rb_ary_detransient() が呼ばれてヒープに確保しなおしてからポインタが取り出される
+ため、そのタイミングで GC が走る可能性が増えてたのでいした。うーん、なるほどー
+。
