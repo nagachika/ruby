@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の 1.4.0 をマージ。rdoc に BigDecimal() の exception:
+キーワード引数の記述追加と不要になってた初期化関数(?)の削除など。
