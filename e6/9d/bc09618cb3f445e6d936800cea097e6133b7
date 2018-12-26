@@ -1,0 +1,2 @@
+Kernel#raise, Kernel#fail の rdoc 用コメントに exception: キーワード引数につい
+て追記しています。
