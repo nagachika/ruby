@@ -1,0 +1,4 @@
+r60964 で deprecated にマークされてさらに r61296 で RUBY_FUNC_EXPORTED が追加さ
+れてた rb_frame_method_id_and_class() のこれらの変更を revert しています。rice
+っていう gem でこの API を使ってて、代替がまだ決まってないからとのこと。
+[ruby-core:89782] [Bug #15300]
