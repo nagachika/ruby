@@ -1,0 +1,3 @@
+rubyspec で Socket#bind のテストを root ユーザーで実行すると Errno::EACCES の発
+生を期待していたところで発生しなくて失敗するので、as_user というヘルパーメソッ
+ドを使って root では実行しないように? しています。
