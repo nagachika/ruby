@@ -1,0 +1,2 @@
+恒例の matz のコミットです。version.h の RUBY_VERSION と RUBY_API_VERSION_MINOR
+が更新され 2.7.0 の開発が始まりました。
