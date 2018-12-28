@@ -1,0 +1,2 @@
+r66534 で追加された doc/extension.ja.rdoc の rb_gc_register_mark_object() の引
+数の型を修正。ja のほうだけ間違ってた。
