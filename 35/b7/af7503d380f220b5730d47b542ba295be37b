@@ -1,0 +1,5 @@
+拡張ライブラリ bigdecimal を 1.4.2 に更新しています。 extconf.rb で "rake
+-rdevkit compile" ってコマンドでビルドされる時には build_dir を RUBY_VERSION ご
+との場所にするようにしています。 devkit というのはどうも Windows 環境向けのコン
+パイル環境みたいなもののようです(適当に検索しただけなので勘違いかも)。 https://
+github.com/ruby/bigdecimal/compare/v1.4.1..v1.4.2
