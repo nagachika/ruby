@@ -1,0 +1,5 @@
+String#bytes, #lines, #chars, #codepoints, #grapheme_clusters などのメソッドで
+ブロックが渡された時の警告を削除しています。おや、なんでだろう。どうやら https:
+//bugs.ruby-lang.org/issues/6670#change-75907 ここで開発者会議で deprecated 化
+を取り下げる決断がされたみたいですね。この議論はよく終えてませんが(チケットの元
+々の要望とはちょっと違う話っぽい?)。 [ruby-core:90728] [Feature #6670]
