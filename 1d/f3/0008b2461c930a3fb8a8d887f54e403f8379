@@ -1,0 +1,3 @@
+Kerne#system や IO.popenのテストで uid: オプションの機能のテスト時に
+Errno::EACCES のエラーも捕捉して無視するようにしています。root ユーザーで実行し
+た時に EACCES が発生し得るみたいです。
