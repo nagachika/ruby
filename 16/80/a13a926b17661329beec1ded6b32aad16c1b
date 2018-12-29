@@ -1,0 +1,5 @@
+標準添付ライブラリ net/xxx 群で使う net/protocol の Net::Protocol::BufferedIO#
+write でバッファから一部切り出す時に String#[] を使ってましたが、これだとエンコ
+ーディングが ASCII でない場合マルチバイト文字は文字単位で切り出されるので、ここ
+ではバイト列としてサイズを扱いたいので String#byteslice を使うようにしています
+。 https://github.com/ruby/ruby/pull/2058
