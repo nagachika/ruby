@@ -1,0 +1,2 @@
+rubyspec の Process.clock_gettime のテストを Windows で実行除外してましたが
+Solaris でも動かないようなので追加しています。
