@@ -1,0 +1,2 @@
+Kernel#system の rdoc 用コメントに exception: キーワード引数について追記してい
+ます。 [ruby-core:90795] [Bug #15480]
