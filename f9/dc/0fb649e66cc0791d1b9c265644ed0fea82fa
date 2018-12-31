@@ -1,0 +1,2 @@
+r66613 でタイムアウトを伸ばした RubyVM::InstructionSequence の to_a/load のテス
+トですが 60秒でも足りなかったみたいで 120秒まで伸ばしています。
