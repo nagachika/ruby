@@ -1,0 +1,3 @@
+r66633 と r66635 の続きで、rubyspec の Process.clock_gettime のテストを Linux
+で再度有効にしています。どの CLOCK_XXX でこけるのかを検出しようという意図だそう
+です。
