@@ -1,0 +1,5 @@
+Fiber#raise が実装されています! Fiber って明示的に起こさないと動かないので、ど
+ういう仕様になるのか自明ではないと思いますが、Fiber#resume して即座に例外を発生
+させる(つまり raise するとその Fiber に制御を移す)という挙動になるようです。な
+るほど。…なんか rescue や ensure で Fiber.yield してると殺すつもりの Fiber が残
+って、みたいなのがありそうですね。 [ruby-core:65537] [Feature #10344]
