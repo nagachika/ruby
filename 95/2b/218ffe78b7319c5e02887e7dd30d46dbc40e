@@ -1,0 +1,2 @@
+rubyspec の Process.spawn の fd の CLOEXEC が効いてるのを確認するテストで
+windows では動かないので platform_is_not で実行除外するようにしています。
