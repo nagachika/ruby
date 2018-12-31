@@ -1,0 +1,3 @@
+r66633 で Linux でも実行除外した rubyspec の Process.clock_gettime のテストで 1
+つの it ブロック内で Process::CLOCK_XXX を試してたのをそれぞれ独立した it ブロ
+ックに分割するようにしています。
