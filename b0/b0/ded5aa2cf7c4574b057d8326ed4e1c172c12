@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick のテストで CI のエラー対策のため WEBrick
+::Utils::TimeoutHandler のテストのタイムアウトを緩めています。
