@@ -1,0 +1,2 @@
+r66606 と同様に AppVeyor 上の mswin でのみ実行 skip してた MJIT のテストを
+RubyCI でも除外するため mswin 環境では常に skip するようにしています。
