@@ -1,0 +1,2 @@
+rubyspec の socket の Socket#accept_nonblock のテストで謎の sleep をしていたと
+ころを IO.select を使うように修正しています。
