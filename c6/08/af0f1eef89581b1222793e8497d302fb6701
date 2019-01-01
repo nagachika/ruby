@@ -1,0 +1,3 @@
+r66641 の続きで r66624 で Solaris でも Process.clock_gettime のテスト除外してい
+ましたが、こちらも r66635 で CLOCK_XXX の種類ごとに it を分けるようにしたので一
+旦有効に戻してどの CLOCK_XXX が失敗するのか確認しようとしています。
