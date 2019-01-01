@@ -1,0 +1,5 @@
+Transient Heap と一緒に導入された要素数の小さい Hash を内部的に配列で実装する
+array hash 用の構造体 ar_table や ar_table_entry などの宣言を internal.h から
+hash.c 内に移動して他のソースファイルから不可視にしています。このため構造体サイ
+ズを得る関数 rb_hash_ar_table_size() を追加して gc.c から sizeof() のかわりにこ
+れを利用するよういんしています。
