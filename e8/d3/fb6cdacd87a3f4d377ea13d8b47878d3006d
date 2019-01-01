@@ -1,0 +1,4 @@
+Refinements のテストで子プロセスを起動するもののタイムアウト値を伸ばしています
+。また EnvUtil.apply_timeout_scale で子プロセスを起動する assertion のタイムア
+ウトに一律倍率をかけるやつの MJIT が有効じゃない時のデフォルトも長くしています
+。
