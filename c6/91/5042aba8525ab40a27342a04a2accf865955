@@ -1,0 +1,4 @@
+RubyVM.resolve_feature_path の rdoc 用コメントを関数本体のある load.c から vm.c
+の prototype 宣言の前に移動しています。メソッドに対する rdoc のコメントは
+rb_define_method() のあるソースファイルにないといけないそうです。
+[ruby-core:90797] [Bug #15482]
