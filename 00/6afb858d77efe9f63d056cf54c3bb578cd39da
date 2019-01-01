@@ -1,0 +1,2 @@
+rubyspec の socket の accept_nonblock のテストを Solaris も実行除外するようにし
+ています。
