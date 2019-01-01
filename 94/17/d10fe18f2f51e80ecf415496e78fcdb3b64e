@@ -1,0 +1,2 @@
+r66599 の再修正で win32/Makefile.sub で変数 RUBY_PROGRAM_VERSION の定義を追加し
+ています。
