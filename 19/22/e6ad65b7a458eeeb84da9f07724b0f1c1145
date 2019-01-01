@@ -1,0 +1,4 @@
+MJIT の各 arch 用の minimize 化ヘッダ生成時に tool/transform_mjit_header.rb の
+引数に渡すコマンドに $CFLAGS も追加するようにしています。 __builtin_xxx みたい
+なチェックを本体と揃えるために必要とのこと。 [ruby-core:88292] [Bug #14964]
+https://github.com/ruby/ruby/pull/2059
