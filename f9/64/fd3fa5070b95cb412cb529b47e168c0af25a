@@ -1,0 +1,3 @@
+Refinements とブロック引数に & で symbol を渡す記法の組み合わせで、method entry
+がみつからない時に継承ツリーを辿るようにしています。 [ruby-dev:50741] [Bug #
+15489]
