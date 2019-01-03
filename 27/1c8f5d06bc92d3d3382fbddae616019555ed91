@@ -1,0 +1,3 @@
+IO#wait_readable への書き込みで pipe の対向の口から書き込んでから読み出し側で
+wait_readable する前の sleep を IO.select に変更しています。なるほど書いてもす
+ぐ読める状態になってるとは限らないんだなぁ。
