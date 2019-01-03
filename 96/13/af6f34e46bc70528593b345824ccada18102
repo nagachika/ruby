@@ -1,0 +1,5 @@
+compile.c の iseq_set_sequence() でコンパイルしたリストから命令列にまとめる前の
+coverage 用のテーブルの初期化部分で events 変数に type=INSN_ELEMENT のノードの
+insn_info.events にセットされたイベントのフラグも参照するように修正しています。
+具体的にはやはり &. の演算子の coverage で問題があったみたいです。
+[ruby-core:90764] [Bug #15476]
