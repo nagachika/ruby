@@ -1,0 +1,3 @@
+Kernel#Integer(), #Float(), #Rational(), #Complex() などのメソッドの rdoc 用コ
+メントの call-seq に戻り値が nil になり得ることを追記しています。 exception:
+true と書いてあって nil も書いてあるのはちょっと違和感がありますね。
