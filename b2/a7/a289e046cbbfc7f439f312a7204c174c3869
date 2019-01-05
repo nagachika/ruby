@@ -1,0 +1,4 @@
+random.c に OpenBSD の時に #include を追加しています。チケットをみると r64625
+で Random の実装に arc4random_buf() を利用できるかどうか各 OS のバージョンチェ
+ックするようになりましたが、OpenBSD ではこのチェックのためにヘッダが必要だった
+みたいです。 [ruby-core:90850] [Bug #15494]
