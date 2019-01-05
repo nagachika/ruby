@@ -1,0 +1,3 @@
+r66690 および r66692 の続きで .travis.yml で make test-all に -w オプションを渡
+すのに env: で環境変数 RUBYOPT にセットさせるのはうまく働かなかったそうなので、
+make test-all のコマンドラインに直接 RUBYOPT=-w を追加するようにしています。
