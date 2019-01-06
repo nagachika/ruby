@@ -1,0 +1,3 @@
+Hash の要素数が少ない時の array による実装に使う構造体 ar_table_entry のメンバ
+ー hash の型を VALUE から st_hash_t に変更し、また st_hash_t を st_data_t とし
+て typedef 定義していたのも st_index_t に修正しています。
