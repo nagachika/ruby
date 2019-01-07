@@ -1,0 +1,7 @@
+2.6 以降の timer thread の廃止(環境によって)に伴なって single thread で動いてい
+る場合に拡張ライブラリから rb_thread_call_without_gvl() を呼んで blocking 処理
+している時に割り込み時に ubf 関数が呼ばれないという不具合があったのを修正してい
+ます。このために single thread の時にはそのために sleep するだけの pthread を起
+動するそうで。うーん。なんで ubf のために thread が必要なのかもよくわかってませ
+んが、timer thread 削除には無理があったような気も。 [ruby-core:90865] [Bug #
+15499]
