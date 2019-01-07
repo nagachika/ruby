@@ -1,0 +1,4 @@
+r66598 で restrict 修飾子を有効にしたのに追随して Visual Studio 2013 でも
+__restrict というキーワードを利用するように #define の条件分岐を修正しています
+。
+https://bugs.ruby-lang.org/issues/15347#note-7
