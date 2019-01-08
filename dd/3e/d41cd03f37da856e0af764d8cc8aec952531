@@ -1,0 +1,3 @@
+RubyVM::AbstractSyntaxTree.parse で引数が String でない時に変換失敗したらそのま
+ま処理続けてたのでStringValue() マクロを使って TypeError 発生させるようにしてい
+ます。 [ruby-core:90904] [Bug #15511]
