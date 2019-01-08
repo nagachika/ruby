@@ -1,0 +1,4 @@
+hash.c の array 実装用のマクロ EQUAL()、PTR_EQUAL()、SET_KEY()、SET_HASH()、
+SET_RECORD() などは削除して展開したり inline 関数化したりしています。と思ったけ
+ど EQUAL() と PTR_EQUAL() は同じものが移動しただけで残ってますね。これ inline
+関数を呼ぶように展開結果を変えるつもりで忘れてたんじゃないかなぁ。
