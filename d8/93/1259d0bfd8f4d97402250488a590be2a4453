@@ -1,0 +1,3 @@
+internal.h の C++ の bool, true, false などの型と定数が未定義の時の代替定義を
+missing/stdbool.h に移動してまとめています。古い VisualStudio および Oracle
+Solaris Studio 対応だそうです。
