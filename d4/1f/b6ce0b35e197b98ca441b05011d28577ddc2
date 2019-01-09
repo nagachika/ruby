@@ -1,0 +1,2 @@
+r66733 の変更で benchmark/range_last.yml の prelude セクションが不要になってた
+ので削除しています。
