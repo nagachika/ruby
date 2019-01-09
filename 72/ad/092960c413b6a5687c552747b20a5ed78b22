@@ -1,0 +1,2 @@
+benchmark/time_strptime.yml という Time.strptime のベンチマークを追加しています
+。
