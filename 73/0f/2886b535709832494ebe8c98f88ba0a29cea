@@ -1,0 +1,2 @@
+r65802 で IO#ungetbyte が 256以上の数値を弾くようにしたのに合わせて StringIO#
+ungetbyte も同じ挙動するようにしています。 [Bug #14359]
