@@ -1,0 +1,3 @@
+2.6 から追加した Array, Hash リテラル用の VM 命令 duparray, duphash の実装に
+DTrace のオブジェクト生成のフックを追加しています。 [ruby-core:90418] [Bug #
+15399]
