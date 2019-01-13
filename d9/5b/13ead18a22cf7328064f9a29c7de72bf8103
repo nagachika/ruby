@@ -1,0 +1,4 @@
+doc/syntax/refinements.rdoc に send や respond_to? には Refinements はきかない
+と書かれてましたが、これはもうきくようになってしまったので消して、Kernel#method
+や Object#methods には効かないと変更されていす。
+ふーむ、つまり次のターゲットは……?
