@@ -1,0 +1,3 @@
+addr2line.c で -Wpedantic というオプションを無視させるような #pragma が使われて
+ましたが .travis.yml で -ansi を -std=c99 に変更して不要になったということで消
+しています。
