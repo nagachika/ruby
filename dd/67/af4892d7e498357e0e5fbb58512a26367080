@@ -1,0 +1,2 @@
+逆に addr2line.c に -Wgnu-empty-initializer を無視させる pragma を追加していま
+す。また構造体のコメントを /* */ から // による行コメントに置き換えています。
