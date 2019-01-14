@@ -1,0 +1,3 @@
+rubyspec の spec/mspec/lib/mspec/helpers/ruby_exe.rb に RbConfig::CONFIG の
+"exeext" というキーの参照があったけど、こんなキーは過去にもなかったからとのこと
+で消しています。
