@@ -1,0 +1,3 @@
+Kernel#Complex() および Kernel#Rational() で exception: false を指定しても引数
+に nil を渡すと TypeError が発生していたので nil を返すように修正しています。
+[ruby-core:91021] [Bug #15525]
