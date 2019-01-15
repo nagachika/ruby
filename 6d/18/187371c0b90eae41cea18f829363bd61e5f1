@@ -1,0 +1,2 @@
+標準添付ライブラリ irb の Binding#irb の rdoc 用コメントのマークアップを修正。
+https://github.com/ruby/ruby/pull/2067
