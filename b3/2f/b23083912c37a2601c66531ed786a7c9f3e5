@@ -1,0 +1,3 @@
+r66812 の変更によって AIX で MJIT で -nodefaultlibs および -nostdlib というコン
+パイラオプションを渡しても大丈夫になってるはずなので preprocessor の分岐で AIX
+では消してたのを消さないようにしています。
