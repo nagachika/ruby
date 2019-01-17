@@ -1,0 +1,2 @@
+AIX での MJIT のコンパイラオプションに -nodefaultlibs -nostdlib を渡してみる
+r66816 の変更を revert しています。うまくテストが通らなかったようです。
