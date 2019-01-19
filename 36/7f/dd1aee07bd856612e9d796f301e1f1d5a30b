@@ -1,0 +1,3 @@
+hash.c の Hash の要素数が少ない時の array 実装の時に使う
+RHASH_AR_TABLE_SIZE_DEC() を関数マクロから inline 関数に変更し、size が 0 にな
+る時は bound も 0 にリセットするようにしています。
