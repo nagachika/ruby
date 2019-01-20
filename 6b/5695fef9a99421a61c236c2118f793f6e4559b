@@ -1,0 +1,3 @@
+tool/make-snapshot で tar パッケージを作る時に Gem::Package::TarWriter でファイ
+ルエントリの mode を書き込む時に元のファイルをそのままコピーするのではなく 644
+または 755 を使うようにしています。
