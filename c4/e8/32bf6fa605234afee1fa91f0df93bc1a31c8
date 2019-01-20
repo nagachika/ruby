@@ -1,0 +1,3 @@
+r66863 で HAVE_BASERUBY だけでなく build_os が msys かどうかもみてましたが、こ
+れを mingw と修正しています。 mingw の場合は BASERUBY は使えないのか。なんでだ
+ろ…。
