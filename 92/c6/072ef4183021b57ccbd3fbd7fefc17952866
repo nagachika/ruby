@@ -1,0 +1,2 @@
+tool/rbinstall.rb に -x/--exclude オプションを追加して make install-nodoc でド
+キュメントのインストールをスキップできるようにしています。
