@@ -1,0 +1,2 @@
+MJIT を OpenBSD 上の gcc でも動くように -nodefaultlibs -nostdlib のオプションは
+削るようにしています。 [ruby-core:91172] [Bug #15548]
