@@ -1,0 +1,2 @@
+IO#read_nonblock に exception: false を渡した時のテストを MJIT 有効時に skip す
+るようにしています。 CI でランダムに失敗するそうです。
