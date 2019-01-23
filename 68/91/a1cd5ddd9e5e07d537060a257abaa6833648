@@ -1,0 +1,2 @@
+String#dump の rdoc 用コメントに eval すると元の String に戻るはず、ということ
+を明記しています。
