@@ -1,0 +1,2 @@
+r66893 で benchmark/app_aobench.rb に追加した srand(0) の呼び出しをファイル先頭
+のほうに移動しています。
