@@ -1,0 +1,2 @@
+r66836 で configure.ac で warnflags を置換する sed の引数が間違ってたのを修正し
+ています。
