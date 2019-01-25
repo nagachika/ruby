@@ -1,0 +1,3 @@
+parse.y の set_yylval_str() および set_yylval_literal() マクロで引数を
+add_mark_object() に渡す処理も含めるようにして、呼び元で毎回 add_mark_object()
+を呼んでたのを共通化するリファクタリング。
