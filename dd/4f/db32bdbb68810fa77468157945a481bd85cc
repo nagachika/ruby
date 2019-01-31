@@ -1,0 +1,2 @@
+r66935 のテストで obj.:meth の演算子で取得した Method オブジェクトも
+Refinements が効くことを確認する assertion を追加しています。
