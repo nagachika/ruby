@@ -1,0 +1,3 @@
+Object#method や Module#instawnce_method でも Refinements の影響を考慮するよう
+にしています。うーむ、徐々に Refinements の影響が拡がっていく。 https://
+github.com/ruby/ruby/pull/2034
