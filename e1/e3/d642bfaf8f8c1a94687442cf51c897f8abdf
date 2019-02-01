@@ -1,0 +1,3 @@
+hash.c の key64_hash() に prime2 と一緒に引数を渡す処理を st_index_hash() とい
+うマクロに切り出し。 objid_hash() での呼び出しは rb_objid_hash() だったのにこれ
+も st_index_hash() に変更されてるけどこれはいいのかな?
