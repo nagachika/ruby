@@ -1,0 +1,2 @@
+hash.c の rb_dbl_long_hash() と rb_ident_hash() から double の値を整数にマッピ
+ングする処理を dbl_to_index() という関数に切り出すリファクタリング。
