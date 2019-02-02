@@ -1,0 +1,3 @@
+tool/ruby_vm/views/_insn_len_info.erb で rb_vm_insn_len_info という変数を
+extern してましたが参照しているところがないということで insn_len() の中の
+static 変数として移動して改名しています。
