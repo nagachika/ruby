@@ -1,0 +1,2 @@
+vm_trace.c に rdoc でドキュメント化するためにコメントアウトした状態で TracePint
+#enable の rb_define_method() の呼び出しを書いています。
