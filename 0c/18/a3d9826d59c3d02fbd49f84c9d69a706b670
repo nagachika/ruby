@@ -1,0 +1,2 @@
+rubyspec の Socket.udp_server_recv のテストでデバッグのために変数にわざと不正な
+値を入れておくようにしています。
