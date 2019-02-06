@@ -1,0 +1,2 @@
+r66999 の yield の位置のチェックで追加した check_yield_place() の引数に line を
+追加して警告に利用するようにしています。 [ruby-core:91333] [Feature #15575]
