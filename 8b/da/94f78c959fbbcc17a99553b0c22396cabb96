@@ -1,0 +1,4 @@
+sample/trick2013 に入っている TRICK 2013 のファイルに LocalJumpError を発生させ
+るためにトップレベルの yield を呼んでたのを 1.tap というのを呼び出すように変更
+しています。トップレベルの yield を禁止しようとしているのでそのために修正しても
+らったみたいです。 https://github.com/ruby/ruby/pull/2078
