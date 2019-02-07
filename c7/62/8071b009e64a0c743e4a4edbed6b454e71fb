@@ -1,0 +1,3 @@
+rubyspec の Socket.udp_server_recv のテストで謎の IO.select を darwin と
+freebsd でのみ行なってたのを常に行うようにしています。また r66997 で追加してた
+msg の謎の初期化も revert しています。
