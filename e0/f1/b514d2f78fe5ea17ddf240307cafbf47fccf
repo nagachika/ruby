@@ -1,0 +1,2 @@
+enum.c の enum_to_h_i() や enum_group_by() からコールバックを呼びつつ Hash を更
+新して返す処理を enum_hashify() という関数に切り出すリファクタリング。
