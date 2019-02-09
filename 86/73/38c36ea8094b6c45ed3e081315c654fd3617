@@ -1,0 +1,1 @@
+util.c から dtoa() の代替実装を missing/dtoa.c に切り出しています。
