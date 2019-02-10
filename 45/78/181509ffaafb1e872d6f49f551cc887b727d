@@ -1,0 +1,3 @@
+test/ruby/test_class.rb で class 文のなかで禁止されている文法のテストで
+assert_raise を使っていたのを、専用の assert_syntax_error を利用するように書き
+かえています。
