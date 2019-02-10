@@ -1,0 +1,3 @@
+r67025 の再修正。 tool/make-snapshot の生成する Makefile で必ず Unicode のデー
+タファイルをダウンロードさせるようにルールを変更しています。しばらく nightly
+snapshot が作成されてなかったみたいです。 [ruby-core:91456] [Bug #15593]
