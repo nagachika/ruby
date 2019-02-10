@@ -1,0 +1,3 @@
+appveyor.yml で zlib パッケージのダウンロードに appveyor DownloadFile コマンド
+を使っていたのを curl を利用するようにしています。 --retry オプションをつけて通
+信エラー時にリトライするようにしたかったようです。
