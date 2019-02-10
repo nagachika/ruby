@@ -1,0 +1,3 @@
+tool/make-snapshot で make prereq-package の実行時の環境変数に ALWAYS_UPDATE_
+UNICODE をセットして Unicode のデータファイルを更新させるようにしています。
+[ruby-core:91456] [Bug #15593]
