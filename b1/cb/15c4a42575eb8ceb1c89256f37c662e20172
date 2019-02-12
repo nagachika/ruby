@@ -1,0 +1,4 @@
+Process.clock_gettime 用の定数 Process::CLOCK_TAI を追加しています。これは
+Linux 3.10 で追加されたという CLOCK_TAI に対応するもので、man をみると CLOCK_
+UTC と類似だけど Internal Atomic Time を表すもので、うるう秒による調整を受けな
+いものだそうです。
