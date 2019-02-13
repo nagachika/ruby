@@ -1,0 +1,3 @@
+r66930 の続き。 IO.copy_stream の実装で sendfile(), copy_file_range() または
+fcopyfile() を利用する実装の時の変数およびラベルの宣言の preprocessor 分岐の条
+件が漏れてたのを修正しています。
