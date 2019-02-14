@@ -1,0 +1,2 @@
+tool/update-deps で enc/unicode/* の配下のヘッダファイルへの参照を $(UNICODE_
+HDR_DIR)/ を使って出力するように対応しています。
