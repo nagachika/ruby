@@ -1,0 +1,3 @@
+rubyspec の Array#pack で Float の NaN (Float::NAN) を pack した時の表現にもう
+ひとつ候補を追加しています。 Sun Sdutio C Compiler だと "\x7F\xFF\xFF\xFF" とい
+う結果になるらしい。
