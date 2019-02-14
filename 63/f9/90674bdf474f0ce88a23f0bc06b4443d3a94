@@ -1,0 +1,2 @@
+r67033 と同様に拡張ライブラリの depend ファイルで $(top_srcdir)/include/ruby.h
+を $(hdrdir)/ruby.h に書き換えています。
