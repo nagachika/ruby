@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.count_imemo_objects の実装で
+imemo_type_ids テーブルに格納している名前が enum imemo_type と一致しなくなって
+いたので追随させています。これは一致させ続けるの大変そう。
