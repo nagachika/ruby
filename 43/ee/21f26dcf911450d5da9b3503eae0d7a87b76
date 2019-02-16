@@ -1,0 +1,2 @@
+win32/Makefile.sub の ext/ や gems/ の clean 系のターゲットで削除時のエラーは無
+視するようにしています。
