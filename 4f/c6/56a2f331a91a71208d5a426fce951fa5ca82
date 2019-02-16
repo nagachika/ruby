@@ -1,0 +1,4 @@
+r67057 で common.mk の依存関係の記述で $(hdrdir)/ruby.h を使うようにした時に $
+(top_srcdir)/include/ruby.h のほうが消されてなかったので消しています。また enc/
+unicode.o から enc/unicode/10.0.0/ のヘッダへの依存関係も $(UNICODE_HDR_DIR)/
+を使ったものと重複していたので消しています。
