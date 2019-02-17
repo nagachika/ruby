@@ -1,0 +1,5 @@
+include/ruby/ruby.h などで struct RVALUE に埋め込めるサイズを表す
+RARRAY_EMBED_LEN_MAX や RSTRING_EMBED_LEN_MAX、ROBJECT_EMBED_LEN_MAX などの定数
+に各所で 3とマジックナンバーが書かれてたのを RVALUE_EMBED_LEN_MAX という定数を
+定義してこれを使うようにしています。 embed できるサイズは struct RXXX のレイア
+ウトにもよるので必ずしも固定ではないと思うけどまあだいたい同じですよね。
