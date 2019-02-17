@@ -1,0 +1,4 @@
+defs/gmake.mk で定義されている make commit のアクションで sub-make コマンドに渡
+す srcs_vpath 変数を $(srcdir) を継承せずに "" にするようにしています。なんかよ
+くわからないけど GNU make だとそもそも VPATH はいらないから? ということみたいで
+す。
