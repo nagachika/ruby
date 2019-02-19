@@ -1,0 +1,3 @@
+r67078 で追加した RVALUE::as と RVALUE::as::values のサイズが同一であることを確
+認する STATIC_ASSERT() をやっぱり削除しています。 armv7l-linu-eabinf と sparc
+-solaris2.11 でエラーになったとのこと。
