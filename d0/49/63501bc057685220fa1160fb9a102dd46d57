@@ -1,0 +1,2 @@
+bundler で利用する gem コマンドを環境変数 BUNDLE_GEM の指定があったらそれに差し
+替えるようにする対応が lib/bundler/gem_helper.rb で漏れてたのを修正しています。
