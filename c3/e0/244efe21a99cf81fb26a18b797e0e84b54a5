@@ -1,0 +1,3 @@
+r67100 でコメントアウトした File.birthtime のテストですが Linux でも動くように
+なったのに NotImplementedError が発生することを期待するテストをしていたので
+platform_is から :linux を外しています。
