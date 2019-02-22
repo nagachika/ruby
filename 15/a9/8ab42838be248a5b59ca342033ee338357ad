@@ -1,0 +1,4 @@
+r67093 のリトライで statx(2) がない時に __NR_statx を使って statx() の代替を定
+義するようにしています。 configure 時のチェック強化と rb_file_s_birthtime() の
+static を外して export して拡張ライブラリ pathname で birthtime がサポートされ
+てるかどうかの判定に使うようにしています。
