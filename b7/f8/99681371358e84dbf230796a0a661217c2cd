@@ -1,0 +1,4 @@
+rubyspec の Enumerator::Chain#rewind のテストで and_yield に引数を渡してました
+が実際のブロックがブロックパラメーターを受け取ってないので? arity 不一致になる
+ので引数をなしにしています。 2.6.1 でエラーになってたそうです。
+[ruby-core:91600] [Bug #15613]
