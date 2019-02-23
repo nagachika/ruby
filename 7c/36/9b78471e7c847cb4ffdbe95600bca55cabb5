@@ -1,0 +1,5 @@
+r67088 の Linux での statx(2) 利用のリファクタリング。 statx_without_gvl() の実
+装から一部を抜き出して no_gvl_statx() および io_blocking_statx() に切り出して
+(no_gvl_statx() は元からあった関数で返り値を VALUE から void* に変更している)、
+statx_without_gvl() を fstatx_without_gvl() という fd で指定するバージョンと分
+けて fd 指定とパス指定別の関数にしています。
