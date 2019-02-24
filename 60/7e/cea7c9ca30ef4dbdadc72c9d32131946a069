@@ -1,0 +1,5 @@
+File.birthtime の実装 rb_file_s_birthtime() を関数定義全体のブロックごと
+preprocessor の分岐してたのを、構造体名などをマクロで共通化して同一の関数定義に
+するようにしています。これみて気がついたのですがシステムが対応しているけど file
+system が未対応という場合もあるんですね。その場合は NotImplementedError ではな
+く Errno::ENOSYS になるみたいです。
