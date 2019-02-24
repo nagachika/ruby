@@ -1,0 +1,5 @@
+compile.c の compile_if(), compile_case(), compile_case2(), compile_loop() など
+で分岐条件を表す VALUE 型の変数の初期化を 0 でなく Qfalse にする変更や、
+iseq_compile_each0() からさらにメソッド呼び出しをコンパイルする compile_call()
+、"".freeze のような文字列リテラルの freeze をコンパイル時に処理する
+compile_call_precheck_freeze() を切り出すリファクタリング。
