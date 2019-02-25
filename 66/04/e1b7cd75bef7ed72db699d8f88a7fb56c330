@@ -1,0 +1,2 @@
+拡張ライブラリ json に upstream から 2.2.0 をマージしています。 Set に as_json
+や to_json メソッドを生やす変更があります。
