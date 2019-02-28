@@ -1,0 +1,2 @@
+.editorconfig に正規表現関係の reg*.[ch] のファイルや enc/ 配下のソースコードは
+Onigmo のスタイルに合わせて? indent_size を 2に設定しています。
