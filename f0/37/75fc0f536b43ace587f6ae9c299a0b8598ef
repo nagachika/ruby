@@ -1,0 +1,3 @@
+azure-pipelines.yml の Linux でのチェックアウトに fetchDepth: 1 というオプショ
+ンを追加しています。たぶん git の clone 時に履歴を取らないようにして軽量にする
+ためかな。
