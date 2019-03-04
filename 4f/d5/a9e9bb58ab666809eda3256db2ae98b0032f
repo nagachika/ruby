@@ -1,0 +1,3 @@
+azure-pipelines.yml の vs20xx (Windows かんきょう )のビルド時に vcpkg で
+readline もインストールして readline 拡張ライブラリもビルド対象にするようにして
+います。
