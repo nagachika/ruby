@@ -1,0 +1,6 @@
+Windows 環境での File.expand_path が UNC path (\\ と delimiter 2つで始まるパス)
+の時に遅いというのを修正しています。 replace_to_long_name() という省略形の path
+(Windows だと DOS との互換性? のために長いファイル名を XXXXXX~1 みたいに拡張子
+を除いて8文字におさめる短い名前も割り当てられる)を解決する処理で UNC の場合には
+省略形は使えないみたいなので、処理をスキップするようにしています。
+[ruby-core:91656] [Bug #15633]
