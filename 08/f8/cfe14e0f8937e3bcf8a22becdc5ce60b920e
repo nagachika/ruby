@@ -1,0 +1,3 @@
+rubygems を upstream の最新版に更新しています。今日 rubygems の複数の脆弱性修正
+を含むリリースがあったので、それを trunk に反映させています。 https://
+blog.rubygems.org/2019/03/05/security-advisories-2019-03.html
