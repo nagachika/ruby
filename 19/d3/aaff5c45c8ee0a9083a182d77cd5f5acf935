@@ -1,0 +1,4 @@
+rubyspec の RbConfig のテストで RbConfig::CONFIG['rubylibdir'] の確認を mingw
+で除外していたのを RbConfig::TOPDIR の定義の有無で判定するようにしています。他
+の環境でも install してないとディレクトリが存在しないため。とあるけど install
+してなくても RbConfig::TOPDIR 自体は定義されてるんじゃないかな。
