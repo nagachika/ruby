@@ -1,0 +1,4 @@
+拡張ライブラリ pty が OpenBSD で PTY.open がエラーになるという不具合を修正して
+います。 Solaris や FreeBSD でも同様の workaround をしていたのですが grantpt()
+の前に fd に O_CLOEXEC フラグを指定しているとエラーになるので、後でフラグ追加す
+るようにしています。 [ruby-core:91569] [Bug #15607]
