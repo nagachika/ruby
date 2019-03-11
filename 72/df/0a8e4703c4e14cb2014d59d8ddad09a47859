@@ -1,0 +1,4 @@
+拡張ライブラリ ripper でインデント除去つきヒアドキュメントを Ripper::Lexer でス
+キャンした時に :ignore_sp というイベントが使われていますが、定数
+Ripper::SCANNER_EVENTS にこれが含まれていないので、追加するようにしています。
+[ruby-core:91727] [Bug #15648]
