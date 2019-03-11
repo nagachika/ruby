@@ -1,0 +1,2 @@
+拡張ライブラリ ripper のテストで respond_to? のチェックに assert_respond_to を
+利用するようにリファクタリングしています。
