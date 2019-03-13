@@ -1,0 +1,1 @@
+lib/rubygems/text.rb から require "rubygems" を削除。相互 load を避けるため。
