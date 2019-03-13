@@ -1,0 +1,6 @@
+Enumerator::Yielder#to_proc というメソッドを新規追加しています。
+Enumerator::Yielder ってあんまり知られてないんじゃないかと思いますけど、
+Enumerator::Yielder.new でブロックを受け取って、yield メソッドを呼ぶたびにそれ
+を実行するという、Enumerator.new のブロックに渡されるためのクラスですが、
+to_proc を実装したのはこれをそのまま & をつけてブロック引数として渡せるようにす
+るためのようです。なるほど。
