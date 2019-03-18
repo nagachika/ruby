@@ -1,0 +1,4 @@
+拡張ライブラリ ripper で :"sym" のようなクオートつきの Symbol リテラル(なのか
+な)を parse すると :xstring_contents というノードとして処理していましたが
+string_contents に変更しています。Hash リテラルの { "sym": value } みたいな時の
+キーが string なのでそれに合わせたとのこと。 [ruby-core:91852] [Bug #15670]
