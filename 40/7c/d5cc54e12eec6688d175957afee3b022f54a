@@ -1,0 +1,2 @@
+appveyor.yml の JSON で Hash (JSON だから object か) の最後の要素の後にカンマが
+あったので削っています。
