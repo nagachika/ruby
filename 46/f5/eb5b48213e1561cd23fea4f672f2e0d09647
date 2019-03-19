@@ -1,0 +1,2 @@
+NEWS ファイルに r67277 での --jit-max-cache と --jit-min-calls のデフォルト値の
+変更について追記しています。
