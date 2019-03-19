@@ -1,0 +1,5 @@
+azure-pipelines.yml の checkout 時のオプション fetchDepth を 1 から 10 に増やし
+ています。 depth が 1 だとたまに checkout がエラーになるため。エラーメッセージ
+みた感じだと commit が連続してたりして checkout しようとした commit hash よりも
+trunk が進んでたりすると depth が 1 だと狙った commit が参照できないとかそうい
+うことみたいですね。
