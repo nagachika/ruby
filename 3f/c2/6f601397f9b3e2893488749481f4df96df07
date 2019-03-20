@@ -1,0 +1,5 @@
+MJIT の JIT コンパイル時に inline cache 情報を mjit worker にコピーするための機
+構の構造体 mjit_copy_job_t から struct rb_mjit_unit を削除しかわりに rb_iseq_t
+を直接格納するようにしています。また C99 を利用可能になったので mjit.c や
+mjit_worker.c で変数の宣言をブロックの途中でするようにリファクタリングしていま
+す。
