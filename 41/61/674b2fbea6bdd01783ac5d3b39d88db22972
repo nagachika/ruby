@@ -1,0 +1,4 @@
+r67286 および r67287 のリファクタリングを経て copy_cache_from_main_thread() を
+mjit_copy_cache_from_main_thread() に改名して呼ぶのを mjit_worker() から
+mjit_compile() に移動し、JIT Compile 時に inline cache を取得するように遅延して
+います。
