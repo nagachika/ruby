@@ -1,0 +1,2 @@
+r67278 の Numbered parameter 実装で parse_atmark() に追加したチェックを
+parser_numbered_param() という関数に切り出すリファクタリング。
