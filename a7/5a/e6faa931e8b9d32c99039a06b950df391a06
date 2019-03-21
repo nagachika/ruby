@@ -1,0 +1,3 @@
+で r67299 の続きで呼び元の mjit_compile() で alloca() でメモリ領域を確保して、
+copy_cache_from_main_thread() で外からそのポインタを引数に渡すように変更して
+malloc() をやめています。 r67299 は deadlock に陥る可能性があったみたいです。
