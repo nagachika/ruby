@@ -1,0 +1,3 @@
+r67311 と同様に Array#max と Array#min の rdoc 用コメントでもモジュール名を
+<code> タグでマークアップしてたのをやめて cross reference が有効になるようにし
+ています。
