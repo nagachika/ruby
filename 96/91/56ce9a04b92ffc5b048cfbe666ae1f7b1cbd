@@ -1,0 +1,2 @@
+mjit_compile.c の inlinable_iseq_p() という関数で仮引数の lead parameter 数と実
+引数の数のチェックを追加しています。
