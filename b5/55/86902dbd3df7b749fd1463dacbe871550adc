@@ -1,0 +1,4 @@
+TracePoint#enable の rdoc 用コメントを vm_trace.c から prelude.rb のメソッド定
+義の前に移動して、内容も target と target_line キーワード引数についての説明も追
+記しています。 [ruby-core:90801]
+[Bug #15484]
