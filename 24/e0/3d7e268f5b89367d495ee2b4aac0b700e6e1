@@ -1,0 +1,14 @@
+メソッド呼び出しの処理で、メソッドの引数が lead と optional だけだった時向けの
+最適化を導入しています。 lead parameters って耳慣れないなと思ったのですが(必須
+の引数のことはよく positional と言うので)、そういえば ruby のメソッド引数はちょ
+っと前から `def meth(a1, a2, *middle, b1, b2)` みたいに rest 引数の後にも
+positional 引数を置けるようになってたんでした。すっかり忘れてた。なので lead と
+optional だけということは `def meth(a, b=nil)` のような感じで省略可能な引数はあ
+るけど rest 引数やキーワード引数はないっていうものですね。実装はメソッド呼び出
+しの引数準備をしてる vm_callee_setup_arg() で仮引数の種類をチェックして lead と
+optional だけかチェックし、その時に専用の簡易化した vm
+_call_iseq_setup_normal_opt_start() という関数を利用するようにしています。コミ
+ットログにあるベンチマークによると面白いのは、vm
+_call_iseq_setup_normal_opt_start() を導入しなくても lead と optional だけかチ
+ェックして setup_parameters_complex() の呼び出しを抑制するだけでも効果がある(と
+いうかむしろこちらのほうが効果が高そう)ということでした。
