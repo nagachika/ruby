@@ -1,0 +1,5 @@
+昨日の r67315 と同様に、メソッド呼び出しの引数準備でメソッド定義の仮引数が lead
+と keyword 引数だけだった時に専用の vm_call_iseq_setup_kwparm_kwarg() および vm
+_call_iseq_setup_kwparm_nokwarg() という関数を用意して setup_parameters_complex
+() の呼び出しを避けるという最適化です。2つの関数は実際に呼び出し時にキーワード
+引数が渡されたか省略されたかという違いです。
