@@ -1,0 +1,2 @@
+組み込みクラスなどの rdoc 用コメントで cross reference が効くものを明示的な
+markup しないようにする修正。
