@@ -1,0 +1,3 @@
+TracePoint#enable, TracePoint#disable の例外時のメッセージの typo 修正。
+rubyspec でメッセージもチェックしてたので新旧どちらも受け付けるように正規表現に
+手を加えています。
