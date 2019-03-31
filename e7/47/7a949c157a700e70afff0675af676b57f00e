@@ -1,0 +1,2 @@
+標準添付ライブラリ rinda のテストが mswin で失敗することがあるので RUBY
+_PLATFORM でチェックして skip するようにしています。
