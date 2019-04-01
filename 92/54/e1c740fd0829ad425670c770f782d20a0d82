@@ -1,0 +1,3 @@
+r67347 で .travis.yml で Permission denied のエラーが発生した時にいくつかのディ
+レクトリの mode を表示するように仕込んでましたが、エラーは make 時ではなく make
+install 時に発生するものだったので仕込む場所を変更しています。
