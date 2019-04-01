@@ -1,0 +1,3 @@
+r67380 の debug counter インクリメントで利用した RB_DEBUG_COUNTER_INC_IF() に明
+示的な (void) を追加しています。たぶん実害はないと思いますが Coverity Scan がな
+にか検出したとのこと。
