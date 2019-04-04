@@ -1,0 +1,5 @@
+r65573 あたりで clans の ASAN などのチェッカーでの誤検出抑制のため gc.c に
+poison_xxx() や unpoisone_xxx() というマクロ導入してチェックを緩めるようにして
+いましたが、iseq.c でも remove_coverage_i() や trace_set_i() で一時的に
+unpoison してチェックを緩めるため今 poisoned されているメモリ領域かどうか判定す
+る poisoned_object_p() という inline 関数を追加しています。
