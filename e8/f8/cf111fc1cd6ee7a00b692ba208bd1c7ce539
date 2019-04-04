@@ -1,0 +1,5 @@
+拡張ライブラリ date で Date._strptime で Hash オブジェクトから要素を破壊的に取
+り出すのに ref_hash()+del_hash() を使ってたのを del_hash() で削除と同時に要素を
+取り出すように変更しています。たぶん Hash オブジェクトが共有されることは
+(ObjectSpace で無理矢理取り出さないかぎり)ないので race condition 的なことより
+リファクタリングであろうと思います。
