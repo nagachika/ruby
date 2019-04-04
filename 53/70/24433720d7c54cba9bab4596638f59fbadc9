@@ -1,0 +1,3 @@
+azure-pipelines.yml で Linux でエラーを無視する設定 continueOnError: true を追
+加しています。 bundler と bundled gems のテストが失敗しはじめているので修正され
+るまで通知をとめるためとのこと。
