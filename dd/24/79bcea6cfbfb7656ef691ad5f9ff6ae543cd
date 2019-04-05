@@ -1,0 +1,3 @@
+gc.c の count_objects() でも一時的に unpoison してチェック有効になるようにして
+います。またいくつか poison_object() と unpoison_object() の呼び出しの引数に明
+示的なキャストを追加しています。
