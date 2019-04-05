@@ -1,0 +1,2 @@
+r67407 で misc/lldb_cruby.py の lldb_inspect に追加した T_REGEXP 対応で型の名前
+を間違えてたのを修正。
