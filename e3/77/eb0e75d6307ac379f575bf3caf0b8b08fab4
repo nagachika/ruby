@@ -1,0 +1,2 @@
+gc.c の internal_object_p() で一時的に unpoison するタイミングを flags を取得す
+る前に移動しています。
