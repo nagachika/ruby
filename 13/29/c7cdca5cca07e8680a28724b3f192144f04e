@@ -1,0 +1,2 @@
+拡張ライブラリ date の Date._parse でタイムゾーン zone に渡した文字列の
+Encoding や tainted フラグを伝播させるようにしています。
