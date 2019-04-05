@@ -1,0 +1,4 @@
+endless range に続いて beginless range なる開始点を省略した Range のリテラル記
+法がサポートされるようになりました。 endless に比べると使いどころどのくらいある
+かな、という感じですけどまああったら使うんでしょうね。 [ruby-core:87313]
+[Feature #14799]
