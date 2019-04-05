@@ -1,0 +1,5 @@
+gc.c の heap_page_add_freeobj() heap_add_freepage() heap_add_poolpage()
+heap_page_resurrect() などなどのリスト操作する関数でその操作部分で一時的に
+unpoison してそこにはメモリチェックが効くように細かく制御するようにしています。
+また gc_verify_heap_pages_() に free list に繋がってる slot のタイプが T_NONE
+になっているのを確認するチェックを追加しています。
