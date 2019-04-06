@@ -1,0 +1,2 @@
+r67433 にも関連して Range#step のテストに endless range および beginless range
+に関する assertion を追加しています。
