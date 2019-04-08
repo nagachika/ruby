@@ -1,0 +1,2 @@
+r67449 の appveyor.yml の変更を revert して、UNICODE_FILES=. が指定されてたら
+tool/downloader.rb で再ダウンロードせず既存のファイルを使うようにしています。
