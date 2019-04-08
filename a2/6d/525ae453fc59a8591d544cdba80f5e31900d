@@ -1,0 +1,3 @@
+r67454 の make up 時の UNICODE_FILES=. の指定を msys2 向けのビルド時にも設定す
+るようにしています。これがないと tool/downloaderrb の実行でエラーになるようです
+。
