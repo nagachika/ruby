@@ -1,0 +1,2 @@
+tool/downloader.rb で正規表現にファイル名を埋め込む時に Regexp.quote でエスケー
+プしておくように修正しています。
