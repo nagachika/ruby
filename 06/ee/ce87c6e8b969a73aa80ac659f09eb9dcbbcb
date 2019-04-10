@@ -1,0 +1,4 @@
+Enumerator::ArithmeticSequence#hash の戻り値の変換を LONG2FIX() でやってたのを
+SF2FIX() を使うように修正。 mswin などの LLP64 環境で hash の値が Fixnum の範囲
+を超えてしまって SEGV を誘発することがある不具合の修正です。 [ruby-core:92190]
+[Bug #15755]
