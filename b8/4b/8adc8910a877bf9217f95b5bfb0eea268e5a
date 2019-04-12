@@ -1,0 +1,2 @@
+GC.compact の導入で weakref のテストがこけたそうなのでデバッグのために
+assert_nothing_raised をコメントアウトして例外を発生させるようにしています。
