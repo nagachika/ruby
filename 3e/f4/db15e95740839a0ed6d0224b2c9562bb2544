@@ -1,0 +1,5 @@
+GC.compact というメソッドを追加して、compaction GC を実行できるようにしています
+。アルゴリズムの詳細はチケットのほうに ASCII Art による図解と疑似コード付きで説
+明されているのでそちらを参照。全ての struct RVALUE が動かせるわけではなくて、新
+しく追加した mark_entry_no_pin() で(のみ) mark したものだけ移動できるようにして
+いるようです。これで heap 減らせるのかなぁ。 [ruby-core:91634] [Feature #15626]
