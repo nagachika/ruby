@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の OpenSSL::BN.new の第1引数に nil を渡すと SEGV してた
+ので StringValuePtr() の呼び出しを if 文の条件部からその前に出すようにしていま
+す。 StringValuePtr() はマクロで内部で str 自身を上書きすることがあるから…でも
+Qnil の時には例外になりますよねぇ。関数の評価の順序のためかな(コンパイラによっ
+て違いそう)。 [ruby-core:92231] [Bug #15760]
