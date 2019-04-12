@@ -1,0 +1,3 @@
+標準添付ライブラリ net/imap で TLS の SNI が有効になるようにしています。GMail
+の imap を使うのに必要だったとのこと。 https://github.com/ruby/ruby/pull/2077
+[ruby-core:91466] [Feature #15594]
