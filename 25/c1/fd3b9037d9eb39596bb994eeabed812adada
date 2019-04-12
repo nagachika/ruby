@@ -1,0 +1,3 @@
+r67479 の GC.compact で CI が失敗しているため r67479 から r67496 までのコミット
+を全部 revert しています。けど実際には openssl の変更も revert されちゃってるの
+で r67497 も revert されてそう。
