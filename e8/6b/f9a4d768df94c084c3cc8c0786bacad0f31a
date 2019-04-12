@@ -1,0 +1,4 @@
+ヘッダファイル timev.h の struct tvm の宣言の前にコメントアウトした状態で
+struct tvm の空の宣言を追加しています。"for TAGS" とコミットログにあるので構造
+体宣言がマクロ PACKED_STRUCT_UNALIGNED() の中で行なわれてるので ctags でインデ
+ックスが作られないのでその対策ということかな?
