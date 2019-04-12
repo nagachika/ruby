@@ -1,0 +1,2 @@
+compile.c の iseq_add_mark_object_compile_time() と freeze_literal() で ISeq の
+mark_ary に要素を追加する時に RGenGC の write barrier を追加しています。
