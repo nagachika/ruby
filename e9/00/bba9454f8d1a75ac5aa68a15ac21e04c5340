@@ -1,0 +1,3 @@
+ObjectSpace::WeakMap からの参照を pin するようにしています。そして r67484 の
+weakref のテストのデバッグのための変更を revert しています。なるほど WeakMap か
+らの参照は mark はしないけど pin する必要はあるわけか。
