@@ -1,0 +1,3 @@
+ISeq をコンパイルする時に rescue 節や ensure 節の例外をセットする特殊変数 $! の
+ID のテーブルは常に同じなので都度 ALLOC_N() で確保するのをやめてグローバル変数
+を利用するようにしています。 https://github.com/ruby/ruby/pull/2115
