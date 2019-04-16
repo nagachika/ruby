@@ -1,0 +1,2 @@
+debug counters に MJIT の length_stale_units というカウンタを追加して
+stale_units リストのサイズを記録するようにしています。
