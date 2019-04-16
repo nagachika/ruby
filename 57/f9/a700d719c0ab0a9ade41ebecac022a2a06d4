@@ -1,0 +1,3 @@
+r67347 で .travis.yml に追加した Travis-CI の macOS での並列ビルド時の
+Permission Error のデバッグのために追加したエラー時に実行するコマンドに ext/ と
+ext/bigdecimal/ の ls の結果も表示させるように追加しています。
