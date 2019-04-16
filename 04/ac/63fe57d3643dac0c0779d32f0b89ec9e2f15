@@ -1,0 +1,4 @@
+r67530 の MJIT 再コンパイルのテストを r67532 で i686 で skip するようにしてまし
+たが、これは rb_mjit_recompile_iseq() で LAST_JIT_ISEQ_FUNC を ptrdiff_t にキャ
+ストして比較してたけど uintptr_t に修正しています。であらためてテストの skip を
+消しています。 https://github.com/ruby/ruby/pull/2130
