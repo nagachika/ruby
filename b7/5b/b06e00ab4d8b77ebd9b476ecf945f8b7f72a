@@ -1,0 +1,6 @@
+MJIT の JIT 時のコード生成用の C コードを生成するテンプレート tool/ruby_vm/
+views/mjit_compile.inc.erb で opt_aref, opt_aset と opt_mod の命令のコンパイル
+時に inline call cache が効いてない時に(?) mjit_compile_insn というテンプレート
+を使う方法に fallback するようにしている、と思う。さすがに C のコード生成する C
+のコードを生成する ERB を観てるだけだとぱっと見では理解不能ですね。せめて
+render してできた C のコードみてみないと。
