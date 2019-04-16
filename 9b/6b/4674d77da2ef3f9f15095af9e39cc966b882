@@ -1,0 +1,3 @@
+MJIT で compile option を指定する struct rb_mjit_compile_info という構造体を導
+入して、ivar cache や send cache などの最適化の失敗でコンパイルがキャンセルされ
+た時にこれらの最適化を off にしてコンパイルをリトライするようにしています。
