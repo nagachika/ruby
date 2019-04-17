@@ -1,0 +1,4 @@
+標準添付ライブラリ net/imap で SNI 対応。なんかこれ見憶えが…と思ったら r67488
+で一旦入ったのが r67499 でこれも巻き込み revert されてました。 openssl の修正の
+再適用と混同しててこれも入ったものと勘違いしてました。 https://github.com/ruby/
+ruby/pull/2077 [ruby-core:91466] [Feature #15594]
