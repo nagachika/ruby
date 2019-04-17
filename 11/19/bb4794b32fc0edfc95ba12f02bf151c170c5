@@ -1,0 +1,3 @@
+azure-pipelines.yml で r67428 で追加した TEST_BUNDLED_GEMS_ALLOW_FAILURES とい
+う環境変数で指定した bundled gem のテストのエラーは無視するようにしたのがうまく
+きいてないみたいなので azure-pipelines.yml の記法をちょっと修正しています。
