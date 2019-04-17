@@ -1,0 +1,5 @@
+標準添付ライブラリ csv の upstream の 3.0.8 に更新しています。 3.0.5 で大きく変
+更があってパフォーマンス改善があったようですね。また CSV.new にオプション
+write_converters、write_nil_value、write_empty_value、strip などが追加されてい
+ます。あれ、CSV.new のオプションっていつから keyword 引数になったんだっけ…。
+https://github.com/ruby/csv/blob/master/NEWS.md#308---2019-04-11
