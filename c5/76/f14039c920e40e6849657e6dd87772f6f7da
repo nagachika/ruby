@@ -1,0 +1,2 @@
+make update-unicode-property-files と make update-unicode-files を統合して make
+update-unicode-files で両方のファイル群をダウンロードするようにしています。
