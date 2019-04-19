@@ -1,0 +1,4 @@
+そして GC.verify_compaction_references の実装を GC.compact の実装にそろえて gc
+_check_references_for_moved() を呼ぶ前に gc_update_references() を呼んだり、チ
+ェック後に GC しなおしたり method cache/constant cache をクリアしたりして不正な
+参照を残さないように? しています。
