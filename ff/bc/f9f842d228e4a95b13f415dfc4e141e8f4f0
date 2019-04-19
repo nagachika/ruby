@@ -1,0 +1,3 @@
+tool/downloader.rb で Unicode 関連の beta バージョンのファイルダウンロード時に
+index.html ファイルの内容の一致でキャッシュを捨てるかどうかの判定に使うようにし
+ているようです。
