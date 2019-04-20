@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb の bundler の更新時の最初のファイル削除から libexec/
+bundle_ruby を消しています。もう存在してないので消す必要なくなったとのこと。
