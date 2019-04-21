@@ -1,0 +1,3 @@
+gc_mark_children() でオブジェクトからの参照の GC mark を伝播させる所で T_CLASS/
+T_MODULE/T_ICLASS などのオブジェクトで super の指すクラスを mark する時に NULL
+じゃないかチェックするようにしています。 super が NULL ってあるのか。
