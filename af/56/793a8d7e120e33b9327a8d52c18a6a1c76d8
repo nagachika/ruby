@@ -1,0 +1,2 @@
+ということで r67611 を再度適用しています。今度はちゃんと pull req の URL が展開
+されました。 https://github.com/ruby/ruby/pull/2004
