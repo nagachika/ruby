@@ -1,0 +1,2 @@
+同じく fake.rb のテンプレートである template/fake.rb.in 内でも String#split に
+引数省略して呼んでるところがあったので明示的に指定するようにしています。
