@@ -1,0 +1,3 @@
+RubyVM::AbstractSyntaxTree#children が返す配列に NODE が NODE_MASGN、
+NODE_CVASGN、NODE_POSTARG などの時に最後の要素に種類を表す Symbol を含めるよう
+にしています。 Pattern Match で受け取って分解しやすくするためだそうです。
