@@ -1,0 +1,2 @@
+r67628 と同様に mjit_free_iseq() でも stale_units というリストに入っている ISeq
+も考慮するように追加修正しています。
