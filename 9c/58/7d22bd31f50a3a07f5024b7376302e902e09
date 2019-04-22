@@ -1,0 +1,2 @@
+GC.compact のテストの一部を Travis-CI の macOS および Wercker では skip するよ
+うにしています。
