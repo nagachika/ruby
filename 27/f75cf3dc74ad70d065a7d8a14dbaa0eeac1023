@@ -1,0 +1,2 @@
+r67624 で追加した mjit_update_references() で stale_units のリストから参照され
+ている iseq も移動に追随させるようにしています。
