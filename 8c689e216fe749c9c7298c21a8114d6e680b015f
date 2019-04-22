@@ -1,0 +1,1 @@
+Array#union の rdoc 用コメントの call-seq で戻り値がコピーであることがわかるようにレシーバと別の名前にしています。 https://github.com/ruby/ruby/pull/2084
