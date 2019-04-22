@@ -1,0 +1,2 @@
+irb のテストファイル test/irb/test_completion.rb と test/irb/test_ruby-lex.rb
+を削除しています。
