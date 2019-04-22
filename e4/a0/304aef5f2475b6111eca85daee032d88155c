@@ -1,0 +1,3 @@
+r67641 で環境変数 WERCKER_STEP_ID の有無で Wercker での実行か判定しようとしたけ
+どうまくいかなかったようなので RubyVM::MJIT.enabled? だったらとにかく skip する
+ようにしています。
