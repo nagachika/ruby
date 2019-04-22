@@ -1,0 +1,5 @@
+r67620 の GC.compact でのオブジェクトの移動時に RubyVM::InstructionSequence オ
+ブジェクトが移動すると MJIT の worker にも影響するので mjit.c に
+mjit_update_references() っていう関数を追加して移動時に MJIT worker にも追随さ
+せるようにしています。ちなみに CRITICAL_SECTION_START()/CRITICAL_SECTION_FIINSH
+() に渡してる関数名がコピー元のままになってるっぽい。
