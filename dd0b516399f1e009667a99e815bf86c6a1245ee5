@@ -1,0 +1,1 @@
+doc/contributing.rdoc のビルドに必要なライブラリなどの記述から標準添付からtkが外れたのでTcl/Tkの記述を消しています。
