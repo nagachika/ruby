@@ -1,0 +1,1 @@
+5da52d1210 の RUBY_REVISION の変更で rubyspec がエラーになってたので spec を変更しています。
