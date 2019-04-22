@@ -1,0 +1,1 @@
+Bindingクラスのrdoc用コメントにset_trace_funcについて書かれてる部分にTracePointへの言及も追記。もうset_trace_funcのほうは消しても良さそう。
