@@ -1,0 +1,1 @@
+win32/README.win32 の nmake up のコメントから svn のサポートについての記述削除。またサンプルで test のかわりに exam を使うようにしています。
