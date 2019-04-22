@@ -1,0 +1,2 @@
+r67624 の CRITICAL_SECTION_START()/CRITICAL_SECTION_FINISH() の引数の関数名の
+typo を修正しています。
