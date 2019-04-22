@@ -1,0 +1,2 @@
+version.h の RUBY_REVISION を commit hash の先頭10桁の文字列として定義するように変更しています。
+tool/file2lastrev.rb で書き変えるんですが、これ merger.rb から trunk のを呼ばれるとまずいな、と思いましたが merger.rb が file2lastrev.rb を呼ぶ時はカレントディレクトリからの相対パスで呼ぶので安定版ブランチからは古いのを呼ぶから大丈夫そうですね。
