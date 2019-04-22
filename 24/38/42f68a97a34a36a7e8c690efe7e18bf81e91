@@ -1,0 +1,3 @@
+r67586 で導入された pattern match で Array Pattern のマッチ時の AST に
+NODE_BEGIN を使いまわしていたところを NODE_SPECIAL_NO_NAME_REST という NODE を
+使うようにリファクタリング? しています。
