@@ -1,0 +1,2 @@
+GC.compact の GC.stat(:object_id_collisions) をチェックするテストを MJIT 有効化
+時には skip するようにしています。
