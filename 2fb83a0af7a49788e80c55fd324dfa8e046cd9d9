@@ -1,0 +1,1 @@
+tool/vcs.rb で GIT クラスから git-svn で操作するメソッドを GITSVN というクラスに切り出しています。
