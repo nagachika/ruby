@@ -1,0 +1,3 @@
+Windows 環境(というか VC コンパイラ?)での警告の抑制のため構造体 struct
+compile_status のメンバーにつけてた const 修飾子を削除しています。 https://
+ci.appveyor.com/project/ruby/ruby/builds/23995093/job/qo728n1uorepkx16
