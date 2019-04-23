@@ -1,0 +1,1 @@
+rubyspec の RUBY_REVISION のテストが仕様変更でこけるので 2.7 を除外するために追加した ruby_version_is の guard の書きかたをちょっと変更しています。
