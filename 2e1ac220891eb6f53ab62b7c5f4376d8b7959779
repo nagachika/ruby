@@ -1,0 +1,1 @@
+78d3e4396d3c2ca53875fdbc9a24032d6eebf4f6 でうっかり gc_verify_compaction_references() に rb_gc_disable() を追加したままコミットしてしまっていたのを削っています。
