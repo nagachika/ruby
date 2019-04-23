@@ -1,0 +1,1 @@
+complex.c の f_divide() で real/imag のそれぞれに rb_rational_canonicalize() 呼んで引数にしてたところを一旦ローカル変数に受けとるようにするリファクタリング。
