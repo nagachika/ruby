@@ -1,0 +1,2 @@
+make update-src でローカルのリポジトリ working copy が git の時に最新の commit
+hash を表示するようにしています。
