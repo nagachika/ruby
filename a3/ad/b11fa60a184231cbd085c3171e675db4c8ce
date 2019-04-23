@@ -1,0 +1,3 @@
+reline のテストで RELINE_TEST_ENCODING というトップレベルの定数が環境変数
+RELINE_TEST_ENCODING が未定義だと定数自体定義されななったので、定義するけど内容
+が nil という状態になるようにしています。
