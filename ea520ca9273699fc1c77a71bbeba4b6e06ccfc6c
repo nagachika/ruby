@@ -1,0 +1,1 @@
+これも GC.compact 対応で rb_define_class() や rb_define_module() で定義した Class/Module のオブジェクトを rb_vm_t::defined_module_hash で Hash で管理していたのを ID をキーにした st_table で管理するようにしています。コミットログによると Symbol で管理してたので衝突時に参照が消えてることがあったようです。そうすると GC の mark 漏れが置きそうなものですが、たいていそういうのは static 変数にも格納していて、mark の root になっていたので問題が表出していなかったのでしょう。
