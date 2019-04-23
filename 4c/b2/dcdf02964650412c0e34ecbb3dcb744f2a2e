@@ -1,0 +1,3 @@
+doc/maintainer.rdoc から ubygems.rb (-r オプションとくみあわせることで -
+rubygems で rubygems を require できるというみためのための wrapper ライブラリ)
+についてのエントリを削除しています。
