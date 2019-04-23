@@ -1,0 +1,3 @@
+reline のテストで require してる名前を "test-unit" から test/unit" に変更してい
+ます。 gem のバージョンの test-unit でも require する時の名前は test/unit です
+よね確か。
