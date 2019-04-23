@@ -1,0 +1,3 @@
+r67665 とも関連してそうですが const を外した struct
+compile_status::inlined_iseqs を memset(3) に渡す時に明示的な void* へのキャス
+トを追加しています。
