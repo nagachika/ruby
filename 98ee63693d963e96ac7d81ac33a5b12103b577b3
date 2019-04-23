@@ -1,2 +1,3 @@
 GC.compact 対応で iseq.c の Symbol を VALUE 型の変数に格納していたのをやめて ID で保持するようにしています。
 GC.compact で移動しても変数からの参照が移動できないので不正アクセスになるということみたいです。
+RubyVM::InstructionSequence#to_a でダンプする時などその時点でオブジェクト化するようにしています。
