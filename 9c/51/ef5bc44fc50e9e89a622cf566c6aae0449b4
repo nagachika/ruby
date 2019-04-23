@@ -1,0 +1,2 @@
+標準添付ライブラリ reline の upstream からのマージ。テストの helper の require
+を require_relative に修正する変更再適用しています。
