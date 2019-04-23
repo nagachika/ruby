@@ -1,0 +1,2 @@
+rb_hash_bulk_insert() を公開 API とするらしく prototype 宣言を internal.h から
+include/ruby/intern.h に移動しています。
