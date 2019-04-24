@@ -1,0 +1,1 @@
+.travis.yml で Travis-CI 上での macOS のテストで GC.compact のテストを別コマンドに分離するようにしています。
