@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb で backport 用の merger.rb のコマンドラインを git の
+commit hash で生成するようにしています。また rel コマンドで commit hash での指
+定可能にしています(svn の revision もまだ可能)
