@@ -1,0 +1,1 @@
+bc8e54911db505d9e1776673a86e956c7d7e3b89 の .travis.yml の分岐の書きかたが変数 TEST_ALL_ISOLATED_TESTS が未定義だとコマンドのエラーと解釈されてたので if を使って書きなおしています。
