@@ -1,1 +1,1 @@
-環境変数 RUBY_DEBUG に gc_stress を指定した時に起動時のheapの初期化の処理が終わってから有効になるようにしているます。 [ruby-core:92376] [Bug #15784]
+環境変数 RUBY_DEBUG に gc_stress を指定した時に起動時のheapの初期化の処理が終わってから有効になるようにしています。 [ruby-core:92376] [Bug #15784]
