@@ -1,0 +1,1 @@
+def/gmake.mk に fetch-github と merge-github というターゲットを追加して、GitHub 上の Pull Request をマージしてコミットするためのコマンド群をまとめています。
