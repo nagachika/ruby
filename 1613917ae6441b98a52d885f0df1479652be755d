@@ -1,0 +1,1 @@
+f1a52d96a59c63d46cb23af60cdcaf38e30e0512 の再修正で、起動中の GC 全体を止めてたのを RUBY_DEBUG=gc_stress の指定だけを off にするようにしているようです。
