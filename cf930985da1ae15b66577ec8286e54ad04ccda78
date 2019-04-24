@@ -1,0 +1,1 @@
+include/ruby/re.h の構造体 struct rmatch の char_offset_updated というメンバーを削除して char_offset_num_allocated が正になってるかどうかのチェックで代替するようにしています。
