@@ -1,0 +1,1 @@
+onigmo.h の構造体 struct re_registers のメンバー history_root を USE_CAPTURE_HISTORY が定義されている時だけ宣言するようにしています。
