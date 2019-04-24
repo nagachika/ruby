@@ -1,0 +1,1 @@
+defs/gmake.mk の update-src で更新後に表示する commit hash を先頭10文字までに切り詰めるようにしています。
