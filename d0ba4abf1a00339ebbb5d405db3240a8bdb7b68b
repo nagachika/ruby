@@ -1,0 +1,1 @@
+symbol.h で RB_ID_SERIAL_MAX という定数を定義しています。 ID から RUBY_ID_SCOPE_SHIFT のぶんを削ったサイズまたは uint32 の上限をセットしています。
