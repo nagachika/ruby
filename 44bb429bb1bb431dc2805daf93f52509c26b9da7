@@ -1,0 +1,1 @@
+defs/gmake.mk の fetch-github と merge-github で git config の結果を変数に格納しておいて使うようにしています。makeの変数と起動するシェルの変数でこんがらがる。
