@@ -1,0 +1,1 @@
+defs/gmake.mk に checkout-github というターゲットも追加して Pull Request のブランチをチェックアウトできるようにしています。
