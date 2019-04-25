@@ -1,0 +1,1 @@
+さらに fetch-github-*, pr-* みたいな prefix で任意の Pull Request をマージできるターゲットも作っています。
