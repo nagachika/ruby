@@ -1,0 +1,2 @@
+test/drb/test_drbobject.rb という DRbObject のテストファイルを追加。
+DRb.to_obj による同一性チェックのテストを追加しているようです。
