@@ -1,0 +1,1 @@
+make merge-github 内で git worktree のためにディレクトリを掘る時に mktemp -p を使ってましたが、BSD 系の mktemp にこのオプションがないそうで -d オプションに変更しています。
