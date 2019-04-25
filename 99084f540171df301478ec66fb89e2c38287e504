@@ -1,0 +1,1 @@
+ISeq のコンパイル時に rb_iseq_data_t::catch_table_ary を nil を含む配列で初期化していたのを nil にしておいて必要になったら ADD_CATCH_ENTRY() で格納するようにしています。 https://github.com/ruby/ruby/pull/2119
