@@ -1,1 +1,1 @@
-標準添付ライブラリ irb に lib/irb/color.rb というファイルを追加して端末の色付けのためのライブラリを追加しています。そして code_around_binding ってところで入力確定後に色付けして表示するようにしています。 https://github.com/ruby/ruby/pull/2150
+標準添付ライブラリ irb に lib/irb/color.rb というファイルを追加して端末の色付けのためのライブラリを追加しています。そして Binding#irb で周辺のソースを表示する時に色付けして表示するようにしています。 https://github.com/ruby/ruby/pull/2150
