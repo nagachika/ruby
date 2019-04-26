@@ -1,0 +1,1 @@
+transient_heap.c の rb_transient_heap_alloc() で unpoison_memory_region() でアドレスのチェック対象に戻す領域をヘッダぶん減らしています。ptr は header を1つインクリメントした位置からのポインタなので size とすると末尾ポインタ1つぶんはみ出した領域まで指定してしまっていました。
