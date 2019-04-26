@@ -1,0 +1,1 @@
+b11b26bcaf711ad01d1a81943cca42f7ff40bfee と類似ですが transient_heap.c の clear_marked_index() でヘッダ部分のメモリの unpoison の呼び出しが漏れてたので追加しています。
