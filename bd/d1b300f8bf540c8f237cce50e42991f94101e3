@@ -1,0 +1,1 @@
+transient_heap.c の transient_heap_block_update_refs() で警告除去のため明示的キャストを追加。
