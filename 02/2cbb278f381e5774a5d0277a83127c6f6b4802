@@ -1,0 +1,1 @@
+94af6cd383f9dc3ae1204a5fba8f56ee7826cbce の再修正で色付けするかどうかを$stdoutが端末かどうかと環境変数TERMがあるかで判定していましたが、TERMの値が "dump" だった時は色付けしないようにしています。 https://github.com/ruby/ruby/pull/2150
