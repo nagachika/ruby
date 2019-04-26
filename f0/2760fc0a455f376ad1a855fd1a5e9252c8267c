@@ -1,0 +1,1 @@
+rb_autoload_load() で排他処理のために持つ構造体  struct autoload_state のメンバー result を Qfalse で初期化しておくようにしています。MSAN で未初期化領域の参照が検出されたようですね。
