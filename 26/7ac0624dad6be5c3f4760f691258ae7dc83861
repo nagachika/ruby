@@ -1,0 +1,1 @@
+.travis.yml の make-test-only というビルドで環境変数 GEMS_FOR_TEST を空にして bundled gem のテストをスキップさせるようにしています。
