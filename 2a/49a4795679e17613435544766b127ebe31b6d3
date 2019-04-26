@@ -1,0 +1,1 @@
+.travis.yml の MSAN/ASAN つきビルド時の cflags などに -fPIC を追加しています。また openssl/readline や libgmp (Bignum の実装に使うやつ)などを利用しないように configure の引数を設定するようにしています。
