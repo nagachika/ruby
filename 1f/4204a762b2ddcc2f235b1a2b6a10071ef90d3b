@@ -1,0 +1,1 @@
+gc.c の newobj_init() でflags をチェックしているところは未初期化領域の参照になる可能性があり MSAN によるチェックと相性が悪いので、__hash_feature(memory_sanitizer) でチェックして有効な時は削るように preprocessor の分岐を追加しています。
