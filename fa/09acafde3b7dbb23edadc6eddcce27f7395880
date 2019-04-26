@@ -1,0 +1,1 @@
+ASAN, MSAN が有効な時に vm_core.h で machine stack のサイズを大きめに定義しなおすようにしています。ASAN/MSAN 利用時には machine stack の消費量が増えるみたいです。
