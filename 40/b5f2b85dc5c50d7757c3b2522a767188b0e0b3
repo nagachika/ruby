@@ -1,0 +1,1 @@
+enum.c の enum_sum() でも未初期化領域の参照を防ぐため struct enum_sum_memo のメンバーの明示的初期化を追加しています。
