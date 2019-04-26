@@ -1,0 +1,1 @@
+vsprintf.c の vfprintf() も ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS でメモリチェック対象外にしています。
