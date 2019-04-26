@@ -1,0 +1,1 @@
+irb の色付けのテストで色がつくように StringIO のインスタンスに特異メソッド tty? を追加したり環境変数TERMをセットしたりして実行するようにするhelperメソッド with_term を追加しています。 https://github.com/ruby/ruby/pull/2150
