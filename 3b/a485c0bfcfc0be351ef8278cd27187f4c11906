@@ -1,0 +1,1 @@
+gc.c の mark_current_machine_context() で setjmp() で register の内容を退避する前に save_regs_gc_mark をゼロクリアしておくようにしています。
