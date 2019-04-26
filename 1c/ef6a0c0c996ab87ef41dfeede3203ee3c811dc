@@ -1,0 +1,1 @@
+r67347 あたりからの Travis-CI の Permission Denied のエラーのデバッグにさらに miniruby を使って mtime と ctime を表示するようにしています。numbered parameter を使ってますね。
