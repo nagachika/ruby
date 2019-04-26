@@ -1,0 +1,1 @@
+parse.y で拡張ライブラリ ripper 向けの実装の時には internal_id() で組み込みのSymbolのIDは利用しないようにしています。
