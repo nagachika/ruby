@@ -1,0 +1,1 @@
+ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS() というマクロを追加して局所的に MSAN/ASAN を同時に無効にできるようにしています。
