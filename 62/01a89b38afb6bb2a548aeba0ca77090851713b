@@ -1,0 +1,1 @@
+572f2ddff64ddf12f2331ad77b72d2b0c9d9883c で定義した ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS() を使って transient_heap.c の transient_heap_ptr_check()、transient_heap_block_verify()、transient_heap_ptr() などをチェック対象外に指定しています。
