@@ -1,0 +1,1 @@
+.travis.yml の clang を使ったビルドに clang-8 を使うようにしています。clang-7 には memory sanitizer の誤検出があるらしいとのこと。
