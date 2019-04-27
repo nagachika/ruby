@@ -1,0 +1,1 @@
+r59829 で cont_save_thread() で sth->ec.machine.stack_end だけクリアして sth->ec.machine.stack_start はそのままにしたのに ia64 の時は両方クリアするようにしてましたが、ia64 の時も sth->ec.machine.stack_start をそのままにするようにしています。これ憶えてる。なんで ia64 だけ違うのか不思議だったんですがミスだったのかな。 https://github.com/ruby/ruby/pull/2155
