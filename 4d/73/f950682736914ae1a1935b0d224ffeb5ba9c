@@ -1,0 +1,2 @@
+Random, Rational でも marshal_dump, marshal_load を private メソッドとして定義
+するように変更しています。 [ruby-core:45395] [Feature #6539]

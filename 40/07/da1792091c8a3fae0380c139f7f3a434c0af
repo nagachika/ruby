@@ -1,0 +1,4 @@
+Enumerator::Lazy#take で lazy 版 take の Lazy を作ってそれに force/to_a メソッ
+ドを複数回呼ぶと、2回目以降は take の引数の個数で打ち切られずに全ての要素がかえ
+ってきていたので、2回目以降も同じ個数だけ返すようにしました。 [ruby-dev:45634]
+[Bug #6428]

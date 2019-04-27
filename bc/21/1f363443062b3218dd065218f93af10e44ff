@@ -1,0 +1,4 @@
+拡張ライブラリ digest の Digest#== に nil を渡すと String に変換しようとして
+TypeError 例外が発生してしまう不具合を修正しています。 [ruby-core:62967] [Bug #
+9913]
+ちなみに jruby でも同様とのこと。

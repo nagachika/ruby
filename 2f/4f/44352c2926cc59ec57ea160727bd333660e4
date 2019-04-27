@@ -1,0 +1,3 @@
+tool/rbinstall.rb で bundled gems の拡張ライブラリ用の処理を行なうのは CRuby(
+MRI)用の gem パッケージのみにしています。これも json 用で JRuby 用のパッケージ
+もあったりするので。

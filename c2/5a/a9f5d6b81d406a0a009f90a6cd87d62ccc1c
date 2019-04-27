@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp.rb, net/http.rb, net/pop.rb, net/smtp.rb などの rdoc
+コメントに属性(attr_reader など)のデフォルト値についての追記をしています。
+https://github.com/ruby/ruby/issues/269

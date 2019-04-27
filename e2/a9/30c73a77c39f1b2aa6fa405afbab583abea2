@@ -1,0 +1,3 @@
+r50863 の Thread#name, Thread#name= の追加の ChangeLog にチケット参照を追記した
+り NEWS に追記したり rdoc 用コメントを修正したり。 [ruby-dev:49068] [Feature #
+11251]

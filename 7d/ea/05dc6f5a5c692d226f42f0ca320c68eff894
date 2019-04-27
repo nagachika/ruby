@@ -1,0 +1,6 @@
+set_trace_func のテストで method_added フックメソッドの呼び出しのチェックしてい
+ますが、テストクラス(TestSetTraceFunc)の特異クラスに Module.method_added を直接
+移植してこれが呼ばれるようにしています。親クラスの Test::Unit::TestCase で
+method_added を再定義していたりするとそっちに取られてしまうのでそれを避けている
+んじゃないかと思います。そのためチェック時のメソッドの定義されているモジュール
+も self.class に変更しています。

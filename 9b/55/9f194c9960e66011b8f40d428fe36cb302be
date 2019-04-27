@@ -1,0 +1,3 @@
+r48338 の lib/unicode_normalize/normalize.rb の変更で case 文の when 節に ** で
+配列の展開(?)をしようとして Syntax Error になっていたので * 1つに修正しています
+。

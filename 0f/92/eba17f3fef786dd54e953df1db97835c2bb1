@@ -1,0 +1,3 @@
+r65103 の続き? ranges_include() で from が UINTPTR_MAX (つまり 0xff...ff)だった
+時は base address の指定を意味しているそうなのでそれを扱えるようにしています。
+勉強になるなぁ(←よくわかってない)。

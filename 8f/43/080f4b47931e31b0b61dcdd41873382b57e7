@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole のテストでタイムアウトするので exponential backoff で
+sleep 時間を伸ばしながら待つ間に WIN32OLE_EVENT.message_loop を呼び出してメッセ
+ージのディスパッチを促すようにしています。

@@ -1,0 +1,2 @@
+Date, DateTime の Marshal.load 用の関数で引数に渡された Array オブジェクトのク
+ラスやサイズのチェックをより厳密にしています。

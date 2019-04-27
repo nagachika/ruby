@@ -1,0 +1,6 @@
+test_io.rb の open の :autoclose オプションのテストで IO.for_fd を使ったテスト
+をメソッドを分割して、GC でオブジェクトが回収されていることを期待しているので
+WeakRef を使って回収済みでなかったら skip するようにしています。また autoclose:
+true の時は close 済みの fd を持つ IO オブジェクトが残ってしまう可能性があった
+のでここで(WeakRef 経由で)明示的に close してできるだけ後に影響しないようにして
+います。 [ruby-dev:45098] [Bug #5850]

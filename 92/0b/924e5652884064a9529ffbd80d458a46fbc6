@@ -1,0 +1,4 @@
+rubyspec で他にも socket のテストで darwin と freebsd でのみ IO.select していた
+ところがありましたが、常に呼ぶようにしています。 xxx_nonblock 系のメソッドは
+block しないと思うんですが IO.select してからじゃないと呼べないのか。それは
+nonblock なのかな…(ただ readable の時だけ呼ぶというわけでもない)。

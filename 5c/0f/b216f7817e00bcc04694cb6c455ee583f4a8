@@ -1,0 +1,4 @@
+IO#gets, IO#readlines などで利用される prepare_getline_args() で引数の数のチェ
+ックを先頭で rb_check_arity() を呼び出すことで例外メッセージに期待される引数が
+可変であることを表示するようにしています。これまでは 3つ以上の引数を渡すと
+"wrong number of arguments (3 for 2)" となっていました。

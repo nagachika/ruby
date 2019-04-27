@@ -1,0 +1,2 @@
+r64964 の RUBY_EXTERN の定義の変更部分のコメントに win32/Makefile.sub への参照
+を追記しています。

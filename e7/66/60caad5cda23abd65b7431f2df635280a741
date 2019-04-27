@@ -1,0 +1,4 @@
+SecureRandom.random_bytes で引数を to_int で整数に変換してから利用するようにし
+ています。
+/dev/urandom から読み込んだサイズが不一致になっていたのは引数に Float かなにか
+を渡していたようですね。

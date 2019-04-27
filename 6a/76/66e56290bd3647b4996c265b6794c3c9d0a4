@@ -1,0 +1,2 @@
+io.c と addr2line.c の未使用の変数を削除(addr2line.c のほうはコメントアウト)し
+ています。 [ruby-dev:45627]

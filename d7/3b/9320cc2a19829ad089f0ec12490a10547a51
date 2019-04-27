@@ -1,0 +1,9 @@
+RGENGC_CHECK_MODE が 2以上に定義されていた時の RGenGC のデバッグ用のチェックに
+新たな Write Barrier 挿入漏れを検出する方法を追加しています。 mark bitmap を保
+存しておいて、full marking を実行して
+  • 旧世代ではない
+  • 親オブジェクト(参照元?)が旧世代
+  • 親オブジェクトが remember set に入っていない
+  • remember set に入っていない
+というオブジェクトがあったら Write Barrier 漏れだと判定しています。この条件だと
+親か自分のいずれかが remember set に入っているはずということですね。

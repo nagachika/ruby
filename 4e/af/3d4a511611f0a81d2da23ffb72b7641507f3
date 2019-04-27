@@ -1,0 +1,2 @@
+YAML のデフォルトの実装を Psych に切り替えています。 syck を利用するには YAML
+::ENGINE.yamler = "syck" を実行するそうです。 [ruby-core:36374] [Bug #4758]

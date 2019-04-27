@@ -1,0 +1,2 @@
+r49514 の doc/security.rdoc で Symbol を immortal 化する原因として ID2SYM() を
+使うと書かれていたのを SYM2ID() に修正しています。

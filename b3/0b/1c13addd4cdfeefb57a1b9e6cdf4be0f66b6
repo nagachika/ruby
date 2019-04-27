@@ -1,0 +1,2 @@
+mjit.c の rb_cloexec_open() で C のソースファイル用にファイルを rb_cloexec_open
+() で開く時のフラグに O_BINARY があれば追加するようにしています。

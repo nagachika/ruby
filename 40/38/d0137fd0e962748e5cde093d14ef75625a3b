@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServer の create_request と
+create_response メソッドというのを追加して、Request/Response のオブジェクト生成
+をこのメソッドで行うようにしています。継承したクラスを作った時にこのメソッドを
+再定義して利用する Request/Response のクラスも変更できるようにするためだそうで
+す。 [ruby-core:69604] [Feature #11266]

@@ -1,0 +1,2 @@
+misc/ruby-additional.el の ruby-encode-unicode のキーバインディングの変更。
+uncomment-region とかぶっていたので変更したそうです。

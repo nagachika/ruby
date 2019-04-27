@@ -1,0 +1,5 @@
+実行体が ELF フォーマットを使っているかどうかの判別を __ELF__ ではなく
+configure でチェックして定義している USE_ELF に変更しています。 Solaris の
+SunStudio で __ELF__ が定義されないそうです。 [ruby-dev:44066] [Bug #4998]
+というか今は最新版は Sun Studio じゃなくて Oracle Solaris Studio 12 になってる
+んですね……。

@@ -1,0 +1,3 @@
+r67576 で再追加したテストで GC.compact のかわりに GC.compct で移動されたオブジ
+ェクトの slot を参照しているものがないことを追加で確認する GC
+.verify_compaction_references を呼び出すようにしています。

@@ -1,0 +1,1 @@
+IO#open の rdoc のフォーマット修正。 [ruby-core:48052] [Bug #7179]

@@ -1,0 +1,3 @@
+tool/config.guess, tool/config.sub の対応するプラットフォームに AIX 7 と MSYS
+を追加。また xscale, hexagon, tile*, NEO-? etc... などのアーキテクチャに対応。
+って本当にこんなプロセッサ上で動くのかな。その他もたくさん追加されています。

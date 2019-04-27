@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::x509::Attribute#value0 で引数のクラスのチェ
+ックを強化しています。

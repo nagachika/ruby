@@ -1,0 +1,4 @@
+Enumerator を生成するためのもうひとつの方法である Object#to_enum、 enum_for を
+ブロックを受け付けるようにしています。このブロックは Enumerator#size の計算のた
+めのもので、 r37497 の Enumerator.new の size 引数に Proc オブジェクトを渡した
+時のものと同等の扱いだと思います。 [ruby-core:45805] [Feature #6636]

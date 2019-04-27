@@ -1,0 +1,5 @@
+r43735 と同様の対処だと思うのですが、SystemStackError を発生させるテストで
+assert_separately を使って子プロセスで SystemStackError を rescue しているはず
+なのになぜか外に例外が漏れてしまうということがあるそうで、
+test_machine_stackoverflow_by_define_method でも同様に SystemStackError を親プ
+ロセスで rescue する対応をしています。

@@ -1,0 +1,4 @@
+同じく r61733 の tool/ruby_vm/views/_insn_name_info.erb および tool/ruby_vm/
+views/_insn_operand_info.erb で insn_name_info の宣言に文字列の配列を使っていた
+のを、構造体メンバーに分割する template/insns_info.inc.tmpl と同様の手法を使う
+ようにしています。 position independent を保つためとのこと。

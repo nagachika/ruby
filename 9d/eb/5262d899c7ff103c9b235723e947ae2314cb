@@ -1,0 +1,3 @@
+Etc.sysconf の rdoc 用コメントのサンプルを CPU コア数を返す
+Etc::SC_NPROCESSORS_ONLN にしていたのを Etc::SC_LOGIN_NAME_MAX に変更しています
+。 Etc.nprocessors が追加されたからでしょうか。

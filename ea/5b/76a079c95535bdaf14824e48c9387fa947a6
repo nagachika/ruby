@@ -1,0 +1,2 @@
+Numeric#quo で Integer だった時の Rational#/ を呼び出すのをメソッド呼び出しを用
+いていたのを nurat_div() を直接呼び出すように最適化しています。

@@ -1,0 +1,3 @@
+Pathname.binread のテストメソッドで binread ではなく read を呼んでいたのを修正
+。まあ "abc" を比較するだけなら read でも binread でも同じなので encoding のチ
+ェックもしたほうがいいのかもしれませんね。 [ruby-core:42440] [Bug #5984]

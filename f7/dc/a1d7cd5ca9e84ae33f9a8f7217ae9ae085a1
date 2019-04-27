@@ -1,0 +1,2 @@
+拡張ライブラリ io/wait の io_wait_readable() と io_wait_writable() からタイムア
+ウト値の引数の処理部分を get_timeout() という関数に切り出して共有させています。

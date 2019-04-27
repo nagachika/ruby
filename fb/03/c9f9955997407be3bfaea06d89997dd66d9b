@@ -1,0 +1,7 @@
+NODE の NODE_PRELUDE という種類を削除しています。 NODE_PRELUDE っていうのはどう
+も BEGIN{} ブロックで定義された処理と本体の NODE をぶらさげたり、全体に影響する
+コンパイルオプションを保持するためのものみたいですが、AST の root NODE の直下に
+ないといけないという制約があったので、その前提に依存するのはやめて普通の
+NODE_BLOCK にして、コンパイルオプションは r61608 で分離した rb_ast_body_t の
+reserved メンバーを compile_option と改名してそこに保持するように変更しています
+。rb_node_body_t 分離はこれのためだったか。

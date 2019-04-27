@@ -1,0 +1,3 @@
+rubygems を 3.0.1 に更新しています。gem のインストール時のディレクトリの mode
+の修正や Dir.home を dup してからわたす変更など。 Dir.home って frozen になった
+んだっけ。 https://blog.rubygems.org/2018/12/23/3.0.1-released.html

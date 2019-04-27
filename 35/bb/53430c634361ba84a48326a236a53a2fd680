@@ -1,0 +1,2 @@
+WEBrick::HTTPServlet::ERBHandler で ERB で content-type ヘッダーの変更ができる
+ように機能拡張しています。 [Bug #4685]

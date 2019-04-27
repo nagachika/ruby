@@ -1,0 +1,4 @@
+thread_pthread.c で一時的に利用している pthread_condattr_t を
+pthread_condattr_init() で初期化後に後始末をしていなかったので
+pthreadc_condattr_destroy() の呼び出しを追加しています。 [ruby-core:47619] [Bug
+#7041]

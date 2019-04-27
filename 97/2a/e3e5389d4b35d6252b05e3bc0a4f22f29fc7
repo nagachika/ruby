@@ -1,0 +1,4 @@
+bignum.c の bary_unpack_internal() にも BDIGIT サイズと wordsize の組み合わせに
+応じた特別扱いした実装を追加しています。また
+INTEGER_PACK_FORCE_GENERIC_IMPLEMENTATION フラグで強制的に一般的な実装を利用す
+るようにするのも同時にサポートするようにしています。

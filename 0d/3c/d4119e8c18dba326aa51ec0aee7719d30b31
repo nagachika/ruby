@@ -1,0 +1,6 @@
+SEGV した時など rb_bug() を呼んでバックトレースを表示する時にマシンスタックのト
+レースは Mac OS X では ~/Library/Logs/CrashReporter などに出力されるので、そち
+らを探すようにメッセージを出力しているのですが、その探す対象のディレクトリに /
+Library/Logs/DiagnosticReports も含めています。
+Lion だと本体は ~/Library/Logs/DiagnosticReports に出力されて、~/Library/Logs/
+CrashReporter にシンボリックリンクがはられますね。

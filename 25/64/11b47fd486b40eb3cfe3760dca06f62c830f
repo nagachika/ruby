@@ -1,0 +1,3 @@
+チケットみると String#-@ で常に dedup して欲しいという内容で、既に freeze され
+ている String オブジェクトに対して呼ばれた時も dedup するようにしています。
+[ruby-core:85669] [Feature #14478]

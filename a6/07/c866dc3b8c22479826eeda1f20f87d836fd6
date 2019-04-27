@@ -1,0 +1,3 @@
+io.c の内部的に使う構造体 struct copy_stream_struct のメンバーの順序に入れ替え
+と close_src、close_dst のフラグに bit field を使うようにして構造体サイズ節約し
+ています。久しぶりの構造体ダイエットだ。

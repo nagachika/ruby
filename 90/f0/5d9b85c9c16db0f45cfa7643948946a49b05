@@ -1,0 +1,2 @@
+appveyor.yml で configure.bat の --without-ext に gdb, gdbm, readline, tk/
+tkutil などを指定してこれらの拡張ライブラリはビルドしないように指定しています。

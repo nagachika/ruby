@@ -1,0 +1,3 @@
+configure.in を configure.ac に改名しています。 autoconf の処理するファイル名の
+慣習(?)が変わってたんですねー。しかしこれ configure.ac への変更のバックポートが
+ツラいな…。 [ruby-core:83046] [Feature #13946]

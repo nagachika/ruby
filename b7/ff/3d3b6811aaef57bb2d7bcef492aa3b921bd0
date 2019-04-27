@@ -1,0 +1,6 @@
+Solaris で ruby-glommed.o の make のルールの依存関係がおかしくて生成されないの
+を修正。 ruby-glommed.o の依存関係を common.mk に移動しています。OBJ が定義され
+ているのが common.mk だからとのこと。 Makefile を include した時の処理順で
+Makefile.in にあると $OBJ が空のままになってしまうそうです。また重複している
+DTRACE_OBJ への依存関係(r49451 以降 OBJS に含まれているので)は削除しています。
+r49419 の一部 revert になります。 [ruby-dev:48849] [Bug #10808]

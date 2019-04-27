@@ -1,0 +1,1 @@
+parse.y の NULL_LOC という変数を static 変数に変更しています。

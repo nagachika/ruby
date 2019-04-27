@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::PKey#verify で EVP_MD_CTX_cleanup() の呼び忘
+れによるメモリリークがあったのを修正しています。 [ruby-core:62038] [Bug #9743]

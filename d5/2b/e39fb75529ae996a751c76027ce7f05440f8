@@ -1,0 +1,2 @@
+Find.find の rdoc 用コメントに block が渡されなかったら Enumerator が返ることを
+追記しています。

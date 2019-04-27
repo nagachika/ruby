@@ -1,0 +1,3 @@
+OpenSSL::Digest.new でハッシュ関数の名前を文字列だけでなくて
+OpenSSL::ASN1::ObjectId の oid, sn, ln など(何のことはかよくわかっていませんが)
+からも生成できるように機能を追加しています。 [ruby-core:35319] [Feature #4412]

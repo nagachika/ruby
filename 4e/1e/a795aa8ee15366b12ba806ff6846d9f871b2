@@ -1,0 +1,2 @@
+r52350 で encoding.c の一部インデントがずれてしまっていたのと ChangeLog エント
+リの typo 修正。

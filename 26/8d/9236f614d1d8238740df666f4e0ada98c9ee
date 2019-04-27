@@ -1,0 +1,4 @@
+MJIT 用のテンプレート tool/ruby_vm/views/_mjit_compile_insn_line.erb を tool/
+ruby_vm/views/_mjit_compile_insn.erb に移動して tool/ruby_vm/views/
+_mjit_compile_insn.erb から行毎でなく insn 全体の処理をまかせるようにリファクタ
+リングしています。

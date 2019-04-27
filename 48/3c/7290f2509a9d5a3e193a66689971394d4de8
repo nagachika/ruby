@@ -1,0 +1,3 @@
+Enumerable#each_with_object や Enumerator#with_object で作った Enumerator の
+inspect の結果の文字列にメッソド名の末尾が削れてるのと引数の Hash の表示がない
+というのを修正しています。よく気がつくなぁ。 [ruby-core:90685] [Bug #15455]

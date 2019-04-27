@@ -1,0 +1,6 @@
+MirOS BSD 10 で getgrnam_r(3) はあるものの _SC_GETGR_R_SIZE_MAX マクロ定数が存
+在しないということがあるらしく、Process.getgrnam_r() と _SC_GETGR_R_SIZE_MAX が
+両方定義されているかどうか確認して利用するように条件コンパイルのチェック条件を
+変更しています。 getpwnam_r() と _SC_GETPW_R_SIZE_MAX も同様にしています(が
+MirOS BSD には getpwnam_r() も _SC_GETPW_R_SIZE_MAX も存在しないらしいのでこれ
+は対称性のためでしょう)。

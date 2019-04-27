@@ -1,0 +1,2 @@
+r62268 で File::NULL の内容を得るために mjit.c で file.c の変数を参照するため
+extern 宣言していたのを internal.h ヘッダに移動しています。

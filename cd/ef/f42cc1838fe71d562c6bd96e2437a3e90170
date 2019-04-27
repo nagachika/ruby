@@ -1,0 +1,5 @@
+thread_win32.c/h で rb_thread_lock_t を CRITICAL_SECTION と HANDLE の union と
+して定義して USE_WIN32_MUTEX での型を正確に扱えるようにしています。 #if で分岐
+しているので型も USE_WIN32_MUTEX で typedef を変更してもいいような気もしますが
+rb_thread_t に含まれるのでできるだけ環境で変化しないようにということでしょうか
+。

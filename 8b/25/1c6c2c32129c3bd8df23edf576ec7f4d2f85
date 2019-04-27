@@ -1,0 +1,3 @@
+r49564 および r55285 で拡張ライブラリ digest と openssl でマクロ展開時にセミコ
+ロンがよぶんに付いていて Oracle Solaris Studio 12 で警告が出ていたのを修正して
+います。 [ruby-dev:49692] [Bug #12524]

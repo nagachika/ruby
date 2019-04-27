@@ -1,0 +1,6 @@
+Enumerator::Lazy#take が 1つ余分に値を取り出していたのを修正。 take の引数が 0
+だった時には Enumerator::Lazy.new に :cycle を渡して対象のオブジェクトの each
+のかわりに cycle(0) を呼ぶようにしています。引数が 0 でも一度は yield 呼ぶよう
+になったので each だと進んでしまうから cycle を使っているものと思います。
+Enumerable#cycle には引数を渡すと繰り返す回数を指定できるんですね。
+[ruby-dev:45370] [Bug #6152]

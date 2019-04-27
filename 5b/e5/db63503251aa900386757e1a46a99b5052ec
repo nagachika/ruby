@@ -1,0 +1,4 @@
+標準添付ライブラリ csv で CSV.new で headers と fields の数が多いほうを Array#
+zip の receiver にしようとしているところで、数が一致していた時に reverse が必要
+な無駄が多いパスを通るようになっていたので、条件を変更しています。
+[ruby-core:63215] [Feature #9952]

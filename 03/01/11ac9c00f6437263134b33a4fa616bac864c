@@ -1,0 +1,3 @@
+Win32OLE のテストを修正しています。 Windows の FileSystemObject が ANSI か
+UTF-16LE のエンコーディングしかサポートしていないのでエンコーディングの指定を変
+更しています。 [Bug #6650]

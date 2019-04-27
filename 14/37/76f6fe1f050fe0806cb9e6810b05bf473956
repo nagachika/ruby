@@ -1,0 +1,3 @@
+で r65468 や r65471 の再々トライで rb_mjit_unit の linked list に ccan/list を
+利用するように書き換えています。この後 revert されてないのでこれで成功したかも
+。

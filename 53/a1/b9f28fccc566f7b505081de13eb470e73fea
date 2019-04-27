@@ -1,0 +1,2 @@
+.gdbinit の rp, output_string, rp_string コマンドで文字列オブジェクトのバッファ
+の NUL 文字の後も出力するようにしています。

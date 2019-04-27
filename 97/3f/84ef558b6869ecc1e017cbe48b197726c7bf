@@ -1,0 +1,2 @@
+r65984 の Object#=~ の警告出力時に receiver の Class もメッセージに含めるように
+しています。 [ruby-core:89438] [Feature #15231]

@@ -1,0 +1,3 @@
+標準添付ライブラリ erb の ERB#result の rdoc 用コメントに引数に Proc オブジェク
+トが渡せると古い情報が書いてあったのを修正しています。 https://github.com/ruby/
+ruby/pull/619

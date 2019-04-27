@@ -1,0 +1,5 @@
+r64073 の再修正。 NOT_ADDED_JIT_ISEQ_FUNC でなく NOT_READY_JIT_ISEQ_FUNC でクリ
+アするようにしています。また free_unit() にコメントをつけてこの関数の挙動につい
+て追記しています。そして unload_units() からも free_unit() を呼ぶようにしていま
+す。 unload_units() では xfree() が呼ばれてなくてメモリリークしていたみたいです
+。

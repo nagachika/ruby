@@ -1,0 +1,5 @@
+拡張ライブラリ rbconfig/sizeof で int8_t/int16_t/int32_t/int64_t および
+intptr_t のサイズチェックを mkmf.rb の check_sizeof を利用していたのを
+configure.in から RUBY_DEFINT() を拝借して利用するようにしています。差がよくわ
+かりませんが(というか configure.in 読めない) universal binary 対応しているそう
+です。

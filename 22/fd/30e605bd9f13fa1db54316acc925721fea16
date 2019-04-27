@@ -1,0 +1,2 @@
+r67429 の super での inline cache 有効化が CI でエラーになったため revert して
+います。

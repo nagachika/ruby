@@ -1,0 +1,2 @@
+fake.rb のテンプレートで CROSS_COMPILING という定数を remove_const しているとこ
+ろ、元々定数が未定義だったら飛ばすようにしています。

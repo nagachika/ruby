@@ -1,0 +1,2 @@
+Net::HTTP の rdoc で接続を切るためのメソッドとして誤って close と書かれていたと
+ころを finish に改めています。 [ruby-core:38163] [Bug #5045]

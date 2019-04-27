@@ -1,0 +1,5 @@
+と、思ったらさっそく r64576 で wakeup miss があったとのことで追加修正。
+waitpid_each() の割り込み処理を waitpid_signal() という関数に切り出して
+sigwait_fd_migrate_sleeper() からもこれを呼び出して待ってる thread の待ちかたに
+よって起こしかたを(rb_threadptr_interrupt() にするのか fd を使った通知にするの
+か)を変えるようにしています。

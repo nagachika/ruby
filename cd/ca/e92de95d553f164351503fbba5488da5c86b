@@ -1,0 +1,2 @@
+fake.rb(実際のファイル名は $(arch)-fake.rb)の生成ルールを Makefile.in と win32/
+Makefile.sub に分離されていたのを common.mk に移動して共通のものにしています。

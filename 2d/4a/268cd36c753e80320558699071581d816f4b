@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_push_frame() で prev_cfp が有効な cfp かチェックする前に
+VM_FRAME_RUBYFRAME_P() でタイプ判定してたので、条件分岐の後に移動しています。

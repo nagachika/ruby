@@ -1,0 +1,2 @@
+Test::Unit の並列実行時の子プロセスの終了を監視する Thread の処理を
+start_watchdog というメソッドに切り出しています。

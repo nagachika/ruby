@@ -1,0 +1,2 @@
+r35541 の minitest マージで assert_match/refute_match の挙動が変化して失敗する
+ようになったテストを修正しています。 [ruby-core:44884][Bug #6405]

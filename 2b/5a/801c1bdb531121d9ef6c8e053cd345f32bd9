@@ -1,0 +1,2 @@
+doc/standard_library.rdoc からコアに取り込まれたため標準添付ライブラリではなく
+なった ConditionVariable と Queue のクラス名を削っています。

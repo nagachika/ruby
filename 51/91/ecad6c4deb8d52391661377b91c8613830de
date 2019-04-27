@@ -1,0 +1,5 @@
+拡張ライブラリ readline を GNU Readline 6 とリンクした時に
+completion_append_character を空にしても補完すると、GNU Readline が readline(3)
+内でリセットしてしまうため、補完結果のあとに空白が挿入されてしまうので、拡張ラ
+イブラリ側で保存しておいて補完処理に入った時に毎回戻すようにしています。
+[ruby-dev:43456] [Feature #4635]

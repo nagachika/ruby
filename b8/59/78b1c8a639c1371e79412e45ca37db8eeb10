@@ -1,0 +1,2 @@
+File.fnmatch のテストで envutil.rb で定義した assert_file という assertion を利
+用するように書き変えています。

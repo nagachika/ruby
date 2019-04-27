@@ -1,0 +1,3 @@
+r67507, r67508 の続きで Azure Pipelines の Ubuntu 環境で sed を使って /etc/apt/
+sources.list の deb-src の指定のコメントアウトを外して有効にするようにしていま
+す。そして apt-get update を復活させています。

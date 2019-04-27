@@ -1,0 +1,5 @@
+tool/make-snapshot で環境変数の BASERUBY, RUBY, MINIRUBY がそれぞれ --disable-
+gem オプションを受け付けるなら変数内に --disable-gem を含めるようにしています。
+miniprelude.c の生成のための tool/compile_prelude.rb の実行時にビルドディレクト
+リの rbconfig.rb を読んでしまわないようにするための修正の一環だと思います。
+[ruby-core:50736] [Bug #7541]

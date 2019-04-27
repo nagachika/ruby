@@ -1,0 +1,2 @@
+[ruby-dev:42775] で報告された configurel.bat の --program-prefix が効かない(
+Windows上でのビルド)不具合を修正。

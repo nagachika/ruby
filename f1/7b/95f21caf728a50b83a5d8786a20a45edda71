@@ -1,0 +1,2 @@
+FileUtils.chmod の sticky bit のテストについて AIX も対象から外しています。
+odaira さんの初コミットですね。よろしくおねがいします。

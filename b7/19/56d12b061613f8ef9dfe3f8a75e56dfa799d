@@ -1,0 +1,6 @@
+Method#owner が include/prepend と alias が組み合わされた時に alias が定義され
+たクラスを返すように修正しています。 [ruby-core:52206] [Bug #7842] この影響で
+prepend+alias でメソッド呼び出しの順番がスキップされたり([ruby-core:53070] [Bug
+#7993])、 include と alias で alias したメソッドを呼ぶメソッドを定義した Module
+を include して呼ぶと無限再帰が発生する不具合などがあったようです(
+[ruby-dev:47846] [Bug #9236])。

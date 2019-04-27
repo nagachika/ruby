@@ -1,0 +1,4 @@
+tool/make-snapshot で tool/vcs.rb の VCS#branch_list に正規表現を渡していました
+が、ここは glob のメタキャラクタを使った文字列を渡すべきだったので修正していま
+す。さらに tool/vcs.rb 側も検出した branch 名を chomp! してからブロックを呼び出
+すようにしています。 [ruby-core:67064] [Bug #10636]

@@ -1,0 +1,1 @@
+io.c の pipe_open_v() および pipe_open_s() の未使用の変数を削除しています。

@@ -1,0 +1,2 @@
+拡張ライブラリ strscan を default gem 化すべく .gemspec ファイルを追加していま
+す。

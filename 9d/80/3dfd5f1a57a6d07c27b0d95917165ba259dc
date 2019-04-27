@@ -1,0 +1,3 @@
+TracePoint#return_value と TracePoint#raised_exception で値が Qundef でないかの
+チェックの前にイベントの種別がそれぞれ return value や exception を返すに相応わ
+しいものかをチェックするようにしています。

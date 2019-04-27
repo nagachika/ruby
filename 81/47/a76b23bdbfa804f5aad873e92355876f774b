@@ -1,0 +1,4 @@
+iseq->compile_data->err_info が 0(Qfalse)で初期化されているため rb_iseq_load()
+で例外が発生していたため Qnil で初期化するようにしました。この関数は現在は非公
+開の API の rb_iseq_s_load() から呼ばれるので iseq gem などを使って使えるように
+した時にだけ関係するものです。

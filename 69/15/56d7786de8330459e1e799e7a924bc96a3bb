@@ -1,0 +1,2 @@
+crypt.h を missing/crypt.h に移動しています。system header との競合を避けるため
+。

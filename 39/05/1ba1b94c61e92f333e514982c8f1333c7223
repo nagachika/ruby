@@ -1,0 +1,3 @@
+test/lib/leakcheker.rb の LeakChecker#check_fd_leak で IO.console(:close) を呼
+び出していたのを find_fds の中に移動しています。今は実質あまり違いがなさそうで
+すが、find_fds を別の場所からも呼ぶことを見据えているのでしょうか。

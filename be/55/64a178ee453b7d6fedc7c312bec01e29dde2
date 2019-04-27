@@ -1,0 +1,5 @@
+rb_vm_pop_frame() という vm_pop_frame() を wrap した関数を追加して、
+rb_thread_t::cfp を直接操作していたところでこの関数経由で control frame を pop
+するようにしています。また vm_pop_frame() に cfp と ep という引数を追加していま
+す。 ep はまだ使ってないな、と思ったらコメントにも "we'll use ep soon" と書かれ
+ているのでそのうちこれを使う変更を入れる予定みたいです。

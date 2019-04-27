@@ -1,0 +1,3 @@
+で r66655 の続きで rubyspec の Process.clock_gettime のテストで solaris をまた
+除外しています。てっきり環境に応じて除外する CLOCK_XXX の種類を細かく制御するの
+かなと思ったらそうじゃないんですね。

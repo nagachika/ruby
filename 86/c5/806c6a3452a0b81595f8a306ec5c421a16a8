@@ -1,0 +1,3 @@
+parse.y で YYLTYPE の値の初期化用の初期化子のマクロ RUBY_INIT_YYLLOC() を導入し
+て RUBY_SET_YYLLOC() のかわりに使うようにしています。 RUBY_SET_YYLLOC() も中身
+の rb_parser_set_location() では同様の初期化をしてると思うけど。

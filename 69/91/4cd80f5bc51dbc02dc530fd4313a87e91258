@@ -1,0 +1,2 @@
+r66249 で追加した TracePoint の script_compiled イベントのテストを追加。
+[ruby-core:89742] [Feature #15287]

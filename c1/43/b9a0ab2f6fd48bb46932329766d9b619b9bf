@@ -1,0 +1,2 @@
+r45661 で追加の File::Statfs の実装 statfs_fsid() で aliasing の警告除去のため
+型の変換を共用体を使った実装に変更しています。

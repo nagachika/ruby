@@ -1,0 +1,2 @@
+r64802 の最新の Xcode での警告抑制のための wrapper tool/darwin-cc の利用を
+configure 内で移動して CPP の設定の後にしているそうです。

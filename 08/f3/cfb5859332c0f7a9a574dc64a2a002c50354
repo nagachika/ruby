@@ -1,0 +1,3 @@
+昨日に引き続き Enumerator などで利用されている struct MEMO の実体も T_NODE 型か
+ら T_IMEMO 型のオブジェクトに移動しています。ついでに setter マクロに
+WriteBarrier の挿入を追加しています。

@@ -1,0 +1,2 @@
+r40373 と同様に test/ruby/test_rubyoptions.rb のテストで子プロセスを起動すると
+きに --disable-gems オプションをつけるようにしています。

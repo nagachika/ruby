@@ -1,0 +1,2 @@
+rb_str_capitalize_bang() と rb_str_swapcase_bang() でも :ascii オプション指定時
+に rb_str_ascii_casemap() にまかせるように変更しています。

@@ -1,0 +1,3 @@
+test/ruby/test_settracefunc.rb の TracePoint のテストで子プロセス内で呼ばれるた
+めフック内で Thread のチェックをする utility メソッドが呼べないのに呼んでたのを
+削っています。ここでは Thread のチェックは不要だった模様。

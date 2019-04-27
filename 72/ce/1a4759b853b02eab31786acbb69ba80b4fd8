@@ -1,0 +1,2 @@
+catch-throw 構文についてのテストを追加しています。throw のない catch、無引数の
+catch(タグの自動生成)、対応する catch がない throw による例外などのケース。

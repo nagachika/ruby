@@ -1,0 +1,4 @@
+internal.h に time_t の最大値 + 1 の数を返す TIMET_MAX_PLUS_ONE を追加して、
+Float::INFINITY の時だけじゃなく上限を越えている時も TIMET_MAX に丸めるようにし
+ています。また struct timeval の tv_usec も 999999 をセットしてより上限に近付け
+るようにしています。

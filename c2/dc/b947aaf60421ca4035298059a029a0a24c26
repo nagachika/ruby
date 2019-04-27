@@ -1,0 +1,4 @@
+r43973 で RClass のメソッドテーブルを Module と IClass で共有できるようにした時
+に RCLASS_M_TBL_WRAPPER() だけ比較すればいいのに RCLASS_M_TBL() を比較している
+ままだった部分が Module#include や is_kind_of?、Module#<=> などの実装で残ってい
+てかえって遅くなっていたので追加修正しています。

@@ -1,0 +1,4 @@
+Refinement の仕様変更です。 Module#refine の影響はこれまでそのモジュール内なら
+どこでも有効だったのですが refine のブロックの中でのみ適用されるようになってい
+るようです。それから Symbol#to_proc で作った Proc が refinement の影響を受けな
+いようにしています。

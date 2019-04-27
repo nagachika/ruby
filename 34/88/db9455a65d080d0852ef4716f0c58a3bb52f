@@ -1,0 +1,3 @@
+FileUtils のテスト test/fileutils/fileasserts.rb にさらに assert_filemode と
+assert_equal_filemode という独自 assertion を追加してファイルの mode のチェック
+にこれを利用するようにしています。

@@ -1,0 +1,2 @@
+Integer#upto, downto でブロックを渡さずに呼んだ時に作る Enumerator の size 対応
+。 [ruby-core:45805] [Feature #6636]

@@ -1,0 +1,2 @@
+test/lib/test/unit.rb で --excludes-dir のヘルプメッセージに separator を追加し
+ています。

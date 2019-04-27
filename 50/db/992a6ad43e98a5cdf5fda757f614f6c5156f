@@ -1,0 +1,3 @@
+Kernel#warn で r56269 で導入された Warning.warn を呼び出すようにしてカスタマイ
+ズが効くようにしています。ただし Kernel#warn の挙動が少し変化するみたいです。
+[ruby-core:78156] [Feature #12944]

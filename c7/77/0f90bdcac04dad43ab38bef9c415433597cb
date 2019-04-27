@@ -1,0 +1,4 @@
+Module#prepend で特異クラスに Module を prepend されると Kernel#
+singleton_method がメソッドをみつけられなくなることがある不具合を修正しています
+。 RCLASS_ORIGIN() を使うようにしていますが、こうすると今度は prepend で差し込
+まれたメソッドが取れなくならないでしょうか。 [ruby-core:86435] [Bug #14658]

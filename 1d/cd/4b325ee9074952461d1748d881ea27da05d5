@@ -1,0 +1,5 @@
+openssl にメソッドが追加されています。SSL_get_client_CA_list() ラッパとして
+OpenSSL::SSLSocket#client_ca が追加されています。また ossl_???_ary2k() という関
+数を定義するためにマクロを利用するようにリファクタリングしています。このマクロ
+を利用して ossl_x509_name_sk2ary() の定義を追加しています。 [ruby-core:35461]
+[Feature #4481]

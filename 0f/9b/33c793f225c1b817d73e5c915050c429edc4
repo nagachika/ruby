@@ -1,0 +1,7 @@
+Thread.async_interrupt_timing を Thread.handle_interrupt に改名し、
+Thread.async_interrupted は Thread.pending_interrupt? に改名しています。また
+Thread.handle_interrupt で受け付けるモードの引数の :defer は :never に(再び)改
+名しています。 [ruby-core:51074] [Feature #6762]
+これにより内部的な関数名や構造体メンバの名称も変更になりました。
+async_errinfo_queue も pending_interrupt_queue になったので、こういう場合変更前
+に書いた ChangeLog の説明も追随したほうがいいのかなぁ…。

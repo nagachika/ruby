@@ -1,0 +1,4 @@
+ruby 本体のテスト用のライブラリ test/unit の AllFailures#message の文字列を埋め
+込む各メッセージの encoding に force_encoding するようにしています。これ最後に
+Array#join で連結する時に結局 Encoding::CompatibilityError になったりしないのか
+な。

@@ -1,0 +1,2 @@
+ファイルシステムによって File#seek の SEEK_DATA が使えるかの判定を利用して
+SEEK_HOLE のテストでも skip するようにしています。

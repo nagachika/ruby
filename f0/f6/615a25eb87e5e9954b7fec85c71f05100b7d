@@ -1,0 +1,2 @@
+misc/lldb_cruby.py の lldb_inspect で T_REGEXP 型のオブジェクト(正規表現)の表示
+に対応しています。

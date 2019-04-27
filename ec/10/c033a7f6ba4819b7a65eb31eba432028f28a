@@ -1,0 +1,4 @@
+ruby_atomic.h に ATOMIC_VALUE_EXCHANGE() と ATOMIC_VALUE_CAS() という VALUE 型
+の変数に対する atomic な操作を行うマクロを追加しています。といっても size_t と
+VALUE サイズが異なる環境では代替実装の関数へ展開されるようになってて atomic 性
+は保障されてないみたいですけど。

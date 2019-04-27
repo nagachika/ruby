@@ -1,0 +1,4 @@
+Psych::Visitors::Visitor からインスタンス変数 @started, @finished とその reader
+を削除しています。Visitor クラスは継承して子クラスを使うためのクラスらしいので
+、そちらで適切な実装をしなさいということのようです。そして実際に継承している
+YAMLTree に実装が移動されています。

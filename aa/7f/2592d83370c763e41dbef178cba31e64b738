@@ -1,0 +1,2 @@
+Random#rand のテストで Random.new に seed を明示的に渡して seed 値を固定するよ
+うにしています。

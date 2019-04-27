@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle で libffi のビルド時のコンパイラオプション
+--enable-shared と --enable-static の利用条件が間違っていたのを修正しています。
+[ruby-dev:48901] [Bug #10960]

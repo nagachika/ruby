@@ -1,0 +1,3 @@
+r44294 で struct RClass から super が rb_classext_t に移動されていたのに
+.gdbinit で定義している gdb の rb_method_entry と rb_ancestors というコマンドを
+追随させています。

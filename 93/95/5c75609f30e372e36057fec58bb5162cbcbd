@@ -1,0 +1,4 @@
+テストライブラリの assert_ruby_status や assert_separately でエラー時に出力する
+メッセージに macOS の場合に別途 Diagnostic Report のファイルの内容を読み込む場
+合にその内容を出力する前に "Diagnostic reports:" という行を追加するようにしてい
+ます。

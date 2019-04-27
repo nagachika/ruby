@@ -1,0 +1,3 @@
+coverage/README を追加して make test-all の coverage 測定の方法について記述して
+います。このため coverage/ ディレクトリごと .gitignore でリポジトリに入らないよ
+うに無視させてたのを coverage/simplecov のみ無視するようにしています。

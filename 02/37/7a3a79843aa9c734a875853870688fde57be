@@ -1,0 +1,4 @@
+r54906 で修正した Net::HTTPHeader#each_header, #each_name, #
+each_capitalized_name, #each_value, #each_capitalized などのメソッドの rdoc 用
+コメントに、ブロックを渡さずに呼ぶと Enumerator が返されることを追記しています
+。

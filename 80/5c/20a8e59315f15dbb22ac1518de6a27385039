@@ -1,0 +1,3 @@
+標準添付ライブラリ pp, resolv, tmpdir およびそのテストや tool/
+transcode-tblgen.rb に frozen_string_literal magic comment を追加して必要なとこ
+ろに String#dup を追加しています。

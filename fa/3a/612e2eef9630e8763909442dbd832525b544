@@ -1,0 +1,3 @@
+fileutils の gemspec ファイルのバージョンを 0.7.1 に更新しています。今は
+fileutils.gem は reserved になっていますけど fileutils-0.7 っていうのが存在して
+いたみたいです。

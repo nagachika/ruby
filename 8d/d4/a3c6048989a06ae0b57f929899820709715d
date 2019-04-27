@@ -1,0 +1,2 @@
+dir.c の Dir.new, Dir.open, Dir.foreach, Dir.entries などのメソッドが :encoding
+オプションを受け付けていることを rdoc 用コメントに追記しています。

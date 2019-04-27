@@ -1,0 +1,2 @@
+r42271 の dup + force_encoding("ASCII-8BIT") のかわりに String#b を利用するよう
+にしています。

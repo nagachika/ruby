@@ -1,0 +1,3 @@
+標準添付ライブラリ uri で URI::Generic.use_proxy? で no_proxy のドメインの先頭
+を "." ではじめてサブドメインにマッチさせることもできるようにしています。
+https://github.com/ruby/ruby/pull/1748 [ruby-core:84789] [Bug #14345]

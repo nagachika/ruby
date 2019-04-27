@@ -1,0 +1,3 @@
+拡張ライブラリ socket の UDPSocket#send で rb_ensure() を使って確保した struct
+rb_addrinfo を例外発生時にも解放するように修正しています。潜在的メモリリークが
+あったようですね。

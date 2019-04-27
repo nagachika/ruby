@@ -1,0 +1,3 @@
+拡張ライブラリ objspece で ObjectSpace::InternalObjectWrapper ために切り出した
+関数 type2sys() でオブジェクトの型情報をシンボルに変換する時に int ではなくて
+enum ruby_value_type 型で指定するようにリファクタリング。

@@ -1,0 +1,5 @@
+configure で sys/prctl.h というヘッダの有無をチェックして、Linux で prctl(2) と
+いうシステムコールを呼んでタイマースレッドのプロセス名を "ruby-timer-thr" とい
+う名前に設定するようにしています。
+これ prctl() を呼ぶ時に PR_SET_NAME の定義の有無も確認したほうがいいんじゃない
+でしょうか。man page を見ると PR_SET_NAME は 2.6.9 以降とありますし。

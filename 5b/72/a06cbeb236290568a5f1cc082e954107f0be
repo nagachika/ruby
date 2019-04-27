@@ -1,0 +1,2 @@
+r57948 の続きで rb_thread_fd_close() は異常終了するので NORETURN() でマークして
+います。

@@ -1,0 +1,2 @@
+rdoc の rdoc/generator/json_index.rb で拡張ライブラリ zlib が使えない時は
+RDoc::Generator::JsonIndex#generate_gzipped で何もしないようにしています。

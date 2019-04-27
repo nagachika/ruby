@@ -1,0 +1,2 @@
+gc.c の rb_raw_obj_info() で USE_RGENGC が 0 に定義され RGenGC が無効化された時
+にビルドエラーになっていたのを修正しています。

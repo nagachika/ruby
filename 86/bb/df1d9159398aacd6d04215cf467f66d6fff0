@@ -1,0 +1,2 @@
+probes.d から probes.h を作る時の guard 用の #ifndef などのマクロ名を置換する時
+に RUBY_PROBE_H と RUBY_ を prefix につけるようにしています。

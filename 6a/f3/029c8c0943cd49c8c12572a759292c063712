@@ -1,0 +1,3 @@
+テストで interned? の呼び出しがないことを assert_not_send でチェックしていたの
+を assert_not_interned を使うように書き換えています。 assert_not_interned? と
+"?" つきのメソッド名に typo していたので次の r43214 で修正しています。

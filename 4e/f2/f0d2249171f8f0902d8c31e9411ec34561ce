@@ -1,0 +1,4 @@
+NEWS ファイルに ObjectSpace.dump と ObjectSpace.dump_all の追加について、また C
+API の節に rb_postponed_job_register()、rb_profile_frames()、TracePoint の新し
+い C API からのみ利用できるイベントの追加などデバッグやプロファイルに利用できる
+新機能について追記しています。

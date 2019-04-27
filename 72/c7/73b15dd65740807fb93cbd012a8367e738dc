@@ -1,0 +1,2 @@
+string.c の rb_str_index() で文字列のバッファ内を指すローカル変数に const を付
+加しています。

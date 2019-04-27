@@ -1,0 +1,3 @@
+REXML::Parsers::BaseParser::CDATA_END も正規表現の "^" を "\A" に修正しています
+。ああ、DOCTYPE_END とはここで同じになってたんですね。しかし CDATA_END は利用さ
+れていなかったそうです。なんと。

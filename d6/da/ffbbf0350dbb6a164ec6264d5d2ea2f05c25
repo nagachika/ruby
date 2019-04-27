@@ -1,0 +1,2 @@
+負の double を unsigned long にキャストすると結果が未定義ということで一旦 long
+などにキャストしてから unsigned long にキャストするようにしています。

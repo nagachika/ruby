@@ -1,0 +1,3 @@
+標準添付ライブラリ securerandom から hex, base64, uuid などの各種の表現で乱数を
+取り出すメソッド群は Random::Formatter というモジュールに切り出して
+SecureRandom にこれを extend するようにリファクタリングしています。

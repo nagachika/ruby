@@ -1,0 +1,3 @@
+tool/vcs.rb で git-svn を利用している時の VCS::GIT#commit で git svn dcommit の
+後の git svn reset 後に、状態が反映されるのに時間がかかることがあるようなのでし
+ばらく git log で反映を確認できるまで待つようにしています。

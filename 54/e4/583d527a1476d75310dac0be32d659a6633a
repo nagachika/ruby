@@ -1,0 +1,2 @@
+DTrace 用のフックを埋め込むための汎用マクロ RUBY_DTRACE_HOOK() で _id 変数の型
+が誤って VALUE 型になっていたのを ID に修正しています。

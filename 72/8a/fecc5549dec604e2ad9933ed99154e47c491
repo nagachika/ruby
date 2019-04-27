@@ -1,0 +1,3 @@
+internal.h に rb_ary_detransient() の prototype 宣言を追加しています。 include/
+ruby/ruby.h の inline 関数 rb_array_const_ptr() から利用されるからですね。けど
+#if USE_TRANSIENT_HEAP でくくったほうがよさそう。

@@ -1,0 +1,5 @@
+rb_profile_frames() の for 文のブロックの最後で RUBY_VM_PREVIOUS_CONTROL_FRAME
+() で cfp を辿っていたのですが、この for 文には continue 文が含まれているので無
+限ループに陥る可能性があったので、for 文の、あれなんていうんだろう、カウンタを
+更新する部分で cfp を更新するようにしています。なんですけど後で revert されてい
+ます。 [ruby-core:86147] [Bug #14607]

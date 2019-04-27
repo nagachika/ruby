@@ -1,0 +1,4 @@
+標準添付ライブラリ monitor の MonitorMixin#mon_try_enter と MonitorMixin#
+mon_enter でロック取得時に mon_count を 0 にリセットするようにしています。ロッ
+クを取っていた Thread が異常終了した時に mon_count が 0 に戻っていない場合を考
+慮するようにしているようです。 https://github.com/ruby/ruby/pull/874

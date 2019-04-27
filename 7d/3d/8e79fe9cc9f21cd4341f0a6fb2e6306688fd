@@ -1,0 +1,6 @@
+標準添付ライブラリ fileutils の FileUtils.mv で File.rename が Errno::EPERM を
+発生させた時も copy+unlink による実装を試すようにしています。通常は移動元と移動
+先が異なるブロックデバイスの時に Errno::EXDEV が発生して fallback しますが、フ
+ァイルシステム ext4 のディレクトリ単位の暗号化?の機能で暗号化されてるところから
+されてないディレクトリへの移動は rename(2) でできなくて EPERM がかえってくるそ
+うなので、それに対応しています。 [ruby-core:90536] [Feature #15415]

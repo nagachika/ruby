@@ -1,0 +1,3 @@
+r62051 で追加された insns.def の命令の attribute の handles_frame について
+insns.def の先頭のコメントに追記しています。ついでに sp_inc についても説明を追
+加しています。

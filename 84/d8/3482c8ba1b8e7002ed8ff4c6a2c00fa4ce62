@@ -1,0 +1,2 @@
+r59450 の UNALIGNED_MEMBER_ACCESS() の定義の条件に defined(__clang__) も追加し
+ています。gcc では警告が出ないからとのこと。

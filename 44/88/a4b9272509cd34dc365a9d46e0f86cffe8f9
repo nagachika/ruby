@@ -1,0 +1,2 @@
+test/ruby/test_signal.rb で assert_equal の引数の順序が逆だったところを修正して
+います。

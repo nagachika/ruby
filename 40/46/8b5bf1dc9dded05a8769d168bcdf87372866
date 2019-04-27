@@ -1,0 +1,1 @@
+Module#singleton_class? というメソッドの rdoc 用コメントを追加しています。

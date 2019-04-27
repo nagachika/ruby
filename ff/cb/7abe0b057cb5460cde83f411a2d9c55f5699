@@ -1,0 +1,3 @@
+Marshal.load で Symbol の読み込みを r_symreal() で rb_str_intern() までせずに文
+字列のまま扱うようにして、不正な文字列のロードで SEGV しないようにしています。
+[ruby-core:68587] [Bug #10991]

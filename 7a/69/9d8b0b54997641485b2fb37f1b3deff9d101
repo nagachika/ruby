@@ -1,0 +1,4 @@
+r48423 と r48424 の続きで default_proc_for_compat_func() で引数 hash の型をチェ
+ックするようにしています。 Hash#default_proc でこの Proc オブジェクトを取り出し
+て呼ばれる可能性があるので、普通は Hash のはずですが別のオブジェクトが渡される
+可能性もあるとのこと。

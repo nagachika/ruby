@@ -1,0 +1,2 @@
+Windows でのテスト用の dlntest.dll を作成する位置がビルドディレクトリ直下だった
+のを、ext/-test-/win32/dln/dlntest.dll に置くようにしています。

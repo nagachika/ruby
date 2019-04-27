@@ -1,0 +1,11 @@
+do...end ブロックに def...end の時と同様に begin なしの rescue, else, ensure な
+どの節を書けるようにしているみたいです。つまり
+ary.each do
+  do_something
+ensure
+  cleanup
+end
+みたいに書けるみたいですね。 [ruby-core:78021] [Feature #12906]
+parse.y の変更はたった1行! しかし、経験上 parse.y をこんなふうにいじると後から
+ぽろぽろ出てくるので、是非 trunk でお手元のスクリプトが SyntaxError にならない
+か試してもらうのが良いでしょう(リリースしてから気がつくとつらい)。

@@ -1,0 +1,8 @@
+(1..10).lazy.map{}.zip(){} のような Enumerator::Lazy が GC のマーク漏れで回収さ
+れて SEGV される不具合を修正しています。ブロックから Proc オブジェクトを作る時
+に rb_vm_make_env_object() で生成する rb_block_t を wrap するオブジェクトがコン
+パイラの最適化により消されてマークされず GC で回収されて後続の処理で SEGV する
+のを防ぐため、vm_make_env_object() という関数に分離して第3引数でその rb_block_t
+を wrap したオブジェクトを返すようにして、最適化で消されるのを防いでいます。
+blockprocval を if のブロックの外のスコープに出して RB_GC_GUARD() ではだめだっ
+たんでしょうか。 [ruby-core:50545] [Bug #7507]

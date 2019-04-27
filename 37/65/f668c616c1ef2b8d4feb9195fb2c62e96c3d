@@ -1,0 +1,1 @@
+thread.c の wait_for_single_fd() の未初期化変数の警告除去。

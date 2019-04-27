@@ -1,0 +1,2 @@
+minitest の MiniTest::Skip という例外の扱いの修正。しかしすぐに revert されてい
+ます。

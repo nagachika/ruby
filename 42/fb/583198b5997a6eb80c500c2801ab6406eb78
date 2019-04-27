@@ -1,0 +1,3 @@
+gc.c の実装の on/off をする GC_ENABLE_INCREMENTAL_MARK, GC_ENABLE_LAZY_SWEEP の
+マクロでの preprocessor の #if の分岐を消したり移動したりしています。これから別
+の分岐を入れるつもりなので汚くなるからとのこと。

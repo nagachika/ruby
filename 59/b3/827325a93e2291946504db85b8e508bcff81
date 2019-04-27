@@ -1,0 +1,2 @@
+vm_core.h の VM_TAGGED_PTR_REF() で引数をビット演算する前に VALUE にキャストす
+るように修正しています。

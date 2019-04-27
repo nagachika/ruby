@@ -1,0 +1,3 @@
+r64925 の make のテスト系ターゲットの順番の調整を order only prerequisite を使
+った書きかたにしてたのを revert しています。やはり古い make とかで動かないとか
+があったのかな。

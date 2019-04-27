@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole のソースから WIN32OLE_TYPE の実装部分を ext/win32ole/
+win32ole_type.(ch) に分離しています。

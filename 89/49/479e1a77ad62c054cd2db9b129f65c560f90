@@ -1,0 +1,3 @@
+benchmark/driver.rb に --rbenv オプションを指定して、rbenv を使って複数のバージ
+ョンを切り替えた実行をできるようにしています。 https://github.com/ruby/ruby/
+pull/1724

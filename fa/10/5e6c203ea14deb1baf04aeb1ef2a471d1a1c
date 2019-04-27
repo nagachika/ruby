@@ -1,0 +1,4 @@
+gc.c で GC のプロファイル用構造体 rb_profile_record の allocated_size を定義す
+る条件を変更しています。 GC_PROFILE_MORE_DETAIL が真に定義されている時(でさらに
+CALC_EXACT_MALLOC_SIZE が真に定義されている時)だけ定義していましたが、
+CALC_EXACT_MALLOC_SIZE が真に定義されていたらメンバ定義するようにしています。

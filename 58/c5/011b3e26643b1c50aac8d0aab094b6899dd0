@@ -1,0 +1,2 @@
+標準添付ライブラリ forwardable の private メソッドの委譲についてテストを追加し
+ています。 [ruby-core:77630] [Bug #12782] [ruby-core:77341] [Bug #12840]

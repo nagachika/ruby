@@ -1,0 +1,2 @@
+拡張ライブラリ stringio の StringIO.new の引数についてのテストを追加しています
+。 [ruby-core:72585] [Feature #11920]

@@ -1,0 +1,1 @@
+openssl の rdoc 用コメントの修正。 OpenSSL::PKey::DH の署名/検証は未サポート。

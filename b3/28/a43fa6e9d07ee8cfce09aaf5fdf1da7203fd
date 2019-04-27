@@ -1,0 +1,3 @@
+標準添付ライブラリ shell/command-processor.rb のテストに
+Shell::CommandProcessor に渡したのと同名のディレクトリが存在した時のテストケー
+スを追加しています。 [ruby-core:57235] [Bug #8918]

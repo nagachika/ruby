@@ -1,0 +1,5 @@
+rb_thread_t::transition_for_lock という構造体メンバを削除しています。これも詳細
+はチケットに書かれているのでそちらを読んでいただくのが良いと思います。
+この修正で BLOCKING_REGION_CORE マクロを利用しているところがなくなったので、削
+除するかGVL_UNLOCK_BEGIN() ... GVL_UNLOCK_END() を置き換えるかしたほうが良さそ
+うですね。

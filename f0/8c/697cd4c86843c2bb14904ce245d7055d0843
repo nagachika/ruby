@@ -1,0 +1,3 @@
+"clobbered by 'longjmp' or 'vfork'" の警告抑制のために rb_protect() で status
+の宣言に volatile を付加しています。 th->cfp のリセットの位置の変更も同様の理由
+でしょうか。

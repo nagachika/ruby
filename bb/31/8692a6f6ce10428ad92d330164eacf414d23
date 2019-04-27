@@ -1,0 +1,4 @@
+拡張ライブラリ digest の extconf.rb で --with-bundled-xxx オプションを指定して
+OpenSSL の実装を利用しない時はリンクしないようにしています。時々 openssl と
+digest 絡みでビルドエラーになったりするのはこのへんも原因だったのかなぁ。
+[ruby-core:65404] [Bug #10324]

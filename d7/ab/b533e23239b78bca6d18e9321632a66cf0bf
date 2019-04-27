@@ -1,0 +1,2 @@
+Windows 版の readlink の実装 rb_w32_wreadlink() で junction を symbolic link と
+して扱うように修正しています。

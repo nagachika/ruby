@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle の extconf.rb で --disable-bundled-libffi オプションをサ
+ポートして、明示的にバンドルされた libffi を利用しない指定を受け付けるようにし
+ています。

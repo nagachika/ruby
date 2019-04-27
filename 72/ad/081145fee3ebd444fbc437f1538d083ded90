@@ -1,0 +1,4 @@
+r63498 の続きでさっそく pthread 実装時の native thread の cache 実装で
+register_cached_thread_and_wait() の引数から thread_id を消して pthread_self()
+で関数内で自 thread の id を得るようにしています。詳細はわからないのですが GC
+まわりの不具合があったみたいです。

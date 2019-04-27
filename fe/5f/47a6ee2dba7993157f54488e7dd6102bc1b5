@@ -1,0 +1,2 @@
+.gdbinit で r55766 での Ruby VM の control stack frame や env の構造の変更で動
+かなくなっていたコマンドを修正しています。

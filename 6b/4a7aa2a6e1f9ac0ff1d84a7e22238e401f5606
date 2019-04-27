@@ -1,0 +1,2 @@
+RGENGC_PROFILE で RGenGC の統計情報を出力する時の rb_objspace_t 構造体のメンバ
+ー名の変更や GC.stat のキー名の変更など。

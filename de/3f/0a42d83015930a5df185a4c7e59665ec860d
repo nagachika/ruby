@@ -1,0 +1,3 @@
+拡張ライブラリ tk no cbsubst_initialize() で argc が 0 の時に不正メモリアクセス
+する可能性があったのを修正しています。 `p Tk::Event.new` とするとクラッシュして
+たそうです。

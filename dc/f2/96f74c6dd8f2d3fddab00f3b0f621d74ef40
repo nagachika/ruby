@@ -1,0 +1,2 @@
+IO.read の rdoc 用コメントのオプションについての説明を追加したりしています。
+[ruby-core:63579] [Bug #10012] https://github.com/ruby/ruby/pull/658

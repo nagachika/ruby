@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_RECORD の method_missing の引数を可変にして
+、値の代入(setter 風のメソッド呼び出し)も可能にしているようです。

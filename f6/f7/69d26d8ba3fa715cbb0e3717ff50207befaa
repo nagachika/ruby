@@ -1,0 +1,4 @@
+RubyVM::FrameInfo を RubyVM::Backtrace::Location に改名して
+RubyVM::FrameInfo.caller を Kernel#caller_locations に移動、また
+RubyVM::Backtrace::Location のメソッドの名前も変更しています。iseq は削除されま
+した。 [ruby-dev:45686]

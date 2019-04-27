@@ -1,0 +1,3 @@
+FreeBSD 9 上で Readline 6.2 とリンクした readline を使った irb で Ctrl-C で割り
+込みがすぐに効かないという問題があったため、 r36130 で一旦削除した変数設定のう
+ち rl_catch_signals = 0; を復活させています。 [Bug #5423]

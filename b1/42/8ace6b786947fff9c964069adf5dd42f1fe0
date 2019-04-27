@@ -1,0 +1,6 @@
+Encoding.compatible? に Symbol を渡した時に、String オブジェクトかどうかチェッ
+クするために BUILTIN_TYPE() に渡されてしまっていて SEGV する不具合を修正してい
+ます。BUILTIN_TYPE() には Fixnum や nil, ture, false そして Symbol といった即値
+の値は渡せないので、RB_TYPE_P() を使ってチェックするようにして、また何度もチェ
+ックしていたので結果を変数に格納しておくようにしています。 [ruby-core:42204]
+[Bug #5921]

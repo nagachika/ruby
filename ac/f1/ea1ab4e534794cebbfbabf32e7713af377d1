@@ -1,0 +1,3 @@
+拡張ライブラリ psych でも Psych::Emitter や Psych::Parser を TypedData を使った
+実装に変更しています。ただしオブジェクトが利用しているメモリ量を返す memsize の
+実装は未完成のようです。

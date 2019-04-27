@@ -1,0 +1,6 @@
+rb_execarg_parent_end() という関数を追加しています。 rb_execarg_parent_start()
+で Process.spawn のオプションなどで開くことを指定された fd は開いておいて、
+rb_execarg_parent() でそれを閉じるようにしています。これまでこの処理をしてた
+rb_execarg_run_options() から呼ばれる run_exec_open() は削除されています。ファ
+イルを開くタイミングをもっと fork+exec の直前に移動しているという感じだと思いま
+す。

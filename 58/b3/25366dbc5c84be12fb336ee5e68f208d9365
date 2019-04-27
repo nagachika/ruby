@@ -1,0 +1,25 @@
+Socket からの読み込みでブロック中に他のスレッドでその Socket を close した時に
+例外が発生せずに待ってしまう不具合の修正ですが、より一般的に file descriptor の
+読み書きで block 中の Thread をその file descriptor を close する時に例外を発生
+させるように変更が行なわれています。 [Bug #4390] [ruby-core:35203]
+rb_thread_io_blocking_region という関数を新設して、file descriptor への操作中に
+GIL の開放をするあいだその file descriptor を rb_thread_t の waiting_fd という
+新設されたメンバへ格納するようにしています。
+これを利用して、file descriptor の close の時にこれまで空だった
+rb_thread_fd_close() でその file descriptor の操作で待っている Thread へ例外を
+発生させるようにしています。rb_thread_t 構造体はメンバ追加によりメモリ上の構造
+が変化しているので要注意。vm_core.h は非公開ヘッダですが、最近 ruby-debug19 を
+インストールしようとして失敗した時に、vm_core.h を参照しようとしているらしいメ
+ッセージをみたのでこっそり参照している拡張ライブラリを作成している人はチェック
+してみましょう。
+以下やや詳細をレビューします。vm->special_exception というのは NoMEmoryError な
+どあらかじめ生成しておいた例外オブジェクトを使い回すためのものがいくつか用意さ
+れていて、それに今回の IOError を追加して使っています。これは使い回すことでロッ
+ク取得中に新しいオブジェクト確保のため GC が走りはじめて時間がかかってしまうよ
+うな自体を避けるためだそうです。
+また IO で block 中の Thread へ例外を投げても systam call などから抜けないと例
+外処理をしませんが、block 中の Thread はその処理を中断させるための関数を th->
+unblock.func にセットしているので、それを呼ぶことで処理に割り込んでいます。IO
+処理中の場合は ubf_select() というのが利用されていて、pthread 版の実装の場合は
+pthread_kill() で SIGVTALRM シグナルを送信して(多分 EINTR で)抜けるようにしてい
+ます。

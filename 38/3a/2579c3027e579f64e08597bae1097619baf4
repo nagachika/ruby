@@ -1,0 +1,2 @@
+rb_thread_create_timer_thread() からタイマースレッド通知用 pipe の生成処理を
+setup_communication_pipe() として切り出すリファクタリング。

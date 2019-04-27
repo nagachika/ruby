@@ -1,0 +1,3 @@
+insns.def の invokeblock 命令の実装で vm_invoke_block() に渡す struct
+rb_calling_info のメンバー recv は未使用のはずということで、self を入れてたのを
+Qundef で初期化するように変更しています。

@@ -1,0 +1,5 @@
+r66155 で revert されてた Symbol#to_proc で暗黙の変換されるブロック引数に
+Refinements がきかないことがある不具合の修正。なんですがこれもやっぱり次で
+revert されています。 [ruby-dev:50638] [Bug #15114]
+聞くところによると git-svn によるコミットで accidental に入っちゃったみたいです
+。

@@ -1,0 +1,3 @@
+拡張ライブラリ socket の ext_socket/ifaddr.c に VALUE から rb_ifaddr_t をとりだ
+して、さらにそこから struct ifaddrs を参照する処理が頻出していたので、
+get_ifaddrs() という関数に切り出すリファクタリング。

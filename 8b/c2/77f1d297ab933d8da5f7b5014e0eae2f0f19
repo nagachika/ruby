@@ -1,0 +1,5 @@
+r56747 で fstring の singleton_method を禁止したため今度は fstring の文字列に対
+して instance_eval が呼べなくなっていたので、singleton_class_for_eval() で
+fstring に対応して Qnil を返し rb_singleton_class() を呼ばないようにしています
+。おー singleton class についていじると instance_eval 用の class の取得に影響が
+あるんですね。 [ruby-core:78116] [Bug #12930]

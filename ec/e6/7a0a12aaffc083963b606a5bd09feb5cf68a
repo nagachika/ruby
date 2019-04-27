@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml の REXML::Elements#each の rdoc のサンプルコードで
+elements メソッドの呼び出しが抜けていたところを追記しています。
+[ruby-talk:402713]

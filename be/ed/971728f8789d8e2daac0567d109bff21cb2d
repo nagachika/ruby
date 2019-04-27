@@ -1,0 +1,2 @@
+Process#maxgroups= で負の値が渡された時のチェックをします。 [ruby-core:35426]
+[Bug#4467]

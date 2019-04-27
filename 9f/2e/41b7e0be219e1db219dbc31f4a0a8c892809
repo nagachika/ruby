@@ -1,0 +1,3 @@
+標準添付ライブラリ set の Set#each と SortedSet#each にブロックを渡さずに呼び出
+した時に返す Enumerator を #size メソッドに対応するようにしています。 https://
+github.com/ruby/ruby/pull/931

@@ -1,0 +1,4 @@
+UNREACHABLE マクロを利用していた場面で例外の発生や rb_bug() の呼び出しをできる
+だけ if 節の中に入れるなどして UNREACHABLE を使わなくていいように処理フローを書
+き直すリファクタリングをしています。 ext/pty/pty.c では逆に raise_from_check()
+を NORETURN として宣言するようにしています。

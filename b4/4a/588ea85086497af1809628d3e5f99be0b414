@@ -1,0 +1,2 @@
+error.c、eval.c、object.c の C API の Doxygen でのドキュメント生成用のコメント
+を追加しています。

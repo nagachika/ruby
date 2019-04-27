@@ -1,0 +1,2 @@
+r60572 の getline 族の rdoc 用コメント修正で String#each_line のぶんが漏れてた
+ので追加修正。

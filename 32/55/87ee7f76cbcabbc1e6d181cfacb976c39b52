@@ -1,0 +1,3 @@
+Queue, SizedQueue の push, pop メソッドの rdoc 用コメントで発生する例外が
+ThreadError であることを明記するようにしています。 https://github.com/ruby/ruby
+/pull/1451

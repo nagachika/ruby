@@ -1,0 +1,3 @@
+tool/rbinstall.rb で -i/--install で指定するインストール種別に comm-hdr と
+arch-hdr を追加して、アーキテクチャ非依存/依存のヘッダをそれぞれ独立して指定で
+きるようにしています。

@@ -1,0 +1,3 @@
+coroutine/win64/Context.s を追加。あれ win64 は最初からあったような、と思いまし
+たがそれは Context.asm で、これは GAS スタイルで書かれたもので、MinGW 向けで
+gcc でビルドできるようにするためみたいです。

@@ -1,0 +1,4 @@
+テスト用の拡張ライブラリ ext/-test-/symbol/type.c に static? と dynamic? という
+Symbol が dynamic method (GC で回収可能)か static symbol かを判定するメソッドを
+追加しています。あれ、この Init_type() に渡される klass ってどこからくるんだろ
+う……。extconf.rb でなにやら Init_ 関数の引数をいじっているみたいですけど。

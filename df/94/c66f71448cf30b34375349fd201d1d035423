@@ -1,0 +1,4 @@
+upstream の ruby/openssl の 2.0.5 をマージしています。 https://github.com/ruby/
+openssl/compare/v2.0.4...v2.0.5 SSLv2, SSLv3, TLSv1 などの OpenSSL::SSL
+::SSLContext::METHODS からの削除や mswin でのビルドエラーの修正などがありました
+。

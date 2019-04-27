@@ -1,0 +1,5 @@
+標準添付ライブラリ net/pop で magic comment の frozen_string_literal: true があ
+るので破壊的操作を行う(かもしれない)文字列リテラルに String#+@ をつけて複製する
+ようにしています。 inspect の戻り値は freeze でもいいような気もするけどまあ昔は
+freeze されてなかったので互換性のためには dup しないと、ってことですね。
+[ruby-core:85210] [Bug #14416]

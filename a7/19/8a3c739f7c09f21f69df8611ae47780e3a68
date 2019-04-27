@@ -1,0 +1,3 @@
+testunit の並列テスト自体のテストで Process.kill で子プロセスを停止させる場合に
+既に子プロセスが終了していたら Errno::ESRCH が発生するので rescue するようにし
+ています。

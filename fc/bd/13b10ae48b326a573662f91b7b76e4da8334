@@ -1,0 +1,5 @@
+なんとこれまで Enumerable#each_slice と Enumerable#each_cons のテストがなかった
+ようで(Enumerator と Enumerator::Lazy のはあった) test/ruby/test_enum.rb にテス
+トメソッドを追加しています。なんとなく昨日の r45589 の変更を考えるとブロックパ
+ラメータを複数にしたケースも追加したほうが良いような気がしますね…と思ったら次
+でちゃんと追加されてました。

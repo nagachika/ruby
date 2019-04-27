@@ -1,0 +1,4 @@
+r45492 と同様に Symbol GC での LazySweep で sweep 前の Symbol を拾ってしまうの
+を rb_gc_resurrect() で救うのを Symbol.all_symbols の実装の parse.y の
+symbols_i() でも実施しています。以前 rubyspec でおかしな動きをしていたのはこれ
+が原因かもしれないですねー。

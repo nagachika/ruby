@@ -1,0 +1,3 @@
+拡張ライブラリ readline から rb_ensure(4) のコードを削除しています。また rdoc
+コメントから SecurityError についての記述を削除して、ついでに
+NotImplementedError が発生する可能性のあるメソッドにはそれを追記しています。

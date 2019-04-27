@@ -1,0 +1,2 @@
+r67116 で追加した File#birthtime のテストは filesystem に依存するので
+Errno::ENOSYS 例外を捕捉して skip するようにしています。

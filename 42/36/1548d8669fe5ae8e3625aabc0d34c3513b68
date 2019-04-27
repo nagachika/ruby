@@ -1,0 +1,6 @@
+Class.new の実装だった rb_class_new_instance() で receiver が T_CLASS 型のオブ
+ジェクトであることを確認するチェックを追加しています。コミットログによると拡張
+ライブラリが引数のチェックをせずに rb_class_new_instance() を呼んだ場合のためと
+いうことで Class.new の実装はそのチェック後に呼ばれる rb_class_s_new() に付けな
+おされているので Class.new した時はその余分なチェックは省かれています。
+[ruby-core:78934] [Bug #13093]

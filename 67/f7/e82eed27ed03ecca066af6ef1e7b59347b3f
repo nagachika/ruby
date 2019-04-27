@@ -1,0 +1,2 @@
+r51798 の変更のための対応だと思いますが io.c で WNOHANG のために #include <sys/
+wait.h> を追加しています。 BSD で必要だったそうです。

@@ -1,0 +1,4 @@
+インラインキャッシュ用の構造体 struct iseq_inline_cache_entry のクラス用と定数
+用のメンバ ic_constant_serial と ic_class_serial を統合して ic_serial という1つ
+のメンバにしています。この両者は同時に利用されることがないのでまとめてもいいよ
+うです。

@@ -1,0 +1,3 @@
+r56593 で TracePoint に callee_id を追加した時に rb_frame_method_id_and_class()
+の引数を追加していましたが C API の互換性が失なわれていたのでこの部分は revert
+しています。 [ruby-core:78471] [Feature #12747]

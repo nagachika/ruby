@@ -1,0 +1,2 @@
+fileutils.rb の内部メソッドに :nodoc: タグを追加しています。 [ruby-core:36158]
+[Bug #4684]

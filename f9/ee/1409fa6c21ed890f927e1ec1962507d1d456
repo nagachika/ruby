@@ -1,0 +1,2 @@
+拡張ライブラリ psych を upstream から 2.2.2 をマージしています。 gemspec ファイ
+ルで JRuby 向けの修正だそうです。

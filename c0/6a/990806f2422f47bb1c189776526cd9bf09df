@@ -1,0 +1,6 @@
+拡張ライブラリ openssl のテストで OpenSSL::SSL::Session#timeout のチェックを削
+っています。デフォルトの timeout の値は根拠のあるものでなくバージョンによって変
+化しうるようです。参考URL: https://tools.ietf.org/html/rfc2246#appendix-F.1.4
+https://git.openssl.org/?p=openssl.git;a=blob;f=ssl/t1_lib.c;h=
+dd5bd0050d89f5585c1b06a227eb8221ebf984f1;hb=
+5dd94f1847c744929a3bd24819f1c99644bb18c7#l193

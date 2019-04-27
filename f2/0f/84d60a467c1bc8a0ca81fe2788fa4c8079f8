@@ -1,0 +1,2 @@
+tool/vcs.rb で 1.9 以前の ruby で正しく時刻の offset を扱えるように手動で
+offset を調整するようにしています。

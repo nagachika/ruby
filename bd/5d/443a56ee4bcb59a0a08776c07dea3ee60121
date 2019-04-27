@@ -1,0 +1,2 @@
+Enumerator::Lazy#take に負の整数を渡した時のテストを追加しています。
+[ruby-dev:49467] [Bug #11933]

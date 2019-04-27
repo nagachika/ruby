@@ -1,0 +1,3 @@
+r59698 で追加された rb_str_enumerate_grapheme_clusters() で未使用の可能性のある
+(少なくとも古い gcc でそのように警告されてしまう)変数に MAYBE_UNUSED() マクロを
+利用しています。

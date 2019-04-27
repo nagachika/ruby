@@ -1,0 +1,3 @@
+Matrix を LUP分解する Matrix::LUPDecomposition というクラスを追加して Matrix#
+lup_decomposition または Matrix#lup で返すようにしています。
+LU分解? と思いましたが LUP分解という別の操作でした。

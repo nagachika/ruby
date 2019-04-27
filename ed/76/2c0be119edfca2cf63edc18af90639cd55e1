@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::Utils::TimeoutHandler で生成した Thread
+の inspect メソッドを上書きして "WEBrick::Utils::TimeoutHandler" を文字列に含め
+るようにしていましたが、これをやめて WEBrick::Utils::TimeoutHandler::Thread と
+いう Thread を継承した(だけ)のクラスを導入してこれを使うことで、クラス名で識別
+できるようにしています。

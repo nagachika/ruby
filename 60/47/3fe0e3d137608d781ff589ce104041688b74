@@ -1,0 +1,2 @@
+Fiber の resume/yield を繰り返すベンチマークスクリプトを追加しています。
+[ruby-core:65518] [Feature #10341]

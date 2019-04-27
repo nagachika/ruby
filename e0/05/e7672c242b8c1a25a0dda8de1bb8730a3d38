@@ -1,0 +1,4 @@
+r61735 の続きで tool/ruby_vm/views/_insn_*_info.erb で生成する C ソースコードで
+、関数内に閉じていたテーブルに rb_vm_insn_len_info, rb_vm_insn_len_info,
+rb_vm_insn_name_offset など名前をつけて extern してソースコード間で共有するよう
+にしています。

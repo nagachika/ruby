@@ -1,0 +1,3 @@
+標準添付ライブラリ prime の最適化続き。 @primes に要素を追加するところ each で1
+つずつ push してたのを Array#concat で一度に追加するようにしています。
+また r50800 の ChangeLog エントリの typo も修正しています。

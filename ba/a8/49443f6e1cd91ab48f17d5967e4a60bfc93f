@@ -1,0 +1,3 @@
+rb_vm_opt_struct_aref(), rb_vm_opt_struct_aset(), rb_insn_func_t 型の関数ポイン
+タなどの引数の型を rb_thread_t から rb_execution_context_t に変更しています。こ
+のシリーズまだ続いてたのか。

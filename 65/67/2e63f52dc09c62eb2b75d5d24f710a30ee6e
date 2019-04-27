@@ -1,0 +1,2 @@
+bootstraptest/runner.rb で --color オプションの引数が不正な値だったら警告メッセ
+ージを出力するようにしています。

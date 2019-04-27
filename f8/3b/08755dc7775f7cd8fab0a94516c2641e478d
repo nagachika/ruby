@@ -1,0 +1,2 @@
+r65487 と同様に call-seq のコロン忘れを openssl と win32ole でも修正しています
+。

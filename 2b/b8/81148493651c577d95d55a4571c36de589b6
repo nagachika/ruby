@@ -1,0 +1,5 @@
+r45225 で新しい Readline のバージョンのために Function のかわりに
+rl_hook_func_t を利用するようにしたのですが、rl_hook_func_t が存在しないくらい
+古い Readline の対応のために、もし rl_hook_func_t がなかったら Function におき
+かえるようなマクロ定義をコンパイルオプションに追加するようにしています。
+[ruby-core:61209] [Bug #9578]

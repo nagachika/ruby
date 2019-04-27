@@ -1,0 +1,4 @@
+Windows 版で socket 関連や getcwd() などの関数を Windows 版のエミュレートしてい
+る関数に define するマクロの定義を ruby/win32.h から ruby/subst.h に移動してい
+ます。 mingw で拡張ライブラリ socket のビルドエラーになるのを修正するための変更
+のようです。 [ruby-core:41314] [Bug #5675]

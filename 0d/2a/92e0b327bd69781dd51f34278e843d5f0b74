@@ -1,0 +1,2 @@
+pipe(2) を wrap して close-on-exec フラグ付加する公開API rb_cloexec_pipe() を追
+加して、これを利用するようにしています。

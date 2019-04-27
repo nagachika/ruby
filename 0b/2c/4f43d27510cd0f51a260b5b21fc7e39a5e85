@@ -1,0 +1,7 @@
+Enumerable#lazy というメソッドを追加して Enumerable::Lazy という遅延評価するリ
+ストみたいなオブジェクトを返すようにしています。 Enumerale::Lazy は Enumerator
+のサブクラスですが、いくつかの Enumerable のメソッド (map, select, reject, grep
+) はその場で全ての要素を処理しようとせずさらに Enumerable::Lazy でくるんだもの
+を返すので、無限リストのように振る舞う Enumerator に対しても map などを呼んでそ
+の後 take などで必要に応じて結果を取り出す使いかたができるようになっています。
+[ruby-core:37164] [Feature #4890]

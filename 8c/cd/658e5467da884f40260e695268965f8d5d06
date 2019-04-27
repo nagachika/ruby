@@ -1,0 +1,2 @@
+r40687 で include/ruby/ruby.h の OBJSETUP() の定義を変更した時に追加したコメン
+トの typo 修正。

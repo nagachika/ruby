@@ -1,0 +1,3 @@
+標準添付ライブラリ logger で出力するメッセージの時刻の microsecond を strftime
+の "%N" 指示子を使って出力するようにしています。 https://github.com/ruby/ruby/
+pull/704

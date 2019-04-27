@@ -1,0 +1,5 @@
+Thread の生成や Thread#join の実装について構造体のサイズ削減、関数のインライン
+展開(inline を付けるのではなく実際に展開)、Thread に名前をつける
+native_set_thread_name() で inspect から名前を抽出するのではなく
+rb_proc_location() を呼び出して直接名前を生成するようにするなどの最適化を行って
+います。 [ruby-core:67459] [Bug #10723]

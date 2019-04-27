@@ -1,0 +1,2 @@
+ruby.c の static 変数 libdir が ruby_init_loadpath_safe() の一部のブロック中で
+のみ利用されているので、このスコープに移動しています。

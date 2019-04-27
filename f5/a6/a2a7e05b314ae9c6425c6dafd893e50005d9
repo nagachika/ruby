@@ -1,0 +1,4 @@
+FileUtils のテスト test/fileutils/fileasserts.rb で assert_not_symlink という独
+自の assertion に省略可能な第2引数 message を追加しています。参照されているのに
+引数がなかったのでエラーになってたはずで、これまで使われてなかったのかと思った
+ら使われてました。同名のメソッドがあるのかな。

@@ -1,0 +1,11 @@
+mjit.c の worker() で終了時に worker_finished という変数に TRUE をセットすると
+ころで mutex で排他処理していたのをやめています。 mjit_finish() でここで lock
+しようとしてた mutex を pthread_mutex_destroy() しようとしてエラーになることが
+あるらしく、それを避けるためにとのこと。ふーむ、いいのかな。まあでも他で
+worker_finished を参照しているところは排他していないので condition variable と
+して使っているわけでもなさそうなので良いのかな。上のほうの pch_status ==
+PCH_FAILED のところではまだロックを取っているけど、ここは mjit_client_wakeup で
+rb_native_cond_wakeup() を呼んでいるので必要なのかな。しかし mjit_client_wakeup
+という変数で wait してるところをみるとチェックしている変数は in_jit という変数
+みたいだから、こっちもロックと rb_native_cond_wakeup() を消していいのではないか
+な。

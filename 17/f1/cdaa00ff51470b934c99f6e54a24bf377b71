@@ -1,0 +1,3 @@
+Module#using が追加されました。 Refinements の復活のはじまりですね! Module#
+using はその Class/Module の定義内でのみ有効な refine された Module を利用しま
+す。 [ruby-core:55273] [Feature #8481]

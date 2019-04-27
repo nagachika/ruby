@@ -1,0 +1,2 @@
+test/ruby/test_lambda.rb のテストが失敗していたのを修正。 lambda への引数の渡し
+かたが変わった? [ruby-core:61340] [Bug #9605]

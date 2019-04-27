@@ -1,0 +1,3 @@
+tool/fetch-bundled_gems.rb で shebang を使って -an オプションをつけるようにして
+自動 split モードで動作するようにして、シェル依存で Windows で動かない tool/git
+-refresh というツールの呼び出ししていたのを避けるようにしているそうです。

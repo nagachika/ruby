@@ -1,0 +1,2 @@
+test/ruby/test_thread.rb から ConditionVariable に関連するテストを test/thread/
+test_cv.rb に移動して、さらにテストを追加しています。

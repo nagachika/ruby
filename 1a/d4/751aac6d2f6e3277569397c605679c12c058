@@ -1,0 +1,2 @@
+ということで不要になった options、soptions 変数を削除しています。 struct
+rb_execarg のメンバからも削除されるのでしょうか。 [ruby-core:45797] [Bug #6633]

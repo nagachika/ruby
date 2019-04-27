@@ -1,0 +1,4 @@
+r53851 による r53850 の String.new(capacity: size) の修正の再修正。 str_replace
+() で文字列バッファをいれかえたりヒープを確保しなおす前に str_discard() でバッ
+ファを解放しておくようにしています。そして freeze した String オブジェクトに
+__send__ で無理矢理 initialize を呼び出すテストを追加しています。

@@ -1,0 +1,5 @@
+tool/merger.rb で version.h の RUBY_RELEASE_DATE を更新する時に
+RUBY_RELEASE_YEAR_STR"-"RUBY_RELEASE_MONTH_STR"-"RUBY_RELEASE_DAY_STR というマ
+クロで定義されてたらそれを保持するようにしています。あー ruby_2_6 からマクロで
+組み立てるようになって更新時に YEAR/MONTH/DAY の必要なところだけ変更すればよく
+なったんですね。

@@ -1,0 +1,4 @@
+r54153 で追加した opt_newarray_max および opt_newarray_min を使った配列リテラル
+に直接 max/min を呼んでいる時の最適化命令を使うコンパイル時の最適化処理を
+iseq_specialized_instruction() 関数に移動しています。 [ruby-core:74297]
+[Feature #12172]

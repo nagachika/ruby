@@ -1,0 +1,3 @@
+r55373, r55374 の iso-8859-1 の casemap 対応で codepoint がマジックナンバー化さ
+れていたので enc/iso_8859.h を #include して SHARP_s という定数マクロを利用する
+ようにしています。

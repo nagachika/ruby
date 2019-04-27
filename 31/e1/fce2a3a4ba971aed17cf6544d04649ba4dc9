@@ -1,0 +1,3 @@
+configure で --without-sitedir や --without-vendordir で sitedir や vendordir
+を利用しないように指定されたら rbconfig.rb のハッシュにも対応する項目を生成しな
+いようにしています。 [ruby-core:38922] [Bug #5187]

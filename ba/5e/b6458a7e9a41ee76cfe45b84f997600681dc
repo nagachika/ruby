@@ -1,0 +1,3 @@
+r58400 で拡張ライブラリ socket で MSG_DONTWAIT が使える環境では fd に
+O_NONBLOCK を付けないようにした時にバッファが考慮されていなかったのを修正してい
+るようです。 [ruby-core:80302] [Feature #13362]

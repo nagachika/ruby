@@ -1,0 +1,2 @@
+ext/socket/raddrinfo.c のヘッダ部分のコメントに書いてあるファイル名が ainfo.c
+のままだったので修正しています。

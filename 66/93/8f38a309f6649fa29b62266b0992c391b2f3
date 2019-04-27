@@ -1,0 +1,3 @@
+configure.in の AC_FUNC_SETPGRP の呼び出し部分にコメントを追加しています。クロ
+スコンパイル時に問題があるみたいです。参考URL https://lists.gnu.org/archive/
+html/bug-autoconf/2013-02/msg00002.html

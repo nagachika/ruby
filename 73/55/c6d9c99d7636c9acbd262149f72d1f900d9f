@@ -1,0 +1,5 @@
+Solaris ではシグナルハンドラ内で abort(3) を呼べないので raise(SIGTRAP) で止め
+るようにしています。また sigsegv() の中で sigsegv() の呼び出しがネストしている
+のを検出した時にメッセージを出力するために fprintf を使っていたところも write
+(2) を使うように変更したり、SEGV 時のシグナルハンドラ内で呼ぶ関数を async
+signal safe にするようにしています。 [ruby-dev:44082] [Bug #5014]

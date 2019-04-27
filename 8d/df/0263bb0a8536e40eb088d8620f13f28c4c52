@@ -1,0 +1,5 @@
+標準添付ライブラリ optparse で OptionParser#on にオプションの引数の型に指定でき
+る OptionParser::DecimalInteger を使った時に引数を必ず 10進数として解釈するよう
+にしています。なるほどー。けど一応これは非互換のある変更になるので NEWS に書い
+といたほうがよさそう。 https://github.com/ruby/ruby/pull/1665 [ruby-core:81927]
+[Bug #13722]

@@ -1,0 +1,6 @@
+int_pow_tmp3() および rb_int_powm() で rb_num_positive_int_p() および
+rb_num_negative_int_p() という inline 関数で正負をチェックしていましたが、これ
+は内部で Integer#< メソッドの再定義に対応するようになっていた(再定義されていた
+らメソッド呼び出しに fallback している)ので、再定義の影響を受けない
+rb_int_positive_p() と rb_int_negative_p() という関数を追加してこちらを使うよう
+にしています。

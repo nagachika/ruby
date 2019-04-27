@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http で OpenSSL::SSL::SSLSocket#hostname= でホスト名を設
+定するのを #session= でセッション情報をセットする前に移動しています。 SNI
+(Server Name Indication。ホスト名を元に利用する証明書を決める仕組み)が client
+としてうまく働いていなかったみたいです。 https://github.com/ruby/ruby/pull/964
+[ruby-core:70152] [Bug #11401]

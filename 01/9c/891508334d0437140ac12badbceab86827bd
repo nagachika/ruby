@@ -1,0 +1,3 @@
+Time オブジェクトのタイムゾーンをセットする vtm_add_offset() で vtm->utc_offset
+を減算してたのをやめています。 vtm_add_offset() の呼び元で utc_offset は上書き
+されてるので無意味だから。

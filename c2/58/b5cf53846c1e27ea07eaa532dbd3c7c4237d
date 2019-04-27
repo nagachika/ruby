@@ -1,0 +1,2 @@
+.travis.yml の build matrix の x86_64-darwin17 で test-all 時のオプションに -v
+を追加。また変数設定についてコメントを追加しています。

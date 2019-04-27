@@ -1,0 +1,2 @@
+ext/readline/readline.c に macOS 10.14 (多分 Mojave)で readline.h で宣言されな
+くなった? 関数のプロトタイプ宣言を明示的に追加しています。

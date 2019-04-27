@@ -1,0 +1,8 @@
+configure.in で RUBY_REPLACE_TYPE() を使って size_t のチェックと数値変換マクロ
+の定義の生成を行うようにしています。また bignum.c に rb_absint_size()、
+rb_absint_size_in_word(), int_export_fill_dd(), int_export_take_lowbits(),
+rb_int_export() 等の関数を追加しています。全部は読んでいませんが、整数を表現し
+た時に先頭の連続する 0 ビットを数えたり Integer のビットパターンを配列として取
+り出したりといった数値をビット列として扱うための関数群みたいです。またその一部
+を使って pack.c で "W" (BER compressed integer) 指示子の実装を書き替えています
+。

@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all で T_IMEMO 型のオブジェクトの時
+にその T_IMEMO オブジェクトがなんのタイプなのかを出力するようにしています。

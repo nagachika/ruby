@@ -1,0 +1,2 @@
+encoding.c でエンコーディング名の文字列を OBJ_FREEZE() で freeze していたのを
+rb_fstring() や rb_fstring_cstr() を使うことで dedup するようにしています。

@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http にレスポンスコード 308 Permanent Redirect を追加し
+ています。 RFC 7538 で追加されたレスポンスコードだそうです。 https://github.com
+/ruby/ruby/pull/961

@@ -1,0 +1,3 @@
+改めて test_flush_in_finalizer1 の ensure で IO.for_fd を使って IO を閉じようと
+するのはやめて、GC.start を呼んで回収できるぶんだけ回収するだけにしています。
+[ruby-core:45020] [Bug #6228]

@@ -1,0 +1,3 @@
+test/lib/test/unit/parallel.rb で test-all の並列実行時に子プロセスからのメッセ
+ージに Temfile/Thread/fd などの leak 情報も含まれるようになったので readpartial
+でその部分を読み取るようにしています。

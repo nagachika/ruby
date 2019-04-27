@@ -1,0 +1,4 @@
+.travis.yml の build matrix に pedanticism という名前で Linux 上で clang の -
+ansi -Werror=pedantic -pedantic-errors -std=iso9899:1990 などのオプションを使っ
+て、警告もエラーにするオプションを追加してビルドするやつを追加しています。
+allow_failures の対象にしているのでエラーでも許すようにしています。

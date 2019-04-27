@@ -1,0 +1,2 @@
+unicode_normalize で文字列のエンコーディングが US-ASCII の時は
+Encoding::CompatibilityError を発生させないようにしています。

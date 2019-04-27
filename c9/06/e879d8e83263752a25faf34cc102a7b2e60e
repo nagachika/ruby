@@ -1,0 +1,2 @@
+Thread::Backtrace::Location#inspect の定義を追加して to_s と同じ表示にするよう
+にしています。

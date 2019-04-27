@@ -1,0 +1,2 @@
+doc/maintainers.rdoc に lib/date の記述があったのですが ext/date に移動している
+ので削除しています。

@@ -1,0 +1,5 @@
+optparse.rb の typo 修正(そういえば報告しわすれてた)と rb_optparse.zsh のドキュ
+メント修正と、既に補完情報のファイルがインストール済みで noclobber が設定されて
+いるとエラーになるのを修正。リダイレクションの '>!' って何だっけーと man zshall
+してみたら "Same as >, except that the file is truncated to zero length if it
+exists, even if CLOBBER is unset." てことで常に上書き出力すると。

@@ -1,0 +1,6 @@
+r56982 で timeout をのばしてみた複数 Thread での同じファイルの require のテスト
+ですが、どうやら load lock にデッドロックする可能性が残ってたみたいで、
+load_lock() で他の Thread でロードが完了して thread_shield が削除された瞬間に不
+要な loading_tbl への thread_shield の追加をする可能性があったのを追加しないよ
+うにしています。 [ruby-core:78464] [Bug #12999]
+load lock はいつ読んでも「これでバッチリだ」と言い切れる気がしないですね…

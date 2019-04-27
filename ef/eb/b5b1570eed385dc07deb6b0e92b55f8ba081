@@ -1,0 +1,3 @@
+ext/-test-/string/coderange.c の UNREACHABLE を置いている場所に rb_bug() を入れ
+てコンパイラの警告を抑制しています。 UNREACHABLE マクロが効いてなかったってこと
+でしょうか。

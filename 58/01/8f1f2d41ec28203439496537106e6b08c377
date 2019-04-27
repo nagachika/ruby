@@ -1,0 +1,4 @@
+tracer.rb が gem_prelude.rb の廃止によって -rtracer とコマンドラインオプション
+で指定して読み込んだ時に自動的に Tracer.on にならなくなっていた不具合を修正。と
+、思いきやこれだと require しただけの時も Tracer.on になってしまうんです。あと
+--disable-gems の有無でもちょっと違うのが曲者で……。

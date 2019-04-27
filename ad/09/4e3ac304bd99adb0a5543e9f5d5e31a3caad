@@ -1,0 +1,3 @@
+r59876 や r59877, r59885 あたりで追加した compile_if() や compile_loop(),
+compile_case() などの branch coverage 用の変数が未初期化として gcc7 で警告にな
+るそうで 0 で初期化しておくようにしています。

@@ -1,0 +1,2 @@
+tool/update-deps を使って common.mk と enc/depend および各種拡張ライブラリの
+ext/**/depend の依存関係の記述を更新しているそうです。

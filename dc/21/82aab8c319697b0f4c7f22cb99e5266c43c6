@@ -1,0 +1,4 @@
+r37406 で BigDecimal#+ に Rational や Float が渡されると結果が BigDecimal にな
+るように変換されるようになりましたが、減算、乗算、除算、余剰の計算でも同様に
+coerce で BigDecimal に変換されるように修正しています。 TYPE() は RB_TYPE_P()
+を使うようにするのがいいはず。 [ruby-dev:46544] [Bug #7404]

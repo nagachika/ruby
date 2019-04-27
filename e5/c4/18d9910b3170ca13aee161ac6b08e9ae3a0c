@@ -1,0 +1,2 @@
+String#split を空文字列について呼ぶと空の配列が返ることを rdoc に記述追加してい
+ます。 [ruby-core:31296] [Feature #3575]

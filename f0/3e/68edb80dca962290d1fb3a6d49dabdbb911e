@@ -1,0 +1,3 @@
+misc/ruby-mode.el を削除しています。既に emacs に ruby-mode.el が bundle される
+ようになっているそうなので ruby のリポジトリから削除します。 [ruby-core:46913]
+[Feature #6823]

@@ -1,0 +1,2 @@
+random.c で rb_check_to_integer() にメソッド名 "to_int" を渡して呼んでいたのを
+、同じ内容の shortcut 関数 rb_check_to_int() に置き換えています。

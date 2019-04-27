@@ -1,0 +1,2 @@
+標準添付ライブラリ logger のテストで未使用の変数があって警告が出てたので削って
+います。 https://github.com/ruby/ruby/pull/1840

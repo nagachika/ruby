@@ -1,0 +1,2 @@
+r52058 の変更により IMEMO_FL_USER3 と IMEMO_FL_USER4 という bit flags の定数が
+不要になったので削除しています。

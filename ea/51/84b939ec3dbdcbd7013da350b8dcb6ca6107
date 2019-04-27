@@ -1,0 +1,5 @@
+Hash#map_v および Hash#map_v! という新規メソッドが追加されました。ブロックに各
+要素に value の値が渡されて、その結果で value のほうを置き換えた Hash を返す、
+もしくは破壊的にその値で value を置き換えるというメソッドです。 ActiveSupport
+の Hash#transform_values というメソッドと同様の機能みたいですね。
+[ruby-core:76095] [Feature #12512]

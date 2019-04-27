@@ -1,0 +1,4 @@
+rubyspec の Socket.getaddrinfo のテストで戻り値の 7番目の要素を
+Socket::IPPROTO_TCP か 0 かどっちか Windows かそれ以外かで決めてましたが、どち
+らでも受け付けるようにチェック方法を変更しています。古い Solaris (2.10) と新し
+いもので挙動が違うためみたいです。

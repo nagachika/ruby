@@ -1,0 +1,2 @@
+rb_enc_symname_type() で ID_JUNK な ID に ID_ATTRSET を付加できるようにしていま
+す。

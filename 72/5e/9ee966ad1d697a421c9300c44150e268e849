@@ -1,0 +1,2 @@
+[ruby-core:35416] で告知されていましたが date/delta Date::Delta が削除されてい
+ます。 [Feature #4391]

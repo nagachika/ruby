@@ -1,0 +1,3 @@
+rb_method_entry_make() で RGenGC の Write Barrier 用マクロ OBJ_WRITTEN() に
+VALUE 型を渡すべきところを rb_iseq_t * を渡してしまっていたので rb_iseq_t::self
+を渡すように修正しています。

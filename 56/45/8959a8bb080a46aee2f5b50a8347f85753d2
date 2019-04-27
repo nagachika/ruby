@@ -1,0 +1,4 @@
+Thread.handle_interrupt で引数の例外クラスと抑制方法を現わす Symbol の Hash を
+チェックする時に内部的に利用する Hash オブジェクトを作ってコピーするようにして
+います。この Hash は VALUE 値をそのまま使うように rb_ident_hash_new() で作って
+います。

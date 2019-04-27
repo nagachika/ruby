@@ -1,0 +1,2 @@
+Object#instance_eval のテストで例外が発生するため実行されない返り値をチェックし
+ている assert_equal を削除しています。

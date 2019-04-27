@@ -1,0 +1,3 @@
+marshal.c の marshal_dump(), marshal_load() でコンパイラの最適化による GC マー
+ク漏れで SEGV する可能性があったので RB_GC_GUARD() で対処しています。
+[ruby-dev:46772] [Bug #7591]

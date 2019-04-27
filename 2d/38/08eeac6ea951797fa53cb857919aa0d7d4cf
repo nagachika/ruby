@@ -1,0 +1,3 @@
+マルチバイト文字を含む String を byteslice で文字の途中で切り出してしまった時に
+String#valid_encoding? は false になるはずなのに true になってしまう不具合を修
+正しています。 [ruby-dev:47108] [Bug #7954]

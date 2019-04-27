@@ -1,0 +1,6 @@
+r40915 で無引数の Module#private_constant の警告表示のために rb_frame_callee()
+を使って SEGV していたので rb_frame_current_frame() に置き換えたのですが、これ
+は rb_frame_callee() の名前が悪いという方針で再修正しています。 rb_frame_callee
+() はその関数を呼んだ時点でのメソッド名の ID を返すようにし、その1つ呼び元に遡
+ったメソッド名は prev_frame_callee() や prev_frame_func() で返すようにしていま
+す。

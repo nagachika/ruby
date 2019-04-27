@@ -1,0 +1,2 @@
+File.empty? を File.zero? と同じ実装のメソッドとして追加しています。
+[ruby-core:63269] [Feature #9969]

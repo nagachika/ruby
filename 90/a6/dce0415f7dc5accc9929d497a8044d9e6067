@@ -1,0 +1,5 @@
+メソッドの種別に VM_METHOD_TYPE_CFUNC_FAST というのを追加しています。これは
+VM_METHOD_TYPE_CFUNC と同様 C で書かれたメソッドを呼び出しますが、コントロール
+スタックを積まずに呼ぶので高速に呼べるようようになっています。
+rb_method_definition_struct の OPTIMIZED_TYPE に gcc 拡張の書きかたが紛れこんで
+いるような気が。

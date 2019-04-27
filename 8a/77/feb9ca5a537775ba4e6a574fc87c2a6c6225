@@ -1,0 +1,4 @@
+tool/fake.rb で $extmk が真の時は $ruby に BASERUBY のかわりに miniruby を利用
+するようにしています。拡張ライブラリのビルドの時の extconf.rb の実行はインスト
+ールしようとしている ruby でないと RbConfig の値などを参照しているときにうまく
+いかないといったことでしょうか。

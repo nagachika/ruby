@@ -1,0 +1,3 @@
+Gem::TestCase という rubygems のテスト用のクラス(？)の @@project_dir クラス変数
+の設定を test/runner.rb に追加しています。ソースツリー以外でテストした時に
+rubygems のテストが失敗するのが修正されています。

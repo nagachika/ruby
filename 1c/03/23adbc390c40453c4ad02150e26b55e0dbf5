@@ -1,0 +1,6 @@
+alloca(3) は gcc に -ansi オプションをつけると __builtin_alloca に置き換えられ
+ていて、libc に alloca が存在しない環境でリンクエラーになるので gc.c や
+eval_intern.h で個別に重複して書かれていた環境によって適切に alloca() の宣言を
+切り替える対処を inclue/ruby/ruby.h に書いて常に有効になるようにしています。詳
+しいことがチケットにも書かれていますのでご参照を。 [ruby-core:49086] [Bug #
+7307]

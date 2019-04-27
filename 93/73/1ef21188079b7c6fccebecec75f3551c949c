@@ -1,0 +1,5 @@
+昨日の r37050 で test/ruby/test_unicode_escape.rb で非ASCII文字を外部コマンドの
+echo で表示しようとしているところが Windows ではうまくいかなかったので ruby を
+使って出力させるようにしたのですが、今度は Unix(非Windows と言うべきか)で環境変
+数 LANG=C の時に失敗してしまったので RUBY_PLATFORM で分岐するようにしています。
+[ruby-core:47709] [Bug #7076]

@@ -1,0 +1,5 @@
+frame_info_to_str() の switch 文の break がもれていたのを修正。
+また backtrace_object() で lev, n 引数を削除して返すフレーム情報のオフセットと
+数の指定はこの関数ではしないようにして backtrace_collect() で削るようにしていま
+す。
+また caller を呼ぶベンチマークを追加しています。

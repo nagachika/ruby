@@ -1,0 +1,6 @@
+インタプリタの初期化時に Init_BareVM() で Init_heap() よりも前に rb_hash_new()
+を呼び出してしまっていたので、VM が内部的に利用するオブジェクトを確保する処理を
+Init_vm_objects() として切り出して Init_heap() の後に呼び出すように修正していま
+す。よく動いてましたね。あと Init_top_self() からも内部的な配列オブジェクトの確
+保を Init_vm_objects() に移動しているのですが、この Init_top_self() はどこから
+呼ばれているのか…。

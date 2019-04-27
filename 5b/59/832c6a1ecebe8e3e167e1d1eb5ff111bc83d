@@ -1,0 +1,3 @@
+r44459 での mkmf.rb の CXXFLAGS を受け付けるようにする修正の影響で make dist が
+失敗していたのを tool/make-snapshot で @CXXFLAGS@ の置換に対応して修正していま
+す。 [ruby-core:59393] [Bug #9320]

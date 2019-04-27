@@ -1,0 +1,4 @@
+拡張ライブラリ openssl に OpenSSL::PKey::EC の private_key? と public_key? メソ
+ッドをそれぞれ private? と public? メソッドに改名して、互換性のため元の名前は
+alias として残しています。 EC だけ他の鍵のクラスとメソッド名が違ってたんですね
+。 [ruby-core:45541] [Bug #6567]

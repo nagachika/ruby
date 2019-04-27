@@ -1,0 +1,7 @@
+rb_thread_polling() とそこで使われている sleep_for_polling() という関数を削除し
+て、rb_file_flock() で flock が EAGAIN や EWOULDBLOCK を返した時に
+rb_thread_polling() を利用していたのをその場で rb_thread_wait_for() を呼んで
+sleep するようにしています。 rb_thread_polling() は他に Thread がいる時だけ
+sleep しますが flock() が EAGAIN を返した(ロックされてた)時は Thread に関係なく
+待つ必要があるので rb_thread_polling() を使っていたのは間違っていました。ただ
+rb_thread_polling() の削除は r38391 で revert されています。

@@ -1,0 +1,4 @@
+r59449 で Windows 版の ENV のキー(環境変数名)の Encoding 処理のリファクタリング
+をしたことで miniruby で一部の Encoding しか使えないためにビルド時の処理がうま
+くできないことがあったらしく、変換失敗時の fallback 先の Encoding を miniruby
+でも使える ASCII-8BIT にしています。 [ruby-core:89177] [Bug #15164]

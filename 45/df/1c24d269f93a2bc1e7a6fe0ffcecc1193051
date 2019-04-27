@@ -1,0 +1,3 @@
+Windows での Dir.glob の実装で FindFirstFile() という API を利用するようにして
+います。 Windows の "c:/progra~1" のような短縮形のパスも利用できるようにしてい
+るそうです。 [ruby-core:67954] [Bug #10819]

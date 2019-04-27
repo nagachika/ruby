@@ -1,0 +1,6 @@
+ripper や rbconfig/sizeof と同様に自動生成する拡張ライブラリ用のソースファイル
+に ext/socket/constdefs.c を追加して common.mk に ext/socket で make する規則を
+追加しています。 platform independent とありますが環境毎にヘッダで定義されてい
+る定数を Ruby の定数として参照しているので、ビルドする時に決まるのじゃないのか
+なぁ。まあ make up 用だとすれば開発者が実行するものだと思うのでそれで良いのかも
+。

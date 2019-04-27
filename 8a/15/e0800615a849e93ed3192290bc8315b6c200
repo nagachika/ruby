@@ -1,0 +1,3 @@
+r65735 で Makefile.in から切り出した tool/mjit_archflag.sh ですが Solaris の
+shell への対応で arch_flags が空の時に生成するヘッダが文法エラーになってたみた
+いです。 [ruby-dev:50674] [Bug #15319]

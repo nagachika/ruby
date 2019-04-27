@@ -1,0 +1,2 @@
+test/ruby/test_rubyoptions.rb で Windows 環境では実行する ruby のファイルパスの
+"/" をバックスラッシュで置換するようにしています。

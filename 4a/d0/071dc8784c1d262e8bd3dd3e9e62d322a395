@@ -1,0 +1,4 @@
+configure で __builtin_setjmp() と __builtin_longjmp() が利用可能かチェックする
+ための C コード片で __builtin_longjmp() の第2引数に変数を使っていたのが gcc 4.9
+でエラーになるそうで、定数 1 を渡すようにしています。というか 1 しか渡しちゃい
+けないそうです。えー…。 [ruby-core:61800] [Bug #9692]

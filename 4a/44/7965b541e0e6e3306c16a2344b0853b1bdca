@@ -1,0 +1,2 @@
+r48486 の common.mk の $(srcdir) 削除で mswin 版のビルドができなくなったような
+ので revert しています。また nmake ですかね…。

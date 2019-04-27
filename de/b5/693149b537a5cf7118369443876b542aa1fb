@@ -1,0 +1,3 @@
+struct RVALUE から struct RNode を消して、ついに T_NODE 型のオブジェクトを削除
+しています。 T_NODE 型のオブジェクトが GC の mark や free でみつかったら rb_bug
+() で異常終了するようにしています。

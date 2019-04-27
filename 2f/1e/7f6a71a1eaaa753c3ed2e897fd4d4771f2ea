@@ -1,0 +1,2 @@
+r39956 で定義するようにした SIGNEDNESS_OF_TIME_T を win32/Makefile.sub でも定義
+するようにしています。

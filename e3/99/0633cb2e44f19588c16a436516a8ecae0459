@@ -1,0 +1,2 @@
+利用されていない YARV 命令 opt_checkenv が削除されています。また対応するノード
+(ASTノード)の NODE_OPTBLOCK も削除されています。

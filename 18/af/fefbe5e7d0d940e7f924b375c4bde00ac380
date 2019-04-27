@@ -1,0 +1,4 @@
+File#to_path という file と同じメソッドを rdoc コメントに追加しています。
+https://github.com/ruby/ruby/pull/263
+なおコミットログには alias と表記されていますが正確には alias ではなく、同じ C
+の関数を実装にもつメソッドとして別々に定義されています。

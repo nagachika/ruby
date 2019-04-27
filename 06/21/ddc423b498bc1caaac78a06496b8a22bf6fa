@@ -1,0 +1,3 @@
+r47939 の Etc.nprocessors に sched_getaffinity(2) を使うようにした変更で、
+CentOS5 には CPU_ALLOC() マクロが存在しないそうで、利用する条件に CPU_ALLOC が
+定義されているかどうかのチェックも追加しています。

@@ -1,0 +1,4 @@
+irb で空白文字を含む文字列リテラルの補完をしようとすると、候補の表示が化ける不
+具合を修正しています。 Readline.basic_work_break_characters に空白を含めていた
+のを削っています。うーむ、Readline の補完か。いかにも別のシチュエーションで問題
+になることがありそうな気が… https://github.com/ruby/ruby/pull/465

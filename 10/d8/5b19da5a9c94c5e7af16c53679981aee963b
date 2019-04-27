@@ -1,0 +1,3 @@
+Array#- と Array#difference の rdoc 用コメントで引数の配列の要素と一致する要素
+が元の Array に複数あった時に全て削除されるというのを明確化しています。 https:/
+/github.com/ruby/ruby/pull/2068

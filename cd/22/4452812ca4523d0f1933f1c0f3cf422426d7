@@ -1,0 +1,2 @@
+ri の man ページ man/ri.1 で groff のエラーになっていたのを修正しています。
+[ruby-core:55919] [Bug #8620]

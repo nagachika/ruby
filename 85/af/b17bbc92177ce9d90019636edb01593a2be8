@@ -1,0 +1,2 @@
+parse.y の rb_enc_symname_type() と rb_str_symname_type() の引数名の typo 修正
+。

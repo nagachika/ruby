@@ -1,0 +1,2 @@
+r61782 の続きで tool/instruction.rb を削除して tool/ruby_vm/ に新しく insns.def
+から VM 用ソースコードの生成のためのツールを導入しています。

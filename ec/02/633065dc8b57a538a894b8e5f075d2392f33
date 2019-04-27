@@ -1,0 +1,3 @@
+win32/Makefile.sub で生成する config.h に SIZEOF_CLOCK_T の定義を追加しています
+。 r42651 で configure でチェックするようにしたので Windows 版も追随しています
+。

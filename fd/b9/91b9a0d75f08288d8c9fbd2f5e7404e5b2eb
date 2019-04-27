@@ -1,0 +1,2 @@
+bignum.c のリファクタリング。乗算アルゴリズムの選択条件の不等式を
+KARATSUBA_BALANCED() と TOOM3_BALANCED() とし定義して利用するようにしています。

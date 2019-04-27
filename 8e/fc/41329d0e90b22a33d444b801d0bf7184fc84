@@ -1,0 +1,3 @@
+array.c の配列から Hash を作る時に空の Hash オブジェクトを作る時に rb_hash_new
+() のかわりに、サイズが判っているので rb_hash_new_with_size() であらかじめ容量
+を確保しておくようにしています。

@@ -1,0 +1,3 @@
+r57690 の rdoc 用コメントの修正は write_nonblock については余計だったので
+revert しています。 https://github.com/ruby/ruby/pull/1527#
+issuecomment-281867551

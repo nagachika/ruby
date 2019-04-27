@@ -1,0 +1,2 @@
+Enumerable#flat_map の rdoc のサンプルコードを挙動がよくわかるように少し変更し
+ています。

@@ -1,0 +1,2 @@
+mjit.c のコンパイルオプションを決める CC_LIBS に MJIT_LIBS を含めるのを Windows
+環境のみにしています。

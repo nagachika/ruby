@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Socket::Option.byte および Socket::Option#byte の rdoc
+コメントから「The size and endian is dependent on the platform.」という一文を削
+除しています。 1 byte 固定なので。

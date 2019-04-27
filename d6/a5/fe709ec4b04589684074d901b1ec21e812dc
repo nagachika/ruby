@@ -1,0 +1,3 @@
+RubyGems の最新版をマージしています。メソッド名の互換性のための改名
+(extension_install_dir → extension_dir)、gem.deps.rb.lock ファイルの生成の不具
+合修正などが含まれているそうです。

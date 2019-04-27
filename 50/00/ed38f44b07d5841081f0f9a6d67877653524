@@ -1,0 +1,2 @@
+parse.y で数値の構文解析部分を parser_yylex() から parse_numeric() という関数に
+切り出すリファクタリング。

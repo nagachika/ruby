@@ -1,0 +1,8 @@
+もうひとつ require の高速化です。今度は $LOAD_PATH の中身の文字列を freeze する
+ようにしています。そして $LOAD_PATH の内容のパスを絶対パスに展開した結果を
+rb_vm_t::expanded_load_path に保存しておいて、これも rb_ary_shared_with_p() で
+load_path に変更がないかチェックして変更があった時だけ再構築するようにしていま
+す。また内容を freeze する関係から(?)、$LOAD_PATH に格納するオブジェクトは文字
+列でなければ to_str で文字列に変換するようにしています。これにより require の度
+に $LOAD_PATH から絶対パスに展開されたパスを毎回構築する処理を省いています。
+[ruby-core:47970] [Bug #7158]

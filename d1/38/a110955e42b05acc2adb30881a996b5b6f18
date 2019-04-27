@@ -1,0 +1,3 @@
+include/ruby/io.h の RB_IO_BUFFER_INIT() と RB_IO_FPTR_NEW() は 2.2 から
+(r47863 で)利用するとビルドエラーになるようにしてありましたが、ついに定義自体を
+削除しています。

@@ -1,0 +1,5 @@
+r33937 のうち Zlib::GzipReader で open するファイルをバイナリモードに設定する修
+正を revert しています。 IO のモードの設定は重要な変更なので zlib のメンテナの
+判断が必要ということと*1、Zlib::GzipReader.new は通常 Zlib::GzipReader.open か
+ら呼ばれ、そこではバイナリモードを指定して open しているから大丈夫ということで
+した。

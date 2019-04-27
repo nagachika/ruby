@@ -1,0 +1,2 @@
+vm_backtrace.c と numeric.c() のいくつかの関数に static 修飾子を追加するのと、
+uniname2ctype_p() の prototype 宣言を常に行うようにしています。

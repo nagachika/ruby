@@ -1,0 +1,2 @@
+send_internal() で send の第1引数が Symbol でない(文字列?)の時に rb_str_intern
+() で Symbol 化して利用するようにしています。 [ruby-core:68008] [Bug #10828]

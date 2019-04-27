@@ -1,0 +1,4 @@
+BasicObject のドキュメントを修正。また bootstrap で特別扱いで作られる
+BasicObject, Object, Class, Module が rdoc で解析できないので #if 0 で括ったと
+ころに rb_define_class() で定義を書いています。逆に言うと rdoc は #if を認識し
+ないんですね。

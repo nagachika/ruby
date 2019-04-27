@@ -1,0 +1,2 @@
+r53503 の変更に追随して Proc#parameters のテストで String#upcase の Method を使
+っていたところを修正しています。

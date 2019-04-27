@@ -1,0 +1,2 @@
+標準添付ライブラリ rinda/tuplespace と、拡張ライブラリ pathname のテストスクリ
+プトで不要な require "enumerator" が残っていたので削っています。 [Bug #10902]

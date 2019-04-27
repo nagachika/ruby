@@ -1,0 +1,2 @@
+拡張ライブラリ objspace で追加される ObjectSpace.reachable_objects_from の rdoc
+コメントの typo 修正。

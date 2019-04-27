@@ -1,0 +1,3 @@
+r65033 で MJIT 用 worker から利用した CreateChild() で常に NULL が渡されていて
+意味がなくなっていた引数を削除しています。CreateChild() って Windows の API じ
+ゃなくて ruby のソースコードで定義されている関数だったのか。

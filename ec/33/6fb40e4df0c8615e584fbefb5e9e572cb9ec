@@ -1,0 +1,5 @@
+r66605 で C99 を利用するように configure.ac で AC_PROG_CC を AC_PROG_CC99 に変
+更したので、追随して -WWerror=declaration-after-statement と -Werror=restrict
+を追加しないようにしています。 CRuby のソースコードで利用する C の規格を C99 に
+引き上げ(?)ようという提案があったんですね。 https://github.com/ruby/ruby/pull/
+2064 [ruby-core:90089] [Misc #15347]

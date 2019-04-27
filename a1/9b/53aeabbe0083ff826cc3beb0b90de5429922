@@ -1,0 +1,3 @@
+hash.c の rb_hash_update_block_callback() と rb_hash_update_func_callback() で
+分岐内の共通の文を分岐の外に括り出すリファクタリング。 https://github.com/ruby/
+ruby/pull/1338

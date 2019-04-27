@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の webrick/httpservlet/xxx_handler.rb でも Kernel#
+open を使っていたところを File.open に変更。 [ruby-core:84391] [Misc #14216]

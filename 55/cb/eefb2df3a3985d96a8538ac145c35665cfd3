@@ -1,0 +1,2 @@
+r41866 の続き。 bignum.c の bary_mul1() で MEMZERO() を削除したかわりに
+bary_mul_single() で余分な領域に MEMZERO() を呼ぶようにしています。

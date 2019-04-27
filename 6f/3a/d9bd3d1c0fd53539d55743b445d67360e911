@@ -1,0 +1,3 @@
+bignum.c で Bignum の除算/剰余の計算に使う struct big_div_struct の割り込みフラ
+グのメンバに volatile を付けています。volatile がないと最適化によりメモリを読み
+にいかず割り込みがきかないことがあったみたいです。

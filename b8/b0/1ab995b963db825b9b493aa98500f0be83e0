@@ -1,0 +1,4 @@
+Array#cycle の返す Enumerator の size 対応。 cycle は止まらないから
+Float::INFINITY かと思ったらサイズが 0 の時とか Array#cycle の引数で繰り返し回
+数が指定できるなどの仕様があってもうちょっと複雑でした。 [ruby-core:45805]
+[Feature #6636]

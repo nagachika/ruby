@@ -1,0 +1,2 @@
+r40755 で tool/ifchange に追加した --keep という拡張子をつけてバックアップする
+オプションを win32/ifchange.bat にも追加しています。

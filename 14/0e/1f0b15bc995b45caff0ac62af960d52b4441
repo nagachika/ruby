@@ -1,0 +1,2 @@
+String#start_with? String#end_with? の英文の修正です。 [ruby-core:36040] [Bug #
+4652]

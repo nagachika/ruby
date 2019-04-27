@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.from_binary_format_extra_data で extra_data という
+のを読み込む時のバッファの位置の間違いと、NUL 終端文字を期待してしまっていたの
+をサイズを指定して String オブジェクト化するようにしています。

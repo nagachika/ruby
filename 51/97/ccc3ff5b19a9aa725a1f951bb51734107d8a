@@ -1,0 +1,2 @@
+test/ruby/envutil.rb の assert_separately でスクリプトの行数の調整が r44123 の
+END ブロックの挿入でずれていたので調整しています。

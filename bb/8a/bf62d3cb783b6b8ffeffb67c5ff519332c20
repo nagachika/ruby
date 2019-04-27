@@ -1,0 +1,2 @@
+RUBY_MARK_UNLESS_NULL() という NULL チェックをした上で rb_gc_mark() を呼び出す
+マクロで引数の ptr を1度だけ評価するように展開するように修正しています。

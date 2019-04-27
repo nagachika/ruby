@@ -1,0 +1,3 @@
+r55303 の make update-XXX でサブディレクトリの移動とチェックを変更したのを
+revert しています。 Solaris 10 でエラーになったそうです。 [ruby-dev:49654] [Bug
+#12471]

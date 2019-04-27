@@ -1,0 +1,2 @@
+Array#bsearch_index というメソッドを追加しています。 Array#bsearch の要素ではな
+く index を返すバージョンみたいですね。 [ruby-core:67514] [Feature #10730]

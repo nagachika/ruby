@@ -1,0 +1,7 @@
+nextafter(3) という math ライブラリの関数が利用して Float#next_float, Float#
+prev_float という、前後の最も近い表現可能な Float を返すメソッドを追加していま
+す。 nextafter(3) が利用できない環境では missing/nextafter.c に代替の実装を追加
+していて、これを利用するようにしています。 [ruby-core:62562] [Feature #9834]
+ふーむ、これどんな時に使うんだろう、と思ったらチケットには "These methods can
+be useful to examine the behavior of floating-point numbers." とあるので、まあ
+説明用ですね。確かにそういう時に欲しいこともありますね。

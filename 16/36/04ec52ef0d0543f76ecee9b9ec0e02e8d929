@@ -1,0 +1,2 @@
+r54559 の File.empty? メソッドの追加を NEWS ファイルに追記しています。
+[ruby-core:63269] [Feature #9969]

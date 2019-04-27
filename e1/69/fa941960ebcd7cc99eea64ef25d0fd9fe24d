@@ -1,0 +1,4 @@
+数値リテラルの 1i や 1r のような Complex や Rational 用の suffix の処理の
+parser_number_literal_suffix() で literal_flush() を呼び出していたのを
+parser_yylex() に移動してエラー時にのメッセージにトークンを表示できるようにして
+います。

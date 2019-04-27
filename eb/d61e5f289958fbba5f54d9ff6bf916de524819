@@ -1,0 +1,3 @@
+BigDecimal#power, BigDecimal#** の引数に Fixnum 以外に Bignum, Float, Rational
+なども受け付けるようにしています。また BigDecimal#power には省略可能な第2引数と
+して精度の指定を受け付けるようにしています。 [Bug #3271]

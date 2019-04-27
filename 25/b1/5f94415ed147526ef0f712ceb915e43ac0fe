@@ -1,0 +1,4 @@
+SIGCHLD の処理の変更で waitpid(2) を呼び出すために GVL 外した時に timer thread
+から配送される SIGCHLD 受信の通知を待つための rb_native_cond_wait() に入る条件
+に RUBY_VM_INTERRUPTED_ANY() のチェックを追加しています。どうやら race
+condition があって待ちっぱなしになる可能性があったみたいですね。

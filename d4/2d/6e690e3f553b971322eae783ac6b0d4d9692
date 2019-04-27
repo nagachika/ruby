@@ -1,0 +1,6 @@
+標準添付ライブラリの rdoc を 4.1.0 から 4.2.0.alpha に更新しています。 2.2 のリ
+リースに向けて upstream のあるライブラリ(rubygems や rake、psych、json など)は
+そろそろ更新されるころですかね。差分が大きいので細かく読んでいませんが変更点な
+どは本家リポジトリの History.rdoc を参照してください。 https://github.com/rdoc/
+rdoc/blob/master/History.rdoc
+多言語化(翻訳)のための pot ファイルの生成機能などが目玉新機能みたいです。

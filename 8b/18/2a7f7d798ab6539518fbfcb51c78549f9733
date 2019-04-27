@@ -1,0 +1,6 @@
+macOS の High Sierra で Kernel#fork するとクラッシュしてたそうで、
+CoreFoundation のかわりに Foundation framework にリンクするように変更しています
+。 High Sierra で fork した子プロセスで Objective-C の API の扱いに変更があった
+みたいで、親プロセスで先に Objective-C のフレームワークを利用するための初期化が
+行なわれていないと子プロセスでは実行できないようになっているそうです。
+[ruby-core:83239] [Bug #14009]

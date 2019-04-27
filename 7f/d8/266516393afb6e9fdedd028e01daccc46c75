@@ -1,0 +1,2 @@
+init_sigchld() でのシグナルマスクの設定、解除を rb_disable_interrupt(),
+rb_enable_interrupt() に置き換えるリファクタリングです。

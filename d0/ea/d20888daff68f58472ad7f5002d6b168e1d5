@@ -1,0 +1,6 @@
+r37259 の opt_send_simple 命令の導入で send 命令で falgs をみて
+vm_caller_setup_args() を呼ぶかどうかの分岐が不要になったので削除しています。
+それから vm_caller_setup_args() で rb_call_info_t::blockiseq のチェックをしてい
+る if 文の条件に UNLIKELY() をつけていたのをやめています。ここは false じゃなく
+て true になる可能性が高いらしく、コメントで likely と書かれています。わかりや
+すいコメントありがとうございます。

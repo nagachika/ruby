@@ -1,0 +1,3 @@
+rubyspec の Object#itself のテストで object_id の equal? での比較をしていたのを
+削っています。Bignum になった Integer が返されると equal? での同一性チェックだ
+と異なるオブジェクトと判定されてしまうため。should eql にすればいいのでは。

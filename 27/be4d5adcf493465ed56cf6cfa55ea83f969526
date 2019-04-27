@@ -1,0 +1,2 @@
+spec/ruby の Refinements のテストで double free で異常終了するらしいので return
+してテストをスキップするようにしています。おお、top-level return だ。

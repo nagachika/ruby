@@ -1,0 +1,7 @@
+Bignum の乗算処理の変更。元々の乗算処理の流れを理解していないので要点が掴めてま
+せんが、bary_mul_balance() を bary_mul_balance_with_mulfunc() と改名して引数に
+bary_mul() のバリエーションの関数への関数ポインタを受け取ってそれを用いるように
+しています。また rbb_big_mul_balance() や bary_mul_karatsuba() で bary_mul() で
+なく bary_mul_XXX() を呼ぶようにするなど、各アルゴリズム用の関数を直接呼ぶよう
+にしているみたいです。 Toom3 と Karatsuba というアルゴリズムが混ざらないように
+しているそうです。

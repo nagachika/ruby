@@ -1,0 +1,4 @@
+newobj_of() やそこから呼ばれる関数群に wb_protected という引数を追加して、
+RGenGC などの write barrier が効いているオブジェクトかどうかを flags から判定さ
+せていたのを明示的に引数で渡すように変更して、rb_wb_unprotected_newobj_of() と
+rb_wb_protected_newobj_of() という関数を導入しています。

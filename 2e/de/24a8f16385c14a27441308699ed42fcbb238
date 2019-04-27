@@ -1,0 +1,2 @@
+VM の命令列時点での最適化を行なう iseq_peephole_optimize() で重複した trace 命
+令を削るようにしています。

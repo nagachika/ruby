@@ -1,0 +1,2 @@
+io.c の rb_stdio_set_default_encoding() でグローバル変数の rb_stdin, rb_stdout,
+rb_stderr の extern 宣言をしていたので削っています。

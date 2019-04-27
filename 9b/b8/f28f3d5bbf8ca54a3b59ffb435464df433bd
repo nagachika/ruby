@@ -1,0 +1,3 @@
+C API の rb_define_class() と rb_define_class_id_under() の引数 super に 0 を渡
+した時に警告するようにしていたのを、 ArgumentError 例外が発生するように変更して
+います。昔は super を渡さないことが許されてたんですね。

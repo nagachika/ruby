@@ -1,0 +1,3 @@
+Windows 版の rename() の実装で移動前後で同じディスクか判定するために VSN (変更
+前の関数名からみるに Volume Serial Number の略?)の取得時に open_special() に
+FILE_FLAG_OPEN_REPARSE_POINT フラグを渡すようにしています。

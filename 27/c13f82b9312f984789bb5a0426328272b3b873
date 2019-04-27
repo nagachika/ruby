@@ -1,0 +1,4 @@
+拡張ライブラリ win32ole で method_missing の実装で ole_propertyput() や
+ole_invoke() に渡す文字列オブジェクトを新規に作成するのではなく rb_str_dup() や
+rb_str_subseq() を使ってバッファを共有する文字列オブジェクトを使うようにして最
+適化しています。

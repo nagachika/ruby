@@ -1,0 +1,2 @@
+String#concat で文字のコードポイントを取る変数に VALUE(long) を使っていたところ
+を unsigned int に変更。これも GB18030 のために。

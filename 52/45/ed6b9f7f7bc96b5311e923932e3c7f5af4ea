@@ -1,0 +1,2 @@
+Process.euid= のテストでユーザー名を取得するのに環境変数 USER に依存していたの
+を Etc.getpwuid も試すようにしています。

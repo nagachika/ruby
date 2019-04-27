@@ -1,0 +1,4 @@
+r51182 で Linux において Random の実装でシステムコール getrandom(2) (syscall
+(SYS_getrandom)) を利用するようにしましたが、エントロピーが枯渇している時にブロ
+ックしないように flags に GRND_NONBLOCK を渡すように修正しています。
+[ruby-core:70114] [Bug #11395]

@@ -1,0 +1,3 @@
+標準添付ライブラリ irb で $SAFE が 3以上というチェックがあって、$SAFE 3以上とい
+うのはもうサポートされてないので削除しています。 https://github.com/ruby/ruby/
+pull/1713

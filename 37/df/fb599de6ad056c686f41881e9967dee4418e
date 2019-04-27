@@ -1,0 +1,4 @@
+文字列連結の公開 API rb_str_buf_cat2() を rb_str_cat_cstr() と改名して
+rb_str_buf_cat2() は RUBY_ALIAS_FUNCTION マクロを使ってその別名として定義するよ
+うにしています。同様に rb_str_buf_cat() も rb_str_cat() と改名しています。
+README.EXT/README.EXT.ja にも rb_str_cat_cstr() の記述を追加しています。

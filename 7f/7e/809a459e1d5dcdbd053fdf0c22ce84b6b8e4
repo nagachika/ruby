@@ -1,0 +1,3 @@
+cygwin/GNUmakefile.in で TARGET_OS が cygwin の時もバッチファイルに ruby スクリ
+プトを埋め込んで直接実行できるようにした stub ファイルを各種ツールについて生成
+するようにしています。

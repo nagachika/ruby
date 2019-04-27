@@ -1,0 +1,5 @@
+r32432 で Fiber のスタックを mmap で確保する時に FreeBSD では MAP_STACK をフラ
+グに追加しないように(FreeBSD では MAP_STACK を追加すると第1引数に NULL ではなく
+アドレスを指定しないといけないため)してましたが、GNU/kFreeBSD というプラットフ
+ォームでも同様なので判定の条件に追加しています。 [ruby-core:39147] [Bug #5241]
+GNU/kFreeBSD !? そういうのもあるのか。

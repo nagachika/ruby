@@ -1,0 +1,7 @@
+同梱している RubyGems を 2.1.0 から 2.1.3 に更新しています。 gem install 時のプ
+ラットフォームの判定の不具合修正、gem install --install-dir オプションの不具合
+修正、依存関係の解決のバージョン選択の不具合、gemspec にファイルパスとして "./"
+で始まるものがあるとインストールできない不具合などの修正。 2.1.0 がメジャーバー
+ジョンアップで大改造だったので不具合修正が続いているようですね。リリースノート
+はこちら http://rubygems.rubyforge.org/rubygems-update/History_txt.html#
+label-2.1.3+/+2013-09-12

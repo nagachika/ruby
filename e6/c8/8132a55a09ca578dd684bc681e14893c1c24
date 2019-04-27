@@ -1,0 +1,2 @@
+r54521 の rb_f_load() の再修正。 rb_get_path_check_convert() で変換するのは冗長
+だったらしく削っています。

@@ -1,0 +1,2 @@
+doc/NEWS-2.5.0 の Integer#step というエントリは Numeric#step に修正して記述位置
+も移動しています。

@@ -1,0 +1,2 @@
+拡張ライブラリ socket の numeric_getaddrinfo() でポート番号のオーバフローをチェ
+ックするようにしています。 [ruby-core:69355] [Bug #11179]

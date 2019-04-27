@@ -1,0 +1,4 @@
+標準添付ライブラリ erb に ERB#result_with_hash というメソッドを新設して、引数に
+Hash を受け取ってそれをローカル変数としてセットした状態でテンプレートを解釈する
+ことができるようにしています。 https://github.com/ruby/ruby/pull/1623
+[ruby-core:55985] [Feature #8631]

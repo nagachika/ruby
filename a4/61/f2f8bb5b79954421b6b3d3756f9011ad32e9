@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal の実装が bignum.c の BDIGIT の定義を利用していたのを
+、bigdecimal は独自に定義した型を利用するようにしています。 r41379 で bignum.c
+の BDIGIT の型に uint128_t を利用可能にしたために bigdecimal のテストが失敗する
+ことがあったのに対処しています。 [ruby-dev:47413] [Feature #8509]

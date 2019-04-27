@@ -1,0 +1,2 @@
+defs/known_errors.def に errno の名前として EHWPOISON を追加しています。 glibc
+-2.16 で定義されているそうです。

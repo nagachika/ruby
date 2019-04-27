@@ -1,0 +1,2 @@
+complex.c で polar の特別なケースでの最適化を rb_nucomp_mul() からその中で読ん
+でいる f_complex_polar() 内に移動しています。

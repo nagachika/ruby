@@ -1,0 +1,2 @@
+r30781 で TypedData_Get_Struct() で利用するために thread_data_type 変数を公開シ
+ンボルにしたので、ruby_ という接頭語を付けています。

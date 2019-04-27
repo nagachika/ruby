@@ -1,0 +1,4 @@
+r63687 および r63688 で PUSH() で VM スタックに内部オブジェクト(struct
+RBasic::klass が 0)を置くのを禁止する VM_ASSERT() が rubyspec にひっかかったの
+は Wrap_Data_Struct() の C API のテストのせいだったみたいなので、問題のテストを
+削っています。

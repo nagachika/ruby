@@ -1,0 +1,2 @@
+同じく r67645 で追加しているテスト test/reline/key_actor_emacs_test.rb で
+require "stringio" が漏れていたので追加しています。

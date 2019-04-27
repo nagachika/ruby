@@ -1,0 +1,2 @@
+Test::Unit::Options の @options インスタンス変数を削除して @opts に集約していま
+す。また process_args の返り値が options になっていなかったのを修正しています。

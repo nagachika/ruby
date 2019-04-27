@@ -1,0 +1,3 @@
+obj&.meth = 1 のように safe-guard 演算子と代入つきメソッドの組み合わせの記法を
+書いた時にも obj が nil だっかか否かで branch coverage が取れるように trace 命
+令を追加しています。 [ruby-core:90763] [Bug #15476]

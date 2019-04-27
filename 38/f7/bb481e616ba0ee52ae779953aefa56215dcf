@@ -1,0 +1,5 @@
+r65873 で cont.c で Fiber 用のスタックを Windows 版では malloc/free で確保する
+ようにしていましたが、VirtualAlloc()/VirtualFree() というライブラリ関数? を使う
+ように変更しています。また確保した領域に VirtualProtect() という関数でスタック
+の最上部(アドレス的には最初のほう?)に overflow 検出用の guard page を設定してい
+るようです。

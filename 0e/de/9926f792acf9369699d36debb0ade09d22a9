@@ -1,0 +1,3 @@
+r44101 で deprecate として警告が出るようにした OpenSSL::Digest::Digest を使って
+いるところが openssl とそのテストに存在していたので、OpenSSL::Digest およびその
+子クラスを利用するようにしています。

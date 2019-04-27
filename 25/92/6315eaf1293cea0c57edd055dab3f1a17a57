@@ -1,0 +1,2 @@
+標準添付ライブラリ weakref でも if __FILE__ == $0 で括られたサンプルコードを
+sample/weakref.rb に切り出しています。

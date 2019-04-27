@@ -1,0 +1,4 @@
+r47439 の vfork(2) と pthread の併用のチェックは revert して、単に Mac OS X で
+は vfork(2) は利用しないようにしています。 OS X では vfork() を使うと
+test_process.rb の test_deadlock_by_signal_at_forking が並列実行時にデッドロッ
+クしてしまうそうです。むむ、残念ですね。

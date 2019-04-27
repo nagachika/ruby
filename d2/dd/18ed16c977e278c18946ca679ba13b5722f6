@@ -1,0 +1,2 @@
+compile.c で defined? の命令の defined_expr0() の定義で defined_expr というマク
+ロで名前展開してたのをやめたり、不要な分岐を消したりしています。

@@ -1,0 +1,3 @@
+r56098 の拡張ライブラリ openssl の upstream からのマージで Solaris 10 上の
+Fujitsu C Compiler でのビルド失敗を修正。これも初期化子に変数を使っていたので明
+示的な構造体メンバの代入に置き換えています。 [ruby-dev:49809] [Bug #12769]

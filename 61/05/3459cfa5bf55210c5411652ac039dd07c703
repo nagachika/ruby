@@ -1,0 +1,5 @@
+拡張ライブラリ socket で rsock_addrinfo() に address family を指定する引数を追
+加しています。また UDPSocket の #connect, #bind, #send などでは fd から
+getsockname(2) で取得した struct sockattr::sa_family を利用するようにしています
+。 pull request のほうをみると IPv4 と IPv6 のアドレスに重複して UDPSocket のパ
+ケットが飛んでいたようです。まじかー https://github.com/ruby/ruby/pull/1052

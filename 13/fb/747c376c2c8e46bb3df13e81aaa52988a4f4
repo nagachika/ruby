@@ -1,0 +1,3 @@
+dRuby のテストの後始末で子プロセスを kill するところで Windows 環境では
+Process.kill が Errno::EPERM を発生させることがあるのを対応しています。
+[ruby-dev:47245] [Bug #8251]

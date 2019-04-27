@@ -1,0 +1,3 @@
+tool/rbinstall.rb で bundled gems パッケージをインストールする先を Gem.dir では
+なく Gem.default_dir に修正しています。 GEM_HOME 環境変数に影響されないようにし
+ているそうです。 https://github.com/ruby/ruby/pull/798

@@ -1,0 +1,3 @@
+r49948 で対応した accept_nonblock の exception キーワード引数対応で
+rb_hash_aref() を使っていたのを rb_hash_lookup2() を利用するように修正していま
+す。 Hash のデフォルト値の影響を受けないようにするため。

@@ -1,0 +1,2 @@
+ext/dl と ext/fiddle で Windows 環境を HAVE_WINDOWS_H で判定しているのを _WIN32
+で判定するように変更しています。 [ruby-core:33977]

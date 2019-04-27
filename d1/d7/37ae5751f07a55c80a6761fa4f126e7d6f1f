@@ -1,0 +1,2 @@
+gc.c で malloc_usable_size(3) が利用できるように malloc.h を #include していま
+す。

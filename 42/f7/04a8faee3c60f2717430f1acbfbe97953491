@@ -1,0 +1,3 @@
+REXML::Text.new の引数の String が freeze されていたらエラーになってしまうので
+clone(freeze 状態もコピーする)じゃなくて dup でコピーをとっておくようにしていま
+す。 [ruby-dev:43582] [Feature #4783]

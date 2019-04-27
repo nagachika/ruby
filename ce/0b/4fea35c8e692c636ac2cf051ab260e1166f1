@@ -1,0 +1,2 @@
+昨日 include/ruby/thread.h を追加したので include/ruby.h に HAVE_RUBY_THREAD_H
+定数マクロの定義を追加しています。

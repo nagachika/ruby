@@ -1,0 +1,2 @@
+doc/globals.rdoc の特殊変数 $? の説明に $? が Thread local であることを追記して
+います。

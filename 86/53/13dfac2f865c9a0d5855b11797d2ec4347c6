@@ -1,0 +1,2 @@
+r65956 で修正した String#each_grapheme_cluster が yield する各要素に taint フラ
+グが伝播することをチェックするテストを追加しています。

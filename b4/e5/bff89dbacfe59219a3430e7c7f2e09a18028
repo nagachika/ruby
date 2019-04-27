@@ -1,0 +1,2 @@
+r50522 で追加した Numeric#positive? で Bignum の 0 に対して false を返すように
+修正しています。 [ruby-core:69173] [Feature #11151]

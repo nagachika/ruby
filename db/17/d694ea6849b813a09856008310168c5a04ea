@@ -1,0 +1,3 @@
+拡張ライブラリ psych で YAML の dump/load の Encoding オブジェクトの対応を追加
+して、バージョンも 2.0.3 から 2.0.4 に更新しています。ちなみに Encoding オブジ
+ェクトは "!ruby/encoding" タグをつけてエンコーディング名で dump するようです。

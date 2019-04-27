@@ -1,0 +1,5 @@
+test/ruby/test_process.rb で Process.setrlimit で RLIMIT_NOFILE に渡す制限値を
+0 or 1 にしていたのを利用中の file descriptor (IO.pipes で pipe を生成してその
+fileno を使っているので、おそらくその時点で利用中の fd を得ようとしているのでは
+ないかと思います。IO.pipes で得る fd が他の利用中のものより小さい可能性もあると
+は思いますが)に変更しています。

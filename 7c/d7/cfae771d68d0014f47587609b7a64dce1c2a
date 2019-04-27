@@ -1,0 +1,3 @@
+lib/mkmf.rb で require "tmpdir" していたところも昨日の r45711 などと同様に、
+require "etc" が失敗する時は "etc.so" を $LOADED_FEATURES に追加しておくように
+しています。 miniruby での実行時を考慮しているようです。

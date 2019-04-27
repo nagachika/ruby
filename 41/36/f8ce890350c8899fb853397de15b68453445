@@ -1,0 +1,2 @@
+bootstraptest/test_thread.rb でインデントが足りてないところにインデントを追加し
+ています。emacs で ruby-mode.el がエラーを出すのでその対策らしいです。

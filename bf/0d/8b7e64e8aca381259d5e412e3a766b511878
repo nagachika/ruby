@@ -1,0 +1,1 @@
+signal.c の reserved_signal_p() を static 関数として宣言しています。

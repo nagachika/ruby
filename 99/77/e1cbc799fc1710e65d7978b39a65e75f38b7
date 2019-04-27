@@ -1,0 +1,3 @@
+process.c で引数の文字列を作るために rb_str_new4() といういけてない名前を使って
+いたところを rb_str_new_frozen() を呼ぶようにリファクタリングしています。
+rb_str_new4 は rb_str_new_frozen のことなので意味はかわってません。

@@ -1,0 +1,2 @@
+win32/Makefile.sub の clean-ext ターゲットで先に ext に移動してから for /R を利
+用するようにしたりメッセージの内容を common.mk にそろえるなどの変更。

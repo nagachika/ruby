@@ -1,0 +1,2 @@
+parse.y と tool/ytab.sed で YYPRINTF() というマクロの定義の方法を変えているので
+すがよくわからず。

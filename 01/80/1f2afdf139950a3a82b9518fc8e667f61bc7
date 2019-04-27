@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Point#mul の rdoc 用コメントに説明
+を追記しています。また引数のチェックを強化しているようです。 [ruby-core:65152]
+[Bug #10268]

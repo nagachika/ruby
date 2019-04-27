@@ -1,0 +1,2 @@
+tool/make-snapshot と tool/vcs.rb で ChangeLog をバージョン管理ツールのログから
+生成するようにしています。 [ruby-core:74951] [Misc #12283]

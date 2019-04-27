@@ -1,0 +1,3 @@
+gc.c の lazy_sweep() のループのリファクタリング。 is_lazy_sweeping() マクロを利
+用しないようにするのと一時変数を使って objspace->heap.sweep_slots を何度も参照
+しないようにしています。

@@ -1,0 +1,2 @@
+rb_integer_pack() で numwords と wordsize の組み合わせが大きすぎる時の例外メッ
+セージの変数名が古いまま(?)だったのを修正しています。

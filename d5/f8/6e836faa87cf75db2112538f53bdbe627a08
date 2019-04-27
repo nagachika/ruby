@@ -1,0 +1,2 @@
+テストスクリプトに magic comment frozen_string_literal: true を追加して、必要な
+ところには dup を追加しています。

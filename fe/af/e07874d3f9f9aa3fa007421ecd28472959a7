@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::Server で TLS を利用している時にクライア
+ント側が handshake を完了しないと OpenSSL::SSL::SSLSocket を non_blocking に設
+定しておいても accept が block してしまう不具合を修正しています。直接 Socket の
+accept_nonblock を呼んでから OpenSSL::SSL::SSLSocket にくるむようにしています。
+[ruby-core:83221] [Bug #14005]

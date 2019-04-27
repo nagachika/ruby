@@ -1,0 +1,2 @@
+configure で Solaris 上の gcc の時に _XOPEN_SOURCE マクロをつける時には -std=
+gnu99 オプションも追加するようにしています。

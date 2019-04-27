@@ -1,0 +1,2 @@
+拡張ライブラリ curses の crmode の実装が nocbreak になっていたのを cbreak と同
+等にしています。こんなバグが残っていたとは。 [ruby-core:54013] [Bug #8222]

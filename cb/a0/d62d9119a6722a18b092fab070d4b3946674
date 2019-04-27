@@ -1,0 +1,3 @@
+Net::HTTPRequest#send_request_body_data で開いている Tempfile にたいして
+binmode を呼び出すようにしています。Windowsでの改行コードの変換を抑制、でしたっ
+け。

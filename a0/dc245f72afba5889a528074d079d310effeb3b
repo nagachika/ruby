@@ -1,0 +1,3 @@
+Process.kill や Signal.trap の引数のシグナルを指定する文字列が不正な時の
+ArgumentError 例外のメッセージに埋め込む時に PRIsVALUE を使ってエンコーディング
+を保持するようにしています。

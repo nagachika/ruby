@@ -1,0 +1,4 @@
+r37094 で追加された ObjectSpace.reachable_objects_from に内部オブジェクトも
+ObjectSpace::InternalObjectWrapper というクラスのオブジェクトとして返すように仕
+様が追加されています。まだ動作確認していないので多分ですが間接的な参照ではなく
+直接参照を持っているオブジェクトの一覧を返します。

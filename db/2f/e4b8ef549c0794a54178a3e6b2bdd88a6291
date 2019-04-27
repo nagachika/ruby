@@ -1,0 +1,5 @@
+r51209 で全てのプラットフォームで execve(2) 前に timer thread を止めるようにし
+たのを revert しています。 signal の喪失により deadlock することがあるという問
+題があったのでした。ああー、なるほど test_deadlock_by_signal_at_forking が OS X
+でたまに失敗するというのは、OS X では timer thread を止めてるからかもしれないで
+すね。

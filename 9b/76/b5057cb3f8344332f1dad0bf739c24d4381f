@@ -1,0 +1,3 @@
+rake のテストで不要な rescue を削ったりといった細かい修正と、Rake::FileUtils.
+ruby で起動する ruby インタプリタの決定に環境変数 RUBY も考慮するようにしていま
+す。

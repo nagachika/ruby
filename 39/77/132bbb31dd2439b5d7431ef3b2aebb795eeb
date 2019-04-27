@@ -1,0 +1,2 @@
+test/ruby/test_process.rb の test_execopts_redirect という大きなテストメソッド
+を分割するリファクタリングをしています。

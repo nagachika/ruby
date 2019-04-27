@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http で 226 IM Used という HTTP ステータスの対応を追加し
+ています。 https://github.com/ruby/ruby/pull/447
+IM Used は差分エンコーディングという方法ででかいデータを部分的に取得する時に返
+されるステータスみたいです。参考 URL: http://tools.ietf.org/html/rfc3229
+(10.4.1 226 IM Used)

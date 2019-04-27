@@ -1,0 +1,3 @@
+Matrix の固有値分解する Matrix::EigenvalueDecomposition を追加して、Matrix#
+eigen または Matrix#eigensystem で計算できるようにしています。やあ、これは便利
+ですね。しかしこの規模のコードの追加となるとやはりテストが欲しいですね。

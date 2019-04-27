@@ -1,0 +1,2 @@
+rbconfig.rb の型の上限下限などを取得できる RbConfig::Limits を RbConfig::LIMITS
+に改名しています。

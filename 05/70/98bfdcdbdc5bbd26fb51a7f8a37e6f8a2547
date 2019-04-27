@@ -1,0 +1,2 @@
+addr2line.c と dln.c で strncat(3) を利用していたところを strlcat(3) を利用する
+ように書き換えています。

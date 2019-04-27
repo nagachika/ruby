@@ -1,0 +1,3 @@
+VM 命令 leave の実装で bp を取得するために vm_base_ptr() に渡す cfp (control
+frame pointer) を取得するのに reg_cfp を直接参照してたのを GET_CFP() というマク
+ロ経由で取得するようにしています。debug counters を効かせるため。

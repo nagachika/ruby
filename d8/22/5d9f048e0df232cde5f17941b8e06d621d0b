@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OpenSSL::SSL::SSLContext#options および #options= を
+OpenSSL の SSL_CTX_get_options() と SSL_CTX_set_options() の wrapper メソッドと
+して定義して、options をインスタンス変数として持たせて ossl_sslctx_setup() でそ
+れを参照して SSL_CTX_set_options() で設定していたのをやめています。

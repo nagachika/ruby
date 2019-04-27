@@ -1,0 +1,2 @@
+標準添付ライブラリ net/ftp の Net::FTP#open_socket でも r56779 で追加した
+read_timeout キーワード引数を使うようにしています。

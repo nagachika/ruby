@@ -1,0 +1,3 @@
+rb_convert_to_integer() 全体を switch 文から if 文での分岐に書きなおして、Float
+からの変換で Fixnum の範囲に収まる場合に to_int メソッドの呼び出しで変換してい
+たのを直接 LONG2FIX((long)f) で変換するようにしています。

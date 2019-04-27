@@ -1,0 +1,3 @@
+r63823 で追加された Time#locatime のテストで一部環境(force_tz_test が false)で
+は with_tz のブロックが実行されないのでそのような環境のための skip を追加してい
+ます。

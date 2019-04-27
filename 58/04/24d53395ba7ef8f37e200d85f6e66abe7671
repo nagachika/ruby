@@ -1,0 +1,2 @@
+r61534, r61536 の rb_iseq_body_t の構造の変更にあわせて .gdbinit の
+print_lineno コマンドを修正しています。

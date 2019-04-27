@@ -1,0 +1,3 @@
+parse.y の begin ... end の規則で bodystmt を使っている規則のアクションで
+body_stmt のノードが NULL の場合のチェックをしていましたが、bodystmt は NULL を
+返さない(という前提で書いてるところが他にもある)のでチェックを削っています。

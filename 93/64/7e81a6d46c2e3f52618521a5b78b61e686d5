@@ -1,0 +1,4 @@
+標準添付ライブラリ rexml で Encode.default_internal が設定された状態で XML ドキ
+ュメントを読み込んだ場合に、読み込み元の IO の Encoding ではなくて
+default_internal が効いてしまっていたのを修正しています。 [ruby-dev:48686] [Bug
+#10418]

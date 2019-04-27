@@ -1,0 +1,2 @@
+ビルド時に USE_TRANSIENT_HEAP というマクロを指定して Transient Heap 機能をオフ
+にできるようにしています。

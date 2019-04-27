@@ -1,0 +1,3 @@
+test/ruby/test_exception.rb の test_thread_signal_location というテストメソッド
+が既知のバグのため通らないそうなので skip を追加しています。 [ruby-core:85536]
+[Bug #14474]

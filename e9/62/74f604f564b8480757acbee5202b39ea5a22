@@ -1,0 +1,2 @@
+test/ruby/test_io.rb で r47422 で rescue 節を削除してから不要になってた begin
+節を削除しています。

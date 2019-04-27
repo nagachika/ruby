@@ -1,0 +1,2 @@
+appveyor.yml で環境変数 VS および VS*COMNTOOLS などを表示させるようにしています
+。

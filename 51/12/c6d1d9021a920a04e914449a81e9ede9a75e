@@ -1,0 +1,3 @@
+rb_typeddata_is_kind_of() を利用してオブジェクトが BigDecimal かどうか判定する
+is_kind_of_BigDecimal() という関数を新設して利用するようにリファクタリングして
+います。

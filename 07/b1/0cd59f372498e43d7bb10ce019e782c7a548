@@ -1,0 +1,4 @@
+rdoc のテストで -W0 オプションをつけて $VERBOSE = nil の状態だと失敗するテスト
+(警告が出ることをチェックするのに $VERBOSE = nil だと出ない)のために
+RDoc::TestCase#verbose_capture_io というヘルパーを定義してそれを利用するように
+しています。

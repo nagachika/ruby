@@ -1,0 +1,2 @@
+private な attr_accessor を使うと警告メッセージが出ていたのを削っています。
+[Bug #10967] https://github.com/ruby/ruby/pull/849

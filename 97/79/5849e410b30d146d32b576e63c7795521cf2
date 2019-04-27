@@ -1,0 +1,2 @@
+標準添付ライブラリ base64 で String#unpack と first を使っていたところを 2.4 か
+ら追加された String#unpack1 を利用するように書きかえています。

@@ -1,0 +1,2 @@
+test/rexml/test_elements.rb のテストメソッドの test_elements_ という prefix を
+test_ に変更しています。

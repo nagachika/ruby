@@ -1,0 +1,2 @@
+39766 で Time のオブジェクトに再度 initialize を呼ぶのは禁止されたので
+initialize_copy を呼ぶテストも削除しています。

@@ -1,0 +1,7 @@
+Numeric#quo を実装する関数を numeric.c から rational.c へ移動して、関数名も
+num_quo() から numeric_quo() へ改名しています。これは mathn による
+canonicalization (require "mathn" すると組込みの数値のメソッドが返す型が変化す
+る)の影響を受けるようにするためのようです。 require "mathn" すると Numeric#quo
+は r41109 の変更以前と同じように rb_rational_raw1() で変換するようになっていま
+す。mathn を使うと coerce を使うようになるということでしょうか。
+[ruby-core:41575] [Bug #5736]

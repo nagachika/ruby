@@ -1,0 +1,4 @@
+標準添付ライブラリ uri で URI::Generic.build の host に IPv6 のアドレスを渡すと
+host= でセットしようとしてエラーになっていたので hostname= でセットして "[::1]"
+のように "[]" で囲まれるようにしています。こういう記法があるんですね。 https://
+github.com/ruby/ruby/pull/765

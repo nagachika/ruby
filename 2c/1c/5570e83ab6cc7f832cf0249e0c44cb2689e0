@@ -1,0 +1,2 @@
+Marshal.dump でも TypeError 例外時にメッセージに含めるクラス名に PRIsVALUE を使
+うようにしてエンコーディングを保持するようにしています。

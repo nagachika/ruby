@@ -1,0 +1,2 @@
+r52429 で defs/lex.c.blt で struct kwtable::name の型を int に変更したのに追随
+して lex.c.blt で明示的なキャストを追加しています。

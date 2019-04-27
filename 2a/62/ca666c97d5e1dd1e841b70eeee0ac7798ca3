@@ -1,0 +1,2 @@
+r39269 での io/console の extconf.rb の修正で macro_defined? に渡す引数の間違い
+を修正しています。

@@ -1,0 +1,3 @@
+コンパイル時の警告を除去するため iseq.c の変数の型を修正。commit log には long
+-> unsigned long とありますが unsigned int への変更。使われているところをみると
+問題なさそうです。

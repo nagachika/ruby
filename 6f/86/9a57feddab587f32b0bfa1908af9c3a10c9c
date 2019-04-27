@@ -1,0 +1,3 @@
+古い VC でのビルエドエラーを修正するため include/ruby/win32.h や socket で
+_MSC_VER をチェックして 1200 以前のバージョンでは #include <winsock2.h> の前に
+#include <windows.h> を追加するようにしています。

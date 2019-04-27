@@ -1,0 +1,2 @@
+昨日の r29790 の test_process.rb の再修正。Process.wait 後に sleep が挟まれ、待
+ち時間を短くしています。

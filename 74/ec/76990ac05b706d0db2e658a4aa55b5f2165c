@@ -1,0 +1,2 @@
+win32/setup.mak で環境変数 PROCESSOR_ARCHITECTURE から対象のアーキテクチャを取
+得していたのをコンパイラのマクロ(MACHINE)で判定するようにしています。

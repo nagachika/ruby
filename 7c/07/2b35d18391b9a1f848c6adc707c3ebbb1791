@@ -1,0 +1,5 @@
+Module#initialize_copy で Module/Class オブジェクトのインスタンス変数テーブル、
+定数テーブル、メソッドテーブルなどを最初にクリアするようにしています。コピー元
+の Module/Class のテーブルが存在しない時にクリアしないようになっていたので、
+initialize_copy しても元のデータが残ってしまっていたそうです。 [ruby-dev:48182]
+[Bug #9813]

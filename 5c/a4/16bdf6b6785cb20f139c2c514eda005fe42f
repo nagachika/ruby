@@ -1,0 +1,4 @@
+SIGCHLD の処理の sigwait_fd_migrate_sleeper() で fd を待っている thread を起こ
+す際に th->interrupt_lock をロックしておくようにしています。 struct
+waitpid_state には mutex はないんだっけ。ないな…。これだけ複雑になるとどうしよ
+うもない気もしますが割と凡ミスっぽいですね。

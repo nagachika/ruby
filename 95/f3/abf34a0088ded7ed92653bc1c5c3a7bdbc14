@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb の rel サブコマンドで redmine サーバがエラーを返した
+時に例外を再発生させずに次のコマンド入力に進むようにしています。

@@ -1,0 +1,2 @@
+test/rubygems/test_gem_security.rb は OpenSSL が利用可能な時だけテスト実行する
+ようにしています。

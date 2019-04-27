@@ -1,0 +1,3 @@
+io.c の Kernel#select の rdoc 用コメントで YARD でのドキュメント化に対応するた
+め、call-seq での改行をやめて1行に1つの例を収めるようにしています。 https://
+github.com/ruby/ruby/pull/799

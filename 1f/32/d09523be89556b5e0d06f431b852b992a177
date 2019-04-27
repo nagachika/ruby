@@ -1,0 +1,4 @@
+include/ruby/defines.h で #include sys/select.h する条件を HAVE_SYS_SELECT_H の
+チェックのみに変更しています。また configure で Haiku の時に shared link するコ
+マンドを $(LD) ではなく $(CC) (gcc) を使うようにしています。 Haiku でのコンパイ
+ルエラーの修正だそうです。

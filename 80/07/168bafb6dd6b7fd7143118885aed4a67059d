@@ -1,0 +1,2 @@
+sprintf.c の ruby__sfvextra() という関数の戻り値に const 修飾子を追加しています
+。

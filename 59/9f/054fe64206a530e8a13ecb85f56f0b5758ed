@@ -1,0 +1,4 @@
+regcomp.c に onig_is_prelude() という関数があって
+Thread::MUTEX_FOR_THREAD_EXCLUSIVE という定数の有無で prelude 内かどうか判定す
+るようにしていて、デバッグ出力を抑制するようにしてましたが、これは削除していま
+す。現在 prelude で正規表現は使っていないとのこと。

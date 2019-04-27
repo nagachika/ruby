@@ -1,0 +1,3 @@
+AST に true, false, nil などのリテラルに直接対応する NODE_TRUE, NODE_FALSE,
+NODE_NIL を配列のリテラル? の中の要素のコンパイル時にその他のリテラルと同様に扱
+うようにして最適化しています。

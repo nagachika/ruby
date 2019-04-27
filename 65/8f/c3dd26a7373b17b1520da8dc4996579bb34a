@@ -1,0 +1,2 @@
+template/exts.mk.tmpl で rubies というターゲットは削除して各拡張ライブラリの
+ext.mk の all, static ターゲットから抽出したものを使うようにしています。

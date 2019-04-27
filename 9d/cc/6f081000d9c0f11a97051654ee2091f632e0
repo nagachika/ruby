@@ -1,0 +1,2 @@
+appveyor.yml で make up 時に Unicode ファイルを更新するようにするため UNICODE
+_FILES 変数の指定を消しています。

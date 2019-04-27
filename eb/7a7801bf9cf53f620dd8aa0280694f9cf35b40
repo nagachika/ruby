@@ -1,0 +1,2 @@
+r47464 で導入した gc_stat_transition() のマクロ名や定数名が typo していて、
+RGENGC_CHECK_MODE を有効にしてもチェックされていなかったのを修正しています。

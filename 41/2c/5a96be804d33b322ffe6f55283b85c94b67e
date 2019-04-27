@@ -1,0 +1,3 @@
+でそのコンパイルと実行を分けるかわりに文字列を eval する API
+rb_eval_string_from_file() などを追加しています。なぜかコメントが javadoc 形式
+ですね。

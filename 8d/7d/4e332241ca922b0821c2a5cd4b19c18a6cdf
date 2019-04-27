@@ -1,0 +1,3 @@
+compile.c で ASN の NODE の type チェックをして rb_compile_bug() を呼び出す処理
+を EXPECT_NODE() や EXPECT_NODE_NONULL(), UNKNOWN_NODE() などのマクロとして定義
+しておいてこれを使いまわすことでメッセージの一貫性を持たせるようにしています。

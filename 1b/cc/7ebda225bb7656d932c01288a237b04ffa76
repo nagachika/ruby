@@ -1,0 +1,6 @@
+rb_block_min_max_arity() と rb_mod_define_method() で Symbol から作った ifunc
+の Proc かどうかの判定に RUBY_VM_IFUNC_P() を使っていたのを
+RUBY_VM_NORMAL_ISEQ_P() というマクロを使うように修正しています。また
+proc_binding() で RUBY_VM_IFUNC_P() と IS_METHOD_PROC_ISEQ() を両方チェックして
+いましたが、IS_METHOD_PROC_ISEQ() の定義が RUBY_VM_IFUNC_P() を含んでいるので冗
+長な条件を削っています。

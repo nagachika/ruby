@@ -1,0 +1,3 @@
+make gcbench-rdoc と make gcbench-hash というルールを追加して GC のベンチマーク
+に特化したベンチマークの実施ができるようにしています。実体は tool/gcbench.rb と
+tool/hashbench1.rb tool/hashbench2.rb に実装されています。

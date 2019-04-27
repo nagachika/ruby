@@ -1,0 +1,2 @@
+もうひとつ、date_core.c の型の警告除去および lib/test/unit/parallel.rb の未使用
+のローカル変数の除去。

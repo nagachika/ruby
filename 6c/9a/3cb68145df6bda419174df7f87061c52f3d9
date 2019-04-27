@@ -1,0 +1,4 @@
+r44213 の RubyGems の更新を revert しています。単にメソッド呼び出しにしただけの
+ように思えますが bundler から使った時に SystemStackError が発生していたそうです
+。 RubyGems だけみると大丈夫そうに見えますけど Bundler で Gem のメソッドを書き
+換えたりしてるんでしょうかね。

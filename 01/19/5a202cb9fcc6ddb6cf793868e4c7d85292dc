@@ -1,0 +1,4 @@
+r48647 で rb_data_type_t のメンバーから parent を削除して reserved にした変更を
+revert しています。 parent が必要だというチケットが上がってきたので一旦戻したみ
+たいですね。 redmine で議論は続いているようですが。 [ruby-core:66969] [Bug #
+10621]

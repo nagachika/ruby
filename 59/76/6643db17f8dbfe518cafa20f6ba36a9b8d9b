@@ -1,0 +1,3 @@
+enc/unicode/case-folding.rb で titlecase 以外にも特殊な大文字小文字の対応のフラ
+グを出力するようにしています。 enc/unicode.c 側でも対応するマクロの定義はしてい
+ますがまだ利用はしていないようです。

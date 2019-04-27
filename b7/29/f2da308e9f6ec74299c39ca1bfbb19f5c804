@@ -1,0 +1,2 @@
+おそらく r42482 の関連だと思いますが test/rexml/parse/
+test_notation_declaration.rb にも類似のテストを追加しています。

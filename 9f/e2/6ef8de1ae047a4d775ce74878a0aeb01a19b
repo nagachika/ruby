@@ -1,0 +1,4 @@
+標準添付ライブラリ rdoc に upstream から 6.0.1 をマージしています。
+activerecord のソースコードのドキュメント化でエラーが起きてたのに対して対策を入
+れてるみたいです。 erb のテンプレートを処理しようとしてエラーになってたみたいで
+すね。 https://github.com/ruby/rdoc/issues/571

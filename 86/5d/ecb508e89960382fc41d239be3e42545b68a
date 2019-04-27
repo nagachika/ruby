@@ -1,0 +1,3 @@
+拡張ライブラリ psych で文字列オブジェクトのバッファにNUL終端がない時のことを考
+慮していない部分があったので、StringValuePtr() のかわりに StringValueCStr() を
+利用するように修正しています。 [ruby-dev:50285] [Bug #13993]

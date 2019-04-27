@@ -1,0 +1,2 @@
+method_missing に Refinements が効いていたのを効かないようにする変更です。一応
+2.3 からの仕様変更になりますかね? [ruby-core:72080] [Bug #11809]

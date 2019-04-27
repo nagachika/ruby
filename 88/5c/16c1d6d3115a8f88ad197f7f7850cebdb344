@@ -1,0 +1,2 @@
+Complex のテストで Float::NAN を含む Complex に対する finite? や infinite? のテ
+ストケースを追加しています。 [ruby-core:83272] [Bug #14014]

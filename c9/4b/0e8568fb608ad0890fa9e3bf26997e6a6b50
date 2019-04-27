@@ -1,0 +1,4 @@
+拡張ライブラリ psych に Tempfile.create が未定義の時に実装を追加しています。
+Tempfile.create は trunk には既に実装されているのですが、psych は gem パッケー
+ジとしても配布されているので古い ruby と一緒に使うときに Tempfile.create がない
+と動かないのでその時のために自前で持っておくようにしているようです。

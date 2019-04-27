@@ -1,0 +1,5 @@
+メソッド呼び出しでメソッドエントリがみつからずに method_missing() を呼ぶ時に、
+メソッドタイプが VM_METHOD_TYPE_ZSUPER または VM_METHOD_TYPE_REFINED だった時に
+呼び出しかた種別に常に NOEX_SUPER を渡していたので、メソッド種別に応じて変更す
+るようにしています。method_missing() デフォルトだと NoMethodError を発生させる
+ので、その時のメッセージに影響するそうです。

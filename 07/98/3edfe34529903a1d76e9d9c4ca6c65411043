@@ -1,0 +1,4 @@
+tool/mkrunnable.rb で Windows 向けに mklink コマンドで ln_safe を実装する Mswin
+モジュールを利用するかどうかの判定に File.symlink が利用可能かも含めるようにし
+ています。 Windows での File.symlink が実装されたので、最新の ruby を使っていた
+ら Mswin モジュールの実装は不要だからですね。

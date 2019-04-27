@@ -1,0 +1,5 @@
+cond_stack や cmdarg_stack の操作するマクロ群から COND_LEXPOP(), CMDARG_LEXPOP
+() を削除してかわりに XXX_POP() を使うようにしています。command_args というノー
+ドのルールで引数が ( や { ではじまってた時に1文字先読みする関係で cmdarg_stack
+の状態が 1 bit ずれるために LEXPOP() が必要だったみたいなので、その部分で余分に
+POP/PUSH して調整するようにしているそうです。

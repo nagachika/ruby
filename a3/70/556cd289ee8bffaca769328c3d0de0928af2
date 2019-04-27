@@ -1,0 +1,2 @@
+Module#const_get と Module#const_defined? で渡された名前が定数として正しい文字
+列かのチェックを追加しています。

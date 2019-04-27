@@ -1,0 +1,4 @@
+Thread#join の実装で対象の Thread の rb_thread_t::errinfo に TAG_FATAL
+(rb_fatal() で異常終了するときに使われる)以外の Fixnum や NODE オブジェクトが入
+ってたら rb_bug() で異常終了させるようにしています。 TAG_XXX はもっと上で処理さ
+れるはずですし、NODE は…… errinfo に NODE が入るのってどんな時でしたっけ?

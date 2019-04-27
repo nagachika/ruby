@@ -1,0 +1,3 @@
+method entry のflags のセットを行なう inline関数 METHOD_ENTRY_VISI_SET(),
+METHOD_ENTRY_BASIC_SET(), METHOD_ENTRY_FLAGS_SET() で警告除去のためかっこを追加
+しています。 https://github.com/ruby/ruby/pull/1082

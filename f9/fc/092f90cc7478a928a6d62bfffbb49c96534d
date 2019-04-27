@@ -1,0 +1,2 @@
+標準添付ライブラリ securerandom で Array#join の戻り値に to_s しているところが
+ありましたが、Array#join はそもそも String を返すので不要なので削っています。

@@ -1,0 +1,5 @@
+vm_insnhelper.c で callinfo のメソッドエントリを取得するのを関数
+vm_method_cfunc_entry() として(構造体のメンバをたどるだけですが)して、
+VM_DEBUG_VERIFY_METHOD_CACHE が真に定義されていたらここでメソッドのタイプをチェ
+ックして不正なタイプだったら rb_bug() を呼び出して abort させるようにしています
+。

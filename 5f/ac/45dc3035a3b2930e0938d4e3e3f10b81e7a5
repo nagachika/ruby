@@ -1,0 +1,2 @@
+r56094 で追加した Module.used_refinements は Module.used_modules に改名していま
+す。 [ruby-core:49805] [Feature #7418]

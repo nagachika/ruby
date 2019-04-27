@@ -1,0 +1,4 @@
+構造体 struct time_object と struct vtm のサイズ節約のため __attribute__ で
+packed をつけたりコンパイルオプションに -Wno-packed-bitfield-compat をつけてビ
+ットフィールドを使ってぎりぎりのサイズに詰め込むようにしています。
+[ruby-core:60794]

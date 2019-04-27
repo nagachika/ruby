@@ -1,0 +1,4 @@
+Marshal.dump の性能劣化についての追加修正。 Marshal.dump や Marshal.load でオブ
+ジェクトとダンプ結果の対応を記録しておく st_table を numtable ではなく
+ident_table にして FLONUM の時のパフォーマンスを改善しています。キーの hash 値
+を数値としてでなく VALUE の値そのものを元にするようにしています。 [Bug #10761]

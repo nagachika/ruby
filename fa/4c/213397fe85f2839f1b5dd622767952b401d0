@@ -1,0 +1,3 @@
+r42080 で $SAFE = 4 の警告のために追加した ruby_safe_level_4_warning() のプロト
+タイプ宣言を include/ruby/ruby.h で RUBY_EXPORT が定義されていても宣言するよう
+にしています。 [ruby-dev:47517] [Bug #8652]

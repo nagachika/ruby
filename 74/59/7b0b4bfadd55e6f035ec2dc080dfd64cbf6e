@@ -1,0 +1,1 @@
+parse.y で関数の YYLTYPE * 型の引数に const 修飾子を付けています。

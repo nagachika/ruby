@@ -1,0 +1,2 @@
+MAINSTACKADDR_AVAILABLE が真の時に get_stack() がエラーを返した時に未初期化の変
+数を参照してしまっていたので get_stack() のエラーチェックを追加しています。

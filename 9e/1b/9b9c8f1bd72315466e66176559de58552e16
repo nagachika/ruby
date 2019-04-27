@@ -1,0 +1,2 @@
+Env.assoc で返す文字列の Encoding を locale に従ったものに変換して返すようにし
+ています。

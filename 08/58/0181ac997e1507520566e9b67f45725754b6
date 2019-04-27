@@ -1,0 +1,3 @@
+RUBY_RELEASE_DATE を version.h から切り出して Makefile に埋め込むのを configure
+時にやっていたのを Makefile のアクションのなかで切り出すようにすることで毎日
+Makefile を更新するようにしています。

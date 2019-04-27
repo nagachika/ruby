@@ -1,0 +1,3 @@
+GC 用のパラメータを環境変数 RUBY_HEAP_MIN_SLOTS から取り込んで
+initial_expand_heap を呼び出すのは RUBY_HEAP_MIN_SLOTS が設定されていた時だけ呼
+ぶようにしています。

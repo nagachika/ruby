@@ -1,0 +1,3 @@
+r42920 に関連して size_t は unsinged でないといけないので、 configure でもし
+size_t が符号付きだった時にビルドエラーにするようにしています。
+[ruby-core:57149] [Feature #8890]

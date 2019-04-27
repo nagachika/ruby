@@ -1,0 +1,3 @@
+Windows でのビルド時に find.exe コマンドのかわりに findstr.ext を使うようにして
+います。findstr.exe のほうがどの環境にもあるというのと、cygwin だと find は別の
+コマンド(Unix の find でしょうね)になってしまうからです。

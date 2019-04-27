@@ -1,0 +1,3 @@
+NEWS ファイルの Fixnum/Bignum の統合についての記述に、2.4.0-preview1 で一時的に
+(問題をあぶり出すために) rb_cFixnum と rb_cBignum が削除されたことを追記してい
+ます。

@@ -1,0 +1,3 @@
+RDoc 4.1.0.preview.1 で make rdoc すると拡張ライブラリで documented? が nil に
+対して呼ばれて例外が発生してエラーになってしまうので rdoc/constant.rb で
+is_alias_for に documented? を呼ぶ前にチェックを追加しています。

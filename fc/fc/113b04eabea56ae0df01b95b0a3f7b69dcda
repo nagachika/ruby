@@ -1,0 +1,3 @@
+mingw で ftruncate64, truncate64, ftello64, fseeko64 の存在をチェックして 64bit
+版があればそれを、なければ自前実装の 32bit 版を利用するようにしています。
+[ruby-core:35678] [Bug #4564]

@@ -1,0 +1,2 @@
+r45878 の Prime.prime? の負の数を素数と判定しなくした変更を incompatible change
+として NEWS ファイルに追記しています。 [ruby-core:49558] [Bug #7395]

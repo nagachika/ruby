@@ -1,0 +1,2 @@
+ext/extmk.rb から $makeflags.defined? を削除しています。$mflags を使うのが正解
+だったとのこと。

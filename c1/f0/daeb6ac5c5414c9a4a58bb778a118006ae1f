@@ -1,0 +1,2 @@
+r67010 のさらに続き。 rubyspec で socket の Socket#accept_nonblock や
+recvfrom_nonblock を呼ぶ前に IO.select を常に呼ぶようにしています。

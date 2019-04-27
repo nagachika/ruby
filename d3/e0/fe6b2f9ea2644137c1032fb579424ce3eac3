@@ -1,0 +1,3 @@
+ASCII-8BIT の String の Copy on Write で複製された文字列の encode のテストを追
+加しています。 assert_nothing_raised("JRUBY-6764") という assert 文のメッセージ
+をみると JRUBY に関連するものみたいですね。

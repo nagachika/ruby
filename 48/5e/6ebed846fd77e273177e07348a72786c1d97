@@ -1,0 +1,7 @@
+r44170 で追加した Exception#backtrace_locations メソッドですがメソッドの arity
+のエラーなどメソッド呼び出し時の ArgumentError だとうまくバックトレース情報が取
+れないという不具合があったためダミーの control frame を push してからバックトレ
+ースを作るようにしています。また backtrace_locations が取得するための内部的なイ
+ンスタンス変数 bt_locations のセットもしていなかったのでセットするようにしてい
+ます。文字列で返す Exception#backtrace のほうは argument_error() で最初のフレー
+ムのぶんは作っていたようです。 [ruby-core:59306] [Bug #9295]

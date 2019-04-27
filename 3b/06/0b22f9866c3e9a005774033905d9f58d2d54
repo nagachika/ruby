@@ -1,0 +1,4 @@
+vm_method.c の prepare_callable_method_entry() で rb_classext_t::callable_m_tbl
+のテーブルの確保を遅延するためのチェックですが、その後の method entry がみつか
+らなかった時の分岐の中にテーブル確保のためのチェックを移動しています。これは me
+が見付かるほうが多いからそっちの分岐を減らすためかなぁ。

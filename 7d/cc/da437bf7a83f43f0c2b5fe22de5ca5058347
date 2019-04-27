@@ -1,0 +1,2 @@
+array.c の rb_ary_sum() から数値の加算処理の共通部分を finish_exact_sum() とい
+う関数にくくり出すリファクタリング。

@@ -1,0 +1,2 @@
+rb_mark_end_proc(), rb_gc_mark_parser() など内部で使う GC のマーク用関数の宣言
+を intern.h から internal.h に移動して外部から参照されないようにしています。

@@ -1,0 +1,4 @@
+mkmf.rb (extconf.rb) で have_framework を使った時に Framework が存在するか
+conftest.c というファイルをコンパイルしてみてチェックするのですが、Cocoa などは
+ヘッダが Objective-C の文法のものを #include することがありコンパイルエラーにな
+るので -ObjC というオプションを付けてコンパイルするようにしています。

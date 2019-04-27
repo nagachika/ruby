@@ -1,0 +1,4 @@
+missing/alloca.c で条件コンパイルのために RUBY_LIB_PREFIX という定数マクロを参
+照していたのですが、これが定義されているヘッダが verconf.h に移動していたため
+missing/alloca.c から見えなくなっていたので、この条件分岐自体なくして常に有効に
+なるようにしています。 [ruby-dev:45492] [Bug #6255]

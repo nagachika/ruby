@@ -1,0 +1,2 @@
+NEWS ファイルに rb_newobj_of() と NEWOBJ_OF() という新規API について追記してい
+ます。

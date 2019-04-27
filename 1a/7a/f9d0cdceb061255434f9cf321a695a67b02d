@@ -1,0 +1,1 @@
+vm_eval.c の rb_f_public_send() も static 関数にしています。

@@ -1,0 +1,2 @@
+拡張ライブラリ io/console で rb_sym2str() が存在しない時に rb_id2str() で代替す
+るようにしています。 [ruby-core:74953] [Bug #12284]

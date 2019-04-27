@@ -1,0 +1,2 @@
+.gdbinit の print_lineno コマンドの実装に get_infns_info() の実装が succinct
+bitvector を使った時の対応を追加しています。

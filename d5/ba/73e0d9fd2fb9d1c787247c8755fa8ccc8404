@@ -1,0 +1,2 @@
+ext/pathname/lib/pathname.rb の内部的に使うメソッドに :nodoc: タグをつけて RDoc
+でドキュメント化されないようにしています。

@@ -1,0 +1,6 @@
+なんと misc/ruby-mode.el のテストが追加されています emacs コマンド(または環境変
+数 EMACS に設定したコマンド)の --batch、--eval オプションを使ってテストするよう
+です。
+なのですが emacs が古かったりすると失敗することがあるようです。Linux で Emacas
+21.3.1 だと --quick というオプションがないみたいで全てエラーになってしまいまし
+た。Mac OS X 10.6 でも test_singleton_class が Faulure です。

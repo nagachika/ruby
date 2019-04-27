@@ -1,0 +1,5 @@
+r63030 で Array#map でブロックとして lambda を渡した時の引数に配列から自動的に
+splat されるようにしたのを revert して、ArgumentError を発生させるようにしてい
+ます。lambda 内で return した時の挙動が変わってしまっていたとのこと。うう、これ
+はどうしたらいいものか…。 [ruby-core:86362] [Bug #14639] [ruby-core:89734]
+[Bug #15285]

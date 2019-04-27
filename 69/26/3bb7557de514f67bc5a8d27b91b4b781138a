@@ -1,0 +1,3 @@
+bignum.c の rb_cstr_to_inum() で Bignum の文字列化と同様に基数の累乗が再利用で
+きるので、文字列からの Bignum 化でも power_cache_get_power() を呼ぶようにする最
+適化を行なっています。

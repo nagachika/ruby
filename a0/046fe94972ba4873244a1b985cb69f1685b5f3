@@ -1,0 +1,2 @@
+test/xmlrpc/test_webrick_server.rb でテストに使うポート番号を test/xmlrpc/
+test_cookie.rb で使ってたのと被っていたので1つずらしています。

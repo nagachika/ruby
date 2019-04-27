@@ -1,0 +1,2 @@
+st_hash_uint() の宣言で Undefined Behavior Sanitizer のチェックを抑制する
+NO_SANITIZE() で unsigned int overflow のチェックをしないようにしています。

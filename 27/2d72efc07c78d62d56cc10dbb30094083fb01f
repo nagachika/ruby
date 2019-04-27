@@ -1,0 +1,3 @@
+test/ruby/envutil.rb の assert_warn で渡したメッセージを assert_warn が生成する
+メッセージのかわりにまるまるおきかえるのではなくてそこに追加するようにしていま
+す。

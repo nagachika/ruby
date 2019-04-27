@@ -1,0 +1,2 @@
+stack_check() および rb_threadptr_stack_check() の引数を rb_thread_t から
+rb_execution_context_t に変更して対応して名前も変更しています。

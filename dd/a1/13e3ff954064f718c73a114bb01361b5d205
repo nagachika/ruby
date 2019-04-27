@@ -1,0 +1,4 @@
+拡張ライブラリ openssl のスレッドセーフ化の変更の再修正。
+CRYPTO_set_dynlock_create_callback()、CRYPTO_set_dynlock_lock_callback()、
+CRYPTO_set_dynlock_destroy_callback() などのコールバック関数の登録も追加してい
+ます。 [ruby-core:54900] [Bug #8386]

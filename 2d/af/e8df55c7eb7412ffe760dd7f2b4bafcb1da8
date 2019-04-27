@@ -1,0 +1,4 @@
+configure のオプションに --disable-mathn を追加して、マクロ
+CANONICALIZATION_FOR_MATHN の定義を config.h に出していたのをコンパイルオプショ
+ン XCFLAGS に -D で追加するようにしています。拡張ライブラリのビルド時に定義しな
+いようにするためみたいです。

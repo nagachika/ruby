@@ -1,0 +1,3 @@
+r53268 で追記された "Implementation improvements" セクションから、既に新機能と
+して記述されていた Socket の nonblock 系 API の :exception オプションの追加につ
+いての記述を削っています。

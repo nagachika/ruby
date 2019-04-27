@@ -1,0 +1,5 @@
+AddressSanitizer というメモリ不具合検出用ツール(valgrind みたいなものみたいです
+ね)を使うために -fsanitize=address オプションをつけてビルドするとエラーを検出す
+るのに対応しています。 GC の mark 処理のためにマシンスタックをさわる
+mark_locations_array() に検出の対象外にするための __attribute__() をつけるよう
+にしています。 [ruby-core:57372] [ruby-core:56155] [Bug #8680]

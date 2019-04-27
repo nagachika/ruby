@@ -1,0 +1,5 @@
+拡張ライブラリ io/console の gem パッケージが Windows 上でビルドできないのを修
+正。 gemspec の files に depend と win32_vk.inc が含まれていなかったのを修正し
+ています。またこれに伴なってバージョンも 0.4.5 に更新しています。
+[ruby-core:72453] [Bug #11866]
+ext/io/console/buildgem.sh というファイルも追加されているけどこれはなんじゃろ。

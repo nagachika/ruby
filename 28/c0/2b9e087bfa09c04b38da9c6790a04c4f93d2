@@ -1,0 +1,2 @@
+doc/extension.rdoc と doc/extension.ja.rdoc の rb_ary_aref() の仮引数の記述を修
+正しています。

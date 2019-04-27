@@ -1,0 +1,3 @@
+test/ruby/tst_continuation.rb で Thread.current に対して set_trace_func で
+trace_func を設定しているのに解除するのに VM 全体のほうの API を使っていたため
+trace_func が解除されず漏れていたのを修正しています。

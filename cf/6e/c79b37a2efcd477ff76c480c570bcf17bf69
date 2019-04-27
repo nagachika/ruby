@@ -1,0 +1,4 @@
+thread.c に書かれている MRI (YARV) の thread model について native thread と
+user thread を M:N 対応にした model 4, 5 を追記しています。作ってみるつもりみた
+いですね。 "Often I find myself yearning for the old 1.8 days when spawning
+threads was really cheap for network operations." だそうで。

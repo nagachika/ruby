@@ -1,0 +1,2 @@
+Numeric#quo で引数に Float が渡された時に戻り値が Rational になっていたのを
+Float を返すように修正しています。 [ruby-dev:44710] [Bug #5515]

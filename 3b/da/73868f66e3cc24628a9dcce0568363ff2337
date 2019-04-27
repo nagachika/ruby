@@ -1,0 +1,3 @@
+Complex のテストの assertion を assert_equal を assert_predicate や
+assert_not_respond_to などを使ってエラー時によりよいメッセージが出るようにして
+います。

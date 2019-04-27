@@ -1,0 +1,2 @@
+URI.encode_www_form のエンコード方法を最新の仕様にそろえているそうです。
+参考 - http://tools.ietf.org/html/draft-hoehrmann-urlencoded-01

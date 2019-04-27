@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の Net::HTTP::GenericRequest#update_uri でスキーマ
+の変更で @uri のクラス(URI::HTTP と URI::HTTPS が変化するようにしています。また
+ここでも文字列リテラルを freeze したりする最適化を行なっています。

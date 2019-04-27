@@ -1,0 +1,3 @@
+ext/extmk.rb に --gnumake オプションを追加して、利用している make が GNU Make
+かによってサブディレクトリの再帰的 make の実行方法を変更するようにしています。
+GNU Make の時は make -C directory を利用するようにしています。

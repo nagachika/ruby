@@ -1,0 +1,2 @@
+mjit_config.h の生成時に Universal binary のビルド時の各 architecture 向けのオ
+プション MJIT_ARCHFLAG を preprocessor の分岐内で定義するようにしています。

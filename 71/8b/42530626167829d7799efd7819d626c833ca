@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal の assert 文の typo 修正。 ext/bigdecimal/bigdecmal.c
+では BIGDECIMAL_DEBUG が定義されていなかったら NDEBUG を定義して assert() は展
+開されないようにしていたみたいです。 [ruby-core:67980] [Bug #10823] https://
+github.com/ruby/ruby/pull/825

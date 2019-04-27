@@ -1,0 +1,2 @@
+onigenc_unicode_case_map() の I WITH DOT ABOVE という文字の処理でちょっとしたリ
+ファクタリング。

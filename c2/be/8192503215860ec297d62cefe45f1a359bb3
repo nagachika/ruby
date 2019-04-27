@@ -1,0 +1,3 @@
+parse.y でヒアドキュメントの parse 時に add_mark_object() で ast_t の parse 中
+に mark すべきオブジェクトの配列へ追加するようにしています。この mark もれで不
+具合があったのだと思われます。

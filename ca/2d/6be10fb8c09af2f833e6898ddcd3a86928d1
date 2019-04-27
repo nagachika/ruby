@@ -1,0 +1,3 @@
+iseq.h の catch table のサイズを計算する iseq_catch_table_bytes() でサイズが
+int の上限を越えないようにチェックを追加しています。越えたら rb_fatal() で強制
+終了ですが。

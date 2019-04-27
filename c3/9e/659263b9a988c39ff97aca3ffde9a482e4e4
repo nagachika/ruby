@@ -1,0 +1,3 @@
+r46266 で追加した enc/unicode/case-folding.rb を実際に使って casefold.h を生成
+したみたいですね。また case-folding.rb で gperf を使って完全ハッシュ関数を生成
+して利用するようにしているみたいです。

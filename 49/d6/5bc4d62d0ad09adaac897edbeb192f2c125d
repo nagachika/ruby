@@ -1,0 +1,3 @@
+Date._parse をはじめとする Date._iso8601, Date._rfc3339, Date._xmlschema,
+Date._httpdate, Date._jisx0301 などの日付をパースするメソッドが引数に渡された文
+字列の内容を変更してしまうのを修正しています。 [ruby-core:42173] [Bug #5908]

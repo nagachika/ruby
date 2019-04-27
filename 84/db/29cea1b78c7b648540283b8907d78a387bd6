@@ -1,0 +1,2 @@
+lib/.document と lib/webrick/.document を追加しています。 .gemspec ファイルを
+rdoc のドキュメント生成の対象にならないようにするためみたいです。

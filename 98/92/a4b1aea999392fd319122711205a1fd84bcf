@@ -1,0 +1,4 @@
+同じく MSVC14 向けの対応のための準備かもしれないと思いますが、Windows の IO で
+排他処理のために EnterCriticalSection()/LeaveCriticalSection() を呼び出す部分を
+rb_acrt_lowio_lock_fh()/rb_acrt_lowio_unlock_fh() というマクロに括り出すリファ
+クタリング。

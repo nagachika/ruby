@@ -1,0 +1,2 @@
+NEWS ファイルの非互換項目として Kernel#respond_to? の protected メソッドについ
+ての項目があったのも削除しています。

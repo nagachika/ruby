@@ -1,0 +1,2 @@
+benchmark/bm_array_sort_float.rb に Array#sort の要素が Float だった時のベンチ
+マークスクリプトを追加しています。 [ruby-dev:50023] [Bug #13340]

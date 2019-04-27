@@ -1,0 +1,3 @@
+Time の実体である struct time_object のメンバー gmt を tzmode と改名しています
+。またこのメンバーの値を定数マクロとして TIME_TZMODE_LOCALTIME/TIME_TZMODE_UTC/
+TIME_TZMODE_FIXOFF と定義しています。

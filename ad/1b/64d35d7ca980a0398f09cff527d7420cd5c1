@@ -1,0 +1,2 @@
+rb_threadptr_backtrace_xxx() 系の関数群を rb_ec_backtrace_xxx() と改名して引数
+も rb_execution_context_t に変更しています。

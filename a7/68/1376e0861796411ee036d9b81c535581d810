@@ -1,0 +1,2 @@
+benchmark/app_pentomino.yml の __END__ の後のスクリプトも YAML に含まれてしまっ
+ていたので削除しています。

@@ -1,0 +1,4 @@
+process.c と vm.c にそれぞれ個別に書かれてた mjit_enabled や mjit_pause(),
+mjit_resume() などの宣言を internal.h に移動してい集約しています。 r64250 の
+mjit_pause() のシグネチャの変更に process.c の宣言が追随してなかったのでそのよ
+うなことがないようにまとめています。

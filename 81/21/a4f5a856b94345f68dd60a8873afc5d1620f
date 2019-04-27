@@ -1,0 +1,4 @@
+ObjectSpace.total_memsize_of_all_objects はさすがに長過ぎたのか
+ObjectSpace.memsize_of_all に改名しています。また引数にクラスを受けとって、その
+クラスと kind_of? の関係にあるクラスのみカウントできるようになっています。これ
+は便利ですね。

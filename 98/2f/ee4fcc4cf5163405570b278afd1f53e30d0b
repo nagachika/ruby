@@ -1,0 +1,4 @@
+RGenGC の Write Barrier での保護ができない時に shady オブジェクトにするためのマ
+クロや関数を OBJ_WB_GIVEUP() から OBJ_WB_UNPROTECT(), rb_obj_wb_giveup() から
+rb_obj_wb_unprotect()、rb_gc_giveup_promoted_writebarrier() から
+rb_gc_writebarrier_unprotect_promoted() などと改名しています。

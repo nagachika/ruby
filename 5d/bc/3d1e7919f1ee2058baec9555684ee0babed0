@@ -1,0 +1,5 @@
+ServerSocket#accept で acept(2) のかわりに accept4(2) というシステムコールが利
+用可能だったら使うようにしています。これも Linux の新しいシステムコールでやはり
+close-on-exec の付けた file descriptor を返すためのもので Linux 2.6.28、glibc
+2.10 から利用可能だそうです。このため accept() を wrap した cloexec_accept() と
+いう関数を新設しています。

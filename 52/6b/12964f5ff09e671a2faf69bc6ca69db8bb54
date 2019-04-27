@@ -1,0 +1,4 @@
+r50071 でテスト用の拡張ライブラリ ext/-test-/file/fs.c で statfs(2)/statvfs(2)
+を利用するようにしたのですが Solaris で struct statfs に f_type メンバがなくて
+コンパイルに失敗していたのでメンバの存在チェックをするようにしています。
+[ruby-dev:48913] [Bug #11000]

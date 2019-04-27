@@ -1,0 +1,4 @@
+random.c の fill_random_bytes() の実装を /dev/urandom デバイスファイルから読み
+込むケース(fill_random_bytes_urandom()) と Windows 版の CryptGenRandom() を利用
+するケース(fill_random_bytes_syscall()) で関数に分割するリファクタリングをして
+います。で、/dev/urandom より syscall のほうを優先するようにしています。

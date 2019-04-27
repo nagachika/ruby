@@ -1,0 +1,3 @@
+xt/win32/lib/win32/registry.rb で Win32::Registry の type が不正な時のエラーの
+例外で Registry.type2name を使って名前に変換してから例外メッセージに埋め込むよ
+うにしています。

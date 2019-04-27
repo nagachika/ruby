@@ -1,0 +1,3 @@
+Solaris でバイトオーダーの判定に失敗して Inf, NaN の表現が間違ってしまうので
+BYTE_ORDER での判定をやめて WORDS_BIGENDIAN の定義の有無で判定するように変更し
+ています。 [ruby-dev:44356] [Bug #5160]

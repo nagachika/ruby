@@ -1,0 +1,14 @@
+Thread#[ ] や Thread#[ ]= で Thread にキーと値のペアを記録できる機能を Thread
+Local Storage と呼んでいますが、これは実際には Fiber 毎に保存されるので Fiber
+Local Storage として機能しています。また Enumerator は内部で Fiber を利用してい
+るため、Enumerator のブロック内で Thread Local Storage を利用すると呼び元と同じ
+値が取得できないという問題があり、本当に Thread Local な値の取得/格納のために
+Thread#thread_variable_get, thread_variable_set というメソッドを追加しています
+。また Thread#thread_variables で現在格納している変数名(キー)のリストを返すよう
+にしています。 Thread#thread_variable?(key) で特定のキーが保存されているかをチ
+ェックするメソッドも用意されています。 [ruby-core:47790] [Bug #7097]
+実装としては Thread に "locals" という名前のインスタンス変数*1に Hash オブジェ
+クトを格納してそこに値を入れるようにしています。 struct RBasic::klass をクリア
+して ObjectSpace から隠したほうがいいかもしれませんが、そのためには利用する関数
+を調整しないといけないかもしれませんね(rb_hash_aref() で default_proc の呼び出
+しがあるので r37066 のように rb_hash_lookup() を使うとか)。

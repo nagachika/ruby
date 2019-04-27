@@ -1,0 +1,2 @@
+gems/bundled_gems の power_assert のバージョンを 1.1.4 に更新して r67275 での
+azure-pipelines.yml のエラー無視の指定を revert して戻しています。

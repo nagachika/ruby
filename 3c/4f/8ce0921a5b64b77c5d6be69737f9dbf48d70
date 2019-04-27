@@ -1,0 +1,8 @@
+rb_method_type_t, method_optimized_type の enum の最後の要素の後にカンマがあっ
+たのを削っています。また NOEX_BIT_WIDTH、 NOEX_SAFE_SHIFT_OFFSET という定数名を
+つけて NOEX_??? の定数のビット幅やシフト量を定数化しています。
+それから rb_method_type_t という enum の最後に VM_METHOD_TYPE__MAX を追加して
+rb_method_type_t の値による switch 文に VM_METHOD_TYPE__MAX のケースを追加して
+います。これって何か意味があるんでしょうか? もしかして追加する時に末尾じゃない
+ところに追加すれば差分が1行ですむから最後の要素を作っておく & switch 文で enum
+の値は全て書いておかないと警告になることがあるからというだけだったりして。

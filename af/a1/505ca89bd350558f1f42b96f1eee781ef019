@@ -1,0 +1,2 @@
+r67306 の再修正。 parse.y で ripper で numbered parameter を処理した時のイベン
+トから冗長な(?) number_arg を削っています。

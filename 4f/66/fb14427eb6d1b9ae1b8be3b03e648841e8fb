@@ -1,0 +1,7 @@
+Rational の inspect と to_s を rb_funcall() によるメソッド呼び出しを行う関数と
+して定義していたのを、[DEL:その組込みの実装である rb_inspect() と
+rb_obj_as_string() を直接呼ぶように変更しています。おそらく Object#to_s や
+inspect を再定義しても Rational には伝播しないということになりますね。:DEL] じ
+ゃなくて、rb_inspect() や rb_obj_as_string() が元々 to_s メソッドを呼び出す(そ
+の上エンコーディングについてのチェックもある)関数だったので代わりに呼ぶようにし
+たということだそうです。

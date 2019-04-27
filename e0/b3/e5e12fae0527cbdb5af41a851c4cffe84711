@@ -1,0 +1,5 @@
+obj_free() で T_HASH 型のオブジェクト解放時に VM の debug counter 用の処理が
+st_free_table() の後に入ってて free した領域を触ってしまう可能性がある不具合が
+あったのを修正しています。ついでに debug counter 用処理は不要な時には
+preprocessor で消すようにしています。 https://github.com/ruby/ruby/pull/1964
+[ruby-core:89178] [Bug #15165]

@@ -1,0 +1,4 @@
+r53279 で rb_compile_error(), rb_compile_error_with_enc(), rb_compie_bug() など
+の定義をコメントアウトしていたのを revert しています。とりあえず deprecated に
+するだけにしています。コメントは deprecate を revert ってありますけど
+deprecated にはしていて、定義は消さないようにしています。

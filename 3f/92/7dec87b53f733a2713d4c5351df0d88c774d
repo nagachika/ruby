@@ -1,0 +1,4 @@
+標準添付ライブラリ net/imap.rb の修正。詳細はチケットを参照。mtype と msubtype
+のチェックを修正して BodyTypeExtension.new を利用する条件に mtype が影響しない
+ようにしています。よく読んでないですが要するに RFC 3501 に対応するようにしたと
+いうことみたいです。 [ruby-core:53741] [Bug #8167]

@@ -1,0 +1,4 @@
+parse.y の ripper 用の set_yylval_num() というマクロで struct NODE の u3 メンバ
+を利用するようにしています。 ripper で parse できないスクリプトがあるということ
+でその修正みたいですが、これは次で revert されています。 [ruby-core:72638] [Bug
+#11932]

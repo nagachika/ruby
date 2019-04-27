@@ -1,0 +1,6 @@
+misc/ruby-mode.el の修正です。elisp はさっぱりわかりませんが勘によると ruby
+-beginning-of-block で後方のブロックを検索してジャンプした時にブロックの開始記
+号の前に移動するようにしているようです。
+[DEL:ところで ruby-move-to-block 内の orig という変数は setq されているだけで特
+に利用されていないように見えるのですが消し忘れとかでしょうか？:DEL] (setq eol
+orig) するところで使っていたようです。

@@ -1,0 +1,3 @@
+拡張ライブラリ pathname で Pathname#hash の実装で rb_str_hash() の戻り値を
+INT2FIX() で変換していたのを st_index_t からの変換用マクロ ST2FIX() に修正して
+います。 mingw/mswin で不具合があったそうです。

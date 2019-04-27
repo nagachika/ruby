@@ -1,0 +1,3 @@
+構造体 rb_ast_t のメンバー root および reserved1 を rb_ast_body_t という別の構
+造体に分離して、rb_ast_t の中に body メンバとして埋め込みするようにリファクタリ
+ングしています。

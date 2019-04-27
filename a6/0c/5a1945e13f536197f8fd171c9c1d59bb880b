@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の WIN32OLE_PARAM も struct RTypedData を使った実装に切
+り替えています。

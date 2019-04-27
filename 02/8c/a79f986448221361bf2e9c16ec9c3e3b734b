@@ -1,0 +1,2 @@
+r38087 の再修正。Thread.async_interrupt_timing でマスクする例外を RuntimeError
+にしていましたが、もっと広く StandardError を指定するように修正しています。

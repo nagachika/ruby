@@ -1,0 +1,2 @@
+Fiber の coroutine 実装を Windows でも再度利用するように configure.ac を変更し
+ています。AppVeyor での msys2 のビルトをチェックするため。

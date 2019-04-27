@@ -1,0 +1,4 @@
+ext/dl/win32/lib/win32/registry.rb と ext/fiddle/win32/lib/win32/registry.rb の
+再修正。環境変数の参照時にエンコーディングの考慮、またレジストリの内容の取得で
+文字列を chop や split で加工する時にもエンコーディングの考慮を追加しています。
+が、まだこのファイルの修正は続きます。

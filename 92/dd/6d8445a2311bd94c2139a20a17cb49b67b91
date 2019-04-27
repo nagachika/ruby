@@ -1,0 +1,1 @@
+thread_pthread.c の mjit_worker() の警告メッセージの typo 修正。

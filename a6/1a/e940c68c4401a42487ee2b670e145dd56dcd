@@ -1,0 +1,2 @@
+parse.y にある ripper 用の関数での Ripper のメソッドの rdoc 用コメントの
+call-seq のメソッド呼び出しの記法を修正しています。

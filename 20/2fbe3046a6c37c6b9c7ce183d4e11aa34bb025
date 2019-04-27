@@ -1,0 +1,2 @@
+Time オブジェクトを Marshal.load で作ってから + メソッドで加算すると timezone
+の情報が失なわれるという不具合の修正。 [ruby-core:81892] [Bug #13710]

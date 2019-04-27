@@ -1,0 +1,4 @@
+tool/instruction.rb で VM 命令実行のソースコードを生成する時に、次の命令にジャ
+ンプする方法を START_OF_ORIGINAL_INSN() および DISPATCH_ORIGINAL_INSN() という
+マクロを利用するようにして、OPT_CALL_THREADED_CODE や OPT_DIRECT_THREADED_CODE
+などの方式の違いをマクロで吸収するようにしています。

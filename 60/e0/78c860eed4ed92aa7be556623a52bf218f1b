@@ -1,0 +1,6 @@
+IO#copy_stream で sendfile(2) の実行前に select() で file descriptor の準備を待
+つ際に read, write 両方の descriptor で一緒に select() を実行していたために待つ
+べきところで起きてしまっていたので、read 側 write 側をそれぞれ別々に待つように
+しています。また Linux では regular file に対する select() は常にすぐかえるそう
+なので、read 側(regular file のはず?)の select は省略しています。
+[ruby-core:36150] [Bug #4680]

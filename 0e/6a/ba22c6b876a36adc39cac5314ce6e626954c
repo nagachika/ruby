@@ -1,0 +1,3 @@
+r65994 の exec 時の mjit_finish() で SEGV するとのことで mjit_finish() からファ
+イルの掃除部分のみを mjit_clean_files() という関数に切り出して、rb_f_exec() か
+らは mjit_pause() とこのファイル掃除のみ呼ぶようにしています。

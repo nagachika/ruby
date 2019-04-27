@@ -1,0 +1,2 @@
+enc/unicode/*/casehold.h の CaseMappingSpecials という配列変数の宣言に static
+const を付けるようにしています。

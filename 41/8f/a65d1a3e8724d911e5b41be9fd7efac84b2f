@@ -1,0 +1,3 @@
+r52214 の obj.?meth 記法についての NEWS ファイルのエントリの ActiveSupport →
+Active Support と空白を入れるようにしています。 https://github.com/ruby/ruby/
+commit/a356fe1#commitcomment-13936198

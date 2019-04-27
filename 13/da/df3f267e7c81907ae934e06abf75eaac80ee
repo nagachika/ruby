@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils でクラスメソッドを定義するのに def
+FileUtils.commands のような記法から def self.commands のような self を使った記
+法に統一しています。

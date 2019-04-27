@@ -1,0 +1,2 @@
+ext/socket/mkconstants.rb で定数の定義に IF_NAMESIZE を追加。また
+INET6_ADDRSTRLEN が未定義の時のデフォルト(46)を指定。

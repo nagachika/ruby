@@ -1,0 +1,2 @@
+test/testunit/test_parallel.rb で後置 if のかわりに &. 演算子を使うようにするリ
+ファクタリング。

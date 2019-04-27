@@ -1,0 +1,2 @@
+標準添付ライブラリ csv の CSV.foreach をブロックなしで呼んだ時に Enumerator を
+返すようにしています。 [ruby-core:57643] [ruby-core:57283] [Feature #8929]

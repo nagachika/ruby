@@ -1,0 +1,5 @@
+random.c で Windows 版の実装で ATOMIC_PTR_CAS() を利用していたところを
+ATOMIC_SIZE_CAS() を利用するように変更しています。 gcc 4.9 での strict-aliasing
+の警告を抑制するためとのこと。この prov という変数の型は HCRYPTPROV という型で
+、ええと… ULONG_PTR らしいんですけどね参考: https://msdn.microsoft.com/ja-jp/
+library/windows/desktop/aa382471(v=vs.85).aspx

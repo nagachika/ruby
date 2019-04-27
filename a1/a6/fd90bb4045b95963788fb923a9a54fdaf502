@@ -1,0 +1,2 @@
+vm_dump.c で rb_vm_bugreport() から C のバックトレースを出力する部分を
+rb_print_backtrace() として切り出すリファクタリング。

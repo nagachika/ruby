@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket の nonblock 版メソッドで返す
+ための :wait_readable や :wait_writable の Symbol を毎回 rb_intern() しているの
+をあらかじめ作成しておいて static 変数に格納したものを返すようにしています。

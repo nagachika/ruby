@@ -1,0 +1,2 @@
+r37838 による Enumerator::Lazy のテストへの影響を修正しています。 String#chars
+を使っていたところがあったので String#each_char を使うように修正。

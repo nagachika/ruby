@@ -1,0 +1,4 @@
+mutex_t の cond_waiting と cond_notified はタイムアウトつきの
+native_cond_timedwait() の呼び出し時には増減させないようにしています。
+native_cond_signal() によらず抜けることがあるので、デッドロック検出が誤っていた
+ようです。

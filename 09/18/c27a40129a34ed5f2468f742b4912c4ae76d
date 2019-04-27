@@ -1,0 +1,3 @@
+rb_fstring() から引数チェックの後の処理を register_fstring() に切り出して
+rb_fstring_new() からはこちらを呼び出すようにすることで rb_fstring_new() で重複
+した引数のチェックが行なわれていたのを避けるようにするリファクタリング。

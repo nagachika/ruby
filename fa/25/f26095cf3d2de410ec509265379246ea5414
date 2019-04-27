@@ -1,0 +1,2 @@
+Net::HTTP のテストにて TCPServer の listen するアドレスを "localhost" に明示す
+るようにしています。

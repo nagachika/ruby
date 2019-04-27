@@ -1,0 +1,2 @@
+bignum.c のリファクタリング。 bigdivrem_normal() から GVL を解放して処理しなお
+すあたりの処理を bigdivrem_restoring() という関数に切り出しています。

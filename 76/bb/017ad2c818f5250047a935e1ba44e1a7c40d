@@ -1,0 +1,2 @@
+MatchData#hash の実装で利用された Regexp の hash 値利用されていなかった不具合を
+修正しています。

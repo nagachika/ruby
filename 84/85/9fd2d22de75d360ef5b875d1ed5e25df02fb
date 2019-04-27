@@ -1,0 +1,4 @@
+いつのまにか意味をなさなくなっていた process.c の waitpid_sys() というマクロ定
+義を削除しています。使っているところは呼び元の条件によって do_waitpid() 呼び出
+しと分岐してましたが、waitpid_sys() も単に do_waitpid() の wrapper なので分岐の
+意味がなくなってました。

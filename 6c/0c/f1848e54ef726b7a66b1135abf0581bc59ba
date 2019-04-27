@@ -1,0 +1,2 @@
+parse.y で ripper 用の #ifdef の分岐のかわりに共通のマクロ has_delayed_token()
+と dispatch_ignored_scan_event() を定義しておくようにしています。

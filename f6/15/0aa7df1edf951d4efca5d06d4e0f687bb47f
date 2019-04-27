@@ -1,0 +1,4 @@
+拡張ライブラリ socket の extconf で RUBY_PLATFORM が win64 の時は win32 と同様
+に扱うように指定を追加しています。
+コミットメッセージには「けど wince は違うからな」と注意書きがあります。Windows
+CE のことでしょうか。Windows CE 向けに Ruby 動くんですね……。

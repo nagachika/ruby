@@ -1,0 +1,4 @@
+bigdecimal の extconf.rb で libruby-bigdecimal というライブラリを linker option
+に追加するようにしていたのをやめています。サブディレクトリの bigdecimal/util の
+extconf.rb では親ディレクトリの共有ライブラリとリンクするように書き換えています
+。

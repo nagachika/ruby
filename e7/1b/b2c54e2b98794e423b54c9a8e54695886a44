@@ -1,0 +1,3 @@
+OpenSSL::Buffering#initialize が r43740 で引数なしに変更されたのを revert して
+任意の引数を受けとるのを復活させ、さらに super の呼び出しを追加しています。
+Module で initialize を定義する時の定石にそろえたのですね。

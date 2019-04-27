@@ -1,0 +1,3 @@
+test_math.rb で定義している assert_infinity で Float#finite? は NaN についても
+true を返すため infinite? を利用するようにしています。 [ruby-core:65117]
+[Feature #10261]

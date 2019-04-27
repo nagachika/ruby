@@ -1,0 +1,3 @@
+hash.c の each_pair_i_fast() でブロックパラメータを渡すのに rb_yield_values()
+を使っていたのを argv 変数につめて rb_yield_values2() を呼ぶようにしています。
+rb_yield_values() の可変長引数関数を避けているようです。

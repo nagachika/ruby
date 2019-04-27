@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence をバイナリフォーマットからロードする時の
+ibf_load_object_string で個別のオブジェクト毎のメタデータで freeze が指定されて
+いた時に文字列は rb_obj_freeze() ではなく rb_fstring() を用いて fstring を作る
+ようにしています。

@@ -1,0 +1,2 @@
+tool/ruby_vm/views/_insn_operand_info.erb も C99 を使えるようになったので
+insn_op_types() のためのテーブルをシンプルに書くようにしています。

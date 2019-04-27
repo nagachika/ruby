@@ -1,0 +1,2 @@
+magic comment の parse で compile option を設定する時の magic comment は大文字
+小文字を無視するので、小文字化した文字列を渡すようにしています。

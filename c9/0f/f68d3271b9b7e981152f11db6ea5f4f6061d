@@ -1,0 +1,3 @@
+rb_thread_schedule_limits() でスレッドの連続して動作している時間が短くて
+(100msec 以下) gvl_yield() で別のスレッドに GVL をあけわたす時だけレジスタの内
+容を rb_thread_t に保存する処理をするようにしています。

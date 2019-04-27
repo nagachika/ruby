@@ -1,0 +1,5 @@
+r52202 で追加した aclocal.m4 での colorize を make reconfig での configure 実行
+時にも有効にするように、CONFIGURE_TTY 変数で色付けの有無を指定するようにしてい
+ます。 make reconfig の時は標準出力がパイプに繋がれてるから端末かどうかの判定で
+色付けされなくなるんですね。けど fgrep で絞ってから結局出力するので make
+reconfig 自体の出力が端末だったら色付けはすると。

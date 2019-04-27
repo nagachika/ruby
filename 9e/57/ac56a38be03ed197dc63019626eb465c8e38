@@ -1,0 +1,3 @@
+rb_obj_singleton_methods() で継承したクラスのメソッドも検索するかどうかを指定す
+る recur をそのまま C の真偽値として評価していたのを RTEST() を使って Qnil も偽
+として扱うように(Qfalse は C でも偽(0))しています。

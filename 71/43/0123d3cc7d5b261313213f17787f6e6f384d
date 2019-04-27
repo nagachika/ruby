@@ -1,0 +1,4 @@
+r44996 で復活させた RBIGNUM_SIGN(), RBIGNUM_POSITIVE_P(), RBIGNUM_NEGATIVE_P()
+で FIX2INT() を利用していたのを FIX2LONG() に変更しています。 FIX2LONG() はシフ
+トしてタグビットを消すだけなので高速で、rb_big_cmp() の結果は -1, 0, 1 のどれか
+なので FIX2INT() のオーバフローチェックなどは不要なため。

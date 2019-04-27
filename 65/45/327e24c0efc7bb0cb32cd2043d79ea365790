@@ -1,0 +1,3 @@
+Windows 環境では SecureRandom.gen_random が利用している OpenSSL の RAND_bytes
+はブロックする可能性があるので、Random.raw_seed を利用する実装のほうを有効にす
+るようにしています。 [ruby-core:74105] [Bug #12139]

@@ -1,0 +1,6 @@
+Azure pipeline で bundled gems のテストのうち minitest のテストがなぜかこけるら
+しいので r67414 でテスト全体のエラーを無視するようにしてましたが Makefile.in で
+test-bundled-gems の実行時に環境変数 TEST_BUNDLED_GEMS_ALLOW_FAILURES で指定さ
+れた gem のテストだけは無視するようにして azure-pipelines.yml からは minitest
+を指定して実行するようにしています。しかし bundler のテストも失敗しているので
+continueOnError: true の指定はまだ削っていません。

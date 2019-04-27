@@ -1,0 +1,2 @@
+rb_require_internal() で TAG_RETURN を意味するところで単に 1 と書かれていたとこ
+ろを定数 TAG_RETURN を利用するようにしています。

@@ -1,0 +1,2 @@
+compile.c に #include <math.h> を追加しています。modf を使うために必要とのこと
+。

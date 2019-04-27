@@ -1,0 +1,3 @@
+enc/unicode.c の onigenc_unicode_case_map() から DOTLESS i についての特別処理は
+最近の SpecialCase.txt などのデータを元にした処理で不要になったみたいで、分岐を
+削除しています。

@@ -1,0 +1,4 @@
+rb_iseq_t の rescue 節や ensure 節の処理対象を記述する catch_table を常に確保せ
+ずに必要な時だけ確保するようにして、メモリ節約しています。catch_table が不要な
+ケースが多いのでこれでかなり削れるというのと、catch_table_size メンバが削れるの
+で rb_iseq_t 自体も小さくなっています。

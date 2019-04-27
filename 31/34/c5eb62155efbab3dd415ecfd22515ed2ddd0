@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の WIN32OLE_TYPELIB#name と WIN32OLE_TYPELIB#path で
+WC2VSTR() で生成した文字列をさらにコピーしていたのでそのまま返すようにしていま
+す。 cWIN32OLE_enc へのエンコーディング変換が不要だったということでしょうか。

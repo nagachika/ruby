@@ -1,0 +1,4 @@
+parse.y の cmdarg_stack の扱いを修正しているんですが、なんだろう。チケットのほ
+うをみると具体的な挙動が変わるわけじゃなくてリファクタリングの一種みたいな感じ
+です。 https://github.com/ruby/ruby/pull/1823 [ruby-core:85735] [Feature #
+14506]

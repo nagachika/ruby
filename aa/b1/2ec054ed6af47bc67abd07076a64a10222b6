@@ -1,0 +1,6 @@
+ObjectSpace.reachable_objects_from のために GC のマーク処理を利用していて、その
+ためのフラグというか関数ポインタを本当の GC が始まった時にはバックアップして一
+時的に無効にする処理を garbage_collect() から gc_marks() 関数に移動しています。
+gc_marks() は lazy_sweep でオブジェクトのスロットを確保するために
+gc_prepare_free_objects() からも呼ばれるので、こちらに置いておかないといけなか
+ったのだと思います。

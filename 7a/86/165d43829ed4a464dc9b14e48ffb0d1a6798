@@ -1,0 +1,2 @@
+doc/extension.rdoc および doc/extension.ja.rdoc に rb_str_modify() の説明を追加
+しています。今まで入ってなかったのか。 [ruby-core:91134] [Bug #15543]

@@ -1,0 +1,4 @@
+Net::HTTP の max_version オプションのテストで、メッセージが異なることもある(
+OpenSSL のバージョンなどによるのかな)ので assertion のマッチさせる正規表現を修
+正しています。 https://github.com/ruby/ruby/commit/
+d02211c9da608742b09aec768db79442007eabc0#commitcomment-25119729

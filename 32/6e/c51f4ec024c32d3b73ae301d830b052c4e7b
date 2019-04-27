@@ -1,0 +1,4 @@
+Socket::Option#inspect のために if_indextoname() の有無を遮蔽する
+rb_if_indextoname() 関数を定義して利用するようにしています。
+また Socket::Options#inspect で IPV6_MULTICAST_IF の時のインタフェース名を表示
+できるように関数を追加しています。

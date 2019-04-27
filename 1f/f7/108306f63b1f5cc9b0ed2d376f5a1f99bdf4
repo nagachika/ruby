@@ -1,0 +1,2 @@
+拡張ライブラリ socket の sa_len や ai_addr の設定を INIT_SOCKADDR() マクロとし
+て定義して再利用するようにリファクタリングしています。

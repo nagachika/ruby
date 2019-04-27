@@ -1,0 +1,3 @@
+Windows 版の rb_readlink() で rb_w32_read_reparse_point() が返す文字列長をその
+まま使わずに lstrlenW() で再び文字列長を取得するようにしています。よくわかって
+ませんが prefix が削られるけどその長さは減らされてない場合があるそうです。

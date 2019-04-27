@@ -1,0 +1,2 @@
+拡張ライブラリ win32 の Win32API.rb で Kernel# warn に uplevel キーワード引数を
+追加しています。また $VERBOSE のチェックを削っています。

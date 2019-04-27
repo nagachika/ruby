@@ -1,0 +1,2 @@
+doc/syntax/refinements.rdoc にこのところ追加(復活)された Module#using の追加と
+Module#include での refinemends の継承を追記しています。

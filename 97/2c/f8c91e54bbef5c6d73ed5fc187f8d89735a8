@@ -1,0 +1,4 @@
+r65505 の標準添付ライブラリでの require -> require_relative をできるたけ使うよ
+うにする変更で drb と net/https の rdoc 用コメントのサンプル内のは require を使
+うように戻して、rss/maker では追加で require_relative を使うように変更していま
+す。

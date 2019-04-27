@@ -1,0 +1,2 @@
+rational.c の nurat_reduce() で引数のいずれかが 1 だった時に f_gcd() を呼ばずに
+すぐ return するようにしています。

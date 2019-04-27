@@ -1,0 +1,2 @@
+r61804 の FLEX_ARY_LEN を iseq.h の struct iseq_cache_table と struct
+iseq_compile_data_storage でも利用するようにしています。

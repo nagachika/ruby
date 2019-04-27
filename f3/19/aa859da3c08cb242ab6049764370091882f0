@@ -1,0 +1,3 @@
+make love のターゲットで install してから exam するようになってましたが、今は
+install しなくても test-all も test-spec も通るみたいなので exam のほうを先にし
+ています。

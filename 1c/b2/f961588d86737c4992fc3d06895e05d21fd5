@@ -1,0 +1,6 @@
+configure に --disable-install-doc を付けると make install のターゲットが
+install-nodoc になるのですが、install-nodoc は miniruby だけコンパイルして ruby
+を依存関係に持っていなかったのでコンパイルされないという不具合があったのを修正
+しています。 install だけじゃなくて全体的に $(PREP) という変数に依存させていた
+ものをそれぞれ必要なものに依存させるようにしているようです。 [ruby-dev:45683]
+[Bug #6506]

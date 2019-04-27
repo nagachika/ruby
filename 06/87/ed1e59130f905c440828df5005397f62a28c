@@ -1,0 +1,2 @@
+misc/ruby-electric.el の変更です。delete-backward-char のかわりに delete-char
+を利用しています。

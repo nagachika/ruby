@@ -1,0 +1,6 @@
+Ruby はシグナルハンドラ(C レベルの sighandler(2) で登録するほう)に可能なら
+sigaltstack(2) で専用のマシンスタックを利用させているのですが、そのサイズの計算
+を ALT_STACK_SIZE ではなく rb_sigaltstack_size() という関数を追加して最低でも
+8192 は確保するようにしています。 Linux の MINSIGSTKSZ は 2048 で、これでは
+SIGSEGV の処理中にスタックオーバフローして再度 SEGV になってしまうという問題が
+あったようです。 [ruby-dev:46213] [Bug #7141]

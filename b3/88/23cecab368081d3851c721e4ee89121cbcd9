@@ -1,0 +1,4 @@
+Refinements で refine しているメソッドがあると、そのモジュールを using していな
+くても undef_method などで method entry を undef しようとすると undefined
+method エラーが発生するという不具合を修正しています。 rb_undef で Refinements
+を考慮していない部分があったみたいです。 [ruby-core:78944] [Bug #13096]

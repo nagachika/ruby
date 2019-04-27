@@ -1,0 +1,4 @@
+r37655 で入った Array#bsearch と Range#bsearch の不具合修正と rdoc の修正です。
+switch 文の break 文忘れで意図せず fallthrough していたのや、Range#bsearch でブ
+ロックが整数を返した時の判定が間違っていたところなどを修正しています。
+[ruby-core:49364] [Bug #7352] [Feature #4766]

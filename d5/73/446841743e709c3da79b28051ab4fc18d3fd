@@ -1,0 +1,6 @@
+呼ぶと必ず帰ってこない関数のあとなど処理が到達しない場所に /* unreachable */ と
+コメントすることでコンパイラの警告を抑制することができたりしますが、 clang が
+__builtin_unreachable() という built-in 関数で指定できるので configure でチェッ
+クしてあればそれを UNCHEACHABLE というマクロに定義するように(なければ /*
+unreachable */ というコメントとして定義)しています。 [ruby-core:42849] [Bug #
+6066]

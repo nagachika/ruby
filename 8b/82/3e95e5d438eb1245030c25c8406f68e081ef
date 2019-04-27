@@ -1,0 +1,1 @@
+configure での crypt_r(3) のチェックを削っています。

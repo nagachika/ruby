@@ -1,0 +1,2 @@
+doc/syntax/assignment.rdoc で左辺値を "left-hand side" とだけ表記していたのを
+"left-hand side of the assignment" と修正しています。

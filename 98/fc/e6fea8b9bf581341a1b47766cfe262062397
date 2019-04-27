@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の FileUtils.chown_R のテストを追加しています。所
+有ユーザの変更は root 権限がないとテストできませんけどね。 [ruby-core:59641]
+[Feature #9383]

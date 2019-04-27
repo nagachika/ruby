@@ -1,0 +1,3 @@
+DBM::Version の文字列を作るために DB_VERSION_STRING 定数のかわりに関数
+db_version() の結果を、_QDBM_VERSION 定数のかわりに dpversion 変数を(QDBM の場
+合)利用するように変更しています。 [ruby-dev:44948]

@@ -1,0 +1,2 @@
+Test::Unit の parallel 対応で SIGINT を無視する Signal.trap を実行していたのを
+やめて Interrupt 例外に対応しています。 [ruby-dev:43571]

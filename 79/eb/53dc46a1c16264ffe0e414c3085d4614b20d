@@ -1,0 +1,4 @@
+r51126 で rb_control_frame_t から klass メンバを削除し、かわりに rb_classext_t
+に rb_callable_method_entry_t を追加した時に gc_mark_children() で T_ICLASS 型
+のオブジェクトの mark 処理で RCLASS_EXT() のチェックの前に method entry table
+の mark 処理が行なわれていたのをチェック後に移動する修正。

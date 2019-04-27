@@ -1,0 +1,4 @@
+r49815 で TravisCI で gdbm をインストールするようにしたのに GDBM_FLAG を
+configure に渡し忘れてたので、OPENSSL_FLAG と統合して CONFIG_FLAG という変数に
+--with-xxx-dir を設定するようにして、configure に $CONFIG_FLAG を渡すようにして
+います。

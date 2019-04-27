@@ -1,0 +1,2 @@
+r63667 の続き。テストと rubyspec の flip-flop 演算子の警告を抑制する対応。
+[Feature #5400]

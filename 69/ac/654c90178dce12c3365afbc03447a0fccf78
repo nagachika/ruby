@@ -1,0 +1,9 @@
+NaCl (NativeClient)のサポート用のパッチをマージしています。元パッチはこちら
+https://chromium.googlesource.com/external/naclports.git/+/
+873ca4910a5f9d4206306aacb4ed79c587c6a5f3/ports/ruby/nacl.patch からきているそう
+です。
+  • PNaCl (Portable NativeClient といって、VM 上で LLVM の bit code を動かす技
+    術が出てきたようです)上でのビルドのサポート追加
+  • dlopen(3) が使えるようになったので dln.c の NaCl 専用処理の削除
+  • socket が使えるようになったので NaCl 専用のコードの削除
+などなど。 NaCl も開発が進んで進化しているんですねぇ。

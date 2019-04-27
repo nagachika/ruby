@@ -1,0 +1,2 @@
+r50240 で追加した File.setuid?, File.setgid?, File.sticky? のテストですが
+Windows ではサポートされていないので分岐を追加しています。

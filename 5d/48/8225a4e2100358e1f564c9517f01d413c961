@@ -1,0 +1,2 @@
+r45891 で test_hup_me に追加した assert_separately の引数が不足していたので追加
+しています。

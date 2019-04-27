@@ -1,0 +1,2 @@
+Socket.getaddinfo の rdoc 用コメントに代替として Addrinfo.getaddrinfo の参照を
+追記しています。

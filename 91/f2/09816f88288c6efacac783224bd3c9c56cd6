@@ -1,0 +1,4 @@
+test/ruby/test_module.rb で Module#instance_methods の結果の順番に依存するテス
+トが書かれていましたが、順番は変化しうるので sort して順序に依存しないようにし
+ています。実際にこの順序が変わりうる変更を予定しているみたいですね。
+[ruby-core:70237] [Feature #11414]

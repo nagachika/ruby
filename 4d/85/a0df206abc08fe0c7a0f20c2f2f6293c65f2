@@ -1,0 +1,5 @@
+cont.c で Fiber の実装に getcontext/setcontext を利用するバージョンを使うかどう
+かの判定を #ifdef ではなくて #if を使うようにして、FIBER_USE_NATIVE には 1/0 を
+指定するようにしています。これはコンパイルオプションに -DFIBER_USE_NATIVE=0 を
+指定すると getcontext/setcontext を利用しないバージョンに切り替えることができる
+ようにするためです。 [ruby-dev:42170]

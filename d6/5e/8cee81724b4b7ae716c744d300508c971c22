@@ -1,0 +1,2 @@
+parse.y で nd_set_line に ruby_sourceline を渡していたところを対応する NODE の
+位置情報の終端位置の行番号を使うようにしています。

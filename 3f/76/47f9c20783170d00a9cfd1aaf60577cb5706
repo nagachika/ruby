@@ -1,0 +1,4 @@
+r41293 で追加した config.guess, config.sub を GNU のサイトからダウンロードする
+ためのツール tool/config_files.rb で Symbol のブロック引数渡しの記法が利用され
+ていたので 1.8.5 でも動くように URI.read を使うようにしています。むしろ URI
+.read を知らなかった。こんなことができるんですね。

@@ -1,0 +1,1 @@
+bignum.c の rb_cstr_to_inum() の未使用の変数を除去。

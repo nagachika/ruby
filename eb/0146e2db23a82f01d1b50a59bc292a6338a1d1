@@ -1,0 +1,3 @@
+tool/make-snapshot で生成する Makefile に prereq から after-update への依存関係
+がなくなっていて、パッケージに同梱する libffi の展開処理が実行されなくなってい
+たのを修正しています。 [ruby-dev:50244] [Bug #13897]

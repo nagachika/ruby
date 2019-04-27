@@ -1,0 +1,3 @@
+標準添付ライブラリ rss の RSS::Parser.parse の最後に Hash をオプション引数とし
+て受け取って、従来の省略可能引数のかわりに :validate, :ignore_unknown_element,
+:parser_class などのオプションでも受け取れるようにしています。

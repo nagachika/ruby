@@ -1,0 +1,2 @@
+rational.c に internal.h で定義されている RRATIONAL_SET_NUM/RRATIONAL_SET_DEN
+のマクロ定義が重複して定義されていたので削除しています。

@@ -1,0 +1,3 @@
+rubyspec の File.open に fd を指定した時のテストが MJIT 有効時に mjit worker に
+fd が leak して閉じられなくなることがあるせいでたまに通らないので MJIT 有効時に
+は skip するようにしています。

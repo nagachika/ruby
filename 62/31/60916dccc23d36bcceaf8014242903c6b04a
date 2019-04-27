@@ -1,0 +1,2 @@
+Array#sample の rdoc 用コメントにキーワード引数 random を使ったサンプルを追加し
+ています。 https://github.com/ruby/ruby/pull/1825

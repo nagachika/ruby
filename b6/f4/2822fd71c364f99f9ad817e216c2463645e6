@@ -1,0 +1,3 @@
+同じく標準添付ライブラリ WEBrick の WEBrick::HTTPServlet::FileHandler のディレ
+クトリリストのレスポンスの content-type ヘッダにファイルシステムエンコーディン
+グの charset 指定を追加するようにしています。

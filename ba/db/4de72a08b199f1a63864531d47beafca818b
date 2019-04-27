@@ -1,0 +1,6 @@
+rb_tmp_class_path() でクラス名の文字列をすぐに作らずに Qnil や Qfalse を返して
+、cache 用関数で make_temporary_path() という関数を呼んでそこで文字列生成するよ
+うにしています。どうせすぐ cache 用関数を呼ぶのに、と思ったら
+rb_search_class_path() という関数が新規作成されていて、こいつは cache 用関数と
+して never_cache() という関数を利用するので実際に文字列を生成せずに Qnil,
+Qfalse のまま結果を取り出せるようです。まだ使っているところはありませんが。

@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence#to_a で ISeq オブジェクトに配列化する時にキーワード
+引数の Symbol をダンプする処理が r49517 ([ruby-core:68031] [Bug #10831]) で壊れ
+ていたので修正しています。 [ruby-core:69891] [Bug #11338]

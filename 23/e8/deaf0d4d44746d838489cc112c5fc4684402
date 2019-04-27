@@ -1,0 +1,7 @@
+rb_check_frozen を各所で使うように修正。
+なお現在 make test-all すると
+    1) Failure:
+    test_rotate!(TestArray) [/Users/nagachika/opt/ruby-trunk/src/ruby-trunk/
+    test/ruby/test_array.rb:2158]:
+    Expected /can't modify frozen array/ to match "can't modify frozen Array".
+と 1 Failure するようになってますね。メッセージが変化しただけのようですけど。

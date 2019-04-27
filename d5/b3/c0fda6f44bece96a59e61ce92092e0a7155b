@@ -1,0 +1,2 @@
+compile.c の iseq_compile_each0() から while/until のコンパイル部分を
+compile_loop() という関数に切り出して共通部分を使いまわすようにしています。

@@ -1,0 +1,8 @@
+Fiber#transfer で遷移した Fiber 内で、自分自身の Fiber に対して resume を呼ぶと
+、終了時に "dead fiber call" という例外が発生したり、FreeBSD 9 だと SEGV する不
+具合の修正。 Fiber に transfer で遷移したフラグを持たせて、一度 transfer を使っ
+た Fiber は resume では続行できない(例外が発生する)ようにしています。
+[ruby-dev:44742] [Bug 5526]
+また NEWS ファイルに非互換の注意書きを追記しています。
+ちなみにこれ少し調べたことがあって、自分自身の Fiber#resume を禁止する方法でパ
+ッチを作ってみると既存のテストが 1つこけるようになったのでした。

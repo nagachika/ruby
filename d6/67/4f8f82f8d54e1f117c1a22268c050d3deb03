@@ -1,0 +1,3 @@
+test_thread_signal_location で子プロセスの ruby のオプションに --disable-gems
+をつけて rubygems を使わないようにしています。rubygems を使うとバックトレースが
+変化するからでしょうか。

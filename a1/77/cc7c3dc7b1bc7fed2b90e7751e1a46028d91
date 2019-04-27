@@ -1,0 +1,2 @@
+r61804 の FLEX_ARY_LEN を sting.c の struct mapping_buffer でも利用するようにし
+ています。

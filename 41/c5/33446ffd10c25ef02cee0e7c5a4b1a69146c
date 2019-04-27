@@ -1,0 +1,2 @@
+Math.gamma(-0.0) が mingw 用の実装で -Infinity を返すようにしています。
+[ruby-core:74817] [Bug #12249]

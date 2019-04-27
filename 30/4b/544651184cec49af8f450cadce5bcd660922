@@ -1,0 +1,2 @@
+IO.copy_stream のテストで Thread を起動するもので終了時に Thread#join してなく
+て終了を待っていないものがあったので join して後始末するようにしています。

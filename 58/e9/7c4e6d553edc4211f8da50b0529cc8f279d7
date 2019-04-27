@@ -1,0 +1,4 @@
+parse.y に token を ID に変換するマクロ TOKEN2ID() と token を Symbol に変換す
+る TOKEN2VAL() を追加して別途 ripper_id2sym() や ID2SYM() で ID から Symbol を
+生成していたところでこれを利用するようにしています。またこれにあわせて
+ripper_id2sym() は削除しています。

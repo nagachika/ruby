@@ -1,0 +1,3 @@
+make clean と make distclean でサブルールの clean-local や distclean-local の依
+存関係を最後に回しています。また enc/trans を clean-local の削除対象に追加して
+います。

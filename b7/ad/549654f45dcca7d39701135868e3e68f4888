@@ -1,0 +1,5 @@
+load.c の rb_construct_expanded_load_path() で絶対パス化した文字列オブジェクト
+について rb_str_freeze() を呼ぶのをやめています。 expand_path() のマクロで
+rb_fstring() が使われてるってコミットログから読み取ったのですが、そんなことはな
+いような気が…。rstr_shrink() は呼ばれているけど、どこで freeze されるのかわか
+りませんでした。

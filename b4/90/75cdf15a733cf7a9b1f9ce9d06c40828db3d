@@ -1,0 +1,4 @@
+rb_add_method_iseq() に RB_GC_GUARD() で渡された iseqval を保護するようにして、
+呼び元で RB_GC_GUARD() している部分を削除しています。また rb_iseq_clone() に
+RGenGC を無効化にしてコンパイルした時に必要と思われるということで RB_GC_GUARD()
+を追加しています。

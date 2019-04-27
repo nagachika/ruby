@@ -1,0 +1,2 @@
+vm_trace.c の symbol2event_flag() で変数 id が関数内 static 変数として定義され
+ていたのを単なるローカル変数に変更しています。

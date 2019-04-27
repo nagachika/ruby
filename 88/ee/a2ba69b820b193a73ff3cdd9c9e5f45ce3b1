@@ -1,0 +1,2 @@
+template/exts.mk.tmpl で ext.mk を解析する時に ruby コマンド部分を
+RbConfig::CONFIG['EXEEXT'] を考慮してパースするように対応しています。

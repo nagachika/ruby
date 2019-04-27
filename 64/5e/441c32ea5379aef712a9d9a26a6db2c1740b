@@ -1,0 +1,2 @@
+win32/Makefile.sub の MISSING という missing/ の代替実装群のオブジェクトファイ
+ルを書く変数に nan.obj を追加しています。

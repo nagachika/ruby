@@ -1,0 +1,4 @@
+icc (Intel C Compiler) でのビルドのための修正。 configure の変数 CC に icc をサ
+ポート追加。-diag-disable=2259、-fp-model precise のコンパイルオプションが利用
+可能なら追加するようにしています。また icc の時には -Wdivision-by-zero と
+-Wdeprecated-declarations はサポートされていないので削るようにしています。

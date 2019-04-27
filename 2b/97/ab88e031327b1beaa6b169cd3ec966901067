@@ -1,0 +1,6 @@
+r54986 の __builtin_constant_p() の利用部分の #ifdef を修正した時に Solaris10
+上の Oracle Solaris Studio でのビルドがエラーになったのを修正。
+__builtin_constant_p() はあるのだけど __extension__ という拡張に対応していない
+ので、include/ruby/defines.h で RB_GNUC_EXTENSION や RB_GNUC_EXTENSION_BLOCK()
+というマクロを定義して、これを使うようにしています。 [ruby-dev:49629] [Bug #
+12397]

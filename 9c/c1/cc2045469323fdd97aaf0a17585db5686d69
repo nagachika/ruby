@@ -1,0 +1,2 @@
+r40800, r40802, r40808, r40809 の続きで ext/socket/mkconstants.rb のリファクタ
+リング。 INTEGER2NUM() の定義で条件を整理して比較回数を減らしています。

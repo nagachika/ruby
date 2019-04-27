@@ -1,0 +1,9 @@
+rb_scan_args() の定義を class.c から include/ruby/ruby.h に移動してマクロとして
+定義し、 __VA_ARGS__ を利用して可変長引数を受け取って argc, argv の形で引数を組
+み立てるようにしています。ここの RB_NARG マクロの書きかたはちょっとした見物です
+ね。おもしろい方法で引数の数を取り出してます。引数の個数は 19個までに制限されて
+しまいますが。また r55101 で追加した ALWAYS_INLINE を使って強制的にインライン化
+される関数として定義した rb_scan_args0() にこれを渡して呼び出すようにしています
+。これにより呼び出し場所ごとに引数の数がコンパイル時に決まるので高速になるみた
+いです。参考URL: https://gustedt.wordpress.com/2011/07/10/
+avoid-writing-va_arg-functions/

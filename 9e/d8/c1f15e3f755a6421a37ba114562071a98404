@@ -1,0 +1,1 @@
+st.c の add_packed_direct() の返り値が意味なくなっていたので void 型に変更。

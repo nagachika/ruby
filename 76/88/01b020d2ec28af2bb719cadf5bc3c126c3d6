@@ -1,0 +1,3 @@
+VM の global entry を表す GENTRY という型の定義を rb_num_t から VALUE に変更し
+ています。LLP64 モデルの mswin64 でSEGV していたようです。 [ruby-dev:46483]
+[Bug #7332]

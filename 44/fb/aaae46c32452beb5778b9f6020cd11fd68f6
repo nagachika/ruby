@@ -1,0 +1,2 @@
+標準添付ライブラリ ostruct.rb の OpenStruct の rdoc 用コメントを全面的に書き直
+しています。 [ruby-core:79265] [Bug #13159]

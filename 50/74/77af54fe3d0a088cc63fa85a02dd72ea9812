@@ -1,0 +1,2 @@
+multi architecture インストールの対応の win32/Makefile.sub による Windows 環境
+での対応の不具合修正。 [ruby-dev:46964] [Bug #7823]

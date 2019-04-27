@@ -1,0 +1,3 @@
+test/json/ の拡張ライブラリ用テストを ?_test.rb という suffix で指定するファイ
+ル名に変更して、test/lib/test/unit.rb でこの命名規則にも対応するようにしていま
+す。 upstream のファイル名にそろえるようにしているようです。

@@ -1,0 +1,5 @@
+Time.force_zone! で Time#localtime でタイムゾーンを設定する際、一度無引数で
+Time#localtime を呼んでから zone が UTC でない時にあらためて引数つきの Time#
+localtime を呼ぶように変更しています。なんでかなーとしばらく考えていたのですが
+、UTC(標準時)と時差はない(offset は同じ)けど異なるタイムゾーンも存在する(GMT な
+ど)ので、それらが UTC になってしまうのを避けるためではないかと思います。

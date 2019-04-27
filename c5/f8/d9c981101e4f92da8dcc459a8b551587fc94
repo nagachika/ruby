@@ -1,0 +1,2 @@
+vm_eval.c の rb_eval_cmd() でメソッド呼び出しのために rb_intern("call") を呼ん
+でいたのを定義済みの idCall を使うようにしています。

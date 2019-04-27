@@ -1,0 +1,3 @@
+backtrace 内で to_enum で Enumerator 化されたメソッドの行番号がずれていたのを修
+正しています。 int のところに INT2FIX() で変換したものを入れてましたね。
+[ruby-core:91911] [Bug #15719]

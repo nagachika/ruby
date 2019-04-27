@@ -1,0 +1,4 @@
+r58434 に続いて r58427 の newhash 命令の実装の最適化の修正続き。 st_insert() で
+値を格納する際に GC 用の Writer Barrier が必要だったみたいで hash_insert_raw()
+に VALUE を渡して key と val それぞれについて RB_OBJ_WRITTEN() を呼び出していま
+す。不要な時はこの引数に Qfalse を渡すようにしているようです。

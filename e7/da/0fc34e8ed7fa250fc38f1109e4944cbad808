@@ -1,0 +1,3 @@
+拡張ライブラリ json のソースコードで、String オブジェクトがくると思ってたところ
+に Time オブジェクトがくる場合もあるのに rb_str_resize() を呼んでいたのでクラス
+チェックしてから呼ぶようにしています。 https://github.com/flori/json/issues/342

@@ -1,0 +1,5 @@
+Net::HTTP で body_stream を使って IO オブジェクトなどから body を流し込む場合に
+IO.copy_stream を利用するようにしています。 transfer-encoding ヘッダに chunked
+が設定されている時はヘッダをつけて書き込まないといけないので write メソッドを持
+つダミーのオブジェクトを作って渡して sendfile(2) を利用しないようにしています。
+[ruby-core:40898] [Feature #5605]

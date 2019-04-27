@@ -1,0 +1,4 @@
+tool/vpath.rb で @separator に File::PATH_SEPARATOR ではなく RbConfig::CONFIG
+["PATH_SEPARATOR"] をデフォルトで用いるようにしています。 vpath.rb は r37985 で
+tool/instruction.rb から切り出されたものですね。何をするものかは知らないのです
+が……。

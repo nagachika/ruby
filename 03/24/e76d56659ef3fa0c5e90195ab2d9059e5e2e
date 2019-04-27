@@ -1,0 +1,3 @@
+r58559 で common.mk の PRELUDE_SCRIPTS から enc/prelude.rb を消して rubyspec が
+こけたので r58560 で revert していましたが、再度削除しています。 rubyspec のほ
+うを修正済みとのこと。

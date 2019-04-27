@@ -1,0 +1,3 @@
+mingw64 での警告を除去するために ext/socket/ancdata.c にキャストを追加したり、
+ext/socket/option.c にヘッダに宣言がない関数のプロトタイプ宣言を追加したりして
+います。

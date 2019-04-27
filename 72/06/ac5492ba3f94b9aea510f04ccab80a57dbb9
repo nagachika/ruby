@@ -1,0 +1,3 @@
+test_race_closed_stream が Windows 環境でデッドロックに陥いって失敗するという問
+題の修正みたいです。 Windows の Event のリセット時に GVL を取得するのをやめるよ
+うにしています。

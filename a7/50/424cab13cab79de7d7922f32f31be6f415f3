@@ -1,0 +1,2 @@
+rexml のエンコーディングに関するテストを HaveEncodingTest というクラスにまとめ
+ています。

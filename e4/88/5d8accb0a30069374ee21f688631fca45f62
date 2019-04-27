@@ -1,0 +1,2 @@
+aruze-pipelines.yml で vs2019 でのビルド時にも checkout のオプションに
+fetchDepth:1 を追加してリポジトリ checkout を高速にするようにしています。

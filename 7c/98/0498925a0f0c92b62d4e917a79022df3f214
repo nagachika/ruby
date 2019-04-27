@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb の標準処理の sync_lib メソッドで最初に掃除する時に
+test/xxx は消さないようにしています。

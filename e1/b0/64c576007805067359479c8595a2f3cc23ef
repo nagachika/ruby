@@ -1,0 +1,2 @@
+thread.c の threadptr_local_aset() で if - else の if 節で return していたので
+else は削除しています。

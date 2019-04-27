@@ -1,0 +1,2 @@
+r67281 の .travis.yml で ~/.download-cache や ~/config_2nd を削除するようにした
+のを revert しています。 CI のエラー回避に効果がなかったとのこと。

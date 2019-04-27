@@ -1,0 +1,3 @@
+gc_after_sweep() で Tomb heap (解放されたページの所属するヒープ)のページ数が
+heap_pages_increment より大きい時に heap_pages_expand_sorted() を呼んでいたのを
+やめています。不要にヒープ拡張をしてしまっていたみたいです。

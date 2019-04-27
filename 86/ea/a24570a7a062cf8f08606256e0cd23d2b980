@@ -1,0 +1,4 @@
+Hash#fetch_values というメソッドを新規追加しています。可変長引数で複数の key を
+指定して、それに対応する値を Array で返すという Hash#fetch の複数版みたいです。
+Hash#fetch と同様 key が存在しなかったら例外が発生します。 [ruby-core:63594]
+[Feature #10017] https://github.com/ruby/ruby/pull/776

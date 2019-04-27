@@ -1,0 +1,2 @@
+Kernel#binding や Binding#eval などの rdoc 用コメントの typo 修正とマークアップ
+の修正をしています。 [ruby-core:79082] [Bug #13132]

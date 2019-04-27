@@ -1,0 +1,6 @@
+r38399 で rb_thread_call_without_gvl2() を使った io_flush_buffer_async2() で 0
+を返すと rb_thread_call_without_gvl2() で割り込みを先に検出して関数を呼ばずに返
+った時と区別がつかなくて無限ループになる可能性があったので
+io_flush_buffer_sync2() で 0 のかわりに (void*)1 を返して io_flush_buffer_sync2
+() で再度読み変えて 0 を返すようにしています。 rb_thread_call_without_gvl2() の
+仕様の難点ですね。

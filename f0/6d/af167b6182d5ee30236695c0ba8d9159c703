@@ -1,0 +1,4 @@
+構造体 struct rb_blocking_region_buffer のメッバー oldubf を削除しています。
+set_unblock_function() とか reset_unblock_function() でそもそも ubf が登録され
+ている状態でさらに設定しようとするのがおかしいとして VM_ASSERT() で落とすように
+して、関数名も変更しています。

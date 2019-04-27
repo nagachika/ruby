@@ -1,0 +1,4 @@
+ちょっとよく憶えてないのですが Array#sort や Enumerable#min, #max などの最適化
+パスで利用する opt_method と opt_inited というメンバを切り出した構造体 struct
+cmp_opt_data というのを導入して、これを構造体内に埋め込むようにリファクタリング
+しています。

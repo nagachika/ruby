@@ -1,0 +1,3 @@
+r67548 で tool/ruby_vm/views/mjit_compile.inc.erb の中で String#match? メソッド
+を使っていましたが、ここは BASERUBY で実行されるので古い Ruby で動かなくなって
+しまうので String#match を使うように修正しています。

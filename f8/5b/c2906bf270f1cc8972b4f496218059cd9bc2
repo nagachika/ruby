@@ -1,0 +1,2 @@
+tool/run-lcov.rb というツールを導入して gcov で取った coverage 情報を make lcov
+で表示するそうです。まだ試してないのでどんな表示かはわからないです。

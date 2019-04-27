@@ -1,0 +1,4 @@
+test/ruby/test_io.rb で後置 if や unless で nil チェックと closed? のチェックを
+して close していたのを &. 演算子を使うようにリファクタリング。 closed? につい
+ては今は重複して close しても IOError は発生しなくなったのでチェックが不要にな
+っています。

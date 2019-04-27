@@ -1,0 +1,4 @@
+r51066 でも書いたように IO#reopen は標準入出力の場合 freopen(3) を利用している
+ので、Windows 環境では WCHAR の文字列に変換して wfreopen()/wfreopen_s() を利用
+する wrapper 関数を用意してこれを利用するようにしています。 [ruby-core:69780]
+[Bug #11320]

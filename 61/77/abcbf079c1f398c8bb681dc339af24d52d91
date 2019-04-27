@@ -1,0 +1,4 @@
+r51873 の追加修正。 String#setbyte で更新後の coderange を考慮しているところで
+ENC_CODERANGE_CLEAR() を呼ぶパスをまとめて、そうでない場合に goto を使って
+ENC_CODERANGE_CLEAR() の呼び出しをスキップさせるようにリファクタリングしていま
+す。

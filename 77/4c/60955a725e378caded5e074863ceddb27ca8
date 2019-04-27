@@ -1,0 +1,2 @@
+r66930 の fcopyfile(3) を使うようにする変更を revert しています。 rubyspec が失
+敗したとのこと。

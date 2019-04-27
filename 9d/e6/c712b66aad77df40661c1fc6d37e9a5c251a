@@ -1,0 +1,3 @@
+rubygems の rake_builder.rb で ruby のオプションに -rubygems を使っているところ
+があって、r60008 で ubygems.rb を削除したので動かなくなるようなので -rrubygems
+に変更しています。 https://github.com/ruby/ruby/pull/1711

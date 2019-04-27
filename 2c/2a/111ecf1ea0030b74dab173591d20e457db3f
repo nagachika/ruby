@@ -1,0 +1,4 @@
+標準添付ライブラリ sync の Sync_m::Err::LockModeFailer.Fail や
+Sync_m::sync_try_lock_sub で引数が不正な時の処理で変数名やレシーバが間違ってい
+て NameError が発生するのを修正しています。うーむ、sync.rb はtest-all にもテス
+トがないみたいですね。

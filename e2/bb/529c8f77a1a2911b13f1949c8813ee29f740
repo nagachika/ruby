@@ -1,0 +1,2 @@
+標準添付ライブラリ xmlrpc を削除して bundled gem 化しています。
+[ruby-core:74239] [Feature #12160]

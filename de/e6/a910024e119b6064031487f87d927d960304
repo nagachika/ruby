@@ -1,0 +1,6 @@
+parse.y の parser_nextline() から ripper 向けの parser->delayed への追加処理を
+parser_add_delayed_token() という関数に切り出しています。また parse_percent()
+の各リテラル種類で共通部分を parser_skip_words_sep() という関数に切り出していま
+す。あと parser_parse_string() に delayed への操作をいくつか追加して、ripper で
+の lexer が切り出すトークンの不具合を修正しているみたいです。 [ruby-core:83864]
+[Bug #14126]

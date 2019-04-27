@@ -1,0 +1,2 @@
+id.h が vm_opts.h に依存するようになったので Makefile(common.mk) に依存関係追記
+。

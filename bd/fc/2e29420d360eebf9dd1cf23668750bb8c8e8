@@ -1,0 +1,2 @@
+拡張ライブラリ json の JSON::Ext::Generator::State の実装も TypedData を利用す
+るように変更しています。

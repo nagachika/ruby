@@ -1,0 +1,5 @@
+check_funcall_respond_to() という内部的に呼ばれる respond_to? のチェックの関数
+を rb_obj_respond_to? の実装を使いまわすようにして respond_to_missing? の結果も
+反映するようにしているようです。 Array#flatten で要素の to_ary を呼ぶかどうかの
+判定に respond_to_missing? が考慮されないという不具合の修正みたいです。
+[ruby-core:70460] [Bug #11465]

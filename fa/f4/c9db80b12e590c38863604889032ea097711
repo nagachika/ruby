@@ -1,0 +1,5 @@
+拡張ライブラリ dbm の extconf.rb でのヘッダとライブラリの検出で libndbm と
+ndbm.h の時の弾く条件を緩めています。libndbm は環境によって中身が異なる
+(Berkeley DB, GDBM, 4.3BSD NDBM)のでチェックしても意味がないみたいです。libndbm
+/ndbm.h を利用するのは extconf.rb の実行に --with-dbm-type=ndbm を指定した時だ
+けなので普通にビルドする時には影響しないみたいです。

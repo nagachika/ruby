@@ -1,0 +1,4 @@
+ObjectSpace.define_finalizer や WeakMap#[]= でオブジェクトが即値や NODE など通
+常の GC 対象のオブジェクトでない時に例外を発生させるのを finalizer の設定前にチ
+ェックするようにしています。 ChangeLog の関数名は wmap_aset() だけになっていま
+すがもう少し広範に変更されていますね。

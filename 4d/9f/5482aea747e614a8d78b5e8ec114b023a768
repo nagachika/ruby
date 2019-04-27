@@ -1,0 +1,3 @@
+NoMethodError に private_call? というメソッドを追加して、例外が発生した元のメソ
+ッド呼び出しがレシーバなしの呼び出しだったかどうかを判定できるようにしています
+。did_you_mean.gem 用ですね。 [ruby-core:73630] [Feature #12043]

@@ -1,0 +1,2 @@
+ruby --version の出力をチェックするテストで rc (release candidate)を許容するよ
+うにしています。2.2.0-rc1 がリリースされたからですね。

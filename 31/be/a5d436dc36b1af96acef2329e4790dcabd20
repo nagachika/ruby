@@ -1,0 +1,1 @@
+strftime.c の不要な #if directive と K&R スタイルの関数宣言を削除しています。

@@ -1,0 +1,2 @@
+拡張ライブラリ syslog の Syslog::Logger::VERSION を "2.0" から "2.1.0" へ更新し
+ています。 [ruby-core:64483] [Bug #10159]

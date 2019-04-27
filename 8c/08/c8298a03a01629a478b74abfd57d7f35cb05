@@ -1,0 +1,3 @@
+拡張ライブラリ psych による Hash の dump/load で、Hash オブジェクトにインスタン
+ス変数を持たせたものをシリアライズ/復元できるようにサポートしています。いやー
+psych ってそこまでするんですね。 https://github.com/tenderlove/psych/issues/43

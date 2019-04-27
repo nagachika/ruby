@@ -1,0 +1,6 @@
+USE_GC_MALLOC_OBJ_INFO_DETAILS という preprocessor の変数を導入して、これが非0
+でビルドされると(デフォルトでは 0 なので無効) ruby_xmalloc() などのメモリ確保用
+の関数で呼び出したファイル上の位置と回数、また xfree のほうでメモリ領域のサイズ
+の合計などの情報を格納するようにしています。結果は malloc_info_show_results()
+という関数で表示でします。gcc 拡張? の deconstract という attribute をつけてい
+るので終了時に呼ばれるようです。 [ruby-core:87527] [Feature #14857]

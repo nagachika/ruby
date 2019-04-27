@@ -1,0 +1,4 @@
+Enumerator::Lazy#zip の引数に全て Array オブジェクトを渡した時には Enumerator
+化せずに別の処理を利用するようにしています。 Enumerator は Fiber を利用していて
+遅いため、これで一般的なユースケースでのパフォーマンス向上を図っているのだと思
+います。 [ruby-core:51472] [Bug #7706]

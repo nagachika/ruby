@@ -1,0 +1,3 @@
+test/ruby/test_io.rb で子プロセスを起動する時に :elimit_nproc を指定するかどう
+かを RUBY_PLATFORM で判定していたのを Process::RLIMIT_NPROC をチェックするよう
+に修正しています。

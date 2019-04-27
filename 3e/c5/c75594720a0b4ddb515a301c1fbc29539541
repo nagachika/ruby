@@ -1,0 +1,2 @@
+loadpath.c で clang と gcc でそれぞれ長い文字列リテラルの警告を無視する #pragma
+を追加しています。

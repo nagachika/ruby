@@ -1,0 +1,3 @@
+r58353 で stack overflow の例外発生前に signal mask を解除するのに sigprocmask
+(3) を使っていましたが pthread_sigmask() が使えたらそちらを使うようにしています
+。

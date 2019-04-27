@@ -1,0 +1,4 @@
+True64 が except、try、leave、finally というマクロを定義いしているために
+compile.c のコンパイルに失敗する(YARV の instruction とぶつかってる?)ため
+thread_pthread.h でこれらを #undef するようにしています。 [ruby-core:40432]
+[Bug #5491]

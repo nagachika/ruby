@@ -1,0 +1,2 @@
+Enumerable#all?, #any?, one?, none? のテストケースに要素が空の時を追加していま
+す。

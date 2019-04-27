@@ -1,0 +1,4 @@
+拡張ライブラリ socket の Socket::Option の bool 型のオプションに int 型のサイズ
+の文字列だけ受け付けるようにしていたのを、1 byte の文字列も受け付けるようにして
+います。Winsock は getsockopt(3) で 1 byte のバッファを boolean として使うそう
+です。 [ruby-core:72730] [Bug #11958]

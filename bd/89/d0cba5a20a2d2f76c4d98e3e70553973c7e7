@@ -1,0 +1,2 @@
+r36330 で lib/rbconfig/obsolete.rb を RbConfig::Obsolete を削除したのを過去の互
+換性のために復活させています。 [ruby-core:46836] [Bug #6809]

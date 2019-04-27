@@ -1,0 +1,3 @@
+r61804 の FLEX_ARY_LEN を compile.c の struct ibf_object_string, struct
+ibf_object_array, struct ibf_object_hash, struct ibf_object_bignum などでも利用
+するようにしています。

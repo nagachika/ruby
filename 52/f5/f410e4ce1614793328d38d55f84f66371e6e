@@ -1,0 +1,4 @@
+internal.h というヘッダを導入して内部用の宣言を格納するようにしています。そして
+rb_classext_t の宣言をinternal.h に移動しています。
+あと地味に digest/digest.c で Qnil チェックするべきところ Qfalse のチェックにな
+っていたところを修正しています。

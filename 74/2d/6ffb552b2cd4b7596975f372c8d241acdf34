@@ -1,0 +1,2 @@
+ext/-test- のビルド時に自動生成されるファイルを svn:ignore property に追加してl
+-text- 全体を ignore させていたのはやめています。

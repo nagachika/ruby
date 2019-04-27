@@ -1,0 +1,2 @@
+README.EXT(.ja) のサンプルコードの変数の宣言がないのを修正しています。 https://
+github.com/ruby/ruby/pull/739

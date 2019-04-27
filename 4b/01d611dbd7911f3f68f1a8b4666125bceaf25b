@@ -1,0 +1,3 @@
+拡張ライブラリ gdbm で gdbm_reorganize() という関数を呼ぶと内部で fd を再 open
+するようなので再度 rb_fd_fix_cloexec() を呼んで close-on-exec フラグをセットす
+るようにしています。

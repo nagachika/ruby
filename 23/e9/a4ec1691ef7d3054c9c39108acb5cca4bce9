@@ -1,0 +1,2 @@
+def/gmake.mk で extract-gems の依存関係に update-gems を追加して bundled gems
+の展開時に更新しておくようにしています。

@@ -1,0 +1,5 @@
+.gdbinit の rp_id コマンドで関数 lookup_id_str() を利用していたのを、print_id
+コマンドを呼ぶようにして、print_id コマンドで参照してた ID_ENTRY_UNIT を enum
+から static const の変数に変更しています。デバッガから参照するためとのことです
+が、enum でも見えるんじゃないんでしたっけ(そのために #define から enum に定数の
+定義方法を変更したことが何度かあった)。

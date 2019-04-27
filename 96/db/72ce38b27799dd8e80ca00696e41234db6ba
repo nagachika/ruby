@@ -1,0 +1,3 @@
+Dir#each_child, Dir#children, NoMethodError#private_call?, GC
+.add_stress_to_class, GC.remove_stress_to_class, Hash#to_proc などなど rdoc 用
+コメントがなかったメソッドにコメントを追加しています。

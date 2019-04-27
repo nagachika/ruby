@@ -1,0 +1,2 @@
+Thread#join で自分自身(Thread.current) に join しようとすると ThreadError を発
+生させるようにしています。また NEWS ファイルにも追記しています。

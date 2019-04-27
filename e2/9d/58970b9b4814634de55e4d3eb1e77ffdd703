@@ -1,0 +1,4 @@
+psych のテストで YAML のエンジンを Syck に設定する時に ::Syck という表記を利用
+するようにしています。 RubyGems の変更で YAML::Syck が定義されるようになったの
+でここで Syck と書くと YAML::Syck を参照してしまうのでトップレベルの Syck を使
+うようにしています。

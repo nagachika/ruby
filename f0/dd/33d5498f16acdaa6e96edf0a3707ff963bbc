@@ -1,0 +1,4 @@
+r56839 での Net::FTP#shutdown での graceful shutdown の対応で OpenSSL::SSL
+::SSLSocket#stop を呼んでいたのですがこれは private メソッドだったのでやめてい
+ます。また OpenSSL::SSL::SSLSocket の場合 close するだけでよかったみたいなので
+むしろ shutdown メソッドを呼ばないようにしています。

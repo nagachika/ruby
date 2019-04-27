@@ -1,0 +1,2 @@
+pthread_pthread.c のタイマースレッドからの prctl(PR_SET_NAME, ...) は
+PR_SET_NAME が定義されている時だけ呼ぶようにしています。

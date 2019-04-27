@@ -1,0 +1,2 @@
+拡張ライブラリ csv の CSV.open で CSV.new で例外が発生した時に開いた File オブ
+ジェクトは close するようにしています。

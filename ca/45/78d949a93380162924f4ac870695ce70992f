@@ -1,0 +1,2 @@
+NEWS ファイルに r41286 での XMLRPC::Client#http メソッドの追加について追記して
+います。 [ruby-core:55197] [Feature #8461]

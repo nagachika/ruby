@@ -1,0 +1,2 @@
+r29320 で追加した mingw64 というビルドターゲットの basic_machine が i386-pc に
+なっていたので x86_64-pc に修正。 [ruby-core:32514]

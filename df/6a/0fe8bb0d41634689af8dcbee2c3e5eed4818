@@ -1,0 +1,2 @@
+test/socket/test_socket.rb の test_socket_new というテストで Socket を開きっぱ
+なしにしているのをきちんと閉じるようにしています。

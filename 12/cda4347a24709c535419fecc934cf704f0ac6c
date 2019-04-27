@@ -1,0 +1,4 @@
+svn さんによる version.h の日付更新、なのですが判定が暴走していて
+RUBY_RELEASE_MONTH_STR や RUBY_RELEASE_DAY_STR が 1桁の時に先頭に 0 をつけるた
+めの定義部分の "0" を現在の月/日に更新してしまっています。 svn さんの逆襲がはじ
+まる…。

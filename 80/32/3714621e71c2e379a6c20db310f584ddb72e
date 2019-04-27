@@ -1,0 +1,2 @@
+struct RBasic の flag に埋め込まれている Barrier の待っている Thread 数のオーバ
+フロー修正。

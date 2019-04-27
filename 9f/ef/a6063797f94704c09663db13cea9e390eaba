@@ -1,0 +1,4 @@
+r51457 や r51459 の続きで拡張ライブラリ openssl の tmp_dh_callback,
+tmp_ecdh_callback のコールバックを呼び出す ossl_call_tmp_dh_callback() や
+ossl_call_tmp_ecdh_callback() から true/false でなく直接 PKey オブジェクトを返
+すようにするリファクタリング。

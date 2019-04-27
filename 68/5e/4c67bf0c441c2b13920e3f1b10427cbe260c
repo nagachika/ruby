@@ -1,0 +1,4 @@
+bignum.c のリファクタリング。 bigdivrem1() から bigdivrem_mulsub() という関数名
+で BDIGIT の配列表現の Bignum に BDIGIT をかけて別の BDIGIT 配列から引く処理を
+切り出しています。言葉で説明するのだいぶツラい感じですね。また加算処理を
+bary_add() を呼び出すようにしています。

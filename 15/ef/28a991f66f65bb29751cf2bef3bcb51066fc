@@ -1,0 +1,2 @@
+NEWS ファイルに r57698 で String#-@ の実装が fstring を返すようになったことを追
+記しています。 [ruby-core:79747] [Feature #13077]

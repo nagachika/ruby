@@ -1,0 +1,3 @@
+r64365 の AppVeyor 上での MinGW で通らないテストのために readline のテストの
+setup で環境変数 APPVEYOR をみてスキップさせてたやつで teardown のほうも無視さ
+せないといけなかったので同じチェックして return させるようにしています。

@@ -1,0 +1,2 @@
+time.c の usec2subsecx() の戻り値の型を long から VALUE に変更しています。これ
+が SEGV の原因だったのかな。 [ruby-dev:49912] [Bug #13066]

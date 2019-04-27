@@ -1,0 +1,2 @@
+Bignum の struct RBasic::flags の符号フラグにセットするマクロ BIGNUM_NEGATE()
+を導入してこれを利用するようにリファクタリングしています。

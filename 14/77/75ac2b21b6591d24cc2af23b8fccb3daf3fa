@@ -1,0 +1,6 @@
+r41106 の configure.in で RUBY_REPLACE_TYPE() によって自動的に生成された size_t
+の変換マクロを自動生成するのを revert しています。 size_t は unsigned ではない
+から? とコミットログにはありますが size_t は unsigned のような……。いや
+unsigned ではない環境もあるかもしれないということかもしれないですね。またこれに
+より NUM2SIZE()/SIZE2NUM() がなくなったのでその部分を NUM2SIZET()/SIZET2NUM()
+を使うように書き直しています。

@@ -1,0 +1,1 @@
+NEWS ファイルに Fixnum と Bignum が Integer に統合されたことを追記しています。

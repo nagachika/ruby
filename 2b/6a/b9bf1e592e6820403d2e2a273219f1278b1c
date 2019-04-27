@@ -1,0 +1,3 @@
+ext/date で struct vtm のかわりに VALUE timev というメンバを追加した struct tmx
+を利用するようにしています。しかし date_tmx.h がこのコミットでは追加されていま
+せんでした。

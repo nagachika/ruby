@@ -1,0 +1,4 @@
+r61079 で sleep 1 を挿入した test_utime_symlinkfile ですが、File.utime でファイ
+ルの symbolic link 経由でメタデータのタイムスタンプを更新すると symbolic link
+自体のタイムスタンプも更新される環境があるらしく、symboclic link の utime/atime
+が更新されてないことを確認する assertion を削除して、sleep 1 も削除しています。

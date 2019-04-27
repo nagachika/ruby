@@ -1,0 +1,8 @@
+Hash#[] や Hash リテラルの生成時に呼ばれる rb_hash_bulk_insert_into_st_table()
+でバッファサイズを計算するのに st_table::num_entries を使ってたのを
+st_table::entries_bound に修正しています。 num_entries は有効な(生きてる)要素数
+で、entries_bound は DELETE フラグがついてるけどまだ残ってる要素も含んでいるな
+ど、必要なバッファサイズを計算するには entries_bound を使わないといけなかったと
+のこと。チケットでは Hash リテラル内に **{...} で Hash オブジェクトを展開したも
+のを入れるとたまに SEGV が起きるという現象だった模様。 [ruby-core:91095] [Bug #
+15536]

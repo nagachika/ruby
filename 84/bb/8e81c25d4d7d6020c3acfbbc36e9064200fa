@@ -1,0 +1,4 @@
+r63425 の fileutils の更新を revert しています。 fileutils.rb に require
+"rbconfig" が追加されていたためビルド時にエラーになることがあったみたいです。ビ
+ルド時に fileutils を利用してて、まだ rbconfig.rb が生成されてない時点で呼ばれ
+ることがあったとかかなぁ。

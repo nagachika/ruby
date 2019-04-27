@@ -1,0 +1,5 @@
+parse.y の必須キーワード引数の時の assignable() の第3引数の型が ripper 向けと本
+体向けで NODE* と VALUE で異なっていたのを REQUIRED_KEYWORD というマクロで定義
+することで ripper 向けで無理矢理 VALUE にキャストしたものを使うのをやめて
+Qundef を渡すようにしています。これにより assignable() を関数に wrap してキャス
+トするための関数マクロも定義していたのをやめています。

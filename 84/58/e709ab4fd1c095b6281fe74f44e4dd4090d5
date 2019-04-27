@@ -1,0 +1,2 @@
+rb_external_str_new_with_enc() から String オブジェクトのバッファと Encoding の
+初期化を行う処理を rb_str_initialize() という関数に切り出しています。

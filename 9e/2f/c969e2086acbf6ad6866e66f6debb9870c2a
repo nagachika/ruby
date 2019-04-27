@@ -1,0 +1,3 @@
+r41907 で追加した tool/probes_to_wiki.rb の usage のコメント修正と不要な中間デ
+ータを作らないように Enumerable や Enumerator のメソッドの使いかたを工夫してい
+ます。

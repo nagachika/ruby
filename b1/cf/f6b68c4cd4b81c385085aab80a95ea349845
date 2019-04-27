@@ -1,0 +1,3 @@
+拡張ライブラリ io/console で IO#raw や IO#getch などでオプション引数のチェック
+のための min と time という Symbol の ID を実行時に rb_intern() していたのを初
+期化時に一度取得して static 変数に格納しておくようにしています。

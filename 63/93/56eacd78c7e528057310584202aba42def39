@@ -1,0 +1,2 @@
+tool/update-deps で依存関係を検出するために make -p でビルドする対象に golf も
+追加しています。

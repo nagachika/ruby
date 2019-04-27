@@ -1,0 +1,2 @@
+win32ole のテスト test/win32ole/test_win32ole_event.rb でメソッド名のスペルミス
+を修正しています。 https://github.com/ruby/ruby/pull/1025

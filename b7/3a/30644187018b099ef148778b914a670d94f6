@@ -1,0 +1,2 @@
+test_weakmap.rb を追加して weakref.rb で利用している ObjectSpace::WeakMap のテ
+ストを追加しています。

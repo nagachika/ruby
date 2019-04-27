@@ -1,0 +1,3 @@
+r66229 の internal.h への rb_ary_ptr_use_start() のプロトタイプ宣言追加(という
+か rb_ary_detransient() に間違ってたのを修正)を revert しています。戻り値の型が
+違っていてコンパイルエラーになったみたいですね。

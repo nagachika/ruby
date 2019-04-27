@@ -1,0 +1,5 @@
+r36516 で test/ruby/test_dir_m17n.rb のファイル名文字列のエンコーディング変換を
+一旦 EUC-JP に force_encoding するようにしていた所は、ファイルエンコーディング
+が US-ASCII か ASCII-8BIT なら変換せずそのままにして、それ意外の場合は String#
+encode の第2引数の変換元エンコーディングを指定することで変換するようにしていま
+す。

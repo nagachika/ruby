@@ -1,0 +1,3 @@
+String#[ ] と String#byteslice で引数の評価の順序を固定するために rb_str_substr
+() の引数にそのまま NUM2LONG() を渡していたのを一旦ローカル変数に受けてから渡す
+ようにしています。

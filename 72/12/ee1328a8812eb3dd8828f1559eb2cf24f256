@@ -1,0 +1,8 @@
+ext/dl/win32/lib/win32/registry.rb と ext/fiddle/win32/lib/win32/registry.rb の
+再修正。あまりちゃんと読んでいませんが、WIN32 API を読んで得た文字列が ASCII
+-8BIT などシングルバイトの文字列だったので文字のバイト幅を意識して切り出したり
+する処理をするようにしているのかなぁという感じです。これで最終的な修正っぽいで
+す。 GC.disable する workaround も削除されています。
+[追記]なかださんに教えていただいたところ「StringValueCStr()が常に1byteの\0しか
+確保しないためにWCHARとしては終端されていない状態になることがあるので、WCHARの'
+\0'を追加しておく」という修正内容だそうでした[/追記]

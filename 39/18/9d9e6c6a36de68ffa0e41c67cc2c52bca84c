@@ -1,0 +1,6 @@
+ISeq の type の ISEQ_TYPE_DEFINED_GUARD は不要になったので削除して、かわりに
+ISEQ_TYPE_PLAIN を追加しています。 ISEQ_TYPE_PLAIN は NODE_ONCE (正規表現リテラ
+ルの once オプションの時に使われる NODE)をコンパイルする時に利用しています。
+r61599 の変更で iseq_set_exception_local_table(iseq) での例外の無視を
+ISEQ_TYPE_DEFINED_GUARD でする必要がなくなったので、実体に合わせて名前も変えた
+という感じみたいです。

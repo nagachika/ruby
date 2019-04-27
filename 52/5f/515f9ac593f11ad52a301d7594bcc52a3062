@@ -1,0 +1,4 @@
+Refinements によって再定義されたメソッドが Module#remove_method で削除される時
+に Module#refine のブロックの外では元のメソッドの method entry を削除するように
+しています。元々存在しないメソッドなら NameError を発生させるようにしています。
+[ruby-core:67722] [Bug #10765]

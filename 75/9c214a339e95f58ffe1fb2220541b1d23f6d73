@@ -1,0 +1,3 @@
+process.c の check_exec_redirect() から key の型に応じて配列に配列を詰めていく
+処理を check_exec_redirect1() という名前で切り出しています。名前がいまいちです
+ね。

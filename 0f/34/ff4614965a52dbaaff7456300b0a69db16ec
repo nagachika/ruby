@@ -1,0 +1,4 @@
+r44759 の続きで、即値の時を IMMEDIATE_P() で判定していたのですが
+SPECIAL_CONST_P() で判定して Qfalse と Qnil の時も struct RBasic::flags をチェ
+ックしないようにするのと、この部分では常に klass が 0 なのでメッセージに含めて
+たクラスの VALUE 値は不要だったので削っています。

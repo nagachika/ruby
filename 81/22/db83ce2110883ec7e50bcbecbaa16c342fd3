@@ -1,0 +1,5 @@
+Windows 版では IO のソケットをリストで管理しているのですが、そこにソケットの種
+類(family)を flag の上位ビットを使って格納するようにして、rb_win32_getsockname
+() で getsockname() が WSAEINVAL というエラーを返した時にこの family を使って結
+果を生成して返すようにしています。 Windows で getsockname() が状態によってエラ
+ーになる(close されているとか?)のでエミュレートしているようです。

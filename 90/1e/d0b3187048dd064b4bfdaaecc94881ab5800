@@ -1,0 +1,2 @@
+というわけで、remove_method での alias したメソッドの削除は initialize の再定義
+が行なわれる部分の後に実行するように追加し直しています。 [ruby-dev:44892]

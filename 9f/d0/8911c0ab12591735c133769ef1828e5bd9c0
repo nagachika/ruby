@@ -1,0 +1,2 @@
+gc.c の gc_prof_mark_timer_stop() で未初期化の変数(というか count = count のよ
+うに自己代入されていた)があったのを修正しています。

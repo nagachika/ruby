@@ -1,0 +1,2 @@
+r42233 と同様に Enumerator::Generator の初期化でもオブジェクトが freeze されて
+いないかのチェックを追加しています。

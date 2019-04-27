@@ -1,0 +1,2 @@
+NEWS ファイルに rb_gc_set_params() の deprecate 化と rb_gc_count() の公開 API
+化について追記しています。

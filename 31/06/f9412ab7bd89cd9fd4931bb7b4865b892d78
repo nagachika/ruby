@@ -1,0 +1,2 @@
+configure で __builtin_mul_overflow_p() の存在チェックを行い、可能なら乗算のオ
+ーバーフロー検知にこれを利用することで Integer#* の高速化を図っています。

@@ -1,0 +1,2 @@
+Windows 環境で test/testunit/test_parallel.rb のテストを skip にしています。
+Windows ではまだ上手く動かない模様。

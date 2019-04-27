@@ -1,0 +1,6 @@
+thread.c の rb_mutex_lock() で変数 timeout_ms の宣言に volatile 修飾子をつけて
+います。一見不要そうに思えるのですが、GVL_UNLOCK_BEGIN() という関数マクロの後で
+利用されていて、それがさらに RB_GC_SAVE_MACHINE_CONTEXT() を利用していて、先日
+r38144 でこのマクロが展開された結果にレジスタの保存のための setjmp(3) が含まれ
+るようになったので、これも "clobbered by 'setjmp' or 'vfork'" という警告の対策
+だと思われます。

@@ -1,0 +1,5 @@
+autoload の時の排他処理で、他の Thread がロード処理中だった時に
+rb_provide_feature() の途中でコンテキストスイッチが起きると $LOADED_FEATURES へ
+の追加はされてもまだ定数にセットが完了しない間に進んでしまって定数が未定義にな
+ってしまう可能性があるので、check_autoload_required() で別 Thread の完了を待つ
+ようにしています。 [ruby-core:81105] [Bug #11384]

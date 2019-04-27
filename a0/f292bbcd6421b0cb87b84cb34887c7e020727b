@@ -1,0 +1,3 @@
+拡張ライブラリ openssl に upstream のリポジトリの変更をマージしています。
+https://github.com/ruby/openssl/compare/v2.1.1...62436385306c PKCS7 の改善や
+mswin 版のビルドの修正などがあったようです。

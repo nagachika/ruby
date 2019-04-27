@@ -1,0 +1,2 @@
+GC のテストで test_latest_gc_info の一部を子プロセスに分離して実施するようにし
+ています。 mysterious behavior を回避するためだそうです。

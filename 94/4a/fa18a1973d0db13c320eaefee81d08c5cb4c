@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::Cipher.ciphers の rdoc 用コメントのクラス名
+の記述をフルパスで書くようにするのと、説明で省略された記法を修正。 https://
+github.com/ruby/ruby/pull/664

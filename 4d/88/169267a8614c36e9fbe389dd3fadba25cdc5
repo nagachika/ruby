@@ -1,0 +1,2 @@
+obsolete になった rb_thread_select のダミー実装で select を直に呼んでいたのを
+GVL を解放して呼ぶように修正しています。

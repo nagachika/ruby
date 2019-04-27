@@ -1,0 +1,5 @@
+拡張ライブラリ pathname の Pathname#read, Pathname#each_line などのメソッドが
+IO のクラスメソッドに委譲していたのを File のクラスメソッドを呼ぶように修正して
+います。 IO.read とかは pipe 経由でコマンドを起動するのもサポートしてしまいます
+が、Pathname はその名の通りファイルのパスを表してるはずなので File のほうを呼ぶ
+べきということです。

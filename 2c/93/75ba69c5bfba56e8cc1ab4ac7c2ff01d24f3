@@ -1,0 +1,4 @@
+最近ちょこちょこ変更が加えられている API rb_thread_select() (ruby 本体ではもう
+利用されていませんが公開 API なので利用している拡張ライブラリがいる)で
+rb_fdset_t の変更を rb_thread_select() の fd_set 型の引数へ書き戻されていなかっ
+たので処理を追加しています。 [ruby-core:39435] [Bug #5306]

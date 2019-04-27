@@ -1,0 +1,2 @@
+r52815 で追加したテストで Kernel#srand で seed を設定した時の rand が
+Random::DEFAULT を再現できることを確認する assertion を追加しています。

@@ -1,0 +1,4 @@
+util.c の ruby_scan_digits() に文字列の最後が数字だった時に1文字長く retlen に
+返してしまっていた不具合を修正しています。直接影響を受けそうなのは ruby_strtoul
+()/STRTOUL() に endp を渡していた時で、ざっとみると pack/unpack と socket で使
+っている箇所があるくらいですね。

@@ -1,0 +1,2 @@
+bignum.c の rb_big2str1() で、大きすぎて変換できない x が渡された時に
+RangeError を発生させるようにしています。

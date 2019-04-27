@@ -1,0 +1,7 @@
+RubyVM::InstructionSequence#compile に IO を受け付けるようにしています。また
+Ripper も IO を受け付けていたのですが、 respond_to? で get を呼べるかどうかをチ
+ェックするようにしていたので、T_FILE 型のオブジェクトであるかを確認するようにチ
+ェックを厳密にしています。 StringIO とかは渡せなくなるんですね。
+[ruby-dev:40202] [Feature #2674]
+ChangeLog には [Bug #2861] と記載されていましたがこちらは閲覧できなかったので関
+連しそうな [Feature #2674] をリンクしておきます。

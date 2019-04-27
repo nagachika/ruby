@@ -1,0 +1,3 @@
+test/ruby/envutil.rb で定義されている test_warn の引数を拡張してエラーメッセー
+ジを受け取れるようにし、また r34991 で定義した test_warning も envutil.rb に移
+動してどこからでも利用できるようにしています。

@@ -1,0 +1,3 @@
+r51989 から続く Symbol をブロック引数として渡した時の最適化で proc_new() で
+proc->block の初期化を追加しています。 ep (environment pointer でしたっけ?)を引
+き継ぐためらしいです。 [ruby-core:70980] [Bug #11566]

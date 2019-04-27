@@ -1,0 +1,3 @@
+tool/ruby_vm/helpers/dumper.rb でも ERB.new の引数を呼び分けるために
+RUBY_VERSION で分岐していたのを ERB.version でチェックするように修正しています
+。 https://github.com/ruby/ruby/pull/1826

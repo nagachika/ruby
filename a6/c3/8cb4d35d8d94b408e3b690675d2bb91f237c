@@ -1,0 +1,2 @@
+Regexp#names という named capture の名前の配列を返すメソッドで事前に必要なサイ
+ズの capacity を持つ配列を確保するようにしています。

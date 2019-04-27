@@ -1,0 +1,3 @@
+Enumerable#slice_before の引数 initial_state を 2.3 以降削除したのに rdoc 用コ
+メントのサンプルが追随していなかったので、ドキュメントを修正しています。
+[ruby-core:79485] [Bug #13202]

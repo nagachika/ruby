@@ -1,0 +1,3 @@
+test/ruby/test_file_exhaustive.rb にファイルの同一性をチェックする
+File.identical? メソッドについてのテストを追加しています。 IO オブジェクトとフ
+ァイルパスでもチェックできたんですね。

@@ -1,0 +1,2 @@
+load.c の rb_feature_p() のループに this_feature_index という変数が Qnil だった
+ら入る必要がないのでループ全体を if で括っています。

@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の ext/openssl/lib/openssl/x509.rb の定数の正規表現リテ
+ラルでも ripper のテストでの誤検出の対処のため文字クラスの中の文字の順序を変更
+しています。

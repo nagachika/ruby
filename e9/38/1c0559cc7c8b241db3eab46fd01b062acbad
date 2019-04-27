@@ -1,0 +1,2 @@
+error.c の rb_compile_error_append() で rb_sprintf() を rb_vsprintf() に修正。
+r38557 で入った不具合修正です。

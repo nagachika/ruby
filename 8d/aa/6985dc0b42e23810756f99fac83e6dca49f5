@@ -1,0 +1,2 @@
+標準添付ライブラリ set の SortedSet.setup が multi thread でうまく動作しないそ
+うで Mutex を追加して排他するようにしています。 [ruby-core:81985] [Bug #13735]

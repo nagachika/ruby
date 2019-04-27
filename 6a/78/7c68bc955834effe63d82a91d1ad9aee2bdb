@@ -1,0 +1,2 @@
+include/ruby/defines.h に RUBY_FUNC_ATTRIBUTE() で ERRORFUNC() や WARNINGFUNC()
+が定義されなかった場合の代替マクロ定義を追加しています。

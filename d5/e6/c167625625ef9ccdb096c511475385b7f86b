@@ -1,0 +1,3 @@
+Hash リテラルやキーワード引数で同じキーが重複していた時の警告のメッセージを変更
+しています。 https://github.com/ruby/ruby/pull/938 [ruby-core:69860] [Bug #
+11327]

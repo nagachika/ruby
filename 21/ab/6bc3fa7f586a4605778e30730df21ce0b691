@@ -1,0 +1,4 @@
+拡張ライブラリ readline で HAVE_CLEAR_HISTORY (clear_history() という関数の有
+無)のフラグの利用する条件が反転しているのを修正。リンクしているのが libeditline
+の時に history_get() などの動作をチェックするために lhistory_add() したのを掃除
+するところがうまく働いていなかったらしい。

@@ -1,0 +1,2 @@
+id_table.c の insert_into_chain() と insert_into_main() のプロトタイプ宣言の第2
+引数の型が間違っていたのを修正。

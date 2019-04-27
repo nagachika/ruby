@@ -1,0 +1,3 @@
+defs/keywords や defs/lex.c.src defs/lex.c.blt で定義されている struct kwtable
+の name の型を unsigned int から int に修正しています。 gperf が -1 を使うこと
+があるのでそれに対応するようにしているそうです。

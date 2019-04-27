@@ -1,0 +1,7 @@
+pipe と socket をデフォルトで non blocking な fd を作るようにしています。 pipe
+は O_NONBLOCK を、socket は SOCK_NONBLOCK を指定するようにしています。あーデフ
+ォルト non-blocking 化はまだ入ってなかったか。これにより fd のレベルで non
+blocking になるので、timer thread の削除に伴い pipe により通信しているところで
+デッドロックしてたりするのが解消される、ということなのかなぁ。 Ruby の IO 実装
+としては fd が non-blocking かどうかにあまり影響されないと思うので、C で実装し
+ている部分でのメリットのためだと思います。 [ruby-core:89950] [Bug #14968]

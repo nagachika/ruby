@@ -1,0 +1,3 @@
+test/ruby/test_rubyoptions.rb の子プロセスをわざと SEGV させるテスト
+test_segv_loaded_features で定義してあるユーティリティメソッド assert_segv を利
+用するようにリファクタリングしています。

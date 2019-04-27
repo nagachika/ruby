@@ -1,0 +1,3 @@
+object.c の rb_to_integer() で変換時に使うメソッドの mid を引数に受け付けるよう
+にして convert_type() のかわりに convert_type_with_id() を使うようにして
+rb_intern() を省略するようにしています。

@@ -1,0 +1,2 @@
+make test-rubyspec で spec/default.mspec をコマンドラインで指定しないようにして
+います。指定しなくても rubyspec が自動で読み込んでくれるみたいです。

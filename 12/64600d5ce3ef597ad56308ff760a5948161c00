@@ -1,0 +1,3 @@
+ビルド環境の修正。VPATH に $(topdir) が含まれていたため拡張ライブラリ mathn/
+complex や mathn/rational で依存関係がおかしくなることがあった不具合を修正して
+います。 [ruby-dev:46998] [Bug #7864]

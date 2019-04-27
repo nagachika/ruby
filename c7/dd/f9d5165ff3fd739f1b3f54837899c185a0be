@@ -1,0 +1,6 @@
+Continuation の解放処理 cont_free() で GET_THREAD() で取得した
+ruby_current_thread が NULL になって SEGV することがあるのでチェックを追加して
+います。うーむ、issue では報告者は Thread が Fiber より先に解放されたからじゃな
+いかとか推測していますが、ruby_current_thread が NULL になるなのは終了時くらい
+のはずでなにかおかしいのでは…と思いましたが、とにかく NULL dereference を回避
+したということでしょうか。 https://github.com/ruby/ruby/pull/914

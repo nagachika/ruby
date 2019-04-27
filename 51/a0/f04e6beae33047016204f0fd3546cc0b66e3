@@ -1,0 +1,2 @@
+MJIT で tail call optimization が有効になってるメソッドは inline 化しないように
+チェックを追加しています。

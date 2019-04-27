@@ -1,0 +1,4 @@
+拡張ライブラリ json の parser で r29214 で追加された(かなり前ですね)
+rb_scan_args() の optional hash 用の指示子 ":" を利用するようにしています。 #
+ifdef HAVE_RB_SCAN_ARGS_OPTIONAL_HASH で条件コンパイルされているのは、json が外
+部 gem でもあって、古い Ruby と一緒に使われる可能性があるからだと思います。

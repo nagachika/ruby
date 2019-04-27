@@ -1,0 +1,2 @@
+Process.clock_gettime の rdoc 用コメントのフラグ説明の対応するプラットフォーム
+に OpenBSD について追記しています。

@@ -1,0 +1,3 @@
+Enamerable#all?, #any?, #one?, none? に引数が渡された時にはブロックは呼び出され
+ないので、ブロックも渡されてた時には警告を出力するようにしています。 https://
+github.com/ruby/ruby/pull/1953

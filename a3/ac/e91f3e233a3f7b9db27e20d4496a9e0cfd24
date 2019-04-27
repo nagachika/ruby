@@ -1,0 +1,2 @@
+test/psych/test_yamldbm.rb で Psych がロードされていなかったらテストクラスの定
+義自体をスキップするようにしています。

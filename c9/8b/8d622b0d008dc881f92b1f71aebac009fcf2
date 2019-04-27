@@ -1,0 +1,2 @@
+古い Mac OS X で Homebrew などで入れた apple-gcc4.2 のコンパイラでビルドできな
+いので、configure で gcc-4.2 を優先してチェックしないようにしています。

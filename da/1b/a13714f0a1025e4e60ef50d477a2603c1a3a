@@ -1,0 +1,5 @@
+irb が IRB.parse_opts で ARGV を破壊的に変更してしまうのが Binding#irb で起動し
+た時にも ARGV を変更してしまうようなので、引数で ARGV を渡すようにして Binding#
+irb からの起動時には空の配列を明示的に渡すことで ARGV が変更されるのを防いでい
+るようです。将来的には IRB.parse_opts や IRB.setup を private にして引数を変更
+するつもりとのこと。 [ruby-core:84135] [Bug #14162]

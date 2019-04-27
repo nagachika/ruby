@@ -1,0 +1,6 @@
+マシンスタックのサイズを前述の余白を加味して計算していたところをメモリ pagesize
+でアライメントするようにして、スタックオーバフローの検出をより正確にできるよう
+にしているそうです。オーバフローして SEGV が発生した時に SystemStackOverflow か
+どうか判断しているのは thread_pthread.c の ruby_stack_overflowed_p() のところで
+、ここの計算は特に pagesize に依存しないような気もしますが、どうしてでしょう。
+[ruby-dev:46174] [Bug #7084]

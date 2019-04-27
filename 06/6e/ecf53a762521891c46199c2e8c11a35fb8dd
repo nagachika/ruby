@@ -1,0 +1,2 @@
+configure での nanosleep のチェックを削除しています。現在 nanosleep は利用され
+てされていないそうです。

@@ -1,0 +1,2 @@
+gc.c の rb_free_m_tbl() を static 関数にして method.h からプロトタイプ宣言を削
+除しています。

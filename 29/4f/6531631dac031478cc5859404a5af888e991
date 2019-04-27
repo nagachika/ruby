@@ -1,0 +1,2 @@
+Process.abort の rdoc 用コメントの call-seq の呼び出し例で Process::abort を
+Process.abort に修正しています。 Kernel::abort はいいのかな。

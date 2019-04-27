@@ -1,0 +1,1 @@
+string.c(tr_trans) の警告除去のため last を int から unsigned int に変更。

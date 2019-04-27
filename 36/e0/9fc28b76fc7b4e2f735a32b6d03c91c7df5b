@@ -1,0 +1,2 @@
+test/ruby/test_pack.rb でも assert を assert_prediate に置き換えるテストのリフ
+ァクタリング。

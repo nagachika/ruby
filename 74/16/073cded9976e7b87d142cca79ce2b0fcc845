@@ -1,0 +1,6 @@
+Hash#reject をブロックなしで呼んだ時にできる Enumerator の Enumerator#size メソ
+ッドがブロックの評価結果によって変化した数を反映させていない不具合を修正してい
+ます。 Hash#reject は dup+reject! のような実装だったのですがこれだと元のサイズ
+が残ってしまうらしくて新規に Hash を生成して rb_hash_foreach() で要素をチェック
+してブロックが偽を返した時にその Hash に追加するという実装に変更しています。
+[ruby-core:58914] [Bug #9223]

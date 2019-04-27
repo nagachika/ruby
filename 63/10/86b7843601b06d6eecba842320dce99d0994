@@ -1,0 +1,2 @@
+拡張ライブラリ psych に upstream から最新版をマージ。 warn に uplevel の指定を
+使うようにする変更だけみたいです。 https://github.com/ruby/psych/pull/379

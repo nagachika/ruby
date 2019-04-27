@@ -1,0 +1,2 @@
+r48032 で .gitignore には追加されてましたが lib/unicode_normalize/tables.rb と
+enc/unicode/data/*.txt を無視させるように svn property にも追加しています。

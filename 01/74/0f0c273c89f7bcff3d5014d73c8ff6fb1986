@@ -1,0 +1,9 @@
+メソッド定義において省略可能引数の代入記号の右辺値にその引数自体を参照できるよ
+うにしています。うん? ということは引数が渡された時は右辺値は評価されないわけな
+ので、評価される時は常に nil が入った変数になるわけですね。
+def foo(var = var + 1)
+  p var
+end
+foo 1  # => 1
+foo    # => in `foo': undefined method `+' for nil:NilClass (NoMethodError)
+あまり使い道はなさそうですね。 [ruby-core:61299] [Bug #9593]

@@ -1,0 +1,2 @@
+doc/syntax/refinements.rdoc の記述を Module も Module#refine の引数にできるよう
+になったのに追随させています。

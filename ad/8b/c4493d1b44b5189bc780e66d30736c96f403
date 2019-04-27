@@ -1,0 +1,1 @@
+rb_exec_end_proc() で GET_THREAD() を使っていたのを GET_EC() に変更しています。

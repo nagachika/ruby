@@ -1,0 +1,4 @@
+configure.ac で pthread が使えるかどうかの判定を pthread_kill(3) の存在チェック
+ではなく pthread_create(3) のチェックで行うようにしています。 Emscripten による
+JavaScript 変換が pthread_create() はあるけど pthread_kill() がないということで
+Emscripted で ruby をビルドするために、ということみたいですね。

@@ -1,0 +1,2 @@
+openssl のテストのリファクタリング。require "openssl" が失敗したときの
+LoadError の捕捉を test/openssl/utils.rb にまとめています。

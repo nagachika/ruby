@@ -1,0 +1,3 @@
+test/ruby/test_thread.rb の assertion で素の assert を使って書かれていたところ
+を assert_operator や assert_predicate を使って書くことで失敗時のメッセージがよ
+りわかりやすくなるようにしています。

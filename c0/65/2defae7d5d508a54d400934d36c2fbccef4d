@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp のテストで Errno::EPIPE で例外を捕捉していたところに
+Errno::EPROTOTYPE も追加しています。 Mac OS X 10.10 でたまに発生するとのこと。
+[ruby-core:78066] [Bug #12914]

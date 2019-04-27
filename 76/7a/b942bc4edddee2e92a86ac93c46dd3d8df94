@@ -1,0 +1,2 @@
+common.mk で拡張ライブラリのソースファイルの依存関係として ext/ripper/
+eventids2table.c の生成を追加しています。

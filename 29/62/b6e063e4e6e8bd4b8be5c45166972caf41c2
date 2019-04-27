@@ -1,0 +1,7 @@
+ISeq のうち実行時に書き変わる部分を集めた rb_iseq_t::variable_body を削除して
+rb_iseq_t::body::mark_ary という配列に詰めるようにしています。なるほどこのため
+にアクセスをマクロ化してたわけですね。改名された構造体メンバたちももうなくなっ
+たので問題ありませんでした。
+しかしなぜか test/ruby/test_process.rb の
+test_execopts_redirect_open_fifo_interrupt_print というテストで sleep 時間をの
+ばしていて、これはなぜだろう…。

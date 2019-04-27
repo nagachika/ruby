@@ -1,0 +1,2 @@
+ext/date の警告除去、未使用の変数削除、RSTRING_LEN を RSTRING_LENINT に変更、な
+どのコード整理。

@@ -1,0 +1,3 @@
+rb_check_funcall_with_hook() で check_funcall_missing() の前に hook 関数を呼び
+出していたのを後に呼び出すようにしています。また hook 関数に method_missing で
+もメソッドがみつからなかったかどうかを第1引数に渡すようにしています。

@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL 1.1.0 対応の一環というかその影響でテストで
+OpenSSL::Engine.cleanup を呼ばないようにしたので OpenSSL::Engine.load を重複し
+て呼ばないようにしています。 [ruby-core:75225] [Feature #12324]

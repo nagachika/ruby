@@ -1,0 +1,2 @@
+Net::HTTP#transport_request の通信処理で Errno::ETIMEDOUT が発生した時にもリト
+ライ処理するようにしています。 https://github.com/ruby/ruby/pull/2012

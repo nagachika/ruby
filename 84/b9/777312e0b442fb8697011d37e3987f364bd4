@@ -1,0 +1,3 @@
+tool/colorize.rb に frozen-string-literal の magic comment を追加しています。ま
+た tool/make-snapshot で colorize.rb を利用して出力に色付けするようにしています
+。

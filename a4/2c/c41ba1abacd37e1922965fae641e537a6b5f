@@ -1,0 +1,5 @@
+Bitmap Marking GC のためにヒープスロットのアライメントをとるための
+HEAP_ALIGN_LOG 定数を OpenBSD では実際のページサイズから計算するように
+configure.in に処理を追加しています。 OpenBSD の posix_memalign() はページサイ
+ズ[DEL:の整数倍:DEL]以下のアライメントでないとエラーになってしまうようです。
+[ruby-core:42158] [Bug #5901]

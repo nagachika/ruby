@@ -1,0 +1,2 @@
+Dir.mkdir や File.chmod の mode を保持する変数の型を int から mode_t に変更して
+います。

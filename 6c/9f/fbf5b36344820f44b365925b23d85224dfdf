@@ -1,0 +1,3 @@
+Integer#digits の rdoc 用コメントに負の整数に対して呼び出した時の記述が間違って
+いたのを修正しています。負の値に対しては Math::DomainError 例外が発生します。
+[ruby-core:76025] [Bug #12487]

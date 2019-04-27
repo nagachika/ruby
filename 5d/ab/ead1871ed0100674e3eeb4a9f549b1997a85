@@ -1,0 +1,4 @@
+拡張ライブラリ psych で Hash の load 時に new ではなく allocate メソッドでオブ
+ジェクトを確保するようにしています。 Hash を継承したサブクラスのオブジェクトを
+dump してから load すると new の引数の不一致などでエラーになりうるのを回避して
+います。いやー(ry https://github.com/tenderlove/psych/issues/196

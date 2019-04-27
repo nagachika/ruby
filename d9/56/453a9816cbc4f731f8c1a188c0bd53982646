@@ -1,0 +1,4 @@
+Process.times が返すオブジェクトのクラス Struct::Tms を Process::Tms に名前空間
+の位置を変更しています。 Struct::Tms にも互換性のために同じクラスをセットしてい
+ますが、こちらは deprecated にしたいみたいです。今のところ特に警告とかは出ませ
+んが。

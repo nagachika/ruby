@@ -1,0 +1,2 @@
+file.c の rb_str_encoding_ospath() も rb_str_conv_enc() を使ってシンプルに書き
+かえています。

@@ -1,0 +1,9 @@
+配列の RGenGC の shared array を Write Barrier で保護するようにしています。これ
+までバッファを共有するために作られる shared array は、自分を参照している Array
+オブジェクトからもそのバッファにアクセスされるため shady 扱いしなくてはいけませ
+んでしたが、ary_ensure_room_for_push()/ary_ensure_room_for_unshift() で shared
+array を作成する時は shared array オブジェクトを返すことで Write Barrier 保護つ
+きのアクセスをするようにしています。これらの関数は思ってたのと違うオブジェクト
+が返ってくることがあるので注意深く利用しないといけなさそうですね。
+また rb_mem_clear(), ary_mem_clear(), memfill(), ary_memfill(), ary_memcpy() な
+どの関数の定義位置を移動しています。

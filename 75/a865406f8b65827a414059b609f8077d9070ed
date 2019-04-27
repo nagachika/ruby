@@ -1,0 +1,3 @@
+bootstraptest/runner.rb, sample/test.rb, test/lib/test/unit.rb で文字の色付け用
+の ASCII コードに空の引数を追加しています。コメントによれば色のリセットを追加し
+ているそうで、こうするとリセット+指定という意味になるんですかね。

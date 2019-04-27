@@ -1,0 +1,2 @@
+拡張ライブラリ curses のサンプルコード類を ext/curses 直下に置いていたのを
+sample/curses/ の下に移動しています。

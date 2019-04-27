@@ -1,0 +1,2 @@
+GVL の変更で利用されなくなった構造体メンバ native_thread_data_t::gvl_cond,
+native_thread_data_t::gvl_next を削除しています。

@@ -1,0 +1,2 @@
+mjit.c の free_unit() で rb_iseq_body_t::jit_func をクリアするのに 0 のかわりに
+NOT_ADDED_JIT_ISEQ_FUNC という定数マクロを使うようにリファクタリング。

@@ -1,0 +1,3 @@
+String#to_sym の memory leak のテストで assert_no_memory_leak の誤検出の修正の
+ために warm up の文を追加して、また rss で比較するようにしています。
+[ruby-core:67268] [Bug #10686]

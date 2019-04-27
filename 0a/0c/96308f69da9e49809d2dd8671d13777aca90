@@ -1,0 +1,2 @@
+Process.clock_gettime の clock_id で指定できる定数に Linux 3.0 からサポートされ
+る CLOCK_REALTIME_ALARM と CLOCK_BOOTTIME_ALARM を追加しています。

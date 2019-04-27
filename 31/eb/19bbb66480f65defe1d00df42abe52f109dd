@@ -1,0 +1,3 @@
+SecureRandom.random_bytes が最初に呼ばれた時に seed に使う pid として 0 固定に
+していたのを $$ から自分の pid を取得して使うようにしています。
+[ruby-dev:44270] [Bug #5105]

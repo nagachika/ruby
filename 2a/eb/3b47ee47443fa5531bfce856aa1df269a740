@@ -1,0 +1,2 @@
+Random.rand が引数に Range を受け付けるように変更されています。[ruby-dev:43427]
+[Feature #4605]

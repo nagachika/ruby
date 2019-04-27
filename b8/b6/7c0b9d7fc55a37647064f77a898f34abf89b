@@ -1,0 +1,2 @@
+process.c (rb_spawn_internal) のローカル変数の型が pid_t のはずが VALUE になっ
+ていたところを修正。

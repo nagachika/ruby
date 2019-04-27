@@ -1,0 +1,3 @@
+parse.y の new_brace_body() や new_do_body() といったマクロで本体と ripper の差
+異を吸収していたのをやめて DSL で ripper 向けには直接別の処理を書くようにしてい
+ます。

@@ -1,0 +1,2 @@
+tool/make-snapshot のエラー時のメッセージに make-snapshot の名前($0 の
+basename)を含めるようにしています。

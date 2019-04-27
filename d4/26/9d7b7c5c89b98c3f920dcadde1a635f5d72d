@@ -1,0 +1,3 @@
+Object#singleton_methods でも m_tbl を NULL チェックせずアクセスして SEGV して
+いたところがあったので Module#prepend の追加に伴い NULL チェックを追加する修正
+をしています。

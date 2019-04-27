@@ -1,0 +1,2 @@
+Etc の rdoc 追記しています。 Etc.sysconfdir というメソッドは /etc じゃなくて
+<prefix>/etc を返すんですね。 [ruby-core:39895] [Bug #5396]

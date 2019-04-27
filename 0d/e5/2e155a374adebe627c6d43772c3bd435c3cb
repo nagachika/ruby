@@ -1,0 +1,2 @@
+README.EXT.ja の create_makefile() と have_struct_member() のオプション引数の追
+記をしています。 [Bug #6597]

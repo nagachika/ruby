@@ -1,0 +1,2 @@
+Windows で rubystub.exe を作成する make stub で stub.o が win32/ サブディレクト
+リの下にできるので依存関係を修正しています。

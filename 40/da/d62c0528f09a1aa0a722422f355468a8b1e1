@@ -1,0 +1,3 @@
+Array#sort と Array#sort! の rdoc 用コメントのサンプルコードがブロックパラメー
+タで receiver の変数を遮蔽するようになっていたので修正しています。 https://
+github.com/ruby/ruby/pull/1628

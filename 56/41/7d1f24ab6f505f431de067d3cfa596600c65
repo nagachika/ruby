@@ -1,0 +1,5 @@
+Kernel#load で引数のファイルパスを rb_get_path_check_to_string() および
+rb_get_path_check_convert() を使って safe level のチェックつきで変換するように
+しています。例外発生時に rb_str_encode_ospath() でエンコーディングを変換する前
+に引数のエンコーディングのままのファイルパスを使うようにするのが目的みたいです
+。

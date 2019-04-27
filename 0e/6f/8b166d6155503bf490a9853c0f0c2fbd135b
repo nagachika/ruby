@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb で IT と ST というフラグは排他的にセットするように
+しています。 enc/unicode.c でもそれに合わせて変更しているようです。

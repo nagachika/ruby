@@ -1,0 +1,6 @@
+irb/completion.rb で irb のタブ補完を有効にした時に、以下のようにl "::" 区切り
+でメソッド呼び出しする記法の時にメソッド名を補完するようにしています。また中身
+が Module/Class の時には定数を補完するようにしています。
+a = Object
+a::object<Tab> #=> object_id
+a::Time<Tab> #=> Time Timeout TimeoutError

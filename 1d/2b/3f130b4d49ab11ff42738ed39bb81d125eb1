@@ -1,0 +1,3 @@
+r55701 で Unicode 用データファイルをダウンロードするディレクトリを enc/unicode/
+data の下のバージョン毎のサブディレクトリに変更したので svn:ignore の property
+を変更しています。

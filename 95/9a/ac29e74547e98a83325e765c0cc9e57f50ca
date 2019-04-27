@@ -1,0 +1,3 @@
+string.c と thread.c で gcc の時に ASSUME() というマクロを使って未初期化変数の
+警告を抑制するようにしています。また do_select() の引数に const 修飾子を追加し
+ています。

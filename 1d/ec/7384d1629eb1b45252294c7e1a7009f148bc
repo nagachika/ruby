@@ -1,0 +1,6 @@
+dtrace コマンドのオプションに -C を追加しています。 #include を dtrace で展開す
+るために必要みたいです。コミットログを読むと逆みたいですけど、ヘルプメッセージ
+によると "run cpp(1) preprocessor on script files" とあるので多分展開してくれる
+んだと思います。また probes.d で #include するのを vm_core.h から vm_opts.h に
+変更して VM_COLLECT_USAGE_DETAILS の定義もそちらに移動しています。こちらのほう
+が小さいヘッダファイルだからでしょう。

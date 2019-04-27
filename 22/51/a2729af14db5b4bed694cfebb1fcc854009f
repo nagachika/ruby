@@ -1,0 +1,4 @@
+拡張ライブラリ thread の Queue#push (#enq, #<<)、Queue#pop (#deq, #shift)、
+Queue#length (#size) などの rdoc に別名も call-seq に追加するようにしています。
+また alias 定義に rb_alias() のかわりに rb_define_alias() を利用するようにして
+います。どうも RDoc が rb_define_alias() でないと認識してくれないようです。

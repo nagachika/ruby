@@ -1,0 +1,3 @@
+r55308 の String#downcase! の変更と同様に String#upcase!, String#capitalize! と
+String#swapcase! の実装でも分岐をまとめて 8bit clean な文字列でない場合は常に
+rb_str_casemap() を使うようにしています。

@@ -1,0 +1,2 @@
+r63616 の tool/extlibs.rb で &. 演算子を使う変更を revert しています。 BASERUBY
+で実行するので古い ruby を使った時にエラーになるため。

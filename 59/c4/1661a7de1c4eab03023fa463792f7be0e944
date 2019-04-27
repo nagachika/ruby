@@ -1,0 +1,2 @@
+ext/nkf/nkf-utf8/ に nkf の upstream からマージしています。 JIS X 0213 のサポー
+トとバグ修正とのこと。

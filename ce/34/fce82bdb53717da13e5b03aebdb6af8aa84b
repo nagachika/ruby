@@ -1,0 +1,2 @@
+Process.clock_gettime の rdoc にエミュレーションによって実現している clock_id
+の対応として Darwin での CLOCK_MONOTONIC の対応を追記しています。

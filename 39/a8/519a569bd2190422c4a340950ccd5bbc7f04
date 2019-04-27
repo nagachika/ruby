@@ -1,0 +1,7 @@
+Module#constants は引数に include した Module の定数も含めるかどうかを指定でき
+るのですが Module#constants(false) として呼んだ場合はその Module/Class で定義さ
+れている定数のみ返すため、struct RClass が持つ定数のテーブルを直接参照して定数
+名リストを作ることで中間データの st_table を作るのを省くようにしています。これ
+により Module#constants(false) が高速化され、チケットの報告によると rails の起
+動が 5% くらい高速に(6.3sec -> 6sec)なるそうです。 [ruby-core:58786] [Feature #
+9196]

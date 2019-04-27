@@ -1,0 +1,3 @@
+error.c の set_syserr() で EAGAIN と EWOULDBLOCK が異なる値かどうかで条件コンパ
+イルしていたところで、そもそも EWOULDBLOCK が未定義の時も考慮するように修正して
+います。

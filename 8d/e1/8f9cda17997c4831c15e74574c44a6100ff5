@@ -1,0 +1,4 @@
+ext/openssl/ossl.h で OPENSSL_SYS_WIN32 というマクロをチェックする前に #include
+<openssl/e_os2.h> するようにしています。このマクロの定義が openssl/e_os2.h の中
+にあるようです。はっきりとはわかりませんがおそらく Windows でのビルドエラーがあ
+ったのではないかと思われます。

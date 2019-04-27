@@ -1,0 +1,3 @@
+rb_find_file_safe() の SecurityError 発生時のメッセージにパスの文字列を埋め込む
+時に指示子に PRIsVALUE を使うようにしてエンコーディングを保持するようにしていま
+す。

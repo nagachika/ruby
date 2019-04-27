@@ -1,0 +1,5 @@
+r36843 で FIPS モードのためにテストの鍵長を大きくしたのですが、OpenSSL_FIPS と
+いうマクロを ext/openssl/extconf.rb でチェックして FIPS モードかどうかを
+OpenSSL::OPENSSL_FIPS という定数で検出可能にしています。これを使って FIPS モー
+ドでない時にはテストに使う鍵長を 256bit にして高速に処理できるようにしています
+。 [ruby-core:47345] [Feature #6946]

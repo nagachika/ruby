@@ -1,0 +1,3 @@
+コマンドラインオプションの --enable-frozen-string-literal と
+--enable-frozen-string-literal の組み合わせのテストでエラー時のメッセージに実行
+するスクリプト内容とオプションを出力するようにしています。

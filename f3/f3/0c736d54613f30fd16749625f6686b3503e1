@@ -1,0 +1,2 @@
+bootstraptest/runner.rb で verbose モードの時はテスト毎の結果の行を上書きするの
+をやめてそのまま残すようにしています。

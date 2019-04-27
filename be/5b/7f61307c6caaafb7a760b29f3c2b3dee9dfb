@@ -1,0 +1,2 @@
+sighandler() で errno を退避して復帰させるようにしています。 [ruby-core:68172]
+[Bug #10866]

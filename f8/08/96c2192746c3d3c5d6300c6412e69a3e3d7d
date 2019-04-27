@@ -1,0 +1,12 @@
+スレッドが IO 待ちなどで GVL を解放して block するシステムコール呼び出しに入っ
+ている時に、他のスレッドから Thread#kill や Thread#raise で割り込みをしようとす
+ると signal を飛ばしますが、実はこのしくみには race condition があって実際にシ
+ステムコールに入る前に signal を受け取ってしまうと割り込まれなくなってしまいま
+す。そういった事態から救うために signal thread list というのが pthread 版の
+thread の実装にはあって、割り込まれたスレッドはこのリストに入れられて timer
+thread で定期的にシグナル送信されます。ところが今は timer thread は実行可能なス
+レッドが 2つ以上存在しない場合は定期的な polling の動作をやめてずっと待機するよ
+うになっているため、稀に signal thread list にスレッドが登録されているのに
+timer thread が止まってしまってこの救済策が動かない場合があって割り込みが効かな
+くなっていました。そこで割り込みしたら timer thread を起こすようにしています。
+[ruby-core:39634] [Bug #5343]

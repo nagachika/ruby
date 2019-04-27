@@ -1,0 +1,2 @@
+complex.c と rational.c の #if 0 ... #endif で括られてコメントアウトされていた
+部分を削除しています。

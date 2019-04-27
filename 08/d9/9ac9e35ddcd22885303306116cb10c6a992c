@@ -1,0 +1,5 @@
+CSV.foreach で open に渡す mode 引数('rb')は削除。
+また CSV#initialize でエンコーディングの設定の優先順位の変更や
+:internal_encoding に文字列が渡された時に Encoding.find で Encoding に変換する
+(不正な文字列なら例外発生させる)などの追加の修正。ChangeLog のエントリには (CSV
+#init_separators) と書かれていますが CSV#initialize の修正ですね。

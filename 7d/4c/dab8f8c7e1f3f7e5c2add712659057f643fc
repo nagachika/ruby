@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf.rb で clean のターゲットになる CLEANLIBS にビルドしない
+場合は TARGET_SO を追加しないようにしています。

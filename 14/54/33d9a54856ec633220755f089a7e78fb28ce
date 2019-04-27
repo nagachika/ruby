@@ -1,0 +1,4 @@
+標準添付ライブラリ rdoc を upstream からマージして 4.2.1 に更新しています。いく
+つか不具合修正も含まれています。 https://github.com/rdoc/rdoc/pull/340 https://
+github.com/rdoc/rdoc/pull/341 https://github.com/rdoc/rdoc/pull/367 https://
+github.com/rdoc/rdoc/pull/368

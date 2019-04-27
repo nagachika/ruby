@@ -1,0 +1,1 @@
+Process::Status の to_s と inspect のコメント(RDoc)に実行例を追加。

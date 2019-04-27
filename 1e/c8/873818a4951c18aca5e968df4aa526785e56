@@ -1,0 +1,2 @@
+ruby 本体のテスト用 test/unit の並列テスト用の Test::Unit::Parallel で make の
+jobserver 用の fd をコマンドラインオプションに追加する処理を削っています。

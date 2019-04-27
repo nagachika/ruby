@@ -1,0 +1,2 @@
+test/syck/test_yamlstore.rb で YAML::ENGINE.yamler を明示的に "syck" と指定して
+テストするようにしています。

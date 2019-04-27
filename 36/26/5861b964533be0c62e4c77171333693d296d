@@ -1,0 +1,6 @@
+r64280 の MJIT 用関数のリファクタリングのリトライ。vm_call_iseq_setup_normal()
+の引数から struct rb_call_info と struct rb_call_cache は削除してかわりに
+rb_callable_method_entry_t を渡すようにしています。 ci は使ってなかったのと cc
+も method entry の取得のために参照してただけなので直接これを渡すようにしていま
+す。これにより tool/ruby_vm/views/_mjit_compile_send.erb で生成するソースからも
+vm_call_iseq_setup_normal() を利用するようにしています。

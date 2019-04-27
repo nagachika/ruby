@@ -1,0 +1,2 @@
+csv.gemspec の spec.files を Dir.glob を使わずにファイルリストをハードコードす
+るようにしています。

@@ -1,0 +1,5 @@
+Refinements で Module#refine のブロック内で Module/Class にメソッドを追加すると
+、その Module/Class の instance_methods に追加したメソッドが using していなくて
+も含まれてしまうという不具合があり、Refinements 用のメソッドエントリは実際に呼
+べるか(using の影響下にあるか)確認するようにして修正しています。
+[ruby-core:57080] [Bug #8881]

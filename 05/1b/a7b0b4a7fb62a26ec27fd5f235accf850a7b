@@ -1,0 +1,2 @@
+標準添付ライブラリ erb の ERB::Compiler::Scanner.regist_scanner を
+register_scanner と改名しています。元の名前も alias として残しています。

@@ -1,0 +1,2 @@
+doc/extension.rdoc と doc/extension.ja.rdoc に rb_gc_register_mark_object() の
+説明を追加しています。 [ruby-core:62862] [Feature #9894]

@@ -1,0 +1,3 @@
+r42904 で complex.c と rational.c に CANONICALIZATION_FOR_MATHN が未定義の時に
+マクロ canonicalization の定義をエラーになるように定義していたのを消しています
+。

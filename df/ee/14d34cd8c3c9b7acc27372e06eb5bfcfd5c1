@@ -1,0 +1,2 @@
+SecureRandom.alphanumeric のテストで正規表現に ^$ を使っていたところを \A\z に
+変更しています。

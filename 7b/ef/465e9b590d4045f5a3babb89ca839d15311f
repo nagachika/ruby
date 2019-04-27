@@ -1,0 +1,4 @@
+Enumerator::ArithmeticSequence クラスを保持する C の変数 rb_cArithSeq の static
+をはずして range.c から参照できるようにして、Enumerator#sum が呼ばれた時や
+Array#[] の引数に渡した時に誤って Range オブジェクトの一種として扱われると step
+がない Range として扱われてしまうので、エラーにするようにしています。

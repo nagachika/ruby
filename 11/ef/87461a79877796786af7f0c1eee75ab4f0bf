@@ -1,0 +1,5 @@
+OptionParser を使ったコマンドのオプション補完のために使うオプションを --help か
+ら --*-completion-bash と --*-completion-zsh というちょっと変わった専用のオプシ
+ョンに変更。
+コメントの --*-completion-bash のほうは --*-completion-for-bash になってますね
+。

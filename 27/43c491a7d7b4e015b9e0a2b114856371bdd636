@@ -1,0 +1,2 @@
+Array#permutation と Fiber のテストでタイムアウトするので EnvUtil.invoke_ruby
+や assert_separately のタイムアウトを 30 sec にのばしています。

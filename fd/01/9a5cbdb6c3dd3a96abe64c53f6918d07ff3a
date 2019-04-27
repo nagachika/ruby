@@ -1,0 +1,3 @@
+Net::IMAP に XLIST コマンドのサポートを追加しています。XLIST とは Apple と
+Google による拡張で GMail の iPhone クライアントで使用されているそうです。GMail
+以外では使えないのかも。 [ruby-core:33521]

@@ -1,0 +1,2 @@
+string.c の rb_str_casemap() で ALLOC_N() マクロを利用していたところを xmalloc
+() の呼び出しにおきかえています。

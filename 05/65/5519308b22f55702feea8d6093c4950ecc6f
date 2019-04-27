@@ -1,0 +1,2 @@
+dbm/gdbm/sdbm のテストの整数を格納する時のコメントの Fixnum -> Integer に変更し
+ています。

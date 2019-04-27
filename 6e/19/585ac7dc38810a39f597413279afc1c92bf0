@@ -1,0 +1,4 @@
+RGENGC の不具合(かどうかちょっと自信がありませんが)の修正。 GC::Profiler のプロ
+ファイル取り始めに rest_sweep() を実行して LazySweep を終わらせて mark phase に
+移行させるようにしています。プロファイル開始時に sweep 途中だと SEGV が発生して
+とのことです。

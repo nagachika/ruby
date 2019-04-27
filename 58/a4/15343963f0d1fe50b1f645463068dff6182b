@@ -1,0 +1,3 @@
+tool/test/test_jisx0208.rb で相対パスの require してたのを require_relative に
+修正しています。というかこのファイルなんだろ…。ファイル名通り tool/jisx0208.rb
+のテストなのか。

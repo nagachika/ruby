@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#close で ssl の初期化が完了す
+る前に呼ばれると close 処理がされないことがあった不具合を修正しているようです。

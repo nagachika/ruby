@@ -1,0 +1,3 @@
+win32/mkexports.rb でおそらく過去の API のバイナリ互換性のため(?)に
+ruby_sysinit に alias していた NtInitialize というシンボルの登録をやめています
+。

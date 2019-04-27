@@ -1,0 +1,2 @@
+NEWS ファイルに OpenSSL::PKey#export のパスワードの長さ制限について追記ています
+。

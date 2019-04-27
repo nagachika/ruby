@@ -1,0 +1,3 @@
+setproctitle 関連の修正で mswin32 のビルドがエラーになっていたらしいのを修正。
+unistd.h の include を #ifdef HAVE_UNISTD_H でくくったり win32/Makefile.sub の
+MISSING に setproctitle.obj を追加したり。

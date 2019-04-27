@@ -1,0 +1,2 @@
+標準添付ライブラリの complex.rb と rational.rb を削除しています。これも
+deprecated とされていたものです。

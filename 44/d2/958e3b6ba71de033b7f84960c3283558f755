@@ -1,0 +1,3 @@
+NUM2CHR() (が呼び出してる rb_num2char_inline()) で TYPE() で方をチェックしてい
+るところを RB_TYPE_P() を利用するようにしています。このために RB_TYPE_P() の
+include/ruby/ruby.h 内での定義位置を前のほうへ移動しています。

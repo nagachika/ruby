@@ -1,0 +1,6 @@
+マシンスタックのスタックオーバフロー検出の check_stack_overflow() でオーバフロ
+ーを検出して例外を発生させる時に received_signal と共にruby_disable_gc も 0 に
+クリアするようにしています。 SIGBUS, SIGSEGV, SIGILL などの致命的な signal 受信
+時にハンドラ実行中にさらにシグナル受信した場合を考慮した処理の
+check_reserved_signal() で GC を抑制するようにしているので、それをクリアしない
+といけなかったようです。 [ruby-core:71497] [Bug #11692]

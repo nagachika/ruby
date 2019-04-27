@@ -1,0 +1,2 @@
+BigDecimal#= や <, > など比較演算子のメソッドで右辺に Integer や Float,
+Rational も受け付けるようにしています。

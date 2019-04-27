@@ -1,0 +1,4 @@
+README.md のバグ報告の方法のセクションに https://bugs.ruby-lang.org/projects/
+ruby/wiki/HowToReport へのリンクを追記しています。また Contributing セクション
+を追加して CONTRIBUTING.md を参照するようにと追加しています。 https://
+github.com/ruby/ruby/pull/953

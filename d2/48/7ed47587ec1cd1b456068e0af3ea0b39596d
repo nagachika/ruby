@@ -1,0 +1,3 @@
+標準添付ライブラリ prime の obsolete とされていた Prime.new を削除して
+Singleton を include するようにしています。おお、そうなのか。 https://
+github.com/ruby/ruby/pull/891

@@ -1,0 +1,3 @@
+r42573 で追加した Process.clock_gettime の Mac OS X 版の CLOCK_MONOTONIC の実装
+で計算結果をより小さい構造体メンバに代入するため明示的キャストを追加しています
+。

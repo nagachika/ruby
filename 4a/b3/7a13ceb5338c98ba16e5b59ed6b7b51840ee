@@ -1,0 +1,3 @@
+bootstraptest/test_thread.rb で Thread を大量に生成するテストでリソース不足のた
+めに ThreadError や NoMemoryError が発生した時にテストをエラーにしないようにし
+ています。

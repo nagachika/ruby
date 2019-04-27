@@ -1,0 +1,4 @@
+標準添付ライブラリ timeout の Timeout.timeout の rdoc 用コメントのメソッド名の
+記述がインスタンスメソッドのものになっていたので、特異メソッドとしての記法に変
+えています。まあ module_function なので private なインスタンスメソッドとしても
+呼べるんですけどね。 https://github.com/ruby/ruby/pull/1760

@@ -1,0 +1,4 @@
+Enumerable#any? でレシーバが Array や Hash で each メソッドが再定義されていなか
+った場合はメソッド呼び出しを経由せず直接ループを回すようにする最適化を入れてい
+ます。 r46858 で vm_core.h に移動した演算子再定義のフラグのマクロを参照していま
+す。 https://github.com/ruby/ruby/pull/671

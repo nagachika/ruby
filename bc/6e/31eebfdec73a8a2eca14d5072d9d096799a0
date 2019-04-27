@@ -1,0 +1,2 @@
+r52847 で include/ruby/missing.h に追加した #define __STDC_WANT_LIB_EXT1__ 1 で
+すが、定義済みの時には上書きしてしまわないようにしています。

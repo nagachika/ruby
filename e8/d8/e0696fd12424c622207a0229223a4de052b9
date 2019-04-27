@@ -1,0 +1,2 @@
+Process.clock_getres のテストのいくつかに具体的な値についての assertion も追加
+しています。

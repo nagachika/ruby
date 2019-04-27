@@ -1,0 +1,2 @@
+mkmf.rb の pkg_config で $libs が指定されていた時に $LDFLAGS をまるごと置換して
+いたのを追加するように修正しています。 [ruby-core:55752] [Bug #8595]

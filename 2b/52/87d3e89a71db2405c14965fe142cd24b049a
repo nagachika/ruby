@@ -1,0 +1,2 @@
+File.symlink のテストでもう一箇所 Errno::EPERM を rescue する例外に追加していま
+す。

@@ -1,0 +1,3 @@
+Encoding::Converter#putback の rdoc 用コメントの call-seq にコロンがついてなく
+て rdoc のタグとして機能していなかったのを修正しています。 https://github.com/
+ruby/ruby/pull/1999

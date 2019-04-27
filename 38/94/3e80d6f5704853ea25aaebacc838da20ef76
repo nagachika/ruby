@@ -1,0 +1,5 @@
+gc.c で mark されなくて sweep 待ちのオブジェクトを判定する is_dead_object() を
+is_dying_object() に改名しています。うーん本当に死んだら dead というより freed
+なので dead でもいいような気もしますけどねぇ。まあ本当に解放されるまでは
+resurrect で復活させられる時もありますが。そして is_dying_object() の条件を1つ
+の if 文にまとめていますが条件の反転を忘れているため条件が間違っています。

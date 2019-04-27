@@ -1,0 +1,4 @@
+Socket および OpenSSL::SSL::SSLSocket の #connect_nonblock で :exception オプシ
+ョンをサポートして connect 時も利用不可の時に例外の発生のかわりに戻り値で知らせ
+ることができるようにしています。例外を利用するよりもオブジェクトの生成がなく若
+干高速になります。 [ruby-core:68838] [Feature #11024]

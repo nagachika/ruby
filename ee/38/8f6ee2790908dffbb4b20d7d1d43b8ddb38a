@@ -1,0 +1,2 @@
+IO#readlines や IO#each_line の limit 引数に 0 を渡すと無限ループになるので、例
+外を発生させるように修正。 #4024

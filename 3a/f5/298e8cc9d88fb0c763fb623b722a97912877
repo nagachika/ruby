@@ -1,0 +1,2 @@
+TracePoint の event に Fiber の context switch を意味する :fiber_switch 追加し
+ています。 [ruby-core:69955] [Feature #11348]

@@ -1,0 +1,3 @@
+r42647 で Process.clock_gettime の clock_id に渡す Symbol の、エミュレーション
+によるものを指定するものを XXX_BASED_YYY_ID のような名称に改名しましたが、さら
+に先頭についている ISO_XXX や SUS_XXX、POSIX_XXX などの接頭語を削っています。

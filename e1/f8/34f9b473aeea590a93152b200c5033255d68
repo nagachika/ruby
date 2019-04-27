@@ -1,0 +1,2 @@
+r61491 の再修正? rubyspec の C API テスト用 helper で libruby.so を探すのは
+RbConfig::CONFIG["ENABLE_SHARED"] が "yes" に設定されている時だけにしています。

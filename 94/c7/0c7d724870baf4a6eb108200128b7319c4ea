@@ -1,0 +1,6 @@
+string.c に内部的に利用する API rb_fstring_enc_new() および rb_fstring_enc_cstr
+() を追加して、rb_encoding の指定つきで fstring を登録することができるようにし
+て、正規表現オブジェクトの生成時に元になる正規表現の文字列を登録する時に
+rb_fstring() ではなく rb_fstring_enc_new() を使って文字列のコピーなしで fstring
+化できるように最適化しています。しかし後に r53738 で正規表現の最適化部分は
+revert されています。

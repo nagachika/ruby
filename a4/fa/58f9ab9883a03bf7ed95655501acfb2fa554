@@ -1,0 +1,3 @@
+WEBrick::HTTPRequest#continue メソッドの追加。クライアントから "Expect: 100-
+continue" ヘッダつきのリクエストがあった時に "100 continue" というレスポンスを
+返せるようになるようです。

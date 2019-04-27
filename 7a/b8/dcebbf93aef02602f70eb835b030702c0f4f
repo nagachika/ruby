@@ -1,0 +1,2 @@
+r56766 の追加修正。 rb_get_backtrace で Exception#backtrace が再定義されていた
+らそれを rb_funcall() で呼ぶようにしています。 [ruby-core:78097] [Bug #12925]

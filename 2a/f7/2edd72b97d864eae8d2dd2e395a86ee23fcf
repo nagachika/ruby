@@ -1,0 +1,2 @@
+r57158 の assert_valid_syntax と assert_syntax_check から共通部分を
+prepare_syntax_check というメソッドに切り出しています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ timeout で r15464 で導入された定数 Timeout::THIS_FILE と
+Timeout::CALLER_OFFSET を private_constant に指定しています。

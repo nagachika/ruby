@@ -1,0 +1,2 @@
+TCPSocket で OOB (Out-of-band) データが受信されている時に IO.select した時のテ
+ストをしています。

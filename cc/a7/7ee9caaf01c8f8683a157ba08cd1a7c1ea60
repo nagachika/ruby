@@ -1,0 +1,6 @@
+標準添付ライブラリ net/http の HTTP status を表現するコートとクラスのマッピング
+に HTTPProcessing(102), HTTPAlreadyReported(208), HTTPMisdirectedRequest(421),
+HTTPUnavailableForLegalReasons(451), HTTPVariantAlsoNegotiates(506),
+HTTPLoopDetected(508), HTTPNotExtended(510) などを追加しています。ただクラス定
+義は r58803 で追加されています。
+451 の UnavailableForLegalReasons はちょっと前に話題になってましたね。

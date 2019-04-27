@@ -1,0 +1,2 @@
+internal.h に rb_ary_detransient() の prototype 宣言を追加しています。コミット
+コメントと関数名が違うけど。

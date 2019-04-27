@@ -1,0 +1,2 @@
+openssl のテストのリファクタリング。SSL::Session についてのテストを test/
+openssl/test_ssl_session.rb に移動しています。

@@ -1,0 +1,2 @@
+Solaris など flock(3) がなくて lockf(3) がある環境で GDBM.open のテストがデッド
+ロックするため skip するようにしています。 [ruby-dev:47631] [Bug #8790]

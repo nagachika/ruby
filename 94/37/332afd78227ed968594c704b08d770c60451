@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole に WIN32OLE_RECORD#inspect メソッドを追加しています。フ
+ィールドも Hash として表示するようにしているようです。

@@ -1,0 +1,1 @@
+lib/timeout.rb のインデント修正と、r38216 の ChangeLog エントリの typo 修正。

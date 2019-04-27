@@ -1,0 +1,3 @@
+sample/drb/dhasenc.rb と sample/mine.rb の先頭のマジックコメントの emacs 向けの
+記述では encoding じゃなくて coding と書くようにしています。ruby にとってはどっ
+ちでも動作するはずですが emacs がちゃんと解釈できるように。

@@ -1,0 +1,4 @@
+regenc.c の onigenc_not_support_case_map() の定義をファイル末尾に移動して、さら
+に onigenc_single_byte_ascii_only_case_map() という関数を追加しています。
+single byte 文字のみ含まれていることがわかっている場合に文字サイズを考慮せずに
+1 byte ずつループを回すバージョンみたいです。

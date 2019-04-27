@@ -1,0 +1,2 @@
+configure で --with-jemalloc のオプション処理時に -ljemalloc を追加する処理が重
+複していたそうで削除しています。

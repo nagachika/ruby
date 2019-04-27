@@ -1,0 +1,2 @@
+Windows 環境で Process.clock_getres を動かすために clock_getres() をエミュレー
+トする関数を定義しています。 [ruby-dev:47699] [Bug #8869]

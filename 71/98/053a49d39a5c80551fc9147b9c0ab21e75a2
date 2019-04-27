@@ -1,0 +1,3 @@
+Queue や SizedQueue にも同様に pop, push(SizedQueue の場合) で待ち中に例外など
+で抜けると状態が不正になる問題があったので ensure で後始末をするようにしていま
+す。 [ruby-dev:44448] [Bug #5258]

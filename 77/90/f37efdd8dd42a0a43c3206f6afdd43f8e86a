@@ -1,0 +1,3 @@
+struct IFUNC も struct vm_ifunc と改名されて T_IMEMO 型のオブジェクトの共用体に
+追加され、T_NODE 型から T_IMEMO 型のオブジェクトを利用するように変更されました
+。

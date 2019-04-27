@@ -1,0 +1,2 @@
+rb_wait_for_single_fd で ppoll(2) が利用可能ならば poll(2) のかわりに ppoll(2)
+を利用するようにしています。 [ruby-core:36003] [Feature #4531]

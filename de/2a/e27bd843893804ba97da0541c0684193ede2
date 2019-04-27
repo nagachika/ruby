@@ -1,0 +1,2 @@
+gc.c で heap_allocatable_pages にサイズをセットして heap_pages_expand_sorted()
+を呼び出す処理を heap_allocatable_pages_set() という関数に切り出しています。

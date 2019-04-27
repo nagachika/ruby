@@ -1,0 +1,2 @@
+String#include? などで wide character のマッチを探す時に文字列終端が除外されて
+しまっていたのを修正しています。 [ruby-core:70592] [Bug #11488]

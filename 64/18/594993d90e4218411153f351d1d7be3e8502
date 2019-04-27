@@ -1,0 +1,2 @@
+gems/bundled_gems に tk を追加して標準添付からはずした tk を bundled gem として
+パッケージに含めるようにしています。なるほどー。

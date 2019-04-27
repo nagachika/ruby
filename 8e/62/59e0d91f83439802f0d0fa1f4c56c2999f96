@@ -1,0 +1,3 @@
+Windows 版の opendir の symbolic link 対応を GetFinalPathNameByHandleW() を使っ
+て行うようにしています。 winnt_stat() で行っていた処理を get_final_path() とい
+う関数に切り出して open_dir_handle() でも利用するようにしています。

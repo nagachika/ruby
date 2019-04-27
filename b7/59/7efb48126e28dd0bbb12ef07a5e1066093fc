@@ -1,0 +1,3 @@
+README.EXT.ja の mkmf.rb の pkg_config の説明を最新版に追随するように、より詳し
+い記述を追加しています。
+また lib/mkmf.rb の pkg_config の rdoc 用コメントにも追記しています。

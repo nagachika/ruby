@@ -1,0 +1,2 @@
+ext/extmk.rb で bundled gem の拡張ライブラリのタイムスタンプファイルと
+TARGET_SO_DIR の置換時に target_prefix 変数を反映させるようにしています。

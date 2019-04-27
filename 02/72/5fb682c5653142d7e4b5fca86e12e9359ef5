@@ -1,0 +1,4 @@
+array.c で rb_ary_combination() から [-1, 0, 1, 2, ...] の stack を作って
+yield_indexed_values() を呼び出す処理(ってこれ stack[0] は -1 で開始なのか。よ
+く読まないとわからないな…)を combinate0() として関数に切り出すリファクタリング
+。

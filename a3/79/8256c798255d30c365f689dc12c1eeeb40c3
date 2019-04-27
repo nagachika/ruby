@@ -1,0 +1,2 @@
+r66270 の UNICODE_EMOJI_VERSION の RbConfig::CONFIG への追加に対応してテストで
+決めうちしてたバージョンを RbConfig を参照するようにしています。

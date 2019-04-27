@@ -1,0 +1,3 @@
+String オブジェクトがその Encoding に対して壊れたバイト列を持っていたら
+ArgumentError を発生させる処理が 2度呼ばれていたのを mustnot_broken() という関
+数に切り出すリファクタリング。

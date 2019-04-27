@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の URI#hierarchical? というメソッドの rdoc 用コメントに
+説明やサンプルを追加しています。テストも追加しています。おお、こんなメソッド知
+らなかった。 https://github.com/ruby/ruby/pull/1846

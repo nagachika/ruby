@@ -1,0 +1,3 @@
+Time#gmtoff のテストが DST (daylight-saving time いわゆるサマータイム)が絡む時
+は比較する両方で DST の有無が同じでないとチェックが失敗するので一致しない時はこ
+の assertion をスキップするようにしています。

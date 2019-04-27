@@ -1,0 +1,2 @@
+r67507 の続きで azure-pipelines.yml の Ubuntu 環境で /etc/apt/sources.list を表
+示してみるようにしています。

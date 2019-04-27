@@ -1,0 +1,2 @@
+error.c から rb_compile_error_with_enc()、rb_compile_error()、
+rb_compile_error_append() も include/ruby/backward.h に移動しています。

@@ -1,0 +1,2 @@
+Psych::ScalarScanner#tokenize で文字列を Symbol に変換した結果をキャッシュして
+おいて重複してシンボル化しなくてすむようにしています。

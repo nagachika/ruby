@@ -1,0 +1,3 @@
+numeric.c の corce_body(), coerce_rescue(), coerce_rescue_quiet() の引数の型を
+rb_rescue() の引数の関数ポインタの型にあわせて変更し、中でキャストして取り出す
+ように修正しています。

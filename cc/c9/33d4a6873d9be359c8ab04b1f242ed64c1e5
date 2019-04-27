@@ -1,0 +1,3 @@
+parse.y の parser_yyerror() から ruby_show_error_line() や
+parser_show_error_line() といった関数を切り出して regx_options() からも利用する
+ようにするリファクタリング。

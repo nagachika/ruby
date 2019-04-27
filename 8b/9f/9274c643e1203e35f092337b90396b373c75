@@ -1,0 +1,2 @@
+r55688 の RB_GC_GUARD() の追加を revert しています。 mswin の CI での SEGV が収
+まってなかったみたいです。

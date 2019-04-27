@@ -1,0 +1,2 @@
+r67645 の Reline のテストで helper を require_relative でロードするように修正し
+ています。

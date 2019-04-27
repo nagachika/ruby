@@ -1,0 +1,4 @@
+make realclean-local から make distclean-local へ prelude.c や miniprelude.c の
+削除を移動しています。生成されるのがビルドディレクトリだからとのこと。distclean
+と realclean って掃除する対象のディレクトリが異なるんですね(in-place でビルドし
+てると同じですけど)。

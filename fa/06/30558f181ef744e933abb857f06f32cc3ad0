@@ -1,0 +1,3 @@
+TCPServer の rdoc コメントに bind するアドレスは getaddrinfo(3) が返すアドレス
+を順に bind して最初に成功したものを返す挙動をすることを追記しています。 r39551
+の WEBrick の修正に関連した内容です。

@@ -1,0 +1,3 @@
+Numeric の rdoc 用コメントのサンプルに Numeric は dup しても同一のインスタンス
+がかえってくるというのを例示するようにしています。 https://github.com/ruby/ruby
+/pull/1850

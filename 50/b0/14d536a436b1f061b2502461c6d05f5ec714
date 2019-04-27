@@ -1,0 +1,2 @@
+拡張ライブラリ ripper の extconf.rb で make clean で .eventids2-check を削除す
+るようにしています。

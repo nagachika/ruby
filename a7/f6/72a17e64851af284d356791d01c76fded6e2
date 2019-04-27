@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile でも if __FILE__ == $0 で括って書かれてたサンプルプ
+ログラムを sample/tempfile.rb に分離しています。

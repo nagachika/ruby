@@ -1,0 +1,2 @@
+rubyspec の String#unicode_normalize のテストでソースに直接 UTF-8 の文字を書か
+ずに \uxxxx 記法を使うようにしています。

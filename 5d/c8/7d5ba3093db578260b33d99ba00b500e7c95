@@ -1,0 +1,3 @@
+最適化命令 opt_lt と opt_gt にあった対象のオブジェクトがどちらも Float だった時
+の分岐を opt_le と opt_ge に追加しています。条件判定のために FLOAT_INSTANCE_P()
+というマクロを切り出しています。

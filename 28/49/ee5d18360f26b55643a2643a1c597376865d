@@ -1,0 +1,3 @@
+標準添付ライブラリ set.rb の Set#delete_if と Set#keep_if を最初に to_a で配列
+化したものを each でなめて削除するのではなく select/reject を使って削除対象の要
+素を絞ってから削除するようにして効率化しています。

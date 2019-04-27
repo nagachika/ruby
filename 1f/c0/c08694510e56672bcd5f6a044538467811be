@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::Utils::TimeoutHandler というクラスでタイ
+ムアウトの判定に Time.now の時刻ではなく Process.clock_gettime の
+CLOCK_MONOTONIC を使ってシステムの時計に影響されないタイムアウトを行うようにし
+ています。

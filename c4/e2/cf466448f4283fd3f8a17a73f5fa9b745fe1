@@ -1,0 +1,6 @@
+tool/runruby.rb で環境変数 RUBY_THREAD_MACHINE_STACK_SIZE と
+RUBY_FIBER_MACHINE_STACK_SIZE に 1 を指定して最小サイズで実行するようにしていま
+す。テストを最小のスタックサイズで実行させてマシンスタックを大量に消費している
+関数がないかチェックするためだそうです。ふーむ再帰が深くて消費量が増えるテスト
+もありそうですけどね(GC の mark の参照がなくなる状態を起こすためのハックを使っ
+てるところとか)。 [ruby-core:81597] [Feature #13637]

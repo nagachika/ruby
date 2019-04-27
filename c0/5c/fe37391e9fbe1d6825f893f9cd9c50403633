@@ -1,0 +1,2 @@
+Integer#fdiv の実装である int_fdiv() を rb_int_fdiv() と改名して internal.h に
+プロトタイプ宣言を追加してインタプリタ内で呼べるようにしています。

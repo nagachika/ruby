@@ -1,0 +1,3 @@
+tool/make-snapshot で config.guess、config.sub や bundled gems をダウンロードし
+ていたのを make after-update で実行するようにしたので Makefile の依存関係に追加
+してそちらにまかせるようにしています。

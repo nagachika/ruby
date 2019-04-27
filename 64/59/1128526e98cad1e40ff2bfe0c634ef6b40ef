@@ -1,0 +1,2 @@
+coroutine/win64/Context.s で movaps 命令のオペランドの順序が逆転して逆にコピー
+してしまっていたのを修正しています。

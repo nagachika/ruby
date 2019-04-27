@@ -1,0 +1,2 @@
+r37033 を revert しています。 Mountain Lion(darwin12) では "fe80" から始まる
+IPv6 アドレスが利用されていたそうです。

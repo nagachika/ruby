@@ -1,0 +1,1 @@
+r47996 に続いて gcc -fsanitize=undefined で報告された未定義挙動の部分の修正。

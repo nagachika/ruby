@@ -1,0 +1,4 @@
+Exception#== の内部で exception メソッドを呼ぶところで rb_protect() を使って例
+外を無視させるようにしています。 rb_protect() で例外を握り潰す時に
+rb_thread_t::errinfo のクリアをしていないので load の中で実行すると後で例外が再
+発生しますね。 [ruby-core:41979] [Bug #5865]

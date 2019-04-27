@@ -1,0 +1,3 @@
+構造体 rb_iseq_location_t に code_range というソースコード上の範囲情報を持つメ
+ンバーを追加して ISeq に NODE の位置情報の範囲を格納しておくようにしています。
+method coverage で利用するためみたいです。

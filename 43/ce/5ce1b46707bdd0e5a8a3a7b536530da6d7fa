@@ -1,0 +1,3 @@
+make test-all で利用するライブラリ test/ruby/envutil.rb の assert_separately で
+子プロセスが SEGV などで core dump して終了していないことを明示的にチェックする
+ようにしています。

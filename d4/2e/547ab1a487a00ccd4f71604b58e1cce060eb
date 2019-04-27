@@ -1,0 +1,5 @@
+r55641 の log(1), log(2), log(10) の定数参照への変更で Windows 用に
+_USE_MATH_DEFINES というマクロを定義していたのを #include "internal.h" の前に移
+動しています。 internal.h -> ruby.h -> win32.h -> math.h という依存関係でここで
+math.h が include されてしまうのでその前にマクロ定義しておかないといけないとい
+うことでした。

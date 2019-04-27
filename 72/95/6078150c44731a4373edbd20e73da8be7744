@@ -1,0 +1,3 @@
+r44492 と同様に Rinda::RingFinger でソケットの setsockopt に渡す
+:IP_MULTICAST_TTL の指定も Socket::Option.ipv4_multicast_ttl メソッドを使って指
+定するようにしています。

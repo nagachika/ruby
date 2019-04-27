@@ -1,0 +1,4 @@
+Windows の時に IO#flush の実体である rb_io_flush() で fsync() を呼んでいたのを
+、そこからさらに呼んでる io_fflush() でへ移動しています。別の関数から io_fflush
+() を直接利用している時にも fsync() が呼ばれるように。 [ruby-core:36670] [Bug #
+4813]

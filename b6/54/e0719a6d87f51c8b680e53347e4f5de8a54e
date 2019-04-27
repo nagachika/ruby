@@ -1,0 +1,2 @@
+Array#repeated_combination の実装も再帰を使うものからループを使うものに変更され
+ています。

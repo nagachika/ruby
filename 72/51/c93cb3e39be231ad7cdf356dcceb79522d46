@@ -1,0 +1,3 @@
+bignum.c にBignumの符号をセットするマクロ RBIGNUM_SET_NEGATIVE_SIGN()
+RBIGNUM_SET_POSITIVE_SIGN() を定義しています。
+また rb_big_neg() を r41695 で切り出した関数を利用して実装しなおしています。

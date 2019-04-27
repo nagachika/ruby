@@ -1,0 +1,2 @@
+r61025 で RubyVM::InstructionSequence.load や RubyVM::Instruction#to_a での範囲
+情報の load や dump で型が間違っていた(int -> long)のを修正しています。

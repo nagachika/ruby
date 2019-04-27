@@ -1,0 +1,4 @@
+gcc 4.6 の -Wunused-but-set-variable オプションをつけると bigdecimal.c の ENTER
+() マクロで宣言される変数が警告されるので __attribute__ ((unused)) を使う
+RB_UNUSED_VAR() というマクロを include/ruby/ruby.h で定義してこれを使うことで警
+告を抑制しています。

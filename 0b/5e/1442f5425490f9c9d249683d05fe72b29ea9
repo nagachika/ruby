@@ -1,0 +1,3 @@
+coroutine 実装の x64-mingw32 サポートのため configure の判定を追加(なぜか
+darwin での amd64 の判定も追加。darwin は最初にあったような気がしたけど)。また
+coroutine/win{32,64}/ の実装も修正しています。

@@ -1,0 +1,4 @@
+include/ruby/ruby.h で定義している LIKELY(), UNLIKELY() に RB_ の prefix を付け
+るようにしています。そのうえで internal.h では LIKEKLY(), UNLIKELY() というショ
+ートカットというか別名のマクロも定義して ruby のソース内ではこれまで通り使える
+ようにしています。

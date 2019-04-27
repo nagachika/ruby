@@ -1,0 +1,3 @@
+ARGF.lines というメソッドは既に deprecated になっていて ARGF.each_line が推奨さ
+れているのに rdoc 用コメントのサンプルに利用されているところがあったので変更し
+ています。 https://github.com/ruby/ruby/pull/615

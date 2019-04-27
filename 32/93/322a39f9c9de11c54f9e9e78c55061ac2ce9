@@ -1,0 +1,5 @@
+benchmark に benchmark_driver.gem という外部の gem パッケージを利用することにし
+ています。 make update-benchmark-driver でインストールするようになっているよう
+です。 benchmark_driver.gem はベンチマークスクリプトを YAML ファイル内に文字列
+として書くみたいで、一部の benchmark スクリプトは YAML ファイルに書き換えられて
+います。 [ruby-core:87884] [Misc #14902]

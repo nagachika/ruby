@@ -1,0 +1,3 @@
+終端のない Range オブジェクトの Range#each の最適化で String の時と同様に
+Symbol の時も succ を呼ばずに rb_str_upto_endless_each() を利用するようにしてい
+ます。

@@ -1,0 +1,2 @@
+array.c に Write Barrier 保護つきで配列オブジェクトの一部を VALUE の配列で上書
+きする処理を ary_memcpy() という関数を追加して利用するようにしています。

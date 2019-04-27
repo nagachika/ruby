@@ -1,0 +1,3 @@
+localeinit.c の rb_locale_charmap_index() の引数が未使用の VALUE 型になっていた
+のを void にしています。実際に呼んでる encoding.c での宣言と異なってたみたいで
+すね。 [ruby-core:74579] [Bug #12118]

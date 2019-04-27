@@ -1,0 +1,2 @@
+拡張ライブラリ curses に PDCurses というライブラリもサポートするように
+extconf.rb に検出対象を追加しています。 [ruby-core:46485] [Feature #6735]

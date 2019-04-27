@@ -1,0 +1,2 @@
+Win32API.new に配列で型の指定を渡すとエラーになっていた不具合を修正。
+[ruby-core:68208] [Bug #10876] https://github.com/ruby/ruby/pull/835

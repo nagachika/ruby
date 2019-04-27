@@ -1,0 +1,3 @@
+r62492 で環境変数で指定されたディレクトリの permission チェックをする
+check_tmpdir() で S_ISDIR や W_OK が未定義な Windows でビルドエラーにならないよ
+うに修正しています。

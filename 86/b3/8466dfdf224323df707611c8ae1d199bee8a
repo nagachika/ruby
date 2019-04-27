@@ -1,0 +1,3 @@
+標準添付ライブラリ drb/extserv の if __FILE__ == $0 で括られたサンプルスクリプ
+トを削除しています。 sample/drb にもあるから不要でしょうとのこと。 https://
+github.com/ruby/ruby/pull/679

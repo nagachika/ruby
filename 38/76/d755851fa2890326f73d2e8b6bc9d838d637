@@ -1,0 +1,2 @@
+拡張ライブラリ socket と IO の rdoc 用コメントで例外クラスが Errno::AGAIN と
+typo されていたのを Errno::EAGAIN と修正しています。

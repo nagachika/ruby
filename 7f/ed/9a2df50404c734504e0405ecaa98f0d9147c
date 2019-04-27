@@ -1,0 +1,5 @@
+Object#method で Object#respond_to_missing? が true を返した時だけ引数を
+rb_intern_str() を呼んで ID 化(Symbol 化)してたのをやめて、Symbol をそのまま
+respond_to_missing? に渡すようにしています。なんかよくわかりませんが dynamic
+symbol の導入前に GC できない Symbol がメモリを圧迫しないようにした workaround
+だけどもう不要なので消そうってことみたいです。 [ruby-core:91683] [Bug #15640]

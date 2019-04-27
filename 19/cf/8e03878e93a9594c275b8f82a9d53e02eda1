@@ -1,0 +1,4 @@
+r67149 の拡張ライブラリ ripper の extconf.rb で環境変数 YACC をみるようにしまし
+たが、ripper.c を生成する時の make で BISON という環境変数にその値を伝播させる
+ようにしています。make srcs が動くようにして Travis CI でのビルドを修正するため
+とのこと。

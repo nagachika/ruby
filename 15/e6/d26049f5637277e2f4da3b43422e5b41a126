@@ -1,0 +1,2 @@
+IO.write, IO.binwrite の rdoc のサンプルコードの結果の表示を少し変更しています
+。

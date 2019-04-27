@@ -1,0 +1,6 @@
+thread_sync.c の wakeup_one() と wakeup_all() から共通部分を sync_wakeup() とし
+て切り出して、引数で起こす thread 数を指定するようにして wakeup_one() からは 1
+を、wakeup_all() からは LONG_MAX を渡すことで全部起こすという指定にしています。
+でこれを wakeup_one() を繰り返し呼んでた rb_szqueue_max_set() からも使うように
+しています。コードサイズがわずかに削減できたらしい(久しぶりのコードサイズダイエ
+ット)。

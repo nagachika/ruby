@@ -1,0 +1,6 @@
+Matrix#symmetric? の最適化。 each_with_index で作った Enumerator に対して all?
+を呼んでいたところを each_with_index にブロックを渡して条件が偽になったら
+return false するようにしています。が、 Enumerable#all? はブロックを評価した結
+果が偽になった時にすぐ false を返して全ての要素についてブロックを呼んだりはしな
+いのでブロックの評価回数という意味では差がないはずです。 Enumerator オブジェク
+トを作るのを避けてるという意味でしょうか。

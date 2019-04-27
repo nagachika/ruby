@@ -1,0 +1,2 @@
+r63481 と同様に load.c の loaded_features_index_clear_i() でも xfree() のかわり
+に ruby_sized_xfree() を利用するようにしています。

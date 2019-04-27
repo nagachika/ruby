@@ -1,0 +1,3 @@
+T_STRUCT 型のオブジェクトにも Write Barrier を挿入して shady でないオブジェクト
+化しています。struct RStruct のメンバーを const 化して操作用のマクロ
+RSTRUCT_RAWPTR()、RSTRUCT_GET()、RSTRUCT_SET() などを追加しています。

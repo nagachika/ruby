@@ -1,0 +1,3 @@
+common.mk および Makefile.in で gems/clean、gems/distclean、gems/realclean など
+のターゲットであやまって ext/{,dist,real}clean.mk への依存関係が追加されてたの
+を削除しています。

@@ -1,0 +1,2 @@
+HP-UX/PA で SIZE_MAX という定数が未定義なためにビルドに失敗していたので include
+/ruby/ruby.h に定義を追加しています。 [ruby-core:40422] [Bug #5489]

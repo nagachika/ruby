@@ -1,0 +1,2 @@
+拡張ライブラリ nkf の unicode_iconv_combine() と nkf_iconv_utf_32_combine() で
+返り値の型を size_t から nkf_char に変更しています。

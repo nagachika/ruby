@@ -1,0 +1,4 @@
+r38926 での Enumerator::Lazy#zip の引数のチェックと同様に Enumerable#zip と
+Array#zip で引数のチェックを Check_Type() を使ったものから each が呼べないとい
+う正しメッセージで例外を発生させるようにしています。 [ruby-core:51472] [Bug #
+7706]

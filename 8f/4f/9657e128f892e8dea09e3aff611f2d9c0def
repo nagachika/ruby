@@ -1,0 +1,4 @@
+LEGAL ファイルに Onigmo についての記述がなくてその前身(?)の Oniguruma (鬼車)に
+ついての記述だけだったので、Onigmo(鬼雲)について追記し、Oniguruma のライセンス
+についてもシンプルな Copyright 表記だけだったので条文が追記されています。
+[ruby-core:82388] [Bug #13818]

@@ -1,0 +1,2 @@
+tool/make-snapshot で tar アーカイブを作るのに tar コマンドに依存せずに
+rubygems の Gem::Package::TarWriter を利用するようにしています。おお。

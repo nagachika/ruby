@@ -1,0 +1,2 @@
+ext/openssl/lib/openssl/*.rb のファイルの Copyright のコメント部分を rdoc の処
+理対象外にするように "#++" コメントの前に収めるようにしています。

@@ -1,0 +1,3 @@
+rb_args_info::pre_arg_num と post_arg_nun を rb_iseq_t の型にそろえて int 用に
+しています。また一応格納するところで long -> int の変換でオーバーフローのチェッ
+クをしています。

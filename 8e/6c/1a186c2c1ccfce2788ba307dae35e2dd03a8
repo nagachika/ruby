@@ -1,0 +1,2 @@
+make update-unicode で Unicode の Emoji 関係のファイル群もダウンロード試行する
+ようにしています。

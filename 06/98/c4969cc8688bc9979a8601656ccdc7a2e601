@@ -1,0 +1,4 @@
+r65922 の pipe と socket の fd のデフォルト non-blocking 化のうち socket のほう
+は RSOCK_NONBLOCK_DEFAULT というマクロで無効化できるようにして、Windows 版では
+SOCK_NONBLOCK フラグを自動的に立てないようにしています。 [ruby-core:89973]
+[ruby-core:89976] [ruby-core:89977] [Bug #14968]

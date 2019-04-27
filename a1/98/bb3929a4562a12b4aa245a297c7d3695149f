@@ -1,0 +1,6 @@
+拡張ライブラリ thread の Queue, SizedQueue などが何らかの理由で(Queue.allocate
+で生成されて initialize が呼ばれてないなど)初期化されていない場合に
+GET_QUEUE_QUE()、GET_QUEUE_WAITERS()、GET_SZQUEUE_WAITERS() などのマクロが配列
+ではない値を返してしまうため SEGV する可能性があったので、get_array() という関
+数を導入して値チェックして初期化されていなかったら例外を発生させるように対処し
+ています。 [ruby-core:63826] [Bug #10062]

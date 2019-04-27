@@ -1,0 +1,2 @@
+parse.y の block_param というノードのアクション部のブロックで宣言されてた
+excessed_comma という変数をトップレベルに移動しています。

@@ -1,0 +1,2 @@
+parse.y の parser_mark() で struct parser_params::debug_buffer の mark 漏れして
+いたのを修正しています。

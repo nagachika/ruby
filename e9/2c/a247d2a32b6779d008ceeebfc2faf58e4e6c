@@ -1,0 +1,2 @@
+parse.y の rb_discard_node_gen という inline 関数の定義を ripper 向けの時には定
+義しないようにして警告除去しています。

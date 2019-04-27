@@ -1,0 +1,2 @@
+lib/ の下の *.rb ファイルの tab を space に展開しています。 [Bug #4730]
+[Feature #4718]

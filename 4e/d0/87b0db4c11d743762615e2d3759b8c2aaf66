@@ -1,0 +1,3 @@
+さらに array.c、enum.c、proc.c などで RARRAY_PTR() を使ってたところを
+RARRAY_AREF() や RAARAY_ASET()、RARRAY_PTR_USE() などのマクロを使って書きかえて
+います。

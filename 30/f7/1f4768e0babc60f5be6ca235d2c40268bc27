@@ -1,0 +1,5 @@
+r66565 で vm_sendish() という関数でブロックの起動も行うようにメソッド/ブロック
+起動を整理した時に vm_sendish() で GET_ISEQ() と GET_EP() を使ってましたが、こ
+れは reg_cfp から参照されるもので、VM_ENV_FLAGS_SET() に渡すためのものは VM
+control frame を push した後の呼ばれるメソッドなどの情報が必要だったので ec->
+cfp をみるように修正しています。

@@ -1,0 +1,3 @@
+r53791 で DEFAULT_FEATURES から --debug 用のビットフラグは落とすようにした変更
+で、FEATURE_BIT(debug_frozen_string_literal) のぶんは元々明示的に落としていたの
+で、それは r53791 で不要になったので削っています。

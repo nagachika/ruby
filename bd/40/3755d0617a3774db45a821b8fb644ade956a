@@ -1,0 +1,2 @@
+enc/trans/escape.trans、enc/trans/gb18030.trans、および r46041 で追加された ext
+/-test-/file/fs.c などの行末の空白除去。

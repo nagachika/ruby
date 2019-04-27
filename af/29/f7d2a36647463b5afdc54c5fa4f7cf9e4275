@@ -1,0 +1,3 @@
+標準添付ライブラリ ostruct の OpenStruct の marshal_dump/marshal_load の rdoc
+の詳細を削っています。また typo なども修正。 [ruby-core:42557] [Feature #1400]
+[ruby-core:42780] [Feature #6056]

@@ -1,0 +1,4 @@
+標準添付ライブラリ openssl の OpenSSL::Buffering の #readpartial と #
+read_nonblock でバッファから読み込んだ文字列が空の時に IOError を発生させるコー
+ドがありましたが、この位置ではありえないので削っています。 https://github.com/
+ruby/openssl/pull/23

@@ -1,0 +1,3 @@
+tool/mkconfig.rb で config.status から rbconfig.rb を生成するときに
+LIBRUB_DLD??? および LIBRUBY_LD??? などの libruby をビルドするための変数を含め
+ないようにスキップしています。

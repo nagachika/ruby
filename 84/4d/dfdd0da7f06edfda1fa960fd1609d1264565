@@ -1,0 +1,3 @@
+test/minitest/metametameta.rb という minitest のテスト用のヘルパークラスでファ
+イルパスに Windows のドライブレターが含まれる場合がサポートされていなかったので
+修正しています。

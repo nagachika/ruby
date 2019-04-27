@@ -1,0 +1,6 @@
+TEST_EXCLUDES に除外対象のテストに test/unit と minitest 自体のテストを除外させ
+るようにしています。あれ、 test-unit と minitest は bundled gems として標準添付
+から外されたからテストも消されたかと思ってました。これらのテストは make
+test-testframework というターゲットで実行されるようにしていて、make test-all の
+依存関係にこれを追加しているので、test/unit と minitest のテストを実行してから
+ruby のテストを実行するという流れになるようです。

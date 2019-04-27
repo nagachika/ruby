@@ -1,0 +1,4 @@
+lib/yaml.rb に YAML の rdoc 用コメントを追記しています。しかし module 文を追加
+したので再定義で警告が出るようです。 [ruby-core:53965] [Bug #8213]
+YAML って Yet Another Markup Language だと思ってたんですけど YAML Ain't Markup
+Language だったんですね。だからか! (何がだ)

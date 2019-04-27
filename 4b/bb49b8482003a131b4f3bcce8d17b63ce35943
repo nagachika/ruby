@@ -1,0 +1,2 @@
+同じく Test::Unit の並列実行時の worker の情報を削除する処理も delete_worker と
+いうメソッドに切り出しています。

@@ -1,0 +1,3 @@
+rb_warn_m() で表示する位置をバックトレース上巻き戻す数 uplevel に負の値を指定さ
+れたら ArgumentError を発生させるようにしています。 [ruby-core:84568] [Bug #
+14262]

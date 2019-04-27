@@ -1,0 +1,3 @@
+socket 拡張ライブラリの Socket::Option#inspect でオプションが IP_MULTICAST_IF,
+IP_ADD_MEMBERSHIP, IP_DROP_MEMBERSHIP の時に struct ip_mreq/struct ip_mreqn 構
+造体の情報をきれいに表示するように処理を追加しています。

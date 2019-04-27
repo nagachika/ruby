@@ -1,0 +1,4 @@
+Hash#default の再定義をチェックするテストで再定義された default から Hash#
+default_proc を参照して使っていたのを super を使うようにしています。特異クラス
+として再定義しているので super すると Hash#default の本来のメソッドが呼び出され
+ます。

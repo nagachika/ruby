@@ -1,0 +1,3 @@
+numeric.c で rb_funcall() を使って ">" および "<" のメソッド呼び出しをしていた
+ところを positive_int_p(), negative_int_p() として関数に切り出すリファクタリン
+グをしています。

@@ -1,0 +1,2 @@
+拡張ライブラリ socket の IPSocket.getaddress で解放した struct addrinfo のメン
+バを解放後に参照してしまっていたのを修正しています。

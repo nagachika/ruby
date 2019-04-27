@@ -1,0 +1,3 @@
+拡張ライブラリ etc の Etc.nprocessors で Linux では sched_getaffinity(2) を利用
+して CPU コアのアフィニティ設定による利用可能なコアも考慮して数を返すようにして
+います。 [ruby-core:65142] [Feature #10267]

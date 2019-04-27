@@ -1,0 +1,2 @@
+r46243 で追加した assertion を別のテストメソッドに移動して、String#ascii_only?
+で coderange をチェックするようにしています。 [ruby-core:62846]

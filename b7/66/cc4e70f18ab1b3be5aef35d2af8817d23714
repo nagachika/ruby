@@ -1,0 +1,2 @@
+RGenGC の Write Barrier を挿入するためのマクロ OBJ_WRITE() と OBJ_WRITTEN() に
+コメントを追加して使いかたを解説しています。

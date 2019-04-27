@@ -1,0 +1,4 @@
+拡張ライブラリ date で hour, min, ..., zone などのメソッドを Date の private メ
+ソッドとして定義して DateTime では Kernel#public メソッドで public 化するという
+ことをなぜかしていたのを、単に DateTime のメソッドとして定義するようにしていま
+す。

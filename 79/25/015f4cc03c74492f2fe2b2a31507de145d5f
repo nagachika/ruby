@@ -1,0 +1,2 @@
+lib/yaml.rb の rdoc 用コメントに psych と syck のリポジトリへのリンクを追記して
+います。 [ruby-core:60577] [Bug #9501]

@@ -1,0 +1,2 @@
+template/fake.rb.in で @srcdir@ が絶対パスの時のことを考慮して絶対パス化を join
+でなく expand_path で行うようにしています。

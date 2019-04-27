@@ -1,0 +1,6 @@
+Solaris の cond_timeswait() は現在時刻から +100,000,000秒(約3年3ヶ月と3日くら
+い)以上の時刻をタイムアウト時刻として渡すと EINVAL で返ってきてしまうため、それ
+以上の場合は 100,000,000 秒にしています。途中で起きてしまいますが、 spurious
+wakeup 対策として native_sleep() を呼び出す側が時刻をチェックしているので大丈夫
+のはず。 [ruby-core:29702] [Bug #1341] 参考 URL: http://download.oracle.com/
+docs/cd/E19683-01/816-0216/6m6ngupgv/index.html

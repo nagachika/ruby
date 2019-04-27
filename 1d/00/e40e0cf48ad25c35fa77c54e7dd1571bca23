@@ -1,0 +1,3 @@
+Math のテスト test/ruby/test_math.rb に assert_float_and_int というユーティリテ
+ィメソッドを導入してテストをシンプルに書き直しています。 [ruby-core:67920]
+[misc #10810]

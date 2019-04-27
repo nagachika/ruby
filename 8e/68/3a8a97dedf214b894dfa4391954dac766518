@@ -1,0 +1,2 @@
+テスト test/rubygems/test_gem_specification.rb の ruby のバージョンによって
+skip しているテストケースはメソッド定義自体を黙って無視するようにしています。

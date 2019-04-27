@@ -1,0 +1,5 @@
+Mac OS X 10.7 (Lion) の、というか Xcode 4.3 の llvm-gcc は不具合があって ruby
+が Bus Error を起こすので未サポート(GNU gcc か clang を使ってください)なのです
+が、これにはまってエラー報告してくる人が後を断たないので configure.in で llvm-
+gcc をビルドエラーにするようにしています。具体的には __llvm__ が定義されていて
+__clang__ が未定義の時に llvm-gcc だとしてエラーにしてます。

@@ -1,0 +1,2 @@
+io_read_nonblock(), io_write_nonblock() でキーワード引数をチェックするのに
+rb_hash_aref() ではなく rb_get_kwargs() を利用するように修正しています。

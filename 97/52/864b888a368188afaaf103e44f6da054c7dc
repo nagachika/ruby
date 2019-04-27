@@ -1,0 +1,4 @@
+callcc で作った Continuation を呼ぶと set_trace_func で設定した trace_func が呼
+ばれなくなってしまう問題の対策として set_trace_func に nil が渡された時に明示的
+に th->tracing を EVENT_RUNNING_NOTHING にリセットするようにしています。
+[ruby-core:34998] [Feature #4347]

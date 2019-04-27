@@ -1,0 +1,2 @@
+標準添付ライブラリ pp に RubyVM::AbstractSyntaxTree::Node の整形表示の対応を追
+加しています。

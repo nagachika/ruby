@@ -1,0 +1,3 @@
+Delegator#methods は Object#methods が引数を受け取らないメソッドとして委譲する
+メソッドを定義していましいたが、 Object#methods は省略可能な引数を取るので修正
+しています。 [ruby-core:37118] [Bug #4882]

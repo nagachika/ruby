@@ -1,0 +1,4 @@
+llvm-gcc でコンパイルした時に VM の命令の処理で reg_cfp が最適化されすぎで消さ
+れて stack consistency error になるという不具合を修正しています。最新の clang
+ではビルドできるそうなので clang を利用するのが推奨だそうです。
+[ruby-core:52795] [Bug #7938]

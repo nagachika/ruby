@@ -1,0 +1,2 @@
+拡張ライブラリ find で Find.find にブロックを渡さずに Enumerator を返す時にも
+r45241 で追加したキーワード引数 ignore_error を伝播させるようにしています。

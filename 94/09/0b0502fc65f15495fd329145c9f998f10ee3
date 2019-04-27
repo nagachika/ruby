@@ -1,0 +1,9 @@
+r53278 の変更で使用しなくなった関数 rb_compile_error()、
+rb_compile_error_with_enc()、rb_compile_bug() をコメントアウトしていいます。ま
+た rb_compile_error()、rb_compile_error_append() と rb_compile_error_with_enc()
+は include/ruby/intern.h で外部からも呼べるようになっていたので、DEPRECATED()
+マクロで deprecated にマークして……あれ、でも rb_compile_error_append() 以外は
+コメントアウトで定義が消されてる関数では? ううん??
+また parse.y の parser_yyerror() で syntax error のメッセージを
+rb_compile_error_???() の関数群で少しずつ組み立ててたのを、必要な部品を用意して
+rb_compile_error() で一気に組み立てるように変更しています。

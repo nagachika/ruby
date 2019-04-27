@@ -1,0 +1,2 @@
+r65702 の続き。 .travis.yml の --color=never のかわりに --tty=no を使うようにし
+ています。

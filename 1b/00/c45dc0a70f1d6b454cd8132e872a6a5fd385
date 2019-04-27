@@ -1,0 +1,2 @@
+cygwin 版で file_expand_path() が変数の宣言をブロックの先頭でないところに書かれ
+てしまって警告が(-Wdeclaration-after-statement によって)出ていたのを修正。

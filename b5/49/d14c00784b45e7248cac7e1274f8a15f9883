@@ -1,0 +1,3 @@
+internal.h に rb_typeddata_is_instance_of() という API を追加して iseq.c の
+RubyVm::InstructionSequence.of の r66015 の変更で追加したインスタンスのクラスを
+チェックする部分で使うようにしています。

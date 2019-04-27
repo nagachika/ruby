@@ -1,0 +1,3 @@
+dir.c で環境ごとに USE_NAME_ON_FS に定義する値がマジックナンバー化していたのを
+USE_NAME_ON_FS_REAL_BASENAME と USE_NAME_ON_FS_BY_FNMATCH という定数マクロを定
+義するようにしています。

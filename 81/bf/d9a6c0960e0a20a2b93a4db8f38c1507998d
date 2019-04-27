@@ -1,0 +1,2 @@
+NEWS ファイルに Enumerator#size に関連してメソッドの追加など記述を追加していま
+す。 [ruby-core:45805] [Feature #6636]

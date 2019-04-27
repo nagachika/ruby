@@ -1,0 +1,4 @@
+r65617 で local 変数や dynamic 変数の index がみつからなった時に rb_bug でなく
+CompileError 例外発生にした変更の時に、compile.c の get_dyna_var_idx() で
+dynamic 変数(ブロックのスコープの変数)がみつからなかった時に iseq が NULL なの
+に CompileError の生成時に参照してしまっていたのを修正しています。

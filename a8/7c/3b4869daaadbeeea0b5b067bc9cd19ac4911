@@ -1,0 +1,6 @@
+bootstraptest/test_io.rb で require "tmpdir" する前に $" ($LOADED_FEATURE) に
+"etc.so" をつっこむことで lib/tmpdir.rb の require "etc.so" がエラーにならない
+ようにするハックで miniruby で tmpdir.rb を利用できるようにしています。ちなみに
+Windows では環境変数 TEMP があるのでそれから取得するように tmpdir.rb が実装され
+ているので、ポータブルに一時ディレクトリを得たい場合は tmpdir.rb の Dir.tmpdir
+を使うのが正解だそうです。

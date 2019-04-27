@@ -1,0 +1,4 @@
+Complex#/ で Complex の除算をした結果の real, imag が整数になる時に Integer に
+正規化する処理が右辺値が Complex じゃない時に働いてなかったのでその時も正規化す
+るようにしています。 https://github.com/ruby/ruby/pull/2065 [ruby-core:90891]
+[Bug #15505]

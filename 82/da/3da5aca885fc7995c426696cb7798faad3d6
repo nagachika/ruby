@@ -1,0 +1,3 @@
+r51640 の続き。 Windows 版の Dir.glob や opendir の実装でも reparse point によ
+る symbolic link に対応するようにしているようです。 [ruby-core:70454] [Bug #
+11462]

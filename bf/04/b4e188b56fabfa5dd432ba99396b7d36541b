@@ -1,0 +1,7 @@
+require で load 済みの feature を管理するインデックスをファイルパスの C の文字
+列をキーとした st_table (strtable)から、キーを st_hash() で hash 値にしたものを
+使って numtable() を利用するようにしています。これ hash 値の conflict 時のこと
+考慮しなくていいのかなと思ったけど、もともと features_index は重複したエントリ
+があったら配列で入れるようになってたので、それにまかせているようです。かなり前
+から最適化関係のパッチを送ってきてくれている funny_falcon さんのパッチです。
+[ruby-core:53688] [Feature #8158]

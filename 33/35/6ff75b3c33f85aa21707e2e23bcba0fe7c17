@@ -1,0 +1,2 @@
+Time#zone が返す String のエンコーディングが常に ASCII-8BIT だったのを修正。
+locale に応じたエンコーディングにするように。

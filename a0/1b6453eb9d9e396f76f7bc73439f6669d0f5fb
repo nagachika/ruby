@@ -1,0 +1,4 @@
+parser のトークン名 DOTQ を ANDDOT に改名しています。 r52214 で導入した obj.?
+meth 記法ですが r52462 で obj&.meth に文法が変更されたので、それに対応して .?
+を表わす DOTQ という名前がそのままだったのを &. を表わす ANDDOT とトークン名を
+変更しています。 https://github.com/ruby/ruby/pull/1090 [Feature #11537]

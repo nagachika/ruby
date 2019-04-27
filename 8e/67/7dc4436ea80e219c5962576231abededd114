@@ -1,0 +1,2 @@
+tool/compile_prelude.rb から prelude.c のテンプレート部分を template/prelude
+.c.tmpl に抽出して tool/generic_erb.rb でコード生成するようにしています。

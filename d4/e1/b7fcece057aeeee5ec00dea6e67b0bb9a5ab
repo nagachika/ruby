@@ -1,0 +1,4 @@
+IO#puts の rdoc 用コメントで改行レコードのことを明確に newline と言い切るように
+しています。けどまあ実際に書かれるのは rb_default_rs で指定されてるものですね。
+あと IO#print を呼ぶって書かれてるけどこれも不正確ですね。 rb_io_write() を呼ん
+でいるので IO#write が正しそう。 [ruby-core:65801] [Misc #10403]

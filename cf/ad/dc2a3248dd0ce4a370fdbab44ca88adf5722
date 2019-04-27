@@ -1,0 +1,3 @@
+拡張ライブラリ json を標準添付から外して bundled gem としています。おおー、今後
+は明示的に Gemfile に書かないといけなくなるんですかね。 [ruby-core:68839]
+[Feature #11057] https://github.com/ruby/ruby/pull/867

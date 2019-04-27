@@ -1,0 +1,3 @@
+標準添付ライブラリ find で Dir.entries を使っていたところを Dir.children を使う
+ようにして "." と ".." をスキップする処理を不要にしています。 https://
+github.com/ruby/ruby/pull/1697 [ruby-core:82786] [Feature #13896]

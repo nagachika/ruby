@@ -1,0 +1,3 @@
+r62049 で追加した KeyError#initialize の実装で key, receiver を CONST_ID() マク
+ロで(キャッシュありとはいえ) rb_intern() を呼んでいたのを、事前に確保済みの
+idKey や idReceiver を使うようにしています。 [ruby-core:84626] [Feature #14313]

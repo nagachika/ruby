@@ -1,0 +1,2 @@
+parse.y の assignable() の定義を #ifndef RIPPER などの分岐でがんばって混ぜて書
+いてたのを、関数定義全体を分けるようにしています。

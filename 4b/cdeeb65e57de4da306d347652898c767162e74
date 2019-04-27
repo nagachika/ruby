@@ -1,0 +1,2 @@
+r66125 の rubyspec での BigDecimal() の仕様変更に対する変更を ruby_version_is
+でバージョン毎に切り替えるようにしています。

@@ -1,0 +1,2 @@
+configure.in から typeof を独自に調べて HAVE_TYPEOF を定義していたところを削除
+しています。 r46278 で AC_C_TYPEOF を追加したので不要になったとのこと。

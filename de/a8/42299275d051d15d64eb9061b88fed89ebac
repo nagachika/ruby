@@ -1,0 +1,4 @@
+Windows 環境(正確には win32/Makefile.sub を使う環境、なので mswin と mingw かな
+多分)では pid_t 型のフォーマット修飾子の PRI_PIDT_PREFIX を "I" に定義しておく
+ようにしています。また mjit.c で pid を表示するためのフォーマット文字列に
+PRI_PIDT_PREFIX を利用するようにしています。

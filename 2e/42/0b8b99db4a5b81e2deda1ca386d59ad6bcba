@@ -1,0 +1,4 @@
+r64444 や r64449 のリベンジかなと思いますが sleep_forever() や sleep_timespec()
+で RUBY_VM_CHECK_INTS_BLOCKING() で割り込みチェックするのを呼び元からのビットフ
+ラグの指定に依存させるようにして、rb_mutex_sleep_forever() や rb_mutex_wait_for
+() から呼ばれた時だけチェックさせるようにしています。

@@ -1,0 +1,1 @@
+complex.c で未使用だったマクロ k_exact_one_p() を削除しています。

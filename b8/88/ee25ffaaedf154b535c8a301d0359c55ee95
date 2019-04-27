@@ -1,0 +1,5 @@
+r53545, r53546 あたりで gcc 6 の不具合対策で UNALIGNED_WORD_ACCESS を 0 にして
+いたのを revert しています。これにより最適化が効かなくなっていたのを避けるため
+で、gcc 6.0 では不具合は修正されていたそうです。もともとリリース前の gcc でおき
+てたみたいですしね。 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=69291
+[ruby-core:72211] [Bug #11831] [ruby-core:72819] [Bug #11979]

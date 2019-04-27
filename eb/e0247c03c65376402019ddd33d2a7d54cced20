@@ -1,0 +1,1 @@
+dir.c の dir_closed() を NORETURN() で宣言しています。

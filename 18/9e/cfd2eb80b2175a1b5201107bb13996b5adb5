@@ -1,0 +1,3 @@
+Time#utc_offset に対応する C の関数を rb_time_utc_offset() と改名して、include/
+ruby/intern.h に prototype 宣言を追加して外部から呼べる C API として公開するよ
+うにしています。

@@ -1,0 +1,3 @@
+Windows 版の rb_w32_readdir() という実装を削除して、rb_w32_readdir_with_enc()
+を rb_w32_readdir() として使うようにしています。ずいぶん前のチケットですね。
+[ruby-core:24864] [Feature #1927]

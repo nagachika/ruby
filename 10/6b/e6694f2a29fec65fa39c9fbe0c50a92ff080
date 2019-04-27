@@ -1,0 +1,3 @@
+r54391 の続きで addr2line.c で rb_toupper() を extern 宣言しているところがあっ
+たのでそれを削って、自前の ASCII 文字だけに対応した toupper() の実装を書くよう
+にしています。

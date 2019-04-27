@@ -1,0 +1,3 @@
+tool/ruby_vm/views/_mjit_compile_pc_and_sp.erb で MJIT 用のスタックコピーのコー
+ドで memcpy(3) を使うという TODO コメントがありましたが、実際にやってみたら
+optcarrot でむしろ遅くなったとのことでコメントを削除しています。

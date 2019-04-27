@@ -1,0 +1,4 @@
+r30508 のファイルシステムが大文字小文字を区別しない時に require の重複を防ぐた
+めの $LOADED_FEATURES のチェックも大文字小文字を区別しないようにする修正を
+revert しています。1.9 では expand_path したパス名を $LOADED_FEATURES に格納す
+るため、元々重複して require する不具合はなかったんだそうです。 [Bug #4255]

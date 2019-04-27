@@ -1,0 +1,3 @@
+win32/Makefile.sub の RbConfig::MAKEFILE_CONFIG から値を取り出す処理が ruby の
+ワンライナー(エスケープして改行してはいますが)でごりっと書かれていたのを tool/
+expand-config.rb というスクリプトに切り出して読みやすくしています。

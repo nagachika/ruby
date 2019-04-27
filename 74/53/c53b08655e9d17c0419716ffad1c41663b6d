@@ -1,0 +1,5 @@
+r40957 で追加した拡張ライブラリ objspace の
+ObjectSpace.trace_object_allocations で TracePoint#path が nil の場合を考慮して
+いなかった不具合の修正と、ObjectSpace.allocation_class_path と
+ObjectSpace.allocation_method_id というメソッドの新規追加を行なっています。
+[ruby-core:55182] [Bug #8456]

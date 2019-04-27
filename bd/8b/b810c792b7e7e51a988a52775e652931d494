@@ -1,0 +1,2 @@
+test/lib/test/unit.rb に make test-all のテストケースの実行順序を指定する
+--test-order オプションを追加しています。

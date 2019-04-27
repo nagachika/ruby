@@ -1,0 +1,4 @@
+tool/rbinstall.rb の r58345 および r58371 の default gems の gemspec.files まわ
+りの変更を revert しています。 default gems の require をした時に gem のほうで
+なくて標準添付ライブラリのほうが load されてしまうという問題があったのが、どう
+やらこのせいだったみたいです。 [ruby-core:90867] [Bug #15500]

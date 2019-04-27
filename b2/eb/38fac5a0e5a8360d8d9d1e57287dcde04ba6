@@ -1,0 +1,2 @@
+[ruby-dev:41931] に報告されている make clean や make dist-clean が必要以上にフ
+ァイルを削除してしまう件の修正。

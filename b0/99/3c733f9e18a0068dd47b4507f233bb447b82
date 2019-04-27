@@ -1,0 +1,4 @@
+gc.c に is_before_sweep() という、オブジェクトが mark されなくて sweep 予定で、
+しかし LazySweep によってまだ実際に回収されていない状態かどうかを判定する関数を
+追加して、rb_gc_force_recycle() でオブジェクトを強制的に freelist に繋ぐ時に
+sweep 予定でなければ mark 用の bitmap からもクリアするようにしています。

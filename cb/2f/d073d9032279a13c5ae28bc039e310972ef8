@@ -1,0 +1,1 @@
+mjit.c の compile_c_to_so() で変数の static をつけたりはずしたりしています。

@@ -1,0 +1,3 @@
+r66650 を revert しています。Solaris でエラーになる Process.clock_gettime の
+CLOCK_XXX をテスト対象かは外してましたが、Linux などではテストしたいので、との
+こと。

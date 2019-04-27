@@ -1,0 +1,2 @@
+gc.c の rb_threadptr_during_gc() という関数は未使用になっていたので削除していま
+す。

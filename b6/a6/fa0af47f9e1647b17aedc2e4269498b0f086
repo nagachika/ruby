@@ -1,0 +1,3 @@
+r39932 で変更していた assert_syntax は assert_valid_syntax というユーティリティ
+を使っているので、子プロセスに envutil.rb をロードする -r オプションを渡すよう
+にしています。

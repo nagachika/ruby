@@ -1,0 +1,3 @@
+node.c の dump_node(--dump=parsetree などのオプションで AST を表示する時に使う
+関数)で ||= や &&= などの演算子つき代入のメソッドの表示の typo 修正。 https://
+github.com/ruby/ruby/pull/1528

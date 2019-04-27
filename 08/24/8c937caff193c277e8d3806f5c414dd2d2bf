@@ -1,0 +1,4 @@
+Hash の { key: value } の記法で value のところに if 文を書こうとすると parse
+error になる不具合を修正しています。後置 if として解釈されてしまっていたので、
+key: のようなラベルの後に modifier は入らないように lexer のステータスの指定を
+修正しています。 [ruby-core:65211] [Bug #10279]

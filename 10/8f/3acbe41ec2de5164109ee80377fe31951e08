@@ -1,0 +1,2 @@
+doc/syntax/methods.rdoc にさらに Block Argument (& つきで proc や lambda を渡す
+ものですね)の項目を追記しています。

@@ -1,0 +1,10 @@
+ASCII の範囲の文字列しか保持していないけど文字コードが非 ASCII な文字列に 128
+以上の整数を String#concat で追加しようとすると例外になっていたのを、自動的に
+ASCII-8BIT に変換するように変更しています。元ネタはこちらのブログのエントリみた
+いなので、UTF-8 の場合はちょっと違う結果になるみたいですね。 http://
+stackoverflow.com/questions/4236793/
+why-are-two-strings-with-same-bytes-and-encoding-not-identical-in-ruby-1-9
+UTF-8 の場合は concat はできるけどその結果の文字列が String#size や String#[]
+に対して ASCII 文字列のように振る舞っていたようですね。
+ただ追加しているテストの比較が String#concat は結果の文字列を返すのに対して整数
+(1)になっているので fail になります。r29852 で修正されます。

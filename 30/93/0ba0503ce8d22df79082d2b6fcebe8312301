@@ -1,0 +1,2 @@
+ruby --dump=parsetree で AST をダンプする時の NODE_WHEN と NODE_BREAK の名前が
+他のノードのものになってたのを修正しています。

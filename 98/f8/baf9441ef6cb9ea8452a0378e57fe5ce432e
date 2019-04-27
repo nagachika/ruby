@@ -1,0 +1,5 @@
+variable.c の rb_global_entry() から rb_global_tbl から lookup する部分を
+rb_find_global_entry() という関数に切り出して、これを使いまわすのかと思いきやこ
+れは関係なくて find_global_id() というグーバル変数名が ID として登録済みかの確
+認だけする関数を追加して rb_gv_get() でまずこれでチェックだけして未定義なら警告
+を出力して Qnil を返すようにして、不要な ID 定義を追加しないようにしています。

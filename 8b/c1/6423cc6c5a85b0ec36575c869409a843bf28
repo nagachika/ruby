@@ -1,0 +1,2 @@
+random.c の mt_state() でバイト列を Bignum オブジェクトに変換するのに
+rb_integer_unpack() を利用するようにしています。

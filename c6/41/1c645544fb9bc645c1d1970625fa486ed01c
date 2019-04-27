@@ -1,0 +1,2 @@
+r50137 で修正した test_foreach と r50138 で追加した test_entries から共通の
+assertion 処理を assert_entries として切り出すリファクタリング。

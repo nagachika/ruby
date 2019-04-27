@@ -1,0 +1,2 @@
+wercker.yml でテストに使うコンテナイメージを DockerHub の公式の ruby
+:2.5-stretch に変更しています。

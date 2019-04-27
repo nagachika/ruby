@@ -1,0 +1,2 @@
+parse.y の new_bodystmt() で NODE_RESCUE ノードの位置情報の終了位置が ensure 節
+などの後まで伸びていたのを修正しています。

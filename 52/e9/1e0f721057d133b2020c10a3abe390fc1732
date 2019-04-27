@@ -1,0 +1,3 @@
+IO.popen のテストの close 忘れの修正および、IO.popen で pipe を開いた後
+rb_execarg_fixup() で例外が発生する可能性があり、fd がリークしていたので
+rb_protect() で大域脱出を捕捉して閉じるようにしています。

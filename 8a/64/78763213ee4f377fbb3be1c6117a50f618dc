@@ -1,0 +1,4 @@
+rb_str_change_terminator_length() での文字列の長さが capacity を超えないかどう
+かのチェックで len に termlen の差分を足してチェックしているのを capa - len と
+termlen の差分の比較にして、文字列が非常に長い時に overflow しないように修正し
+ています。

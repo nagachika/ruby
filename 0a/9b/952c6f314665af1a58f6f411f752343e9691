@@ -1,0 +1,5 @@
+そして openssl/ssl-internal.rb と openssl/x509-internal.rb を空っぽだった
+openssl/ssl.rb と openssl/x509.rb に移動して、openssl.rb を require すると両者
+を require するようにファイル配置と require を整理しています。今後は require
+"openssl/ssl" や require "openssl/x509" ではなくただ require "openssl" とするの
+が推奨とのことです。

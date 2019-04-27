@@ -1,0 +1,3 @@
+r62573 の追加修正。 date_core.c と同じように date_parse.c と date_strptime.c の
+マクロ set_hash()、ref_hash()、del_hash() の引数も文字列リテラルのみ受け付ける
+ようにしています。

@@ -1,0 +1,3 @@
+そして Module#const_get や Module#const_defined? で、ネストした名前でトップレベ
+ルの定数が見えてしまわないように修正しています。うーん、これは不具合なのか。
+[ruby-core:92202] [Bug #15758]

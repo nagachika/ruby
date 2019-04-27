@@ -1,0 +1,3 @@
+同一ファイルの複数Threadからの require のテストの Thread 間の協調方法を変更して
+います。これは load_lock()/load_unlock() のあたりにまだ不具合がありそうです。 [
+ruby-dev:45002] [Bug #5768]

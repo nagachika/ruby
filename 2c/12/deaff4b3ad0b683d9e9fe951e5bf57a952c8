@@ -1,0 +1,3 @@
+Encoding.default_internal の rdoc 用コメントで default_internal が影響する対象
+に __FILE__ が書かれていましたが、__FILE__ は filesystem encoding の影響を受け
+るので削除しています。 [ruby-core:61894] [Bug #9713]

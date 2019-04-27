@@ -1,0 +1,3 @@
+test/ruby/enc/test_case_comprehensive.rb で CaseTest というクラスを定義していた
+のを、TestComprehensiveCaseFold の中で定義してグローバル名前空間を使わないよう
+にしています。また Struct を使って定義するようにしています。

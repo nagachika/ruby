@@ -1,0 +1,2 @@
+Enumerator::Lazy に Enumerable に入った grep_v メソッドの対応を追加しています。
+[ruby-core:71845] [Feature #11773]

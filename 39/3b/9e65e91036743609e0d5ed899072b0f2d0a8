@@ -1,0 +1,9 @@
+TracePoint の internal event INTERNAL_EVENT_GC_END を廃止して
+RUBY_INTERNAL_EVENT_GC_END_MARK と RUBY_INTERNAL_EVENT_GC_END_SWEEP を追加して
+います。これまでの RUBY_INTERNAL_EVENT_GC_END のタイミングのイベントは
+RUBY_INTERNAL_EVENT_GC_END_SWEEP になり、新たにマーク処理の終了時のフックとして
+RUBY_INTERNAL_EVENT_GC_END_MARK を追加したということのようです。
+また NEWS ファイルから ObjectSpace.after_gc_start_hook= と
+ObjectSpace.after_gc_end_hook= の記述は削除しています。これらはサンプルとして追
+加しているので消されるかもしれないとこのと。実際 ObjectSpace.after_gc_end_hook=
+は削除しています。

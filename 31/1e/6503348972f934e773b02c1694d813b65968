@@ -1,0 +1,4 @@
+require の SecurityError 例外のテストでファイルの文字列を filesystem encoding
+に encode するのに失敗した時に ospath_encoding? に encode するようにしています
+。 LANG=C の時に失敗するそうです。filesystem encoding って LANG の影響を受ける
+んだっけ?

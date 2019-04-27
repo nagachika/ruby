@@ -1,0 +1,2 @@
+ruby の --disable-gems と --disable-did_you_mean オプションについてのテストを追
+加しています。

@@ -1,0 +1,3 @@
+拡張ライブラリ socket の UDPServer のテストでローカルノードのアドレスを取得する
+ために Socket.ip_address_list を利用していたのを Socket.getifaddrs を使ってイン
+タフェースの情報も取得するように変更しています。

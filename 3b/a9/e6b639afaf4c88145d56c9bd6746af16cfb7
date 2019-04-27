@@ -1,0 +1,4 @@
+rubygems の upstream から 2.7.2 をマージしています。 git 環境以外(ruby に組込ま
+れた状態)での bundler の gemspec ファイルの書き換えなどの対応が含まれているよう
+です。 https://github.com/rubygems/rubygems/blob/
+01e797f6aa045fd09df7813d0b5448e3667172a9/History.txt#L3

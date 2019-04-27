@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrich::HTTPAuth の各種認証の実装で Kernel#open
+を利用しているところがあったので、意図しないコマンド実行にならないように
+File.open を利用するように修正しています。 [ruby-core:84391] [Misc #14216]

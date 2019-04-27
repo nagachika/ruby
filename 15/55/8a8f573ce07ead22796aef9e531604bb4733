@@ -1,0 +1,3 @@
+Integer#floor に引数を受け付けて、10進数で 10 **-arg の桁(引数が正の数なら結果
+は Float になる)で切り捨てするようにしています。 Float#round の仕様にあわせてい
+るんですね。 [ruby-core:74788] [Feature #12245]

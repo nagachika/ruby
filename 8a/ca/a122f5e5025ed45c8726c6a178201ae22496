@@ -1,0 +1,3 @@
+gc.c の objspace_xmalloc2() で objspace_xmalloc0() の引数に渡す rb_objspace_t
+を rb_objspace に固定していたので引数に渡されたポインタをそのまま渡すように修正
+しています。

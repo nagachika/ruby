@@ -1,0 +1,2 @@
+Net::IMAP のテストで ensure で logout, disconnect などの後始末のメソッドを呼ぶ
+時に必要かどうか確認してから呼ぶようにケアしています。[ruby-dev:42860]

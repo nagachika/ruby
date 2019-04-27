@@ -1,0 +1,2 @@
+r53141 と同様に拡張ライブラリの ext/ 配下に存在する .rb ファイルにも
+frozen_string_literal: false の magic comment を追加しています。

@@ -1,0 +1,6 @@
+ファイルの属性に、そのファイルが作成された時刻 birthtime を取得できるようにして
+います。 File.birthtime、File#birthtime、File::Stat#birthtime などのメソッドを
+追加しています。 birthtime は普通に struct stat に st_birthtimespec というメン
+バで struct timespec 型で取得できるようです。 Windows 版の実装は別途追加されそ
+うですね。今のところ NotImplementedError を発生させるようにしているようです。
+[ruby-dev:48048] [Feature #9647]

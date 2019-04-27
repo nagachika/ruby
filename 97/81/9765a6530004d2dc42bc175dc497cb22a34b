@@ -1,0 +1,3 @@
+Windows 環境で Event を待つ w32_wait_events() で WaitForMultipleObjects() の戻
+り値のチェックを修正しています。 r58370 の再修正かと思ったけど元からずれてたっ
+ぽい?

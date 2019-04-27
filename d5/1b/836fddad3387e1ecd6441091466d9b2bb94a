@@ -1,0 +1,2 @@
+テスト test/ruby/test_file_exhaustive.rb に File.setuid?, File.setgid?,
+File.sticky? のテストを追加しています。

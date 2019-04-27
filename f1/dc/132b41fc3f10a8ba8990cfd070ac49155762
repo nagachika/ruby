@@ -1,0 +1,3 @@
+rb_intern3() で文字列が ASCII 文字のみだった場合にエンコーディングを US-ASCII
+にするためのチェックを rb_enc_str_coderange() を利用して最初にやってしまうよう
+にしています。

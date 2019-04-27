@@ -1,0 +1,2 @@
+r39372 での RbConfig のテストの変更を再修正しています。 configure のオプション
+を取得するのに CONFIG を参照していたのを RbConfig::CONFIG に変更しています。

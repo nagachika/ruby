@@ -1,0 +1,3 @@
+rb_objspace_each_objects_without_setup() という C API を追加しています。 gc.h
+での宣言なので内部的な利用のみ想定していて ObjectSpace.each_object のブロック呼
+び出しのかわりに C のコールバック関数を呼び出すものみたいです。

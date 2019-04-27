@@ -1,0 +1,2 @@
+Test::Unit::Runner::Worker#close の @io.close if @io.closed? を unless
+@io.closed? に修正しています。

@@ -1,0 +1,8 @@
+RubyVM::InstructionSequence.compile_option で末尾呼び出しの最適化
+:tailcall_optimization を true にして Symbol をブロック引数として渡した時に
+SEGV する不具合を修正しています。 vm_caller_setup_arg_block() で Symbol をその
+まま rb_block_t::iseq にセットしてしまう最適化が末尾呼び出し最適化が行なわれて
+いる時にも行なわれてしまって不正メモリアクセスになるようです。呼ぶところで対応
+することも可能なのかな。とりあえず末尾呼び出し最適化が有効な場合には呼び出し時
+点で Symbol の Proc オブジェクト化を行なってから呼び出すようにしています。
+[ruby-core:76288] [Bug #12565]

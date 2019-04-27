@@ -1,0 +1,4 @@
+r50430 の Refinements で refine されたメソッドが暗黙的に呼ばれる時の修正の再修
+正。 refine されたメソッドの MethodNotFound の判定は rb_resolve_refined_method
+() して得られた method entry に対して判定する必要がありました。
+[ruby-core:69064] [Bug #11117]

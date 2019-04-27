@@ -1,0 +1,2 @@
+r48612 で tool/update-deps を更新したので common.mk と一部 deps の依存関係の記
+述を再生成しています。

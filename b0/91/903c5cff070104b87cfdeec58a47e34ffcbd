@@ -1,0 +1,4 @@
+r51182 で追加した Random の Linux でのシステムコール getrandom(2) を利用した実
+装で syscall() の戻り値を受け取る変数を long に変更しています。 clang で警告が
+-Werror によりコンパイルエラーになってたそうです。うーん確かに Linux の syscall
+() の戻り値は long みたいですね。 [ruby-core:69931] [Bug #11343]

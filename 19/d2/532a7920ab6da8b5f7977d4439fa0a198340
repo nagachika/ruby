@@ -1,0 +1,2 @@
+test/ruby/test_method.rb の Module#define_method などのテストのメソッドを分割し
+ています。

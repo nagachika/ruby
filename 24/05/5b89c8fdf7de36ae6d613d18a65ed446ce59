@@ -1,0 +1,3 @@
+同じく r30836 で追加された --gem オプションも削除しています。--gem は Kernel#
+gem のようにパッケージバージョン指定をする機能と、--gem=enabled, --gem=disabled
+という特別な gem名で --disable=gems の別名として使えるようにしていたものです。

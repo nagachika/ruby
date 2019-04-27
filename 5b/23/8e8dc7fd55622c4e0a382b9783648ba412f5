@@ -1,0 +1,4 @@
+Mutex#lock, unlock, try_lock, synchronize, sleep などの Mutex の操作も
+Signal.trap のトラップハンドラ内では実行できないように(ThreadError 例外が発生す
+る)ようにしています。また NEWS ファイルに Mutex と Thread#join の禁止と合わせて
+トラップハンドラ内で実行できなくなったことを追記しています。

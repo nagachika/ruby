@@ -1,0 +1,3 @@
+r66610 の続き。Fiber#raise が作っただけでまだ一度も resume が呼ばれてない Fiber
+に対して呼ばれたら例外にするようにしています。 [ruby-core:65537] [Feature #
+10344]

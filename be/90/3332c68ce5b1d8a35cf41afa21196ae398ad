@@ -1,0 +1,3 @@
+r43110 で追加した Tempfile の finalizer のテストで Windows だと open されている
+ファイルを削除することができないので Tempfile#close で閉じてから消すように修正
+しています。

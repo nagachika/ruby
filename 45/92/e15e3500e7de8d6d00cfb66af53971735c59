@@ -1,0 +1,4 @@
+string.c の bytes や codepoints の実装で Enumerator を返すのに
+RETURN_SIZED_ENUMERATOR() というマクロを利用していましたが、これは
+rb_block_given_p() のブロック有無のチェックを含んでいて冗長なので return
+SIZED_ENUMERATOR() に変更しています。

@@ -1,0 +1,3 @@
+標準ライブラリ set.rb の Set#initialize_copy, eql? でインスタンス変数を取得する
+のに instance_eval を使っていたところを instance_variable_get で済ませるように
+リファクタリングしています。

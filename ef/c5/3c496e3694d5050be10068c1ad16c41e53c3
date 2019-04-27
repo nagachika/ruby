@@ -1,0 +1,3 @@
+gc.c の GC_PROFILE_MORE_DETAIL を 0 にセットするようにしています。デバッグ用に
+1 にしたままコミットされてたとかでしょうか。また gc_prof_sweep_timer_start() の
+マージミスの修正。

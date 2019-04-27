@@ -1,0 +1,4 @@
+IO#statfs で fstatfs(2) を使うか fstatvfs(2) を使うかの判定の条件コンパイルを
+r45768 で構造体のチェック結果もみるようにしたのを、上のほうの構造体の
+HAVE_STRUCT_STATFS や HAVE_STRUCT_STATVFS で分岐しているところの中に
+HAVE_FSTATFS や HAVE_FSTATVFS のチェックをネストさせるように移動しています。

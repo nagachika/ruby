@@ -1,0 +1,2 @@
+NEWS ファイルに拡張ライブラリ fiddle の Fiddle::Function#call が GVL を解放する
+ようになったことを追記しています。 [ruby-core:71121] [Feature #11607]

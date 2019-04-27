@@ -1,0 +1,3 @@
+vm.c の env_mark() という rb_env_t を mark する関数で env->block.iseq が ifunc
+かどうかで分岐していまいたが、冗長だったのでただの RUBY_MARK_UNLESS_NULL() に置
+き換えるリファクタリング。

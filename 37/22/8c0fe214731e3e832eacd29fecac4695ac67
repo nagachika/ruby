@@ -1,0 +1,2 @@
+compile.c の iseq_set_sequence() でコンパイルエラーで return する時に確保してお
+いたメモリの解放が漏れていたのを修正しています。

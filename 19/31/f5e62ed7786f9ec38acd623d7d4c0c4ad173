@@ -1,0 +1,2 @@
+Range#end のテストで終端を含まない Range の時のケースを追加しています。 https:/
+/github.com/ruby/ruby/pull/968

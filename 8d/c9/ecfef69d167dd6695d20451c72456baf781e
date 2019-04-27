@@ -1,0 +1,2 @@
+include/ruby/ruby.h で rb_cLazy を extern するようにしています。ここからしばら
+くシンボルの export の追加が続きます。

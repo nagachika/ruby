@@ -1,0 +1,7 @@
+tcl の Tcl_DoOneEvent() という関数に渡す event_flag から TCL_DONT_WAIT というビ
+ットフラグを削除しています。また Tcl_CreateEventSource() で登録するコールバック
+ハンドラで rb_thread_schedule() を呼ぶようにしています。コミットログによるとイ
+ベントループでの CPU 負荷を下げるためとあります。 tcl の実装は詳しく知らないの
+で完全に推測ですが、tcl のイベントループでイベントがない時には短時間 sleep して
+(そのデフォルト値を 1msec -> 5msec にする変更も多分入ってる)その間別の Thread
+に処理をあけわたすことができるようにしているのではないかと。

@@ -1,0 +1,6 @@
+test/dl/test_base.rb で libc の共有ライブラリを探すところで mswin/mingw では
+RbConfig::CONFIG["RUBY_SO_NAME"] から "-" で区切って "msvc" という名前を含む
+DLL を探すようにしています。しかし仮に "msvc" という文字列を含まないときにエラ
+ーになりそうです。
+[追記]msvc*.dll はまあ当然含まれてるから良いということで。またこの変更の元にな
+ったチケットがありました。 [Feature #4602][/追記]

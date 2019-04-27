@@ -1,0 +1,4 @@
+re.c の rb_reg_prepare_enc() および rb_reg_s_union() で既に文字列から
+rb_enc_get() で rb_encoding を取り出しているので rb_enc_str_asciicompat_p() の
+かわりに rb_enc_asciicompat() を使って重複した rb_enc/get() が呼ばれないように
+しています。

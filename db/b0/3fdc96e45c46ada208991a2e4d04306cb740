@@ -1,0 +1,2 @@
+ext/openssl/ossl_asn1.c の関数の文字列長の引数の型を int -> long に変更していま
+す。中で使っている d2i_ASN1_XXX() の型が long なのでそれに揃えています。

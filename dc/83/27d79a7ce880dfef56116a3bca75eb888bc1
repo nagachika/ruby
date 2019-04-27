@@ -1,0 +1,2 @@
+benchmark/ 配下のベンチマークスクリプトは YAML に変換されたので benchmark/
+driver.rb の ruby スクリプト実行のための機能は削除しています。

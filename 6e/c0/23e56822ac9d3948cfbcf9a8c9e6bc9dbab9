@@ -1,0 +1,2 @@
+doc/syntax/refinements.rdoc から Refinements は experimental な機能だよー、とい
+う記述を削除しています。 https://github.com/ruby/ruby/pull/775

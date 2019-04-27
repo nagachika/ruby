@@ -1,0 +1,3 @@
+拡張ライブラリ openssl に upstream から 2.0.2 をマージしています。 OpenSSL::SSL
+::Session#== の挙動の非互換の修正などがありました。 https://github.com/ruby/
+openssl/compare/v2.0.1...v2.0.2

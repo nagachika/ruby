@@ -1,0 +1,9 @@
+r67397 のあたりで一度入ったけど JIS X 0301 に正式に入ってないからと revert され
+ていた拡張ライブラリ date の Date#jisx0301 や Date.jisx0301 での新年号対応を追
+加しています。正式な更新待ってたら遅くなるし他のライブラリなどで略記として R が
+採用されているのでということで対応を入れてます。 [ruby-core:92071] [Feature #
+15742]
+チケットには "As Japanese government has claimed that only one month is enough
+for the transition, the new standard will be issued in this month at latest :)"
+という皮肉なコメントがありますが、Unicode も正式なリリースは 5/1 には間に合わな
+かったしなぁ。

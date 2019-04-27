@@ -1,0 +1,2 @@
+Hash#dig の rdoc 用コメントの typo 修正と整形をしています。 [ruby-core:79221]
+[Bug #13148]

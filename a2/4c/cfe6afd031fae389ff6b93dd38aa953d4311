@@ -1,0 +1,2 @@
+r62097 の再修正。 tool/vcs.rb の DebugSystem#system で exception というローカル
+変数の代入を消してしまって後でエラーになってたので、代入を復活させています。

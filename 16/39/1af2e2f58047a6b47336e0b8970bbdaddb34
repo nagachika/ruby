@@ -1,0 +1,3 @@
+r56169 で configure で MAYBE_UNUSED() と WARN_UNUSED_RESULT() の定義をするよう
+にしましたが、Oracle Solaris Studio 12.3 で未定義になるそうで internal.h で未定
+義だったら定義するようにしています。 [ruby-dev:49807] [Bug #12767]

@@ -1,0 +1,2 @@
+r45240 で readline の extconf.rb に追加した rl_hook_func_t のマクロ定義のところ
+に追加理由をコメントとして追記しています。

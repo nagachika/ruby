@@ -1,0 +1,2 @@
+NEWS ファイルに Windows 版での IO#nonblock_read, IO#nonblock_write のサポート追
+加について追記しています。

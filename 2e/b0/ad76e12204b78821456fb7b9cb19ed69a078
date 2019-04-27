@@ -1,0 +1,2 @@
+r56284 で PStore#load_data で使う checksum が MD5 だけではなくなったので rdoc
+用コメントも変更しています。

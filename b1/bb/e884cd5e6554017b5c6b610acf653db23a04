@@ -1,0 +1,2 @@
+RDoc 実行のベンチマーク用のスクリプト tool/rdocbench.rb の表示する情報に GC
+::Profiler.total_time を追加しています。

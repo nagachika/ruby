@@ -1,0 +1,2 @@
+rubygems の Gems::RemoteFetcher など一部のテストを拡張ライブラリ openssl がビル
+ドできない環境では skip するようにしています。

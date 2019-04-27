@@ -1,0 +1,7 @@
+r64108、r64111 あたりの続きで ubf でブロック状態の thread への割り込みを繰り返
+すため、ppoll(2) などのタイムアウトを計算する処理を sigwait_timeout() という関
+数に切り出して、ここで ubf リストが空じゃなかったら最低の時間粒度
+TIME_QUANTUM_USEC を返させるようにしています。つまりこれって timer thread の
+time slice のための割り込みと同じだから timer thread 相当になる thread がなくて
+も割り込むようにするためってことですかね。そうすると rb_vm_t::gvl::timer はもう
+いらなくならないのかな? [ruby-core:88088] [Misc #14937] [Bug #5343]

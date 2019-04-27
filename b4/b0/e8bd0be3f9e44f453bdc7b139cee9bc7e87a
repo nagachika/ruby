@@ -1,0 +1,3 @@
+cont_capture() において VAR_INITIALIZED() マクロの展開によって変数に volatile
+修飾子が重複して指定されているため clang で警告になるらしく、これを黙らせるため
+__clang__ の時に #pragma でこの警告を無視させるようにしています。

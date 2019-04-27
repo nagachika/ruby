@@ -1,0 +1,2 @@
+tool/merger.rb の r67569 で廃止した revision の記法を help メッセージから削除し
+ています。

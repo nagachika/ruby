@@ -1,0 +1,5 @@
+命令列の行番号を取得するのに rb_iseq_first_lineno() を呼ぶ前に iseq->body->
+line_info_table をチェックしていたところ削ってます。既にこのテーブルのチェック
+は不要になっていて昔の名残りで残ってたみたいです。また rb_iseq_first_lineno()
+を呼んでるところも iseq->body->location.first_lineno を直接参照するようにしてい
+ます。

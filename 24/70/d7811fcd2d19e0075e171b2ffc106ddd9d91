@@ -1,0 +1,3 @@
+r33947 で ext/socket/extconf.rb で socketpair() の Windows 用の代替関数をチェッ
+クするようにした修正で、 HAVE_SOCKETPAIR を定義するオプションを追加し忘れていた
+ので追加。

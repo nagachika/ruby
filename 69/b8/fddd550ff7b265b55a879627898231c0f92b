@@ -1,0 +1,3 @@
+標準添付ライブラリ net/smtp の rdoc 用コメントから既にリンク切れになっている日
+本語版のドキュメントの URL を削除しています。 https://github.com/ruby/ruby/pull
+/1380

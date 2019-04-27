@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::Attribute#to_string でダブルクオート文字をエ
+ンコードする時の "e -> & quot と修正しています。 [ruby-core:76509] [Bug #12609]

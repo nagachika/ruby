@@ -1,0 +1,2 @@
+StopIteration の rdoc の位置が Enumerale::Lazy の追加で定義と離れてしまったので
+移動しています。

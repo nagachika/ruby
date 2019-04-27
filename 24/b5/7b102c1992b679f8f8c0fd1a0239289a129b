@@ -1,0 +1,4 @@
+標準添付ライブラリ csv に upstream から 3.0.4 をマージしています。 2.6 からの
+CSV.generate や CSV.parse などの主にマルチバイト文字の扱いや Encoding に関する
+非互換の修正などが含まれています。 https://github.com/ruby/csv/blob/master/
+NEWS.md (3.0.2 → 3.0.4 に更新)

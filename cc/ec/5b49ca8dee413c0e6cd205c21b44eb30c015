@@ -1,0 +1,2 @@
+拡張ライブラリ coverage の rdoc の体裁の修正と得られる coverage 結果のオブジェ
+クトの説明に追記。 [ruby-core:40076] [Bug #5428]

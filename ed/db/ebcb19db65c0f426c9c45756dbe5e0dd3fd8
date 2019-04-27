@@ -1,0 +1,4 @@
+VM_COLLECT_USAGE_DETAILS というマクロが定義されている時に有効になる vm.c の
+define_usage_analysis_hash() という rb_define_const() を呼ぶマクロで引数に渡し
+たトークンをそのまま展開するのに文字列リテラルを渡してしまっていたのを修正して
+います。

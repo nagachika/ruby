@@ -1,0 +1,1 @@
+pack/unpack の rdoc の "c" の項目を修正しています(char -> signed char)。

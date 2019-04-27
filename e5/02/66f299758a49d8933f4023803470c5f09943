@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp の Net::FTP#stat に省略可能な pathname 引数を追加し
+て STAT コマンドの引数を指定できるようにしています。 https://github.com/ruby/
+ruby/pull/1478 [ruby-core:78240] [Feature #12965]

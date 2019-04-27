@@ -1,0 +1,2 @@
+module M ... end のような文が生成する NODE_SCOPE の範囲情報を "module M" の部分
+は含めないように変更しています。

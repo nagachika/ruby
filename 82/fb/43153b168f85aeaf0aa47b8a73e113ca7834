@@ -1,0 +1,2 @@
+mspec の Mock.verify_call で mock_respond_to? というメソッドに呼び元から渡され
+た可変長引数をそのまま全部渡すように修正しています。

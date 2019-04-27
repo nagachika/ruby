@@ -1,0 +1,3 @@
+r64296 で Solaris の時に実行しないようにする rubyspec の Addrinfo.getaddrinfo
+のテストケースが違ってたみたいで platform_is_not ブロックでくくる位置を変更して
+います。

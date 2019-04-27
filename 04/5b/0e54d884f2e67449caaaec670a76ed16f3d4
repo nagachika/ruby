@@ -1,0 +1,5 @@
+Enumerator#+ と Enumerable#chain というメソッドが追加されています。これは 2つ以
+上の Enumerable や Enumerator を順に連結してまとめて iterate する
+Enumerator::Chain という Enumerator を継承したクラスのオブジェクトを作って返す
+メソッドです。 Enumerator#+ は Enumerator::Chain のインスタンスを返すのでさらに
+繋げて (a + b + c) のようにも書けますね。 [ruby-core:89121] [Feature #15144]

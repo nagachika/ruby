@@ -1,0 +1,4 @@
+proc_mark() での rb_proc_t::block::iseq と env_mark() での
+rb_env_t::block::iseq の rb_gc_mark() の呼び出しに NULL チェックつきの
+RUBY_MARK_UNLESS_NULL() マクロを利用していたのをチェックなしで直接 rb_gc_mark()
+を呼び出すようにしています。これらは NULL になりえないので削っているとのこと。

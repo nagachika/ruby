@@ -1,0 +1,3 @@
+r59354, r59355, r59356, r59359 の tainted_frozen_strings テーブルを導入して
+tainted fstring の管理を別途行うようにした変更を revert しています。 CI での異
+常終了が修正できなかったみたいです。 [ruby-core:82102]

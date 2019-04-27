@@ -1,0 +1,3 @@
+test/lib/minitest/unit.rb でテストの実行前後の Thread と Tempfile を比較して、
+テスト終了時に後始末されていない Thread と Tempfile を出力するようにしています
+。

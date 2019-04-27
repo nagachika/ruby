@@ -1,0 +1,3 @@
+WEBrick::HTMLUtils#escape のテストを追加しています。 WEBrick::HTMLUtils#escape
+って &, ", <, > だけ実体参照に置換するという若干中途半端なメソッドがあるんです
+ね。

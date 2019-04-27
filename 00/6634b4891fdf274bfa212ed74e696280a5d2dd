@@ -1,0 +1,4 @@
+test/unit/assertions.rb から assert_fixnum と assert_bignum を拡張ライブラリを
+使ったテスト test/lib/-test-/integer.rb に移動しています。 Fixnum と Bignum の
+区別は実装の詳細であり拡張ライブラリを使って判定する必要ができたので。
+[ruby-core:75647] [Bug #12408]

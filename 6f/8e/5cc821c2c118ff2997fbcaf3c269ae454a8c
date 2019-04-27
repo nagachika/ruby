@@ -1,0 +1,2 @@
+r39919 で修正された Method 大量に使い捨てた時の SEGV のテストを KNOWNBUGS.rb か
+ら test/ruby/test_method.rb に移動しています。 [ruby-core:53439] [Bug #8100]

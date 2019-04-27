@@ -1,0 +1,3 @@
+gc.c の vm_xrealloc() で realloc(3) の呼び出しが失敗したら
+garbage_collect_with_gvl() を呼んで GC してからリトライしているところを同様の処
+理のために定義されている TRY_WITH_GC() マクロを利用するようにしています。

@@ -1,0 +1,2 @@
+marshal.c に #include "ruby/ruby.h" を "ruby/io.h" の前に明示的にするように追加
+しています。 AIX でのビルドが壊れてたそうです。

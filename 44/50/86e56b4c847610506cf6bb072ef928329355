@@ -1,0 +1,3 @@
+r47633 で追加された rb_freeze_singleton_class() の実装で内部的に利用していて
+ObjectSpace から隠されているオブジェクトの freeze の時に klass が NULL であるこ
+とがありえるのを対応するようにしています。

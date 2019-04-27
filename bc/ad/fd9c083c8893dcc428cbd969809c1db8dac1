@@ -1,0 +1,3 @@
+Process.exec などのオプションを管理する struct rb_execarg に pgroup_given と
+pgroup_pgid に :pgroup オプションの情報を格納するようにして、Array のオブジェク
+トで取り回していたのをやめています。

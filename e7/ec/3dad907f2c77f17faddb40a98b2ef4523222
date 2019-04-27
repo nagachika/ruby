@@ -1,0 +1,4 @@
+configure で LOCALTIME_OVERFLOW_PROBLEM の定義の有無を制御している部分でデフォ
+ルトで定義するようにしています。クロスコンパイル時、具体的には RubyInstaller で
+このマクロが偽になっていたため Time の Marshal.load のテストが失敗していたそう
+です。 [ruby-core:58391] [Bug #9119]

@@ -1,0 +1,2 @@
+r50061 で GetFinalPathNameByHandleW() を利用するための DLL 名を kernel32 に修正
+しています。

@@ -1,0 +1,3 @@
+ruby の --enable-xxx/--disable-xxx のオプションの処理で enable と disable の処
+理が別々の関数で実装されていたので、共通部分を feature_option() という関数に括
+り出すリファクタリング。

@@ -1,0 +1,3 @@
+拡張ライブラリ date の空のスクリプトファイル ext/date/lib/date/format.rb を削除
+して、ext/date/lib/date.rb の require "date/format" を削除しています。 https://
+github.com/ruby/ruby/pull/647

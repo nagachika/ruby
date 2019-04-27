@@ -1,0 +1,5 @@
+irb は config.math_mode = true とすることで math mode というモードになり mathn
+を require して除算が Rational になるなどの変化をするのですが、config.math_mode
+= false としても元のモードには戻れない仕様でした。しかし nil を代入すると戻ると
+いう微妙な挙動をしていたので nil を代入した時もエラーにして弾くように修正してい
+ます。 [ruby-dev:45518] [Bug #6302]

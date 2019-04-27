@@ -1,0 +1,2 @@
+Kernel#Complex メソッドで内部でメソッド呼び出しを行なっていたのを直接
+nucomp_s_convert() を呼ぶように最適化しています。

@@ -1,0 +1,2 @@
+r52824 の explicit_bzero() の代替実装の inline 化で Windows 版では
+SecureZeroMemory() を利用するようにマクロ定義しています。

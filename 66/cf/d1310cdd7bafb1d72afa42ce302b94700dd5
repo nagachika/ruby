@@ -1,0 +1,3 @@
+NEWS ファイルの r53188 の StringIO の encoding についての記述を修正して、中の
+String オブジェクトと StringIO 自体の encoding が異なると問題が発生する可能性が
+あるという点を強調するようにしています。

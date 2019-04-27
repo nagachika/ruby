@@ -1,0 +1,10 @@
+rb_classext_t の定義が internal.h に移動になったために RCLASS_SUPER() マクロが
+拡張ライブラリから利用できなくなったのに対処するために、include/ruby/backward/
+classext.h というヘッダを導入して super メンバだけ定義した構造体を見せて
+RCLASS_SUPER() が利用できるようにしています。ただしこれは deprecated なので今後
+は rb_class_superclass() かもしくは今回新規追加になった rb_class_get_superclass
+() (RCLASS_SUPER() と同等)を使うように移行していきます。ちなみに
+rb_class_superclass() は IClass(つまり include によってできた Module のエイリア
+ス)はスキップして Ruby スクリプトから見える superclass を返し、
+rb_class_get_superclass() はスキップせずに内部的な構造をそのまま見せます。
+[ruby-core:36565] [Bug #4803]

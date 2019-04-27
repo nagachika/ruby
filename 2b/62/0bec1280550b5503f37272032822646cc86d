@@ -1,0 +1,2 @@
+OpenSSL::OCSP::CertificateId#initialize の最後の省略可能引数 digest が受け付け
+てなかったのを修正。[ruby-core:32460]

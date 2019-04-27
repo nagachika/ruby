@@ -1,0 +1,2 @@
+bignum.c の get2comp() で一部の処理を bary_2comp() で置きかえています。また
+rb_big_and() から関数を切り出すリファクタリング。

@@ -1,0 +1,5 @@
+tool/rbinstall.rb で Gem.ensure_gem_subdirectories を利用して rubygems 用の
+cache、gems、specifications などのディレクトリを作成していたのですが、この時に
+権限情報に同一グループのユーザに書き込み権限が付与されていたので、とりあえず
+Gem.ensure_gem_subdirectories を利用せず直接ディレクトリ作成処理を書くようにし
+ています。 Gem.ensure_gem_subdirectories を修正するまでの暫定対応かと思います。

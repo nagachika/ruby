@@ -1,0 +1,2 @@
+Module#class_variables の rdoc 用コメントのサンプルに引数を渡して呼ぶ例を追記し
+ています。 [ruby-core:58847] [Bug #9210]

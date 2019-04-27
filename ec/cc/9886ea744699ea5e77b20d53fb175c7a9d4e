@@ -1,0 +1,4 @@
+拡張ライブラリ win32ole で Win32OLE::Version を 1.5.7 から 1.5.8 に更新していま
+す。また WIN32OLE_RECORD#method_missing で rb_hash_aref() を使って結果が Qnil
+だったら undefined method にしていたのを rb_hash_fetch() を使うことで、対応する
+名前がなかったら KeyError を発生させるようにしています。

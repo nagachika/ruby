@@ -1,0 +1,3 @@
+test/ruby_test_io.rb の test_open_fifo_does_not_block_other_threads を cygwin
+でも定義しないようにしています。 cygwin なので fifo 自体はあると思いますがテス
+トがハングアップするそうです。

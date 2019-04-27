@@ -1,0 +1,13 @@
+Thread 内の Fiber 内で Thread.exit しても Fiber から抜けるだけで Thread が終了
+しない不具合の修正です。
+Thread.exit は同期的な割り込みとして rb_thread_t::errinfo に INT2FIX(TAG_FATAL)
+を入れて TAG_FATAL で TAG_JUMP() する(longjmp(3) する)のですが、Fiber の終了時
+にはマシンスタックが別なので、一旦これを非同期例外用の async_errinfo_queue に入
+れておいて切り替え後に再発生させないといけませんでした。 r38414 では誤ってここ
+で Thread を終了させるための割り込みを(後続の処理がそれに対応していなくて例外が
+発生していたのを修正しようと思って)握り潰してしまっていたので、そうではなくて
+async_errinfo_queue に INT2FIX(TAG_FATAL) が入っていることを想定するように
+rb_threadptr_execute_interrupts() で対応を追加しました。また r38441 で
+rb_vm_make_jump_tag_but_local_jump() に TAG_FATAL が渡される時も考慮しましたが
+、渡すことはなくなるのでこれを revert しています。改めてみると rb_fiber_start()
+の条件分岐はまとめることができますね。

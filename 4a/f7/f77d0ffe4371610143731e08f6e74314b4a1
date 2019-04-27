@@ -1,0 +1,2 @@
+同様に r67097 および r67102 の Pathname#birthtime のテストでもコンテナ内のため
+Errno::EPERM が発生した時に対応して skip するようにしています。

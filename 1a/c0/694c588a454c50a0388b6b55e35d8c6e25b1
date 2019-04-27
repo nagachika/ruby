@@ -1,0 +1,2 @@
+NEWS ファイルに ObjectSpace::WeakMap の追加を追記しています。 WeakMap は積極的
+にユーザに見せたいのかなぁ。

@@ -1,0 +1,2 @@
+標準添付ライブラリ uri の URI.join のサンプルコードで結果が間違っていたのを修正
+しています。 https://github.com/ruby/ruby/pull/838

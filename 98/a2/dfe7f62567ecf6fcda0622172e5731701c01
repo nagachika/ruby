@@ -1,0 +1,2 @@
+test/lib/minitest/unit.rb の MiniTest::Unit#_run_suite でテストメソッド毎に標準
+出力へのバッファを flush して書き出すようにしています。

@@ -1,0 +1,3 @@
+bignum.c で VALUE 型で Bignum を受け取る bigmul1_toom3() を BDIGIT の配列を受け
+取る bary_mul_toom3() に変更して、呼び元での不要な一時オブジェクトの生成を減ら
+しています。

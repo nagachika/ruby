@@ -1,0 +1,4 @@
+r42490 の追加で rb_enc_symname_type() に allowed_atttset という引数を追加して文
+字列のシンボル化でも ID_CONST と ID_LOCAL 以外にも ID_ARRTSET を付けた ID のシ
+ンボルを生成できるようにしています。昨日書いた、文字列だと __send__ で代入記号
+付きメソッドが呼べないというのを修正されたのだと思います。 [Bug #8756]

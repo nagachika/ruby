@@ -1,0 +1,5 @@
+tool/mkconfig.rb の修正。うーん、ビルド関係は難しいですね。universal-darwin(ユ
+ニバーサルバイナリ版のビルド?)の時に ARCHFLAGS や RC_ARCHS といった環境変数でタ
+ーゲットとするアーキテクチャ(ユニバーサルバイナリなので複数を指定可能)を
+rbconfig.rb で記述する RbConfig の arch, arch_flag といった項目に入れるようにし
+ているようです。また universal という項目も追加しています。

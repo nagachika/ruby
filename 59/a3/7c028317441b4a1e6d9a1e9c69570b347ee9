@@ -1,0 +1,3 @@
+common.mk の lib/unicode_normalize/tables.rb の生成ルールを変更して timestamp
+ファイルに依存せず更新するようにしている? コードもコメントもちょっとよく読み解
+けませんでした。

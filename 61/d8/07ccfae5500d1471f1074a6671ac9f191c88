@@ -1,0 +1,4 @@
+String#reverse で文字列の Encoding に対して不正な文字を持つ文字列を
+force_encoding してから 2回 reverse を呼ぶと SEGV する不具合を修正しています。
+String#reverse で元の String オブジェクトの coderange を変更してしまっていたの
+を修正しているようです。 [ruby-dev:49189] [Bug #11387]

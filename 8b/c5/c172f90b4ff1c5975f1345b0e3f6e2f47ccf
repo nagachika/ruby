@@ -1,0 +1,2 @@
+thread.c の hrtime_update_expire() でデバッグメッセージ出力の警告除去のための明
+示的キャストを追加しています。

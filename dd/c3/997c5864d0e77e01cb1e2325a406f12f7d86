@@ -1,0 +1,3 @@
+tool/make-snapshot で Makefile.in から @VAR@ を環境変数かもしくはデフォルトの設
+定値で置換して Makefile を生成して make を呼ぶようにしています。これまでは make
+の引数で変数を指定するようになっていました。

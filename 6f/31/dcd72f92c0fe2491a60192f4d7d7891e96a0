@@ -1,0 +1,1 @@
+iseq_compile_each() で不要な pushnil 命令の抑制をしています。

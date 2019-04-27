@@ -1,0 +1,5 @@
+Module#attr_reader, attr_writer, attr_accessor などのメソッドで属性名を文字列で
+与えた時にチェック前に Symbol を生成してしまっていたので、チェックが通ってから
+Symbol 化することで不要な Symbol 生成を抑制しています。[DEL:rb_is_attr_name()
+が static 関数なのに定義されているだけで利用されていないようです。:DEL] と思っ
+たら id_for_setter() というマクロが展開された中で呼ばれていました。

@@ -1,0 +1,2 @@
+lib/time.rb の rdoc 修正。RFC や ISO の参照先リンクの追記など。
+[ruby-core:39981] [Bug #5416]

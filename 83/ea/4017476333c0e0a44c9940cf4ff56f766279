@@ -1,0 +1,4 @@
+tool/rbinstall.rb で gem パッケージインストール時に Gem::Specification#to_ruby
+のかわりに #to_ruby_for_cache を利用するようにしています。余計なメモリを消費し
+ないようにするメソッドみたいです。 https://github.com/rubygems/rubygems/commit/
+a1a5ab55cb1501cbfeee29131a56cfa2e763174f https://github.com/ruby/ruby/pull/1578

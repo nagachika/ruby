@@ -1,0 +1,4 @@
+r33147 の autoload の変更で static 関数の定義の順番の問題で未定義関数の呼び出し
+の警告のためビルド失敗していたのを修正。 Mac OS X だと通ってた(-Werror=
+implicit-function-declaration が効いてない？)ので気がつきませんでしたが Linux
+だとコンパイルエラーになりましたね。

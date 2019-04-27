@@ -1,0 +1,2 @@
+lookup_id_str() のところで渡された Symbol (id) とその参照する fstring も
+rb_gc_resurrect() で復活させるようにしています。

@@ -1,0 +1,2 @@
+File.join の実装で内部的にバッファとして使う文字列オブジェクトの struct
+RBasic::klass をクリアして ObjectSpace から見えないようにしています。

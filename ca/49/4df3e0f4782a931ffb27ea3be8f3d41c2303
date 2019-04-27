@@ -1,0 +1,2 @@
+insns.def の VM 命令 getconstant と setconstant のコメントから toplevel からの
+探索についての記述を削除しています。

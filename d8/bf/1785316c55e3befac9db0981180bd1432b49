@@ -1,0 +1,3 @@
+拡張ライブラリ date の DateTime#rfc3339 や DateTime#iso8601, DateTime#
+xmlschema, DateTime#jisx0301 の rdoc 用コメントのマークアップや文法の修正。
+[ruby-core:68418] [Bug #10936]

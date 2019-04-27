@@ -1,0 +1,2 @@
+rb_write_error2() で Windows 環境向けに端末に出力する時は rb_w32_write_console
+() を呼ぶ処理を追加しています。

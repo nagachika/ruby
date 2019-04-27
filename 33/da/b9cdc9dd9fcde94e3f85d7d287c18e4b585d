@@ -1,0 +1,2 @@
+rubyspec の Socket.accept_loop のテストで Windows で hangup することがあるそう
+で platform_is_not で実行除外するようにしています。

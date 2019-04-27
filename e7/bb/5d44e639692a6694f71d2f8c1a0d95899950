@@ -1,0 +1,3 @@
+rb_iseq_mark() で RUBY_MARK_UNLESS_NULL() で NULL チェックつきの mark をしてい
+た location.(label,base_label,path) などのメンバは NULL になることがないという
+ことで直接 rb_gc_mark() を呼び出すようにしています。

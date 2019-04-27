@@ -1,0 +1,2 @@
+numeric.c で SIGNED_VALUE という型を利用しているところを極力 long を利用するよ
+うに書き換えています。

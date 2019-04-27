@@ -1,0 +1,4 @@
+r50725 で追加された Socket#sendmsg_nonblock のテストを UNIXSocket と
+Socket::SOCK_SEQPACKET が存在しなかったらそもそもテストメソッド自体の定義をスキ
+ップするようにして、また NotImplementedError, Errno::ENOSYS,
+Errno::EPROTONOSUPPORT などの例外を rescue するようにしています。

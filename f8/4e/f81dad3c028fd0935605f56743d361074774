@@ -1,0 +1,2 @@
+lib/ipaddr.rb でも同様にライブラリファイル自体に書かれていた単体テストを test/
+test_ipaddr.rb に移動しています。

@@ -1,0 +1,3 @@
+一旦入れて revert した rb_thread_io_blocking_region() を internal.h へ移動する
+修正です。今度は socket のビルド時にソースディレクトリをインクルードファイルの
+サーチパスに入れるようにする修正も含めています。

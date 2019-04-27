@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole のソースから WIN32OLE_EVENT の実装部分を
+win32ole_event.(hc) に分離しています。

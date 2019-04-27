@@ -1,0 +1,2 @@
+.travis.yml の r65799 と r65800 の追加修正で warnflags の変数に before_script
+で -Wno-unknown-warning-option を追加していたのをやめています。

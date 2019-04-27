@@ -1,0 +1,7 @@
+r37125 で追加した rb_random_ulong_limited() を利用して Array#sample の実装を修
+正しています。これまでは Array#sample の実装は double の乱数を利用していて、
+double は unsigned long よりも精度が小さい(1の差を識別できる範囲で表現できる最
+大の整数が小さい)ので非常に大きい配列の時に絶対に選択されない要素がありえたのを
+修正しています。 NEWS ファイルには Array#shuffle や Array#sample に渡される
+Random にこれまでは無引数の rand が呼ばれていたのが、最大値の引数つきで呼ばれる
+ようになるという変更が追記されています。

@@ -1,0 +1,4 @@
+template/fake.rb.in で baseruby を環境変数 ruby からとって来る謎の eval の結果
+で上書きしていたのをやめています。 json のインストールのための対応だそうです。
+上で baseruby="@BASERUBY@" しているから再代入自体は不要なんじゃないですかね。と
+いうかこの謎 eval は何をしているんだろう…。

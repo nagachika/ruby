@@ -1,0 +1,2 @@
+NEWS ファイルの File::Stat#atime, #mtime, #ctime がクラスメソッドの記法で記述さ
+れていたので修正しています。

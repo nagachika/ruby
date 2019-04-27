@@ -1,0 +1,2 @@
+Test::Unit::AutoRunner#initialize 引数が渡されなかった時に default_dir を利用す
+るように再修正しています。

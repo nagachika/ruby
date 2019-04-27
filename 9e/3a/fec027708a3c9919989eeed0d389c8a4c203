@@ -1,0 +1,5 @@
+Thread.abort_on_exception や Thread#abort_on_exception が true に設定されている
+ときに当該 Thread で捕捉されない例外が発生して終了した時の挙動が 1.9 あたりか
+ら? 変わっていて main thread にその例外が投げられるようになっていたので、ドキュ
+メントをそれに合わせるように修正しています。昔は abort で終了していた気がします
+ね。 [ruby-core:78415] [Bug #12991]

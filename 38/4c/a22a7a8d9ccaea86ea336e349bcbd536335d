@@ -1,0 +1,3 @@
+拡張ライブラリ io/console の gemspec ファイルから署名用の設定の削除と spec
+.files に upstream のリポジトリでビルドする時に含めるためのファイル追加していま
+す。

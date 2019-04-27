@@ -1,0 +1,5 @@
+NEWS ファイルに C99 のコンパイラをサポート対象にすることと、具体的に採用する記
+法などを記載したドキュメントへのリンクを追記しています。enum の tailing comma
+とか変数宣言の位置の緩和とか嬉しいですねー。これまではなにか変更した後にその点
+だけ修正したりしてたので。 https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/
+C99 [ruby-core:90089] [Misc #15347]

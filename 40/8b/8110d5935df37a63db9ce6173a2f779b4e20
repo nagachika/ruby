@@ -1,0 +1,3 @@
+Process.clock_gettime の clock_id 用の定数 POSIX_TIME_CLOCK_REALTIME を
+ISO_C_TIME_CLOCK_REALTIME に改名しています。単に time(2) で時刻を取得する実装で
+す。

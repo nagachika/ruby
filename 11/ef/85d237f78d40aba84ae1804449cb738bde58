@@ -1,0 +1,5 @@
+静的リンクした拡張ライブラリの初期化関数を呼ぶ Init_ext() を require_libraries
+() から process_options() の rubygems の読み込み前に実行するようにしています。
+rubygems で thread など一部の拡張ライブラリに依存しているためだと思われます。移
+動前のコメントに "should be called here for some reason :-(" とか書いてあるので
+一抹の不安がありますね。 some reason ってなんだろ。

@@ -1,0 +1,5 @@
+VM 用のソースコード生成用テンプレートの tool/ruby_vm/views/_leaf_helpers.erb で
+VM 命令の leaf フラグを rb_gvar_undef_getter と rb_gvar_readonly_setter からは
+ずすようにしています。これらの命令は rb_warning() を呼んでいて、これは
+Warning.warn を呼ぶので ruby レベルのメソッドを呼ぶ可能性があるからとのこと。な
+るほどー。

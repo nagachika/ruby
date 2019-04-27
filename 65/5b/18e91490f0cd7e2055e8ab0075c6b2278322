@@ -1,0 +1,3 @@
+これも r53617 と同様の nmake 対応で common.mk の ext/rbconfig/sizeof/sizes.c の
+ターゲットを {$(VPATH)} を prefix にするようにして、ext/rbconfig/sizeof/depend
+のほうで依存関係を記述する時には逆に {$(VPATH)} を外すようにしています。

@@ -1,0 +1,3 @@
+json/add/range.rb でも r42400 で変更した Range#last に依存していた部分があった
+ので Range#end を使うように変更しています。ここは Range#last の挙動がどうであれ
+Range#end を使うほうが正しいような気がしますね。 [Bug #8739]

@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::OCSP の配下の各種クラスでも initialize_copy
+を定義して dup できるようにしています。 [ruby-core:75504] [Bug #12381]

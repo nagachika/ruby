@@ -1,0 +1,2 @@
+r40616 で socketpair(2) のチェックを消したために libsocket の存在チェックが消え
+たので shutdown(2) でチェックするように復活させています(SunOS/Solaris 向け)。

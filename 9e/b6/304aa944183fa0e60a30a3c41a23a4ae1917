@@ -1,0 +1,4 @@
+test/test_unicode_normalize.rb で Unicode 用のデータファイルの
+NormalizationTest.txt が存在する時だけ実行されるテストクラス
+TestUnicodeNormalize から、データファイルに依存しない部分を open class で別の
+class 文で定義するように切り分けています。

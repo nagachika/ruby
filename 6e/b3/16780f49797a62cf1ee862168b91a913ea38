@@ -1,0 +1,1 @@
+FileUtils.ln_sf の rdoc の ln_s のサンプルの引数の間違いを修正。

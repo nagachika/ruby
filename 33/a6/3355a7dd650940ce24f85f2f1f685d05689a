@@ -1,0 +1,2 @@
+gc.c の CALC_EXACT_MALLOC_SIZE というマクロが有効な時だけ定義される関数の rdoc
+にその旨記述を追加しています。

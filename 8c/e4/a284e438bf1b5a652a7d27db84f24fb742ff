@@ -1,0 +1,2 @@
+rsock_sock_s_socketpair() から socketpair(2) の呼び出し部分を rsock_socketpair
+() として関数に切り出しています。次の変更の布石ですね。

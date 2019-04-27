@@ -1,0 +1,4 @@
+r48250 で拡張ライブラリ tk で Tk::CallbackSubst と Tk::CallbackSubst::Info を
+Data を継承するクラスとして定義するようにしたのを revert しています。allocate
+の継承を避けるためだったと思うのですが実際は必要だったようです。
+[ruby-list:50115]

@@ -1,0 +1,3 @@
+r36780 で導入された mkmf.rb で生成する Makefile の変数 ruby_headers を ext/date
+/depend ファイルで利用して ruby 標準のヘッダファイルへの依存関係を付けています
+。

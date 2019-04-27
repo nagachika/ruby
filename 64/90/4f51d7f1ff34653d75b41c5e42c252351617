@@ -1,0 +1,3 @@
+拡張ライブラリ io/console で Windows 環境の時に conout$ というデバイスを利用す
+る時に write only で開いていたのですが read も必要だったそうで open の mode 引
+数を修正しています。 [ruby-dev:48010] [Bug #9554]

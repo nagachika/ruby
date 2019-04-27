@@ -1,0 +1,2 @@
+r47899 の make update-gems のパス指定の変更を revert しています。
+[ruby-core:65630] [Bug #10372]

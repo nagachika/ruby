@@ -1,0 +1,2 @@
+io.c の fd が負だったら IOError 例外を発生させる処理を io_fd_check_closed() と
+いう関数に切り出すリファクタリング。

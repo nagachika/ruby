@@ -1,0 +1,6 @@
+random.c の random_ulonog_limited() で unsigned long ぶんの bit mask を生成する
+のに SIZEOF_LONG が 4 でない環境でも不要な bit shift を使わないようにしています
+。この n の値が上で sizeof(unsigned long) または sizeof(uint32_t) になっている
+ので、unsigned long が 4バイトより小さい幅しか持ってない時だけ bit shift を使う
+ほうの分岐に入るわけですね。ほとんどなさそう。この分岐はコンパイラが消してくれ
+て不要な bit shift が消えるだけになって高速になるのかも。

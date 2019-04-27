@@ -1,0 +1,3 @@
+parse.y の top_compstmt と compstmt というノードのアクションの void_stmts() と
+いう関数を ripper 用にも定義してアクション部の分岐(というか ripper 用コードのコ
+メント埋め込み)をやめています。

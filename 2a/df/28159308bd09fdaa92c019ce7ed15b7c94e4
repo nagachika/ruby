@@ -1,0 +1,4 @@
+32bit 環境の struct vm_ifunc_argc のメンバ min, max の bit field の型を明示的に
+signed int にするようにしています。 max には -1 を代入する場合があり、指定のな
+い bit field は unsigned になるので、負整数を代入した時の挙動が未定義で値が意図
+しない結果になっていたそうです。 [ruby-core:84563] [Bug #14260]

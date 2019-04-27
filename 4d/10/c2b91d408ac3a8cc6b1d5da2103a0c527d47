@@ -1,0 +1,3 @@
+拡張ライブラリ socket の struct sendmsg_args_struct、struct recvmsg_args_struct
+、struct connect_arg、struct getnameinfo_arg のメンバの順番の入れ換えで構造体サ
+イズを小さくしています。

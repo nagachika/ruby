@@ -1,0 +1,2 @@
+test/unit.rb が rake_test_loader.rb と一緒に使うと2度テストクラスを定義してしま
+うのを修正。[Bug #3972]

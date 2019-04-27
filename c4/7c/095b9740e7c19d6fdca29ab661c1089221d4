@@ -1,0 +1,3 @@
+IO, ARGF, StringIO の #lines, #bytes, #chars, #codepoints と
+Zlib::GZipReaderARGF の #lines, #bytes を deprecated にして警告を出力するように
+しています。 [ruby-core:45963] [Feature #6670]

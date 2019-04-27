@@ -1,0 +1,3 @@
+VC6 でのビルドの修正のため include/ruby/missing.h に M_PI と M_PI_2 の代替定義
+を追加するようにして、complex.c では #include <math.h> の後に "internal.h" を #
+include するようにしています。

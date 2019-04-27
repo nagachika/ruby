@@ -1,0 +1,2 @@
+Psych::ScalarScanner#parse_time が時刻のパースでタイムゾーンが [+-]HHMM のよう
+な表記に対応していなかったのを修正しています。

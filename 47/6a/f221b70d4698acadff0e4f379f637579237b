@@ -1,0 +1,4 @@
+nacl/nacl-config.rb で irt_core_xxx.nexe なるファイルを File.exacutable? でチェ
+ックしていたのを File.exist? によるチェックに変更しています。最近の nacl_sdk は
+irt_core に実行権限がついていないそうなのでそれに対応するためだそうです。
+https://github.com/ruby/ruby/pull/529

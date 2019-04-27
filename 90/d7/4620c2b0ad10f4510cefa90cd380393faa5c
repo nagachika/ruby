@@ -1,0 +1,1 @@
+ext/openssl/ossl_x509name.c ID 型を int に宣言していたところを修正しています。

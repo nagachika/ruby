@@ -1,0 +1,2 @@
+r63663 の続き。 HAVE_GETTIMEOFDAY のチェックを追加したので win32/Makefile.sub
+で生成する config.h にこのマクロの定義を出力するようにしています。

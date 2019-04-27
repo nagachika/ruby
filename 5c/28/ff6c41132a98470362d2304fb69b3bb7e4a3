@@ -1,0 +1,2 @@
+r59612 の bit field の型を enum にする変更を revert しています。unsigned ではな
+いといけなかったので enum 型じゃだめだったみたいです。

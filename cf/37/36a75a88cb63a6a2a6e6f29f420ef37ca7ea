@@ -1,0 +1,3 @@
+bignum.c の bigdivrem_normal() を引数に商と余剰を返す BDIGIT 配列を両方受け取る
+ようにして bary_divmod_normal() として再定義して bary_divmod() と bigdivrem()
+でこちらを使うように改造して不要な一時バッファの利用を抑制しています。

@@ -1,0 +1,6 @@
+benchmark ライブラリのドキュメント、コード整理、使い勝手の向上(ちょっと仕様変更
+。Benchmark.benchmark の第一引数 caption のインデントは自動で計算して付加される
+ようになった)などなどです。
+しかし Benchmark.bmbm で Object#tap を使って STDOUT.sync を元に戻しているのは、
+なるほど tap ってこういう時に嬉しいんだなーという例としておもしろく読みましたが
+、ensure 節を使うほうがいいんじゃないでしょうか。

@@ -1,0 +1,3 @@
+Enumerable#find, #detect の rdoc 用コメントのサンプルコードが detect だけ使って
+いたので find も使うようにしています。 https://github.com/documenting-ruby/ruby
+/pull/34

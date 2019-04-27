@@ -1,0 +1,5 @@
+gc.c の free_method_entry_i(), free_const_entry_i(), mark_method_entry_i(),
+mark_const_method_i() などの struct RClass::m_tbl_wrapper や
+rb_classext_t::const_tbl などの st_table の mark/free 用の関数の引数の型を
+st_data_t 型にする変更や rgengc_unprotect_logging_exit_func_i() に第3引数がなか
+ったので追加したりといった変更です。

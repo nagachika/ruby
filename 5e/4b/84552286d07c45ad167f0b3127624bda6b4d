@@ -1,0 +1,3 @@
+parse.y で "\uXXXX" のような記法の parse をする parser_tokadd_codepoint() で
+codepoint に対応する文字をバッファに追加する処理を parser_tokadd_codepoint() と
+いう関数に切り出して使いまわすようにしています。

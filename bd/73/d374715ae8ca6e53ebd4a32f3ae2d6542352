@@ -1,0 +1,6 @@
+標準添付ライブラリ net/http に Net::HTTP::STATUS_CODES という定数を追加して
+HTTP status の code から文字列表現へのマッピングを Hash として格納しています。
+lib/net/http/status.rb というファイルで追加していて、このファイルは単体でスクリ
+プトとして実行すると https://www.iana.org/assignments/http-status-codes/
+http-status-codes-1.csv からデータを取得してきて自分自身を再生成するしくみにな
+っています。 [ruby-core:78126] [Misc #12935]

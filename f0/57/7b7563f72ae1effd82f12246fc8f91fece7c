@@ -1,0 +1,3 @@
+r49112 での拡張ライブラリ openssl の CRYPTO_memcmp() の利用ですが Windows 版で
+はビルドエラーになるそうなので #if defined(_WIN32) の時はやっぱり従来の memcmp
+(3) を利用するようにするコードを残すようにしています。

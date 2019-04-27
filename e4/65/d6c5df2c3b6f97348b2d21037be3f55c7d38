@@ -1,0 +1,2 @@
+tool/update-deps を実行して common.mk の依存関係を更新して主に debug_counter.h
+への依存関係を追加しています。

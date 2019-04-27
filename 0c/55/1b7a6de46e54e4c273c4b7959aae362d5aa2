@@ -1,0 +1,3 @@
+Process.initgroups というメソッドが StringValuePtr() の結果をそのまま
+initgroups(3) に渡していて NUL 文字終端していることを期待していたので
+StringValueCStr() を使うように修正しています。 [ruby-dev:50287] [Bug #13995]

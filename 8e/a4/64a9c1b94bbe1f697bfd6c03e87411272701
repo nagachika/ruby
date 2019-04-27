@@ -1,0 +1,2 @@
+rubygems の Gem::SafeYAML で Psych のバージョンが 3.1.0.pre1 以降だったら YAML
+.safe_load の whitelist_classes キーワード引数を利用するようにしています。

@@ -1,0 +1,3 @@
+Exception を Marshal する時は backtrace メソッドで取り出す時と同様配列に変換し
+て dump するようにしています。 rb_marshal_define_compat() っていう関数があるん
+ですね。

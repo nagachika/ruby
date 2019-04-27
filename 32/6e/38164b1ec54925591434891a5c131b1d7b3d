@@ -1,0 +1,4 @@
+numeric.c の Numeric#step の引数解析で使う関数マクロ NUM_STEP_SCAN_ARGS() を最
+後の引数 inf が Float の時に実施する分岐部分だけ NUM_STEP_GET_INF() という別の
+関数マクロとして分岐して必要に応じて呼び元で呼ぶようにリファクタリングしていま
+す。

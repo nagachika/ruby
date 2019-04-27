@@ -1,0 +1,2 @@
+forwardable.rb に def_delegator のドキュメント追加しています。
+[ruby-core:36365] [Bug #4752]

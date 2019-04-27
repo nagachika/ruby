@@ -1,0 +1,2 @@
+bignum.c に STATIC_ASSERT() でコンパイル時のチェックに SIZEOF_BDIGIT_DBL、
+SIZEOF_BDIGITS や BDIGIT などの符号ありなしのチェックを追加しています。

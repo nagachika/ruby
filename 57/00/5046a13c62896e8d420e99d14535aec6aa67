@@ -1,0 +1,2 @@
+tool/downloader.rb でダウンロードのリトライ対象にする例外に Net::OpenTimeout を
+追加しています。ソケットの connect が返ってこないことも稀にありますね。

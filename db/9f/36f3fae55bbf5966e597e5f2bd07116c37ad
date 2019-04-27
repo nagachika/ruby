@@ -1,0 +1,2 @@
+拡張ライブラリ coverage の method_coverage() で未初期化で利用していた変数があっ
+たので修正。

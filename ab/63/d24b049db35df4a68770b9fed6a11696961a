@@ -1,0 +1,2 @@
+Array#[ ] や Array#[ ]= の rdoc を修正しています。 [ruby-core:46026] [Bug #
+6680]

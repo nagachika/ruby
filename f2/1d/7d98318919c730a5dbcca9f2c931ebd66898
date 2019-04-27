@@ -1,0 +1,5 @@
+set_trace_func のテストで SEGV になることがあったのを修正しています。
+set_trace_func で設定した event_hook は別の Thread で利用されているのに解放され
+る可能性があったので rb_vm_t::trace_running というメンバを追加して、VM 全体の
+trace の実行状況を保持して別の Thread が利用している可能性があったら解放しない
+ようにしています。 [ruby-dev:46141] [Bug #7032]

@@ -1,0 +1,4 @@
+rb_add_method_cfunc() と rb_add_method_cfunc_frameless() で引数の数の制限に納ま
+っているかのチェックを定義時にするようにしています。 C 実装のメソッドは通常は引
+数 15個まで、frameless なメソッドは1つまでしか引数を受け付けることができません
+。

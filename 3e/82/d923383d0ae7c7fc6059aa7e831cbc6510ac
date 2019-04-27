@@ -1,0 +1,2 @@
+make showflags で $CC, $LD, $LDSHARED のコンパイラオプションも表示するようにし
+ています。

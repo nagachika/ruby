@@ -1,0 +1,3 @@
+struct rb_trace_arg_struct を include/ruby/debug.h で rb_trace_arg_t として
+typedef して(これまでも vm_core.h で typedef されていたのですが)、こちらを宣言
+等に利用するようにしリファクタリングしています。

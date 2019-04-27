@@ -1,0 +1,4 @@
+Module#define_method, #alias_method, #undef_method, #remove_method などのメソッ
+ド定義の操作系のメソッド群を public メソッドに変更しています。これでメソッド追
+加時などに module_eval しなくても良くなりますね。 [ruby-core:83901] [Feature #
+14133]

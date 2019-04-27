@@ -1,0 +1,2 @@
+tool/rbinstall.rb の gem パッケージのインストール時に Gem::Specification#files
+をセットしていたのをやめています。もう使われてないとのこと。

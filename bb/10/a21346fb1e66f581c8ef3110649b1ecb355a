@@ -1,0 +1,8 @@
+拡張ライブラリで(組み込みのクラスにも存在しますが)構造体をwrapしたオブジェクト
+を作成するには T_DATA 型のオブジェクトを利用しますが、実際の内部表現には昔から
+ある struct RData 型と struct RTypedData 型のがあり、型情報 rb_data_type_t を含
+む RTypedData のほうが推奨されていました。このコミットではテスト用の拡張ライブ
+ラリに残っていた struct RData 型のオブジェクトを TypedData に変更し、RData 型の
+利用を deprecate に宣言しています。拡張ライブラリ作者は要注意ですね。一応
+EXPERIMENTAL とマークされているので、影響が大きすぎたら再考されるかもしれません
+が…。

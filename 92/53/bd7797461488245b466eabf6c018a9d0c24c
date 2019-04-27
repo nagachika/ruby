@@ -1,0 +1,1 @@
+ext/openssl/ossl_asn1.c で不要だった変数を除去。

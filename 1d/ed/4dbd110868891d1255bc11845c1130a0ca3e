@@ -1,0 +1,3 @@
+r32855 に関連したテストで respond_to? が false を返す時に String(), Array(),
+Integer() 等の暗黙の変換を行うメソッドが TypeError を返すというテストを追加して
+います。あと少しリファクタリング。

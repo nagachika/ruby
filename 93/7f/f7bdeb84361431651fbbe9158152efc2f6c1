@@ -1,0 +1,3 @@
+Digest で SHA384_Final() という関数のかわりに SHA512_Final という関数を呼ぶよう
+にマクロが定義されているのですが、DragonFly BSD ではそのまま SHA384_Final を利
+用するようにしています。

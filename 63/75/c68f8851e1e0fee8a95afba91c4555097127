@@ -1,0 +1,3 @@
+parse.y の mixed_error() および mixed_escape() といったマクロの本体を
+parser_mixed_error() や parser_mixed_escape() といった static 関数に切り出して
+います。

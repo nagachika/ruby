@@ -1,0 +1,3 @@
+mjit.c の mjit_mark() で rb_gc_mark() を呼ぶとそれが GC を開始してしまってデッ
+ドロックに陥る可能性があったので、一時的に mutex を unlock しておくようにしてい
+ます。

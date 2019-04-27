@@ -1,0 +1,4 @@
+regint.h で sprintf_s(), strcat_s() などの secure version (_s の suffix がつい
+ている)の文字列関係関数を利用する時の Windows 版の条件に RUBY_MSVCRT_VERSION の
+範囲での判定を追加しています。古い VC でこれらの関数がサポートされていなかった
+ようです。

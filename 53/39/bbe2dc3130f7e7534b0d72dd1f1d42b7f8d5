@@ -1,0 +1,2 @@
+Psych で YAML 形式で表示するメソッド Kernel#y を public なメソッドとして定義し
+ていたのを private method に変更しています。 [ruby-core:38913] [Bug #5184]

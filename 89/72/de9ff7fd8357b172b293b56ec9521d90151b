@@ -1,0 +1,2 @@
+r58616 と同様に rubygems の Gem::Specification#_all でもクラス変数 @all に nil
+が含まれてないかのチェックを追加しています。 CI のデバッグ用と思われます。

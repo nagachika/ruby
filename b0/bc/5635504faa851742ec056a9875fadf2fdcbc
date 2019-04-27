@@ -1,0 +1,4 @@
+r46559 で Psych::ENGINE が (YAML には Psych が代入されるので、つまりは YAML
+::ENGINE が)定義されなくなったのに rubygems が syck を使う(gem パッケージで入れ
+る時とかですね)かどうかのチェックのために参照していたので const_defined? でチェ
+ックしてから参照するようにしています。

@@ -1,0 +1,2 @@
+make test などで --disable-gems オプションつきで実行するように common.mk や
+win32/Makefile.sub を修正しています。

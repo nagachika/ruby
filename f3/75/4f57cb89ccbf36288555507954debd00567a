@@ -1,0 +1,3 @@
+missing/setproctitle.c で main() の argv を直接書き変えないようにしています。
+AIX ではここを書き変えると ps(1) コマンドの結果に影響してしまうそうです。
+[ruby-core:63998] [Feature #10090]

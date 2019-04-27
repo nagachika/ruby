@@ -1,0 +1,4 @@
+.travis.yml で Travis CI では OS X のテスト結果のみエラーを検出するようにしてい
+ます。 Linux のビルドはたまに失敗するのでノイズになっているのと、Linux は
+RubyCI で chkbuild を使ったテスト環境がいくつかあるので TravisCI は OS X 専用と
+しています。

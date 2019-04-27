@@ -1,0 +1,2 @@
+Wercker での --jit-wait オプションつきのテストで rubygems の Gem::RemoteFetcher
+のテストを除外。

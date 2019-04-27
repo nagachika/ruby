@@ -1,0 +1,4 @@
+r38070 の再修正で、Windows では executable は .bat ファイルとしてインストールさ
+れるので、TestGemInstaller#test_check_executable_overwrite_other_non_gem でテス
+トする条件は満たせないので Windows では実行しないようにしています。
+[ruby-core:50388] [Feature #7427]

@@ -1,0 +1,3 @@
+Numeric#step の引数のチェックで step や to などの引数が Numeric でない時に
+TypeError を発生させていたのをやめています。発生する例外のクラスの互換性のため
+の模様。

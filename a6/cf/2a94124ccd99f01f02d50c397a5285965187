@@ -1,0 +1,2 @@
+Array#flatten のテストに引数に展開するレベルを指定した時のテストケースを追加し
+ています。 https://github.com/ruby/ruby/pull/986

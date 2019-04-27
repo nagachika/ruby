@@ -1,0 +1,4 @@
+gcc 3.4 以降で拡張機能を利用して warn_unused_result という attribute を関数宣言
+に追加するマクロ WARN_UNUSED_RESULT() を定義して、dsymbol_alloc(),
+dsymbol_check(), dsymbol_pindown() など Symbol 管理関係の関数にこれを利用して、
+戻り値チェックされていないと警告が出力されるようにしています。

@@ -1,0 +1,2 @@
+gc.c で GC_ENABLE_INCREMENTAL_MARK と GC_ENABLE_LAZY_SWEEP のチェックで条件コン
+パイルするのが漏れていたのを修正しています。

@@ -1,0 +1,3 @@
+rgengc_rememberset_mark() で RGENGC_PROFILE が 1以上に設定してコンパイルされて
+いた時に remember set 内の normal (shady じゃない)オブジェクト数と shady なオブ
+ジェクト数をプロファイル情報として取得するように追加しています。

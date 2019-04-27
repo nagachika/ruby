@@ -1,0 +1,2 @@
+標準添付ライブラリ uri の URI.hierarchical? メソッドの rdoc 用コメントの typo
+修正。 https://github.com/ruby/ruby/pull/1851

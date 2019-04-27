@@ -1,0 +1,5 @@
+r62446 で clockid_t の型チェックを RB_REPLACE_TYPE() のほうにまとめましたが、
+RB_REPLACE_TYPE() で AC_CHECK_TYPE() を使っていたのを AC_CHECK_TYPES() を使うよ
+うに変更しています。 AC_CHECK_TYPE() のほうは HAVE_xxx マクロを定義しないので
+RB_REPLACE_TYPE() は AC_CHECK_TYPES() のかわりに使えなかったようです。
+[ruby-core:85659] [Bug #14494]

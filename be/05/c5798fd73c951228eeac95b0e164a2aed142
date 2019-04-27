@@ -1,0 +1,4 @@
+fix_gt(), fix_ge(), fix_lt(), fix_le() などの Fixnum の比較関数で第2引数が
+Bignum だった時の比較に不要な型変換があったので rb_big_cmp() にまかせるようにし
+て、結果も FIX2INT() で int に戻して符号判定するのではなく INT2FIX(+1) や
+INT2FIX(-1) で Fixnum を作ってそれとの比較をするようにしています。

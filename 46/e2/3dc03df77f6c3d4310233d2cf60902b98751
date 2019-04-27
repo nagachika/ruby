@@ -1,0 +1,3 @@
+Process.exec や spawn の引数を解析する rb_execarg_init() も struct rb_execarg
+ではなくてそれをくるんだオブジェクト(VALUE 型)を引数に受け取るようにリファクタ
+リングしています。

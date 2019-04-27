@@ -1,0 +1,4 @@
+refinement で Class/Module の拡張する Module を管理する omod *1の有無で
+search_method() を search_method_with_omod() と search_method_without_omod() に
+わけて、Module#using を使っていない時にループ内に余分な分岐が入らないようにして
+います。実行時のパフォーマンスのための変更だとお思われます。

@@ -1,0 +1,3 @@
+rb_iseq_trace_set() に渡された iseq の iseq->flags に ISEQ_USE_COMPILE_DATA ビ
+ットフラグが立っていたら rb_bug() で異常終了させるようにしています。 trace 有効
+化する時点でこのフラグが立ってることはないはずとのこと。

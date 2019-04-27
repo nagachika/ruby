@@ -1,0 +1,2 @@
+configure で __ARCHITECTURE__ というマクロが定義されているかのチェックを行う位
+置を CFLAGS の置換前に移動しています。

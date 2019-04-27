@@ -1,0 +1,2 @@
+ENV に Hash#slice と同様のメソッド ENV.slice を追加しています。 2.5 で追加され
+たメソッドですね。 [ruby-core:85858] [Feature #14559]

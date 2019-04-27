@@ -1,0 +1,2 @@
+positive_int_p() と negative_int_p() に Fixnum と Bignum の時にはメソッドを呼び
+出しせず直接比較などをするように最適化しています。

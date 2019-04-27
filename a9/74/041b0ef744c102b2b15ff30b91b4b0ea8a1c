@@ -1,0 +1,5 @@
+Module#prepend で Module を差し込んだ時に Module#< や Module#> で比較した時の結
+果がおかしかったのを修正しています。 Module#include は対象の Module/Class の上
+流に別の Module を差し込みますが、Module#prepend は前に入れるので、順序を逆に判
+定します。つまり A.prepend B したら B < A が true。 [ruby-core:72493] [Bug #
+11878]

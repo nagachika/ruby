@@ -1,0 +1,3 @@
+標準添付ライブラリ rinda の Rinda::RingFinger#make_socket で setsockopt と
+connect の呼び出しで例外が発生した時に socket を閉じ忘れていたのを修正していま
+す。

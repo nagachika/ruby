@@ -1,0 +1,2 @@
+Thread#value の rdoc 用コメントに Thread で例外が発生していた時にそれが raise
+される挙動について追記しています。 [ruby-core:67324] [Bug #10694]

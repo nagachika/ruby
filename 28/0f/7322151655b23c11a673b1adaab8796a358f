@@ -1,0 +1,5 @@
+拡張ライブラリ openssl で SSL_CTX_set_mode() でセットするフラグに
+SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER というのを追加しています。 SSL_write() で書
+き込みが割り込まれてリトライする時に、前回渡したのと同じバッファのアドレスでな
+いといけなかったのを、移動できるようにするフラグだそうです。 [ruby-core:74051]
+[Bug #12126]

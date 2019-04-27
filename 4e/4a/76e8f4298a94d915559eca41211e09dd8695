@@ -1,0 +1,2 @@
+parse.y で PARSER_DEBUG が真に定義されている時に lex_state が更新される時に
+printf(3) でデバッグ出力するようにしています。 yugui さんのコミットです!!

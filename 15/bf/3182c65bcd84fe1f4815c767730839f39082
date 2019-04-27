@@ -1,0 +1,6 @@
+ext/extmk.rb で生成する exts.mk に ruby 本体のターゲットもあって、make で通常の
+Makefile を実行させようとしているのですが、--disable-shared の時に EXTOBJS に
+ENCOBJS (エンコーディング関連のオブジェクトファイル)を含めて make の変数に渡す
+ようにしています。 exts.mk の中になんで ruby 本体のルールがあるのかなーと思った
+けど static link 版の時のため? と思ったけど先日の --with-static-linked-ext の修
+正より前からありますね。

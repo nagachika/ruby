@@ -1,0 +1,4 @@
+r56558 で修正したと思いきや実は直ってなかったメモリ管理の不具合修正。
+heap_page_allocate() で page を追加する時に heap_pages_sorted の容量が足りなく
+なってたら realloc するようにしています。 r59126 で追加した KNOWNBUG.rb のテス
+トも削除しています。 [ruby-core:76837] [Bug #12670]

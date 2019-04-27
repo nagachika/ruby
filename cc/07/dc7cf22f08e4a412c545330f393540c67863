@@ -1,0 +1,5 @@
+rb_thread_fd_select() で timer thread との通信用の pipe の fd を
+rb_sigwait_fd_get() で取得するのは、引数の rb_fdset_t が空っぽでただの
+rb_thread_sleep_forever() や rb_thread_wait_for() に fallback する分岐の後に移
+動しています。pipe の取得がそれなりにコストかかるので無駄に実行しないようにして
+いるのかと重います。

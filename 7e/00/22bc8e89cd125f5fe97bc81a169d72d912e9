@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::Parsers::SAX2Parser で、いまいちよくわかって
+いませんが ENTITY タグの属性に % があった時の挙動を修正しているようです。

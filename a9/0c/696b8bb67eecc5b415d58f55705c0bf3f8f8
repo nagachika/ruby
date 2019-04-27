@@ -1,0 +1,2 @@
+というわけで r59156 は revert して rb_catch_protect() の引数の型を int * から
+enum ruby_tag_type * に変更しています。

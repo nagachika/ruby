@@ -1,0 +1,2 @@
+WEBrick の openssl のテストで SSLContext#tmp_dh_callback を設定するようにしてい
+ます。最近追加された機能かなと思いましたがそうでもないですね。

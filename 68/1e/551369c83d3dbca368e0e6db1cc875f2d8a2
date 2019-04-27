@@ -1,0 +1,2 @@
+そして、taint する時には OBJ_INFECT マクロを使用するように error.c で徹底してい
+ます。

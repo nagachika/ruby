@@ -1,0 +1,6 @@
+標準添付ライブラリ webrick の WEBrick::Utils::TimeoutHandler で 0.5 秒おきにタ
+イマー用の Thread が起きてタイムアウトしている Thread がないかチェックをしてい
+ましたが、次に起こすべき Thread が存在する時刻まで(なければ引数なしの sleep で
+無期限に)眠るようにしています。 sleep 中に WEBrick::Utils::TimeoutHandler#
+register で追加された条件が反映されないのでは、と思いましたがそれは次の r51235
+で対応されてました。

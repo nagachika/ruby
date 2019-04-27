@@ -1,0 +1,2 @@
+finalizer 中の SIGINT 受信時のテストで Solaris 上で psig(1) を使って signal
+mask を表示させるようにしています。 CI のテストの調査のため。

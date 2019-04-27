@@ -1,0 +1,4 @@
+r38672 の Hash#merge の rdoc の変更のうち、追記部分のみ revert しています。
+Hash#merge は引数の Hash の値をコピーしないということなのですが、sample code 自
+体は間違ってはいないと思いますけどね。コピーするという表現はおかしいと思います
+けど。 https://github.com/ruby/ruby/pull/228#issuecomment-11791013

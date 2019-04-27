@@ -1,0 +1,2 @@
+標準添付ライブラリの shell も default gem 化しています。 shellwords じゃなくて
+shell っていうライブラリも、そういえばありましたねぇ。

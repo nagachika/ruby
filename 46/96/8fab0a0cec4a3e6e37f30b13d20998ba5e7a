@@ -1,0 +1,2 @@
+String#% メソッドの Kernel#sprintf の参照の記法を Kernel::sprintf から修正して
+います。

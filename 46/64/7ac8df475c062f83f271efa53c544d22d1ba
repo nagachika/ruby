@@ -1,0 +1,2 @@
+Unicode の casemap 処理で DOTLESS_i の文字の upcase だけは専用の分岐を入れてい
+ます。 folding に含まれてないからとのこと。

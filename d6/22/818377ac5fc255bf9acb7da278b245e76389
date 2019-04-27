@@ -1,0 +1,3 @@
+eval_string_with_cref() でブロックの cref をコピーして使うことで eval 内で
+main.using で Refinements を適用した時にそれが eval の外にも影響してしまう不具
+合を修正しています。 [ruby-core:56329] [Bug #8722]

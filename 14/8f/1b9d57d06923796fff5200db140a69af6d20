@@ -1,0 +1,5 @@
+Fixnum どうしの積を計算するための関数 rb_fix_mul_fix() を導入して VM 命令
+opt_mul や関数 fix_mul(), time.c の mul() などで利用するようにしています。また
+そこで long よりもビット幅が大きな型(つまり long x long をしても桁があふれない
+整数型)を DLONG として定義して、rb_fix_mul_fix() で DLONG が定義されていればそ
+れを使って分岐をなくす最適化を施しています。

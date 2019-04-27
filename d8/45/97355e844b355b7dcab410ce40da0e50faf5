@@ -1,0 +1,4 @@
+File.readable?, File.readable_real?, File.writable?, File.writable_real?,
+File.executable?, File.executable_real? などのメソッドの rdoc 用コメントにグル
+ープも考慮するように追記しています。また access(3) と eaccess(3) についても言及
+しています。 https://github.com/ruby/ruby/pull/1007

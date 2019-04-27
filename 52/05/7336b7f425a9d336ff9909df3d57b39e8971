@@ -1,0 +1,6 @@
+構造体 NODE のメンバー nd_loc を nd_crange と改名して、全体的に location (loc)
+はコード上の1点の位置(行, カラムからなる)を示すもの、code range (crange, cr) は
+開始位置と終了位置を持つ範囲のことを指すように型や変数、引数名などを変更してい
+ます。
+code range (cr) というと文字列の Encoding 絡みの code range のほうも連想してし
+まいますね。まあだいたい文脈でわかると思いますけど。

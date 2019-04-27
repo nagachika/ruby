@@ -1,0 +1,3 @@
+MJIT 用のヘッダ mjit_config.h の生成時にファイル名にバージョン番号を含めるのを
+mjit.c の処理内でしていたのを Makefile.in や win32/Makefile.sub の定数定義の時
+点でやっておくようにしているようです。

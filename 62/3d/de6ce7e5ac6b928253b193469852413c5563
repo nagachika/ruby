@@ -1,0 +1,5 @@
+enc/trans/JIS/JISX*.src や enc/trans/JIS/UCS%JISX*.src のヘッダ部分のコメントの
+copyright などの表記を更新しています。ざっと読んだだけですがチケットの報告者に
+よればこれらは Unicode.org の再配布不可なバージョンのファイルで、新しいバージョ
+ンのものを含めるべきだということで更新したみたいです。 [ruby-core:72379] [Bug #
+11844]

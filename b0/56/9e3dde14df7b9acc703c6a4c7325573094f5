@@ -1,0 +1,2 @@
+Solaris 10 にて vm_insnhelper.h のマクロ名が衝突していて警告が出ていたので
+VM_REG_ の prefix を付けるように改名しています。 [ruby-dev:49693] [Bug #12527]

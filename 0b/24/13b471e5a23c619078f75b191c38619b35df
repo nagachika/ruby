@@ -1,0 +1,3 @@
+bignum.c に文字列から整数に変換する rb_str2big_poweroftwo() (基数が2の累乗の時
+に使える最適化版)、rb_str2big_normal()、rb_str2big_karatsuba() などの関数を追加
+して internal.h で ruby core 内で利用可能にしています。

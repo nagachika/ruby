@@ -1,0 +1,2 @@
+オブジェクトの使用メモリを集計する処理の Thread (rb_thread_t) の集計で
+local_storage のサイズが漏れていたのを修正しています。 [ruby-dev:43659]

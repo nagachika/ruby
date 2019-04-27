@@ -1,0 +1,2 @@
+Windows 版の File::Stat#birthtime などの実装を追加しています。 stat_ctime() で
+代替しています。 Windows では ctime が created time となっているため。

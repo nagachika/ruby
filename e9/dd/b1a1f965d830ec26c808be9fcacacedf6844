@@ -1,0 +1,5 @@
+tool/rbinstall.rb で fakegem のインストールのための gemspec の扱いを変更してい
+るようです。よく違いがわかっていませんが、その場で defs/default_gems の情報から
+バージョン番号などを正規表現など使って抜き出して gemspec ファイルを生成していた
+のを Module に分離して、元々 gemspec ファイルがあればそれをそのまま使うようにし
+ています。

@@ -1,0 +1,4 @@
+r51983 の追加修正。 token_info_pop() で indent のずれの警告を出すために
+token_info_get_column() や token_info_has_nonspaces() で情報を取得するのを
+parser->token_info_enabled のチェック後にして不要なチェックを省くようにしている
+みたいです。

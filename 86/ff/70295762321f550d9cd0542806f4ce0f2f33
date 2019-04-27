@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#servername_cb で新たな
+OpenSSL::SSL::SSLContext オブジェクトを返した場合にそれが GC で回収されてしまわ
+ないように、ブロックから返されたオブジェクトを OpenSSL::SSL::SSLSocket の
+@context にセットしなおすようにしています。

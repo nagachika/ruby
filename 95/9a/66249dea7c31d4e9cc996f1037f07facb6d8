@@ -1,0 +1,2 @@
+r44312 で追加した resolv.rb のテストで利用するようになった tempfile の require
+を追加しています。

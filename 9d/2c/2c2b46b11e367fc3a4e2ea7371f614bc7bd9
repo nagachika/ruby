@@ -1,0 +1,3 @@
+r43522 で setjmp(3) の未定義の使用法を回避するために導入した
+ruby_threadptr_tag_jump() を rb_threadptr_tag_jump() に改名しています。他の
+rb_threadptr_ で始まる関数群にそろえているようです。

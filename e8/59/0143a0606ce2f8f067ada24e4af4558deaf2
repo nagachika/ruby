@@ -1,0 +1,2 @@
+add_packed_direct() のほうも r34319 で packed の時に do_hash() を呼ぶようにした
+のを revert しています。

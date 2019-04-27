@@ -1,0 +1,3 @@
+bignum.c の rb_absint_size() および rb_absint_numwords() の仮引数名の改名と
+rdoc の追加。また rb_absint_numwords() でオーバフロー発生時に (size_t)-1 を返す
+ように仕様を追加しています。

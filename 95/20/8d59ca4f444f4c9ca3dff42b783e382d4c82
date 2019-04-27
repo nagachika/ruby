@@ -1,0 +1,3 @@
+.gitignore の MJIT 用のヘッダの arch 毎の minimize 版のファイルのエントリのファ
+イル名パターンに min が抜けてたので修正しています。 https://github.com/ruby/
+ruby/pull/1822

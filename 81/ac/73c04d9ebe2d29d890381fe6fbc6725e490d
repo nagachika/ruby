@@ -1,0 +1,2 @@
+標準添付ライブラリ logger の Logger#initialize の rdoc 用コメントで第2引数
+shift_age の省略時の値を 0 に修正しています。

@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle に同梱されている ext/fiddle/lib/fiddle/import.rb で定数名
+を typo していたのを修正しています。 https://github.com/ruby/ruby/pull/714 [Bug
+#10241]

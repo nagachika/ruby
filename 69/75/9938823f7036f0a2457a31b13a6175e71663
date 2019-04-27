@@ -1,0 +1,2 @@
+coverage のテストで assert_coverage という専用の assertion を追加してこれを利用
+するようにしています。

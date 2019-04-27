@@ -1,0 +1,3 @@
+misc/lldb_cruby.py の lldb_rp でさらに debugger.HandleCommand() を使ってたとこ
+ろを r64902 で追加した append_command_output() を使うようにリファクタリングして
+います。

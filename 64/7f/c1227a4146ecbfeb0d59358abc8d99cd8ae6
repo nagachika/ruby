@@ -1,0 +1,5 @@
+Mutex#synchronize の実装で unlock する時にその Thread が Mutex の owner じゃな
+かった時に unlock 処理をスキップするようにしています。なんかまた危険そうな香り
+がしますねー。まあでも mutex->th のチェック後に割り込みとかでその thread 自身が
+セットされるというのはないか…。というか synchronize のような使いかたで unlock
+時に owner が変わってるってどういう状態なんだろ。

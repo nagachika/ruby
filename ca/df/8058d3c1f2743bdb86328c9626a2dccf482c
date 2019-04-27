@@ -1,0 +1,2 @@
+configure.in で RUBY_CHECK_SIGNEDNESS の定義の前のコメントで RUBY_CHECK_SIZEOF
+と typo していたのを修正しています。

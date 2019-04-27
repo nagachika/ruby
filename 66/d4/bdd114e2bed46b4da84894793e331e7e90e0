@@ -1,0 +1,2 @@
+configure --without-sitedir, --without-vendordir 等が指定された時に LOAD_PATH
+にこれらのディレクトリが含まれないようにしています。[Bug #4076]

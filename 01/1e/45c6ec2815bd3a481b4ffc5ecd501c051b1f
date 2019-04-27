@@ -1,0 +1,4 @@
+r56326 の拡張ライブラリ readline の rl_char_is_quoted_p 対応で NUL 終端した文字
+列を期待した rb_locale_str_new_cstr() を使っていたところで文字列長がわかってい
+るので rb_locale_str_new() を使うように修正しています。 [ruby-core:76750]
+[Feature #12659]

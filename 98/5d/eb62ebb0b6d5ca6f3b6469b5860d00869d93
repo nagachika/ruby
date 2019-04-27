@@ -1,0 +1,5 @@
+test-all のユーティリティ test/ruby/envutil.rb で子プロセスのシグナルによる終了
+の時のシグナル名称を検索するのに 2.0 で追加された Signal.signame を使うようにし
+て、また assert_ruby_status で子プロセスのステータスチェックをする時に
+Process::Status の inspect 結果もメッセージに埋め込むように戻しています。また
+signal.c でシグナルのリストで SIGIOT と SIGABRT の順番を入れ替えています。

@@ -1,0 +1,2 @@
+bignum.c のリファクタリング。 bigdivrem() で bigdivrem_single() の戻り値を受け
+取るのに BDIGIT_DBL を使っていたのを BDIGIT で受け取るようにしています。

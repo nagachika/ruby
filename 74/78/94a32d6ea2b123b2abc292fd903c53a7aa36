@@ -1,0 +1,4 @@
+bignum.c に rb_absint_singlebit_p() という関数を定義して time.c の v2w_bignum()
+から利用するようにしています。このため不要になった rb_big_abs_find_minbit() の
+定義を削除しています。しかしどうもこの後この関数は利用されなくなったみたいです
+。

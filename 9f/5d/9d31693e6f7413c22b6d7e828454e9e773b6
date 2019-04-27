@@ -1,0 +1,3 @@
+r65232 の win32/Makefile.sub で定義する変数名を MJIT_SUPPORT から USE_MJIT に変
+更しています。 MJIT_SUPPORT は RbConfig::CONFIG のキーで Makefile の変数名は
+USE_MJIT でしたか。

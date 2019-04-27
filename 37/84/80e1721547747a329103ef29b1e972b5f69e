@@ -1,0 +1,2 @@
+r46831 の Onigmo (鬼雲) 5.14.1 による Unicode 7.0 のサポートに追随して enc/
+unicode/name2ctype.h.blt を更新しています。

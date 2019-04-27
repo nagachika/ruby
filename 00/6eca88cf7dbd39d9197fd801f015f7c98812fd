@@ -1,0 +1,2 @@
+r43685 の at_exit のブロック内での callcc のテストで assert に system を渡して
+いたところを assert_normal_exit を利用するように修正しています。

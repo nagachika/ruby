@@ -1,0 +1,2 @@
+Process.times のドキュメントに返り値の Process::Tms の説明を少し詳しくするなど
+改善しています。 [ruby-core:35785] [Bug #4581]

@@ -1,0 +1,3 @@
+標準添付ライブラリ thwait.rb の ThreadWait.all_waits の rdoc 用コメントの typo
+修正。[DOC] タグをつけとかないといけませんね。 https://github.com/ruby/ruby/
+pull/435

@@ -1,0 +1,8 @@
+lib/tracer.rb で -r オプションでロードした時だけ Tracer.on を実行するようにする
+ためのチェックで custom_require.rb がバックトレースに現れるのでそれを除去してい
+るのを RubyGems 2.0 で custom_require.rb が rubygems/core_ext/kernel_require.rb
+に変わったので修正しています。
+なんか見覚えがあると思ったら自分が対処して、require まわりが変わったらまた壊れ
+そうだなぁと言ってた部分ですね。つまり RubyGems 2.0 を 1.9 以前で使うとまた
+Tracer.on が壊れますね。参考: http://d.hatena.ne.jp/nagachika/20110629/
+ruby_trunk_changes_32273_32285

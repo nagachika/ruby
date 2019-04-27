@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole のテストで ole_instance_variable_get のテストに使う
+VT_RECORD のタイプと変数名を変更しています。

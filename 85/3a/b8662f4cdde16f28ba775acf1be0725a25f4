@@ -1,0 +1,2 @@
+拡張ライブラリ stringio の StringIO#ungetc で引数に渡された整数が Encoding に対
+する codepoint として不正な時に RangeError が発生するようにしています。

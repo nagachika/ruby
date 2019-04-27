@@ -1,0 +1,2 @@
+compile.c でオブジェクトの TYPE() で switch 文で分岐していたのを RB_TYPE_P() や
+FIXNUM_P(), NIL_P() などのマクロを使った分岐に変更しています。

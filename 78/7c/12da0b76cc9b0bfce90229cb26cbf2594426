@@ -1,0 +1,4 @@
+Thread.control_interrupt のテストで Thread が特定のブロックに入るのを待つために
+Queue を使っていたのですが、Queue#<< の実行で Mutex#synchronize を使っていてこ
+こで例外が rescue で捕捉されて無視されてしまうタイミングが存在したので Queue を
+使うのをやめて変数を使って Thread.pass で待つようにしています。

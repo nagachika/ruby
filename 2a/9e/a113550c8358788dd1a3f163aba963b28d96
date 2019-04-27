@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick で WEBrick::GenericServer#initialize で shutdown の
+通知用の pipe を初期化する位置を前のほうに移動して race condition を防いでいま
+す。また後始末の処理を別メソッドに切り出しています。

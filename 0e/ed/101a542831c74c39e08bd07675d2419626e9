@@ -1,0 +1,3 @@
+test/mkmf/base.rb および test/mkmf/test_config.rb のトップレベルでグローバル変
+数 $extmk を true に初期化するようにしています。並列でテスト実行時に $extmk の
+設定を効かせるためだそうです。

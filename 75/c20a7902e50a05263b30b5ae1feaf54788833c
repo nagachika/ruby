@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb で既に不要になっていた skip を削除しています
+。

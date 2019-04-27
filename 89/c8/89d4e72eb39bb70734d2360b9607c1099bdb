@@ -1,0 +1,2 @@
+TracePoint#klass を TracePoint#defined_class に改名しています。
+[ruby-core:50187] [Feature #6895]

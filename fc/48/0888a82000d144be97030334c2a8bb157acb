@@ -1,0 +1,5 @@
+tool/update-deps で preprocessor が出力した *.i ファイルが clang の場合カレント
+ディレクトリが出力されないこともあるそうでその場合は read_single_cc_deps から
+yield して適切なパスをブロックから返すようにしています。詳細追ってませんが enc/
+の下のファイルの時は特別扱いしていますね。おそらく #include するほうで "enc/
+xxx" と enc から含んだ書きかたをするからではないかと。

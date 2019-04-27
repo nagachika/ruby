@@ -1,0 +1,5 @@
+struct RStruct という構造体および関連するマクロ類の定義を include/ruby/ruby.h
+から internal.h に移動して外部の拡張ライブラリから直接中身が見えない opaque な
+構造体にして RSTRUCT_LEN(), RSTRUCT_GET(), RSTRUCT_SET() といったマクロから関数
+呼び出しを使って中身にアクセスさせるようにしています。 [ruby-core:62982]
+[Feature #9916]

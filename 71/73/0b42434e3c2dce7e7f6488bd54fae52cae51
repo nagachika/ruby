@@ -1,0 +1,3 @@
+テスト用のライブラリ test/lib/test/unit で複数の assertion の結果をまとめて報告
+する all_assertions というメソッドを追加して、これまで個別に似たようなことをし
+ていた部分をこの all_assertions の利用におきかえています。

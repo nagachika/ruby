@@ -1,0 +1,3 @@
+ext/psych/lib/psych/scalar_scanner.rb の後置 rescue に例外クラスが書かれていた
+記法が修正されています。昨日の pull request が取り込まれて ruby のリポジトリに
+帰ってきました。

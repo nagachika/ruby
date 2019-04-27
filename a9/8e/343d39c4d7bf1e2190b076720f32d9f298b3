@@ -1,0 +1,7 @@
+finalizer で GC が終わってから後で実行するための処理を登録しておく
+postponed_job の実行関数 rb_postponed_job_flush() で rb_thread_t::errinfo を保
+存しておいて、nil でクリアした状態で postponed_job を実行するようにしています。
+Sync_m と Queue を finalizer で使うと SEGV することがある不具合があったのを修正
+しているそうです。より一般的には finalizer の処理内で例外が発生した時に外側の
+errinfo を上書きしてしまって問題が発生していたそうです。 [ruby-core:58652] [Bug
+#9168]

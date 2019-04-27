@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で TLSv1.1 と TLSv1.2 のサポートを追加しています。
+OpenSSL::SSL::SSLContext#ssl_version= で :TSLv1_1 と :TSLv1_2 が指定可能になり
+、OpenSSL::SSL::SSLSocket#ssl_version で利用しているバージョンが取得できるよう
+になりました。

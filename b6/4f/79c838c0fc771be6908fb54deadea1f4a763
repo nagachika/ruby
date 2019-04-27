@@ -1,0 +1,4 @@
+win32/win32.c で DLN_FIND_EXTRA_ARG_DECL, DLN_FIND_EXTRA_ARG に codepage 指定の
+引数を追加してから dln.h と dln_find.c を #include するようにしています。
+r41702 で dln_find_exe_r() dln_find_file_r() の引数を追加できるようにマクロを挿
+入しておいたのがここで利用されるみたいです。

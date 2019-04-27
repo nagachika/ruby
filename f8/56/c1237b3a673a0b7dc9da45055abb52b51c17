@@ -1,0 +1,3 @@
+TracePoint の C API のテスト用拡張ライブラリ ext/-test-/tracepoint/tracepoint.c
+で複数の static 変数を構造体として宣言してマシンスタック上に確保するようにして
+います。

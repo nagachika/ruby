@@ -1,0 +1,3 @@
+vm_search_super_method() で引数の struct rb_call_info::mid を上書きしていたのを
+、ローカル変数で代替して弄らないようにしています。そして引数には const 修飾子を
+つけています。

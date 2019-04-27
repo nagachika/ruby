@@ -1,0 +1,4 @@
+r45987 の win32/Makefile.sub での nextafter の MISSING への追加を RT_VER が 120
+以下の時だけ追加するように再修正しています。また、ついでに finite.obj と
+isnan.obj も追加しています。新しい環境だと nextafter(3) が存在するみたいですね
+。 [ruby-core:62562] [Feature #9834]

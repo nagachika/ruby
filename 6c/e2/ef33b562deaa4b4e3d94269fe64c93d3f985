@@ -1,0 +1,1 @@
+Range#first と Range#last に不正な引数を渡した時のテストを追加しています。

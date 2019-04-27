@@ -1,0 +1,3 @@
+r52764 の net/http の keep-alive 時の再接続対応の再修正。@socket.io に対して
+to_io を呼び出しておくようにしています。おそらく https で OpenSSL::SSL
+::SSLSocket が入っている場合のための対応かな。

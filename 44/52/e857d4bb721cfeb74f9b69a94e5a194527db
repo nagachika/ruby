@@ -1,0 +1,3 @@
+Array#& で引数(右辺値)が空配列の時にすぐ空配列を返すショートカットの最適化を
+receiver が空の時も有効にするようにしています。 https://github.com/ruby/ruby/
+pull/1938

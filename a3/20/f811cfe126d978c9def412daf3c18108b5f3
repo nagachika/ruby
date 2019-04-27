@@ -1,0 +1,3 @@
+r53731 の CGI.escape の拡張ライブラリ化で CHAR_BIT が8以上ある環境を考慮して上
+位4bitを得る時にビットマスクを追加しています。 https://github.com/ruby/ruby/
+pull/1238

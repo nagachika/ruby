@@ -1,0 +1,3 @@
+enc_set_index() を String や Regexp などの Encoding と関連しないオブジェクトが
+引数に渡された時に rb_bug() で異常終了していたのを ArgumentError 例外の発生に変
+更しています。

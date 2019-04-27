@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle や stringio, win32ole, zlib などでも ArgumentError の例外
+を独自に発生させていたところで rb_check_arity() や rb_error_arity() を利用する
+ようにして r52264 の ArgumentError の例外メッセージの変更に追随するようにしてい
+ます。 [Feature #9025]

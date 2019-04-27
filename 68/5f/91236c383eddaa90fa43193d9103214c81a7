@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の BigDecimal.save_rounding_mode の rdoc 用コメントの
+メソッド名 typo 修正。

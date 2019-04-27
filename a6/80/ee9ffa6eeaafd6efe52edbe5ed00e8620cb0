@@ -1,0 +1,3 @@
+r45700 の rb_sym2id() や rb_sym2id_without_pindown() で Symbol 以外の VALUE が
+渡された時の挙動を 0 を返すのではなくて TypeError 例外を発生させるようにしてい
+ます。

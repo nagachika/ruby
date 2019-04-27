@@ -1,0 +1,7 @@
+include/ruby/debug.h で公開している rb_tracepoint_attr_*() という API を
+rb_tracearg_*() という引数を VALUE 型から struct rb_trace_arg_struct * に変更し
+た API に変えています。 VALUE からの構造体ポインタの取り出しの手間を省いて効率
+的にしているのでしょう。 rb_tracepoint_attr_*() も接頭語の rb_ を削って static
+関数として残っています(メソッドの定義に使うため)。
+これらの公開 API は debugger, profiler から利用するために提供されているもので、
+いずれドキュメントが書かれるそうです。

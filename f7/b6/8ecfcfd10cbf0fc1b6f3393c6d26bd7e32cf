@@ -1,0 +1,2 @@
+標準添付ライブラリ test/unit の Test::Unit::Assertions#assert の第2引数(メッセ
+ージ)に nil が渡されるのを許容するようにしています。

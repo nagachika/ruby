@@ -1,0 +1,3 @@
+fiber_machine_stack_alloc() で Fiber 用の machine stack に mprotect でスタック
+オーバーフロー検出用の guard page 設定に失敗した時のメッセージに strerror
+(errno) の結果も含めるようにしています。

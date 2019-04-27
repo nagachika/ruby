@@ -1,0 +1,3 @@
+dbm の extconf.rb で dbm_pagfno(), dbm_dirfno() の存在チェックのための
+have_func() にコンパイラへのオプション -DDB_DBM_HSEARCH を追加するようにしてい
+ます。

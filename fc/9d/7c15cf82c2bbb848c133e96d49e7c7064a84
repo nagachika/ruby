@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の extconf.rb で OPENSSL_FIPS マクロのチェックをして
+HAVE_OPENSSL_FIPS を定義していたのを削除して、OPENSSL_FIPS を直接 #ifdef でチェ
+ックするようにしています。

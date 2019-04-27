@@ -1,0 +1,2 @@
+標準添付ライブラリ rdoc に含まれている jQuery のバージョンを更新しています。
+https://github.com/jquery/jquery/pull/474 https://github.com/ruby/ruby/pull/711

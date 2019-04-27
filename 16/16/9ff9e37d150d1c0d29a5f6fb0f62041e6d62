@@ -1,0 +1,2 @@
+win32/Makefile.sub の MISSING という変数に nextafter.obj を追加しています。
+r45982 で追加した missing/nextafter.c の Windows 向けビルド対応です。

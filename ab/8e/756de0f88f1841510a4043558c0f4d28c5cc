@@ -1,0 +1,2 @@
+r59099 の変更で json のテストに require "bigdecimal" が必要になっていたので追加
+しています。

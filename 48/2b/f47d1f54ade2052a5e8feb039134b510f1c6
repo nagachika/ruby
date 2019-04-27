@@ -1,0 +1,4 @@
+関数マクロ BLOCKING_REGION() の fail_if_interrupted が偽の時(つまり
+rb_thread_call_without_gvl() 経由で呼ばれる時) blocking_region_begin() が常に真
+を返すためその結果を無視するようにしています。よくわかりませんがコンパイラの警
+告を除去するのが目的のようです。

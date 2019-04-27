@@ -1,0 +1,2 @@
+URI.decode_www_form_component の rdoc の typo 修正。 http://github.com/ruby/
+ruby/issue/289

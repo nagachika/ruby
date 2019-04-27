@@ -1,0 +1,7 @@
+r58487 の Warning#write メソッドの追加を revert して Warning::buffer という
+String を継承した内部的クラスを導入して(名前が大文字で始まってないので定数から
+参照できない)、そこに write メソッドを追加して、 rb_str_tmp_new() で生成した一
+時的文字列オブジェクトの klass をこの内部的クラスにしてから rb_io_puts() を使っ
+て複数行の文字列を1つの String オブジェクトに組み立ててから
+rb_write_warning_str() を呼ぶようにしています。うーん細かい。 [ruby-core:80875]
+[Feature #12944]

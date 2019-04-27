@@ -1,0 +1,4 @@
+Thread#fetch でのキーが存在しない時の KeyError 例外の発生に rb_key_err_raise()
+を利用するようにして KeyError#receiver、#key がセットされるようにしています。セ
+ットされないと did_you_mean での suggest が効かないというのもあるみたいでした。
+[ruby-core:84508] [Bug #14247]

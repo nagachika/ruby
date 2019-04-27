@@ -1,0 +1,6 @@
+標準添付ライブラリ webrick と cgi で HTTP ヘッダの Cookie をパースする時に複数
+の Cookie を "," で区切って並べる記法を受け付けないようにしています。
+[ruby-core:77416] [Bug #12791]
+この挙動が元で Python のフレームワーク django で脆弱性の修正として同様の修正を
+しているようです。 https://gist.github.com/mala/
+457a25650950d4daf4144f98159802cc

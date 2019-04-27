@@ -1,0 +1,3 @@
+テストに使うメモリ使用量計測のライブラリで test/ruby/envutil.rb のメソッドを使
+っていたのですが EnvUtil の指定がなくて NoMethodError になっていたのを修正して
+います。 [ruby-core:50599] [Bug #7523]

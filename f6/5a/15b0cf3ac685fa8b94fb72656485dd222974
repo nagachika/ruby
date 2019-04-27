@@ -1,0 +1,2 @@
+拡張ライブラリ etc の Etc.nprocessors の rdoc 用コメントに affinity 設定を意識
+する実装は Linux 専用なのを少し強調するようにしています。

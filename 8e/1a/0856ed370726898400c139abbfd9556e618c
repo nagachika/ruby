@@ -1,0 +1,4 @@
+rb_class_boot(), rb_make_metaclass(), rb_class_inherited(),
+rb_include_class_new() などの Class/Module についての関数群の宣言を include/
+ruby/intern.h から internal.h に移動して、外部(標準添付されない拡張ライブラリ)
+に公開されないようにしています。

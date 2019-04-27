@@ -1,0 +1,2 @@
+doc/regexp.rdoc のバックスラッシュについての扱いの例を追加しています。 https://
+github.com/ruby/ruby/pull/1677

@@ -1,0 +1,2 @@
+Process.maxgroups のテストで Process.maxgroups が正の数を返すことをチェックする
+テストを追加しています。

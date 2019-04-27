@@ -1,0 +1,3 @@
+どういう機能かよく調べていませんが、拡張ライブラリ openssl で OpenSSL の
+EC_POINT_mul() という関数を OpenSSL::PKey::EC#mul として呼べるようにメソッドを
+追加しています。 [ruby-core:44408][Feature #6310]

@@ -1,0 +1,2 @@
+ruby-runner.c で execv() 時にプロセスの名前(argv[0]) をファイルパスの basename
+に置換するようにしています。

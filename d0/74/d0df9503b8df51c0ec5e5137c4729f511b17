@@ -1,0 +1,2 @@
+before_exec() からさらに async-signal-safe な部分を
+before_exec_non_async_signal_safe() として切り出しています。

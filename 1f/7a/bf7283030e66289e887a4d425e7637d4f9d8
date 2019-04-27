@@ -1,0 +1,2 @@
+r59874 からの続きで今度は compile_case() で case 文の branch coverage の計測の
+ための trace2 命令挿入を追加しています。

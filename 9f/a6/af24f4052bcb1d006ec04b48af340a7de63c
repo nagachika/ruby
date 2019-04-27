@@ -1,0 +1,2 @@
+rubyspec の IO のテストで IO.for_fd のテストも r65893 の MJIT 有効の skip の範
+囲に入れています。

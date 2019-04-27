@@ -1,0 +1,3 @@
+search_nonascii() の UNALIGNED_WORD_ACCESS での preprocessor の分岐でブロックの
+開きかっこのために #else を使っていたところを共通部分に UNALIGNED_WORD_ACCESS
+自体を条件部に入れた if 文を括り出すことで共通化しています。

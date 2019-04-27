@@ -1,0 +1,3 @@
+r38731 と同様に main.public および main.private main.define_method なども
+private な特異メソッドとして定義するように修正しています。あれ、protected はい
+いのかな、と思ったら main.protected は定義されていないんですね……。

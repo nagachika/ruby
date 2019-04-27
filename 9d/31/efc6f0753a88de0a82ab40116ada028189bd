@@ -1,0 +1,3 @@
+拡張ライブラリ openssl のテストで OpenSSL::PKey の暗号化方式の定数を参照してい
+るところで defined? で定義されているかチェックしてから使うように修正しています
+。 https://github.com/ruby/ruby/pull/1318

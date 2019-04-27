@@ -1,0 +1,4 @@
+File.birthtime というメソッドは struct stat に st_birthtime というメンバーがあ
+る時のみ実装されてましたが、Linux で statx(2) というシステムコールで struct
+statx という構造体(また安直な名前だなぁ)で取得できるらしいので、その実装も追加
+しています。こんなシステムコールが増えてるのか。

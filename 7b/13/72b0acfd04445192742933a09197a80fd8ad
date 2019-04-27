@@ -1,0 +1,3 @@
+bootstrap/runner.rb で Interrupt 例外を rescue して再度 raise Interrupt してる
+ところがあって冗長なので(今だと cause に入るので前の例外も残っちゃうし)、同じ例
+外をそのまま再 raise するように修正しています。

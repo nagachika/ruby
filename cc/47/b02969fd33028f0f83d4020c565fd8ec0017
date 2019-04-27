@@ -1,0 +1,3 @@
+bignum.c で sizeof(BDIGIT_DBL) で分岐しているところは静的に条件が決まるはずなの
+で #if .. #elif .. #endif で条件コンパイルするようにしています。コンパイラの
+dead code の警告を抑制するためだそうです。

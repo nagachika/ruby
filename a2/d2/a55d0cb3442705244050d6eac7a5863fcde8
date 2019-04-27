@@ -1,0 +1,2 @@
+rubyspec の socket のテストで Solaris で動かないものに platform_is_not の guard
+を追加しています。

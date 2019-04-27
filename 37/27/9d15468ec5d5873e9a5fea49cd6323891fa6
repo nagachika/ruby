@@ -1,0 +1,3 @@
+Hash をキーワード引数に展開して渡す時に文字列のキー(というか Symbol 以外のキー)
+は ArgumentError を発生させるように仕様変更しています。 https://twitter.com/
+yukihiro_matz/status/1022287578995646464

@@ -1,0 +1,3 @@
+r55129 の続き。 HAVE_ISFINITE のチェックでは不十分だったようで cygwin で警告が
+出るそうなので defined(isfinite) で直接 isfinite のマクロ定義がないかもチェック
+するようにしています。 [ruby-core:75691] [Bug #12417]

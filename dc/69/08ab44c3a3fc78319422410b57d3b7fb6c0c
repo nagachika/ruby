@@ -1,0 +1,3 @@
+x86 版の coroutine の実装のアセンブリファイルで .section .note.GNU-stack という
+……これなんていうんだっけ、pragma? を追加しています。 [ruby-core:90000] [Bug #
+15335]

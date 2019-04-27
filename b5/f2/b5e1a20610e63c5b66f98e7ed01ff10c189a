@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#alpn_select_cb でも同様にサ
+イズチェックするようにしています。というか ssl_npn_select_cb() と共通部分が多い
+ので ssl_npn_select_cb_common() という関数を切り出して共有するようにしています
+。 [ruby-core:70021] [Bug #11369]

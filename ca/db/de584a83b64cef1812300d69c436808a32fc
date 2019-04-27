@@ -1,0 +1,4 @@
+r55110 の rb_scan_args() をマクロで再定義する条件を gcc の時ではなく
+HAVE_BUILTIN___BUILTIN_CHOOSE_EXPR_CONSTANT_P が定義されている時にして、
+__builtin_constant_p() と __builtin_choose_expr() を使って fmt が定数(リテラル)
+の時にのみ rb_scan_args0() を利用するようにしています。

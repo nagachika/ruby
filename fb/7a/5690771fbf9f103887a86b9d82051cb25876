@@ -1,0 +1,5 @@
+r64628 に続いて MinGW でのテスト失敗の対策で bootstraptest/test_io.rb でも
+Thread を使ったテストの協調のための方法で Thread#stop? をチェックしてたのを
+sleep を使う方法に書き換えています。うーん、これは一般的には sleep でやるのは悪
+手だと思うのですが、どうしてこうしたんだろう…。 https://github.com/ruby/ruby/
+pull/1945 [ruby-core:88812] [Bug #15060]

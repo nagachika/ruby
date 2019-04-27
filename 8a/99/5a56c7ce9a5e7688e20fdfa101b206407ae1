@@ -1,0 +1,3 @@
+rb_thread_shield_waiting_inc(), rb_thread_shield_waiting_dec() で待っている
+Thread数の比較を unsigned int 型でするように変数の型を変更しキャストを追加した
+りしています。

@@ -1,0 +1,4 @@
+C level backtrace の取得で実行中のプログラム自身のパスを取得するのに Linux の場
+合は /proc/self/exe が利用できるので、これを readlink してファイル名を取得して
+おいて、base_addr が一致した時は dladdr() から取得したファイル名ではなくこちら
+を利用するようにしています。

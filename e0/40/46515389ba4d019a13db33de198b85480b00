@@ -1,0 +1,3 @@
+rb_enc_get_index() でオブジェクトが T_FILE の時の Encoding の確認が TypedData
+オブジェクト用のマクロが使われてたので Marshal.dump で SEGV する不具合があった
+のを修正しています。 [ruby-core:89016] [Bug #15122]

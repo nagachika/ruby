@@ -1,0 +1,2 @@
+test/socket/test_unix.rb でブロックパラメータによるローカル変数の shadowing の
+警告除去。

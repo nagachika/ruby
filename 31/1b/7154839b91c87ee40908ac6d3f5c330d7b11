@@ -1,0 +1,2 @@
+テストで refute や refute_xxx を使っているところを assert_not_xxx を使うように
+リファクタリングしています。

@@ -1,0 +1,2 @@
+ruby.c の dladdr_path() の定義を cygwin の時はしないように preprocessor の分岐
+を修正しています。

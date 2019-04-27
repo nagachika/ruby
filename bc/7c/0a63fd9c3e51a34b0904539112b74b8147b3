@@ -1,0 +1,3 @@
+桁の多い Bignum の文字列化 big2str_karatsuba() で一回の再帰呼び出し内でできるだ
+け桁を処理してネストを軽減するようにする最適化だそうです。そしてさり気に
+rb_big2ulong_pack() に deprecated というコメントを付けています。

@@ -1,0 +1,3 @@
+NEWS ファイルに IO#advise が Errno::ENOSYS を発生させなくなったことについて追記
+しています。けど IO#fadvise と "f" がついてしまっていますね。 [ruby-core:72168]
+[Feature #11806]

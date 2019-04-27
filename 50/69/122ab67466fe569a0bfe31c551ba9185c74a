@@ -1,0 +1,4 @@
+array.c に klass の指定つきで C の VALUE の配列から Array オブジェクトを作成す
+る関数 rb_ary_tmp_new_from_values() を切り出して insns.def の toregexp 命令の実
+装で klass を 0 にして内部的オブジェクトにした配列に rb_ary_store() で1要素ずつ
+詰めていたところをこの関数の呼び出しに変更する最適化をしています。

@@ -1,0 +1,4 @@
+bignum.c で符号のフラグのセット/判定用のマクロの BIGNUM_SET_POSITIVE_SIGN()/
+BIGNUM_SET_NEGATIVE_SIGN() や BIGNUM_NEGATIVE_P() などを利用するようにして、よ
+り低レベルなマクロ BIGNUM_SET_SIGN() や BIGNUM_SIGN() を直接利用していたところ
+を書きかえるリファクタリング。

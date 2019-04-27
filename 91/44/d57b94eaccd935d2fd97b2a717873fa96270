@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils とそのテストの magic coment frozen_string_literal
+を true に変更しています。

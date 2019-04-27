@@ -1,0 +1,4 @@
+拡張ライブラリ psych の upstream から 3.0.0-beta2 をマージしています。 Time オ
+ブジェクトの deserialize 時のタイムゾーンの扱いの修正や Delegator の serialize
+のサポート追加などがあるようです。 https://github.com/ruby/psych/pull/158
+https://github.com/ruby/psych/pull/316

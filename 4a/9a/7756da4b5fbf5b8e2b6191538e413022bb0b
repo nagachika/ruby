@@ -1,0 +1,2 @@
+process.c で exec のオプションの close_others は常に TRUE しか渡されていなかっ
+たので省略して余分な処理を削除しています。

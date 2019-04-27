@@ -1,0 +1,4 @@
+erb のテストで assert の引数で respond_to? を呼び出しているところを
+assert_respond_to という assertion メソッドを利用するようにリファクタリングして
+います。また例外が発生することを確認するところで通らないはずのところに assert
+(false) を置いてテストしていたのを assert_raise を利用するようにしています。

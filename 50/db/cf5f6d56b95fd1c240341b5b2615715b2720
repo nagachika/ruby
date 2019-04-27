@@ -1,0 +1,4 @@
+gems/bundled_gems に記載されている bundle される did_you_mean.gem のバージョン
+を 1.0.0.beta3 に更新しています。最近のコミット(https://github.com/yuki24/
+did_you_mean/commits/master)を眺めてみると NameError#receiver を活用するように
+する変更などがあったみたいです。

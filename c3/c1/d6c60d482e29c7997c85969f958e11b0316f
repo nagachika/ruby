@@ -1,0 +1,4 @@
+r47178 と r47353 の続き。 test/ruby/test_io.rb の readpartial のテストで EBADF
+が稀に発生するのについての対策として rescue で捕捉していたのをより狭い範囲での
+み捕捉することで他の例外まで握り潰してしまわないようにしています。
+[ruby-core:64773] [ruby-core:64775]

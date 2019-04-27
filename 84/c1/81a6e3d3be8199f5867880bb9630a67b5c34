@@ -1,0 +1,3 @@
+tool/vcs.rb で VCS::GIT#branch が name を直接返さずに Struct を使って to_str で
+name を返すオブジェクトを返すように変更しています。ブランチ名が path として展開
+されるのを防いでいるとのこと。

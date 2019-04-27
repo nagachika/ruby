@@ -1,0 +1,2 @@
+テスト用のユーティリティ test/ruby/envutil.rb の EnvUtil#under_gc_stress に省略
+可能な引数を追加して GC.stress= で設定する値を指定できるようにしています。

@@ -1,0 +1,6 @@
+r39384 で追加した REXML::Document.entity_expansion_text_limit= などの accessor
+の実体を定義を lib/rexml/document.rb から lib/rexml/rexml.rb の
+REXML.entity_expansion_text_limit= などに移動し、REXML::Document のメソッドはこ
+ちらを呼ぶようにしています。 rexml/text.rb が rexml/document.rb に依存するため
+依存関係が循環してしまっていたのを修正しています。 [ruby-core:52895] [Bug #
+7961]

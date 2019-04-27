@@ -1,0 +1,5 @@
+test/psych/test_yamldbm.rb の YAMLDBMTest を MiniTest::Unit::TestCase から継承
+している Psych::TestCase (test/psyck/helper.rb で定義)を継承するようにしていま
+す。独自の assert が定義されています。また require "yaml/dbm" の LoadError を捕
+捉しようとしているところで、例外が発生すると require "tmpdir" がスキップされて
+しまっていたのを修正しています。

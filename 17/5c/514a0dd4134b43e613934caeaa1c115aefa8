@@ -1,0 +1,2 @@
+error.c の rdoc 用コメントの例外クラスのリストに FrozenError を追記しています。
+https://github.com/ruby/ruby/pull/1818

@@ -1,0 +1,2 @@
+r41656 の続きで enumerator.c の rb_enumeratorize_with_size() に渡すための関数ポ
+インタの型を rb_enumerator_size_func に宣言するように変更しています。

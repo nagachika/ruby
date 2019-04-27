@@ -1,0 +1,4 @@
+Complex 同士の "/" 演算子で real/imag ともに整数の時に、結果の Complex の real,
+imag が Rational のままで割り切れる時も Integer になってなかったので、
+rb_rational_canonicalize() を呼んで不要なら Rational にならないようにしています
+。一応仕様変更って感じですかね……。

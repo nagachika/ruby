@@ -1,0 +1,2 @@
+README.EXT と README.EXT.ja を RDoc のマークアップ記法で書くように変換して
+modeline も Text -> RDoc に変更しています。

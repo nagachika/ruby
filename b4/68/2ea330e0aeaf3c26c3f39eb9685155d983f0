@@ -1,0 +1,2 @@
+configure の setjmp() の検出用の AC_MSG_RESULT() 内で NetBSD の ksh で実行した
+時のためにエスケープを追加しています。

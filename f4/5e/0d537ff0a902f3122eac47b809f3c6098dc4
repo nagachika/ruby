@@ -1,0 +1,4 @@
+標準添付ライブラリ timeout で r48433 で導入した Kernel#throw が発生させる例外
+UncaughtThrowError を rescue するようにしています。これまでは ArgumentError を
+rescue してメッセージで判別していたのですが、クラスで throw が発生させる例外が
+区別できるようになったので。元々こんなところにも需要はあったのですね。

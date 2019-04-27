@@ -1,0 +1,2 @@
+拡張ライブラリ psych に同梱されてる ext/psych/lib/psych_jars.rb というスクリプ
+トを削除しています。これは JRuby 用みたいですね。

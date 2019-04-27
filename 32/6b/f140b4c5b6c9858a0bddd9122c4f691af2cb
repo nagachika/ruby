@@ -1,0 +1,2 @@
+GC のデバッグ用の情報を出力する関数 rb_gcdebug_print_obj_condition() でオブジェ
+クトの状態の表示を追加しています。

@@ -1,0 +1,4 @@
+XMLRPC::Client#do_rpc で Net::HTTP を生成しているところで直接クラスを参照せずに
+net_http メソッドを利用するようにしています。
+が、これ net_http(host, port, ...) としないといけないところを net_http.new
+(host, port, ...) としていて間違ってそうです。

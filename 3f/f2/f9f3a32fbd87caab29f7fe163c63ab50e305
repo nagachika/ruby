@@ -1,0 +1,8 @@
+SSL_CTX_set_options() という OpenSSL の挙動を変更するオプションの設定を
+OpenSSL::SSL::SSLContext#options= で設定できるようにし、ここにセットするための
+ビットフラグを OpenSSL の定数として Ruby から使えるように定義を追加しています。
+[ruby-core:39673] [Bug #5353]
+TLSv1/SSLv3 の脆弱性対策として OP_DONT_INSERT_EMPTY_FRAGMENTS というビットを落
+とす方法があり、それを Ruby からも実行できるようにしているようです。詳細は
+ChangeLog 及び以下の参考 URL を参照してください。 http://www.openssl.org/~bodo/
+tls-cbc.txt

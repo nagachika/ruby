@@ -1,0 +1,4 @@
+標準添付ライブラリ resolv.rb に Resolv::MDNS というクラスを新設して Multicast
+DNS (mDNS) のサポートを追加しています。 RFC 6762 で定義されているらしいです。
+Resolv を使った経験がなくてあまり自信はないですが、使いかたはだいたい Resolv::
+DNS と同じでいいみたいです。 [ruby-core:53387] [Feature #8089]

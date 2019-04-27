@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.load で ISeq の type をシンボルから内部の定数に変換
+するのを st_table を使っていたのを、数が小さいので iseq_type_from_id() という関
+数を導入して単純に if 文を並べて線形探索するようにしています。

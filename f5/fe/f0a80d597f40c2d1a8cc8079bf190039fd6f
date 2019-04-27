@@ -1,0 +1,2 @@
+lib/csv/csv.gemspec でバージョン番号を定数 CSV::Version を参照していたのを直に
+書くように修正しています。

@@ -1,0 +1,4 @@
+拡張ライブラリ etc の Etc.getgrgid や Etc.getgrnam のテストでのチェックを修正し
+ています。 getgrent(3) が返すものが認証方式の設定や環境によっては不十分(とりあ
+えず Open Directory を OS X で使っている環境だとエラーだったらしいです)なので、
+name と gid のみで比較するようにしています。

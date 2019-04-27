@@ -1,0 +1,3 @@
+r67635 の gc_mark_maybe_() での T_MOVED と T_ZOMBIE の gc_pin() 呼び出しを
+revert して、かわりに gc_ref_update() でオブジェクトを確保する heap の page 単
+位の has_remembered_objects というフラグの更新を行なうように修正しています。

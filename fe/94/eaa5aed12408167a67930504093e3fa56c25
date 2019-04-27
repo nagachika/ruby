@@ -1,0 +1,3 @@
+r51175 で追加したテストが Encoding.default_external が UTF-8 であることに依存し
+ていたので EnvUtil.with_default_external を利用して前提条件を揃えるようにしてい
+ます。

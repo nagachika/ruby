@@ -1,0 +1,4 @@
+rb_thread_t から実行中の VM スタックの情報を rb_execution_context_t という構造
+体に切り出して、 rb_thread_t にはこの構造体を埋め込んで持つようにするリファクタ
+リング。 rb_thread_t から rb_context_t や rb_fiber_t で持つべき情報を
+rb_execution_context_t に切り出していくつもりみたいですね。 [ruby-core:81045]

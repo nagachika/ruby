@@ -1,0 +1,1 @@
+Pathname#world_writable? を C の拡張ライブラリへ移動しています。

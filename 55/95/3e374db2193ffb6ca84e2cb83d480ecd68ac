@@ -1,0 +1,4 @@
+r60310 での OpenSSL::SSL::SSLContext#min_version=, #max_version= で Symbol を受
+け付けるようにする変更の一部分を revert しています。METHODS_MAP を参照して解決
+する必要はない? 指定する Symbol は :TLSv1_2 -> :TLS1_2 のように少し変化していま
+す。 [ruby-core:83491]

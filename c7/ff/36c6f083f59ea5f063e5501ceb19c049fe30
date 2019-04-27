@@ -1,0 +1,4 @@
+autoload による複数 Thread からの暗黙の require のための排他処理で別 Thread の
+load 処理待ちのために rb_thread_sleep_deadly() で待っているあいだに非同期な例外
+などで止められた時に待ちリストからエントリを削除するようにしています。これはデ
+バッグ難しそうでしたね。 [ruby-core:81016] [Bug #13526]

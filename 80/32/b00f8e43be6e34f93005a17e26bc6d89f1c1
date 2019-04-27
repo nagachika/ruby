@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の extconf.rb で Windows 環境でのライブラリ ws2_32 の探
+索を find_openssl_library というメソッド内でしていたのを外に出してます。 r62628
+の再修正。 [ruby-core:85895] [Bug #14568]

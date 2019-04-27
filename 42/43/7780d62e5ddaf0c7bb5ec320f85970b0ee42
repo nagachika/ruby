@@ -1,0 +1,3 @@
+random.c でデフォルトの乱数エンジンの VALUE 型の static 変数を持っていたのをや
+めて、中身の rb_random_t 構造体のほうだけ変数としては持って VALUE 型のほうは
+Random::DEFAULT 定数に格納するのに加えて GC のマーク対象として登録しています。

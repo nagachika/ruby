@@ -1,0 +1,3 @@
+Test::Unit::Runner::Worker に kill という子プロセスを SIGKILL で止めるメソッド
+を追加して、終了時に全 worker を停止させる処理を quit_workers というメソッドに
+切り出しています。

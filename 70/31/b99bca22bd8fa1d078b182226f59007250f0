@@ -1,0 +1,1 @@
+mkmf.rb の check_sizeof が常に Integer を返すように修正。

@@ -1,0 +1,1 @@
+ruby_init_loadpath_safe() の変数 p に const 修飾子をつけるようにしています。

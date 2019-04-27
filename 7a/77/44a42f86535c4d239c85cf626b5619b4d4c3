@@ -1,0 +1,2 @@
+spec/default.mspec に rescue 節のない begin ... else ... end という構文があった
+ので、不要な else を消しています。

@@ -1,0 +1,3 @@
+同じく Dir#inspect と IO#inspect でも C の文字列そのまま扱わずに String として
+操作することでパスの Encoding を保持するようにしています。 [ruby-dev:45280]
+[Bug #6072]

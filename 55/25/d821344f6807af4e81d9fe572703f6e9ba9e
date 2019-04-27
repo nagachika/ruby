@@ -1,0 +1,2 @@
+Addrinfo の rdoc での Addrinfo#inspect の例を実際の結果に合わせて修正しています
+。 [ruby-dev:45178]

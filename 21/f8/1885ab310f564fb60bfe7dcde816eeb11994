@@ -1,0 +1,4 @@
+Windows 版用の dup2() の実装を io.c の rb_cloecxec_dup2() に直接条件コンパイル
+で書かれていたのを win32/win32.c に切り出して Windows 版でも dup2() が呼べるよ
+うにしています。 redirect_dup2() でのデバッグ出力が DEBUG_REDIRECT が定義されて
+いた時だけだったのが条件がなくなっているようですけどいいんでしょうか。

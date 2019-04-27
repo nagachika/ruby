@@ -1,0 +1,2 @@
+string.c の tr_trans() で未使用の警告が出る old という変数を MAYBE_UNUSED() マ
+クロをつけて宣言して警告抑制するようにしています。

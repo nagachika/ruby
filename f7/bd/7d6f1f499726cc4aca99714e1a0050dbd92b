@@ -1,0 +1,4 @@
+fill_random_bytes() に need_secure という引数を追加して、getrandom(2) で乱数生
+成する時に GRND_NONBLOCK を利用するかどうかを指定できるようにして、
+Random.new_seed では secure に、Random.raw_seed では secure でないかわりに高速
+に(ブロックせずに)乱数生成するようにしています。

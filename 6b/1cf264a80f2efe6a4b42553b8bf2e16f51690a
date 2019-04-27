@@ -1,0 +1,3 @@
+dl, sdbm, strscan, sych の拡張ライブラリで 64bit 整数の 32bit への暗黙の型変換
+による警告除去や int のかわりに size_t, ptrdiff_t など適切な型を利用するように
+する修正です。

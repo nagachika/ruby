@@ -1,0 +1,3 @@
+r63874 の続き。 insns.def の最適化命令 opt_aset_with と opt_aref_with の実装で
+MJIT のコード生成時には key を VM スタックに push しないようにしています。
+[ruby-core:87764] [Bug #14892]

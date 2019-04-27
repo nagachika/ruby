@@ -1,0 +1,7 @@
+こんなファイルがあったことを始めて知ったのですが tool/ytab.sed という yacc/
+bison が生成した y.tab.c を変換する sed ファイルに Bison 2.6 用の修正を入れてい
+ます。 yydebug の定義を #ifndef yydebug でくくるようにしています。 Bison 2.6 で
+yydebug がマクロになったんでしょうかね。
+[追記]そうではなくて、yydebug は parse.y で定義しているのですがそれが外の
+yydebug まで置換してしまうので部分的に無効にしているということのようです。[/追
+記]

@@ -1,0 +1,4 @@
+Symbol 管理テーブルの型 struct symbols でシンボル名から ID への対応テーブルを管
+理する sym_id メンバを str_id と改名しています。これは Symbol から ID ではなく
+て String から ID へのテーブルだから、とのこと。またこれにあわせて
+lookup_sym_id() という static 関数も lookup_str_id() に改名しています。

@@ -1,0 +1,5 @@
+rubyspec の IO の C API テスト用の拡張ライブラリで
+SET_NON_BLOCKING_FAILS_ALWAYS というマクロが真だと set_non_blocking() という関
+数が常に return -1 するようになっているため、絶対に通らないパスがあって、そこを
+preprocessor の分岐で消すようにしています。最適化によってコンパイラが
+unreachable と判定して警告が出てたのかな。

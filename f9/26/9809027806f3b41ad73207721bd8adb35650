@@ -1,0 +1,2 @@
+rb_cloexec_fcntl_dupfd() の第2引数が int なのに合うようにキャストの追加や変数の
+型の修正。

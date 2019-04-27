@@ -1,0 +1,8 @@
+拡張ライブラリ stringio で StringIO の readable, writable などのビットフラグを
+struct RBasic の flags を利用するようにして StringIO 独自の構造体の flags から
+追い出しています。これにより StringIO を dup した時にオブジェクト毎に close す
+ることができるようになっています。 StringIO は dup すると T_DATA 型のオブジェク
+トが wrap している構造体のメモリ領域は共有しているので、そこにフラグがあると
+closed のフラグ管理を共通にしないといけなかったのですが、オブジェクトが別なら
+VALUE は別にできるので、struct RBasic::flags を使うようにすると別々に closed の
+状態を管理できるようになりました。

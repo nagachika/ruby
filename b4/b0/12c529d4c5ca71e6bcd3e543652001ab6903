@@ -1,0 +1,4 @@
+vm_call_iseq_setup_normal() から rb_callable_method_entry_t と rb_iseq_t の取り
+出し部分以降を vm_call_iseq_setup_normal_internal() という関数に切り出して MJIT
+のコンパイル時に生成するソースコードの同様の処理をこの関数の呼び出しにするよう
+に変更しています。 inline 関数なので展開されてコストにはならないはず。

@@ -1,0 +1,3 @@
+rb_cloexec_fcntl_dupfd() という関数を追加して fcntl(2) のコマンドが F_DUPFD の
+時に複製した file descriptor に close-on-exit フラグを付加するようにしてこれを
+利用するようにしています。

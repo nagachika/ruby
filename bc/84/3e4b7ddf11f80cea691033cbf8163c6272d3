@@ -1,0 +1,3 @@
+IPSocket のサーバー(TCPServer など)の初期化時に listen(2) がエラーを返した時に
+スルーしてしまっていたので、SystemCallError(Errno::EXXX) 例外を発生させるように
+修正しています。

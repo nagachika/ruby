@@ -1,0 +1,2 @@
+make に capi(C レベルの API のドキュメント)についてのターゲットを追加。
+(clean-capi, distclean-capi, realclean-capi)

@@ -1,0 +1,3 @@
+r45426 の Symbol GC で導入した struct RSymbol 型の宣言を include/ruby/ruby.h か
+ら internal.h に移動して非公開にしています。最近はオブジェクトの内部構造はあま
+り公開しないようにするような方針になっているみたいですね。

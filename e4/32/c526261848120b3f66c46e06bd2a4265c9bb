@@ -1,0 +1,5 @@
+IO.copy_stream の実装の nogvl_copy_file_range() と nogvl_copy_stream_sendfile()
+で struct stat を送受信の2つぶん宣言していたのを、1つの変数にして使いまわすよう
+にしています。マシンスタック消費を抑えるためとのこと。えーそこまでするか。しか
+しコミットログによると 144 bytes のスタック節約になるそうで、struct stat って大
+きいんだな……。

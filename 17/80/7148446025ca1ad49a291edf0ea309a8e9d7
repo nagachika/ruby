@@ -1,0 +1,2 @@
+setproctitle() で strdup() のかわりに ruby_strdup() を利用するようにしています
+。

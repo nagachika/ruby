@@ -1,0 +1,3 @@
+r34506 と同様に ext/fiddle/closure.c でも LONG_LONG 型に変換する数値が Bignum
+であることを前提としていきなり rb_big2ull() を呼んでしまっていたところを
+NUM2ULL() に変更しています。

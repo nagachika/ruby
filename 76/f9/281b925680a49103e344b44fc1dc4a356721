@@ -1,0 +1,3 @@
+r43245 で変更した vm_trace.c の rb_postponed_job_flush() をシンプルになるように
+書き直しています。なんで current thread まで保存しているのかが謎だったんですけ
+どやっぱりいらなかったんですね。

@@ -1,0 +1,3 @@
+common.mk で GEM_HOME, GEM_PATH, GEM_VENDOR などの変数を空に設定しておくように
+しています。 Travis-CI でのテストの失敗を回避するためとのことなので、Travis-CI
+ではこれらの環境変数が設定されているために gem の探索に影響があるみたいですね。

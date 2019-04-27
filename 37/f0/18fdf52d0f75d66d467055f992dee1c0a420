@@ -1,0 +1,3 @@
+r46737 で dynamic symbol の rb_gc_resurrect() をやめた関連で、
+Symbol.all_symbols でシンボルテーブルを走査する時に sweep 予定のものは削除する
+ようにしています。

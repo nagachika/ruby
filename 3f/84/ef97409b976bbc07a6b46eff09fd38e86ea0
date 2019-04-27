@@ -1,0 +1,3 @@
+Solaris の shell をサポートするため tool/mjit_archflag.sh で indent という変数
+に空白をセットする時にクオートした空白を使うようにしています。 [ruby-dev:50669]
+[Bug #15319]

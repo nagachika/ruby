@@ -1,0 +1,3 @@
+irb の irb/completion.rb のテストで irb/completion が require できない時(
+readline が利用できない時に例外が発生するらしいです)は skip するようにしていま
+す。

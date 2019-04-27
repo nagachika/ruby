@@ -1,0 +1,3 @@
+default gem 化した標準添付ライブラリを upstream のリポジトリと同期する tool/
+sync_default_gems.rb で最も標準的な手順で同期できるものを sync_lib というメソッ
+ドに切り出すリファクタリング。

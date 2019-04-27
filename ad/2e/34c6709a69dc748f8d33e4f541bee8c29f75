@@ -1,0 +1,2 @@
+win32/file.c の File.expand_path の Windows 用実装 rb_file_expand_path_internal
+() の "~" の展開の有無の判定している条件式を解体して少しシンプルにしています。

@@ -1,0 +1,4 @@
+test/ruby/test_gc.rb の test_latest_gc_info で GC.last_gc_info[:gc_by] のチェッ
+クのためにオブジェクトを生成する回数を GC.stat(:heap_free_slot) で取得していた
+のを、さらに heap_increment で page サイズが拡張されるのも考慮して増やしていま
+す。

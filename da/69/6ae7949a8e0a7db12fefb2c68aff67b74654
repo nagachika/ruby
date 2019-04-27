@@ -1,0 +1,2 @@
+FreeBSD の 4 未満のサポートを終了して、浮動小数点数の扱いで分岐していた部分を削
+除しています。 https://github.com/ruby/ruby/pull/1339

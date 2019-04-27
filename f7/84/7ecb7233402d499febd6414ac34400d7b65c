@@ -1,0 +1,2 @@
+r52726 での internal.h への rb_gc_for_fd() の宣言追加の位置を export される位置
+に移動しています。

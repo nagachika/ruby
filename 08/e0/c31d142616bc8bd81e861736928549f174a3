@@ -1,0 +1,2 @@
+Kernel#test に与えられる cmd 引数の "a" がなぜか "e" と同じに扱われていたのを削
+除しています。 undocumented でしたがなんであったんでしょうね。 [ruby-dev:48172]

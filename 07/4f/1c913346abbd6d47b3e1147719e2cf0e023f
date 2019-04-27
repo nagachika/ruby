@@ -1,0 +1,3 @@
+拡張ライブラリ readline で Readline の変数 rl_completion_quote_character が存在
+したら Readline.completion_quote_character で参照できるようにしています。
+[ruby-core:78721] [Feature #13050]

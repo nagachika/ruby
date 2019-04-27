@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::PKey の各種クラスで initialize_copy を実装し
+て dup で複製できるようにしています。 [ruby-core:75504] [Bug #12381]

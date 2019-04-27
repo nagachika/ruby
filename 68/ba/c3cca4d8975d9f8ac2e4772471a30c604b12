@@ -1,0 +1,3 @@
+RubyKaigi 2015 の kosaki さんのキーノートで触れられていた DTrace の発火イベント
+が typo して METHOD_RETURN_HOOK になっていたのを CMETHOD_RETURN_HOOK に修正して
+います。

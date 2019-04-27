@@ -1,0 +1,2 @@
+r66501 の再修正。make test-all の前に $SETARCH による setarch コマンドも挟んで
+ることがあるので、その前に travis_wait を追加するようにしています。

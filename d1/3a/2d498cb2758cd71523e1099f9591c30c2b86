@@ -1,0 +1,2 @@
+Array#slice! のテストがなぜか test/ruby/test_string.rb にあったので test/ruby/
+test_array.rb に移動しています。

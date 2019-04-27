@@ -1,0 +1,2 @@
+parse.y の set_integer_literal() と parse_numeric() の戻り値の型を int から
+enum yytokentype に修正しています。

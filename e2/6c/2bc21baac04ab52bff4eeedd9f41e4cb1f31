@@ -1,0 +1,2 @@
+set_trace_func や Thread#set_trace_func, add_trace_func を $SAFE==4 の時に禁止
+するようにチェックを追加しています。

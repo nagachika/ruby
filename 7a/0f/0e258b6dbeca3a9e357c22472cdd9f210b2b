@@ -1,0 +1,4 @@
+拡張ライブラリ ripper のビルド時に gcc -E オプションつきで preprocessor の出力
+を得る時に $(INCFLAGS) をオプションに渡すようにしています。またこの出力を処理す
+る ext/ripper/tools/strip.rb で結果に空行を追加するようにしています。見易さのた
+めですかね。

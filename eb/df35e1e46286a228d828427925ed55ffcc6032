@@ -1,0 +1,2 @@
+parse.y で struct parser_params のメンバ名から prefix `parser_` を削っています
+。

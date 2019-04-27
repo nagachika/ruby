@@ -1,0 +1,4 @@
+rb_require_internal() で rb_load_internal() を呼んでいましたが、ロードするファ
+イル内で例外が発生した時に rb_require_internal() の EXEC_TAG() で捕捉していたの
+で、rb_load_internal0() を直接呼び出して state を上書きして不要な TAG_JUMP を省
+くようにしています。

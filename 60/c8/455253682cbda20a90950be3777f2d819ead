@@ -1,0 +1,4 @@
+README.ja などの日本語のドキュメント類の文字エンコーディングを EUC-JP から
+UTF-8 に変更しています。 [Feature #5128]
+EUC から UTF-8 と ChangeLog にはありますが insns.def (Shift-JIS から UTF-8 へ)
+の変更も入ってます。

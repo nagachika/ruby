@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の digest 認証で digest の計算を WEBrick
+::HTTPRequest#body のブロック付き呼び出しを使って少しずつ読み込むようにしていま
+す。

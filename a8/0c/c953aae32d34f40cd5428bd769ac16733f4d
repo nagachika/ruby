@@ -1,0 +1,4 @@
+r66439 の続きというかリファクタリングで resolve_refined_method() と
+refined_method_original_method_entry() で相互に再帰呼び出ししていたのを
+refined_method_original_method_entry() は削除して while() ループを使った実装に
+しています。

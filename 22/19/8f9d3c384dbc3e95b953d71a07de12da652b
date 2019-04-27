@@ -1,0 +1,2 @@
+test/ruby/test_iseq.rb で RubyVM::InstructionSequence を ISeq と省略したり
+compile メソッドの呼び出しをヘルパーメソッド経由にしたりするリファクタリング。

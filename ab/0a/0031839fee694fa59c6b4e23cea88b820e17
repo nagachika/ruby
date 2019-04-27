@@ -1,0 +1,3 @@
+RGenGC のデバッグ用のプロファイル情報取得の修正をしています。また
+rgengc_remember() の戻り値を変更して obj が既に remember set に入っていたら
+FALSE を返すようにしています。

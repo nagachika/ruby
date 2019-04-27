@@ -1,0 +1,2 @@
+NativeClient 版で shutdown(2) は宣言はあるけどダミー実装のため configre で非検
+出とするように調整しています。

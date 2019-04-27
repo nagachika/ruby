@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml の REXML::SAX2Listener#elementdecl の rdoc 用コメント
+のサンプルコードの結果を修正しています。 This commit contains only document fix
+. [DOC] タグを付けておくべきですね。 [ruby-dev:47582] [Bug #8731]

@@ -1,0 +1,8 @@
+将来(3.0)文字列リテラルが freeze される(fstring になる)構想があり、その検証のた
+めに RubyVM のコンパイルオプション RubyVM::InstructionSequence.compile_option =
+{frozen_string_literal: true} というのが追加されています。このオプションを指定
+した後で eval とか require でロードされたスクリプトは文字列リテラルが最初から
+freeze された状態になります。なおこれはお試しのためなのできちんと動作確認がされ
+ているわけではないと思います。ちなみに設定はできるものの
+RubyVM::InstructionSequence.compile_option で取得してもまだ
+:frozen_string_literal オプションは表示されません。 [Feature #11473]

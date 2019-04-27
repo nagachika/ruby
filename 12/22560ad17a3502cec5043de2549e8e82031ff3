@@ -1,0 +1,3 @@
+r63238 の続き。 condvar のタイマーとして CLOCK_MONOTONIC が使えなかった時にはデ
+フォルトの CLOCK_REALTIME に fallback するようにしています。 [ruby-core:85688]
+[Misc #14497]

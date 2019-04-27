@@ -1,0 +1,2 @@
+Array.new の rdoc 用コメントで第2引数を渡す時の仮引数名を変更しています。
+https://github.com/ruby/ruby/pull/610

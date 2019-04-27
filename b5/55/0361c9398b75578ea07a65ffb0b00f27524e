@@ -1,0 +1,3 @@
+test/optparse/test_optparse.rb の no_error というメソッドを assert_no_error に
+改名しています。バックトレースで assert_ で始まるメソッドがバックトレースから省
+略されるからだそうです。

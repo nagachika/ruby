@@ -1,0 +1,4 @@
+同梱されている RubyGems のバージョンを 2.1.0.rc.1 から 2.1.0.rc.2 に更新してい
+ます。全体的にサブコマンドのドキュメントの修正があった他、rubygems/
+basic_specification.rb で詳細は不明ですが require 時のパス解決の修正(?)、
+specification ファイルの扱いの修正などがあった模様です。

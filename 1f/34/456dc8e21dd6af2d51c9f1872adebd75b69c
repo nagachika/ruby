@@ -1,0 +1,2 @@
+r43975 の ChangeLog エントリに hash_alloc() を利用するようにした理由を追記して
+います。 klass を空にすることで ObjectSpace から隠すためだそうです。

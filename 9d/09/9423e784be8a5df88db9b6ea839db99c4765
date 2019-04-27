@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Socket::Ifaddr の ifa_flags を 64bit 符号なし整数とし
+て(LONG_LONG が利用可能なら)定義するようにしています。 SunOS 5.11 (OpenIndiana)
+が uint64_t として定義しているためとのこと。

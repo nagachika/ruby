@@ -1,0 +1,1 @@
+BigDecimal で 0 を Infinity で除算した時のテストケースを追加しています。

@@ -1,0 +1,3 @@
+標準添付ライブラリ tmpdir でクラスメソッドの定義でクラス名を明示的に書くのでは
+なく def self.mktmpdir と self を使うようにしています。 https://github.com/ruby
+/ruby/pull/1252

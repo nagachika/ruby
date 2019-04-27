@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal に BigDecimal#- と BigDecimal#sub の rdoc 用コメント
+を追記しています。またいくつか :nodoc: タグを追加しています。

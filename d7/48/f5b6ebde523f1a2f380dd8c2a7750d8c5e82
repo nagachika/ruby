@@ -1,0 +1,4 @@
+r43111 で UNINITIALIZED_VAR() の定義のために clang のバージョンをチェックしてい
+たのを __has_attribute() というマクロを利用するように書き変えています。 clang
+の拡張の有無をバージョンでチェックしないようにとのこと。参考URL: http://
+clang.llvm.org/docs/LanguageExtensions.html

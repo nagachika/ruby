@@ -1,0 +1,3 @@
+r62192 で Solaris でのビルドのため mjit.c に #include "internal.h" を追加しまし
+たが、CI は通らなかったみたいなので今度は Solaris の場合に __EXTENSIONS__ とい
+うマクロを定義しておくようにしています。

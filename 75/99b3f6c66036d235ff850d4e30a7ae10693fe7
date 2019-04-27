@@ -1,0 +1,2 @@
+String#each_grapheme_cluster のテストを追加しています。 [ruby-core:90031] [Bug
+#15337]

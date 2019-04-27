@@ -1,0 +1,2 @@
+ext/extmk.rb で拡張ライブラリ用の Makefile 生成時に UPDATE_LIBRARIES 変数を継承
+するようにしています。

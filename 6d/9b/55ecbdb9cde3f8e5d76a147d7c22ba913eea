@@ -1,0 +1,4 @@
+Travis CI で world writable dir の警告が大量に出るそうで、その対策で .travis
+.yml に group: deprecated-2017Q4 というのを追加して利用する VM イメージを変更し
+ているようです。 https://blog.travis-ci.com/
+2017-12-12-new-trusty-images-q4-launch

@@ -1,0 +1,2 @@
+r63106 の追加で webrick のテストの assert_operator を使うようにしたところをさら
+に assert_include を利用するようにしています。

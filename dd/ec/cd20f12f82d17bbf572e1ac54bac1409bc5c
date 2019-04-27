@@ -1,0 +1,2 @@
+ruby_1_9_3 ブランチからのマージ。 enc/Makefile.in でも Solaris の make 向けの修
+正。

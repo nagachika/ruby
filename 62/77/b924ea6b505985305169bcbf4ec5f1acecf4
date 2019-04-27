@@ -1,0 +1,4 @@
+IO#close で読み込み中の Thread に通知するのが再利用された fd で間違った Thread
+に通知されないようにした r63216 のテストで IO#sysread していたのを IO#read に変
+更しています。 IO#sysread は rb_wait_for_single_fd() を呼ぶのでそれがなんかよく
+ない、って書いてあるんですが、なにがどう良くないのかわからない…。

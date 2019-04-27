@@ -1,0 +1,2 @@
+test/ruby/test_beginendblock.rb で子プロセスを起動して行っていたテストを
+EnvUtil.assert_in_out_err を利用して書きなおしてシンプルにしています。

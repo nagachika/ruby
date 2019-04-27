@@ -1,0 +1,3 @@
+configure.ac から主に AC_DEFUN() で独自マクロを定義している部分を tool/m4/*.m4
+に分離して m4_include() を使って取り込むように分割しています。 https://
+github.com/ruby/ruby/pull/1793

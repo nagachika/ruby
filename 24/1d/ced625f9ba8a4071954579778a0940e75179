@@ -1,0 +1,6 @@
+標準添付ライブラリ forwardable が r53383 で tailcall optimization を有効にして
+ISeq 生成して eval するようにしてたのをやめています。 forwardable で委譲したメ
+ソッドのバックトレースで forwardable が出ないようにするためだったと思いますが、
+TracePoint のイベントで tailcall optimization が行なわれていると return イベン
+トが発生しなくて対応関係がおかしくなるので、やめたほうがいいっていうことになっ
+たみたいです。 [ruby-core:89797] [Bug #15303]

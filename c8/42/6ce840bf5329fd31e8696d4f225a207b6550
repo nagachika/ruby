@@ -1,0 +1,2 @@
+Enumerable#lazy で返す Enumerator::Lazy も Enumerator を継承したクラスなので
+size に対応したものを返すようにしています。 [ruby-core:45805] [Feature #6636]

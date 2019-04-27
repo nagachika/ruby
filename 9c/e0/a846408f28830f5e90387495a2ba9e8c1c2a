@@ -1,0 +1,2 @@
+tool/rbinstall.rb で "rubystub.exe" ファイルの読み込みを遅延するようにしている
+ようです。

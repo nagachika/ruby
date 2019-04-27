@@ -1,0 +1,3 @@
+r59856 で一旦戻した rdoc の IO.console の使いかたですが、JRuby 向けの変更だった
+ようなのでどちらでも動くように require "io/console/size" で LoadError が発生し
+たら IO.console_size のほうを使うというように分岐するようにしています。

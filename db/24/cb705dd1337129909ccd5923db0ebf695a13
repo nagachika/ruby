@@ -1,0 +1,2 @@
+miniinit.c に Init_enc() を追加して、ASCII-8BIT/US-ASCII/UTF-8 の3つのエンコー
+ディングだけ組み込みで利用できるようにしています。

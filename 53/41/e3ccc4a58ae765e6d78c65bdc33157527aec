@@ -1,0 +1,3 @@
+Psych が omap(ordered-map)のタグを解釈して Psych::Omap というオブジェクトとして
+ロードし、再度 YAML にダンプした時に omap タグの情報が残るようにしています。
+[ruby-core:45001] [Bug #6425]

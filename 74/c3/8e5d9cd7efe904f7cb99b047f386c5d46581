@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL 1.1.0 対応の続き。 1.1.0 で導入される
+SSL_CTX_set_min_proto_version() というマクロの存在チェックをして、可能ならこれ
+を使って TLS の古いバージョンの対応を拒否するようにしています。
+[ruby-core:75225] [Feature #12324]

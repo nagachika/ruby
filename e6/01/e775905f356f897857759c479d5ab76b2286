@@ -1,0 +1,5 @@
+SystemStackError や NoMemoryError のようにあらかじめ確保しておく例外オブジェク
+トを判定して setup_exception() で特別扱いするように分岐していたのをやめています
+。 r58379 の変更でこれらの例外が通らなくなったとかかなぁ。また
+rb_threadptr_execute_interrupts() で特別な例外オブジェクトを発生前に
+ruby_vm_special_exception_copy() を呼んでコピーを作るようにしています。

@@ -1,0 +1,3 @@
+Hash#each で生成する Enumerator のテストで Enumerator ではなくて Hash そのもの
+を渡してしまっていたところがあったのを修正しています。 https://github.com/ruby/
+ruby/pull/558

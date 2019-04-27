@@ -1,0 +1,2 @@
+r55441 でマージした rubygems の変更で拡張ライブラリのインストールのテストが失敗
+していたのを修正しています。 https://github.com/rubygems/rubygems/pull/1645

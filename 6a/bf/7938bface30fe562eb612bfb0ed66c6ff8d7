@@ -1,0 +1,3 @@
+拡張ライブラリ objspace に普通は Ruby スクリプトからは直接取り出すことができな
+い T_ICLASS 型のクラス(IClass)を取り出す Objespace.internal_class_of と
+Objspace.internal_super_of というメソッドを追加しています。

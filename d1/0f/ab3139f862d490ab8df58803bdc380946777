@@ -1,0 +1,4 @@
+Net::HTTP の rdoc に userinfo を認証に使うのは deprecated だよという記述を追記
+しています。[ruby-core:33255]
+[DEL:あーこの追記のすぐ上の行の iff -> if の typo っぽいですね。:DEL] iff = "if
+and only if" という単語らしいです。

@@ -1,0 +1,5 @@
+NoMethodError の例外メッセージのフォーマット文字列を char * から fstring の
+String オブジェクトを使うようにしています。最終的に rb_name_err_mesg_new() で
+String オブジェクトを受け取るようになっているので make_no_method_exception() の
+引数の段階で VALUE 型に変更し、 C の文字列リテラルを書いている箇所でそのまま
+fstring を作るようにしています。

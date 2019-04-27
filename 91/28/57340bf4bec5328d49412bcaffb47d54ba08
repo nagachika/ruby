@@ -1,0 +1,4 @@
+complex.c の k_rational_p() という関数を削除して nucomp_expt() で引数が
+Rational の時のチェックに RB_TYPE_P() を使うようにしています。また denominator
+が 1 かどうかのチェックに f_one_p() を使っていたのを RRATIONAL()->den を直接比
+較するようにして最適化しています。

@@ -1,0 +1,2 @@
+r50958 の $SAFE = 2 の廃止に追加。 safe.c の safe-level の rdoc 用コメントから
+2 を削っています。

@@ -1,0 +1,2 @@
+vm_eval.c の eval_string_from_file_helper() という関数をコールバック関数として
+定義されている型に揃えて引数の型を変更しています。

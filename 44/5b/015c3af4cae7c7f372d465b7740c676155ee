@@ -1,0 +1,4 @@
+r53738 で revert した r53736 の正規表現の src の設定のリベンジ。
+rb_reg_initialize() で struct RRegexp::src をセットしていたのを rb_enc_reg_new
+() に移動して、rb_reg_init_str_enc() という encoding 指定つきの初期化関数を導入
+しています。結局 rb_fstring_enc_new() は使ってないんですね。

@@ -1,0 +1,3 @@
+またまた r47808 で追加した tool/unicode_norm_gen.rb の修正。生成する
+normalize_tables.rb のマジックコメントを us-ascii にしています。また出力する文
+字列のエスケープ処理を修正しています。

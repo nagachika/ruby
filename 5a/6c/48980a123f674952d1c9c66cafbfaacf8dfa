@@ -1,0 +1,5 @@
+obj.attr= のような形式のメソッドにキーワード引数が渡された時に
+rb_call_info_t::flags に fastpath フラグを立てないようにしています。普通は文法
+的にキーワード引数は渡せないはずですが、 alias で普通の名前のメソッドを作るとそ
+ちらで渡せて stack consistency error になってしまうようです。 [ruby-core:71344]
+[Bug #11657]

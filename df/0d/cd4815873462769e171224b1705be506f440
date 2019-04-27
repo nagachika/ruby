@@ -1,0 +1,5 @@
+tool/make-snapshot で tool/vcs.rb の export の軽量化(チェックアウト済の working
+copy を流用する方法)ですぐに .svn を削除するかどうかを選択できるようにして、後
+で削除することもできるようにインタフェースを追加、変更しています。コメントによ
+ると make prereq で revision.h を作るときにリポジトリの情報が必要だったためっぽ
+いです。

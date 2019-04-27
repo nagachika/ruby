@@ -1,0 +1,1 @@
+common.mk に version.i の依存関係を追加しています。

@@ -1,0 +1,3 @@
+標準添付ライブラリ erb の ERB::Compiler::TrimScanner の attr_accessor :stag を
+削除しています。親クラスの ERB::Compiler::Scanner で定義済みなので不要だったと
+のこと。 https://github.com/ruby/ruby/pull/1445

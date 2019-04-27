@@ -1,0 +1,4 @@
+compile.c で非公開(メソッドになってない) iseq_build_from_ary_body() で ISeq#
+to_a でダンプした配列から ISeq を構築する時の callinfo の処理を
+iseq_build_callinfo_from_hash() という関数に括り出しています。
+こういう時 "hoist out" って言うんですね。はじめて聞いた単語だ。

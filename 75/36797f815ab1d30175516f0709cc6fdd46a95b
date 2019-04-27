@@ -1,0 +1,2 @@
+r62252 の tool/transform_mjit_header.rb のエラーメッセージ強化で exit false が
+抜けてたのを修正。

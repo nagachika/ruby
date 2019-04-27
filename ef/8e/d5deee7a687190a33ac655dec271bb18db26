@@ -1,0 +1,3 @@
+azure-pipelines.yml の macOS でのビルド時に環境変数 TRAVIS=1 を渡してたのをやめ
+ています。なんだっけこの環境変数……どうやら bundler のテストで環境を知るために必
+要みたいですが macOS では(というか Azure Pipelines では?)不要みたいです。

@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Addrinfo#connect_internal の可視性を private から
+protected に変更して、Addrinfo#connect_to から send を使って呼び出してたのを直
+接呼ぶように変更しています。

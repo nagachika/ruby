@@ -1,0 +1,2 @@
+.travis.yml の before_script に .rbconfig.time というタイムスタンプファイルの生
+成を追加して reconfig 時の作りなおしを抑制するようにしています。

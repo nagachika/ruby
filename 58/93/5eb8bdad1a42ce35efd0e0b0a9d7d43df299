@@ -1,0 +1,5 @@
+標準添付ライブラリ net/protocol の Net::BufferedIO#rbuf_fill で read_nonblock
+が nil を返して EOFError を発生させる時に、raise に第3引数を渡してバックトレー
+スの生成を抑制していたのをやめています。EOFError は最後に必ず発生させるのでパフ
+ォーマンスを気にして抑制していたのだと思いますが、混乱するのでやめようってこと
+になったみたいですね。 [ruby-core:78550] [Bug #13018]

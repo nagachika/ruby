@@ -1,0 +1,3 @@
+configure に gcc のビルトイン関数 __builtin_constant_p() の存在チェックを追加し
+て defined(__GNUC__) && !defined(__PCC__) で判定していたところを
+HAVE_BUILTIN__BUILTIN_CONSTANT_P() でチェックするようにしています。

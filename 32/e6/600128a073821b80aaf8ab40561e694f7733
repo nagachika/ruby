@@ -1,0 +1,2 @@
+Object#is_a? と Object#instance_of? の rdoc にサンプルコードを追加/移動していま
+す。 [ruby-core:42057] [Bug #5880]

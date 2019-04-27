@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal の BigMath.log の実装でも数値の 0 か負かを判定すると
+ころで RBIGNUM_ZERO_P() と RBIGNUM_NEGATIVE_P() を使うかわりに rb_big_cmp() を
+利用するようにしています。

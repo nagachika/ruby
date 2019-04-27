@@ -1,0 +1,3 @@
+ext/bigdecimal/bigdecimal.c で RB_GC_GUARD() による変数のコンパイラ最適化避けを
+関数の末尾や return の直前など利用している箇所より後に置くように移動しています
+。

@@ -1,0 +1,3 @@
+Rational.convert の実装で引数が Numeric かつ Integer という論理式がありましたが
+、Integer は Numeric の一部なので冗長なので k_integer_p() のほうだけ残していま
+す。

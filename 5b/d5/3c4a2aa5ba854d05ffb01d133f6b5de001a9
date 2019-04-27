@@ -1,0 +1,2 @@
+doc/NEWS-2.1.0 の read_nonblock や write_nonblock のメソッド名を変更しているの
+ですが、逆ですね。次で revert されています。

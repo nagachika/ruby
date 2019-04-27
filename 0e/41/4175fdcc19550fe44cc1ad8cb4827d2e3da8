@@ -1,0 +1,2 @@
+test/ruby/test_symbol.rb から Symbol の不要な immortal 化についてのテストメソッ
+ドを test/-ext-/symbol/test_inadvertent_creation.rb に移動しています。

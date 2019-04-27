@@ -1,0 +1,5 @@
+tool/runruby.rb で使う ruby-runner というユーティリティを導入してそのソースコー
+ドを template/ruby-runner.c.in で作るようにしています。これは環境変数
+LIBPATHENV を @LIBPATHENV@ で指定される環境変数にセットしてから execv(3) で
+ruby を実行するというもので、新しい OS X の El Capitan で /bin/sh が
+DYLD_LIBRARY_PATH をクリアしてしまうのを回避するためだそうです。

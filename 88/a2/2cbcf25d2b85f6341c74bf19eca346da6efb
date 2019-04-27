@@ -1,0 +1,4 @@
+拡張ライブラリ socket の extconf.rb で cross compile の時と同様に mingw や
+mswin の環境で getaddrinfo() と getnameinfo() のが利用できるかのチェックを skip
+するようにしています。 Windows 環境でなんらかの理由で extconf.rb でチェック用に
+コンパイルしたものが異常終了することがあるそうです。

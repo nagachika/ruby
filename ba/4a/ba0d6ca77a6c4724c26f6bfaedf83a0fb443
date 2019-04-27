@@ -1,0 +1,4 @@
+r62049 で KeyError.new のキーワード引数を追加しましたが、キーワード引数が指定さ
+れていなかった時も rb_ivar_set() してたので KeyError#receiver や KeyError#key
+が nil を返していましたが、指定がなかった時は ArgumentError が発生するようにし
+ています。 [ruby-core:84626] [Feature #14313]

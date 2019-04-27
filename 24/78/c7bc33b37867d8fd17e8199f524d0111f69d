@@ -1,0 +1,5 @@
+r51840 で標準添付ライブラリ net/ftp に MLST と MLSD に対応したので、そのレスポ
+ンスを表すクラス MLSxEntry を導入して file?, directory?, appendable?,
+creatable?, deleteable?, enterable? renamable?, listable?, directory_makable?,
+purgeable?, readable?, writable? などのメソッドで perm フィールドの内容をチェッ
+クできるようにしています。

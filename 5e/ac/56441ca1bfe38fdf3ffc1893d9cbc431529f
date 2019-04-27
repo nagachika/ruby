@@ -1,0 +1,5 @@
+REXML::Parsers::BaseParser#add_listener を呼んだ時に @listeners を初期化したり
+メソッド pull で @listeners の要素にイベントを receive メソッドで渡すように再定
+義したりというメタプログラミングを駆使していましたが、最初からそのような挙動を
+するようにすることで instance_eval を使うのをやめるようにしています。
+[ruby-core:41437] [Bug #5696]

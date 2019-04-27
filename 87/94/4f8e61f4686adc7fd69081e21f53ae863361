@@ -1,0 +1,2 @@
+method.h から struct rb_call_info_struct という構造体の宣言(定義じゃなくて宣言
+だけされてた)を削除しています。

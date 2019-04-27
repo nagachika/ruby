@@ -1,0 +1,4 @@
+Marshal.load で non-ASCII な文字を含むシンボルをロードした時にエラーになる不具
+合を修正しています。エンコーディング情報がない時に US-ASCII に設定しているのを
+やめてデフォルトを ASCII-8BIT にして rb_instern_str() を呼ぶようにしているよう
+です。 [ruby-core:43762][Bug #6209]

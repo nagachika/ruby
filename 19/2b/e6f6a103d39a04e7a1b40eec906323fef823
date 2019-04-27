@@ -1,0 +1,2 @@
+r56072 の rdoc の upstream からのマージのうち gemspec ファイルは revert して
+installer.rb でのインストールに特化した内容に変更しています。

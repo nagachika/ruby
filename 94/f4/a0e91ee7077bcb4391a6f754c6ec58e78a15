@@ -1,0 +1,4 @@
+TracePoint#enable に target_thread: キーワード引数を追加して、指定の Thread の
+みでイベントフックが反応できるようにしています。テストでもイベントフック内で別
+Thread じゃないか判定してたりしたので有用そう。[ruby-core:90750] [Feature #
+15473]

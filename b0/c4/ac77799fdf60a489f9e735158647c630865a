@@ -1,0 +1,6 @@
+rb_mod_method_arity() という関数で継承したメソッドの可視性だけを変更した時など
+に method entry が複製された時に正しい数値を返さないという不具合を修正していま
+す。 rb_mod_method_arity() や rb_obj_method_arity() は ruby のコア部分では利用
+されておらず、拡張ライブラリからの利用が想定されているようです。 Method#arity
+や Proc#arity へは影響なさそうです。 ChangeLog を探してみたら以下のような ruby
+-dev のスレッドがみつかりました。 [ruby-dev:25134]

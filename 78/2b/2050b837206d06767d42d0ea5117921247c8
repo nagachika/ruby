@@ -1,0 +1,4 @@
+r57384 で SecureRandom の乱数源を OpenSSL の実装より /dev/urandom のほうを優先
+するようにした変更で openssl が使えない環境での SecureRandom のテストが不要にな
+っていたので削って、かわりに SecureRandom.gen_random_openssl のテストを追加して
+います。

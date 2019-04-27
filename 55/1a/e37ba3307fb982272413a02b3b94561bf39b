@@ -1,0 +1,3 @@
+r52614 の rb_method_definition_t::complemented_count の導入に追随して
+METHOD_ENTRY_COMPLEMENTED()、METHOD_ENTRY_COMPLEMENTED_SET() などのマクロを導入
+してこれを利用するようにしています。

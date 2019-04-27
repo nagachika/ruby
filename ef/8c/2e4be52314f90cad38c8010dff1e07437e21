@@ -1,0 +1,3 @@
+iseq.c の iseq_s_compile_file() で入力ファイルを close していなかったのを修正し
+ています。一応 RubyVM::InstructionSequence.compile_file で ruby のメソッドから
+呼べる関数ですね。

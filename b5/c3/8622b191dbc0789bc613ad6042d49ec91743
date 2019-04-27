@@ -1,0 +1,3 @@
+Pathname の rdoc の体裁の修正やサンプルコードの追加などです。 zzak さん(Zachary
+Scott さん)は主にドキュメントまわりの contribution をされて新しくコミッターにな
+られたかたです。 [ruby-core:47354] [Bug #6947]

@@ -1,0 +1,2 @@
+bigdecimal の関数 VpNewRbClass() の第2引数を char * から const char * に変更し
+ています。

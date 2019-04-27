@@ -1,0 +1,2 @@
+Enumerable#all? と Enumerable#any? の rdoc 用コメントに要素が1つもない時の挙動
+についてサンプルを追記しています。

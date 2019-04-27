@@ -1,0 +1,2 @@
+rubyspec に rb_str_modify() という API を呼ぶ拡張ライブラリを用意して、String
+オブジェクトの共有状態解除に使うようにしています。

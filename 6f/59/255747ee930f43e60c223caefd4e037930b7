@@ -1,0 +1,2 @@
+common.mk で Context.s を直書きしてたのを拡張子に $(ASMEXT) を使うようにして、
+Makefile.in での ASMEXT の定義を S から s に変更しています。

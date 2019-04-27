@@ -1,0 +1,3 @@
+rb_block_min_max_arity() を rb_vm_block_min_max_arity() に改名して
+rb_block_min_max_arity() はそれに block_setup() を追加した extern 関数として定
+義しなおしています。

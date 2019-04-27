@@ -1,0 +1,2 @@
+missing/lgamma_r.c で lgamma_r() が mingw のバグで警告が出るのに対処しています
+。 pure として宣言されているというやつですね。

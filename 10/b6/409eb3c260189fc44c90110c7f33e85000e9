@@ -1,0 +1,3 @@
+コミットログおよび ChangeLog をみると標準添付ライブラリ securerandom.rb のドキ
+ュメントの修正みたいですが ChangeLog だけ更新されています。 r43575 で本体もコミ
+ットされているようです。 https://github.com/ruby/ruby/pull/412

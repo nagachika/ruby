@@ -1,0 +1,3 @@
+mjit.c および mjit_worker.c で struct rb_mjit_unit の実装に ccan/list を利用す
+るようにしています。ですが後に revert されています。 [ruby-core:89654] [Bug #
+14867]

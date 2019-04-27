@@ -1,0 +1,2 @@
+missing/strerror.c でバッファサイズ制限のない sprintf(3) を利用していたところが
+あったので snprintf(3) を利用するように修正しています。

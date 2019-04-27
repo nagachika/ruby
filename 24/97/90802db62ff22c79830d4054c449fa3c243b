@@ -1,0 +1,5 @@
+VALUE 型から rb_thread_t のポインタを返す rb_thread_ptr() という関数を導入して
+各所で GetThreadPtr() にかわって使うようにしています。また current thread 以外
+の thread を指している場合にみわけやすいように変数名を th -> target_th に何箇所
+か変更しています。これはバックポート時に衝突しやすそうだから憶えておかないとな
+ぁ。

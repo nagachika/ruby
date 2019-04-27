@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の rdoc コメントのメソッド一覧に require
+"fileutils" を追加し、またメソッドを FileUtils の特異メソッド呼び出しの表記に変
+更しています。 https://github.com/ruby/ruby/pull/604

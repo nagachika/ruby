@@ -1,0 +1,2 @@
+rb_thread_t::interrupt_lock の破棄を native_thread_destroy() からプラットフォー
+ム共通の thread_cleanup_func() の中に移動しています。

@@ -1,0 +1,2 @@
+test/ruby/test_process.rb でひとつのテストケースに入っていた 2つの assert をテ
+ストケース分離しています。

@@ -1,0 +1,3 @@
+IO#reopen の処理で freopen(3) で開いた file descriptor について
+rb_maygvl_fd_fix_cloexec() を呼んで close-on-exec フラグを立てるようにしていま
+す。

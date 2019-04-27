@@ -1,0 +1,3 @@
+include/ruby/intern.h の rb_check_frozen_internal() という関数マクロでエラー時
+の分岐に RB_UNLIKELY() を使って分岐予測のヒントを与えるようにしています。
+https://github.com/ruby/ruby/pull/1913

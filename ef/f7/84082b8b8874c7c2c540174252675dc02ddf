@@ -1,0 +1,3 @@
+r66439 の続きで vm_caller_setup_arg_block() で rb_func_proc_new() に渡す配列オ
+ブジェクトを rb_ary_tmp_new() で作って内部的オブジェクト
+(ObjectSpace.each_object に現れないよう)にしています。

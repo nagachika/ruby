@@ -1,0 +1,2 @@
+fiddle の extconf.rb の修正。 libffi のビルド時の CPP の設定は mswin 以外では空
+になってしまうので必要な時だけ引数に設定するようにしています。

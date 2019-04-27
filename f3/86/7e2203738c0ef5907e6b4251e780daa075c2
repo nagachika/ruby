@@ -1,0 +1,3 @@
+C level backtrace 取得のためデバッグ情報を読む follow_debuglink() で既に open
+(2) & mmap(2) されていた fd を閉じる時にデバッグ用メッセージを出力するようにし
+ています。

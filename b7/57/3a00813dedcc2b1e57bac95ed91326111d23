@@ -1,0 +1,3 @@
+rb_thread_create_timer_thread() で pthread_create() が失敗した時に
+pthread_attr_destroy() を呼ばずに返していたので、pthread_create() の呼び出し直
+後に破棄しておくようにしています。

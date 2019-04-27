@@ -1,0 +1,3 @@
+Module#private_constant, #public_constant, #deprecate_constant などの定数の
+visibility (っていうのかな)を変更するメソッドで freeze されているかどうかをチェ
+ックするようにしています。 [ruby-core:70828] [Bug #11532]

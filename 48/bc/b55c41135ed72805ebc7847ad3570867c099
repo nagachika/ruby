@@ -1,0 +1,3 @@
+dl からコピーしてきた ext/fiddle/pointer.c の rb_fiddle_ptr2cptr() で引数の型エ
+ラー時の例外のメッセージが DL::PtrData のままになっていたので Fiddle::Pointer
+に修正しています。

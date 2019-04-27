@@ -1,0 +1,2 @@
+__dir__ というメソッドで File.dirname(__FILE__) を返す機能を追加しています。
+[Feature #3346]

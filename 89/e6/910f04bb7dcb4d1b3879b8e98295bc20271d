@@ -1,0 +1,8 @@
+RGENGC (世代別GC)の導入に向けて、struct RRational と struct RComplex のメンバー
+に const を付けて直接代入できないようにして、セット用の専用のマクロ
+RRATIONAL_SET_NUM(), RRATIONAL_SET_DEN(), RCOMPLEX_SET_REAL(),
+RCOMPLEX_SET_IMAG() を定義してこれを使うようにしています。拡張ライブラリから直
+接 Rational や Complex の内部表現を触っていたライブラリはこの影響を受けてコンパ
+イルできなくなる可能性があります。
+セット用のマクロは先にバックポートして使えるようにして migration path を用意し
+ておかないといけないかもしれませんね。

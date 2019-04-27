@@ -1,0 +1,3 @@
+io/console のテスト TestIO_Console#test_sync が端末が利用できない時に skip する
+ようにされていたのを、PTY.spawn を使って新たに端末つきの子プロセスでテストする
+ようにしています。

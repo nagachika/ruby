@@ -1,0 +1,3 @@
+test-all 用ユーティリティ assert_separately で子プロセスからの通信の
+Marshal.load に失敗したときに ignore_stderr オプションを無効にするようにしてい
+ます。

@@ -1,0 +1,3 @@
+Fiber の構造体 rb_fiber_t が prev_fiber/next_fiber で二重リスト構造を作るように
+していたのをやめています。既にこの構造で辿ることはしていなかったようです。
+[ruby-core:65518] [Feature #10341]

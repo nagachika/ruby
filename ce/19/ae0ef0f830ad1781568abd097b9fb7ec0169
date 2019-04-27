@@ -1,0 +1,3 @@
+ext/pty/pty.c で posix_openpt() の flags に O_CLOEXEC をセットしようとしている
+ところで FreeBSD では O_CLOEXEC がサポートされていなくて、エラーになるので条件
+コンパイルで __FreeBSD__ の時は利用しないようにしています。

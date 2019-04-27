@@ -1,0 +1,5 @@
+RFC 8297 で規定された新しい HTTP ステータスコードの 103 Early Hints を標準添付
+ライブラリ net/http で対応するようにしています。 https://www.iana.org/
+assignments/http-status-codes/http-status-codes.xhtml
+これ一昨年くらいに CRuby にも最適化のパッチを提供してくださった kazuho さんが提
+案した RFC ですね。

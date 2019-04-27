@@ -1,0 +1,4 @@
+parser_compile_string() と rb_parser_compile_file_path() でそれぞれ rb_ast_t を
+確保して yycompile() の結果を ast->node に格納するという処理をしていたのを、
+yycompile() の中に移動して共通化して、yycompile() が NODE* でなく rb_ast_t* を
+返すようにリファクタリングしています。

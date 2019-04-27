@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の変数 mSSLExtConfig、eSSLError、ID_callback_state、
+ossl_ssl_ex_vcb_idx、ossl_ssl_ex_store_p、ossl_ssl_ex_ptr_idx などの変数が
+extern されていたのを static 変数に変更しています。

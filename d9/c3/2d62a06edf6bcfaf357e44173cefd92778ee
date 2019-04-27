@@ -1,0 +1,4 @@
+RubyGems を 2.4.6 に更新しています。 https://github.com/rubygems/rubygems/pull/
+1159 https://github.com/rubygems/rubygems/pull/1171 https://github.com/rubygems
+/rubygems/pull/1173 などを修正しています。拡張ライブラリを含む gem のロードパス
+のサーチ順の修正も入っているはずですね。

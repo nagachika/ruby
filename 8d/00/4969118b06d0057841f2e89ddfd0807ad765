@@ -1,0 +1,3 @@
+r48278 の $(BASERUBY) が利用できるときだけ Unicode データを更新するようにする変
+更を revert しています。 lib/unicode_normalize/tables.rb が作れなくてビルドに失
+敗するそうです。

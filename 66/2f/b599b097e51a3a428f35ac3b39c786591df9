@@ -1,0 +1,2 @@
+spec/ruby に Rational と Complex が常に freeze された状態になるという r60214 の
+変更に追随したテストを追加しています。 [ruby-core:83167] [Feature #13983]

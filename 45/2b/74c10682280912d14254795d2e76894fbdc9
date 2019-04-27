@@ -1,0 +1,6 @@
+OpenSSL::Engine のテストで RC4 を用いた暗号化の時に OpenSSL 自体が標準エラー出
+力にメッセージを出力してしまうので、テストの時にこれを抑制できるようにこのテス
+トの間 stderr を reopen で IO::NULL に振り向けるようにしています。
+[ruby-core:41026] [Bug #5633]
+しかし多分これだと ensure での復旧が $stderr への代入になってるので、内部的に
+fd:2 はそのままになりそう。再度 reopen して err_backup.close が best か。

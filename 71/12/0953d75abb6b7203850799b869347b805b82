@@ -1,0 +1,3 @@
+dir.c の do_stat(), do_lstat() に path からオフセットをかけるサイズを引数として
+追加しています。 glob_helper() から do_lstat() を呼ぶ時に DT_UNKNOW がない環境
+で不具合があったそうです。具体的には Solaris らしい。

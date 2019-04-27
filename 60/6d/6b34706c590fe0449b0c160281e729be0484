@@ -1,0 +1,2 @@
+r63646 の (1..nil) による endless range をエラーにする変更を revert しています
+。 [ruby-dev:50568] [Bug #14845]

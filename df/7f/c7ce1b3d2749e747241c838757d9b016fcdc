@@ -1,0 +1,3 @@
+r44379 で一時的に minitest の assert_throws の alias にした unit/test の
+assert_throw をやっぱり自前の実装にして catch と対応しないタグでの throw による
+例外に対応するようにしたり、エラー時のメッセージを詳しくしたりしています。

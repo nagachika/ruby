@@ -1,0 +1,2 @@
+WEBrick のテストで Ruby および CGIRunner というテスト用の cgi_runner.rb 起動時
+コマンドを再定義するようにしています。

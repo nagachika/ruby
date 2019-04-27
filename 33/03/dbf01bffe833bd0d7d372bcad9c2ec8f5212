@@ -1,0 +1,3 @@
+make distclean で auto4te.cache を、make realclean で id.c, id.h, probes.dmyh
+などの自動生成されるソースを削除するようにルールを追加しています。
+[ruby-core:67562] [Bug #10737]

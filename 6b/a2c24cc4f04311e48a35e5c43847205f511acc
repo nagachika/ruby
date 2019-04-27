@@ -1,0 +1,2 @@
+vm_dump.c で rb_dump_backtrace_with_lines() を利用する条件に HAVE_DLADDR を追加
+して dladdr(3) が定義されている環境だけで呼び出すようにしています。

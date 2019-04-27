@@ -1,0 +1,2 @@
+r58295 の configure の --with[out]-git の指定による GIT を AC_CONFIG_FILES() に
+よる Makefile 作成時に変数として渡すようにしています。

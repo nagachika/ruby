@@ -1,0 +1,2 @@
+rubyspec の socket のテストで FreeBSD での loopback インターフェースの挙動の違
+いを考慮したり IPv6 環境の対応をしたりといった修正をしています。

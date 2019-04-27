@@ -1,0 +1,4 @@
+r36470 のあたりで追加された Thread.control_interrupt の内部で interrupt_mask を
+操作した後に RUBY_VM_CHECK_INTS() を読んで割り込みチェックするようにしています
+。 mask で pending されていた割り込みがあるかもしれないからそれをチェックしてい
+るんでしょう。

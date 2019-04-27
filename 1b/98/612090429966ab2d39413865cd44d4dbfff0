@@ -1,0 +1,2 @@
+test/ruby/enc/test_case_comprehensive.rb に ASCII only の encoding 用のテストを
+生成するメソッドと、それを使ってエンコーディング毎のテストを追加しています。

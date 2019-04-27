@@ -1,0 +1,8 @@
+Windows版(x64-mswin64)で testunit の parallel test 機能のテストで Process.kill
+が Errno::EPERM を発生させてしまうという問題の対応です。Windows の API はよくわ
+かりませんが、pid に対応するプロセスの HANDLE の取得方法を少し変更しているのと
+、TerminateProcess() を呼ぶ直前にプロセスがまだ生きているかどうかの確認をするよ
+うにしています。また wunlink() で DeleteFileW() を呼んでファイルの削除後に
+GetFileAttributeW() で ERROR_FILE_NOT_FOUND を返すようになるまでループで待つよ
+うにしています。DeleteFileW() が返ってきてから「実際に消える」(というか API か
+ら消えたように見える)までラグがあるみたいですね。 [ruby-dev:43990] [Bug #4943]

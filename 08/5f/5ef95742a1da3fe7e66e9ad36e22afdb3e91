@@ -1,0 +1,4 @@
+Hash#merge, Hash#merge!, Hash#update などのメソッドで、引数には 1つだけ Hash を
+受け取れてましたが、可変長の引数を受け取るようにして複数(0 でも化)の Hash オブ
+ジェクトを merge/update できるようにしています。 https://github.com/ruby/ruby/
+pull/1951 [ruby-core:88970] [Feature #15111]

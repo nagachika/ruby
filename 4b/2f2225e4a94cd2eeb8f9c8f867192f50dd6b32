@@ -1,0 +1,3 @@
+rb_scan_args_xxx() 系の関数/マクロ定義で clang の diagnose_if という attribute
+が使えたら rb_scan_args_set() でこれを利用して静的に判定できる引数のチェックを
+行ってエラーメッセージを改善するようにしています。

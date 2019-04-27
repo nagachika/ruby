@@ -1,0 +1,3 @@
+OpenSSL の SHA1 用の構造体の名前が SHA_CTX なので extconf.rb で digest_conf で
+構造体名の prefix を明示的に指定するようにしています。 http://openssl.org/docs/
+man0.9.8/crypto/SHA1.html

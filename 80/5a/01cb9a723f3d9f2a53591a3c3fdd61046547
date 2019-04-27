@@ -1,0 +1,1 @@
+test/net/http/test_http.rb で一時ファイルの閉じ忘れを修正しています。

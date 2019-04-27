@@ -1,0 +1,3 @@
+include/ruby/backward.h に rb_frame_method_id_and_class() の宣言を deprecated
+の指定つきで移動しています。 r60558 で定義を削除してしまったのですが include/
+ruby/intern.h で公開されてしまっていたのでひとまず deprecated にしています。

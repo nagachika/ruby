@@ -1,0 +1,2 @@
+標準添付ライブラリ cgi で Tempfile#unlink で削除していたところを Tempfile#close
+に true を渡して閉じると同時に削除するようにしています。

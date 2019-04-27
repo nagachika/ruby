@@ -1,0 +1,2 @@
+Hash#transform_values! は新しい Hash オブジェクトではなく receiver をそのまま返
+すのに rdoc 用コメントで逆の記述になっていたので修正しています。

@@ -1,0 +1,3 @@
+r50592 で書きかえられた Method から作った Proc の binding のテストで Binding#
+local_variables で local_variable_set で追加した変数が取れるというチェックを追
+加しています。

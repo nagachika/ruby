@@ -1,0 +1,3 @@
+rubygems の Gem.load_path_insert_index で $LOAD_PATH のパスの文字列オブジェクト
+のインスタンス変数 @gem_prelude_index をみて最初の rubygems 用の path を知るよ
+うにしています。 r51103 の修正ものこためだったのでしょうね。

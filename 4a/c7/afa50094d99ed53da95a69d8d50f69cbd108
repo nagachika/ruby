@@ -1,0 +1,2 @@
+r48480 の続きで enc/encdb.c で宣言を消したものの internal.h を #include してい
+なかったので追加しています。

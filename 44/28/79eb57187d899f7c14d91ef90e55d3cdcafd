@@ -1,0 +1,2 @@
+r45974 で標準添付ライブラリ test/unit を削除したのに追随して bin/testrb も削除
+しています。 [Feature #9711] [ruby-core:62620]

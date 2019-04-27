@@ -1,0 +1,2 @@
+common.mk の ext/date/zonetab.h のルールで起動する submake に渡す変数の
+top_srcdir と VPATH の "../" が多すきたのを修正しています。

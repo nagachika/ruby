@@ -1,0 +1,1 @@
+lib/drb/invokemethod.rb でモジュール名に rdoc の :nodoc: タグを追加しています。

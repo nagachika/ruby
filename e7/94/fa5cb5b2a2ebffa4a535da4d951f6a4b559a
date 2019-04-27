@@ -1,0 +1,2 @@
+r52117 の再修正。追加した rsock_fd_family() で struct sockaddr::sa_len のサイズ
+チェックを追加しています。

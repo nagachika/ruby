@@ -1,0 +1,3 @@
+r32283 の続きのようです。 Module#const_defined? の時にも Object を特別扱いして
+いたのをやめています。また BasicObject を明示的に Object の下の定数として定義す
+るようにしています。

@@ -1,0 +1,2 @@
+tool/m4/ruby_check_va_copy.m4 で va_copy() の存在チェックのためのソースコードで
+va_end() が抜けてたのを修正しています。

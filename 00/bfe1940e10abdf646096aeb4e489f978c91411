@@ -1,0 +1,4 @@
+拡張ライブラリ openssl のビルド時に ENGINE_load_dynamic, ENGINE_load_padlock,
+ENGINE_load_capi, ENGINE_load_gmp, ENGINE_load_gost, ENGINE_load_cryptodev,
+ENGINE_load_aesni といった関数の有無チェックを追加して、OpenSSL::Engine.load が
+サポートするエンジンを拡張しています。 [ruby-core:40670] [Bug #5548]

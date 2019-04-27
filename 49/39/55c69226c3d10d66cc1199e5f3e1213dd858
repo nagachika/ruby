@@ -1,0 +1,3 @@
+.travis.yml で Unicode 用のデータファイルをキャッシュするため .downloaded-cache
+というディレクトリを tool/downloader.rb の --cache-dir オプションに渡すようにし
+ています。

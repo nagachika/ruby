@@ -1,0 +1,2 @@
+gc.c の rb_bug() のメッセージ内で rb_gc_writebarrier_incremental() の関数名の
+rb_ の prefix を削除しています。

@@ -1,0 +1,1 @@
+regcomp.c の print_indent_tree() という関数を static 関数にしています。

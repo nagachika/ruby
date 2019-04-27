@@ -1,0 +1,2 @@
+rinda のテストの未使用変数や未初期化インスタンス変数参照などの警告除去。
+Rinda::Ring の attr_accessor -> attr_writer はなんででしょう?

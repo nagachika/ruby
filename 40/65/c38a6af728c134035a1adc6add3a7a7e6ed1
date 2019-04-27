@@ -1,0 +1,3 @@
+rb_undef_methods_from() という関数を追加して、第2引数の super の method table
+にあるメソッドを全て undef するという処理を実装しています。この流れだと Complex
+で Comparable のメソッド群を undef するためみたいですね。

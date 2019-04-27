@@ -1,0 +1,3 @@
+IO の close_on_exec や reopen のテストで Windows プラットフォームで skip してい
+たのを、Windows ではサポートされないのでテストメソッドの定義自体しないように分
+岐に変更しています。

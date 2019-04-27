@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf のテストに -DHAVE_RUBY_INIT というオプションが $defs に
+含まれていることを確認する assertion を追加しています。

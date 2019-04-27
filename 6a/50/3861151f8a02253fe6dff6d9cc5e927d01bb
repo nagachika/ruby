@@ -1,0 +1,2 @@
+拡張ライブラリ socket の BasicSocket#recv_nonblock の rdoc 用コメントで第3引数
+buf の記述が抜けてたのを修正しています。

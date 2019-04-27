@@ -1,0 +1,2 @@
+compile.c の ruby_sourcefile() というマクロを削除して、引数の rb_iseq_path() が
+複数回評価されるのを避けるようにしています。

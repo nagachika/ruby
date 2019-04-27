@@ -1,0 +1,6 @@
+insns.def から VM のソースを自動生成する tool/instruction.rb を削除して、かわり
+に tool/ruby_vm/ 配下のスクリプト群とERBテンプレートファイルを導入しています。
+ついでに stack caching などの最近は使われていなかった(ビルド時の指定による)機能
+の削除なども行なっているそうです。
+stack caching は YARV Maniacs の逆襲でコードリーディングした時はじめて発表のネ
+タに選んだ題材なので思い出深いなぁ。

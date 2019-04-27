@@ -1,0 +1,2 @@
+test/coverage/test_coverage.rb で警告メッセージの抑制のため
+EnvUtil.suppress_warning を利用しています。

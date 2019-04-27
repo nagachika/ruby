@@ -1,0 +1,2 @@
+rubyspec の win32ole のテストで InternetExplorer.Application のかわりに
+Scripting.Dictionary を利用するようにしています。

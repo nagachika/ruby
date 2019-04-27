@@ -1,0 +1,2 @@
+r41106 で追加した rb_int_export() の引数に wordcount_allocated を追加して確保し
+たワード数はこちらで返すようにしています。

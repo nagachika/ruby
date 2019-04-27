@@ -1,0 +1,7 @@
+Hash の要素数が少なめの時の array hash 実装で RHASH_TABLE_EMPTY() を
+RHASH_TABLE_NULL_P() と改名して RHASH_TABLE_EMPTY_P() はサイズが 0 かどうかとい
+う判定をする関数として定義しなおしています。ポインタが NULL なのか要素数が 0 な
+のかを区別して呼び元で使い分けるようにしているようです。要素数が 0 になると
+struct RVALUE に埋め込む embeded な実装になると思うのですが、"in case removed
+after inserted elements" で array hash 実装で要素は空というのがありえるみたいで
+す。つまり removed にマークされた状態で残るってことかな。

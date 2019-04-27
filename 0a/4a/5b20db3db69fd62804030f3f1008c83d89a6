@@ -1,0 +1,2 @@
+これも OpenBSD 用の workaround。 Process.setrlimit のテストで RLIMIT_NOFILE を
+0 にすると OpenBSD では固まるらしいので(!?) 1をセットするように変更しています。

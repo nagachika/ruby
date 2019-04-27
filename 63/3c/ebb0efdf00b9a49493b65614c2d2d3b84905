@@ -1,0 +1,4 @@
+test/ruby/test_settracefunc.rb でも別の Thread が trace_func を呼んでしまって
+(どうやらどこかのテストで作った WEBrick のサーバのThreadが動いていた模様)テスト
+に失敗していたのでファイル名でチェックして別の Thread の影響を受けないようにテ
+ストを修正しています。

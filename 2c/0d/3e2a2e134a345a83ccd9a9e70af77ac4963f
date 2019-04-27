@@ -1,0 +1,4 @@
+test/-ext-/symbol/test_inadvertent_creation.rb で確実に動的に Symbol になってい
+ない文字列を生成するために乱数や時刻を含む文字列を生成している処理を
+Test_Symbol::NonInterned という Module に切り出して使いまわすようにリファクタリ
+ングしています。

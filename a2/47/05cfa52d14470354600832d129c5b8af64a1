@@ -1,0 +1,3 @@
+struct rb_objspace rb_objspace に GC 用のパラメータ heap_limit を追加してヒープ
+の数ではなくてその中に存在するスロット数の合計値で GC トリガの閾値を計算するよ
+うにしています。 [ruby-core:57633] [Bug #8983]

@@ -1,0 +1,3 @@
+r64897 の Rational の分母に Float が現れるケースの修正の追加修正。
+nurat_to_double() の戻り値が double なのに VALUE (Float オブジェクト)に変換して
+しまってるケースがあったので修正しています。 [ruby-core:89239] [Bug #15189]

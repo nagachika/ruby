@@ -1,0 +1,4 @@
+r37848 で rb_str_enumerate_{chars, codepoints} の ary の初期化を追加しましたが
+、その位置が if 文の中だったので不十分だったようで、変数宣言に
+UNINITIALIZED_VAR() というマクロを利用して未初期化変数の警告抑制するようにして
+います。

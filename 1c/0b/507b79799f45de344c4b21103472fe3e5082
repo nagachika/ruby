@@ -1,0 +1,4 @@
+AIX で 32bit CPU では _LARGE_FILES が定義されていると(定義されてないと、じゃな
+いんですね) posix_fadvise() がサポートされていないので(定義されてないわけではな
+いようで、HAVE_POSIX_FADVISE は定義されるみたい)、条件コンパイルの条件を追加し
+ています。 [ruby-core:62968] [Bug #9914]

@@ -1,0 +1,8 @@
+Encoding に対して不正な文字を含む文字列を String#encode で str.encode("UTF-8",
+"UTF-8") のように source encoding も指定して変換すると :invalid や :replace の
+オプションによる不正な文字の処理が働かないというチケットの対応で、String#encode
+で変換前後の encoding に同じものが指定された時に scrub する場合に、文字列自体の
+Encoding について行うのではなく、指定された Encoding を基準として scrub するよ
+うにしています。文字列の Encoding と指定された source encoding が異なるというの
+が使いかたがまちがっているような気はしますけどね。 [ruby-core:75732] [Bug #
+12431]

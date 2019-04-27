@@ -1,0 +1,4 @@
+r34291 で Exception#== の引数に exception メソッドを呼ぶようになりましたが、
+XMLRPC::FaultException のように exception に引数なしで呼ぶと ArgumentError が発
+生するものを渡すと例外になってしまうので一旦 revert しています。
+[ruby-core:41979] [Bug #5865]

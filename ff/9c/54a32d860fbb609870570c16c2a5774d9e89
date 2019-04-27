@@ -1,0 +1,2 @@
+test/lib/minitest/.document を削除しています。 test の下に置かれるようになった
+ので rdoc への指定は不要になったため。

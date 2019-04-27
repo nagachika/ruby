@@ -1,0 +1,4 @@
+proc.c の rb_method_call_with_block() から $SAFE の値を一時的に変更して呼ぶため
+に PUSH_TAG()/EXEC_TAG() で大域脱出を捕捉する必要があるケースとそうでないケース
+を call_method_data_safe() と call_method_data() という関数に切り出して分岐させ
+て、不要な時に PUSH_TAG()/EXEC_TAG() を省略するように最適化しています。

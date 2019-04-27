@@ -1,0 +1,2 @@
+NilClass#to_h を追加しています。nil.to_h は空の Hash を返します。
+[ruby-core:44269] [Feature #6276]

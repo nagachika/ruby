@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http の Net::HTTPServerException という例外クラス名を
+deprecated にして、かわりに Net::HTTPClientException という別名を追加しています
+。あと Net::ProtoServerError も deprecated にされていますね。 HTTP のステータス
+コードで 400系は Server Error ではなく Client Error なのに例外クラス名がマッチ
+してない、ということみたいです。 [ruby-core:86545] [Bug #14688]

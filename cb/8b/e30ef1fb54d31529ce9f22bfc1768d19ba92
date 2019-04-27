@@ -1,0 +1,3 @@
+RubyGems で gem install --ignore-dependencies で Gem::Installer を利用した実装
+を修正しています。 r44286 の修正でローカルの gem パッケージのインストールにしか
+対応していなかったみたいです。

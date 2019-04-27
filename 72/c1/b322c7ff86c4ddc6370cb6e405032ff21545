@@ -1,0 +1,4 @@
+tool/vcs.rb で ChangeLog ファイルを生成するところで Time.strptime を利用してい
+ましたが、これは拡張ライブラリ date に依存しているので miniruby で実行できない
+ので正規表現で切り出して Time.new を使うように書きかえています。
+[ruby-core:78641] [Bug #13032]

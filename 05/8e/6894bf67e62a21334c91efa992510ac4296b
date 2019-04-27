@@ -1,0 +1,5 @@
+test/runner.rb で Test::Unit::ZombieHunter というモジュールを定義して
+after_teardown で Process.waitall して子プロセスが全て終了済みであることをチェ
+ックするようにしています。
+テストで zombie プロセスが残っていたのでそれを検出して修正するための方策みたい
+ですね。

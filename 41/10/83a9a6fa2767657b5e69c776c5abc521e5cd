@@ -1,0 +1,2 @@
+拡張ライブラリ pty の配下の extconf.rb や ruby 製ライブラリの magic comment
+frozen_string_literal を true に変更しています。

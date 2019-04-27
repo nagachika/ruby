@@ -1,0 +1,4 @@
+tool/make-snapshot でバージョンの指定が X.Y.Z の時は 2.1 以降は tag を、それ以
+前は branch を意味するようになりましたが、 X.Y のように teeny のない指定も受け
+付けて、branch として解釈するようにしています。ブランチから作るということは
+nightly snapshot のようなパッケージの作成用ですね。

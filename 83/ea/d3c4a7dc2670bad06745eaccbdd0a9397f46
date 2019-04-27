@@ -1,0 +1,5 @@
+test/lib/minitest/unit.rb で file descriptor の leak チェックのために Dir
+.entries を使っているところで Dir オブジェクトによる fd もカウントされてしまう
+ので、Dir.open do ... end を使って閉じるようにした上でテスト用の拡張ライブラリ
+に Dir#fileno の実装を追加して、検出のために開いた Dir オブジェクトのぶんは除く
+ようにしています。

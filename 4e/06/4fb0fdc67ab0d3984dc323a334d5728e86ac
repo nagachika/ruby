@@ -1,0 +1,8 @@
+parse.y で定義している Symbol のテーブルの mark 処理 rb_gc_mark_symbols() で
+minor GC でのマークは一回だけやるようにするためのフラグ
+global_symbols.minor_marked をセットして次の major GC (full GC)までは処理をスキ
+ップするようにしているのですが(気がつきませんでした。最初の minor GC 以降に追加
+された Symbol のぶんはマークしなくていいのかな)、 full GC の時にもフラグを立て
+ていたため rb_objspace_reachable_objects_from_root() から呼ばれる時などにフラグ
+を立てると本来の GC からのマーク処理が行なわれなくなってしまっていました。多分
+r43719 の修正で顕在化した不具合を修正したということでしょう。

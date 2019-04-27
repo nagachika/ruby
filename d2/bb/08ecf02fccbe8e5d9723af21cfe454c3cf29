@@ -1,0 +1,2 @@
+rb_iseq_trace_set() で insn の数値についての VM_ASSERT() による assertion を削
+除しています。チェック内容が間違っていたそうです。

@@ -1,0 +1,2 @@
+標準添付ライブラリ socket の UNIXSocket でファイルパスとして NUL 文字を含む文字
+列が渡されたら ArgumentError を発生させるようにしていす。

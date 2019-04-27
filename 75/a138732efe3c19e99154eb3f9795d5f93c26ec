@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::StreamListener#entity が呼び出されていなかっ
+た不具合(?)を修正しています。 [ruby-dev:47542] [Bug #8689]

@@ -1,0 +1,2 @@
+NEWS ファイルに r66249 で追加した TracePoing の script_compiled イベント追加に
+ついて追記しています。 [ruby-core:89742] [Feature #15287]

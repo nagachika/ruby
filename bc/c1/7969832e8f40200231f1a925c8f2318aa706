@@ -1,0 +1,2 @@
+Fixnum#bit_length と Bignum#bit_length も Integer#bit_length というメソッドに統
+合してメソッド定義の関数内で分岐するようにしています。

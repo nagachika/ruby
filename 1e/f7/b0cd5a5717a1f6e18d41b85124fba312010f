@@ -1,0 +1,4 @@
+NODE のメンバー rb_code_location_t nd_first_loc を rb_code_range_t nd_loc に変
+更して、範囲(開始ー終了)で保持するようにしています。 r60655 で rb_code_range_t
+を定義してたけど、一度そういえば revert されてたので再度定義が追加されています
+。

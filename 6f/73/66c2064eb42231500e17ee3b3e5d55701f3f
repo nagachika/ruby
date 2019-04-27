@@ -1,0 +1,7 @@
+string.c と symbol.c にある同名の static 関数 setup_fake_str() (引数が異なって
+いて string.c のものには encindex の指定もある)で RBASIC_SET_CLASS() を呼んでい
+たため RGenGC のための write barrier で RVALUE 値の書き込みをしてしまっていたの
+で WB なしの RBASIC_SET_CLASS_RAW() を利用するようにしています。 fake_str は主
+にスタック上の自動変数の struct RString を String オブジェクトとして使えるよう
+にしたもので、GC の対象である struct RVALUE の slot に入っているものではないの
+で WB 処理を入れるのは不正でした。 2.1 にも必要とのこと。 [Backport #10139]

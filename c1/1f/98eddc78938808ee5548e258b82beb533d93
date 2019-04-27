@@ -1,0 +1,3 @@
+同じく rdoc のテストでブロックつきの Tempfile.open を使っていたため Tempfile が
+残っていたのを Tempfile.create を使うように修正して一時ファイルが削除されるよう
+にしています。

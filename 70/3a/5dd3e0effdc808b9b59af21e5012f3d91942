@@ -1,0 +1,3 @@
+str_upto_each() を rb_str_upto_each() と改名して、終端のない Range 用の関数
+rb_str_upto_endless_each() と signature を揃えるように受け取るコールバック関数
+の型を変更しています。

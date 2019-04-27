@@ -1,0 +1,2 @@
+wercker.yml で test_frozen というテストが --jit-wait オプションつきの時に失敗す
+るらしく exclude 対象に追加しています。さらにテストの配分を調整しています。

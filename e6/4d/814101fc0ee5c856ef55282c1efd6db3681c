@@ -1,0 +1,2 @@
+Regexp#names で正規表現オブジェクトの capture name を返す時に元のエンコーディン
+グを保持するようにしています。 [ruby-core:72185] [Bug #11825]

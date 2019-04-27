@@ -1,0 +1,2 @@
+node.c の r61610 の NODE_PRELUDE の削除で不要になったマクロ F_OPTION() の定義を
+削除しています。

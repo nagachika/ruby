@@ -1,0 +1,2 @@
+r50958 の $SAFE = 2 の廃止の追加。 RUBY_SAFE_LEVEL_CHECK() の展開に使う関数名を
+変更に追随させています。また rb_proc_t::safe_level のコメントも修正しています。

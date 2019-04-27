@@ -1,0 +1,3 @@
+r57788 で明示的なキャストに Function という型を使っていましたが readline-6.3 か
+ら Function は削除されているのでかわりに rl_hook_func_t を利用するようにしてい
+ます。

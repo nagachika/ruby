@@ -1,0 +1,2 @@
+NEWS ファイルに r45241 や r45269 で Find#find と Pathname#find に ignore_error
+というキーワード引数が追加された変更について追記しています。

@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence の binary dump 時に Hash をダンプする時に内部で
+st_foreach() を使っていたのを rb_hash_foreach() を使うように書きかえています。
+例外の捕捉が必要だったのかな?

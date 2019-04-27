@@ -1,0 +1,2 @@
+configure.in で HAVE_TGAMMA を強制的に偽にする変更を戻しています。 mingw の
+tgamma が NaN を返す実装なので代替実装を使うようにしています。

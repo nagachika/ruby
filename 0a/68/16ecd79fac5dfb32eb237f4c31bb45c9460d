@@ -1,0 +1,5 @@
+拡張ライブラリ coverage での method coverage の取得法を rb_iseq_compile_node()
+で trace 命令を埋め込むのではなく、拡張ライブラリ coverage で method entry 毎の
+coverage 情報を確保するテーブルを保持して RUBY_EVENT_CALL イベントフックでこの
+テーブルを管理するようにしています。これにより Module#define_method で定義した
+メソッドについても method coverage が取れるようになるそうです。

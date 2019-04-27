@@ -1,0 +1,4 @@
+r45384 に変更で rb_any_hash() で hash 関数の実装を変更しているところで VALUE の
+値の構造に依存して 3 という数値を直接書いていたのを #include "id.h" して
+ID_SCOPE_SHIFT という定数を利用するようにしています。 [ruby-core:59836]
+[Feature #9425]

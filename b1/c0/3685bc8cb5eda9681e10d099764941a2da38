@@ -1,0 +1,3 @@
+io.c の内部で最大の file descriptor の番号を更新するために使われていた
+UPDATE_MAXFD() という関数マクロは r32579 で追加した rb_update_max_fd() を利用す
+るように置き換えています。

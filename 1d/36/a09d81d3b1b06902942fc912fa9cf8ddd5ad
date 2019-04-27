@@ -1,0 +1,3 @@
+tool/rbinstall.rb の RbInstall::UnpackedInstaller で gem のインストール時の
+app_script_text を再定義してコメントの前後の ruby スクリプトと shell スクリプト
+の部分を入れ換えるようにしています。ずいぶん複雑なことをしてるんですねぇ。

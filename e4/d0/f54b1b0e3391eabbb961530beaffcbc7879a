@@ -1,0 +1,4 @@
+拡張ライブラリ date の ext/date/date_parse.c の s3e(), date_zone_to_diff(),
+parse_ddd_cb() などでも ALLOCA_N() のかわりに ALLOCV_N() を利用するように変更し
+て、大きなサイズのメモリを確保した時にスタックオーバフローしないように対応して
+います。

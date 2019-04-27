@@ -1,0 +1,3 @@
+GC 関連の不具合のテストで GC.stress = true の状態で
+RubyVM::InstructionSequence.compile を繰り返すテストで armv7 の環境でタイムアウ
+トすることがあるので待ち時間を伸ばしています。

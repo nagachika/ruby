@@ -1,0 +1,3 @@
+tool/make-snapshot でパッケージ作成時に .downloaded-cache ディレクトリおよび
+gems/ にダウンロードされた bundled_gems 以外の gem パッケージを削除するようにし
+ています。

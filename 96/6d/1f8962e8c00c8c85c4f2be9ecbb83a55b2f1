@@ -1,0 +1,3 @@
+Thread#[] や Thread#[]= で更新/参照できる thread local storage の rdoc で Fiber
+との関係について追記/変更しています。Thread のメソッドなのに Fiber 毎に異なる記
+憶領域になるんですよね。

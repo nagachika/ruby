@@ -1,0 +1,2 @@
+標準添付ライブラリにして default gem の zlib の gemspec のバージョンを 1.0.0 に
+更新しています。 zlib も default gem になってたんでしたね。

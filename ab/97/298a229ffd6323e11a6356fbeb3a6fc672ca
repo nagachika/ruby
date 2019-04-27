@@ -1,0 +1,2 @@
+ast.c の rb_ast_parse_str()、rb_ast_parse_file()、rb_ast_parse_array()、
+lex_array() を static 関数にしています。

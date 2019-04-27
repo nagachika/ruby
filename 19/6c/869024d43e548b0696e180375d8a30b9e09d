@@ -1,0 +1,2 @@
+tool/update-deps で Makefile から読み込んだ依存関係の行をソートしておくようにし
+ています。

@@ -1,0 +1,9 @@
+r53381 での標準添付ライブラリ forwardable の修正([ruby-core:72579] [Bug #11916]
+)で method_defined? でメソッドの呼び出しはかっこをつけて強制的にメソッド呼び出
+しとして parse させるようにする処理がありましたが、Module/Class ではないオブジ
+ェクトに SingleFowardable を extend して使う場合(そんなのがあったのか)、ここに
+method_defined? メソッドがないので NoMethodError になるので self のクラスを判定
+して Module でなかったら respond_to? で代用するように修正しています。
+[ruby-dev:49656] [Bug #12478]
+前も forwardable.rb のこの部分は r53511 でも追加対応がありましたし結構難所です
+ね。

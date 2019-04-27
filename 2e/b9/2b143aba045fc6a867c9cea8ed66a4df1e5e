@@ -1,0 +1,2 @@
+r38644 で crt_externs.h をチェックするための configure のコードを
+AC_CHECK_HEADERS() を使った書きかたに改めています。

@@ -1,0 +1,3 @@
+r51077 のオープンアドレス法を使った Struct の実装変更で内部的に使っている配列オ
+ブジェクトを rb_ary_tmp_new() を使って ObjectSpace.each_object から見えないよう
+にしています。

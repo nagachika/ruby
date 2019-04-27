@@ -1,0 +1,2 @@
+test/ruby/test_process.rb の test_status_quit を EnvUtil の assert_in_out_err
+を利用してシンプルに書き直しています。

@@ -1,0 +1,5 @@
+OpenBSD で configure による pthread_np.h の存在チェックに失敗していたのを修正。
+pthread_np.h を #include するために先に pthread.h を #include しないといけない(
+ruby 本体はそうしている)のだけど configure でチェックするためのソースコードでは
+#include していなくてコンパイルエラーになっていたので #include <pthread.h> を挿
+入するようにしています。 [ruby-core:39752] [Bug #5376]

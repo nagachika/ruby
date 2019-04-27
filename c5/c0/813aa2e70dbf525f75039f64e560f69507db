@@ -1,0 +1,2 @@
+symbolic link を含むディレクトリの Dir.glob で "**" で再帰的マッチをした時の
+assertion を追加しています。

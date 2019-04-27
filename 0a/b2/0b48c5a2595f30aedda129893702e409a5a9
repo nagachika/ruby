@@ -1,0 +1,2 @@
+configure に --with[out]-git オプションを追加して git コマンドを指定できるよう
+にしています。

@@ -1,0 +1,2 @@
+ext/tk/extconf.rb で struct RArray の構造体の内部を意識したマクロ定義をしたりそ
+れを利用していた部分を削っています。

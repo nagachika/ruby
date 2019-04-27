@@ -1,0 +1,3 @@
+r35761 で net/http のファイルを分割した時に Net::HTTPSession というクラス(実際
+は Net::HTTP と同一)を Net::HTTP::HTTPSession に移動してしまっていたので互換性
+のために Net::HTTPSession に移動しています。 [ruby-core:47239] [Bug #6889]

@@ -1,0 +1,2 @@
+Test::Unit::Runner::Worker#dead で pipe は @io に格納するようになっているのに古
+いインスタンス変数(@in, @out) を参照しているままだったので修正。

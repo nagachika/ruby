@@ -1,0 +1,5 @@
+waitpid_sys() という関数を定義して Windows 環境では WaitForSingleObject() を利
+用した実装に(それ以外では do_waitpid() を呼ぶ)ようにしてリストで管理されている
+wait されてる pid のそれぞれを処理する waitpid_each() で MJIT からの wait の時
+にはこちらを呼ぶようにしています。MJIT の実装と ruby 本体からで処理が違うんじゃ
+ないかなぁ、という感じで様子をみてるみたいです。

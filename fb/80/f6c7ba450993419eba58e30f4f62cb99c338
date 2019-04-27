@@ -1,0 +1,5 @@
+VM 命令に opt_and と opt_or というのを追加して & および | 演算子のコンパイル時
+に利用して、receiver と引数がともに Fixnum の時に最適化して処理を inline 化する
+ようにしています。 MJIT 時にこれが効いて optcarrot でかなり高速化されるようです
+。 optcarrot は特異的に Integer のビット演算をかなり使ってそうですからね。
+https://github.com/ruby/ruby/pull/1963

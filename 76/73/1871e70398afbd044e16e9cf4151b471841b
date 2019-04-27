@@ -1,0 +1,5 @@
+ext/openssl で SSL_shutdown が 0 を返した時にはまだきちんと shutdown できていな
+いので非0を返すまでループしています。リンク先のマニュアルを見るとプロトコルエラ
+ーや通信エラー時に -1 が返ってくるそうですがそっちはいいのかなぁ。GC で呼ばれる
+時はしかたないですが。
+参考URL: http://www.openssl.org/docs/ssl/SSL_shutdown.html

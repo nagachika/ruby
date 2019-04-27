@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の URI::Generic#find_proxy から環境変数 no_proxy の処理
+を URI::Generic.use_proxy? に切り出しています。 net/http で使うためみたいです。
+[ruby-core:69402] [Feature #11195]

@@ -1,0 +1,3 @@
+readline のテストで locale が UTF-8 である必要があるテストについて
+assert_separately を使って子プロセスで LC_ALL を指定して実施するようにしていま
+す。 r40331 の assert_separately の修正はこのためだったんですね。

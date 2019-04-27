@@ -1,0 +1,7 @@
+r48551 で Init_process() で process.c 内の ID の定義を最初に行っておくようにし
+たのを、定数の定義の前に実行するように Init_process() と InitVM_process() に分
+離しています。 [DEL:Process の定数が GC されてしまう現象が起きていたようです。
+はて、なんでだろう……。:DEL] というのは勘違いで、PROCESS::CLOCK_REALTIME は環
+境によっては RUBY_GETTIMEOFDAY_BASED_CLOCK_REALTIME というマクロ定義が実体の場
+合があって、そのマクロは id の ID2SYM() で実装されているので先に id が作られて
+いる必要があるそうです。 [ruby-core:66445]

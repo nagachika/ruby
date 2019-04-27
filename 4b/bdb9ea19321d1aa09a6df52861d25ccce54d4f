@@ -1,0 +1,5 @@
+rb_fork_ruby() で fork(2) 前の処理で before_fork_ruby() の前に
+disable_child_handler_before_fork() を呼んで signal mask をかけておくようにして
+います。 signal を main thread に配送する役割をしている timer thread を止める前
+に mask をかける必要があったようです。 [ruby-core:87622] [Bug #14868] [Bug #
+13916]

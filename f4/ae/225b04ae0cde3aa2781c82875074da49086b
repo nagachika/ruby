@@ -1,0 +1,2 @@
+README.md の記法の変更(Mix-in -> mix-in, ruby -> Ruby, OS X -> macOS など)や余
+分な空白除去など。 https://github.com/ruby/ruby/pull/1610

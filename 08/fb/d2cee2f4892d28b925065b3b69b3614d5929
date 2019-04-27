@@ -1,0 +1,28 @@
+defined?(super) がブロック内で呼ばれると nil がかえってきてしまう不具合を修正し
+ています。 r36369 で method entry の検索を iseq から cfp を見るように変更した影
+響でブロック内のときにメソッドエントリをみつけそこなっていたようです。 VM の
+control frame stack を EP == LP のところまで(つまりメソッド定義の直下、ローカル
+変数が定義されるところ)まで辿ってから method entry を探すようにしています。
+[ruby-core:54769] [Bug #8367]
+これって今度は define_method にブロック渡ししてメソッドを定義した時のそのブロッ
+ク内の defined?(super) が別のものを見るようになったりしないんでしょうか? と、思
+ってちょっと実験してみたのですが、どうやら大丈夫みたいでした。
+class A
+  def a; end # A の a と def_a をそれぞれコメントアウトして実験
+  def def_a; end
+end
+class B < A
+  def def_a
+    1.times{ p [:in_block, defined?(super)] }
+    self.class.module_eval do
+      define_method(:a) do
+        p [:in_define_method_block, defined?(super)]
+      end
+    end
+  end
+end
+b = B.new
+b.def_a
+b.a
+A#a を定義した時は :in_define_method_block で "super" を、A#def_a を定義した時
+は :in_block で "super" を返したので大丈夫そうです。

@@ -1,0 +1,6 @@
+標準添付ライブラリ tsort で r43326 の TSort#
+each_strongly_connected_component_from のクラスメソッド版の追加に続いて TSort#
+tsort, #tsort_each, #strongly_connected_components, #
+each_strongly_connected_component などのメソッドも traversal 用のメソッドを引数
+に受け取るクラスメソッド版を追加しています。 NEWS ファイルにも追記されています
+。

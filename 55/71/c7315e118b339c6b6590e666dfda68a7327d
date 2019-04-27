@@ -1,0 +1,3 @@
+YAML のエンジンのひとつ拡張ライブラリ syck が削除されています。 YAML
+::ENGINE.yamler= に syck が指定されたら警告を出すようになっています。今後は
+YAML の実装は psych のみになります。 [ruby-core:43360] [Feature #6163]

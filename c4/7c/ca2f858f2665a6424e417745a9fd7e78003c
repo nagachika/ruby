@@ -1,0 +1,2 @@
+CGI.escapeHTML, unescapeHTML でアポストロフィ(')をエスケープ対象(&apos;)に追加
+しています。 HTML5 向けとのこと。 [ruby-core:45760] [Feature #6620]

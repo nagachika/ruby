@@ -1,0 +1,6 @@
+r40940 で追加した rb_postponed_job_flush() と rb_postponed_job_register() で
+malloc(3)/free(3) のかわりに ruby_xmalloc()/xfree() を利用するようにしています
+。これらのメモリ管理用の関数は GC 途中でも呼び出していいからとのこと。と、書い
+てあるのですが、ruby_xmalloc() は GC を走らせる可能性があるので本当かなぁ、とい
+うのと、rb_memerror() で例外を発生させる可能性があるので、使える場所に制限が増
+えてしまわないかなぁという懸念を憶えるのですがどうでしょう。

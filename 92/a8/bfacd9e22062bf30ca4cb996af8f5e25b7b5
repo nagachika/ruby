@@ -1,0 +1,2 @@
+PTY で posix_openpt(3) で端末を開く時に利用可能なら flags に O_CLOEXEC を追加す
+るようにしています。

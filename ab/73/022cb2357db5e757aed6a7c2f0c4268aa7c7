@@ -1,0 +1,3 @@
+mjit_compile() でグローバル変数 mjit_opts.debug が偽の時には生成するソースコー
+ドでマクロ OPT_CHECKED_RUN を 0 に設定するようにして leave 命令でのスタック一貫
+性チェックをスキップするようにしています。

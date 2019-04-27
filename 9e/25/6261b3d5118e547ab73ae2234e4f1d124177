@@ -1,0 +1,2 @@
+Object の #inspect, #nil?, #tap や Integer(), Array() などのメソッドの rdoc の
+英文法やサンプルコードの修正。 [ruby-core:66368] [Bug #10526]

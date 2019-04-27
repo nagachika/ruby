@@ -1,0 +1,3 @@
+r52601 での Socket#accept_nonblock の Ruby 実装化で UNIXSocket が存在しない環境
+でも UNIXServer を実装しようとしていて Windows でエラーになっていたのを回避する
+ため if defined?(UNIXSocket) でくるむようにしています。

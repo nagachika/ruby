@@ -1,0 +1,4 @@
+configure で SIGNEDNESS_OF_XXX という型の符号ありなしを判定したマクロを定義でき
+るようにして、SIGNEDNESS_OF_TIME_T を作ってそれを r39939 や r39943 や r39948 で
+定義していた TIMET_MAX, TIMET_MIN, TIMET_MAX_PLUS_ONE などの定義に利用するよう
+にしています。

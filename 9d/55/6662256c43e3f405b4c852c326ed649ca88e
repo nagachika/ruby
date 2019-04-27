@@ -1,0 +1,2 @@
+rubyspec に private class を参照したときの NameError の receiver と name メソッ
+ドについてのテストケースを追加しています。

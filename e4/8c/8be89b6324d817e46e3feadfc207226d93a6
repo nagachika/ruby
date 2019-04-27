@@ -1,0 +1,3 @@
+Net::IMAP のエラー時のレスポンスのメッセージに UID (この場合は UID はメールに振
+られるユニークな ID のことかと)の sequence number を含めるようにしています。
+[ruby-core:41413] [Feature #5692]

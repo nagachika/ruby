@@ -1,0 +1,3 @@
+prepare_iseq_build() で rb_iseq_t::body::mark_ary に格納する coverage をマクロ
+経由で何度も参照/セットしていたのをローカル変数で解決してからまとめてセットする
+ようにリファクタリングしています。

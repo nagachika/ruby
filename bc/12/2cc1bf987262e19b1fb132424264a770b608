@@ -1,0 +1,2 @@
+case 文の NODE_CASE2 やメソッド定義の def 文の NODE_DEFS の nd_line の設定はデ
+フォルトのままでよいので不要な nd_set_line() 呼び出しを削除しています。

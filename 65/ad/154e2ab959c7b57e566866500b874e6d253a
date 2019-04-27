@@ -1,0 +1,3 @@
+gc.c の gc_profile_total_time() でローカル変数の宣言位置の移動などをしているの
+ですが、if 文のなかのループをみると条件は objspace->profile.next_index > 1 でい
+いような気がします。

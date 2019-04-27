@@ -1,0 +1,2 @@
+.gdbinit で check_method_entry の不要な引数の削除や ISeq の location に行番号情
+報が配列で入っている場合に対応(r58979 の変更に追随ですね)する変更など。

@@ -1,0 +1,4 @@
+date の拡張ライブラリ部分で long long および long double を使っているところを
+long/double にするなど変数の型を変更しています。long long や long double は直接
+使ってはいけないらしい。
+また extcond.rb から不要になった roundl/floorl のチェックを削っています。

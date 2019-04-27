@@ -1,0 +1,2 @@
+Array#sort! の rdoc 用コメントの使用例のところがただの sort になっていたので
+sort! に修正。

@@ -1,0 +1,2 @@
+Net::IMAP#decode_utf7 と encode_utf7 を pack/unpack を使った実装から String#
+encode を使うようにリファクタリングしています。

@@ -1,0 +1,4 @@
+parse.y の #if ENABLE_SELECTOR_NAMESPACE という条件でくくられていた、デフォルト
+では有効ではないコードを削除しています。 Selector Namespace とか Classbox とか
+って確か今の Refinements と同様の変更の影響を局所化するやつですよね。かなり昔の
+実験的コードで Refinements が入ったのでもう不要ということでしょうか。

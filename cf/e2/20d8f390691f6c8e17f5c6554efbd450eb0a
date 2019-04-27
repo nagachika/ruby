@@ -1,0 +1,3 @@
+mkmf.rb で have_library, have_func, have_var, have_header などで省略可能な引数
+を追加して、コンパイラに渡すオプションを指定できるようにしています。文字列かま
+たは文字列の配列を渡せるようです。

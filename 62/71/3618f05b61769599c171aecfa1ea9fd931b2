@@ -1,0 +1,2 @@
+Travis-CI の環境には /proc/version_signature が存在しなかったようで r45687 を部
+分的に revert しています。

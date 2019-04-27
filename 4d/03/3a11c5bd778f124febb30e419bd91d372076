@@ -1,0 +1,4 @@
+r33078 の autoload を thread safe にする修正が revert されています。 Rails のテ
+ストでエラーになってしまったようです。ロード後の定数のセットに何か問題があるの
+かなぁ、気がつきませんでしたが。あとこの revert により r33079 の
+rb_autoloading_value() の宣言だけが残ってしまいました。

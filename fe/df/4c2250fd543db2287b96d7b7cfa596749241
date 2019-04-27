@@ -1,0 +1,4 @@
+compile.c で AST から命令列(RubyVM::InstructionSequence)にコンパイルする時に
+argc という変数が INT2FIX() で Fixnum にしてから rb_callinfo_t の作成する関数に
+渡す時にはまた FIX2INT() で int に戻すという無駄なことをしていたので argc を
+int として常に int で扱うようにしています。

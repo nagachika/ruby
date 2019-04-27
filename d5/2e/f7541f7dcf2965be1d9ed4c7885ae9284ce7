@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb の File.lstat のテストで assert_equal の引数
+の順序が逆になってたのを修正。

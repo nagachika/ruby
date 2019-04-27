@@ -1,0 +1,2 @@
+include/ruby/missing.h で memset_s(3) を利用するために #define
+__STDC_WANT_LIB_EXT1__ 1 を追加しています。

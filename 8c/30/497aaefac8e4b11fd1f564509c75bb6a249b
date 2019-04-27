@@ -1,0 +1,2 @@
+OpenSSL::X509::StoreContext#cleanup の定義を x509.rb から x509-internal.rb に移
+動しています。

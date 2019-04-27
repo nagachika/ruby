@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http で Net::HTTPGenericRequest#
+send_request_with_body_stream の socket への書き込みを write メソッドを複数回呼
+び出すのを、write に複数の引数を渡せるようになった機能を使うように最適化してい
+ます。 [ruby-core:84845] [Feature #14339]

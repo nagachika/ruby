@@ -1,0 +1,3 @@
+compile.c で throw 命令に渡す TAG_BREAK, TAG_NEXT, TAG_REDO などの数値がマジッ
+クナンバーとして数字が書かれていたので定数マクロを利用するようにしています。ま
+た TAG_BREAK などの定数の宣言を eval_intern.h から vm_core.h へ移動しています。

@@ -1,0 +1,2 @@
+doc/extension.rdoc と doc/extension.ja.rdoc に型チェック用の RB_INTEGER_TYPE_P
+() と RB_FLOAT_TYPE_P() マクロの解説を追記しています。

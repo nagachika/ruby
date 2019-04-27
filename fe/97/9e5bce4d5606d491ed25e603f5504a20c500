@@ -1,0 +1,6 @@
+GC 可能な一時文字列バッファを確保するための関数
+rb_imemo_tmpbuf_auto_free_pointer_new_from_an_RString() で、ruby_xmalloc() でバ
+ッファ確保してから rb_imemo_tmpbuf_auto_free_pointer() を呼んでいたので、ここで
+大域脱出が発生するとメモリリークする可能性があったので、先に
+rb_imemo_tmpbuf_auto_free_pointer() で T_IMEMO 型オブジェクトを確保しておいてか
+らメモリ領域を確保してポインタをセットするように修正しています。

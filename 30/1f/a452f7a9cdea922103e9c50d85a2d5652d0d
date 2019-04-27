@@ -1,0 +1,3 @@
+ext/ripper/tools/preproc.rb や template の ERB テンプレートなどで flip-flop を
+使っていたところを、flip-flop 演算子を使わないように書き換えています。使ってる
+ところあったんだなぁ。

@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer#accept_client で accept し
+た socket に明示的に close_on_exec フラグを立てるようにしていたのをやめています
+。今は自動でセットされるため。 [ruby-core:69127] [Feature #11137]

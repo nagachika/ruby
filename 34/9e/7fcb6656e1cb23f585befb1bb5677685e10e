@@ -1,0 +1,2 @@
+Fedora の RubyCI のテストで tool/downloader.rb が SocketError 例外を発生させた
+そうなので、ダウンロード時のリトライ対象の例外に SocketError も追加しています。

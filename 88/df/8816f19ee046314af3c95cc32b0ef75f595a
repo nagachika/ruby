@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http の Net::HTTP#get の第2引数 initheader のデフォルト
+値を {} (空の Hash) から nil に変更しています。これが渡される Net::HTTP::Get#
+initialize ではデフォルトが nil なので、不要なオブジェクトを作成しないようにし
+ています。

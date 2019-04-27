@@ -1,0 +1,3 @@
+CVS.read で open の mode を "rb" にして呼び出すようにしていましたが、CVS.read
+の引数をそのまま渡すように(CVS.read で open に渡す mode を直接指定できるように)
+しています。

@@ -1,0 +1,2 @@
+NEWS ファイルに Thread.report_on_exception = true のデフォルト化について追記し
+ています。 [ruby-core:83979] [Feature #14143]

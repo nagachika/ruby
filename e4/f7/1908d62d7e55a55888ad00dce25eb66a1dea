@@ -1,0 +1,4 @@
+lib/unicode_normalize.rb にも https://github.com/duerst/eprun/ から移植していま
+す。 String に normalzie, normalize!, normalized? などのメソッドを生やしていま
+すね。しかしこの require の書きかたはいまいちですね…と思ってたら次で修正されて
+るようでした。 [Feature #10084]

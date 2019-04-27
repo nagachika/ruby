@@ -1,0 +1,1 @@
+構造体 struct RNode::nd_reserved のメンバ名を nd_location と改名しています。

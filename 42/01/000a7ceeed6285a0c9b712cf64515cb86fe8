@@ -1,0 +1,3 @@
+tool/vcs.rb の VCS#export_changelog メソッドの不要な引数を削除しています。ソー
+スディレクトリのパスは VCS.new の引数の path から File.realpath で取得してイン
+スタンス変数に保持しておくようにしています。

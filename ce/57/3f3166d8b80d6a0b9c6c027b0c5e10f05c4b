@@ -1,0 +1,3 @@
+拡張ライブラリ json の ext/json/generator/generator.c の isArrayOrObject() にお
+いて、コンパイラの警告除去のため明示的なキャストを追加しています。
+[ruby-dev:47325] [Bug #8378]

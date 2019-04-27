@@ -1,0 +1,2 @@
+common.mk の fake.rb 生成時の BASERUBY 変数の path separator を変換して渡すよう
+にしています。

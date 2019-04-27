@@ -1,0 +1,4 @@
+rb_check_id() で引数が Symbol でも String でもなかった時の TypeError のメッセー
+ジを修正しています。 r45175 で Symbol.find が rb_check_id() を利用しているので
+直接利用されることができてきたのでメッセージも正確なものに修正したみたいですね
+。

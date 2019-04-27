@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の暗号化(OpenSSL::Cipher)の rdoc のサンプルコードのバグ
+修正と記述の追加をしています。 [ruby-core: 45154][Bug #6475]

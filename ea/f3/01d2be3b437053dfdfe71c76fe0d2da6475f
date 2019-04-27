@@ -1,0 +1,3 @@
+r62164 の追加修正。 include/ruby/backward.h に追加した rb_mod_const_missing()
+の ERRORFUNC() というマクロを使った宣言に NORETURN() マクロも利用するようにして
+います。

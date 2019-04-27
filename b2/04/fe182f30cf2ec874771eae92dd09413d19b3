@@ -1,0 +1,3 @@
+ObjectSpace.dump のテストにさらっと JSON.load が利用されていたのですが(明示的に
+require "json" されてない…)、json に依存しないように assertion を書き換えてい
+ます。

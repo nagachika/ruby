@@ -1,0 +1,2 @@
+string.c の coderange_scan() で code range の推定で、絶対に真にならない条件の分
+岐があったのを消しています。

@@ -1,0 +1,3 @@
+test/rexml/test_notationdecl_parsetest.rb でもテストメソッドをサブクラス内に入
+れて、またメソッドを assetion 毎に分割しています。ここでサブクラスを2つネストさ
+せているのは何か意味があるんでしょうか。

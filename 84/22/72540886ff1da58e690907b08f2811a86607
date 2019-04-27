@@ -1,0 +1,3 @@
+RUBY_VERSION のマクロの定義をヘッダから version.c に移動したり、RUBY_VERSION_
+{MAJOR,MINOR,TEENY} などのマクロ定義に分解したりしているのですが、どういう動機
+なのかはちょっとわからず。

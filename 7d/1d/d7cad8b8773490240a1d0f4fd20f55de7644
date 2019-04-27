@@ -1,0 +1,3 @@
+r53731 の CGI.escape 最適化の拡張ライブラリで変数の初期化追加。また冗長な
+modified 変数は dest をチェックするようにリファクタリングしています。 https://
+github.com/ruby/ruby/pull/1238

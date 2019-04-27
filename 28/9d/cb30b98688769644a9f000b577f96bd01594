@@ -1,0 +1,5 @@
+vm_exec_handle_exception() において TracePoint などのフック実行のため
+EXEC_EVENT_HOOK() を使ってたのを stack frame を取り除く
+EXEC_EVENT_HOOK_AND_POP_FRAME() を利用するように修正しています。フック内で再度
+例外が発生した場合に frame が残ってるとまた同じフックが呼ばれて無限ループ状態に
+陥ってしまっていたみたいです。 [ruby-dev:50582] [Bug #14865]

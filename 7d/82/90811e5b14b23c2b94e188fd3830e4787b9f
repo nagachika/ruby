@@ -1,0 +1,2 @@
+拡張ライブラリ nkf の ext/nkf/nkf-utf8/utf8tbl.c と ext/nkf/nkf-utf8/utf8tbl.h
+のヘッダ部分のコメントの typo 修正。 https://github.com/ruby/ruby/pull/1159

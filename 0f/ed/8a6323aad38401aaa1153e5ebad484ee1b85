@@ -1,0 +1,2 @@
+r58295 の --with[out]-git オプションの Windows 版の win32/Makefile.sub での対応
+の不具合修正。

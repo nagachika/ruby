@@ -1,0 +1,2 @@
+string.c でも xfree() のかわりに ruby_sized_xfree() を、REALLOC_N() のかわりに
+SIZED_REALLOC_N() を利用するようにしています。

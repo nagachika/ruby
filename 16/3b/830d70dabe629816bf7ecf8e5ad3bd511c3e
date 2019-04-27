@@ -1,0 +1,6 @@
+make check は make test と make test-all をまとめて実行するという意味でしたが、
+さらに test-spec も実行するという意味にしています。make check だけで良くなるの
+かー。ただし 2.6 (trunk) 以降だけど。同様の target として make exam というのが
+追加されていましたが、これは check と同じになりました。あと make test の別名と
+して make test-short という target も追加されています。 [ruby-core:84275]
+[Feature #14187]

@@ -1,0 +1,2 @@
+respond_to_missing? と initialize_{copy,clone,dup} を private なメソッドに変更
+しています。 [ruby-core:45395] [Feature #6539]

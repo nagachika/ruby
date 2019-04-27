@@ -1,0 +1,3 @@
+MJIT の worker に inline cache をコピーする mjit_copy_job_handler() で既に ISeq
+が GC されていたら処理をやめるようにしています。ここで SEGV することがあった模
+様。

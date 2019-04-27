@@ -1,0 +1,4 @@
+IO.copy_stream で IO#nonblock= で nonblock に指定した IO オブジェクトから読み書
+きする時に Linux では select(2) のかわりに poll(2) を使うようにしてたくさんファ
+イルを開いていて fd が大きな数値になっている時の効率化を図っています。
+[ruby-core:70051] [Feature #11377]

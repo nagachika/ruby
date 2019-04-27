@@ -1,0 +1,3 @@
+make update-mspec, update-rubyspec, update-doclie (ってなんだっけ…),
+update-simplecov などでサブディレクトリに移動する前に test コマンドでディレクト
+リ存在チェックしていたのをまず cd してそのエラーで判定するようにしています。

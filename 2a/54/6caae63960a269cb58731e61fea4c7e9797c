@@ -1,0 +1,2 @@
+proc.c の proc_to_s() の定義を Proc#to_s の rdoc 用コメントの後になるように移動
+しています。

@@ -1,0 +1,2 @@
+さらに r65688 と同様に bignum.c, marshal.c, until.c などで unsignd の整数のオー
+バーフロー警告除去のためのリファクタリングや NO_SANITIZE() でのチェック抑制。

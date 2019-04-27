@@ -1,0 +1,4 @@
+拡張ライブラリ etc の Etc.getpwnam や Etc.getgrnam などが返す Struct を使ったク
+ラスのオブジェクトがなぜか Struct::Passwd や Struct::Group として定義されていた
+ので Etc::Passwd, Etc::Group として定義するようにしています。へー etc は使って
+ましたけどまったく気がついてませんでした。

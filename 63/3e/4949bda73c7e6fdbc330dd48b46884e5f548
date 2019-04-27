@@ -1,0 +1,2 @@
+numeric.c の rb_num_to_uint() でも Bignum の数値を表現するサイズを取得するのに
+RBIGNUM_LEN() のかわりに rb_absint_size() を利用するように変更しています。

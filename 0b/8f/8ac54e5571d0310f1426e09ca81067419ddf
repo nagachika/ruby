@@ -1,0 +1,8 @@
+vm_getivar() で LIKELY()/UNLIKELY() をつけて fast-path を明示的に指定してコンパ
+イラの最適化を促しているようです。以前はコンパイラは賢いので人間が LIKELY()/
+UNLIKELY() つけるよりまかせたほうが良いみたいな話もありましたが、最近は LIKELY
+() つける変更が時々あるのでまた明示的に付ける方向みたいですね。それからローカル
+変数に klass やインスタンス変数テーブルを格納しておいて使いまわすのをやめていま
+すがこちらはどういうことなんだろう。また vm_getinstancevariable() と
+vm_setinstancevariable() を inline 関数にしています。 [ruby-core:74899] [Bug #
+12274]

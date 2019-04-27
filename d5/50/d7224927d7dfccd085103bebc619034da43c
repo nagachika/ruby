@@ -1,0 +1,3 @@
+r45384 の hash 関数の変更に追随して .gdbinit の rb_numtable_entry コマンドで参
+照するバケットのインデックスを取得する際に st_numhash() を利用するように変更し
+ています。

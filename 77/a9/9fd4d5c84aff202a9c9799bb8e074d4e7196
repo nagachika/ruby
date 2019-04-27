@@ -1,0 +1,1 @@
+Fixnum#module の rdoc 用コメントに Integer#modulo の記述も追記しています。

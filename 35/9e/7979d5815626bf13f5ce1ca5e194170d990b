@@ -1,0 +1,4 @@
+OpenSSL::PKCS5.pbkdf2_hmac_sha1 のテストを追加。 RFC 6070 のテストということで
+、"PKCS #5: Password-Based Key Derivation Function 2 (PBKDF2) Test Vectors" [参
+考URL: http://tools.ietf.org/html/rfc6070 ] のテストケースを実装しているみたい
+ですね。

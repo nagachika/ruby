@@ -1,0 +1,2 @@
+doc/extension.rdoc と doc/extension.ja.rdoc の rb_enc_str_new_literal() の引数
+を修正しています。 https://github.com/ruby/ruby/pull/1577

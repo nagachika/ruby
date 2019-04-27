@@ -1,0 +1,4 @@
+r62260 や r62269 の common.mk での mjit 用ヘッダの minimize のアクションでヘッ
+ダのインストールのため miniruby を使ったスクリプトを直に書いてたのを MAKE_LINK
+という変数にまとめています。そして defs/gmake.mk の $(MJIT_MIN_HEADER のルール
+でもこの変数をコマンドに使うようにしています。

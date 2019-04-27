@@ -1,0 +1,3 @@
+NUM2XXX, FIX2XXX のテスト用拡張ライブラリ ext/-test-/num2int/num2int.c のメソッ
+ド名を変更して、クラスの特異メソッドとしてではなく global_function として定義す
+るようにしています。

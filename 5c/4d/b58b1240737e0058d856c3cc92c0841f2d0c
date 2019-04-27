@@ -1,0 +1,5 @@
+system や Process.spawn のオプションの rlimit_xxx 系のものはキーの Symbol の判
+定に id2name() で文字列化したものをチェックするようになっていて、dynamic なもの
+(to_sym で作られたもの)だときちんと受け取れてなかったので、rb_sym2str() で文字
+列化してチェックする rlimit_type_by_sym() という関数に切り出して修正しています
+。 [ruby-core:82033] [Bug #13744]

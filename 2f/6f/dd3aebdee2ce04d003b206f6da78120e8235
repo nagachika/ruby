@@ -1,0 +1,3 @@
+Windows版の rb_readlink() の実装で REPARSE POINT の内容を自動変数のバッファで取
+得していたのを ALLOCV() を使って動的に割り当てたバッファに取得するように変更し
+ています。

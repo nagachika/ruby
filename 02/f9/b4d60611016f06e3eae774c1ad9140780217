@@ -1,0 +1,3 @@
+r33826 で IO#fsync() が fsync(2) を実行中に GVL を解放するようにしたのに追随し
+て、Windows 版の IO#flush で fsync() を呼ぶ時も GVL を解放するようにしています
+。

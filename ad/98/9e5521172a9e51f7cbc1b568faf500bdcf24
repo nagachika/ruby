@@ -1,0 +1,4 @@
+rubygems の Gem::Util.silent_system でリダイレクトして出力を捨てるためのデバイ
+ス名を可能なら(rubygems は古い ruby と一緒に使うことも考慮するので) IO::NULL を
+利用するようにして、定数 Gem::Util::NULL_DEVICE を追加しています。また、やはり
+可能なら system のオプション引数でリダイレクトを指定するようにしています。

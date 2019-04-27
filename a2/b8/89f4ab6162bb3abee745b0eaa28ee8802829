@@ -1,0 +1,4 @@
+標準添付ライブラリ timeout の Timeout.timeout で発生させた例外のバックトレース
+から timeout.rb の内部的な例外クラス内の catch の行を削除する処理で行番号の指定
+がまちがっていたので、 Timeout.timeout 内のブロック呼び出しの行のみ残して
+timeout.rb のファイルの行は削るように修正しています。

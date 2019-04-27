@@ -1,0 +1,2 @@
+__builtin_alloca_with_align() というコンパイラのビルトイン関数が使えたら alloca
+() のかわりに ALLOCA_N() の定義にこれを利用するようにしています。

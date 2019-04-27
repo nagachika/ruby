@@ -1,0 +1,5 @@
+ObjectSpace.memsize_of に T_ZOMBIE 型のオブジェクトが渡されると rb_bug() を呼び
+出して強制終了するようになっていたのを無視させるようにしています。元は /*
+fallthrought */ コメントがあったので意図的に rb_bug() にしていたのでしょうけど
+、r46348 で RZombie を導入したことで ObjectSpace.count_object_size を実行すると
+呼ばれる可能性がでてきたみたいです。

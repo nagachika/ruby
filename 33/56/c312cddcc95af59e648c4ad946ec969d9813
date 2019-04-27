@@ -1,0 +1,2 @@
+REXML のテストで、主に File.new などで開きっぱなしの File オブジェクトによる
+file descriptor leak を修正しています。

@@ -1,0 +1,5 @@
+test/ripper/test_scanner_events.rb で validate_location という名前で assertion
+のユーティリティメソッドを定義して使っていたのを assert_location と改名していま
+す。コミットログをみる感じだと assert_??? という名前にしておくとバックトレース
+表示する時にスキップしてくれるからとのこと。 TestUnit がフレームをスキップする
+条件にメソッド名があるのでしょう。

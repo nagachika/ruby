@@ -1,0 +1,2 @@
+r64337 の Module#method_defined? の省略可能引数の追加を revert しています。CI
+が失敗してたのかな?

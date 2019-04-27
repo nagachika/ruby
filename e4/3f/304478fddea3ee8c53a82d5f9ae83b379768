@@ -1,0 +1,4 @@
+make test-all などで ruby 本体の C のコードの coverage および標準添付ライブラリ
+などの ruby のコードの coverage を計測できるようにしています。 C のコードの
+coverage を計測するには configure 時に --enable-gcov オプションをつけておく必要
+があります。

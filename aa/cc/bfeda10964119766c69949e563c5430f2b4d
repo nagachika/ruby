@@ -1,0 +1,3 @@
+拡張ライブラリ win32 に添付されている win32/registry.rb の修正。 WIN32
+::Registry::API に Constants の include を追加、また Win32::Registry::API#
+EnumValue で文字列の切り出しサイズの間違いを修正しています。

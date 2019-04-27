@@ -1,0 +1,5 @@
+テスト用のユーティリティ assert_separately で EnvUtil.invoke_ruby の
+timeout_error を nil に明示的に指定していたのを削っています。 r51539 以降
+EnvUtil.invoke_ruby はタイムアウト時に子プロセスの情報をダンプするようにしたの
+で、とのこと。これって例外クラスが指定されている(デフォルトで Timeout::Error)と
+、常に例外を発生させてるようにみえるんですけど、なんか変なような。

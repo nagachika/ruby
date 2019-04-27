@@ -1,0 +1,4 @@
+拡張ライブラリ ripper の ext/ripper/lib/ripper/lexer.rb に magic comment の
+frozen_string_literal: true があるので文字列リテラルが freeze されていて
+FrozenError が発生することがあるので String#+@ を使って dup しておくようにして
+います。 https://github.com/ruby/ruby/pull/1837

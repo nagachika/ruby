@@ -1,0 +1,3 @@
+r52239 で追加された Net::FTP#getbinaryfile のテストで開いたファイルの IO#
+binmode を呼び出して binary mode で開くようにして Windows でのテスト失敗を修正
+しています。

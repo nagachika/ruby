@@ -1,0 +1,5 @@
+benchmark/lib/benchmark_driver/ 配下の benchmark_driver の plugin で
+BenchmarkDriver::Runner::Xxx#metric メソッドを定義するようにしています。
+benchmark_driver の作りがわかってないのでどう効くのかわかりませんが make
+benchmark で OPTS に -o で出力フォーマット指定した時に効くようにするみたいです
+。

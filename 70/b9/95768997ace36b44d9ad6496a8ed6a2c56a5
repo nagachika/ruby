@@ -1,0 +1,4 @@
+tool/downloader.rb で rubygems 用の Downloader::RubyGems.download で先に絶対パ
+スに変換してから super の第3引数 dir に nil を渡していましたが、
+Downloader.download のほうでも同じ処理をしていたので、削ってそのまま dir を渡す
+ようにしています。

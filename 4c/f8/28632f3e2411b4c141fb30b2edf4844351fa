@@ -1,0 +1,4 @@
+標準添付ライブラリ pathname の Pathname#relative_path_from で引数に Pathname の
+インスタンス以外にも cleanpath メソッドを持つオブジェクトなら受け付けるようにし
+ています。テストで mock しやすくするためみたいですね。 https://github.com/ruby/
+ruby/pull/2049

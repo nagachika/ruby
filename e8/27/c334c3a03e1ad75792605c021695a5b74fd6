@@ -1,0 +1,4 @@
+tool/enc-unicode.rb で enc/unicode/casefold.h を生成する時に
+ONIG_UNICODE_VERSION_XXX とのバージョンのずれがないかチェックする preprocesor
+directive を出力するようにしています。また tool/enc-unicode.rb でも同様のチェッ
+クを出力するようにして enc/unicode/name2ctype.h も更新しています。

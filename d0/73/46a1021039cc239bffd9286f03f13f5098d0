@@ -1,0 +1,6 @@
+TestUnit の並列テストで子プロセスから例外を Marshal.dump で親プロセスに渡してい
+るところで ProxyError を使ってメッセージやバックトレースなど必要な情報だけ渡す
+ようにしています。例外クラスを親プロセスが知らないと NameError が発生してしまう
+可能性があります。 LoadError なので通常は親プロセスも知っているかと思いきや、
+RubyGems が Gem::LoadError という LoadError を継承した例外を使っているらしく、
+ここも wrap するようにしています。 [Bug #6882]

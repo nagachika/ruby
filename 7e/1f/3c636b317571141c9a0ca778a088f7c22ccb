@@ -1,0 +1,2 @@
+r43976 の Object#clone 時の flags のコピーの修正。 FL_WB_PROTECTED はコピー元の
+オブジェクトから引き継がないようにしています。

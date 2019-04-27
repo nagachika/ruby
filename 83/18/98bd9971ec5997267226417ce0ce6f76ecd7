@@ -1,0 +1,2 @@
+Enumerator::Lazy の rdoc に cycle と zip にはブロックが渡されるとその場で値が評
+価される(遅延評価されない)ことを追記しています。 [ruby-core:43344] [Bug #6158]

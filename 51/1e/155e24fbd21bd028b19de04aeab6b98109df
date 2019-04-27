@@ -1,0 +1,6 @@
+gc.c で空きスロットの処理の変更。 struct objspace に using_slot という struct
+heap_slot へのポインタのメンバを追加して struct heap_slot::freelist を struct
+objspace の freelist にキャッシュ中の slot を記憶しておくようにしています。また
+struct objspace::freelist に struct heap_slot::freelist をキャッシュしている間
+は struct heap_slot::freelist は NULL にしておいて、コピーではなくて移動するよ
+うにしているようです。操作ミスを防ぐためかなぁ。

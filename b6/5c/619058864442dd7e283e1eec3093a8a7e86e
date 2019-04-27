@@ -1,0 +1,2 @@
+compile.c の iseq_set_arguments() から iseq->param.size 設定部分を
+iseq_calc_param_size() という関数として括り出すリファクタリング。

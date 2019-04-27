@@ -1,0 +1,3 @@
+gc.c で gc_mark_roots() で PRINT_ROOT_TICKS が有効な時のデバッグ用の出力を
+atexit(3) で登録する処理を前に移動して、また USE_TICK_T の条件として
+PRINT_ROOT_TICKS も追加しています。

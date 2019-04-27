@@ -1,0 +1,8 @@
+Win32API.rb が動いてなかったのを修正したっぽいです。 require "fiddle" は
+require "fiddle/import" に修正、Fiddle::Importer::CALL_TYPE_TO_ABI が private
+constant だったので直接参照できなかったので const_get を利用するようにする、
+Win32API の import 引数が文字列で、Enumerable ではないので String#chars を挟む
+ようにするなど。どうもこの String が Enumerable じゃない修正をみるに 1.9 以降で
+動いてなかったんじゃないかという気がしますね……。
+[追記]ではなくて先日の r48217 での dl 削除の時に入れられたコードだそうです。
+Windows では試してなかったんでしょうな。[/追記]

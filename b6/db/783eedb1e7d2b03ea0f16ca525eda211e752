@@ -1,0 +1,2 @@
+拡張ライブラリ socket の Socket.gethostbyname および Socket.gethostbyaddr の
+rdoc 用コメントの deprecated である旨の記述の英文修正。

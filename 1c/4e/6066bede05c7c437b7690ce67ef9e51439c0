@@ -1,0 +1,2 @@
+IO.copy_stream を Socket についてテストしている test_copy_stream_socket という
+大きなメソッドを 7つに分割しています。

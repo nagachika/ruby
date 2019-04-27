@@ -1,0 +1,3 @@
+r33825 の OpenSSL::Engine のテストの後始末を IO#reopen で stderr を復旧するよう
+に修正しています。また STDIN/STDOUT/STDERR や $stdin/$stdout/$stderr の fileno
+をチェックするテストも追加しています。

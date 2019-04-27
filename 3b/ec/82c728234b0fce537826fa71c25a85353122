@@ -1,0 +1,2 @@
+win32/configure.bat の --help オプションでの出力に --with-opt-dir オプションに
+ついてのドキュメントを追加しています。

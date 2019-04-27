@@ -1,0 +1,1 @@
+vm_backtrace.c の vm_backtrace_to_ary() で変数の型の修正(int -> long)。

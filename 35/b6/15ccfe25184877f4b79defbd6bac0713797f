@@ -1,0 +1,2 @@
+.gitignore にダウンロードされる tool/config.guess と tool/config.sub を追加して
+います。

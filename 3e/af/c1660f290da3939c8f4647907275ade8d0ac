@@ -1,0 +1,2 @@
+process.c, io.c, ext/pty/pty.c で struct rb_execarg のポインタの変数や構造体メ
+ンバ名を eargp という名前に揃えるリファクタリングをしています。

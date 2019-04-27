@@ -1,0 +1,2 @@
+標準添付ライブラリ ftp の Net::FTP#getbinaryfile と Net::FTP#gettextfile メソッ
+ドのテストを追加しています。

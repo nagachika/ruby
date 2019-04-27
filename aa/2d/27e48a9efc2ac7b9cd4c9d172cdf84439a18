@@ -1,0 +1,3 @@
+r65509 の bundler の添付で追加された bin/bundler_ruby を削除しています。
+Bundler 1.0.2 には存在しないとのこと。去年の r59779 の bundler の添付での後も
+r59997 で bin/bundler_ruby が削除されてましたね。 [ruby-dev:50663] [Bug #15291]

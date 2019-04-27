@@ -1,0 +1,2 @@
+win32ole や rubygems のコメントの "indicies" を "indices" に修正しています。
+https://github.com/ruby/ruby/pull/892

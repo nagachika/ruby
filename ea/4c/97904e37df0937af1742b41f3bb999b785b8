@@ -1,0 +1,7 @@
+rb_iseq_t の iseq と iseq_encoded というメンバの利用方法を変更して、iseq には
+disassemble や line_trace_(all|specify) などの RubyVM::InstructionSequence の特
+殊な機能を使うときだけコピーを作成するようにして、通常は iseq_encoded にのみ命
+令列を格納するようにしています。なんとなく名前が逆転してるっぽい(元は iseq ->
+iseq_encoded にコピーされてたらしい)ですが、これで不要なメモリ確保や解放時の判
+定をシンプルにしているようです。 [ruby-core:64663] [Feature #10185]
+[ruby-core:64883]

@@ -1,0 +1,4 @@
+TracePoint のイベントに :a_call と :a_return という指定を受け付けるようにして、
+それぞれ call, b_call, c_call と return, b_return, c_return の全てを包含する指
+定として扱うようにしています。 c_call/c_return ってなんだっけと思ったら C 関数
+実装のメソッドに入る/出る時ですね。 b_call/b_return はブロックに入る/出る時。

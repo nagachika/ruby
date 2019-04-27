@@ -1,0 +1,2 @@
+さらに Enumerator::Lazy#cycle のテストに assertion を追加。 select と併用しない
+ケースも追加しています。

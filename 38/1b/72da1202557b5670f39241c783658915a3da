@@ -1,0 +1,5 @@
+ビルド時に miniprelude.c を生成するために $BASERUBY を使って tool/
+compile_prelude.rb を実行する時に、-I$(srcdir) が指定されていて、ソースディレク
+トリでビルドしていると生成中の rbconfig.rb がロードされてしまってエラーになると
+いう事故を防ぐため、-I オプションの指定を削除しています。 [ruby-core:50736]
+[Bug #7541] が、後に r38308 で revert されています。

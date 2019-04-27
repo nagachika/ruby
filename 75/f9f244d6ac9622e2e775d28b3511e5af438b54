@@ -1,0 +1,4 @@
+tool/rbinstall.rb で gem パッケージのインストール時に :format_executable オプシ
+ョンを指定して --program-suffix が gem でインストールしたコマンドにも影響するよ
+うにしています。 rake の bundled gem 化に伴って rake-suffix みたいにするように
+しているのではないかと思います。

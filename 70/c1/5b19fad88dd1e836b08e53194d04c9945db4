@@ -1,0 +1,2 @@
+r46089 でテスト前後で Thread の一覧を得るのに ObjectSpace.each_object(Thread)
+を使っていたのを Thread.list を使うようにしています。

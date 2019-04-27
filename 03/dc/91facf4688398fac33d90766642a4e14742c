@@ -1,0 +1,2 @@
+test/ruby/test_iseq.rb のテストが SyntaxError のメッセージの変更で通らなくなっ
+てたのが追随漏れしてたので修正しています。

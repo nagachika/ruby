@@ -1,0 +1,2 @@
+test/ruby/test_string.rb の assert を使っていたところをより有用なメッセージが出
+るように各種 assertion メソッドを使うように書き直しています。

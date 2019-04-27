@@ -1,0 +1,3 @@
+OpenSSL::SSLContext の初期化時に SSL_CTX_set_mode() に SSL_MODE_RELEASE_BUFFERS
+というビットフラグを(もし定義されていたら)渡すようにしています。 [Feature #
+4672] [ruby-core:36127]

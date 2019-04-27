@@ -1,0 +1,2 @@
+構造体メンバ rb_control_frame_t::pc や struct
+rb_iseq_constant_body::iseq_encoded に const 修飾子を追加しています。

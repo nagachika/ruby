@@ -1,0 +1,35 @@
+Module#public_constant, Module#private_constant メソッドを追加して、定数の可視
+性を変更できるようにしています。また、定数を参照しようとした時に、それが
+private に設定されていたら NameError 例外を発生するようにしています。
+test_module.rb に追加されたテストをみると一目瞭然ですが、"::" を使って内部のク
+ラスにアクセスするのが禁止されていて、"::" を使わずに直接定数名だけでアクセスす
+るのは OK です。よって定数が定義されているクラスのスコープからでないとアクセス
+できないということになります。private メソッドが recv.meth の形式で呼ぶのを禁止
+することでレシーバのメソッド内からしか呼べなくするのと似たような制限のしかたで
+すね。
+内部的には rb_const_get_??? の関数経由で定数を取得しようとすると private 定数は
+例外になります。 "::" がない時の定数アクセスは insns.def や vm_insnhelper.c を
+見ると別に vm_get_ev_const() で定数探索するコードがあるので rb_const_get_??? は
+利用しないというわけです。
+module M1
+  class C
+  end
+  private_constant :C
+  module_function
+  def create_C
+    C.new
+  end
+end
+M1.create_C.class # => M1::C
+M1::C.new # => private constant M1::C referenced (NameError)
+ところで public_constant/private_constant で発生する SecurityError 例外のメッセ
+ージにちょっとした typo をみつけたので報告しておきました。
+また [Feature #3908] にコメントが追加されているように、const_get でも例外になる
+(private メソッドが send を使えば呼べるのとは対照的)、Module#constants で
+private 定数も含まれる(Object#methods が private メソッドを含まないのと対照的)
+、set_const で定数を上書きすると可視性が public に戻る(これはいいような。定数の
+上書き自体警告が出る操作ですし)といった指摘があるので、もう少しメソッドの追加や
+修正があるかもしれません。
+ライブラリ作者は今後 private constant を使って内部的なクラスやモジュールを非公
+開であることを明示的に宣言することができることになります。この仕様が受け入れら
+れたら、他の処理系もこの仕様に追随することになるでしょうか?

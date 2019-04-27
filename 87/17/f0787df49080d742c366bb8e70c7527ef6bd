@@ -1,0 +1,5 @@
+Enumerator#each に引数が渡されてた時に返す Enumerator の size メソッドは nil を
+返すようにしています。Enumerator#each に引数が渡された時はサイズが不明になるの
+で、とのことだけどそもそも Enumerator#each に引数が渡された時って何が起きるんだ
+っけ? と思ったら rdoc にサンプルが書いてあって元の each が yield したものに追加
+されるんですね。

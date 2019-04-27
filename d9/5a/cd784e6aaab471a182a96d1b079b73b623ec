@@ -1,0 +1,2 @@
+rb_throw_obj() でも GET_THREAD() のかわりに GET_EC() を利用するようにしています
+。

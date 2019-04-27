@@ -1,0 +1,5 @@
+r47357 で retry_fork() から分割した retry_fork_async_signal_safe() でコールバッ
+ク関数を渡せるようにして rb_fork_async_signal_safe() でやっていた子プロセスでの
+処理を retry_fork_async_signal_safe() に移動しています。なるほどこうするための
+分割だったのか。となると retry_fork_async_signal_safe() を再利用するのかもしれ
+ませんね。

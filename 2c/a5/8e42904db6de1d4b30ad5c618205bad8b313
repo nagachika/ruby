@@ -1,0 +1,3 @@
+ruby 本体のテスト用の test/unit の assertion assert_in_out_err に success とい
+うキーワード引数を追加して、指定時には子プロセスの終了ステータスの success? メ
+ソッドの結果のチェックを行なうようにしています。

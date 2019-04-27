@@ -1,0 +1,2 @@
+r60180 の再修正。やっぱり RUBY_API_VERSION じゃなくて MAJOR/MINOR を利用して
+teeny 部分は 0固定にするようにしています。 [ruby-core:83208] [Bug #14002]

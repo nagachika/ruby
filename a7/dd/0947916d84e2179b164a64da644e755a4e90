@@ -1,0 +1,5 @@
+rbconfig/sizeof の extconf.rb で mkmf.rb の check_sizeof を使って SIZEOF_XXX マ
+クロ定義を追加していたところを have_type で型の存在チェックだけして template/
+sizes.c.tmpl 内でその型のサイズを登録するようにしています。チェック時と実際のコ
+ードのコンパイル時でヘッダの有無とか cross compile 時でサイズが異なる可能性を考
+慮してとか、あとビルド時のチェックの時間を短縮するのが目的のようです。

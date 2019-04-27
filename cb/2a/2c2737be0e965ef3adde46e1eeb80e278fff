@@ -1,0 +1,4 @@
+r63663 の続きで rubyspec で :GETTIMEOFDAY_BASED_CLOCK_REALTIME を指定して
+Process.get_gettime や Process.clock_getset を呼ぶ時のテストで Errno::EINVAL が
+発生しても無視するようにしています。 SUSv4 から gettimeofday(2) は obsolete に
+なっていて、将来なくなる可能性があるからとのこと。

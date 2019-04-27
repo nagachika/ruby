@@ -1,0 +1,2 @@
+DL および Fiddle のテストコードで libc および libm を検出するためのパスに GNU/
+Hurd の時のパスを追加しています。 [ruby-core:57311] [Bug #8937]

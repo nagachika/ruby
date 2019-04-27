@@ -1,0 +1,4 @@
+ちょっと動作原理はよくわかってないのですが、コミットログによると configure を使
+わないプラットフォームで(主に Windows だと思います) make up ターゲットで make
+update-cofig_files を実行して tool/config.{guess,sub} をダウンロードしないよう
+にしているそうです。

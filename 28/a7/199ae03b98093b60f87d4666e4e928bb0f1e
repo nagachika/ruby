@@ -1,0 +1,3 @@
+r53688 の Windows 版 symlink の判定の修正についてのテストを追加しています。
+mountvol コマンドを利用して volume mount point を作成してそれを判定させています
+。

@@ -1,0 +1,3 @@
+r43500 の rb_str_scrub を公開API にする時の変更で String#encode! で
+rb_str_scrub() が Qnil を返した時の考慮が抜けていて SEGV することがあったのを修
+正しています。

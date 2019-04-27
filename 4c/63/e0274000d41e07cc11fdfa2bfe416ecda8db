@@ -1,0 +1,3 @@
+コードの詳細についてはよく理解できていませんが、Psych で Range, Complex,
+Rational などのオブジェクトを dump する時に object_id によるタグつきで dump し
+て、同一のオブジェクトは参照として dump するようにしています。

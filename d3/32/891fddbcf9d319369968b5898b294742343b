@@ -1,0 +1,2 @@
+Solaris では ioctl(2) は unistd.h で宣言されているということで ext/io/wait/
+wait.c で #include <unistd.h> を追加しています。

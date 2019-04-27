@@ -1,0 +1,2 @@
+EnvUtil の assert_no_memory_leak で fiddle がないために LoadError が発生するケ
+ースに対応するために LoadError を捕捉して無視するようにしています。

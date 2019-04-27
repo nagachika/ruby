@@ -1,0 +1,2 @@
+拡張ライブラリ socket と openssl の extconf.rb で Windows 環境で ws2_32 と
+iphlpapi というライブラリ(DLL?)の存在チェックをするようにしています。

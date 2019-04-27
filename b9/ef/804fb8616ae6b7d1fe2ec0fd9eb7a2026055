@@ -1,0 +1,3 @@
+multiarch 関連の修正です。 mkmf.rb で $DEFLIBPATH として Makefile に埋め込む変
+数名を RbConfig::CONFIG["libdirname"] から取得するようにしています。
+[ruby-core:52395] [Bug #7874]

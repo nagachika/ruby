@@ -1,0 +1,2 @@
+rubyspec の source_location のファイルパスチェックするテストで File.realpath で
+symbolic link を解決した実際のパスで比較するように修正しています。

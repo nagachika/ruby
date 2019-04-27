@@ -1,0 +1,2 @@
+FIBER_USE_COROUTINE が未定義で coroutine を使わないバージョンの実装を修正。足り
+ない関数定義があったみたいです。

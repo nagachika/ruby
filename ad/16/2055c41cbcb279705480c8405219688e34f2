@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix の Matrix::EigenvalueDecomposition#build_eigenvectors
+の不具合修正。また参考リンクとしてコメントに記述している URL がリンク切れになっ
+ていたので Web Archive へのリンクに変更しています。 [ruby-dev:46251] [Bug #
+7208]

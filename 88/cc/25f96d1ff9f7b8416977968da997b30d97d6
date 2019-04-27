@@ -1,0 +1,4 @@
+r55136 からの続きで拡張ライブラリ bigdecimal で isfinite() がない時に finite()
+を使うようにマクロ定義していた部分を include/missing.h に移動しています。
+numeric.c にも同様の定義があったのでこれも移動しています。 HAVE_FINITE のチェッ
+クはしなくていいのかな。

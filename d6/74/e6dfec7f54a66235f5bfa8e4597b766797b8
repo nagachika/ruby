@@ -1,0 +1,3 @@
+magic comment の parse でキーワードが前方一致したら有効になる(c で coding、f で
+frozen_string_literal と解釈される)ようになっていたので、全体マッチさせるように
+しています。 [ruby-core:71460] [Bug #11679]

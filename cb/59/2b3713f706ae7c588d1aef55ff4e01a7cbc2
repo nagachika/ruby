@@ -1,0 +1,2 @@
+defs/known_errors.def を macOS Mojave の Xcode 10.1 を使って更新しています。新
+しい errno が結構増えてるんですね。

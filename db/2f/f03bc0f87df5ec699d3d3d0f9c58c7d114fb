@@ -1,0 +1,5 @@
+標準添付ライブラリ net の net/protocol.rb で read_nonblock に exception: false
+を渡して例外ではなく戻り値で読み込みできないことを検出するようにしています。コ
+メントによると EOFError の発生率を減らす修正と IO.select のかわりに io/wait を
+使って入力待ちをする変更も予定されているとのこと。 [ruby-core:68787] [Feature #
+11044]

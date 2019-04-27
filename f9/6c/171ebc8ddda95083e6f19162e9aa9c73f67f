@@ -1,0 +1,2 @@
+Windows 版の拡張ライブラリ readline で読み込みのイベント待ちを blocking region
+用の関数を呼ぶように修正しています。

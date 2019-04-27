@@ -1,0 +1,8 @@
+拡張ライブラリ tk の修正がいくつか入っています。
+まず extconf.rb での 64bit 環境の検出として RUBY_PLATFORM の s390x という環境に
+対応しています。 [ruby-core:40243] [Bug #5465]
+また extconf.rb のパス検出で Mac OS X Lion でのビルドエラーの不具合修正。
+[ruby-core:38172] [Bug #5048]
+それから Tk::Canvas.create が例外を発生するという不具合の修正のほか、サンブルの
+コードで例外の捕捉が不足していたのを追加しています。 [ruby-core:54544] [Bug #
+8319]

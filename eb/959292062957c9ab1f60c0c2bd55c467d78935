@@ -1,0 +1,2 @@
+r65777 の変更で io.c に VM_UNREACHABLE() の定義が必要になったので #include
+"vm_core.h" を追加しています。

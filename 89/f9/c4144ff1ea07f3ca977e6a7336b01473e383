@@ -1,0 +1,2 @@
+Process.waitall の rdoc で Process::Status#inspect の表現が違うのを修正していま
+す。

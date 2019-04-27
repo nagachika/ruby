@@ -1,0 +1,4 @@
+タイムアウト用の例外は Net::HTTP::OpenTimeout から Net::OpenTimeout に移動して
+、Net::POP3, Net::SMTP, Net::Telnet でも共通して利用するようにしています。また
+タイムアウトに使うメソッドを Kernel#timeout から Timeout.timeout に変更していま
+す。 [ruby-core:41662] [Bug #5765]

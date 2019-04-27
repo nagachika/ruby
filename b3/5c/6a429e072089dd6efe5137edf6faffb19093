@@ -1,0 +1,4 @@
+win32/registry.rb たちの追加修正。 Win32::Registry#check で caller で取得するエ
+ラー発生箇所のバックトレースの位置を修正しています。これは元々の不具合みたいで
+すね。また GC がらみで make test-all で crash するらしく QueryValue() というメ
+ソッドの中を GC.disable して実行するようにしてみています。

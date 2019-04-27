@@ -1,0 +1,2 @@
+r50062 で追加した readlink(2) の代替実装を利用して Windows 版の File.readlink
+の実装を win32/file.c に追加しています。

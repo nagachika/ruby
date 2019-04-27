@@ -1,0 +1,2 @@
+Enumerable#none? の rdoc 用コメントにサンプルを追加して、同様のテストケースも追
+加しています。 https://github.com/ruby/ruby/pull/950

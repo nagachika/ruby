@@ -1,0 +1,2 @@
+r40262 で pack.o が internal.h に依存するようになったので common.mk の依存関係
+に追加しています。

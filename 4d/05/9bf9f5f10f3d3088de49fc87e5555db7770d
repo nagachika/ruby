@@ -1,0 +1,3 @@
+拡張ライブラリ json の ext/json/generator でも TypedData_Make_Struct() を利用し
+てオブジェクトの確保と wrap している構造体のメモリ確保順をいれかえて潜在的メモ
+リリークを修正しています。

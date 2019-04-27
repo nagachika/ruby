@@ -1,0 +1,3 @@
+rb_io_wait_writable() で errno=EINTR の時に rb_thread_fd_writable() を呼んでい
+たのを消しています。 EINTR はシステムコールがシグナルで割り込まれたということな
+のですぐに再実行して良いので。

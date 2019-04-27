@@ -1,0 +1,17 @@
+ext/openssl/lib/openssl/buffering.rb が
+module OpenSSL
+  module Buffering
+   ...
+  end
+end
+のような記法だったのを
+module OpenSSL::Buffering
+  ...
+end
+のようにネストしない記法に変更しています。
+このように表記を変えると定数の探索に影響があるので、実はいつでも書き換え可能な
+わけではありません。前者の書き方だと Buffering の中から OpenSSL に定義されてい
+る定数を直接参照できますが、後者ではできません。今回の変更では
+OpenSSL::Buffering の内容を見たかぎりでは問題になりそうな定数はないので大丈夫だ
+と思います。
+また rdoc 用のコメントの整形や追加が行なわれています。

@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OpenSSL::OCSP::Request#sign の省略可能引数に digest
+を追加して署名に使う Hash アルゴリズムを指定できるようにしています。デフォルト
+は従来通り SHA1 を使うようです。 [ruby-core:70915] [Feature #11552] https://
+github.com/ruby/openssl/issues/28

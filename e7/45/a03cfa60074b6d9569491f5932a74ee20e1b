@@ -1,0 +1,3 @@
+rb_cloexec_dup2() にて複製先にしようとしている file descriptor が標準入力/標準
+出力/標準エラー出力だったら dup3(2) を使って close-on-exec フラグを立てないよう
+にしています。

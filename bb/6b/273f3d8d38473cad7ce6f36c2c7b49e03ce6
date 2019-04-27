@@ -1,0 +1,3 @@
+標準添付ライブラリ mutex_m の rdoc 用コメントに Mutex_m を include したクラスで
+は initialize で super するのを忘れないようにという注意を追記しています。
+[ruby-core:81376] [Bug #13598]

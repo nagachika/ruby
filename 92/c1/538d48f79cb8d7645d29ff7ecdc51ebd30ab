@@ -1,0 +1,6 @@
+doc/security.rdoc に Symbol が GC されないことによる DoS 攻撃可能になる脆弱性に
+ついての注意書きを、Symbol GC の導入による変化にあわせて修正しています。普通に
+to_sym して作った Symbol は GC 可能になりましたが、instance_variable_set などの
+一部のメソッドは Symbol を immortal な Symbol に変更するので解放されなくなるの
+で、そういったメソッドについての注意喚起になっています。 https://github.com/
+ruby/ruby/pull/725

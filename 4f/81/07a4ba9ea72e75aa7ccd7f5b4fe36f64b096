@@ -1,0 +1,2 @@
+標準添付ライブラリ pathname の ext/pathname/lib/pathname.rb で rdoc によるドキ
+ュメント化を抑制するタグを追加しています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::Element#namespace の rdoc 用コメントにサンプ
+ルを追加しています。 [ruby-core:56173] [Bug #8685]

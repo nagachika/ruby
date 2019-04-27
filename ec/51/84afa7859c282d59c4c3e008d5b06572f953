@@ -1,0 +1,2 @@
+system や Process.spawn の :chdir オプションのテストで Windows 環境での Dir.pwd
+のエンコーディングが UTF-8 じゃない場合を考慮するようにしています。

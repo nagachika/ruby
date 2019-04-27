@@ -1,0 +1,2 @@
+Makefile.in の clean-ext で ext/ 配下は exts.mk を submake を使って並列に実行で
+きるようにしているみたいです。

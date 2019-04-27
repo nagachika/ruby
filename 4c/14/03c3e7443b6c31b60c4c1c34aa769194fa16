@@ -1,0 +1,2 @@
+mspec と rubyspec の最新版をとってきてマージするためのツールを tool/
+pull-latest-mspec-spec に追加しています。

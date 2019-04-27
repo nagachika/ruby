@@ -1,0 +1,3 @@
+setjmpex.h を include するのは setjmpex() を実際に RUBY_SETJMP で利用する時だけ
+にしています。 mingw32 で #include <setjmpex.h> すると setjmp() も setjmpex()
+で上書きされてしまうそうです。

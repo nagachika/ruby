@@ -1,0 +1,5 @@
+r60907 で追加した openssl のテストで assert_raise_with_message が
+Encoding.default_internal を変更するため複数の Thread で利用するとエンコーディ
+ング変換でエラーが発生することがあるため、Thread 内で使わずに join して取り出し
+た結果を使ってメインスレッドで assert_raise_with_message を呼ぶようにしています
+。

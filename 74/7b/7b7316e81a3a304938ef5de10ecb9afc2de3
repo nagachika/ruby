@@ -1,0 +1,2 @@
+template/id.h.tmpl から未使用になっていた ID2ATTRSET() というマクロ定義を削除し
+ています。

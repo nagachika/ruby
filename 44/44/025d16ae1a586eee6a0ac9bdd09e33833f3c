@@ -1,0 +1,3 @@
+MJIT のためのテンプレート tool/ruby_vm/views/_mjit_compile_insn.erb に dispatch
+というローカル変数で制御してるところがありましたが、現在常に false で呼んでるの
+でこの分岐を削除しています。

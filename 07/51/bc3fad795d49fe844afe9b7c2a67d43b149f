@@ -1,0 +1,2 @@
+r52180 の syscall(SYS_getrandom, ...) のフラグ GRND_NONBLOCK の削除を revert し
+ています。

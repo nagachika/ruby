@@ -1,0 +1,4 @@
+bm_vm3_thread_*.rb というベンチマークを bm_vm4_thread_*.rb にファイル名変更して
+います。
+ChangeLog の記述をみるとこれは bm_vm_thread_*.rb にしたかったんじゃないでしょう
+か。

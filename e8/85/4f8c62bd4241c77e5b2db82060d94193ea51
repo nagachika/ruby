@@ -1,0 +1,3 @@
+OpenSSL::Context の初期化時に設定するインスタンス変数(未初期化インスタンス変数
+の参照の警告を防ぐため)に @npn_select_cb を追加しています。 r36871 で追加された
+Next Protocol Negotiation 機能で利用しているインスタンス変数です。

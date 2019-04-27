@@ -1,0 +1,4 @@
+rb_thread_wakeup_timer_thread_fd() がタイマースレッド通知用の pipe を直接
+static 変数 timer_thread_pipe として参照するのをやめて、引数として受け取るよう
+にしています。また setup_communication_pipe() から更に pipe を操作している部分
+を関数に切り出しするなどのリファクタリング。

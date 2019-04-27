@@ -1,0 +1,2 @@
+r64531 の続きで DRb::DRbTCPSOcket#close で shutdown を呼んで accept してる
+Thread に通知して IO.select から起こしてから閉じるようにしています。

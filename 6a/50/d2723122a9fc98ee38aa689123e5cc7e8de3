@@ -1,0 +1,2 @@
+NEWS ファイルに Module#private_constant, Module#public_constant メソッドの追加
+について追記。 [ruby-dev:39685] [ruby-core:32698]

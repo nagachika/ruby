@@ -1,0 +1,5 @@
+TracePoint にマルチスレッドで使うと別のスレッドのイベントが見えてしまうという問
+題があり、rb_tp_t::trace_arg という TracePoint のオブジェクトが内包する構造体の
+メンバに保有していた情報を rb_thread_t::trace_arg にスレッド毎の情報として持つ
+ように移動しています。またこのメンバをみればスレッドがトレース中かどうかわかる
+ので rb_thread_t::trace_running を削除しています。 [ruby-dev:46766] [Bug #7590]

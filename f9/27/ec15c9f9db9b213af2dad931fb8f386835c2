@@ -1,0 +1,2 @@
+File.basename の rdoc に File::ALT_SEPARATOR の扱いについて記述を修正しています
+。

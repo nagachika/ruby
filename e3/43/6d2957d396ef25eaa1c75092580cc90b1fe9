@@ -1,0 +1,3 @@
+標準添付ライブラリ securerandom.rb の SecureRandom の概要についての rdoc コメン
+トが module 文の直前になかったのでコメント位置(というか間にあった openssl の
+require) を移動しています。

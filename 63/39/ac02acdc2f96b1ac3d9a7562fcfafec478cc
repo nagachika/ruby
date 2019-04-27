@@ -1,0 +1,3 @@
+ISeq へのコンパイル時の peephole optimization で label へのジャンプ直後に leave
+があった場合に jump 命令を leave 命令に変換する処理で、さらにその leave 命令に
+tail call optimization もされるように最適化処理を再適用するようにしています。

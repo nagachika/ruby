@@ -1,0 +1,3 @@
+configure.in で HAVE_BASERUBY が yes の場合 BOOTSTRAPRUBY として BASERUBY を使
+うようにしています。クロスコンパイルでない時は miniruby を使っていて BASERUBY
+に依存しないようになってたのですが、あればそっちを使うようにしているようです。

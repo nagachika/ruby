@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::FileHandler の rdoc 用コメ
+ントの定数名の間違いを修正。 https://github.com/ruby/ruby/pull/1219

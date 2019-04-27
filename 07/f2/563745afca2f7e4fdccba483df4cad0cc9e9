@@ -1,0 +1,4 @@
+標準添付ライブラリ tmpdir で miniruby の時に require "etc.so" が失敗するのを、
+テストで $LOADED_FEATURES にあらかじめ "etc.so" を入れておく workaround で回避
+した r45707, r45711, r45717 などを revert して、lib/tmpdir.rb では require
+"etc.so" の LoadError を無視する rescue 節を復活させています。

@@ -1,0 +1,3 @@
+mjit.c の start_worker() 内に mjit_worker() の extern 宣言がされていましたが、
+mjit_worker.c が #include で取り込まれるようになって不要になっていたので削除し
+ています。

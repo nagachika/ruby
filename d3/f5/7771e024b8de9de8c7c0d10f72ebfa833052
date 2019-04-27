@@ -1,0 +1,3 @@
+tool/transform_mjit_header.rb で関数の定義を抜き出すための正規表現
+FUNC_HEADER_REGEXP で __attribute__ などの属性指定が戻り値型の後に入ってる場合
+にも対応するようにしています。 [ruby-core:88172] [Bug #14949]

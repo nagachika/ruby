@@ -1,0 +1,2 @@
+ISeq の構造体の catch_except_p の mark 漏れが起こりうる条件があったのを修正して
+います。 catch table の実装のもっとシンプルにしたいなぁとのこと。

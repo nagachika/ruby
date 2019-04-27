@@ -1,0 +1,4 @@
+BORLAND Borland コンパイラでの浮動小数点数演算ユニットの設定に間違いがあったと
+かで Init_Numeric で修正されています。 [ruby-core:33503] 参考URL: http://
+qc.embarcadero.com/wc/qcmain.aspx?d=32483 うーんつまりコンパイラのバグがあった
+のでその workaround ということですかね。

@@ -1,0 +1,4 @@
+RGenGC で minor GC の回数を減らすために大きなサイズの Array や Hash はその
+Array/Hash オブジェクト自体でなく参照先のほうを remember set に登録するように特
+別扱いしていましたが、それにより大きな Array や Hash を操作するとメモリ消費量が
+大きくなる(GC が走らない)のでやめています。 [ruby-core:60699] [Bug #9518]

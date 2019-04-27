@@ -1,0 +1,2 @@
+r33396 および r33371 の Fiber のマーク漏れの修正によって make test-all が SEGV
+することがあるので一旦 revert しています。 [ruby-dev:44570] [Bug #5386]

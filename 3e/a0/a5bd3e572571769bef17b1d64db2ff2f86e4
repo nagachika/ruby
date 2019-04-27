@@ -1,0 +1,4 @@
+eval_string_with_cref() で "clobbered by 'longjmp' or 'vfork'" の警告が出ていた
+ので引数 cref に const をつけた上で TH_EXEC_TAG() の中のブロック(longjmp() を実
+行した後のブロック)内の変数に代入するようにしています。こういう回避方法もあるん
+ですね。

@@ -1,0 +1,3 @@
+bootstraptest/test_thread.rb の Thread#kill した時の ensure 節が実行されること
+を確認するテストで、Thread.pass を1回しか実行していなかったのを、対象の Thread
+が sleep に入ったことを確認するまでループするようにしています。

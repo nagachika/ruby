@@ -1,0 +1,2 @@
+r64569 の spec/ruby/language/fixtures/utf16-le-bom.rb てファイルの末尾に改行が
+なかったので追加しています。

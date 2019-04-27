@@ -1,0 +1,2 @@
+bignum.c の biglsh_bang() と bigrsh_bang() でシフト量がちょうど BDIGIT の整数倍
+だった時は MEMMOVE() を使った簡易で高速な実装を使うようにしています。

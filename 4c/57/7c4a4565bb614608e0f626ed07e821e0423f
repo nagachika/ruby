@@ -1,0 +1,3 @@
+rb_mod_const_missing() の宣言を include/ruby/ruby.h から internal.h に移動して
+、非公開にしています。EXPERIMENTAL ってコメントがついてるので、影響があるかどう
+か消してみて様子をみる、って感じですね。

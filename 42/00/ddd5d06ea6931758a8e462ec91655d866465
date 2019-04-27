@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence#disasm で ISeq を文字列化する時に、メソッド呼び出し
+の keyword 引数を個数だけ表示していたのを、仮引数名の配列として表示するようにし
+ています。 https://github.com/ruby/ruby/pull/1056 [ruby-core:71076] [Feature #
+11589]

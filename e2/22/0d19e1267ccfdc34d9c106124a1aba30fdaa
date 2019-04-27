@@ -1,0 +1,3 @@
+拡張ライブラリ date の depend ファイルで依存関係に date_core.o と
+date_strftime.o には $(ruby_headers) への依存をつけていましたが、全てのオブジェ
+クトファイルに $(ruby_headers) への依存関係をつけるようにしています。

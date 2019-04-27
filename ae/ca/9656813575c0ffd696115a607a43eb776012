@@ -1,0 +1,3 @@
+CGI.new のオプション :tag_maker に "html5" という値を受け付けて、html5 のタグ生
+成ができるようにしています。 CGI::HTML5 という Module を追加しています。
+[ruby-core:45812] [Feature #6637]

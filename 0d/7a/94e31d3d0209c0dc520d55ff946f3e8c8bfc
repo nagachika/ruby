@@ -1,0 +1,2 @@
+RFC 6585 で追加されている HTTP ステータスコードを Net::HTTP に追加しています。
+[ruby-core:45175] [Feature #6480]

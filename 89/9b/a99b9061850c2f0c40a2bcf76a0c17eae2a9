@@ -1,0 +1,3 @@
+IRIX でのビルドエラーの対応。 xti.h というヘッダのチェックを configure でなく
+socket の extconf.rb で実施するようにしています。かなり昔に投稿されたパッチです
+ね。 [ruby-core:14447]

@@ -1,0 +1,2 @@
+internal.h に MJIT が無効になるようにビルドされた時にも mjit_pause_without_ints
+() という inline 関数の定義を置いておくようにしています。

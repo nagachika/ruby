@@ -1,0 +1,4 @@
+String#crypt で self および引数の salt がワイド文字エンコーディングだった時に
+ArgumentError にしています。また salt の先頭2 byte に NUL 文字があったらエラー
+にしています。 crypt(3) に渡すので NUL 文字だと短すぎることになってしまうからで
+すね。

@@ -1,0 +1,3 @@
+Net::HTTP の write_timeout オプションの rdoc 用コメントに Windows では(なぜか)
+Net::WriteTimeout は発生しないことを追記。ついでに typo 修正しています。 https:
+//github.com/ruby/ruby/pull/1885

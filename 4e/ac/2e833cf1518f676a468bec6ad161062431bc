@@ -1,0 +1,3 @@
+r53231 の再修正。 BasicSocket.for_fd で不正な fd が渡された時に is_sock が偽を
+返してきたら ArgumentError ではなく Errno::EBADF を発生させるようにしています。
+開かれた file descriptor ではあるけど socket ではないっていう場合ですね。

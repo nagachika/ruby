@@ -1,0 +1,4 @@
+r44689 で追加した fork 時のシグナル受信でデッドロックするケースのテスト
+test_deadlock_by_signal_at_forking で assert_separately を使うようになったので
+不要になっていた IO.popen を使った子プロセス生成をやめています。ぐっと短くなっ
+た。

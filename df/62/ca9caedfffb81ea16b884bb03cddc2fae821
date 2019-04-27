@@ -1,0 +1,3 @@
+include/ruby/defines.h で定義されている関数の別名を定義するマクロ
+RUBY_ALIAS_FUNCTION_TYPE()/RUBY_ALIAS_FUNCTION_VOID() でキャストを追加し警告を
+抑制したりしています。

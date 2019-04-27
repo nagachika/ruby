@@ -1,0 +1,3 @@
+続いて r43245 の変更の追加で rb_thread_t::interrupt_mask のフラグを立てるのを
+RUBY_VM_SET_POSTPONED_JOB_INTERRUPT() というマクロを使うようにしていますが、こ
+れは interrupt_flag を立てるためのものだったので次で revert されています。

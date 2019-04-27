@@ -1,0 +1,2 @@
+configure.ac で extra_warnflags という変数が与えられていたら extra_warning とい
+う変数にセットするようにして、結果的に warnflags に追加されるようにしています。

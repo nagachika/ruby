@@ -1,0 +1,5 @@
+ruby のコマンドラインオプションの解析に利用するマクロ群に is_option_with_optarg
+() というオプションの引数が省略可能なオプションを判定する関数マクロを追加してい
+ます。 is_option_with_arg() は is_option_with_optarg() の need_arg に Qtrue を
+渡して呼ぶように定義しなおしていますが is_option_with_optarg() を別のところで使
+うコードはまだ追加されていません。

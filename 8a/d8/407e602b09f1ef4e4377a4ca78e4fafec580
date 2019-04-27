@@ -1,0 +1,3 @@
+拡張ライブラリ dl の DL::CFunc#call でキャスト不足のため sizeof(DLSTACK_TYPE)
+が sizeof(long) よりも大きい環境(mswin-x64)で SEGV を引き起こしていたのでキャス
+トを追加して修正しています。

@@ -1,0 +1,4 @@
+regparse.c の node_extended_grapheme_cluster() で r66033 で分離した
+create_sequence_node() というヘルパー関数は create_alternate_node() と類似点が
+多いので統一して create_node_from_array() という関数にして引数の kind で処理を
+分岐するようにしています。

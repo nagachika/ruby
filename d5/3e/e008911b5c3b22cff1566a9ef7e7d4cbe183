@@ -1,0 +1,9 @@
+Kernel#yield_self の別名として(alias ではなく同じ実装の別名のメソッド) Kernel#
+then というメソッドが追加されました。 matz の version.h 以外の久しぶりにコミッ
+トです。 [ruby-core:86270] [Feature #14594]
+この名前よく matz を説得できたなー、と思ってチケットをみたけどチケット上では
+matz は最終的な accepted しか言ってなくて、Developers Meeting の議事録を漁って
+みたところ https://bugs.ruby-lang.org/projects/ruby/wiki/
+DevelopersMeeting20180315Japan (の logs のリンクの先)とかをみるとむしろ matz が
+then に好意的で、他の committer はあまり乗り気ではなかったみたいで意外でした。
+絶対逆だと思った。

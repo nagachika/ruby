@@ -1,0 +1,3 @@
+process.c の handle_fork_error() で呼び出し元に rb_protect() が返す state を返
+す必要がなくなっていたため state_p 引数を削除してローカル変数 state を使うよう
+にリファクタリングしています。

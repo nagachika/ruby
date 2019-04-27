@@ -1,0 +1,2 @@
+lib/debug.rb の help で表示されるヘルプメッセージに pp と restart (r) を追加し
+ています。 [ruby-dev:44222] [Bug #5093]

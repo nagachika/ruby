@@ -1,0 +1,5 @@
+enumerator_init() で Enumerator オブジェクトの freeze チェックを追加しています
+。 __send__ で強制的に initialize を再度呼んで Enumerator オブジェクトの利用す
+る Enumerable オブジェクトを差し替えるというお行儀の悪いことができてしまうので
+、せめて freeze されたオブジェクトの場合は禁止するようにしています。 https://
+github.com/ruby/ruby/issues/368

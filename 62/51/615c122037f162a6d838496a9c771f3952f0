@@ -1,0 +1,4 @@
+ビルドプロセスの修正で、LIBRUBY_ALIASES という変数に LIBRUBY_SO と同じファイル
+名のものがあると同じファイル名で symbolic link を作ろうとしてエラーになる? かな
+にかの問題があって --with-soneme をつけて configure した時に make install 時に
+エラーがおきてたのを修正しています。

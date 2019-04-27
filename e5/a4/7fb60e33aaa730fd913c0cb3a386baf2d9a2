@@ -1,0 +1,2 @@
+NEWS ファイルに URI::Generic#hostname と URI::Generic#hostname= の新設メソッド
+を記述追加。

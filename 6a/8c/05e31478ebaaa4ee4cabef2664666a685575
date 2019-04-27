@@ -1,0 +1,2 @@
+Array#select! の rdoc のサンプルコードで new_ary or nil を返すという記述になっ
+ていたので self(ary) または nil を返すと修正。 [ruby-core:42478] [Bug #5998]

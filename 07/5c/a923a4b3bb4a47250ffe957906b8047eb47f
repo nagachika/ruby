@@ -1,0 +1,5 @@
+File::Stat#birthtime の導入時に追加した File::Stat のテストで atime のチェック
+を Windows 環境では skip するようにしています。 Windows では(というか NTFS で
+は?) atime の更新に遅延(1時間)があるそうです。ほー、性能のため? それにしては大
+きめの delay ですね。参考URL: http://msdn.microsoft.com/en-us/library/windows/
+desktop/ms724290%28v=vs.85%29.aspx

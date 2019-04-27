@@ -1,0 +1,5 @@
+tool/rbinstall.rb の default gem のインストール部分でインストール先にすでに
+gemspec ファイルがあったら一旦削除するようにしています。 for the Ruby
+committers とありますが、まあつまり trunk でビルドし続けてる人は古いバージョン
+の? gemspec ファイルが残ってしまうので掃除するようにしているってことだと思いま
+す。 [ruby-core:77284] [Bug #12764]

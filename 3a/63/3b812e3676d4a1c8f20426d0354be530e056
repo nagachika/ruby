@@ -1,0 +1,2 @@
+[ruby-dev:42336] で報告されている openssl で追加される Integer#to_bn が例外を発
+生させていたのを修正。

@@ -1,0 +1,3 @@
+オブジェクトの複製を行う rb_clone_setup() で struct RBasic::flags の
+FL_PROMOTED0、FL_PROMOTED1、FL_FINALIZE などの RGenGC と finalizer 用の(?)フラ
+グはコピーしないように修正しています。 [ruby-core:82202] [Bug #13775]

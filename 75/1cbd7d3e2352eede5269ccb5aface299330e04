@@ -1,0 +1,3 @@
+configure で Mac OS X で dsymutil というコマンドを使って link 後の POSTLINK タ
+ーゲットにデバッグ情報 DWARF を追加するコマンド実行を追加しています。 codesign
+と同じタイミングですね。

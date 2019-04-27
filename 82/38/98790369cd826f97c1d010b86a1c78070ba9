@@ -1,0 +1,4 @@
+r59466 の続きみたいですが、RUBY_USE_SETJMPEX が真の時に vm_trace.c の
+rb_suppress_tracing() で警告除去のため TH_JUMP_TAG() の前に RB_GC_GUARD() を追
+加しています。また sprintf.c の MAYBE_UNUSED() マクロの定義も 0 で初期化するよ
+うに変更しています。

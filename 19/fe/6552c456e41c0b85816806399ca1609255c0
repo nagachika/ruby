@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix に Matrix#reflexive? メソッドを追加しています。
+Matrix の対角成分が全て 1 の時に true を返します。 https://github.com/ruby/ruby
+/pull/1730

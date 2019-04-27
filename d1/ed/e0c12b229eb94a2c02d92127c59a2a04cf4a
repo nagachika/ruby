@@ -1,0 +1,3 @@
+rb_proc_call_with_block() の引数 argv に const を付加しています。一応 include/
+ruby/intern.h で公開されている API なので拡張ライブラリを書いている人はチェック
+してみてください。

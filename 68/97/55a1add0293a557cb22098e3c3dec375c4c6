@@ -1,0 +1,2 @@
+gc.c、proc.c、variable.c のコメントと rdoc の typo 修正。 https://github.com/
+ruby/ruby/pull/506

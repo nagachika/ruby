@@ -1,0 +1,3 @@
+r52202 で出力を colorize した tool/ifchange でも tput を使っていたので tput が
+なくてエラーになる場合を考慮するようにしています。 [ruby-core:71143] [Bug #
+11611]

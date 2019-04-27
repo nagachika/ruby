@@ -1,0 +1,2 @@
+vm_core.h で struct rb_execution_context_struct の前方宣言が重複していたので後
+のほうのを削除しています。

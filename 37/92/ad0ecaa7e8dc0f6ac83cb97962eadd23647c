@@ -1,0 +1,2 @@
+cygwin/GNUmakefile.in で -j オプションを sub make コマンドから削除するようにし
+ています。また include defs/gmake.mk を追加しています。

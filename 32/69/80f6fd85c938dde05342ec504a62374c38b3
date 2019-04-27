@@ -1,0 +1,4 @@
+test/ruby/test_sprintf_comb.rb で sprintf のフォーマット文字列の指示子、精度、
+フラグなどの組合せで1つのテストメソッド内で assertion を実行していたのを、組合
+せ毎にテストメソッドを define_method で定義してメソッドを分離するようにしていま
+す。

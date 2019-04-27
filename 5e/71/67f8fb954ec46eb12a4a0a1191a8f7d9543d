@@ -1,0 +1,3 @@
+r63868 の iseq_peephole_optimize() の修正の再修正。jump 命令の前の LABEL を無条
+件で optimize 禁止にするのではなくてジャンプしてくる参照のあるものだったら禁止
+するようにしています。 [ruby-core:87830] [Bug #14897]

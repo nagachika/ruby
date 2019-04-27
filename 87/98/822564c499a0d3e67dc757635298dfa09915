@@ -1,0 +1,2 @@
+node.c の rb_node_buffer_new() と rb_node_buffer_free() も static 関数に変更し
+ています。

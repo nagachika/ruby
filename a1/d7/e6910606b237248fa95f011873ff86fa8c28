@@ -1,0 +1,7 @@
+コミットメッセージが空っぽですが、次の r29426 のメッセージがこのコミットのもの
+みたいです。
+rbconfing.rb は RUBY_PATCHLEVEL を取得するため version.h に依存しているので
+Makefile の依存関係を付けています。
+また昨日の r29421 で RCFILES を rbconfig.rb に依存させていたのはやめて、
+version.h に依存するように変更されています。 cygwin/GNUMakefile.in のほうは
+version.h ではなくて revision.h に依存させています。

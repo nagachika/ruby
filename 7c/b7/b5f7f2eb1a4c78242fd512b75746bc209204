@@ -1,0 +1,4 @@
+Module#class_eval と Module#class_eval の rdoc 用コメントの call-seq でブロック
+付き呼び出しの時のブロックパラメータが空になっていたのを修正しています。また
+class_eval と module_eval の用例を両方書くようにしています。 https://github.com
+/ruby/ruby/pull/1258

@@ -1,0 +1,3 @@
+拡張ライブラリ io/console の Windows 版の IO#pressed? の実装で引数が Symbol で
+渡された場合に NUL 文字を含む可能性があるのでその場合も文字列に変換後
+StringValueCStr() を通して使うようにしています。

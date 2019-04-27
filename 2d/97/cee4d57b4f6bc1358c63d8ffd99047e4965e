@@ -1,0 +1,2 @@
+Symbol#to_proc で生成した Proc オブジェクトの source_location を呼ぶと無限ルー
+プに陥る不具合を修正しています。 [ruby-core:72381] [Bug #11845]

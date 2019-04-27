@@ -1,0 +1,3 @@
+git.savannah.gnu.org から config.guess と config.sub をダウンロードするためのツ
+ール tool/config_files.rb を tool/downloader.rb に改名して、クラス名もそれにあ
+わせて変更しています。

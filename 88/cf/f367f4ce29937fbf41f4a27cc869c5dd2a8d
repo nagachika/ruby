@@ -1,0 +1,2 @@
+Zlib::GzipReader.wrap, Zlib::GzipWriter.wrap のオプションについての rdoc を追記
+しています。

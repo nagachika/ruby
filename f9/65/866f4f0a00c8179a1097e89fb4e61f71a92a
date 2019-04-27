@@ -1,0 +1,6 @@
+fstr_update_callback() で fstring 管理用のテーブルを更新する時に対象の文字列が
+なくて新規登録する場合に、STR_FAKESTR フラグが立っていて GC で管理されていない
+fake string だったら str_new_static() を利用して文字列の領域をそのまま流用する
+オブジェクトを作るようにしています。また渡された文字列オブジェクトが共有されて
+いるものだったら str_make_independent_expand() を呼んで共有解除するようにしてい
+ます。

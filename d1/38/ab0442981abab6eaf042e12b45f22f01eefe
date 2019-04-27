@@ -1,0 +1,3 @@
+Makefile.in で configure を固定のファイル名で記述しているところを $(CONFIGURE)
+を参照するようにして、別のファイル名で configure した時に make reconfig で同じ
+ファイル名を利用するようにしています。

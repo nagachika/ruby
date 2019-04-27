@@ -1,0 +1,2 @@
+thread.c の rb_thread_atfork() で mjit_child_after_fork() を呼んでるところのコ
+メントを少し変更しています。

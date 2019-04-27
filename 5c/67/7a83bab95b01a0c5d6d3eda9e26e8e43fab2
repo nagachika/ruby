@@ -1,0 +1,2 @@
+IO#reopen が open と同様のオプション引数を受け付けるようにしています。
+[ruby-core:47806] [Feature #7103]

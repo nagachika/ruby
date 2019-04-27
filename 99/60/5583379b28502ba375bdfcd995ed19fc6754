@@ -1,0 +1,2 @@
+process.c の rb_execarg_fixup() という関数を rb_execarg_parent_start() に改名し
+ています。

@@ -1,0 +1,2 @@
+ccan/list の双方向 linked list ライブラリに要素の取り外しとその要素の再初期化を
+同時に行う list_del_init() という関数を追加しています。

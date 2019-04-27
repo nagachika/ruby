@@ -1,0 +1,3 @@
+rb_id_attrset() で壊れた ID の種類で NameError を発生させる時に、シンボル名がみ
+つからなかったら rb_name_error() ではなく rb_name_error_str() を使って Qnil を
+渡すことで Symbol の情報を表示させないようにしています。

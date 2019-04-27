@@ -1,0 +1,5 @@
+r47320 で標準添付ライブラリ benchmark の時間計測に使う Process.clock_gettime の
+タイマーの種類を Process::CLOCK_MONOTONIC_RAW があればそれを優先するようにしま
+したが、Process::CLOCK_MONOTONIC_RAW はC ヘッダに定数があれば定義されますが、ヘ
+ッダに定義はあるのに実際に呼ぶとエラーになる可能性があるので、実際に呼んでみて
+例外が発生したら利用しないようにするようにしています。

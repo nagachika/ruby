@@ -1,0 +1,2 @@
+spec/rubyspec/core/process/fixtures/kill.rb では ruby 起動コマンドは環境変数
+RUBY_EXE と RUBY_FLAGS で参照するようにしています。

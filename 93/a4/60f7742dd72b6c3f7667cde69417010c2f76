@@ -1,0 +1,2 @@
+r51020 に続いて obj_info() の T_IMEMO の method entry 用の時の出力にメソッド定
+義のタイプ(rb_method_type_t)を文字列化して含めるようにしています。

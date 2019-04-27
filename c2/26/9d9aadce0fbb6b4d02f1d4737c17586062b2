@@ -1,0 +1,3 @@
+vm_eval.c の eval_string_with_cref() で Array の Write Barrier のためのマクロの
+使いかたが間違っていたのを修正。 RARRAY_AREF() を左辺値として使ってしまっていま
+した。あれ、これ const によるエラーにならないんですね。

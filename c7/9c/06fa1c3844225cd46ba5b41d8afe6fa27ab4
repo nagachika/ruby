@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal で FIX2INT() で変換していたところを NUM2INT() を使う
+ようにしています。また unsigned short に変換する時に FIX2UINT() を使ってから
+(unsigned short) にキャストしていたのを NUM2USHORT() を使うように修正しています
+。

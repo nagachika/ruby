@@ -1,0 +1,2 @@
+NEWS ファイルに --debug=frozen-string-literal オプションについて追記しています
+。 [Feature #11725]

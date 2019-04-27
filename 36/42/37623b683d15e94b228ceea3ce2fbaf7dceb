@@ -1,0 +1,3 @@
+同じく bignum.c の rb_big2str1() で power_level に BIGDIVREM_EXTRA_WORDS をかけ
+るようにしています。この定数は 1 なので結果は変化しませんがより意味を明確にする
+ためにとのこと。

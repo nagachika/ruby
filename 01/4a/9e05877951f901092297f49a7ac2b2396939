@@ -1,0 +1,2 @@
+doc/syntax/refinements.rdoc の Module と Class どちらも refine できることを書い
+ている場所を移動しています。

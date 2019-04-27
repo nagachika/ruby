@@ -1,0 +1,3 @@
+bignum.c の dump_bignum() でフォーマット文字列の BDIGIT 1つあたりの幅指定を8文
+字固定にしていたのを SIZEOF_BDIGITS を使って計算するようにして BDIGIT の型に応
+じて適切な表示になるようにしています。

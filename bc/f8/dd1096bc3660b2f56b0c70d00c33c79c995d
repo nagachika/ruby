@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix で Matrix.diagonal を無引数で呼んだ時に NoMethodError
+が発生してしまっていたので Matrix.empty を返すようにしています。 https://
+github.com/ruby/ruby/pull/576

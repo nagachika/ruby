@@ -1,0 +1,5 @@
+bignum.c の rb_big2ulong() および rb_big2long(), rb_big2ull(), rb_big2ll() など
+で負数の時に num が LONG_MIN の符号を反転した数の時を考慮した分岐があったのです
+が、これをやめて 1+(unsigned long)(-(LONG_MIN+1))) 以下かどうかの分岐1つにして
+います。コンパイラの最適化でうまく符号反転してくれるとのことですが、そういうも
+んやろか…。

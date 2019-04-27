@@ -1,0 +1,3 @@
+r50410 で EXPORT_PREFIX というマクロが必須になったので Windows 環境向けに win32
+/Makefile.sub で生成する config.h にその定義を追加するようにしています。が空白
+になってますね。

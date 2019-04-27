@@ -1,0 +1,5 @@
+Ripper が T_DATA 型のオブジェクトとして TypedData に使っている定数を ruby 本体
+のパーサで使っている parser_data_type を継承するようにすることで Ripper#yydebug
+などのメソッドが動作しなかった不具合を修正しています。 rb_data_type_struct には
+parent というメンバがあって、これで継承を表現できるんですね。 [ruby-core:39591]
+[Bug #5331]

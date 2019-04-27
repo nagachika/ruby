@@ -1,0 +1,2 @@
+拡張ライブラリ openssl のテストに OpenSSL::SSL::SSLContext#extra_chain_cert の
+テストを追加しています。

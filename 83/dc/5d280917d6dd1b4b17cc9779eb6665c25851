@@ -1,0 +1,2 @@
+Hash#merge および Hash#merge!, Hash#update の rdoc 用コメントの文法およびマーク
+アップの修正。

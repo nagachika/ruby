@@ -1,0 +1,2 @@
+load.c、method.h、symbol.c などで NODE 型オブジェクトの依存がなくなったため #
+include "node.h" を削除しています。

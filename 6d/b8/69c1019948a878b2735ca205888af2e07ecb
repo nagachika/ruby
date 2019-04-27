@@ -1,0 +1,4 @@
+標準添付ライブラリ uri の URI::Parser.unescape に %XX エンコードされた文字列と
+UTF-8 の文字列が混在したものが渡されると Encoding::CompatibilityError が発生し
+ていた不具合を修正しています。pack("C") のかわりに pack("H2") を利用するように
+しています。 [ruby-core:85990] [Bug #14586]

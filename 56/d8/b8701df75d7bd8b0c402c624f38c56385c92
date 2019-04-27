@@ -1,0 +1,4 @@
+Windows 版の write() のエミュレーション実装 rb_w32_write() で
+GetOverlappedResult() を呼んだ直後の errno 生成で前の WriteFile() 呼び出しの結
+果を格納している変数を参照してしまっていたので、改めて GetLastError() を呼び出
+すようにしています。

@@ -1,0 +1,3 @@
+st.c の features という配列の変数に static const 修飾子を追加しています。
+https://github.com/k-takata/Onigmo/commit/
+44e3c0a16da1116be641ea807c1202434b743ace [ruby-core:78558] [Feature #12142]

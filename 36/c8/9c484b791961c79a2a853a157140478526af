@@ -1,0 +1,5 @@
+bignum.c のリファクタリング。 Bignum の文字列化のための基数の累乗のキャッシュに
+使う定数や変数名に base36 という単語を追加するようにしています。
+MAX_BIG2STR_TABLE_ENTRIES を MAX_BASE36_POWER_TABLE_ENTRIES に、
+big2str_power_cache を big2str_power_cache に、big2str_numdigits_cache を
+base36_numdigits_cache へと変更しています。

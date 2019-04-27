@@ -1,0 +1,4 @@
+mkmf.rb の have_framework のテストで Cocoa フレームワークのチェックを使っていた
+のを CoreFoundation に変更しています。Cocoa は QuickTime SDK に依存していて、
+Xcode 4.3 では QuickTime SDK なしのインストールができるため Cocoa だと失敗する
+可能性があるためだそうです。

@@ -1,0 +1,2 @@
+tool/ruby_vm/views/_sp_inc_helpers.erb の変数の宣言をコメントにある説明の順序に
+そろえるように入れ換えています。

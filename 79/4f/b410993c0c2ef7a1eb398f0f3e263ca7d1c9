@@ -1,0 +1,5 @@
+拡張ライブラリ ripper でヒアドキュメントの最後で dispatch_ignored_scan_event()
+を呼び出していましたが ripper_has_scan_event() は常に真のはずなので
+ripper_scan_event_val() の内容を ripper_dispatch_heredoc_end() に直接展開して
+ripper_dispatch1() を呼び出すようにしています。多分余計な関数呼び出しと分岐を削
+除しただけで実行結果には影響がないと思います。

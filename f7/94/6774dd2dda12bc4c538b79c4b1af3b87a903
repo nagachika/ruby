@@ -1,0 +1,4 @@
+拡張ライブラリ stringio にて StringIO が内部的にバッファとして使っている String
+オブジェクトの tainted のチェックの空の分岐を削っています。 $SAFE=4 の廃止の時
+に内容だけ削って if 文だけ残ってたようです。コンパイルすると最適化で消えてたで
+しょうけど。 https://github.com/ruby/ruby/pull/963

@@ -1,0 +1,6 @@
+Zlib::GzipReader#read のテストに結果の文字列の Encoding についてのテストケース
+を追加しています。引数で読み込みサイズを指定すると ASCII-8BIT に、指定がなくて
+全て読み込むと Encoding.default_external になります。JRuby でこういう挙動を修正
+したので CRuby にもテストを追加したということのようですね。最近 JRuby では
+CRuby の test-all のテストを動かすことができるようになった(除外しているテストも
+あるそうですが)そうです。参考URL: http://bugs.jruby.org/6208

@@ -1,0 +1,3 @@
+addr2line.c の fill_lines() で dlsym() と dladdr() でシンボル情報取得後に
+dlopen() した handle を dlclose() で閉じておくようにしています。 r65006 で分岐
+内の dlclose() を消した時に閉じ漏れていたようです。

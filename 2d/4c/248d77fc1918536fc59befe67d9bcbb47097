@@ -1,0 +1,3 @@
+r66381 に続いて native_ppoll_sleep() で unregister_ubf_list() を読んでるのを削
+除しています。 r65495 で timer thread への通知用に signal_self_pipe にメンバー
+追加してこれを使うようになった時に不要になってたのに消し忘れてたとのこと。

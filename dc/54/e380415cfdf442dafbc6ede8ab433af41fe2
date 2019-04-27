@@ -1,0 +1,2 @@
+同じく strftime の実装で数値が Bignum の時に rb_big2str() を利用するようにして
+います。

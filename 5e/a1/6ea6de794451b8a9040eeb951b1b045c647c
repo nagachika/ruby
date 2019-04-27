@@ -1,0 +1,4 @@
+debug.c の ruby_debug_print_id() で ID 型の値を表示するのに rb_id2str() で
+String オブジェクト化して表示していたのを rb_id2name() を使って char * 型にして
+から埋め込むようにしています。 PRIsVALUE を使ってましたがここはただの fprintf
+(3) を使っていたので PRIsVALUE が使えなかったんですね。

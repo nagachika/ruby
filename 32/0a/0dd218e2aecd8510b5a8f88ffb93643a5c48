@@ -1,0 +1,2 @@
+win32/file.c の fix_sting_encoding() を rb_str_conv_enc() を使ってシンプルに書
+き替えています。

@@ -1,0 +1,3 @@
+見落してましたけど r67555 で Azure Pipelines でのデバッグのために Makefile.in
+の test-bundled-gems-run のところに環境変数の出力が追加されてたのでそれを削除し
+ています。

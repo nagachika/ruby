@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Addrinfo#inspect の実装で anc_inspect_ipv6_pktinfo()
+という関数を呼ぶ時の #if の条件が関数を定義する時の条件と一致していなかったので
+、条件を追加して一致させています。

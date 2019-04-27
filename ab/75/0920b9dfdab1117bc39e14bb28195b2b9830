@@ -1,0 +1,4 @@
+r40476 と同様に、マシンスタックのアドレスやサイズの取得に getrlimit(2) を利用す
+る環境で IS_STACK_DIR_UPPER() の判定に必要な変数が宣言されないためコンパイルエ
+ラーになるので STACK_GROW_DIR_DETECTION を追加しています。具体的には Tensilica
+Xtensa Processor 向けのクロスコンパイルでエラーになるそうです。

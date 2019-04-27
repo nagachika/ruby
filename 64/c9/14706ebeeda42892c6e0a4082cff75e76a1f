@@ -1,0 +1,2 @@
+標準添付ライブラリ erb の ERB::Compiler::TrimScanner で最後に trim_mode が ">"
+の時も改行コード \r\n の考慮をするようにしています。 [Bug #5339] [Bug #11464]

@@ -1,0 +1,2 @@
+Struct.new, Struct#dig, Struct#select の rdoc 用コメントのサンプルを追加、改善
+するなどしています。

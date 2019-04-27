@@ -1,0 +1,2 @@
+openssl のテスト test_ctx_server_session_cb で "SSLv3" がサポートされてるかチェ
+ックする assertion を先頭に追加しています。

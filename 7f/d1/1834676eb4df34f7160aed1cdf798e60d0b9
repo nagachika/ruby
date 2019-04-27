@@ -1,0 +1,5 @@
+r61624 の続き? VM 命令に getblockparamproxy 命令というのを追加して、ブロック引
+数に対する call メソッドの呼び出しの時には receiver を直接参照せずに
+rb_block_param_proxy という VM 内部で利用するオブジェクトをスタックに積み、これ
+を使うことで Proc 化せずに呼び出すようにしています。もしかして r61624 だと Proc
+化の抑制は完成していなかったのかな? [ruby-core:84689] [Feature #14330]

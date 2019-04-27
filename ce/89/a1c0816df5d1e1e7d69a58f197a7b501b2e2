@@ -1,0 +1,2 @@
+compile.c でも RARRAY_PTR() を利用していたところを RARRAY_CONST_PTR() を利用す
+るように変更しています。

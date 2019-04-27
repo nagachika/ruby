@@ -1,0 +1,2 @@
+r51805 と r51807 の追加修正で make update-gems は $(RUNRUBY) ではなく $
+(BASERUBY) を利用するようにしています。

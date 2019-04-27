@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils のテストで Cygwin ではリンク切れしている symlink
+についてのテストをスキップするようにしています。どうも Cygwin では CYGWIN=
+winsymlinks:nativestrict という環境変数が設定されていると、Windows の link を使
+うのでそもそも壊れた symlink が作れないみたいですね。

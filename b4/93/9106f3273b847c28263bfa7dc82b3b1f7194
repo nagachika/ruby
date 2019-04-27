@@ -1,0 +1,3 @@
+configure で mingw 環境で rb_cv_negative_time_t=yes を追加しています。 r58681
+で win32/Makefile.sub に NEGATIVE_TIME_T の定義を追加したのと同じく mingw でも
+NEGATIVE_TIME_T が真に定義されるようにするためですね。

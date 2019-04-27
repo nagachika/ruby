@@ -1,0 +1,3 @@
+test/testunit/test_redefinition.rb のテストクラス名とメソッド名が test/testunit
+/test_hideskip.rb と重複していて衝突していたので改名しています。コピペの弊害で
+すね……。

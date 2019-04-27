@@ -1,0 +1,3 @@
+昨日追加された tool/redmine-backporter.rb をより使いやすくということで
+OptionParser を使ってオプション対応したりヘルプメッセージを追加したりしています
+。

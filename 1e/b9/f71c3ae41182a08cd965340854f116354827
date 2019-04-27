@@ -1,0 +1,4 @@
+doc/syntax/miscellaneous.rdoc というファイルを追加して、alias, undef や BEGIN,
+END ブロックについて追記しています。
+そして doc/syntex.rdoc や doc/syntax/modules_and_classes.rdoc から
+miscellaneous.rdoc への参照を追加しています。

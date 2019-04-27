@@ -1,0 +1,3 @@
+r50900 で追加されたテスト用の拡張ライブラリ ext/-test-/gvl/call_without_gvl/
+call_without_gvl.c で #include <sys/select.h> は不要だったので削除しています。
+ruby/define.h で(存在すれば) #include 済みとのこと。

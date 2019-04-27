@@ -1,0 +1,4 @@
+r34492 で修正したメモリリークのテストを追加しています。メモリ使用量を監視するた
+めに Windows では DL を使って Win32API の GetProcessMemoryInfo() を呼んだり、/
+proc/self/status を読んだり、 ps(1) コマンドの出力を読んだりしてチェックしてい
+ます。すごい。

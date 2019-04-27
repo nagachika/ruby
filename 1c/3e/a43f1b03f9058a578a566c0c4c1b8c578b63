@@ -1,0 +1,3 @@
+r42249 の test/runner.rb の変更が任意の例外発生時に実行するようになっていたので
+NoMemoryError が発生した時だけ ObjectSpace.count_objects などを表示するようにし
+ています。

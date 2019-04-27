@@ -1,0 +1,2 @@
+r33117 で追加した deprecated な API rb_thread_select() のテストで select のタイ
+ムアウトをチェックしているとことで条件を少し緩和しています。Time の粒度の問題?

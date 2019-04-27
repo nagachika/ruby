@@ -1,0 +1,2 @@
+r65016 の appveyor.yml での VM イメージの指定は image タグではだめだったみたい
+で、APPVEYOR_BUILD_WORKER_IMAGE というのを使うようにしています。

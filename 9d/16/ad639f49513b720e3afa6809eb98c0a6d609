@@ -1,0 +1,4 @@
+rb_io_ctl() から ioctl(2) の len を IOCPARM_LEN() マクロで取得する部分を
+ioctl_narg_len() という関数に分離し、また fcntl() の時はこれを使わずに 256 に固
+定するようにしています。 IOCPARAM_LEN() というマクロで ioctl のコマンド毎の必要
+がバッファサイズを取得できるんですね、知りませんでした。

@@ -1,0 +1,8 @@
+標準添付ライブラリ test-unit の gemspec ファイルに minitest 5.0 未満を利用する
+ように依存関係を追記しています。ruby に同梱されている test-unit は minitest の
+wrapper として test-unit 相当の使い勝手を提供するライブラリ(これとは別にかつて
+標準添付されていた test-unit も別の gems パッケージとして存在するそうなのでとて
+もややこしい)なのですが、minitest 5.0.0 以降はサポートされないので古い minitest
+を利用するように依存関係をつけています。また tool/rbinstall.rb の Gem
+::Specification に add_dependency, add_runtime_dependency,
+add_development_dependency などのダミー実装を追加しています。

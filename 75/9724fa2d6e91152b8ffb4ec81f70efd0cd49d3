@@ -1,0 +1,6 @@
+tool/mkrunnable.rb の ln_safe で mklink の呼び出しをこれまでメッセージの出力の
+みに留めていたのを cmd /c mklink dest src にして実行するようにしています。これ
+も古い Windows のサポートを終了して cmd 前提にして良くなったからですかね。
+また ln_relative と ln_dir_relative では File.identical? を呼び出して、ファイル
+/ディレクトリが既に同一でリンクが不要ならすぐにメソッドを抜けるようにしています
+。

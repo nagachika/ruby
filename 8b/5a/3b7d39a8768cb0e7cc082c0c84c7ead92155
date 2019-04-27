@@ -1,0 +1,3 @@
+Psych::JSON::Stream::Emitter と Psych::JSON::TreeBuilder も共通部分を Psych::
+JSON::YAMLEvents モジュールとして切り出して include するようにしています。しか
+しこの時点で Psych のテストがいくつか失敗しているんですよね……。

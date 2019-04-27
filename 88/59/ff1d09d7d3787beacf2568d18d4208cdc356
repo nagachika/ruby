@@ -1,0 +1,2 @@
+configure で DTrace のチェックのために probes.d から生成したソースをコンパイル
+する時にコンパイラオプションに $CPPFLAGS も渡すようにしています。

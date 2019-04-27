@@ -1,0 +1,4 @@
+r63587 で Net::HTTP の write_timoeut の導入しましたがテストが通らないとのことで
+Net::BufferedIO#write0 で write_nonblock への引数の渡しかたを修正しています。IO
+以外(OpenSSL::SSL::SSLSocket とか?)で複数の引数を渡すのに対応していないケースが
+あったのかな。

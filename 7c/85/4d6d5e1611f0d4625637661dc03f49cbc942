@@ -1,0 +1,2 @@
+process.c の rb_f_system() で waitpid(2) の戻り値チェックをしていなかったのを修
+正しています。 [ruby-talk:398687]

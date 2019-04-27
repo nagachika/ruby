@@ -1,0 +1,2 @@
+BigDecimal#to_d の定義を追加しています。これは複製せずに self を返す。
+[ruby-dev:44245]

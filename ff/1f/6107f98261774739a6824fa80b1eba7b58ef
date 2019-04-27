@@ -1,0 +1,2 @@
+Enumerable#lazy が返すオブジェクトのクラスを Enumerable::Lazy から
+Enumerator::Lazy に変更しています。

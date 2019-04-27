@@ -1,0 +1,4 @@
+r40800 の続きで拡張ライブラリ socket の定数定義を生成する mkconstants.rb が定義
+する INTEGER2VALUE() が問答無用で LL2NUM()/ULL2NUM() などを利用していたのを、
+Fixnum の範囲に納まる時は LONG2FIX() などの Fixnum に変換するマクロを利用するよ
+うに変更しています。

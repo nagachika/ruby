@@ -1,0 +1,2 @@
+test_io_m17n.rb と test_transcode.rb テストメソッド名がかぶっていたのがあったの
+を修正。ついでにちょっと assert の移動も。

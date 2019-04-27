@@ -1,0 +1,3 @@
+parse.y の ripper_parse0() で rb_ast_t の解放処理に rb_ast_free() でなく
+rb_ast_dispose() を呼ぶようにしています。rb_ast_dispose() のほうが GC の Write
+Barrier つきみたいです。

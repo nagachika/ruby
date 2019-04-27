@@ -1,0 +1,2 @@
+json の GC.stress = true 状態でのエンコードのテストで GC.stress=true にするまえ
+に GC.start で一度全GCするようにしています。

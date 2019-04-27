@@ -1,0 +1,3 @@
+同じく IO, Socket, OpenSSL::SSL::SSLSocket などの read_nonblock, write_nonblock
+メソッドの rdoc 用コメントで exception キーワード引数についての表現を修正してい
+ます。

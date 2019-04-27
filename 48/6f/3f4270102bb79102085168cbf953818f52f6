@@ -1,0 +1,2 @@
+ext/win32/lib/win32/resolv.rb で Windows NT 以降かどうかの判定にポインタサイズ
+を pack("p") を使って調べるようにしています。

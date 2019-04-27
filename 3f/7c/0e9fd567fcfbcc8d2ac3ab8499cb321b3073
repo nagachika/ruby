@@ -1,0 +1,3 @@
+r52614 のリベンジで rb_method_definition_t::complemented_count というフィールド
+を追加して alias_count とは別に Module を include した時の参照数を管理してメソ
+ッド再定義の警告が出せるようにしています。

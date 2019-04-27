@@ -1,0 +1,2 @@
+構造体 struct RMoved の宣言を include/ruby/ruby.h から internal.h に移動して外
+部に見せないようにしています。

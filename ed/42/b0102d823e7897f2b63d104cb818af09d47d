@@ -1,0 +1,2 @@
+r65723 の続き。さらに他の net/ftp のテストで Thread 間協調のための sleep や
+read_timeout の値を伸ばしています。

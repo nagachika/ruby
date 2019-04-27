@@ -1,0 +1,8 @@
+r39268 および r39271 で拡張ライブラリ io/console で rb_scan_args() の受け付ける
+指示子にオプション引数(Hash)を受け付けるかどうかの判定に
+HAVE_RB_SCAN_ARGS_OPTIONAL_HASH というマクロを使うようにして、io/console の
+extconf.rb でオプションをつけるとコンパイラの -D オプションで定義するようにして
+いましたが、これを include/ruby/ruby.h で定義しておくようにしています。 io/
+console は gem パッケージとしてもリリースするので古い Ruby 向けに使われることも
+考慮しているので、今の trunk であれば常に HAVE_RB_SCAN_ARGS_OPTIONAL_HASH は定
+義済みで良いというわけですね。 [ruby-core:52297] [Bug #7861]

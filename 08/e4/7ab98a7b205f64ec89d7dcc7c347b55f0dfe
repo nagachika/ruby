@@ -1,0 +1,2 @@
+tool/ruby_vm/models/bare_instructions.rb で RubyVM::BareInstructions#attributes
+で返す RubyVM::Attribute の配列を名前でソートしておくようにしています。

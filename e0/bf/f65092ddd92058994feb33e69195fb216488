@@ -1,0 +1,5 @@
+拡張ライブラリ syslog に formatter を指定できるようにしています。Syslog::Logger
+#formatter= という attr_writer で call メソッドを持つオブジェクトを設定しておく
+と、severity、時刻、プログラム名、メッセージが渡されるので整形結果を返すように
+します。またデフォルトのフォーマッタとして Syslog::Logger::Formatter が導入され
+ています。 [ruby-core:47681] [Bug #7065]

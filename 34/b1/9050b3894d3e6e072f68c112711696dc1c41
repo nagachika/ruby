@@ -1,0 +1,4 @@
+IO#getc で取得した文字列が ASCII 文字の範囲だったら ENC_CODERANGE_7BIT のフラグ
+を付けるようにしています。 [ruby-core:35630] [Backport #4557]
+IO#getc で取得した文字に対して String#ascii_only? を呼ぶと誤判定していたのかと
+思ってやってみましたが再現せず。内部的な利用時の問題のようです。

@@ -1,0 +1,2 @@
+spec/ruby/library/net/http/http/fixtures/http_server.rb でテスト用に HTTP サー
+バーを起動する時のアドレスを localhost から 127.0.0.1 に変更しています。

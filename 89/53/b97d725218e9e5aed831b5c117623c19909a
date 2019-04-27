@@ -1,0 +1,3 @@
+numeric.c の数値オブジェクト 0 との比較を compare_with_zero() という関数に切り
+出し、rb_check_funcall() を使って比較用メソッドの呼び出しに失敗する時は
+TypeError 例外を発生させるようにしています。

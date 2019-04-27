@@ -1,0 +1,2 @@
+Object#define_singleton_method と main.define_method (main はトップレベルオブジ
+ェクト)の rdoc 用メソッドの戻り値の記述を Symbol を返すように修正しています。

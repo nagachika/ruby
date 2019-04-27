@@ -1,0 +1,2 @@
+Makefile.in の enc/jis/props.h のターゲットに $(srcdir)/ を頭に付けてソースディ
+レクトリに作るようにしています。

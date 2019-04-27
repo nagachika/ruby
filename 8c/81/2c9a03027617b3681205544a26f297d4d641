@@ -1,0 +1,2 @@
+lib/test/unit/assertions.rb に rdoc 用のコメントを追加しています。
+[ruby-core:37225] [Feature #4903]

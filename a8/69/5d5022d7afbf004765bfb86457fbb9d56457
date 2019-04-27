@@ -1,0 +1,3 @@
+r67315 の最適化で導入した lead と optional の引数だけか確認する関数
+rb_iseq_only_optparam_p() を static 関数として宣言するように修正しています。
+mswin での MJIT のビルドに影響があったみたいです。

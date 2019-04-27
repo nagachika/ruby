@@ -1,0 +1,3 @@
+test/ruby/test_file_exhaustive.rb で assert_predicate と assert_not_predicate
+を利用してエラー時によりわかりやすいメッセージになるようにリファクタリングして
+います。

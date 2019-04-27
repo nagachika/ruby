@@ -1,0 +1,3 @@
+rb_mutex_t をさらに 80bytes から 72 bytes に減らしています(64bit 環境で)。
+allow_trap メンバーを削除して struct RBasic::flags のビットフラグを流用するよう
+にしています。

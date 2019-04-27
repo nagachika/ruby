@@ -1,0 +1,3 @@
+MJIT のテストのためには make install しないといけない(MJIT 用の minimize したヘ
+ッダファイルの探索がインストールディレクトリにないと対応していないため)ので、.
+travis.yml で一時ディレクトリに make install するようにしています。

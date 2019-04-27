@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.dump で全オブジェクトの情報を dump する
+時に、dump_append() に fflush() があるため1byte 出力するごとに system call が呼
+ばれて非常に非効率的だったそうで、fflush() の呼び出しを削除しています。

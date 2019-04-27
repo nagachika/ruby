@@ -1,0 +1,4 @@
+TRICK 2013 というイベント(Ruby の難読プログラミングコンテスト)の受賞作品を収め
+ている sample/trick2013/yhara/entry.rb で、2.4 以降トップレベルでの return がエ
+ラーにならなくなったために動作しなくなった作品があったので、動くように return
+を yield に変更しています。 https://github.com/ruby/ruby/pull/1703

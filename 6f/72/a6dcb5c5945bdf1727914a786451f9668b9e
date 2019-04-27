@@ -1,0 +1,6 @@
+Fiber#transfer (require "fiber すると使えるようになります)の rdoc にサンプルコ
+ードを追加しています。 [ruby-core:44540] [Bug #6343]
+しかしこのサンプルだと transfer と resume の違いがわからないんじゃないでしょう
+か。fiber2 のブロックでの fiber1.transfer の後にメッセージ出力があればそれが飛
+ばされるのがわかるからいいのかなぁ。また fiber3 が存在している理由もよくわから
+ないですね。

@@ -1,0 +1,3 @@
+SystemExit 例外(exit した時に発生する例外)の success? メソッドの判定で単に
+EXIT_SUCCESS(たいてい0)と eixt status を比較していたので、ちゃんと WIFEXITED や
+WEXITSTATUS を利用するようにしています。

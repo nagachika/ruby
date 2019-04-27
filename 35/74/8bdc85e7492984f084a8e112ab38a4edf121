@@ -1,0 +1,3 @@
+r48584 で TSort.tsort_each, TSort.each_strongly_connected_component,
+TSort.each_strongly_connected_component_from などのメソッドがブロックなしで
+Enumerator を返すようになったことを NEWS ファイルに追記しています。

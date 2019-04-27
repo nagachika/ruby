@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb の rel サブコマンドで redmine が Conflict ステータス
+を返した時に適切なメッセージを表示するようにしています。

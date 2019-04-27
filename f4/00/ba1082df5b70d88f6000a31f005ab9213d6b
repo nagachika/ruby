@@ -1,0 +1,2 @@
+r34825 で ext/date/date_core.c で rb_sys_fail_str() を使うようにした部分だけ
+revert しています。えーとこの後再修正されるんでしょうか。

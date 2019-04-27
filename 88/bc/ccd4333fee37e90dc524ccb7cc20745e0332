@@ -1,0 +1,3 @@
+標準添付ライブラリ WEBrick の WEBrick::HTMLUtils#escape で置換前に一時的に
+ASCII-8BIT にエンコーディング変換することでマルチバイト文字を含む文字列に対応。
+[ruby-core:55052] [Bug #8425]

@@ -1,0 +1,5 @@
+make test-rubyspec で rubyspec を実行する時に fake.rb を読み込ませるようにして
+います。また fake.rb で ENV["RUBYOPT"] に自分自身を require させる -r#
+{__FILE__} を追加して子プロセスにも fake.rb をロードさせるようにしています。ま
+た tool/fake.rb で rubyarchhdrdir を設定するようにしています。rubyspec で拡張ラ
+イブラリのビルドが必要だったんですかね。

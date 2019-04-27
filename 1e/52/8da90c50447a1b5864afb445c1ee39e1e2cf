@@ -1,0 +1,2 @@
+r50039 で CONFIGURE 変数で configure ファイル名を保持するようになったので tool/
+make-snapshot でも置換対象として追加しています。

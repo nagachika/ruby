@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で OpenSSL の EVP_CipherUpdate() を呼ぶ時に一度に渡せる
+データサイズの上限(int の範囲)を越えないように分割して渡すようにしています。
+[ruby-core:67043] [Bug #10633]

@@ -1,0 +1,8 @@
+iseq_peephole_optimize() で VM 命令の最適化する時に freezestring と String#+@
+メソッド(単項演算子 +)が繋がってる時に freezestring が無駄なので消してましたが
+(r62039)、String#-@ での fstring 化の時も重複しているので freezestring 命令を削
+るようにしています。しかしこれってよく考えると再定義時に dup や freeze とは違う
+意味になった時に freezestring が消えるとまずかったりしないのかな。チケットのほ
+うをみると freeze_string_literal: true の magic comment をつけたスクリプトで
+String#-@ で dedup したのに別のオブジェクトになる、という不具合の修正みたいです
+。 [ruby-core:85542] [Bug #14475]

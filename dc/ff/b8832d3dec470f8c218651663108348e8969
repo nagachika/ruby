@@ -1,0 +1,3 @@
+template/insns_info.inc.tmpl で insn_name_info を各命令の名前のサイズの char の
+配列のメンバーとして持つ構造体として定義するようにして、文字列リテラルのサイズ
+制限を回避するようにしています。

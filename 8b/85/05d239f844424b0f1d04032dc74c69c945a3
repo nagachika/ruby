@@ -1,0 +1,4 @@
+標準添付ライブラリ resolv の Resolv::DNS::Message::MessageDecoder でインスタン
+ス変数 @data の文字列オブジェクトはバイト列として扱うべきものなので length のか
+わりに bytesize を使ったり [] のかわりに getbyte を使ったりと利用するメソッドを
+変更しています。

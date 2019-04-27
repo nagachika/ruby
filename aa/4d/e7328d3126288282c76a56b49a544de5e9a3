@@ -1,0 +1,3 @@
+r52056 で vm_args.c から呼ぶために sym_to_proc() の static をはずして
+rb_sym_to_proc() に改名するのに string.c では #define を使っていたのを、ちゃん
+と string.c 上でも改名しています。

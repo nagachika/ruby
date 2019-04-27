@@ -1,0 +1,2 @@
+defs/gmake.mk で mflags から -j オプションを削る時に override というキーワード
+を付けるようにしています。

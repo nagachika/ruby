@@ -1,0 +1,3 @@
+標準添付ライブラリ xmlrpc に XMLRPC::Client#http という Net::HTTP オブジェクト
+を取得できる reader を追加しています。 Net::HTTP を露出させて verify_mode を設
+定できるようにしたいためだそうです。 [ruby-core:55197] [Feature #8461]

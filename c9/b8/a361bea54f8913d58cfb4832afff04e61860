@@ -1,0 +1,3 @@
+include/ruby/intern.h の関数マクロ rb_fd_select() の Windows 環境での定義を
+inline 関数に変更しています。-Waddress というオプションによる警告を抑制するため
+とのこと。

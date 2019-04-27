@@ -1,0 +1,2 @@
+r63339 の続きで rb_thread_sleep_that_takes_VALUE_as_sole_argument() に渡す引数
+(として rb_protect() に渡す引数)に INT2FIX() での変換を追加しています。

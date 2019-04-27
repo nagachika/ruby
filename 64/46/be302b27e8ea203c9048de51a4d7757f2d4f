@@ -1,0 +1,7 @@
+ext/socket/option.c で if_indextoname() が利用できない条件でのコンパイル時に
+IFNAMSIZ という定数マクロが存在しないと mingw32 でコンパイルエラーになるらしく
+#define を追加しています。[DEL:#else 部分では IFNAMSIZ は利用していないようなの
+でちょっと不思議ですが、VC だとエラーになるみたいです。:DEL] [追記]ここではなく
+て、rb_if_indextoname() を呼び出しているほうの関数でバッファを用意しているとこ
+ろで IFNAMSIZ は使われているので、そこのために必要なのでした。利用している近辺
+か、上のほうで #ifndef IFNAMSIZ のところだけ書くほうがわかりよいですね。[/追記]

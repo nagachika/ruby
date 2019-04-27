@@ -1,0 +1,2 @@
+missing/crypt.h で 64bit 整数のマクロ B64 を long long, __int64 の適切なものを
+選択してマクロ定義するようにしています。

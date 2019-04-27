@@ -1,0 +1,3 @@
+Net::HTTP のテストで Net::HTTPResponse#header を使っていたところがありこのメソ
+ッドが obsolete に指定されているので警告が出力されるのを抑制するため
+Net::HTTPResponse#[] を使うように変更しています。

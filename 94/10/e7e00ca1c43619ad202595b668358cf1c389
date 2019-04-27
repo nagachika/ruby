@@ -1,0 +1,5 @@
+.travis.yml の webhooks に設定を追加して、trunk のビルドが Travis CI で成功した
+ら Travis CI で使っている ruby-head のバージョンを更新するようにしています。
+ruby そのものがどうというのではなくて、Travis CI で ruby-head を対象にしている
+プロジェクトに最新の trunk の状態を常に反映させることができるようになるという変
+更です。素晴しいですね。 https://github.com/ruby/ruby/pull/417

@@ -1,0 +1,4 @@
+r37953 でスレッド終了時に SystemExit だったら $SAFE (safe_level) をチェックする
+のをやめたのを revert して、やっぱりチェックして 4以上だったら SecurityError を
+発生させるようにしています。 FreeBSD と Mac OS X でテストが失敗していたとのこと
+。

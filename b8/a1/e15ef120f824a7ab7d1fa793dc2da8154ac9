@@ -1,0 +1,3 @@
+respond_to_missing? のテストで再定義している respond_to_missing? の第2引数が省
+略可能になっていたけど Object#respond_to_missing? は第2引数省略できないので、再
+定義のほうを変更しています。

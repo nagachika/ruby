@@ -1,0 +1,4 @@
+r66636 で rubyspec の Process.clock_gettime でどのタイマー種類が Redhat で動か
+なかったのか調べようとしていましたが、CLOCK_BOOTTIME_ALARM と
+CLOCK_REALTIME_ALARM は権限が必要なことがあるそうでテスト対象から除外するように
+しています。

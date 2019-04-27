@@ -1,0 +1,3 @@
+Regexp#to_s で正規表現を文字列化する時に文字クラスの重複の警告が出てしまうのを
+抑制するため一時的に ruby_verbose を false にして onig_new を呼ぶようにしていま
+す。 [ruby-core:53649] [Bug #8151]

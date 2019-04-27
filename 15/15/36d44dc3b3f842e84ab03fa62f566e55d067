@@ -1,0 +1,2 @@
+r56130 で doc/extension.rdoc に追記された rb_check_arity() の説明の日本語訳を
+doc/extension.ja.rdoc に追記しています。

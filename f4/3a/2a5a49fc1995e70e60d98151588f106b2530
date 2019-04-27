@@ -1,0 +1,4 @@
+regparse.c の node_extended_grapheme_cluster() で各ブロックで Node* の配列を作
+ってリストを作る create_sequence_node() などのヘルパー関数に渡してましたが、
+node_extended_grapheme_cluster() の全体でひとつの node_array っていう変数を定義
+してこれを使いまわすようにして、解放漏れを修正しているようです。 [Bug #15343]

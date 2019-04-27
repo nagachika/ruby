@@ -1,0 +1,6 @@
+拡張ライブラリ openssl で OpenSSL の関数をスレッドセーフに呼ぶための r41806 で
+追加したロックを rb_mutex_t の Mutex オブジェクトによるものではなくて r42133 で
+追加した rb_nativethread_lock_??? を使うようにしています。 rb_mutex_??? は Ruby
+の Thread でのみ使えるもので、別に起動された native thread では使えないため(た
+とえば例外が発生した時など Ruby が作る Thread でないと底のほうで待っている TAG
+がないので不正なジャンプになってしまうなどなど)。 [ruby-core:54900] [Bug #8386]

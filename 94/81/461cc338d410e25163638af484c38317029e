@@ -1,0 +1,2 @@
+coroutine/*/Context.h の coroutine_start() の宣言に COROUTINE() マクロを利用す
+るようにしています。定義したけど使ってなかったのか。

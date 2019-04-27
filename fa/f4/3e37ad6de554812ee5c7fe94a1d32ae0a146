@@ -1,0 +1,2 @@
+rescue 節に rescue => err のように例外オブジェクトを格納する変数の指定つきの時
+に生成される NODE_DASGN_CURR と NODE_ERRINFO の位置情報を修正しています。

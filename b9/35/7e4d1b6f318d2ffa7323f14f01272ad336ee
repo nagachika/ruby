@@ -1,0 +1,2 @@
+r67116 の File#birthtime の実装追加に伴なって rubyspec の NotImplementedError
+発生を期待しているテストから Linux を外しています。

@@ -1,0 +1,5 @@
+configure のオプション --without-rubylibprefix を指定した時(?)にエラーにしてい
+る模様。
+hank の最後の rubylibprefix"=$withval" のダブルクオートの位置はこれでOKなんでし
+ょうか。shell だったら = の後かなと思うんですが configure.in なので自信が持てな
+い……。

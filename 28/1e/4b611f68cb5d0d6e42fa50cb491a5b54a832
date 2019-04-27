@@ -1,0 +1,1 @@
+vm_eval.c の vm_call_super() で条件分岐の書き型をリファクタリング。

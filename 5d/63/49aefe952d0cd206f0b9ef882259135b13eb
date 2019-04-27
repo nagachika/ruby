@@ -1,0 +1,2 @@
+variable.c の rb_gc_mark_global_tbl() が export されてたのを非公開にしています
+。

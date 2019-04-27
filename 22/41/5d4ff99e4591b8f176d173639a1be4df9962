@@ -1,0 +1,2 @@
+tool/make-snapshot で autoconf を実行するところで環境変数 AUTOCONF を参照するよ
+うにして、実行するコマンドを変更できるようにしています。

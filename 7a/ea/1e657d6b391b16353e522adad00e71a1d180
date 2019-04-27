@@ -1,0 +1,5 @@
+mjit_config.h に埋め込む MJIT_HEADER_INSTALL_DIR は configur 時に
+--enable-load-relative が指定されていなかったら Makefile の rubyarchhdrdir 変数
+を利用するようにしています。なんのことかよくわかりませんでしたが configure でこ
+のディレクトリを変更した時に MJIT のヘッダインストール先が追随しないというのを
+修正しているみたいです。 [ruby-core:90365] [Bug #15391]

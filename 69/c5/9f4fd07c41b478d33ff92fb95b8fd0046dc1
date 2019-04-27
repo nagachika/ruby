@@ -1,0 +1,2 @@
+rubyspec の socket のテストで r64355 あたりで macOS と FreeBSD でテストのために
+謎の IO.select を追加していたところに solaris も追加するようにしています。

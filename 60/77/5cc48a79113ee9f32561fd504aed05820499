@@ -1,0 +1,2 @@
+r60973 の spec/ruby/language/fixtures/begin_file.rb でファイル末尾に改行コード
+がなかったので追加しています。

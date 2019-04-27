@@ -1,0 +1,5 @@
+WEBrick の中で Tempfile を利用しているところで新設した Tempfile.create を利用す
+るようにしています。 Tempfile.new だとこの用途ではメソッド内でファイルを明示的
+に削除しているのに、Tempfile オブジェクトが回収される時に finalizer で再度消そ
+うとしてしまうので、全く同名のファイルができた時にそれを消してしまう可能性があ
+るのを防ぐという意味も Tempfile.create にはあるようです。

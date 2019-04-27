@@ -1,0 +1,4 @@
+doc/syntax/refinements.rdoc の using による Refinements の影響のスコープの解説
+を修正しています。クラスやモジュールのスコープでは activate できないって書いて
+あるような気がしますけど、Module#using は r41261 で復活してたんではないんでした
+っけ?

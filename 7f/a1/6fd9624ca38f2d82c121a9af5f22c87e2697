@@ -1,0 +1,5 @@
+Module#const_defined? で省略可能引数 inherit が true の時に "Foo::Bar" みたいな
+ネストした名前空間を辿る時に無効になってたのを修正。 [Feature #7414] でネストし
+た名前空間をサポートした時に入ったコードですが、Module#include で引き継いだり親
+クラスにある定数は効かないようになってたみたいです。ふーむ……。 https://
+github.com/ruby/ruby/pull/2061 [ruby-dev:50736] [Bug #15488]

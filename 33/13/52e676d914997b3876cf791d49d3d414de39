@@ -1,0 +1,4 @@
+csv のテストで Tempfile を使っているのに require "tempfile" していなくて、ファ
+イル単体で make test-all TESTS=csv/test_features.rb のように実行したり、-j をつ
+けて並列実行してたまたま worker プロセスで tempfile が require されていなかった
+りしたらエラーになっていたので require を追加しました。

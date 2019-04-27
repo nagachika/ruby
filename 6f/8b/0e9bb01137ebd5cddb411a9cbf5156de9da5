@@ -1,0 +1,9 @@
+deprecated としてマークされていた API を削除しているようです。
+rb_big2str0(), rb_big2ulong_pack(), rb_quad_pack(), rb_quad_unpack(),
+rb_thread_polling(), rb_thread_select(), rb_gc_set_params(), rb_proc_exec_n(),
+rb_exec_arg_init(), rb_exec_arg_addopt(), rb_exec_arg_fixup(),
+rb_run_exec_options(), rb_run_exec_options_err(), rb_exec(), rb_exec_err(),
+rb_fork(), rb_fork_err(), rb_struct_iv_get(), rb_thread_blocking_region(),
+rb_read_check(), rb_check_safe_str(), Check_SafeStr() などが削除されています。
+けっこうありますね。拡張ライブラリをメンテナンスしている人は要確認です。
+[ruby-core:60581] [Feature #9502]

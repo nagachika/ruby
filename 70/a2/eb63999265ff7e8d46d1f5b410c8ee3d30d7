@@ -1,0 +1,5 @@
+r47076 の続きで、標準添付ライブラリ net/http の Net::HTTP::GenericRequest#
+update_uri で req["host"] が指定されていたら渡された URI のホスト名よりも優先す
+るようにしています。チケットをみると ssh tunneling でポート転送しているような時
+に URI には localhost:xxx などを渡して req["host"] で上書きをしたいそうです。
+[ruby-core:63798] [Bug #10054]

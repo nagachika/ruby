@@ -1,0 +1,4 @@
+r65150 で tool/make-snapshot で tar パッケージを作る時に rubygems の Gem
+::Package::TarWriter というモジュールを使うようになりましたが、ファイル種類(フ
+ァイル/ディレクトリ)を指定する typeflag 渡すようにしています。一部の環境で展開
+に失敗するようになってたようです。 [ruby-core:90701] [Bug #15461]

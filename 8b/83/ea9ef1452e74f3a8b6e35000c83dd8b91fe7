@@ -1,0 +1,3 @@
+r33838 で "-Xlinker --no-undefined" オプションの可否をチェックするのに
+RUBY_TRY_CFLAGS を使っていましたが、リンク時のフラグは RUBY_TRY_LDFLAGS でチェ
+ックしないといけなかったので修正しています。

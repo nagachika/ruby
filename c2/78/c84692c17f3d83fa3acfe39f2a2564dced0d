@@ -1,0 +1,4 @@
+r36979 で -ansi -std=iso9899:199409 を strict_warnflags という変数に移動しまし
+たが後続のオプションのチェックにも反映させるため(?) warnflags にも追加するよう
+にしています。この位置では rb_cv_warnflags に格納したオプションが最終的に採用さ
+れる(warnflags に書き戻される)変数のようです。 [ruby-dev:46105]

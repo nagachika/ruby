@@ -1,0 +1,3 @@
+空の配列や空の Hash と false が hash メソッドで同じ値を返していたので Array#
+hash と Hash#hash で最初に関数ポインタを salt として加えて結果が異なるようにし
+ています。 [ruby-core:58993] [Bug #9231]

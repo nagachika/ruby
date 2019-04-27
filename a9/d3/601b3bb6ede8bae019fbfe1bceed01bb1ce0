@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の Module 全体に対する rdoc 用コメントと module 文
+の間に MJIT 用の workaround のための require の rescue が入ってたのでドキュメン
+トが外れてしまっていたので、これをコメントの前に移動しています。

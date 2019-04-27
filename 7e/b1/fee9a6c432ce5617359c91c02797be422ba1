@@ -1,0 +1,4 @@
+r37124 で Process.spawn/exec の uid, gid オプション追加時に増えた
+test_execopts_gid という gid オプションのテストは Windows 環境では動作しない(そ
+もそも Process.group がない)ので skip するようにしています。 [ruby-core:47878]
+[Bug #7133]

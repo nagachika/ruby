@@ -1,0 +1,2 @@
+GVL の変更で Thread の priority がスケジューリングで考慮されるようになったので
+、priority の影響をテストする ThreadTest#test_priority を再び有効にしています。

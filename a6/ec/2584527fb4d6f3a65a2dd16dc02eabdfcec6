@@ -1,0 +1,4 @@
+String#b というメソッドが追加されていて、簡単に force_encoding("ASCII-8BIT") す
+ることができるようにしています。ただし force_encoding が元の文字列の encoding
+だけ変更するのに対して別の文字列オブジェクト(とはいってもバッファは共有される)
+を返します。 [ruby-dev:45992] [Feature #6767]

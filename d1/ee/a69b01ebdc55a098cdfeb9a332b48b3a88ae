@@ -1,0 +1,7 @@
+ちょっと差分がわかりずらいですが bignum.c の rb_integer_unpack_internal() から
+、ワード列から Bignum の BDIGITS の配列に変換するところまでの処理を bary_unpack
+() として切り出しています。
+そしてこれがちょっと意図がわからなかったのですが absint_numwords_generic() で
+bary_unpack() と rb_integer_unpack() を使って引数 numbytes を Bignum として
+unpack しなおして比較する assert() 文を追加しています。オーバフローのチェックと
+かでしょうか。

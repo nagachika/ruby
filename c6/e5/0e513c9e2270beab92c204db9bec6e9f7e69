@@ -1,0 +1,2 @@
+同じく RubyVM::InstructionSequence#disasm でローカル変数の表示にローカル変数テ
+ーブル内の index も一緒に表示するようにしています。

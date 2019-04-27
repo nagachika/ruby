@@ -1,0 +1,6 @@
+標準添付ライブラリ mkmf.rb の pkg_config メソッドで pkg-config --exists を呼ぶ
+時と pkg-config --libs などを呼ぶ時でそれぞれ system と xpopen を使っていて渡す
+環境変数に違いがあるため、 --exists は成功するのに --libs などで失敗するため拡
+張ライブラリのインストールに失敗することがあったようです。 pkg-config --exists
+の起動も xsystem 経由にして同じ環境変数を渡すようにしています。
+[ruby-dev:49619] [Bug #12379]

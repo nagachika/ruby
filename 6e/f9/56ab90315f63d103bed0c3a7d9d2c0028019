@@ -1,0 +1,4 @@
+r31050 の修正により PStore.new の thread_safe 引数が true の時に PStore#
+transaction をネストさせると PStore::Error が発生していたものが ThreadError
+(deadlock; recursive locking) が発生するようになっていたので ThreadError 例外を
+捕捉してすりかえるようにしています。 [ruby-dev:43337] [Bug #4474]

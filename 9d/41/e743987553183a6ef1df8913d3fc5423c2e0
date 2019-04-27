@@ -1,0 +1,2 @@
+rb_threadptr_stack_overflow() を rb_ec_stack_overflow() と改名し、引数も
+rb_thread_t から rb_execution_context_t を受け取るように変更しています。

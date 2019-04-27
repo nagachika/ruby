@@ -1,0 +1,3 @@
+mjit.c の get_string() の定義に NULL がかえることがあると書かれてましたが、
+ruby_strdup() を使ってて ruby_xmalloc() でメモリ確保するので NULL がかえること
+はない(例外が発生する)のでコメントを修正しています。

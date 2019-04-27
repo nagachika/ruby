@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal の bigdecimal/util.rb で追加される Rational#to_d の
+rdoc コメントの synopsis から引数なしで呼ぶ方式を削除しています。 r43669 の続き
+ですね。まだサンプルコードに……。

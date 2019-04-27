@@ -1,0 +1,3 @@
+Time#localtime などで呼ばれる localtime_with_gmtoff_zone() で localtime(3) が返
+す struct tm の tm_zone が NULL で返される標準ライブラリがあるそうで(musl libc
+というライブラリだそうです)、条件分岐を入れて SEGV を回避しています。

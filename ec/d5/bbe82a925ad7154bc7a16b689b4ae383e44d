@@ -1,0 +1,3 @@
+拡張ライブラリ strscan の StringScanner#[] で正規表現の名前つきキャプチャをする
+と、インデックスだけでなくその名称の String や Symbol でもマッチした部分文字列
+を取得できるようにしています。 [ruby-core:54664] [Feature #8343]

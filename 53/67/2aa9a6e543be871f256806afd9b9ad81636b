@@ -1,0 +1,4 @@
+r52006 の make test-testframework の再修正。やっぱり test-all に
+test-testframework への依存関係もつけて、test-almost という test-testframework
+以外のテストのターゲットを追加して、依存関係で実行順序を制御するようにしている
+そうです。

@@ -1,0 +1,2 @@
+openssl のコメントに OpenSSL::SSL::SSLSocket#session に関する実装が lib/openssl
+/ssl.rb に存在していることを追記しています。

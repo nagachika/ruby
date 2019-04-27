@@ -1,0 +1,4 @@
+Numeric のメソッドで Ruby のメソッドを rb_funcall() などで呼び出す時に無限再帰
+に陥いらないように num_funcall0(), num_funcall1() という wrapper 関数を定義して
+rb_exec_recursive() つきで再帰呼び出しを検出して例外発生させるようにしています
+。

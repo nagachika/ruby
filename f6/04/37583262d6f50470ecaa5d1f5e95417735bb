@@ -1,0 +1,2 @@
+Process.getsid の rdoc 用コメントの typo (重複した単語)の修正。 https://
+github.com/ruby/ruby/pull/1080

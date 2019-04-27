@@ -1,0 +1,2 @@
+r55846 の vm_getivar() への ALWAYS_INLINE() マクロの付加でマクロの引数として
+prototype 宣言を入れるように修正しています。

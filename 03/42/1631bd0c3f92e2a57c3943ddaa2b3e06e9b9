@@ -1,0 +1,3 @@
+r58336 の tool/git-refresh の再修正。 Solaris 10 で cd -P が失敗するとそこで
+shell が処理を止めてしまうそうなので sub shell に実行させるようにかっこを追加し
+ています。 [ruby-dev:50074] [Bug #13433]

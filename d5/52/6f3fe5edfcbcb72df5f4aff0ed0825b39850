@@ -1,0 +1,4 @@
+ext/openssl/lib/openssl/digest.rb で OpenSSL::Digest の子クラス (SHA1 とか MD5
+とか)のメソッド定義をしているところで initialize の引数の数をチェックしていると
+ころを define_method に渡す Proc オブジェクトを lambda にすることで自動的にチェ
+ックされるようにしています。

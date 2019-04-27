@@ -1,0 +1,3 @@
+拡張ライブラリ socket の rsock_cmsg_type_arg() という関数で IPPROTO_IPV6 定数を
+利用する部分を #ifdef INET6 で括っていたのを直接 IPPROTO_IPV6 をチェックするよ
+うに修正しています。

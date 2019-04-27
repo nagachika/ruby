@@ -1,0 +1,2 @@
+r32512 の修正の理由について ChangeLog に追記しています。 LLP64(long long とポイ
+ンタが 64bit の環境)で ObjectSpace._id2ref を使う時に問題があったそうです。

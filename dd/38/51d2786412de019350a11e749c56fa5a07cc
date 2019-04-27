@@ -1,0 +1,3 @@
+テストのテストクラス名の重複をさけるため一部のクラスで TestXxx を Test_Xxx のよ
+うに改名したり suffix を追加したりしています。 https://github.com/ruby/ruby/
+pull/1763

@@ -1,0 +1,2 @@
+LLVM (clang) 用に reg_cfp を GC から保護するコードを削除しています。新しい
+clang では不要になった?

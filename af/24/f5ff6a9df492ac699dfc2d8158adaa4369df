@@ -1,0 +1,2 @@
+r39687 で rb_update_max_fd() を atomic 操作にしたからだと思いますが open してい
+る最大の fd を管理する max_file_descriptor を rb_atomic_t に変更しています。

@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OpenSSL のマクロ TLS_DH_anon_WITH_AES_256_GCM_SHA384
+の定義の有無を OpenSSL::ExtConfig::TLS_DH_anon_WITH_AES_256_GCM_SHA384 という定
+数で参照できるようにしています。これを利用して OpenSSL::SSL::SSLContext#ciphers
+に "aNULL" を指定した時のテストをスキップするようにしています。

@@ -1,0 +1,2 @@
+String#lstrip, #lstrip!, #rstrip, #rstrip!, #strip, #strip! などの rdoc 用コメ
+ントで戻り値の明確化やマークアップの修正など。

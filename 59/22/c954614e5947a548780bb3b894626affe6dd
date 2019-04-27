@@ -1,0 +1,4 @@
+Module#prepend で作成される IClass の method table の解放漏れでメモリリークして
+いた不具合を修正しています。また ObjectSpace.memsize_of でのメモリ使用量のカウ
+ントにも含まれていなかったのでそれも修正しています。 WriteBarrier 付きの
+RCLASS_SET_ORIGIN() というマクロの定義も追加しています。

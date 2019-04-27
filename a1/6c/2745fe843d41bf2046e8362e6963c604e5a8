@@ -1,0 +1,2 @@
+ext/dbm/dbm.c で dbm_open() の flags に O_CLOEXEC を(定義されていれば)セットす
+るようにしています。

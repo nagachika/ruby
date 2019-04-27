@@ -1,0 +1,2 @@
+make install-arch でと ext-arch のみでなくライブラリなどアーキテクチャ固有のフ
+ァイルを全てインストールするほうに rbinstall.rb の引数を修正しています。

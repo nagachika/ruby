@@ -1,0 +1,3 @@
+r52139 で load 時に open(2) のフラグに O_NONBLOCK や O_NDELAY を追加したのです
+が include/ruby/win32.h で O_NONBLOCK を定義しているところがあったので、それを
+誤検出しないようにしています。

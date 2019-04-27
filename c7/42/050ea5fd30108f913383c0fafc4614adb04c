@@ -1,0 +1,3 @@
+r64441 の Mutex#synchronize の実装の unlock 時の処理の修正を revert しています
+。やっぱりそもそも synchronize 内で owner が変わってるのおかしいからそこを保つ
+ようにしようよ、ということみたいです。 [Bug #14999]

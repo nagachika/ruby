@@ -1,0 +1,2 @@
+Net::FTP#close で read_timeout を 3 に設定するようになったので、close 後に元の
+設定に戻すようにしています。

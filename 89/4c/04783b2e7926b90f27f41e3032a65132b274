@@ -1,0 +1,2 @@
+拡張ライブラリ openssl のテストで OpenSSL::SSL::SSLSocket の read_nonblock のテ
+ストを追加しています。 https://github.com/ruby/ruby/pull/547

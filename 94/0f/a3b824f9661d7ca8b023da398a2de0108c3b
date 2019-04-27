@@ -1,0 +1,2 @@
+array.c で <=> と ** の ID を独自に rb_intern() していたので、組み込みの idCmp
+と idPow を利用するようにマクロ定義して static 変数を削除しています。

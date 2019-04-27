@@ -1,0 +1,2 @@
+struct statfs の fsid メンバの扱いを rb_integer_unpack() を使って整数化するよう
+に変更しています。

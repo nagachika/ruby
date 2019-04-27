@@ -1,0 +1,3 @@
+bignum.c に書いてあった BITSPERDIG >= INT_MAX のチェックを削除しています。
+STATIC_ASSERT() による SIZEOF_BDIGITS <= sizeof(BDIGIT) のチェックで充分なので
+不要とのこと。

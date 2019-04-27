@@ -1,0 +1,4 @@
+Marshal.dump/load で利用される構造体 struct dump_arg, struct load_arg のメンバ
+compat_tbl は利用されないケースもあるので、st_init_numtable() の呼び出しを必要
+になった時に実施するように遅延することで高速化を図っています。
+[ruby-core:65305] [Feature #10302]

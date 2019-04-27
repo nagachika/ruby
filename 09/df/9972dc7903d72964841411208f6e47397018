@@ -1,0 +1,2 @@
+r64123 で thread_pthread.c で USE_NATIVE_SLEEP_COND の再定義を消していましたが
+、やはり間違いだったみたいで #if dedined でのガード付きにしつつ戻しています。

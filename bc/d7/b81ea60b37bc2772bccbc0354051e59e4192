@@ -1,0 +1,1 @@
+pack.c の rb_bug() のメッセージ部分の typo 修正。

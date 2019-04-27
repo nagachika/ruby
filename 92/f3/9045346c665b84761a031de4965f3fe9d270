@@ -1,0 +1,2 @@
+psych.gemspec の Authors の項目を修正。名前が first name と family name で配列
+になってしまっていた。

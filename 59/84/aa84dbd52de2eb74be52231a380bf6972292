@@ -1,0 +1,6 @@
+r65275 で導入して r65299 あたりで修正してた inline cache や call cache を main
+thread にコピーを依頼する機構で main thread でコピー実施する関数
+mjit_copy_job_handler() でコピー先のメモリにアクセスする前に stop_worker_p で停
+止要求が出てないかチェックするようにしています。このフラグが立ってたら MJIT
+worker のほうで関数を抜けて alloca() で確保したスタック領域は不正になっている可
+能性があるので。

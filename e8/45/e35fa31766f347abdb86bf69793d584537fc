@@ -1,0 +1,2 @@
+Win32OLE のテストで ADODB.connection を利用しているところで ADODB.connection が
+利用できない環境では skip するようにしています。

@@ -1,0 +1,3 @@
+irb の IRB::SLEX#match で定数の参照が D_DETAIL が D_DEATIL になっていたのを修正
+しています。こっちはここだけ間違っていたので通ったら NameError になってたはずで
+すね(つまりテストで通ってない)。 [ruby-core:51071] [Bug #7600]

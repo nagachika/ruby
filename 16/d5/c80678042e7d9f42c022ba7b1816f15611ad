@@ -1,0 +1,5 @@
+標準添付ライブラリ xmlrpc で複数の Cookie が Set-Cookie ヘッダで渡された時に上
+書きでなく重複して記述してしまっていた不具合を修正しています。
+これ pairs.delete(cookie.name) は必要なんでしょうか。 pairs に既に cookie.name
+があっても次の Hash#[]= で上書きされるだけなのでわざわざ消さなくてもいいような
+気が。 [ruby-core:41711] [Bug #5774]

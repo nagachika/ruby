@@ -1,0 +1,7 @@
+sonots さんが lib/logger.rb のメンテナとして新しくコミッタになり、その初コミッ
+トです。 Wellcome!!
+標準添付ライブラリ logger に Logger#reopen メソッドを追加しています。出力先の
+IO の付け替えやファイルの場合の再open(こちらが主な用途でしょうけど)を行うように
+しています。外部 log rotation 対応のためですかね。 ChangeLog およびコミットログ
+に ML/チケットの参照を入れるようにしましょう。 [ruby-dev:49355] [Feature #
+11696]

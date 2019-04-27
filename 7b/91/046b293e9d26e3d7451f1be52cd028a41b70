@@ -1,0 +1,2 @@
+configure の最後にサマリを出力するようにしています。 https://github.com/ruby/
+ruby/pull/1277

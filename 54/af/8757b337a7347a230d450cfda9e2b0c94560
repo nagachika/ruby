@@ -1,0 +1,4 @@
+st.c でコンパイル時のチェックのための STATIC_ASSERT を独自に定義していたのを
+internal.h を include してそこで定義されているものを利用するようにしています。
+そして STATIC_ASSERT の定義で gcc 4.6 以降では _Static_assert() というマクロ?
+が用意されているようでこれを利用するようにしています。

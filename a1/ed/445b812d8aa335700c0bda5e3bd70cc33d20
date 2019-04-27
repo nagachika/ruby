@@ -1,0 +1,2 @@
+Socket.pack_sockaddr_un で UNIX ソケットのアドレス構造体を pack した文字列を作
+る際に必要なサイズを正確に計算するようにしています。

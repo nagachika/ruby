@@ -1,0 +1,6 @@
+String#unpack の H, h, B, b で 16進数およびビットストリングに変換した結果の
+Encoding が ASCII-8BIT になっていたのを、結果には ASCII 文字しか含まれないはず
+なので US-ASCII にして返すようにしています。これにより unpack を利用していた
+SecureRandom.hex の結果も US-ASCII エンコーディングになるようになったようでテス
+トが追加されています。 [ruby-core:47653] [Bug #7050] [ruby-core:46792] [Bug #
+6799]

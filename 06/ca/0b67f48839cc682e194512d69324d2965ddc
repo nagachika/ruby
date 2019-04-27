@@ -1,0 +1,6 @@
+ファイルシステムが xfs の時の readdir(3) が返す struct dirent の d_type が
+directory と directory に対する symbolic link で DT_UNKNOWN を返すため Dir#glob
+の再帰の判定にミスがあったのを修正しています。 r49966 で readdir(3) で sturct
+dirent::d_type を見ることでタイプがわかるということを利用して lstat(2) の呼び出
+しを抑制する最適化をしていましたが、DT_UNKNOWN が返された時にはこれを見ないで
+lstat(2) を呼んでその結果を利用するようにしています。

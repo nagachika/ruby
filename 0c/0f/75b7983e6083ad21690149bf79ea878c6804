@@ -1,0 +1,3 @@
+vm_dump.c の darwin でのシグナルハンドラの trampoline 対応のコードで rip が
+NULL の時にアクセスしてしまうことがあった不具合を修正しています。
+[ruby-core:81160] [Bug #13566]

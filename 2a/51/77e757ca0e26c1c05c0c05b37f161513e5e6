@@ -1,0 +1,4 @@
+AIX では char が unsigned 扱いなために ARGF が使えない状態だったので
+struct_argf の構造体の宣言を修正しています。[ruby-dev:43140]
+参考URL: http://publib.boulder.ibm.com/infocenter/comphelp/v111v131/index.jsp?
+topic=/com.ibm.xlcpp111.aix.doc/language_ref/ch.html

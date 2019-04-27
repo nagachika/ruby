@@ -1,0 +1,2 @@
+Pathname#write と Pathname#binwrite メソッドを追加しています。ありそうでこれま
+でなかったメソッドですね。 [ruby-core:49468] [Feature #7378]

@@ -1,0 +1,3 @@
+Digest::SHA256, SHA512 の digest でもアライメントの取れてないメモリアクセスのた
+めに Sparc/Solaris で BUS エラーになっていたのを memcopy で一旦コピーすることで
+回避しています。 [ruby-core:34850] [Bug #4320]

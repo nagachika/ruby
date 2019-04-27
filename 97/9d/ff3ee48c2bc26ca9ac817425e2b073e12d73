@@ -1,0 +1,3 @@
+vm_core.h に定義していた RUBY_DTRACE_FUNC_ENTRY_HOOK() と
+RUBY_DTRACE_FUNC_RETURN_HOOK() の関数マクロ定義を probes_helper.h として切り出
+すことで不要な probes.h への依存関係を切るようにしています。

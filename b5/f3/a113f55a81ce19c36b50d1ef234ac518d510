@@ -1,0 +1,2 @@
+doc/extension.rdoc, doc/extension.ja.rdoc の先頭の行に書かれているファイル名が
+README.EXT(.ja) のままだったので修正しています。

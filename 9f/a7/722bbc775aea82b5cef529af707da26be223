@@ -1,0 +1,4 @@
+IO.new の rdoc 用コメントのオプション引数の external_encoding の説明を削除して
+います。チケットをみるとオプション自体が使えないというわけではなくて、"-" で
+Encoding.default_external を指定したことになるという記述が間違いだったみたいで
+、後で復活されてます。 [ruby-core:81665] [Bug #13655]

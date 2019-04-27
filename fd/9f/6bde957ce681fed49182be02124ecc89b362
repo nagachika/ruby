@@ -1,0 +1,3 @@
+Windows 版の pipe の実装で nonblock mode での読み書きの挙動を実装しています。こ
+れまで Windows では skip されていた pipe の read_nonblock や write_nonblock の
+テストも skip しないようにしています。

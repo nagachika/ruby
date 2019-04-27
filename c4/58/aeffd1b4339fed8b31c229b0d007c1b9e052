@@ -1,0 +1,2 @@
+compile.c のマクロ INSERT_BEFORE_INSN() と INSERT_BEFORE_INSN1() の引数名を変更
+しています。

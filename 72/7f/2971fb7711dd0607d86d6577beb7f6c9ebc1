@@ -1,0 +1,2 @@
+rubygems のテストで Gem::RemoteFetcher のテスト時にクリアする環境変数に
+https_proxy を追加しています。

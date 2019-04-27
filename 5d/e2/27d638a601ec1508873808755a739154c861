@@ -1,0 +1,2 @@
+tool/make-snapshot で common.mk の nmake 向けの VPATH の記法を削除するための正
+規表現を修正しています。消しすぎてたみたいです。こんなことしてたんだ…。

@@ -1,0 +1,3 @@
+TracePoint の free 関数に何も処理しない自前の tp_free() 関数を登録していたのを
+RUBY_TYPED_NEVER_FREE という解放処理をしないことを指定するマクロを利用するよう
+にするリファクタリング。

@@ -1,0 +1,2 @@
+r37252 で改名した rb_define_frameless_method() の宣言を include/ruby/ruby.h に
+追加しています。拡張ライブラリでも frameless なメソッドを定義できるんですね。

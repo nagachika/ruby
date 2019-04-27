@@ -1,0 +1,2 @@
+win32/setup.mak で RUBY_RELEASE_DATE の version.h からの抜き取りの処理を変更し
+ているようです。コマンドプロンプト力が足りなくてよくわかりません。

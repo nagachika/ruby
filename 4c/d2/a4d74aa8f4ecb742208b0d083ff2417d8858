@@ -1,0 +1,5 @@
+global method cache の配列サイズを環境変数 RUBY_GLOBAL_METHOD_CACHE_SIZE で指定
+できるようにしています。ただし実装上の都合から 2 の累乗のサイズしか指定すること
+ができません。 https://github.com/ruby/ruby/pull/719
+なるほどなー、確かによく使われるメソッド数はアプリケーションによって異なるでし
+ょうし、チューニングできるポイントなんですね。

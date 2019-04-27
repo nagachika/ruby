@@ -1,0 +1,2 @@
+r58747 でいじってた TCPSocket.send のテストで macOS では Errno::ECONNREFUSED の
+かわりに Errno::EADDRNOTAVAIL が発生するそうで、両方許容するようにしています。

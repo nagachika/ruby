@@ -1,0 +1,4 @@
+拡張ライブラリ psych の Psych::Visitors::YAMLTree#visit_String で r49275 の変更
+で文字列末尾でないことをチェックするために正規表現の文字クラスを使っていたとこ
+ろを否定先読みを利用するように修正しています。 https://github.com/tenderlove/
+psych/issues/221

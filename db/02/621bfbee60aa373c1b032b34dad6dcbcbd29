@@ -1,0 +1,5 @@
+load.c の複数の Thread から同じファイルを require した時の排他処理(ある Thread
+が require に成功したら他の Thread は読み込まず false を返す。ただし require 内
+で例外が発生したら再度読み込みする)で st_table からエントリを削除するのに
+st_lookup() で検索して st_delete() していたのを r34141 で追加された st_update()
+を利用して一度で済ませるようにしています。

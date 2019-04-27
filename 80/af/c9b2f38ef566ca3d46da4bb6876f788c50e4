@@ -1,0 +1,2 @@
+bignum.c に BDIGIT の配列を 0 クリアする BDIGITS_ZERO() という関数マクロを追加
+して MEMZERO() のかわりにこちらを利用するようにしています。

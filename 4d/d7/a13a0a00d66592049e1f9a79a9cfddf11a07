@@ -1,0 +1,3 @@
+Bignum の乗算に GMP を使う時に mpz_inits() や mpz_clears() のかわりに個別に
+mpz_init() や mpz_clear() を使うようにしています。古いバージョンの GMP で複数引
+数を受け取るバージョンの関数がなかったため。

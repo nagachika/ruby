@@ -1,0 +1,2 @@
+random.c の random_seed() で一時的に利用したバッファを explicit_bzero() を使っ
+てクリアすることでメモリ上に seed を推測できる情報を残さないようにしています。

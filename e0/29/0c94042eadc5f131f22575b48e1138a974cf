@@ -1,0 +1,7 @@
+RHASH_TBL() と RHASH_TBL_RAW() の使いわけについて各所で修正。 RHASH_TBL() を使
+っているのに別途 OBJ_WRITTEN() も呼んでいるところは RHASH_TBL_RAW() を使うよう
+にしています。また Hash の要素追加/効用用の関数マクロ HASH_ASET() の実装を
+st_insert() から rb_hash_aset() を呼ぶようにしています。うーむこれはなぜだろう
+。 rb_hash_aset() だと freeze されているかのチェックや String をキーに渡した時
+の fstring 利用などの前処理が含まれるので fstring を使うようにするのが目的でし
+ょうか。

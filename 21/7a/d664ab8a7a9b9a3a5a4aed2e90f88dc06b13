@@ -1,0 +1,3 @@
+r53220 で標準添付ライブラリ cgi の CGI.escapeHTML の実装を ASCII compatible な
+時に拡張ライブラリで実装して高速化したのと同様に CGI.escape の実装も拡張ライブ
+ラリに移動して高速化しています。 https://github.com/ruby/ruby/pull/1238

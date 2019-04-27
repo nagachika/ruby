@@ -1,0 +1,2 @@
+st_table の objhash タイプの時の hash 関数の実装 rb_any_hash() で Qundef が渡さ
+れた時は 0 を返すようにしています。

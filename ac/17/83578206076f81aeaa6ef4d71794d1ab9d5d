@@ -1,0 +1,3 @@
+r6483 の mspec のマージで r64749, r64751 の File.expand_path のかわりに
+File.realpath を使って symbolic link を解決させる変更が巻き戻ってたので再適用し
+ています。

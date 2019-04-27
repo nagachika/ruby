@@ -1,0 +1,7 @@
+WeakMap の GC の mark 時に回収済みのオブジェクトへの参照は st_table から削除す
+るようにしていたのをデフォルトでは消しています。
+WMAP_DELETE_DEAD_OBJECT_IN_MARK というマクロを 0 に定義してこれを非0にしないと
+削除しないようにしています。 WeakMap を RGenGC の normal object (shady じゃな
+い)にするために必要な変更だそうです。 shady なのって新たに参照が増える時に
+Write Barrier で保護されていない場合なので参照が消えるぶんには問題なかったりし
+ないでしょうか?

@@ -1,0 +1,8 @@
+メモリ管理用のヒープやスロットなどの構造を変更しています。heaps_slot を
+heap_slot に改名したり struct heap_slot_body という構造体(ヘッダ部分しか宣言さ
+れていませんが、その後ろに RVALUE を格納する領域を追加して確保される)を導入した
+り、またスロットの RVALUE 確保領域のアドレス順にソート済みの配列 struct
+heap::sorted は heaps_header ではなくて管理情報を持つ heap_slot を指すように変
+更しています。
+https://bugs.ruby-lang.org/attachments/3795/Ruby2.1_Heap.png にイメージ図がある
+ので参照。

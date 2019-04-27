@@ -1,0 +1,4 @@
+標準添付ライブラリ resolv.rb が Windows を判定するために RUBY_PLATFORM をチェッ
+クしているのが JRuby で動かすときにうまくないということで require "win32/
+resolv" してみて LoadError が発生したら Windows 版じゃないという判定方法に変更
+しています。 [ruby-core:53389] [ruby-core:53388] [Feature #8090]

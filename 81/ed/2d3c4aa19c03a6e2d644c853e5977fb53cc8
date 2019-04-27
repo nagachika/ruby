@@ -1,0 +1,4 @@
+GC.stress= がこれまでは真偽値で ON/OFF のみ制御していたのを、整数値(正確には
+Fixnum)を受け付けるようにしています。RGenGC と LazySweep への対応で、Minor
+Sweep のみ実施するとか即座に全て Sweep するか(現在の GC.stress = true は full
+GC ですぐに Sweep も完了)などを制御できるようにしています。

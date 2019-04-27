@@ -1,0 +1,4 @@
+misc/rdoc-mode.el (emacs の rdoc mode 用の設定ファイル)の最後に (provide
+'rdoc-mode) という式を追加しています。 elisp はよく知りませんが、ruby でいうと
+ころの $LOADED_FEATURE のような features というリストに rdoc-mode を追加して
+rdoc-mode がロードされたことを通知するようにしているようです。

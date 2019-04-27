@@ -1,0 +1,3 @@
+array.c の ary_recycle_hash() で rb_gc_force_recycle() を呼び出して引数の hash
+を強制的に回収するようにしています。この hash は klass が 0 の内部的なオブジェ
+クトなので外から見えないので安全に回収できるとのこと。

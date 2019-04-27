@@ -1,0 +1,4 @@
+r59046, r59051, r59052 などで valgrind の支配下での signal handler 登録のエラー
+対応の続き。Mac OS X では THREAD_DEBUG を -1 に定義しています。
+rb_thread_stop_timer_thread() での SEGV を避けるためだそうですが、なぜかはよく
+わかりませんね…。

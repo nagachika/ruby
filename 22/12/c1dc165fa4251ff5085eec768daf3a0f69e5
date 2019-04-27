@@ -1,0 +1,2 @@
+Bignum の乗算で内部的に使う関数 bigdivrem_mulsub() で unsigned と signed の整数
+の型をそろえるための明示的キャスト追加。

@@ -1,0 +1,3 @@
+configure で Mac OS X 10.5 以降では ucontext.h を持っていないとしていたのをやめ
+て getcontext(3)/setcontext(3) の関数がないものとするようにしています。マシンス
+タックオーバフロー検出に用いるために ucontext_t という型が必要なため。

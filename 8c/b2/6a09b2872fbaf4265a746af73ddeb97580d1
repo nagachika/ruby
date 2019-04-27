@@ -1,0 +1,4 @@
+r51092 でマージされた rubygems で "/dev/null" がハードコードされている箇所があ
+ったので Gem::Util::NULL_DEVICE を利用するように修正しています。ruby 本体にも
+IO::NULL がありますが rubygems は古い ruby 対応のために独自の定数を定義している
+ようですね。

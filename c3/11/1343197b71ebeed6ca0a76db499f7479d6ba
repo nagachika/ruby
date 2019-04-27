@@ -1,0 +1,3 @@
+bignum.c のリファクタリング。 bigmul1_balance() から BDIGIT の配列同士の演算を
+bary_mul_balance() として切り出して bary_mul2() bary_add() を利用するように書き
+換えています。

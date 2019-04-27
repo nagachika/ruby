@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の ObjectSpace.count_nodes で最近追加された NODE のタイ
+プの集計が含まれてなかったので追加しています。

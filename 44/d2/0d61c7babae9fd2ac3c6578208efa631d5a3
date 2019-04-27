@@ -1,0 +1,2 @@
+ext/socket/extconf.rb で $CPPFLAGS に -D_WIN32_WINNT を重複して追加しないように
+しています。

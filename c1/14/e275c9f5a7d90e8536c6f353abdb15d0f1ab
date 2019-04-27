@@ -1,0 +1,4 @@
+regparse.c の node_extended_grapheme_cluster() の Node の配列を r66135 で
+node_array というのに統合していたのをさらに用途を広げて node_common という変数
+名に変更しています。しかもこれ用途によって使う位置がちょっとずつオーバーラップ
+していてかなりトリッキーですね。

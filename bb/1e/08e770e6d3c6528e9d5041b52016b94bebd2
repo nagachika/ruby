@@ -1,0 +1,3 @@
+r66413 の変更で ubf_timer_destroy() に timer_posix.state の状態が変わってないこ
+とを確認して rb_bug() で異常終了させてたのを VM_ASSERT() を使って通常は実行しな
+いようにしています。

@@ -1,0 +1,2 @@
+parse.y で struct parser_params の未使用になっていたメンバ cur_mid を削除してい
+ます。だいぶ前から使われていなかったみたいです。

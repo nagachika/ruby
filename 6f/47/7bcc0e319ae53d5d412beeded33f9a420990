@@ -1,0 +1,2 @@
+r45678 の fsid_t の型の有無をチェックするようにしたのに Windows 環境の win32/
+Makefile.sub での configh.h 生成も追随しています。

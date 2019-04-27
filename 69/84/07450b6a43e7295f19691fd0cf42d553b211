@@ -1,0 +1,1 @@
+lib/irb/context.rb に require "irb/context" を追加しています。

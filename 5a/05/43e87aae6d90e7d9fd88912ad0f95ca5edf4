@@ -1,0 +1,2 @@
+compile_snprintf() という関数は可変長引数を受け付けるのではなくて va_list を受
+け付けているので compile_vsprintf() という名前に変更しています。

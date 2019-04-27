@@ -1,0 +1,2 @@
+RubyVM.resolve_feature_path の rdoc 用コメントでサンプルコードの結果が間違って
+いたのを修正しています。

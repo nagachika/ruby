@@ -1,0 +1,2 @@
+test/net/smtp/test_response.rb で直接 Minitest を利用していたのを Test::Unit を
+利用するように変更しています。

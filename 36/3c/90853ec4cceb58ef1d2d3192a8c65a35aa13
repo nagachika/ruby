@@ -1,0 +1,4 @@
+Time.utc や Time.local などの Time オブジェクトを生成するメソッドの引数処理をす
+る time_arg() で vtm->subsecx というメンバを RB_GC_GUARD() で最適化による mark
+漏れから保護するようにしています。 mswin の CI で時々発生している SEGV の対策み
+たいです。

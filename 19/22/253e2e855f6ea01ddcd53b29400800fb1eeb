@@ -1,0 +1,3 @@
+util.c の ruby_scan_digits() と quorem() も NO_SANITIZE() を使って Undefined
+Behavior Sanitizer による unsigned integer overflow のチェックを抑制するように
+しています。

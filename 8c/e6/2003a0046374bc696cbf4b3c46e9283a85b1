@@ -1,0 +1,2 @@
+ext/date/date_parse.c で ALLOCA_N() を使うべきところが ALLOC_N() になっていたの
+を修正。つまりメモリリークしてたのを修正しています。

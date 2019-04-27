@@ -1,0 +1,3 @@
+標準添付ライブラリ open-uri のテストでも同様に OpenSSL::TestUtils に依存してい
+たところがあったので defined?(OpenSSL::TestUtils) をチェックしてなければスキッ
+プするようにしています。

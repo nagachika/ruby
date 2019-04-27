@@ -1,0 +1,3 @@
+lib/racc/parser.rb の rdoc 用コメントでも "ruby" を "Ruby" に capitalize してい
+ます。 racc は……、あれ公開リポジトリはあるのかなぁ。 https://github.com/ruby/
+ruby/pull/341

@@ -1,0 +1,5 @@
+構造体 rb_ast_t にあった GC 管理用の mark 用配列を格納する mark_ary を構造体
+struct node_buffer_struct に移動しています。struct node_buffer_struct は
+rb_ast_t から参照されてるので場所が変わっただけですね。コミットログによると
+rb_ast_t にメンバーを追加したいけど T_IMEMO のためサイズに制限があるのでそのた
+めに追い出したということだそうです。

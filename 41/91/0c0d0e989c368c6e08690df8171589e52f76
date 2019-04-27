@@ -1,0 +1,2 @@
+include/ruby/defines.h の EXTERN マクロの定義に EXTERN は deprecated なので
+RUBY_EXTERN を使うようにと警告を出すようにしています。

@@ -1,0 +1,3 @@
+r64264 で Init_ruby_description() で定数 RUBY_DESCRIPTION の定義をする時にコメ
+ント内に MKSTR(description) というのを書いてます。 fake.rb で偽装する定数名の抽
+出のために MKSTR というマクロがマーカーになってるようですね。

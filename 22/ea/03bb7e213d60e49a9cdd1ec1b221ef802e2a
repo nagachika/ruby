@@ -1,0 +1,2 @@
+r51794 でうっかり RubyVM::InstructionSequence.load が追加されていたのをまた削除
+しています。おっと見逃してました。

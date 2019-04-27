@@ -1,0 +1,2 @@
+デッドロック検出で利用している rb_thread_struct::transition_for_lock という構造
+体メンバの宣言に volatile を追加しています。

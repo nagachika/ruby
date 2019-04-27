@@ -1,0 +1,4 @@
+test/lib/test の並列テスト用の r36388 で切り出した Test::Unit::Parallel#deal と
+いうメソッドで worker を起動するのに add_worker を呼んでましたが、これは
+launch_worker が正しかったそうなので修正。また子worker からのメッセージからテス
+ト名を切り出す正規表現をより厳密にしています。

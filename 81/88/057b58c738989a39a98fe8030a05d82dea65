@@ -1,0 +1,6 @@
+test/ruby/test_marshal.rb のテストメソッドの名前が重複していたので変更していま
+す。 TestMarshal は marshaltestlib.rb で MarshalTestLib というモジュールを定義
+して include しているのですが、このモジュールは encode/decode で Marshaling の
+具体的な方法とテストケースを切り離していて、そこのメソッドと衝突していました。
+TestMarshal のテストも可能なものは MarshalTestLib に移動させたりしたほうが良い
+ような気がしますね。

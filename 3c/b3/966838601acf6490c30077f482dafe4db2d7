@@ -1,0 +1,3 @@
+rb_any_hash() で VALUE が即値の時に SYMBOL_P() でチェックしていたのを
+STATIC_SYM_P() に置き換えています。即値なので dynamic symbol であることはチェッ
+クする必要がなく、こうすることで少しコード量が減るそうです。

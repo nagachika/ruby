@@ -1,0 +1,2 @@
+さらに rubyspec の socket のテストの一部に AIX で実行しないようにする guard を
+追加しています。

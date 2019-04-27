@@ -1,0 +1,2 @@
+StringIO#set_encoding に IO と同じく第2引数の internal_encoding の指定とオプシ
+ョンのハッシュ引数(共に省略可能)を追加しています。

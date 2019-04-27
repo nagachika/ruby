@@ -1,0 +1,3 @@
+vm_eval.c の rb_yield_splat(), eval_string_with_cref() の変数につけていた
+volatile が不要として外しています。 "clobbered by longjmp ..." の警告避けで付け
+たものっぽいですが不要な場所だったようです。

@@ -1,0 +1,2 @@
+r51034 の st_table の linked list 実装の ccan/list を利用した変更のリベンジ。と
+ころが… [ruby-core:69726] [misc #10278]

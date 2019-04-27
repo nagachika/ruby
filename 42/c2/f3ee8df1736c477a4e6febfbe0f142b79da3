@@ -1,0 +1,5 @@
+r59804 の続き? make yes-test-bundler のルールで BUNDLER_SPECS を srcdir を含む
+フルパスで指定してたのを -C オプションで srcdir に移動して実行するようにしたの
+で相対パスで指定するようにしています。一部のテストだけ実行する時に
+BUNDLER_SPECS に srcdir からの相対パスで指定できるように、という意味もあったわ
+けですね。

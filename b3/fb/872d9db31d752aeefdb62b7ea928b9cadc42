@@ -1,0 +1,8 @@
+これもコミットログの意味がよくわからないのですが、拡張ライブラリ psych の
+Psych::Visitors::ToRuby#visit_Psych_Nodes_Sequence で tag が nil の時に case 文
+の else で処理していたのを明示的に when nil 節を用意して同じ処理をするようにし
+ています。 method_missing が呼ばれると遅いから……と書かれているけどどういうこ
+とでしょう。
+[追記]@znz さんに元になった GitHub の issue を教えていただきした。 https://
+github.com/tenderlove/psych/pull/88 つまり正規表現の when 節のマッチで失敗する
+のが遅いから先にマッチさせてしまおうということみたいですね。[/追記]

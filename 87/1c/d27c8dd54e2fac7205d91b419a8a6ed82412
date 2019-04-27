@@ -1,0 +1,2 @@
+gc.c の GET_HEAP_HEADER() と NUM_IN_SLOT() という関数マクロの引数にかっこをつけ
+ています。

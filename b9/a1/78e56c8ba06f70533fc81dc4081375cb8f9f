@@ -1,0 +1,3 @@
+r46017 の Socket::Option#inspect での TCP_INFO のサポートの追加で struct
+tcp_info のサイズよりデータを pack した文字列のほうが大きい場合も完全に無視はせ
+ず表示した上でサイズの違いを表示するようにしています。

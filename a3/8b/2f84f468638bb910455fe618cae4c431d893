@@ -1,0 +1,4 @@
+RubyVM::InstructionSequence.compile_file で SyntaxError でコンパイルに失敗した
+場合に、rb_thread_t::errinfo に例外が格納されたまま例外を投げなおしていなかった
+ので、File の close 後に例外発生させるようにしています。またテストに r56267 で
+追加した assert_in_out_err の success キーワード引数をさっそく利用しています。

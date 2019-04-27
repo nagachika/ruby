@@ -1,0 +1,2 @@
+rubyspec の socket のテストで AIX のための platform_is_not の条件を追加していま
+す。

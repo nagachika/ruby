@@ -1,0 +1,3 @@
+rubyspec の Process.clock_gettime の各種 clock タイプの利用が Linux でも一部の
+distro で失敗することがあるそうで platform_is_not による guard に :linux も追加
+しています。

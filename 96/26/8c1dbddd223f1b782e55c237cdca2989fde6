@@ -1,0 +1,5 @@
+r61805 で node.c の node_buffer_elem_t で構造体の末尾の配列のサイズを
+FLEX_ARY_LEN を使って可能なら省略するようにしていましたが、ISO C section
+6.7.2.1 にこのような可変長の配列を持つ構造体は他の構造体のメンバーや配列の要素
+には使えないとあって、node_buffer_elem_t は struct node_buffer_struct のメンバ
+ーとしても使われているので省略は不可だったようです。

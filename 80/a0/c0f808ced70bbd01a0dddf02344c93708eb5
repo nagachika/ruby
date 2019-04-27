@@ -1,0 +1,7 @@
+process.c の disable_child_handler_fork_child() で signal(2) と sigaction(2) を
+使ったコードを preprocessor の分岐でそれぞれ用意しているのをやめて signal(2) の
+ほうだけ残しています。 signal() を func に SIG_DFL と SIG_IGN を渡した時の挙動
+は portable なので sigaction() を使う必要はないということだそうです。あと func
+に SIG_IGN が設定されていた時はもう一度 SIG_IGN を設定しなおすようにしています
+。 execve(2) した時にリセットされるので、それまで無視しておくほうがいいというこ
+とみたいです。 [ruby-core:75781] [Misc #12439]

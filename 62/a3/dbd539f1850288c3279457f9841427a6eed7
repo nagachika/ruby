@@ -1,0 +1,2 @@
+タイムゾーン情報も指定して作った Time オブジェクトの Marshal.dump/Marshal.load
+のテストを追加しています。

@@ -1,0 +1,8 @@
+tool/make-snapshot で miniruby 実行時に意図しないライブラリのロードがおこなわれ
+ないように tmp/rubygems/defaults/ に operating_system.rb と ruby.rb という空の
+ファイルを置いてここをロードバスに追加して起動するようにしています。 bundled
+gem のダウンロードの時にインストール済みの gem などに影響をうけるのをさけるよう
+にしているみたいですね。 miniruby って rubygems のパス有効なんでしたっけ? と思
+ったけど RUNRUBY とかで標準添付ライブラリへのパスを通して実行されて、tool/
+downloader.rb で明示的に require "rubygems" されるとそりゃ有効になりますね。
+[ruby-core:67977] [Bug #10822]

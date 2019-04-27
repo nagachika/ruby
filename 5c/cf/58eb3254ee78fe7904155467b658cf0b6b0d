@@ -1,0 +1,3 @@
+configure.in の RUBY_APPEND_OPTION と RUBY_PREPEND_OPTION の定義で第2引数を展開
+するところのクオートがシングルクオートになっていたのをダブルクオートに修正して
+います。

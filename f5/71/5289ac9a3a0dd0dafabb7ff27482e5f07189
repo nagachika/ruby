@@ -1,0 +1,2 @@
+time.c の mod() の Fixnum 向けの最適化と quo() の第1引数が FIXNUM_MIN で y が
+-1 の時の特殊処理を追加しています。

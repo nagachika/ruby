@@ -1,0 +1,3 @@
+encoding.c の check_encoding() で is_data_encoding() でオブジェクトの型をチェッ
+クする前に RB_TYPE_P() で T_DATA 型のオブジェクトであることをチェックするように
+しています。 is_data_encoding() が T_DATA 型を前提としていたため。

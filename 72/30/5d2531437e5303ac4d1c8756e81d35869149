@@ -1,0 +1,2 @@
+Array#sum で Rational が先頭の要素だった時に SEGV する不具合を修正。 Rational
+の処理を Integer の時のループに統合しています。

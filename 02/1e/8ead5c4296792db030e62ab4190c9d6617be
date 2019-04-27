@@ -1,0 +1,10 @@
+r55008 で標準添付ライブラリ drb の DRb::TimerIdConv::TimerHolder2 で Thread を
+起動しないようにしていましたが、add や fetch を呼んだ時だけ expire のチェックを
+するようにしていたのを、ObjectSpace.define_finalizer を使って適当なオブジェクト
+を作ってそれが GC されるときに DRb::TimerIdConv::TimerHolder2#on_gc を呼ばせて
+、その中で rotate を呼ぶ Thread を起動する(終わると停止する)ようにしてある程度
+定期的に実行されるようにしています。 Thread 起動しているのは Mutex を使っている
+ので。参考 URL: http://d.hatena.ne.jp/m_seki/20160521#1463801531
+CRuby の GC は保守的なので、一度作った Object のアドレスと同じ値がどこかのスタ
+ック上にのるとそこで動かなくなってしまうので、add と fetch での処理も併用されて
+います。

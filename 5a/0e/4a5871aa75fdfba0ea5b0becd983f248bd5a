@@ -1,0 +1,3 @@
+bignum.c の乗算のマクロと関数 BARY_MUL1() と bary_mul1() をそれぞれ
+BARY_SHORT_MUL() と bary_short_mul() に改名しています。 Bignum のサイズが小さい
+時に使うための関数なのでそれを表した名前にしたのだと思います。

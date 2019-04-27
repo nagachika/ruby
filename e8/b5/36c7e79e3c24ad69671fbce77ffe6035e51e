@@ -1,0 +1,2 @@
+tool/m4/_colorize_result_prepare.m4 のクオートと閉じかっこの順番が狂ってたのを
+修正しています。

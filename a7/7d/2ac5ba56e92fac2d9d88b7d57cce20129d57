@@ -1,0 +1,5 @@
+ARGF.close した時に IO オブジェクト(rb_io_t 型)が持ってる tied_io_writing をク
+リアしています。IO の構造体をよく把握していないのですが、おそらく ARGF 用に
+rb_io_t には tied_io_writing というメンバがあって、そこに実際に書き出す IO オブ
+ジェクト(VALUE 型)が格納されています。ARGF.close した時にここを Qnil にクリアす
+るようにしています。

@@ -1,0 +1,2 @@
+OpenSSL.fips_mode= というメソッドを新設して FIPS モードの on/off ができるように
+しています。 [ruby-core:47345] [Feature #6946]

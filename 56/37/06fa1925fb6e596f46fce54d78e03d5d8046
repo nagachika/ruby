@@ -1,0 +1,1 @@
+test/lib/iseq_loader_checker.rb の未使用変数の警告除去。

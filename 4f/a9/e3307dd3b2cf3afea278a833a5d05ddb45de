@@ -1,0 +1,2 @@
+lib/erb.rb の rdoc 用コメントに ERB.new の trim_mode("-")について追記しています
+。 [ruby-core:51084] [Bug #7608]

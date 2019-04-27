@@ -1,0 +1,2 @@
+rb_execarg_addopt() も struct rb_execarg のかわりにそれをくるんだオブジェクト
+(VALUE 型)を受け取るように引数を変更しています。

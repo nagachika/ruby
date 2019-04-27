@@ -1,0 +1,2 @@
+GC_DEBUG が有効の時のデバッグ情報出力のコードで RVALUE_OLDGEN_P() を
+RVALUE_OLD_P() に改名する変更に追随しています。

@@ -1,0 +1,5 @@
+Resolv::DNS::Label::Str で downcase で小文字に正規化する前に force_encoding('
+ASCII-8BIT') でエンコーディングを ASCII-8BIT に変換するようにしています。
+downcase がエンコーディングを意識してしまわないように、RFC 4343 の仕様に準拠さ
+せるためだそうです。ふーむこの場合 US-ASCII じゃなくて ASCII-8BIT でいいんです
+かね?

@@ -1,0 +1,1 @@
+test/unit で make の jobserver の fd を明示的に close するようにしています。

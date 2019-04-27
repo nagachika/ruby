@@ -1,0 +1,5 @@
+r40464 で socket の extconf.rb に追加した --{enable,disable}-wide-getaddrinfo
+の処理の修正。check_for() の結果の判定が逆転していたのを修正。 WIDE getaddrinfo
+をデフォルトでは使わないようにしています、と ChangeLog には書いてあるのですが、
+第1 hunk の変更はチェックして使えない時に getaddr_info_ok = :wide にしてしまっ
+ているような気がします。これでいいんでしょうか?

@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile の Tempfile#size でファイルが空っぽの時に nil を返
+していたので 0 を返すように修正しています。 [ruby-core:79459] [Bug #13198]

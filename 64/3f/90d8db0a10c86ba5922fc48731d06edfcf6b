@@ -1,0 +1,2 @@
+openssl で int 型を期待しているところで NUM2LONG() を利用している所を NUM2INT()
+に変更しています。

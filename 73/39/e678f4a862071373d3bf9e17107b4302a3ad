@@ -1,0 +1,2 @@
+include/ruby/missing.h で INFINITY や NAN のために math.h を include するように
+しています。

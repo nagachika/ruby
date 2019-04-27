@@ -1,0 +1,3 @@
+benchmark/ に文字列をキーにした Hash リテラルの評価のベンチマークをいくつか追加
+しています。これは embed の時と array hash (transient)の実装の時を意識した要素
+数なのかな。

@@ -1,0 +1,3 @@
+改行コード変換関係のソース生成に使う tool/transcode-tblgen.rb や tool/enc-
+unicode.rb で正規表現の \h という文字種指定は 1.8 だと動かないので使用しないよ
+うに変更しています。

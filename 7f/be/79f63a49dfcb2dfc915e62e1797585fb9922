@@ -1,0 +1,5 @@
+rubygems を利用している時に Kernel#warn の uplevel キーワード引数でバックトレー
+スの位置を調整するのに rubygems が再定義している Kernel#require のぶんが邪魔を
+して狙った位置が出せないことがあったみたいなので、rubygems で Kernel#warn も再
+定義して kernet_require.rb のファイルを位置情報に含むスタックは無視させるように
+しています。

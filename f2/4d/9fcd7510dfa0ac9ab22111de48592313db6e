@@ -1,0 +1,2 @@
+DateTime の offset がサマータイム(米国では daylight savings time って言うみたい
+ですね)に入った時に Time とずれている不具合修正。 [ruby-core:43256] [Bug #6135]

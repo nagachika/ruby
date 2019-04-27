@@ -1,0 +1,3 @@
+拡張ライブラリ psych の 2.2.1 を upstream からマージしています。 1.8 以前のサポ
+ートのためのコードの除去などが行なわれているほか GC に関連した SEGV の修正も含
+まれているそうです。 https://github.com/ruby/psych/pull/296

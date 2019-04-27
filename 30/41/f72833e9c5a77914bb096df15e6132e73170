@@ -1,0 +1,1 @@
+net/http のテストでの Thread 後始末の修正。

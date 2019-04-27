@@ -1,0 +1,1 @@
+Fixnum#modulo と Bignum#modulo を Integer#modulo へ統合しています。

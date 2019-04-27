@@ -1,0 +1,3 @@
+Syck のテストの前に YAML::ENGINE.yamler を "syck" に上書きしています。 YAML
+::ENGINE.yamler のデフォルトが Psych に変更になったのでテストで Syck のつもりで
+Psych を使ってしまっていたようですね。

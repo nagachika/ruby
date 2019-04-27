@@ -1,0 +1,6 @@
+kMJIT が cygwin でも有効にできるようにしています。また pthread_attr_setscope()
+で PTHREAD_SCOPE_PROCESS していたのを削っていますが、これは cygwin では動かない
+というのと Linux や macOS でもサポートされていない(なんで入ってたんだろ)らしい
+ので不要みたいです。 cygwin 版はとりあえずビルドはできる、という程度の状態らし
+いですが、あまり大きな変更はなくて動いててすごいですね。 [ruby-dev:50579] [Misc
+#14854]

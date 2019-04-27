@@ -1,0 +1,3 @@
+r52087 で追加されたテストで assert_equal のかわりに assert_predicate や
+assert_not_predicate などを利用するようにしています。あと比較対象のオブジェクト
+の変数名を typo していたのを修正しています。

@@ -1,0 +1,4 @@
+Array#uniq にブロックを渡した時の実装も Hash のキーにブロックの評価値、値に配列
+の要素を格納しておいたのを取り出すのに rb_hash_values() を使うように置き換えて
+います。このため rb_hash_values() も static を削って internal.h にプロトタイプ
+宣言を追加しています。

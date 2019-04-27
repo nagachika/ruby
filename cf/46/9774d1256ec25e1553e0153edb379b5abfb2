@@ -1,0 +1,2 @@
+rb_big_float_cmp() という関数名を Fixnum も対象に含むようになったので
+rb_integer_float_cmp() に改名しています。

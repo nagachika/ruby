@@ -1,0 +1,4 @@
+rb_thread_t::running_time_us の型を unsigned long から uint32_t に変更して常に
+32bit だけ用意するようにしています。このメンバーの値は特定の範囲に clamp される
+ので 32bit で充分とのこと。 M:N モデルにした時にはさらに 16bit にまで抑えるつも
+りだそうで。

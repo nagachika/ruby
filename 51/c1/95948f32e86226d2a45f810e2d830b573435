@@ -1,0 +1,4 @@
+error.c のリファクタリング。 compile_vsprintf() は err_vcatf() と改名し、関数内
+で String オブジェクトを生成していたのを呼び元で作成して渡すようにしています。
+また rb_compile_err_append() も rb_syntax_error_append() と改名して、単に文字列
+連結だけしていたのを err_vcatf() の呼び出しもするようにしています。

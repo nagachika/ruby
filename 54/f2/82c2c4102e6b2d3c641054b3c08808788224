@@ -1,0 +1,6 @@
+Pathname#find にブロックが渡されなかった時にこれまでエラーにしていたのを
+Enumerator を返すようにしています。 [ruby-dev:44797] [Feature #5572]
+to_enum には each のかわりに呼ぶメソッドを指定できるので to_enum(__method__)
+(__method__ は現在のメソッドの名前を Symbol で返す)とするとブロックを期待してい
+るメソッドを Enumerator 化したものを返すことができるわですね。このイディオムは
+憶えておこう。

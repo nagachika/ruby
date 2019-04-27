@@ -1,0 +1,3 @@
+hash.c と string.c で独自に struct RBasic::flags のフラグや判定マクロを定義して
+いたものが拡張ライブラリ objspace にも同じものを定義して使っていたので、定義を
+internal.h に移動して共有するようにしています。

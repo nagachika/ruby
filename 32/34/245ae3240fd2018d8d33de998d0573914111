@@ -1,0 +1,6 @@
+VM 命令の定義の属性に handle_frame というのを追加して、leave, defineclass,
+opt_call_c_function などの命令で true に設定しています。handle_frame = true の
+命令では VM 実装のコードを吐く時に PREFETCH() は行なわないようにして、それ以外
+の時は ADD_PC() と PREFETCH() を VM 命令の実装の最後に移動しています。VM 命令の
+コードサイズの削減と PC の操作部分を極力集めることでキャッシュにのりやすくする
+と書いてあるので、移動してるほうは PC の操作部分を集めるためみたいですね。

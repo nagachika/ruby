@@ -1,0 +1,2 @@
+make btest, test-sample などを実行するスクリプトのコマンドラインオプションに
+--color を追加して Test::Unit に渡せるようにしています。

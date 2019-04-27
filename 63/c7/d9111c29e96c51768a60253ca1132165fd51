@@ -1,0 +1,5 @@
+r51989 のブロック引数に Symbol を渡した時の最適化に関連した修正だと思いますが、
+Proc の rb_vm_proc_envval() の mark 処理の条件を修正しています。
+rb_vm_proc_envval(proc) が NULL じゃない時に mark するようにしてましたが、
+proc->block.ep が NULL じゃない時にだけ rb_vm_proc_envval() を呼ぶように修正し
+ています。 [ruby-core:70961] [Bug #11560]

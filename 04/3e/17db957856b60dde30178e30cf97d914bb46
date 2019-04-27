@@ -1,0 +1,2 @@
+r64000 で tracer を default gem にしましたが、tracer.gemspec がテストで問題を起
+こしてたそうで一旦削除しています。

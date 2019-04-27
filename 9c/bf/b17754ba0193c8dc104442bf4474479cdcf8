@@ -1,0 +1,1 @@
+make clean で ruby-runner.o と ruby.imp も削除するようにしています。

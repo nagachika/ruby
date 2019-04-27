@@ -1,0 +1,2 @@
+rdoc と rubygems のテストで rake に依存しているものは require "rake" が
+LoadError を返したらスキップするようにしています。

@@ -1,0 +1,2 @@
+clang 4.2 の拡張 __attribute__*1 を使った未使用変数の警告除去のための実装を
+UNINITIALIZED_VAR() に追加しています。 [ruby-core:51742] [Bug #7756]

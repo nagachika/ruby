@@ -1,0 +1,2 @@
+標準添付ライブラリ net/imap で String#unpack して最初の要素だけ取り出してるとこ
+ろを String#unpack1 を使うようにリファクタリングしています。

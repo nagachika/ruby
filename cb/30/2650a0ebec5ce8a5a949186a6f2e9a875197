@@ -1,0 +1,2 @@
+r58659 の再修正。 errno ではなくて getpwnam_r() や getgrnam_r() の戻り値のチェ
+ックを追加しています。

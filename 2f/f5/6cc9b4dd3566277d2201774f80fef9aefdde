@@ -1,0 +1,10 @@
+r39224 で Module#prepend で上書きされたメソッドに対して Module#instance_method
+で UnboundMethod を取得する時に prepend の影響を無視して本来のメソッドを取得で
+きるようにしたのを revert しています。 [ruby-core:53038] [Bug #7988] prepend さ
+れたメソッドの instance_method 等のメソッドでの取得は、respond_to? のように追加
+の引数でどちらを取得するのか選択できるようにするアプローチに変更されるようです
+。
+ちなみに r39224 はまだ backport されていないのであわてなくていいですが、 revert
+といってもテストは完全に消さずに assert だけ変更しているのでやるなら 2つをまと
+めて backport するのが良さそうです(完全にメンテナ向けのコメントです)。
+[ruby-core:52160] [Bug #7836]

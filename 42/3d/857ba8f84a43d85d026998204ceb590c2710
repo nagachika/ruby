@@ -1,0 +1,5 @@
+prelude.rb で Thread の下に private constant MUTEX_FOR_THREAD_EXCLUSIVE を追加
+していたのを、Thread の特異クラスを定義してそのスコープのローカル変数として定義
+するようにして global な名前空間を使わないようにしています。メソッドを
+define_method のブロック渡しで定義することでこのローカル変数を Proc オブジェク
+トから参照できるようにしています。

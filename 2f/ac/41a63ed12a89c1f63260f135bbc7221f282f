@@ -1,0 +1,2 @@
+tool/enc-unicode.rb に --header オプションを追加して name2ctype.h を生成して差
+分を表示することができるようにしています。開発中のデバッグ用ですかね?

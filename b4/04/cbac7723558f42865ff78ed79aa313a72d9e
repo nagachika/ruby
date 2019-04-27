@@ -1,0 +1,3 @@
+test/webrick/test_filehandler.rb にてヒアドキュメントのデリミタ(って言うんです
+かね)にアンダースコアではさまれた _end_of_request_ という文字列が使われているの
+が emacs でうまくパースされないらしいので END_OF_REQUEST に変更されています。

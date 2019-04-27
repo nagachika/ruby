@@ -1,0 +1,4 @@
+tool/ifchanged の出力を colorize するようにしているようです。また aclocal.m4 を
+追加して configure に AC_MESSAGE という関数を追加してこちらも colorize している
+ようです。手元では configure の結果はわかりませんでしたが make 中に revision.h
+updated のメッセージの updated が赤く表示されました。

@@ -1,0 +1,3 @@
+r64022 で削除した tracer.gemspec を復活させて、バージョン番号を取得するために
+lib/tracer.rb 全体を require しなくても済むように lib/tracer/version.rb に定数
+を分離しています。そうか require "tracer" しただけで影響があるんですね。

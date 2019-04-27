@@ -1,0 +1,2 @@
+拡張ライブラリ io/nonblock に IO#nonblock?, IO#nonblock=, IO#nonblock 等のメソ
+ッドの rdoc 用コメントを追加しています。 https://github.com/ruby/ruby/pull/418

@@ -1,0 +1,2 @@
+r56558 で修正した heap_page_resurrect() で空きのない free list をかえさないよう
+にした修正のテストを追加しています。 [ruby-core:76837] [Bug #12670]

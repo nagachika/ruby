@@ -1,0 +1,3 @@
+io.c の pipe_atexit() は Windows 環境だけで利用されていて、rb_execarg_fixup_v()
+は fork() や spawnv() が使える環境のみで呼ばれているので、それぞれ #if で括って
+います。

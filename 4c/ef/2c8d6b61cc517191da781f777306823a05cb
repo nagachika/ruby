@@ -1,0 +1,4 @@
+thread_pthread.c の mjit_worker() で pthread_setcancelstate(3) を呼び出している
+ところを pthread_cancel() が利用可能な環境かどうか preprocessor で
+PTHREAD_CANCEL_ENABLE のチェックで括るようにしています。 Android の環境などで使
+えないことがあるようです。

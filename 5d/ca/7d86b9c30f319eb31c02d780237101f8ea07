@@ -1,0 +1,5 @@
+timer thread の廃止で blocking region に入ってる thread を起こすためにやっぱり
+timer thread を使うっていう環境で ubf_timer_pthread_create() を呼ぶ前に
+UBF_TIMER の値をチェックする分岐を明示的に入れています。定数マクロなので最適化
+で消えるはずですがコードの読みやすさのためとのこと。 [ruby-core:88475] [Misc #
+14937]

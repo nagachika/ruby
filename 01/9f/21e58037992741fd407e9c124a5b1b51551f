@@ -1,0 +1,2 @@
+/test/ruby/test_parse.rb の SyntaxError になるスクリプトのテストで eval を使っ
+ていたのを assert_syntax_error を利用するようにしています。

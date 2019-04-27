@@ -1,0 +1,6 @@
+r63943 で clang の attribute diagnose_if を使ったコンパイルエラーメッセージ改善
+をしていたのですが diagnose_if の存在チェックで __has_attribute を使うチェック
+を1つの #if でやるとエラーになってたみたいなので、__has_attribute() がなかった
+ら代替を定義してからチェックするようにしています。
+[追記]コメント欄にいただいた情報によると、#if の問題は古い gcc の preprocessor
+の不具合みたいです。[/追記]

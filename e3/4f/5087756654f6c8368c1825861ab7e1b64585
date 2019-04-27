@@ -1,0 +1,2 @@
+DragonFly BSD では isinf() と isnan() が関数マクロとして定義されているので
+ac_cv_func_isinf および ac_cv_func_isnan を yes に定義しています。

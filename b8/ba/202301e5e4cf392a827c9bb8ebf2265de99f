@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix に Matrix#first_minor というメソッドを追加して指定し
+た row と col を除いた余行列を返すようにしています。 NEWS ファイルにも追記され
+ています。 https://github.com/ruby/ruby/pull/568

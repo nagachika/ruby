@@ -1,0 +1,3 @@
+オブジェクトのフラグ(struct RBasic::flags)に STR_FAKESTR というフラグを追加して
+ObjectSpace で管理されていない fake string にこのフラグを立てて STR_SET_SHARED
+() でこれを参照して不正な WriteBarrier処理をしないようにしています。

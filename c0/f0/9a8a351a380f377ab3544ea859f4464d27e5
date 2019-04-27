@@ -1,0 +1,3 @@
+例外クラス XMLRPC::FaultException の initialize で super を呼んで例外オブジェク
+トとしての初期化をするようにしています。 message メソッドはあるけど to_s や
+inspect が期待したように動かなかったのを修正。おそらく backtrace もですね。

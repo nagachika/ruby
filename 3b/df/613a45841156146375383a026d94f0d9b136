@@ -1,0 +1,2 @@
+r54988 で include/ruby/defines.h に移動した GCC_VERSION_SINCE の定義で再定義を
+避けるために #ifndef で括るようにしています。

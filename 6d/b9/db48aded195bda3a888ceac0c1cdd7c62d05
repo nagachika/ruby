@@ -1,0 +1,2 @@
+rb_to_symbol() という C API を追加しています。任意のオブジェクトを(Symbol か
+String 以外だったら) to_str で文字列化してからその Symbol を返します。

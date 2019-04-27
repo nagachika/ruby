@@ -1,0 +1,4 @@
+Kernel#p で複数の引数を受け取った時に順に出力する間は
+Thread.async_interrupt_timing(:defer) で割り込みをマスクして実行しているような
+状態にするようにしています。このために thread.c に rb_uninterruptible という関
+数を定義しています。宣言は internal.h なので外部からは使えませんけど。

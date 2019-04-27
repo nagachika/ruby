@@ -1,0 +1,3 @@
+benchmark/bm_so_binary_trees.rb で puts を再定義して出力を抑制して、最大の木の
+深さを増やしています。また benchmark/gc/binarytree.rb でこのベンチマークを読み
+込む GC 用ベンチマークを追加しています。

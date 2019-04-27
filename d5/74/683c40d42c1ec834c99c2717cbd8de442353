@@ -1,0 +1,7 @@
+VM の命令実行部分で OPT_DIRECT_THREADED_CODE や OPT_CALL_THREADED_CODE (call
+threaded code ってなんだっけ)などが有効な実装の時に各命令のコードのメモリ上のア
+ドレスを持たせるテーブルを compile.c から iseq.c に移動して、insn_data_t という
+構造体を導入して単にアドレスだけでなく命令のサイズと、対応するコードの trace 無
+効時のものと trace 有効時のアドレスを持たせるようにしています。なるほどこれを使
+って trace なしの時に notrace のほうにジャンプさせるようにすることで命令を実装
+したコードを共通化しようってことかな。

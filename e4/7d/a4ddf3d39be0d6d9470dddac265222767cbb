@@ -1,0 +1,2 @@
+r62077 で追加したマクロ BITFIELD() をさっそく struct
+rb_method_definition_struct のメンバー type で利用しています。

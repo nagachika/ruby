@@ -1,0 +1,3 @@
+r61483 で eval 内で __FILE__ と __LINE__ が参照されてたら警告する処理をリファク
+タリングして eval_string_with_cref() 内から eval_make_iseq() 内に移動しています
+。

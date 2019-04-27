@@ -1,0 +1,2 @@
+enc/make_encmake.rb に --transes と --no-transes というオプションを追加して
+trans と atrans の追加削除を指定できるようにしています。

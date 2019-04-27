@@ -1,0 +1,2 @@
+irb に --disable-gems オプションを渡すと Gem が未定義なためエラーになっていたの
+を修正。[ruby-core:34990] [Bug #4345]

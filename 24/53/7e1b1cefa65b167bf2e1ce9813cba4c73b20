@@ -1,0 +1,4 @@
+ファイナライザの設定/削除用の C API の関数名を rb_define_final/
+rb_undefine_final から rb_define_finalizer/rb_undefine_finalizer に変更して
+include/ruby/intern.h に宣言を追加して外部の拡張ライブラリから直接利用できるよ
+うにしています。

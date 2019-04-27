@@ -1,0 +1,2 @@
+さらに ext/socket/mkconstants.rb の変更。生成するソースの INTEGER2VALUE() マク
+ロを INTEGER2NUM() と改名しています。

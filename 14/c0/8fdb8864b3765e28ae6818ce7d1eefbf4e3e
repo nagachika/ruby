@@ -1,0 +1,6 @@
+gc.c の rb_objspace_t のメンバの名称を変更しています。
+まず無名だったメモリ管理に関する構造体を struct heap として rb_objspace_t の外
+で定義しています。また rb_objspace_t::heap の中にあった sorted という page のア
+ドレスでのソート済みの配列を rb_objspace_t::heap_sorted_pages とひとつ外の階層
+に出しています。また rb_objspace_t::heap::range も同様に
+rb_objspace_t::heap_range に移動/改名しています。 range って何だったかな……。

@@ -1,0 +1,5 @@
+make のターゲットに git bisect を使って問題の発生したコミットを特定する処理を
+make bisect や make bisect-ruby でみつけることができるようにしているようです。
+対象の処理は make run (miniruby 使用) や make runruby で実行するように、つまり
+ソースディレクトリに test.rb というスクリプトを置いておけばいいようです。またそ
+のためのスクリプトを tool/bisect.sh に追加しています。これは便利そう。

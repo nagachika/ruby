@@ -1,0 +1,5 @@
+標準添付ライブラリ ostruct の protected method の modifiable,
+new_ostruct_member, table をそれぞれ modifiable?, new_ostruct_member!, table!
+など記号つきのメソッド名に改名しています。 OpenStruct のメンバー名とかぶらない
+ようにするためだそうです。なるほど。 table あたりはかぶりやすそうですね。
+https://github.com/ruby/ruby/pull/806

@@ -1,0 +1,2 @@
+gc.c で aligned_malloc/aligned_free のためにプラットフォーム毎に条件コンパイル
+しているところで defined を使うようにしています。

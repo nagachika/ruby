@@ -1,0 +1,3 @@
+process.c の exec 用のオプション情報をまとめた構造体 rb_execarg に umask の情報
+を mode_t としてそのまま持たせるようにして STATIC_ASSERT() や LONG2FIX() を使う
+のをやめています。

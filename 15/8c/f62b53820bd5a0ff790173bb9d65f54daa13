@@ -1,0 +1,7 @@
+標準添付ライブラリ yaml/store で YAML::Store#initialize から親クラスの PStore
+のメソッドが引数なしの super で呼ばれていたため、余分な引数が渡されて PStore#
+initialize の thread_safe に意図せず真が渡されるようになっていたので、YAML
+::Store#initialize にも省略可能な引数 thread_safe を追加してインタフェースを合
+わせています。またもうひとつの引数 yaml_opts も YAML に dump する時に使われてい
+なかったので、それも修正しています。そして yaml/store のテストを追加しています
+。 [ruby-dev:49821] [Bug #12800]

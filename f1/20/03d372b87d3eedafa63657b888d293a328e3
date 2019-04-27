@@ -1,0 +1,3 @@
+Array#fetch の rdoc 用コメントの英文の修正。というか負のインデックスについての
+説明の段落を分けて別の話になるようにしています。 https://github.com/ruby/ruby/
+pull/1472

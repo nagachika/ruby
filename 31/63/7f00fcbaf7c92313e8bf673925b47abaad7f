@@ -1,0 +1,2 @@
+test/test_prime.rb でインデントに tab を使っていたところを空白に展開しています
+。 https://github.com/ruby/ruby/pull/944

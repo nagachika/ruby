@@ -1,0 +1,2 @@
+test_thread.rb に追加した ConditioinVariable のテストで同じ名称のメソッドになっ
+ていたものを改名。

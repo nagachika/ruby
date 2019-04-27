@@ -1,0 +1,5 @@
+lib/yaml.rb でデフォルトの engine を Psych に変更したはずですが、先に require
+"sych" していると結局 Syck を利用していて、その時も require "psych" を実行して
+、libyaml が利用できなくて pysch がビルドできていない環境では毎回警告メッセージ
+が出ていたので require "yaml" 前に require "syck" されていたら require "psych"
+はしないようにしています。

@@ -1,0 +1,1 @@
+Hash#select! と Hash#keep_if の rdoc 用コメントに互いの参照を追記しています。

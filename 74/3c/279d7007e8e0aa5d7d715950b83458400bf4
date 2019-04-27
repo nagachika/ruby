@@ -1,0 +1,5 @@
+win32/win32.c の getifaddrs() と rb_w32_getppid() ではちゃんと static 変数で
+get_proc_address() で取得したシンボルのアドレスを保持していましたが、 NULL で初
+期化していたので、取得できない時に毎回 get_proc_address() を呼ぶことになってい
+たので、-1 をキャストした値で初期化して最初の1回だけ get_proc_address() が呼ば
+れるように修正しています。

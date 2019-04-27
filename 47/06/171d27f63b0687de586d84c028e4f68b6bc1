@@ -1,0 +1,5 @@
+r38076 で追加した RubyVM::InstructionSequence の機能 rb_iseq_line_trace_all と
+rb_iseq_line_trace_specify のドキュメントを追記しています。追加した時には Ruby
+のメソッドもあったのですが r38532 で Ruby のメソッド定義は削除されたので C の
+API だけ利用できる状態ですが、TracePoint のトレースを行単位で、特定の行でフック
+を呼び出すように設定したりすることができる新機能です。

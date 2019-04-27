@@ -1,0 +1,2 @@
+Psych::Parser#parse で yaml_parser_parse() で取得した event に対して
+yaml_event_delete() を呼ぶようにしています。メモリリークの解消。

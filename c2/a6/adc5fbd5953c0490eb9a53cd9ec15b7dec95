@@ -1,0 +1,4 @@
+r57507 と書いてあるけど r57506 の __builtin_add_overflow() などを用いた
+overflow 処理の実装の修正。 LSB を MSB にもってくる rb_ulong_rotate_right() は
+やりたいことを表す rb_overflowed_fix_to_int() と名前を変更して、明示的な型キャ
+ストを追加しています。

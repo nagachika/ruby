@@ -1,0 +1,4 @@
+Signal.trap で SIGSEGV, SIGILL, SIGBUS, SIGFPE のような同期的なシグナル(プログ
+ラムに問題があって発生する)や Ruby が内部的に利用している SIGVTALM、 SIGCHLD
+(SIGCLD) のハンドラを変更できないようにしています。 [ruby-core:27625] [Bug #
+2616]

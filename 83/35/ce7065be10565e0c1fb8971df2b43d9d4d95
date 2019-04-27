@@ -1,0 +1,9 @@
+拡張ライブラリ io/console をロードすると IO#getch というメソッドが追加されるの
+ですが、StringIO には getch が追加されないので、io/console と StringIO を併用し
+た時には StringIO#getch も定義されるようにしています。
+と言うのは簡単なのですが、そのために StringIO は IO::readable と IO::writable
+という Module *1を定義して、そこで StringIO のいくつかのメソッド(別のメソッドに
+処理を委譲するメソッド)の定義を移動し、それを StringIO が include するようにし
+ています。 io/console がロード時に IO::readable に getch の定義を追加することで
+io/console と stringio の両方をロードすると StringIO#getch が定義されるようにし
+ています。動作には大きな違いはありませんが中身はけっこう大きな変化ですね。

@@ -1,0 +1,2 @@
+rubyspec の Etc.sysconf(Etc::SC_TZNAME_MAX) のテストで Integer ではなく nil を
+返すこともあるみたいなのでチェックを修正しています。

@@ -1,0 +1,2 @@
+gems/bundled_gems のバージョンの指定を power_assert を 0.3.0, test-unit を
+3.1.9, minitest を 5.9.0, did_you_mean を 1.0.1 にそれぞれ更新しています。

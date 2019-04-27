@@ -1,0 +1,5 @@
+rb_str_new_cstr() etc.. の関数を gcc の __builtin_constant_p を利用して関数マク
+ロで wrap しているところは pcc では __builtin_constant_p が利用できないので
+__PCC__ が定義されていたら定義しないようにしています。
+また clang でコンパイルする時の DECL_SC_REG の定義の条件分岐を変更しています(結
+果は同じ)。

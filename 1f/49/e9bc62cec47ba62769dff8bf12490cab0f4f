@@ -1,0 +1,3 @@
+r64947 と r64949 の precompiled header の事前コピーを revert しています。
+AppVeyor でうまくビルドできなかったとのこと。 MAKE_LINK って Windows でも ln コ
+マンドになるんだな。

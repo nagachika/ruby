@@ -1,0 +1,2 @@
+rdoc に upstream の 6.1.0.beta3 をマージ。 ">>>" による BLOCKQUOTE の記法の対応
+や r66265 あたりで修正してたテストの assertion の修正などがあります。

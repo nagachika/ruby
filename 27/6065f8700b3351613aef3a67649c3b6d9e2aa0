@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle の extconf.rb や depend で make clean-libffi などのターゲ
+ットを追加してバンドルされている libffi 内での make clean を実施できるようにし
+ています。

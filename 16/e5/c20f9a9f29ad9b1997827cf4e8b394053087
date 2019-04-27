@@ -1,0 +1,2 @@
+compile.c の iseq_compile_each() から NODE_CASE の時の処理をまるっと
+compile_case() という関数に切り出すリファクタリング。

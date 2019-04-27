@@ -1,0 +1,2 @@
+Unicode の絵文字のバージョンを enc/unicode/10.0.0/name2ctype.h にマクロ定義とし
+て埋め込むようにしています。

@@ -1,0 +1,2 @@
+VM_CALLEE_SETUP_ARG() で CI_SET_FASTPATH() を有効にするかどうかのための
+protected のチェックの条件が反転していたのを修正。

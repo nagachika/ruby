@@ -1,0 +1,3 @@
+r49596 で実装された Random.random_number で引数に負の数も受け付けるようにしてい
+ます。元の SecureRandom.random_number が負の数だと 0 と同じで Float の乱数を返
+すようになっていたのでそれにそろえています。

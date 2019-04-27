@@ -1,0 +1,2 @@
+OpenStruct#delete_field でキーを削除した時に writer method の定義も削除するよう
+にしています。[ruby-core:33010]

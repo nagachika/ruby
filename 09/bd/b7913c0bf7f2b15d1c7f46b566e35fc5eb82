@@ -1,0 +1,5 @@
+explicit_bzero(3) が存在しない時に memset_s(3) を利用した代替の inline 関数の定
+義を include/ruby/missing.h で inline 関数として書いていたのを missing.c で定義
+するようにしています。また missing.c で #include <string.h> を追加しています。
+拡張ライブラリでヘッダの #include 順によるのビルドエラーを回避するための修正だ
+そうです。

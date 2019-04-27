@@ -1,0 +1,2 @@
+parse.y の rb_gc_free_dsymbol() で type punning 警告のでるアドレス演算子+キャス
+トをやめてローカル変数に一旦格納するようにしています。

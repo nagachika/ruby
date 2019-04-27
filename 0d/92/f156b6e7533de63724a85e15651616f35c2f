@@ -1,0 +1,4 @@
+r61398 で webrick の cgi_runner.rb で IO#reopen の引数を変更しましたが、Windows
+環境では IO#reopen にファイルパスを渡すのがうまくいかないみたいで、とりあえず
+File.open した IO オブジェクトを渡す方法にしています。 [ruby-core:84391] [Misc
+#14216] [ruby-core:84398] [Bug #14420]

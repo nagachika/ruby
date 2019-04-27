@@ -1,0 +1,5 @@
+標準添付ライブラリ resolv で Resolv::Hosts.new でソケットを開いていたのを
+lazy_initialize というメソッドに分離して初期化を遅延させるようにしています。 fd
+leak していたのを修正しているようです。またソケットなどのリソースの管理を Mutex
+で保護するようにして multi thread での利用時の race condition が発生する可能性
+があったのを修正しています。 [ruby-core:85901] [Bug #14571]

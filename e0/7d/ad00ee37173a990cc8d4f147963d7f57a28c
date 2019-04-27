@@ -1,0 +1,4 @@
+構造体メンバ rb_env_t::prev_envval を削除しています。これも rb_env_t::block.ep
+から取得できるので rb_vm_env_prev_envval() という関数を導入してこれを使って辿る
+ようにしています。また関連して ENV_IN_HEAP_P() → VM_EP_IN_HEAP_P() や ENV_VAL
+() → VM_ENV_EP_ENVVAL() などのマクロ名の改名もしています。

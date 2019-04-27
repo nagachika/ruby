@@ -1,0 +1,2 @@
+SystemStackError を再 raise した時に backtrace が上書きされないように既にセット
+済みなら上書きしないようにしています。 [ruby-core:63377] [Feature #6216]

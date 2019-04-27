@@ -1,0 +1,3 @@
+external_str_new_cstr() という関数で Encoding の扱いの関係で Windows 環境下で別
+処理になってて taint していなかったのを修正しています。 ARGV や $0 の初期化に使
+っているようです。 [ruby-dev:50596] [Bug #14941]

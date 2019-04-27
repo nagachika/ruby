@@ -1,0 +1,3 @@
+r52986 と同様に T_TYPEDATA 型オブジェクトの memsize 用の関数で NULL チェックが
+不要になったので marshal.c の memsize_dump_arg() と memsize_load_arg() でも
+NULL チェックを省いています。

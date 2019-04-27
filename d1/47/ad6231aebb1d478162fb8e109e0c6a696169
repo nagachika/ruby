@@ -1,0 +1,2 @@
+super によるメソッド呼び出しの処理 vm_search_super_method() で inline cache に
+よる method entry の取得を有効にしています。が、次で revert されています。

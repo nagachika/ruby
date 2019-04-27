@@ -1,0 +1,3 @@
+Haiku というプラットフォームでは PIE(Position Independent Executable: 位置独立
+実行形式)のサポートが不完全なので -pie オプションを off にするように
+configure.in を修正しています。

@@ -1,0 +1,2 @@
+variable.c のリファクタリング。 NameError の発生処理を undefined_constant() と
+いう関数に切り出しています。

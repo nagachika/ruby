@@ -1,0 +1,2 @@
+bary_small_lshift() および bary_small_rshift() の定義を前のほうに移動して前置プ
+ロトタイプ宣言を不要にしています。

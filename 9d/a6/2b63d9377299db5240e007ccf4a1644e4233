@@ -1,0 +1,7 @@
+native_thread_init() と native_thread_destroy() で #if
+HAVE_PTHREAD_CONDATTR_INIT で native_cond_{initialize,destroy} の呼び出しをくく
+っていたのをやめています。この処理が抜けていると th->
+native_thread_data.sleep_cond が未初期化になってしまうことと、native_cond_
+{initialize,destroy}() の内部で同様の条件コンパイルをしているので呼び出しても問
+題ない(というか呼ばないと else の時の初期化が漏れる)ということです。 [Bug #
+6825]

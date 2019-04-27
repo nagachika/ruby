@@ -1,0 +1,4 @@
+string.c の rb_str_shared_replace() から2つの引数が同一のオブジェクトじゃないか
+どうかのチェックだけを残して他の処理を str_shared_replace() という static 関数
+に切り出し、str_gsub() rb_str_reverse_bang() などからはこのチェックを省いた関数
+を直接呼び出すようにする、ちょっとした最適化をしています。

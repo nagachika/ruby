@@ -1,0 +1,3 @@
+threa_pthread.c の native_sleep() で SIGCHLD シグナル処理のための pipe の fd を
+返却する処理を GVL を再獲得した後に行うように順序を変更しています。パフォーマン
+スの改善のためみたいですね。

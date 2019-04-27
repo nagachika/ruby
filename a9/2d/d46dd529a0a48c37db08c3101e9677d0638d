@@ -1,0 +1,2 @@
+gc.c で定数 HEAP_ALIGN と HEAP_ALIGN_MASK の定義を数値をそのまま書くのでなく
+HEAP_ALIGN_LOG から計算するようにリファクタリングしています。

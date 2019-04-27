@@ -1,0 +1,2 @@
+TracePoint のテストでトレース取り終わったら後始末で TracePoint#disable するよう
+にしています。

@@ -1,0 +1,4 @@
+compile.c で new_insn_send() の引数 id の型が VALUE だったのを ID にして、不要
+な ID2SYM() と SYM2ID() の変換を削除しています。呼び元でもほとんど(というかたぶ
+ん全て) ID から Symbol に変換していたのに、関数中でも Symbol から ID に変換して
+使っていて無駄だったので省いています。 [ruby-core:64807] [misc #10207]

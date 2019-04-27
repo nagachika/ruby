@@ -1,0 +1,5 @@
+同じく configure で gcc のオプションに -fstack-protector を付けるようにしていま
+す。これはローカル変数の配列などの操作でオーバフローを起こして関数のリターンア
+ドレスを書き変えてしまう現象を防ぐための措置を入れるようになるそうです。参考URL
+: http://www.ipa.go.jp/security/awareness/vendor/programmingv2/contents/
+c905.html

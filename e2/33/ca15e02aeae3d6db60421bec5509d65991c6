@@ -1,0 +1,3 @@
+backtrace(3) で C レベルのバックトレースをシグナルハンドラ内で取得することがで
+きるかどうかを configure で確かめて、使えなかった時は BROKEN_BACKTRACE を定義し
+て HAVE_BACKTRACE を無効にするようにしています。

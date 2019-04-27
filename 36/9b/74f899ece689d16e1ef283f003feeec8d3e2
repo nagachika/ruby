@@ -1,0 +1,3 @@
+r62098 で make showflags で BASERUBY を実行してバージョンを表示しようとしてまし
+たが、BASERUBY がない場合などもあるので $(BASERUBY) の内容を表示するのみに留め
+ています。

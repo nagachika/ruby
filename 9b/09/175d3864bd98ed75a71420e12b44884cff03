@@ -1,0 +1,2 @@
+NEWS ファイルに XMLRPC が標準添付ライブラリから削除され bundled gem になったこ
+とを追記しています。 [ruby-core:74239] [Feature #12160]

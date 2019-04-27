@@ -1,0 +1,2 @@
+MinGW 環境で PRINTF_ARGS() マクロの定義で printf のかわりに gnu_printf という関
+数名? を使うようにしています。 [ruby-core:80832] [Bug #13496]

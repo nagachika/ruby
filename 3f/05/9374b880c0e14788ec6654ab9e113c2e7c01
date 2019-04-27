@@ -1,0 +1,2 @@
+sample/iseq_loader.rb で Kernel#open を使っているところを File.open を使うよう
+にしてファイルを開くのに限定するようにしています。

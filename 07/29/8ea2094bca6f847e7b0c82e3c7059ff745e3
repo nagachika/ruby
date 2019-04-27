@@ -1,0 +1,7 @@
+bootstraptest/runner.rb で MJIT が有効な時にタイムアウトを伸ばすために
+RubyVM::MJIT.enabled? を呼んでるところを defined? で定数の存在チェックしてから
+呼ぶようにしています。ここは BASERUBY で呼ばれるから古い ruby で実行する可能性
+があるみたいでした。
+[追記]ささださん曰く「通常はBASERUBYじゃなくてminirubyで呼んでます。miniruby で
+動かせなくなってしまったのでしかたなく古い ruby で動かそうとして困ったので」と
+のことでした。[/追記]

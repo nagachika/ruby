@@ -1,0 +1,4 @@
+string.c の rb_str_enumerate_lines(), rb_str_enumerate_chars(),
+rb_str_enumerate_codepoints() で未初期化変数の警告回避のために代入文を追加した
+r37848 の修正は、宣言するところで UNINITIALIZED_VAR() を使う方法で回避したので
+revert しています。

@@ -1,0 +1,4 @@
+struct RSymbol の定義を internal.h から symbol.h に移動しています。また RVALUE
+型の共用体からも struct RSymbol は消しています。あれ、RVALUE から消しても大丈夫
+なのか。なるほど gc.c からも直接は弄らず rb_gc_free_dsymbol(obj) などの関数を経
+由して操作するようになっているのですね。

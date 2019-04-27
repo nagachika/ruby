@@ -1,0 +1,3 @@
+r46089 のテストでの Thread と Tempfile の leak 検出で、Thread は各テストメソッ
+ド前後で比較するようにしていますが、Tempfile はテストクラス単位で比較するように
+しています。 ObjectSpace.each_object の呼び出し頻度を押さえるためでしょうか。

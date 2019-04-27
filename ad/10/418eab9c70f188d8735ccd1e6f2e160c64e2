@@ -1,0 +1,2 @@
+bugs.ruby-lang.org の Redmine が更新された為に tool/redmine-backporter.rb で
+revision の確認に使っていたエンドポイントの path が変化したのに追随しています。

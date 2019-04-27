@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http のテストで Net::HTTP の内部の socket をテストのため
+MockSocket にすりかえる時に、元の socket を close し忘れていたのを修正していま
+す。

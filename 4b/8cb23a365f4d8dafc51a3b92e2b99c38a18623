@@ -1,0 +1,5 @@
+C-API の rb_disable_super() と rb_enable_super() を deprecated にマークして実行
+時でなくコンパイル時の警告にするようにしています。 rb_{enable,disable}_super()
+ってなんだっけ。まったく思い出せない…。日記にもないので ruby-trunk-changes 書
+きはじめる前に既に deprecated になってたっぽいですね。 doc/ChangeLog-1.8.0 に書
+いてあるから 1.8 系の時か。

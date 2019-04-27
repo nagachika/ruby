@@ -1,0 +1,3 @@
+README.EXT に rb_call_super() についての説明を追記しています。うーん、これわた
+しにとってはちょっと英文が難しいというかあいまいな気がしますね。 https://
+github.com/ruby/ruby/pull/623

@@ -1,0 +1,3 @@
+r56053 の追加修正。 mkmf.rb の timestamp_file で TARGET_SO_DIR は $
+(RUBYARCHDIR) に置換するルールを追加しています。がこれは後で revert されていま
+す。

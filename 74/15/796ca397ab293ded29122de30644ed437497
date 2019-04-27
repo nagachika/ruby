@@ -1,0 +1,3 @@
+lib/unicode_normalize/normalize.rb で定義されている定数のマジックナンバーの意味
+について参照 URL をコメントで追記しています。 http://www.unicode.org/versions/
+Unicode7.0.0/ch03.pdf の 144,145p 参照とのこと。

@@ -1,0 +1,4 @@
+Thread.report_on_exception の rdoc 用コメントにデフォルト値の変更について追随と
+、メッセージが出るようになってしまって困った時には、例外を Thread 内で rescue
+するようにするか、Thread#report_on_exception= で Thread 毎に無効にすることがで
+きるというヒントを追記しています。

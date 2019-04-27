@@ -1,0 +1,4 @@
+r53707 の RubyGems の 2.5.2 のマージの時に magic comment の coding の前に
+frozen-string-literal が入っていたのを、順番を逆にしています。 coding の magic
+comment は shebang を除いた最初の行に書かないといけなかったようです。なるほどそ
+うなのか。

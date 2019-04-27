@@ -1,0 +1,4 @@
+tool/merger.rb で ChangeLog の conflict を特別に処理している部分は現在メンテナ
+ンスされている ruby_2_4 からはもう ChangeLog ファイルは存在していないので削って
+、ChangeLog の変更をコミットログに追加するのも(最近のコミットではそもそも
+ChangeLog の編集もないはずなので)削っています。

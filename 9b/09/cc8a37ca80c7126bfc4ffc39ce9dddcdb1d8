@@ -1,0 +1,3 @@
+Integer#pow メソッドを追加しています。その名の通り pow の Integer 版で、引数も
+Integer でないといけないようです。 https://github.com/ruby/ruby/pull/1320
+[Feature #12508] [Feature #11003]

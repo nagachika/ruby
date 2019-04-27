@@ -1,0 +1,2 @@
+r56033 は revert して doc/NEWS-2.2.0 で IO#nonblock_read や IO#nonblock_write
+と書かれていたメソッド名を read_nonblock/write_nonblock に修正しています。

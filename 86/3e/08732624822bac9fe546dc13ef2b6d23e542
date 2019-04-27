@@ -1,0 +1,2 @@
+rb_thread_terminate_all() で EXEC_TAG() に含まれる setjmp(3) があるため th 変数
+に再代入することで "clobbered by setjmp or vfork" の警告を除去しています。

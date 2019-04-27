@@ -1,0 +1,3 @@
+ext/extmk.rb で生成する exts.mk の note というターゲットで表示する configure 時
+のエラー? を行毎に echo して表示するようにしているようです。 [ruby-core:79475]
+[Bug #13200]

@@ -1,0 +1,4 @@
+rb_check_type() から組み込みのクラスの型名(T_XXXX に対応する名前)を特定する処理
+を rb_builtin_type_name() として切り出しています。デバッグ時に使うためとのこと
+。また builtin_type_name() というまぎらわしい static 関数があったので関数名をこ
+れに合わせて builtin_class_name() に改名しています。

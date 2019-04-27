@@ -1,0 +1,2 @@
+新規に作った関数 rb_vm_rewrite_dfp_in_errinfo() が return していないので戻り値
+の型を void に変更(警告を除去)。

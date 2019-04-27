@@ -1,0 +1,3 @@
+r61067 の Windows の ReFS 対応の再修正の追加修正で、
+GetFileInformationByHandleEx() がエラーを返した時に ERROR_INVALID_PARAMETER で
+なかったら fallback せずにその場でエラーにするようにしています。

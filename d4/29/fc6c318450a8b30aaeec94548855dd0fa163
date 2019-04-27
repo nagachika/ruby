@@ -1,0 +1,2 @@
+Comparable の rdoc 用コメントのサンプルコードで変数名が camelcase だったのを変
+更しています。 https://github.com/ruby/ruby/pull/833

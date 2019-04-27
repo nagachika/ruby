@@ -1,0 +1,3 @@
+inline 関数化した RVALUE_PROMOTED() 内で型の警告抑制のため(?) bitmap のチェック
+結果を直接 int 型の変数に代入せず条件演算子で TRUE/FALSE の定数を代入するように
+しています。

@@ -1,0 +1,2 @@
+DL や Fiddle の認識する型に size_t, ptrdiff_t, intptr_t を追加しています。
+[ruby-core:42460][Feature #5992]

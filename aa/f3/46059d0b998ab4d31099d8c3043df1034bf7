@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_call_iseq_setup_normal()、 vm_call_iseq_setup_tailcall()
+、vm_call_method() に明示的な inline 指示子をつけています。

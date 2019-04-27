@@ -1,0 +1,2 @@
+rb_alias() の仮引数名をコピー元とコピー先がどっちかわかりやすいように name ->
+alias_name, def -> original_name と改名しています。

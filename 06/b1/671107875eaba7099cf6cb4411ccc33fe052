@@ -1,0 +1,2 @@
+rb_integer_pack_internal() と rb_integer_unpack() から numwords 引数のチェック
+を validate_integer_pack_format() に移動しています。

@@ -1,0 +1,4 @@
+test/ruby/test_file_exhaustive.rb に File.owned? のテストを追加しています。
+root ユーザーでなければ(厳密には実効ユーザID が 0 でなければ) "/" の owner では
+ないので "/" を使うようにしているようです。また Windows ではサポートされないの
+でテストは分岐しています。

@@ -1,0 +1,1 @@
+exts.mk で -l オプションを LDFLAGS ではなく libs に含めるように修正しています

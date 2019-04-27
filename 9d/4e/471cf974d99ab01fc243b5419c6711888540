@@ -1,0 +1,6 @@
+rb_thread_t::interrupt_flag の操作をきちんと排他して行なうようにしています。そ
+のために signal.c に signal_buff のカウンタ用にあった atomic 操作用のマクロ群を
+atomic.h として分離して、さらに ATOMIC_EXCHANGE() というマクロを追加しています
+。 rb_threadptr_execute_interrupt_rec() で interrupt_flag をそのままビットチェ
+ック、クリアしていたのを ATOMIC_EXCHANGE() を利用するようにしています。
+[ruby-dev:43467] [Bug #4770]

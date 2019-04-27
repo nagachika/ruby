@@ -1,0 +1,2 @@
+benchmark/README.md にまだ benchmark-driver という間違った gem 名が残ってたので
+修正。

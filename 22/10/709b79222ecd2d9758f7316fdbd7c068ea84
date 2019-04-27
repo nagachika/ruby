@@ -1,0 +1,3 @@
+r66930 の IO.copy_stream に fcopyfile(3) を利用する変更の再挑戦。
+nogvl_copy_file_range() でコピー先の fd に対する lseek() が抜けていたようです。
+rubyspec さすが細かいところをみてますね。

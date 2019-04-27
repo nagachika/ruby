@@ -1,0 +1,4 @@
+Makefile.in の after-update の依存関係を common-srcs から prereq に変更して、
+common.mk の common-srcs の依存関係に incs を追加しています。 incs は vm 系や
+r58438 で消した enc/jis/props.h を生成するルールで、なにかしらのターゲットから
+生成する依存が足りてなかったんでしょうね。

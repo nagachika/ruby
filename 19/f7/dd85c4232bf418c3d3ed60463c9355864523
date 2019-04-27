@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb の rel コマンドで関連コミットを追加した時に
+@changesets の validated メソッドを削除しています。関連するコミットが変更になっ
+たので再取得を促すためみたいです。

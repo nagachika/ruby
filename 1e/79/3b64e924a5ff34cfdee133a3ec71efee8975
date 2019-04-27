@@ -1,0 +1,2 @@
+common.mk の PRELUDE_SCRIPTS から enc/prelude.rb を削除しています。が次で
+revert されています。

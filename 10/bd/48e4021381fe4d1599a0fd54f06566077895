@@ -1,0 +1,2 @@
+String#lines や String#each_line の paragraph mode の処理を一箇所にまとめて、CR
++LF の改行コードによる paragraph 分割にも対応するようにしています。

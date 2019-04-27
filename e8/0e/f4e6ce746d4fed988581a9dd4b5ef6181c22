@@ -1,0 +1,2 @@
+vm_backtrace.c で rb_vm_t の取得に GET_THREAD() を使ってるところがあったので、
+GET_VM() を使うように変更しています。

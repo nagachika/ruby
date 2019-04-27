@@ -1,0 +1,1 @@
+.travis.yml の build matrix に osx を追加しています。

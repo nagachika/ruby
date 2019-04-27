@@ -1,0 +1,2 @@
+r60427 の T_IMEMO 型オブジェクトを一時バッファ用に確保する時に WB-unprotected
+にする修正を rb_imemo_alloc_new() という関数に切り出しています。

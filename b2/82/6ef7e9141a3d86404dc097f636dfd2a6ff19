@@ -1,0 +1,3 @@
+test/lib/zombie_hunter.rb で MJIT が有効だとコンパイラのプロセスが子プロセスと
+して起動するため leak 判定に影響するため無効にしていた ZombieHunter の定義を復
+活させています。normal さんの修正で直ってるはずとのこと。

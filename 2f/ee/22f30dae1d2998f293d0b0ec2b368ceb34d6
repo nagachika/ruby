@@ -1,0 +1,3 @@
+Fixnum#bit_length と Bignum#bit_length の rdoc コメントに bit_length を使って
+Array#pack で整数を pack する時にオーバフロー検出につかえるということの追記して
+います。

@@ -1,0 +1,4 @@
+IO#gets, IO#readline, IO#readlines, IO#each_line などの rdoc 用コメントに chomp
+オプションについて追記しています。正確には各メソッドには getline_args という名
+前で書いておいて、IO.readlines の rdoc コメントに詳細はまとめて書いておくという
+記法になっています。 https://github.com/ruby/ruby/pull/1717

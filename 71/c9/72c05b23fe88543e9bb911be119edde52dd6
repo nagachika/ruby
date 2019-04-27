@@ -1,0 +1,3 @@
+r52422 で追加された parse.y のマクロ NO_QCALL() で条件演算子の a ? b : c の b
+と c の型が同じでないというエラーで Solaris Studio でコンパイルエラーになるそう
+なので (void) を追加しています。 [ruby-dev:49327] [Bug #11645]

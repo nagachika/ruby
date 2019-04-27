@@ -1,0 +1,3 @@
+拡張ライブラリ tk の extconf.rb で tcl のバージョンチェックのために try_cpp を
+使っている部分を have_header を使うように変更しています。 VC で try_cpp が遅い
+ためだそうです。

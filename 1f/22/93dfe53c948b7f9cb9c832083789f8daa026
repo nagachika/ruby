@@ -1,0 +1,2 @@
+r62209 の続き。 rb_mjit_header.h の minimize 化の依存関係に $(MINIRUBY) を追加
+しています。

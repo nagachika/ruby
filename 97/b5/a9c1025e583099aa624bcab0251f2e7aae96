@@ -1,0 +1,2 @@
+rb_integer_pack()/rb_integer_unpack() のビットフラグによる word order と byte
+order (エンディアン)の指定が不正だった時のエラーメッセージを修正しています。

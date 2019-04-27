@@ -1,0 +1,2 @@
+GC::Profiler.enable? が true/false を返すべきところ int 型を VALUE として返して
+しまっていたのを修正。 [ruby-core:46919] [Bug #6821]

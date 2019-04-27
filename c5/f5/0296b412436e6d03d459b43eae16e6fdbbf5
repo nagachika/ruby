@@ -1,0 +1,2 @@
+r64504 で追加した rb_iseq_remove_coverage_all() の宣言や定義で引数を明示的に
+void と指定するようにしています。

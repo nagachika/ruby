@@ -1,0 +1,2 @@
+ioctl/fctl に渡すための変数/引数の型を unsigned long から int に変更しています
+。

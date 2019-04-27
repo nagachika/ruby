@@ -1,0 +1,2 @@
+STATIC_ASSERT() を使って bignum.c で SIZEOF_BDIGIT_DBL が sizeof(BDIGIT_DBL) と
+同じ数値に定義されていることをチェックするようにしています。

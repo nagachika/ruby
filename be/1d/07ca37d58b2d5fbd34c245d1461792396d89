@@ -1,0 +1,3 @@
+r59073 の変更のために切り出した dump_disasm_list_with_cursor_dest() という関数
+を dump_disasm_list_with_cursor() に改名してさらに BADINSN_DUMP() というマクロ
+で wrap してこれを呼ぶようにリファクタリングしています。

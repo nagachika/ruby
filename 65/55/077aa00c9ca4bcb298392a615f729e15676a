@@ -1,0 +1,2 @@
+compile.c の構造体 LABEL のメンバー set を bit field にしています。1つだけ bit
+field にしてサイズは減るのかな。

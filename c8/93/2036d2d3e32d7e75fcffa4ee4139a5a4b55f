@@ -1,0 +1,2 @@
+proc.c の method_callable_method_entry() の引数に修飾子 const を追加しています
+。

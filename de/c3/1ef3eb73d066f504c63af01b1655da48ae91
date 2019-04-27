@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext で初期化するインスタンス変数
+に @alpn_protocols と @alpn_select_cb を追加しています。

@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_TYPELIB への変換関数を win32ole_typelib.c
+へ移動するリファクタリング。

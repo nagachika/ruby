@@ -1,0 +1,3 @@
+GC のベンチマークスクリプト benchmark/gc/gcbench.rb で終了時に可能なら /proc/
+self/status を読んで HWM(high water mark) つまり最大のメモリ使用量? を表示する
+ようにしています。

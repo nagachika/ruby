@@ -1,0 +1,2 @@
+Module#attr_accessor などに不正な名称を与えた時に NameError が発生するテストを
+追加しています。

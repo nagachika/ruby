@@ -1,0 +1,3 @@
+Dir.children と Dir.each_child というメソッドを新規追加しています。つまりこれは
+"." と ".." が現れない Dir.entries と Dir.each というわけですね。なるほどメソッ
+ドを別に追加することにしたのかー。 [ruby-dev:49135] [Feature #11302]

@@ -1,0 +1,7 @@
+Array#reject の中で callcc で Continuation を作成して reject を抜けた後で再入す
+ると SEGV する不具合を修正しています。 ary_reject() で rb_ary_push_1() という関
+数を利用していたのを rb_ary_push() を利用するようにしています。 rb_ary_push()
+と rb_ary_push_1() は capa が足りない時に拡張する方法だけが違っていて、配列が
+shared array の場合の考慮がないものだったので考慮する版を使うようにしています。
+なんで rb_ary_push_1() の実装がぽつんと残ってたんでしょうね。 [ruby-dev:48101]
+[Bug #9727]

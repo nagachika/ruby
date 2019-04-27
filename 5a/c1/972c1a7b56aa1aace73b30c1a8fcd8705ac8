@@ -1,0 +1,3 @@
+rb_call_info_t 内に埋め込まれてた missing_reason の enum 型を enum
+method_missing_reason として外に切り出して、rb_call_info_t のフィールド名も
+method_missing_reason に変更しています。

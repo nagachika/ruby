@@ -1,0 +1,2 @@
+標準添付ライブラリ logger で Logger::LogDevice#initialize の Hash を受け取るオ
+プション引数をキーワード引数におきかえています。

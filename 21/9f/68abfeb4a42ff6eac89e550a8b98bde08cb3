@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb の backport サブコマンドで表示するコマンドラインの
+merger.rb のパスを Windows 環境では単に "merger" とするようにしています。 usa
+さん専用ですね。

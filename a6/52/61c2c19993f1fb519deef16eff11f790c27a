@@ -1,0 +1,2 @@
+win32/win32.c の rb_w32_ugetenv() と rb_w32_getenv() から主な処理を w32_getenv
+() として切り出して、その引数に渡す codepage のみ変更するようにしています。

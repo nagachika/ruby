@@ -1,0 +1,4 @@
+test/rubygems/test_require.rb のテストで require "a" できるかどうかというテスト
+で "a.rb" というファイルがロードパスにたまたまあったらテストが誤作動するので
+require "test_gem_require_a" をするように変更しています。 [ruby-core:51720]
+[Bug #7749]

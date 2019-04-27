@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Socket.getifaddrs で getifaddrs(3) が ifaddrs に NULL
+を返した場合のチェックがなくメモリリークの可能性があったのを、すぐに空の配列を
+返すようにして防いでいます。これも Coverity Scan で発見された不具合とのこと。

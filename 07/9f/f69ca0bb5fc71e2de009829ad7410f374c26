@@ -1,0 +1,2 @@
+r43863 に続いて拡張ライブラリ psych の時刻のパース用の正規表現の修正。年に負の
+数を受けつけるようにしています。 https://github.com/tenderlove/psych/issues/168

@@ -1,0 +1,2 @@
+Makefile.in および common.mk, win32/Makefile.sub から未使用の変数 MKMAIN_CMD と
+そのルールを削除しています。

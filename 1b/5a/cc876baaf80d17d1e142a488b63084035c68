@@ -1,0 +1,3 @@
+Array#sort で要素が Float の時に比較を rb_float_cmp() を直接呼んでメソッド呼び
+出しを抑制する最適化を行なっています。 https://github.com/ruby/ruby/pull/1539
+[ruby-dev:50023] [Bug #13340]

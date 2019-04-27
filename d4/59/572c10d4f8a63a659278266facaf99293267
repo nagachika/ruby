@@ -1,0 +1,2 @@
+Exception#full_message のテストに、不正な :order オプションを渡した時のチェック
+を追加しています。

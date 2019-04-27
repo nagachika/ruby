@@ -1,0 +1,2 @@
+vm_dump.c から #include "probes.h" を消して vm_dump.o の probes.h への依存を切
+っています。 include していたものの実際には利用していなかったみたいです。

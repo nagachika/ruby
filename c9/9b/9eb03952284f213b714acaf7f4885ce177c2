@@ -1,0 +1,4 @@
+thread とその fiber の VM stack を共有するようにしています。グローバルな設定で
+thread の VM スタックサイズと Fiber の VM スタックサイズが一致してたら都度確保
+せずに、USE_THREAD_DATA_RECYCLE が真の時に thread の VM スタック使いまわしをし
+ていた機構を Fiber でも利用するようにしています。 [Feature #15095] [Bug #15050]

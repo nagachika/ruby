@@ -1,0 +1,4 @@
+同じく r67479 の変更で rb_add_method_iseq で構造体 rb_method_iseq_t と同じレイ
+アウトの構造体を関数内で定義して rb_add_method() に引数として渡してたのを普通に
+rb_method_iseq_t の変数を定義して使うように修正しています。なんでこんなことして
+たんだろ。

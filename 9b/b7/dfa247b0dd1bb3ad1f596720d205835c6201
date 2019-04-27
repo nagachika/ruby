@@ -1,0 +1,4 @@
+標準添付ライブラリ timeout で定義されている例外 Timeout::Error には別名として
+TimeoutError という定数に代入されているのですが、テストや標準添付ライブラリ、
+rdoc 用のコメントなどで TimeoutError と記述されていたところを正式なクラス名であ
+る Timeout::Error に修正しています。 [ruby-core:65481] [misc #10339]

@@ -1,0 +1,4 @@
+rubyspec の socket の MSG_OOB を使った送受信のテストで accept する前の listen
+socket に setsockopt() で OOBINLINE をセットしてましたが、accept でできた
+socket のほうにつけるように修正しています。使いかたが間違ってたのか。r64223 の
+一部の FreeBSD で先に close する対応は削除しています。

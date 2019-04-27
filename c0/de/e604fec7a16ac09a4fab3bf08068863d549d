@@ -1,0 +1,4 @@
+Process.getrlimit と Process.setrlimit のリソース名が文字列指定された時に、不明
+なリソース名を ArgumentError のメッセージに埋め込む時に PRIsVALUE を利用して
+VALUE のまま埋め込むようにして、エンコーディングを保持したままにするようにして
+います。

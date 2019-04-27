@@ -1,0 +1,6 @@
+RubyVM::InstructionSequence#to_ary で ISeq をデコードする時に命令の種類の数とし
+て VM_INSTRUCTION_SIZE を参照していましたが、trace あり版となし版で2倍に増えて
+いるので、半分のサイズにして insn_syms 配列を確保するようにしています。 VM のメ
+インループの最適化のうち OPT_CALL_THREADED_CODE という手法を使うときだけ
+iseq_encoded が上書きされるからなんとか…と書いてあるので特定の環境でのみ発生す
+る問題があったのだと思います。

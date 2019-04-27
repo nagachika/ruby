@@ -1,0 +1,7 @@
+昨日の r46495 に続き signal.c の check_stack_overflow() でオーバフロー検出した
+時に、最後の TAG の rb_vm_tag_t が stack pointer と同じメモリページにあったらそ
+れを pop しておくようにしています。 ruby_thread_stack_overflow() で巻き戻す時に
+再度 SEGV が発生して無限ループ状態に陥るのを防ぐためということですが、このへん
+TH_PUSH_TAG() の時に fault page に構造体を配置しそうになったらすぐ失敗するよう
+にする変更が前入っていたような…。コンパイラやオプションによってはそれでも push
+できてしまうことがあるみたいですね。 [ruby-dev:48312] [Bug #9971]

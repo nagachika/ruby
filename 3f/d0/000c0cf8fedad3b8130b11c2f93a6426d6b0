@@ -1,0 +1,17 @@
+Module#prepend を使った時に Module#included_modules が self (その Module もしく
+は Class 自体)を含んでしまう不具合を修正しています。 prepend が継承ツリー上で、
+元のクラスのメソッドエントリを移植した IClass を RCLASS_ORIGIN() が元のクラスを
+指すようにして prepend した Module のあとに挿入するようになっていたのですが、そ
+の IClass を特別扱いしていなかったのでその IClass が指している元のクラスも出現
+してしまっていたようです。 [ruby-core:53158] [Bug #8025]
+しかし、この修正だと Module#included_modules の self だけが特別あつかいされてい
+るので、継承した親クラスが prepend を使っていたケースなどでその親クラスが登場し
+てしまう現象が残っているようです。
+module M1; end
+class C1
+  prepend M1
+end
+class C2 < C1
+end
+p C1.included_modules # => [M1, Kernel]
+p C2.included_modules # => [M1, C1, Kernel]

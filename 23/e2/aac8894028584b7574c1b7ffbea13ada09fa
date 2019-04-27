@@ -1,0 +1,2 @@
+r58217 で追加された tool/git-refresh で git rev-parse を利用していたのをやめて
+います。 TravisCI で git コマンドが古くて期待したように動かなかったそうです。

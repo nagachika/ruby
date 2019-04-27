@@ -1,0 +1,5 @@
+Struct.new に keyword_init というキーワード引数を追加して、これに真値が渡された
+ら Struct.new で生成した Class の new メソッドでインスタンスを作る時に、引数に
+Hash を渡して名前で属性を指定できるようにしています。厳密にはキーワード引数では
+なくてオプション引数(最後の Hash の引数)として処理しているようですね。 https://
+github.com/ruby/ruby/pull/1771 [ruby-core:72595] [Feature #11925]

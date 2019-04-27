@@ -1,0 +1,2 @@
+標準添付ライブラリのテストスクリプトのうち test/rexml/test_xpath*.rb のものを
+test/rexml/xpath/ というサブディレクトリの下に移動しています。

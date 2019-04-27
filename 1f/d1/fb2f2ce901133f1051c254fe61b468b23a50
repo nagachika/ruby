@@ -1,0 +1,7 @@
+debug_counter.h で #include "debug_counter.h" と自分自身を #include していたの
+を、#include __FILE__ と __FILE__ マクロを利用するようにしています。なぜこんな
+ことしてるんだろう…と思ったらヘッダの重複 #include を防ぐための #ifndef ガード
+の上に RB_DEBUG_COUNTER を使ったメンバーの列挙が書かれてて、これを enum
+rb_debug_counter_type の宣言の中に展開しようとしているようです。うーん、なぜ直
+接 enum の中に書かないんだろう。と思ったら同じものを debug_counter.c でも参照し
+て変数の初期化子に使っているんですね。うーむなるほど、トリッキーだ。

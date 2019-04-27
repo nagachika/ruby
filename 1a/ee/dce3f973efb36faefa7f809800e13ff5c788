@@ -1,0 +1,2 @@
+標準添付ライブラリ debug.rb の frozon_string_literal magic comment を true に変
+えています。

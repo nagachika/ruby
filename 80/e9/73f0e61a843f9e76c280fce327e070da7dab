@@ -1,0 +1,3 @@
+Thread#raise のテストで Thread に例外を送出後 Thread.pass して Thread が停止す
+る余地を与えるようにしています。こうしないと終了前の Thread がたまってテストで
+リソースを圧迫するそうです。

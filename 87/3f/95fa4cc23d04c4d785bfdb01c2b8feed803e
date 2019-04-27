@@ -1,0 +1,3 @@
+_FORTIFY_SOURCE マクロが定義されていた時の FD_SET()、FD_CLR()、FD_ISSET() など
+のマクロの挙動についてのコメントの typo を修正しています。 https://github.com/
+ruby/ruby/pull/548

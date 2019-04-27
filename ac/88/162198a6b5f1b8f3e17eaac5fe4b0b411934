@@ -1,0 +1,2 @@
+r50728 の method entry のオブジェクト化で不要になった rb_method_iseq_t::iseqval
+を削除しています。というか元から不要だったのかなこれは?

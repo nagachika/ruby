@@ -1,0 +1,3 @@
+拡張ライブラリ stringio の StringIO#puts の rdoc 用コメントの typo 修正。 puts
+なので末尾に "\n" が追加されるはずなのに書かれてませんでした。 https://
+github.com/ruby/ruby/pull/965

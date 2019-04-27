@@ -1,0 +1,3 @@
+make test-all で MJIT 用のビルドディレクトリを指定する変数を差し替えるための共
+有ライブラリに macOS だと mjit_build_dir.dylib.dSYM とデバッグ情報のファイルも
+できるので、make clean でこれも削除するようにしています。

@@ -1,0 +1,2 @@
+さらに KeyError.new の実装の修正で rb_call_super() にオプション引数も渡すように
+しています。 [ruby-core:84626] [Feature #14313]

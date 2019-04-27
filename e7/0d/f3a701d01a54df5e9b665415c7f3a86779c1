@@ -1,0 +1,8 @@
+ENV のメソッドが返す文字列を生成する env_str_new() から Encoding の指定を引数で
+受け取る env_enc_str_new() を切り出しています。またこれまで env_path_str_new()
+という関数でやってた Windows とそれ以外で Encoding を変えている処理も
+env_enc_str_new() を流用するようにして、これまで ENV.[] や ENV.fetch の実装でや
+ってた環境変数が PATH の時のみ Encoding を変える処理を env_name_new() およびそ
+こから呼ばれる env_encoding_for() という関数に切り出すリファクタリングをしてい
+ます。あと env_enc_str_new() で Windows 以外の環境でも返す文字列を taint してお
+くようにしています。

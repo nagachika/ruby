@@ -1,0 +1,4 @@
+r61938 や r61971 の nan(3) がない時の missing の代替実装で Windows 環境で $
+(RT_VAR) をみて HAVE_NAN の定義をするように win32/Makefile.sub に対応を追加して
+います。また include/ruby/missing.h に nan() のプロトタイプ宣言を追加するように
+しています。

@@ -1,0 +1,4 @@
+rb_w32_write_console() という WriteConsoleW() という API を使って出力するコンソ
+ール出力用の処理を利用するのを FMODE_TTY フラグをチェックして、IO が端末の時だ
+けにするようにしています。 Windows での IO 出力が遅くなったのを改善しているそう
+です。

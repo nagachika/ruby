@@ -1,0 +1,1 @@
+rb_iseq_first_lineno() の引数 rb_iseq_t * に const をつけています。

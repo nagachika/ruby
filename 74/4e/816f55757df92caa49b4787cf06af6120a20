@@ -1,0 +1,3 @@
+Array#union というメソッドを追加しています。これは Array#| と同様の要素毎の論理
+和を取るメソッドですが、引数に複数の配列を受け取れるので実装は別になっています
+。 https://github.com/ruby/ruby/pull/1747 [ruby-core:83721] [Feature #14097]

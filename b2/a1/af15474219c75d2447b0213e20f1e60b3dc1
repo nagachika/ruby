@@ -1,0 +1,4 @@
+Windows 版で fcntl() の F_DUPFD を emulate する実装を追加して Windows でも
+fcntl(fd, F_DUPFD) が動作するようにしているようです。複製先の file descriptor
+の最小値の指定が可能なので、何度も開いて制限値以上の値が得られるまでリトライし
+ているようです。

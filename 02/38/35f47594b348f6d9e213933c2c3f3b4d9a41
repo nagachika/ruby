@@ -1,0 +1,3 @@
+拡張ライブラリ socket の BasicSocket#do_not_reverse_lookup と #
+do_not_reverse_lookup= の rdoc 用コメントのサンプルコードが逆になってたので入れ
+替えてます。

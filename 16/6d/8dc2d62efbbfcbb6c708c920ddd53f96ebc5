@@ -1,0 +1,3 @@
+r41024 でエンコーディング名 EUC-JP-2004 を EUC-JIS-2004 に修正したのですが enc/
+trans/japanese_euc.trans および tool/transcode-tblgen.rb やテストで修正漏れがあ
+ったので追加修正しています。

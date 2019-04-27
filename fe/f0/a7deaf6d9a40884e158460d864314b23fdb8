@@ -1,0 +1,2 @@
+標準添付ライブラリ logger.rb の Logger#add の rdoc の間違った戻り値の説明を削除
+しています。 [ruby-core:55633] [Bug #8567]

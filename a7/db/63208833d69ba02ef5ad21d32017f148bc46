@@ -1,0 +1,4 @@
+r58427 で追加した rb_hash_new_from_values_with_klass() で
+st_init_table_with_size() で作成した st_table に挿入中に frozen string が mark
+されるルートがなくなってしまうそうで、先に hash_alloc_from_st() でオブジェクト
+で包んでおいてそこ経由で mark されるようにして保護しています。

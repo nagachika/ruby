@@ -1,0 +1,4 @@
+Dir#each_child と Dir#children という Dir のインスタンスメソッドを追加していま
+す。これは Dir.each_child や Dir.children のようなクラスメソッドと同様で、パス
+を引数で受け取るかわりに receiver の Dir オブジェクトから得るという違いだけです
+。 [ruby-core:83102] [Feature #13969]

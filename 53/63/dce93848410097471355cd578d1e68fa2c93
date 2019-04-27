@@ -1,0 +1,3 @@
+String() メソッドの rdoc 用コメントで to_s を呼ぶと書かれていましたが、実際はま
+ず to_str で、呼べない時に to_s を呼ぶのでそのように修正しています。 https://
+github.com/ruby/ruby/pull/743

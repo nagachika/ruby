@@ -1,0 +1,2 @@
+enc/depend を更新して enc/unicode.o から enc/data/9.0.0 など Unicode のバージョ
+ン毎に生成されるヘッダファイルへの依存を消しています。

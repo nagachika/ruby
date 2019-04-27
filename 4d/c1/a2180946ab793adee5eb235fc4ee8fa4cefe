@@ -1,0 +1,4 @@
+更に ???_variable_get 系、 const_get, remove_???_variable 系、 ???_method 系な
+どのメソッドでも余分なシンボルの生成を抑制する修正です。またこのために任意のメ
+ッセージを指定して NameError を発生させる API rb_name_error_str() を追加してい
+ます。 [ruby-core:38404] [Feature #5079]

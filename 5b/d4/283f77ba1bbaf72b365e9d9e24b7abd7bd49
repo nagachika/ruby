@@ -1,0 +1,4 @@
+拡張ライブラリ readline の extconf.rb で Windows 環境ではいくつかの変数の
+have_var でのチェックをスキップしていたのを mingw ではスキップせず利用可能なら
+使うようにしています。これも MinGW のテスト対策っぽいです。 [ruby-core:88619]
+[Bug #15020]

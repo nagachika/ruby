@@ -1,0 +1,4 @@
+r40149 で追加して r40154 で変更した rsock_sys_fail_sockaddr() の引数を String
+から struct sockaddr と socklen_t に変更しています。もう直接呼んでいるところは
+なくて rsock_sys_fail_addrinfo_or_sockaddr() からしか呼ばれていないので変更の影
+響も軽微ですね。

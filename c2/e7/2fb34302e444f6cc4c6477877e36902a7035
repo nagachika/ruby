@@ -1,0 +1,5 @@
+VM のコントロールフレームを pop する関数 rb_frame_pop() のかわりに
+rb_vm_pop_cfunc_frame() という関数を導入して TracePoint の c_return イベントの
+フックを呼び出すようにしています。 Module#const_missing と Module#
+method_missing が c_return を発火しないという不具合だったそうです。
+[ruby-core:59398] [Bug #9321]

@@ -1,0 +1,2 @@
+r58924 で追加した assert_cpu_usage_low でデフォルトの許容する CPU 利用率を引き
+上げています。やっぱり false positive が多かったみたいです。 [ruby-core:81427]

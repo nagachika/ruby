@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の fole_initialize() で keyword を keyward と typo して
+いた変数名を修正しています。 [ruby-core:82422] [Feature #13828]

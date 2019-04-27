@@ -1,0 +1,2 @@
+abbrev.rb の copyright 表記を rdoc 対象外にしています。 [ruby-core:36214] [Bug
+#4703]

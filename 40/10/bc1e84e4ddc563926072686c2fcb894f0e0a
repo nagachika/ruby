@@ -1,0 +1,6 @@
+タイマースレッドの処理で native_cond_timedwait() から 0 でかえってきた時にタイ
+マースレッドを停止しないようにしています。 native_stop_timer_thread() で
+native_cond_signal() で起こした時にすぐに止まらなくなるような気がしますが、ちょ
+っと(最大10ms)待てば結局抜けてくるからそれでいいやということでしょうか。
+[追記]と思ったけど native_cond_signal() する時には break しなくても while
+(system_working > 0) の条件が偽になった時なのですぐに抜けてました。[/追記]

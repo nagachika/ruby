@@ -1,0 +1,6 @@
+メソッド定義の rest 引数(*args) とキーワード rest 引数(**kw) で両方ともアンダー
+スコア変数を指定すると、型が異なるオブジェクトに対して merge することになって
+SEGV していたのを修正。 core_hash_from_ary() で引数の ary に Check_Type() を呼
+んで配列に変換するようにしています。また core_hash_merge() と
+m_core_hash_merge_ary() でオブジェクトの型チェックを追加しています。
+[ruby-core:78536] [Bug #13015]

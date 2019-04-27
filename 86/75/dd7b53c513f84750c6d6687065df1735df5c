@@ -1,0 +1,2 @@
+Windows 環境での Process.exec と Process.spawn でのテストで実行権限のないファイ
+ルの実行時の例外が期待と違っていたので追加しています。

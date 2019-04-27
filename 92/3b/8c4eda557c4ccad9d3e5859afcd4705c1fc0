@@ -1,0 +1,5 @@
+r39268 での io/console の rb_scan_args() の利用の有無は extconf.rb への --
+{enable, disable}-io-console-rb_scan_args-optional-hash というオプションで切り
+替えできるようにして、デフォルトは enable にしています。 1.9 対応ということにし
+たけど、関数名は変わらなくて渡す文字列の受け付ける修飾子が追加されているだけで
+チェックしにくいからじゃないかと思います。

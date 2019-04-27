@@ -1,0 +1,3 @@
+ruby のコマンドラインオプションの挙動についてのテストで -vv の出力を
+-DMJIT_FORCE_ENABLE オプションつきでビルドされていた時は MJIT についての記述あ
+りの RUBY_DESCRIPTION と比較するように修正しています。

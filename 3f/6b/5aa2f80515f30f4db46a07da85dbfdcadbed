@@ -1,0 +1,2 @@
+configure.in で pause(3) のチェックも HAVE_PAUSE が利用されていないため削除して
+います。

@@ -1,0 +1,5 @@
+test/openssl/test_ssl_session.rb の OpenSSL::SSL::SSLServer にコールバックを渡
+した時のテストで、サーバへ接続/切断した後でコールバックが呼ばれるように
+Thread.pass を呼んでいます。多分一度 Thread.pass しても確実にコールバック呼び出
+しが完了するとは限らないような気がしますが、チケットみるとこれである環境では高
+確率で通るようになったみたいですね。 [ruby-core:39619] [Bug #5336]

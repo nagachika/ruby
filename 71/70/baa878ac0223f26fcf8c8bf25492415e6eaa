@@ -1,0 +1,14 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all で文字列のダンプの時に fstring
+のフラグも表示するようにしています。また RGenGC 関連の旧世代フラグ、remember
+set に入っているフラグ(shady)、Write Barrier で保護されているフラグ(normal)など
+も表示するようにしています。3世代GC も有効になっているとさらに infant と young
+のフラグも追加されます。
+で、このために gc.c に追加したフラグ取得用の関数の宣言を internal.h に追加して
+ext/objspace/objspace_dump.c から使っているのですが、あれ、internal.h って添付
+されている拡張ライブラリから使えるものなんでしたっけ? と思ったら他にも pty など
+が使っていましたね。でもなんとなく気になって internal.h が導入された初期の変更
+をさらってみていたら r31691 で rb_classext_t の宣言が internal.h に隠されたため
+に拡張ライブラリの openssl が RCLASS_SUPER() が使えなくなって別の公開関数
+rb_class_superclass() を使うようになったという経緯などがあり、拡張ライブラリか
+ら使っていいのかどうなのか若干曖昧になっている気がします。まあ`objspace は特別'
+と言われたらあっさり納得しますけど(pty は?)。

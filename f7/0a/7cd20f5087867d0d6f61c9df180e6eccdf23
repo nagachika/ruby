@@ -1,0 +1,3 @@
+ruby_atomic.h で Solaris 9 以前では atomic.h が利用できないためコンパイルできな
+いというのを回避するため HAVE_ATOMIC_H のチェックを条件コンパイルの #if
+directive に追加しています。 [ruby-dev:47229] [Bug #8228]

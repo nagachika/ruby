@@ -1,0 +1,2 @@
+r42961 の Shell::CommandProcessor#find_system_command の修正(変更)についてのテ
+ストケースの追加です。 [ruby-core:57235] [Bug #8918]

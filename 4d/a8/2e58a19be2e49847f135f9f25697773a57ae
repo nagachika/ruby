@@ -1,0 +1,1 @@
+process.c の async-signal-safe な関数の利用状況コメントを更新しています。

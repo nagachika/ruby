@@ -1,0 +1,2 @@
+URI.decode_www_form で不正な query string をパースすると文字列が長いと非常に時
+間がかかっていたのを修正。

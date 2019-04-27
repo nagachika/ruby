@@ -1,0 +1,2 @@
+tk が bundled gem になったのに対応して ext/extmk.rb で bundled gem の拡張ライブ
+ラリは static link 時にはビルドしないようにしています。

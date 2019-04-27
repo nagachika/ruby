@@ -1,0 +1,5 @@
+Thread のテスト test/ruby/test_thread.rb に存在していた ThreadGroup に関するテ
+ストを test/ruby/test_threadgroup.rb に切り出しています。また ThreadGroup のテ
+ストクラス内に定義されているにもかかわらず ThreadGroup に関連しないテストメソッ
+ドは TestThread に移動(ファイルはそのまま)しています。
+また Thread#join による後始末の追加をしています。

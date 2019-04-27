@@ -1,0 +1,2 @@
+set_trace_func/add_trace_func に関する実装を thread.c から vm_trace.c というソ
+ースファイルを新設してそこに移動しています。

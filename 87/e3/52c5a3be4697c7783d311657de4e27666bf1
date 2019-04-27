@@ -1,0 +1,7 @@
+r40770 で verconf.h の生成から変更した verconf.h.in の生成のルールをさらに不要
+になったため(tool/generic_erb.rb を使った方法で Windows 版も同じ方法で生成でき
+るようになったから?) win32/Makefile.sub から削除しています。
+また同じく win32/Makefile.sub の config.status 生成する時に vendorarchdir を置
+換する変数名が ${vendirlibdir} になっていたので ${vendorlibdir} に修正していま
+す。 r39132 で入って r39201 で少し変更された行なので 2.0.0 にも入っていますね。
+ここはバックポートしないと...というわけでチケット化しておきました(#8413)。

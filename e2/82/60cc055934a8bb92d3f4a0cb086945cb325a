@@ -1,0 +1,5 @@
+r53602 で common.mk から Makefile.in に移動した update-config_files というター
+ゲットをまた Makefile.in に戻しています。 .travis.yml のために必要とのこと。う
+ーん確かに .travis.yml では autoconf の前に(つまり configure より前に) make -f
+common.mk と common.mk を指定して update-config_files をビルドしているコマンド
+がありますね。

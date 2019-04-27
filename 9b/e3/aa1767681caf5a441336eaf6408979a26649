@@ -1,0 +1,2 @@
+Net::IMAP で ATTACHMENT という body type のパースに対応しています。
+[ruby-core:44849] [Bug #6397]

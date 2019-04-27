@@ -1,0 +1,2 @@
+doc/syntax/refinements.rdoc のサンプルコードの変数名のまちがいを修正。 https://
+github.com/ruby/ruby/pull/508

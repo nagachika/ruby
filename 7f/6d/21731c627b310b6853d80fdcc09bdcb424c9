@@ -1,0 +1,3 @@
+Test::Unit の並列テスト時に --no-retry オプションをつけて retry を抑制するとメ
+ッセージの表示がおかしくなったり failure/error/success のカウントが狂うのを修正
+しています。 [ruby-core:47250] [Bug #6897]

@@ -1,0 +1,2 @@
+obj.?meth 記法でメソッド呼び出しが行なわれる時だけ引数が評価されることを確認す
+るテストを追加しています。 https://github.com/ruby/ruby/pull/1066

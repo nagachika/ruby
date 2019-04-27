@@ -1,0 +1,4 @@
+rb_copy_wb_protected_attribute() でオブジェクトをコピーする際に WB-unprotected
+なオブジェクトは RVALUE_DEMOTE() を読んで age=0 にリセットするようにしています
+。 WB-unprotected なオブジェクトは歳を取らないようにしたので一貫性が取れるよう
+にしているのだと思います。

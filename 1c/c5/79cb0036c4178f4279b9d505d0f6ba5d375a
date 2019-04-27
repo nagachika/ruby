@@ -1,0 +1,4 @@
+enc/unicode/case-folding.rb で生成する casefold.h の titlecase のフラグに T(n)
+のようにインデックスを付加するようにしています。そして別途 TitleCase という
+CodePointList3 の配列を casefold.h に定義するようにしていますが、当座は関数マク
+ロ T(n) は引数を捨てているのでまあ参照はしていないようです。

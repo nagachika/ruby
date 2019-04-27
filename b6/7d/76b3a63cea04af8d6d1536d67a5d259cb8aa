@@ -1,0 +1,4 @@
+r63451 で rb_vm_t のメンバー postponed_job_buffer の型を st_table に変えてまし
+たが、rb_postponed_job_register() や rb_postponed_job_register_one() は
+async-signal-safe でないといけないので、この中で st_add_direct() とかメモリ確保
+するものは実行しちゃだめだったとのこと。 [ruby-core:89521] [Bug #14867]

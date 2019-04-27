@@ -1,0 +1,2 @@
+tool/mkconfig.rb で生成する rbconfig.rb で 2.1 系移行のバージョン番号のつけかた
+に対応するための修正。

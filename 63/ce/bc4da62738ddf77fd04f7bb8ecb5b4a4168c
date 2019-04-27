@@ -1,0 +1,3 @@
+.travis.yml の matrix で linux の gcc-8 を使う時に apt パッケージの update をす
+るように指示しています。 gcc-8 の最新のパッケージを使うようにするためみたいです
+ね。

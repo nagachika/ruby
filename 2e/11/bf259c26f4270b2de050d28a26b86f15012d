@@ -1,0 +1,3 @@
+common.mk で make enc の時の enc.mk を使った submake の引数を MAKE_ENC という変
+数に切り出して win32/Makefile.sub でも使いまわすようにしています。 Windows の時
+に引数が不足していたので追随されるようにしているようです。

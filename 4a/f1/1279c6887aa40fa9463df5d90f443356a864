@@ -1,0 +1,1 @@
+ext/bigdecimal/bigdecimal.c の代入だけして利用していない変数を削除。

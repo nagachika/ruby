@@ -1,0 +1,2 @@
+file.c および win32/file.c で $SAFE の 4以上かどうかのチェックが残っていたので
+削っています。 https://github.com/ruby/ruby/pull/1327

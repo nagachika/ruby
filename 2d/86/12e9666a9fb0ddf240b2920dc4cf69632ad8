@@ -1,0 +1,2 @@
+すぐ上の r29451 で導入した long 型の MSB の mask である MSBMASK を VALUE 型の
+MSB の mask として VALUE_MSBMASK に定義しなおし。

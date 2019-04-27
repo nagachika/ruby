@@ -1,0 +1,6 @@
+ops_plus, ops_minus などの VM の最適化命令と fix_plus(), fix_minus() で
+FIX2LONG() で変換して計算後に LONG2FIX() で戻していたのを rb_fix_plus_fix() と
+rb_fix_minus_fix() という inline 関数を internal.h に導入してこれを利用するよう
+にしています。これらの関数では gcc と LLVM の __builtin_add_ovewflow() や
+__builtin_sub_ovewflow() を利用して、Fixnum の VALUE が常に最下位ビットが立って
+いるということを利用して、overflow 時の判定と処理を最適化しています。

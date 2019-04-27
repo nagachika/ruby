@@ -1,0 +1,5 @@
+String#encode でその文字列の Encoding への変換に universal_newline: true,
+undef: :replace および :replace オプションを渡すと例外が発生する不具合を修正し
+ています。 :replace オプションの処理時に変換先の encname2 が空の場合に対応する
+ようにしています(変換なしの時に空になるのでしょう)。 [ruby-core:69841] [Bug #
+11324]

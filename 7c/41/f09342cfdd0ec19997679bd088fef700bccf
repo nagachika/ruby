@@ -1,0 +1,5 @@
+r53009 で frozen-string-literal が有効な時の文字列リテラルの位置情報保持のため
+の処理を--debug や --debug-frozen-string-literal が有効な時だけ行なうようにしま
+したが、文字列オブジェクトの dup と iseq_add_mark_object_compile_time() の呼び
+出しを、--debug や --debug-frozen-string-literal が有効な時の分岐でだけ実行する
+ようにしています。[ruby-core:72018]

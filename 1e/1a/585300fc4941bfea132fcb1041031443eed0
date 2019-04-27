@@ -1,0 +1,3 @@
+SystemStackError の処理時に sigprocmask(3) で処理中の signal の mask を解除する
+ようにしています。一度 SystemStackError の発生後に再び stack overflow でシグナ
+ルを受信した時に SEGV してしまっていたようです。 [ruby-core:79285] [Bug #13164]

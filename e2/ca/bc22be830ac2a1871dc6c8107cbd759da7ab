@@ -1,0 +1,4 @@
+オブジェクトをわりあてる newobj_of() で空きがなくて GC を走らせるケース(slow
+pass)とそうではない時(fast path)の処理を関数で newobj_of_init() と
+newobj_of_slowpass() に分けています。 newobj_of_init() は inline 化して、これに
+より register 退避のコストを抑えるという最適化だそうです。

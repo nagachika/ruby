@@ -1,0 +1,3 @@
+r46139 の rinda のテストの後始末の修正のうち test_take_bug_8215 のぶんは revert
+しています。 DRb::DRbServer#stop_service を呼んでしまうと drb のテストに影響す
+るみたいです。

@@ -1,0 +1,4 @@
+r42101 で導入した Readline.delete_text のテストを修正しています。 Readline
+.delete_text でラインバッファを削除した時に Readline.point で取得できる
+rl_point の値が変化しないという Readline 側の不具合(?)っぽい仕様を追認する
+assertion を追加しています。 [ruby-dev:45789] [Feature #6626]

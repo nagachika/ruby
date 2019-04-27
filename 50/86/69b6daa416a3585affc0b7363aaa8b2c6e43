@@ -1,0 +1,3 @@
+r41963 で追加した configure での __builtin_popcountl() のチェックを削除して、
+ceil_log2() およびそこから呼ばれている floor_log2(), next_pow2(), ones() などの
+関数を削除しています。ceil_log2() のかわりに bitsize() を使うようにしています。

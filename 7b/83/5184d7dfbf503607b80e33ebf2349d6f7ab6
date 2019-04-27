@@ -1,0 +1,2 @@
+共有ライブラリで export しない symbol を決めている部分で threadptr に追加して
+rb_ec_ で始まる関数も export しないようにルールを追加しています。

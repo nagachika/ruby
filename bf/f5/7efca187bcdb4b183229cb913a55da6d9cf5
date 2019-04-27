@@ -1,0 +1,3 @@
+r62466 の再修正。 pthread のキャッシュの実装の register_cached_thread_and_wait
+() で rb_native_cond_t を破棄する rb_native_cond_destroy() の呼び出しを mutex
+ロックの解放後に移動しています。

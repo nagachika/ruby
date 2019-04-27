@@ -1,0 +1,2 @@
+atomic.h の Windows 版の ATOMIC_OR() マクロの定義を _MSC_VER で分岐しています。
+VC6 では _InterlockedOr() が利用できないそうです。

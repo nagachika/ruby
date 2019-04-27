@@ -1,0 +1,2 @@
+r55397 の Thread の deadlock 検出時の出力で thread_id の表示に %p のかわりに
+PRI_THREAD_ID というマクロを利用するようにしています。

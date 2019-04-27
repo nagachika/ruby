@@ -1,0 +1,2 @@
+template/configure-ext.mk.tmpl でブロックパラメータによるローカル変数の遮蔽の警
+告除去。

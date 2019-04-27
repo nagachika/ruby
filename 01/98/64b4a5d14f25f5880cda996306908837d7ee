@@ -1,0 +1,6 @@
+Microsoft が公開した Azure Pipelines という CI/DI 系のサービスで ruby のビルド
+とテストをするため azure-pipelines.yml という設定ファイルを追加しています。
+Azure なのに macOS のビルドもできるんだ!! ぱっとみ Linux での bundler 関係のテ
+ストと bundled gem のテスト(make test-bundled-gem と make test-bundler)と、
+macOS ではビルドと軽いテスト(make test)、vs2017 ではビルドまでを実施しているよ
+うです。 [ruby-core:89222] [Feature #15181]

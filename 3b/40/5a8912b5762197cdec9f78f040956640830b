@@ -1,0 +1,2 @@
+rb_thread_mark() で Thread ごとのマシンスタック上からの参照を保守的に mark する
+処理を VM スタックの mark の後に移動しています。

@@ -1,0 +1,4 @@
+r42337 で def 文でメソッドを定義した時にそのメソッド名の Symbol を返すように変
+更したのに続いて Module#define_method も戻り値を変更して Symbol を返すようにし
+ています。元は定義したメソッドの Method や Proc を返していました。
+[ruby-dev:42151] [Feature #3753]

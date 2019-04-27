@@ -1,0 +1,2 @@
+標準添付ライブラリ drb の DRb::DRbSSLSocket の rdoc コメントの typo 修正。
+currenly -> currently

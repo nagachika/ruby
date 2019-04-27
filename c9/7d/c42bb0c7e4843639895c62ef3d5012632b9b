@@ -1,0 +1,3 @@
+test/ruby/envutil.rb で追加している Test::Unit::Assertions#assert_separately で
+引数の file, line は caller_locations を使って取得できるので省略可能引数として
+自動的に補完するようにしています。

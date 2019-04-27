@@ -1,0 +1,3 @@
+標準添付ライブラリ set の SortedSet に freeze メソッドを追加して、freeze された
+時に to_a を呼び出して @keys をセットしておくようにしています。freeze するとち
+ゃんと動かなくなってたみたいです。 [ruby-core:73897] [Bug #12091]

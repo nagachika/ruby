@@ -1,0 +1,12 @@
+Module#prepend に関連して include する時に生成する IClass のメソッドテーブルを
+RCLASS_ORIGIN() からコピーしないといけない(prepend した Module/Class はメソッド
+テーブルだけ移植した IClass が作られて RCLASS_ORIGIN() がその IClass を指してい
+る)のに元の Module からコピーしようとしていたのを修正。
+つまり以下のように他の Module を prepend 済みの Module を include したクラスの
+インスタンスメソッドを呼ぼうとすると SEGV となっていました。*1
+c = Class.new
+m = Module.new
+n = Module.new
+m.send(:prepend, n)
+c.send(:include, m)
+c.new

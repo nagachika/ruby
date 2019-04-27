@@ -1,0 +1,3 @@
+拡張ライブラリ openssl から 512-bit の DH 鍵 OpenSSL::PKey::DH::DEFAULT_512 を
+削って OpenSSL::SSL::SSLSocket#tmp_dh_callback での鍵長 512 のサポートを削って
+います。 https://github.com/ruby/ruby/pull/1196 [ruby-core:72766] [Bug #11968]

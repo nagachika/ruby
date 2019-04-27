@@ -1,0 +1,3 @@
+TracePoint#enable は既に enable な状態で呼ばれると例外を発生させていたのですが
+、無視して受け付けるようにしています。 TracePoint#disable も同様です。
+[ruby-core:50561] [Bug #7513]

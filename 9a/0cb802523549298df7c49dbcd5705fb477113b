@@ -1,0 +1,3 @@
+拡張ライブラリ date のソースでも issign(), isspace(), isdigit(), isalpha() など
+で引数に char を渡しているところが cygwin でコンパイル時の警告になっているので
+unsigned char へのキャストを追加しています。 [ruby-dev:45303] [Bug #6109]

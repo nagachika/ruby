@@ -1,0 +1,9 @@
+iseq_peephole_optimize() で末尾再帰の最適化の適用を、leave 命令をみつけて、その
+前が send/opt_send_without_block/invokesuper/opt_aref/opt_aref_with/opt_aset/
+opt_aset_with などの命令だったら最適化するようにしていたのを、逆に send/
+invokesuper をみつけて、その後任意個数の nop を挟んで leave があるというパター
+ンを検出して最適化をかけるようにしています。これで nop が挟まる時も最適化される
+ようになるのと、opt_xxx の特殊命令は最適化によって作られるので、それらの最適化
+の前に実施する(命令列のリストをなめて最適化していく時に、末尾再帰の最適化が
+send を見た時点で実施される)ので特殊命令になる前に実施できる、ということみたい
+です。

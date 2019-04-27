@@ -1,0 +1,3 @@
+拡張ライブラリ psych の upstream から 3.0.0.beta4 をマージしています。 YAML
+.load に symbolize_names: true というキーワード引数で Hash のキーを Symbol 化す
+る新機能が入ってるのが目玉っぽいですね。

@@ -1,0 +1,3 @@
+r47733 のさらに続きで拡張ライブラリ date にさらに Write Barrier を挿入していま
+す。また struct SimpleDateData と struct ComplexDateData の VALUE 型のメンバに
+const を付けることで Write Barrier 挿入すべき箇所を検出できるようにしています。

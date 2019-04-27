@@ -1,0 +1,3 @@
+test/lib/minitest/unit.rb および test/lib/test/unit/assertions.rb でエラーメッ
+セージを埋め込む時に Encoding::CompatibilityError が発生する可能性があるのを回
+避するため String#b で ASCII-8BIT にしてから埋め込むようにしています。

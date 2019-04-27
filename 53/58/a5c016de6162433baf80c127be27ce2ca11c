@@ -1,0 +1,8 @@
+Method#define_method でブロックや Proc オブジェクト渡しで定義したメソッドは、同
+じブロックや Proc オブジェクトを複数のメソッドの定義に使い回した時に __method__
+が返すメソッド名が全て最後に定義したメソッドの名前になってしまう不具合を修正。
+[ruby-core:35386] [Bug #4606]
+control frame に method entry があればそこから oridinal_id を取得、method entry
+がなかったら control frame stack と iseq の parent_iseq を辿ったものどうしをチ
+ェックしてメソッドとして呼ばれたフレームを探し出してその method entry からメソ
+ッド名を取得するようにしています。

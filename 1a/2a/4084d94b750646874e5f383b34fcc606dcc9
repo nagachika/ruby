@@ -1,0 +1,3 @@
+拡張ライブラリ tk の Windows 版の初期化処理で ruby_enc_find_basename() が利用可
+能ならこれを使って filesystem encoding にエンコードしたファイル名で
+rbtk_win32_SetHINSTANCE() を呼び出すようにしています。

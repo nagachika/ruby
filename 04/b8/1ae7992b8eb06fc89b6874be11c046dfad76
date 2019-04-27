@@ -1,0 +1,4 @@
+test/rubygems/test_gem.rb で Windows 環境での Gem.user_home の解決のテストを
+skip から単にテストメソッド定義を抑制するようにしています。 "1.9" >
+RUBY_VERSION という条件で分岐していますが trunk は 1.9 以降なので実質常に無視に
+なってます。

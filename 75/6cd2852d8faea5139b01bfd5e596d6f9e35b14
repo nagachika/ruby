@@ -1,0 +1,4 @@
+open の mode と option 引数で text mode, binary mode の指定が食い違っていた時は
+エラーにするのですが、mode が "rt" (テキストモード)で option に :text => false
+のように option 引数に false を指定された時の食い違いは検出できていなかったので
+チェックを追加しています。 [ruby-core:42199] [Bug #5918]

@@ -1,0 +1,3 @@
+r53326 で parse.y の BITSTACK_PUSH()/BITSTACK_POP() をはじめとする BITSTACK 操
+作マクロ群で、yydebug 有効時にデバッグ用に BITSTACK の状態を表示するようにして
+いましたが、そこに操作内容も表示するようにしています。

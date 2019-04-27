@@ -1,0 +1,4 @@
+r61712 と r61713 の internal.h の依存関係の変更にあわせて、#include
+"internal.h" よりも前に "ruby/io.h" や "ruby/encoding.h" を #include するように
+しています。また "internal.h" が先に #include されていたら #error でコンパイル
+エラーにして気付けるようにしています。

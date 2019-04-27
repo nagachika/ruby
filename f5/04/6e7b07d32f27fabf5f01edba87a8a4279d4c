@@ -1,0 +1,2 @@
+拡張ライブラリ psych のコメントの typo 修正。trunk に入っていたものを upstream
+に入れてそこから cherry pick してきたみたいです。 [ruby-dev:49879] [Bug #12942]

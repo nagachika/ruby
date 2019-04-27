@@ -1,0 +1,1 @@
+re.c の rb_reg_raise_str() を NORETURN() で宣言しています。

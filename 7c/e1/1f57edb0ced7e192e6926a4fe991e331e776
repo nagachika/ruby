@@ -1,0 +1,2 @@
+transcode.c の rb_econv_substr_append() から文字列をエンコーディング変換して追
+加する処理を rb_econv_append() として切り出しています。

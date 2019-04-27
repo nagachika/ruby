@@ -1,0 +1,4 @@
+tool/downloader.rb で -d で指定した destdir が "./" からはじまる相対パスだった
+場合に name との比較のために先頭の "./" を削って正規化しておくようにしています
+。 ./enc/unicode/data/11.0.0/ucd/auxiliary/GraphemeBreakProperty.txt のダウンロ
+ードのための修正だそうです。

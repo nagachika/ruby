@@ -1,0 +1,3 @@
+拡張ライブラリ psych の Psych::Visitors::YAMLTree で文字列を dump する時に、オ
+プション :line_width が設定されていた時に長い文字列は folded block style を使っ
+て改行で wrap しつつ出力するようにしています。

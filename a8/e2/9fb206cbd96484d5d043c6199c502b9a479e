@@ -1,0 +1,3 @@
+RDoc のテストに assert_hard_link という assertion があって File.nlink をチェッ
+クしているのですが、FileUtils.ln でハードリンクを作っても File.nlink が増えない
+環境ではチェックしても無意味なので assertion をスキップするようにしています。

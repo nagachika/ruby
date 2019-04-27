@@ -1,0 +1,9 @@
+fd の default non-blocking 化にともなって internal_read_func() で EAGAIN や
+EWOULDBLOCK で返ってきた時に select()/ppoll() などでイベント待ちして再度 read()
+するリトライを行うようにしています。あれこれって今までもやってたんじゃ? と思い
+ますが、それは毎回 GVL を再取得していたので non-blocking な fd の場合は GVL 解
+放した状態でリトライを続けるようにしているのがミソみたいです。この挙動をするか
+どうかの指定のために構造体 struct io_internal_read_struct に nonblock というメ
+ンバーが追加され、呼び元が nonblock な呼び出しかどうかで制御しています。あれで
+もたとえば io_read_nonblock() からの呼び出し時にフラグを立ててるけど、この時に
+イベント待ちしちゃだめなんじゃ……? [ruby-core:88305] [Bug #14968]

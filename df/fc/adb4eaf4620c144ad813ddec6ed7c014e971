@@ -1,0 +1,3 @@
+test/ruby/test_transcode.rb で Encoding.default_internal を変更するためにユーテ
+ィリティ EnvUtil.with_default_internal を利用するようにしています。警告の抑制や
+例外などを考慮した復旧を行なってくれます。

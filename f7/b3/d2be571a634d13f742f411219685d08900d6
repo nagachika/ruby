@@ -1,0 +1,2 @@
+標準添付ライブラリ securerandom でコメントアウトされている
+SecureRandom.random_number を削除しています。 [ruby-core:82654] [Misc #13870]

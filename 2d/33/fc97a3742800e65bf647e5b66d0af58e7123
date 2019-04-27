@@ -1,0 +1,4 @@
+拡張ライブラリ digest の ext/digest/md5/md5ossl.[ch] で拡張ライブラリの実装の
+MD5 じゃなくて OpenSSL の EVP_Digest(Init|Final)ex() を利用するようにしています
+。うーんたぶんこれは OpenSSL 版の MD5 のラッパなんでしょうね。しかし次で revert
+されています。 [ruby-core:61614] [Bug #9659]

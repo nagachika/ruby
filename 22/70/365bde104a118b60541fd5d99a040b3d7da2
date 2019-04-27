@@ -1,0 +1,6 @@
+Object#inspect の結果に String#clear を呼ぶとメモリ破壊により abort する不具合
+を修正しています。 str_discard() で即座に String オブジェクトのバッファを解放す
+る条件として flags の STR_SHARED をチェックしていましたが STR_NOFREE フラグが立
+っていないこともチェックするようにしています。setup_fake_str()で作った解放不要
+な String オブジェクトを解放しようとしてしまっていたようです。
+[ruby-core:68110] [Bug #10853]

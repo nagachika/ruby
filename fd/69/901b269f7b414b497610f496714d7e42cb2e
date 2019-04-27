@@ -1,0 +1,2 @@
+vm_core.h の struct rb_thread_struct と struct rb_control_frame_struct の宣言を
+前のほうに移動しています。

@@ -1,0 +1,3 @@
+vm_core.h の関数マクロ rb_thread_set_current_raw() と rb_thread_set_current()
+を static inline な関数として書きなおしています。今どきのコンパイラなら性能への
+影響はないから inline 関数使ったほうがいいよね、とのこと。

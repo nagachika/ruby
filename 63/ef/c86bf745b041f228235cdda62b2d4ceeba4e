@@ -1,0 +1,2 @@
+addr2line.c の kprintf() が addr2line.c の中でしか使われていなかったので static
+関数に変更しています。

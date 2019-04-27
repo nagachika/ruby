@@ -1,0 +1,3 @@
+r55285 で拡張ライブラリ openssl に inline 関数を追加したので inline 修飾子の VC
+対応のために ext/openssl/openssl_missing.h に #include "ruby/config.h" を追加し
+ています。

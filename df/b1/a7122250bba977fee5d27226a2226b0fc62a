@@ -1,0 +1,3 @@
+OpenStruct#delete_field でメンバを削除した時の戻り値がそのメンバの値を返すはず
+が remove_method の結果(OpenStruct オブジェクト)を返していた不具合修正。
+[ruby-core:42807] [Bug #6063]

@@ -1,0 +1,3 @@
+rb_mjit_header.h の生成ルールで再生成を制御するためのタイムスタンプファイルへの
+依存関係を common.mk の記述から defs/gmake.mk の各 arch 毎に生成するルールに展
+開するようにしています。Universal Binary 向けかな。

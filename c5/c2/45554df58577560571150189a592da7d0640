@@ -1,0 +1,2 @@
+互換性のため r31721 の Tempfile.lock_tempfile/unlock_tempfile のメソッド名は元
+のとおり mkdir/rmdir に戻されています。

@@ -1,0 +1,5 @@
+標準添付ライブラリ timeout.rb で rdoc コメントに引数に 0 や nil を渡した時の挙
+動について追記しています。 https://github.com/ruby/ruby/issues/270
+ところで [GH fixes #270] のような記法が Github issues を指すために使われていま
+すが*1、Redmine のチケットと関連付けられてしまっていますね。これについてのチケ
+ットも既に作られていたような気もします。

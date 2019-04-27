@@ -1,0 +1,2 @@
+Net::HTTP#set_form_data で application/x-www-form-urlencoded の body をエンコー
+ドするのに独自に実装していたのを URI の実装を利用するようにリファクタリング。

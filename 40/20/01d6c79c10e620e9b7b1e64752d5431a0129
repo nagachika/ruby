@@ -1,0 +1,3 @@
+ISeq の binary dump/load の関数 iseq_ibf_dump() と iseq_ibf_load()、
+ibf_load_iseq_complete() といった関数は static ではないので rb_ の prefix を追
+加しています。

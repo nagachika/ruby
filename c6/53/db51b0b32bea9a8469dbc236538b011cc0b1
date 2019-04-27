@@ -1,0 +1,4 @@
+VALUE の配列だと判っているメモリ領域を mark する rb_gc_mark_values() という関数
+を追加しています。 rb_gc_mark_locations() と比較して、ヒープ内を指すポインタか
+どうかの判定がないので高速になります。 vm.c の env_mark() で利用するようにして
+います。

@@ -1,0 +1,2 @@
+doc/extension.rdoc と doc/extension.ja.rdoc に rb_str_append() の記述を追加して
+rb_str_cat2() のかわりにこちらを利用例としてあげるようにしています。

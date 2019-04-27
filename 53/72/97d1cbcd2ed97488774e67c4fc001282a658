@@ -1,0 +1,9 @@
+Refinement の仕様に大きく変更が加えられているようです。
+  • module_eval, instance_eval 内でのメソッド呼び出しで refine を考慮しなくなっ
+    た
+  • Module#refine は Class しか受け付けなくなった(Module を拡張することはできな
+    くなった)
+  • Class#refine は undef された (Class 内で refine はできなくなった。従って
+    using の引数は Module のみ受け付けるようになった)
+  • トップレベルの using は private メソッドになった
+と仕様が縮小されたようです。

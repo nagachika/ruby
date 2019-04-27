@@ -1,0 +1,4 @@
+pack.c の pack_pack() で、指示子 "p" と "P" によるポインタの取り出し時に nil
+(Qnil)に対して rb_obj_taint() を呼ばないようにしています。実際には ruby スクリ
+プトからは nil.taint は呼べる(何もしない)のですが、rb_check_frozen() を回避する
+ためっぽいですね。 nil の freeze 化の布石と思われます。

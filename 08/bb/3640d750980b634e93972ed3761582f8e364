@@ -1,0 +1,5 @@
+iseq_peephole_optimize() で tostring 命令の後にオペランドが 1 の concatstring
+命令(つまりスタックトップの文字列をそのまま残すので結果として何もしない)があっ
+た時には concatstring 命令を消すような最適化を追加しています。文字列への式の埋
+め込みなどでありえるみたいです。 https://github.com/ruby/ruby/pull/1626#
+discussion_r139285653

@@ -1,0 +1,2 @@
+tool/merger.rb で複数の revision のバックポート時にオリジナルの revision のコミ
+ットログを連結する間に空行をはさむようにしています。

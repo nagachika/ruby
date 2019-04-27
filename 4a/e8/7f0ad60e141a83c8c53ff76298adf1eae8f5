@@ -1,0 +1,5 @@
+r60944 で prelude.rb に Kernel#pp の定義を追加した時に標準添付ライブラリのほう
+の lib/pp.rb で Kernel#pp を定義する時に一旦 undef するようにしていましたが、
+undef 直後に再定義する前に別の Thread で pp が呼ばれると NoMethodError になる可
+能性があったので alias で一旦別名をつけてから再定義してその後別名のほうを undef
+するようにしています。へーこうすると警告が抑制できるのか。

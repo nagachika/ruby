@@ -1,0 +1,5 @@
+HEAP_PAGE_ALIGN_LOG というメモリ管理で使うページサイズの指定を configre で
+OpenBSD と MirOS では sysconf(_SC_PAGESIZE) でページサイズを取得してそこから計
+算するようにしてたのを消して常に 14 (つまり 2^14=16KB)を使うようにしています。
+もう古い OpenBSD/MirBSD はサポートが切れてて考慮しなくて良くなったとのこと。
+[ruby-core:80691] [Bug #13438]

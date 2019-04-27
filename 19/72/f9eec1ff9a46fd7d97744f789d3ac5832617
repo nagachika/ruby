@@ -1,0 +1,3 @@
+openssl のテストにて OpenSSL::SSL::SSLSocket#cert のテストのために File オブジ
+ェクトを渡して OpenSSL::SSL::SSLSocket.new しているのですが、Windows ではソケッ
+ト以外を渡して SSLSocket を生成するのが動かないらしくスキップされています。

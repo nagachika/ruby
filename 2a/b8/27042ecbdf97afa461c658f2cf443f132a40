@@ -1,0 +1,2 @@
+autoload の排他処理で linked list の処理で list_del_init() を list_del() に変更
+しています。不要な再初期化をなくす最適化みたいですね。

@@ -1,0 +1,8 @@
+rb_method_cfunc_t::invoker の関数ポインタの呼び出し時に、引数に
+rb_call_info_struct を渡していたの、をそのメンバの recv と argc をばらして渡す
+ようにしています。 invoker の定義は元から変更されていたのに
+OPT_CALL_CFUNC_WITHOUT_FRAME が定義されている時のコードが追随されていなかったの
+みたいですね。また vm_call_cfunc_push_frame() は rb_vm_call_cfunc_push_frame()
+と改名して、vm_push_frame() の呼び出しの引数を修正しています。これも
+OPT_CALL_CFUNC_WITHOUT_FRAME が定義されている時の部分なのでビルドエラーにならず
+修正が漏れてたみたいです。

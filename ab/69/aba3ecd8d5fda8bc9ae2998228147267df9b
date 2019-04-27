@@ -1,0 +1,2 @@
+autoload のテストで defined? で require されないこと($LOADED_FEATURES に追加さ
+れないこと)をチェックするようにしています。

@@ -1,0 +1,4 @@
+openssl の test で OpenSSL::X509::Request#sign に渡す digest に DSS1 はサポート
+されていなかったので assert_raise していたようですが、OpenSSL 1.1 は RSA1024 と
+DSS1 をサポートするようになったので例外にならず動くということで、テストを書き直
+しています。例外が発生したら rescue で無視。

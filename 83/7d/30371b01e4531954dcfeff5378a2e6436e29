@@ -1,0 +1,2 @@
+標準添付ライブラリ drb の DRb::DRbProtocol#auto_load の第2引数が利用されていな
+いので削除しています。 https://github.com/ruby/ruby/pull/515

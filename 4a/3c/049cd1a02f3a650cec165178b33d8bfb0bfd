@@ -1,0 +1,3 @@
+IO#reopen で mode の指定に文字列しか受け付けず、整数(File::Constants の定数)に
+よる指定が使えていなかったのを修正しています。 [ruby-core:47694]. [Feature #
+7067]

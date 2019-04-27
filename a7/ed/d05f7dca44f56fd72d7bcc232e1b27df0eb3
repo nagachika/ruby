@@ -1,0 +1,4 @@
+r66642 で Process.clock_gettime の Solaris での実行除外をやめてどの CLOCK_XXX
+が動かないのか確認しようとした結果 CLOCK_PROCESS_CPUTIME_ID、
+CLOCK_THREAD_CPUTIME_ID、CLOCK_VIRTUAL、CLOCK_PROF などもテスト対象から外すよう
+にしています。

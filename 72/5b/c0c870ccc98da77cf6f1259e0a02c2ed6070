@@ -1,0 +1,3 @@
+bignum.c から biglsh_bang() と bigrsh_bang() を削除して、シフト処理にこれらの関
+数を使っていたところはそれぞれ bary_small_lshift(), bary_small_rshift() を利用
+するように変更しています。

@@ -1,0 +1,4 @@
+rb_vm_search_cf_from_ep() で ep に対応する cfp がみつからなかった時に rb_bug()
+で強制終了していたのをやめています。 Enumerable を include したクラスで each に
+渡されたブロックを保存しておいて外から呼ぶとみつからない可能性があるみたいです
+。 [ruby-core:69548] [Bug #11254]

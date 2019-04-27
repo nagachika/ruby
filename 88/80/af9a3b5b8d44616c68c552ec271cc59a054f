@@ -1,0 +1,4 @@
+hash.c の mult_and_mix() で __uint128_t を使いかどうかのチェックに gcc かどうか
+を含めていたので、HAVE_UINT128_T だけチェックするようにしています。 gcc 以外の
+コンパイラ(具体的には e2k というプラットフォーム? 上の lcc)で問題があったようで
+す。 https://github.com/ruby/ruby/pull/1781 [ruby-core:84438] [Bug #14231]

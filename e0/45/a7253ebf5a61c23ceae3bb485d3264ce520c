@@ -1,0 +1,3 @@
+test/ruby/test_notimp.rb の test_call_fork でタイムアウトが頻発していたので
+fork 前に GC.start で強制的に GC しておくようにしています。このタイムアウトは手
+元でも発生してましたね。

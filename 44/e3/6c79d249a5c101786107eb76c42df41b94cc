@@ -1,0 +1,4 @@
+defs/gmake.mk で TEST_TARGETS と TEST_DEPENDS を filter と filter-out を使って
+なにかしてるんですけど、これはなんだろう…。コメントによるとテストを step by
+step に実行するようにしているとのこと。テストを含む複数のターゲットを同時に指定
+した時に重複を省いて指定の順序で実行するようにしているのかなあ。

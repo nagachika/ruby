@@ -1,0 +1,2 @@
+Range#cover? と Range#include? の実装から判定部分を r_cover_p() という関数に切
+り出して共有するリファクタリング。

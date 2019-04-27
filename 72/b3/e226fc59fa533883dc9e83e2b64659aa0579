@@ -1,0 +1,3 @@
+r54077 の compile_option の文字列化のためのマクロで COMPOUND_FIELD1() で引数を
+文字列リテラルとして展開していたのを呼び元の F_OPTION() や F_NODE() での展開に
+変更しています。

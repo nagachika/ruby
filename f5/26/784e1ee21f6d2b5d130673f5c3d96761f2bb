@@ -1,0 +1,5 @@
+Enumerable の min, max, min_by, max_by に引数として上位/下位 n 個を取得すること
+ができるようにしています。また Range の min, max も n 個取り出せるようにしてい
+ます。結果はソート済みになっているので、ランキングとか作るのにとても便利ですね
+。またチケットには Importance Sampling(重み付けサンプリング)に使えるっていう例
+も上がってます。 [ruby-core:57111] [Feature #8887]

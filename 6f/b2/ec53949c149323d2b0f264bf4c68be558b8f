@@ -1,0 +1,6 @@
+オプションの --debug や --debug-frozen-string-literal で freeze された文字列を
+変更しようとして例外が発生した時にその生成元のファイル名や行数などの位置を表示
+する機能は --enable-frozen-string-literal をつけた時は常に位置情報を保持するよ
+うにしていたのを、速度への影響が大きいため --debug か
+--debug-frozen-string-literal の指定があった時だけ保持するようにしています。
+[Feature #11725]

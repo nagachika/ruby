@@ -1,0 +1,2 @@
+multik-tk.rb で method_missing が無限に再帰していたのを修正。[ruby-dev:42716] #
+4129

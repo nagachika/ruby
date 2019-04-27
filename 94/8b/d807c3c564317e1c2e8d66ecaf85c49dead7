@@ -1,0 +1,2 @@
+構造体メンバ rb_call_info_t::blockiseq と rb_block_t::iseq の型にも const 修飾
+子を追加しています。

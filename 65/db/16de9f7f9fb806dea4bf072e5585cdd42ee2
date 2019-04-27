@@ -1,0 +1,3 @@
+include/ruby/oniguruma.h に ONIG_CASE_MAPPING というマクロ定義を導入して
+casefold の特別扱いの処理を ONIG_CASE_MAPPING が定義されている時だけ有効にする
+ようにしています。デフォルトでは定義するようにしています。

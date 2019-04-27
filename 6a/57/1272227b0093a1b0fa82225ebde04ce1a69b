@@ -1,0 +1,3 @@
+parse.y の数値を parse するところで数字がない時のエラーを出力するマクロ
+no_digits() を関数として切り出して、parse_numeric() からの戻り値が 0 だったのを
+tINTEGER を返すようにしています。

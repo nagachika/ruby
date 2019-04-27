@@ -1,0 +1,2 @@
+String#tr, String#tr! などでメモリリークしていたのを修正。 [ruby-core:37708]
+[Bug #4956]

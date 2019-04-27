@@ -1,0 +1,6 @@
+FreeBSD の posix_openpt() の O_CLOEXEC の対応は FreeBSD 8 で一旦サポートされて
+、 9 でエラーになるようにされたそうで、Solaris と同じ処理に変更しています。
+Solaris のほうは grantpt() が内部でプロセスを起動しているため close-on-exec が
+セットされた状態で呼ばれるとエラーになるために grantpt() 後に close-on-exec フ
+ラグをセットしようとしているので、 FreeBSD がコメントの通り posix_openpt() の
+O_CLOEXEC のサポートだけなら元の修正で良かったんじゃないかと思います。

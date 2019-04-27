@@ -1,0 +1,6 @@
+RDoc 3.1 をマージしています。リリースノートはこちら http://rdoc.rubyforge.org/
+History_txt.html
+差分が大きいので細部は見ていませんが、r30382 での lib/rdoc/ri/paths.rb の修正、
+環境変数 HOME が設定されていない時の修正が変更されています。"for 1.8
+compatibility" とコメントされていますが少なくとも HOMEPATH を単独で参照している
+ところは不具合扱いなので修正したほうがいいんじゃないかと思います。

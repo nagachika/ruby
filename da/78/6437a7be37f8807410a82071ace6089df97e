@@ -1,0 +1,2 @@
+Array#sort! の実装でArrayオブジェクトの内容を書き換える前に rb_ary_modify() を
+呼び出して freeze のチェックや共有解除などをするようにしています。

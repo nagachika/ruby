@@ -1,0 +1,2 @@
+mjit_worker.c の compact_units という変数のコメントで free_list() で解放される
+ことを追記しています。

@@ -1,0 +1,4 @@
+さらに ext/extmk.rb の bundled gem の拡張ライブラリ用の変更で、もう
+TARGET_GEM_DIR っていう変数を(生成する Makefile 内で)宣言して使いまわすようにし
+ています。そして gem.build_complete というビルド完了を示すファイルを
+TARGET_SO_DIR ではなくこの TARGET_GEM_DIR の下に置くようにしています。

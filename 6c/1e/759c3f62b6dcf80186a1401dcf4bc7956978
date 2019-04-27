@@ -1,0 +1,6 @@
+ext/date/date_core.c で主に T_RATIONAL のオブジェクトだけど Rational ではないオ
+ブジェクトが渡された時の処理を追加しています。 CANONICALIZATION_FOR_MATHN とい
+うマクロが定義されていて mathn がロードされていると Rational や Complex を期待
+したメソッドが自動的に Integer やら Float にまるめられて(？)返ってきてしまうと
+いうのに対応している。
+知りませんでした。mathn こわい。

@@ -1,0 +1,4 @@
+miniteset 2.8.1 をマージしています。 rdoc(コメント)のサンプルコードの修正、不要
+なブロック引数の削除、MINI_DIR の削除(const_missing で警告)、RUBY_VERSION に依
+存したコードの削除など。あと r33766, r33769, r33771 での assert_raises の省メモ
+リ化が巻き戻されてしまっているようです。

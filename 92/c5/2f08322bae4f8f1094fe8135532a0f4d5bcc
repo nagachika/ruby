@@ -1,0 +1,2 @@
+lib/net/http/status.rb にこのファイルだけ require した時に Net が未定義でエラー
+になるみたいなので require "net/http" を追加しています。

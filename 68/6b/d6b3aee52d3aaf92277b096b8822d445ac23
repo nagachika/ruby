@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole のバージョンをさらに 1.5.9 に更新して、ole_variant2val
+() で VARIANT 型を VALUE に変換する時に VT_RECORD 型の VARIANT の変換をサポート
+するようにしています。 VT_RECORD は Array になるみたいですね。

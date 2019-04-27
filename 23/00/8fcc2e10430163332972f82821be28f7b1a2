@@ -1,0 +1,2 @@
+Makefile.in で PLATFORM_DIR という変数を win32 と固定で定義していましたが
+configure で必要に応じて定義してそれを使うようにしています。

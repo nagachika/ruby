@@ -1,0 +1,5 @@
+trace の event hook の削除時の処理を変更しています。hook 実行時に削除フラグの経
+った event hook の削除を行なっていたのを、hook 削除の実行時(ただし hook がいず
+れかの Thread で実行中でない時)と、hook 実行完了後に行うように分けています。ま
+た vm->trace_running の数のインクリメント/デクリメントを exec_hooks_precheck()
+と exec_hooks_postcheck() という関数で行うようにリファクタリングしています。

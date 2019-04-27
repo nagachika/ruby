@@ -1,0 +1,3 @@
+enc/unicode/name2ctype.h を enc/unicode/name2ctype.kwd から生成する時にマクロを
+削除しないようにしています。また enc/unicode/name2ctype.kwd, name2ctype.src,
+name2ctype.h.blt を更新しています。

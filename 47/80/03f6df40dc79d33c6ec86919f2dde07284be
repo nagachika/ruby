@@ -1,0 +1,4 @@
+rb_iseq_location_t のメンバー path, absolute_path を改名して pathobj という1つ
+のオブジェクトにしています。通常は String オブジェクトで realpath が異なる時だ
+け path と realpath の配列という形で保持させるようにして省メモリ化しているみた
+いです。

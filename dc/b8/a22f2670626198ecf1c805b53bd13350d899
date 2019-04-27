@@ -1,0 +1,3 @@
+Enumerable#cycle にブロックなしで呼んで作った Enumerator の size メソッドが、
+receiver の要素数が 0 の時にも Infinity を返してたので常に 0 を返すように修正し
+ています。 [ruby-core:83680] [Bug #14082]

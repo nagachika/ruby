@@ -1,0 +1,2 @@
+String#scrub の公開 C-API rb_str_scrub() の rdoc 用コメントに第1引数の説明を追
+加しています。

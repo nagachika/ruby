@@ -1,0 +1,4 @@
+Net::HTTP のオプションに write_timeout を追加しています。これまでも
+open_timeout と read_timeout はありましたがソケットへの書き込みのタイムアウトと
+いうのはなかったのですね。あまり、書き込みでブロックすることはなさそうだけど。
+[ruby-core:80542] [Feature #13396]

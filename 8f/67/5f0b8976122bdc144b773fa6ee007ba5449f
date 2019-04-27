@@ -1,0 +1,4 @@
+r43445 で拡張ライブラリ openssl の依存関係に thread_pthread.h が追加されました
+が一応プラットフォームに応じて THREAD_MODEL という変数を参照して依存するヘッダ
+ファイルを thread_pthread.h か thread_win32.h を切り替えるようにしています。
+[ruby-dev:47777]

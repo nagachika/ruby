@@ -1,0 +1,3 @@
+check_funcall_missing() で basic_obj_respond_to_missing() が Qundef を返した時
+にも未定義として処理するように修正しています。これ割と致命的な気がするけどいつ
+から壊れてたんだろう、と思ったら次の r58985 で再修正されていますね。

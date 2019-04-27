@@ -1,0 +1,2 @@
+rubyspec の Process::Status#pid のテストで Windows 環境では pid が期待と異なる
+ためエラーになるので skip するようにしています。

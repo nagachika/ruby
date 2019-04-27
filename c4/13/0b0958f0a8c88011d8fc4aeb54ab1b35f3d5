@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http で r60053 で切り出された URI::Generic.use_proxy? を
+利用して Net::HTTP.start に省略可能引数を追加して環境変数 no_proxy と同様の指定
+ができる文字列が指定できるようにしています。 [ruby-core:69402] [Feature #11195]

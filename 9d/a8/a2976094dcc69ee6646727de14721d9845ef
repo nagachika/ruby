@@ -1,0 +1,4 @@
+force_encoding で dummy encoding にエンコードした文字列に対して String#scrub に
+引数に互換性のないエンコーディングの文字列を渡して呼び出すと
+Encoding::CompatibilityError 例外が発生していたのを、dummy encoding には scrub
+は作用しないそうなので不要な例外発生はしないようにしています。

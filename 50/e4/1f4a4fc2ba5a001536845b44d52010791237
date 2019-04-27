@@ -1,0 +1,2 @@
+標準添付ライブラリ rinda のテストで Rinda::TupleSpace の TupleBag を定期的に掃
+除する keeper という Thread を不要なテストでは止めておくようにしています。

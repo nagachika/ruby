@@ -1,0 +1,3 @@
+rdoc の lib/rdoc/text.rb で require "json" していた部分を削除しています。よくわ
+からないのですがこれで CI のテストがこけたことがあったみたいです。 http://
+ci.rvm.jp/results/trunk-test@frontier/101990

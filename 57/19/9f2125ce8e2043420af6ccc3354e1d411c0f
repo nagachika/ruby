@@ -1,0 +1,5 @@
+Fiber の実体の構造体 struct rb_fiber_struct の status の値に FIBER_RESUMED/
+FIBER_SUSPENDED という状態を追加して、今 resume で実行中なのか、yield を呼んで
+中断している状態なのかを管理するようにしています。また fiber_verify() という関
+数を追加して fib->cont.saved_thread.ec.stack の値と status の整合性を GC の
+mark 時にチェックするようにしています。

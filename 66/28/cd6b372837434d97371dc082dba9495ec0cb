@@ -1,0 +1,3 @@
+parse.y の ripper_id2sym() で rb_ispunct() の条件に含まれている (id) < 256 とい
+う冗長な条件を削っています。また rb_ispunct() の引数にキャストを追加して警告除
+去しています。

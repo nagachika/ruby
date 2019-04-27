@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::X509::Certificate#extensions のテストで順序
+依存になってたテストを辞書順でソートして意図を明確にしています。

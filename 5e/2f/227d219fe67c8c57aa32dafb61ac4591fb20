@@ -1,0 +1,6 @@
+Enumerator#size で値を返せるようにするために size を返す関数の指定つきで
+Enumerator を生成する rb_enumeratorize_with_size() でその関数の引数の数を明示的
+に定義していなかったのを、rb_enumerator_size_func という型に宣言して3引数受け取
+ることを明示するようにしています。このためこれまで rb_ary_size() など既存のコン
+テナの要素数を返すメソッドの関数などを流用していたのを、専用の関数を定義して渡
+すようにしています。

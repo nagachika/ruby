@@ -1,0 +1,3 @@
+Rational#negative?, Rational#positive? を定義しています。 Numeric のメソッドに
+まかせていたのですがこれだと 0 との ">" メソッドでの比較を rb_check_funcall()
+で呼び出す実装になっていたので効率的な実装にしています。

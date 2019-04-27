@@ -1,0 +1,4 @@
+r65151 のリトライ。 .travis.yml の build matrix に pedanticism というコンパイラ
+のチェックを厳しくしたやつを追加しています。今度は環境変数 CONFIG_FLAG のかわり
+に CONFIG_FLAG_ARRAY というのを使って configure への引数を与えるようにしていま
+す。

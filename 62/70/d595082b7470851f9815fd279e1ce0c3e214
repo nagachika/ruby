@@ -1,0 +1,3 @@
+r58886 の String#concat の最適化と同様に Array#concat でも引数が1つだけの時に中
+間オブジェクトを生成しないようにする最適化を行なっています。 https://github.com
+/ruby/ruby/pull/1634

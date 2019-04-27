@@ -1,0 +1,1 @@
+Fixnum#reminder と Bignum#reminder を Integer#reminder へ統合しています。

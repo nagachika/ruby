@@ -1,0 +1,4 @@
+parse.y の rb_intern3(), rb_check_id(), rb_check_id_cstr() でシンボルや ID を検
+索するために C の文字列を一時的に String オブジェクトの VALUE 値のように wrap
+する処理が共通だったので setup_fake_str() という関数名で括り出すリファクタリン
+グをしています。

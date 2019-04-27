@@ -1,0 +1,5 @@
+ruby --copyright オプションを処理する ruby_show_copyright() 関数はその中で exit
+(3) を呼んでプロセスを終了させていましたが、これをやめて process_options() で
+ruby_show_copyright() を呼んだ後 return することで終了させるようにしています。
+が RUBY_NO_OLD_COMPATIBILITY というマクロが未定義だと exit() するマクロとしての
+ruby_show_copyright() の定義が有効になるようになっています。

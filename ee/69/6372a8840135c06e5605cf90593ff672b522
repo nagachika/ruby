@@ -1,0 +1,4 @@
+r53759 で追加した enc/unicode/casefold.h の生成時のコマンドで enc/unicode/
+case-folding.rb に追加した -m オプションを利用するように変更しています。また
+enc/unicode/case-folding.rb で -m オプションが引数を受け取るようにできていなか
+ったのを修正しています。

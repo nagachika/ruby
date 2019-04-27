@@ -1,0 +1,3 @@
+configure で __builtin_popcountl(), __builtin_bswap32(), __builtin_bswap64() な
+どの gcc の組み込み関数の存在チェックを行なって、gcc のバージョンで判定していた
+部分をこの判定結果を利用するように修正しています。

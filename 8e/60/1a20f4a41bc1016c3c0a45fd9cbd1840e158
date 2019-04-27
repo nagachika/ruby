@@ -1,0 +1,2 @@
+Windows 版での TIME_QUANTUM_USEC を 10msec に変更しています。 [ruby-dev:45294]
+[Bug #6098]

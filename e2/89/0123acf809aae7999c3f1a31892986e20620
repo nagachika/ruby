@@ -1,0 +1,7 @@
+File.expand_path がファイルパスの文字列を rb_file_expand_path_internal() で作成
+する時に大きなバッファ(capa)を持つ文字列オブジェクトを作ってしまうので、切り詰
+めるようにしています。このために rb_str_resize() にその文字列のサイズを指定して
+渡すということをしています。 [ruby-core:63114] [Bug #9934]
+うーんこのために r46408 の変更をしたんですね。でもテストは通る……と思いました
+が ObjectSpace.memsize_of は String オブジェクトは capa をみるので、capa だけ小
+さくしても通ってしまうかも。 [ruby-core:63114] [Bug #9934]

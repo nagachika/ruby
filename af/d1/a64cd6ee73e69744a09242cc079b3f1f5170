@@ -1,0 +1,3 @@
+rb_thread_schedule_rec() で GVL_YIELD の有無で条件コンパイルで分岐していたのを
+やめて、Windows 版の gvl_yield() (実装はただの native_thread_yield()) も用意し
+て常に gvl_yield() が定義されているようにしています。

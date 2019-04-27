@@ -1,0 +1,2 @@
+spec/default.mspec で .mspec ファイルを rubyspec/ruby.2.2.mspec と特定のバージ
+ョンのファイルを読んでいたのを rubyspec/ruby.mspec を読むように修正しています。

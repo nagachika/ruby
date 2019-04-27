@@ -1,0 +1,3 @@
+multiarch 対応のために template/ruby.pc.in の Cflags に使うアーキテクチャ依存の
+ヘッダファイルディレクトリパスを ${rubyhdrdir}/${arch} から ${rubyarchhdrdir}
+に変更しています。 [ruby-core:52622] [Bug #7874]

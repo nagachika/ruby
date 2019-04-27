@@ -1,0 +1,3 @@
+bit field 用の型を明示する時に C99 以前かどうかで任意の型が使えるかどうかを変え
+るのを BITFIELD() というマクロに切り出して rb_scope_visibility_t の定義で利用す
+るようにしています。 [ruby-core:85074] [Misc #14395]

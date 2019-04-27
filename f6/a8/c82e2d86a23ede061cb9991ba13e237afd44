@@ -1,0 +1,3 @@
+r41723 で修正された拡張ライブラリ bigdecimal の BigMath.exp の不具合は
+[ruby-core:47145] [Bug #6862] というチケットでも以前から報告があり、Heesob Park
+からパッチも提供されていたので、ChangeLog にクレジットを追加しています。

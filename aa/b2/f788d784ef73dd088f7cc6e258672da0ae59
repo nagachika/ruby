@@ -1,0 +1,3 @@
+Enumerator::Lazy#zip の引数にメソッド each を呼べないオブジェクトが渡された時に
+はすぐに ArgumentError を発生させるようにチェックを追加しています。
+[ruby-core:51472] [Bug #7706]

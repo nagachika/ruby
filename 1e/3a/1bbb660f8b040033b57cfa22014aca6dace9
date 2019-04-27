@@ -1,0 +1,4 @@
+include/ruby/ruby.h と include/ruby/encoding.h で定数を #define で定数マクロと
+して定義していたのを全体的に enum を使った定義にしたり、元々 enum になっていた
+ものも無名だったものに名前をつけたり名前に prefix をつけたりと整理しています。
+ここで r51850 で追加された ENUM_OVER_INT が利用されています。

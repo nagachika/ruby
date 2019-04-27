@@ -1,0 +1,3 @@
+random.c の rand_init() に渡される引数 seed は常に Integer を渡すようにして、
+rb_to_int() の変換削除し、呼び元の random_init() や rb_f_srand() で必要に応じて
+rb_to_int() で変換しておくようにしています。

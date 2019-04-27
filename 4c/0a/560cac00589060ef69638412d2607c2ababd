@@ -1,0 +1,2 @@
+fiddle の extconf.rb 再修正。 pkg_config("libffi") が成功した時だけ modversion
+を取り出すようにしています。

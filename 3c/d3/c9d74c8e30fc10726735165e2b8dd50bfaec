@@ -1,0 +1,6 @@
+rb_realpath_internal() で FilePathValue() を呼んで引数 path のエンコーディング
+変換をしていたのをやめて、呼び元のうち rb_file_s_realpath() および
+rb_file_s_realdirpath() で変換しておくようにしています。 load などでスクリプト
+ファイルのパスを処理する時に Encoding.default_internal の影響を受けないようにし
+ているみたいで、 r54521 の Kernel#load の修正や r54522 のテストの変更とも関連し
+ているのかなぁ。

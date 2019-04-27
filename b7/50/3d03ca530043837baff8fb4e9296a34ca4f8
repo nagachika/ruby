@@ -1,0 +1,2 @@
+r52386 で Solaris での test_interrupt_in_finalizer でのシグナルマスクの表示のた
+めに親プロセスのほうに入れていたデバッグ用の出力を削除しています。

@@ -1,0 +1,3 @@
+r40100 および r40104 で Module#class_variable_set の Symbol 生成を遅延させた変
+更の部分を revert しています。 Class.new.class_variable_set(1, 2) とすると SEGV
+するとのこと。

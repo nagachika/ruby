@@ -1,0 +1,4 @@
+test/rubygems/test_gem_commands_install_command.rb に require 'rubygems/
+request_set' を追加しています。 r51098 や r51138 と同様に rubygems のテストでの
+同じファイルの重複した load による定数の再定義の警告を避けるためだと思われます
+。

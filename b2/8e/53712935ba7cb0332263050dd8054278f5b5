@@ -1,0 +1,4 @@
+Kernel#sprintf のテストにオプション引数として Hash が渡された時のテストケースを
+追加、とあるのですが、実際に追加されているテストをみると sprinf の引数として渡
+されているんじゃなくて String#% に渡されているような。 https://github.com/ruby/
+ruby/pull/491

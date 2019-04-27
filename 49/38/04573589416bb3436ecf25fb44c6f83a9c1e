@@ -1,0 +1,2 @@
+variable.c と vm_insnhelper.c の struct RClass::ptr::const_tbl の探索を
+rb_const_lookup() という関数に切り出して共有するようにするリファクタリング。

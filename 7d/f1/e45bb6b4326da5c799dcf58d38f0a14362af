@@ -1,0 +1,2 @@
+拡張ライブラリ ripper に lexer (scanner) の状態を返す Ripper#state メソッドを追
+加しています。 [ruby-core:81789] [Feature #13686]

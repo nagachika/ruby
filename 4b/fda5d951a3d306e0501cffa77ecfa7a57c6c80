@@ -1,0 +1,2 @@
+r53633 の make update-unicode の変更はやはり CI で問題があったようで revert さ
+れています。

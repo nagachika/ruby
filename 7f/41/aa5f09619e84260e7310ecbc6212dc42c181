@@ -1,0 +1,6 @@
+signal.c で sighandler_t を ruby_sighandler_t という型に #define するようにして
+います。直下で sighandler_t の型(関数型)を定義しているのですが、これがシステム
+のものと衝突しないようにしているみたいです。posix_signal() という関数が include
+/ruby/intern.h にプロトタイプ宣言があるのでそこに影響が……と思いきや intern.h
+では sighandler_t という型は使わずに直接関数型を記述していたので影響していませ
+んでした。そりゃそうか。

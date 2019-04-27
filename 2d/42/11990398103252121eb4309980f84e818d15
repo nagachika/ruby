@@ -1,0 +1,4 @@
+String#tr で UTF-16LE などの ASCII-incompatible なエンコーディングの文字列を変
+換しようとした時に結果の文字列の coderange が間違って、こちらも String#
+ascii_only? の判定が間違うことがあった不具合を修正しています。
+[ruby-core:83056] [Bug #13950]

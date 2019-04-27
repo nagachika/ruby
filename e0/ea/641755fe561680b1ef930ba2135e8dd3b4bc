@@ -1,0 +1,2 @@
+r53537 の sample/test.rb の basictest/ への移動を revert しています。 RubyCI で
+使っている chkbuild の対応も必要だったみたいです。

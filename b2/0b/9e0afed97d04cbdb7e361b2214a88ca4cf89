@@ -1,0 +1,4 @@
+拡張ライブラリ openssl が NPN サポートを OFF にした OpenSSL とリンクしようとす
+るとうまくいかない不具合を修正しています。マクロの存在チェックでなく
+SSL_CTX_set_next_proto_select_cb() という関数の存在チェックで条件コンパイルする
+ようにしています。 [ruby-core:74384] [Bug #12182]

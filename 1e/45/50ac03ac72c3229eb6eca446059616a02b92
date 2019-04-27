@@ -1,0 +1,2 @@
+r49823 で追加した EnvUtil.assert_in_out_err の出力チェックの機能を使って
+assert_segv や test_bug_reporter_add でチェックをシンプルに書き直しています。

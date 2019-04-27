@@ -1,0 +1,2 @@
+標準添付ライブラリ tracer.rb で open + IO#readlines で書いていた部分を
+File.readlines を使って短く書き直しています。

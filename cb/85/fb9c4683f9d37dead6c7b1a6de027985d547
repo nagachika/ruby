@@ -1,0 +1,4 @@
+rb_io_reopen() で IO オブジェクトの fptr->pathv に格納する String オブジェクト
+を fstring にしてコピーを作っていましたが、引数の fname はこの前で
+FilePathValue() が呼ばれて NUL終端と freeze が行なわれているためこのまま代入し
+て良かったので不要な rb_str_new_frozen() の呼び出しを削除しています。

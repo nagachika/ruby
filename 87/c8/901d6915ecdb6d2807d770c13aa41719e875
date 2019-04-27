@@ -1,0 +1,3 @@
+Time のテストで Time#zone の Encoding のチェックを assert_zone_encoding という
+メソッドに切り出し、locale encoding だけでなく default_internal のエンコーディ
+ングの場合も考慮するようにしています。

@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal のライセンスの表記が ruby 本体とは別に GPL の書かれて
+いたのを、広義の ruby's license にそろえています。 bigdecimal の元々の作者と連
+絡を取ってライセンス変更の同意をもらったとのこと。 [ruby-core:68466] [Bug #
+10952]

@@ -1,0 +1,10 @@
+Module#remove_method でメソッドの定義を取り除く時にも origin (つまりメソッドテ
+ーブルを移植した IClass) を処理の対処にするように修正しています。
+ちなみに undef_method は「未定義」というマークを積極的にメソッドテーブルに追加
+するため include したモジュールや superclass で定義されていても NoMethodError
+になるのに対して remove_method はメソッドテーブルからそのメソッドの定義を取り去
+るだけなので ancestors にそのメソッドの定義があればそれが呼ばれるようになります
+。
+で、prepend しているクラスで undef_method した場合は prepend したモジュールのメ
+ソッドは NoMethodError になるべきなんでしょうかねぇ。上書きしているので呼べる、
+でもいいような気はします。

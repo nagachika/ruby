@@ -1,0 +1,3 @@
+bootstraptest/runner.rb に --tty オプションを指定して標準出力が端末かどうかをオ
+プションで指定できるようにしています。 cygwin 上で mingw版 or mswin版の ruby を
+実行した時? のためだそうです。 IO#tty? が動作しないからでしょうか。

@@ -1,0 +1,4 @@
+Complex#hash および Rational#hash で返した Integer が Fixnum の範囲に収まらない
+ものを返していて、Fixnum 化できることを期待した部分でエラーになっていたので、変
+換マクロを LONG2FIX() から ST2FIX() に変更しています。 [ruby-core:85224] [Bug #
+14420]

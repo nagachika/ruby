@@ -1,0 +1,2 @@
+r47913 の dynamic Symbol の管理方法の変更に追随して .gdbinit の rp コマンドで
+Symbol の type の表示方法を変更しています。

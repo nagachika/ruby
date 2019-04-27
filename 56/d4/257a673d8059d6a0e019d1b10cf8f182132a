@@ -1,0 +1,2 @@
+拡張ライブラリ psych で改行を含む正規表現オブジェクトを dump/load すると壊れる
+という不具合を修正しています。 https://github.com/tenderlove/psych/issues/222

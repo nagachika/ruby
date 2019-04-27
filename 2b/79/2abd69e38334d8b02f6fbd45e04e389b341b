@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Socket.ip_address_list の実装で定義している
+EXTRA_SPACE というマクロにキャストを追加しています。コンパイラの警告除去のため
+。

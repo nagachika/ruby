@@ -1,0 +1,2 @@
+r57053 で追加された Symbol#match? のテストを追加しています。 [ruby-core:77908]
+[Feature #12898]

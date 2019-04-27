@@ -1,0 +1,1 @@
+vm_core.h に追加された関数rb_autoloading_value() の宣言を追加しています。

@@ -1,0 +1,8 @@
+Refinement 用のメソッド Module#refine, Module#using と Kernel#refinements など
+の定義が拡張ライブラリ refinement に追い出されていて、require "refinement" を呼
+ばないと使えないようになっています。また require "refinement" すると
+"Refinements are experimental, and the behavior may change in future versions
+of Ruby!" と警告を出力するようになっています。実装はコアに入っている(メソッド探
+索のコアなところに入らざるをえないので当然ですが)のですがメソッドの定義だけ拡張
+ライブラリに追い出されているという coverage と同じようなライブラリになってしま
+いました。

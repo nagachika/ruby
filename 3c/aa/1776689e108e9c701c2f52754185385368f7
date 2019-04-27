@@ -1,0 +1,2 @@
+r55102 で rb_scan_args0() を ALWAYS_INLINE マクロと inline 修飾子両方使っていた
+のが Windows 版だとビルドに失敗するみたいで inline を削っています。

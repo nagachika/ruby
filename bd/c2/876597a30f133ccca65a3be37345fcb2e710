@@ -1,0 +1,2 @@
+r52492 で追加した FileConstants::TMPFILE(File::TMPFILE としてもアクセスできま
+す)について NEWS ファイルに追記しています。

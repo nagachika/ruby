@@ -1,0 +1,3 @@
+SIGN_EXTEND_CHAR() というマクロを削除して、利用していた marshal.c の部分を単に
+signed char へのキャストに修正しています。 https://github.com/ruby/ruby/pull/
+1302

@@ -1,0 +1,4 @@
+r40662 で configre.in で RUBY_REPLACE_TYPE() で off_t の型チェックをすることで
+自動的に OFFT2NUM() と NUM2OFFT() が定義されるようになったのですが、NUM2OFFT()
+のみ再定義を避けるようにしていたので include/ruby/ruby.h で定義されていた
+OFFT2NUM() の定義も未定義の時のみ定義するようにして上書きを避けています。

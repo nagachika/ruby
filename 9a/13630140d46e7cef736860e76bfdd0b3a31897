@@ -1,0 +1,3 @@
+ext/extmk.rb の create_makefile で gem.build_complete ファイルを生成するルール
+を作るのは TARGET 変数の代入がある時だけにしています。拡張ライブラリのない時に
+生成しないようにするため?

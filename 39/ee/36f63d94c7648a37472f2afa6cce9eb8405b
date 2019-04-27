@@ -1,0 +1,3 @@
+r61830 で利用するようにした __builtin_allloca_with_align() は GCC 4.8.5 以前で
+は検出はできるけど実際には使えない? 不具合がある? みたいなので、
+GCC_VERSION_BEFORE() でチェックして undef して利用しないようにしています。

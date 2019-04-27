@@ -1,0 +1,7 @@
+doc/syntax/miscellaneous.rdoc に式のデリミタとしてのセミコロンと改行のことと、
+インデントについて(インデントが文法上は意味を持たないことと、begin-rescue-end
+などでインデントが一致していない時に -w つきだと警告が出力されることについて追
+記しています。
+"Typically ruby programs are indented two spaces." という文も追記されているので
+3 spaces 派の方は異を唱えるならば今のうちにどうぞ。いやまあ確かに標準ライブラリ
+をみても一般的なのは 2 spaces なので間違ってないですけどね。

@@ -1,0 +1,2 @@
+lib/rake/file_utils_ext.rb と lib/rake/testtask.rb のコメントでも "ruby" を "
+Ruby" と capitalize しています。 https://github.com/ruby/ruby/pull/341

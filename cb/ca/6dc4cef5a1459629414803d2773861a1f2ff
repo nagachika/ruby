@@ -1,0 +1,2 @@
+make love のターゲットで make check のかわりに make exam を実行するようにしてい
+ます。 test-rubyspec を含めるようにしたんですね。

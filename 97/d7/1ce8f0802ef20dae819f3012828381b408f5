@@ -1,0 +1,2 @@
+r49326 の enc/trans ディレクトリ作成の追加により .travis.yml の make コマンドに
+MAKEDIRS 変数の定義を追加しています。

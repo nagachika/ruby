@@ -1,0 +1,5 @@
+標準添付ライブラリ resolv で Windows 環境で Win32::Resolv.get_hosts_path が nil
+を返した時に lib/resolv.rb のロード時にエラーが発生してたので、
+Resolv::Hosts::DefaultFileName に IO::NULL を格納しておいてエラーを防ぐようにし
+ています。 https://github.com/ruby/ruby/pull/1791 [ruby-core:84907] [Bug #
+14369]

@@ -1,0 +1,3 @@
+Zlib::GZipReader.open や Zlib::GZipWriter.open では引数のファイルを開いてからそ
+れを wrap したオブジェクトを返しているので、initialize で例外が発生した時にファ
+イルを閉じていなかったのを修正。

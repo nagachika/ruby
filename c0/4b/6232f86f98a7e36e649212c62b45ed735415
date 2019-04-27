@@ -1,0 +1,3 @@
+Fixnum の乗算のオーバーフローチェック MUL_OVERFLOW_FIXNUM_P() で LLP64 の環境の
+ために SIGNED_VALUE 型の変数を long に変更しています。 [ruby-core:82077] [Bug #
+13748]

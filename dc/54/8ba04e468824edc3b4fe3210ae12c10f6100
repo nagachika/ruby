@@ -1,0 +1,4 @@
+include/ruby/encoding.h の ENCODING_INLINE_MAX で struct RBasic::flags でエンコ
+ーディング用に利用するビット領域を 3 bits 減らしています。 7 bits もあれば Ruby
+が扱うエンコーディング全部入るだろってことみたいですが、特に ML やチケットの参
+照がないけど大丈夫かなぁ。現状の挙動には影響しないだろうと思いますが。

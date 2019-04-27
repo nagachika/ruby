@@ -1,0 +1,2 @@
+tool/rbinstall.rb で bundled gem のインストール時に拡張ライブラリを含む gem (
+json ですね)のために環境変数 DESTDIR を設定するようにしています。

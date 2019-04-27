@@ -1,0 +1,2 @@
+rb_check_frozen_internal() というマクロの定義で OBJ_FROZEN() を使っていたところ
+を RB_OBJ_FROZEN() という RB_ つきマクロを使うように修正。

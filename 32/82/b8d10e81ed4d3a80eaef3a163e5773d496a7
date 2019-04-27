@@ -1,0 +1,3 @@
+gc.c のビットマップで管理している旧世代フラグを取得するマクロ
+RVALUE_OLDEGN_BITMAP() の typo を修正して RVALUE_OLDGEN_BITMAP() に改名していま
+す。

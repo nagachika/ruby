@@ -1,0 +1,5 @@
+TracePoint の c_return イベントが "-Numeric.new" のようにすると内部的に呼ばれて
+いる coerce メソッドからの戻りのぶんが発生しないという不具合を修正しています。
+-Numeric.new は一例で、C 実装のメソッドからの大域脱出で cfp を巻き戻す時に起き
+る問題で、cfp を単に書き戻すだけでなくてちゃんと辿って rb_vm_pop_cfunc_frame を
+呼ぶようにしています。 [ruby-dev:48299] [Bug #9961]

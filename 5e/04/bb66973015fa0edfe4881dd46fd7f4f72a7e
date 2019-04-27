@@ -1,0 +1,2 @@
+rational.c のぶらさがり else if になっていたところ(if - else if - else の構文に
+中かっこがなかった)を修正しています。

@@ -1,0 +1,3 @@
+ruby/config.h で定義するマクロが errno.h の errno の種類に影響を与えることがあ
+る(たぶん AIX で?)ので、ext/openssl/ossl.h や include/ruby/io.h で errno.h を #
+include する順番を ruby/config.h や ruby.h の後にくるように変更しています。

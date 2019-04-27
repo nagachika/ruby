@@ -1,0 +1,4 @@
+GC のテストで子プロセスを止めるのに SIGINT を送信してから5秒待って SIGKILL で強
+制終了させていたのを、SIGSEGV を送信して dump させるようにしています。 Windows
+版で SIGSEGV って送信できましたっけ? SIGINT と SIGKILL など一部がエミュレートさ
+れているだけだと思うのですが。ってまあ rescue nil で吸収されるからいいのか。

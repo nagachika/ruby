@@ -1,0 +1,2 @@
+Random.urandom の rdoc 用コメントに戻り値が nil になり得ることを追記しています
+。

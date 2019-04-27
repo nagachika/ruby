@@ -1,0 +1,3 @@
+String のメソッドで UTF-16, UTF-32 などのダミーエンコーディングで BOM を考慮し
+ていなかったので r44605 で分離した get_actual_encoding() を利用するようにしてい
+ます。 [ruby-dev:47895] [Bug #9415]

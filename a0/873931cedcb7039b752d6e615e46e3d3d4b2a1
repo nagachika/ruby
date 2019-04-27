@@ -1,0 +1,4 @@
+VM からのメソッド呼び出しに関する関数 vm_call0_body() の最後に呼んでいた割り込
+みチェックの RUBY_VM_CHECK_INTS() を削除しています。また switch 文の break を直
+接 break に変更して、メソッドの種別の分岐に VM_METHOD_TYPE_CFUNC_FRAMELESS と
+VM_METHOD_TYPE_UNDEF を追加しています。

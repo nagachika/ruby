@@ -1,0 +1,2 @@
+object.c および eval.c で TYPE() マクロを使っていた部分を BUILTIN_TYPE() や
+XXXX_P() マクロを使った書き方に変更しています。

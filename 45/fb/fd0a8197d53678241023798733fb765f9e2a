@@ -1,0 +1,2 @@
+win32/file.c の convert_mb_to_wchar() に渡す文字列を String オブジェクト(VALUE)
+から const char * に変更するリファクタリング。

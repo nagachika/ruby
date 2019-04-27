@@ -1,0 +1,4 @@
+拡張ライブラリ psych に同梱している libyaml を 0.1.5 に更新しています。これは
+libyaml にあったヒープオーバフローの不具合を修正したものです。 http://
+cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6393 こっちはまだ情報が開示され
+ていないみたいですね。

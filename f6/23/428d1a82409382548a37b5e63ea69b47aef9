@@ -1,0 +1,3 @@
+include/ruby/win32.h で SIZEOF_STRUCT_STAT_ST_INO というマクロ定数を定義する前
+に #undef しておくようにしています。 MinGW でのビルド時の警告の修正。
+[ruby-core:84148] [Bug #14165]

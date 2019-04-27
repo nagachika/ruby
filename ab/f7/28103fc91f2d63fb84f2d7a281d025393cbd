@@ -1,0 +1,2 @@
+Travis-CI で ccache を導入したので .travis.yml で -j オプションに CPU コア数を
+元にした並列ジョブ数を設定するようにしています。

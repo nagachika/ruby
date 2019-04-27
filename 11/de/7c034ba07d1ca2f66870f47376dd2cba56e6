@@ -1,0 +1,2 @@
+Windows 版のために Zlib::GzipReader.wrap を使ったテストでファイルに明示的に
+binmode を指定するようにしています。 [ruby-dev:45149] [Bug #5812]

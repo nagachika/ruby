@@ -1,0 +1,4 @@
+r52602 の BasicSocket#recvmsg{_nonblock}() の Ruby wrapper メソッド化で struct
+msghdr::msg_control が存在しないプラットフォームで recvmsg(2) が errno=EMSGSIZE
+を返した時にバッファサイズの拡張を行うようにしています。主に Windows 向けの修正
+みたいです。

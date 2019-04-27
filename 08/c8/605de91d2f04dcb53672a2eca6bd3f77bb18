@@ -1,0 +1,5 @@
+YARV の getlocal/setlocal というローカル変数のセット/取得を行う命令を削除して、
+getdynamic/setdymanic を getlocal/setlocal と改名して置き換えています。元の
+getlocal/setlocal は getdynamic/setdynamic の特別なケースとして扱える(ブロック
+のネストの最も外側の level が指定されたらローカル変数を取得する)ので命令を統合
+しているようです。

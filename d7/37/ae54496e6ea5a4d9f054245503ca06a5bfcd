@@ -1,0 +1,3 @@
+Time#strftime の rdoc に追記しています。Time#strftime は 1.9 では libc の
+strftime() を使わなくなったためにロケールの指定の影響を受けないと追記されていま
+す。

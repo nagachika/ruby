@@ -1,0 +1,4 @@
+r42038 で array.c に追加したデバッグ用に Write Barrier の保護が外れたイベントの
+ログを蓄積する関数の引数に VALUE を使っていたのですが include/ruby/ruby.h を #
+include する前で VALUE が使えないので unsigned long で宣言していましたが VALUE
+と long のバイト幅が一致しない環境もあるので void * に変更しています。

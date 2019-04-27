@@ -1,0 +1,3 @@
+Solaris 10 上で Oracle Solaris Studio 12.4 でコンパイルすると、条件演算子の2つ
+の式で型が異なるというのでコンパイルエラーになるそうなので、eval_error.c の
+write_warn_xxx() の定義で明示的な (void) のキャストを追加しています。

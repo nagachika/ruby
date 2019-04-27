@@ -1,0 +1,7 @@
+ISeq に path, absolute_path, label, base_label, first_lineno などの ISeq の情報
+を返すためのメソッドを追加しています。また ISeq.of というクラスメソッドに Proc
+や Method を渡すとその定義の ISeq オブジェクトを返してくれるようになっています!
+これで r38076 の specified_line イベントと組み合わせて定義あれているメソッドな
+どの特定の行にフックをかけることができるようになりますね。
+ささださんが日記に解説を書いてくださってます。 http://www.atdot.net/~ko1/diary/
+201212.html

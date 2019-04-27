@@ -1,0 +1,3 @@
+rb_gc_mark_machine_stack() からマシンスタックの範囲の mark 処理を
+mark_stack_locations() という関数に切り出して mark_current_machine_context() で
+もこの関数を利用するようにリファクタリングしています。

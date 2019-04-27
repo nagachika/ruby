@@ -1,0 +1,4 @@
+make test-all にはテストを実行する時のオプションとして TESTS を渡すようにしてい
+ますが、make test-ruby というターゲットも同じように TESTS オプションを受けつけ
+るようにしています。 test-ruby というターゲットがあったんですね。test-all の対
+象を test/ruby の下のテストだけにしたものです。

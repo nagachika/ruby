@@ -1,0 +1,2 @@
+r64777 の Hash#merge, Hash#update などの引数の可変数個化について NEWS ファイル
+に追記しています。 [ruby-core:88970] [Feature #15111]

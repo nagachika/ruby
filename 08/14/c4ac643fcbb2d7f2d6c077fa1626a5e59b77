@@ -1,0 +1,2 @@
+Enumerator::Lazy#cycle の返す Enumerator::Lazy の size 対応をしています。
+[ruby-core:45805] [Feature #6636]

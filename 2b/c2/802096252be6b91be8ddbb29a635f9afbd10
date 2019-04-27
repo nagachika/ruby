@@ -1,0 +1,5 @@
+Windows ではプロセスが開いているファイルは削除できないのですが、
+File::Constant::SHARE_DELETE というフラグを用意してこれを設定した IO は開いたま
+までも削除できるようにしています。このフラグが立っていたら CreateFileW() に渡す
+フラグの FILE_SHARE_DELETE を設定するようにしています。 [ruby-dev:49022]
+[Feature #11218]

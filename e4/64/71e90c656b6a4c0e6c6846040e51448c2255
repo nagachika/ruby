@@ -1,0 +1,4 @@
+Module#refine にブロックを渡さずに呼び出すと "wrong number of arguments (0 for
+1..3)" のように求めている arity の間違ったメッセージの ArgumentError が発生して
+いたので、ブロックの有無は先にチェックして "no block given" というメッセージの
+ArgumentError を発生させるように修正しています。 [ruby-dev:46319] [Bug #7244]

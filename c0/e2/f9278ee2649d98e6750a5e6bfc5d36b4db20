@@ -1,0 +1,3 @@
+method_missing からの raise のテストで SEGV が発生しているそうで、情報の取得の
+ため EnvUtil.invoke_ruby のかわりに assert_separately を利用するようにしていま
+す。

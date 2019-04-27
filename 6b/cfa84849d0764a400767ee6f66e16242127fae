@@ -1,0 +1,3 @@
+rubygems のテストで $LOAD_PATH を弄っているところで、各要素の
+@gem_prelude_index というインスタンス変数の変更も行うようにしています。
+symbolic link の解決をした時などに追随が漏れてたのに対処しているのかな。

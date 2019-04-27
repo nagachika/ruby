@@ -1,0 +1,3 @@
+configure で warnflags に -Werror=extra-tokens を追加して、#if などのプリプロセ
+ッサの directive に余分なトークンがあった時に警告ではなくエラー扱いにするように
+しています。 r40128 の typo の影響でしょう。

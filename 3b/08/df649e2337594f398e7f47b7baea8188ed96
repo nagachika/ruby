@@ -1,0 +1,5 @@
+標準添付ライブラリ securerandom の SecureRandom#gen_random で Random.urandom が
+使えるかチェックする時に、引数が 0 だと実際には /dev/urandom を利用できないのに
+成功してしまった openssl の実装へ fallback する処理が動かないので、チェック用の
+呼び出し時には引数に 1 を渡して利用可能かチェックするようにしています。 2回目以
+降はメソッド自体 alias されるので余計な呼び出しはされないようになっています。

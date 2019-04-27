@@ -1,0 +1,2 @@
+r64240 と同様に rubyspec の socket のテストで bind してないソケットへの accept
+のテストを Solaris でも実施しないようにしています。

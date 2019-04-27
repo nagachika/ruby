@@ -1,0 +1,5 @@
+r58534 で修正した nogvl_wait_for_single_fd() のように IO.copy_stream の IO 待ち
+で busy wait になってないか確認するためのテストを追加しています。このために
+Benchmark を利用して CPU 使用率をチェックする assert_cpu_usage_low という
+assertion メソッドを追加しています。これまた確率的にこけそうな予感がするテスト
+ですな…。

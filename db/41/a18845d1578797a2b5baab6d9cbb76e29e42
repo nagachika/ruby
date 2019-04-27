@@ -1,0 +1,6 @@
+拡張ライブラリ io/console や stringio で内部的に利用する Module を writable お
+よび readable という名称で定義していたのを generic_readable や generic_writable
+として定義するように変更しています。小文字で始まる名前で内部的にのみ使うように
+して ruby レベルからは隠しているわけですが、別に generic_ という prefix に何か
+特別に(実装上に)意味があるってわけではなさそうです。 https://github.com/ruby/
+ruby/pull/315

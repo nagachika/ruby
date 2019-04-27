@@ -1,0 +1,2 @@
+ripper で不要になっていたので parse.y の rb_discard_node() という関数の定義を #
+ifndef RIPPER で囲んでいます。

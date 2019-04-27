@@ -1,0 +1,2 @@
+logger.rb の rdoc 用コメントで Synopsis と書かれてたところを rdoc の :call-seq:
+タグに書き換えています。

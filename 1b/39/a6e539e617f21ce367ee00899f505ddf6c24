@@ -1,0 +1,3 @@
+iseqw_mark() での rb_iseq_t::body::parent_iseq の mark 漏れによる did_you_mean.
+gem を使った時の SEGV の修正。 NameError#local_variables のための iseq が GC で
+回収されてしまう可能性があったようです。 [ruby-core:72620] [Bug #11928]

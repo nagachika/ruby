@@ -1,0 +1,2 @@
+lib/test/unit.rb lib/test/unit/parallel.rb および test/testunit/
+test_parallel.rb に行末の空白が残っていたのを削っています。

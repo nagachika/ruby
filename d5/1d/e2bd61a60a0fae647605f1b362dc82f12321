@@ -1,0 +1,4 @@
+vm_stack_dump_each() と vm_base_ptr() の引数の rb_thread_t を
+rb_execution_context_t に変更しています。
+また r60546 で引数を変更した control_frame_dump() の引数にまだ th を渡していた
+ところがあったので ec に修正しています。

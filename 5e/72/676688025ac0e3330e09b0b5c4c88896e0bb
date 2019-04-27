@@ -1,0 +1,2 @@
+lazy_init_iterator() で rb_yield_values2() の第1引数に渡す配列サイズの型を修正
+しています。

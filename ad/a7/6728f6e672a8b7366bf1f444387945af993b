@@ -1,0 +1,4 @@
+parse.y の lex_state_name() を build_lex_state_name() と改名して lex_state はビ
+ットフラグとして解釈して複数の名前を "|" で連結したものにするようにしています。
+また trace_lex_state() を PARSER_DEBUG が偽の時もなにもしないマクロとして定義し
+ておくことで SET_LEX_STATE() の定義を共通にしています。

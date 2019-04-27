@@ -1,0 +1,2 @@
+Kernel#rand と Random.rand が Range オブジェクトを引数に受け付けるようになった
+ことを NEWS ファイルに追記しています。 [ruby-dev:43427] [Bug #4605]

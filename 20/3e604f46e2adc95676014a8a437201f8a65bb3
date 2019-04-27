@@ -1,0 +1,4 @@
+r53537 の再チャレンジ。 sample/test.rb を basictest に移動しています。 sample/
+test.rb は移動したもののファイルを消してしまうと chkbuild でこけるということで
+basictest/test.rb を require_relative で読み込むようにしています。
+[ruby-core:72823] [Feature #11982]

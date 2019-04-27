@@ -1,0 +1,2 @@
+r37735 の configure --enable-dtrace のヘルプメッセージと FreeBSD でのチェック方
+法の変更を revert しています。

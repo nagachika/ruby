@@ -1,0 +1,3 @@
+io.c の internal_write_func2() で直接 write(2) を呼び出していたのを
+internal_write_func() に委譲するように書き換えています。 internal_write_func()
+と internal_write_func2() には殆ど違いがないですね。

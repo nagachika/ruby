@@ -1,0 +1,6 @@
+rb_thread_wakeup_timer_thread() および rb_thread_wakeup_timer_thread_low() で
+fork した子プロセス内で rb_thread_wakeup_timer_thread_fd() の呼び出しやそのため
+の timer_thread_pipe.writing の increment/decrement をしないようにしています。
+rb_thread_wakeup_timer_thread_fd() の中でも pid のチェックはしているのでパフォ
+ーマンスのためだけかな、と思ったらチケットをみると無限ループに陥ることがあると
+いうチケットになってますね。 [ruby-core:83064] [Bug #13794]

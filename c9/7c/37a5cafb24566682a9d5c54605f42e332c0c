@@ -1,0 +1,3 @@
+configure で API_MAJOR, API_MINOR, API_TEENY などのマクロも include/ruby/
+version.h から抜き出して定義するようにして、MAJOR/MINOR と API_MAJOR/API_MINOR
+が一致していることをチェックするようにしています。

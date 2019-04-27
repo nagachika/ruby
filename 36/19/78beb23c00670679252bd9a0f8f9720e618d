@@ -1,0 +1,2 @@
+test/ruby/test_beginendblock.rb のテストメソッドで起動した Thread の終了を待つ
+ようにしています。

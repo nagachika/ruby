@@ -1,0 +1,5 @@
+r64620 で MinGW 環境での PRINTF_ARGS() マクロの定義に gnu_printf() という関数
+名? を使うようにしてましたが、__MINGW_PRINTF_FORMAT というマクロ? をかわりに使
+うようにしています。またこのマクロを取り込むため? に __USE_MINGW_ANSI_STDIO と
+いうマクロも configure 時に定義するようにしています。 [ruby-core:80832] [Bug #
+13496]

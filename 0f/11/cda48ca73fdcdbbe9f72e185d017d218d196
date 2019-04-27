@@ -1,0 +1,4 @@
+標準添付ライブラリ forwardable の Forwardable._delegator_method で Object#
+__send__ を使ってメソッド呼び出ししていたところを、
+RubyVM::InstructionSequence.compile を使って指定された名前がメソッド呼び出しに
+なるかどうかをチェックして、ならない時だけ __send__ を使うようにしていいます。

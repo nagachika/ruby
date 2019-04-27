@@ -1,0 +1,2 @@
+rb_st_insert_id_and_value() の引数から st_table *tbl を削って、関数内で
+RCLASS_IV_TBL(obj) を使って取り出すようにリファクタリングしています。

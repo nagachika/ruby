@@ -1,0 +1,2 @@
+enc/mktable.c の ENC_INFO という構造体のメンバの型を char * から const char *
+に変更しています。コンパイラの警告除去のため。

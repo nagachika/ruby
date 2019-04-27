@@ -1,0 +1,2 @@
+defs/gmake.mk の TEST_DEPENDS の重複の除去と love check% というターゲットを
+CHECK_TARGET 変数にまとめるリファクタリング。

@@ -1,0 +1,3 @@
+lib/rdoc/rdoc.gemspec で require_relative "lib/rdoc" していましたが、これはソー
+スディレクトリだけで load 可能なので、 LoadError を rescue して "../rdoc" も試
+すように修正しています。

@@ -1,0 +1,2 @@
+thread.c の threadptr_pending_interrupt_active_p() に static 修飾子をつけていま
+す。

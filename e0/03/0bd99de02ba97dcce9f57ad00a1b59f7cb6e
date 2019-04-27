@@ -1,0 +1,4 @@
+rdoc の lib/rdoc/markdown/literals_1_9.rb と lib/rdoc/markdown.rb の行末の空白
+を修正、と書いてあるような気がするのですが、実際には 1.9 以降を検出するのに
+String#getbyte ではなく String#ord をチェックするように変更していたりしています
+。はて。

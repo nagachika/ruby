@@ -1,0 +1,3 @@
+mjit.c の system_tmpdir() で rb_w32_wstr_to_mbstr() が返すのは malloc(3) で確保
+された領域で、その文字列をさらに strdup() して返していたためメモリリークしてい
+たので、直接 WideCharToMultiByte() を使うように書き換えています。

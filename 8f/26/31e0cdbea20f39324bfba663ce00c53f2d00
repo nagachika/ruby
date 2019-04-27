@@ -1,0 +1,3 @@
+r45982 で追加された missing/nextafter.c に #include "ruby/missing.h" を追加して
+います。代替実装を利用する時の対応でしょうか。 [ruby-core:62562] [Feature #
+9834]

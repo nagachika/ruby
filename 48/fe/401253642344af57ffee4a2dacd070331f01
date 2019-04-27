@@ -1,0 +1,2 @@
+.travis.yml で利用する Ubuntu と macOS の Xcode のバージョンを更新しています。
+これにより macOS 版の homebrew の更新作業が不要になったみたいで消しています。

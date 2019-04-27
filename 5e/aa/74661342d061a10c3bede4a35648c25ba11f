@@ -1,0 +1,3 @@
+Encoding の TypedData の memsize 関数 enc_memsize() は常に 0 を返すだけなので削
+除して rb_data_type_t::memsize メンバは 0 にしておくようにしています。コードサ
+イズの削減のためとのこと。 [ruby-core:65304]

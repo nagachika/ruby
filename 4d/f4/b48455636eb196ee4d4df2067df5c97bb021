@@ -1,0 +1,4 @@
+tool/rbinstall.rb の load_gemspec で .gemspec ファイルを eval してみた時に
+SyntaxError を無視していましたが、そのまま発生させるようにしています。また評価
+結果が Gem::Specification クラスのインスタンスでなかったらエラーにするようにし
+ています。

@@ -1,0 +1,3 @@
+拡張ライブラリ stringio の StringIO#gets などでキーワード引数 chomp に true が
+指定された時に CR+LF の改行コードの場合 LF だけ削ってたのを String#chomp と同様
+に CR も削るようにしています。

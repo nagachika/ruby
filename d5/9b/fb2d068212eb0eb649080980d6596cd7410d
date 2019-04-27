@@ -1,0 +1,3 @@
+r56860 で標準添付ライブラリ net/ftp の TLS 対応時のクラスとして Net::FTP
+::BufferedSSLSocket というクラスを分離しましたが、そこに send メソッドを実装し
+て write で代替しています。

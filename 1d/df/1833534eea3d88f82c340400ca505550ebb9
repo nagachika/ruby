@@ -1,0 +1,6 @@
+r38085 で追加された RubyVM::InstructionSequence のメソッド群の rdoc コメントを
+追記しています。 ISeq の情報を取得するメソッド群も追加されていましたが、目玉は
+ISeq.of メソッドで Proc オブジェクトや Method オブジェクトからその ISeq オブジ
+ェクトを取り出せるようになったというものです。これと先の trace_line_specified
+を使うと任意のメソッドの特定の行に TracePoint のフックを呼び出すようにすること
+ができます。

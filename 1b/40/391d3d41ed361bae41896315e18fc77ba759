@@ -1,0 +1,3 @@
+socket 拡張ライブラリで Socket::Option#inspect で IPV6_JOIN_GROUP と
+IPV6_LEAVE_GROUP のオプションの時に struct ipv6_mreq 構造体の情報をきれいに表示
+するように処理を追加しています。

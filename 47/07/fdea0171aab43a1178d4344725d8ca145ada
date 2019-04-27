@@ -1,0 +1,5 @@
+メソッドの中で instance_eval を呼び出してその中で super を呼び出すと、親クラス/
+モジュールのメソッドが呼ばれるのに self は instance_eval で切り替えた self のま
+まという状態になってしまうため、NotImplementedError を発生させていたのですが、
+実装をあきらめて禁止することにしたので TypeError を発生させるようにしています。
+[ruby-dev:39772] [Bug #2402]

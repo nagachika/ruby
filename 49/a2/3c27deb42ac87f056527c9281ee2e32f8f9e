@@ -1,0 +1,2 @@
+Kernel#warn の rdoc 用コメントにキーワード引数 uplevel の説明を追記しています。
+[ruby-core:84574] [Bug #14264]

@@ -1,0 +1,2 @@
+Object#yield_self にブロックを渡さずに呼んだ時に返す Enumerator が size メソッ
+ドで 1 を返すようにしています。 https://github.com/ruby/ruby/pull/1615

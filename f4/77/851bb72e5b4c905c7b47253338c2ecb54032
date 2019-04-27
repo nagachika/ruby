@@ -1,0 +1,2 @@
+拡張ライブラリ io/console の IO#raw の rdoc 用コメントにキーワード引数 min と
+time について説明を追加しています。

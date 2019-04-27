@@ -1,0 +1,2 @@
+appveyor.yml で環境変数 JOBS にセットする worker 数を半分に減らして
+NoMemoryError の発生を抑制するようにしています。

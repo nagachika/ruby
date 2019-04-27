@@ -1,0 +1,3 @@
+RubyGems の master の最新版(commit hash 4ff70cc)をマージしています。 make
+install しないで make test-all すると失敗するテストがあったのでその対応が主な変
+更点だと思います。

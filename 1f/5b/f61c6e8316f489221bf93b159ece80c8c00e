@@ -1,0 +1,3 @@
+vm_core.h の VM_UNREACHABLE() マクロの VM_CHECK_MODE が 0 の時の定義をなにもし
+ない (void)0 から include/ruby/ruby.h で定義している UNREACHABLE に変更していま
+す。

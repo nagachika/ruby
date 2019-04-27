@@ -1,0 +1,2 @@
+String#to_s の rdoc 用コメントで String を継承したサブクラスでは to_s は String
+に変換されたものが返される点を追記しています。

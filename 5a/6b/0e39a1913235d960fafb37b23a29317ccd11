@@ -1,0 +1,2 @@
+VM の debug counters に mjit_exec() 内の処理の出入りのカウンタを追加しています
+。

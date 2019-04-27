@@ -1,0 +1,6 @@
+r66288 のリトライである r66290 のさらにリトライ。 timer thread なしで POSIX
+timer による実装の時に timer_delete() していないメモリリークの修正。これまで
+magic number で管理してた timer の状態を enum rtimer_state という列挙型で宣言し
+て RTIMER_DEAD という状態を追加、ubf_timer_arm() で timer を再度設定するように
+しています。 Linux での fork でのメモリリーク修正。原因不明ながら FreeBSD 11.2
+ではまだメモリリークが発生しているそうです。

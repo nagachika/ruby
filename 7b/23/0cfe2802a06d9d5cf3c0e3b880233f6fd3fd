@@ -1,0 +1,2 @@
+r63758 の SIGCHLD の配送の変更で必要になったとのことで configure 時に macOS で
+強制的に setjmp の実装として sigsetjmp() を利用させるようにしています。

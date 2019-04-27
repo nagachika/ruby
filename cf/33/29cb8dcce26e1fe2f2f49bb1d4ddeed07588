@@ -1,0 +1,4 @@
+r60644 の rb_strterm_heredoc_t の sourceline というメンバーの alignment 調整の
+ため union を使うようにしていたのを revert して SIGNED_VALUE 型にして、単に int
+にキャストして参照するようにしています。 big endian で sizeof(VALUE) > sizeof
+(int) の環境で誤った部分が参照されて0になる問題があったみたいです。

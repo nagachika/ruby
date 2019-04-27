@@ -1,0 +1,3 @@
+TracePoint などのイベントの実行を行なう EXEC_EVENT_HOOK_ORIG() マクロで引数 th
+を何度も評価するように展開するのをやめて、ruby_exec_event_hook_orig() という
+inline 関数を定義してこれを呼び出すようにしています。

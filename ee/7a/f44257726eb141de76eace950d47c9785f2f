@@ -1,0 +1,2 @@
+r65556 で allow_failure に -fsanitize=undefined を linker option につけたものを
+追加し忘れていたのを修正。

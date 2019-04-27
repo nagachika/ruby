@@ -1,0 +1,4 @@
+r48522 および r48523 のまたまた再修正。 $srcdir と $top_srcdir の変更は revert
+し、VPATH は $(PWD と$(MAKEDIR)を並べるようにしています。 Unix 系 OS だと $
+(PWD) が存在し、Windows だと $(MAKEDIR) が存在するのでこれでどちらでもビルドで
+きるようになる、ということみたいですね。

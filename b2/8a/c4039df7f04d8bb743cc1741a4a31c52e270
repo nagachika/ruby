@@ -1,0 +1,3 @@
+r36884 で test/openssl/test_pkey_dh.rb で OpenSSL::OPENSSL_FIPS で FIPS モード
+の有無をみて鍵長を変更するようにしていましたが、OpenSSL.fips_mode= でテスト時は
+FIPS モードを off にするようにしたので一部 revert しています。

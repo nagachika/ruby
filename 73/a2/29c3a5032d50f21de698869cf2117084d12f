@@ -1,0 +1,3 @@
+NEWS ファイルに $SAFE=4 の機能が削除されたこと、untrust, untrusted?, trust が
+deprecated になったことなどを追記しています。
+また doc/security.rdoc から $SAFE = 4 についての記述を削っています。

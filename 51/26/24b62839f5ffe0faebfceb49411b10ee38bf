@@ -1,0 +1,3 @@
+benchmark/bm_io_select2.rb が作る pipe の数を少し減らしています。gdb で実行する
+時に gdb が file descriptor を必要とするため枯渇してしまわないようにしていると
+のこと。

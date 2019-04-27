@@ -1,0 +1,1 @@
+struct mutex_waiter を struct sync_waiter に改名しています。

@@ -1,0 +1,2 @@
+r51434 での openssl のテストでの Thread leak 対策の Thread#join 呼び出しの追加
+で th 変数が nil だった時のことを考慮するようにしています。

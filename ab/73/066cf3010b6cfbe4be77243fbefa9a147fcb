@@ -1,0 +1,1 @@
+ext/win32ole/win32ole_param.c の関数定義のコーディングスタイルの修正。

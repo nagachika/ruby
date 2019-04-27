@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で RSTRING_LEN() が LONG_MAX 以上の時の例外を削っていま
+す。

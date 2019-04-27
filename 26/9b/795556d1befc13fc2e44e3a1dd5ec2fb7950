@@ -1,0 +1,3 @@
+vm_block_handler_verify() という block_handler をチェックする関数で return 1 し
+て呼び元で再度 VM_ASSERT() を呼んでたのを void 型に変更して不要な VM_ASSERT()
+の呼び出しを消しています。

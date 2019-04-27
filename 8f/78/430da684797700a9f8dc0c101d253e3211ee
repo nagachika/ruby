@@ -1,0 +1,3 @@
+C API の rb_thread_call_without_gvl() についてのテストが MJIT 利用時にうまく
+pass できないので RubyVM::MJIT.enabled? 状態では skip するようにしています。
+[ruby-core:87882] [Misc #14901]

@@ -1,0 +1,3 @@
+rb_sourcefilename() と rb_sourcefileline() を利用していたところを
+rb_source_location() または rb_source_loc() (ファイル名を VALUE で返すか const
+char * で返すかが異なる) を利用するように変更しています。

@@ -1,0 +1,3 @@
+標準添付ライブラリ un.rb で SSL 対応のためのオプション --ssl-certificate と --
+ssl-private-key を追加しています。 un.rb で https 対応なんているのかな…。
+[ruby-core:81901] [Feature #13714]

@@ -1,0 +1,3 @@
+addr2line.c の .debag_ranges の読み込みで base address という概念があるらしくて
+それを正しく扱うように修正しています。 clang でビルドした時に問題があったみたい
+です。

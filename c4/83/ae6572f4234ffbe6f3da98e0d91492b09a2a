@@ -1,0 +1,3 @@
+include/ruby/win32.h の rb_w32_pow() で戻り値を明示的に double にキャストするよ
+うにしています。 long double からの暗黙のキャストの警告がエラー扱いになって失敗
+していたそうです。 https://github.com/ruby/ruby/pull/1591

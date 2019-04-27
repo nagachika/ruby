@@ -1,0 +1,1 @@
+vm_trace.c の enum 定数 PJRR_SUCESS → PJRR_SUCCESS に変更(typo 修正)。

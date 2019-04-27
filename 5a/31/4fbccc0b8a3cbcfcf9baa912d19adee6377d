@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb で IO#gets のかわりに io/console を利用した簡易
+readline っぽい mygets というメソッドを定義して利用しています。

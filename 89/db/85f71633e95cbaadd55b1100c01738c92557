@@ -1,0 +1,6 @@
+native_ppoll_sleep() および native_sleep() で GVL 解放する時に GVL_UNLOCK_BEGIN
+() ではなく GVL_UNLOCK_BEGIN_YIELD() を使うようにして native_thread_yield() を
+読んでスレッド切り替えを促すようにしています。 sleep 中にシグナル受信した時のテ
+ストでタイムアウトするのを修正しようという試みのようで、thread の切り替えがおこ
+らず同じスレッドが待ち続けてしまってるんじゃないか、ってことみたいです。
+[ruby-core:90417] [Bug #15398]

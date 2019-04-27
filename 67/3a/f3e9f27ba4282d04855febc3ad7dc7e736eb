@@ -1,0 +1,2 @@
+古い git だと -C オプションがないそうで、tool/vcs.rb で IO.pread の :chdir オプ
+ションを利用するように変更しています。 [ruby-dev:48880] [Bug #10890]

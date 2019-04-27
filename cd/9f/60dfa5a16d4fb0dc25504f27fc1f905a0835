@@ -1,0 +1,5 @@
+Process.clock_gettime の rdoc コメントをさらに修正。 clock_gettime(2) の
+clock_id の定数のうち CLOCK_REALTIME のみかならず定義されていてその他はオプショ
+ンであることの説明を追記しています。また Standard Unix Specification の略称 SUS
+について最初に記述しておいて後の説明部分で SUS という略称を利用するようにしてい
+ます。

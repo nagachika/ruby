@@ -1,0 +1,2 @@
+拡張ライブラリ psych の Psych::Visitors::YAMLTree#tree が2度目以降 nil を返して
+しまっていたので、常に Emitter の root を返すようにしています。

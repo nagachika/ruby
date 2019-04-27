@@ -1,0 +1,2 @@
+make の gcbench-rdoc gcbench-hash1 gcbench-hash2 のルールの依存関係から ruby を
+削除しています。

@@ -1,0 +1,4 @@
+variable.c にオブジェクトが T_MODULE か T_CLASS であることを確認する
+rb_namespace_p() という関数を切り出して同じような条件分岐していたところの条件部
+で利用するようにしています。 RB_SPECIAL_CONST_P() でのチェックを先にして即値オ
+ブジェクトは early return するようにしているので若干最適化されているかも。

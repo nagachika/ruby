@@ -1,0 +1,2 @@
+time.c の obj2subsecx() という関数で最適化による GC マーク漏れからの保護のため
+の RB_GC_GUARD() を追加しています。

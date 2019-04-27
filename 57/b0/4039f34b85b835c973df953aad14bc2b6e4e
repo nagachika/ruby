@@ -1,0 +1,4 @@
+r53777 の RubyGems のテストでの WEBrick::Utils::TimeoutHandler#terminate の呼び
+出しの再適用で ruby 1.8 でも動くように、defined? でのチェックに WEBrick
+::Utils::TimeoutHandler の参照も含めています。 1.8 ではこのモジュール自体が存在
+していなかったようです。 https://github.com/rubygems/rubygems/commit/72b3701

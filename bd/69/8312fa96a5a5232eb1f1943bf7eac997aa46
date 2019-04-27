@@ -1,0 +1,2 @@
+r67586 のパターンマッチ実装で予約語 in に対応する NODE を --dump=
+parsetree_with_comment でダンプした時のコメントの typo 修正。

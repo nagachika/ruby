@@ -1,0 +1,2 @@
+RubyGems を 1.8.11 にアップデートしています。今回の変更は Deprecate というモジ
+ュールを Gem::Deprecate に移動しただけのようです。

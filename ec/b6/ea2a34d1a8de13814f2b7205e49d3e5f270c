@@ -1,0 +1,4 @@
+test/lib/test/unit/parallel.rb で Gem::TestCase の @@project_dir を上書きしてい
+る時の親ディレクトリを辿る数を 1つ増やしています。おそらく以前は標準添付ライブ
+ラリだったので lib/test/unit/parallel.rb に存在していたのを移動した時にネストが
+1段深くなったのに追随してなかったのを修正しているのでしょう。

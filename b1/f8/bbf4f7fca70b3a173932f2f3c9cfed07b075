@@ -1,0 +1,2 @@
+$VERBOSE = true の時に Kernel#syscall で将来的に消す予定だよと警告メッセージを
+表示するようにしています。[ruby-core:34062]

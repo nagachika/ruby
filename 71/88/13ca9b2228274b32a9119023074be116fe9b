@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml の REXML::Encoding#check_encoding を REXML::Source#
+detect_encoding として移動し、REXML::IOSource のエンコーディング判定のコードが
+重複していたので削除しています。

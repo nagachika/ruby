@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の FileUtils::_Entry#copy_metadata に r55512 で
+chown も追加されたので捕捉する例外に Errno::EACCES も追加しています。
+[ruby-dev:49687] [Bug #12520]

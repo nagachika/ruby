@@ -1,0 +1,2 @@
+ENV.filter, ENV.filter! の rdoc 用コメントにも call-seq を追加してそれぞれ
+select/select! の別名であることを追記しています。

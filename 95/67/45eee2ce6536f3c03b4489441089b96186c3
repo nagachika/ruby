@@ -1,0 +1,5 @@
+test/ruby/test_process.rb で子プロセスが成功したことをチェックするのに
+Process::Status#exitstatus が 0 であることをチェックしていた assertion を #
+success? が true であることをチェックするように変更しています。 exitstatus が 0
+が成功を意味するかどうかは環境によるので、確実に成功を意味する success? を使う
+ようにしています。

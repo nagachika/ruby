@@ -1,0 +1,2 @@
+internal.h の rb_warning_string() の宣言に PRINTF_ARGS() を付けてフォーマット文
+字列のチェックを行うようにしています。

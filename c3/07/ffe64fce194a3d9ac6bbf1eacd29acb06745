@@ -1,0 +1,3 @@
+thread_pthread.c で定数マクロ USE_NATIVE_SLEEP_COND の定義を削除しています。
+thread.c で既に定義されているから、とのことですが thread.c ではデフォルトで (0)
+に定義しているけどここは (1) なのでこれわざとだったんじゃないかな…。

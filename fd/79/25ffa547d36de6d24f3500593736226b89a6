@@ -1,0 +1,4 @@
+regenc.c の onigenc_not_support_case_map() を onigenc_ascii_only_case_map() に
+改名しています。また iso08859_X、windows_125X, ascii, us-ascii, ko1_x などのエ
+ンコーディングでは r55302 で導入された onigenc_single_byte_ascii_only_case_map
+() を使うようにしています。

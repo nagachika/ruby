@@ -1,0 +1,2 @@
+mjit.c の compile_c_to_so() という関数内で preprocessor の分岐をしていたのを関
+数定義自体を mswin とそれ以外で分けるようにしています。

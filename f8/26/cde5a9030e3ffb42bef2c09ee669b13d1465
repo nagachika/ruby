@@ -1,0 +1,2 @@
+多分 r66599 の追加修正で win32/Makefile.sub の config.status 生成時に RUBY_API
+_VERSION 変数も出力するようにしています。

@@ -1,0 +1,2 @@
+mkmf.rb のテストで Mac OS X 版の -framework オプションのテストでエラー時に
+mkmf.log を表示するようにしています。

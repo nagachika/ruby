@@ -1,0 +1,3 @@
+tool/rbinstall.rb で bundled gems の拡張ライブラリのビルドに失敗した時に make
+install 自体を失敗させずにスキップさせるようにしています。 [ruby-dev:49764]
+[Bug #12683]

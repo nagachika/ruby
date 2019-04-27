@@ -1,0 +1,2 @@
+debug.c でデバッガから enum の定義が見えるようにするための ruby_dummy_gdb_enums
+に struct RIMemo のメンバーも追加しています。

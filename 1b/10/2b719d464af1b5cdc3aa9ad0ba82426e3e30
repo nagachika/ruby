@@ -1,0 +1,2 @@
+rb_parser_fatal() の #ifndef RIPPER での分岐が不要だったみたいで削除して1つに統
+一しています。

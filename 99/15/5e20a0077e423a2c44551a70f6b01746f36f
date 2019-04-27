@@ -1,0 +1,5 @@
+rb_mutex_synchronize_m() で rb_mutex_synchronize() に渡す第3引数に Qnil を渡し
+ていたのを Qundef にしています。 Mutex#synchronize のブロックパラメータに存在し
+ないはずの引数 nil が渡されていた不具合を修正しています。 [ruby-core:53773]
+[Bug #8097]
+そしれこれでついに 40000 コミットに到達しました。

@@ -1,0 +1,5 @@
+r53439 で標準添付ライブラリ webrick の WEBrick::Utils::TimeoutHandler の終了処
+理をちゃんと排他処理するようにした対応で rubyems のテストも修正していたのが
+r53707 で 2.5.2 にした時に巻き戻ってたので再度適用しています。また古い ruby で
+も動くように defined? で WEBrick::Utils::TimeoutHandler.terminate の呼び出し可
+能かチェックしてから呼ぶようにしています。

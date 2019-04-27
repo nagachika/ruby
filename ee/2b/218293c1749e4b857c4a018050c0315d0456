@@ -1,0 +1,2 @@
+r40080 の ext/extmk.rb の変更で Logging.log_close を呼ぶのを ensure 節に移動し
+ています。

@@ -1,0 +1,3 @@
+GC.start に引数に :full_mark と :immediate_sweep というキーワード引数を受け取る
+ようにして、 full GC を行うのか minor GC を行うのかと LazySweep を行うのかを指
+定できるようにしています。デフォルトは full GC + LazySweep なしです。

@@ -1,0 +1,4 @@
+Hash#merge のパフォーマンス改善。メソッド呼び出しを含む rb_obj_dup() のかわりに
+rb_hash_dup() を直接起動するようにしています。 https://github.com/ruby/ruby/
+pull/1533 [ruby-dev:50026] [Bug #13343]
+新しくコミッタになった watson さんの初コミットです。

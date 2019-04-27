@@ -1,0 +1,3 @@
+doc/syntax/calling_methods.rdoc にメソッド探索の仕様について追記しています。ま
+た doc/syntax/refinements.rdoc のメソッド探索の部分の間違いを修正しています。も
+うこれ syntax のドキュメントじゃないですよね。

@@ -1,0 +1,2 @@
+Syslog.inspect で sprintf(3) で C の文字列を作ってから Ruby の文字列化していた
+ところを rb_sprintf() を利用するようにリファクタリングしています。

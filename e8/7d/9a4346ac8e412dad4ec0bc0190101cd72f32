@@ -1,0 +1,3 @@
+parse.y の parser_nextc() から parser_nextline() と parser_cr() という関数を切
+り出してめったにないケースは関数呼び出しをネストさせたところに追い出すようにし
+ています。これは最適化というよりは readability のためですかね。

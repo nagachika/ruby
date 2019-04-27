@@ -1,0 +1,5 @@
+Test::Unit がテストスクリプトの require に失敗(LoadError 発生)した時に例外メッ
+セージを出力するだけにしていたのを、skip 扱いにするようにしています。動的に
+Test::Unit::TestCase を継承したクラスを生成して skip を実行する
+test_require_failed というメソッドを定義することで自動的に skip メッセージが出
+るようにしていて、メタプログラミングが駆使されています。

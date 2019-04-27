@@ -1,0 +1,6 @@
+拡張ライブラリ socket の extconf.rb で getaddr_info_ok が :wide だった時に
+getnameinfo() と getaddrinfo() のチェックを条件分岐に含めていましたが、:wide が
+入る条件と一致していて不要だったので削っています。 --{enable,disable}
+-wide-getaddrinfo オプションで指定された時は……と一瞬思いましたが、その時はク
+ロスコンパイルでチェックによらず指定したほうを採用したいはずなのでやっぱり
+have_func は見なくていいはずですね。

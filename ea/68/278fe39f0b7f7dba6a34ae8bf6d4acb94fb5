@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal に upstream から 1.3.4 をマージしています。
+BigDecimal#clone と #dup で警告を出していたのをやめて、コピーでなく self を返す
+ようにしています。 https://github.com/ruby/bigdecimal/compare/v1.3.3...v1.3.4

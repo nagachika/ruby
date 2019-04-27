@@ -1,0 +1,3 @@
+FileUtils.rmdir で発生する可能性があるので rescue されている例外に、Solaris で
+発生するということで Errno::EEXIST を追加しています。 [ruby-dev:48017] [Bug #
+9571]

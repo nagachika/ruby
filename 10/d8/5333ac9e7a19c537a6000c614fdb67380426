@@ -1,0 +1,2 @@
+common.mk で vm_trace.o に $(ENCODING_H_INCLUDES) への依存関係を追加しています
+。

@@ -1,0 +1,2 @@
+spec/bundler のテストの主にインデントの修正。 bundler の upstream の rubycop の
+設定に合わせるためだそうです。

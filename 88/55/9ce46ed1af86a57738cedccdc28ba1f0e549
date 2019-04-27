@@ -1,0 +1,2 @@
+intern.h に rb_w32_fdcopy() のプロトタイプ宣言を追加しています。
+[ruby-core:35970] [Bug #4640]

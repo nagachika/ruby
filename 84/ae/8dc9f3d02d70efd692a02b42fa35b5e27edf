@@ -1,0 +1,4 @@
+Process.maxgroups のテストを戻り値が Integer であることの確認だけしてたのをもう
+ちょっと真面目なテストにしています。Process.groups の数が maxgroups を超えてな
+いとか Process.groups= で maxgroups を超えたサイズの配列をセットできないとかの
+確認をしています。

@@ -1,0 +1,3 @@
+make help で表示するメッセージ内の test-all に特定のテストスクリプトだけ実行す
+る方法(TESTS 変数で引数が指定できる)を示唆するようにしています。惜しい、TEST じ
+ゃなくて TESTS なんです。 https://github.com/ruby/ruby/pull/363

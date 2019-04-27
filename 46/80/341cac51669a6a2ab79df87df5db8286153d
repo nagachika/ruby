@@ -1,0 +1,3 @@
+r59197 で追加した tool/sync_default_gems.rb で引数で指定したらそのライブラリを
+、指定がなかったら登録されてる全ての default gems を upstream からダウンロード
+してくるようにしています。

@@ -1,0 +1,2 @@
+Process.detach の rdoc 用コメントで対応する閉じかっこの漏れがあったのを修正して
+います。 https://github.com/ruby/ruby/pull/799

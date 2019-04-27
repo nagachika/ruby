@@ -1,0 +1,2 @@
+vm.c から Backtrace に関連する関数を vm_backtrace.c に分離するリファクタリング
+をしています。

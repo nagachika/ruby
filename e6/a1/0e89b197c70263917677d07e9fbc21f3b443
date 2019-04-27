@@ -1,0 +1,1 @@
+MatchedData#[ ] の実装の match_aref() で不要な分岐を削除しています。

@@ -1,0 +1,2 @@
+r45984 で追加した Etc.sysconf, Etc.confstr, IO#pathconf の rdoc 用コメントの
+typo を修正しています。

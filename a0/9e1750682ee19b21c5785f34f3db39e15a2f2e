@@ -1,0 +1,4 @@
+引数なしの case 文の時のために NODE_CASE2 という新しい NODE の種類を追加してい
+ます。で、NODE_CASE2 のコンパイル時には branch coverage に使う行番号を先程導入
+した nd_line から元の nd_lineno を使うようにしています。というか compile_when()
+は compile_case2() に改名してしまっていますね。

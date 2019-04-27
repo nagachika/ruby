@@ -1,0 +1,2 @@
+構造体 struct rb_execarg, struct load_file_arg, struct args_info などのメンバー
+の順番の入れ換えで x86-64 環境でのサイズを削減しています。

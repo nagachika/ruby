@@ -1,0 +1,2 @@
+r47725 の tool/downloader.rb の仕様変更に configure.in を追随させています。
+tool/get-config_files は不要になったため削除しています。

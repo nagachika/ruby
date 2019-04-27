@@ -1,0 +1,2 @@
+test/lib/leakchecker.rb で MiniTest::Unit.output に set_encoding でエンコードの
+変換を行わずに出力するように指定を追加しています。

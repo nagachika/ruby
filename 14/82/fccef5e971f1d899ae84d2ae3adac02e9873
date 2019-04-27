@@ -1,0 +1,2 @@
+ruby.c にて compat_init_setproctitle() のプロトタイプ宣言しているところで戻り値
+の型を表記していなかったので追加。

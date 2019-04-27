@@ -1,0 +1,4 @@
+string.c の dispose_string() で文字列オブジェクトを強制的に解放する処理を xfree
+() を直接呼び出すのを rb_str_free() を呼ぶように修正しています。このほうが高速
+なんだそうです。 [ruby-core:49539] [Bug #7389] https://github.com/ruby/ruby/
+pull/87

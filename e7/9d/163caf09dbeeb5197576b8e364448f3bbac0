@@ -1,0 +1,3 @@
+標準添付ライブラリ open-uri で :proxy オプションの proxy_url の username:pass@
+～の部分(userinfo) から認証情報を指定することができるようにしています。 https:/
+/github.com/ruby/ruby/pull/1148 https://github.com/ruby/ruby/pull/1309

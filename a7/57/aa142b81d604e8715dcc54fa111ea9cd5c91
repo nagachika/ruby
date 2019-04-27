@@ -1,0 +1,2 @@
+ARGF.close の実装で rb_funcall3 で close メソッドの呼び出しをしていたのを
+io_close() を直接呼ぶように変更しています。

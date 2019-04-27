@@ -1,0 +1,5 @@
+st_table のエントリを bins メンバの配列所定の位置に挿入する処理を add_direct()
+から new_entry() として切り出して、unpack_entries() で pack 状態のものを unpack
+する時に add_direct() に代わって利用するようにしています。 add_direct() にはサ
+イズがしきい値を越えた時に rehash する処理があるのでそれを迂回しているという感
+じだと思います。

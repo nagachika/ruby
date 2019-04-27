@@ -1,0 +1,5 @@
+error.c の rdoc に例外クラスの継承関係と rescue の関係や特殊変数 $!, $@ の説明
+、ライブラリでの例外クラス定義の推奨などが追記されています。
+$! と $@ の説明の "When an exception has been raised but not yet handled..." っ
+てあるんですけど、rescue 節の中は "not yet handled" なんですかね？そこで例外を
+止めることもできるから "handling" のような気もする。

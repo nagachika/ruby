@@ -1,0 +1,3 @@
+拡張ライブラリ coverage の Coverage.start を Coverage.result で集計を終了した後
+に再度呼び出しても動作できるように改造しています。 [ruby-core:36539] [Feature #
+4796]

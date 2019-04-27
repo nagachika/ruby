@@ -1,0 +1,2 @@
+configure で struct stat の型の情報をチェックするためのソースに #include <sys/
+stat.h> を含めるように修正しています。

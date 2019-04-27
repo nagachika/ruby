@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils の FileUtils.chown がデフォルトで再帰的な挙動をし
+ないことを確認するテストを追加しています。コメントと ChangeLog の記述が chmod
+になってますね。チケットの記述でも混乱が観られるけど多分 typo ですよね。
+[ruby-core:59325] [Feature #9303]

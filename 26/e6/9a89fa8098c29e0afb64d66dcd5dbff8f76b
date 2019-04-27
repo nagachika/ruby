@@ -1,0 +1,2 @@
+bignum.c の bigdivrem に使う構造体 struct big_div_struct の ynzero メンバを削除
+しています。bigdivrem_restoring() 内で計算するようにしています。

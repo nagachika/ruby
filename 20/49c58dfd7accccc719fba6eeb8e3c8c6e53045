@@ -1,0 +1,2 @@
+test/drb/drbtest.rb のリファクタリング。テストメソッドの分割と例外の発生を
+assert_raise でチェックするようにしています。

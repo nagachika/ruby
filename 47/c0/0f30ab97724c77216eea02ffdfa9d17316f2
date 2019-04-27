@@ -1,0 +1,2 @@
+common.mk の依存関係を生成しなおして prelude.o, miniprelude.o, golfprelude.o な
+どの依存関係に iseq.h が追加されています。

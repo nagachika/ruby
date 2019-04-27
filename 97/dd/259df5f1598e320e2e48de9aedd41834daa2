@@ -1,0 +1,2 @@
+r41400, r41406 の変更に続き garbage_collect_body() で ruby_gc_stress の数値を
+FIX2INT() を使って取り出すように修正しています。

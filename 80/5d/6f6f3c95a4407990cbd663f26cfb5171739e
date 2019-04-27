@@ -1,0 +1,2 @@
+rb_str_enumerate_xxx() 系の関数で各要素を配列に追加するか yield するかを分岐し
+ていたのを enumerator_element() という inline 関数の中に分離しています。

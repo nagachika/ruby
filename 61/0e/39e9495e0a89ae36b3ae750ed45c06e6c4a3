@@ -1,0 +1,4 @@
+rb_io_open() から check_pipe_command() と rb_file_open_generic() の呼び出し部分
+を rb_io_open_generic() として切り出し、rb_io_s_binread() でもこの関数を利用し
+て mode を文字列として渡して rb_io_open() を呼び出していたのを回避しています。
+余分なオブジェクト生成を抑えるためだそうです。

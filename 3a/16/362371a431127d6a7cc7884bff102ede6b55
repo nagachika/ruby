@@ -1,0 +1,1 @@
+ext/openssl/ossl_asn1.c の不要になった変数を削除しています。

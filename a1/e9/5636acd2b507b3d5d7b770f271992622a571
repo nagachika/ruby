@@ -1,0 +1,4 @@
+freeze された文字列 fstring を共有するための管理テーブル frozen_string を
+string.c の static 変数として宣言していたのを、rb_vm_t のメンバとして移動して
+GET_VM() から取得するように変更しています。 Multi VM フレンドリーにするため、と
+いうことでしょう。 [ruby-core:64618] [Feature #10182]

@@ -1,0 +1,3 @@
+Thread の終了時に SystemExit 例外を捕捉したら $SAFE (th->safe_level) をチェック
+していましたが SystemExit の発生時にチェックしているため不要なので条件分岐を消
+しています。

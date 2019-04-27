@@ -1,0 +1,4 @@
+拡張ライブラリを利用した API テスト用のコードのうち ext/-test-/string/init.c か
+ら ext/-test-/string/modify.c へ String#modify! メソッドの定義部分を分離してい
+ます。他にもメソッドが追加されて分離されているのでそれらとの対称性のためのコー
+ド整理だと思います。

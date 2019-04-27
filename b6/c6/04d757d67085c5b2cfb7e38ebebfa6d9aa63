@@ -1,0 +1,4 @@
+Zlib::ZStream#data_type が返す値の定数 Zlib::TEXT を追加しています(Z_TEXT に対
+応)。 Zlib::ASCII というのもあるのですが zlib の新しいバージョン(1.2.3 以降)で
+は Z_ASCII は deprecated になるそうです。まあ実際の値 Z_ASCII と Z_TEXT で同じ
+みたいですけど。

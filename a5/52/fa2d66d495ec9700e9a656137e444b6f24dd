@@ -1,0 +1,3 @@
+misc/ruby-additional.el で ruby-insert-heredoc-code-block という関数を追加して
+、ヒアドキュメントブロックを追加できるようにしています。 assert_separately 用と
+のこと。

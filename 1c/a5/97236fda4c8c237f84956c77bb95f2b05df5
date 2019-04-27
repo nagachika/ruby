@@ -1,0 +1,4 @@
+r52647 で追加した拡張ライブラリ socket の UDPSocket#recvmsg のテストで recvmsg
+の戻り値の rflags のチェックは rflags が nil でない時だけ行うようにしています。
+Solaris 10 では struct msghdr::msg_control がなくて rflags が nil になるのでエ
+ラーになってたようです。 [ruby-core:71557] [Bug #11709]

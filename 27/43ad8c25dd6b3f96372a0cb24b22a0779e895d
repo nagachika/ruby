@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http の Net::HTTP#send_request で HEAD メソッドのリクエ
+スト時にはレスポンスの body は存在しないのが正常なので body がなくてもエラーに
+しないような HTTPGenericRequest の生成をするように修正しています。 https://
+github.com/ruby/ruby/pull/520

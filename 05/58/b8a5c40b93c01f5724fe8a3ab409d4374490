@@ -1,0 +1,2 @@
+拡張ライブラリ psych と標準添付ライブラリ rake の rdoc コメントの typo 修正。
+https://github.com/ruby/ruby/pull/500

@@ -1,0 +1,5 @@
+Thread のテストで kill した Thread に join して終了を確実に待つようにしています
+。なんですが if で変数が nil じゃないかチェックしていたところを th&.kill のよう
+に &. 演算子に書き直しているんですが、それに method chain して th&.kill.join み
+たいに書いてるところは nil だと join のほうが NoMethodError になるので、こっち
+も &. にしないといけないんじゃないかな。

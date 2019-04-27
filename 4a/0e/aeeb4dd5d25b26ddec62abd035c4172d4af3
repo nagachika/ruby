@@ -1,0 +1,2 @@
+r58666 に続いて Symbol#match と Symbol#match? それに Symbol#length の rdoc コメ
+ントに String のメソッドのドキュメントと同様の書きかたにしています。

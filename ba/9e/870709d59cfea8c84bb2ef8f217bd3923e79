@@ -1,0 +1,2 @@
+doc/regexp.rdoc のサンプルコードで結果を表示する #=> のコメントアウトが不十分だ
+ったところを修正。 https://github.com/ruby/ruby/pull/1678

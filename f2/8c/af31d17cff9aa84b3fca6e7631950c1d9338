@@ -1,0 +1,2 @@
+VM の case 文の分岐の最適化用命令 opt_case_dispatch で r56510 で追加した
+OBJ_BUILTIN_TYPE() を利用するようにリファクタリングしています。

@@ -1,0 +1,3 @@
+mswin での拡張ライブラリの静的リンク版のビルドの不具合修正の続きです。
+RUBY_EXPORT=1 の定義を追加。 win32/Makefile.sub のコメントの追加は消し忘れ?
+[ruby-core:52894] [Bug #7960]

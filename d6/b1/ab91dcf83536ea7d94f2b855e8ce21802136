@@ -1,0 +1,8 @@
+拡張ライブラリの OpenSSL::SSL::SSLSocket が GC で sweep される時の free 関数で
+ossl_ssl_shutdown() を実行して、この時すでに対応する fd が閉じられて別の IO の
+ために再利用されていると不正な書き込みをしてしまう不具合を修正しています。free
+関数で ossl_ssl_shutdown() を呼ぶのをやめて OpenSSL::SSL::SSLSocket#sysclose で
+呼び、また SSL 構造体も解放するようにしています。この時既に fd が (というか IO
+オブジェクトが)close されていないかを確認するようにして、SSLSocket の close 前
+に元の TCPSocke などが close されていた場合に同様の問題が起きないようにしていま
+す。 [ruby-core:54132] [Bug #8240]

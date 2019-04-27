@@ -1,0 +1,2 @@
+r57415 で追加した IO#close の race condition についてのテストを
+assert_separately を使って子プロセスで起動するようにしています。

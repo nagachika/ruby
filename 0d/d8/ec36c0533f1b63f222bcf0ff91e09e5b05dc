@@ -1,0 +1,9 @@
+r42479 の続きのようで、rb_attrset() で ID_ATTRSET の付加を許容する ID の scope
+を ID_LOCAL ID_CONST だけから ID_INSTANCE, ID_GLOBAL, ID_CLASS, ID_JUNK も追加
+しています。これにより Struct のフィールド名に "@a" なども許容するようになった
+みたいです。ID_JUNK ということは NUL 文字を含んでいるフィールド名も定義はできる
+みたいですね。あんまり使いたくはないですけどね! [Bug #8756]
+ちなみにそのようなメソッドを起動するために __send__ を使うと、__send__(:"@a=",
+0) と Symbol を渡すと呼べるけど __send__("@a=", 0) と String だと NoMethodError
+になってしまうようです。 "=" がつかないメソッドだとどちらも呼べるので追加の対応
+が必要そうです。

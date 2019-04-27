@@ -1,0 +1,4 @@
+VM_CHECK_MODE が1以上の時に VM の control frame をチェックするデバッグ用の関数
+vm_check_frame_detail() で frame type が VM_FRAME_FLAG_BMETHOD の時に req_me を
+真にして method entry があるかどうかチェックするようにチェックを強化しています
+。

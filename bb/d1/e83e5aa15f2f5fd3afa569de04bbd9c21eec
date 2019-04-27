@@ -1,0 +1,2 @@
+r66688 での complex.c の f_add() の最適化で条件に誤って UNLIKELY() を使ってたと
+ころを LIKELY() に変更しています。

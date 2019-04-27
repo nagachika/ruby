@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の ext/openssl/ossl_rand.c でモジュール関数として定義す
+るために独自に DEFMETH() というマクロ(rb_define_method() と
+rb_define_singleton_method() を呼ぶ)を定義して使っていたのを
+rb_define_module_function() を利用するように修正しています。 rdoc でメソッド定
+義を検出できるようにするためみたいですね。 https://github.com/ruby/ruby/pull/
+686

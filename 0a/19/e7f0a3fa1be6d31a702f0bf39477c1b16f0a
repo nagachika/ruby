@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp の Net::FTP::NullSocket に closed? メソッドを追加し
+ています。エラー時にの close に対応するようにしているようです。 https://
+github.com/ruby/ruby/pull/1232

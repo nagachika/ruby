@@ -1,0 +1,2 @@
+benchmark/lib/load.rb というファイルを追加して、benchmark_driver を require さ
+せています。

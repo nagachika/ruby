@@ -1,0 +1,2 @@
+common.mk で $(BUILTIN_ENCOBJS) $(BUILTIN_TRANSOBJS) のターゲットに PHONY がつ
+いていたのですが、ここは実際のファイルに対する依存関係なので削っています。

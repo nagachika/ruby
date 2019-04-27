@@ -1,0 +1,3 @@
+README.md のインストール手順に make update-gems extract-gems などの bundled gem
+を更新/インストールする手順が記載されていなかったので追記しています。
+[ruby-core:81938] [Bug #13724]

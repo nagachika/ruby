@@ -1,0 +1,2 @@
+compile.c の static 関数 iseq_set_local_table() の第2引数 ID *tbl に const を追
+加しています。

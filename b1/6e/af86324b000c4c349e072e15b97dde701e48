@@ -1,0 +1,3 @@
+標準添付ライブラリ ostruct で OpenStruct のインスタンスが freeze されていた時の
+エラーを捕捉して RuntimeError で投げ直していたので、FrozenError 発生させるよう
+に修正しています。 https://github.com/ruby/ruby/pull/1808

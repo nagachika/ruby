@@ -1,0 +1,11 @@
+RubyGems 1.8.7 をマージしています。今回のコミットログには修正内容が個別に記載さ
+れていますね。ありがたい。
+gem のディレクトリ作成の時に umask に 0022 を追加して他ユーザから書き込みできな
+いようにしています。 [Bug #4930] また gem cleanup 中にファイルパーミッションの
+エラーが発生した時に続きの cleanup を実行するようにしています。また gem unpack
+uninstalled_gem で gem の version でソートして最新のものを選択するように修正し
+ています。あとは diff からはどこかわからなかったのですがコミットログによると
+gem uninstall --format-executable のための require 漏れを追加して、
+--format-executable で削除する実行体の正しい名前を表示するようにしたそうです。
+それから gem uninstall で存在しない gem を指定されても無視するようにしたという
+のもあります。

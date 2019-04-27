@@ -1,0 +1,3 @@
+configure で ar コマンド(static link ライブラリ .a を作るコマンド)の D フラグの
+存在をチェックして、可能なら u のかわりに D を指定するようにしています。
+deterministic mode を指定するフラグだそうです。

@@ -1,0 +1,4 @@
+test-all 用のユーティリティ test/ruby/envutil.rb の EnvUtil.diagnostic_reports
+で Mac OS X の rb_bug() などが発生した時の C のバックトレースを diagnostic
+report ファイルから取得するためにファイル生成を待つところをより小刻みにチェック
+してできるだけ早く処理できるようにしています。

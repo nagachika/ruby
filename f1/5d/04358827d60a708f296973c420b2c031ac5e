@@ -1,0 +1,2 @@
+MJIT のテストで VM 命令ごとにそれを含む compile unit を通すテストで r67442 で追
+加(復活)した definemethod と definesmethod も追加しています。

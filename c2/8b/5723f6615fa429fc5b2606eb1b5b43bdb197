@@ -1,0 +1,4 @@
+r45320 で inline 関数にした vm_callee_setup_arg() で rb_call_info_t::flags に
+VM_CALL_ARGS_SPLAT が立っている時に簡易版の呼び出し処理を行なわないようにして、
+配列の引数を *args のように渡した時に arity のチェックが働かなくなることがある
+不具合を修正しています。 [ruby-core:61422] [Bug #9622]

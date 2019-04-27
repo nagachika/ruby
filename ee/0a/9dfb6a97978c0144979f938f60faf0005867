@@ -1,0 +1,2 @@
+defs/known_errors.def にさらに FreeBSD の errno ECAPMODE と ENOTCAPABLE を追加
+しています。

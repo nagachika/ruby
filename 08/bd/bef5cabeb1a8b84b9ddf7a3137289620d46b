@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の SSL に SNI 対応を追加しています。 WEBrick で SNI
+かー。 [ruby-dev:50165] [Feature #13729]

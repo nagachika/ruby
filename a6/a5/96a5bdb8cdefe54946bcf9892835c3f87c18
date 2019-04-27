@@ -1,0 +1,5 @@
+Module#autoload で定数アクセス時に load した時に private_constant や
+deprecated_constant による警告やエラーが効いていなかったという不具合を修正して
+います。警告はいいとして private constant のほうは load はしたうえで NameError
+が発生するわけだけど、まあ load 後もエラーになるわけだし、それで正しいのか。
+[ruby-core:85516] [Bug #14469]

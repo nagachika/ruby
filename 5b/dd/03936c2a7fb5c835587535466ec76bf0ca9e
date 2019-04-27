@@ -1,0 +1,2 @@
+ISeq#line_trace_all, ISeq#line_trace_specify で ISeq の trace point を探索する
+時に line のイベントの trace 命令のみカウントするように修正しています。

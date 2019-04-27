@@ -1,0 +1,3 @@
+TestIO#test_readpartial_locktmp という IO#readpartial 中にバッファとして渡した
+文字列のサイズをいじるテストが Windows 環境では動かないようで skip するようにし
+ています。

@@ -1,0 +1,4 @@
+thread_pthread.c なにやら register_cached_thread_and_wait() という内部関数の宣
+言を関数内で行なっていたのを外に出しています。関数内で static 関数を宣言すると
+関数内関数になる? ただし USE_THREAD_CACHE というマクロが真に設定された時だけ有
+効な部分で、今は 0 に定義されているのでコンパイルされていない部分です。

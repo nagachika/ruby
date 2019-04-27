@@ -1,0 +1,3 @@
+r61202 で revert された r61054 の動機であった VCS#get_revisions でのコマンドが
+みつからなくて Errno::ENOENT が発生した時に VCS::NotFoundError を発生させるよう
+にする変更だけ入れています。

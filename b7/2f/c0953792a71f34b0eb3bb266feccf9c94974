@@ -1,0 +1,2 @@
+Net::HTTP の local_host, local_port の指定するテストが Windows 版でも実行可能に
+なったので skip を削除しています。

@@ -1,0 +1,3 @@
+bootstraptest の Process.setrlimit を使ったテストを if false をつけてコメントア
+ウトというか実行されないようにしています。r61706 および r61717 で timer thread
+が起動しない状態だとこのテストは通らないため。

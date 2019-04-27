@@ -1,0 +1,4 @@
+Windows 版の IO#fcntl のフラグに F_GETFD と F_SETFD、F_DUPFD_CLOEXEC の対応を追
+加しています。それぞれ GetHandleInformation()、SetHandleInformation() および
+DuplicateHandle() を使った実装(F_DUPFD_CLOEXEC は F_DUPFD と同様で
+DuplicateHandle() の第6引数のフラグのみ違う)が追加されています。

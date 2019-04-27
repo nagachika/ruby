@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の FileUtils.chown や webrick の WEBrick::Utils.su
+で Etc.getpwnam() や Etc.getgrnam() が nil を返すことがある(Windows 環境)のを考
+慮していなかったのを修正しています。

@@ -1,0 +1,2 @@
+Makefile.in で ruby.pc というターゲットで $(ruby_pc) の変数の内容を生成するよう
+にしています。

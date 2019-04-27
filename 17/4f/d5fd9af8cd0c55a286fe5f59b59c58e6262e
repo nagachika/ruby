@@ -1,0 +1,2 @@
+.gitignore に run.gdb というファイルを追加しています。 make gdb で生成されるフ
+ァイルみたいです。

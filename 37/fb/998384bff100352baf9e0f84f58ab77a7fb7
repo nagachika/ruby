@@ -1,0 +1,2 @@
+test/ruby/test_require.rb の require のロック競合のテストで警告を出力させるため
+に $VERBOSE を true に設定して実行するようにしています。

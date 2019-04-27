@@ -1,0 +1,3 @@
+tool/downloader.rb から利用されていない download_if_modified_since メソッドの定
+義を削除しています。内容は download そのものなので(デフォルトの引数がタイムスタ
+ンプ確認するようになっているので)不要になっていました。

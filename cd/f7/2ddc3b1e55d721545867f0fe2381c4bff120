@@ -1,0 +1,3 @@
+r64182 の続きで、ここで mswin 環境での MJIT 用の precompiled header 生成をする
+ようにしているようです。バージョン番号を含む rb_mjit_header-xxx.pch みたいなフ
+ァイル名で作るようです。

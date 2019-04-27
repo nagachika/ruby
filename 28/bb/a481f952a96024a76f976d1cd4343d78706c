@@ -1,0 +1,2 @@
+r33122 でマージした json に require "rational" と require "complex" が含まれて
+いたので削除しています。

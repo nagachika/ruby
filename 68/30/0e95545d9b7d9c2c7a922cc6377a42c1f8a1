@@ -1,0 +1,2 @@
+test/ruby/test_time_tz.rb タイムゾーンのテストで freebsd の時も Mac OS (darwin)
+と同じく一部のテストを除いてテスト実行するようにしています。

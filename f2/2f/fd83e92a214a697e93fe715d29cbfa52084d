@@ -1,0 +1,3 @@
+rubyspec の rbconfig.rb のテスト? で RbConfig::CONFIG['rubylibdir'] と
+RbConfig::CONFIG['archdir'] の内容を確認するテストを MinGW では実施しないように
+しています。こんなテストもあるのか。

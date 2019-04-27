@@ -1,0 +1,2 @@
+r52213 の tool/generic_erb.rb で tput コマンドを利用していたため動かない時の考
+慮をしています。 [ruby-core:71143] [Bug #11611]

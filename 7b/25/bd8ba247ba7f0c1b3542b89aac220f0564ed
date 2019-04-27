@@ -1,0 +1,3 @@
+拡張ライブラリ etc にシステムの CPU コア数を返す新しいメソッド Etc.nprocessors
+を追加しています。とりあえず sysconf(_SC_NPROCESSORS_ONLN) を使った実装のみとな
+っています。 [ruby-core:65142] [Feature #10267]

@@ -1,0 +1,6 @@
+r38156 で追加したテストで、Array オブジェクトを ObjectSpace.each_object で全て
+取得して inspect を呼ぶと "can't modify frozen File" という RuntimeError が発生
+することがあるので rescue を追加しています。元のテストは内部的に保持されている
+Array に不正な値が入っていて SEGV するという問題に対するテストなので例外はかま
+わないのですが、inspect しているだけなのに frozen だからとエラーになるのはちょ
+っと不思議ではありますね。

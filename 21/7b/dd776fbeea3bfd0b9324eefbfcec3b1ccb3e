@@ -1,0 +1,4 @@
+SIGCHLD の処理のための pipe の fd を構造体 struct waitpid_state のメンバーに追
+加して持ち回るようにして rb_sigwait_fd_get() や rb_sigwait_fd_put()、
+rb_sigwait_fd_migrate() の呼び出しを抑制するようにしています。一旦取得したら
+waitpid の処理が完了するまで保持し続けるようにしているみたいです。

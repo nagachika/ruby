@@ -1,0 +1,4 @@
+拡張ライブラリ socket の bsock_recvmsg_internal() で max のサイズが小さい時用に
+マシンスタック上に大きな配列を2つ確保していて 8KB も使ってしまっていたので、常
+に rb_str_tmp_new() を使って一時利用のバッファを確保するように修正しています。
+[ruby-core:69595] [Feature #11263]

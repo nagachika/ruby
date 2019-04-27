@@ -1,0 +1,3 @@
+test-all で TempFile, Thead, fd などの leak をチェックする LeakChecker に puts
+メソッドを実装して MiniTest::Unit.output を経由して出力するようにしています。並
+列実行時に出力がまざらないようにするためだそうです。

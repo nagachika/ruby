@@ -1,0 +1,4 @@
+test/ruby/test_process.rb に fork してから Kernel#exec で外部コマンドを実行しよ
+うとしてエラーが発生した後に、複数 Thread のブロックや signal の受信がうまく動
+くか、つまり timer thread の仕事がきちんと動いているかをチェックするテストを追
+加しています。

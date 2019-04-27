@@ -1,0 +1,2 @@
+test/excludes/TestISeq.rb を追加して test_parent_iseq_mark を除外しています。時
+間がかかりすぎるからとのこと。

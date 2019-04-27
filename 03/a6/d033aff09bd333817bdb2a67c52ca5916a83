@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の WIN32OLE_EVENT.new のテストを
+'WbemScripting.SWbemSink' という OLE が利用可能な時だけ実施するようにしています
+。

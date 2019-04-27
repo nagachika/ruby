@@ -1,0 +1,6 @@
+setup_exception() で PUSH_TAG() と POP_TAG() のペアの間(つまり setjmp() と
+longjmp() の間のセクション)で rb_threadptr_set_raised() に失敗した時に goto
+fatal で飛んで TH_JUMP_TAG() を呼んでしまっい無限ループに陥いる可能性があったの
+で、結果を変数に取っておいて POP_TAG() の後に goto fail するようにしています。
+と、読めるのですが、TH_JUMP_TAG() は TAG_FATAL でジャンプしてるから status が非
+0 になって再度失敗するパスには入らないんじゃないのかな。

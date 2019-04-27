@@ -1,0 +1,2 @@
+enc/make_encmake.rb で enc/ の下のエンコーディング名のソースコードを列挙する所
+で encinit.c を除外するようにしています。

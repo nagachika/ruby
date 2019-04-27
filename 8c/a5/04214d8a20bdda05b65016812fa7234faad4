@@ -1,0 +1,3 @@
+Enumerator::Lazy#take_while と drop_while にブロックが渡されなかった時に
+LocalJumpError が発生していたのを事前に引数をチェックして ArgumentError を発生
+させるように修正しています。 [ruby-core:51422] [Bug #7692]

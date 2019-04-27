@@ -1,0 +1,8 @@
+method entry の型 rb_method_entry_t は control frame に含まれて control frame
+stack に積まれていましたが、これを T_IMEMO 型のオブジェクトの1種類として ment
+を追加して VALUE 型で扱い value stack に積むようにしています。 [Bug #11046] に
+新しい構造の value stack の概念図があります。つまり method entry も(内部的な)オ
+ブジェクトになったということですね。これは alias の実装を変更するために行なわれ
+たことだと思いますが他にもいろいろメリットがあって、またついでにメモリリーク(
+[Bug #11200])の修正や __callee__ の誤判定の修正([Bug #11046])なども行なわれてい
+ます。

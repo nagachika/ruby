@@ -1,0 +1,2 @@
+test_LSHIFT_neary_long_max というテストが Linux の CI で時々タイムアウトしてい
+たので、子プロセスを待つタイムアウトを 10 sec から 15 sec にのばしています。

@@ -1,0 +1,2 @@
+gc.c の static 関数 RVALUE_PROMOTE_RAW() を RVALUE_OLD_LONG_LIVED_SET() という
+名前に改名しています。

@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf.rb で mingw64+MSYS でコマンドラインに余分な改行が含まれ
+てしまうことがあったらしく String#chomp ではなく String#strip で pkgconfig の出
+力を整形するように修正しています。 [ruby-core:47998] [Bug #7163]

@@ -1,0 +1,3 @@
+r34735 の修正では IO.foreach にブロックを渡さず Enumerator を作った時に
+ArgumentError になるようになってたので argc を保存しておいて RETURN_ENUMERATOR
+にはそちらを渡すようにしています。 [ruby-dev:31525]

@@ -1,0 +1,3 @@
+Zlib::GzipReader#unused が内部的な文字列(所属するクラスを示す klass が 0 にして
+ある)を返してしまうことによる不具合を、rb_str_new_shared() でコピーしたものを返
+すようにしています。[ruby-core:35057]

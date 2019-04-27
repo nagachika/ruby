@@ -1,0 +1,6 @@
+Rinda::TupleSpace#take で port が指定されてそこに tuple を移動した時は返り値を
+nil にしています。 Rinda::TupleSpace#take は dRuby と組み合わせて使う時は
+TupleSpaceProxy 経由で使われることが多いので port が指定されており、またメソッ
+ドの戻り値は dRuby 経由のメソッド呼び出しでは Marshal.dump してネットワーク経由
+でやりとりされるため、使わない戻り値を返すと遅くなります。その無駄を省く変更の
+ようです。 [ruby-core:53512] [Feature #8119]

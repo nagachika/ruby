@@ -1,0 +1,2 @@
+r64145 の各 .gemspec ファイルの require_relative の upstream と ruby 内の両構成
+対応の変更で thwait のものだけコメントがなかったので追加しています。

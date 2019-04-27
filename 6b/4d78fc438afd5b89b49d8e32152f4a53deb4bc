@@ -1,0 +1,2 @@
+デバッガ lldb 用のスクリプト lldb_cruby.py の lldb_rp で T_DATA 型オブジェクト
+の表示の対応を追加しています。

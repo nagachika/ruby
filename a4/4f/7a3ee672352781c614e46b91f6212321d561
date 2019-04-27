@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal で主にデバッグのためにメッセージを生成しているところ
+で BDIGIT のための printf の指示子を PRIuBDIGIT マクロ化するようにしています。

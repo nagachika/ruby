@@ -1,0 +1,2 @@
+lib/open3.rb で Symbol をブロック引数として渡す each(&:close) のような記法を利
+用するようにしています。

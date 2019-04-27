@@ -1,0 +1,5 @@
+test/ruby/enc/test_case_comprehensive.rb で Unicode 用のデータファイルが存在し
+ない時にテストクラスの定義自体をやめてテストしないようにするための条件を
+TestComprehensiveCaseFold.data_files_available? というメソッドに切り出して、ま
+た明示的な skip を追加するメソッド
+TestComprehensiveCaseFold.data_files_available も追加しています。

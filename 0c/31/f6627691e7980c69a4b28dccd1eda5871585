@@ -1,0 +1,4 @@
+さらに enc/unicode/data/UnicodeData.txt から update-unicode への依存関係を追加
+しています。無条件実行になってますが tool/downloader.rb 自体が更新時刻をみて不
+要なダウンロードはスキップするようにしてたと思うので毎回ダウンロードしてしまう
+問題はないと思います。

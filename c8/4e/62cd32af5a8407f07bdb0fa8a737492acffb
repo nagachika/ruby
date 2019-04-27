@@ -1,0 +1,2 @@
+標準添付ライブラリ optparse.rb の rdoc 用コメントの typo 修正。 https://
+github.com/ruby/ruby/pull/1126 [ruby-core:66901] [misc #10608]

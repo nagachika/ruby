@@ -1,0 +1,3 @@
+Coverage.result のファイルパスがエンコーディングを意識していなくて ASCII-8BIT
+になっていたので filesystem_encoding() を利用するようにしています。
+[ruby-dev:44950] [Bug #5725]

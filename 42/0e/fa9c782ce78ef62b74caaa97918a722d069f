@@ -1,0 +1,3 @@
+r59660 で追加した rb_w32_set_thread_description_str() で引数 name が nil だった
+時に関数の型は int なのに戻り値を指定しない return をしていたのを修正しています
+。

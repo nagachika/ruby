@@ -1,0 +1,2 @@
+昨日の r65454 での T_HASH 型オブジェクトで小さい Hash の時に Transient Heap を
+使う実装にした時に write barrier の入れ忘れがあったのを修正しています。

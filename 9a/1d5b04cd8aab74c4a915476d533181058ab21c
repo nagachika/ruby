@@ -1,0 +1,5 @@
+configure.in の要求する autoconf のバージョンを 2.60 -> 2.62 に更新して
+AC_DISABLE_OPTION_CHECKING を使って "--with-PACKAGE" みたいなオプションの警告が
+出るのを抑制しています。 --with-openssl-dir みたいなオプションを指定した時にち
+ゃんと反映されているのに "WARNING: Unrecognized options:" のような警告を出して
+いたので混乱をまねいていましたが、それがなくなるみたいです。

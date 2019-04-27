@@ -1,0 +1,2 @@
+標準添付ライブラリ debug.rb の DEBUGGER__ の特異メソッドについての rdoc を追記
+しています。 [ruby-core:51253] [Bug #7656]

@@ -1,0 +1,4 @@
+r61724 の再修正。 cond_stack の状態を退避するために struct local_vars という構
+造体のメンバーを追加して、local_push_gen() で cmdarg_stack と同様に cond_stack
+も保持しておくようにしています。 cmdarg_stack は元から退避されてたんですね。ま
+た class 文も同様に条件部に書けるようにしています。

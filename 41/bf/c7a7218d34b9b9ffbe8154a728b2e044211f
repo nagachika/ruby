@@ -1,0 +1,3 @@
+OpenSSL の rdoc 追加。それから /* let rdoc know about mOSSL */ というコメントを
+#if 0 の行に移動しています。コミットログによればこうすると rdoc の出力に含まれ
+なくなるからだそうです。

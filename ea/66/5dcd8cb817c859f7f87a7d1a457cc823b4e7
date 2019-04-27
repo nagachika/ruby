@@ -1,0 +1,2 @@
+vm_svar_get() と vm_svar_set() に第1引数に rb_execution_context_t を追加してい
+ます。中で GET_EC() しているのを、呼び元でするように変更しています。

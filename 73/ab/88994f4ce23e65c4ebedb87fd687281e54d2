@@ -1,0 +1,2 @@
+enc/unicode/case-folding.rb で ONIGENC_CASE_UPCASE と ONIGENC_CASE_DOWNCASE の
+フラグも出力するようにして enc/unicode/casefold.h を再生成しています。

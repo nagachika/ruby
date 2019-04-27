@@ -1,0 +1,6 @@
+r38002 で DL のテストで require "objspace" で確実にロードさせるために子プロセス
+を起動しようとしているようだったのですが、使っている capture_io は子プロセスを
+起動していないので capture_subprocess_io を使っています。しかし minitest の
+capture_subprocess_io はこれが fork してくれるものではなくて、fork しても大丈夫
+なように標準出力などの受け渡しを Tempfile 経由にしているというだけなので、これ
+でもだめなのでした。

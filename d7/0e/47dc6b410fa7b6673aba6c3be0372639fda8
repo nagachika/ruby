@@ -1,0 +1,3 @@
+拡張ライブラリ zlib で struct zstream::buf の String オブジェクトの len と
+capacity を使って保持できるサイズと書き込み済みのサイズを管理することで同じ
+struct zstream の buf_filled というメンバーを削除するリファクタリング。

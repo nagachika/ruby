@@ -1,0 +1,2 @@
+長らく未使用のままだった openssl のテスト用のファイル test/openssl/
+ssl_server.rb を削除しています。

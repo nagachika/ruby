@@ -1,0 +1,4 @@
+拡張ライブラリ socket の TCPSocket#accept_nonblock および UNIXSocket#
+accept_nonblock でも Ruby 製のメソッドでキーワード引数を処理して内部的な C 製の
+メソッド __accept_nonblock に委譲するようにしています。 [ruby-core:71439]
+[Feature #11339]

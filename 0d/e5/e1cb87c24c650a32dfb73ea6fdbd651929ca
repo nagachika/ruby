@@ -1,0 +1,6 @@
+拡張ライブラリ thread の Queue, SizedQueue, ConditionVariable などを thread/
+tools.c に移動して ruby core の組み込みクラスに昇格しています。 ext/thread は互
+換性のため require はできるように残されていますが、からっぽの拡張ライブラリにな
+っています。また Mutex は Thread::Mutex に移動されています。 ::Mutex にも別名と
+して代入されているので、これまで通り ::Mutex も使えます。 [ruby-core:57256]
+[Feature #8919]

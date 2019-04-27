@@ -1,0 +1,3 @@
+r53391 で非ASCII文字を含むディレクトリの spawn などのオプションでの利用のテスト
+が locale encoding が UTF-8 の場合に限定されてましたが、Windows も対象にしてい
+ます。

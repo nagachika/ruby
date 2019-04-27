@@ -1,0 +1,2 @@
+make golf で goruby がビルドされますが make goruby でもビルドできるようにしてい
+ます。 sub make に GOLF=golf2 を渡してるのはなぜだろう。

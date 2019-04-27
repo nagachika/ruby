@@ -1,0 +1,3 @@
+insns.def の文字コードの変更のため *.inc を生成する時のツール起動時のオプション
+を -Ks から -Ku に変更するのを win32/Makefile.sub でも変更。oh win32 を忘れてま
+した……。 [Feature #5128]

@@ -1,0 +1,6 @@
+refinement のために Class/Module を拡張している Module を格納するための Hash オ
+ブジェクトの生成(Hash を作って Hash#compare_by_identity を呼ぶ)を
+identity_hash_new というメソッドに切り出しています。 #if 0 でコメントアウトされ
+ていますが RBasic::klass を 0 にして ObjectSpace から不可視にしたいようなのです
+が、そうすると default メソッドの呼び出しがエラーになってしまうということで断念
+されています。

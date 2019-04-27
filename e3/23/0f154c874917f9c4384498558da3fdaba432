@@ -1,0 +1,3 @@
+sprintf.c で RSTRING_PTR() の中で関数呼び出し(rb_sym2str) をしてしまっていたと
+ころがあったので、ついでに PRIsVALUE を使って文字列オブジェクトのまま埋め込むよ
+うにして RSTRING_PTR() を使わないようにしています。

@@ -1,0 +1,2 @@
+win32/setup.mak で変数 GIT と HAVE_GIT の設定を Makefile に追加するようにしてい
+ます。

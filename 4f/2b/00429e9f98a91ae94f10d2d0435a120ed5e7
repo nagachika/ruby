@@ -1,0 +1,2 @@
+というわけで改めて OptionParser#to_a で OptionParser#to_s のヘルプメッセージを
+行ごとに分解した配列を返すように修正しています。 [ruby-dev:45568] [Bug #6348]

@@ -1,0 +1,3 @@
+昨日の mkmf.rb を MakeMakefile モジュールの中に入れる修正を再度入れています。そ
+して test/ruby/test_module.rb のテストで Object が MakeMakefile を include して
+いるせいで失敗するテストの対処も入れています。

@@ -1,0 +1,3 @@
+Symbol を管理する global_symbols テーブルの操作を register_symid_direct()、
+unregister_sym_str()、unregister_sym_id()、unregister_sym() といった関数として
+切り出しています。

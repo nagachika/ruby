@@ -1,0 +1,4 @@
+r41199 の続きで bignum.c の rb_absint_numwords() の処理で numbytes が sizeof
+(size_t) / CHAR_BIT(=8) 以下の時に使える最適化された計算方法を実装した
+absint_numwords_small() という関数を追加して、可能ならこれを利用するようにして
+います。

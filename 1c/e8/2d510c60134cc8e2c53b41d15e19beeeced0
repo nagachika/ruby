@@ -1,0 +1,4 @@
+r43609 で tool/file2lastrev.rb から分離した tool/vcs.rb を tool/rbinstall.rb で
+も利用して最後のコミットの更新日時を取得して gemspec の date をセットするように
+しています。同梱されている gems パッケージの gemspec がビルドするたびに変化して
+しまう問題の追加対応みたいです。 [ruby-core:58193] [Bug #9085]

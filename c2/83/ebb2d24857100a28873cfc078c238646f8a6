@@ -1,0 +1,2 @@
+win32/Makefile.sub で fake.rb の依存関係に version.h を追加しています。
+RUBY_VERSION を更新した時に再作成が必要だったそうです。

@@ -1,0 +1,1 @@
+vm_living_thread_num() の引数に const 修飾子を付加しています。

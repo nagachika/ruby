@@ -1,0 +1,7 @@
+ブロックパラメーター(do |x, y| ... end の x, y)やブロック内で初めて代入された変
+数などの dynamic variable が外のスコープの local variable や dynamic variable
+と同じ名前の時に "shadwoing outer local variable" って警告が出るようになってま
+したが、それをやめています。元の警告の意図もわかるのでううーん、という感じでし
+たが、確かに実際には警告避けのためだけに変数名変えるのが面倒だったりしますね。
+一方 shadowing の警告でバグに気がついたことは、1,2 度はあるかも…くらいかなぁ。
+[ruby-core:76028] [Feature #12490]

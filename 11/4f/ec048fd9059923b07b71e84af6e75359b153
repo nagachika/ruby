@@ -1,0 +1,2 @@
+test/lib/minitest/unit.rb で MJIT が有効かどうかのチェックでそもそも
+RubyVM::MJIT が存在しない時に対応するようにしています。

@@ -1,0 +1,2 @@
+doc/syntax/control_expressions.rdoc に条件演算子( cond ? a : b )について追記し
+ています。

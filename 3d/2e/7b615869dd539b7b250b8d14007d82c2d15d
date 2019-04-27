@@ -1,0 +1,3 @@
+r64289 で mjit_worker.c を mjit.c に #include でとりこむようにしたのでさらに一
+部の変数の mjit_ の prefix を削除して extern してた変数を static に戻しています
+。

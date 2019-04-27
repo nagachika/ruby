@@ -1,0 +1,4 @@
+r43259 の rb_class_tbl の削除のリベンジです。今度は rb_vm_add_root_module とい
+う関数とrb_vm_struct::defined_module_hash というメンバを追加してここに登録する
+ようにしています。 rb_define_class() や rb_define_module() で定義した Class/
+Module は常にマークされます。

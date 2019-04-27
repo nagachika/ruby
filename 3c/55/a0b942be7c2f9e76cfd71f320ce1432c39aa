@@ -1,0 +1,2 @@
+bootstraptest/runner.rb を実行する ruby を指定する BOOTSTRAPRUBY を BASERUBY が
+あれば BASERUBY を、なければ従来どおり MINIRUBY を使うようにしています。

@@ -1,0 +1,1 @@
+rb_vm_bh_to_procval() の宣言は proc.c から vm_core.h に移動しています。

@@ -1,0 +1,2 @@
+Date および DateTime の _strptime メソッドの実装を Ruby 版から Cの拡張ライブラ
+リ版に置き換えています。

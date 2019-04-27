@@ -1,0 +1,2 @@
+test/ripper/test_files.rb の test_parse_files で警告メッセージを抑制するために
+標準出力を capture してしまうようにしています。

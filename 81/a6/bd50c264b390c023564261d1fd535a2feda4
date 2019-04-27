@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の rdoc 用コメントで OS X での OpenSSL を HomeBrew でイ
+ンストールした場合のオプション指定方法の brew コマンドの使いかたを修正していま
+す。 https://github.com/ruby/ruby/pull/1107

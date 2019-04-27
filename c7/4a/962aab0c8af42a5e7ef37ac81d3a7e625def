@@ -1,0 +1,2 @@
+r31059 の ext 並列ビルド可能にする修正で ext/extmk.rb が生成する exts.mk が
+Windows の nmake だとうまく動かない記法を生成してしまっていたので修正。

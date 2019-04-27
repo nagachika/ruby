@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle の extconf.rb で libffi を自前でビルドする時の submake を
+起動する時の移動先ディレクトリを $(@D) から $(LIBFFI_DIR) に修正しています。

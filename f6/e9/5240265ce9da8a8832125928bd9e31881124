@@ -1,0 +1,2 @@
+proc.c の method_get_def(), method_get_iseq(), method_get_cref() などをそれぞれ
+method_def(), method_def_iseq(), method_cref() などに改名しています。

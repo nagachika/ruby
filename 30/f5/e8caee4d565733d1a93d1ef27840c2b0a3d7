@@ -1,0 +1,2 @@
+NEWS ファイルに r42198 の REXML::Parsers::StreamParser のコールバック呼び出しの
+追加について追記しています。

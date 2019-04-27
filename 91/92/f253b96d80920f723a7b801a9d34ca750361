@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の OpenSSL::OCSP::Request#verify と OpenSSL::OCSP
+::BasicResponse#verify で OCSP_request_verify() および OCSP_basic_verify() のエ
+ラーチェックが間違っていたのを修正し、またエラー時に ossl_clear_error() を呼び
+出して OpenSSL 内部の error queue をクリアするようにしています。あとこれまでは
+エラー内容を rb_warn() で警告に出していたのをやめています。エラー内容は取れなく
+てもいいのかな…。

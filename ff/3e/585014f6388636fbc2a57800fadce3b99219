@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal で BigDecimal#sqrt が指定された精度が出ていなかった不
+具合を修正しています。 [Bug #5266] [ruby-dev:44450]

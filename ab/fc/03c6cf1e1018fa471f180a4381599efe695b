@@ -1,0 +1,2 @@
+r53124 の Encoding の名称変更(EBCDIC-US → IBM037)に追随して enc/trans/ebcdic
+.trans に記述されている名称も変更しています。

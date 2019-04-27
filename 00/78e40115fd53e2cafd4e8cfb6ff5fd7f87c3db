@@ -1,0 +1,4 @@
+r59693 で標準添付ライブラリ net/http の Net::HTTP#add_field などでヘッダ名に改
+行が含まれているのを弾くようにしたのと同様に、Net::HTTPHeader#
+initialize_http_header でもヘッダ名の改行をエラーにするようにしています。
+[ruby-core:84359] [Bug #14208]

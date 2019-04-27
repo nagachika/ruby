@@ -1,0 +1,4 @@
+r46035 の拡張ライブラリを static link する時に ext/-test- の下の拡張ライブラリ(
+インストールしないもの)はビルドできないのでスキップするようにする ext/extmk.rb
+の変更で --enable-shared がないとビルドされなくなっていたので、条件に CONFIG
+["EXTSTATIC"] == "static" も追加しています。

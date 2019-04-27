@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::ERBHandler のテストを追加い
+ています。 [ruby-core:84391] [Misc #14216]

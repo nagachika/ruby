@@ -1,0 +1,3 @@
+T_REGEXP に write barrier を挿入して Regexp オブジェクトを shady じゃないオブジ
+ェクトにできるようにしています。Regexp は immutable なので生成時のみで済んでい
+るみたいですね。

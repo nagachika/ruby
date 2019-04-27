@@ -1,0 +1,3 @@
+configure で gcc の時のコンパイルオプションに -Werror=deprecated-declarations
+を追加しています。 deprecated にマークされた宣言の利用の警告をエラー扱いにする
+ってことでしょうか。 Mac OS X だと割と頻繁におきそうですね。

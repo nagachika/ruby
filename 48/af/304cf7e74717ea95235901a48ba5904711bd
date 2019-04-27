@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::X509::Store#add_file, set_default_paths,
+add_cert の rdoc を追加しています。

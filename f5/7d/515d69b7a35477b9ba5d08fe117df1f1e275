@@ -1,0 +1,3 @@
+Array#append と Array#prepend をそれぞれ Array#push と Array#unshift の alias
+として追加しています。まじか今になってついに入るのか。 https://github.com/ruby/
+ruby/pull/1574 [ruby-core:77236] [Feature #12746]

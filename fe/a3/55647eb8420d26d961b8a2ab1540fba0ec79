@@ -1,0 +1,3 @@
+ruby/io.h で rb_io_bufwrite() や rb_io_get_io()、rb_io_check_char_readable()、
+rb_io_check_byte_readable() などの関数プロトタイプが宣言されていなかったので追
+加。

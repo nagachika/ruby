@@ -1,0 +1,3 @@
+Windows 環境で __FILE__ のエンコーディングの問題を修正するため
+load_file_internal() では渡された文字列を ISeq コンパイル時に同じものを渡すよう
+にしています。 [ruby-dev:46738] [Bug #7562]

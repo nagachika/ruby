@@ -1,0 +1,3 @@
+parse.y の reg_named_capture_assign_gen() で正規表現のコンパイルに失敗した時に
+例外オブジェクトからメッセージを取り出したり設定したりする時の ID を rb_intern
+() を使っていたのを組込みの idMesg を利用するようにしています。

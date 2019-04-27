@@ -1,0 +1,5 @@
+r52447 や r52448 の続きで拡張ライブラリ bigdecimal, date, dbm, gdbm, sdbm,
+fiddle, openssl, psych, readline, socket, tk などで配列の特定の位置の要素にアク
+セスするのに RARRAY_CONST_PTR() を使っていたのを RARRAY_AREF() マクロを利用する
+ように修正しています。 https://github.com/ruby/ruby/commit/3553a86#
+commitcomment-14187670

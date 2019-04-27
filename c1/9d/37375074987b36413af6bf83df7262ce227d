@@ -1,0 +1,8 @@
+r50728 で alias 時にメソッド定義の rb_method_definition_t をコピーするようにし
+ましたが、再度 alias で作られた method entry が rb_method_definition_t を共有す
+るように再修正しています。
+rb_method_definition_t::flags を rb_method_entry_t::attr::flags に移動し、
+rb_method_definition_t::alias_count_ptr は削除し
+rb_method_definition_t::alias_count を追加しています(カウンタだけ共有していたけ
+ど rb_method_definition_t が共有されるようになったので直接カウンタを持てるよう
+になった。最近メソッド管理回りの変更が多くて現状についていくのが大変ですねー。

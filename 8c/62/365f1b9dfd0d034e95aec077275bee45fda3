@@ -1,0 +1,2 @@
+coverage/ と ext/-test-/win32/console/ の下のファイルたちを .gitignore への追加
+と同様に svn:ignore property にも設定しています。

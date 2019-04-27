@@ -1,0 +1,3 @@
+template/unicode_norm_gen.tmpl で生成する lib/unicode_normalize/tables.rb の文
+字列毎に改行するようにして、差分がわかりやすくなるようにしています。で実際に
+lib/unicode_normalize/tables.rb を生成しなおしています。

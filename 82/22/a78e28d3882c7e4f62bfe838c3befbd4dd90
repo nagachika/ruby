@@ -1,0 +1,2 @@
+NEWS ファイルに Thread#backtrace_locations などが返す新しいオブジェクトのクラス
+Thread::Backtrace::Location を追記しています。

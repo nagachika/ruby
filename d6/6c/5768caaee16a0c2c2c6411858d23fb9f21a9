@@ -1,0 +1,3 @@
+Windows 版でコンソールエミュレートの判定に psapi というライブラリを使うのをやめ
+て WriteConsoleW() と kernel32.dll の ModuleHandle が一致するかをチェックすると
+いう力技を使うように変更しています。

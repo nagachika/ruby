@@ -1,0 +1,4 @@
+string.c と symbol.c で同名の setup_fake_str() という static 関数があった(引数
+が違っていた)のを string.c のものに統一して、string.c の外から呼べるように
+rb_setup_fake_str() という wrapper 関数を定義して symbol.c ではこれを呼び出すよ
+うにリファクタリングしています。

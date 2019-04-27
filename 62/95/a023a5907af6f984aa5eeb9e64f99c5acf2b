@@ -1,0 +1,2 @@
+r43849 に続いて ext/bigdecimal/bigdecimal.gemspec の svn property を設定。肝心
+の Date が svn:keywords に追加されていなかったので追加しているようです。

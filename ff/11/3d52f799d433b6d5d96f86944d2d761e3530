@@ -1,0 +1,3 @@
+r52822 で追加した #pragma を使ったコンパイラ最適化の制御を configure でチェック
+して関数の attribute として付けるマクロ FUNC_UNOPTIMIZED() を定義してこれを使う
+ように変更しています。

@@ -1,0 +1,8 @@
+RbConfig::CONFIG["DLEXT2"] が nil のプラットフォーム(Windows?)で rubygems がエ
+ラーを起こす不具合の修正を取り込んでいる、そうですが、それに効いてるのは lib/
+rubygems.rb の 4つめの hunk あたりだけで、ついでにいろいろ修正やパフォーマンス
+改善のための require の分散/遅延化が混ざっているようです。
+test/rubygems/test_gem_commands_sources_command.rb でこれまで何もしていなかった
+テストが assert_raise で例外が上がることをチェックするようになっているあたりが
+ちょっとひっかかりますが、特に gem sources コマンドが壊れている様子もないので問
+題ないんじゃないかなぁ、と思います。

@@ -1,0 +1,3 @@
+r66553 の続き? Gem::Package::TarWriter のテストで環境変数 SOURCE_DATE_EPOCH と
+いうのを変更するテストがあって、後始末で戻してなかったので戻すようにしています
+。

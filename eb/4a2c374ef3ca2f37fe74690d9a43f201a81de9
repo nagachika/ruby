@@ -1,0 +1,2 @@
+require の safe level チェックの際の Encoding 関係のテストをいくつか追加してい
+ます。

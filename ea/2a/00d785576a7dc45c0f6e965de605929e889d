@@ -1,0 +1,4 @@
+RubyGems を 2.2.2 の prerelease 版に更新しています(Gem::VERSION は "2.2.1" のま
+ま)。コミットログにはCI のエラーを修正とありますが、その他にもいろいろ修正はあ
+るようで、ちょっと要約する余裕がないので詳細は History.txt を参照。 https://
+github.com/rubygems/rubygems/blob/master/History.txt

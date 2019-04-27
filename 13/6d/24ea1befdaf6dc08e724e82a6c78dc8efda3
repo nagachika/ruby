@@ -1,0 +1,2 @@
+addr2line.c の next_line() で line_info_t の構造体のメモリ解放漏れがあったのを
+修正。

@@ -1,0 +1,3 @@
+r63642 と類似ですが rb_int_powm() int_pow_tmp1() int_pow_tmp3() などの関数で
+rb_funcall() でメソッド呼び出ししていたのを直接対応する C 関数を呼ぶようにして
+います。

@@ -1,0 +1,2 @@
+拡張ライブラリ fcntl に .gemspec ファイルを追加して default gem 化しています。
+[ruby-core:79494] [Feature #13206]

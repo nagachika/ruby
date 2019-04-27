@@ -1,0 +1,1 @@
+同じく parse_and_compile_main で return 文にキャストを追加。

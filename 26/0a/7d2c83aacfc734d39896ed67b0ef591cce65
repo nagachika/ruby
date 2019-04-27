@@ -1,0 +1,2 @@
+METHOD_ENTRY_VISI_SET() や METHOD_ENTRY_FLAGS_SET() で引数のチェックをしている
+VM_ASSERT() での警告除去のためキャストを追加しています。

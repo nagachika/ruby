@@ -1,0 +1,2 @@
+fake.rb のテンプレートファイル template/fake.rb で RUBY_PATCHLEVEL も再定義する
+ようにして、RUBY_DESCRIPTION に RUBY_PATCHLEVEL も含めるようにしています。

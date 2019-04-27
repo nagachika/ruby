@@ -1,0 +1,2 @@
+spec/default.mspec で require "./rbconfig" するのを RbConfig が未定義の時だけに
+しています。

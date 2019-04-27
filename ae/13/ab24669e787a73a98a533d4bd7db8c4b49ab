@@ -1,0 +1,2 @@
+r40174 および r40175 の続きで Object#instance_variable_set でも同じく引数が
+Symbol でない時の to_str 呼び出しをまとめています。

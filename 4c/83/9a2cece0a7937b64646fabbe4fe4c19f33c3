@@ -1,0 +1,4 @@
+標準添付ライブラリ net/ftp で Net::FTP::BufferedSocket#shutdown の実装を @io に
+委譲するだけのシンプルなものに戻して、SSLSocket 向けには BufferedSSLSocket とい
+うクラスを新設してそこでは shutdown はなにもしないメソッドとして定義することで
+分岐のかわりとしています。

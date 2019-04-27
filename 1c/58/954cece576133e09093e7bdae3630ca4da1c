@@ -1,0 +1,2 @@
+test/lib/test/unit/assertions.rb で assertion の message に Proc オブジェクトが
+渡された時に "." が重複するのを防いでいます。

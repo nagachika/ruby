@@ -1,0 +1,1 @@
+missing/crypt.c の static 変数に const 修飾子を付加しています。

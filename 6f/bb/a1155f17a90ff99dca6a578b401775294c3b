@@ -1,0 +1,6 @@
+r49525 と r49575 で openssl のテストで wrap mode をサポートしていない時の例外を
+無視するようにしたもので、Fedora21 でのエラーの対応。 Fedora21 では例外メッセー
+ジが "id-aes128-wrap-pad" というものだそうで…(参照 http://
+rubyci.blob.core.windows.net/fedora21/ruby-trunk/log/
+20150213T001502Z.fail.html.gz)。メッセージが決まってないみたいなので "wrap" と
+いう文字があれば無視するようにしています。 [Bug #10839]

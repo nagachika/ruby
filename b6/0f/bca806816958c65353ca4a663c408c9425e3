@@ -1,0 +1,3 @@
+signal.c の ruby_signal() で if 文で条件分岐していたところを switch 文に書き換
+えています。if 文の条件部に #if の preprocessor による分岐も入り混っていたので
+すっきりさせるためかなと思います。

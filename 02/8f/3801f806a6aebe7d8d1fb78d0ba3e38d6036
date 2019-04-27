@@ -1,0 +1,4 @@
+r54391 で rb_isascii() を inline 関数化したため parse.y で ID 型の変数について
+ISASCII() を呼んでいたところを signed char へのキャストを経由して値が変わらない
+ことをチェックするように変更しています。signed char の範囲の ID はその1文字の
+Symbol にマッピングされてるんですね。

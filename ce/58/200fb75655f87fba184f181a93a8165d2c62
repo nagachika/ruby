@@ -1,0 +1,4 @@
+拡張ライブラリ gdbm のテストの後始末(teardown) での
+FileUtils.remove_entry_secure が例外を発生させた時に ls -lR でそのディレクトリ
+の内容を出力させるようにしています。たぶん CI でのエラーの調査のためと思われま
+す。

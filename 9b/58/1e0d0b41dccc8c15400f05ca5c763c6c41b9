@@ -1,0 +1,6 @@
+unicode_normalize 用の tool/unicode_norm_gen.rb を削除してかわりに template/
+unicode_norm_gen.tmpl というテンプレートファイルを導入して generic_erb.rb で
+unicode_normalize/tables.rb を作成するように変更しています。ソースディレクトリ
+が読み込み専用の fs でも動くようにとのことですが、lib/unicode_normalize/
+tables.rb はソースディレクトリに書き込むからやっぱり書き込み専用だとエラーにな
+るのでは?

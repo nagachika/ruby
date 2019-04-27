@@ -1,0 +1,3 @@
+r56656 で tool/vcs.rb で ChangeLog を自動生成する時に git svn log を利用するよ
+うにしてましたが、git-svn を利用していない working copy で実行できないので git
+log で出力したものを整形するように修正しています。

@@ -1,0 +1,2 @@
+SIGCHLD がない環境(Windows とか)の waitpid の処理で引数に渡すポインタをミスを修
+正。 [ruby-core:87655] [Bug #14873]

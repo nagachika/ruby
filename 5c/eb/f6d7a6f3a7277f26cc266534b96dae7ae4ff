@@ -1,0 +1,1 @@
+ext/objspace/object_tracing.c の変数名の typo 修正。

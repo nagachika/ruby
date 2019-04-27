@@ -1,0 +1,2 @@
+marshal.c の dump/load の関数の再入チェック部分を dump_funcall() と
+load_funcall() というマクロに切り出すリファクタリング。

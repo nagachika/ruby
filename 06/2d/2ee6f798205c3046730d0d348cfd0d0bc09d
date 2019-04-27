@@ -1,0 +1,11 @@
+拡張ライブラリ json を 1.7.7 に更新しています。このアップデートには悪意ある文字
+列を JSON.parse に渡すと Symbol を生成し、Symbol が GC されないことで DOS 攻撃
+に利用される可能性があるという脆弱性問題に対して、JSON.parse に
+create_additions オプションを追加してこれを明示的に true に指定しないと任意のオ
+ブジェクトを生成する挙動はしないようにしているようです。 https://github.com/
+flori/json/commit/d0a62f3ced7560daba2ad546d83f0479a5ae2cf2 https://
+groups.google.com/d/topic/rubyonrails-security/4_YvCpLzL58/discussion
+なお JSON.load ではこの対応は入っていないので、 JSON.load には信頼できない文字
+列を渡してはダメだそうです。
+ついでに JSON のオブジェクトのネストの深さの制限を拡張しているっぽい(19 -> 100)
+変更も入っています。

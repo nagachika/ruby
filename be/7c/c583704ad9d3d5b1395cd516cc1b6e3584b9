@@ -1,0 +1,5 @@
+rb_bug() などで C level のバックトレースを表示する時に行番号を取得するために基
+底アドレスを取得するのに Linux で --enable-shared をつけない時に dladdr(3) を利
+用するようにしています。 https://twitter.com/shinh/status/441957774264504321
+--enable-shared をつけない時とありますが -pie つきになっている時に取れなかった
+のを対応しているみたいです。

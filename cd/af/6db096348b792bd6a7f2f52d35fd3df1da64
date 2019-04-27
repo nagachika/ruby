@@ -1,0 +1,2 @@
+r58224 で追加した RUBY_DEBUG 環境変数の codepage の解釈で ruby_scan_digits() の
+結果のチェックを強化しています。

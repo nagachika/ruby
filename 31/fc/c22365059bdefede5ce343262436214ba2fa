@@ -1,0 +1,2 @@
+Test::Unit::Worker#inclement_io を increment_io に名称変更。API 変更、といって
+も昨日入ったばかりのものです。

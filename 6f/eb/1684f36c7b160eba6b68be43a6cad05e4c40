@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb で backport サブコマンドの処理で例外クラスの名前を
+typo していたのを修正しています。

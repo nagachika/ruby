@@ -1,0 +1,7 @@
+Enumerable#min, #max, #minmax などが生成する Enumerator のために T_IMEMO を使っ
+て配列を確保しているところで NEW_MEMO_FOR() のかわりに NEW_CMP_OPT_MEMO() とい
+うマクロを追加して、配列のバッファ内に詰める VALUE でないメンバのオフセットも渡
+して、RArray の len を VALUE の値が入っている部分だけにしています。 capa は全体
+が入るようにしているので、バッファ内には乗っているけど VALUE でない値が mark さ
+れることを防いでいます。なるほどー。 RGENGC_CHECK_MODE=2 でビルドした時の abort
+を解消しているそうです。

@@ -1,0 +1,1 @@
+もう一箇所 lib/xmlrpc/client.rb の Net::HTTP.version_1_2 の呼び出し箇所を削除。

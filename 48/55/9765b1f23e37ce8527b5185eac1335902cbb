@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の URI::RFC3986_Parser::RFC3986_URI と URI
+::RFC3986_Parser::RFC3986_relative_ref の正規表現をリファクタリング(?)していま
+す。

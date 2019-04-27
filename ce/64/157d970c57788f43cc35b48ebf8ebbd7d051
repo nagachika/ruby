@@ -1,0 +1,3 @@
+論理演算子付きの代入演算子 &&= や ||= の NODE NODE_OP_ASGN_OR や
+NODE_OP_ASGN_AND を生成する時に左辺値(なのかな)の NODE_DASGN_CURR の位置情報を
+更新して右辺値の範囲も含めるように変更しています。

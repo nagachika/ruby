@@ -1,0 +1,4 @@
+r58758 で spec/rubyspec/library/win32ole/fixtures/classes.rb に追加した require
+"win32ole" ですが今度は Windows 以外でエラーになるみたいなので revert してかわ
+りに spec/rubyspec/library/win32ole/win32ole/ole_get_methods_spec.rb の
+platform_is :windows のブロック内で require するようにしています。

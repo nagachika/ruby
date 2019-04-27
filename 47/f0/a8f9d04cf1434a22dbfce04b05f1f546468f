@@ -1,0 +1,4 @@
+r51374 で fill_random_bytes_syscall() での syscall(SYS_getrandom, ...) の flags
+に GRND_NONBLOCK を渡すようにしていましたが、ここで GRND_NONBLOCK を渡しても
+EAGAIN がかえってきたら結局 /dev/urandom からの読み込みを行なう処理に fallback
+するため意味がないのでやめています。

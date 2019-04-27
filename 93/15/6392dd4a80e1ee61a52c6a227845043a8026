@@ -1,0 +1,2 @@
+socket, testunit, webrick, xmlrpc, zlib などのテストスクリプトの未使用のローカ
+ル変数を削除して警告除去しています。

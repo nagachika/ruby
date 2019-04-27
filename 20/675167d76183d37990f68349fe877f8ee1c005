@@ -1,0 +1,4 @@
+Enumerable#each_slice と Enumerable#each_cons で渡されたブロックのブロックパラ
+メータが2つ以上の時は内部で一時的に利用しているArrayオブジェクトを使いまわすよ
+うにして一時オブジェクトの生成を抑制するようにしています。 https://github.com/
+ruby/ruby/pull/596

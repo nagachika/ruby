@@ -1,0 +1,6 @@
+rb_fiber_t 構造体に持たせている rb_thread_t saved_thread を
+rb_execution_context_t saved_ec に変更しています。必要な情報はこれまでの移動で
+rb_execution_context_t に集約できたということみたいです。でも Thread のオブジェ
+クトへの参照自体は必要なので VALUE 型のメンバー thread_value を追加しています。
+あくまで退避しておくためのバッファなので全部コピーしておく必要はないってことで
+すね。

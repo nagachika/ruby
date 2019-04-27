@@ -1,0 +1,4 @@
+rb_print_undef() の引数 visi の型を int から rb_method_visibility_t に変更して
+います。また呼び出し部分でもマジックナンバーになっていた引数を定数マクロを利用
+するようにしています。 https://github.com/ruby/ruby/pull/1078 [ruby-core:71311]
+[misc #11649]

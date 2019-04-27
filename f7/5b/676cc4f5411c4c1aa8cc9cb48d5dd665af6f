@@ -1,0 +1,4 @@
+標準添付ライブラリ time で Time#apply_offset で Time#month_days が nil を返した
+時を考慮するように修正しています。また rdoc で Time.parse を呼び出しているとこ
+ろで、この古い挙動に対応したコードがあったのを修正しています。 https://
+github.com/ruby/ruby/pull/667

@@ -1,0 +1,2 @@
+bootstraptest/test_insns.rb に setblockparam、getblockparam、getblockparamproxy
+、checktype などの新しい命令についてのテストを追加しています。

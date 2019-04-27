@@ -1,0 +1,2 @@
+Dir オブジェクトも RGenGC の WB-protected なオブジェクトにしています。Dir はこ
+れまで違ったのか。

@@ -1,0 +1,2 @@
+FileUtils::DryRun のメソッドが実際には dryrun じゃなくて実際に操作してしまうの
+を変更。[Bug #4331] [ruby-dev:43129]

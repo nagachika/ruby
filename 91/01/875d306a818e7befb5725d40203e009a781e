@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の extconf.rb で macOS のシステムの OpenSSL が壊れている
+ので検出してリンクしないようにするのが openSUSE で誤検出してしまっていたような
+ので、チェックを darwin の時だけ実施するようにしています。 [ruby-core:79475]
+[Bug #13200]

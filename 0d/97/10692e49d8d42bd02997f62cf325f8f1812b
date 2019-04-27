@@ -1,0 +1,2 @@
+vm_insnhelper.c の unknown_keyword_error() 内で生成した String オブジェクトのバ
+ッファを rb_raise() に渡すので RB_GC_GUARD() で GC 避けを追加しています。

@@ -1,0 +1,1 @@
+test/ruby/test_gc.rb で未使用のローカル変数の警告除去。

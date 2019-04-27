@@ -1,0 +1,7 @@
+append_compile_error() で errinfo を current thread から取り出してたのを
+rb_iseq_t を渡してファイル名と errinfo はここから取り出すようにしています。また
+rb_compile_bug_str() は rb_report_bug_valist() と改名して可変長引数から va_list
+を受け取る関数に変更し、abort(3) はここでは呼ばず wrapper 関数の compile_bug()
+というのを追加してこちらで abort(3) を呼ぶようにしています。
+いろいろリファクタリングしてますが rb_errinfo() に依存しなくしたのが主眼点なの
+かなぁ。

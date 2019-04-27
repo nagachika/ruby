@@ -1,0 +1,2 @@
+compile.c の COMPILE_POPED() というマクロの名前を COMPILE_POPPED() と修正してい
+ます。 https://github.com/ruby/ruby/pull/1498

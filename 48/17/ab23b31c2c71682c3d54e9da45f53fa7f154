@@ -1,0 +1,2 @@
+.gdbinit を Incremental GC 導入に伴なう struct RBasic::flags の変更に追随させて
+います。

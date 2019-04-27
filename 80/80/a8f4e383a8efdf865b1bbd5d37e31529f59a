@@ -1,0 +1,4 @@
+compile.c の iseq_set_sequence() で異常な命令列に対してエラーを返すようにして
+(というかこれまでも 0 を返していたけど COMPILE_NG というマクロ定数を使うように
+した)、iseq_setup() でちゃんと iseq_set_sequence() のエラーチェックをするように
+しています。

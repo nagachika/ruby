@@ -1,0 +1,2 @@
+拡張ライブラリ socket の struct rb_ifaddr_tag の未使用のメンバー root を削除し
+ています。

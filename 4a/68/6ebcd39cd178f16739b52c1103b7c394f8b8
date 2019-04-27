@@ -1,0 +1,2 @@
+Array#permutation の実装で ALLOCV() でメモリ確保していたところを ALLOCV_N() を
+利用するようにしています。

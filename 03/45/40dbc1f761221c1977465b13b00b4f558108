@@ -1,0 +1,5 @@
+Thread.kill に Thread オブジェクト以外のものを渡すと SEGV するという不具合を修
+正するために、VALUE から rb_thread_t を取り出すために CoreDataFromValue() マク
+ロでなく TypedDataGetStruct() を利用するように変更しています。これは T_DATA タ
+イプのオブジェクトの型チェックつきで取り出すので Thread 以外のオブジェクトを渡
+すと例外を発生させてくれます。[ruby-core:35086] [Bug #4367]

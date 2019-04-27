@@ -1,0 +1,3 @@
+gc.c で GC のプロファイル情報の計算方法を修正しているみたいなのですが、また
+RGENGC_CHECK_MODE, RGENGC_PROFILE, GC_PROFILE_MORE_DETAIL, GC_ENABLE_LAZY_SWEEP
+のデフォルト値が変更されてしまっています。このため次で revert されています。

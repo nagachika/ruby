@@ -1,0 +1,1 @@
+ext/socket/raddrinfo.c のコンパイラ警告除去。Windows 環境の時?

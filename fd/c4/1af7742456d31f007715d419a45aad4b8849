@@ -1,0 +1,1 @@
+ruby.c に残っていた extern 宣言を internal.h に移動しています。

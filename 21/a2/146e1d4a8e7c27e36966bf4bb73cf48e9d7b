@@ -1,0 +1,6 @@
+r61559 で ruby_xmalloc のシンボルの一致でリンクされる libruby のバージョンの一
+致をチェックする処理を xmalloc_mismatch_p() という関数に切り出したものを
+USE_DLN_DLOPEN が定義されていて dlopen(3) が使える時だけ定義するように
+preprocessor の分岐を追加しています。 MAYBE_UNUSED() マクロつきで定義したのがな
+にか問題があったみたい? 実際に呼ばれているのは dlsym(3) ですが dlopen(3) が使え
+るなら dlsym() も使えるはずという仮定ですね。

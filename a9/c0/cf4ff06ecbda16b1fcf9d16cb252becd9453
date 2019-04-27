@@ -1,0 +1,4 @@
+flip-flop 用の struct rb_iseq_variable_body::flip_cnt の increment を行うマクロ
+ISEQ_FLIP_CNT_INCREMENT() を定義してこれを使うようにするリファクタリング。そし
+て構造体のメンバ名も struct rb_iseq_variable_body::flip_cnt_ に改名しているので
+すが(ry

@@ -1,0 +1,2 @@
+tool/transform_mjit_header.rb で Usage の出力などに自分の名前を $0 を参照するよ
+うにしています。

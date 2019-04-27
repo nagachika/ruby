@@ -1,0 +1,2 @@
+r37861 で ruby_atomic.h に ATOMIC_CAS() というマクロ定義を追加したのに Solaris
+版の実装を追加しています。

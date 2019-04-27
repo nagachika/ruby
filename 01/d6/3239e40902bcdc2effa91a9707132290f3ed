@@ -1,0 +1,2 @@
+テスト test/ruby/test_regexp.rb で警告抑制のために assertion メソッドの呼び出し
+の引数にかっこを追加しています。

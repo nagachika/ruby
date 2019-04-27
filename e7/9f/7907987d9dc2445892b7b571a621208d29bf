@@ -1,0 +1,3 @@
+同じく configure から fseeko(3), fseeko64(3), ftello(3), ftello6(3) のチェック
+を削除しています。また Windows 版の win32/win32.c での ftello() fseeko() の代替
+実装も削除しています。

@@ -1,0 +1,3 @@
+tool/ruby_vm/views/_mjit_compile_insn.erb と tool/ruby_vm/views/
+_mjit_compile_send.erb で生成する C のコードに警告除去のための明示的キャストを
+追加。

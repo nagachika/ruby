@@ -1,0 +1,4 @@
+BasicSocket#recvmsg や UNIXSocket#recv_io で UNIX Socket による file descriptor
+passing で file descriptor を受け取る時のために MSG_CMSG_CLOEXEC という定数が定
+義されていたら flags にセットするようにしています。これも Linux の 2.6.23 から
+有効になったフラグで、2.6.18 では定義はあっても単に無視されるそうです。

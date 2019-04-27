@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の BigMath#PI で精度が0以下の時の例外メッセージを修正
+しています。 https://github.com/ruby/ruby/pull/644

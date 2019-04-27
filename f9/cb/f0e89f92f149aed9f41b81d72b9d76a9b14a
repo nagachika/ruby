@@ -1,0 +1,5 @@
+time.c の get_timeval() および get_new_timeval() で TypeError を発生させる時に
+引数のオブジェクトのクラスを取得するのに CLASS_OF() マクロで取得していたのを
+rb_obj_class() を利用するように変更しています。 CLASS_OF() はより内部的に使われ
+るもので特異クラスがあるとそれを返してしまうので、Object#class の挙動(特異クラ
+スや IClass はスキップする)にあわせています。

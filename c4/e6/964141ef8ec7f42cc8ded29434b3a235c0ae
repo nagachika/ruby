@@ -1,0 +1,4 @@
+enc/unicode/case-folding.rb の CaseMapping#flags で titlecase 用のテーブルに既
+に同じ文字のエントリがないかチェックをして、同じ内容で別のインデックスを使って
+しまわないようにしています。またこれを使って enc/unicode/casefold.h も再生成し
+ています。

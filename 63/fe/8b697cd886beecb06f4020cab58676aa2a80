@@ -1,0 +1,2 @@
+Kernel#exit を実行した時に発生する SystemExit 例外の SystemExit.new の引数(終了
+ステータスとメッセージを受け取れる)のテスト追加と rdoc 追記。

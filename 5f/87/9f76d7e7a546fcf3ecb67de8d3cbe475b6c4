@@ -1,0 +1,2 @@
+r50009 で long_lived を uncollectible と改名した時の ObjectSpace.dump のテスト
+の追随漏れを修正。

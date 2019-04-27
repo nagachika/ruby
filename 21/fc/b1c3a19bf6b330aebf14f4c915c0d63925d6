@@ -1,0 +1,4 @@
+test/ruby/test_io.rb の test_readpartial_lock, test_read_lock において、別の
+Thread での IO#read や IO#readpartial の結果待ちのため 0 until s.size == 5 のよ
+うにループで待っているところを Thread.pass until s.size == 5 のように
+Thread.pass で明示的に別の Thread へ処理を空け渡すようにしています。

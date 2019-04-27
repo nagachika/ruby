@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle の sizeof のテストで long long の型のサイズを取得するテス
+トを追加しています。けどなかださんは Fiddle::SIZEOF_LONG_LONG が存在しない環境
+もあるのではないかというようなことをおっしゃってましたね。 https://github.com/
+ruby/ruby/pull/716

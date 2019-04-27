@@ -1,0 +1,3 @@
+IO#fcntl のテストが Mac OS X ShowLeopard でエラーになっていたので Tempfile.open
+を Tempfile.new にしているのですが、Tempfile.new がブロックを yield してくれな
+いのでテストがスキップされています。

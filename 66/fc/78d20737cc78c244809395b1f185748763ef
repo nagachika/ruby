@@ -1,0 +1,3 @@
+date_core.c で一日の nano second を表現する数値が接尾語 LL を持つリテラルで定義
+されていましたが、long long は常に利用可能ではないので HAVE_LONG_LONG で条件コ
+ンパイルして必要なら Bignum を利用するようにしています。

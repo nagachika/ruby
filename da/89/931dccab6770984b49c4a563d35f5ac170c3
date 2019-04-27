@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::Functions.concat の実装で各要素を
+REXML::Functions.string を使って文字列化するように修正しています。

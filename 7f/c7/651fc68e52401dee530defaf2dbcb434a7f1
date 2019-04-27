@@ -1,0 +1,2 @@
+標準添付ライブラリ base64 の Base64.urlsafe_encode64 の rdoc コメントの markup
+の修正。 https://github.com/ruby/ruby/pull/905

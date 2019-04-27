@@ -1,0 +1,3 @@
+iseq の TypedData としても memsize 関数を引数が const rb_iseq_t* な関数として定
+義して、rb_data_type_t の memsize メンバとしては引数が void * な wrapper 関数を
+定義してそっちを渡すようにリファクタリングしています。

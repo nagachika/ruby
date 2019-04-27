@@ -1,0 +1,3 @@
+rb_file_flock(File#flock) が block する処理のあいだのGVL解放に
+rb_thread_io_blocking_region を使うようにしています。つまり block 中に他の
+Thread でファイルが close されると例外が発生して抜けてくるようにしています。

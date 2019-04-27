@@ -1,0 +1,4 @@
+r48903 の続き。拡張ライブラリ fiddle の extconf.rb でバンドルされた libffi のビ
+ルド時のメッセージをログに記録するようにしたり、ファイルセパレータを
+RbConfig::CONFIG["BUILD_FILE_SEPARATOR"] から取得するようにしたり(Windows 対応)
+しています。

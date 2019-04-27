@@ -1,0 +1,3 @@
+RSTRUCT_LEN() というマクロが rb_struct_size() に展開されていたのを NUM2LONG()
+を挟むようにしています。VALUE で Integer を返していたみたいですね。ひえー。
+[ruby-core:80692] [Bug #13439]

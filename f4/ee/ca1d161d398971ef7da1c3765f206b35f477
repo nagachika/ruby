@@ -1,0 +1,2 @@
+ZLib::Inflate.new の rdoc コメントのサンプルの文法エラー修正。 https://
+github.com/ruby/ruby/pull/271

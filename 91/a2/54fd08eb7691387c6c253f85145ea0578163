@@ -1,0 +1,2 @@
+bootstraptest/runner.rb で make btest の標準エラー出力への出力を抑制して内部で
+読み取るようにしています。

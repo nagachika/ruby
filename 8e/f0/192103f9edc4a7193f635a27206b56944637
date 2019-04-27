@@ -1,0 +1,3 @@
+IO#copy_stream で rb_io_ascii8bit_binmode() を呼んでバイナリモードにしたうえで
+エンコーディングを ASCII-8BIT で出力(転送)するようにしています。
+[ruby-core:56556] [ruby-core:56518] [Bug #8767]

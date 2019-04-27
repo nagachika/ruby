@@ -1,0 +1,2 @@
+eval_error.c と safe.c でいずれも rb_frame_callee() を2回呼んでいるのを結果を変
+数に格納して使いまわすようにしています。

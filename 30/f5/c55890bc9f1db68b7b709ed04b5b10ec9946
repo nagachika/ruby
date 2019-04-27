@@ -1,0 +1,4 @@
+struct parser_params に bit field で do_print, do_loop, do_chomp, do_split など
+のフラグを追加して、コマンドラインオプションの -a とか -b とかで特殊な parse を
+する時のフラグはこれを利用するようにしています。うーんこんな大変なことをしてい
+たのか。

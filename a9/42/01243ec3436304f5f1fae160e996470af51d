@@ -1,0 +1,2 @@
+system の crypt(3) も crypt_r(3) もない時に missing/crypt.c の代替実装を使う時
+に crypt_r() のほうを使うようにしています。

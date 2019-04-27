@@ -1,0 +1,2 @@
+標準添付ライブラリ resolv の Resolv::LOC::Coord.create に文字列の引数を渡す時の
+実装に複数の不具合があったのを修正しています。 [ruby-core:72567] [Bug #11912]

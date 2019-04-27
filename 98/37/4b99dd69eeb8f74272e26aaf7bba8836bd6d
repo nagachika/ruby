@@ -1,0 +1,2 @@
+標準添付ライブラリ mathn.rb の Math.rsqrt に rdoc 用の :nodoc: タグのコメントを
+追加しています。

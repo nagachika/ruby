@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の rdoc コメントで参照している CGI の仕様の URL がリ
+ンク切れになっていたので RFC 3875 のリンクをかわりに書いています。 https://
+github.com/ruby/ruby/pull/466

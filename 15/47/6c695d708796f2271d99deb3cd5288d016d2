@@ -1,0 +1,9 @@
+拡張ライブラリ fiddle で Fiddle::Function#call で外部ライブラリの関数を呼び出す
+時に GVL を解放してから呼び出すようにしています。長時間ブロックする関数を呼ぶ時
+に別の Thread が実行できるようにしています。また callback 関数の呼び出し時に
+GVL を再取得する時に判定するため internal.h に ruby_thread_has_gvl_p() を移動し
+て、fiddle のビルド時に internal.h を #include するようにしています。
+Fiddle::Function の呼び出しのオーバヘッドは増えるので頻繁な呼び出しでは遅くなっ
+てしまいますね。しかし ubf がないので Thread#kill 時などに割り込みがきかないの
+で終わるまで待つことになりますね。もちろん全体がブロックするよりは良いのですが
+。 [ruby-core:71642] [Feature #11607]

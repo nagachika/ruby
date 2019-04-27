@@ -1,0 +1,4 @@
+r62272 で thread.c や thread_pthread.c などで利用している時間の表現を struct
+timeval から struct timespec に変更しましたが、tv_usec と tv_nsec の型の違いの
+ため明示的なキャストを追加しています。また一部の条件でのみ利用される変数の宣言
+をその条件のブロック内に移動して警告除去しています。

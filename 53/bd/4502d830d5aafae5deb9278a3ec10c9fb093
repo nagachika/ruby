@@ -1,0 +1,4 @@
+rb_obj_call_init() と rb_class_new_instance() の引数 VALUE* に const 修飾子を付
+加しています。宣言と定義部分を変更しているだけで RGenGC 用のマクロの変更とかは
+ないので一般的に変更しないものには const をつけておいたほうがいいよねっていう変
+更かと思います。

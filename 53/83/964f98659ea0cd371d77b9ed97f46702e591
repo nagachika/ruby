@@ -1,0 +1,2 @@
+test/unit.rb さらに修正。Interrupted で抜けてきた時には Kernel#abort を呼んでプ
+ロセスを強制終了するように。

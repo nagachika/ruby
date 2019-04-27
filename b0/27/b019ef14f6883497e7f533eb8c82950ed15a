@@ -1,0 +1,4 @@
+complex.c でも r56762 と同様に RB_TYPE_P() のかわりにタイプ毎の RB_XXX_P() マク
+ロを使うようにしたり、FIXNUM_ZERO_P() や FIXNUM_NEGATIVE_P() を使うようにするリ
+ファクタリングを行なって、不要になった k_fixnum_p() と k_bignum_p() の定義を削
+除しています。

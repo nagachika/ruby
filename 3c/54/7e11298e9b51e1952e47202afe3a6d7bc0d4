@@ -1,0 +1,2 @@
+r58334 で追加した TracePoint で監視中の stack overflow のテストのタイムアウトを
+60秒に伸ばしています。

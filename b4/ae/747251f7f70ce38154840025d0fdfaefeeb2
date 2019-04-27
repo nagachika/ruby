@@ -1,0 +1,2 @@
+gc.c の gc_verify_internal_consistency() で異常終了時のメッセージの typo 修正。
+[ruby-core:82638] [Bug #13862]

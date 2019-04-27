@@ -1,0 +1,3 @@
+Math.cbrt のテストに Math.cbrt(1.0/0) が Float::INFINITY を返すことをチェックす
+る assertion を追加しています。 gogotanaka さんは matrix や math にパッチを投げ
+てた方です。コミッタになられてたんですね。

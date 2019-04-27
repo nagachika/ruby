@@ -1,0 +1,8 @@
+mkmf.rb の MakeMakefile という Module で extended フックメソッドと initialize
+の再定義をして extend された時も include された時も init_mkmf を呼ぶようにして
+います。さらに @libdir_basename というインスタンス変数を直接参照するのをやめ
+_libdir_basename というメソッドでアクセスして未定義だったらその時点で config を
+参照して作るようにしています。いずれも --with-xxx-dir を使った時の不具合修正だ
+と思います。前者だけじゃ足りなかったんでしょうか。 [ruby-core:53307] [Bug #
+8074]
+[追記]トップレベルで include した時の対処のために必要だったそうです。[/追記]

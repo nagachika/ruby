@@ -1,0 +1,3 @@
+r63692 のさらに続きで rubyspec の TypedData_Wrap_Struct() のテストで klass=0 の
+ものを使ってた部分削って r63687 での PUSH() での VM_ASSERT() を復活させています
+。

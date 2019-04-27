@@ -1,0 +1,2 @@
+r62332 の AIX の CI 対策の tool/transform_mjit_header.rb の修正で変数名 typo し
+ていたのを修正しています。

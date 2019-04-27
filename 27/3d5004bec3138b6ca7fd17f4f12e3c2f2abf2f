@@ -1,0 +1,2 @@
+標準添付ライブラリ shellwords の Shellwords.shellsplit の rdoc 用コメントにクオ
+ート文字以外の shell のメタキャラクタは認識しないことを追記しています。

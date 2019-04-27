@@ -1,0 +1,4 @@
+Dir.exist? の実装である rb_file_directory_p() は file.c にあるのですが、rdoc 用
+のコメントが関数の前でなくて File.directory? の関数の前に一緒になっていたのを
+dir.c にダミーの関数定義を #if 0 で括って置いてその前に置くことで rdoc を騙すよ
+うにしています。 [ruby-core:45685]

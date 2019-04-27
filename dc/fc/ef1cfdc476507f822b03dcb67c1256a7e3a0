@@ -1,0 +1,3 @@
+標準添付ライブラリ set の Set#replace で self を変更する前に do_with_enum を呼
+んで Enumerable であるかどうか(正確には each/each_pair が呼べるか)をチェックす
+るようにしています。

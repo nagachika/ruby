@@ -1,0 +1,2 @@
+r63534 の続き。 RubyVM::AST::Node.new のメソッドは undef して ruby レベルで
+node を作れないようにしています。

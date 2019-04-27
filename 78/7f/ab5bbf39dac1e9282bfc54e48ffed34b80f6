@@ -1,0 +1,4 @@
+拡張ライブラリ zlib の Zlib::GzipReader#readpartial に読み込みに使うバッファの
+文字列オブジェクトを渡した時に、それを内部の read 系の関数群 rb_read_xxx() にも
+伝播させてそこに格納することで一時的な文字列オブジェクトの生成を抑制する最適化
+。 [ruby-core:84660] [Feature #14319]

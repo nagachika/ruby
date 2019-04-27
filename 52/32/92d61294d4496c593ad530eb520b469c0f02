@@ -1,0 +1,2 @@
+拡張ライブラリ io/console で追加される IO#raw や IO#getch のオプションの vmin/
+vtime の構造体メンバ初期化漏れを修正しています。

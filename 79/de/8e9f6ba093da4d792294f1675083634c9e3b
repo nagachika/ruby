@@ -1,0 +1,3 @@
+tool/downloader.rb のキャッシュファイルの判定を変更しているのですが、うーん条件
+が複雑でよくわからない。とりあえず `return unless cache or cache.eql?(file)` の
+部分はなんかおかしいような気がするんですが。

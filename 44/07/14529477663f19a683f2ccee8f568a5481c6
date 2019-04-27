@@ -1,0 +1,2 @@
+test/ruby/test_require.rb で $LOAD_PATH を IO::NULL のみ含む配列にセットして余
+分なファイルの require がされないようにしています。

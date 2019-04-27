@@ -1,0 +1,7 @@
+r64107 の ubf_select() という IO の block をする時の割り込み用関数の不具合修正
+。 thread に SIGVTALRM で割り込みをかける前に rb_vm_t::gvl::timer に timer
+thread の役割を果たす thread がいない状態だったら GVL 待ちの thread を1つ起こし
+て timer thread 候補にさせるようにしています。 ubf_wakeup_thread() は thread が
+ブロックしてるシステムコールから確実にかえってくるとはかぎらないので繰り返し起
+こすためとのこと。この参照されてるチケット自分のものだった。 [ruby-core:88088]
+[Misc #14937] [Bug #5343]

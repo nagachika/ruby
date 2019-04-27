@@ -1,0 +1,2 @@
+DJGPP(msdosdjgpp) も既にサポートされていないので configure.in のチェックを削除
+しています。

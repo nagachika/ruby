@@ -1,0 +1,5 @@
+RGenGC のチェック用の関数の位置を移動しているようです。また gc_marks_check() で
+checker_func が NULL の時に対応するようにしています。あと
+gc_verify_internal_consistency() で RGENGC_CHECK_MODE が 4以上の時にチェックで
+不整合がみつかったら rb_bug() で強制終了する前にオブジェクトの参照情報を全てダ
+ンプするようにしています。

@@ -1,0 +1,3 @@
+BigDecimal#to_f で 0.0 や Inf の符号を、変換した double の値から取得するのでは
+なくて BigDecimal で持っている符号を引き継ぐようにしています。
+[ruby-core:47381] [Bug #6955]

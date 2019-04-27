@@ -1,0 +1,2 @@
+r67118、r67119 の続きで Errno::ENOSYS は単に無視して Errno::EPERM の時は skipす
+るようにしています。

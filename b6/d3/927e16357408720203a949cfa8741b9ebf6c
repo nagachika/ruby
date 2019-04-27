@@ -1,0 +1,4 @@
+r59983 で追加した rb_check_realpath() を利用して require などで load path のリ
+ストを symbolic link を解決した後のディレクトリ名にしておくようにして、symbolic
+link による別名経由で同じファイルが二重に load されないようにしています。
+[ruby-core:64928] [Feature #10222]

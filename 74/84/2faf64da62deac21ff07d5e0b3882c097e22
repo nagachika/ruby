@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils で Windows では File.rename がファイルを上書きでき
+ないものとして FileUtils.rename_cannot_overwrite_file が定義されていたのですが
+、上書き可能に変更しています。

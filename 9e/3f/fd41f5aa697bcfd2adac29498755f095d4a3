@@ -1,0 +1,2 @@
+common.mk に BENCH_RUBY という変数を追加して make benchmark でベンチマーク実行
+に使う? ruby のコマンドの位置を指定できるようにしています。

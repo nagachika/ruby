@@ -1,0 +1,3 @@
+common.mk の BOOTSTRAPRUBY という変数を $(BASERUBY) で定義していたのを、
+configure でクロスコンパイル時には $(MINIRUBY) にするように判定を導入しています
+。

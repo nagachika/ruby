@@ -1,0 +1,2 @@
+rb_search_method_entry() から klass=0 の時の例外をオブジェクトの型に応じて発生
+させている処理を uncallable_object() という関数に切り出しています。

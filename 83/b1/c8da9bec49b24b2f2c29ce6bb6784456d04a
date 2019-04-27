@@ -1,0 +1,4 @@
+r40760 の警告除去を一部 revert しています。変数の宣言に volatile を付けただけな
+のですが test/ruby/test_thread.rb の TestThread#test_stack_size のテストがタイ
+ムアウトするようになってしまったからだそうです。マシンスタックの消費量が増える
+からですかね。

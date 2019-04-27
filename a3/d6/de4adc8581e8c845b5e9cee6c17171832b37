@@ -1,0 +1,2 @@
+拡張ライブラリ stringio の StringIO#sysread のテストを追加しています。 https://
+github.com/ruby/ruby/pull/966

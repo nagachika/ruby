@@ -1,0 +1,4 @@
+GC の理由を表現するフラグを整理して GPR_FLAG_MAJOR_BY_RESCAN と
+GPR_FLAG_MAJOR_BY_STRESS は削除、かわりに GPR_FLAG_MAJOR_BY_FORCE を追加してい
+ます。 GC.stress による GC は GPR_FLAG_MAJOR_BY_FORCE を使うようにしています。
+GC.latest_gc_info で取得できる情報のキーも変化しています。

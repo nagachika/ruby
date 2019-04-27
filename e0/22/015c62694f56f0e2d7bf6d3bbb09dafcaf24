@@ -1,0 +1,5 @@
+同じく拡張ライブラリ stringio で戻り値の文字列オブジェクトの encoding に
+Encoding.default_external を反映させるようにする修正。今度は StringIO#gets で
+chomp キーワード引数で空文字列になった時の挙動の修正みたいですが、strio_substr
+() の引数に encoding を追加して他でも encoding 意識した処理になるようにしている
+ようです。

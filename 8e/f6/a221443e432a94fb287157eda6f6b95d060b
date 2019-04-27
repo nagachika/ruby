@@ -1,0 +1,3 @@
+ext/socket/mkconstants.rb で socket 関連の C の定数を Ruby の定数として定義する
+ためのコード生成をしているところで、定数の rdoc コメントを一緒に出力するように
+しています。 [ruby-core:37853] [Bug #4989]

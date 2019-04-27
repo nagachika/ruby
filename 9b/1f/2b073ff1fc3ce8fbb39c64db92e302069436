@@ -1,0 +1,3 @@
+rest keyword 引数(**kw のようにして Hash で任意のキーワード引数を受け取るやつ)
+の AST の構築で参照する子ノードを変更というか統一? しています。 https://
+github.com/ruby/ruby/pull/1529

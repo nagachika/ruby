@@ -1,0 +1,3 @@
+test/ruby/test_time.rb の Time#strftime のメモリリークについてのテストで別
+Thread が動いてると正しく判定できないので Thread.list をみて他の Thread があっ
+たら skip するようにしています。

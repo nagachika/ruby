@@ -1,0 +1,8 @@
+複数のスレッドからの require を 1つの Thread のみで処理するための rb_barrier_t
+の処理待ち Thread 数を struct RBasic の flags の空き部分(20bit)に埋め込むように
+して、 rb_mutex_t の cond_waiting を利用するのはやめています。cond_waiting はイ
+ンクリメントされる前に GVL が解放されるため、これを見て判断しようとすると race
+condition が発生するようです。このため rb_barrier_t 自体に待っている Thread 数
+を格納して rb_mutex_lock()前後で increment/decrement するようにしています。
+flags の操作は atomic ではありませんがこの部分は GVL を確保した状態で行われるの
+で大丈夫なはず。 [ruby-dev:45002] [Bug #5768]

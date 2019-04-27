@@ -1,0 +1,2 @@
+Monitor, File, Process などの組込みクラスのテストでも起動した Thread の終了を待
+つようにしています。

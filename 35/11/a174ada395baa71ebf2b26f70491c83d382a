@@ -1,0 +1,7 @@
+FreeBSD および DragonflyBSD で DLDFLAGS に %(.TARGET) を利用していたところを $@
+に置き換えています。 $(.TARGET) って知らなかったのですが要するに $@ と同様ルー
+ルの生成先に展開される変数みたいで、GNU make ではサポートされていないので
+FreeBSD などで GNU make を使った時にビルドできない不具合を修正しているようです
+。 FreeBSD10 で ruby-build (rbenv のためのビルドツール)が GNU make をデフォルト
+で利用するようにしたために発生していたみたいです。 https://github.com/
+sstephenson/ruby-build/issues/496

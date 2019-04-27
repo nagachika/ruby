@@ -1,0 +1,4 @@
+ruby_current_vm()、ruby_current_thread()、ruby_current_execution_context()、
+ruby_vm_check_ints()、ruby_exec_event_hook_orig() などの関数を rb_current_vm()
+、rb_current_thread()、rb_current_execution_context() のように rb_ を prefix に
+変更しています。

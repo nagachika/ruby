@@ -1,0 +1,2 @@
+r66135 で追加した node_extended_grapheme_cluster() の変数 seq/alts の宣言をロー
+カル変数宣言の最後に移動しています。

@@ -1,0 +1,2 @@
+eval.c の ruby_options() 関数のコメントの不要な空白除去。 [ruby-dev:48026] [Bug
+#9615]

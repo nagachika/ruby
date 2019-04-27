@@ -1,0 +1,2 @@
+FreeBSD の i386/x86_64 の環境でも ucontext_t::uc_mcontext を使ったスタックオー
+バフローの検出処理を有効にしています。

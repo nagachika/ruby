@@ -1,0 +1,18 @@
+Test::Unit::Assertions#assert の省略可能引数には省略されたことを検出するために
+こんなトリッキーなことをしていました。
+  def (test, msg = (nomsg = true; nil))
+   ...
+これは第2引数が省略されたら nil で初期化されるのですが、その時 nomsg = true も
+評価されるのでローカル変数 nomsg に引数が省略されたかどうかが入るわけですね。
+それをこんなふうに変更しています。
+  UNASSIGNED = Object.new
+  def assert(test, msg = UNASSIGNED)
+    msg = nil if msg == UNASSIGNED
+UNASSINGED には Object のインスタンスを格納しているので……あれ、これちょっと変
+ですね。元のコードは msg に nil が明示的に引数に渡されたのと、省略されたのを区
+別したくてああしていたのに区別されていませんよ。と思ったら引き続きこのコミット
+の再修正が入ってました。
+あと、UNASSINED に Object のインスタンスを入れているのは、確実にこの値と一致す
+る時だけを検出したいからなので msg == UNASSIGNED ではなくて UNASSIGNED == msg
+にしないといけませんよね。レシーバによっては真になってしまうかもしれませんから
+。

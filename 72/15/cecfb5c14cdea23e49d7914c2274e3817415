@@ -1,0 +1,2 @@
+String#-@, String#hash, String#ord, String#start_with? などの rdoc 用コメントの
+文法修正。

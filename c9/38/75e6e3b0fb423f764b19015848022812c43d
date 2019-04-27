@@ -1,0 +1,2 @@
+同じく parse.y で代入文のルールで node_assign() というマクロが既に共通化されて
+たので parser と ripper の分岐をやめています。

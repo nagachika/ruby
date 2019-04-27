@@ -1,0 +1,4 @@
+encoding.c から localeinit.c と miniinit.c という新規ソースファイルに初期化関数
+と rb_locale_charmap() を切り出しています。NO_LOCALE_CHARMAP というマクロを使っ
+て miniruby と通常の ruby で locale のエンコーディングの設定を換えるようにして
+いたのをファイル自体を分けるようにしているようです。

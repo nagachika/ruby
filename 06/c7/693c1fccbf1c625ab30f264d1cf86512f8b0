@@ -1,0 +1,2 @@
+標準添付ライブラリ drb の DRb::DRbserver#main_loop の終了時に loop を抜けないケ
+ースがあったのを修正しています。

@@ -1,0 +1,4 @@
+r67583 と同様に gc_mark_children() でも super の mark を classext の NULL チェ
+ックの前にしています。これって r67576 の前からですよね。ということは元からバグ
+があったのか r67576 で classext が NULL でかつ super があるという T_MODULE/
+T_CLASS が存在するようになったのか……(たぶん前者)。

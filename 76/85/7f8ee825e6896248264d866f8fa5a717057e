@@ -1,0 +1,3 @@
+Dir.glob の実装 glob_helper() で #ifndef DT_UNKNOWN の分岐を if の条件部の中に
+して、不要な lstat(2) の呼び出しを避けるようにしています。条件部が #if で分岐す
+るのちょっと気持ちわるいですけどね。

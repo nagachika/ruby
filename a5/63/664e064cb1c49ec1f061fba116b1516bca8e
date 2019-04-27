@@ -1,0 +1,2 @@
+Enumerator#peek の rdoc 用コメントのサンプルで、終端まで達した後の peek の挙動
+を示すようにサンプルを修正しています。 [ruby-core:62462] [Bug #9814]

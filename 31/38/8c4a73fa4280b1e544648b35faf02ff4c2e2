@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL 1.1.0 対応の一部。変数や引数の一部に const 修
+飾子を追加しています。 [ruby-core:75225] [Feature #12324]

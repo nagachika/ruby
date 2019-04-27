@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の BigDecimal#* で nil とのかけ算をした時のテストケー
+ス(TypeError が発生する)を追加しています。

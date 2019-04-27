@@ -1,0 +1,3 @@
+標準添付ライブラリ rss の rss/xmlparser.rb が XML::Parser::Error を定義している
+ところで rdoc の :nodoc: タグを追加してドキュメント化から除外しています。
+[ruby-core:56708] [Bug #8799]

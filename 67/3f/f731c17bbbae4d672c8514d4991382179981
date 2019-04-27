@@ -1,0 +1,3 @@
+Float#* を実装している flo_mul() や Rational#* を実装している関数 nurat_mul()
+をそれぞれ rb_float_mul()、rb_rational_mul() と改名して static 宣言をはずして、
+complex.c の f_mul() から直接呼び出すようにする最適化。

@@ -1,0 +1,4 @@
+include/ruby/ruby.h の struct RBasic::flags のビットフラグの定数に
+RUBY_FL_PROMOTED0 と RUBY_FL_PROMOTED1 の mask RUBY_FL_PROMOTED を追加(復活?)し
+ています。 .gdbinit のためと書かれていて、.gdbinit で定義している rp で利用して
+たみたいですね。

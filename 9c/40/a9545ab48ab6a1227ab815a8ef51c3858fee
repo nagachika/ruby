@@ -1,0 +1,3 @@
+r65553 の rb_wait_for_single_fd() で struct pollfd::revents をクリアするのを削
+ってましたが ppoll(2) を呼ばないパスもあるため未初期化のまま触る可能性があると
+いうことで revert しています。 Coverity Scan が発見したとのこと。

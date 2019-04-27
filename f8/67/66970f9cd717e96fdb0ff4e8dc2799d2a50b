@@ -1,0 +1,2 @@
+require "unicode_normalize" するために追加されていた enc/prelude.rb も削除して
+います。

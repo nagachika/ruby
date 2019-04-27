@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb で rdoc の同期の時に実行コマンドのファイルを libexec/
+にコピーするようにしています。これも bundler の添付に伴なうものかな。

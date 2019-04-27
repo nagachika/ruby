@@ -1,0 +1,3 @@
+ファイルシステムを識別するためのテスト用拡張ライブラリ ext/-test-/file/fs.c で
+statvfs(3) を利用するために sys/statvfs.h が存在していたら #include しておくよ
+うにしています。 AIX 向けかな?

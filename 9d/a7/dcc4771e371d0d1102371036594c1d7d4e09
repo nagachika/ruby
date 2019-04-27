@@ -1,0 +1,2 @@
+Struct の高速化のための ISeq 生成の関数 rb_method_for_self_aref() と
+rb_method_for_self_aset() にコメントを付加しています。

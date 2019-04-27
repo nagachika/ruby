@@ -1,0 +1,3 @@
+common.mk でヘッダなどの依存関係を自動的に生成するようにしたので不要になった
+CCAN_LIST_INCLUDES、ENCODING_H_INCLUDES、PROBES_H_INCLUDES、VM_CORE_H_INCLUDES
+などの変数を削除しています。

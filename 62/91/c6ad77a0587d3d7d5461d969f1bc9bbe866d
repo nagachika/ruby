@@ -1,0 +1,5 @@
+Symbol から Proc を作るための sym_proc_t を使ってオブジェクトを作る関数
+sym_proc_new() を追加して、r52134 で rb_sym_to_proc() に追加した処理を切り出し
+て、さらにその時の block.iseq には Symbol の VALUE の値をそのまま入れておくよう
+にしています。このため Proc の処理で ifunc かどうかで分岐していたところは
+Symbol かどうかで分岐するようにしています。結構影響範囲のでかい変更ですね。

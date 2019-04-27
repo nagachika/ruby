@@ -1,0 +1,8 @@
+拡張ライブラリ psych に Psych.safe_load という任意のオブジェクトを load しない
+安全な(信頼できない文字列を渡せる) loader メソッドを追加しています。デフォルト
+では JSON のように真偽値、nil, 数値、文字列、配列、Hash などのみをロードできる
+ようになっているようですが、Psych.safe_load の第2引数の whitelist_classes に
+Class の配列を渡すと、そのクラスのオブジェクトはロードできるようになるようです
+。
+しかしこの変更で Psych::Visitors::YAMLTree#initialize の引数が省略不可能になっ
+てしまって rdoc のテストが大量に失敗しています。

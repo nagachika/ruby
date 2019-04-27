@@ -1,0 +1,2 @@
+r53850 で freeze された文字列の String#initialize の挙動の変更を修正するため
+freeze チェックを追加しています。

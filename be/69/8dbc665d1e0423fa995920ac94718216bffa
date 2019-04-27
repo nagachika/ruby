@@ -1,0 +1,3 @@
+array.c の Array クラスの rdoc コメントで Array#reverse_each を使ったサンプルコ
+ードの結果が間違っていたのを修正しています。ついでに利用しているサンプルデータ
+もわかりやすいものに変更。 https://github.com/documenting-ruby/ruby/pull/12

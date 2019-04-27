@@ -1,0 +1,2 @@
+更に RubyGems の更新(master ブランチの 0886307)。rdoc ドキュメントと :nodoc: タ
+グの追加です。これで 75% の rdoc coverage になるそうです。

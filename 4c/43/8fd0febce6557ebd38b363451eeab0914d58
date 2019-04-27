@@ -1,0 +1,3 @@
+lib/test/unit/parallel.rb で Test::Unit::TestCase#on_parallel_worker? メソッド
+を再定義するのは $0 == __FILE__ の時だけになるようにしています。ついでに
+Test::Unit::Worker.new.run するのもこの中にくくっています。

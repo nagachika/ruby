@@ -1,0 +1,2 @@
+r43645 で追加された TracePoint の :a_call と :a_return イベントのテストケースを
+追加しています。 [ruby-core:58395] [Feature #9120]

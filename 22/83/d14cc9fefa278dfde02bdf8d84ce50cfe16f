@@ -1,0 +1,7 @@
+拡張ライブラリ rubyvm というのを導入しているのですが、C のソースがない…。こう
+いうことができたんですね。かわりに ruby のライブラリ ext/rubyvm/lib/forwardable
+/impl.rb が追加されています。
+標準添付ライブラリ forwardable から RubyVM::InstructionSequence を利用している
+部分を切り出して実装依存の部分は ext の下に追い出したということみたいです。
+JRuby などの別実装と lib/forwardable.rb を共通化するためでしょうか。
+[ruby-core:78138] [Bug #12938]

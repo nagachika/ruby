@@ -1,0 +1,2 @@
+class.c, struct.c, vm_method.c で method.h を不要に #include していたのを削除し
+ています。

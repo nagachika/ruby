@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http のテストが openssl のテストのユーティリティクラスに
+依存していたのですが openssl は upstream があるので証明書の fixture など net/
+http 用に別に持つようにして依存関係を解消しています。

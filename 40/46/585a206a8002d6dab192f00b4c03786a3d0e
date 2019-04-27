@@ -1,0 +1,2 @@
+test/objspace/test_objspace.rb での警告除去。はて、ここはどうして数値のリテラル
+だと警告が出てたんでしょう。

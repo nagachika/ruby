@@ -1,0 +1,3 @@
+REXML::Document#write の rdoc に encoding オプションについて追記しています。ま
+たエンコーディングの変換に常に xml タグで定義してあるエンコーディングを用いるよ
+うにしています。 [Feature #4872]

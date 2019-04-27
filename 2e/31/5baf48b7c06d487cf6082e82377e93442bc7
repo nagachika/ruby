@@ -1,0 +1,3 @@
+Thread.report_on_exception がデフォルトで true になったのにあわせて、メインスレ
+ッドの Thread 毎の report_on_exception フラグも true にしておくようにしています
+。 [ruby-core:84227] [Feature #14143]

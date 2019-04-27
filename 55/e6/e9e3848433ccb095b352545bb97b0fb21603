@@ -1,0 +1,5 @@
+gc_clear_mark_on_sweep_slots() で GC の mark 用の bitmap をクリアするだけでなく
+解放処理までする slot_sweep() を呼んでしまうようにしています。
+[ruby-core:42672] での Nokogiri での不正な解放の対策として入れられたようですが
+、これは後に revert されています。こうすると LazySweep ではなくなってしまうって
+ことですよね。

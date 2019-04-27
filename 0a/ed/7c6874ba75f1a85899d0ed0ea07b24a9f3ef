@@ -1,0 +1,4 @@
+Exception#backtrace_locations というメソッドを追加しています。これは backtrace
+と同様に例外発生位置を返しますが、文字列ではなく Thread::Backtrace::Location オ
+ブジェクトで各フレームの情報を表現するものです。 [ruby-core:57430] [Feature #
+8960]

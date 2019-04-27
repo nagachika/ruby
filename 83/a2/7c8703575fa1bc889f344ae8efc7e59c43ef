@@ -1,0 +1,4 @@
+EnvUtil.assert_in_out_err で子プロセスがシグナルを受信して終了した時に
+EnvUtil.diagnostic_reports を呼び出す前に sleep 0.1 していたのを削っています。
+EnvUtil.diagnostic_reports の中でループして3秒までレポートファイルが出力される
+のを待っているのでここで sleep する必要はなかったようです。

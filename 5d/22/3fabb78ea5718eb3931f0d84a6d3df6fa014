@@ -1,0 +1,2 @@
+mkmf.rb の try_constant で long や long long の範囲の定数も返せるように変数や
+printf() のフォーマットの修飾子を対応しています。

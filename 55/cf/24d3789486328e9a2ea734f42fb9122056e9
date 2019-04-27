@@ -1,0 +1,3 @@
+r36640 の一部を revert しています。 Thread のブロック内からの super がエラーに
+なる不具合のため。そのかわり特異メソッド内からの super が NotImplementedError
+になるようになっています。 [ruby-core:47284] [Bug #6907]

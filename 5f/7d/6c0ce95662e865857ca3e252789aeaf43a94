@@ -1,0 +1,5 @@
+r52907 で r52839 の configure の条件を修正したのを revert しています。あれ、そ
+うなのかな…と思ってみてみると RUBY_FUNC_ATTRIBUTE() は RUBY_DECL_ATTRIBUTE()
+を使ってて、この定義が結構むずいのですが、attribute なしの時は x になりそうなの
+で、そうなのかも。 x"$var" = "x" という shell script のイディオムがあるのでそれ
+と混同してしまいました。

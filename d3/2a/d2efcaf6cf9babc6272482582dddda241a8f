@@ -1,0 +1,4 @@
+r45653 の修正で xrealloc() の後の GC を GC.stress によるものだけ起動するように
+して、malloc_increase の圧力によるものはこれまでどおり malloc()/calloc() の後だ
+け実行するようにしています。ただ GC.stress 時に 2回 garbage_collect_with_gvl()
+が呼ばれる可能性があるのがちょっと気になります。 [ruby-dev:48117]

@@ -1,0 +1,2 @@
+r38236 で rb_method_entry_arity() の switch 文のブロックの範囲がずれていたのを
+修正しています。

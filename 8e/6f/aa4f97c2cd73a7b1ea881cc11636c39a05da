@@ -1,0 +1,3 @@
+r46014 で Windows 版でも Etc.uname が利用できるようになったので dbm のテストで
+cygwin 版の時に Win32API を使って uname を呼んでシステムの情報を取得していたと
+ころを Etc.uname で書きかえています。

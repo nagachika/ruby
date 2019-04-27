@@ -1,0 +1,6 @@
+標準添付ライブラリ uri で file schema 用の URI::File というクラスが導入されてい
+ます。チケットのほうをみると "file:///..." の時のコロンのあとのスラッシュの数が
+URI#to_s で正規化されて 1つになってしまうという file schema で慣習的に(?)通常と
+異なる扱いを再現させるようにしているみたいです。 https://github.com/ruby/ruby/
+pull/1719 https://github.com/ruby/ruby/pull/1832 [ruby-core:83423] [Feature #
+14035]

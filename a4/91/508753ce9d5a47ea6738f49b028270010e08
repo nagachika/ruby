@@ -1,0 +1,5 @@
+VM の命令 concatstrings を rb_str_concat_literals() という関数に切り出し
+rb_str_append_literal() をおきかえるリファクタリング。 rb_str_buf_append() の呼
+び出しも rb_enc_cr_str_buf_cat() に展開していますが、内容はほぼ同じ。追加する文
+字列の coderange の取得をスキップしているので少し処理を軽量化しているのでしょう
+か。

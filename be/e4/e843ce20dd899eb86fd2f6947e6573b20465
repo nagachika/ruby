@@ -1,0 +1,2 @@
+IO#reopen で stdout/stderr のバッファリングを無効にする(stdout は出力先が端末の
+時だけ)ように setvbuf(3) の呼び出しを追加しています。

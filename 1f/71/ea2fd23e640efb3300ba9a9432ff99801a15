@@ -1,0 +1,3 @@
+さらに range_values() で id_minus でメソッドが呼べるのかをチェックしてから
+rb_funcallv() でメソッド呼び出ししていたのをまとめた rb_check_funcall() という
+関数を利用するようにしています。

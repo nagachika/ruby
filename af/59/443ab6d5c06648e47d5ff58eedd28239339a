@@ -1,0 +1,2 @@
+README.EXT と README.EXT.ja の ruby_options() と ruby_run() の説明の追加や関数
+名、シグネチャの修正です。 [ruby-dev:48030] [Bug #9619]

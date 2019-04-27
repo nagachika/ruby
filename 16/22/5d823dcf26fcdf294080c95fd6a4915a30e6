@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の Net::HTTP.post というショートカット版のメソッド
+で URL にクエリストリングを含んだものを指定しても反映されていなかったのを修正し
+ています。 https://github.com/ruby/ruby/pull/1686

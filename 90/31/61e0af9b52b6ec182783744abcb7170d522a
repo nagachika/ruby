@@ -1,0 +1,2 @@
+internal.h に rb_nucomp_add() と rb_nucomp_mul() のプロトタイプ宣言を追加して
+numeric.c の関数内で宣言していた箇所を削除しています。

@@ -1,0 +1,9 @@
+Symbol GC 絡みで dynamic symbol の管理方法を変更しています。かなりがらっと変え
+ていて大きな方針変更みたいです。 pindown という名前はなくなっているので、
+dynamic symbol から SYM2ID などで ID 化されたものを管理するのはやめて、dynamic
+symbol も一部 mask された id を持つようにしているっぽいです。これ dynamic
+symbol を作るたびに ID の番号が消費(インクリメント)されていつかオーバフローする
+ことにならないんですかね? ああいや、ID が振られるのはこれまでの pindown 相当の
+こと(rb_sym2id() を呼ぶ)をした時だけなのか。
+symbol.h には rb_intern_cstr_without_pindown() のプロトタイプ宣言が残っています
+ね。

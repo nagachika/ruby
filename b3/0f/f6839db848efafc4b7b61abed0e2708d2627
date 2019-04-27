@@ -1,0 +1,2 @@
+そして xmlrpc のテストでもダミーサーバの Thread の停止に assert_join_threads を
+利用するようにしています。

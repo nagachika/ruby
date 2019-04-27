@@ -1,0 +1,2 @@
+r33949 の変更で nmake での newline.o, miniprelude.o のコンパイルに失敗するよう
+になったので revert しています。 [ruby-dev:45016] [Bug #5783]

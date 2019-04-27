@@ -1,0 +1,3 @@
+rb_bug() のフック関数登録 API 用の拡張ライブラリのソース ext/-test-/
+bug_reporter/bug_reporter.c でコンパイル時の警告除去のために明示的なキャストを
+追加しています。

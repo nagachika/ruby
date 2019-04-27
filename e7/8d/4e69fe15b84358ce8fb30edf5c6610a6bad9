@@ -1,0 +1,5 @@
+io_flush_buffer() で rb_io_t::write_lock のロック取得を既に自分が取得済みだった
+らスキップするようにしています。これが [ruby-core:47880] [Bug #7134] のシグナル
+トラップハンドラでの IO の recursive lock 問題の直接の対処だと思われます。
+まだ IO の finalize 時に recursive lock が発生する可能性があることが ChangeLog
+には記述されています。

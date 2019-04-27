@@ -1,0 +1,3 @@
+test_io_wait.rb で Socket の対向に書き込みしてすぐに IO#ready? や IO#wait(0) で
+チェックしても反映されないことがあるらしく、少し sleep で待ち時間を入れています
+。

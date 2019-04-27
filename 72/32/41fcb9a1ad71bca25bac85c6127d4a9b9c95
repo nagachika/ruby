@@ -1,0 +1,4 @@
+encoding.c から rb_isalnum(), rb_isalpha(), rb_isblank(), rb_iscntrl(),
+rb_isdigit(), rb_isgraph(), rb_islower(), rb_isprint(), rb_ispunct(),
+rb_isspace(), rb_isupper(), rb_isxdigit(), rb_tolower(), rb_toupper() を
+include/ruby/ruby.h に移動して inline 関数として定義するようにしています。

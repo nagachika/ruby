@@ -1,0 +1,2 @@
+DTrace のテストで helper.rb を require するのに require_relative を利用するよう
+に変更しています。

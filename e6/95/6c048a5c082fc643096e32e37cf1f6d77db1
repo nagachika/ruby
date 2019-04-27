@@ -1,0 +1,2 @@
+vm_normal_frame(), vm_cfp_svar_get(), vm_cfp_svar_set() などの関数も引数の
+rb_thread_t を rb_execution_context_t に変更。

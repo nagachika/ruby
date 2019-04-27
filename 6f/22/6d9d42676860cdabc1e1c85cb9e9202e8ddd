@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer で shutdown メソッドで
+socket を IO#shutdown/IO#close するだけだと IO.select が検出してくれない場合も
+ある(DragonFly BSD 3.6.2 がそうらしい)ので、終了通知用の pipe を作っておいて、
+shutdown 時にこの pipe に書き込んで socket を監視しているスレッドに終了を通知す
+るように変更しています。

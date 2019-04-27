@@ -1,0 +1,4 @@
+StringIO#read で EOF に達していたために空文字列を返す時に、第2引数にバッファに
+なるオブジェクトを渡していた時にその文字列オブジェクトの Encoding を
+default_external に変換し忘れていたのを修正しています。 [ruby-core:82349] [Bug
+#13806]

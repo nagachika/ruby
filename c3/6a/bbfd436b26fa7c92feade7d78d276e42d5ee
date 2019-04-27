@@ -1,0 +1,6 @@
+Test::Unit::Runner に直接 Test::Unit::RequireFiles を include すると rake でエ
+ラーになるそうなので Test::Unit::AutoRunner::Runner に子クラスを作ってそれに
+include させるようにしています。[Bug #3972] [ruby-core:32864]
+ついでに Test::Unit::Options の include も消されていますがこっちは不要なんでし
+ょうか。なんだか make test-all で "warning: instance variable @options not
+initialized" といういかにも関係ありそうな警告が出ていますが。

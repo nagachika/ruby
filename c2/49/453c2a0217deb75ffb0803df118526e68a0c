@@ -1,0 +1,2 @@
+r56291 での標準添付ライブラリ yaml/store の修正で YAML::Store#dump で引数の
+table でなくインスタンス変数 @table をダンプしていたのを修正しています。

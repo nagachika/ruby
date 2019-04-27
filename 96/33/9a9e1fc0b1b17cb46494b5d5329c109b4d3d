@@ -1,0 +1,2 @@
+mjit_build_dir.so の依存関係から mjit_config.h は不要になったので削除しています
+。

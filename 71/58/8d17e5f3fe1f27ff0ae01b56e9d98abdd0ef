@@ -1,0 +1,3 @@
+Enumerable#grep と条件を反転させた(マッチしない要素を返す) Enumerable#grep_v と
+いうメソッドを追加しています。名前は grep(1) の -v オプションから来ているのでし
+ょう。 [Feature #11049]

@@ -1,0 +1,3 @@
+fork 時に th->interrupt_lock の mutex を再初期化するようにしています。fork 時に
+子プロセスでは他の thread が死ぬので、それらの thread が lock したままだとデッ
+ドロックを起こすので再初期化しています。

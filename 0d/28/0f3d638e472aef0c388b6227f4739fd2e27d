@@ -1,0 +1,2 @@
+test/ruby/test_rubyoptions.rb の test_usage2 で -h オプションで表示されるメッセ
+ージのうち 80 桁を越えた行を表示するようにテストを書き換えています。

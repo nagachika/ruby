@@ -1,0 +1,7 @@
+拡張ライブラリ psych に同梱されている libyaml を 0.1.5 から 0.1.6 に更新してい
+ます。これにあわせて psych のバージョンも 2.0.4 から 2.0.5 に上げています。 CVE
+-2014-2525 の libyaml の脆弱性修正が含まれているそうです。 http://cve.mitre.org
+/cgi-bin/cvename.cgi?name=CVE-2014-2525
+利用している環境の libyaml を更新して(Debian や RedHat は対応版パッケージを出し
+ているようです)拡張ライブラリをビルドしなおすか、gem install で psych-2.0.5 を
+インストールすることでも対応できます。

@@ -1,0 +1,2 @@
+include/ruby/ruby.h の rb_scan_args_verify() の定義でブロックに __extension__
+を付けて gcc 拡張であることを明示するようにしています。

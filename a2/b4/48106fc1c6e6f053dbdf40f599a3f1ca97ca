@@ -1,0 +1,2 @@
+IO#write の実装で rb_funcall() を rb_funcallv() を利用するように置き換えていま
+す。不要な alloca(3) の利用を抑制するのが目的みたいです。

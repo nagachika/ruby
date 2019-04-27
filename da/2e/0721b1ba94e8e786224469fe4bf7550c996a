@@ -1,0 +1,4 @@
+r54611 で導入した struct_make_members_list() でメンバ名に重複があったら除くよう
+に st_table に詰めて Hash 化してから keys で配列を得るようにしています。重複が
+あったら ArgumentError 例外を発生させるようにしています。 [ruby-core:74971]
+[Bug #12291]

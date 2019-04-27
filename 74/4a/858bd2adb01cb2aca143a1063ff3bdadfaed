@@ -1,0 +1,2 @@
+Hash#delete の rdoc で指定されたキーがなかった時の戻り値の説明が間違っていたの
+を修正しています。 https://github.com/ruby/ruby/pull/844

@@ -1,0 +1,3 @@
+rubygems に upstream の 3.0.0.beta3 をマージ。 OTP による Multi Factor Auth 機
+能の対応が入ったようです。ツール側に入ったってことは rubygems.org にも MFA 設定
+する機能が近く入るのかな。

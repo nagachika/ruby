@@ -1,0 +1,5 @@
+ポインタの alignment にそろうように指定するマクロ aligned_ptr() の定義に
+__builtin_assume_aligned() を使う時の第2引数が sizeof(uintptr_t *) になっていた
+ので sizeof(uintptr_t) に修正しています。
+まあしかし uintptr_t はポインタ型と同じサイズの整数という意味だと思うので結果的
+には同じだったのでしょうね。

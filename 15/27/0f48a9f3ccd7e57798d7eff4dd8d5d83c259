@@ -1,0 +1,2 @@
+iseq_compile_each0() で r60479 で導入した freeze_literal() を使うようにリファク
+タリングしています。

@@ -1,0 +1,3 @@
+random.c の共用体 sipseed の型に uint8_t[16] を使っていたのを sipseed_keys_t と
+いう型名に typedef しておいてpadding のためにサイズの調整をしていたところで
+type_roomof() マクロを使うようにしています。

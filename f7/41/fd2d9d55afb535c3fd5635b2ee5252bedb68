@@ -1,0 +1,2 @@
+irb が backtrace が nil の例外が発生するとエラーで終了してしまうのを修正してい
+ます。 [ruby-core:58078] [Bug #9063] https://github.com/ruby/ruby/pull/434

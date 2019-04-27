@@ -1,0 +1,2 @@
+ext/zlib/zlib.c の rb_gzreader_lines() で関数名を間違っていて存在しない関数を呼
+ぼうとしていたのを修正。

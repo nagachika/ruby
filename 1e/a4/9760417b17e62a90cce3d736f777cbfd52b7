@@ -1,0 +1,2 @@
+thread_pthread.c に native_set_thread_name() という関数を追加して、Thread に ps
+-L で表示した時のコマンド名で区別できる名前を付けるようにしています。

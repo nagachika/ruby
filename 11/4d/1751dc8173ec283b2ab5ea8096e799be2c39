@@ -1,0 +1,2 @@
+Float#round, Integer#round などの half キーワード引数に明示的に nil を指定した
+時にデフォルトの挙動をするようにしています。 [ruby-core:77961] [Bug #12548]

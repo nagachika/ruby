@@ -1,0 +1,3 @@
+標準添付ライブラリ securerandom の rdoc 用コメントに SecureRandom.alphanumeric
+を使ったサンプルを追加しています。比較的最近追加されたのでモジュールレベルのコ
+メントに含まれてなかったんですね。 https://github.com/ruby/ruby/pull/1812

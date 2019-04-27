@@ -1,0 +1,4 @@
+標準添付ライブラリ uri の URI::Generic#to_s で frozen_string_literal: true 対策
+で String.new を使って文字列を生成するようにした影響で Encoding が ASCII-8BIT
+になっていたので、''.dup を利用するように修正しています。 https://github.com/
+ruby/ruby/pull/1188

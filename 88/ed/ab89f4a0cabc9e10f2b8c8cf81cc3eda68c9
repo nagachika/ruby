@@ -1,0 +1,4 @@
+parse.y で ripper 用の関数 ripper_dispatch_ignored_scan_event() と
+ripper_dispatch_delayed_token() の wrapper macro dispatch_scan_event() と
+dispatch_delayed_token() を定義して、ripper 用でない時も同じマクロ名で定義して
+おくことで #ifndef RIPPER での分岐を削るようにしています。

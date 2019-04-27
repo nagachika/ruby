@@ -1,0 +1,4 @@
+rb_public_const_get(_at|_from) や rb_public_const_defined(_at|from) など定数の
+visibility を考慮した関数を追加しています。これらは対象の定数が private だと例
+外が発生します。また、private constant の影響で Marshal が失敗していた現象につ
+いてテストを追加しています。

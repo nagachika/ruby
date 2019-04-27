@@ -1,0 +1,2 @@
+Range#step で要素が数値の時の最適化実装 Enumerator::ArithmeticSequence の first
+メソッドで beginless range から作られた時の対応を追加しています。

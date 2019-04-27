@@ -1,0 +1,3 @@
+r50725 で追加された test/socket/test_nonblock.rb の Socket#sendmsg_nonblock の
+テストで FreeBSD では Errno::EMSGSIZE が発生することもあるので予測される例外に
+追加しています。

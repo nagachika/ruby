@@ -1,0 +1,3 @@
+Curses::VERSION や DBM::VERSION の定義で条件コンパイルの分岐の各所で
+rb_define_const していたのを、変数に文字列を入れておいてあとでまとめて
+rb_define_const を呼ぶようにしています。

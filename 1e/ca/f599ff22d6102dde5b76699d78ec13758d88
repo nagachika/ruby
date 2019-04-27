@@ -1,0 +1,2 @@
+doc/syntax/assignment.rdoc にローカル変数が parse 時に確定されて格納する領域も
+この時に用意されることを追記しています。

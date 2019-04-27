@@ -1,0 +1,3 @@
+拡張ライブラリ coverage のテストに Coverage.start を呼ばずに
+Coverage.peek_result が呼ばれた時のテストを追加しています。 [ruby-core:71622]
+[misc #11726]

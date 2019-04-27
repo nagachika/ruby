@@ -1,0 +1,5 @@
+ISeq のバイナリフォーマットからの load で SEGV することがあるという既知の不具合
+を修正しています。修正は ibf_load_iseq_each() 内で
+rb_iseq_insns_info_encode_positions() の呼び出しの位置を少し後ろに移動していま
+す。 ibf_load_code() を呼んだ後でないといけなかったみたいですね。
+[ruby-core:86437] [Bug #14660]

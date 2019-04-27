@@ -1,0 +1,4 @@
+tool/vcs.rb で Kernel#system を Refinements で上書きしてデバッグ時の標準エラー
+出力への引数の出力と exception キーワード引数の対応を追加しています。古い
+BASERUBY 対策ですかね(でも Module の refine って結構新しい feature だったよう
+な)。

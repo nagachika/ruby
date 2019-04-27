@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix の Matrix::EigenvalueDecomposition#
+hessenberg_to_real_schur の不具合修正。にしてもこのメソッドもの凄く長いですね。
+先頭を見付けるのが大変でした。

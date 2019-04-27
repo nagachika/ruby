@@ -1,0 +1,4 @@
+標準添付ライブラリ cgi で CGI::Util のメソッドで escape_html -> escapeHTML、
+escape_element -> escapeElement など別名を定義するのに wrapper メソッドを定義し
+ていたのを alias を使うように変更しています。 https://github.com/ruby/ruby/pull
+/573

@@ -1,0 +1,4 @@
+r53013 で追加した Net::HTTP#proxy_from_env? のテストで原因がわかったみたいで El
+Capitan でのテストの失敗の対策として Net::HTTP.new の host には example だけで
+なく hostname.example のようにドットで連結したドメイン名っぽいものを渡すように
+しています。

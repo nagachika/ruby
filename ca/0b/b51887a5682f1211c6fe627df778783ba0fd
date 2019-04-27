@@ -1,0 +1,3 @@
+Net::HTTTP のテストで OpenSSL が autoload が設定されているため、実際に参照して
+みて LoadError が発生するかどうかで OpenSSL が必要なテストの skip するかどうか
+を判定するようにしています。 [Bug #5786]

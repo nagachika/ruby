@@ -1,0 +1,3 @@
+NEWS の Process.spawn や exec の vfork(2) を使った高速化についての記述を
+Process の項目から r48564 で追加された "Implementation changes" のセクションに
+移動しています。

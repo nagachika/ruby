@@ -1,0 +1,6 @@
+NameError#initialize の実装 name_err_initialize_options() でキーワード引数以外
+にもオプション引数(Hash で渡される引数)の :receiver も受け付けるようにして、
+NoMethodError#initialize からオプション引数を super に渡すようにして receiver
+の設定を共通化するようにしています。うーむ、NoMethodError.new は通常の(省略可
+能)引数でも name を受け付けているので、互換性を保ちつつの引数の設計が悩ましいで
+すね…。 [ruby-core:84626] [Feature #14313]

@@ -1,0 +1,4 @@
+time.c の divmod() から引数が Fixnum の時のケースを rb_fix_divmod_fix() を利用
+するようにしています。また wquo() でメソッド呼び出しをしているところを quo() を
+利用するようにしたり、wdivmod() から wdivmod0() を切り出して WIDEVALUE_IS_WIDER
+が定義されている時だけ利用するようにしています。

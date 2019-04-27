@@ -1,0 +1,6 @@
+RubyGems を更新しています。 gem install --ignore-dependencies で利用する
+Installer クラスを変更して高速化、install 時に specification ファイルを削除して
+無限ループ状態に陥るのを防ぐ修正、Solaris で flock は書き込み用に open したファ
+イルに対してでないと排他的ロックが取得できない(EBADF になる)ので読み書き可能モ
+ードでファイルを開くようにする修正などがありました。 [ruby-core:59178] [Bug #
+9257]

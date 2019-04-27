@@ -1,0 +1,3 @@
+拡張ライブラリ socket や IO#flush, binwrite, syswrite などでも r36931 と同様に
+不要な rb_thread_fd_writable() の呼び出しを削除しています。 [ruby-core:35586]
+[Feature #4538]

@@ -1,0 +1,4 @@
+r44236 および r44237 のさらに追加修正で rb_objspace_markable_object_p() で
+is_markable_object() のほうを先にチェックするようにしています。 is_live_object
+() が引数の VALUE が即値ではないことを期待しているのでこの順序でないとまずかっ
+たみたいです。

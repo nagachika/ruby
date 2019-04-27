@@ -1,0 +1,2 @@
+addr2line.c で macOS の Universal binary をサポートするため fill_lines() でサポ
+ートする head->magic に FAT_CIGAM を追加しています。

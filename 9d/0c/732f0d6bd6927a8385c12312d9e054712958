@@ -1,0 +1,3 @@
+check_uint において VALUE_MSBMASK が LLP64 なプラットフォームでオーバフローする
+ので修正。C の 1L というリテラルだと long 型で LLP64 だと VALUE 型より幅が小さ
+い。

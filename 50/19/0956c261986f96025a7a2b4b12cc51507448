@@ -1,0 +1,7 @@
+r47260 からの Benchmark の時間計測を Process.clock_getclock に変更した関係で
+Benchmark.realtime のテストを修正していた件の続きで、assert_in_epsilon で誤差を
+チェックしていたのを assert_operator で sleep した時間よりも長く測定されていれ
+ば OK としています。なるほど。あれでも sleep のほうの実装で sleeptime よりも早
+く起床してしまう可能性は……いやこれは計測と sleep の実装
+(pthread_cond_timedwait(3) などのはず)で同じ時計(方法)を使ってるかどうかという
+ことなのかなぁ。

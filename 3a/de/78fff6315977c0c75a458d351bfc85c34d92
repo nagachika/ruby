@@ -1,0 +1,2 @@
+構造体 struct ruby_cmdline_options のメンバーの順序を整理して構造体サイズを小さ
+くしています。

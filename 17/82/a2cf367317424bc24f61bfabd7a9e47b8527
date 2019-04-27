@@ -1,0 +1,3 @@
+object.c の false_to_s() と rb_class_inherited_p() のドキュメント用コメントを修
+正しています。 false_to_s() のほうは r59389 よりも前からあったコメントですが、
+なんだろうこのコメント…。

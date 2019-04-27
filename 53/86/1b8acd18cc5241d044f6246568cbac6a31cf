@@ -1,0 +1,4 @@
+TracePoint の internal_event を使った ObjectSpace.after_gc_start_hook のフック
+を設定して GC.stress = true にするとフック呼び出しが際限なく続いてしまうのを修
+正しています。 postponed job の実行時にスレッドの割り込みを遅延させるようにして
+います。 [ruby-dev:47400] [Bug #8492]

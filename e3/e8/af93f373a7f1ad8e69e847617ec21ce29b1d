@@ -1,0 +1,5 @@
+mjit.c の mjit_add_class_serial() でクラスのメソッドキャッシュ管理のための
+serial number を管理してる valid_class_serials の操作に CRITICAL_SECTION_START
+()/CRITICAL_SECTION_FINISH() で mutex の lock を取っていたのをやめています。 GC
+がおきた時も lock を取得するので、rb_hash_aset() を呼ぶと GC が走って deadlock
+がおきる可能性があったみたいです。けどここの排他は消してもいいのかな。

@@ -1,0 +1,3 @@
+拡張ライブラリ objspace で追加される ObjectSpace.memsize_of がクラスの定数テー
+ブルのサイズを加算していないのを修正しています。これは先日 private constant の
+前準備として T_CLASS の構造が変更になったものの追随です。

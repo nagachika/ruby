@@ -1,0 +1,5 @@
+objspace_xcalloc() で objspace_malloc_increase() を呼び出して GC 起動タイミング
+に影響する malloc_increase を増やして、allocation 回数などの統計情報も増やすよ
+うにしています。また必要なら GC を実施するようにしています。 GC からの保護漏れ
+があったらこれでバグが顕在化する可能性があるからこれから直していく(RB_GC_GUARD
+() の追加)そうです。

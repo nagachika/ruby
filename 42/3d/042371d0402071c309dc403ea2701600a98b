@@ -1,0 +1,3 @@
+標準添付ライブラリ uri の URI#find_proxy で環境変数 no_proxy の先頭の "." や空
+白を許容するようにしています。 https://github.com/ruby/ruby/pull/285
+[ruby-core:54542] [Feature #8317]

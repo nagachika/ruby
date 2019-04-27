@@ -1,0 +1,2 @@
+去年追加されてた tool/pull-latest-mspec-spec というツールを削除しています。ruby
+/mspec に含まれるようになったので不要になったようです。

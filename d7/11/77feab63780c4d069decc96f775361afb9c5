@@ -1,0 +1,3 @@
+r39573 の修正。 RbConfig::CONFIG["LIBPATHENV"] が空文字列のときは利用しないよう
+に、mkmf.rb で定義している config_string() というメソッドを利用するようにしてい
+ます。

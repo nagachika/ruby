@@ -1,0 +1,8 @@
+VM スタックおよびマシンスタックのサイズを指定する環境変数を追加しています。
+  • RUBY_THREAD_VM_STACK_SIZE: Thread の起動時の VM スタックサイズ
+  • RUBY_THREAD_MACHINE_STACK_SIZE: Thread 起動時のマシンスタックサイズ
+  • RUBY_FIBER_VM_STACK_SIZE: Fiber 生成時の VM スタックサイズ
+  • RUBY_FIBER_MACHINE_STACK_SIZE: Fiber 生成時のマシンスタックサイズ
+これらはプロセスの起動時に取得されてそれ以降は変更できないので、Rubyスクリプト
+内で ENV でこれらの環境変数を変更してもそのプロセスでは影響しません。またページ
+サイズに丸めたりは自動的にしてくれるようです。 [Feature #4614] [Bug #7212]

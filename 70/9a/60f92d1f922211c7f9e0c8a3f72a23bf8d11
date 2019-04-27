@@ -1,0 +1,2 @@
+win32/Makefile.sub で make distclean-ext, realclean-ext で ext ディレクトリを削
+除する時に先に ext/extinit.c を削除するようにしています。

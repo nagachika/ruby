@@ -1,0 +1,5 @@
+Windows 版の File.expand_path のパフォーマンス改善をしています。
+[ruby-core:46996] [Bug #6836]
+新しい実装 rb_file_load_path_internal() はかなり長いのでちゃんと読んでいません
+が GetFullPathNameW() FindFirstFileW() といった API を利用して Windows 固有の実
+装を行っているようです。

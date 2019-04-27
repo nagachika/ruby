@@ -1,0 +1,3 @@
+readline で代入しているけど使っていなかった変数の除去と、special_prefix の取得
+のショートカット(rl_special_prefix をみて NULL ならすぐ Qnil を返す)を追加して
+います。

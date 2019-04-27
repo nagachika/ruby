@@ -1,0 +1,2 @@
+ubf_select() で rb_thread_wakeup_timer_thread() を呼び出している部分になぜこれ
+を呼ぶ必要があるかのコメントを追加しています。

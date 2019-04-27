@@ -1,0 +1,3 @@
+macOS でメモリ使用量を task_info() というシステムコールで取得するテスト用の拡張
+ライブラリを実装し、test/lib/memory_status.rb の Memory::Status の代替とするよ
+うにしています。

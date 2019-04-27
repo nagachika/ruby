@@ -1,0 +1,3 @@
+gcc の拡張の #pragma GCC visibility push/pop という pragma が使えるか configure
+で調べて RUBY_SYMBOL_EXPORT_BEGIN, RUBY_SYMBOL_EXPORT_END というマクロとして定
+義して #if で調べて使っていた箇所で使うようにしています。

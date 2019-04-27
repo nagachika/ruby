@@ -1,0 +1,6 @@
+string.c の String#[]= や String#start_with? の実装で TYPE() マクロで分岐してい
+たのを RB_TYPE_P() や BUILTIN_TYPE() を使うように書き換えています。 RB_TYPE_P()
+はともかく BUILTIN_TYPE() は何が違うんだっけ…とみてみると struct RBasic::flags
+のビットフラグを直接みてるだけで即値にも対応している rb_type() 関数の呼び出しを
+省略してるものでした。ここでは T_STRING か T_REGEXP かそれ以外かだけがわかれば
+いいから TYPE() までの解像度は不要ってことですね。

@@ -1,0 +1,2 @@
+win32/win32.c の open_dir_handle() で確保するメモリサイズの計算に numberof() マ
+クロを利用するようにしています。

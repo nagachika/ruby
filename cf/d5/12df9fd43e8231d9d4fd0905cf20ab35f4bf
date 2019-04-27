@@ -1,0 +1,3 @@
+r64137 の対応で default gem 化した sync も tool/sync_default_gems.rb で標準的な
+処理に落としこめるようになったので sync_lib メソッドを利用するようにリファクタ
+リングしています。

@@ -1,0 +1,3 @@
+多分昨日の r51617 の修正で今度は Hash リテラル内の key: のような Symbol キーの
+後で後置 rescue を書くと syntax error になるようになっていたのを修正しています
+。 [ruby-dev:49221] [Bug #11456]

@@ -1,0 +1,3 @@
+というわけで Fiber#transfer の rdoc のサンプルコードに puts 文をひとつ追加しま
+した。Fiber#transsfer は親 Fiber の Fiber#transfer を呼んだ位置には戻らず、ルー
+ト Fiber に一気に戻ります。

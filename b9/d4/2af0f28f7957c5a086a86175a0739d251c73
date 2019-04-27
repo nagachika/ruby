@@ -1,0 +1,3 @@
+r65505 の続きで標準添付ライブラリ内での require をさらに require_relative に変
+更しています。 https://github.com/ruby/ruby/pull/1976 [ruby-core:89291] [Bug #
+15206]

@@ -1,0 +1,4 @@
+r37865 でプロセス終了時の全スレッド停止を待つ rb_thread_terminate_all() で
+native_sleep() を使うように変更しましたが、割り込みフラグが立っていると
+native_sleep() はすぐ返ってきてしまうので RUBY_VM_CHECK_INTS_BLOCKING() で割り
+込みのチェックを挿入しています。

@@ -1,0 +1,3 @@
+configure.in で --with-static-linked-ext が指定された時に EXTOBJS に ext/
+libext.a を含めないようにしています。 archive library を作る時に別の archive
+library は使えないぜとコミットログには書かれています。

@@ -1,0 +1,2 @@
+r39879 と同様に Enumerable#zip のテストでも assert_raise の発生する例外として
+NoMethodError が含まれていたのを削っています。

@@ -1,0 +1,3 @@
+DTrace 対応の configre でのチェックのために probes.d を作ってチェックしていたと
+ころですが、Linux の systemtap だと probes.d の文法がより厳しくて1行で出力して
+おくとうまくいかないそうで少し整形した probes.d を作るようにしています。

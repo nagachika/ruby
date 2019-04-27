@@ -1,0 +1,2 @@
+set_trace_func と同様に TracePoint.enable, disable でも $SAFE==4 の時に禁止する
+ようにチェックを追加しています。

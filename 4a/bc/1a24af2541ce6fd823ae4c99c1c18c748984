@@ -1,0 +1,3 @@
+nd_last_loc() と nd_set_last_loc() という NODE の範囲情報の終端側の lineno と
+column を参照/セットするマクロを定義して parse.y で利用するようにリファクタリン
+グしています。

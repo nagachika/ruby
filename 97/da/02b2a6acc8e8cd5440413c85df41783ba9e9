@@ -1,0 +1,5 @@
+fork した子プロセスでデッドロックするのに対する応急措置として fork 後にメインス
+レッド以外を殺す処理の時には native_thread_destroy を呼ばないようにしています。
+[Bug #4169]
+これで TestPTY#test_getpty_nonexistent のテストが固まるのが直るかなーと思いまし
+たがまだ固まっていました(@RHEL4 Xeon X5570)。

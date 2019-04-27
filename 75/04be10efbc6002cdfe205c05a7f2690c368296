@@ -1,0 +1,1 @@
+r54343 で不要になった rb_thread_t::base_block メンバを削除しています。

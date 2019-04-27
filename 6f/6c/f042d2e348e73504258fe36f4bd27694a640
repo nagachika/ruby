@@ -1,0 +1,5 @@
+Enumerator::ArithmeticSequence#first の引数チェックを修正して Range の終端に
+Float::INFINITY を使った場合にエラーになるのを修正し、さらに
+Enumerator::ArithmeticSequence#first で Fixnum と Float を始点/終点/step に持つ
+場合と Fixnum の始点の endless range の時の最適化処理を追加しています。 https:/
+/github.com/ruby/ruby/pull/2076 [ruby-core:90937] [Bug #15518]

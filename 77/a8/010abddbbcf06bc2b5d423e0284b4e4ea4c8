@@ -1,0 +1,2 @@
+irb の rdoc 用コメントのサンプルの syntax error を修正しています。 https://
+github.com/documenting-ruby/ruby/pull/32

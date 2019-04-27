@@ -1,0 +1,3 @@
+rubygems のテストで通信エラー類を skip 扱いにするところで捕捉する例外に
+SocketError も追加しています。 CI でたまにこの例外でエラーになるとのこと。
+https://github.com/rubygems/rubygems/pull/2684

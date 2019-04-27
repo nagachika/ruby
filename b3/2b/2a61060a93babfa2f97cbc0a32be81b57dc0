@@ -1,0 +1,3 @@
+r63484 の parse.y での ruby_sized_xfree() などを使うようにした変更で Solaris で
+ビルドできなかったそうで、internal.h で RUBY_SYMBOL_EXPORT_{BEGIN,END} でくくっ
+て関数の symbol を export するようにしています。 [ruby-core:87232]

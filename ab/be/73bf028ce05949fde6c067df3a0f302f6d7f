@@ -1,0 +1,2 @@
+r52402 の vm_search_super_method() での struct rb_call_info::mid を変更しないよ
+うにする commit を revert しています。

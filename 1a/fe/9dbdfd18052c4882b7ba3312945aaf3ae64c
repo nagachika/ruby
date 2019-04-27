@@ -1,0 +1,2 @@
+r32043 で Object#to_yaml_properties を undef する時に例外が発生し得るので
+rescue で保護を追加しています。

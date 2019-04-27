@@ -1,0 +1,2 @@
+標準添付ライブラリ tsort にも frozen_string_literal: true の magic comment を追
+加しています。

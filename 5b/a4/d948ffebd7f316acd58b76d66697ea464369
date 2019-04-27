@@ -1,0 +1,5 @@
+eval.c の setup_exception() から cause の設定や例外オブジェクトの生成部分を
+exc_setup_message() という関数(実際には message を作ってるわけじゃなくて例外オ
+ブジェクトの準備をしてるのですが)に切り出して rb_longjmp() から setup_exception
+() の前に呼んでおくようにしています。 setup_exception() の EXEC_TAG() での警告
+を回避するたみめたいです。

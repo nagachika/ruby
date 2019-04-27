@@ -1,0 +1,2 @@
+NEWS に Net::IMAP.default_port などの IMAP のデフォルトのポート番号を返すメソッ
+ドの追加について追記しています。

@@ -1,0 +1,5 @@
+rb_arithmetic_sequence_extract() という API を追加して Range または
+Enumerator::ArithmeticSequence のオブジェクトから始点、終点、step、終点を含むか
+、などの属性を取り出すことができるようにしています。 include/ruby/intern.h に宣
+言を追加しるので、拡張ライブラリからこの関数で内容を取得させるようにしよう、と
+いうことかな。

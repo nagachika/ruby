@@ -1,0 +1,2 @@
+rubyspec の win32ole のテストの fixture で require "win32ole" するようにしてい
+ます。

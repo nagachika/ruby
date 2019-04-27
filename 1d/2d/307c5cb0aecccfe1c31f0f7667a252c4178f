@@ -1,0 +1,3 @@
+eval.c の hidden_identity_hash_new() という関数で rb_hash_new() で Hash を作っ
+てから rb_funcall で compare_by_identity メソッドを呼び出して ident hash を作っ
+てたのを rb_ident_hash_new() を使って直接作成するように修正しています。

@@ -1,0 +1,2 @@
+node.c の --dump=parsetree などの時の dump 用のマクロ COMPOUND_FIELD() の定義を
+SIMPLE_FIELD() の定義と共有化するリファクタリング。

@@ -1,0 +1,1 @@
+rb_iseq_disasm() と rb_iseq_disasm_insn() の変数名を改名しているだけです。

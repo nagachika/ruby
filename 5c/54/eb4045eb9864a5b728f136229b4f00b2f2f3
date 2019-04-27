@@ -1,0 +1,2 @@
+dir.c, pack.c, ruby.c, struct.c, vm_eval.c でも配列のバッファを参照するだけの時
+に RARRAY_PTR() から RARRAY_CONST_PTR() を利用するように変更しています。

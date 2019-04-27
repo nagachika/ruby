@@ -1,0 +1,3 @@
+Kernel#exit を実行した時に生成される SystemExit 命令は initialize でメッセージ
+の他に終了ステータスを引数に取れるのですが、ここでも整数の他に true/false を受
+け付けるようにしています。 [ruby-dev:44951] [Bug #5728]

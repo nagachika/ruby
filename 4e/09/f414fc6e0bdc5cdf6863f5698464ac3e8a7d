@@ -1,0 +1,2 @@
+FreeBSD 11.0 以降では ppoll() が利用できるそうなので rb_wait_for_single_fd() で
+ppoll() を使った実装を Linux 以外でも有効にするようにしています。

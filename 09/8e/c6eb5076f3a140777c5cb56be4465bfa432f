@@ -1,0 +1,4 @@
+webrick のテストで MJIT が有効かどうかチェックするのに RubyVM::MJIT.enabled? を
+チェックしてますが、webrick は default gem 化されてるので古い ruby でも動くよう
+に defined? で定数自体が定義されてるかチェックしてから参照するように修正してい
+ます。

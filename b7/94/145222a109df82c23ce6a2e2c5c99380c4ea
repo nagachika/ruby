@@ -1,0 +1,2 @@
+標準添付ライブラリ matrix の conjugate, eigensystem, real, imaginary, lup, rect
+などのメソッドのテストを追加しています。 [ruby-core:63809] [Feature #10057]

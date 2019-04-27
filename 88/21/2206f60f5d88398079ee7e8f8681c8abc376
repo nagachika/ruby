@@ -1,0 +1,2 @@
+test/-ext-/symbol/test_inadvertent_creation.rb のテストメソッドを
+test_module_const_get から test_module_const_defined? を分離しています。

@@ -1,0 +1,3 @@
+r62193 で mjit.c で MJIT_ATOMIC_SET() というマクロを独自に定義して、Windows 環
+境では InterlockedExchangePointer() を使うようにしてましたが、この引数に明示的
+なキャストを入れて MinGW での警告を抑制するようにしています。

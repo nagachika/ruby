@@ -1,0 +1,3 @@
+Syck::DBM, Psych::DBM, Psych::Store を変更したテストを追加しています。unless の
+条件下で定数の代入すると警告が出るんだったような気が。Syck, Psych が使えなかっ
+た時の guard なども必要ないでしょうか。まあでも手元では test-all 通ってますね。

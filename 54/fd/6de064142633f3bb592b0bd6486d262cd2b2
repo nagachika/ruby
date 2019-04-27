@@ -1,0 +1,2 @@
+r29986 の minitest のとりこみを revert しています。仕様変更で test-all が失敗し
+てしまっていたようです。commit する前に make test-all しろとおかんむりです。

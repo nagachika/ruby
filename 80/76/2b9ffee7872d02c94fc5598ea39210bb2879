@@ -1,0 +1,2 @@
+標準添付ライブラリ shell に require "shell/version" を追加しています。 default
+gem 化の一環ですね。

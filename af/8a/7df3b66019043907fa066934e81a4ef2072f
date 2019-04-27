@@ -1,0 +1,2 @@
+rb_thread_t のメンバー method_missing_reason を rb_execution_context_t に移動し
+ています。まだまだ th -> ec の移行は続くのかー。

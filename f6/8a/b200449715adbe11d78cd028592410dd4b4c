@@ -1,0 +1,2 @@
+parse.y で parser->enc を利用しているところを current_enc に置き換えています。
+current_enc はマクロで parser->enc に展開されるので内容には変化ありません。

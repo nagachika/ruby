@@ -1,0 +1,2 @@
+vm_insnhelper.c で opt_eq_func() の中でだけ使うマクロ BUILTIN_CLASS_P() を関数
+の後で #undef するようにしています。

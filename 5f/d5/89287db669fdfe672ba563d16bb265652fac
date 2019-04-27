@@ -1,0 +1,2 @@
+Time#asctime と Time#ctime の rdoc 用コメントの用例に ctime の例も追記していま
+す。 [ruby-core:75126] [Bug #12310]

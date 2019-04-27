@@ -1,0 +1,3 @@
+r61594 で SIZEOF_UINTPTR_T で strinc.c の NONASCII_MASK の定義を分岐していまし
+たが、uintptr_t のサイズが 4 でも 8 でもない時に未定義になっていたので、#error
+で明示的にコンパイルエラーにするようにしています。

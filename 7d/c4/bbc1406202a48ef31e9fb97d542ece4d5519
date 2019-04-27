@@ -1,0 +1,3 @@
+スタックオーバフローのチェックで利用している ucontext_t::uc_mcontext の型を違い
+を configure 時に検出して DEFINE_MCONTEXT_PTR() というマクロを定義して取り出せ
+るようにしています。

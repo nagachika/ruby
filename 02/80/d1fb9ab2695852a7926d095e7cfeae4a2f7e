@@ -1,0 +1,2 @@
+test/ruby/test_trace.rb のテストの一部を test/ruby/test_exception.rb というファ
+イル名に移動しています。

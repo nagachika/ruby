@@ -1,0 +1,2 @@
+ext/pty/pty.c の chfunc で return に rb_f_exec() の返り値(VALUE)をそのまま返し
+ていたので Qnil を返してしまっていたので return 0; するように修正しています。

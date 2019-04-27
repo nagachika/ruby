@@ -1,0 +1,4 @@
+marshal.c, process.c, ext/win32ole/win32ole.c で内部的に利用する構造体を wrap
+したオブジェクトのクラスに rb_cData を利用していましたが、これらは ObjectSpace
+で巡回できないほうがいいやつなので klass に 0 を渡すようにしています。Data クラ
+スの deprecated 化にも関係してそうですね。

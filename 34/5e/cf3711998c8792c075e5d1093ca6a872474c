@@ -1,0 +1,2 @@
+exec/spawn の file descriptor の変更のオプション close, in, out, err の情報をま
+とめて struct rb_execarg に直接保持するようにするリファクタリングです。

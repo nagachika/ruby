@@ -1,0 +1,3 @@
+Hash#compact, Hash#compact! というメソッドを新規追加しています。対応する value
+が nil の key を削除するという挙動をするようです。 [ruby-core:72133] [Feature #
+11818]

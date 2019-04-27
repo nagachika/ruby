@@ -1,0 +1,5 @@
+ruby のテスト用ライブラリの test/lib/test/unit/assertions.rb に syntax_check と
+いうメソッドを追加して、RubyVM::InstructionSequence が利用できない時には eval
+と BEGIN ブロックを駆使した実装(parse はするけど実装はしないように)をするように
+しています。 CRuby 以外の実装でも動くようにするためみたいです。
+[ruby-core:81935] [Bug #13723]

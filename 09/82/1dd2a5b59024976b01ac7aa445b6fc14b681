@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence.load_from_binary で TracePoint のフックが有効な状態
+でバイナリフォーマットから ISeq をロードする時は、すぐに trace 有効版の命令に変
+更して TracePoint が有効になるようにしています。 [ruby-core:86626] [Bug #14702]

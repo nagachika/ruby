@@ -1,0 +1,3 @@
+標準添付ライブラリ optparse で magic comment に frozen_string_literal: true が
+書かれているため冗長になった文字列リテラルに対する freeze メソッドの呼び出しを
+削除しています。 https://github.com/ruby/ruby/pull/1873

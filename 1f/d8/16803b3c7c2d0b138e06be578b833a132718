@@ -1,0 +1,4 @@
+rb_ary_entry() の実装の中身を internal.h に inline 関数 rb_ary_entry_internal()
+として切り出して、vm_insnhelper.c の最適化命令の実装 vm_opt_aref() から型のチェ
+ック後にこの inline 関数を利用することで整数を添字としたアクセスを最適化してい
+ます。コミットログに optcarrot を使ったベンチマークの結果(fps)が!

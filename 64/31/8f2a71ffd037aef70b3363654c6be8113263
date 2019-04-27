@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb の readline で Windows 版でも gets を利用するように
+しています。 IO.console.getch がうまくいかない時もあるそうなので。

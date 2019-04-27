@@ -1,0 +1,2 @@
+time.c の struct time_object::tzmode を操作するマクロたちを TIME_XXX から
+TZMODE_XXX という感じに改名しています。

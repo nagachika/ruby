@@ -1,0 +1,2 @@
+tool/enc-unicode.rb でも Unicode のデータファイルのバージョンチェックを常に行う
+ようにしています。

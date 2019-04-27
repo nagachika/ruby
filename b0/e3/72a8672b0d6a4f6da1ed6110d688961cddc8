@@ -1,0 +1,2 @@
+parse.y のマクロ new_attr_op_assign() の引数が常に ripper_id2sym() を経由してい
+たので、マクロ内に ripper_id2sym() の呼び出しまで埋め込むように変更しています。

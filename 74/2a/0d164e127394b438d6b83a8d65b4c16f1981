@@ -1,0 +1,2 @@
+同じく win32/configure.bat のヘルプメッセージにも --with[out]-ext の説明が表示
+されるようにしています。

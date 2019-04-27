@@ -1,0 +1,3 @@
+test/webrick/test_filehandler.rb で IO.popen で開いた IO を開きっぱなしにしてい
+て子プロセスを wait していなかったのを、バッククオートによる実行を使うことで修
+正しています。

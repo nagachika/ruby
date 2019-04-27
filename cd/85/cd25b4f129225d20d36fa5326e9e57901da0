@@ -1,0 +1,2 @@
+XMLRPC::Client に http, https 以外のプロトコルや不正な URI を渡した時の例外のク
+ラスを RuntimeError から ArgumentError にしています。

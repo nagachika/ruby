@@ -1,0 +1,2 @@
+Array#push と Array#unshift の rdoc 用コメントにそれぞれ append と prepend とい
+う別名も call-seq に追加しています。

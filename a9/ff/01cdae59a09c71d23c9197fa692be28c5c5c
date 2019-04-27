@@ -1,0 +1,3 @@
+darwin つまり Mac OS X でも lgamma_r() と finite() という関数を利用するために -
+ansi と -std=c99 のコンパイラオプションを付けないようにしています。また
+-D_REENTRANT を付けるようにしています。

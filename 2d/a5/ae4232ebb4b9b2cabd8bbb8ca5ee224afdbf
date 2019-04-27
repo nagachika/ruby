@@ -1,0 +1,4 @@
+拡張ライブラリ shellwords のダブルクオート内のバックスラッシュの扱いを IEEE Std
+1003.1-2008, 2016 Edition, the Shell & Utilities volume (参考URL: http://
+pubs.opengroup.org/onlinepubs/9699919799/utilities/contents.html) に準拠するよ
+うに変更しています。 [ruby-core:63807] [Bug #10055]

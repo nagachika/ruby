@@ -1,0 +1,3 @@
+r51347 での拡張ライブラリ openssl の TLS 拡張 ALPN のサポート追加で
+HAVE_SSL_CTX_SET_ALPN_SELECT_CB による条件コンパイルの分岐が漏れていたのを修正
+しています。 [Feature #9390]

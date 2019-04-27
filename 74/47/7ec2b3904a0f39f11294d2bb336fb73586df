@@ -1,0 +1,1 @@
+configure.ac で rb_cv_warnflags 変数の前後の空白を削るようにしています。

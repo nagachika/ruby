@@ -1,0 +1,3 @@
+Object#public_send が Refinements の影響を受けて呼ぶメソッドを変えるように修正?
+変更? しています。 https://github.com/ruby/ruby/pull/2019 [ruby-core:89921]
+[Feature #15326]

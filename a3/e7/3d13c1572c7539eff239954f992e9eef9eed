@@ -1,0 +1,2 @@
+gc.c の struct heap_page の linked list の実装を ccan/list を利用するようにして
+います。 [ruby-core:87067] [Misc #14762]

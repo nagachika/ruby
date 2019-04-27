@@ -1,0 +1,3 @@
+Windows 環境で Kernel#exec でコマンドを起動する時に rb_w32_uaspawn() という関数
+を使うことで引数が文字化けするのを修正しています。 [ruby-dev:49838] [Bug #
+12841]

@@ -1,0 +1,2 @@
+configure で cygwin 用に CPPFLAGS に -D_XOPEN_SOURCE -D_GNU_SOURCE オプションを
+追加しています。 eaccess(3) のためとのこと。

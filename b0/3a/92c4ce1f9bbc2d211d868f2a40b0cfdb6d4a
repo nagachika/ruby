@@ -1,0 +1,2 @@
+complex.c で finite?, infinite?, rationalize, PI などの ID を毎回 rb_intern()
+していたのを static 変数に保持して使いまわすように最適化しています。

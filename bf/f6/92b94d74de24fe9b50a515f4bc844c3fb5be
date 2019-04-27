@@ -1,0 +1,2 @@
+lib/drb/acl.rb の if __FILE__ == $0 で括ったサンプルコードも sample/drb/acl.rb
+に分離しています。

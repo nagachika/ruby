@@ -1,0 +1,3 @@
+rubyspec の WIN32OLE のテストで sleep を入れただけだとまだ不安定だったところを
+、さらに exponential backoff で徐々に待ち時間を伸ばしながら待つようにしています
+。

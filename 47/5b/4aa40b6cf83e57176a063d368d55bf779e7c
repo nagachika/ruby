@@ -1,0 +1,4 @@
+シグナル処理時に使うマシンスタックを別途用意する signaltstack の確保を
+Init_heap() から rb_register_sigaltstack() に移動しています。確保と登録が別の場
+所でされてたので readability のためにまとめた、とのことなのでリファクタリングで
+すかね。 [ruby-core:85621] [Feature #14487]

@@ -1,0 +1,6 @@
+標準添付ライブラリ optparse の OptionParser#order や parse にキーワード引数
+into を追加して、Hash などを渡すと、オプション名を Symbol にしたものをキーにし
+て指定されたオプションの引数を格納して返すようにしています。 OptionParser を使
+う時は config = {} みたいなのを作って on のブロックで代入するってのをよくやりま
+すが、それをやってくれる機能ができるってことですね。 [ruby-core:69383] [Feature
+#11191]

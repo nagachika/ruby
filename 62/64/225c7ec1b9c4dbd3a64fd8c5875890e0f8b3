@@ -1,0 +1,5 @@
+r64365 や r64369 で readline のテストを Appveyor 上の MinGW でスキップするよう
+にしていましたが、Appveyor に特有の問題ではなかったようで MinGW だったら skip
+するように変更しています。また Windows で open しているファイルが削除できないた
+めにテストがこけるのを避けるための対処を追加しています。 https://github.com/
+ruby/ruby/pull/1941

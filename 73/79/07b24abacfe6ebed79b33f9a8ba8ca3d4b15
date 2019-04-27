@@ -1,0 +1,3 @@
+ConditionVariable#wait のタイムアウト付きのテスト test_condvar_timed_wait で
+wait 前後の時刻のチェックに assert_block を使っていたのを assert_operator を使
+うようにしています。

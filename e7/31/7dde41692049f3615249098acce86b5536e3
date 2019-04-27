@@ -1,0 +1,2 @@
+tool/downloader.rb で config.guess、config.status のダウンロード元の gcc.gnu
+.org の refs の指定を HEAD から master に変更しています。

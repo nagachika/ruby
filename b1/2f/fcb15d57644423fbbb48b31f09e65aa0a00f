@@ -1,0 +1,4 @@
+VC6 での ATOMIC_CAS の定義で警告を抑制するため _MSC_VER が古い時に
+InterlockedCompareExchange() をキャストつきで呼び出す関数の追加と ATOMIC_CAS()
+の再定義をするようにしています。 ATOMIC_CAS() の定義に関数呼び出しが抜けていま
+す(引数だけ書かれている)ね。

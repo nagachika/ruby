@@ -1,0 +1,2 @@
+win32api のテストで require "Win32API" での警告を抑制するため一時的に $VERBOSE
+を nil にセットしておくようにしています。

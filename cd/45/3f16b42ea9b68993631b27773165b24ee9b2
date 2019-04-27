@@ -1,0 +1,5 @@
+StringIO の内部に持っているバッファの String オブジェクトが freeze されている時
+に ungetc, ungetbyte すると RuntimeError が発生していましたが、write では
+IOError が発生するのでそちらに合わせています。文字列を操作する前に
+check_modifiable() を呼ぶ処理が抜けていたのでそれを追加しています。
+[ruby-core:48530] [Bug #7231]

@@ -1,0 +1,2 @@
+r64239 の rubyspec の socket のテストの FreeBSD 向けの修正を macOS でも適用する
+ようにしています。

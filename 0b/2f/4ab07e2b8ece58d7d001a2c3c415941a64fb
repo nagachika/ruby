@@ -1,0 +1,3 @@
+標準添付ライブラリ prime のテストでただの assert が使われていたのを
+assert_prediate や assert_respond_to、 assert_kind_of などチェック内容に応じた
+assertion メソッドを利用するようにしています。

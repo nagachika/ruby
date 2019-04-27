@@ -1,0 +1,3 @@
+r64947 の MJIT の mswin 用の precompiled header をインストール先に link を貼る
+のをリトライ。tool/rbinstall.rb でも .pch と .obj をインストールするようにして
+います。

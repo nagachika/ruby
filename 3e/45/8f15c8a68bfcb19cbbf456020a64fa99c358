@@ -1,0 +1,2 @@
+tool/ruby_vm/scripts/insns2vm.rb のコマンドラインオプションのヘルプメッセージの
+文法修正。

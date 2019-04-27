@@ -1,0 +1,2 @@
+make dist で tool/make-snapshot に Unicode のバージョンの指定を引数で渡すように
+しています。

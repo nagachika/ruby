@@ -1,0 +1,3 @@
+parse.y の ripper_compile_error() と parser_compile_error() という関数の宣言に
+PRINTF_ARGS() というマクロを使って format 文字列を引数に受け取る関数であること
+を宣言してチェックを強化(できるコンパイラでは)しているようです。

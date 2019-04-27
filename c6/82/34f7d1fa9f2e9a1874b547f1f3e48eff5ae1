@@ -1,0 +1,7 @@
+define_method は public, protected, private, module_function などを無引数で呼び
+出した時のデフォルトの可視性(module_function は可視性のみでなく同名の特異メソッ
+ド(クラスメソッド)の定義も一緒に追加する意味を持ちますが)には影響されず、デフォ
+ルトで public のメソッドを定義していましたが、この変更で define_method によるメ
+ソッド定義も普通のメソッド定義と同様にこれらの可視性のコンテキストの影響を受け
+るようにしています。これは NEWS にも記載したほうがよさそうですね。 https://
+github.com/ruby/ruby/pull/268

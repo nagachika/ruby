@@ -1,0 +1,2 @@
+r65520 の続きで configure.in で tool/darwin-cc を使うかどうかを $build_os もみ
+て判定していたのを CC_WRAPPER の設定の有無のみで判定するようにしています。

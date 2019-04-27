@@ -1,0 +1,3 @@
+VALUE 型の値が Fixnum かどうかチェックするマクロ FIXNUM_P() で引数を
+FIXNUM_FLAG とビット論理積とる前に int にキャストするようにしています。
+FIXNUM_FLAG が int だからそろえているということだと思います。

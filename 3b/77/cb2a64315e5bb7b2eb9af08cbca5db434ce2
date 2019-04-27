@@ -1,0 +1,3 @@
+標準添付ライブラリ csv で CSV#line メソッドで現在読んでいる行の元の文字列にアク
+セスできるようにしています。 https://github.com/ruby/ruby/pull/1170
+[ruby-core:72452] [Feature #11865]

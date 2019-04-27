@@ -1,0 +1,2 @@
+object.c に CLASS_OR_MODULE_P() というオブジェクトが Class か Module であること
+を確認するマクロを導入して TYPE() を使った分岐を置き換えています。

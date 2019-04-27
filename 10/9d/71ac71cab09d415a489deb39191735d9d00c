@@ -1,0 +1,3 @@
+r38558 で NameError のメッセージに埋め込む文字列に QUOTE() や QUOTE_ID() を使う
+ようにした修正で一ヶ所 QUOTE() を QUOTE_ID() に間違えていて SEGV していたところ
+を修正しています。

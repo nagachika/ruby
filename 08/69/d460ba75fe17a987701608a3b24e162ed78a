@@ -1,0 +1,4 @@
+r40272 の続き(?) ext/ripper/depend で依存する parse.h と id.h のディレクトリ指
+定を $(top_srcdir) から {$(VPATH)} に変更しています。 parse.h と id.h も生成さ
+れるファイルなので $(topdir) に作られる(かもしれない?)からみたいです。ビルドプ
+ロセス難しいです……。

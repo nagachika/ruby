@@ -1,0 +1,2 @@
+NEWS ファイルに IO#seek の引数に指定できる定数 SEEK_DATA, SEEK_HOLE を追加した
+ことを追記しています。

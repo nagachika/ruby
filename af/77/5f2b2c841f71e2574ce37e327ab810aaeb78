@@ -1,0 +1,2 @@
+test/excludes/TestException.rb というファイルを追加して、make test-all でマシン
+スタックオーバフローについてのテストは --excludes で除外するようにしています。

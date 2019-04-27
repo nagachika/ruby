@@ -1,0 +1,5 @@
+class.c で malloc(3)/free(3) を直接利用していたところがあったので xmalloc()/
+xfree() を利用するようにしています。 xmalloc() (ruby_xmalloc()) はメモリ不足の
+時に GC を走らせて空きを作ろうとしますし、メモリの利用状況が記録されるため GC
+の頻度へ影響するので CRuby では xmalloc() を使うほうが良いのです。
+[ruby-core:61386] [Bug #9616]

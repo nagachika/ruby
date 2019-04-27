@@ -1,0 +1,3 @@
+complex.c の rb_numcomp_add(), rb_numcomp_mul() をそれぞれ rb_complex_plus() と
+rb_complex_mul() に改名しています。一応 export されているシンボルなので拡張ライ
+ブラリも影響を受けるかもしれませんね。

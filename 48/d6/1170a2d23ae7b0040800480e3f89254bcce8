@@ -1,0 +1,2 @@
+ruby の --dump=parsetree_with_comment で || 演算子の AST のダンプ時のコメントが
+&& になっていたので修正しています。

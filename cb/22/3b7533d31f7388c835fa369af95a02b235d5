@@ -1,0 +1,5 @@
+invoke_block_from_c() を invoke_block_from_c_0() と改名して、splattable の有無
+で invoke_block_from_c_splattable() と invoke_block_from_c_unsplattable() とい
+う shortcut 関数を定義するようにしています。また invoke_block_from_c_0() で
+stack frame を積んで vm_exec() を呼ぶ部分を invoke_block() と invoke_bmethod()
+という関数として切り出しています。

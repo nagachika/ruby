@@ -1,0 +1,2 @@
+定数 O_TMPFILE のを FileConstant::TMPFILE として定義するようにしています。
+Linux で使える一時ファイル生成用のフラグですね。

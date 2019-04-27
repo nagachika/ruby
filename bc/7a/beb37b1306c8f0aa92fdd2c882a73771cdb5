@@ -1,0 +1,3 @@
+r44042 で追加したテストで assert_true を使っていたところを assert_predicate を
+使うようにしています。 assert_true は test/unit のメソッドなので minitest のメ
+ソッドを使うようにしています。

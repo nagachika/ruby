@@ -1,0 +1,1 @@
+ext/psych/lib/psych.rb の Psych.to_json の引数名を変更しているだけです。

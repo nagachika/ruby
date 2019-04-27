@@ -1,0 +1,4 @@
+test/ruby/envutil.rb の assert_separately で子プロセスの例外発生時に Exception#
+backtrace が nil のままの場合があるので nil チェックしておくようにしています。
+sigaltstack が使用できない環境でマシンスタックがオーバフローして
+SystemStackError が発生する時にバックトレースが取得できないことがあるそうです。

@@ -1,0 +1,4 @@
+enc/unicode/case-folding.rb で CaseUnfold_11 のテーブルの生成で U+03B9/U+03BC/
+U+A64B の3つの文字は大文字が先に来るように順序をいれかえるようにしています。
+r56941 で enc/unicode.c に入れてた特別処理をこちらで吸収したみたいですね。
+[ruby-core:78410] [Bug #12990]

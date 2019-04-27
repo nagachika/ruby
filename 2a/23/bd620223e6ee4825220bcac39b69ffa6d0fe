@@ -1,0 +1,2 @@
+README.EXT の最後に Appendix C として extconf.rb で使えるメソッドの参照先として
+mkmf.rb の rdoc を指す記述を追加しています。

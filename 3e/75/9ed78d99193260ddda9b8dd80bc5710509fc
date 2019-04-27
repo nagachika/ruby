@@ -1,0 +1,3 @@
+iseq.c の rb_iseq_clone() でも rb_iseq_c を VALUE 型を渡すべき RB_OBJ_WRITE()
+の第1引数に渡してしまっていたので iseq->self を渡すように修正しています。
+[Backport #10140]

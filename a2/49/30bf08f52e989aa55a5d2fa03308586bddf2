@@ -1,0 +1,3 @@
+Process.clock_gettime の clock_id に受け付けるシンボルの
+:POSIX_GETTIMEOFDAY_CLOCK_REALTIME を :SUS_GETTIMEOFDAY_CLOCK_REALTIME に改名し
+ています。

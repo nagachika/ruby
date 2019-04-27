@@ -1,0 +1,4 @@
+r39509、r39510 あたりの標準添付ライブラリ rexml の entity_expansion_limit など
+の制限値の設定を REXML::Document から REXML に移動しましたが、さらに
+REXML::Security という Module を定義してそこに移動しています。
+[ruby-core:52895] [Bug #7961]

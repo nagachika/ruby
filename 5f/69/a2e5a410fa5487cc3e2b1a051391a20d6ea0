@@ -1,0 +1,2 @@
+r56442 で追加した defs/separated_version.mk でリンカへの -Wl,-rpath-link, オプ
+ションを追加するのをプラットフォームの条件分岐内に移動しています。

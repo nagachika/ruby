@@ -1,0 +1,2 @@
+構造体メンバ struct rb_iseq_constant_body::catch_table の型に const 修飾子を追
+加しています。

@@ -1,0 +1,2 @@
+r44234 で test/ruby/test_alias.rb に追加した envutil.rb の require_relative の
+ファイル名が間違っていたのを修正しています。

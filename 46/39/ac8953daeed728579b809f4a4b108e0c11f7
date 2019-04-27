@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の multipart で複数の範囲を含む Content-Type が指定
+された時に IO.copy_stream を利用する実装に変更しています。

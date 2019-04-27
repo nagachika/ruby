@@ -1,0 +1,2 @@
+標準添付ライブラリ Shellwords#shellescape の rdoc のサンプルコードに grep(1) の
+パターンに指定する文字列に使う例を追加しています。

@@ -1,0 +1,4 @@
+$0 への代入(プロセス名の変更)の処理を set_arg0 で環境毎に条件コンパイルしていた
+のを setproctitle() がない環境向けに missing/setproctitile.c を追加してシンプル
+にしています。また setproctitle() も pstat() も使えない環境で argv の領域を直接
+書き換える手法を実装しています。

@@ -1,0 +1,2 @@
+r49826 で tool/merger.rb に追加した teenyup コマンドで TEENY を上げた時も
+patchlevel をインクリメントするようにしています。

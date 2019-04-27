@@ -1,0 +1,3 @@
+rr61498 で Appveyor のために tool/downloader.rb のダウンロード時のリトライを入
+れましたが、捕捉する例外を Errno::ETIMEDOUT に変更しています。元は
+Errno::ECONNREFUSED でしたが、たぶん状況によって両方おきえるんでしょうね。

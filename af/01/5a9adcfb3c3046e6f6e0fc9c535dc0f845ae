@@ -1,0 +1,3 @@
+テスト用のライブラリ test/lib/test/unit/assertions.rb の Test::Unit::Assertions
+#all_assertions を #assert_all_assertions と改名しています。元の名前も alias と
+して残しています。

@@ -1,0 +1,2 @@
+irb.gemspec を追加して irb を default gem にしています。おおー、ついに irb も
+gem 化。といっても rubygems.org には名前だけ予約している状態みたいですけど。

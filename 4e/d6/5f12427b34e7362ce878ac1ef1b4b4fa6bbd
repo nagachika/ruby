@@ -1,0 +1,3 @@
+argf_next_argv() で StringValueCStr() のかわりに FilePathValue() を使うようにし
+ています。 ARGF のファイルパスでも to_path で文字列化するようにしています。ARGF
+を素直に使ってたら普通はもとから文字列だと思いますけどね。

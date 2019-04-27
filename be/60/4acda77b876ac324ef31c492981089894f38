@@ -1,0 +1,4 @@
+オブジェクトの型変換用の関数群 convert_type(), rb_convert_type(),
+rb_check_convert_type(), rb_to_integer() でエラー時にオブジェクトのクラス名をメ
+ッセージに含める時に PRIsVALUE を利用して文字列オブジェクトのまま埋め込むように
+することでエンコーディングを保持したままメッセージ生成をするようにしています。

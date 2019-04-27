@@ -1,0 +1,2 @@
+file.c に不要な #undef flock があったのを削っています。 [ruby-core:66503] [Bug
+#10551]

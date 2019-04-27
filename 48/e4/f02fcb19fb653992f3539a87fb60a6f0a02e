@@ -1,0 +1,3 @@
+test/ruby/test_jit.rb で MJIT がサポートされてない環境ではテストクラス/テストメ
+ソッド定義前に toplevel return で抜けてましたが、setup メソッドで明示的に skip
+で飛ばすようにしています。

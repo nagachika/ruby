@@ -1,0 +1,3 @@
+r66228 で COLDFUNC という attribute 用のマクロが追加されたので、vm_insnhelper.c
+で元々 cold という attribute をつけてたところをこのマクロを利用するように置き換
+えています。

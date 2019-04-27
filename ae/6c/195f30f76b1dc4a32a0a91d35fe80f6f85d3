@@ -1,0 +1,2 @@
+Range#hash の実装でも同様に hash の値が Fixnum に収まるように修正しています。
+[ruby-core:92194] [Bug #15757]

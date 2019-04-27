@@ -1,0 +1,3 @@
+r53972 と同様に標準添付ライブラリ fileutils の Verbose, NoWrite, DryRun などの
+Module で private の呼び出しも1回の呼び出しに複数の引数を渡すように変更していま
+す。

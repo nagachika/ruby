@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の BigDecimal 同士の除算で結果の精度が足りなくなる不
+具合を修正しています。 [ruby-core:59365] [Bug #9316] [Bug #9305]

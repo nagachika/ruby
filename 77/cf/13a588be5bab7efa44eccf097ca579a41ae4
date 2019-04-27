@@ -1,0 +1,3 @@
+test/ruby/test_eval.rb の test_ev というメソッドがテストメソッドでなはなくてユ
+ーティリティメソッドだったので test_ という prefix はやめて make_test_binding
+という名称に改名しています。

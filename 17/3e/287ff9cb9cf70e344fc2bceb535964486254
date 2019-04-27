@@ -1,0 +1,5 @@
+拡張ライブラリ socket の Socket.gethostname でホスト名をスタック上の
+RUBY_MAX_HOST_NAME_LEN+1 までのバッファで受け取って切り詰めていたのを、String
+オブジェクトを利用して gethostname(3) が errno=ENAMETOOLONG で失敗したら文字列
+バッファを伸ばしてリトライするようにして、もっと長いホスト名を取得できるように
+しています。

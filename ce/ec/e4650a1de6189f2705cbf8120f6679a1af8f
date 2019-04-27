@@ -1,0 +1,5 @@
+r36616 以降 protected なメソッドを持つ Module を extend したクラスから super が
+呼べないという不具合を修正しています。Module の IClass の時の klass を辿る不要
+な処理の削除と invoke_block_from_c() にメソッドの定義されたクラスを明示的に渡す
+ように修正されているのがメインだと思います。ついでに(?) rb_vm_invoke_block() と
+いう関数の引数が変化しています(常に別の引数から得ていたものを削除)。

@@ -1,0 +1,4 @@
+README.EXT に extconf.rb についての記述を追記して、Appendix C を削除しています
+。 [ruby-core:45347] [Feature #6522]
+また lib/mkmf.rb の rdoc に多少の修正が入っています。 README.EXT の Appendix C
+の内容がちゃんと移動されているのか疑問ですが、消さなくても良かったような。

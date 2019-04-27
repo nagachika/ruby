@@ -1,0 +1,5 @@
+gc.c の RVALUE_PAGE_WB_UNPROTECTED() の引数名を typo していたのを修正。うーん、
+引数名の page を agpe に間違えてたのですが、なぜ気がつかなかったのかというとこ
+のマクロを呼ぶところでは常に page という変数があって、それをこの引数に渡してい
+たので、展開結果はたまたま一致していたという。なるほどなぁ…。 https://
+github.com/ruby/ruby/pull/1221

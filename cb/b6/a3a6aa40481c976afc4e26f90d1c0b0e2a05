@@ -1,0 +1,3 @@
+昔 r43047 で AddressSanitizer のチェックに gc.c の関数がひっかかるので導入して
+た NO_SANITIZE() というマクロを gc_mark_maybe() と is_pointer_to_heap() の宣言
+に利用しています。 [Bug #8680]

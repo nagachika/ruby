@@ -1,0 +1,3 @@
+node_extended_grapheme_cluster() で複数の property node のリストを作る時に
+Grapheme_Cluster_Break={L,VL,V,T} の順番を変更しています。よくわかりませんがハ
+ングルの文字の順番についてらしい。

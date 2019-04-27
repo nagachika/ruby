@@ -1,0 +1,2 @@
+標準添付ライブラリ base64 とそのテストの magic comment frozen_string_literal を
+true に変更しています。

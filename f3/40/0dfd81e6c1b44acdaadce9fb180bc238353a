@@ -1,0 +1,2 @@
+rb_vm_ep_in_heap_p() も th でなく ec だけ使えばよかったので GET_THREAD() を
+GET_EC() に変更しています。

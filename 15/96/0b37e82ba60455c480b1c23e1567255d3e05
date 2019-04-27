@@ -1,0 +1,5 @@
+標準添付ライブラリ ostruct で OpenStruct.allocate を new の alias として定義す
+るようにしています。 Psych.load で YAML にダンプされたものをロードした時の
+respond_to? の呼び出しで @table が nil の状態で respond_to_missing? に委譲され
+て NoMethodError になるという問題の対策みたいです。 [ruby-core:72501] [Bug #
+11884]

@@ -1,0 +1,3 @@
+win32/Makefile.sub で config.status を生成する時に埋め込む config.h のパスを直
+に書くのではなく RUBY_CONFIG_H を参照するようにしています。おそらく config.h が
+生成されるパスの違いを吸収できるようにしているのでしょう。

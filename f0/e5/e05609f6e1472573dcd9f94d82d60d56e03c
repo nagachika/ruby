@@ -1,0 +1,5 @@
+r58390 で VM の once 命令(ってのがあったんですね。正規表現の o オプション用でし
+たか。 http://d.hatena.ne.jp/nagachika/20140912/ruby_trunk_changes_47539_47560#
+r47542 参照)の実装として分離された vm_once_dispatch() で Thread が切り替わるの
+を待つのに再帰呼び出ししてしまっていたので、再帰が深くなって stack overflow し
+てしまう可能性があったのを修正しています。

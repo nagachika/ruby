@@ -1,0 +1,3 @@
+Refinement の修正です。 Module#refine の中で Module#prepend した時の挙動の修正
+のため、生成した IClass のメソッドテーブルを元のモジュールからコピーする処理を
+追加しています。

@@ -1,0 +1,3 @@
+拡張ライブラリ thread の SizedQueue#push に pop と同様に第2引数に true を追加す
+るとブロックしない push ができるように拡張しています。 [ruby-core:63794]
+[Feature #10052]

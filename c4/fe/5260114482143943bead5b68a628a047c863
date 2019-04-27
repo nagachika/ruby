@@ -1,0 +1,3 @@
+GC::Profiler.clear の最初に rest_sweep() を呼んで Lazy Sweep 中だったら sweep
+を完了させるようにしています。 Lazy Sweep 中は profile.current_record を触って
+しまう可能性があるため一旦 sweep を完了させるとのことです。

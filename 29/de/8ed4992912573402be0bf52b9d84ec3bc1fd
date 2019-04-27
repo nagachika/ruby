@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb で一時ファイルや名前つきパイプ、UNIXソケット
+などを setup で常に作成するのではなく必要に応じて作成するように修正しています。

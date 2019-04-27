@@ -1,0 +1,4 @@
+doc/dtrace_probes.rdoc という DTrace の仕様についてのドキュメントを追加していま
+す。 bugs.ruby-lang.org の Wiki にあったものを移植してきているそうです。そうい
+えばこの Wiki の記述って今の実態に合ってるんでしょうか。あと今後はどちらが
+master になるんでしょうね。

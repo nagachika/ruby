@@ -1,0 +1,5 @@
+ALLOCA_N() の定義に __builtin_alloca_with_align() を使う時に alignment の指定を
+sizeof(type) ではなく RUBY_ALIGNOF(type) の整数倍で確保するようにしています。
+win32ole に ALLOCA_N(struct myCPINFOEX, 1) のような指定があったので、構造体サイ
+ズで alignment とる必要はないので、必要な alignment を取得してそれを使うように
+しています。

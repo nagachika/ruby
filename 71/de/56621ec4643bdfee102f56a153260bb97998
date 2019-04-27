@@ -1,0 +1,4 @@
+rb_str_enumerate_grapheme_clusters() で文字列の encoding が Unicode 系ではなか
+った時に rb_str_enumerate_codepoints() を呼んでいたのを rb_str_enumerate_chars
+() に変更しています。 codepoint だと数値を返してしまうので、各 encoding におけ
+る文字単位に分解するようにしています。 [ruby-core:82233] [Feature #13780]

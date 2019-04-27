@@ -1,0 +1,4 @@
+r43215 の Module の attr 系のメソッドに渡された不正な文字列のエンコーディングを
+保持する変更のテストで、文字列のエンコーディングがテスト実行中の
+default_internal もしくは default_external と異なる場合は String#inspect で
+quote して比較するようにしています。

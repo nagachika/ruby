@@ -1,0 +1,5 @@
+openssl と zlib の extconf で message メソッドを利用するかわりに
+Logging::message を使っています。標準出力にメッセージを出すのではなくてログファ
+イル(mkmf.log)にメッセージを残すようにしています。
+[追記]extconf.rb から mkmf を呼ぶと message で標準出力にもメッセージが出ない状
+態だったそうです。コメント欄参照[/追記]

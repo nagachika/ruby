@@ -1,0 +1,4 @@
+ext/extmk.rb で mkmf.log にログ出力する内容が別の拡張ライブラリのログに出ていた
+りする不具合を修正しています。よく内容は理解できていませんが $stdout, $stderr
+をきりかえる処理を mkmf.rb の提供する Logging モジュールの open, log_close メソ
+ッドを利用するようにしています。 [ruby-dev:47215] [Bug #8209]

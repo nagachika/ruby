@@ -1,0 +1,3 @@
+標準添付ライブラリ pp で File::Stat を表示する時に rdev_major と rdev_minor が
+存在しないプラットフォーム(Windows)のことを考慮していなかったのを修正しています
+。

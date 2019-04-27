@@ -1,0 +1,2 @@
+r65204 で追加した configure のオプション --disable-mjit/--enable-mjit を
+--disable-mjit-support/--enable-mjit-support に改名しています。

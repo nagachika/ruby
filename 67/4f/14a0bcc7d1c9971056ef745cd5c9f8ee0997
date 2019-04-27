@@ -1,0 +1,2 @@
+拡張ライブラリ objspace, coverage, date などが thread_pthread.h を間接的に #
+include していたのでビルド時の依存関係を追加しています。

@@ -1,0 +1,2 @@
+rb_big2ulong() で sizeof(VALUE) が sizeof(long) より大きな環境でキャストのミス
+でオーバフローしていたのを修正しています。C 言語難しい……。

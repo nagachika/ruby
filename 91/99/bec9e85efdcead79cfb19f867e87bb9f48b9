@@ -1,0 +1,4 @@
+拡張ライブラリ openssl で OpenSSL 1.1.0 で deprecated とされた
+RAND_pseudo_bytes() が利用可能かチェックするようにして、利用できなかったら
+Random.pseudo_bytes を定義しないようにしています。 [ruby-core:75225] [Feature #
+12324]

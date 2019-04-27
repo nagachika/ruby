@@ -1,0 +1,3 @@
+標準添付ライブラリ net/imap の GMail 対応で "MIXED" という body type に対応して
+いるそうです。 [ruby-core:62864] [Bug #9885] https://github.com/ruby/ruby/pull/
+622

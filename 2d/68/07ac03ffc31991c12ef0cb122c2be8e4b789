@@ -1,0 +1,3 @@
+error.c の rb_assert_failure() の宣言に MJIT_FUNC_EXPORTED をつけて MJIT 用に
+export するようにしています。 VM_CHECK_MODE が 1以上の時だけ参照しているようで
+す。

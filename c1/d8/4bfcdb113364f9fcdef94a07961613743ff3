@@ -1,0 +1,2 @@
+Ripper が rescue を修飾子として使う構文(後置 rescue) を rescue の前後を逆にした
+ノードを返してしまう不具合を修正しています。 [ruby-core:36248] [Bug #4716]

@@ -1,0 +1,2 @@
+OpenStruct のテストで singleton_methods の結果の順序に依存した assertion があっ
+たので sort してから比較するように修正しています。

@@ -1,0 +1,3 @@
+r50522 および r50538 の続きで num_positive_p() が Qtrue, Qfalse でなくて C の真
+偽値を返すようになっていたので、明示的に Qtrue, Qfalse を返すように修正していま
+す。 [ruby-core:69173] [Feature #11151]

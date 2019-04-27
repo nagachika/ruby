@@ -1,0 +1,2 @@
+lib/racc/parser.rb の copyright 表示を rdoc のドキュメンテーション対象から外す
+ようにしています。

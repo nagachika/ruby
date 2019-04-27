@@ -1,0 +1,3 @@
+rb_execarg_init() および rb_execarg_new() の VALUE* の引数に const 修飾子をつけ
+ています。そのぶん rb_execarg_init() で argv をコピーしているのがちょっと気にな
+りますけど。

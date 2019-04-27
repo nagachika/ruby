@@ -1,0 +1,5 @@
+条件コンパイルで ALLOW_DEFAULT_SOURCE_ENCODING というマクロを直接参照していたけ
+ど定義されていなかったので defined ALLOW_DEFAULT_SOURCE_ENCODING &&
+ALLOW_DEFAULT_SOURCE_ENCODING に変更して警告除去。
+  • E オプションにソースエンコーディングの指定も追加できるようにコンパイルでき
+    るみたいですが現在は無効になっています。

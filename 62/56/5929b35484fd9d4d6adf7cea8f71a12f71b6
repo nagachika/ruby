@@ -1,0 +1,2 @@
+Signal.kill して SignalException を受け取るテストにも同様にコメントを追加してい
+ます。

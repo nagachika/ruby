@@ -1,0 +1,2 @@
+thread.c と time.c で time_t 型の変数の fprintf(3) フォーマットの指示子を
+PRI_TIMET_PREFIX というマクロを使うように修正しています。

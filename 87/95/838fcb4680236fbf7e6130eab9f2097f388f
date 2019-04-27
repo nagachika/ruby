@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の 2.0.3 をマージしています。変更内容 https://github.com
+/ruby/openssl/compare/v2.0.2...v2.0.3
+Windows でのビルドの修正や OpenSSL::X509::Name#eql? の不具合修正などが含まれて
+いるようです。 [ruby-core:78878] [Bug #13080] [ruby-core:79310] [Bug #13170]

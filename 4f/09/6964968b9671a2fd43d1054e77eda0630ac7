@@ -1,0 +1,2 @@
+標準添付ライブラリ xmlrpc の rdoc 用コメントに利用できる parser 実装の説明に
+URL や簡単な説明を追加しています。 https://github.com/ruby/ruby/pull/1124

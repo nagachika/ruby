@@ -1,0 +1,3 @@
+Kernel#kill でシグナル送信すると rb_thread_polling() を呼んで 100msec の待ちが
+発生していたので、 rb_thread_polling() 呼び出しを削除しています。
+[ruby-core:50897] [Bug #7560]

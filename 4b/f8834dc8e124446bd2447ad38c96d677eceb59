@@ -1,0 +1,4 @@
+r63758 の SIGCHLD の配送を独自に管理する変更で timer thread で SIGCHLD の受信を
+検出するための sigchld_hit という変数の型を rb_atomic_t に変更して代入を
+ATOMIC_EXCHANGE() を利用するようにしています。手元でテストでハングしてたのはこ
+れかも。

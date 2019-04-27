@@ -1,0 +1,4 @@
+private_constant に複数の引数が渡されていて、途中で NameError が発生した場合に
+(r33935 よりも前は成功した時も) inline cache のクリア処理がされていないため、
+private_constant の指定をする前にその定数を参照済みのメソッドなどはそのまま参照
+できるケースがありえたのを修正しています。 [ruby-dev:44929] [Backport #5702]

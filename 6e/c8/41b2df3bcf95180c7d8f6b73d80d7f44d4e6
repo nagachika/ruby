@@ -1,0 +1,3 @@
+FileUtils.compare_stream のテストで IO#read の呼び出しを利用するバッファ用の
+String オブジェクトを引数に渡す呼び方にすることで高速化しています。
+[ruby-core:39622] [Feature #5337]

@@ -1,0 +1,7 @@
+r66446 で割り込みタイマーが POSIX timer による実装の時の ubf_timer_destroy() で
+timer_posix.state を ATOMIC_CAS() でチェックしつつ RTIMER_DEAD に遷移させるよう
+にしたやつの続き。ubf_timer_disarm() で既に timer_posix.state が RTIMER_ARMED
+になっていた時に timer_settime() で即刻タイマー発火させようとした時に errno=
+EINVAL で帰ってきた時は main thread で ubf_timer_destroy() が呼ばれた場合がある
+ので rb_bug() で異常終了させていたのを、この条件の時は正常に抜けるようにしてい
+ます。

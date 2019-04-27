@@ -1,0 +1,6 @@
+tool/make-snapshot で gems/bundled_gems に記述された gem パッケージは rubygems
+.org からダウンロードして gems/ に置くようにしています。昨日 r46513 で gems/ に
+置かれた gem パッケージはインストール時に同時にインストールするようにしたので、
+その続きのようですね。そして gems/bundled_gems には test-unit-2.5.5 と
+minitest-5.3.4 が記述されているのでこの2つがパッケージに含まれるようになるみた
+いです。 [ruby-core:62676] [Feature #9852]

@@ -1,0 +1,2 @@
+標準添付ライブラリ net/http の Net::HTTPHeader#each_capitalized_name のテストを
+追加しています。

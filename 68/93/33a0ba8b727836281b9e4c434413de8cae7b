@@ -1,0 +1,3 @@
+test/testunit/ のしたのいくつかのテストで IO.pipe と spawn を使って書かれていた
+テストは IO.popen を使って書き変えることで zombie プロセスが残っていたのに対処
+しています。

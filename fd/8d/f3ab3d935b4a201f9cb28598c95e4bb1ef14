@@ -1,0 +1,4 @@
+Kernel#sprintf や String#% メソッドでフォーマット文字列の末尾に "%" が単独で存
+在していた時に無視して "%" という文字列にしていたのを、例外を発生させるようにし
+ています。 https://github.com/ruby/ruby/pull/1560 [ruby-core:80153] [Bug #
+13315]

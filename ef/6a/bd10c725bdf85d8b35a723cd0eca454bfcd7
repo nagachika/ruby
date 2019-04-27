@@ -1,0 +1,2 @@
+標準添付ライブラリ lib/profiler.rb で set_trace_func のかわりに TracePoint を利
+用するようにしています。

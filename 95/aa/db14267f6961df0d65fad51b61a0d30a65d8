@@ -1,0 +1,2 @@
+標準添付ライブラリ net/http でも 451 を表すクラス
+Net::HTTPUnavailableForLegalReasons を導入しています。

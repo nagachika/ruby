@@ -1,0 +1,5 @@
+rb_threadptr_execute_interrupts_common() を rb_threadptr_execute_interrupts()
+として改名しています。rb_threadptr_execute_interrupts() は同じ引数で
+rb_threadptr_execute_interrupts_common() を呼んでいるだけで実質同じ関数で、
+rb_threadptr_execute_interrupts_common() のほうは static だったので外から見える
+影響もありません。

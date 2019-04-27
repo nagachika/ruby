@@ -1,0 +1,4 @@
+r44228 で追加した GC.verify_internal_consistency の実装で全オブジェクトをスキャ
+ンするのに rb_objspace_each_objects() を呼んでいたのを objspace_each_objects()
+を直接利用するようにしています。 rb_objspace_each_objects() は rest_sweep() を
+呼んでしまうためだそうです。

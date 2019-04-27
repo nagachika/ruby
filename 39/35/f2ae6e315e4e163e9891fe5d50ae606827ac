@@ -1,0 +1,4 @@
+r45423 の追加修正で marshal_dump メソッドが remove_method で消されても、struct
+RBasic::klass が 0 の内部的オブジェクトは Marshal.dump でダンプできないようにす
+ることで Queue や ConditionVariable がダンプできないようにしています。
+[ruby-core:61677] [Bug #9674]

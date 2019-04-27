@@ -1,0 +1,2 @@
+拡張ライブラリ openssl でも OpenSSL::BN や OpenSSL::Cipher を TypedData を使っ
+た実装に変更しています。

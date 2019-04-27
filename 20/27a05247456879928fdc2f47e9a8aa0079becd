@@ -1,0 +1,3 @@
+r39349 で test/ruby/test_process.rb に入った関係なさそうな sleep を削除していま
+す。
+あーこれ kosaki さんに確認するの忘れてた。

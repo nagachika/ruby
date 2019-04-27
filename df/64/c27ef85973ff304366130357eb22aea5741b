@@ -1,0 +1,3 @@
+tool/downloader.rb が 1.8 でうまく動かないので、古い BASERUBY でもインストール
+できるように対応。1.8 で class_variable_set が private だったので呼べなかったの
+で、専用のクラスメソッドを定義して利用するようにしています。

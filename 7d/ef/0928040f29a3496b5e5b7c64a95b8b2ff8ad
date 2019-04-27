@@ -1,0 +1,3 @@
+Windows の古い VC で long long から double への変換ができないそうで(えー)、
+ULL_TO_DOUBLE() という unsigned long long から double への変換マクロを定義して
+bignum.c や numeric.c でこれを利用するようにしています。

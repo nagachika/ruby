@@ -1,0 +1,2 @@
+doc/extension.rdoc に CRuby の Thread の実装と GVL/IO-blocking についてのドキュ
+メントを追記しています。 [ruby-core:82016] [Feature #13740]

@@ -1,0 +1,2 @@
+FileUtils.touch に :mtime と :nocreate と :verbose を指定した時に出力されるメッ
+セージにまだ空白が足りてなかったのを修正しています。 [ruby-dev:43401]

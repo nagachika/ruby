@@ -1,0 +1,3 @@
+proc.c の Module#define_method や UnboundMethod#bind、Method#inspect などで例外
+を発生させる時の例外メッセージや inspect の結果へ埋め込む文字列を C言語の文字列
+(char *)ではなく String オブジェクトのまま渡すようにしています。

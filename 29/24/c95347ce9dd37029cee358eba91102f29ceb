@@ -1,0 +1,2 @@
+新規追加された ext/-test-/win32/fd_setsize/ で mkmf の生成するファイルを svn
+:ignore に設定しています。

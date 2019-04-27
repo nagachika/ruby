@@ -1,0 +1,3 @@
+String#hash で st_index_t の値を INT2FIX() で変換していましたが Fixnum に収まる
+とはかぎらないので ULONG2NUM() もしくは ULL2NUM() を使って Integer に変換するよ
+うにしています。

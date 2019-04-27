@@ -1,0 +1,2 @@
+RGenGC の shady 対策としてあちこちで読み込みのみの RARRAY_PTR() を
+RARRAY_CONST_PTR() に変更しています。

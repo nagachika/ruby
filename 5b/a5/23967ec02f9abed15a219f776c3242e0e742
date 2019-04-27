@@ -1,0 +1,2 @@
+r43119 で一度大きくした GC の実施を制御する閾値 GC_MALLOC_LIMIT_MAX を 512MB か
+ら 384MB に再度調整しています。 512MB is huge.

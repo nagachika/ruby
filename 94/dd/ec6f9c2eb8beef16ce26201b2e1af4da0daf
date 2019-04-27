@@ -1,0 +1,2 @@
+rubyspec に String#downcase, #upcase, #capitalize などのメソッドの Unicode 対応
+についてのテストを追加しています。

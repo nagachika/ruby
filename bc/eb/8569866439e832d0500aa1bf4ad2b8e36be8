@@ -1,0 +1,2 @@
+標準添付ライブラリ csv の CSV.parse_line の rdoc 用コメントの typo や文法の修正
+。 https://github.com/ruby/ruby/pull/430

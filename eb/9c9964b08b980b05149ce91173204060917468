@@ -1,0 +1,2 @@
+Enumerable#sum の enum_sum() から r55034 で追加した整数の Range 向けの最適化部
+分を int_range_sum() という関数に切り出すリファクタリング。

@@ -1,0 +1,5 @@
+parse.y のブロックで cmdarg_stack にブロックの内容の NODE をセットする時に $
+<num>2 で参照していたのですが、NODE は VALUE なので VALUE が int よりもサイズが
+大きくてかつ big endian な環境で誤って上位の int 幅のデータを参照してしまってい
+た不具合を修正しています。具体的には PPC64 環境だそうで。 [ruby-core:77920]
+[Bug #12900]

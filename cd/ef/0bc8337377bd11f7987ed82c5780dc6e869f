@@ -1,0 +1,4 @@
+rb_popcount32() および rb_popcount64() で可能なら組み込み関数
+__builtin_popcount() や __builtin_popcountll() を利用するようにして、この組み込
+み関数が使える場合は count_utf8_lead_bytes_with_word() で利用するように最適化し
+ています。

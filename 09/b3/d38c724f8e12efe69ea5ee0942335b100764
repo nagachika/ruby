@@ -1,0 +1,4 @@
+Enumerator::ArithmeticSequence#each の実装でループの大小比較に rb_int_ge() を使
+っていたのを NUM_GE() を使っています。 Rational を使った Range の step で作った
+時などに期待したように値が返されなかった不具合を修正。 [ruby-core:90648] [Bug #
+15444]

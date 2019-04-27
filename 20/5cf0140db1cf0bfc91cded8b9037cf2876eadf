@@ -1,0 +1,4 @@
+Time のテストで Time.iso8601 Time.xmlschema などのメソッド毎のテストを Object#
+__send__ を使って共通化しているメソッドのひとつ subtest_xmlschema_alias で
+Time.iso8601 を固定的に呼んでしまっていたので、引数の method を使うように修正し
+ています。

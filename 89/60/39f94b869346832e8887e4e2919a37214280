@@ -1,0 +1,3 @@
+cygwin/GNUmakefile.in で EXTOBJS への追加代入に override という directive を指
+定してコマンドラインで指定されていても常にこの makefile 内の記述を利用するよう
+にしています。 [ruby-core:67153] [Bug #10657]

@@ -1,0 +1,6 @@
+標準添付ライブラリ net/imap で send_string_data から send_literal に引数を1つだ
+け渡して呼ばれているけど、実際には 2つ引数が必要だったため ArgumentError が発生
+する状態だったようなので、第2引数を省略可能にしています。ついでに(?)
+send_string_data も第2引数に tag を受け付けることができるようにして send_data
+から tag を引き回すようにしています。 r58792 の時の追加漏れだったみたいですね。
+[ruby-core:86990] [Bug #14750]

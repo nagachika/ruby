@@ -1,0 +1,6 @@
+拡張ライブラリ fiddle の extconf.rb でバンドルされている libffi でインストール
+しようとするとコンパイルエラーになることがあるのを修正。共有ライブラリとしてリ
+ンクされる場合に -fPIC などの適切なオプションをつけてコンパイルされるように
+--enable-shared/--enable-static オプションつきで libffi をビルドするようにして
+います。ライブラリを libffi.a から libffi_convinience.a にしているのはなんでし
+ょうね。 [ruby-core:67128]

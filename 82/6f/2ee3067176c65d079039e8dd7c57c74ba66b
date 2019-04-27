@@ -1,0 +1,5 @@
+Marshal.load の第2引数で渡す Proc オブジェクトで load したオブジェクトを置換で
+きる機能で、同一のオブジェクトを Marshal.dump した時に参照をダンプする
+TYPE_LINK を load した時にもこの Proc オブジェクトが返したオブジェクトを load
+結果に反映させるようにしています。 https://github.com/ruby/ruby/pull/1204
+Marshal.load が Proc オブジェクトを受け取って変換できるの知らなかった…。

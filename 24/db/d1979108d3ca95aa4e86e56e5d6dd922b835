@@ -1,0 +1,4 @@
+tool/merger.rb がマージ元ブランチを認識するために .svn/entries を読んでいたのを
+subversion 1.7 からは .svn ディレクトリが working copy のトップレベルのディレク
+トリにのみ置かれるようになったのに対応するため svn info の出力を検査するように
+変更しています。

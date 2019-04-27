@@ -1,0 +1,8 @@
+拡張ライブラリ objspace で追加される ObjectSpace.count_tdata_objects のドキュメ
+ントが count_nodes と同じになっていたので正しいドキュメントを追加。
+[ruby-dev:42321] [Bug #3892]
+また rb_objspace_data_type_name() の宣言を internal.h に追加して内部で利用でき
+るようにして、ObjectSpace.count_tdata_objects で klass が 0 になっている内部的
+なオブジェクトはハッシュのキー false のところに集計さえていたのを
+rb_objspace_data_type_name() を使って TypedData の場合は名前を取得してシンボル
+にしてキーにするようにしています。

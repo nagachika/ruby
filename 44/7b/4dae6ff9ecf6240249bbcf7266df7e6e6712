@@ -1,0 +1,3 @@
+r66366 と同じく ISeq の binary format からのロード時に
+rb_iseq_constant_body::flags::has_kw もコピーするようにしています。また初期化し
+ておくようにしています。

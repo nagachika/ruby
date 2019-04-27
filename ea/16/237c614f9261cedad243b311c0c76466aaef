@@ -1,0 +1,4 @@
+configure の --with-opt-dir で指定したディレクトリの include や lib を ruby 本
+体のビルド時の CPPFLAGS に反映させるようにしています。 libexecinfo のインストー
+ル先を指定することでバックトレース出力を有効にしようとして --with-opt-dir が効
+かなかったからとのことです。 [ruby-dev:46064] [Bug #6900]

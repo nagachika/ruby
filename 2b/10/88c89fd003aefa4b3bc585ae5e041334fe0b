@@ -1,0 +1,1 @@
+rb_thread_id_t を rb_nativethread_id_t に改名しています。

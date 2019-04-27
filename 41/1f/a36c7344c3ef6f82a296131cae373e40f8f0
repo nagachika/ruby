@@ -1,0 +1,2 @@
+Bitmap Marking の変更で利用する posix_memalign memalign のチェックを configure
+に追加して、その結果を条件コンパイルに利用するようにしています。

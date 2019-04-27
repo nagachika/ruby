@@ -1,0 +1,3 @@
+r56975 で enc/unicode/case-folding.rb で U+03B9/U+03BC/U+A64B のための casemap
+の特殊処理を入れたので 56941 での enc/unicode.c での特別扱いは削除しています。
+[ruby-core:78410] [Bug #12990]

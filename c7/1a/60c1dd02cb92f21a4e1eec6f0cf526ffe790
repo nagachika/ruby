@@ -1,0 +1,4 @@
+FreeBSD 11.0 で File.stat の atime のテストが失敗していたそうで、 mswin か
+mingw でスキップするようにしていた File::Stat#atime のテストを実際に atime を取
+得して mtime よりも新しく更新されているかをチェックしてからテストするように修正
+しています。 [ruby-core:77943] [Bug #12903]

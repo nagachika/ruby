@@ -1,0 +1,3 @@
+make commit でリポジトリからの更新を取り込む前に sed で common.mk と Makefile
+.in の @VAR@ のような変数参照を消したり Makefile.in の all-incs の依存関係の記
+述を消するようにしています。うーん謎だ。

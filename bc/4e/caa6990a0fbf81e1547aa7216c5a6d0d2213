@@ -1,0 +1,3 @@
+r63879 で追加したテストで Signal.trap で SIGCHLD のハンドラを ensure 節で元に戻
+してましたが、SIGCHLD がない環境で skip した時も ensure 節は通るのでこの時は無
+視するようにしています。 [ruby-core:87860] [Bug #14867]

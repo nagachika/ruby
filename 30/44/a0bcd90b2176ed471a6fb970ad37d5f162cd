@@ -1,0 +1,3 @@
+r52050 の Proc#call のスタックフレームを省略する最適化で rdoc 用コメントが別名
+(#call, #[ ] や #yield)が認識されるように #if 0 でコメントアウトして
+rb_define_method() の呼び出しを書いています。 [ruby-core:75256] [Bug #12332]

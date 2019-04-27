@@ -1,0 +1,3 @@
+r60279 の Windows での Etc.sysconfdir の対応が r60399 で revert されてたのでそ
+のリベンジ。 ext/etc/extconf.rb で RbConfig::CONFIG のチェックを追加しています
+。 [ruby-core:43110] [Bug #6121]

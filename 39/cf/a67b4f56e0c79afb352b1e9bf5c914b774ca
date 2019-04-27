@@ -1,0 +1,3 @@
+__builtin_assume_aligned() というコンパイラ拡張があれば reinterpret_cast() とい
+うマクロに定義するようにして、ポインタを任意の型にキャストして deference する時
+に使うようにしています。

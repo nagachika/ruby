@@ -1,0 +1,3 @@
+util.c で HAVE_LONG_LONG が偽の時は NO_LONG_LONG というマクロを定義するようにし
+ています。コメントで long long が使えない環境では NO_LONG_LONG を定義することと
+書かれてて、実際 ULLong の定義で参照されています。

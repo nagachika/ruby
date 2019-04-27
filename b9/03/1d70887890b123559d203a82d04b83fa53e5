@@ -1,0 +1,2 @@
+doc/extension(.ja).rdoc で rb_data_type_t の定義に typedef の部分も追記していま
+す。 https://github.com/ruby/ruby/pull/1707

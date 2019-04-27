@@ -1,0 +1,2 @@
+r52902 で追加した io/console の IO#getpass のテストで子 Thread の終了を helper
+のブロック内で待つようにしています。

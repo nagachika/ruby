@@ -1,0 +1,2 @@
+r30271 の SystemExit#success? の修正で Windows(WIFEXITED, WEXITSTATUS マクロの
+ない環境)でコンパイルエラーになってしまうので対応。

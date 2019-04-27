@@ -1,0 +1,3 @@
+拡張ライブラリ json の ext/json/generator/generator.h のマクロ GENERATE_JSON()
+で TypedData_Get_Struct() を利用していたところを GET_STATE_TO() というこの型専
+用のマクロを利用するように修正しています。

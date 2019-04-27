@@ -1,0 +1,3 @@
+r57395 で extinit.c のテンプレートを template/extinit.c.tmpl に切り出したので
+extinit.c の作りなおしができるように EXTINITS 変数を sub make に伝播させるよう
+に ext/extmk.rb で submakeopts に追加しています。

@@ -1,0 +1,4 @@
+r65695 の revision.h の更新を毎回するかどうか(BASERUBY があるかどうか)のチェッ
+クは defs/gmake.mk から template/GNUmakefile.in に移動しています。よくわかって
+ないんですが問題の common.mk の revision.h のルールの前に変数を定義しておくため
+、かな?

@@ -1,0 +1,2 @@
+r53671 で追加した String の capacity についてのテストで rbconfig/sizeof が必要
+だったので require を追加しています。

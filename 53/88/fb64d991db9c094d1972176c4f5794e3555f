@@ -1,0 +1,5 @@
+標準添付ライブラリ tempfile.rb に Tempfile.create というメソッドを新設していま
+す。 Tempfile.new と違うのは、ブロックなして呼ばれた時に返るのが Tempfile オブ
+ジェクトではなく File オブジェクトであるということと、ブロックつきで呼ばれた時
+にメソッドから抜ける時に close だけでなく unlink もするという点です。
+[ruby-dev:47220] [ruby-core:41478] [Feature #5707]

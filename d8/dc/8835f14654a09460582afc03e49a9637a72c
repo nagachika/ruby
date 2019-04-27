@@ -1,0 +1,2 @@
+rb_threadptr_stack_overflow() を rb_during_gc() が真の時に呼び出したら rb_fatal
+() で異常終了するようにしています。 [ruby-core:81689] [Bug #13662]

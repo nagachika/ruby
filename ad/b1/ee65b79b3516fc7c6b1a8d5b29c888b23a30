@@ -1,0 +1,3 @@
+doc/ChangeLog-YARV、test/rexml/data/tutorial.xml や lib/rubygems/
+specification.rb、test/ruby/test_settracefunc.rb、tool/instruction.rb のコメン
+トの typo 修正。 https://github.com/ruby/ruby/pull/482

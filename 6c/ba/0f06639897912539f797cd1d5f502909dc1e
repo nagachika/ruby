@@ -1,0 +1,5 @@
+vm_insnhelper.c で余分な代入文の重複を削除。 Coverity Scan による検出だそうです
+。
+VALUE epc = epc = val
+こんな C言語の文なんですけど、これが「undefined behavior」なんだそうです。ふー
+む。

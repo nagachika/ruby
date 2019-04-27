@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile の Tempfile#inspect で close 済みのファイルは
+(closed) という文字列を含めるようにしています。

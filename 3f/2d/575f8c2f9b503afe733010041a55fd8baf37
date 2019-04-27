@@ -1,0 +1,4 @@
+標準添付ライブラリ delegate の rdoc コメントのサンプルから不要な initialize メ
+ソッドの再定義を消しています。Delegator#initialize が __setobj__ を呼ぶようにな
+っているので __setobj__ が再定義されていれば initialize は再定義する必要がない
+ということのようですね。

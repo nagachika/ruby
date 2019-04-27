@@ -1,0 +1,2 @@
+r41009 で追加した Socket::Option#inspect から使う inspect_byte() という関数は
+NetBSD の時にしか使われないので #ifdef __NetBSD__ でくくっています。

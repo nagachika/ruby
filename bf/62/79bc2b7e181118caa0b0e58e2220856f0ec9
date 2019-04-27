@@ -1,0 +1,5 @@
+configure で FILE 構造体の read count (ライブラリによって _cnt, _r, readCount,
+_rcound などのメンバがあるらしい。読み込みバッファのサイズ?)と読み込みバッファ
+のポインタのメンバを検出して FILE_COUNT と FILE_READPTR というマクロで差異を吸
+収していたのをやめています。 win32/win32.c で利用されているそうですが、そちらで
+は独自に定義しているので configure での検出は不要になっていたようです。

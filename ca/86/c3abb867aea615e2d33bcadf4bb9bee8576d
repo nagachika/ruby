@@ -1,0 +1,2 @@
+variable.c の rb_class_ivar_set() の第2引数の型が ID なので st_data_t への不要
+なキャストが残っていたのを修正しています。

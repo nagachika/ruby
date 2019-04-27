@@ -1,0 +1,1 @@
+rxt/rbconfig/sizeof/depend に nmake 向けの VPATH 対応を追加しています。

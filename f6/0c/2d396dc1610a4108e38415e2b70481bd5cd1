@@ -1,0 +1,3 @@
+r65092 の addr2line.c の DWARF フォーマットのバージョンチェック追加を revert し
+、ranges_set_low_pc() と ranges_set_high_pc() の処理を統合して ranges_set() と
+しています。バージョン違いでも動くようにしたってことかな。

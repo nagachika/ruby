@@ -1,0 +1,7 @@
+daemon(3) がない環境での Process.daemon の実装で fork(2) が失敗した時の
+rb_sys_fail() は呼び出し元の proc_daemon() で実行しているので return -1 するよ
+うにして、 fork を 2回するのでマクロにまとめています。また setsid(2) の呼び出し
+も直接呼んでエラー処理は呼び元にまかせるようにしています。 setsid() がないとき
+のチェックが……と思いましたが process.c で setsid(2) がない時には ruby_setsid
+() というのを定義してそれに #define ですりかえるようにしているので呼べそうです
+ね。

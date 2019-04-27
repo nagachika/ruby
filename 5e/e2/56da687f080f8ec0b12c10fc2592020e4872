@@ -1,0 +1,3 @@
+r67378 で追加した MJIT の unit リストについてのカウンタは mjit_worker.c の
+add_to_list() と remove_from_list() で要素の追加削除時に増減させるようにしてい
+ます。

@@ -1,0 +1,2 @@
+proc_new() で GET_THREAD() が不要になったので GET_EC() を呼ぶように変更していま
+す。

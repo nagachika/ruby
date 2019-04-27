@@ -1,0 +1,5 @@
+Mac OS X の(というか HFS+ ファイルシステムの) UTF-8 エンコーディングが濁点、半
+濁点を合成文字で表現する(NFC。 Ruby ではNFC正規化された UTF-8 を UTF-8-MAC とい
+うエンコーディングとして保持しています)のを通常の UTF-8 に変換する (NFD正規化)
+する処理を dir.c の dir_each() から抜き出して file.c の rb_str_normalize_ospath
+() という関数にしています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ securerandom に magic comment "frozen_string_literal: true"
+を追加しています。コードには変更は不要みたいです。

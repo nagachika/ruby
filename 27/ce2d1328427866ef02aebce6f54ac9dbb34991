@@ -1,0 +1,2 @@
+RubyGems のテストで git のエラーメッセージを除去するために
+capture_subprocess_io を利用するようにしています。

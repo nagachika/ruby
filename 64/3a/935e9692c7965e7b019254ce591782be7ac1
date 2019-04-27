@@ -1,0 +1,2 @@
+test/lib/test/unit.rb の並列テスト用の @job_tokens のチェック時に先に
+@jobserver をチェックするように修正しています。

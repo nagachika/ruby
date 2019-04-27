@@ -1,0 +1,4 @@
+set_unblock_function() や do_select()、rb_wait_for_single_fd() で goto を使って
+関数の先頭に戻ることでループを実現していたのを do { } while ループを使って書き
+なおしています。またループの判定の条件を関数マクロや関数として切り出すリファク
+タリング。

@@ -1,0 +1,2 @@
+vm_method.c の rb_resolve_refined_method() と get_original_method_entry() の引
+数 rb_method_entry_t *me に const 修飾子を付加しています。

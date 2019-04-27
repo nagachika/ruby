@@ -1,0 +1,2 @@
+NEWS ファイルに r62020 のブロック引数の to_proc への Refinements の影響について
+追記しています。 [Feature #14223]

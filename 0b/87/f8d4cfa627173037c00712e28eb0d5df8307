@@ -1,0 +1,2 @@
+gc.c の gc_clear_slot_bits() という関数は RGenGC を使わない時だけ利用されるよう
+になったので USE_RGENGC のマクロによる条件コンパイルの位置を移動しています。

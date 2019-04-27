@@ -1,0 +1,3 @@
+拡張ライブラリ socket のソケットオプションを String 型のオブジェクトに pack す
+る sockopt_pack_byte()、sockopt_pack_int() といった static 関数を追加して再利用
+するリファクタリング。

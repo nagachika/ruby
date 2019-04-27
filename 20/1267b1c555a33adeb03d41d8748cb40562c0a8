@@ -1,0 +1,2 @@
+test/ruby/test_file_exhaustive.rb にて環境変数 HOME が設定されていない時に
+File.expand_path("~") を実行すると例外が発生してしまうのでスキップしている。

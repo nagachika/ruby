@@ -1,0 +1,3 @@
+GC の WriteBarrier の性能への影響をみるための benchmark で 2.2 からは 3回 GC を
+生き伸びたオブジェクトが promoted object になるので、それを考慮して promoted 版
+の benchmark スクリプトを追加しています。

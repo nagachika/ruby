@@ -1,0 +1,4 @@
+mjit.c で子プロセスに渡す fd のために fopen(3) で開いた FILE* を fclose() で閉
+じてしまってたので、閉じないようにして、vfork(2) 後に close(2) で閉じるようにし
+ています。また fopen(3) で FILE 構造体を作ってしまってたので rb_cloexec_open()
+で fd だけ作るようにしています。

@@ -1,0 +1,4 @@
+Symbol GC の導入に関連して alias やメソッド定義時に明示的に SYM2ID() を呼んで
+Symbol を pin down するようにしています。なるほどー内部的に ID で管理しているも
+ので dynamic Symbol を渡した場合は逆に pin down しないといけないケースもあるん
+ですね。

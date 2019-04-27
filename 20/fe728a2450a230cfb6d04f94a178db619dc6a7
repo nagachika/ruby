@@ -1,0 +1,2 @@
+r48482 の tool/update-deps のソートによる common.mk や各種 depend ファイルの依
+存関係の行を再生成。

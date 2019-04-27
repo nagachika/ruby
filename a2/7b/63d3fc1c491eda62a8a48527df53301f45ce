@@ -1,0 +1,2 @@
+OpenSSL::PKey::DH の rdoc を再修正。また OpenSSL::PKey::DH のテストを追加してい
+ます。

@@ -1,0 +1,2 @@
+parse.y で '{' と '}' という文字リテラルを使ってたところに open_brace,
+close_brace と const int の変数を定義してそれを参照するようにしています。

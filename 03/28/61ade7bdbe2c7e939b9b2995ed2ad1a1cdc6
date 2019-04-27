@@ -1,0 +1,3 @@
+Enumerator::Lazy の zip と cycle にブロックが渡された時は遅延評価
+(Enumerator::Lazy を返す)せずに Enumerable のオリジナルのメソッドと同じ動作をす
+ぐに呼び出すようにしています。

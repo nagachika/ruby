@@ -1,0 +1,3 @@
+Symbol オブジェクトから rb_enc_get_index() で encindex を取得するのに対応するた
+め T_SYMBOL の時に struct RSymbol::fstr を取り出す処理を追加しています。が、次
+の r45439 で revert されています。

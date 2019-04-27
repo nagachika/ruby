@@ -1,0 +1,4 @@
+etc/utf_32{be,le}.c の utf32{be,le}_mbc_enc_len() で引数 p と e のポインタの位
+置関係をちゃんとチェックするようにしています。 Array#pack で作った文字列で
+valid_encoding? が不正なのに true を返してしまうことがあったみたいです。
+[ruby-core:79966] [Bug #13292]

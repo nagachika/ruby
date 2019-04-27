@@ -1,0 +1,2 @@
+fix_rev() を fix_comp() に、rb_big_neg() を rb_big_comp() に改名しています。む
+う、符号の反転をする関数みたいです。 _comp は complementary から来てるのかな?

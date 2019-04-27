@@ -1,0 +1,11 @@
+struct RClass の持つ method entry のテーブル m_tbl の持ちかたを変更して struct
+RClass::m_tbl から struct method_table_wrapper という構造体を途中にはさんで
+struct RClass::m_tbl_wrapper::tbl という構造に変更しています。またこの変更に追
+随するためアクセス用のマクロなども追加/変更しています。この struct
+method_table_wrapper は serial というメンバも持っていて、GC mark 時に GC 回数を
+格納しておいて同じ GC の mark 時に st_table の mark 処理を skip するようにして
+いるようです。これは Module を include した時などに Module と IClass で m_tbl
+を共有するため、同じ st_table を何度も mark 処理する無駄を省くため、構造体を挟
+んでそこで重複した mark は止めるようにして mark を高速化しているそうです。
+ChangeLog に大規模なアプリで minor GC 時のマーク処理を 30% 減らせたという記述が
+あるので Module をたくさん使っている時は効きそうですね。

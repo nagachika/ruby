@@ -1,0 +1,3 @@
+String#concat で引数が1つの時に rb_str_concat() を直接呼ぶショートカットを追加
+して余分な中間オブジェクトの生成を抑制する最適化。 https://github.com/ruby/ruby
+/pull/1631

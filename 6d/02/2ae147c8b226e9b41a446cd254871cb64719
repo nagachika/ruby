@@ -1,0 +1,2 @@
+compile.c の setup_args() で args_splat 命令を追加する時の行番号の nd_line() に
+誤って args を渡しているところがあったので argn に修正しています。

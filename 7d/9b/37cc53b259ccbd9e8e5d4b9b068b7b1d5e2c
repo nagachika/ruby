@@ -1,0 +1,4 @@
+vm_once_exec() の引数の型を rb_iseq_t * から VALUE に変更しています。
+type-punned pointer cast を防ぐためということで、明示的に ISEQ -> VALUE ->
+rb_iseq_t * へのキャストを行うようにしています。けど ISEQ って rb_iseq_t* に
+typedef されているので、なんで問題だったのかよくわからないですね。

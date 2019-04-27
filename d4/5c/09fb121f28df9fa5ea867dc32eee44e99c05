@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の Init_openssl() で ossl_raise() を利用するより前にグロ
+ーバル変数 dOSSL の初期化を行うようにして初期化前に利用されるのを避けるようにし
+ています。 [ruby-core:58264] [Bug #9101]

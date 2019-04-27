@@ -1,0 +1,4 @@
+r67102 と同じく拡張ライブラリ pathname のテストで Pathname#birthname が
+NotImplementedError になったら File.birthname も同じく NotImplementedError にな
+るよね、というのを確認していた assertion ですが、なぜか Errno::EPERM になること
+があるということでコメントアウトしています。

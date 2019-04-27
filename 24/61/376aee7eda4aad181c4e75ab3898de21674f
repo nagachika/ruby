@@ -1,0 +1,3 @@
+doc/extension.ja.rdoc で Appendix を参照しているところのファイル名が .ja なしの
+ほうだったので .ja.rdoc のほうに修正しています。 https://github.com/ruby/ruby/
+pull/1706

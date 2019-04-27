@@ -1,0 +1,4 @@
+r46382 の再修正。 io.c で条件分岐をいじるのではなくて configure の段階で AIX で
+32bit アーキテクチャで $ac_cv_sys_large_files が yes だったら HAVE_POSI_FADVISE
+を偽にするようにしています。とりあえず io.c の分岐もそのまま。
+[ruby-core:62968] [Bug #9914]

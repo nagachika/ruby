@@ -1,0 +1,1 @@
+r65563 の MJIT_BUILD_DIR を変数にした変更を revert しています。

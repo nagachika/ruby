@@ -1,0 +1,7 @@
+r35315 で WEBrick::GenericServer で処理スレッドが Interrupt でのみ終了してその
+他の例外では終了しないようにしたのですが、やっぱり StandardError では止めず、そ
+れ以外の Exception では終了という処理に戻しています。 [ruby-core:44332]
+またテストで Process.kill を送信するとメインスレッドに割り込みの例外が送信され
+るので期待したようにテストしているスレッドに例外が発生しないので raise
+SignalException することでシグナル受信をエミュレートするようにしています。
+[ruby-core:44348] [Feature #6236]

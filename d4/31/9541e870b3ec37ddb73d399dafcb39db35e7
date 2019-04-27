@@ -1,0 +1,1 @@
+Range#cover? で beginless range も正しくサポートするようにしています。

@@ -1,0 +1,4 @@
+r61312 の tool/vcs.rb の VCS::GIT#commit で git svn dcommit に
+--add-author-from オプションをつけるようにした変更で、author が committer と同
+じ場合は抑制するようにしています。なるほど別の人のパッチをコミットする時に
+From: 行を付けるようにしたいからなのか。

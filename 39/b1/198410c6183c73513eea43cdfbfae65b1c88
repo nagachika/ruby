@@ -1,0 +1,3 @@
+$0 への代入のテストで *BSD では ps -o オプションには command じゃないと受けつけ
+ないので修正。Linux & Mac OS X だったので気がつきませんでした。 darwin10.7.0 で
+も -o command だと通りますね。

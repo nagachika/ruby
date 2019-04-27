@@ -1,0 +1,5 @@
+Symbol を常に freeze した状態にするようにしています。従来は Symbol にインスタン
+ス変数を持たせたりできたようですが、できなくなるようです。 Symbol が frozen に
+なっても問題なさそうが気がしますが、RubySpec でいくつか失敗しているみたいですね
+。
+"I want to freeze this good day, too." とのことで、ご結婚おめでとうございます!

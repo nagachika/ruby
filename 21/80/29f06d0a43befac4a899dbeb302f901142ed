@@ -1,0 +1,3 @@
+tool/make-snapshot で make prereq 実行のための config.status に rubylibprefix
+と ruby_version を追記しています。 Gem.default_dir を利用するために必要とのこと
+。

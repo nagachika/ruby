@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の OpenSSL::OCSP::BasicResponse#to_der と OpenSSL::OCSP
+::CertificateId#to_der と実装し、OpenSSL::OCSP::BasicResponse.new や OpenSSL::
+OCSP::CertificateId.new で引数に der 形式の文字列を指定できるようにしています。
+OCSP は証明書の失効をチェックするためのプロトコルですね。

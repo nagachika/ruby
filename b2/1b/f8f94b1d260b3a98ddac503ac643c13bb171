@@ -1,0 +1,3 @@
+gc.c の gc_marks_body() とデバッグ用の関数 gc_marks_test() の引数から
+rb_thread_t *th を削除して、関数内で GET_THREAD() で取得するうようにリファクタ
+リングしています。

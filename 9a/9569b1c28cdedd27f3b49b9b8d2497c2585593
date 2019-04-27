@@ -1,0 +1,4 @@
+test/ruby/test_objectspace.rb で finalizer のテストで finalizer に渡すための
+Proc で Module#module_eval を呼んでいるところで引数に __FILE__ と __LINE__ を渡
+してファイル名と行数を指定してエラー時のバックトレースにこの位置が出るようにし
+ています。

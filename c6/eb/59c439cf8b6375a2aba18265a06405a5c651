@@ -1,0 +1,2 @@
+a.fdiv(b) と Rational(a, b).to_f がたまにごく僅かに異なる値になることがあるので
+bignum.c の big_fdiv() で調整を追加しています。 [ruby-dev:49915]

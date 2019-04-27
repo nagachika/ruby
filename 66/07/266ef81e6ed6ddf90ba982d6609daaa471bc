@@ -1,0 +1,2 @@
+tainted fstring の対応で String#-@ に何か問題があるらしくてそれを炙り出すための
+テストを追加しています。 [ruby-core:82092]

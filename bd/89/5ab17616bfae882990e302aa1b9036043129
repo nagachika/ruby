@@ -1,0 +1,2 @@
+r34202 で pull の実処理を _pull_inner というメソッドに分離していましたが
+pull_event に改名して private メソッドとして宣言しています。

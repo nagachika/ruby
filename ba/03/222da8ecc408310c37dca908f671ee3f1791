@@ -1,0 +1,2 @@
+構造体 struct rb_iseq_constant_body のメンバーの順序を入れ換えてサイズ縮小を図
+っています。 https://github.com/ruby/ruby/pull/2099

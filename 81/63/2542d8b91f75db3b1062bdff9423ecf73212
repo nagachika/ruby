@@ -1,0 +1,2 @@
+lib/set.rb と lib/rake/ruby182_test_unit_fix.rb の実行権限がついていたのを落し
+ているようです。

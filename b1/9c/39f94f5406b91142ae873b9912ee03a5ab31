@@ -1,0 +1,2 @@
+標準添付ライブラリ monitor のテストで Thread の終了を待っているところを
+assert_join_threads を利用するように書きかえています。

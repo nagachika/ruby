@@ -1,0 +1,1 @@
+missing/setproctitle.c に #include "ruby/util.h" を追加しています。

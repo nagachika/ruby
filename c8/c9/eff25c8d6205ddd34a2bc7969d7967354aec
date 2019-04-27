@@ -1,0 +1,3 @@
+casemap に対応していないエンコーディングのコールバック
+onigenc_not_support_case_map() で ASCII Compatible なエンコーディングでは ASCII
+文字の範囲(a-z と A-Z)は正常に動作するようにしています。

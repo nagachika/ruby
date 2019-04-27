@@ -1,0 +1,4 @@
+lib/cmath.rb で追加された handle_no_method_error に rdoc 用の :nodoc: タグをつ
+けています。
+また error.c で EncodingError, fatal などのドキュメントを追加したり、ドキュメン
+トのない例外クラスのドキュメント整形を抑制するようにしています。

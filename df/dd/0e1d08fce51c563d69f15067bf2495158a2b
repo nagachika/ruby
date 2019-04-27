@@ -1,0 +1,3 @@
+.travis.yml の build matrix の pedanticism というコンパイラの互換性や警告を厳し
+くチェックするやつで C99 の機能を許容するようにオプションの -ansi を -std=c99
+に変更したり、一部 -Werror= を消したりしています。

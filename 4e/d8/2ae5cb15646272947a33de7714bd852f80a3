@@ -1,0 +1,6 @@
+Psych::Stream から Psych::Steraming モジュールにメソッドを切り出して、Psych::
+JSON::Stream が Psych::Stream ではなく Psych::Visitors::JSONTree を継承して
+Psych::Streaming を include するようにしています。さらに
+Psych::Visitors::JSONTree に accept メソッドの実装を追加しています。おそらくこ
+れで昨日の修正が完了したのだと思います。意図したのと継承ツリーが違っていたとい
+う感じではないかと。

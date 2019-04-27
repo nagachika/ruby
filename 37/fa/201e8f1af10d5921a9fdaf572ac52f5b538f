@@ -1,0 +1,4 @@
+compile.c の if/unless などの部分を VM 命令にコンパイルする
+compile_branch_condition() で NODE_ARRAY、NODE_ARGSCAT、NODE_DREGX、NODE_DSTR
+など必ず真になる NODE が条件部にあったら無条件ジャンプ命令としてコンパイルする
+ようにしています。

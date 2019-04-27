@@ -1,0 +1,3 @@
+String#chop や String#chop! で操作後の文字列バッファサイズを返すための関数
+chopped_length() で元が空文字列だった時にすぐ 0 を返すようにする最適化をしてい
+ます。 [ruby-core:70096] [Bug #11391]

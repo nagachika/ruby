@@ -1,0 +1,3 @@
+これも r39772 あたりからの変更の追随だと思いますが mswin 版のビルドのために
+win32/Makefile.sub が生成する config.h に time.h と struct timeval の存在を指定
+するマクロを追加しています。

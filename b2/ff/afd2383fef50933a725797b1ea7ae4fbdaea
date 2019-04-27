@@ -1,0 +1,6 @@
+GC.compact でオブジェクトを移動したら MJIT で JIT コンパイルしたコード内に含ま
+れるポインタが不正になる可能性があるので全てキャンセルすることができるようにす
+る仕組みを導入している(TracePoint で trace が有効になった時と同じ)らしい。
+mjit_call_p を false にしてます。mjit_call_p はこれまで mjit_finish() で false
+に落とされていて、再度 true にするパスがなさそうなので、一度 GC.compact すると
+それ以降ずっと MJIT 無効になるのかな。

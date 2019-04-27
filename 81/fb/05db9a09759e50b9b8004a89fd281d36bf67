@@ -1,0 +1,3 @@
+r66999 の class 文直下の yield の警告の対応でテストの警告抑制のため
+EnvUtil.suppress_warning を利用するようにしています。 [ruby-core:91333]
+[Feature #15575]

@@ -1,0 +1,3 @@
+objspace_live_slot() から heap_pages_final_slots のぶんを減らすように修正してい
+ます。 finalizer が実行されるまでは live でもないし free でもない状態というわけ
+ですね。

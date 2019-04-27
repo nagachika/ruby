@@ -1,0 +1,3 @@
+fiber_switch() で th->root_fiber が未設定だったら(r60451 の変更でありえるように
+なった)ここで作成しておくようにしています。 r60452 で追加した Fiber#transfer の
+skip を消しています。

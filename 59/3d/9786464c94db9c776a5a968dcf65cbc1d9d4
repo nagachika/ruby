@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile の Tempfile.create の rdoc 用コメントで引数を列挙し
+ている部分の抜けを修正しています。 [ruby-core:83321] [Misc #14019]

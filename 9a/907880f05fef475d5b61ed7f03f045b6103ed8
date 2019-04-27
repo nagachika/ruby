@@ -1,0 +1,4 @@
+CSV#initialize に渡すオプション :encoding に文字列だった場合にコロン区切りをケ
+アするのと、 options に値が残ったままだと後で ArgumentError を発生させていたの
+で掃除するように。また CSV.foreach では options に :mode が含まれていた時に
+open に余分な引数を渡してしまっていたのを修正。

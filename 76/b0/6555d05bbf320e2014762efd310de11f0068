@@ -1,0 +1,2 @@
+ruby_xsizedfree() と ruby_xsizedrealloc() をそれぞれ rb_sized_free() と
+rb_sized_realloc() に改名しています。

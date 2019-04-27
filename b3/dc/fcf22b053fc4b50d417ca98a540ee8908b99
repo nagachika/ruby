@@ -1,0 +1,1 @@
+ARGF.read_nonblock メソッドが追加されています。 IO#read_nonblock の ARGV 版。

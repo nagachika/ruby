@@ -1,0 +1,3 @@
+lib/irb/completion.rb の irb 補完時に Class#name が String を返さず Regexp#=~
+で例外が発生した時にそのまま処理をエラーにしてしまっていたので捕捉するようにし
+ています。 [ruby-core:42244][Bug #5938]

@@ -1,0 +1,4 @@
+拡張ライブラリ console を require した時の IO#winsize= メソッドを追加しています
+。*nix な環境(？) ではioctl(fd, TIOCSWINSZ) で端末サイズを設定しています。
+Windows 版でも SetConsoleScreenBufferSize() という関数を呼んでいるので何かしら
+動くようです。[EXPERIMENTAL] とあるのでまだ実験的なメソッドだそうです。

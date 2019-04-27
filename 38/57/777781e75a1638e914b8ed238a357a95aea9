@@ -1,0 +1,4 @@
+RGENGC_CHECK_MODE が 1以上の時のデバッグ用のチェック関数
+check_rvalue_consistency() でオブジェクトの年齢と mark 済みかどうかの整合性チェ
+ックで is_sweeping() のチェックは不要だったとのことで消しています。 LazySweep
+で段階的に sweep 処理中だとチェックしてなかったのですが、確かに不要そうですね。

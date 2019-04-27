@@ -1,0 +1,2 @@
+標準添付ライブラリ time.rb で追加される Time.parse の rdoc 用コメントで
+Time.parse を Date.parse と書いていたところを修正しています。

@@ -1,0 +1,3 @@
+tool/unicode_norm_gen.rb の Normalize というモジュールも UnicodeNormalize と改
+名しています。おや、これって同じもの…ではないですよね、require していないから
+。

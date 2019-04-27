@@ -1,0 +1,3 @@
+さらに missing/crypt.c から cray とか convex とかのマクロで分岐していたのを
+(cray!?) SIZEOF_XXX をチェックするなど変数の型のサイズのチェックに修正していま
+す。 cygwin でテストが失敗していたそうです。 [ruby-core:75792] [Bug #12446]

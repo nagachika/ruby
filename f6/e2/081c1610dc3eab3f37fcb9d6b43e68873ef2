@@ -1,0 +1,3 @@
+object.c の Init_Object() で public_constant, private_constant メソッドの関数を
+登録しているところで、関数の定義されている variable.c をコメントで追記していま
+す。 [ruby-core:44760] [Bug #6381]

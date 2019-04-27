@@ -1,0 +1,3 @@
+Hash#flatten で引数が省略されたか 1 が指定された時は Array#flatten は呼び出さず
+に rb_hash_foreach() を使って直接配列に key と value を詰めていく処理を書くこと
+で不要な中間データを抑える最適化です。

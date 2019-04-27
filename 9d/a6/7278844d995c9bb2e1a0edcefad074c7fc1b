@@ -1,0 +1,5 @@
+File.realpath のテストで "A" に non-ascii 文字を追加したファイル名への symbolic
+link を "a" という名前で作るようにしていましたが、ファイルシステムが大文字小文
+字を区別しないものでなおかつ filesystem encoding が ascii 文字のみ受け付ける環
+境だと "a" から "A" への symlink を作ることになって同じファイルになってしまうの
+で、symbolic link のほうの名前を "x" に変更しています。

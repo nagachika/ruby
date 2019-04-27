@@ -1,0 +1,2 @@
+gc.c の finalize_list() でも size_t 型の objspace->heap_pages.final_slots をデ
+クリメントしているところで0じゃないかのチェックを追加しています。

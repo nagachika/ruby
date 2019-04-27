@@ -1,0 +1,2 @@
+rergenc.c に onigenc_not_support_case_map() というエラーメッセージを出力する関
+数を追加しています。

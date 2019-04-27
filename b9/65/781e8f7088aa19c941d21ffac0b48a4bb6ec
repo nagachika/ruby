@@ -1,0 +1,3 @@
+transcode.c の econv_s_search_convpath() で例外を発生させるパスで引数の生成につ
+かう一時オブジェクトを GC から保護するため RB_GC_GUARD() を追加しています。
+[ruby-core:89172] [Bug #15162]

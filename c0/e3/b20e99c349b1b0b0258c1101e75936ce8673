@@ -1,0 +1,2 @@
+Array#sum のテストに Array の要素に Object を入れておいたら TypeError が発生す
+るというテストケースを追加しています。

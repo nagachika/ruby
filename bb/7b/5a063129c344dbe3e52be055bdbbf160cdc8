@@ -1,0 +1,3 @@
+test/ruby/test_symbol.rb で子プロセスに渡すスクリプトのヒアドキュメントに begin
+と end の2つのトークンによるヒアドキュメントを利用して syntax highlight をだま
+すテクニックを使うようにしています。

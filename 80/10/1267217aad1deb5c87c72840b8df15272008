@@ -1,0 +1,3 @@
+CRuby の Issue Tracking System に使っている Redmine の URL が最近 redmine.ruby
+-lang.org から bugs.ruby-lang.org に変更になったので、ソースツリー内に含まれる
+主にドキュメントの URL も追随しています。

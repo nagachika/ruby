@@ -1,0 +1,3 @@
+printf() のフォーマット文字列で rb_serial_t 型のために利用する指示子を
+internal.h で型の定義と同時に PRI_SERIALT_PREFIX というマクロに適切なものを定義
+しておいて、MJIT が生成するコードで使うようにしています。

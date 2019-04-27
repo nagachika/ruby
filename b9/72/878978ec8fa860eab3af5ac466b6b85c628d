@@ -1,0 +1,3 @@
+r39509 と同様に REXML::Document.entity_expansion_limit の accessor も lib/rexml
+/rexml.rb の REXML.entity_expansion_limit として移動して、REXML::Document のほ
+うのメソッドは deprecated にしています。 [ruby-core:52895] [Bug #7961]

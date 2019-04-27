@@ -1,0 +1,3 @@
+r38160 で宣言に static を付加した vm_analysis_insn() ですが
+VM_COLLECT_USAGE_DETAILS が真でないと定義が有効にならないのに宣言はそのままだっ
+たので、宣言にも #if VM_COLLECT_USAGE_DETAILS をつけています。

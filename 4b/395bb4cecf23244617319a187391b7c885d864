@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext のデフォルトの設定で
+ssl_version が TLS v1.2 になりました。また OpenSSL::SSL::OP_NO_TLSv1 が定義され
+ていればこのフラグをデフォルトの options に立てるようにしています。つまり TLS
+v1 はデフォルトでは拒否するようにしているということですね。 [Feature #11524]
+https://github.com/ruby/ruby/pull/873

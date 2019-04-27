@@ -1,0 +1,2 @@
+Init_Thread() で (void)native_trylock; という文があるのですがこれは mingw/mswin
+での警告除去のためらしいのでその旨コメントを追加しています。

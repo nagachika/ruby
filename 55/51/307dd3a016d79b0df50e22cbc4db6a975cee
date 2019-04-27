@@ -1,0 +1,4 @@
+make test-all のテスト用ユーティリティの test/ruby/envutil.rb の
+assert_valid_syntax で第2引数の fname を省略可能にして、デフォルトで
+caller_location から取得するようにし、またファイル名だけでなく行番号もセットで
+配列で渡すこともできるように(デフォルトがそうなっている)しています。

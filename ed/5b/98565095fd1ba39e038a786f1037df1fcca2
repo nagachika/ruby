@@ -1,0 +1,3 @@
+random.c の int_pair_to_real_inclusive() で 2つの uint32_t から double を生成す
+るのに Bignum による積を利用していたのを uint128_t や uint64_t を使うようにして
+います。

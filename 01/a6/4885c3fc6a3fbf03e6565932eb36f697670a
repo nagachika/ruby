@@ -1,0 +1,2 @@
+r33840 で --no-undefined を追加すると FreeBSD でエラーになるため、FreeBSD は除
+外するようにしています。

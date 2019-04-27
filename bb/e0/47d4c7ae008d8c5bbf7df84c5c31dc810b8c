@@ -1,0 +1,6 @@
+tool/config.guess, tool/config.sub というファイルをリポジトリ内に含んでいたのを
+削除して、git.savannah.gnu.org のリポジトリから動的にダウンロードするように
+tool/get-config_files というツールと common.mk にルールを追加しています。
+これはどういう動機なのでしょうね。 config.guess, config.sub の機能がよくわかっ
+てないので必要性がよくわかっていませんが、最新版をリポジトリに含めるわけにはい
+かないのでしょうか。ライセンス関係かな?

@@ -1,0 +1,2 @@
+標準添付ライブラリ observer.rb の rdoc コメントで Observable の使いかたについて
+より細かく記述するようにしています。 https://github.com/ruby/ruby/pull/450

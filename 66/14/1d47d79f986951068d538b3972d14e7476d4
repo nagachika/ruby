@@ -1,0 +1,2 @@
+r37193 で test/ruby/envutil.rb に導入した file_assertion を assert_file に再度
+改名しています。

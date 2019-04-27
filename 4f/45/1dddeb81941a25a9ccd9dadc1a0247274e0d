@@ -1,0 +1,3 @@
+r38008 で vm_backtrace.c に追加した GC マーク漏れの対処を RB_GC_GUARD_PTR() で
+なく RB_GC_GUARD() を使うように書き直しています。 RB_GC_GUARD_PTR() は直接使う
+ためのものではないのでその旨ヘッダにコメントを追加しています。

@@ -1,0 +1,6 @@
+拡張ライブラリ readline の extconf.rb で rl_hook_func_t がない古いバージョンの
+対応(r45225、r45240、r45488 の一連の変更)の続きで、rl_hook_func_t の型の検出を
+rl_hook_func_t* というポインタの形で検出するように変更しています。なんでも
+rl_hook_func_t が関数型なので、sizeof() を関数に対して使うと結果が未定義だそう
+で Solaris で検出に失敗していたそうです。関数ポインタならいいと。
+[ruby-dev:48089] [Bug #9702]

@@ -1,0 +1,3 @@
+2つのファイルパスの同一性チェックで _WIN32 の時に file index (struct st の
+st_dev と st_ino) をチェックしたらファイルパスの検査が不要なのですぐに return
+するようにしています。

@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http の Net::HTTP#connect で :open_timeout の指定時に
+Socket#connect_nonblock と io/wait の IO#wait_readable や IO#wait_writable を利
+用してタイムアウト処理するようにしています。 wait_readable や wait_writable も
+使っているのは SSLSocket の時の shakehand 処理などで connect の時点で通信が行わ
+れることがあるからみたいです。 https://github.com/ruby/ruby/pull/899

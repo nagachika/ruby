@@ -1,0 +1,2 @@
+doc/standard_library.rdoc から default gem 化したライブラリを抜き取って末尾に
+Default gems というセクションを追加してそちらに移動しています。

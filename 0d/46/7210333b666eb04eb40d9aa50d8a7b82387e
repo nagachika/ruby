@@ -1,0 +1,2 @@
+configure でも r39201 と同様に sitearchdir と vendorarchdir の決定方法の不具合
+を修正しています。 [ruby-dev:46964] [Bug #7823]

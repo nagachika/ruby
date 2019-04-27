@@ -1,0 +1,4 @@
+IPAddr のメソッドが発生される例外が単に ArgumentError だったりしたのを
+IPAddr::Error とそれを継承した IPAddr::InvalidAddressError,
+IPAddr::AddressFamilyError, IPAddr::InvalidPrefixError などを定義して使うように
+しています。互換性のため IPAddr::Error は ArgumentError を継承しています。

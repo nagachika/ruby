@@ -1,0 +1,5 @@
+Init_postponed_job() を Init_vm_postponed_job() と改名して Init_vm_trace() の中
+から呼び出してたのを inits.c の各種 Init_xxx() を呼んでいるところから呼ぶように
+しています。 postpone job は Transient Heap 機能で利用しているので先に初期化す
+るようにしているそうです。 GC.stress = true の環境で SEGV してたそうです。
+[ruby-core:89745] [Bug #15288]

@@ -1,0 +1,2 @@
+標準添付ライブラリ matrix に Matrix#to_matrix という coerce 用の変換用メソッド
+を定義しています。

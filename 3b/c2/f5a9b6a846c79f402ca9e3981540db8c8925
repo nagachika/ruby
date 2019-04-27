@@ -1,0 +1,4 @@
+tool/ruby_vm/views/_attributes.erb というテンプレートで生成する C のコードに
+OFFSET, lindex_t, GENTRY, ISEQ などの型を定義している部分がありましたが、これは
+vm_exec.h で定義されている型なので #ifndef RUBY_VM_EXEC_H でくくってヘッダが読
+み込まれてたら再定義しないようにしています。

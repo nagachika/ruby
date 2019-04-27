@@ -1,0 +1,5 @@
+IO#fdatasync で fdatasync(2) が利用できない環境では fsync(rb_io_fsync) で代用す
+るようにしています。また fdatasync() がエラーを返した時は fsync() に fallback
+するようにしています。ちなみに fsync() も fdatasync() もカーネルのIOバッファを
+ディスクにフラッシュするというような意味で*1、fdatasync() のほうは更新時刻など
+のメタデータは書き込まないので高速というものだそうです。

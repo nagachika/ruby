@@ -1,0 +1,2 @@
+rubyspec の C API テスト用拡張ライブラリのソースで Windows 環境で pipe() の代替
+として rb_w32_pipe() を呼ぶようにマクロ定義を追加しています。

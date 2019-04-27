@@ -1,0 +1,1 @@
+vm_core.h に rb_snum_t という signed long の型の宣言を追加しています。

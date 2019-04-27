@@ -1,0 +1,6 @@
+Process.spawn や Kernel#exec 時にオプションの指定で fd を close する指定に fd=3
+などを指定してしまうとインタプリタにとって必須な fd を閉じてしまうので
+O_CLOEXEC などのフラグの指定によってカーネルが閉じてくれるのを期待してこれらの
+fd は閉じないようにしています。具体的には rb_reserved_fd_p() で判定されている
+timer thread の通信用のパイプ(r39686 によって normal と low の2ペアある)の両端
+のぶんの fd は close しないようにしています。 [ruby-core:69977] [Bug #11353]

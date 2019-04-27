@@ -1,0 +1,2 @@
+標準添付ライブラリ matrix にも gemspec ファイルを追加して default gem 化してい
+ます。 upstream は https://github.com/ruby/matrix

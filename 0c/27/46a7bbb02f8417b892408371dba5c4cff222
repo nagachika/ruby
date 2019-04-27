@@ -1,0 +1,4 @@
+vm_dtrace() の引数の rb_thread_t を rb_execution_context_t に変更。また
+ruby_th_dtrace_setup() も引数の型を変更してあわせて rb_dtrace_setup() に改名し
+ています。 RUBY_DTRACE_METHOD_HOOK()、RUBY_DTRACE_METHOD_XXX_HOOK() などのマク
+ロの引数も th から ec に変更しています。

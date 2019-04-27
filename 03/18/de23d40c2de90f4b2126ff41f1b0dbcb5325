@@ -1,0 +1,3 @@
+compile.c で ADD_CATCH_ENTRY() の引数のポインタの値に 0 を使っているところを
+NULL に変更しています。そういえば normal さんも NULL じゃなくて 0 をよく使いま
+すよね。

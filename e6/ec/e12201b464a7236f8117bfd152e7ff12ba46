@@ -1,0 +1,2 @@
+HP-UX での setproctitle(3) のチェックのため configure.in にヘッダファイル sys/
+pstat.h のチェックを追加しています。 [ruby-core:56644] [Bug #8792]

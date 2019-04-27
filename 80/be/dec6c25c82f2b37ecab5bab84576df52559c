@@ -1,0 +1,3 @@
+ruby のテスト用のライブラリでエラーメッセージを join で繋げる時に
+Encoding::CompatibilityError が発生したら String#b で ASCII-8BIT にしてから
+join するように fallback 処理を追加しています。

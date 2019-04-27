@@ -1,0 +1,3 @@
+拡張ライブラリ io/console の gemspec ファイルで required_ruby_version を 2.1.0
+以上にして 2.0.0 のサポートを終了しています。 rb_funcallv() の代替をなくしてい
+るようです。

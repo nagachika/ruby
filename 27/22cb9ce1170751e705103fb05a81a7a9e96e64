@@ -1,0 +1,3 @@
+test/ruby/test_file_exhaustive.rb で File.blockdev? が真になるパターンのテスト
+として "/dev/loop0" もしくは "/dev/sda" があればこれを利用するようにしています
+。

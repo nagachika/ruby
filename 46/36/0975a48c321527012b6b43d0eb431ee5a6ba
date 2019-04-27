@@ -1,0 +1,5 @@
+bignum.c の rb_big2str0() を rb_big2str1() と改名して static 関数に変更したうえ
+で rb_big2str0() は rb_big2str1() を呼び出すラッパ関数にして、さらに deprecated
+にしています。 trim = 0 での文字列化はサポートされなくなるみたいです。 ruby 本
+体でも現在 trim = 1 での呼び出ししかないっていうか1箇所からしか呼ばれていません
+ね。

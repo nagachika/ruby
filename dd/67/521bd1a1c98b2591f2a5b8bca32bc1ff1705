@@ -1,0 +1,2 @@
+Windows 版の _wopen() で errrno=EINVAL がかえってきた時に ELOOP が返せるように
+errno のマッピングを行うようにしています。

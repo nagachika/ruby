@@ -1,0 +1,1 @@
+rubyspec に追加のマージ。Windows で動かないテストの guard を追加しています。

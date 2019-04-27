@@ -1,0 +1,3 @@
+tool/make-snapshot で r50047 の変更で make の引数として変数を指定するのでなく
+Makefile.in の @VAR@ を直接編集するようにしていましたが、@VAR@ に存在しない変数
+は make の引数に指定するようにしています。

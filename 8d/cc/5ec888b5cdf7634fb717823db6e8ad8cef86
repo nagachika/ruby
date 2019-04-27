@@ -1,0 +1,3 @@
+dtrace のテストで指定する ruby はインストールされている Gem.ruby ではなくテスト
+に用いている実行形式ファイルを EnvUtil.rubybin で決めるようにしています。
+[ruby-core:50943] [Bug #7581]

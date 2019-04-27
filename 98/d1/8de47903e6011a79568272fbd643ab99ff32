@@ -1,0 +1,2 @@
+miniruby 用の miniprelude.c は prelude.rb を含めないようにしています。さっきの
+r48605 はこの変更の伏線だったんですね。

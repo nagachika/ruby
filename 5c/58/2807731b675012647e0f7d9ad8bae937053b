@@ -1,0 +1,5 @@
+r37258 で導入した send_simple 命令を利用する条件を緩めています。
+rb_callinfo_t::flags に VM_CALL_ARGS_SKIP_SETUP のビットフラグが立っていたら
+send_simple を使うようにしています。元は VM_CALL_ARGS_SKIP_SETUP 以外のフラグが
+立っていなくて、かつブロックも渡されていないという条件だったのですがもっと広く
+send_simple にしても構わなかったみたいです。

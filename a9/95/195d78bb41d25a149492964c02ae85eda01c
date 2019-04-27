@@ -1,0 +1,2 @@
+configure で enum 型の定数に ULONG_LONG_MAX または ULONG_MAX を値として指定でき
+るかどうかをチェックして ENUM_OVER_INT というマクロを定義するようにしています。

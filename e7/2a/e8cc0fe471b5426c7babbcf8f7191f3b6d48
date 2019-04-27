@@ -1,0 +1,5 @@
+RubyVM::InstructionSequence#compile に行番号を指定する引数に 0 を渡すと to_a し
+た時に SEGV する不具合を修正しています。行番号の情報を格納する方法が変化したの
+でチェックを追加しているのですが、iseq->line_info_size < ti でいいのでしょうか
+。 line_info_size は line_info_table の配列要素数ではないかと思うので不等号が
+逆? [ruby-dev:45130] [Bug #5894]

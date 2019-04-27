@@ -1,0 +1,4 @@
+LLP64環境で object_id が long や Fixnum に納まらない問題*2で thread.c の
+recursive_check() で object_id の比較をしているところで素朴に C の比較をしてし
+まっていたところをマクロを利用してコンパイラによっては Bignum かどうかチェック
+して rb_big_eql() を呼ぶように修正しています。 [ruby-core:51083] [Bug #7607]

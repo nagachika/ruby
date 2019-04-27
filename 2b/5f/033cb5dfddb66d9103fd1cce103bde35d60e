@@ -1,0 +1,4 @@
+configure で dtrace の利用可否のチェックを強化しています。SUN D 1.11 で dtrace
+が probes が実際に存在するかチェックするようになっているため実際に probe を含む
+conftest_provider.h を生成してから dtrace を実行するようにしています。
+[ruby-core:55826] [Bug #8606]

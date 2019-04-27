@@ -1,0 +1,2 @@
+NEWS ファイルに r60888 の Binding#irb のコード表示の記述にチケットへの参照を追
+加。またそもそもの Binding#irb の prelude 入りについても追記しています。

@@ -1,0 +1,2 @@
+fileutils の default gem としての gemspec のバージョンを 1.0.0 に更新しています
+。 [ruby-core:79455] [Feature #13197]

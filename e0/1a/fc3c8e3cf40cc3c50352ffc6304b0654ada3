@@ -1,0 +1,1 @@
+RubyVM::AST::Node#type が返す文字列を fstring を返すようにしています。

@@ -1,0 +1,4 @@
+common.mk の Unicode の絵文字用にダウンロードするデータファイルに
+emoji-sequences.txt、emoji-test.txt、emoji-variation-sequences.txt、
+emoji-zwj-sequences.txt などを追加しています。これも grapheme clusters 関連のテ
+ストで使う予定とのこと。

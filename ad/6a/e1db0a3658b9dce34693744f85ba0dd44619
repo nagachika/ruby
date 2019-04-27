@@ -1,0 +1,5 @@
+r40753 および r40769 の続きで Psych::Visitors::YamlTree.new の引数省略時の警告
+メッセージに埋め込むクラス名が間違っていたのを修正。クラスメソッドなので self
+が既に Psych::Visitors::YamlTree クラスなので self.class は Class になってしま
+っていたようです。でもこれ class じゃなくて self にすべきですよね。後ほど修正さ
+れています。

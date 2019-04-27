@@ -1,0 +1,2 @@
+String#each_line にも gets や readlines と同様にキーワード引数 chomp を追加して
+改行コードを削って渡すようにしています。

@@ -1,0 +1,2 @@
+include/ruby/backward.h から rb_complex_set_real() と rb_complex_set_imag() の
+宣言を削除しています。

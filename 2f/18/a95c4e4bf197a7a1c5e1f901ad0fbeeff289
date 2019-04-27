@@ -1,0 +1,3 @@
+r66311 の再修正。 configure で __extension__ の利用可否を確認する方法を
+AC_TRY_COMPILE と AC_CACHE_CHECK と AS_IF を使うように書き換えています。 cache
+という名前からして config.status に情報が残るようにしているのかな。

@@ -1,0 +1,2 @@
+String#lstrip に single byte 文字のみ含む文字列の場合の最適化を行なっています。
+rstrip のほうでは既に行なっていたようです。 [ruby-core:77392] [Feature #12788]

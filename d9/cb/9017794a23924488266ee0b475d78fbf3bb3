@@ -1,0 +1,4 @@
+do_mutex_lock() に interruptible_p という引数を追加して割り込みチェックするかど
+うかを指定できるようにして、rb_mutex_sleep() から rb_ensure() 経由で呼ばれた時
+には spurious wakeup で割り込みチェックしないようにして戻ってきてから割り込みチ
+ェックするようにしています。 [ruby-core:88556] [Bug #14999]

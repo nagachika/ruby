@@ -1,0 +1,2 @@
+NativeClient 用のエントリポイントのソースファイル nacl/pepper_main.c に存在しな
+いヘッダの #include が残っていたのを削除しています。

@@ -1,0 +1,6 @@
+r43532 で導入した RGenGC の旧世代のオブジェクトのメモリ消費量を major GC のトリ
+ガとして利用するようにする RGENGC_ESTIMATE_OLDSPACE のデフォルトを 1 にしてデフ
+ォルトで有効になるように変更しています。またいくつかパラメータを調整して、環境
+変数(RUBY_GC_HEAP_OLDSPACE/RUBY_GC_HEAP_OLDSPACE_MAX/
+RUBY_GC_HEAP_OLDSPACE_GROWTH_FACTOR)で値を調整できるようにする機能を導入してい
+るようです。

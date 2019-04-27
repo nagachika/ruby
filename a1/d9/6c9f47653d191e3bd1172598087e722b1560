@@ -1,0 +1,3 @@
+RubyGems の最新版(master ブランチの commit hash 2abce58)をマージしています。
+sdoc.gem と json.gem がインストールされている時にエラーが発生するのを修正してい
+るとのこと。

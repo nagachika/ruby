@@ -1,0 +1,3 @@
+r31460 で native_cond_timedwait() を呼ぶ時は cond_waiting/cond_notified を増減
+させないようにしていましたが、native_cond_timedwait() がタイムアウトで抜けた時
+に加算しておいた cond_waiting を減算して戻すようにするように変更しています。

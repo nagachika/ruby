@@ -1,0 +1,6 @@
+一時オブジェクトがコンパイラ最適化により GC されてしまう問題の修正。また関数マ
+クロ RSTRING_PTR() は引数を複数回評価するので関数呼び出しを渡すのはよくないので
+、StringValuePtr() を利用するようにしています。
+StringValuePtr! そういうのもあるのか! いやあるのは知っていましたが
+StringValuePtr() は rb_string_value_ptr(volatile VALUE *) を呼ぶので GC 保護を
+含んでいるようです。

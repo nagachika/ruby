@@ -1,0 +1,3 @@
+tool/vcs.rb の VCS::GIT.get_revisions で svn property 変更だけのコミットも含め
+るため path が "." の時は git log コマンドの引数に渡さないようにしています。 "
+git log ." と "git log" で表示されるコミットが異なるみたいです。

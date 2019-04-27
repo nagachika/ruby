@@ -1,0 +1,3 @@
+process.c の rb_spawn_process() で proc_spawn(), proc_spawn_n() や system() を
+呼んでいるところで earg 引数(struct rb_exec_arg * 型)は無視されていることをコメ
+ントで追記しています。

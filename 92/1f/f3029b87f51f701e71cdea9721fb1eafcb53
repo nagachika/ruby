@@ -1,0 +1,3 @@
+r55123 で拡張ライブラリ bigdecimal の Float::INFINITY などの対応をした時に
+isfinite() を呼んでいましたが Windows ではビルドできないので、finite() を呼ぶ代
+替のマクロ定義を追加するようにしています。

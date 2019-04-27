@@ -1,0 +1,2 @@
+標準添付ライブラリ net/imap とそのテストのファイルでも frozen_string_literal:
+true の magic comment から "-*- ... -*-" の indicator を削除しています。

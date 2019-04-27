@@ -1,0 +1,4 @@
+addr2line.c に macOS で Mach-O のヘッダ情報の取得に _NSGetMachExecuteHeader()
+という関数を利用するようにしています。Apple の中のひとから情報提供があった模様
+。 -undefined dynamic_lookup というオプションつきでビルドした .dylib でも対応で
+きるようになるそうです。

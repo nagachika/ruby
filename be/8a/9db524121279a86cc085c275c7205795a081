@@ -1,0 +1,4 @@
+tool/ifchange で --color オプションを追加して auto, always などの指定を受け付け
+るようにしています。また tool/generic_erb.rb でも tool/ifchange でも tput の出
+力をそのまま使うのではなくて "\e[" で始まるかどうかを確認するためだけに使うよう
+にしているみたいです。

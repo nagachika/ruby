@@ -1,0 +1,4 @@
+Time#<=> による Time オブジェクトの比較をメソッド呼び出しをやめて cmp() 関数を
+直接呼ぶようにし、また cmp() 内でも値が T_BIGNUM の時に直接 rb_big_cmp() を呼ぶ
+ショートカットを追加して高速化しています。 https://github.com/ruby/ruby/pull/
+1546 [ruby-dev:50034] [Bug #13354]

@@ -1,0 +1,3 @@
+拡張ライブラリ socket と readline で SystemCallError 例外を発生させるのに errno
+にセットして rb_sys_fail() を呼んでいたのを、errno を引数で渡せる
+rb_syserr_fail() を利用して errno へのセットを避けるようにしています。

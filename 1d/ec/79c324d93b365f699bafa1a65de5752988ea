@@ -1,0 +1,4 @@
+Readline.output= で出力先を標準出力から切り替える Readline の機能を使えるのです
+が、ここに close された file descriptor を渡すと GNU Readline 6 では SEGV して
+しまうということなので拡張ライブラリ側でチェックして IOError 例外を発生させるよ
+うにしています。 [ruby-dev:45043] [Bug #5803]

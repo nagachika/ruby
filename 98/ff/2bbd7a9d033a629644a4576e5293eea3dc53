@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence の dump/load の round trip テストでエラー時に diff
+を表示するようにしています。

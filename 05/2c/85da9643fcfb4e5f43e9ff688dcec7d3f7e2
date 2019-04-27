@@ -1,0 +1,3 @@
+make の update-unicode と $(UNICODE_FILES) のルールと依存関係を反転させています
+。 ALWAYS_UPDATE_UNICODE=yes にしても毎回更新確認されないようになっていたそうで
+す。 [ruby-core:65842] [Bug #10415]

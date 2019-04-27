@@ -1,0 +1,2 @@
+NEWS に新メソッド Array#bsearch_index と Hash#fetch_values について追記していま
+す。

@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の extconf.rb でリンクする OpenSSL の SSLv3 サポートをチ
+ェックして、存在しない時はメソッドを定義しないようにしています。 OpenBSD で
+libressl が SSLv3 を削除しているそうです。 [ruby-core:70045] [Bug #11376]

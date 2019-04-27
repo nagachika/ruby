@@ -1,0 +1,3 @@
+r59053 はやはり関係なかったみたいで revert して rb_thread_create_timer_thread()
+で timer thread 用のマシンスタックのサイズを拡張する条件を変更して、Mac OS X で
+は常に BUFSIZ ぶん伸ばすようにしています。

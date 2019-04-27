@@ -1,0 +1,2 @@
+rubyspec の win32ole のテストで spec の名前に InternetExplorer という名前が残っ
+てたので修正しています。

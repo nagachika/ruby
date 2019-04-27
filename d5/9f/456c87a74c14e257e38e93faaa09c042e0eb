@@ -1,0 +1,3 @@
+parse.y の program ノードで本体 parser と ripper で local_push() の引数の数値だ
+けが異なるので、分岐をやめて ifndef_ripper() というマクロを利用するように書きか
+えています。

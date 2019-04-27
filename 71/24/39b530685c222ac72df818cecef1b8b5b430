@@ -1,0 +1,2 @@
+thread.c で struct timeval の減算処理を timeval_sub() という関数に切り出すリフ
+ァクタリング。

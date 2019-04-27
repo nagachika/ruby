@@ -1,0 +1,4 @@
+AST の NODE の位置情報を設定する関数群の改名。 nd_set_column() ->
+nd_first_set_column(), nd_lineno() -> nd_first_lineno(), nd_set_lineno() ->
+nd_first_set_lineno() に改名しています。つまり lineno, column は範囲(開始位置、
+終了位置)セットのものだよーというのを強調しているわけですね。

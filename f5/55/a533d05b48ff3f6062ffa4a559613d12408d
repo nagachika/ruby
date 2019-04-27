@@ -1,0 +1,3 @@
+tool/rbinstall.rb で Gem::Specification が存在することを前提としたコードになっ
+ていますが、BASERUBY が 1.8 系のところでビルドしている場合は存在しないので、自
+前で定義しています。

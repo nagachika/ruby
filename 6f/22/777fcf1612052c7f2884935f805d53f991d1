@@ -1,0 +1,4 @@
+vm.c の vm_set_main_stack() でメインスレッドのスタックを設定するところで
+TOPLEVEL_BINDING() が存在しなかったら異常終了させるようにしています。
+PVS-Studio という静的解析器で検出された不具合をまとめたブログで指摘されてたみた
+いですね。 http://www.viva64.com/en/b/0414/#ID0EQ1CI [ruby-core:76973]

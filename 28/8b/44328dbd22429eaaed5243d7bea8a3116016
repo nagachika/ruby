@@ -1,0 +1,3 @@
+MJIT 用にさらに rb_float_eql() rb_str_eql() rb_source_location_cstr() などのシ
+ンボルも --jit-debug や --jit-wait などのオプションを使った時に必要なので
+export するようにしています。

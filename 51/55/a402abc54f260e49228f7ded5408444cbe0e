@@ -1,0 +1,6 @@
+Windows 版でファイルの権限情報を Unix 流の mode に変換する fileattr_to_unixmode
+() で FILE_ATRIBUTE_REPARSE_POINT というのを S_IFLNK に変換しています。 S_IFLNK
+はシンボリックリンクで REPARSE_POINT というのは NTFS の機能で別のドライブをマウ
+ントするみたいなことができる機能のことみたいです。REPARSE POINT を利用して
+Windows 上のシンボリックリンクを実現しているためシンボリックリンク相当に変換し
+ているみたいですね。

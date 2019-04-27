@@ -1,0 +1,4 @@
+iseq.c の ISeq の情報取得用関数 iseq_path(), iseq_absolute_path(), iseq_label
+(), iseq_base_label(), iseq_first_lineno() に prefix "rb_" を付けて static を削
+って internal.h にプロトタイプ宣言を置くことでコア部分から呼べるようにしていま
+す。

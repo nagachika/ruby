@@ -1,0 +1,3 @@
+pathname のテストで File.chmod が実際に権限を変更していない時に Pathname#
+realpath が Errno::EACCESS を発生させるテストをスキップするようにしています。
+Windows 版は chmod 0000 には対応していないからでしょうか。

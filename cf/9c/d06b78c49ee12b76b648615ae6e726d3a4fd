@@ -1,0 +1,2 @@
+AppVeyor 上で MinGW の時に rubyspec の Thread#kill のテストが不安定とのことでコ
+メントをつけた上で platform_is_not で実行除外するようにしています。

@@ -1,0 +1,2 @@
+r43324 の続きで configure の $FIRSTMAKEFILE の設定についての修正のようです。
+configure.in よくわからないです。 non-GNU-make の場合の修正だそうですけど。

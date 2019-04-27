@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb で merger.rb のコマンドラインを組み立てる時に
+revision はソートしておくようにしています。たいていマージは元のコミット順にした
+ほうがいいですからね。

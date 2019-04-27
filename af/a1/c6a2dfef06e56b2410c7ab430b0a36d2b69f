@@ -1,0 +1,2 @@
+というわけで r65660 の ext/socket/rubysocket.h のコメントの修正を再度適用してい
+ます。 https://github.com/ruby/ruby/pull/2008

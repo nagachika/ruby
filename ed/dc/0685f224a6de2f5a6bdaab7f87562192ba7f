@@ -1,0 +1,3 @@
+RubyGems の変更。主に default gems の扱いの改善で、 default gem と同じ gem パッ
+ケージを追加でインストールしたものを gem uninstall で削除できるようにしているそ
+うです。その他リファクタリングなど。

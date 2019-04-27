@@ -1,0 +1,3 @@
+node.c の rb_node_buffer_new() および rb_ast_newnode() で node_buffer_t や
+node_buffer_elem_t の末尾の可変長の領域を含むメモリサイズの計算に offsetof() を
+利用するようにしています。

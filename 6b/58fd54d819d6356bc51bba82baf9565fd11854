@@ -1,0 +1,2 @@
+遅い filesystem 向けの対応で readlink(2) を呼び出す時も GVL 解放するようにして
+います。

@@ -1,0 +1,2 @@
+r38956 で修正した Windows 環境での Kernel#system のテストで assertion の条件が
+反転していたのを修正しています。 [ruby-core:51709] [Bug #7482]

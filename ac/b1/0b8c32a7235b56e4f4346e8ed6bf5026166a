@@ -1,0 +1,4 @@
+Net::FTP のテストでソケットにデータを書き込むところで Errno::EPIPE の発生を期待
+している assertion があったのですが、例外が発生しないこともあり、また
+ECONNRESET, ECONNABORTED, EOFError などの他の例外が発生することもあるので、
+assert_raise は消して rescue で例外を補足して無視するように変更しています。

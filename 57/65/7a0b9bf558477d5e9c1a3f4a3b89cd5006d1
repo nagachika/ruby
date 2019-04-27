@@ -1,0 +1,3 @@
+enc/depend, ext/extmk.rb, ext/ripper/tools/generate.rb から未使用の変数、ブロッ
+ク変数の名前重複、フォーマット指示子未使用の String#% など警告を除去しています
+。

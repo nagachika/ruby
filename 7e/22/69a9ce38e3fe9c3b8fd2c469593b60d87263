@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils のテストで FileUtils.chown のエラー時のテストを追
+加しています。 [ruby-core:59298] [Feature #9292]

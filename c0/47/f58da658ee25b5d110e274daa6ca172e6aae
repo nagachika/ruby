@@ -1,0 +1,3 @@
+include/ruby/ruby.h において RTEST() と NIL_P() というマクロに RB_TEST() と
+RB_NIL_P() と prefix を追加して、同じヘッダ内ではこの prefix つきの新し名前を使
+うようにしています。古い名前も別名として #define して残しています。

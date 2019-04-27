@@ -1,0 +1,7 @@
+Readline のテストで Readline.completion_proc に渡している Proc オブジェクト
+(proc{...} で作ったもの)のブロックの中で return を呼んでしまっていて、テストメ
+ソッド自体から return してしまっていたので、lambda(ここでは ->(){...} 記法)で作
+った Proc オブジェクトを渡すようにしています。proc や Proc.new で作ったものと
+lambda, ->(){...} で作ったものではその中での return の挙動が違います(lambda は
+Proc#call からその値で返る)。またテストのチェックを追加しています。
+[ruby-dev:45042] [Bug #5802]

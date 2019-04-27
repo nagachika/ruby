@@ -1,0 +1,2 @@
+parse.y の parser_yyerror() で終端していない文字列/正規表現リテラルのエラー処理
+の ripper 対応をしています。

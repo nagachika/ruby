@@ -1,0 +1,2 @@
+template/fake.rb.in で "@srcdir@" を使っていたのを @abs_top_srcdir@ という変数
+(?)を利用するようにします。 r47287 の続きみたいですね。

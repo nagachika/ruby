@@ -1,0 +1,2 @@
+NEWS ファイルに Module#define_method が UnboundMethod (ただし Module のインスタ
+ンスメソッドのみ)を受け付けるようになったことを追記しています。

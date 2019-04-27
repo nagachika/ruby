@@ -1,0 +1,2 @@
+gc.c の NODE 構造体を生成する*1関数 rb_node_newnode() でも rb_newobj() のかわり
+に r40764 で導入された newobj_of() を利用するようにしています。

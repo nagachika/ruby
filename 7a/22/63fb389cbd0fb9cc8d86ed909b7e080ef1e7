@@ -1,0 +1,4 @@
+r65275 で導入した inline cache や call cache を MJIT 用にコピーする機構で
+mjit_copy_job_handler() 等で job->finish_p を操作/参照する時に MJIT の mutex で
+排他かけるようにしています。 --jit つきのテスト時に SEGV が発生することがあった
+ようです。

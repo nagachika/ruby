@@ -1,0 +1,2 @@
+ext/rbconfig/sizeof/depend の make dist で消すファイルについては VPATH に要素は
+不要だったみたいで削除しています。

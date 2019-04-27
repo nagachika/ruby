@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence.allocate を undef しておいて未初期化のオブジェクト
+が作られないようにしています。

@@ -1,0 +1,2 @@
+ext/tk/config_list.in に項目を追加して tk のコンパイルオプションに --enable-
+(tcl|tk)-h-ver-check や --with-(tcl|tk)-build-dir を追加しているみたいです。

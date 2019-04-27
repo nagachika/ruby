@@ -1,0 +1,8 @@
+rb_integer_pack() にさらにオーバフロー時の戻り値の返しかたを変更する指定ができ
+る引数 overflow_2comp を追加した rb_integer_pack_internal() として定義するよう
+にして、またオーバフローチェックするパスを追加しています。また
+rb_integer_pack_2comp() という overflow_2comp を on にしたバージョンの API も追
+加しています。数値が -2**(numwords*(wordsize*CHAR_BIT-nails)) の時のオーバフロ
+ー判定が異なるようです。
+そして sprintf.c の rb_str_format() を2つに分離した API を使い分けて再実装して
+います。

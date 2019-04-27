@@ -1,0 +1,3 @@
+tool/unicode_norm_gen.rb を BASERUBY が 1.8.5 でも動くように修正しています。ブ
+ロック引数にSymbolを map(&:to_s) みたいに渡す記法や Enumerable のメソッドが
+Enumerator を返す機能を使わないようにしています。

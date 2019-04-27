@@ -1,0 +1,2 @@
+標準添付ライブラリ delegate から if __FILE__ == $0 で括られていたサンプルコード
+を sample/delegate.rb に切り出しています。

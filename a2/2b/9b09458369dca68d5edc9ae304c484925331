@@ -1,0 +1,5 @@
+dot(graphviz のツールですね)、doxygen, pkg-config などのビルドに使用するツール
+のチェックを AC_CHECK_TOOL ではなく AC_CHECK_PROG でチェックするように変更して
+います。 AC_CHECK_TOOL と AC_CHECK_PROG はツールを探すパスの探索順序が違うよう
+で、おそらくターゲット用のパスじゃなくてビルドしている環境のパスから探させてる
+んだろうと思います。

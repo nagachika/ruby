@@ -1,0 +1,5 @@
+Haiku のサポートをベストエフォートとして、configure などから Haiku 向けの(既に
+不要な?)コードを消していいます。逆に thread_pthread.c ではマシンスタックのオー
+バフロー検出のためのコードに Haiku 向けのセクションを追加しています。 Haiku で
+の SEGV の修正パッチが元になっているようです。 https://github.com/ruby/ruby/
+pull/1109 [ruby-core:67923] [Bug #10811]

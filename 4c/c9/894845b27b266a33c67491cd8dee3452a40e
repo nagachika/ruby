@@ -1,0 +1,2 @@
+tool/ytab.sed で古い bison の出力を sed で置換して対応していたやつでも parser
+を p に変数名の変更をしています。

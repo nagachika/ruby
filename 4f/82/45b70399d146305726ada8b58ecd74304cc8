@@ -1,0 +1,4 @@
+標準添付ライブラリ erb で埋め込む式に frozen-string-literal の magic comment が
+書かれていたら反映させるようにしています。この変更前から encoding の magic
+comment は埋め込み文に書けるようになってたんですね。 https://github.com/ruby/
+ruby/pull/1229

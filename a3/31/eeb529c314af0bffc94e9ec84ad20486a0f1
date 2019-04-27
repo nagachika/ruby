@@ -1,0 +1,3 @@
+random.c の rand_random() や rb_f_rand() で大きな分岐後に return するようになっ
+ていたのをそれぞれの分岐で return するようにしたり goto での移動を if の条件分
+岐に組みこんだりするリファクタリング。

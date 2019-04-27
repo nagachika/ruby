@@ -1,0 +1,2 @@
+lib/rubygems と rdoc のテストと rubygems のテストと vm_backtrace.c の行末の空白
+除去。一ヶ所 vm_backtrace.c には空行の削除もありますね。

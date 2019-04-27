@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal の power の実装で引数の vexp (指数の指定)が Float の
+時に double 型の浮動小数点数を Bignum に変換するのに rb_dbl2big を利用するよう
+にしています。おそらく Infinity や NaN が渡された時に例外にするようにするためか
+と思います。

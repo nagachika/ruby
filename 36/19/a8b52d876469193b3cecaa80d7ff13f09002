@@ -1,0 +1,1 @@
+rb_method_entry_t* 型の引数や変数に const を付けています。

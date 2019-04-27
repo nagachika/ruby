@@ -1,0 +1,5 @@
+lib/unicode_normalize/normalize.rb にコメントでこれが組込み相当(String の該当す
+るメソッド起動時に require されてメソッドを置換する)であることを追記しています
+。なるほど String#unicode_normalize{!?} の string.c への移動は標準添付ライブラ
+リの gems パッケージ化の流れに対応してのことだったんですね。 https://github.com
+/ruby/spec/pull/433 https://bugs.ruby-lang.org/issues/5481#note-58

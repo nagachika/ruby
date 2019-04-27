@@ -1,0 +1,3 @@
+クラスの定数を管理するテーブル rb_classext_t::const_tbl を st_table から
+rb_id_table による実装に変更しています。若干メモリ使用量を削減する効果がある模
+様。 [ruby-core:72112] [Feature #11614]

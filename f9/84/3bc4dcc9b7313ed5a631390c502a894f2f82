@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の ASN1 の parse の asn1integer_to_num() で
+ASN1_ENUMERATED という型の場合も考慮するようにしています。これも OpenSSL 1.1.0
+対応の一部みたいで、これまでは ANS1_INTEGER_to_BN() で ENUMERATED も変換できて
+いたのがエラーになるように変わったみたいです。 [ruby-core:75225] [Feature #
+12324]

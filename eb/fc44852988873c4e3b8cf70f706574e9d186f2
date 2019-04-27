@@ -1,0 +1,4 @@
+r63754 で bootstraptest/runner.rb で pipe を使って子プロセスの終了を検出するよ
+うにした変更が BASERUBY で実行されるため新しめの IO#read_nonblock がない場合に
+動かないため r63757 で revert されてたのを、そのような環境では従来通り sleep に
+よる待ちを使うように対応してリトライしています。

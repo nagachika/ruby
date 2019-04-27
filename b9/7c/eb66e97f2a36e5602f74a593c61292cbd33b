@@ -1,0 +1,3 @@
+拡張ライブラリ digest の extconf.rb で --common-digest というオプションに対応し
+て、md5 と sha1, sha2 に Apple の CommonCrypto/CmmonDigest.h というヘッダを利用
+した実装を追加しています。これも Apple の独自パッチの適用ですかね?

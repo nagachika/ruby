@@ -1,0 +1,1 @@
+ext/win32ole/win32ole.c の未使用の変数 cWIN32OLE_PROPERTY を削除しています。

@@ -1,0 +1,2 @@
+Windows 環境で ext/openssl/ossl.h に #define OPENSSL_SYS_WIN32 1 を追加していま
+す。 mingw(msys) でのビルド用とのこと。

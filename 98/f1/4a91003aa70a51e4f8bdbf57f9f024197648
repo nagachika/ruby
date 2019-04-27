@@ -1,0 +1,2 @@
+昨日の rdoc の修正の ChangeLog エントリの ML 番号が全て ruby-dev になっていたの
+は ruby-core でした。その修正です。

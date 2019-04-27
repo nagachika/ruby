@@ -1,0 +1,4 @@
+r37711, r37713, r37715 に続いて DTrace 関連のビルドシステムの修正。 probes.h の
+参照に $VPATH を使っていたのが残っていたのを修正、また make dist-clean 時に
+probes.dmyh を削除しないように(というよりは VPATH が残っていたのを削除?)。また
+FreeBSD で DTrace を有効にする時には libelf をリンクするようにしています。

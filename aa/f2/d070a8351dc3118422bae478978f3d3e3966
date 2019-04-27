@@ -1,0 +1,6 @@
+Socket#accept_nonblock や OpenSSL::SSL::SSLSocket#accept_nonblock は通常新しい
+接続がない時に IO::WaitReadable という Module を include した例外を発生させます
+が、r42695 で IO#read_nonblock がexception キーワード引数をサポートして、これに
+false が指定されると例外を発生させずに :wait_readable を返すようにしたのと同様
+に accept_nonblock も例外を発生させない指定に対応するようにしています。
+[ruby-core:66385] [Feature #10532]

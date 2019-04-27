@@ -1,0 +1,1 @@
+iseq_memsize() に rb_call_cache の容量のぶんを加味するようにしています。

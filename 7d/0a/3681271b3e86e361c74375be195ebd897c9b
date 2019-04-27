@@ -1,0 +1,2 @@
+autoload のテストで test_require_implemented_in_ruby_is_called から前処理部分を
+ruby_impl_require というメソッドに切り出すリファクタリングをしています。

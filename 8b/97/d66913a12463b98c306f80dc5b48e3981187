@@ -1,0 +1,3 @@
+tool/vcs.rb で git を呼び出す時に古い git のために -C オプションのかわりに
+IO.pread の chdir オプションを使って chdir してから実行するようにしています。ま
+た環境変数 LANG や LC_ALL に C を設定して呼ぶようにしています。

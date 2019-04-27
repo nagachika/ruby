@@ -1,0 +1,2 @@
+拡張ライブラリ digest で struct RData 型を利用していたところを TypedData を利用
+するようにしています。

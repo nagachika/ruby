@@ -1,0 +1,2 @@
+r64820 で tool/ruby_vm/views/_mjit_compile_send.erb に書いてあった TODO コメン
+トのためのリファクタリングが終わったので TODO を削除しています。

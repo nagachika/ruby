@@ -1,0 +1,7 @@
+r40887 で切り出したファイルポインタ操作の処理で SetFilePointer() が
+INVALID_SET_FILE_POINTER を返した時無条件でエラーにしていましたが GetLastError
+() で NO_ERROR が返ってきたらエラー扱いにしないようにしています。
+INVALID_SET_FILE_POINTER は 0xFFFFFFFF のように定義されていて、正常な戻り値の場
+合もあるからということのようです。そんなひどい。ただチケットではまだ
+rb_w32_write() に同じような間違ったエラーチェックがあるという報告もあります。
+[ruby-core:55098] [Bug #8431]

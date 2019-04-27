@@ -1,0 +1,2 @@
+gc_sweep_rest() で LazySweep を off にしてコンパイルされていると sweep されない
+不具合を修正しています。 [ruby-dev:48706] [Bug #10431]

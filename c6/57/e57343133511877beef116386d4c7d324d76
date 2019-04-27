@@ -1,0 +1,3 @@
+r65275 の MJIT での inline cache の参照の race condition 修正によって逆にエラー
+になってしまったテストを MJIT 有効時に skip するようにしています。一進一退って
+感じですね。

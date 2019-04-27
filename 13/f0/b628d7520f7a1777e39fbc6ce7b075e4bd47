@@ -1,0 +1,4 @@
+InstructionSequence にコンパイルする時にブロックの label を trace 命令の前に作
+っていたのを後に置くように変更しています。制御文 redo でブロックの先頭に戻ると
+きに trace 命令の前に戻ってしまうため何度も TracePoint の call イベントが発火し
+てしまうという不具合の修正のためだそうです。 [ruby-dev:48305] [Bug #9964]

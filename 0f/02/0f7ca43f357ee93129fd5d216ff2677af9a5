@@ -1,0 +1,2 @@
+thread.c で barrier -> thread shield の変更漏れしていたコメントを修正しています
+。

@@ -1,0 +1,2 @@
+stringio.c のコーディングスタイルや tab の使いかたを修正しています。 Ruby の C
+ソースコードは tab width 8。

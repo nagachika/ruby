@@ -1,0 +1,4 @@
+Class や Module の特異クラス内でクラス変数について defined? でチェックすると、
+元の Class や Module にそのクラス変数が存在したら "class variable" を返してしま
+っていたのを修正しています。クラス変数用の cbase は vm_get_cvar_base() で取得し
+ないといけないんですね。 [ruby-core:39022] [Bug #5204]

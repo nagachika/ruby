@@ -1,0 +1,7 @@
+T_HASH 型のオブジェクトで要素数が小さい時には st_table を使わず key と value の
+対の配列で管理されるので、この時のメモリも Transient Heap を利用するようにして
+います。これまでも struct RVALUE に埋め込めるサイズでは同様の埋め込みがされてた
+と思いますが、具体的には 8要素まで配列で管理するようにしたそうなので、T_HASH の
+データ管理方法に embed -> array -> st_table と3つの形態を導入して、array の時に
+のみ Transient Heap を導入したようです。この変更は GSoC の成果を元にしているそ
+うです。 [ruby-core:87538] [Bug #14858]

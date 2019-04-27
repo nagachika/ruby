@@ -1,0 +1,4 @@
+拡張ライブラリ objspace の rdoc コメントで require "objspace" が必要な旨を追記
+しています。また RDoc が ObjectSpace を認識できるようにコメントアウトした状態で
+rb_define_module() を呼ぶコードを追加しています。どっちかというとこっちのほうが
+RDoc のパースエラー対策の本命でしょうか。 [ruby-core:55525] [Bug #8537]

@@ -1,0 +1,3 @@
+Range でも Marshal.load で不正な文字列を load すると不正な Range オブジェクトが
+できてしまっていたので、load 時にチェックを追加しています。 [ruby-core:78067]
+[Bug #12915]

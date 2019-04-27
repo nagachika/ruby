@@ -1,0 +1,3 @@
+標準添付ライブラリ time の Time.parse および Time.strptime でタイムゾーンが無視
+されているのを修正して DateTime と同様の挙動にしています。 https://github.com/
+ruby/ruby/pull/1297 [ruby-core:74423] [Bug #12190]

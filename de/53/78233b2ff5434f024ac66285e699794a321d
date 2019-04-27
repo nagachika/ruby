@@ -1,0 +1,2 @@
+tool/merger.rb で revision の指定に commit hash も受け付けてその場合 git.ruby
+-lang.org からパッチを取得して適用するように対応しています。

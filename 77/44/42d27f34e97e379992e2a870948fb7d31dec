@@ -1,0 +1,4 @@
+time.c の time_arg() に vtm->subsec に格納したオブジェクトを最適化による GC マ
+ーク漏れから保護するための RB_GC_GUARD() を追加しています。ここから呼び出してい
+る obj2subsecx() で RB_GC_GUARD() を呼んでいたところは不要だったので削除してい
+ます。 mswin64 の CI の失敗の対策だそうです。

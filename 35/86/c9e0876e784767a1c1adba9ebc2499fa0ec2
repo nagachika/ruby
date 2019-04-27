@@ -1,0 +1,5 @@
+構造体ダイエットのプロ normalperson さんが rb_mutex_t の構造体サイズを 160
+bytes から 80 bytes になんと半分に減量しています。すごいなーどうやったんだろう
+と思ったら pthread_mutex_t や pthread_cond_t を使うのをやめて独自に linked-list
+構造を導入して待ち行列を実装するという荒技でした。ひえー。 [ruby-core:80913]
+[Feature #13517]

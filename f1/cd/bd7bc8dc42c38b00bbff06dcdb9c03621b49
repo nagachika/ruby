@@ -1,0 +1,2 @@
+ext/nkf/nkf-utf8/nkf.c のエンコーディング変更を revert したので svn property の
+svn:mime-type の変更も元に戻しています。

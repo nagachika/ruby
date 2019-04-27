@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の ole_mb2wc() に codepage の引数を追加して static 変数
+cWIN32OLE_cp を参照していたのを引数での指定にしています。また ole_vstr2wc() か
+ら ole_mb2wc() を呼び出して再利用するようにしています。

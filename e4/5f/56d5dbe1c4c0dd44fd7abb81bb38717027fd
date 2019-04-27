@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の ext/openssl/lib/openssl/buffering.rb の magick
+comment に coding: binary を指定してこのスクリプト内の文字列リテラルが ASCII
+-8BIT エンコーディングとして扱かわれるようにしています。 [ruby-core:57906] [Bug
+#9028]

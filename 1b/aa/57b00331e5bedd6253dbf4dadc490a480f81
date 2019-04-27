@@ -1,0 +1,4 @@
+拡張ライブラリ io/wait の IO#wait_readable の実装で EOF の検出で ioctl(2) の
+FIONREAD によるバッファのチェックの前に wait_for_single_fd() のチェックを行うよ
+うにしています。すごく昔に提案されたチケットですがおもむろに対応されてます。な
+んでだろ。 [ruby-core:36805] [Feature #4849]

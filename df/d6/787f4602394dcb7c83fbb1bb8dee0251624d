@@ -1,0 +1,2 @@
+webrick のテストで警告除去のため WEBrick::HTTP::Request に明示的に content_type
+を設定するようにしています。 https://github.com/ruby/webrick/pull/8

@@ -1,0 +1,3 @@
+またまた標準添付ライブラリ WEBrick の WEBrick::HTTPServlet::FileHandler のディ
+レクトリリストの表示で NameWidth というパラメータでファイル名の表示する文字数の
+制限を変更できるようにしています。

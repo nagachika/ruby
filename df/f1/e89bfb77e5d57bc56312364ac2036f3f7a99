@@ -1,0 +1,2 @@
+r66300 で対応した Unicode 11.0.0 の Georgian の文字の対応について String#
+capitalize のテストを追加しています。

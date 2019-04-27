@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp で IPSocket#addr や #peeraddr のかわりに
+local_address や remote_address メソッドで Addrinfo オブジェクトを取得してアド
+レスを特定するようにしています。

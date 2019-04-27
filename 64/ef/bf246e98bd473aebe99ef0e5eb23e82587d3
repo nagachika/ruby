@@ -1,0 +1,2 @@
+r56428 で追加された DATA.binmode? のテストを assert_separately で子プロセス内で
+assert_not_predicate を使うように書き変えています。

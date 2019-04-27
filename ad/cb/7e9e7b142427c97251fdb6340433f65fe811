@@ -1,0 +1,4 @@
+dir.c, file.c, io.c でさらに rb_sys_fail() を rb_sys_fail_path() に置換し、
+rb_sys_fail_path() は rb_sys_fail_str() を呼ぶように定義を変更しています。また
+このために C の文字列でだけパスを受け取っていた関数に VALUE 型で String オブジ
+ェクトも渡すように引数の追加をしています。

@@ -1,0 +1,2 @@
+bootstraptest/test_literal.rb、regexp.rdoc、lib/session.rb などのドキュメント/
+コメントの英単語の typo 修正。 https://github.com/ruby/ruby/pull/603

@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_setivar() でコンパイラの警告除去のための明示的キャストを
+追加。

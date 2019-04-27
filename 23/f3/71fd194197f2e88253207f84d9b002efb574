@@ -1,0 +1,2 @@
+EnvUtil#assert_separately で子プロセスの標準エラー出力や終了ステータスをチェッ
+クする assertion で FailDesc を使ってより詳細な情報を出力するようにしています。

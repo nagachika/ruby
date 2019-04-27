@@ -1,0 +1,19 @@
+以下のように Module#define_method にブロックを渡して定義したメソッドで作った
+Proc の中で super() を呼んでいると、その Proc をメソッドの外に持ち出して call
+すると cfp のスタックのスキャンがオーバランしてしまって SEGV するのを修正してい
+ます。 [ruby-core:37116] [Bug #4881]
+class A
+  def meth
+  end
+end
+class B < A
+  define_method(:meth) do
+    Proc.new { super() }
+  end
+end
+pr = B.new.meth
+pr.call  #=> SEGV
+本当はここでは super() で A#meth が呼ばれるのが良いのでしょうけど、[Bug #3136]
+の議論を見るとかなり大規模な変更をしないと他を壊さずにここを修正できないような
+ので、とりあえずこういう呼びかたをすると super() が NoMethodError 例外を発生さ
+せるようにしています。

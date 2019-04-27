@@ -1,0 +1,3 @@
+標準添付ライブラリ logger の Logger.new の rdoc 用コメントの用例で引数名を実際
+のメソッド定義の仮引数名にあわせるように修正しています。 https://github.com/
+ruby/ruby/pull/531

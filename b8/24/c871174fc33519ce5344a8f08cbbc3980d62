@@ -1,0 +1,1 @@
+test/ruby/test_fnmatch.rb も大きなテストメソッドを細かく分割しています。

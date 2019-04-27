@@ -1,0 +1,4 @@
+ruby 自体のテストを書くためのユーティリティ test/ruby/envutil.rb や
+find_executable.rb、memory_status.rb を test/lib/envutil.rb に移動しています。
+test/lib には ruby のテスト用のライブラリが起かれているのでそこにまとめるように
+して test/lib/test/unit.rb で require しておくようにしています。

@@ -1,0 +1,3 @@
+IO.copy_stream の実装に使う構造体 struct copy_stream_struct に copy_stream_body
+() で fstat(2) の結果をキャッシュするメンバーを追加して繰り返し fstat(2) を呼び
+出すのを抑制するようにする最適化を行っています。

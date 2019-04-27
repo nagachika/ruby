@@ -1,0 +1,3 @@
+win32/README.win32 に、ビルドには Windows 2000 or later (NT based kernel) が必
+須ですよ、と追記しています。Windows 95/98 上でビルドはもう(いつからかはともかく
+以前から)サポートされていません。 Me も 95 の系列でしたっけ、確か。

@@ -1,0 +1,3 @@
+doc/standard_library.rdoc で Mutex と Queue と ConditionVariable について
+thread.rb で提供されていると書かれていましたが、今は組み込みクラスになっている
+ので記述を削っています。

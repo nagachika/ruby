@@ -1,0 +1,2 @@
+r56977 の追加修正。 Addrinfo.getaddrinfo に socket type (STREAM) を指定するよう
+にして、また fallback のために rescue する例外を SocketError に指定しています。

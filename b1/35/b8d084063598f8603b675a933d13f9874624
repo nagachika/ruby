@@ -1,0 +1,5 @@
+__dir__ のテストで File.expand_path ではなく File.realpath を利用するように変更
+しています。よく勘違いされる点ですが __dir__ は File.expand_path(File.dirname
+(__FILE__)) とか File.expand_path("..", __FILE__) ではなくて File.dirname
+(File.realpath(__FILE__)) と同等(シンボリックリンクだった時に違いがある)なんで
+すよね。

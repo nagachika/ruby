@@ -1,0 +1,2 @@
+RbConfig のテスト(主に multiarch 向け)で configure のオプションで変更された変数
+などをチェック対象から外すようにしています。 [ruby-core:52623] [Bug #7902]

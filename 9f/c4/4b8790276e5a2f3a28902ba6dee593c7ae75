@@ -1,0 +1,4 @@
+re.c の match_backref_number() で onig_name_to_backref_number() を呼ぶために引
+数に明示的なキャストをして呼び出していましたが、同じことをする
+name_to_backref_number() という static 関数があったのでそれを呼ぶようにしていま
+す。

@@ -1,0 +1,2 @@
+Module#const_get で "::" で区切ったネストした定数名を受け付けるようにしています
+。 [ruby-core:41404] [Feature #5690]

@@ -1,0 +1,4 @@
+Hash#replace を rb_hash_clear() してから rb_hash_foreach() で1要素ずつコピーし
+ていく方法から、その Hash が既にイテレーション中でなければ Hash の実体である
+st_table を st_copy() を使って直接コピーする方法で実装することで高速化を図って
+います。

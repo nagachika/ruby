@@ -1,0 +1,3 @@
+test/ruby/test_arity.rb で例外発生のチェックを assert_raises から assert_raise
+を利用するように変更しています。 r33654 では assert_raise から assert_raises へ
+の変更がされていたのですがどっちを使うのが正しいんでしょう。

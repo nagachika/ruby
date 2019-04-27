@@ -1,0 +1,5 @@
+ブロックを受け取っているメソッド内の Binding を利用して eval を実行してその中で
+yield すると SEGV する不具合を修正しています。ブロックをスコープから引き剥がし
+て Proc オブジェクトにする処理を rb_vm_make_proc() から rb_vm_make_env_object()
+に移動して、binding で Binding を作成する時にも実行されるようにしています。
+[ruby-core:41038] [Bug #5634]

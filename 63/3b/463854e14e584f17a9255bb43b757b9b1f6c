@@ -1,0 +1,2 @@
+NEWS ファイルに Proc#call の高速化と、ブロック引数に対する call の高速化につい
+て追記しています。 [Feature #14318] [Feature #14330]

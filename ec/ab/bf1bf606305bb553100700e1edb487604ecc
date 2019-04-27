@@ -1,0 +1,3 @@
+bignum.c の rb_integer_pack_2comp() という別の関数として分離されていたのを削っ
+て、flags 引数に INTEGER_PACK_2COMP というビットフラグを追加してこれで指定でき
+るようにしています。

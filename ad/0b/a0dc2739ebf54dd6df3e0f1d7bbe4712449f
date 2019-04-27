@@ -1,0 +1,2 @@
+r66778 の TRUE/FALSE → true/false への変更に追随して mjit_worker.c のコメントに
+書かれてた TRUE も true に変更しています。

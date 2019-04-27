@@ -1,0 +1,6 @@
+インタプリタ起動時の $LOAD_PATH の Encoding 設定時に ruby_init_loadpath_safe()
+で行なっていたのと同様の rubygems 向けの内部的なインスタンス変数の設定も行なう
+ようにしています。あーなるほど、rb_enc_associate() で文字列オブジェクトがコピー
+される可能性があるからセットしなおしてるのかな、と思ったけど rb_enc_associate()
+は複製はしないような気がします。これも r51092 の rubygems の更新に関連した対応
+かな。

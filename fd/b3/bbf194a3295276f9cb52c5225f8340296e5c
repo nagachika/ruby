@@ -1,0 +1,2 @@
+tool/rbinstall.rb で gem パッケージをインストールする時にパッケージ毎の bin/ デ
+ィレクトリの下のファイルの mode は $script_mode に設定するようにしています。

@@ -1,0 +1,3 @@
+rb_threadptr_pending_interrupt_check_mask() で rb_mod_ancestors() を呼び出して
+配列を作成していたのを RCLASS_SUPER() で親クラスを辿るようにして一時クラスの生
+成を抑制しています。

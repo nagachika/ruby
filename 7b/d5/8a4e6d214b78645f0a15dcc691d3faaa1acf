@@ -1,0 +1,3 @@
+GC.compact の実装で T_CLASS および T_ICASS 型オブジェクトの super の参照を移動
+するタイミングを rb_classext_t へのポインタが NULL でも実行するように前のほうに
+移動しています。

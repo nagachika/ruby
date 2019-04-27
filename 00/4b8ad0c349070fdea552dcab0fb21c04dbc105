@@ -1,0 +1,4 @@
+mjit_worker.c で ruby/util.h を #include すると strdup() が ruby_strdup() とい
+う GC が走る可能性のある関数にすりかえられてしまうので #undef して、戻り値をチ
+ェックするように修正しています。mjit_worker.c の中では GC が走る可能性のある関
+数を呼んではいけないため。

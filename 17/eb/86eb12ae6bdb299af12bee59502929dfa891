@@ -1,0 +1,5 @@
+POSIX.1-2001 で getcwd(3) は引数に NULL を渡すと内部でメモリ確保して返すそうで
+、NO_GETCWD_MALLOC というマクロが定義されていなければ getcwd(3) にメモリ確保を
+まかせるようにして ruby_getcwd() で xmalloc()/xrealloc() でメモリ確保するのをや
+めています。 NO_GETCWD_MALLOC は特に configure で定義したりしてる様子はないので
+すが、対応していない環境とかないんですかね…。

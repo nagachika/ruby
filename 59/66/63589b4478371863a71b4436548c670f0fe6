@@ -1,0 +1,2 @@
+r50446 の続き。拡張ライブラリ io/console で nmake の VPATH の記法は extconf.rb
+で nmake かどうか判定して必要に応じて VK_HEADER に埋め込むようにしています。

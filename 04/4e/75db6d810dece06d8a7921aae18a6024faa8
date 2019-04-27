@@ -1,0 +1,2 @@
+r42168 の net/http の再修正。定数名に Socket:: の名前空間の指定を追加しています
+。 [ruby-core:56158] [Feature #8681]

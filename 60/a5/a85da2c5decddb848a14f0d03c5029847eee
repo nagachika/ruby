@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb というブランチメンテナ用のツールで Backport 欄の
+REJECTED という値を WONTFIX に変更しています。おお、こんなツールがあるの忘れて
+た。

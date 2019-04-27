@@ -1,0 +1,11 @@
+メソッド呼び出しの情報を格納する構造体 rb_call_info_t を struct rb_call_info と
+改名し、そこから keyword 引数についての部分を struct rb_call_info_kw_arg として
+分離し、keyword 引数がある時だけそれを含む struct rb_call_info_with_kwarg とい
+う構造体を利用するようにしています。さらに cache 用のメンバは struct
+rb_call_cache に、receiver やブロック、引数など呼び出し時の情報を struct
+rb_calling_info に分離して VM 命令や関連する関数で別の引数として持ち回るように
+しています。
+だいぶ変わりましたねー。struct rb_calling_info みたいに呼び出し時の情報と(まあ
+ある意味全部呼び出し時ではあるんですが)メソッド固有の情報が分離されたのはすっき
+りしましたね。keyword 引数のところはポインタ1つぶん省略できる場合があるかわりに
+分岐が増えてどんな効果があるか予想が難しいですが…。

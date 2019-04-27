@@ -1,0 +1,2 @@
+フォーマット文字列の long long に対応する指示子の preifix (PRI_LL_PREFIX) を
+configure で設定するようにしているそうです。

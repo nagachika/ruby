@@ -1,0 +1,2 @@
+test/lib/test/unit.rb で @options[:job_status] が :replace でない時の出力も
+Test::Unit::Statusline::Output を使って出力するようにしています。

@@ -1,0 +1,4 @@
+拡張ライブラリ dl と fiddle で DL::CPtr と DL::Handle、Fiddle::Handle、
+Fiddle:Pointer のオブジェクト開放時の処理で TypedData で wrap している構造体の
+メモリ領域を解放していなかったためメモリリークしていたのを修正しています。
+[ruby-dev:48021] [Bug #9599]

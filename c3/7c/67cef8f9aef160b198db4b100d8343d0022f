@@ -1,0 +1,2 @@
+thread_sync.c で r51699 で追加した Queue#close を繰り返し呼んでもエラーにならな
+いようにしています。 [Feature #10600]

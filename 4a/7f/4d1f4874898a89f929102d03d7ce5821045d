@@ -1,0 +1,4 @@
+Net::SMTP#tlsconnect で SSL 接続の verification に失敗した時にソケットの close
+が漏れてたのを修正。また Net::SMTP の SSL 接続のテストを追加。なんか継承してい
+る……minitest の使いかたは良く知らないけど stub にできるんじゃないんですかね。
+まあ問題ないと思いますけど。

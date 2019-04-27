@@ -1,0 +1,3 @@
+標準添付ライブラリ benchmark のテスト test/benchmark/test_benchmark.rb で
+minitest を直接使って書かれていたところを、そのラッパである test/unit (今は
+test/lib の下にコピーされたもの)を使って書き直しています。

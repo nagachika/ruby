@@ -1,0 +1,3 @@
+ruby_vm_destruct() で RubyVM のオブジェクトを rb_gc_force_recycle() で解放しよ
+うとしていたのを削除しています。既に rb_gc_call_finalizer_at_exit() で解放済み
+なので不要だったとのこと。

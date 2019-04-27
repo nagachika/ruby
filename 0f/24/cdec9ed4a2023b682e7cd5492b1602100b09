@@ -1,0 +1,3 @@
+rubygems の Gem::Security::DIGEST_ALGORITHM の設定で OpenSSL::Digest の各クラス
+が未定義の場合は拡張ライブラリ digest の Digest::SHA512 に fallback するように
+しています。

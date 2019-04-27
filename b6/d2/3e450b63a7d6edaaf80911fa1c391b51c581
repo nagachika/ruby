@@ -1,0 +1,3 @@
+configure の jemalloc 対応で --with-jemalloc が指定されなかった時でも jemalloc/
+jemalloc.h ヘッダがあれば JEMALLOC_MANGLE は定義していたのですが、実際に利用で
+きるか? チェックしてから定義するようにしているようです。

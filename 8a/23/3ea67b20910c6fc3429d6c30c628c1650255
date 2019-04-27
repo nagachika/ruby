@@ -1,0 +1,6 @@
+IO の実装で GVL を解放した後は rb_io_t の構造体の fd は無効になっている可能性が
+あるので、rb_io_wait_readable() のかわりに rb_io_check_closed() で close 済みじ
+ゃないかもチェックする fptr_wait_readable() という関数を定義して、これでチェッ
+クするようにしています。けど fd を使った後で rb_io_check_closd() を呼んでるので
+、発生するエラーが IOError (かな?)になるようにしてるだけ(こうしないと
+Errno::EBADF が発生するらしい)のようですね。 [ruby-core:88305] [Bug #14968]

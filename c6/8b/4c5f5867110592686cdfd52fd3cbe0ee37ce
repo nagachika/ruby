@@ -1,0 +1,3 @@
+rubyspec の C API テスト用の拡張ライブラリのビルド時に RbConfig::CONFIG の
+LIBRUBYARG も適用するようにしています。逆に dldflags から $(DEFFILE) の参照は消
+すようにしています。 mingw でのビルド用だそうです。

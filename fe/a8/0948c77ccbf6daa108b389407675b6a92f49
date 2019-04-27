@@ -1,0 +1,4 @@
+CRuby のテスト用のライブラリで --jobs-status オプションに渡せる引数に none を追
+加しています。none の時は options[:job_status] に nil を入れるようにしています
+。しかしこの後置 if 付きの (type || :normal if type != :none) は脳内 parseが難
+しいですね。

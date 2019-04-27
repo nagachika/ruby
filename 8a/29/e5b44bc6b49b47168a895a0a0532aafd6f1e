@@ -1,0 +1,3 @@
+r47245 の complex.rb の削除で失敗するようになっていたテストの修正。 complex.rb
+で Math = CMath としていたので Math を使っていたのを明示的に CMath を利用するよ
+うにしています。

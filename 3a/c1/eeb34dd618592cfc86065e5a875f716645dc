@@ -1,0 +1,3 @@
+FileUtils のテスト test/fileutils/test_fileutils.rb で assert_output_lines とい
+う独自の assertion を追加して :verbose 時のメッセージのテストをリファクタリング
+しています。

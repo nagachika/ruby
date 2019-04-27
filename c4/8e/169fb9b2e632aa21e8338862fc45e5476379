@@ -1,0 +1,2 @@
+big2str_generic() および big2str_gmp() で BDIGIT の配列は引数で渡す必要がなく、
+x から取り出せるので引数から削除しています。

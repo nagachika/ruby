@@ -1,0 +1,2 @@
+RubyVM::AbstractSyntaxTree::Node#inspect が返す文字列から不要な(?)かっこを削っ
+て、文字列連結の呼び出しを減らしています。

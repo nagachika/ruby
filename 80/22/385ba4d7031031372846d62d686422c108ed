@@ -1,0 +1,3 @@
+  • debug.c (ruby_set_debug_option): define always for binary
+compatibility with debug env enabled binary.
+  • signal.c (ruby_enable_coredump): ditto.

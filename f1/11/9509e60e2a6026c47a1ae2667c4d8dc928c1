@@ -1,0 +1,8 @@
+IO.select に別 Thread からの Thread#raise で割り込みした時の leak のテストで、
+確実に IO.select で block している時に割り込み処理されるように
+Thread.handle_interrupt で :on_blocking を指定するようにしています。一瞬これだ
+とテストの意味がなくなるんじゃないかと思いましたが、要は IO.select で blocking
+region に入ったところで割り込み発生させるのが目的なので、こうしておかないと意図
+しないところで割り込まれて thread が止まっちゃう可能性があったみたいですね。顕
+在化したのは最近の変更のためかもしれないですけど。 [ruby-core:88732] [Bug #
+15043]

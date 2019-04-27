@@ -1,0 +1,2 @@
+instance_methods や methods などのメソッドで返ってくる Symbol の配列は順序を保
+証しないので sort してから比較するようにテストを修正しています。

@@ -1,0 +1,3 @@
+complex.c で k_float_p(), k_exact_p(), k_complex_p() といった inline 関数を削除
+してタイプ判定のマクロで代替するようにしています。また f_addsub() という関数を
+削除して呼び元に展開しています。

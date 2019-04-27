@@ -1,0 +1,2 @@
+tool/merger.rb で Tempfile を明示的に削除するように close メソッドに true を渡
+すようにしています。

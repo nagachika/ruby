@@ -1,0 +1,2 @@
+Windows 版で gmtime_r() と localtime_r() の独自実装を提供するようになっています
+。

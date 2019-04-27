@@ -1,0 +1,8 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket の #initialize メソッドの実装
+を C 実装にして、オブジェクト初期化時に OpenSSL の SSL 構造体を初期化するように
+しています。これまで SSL を初期化するのが OpenSSL::SSL::SSLSocket#accept や #
+connect で実際に接続をはるタイミングまで遅延されていて、この影響で OpenSSL::SSL
+::SSLSocket#hostname= に不正な値を代入した場合にそれを検出して例外を発生させる
+のが #hostname= を呼んだ時点ではなくて #connect した時点にずれるという問題があ
+ったのを修正しているようです。なるほどなー。実にわかりやすいコミットログでした
+。 [ruby-dev:49376] [Bug #11724]

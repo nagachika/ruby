@@ -1,0 +1,2 @@
+Env.fetch のテストで第2引数とブロック両方渡した時の警告を抑制するため
+EnvUtil.suppress_warning を使うようにしています。

@@ -1,0 +1,1 @@
+test/ruby/test_process.rb で signal の送出までの sleep を少し延ばしています。

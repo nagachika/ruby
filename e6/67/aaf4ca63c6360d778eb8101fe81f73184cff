@@ -1,0 +1,2 @@
+lib/net/http/header.rb に r42400 で変更した Range#last の挙動に依存した処理が入
+っていたところがあったので削っています。 [ruby-dev:47587] [Bug #8739]

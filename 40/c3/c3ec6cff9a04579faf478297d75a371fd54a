@@ -1,0 +1,4 @@
+configure で struct crypt_data の initialized メンバの存在チェックをするように
+しています。 glibc には存在するようですが、AIX では存在せずビルドエラーになって
+いたようなので、存在しない場合は初期化しないようにしています。 missing/crypt.h
+の構造体 struct crypt_data からも initialized メンバを削除しています。

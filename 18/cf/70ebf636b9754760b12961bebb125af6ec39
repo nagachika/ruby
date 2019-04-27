@@ -1,0 +1,5 @@
+拡張ライブラリ ripper で Ripper.sexp で不正な構文の文字列を入力すると SEGV する
+ことがある不具合を修正しています。名前からすると正規表現関係の parse 時に
+rb_parser_reg_compile() という関数は本体の parser と ripper の時で処理が違うの
+に直接呼んでしまっていて ripper の時にうまく動かなかったということみたいです。
+[ruby-core:76397] [Bug #12651]

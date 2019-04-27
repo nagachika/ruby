@@ -1,0 +1,3 @@
+標準添付ライブラリ rinda/ring の Rinda::RingServer::Renewer#make_socket で例外
+発生時には @sockets に開いたソケットを格納しないようにしています。 multicast が
+サポートされていない環境でのテストで fd leak が起きていたようです。

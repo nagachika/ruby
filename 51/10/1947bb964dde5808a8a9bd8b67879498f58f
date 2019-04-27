@@ -1,0 +1,4 @@
+gc.c のリファクタリング。 gc_mark_ptr() を gc_mark_set() に、gc_mark() を
+gc_mark_ptr() に改名して、新たに gc_mark()関数を定義して is_markable_object()
+のチェックをここに掃き出しています。チェックが重複しないようにしているみたいで
+す。

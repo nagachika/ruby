@@ -1,0 +1,5 @@
+compile.c の iseq_compile_each0() で option->coverage_enabled が Qfalse の時に
+ISEQ_COVERAGE(iseq) が Qnil でないといけないのに NODE_PRELUDE のコンパイル時に
+一時的に option を書き換えているところでその条件が崩れていたのを修正しています
+。拡張ライブラリ coverage を使った時に SEGV することがあったみたいです。
+[ruby-core:80079] [Bug #13305]

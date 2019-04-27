@@ -1,0 +1,2 @@
+parse.y に #ifndef RIPPER の中にさらに #ifndef RIPPER としている箇所があって余
+計だったので内側の分岐を削除しています。

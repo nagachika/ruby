@@ -1,0 +1,4 @@
+r39752 からの一連の変更の結果、結局 SystemCallError に発生元関数名を保持させる
+ことができるようにして rb_sys_fail_path_in() という関数を error.c に追加(ただし
+RUBY_FUNCTION_NAME_STRING ら定義されている時だけ)、rb_sys_fail_path_with_func()
+は削除しています。

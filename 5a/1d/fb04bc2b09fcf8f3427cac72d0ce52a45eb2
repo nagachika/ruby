@@ -1,0 +1,2 @@
+rb_vm_t のメンバー postponed_job_buffer を独自の型 rb_postponed_job_t の配列で
+持ってたのを st_table を利用するように変更しています。

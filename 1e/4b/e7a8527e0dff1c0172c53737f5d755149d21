@@ -1,0 +1,3 @@
+iseq.c の rb_iseq_new_with_opt() で引数の node が T_IMEMO 型オブジェクトの
+imemo_func の可能性があったので、範囲情報の取得時にそれを考慮するようにしていま
+す。imemo_func ってなんだったっけなぁ…。

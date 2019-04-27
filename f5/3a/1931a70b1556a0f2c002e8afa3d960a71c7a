@@ -1,0 +1,3 @@
+net/imap のテストでダミーサーバの実装で Errno::EPIPE を捕捉しているところで
+Errno::ECONNRESET, Errno::ECONNABORTED も捕捉するようにしています。 Windows で
+は上記例外が発生することがあるとのこと。

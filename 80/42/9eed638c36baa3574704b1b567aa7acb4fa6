@@ -1,0 +1,3 @@
+time.c, process.c, iconv, sdbm, socket, date などでも rb_sys_fail() で
+Errno::EXX 例外を発生させていた所を rb_sys_fail_str() を使ってメッセージを
+String オブジェクトとして(VALUE 型で)渡すようにしています。 r34787 を参照。

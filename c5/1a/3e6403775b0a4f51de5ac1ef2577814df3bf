@@ -1,0 +1,2 @@
+.travis.yml に Mac OS X では ~/Library/Logs/DiagnosticReports/ のクラッシュダン
+プも表示させるようにコマンドを追加しています。

@@ -1,0 +1,3 @@
+r57035 で導入された拡張ライブラリ zlib の Zlib.gunzip が渡された文字列を直接書
+き換えるようになっていたので rb_str_substr() で substring として複製しておくよ
+うにしています。 [ruby-core:78567] [Bug #13021]

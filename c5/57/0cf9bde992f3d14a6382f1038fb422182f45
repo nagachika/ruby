@@ -1,0 +1,3 @@
+r67547 の追加修正で send 最適化対象の VM 命令を send_compatible_opt_insns とい
+う変数に入れておいて、opt_ で始まって CALL_SIMPLE_METHOD フラグがついてる命令は
+自動に入るようにしています。

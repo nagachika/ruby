@@ -1,0 +1,3 @@
+pipe_open_v() と pipe_open_s() で渡された struct rb_execarg をくるんだオブジェ
+クトを GC でマークされるように RB_GC_GUARD() をつけていましたが引数で渡されてい
+るため不要だったので削除しています。

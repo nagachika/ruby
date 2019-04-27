@@ -1,0 +1,4 @@
+Makefile に un-runnable というターゲットを追加してエラーメッセージを出力するよ
+うにしています。 common.mk で $LIBRUBY_RELATIVE を参照してて、make runnable を
+実行した時に configure に --enable-load-relative がついてなくて runnable ファイ
+ルを作れない時に呼び出すターゲットみたいです。 [ruby-core:75905] [Bug #12472]

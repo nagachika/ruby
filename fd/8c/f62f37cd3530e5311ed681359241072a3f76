@@ -1,0 +1,2 @@
+common.mk から DTRACE_DEPENDENT_OBJS を Makefile.in に移動しています。 Windows
+では DTrace は利用できないため?

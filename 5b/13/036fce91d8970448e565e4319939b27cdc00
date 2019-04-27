@@ -1,0 +1,4 @@
+process.c と io.c に fork してから exec するまでの間に async-signal-safe な関数
+しか呼べないので、呼んでいる関数について async-signal-safe であることや、
+async-signal-safe でない関数を呼んでいる部分があるところについてコメントでメモ
+しています。

@@ -1,0 +1,3 @@
+もうひとつ r41873 の RubyGems 2.1 マージで Windows 版で失敗していたテストの修正
+。環境変数 PATH のデリミタを決め打ちで書いていたのを File::PATH_SEPARATOR を使
+うようにしています。

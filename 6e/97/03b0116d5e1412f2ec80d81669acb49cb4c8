@@ -1,0 +1,3 @@
+mjit_worker.c の convert_unit_to_func() で unit の解放後に unit->iseq にアクセ
+スしてしまっていたので条件を変数に入れておいてそれをチェックするように修正して
+います。 Coverity Scan で検出されたエラーだそうです。

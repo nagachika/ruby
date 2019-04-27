@@ -1,0 +1,3 @@
+configure で -march=i486 オプションの有無のチェックを RUBY_UNIVERSAL_ARCH と
+RUBY_DEFAULT_ARCH の決定の直後に移動しています。これも -march を早めに決定して
+他のチェックへの影響をみるためでしょうか。

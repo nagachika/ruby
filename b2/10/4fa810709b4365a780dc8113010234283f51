@@ -1,0 +1,4 @@
+mjit.c で #include する version.h を ruby/version.h に変更しています。これで今
+さら気がついたんですがそういえば version.h と include/ruby/version.h ってのがあ
+るけど内容は違いますね。version.h は安定版ブランチでは毎回 REVISION を更新する
+ので、こっちに依存しているものは毎回再コンパイルされることになるので。

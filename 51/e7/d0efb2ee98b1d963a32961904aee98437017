@@ -1,0 +1,2 @@
+tool/rbinstall.rb で zlib が利用できないときにも Gem.default_dir を作成するよう
+にしています。

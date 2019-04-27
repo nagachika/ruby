@@ -1,0 +1,3 @@
+r49998 でオブジェクトのフラグに STR_FAKESTR を追加した時のコメントに
+RSTRING_FSTR というフラグが漏れていたので追加しています。 fstring (frozen
+string) の時に立てるフラグですね。

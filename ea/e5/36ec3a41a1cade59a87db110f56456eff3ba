@@ -1,0 +1,2 @@
+Signal.kill の rdoc 用コメントに、シグナルの種類は Signal.list を見るように追記
+しています。 [ruby-core:66162] [Bug #10492]

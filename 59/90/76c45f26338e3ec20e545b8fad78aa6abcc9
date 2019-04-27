@@ -1,0 +1,3 @@
+encoding.c で must_encoding() がエンコーディングの index ではなく rb_encoding *
+を返すように変更しています。その他 is_data_encoding() を利用するようにするリフ
+ァクタリング。

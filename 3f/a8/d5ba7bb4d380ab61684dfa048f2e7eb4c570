@@ -1,0 +1,6 @@
+rubyspec の Encoding::Converter.search_convpath のテストで Encoding.name_list
+が期待した動作をしない? ことに対する対処みたいなのを入れています。チケットのほ
+うをみてもこの修正の意味がよくわからないけど MinGW でのビルド時の対策みたいです
+。また C API のテスト時に libruby_so の検出方法に mwsin, mingw 時のサポートを追
+加しています。 https://github.com/ruby/ruby/pull/1945 [ruby-core:88812] [Bug #
+15060]

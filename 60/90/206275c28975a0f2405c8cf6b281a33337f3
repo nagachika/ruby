@@ -1,0 +1,3 @@
+r63286 と同様に test/ruby/test_rubyoptions.rb のテストで RUBY_DESCRIPTION を置
+換した NO_JIT_DESCRIPTION という定数を導入して -v での出力の確認にこれを利用す
+るようにしています。

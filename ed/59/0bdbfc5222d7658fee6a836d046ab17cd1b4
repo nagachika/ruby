@@ -1,0 +1,5 @@
+rb_native_cond_initialize() の引数から flags を削除して常に
+RB_CONDATTR_CLOCK_MONOTONIC で生成するようにしています。ついでに?
+pthread_cond_xxx() の引数に rb_nativethread_cond_t を直接渡すようにしています。
+っていうかこれいままでメンバーにアクセスしてたの不可視な中身にアクセスしてたの
+かな? [ruby-core:85639] [Misc #14497]

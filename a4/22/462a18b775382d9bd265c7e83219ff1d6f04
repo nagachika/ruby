@@ -1,0 +1,2 @@
+ibf_dump_object_unsupported() で rb_bug() を呼び出す時のメッセージの typo 修正
+。

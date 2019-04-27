@@ -1,0 +1,2 @@
+テスト用のユーティリティクラス test/ruby/allpairs.rb の AllPairs#each_index で
+未使用のローカル変数を削除しています。警告除去のためと思われます。

@@ -1,0 +1,3 @@
+Process.exec 等のオプション情報をまとめた struct rb_exec_arg の名前を struct
+rb_execarg に変更して、 struct rb_exec_arg は struct rb_execarg をラップしたオ
+ブジェクトの参照を持つようにしています。

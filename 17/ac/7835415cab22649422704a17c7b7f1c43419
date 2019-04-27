@@ -1,0 +1,5 @@
+r38076 で追加した RubyVM::InstructionSequence(以下 ISeq)の #line_trace_all およ
+び #line_trace_specify メソッドの定義を削除しています。これは TracePoint と組み
+合わせて行単位で指定した位置の TracePoint の :line イベントを有効にする便利機能
+ですが、名前を変更したりまだ流動的なので一旦削除ということだそうです。残念。 C
+の API は残しているので C 拡張ライブラリから使うことはできるとのこと。

@@ -1,0 +1,2 @@
+test/sdbm/test_sdbm.rb でも同様に fork を使って書かれていた子プロセスでの SDBM
+の open のテストを IO.popen を使って書き直しています。

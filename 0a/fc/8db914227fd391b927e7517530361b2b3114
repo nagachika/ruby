@@ -1,0 +1,4 @@
+メソッドの呼び出しが深くなって machine stack の overflow を検出した時の大域脱出
+時に rb_thread_t::ec.raised_flag に RAISED_STACKOVERFLOW をセットしておいて cfp
+consistency のチェックにひっかかることがあるのを防ぐようにしています。
+[ruby-core:80618] [Bug #13412]

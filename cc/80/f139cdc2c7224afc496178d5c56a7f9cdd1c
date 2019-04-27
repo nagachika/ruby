@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の BigDecimal#div で結果の BigDecimal オブジェクトの
+精度が足りていなかった不具合を修正しています。 [ruby-core:77475] [Bug #12805]

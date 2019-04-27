@@ -1,0 +1,4 @@
+node.c の rb_ast_dispose() で ast->node_buffer の Write Barrier 処理が書いてあ
+りましたが、その上の rb_ast_free() の中で ast->node_buffer は解放されて NULL に
+クリアされてるので常に if 文の body は実行されない状態だったので削除しています
+。

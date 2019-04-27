@@ -1,0 +1,4 @@
+r60310 で修正した OpenSSL::SSL::SSLContext#min_version= と #max_version= を利用
+して、標準添付ライブラリ net/http でも min_version, max_version というオプショ
+ンに対応して受け付ける SSL/TLS の方式の範囲を限定できるようにしています。
+[ruby-core:60108] [Feature #9450]

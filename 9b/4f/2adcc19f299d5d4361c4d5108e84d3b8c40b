@@ -1,0 +1,5 @@
+標準添付ライブラリ rinda の Rinda::RingFinger で利用するソケットにの setsockopt
+に IP_MULTICAST_LOOP を指定する時に Socket::Option.ipv4_multicast_loop(1) を利
+用して Socket::Option オブジェクトを渡すように変更しています。このほうが移植性
+が高まるということです。こんなオブジェクトがあるんですね、知りませんでした。
+[ruby-core:59497] [Bug #9351]

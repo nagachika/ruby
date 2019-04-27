@@ -1,0 +1,2 @@
+regcomp.c のデバッグ用の出力関数 onig_print_compiled_byte_code() で少し出力する
+メッセージを修正しています。

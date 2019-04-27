@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#disasm で iseq->body->location の範囲情報も表示する
+ようにしています。

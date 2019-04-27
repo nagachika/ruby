@@ -1,0 +1,4 @@
+array.c の RGenGC 絡みの修正続き。 rb_ary_modify() でも書き込みしない配列のバッ
+ファのポインタ取り出しを RARRYA_RAWPTR() に置き換えて、またバッファの書き換えに
+ary_memcpy() を利用するように変更して不要な Write Barrier 保護をしないように最
+適化しています。

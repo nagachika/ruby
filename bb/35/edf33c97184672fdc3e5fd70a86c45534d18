@@ -1,0 +1,4 @@
+lib/rake/version.rb の rdoc コメントに :include: directive? を修正して相対パス
+でファイルを指定するようにしているようです。しかし ri がうまく動かないというこ
+とでチケットが reopen されているので追加の対応があるかもしれません。
+[ruby-core:54699] [Bug #8347]

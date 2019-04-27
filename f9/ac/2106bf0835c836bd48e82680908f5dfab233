@@ -1,0 +1,3 @@
+Windows 版の readlink の実装で rb_readlink() の引数に rb_encoding を追加して、
+readlink で読んだリンク先のパスをファイルシステムのエンコーディングで返すように
+しています。

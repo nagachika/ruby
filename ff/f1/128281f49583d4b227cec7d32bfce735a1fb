@@ -1,0 +1,2 @@
+tool/make-snapshot から tool/vcs.rb に svn 操作部分を切り出しているようです。リ
+リース時に vcs.rb も必要になりますな。

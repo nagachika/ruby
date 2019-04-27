@@ -1,0 +1,2 @@
+r32811 の encoding.c のリファクタリングの再修正。 str_to_encindex() が
+UNSPECIFIED_ENCODING という値を返すことがあるのに対応しています。

@@ -1,0 +1,3 @@
+enc/depend で trans ファイル内の require の中身を抽出しているところで require
+がなかったら transcode_tblgen_xxx の引数を抽出するようにしています。 enc/trans/
+single_byte.trans の対応みたいですね。

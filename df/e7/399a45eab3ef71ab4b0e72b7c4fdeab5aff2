@@ -1,0 +1,2 @@
+test/rubygems/test_gem_commands_install_command.rb に require 'rubygems/rdoc'
+を追加しています。

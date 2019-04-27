@@ -1,0 +1,14 @@
+全体としては require の高速化のための変更です。まず rb_hash_clear() を公開 API
+*1にしています。また features_index として features(require 済みのファイル)を
+Hash で管理するようにしています。 rb_hash_clear() と r37478 で追加した
+rb_ary_shared_with_p() はインデックスの再構築に関連して使われていて、vm->
+loaded_feature の配列を vm->loaded_features_snapshot としてコピー(バッファを共
+有している)を保持しておいて、rb_ary_shared_with_p() でこの2つが共有されたままか
+どうか、つまり features リストに変更がないかどうかを監視して、変更されていたら
+Hash で作るインデックスをクリアして再構築するようにしています。また features リ
+ストに格納する文字列は freeze するようにして、配列内の文字列を直接破壊的操作で
+変更することを禁じています。これは配列の変更検出するだけで feature リストの変更
+を確実に知ることができるようにするための措置と思われます。これにより require で
+既に require 済みでないかのチェックに Array の線形探索が不要になるため大量の
+feature をロードした時の require の性能劣化を抑えているようです。
+[ruby-core:47970] [Bug #7158]

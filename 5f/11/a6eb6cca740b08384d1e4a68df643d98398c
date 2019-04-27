@@ -1,0 +1,3 @@
+拡張ライブラリ date の DateTime#to_time でタイムゾーンの情報が破棄されてローカ
+ルタイムになってしまっていたのを修正しています。 https://github.com/ruby/ruby/
+pull/1295 [ruby-dev:49521] [Bug #12189]

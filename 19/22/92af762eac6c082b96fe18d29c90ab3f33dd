@@ -1,0 +1,7 @@
+LLVM をバックエンドとしたコンパイラ(clang, gcc-llvm?)で vm_call_cfunc() の引数
+reg_cfp を GC から保護するために RB_LLVM_GUARD() というマクロ(RB_GC_GUARD() の
+別名)を定義して使うようにしています。この修正は r33112 で類似のものが入って、
+r33126 で一度 RB_GC_GUARD() が VALUE 用ということで revert されたものです。LLVM
+の最適化は volatile があっても利用されなくなった変数はレジスタ/スタックから消さ
+れるため RB_GC_GUARD() のような手法が必須のようです。 RB_LLVM_GUARD() で VALUE
+へのキャストでも入れればいいんでしょうかね。

@@ -1,0 +1,4 @@
+URI で利用する正規表現群(TBLENCWWWCOMP_)の初期化を最初に利用する時にまで遅延す
+るようにしていたのですが(r31266 も参照)、JRuby では Hash#replace が thread-safe
+でないためエラーになることがあるそうなので、require で読み込まれた時に初期化し
+てしまうようにしています。 [ruby-core:42222] [Bug #5925]

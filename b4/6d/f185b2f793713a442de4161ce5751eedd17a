@@ -1,0 +1,3 @@
+拡張ライブラリ objspace に最近追加された ext/objspace/object_tracing.c で RDoc
+に ObjectSpace モジュールを認識させるためにコメントアウトされた状態で
+rb_define_module() の呼び出しを書いています。 [ruby-core:55525] [Bug #8537]

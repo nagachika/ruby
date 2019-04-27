@@ -1,0 +1,12 @@
+新規追加になったメソッド String#byteslice を実装しています。 [ruby-core:35376]
+[Feature #4447]
+その名の通り文字列をエンコーディングに寄らずバイト列として slice するメソッドで
+す。force_encoding("ASCII-8BIT") して slice するのとだいたい同じですが
+force_encoding が破壊的メソッドなのでレシーバの文字列のエンコーディングを変更せ
+ずに操作できます。
+あと細かいことですが byteslice(beg, len) で len < 0 の時が slice() と違っていま
+すね。
+> "hello".slice(0,-1)
+=> nil
+> "hello".byteslice(0,-1)
+=> ""

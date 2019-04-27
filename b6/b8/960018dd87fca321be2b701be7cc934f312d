@@ -1,0 +1,2 @@
+ext/dl/lib/dl/types.rb から ext/fiddle/lib/fiddle/types.rb に移動してモジュール
+名などを改名して DL から Fiddle へ移植しています。

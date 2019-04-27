@@ -1,0 +1,3 @@
+というわけで r38396 で rb_io_wait_writable の errno=EINTR の時に
+rb_thread_fd_writable() を消しましたが、かわりに rb_thread_wait_fd() を呼んで読
+み込み可能になるまで待つようにしています。うーんこれはなぜなんでしょう。

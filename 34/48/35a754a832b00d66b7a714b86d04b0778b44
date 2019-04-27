@@ -1,0 +1,5 @@
+gc.c に rb_gc_writebarrier_remember_promoted() という関数を追加しています。
+internal.h にプロトタイプ宣言を追加しているので ruby 本体のソース内で呼べるよう
+にしていますが、まだ呼び出しているところはないみたいです。内容は
+rgengc_remember() を呼んで引数の obj を remember set に追加するというものです。
+「RGenGC の Write Barrier 戦略に強く依存した実験的な API」だそうです。

@@ -1,0 +1,1 @@
+REXML の SAX2 API のテスト test/rexml/parser/test_sax2.rb を追加しています。

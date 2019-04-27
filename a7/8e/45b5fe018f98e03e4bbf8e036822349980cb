@@ -1,0 +1,6 @@
+拡張ライブラリ socket のソケットオプションを表現する Socket::Option に
+Socket::Option.ip_multicast_loop および Socket::Option.ip_multicast_ttl という
+メソッドを新設して、IP_MULTICAST_LOOP と IP_MULTICAST_TTL というオプションを指
+定できるようにしています。また、オプションの種類などを Symbol で、値を数値で渡
+して作ることができる API として Socket::Option.byte という一般的なメソッドを用
+意しています。

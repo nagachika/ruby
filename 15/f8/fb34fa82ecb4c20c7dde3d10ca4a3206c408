@@ -1,0 +1,3 @@
+ruby 本体のテスト用の test/unit の parser のテスト用のメソッド
+prepare_syntax_check で、エラー時のメッセージに対象のコード自体も表示するように
+しています。

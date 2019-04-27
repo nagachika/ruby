@@ -1,0 +1,11 @@
+r60284 で IO.copy_stream で Linux の新しめの system call copy_file_range() を使
+うようにしたのですが、これの判定が __NR_copy_file_range マクロの定義の有無で、
+ヘッダは新しいけど実際カーネルのバージョンが古いというような場合に、実際には使
+えないのに呼んでしまって Errno::ENOSYS や Errno::ENOPERM が発生するという問題が
+あり、これの回避のために errno=EPERM で失敗した時も他の実装に fallback するよう
+にしています。元々 ENOSYS は fallback するようになってたのですが、Docker コンテ
+ナ内で --privilege がついていない時は ENOPERM が発生するため、そのまま実行時の
+エラーになっていたようです。コンテナ内でビルドしているというケースなので、コン
+テナ内では新しいカーネル向けの distribution なのでカーネルヘッダが新しいけど、
+ホスト側が古いカーネルなので実際には呼べない、というのが起きていたようです。
+[ruby-dev:50373] [Bug #14207]

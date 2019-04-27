@@ -1,0 +1,2 @@
+test/lib/minitest の make test-all 用の minitest からテストの順番を固定する機能
+とそのテストを削除しています。

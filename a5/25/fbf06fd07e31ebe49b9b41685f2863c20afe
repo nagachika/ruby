@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb でステータスが Closed のチケットを bold で表示するよ
+うにしています。

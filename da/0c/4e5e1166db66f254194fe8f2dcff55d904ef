@@ -1,0 +1,4 @@
+r41656 と同じく Enumerable#lazy が返す Enumerator::Lazy のオブジェクトの
+Enumerator#size メソッドが返す値を指定するコールバック関数に enum_size() を流用
+していたのを、きちんと適切な型の lazyenum_size() を定義して渡すようにしています
+。

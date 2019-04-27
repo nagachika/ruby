@@ -1,0 +1,10 @@
+ruby_setup() の中で static 変数の initialized というのをみて2度目の呼び出しでは
+処理をスキップするようにしていましたが、ruby_cleanup() でクリアしていないので
+(というか関数内 static 変数なのでクリアできない)、アプリへの埋め込みの利用時な
+どに ruby_setup()/ruby_cleanup() を複数呼び出すような使いかたができなくなってい
+たので、initialized 変数でのチェックはやめて GET_VM() が値を返すかどうかをチェ
+ックするようにしています。また Init_frozen_strings() も削除して fstring のテー
+ブルの初期化も Init_vm_objects() で VM の初期化の中で行うようにして、1つのプロ
+セスに複数の VM が存在する場合に問題にならないようにしています。 rb_vm_t へのメ
+ンバ追加がないな…と思ったら rb_vm_t:frozen_strings はもともと宣言されていた(け
+ど未使用だった?)ようです。 [ruby-core:70274] [Bug #11423]

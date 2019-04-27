@@ -1,0 +1,2 @@
+NEWS ファイルに REXML::Document#write と new のオプション引数のサポートと
+:encoding オプションの追加について追記しています。

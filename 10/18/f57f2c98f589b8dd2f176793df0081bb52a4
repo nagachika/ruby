@@ -1,0 +1,4 @@
+r44064 の Array#shuffle! と Array#sample のキーワード引数の処理の変更に関連して
+:random という Symbol を使っていたところはもう Symbol は必要なくて内部的な表現
+の ID だけあればいいので static 変数の sym_random を削除して id_random に置き換
+えています。

@@ -1,0 +1,2 @@
+vm_backtrace の backtreace_collect() という関数名を backtrace_collect() に typo
+修正する改名リファクタリングしています。

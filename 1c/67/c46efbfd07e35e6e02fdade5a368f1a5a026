@@ -1,0 +1,4 @@
+r62326 で tool/transform_mjit_header.rb で arch 毎の MJIT 用ヘッダを生成する時
+に gcc のエラーを検出してオプション追加する処理で Solaris の GCC (4.6.2) ではち
+ょっと違うメッセージが出るみたいで判定条件に追加しています。 [ruby-dev:50541]
+[Bug #14751]

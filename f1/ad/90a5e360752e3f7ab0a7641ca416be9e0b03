@@ -1,0 +1,2 @@
+struct rescue_funcall_args のメンバー th を ec に変更。だんだん局所的な構造体の
+変更に移行してきた。

@@ -1,0 +1,3 @@
+Windows95, 98 のサポートを止めて、win32/configure.bat の --enable-win95/
+--disable-win95 というオプションを廃止しています。まだ Windows95 ってサポートさ
+れてたんですね!

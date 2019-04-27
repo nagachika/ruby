@@ -1,0 +1,2 @@
+timer thread を起こすための pipe などの情報を持つ構造体 timer_thread_pipe で
+pid を保持するメンバの型を rb_pid_t に変更しています。

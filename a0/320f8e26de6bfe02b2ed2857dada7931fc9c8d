@@ -1,0 +1,3 @@
+r42220 で File.expand_path のテストで環境変数 USER がセットされているかの
+assertion を追加しましたが、USER が未定義だったらテストを skip するようにしてい
+ます。

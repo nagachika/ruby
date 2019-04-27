@@ -1,0 +1,5 @@
+make Doxyfile で生成した Doxyfile 内で利用する ruby を $(MINIRUBY) から $
+(BASERUBY) に変更しています。 r43617 で tool/file2lastrev.rb を実行するのに拡張
+ライブラリが必要になってしまったので miniruby では実行できなくなってしまったよ
+うです。 2.0.0-p353 の前でツールの変更をしてデグレしてしまってましたね。
+[ruby-dev:47823] [Bug #9169]

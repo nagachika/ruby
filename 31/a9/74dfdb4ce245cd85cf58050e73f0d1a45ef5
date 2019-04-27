@@ -1,0 +1,3 @@
+tool/rbinstall.rb install_recursive でバックアップファイルなど無視するファイル
+をインストールしないように。またブロックつきの呼び出して install メソッドのかわ
+りにブロックを yield するように。

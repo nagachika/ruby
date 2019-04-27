@@ -1,0 +1,3 @@
+拡張ライブラリ psych で空の Symbol (:"") を dump した YAML をロードできるように
+修正しています。 [ruby-core:62825] [Bug #9873]
+空文字列を Symbol にできたんだなぁ…

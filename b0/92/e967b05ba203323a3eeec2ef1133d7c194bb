@@ -1,0 +1,2 @@
+Net::HTTP のテスト test/net/http/test_http.rb で require に File.expand_path を
+使って絶対パスを渡すかわりに require_relative を利用するようにしています。

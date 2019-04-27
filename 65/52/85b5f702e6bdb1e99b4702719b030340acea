@@ -1,0 +1,2 @@
+拡張ライブラリ racc に含まれている racc/cparse の Rack::CparseParams の実装を
+RData から RTypedData に切り替えています。

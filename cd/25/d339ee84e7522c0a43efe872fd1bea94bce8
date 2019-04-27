@@ -1,0 +1,2 @@
+ISeq の disasm する時に文字列の Encoding を保持するため文字列の埋め込みに
+PRIsVALUE を利用するようにしています。

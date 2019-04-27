@@ -1,0 +1,5 @@
+拡張ライブラリ thread に移植された SizedQueue で SizedQueue#clear を呼ぶとデー
+タ追加で待たされていた Thread が起こされて追加できないといけないはずですが、
+Queue#clear を継承しただけだったのでデッドロックがおきる可能性があったので、書
+き込み待ちの Thread を全て起こすような実装を追加しています。 [ruby-core:59462]
+[Bug #9342]

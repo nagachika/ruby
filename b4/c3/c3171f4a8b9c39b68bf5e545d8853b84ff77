@@ -1,0 +1,4 @@
+r48648 の Windows 版のエンコーディング変換の修正の追加修正。 translit_char() と
+いう関数が CharNext() という関数を使っていてこれが code page に依存しているので
+、バイト列として処理する translit_char_bin() という関数を用意して Windows 環境
+ではこれを利用するようにしています。 [ruby-dev:48752] [Bug #10555]

@@ -1,0 +1,1 @@
+benchmark/bm_vm3_gc.rb から1行目の shebang を削っています。

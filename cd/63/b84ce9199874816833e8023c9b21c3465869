@@ -1,0 +1,4 @@
+拡張ライブラリ socket の extconf.rb で構造体 struct msghdr のメンバ msg_control
+をチェックするのを mswin, mingw など Windows 版ではスキップしています。 win32/
+win32.c での sendmsg のエミュレーションが充分でないためとのこと。 socket のこれ
+を使う部分を動かすことができないということでしょうか。

@@ -1,0 +1,2 @@
+r66033 で regparse.c に導入した create_sequence_node() で途中でエラーが発生した
+時にメモリリークしていたのを修正しています。

@@ -1,0 +1,2 @@
+json の拡張ライブラリで未使用の関数(fbuffer_free_only_buffer)を削除。ChangeLog
+は関数名が違ってますが後で修正されています。

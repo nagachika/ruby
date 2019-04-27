@@ -1,0 +1,2 @@
+標準添付ライブラリ net/imap に MOVE コマンド(RFC6851)のサポートを追加しています
+。 [ruby-core:68960] [Feature #11077]

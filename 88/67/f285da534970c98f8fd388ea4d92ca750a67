@@ -1,0 +1,2 @@
+rubyspec の socket のテストで AIX で通らない spec の platform_is_not の guard
+に :aix を追加しています。

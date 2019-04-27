@@ -1,0 +1,3 @@
+r64667 の続きで .travis.yml の設定で gcc-8 の追加しましたが、古いバージョンの
+ruby での rubyspec の実行はさらに別の matrix を追加して Travis-CI の環境に用意
+されている ruby を使って実行するようにしています。

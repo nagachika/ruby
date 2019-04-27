@@ -1,0 +1,3 @@
+tool/ruby_vm/views/_leaf_helpers.erb で生成する C コードの変数名を改名していま
+す。うーんなるほど whitelist という単語がよくないっていう話なんですね。 https:/
+/github.com/ruby/ruby/pull/2009

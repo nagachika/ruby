@@ -1,0 +1,3 @@
+r40174, r40175, r40178 などで class_variable_set, const_set,
+instance_variable_set などで Symbol 以外の引数の場合の変更した共通の処理部分を
+id_for_setter() という関数マクロに切り出すリファクタリング。

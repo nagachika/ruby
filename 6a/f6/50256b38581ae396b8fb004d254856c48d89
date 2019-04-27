@@ -1,0 +1,3 @@
+configure 時に patchlevel の指定がない trunk の ruby の場合は RUBY_DEVEL という
+マクロを定義しておいて、デバッグ用の機能がデフォルトで on になるようにしている
+ようです。

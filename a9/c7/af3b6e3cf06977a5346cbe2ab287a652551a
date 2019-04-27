@@ -1,0 +1,4 @@
+r30725 (Mac OS X で fdatasync() を無効にする)を revert しています。 r30762 で
+fdatasync(2) が失敗したら fsync(2) に fallback するようにしたのでこのケアは不要
+になったということです。つまり Mac OS X で fdatasync() を誤検出するというのは、
+呼べるけど常に失敗するということだったんですね。

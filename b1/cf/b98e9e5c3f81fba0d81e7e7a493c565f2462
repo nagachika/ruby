@@ -1,0 +1,3 @@
+r51944 の ostruct の修正。 writer メソッドの定義が遅延されたので、OpenStruct#
+delete_field で属性削除時に remove_method でメソッド定義を消す時に NameError を
+許容するようにしています。 https://github.com/ruby/ruby/pull/1033

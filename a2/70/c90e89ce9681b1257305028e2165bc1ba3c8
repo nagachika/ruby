@@ -1,0 +1,2 @@
+insns.def の tostring 命令のコメントを to_str の結果ではなく to_s の結果と修正
+しています。

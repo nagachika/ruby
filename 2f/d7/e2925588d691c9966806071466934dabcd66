@@ -1,0 +1,3 @@
+emacs 用の ruby-mode.el などのテスト test/misc/test_ruby_mode.rb で Tempfile の
+後始末の修正とエラーメッセージに expected と actual の差分を表示するようにする
+変更を加えています。

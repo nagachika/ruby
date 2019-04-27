@@ -1,0 +1,2 @@
+rb_check_exec_options() が struct rb_execarg のかわりにそれをくるんだオブジェク
+ト (VALUE 型)を引数に受け取るように変更しています。

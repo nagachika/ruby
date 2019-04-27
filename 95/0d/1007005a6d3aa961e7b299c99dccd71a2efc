@@ -1,0 +1,4 @@
+mswin 版での MJIT のために MJIT_STATIC および MJIT_FUNC_EXPORTED というマクロを
+導入して、MJIT の JIT 用ヘッダファイル経由の時だけ static にするようにして、
+MJIT で利用する関数の宣言にこれを使うようにしています。そして r64932 での mswin
+での MJIT のテストの skip を revert しています。

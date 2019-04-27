@@ -1,0 +1,2 @@
+r54756 の ChangeLog エントリと、あと lib/rdoc/rd/block_parser.rb と lib/rdoc/rd
+/inline_parser.rb のコメントの typo が修正されています。

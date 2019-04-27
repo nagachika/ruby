@@ -1,0 +1,7 @@
+select(2) に使う fdset について、Mac OS X 10.7 (Lion) では
+_DARWIN_UNLIMITED_SELECT が(または _DARWIN_C_SOURCE が定義されていれば
+_DARING_UNLIMITED_SELECT も定義される)定義されていないと FD_SET_SIZE よりも多い
+fd が渡されると select(2) が errno = EINVAL でエラーを返すという注意をコメント
+に追記しています。
+参考URL: http://developer.apple.com/library/mac/#releasenotes/Darwin/
+SymbolVariantsRelNotes/_index.html

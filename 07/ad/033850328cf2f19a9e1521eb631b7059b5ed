@@ -1,0 +1,5 @@
+enc/unicode/casefold.h をダウンロードした CaseFolding.txt を元に enc/unicode/
+case-folding.rb を使って自動生成するように common.mk にルールを追加しています。
+また enc/unicode/case-folding.rb で -m オプションで CaseFolding.txt の存在する
+ディレクトリの指定で動かせるようにしています(が、これはビルド時には使ってないよ
+うです)。

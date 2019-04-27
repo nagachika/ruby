@@ -1,0 +1,3 @@
+configure の RUBY_TRY_CFLAGS, RUBY_TRY_LDFLAGS でオプションが利用できない時のメ
+ッセージにどの定数に(CFLAGS or LDFLAGS) オプションを追加しようとして失敗したの
+かを追加しています。

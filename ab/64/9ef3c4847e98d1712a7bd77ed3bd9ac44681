@@ -1,0 +1,2 @@
+win32/file.c で INVALID_FILE_ATTRIBUTES というマクロ定数が未定義だったら定義す
+るようにしています。

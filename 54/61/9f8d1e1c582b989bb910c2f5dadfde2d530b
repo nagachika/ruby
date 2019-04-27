@@ -1,0 +1,10 @@
+メインスレッド以外の Thread 内での Fiber 内で Thread.exit すると例外が発生する
+という現象の対処です。Fiber の終了時に TAG_JUMP で飛んできてないかチェックして
+不正な制御構文によるジャンプを検出する処理があるのですが、Thread.exit は
+rb_thread_t::errinfo に INT2FIX(TAG_FATAL) つまり Fixnum の 8 を格納して
+TAG_FATAL でジャンプしているので、結果 nil を rb_threadptr_async_errinfo_enque
+() に渡してしまいます。ここでは Thread.exit は例外発生させずに外に伝播させるよ
+うにしています。 [ruby-dev:45218] [Bug #5993]
+で、似たような問題で Thread.exit ではなくて rb_fatal() で fatal 例外が発生した
+時に今度はそれが握り潰されてしまうというのがあって、それは [Bug #7570] として報
+告済みです。

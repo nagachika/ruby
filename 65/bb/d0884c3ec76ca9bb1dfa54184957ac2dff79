@@ -1,0 +1,3 @@
+r54943 で include/ruby/intern.h の rb_enable_super() と rb_disable_super() にも
+NORETURN() が付けられてましたが、これらの関数はなにもせず return するだけなので
+外しています。

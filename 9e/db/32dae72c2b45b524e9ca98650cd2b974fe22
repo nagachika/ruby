@@ -1,0 +1,3 @@
+VM のソースコード生成用のテンプレート tool/ruby_vm/views/_leaf_helpers.erb およ
+び tool/ruby_vm/views/_sp_inc_helpers.erb に #line 指示子でテンプレートの行数を
+セットするようにしています。

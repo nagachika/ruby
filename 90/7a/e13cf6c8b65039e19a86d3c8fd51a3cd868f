@@ -1,0 +1,4 @@
+r65646 で切り出した ast.c の関数 rb_ast_parse_str() および rb_ast_parse_file()
+からさらに共通の parser 生成と後始末処理を ast_parse_new() と ast_parse_done()
+という関数に切り出し、引数のチェックを parser 生成の前にしておくようにしていま
+す。

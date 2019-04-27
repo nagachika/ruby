@@ -1,0 +1,2 @@
+Range#=== の実装で Range#include? が再定義されてなかったら rb_funcall() による
+メソッド呼びだしのかわりに range_include() 関数を直接呼び出すようにしています。

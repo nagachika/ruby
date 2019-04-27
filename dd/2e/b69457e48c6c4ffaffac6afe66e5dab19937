@@ -1,0 +1,3 @@
+marshal.c でメソッドを呼べるかどうか rb_obj_respond_to() でチェックして
+rb_funcall2() で呼ぶという処理をしているところがいくつかあり、それらを
+rb_check_funcall() でまとめて実行するようにしています。

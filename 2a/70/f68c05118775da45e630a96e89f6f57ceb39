@@ -1,0 +1,5 @@
+r66464 の続きで Hash リテラルのための duphash のオペランドに埋め込む Hash は
+rb_obj_hide() を使って ObjectSpace.each_object でアクセスできないようにしていま
+す。このままだと dup した時も hide されたままになっちゃうので rb_hash_resurrect
+() という関数を導入して klass を rb_cHash に戻すようにしています。
+[ruby-core:90629] [Bug #15440]

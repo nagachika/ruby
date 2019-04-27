@@ -1,0 +1,3 @@
+common.mk の verconf.h の生成ルールで tool/generic_erb.rb の実行に $(MINIRUBY)
+ではなく $(BOOTSTRAPRUBY) を利用するように変更しています。組み込みの定数を使わ
+ないので BASERUBY を使ってもかまわなかったとのこと。

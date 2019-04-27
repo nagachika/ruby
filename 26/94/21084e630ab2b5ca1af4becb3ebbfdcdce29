@@ -1,0 +1,4 @@
+backtrace_object() を rb_threadptr_backtrace_object() に改名し、
+rb_vm_backtrace_str_ary() も rb_threadptr_backtrace_str_ary() に改名しています
+。backtrace を取得する系の関数は引数に rb_thread_t *th がついているので
+rb_thread_ptr_xxx() に統一しているようです。

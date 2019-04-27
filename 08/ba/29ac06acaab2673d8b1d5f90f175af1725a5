@@ -1,0 +1,2 @@
+r62588 の続き。 rb_check_to_float() でも rb_check_convert_type() のかわりに
+rb_check_convert_type_with_id() を使うようにしています。

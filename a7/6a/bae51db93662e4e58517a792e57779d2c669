@@ -1,0 +1,3 @@
+random.c の limited_big_rand() という static 関数で引数に struct RBignum * を受
+け取っていたのを VALUE 型で受け取って rb_integer_pack()/rb_integer_unpack() で
+この関数内で変換するように変更しています。

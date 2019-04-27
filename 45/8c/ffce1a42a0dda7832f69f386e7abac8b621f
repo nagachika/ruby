@@ -1,0 +1,3 @@
+さらに fiddle の extconf.rb の修正。 LDFLAGS に libruby を追加して ruby が代替
+を提供する関数などを利用可能にするようにしています。 alloca() などを ruby の実
+装を利用させるそうです。

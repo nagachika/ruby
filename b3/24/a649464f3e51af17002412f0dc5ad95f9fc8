@@ -1,0 +1,3 @@
+拡張ライブラリ coverage の branch coverage および method coverage で測定結果を
+取り出す時に通し番号をつけるための変数の型を int から long に変更しています。分
+岐やメソッドが非常に多い時にオーバーフローしないように。

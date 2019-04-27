@@ -1,0 +1,4 @@
+set_trace_func に Continuation を使うテストで別の Thread から trace_func が呼ば
+れてしまってエラーになる現象が稀に起きていたので、Continuation#call する前に
+Thread.current をチェックして同じ Thread だけから呼ぶようにしています。
+[ruby-dev:45596] [Bug #6382]

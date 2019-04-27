@@ -1,0 +1,14 @@
+拡張ライブラリ openssl に添付されている OpenSSL::Buffering の initialize が
+*args で引数を受け取っていたのを使用していない引数なので削除しています。 https:
+//github.com/ruby/ruby/pull/445
+けど OpenSSL::Buffering は Module なので、initialize で任意の引数を受け付けるこ
+とができるようにしておくのは一種のイディオムなんじゃないかなと思います。
+test-all は通ってるので大丈夫みたいですけど。ちょっと調べてみると OpenSSL::SSL
+::SSLSocket は OpenSSL::Buffering を include していますが、OpenSSL::SSL
+::SSLSocket#initialize は任意の個数の引数を受け取って rb_call_super(0, 0) で受
+け取った引数を渡さずに super を呼んでいる(Ruby で書くと super() と書いたのと同
+等)なので、 include されている Module には引数なしの initialize が呼ばれている
+ので大丈夫だったようです。同じく include されている OpenSSL::SSL::Nonblock は
+initialize に任意の個数の引数を受け取った上で super (かっこなし)でその引数をそ
+のまま ancestors のメソッドに渡すようにしているので、お作法としてはこれと同じに
+しておくのがいいのではないかなと思います。

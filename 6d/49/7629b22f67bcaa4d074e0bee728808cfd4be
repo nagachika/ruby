@@ -1,0 +1,3 @@
+r65536 の MJIT_BUILD_DIR のチェックで struct stat を初期化してから fstat(2) を
+呼ぶようにしています。またファイルの uid と mode も警告に表示するようにしていま
+す。

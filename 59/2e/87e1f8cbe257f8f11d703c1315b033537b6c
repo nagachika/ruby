@@ -1,0 +1,3 @@
+test/ruby/memory_status.rb で require "dl/import" や require "dl/types" してい
+るところで obsoleted の警告がでるので suppress_warning のブロックの中で require
+して警告を抑制するようにしています。

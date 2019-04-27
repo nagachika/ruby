@@ -1,0 +1,3 @@
+lib/webrick/server.rb で close の時の IOError を rescue して無視させていたとこ
+ろを each(&:close) を使ってシンプルにしています。2.2 以降 close 済みの IO の
+close が IOError を発生させなくなったので。

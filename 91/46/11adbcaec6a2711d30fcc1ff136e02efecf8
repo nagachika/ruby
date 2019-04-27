@@ -1,0 +1,2 @@
+r38532 でメソッド定義を削除した ISeq#line_trace_all, #line_trace_specify のテス
+トだけ残っていたので if false で実行されないようにしています。

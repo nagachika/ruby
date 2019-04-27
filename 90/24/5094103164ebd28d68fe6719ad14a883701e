@@ -1,0 +1,1 @@
+appveyor.yml の build matrix に VisualStudio 140 でのビルドも追加しています。

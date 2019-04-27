@@ -1,0 +1,2 @@
+branch coverage のテストで if 文と unless 文の else 節なしの時のテストも追加し
+ています。

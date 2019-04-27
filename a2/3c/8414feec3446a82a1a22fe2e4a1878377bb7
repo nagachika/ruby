@@ -1,0 +1,3 @@
+rubyspec の socket のテストで darwin と freebsd でのみ IO.select を追加していた
+のを位置をちょっと移動しています。他のテストでも必要だったので外側のスコープの
+before のブロック内に移動。

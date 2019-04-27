@@ -1,0 +1,3 @@
+process.c の after_exec() も async-signal-safe な部分とそうでない部分を分離して
+after_exec_async_signal_safe() と after_exec_non_async_signal_safe() という関数
+にしています。

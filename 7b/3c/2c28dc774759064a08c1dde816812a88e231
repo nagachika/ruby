@@ -1,0 +1,2 @@
+Windows(mingw) では rlim_t は存在しても(?) getrlimit/setrlimit は存在しないので
+#ifdef のチェックを追加しています。 cygwin 版だと存在するのかも。

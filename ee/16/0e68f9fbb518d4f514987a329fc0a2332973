@@ -1,0 +1,4 @@
+fstring の singleton_class を得ようとしたら例外が発生するようにしています。厳密
+には Symbol になっていない文字列の fstring に対して singleton_method を呼ぶと
+abort していたようです。テストに r56746 で切り出した Test_Symbol::NonInterned
+を利用しています。 [ruby-dev:49867] [Bug #12923]

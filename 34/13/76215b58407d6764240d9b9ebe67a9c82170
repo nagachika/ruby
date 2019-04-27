@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::BN#pretty_print と OpenSSL::X509::Name#
+pretty_print、OpenSSL::X509::Certificate#pretty_print という証明書などのデータ
+を文字列化した表現にするメソッドを追加しています。

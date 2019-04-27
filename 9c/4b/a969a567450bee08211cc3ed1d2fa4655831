@@ -1,0 +1,4 @@
+rb_str_tmp_frozen_acquire() と rb_str_tmp_frozen_release() という関数を追加して
+io_fwrite() で書き込む文字列バッファ用の String オブジェクトを freeze したもの
+を生成する時に利用してゴミオブジェクトがループを回すたびに生成されるのを抑制す
+るようにする最適化を行なっています。 [ruby-core:78898] [Bug #13085]

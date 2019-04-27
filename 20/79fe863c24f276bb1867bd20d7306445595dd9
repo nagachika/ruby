@@ -1,0 +1,3 @@
+で benchmark/vm2_struct_small_aset.yml も loop_count を使わず本体で while ルー
+プするようにしています。こっちは本体でループカウンタの i を参照していたので消せ
+なかったようです。

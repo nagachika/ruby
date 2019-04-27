@@ -1,0 +1,4 @@
+r65468 を revert した r65471 を revert しています。ってことはまた struct
+rb_mjit_unit の linked list の実装に ccan/list を利用するようにして、追加の
+convert_unit_to_func() の修正も一緒に入れています。 https://bugs.ruby-lang.org/
+issues/14867#note-112 のコメントにあるパッチ。

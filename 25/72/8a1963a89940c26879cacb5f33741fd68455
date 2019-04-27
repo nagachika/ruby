@@ -1,0 +1,3 @@
+configure でコンパイラに --version や -V などのオプションを渡した時のメッセージ
+を保存して rbconfig.rb の RbConfig::CONFIG["CC_VERSION_MESSAGE"] で参照できるよ
+うにしています。 [Feature #12896]

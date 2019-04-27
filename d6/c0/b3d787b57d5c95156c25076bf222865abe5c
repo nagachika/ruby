@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse::ChunkedWrapper#write メソ
+ッドを書き込んだ byte 数を返すように IO#write 互換にしています。alias だった <<
+メソッドも定義して明示的に self を返すようにしています。

@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick で WEBrick::GenericServer#shutdown では Thread を止
+めるための pipe の close をしていたのですが、WEBrick::GenericServer#stop でも同
+じ pipe に対して書き込みをして start の Thread を止めるようにしています。
+read_nonblock で読み込みサイズを nread か 8 の大きいほうとしていますが、これは
+なんだろう。書くほうは 1 byte だけ書いてるみたいなのですが…。

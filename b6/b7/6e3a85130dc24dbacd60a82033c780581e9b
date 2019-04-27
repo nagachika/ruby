@@ -1,0 +1,3 @@
+rb_scope_visibility_t の定義を eval_internal.h から method.h へ、また rb_cref_t
+の定義も internal.h から method.h へ移動するようにしています。また型の修正など
+がありました。 [ruby-dev:49023] [Bug #11219]

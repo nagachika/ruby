@@ -1,0 +1,2 @@
+doc/syntax/calling_methods.rdoc に safe navigation operator いわゆるぼっち演算
+子 &. の説明を追記しています。 [ruby-core:88960] [Misc #15109]

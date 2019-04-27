@@ -1,0 +1,2 @@
+オプション --dump=parsetree でダンプする NODE の nd_compile_option の表示ですが
+値が 0 だったら表示しないように修正しています。

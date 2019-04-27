@@ -1,0 +1,2 @@
+thread.c の do_select() で rb_fdset_t の変数がメモリリークしていたのを修正。
+[ruby-core:37702] [Bug #4953]

@@ -1,0 +1,3 @@
+timer thread が複数のスレッドがある時だけ定期的に wakeup するようにする
+USE_SLEEPY_TIMER_THREAD というマクロが偽の時に USE_SLEEPY_TIMER_THREAD が真の時
+だけ定義される変数へのアクセスがあったのを #if の分岐内にしています。

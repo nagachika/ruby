@@ -1,0 +1,2 @@
+GC::Profiler のテスト用に rdoc のベンチマークを実行する make ターゲット
+rdoc-bench を追加しています。

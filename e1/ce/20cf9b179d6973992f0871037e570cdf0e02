@@ -1,0 +1,4 @@
+random.c の struct MT で素朴に unsigned int を使っていたところを uint32_t を使
+うようにしています。int が 32bit 以上あることを期待していたのを明示的に型を指定
+するようにしているようです(assume int is enough to store 32bits というコメント
+があった)。

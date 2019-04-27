@@ -1,0 +1,3 @@
+lib/bundler.gemspec ファイルを lib/bundler/bundler.gemspec に移動しています。
+tool/rbinstall.rb が認識する gemspec ファイルの配置にあわせるためみたいです。
+r66867 の追加修正です。 [ruby-core:91374] [Bug #15582]

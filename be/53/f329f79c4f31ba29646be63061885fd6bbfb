@@ -1,0 +1,3 @@
+Net::HTTPXXX のステータスコードの定義で 400 番台の定義に Net::HTTPSuccess を継
+承していたのを Net::HTTPClientError を継承するように修正しています。
+[ruby-core:46189] [Bug #6700]

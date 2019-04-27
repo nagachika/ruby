@@ -1,0 +1,2 @@
+Float#modulo で 0.0 を Float::NAN で割った余りが 0.0 を返すようになっていたのを
+Float::NAN を返すようにしています。 https://github.com/ruby/ruby/pull/692

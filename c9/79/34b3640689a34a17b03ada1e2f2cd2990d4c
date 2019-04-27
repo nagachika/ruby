@@ -1,0 +1,2 @@
+common.mk から既に不要になっていた(r43708 ext/rbconfig/sizes.c に移動したので)
+sizes.c のルールを削除しています。

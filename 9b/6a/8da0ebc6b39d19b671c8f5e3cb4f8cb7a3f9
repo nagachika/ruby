@@ -1,0 +1,3 @@
+configure で struct stat のメンバ st_size や st_blocks の方をチェックする時に最
+初に off_t でチェックするようにしています。これも Apple パッチからみたいですね
+。 http://www.opensource.apple.com/source/ruby/ruby-104/patches/config.h.ed

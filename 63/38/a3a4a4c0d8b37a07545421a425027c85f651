@@ -1,0 +1,2 @@
+test/ruby/test_rubyoptions.rb での SEGV のメッセージのチェックでも stderr を
+ASCII-8BIT に変換するようにしています。

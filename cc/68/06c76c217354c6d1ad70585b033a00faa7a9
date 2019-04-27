@@ -1,0 +1,3 @@
+拡張ライブラリ pathname のテストで Pathname#birthtime がコンテナ内の環境だと
+Errno::EPERM を発生させるということで rescue を追加して skip するようにしていま
+す。

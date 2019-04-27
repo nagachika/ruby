@@ -1,0 +1,2 @@
+Syck のテストで Syck::Store を設定する位置をトップレベルから module Syck の内部
+に移動しています。 defined? の autoload 設定された定数での挙動の対策でしょうか?

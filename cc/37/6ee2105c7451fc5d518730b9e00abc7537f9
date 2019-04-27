@@ -1,0 +1,2 @@
+rational.c で不要になったマクロ id_lshift と f_lshift() の定義を削除しています
+。

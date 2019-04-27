@@ -1,0 +1,1 @@
+include/ruby/win32.h に rb_w32_subtract() の宣言が重複していたのでひとつ削除。

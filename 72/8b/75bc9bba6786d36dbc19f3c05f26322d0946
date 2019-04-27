@@ -1,0 +1,4 @@
+標準添付ライブラリ time.rb の Time.make_time で第3引数に yday (通年の日付け?)を
+追加しています。 positional argument の途中に追加しているので互換性がなくなりま
+すが、これは private method で内部でしか使ってないから大丈夫ってことですかね。
+[ruby-core:87545] [Bug #14860]

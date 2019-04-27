@@ -1,0 +1,2 @@
+Array#pack, String#unpack の rdoc 用コメントで指示子 M の記述に改行コードは LF
+を使うことを明記しています。 [ruby-core:84835] [Feature #14352]

@@ -1,0 +1,6 @@
+Enumerator::Lazy#cycle は Enumerator#cycle の実装が self が Enumerator::Lazy の
+場合に Enumerator::Lazy を返すように変更されたためもう再定義する必要がなくなっ
+たということで削除されています。また chunk と slice_before は Enumerator のメソ
+ッドを super で呼び出して lazy で Enumerator::Lazy に変換するメソッドとして新た
+に再定義されています。これらも Enumerator のメソッドの実装で Lazy 対応してしま
+ったらよさそうな気がしますがどうなんでしょうね。 [ruby-core:51510] [Bug #7715]

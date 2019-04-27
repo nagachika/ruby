@@ -1,0 +1,4 @@
+Module#prepend の時に元の Class/Module のメソッドテーブルの移植するために作成す
+る IClass を shady オブジェクトに指定するようにしています。 IClass には追加で定
+義されたメソッドの参照が追加されるため Write Barrier が必要なのですがそれが難し
+いため shady にしているということかと思います。

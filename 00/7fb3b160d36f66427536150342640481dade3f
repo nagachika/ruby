@@ -1,0 +1,2 @@
+r41236 でコミット漏れしていた標準添付ライブラリ xmlrpc の XMLRPC::Client#do_rpc
+から parse_set_cookies メソッドを切り出す変更です。

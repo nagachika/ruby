@@ -1,0 +1,3 @@
+r58550 で string.c に移動した String#unicode_normalize{!?} の実装のリファクタリ
+ング時に追加した id_normalize と id_normalize_p の型が VALUE だったのを ID に修
+正しています。

@@ -1,0 +1,3 @@
+parse.y の parser_yylex() で "{" を読み込んだ時の lex_state の操作で EXPR_LABEL
+フラグを追加するかどうかの判定を変更して、トークンが tLBRACE の時のみセットする
+ようにしています。

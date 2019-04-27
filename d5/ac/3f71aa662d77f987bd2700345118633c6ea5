@@ -1,0 +1,4 @@
+encoding.c の rb_encoding 型の値が Unicode かどうか判定する rb_enc_unicode_p()
+でエンコーディング名をチェック("UTF[^7]")していたのを鬼雲(コミットログには
+oniguruma と書かれていますが)が提供しているマクロ ONIGENC_IS_UNICODE() を利用す
+るようにしています。しかしこれは後に revert されています。

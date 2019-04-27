@@ -1,0 +1,5 @@
+rb_f_exec() で Mac OS X 以外では rrb_exec_err() のかわりに
+rb_exec_async_signal_safe() を呼ぶようにしています。コメントによると Leopard 以
+前の Mac OS X だとプロセスに複数のスレッドがいる状態で fork(2) を呼ぶと
+ENOTSUPP が帰ってくるので fork 前に他のスレッドを全て止めないといけないためだそ
+うです。

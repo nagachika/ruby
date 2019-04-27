@@ -1,0 +1,7 @@
+enc/unicode/case-folding.rb というスクリプトを追加しています。16進数表記の文字
+の対応表をテキストファイルで与えて、変換テーブルのヘッダファイルを生成するため
+のスクリプトみたいです。 CaseFolding.py というスクリプトの移植ということなので
+、python のソースからの輸入でしょうか。
+[追記]k-takata さんの鬼雲(Onigmo)のリポジトリに含まれているツールからの移植だっ
+たみたいです。 https://github.com/k-takata/Onigmo/blob/master/tool/
+CaseFolding.py [/追記]

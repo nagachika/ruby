@@ -1,0 +1,3 @@
+r37124 で追加された Process.spawn/exec の uid オプションのテストで ENV["USER"]
+をユーザ名として利用するテストでは ENV["USER"] が nil の場合を考慮しています。
+また uid オプション uid を渡す場合の assertion も追加しています。

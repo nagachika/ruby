@@ -1,0 +1,3 @@
+rb_str_dump() で ASCII 非互換な Encoding の文字列を dump した時に
+'.force_encoding("xxx")' のような suffix を追加する時のサイズの拡張をマジックナ
+ンバーを書かずに strlen() などを使って計算するようにしています。

@@ -1,0 +1,2 @@
+REXML::Document#initialize でエンコーディングのチェックをするために upcase され
+たエンコーディング名を利用するようにしています。

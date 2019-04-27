@@ -1,0 +1,2 @@
+make distclean-ext と realclean-ext に clean-ext (r40340 で追加された)と同様に
+タイムスタンプファイルを削除するルールを追加しています。

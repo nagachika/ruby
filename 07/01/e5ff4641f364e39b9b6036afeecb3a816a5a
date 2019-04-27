@@ -1,0 +1,2 @@
+Array#dig および Hash#dig の rdoc 用コメントの英文修正および Struct#dig の rdoc
+用コメントを追加しています。 https://github.com/ruby/ruby/pull/1103

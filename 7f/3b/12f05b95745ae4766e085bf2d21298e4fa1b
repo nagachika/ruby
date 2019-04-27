@@ -1,0 +1,3 @@
+array.c と hash.c の equal の実装 rb_ary_equal() と hash_equal() でそれぞれ
+r46026 で組み込みで定義するようにした to_ary, to_hash の ID の定数を利用するよ
+うにしています。

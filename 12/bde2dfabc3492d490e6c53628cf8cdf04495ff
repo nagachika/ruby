@@ -1,0 +1,4 @@
+minitest の assert_raises で例外を捕捉した時に exception_details を呼んでバック
+トレースなど詳細な情報を作るのは実際に必要になった時(例外が発生したけど期待した
+例外じゃない)だけ呼ぶようにしています。 64bit linux での chkbuild で利用リソー
+スを抑えるためだそうです。

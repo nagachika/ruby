@@ -1,0 +1,2 @@
+r56610 で追加したテストについて子プロセスの Process::Status#termsig が nil じゃ
+ないか assertion を追加しています。

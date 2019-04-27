@@ -1,0 +1,3 @@
+parse.y のトークン tNUMPARAM の型(っていうのか?)を整数から ID に変更しています
+。アクション部での numparam_id() の呼び出しを不要にして、parser_numbered_param
+() で事前に ID 化しておくようにしています。

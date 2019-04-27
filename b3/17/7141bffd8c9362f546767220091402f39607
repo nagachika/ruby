@@ -1,0 +1,3 @@
+r53944 の再修正で README.md の COPYING へのリンクの参照先が間違ってたのを修正し
+ているのと、README.ja.md も同様にリンクをはるようにしています。 https://
+github.com/ruby/ruby/pull/1265

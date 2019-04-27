@@ -1,0 +1,2 @@
+doc/maintainers.rdoc と doc/standard_library.rdoc を stringio と fiddle の
+default gem 化にあわせて変更しています。

@@ -1,0 +1,3 @@
+r47872 での PNaCl サポートの時の configure.in の typo 修正やコンパイラフラグ追
+加、libnacl_io のビルドのために c++ stdlib が必要なそうでコンパイラに clang++
+を利用するように nacl/GNUmakefile.in に追記したりなど。

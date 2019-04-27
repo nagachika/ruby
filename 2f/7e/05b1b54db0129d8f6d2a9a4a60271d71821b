@@ -1,0 +1,2 @@
+Array#each の rdoc 用コメントに戻り値について追記しています。 [ruby-core:66063]
+[misc #10469]

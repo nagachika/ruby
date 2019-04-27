@@ -1,0 +1,2 @@
+lib/net/http/responses.rb の magic comment frozen_string_literal を true に変更
+して文字列リテラルを fstring 化するようにしています。

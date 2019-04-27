@@ -1,0 +1,2 @@
+NEWS ファイルの BasicSocket#sendmsg_nonblock の exception: false のキーワード引
+数のサポート追加のエントリの typo 修正。

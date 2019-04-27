@@ -1,0 +1,1 @@
+rb_mProcGID, rb_mProcID_Syscall, rb_mProcUID を export しています。

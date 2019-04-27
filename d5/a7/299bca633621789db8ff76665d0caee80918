@@ -1,0 +1,1 @@
+Fixnum#[ ] と Bignum#[ ] も Integer#[ ] に統合されています。

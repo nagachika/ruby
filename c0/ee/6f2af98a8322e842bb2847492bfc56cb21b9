@@ -1,0 +1,2 @@
+拡張ライブラリ json の JSON::GenericObject のと = メソッドを削除しています。
+OpenStruct を継承しているクラスなので再定義する必要がなかった模様。

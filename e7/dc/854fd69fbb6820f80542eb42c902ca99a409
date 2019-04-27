@@ -1,0 +1,2 @@
+heredoc_dedent() という parser_heredoc_dedent() の呼び出しを wrap しているだけ
+のマクロを削除して、関数のほうの名前を heredoc_dedent() に改名しています。

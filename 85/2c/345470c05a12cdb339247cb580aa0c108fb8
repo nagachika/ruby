@@ -1,0 +1,2 @@
+.travis.yml に make after-update を追加して、bundled gems のダウンロードなどの
+更新処理を行うようにしています。

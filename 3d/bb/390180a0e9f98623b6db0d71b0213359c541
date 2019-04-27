@@ -1,0 +1,20 @@
+RubyVM::InstructionSequence をバイナリのファイルに出力/ロードするという機能追加
+です。 ISeq のダンプについては ISeq#to_a で Array にしたものを Marshal を使って
+、rb_iseq_load() を利用する拡張ライブラリを使って(iseq.gem という gem がありま
+す)戻すという方法がありますが、これは期待したよりもかなり遅くて普通にスクリプト
+を parse したほうが早いという結果になってしまっていたので実用的ではありませんで
+した。今回専用のフォーマットでダンプするようにしてより高速にロードできるように
+したということのようです。
+RubyVM::InstructionSequence#to_binary_format と
+RubyVM::InstructionSequence.from_binary_format および
+RubyVM::InstructionSequence.from_binary_format_extra_data というメソッドを追加
+しています。またスクリプトのロード処理で RubyVM::InstructionSequence.load_iseq
+というメソッドが定義されていたらこれにファイルパスを渡して呼び出し、これが返し
+た ISeq を利用するというフックが仕込めるようになっています。これを利用した例と
+して sample/iseq_loader.rb というのが追加されていて、AOT みたいに(機械語にでは
+ないですが)事前にスクリプトをコンパイルして .rb.yarb というファイルに(その他の
+方法もあるみたいです)保存しておいたら、require でこちらをロードするというような
+こともできるようです。凄いでかい機能が入りましたね。
+また USE_LAZY_LOAD というマクロが真に定義されていると lazy load という機能も ON
+になるようですが、これは現状ではデフォルトで無効みたいです。 [ruby-core:71943]
+[Feature #11788]

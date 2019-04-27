@@ -1,0 +1,2 @@
+Range#bsearch および Array#bsearch がブロックの省略時に Enumerator を返すように
+しています。 [ruby-core:51564] [Bug #7725]

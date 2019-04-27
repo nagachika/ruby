@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix に Vector.independent? および Vector#independent? メ
+ソッドを追加しています。複数の Vector オブジェクトが互いに直行している(ある
+Vector を他の Vector の線形結合で表現できない)かどうかを判定してくれるメソッド
+です。便利メソッドですね。 [ruby-core:65999] [Feature #10451]

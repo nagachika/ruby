@@ -1,0 +1,3 @@
+rb_provide() で rb_fstring_cstr() を使って fstring を、rb_require() では
+rb_str_new_cstr() で静的 String オブジェクトを利用するようにして object slot を
+消費しないようにしています。

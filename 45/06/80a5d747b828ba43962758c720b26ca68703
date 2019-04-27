@@ -1,0 +1,2 @@
+Windows (LONG_LONG 型が存在する？)環境で Time#strftime の %s 指示子でおかしな文
+字列が生成されてしまうのを修正。[ruby-core:33634]

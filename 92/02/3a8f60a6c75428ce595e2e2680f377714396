@@ -1,0 +1,3 @@
+IO#write の writev(2) 対応で書き込んだサイズが Bignum になることもあるので
+Fixnum を前提にしていたところを修正しています。 [ruby-core:59408] [Feature #
+9323]

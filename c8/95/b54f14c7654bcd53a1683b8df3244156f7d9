@@ -1,0 +1,2 @@
+test/lib/leakchecker.rb にテストケース前後で Encoding.default_internal と
+Encoding.default_external が変化していないかのチェックを追加しています。

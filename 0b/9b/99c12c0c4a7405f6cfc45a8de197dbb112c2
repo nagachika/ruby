@@ -1,0 +1,3 @@
+lib/yaml.rb の YAML::EngineManager とその yamler= メソッドに rdoc の :nodoc: タ
+グをつけています。また syck が削除されたことを追記しています。
+[ruby-core:54665] [Bug #8344]

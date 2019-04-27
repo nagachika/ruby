@@ -1,0 +1,2 @@
+Travis CI で OS X のテストを実行しなくなったので、.travis.yml から OS X の時の
+指定などを削っています。

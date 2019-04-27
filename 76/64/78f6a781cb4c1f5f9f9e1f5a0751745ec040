@@ -1,0 +1,4 @@
+local_variables で変数名を取得する時に文字列化できるかチェックする処理を
+local_var_list_add() として切り出しています。また中間データの Hash オブジェクト
+の VALUE を struct local_var_list という構造体にラップしています。これはなぜで
+しょう。 VALUE で渡してもいいような気がしますが。

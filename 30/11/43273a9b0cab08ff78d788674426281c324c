@@ -1,0 +1,3 @@
+あらかじめ確保しておくいくつかの特別な例外のうち IO の close 済みのものを操作し
+ようとした時の IOError のための名前を ruby_error_closed_stream から
+ruby_error_stream_closed に改名。

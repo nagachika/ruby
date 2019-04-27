@@ -1,0 +1,2 @@
+rubygems の Gem::Specification#build_extensions でも Gem::SilentUI の閉じ漏れの
+修正。

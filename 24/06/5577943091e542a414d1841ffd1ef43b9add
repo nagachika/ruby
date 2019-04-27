@@ -1,0 +1,2 @@
+Enumerable#flat_map のテストが存在していなかったのを追加しています。 https://
+github.com/ruby/ruby/pull/598

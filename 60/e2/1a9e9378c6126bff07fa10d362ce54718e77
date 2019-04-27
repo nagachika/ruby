@@ -1,0 +1,3 @@
+ruby/mspec に upstream から最新版をマージしています。 freeze されたオブジェクト
+の変更で発生する例外が 2.5 から FrozenError になった変更に追随する変更などがあ
+ります。

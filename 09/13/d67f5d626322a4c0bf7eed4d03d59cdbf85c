@@ -1,0 +1,3 @@
+pack.c の str_associate() で String オブジェクトにセットされている associated
+という内部的なインスタンス変数の値が Array だった時の分岐を消しています。
+associate ってなんだっけなぁ…。

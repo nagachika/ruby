@@ -1,0 +1,3 @@
+configure.in から shvar_to_cpp() と unexpand_shvar() といった関数を削除して、か
+わりに tool/shvar_to_cpp.rb というツールを使うようにしているみたいです。これま
+た大きめの改造ですね。

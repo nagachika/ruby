@@ -1,0 +1,3 @@
+r55373 の iso-8859-1 用の case_map() 関数の ONIGENC_ISO_8859_1_TO_LOWER_CASE()
+を利用した部分を書き換えています。 OnigEncISO_8859_1_ToLowerCaseTable を参照す
+るのではなく EncISO_8859_1_CtypeTable を参照するようにしています。

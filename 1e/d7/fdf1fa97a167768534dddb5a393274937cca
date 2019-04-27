@@ -1,0 +1,2 @@
+ObjectSpace についての rdoc 用コメントのサンプルに require "objspace" を追記し
+ています。 https://github.com/ruby/ruby/pull/860

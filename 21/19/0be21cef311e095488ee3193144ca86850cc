@@ -1,0 +1,4 @@
+r46014 で追加した Windows 版の Etc.uname の実装で、GetComputerNameExW() でホス
+ト名を得るのにバッファサイズを取得する時と実際に結果を格納するための呼び出しで
+の第1引数を ComputerNameDnsFullyQualified と ComputerNameDnsHostname と変化して
+しまっていたので ComputerNameDnsFullyQualified にそろえて、マクロ化しています。

@@ -1,0 +1,3 @@
+標準添付ライブラリ prime の最適化。事前に offsets を計算しておいたのを逐次計算
+するようにしています。 https://github.com/ruby/ruby/pull/921
+ChangeLog の変更したファイル名が lib/matrix.rb になっていますね。

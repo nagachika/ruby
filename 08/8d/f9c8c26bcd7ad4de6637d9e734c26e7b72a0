@@ -1,0 +1,2 @@
+r67522 を revert しています。 vm_sendish() では上のほうで RESTORE_REGS() という
+マクロで reg_cfp が ec->cfp に変更済みなので不要だったみたいです。

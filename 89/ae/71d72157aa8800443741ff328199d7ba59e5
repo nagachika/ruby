@@ -1,0 +1,4 @@
+immutable なオブジェクトや freeze しているオブジェクトでも Marshal.load を実現
+するためのメソッド marshal_load を明示的に呼ぶことで内容を変更できてしまう不具
+合を Complex と Rational について対策しています。とりあえず freeze されていたら
+弾くようにしています。 [ruby-core:45394] [Bug #6538]

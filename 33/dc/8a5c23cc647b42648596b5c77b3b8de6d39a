@@ -1,0 +1,6 @@
+RubyVM::InstructionSequence.of の引数に RubyVM::InstructionSequence のインスタ
+ンスを渡した時にそのものを返すようにしています。 r66003 の TracePoint#enable の
+target キーワード引数で RubyVM::InstructionSequence オブジェクトも渡せるように
+するためですね。TracePoint#enable 内部で Proc や Method から ISeq を取り出すた
+めに RubyVM::InstrutionSequence.of の呼び出しをしているので。 [ruby-core:89747]
+[Feature #15289]

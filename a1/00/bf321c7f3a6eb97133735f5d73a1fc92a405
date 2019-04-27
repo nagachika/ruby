@@ -1,0 +1,3 @@
+Array#<< の rdoc 用コメントのサンプルコードで receiver を変数に格納しておいてか
+ら << を実施して、破壊的に変更が行なわれていることを示すようにしています。
+https://github.com/ruby/ruby/pull/1646

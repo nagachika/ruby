@@ -1,0 +1,4 @@
+lib/test/unit.rb の Option#process_args で引数の処理時にオプションとその引数だ
+けを抽出した文字列を @help に格納しています。テスト実行時に MiniTest::Unit#run
+で指定されたオプションを表示するためのようです。minitest と test の関係よくわか
+らないのでいつか調べないと……。

@@ -1,0 +1,7 @@
+fd が操作可能になるまで GVL を離して待つ nogvl_wait_for_single_fd() で poll(2)
+を使う時に、第3引数の timeout に 0 を指定していたのですぐに処理がかえってきてい
+たので -1 を指定してイベント発生まで待つようにしています。これずっと待ってもい
+いのかな…。signal を受信したら EAGAIN で起こされるからいいのかな。別 Thread か
+らの raise の時とかって signal が飛ぶんだっけ。ああ、それは ubf (unblocking
+function) によるけど、IO待ちの時は ubf_select() なので SIGVTALRM を使うようにし
+ていますね(pthread 版の時)。

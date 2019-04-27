@@ -1,0 +1,3 @@
+同じく rb_str_dynamic_intern() で複製されるかもしれない str の最適化による GC
+のマーク漏れの対処方法を変更して RSTRING_PTR() で利用した後に RB_GC_GUARD() を
+置くようにしています。

@@ -1,0 +1,3 @@
+RubyGems の Gem.load_path_insert_index の rdoc 用コメントを修正しています。(お
+そらく RubyGems の挙動を変更するための)再定義についての記述を削っているようです
+。

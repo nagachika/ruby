@@ -1,0 +1,3 @@
+tool/downloader.rb に -p オプションでダウンロードするファイルの置き場所の
+prefix を指定できるようにして、make download-unicode-data のコマンドで Unicode
+の定義用のファイルのダウンロード先ファイルの記述を簡潔にしています。

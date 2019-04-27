@@ -1,0 +1,3 @@
+Mac OS X 10.5 以前でのビルドのために pthread_get_stackaddr_np() と
+pthread_get_stacksize_np() のプロトタイプ宣言を追加しています。
+[ruby-core:43376] [Bug #6170]

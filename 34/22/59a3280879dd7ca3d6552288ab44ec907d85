@@ -1,0 +1,3 @@
+signal.c で sigaction でシグナルハンドラを登録するところが valgrind で未定義領
+域の参照エラーとして検出されてしまっていたみたいで、VALGRIND_MAKE_MEM_DEFINED()
+を使って明示的に定義済みにすることで抑制するようにしています。

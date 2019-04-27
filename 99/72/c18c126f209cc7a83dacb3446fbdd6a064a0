@@ -1,0 +1,5 @@
+FileUtils#rmdir のテストで "/" を消そうとしてみるテストで Dir.rmdir "/" が
+Errno::ENOTEMPTY を発生させた時に FileUtils.rmdir "/" を呼ぶ assertion を実行し
+ないようにしています。 FileUtils は Errno::ENOTEMPTY を無視するので、とのこと。
+直下のコメントで Errno::ENOENT も同様に無視されると書いてある(実際無視される)の
+ですがそっちはコメントはあるのに元々 rescue されていませんね。はて。

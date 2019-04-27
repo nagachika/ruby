@@ -1,0 +1,2 @@
+r53303 の RUBY_RELEASE_DATE の定義方法の変更に追随して win32/setup.mak で
+verconf.mk を生成する時に STRINGIZE() の定義を追加したりしています。

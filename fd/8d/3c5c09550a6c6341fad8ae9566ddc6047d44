@@ -1,0 +1,3 @@
+Transient Heap 対応と同時に入れられた配列を使った T_HASH の実装の配列サイズを得
+る RHASH_ARRAY_SIZE_RAW() マクロのキャストする型が間違っていたのを修正。
+[ruby-core:89688] [Bug #15279]

@@ -1,0 +1,3 @@
+Kernel#syscall の 64bit Linux のサポート。64bit 環境の対応は先日 30499 で入れら
+れていましたが、64bit Linux では syscall() の引数と返り値が manual には int と
+記載されているけど実際は long なんだとのこと。これはひどい。

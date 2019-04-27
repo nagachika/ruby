@@ -1,0 +1,3 @@
+r40760 で "clobbered by 'setjmp' or 'vfork'" の警告除去のため vm.c (vm_exec())
+の変数に volatile を付けて抑制していたのを TH_PUSH_TAG() の後のブロック内に宣言
+を移動する対処法に変更しています。

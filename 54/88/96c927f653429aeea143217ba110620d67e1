@@ -1,0 +1,4 @@
+get_insn_info() の succinct bitvector による実装の時(今はデフォルトはこれです)
+のデバッグ用の出力が有効な時に VM_CHECK_MODE が 0 だと body->
+insns_info.positions が解放済みなのにメモリを参照してしまっていた不具合を修正し
+ています。

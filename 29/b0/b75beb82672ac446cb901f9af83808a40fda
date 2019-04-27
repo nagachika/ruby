@@ -1,0 +1,1 @@
+marshal.c の long_toobig() を NORETURN() で宣言しています。

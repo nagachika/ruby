@@ -1,0 +1,2 @@
+NEWS ファイルの RubyVM::InstructionSequence の to_binary_format などのメソッド
+のエントリに experimental feature とのマークを追加しています。

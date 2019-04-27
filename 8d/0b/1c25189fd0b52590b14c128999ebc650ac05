@@ -1,0 +1,2 @@
+Bignum#== でも相手が Float だった時に rb_big_float_cmp() を利用するようにリファ
+クタリングしています。

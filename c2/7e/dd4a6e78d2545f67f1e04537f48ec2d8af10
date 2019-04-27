@@ -1,0 +1,3 @@
+popen や open("|cmd") のようにコマンドを渡した時の実装では rb_exec_err() や
+rb_fork_err() を呼ばないで rb_exec_async_signal_safe() や
+rb_fork_async_signal_safe() の async-signal-safe 版を呼ぶようにしています。

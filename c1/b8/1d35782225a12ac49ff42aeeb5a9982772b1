@@ -1,0 +1,6 @@
+C level backtrace で実行中のプロセスの実行ファイルのパスを取得するのに(Linux で
+は /proc/self/exe を利用するように r45394 で対応されましたがそれ以外では)
+dladdr(3) に rb_dump_backtrace_with_lines() という実行中の関数自身のシンボルで
+取得しようとしていましたが、main() 関数のを渡して取得するように変更しています。
+rb_dump_backtrace_with_lines() だと --enable-shared でビルドされてた場合共有ラ
+イブラリに含まれている可能性があるからかなと思います。

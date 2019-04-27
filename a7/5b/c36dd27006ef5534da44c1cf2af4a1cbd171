@@ -1,0 +1,3 @@
+require の safe level チェックの path_check_0() での警告メッセージに埋め込むフ
+ァイルパスの Encoding を保持するようにしています。いつもの PRIsVALUE ではなくて
+rb_enc_warn() という関数によるものですね。

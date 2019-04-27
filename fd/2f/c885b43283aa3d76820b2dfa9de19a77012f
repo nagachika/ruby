@@ -1,0 +1,4 @@
+r42013 と同様に標準添付ライブラリ cgi でも CGI::Util#escape, unescape で String
+#gsub のブロック内で特殊変数 $1 を参照していたのを、ブロックパラメータを利用す
+るように変更しています。 [ruby-core:55855] [Bug #8612] [ruby-core:56054]
+[Feature #8648]

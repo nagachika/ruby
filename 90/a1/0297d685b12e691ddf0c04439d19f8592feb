@@ -1,0 +1,3 @@
+configure.in の変更で、mingw の環境でコンパイラや binutils のツール類の prefix
+の名前を CC から取得するようにしているようです。通常は host_alias から取得して
+いるようです。

@@ -1,0 +1,2 @@
+insns.def の1行目に emacs 向けの文字エンコーディングを指定する pragma があって
+shift_jis のままだったので utf-8 に変更。

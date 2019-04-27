@@ -1,0 +1,3 @@
+Enumerator#size のデフォルトの実装で size メソッドを呼び出し未定義の時に nil を
+返す処理が rb_check_funcall_default() という関数で可能だったのでこれを呼ぶよう
+にリファクタリングしています。

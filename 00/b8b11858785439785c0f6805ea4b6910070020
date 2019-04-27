@@ -1,0 +1,3 @@
+r65642 の flo_div() の 0除算の回避のための分岐を double_div_double() という関数
+に切り出して、その wrapper 関数 rb_flo_div_flo() を追加して vm_insnhelper.c の
+vm_opt_div() からも利用するようにしています。

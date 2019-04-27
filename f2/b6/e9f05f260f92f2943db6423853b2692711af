@@ -1,0 +1,4 @@
+any_hash() の戻り値を st_index_t から long に変更しています。 rb_obj_hash() で
+ST2FIX() で Fixnum の範囲に収まる前提で変換しているので st_index_t だと Bignum
+の範囲になる可能性があって問題があったみたいです。(ちなみに ST2FIX() も
+LONG2FIX() ですかね)

@@ -1,0 +1,3 @@
+.gdbinit に rb_count_objects というコマンドが追加されていて ObjectSpace の全
+slot をみてどのタイプのオブジェクトがいくつあるかをダンプしてくれるようにしてい
+ます。

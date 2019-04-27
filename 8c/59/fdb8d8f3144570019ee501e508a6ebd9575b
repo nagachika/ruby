@@ -1,0 +1,3 @@
+r60000 や r60001 と同様に String#split でも分割が行われなかったら receiver がそ
+のまま返されていたのを dup して返すようにしています。 https://github.com/ruby/
+ruby/pull/1705 [ruby-core:82911] [Bug#13925]

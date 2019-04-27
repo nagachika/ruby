@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer#accept_client で accept で
+かえってきた socket に sock.sync = true していたのをやめています。既にセットさ
+れているはずということです。

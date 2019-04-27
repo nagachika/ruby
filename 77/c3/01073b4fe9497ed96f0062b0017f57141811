@@ -1,0 +1,4 @@
+ISEQ_MAJOR_VERSION と ISEQ_MINOR_VERSION を RUBY_API_VERSION_MAJOR と
+RUBY_API_VERSION_MINOR を使って定義するようにして、API Version が変更になったら
+自動的に変更されるようにしています。 ISeq の dump/load 時にバージョンチェックさ
+れるので、互換性がなくなった時に上げ忘れないようにということみたいです。

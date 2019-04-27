@@ -1,0 +1,3 @@
+Range#to_s で taint された Range オブジェクトから作った文字列も taint されてい
+るように修正しています。 OBJ_INFECT() で参照すべきオブジェクトがまちがっていた
+ようです。 [ruby-core:71811] [Bug #11767]

@@ -1,0 +1,3 @@
+rb_threadptr_stack_overflow() に第2引数を追加して、machine stack 上の TAG がア
+クセスできない可能性がある位置にあったら threadptr_stack_overflow() を利用せず
+直接 TH_JUMP_TAG() を利用するようにしています。

@@ -1,0 +1,5 @@
+r49834 で tool/rbinstall.rb の File.umask を 0222 に変更していましたが 077 に再
+修正しています。 group と others は一切の権限をつけないようにしています。えー
+system wide にインストールする時にこれでいいんですかね。必要なら明示的に --
+{data,prog,dir}-mode を指定するからいいのかな…。 distributor のパッケージ作成
+者にとっては重要な変更な気がします。

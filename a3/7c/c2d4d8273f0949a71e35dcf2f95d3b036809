@@ -1,0 +1,2 @@
+test/uri/test_mailto.rb で全体が module URI のスコープ内になっていたのを修正し
+ています。

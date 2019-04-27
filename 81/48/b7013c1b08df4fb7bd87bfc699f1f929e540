@@ -1,0 +1,2 @@
+ARGF.inplace_mode= で文字列に NUL 文字が含まれていた時に ArgumentError にするよ
+うにしています。 [ruby-dev:50272] [Bug #13960]

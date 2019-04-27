@@ -1,0 +1,2 @@
+Makefile.in に SET_LC_MESSAGES という変数の代入が同じものが2つあったので1つ消し
+ています。

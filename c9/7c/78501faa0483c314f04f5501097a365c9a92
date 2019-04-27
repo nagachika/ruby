@@ -1,0 +1,3 @@
+bignum.c のリファクタリング。 BARY_MUL() と bary_mul() をそれぞれ BARY_MUL1()
+と bary_mul1() に改名して bary_mul2() だったものを bary_mul() に変更しています
+。

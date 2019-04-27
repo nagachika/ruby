@@ -1,0 +1,4 @@
+compile.c のパターンマッチの構文をコンパイルする iseq_compile_pattern_each() で
+Array pattern の * で可変長の末尾を受容するパターンの命令を出力するところで
+post_args_num が正の時しか通らないところで use_rest_num のチェックは冗長だった
+ので(おそらく)削っています。

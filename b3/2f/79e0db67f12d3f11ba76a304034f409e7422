@@ -1,0 +1,3 @@
+make check のルールにテストが正常終了したら "check succeeded" と表示するコマン
+ドを追加しています。また README, README.ja の表示されるメッセージについても変更
+しています。

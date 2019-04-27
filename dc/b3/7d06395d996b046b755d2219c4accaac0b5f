@@ -1,0 +1,3 @@
+Range#step で beginless range でも終端が整数なら Enumerator::ArithmeticSequence
+を使った実装に切り替わるように修正しています。始点(begin) で判定していたので
+beginless range だと使わなくなってしまっていました。

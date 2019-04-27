@@ -1,0 +1,4 @@
+test-all 用のユーティリティの assert_ruby_status で標準出力の内容をメッセージに
+含めるようにして、 assertion のメッセージを FailDesc というこの後で定義されてい
+る Proc オブジェクトで作るようにしています。 FailDesc は主に signal での終了を
+ケアしていて status が非0の時に status が出力されなくなっているようです。

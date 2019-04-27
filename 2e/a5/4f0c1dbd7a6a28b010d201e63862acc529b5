@@ -1,0 +1,2 @@
+win32/Makefile.sub に mjit_config.h から Makefile.sub への依存関係を追加。
+configure しなおすようにしているようです。

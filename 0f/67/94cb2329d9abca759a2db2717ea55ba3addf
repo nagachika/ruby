@@ -1,0 +1,4 @@
+lib/cmath.rb で Object#real? というメソッドを追加して TypeError を発生させるよ
+うにしています。 [ruby-dev:40961] [Bug #3137]
+これは require "complex" すると Math.atan(nil) の投げる例外が変化するという不具
+合? のための対処のようです。

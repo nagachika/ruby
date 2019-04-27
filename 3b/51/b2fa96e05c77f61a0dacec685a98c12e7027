@@ -1,0 +1,2 @@
+vm.c の vm_exce_handle_exception() という関数名、よーくみると typo していたので
+vm_exec_handle_exception() に修正しています。 static 関数でよかった。

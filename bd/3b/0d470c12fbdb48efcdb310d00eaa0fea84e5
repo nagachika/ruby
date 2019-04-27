@@ -1,0 +1,19 @@
+Psych::ScalarScanner で YAML の浮動小数点数の記法の仕様(参考URL: http://
+yaml.org/type/float.html)に沿った正規表現を定義して切り出すようにしています。
+YAML の浮動小数点は "," や "_" で桁を区切ることができるみたいですね。また基数60
+(?)の記法というのが(":" で区切る)あるようです。
+ところでここで
+return Float(...) rescue ArgumentError
+という文法を使っているのですが、多分これは
+begin
+  Float(...)
+rescue ArguumentError
+end
+としたいのだと思いますが
+begin
+  Float(...)
+rescue
+  ArgumentError
+end
+になってしまいます(後置 rescue は捕捉する例外クラスを指定できない)。というわけ
+で GitHub で psych に pull request を出してみました。

@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http の Net::HTTP.proxy_uri で IPv6 のアドレスが扱えなく
+なっていたので文字列に直接埋め込みで URL を記述して URI() に渡すのではなくて
+URI::HTTP.new を直接利用して URI を生成するようにしています。 [ruby-core:58438]
+[Bug #9129]

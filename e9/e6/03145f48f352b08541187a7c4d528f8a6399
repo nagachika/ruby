@@ -1,0 +1,3 @@
+r36071 の -fbuiltin の追加を revert して、NetBSD でも -ansi -std=iso9899:199409
+をコンパイラオプションにつけるようにしています。 -fbuiltin は不要だったんでしょ
+うか。

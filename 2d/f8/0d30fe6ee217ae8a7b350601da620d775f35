@@ -1,0 +1,4 @@
+r63503 と r63508 の rubyspec の -v オプションのテストで MJIT 対応していたのを
+revert しています。fake.rb 経由で呼ばれた時に RUBY_DESCRIPTION はコピーされてい
+て既にテスト対象の ruby が MJIT が有効な時には +JIT が含まれているので余計だっ
+たみたいです。

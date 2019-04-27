@@ -1,0 +1,2 @@
+更に r36803 のテストとして flonum に extend した時に TypeError になるテストも追
+加しています。

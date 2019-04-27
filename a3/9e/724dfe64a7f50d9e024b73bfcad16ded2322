@@ -1,0 +1,3 @@
+r42464 で追加した Binding の local_variable_set, local_variable_get,
+local_variable_defined? メソッドについて NEWS ファイルに追記しています。ただ
+local_variable_set の引数の数が間違っていますね。

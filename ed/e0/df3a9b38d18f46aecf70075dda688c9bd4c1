@@ -1,0 +1,4 @@
+標準添付ライブラリ csv で CSV.open の ensure 節で close していたところを
+closed? でチェックしてから close するようにしています。がこれ結構古いチケットで
+、既に IO や StringIO のオブジェクトは IO#close で close 済みでも例外発生しなく
+なっているので不要そうですね。 [ruby-core:66240] [Bug #10504]

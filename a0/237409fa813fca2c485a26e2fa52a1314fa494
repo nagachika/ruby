@@ -1,0 +1,4 @@
+r45503 で修正した configure での __builtin_setjmp()/__builtin_longjmp() の検出
+の再修正。今度は clang 5.1 で第1引数の型が jmp_buf ではなく void** だそうで、キ
+ャストの必要性の有無も含めて検出したうえで RUBY_SETJMP()/RUBY_LONGJMP() マクロ
+を定義するようにしています。 [ruby-core:61796] [Bug #9692]

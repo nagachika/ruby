@@ -1,0 +1,2 @@
+r58562 で svn:ignore property に設定したのと同様に .gitignore にも benchmark/
+bm_require.data の設定を追加しています。

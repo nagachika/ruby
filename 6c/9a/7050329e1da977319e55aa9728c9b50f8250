@@ -1,0 +1,4 @@
+VM 命令の tracecoverage を削除して struct
+rb_iseq_constant_body::variable::pc2branchindex という配列オブジェクトを追加し
+て nop 命令の trace 機構を利用して実装するようにしています。 [ruby-core:83758]
+[Feature #14104]

@@ -1,0 +1,2 @@
+r53010 の追加修正。 OpenSSL::SSL::SSLContext#options のテストでのビットマスクの
+考慮をもう一箇所追加しています。

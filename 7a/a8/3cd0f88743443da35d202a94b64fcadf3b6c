@@ -1,0 +1,4 @@
+open の返す IO#external_encoding のテストで default_external をセットしてテスト
+していた箇所を default_internal をセットするように修正しています。うーん、これ
+は本当にこれでいいのかな? enc は default_external の影響を受けそうだから両方必
+要なんじゃないのかな。

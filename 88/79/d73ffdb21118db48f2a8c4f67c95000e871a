@@ -1,0 +1,7 @@
+標準添付ライブラリ fileutils のテストと拡張ライブラリ pathname のテストで
+File.symlink が使えるかどうかのチェックに引数に nil を渡して呼び出して
+NotImplementedError が発生するかどうかをみるという方法が取られていたので、空文
+字列を渡すように修正しています。 nil だと ArgumentError が発生する(と書いてあり
+ますが、後の修正をみると TypeError かも)のですが、これは Windows 版で必要な
+administration 権限があるかどうかのチェックの前に発生してしまうので、チェックが
+不十分になってしまうようです。

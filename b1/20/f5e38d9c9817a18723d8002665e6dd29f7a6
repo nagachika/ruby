@@ -1,0 +1,7 @@
+r54912 で fill_random_bytes_syscall() という関数で可能なら arc4random_buf() を
+使って乱数生成するようにしていましたが、OpenBSD/NetBSD/FreeBSD のそれぞれ指定さ
+れたバージョン以降の場合のみ有効にして、それ以外の時は -1 を返すように定義して
+います。古い実装に問題があったそうです。 fill_random_bytes_syscall() が -1 を返
+したらどうなるんだっけ、と少し読んでみると fill_random_bytes_urandom() で /dev/
+urandom から読み出す方法に fallback するようでした。 [ruby-core:88712] [Bug #
+15039]

@@ -1,0 +1,2 @@
+Encoding#name と BigDecimal.new の rdoc 用コメントのサンプルコードの結果表示の
+修正。 [ruby-core:75147] [Bug #12313]

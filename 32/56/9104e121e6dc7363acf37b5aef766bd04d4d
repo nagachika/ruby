@@ -1,0 +1,6 @@
+r37127 で test/ruby/envutil.rb に導入したテスト用の File.xxx? のようなメソッド
+の結果のチェックをする assertion を assert_file という名称をやめて
+file_assertion というメソッドを追加して、file_assertion.exist?(path) や
+file_assertion.not_exist?(path) のように書けるようにしています。file_assertion
+は method_missing を使って、呼ばれたメソッドを File に委譲して、その結果をチェ
+ックして assert に渡すオブジェクトを返すようにしています。

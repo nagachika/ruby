@@ -1,0 +1,2 @@
+ext/win32/lib/win32/resolv.rb および ext/win32/lib/win32/resolv9x.rb でブロック
+パラメータの記法を ruby-mode.el の不具合回避のため少し変更しています。

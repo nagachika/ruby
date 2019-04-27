@@ -1,0 +1,2 @@
+template/prelude.c.tmpl で emacs の ruby-mode が変数の展開で何か誤判定するのを
+防ぐ為に空の <%=%> というタグを追加しています。

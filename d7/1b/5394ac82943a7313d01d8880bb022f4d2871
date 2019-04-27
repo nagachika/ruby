@@ -1,0 +1,3 @@
+r55038 で rb_vm_t の trace_running というメンバを bit field にしたのですが
+byebug がこのメンバがカウンターであることに依存していたそうで int 型に戻してい
+ます。 [ruby-core:78514] [Bug #13011]

@@ -1,0 +1,2 @@
+NEWS ファイルに昨日の r42809 で Module#include と Module#prepend を public メソ
+ッドにした変更について追記しています。 [Feature #8846]

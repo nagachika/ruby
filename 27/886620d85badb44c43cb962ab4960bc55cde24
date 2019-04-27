@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::Random の rdoc 用コメントの追記をしています
+。 https://github.com/ruby/ruby/pull/657

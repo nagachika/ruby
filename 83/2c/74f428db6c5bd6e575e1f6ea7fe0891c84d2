@@ -1,0 +1,3 @@
+r51953 に続きコマンドライン引数 --enable-frozen-string-literal でも string
+literal の frozen 化を指定できるようになりました。 [ruby-core:57574] [Feature #
+8976]

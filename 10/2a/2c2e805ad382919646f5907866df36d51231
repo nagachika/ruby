@@ -1,0 +1,2 @@
+bignum.c で既に存在しない関数 bigdivrem() の prototype 宣言のみ残っていたので削
+除しています。

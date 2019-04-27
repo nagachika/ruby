@@ -1,0 +1,5 @@
+dsymbol_alloc() で dynamic symbol を生成する時に Encoding をセットするのに
+rb_enc_associate() を使ってたのを rb_enc_set_index() に変更しています。
+rb_enc_associate_index() で既に紐付いてる Encoding をチェックしているのが無駄な
+ので直接 enc_set_index() を呼ぶということみたいです。 coderange のチェックのほ
+うは省略してもいいのかな。

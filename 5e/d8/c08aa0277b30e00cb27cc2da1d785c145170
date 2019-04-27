@@ -1,0 +1,2 @@
+さらに関数宣言を internal.h, vm_core.h に集約。また common.mk の依存関係の更新
+をしています。

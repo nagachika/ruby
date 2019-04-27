@@ -1,0 +1,2 @@
+configre.ac でコンパイラの -Wmissing-noreturn オプションがあれば付けるようにし
+ています。 clang 用のオプションみたいです。

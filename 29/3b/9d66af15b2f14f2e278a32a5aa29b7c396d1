@@ -1,0 +1,4 @@
+tool/runruby.rb に RUNRUBY_USE_GDB という環境変数が "true" にセットされていたら
+ruby を gdb 経由で実行するようにしています。さらに run.gdb というファイルがあっ
+たらそれを使って実行するようにしています。これで make test-all するとすごい時間
+かかりそうですね。

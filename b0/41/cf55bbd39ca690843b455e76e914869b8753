@@ -1,0 +1,3 @@
+r67550 で debug counters の mjit_cancel_ivar をインクリメントするところをまちが
+って mjit_cancel_ivar_inline としてしまっていたので、そこじゃなくて debug
+counters の定義のほうを追随して修正しています。

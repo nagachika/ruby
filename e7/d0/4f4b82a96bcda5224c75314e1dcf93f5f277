@@ -1,0 +1,2 @@
+OpenSSL::ASN1 で infinite length を持つ値のデコードの不具合修正&リファクタリン
+グ [ruby-core:35123] [Bug #4374]

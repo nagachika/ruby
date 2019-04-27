@@ -1,0 +1,2 @@
+parse.y の2つの NODE の範囲情報をマージして1つの rb_code_range_t にする処理を
+node.h に code_range_gen() という inline 関数として切り出しています。

@@ -1,0 +1,2 @@
+doc/globals.rdoc の -d オプションについての説明文での typo 修正。 discusison →
+discussion https://github.com/ruby/ruby/pull/474

@@ -1,0 +1,2 @@
+test/ruby/test_thread.rb の ThreadTest#test_thread_local_security で不要な
+Thread の生成をやめています。

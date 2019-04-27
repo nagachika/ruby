@@ -1,0 +1,3 @@
+.travis.yml に Travis CI の macOS での並列ビルド時の "Permission denied" のエラ
+ー調査のためエラーになった時に特定のディレクトリの mode を ls コマンドで表示す
+るようにしています。

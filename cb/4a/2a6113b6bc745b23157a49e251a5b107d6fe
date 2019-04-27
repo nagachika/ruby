@@ -1,0 +1,1 @@
+make help のメッセージに make install-capi のヘルプも出力するようにしています。

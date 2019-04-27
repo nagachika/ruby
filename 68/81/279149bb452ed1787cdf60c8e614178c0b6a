@@ -1,0 +1,3 @@
+rb_execution_context_t の stack および stack_size を vm_stack, vm_stack_size と
+頭に vm_ をつける改名。 VM スタックであること(machine stack ではなくて)がはっき
+りわかるようにしています。

@@ -1,0 +1,2 @@
+さらに debug counters に MJIT の JIT コンパイルの cancel の理由ごとのカウンタも
+追加しています。

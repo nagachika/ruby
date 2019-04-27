@@ -1,0 +1,5 @@
+thread_pthread.c の timer thread への通知用の pipe をまとめた signal_self_pipe
+という変数の構造体に ub_main という名前でもう一対 pipe を持てるようにして
+native_ppoll_sleep() で ppoll(2) 監視する fd にこれも追加するようにし、ubf
+(unblocking function) はこの pipe への書き込みで起こすようにしています。シグナ
+ル喪失で deadlock することがあった対策だそうです。 [ruby-core:89655]

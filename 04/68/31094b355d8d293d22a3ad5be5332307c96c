@@ -1,0 +1,1 @@
+関数の引数の rb_encoding * と OnigEncoding * に const を追加する変更です。

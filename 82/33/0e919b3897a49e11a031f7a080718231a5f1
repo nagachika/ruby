@@ -1,0 +1,3 @@
+同じように configure.in で setitimer(2) のチェックを削除しています。
+HAVE_SETITIMER が利用されていないため。1.8 の頃はスレッドの切り替えに setitimer
+を使ってたんでしたっけ、確か。

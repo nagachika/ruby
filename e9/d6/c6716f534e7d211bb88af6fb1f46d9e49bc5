@@ -1,0 +1,2 @@
+標準添付ライブラリ optparse の OptParse という OptionParser の別名に rdoc 用コ
+メントを追加しています。 [ruby-core:79909] [Bug #13281]

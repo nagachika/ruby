@@ -1,0 +1,4 @@
+.travis.yml でビルド前に実行する before_script に configure を実行後と make
+reconfig で再 configure 後の config.status と .ext/include の内容を比較して結果
+を出力するように設定を追加しています。 Travis CI で何か問題があって調べるためで
+しょうか。

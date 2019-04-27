@@ -1,0 +1,4 @@
+各クラスのインスタンスメソッド inititalize_copy の実装で OBJ_INIT_COPY() という
+関数マクロのラッパを定義して rb_obj_init_copy() を呼び出すよう処理を共通化する
+ようにして、さらに rb_obj_init_copy() でコピー先のオブジェクトが untrust がセッ
+トされていないことをチェックするようにしています。

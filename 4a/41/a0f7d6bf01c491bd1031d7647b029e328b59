@@ -1,0 +1,4 @@
+Unicode の casefold についてのテストで Unicode バージョンを
+UnicodeNormalize::UNICODE_VERSION を参照していたのを r55417 で追加した
+RbConfig::CONFIG["UNICODE_VERSION"] を参照するように修正しています。
+[ruby-core:75845] [Feature #12460]

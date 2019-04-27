@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http で接続時にソケットオプション TCP_NODELAY をセットす
+るようにしています。 Webサーバの高速化のための Nagle's algorithm というのがある
+そうで(参考URL: https://en.wikipedia.org/wiki/Nagle’s_algorithm ) TCP delayed
+acknowledgments と併用するとエラーになるそうなのでこれを回避するためだそうです
+。 [ruby-core:56158] [Feature #8681]

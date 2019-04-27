@@ -1,0 +1,3 @@
+拡張ライブラリ openssl のテストで OpenSSL::SSL::SSLContext#options のビットフラ
+グをチェックする時に OpenSSL::SSL::OP_ALL のビットマスクの部分だけチェックする
+ようにしています。他にもフラグが立っていることがあるみたいですね。

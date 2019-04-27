@@ -1,0 +1,5 @@
+r62529 で ERB.new の第2引数移行の通常引数は deprecated にしてキーワード引数を使
+うようにしましたが、tool/generic_erb.rb で呼び分けのために RUBY_VERSION をみて
+ましたが、erb だけ古いバージョンを動かしてると(erb って default gem になってな
+いから、どういう状態でありえるんですっけ)エラーになるので、ERB.version でチェッ
+クするように修正しています。

@@ -1,0 +1,2 @@
+test/ruby/test_rational.rb のコメントアウトされていた assertion やテストメソッ
+ドを削除しています。ふーむ、これいらないのかなぁ。

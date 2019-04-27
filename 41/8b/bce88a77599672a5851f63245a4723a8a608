@@ -1,0 +1,3 @@
+r37025 のテストが失敗していたので単項演算子を用いた assertion に
+assert_operator を利用していたのを assert_predicate というメソッドに書き換えて
+います。

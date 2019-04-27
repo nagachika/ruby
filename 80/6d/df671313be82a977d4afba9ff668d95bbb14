@@ -1,0 +1,3 @@
+HP-UX での Thread のサポートのため gettune(2) と pthread_attr_getstacksize(3)
+を使ったスタックサイズ取得の関数定義を追加しています。 [ruby-core:56645]
+[Feature #8793]

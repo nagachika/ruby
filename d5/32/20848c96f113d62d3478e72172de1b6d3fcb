@@ -1,0 +1,3 @@
+mjit_worker.c の mjit_worker() で iseq->body->jit_func にセットする時に GC 中だ
+と SEGV する恐れがあるみたいで、その前で GC 中だったら終了するまで待つコードを
+追加しています。うーん、どういう時にまずいのか思いつかない。

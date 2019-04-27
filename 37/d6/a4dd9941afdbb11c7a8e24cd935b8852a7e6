@@ -1,0 +1,4 @@
+eval_error.c の warn_printf() という関数を削除して rb_sprintf() +
+warn_print_str() を使うようにしています。また error_pos() からファイルポジショ
+ンを含むメッセージの文字列だけ作る関数 error_pos_str() を切り出して出力部分と分
+離しています。

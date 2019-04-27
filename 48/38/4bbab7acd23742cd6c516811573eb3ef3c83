@@ -1,0 +1,4 @@
+Symbol GC で LazySweep で sweep 予定の Symbol を拾ってしまう問題の追加修正。
+parse.y の rb_id_attrset() で xxx= のようなメソッドの Symbol を生成するところで
+static な Symbol を pin down しようとしてしまっていたのを dynamic な Symbol だ
+け pin down するように修正しています。 [ruby-core:62226] [Bug #9787]

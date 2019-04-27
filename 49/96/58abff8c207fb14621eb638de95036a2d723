@@ -1,0 +1,4 @@
+r55366 の標準添付ライブラリ forwardable の Forwardable#def_delegator の修正につ
+いてのテストを追加しています。extend した時のテストも追加されてなかったかな、と
+思ったけどインスタンスに直接 Forwardable を extend した時のケースはなかったみた
+いですね。 [ruby-core:77611] [Bug #12837]

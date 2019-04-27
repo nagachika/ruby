@@ -1,0 +1,2 @@
+NEWS ファイルに Kernel#yield_self の別名として追加された Kernel#then メソッドに
+ついて追記しています。 [ruby-core:86270] [Feature #14594]

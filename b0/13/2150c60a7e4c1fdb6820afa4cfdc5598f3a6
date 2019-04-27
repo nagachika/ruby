@@ -1,0 +1,2 @@
+webrick のテストで assert_equal の引数の順番が result, expected になっていたの
+で expected, result の順に修正しています。

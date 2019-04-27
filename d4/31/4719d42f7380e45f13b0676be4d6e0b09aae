@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml の REXML::StreamListener#entitydecl の rdoc 用コメント
+で結果の表示が間違っていたのを修正しています。主にエスケープ不足。
+[ruby-dev:47533] [Bug #8665]

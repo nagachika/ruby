@@ -1,0 +1,2 @@
+同様に URI::Generic のテストに http_proxy や ftp_proxy 環境変数に空文字列がセッ
+トされていた時のテストを追加しています。

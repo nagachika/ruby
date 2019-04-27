@@ -1,0 +1,2 @@
+Hash の要素数が少ない時の array 実装の lookup の条件分岐を hash_stlike_lookup()
+という関数内に移動して共有するようにしています。

@@ -1,0 +1,5 @@
+標準添付ライブラリ erb で erboutvar を文字列から配列にして、毎回 concat してい
+たのを Array#push にして最後に join で連結するようにしています。 to_s を毎回呼
+ぶのより早いそうです。join も内部的には呼んでると思うけど、まあ元々 String だと
+呼ばなかったりすると思うのでそのぶん早いのでしょう。 https://github.com/ruby/
+ruby/pull/1143

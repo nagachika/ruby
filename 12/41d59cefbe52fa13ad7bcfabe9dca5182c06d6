@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils のテストに FileUtils.rmdir で Errno::ENOENT が発生
+するテストを追加しています。 r59934 の変更に追随させています。 [ruby-dev:50236]
+[Bug #13889]

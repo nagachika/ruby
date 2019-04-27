@@ -1,0 +1,2 @@
+拡張ライブラリ ripper で組み込みの ID を管理するテーブルの token と offset は
+int の範囲まで不要なのでさらに unsigned short にしてサイズ削減を図っています。

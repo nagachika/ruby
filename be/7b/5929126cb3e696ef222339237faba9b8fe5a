@@ -1,0 +1,3 @@
+標準添付している bundler を upstream の bundler-1.16.0 をマージしています。また
+make test-bundler で rspec のオプションに --require spec_helper を追加していま
+す。

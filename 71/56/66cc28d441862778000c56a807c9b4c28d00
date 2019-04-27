@@ -1,0 +1,3 @@
+r64555 の rubygems の更新で lib/rubygems/installer.rb で RbConfig::TOPDIR が
+nil の場合(mswin でおきるらしい)のサポートを追加しちます。 [ruby-core:88699]
+[Bug #15035]

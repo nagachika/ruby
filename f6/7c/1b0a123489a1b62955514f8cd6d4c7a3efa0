@@ -1,0 +1,2 @@
+configure.in で clock_gettime(2) の存在チェックを librt から探した結果を利用す
+るように修正しています。

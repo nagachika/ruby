@@ -1,0 +1,2 @@
+r50870 の Windows での File::Stat#ino の機能追加のぶんの NEWS ファイルへの追記
+。 [ruby-dev:49017] [Feature #11216]

@@ -1,0 +1,2 @@
+truncate(3) などの GVL 解放のための変更で使ってた構造体 struct truncate_arg の
+定義で参照していたマクロを HAVE_FTRUNCATE から HAVE_TRUNCATE に変更しています。

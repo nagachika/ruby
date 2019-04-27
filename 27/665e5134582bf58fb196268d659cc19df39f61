@@ -1,0 +1,2 @@
+make btest と make btest-ruby の実行時にテストに BTESTS という環境変数の値をオ
+プションとして渡すようにしています。

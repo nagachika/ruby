@@ -1,0 +1,3 @@
+Date._strptime で文字列から日付を切り出した残りを "leftover" というキーで Hash
+に登録する処理を date__strptime_internal() から呼び元の date__strptime() へ移動
+しています。

@@ -1,0 +1,2 @@
+Date.today と DateTime.now で year を保持する変数を long から int に変更してい
+ます。[ruby-dev:43361] [Feature #4529]

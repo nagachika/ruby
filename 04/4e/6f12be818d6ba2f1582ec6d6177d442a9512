@@ -1,0 +1,3 @@
+Windows 版の write (rb_w32_write()) で errno が EINVAL の時に GetLastError() を
+使って errno を設定しなおすようにしています。 close 済みに pipe に書きこんだ時
+の errno=EPIPE のセットのために必要だったもよう。

@@ -1,0 +1,9 @@
+RubyVM::InstructionSequence (以下 ISeq と略します)と TracePoint にデバッガ向け
+の新機能を追加しています。 ISeq#line_trace_all というメソッドで trace 命令のあ
+る行番号リストを配列で返すようにしています。そして TracePoint のイベントに
+:specified_line を追加して、ISeq#line_trace_specify でトレースのうち 0 からのイ
+ンデックスで行を決めて(行番号じゃなくて line_trace_all が返したリストのインデッ
+クスで指定するようになっています)、第2引数に true/false を渡してそこに
+:specified_line イベントの TracePoint のハンドラの発火を on/off するようにして
+います。デバッガが break を入れるための機能のようですね。あとは ISeq を取得する
+方法があればいろいろ遊べそうです。

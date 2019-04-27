@@ -1,0 +1,5 @@
+ruby 本体の test の Thread, fd などのリークのチェックに使う test/lib/
+leakchecker.rb で Tempfile のリークのチェックで Tempfile#path を無条件で呼んで
+いて Tempfile.allocate でオブジェクトの確保だけして初期化していない Tempfile オ
+ブジェクトがあった場合にエラーになるので、インスタンス変数の存在チェックをして
+から呼ぶように修正しています。

@@ -1,0 +1,2 @@
+envutil.rb の assert_warning で assertion の expected と result の引数の順番が
+逆だったのを修正しています。

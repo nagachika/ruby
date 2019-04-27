@@ -1,0 +1,3 @@
+r33251 で追加した assert_send/assert_not_send を使って TestException#
+test_exit_success_p の assertion を書き換えています。また Kernel#exit の引数に
+true, false を渡した時の結果のチェックを追加しています。

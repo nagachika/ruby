@@ -1,0 +1,3 @@
+昨日の public_send などで不要なシンボル生成の抑制の時に追加した test/-ext-/
+symbol/test_inadvertent_creation.rb というテストに test_module.rb と
+test_symbol.rb からテストケースを移動しています。

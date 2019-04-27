@@ -1,0 +1,4 @@
+r64879 の続き。r64855 で rubyspec の Encoding::Converter.search_convpath のテス
+トで引数に Encoding を渡すとなぜか SEGV していたのが r64879 で修正されたような
+ので、再度 Encoding を渡すように戻しています。 [ruby-core:89172]
+[ruby-core:89200] [Ruby trunk Bug#15162]

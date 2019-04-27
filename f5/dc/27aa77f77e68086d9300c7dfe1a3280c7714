@@ -1,0 +1,13 @@
+Signal.trap のトラップハンドラ内で Thread#join で待つのを禁止していましたが、そ
+の制限をやめて結局 Thread#join を呼べるようにしています。sleep_forever(),
+sleep_timeval(), sleep_wait_for_interrupt() などに引数 spurious_check を追加し
+て、sleep から割り込み等で起きた時に対象の Thread のステータスをチェックして終
+了するまでループするようにしているのをやめる(spurious_check == 0)こともできるよ
+うにして、Thread#join から呼ばれる時は spurious wakeup でも抜けるようにしていま
+す。 Thread#join の実装の thread_join_sleep() では sleep_
+{forever,wait_for_interrupt} を呼んでいる外側で対象の Thread のステータスをチェ
+ックしてループしているので不要です。 sleep_forever() のところで止まってしまうと
+トラップハンドラ実行中に対象のスレッドが終了した時に終了を検出できずに眠ったま
+まになってしまう可能性がありました。
+またついでに Thread#join でその Thread を待っている Thread を管理するリストの実
+装をリファクタリングしています。

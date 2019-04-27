@@ -1,0 +1,3 @@
+test/unit の子プロセスを起動する assertion のエラー時の子プロセスのステータスを
+表示する FailDesc (Proc オブジェクト)で message 引数に Proc オブジェクトが渡さ
+れた時に call して結果を使うようにする対応を追加しています。

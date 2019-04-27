@@ -1,0 +1,3 @@
+標準添付ライブラリ uri のエンコーディング名の Ruby 上での名前とのマッピング用の
+定数 URI::WEB_ENCODINGS_ に koi8-ru と ms932 というエンコーディングを追加してい
+ます。 https://github.com/ruby/ruby/pull/1430

@@ -1,0 +1,3 @@
+include/ruby/backward/rubysig.h に宣言されている古い
+rb_thread_blocking_region_end() などの関数の可視性を公開に設定していなかったの
+を修正しています。 [ruby-dev:45772] [Bug #6607]

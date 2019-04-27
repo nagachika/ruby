@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle に添付されている cparser.rb の Fiddle::CParser という C
+の宣言を解析するライブラリで関数ポインタや仮引数名つきの宣言への対応をしている
+そうです。 https://github.com/ruby/ruby/pull/590

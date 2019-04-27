@@ -1,0 +1,2 @@
+heap_get_freeobj_from_next_freepage() で使っていた UNLIKELY() を削っています。
+多分削ったほうが速かったということかと。

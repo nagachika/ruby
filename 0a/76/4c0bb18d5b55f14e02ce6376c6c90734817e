@@ -1,0 +1,2 @@
+NEWS ファイルに Hash#transform_values と #transform_values! について追記してい
+ます。 [Feature #12512]

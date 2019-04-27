@@ -1,0 +1,3 @@
+getpwnam_r() と getgrnam_r() の errno としてリトライすべきものを判定するために
+マクロ GETPWNAM_R_RETRY_P() に切り出して __APPLE__ が定義されていたら 0 の時も
+リトライ可と判定するようにしています。

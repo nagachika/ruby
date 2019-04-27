@@ -1,0 +1,2 @@
+vm_method.c の release_method_definition() で method entry 構造体の解放処理を
+rb_free_method_entry() を呼び出すようにリファクタリングしています。

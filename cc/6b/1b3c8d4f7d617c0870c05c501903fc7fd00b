@@ -1,0 +1,2 @@
+psych が n オプション(encoding option)のついた正規表現の復元に失敗する不具合を
+修正。[Bug #4342] [ruby-core:34969]

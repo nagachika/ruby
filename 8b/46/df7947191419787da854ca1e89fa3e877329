@@ -1,0 +1,5 @@
+configure の --with-winnt-version のデフォルト値を 0x501 から 0x600 に更新して
+います。あれ、でも Windows だと configure.ac は使われないんじゃないのかな。
+win32/Makefile.sub に config.h を生成するルールがあるし。なんでここにこんなオプ
+ションがあるんだろう。
+[追記]mingw 用だったようです。なるほど。[/追記]

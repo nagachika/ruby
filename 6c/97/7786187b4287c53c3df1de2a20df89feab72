@@ -1,0 +1,4 @@
+拡張ライブラリ readline の extconf.rb で RL_PROMPT_START_IGNORE/
+RL_PROMPT_END_IGNORE というマクロの定義をチェックして、これらが定義されている時
+だけ USE_INSER_IGNORE_ESCAPE を有効にするようにしています。[ruby-core:34331]
+[Bug #4261]

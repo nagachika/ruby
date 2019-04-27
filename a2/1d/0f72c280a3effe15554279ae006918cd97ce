@@ -1,0 +1,2 @@
+Enumerable#lazy の返す Enumerable::Lazy に flat_map も遅延評価版のメソッドとし
+て追加しています。

@@ -1,0 +1,2 @@
+Integer#fdiv と Integer#size の rdoc 用コメントで receiver の名称が fix のまま
+だったところを integer などに修正しています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ net/imap で CHANGEDSINCE と MODSEQ というコマンドに対応でき
+るようにする機能追加。 [ruby-core:64272] [Feature #10119]

@@ -1,0 +1,1 @@
+test/ruby/test_syntax.rb に not() という式を parse するテストを追加しています。

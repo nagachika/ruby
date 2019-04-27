@@ -1,0 +1,4 @@
+thread.c の thread_join_sleep() で sleep_forever() を呼んでたところをインライン
+に展開しています。ほとんど同じだけど native_sleep() 前に
+RUBY_VM_CHECK_INTS_BLOCKING() を呼ばないようにしているみたいです。デッドロック
+の修正とのこと。 [ruby-core:84248] [Bug #14181]

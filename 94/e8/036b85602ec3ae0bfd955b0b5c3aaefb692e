@@ -1,0 +1,2 @@
+r56973 の Net::FTP のテストの IPv6 対応で Addrinfo.getaddrinfo が失敗した時には
+アドレスを "127.0.0.1" に fallback するようにしています。

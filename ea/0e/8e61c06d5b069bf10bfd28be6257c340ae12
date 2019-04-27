@@ -1,0 +1,4 @@
+MatchData#[] の Symbol/String での名前つきのグループ化の参照の
+name_to_backref_number() からエラー処理部分を name_to_backref_error() に切り出
+し、例外メッセージに文字列を %s で埋め込んでいたのを PRIsVALUE を使ってオブジェ
+クトのまま埋め込むようにしています。

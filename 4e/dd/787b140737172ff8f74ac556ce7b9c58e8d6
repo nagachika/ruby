@@ -1,0 +1,4 @@
+標準添付ライブラリの net/http/generic_request.rb や net/ftp.rb の不要な代入や不
+要な return 文の削除。 https://github.com/ruby/ruby/issues/262
+20周年パーティの日の開発者会議でコミッタとして迎えられた hsbt さんの初コミット
+です。 Welcome to ruby-core team!

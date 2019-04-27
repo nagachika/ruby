@@ -1,0 +1,2 @@
+MJIT 関係のソースで定数マクロ TRUE/FALSE をそれぞれ true/false に変更して、bool
+型を利用するようにしています。

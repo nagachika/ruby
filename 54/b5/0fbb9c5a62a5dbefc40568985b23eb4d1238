@@ -1,0 +1,4 @@
+r31451 では native_cond_initialize() の flags で RB_CONDATTR_CLOCK_MONOTONIC を
+指定されれば CLOCK_MONOTONIC を利用するようにしただけだったので、タイマースレッ
+ド用の timer_thread_cond を CLOCK_MONOTONIC を指定して初期化するようにしていま
+す。

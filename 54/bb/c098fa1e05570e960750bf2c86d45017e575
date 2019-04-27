@@ -1,0 +1,4 @@
+Matrix.zero(全ての要素が 0 の Matrix を作る)に省略可能な第2引数を追加して、正方
+行列以外も作れるようにしています。また Vector#r (Vector の norm を計算するメソ
+ッド)を Matrix#magnitude として定義して Matrix#r は magnitude の alias にしてい
+ます。

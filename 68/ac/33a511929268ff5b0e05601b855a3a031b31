@@ -1,0 +1,8 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLServer#accept で例外発生時に OpenSSL
+::SSL::SSLSocket で wrap 済みだったらそちらから閉じるようにしています。これは元
+々 socket は閉じていたので、OpenSSL::SSL::SSLSocket の後始末がされるようにして
+いるのかなぁと思います。 OpenSSL::SSL::SSLSocket#close は定義されていないなぁと
+思ったら、OpenSSL::Buffering#close で定義されていて、そこから OpenSSL::SSL
+::SSLSocket#sysclose が呼ばれていて、ここで ossl_ssl_shutdown() の呼び出しや
+SSL 型のメモリ領域の解放などが行われています。
+また openssl のテストの socket の閉じ忘れの修正などが含まれています。

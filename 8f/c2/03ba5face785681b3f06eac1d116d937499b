@@ -1,0 +1,6 @@
+cont.c で Fiber が getcontext(3) に依存した実装の場合に getcontext(3) がエラー
+を返した時のエラー処理が実装されていなかったので、例外を発生させるようにしてい
+ます。ちなみにコメントによると getcontext(3) が失敗する理由としては SELinux の
+設定で禁止されている場合と、libseccomp という一部の system call を禁止するライ
+ブラリの影響下で実行されている場合などがあるそうです。なるほどー。 https://
+github.com/ruby/ruby/pull/1903

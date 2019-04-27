@@ -1,0 +1,3 @@
+dbm の extconf.rb で libdbm はチェックしないようにしています。コミットログによ
+ると Version 7 Unix における libdbm は1プロセス毎に 1 database の制限のあるライ
+ブラリだそうです。

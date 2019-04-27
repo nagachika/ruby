@@ -1,0 +1,4 @@
+obj_memsize_of() で T_RATIONAL と T_COMPLEX の時に T_IMEMO の処理に fallthrough
+しちゃってたので break 文を追加しています。2年くらい前に T_IMEMO 型の時に処理が
+追加された時からこうだったみたいですね。 imemo_type_p() で偽になるから実害なか
+ったのかな。

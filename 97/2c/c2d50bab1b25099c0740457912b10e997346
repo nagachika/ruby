@@ -1,0 +1,1 @@
+configure.ac の x64-mingw32 の coroutine 対応の typo 修正。

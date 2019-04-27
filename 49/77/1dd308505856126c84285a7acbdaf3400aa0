@@ -1,0 +1,2 @@
+pack.c の未使用になっていたマクロ群 swaps(), swapi(), swapl(), swapll() の定義
+を削除しています。

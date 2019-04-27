@@ -1,0 +1,6 @@
+r48373 からの prelude.c の生成の変更で Windows 版(つまり nmake 向け)の prelude
+.c のパスの指定は Makefile.in と win32/Makefile.sub でそれぞれ PRELUDE_C 変数に
+適切に設定するようにすることで差異を吸収するように再修正しています。 r35135 と
+同様ということで過去の記事を検索したところ、namke で VPATH がソースディレクトリ
+のファイルを検索してくれないので newline.c や miniprelude.c も同様にしていたよ
+うです。

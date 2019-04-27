@@ -1,0 +1,5 @@
+tool/mkconfig.rb で生成する rbconfig.rb に frozen-string-literal: false の
+magic comment をつけるようにしています。rbconfig.rb で文字列に破壊的操作をして
+いるところがあって…、ということみたいですね。チケットは
+--enable-frozen-string-literal をつけた時ってことでしょうか。 [ruby-core:72006]
+[Bug #11798]

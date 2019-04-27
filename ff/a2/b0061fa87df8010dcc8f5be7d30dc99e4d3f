@@ -1,0 +1,3 @@
+Float#numerator と Float#denominator というメソッドの実装で float_to_r() で
+Rational 化して nurat_numerator() や nurat_denominator() を呼び出すように実装し
+なおしています。

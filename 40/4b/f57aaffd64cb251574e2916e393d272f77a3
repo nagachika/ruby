@@ -1,0 +1,5 @@
+テスト用のライブラリの assert_raise_with_message や assert_warning で expected
+の encoding を default_internal にセットして呼ぶようにして、
+EnvUtil.with_default_external や EnvUtil.with_default_internal つきで呼んでいた
+ところは不要になったので削っています。これらは子プロセスを起動するわけじゃない
+ので default_external セットしていたところは元々間違ってたんでしょうね。

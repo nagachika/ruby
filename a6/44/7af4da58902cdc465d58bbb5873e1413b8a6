@@ -1,0 +1,3 @@
+r56047 の再修正。 ext/extmk.rb で $extout が指定されている場合に make install
+のインストール先を $(RUBYARCHDIR) を参照するようにしています。
+[ruby-core:77058] [Bug #12681]

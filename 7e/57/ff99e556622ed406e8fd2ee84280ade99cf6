@@ -1,0 +1,3 @@
+test/ruby/test_jit.rb で MJIT が有効かどうかの判定をコンパイラ(RbConfig::CONFIG
+["CC"] に格納してあるパス)の --version の出力をみてましたが、実際に
+eval_with_jit を1つやってみて、その結果で判定するようにしています。

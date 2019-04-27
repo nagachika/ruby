@@ -1,0 +1,2 @@
+r49101 の標準添付ライブラリ webrick の WEBrick::Utils#create_listeners の省略可
+能引数削除について NEWS ファイルに追記しています。

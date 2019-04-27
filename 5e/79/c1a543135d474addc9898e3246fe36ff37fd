@@ -1,0 +1,4 @@
+marshal_dump, marshal_load が定義されていた時の Marshal.load で、marshal_load
+に渡されるオブジェクトのインスタンス変数を load 結果にコピーしていた処理で、既
+に marshal_load でセット済みのインスタンス変数にはコピーしないようにしています
+。 [ruby-core:54334] [Bug #8276]

@@ -1,0 +1,4 @@
+UnboundMethod をインスタンスに bind して作った Method オブジェクトの
+super_method が SEGV することがある不具合を修正しています。 r60127 で
+UnboundMethod の super_method を修正した時に入ったバグみたいです。
+[ruby-core:85231] [Bug #14421]

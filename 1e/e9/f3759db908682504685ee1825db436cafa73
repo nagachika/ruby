@@ -1,0 +1,3 @@
+test/ripper/test_files.rb で大量の *.rb ファイルを parse するテストを
+assert_separately で別のプロセスとして実行することで test-all の時間を短縮しよ
+うとしているようです。

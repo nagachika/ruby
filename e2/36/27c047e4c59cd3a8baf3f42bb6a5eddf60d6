@@ -1,0 +1,2 @@
+Marshal.dump および Marshal.load の rdoc 用コメントの英文法を修正しています。
+https://github.com/ruby/ruby/pull/470

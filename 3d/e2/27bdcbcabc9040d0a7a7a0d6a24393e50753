@@ -1,0 +1,4 @@
+関数 vm_getivar() の定義に static inline と修飾子がついていたのを inline のみに
+しています。うまく inline 化されてない箇所があったそうです。コメントによると
+inline の意味は C99 で変わっているとのこと。 https://gcc.gnu.org/onlinedocs/gcc
+/Inline.html

@@ -1,0 +1,3 @@
+r53066 の続きで frozen-string-literal: true にした場合に shellescape が空文字列
+を受け取って '' を返す時に、文字列リテラルを使っているので dup して返すようにし
+ています。

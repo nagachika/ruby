@@ -1,0 +1,2 @@
+拡張ライブラリ socket の Socket#getsockopt の MULTICAST_TTL のテストメソッドを
+追加しています。

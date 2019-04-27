@@ -1,0 +1,2 @@
+拡張ライブラリ pathname のテストでも umask の設定に依存している assertion を
+File.umask を考慮するように修正しています。

@@ -1,0 +1,2 @@
+io.c に rb_cloexec_open() という公開 API を追加しています。これはファイルディス
+クリプタを open して FD_CLOEXEC をセットする関数です。

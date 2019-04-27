@@ -1,0 +1,3 @@
+rb_iseq_t::defined_method_id メンバも削除しています。これも rb_control_frame_t
+から対応するメソッドを取得するのに rb_callable_method_entry_t からかわりに必要
+な情報が取れるようになったので ISeq から取得する必要がなくなったそうです。

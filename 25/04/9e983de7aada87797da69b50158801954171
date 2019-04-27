@@ -1,0 +1,3 @@
+GC#garbage_collect の rdoc 用コメントで module_function として記述されていたの
+で修正し、また ObjectSpace.garbage_collect という呼び方についても追記しています
+。 [ruby-core:77327] [Bug #12777]

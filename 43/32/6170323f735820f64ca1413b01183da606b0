@@ -1,0 +1,2 @@
+misc/ruby-additional.el に C-c C-u で選択範囲の非 ASCII 文字を \u{} の Unicode
+記法に変換する機能を追加しています。

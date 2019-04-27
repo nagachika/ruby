@@ -1,0 +1,5 @@
+mkmf.rb で try_cflags にオプションを渡せるようにして、拡張ライブラリ date の
+extconf.rb で -std=iso9899:1999 を渡すところで :wrror を指定して警告をエラーに
+するようにしています。また win32/Makefile.sub でも WERRORFLAG に -weD9002 とい
+うオプションを追加して未定義のオプションを検出したらエラーにするようにしていま
+す。

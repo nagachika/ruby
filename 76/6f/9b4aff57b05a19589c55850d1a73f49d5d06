@@ -1,0 +1,2 @@
+r66459 の続きで rexml のテストで require_relative "rexml_test_utils" を追加して
+います。

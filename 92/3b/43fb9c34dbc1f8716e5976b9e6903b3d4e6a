@@ -1,0 +1,2 @@
+internal.h から rb_vm_bugreport() のプロトタイプ宣言を削除しています。
+vm_core.h にも存在しているため重複していたとのこと。

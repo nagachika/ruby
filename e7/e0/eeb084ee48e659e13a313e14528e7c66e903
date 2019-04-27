@@ -1,0 +1,2 @@
+mkmf のテスト test/mkmf/test_find_executable.rb で共通の前処理をメソッドに括り
+出すリファクタリング。

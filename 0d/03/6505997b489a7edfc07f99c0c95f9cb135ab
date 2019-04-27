@@ -1,0 +1,2 @@
+r59132 で追加した String#delete_prefix と同様のテストを String#chomp, #chomp!
+の引数渡すケースにも追加しています。

@@ -1,0 +1,3 @@
+標準添付ライブラリ erb で #frozen-string-literal: true の magic comment を付け
+るようにしています。破壊的変更が必要な文字列リテラルには String#+@ を使って dup
+しておくようにしています。

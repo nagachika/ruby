@@ -1,0 +1,2 @@
+matz の 1年ぶりのコミットです。RUBY_VERSION および RUBY_API_VERSION_MINOR を更
+新して 2.6.0 の開発を開始しています。もう時代は 2.6.0 です。

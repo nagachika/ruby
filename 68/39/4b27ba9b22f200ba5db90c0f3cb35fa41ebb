@@ -1,0 +1,6 @@
+拡張ライブラリ coverage に experimental の拡張を導入して、環境変数
+COVERAGE_EXPERIMENTAL_MODE を設定しておくと Coverage.start にキーワード引数で
+coverage 測定の種類が指定できて、Coverage.result が返す結果の構造も変化するよう
+になっています。 :lines, :branches, :methods といった種類を受け付けてて、
+Coverage.result の構造にも反映されるようですが、このコミットの時点ではまだ実際
+に計測されるのは lines だけみたいです。

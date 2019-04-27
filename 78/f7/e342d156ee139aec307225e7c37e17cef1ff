@@ -1,0 +1,2 @@
+r51829 で追加した r51828 のためのテストを default_external に依存しないように
+EntUtil.with_default_external を利用するように修正しています。

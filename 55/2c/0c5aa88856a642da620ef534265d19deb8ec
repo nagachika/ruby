@@ -1,0 +1,4 @@
+bignum.c のリファクタリング。 rb_integer_pack_internal() から bary_pack() を切
+り出してこれを再利用するようにしています。ここでも r41312 と同様に bary_pack()
+の結果と rb_integer_unpack() の結果をチェックする assert() 文が追加されています
+ね。新設した関数なので sanity check を入れているということでしょうか。

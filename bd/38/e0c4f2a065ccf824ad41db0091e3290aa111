@@ -1,0 +1,3 @@
+tool/downloader.rb で unicode 用のデータをダウンロードする時の URL を変更してい
+ます。latest を指していたのを Unicode 7.0.0 とバージョンを指定したパスを参照す
+るようにしています。

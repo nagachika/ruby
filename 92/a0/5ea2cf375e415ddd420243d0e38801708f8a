@@ -1,0 +1,2 @@
+というわけで r33397 のリベンジ。struct RClass の mark 処理時に rb_classext_t へ
+のポインタが NULL だったらスキップするようにしています。

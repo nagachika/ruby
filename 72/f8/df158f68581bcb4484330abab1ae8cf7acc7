@@ -1,0 +1,4 @@
+rb_str_subpos() で文字列長を超えてないかのチェックに beg + len > blen を使って
+いましたがオーバーフローした場合を考慮して len > blen - beg の順に変更していま
+す。 mruby の同様の変更をみて入れたみたいですね。 https://github.com/mruby/
+mruby/commit/7db0786abdd243ba031e24683f

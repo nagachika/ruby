@@ -1,0 +1,2 @@
+IPSocket#peeraddr の rdoc のサンプルコードの実行結果を修正しています。
+[ruby-core:46429] [Bug #6732]

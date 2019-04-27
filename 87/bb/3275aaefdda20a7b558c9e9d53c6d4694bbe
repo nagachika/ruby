@@ -1,0 +1,4 @@
+tool/redmine-backporter.rb の r49346 での IO.console.binmode の追加で r49345 の
+Windows 用に gets に fallback していたのは不要になったので削除しています。また
+プロンプト表示のための行クリアで可能ならエスケープシーケンス "\e[2K" を利用する
+ようにしています。

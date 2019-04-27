@@ -1,0 +1,1 @@
+r53082 で漏れていた ext/fiddle/function.c の変数の宣言を追加しています。

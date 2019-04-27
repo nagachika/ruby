@@ -1,0 +1,3 @@
+r44447 の追加修正だと思いますが tool/mkconfig.rb で confit.satus の値から MAJOR
+, MINOR, TEENY のバージョンの値を RbConfig へ渡すようにしているそうです。
+RUBY_SO_NAME で必要だからとのこと。

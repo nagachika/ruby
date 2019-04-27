@@ -1,0 +1,2 @@
+rb_external_str_new_with_enc() で default_internal の Encoding を考慮しようとし
+ているようですが、後で revert されています。

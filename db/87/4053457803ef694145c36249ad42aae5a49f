@@ -1,0 +1,2 @@
+OpenSSL::ASN1::XXX の各データタイプの生成時のパフォーマンス改善です。
+[ruby-core:34813] [Feature #4309]

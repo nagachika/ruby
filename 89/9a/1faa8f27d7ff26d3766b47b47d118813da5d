@@ -1,0 +1,3 @@
+doc/security.rdoc に send も immortal symbol を生成すると書かれていたのを、
+2.2.0 の Known Bug として記述を修正しています。昨日の r49499 以降の一連の変更で
+修正したからですね。

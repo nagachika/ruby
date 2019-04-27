@@ -1,0 +1,2 @@
+r34239 で posix_memalign() のために #define _XOPEN_SOURCE 600 してたのはやっぱ
+り不要だったらしいです。

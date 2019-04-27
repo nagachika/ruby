@@ -1,0 +1,5 @@
+r67088 で File.birthtime などの実装に Linux で statx(2) を利用するようにしまし
+たが、このシステムコールは対象の filesystem が対応しているかどうかによっても失
+敗することがあるので、そのようなケースで Errno::ENOSYS 例外を発生させていたのを
+、NotImplementedError 例外を発生させるように変更しています。 [ruby-core:91607]
+[Misc #15615]

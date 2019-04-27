@@ -1,0 +1,5 @@
+RDoc の rdoc --server でWebサーバとして起動した時に "home" にアクセスできない
+(パスのことなのかなんのことなのかよくわかりません)不具合や ri 用のキャッシュか
+らドキュメントを生成する時に内容が変化してしまう不具合の修正など。
+https://github.com/rdoc/rdoc/issues/170
+https://github.com/rdoc/rdoc/issues/171

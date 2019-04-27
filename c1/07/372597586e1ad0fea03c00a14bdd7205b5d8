@@ -1,0 +1,3 @@
+標準添付ライブラリ xmlprc の rdoc コメントに書かれていた xmlrpc4r というプロジ
+ェクトのリンク先が Not Found になっていたので新しい URL に更新しています。
+http://www.ntecs.de/ruby/xmlrpc4r/ [ruby-core:58552] [Bug #9148]

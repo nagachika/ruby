@@ -1,0 +1,7 @@
+拡張ライブラリ socket の Socket#connect で connect でのブロックを避けるため
+rb_wait_for_single_fd() で select/poll で fd が接続可能になっていることを確認し
+ているところで、WinSock 向けの workaround として? ループを回していたのを、
+rb_wait_for_single_fd() 内部でリトライしているとのことでループを外してシンプル
+にしています。コミットログをよむともはや non blocking socket を使って block す
+る挙動を実装するようにしていないので不要な処理をやめた、みたいに書かれています
+。 [Bug #9356]

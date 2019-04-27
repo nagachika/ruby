@@ -1,0 +1,2 @@
+.document, doc/.document から ChangeLog および doc/ChangeLog.* をドキュメント化
+の対象から外すようにしています。 [ruby-core:81878] [Misc #13704]

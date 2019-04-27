@@ -1,0 +1,4 @@
+UNINITIALIZED_VAR() や WARN_UNUSED_RESULT() といったマクロを internal.h で
+has_attribute() と GCC のバージョンでチェックして定義していたのを configure で
+実際に使えるかどうか確認して定義するように移行しています。また
+UNINITIALIZED_VAR() は MAYBE_UNUSED() に改名しています。

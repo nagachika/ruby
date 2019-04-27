@@ -1,0 +1,5 @@
+拡張ライブラリ io/console の IO#raw で ECHOE, ECHOK というフラグも落とすように
+しています。それぞれ「erase 文字をバックスペース+空白+バックスペースとしてエコ
+ーする」「kill 文字の後に newline 文字をエコーする」というフラグです。また IO#
+echo? では ECHOE、ECHOK のフラグは無視するようにしています。 [ruby-dev:45309]
+[Bug #6116] その他 io/console の rdoc の修正、加筆されています。

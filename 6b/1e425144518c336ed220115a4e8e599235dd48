@@ -1,0 +1,3 @@
+r65505 の標準添付ライブラリの require_relative を使うようにする変更のうち lib/
+cgi/util.rb から cgi/escape を require するところは require に戻しています。
+cgi/escape は拡張ライブラリなので同一のディレクトリに配置されていないため。

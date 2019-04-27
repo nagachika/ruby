@@ -1,0 +1,2 @@
+parse.y でも xfree() のかわりに ruby_sized_xfree() を、REALLOC_N() のかわりに
+SIZED_REALLOC_N() を使うようにしています。

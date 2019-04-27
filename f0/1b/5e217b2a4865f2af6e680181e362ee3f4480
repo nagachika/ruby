@@ -1,0 +1,3 @@
+標準添付ライブラリ resolv の Resolv::DNS::Message::MessageDecoder#get_labels で
+return する前に @index を復帰させて複数回呼び出し可能なようにしている、のではな
+いかと思います。

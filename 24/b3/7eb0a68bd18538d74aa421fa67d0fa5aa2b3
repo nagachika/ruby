@@ -1,0 +1,7 @@
+require や load で読み込んだスクリプトを parse する時に main script として扱わ
+ないようにしています。同時に追加されてるテストですがこの変更がなくてもこれは通
+る("'" だけのスクリプトを load すると unterminated string meets end of file と
+いう SyntaxError が発生する)のですが in_main ってどう効くんだろう。 struct
+parser_params::error_buffer が Qnil になるので、yycompile0() で SyntaxError が
+errinfo にセットされなくなる? rb_syntax_error_append() での分岐が変わって、例外
+メッセージの作りかたが違うのか。

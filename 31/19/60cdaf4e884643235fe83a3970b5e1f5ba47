@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で定義される WIN32OLE#method_missing に引数の数のチェッ
+クを追加しています。

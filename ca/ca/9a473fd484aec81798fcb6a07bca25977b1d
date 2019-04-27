@@ -1,0 +1,6 @@
+benchmark/driver.rb で loop_whileloop1 と loop_whileloop2 というベンチマークの
+結果を @loop_wl{1,2} という変数にセットしておくようにしています。
+BenchmarkDriver#run でこれらのインスタンス変数はセットされてましたが、
+BenchmarkDriver.load で JSON や YAML ファイルからロードした時にも設定するように
+しています。wihle ループの時間を除外することで、ベンチマーク対象の処理の時間を
+比較できるようにしているんですね。

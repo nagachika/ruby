@@ -1,0 +1,3 @@
+そして make の after-update ターゲットのルールを Makefile.in と common.mk に分
+割しています。 update-unicode と update-gems は configure を使わないプラットフ
+ォームでも必要でした。

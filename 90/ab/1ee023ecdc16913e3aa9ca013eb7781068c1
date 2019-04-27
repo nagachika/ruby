@@ -1,0 +1,2 @@
+r58550 に続いて String#unicode_normalize! も lib/unicode_normalize.rb などでは
+なく string.c で定義しておくようにしています。

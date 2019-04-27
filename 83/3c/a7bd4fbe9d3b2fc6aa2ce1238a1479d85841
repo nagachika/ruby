@@ -1,0 +1,6 @@
+rubyspec の Socket.getifaddrs のテストで 1つ1つ assert してたのを Array#all? で
+チェックした結果で assert するように変更しています。ふーんリファクタリングかな
+、と思いきやコメントには "allow no address" とあるのですが、each の場合も空でも
+テストはパスするよな〜。しかし https://travis-ci.org/ruby/ruby/jobs/445126982#
+L2234-L2244 をみると、1つも expect がないとそれはそれでエラーになるのでそのため
+みたいでした。なるほど。

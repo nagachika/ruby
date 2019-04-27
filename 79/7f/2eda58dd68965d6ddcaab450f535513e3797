@@ -1,0 +1,4 @@
+OS X 向けに file.c に NORMALIZE_UTF8PATH というマクロを導入してこれが 1 の時は
+ファイルパスを得る時に UTF-8 エンコーディングの正規化を行うようにしています。
+Dir.pwd で正規化されないパスがあったみたいです。 https://github.com/rails/rails
+/issues/25303#issuecomment-224834804 [ruby-core:75957] [Bug #12483]

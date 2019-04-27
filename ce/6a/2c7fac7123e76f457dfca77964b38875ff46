@@ -1,0 +1,2 @@
+r38382 で削除した rb_thread_polling() は復活させて、ただし deprecated として宣
+言するようにしています。

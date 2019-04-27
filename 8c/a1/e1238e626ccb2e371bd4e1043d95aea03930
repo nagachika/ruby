@@ -1,0 +1,2 @@
+random.c の int_pair_to_real_inclusive() で Bignum からバイト列を生成するのに
+rb_integer_pack() を利用するようにしています。

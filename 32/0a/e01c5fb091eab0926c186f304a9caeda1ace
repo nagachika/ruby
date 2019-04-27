@@ -1,0 +1,7 @@
+Object#clone に keyword 引数 freeze を追加して、これに false を指定すると元のオ
+ブジェクトが freeze されていても freeze されていないコピーを返すようにしていま
+す(省略時は true なので、元の挙動と同じくコピー元が freeze されていたら freeze
+されたコピーを返す)。オブジェクトは freeze すると「解凍」することができませんが
+、clone(freeze: false) を呼ぶことでコピーではありますが(clone なので singleton
+class もコピーされるというのがミソらしい)解凍したものを作れるようにするのが目的
+のようです。 [ruby-core:75017] [Feature #12300]

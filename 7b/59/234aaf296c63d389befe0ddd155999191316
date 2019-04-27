@@ -1,0 +1,3 @@
+r55646 の Math.sqrt の Complex 対応で signbit(3) を VALUE の値に直接呼び出して
+しまっていたのを f_signbit() という関数を導入してこちらを利用するようにしていま
+す。

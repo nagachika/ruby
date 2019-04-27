@@ -1,0 +1,5 @@
+Refinements で Strgin#to_regexp を上書きすると using でその Module を利用してい
+なくても Regexp.try_convert で文字列を正規表現に暗黙の変換をする時に undefined
+method `try_convert' の例外が発生する不具合を修正しています。 rb_call() を利用
+すると呼ばれる rb_method_call_status() で method entry のチェックをする時に
+Refinements を考慮するようにしています。 [ruby-core:69064] [Bug #11117]

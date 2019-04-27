@@ -1,0 +1,6 @@
+Time#zone のエンコーディングについて r46907 で ASCII-8BIT にして、r49693 で US-
+ASCII にしたのを再修正して、7bit ASCII 文字のみ含む場合は US-ASCII にして、そう
+でない時は locale encoding にするようにしています。文字列の内容を判定するまでは
+バイト列として扱うようにしています。最初から rb_usascii_str_new_cstr() で作って
+しまうと非 ASCII 文字が含まれている時にエラーになってしまうということですかね。
+[ruby-core:68230] [Bug #10887]

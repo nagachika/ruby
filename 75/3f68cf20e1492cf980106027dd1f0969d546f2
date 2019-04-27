@@ -1,0 +1,2 @@
+io.c の rb_maygvl_fd_fix_cloexec() および rb_cloexec_fcntl_dupfd() で fcntl(2)
+に F_DUPFD や F_DUPFD_CLOEXEC が利用できるかどうかの判定を強化しています。

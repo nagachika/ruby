@@ -1,0 +1,2 @@
+Symbol.all_symbols で st_foreach() に渡すコールバック関数 symbols_i() の引数の
+型などをコールバック関数の型にそろえています。

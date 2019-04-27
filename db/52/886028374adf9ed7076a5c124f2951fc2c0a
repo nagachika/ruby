@@ -1,0 +1,3 @@
+r62301 の追加修正。 Gem::USE_BUNDLER_FOR_GEMDEPS という定数を参照してこれが偽の
+時は bundler 用のテストをスキップして BUNDLER_VERS 定数のセット自体を不要にして
+います。

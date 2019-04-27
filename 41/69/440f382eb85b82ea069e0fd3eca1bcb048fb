@@ -1,0 +1,4 @@
+Module/Class を freeze してから clone したものに to_s を呼ぶと例外が発生するの
+を防ぐため Module#initialize_clone を再定義して、元の Class/Module が freeze さ
+れていたら class_name を上書きするようにしています。 [ruby-core:41858] [Bug #
+5828]

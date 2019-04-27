@@ -1,0 +1,3 @@
+template/ruby-runner.c.in で '@PATH_SEPARATOR@' (C の文字)や "@RUBY_BASE_NAME@"
+(C の文字列) をマクロとして定義してそれを展開する C のソースとして出力するよう
+にしています。設定による可変な部分をまとめるためかな?

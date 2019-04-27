@@ -1,0 +1,3 @@
+call_without_gvl() で GET_THREAD() のかわりに GET_EC() を使うようにしています。
+けどまあ結局 rb_ec_thread_ptr() で th を取得しているので、あまり変わりはないで
+すね。

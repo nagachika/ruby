@@ -1,0 +1,3 @@
+RubyVM::AbstractSyntaxTree::Node#children などで式展開つきの文字列リテラルの
+Node を配列に詰める時にリテラル部分の要素を詰め忘れていたのを修正しています。
+[Bug #15532]

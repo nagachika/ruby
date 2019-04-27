@@ -1,0 +1,3 @@
+lib/net/http.rb での require を require_relative に変更しています。LOAD_PATH の
+探索のぶんシステムコールの呼び出しを減らすのが目的らしいです。
+[ruby-core:78285] [Feature #12973]

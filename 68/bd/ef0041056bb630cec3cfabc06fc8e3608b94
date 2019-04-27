@@ -1,0 +1,2 @@
+r66351 で追加して r66353 で引数変更した C API rb_arithmetic_sequence_extract()
+のテスト用拡張ライブラリを追加しています。

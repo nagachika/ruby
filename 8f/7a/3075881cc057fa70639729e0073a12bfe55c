@@ -1,0 +1,3 @@
+rb_int_export() から rb_int_import() から引数の word order やエンディアンによっ
+て並べなおす処理を integer_format_loop_setup() という関数に括り出すリファクタリ
+ング。

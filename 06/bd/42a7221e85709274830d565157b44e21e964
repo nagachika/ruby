@@ -1,0 +1,2 @@
+r66043 と同様に regparse.c の node_extended_grapheme_cluster() から
+create_sequence_node() を使うようにするリファクタリング。

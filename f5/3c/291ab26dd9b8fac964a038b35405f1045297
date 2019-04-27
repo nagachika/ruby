@@ -1,0 +1,2 @@
+String#hash の rdoc 用コメントに文字列の Encoding も hash 値の計算に利用してい
+る旨を追記しています。

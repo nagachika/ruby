@@ -1,0 +1,2 @@
+ext/extmk.rb で文字列の配列を Shellwords.escape して join していたのを
+Shellwords.join に置き換えるリファクタリング。

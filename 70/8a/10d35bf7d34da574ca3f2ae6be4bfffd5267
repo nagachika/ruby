@@ -1,0 +1,6 @@
+標準添付ライブラリの rubygems のバージョンを 2.6.12 に更新しています。更新履歴
+はこちら https://github.com/rubygems/rubygems/blob/
+009080040279282d7b8ddd09acab41719cb4ba00/History.txt#L3
+さらに r58419 での Multi Thread での require の不具合修正はまだ 2.6.12 にはマー
+ジされてないそうなので独自に再度パッチをあてているそうです。また trunk でこける
+テストを削除しているとのこと。

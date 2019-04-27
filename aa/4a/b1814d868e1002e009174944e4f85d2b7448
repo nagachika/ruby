@@ -1,0 +1,3 @@
+後置 unless のパース時に if の時と同様に nil, true, false などのリテラルや文字
+列リテラルなどが直接書かれていた時に、最適化して実行される文の AST のみ生成する
+ようにする最適化を有効にしています。 https://github.com/ruby/ruby/pull/1092

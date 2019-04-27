@@ -1,0 +1,4 @@
+struct iseq_catch_table_entry のメンバ start, end, cont, sp の型を unsigned
+long から unsigned int に変更することで 64bit 環境での構造体サイズを節約してい
+ます。このメンバ群は label_get_position() と label_get_sp() が int を返している
+ことから long である必要がないとのこと。

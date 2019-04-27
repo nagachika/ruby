@@ -1,0 +1,2 @@
+r60748 の追加修正。 String#crypt の ALLOCV_END() のメモリ解放処理を #ifdef
+HAVE_CRYPT_R で括って crypt_r() がない環境でのビルドエラー修正をしています。

@@ -1,0 +1,5 @@
+win32/configure.bat の svn property svn:eol-style を CRLF に修正しています。
+r47015 と r47017 あたりで改行コードの間違った変更とその revert をしたあたりで
+svn:eol-style がそのまま残ってしまっていたそうです。ファイルの内容を修正しても
+svn:eol-style が間違ってると svn export した時に変換されてしまうそうです。やや
+こしいですね。 [ruby-core:64414] [Bug #10145]

@@ -1,0 +1,2 @@
+internal.h の RBIGNUM_XXX() のマクロを一律 BIGNUM_XXX() に改名しています。
+internal.h なので外部の拡張ライブラリには関係ないですね。

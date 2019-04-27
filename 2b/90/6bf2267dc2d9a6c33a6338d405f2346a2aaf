@@ -1,0 +1,4 @@
+test/ruby/envutil.rb で定義されている警告メッセージを捕捉するためのメソッド
+verbose_warning で対象の処理(ブロック)で例外が発生した時に ensure 節で return
+していたためそれを握り潰してしまっていたので、begin の body の最後で return す
+るようにしています。

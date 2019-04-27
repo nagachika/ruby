@@ -1,0 +1,3 @@
+benchmark/README.md の benchmark_driver --help の出力を貼り付けているところで
+--timeout オプションの表示を消しています。一部のプラットフォームでしか使えない
+ためとのこと。

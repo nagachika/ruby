@@ -1,0 +1,2 @@
+rb_raw_obj_info() で format 文字列の %p に渡す引数を明示的に void * にキャスト
+するようにしています。

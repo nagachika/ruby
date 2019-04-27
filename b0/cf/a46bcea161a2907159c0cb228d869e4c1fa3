@@ -1,0 +1,5 @@
+rb_id2str() で struct RBasic::klass をセットするのを削っています。 Init_String
+() の最後のほうで rb_vm_fstring_table() に登録されている fstring に rb_cString
+を klass としてセットする処理は行なわれているので、それを前のほうに持ってきて
+rb_id2str() が利用されるタイミングより前にセットしておくようにすることで
+rb_id2str() 内での分岐を削って最適化しています。

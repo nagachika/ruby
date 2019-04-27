@@ -1,0 +1,3 @@
+Process.maxgroups で _SC_NGROUP_MAX (sysconf()) が利用できない場合は
+NGROUPS_MAX が定義されていればそちらを利用するようにしています。それもなければ
+32。

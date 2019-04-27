@@ -1,0 +1,2 @@
+拡張ライブラリ pysch の ext/psych/yaml/scanner.c のコメントや例外のメッセージの
+typo を修正。 https://github.com/tenderlove/psych/pull/118

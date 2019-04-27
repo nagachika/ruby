@@ -1,0 +1,4 @@
+Array#sort にブロック渡しされた時に rb_yield_value() で配列オブジェクトを生成し
+て渡していたのを rb_yield_value2() で中間オブジェクトの生成を抑制するようにする
+最適化を行なっています。またこれを測定するためのベンチマークスクリプトも追加し
+ています。 https://github.com/ruby/ruby/pull/1544 [ruby-dev:50027] [Bug #13344]

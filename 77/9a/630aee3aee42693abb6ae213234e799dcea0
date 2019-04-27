@@ -1,0 +1,3 @@
+r44664 の条件追加。 Mac OS X でも IP_MULTICAST_LOOP と IP_MULTICAST_TTL の型を
+int にしています。また Socket#getsockopt の MULTICAST_LOOP のテストを追加してい
+ます。

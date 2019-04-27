@@ -1,0 +1,1 @@
+r50863 での thread.c の rb_thread_inspect() のインデント修正のみ。

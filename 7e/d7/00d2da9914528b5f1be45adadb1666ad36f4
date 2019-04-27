@@ -1,0 +1,5 @@
+r51880 での Windows での ENABLE_VM_OBJSPACE を 1 に定義する変更を revert してい
+ます。今度は起動時の初期化ではなくて、終了時の exit_handler() での socklist と
+conlist の解放がオブジェクト管理の終了後に行われるためにやっぱり問題があったよ
+うです。単に revert したのではなくて #define しているところのコメントもそれにあ
+わせています。

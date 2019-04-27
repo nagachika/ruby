@@ -1,0 +1,3 @@
+rubyspec で子 Thread 内でビジーループとして空の loop{} が使われていましたが
+Thread.pass を呼んで明示的に Thread 切り替えを促すようにして速く親 Thread に切
+り替わるようにしています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ prettyprint から PrettyPrint#first? というメソッドを消してい
+ます。 1.8.2 の頃から obsoleted とされていたとのことで。

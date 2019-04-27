@@ -1,0 +1,4 @@
+"Now URI is normally UTF-8" とのことで標準添付ライブラリ uri の URI
+::RFC2396_Parser#unescape で元の文字列の Encoding が US-ASCII だったら pack し
+た結果は UTF-8 に変換するようにしています。 Rails で行なわれてた monkey patch
+を本体に取り込んだみたいです。 https://github.com/rails/rails/issues/32294

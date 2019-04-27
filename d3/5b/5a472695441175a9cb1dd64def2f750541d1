@@ -1,0 +1,4 @@
+String#unpack の指示子 "M" で ASCII 文字の範囲に収まってなかったら coderange を
+正確にセットするようにしています。 unpack("M") でできた文字列の String#
+ascii_only? の判定結果が間違うことがあったようです。 [ruby-core:83055] [Bug #
+13949]

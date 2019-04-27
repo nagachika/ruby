@@ -1,0 +1,3 @@
+defs/gmake.mk で universal binary の時にアーキテクチャ毎の preprocess のルール
+(*.c から *.i を生成する規則)の定義を作っておくようにしているようです。 cpp に
+-arch=xxx を指定して呼び出すようにしているみたいです。

@@ -1,0 +1,3 @@
+r59938 と同様に拡張ライブラリ date でしか使われていない変数の timezone と
+altzone のチェックを configure.in から削除して、拡張ライブラリ date の
+extconf.rb に移動しています。

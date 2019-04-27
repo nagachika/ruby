@@ -1,0 +1,2 @@
+r51874 の doc/syntax/literals.rdoc の文字列リテラル内のエスケープ文字の説明に \
+c (7Fh, DEL) を追加しています。

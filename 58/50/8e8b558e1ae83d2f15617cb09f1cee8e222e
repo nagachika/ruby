@@ -1,0 +1,5 @@
+RubyVM.resolve_feature_path の実装で search_required() から呼び出す
+rb_feature_p() を関数ポインタとして引数に受け取るようにして、既に require 済み
+で $LOADED_FEATURES に含まれているファイルに対しても解決可能なようにしているよ
+うです。この rb_feature_p() っていう関数は load.c に元々 static 関数として定義
+されているので、他の呼び元ではその関数を渡すようになっています。

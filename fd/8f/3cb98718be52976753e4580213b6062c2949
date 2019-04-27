@@ -1,0 +1,2 @@
+parse.y に rb_id_attrget() という Symbol の ID の setter(xxx= のように = のつく
+もの)から対応する getter (さっきの例だと xxx)を返す API を追加しています。

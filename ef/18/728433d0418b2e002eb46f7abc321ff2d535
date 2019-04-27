@@ -1,0 +1,3 @@
+r41680 で rb_big_and() から切り出した abs2twocomp_bang() を削除して、
+abs2twocomp() に展開しています。また abs2twocomp() は引数を追加して Bignum のバ
+ッファサイズを返せるようにしています。

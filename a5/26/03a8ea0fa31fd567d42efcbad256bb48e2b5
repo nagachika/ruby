@@ -1,0 +1,2 @@
+vm_backtrace.c の rb_ec_backtrace_location_ary() を static 関数に変更して、名前
+も ec_backtrace_location_ary() に改名しています。

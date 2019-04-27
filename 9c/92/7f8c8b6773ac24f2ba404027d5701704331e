@@ -1,0 +1,4 @@
+PREVENT_STACK_OVERFLOW という HAVE_ALTSIGSTACK などに依存していたマクロを常に 1
+にして stack_check() 関数を常に定義してスタックオーバーフローチェックを有効にし
+ています。また invoke_iseq_block_from_c() からも stack_check() の呼び出しを追加
+しています。

@@ -1,0 +1,8 @@
+UNIXSocket#send_io と recv_io で file descriptor passing (UNIX ドメインソケット
+を使うと別のプロセスにファイルディスクリプタを渡すことができます)で sendmsg(2)/
+recvmsg(2) を呼ぶ前に select(2) をしていたのをやめ、sendmsg(2)/recvmsg(2) がエ
+ラーを返した時にリトライするようにしてその時に select(2) するようにしています。
+複数のスレッドが同じソケットに操作する場合は select(2) で確認しても実際に
+sendmsg(2)/recvmsg(2) する前に他のスレッドが読み書きしてしまうかもしれないので
+select(2) しても意味がないためだそうです。[DEL:retry する時に select(2) するの
+は意味があるのでしょうか。:DEL] [ruby-core:35574] [Bug #4535]

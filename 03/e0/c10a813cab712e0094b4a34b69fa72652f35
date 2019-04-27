@@ -1,0 +1,2 @@
+.travis.yml の build matrix で osx はコメントアウトしてかわりに linux で gcc-8
+-m32 による 32bit 版コンパイルする build を追加しています。

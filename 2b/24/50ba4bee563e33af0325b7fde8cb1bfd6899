@@ -1,0 +1,3 @@
+標準添付ライブラリ resolv の Resolv::DNS::Message.decode で不正な RDATA をデコ
+ードした時に Resolv::DNS::DecodeError 例外を投げなおすように修正しています。
+https://github.com/ruby/ruby/pull/1511

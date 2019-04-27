@@ -1,0 +1,5 @@
+test/ruby/test_io.rb の File オブジェクトが GC で回収される時に flush されるこ
+とを確認するテストで GC.start で GC を起動して開いているファイルオブジェクトの
+回収を促してから削除するようにしていますが、保守的 GC のため必ず回収されるとも
+限らないので、ObjectSpace.each_object で File オブジェクトを探して対象のものは
+明示的に close を呼ぶようにしています。

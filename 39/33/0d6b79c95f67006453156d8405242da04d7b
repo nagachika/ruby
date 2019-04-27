@@ -1,0 +1,7 @@
+r54494 および r54495 の Math.lgamma の修正ですが Windows 版向けには missing/
+lgamma_r.c で実装されている lgamma_r(3) が利用されるので OS X 向けにのみ
+ruby_lgamma_r() は定義するようにしています。つまり mswin/mingw ではそもそも
+lgamma_r() がないので missing/lgamma_r.c が使われ、OS X の lgamma_r() はあるん
+だけど結果がおかしいのでここで横取りするってことですね。そして missing/
+lgamma_r.c の lgamma_r() も結果の符合を修正しています。 [ruby-core:74817] [Bug
+#12249]

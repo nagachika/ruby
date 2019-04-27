@@ -1,0 +1,4 @@
+gc_start() や garbage_collect() の引数に full_mark, immediate_mark,
+immediate_sweep などのフラグを渡していたのを gc_profile_record_flag の bit flag
+の中に入れてまとめて渡すようにリファクタリングしています。引数の順番がわけわか
+らんのじゃ、とのこと。 [ruby-core:87311] [Misc #14798]

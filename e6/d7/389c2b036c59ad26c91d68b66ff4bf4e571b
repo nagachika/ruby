@@ -1,0 +1,3 @@
+rubygems のテストで $LOADED_FEATURES を弄って巻き戻していたところで、lib/
+rubygems の配下のファイルは削らないようにしています。 https://github.com/
+rubygems/rubygems/pull/2261

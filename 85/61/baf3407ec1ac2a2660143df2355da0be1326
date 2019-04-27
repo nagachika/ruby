@@ -1,0 +1,4 @@
+object.c の convert_type() でメソッド呼び出しのための ID を組み込みのものを使う
+ように特別扱いされている to_xxx メソッド群に to_r メソッドを追加しています。
+Time#subsec でも内部で呼ばれるのでパフォーマンスが改善されるみたいですね。
+https://github.com/ruby/ruby/pull/1582 [ruby-core:80665] [Bug #13426]

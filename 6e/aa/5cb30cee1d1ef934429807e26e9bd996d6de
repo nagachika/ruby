@@ -1,0 +1,2 @@
+set.rb の内部で利用するためのメソッド do_with_enum, flatten_merge に :nodoc: タ
+グを付けています。[Bug #4665]

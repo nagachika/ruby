@@ -1,0 +1,1 @@
+r66458 の追加修正。 rexml のテストに require "rexml/document" を追加。

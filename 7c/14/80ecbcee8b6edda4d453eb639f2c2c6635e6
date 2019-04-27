@@ -1,0 +1,7 @@
+r48058 で make に ALWAYS_UPDATE_UNICODE=yes と変数を渡すと Unicode 関係のファイ
+ルのダウンロード時に更新をチェックして必要なら再ダウンロードを行うようにしてい
+ましたが、ALWAYS_UPDATE_UNICODE=no が指定された時のことが考慮されていなかったの
+で no が指定されたらオプション指定しないようにしています。 make の $(VAR:aaa=
+bbb) って aaa じゃなかった時はそのまま展開されるんですね。つまり
+ALWAYS_UPDATE_UNICODE には yes か no 以外を渡すとそのままコマンドラインに展開さ
+れてしまう(ので多分エラーになる)んですね。

@@ -1,0 +1,2 @@
+rb_big_cmp() で SIGNED_VALUE にキャストした Fixnum の VALUE の値はそのまま比較
+できるので FIX2LONG() での long への変換を省略する最適化を行っています。

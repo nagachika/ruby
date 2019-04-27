@@ -1,0 +1,3 @@
+r32183 と r32184 の rb_thread_io_blocking_region() の internal.h 行きが revert
+されています。拡張ライブラリ socket で利用しているのでそのままだと socket がビ
+ルドできなくなってしまうからですね。

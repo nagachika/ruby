@@ -1,0 +1,1 @@
+ext/stringio/stringio.c の関数マクロの引数にかっこをつける修正です。

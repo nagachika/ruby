@@ -1,0 +1,2 @@
+r51034 の ccan の list を使った st_table の実装を revert しています。 CI でビル
+ド時に SEGV が発生したそうです。

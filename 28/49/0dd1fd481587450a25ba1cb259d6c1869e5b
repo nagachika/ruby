@@ -1,0 +1,5 @@
+Kernel#system などに渡す文字列の Encoding を保持したまま渡すようにしています。
+けどこのテスト Windows 以外でも動くのかな。shebang のないファイルに shell
+script 書いて chmod で実行権限を与えただけのようにみえるけど。
+[追記] ENOEXEC が発生した場合 shell 経由の実行でリトライする機能があるそうです
+。知らなかった。[/追記]

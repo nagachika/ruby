@@ -1,0 +1,2 @@
+make mjit-headers という phony ターゲットを追加しています。ツールで minimize 化
+したヘッダ生成用のターゲット。

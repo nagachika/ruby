@@ -1,0 +1,2 @@
+backtrace_each() も引数の rb_thread_t を rb_execution_context_t に変更していま
+す。

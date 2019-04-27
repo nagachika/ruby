@@ -1,0 +1,3 @@
+標準添付ライブラリ logger で Logger::LogDevice#open_logfile, #create_logfile で
+ファイルを開く時に Kernel#open を使っていたのを File.open を使って意図しないコ
+マンド起動を避けるようにしています。 [ruby-dev:50380] [Bug #14212]

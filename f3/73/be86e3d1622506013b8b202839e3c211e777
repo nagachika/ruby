@@ -1,0 +1,4 @@
+IO#read_nonblock の rdoc 用コメントに exception 引数について追記しています。 IO
+#write_nonblock と合わせているそうですけど call-seq は options となっていますけ
+ど、キーワード引数だから任意のオプションを受け付けなくなっているんじゃないかな
+。 [ruby-core:71627] [Bug #11730]

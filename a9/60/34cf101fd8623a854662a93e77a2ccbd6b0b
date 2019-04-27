@@ -1,0 +1,2 @@
+ext/-test-/file/fs.c で OpenBSD で sys/mount.h より先に sys/param.h を #include
+しないといけなかったので追加しています。

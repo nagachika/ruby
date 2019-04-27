@@ -1,0 +1,2 @@
+Complex と Time の marshal_dump/marshal_load を private メソッドに変更していま
+す。 [ruby-core:45395] [Feature #6539]

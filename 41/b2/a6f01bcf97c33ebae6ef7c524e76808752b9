@@ -1,0 +1,3 @@
+拡張ライブラリ socket で have_header でチェックして存在していたヘッダを保持して
+おいて、その後の have_func, have_type, have_struct_member などで渡すことで利用
+できるヘッダを全て include してチェックするようにしています。

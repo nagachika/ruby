@@ -1,0 +1,3 @@
+Dir.glob と File.fnmatch の rdoc 用コメントのマークアップや記法の修正と、
+File::Constants::FNM_XXX の定数について rdoc 用コメントを追加しています。 RDoc
+が修正されないとこのコメントはドキュメントに反映されないらしいですけど。

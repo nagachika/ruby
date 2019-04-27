@@ -1,0 +1,6 @@
+r49474 で VM 終了時の処理が r49541 および r49545 で revert されていたのをリベン
+ジしています。 rb_objspace_call_finalizer() で objspace->flags.dont_incremental
+および dont_gc を順次セットして finalizer 実行中の GC を抑制するようにしていま
+す。 Ruby レベルで定義した finalizer と T_DATA や T_FILE の finalizer で危険性
+が異なるので段階的にインクリメンタルGCの禁止→ GC 禁止としているそうです。
+[ruby-core:67734] [Bug #10768]

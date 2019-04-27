@@ -1,0 +1,2 @@
+rubyspec の TCPSocket#accept_nonblock のテストで IO.select での待ちを入れること
+で Solaris での実行除外をやめています。

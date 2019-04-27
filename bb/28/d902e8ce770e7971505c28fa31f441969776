@@ -1,0 +1,3 @@
+testunit の並列実行のための Test::Unit::Runner#_run_parallel で Array#find の結
+果をそのまま dup しているところがあり、nil が返ってきた時に例外になるので返り値
+のチェックをしているところの後で dup するようにしています。

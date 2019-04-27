@@ -1,0 +1,3 @@
+GC.stress のビットフラグに 0x04 を追加して malloc/calloc/realloc 後に full mark
+するという設定を増やしています。ただなんというかこのフラグの意図がよくわからな
+かったです… [ruby-core:62103] [Feature #9761]

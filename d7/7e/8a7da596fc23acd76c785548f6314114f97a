@@ -1,0 +1,4 @@
+rb_uint2big(), rb_int2big() および rb_uint2inum(), rb_int2inum() の引数を VALUE
+, SIGNED_VALUE にしていたのを uintptr_t と intptr_t に変更しています。VALUE と
+ポインタ型のサイズは同じはずなので、実際には同じことだと思いますが一応ってこと
+ですかね。 [ruby-core:83424] [Bug #14036]

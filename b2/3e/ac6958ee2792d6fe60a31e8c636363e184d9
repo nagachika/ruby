@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml で REXML::Element#[] の引数に String か Symbol が渡さ
+れた場合に対応する attribute name の要素を返すように拡張しています。

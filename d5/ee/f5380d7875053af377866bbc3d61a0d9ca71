@@ -1,0 +1,4 @@
+doc/maintainers.rdoc のメンテナのいない拡張ライブラリ etc, fcntl, zlib について
+unmaintained と書いてたのを Ruby core team と表記するようにしています。 zlib に
+ついては naruse さんがメンテナになったようです。 [ruby-core:84383] [Misc #
+14211]

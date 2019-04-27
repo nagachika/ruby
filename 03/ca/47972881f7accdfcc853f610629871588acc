@@ -1,0 +1,2 @@
+拡張ライブラリ版 json のヘッダの未使用の関数の宣言 fbuffer_free_only_buffer()
+を削除。

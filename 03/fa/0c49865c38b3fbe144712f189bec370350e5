@@ -1,0 +1,3 @@
+r47260 の追加修正で benchmark で measure メソッドでも Time.now のかわりに
+Process.clock_gettime を使って時刻を取得するようにしています。
+[ruby-core:64511] [Feature #10165]

@@ -1,0 +1,3 @@
+check_funcall_missing() でも respond_to_missing? を呼ぶ時の第2引数を rubyspec
+を壊さないようにあえて false にしていたのを true に直して、spec 側でバージョン
+によって分岐して変更を明示的にテストするようにしています。

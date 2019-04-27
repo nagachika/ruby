@@ -1,0 +1,3 @@
+r49634 の Windows での File.rename でのドライブをまたいだ移動の検出を書き直して
+います。 GetFileInformationByHandle() でドライブの serial number というのが取得
+できるそうで、それで比較するようにしています。 [ruby-core:68162] [Bug #10865]

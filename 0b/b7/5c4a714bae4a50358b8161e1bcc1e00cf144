@@ -1,0 +1,3 @@
+struct RBignum の非公開化の際に削除した関数マクロ RBIGNUM_SIGN(),
+RBIGNUM_POSITIVE_P(), RBIGNUM_NEGATIVE_P() を互換性のために再度追加しています。
+中身は rb_big_cmp() を利用した実装にしています。

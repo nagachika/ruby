@@ -1,0 +1,6 @@
+Module#instance_method に false を渡した時にそのクラスに特異クラス(singleton
+class)が作られていると結果が空になってしまうことがある不具合修正。引数に false
+指定する継承元の親クラスや include している Module のメソッドをみないのですが、
+singleton class がはさまってるとそこで探索を打ち切ってしまうので本体のメソッド
+が追加されていませんでした。てことはたぶん Module#prepend した時もだったのかな
+。 [ruby-core:90872] [Bug #15501]

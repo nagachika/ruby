@@ -1,0 +1,4 @@
+コントロールフレームを積まないで呼べる C実装のメソッドを定義する関数やそのメソ
+ッドのタイプを rb_define_method_fast() -> rb_define_frameless_method()、
+VM_METHOD_TYPE_CFUNC_FAST -> VM_METHOD_TYPE_CFUNC_FRAMELESS などと fast ->
+frameless になるよう改名しています。

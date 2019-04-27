@@ -1,0 +1,5 @@
+if/unless などの文法の VM 命令列へのコンパイルをする compile_if() で then 部
+else 部のラベルが利用されない場合に rb_iseq_body_t::ci_size, ci_kw_size などを
+戻して不要な callinfo のインデックスを作らないようにしています。絶対に通らない
+分岐にキーワード引数つき呼び出しがあるような ISeq の to_binary でのダンプ時に
+SEGV することがあったそうです。 [ruby-core:86399] [Bug #14553]

@@ -1,0 +1,2 @@
+UDPSocket のテスト test/socket/test_udp.rb で開きっぱなしだったソケットを後始末
+で閉じるようにしています。

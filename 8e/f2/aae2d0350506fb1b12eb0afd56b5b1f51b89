@@ -1,0 +1,2 @@
+キーワード引数の exception のために rb_intern() を呼んでいるところが複数あった
+ので組込みの ID idException を利用するようにしています。

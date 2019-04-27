@@ -1,0 +1,4 @@
+complex.c の f_gt_p() で Fixnum の時のみ直接処理してそれ以外の時は '>' のメソッ
+ド呼び出しにしていたのを Integer, Float, Rational でも最適化しています。そのた
+めに rb_int_gt(), rb_float_gt() などの関数を改名して非 static 関数にしています
+。

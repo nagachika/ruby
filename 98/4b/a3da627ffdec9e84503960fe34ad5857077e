@@ -1,0 +1,3 @@
+r64337 の Module#method_defined? の引数追加とその revert と絡んでるとだと思いま
+すが、拡張ライブラリを使ったテストの test/-ext-/test_notimplement.rb で
+Bug.method_defined? のテストを追加しています。CI の調査用かな?

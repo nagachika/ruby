@@ -1,0 +1,5 @@
+rb_frame_visibility_test() -> rb_scope_visibility_test(),
+rb_frame_visibility_set() -> rb_scope_visibility_set(),
+rb_frame_module_func_check() -> rb_scope_module_func_check(),
+rb_frame_module_func_set() -> rb_scope_module_func_set() など rb_frame_XXXX と
+いう関数名を rb_scope_XXXX に改名しています。

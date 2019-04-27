@@ -1,0 +1,2 @@
+テストで continuation が必要なところで r48588 で追加した警告を抑制するように
+EnvUtil.suppress_warning を利用するようにしています。

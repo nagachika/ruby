@@ -1,0 +1,2 @@
+標準添付ライブラリ erb で Scanner.regist_scanner という古い名前のメソッドを使っ
+ていたところを register_scanner のほうを呼ぶように修正しています。

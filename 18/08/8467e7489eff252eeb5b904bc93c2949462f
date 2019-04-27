@@ -1,0 +1,3 @@
+rb_exec_async_signal_safe() を static でなく公開して、internal.h に宣言を記述し
+て拡張ライブラリ pty から rb_exec_async_signal_safe() や
+rb_fork_async_signal_safe() を利用するように実装を変更しています。

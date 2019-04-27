@@ -1,0 +1,2 @@
+r37491 で Solaris10 でのビルドのために sys/atomic.h を直接 #include するように
+した workaround を revert しています。 [ruby-dev:46414] [Bug #7287]

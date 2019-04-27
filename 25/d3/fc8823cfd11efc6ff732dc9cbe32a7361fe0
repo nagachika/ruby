@@ -1,0 +1,2 @@
+Net::HTTP のテストで警告除去のため Net::HTTP#post でヘッダ content-type を明示
+的に渡すようにしています。

@@ -1,0 +1,2 @@
+同じく benchmark/driver.rb で BenchmarkDriver.load で JSON/YAML ファイルからの
+ロード時に @measure_target というインスタンス変数を復元するようにしています。

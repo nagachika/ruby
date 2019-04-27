@@ -1,0 +1,3 @@
+test/lib/test/unit/assertions.rb に skip の alias として pend というメソッドを
+追加しています。 openssl のテストでこの test-unit で使われているメソッドを使っ
+ているそうです。

@@ -1,0 +1,6 @@
+gc.c の rb_heap_t::incrment を struct heap_pages に移動しています。複数の heap
+のそれぞれで管理するのではなくて ObjectSpace 全体で管理するようにしています。ま
+た page の解放のしきい値判定に使う heap_pages_free_min_page のパラメータを全体
+の slot 数の 65% から 80% に調整しています。
+また heap_increment() で不要だった第3引数を削除したり、デバッグメッセージの引数
+の不正の修正など。

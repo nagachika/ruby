@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence の to_a と load のテストが CI でこけることがあるの
+でタイムアウトを伸ばしています。

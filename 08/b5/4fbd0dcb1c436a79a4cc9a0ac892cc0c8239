@@ -1,0 +1,2 @@
+標準添付ライブラリ net/http の未使用のインスタンス変数(r13648 で未使用になった)
+の代入を削除しています。 https://github.com/ruby/ruby/pull/1022

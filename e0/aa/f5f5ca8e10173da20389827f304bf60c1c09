@@ -1,0 +1,2 @@
+.travis.yml の irc の通知先のサーバを irc.freenode.org から chat.freenode.net
+に変更しています。

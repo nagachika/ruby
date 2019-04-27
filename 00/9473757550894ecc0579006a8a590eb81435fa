@@ -1,0 +1,2 @@
+compile.c の remove_unreachable_chunk() で ISeq のコンパイル時に参照されていな
+いラベルを削除して未使用のコードをより除去するようにしています。

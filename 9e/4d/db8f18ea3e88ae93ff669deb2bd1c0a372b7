@@ -1,0 +1,1 @@
+r34734 の make test-all で -q を常に渡すようにする修正を revert しています。

@@ -1,0 +1,3 @@
+r32401 で coverage のリスタート対応を revert したのを戻して、static 変数
+rb_coverages の GC 避けのために rb_gc_register_address() での登録を追加していま
+す。 [ruby-core:37352] [Bug #4927] [ruby-core:36539] [Feature #4796]

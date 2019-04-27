@@ -1,0 +1,2 @@
+String#to_r で文字列から Rational を生成する時に Float が返ってくることがあるの
+で(Infinity の時?)エラーにしています。

@@ -1,0 +1,3 @@
+なにやらよくわかりませんが MSys という Windows 上で利用できる Unix ライクな環境
+の make でビルドできなかったのに対処するためPATH_SEPARATOR の指定を更しているよ
+うです。 [ruby-core:51489] [Bug #7710]

@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#inspect で文字列に埋め込むクラス名やファイルパスな
+どを PRIsVALUE を使うようにしてエンコーディングを保持するようにしています。

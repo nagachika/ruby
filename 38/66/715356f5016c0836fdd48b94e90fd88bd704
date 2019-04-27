@@ -1,0 +1,3 @@
+r60253 の Dir.glob の FNM_EXTGLOB 対応の最適化のリベンジ。NEWS ファイルに Dir
+.glob の順序が変化することがあることについて追記しています。 [ruby-core:82660]
+[Feature #13873]

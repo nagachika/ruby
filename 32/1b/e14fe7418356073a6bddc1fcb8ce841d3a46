@@ -1,0 +1,2 @@
+fiddle と dl のテストで利用する libc, libm のライブラリファイルパスの検出を
+Solaris 対応しているようです。 [ruby-core:38853] [Bug #5168]

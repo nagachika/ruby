@@ -1,0 +1,2 @@
+parse.y の rb_id2str() で rb_fstring() を直接使っていたのを rb_fstring_new() を
+呼ぶように変更しています。

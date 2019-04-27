@@ -1,0 +1,2 @@
+configure でのチェック対象のヘッダに sys/param.h を追加。 Linux で存在するそう
+です。

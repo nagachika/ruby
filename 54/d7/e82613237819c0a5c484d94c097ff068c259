@@ -1,0 +1,6 @@
+rb_cloexec_dup() で F_DUPFD_CLOEXEC という fcntl(2) の operation が定義されてい
+たら fcntl(2) を実行してみるようにしています。この F_DUPFP_CLOEXEC という操作は
+Linux で最近追加されたもののようですね。どうやら dup(2) で複製した file
+descriptor の O_CLOEXEC フラグを Kernel がすぐに立ててくれるようにするもののよ
+うです。 2.6.24 から実行可能で、2.6.18 では定義はあるけど実行するとエラーになる
+らしく、一度エラーになったらもう実行しないように分岐が書かれています。

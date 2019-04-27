@@ -1,0 +1,3 @@
+r54163 での rb_big_odd_p() と rb_big_even_p() の宣言を include/ruby/intern.h に
+置いたのを internal.h に移動しています。公開 C API としたわけじゃなくて ruby イ
+ンタプリタ内の他のソースファイルから呼ぶためだったみたいです。

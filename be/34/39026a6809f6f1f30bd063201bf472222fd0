@@ -1,0 +1,4 @@
+iseq.c で get_insn_info() のかわりに二分探索する get_insn_info_binary_search()
+という関数を追加して TracePoint を使う時の書き換えを高速化しています(多分)。
+VM_CHECK_MODE をセットしてビルドされた時は元の get_insn_info() の定義と結果が一
+致していることをチェックするようにしています。

@@ -1,0 +1,2 @@
+benchmark/app_aobench.rb で PPM ファイルのヘッダ書き出し時に format にない余計
+な引数があったのを削っています。

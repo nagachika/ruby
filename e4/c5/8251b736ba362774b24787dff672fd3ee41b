@@ -1,0 +1,2 @@
+TracePoint にさらに新しいイベント RUBY_INTERNAL_EVENT_GC_END を追加して
+after_sweep() の実行後に呼び出すフックを登録できるようにしています。

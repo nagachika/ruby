@@ -1,0 +1,2 @@
+r63537 の再修正。 Process.wait() に WNOHANG を渡して呼んでたので生きてる時は
+nil が返るので、後置 while ではなく後置 until でループするようにしています。

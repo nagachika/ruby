@@ -1,0 +1,2 @@
+クラス YAML::EngineManager 全体を :nodoc: にマークしていたのを yamler, yamler=
+メソッドの rdoc コメントを追記しています。

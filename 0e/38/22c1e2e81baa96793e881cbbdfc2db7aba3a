@@ -1,0 +1,2 @@
+defined? に autoload (定数を参照すると自動的に require する機能)を設定した定数
+を渡した時に、autoload が動作せずに false を返してしまうのを修正しています。

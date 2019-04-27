@@ -1,0 +1,2 @@
+rb_bug() と rb_bug_context() で rb_source_loc() を呼ぶかどうかのチェックを
+GET_THREAD() があるかどうかから GET_EC() をみるように変更しています。

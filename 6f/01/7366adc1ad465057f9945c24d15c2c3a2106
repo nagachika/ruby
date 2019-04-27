@@ -1,0 +1,4 @@
+rb_mod_public(), rb_mod_protected(), rb_mod_private() といった関数からメソッド
+の可視性の情報を設定する処理の共通の部分を set_visibility() として切り出して、
+設定する可視性を引数に渡すようにして使い回すリファクタリング。
+しかし ChangeLog で他の人のエントリを消してしまっています。

@@ -1,0 +1,2 @@
+io.c の rb_io_sysread() の不要な代入を削除しています。 https://github.com/ruby/
+ruby/pull/767

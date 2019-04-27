@@ -1,0 +1,3 @@
+r50023 で copy したオブジェクトが WB-unprotected だった時に RVALUE_DEMOTE() を
+呼ぶというのでコピー先でなくてコピー元を操作してしまっていたので修正しています
+。ついでに RGENGC_CHECK_MODE が 1以上の時のチェックも追加。

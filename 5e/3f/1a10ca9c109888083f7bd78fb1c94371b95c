@@ -1,0 +1,2 @@
+標準添付ライブラリ csv の CSV::Row#to_hash で Array#inject と Hash[] を使って実
+装していたのを Array#to_h を呼ぶだけにリファクタリングしています。

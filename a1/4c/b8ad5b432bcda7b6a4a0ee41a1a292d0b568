@@ -1,0 +1,3 @@
+random.c の get_rnd() や try_get_rnd() で未初期化の rb_random_t を返す可能性が
+あったのを修正しています。一度 Random を使ってから fork して Random::DEFAULT.
+rand を呼ぶだけで SEGV してみたいです。 [ruby-core:82100] [Bug #13753]

@@ -1,0 +1,3 @@
+Integer#pow のメソッドの rb_define_method() 呼び出しに関数の定義されているファ
+イル(bignum.c)を指すコメントを追加しています。 rdoc 用とのこと。
+[ruby-core:76084] [Feature #12508] [Feature #11003]

@@ -1,0 +1,3 @@
+VM のコード生成のテンプレートに tool/ruby_vm/views/_sp_inc_helpers.erb というの
+を追加して、insns.def の sp_inc という attribute の値を計算するための関数
+sp_inc_of_sendish() と sp_inc_of_invokeblock() というのを追加しています。

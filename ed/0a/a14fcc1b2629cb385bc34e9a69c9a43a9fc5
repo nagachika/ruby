@@ -1,0 +1,1 @@
+ext/zlib/zlib.c で未使用の変数の警告除去のために RB_GC_GUARD() を使っています。

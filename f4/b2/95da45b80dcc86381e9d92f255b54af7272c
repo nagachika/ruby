@@ -1,0 +1,4 @@
+bignum.c の関数名の改名。 bdigs_small_lshift() を bary_small_lshift() へ、
+bdigs_small_rshift() を bary_small_rshift() へ改名しています。 BDIGIT の配列を
+扱う関数として bary_??? を導入したので接頭語をそれに揃えるようにしているようで
+す。

@@ -1,0 +1,5 @@
+ARGF.read_nonblock に exception: false というキーワード引数を受け付けるようにし
+ています。 ARGF も IO を模倣しているので IO や Socket、StringIO と同様に受け付
+けるようにしています。でもこれは [ruby-core:69892] で提案しているキーワード引数
+の parse の方法の変更の前段だそうです。この提案もおもしろいですね。 C の実装が
+遅いから Ruby で実装してしまおうという…。 [ruby-core:70000] [Feature #11358]

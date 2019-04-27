@@ -1,0 +1,3 @@
+Kernel#system で子プロセスがエラーだった時にキーワード引数 exception が指定され
+ていた時の例外メッセージを Process::Status#to_s や #inspect の表示と同等のもの
+を利用するようにしています。 [ruby-core:85013] [Feature #14386]

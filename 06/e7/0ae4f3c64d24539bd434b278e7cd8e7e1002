@@ -1,0 +1,3 @@
+拡張ライブラリ thread の Queue#pop と SizedQueue#pop の引数に true をわたして
+non block な pop をした時(空で pop できなかったら待たずに例外発生させる)のテス
+トを追加しています。

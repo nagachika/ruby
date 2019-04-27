@@ -1,0 +1,3 @@
+RubyGems で削除された rubygems/source_info_cache.rb を require しているのを削っ
+ている、とあるのですが、 remove_source_caches というメソッドを消したりしていて
+、ファイルを削ったのがコミットミスだったんじゃないかという疑問も。

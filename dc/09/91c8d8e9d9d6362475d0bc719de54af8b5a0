@@ -1,0 +1,2 @@
+Kernel#caller_locations のテストに path と absolute_path をチェックするテストケ
+ースを追加しています。

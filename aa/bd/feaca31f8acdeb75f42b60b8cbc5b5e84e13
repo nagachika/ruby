@@ -1,0 +1,3 @@
+configure で universal binary のために CFLAGS と LDFLAGS からアーキテクチャを指
+定するオプション(-arch=xxx や -m32, -m64) を削る処理を CXXFLAGS についても行う
+ようにしています。

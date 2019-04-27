@@ -1,0 +1,3 @@
+configure.in と win32/Makefile.sub で ALWAYS_INLINE マクロの定義を追加していま
+す。 gcc などでは __always_inline__ 属性として、Windows 版は __forceinline とし
+て展開されるようになっています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPUtils::DefaultMimeTypes でサポートさ
+れている MIME タイプの省略名に json を追加しています。

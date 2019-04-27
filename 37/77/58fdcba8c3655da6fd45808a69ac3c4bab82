@@ -1,0 +1,4 @@
+test/ruby/test_rubyoptions.rb の $LOADED_FEATURES に文字列ではないオブジェクト
+が入っていた時のテストで、$LOADED_FEATURES のなかみを問題のオブジェクト 1つだけ
+存在している状態で SIGSEGV のハンドラを実行させるようにしています。はて、なぜで
+しょうか。

@@ -1,0 +1,4 @@
+r51396 の ChangeLog エントリのぶんの本体のコミットです。 test/openssl/
+test_ssl.rb で UNIXSocket.pair を使ってテストしているところを、ソケットの作成を
+socketpair というユーティリティメソッドに切り出して UNIXSocket が未定義(Windows
+)の時は Socket.pair を使うようにして Windows でもテストが動くようにしています。

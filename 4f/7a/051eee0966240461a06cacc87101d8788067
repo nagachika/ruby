@@ -1,0 +1,2 @@
+r56514 の enc/depend の変更で、抽出した Encoding 名を downcase しておくように修
+正しています。

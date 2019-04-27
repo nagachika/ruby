@@ -1,0 +1,10 @@
+rb_thread_t::interrupt_mask という構造体メンバを追加して、割り込みの種別毎にマ
+スクをかけることができるようにています。このため rb_thread_t::interrupt_flag を
+参照しているところを RUBY_VM_INTERRUPTED_ANY() という関数マクロ経由でマスクした
+ビットを除いたビットフラグを参照するように変更しています。また
+rb_threadptr_execute_interrupts() でマスクされたビットは残して atomic な交換を
+するために ATOMIC_CAS (Compare And Swap) マクロを ruby_atomic.h に追加していま
+す。流行りの(?)ロックフリーってやつですね。そしてこの新しいしくみを使って、
+signal_exec() でトラップハンドラを実行中に trap_interrupt(0x08) をマスクするよ
+うにしています。つまりトラップハンドラは再入しないようになったわけですね。
+[ruby-core:42524] [Bug #6009]

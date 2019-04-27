@@ -1,0 +1,3 @@
+r51181 で分割したうち fill_random_bytes_syscall() のほうで Linux での syscall()
+を使った getrandom(2) システムコールの呼び出しによる実装を追加しています。なる
+ほど、/dev/urandom よりこちらを優先させたいということですね。

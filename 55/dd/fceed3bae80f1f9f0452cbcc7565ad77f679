@@ -1,0 +1,4 @@
+Test::Unit::Runner#puke を定義して MiniTest::Unit#puke を上書きしています。先日
+マージされた minitest 2.2.2 で -v オプションをつけないと skip の結果のメッセー
+ジが表示されなくなる仕様変更を従来の動作に戻して --hide-skip オプションをつけた
+時だけ skip の結果を隠すようにしています。

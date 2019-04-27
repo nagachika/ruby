@@ -1,0 +1,1 @@
+MatchData#values_at の rdoc 用コメントの call-seq の可変長引数の表現法を修正。

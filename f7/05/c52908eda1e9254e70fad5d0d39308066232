@@ -1,0 +1,4 @@
+gc.c で RUBY_ALTERNATIVE_MALLOC_HEADER というマクロが定義されていると malloc.h
+のかわりにこれを #include するようにしています。 jemalloc などを利用する時に
+malloc.h を #include してると conflict がおきてコンパイルエラーになることがある
+ようです。

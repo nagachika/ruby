@@ -1,0 +1,3 @@
+Object#hash のための関数群 rb_ident_hash(), rb_ident_hash_new() を hash.c に移
+動し st.c の st_numhash() で r49376 のでの flonum 対応をしていたのを
+rb_ident_hash() に移動しています。

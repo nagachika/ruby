@@ -1,0 +1,3 @@
+INCFLAGS の定義を Makefile.in から common.mk に移動し win32/Makefile.sub からも
+INCFLAGS を参照するようにし、 missing/ ディレクトリは XFLAGS に含めないようにし
+ています。

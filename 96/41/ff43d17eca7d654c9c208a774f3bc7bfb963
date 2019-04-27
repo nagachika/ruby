@@ -1,0 +1,1 @@
+wercker.yml で Queue と Signal に関するテストを除外するようにしています。

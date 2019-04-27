@@ -1,0 +1,2 @@
+rubygems のテストで Gem::RemoteFetcher のテストは MJIT が有効だと通らないみたい
+なので一時的に MJIT.pause するようにしています。

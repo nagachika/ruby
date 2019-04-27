@@ -1,0 +1,3 @@
+tool/mkconfig.rb で config.status の内容を parse しているところで sitearch にマ
+ッチさせる正規表現に行末の指定がなかったのを補って全文マッチするようにしていま
+す。

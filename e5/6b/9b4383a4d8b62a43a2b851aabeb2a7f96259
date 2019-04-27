@@ -1,0 +1,2 @@
+common.mk の ext/ripper/ripper.c の依存関係の parse.y に $(srcdir)/ を prefix
+に追加しています。これも nmake 対応とのこと。

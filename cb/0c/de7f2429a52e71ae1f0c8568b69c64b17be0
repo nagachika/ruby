@@ -1,0 +1,5 @@
+Windows 環境での環境変数の取得のための関数 w32_getenv の定義を関数ポインタにし
+て、w32_getenv_unknown() という関数を定義してその関数を w32_gentnv に代入してお
+き、最初に呼ばれた時に locale の Encoding をチェックして ASCII-8BIT かどうかで
+rb_w32_getenv() か rb_w32_ugetenv() を w32_getenv に再代入することで2回目以降は
+直接これらの関数のどちらかが呼ばれるようにしています。

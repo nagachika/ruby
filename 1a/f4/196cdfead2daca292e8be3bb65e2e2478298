@@ -1,0 +1,3 @@
+r42698 の Enumerator.new に渡すオブジェクトの call が呼べることを確認するのに
+rb_respond_to() を呼ぶかわりに rb_check_funcall() でチェックと呼び出しまで一度
+に行うようにしています。少し効率化。

@@ -1,0 +1,2 @@
+node.h のビットフラグについてのコメントで既に存在してない
+NODE_FL_CREF_PUSHED_BY_EVAL についての言及を削除しています。

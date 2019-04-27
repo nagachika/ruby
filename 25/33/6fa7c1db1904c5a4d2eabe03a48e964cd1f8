@@ -1,0 +1,4 @@
+valgrind で実行した時のメモリ領域の指定をして不要な警告/エラーを抑制するための
+VALGRIND_MAKE_MEM_DEFINED および VALGRIND_MAKE_MEM_UNDEFINED を gc.c から
+internal.h に移動して、bignum.c の rb_big_realloc() と bignew_1() で
+VALGRIND_MAKE_MEM_UNDEFINED で未初期化領域をマークするようにしています。

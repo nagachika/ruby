@@ -1,0 +1,3 @@
+missing/strlcat.c と missing/strlcpy.c を OpenBSD から新しいものに更新して、ラ
+イセンスも変更になっていたので LEGAL にも反映させています。 [ruby-core:74487]
+[Misc #12205]

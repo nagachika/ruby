@@ -1,0 +1,2 @@
+r33926 を revert しています。 Linux と FreeBSD の gcc では -Wl,pie ではなくて
+-pie を使わないといけないということで、ややこしいですね。

@@ -1,0 +1,1 @@
+Range#last のテストから [Bug #8739] の現象の assertion を削除しています。

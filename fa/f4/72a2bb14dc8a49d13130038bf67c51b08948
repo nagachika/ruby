@@ -1,0 +1,3 @@
+Module#const_set で無名モジュールに名前を付ける時に rb_class_path_cached() をチ
+ェックして外側の Module が名前を持ってる時だけ rb_class_name() を呼び出すように
+しています。 [ruby-core:79007] [Bug #13113]

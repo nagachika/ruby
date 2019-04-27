@@ -1,0 +1,2 @@
+lib/unicode_normalize.rb と lib/unicode_normalize/normalize.rb の先頭に BOM 文
+字列がついていたのを削っています。おお、全く気がつきませんでした……。

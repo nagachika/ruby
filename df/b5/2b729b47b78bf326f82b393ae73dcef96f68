@@ -1,0 +1,2 @@
+r31362 のためのテストとして Encoding.find に Encoding を渡す assert を追加して
+います。

@@ -1,0 +1,5 @@
+r33876 で include/ruby/win32.h から代替関数の alias を #define でマクロとして定
+義しているのを include/ruby/subst.h に移動していたのを revert して、socket の
+extconf.rb で socket_pair() をチェックしてるところで rb_w32_socket_pair() もチ
+ェックすることで問題になってたところをピンポイントで対応するようにしています。
+何か問題があったんでしょうか。 [ruby-core:41475] [Bug #5706]

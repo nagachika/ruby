@@ -1,0 +1,2 @@
+rubyspec に Windows での Time.now の環境変数 TZ の影響についての spec を独立さ
+せています。[ruby-core:81347] [Bug #13591]

@@ -1,0 +1,3 @@
+拡張ライブラリ tk の ext/tk/tkutil/tkutil.c で T_DATA 型を利用した時の警告
+(T_TYPEDDATA 型を使うように推奨する警告)を無視させるため #define
+RUBY_UNTYPED_DATA_WARNING 0 を追加しています。

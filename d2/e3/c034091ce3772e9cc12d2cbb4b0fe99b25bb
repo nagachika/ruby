@@ -1,0 +1,3 @@
+exec_arg_data_type、autoload_data_type、location_data_type などの
+TypedDataStruct 型でも ptr が NULL のチェックが不要なため独自の free 関数を削除
+しています。

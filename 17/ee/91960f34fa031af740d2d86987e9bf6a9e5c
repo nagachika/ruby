@@ -1,0 +1,3 @@
+doc/extension.rdoc や doc/extension.ja.rdoc で例として挙げられている拡張ライブ
+ラリ dbm の利用しているマクロの名前を修正しています。 https://github.com/ruby/
+ruby/pull/1519

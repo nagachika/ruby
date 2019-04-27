@@ -1,0 +1,3 @@
+rb_external_str_with_enc(), rb_str_concat(), rb_str_dump() などの関数で文字列に
+Encoding を関連付けるのに rb_encoding を使っていたのを encindex で指定するよう
+に最適化しています。

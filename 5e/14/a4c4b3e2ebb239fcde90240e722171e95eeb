@@ -1,0 +1,4 @@
+configure で SEGV 時の sigaltstack() を使った処理のチェックのためにコンパイルす
+るソースコードで終了ステータスに EXIT_SUCCESS, EXIT_FAILURE を利用するようにし
+て、エラー時に abort(3) を使わずに exit(EXIT_FAILURE) を使うようにしています。
+[ruby-core:63678] [Bug #10008]

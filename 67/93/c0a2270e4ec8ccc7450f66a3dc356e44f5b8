@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::Functions.string で引数の object が nil の時
+の対応を強化しています。

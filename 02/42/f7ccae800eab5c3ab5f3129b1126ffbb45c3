@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils の FileUtils.cp_r などで remove_destination オプシ
+ョンが true に指定されていた時にコピー先のパスが通常ファイルの時だけ削除してい
+ましたが、symbolic link の時も削除して上書きするようにしています。 https://
+github.com/ruby/fileutils/pull/9 [ruby-core:82846] [Bug #13914]

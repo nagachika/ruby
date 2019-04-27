@@ -1,0 +1,2 @@
+Warning.warn およびモジュール Warning の rdoc 用コメントを追加しています。
+[ruby-core:80848] [Feature #13504]

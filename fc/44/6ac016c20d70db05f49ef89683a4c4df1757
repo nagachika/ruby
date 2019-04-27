@@ -1,0 +1,2 @@
+test/net/imap の下にあった net/xx のテスト用の証明書などを test/net/fixtures に
+移動しています。

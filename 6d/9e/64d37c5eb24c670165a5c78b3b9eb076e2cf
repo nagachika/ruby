@@ -1,0 +1,11 @@
+Mac OS X で test_fiber.rb を実行すると時々 SEGV や無限ループらしい動作になる不
+具合の修正です。 Fiber を作るとその Thread の root Fiber というのがその時点で作
+成されるのですが、その status の初期値が FIBER_USE_NATIVE が off(0) の時に
+RUNNING に設定されていませんでした。cont_mark() ではその Fiber に保存されたマシ
+ンスタックは Fiber が RUNNING の時だけ mark するようになっているので、
+FIBER_USE_NATIVE が有効でないプラットフォーム(Mac OS X, NetBSD 等)では mark 漏
+れによる不正なオブジェクト解放の可能性がありました。[ruby-core:36735] [Bug #
+4827]
+ちなみに Fiber.new で新しく作る Fiber の status は CREATED で、最初に resume し
+た時に RUNNING になりますが、root Fiber の場合は作成される時点でその Thread は
+動作しているわけなので最初から RUNNING になります。

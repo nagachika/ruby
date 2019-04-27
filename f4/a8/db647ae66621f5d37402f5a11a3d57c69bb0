@@ -1,0 +1,8 @@
+Thread への非同期割り込みを制御する Thread.control_interrupt および割り込み有無
+をチェックする Thread.check_interrupt を追加しています。内部的にも
+rb_threadptr_interrupt_mask(), rb_threadptr_async_errinfo_{deque,enque,clear}()
+など割り込み用の API が新設されています。ざっくりと解説するとこれまで Thread#
+raise などは対象の Thread の処理にすぐに割り込むようになっていたのを
+Thread.control_interrupt を使うと割り込みを自主的にチェックするまで待たせるモー
+ドに切り替えることができるようになっています。詳しくはささださんのだいありー(以
+下略)。

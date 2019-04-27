@@ -1,0 +1,2 @@
+test/ruby/find_executable.rb で RbConfig を利用しているので require "rbconfig"
+を追加。

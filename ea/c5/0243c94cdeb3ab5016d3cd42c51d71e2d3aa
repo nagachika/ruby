@@ -1,0 +1,3 @@
+マクロ USE_SIGALTSTACK の定義は vm_core.h により詳しい条件分岐したものがあった
+ので、thread.c で定義していたものは削除して #include "vm_core.h" するようにして
+います。

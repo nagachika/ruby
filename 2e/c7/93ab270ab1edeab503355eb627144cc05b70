@@ -1,0 +1,4 @@
+r51835 で追加された標準添付ライブラリ net/ftp の MLST と MLSD のレスポンスのフ
+ォーマットの Unix.mode, Unix.owner, Unix.group, Unix.ctime, Unix.atime などのフ
+ィールドにも対応するようにしています。これらは標準化されたものではなくて拡張み
+たいです。

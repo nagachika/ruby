@@ -1,0 +1,3 @@
+doc/contributing.rdoc のドキュメントへの contribution のリンク先を http://
+documenting-ruby.org/ から https://github.com/ruby/ruby#contributing に変更して
+います。 [ruby-core:87715] [Bug #14885]

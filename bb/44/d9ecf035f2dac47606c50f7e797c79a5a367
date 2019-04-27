@@ -1,0 +1,2 @@
+configure で --with-jemalloc が指定されても jemalloc/jemalloc.h ヘッダがなかっ
+たら無効にするようにしています。 [ruby-core:90964] [Bug #15520]

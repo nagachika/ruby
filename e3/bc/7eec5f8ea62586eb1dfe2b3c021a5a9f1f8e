@@ -1,0 +1,3 @@
+hash.c の rb_hash() で Bignum の数値の最も下位の桁(least significant)の long 型
+の数値を切り出すのに rb_integer_pack() を利用するようにリファクタリングしていま
+す。

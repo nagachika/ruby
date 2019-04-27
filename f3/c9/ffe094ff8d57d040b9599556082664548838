@@ -1,0 +1,3 @@
+Hash#store の rdoc 用コメントのサンプルの戻り値の記述が間違っていたのを修正して
+います。副作用としての Hash オブジェクトの結果を戻り値のように書いてしまってい
+ました。 https://github.com/ruby/ruby/pull/715

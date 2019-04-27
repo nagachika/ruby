@@ -1,0 +1,2 @@
+thread_sync.c のマクロ ALIAS_GLOBAL_CONST() の中身(といっても rb_define_const()
+の呼び出しだけ)を alias_global_const() という関数にしています。

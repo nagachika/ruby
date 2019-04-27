@@ -1,0 +1,3 @@
+test/lib/test/unit/parallel.rb の test-unit の並行実行時に子プロセスから pipe
+経由で読み込んだ文字列を ASCII-8BIT のエンコーディングに設定しておくことで
+Encoding::CompatibilityError が発生することがあるのを回避しているそうです。

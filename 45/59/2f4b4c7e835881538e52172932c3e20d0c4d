@@ -1,0 +1,2 @@
+Time のテストと MiniTest のテストでも RUBY_VERSION で分岐しているところがあった
+のを削除しています。

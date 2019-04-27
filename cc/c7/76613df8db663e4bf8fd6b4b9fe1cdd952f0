@@ -1,0 +1,2 @@
+ruby の --debug-frozen-string-literal や --debug=frozen-string-literal オプショ
+ンの挙動のテストをループで書くようにリファクタリングしています。

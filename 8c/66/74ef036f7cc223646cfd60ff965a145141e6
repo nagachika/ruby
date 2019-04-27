@@ -1,0 +1,6 @@
+racc の拡張ライブラリ cparse で RSTRING_PTR() を使って String オブジェクトのバ
+ッファに直接アクセスしていた部分を rb_ary_entry() や rb_ary_subseq() などの API
+を使って書きかえています。オブジェクトの内部表現に依存しないようにすることで処
+理系の高速化などの改造に強くしています。チケットには直接の動機としては Rubinius
+では RSTRING_PTR() は遅いという理由も書かれています。 [ruby-core:54939] [Bug #
+8399]

@@ -1,0 +1,2 @@
+ext/curses/curses.c の rdoc 用コメントの空白や改行位置などの体裁の修正。 https:
+//github.com/ruby/ruby/pull/420

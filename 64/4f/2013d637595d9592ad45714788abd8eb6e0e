@@ -1,0 +1,3 @@
+rb_postponed_job_flush() で ec->interrupt_mask から退避しておくマスクされた割り
+込みのビットフラグを保持する変数を unsigned long から rb_atomic_t 型に変更して
+います。interrupt_mask の型が rb_atomic_t なのでそれにそろえています。

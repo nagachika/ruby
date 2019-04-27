@@ -1,0 +1,3 @@
+拡張ライブラリ continuation に require された時に警告メッセージを出して
+obsolete であることを表示するようにしています。 callcc は obsolete なので Fiber
+などの代替を利用するように移行しましょう。 [ruby-core:66486] [Feature #10548]

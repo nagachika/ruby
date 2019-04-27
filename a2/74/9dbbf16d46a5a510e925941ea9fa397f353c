@@ -1,0 +1,2 @@
+ext/socket/extconf.rb で String#sub の正規表現の後方参照に使っている々が間違っ
+ていたのを修正。

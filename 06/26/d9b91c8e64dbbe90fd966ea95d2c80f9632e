@@ -1,0 +1,10 @@
+non-blocking IO で読み込み/書き込みが不可能な時には Errno::EAGAIN や
+Errno::EWOULDBLOCK に IO::WaitReadable や IO::WaitWritable モジュールを extend
+して例外オブジェクト毎に non-block IO の例外を識別するようにしていたのですが、
+extend を使うと特異クラスを作るためオブジェクト数が増えるためパフォーマンスに影
+響があるので、extend を使うのはやめて IO::WaitReadable や IO::ReadWritable を
+include した専用の例外を子クラスとして定義しておいてそれを使うようにしています
+。r29673 や r31378 や r32024 も関連するコミットです。 [ruby-core:43325]
+[Feature #6154]
+同様に OpenSSL::SSLError にもモジュールを include した子クラスの例外を定義して
+います。

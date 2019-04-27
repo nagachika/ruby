@@ -1,0 +1,3 @@
+拡張ライブラリ socket で gai_strerror(3) というライブラリ関数が使えない時に代替
+のメッセージテーブルを定義している ai_errlist という変数の定義を #ifndef
+HAVE_GAI_STRERROR で括って、参照されてない時に定義しないようにしています。

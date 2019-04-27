@@ -1,0 +1,3 @@
+README.EXT と README.EXT.ja に RGenGC の説明とその効用にあやかれるようにするた
+めの拡張ライブラリの書きかたについての解説を追記しています。 [ruby-core:57462]
+[misc #8962]

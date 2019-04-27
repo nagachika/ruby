@@ -1,0 +1,2 @@
+拡張ライブラリ json の ext/json/parser/parser.rl でビット演算に使う char 型の変
+数を unsigned char にキャストしておくようにしています。

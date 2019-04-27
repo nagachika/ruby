@@ -1,0 +1,2 @@
+Travis CI でネットワークの問題で? macOS 版のテストが失敗するそうなので一時的に
+allow_failure に追加しています。

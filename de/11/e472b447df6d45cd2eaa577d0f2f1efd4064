@@ -1,0 +1,3 @@
+r61459 で template/prelude.c.tmpl に導入した #pragma が古い gcc だと関数の中で
+は使えないそうで CentOS 6.9 でビルドエラーになったそうなので、#pragma を関数定
+義の外に出しています。 [ruby-core:84449] [Bug #14234]

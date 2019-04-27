@@ -1,0 +1,3 @@
+r42779, r42782, r42784, r42788 の ChangeLog エントリの typo 修正。
+r42788 の ChangeLog の Numeral#step は Numeric#step の typo じゃないでしょうか
+。

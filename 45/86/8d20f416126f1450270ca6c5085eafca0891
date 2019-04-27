@@ -1,0 +1,5 @@
+ENV.delete, ENV.fetch, ENV.each_key, ENV.each_value ENV.each, ... etc の ENV の
+メソッドの rdoc 用コメントの call-seq のブロックの部分に block っていうのを書く
+ようにしています。 block なんているっけ、と思ったけど確かに Array の rdoc など
+みるとブロックを受け取るメソッドのブロック部分には block って書いてあるんですね
+。意識してなかった。

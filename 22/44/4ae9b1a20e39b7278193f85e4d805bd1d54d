@@ -1,0 +1,2 @@
+insns.def でブロック内で関数の extern 宣言を書いていたのを internal.h に移動し
+ています。

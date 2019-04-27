@@ -1,0 +1,4 @@
+Process.clock_getres のテストで clock_getres(2) がサポートされていない環境でス
+キップするように変更しています。Process.clock_getres は未サポートの時は
+Errno::EINVAL が発生するようになっています(clock の種類が未サポートの時の動作と
+一緒)。

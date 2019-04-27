@@ -1,0 +1,2 @@
+RGENGC_PROFILE が 2以上に定義されていた時に収集する RGENGC のプロファイル情報に
+もうひとつ promote_operation_count というのも追加しています。

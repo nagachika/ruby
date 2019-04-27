@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#trace_points というメソッドを追加して、ISeq からそ
+の ISeq に含まれているイベントの発生箇所のリストを返すようにしています。

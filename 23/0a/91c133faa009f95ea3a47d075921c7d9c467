@@ -1,0 +1,3 @@
+r55678 の変更の一部を revert しています。 UnicodeData.txt を
+UNICODE_PROPERTY_FILES に加えていたのですが、ダウンロードが複数回行われるように
+なってしまっていたようです。

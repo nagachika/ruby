@@ -1,0 +1,3 @@
+Rational#floor, #ceil, #truncate, #round などの rdoc 用コメントのサンプルのコメ
+ント部分を Ruby のコメントとして記述するようにしています。 [ruby-core:79607]
+[Bug #13233]

@@ -1,0 +1,2 @@
+test/psych/test_deprecated.rb で yaml_as のかわりに psych_yaml_as を使うように
+して Syck のメソッドを誤って使わないようにしています。

@@ -1,0 +1,6 @@
+Enumerator::Lazy の実装で yielder を使った実装では yield メソッドではなく << メ
+ソッドを内部から呼ぶように変更しています。そして Enumerator::Yielder#<< は引数
+を可変数個受け取らず 1つだけ受け取るようにメソッド定義を修正しています。 https:
+//github.com/ruby/ruby/pull/1912 [ruby-core:87907] [Bug #14908]
+そして rubyspec の Enumerator::Yielder#<< のテストで arity チェックしているもの
+は削除しています。

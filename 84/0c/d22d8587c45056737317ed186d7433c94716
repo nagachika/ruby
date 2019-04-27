@@ -1,0 +1,6 @@
+Array#compact! の実装で配列サイズを切り詰めた時に capacity も小さくする処理を
+rb_resize_smaller() という既にあった関数を利用するようにリファクタリングしてい
+ます。リファクタリングと書きましたが、capacity を小さくする条件として
+ARY_DEFAULT_SIZE との比較が変化していますね。元は ARY_DEFAULT_SIZE の2倍より大
+きかったら小くしていたのが ARY_DEFAULT_SIZE より大きいときにリサイズするように
+なっています。

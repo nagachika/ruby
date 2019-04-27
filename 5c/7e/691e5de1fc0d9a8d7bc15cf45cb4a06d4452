@@ -1,0 +1,3 @@
+Thread#priority= で Thread の priority を設定した時のテストで、設定する
+priority の差を大きくすることでたまたま結果が逆転してしまう可能性を低減している
+そうです。

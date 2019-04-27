@@ -1,0 +1,4 @@
+appveyor.yml の MinGW 版のビルド時の test-all に V=1 と TEST_EXCLUDES の指定を
+追加しています。よくわかりませんが最初から TEST_EXCLUDES がなにか設定されてい
+る? かなにかで全テストが skip されているみたいなのでそれを調査するためみたいで
+す。

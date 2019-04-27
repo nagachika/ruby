@@ -1,0 +1,3 @@
+Fixnum の加算(+)や乗算(*)で引数(右辺)が Complex だった時に左右を交換して
+rb_nucomp_plus() や rb_nucomp_mul() を呼び出すようにしています。 coerce をショ
+ートカットするようにしています。

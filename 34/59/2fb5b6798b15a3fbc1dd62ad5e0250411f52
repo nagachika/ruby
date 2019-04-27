@@ -1,0 +1,3 @@
+ext/dl/lib/dl/func.rb の CALL_TYPE_TO_ABI、FiddleClosureCFunc、
+DL::Function.call_type_to_abi, DL::Function.class_fiddle_closure_cfunc にも
+RDoc でドキュメント化されないように :nodoc: タグなどをつけています。

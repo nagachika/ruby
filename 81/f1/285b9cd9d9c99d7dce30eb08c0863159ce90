@@ -1,0 +1,3 @@
+rubyspec の Socket.getaddrinfo のテストで Datagram 型のアドレスの service 名に
+http が指定されていたので、"discard" という service 名を指定するようにしていま
+す。 discard ってなんだろ。

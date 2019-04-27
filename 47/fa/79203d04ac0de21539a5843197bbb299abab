@@ -1,0 +1,4 @@
+rb_thread_wait_fd_rw() で rb_thread_alone() を呼んでメインスレッドのみの時に
+rb_wait_for_single_fd() を呼んで poll(2) などで fd のイベント待ちをせずにすぐに
+返って(そしておそらく block するシステムコールなどを呼ぶ)いたのを削除しています
+。 Ruby の Thread まわりはまだまだ色々残ってますねー。

@@ -1,0 +1,3 @@
+bootstraptest/test_thread.rb で大量の Thread を作成するテストでリソースが足りず
+に "can't create Thread" という ThreadError 例外が発生した場合に捕捉して成功に
+するようにしています。

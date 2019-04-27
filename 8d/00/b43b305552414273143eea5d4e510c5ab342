@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_TYPE オブジェクトの実装も TypedData を利用
+するようにしています。

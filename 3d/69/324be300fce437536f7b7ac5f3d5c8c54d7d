@@ -1,0 +1,5 @@
+configure.in の変更で、よく理解しきれてないのですが、RUBY_FUNC_ATTRIBUTE の検出
+方法の書きかたの修正と、FUNC_MINIMIZED という optimize("-Os
+","-fomit-frame-pointer") という最適化の属性を設定する gcc 拡張のマクロを定義す
+るようにして、RUBY_ALIAS_FUNCTION_TYPE マクロの定義で利用するようにしています。
+ラッパ関数で余計なframeを発生させないようにしているのでしょうか。

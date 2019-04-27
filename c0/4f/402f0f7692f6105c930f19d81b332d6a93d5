@@ -1,0 +1,5 @@
+r42430 で file.c に切り出した UFS+ のファイルパスのエンコーディング変換処理
+rb_str_normalize_ospath() を Mac OS X では CoreFoundation を利用して
+CFStringNormalize() を利用するようにしています。これはずいぶん思いきった変更で
+すね。しかし現在 Mac OS X Lion 上で miniruby のリンク時に -framework 不足のせい
+かビルドに失敗しているので再修正が必要そうです。

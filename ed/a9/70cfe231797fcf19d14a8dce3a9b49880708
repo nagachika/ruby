@@ -1,0 +1,5 @@
+標準添付ライブラリ matrix の Matrix#[]= を public method にして、Matrix#map! な
+どのメソッドを追加し、これまで immutable だった Matrix や Vector を mutable な
+コンテナオブジェクトのように扱えるようにしています。 https://github.com/ruby/
+ruby/pull/1769 https://github.com/ruby/ruby/pull/1905 [ruby-core:84062]
+[Feature #14151]

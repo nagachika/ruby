@@ -1,0 +1,2 @@
+Array#delete の rdoc のサンプルコードの修正。 https://github.com/ruby/ruby/
+issues/258

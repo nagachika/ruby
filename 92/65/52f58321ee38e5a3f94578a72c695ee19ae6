@@ -1,0 +1,3 @@
+r36864 で common.mk に記述した id.h や parse.h, parse.c の依存関係に {$(VPATH)}
+が付加されていたのを消しています。 nmake でビルドできないからとのこと。
+[ruby-dev:46097] [Bug #6956]

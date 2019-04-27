@@ -1,0 +1,3 @@
+test/ruby/test_integer.rb に assert_int_equal および assert_float_equal という
+ユーティリティメソッドを追加してリファクタリングして、また Fixnum と Bignum は
+区別しないようにしています。

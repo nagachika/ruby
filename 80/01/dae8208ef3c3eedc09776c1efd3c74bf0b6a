@@ -1,0 +1,3 @@
+unicode_normalize! や unicode_normalized? も同様に lib/unicode_normalize/
+normalize.rb で String にメソッドを追加するようにして lib/unicode_normalize.rb
+で同じメソッドを再度呼び出すようにしています。

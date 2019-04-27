@@ -1,0 +1,2 @@
+Module#const_set が定数の visibility を public にリセットしてしまう不具合を修正
+しています。[ruby-core:32912]

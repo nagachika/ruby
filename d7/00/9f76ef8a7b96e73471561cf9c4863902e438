@@ -1,0 +1,4 @@
+GC.stat に :last_collection_flags という項目を追加して最後の GC のトリガーや種
+類(major, minor)などを返すようにしています。また返された値を解釈するために GC
+::Profiler.decode_flags というメソッドを追加しています。ふーむなんか最初から
+decode したものを返しても良いような気もしますけど。

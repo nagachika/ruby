@@ -1,0 +1,4 @@
+Struct のattribute アクセスの高速化のために ISeq を生成する関数を iseq.c から
+compile.c に移動して、Array を作って rb_iseq_build_from_ary() でロードするので
+はなくて通常のコンパイルと同様に rb_iseq_t のリストを生成するように変更していま
+す。だいぶスッキリしましたね。

@@ -1,0 +1,2 @@
+lib/abbrev.rb の rdoc のサンプルコード追加や修正をしています。
+[ruby-core:47442] [Bug #6985]

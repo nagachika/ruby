@@ -1,0 +1,4 @@
+次は gc.c の rb_raw_obj_info() で me->def が NULL の時にも参照してしまうように
+なっていたので、InitVM_Object() から呼ばれた時に SEGV してしまう可能性があった
+ので、チェックしてその時は method_type_name() での文字列化をあきらめるようにし
+ています。 [ruby-dev:50407] [Bug #14270]

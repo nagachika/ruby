@@ -1,0 +1,3 @@
+拡張ライブラリ stringio で StringIO#write の実装時に文字列を追加するのに
+rb_str_cat() のかわりに eb_enc_str_buf_cat() を読んで StringIO のエンコーディン
+グを保存するようにしています。

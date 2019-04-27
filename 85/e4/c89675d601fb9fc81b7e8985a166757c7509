@@ -1,0 +1,3 @@
+Psych で YAML ファイルを読む際に external encoding が US-ASCII, ASCII-8BIT,
+UTF-8/16 でなかったら例外を発生させていたのを YAML_ANY_ENCODING (libyaml で定義
+されている定数らしい)を利用するようにしています。

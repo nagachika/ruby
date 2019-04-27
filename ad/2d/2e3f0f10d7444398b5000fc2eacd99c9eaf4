@@ -1,0 +1,3 @@
+よくわかりませんが include/ruby/ruby.h で mingw 環境の時に RUBY_EXTERN に
+__declspec(dllimport) という attribute? の指定を追加しています。これで MJIT の
+テストが MinGW で通るようになったみたいで skip をいくつか消しています。

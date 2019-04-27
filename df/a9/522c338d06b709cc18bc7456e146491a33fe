@@ -1,0 +1,2 @@
+FileUtils.cp_r の rdoc のサンプルコードの説明が間違っていたのを修正しています。
+[ruby-core:44941] [Bug #6411]

@@ -1,0 +1,4 @@
+r49977 の random.c での警告避けはやっぱりやめて、include/ruby/ruby.h で
+rb_data_object_alloc_warning() の警告を __builtin_constant_p() がうまく働く時に
+だけ有効にするようにしています。こうすると random.c の Data_Wrap_Struct() は
+klass に定数 0 を渡しているので警告が抑制されるとのこと。

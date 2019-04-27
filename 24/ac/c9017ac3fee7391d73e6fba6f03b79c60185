@@ -1,0 +1,2 @@
+r32100 で漏れていた test/openssl/test_config.rb のコミットです。OpenSSL が未定
+義の時にテストを定義しないようにしています。

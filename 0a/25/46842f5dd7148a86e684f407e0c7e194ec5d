@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http のテストで Net::HTTP.start を呼んだ後に Net::HTTP#
+finish を読んで fd leak を修正しています。けどこれ例外発生時は h が nil になっ
+て NoMethodError になるんじゃないかな。

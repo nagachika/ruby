@@ -1,0 +1,6 @@
+同じく r64677 で leaf=true にできなかった opt_str_freeze および opt_str_uminum
+も rb_funcall() を含まない実装にしています。なんですがこれはメソッド呼び出しが
+必要になったら命令の実装内で rb_funcall() するんじゃなくて、VM スタックに push
+してから opt_send_without_block 命令に dispatch しなおすことで結果的にメソッド
+呼び出しが行なわれるようにしていて、はーなるほどなー。よくみると opt_xxx 系の命
+令は既にだいたいこのテクニックを使ってますね。

@@ -1,0 +1,3 @@
+process.c の save_redirect_fd()、run_exec_dup2()、run_exec_open() などは昨日の
+リファクタリングとは逆に VALUE を受け取っていたのを struct rb_execarg を受け取
+ってそのメンバの options にアクセスするようにしています。

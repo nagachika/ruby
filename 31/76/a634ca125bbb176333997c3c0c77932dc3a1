@@ -1,0 +1,2 @@
+iseq.c の rb_iseq_compile_with_option() で gcc 4.8 向けの警告抑制のために変数宣
+言に修飾子を追加しています。

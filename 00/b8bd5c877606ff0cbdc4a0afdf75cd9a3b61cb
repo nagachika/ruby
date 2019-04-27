@@ -1,0 +1,2 @@
+さらに rdoc コメントや ext/readline/README.ja などのドキュメントでも $SAFE = 4
+の廃止に伴なう修正を行なっています。

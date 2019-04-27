@@ -1,0 +1,4 @@
+ia64 アーキテクチャでメインスレッドの machine stack の開始位置のマークを
+ruby_init_stack() の先頭に移動しています。VMの初期化途中の GC で SEGV すること
+があったみたいです。 https://github.com/ruby/ruby/pull/1625 [ruby-core:79928]
+[Bug #13284]

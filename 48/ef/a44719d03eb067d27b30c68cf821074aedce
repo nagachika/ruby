@@ -1,0 +1,4 @@
+これも sleepy timer thread (不要な時に timer thread が定期的に wakeup するのを
+抑制する実装)が無効化されたビルドの時の fork のテストの修正のため
+native_stop_timer_thread() で USE_SLEEPY_TIMER_THREAD が偽の時も
+native_thread_join() は呼ぶようにしています。

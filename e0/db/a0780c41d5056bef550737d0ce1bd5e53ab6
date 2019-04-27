@@ -1,0 +1,2 @@
+configure.ac にコンパイラの警告オプションに -Wno-unused-value を追加しています
+。clang の大量の警告を抑制するためとのこと。

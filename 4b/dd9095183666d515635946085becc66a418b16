@@ -1,0 +1,2 @@
+DTrace の probe の function-entry や function-return という名称を method-entry,
+method-return にそれぞれ変更しています。

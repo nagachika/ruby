@@ -1,0 +1,3 @@
+process.c の rb_exec_fillarg() でコマンドラインを分割する時に先頭に "/bin/sh"
+を入れるためのスペースを追加しています。またそのぶんの調整を r35909 で定義した
+ARGVSTR2ARGC() と ARGVSTR2ARGV() で吸収しています。

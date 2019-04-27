@@ -1,0 +1,3 @@
+標準添付ライブラリ pstore の checksum 計算に使うアルゴリズムというか Digest の
+クラスを直接 Digest::MD5 を参照せずに CHECKSUM_ALGO という定数に代入してこちら
+を参照するようにしています。

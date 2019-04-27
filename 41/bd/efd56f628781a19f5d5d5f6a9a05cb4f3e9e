@@ -1,0 +1,4 @@
+TracePoint のテスト用の拡張ライブラリで TracePoint の無効化を rb_ensure() を使
+って確実に行うようにしています。テスト中に Ctrl-C で割り込むと TracePoint の設
+定が残ったままになって SEGV することがあったそうです。 [ruby-dev:47901] [Bug #
+9426]

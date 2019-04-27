@@ -1,0 +1,2 @@
+NEWS ファイルの begin に対する rescue 節なしの else 節は SyntaxError にする変更
+にチケット番号を追記しています。 [Feature #14606]

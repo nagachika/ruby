@@ -1,0 +1,2 @@
+test/ruby/test_io.rb の IO#advice のテストで結果が nil であることを確認するチェ
+ックを assert_equal を使ってたのを assert_nil に変更。

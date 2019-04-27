@@ -1,0 +1,5 @@
+CentOS 5 の古い ruby だと Array#shift に引数が受け付けられなかったり String#
+start_with? がなかったりするので tool/downloader.rb の r47693 や r47726 の変更
+を修正しています。start_with? ってどれくらい前だろ…多分 1.8系でしょうね。
+[追記]String#start_with? は 1.8.7 からで、CentOS5 の ruby は 1.8.5 だそうです。
+古いなぁ[/追記]

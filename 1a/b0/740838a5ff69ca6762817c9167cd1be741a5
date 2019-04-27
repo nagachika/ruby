@@ -1,0 +1,2 @@
+標準添付ライブラリ uri の URI.find_proxy で http_proxy などの環境変数を ENV を
+参照するかわりに省略可能な引数に Hash を渡せるようにしています。

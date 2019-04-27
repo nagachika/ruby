@@ -1,0 +1,3 @@
+TracePoint の :b_return イベントが lambda{ return } のような lambda タイプの
+Proc オブジェクトの中で return した時にもフックが呼ばれるようにしています。
+[ruby-core:55924] [Bug #8622]

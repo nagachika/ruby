@@ -1,0 +1,2 @@
+ext/extmk.rb で生成する Makefile に ext/extinit.o のターゲットを追加するように
+して、クロスコンパイル時のエラーを修正しているそうです。

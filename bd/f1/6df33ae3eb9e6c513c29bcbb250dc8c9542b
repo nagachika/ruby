@@ -1,0 +1,2 @@
+Marshal.dump でもう一箇所 TypeError 例外のメッセージにクラス名を埋め込む時に
+PRIsVALUE を利用するようにしています。

@@ -1,0 +1,2 @@
+r63212 や r63333 で入っては一部 revert されていた attr_reader のメソッドの MJIT
+コンパイル時の inline 化の最適化の残っていた部分を revert しています。

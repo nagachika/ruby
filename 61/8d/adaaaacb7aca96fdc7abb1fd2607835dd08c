@@ -1,0 +1,2 @@
+r47251 と r47263 で削除した test_complex.rb と test_rational.rb から削除したコ
+メントアウトされた assertion のうち通るものを追加しています。

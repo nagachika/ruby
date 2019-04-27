@@ -1,0 +1,1 @@
+appveyor.yml でビルド時に利用する libressl を 2.3.5 に更新しています。

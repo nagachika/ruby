@@ -1,0 +1,3 @@
+String#crypt が NUL文字を持つ String オブジェクトに対して呼ばれたら
+ArgumentError を発生させるようにしています。なるほど。まあ crypt(3) を呼んでい
+るのでしかたないですね。 [Bug #10988] https://github.com/ruby/ruby/pull/853

@@ -1,0 +1,4 @@
+Time.new や Time#getlocal の引数に timezone オブジェクトなるものを受け付けるよ
+うにして、生成される Time オブジェクトの offset の指定ができるようにしています
+。また内部で利用するために Time::TM というクラスが追加されています。
+[ruby-core:87507] [Feature #14850]

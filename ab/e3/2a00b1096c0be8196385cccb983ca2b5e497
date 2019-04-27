@@ -1,0 +1,4 @@
+r55041 で sum_iter() に追加されてる assert() の呼び出しが変数宣言の前にあって
+-Werror=declaration-after-statement によってエラーになっていたので無理矢理使わ
+ない変数 unused の初期化子として assert() の呼び出しを埋め込んでいます。すごい
+。

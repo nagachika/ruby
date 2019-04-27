@@ -1,0 +1,3 @@
+Bignum の実装で利用しているワードサイズの型である BDIGIT の定義とそれに関する一
+連の定義を include/ruby/defines.h から internal.h に移動して、非公開としていま
+す。

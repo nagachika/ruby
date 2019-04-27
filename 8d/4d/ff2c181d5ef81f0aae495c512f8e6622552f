@@ -1,0 +1,4 @@
+Module#method_defined? の rdoc 用コメントに protected や private のメソッドの場
+合についてサンプルを追加しています。あれ、private メソッドは継承されると効かな
+いのか。またテストにも protected/private のメソッドのケースを追加しています。
+https://github.com/ruby/ruby/pull/1071 https://github.com/ruby/ruby/pull/1072

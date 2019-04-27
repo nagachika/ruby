@@ -1,0 +1,3 @@
+拡張ライブラリ strscan に StringScanner#charpos というメソッドを追加して、現在
+の位置を byte 単位ではなくて(StringScanner#pos という既存のメソッドは byte 単
+位)文字数単位で取得できるようにしています。

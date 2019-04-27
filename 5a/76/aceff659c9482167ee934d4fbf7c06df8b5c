@@ -1,0 +1,5 @@
+テスト test/ruby/test_file_exhaustive.rb のユーティリティメソッド
+make_tmp_filename で作成したパス名を @hardlinkfile というインスタンス変数に代入
+していたのをやめています。このインスタンス変数は setup で初期化されているもので
+、たまたま最後の make_tmp_filename の呼び出しの結果が @hardlinkfile に代入され
+ていたので影響がなかったけどまあテストのバグ修正ですね。

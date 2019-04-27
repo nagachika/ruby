@@ -1,0 +1,2 @@
+tool/rbinstall.rb で bundled gems のインストール時に bin/ ディレクトリのファイ
+ルの mode を設定するようにしています。

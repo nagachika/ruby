@@ -1,0 +1,2 @@
+標準添付ライブラリ time.rb の Time.strptime の rdoc コメントの文法の間違いを修
+正しています。 https://github.com/ruby/ruby/pull/416

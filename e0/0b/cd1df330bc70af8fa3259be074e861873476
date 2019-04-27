@@ -1,0 +1,3 @@
+標準添付ライブラリ logger のテストスクリプト test/logger/test_logger.rb から内
+部的なクラス毎に test_application.rb、test_logdevice.rb、test_severity.rb にテ
+ストを切り出すリファクタリング。

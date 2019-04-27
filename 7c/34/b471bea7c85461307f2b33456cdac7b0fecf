@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal と io/console の .gemspec ファイルの require_path が
+"." となっていたのを "lib" に修正しています。む、gem パッケージからインストール
+すると require できなくなってたってことですかね。 https://github.com/ruby/ruby/
+pull/929

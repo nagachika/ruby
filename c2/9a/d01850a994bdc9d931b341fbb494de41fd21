@@ -1,0 +1,2 @@
+RTEST() NIL_P() といったマクロで Qnil のかわりに RUBY_Qnil という prefix つきの
+マクロを使うようにしています。 RUBY_Qnil なんてあったのか、知らなかった…。

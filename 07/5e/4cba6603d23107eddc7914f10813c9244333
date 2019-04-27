@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix.rb の Matrix::LUPDecomposition#det で正方行列でない時
+の例外発生の条件分岐に存在しないメソッド square? を呼んでいたのを削除しています
+。 [ruby-core:51118] [Bug #7620]

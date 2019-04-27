@@ -1,0 +1,3 @@
+rb_name_err_new() という NameError 例外を生成する関数とそれを利用した関数マクロ
+rb_name_err_raise(), rb_name_err_raise_str() を追加しています。続く変更のための
+布石です。 [Feature #10881]

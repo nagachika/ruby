@@ -1,0 +1,4 @@
+ruby 自体のテスト用のライブラリ EnvUtil に子プロセスの後始末をするメソッド
+terminate を invoke_ruby から切り出して定義して、Process.wait と Timeout を組み
+合わせたテストで子プロセスが残る場合があるところの後始末に使うようにしています
+。

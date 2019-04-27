@@ -1,0 +1,6 @@
+r45480に続いて RubyVM.stat でも取得する統計情報のキーを Symbol で渡して、そのキ
+ーが不明だった時に SYM2ID() を使っていたため Symbol が pin down されてしまう可
+能性があったのと、一時的に生成した String オブジェクトのバッファだけ rb_raise()
+に渡していた問題を rb_sym2str() を使って文字列化して pin down されないようにし
+、PRIsVALUE で埋め込むことで GC の mark 漏れによる不具合の可能性を回避していま
+す。

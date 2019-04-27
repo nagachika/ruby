@@ -1,0 +1,3 @@
+拡張ライブラリ dbm で dbm_pagfno() と dbm_dirfno() という関数がサポートされてい
+たらこれを使って file descriptor を取り出して rb_fd_fix_cloexec() を呼んで、
+close-on-exec フラグのセットと最大値の更新をするようにしています。

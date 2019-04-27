@@ -1,0 +1,6 @@
+Process.spawn や popen でコマンドとして指定されたファイルが shebang(先頭の行の
+!#)がないなどで execv が ENOEXEC で失敗したら /bin/sh が指定されたものとしてリ
+トライするようにしています。[ruby-core:32745] [EXPERIMENTAL]
+判定方法が errno が ENOEXEC の時というものですが、ELF のアーキテクチャ違いとか
+もあるかも。バイナリファイルを sh に渡すと "cannot execute binary file" とか言
+われてしまって、却ってなにが悪いのかわかりにくくなったりしないでしょうか。

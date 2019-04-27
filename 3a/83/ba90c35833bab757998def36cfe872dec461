@@ -1,0 +1,3 @@
+hrtime.h の rb_httime_t 型についての説明コメントで精度と表現範囲についての説明
+に型のサイズについても触れています。 [ruby-core:88678] この ruby-core でのリプ
+ライみたらやっぱり MY_RUBY_BUILD_MAY_TIME_TRAVEL はジョークだったんですね。

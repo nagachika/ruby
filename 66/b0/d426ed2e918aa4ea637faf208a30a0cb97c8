@@ -1,0 +1,2 @@
+r35450 で rubygems のテストで Psych を強制的に使うようにしていたのですが、
+require "psych" が LoadError を発生させる場合は skip するようにしています。

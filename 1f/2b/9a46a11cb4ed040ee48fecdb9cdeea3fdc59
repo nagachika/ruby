@@ -1,0 +1,2 @@
+拡張ライブラリ socket の UDPSocket#read, #recv, #recvmsg などで読むサイズを指定
+した時のテストケースを追加しています。

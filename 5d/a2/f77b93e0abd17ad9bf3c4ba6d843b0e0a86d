@@ -1,0 +1,3 @@
+parse.y の parser_yylex() で lexer の状態遷移の条件分岐も行なっていたのを、
+parser_string_term(), parser_parse_string(), parser_here_document() などのそこ
+から呼び出している関数内で状態のセットも行うようにするリファクタリング。

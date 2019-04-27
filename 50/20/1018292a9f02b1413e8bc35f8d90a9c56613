@@ -1,0 +1,3 @@
+SEGV を発生させるテストで Mac OS X で ~/Library/Logs/DiagnosticReports に残るバ
+ックトレースなどの情報の入ったファイルの内容をチェックして削除もするようにして
+います。

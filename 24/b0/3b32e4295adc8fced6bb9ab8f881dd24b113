@@ -1,0 +1,3 @@
+拡張ライブラリ readline で struct RVALUE のスロットではなくてスタック上の自動変
+数の struct RString をオブジェクトとして初期化して利用していたところを、その専
+用の関数 rb_setup_fake_str() を利用するようにしています。

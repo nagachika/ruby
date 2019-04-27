@@ -1,0 +1,3 @@
+r55840 のついでで set_max_block_time() で ArgumentError 例外を発生させる時に
+rb_funcallv() で inspect を呼び出してたのを PRIsVALUE を使ってメッセージに埋め
+込むようにしています。

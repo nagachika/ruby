@@ -1,0 +1,2 @@
+win32/Makefile.sub の LIBS から既に利用していなかった oldnames.lib というライブ
+ラリを削除しています。

@@ -1,0 +1,2 @@
+test/lib/minitest/spec.rb も ruby 自体のテストでは利用していなかったので削除し
+ています。

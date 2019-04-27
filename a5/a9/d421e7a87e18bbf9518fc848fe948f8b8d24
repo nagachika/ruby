@@ -1,0 +1,4 @@
+r53192 の WEBrick::Utils::TimeoutHandler の再修正。タイムアウトまで待つのに標準
+添付ライブラリ timeout の Timeout.timeout を利用していたのを WEBrick
+::Utils::TimeoutHandler::Thread を起動して join の引数によるタイムアウトを利用
+するようにしています。テストの Thread leak check のための対応だそうです。

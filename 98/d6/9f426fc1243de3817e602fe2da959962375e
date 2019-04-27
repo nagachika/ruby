@@ -1,0 +1,2 @@
+lib/test に標準添付の Test::Unit と test-unit.gem の互換性向上の為の変更を加え
+ているようです。

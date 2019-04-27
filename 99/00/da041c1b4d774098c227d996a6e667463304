@@ -1,0 +1,3 @@
+r37603 と r37625 の ChangeLog の typo 修正。 garbage は非可算名詞なので
+garbages にはならないそうです。なんか garbages と書いてしまったことがあるような
+気がする……。

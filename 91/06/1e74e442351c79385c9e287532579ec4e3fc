@@ -1,0 +1,2 @@
+Object#remove_instance_variable の rdoc 用コメントで Symbol だけでなく String
+も引数に受け付けることを明記しています。

@@ -1,0 +1,1 @@
+vm_core.h から不要になった struct rb_iseq_struct の宣言を削除しています。

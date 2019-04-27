@@ -1,0 +1,5 @@
+標準添付ライブラリ ipaddr を upstream から最新版をマージしています。 IPAddr#
+prefix, IPAddr#loopback?, IPAddr#private?, IPAddr#link_local? などのメソッドの
+追加、不正な netmask をエラーにする機能、IPAddr#ipv4_compat などのメソッドの
+deprecate にして警告メッセージを出すようにするなどの変更がどーんと入っています
+。 [Feature #11666] [Feature #10912] [Bug #13399] [Bug #13769]

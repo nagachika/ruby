@@ -1,0 +1,3 @@
+rubyspec に再び upstream から最新版をマージしています。ファイル末尾の改行が何度
+か追加されてた spec/ruby/language/fixtures/utf16-{be,le}-bom.rb は削除してこれ
+も動的に生成するように対応しているようです。

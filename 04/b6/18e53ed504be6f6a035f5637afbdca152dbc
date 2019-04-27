@@ -1,0 +1,3 @@
+r58356, r58357 などでいじっていた別の Thread での IO#close のテストで Thread#
+status が "sleep" になるまで待つようにしていたのを Thread#stop? で判定するよう
+に修正しています。

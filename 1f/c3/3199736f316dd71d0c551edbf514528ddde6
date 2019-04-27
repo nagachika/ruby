@@ -1,0 +1,6 @@
+r40022 で Module#define_method がその Class/Module での可視性の宣言の状態(無引
+数の public/protected/private/module_function などでその後のメソッド定義のデフ
+ォルトの可視性が変化すること)の影響をうけるようにしたところ、send などを使って
+定義する時に private なメソッドが定義されてしまうことがあったのを修正しています
+。呼び元の cref のクラスと同じ時だけ可視性の状態を考慮するようにしています。
+[ruby-core:58497] [Bug #9141] [ruby-core:57747] [Bug #9005]

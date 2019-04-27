@@ -1,0 +1,3 @@
+標準添付されている rubygems のバージョンを 2.6.2 に更新しています。変更内容は
+https://github.com/rubygems/rubygems/blob/master/History.txt を参照してください
+。 require の高速化が入ったかな?

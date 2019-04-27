@@ -1,0 +1,3 @@
+オブジェクトの比較の最適化版関数 opt_eq_func() で Symbol オブジェクトも直接
+VALUE を比較する最適化を行うようにしています。 https://github.com/ruby/ruby/
+pull/1540 [ruby-core:80231] [Bug #13330]

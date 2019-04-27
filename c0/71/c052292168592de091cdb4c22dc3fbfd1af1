@@ -1,0 +1,7 @@
+include/ruby/ruby.h に RUBY_INTEGER_UNIFICATION というマクロ定義を追加して、拡
+張ライブラリなどで Fixnum/Bignum のクラスの Integer への統合がされているかどう
+かが判定できるようにしています。またこれを参照して rb_cInteger と rb_cBignum を
+rb_cInteger へ展開されるマクロ定義にするようにしています(これまでは別のグローバ
+ル変数で内容が同じ値(rb_cInteger)を代入している状態でした。また拡張ライブラリ
+json のソースでこのマクロを参照して余計なメソッド定義を抑制するようにしています
+。 [ruby-core:75718] [Bug #12427]

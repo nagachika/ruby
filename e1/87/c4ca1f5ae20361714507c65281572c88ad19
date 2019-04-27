@@ -1,0 +1,2 @@
+README.EXT と README.EXT.ja に rb_iter_break() (これは元々存在していたけど言及
+がなかったらしい)と rb_iter_break_value() についての記述を追加しています。

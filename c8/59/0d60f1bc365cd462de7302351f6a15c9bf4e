@@ -1,0 +1,3 @@
+rb_method_refined_struct::orig_me と rb_method_alias_t::orig_me のメンバー型に
+const を付加しています。また class.c の move_refined_method で RB_OBJ_WRITE()
+の利用を追加しています。おお、Write Barrier が必要だった模様。

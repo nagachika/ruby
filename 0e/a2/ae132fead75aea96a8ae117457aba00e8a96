@@ -1,0 +1,2 @@
+Time.new の rdoc 用コメントのサンプルコードの typo 修正。 https://github.com/
+ruby/ruby/pull/374

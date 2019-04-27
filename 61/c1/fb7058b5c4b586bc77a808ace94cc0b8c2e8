@@ -1,0 +1,5 @@
+rubygems のテストで Gem::Security::OPT[:trust_dir] が Gem.user_home に依存して
+決まっていて、テスト用の Gem.user_home が setup で設定されるので更新するように
+しています。また teardown で Gem.user_home が戻るとそれに合わせて Gem
+::Security::OPT[:trust_dir] も戻すように書いていますが、今 Gem.user_home を復旧
+していないので実際には戻ってないとのこと。

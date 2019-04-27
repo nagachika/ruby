@@ -1,0 +1,3 @@
+configure.in で mingw の時に固定で定義しているチェック結果から
+ac_cv_func_fseeko=yes を削除しています。 r40661 で fseeko() のチェックは削除し
+たのでこれも不要なのでしょう。

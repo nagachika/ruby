@@ -1,0 +1,2 @@
+r38939 で拡張ライブラリ socket に導入した rsock_unixpath_len() を
+rsock_unixpath_len() に改名しています。

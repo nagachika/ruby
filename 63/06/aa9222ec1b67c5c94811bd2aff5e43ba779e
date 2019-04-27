@@ -1,0 +1,3 @@
+mjit.c の valid_class_serials という変数に mjit_ という prefix を追加し、
+mjit_valid_class_serial_p() を mjit.c から mjit_worker.c に移動しています。この
+関数を worker thread でしか使われてなかったようです。

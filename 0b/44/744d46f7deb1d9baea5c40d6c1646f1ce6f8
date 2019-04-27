@@ -1,0 +1,3 @@
+構造体 rb_context_t から未使用になってた?メンバー ensure_list を削除しています
+。あれ ec->ensure_list は使ってる……と思ったら rb_execution_context_t じゃなく
+て rb_context_t でしたね。Fibre というか Continuation の内部で使っているやつ。

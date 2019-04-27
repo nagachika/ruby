@@ -1,0 +1,3 @@
+r62429 で rb_intern() をマクロ化して gcc 拡張で引数が定数の場合 1度読んだ結果を
+static 変数にキャッシュする仕組みを入れてましたが、拡張ライブラリ json の ext/
+json/parser/parser.rl から生成するコードでこのマクロを undef しています。

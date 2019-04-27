@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の extconf.rb の magic comment frozen_string_literal を
+true に変更しています。

@@ -1,0 +1,2 @@
+ext/date/date_core.c の rdoc 用コメントの文法の修正(単数形複数形の変更)。
+https://github.com/documenting-ruby/ruby/pull/16

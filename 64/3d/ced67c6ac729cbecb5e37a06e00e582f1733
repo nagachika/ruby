@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::Random のテストがなかったので random_bytes
+と pseudo_bytes の簡単なテストを追加しています。

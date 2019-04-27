@@ -1,0 +1,4 @@
+今度は compile_debug (これは #define compile_debug CPDEBUG と定義されているので
+結局 CPDEBUG) が 2以上という条件の時にコンパイルした命令列を disassemble したも
+のを printf しているところで #define printf ruby_debug_printf と利用する関数を
+すりかえたうえで fflush() の呼び出しを削除しています。

@@ -1,0 +1,3 @@
+test/profile_test_all.rb というテストのプロファイラ? を test/lib/
+profile_test_all.rb へ移動しています。 make test-all でのメモリ使用量などのプロ
+ファイル取得のためのスクリプトですね。

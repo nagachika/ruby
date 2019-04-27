@@ -1,0 +1,5 @@
+TracePoint#enable に target: というキーワード引数を追加して Method や Proc オブ
+ジェクトを指定するとその中でのみイベントフックが有効になるようにしています。
+rb_iseq_t の予約済みのフィールドを struct rb_hook_list_struct のリストにして局
+所的なフックを登録できるようにして、対象の命令のみ trace あり命令に書き換えるよ
+うにしています。 [ruby-core:89747] [Feature #15289]

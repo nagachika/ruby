@@ -1,0 +1,5 @@
+win32/win32.c の rb_w32_write_console() で dwMode の
+ENABLE_VIRTUAL_TERMINAL_PROCESSING ビットフラグが立っていた時に、WriteConsoleW
+() から返す書き込みサイズを関数からの戻り値の reslen にセットしておかないといけ
+ないのを一時変数に書き込んで捨てていたのを修正しています。環境によって2重に出力
+が表示される不具合を修正しているようです。 [ruby-dev:49786] [Bug #12748]

@@ -1,0 +1,2 @@
+enumerator.c の Enumerable#chain の実装で call の ID を毎回 rb_intern() してた
+のを事前に用意されている id_call を参照するように修正しています。

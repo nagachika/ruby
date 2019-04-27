@@ -1,0 +1,3 @@
+r50518 で追加した Socket#accept_nonblock のテストの assertion を
+assert_predicate を使ってエラー時によりわかりやすいメッセージが出るようにしてい
+ます。

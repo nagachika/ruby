@@ -1,0 +1,2 @@
+test/ruby/test_array.rb の未使用のローカル変数削除や組み込みクラス Fixnum の演
+算子の再定義のなどの警告除去。

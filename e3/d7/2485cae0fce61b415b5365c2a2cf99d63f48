@@ -1,0 +1,3 @@
+RubyGems の警告除去続き。 File.exists? を利用しているところがあったのですが
+r43377 あたりで deprecated として警告を出すようにしたので File.exist? を利用す
+るように書き換えています。

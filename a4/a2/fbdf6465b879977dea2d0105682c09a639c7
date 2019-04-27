@@ -1,0 +1,2 @@
+rexml の entity expansion のテストで REXML::Security.entity_expansion_limit の
+設定を戻すのを teardown メソッドで実行するようにしています。

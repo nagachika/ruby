@@ -1,0 +1,2 @@
+r37098 の Unicode 判定を rb_encoding::flags の Unicode フラグのチェックにしたの
+を revert しています。なにかダメだったんでしょうか。よくわかりません。

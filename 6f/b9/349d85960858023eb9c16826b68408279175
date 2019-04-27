@@ -1,0 +1,2 @@
+parse.y と variable.c、拡張ライブラリ digest や strscan でも構造体のメモリ確保
+とオブジェクトの確保の順番を変更して潜在的 memory leak を修正しています。

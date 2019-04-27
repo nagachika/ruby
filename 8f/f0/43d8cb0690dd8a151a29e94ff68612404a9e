@@ -1,0 +1,2 @@
+さらに Process.spawn などでリダイレクト用のファイル名の文字列も
+rb_str_encode_ospath() でエンコーディング変換するようにしています。

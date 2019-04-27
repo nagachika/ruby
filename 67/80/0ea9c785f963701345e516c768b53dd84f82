@@ -1,0 +1,4 @@
+loadpath の初期化を整理して ruby_archlibdir_path と ruby_prefix_path という変数
+を導入して、ruby.c と mjit.c で共有するようにしています。ちょっとよく読めてませ
+んが mjit.c で同じような処理をしてたのをまとめたという感じではないかと思います
+。

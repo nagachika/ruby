@@ -1,0 +1,4 @@
+DTrace のテストの helper で子プロセスとして ruby を起動するときのコマンドライン
+の構築で、miniruby じゃなかった時のため(RbConfig::TOPDIR はインストール先を指し
+てるので普通 miniruby はないとある) --disable=gems オプションを付けるようにして
+います。

@@ -1,0 +1,2 @@
+r53402 の追加修正。 remove_unreachable_chunk() に iseq 全体も引数に受け取るよう
+にして call_info の配列サイズも縮小するようにしています。

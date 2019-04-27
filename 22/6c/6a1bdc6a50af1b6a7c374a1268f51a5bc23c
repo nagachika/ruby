@@ -1,0 +1,3 @@
+拡張ライブラリ psych を 2.0.14 にアップデートしています。 ChangeLog はこちら
+https://github.com/tenderlove/psych/blob/v2.0.14/CHANGELOG.rdoc
+ぱっと見 JRuby 対応や parse の不具合修正が入っているようです。

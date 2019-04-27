@@ -1,0 +1,3 @@
+[ruby-core:32501] に報告されている、Method オブジェクトを to_proc で Proc オブ
+ジェクト化したものを instance_eval にブロック変数として渡すと [BUG] で落ちる不
+具合を修正。

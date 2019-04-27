@@ -1,0 +1,4 @@
+拡張ライブラリ openssl の Authenticated Encryption with Associated Data (AEAD)
+のサポートも OpenSSL がサポートしている時だけ実装して、未対応のライブラリとリン
+クする時は NotImplementmentedError が発生します。 [ruby-core:47426] [Feature #
+6980]

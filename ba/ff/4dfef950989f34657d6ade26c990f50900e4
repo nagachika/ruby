@@ -1,0 +1,5 @@
+RGenGC の世代毎のオブジェクト数カウントの漏れを修正しているようです。そのため
+RVALUE_DEMOTE_FROM_YOUNG() と RVALUE_DEMOTE_FROM_OLD() の引数に rb_objspace を
+追加しています。
+ついでに if のブロックに brace なしのだったところを brace で囲むようにするなど
+スタイルの変更。

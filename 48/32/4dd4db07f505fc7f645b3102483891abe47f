@@ -1,0 +1,2 @@
+io.c の io_write_nonblock() で str に RB_GC_GUARD() を追加して mark 漏れによる
+利用中のオブジェクトの GC を回避するようにしています。

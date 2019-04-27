@@ -1,0 +1,5 @@
+プロセス終了時にそれ以降の新規 Thread の生成を禁止するための
+rb_vm_struct::inhibit_thread_creation というフィールドを使っていたのですが、こ
+のフィールドを構造体から削除して、メインスレッドの status が THREAD_KILLED だっ
+たら終了中として Thread の生成を禁止するようにチェックする方法を変更しています
+。

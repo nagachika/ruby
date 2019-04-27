@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::HMAC の rdoc 用コメントにサンプルを追記して
+います。 https://github.com/documenting-ruby/ruby/pull/14

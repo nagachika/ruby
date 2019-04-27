@@ -1,0 +1,4 @@
+prepend_features メソッドを Class で undef しておくようにしています。
+append_features と同様の扱いにしています。このメソッドはその Module 自身が別の
+Module/Class に prepend された時に呼ばれるフックメソッドなので Class が持つべき
+ではないからです。 https://github.com/ruby/ruby/pull/376

@@ -1,0 +1,2 @@
+tool/mkconfig.rb で configure による変数の MJIT_ からはじまるものは拡張ライブラ
+リ向けには出力しないようにしています。

@@ -1,0 +1,2 @@
+.gitignore に自動生成される lib/unicode_normalize/tables.rb と enc/unicode/data
+/*.txt を追加しています。

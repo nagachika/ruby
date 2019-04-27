@@ -1,0 +1,4 @@
+不要なシンボル生成の抑制についてのテストで const_missing フックメソッドを
+NameError 例外を定義するようにしています。また const_missing が定義されていると
+const_get ではシンボルが生成されてしまうので、const_get のぶんの assertion はコ
+メントアウトしています。

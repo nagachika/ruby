@@ -1,0 +1,1 @@
+tool/fake.rb で RbConfig::CONFIG の "extout" 設定を引き継ぐようにしています。

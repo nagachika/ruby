@@ -1,0 +1,2 @@
+r65558 の ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS の定義でチェックが利用できない時
+の定義が古いままだったのを修正しています。

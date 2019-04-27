@@ -1,0 +1,5 @@
+tool/vcs.rb で git svn dcommit で git で作業しているリポジトリからコミットする
+時に複数のコミットがあった時に一気にコミットせず、分割して1つずつ git svn
+dcommit して git rebase するようにしています。GitHub にミラーする post commit
+のスクリプトが一気にコミットされると同期に失敗することがあるので、それを避ける
+ためみたいです。

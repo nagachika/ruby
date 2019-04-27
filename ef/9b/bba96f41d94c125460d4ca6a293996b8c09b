@@ -1,0 +1,2 @@
+include/ruby/win32.h で stat() を代替関数に定義する前に #undef することで警告を
+回避しています。

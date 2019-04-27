@@ -1,0 +1,3 @@
+Process.euid=, Process.egid= 等 UID/GID を受け取るメソッドで数値だけでなく名前
+でも指定できるようにしています。getpwnam(), getgrnam() 等でユーザ名/グループ名
+からIDを取得するようにしています。 [ruby-core:40923] [Feature #5610]

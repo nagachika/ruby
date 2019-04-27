@@ -1,0 +1,3 @@
+Process.spwan にとても長いコマンド文字列を渡した時のテストで NoMemoryError が発
+生する場合もあるのでそれを捕捉するように assert_raise に渡す引数に追加していま
+す。

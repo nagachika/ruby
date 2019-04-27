@@ -1,0 +1,5 @@
+thread_pthread.c の timer_thread_sleep() で errno を swich 文の条件部と関数呼び
+出しの引数に使っていたところをローカル変数に代入してからそれを使うようにしてい
+ます。むむ、これはなぜでしょう。 thread_pthread.c には他にも同様に errno で分岐
+して rb_async_bug_errno() に errno を直接渡しているところがありますがそれらも変
+更したほうがいいのでしょうか。

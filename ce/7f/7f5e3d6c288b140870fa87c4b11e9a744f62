@@ -1,0 +1,5 @@
+拡張ライブラリに cgi/escape というのを追加して、標準添付ライブラリ cgi の一部
+CGI.escapeHTML をこの拡張ライブラリの実装で上書きするようにしています。文字列が
+ASCII-compatible な時に C 実装を用いて、そうでない時は super でオリジナルの実装
+に委譲するようにしています。これも ERB の最適化の一種みたいですね。 https://
+github.com/ruby/ruby/pull/1164

@@ -1,0 +1,2 @@
+tool/runruby.rb で r52008 で導入した ruby-runner が存在しなかった場合は ruby 本
+体を利用するようにしています。

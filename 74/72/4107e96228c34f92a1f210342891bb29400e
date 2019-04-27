@@ -1,0 +1,4 @@
+thread.c の errno の EINTR や ERESTART などリトライ対象のエラーを判定する
+retryable() をタイムアウトの期限も引数に渡してこのタイマーを 0 にセットしなおし
+てリトライするようにして wait_retryable() という関数名に変更しています。EINTR
+などのエラーが do_select() などからかえらないようにしているみたいです。

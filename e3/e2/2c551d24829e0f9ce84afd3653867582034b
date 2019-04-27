@@ -1,0 +1,4 @@
+r63754 の assert_finish で pipe の IO.select と IO#read_nonblock を使って待つよ
+うにする変更を revert しています。ここは BASERUBY で実行されるため IO#
+read_nonblock が使えない可能性があるため。あー、なるほど runner.rb は BASERUBY
+での実行か。

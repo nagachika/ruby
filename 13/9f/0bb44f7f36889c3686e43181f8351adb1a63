@@ -1,0 +1,2 @@
+addr2line.c で ELF 形式ファイルの .debug_info/.debug_abbrev/.debug_str などのセ
+クションの情報も読み込んでダンプするようにしています。

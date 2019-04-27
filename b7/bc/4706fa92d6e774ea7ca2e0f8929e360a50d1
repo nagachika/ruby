@@ -1,0 +1,2 @@
+r42398 の再修正。 vm_push_frame() に追加した引数 stack_max の型を size_t に変更
+しています。

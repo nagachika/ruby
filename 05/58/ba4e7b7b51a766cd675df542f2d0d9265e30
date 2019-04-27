@@ -1,0 +1,2 @@
+rubyspec の C API 用の拡張ライブラリで long long とポインタのサイズが同じ場合に
+String#hash の戻り値を Fixnum の範囲に収まるように型キャストを追加しています。

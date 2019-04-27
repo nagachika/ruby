@@ -1,0 +1,2 @@
+minitest のテストでもヘルパーを require するのに require_relative を使うように
+しています。

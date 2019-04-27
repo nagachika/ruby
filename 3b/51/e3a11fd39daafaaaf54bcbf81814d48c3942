@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix に Matrix#antisymmetric? というメソッドを追加していま
+す。正方行列で行と列を入れ換えても同じものを判定するメソッドです。 https://
+github.com/ruby/ruby/pull/1788

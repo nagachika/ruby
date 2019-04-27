@@ -1,0 +1,2 @@
+numeric.c の fix_lshift(), fix_rshift(), flo_truncate() などの関数の宣言をファ
+イルの先頭に移動しています。

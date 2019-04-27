@@ -1,0 +1,2 @@
+昨日の r29699 の OpenSSL::OCSP::CertificateId#initialize のテストを追加していま
+す。[ruby-core:32460]

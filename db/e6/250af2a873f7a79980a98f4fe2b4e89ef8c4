@@ -1,0 +1,2 @@
+Psych で YAML を生成する時に Psych::Visitors::YAMLTree に Psych::Emitter を渡す
+とエラーになっていたのを修正しています。

@@ -1,0 +1,3 @@
+README.md の英文の修正など。 svn hook のテスト用に pull req をマージしたみたい
+ですが、pull req の番号の参照の埋め込みに失敗しているようですね。たぶんこれ
+https://github.com/ruby/ruby/pull/2004

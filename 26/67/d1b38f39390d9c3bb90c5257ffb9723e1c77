@@ -1,0 +1,4 @@
+SHARABLE_MIDDLE_SUBSTRING を 1 に定義して文字列が NUL 文字終端しないようにする
+と ENV#[ ] の挙動に影響があってテストが失敗していたのを修正しています。
+get_env_cstr() の戻り値の文字列を NUL 終端するようにしています。
+[ruby-dev:49655] [Bug #12475]

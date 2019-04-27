@@ -1,0 +1,4 @@
+拡張ライブラリ socket で BasicSocket.for_fd に -1 を渡すとチェック前に
+rb_update_max_fd() に渡していたため [BUG] で異常終了してしまっていたので、先に
+is_socket() で fd チェックを実行して例外(Errno::EBADF)の発生にするようにしてい
+ます。 [ruby-core:72418] [Bug #11854]

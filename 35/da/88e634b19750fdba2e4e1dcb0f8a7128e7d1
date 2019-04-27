@@ -1,0 +1,2 @@
+make のターゲットの test-rubyspec などの xxx-rubyspec を xxx-spec に改名してい
+ます。古いターゲット名も別名として残っています。

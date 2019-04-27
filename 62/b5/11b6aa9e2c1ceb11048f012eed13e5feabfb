@@ -1,0 +1,2 @@
+r48309 と同様に lib/unicode_normalize/normalize.rb で if-else 文を case 文に書
+きかえる変更。

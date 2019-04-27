@@ -1,0 +1,2 @@
+OpenSSL::Engine のテストで load した engine の後始末を teardown メソッドで一貫
+して実行するようにしています。

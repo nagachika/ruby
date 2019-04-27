@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::Utils#create_listeners で socket の閉じ
+忘れがあったのを修正しています。

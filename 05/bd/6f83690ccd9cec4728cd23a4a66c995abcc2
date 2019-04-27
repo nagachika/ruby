@@ -1,0 +1,2 @@
+r54778 の修正漏れで Bignum#bit_length メソッド定義が消えてなかったので
+rb_define_method() 呼び出しも削っています。

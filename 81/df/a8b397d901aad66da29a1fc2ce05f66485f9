@@ -1,0 +1,3 @@
+r45047 で getaddrinfo() の不具合回避のために追加した実装でメモリ確保を xmalloc
++ MEMZERO() でクリアしていたのを xcalloc() を使うことでシンプルにしています。
+https://bugs.ruby-lang.org/issues/9525#note-14

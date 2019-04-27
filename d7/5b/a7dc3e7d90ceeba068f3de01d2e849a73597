@@ -1,0 +1,2 @@
+拡張ライブラリ io/console の ext/io/console/depend で nmake 用の VPATH の記法が
+使われていたのをやめています。

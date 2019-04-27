@@ -1,0 +1,2 @@
+r40772 で Psych::Visitors::YamlTree.new の警告のメッセージがエラーになっていた
+のを修正しています。 [ruby-core:55011] [Bug #8410]

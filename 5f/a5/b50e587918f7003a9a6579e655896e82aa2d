@@ -1,0 +1,1 @@
+eval_error.c の error_print() のローカル変数宣言に const 修飾子を追加。

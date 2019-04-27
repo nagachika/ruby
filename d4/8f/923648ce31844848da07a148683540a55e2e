@@ -1,0 +1,4 @@
+enc/unicode.c の onigenc_unicode_get_case_fold_codes_by_str() で
+onigenc_unicode_unfold{123}_lookup() が返した codepoint を CodePointListValidP
+() でチェックするようにしています。 gcc 4.9 向けとあるのは警告除去のためという
+ことでしょうか。

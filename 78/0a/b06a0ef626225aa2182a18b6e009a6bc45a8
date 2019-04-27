@@ -1,0 +1,2 @@
+bignum.c の rb_absint_numwords() の rdoc コメントにオーバフローがおきるケースに
+ついて追記しています。

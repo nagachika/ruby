@@ -1,0 +1,2 @@
+make update-unicode というターゲットを追加して Unicode のデータファイルをダウン
+ロードするようにしています。

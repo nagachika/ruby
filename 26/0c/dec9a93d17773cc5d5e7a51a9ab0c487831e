@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal.c で GC からの保護のための独自のスタック構造への push
+を BigDecimal_initialize() と BigDecimal_global_new() に追加しています。

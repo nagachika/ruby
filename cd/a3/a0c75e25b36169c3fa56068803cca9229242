@@ -1,0 +1,2 @@
+r37783 で追加した GC::Profiler.clear のテストの typo 修正。 [ruby-core:49828]
+[Bug #7419]

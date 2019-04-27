@@ -1,0 +1,3 @@
+標準添付ライブラリ ostruct に OpenStruct#[ ] と OpenStruct#[ ]= メソッドを追加
+しています。要素に Hash のようにアクセス/追加できるようにしています。
+[ruby-core:42779] [Feature #6056]

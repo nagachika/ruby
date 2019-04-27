@@ -1,0 +1,2 @@
+gc.c の wmap_aset() でメモリ確保の時に不要なサイズチェックを省くため
+ruby_xmalloc2() のかわりに ruby_xmalloc0() を呼ぶようにしています。

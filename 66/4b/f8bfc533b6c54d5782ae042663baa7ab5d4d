@@ -1,0 +1,2 @@
+make help の表示で make check と make exam の説明を r64270 で make check が
+test-spec も含むようになったのに追随させています。

@@ -1,0 +1,2 @@
+Numeric#integer?, Numeric#to_int, Float#divmod の rdoc コメントのマークアップの
+修正やサンプルコードの追記など。

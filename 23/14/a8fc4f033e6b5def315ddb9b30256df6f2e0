@@ -1,0 +1,2 @@
+r39130 での win32/Makefile.sub に追加した rbconfig.rb に出力する変数にさらに
+archlibdir, sitearchdir, vendorarchdir, rubyarchhdrdir などを追加しています。

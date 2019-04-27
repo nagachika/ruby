@@ -1,0 +1,2 @@
+include/ruby/intern.h の rb_autoload() も include/ruby/backward.h に移動してい
+ます。

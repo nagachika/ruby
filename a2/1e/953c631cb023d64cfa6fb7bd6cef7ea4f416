@@ -1,0 +1,2 @@
+make commit という Makefile のターゲットで、コミット後に parse.c, lex.c, id.c
+など自動生成系のソースコードの再生成をするようにしています。

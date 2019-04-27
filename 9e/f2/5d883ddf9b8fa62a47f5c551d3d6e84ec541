@@ -1,0 +1,2 @@
+r40508 の一部の tainted? と untrusted? の rdoc の修正を revert しその他にも英文
+の文法的な改善のために修正しているようです。

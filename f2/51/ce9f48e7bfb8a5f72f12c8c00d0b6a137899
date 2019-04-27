@@ -1,0 +1,3 @@
+GC 関連のベンチマーク用の utility benchmark/gc/gcbench.rb で GC::Profiler はデ
+フォルトでは無効にしておいて、コマンドラインオプション -p で有効にできるように
+しています。遅いからかな。

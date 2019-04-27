@@ -1,0 +1,5 @@
+標準添付ライブラリ fileutils の FileUtils.compare_file の rdoc 用コメントのサン
+プルで /bin/cp と /bin/mv を比較してるのがありましたが、環境によっては(busybox
+とかかな)同一ファイルなので maybe false とか書いてあったので、false になるケー
+スとしてデバイスファイルの比較をサンプルに上げるように変更しています。
+[ruby-core:75431] [Misc #12365]

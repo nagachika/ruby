@@ -1,0 +1,8 @@
+拡張ライブラリ socket でシステムエラー時に使う rb_sys_fail_str() のラッパ関数
+rsock_sys_fail_host_port()、rsock_sys_fail_path()、rsock_sys_fail_sockaddr()、
+rsock_sys_fail_raddrinfo()、rsock_sys_fail_raddrinfo_or_sockaddr() で
+rb_sys_fail_str() を呼ぶ前にメッセージの生成などの処理で errno が上書きされて 0
+になってしまい、rb_bug() で異常終了してしまうことがあったので errno をバックア
+ップしておいて rb_sys_fail_str() を呼ぶ直前に復旧してから呼ぶようにしています。
+なるほどー、システムエラー時の挙動はテストがなかったんでしょうね。
+[ruby-core:59498] [Bug #9352]

@@ -1,0 +1,9 @@
+timer thread の起動に失敗した時に timer thread への通知用 pipe の構造体
+timer_thread_pipe の owner_process の設定が先に行なわれているので、close された
+pipe へ書き込んでしまうという race condition が起こり得るようになっていたので、
+rb_thread_create_timer_thread() の中で起動成功後にセットするようにしています。
+もっとも timer thread が起動できないという時点でもうどうしようも…と思ったら
+rb_thread_create_timer_thread() は timer thread を作るのに失敗しても警告を出力
+するだけで動き続けるようですね。なるほど、タイマー割り込みやシグナルはきかなく
+なるけどブロックしたら context switch は起きるので、そこそこは動くのかも。
+[ruby-dev:37934] [ruby-core:72590] [Bug #11922]

@@ -1,0 +1,2 @@
+GC.compact で object_id の衝突を検出するテストですが Travis-CI と Wercker だけ
+でなく常に skip するようにしています。

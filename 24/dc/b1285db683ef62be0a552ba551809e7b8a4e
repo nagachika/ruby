@@ -1,0 +1,4 @@
+r52826 の explicit_bzero() の Windows での代替実装ですが、これは関数マクロ定義
+らしく #include <windows.h> を追加しています。また missing.h の inline 展開時だ
+けでなく missing/explicit_bzero.c の代替実装でも利用するようにしています。また
+win32/Makefile.sub で依存関係を追加しています。

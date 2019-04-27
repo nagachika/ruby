@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal の upstream から 1.3.1 をマージしています。 String#
+to_d での変換失敗した時に黙って BigDecimal(0) を返すようにする変更などがありま
+す。 https://github.com/ruby/bigdecimal/compare/v1.3.0...v1.3.1

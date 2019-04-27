@@ -1,0 +1,5 @@
+標準添付ライブラリ drb の DRb::ExtServManager#service で if の条件に &. を使う
+ようにしていたのを && での連結に修正しています。 server には
+invoke_service_command で false が入ってる可能性があるので &. は nil のみ無視す
+るので NoMethodError になる可能性がありました。なるほどー。 [ruby-core:87524]
+[Bug #14856]

@@ -1,0 +1,3 @@
+compile.c の insn_data_to_s_detail() で dladdr(3) に渡すポインタを
+rb_insn_func_t の型にキャストしていましたが、どうせ dladdr() の引数の型は const
+void * なので最初から void * 型の変数にキャストしておくようにしています。

@@ -1,0 +1,3 @@
+test_rubyoptions.rb で -E のテストで Windows では locale によってテストが失敗す
+ることがあるので実際に force_encoding してみて valid_encoding? かどうか確認して
+チェック内容を変更するようにしています。 [ruby-core:46872] [Bug #6813]

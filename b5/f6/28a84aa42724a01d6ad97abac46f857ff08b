@@ -1,0 +1,4 @@
+拡張ライブラリ json で String#encode が使えない時に Iconv を使っていますが配列
+を返す Iconv#iconv を使っていたのを Iconv#conv を使うようにしています。String#
+encode が使えない時というのは 1.8 の時なので trunk のソースとしてはおそらく通ら
+ない位置だと思います。

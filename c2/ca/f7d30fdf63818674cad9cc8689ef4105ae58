@@ -1,0 +1,3 @@
+拡張ライブラリ racc に同梱されている cparse の ext/racc/cparse/README ファイル
+にも RAA へのリンクが含まれていたので http://i.loveruby.net/en/projects/racc と
+https://github.com/tenderlove/racc で置き換えています。

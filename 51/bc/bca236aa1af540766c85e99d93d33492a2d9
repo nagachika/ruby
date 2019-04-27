@@ -1,0 +1,4 @@
+r49882 の変更で tool/mkconfig.rb で ruby のバージョンを configure の --with-
+ruby-version オプションの指定を利用するようにしていましたが、このオプションはラ
+イブラリのインストールパスのために利用するものなので RUBY_PROGRAM_VERSION を利
+用するように修正しています。 [ruby-core:68639] [Bug #11002]

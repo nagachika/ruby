@@ -1,0 +1,6 @@
+String#lines, chars, codepoints, bytes などはこれまで each_{line, char,
+codepoint, byte} などと同じ実装で Enumerator を返していましたが、配列を返すよう
+になっています。ただしブロックが渡されていたら yield する(そして self つまり文
+字列を返す)機能は残しています($VERBOSE == true の時は obsolete の警告が出力され
+るようにしているので、これも将来的には消されるかも)。 [ruby-core:45963]
+[Feature #6670] 結構大きな非互換ですね。

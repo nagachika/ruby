@@ -1,0 +1,3 @@
+test/ruby/test_process.rb のテストで Process.spawn のオプションで fd の close
+をする時に "cannot close fd before spawn" の警告を抑制するため子プロセスで
+$VERBOSE = nil にセットするようにしています。

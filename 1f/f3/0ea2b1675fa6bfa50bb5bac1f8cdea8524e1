@@ -1,0 +1,3 @@
+compile.c の tail call optimization の対象になる leave 前の命令に send や
+opt_send_without_block、invokesuper に加えて opt_aref、opt_aref_with、opt_aset
+、opt_aset_with などの最適化命令も対象にするようにしています。

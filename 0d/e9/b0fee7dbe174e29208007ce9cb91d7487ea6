@@ -1,0 +1,2 @@
+NEWS ファイルに Module#prepend の追加と __callee__ の挙動の変化について記述追加
+しています。

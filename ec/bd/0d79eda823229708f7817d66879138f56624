@@ -1,0 +1,3 @@
+Process のテストで子プロセスを起動する時に伝播させる必要がある環境変数として
+r65588 のために darwin で MJIT_SEARCH_BUILD_DIR と DYLD_INSERT_LIBRARIES も追加
+しています。

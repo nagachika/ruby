@@ -1,0 +1,4 @@
+common.mk の $(UNICODE_PROPERTY_FILES) と $(UNICODE_FILES) のターゲットで直接コ
+マンドを定義せずに update-unicode-property-files や update-unicode-files という
+疑似ターゲットに依存させることで、複数のファイルの更新で同時にコマンド実行させ
+ないように修正しています。

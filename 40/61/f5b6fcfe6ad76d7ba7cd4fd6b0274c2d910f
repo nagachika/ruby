@@ -1,0 +1,3 @@
+doc/syntax/modules_and_classes.rdoc のクラスメソッドの説明を修正しています。
+module_function が instance method を class method に変換するという表現は若干ひ
+っかかるものがありますけどね。

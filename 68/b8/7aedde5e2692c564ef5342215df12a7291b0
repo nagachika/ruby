@@ -1,0 +1,4 @@
+ruby.c の ruby_init_loadpath_safe() からプラットフォーム毎のパス名の変換処理を
+dladdr_path() の中に移動して runtime_libruby_path() という関数名に改名していま
+す。主に Windows 環境でのパスのエンコーディングの扱いについての処理がまとめられ
+ています。

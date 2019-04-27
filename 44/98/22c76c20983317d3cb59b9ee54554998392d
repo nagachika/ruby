@@ -1,0 +1,3 @@
+misc/ruby-additional.el および misc/ruby-mode.el で coding-system :prefer-utf-8
+が使えなかったら default-buffer-file-coding-system :coding-type を使うようにし
+ています。書いててさっぱりわかっていませんが。

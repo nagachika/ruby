@@ -1,0 +1,3 @@
+r46491 で追加した lib/uri/rfc3986_parser.rb で URI に非 ASCII 文字が含まれてい
+たら URI::InvalidURIError を発生させるようにしています。あれ、そうなんですね。
+確か Addressable::URI はこれを通すのだった気がするのでやっり微妙に違うのかも。

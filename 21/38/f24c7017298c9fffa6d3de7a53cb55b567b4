@@ -1,0 +1,5 @@
+VM 命令の invokesuper で receiver を send 命令と同様に VM スタックを使って渡す
+ようにしています。invokesuper は引数なしの super (ZSUPER) か引数を明示した
+super かによって cfp->self に Qtrue か Qfalse を入れておくようにしてましたが、
+struct rb_call_info::flags のビットフラグに ZSUPER を意味するフラグを追加してこ
+ちらで伝えるようにしたそうです。

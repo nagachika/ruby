@@ -1,0 +1,3 @@
+lib/mkmf.rb で LIBPATHFLAG を初期化する時に -L"%s" とクオートをつけていたのをは
+ずしています。libpathflag メソッドで LIBPATHFLAG を利用する時に %s に埋め込む値
+に対して quote メソッドというのを呼んでクオート済みだからです。

@@ -1,0 +1,3 @@
+Array のテストで Array#flatten! のテストメソッドで Array#flatten が使われてた
+assertion を修正しています。よく気がつきましたねぇこれ。 https://github.com/
+ruby/ruby/pull/530

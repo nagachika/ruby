@@ -1,0 +1,4 @@
+Mac OS X Lion 10.7 (Lion) では pthread_cond_signal() が EAGAIN を返してくること
+があるので thread_pthread.c の native_cond_signal() と native_cond_broadcast で
+リトライするようにしています。また pthread_cond_??? を直接使っていたところは
+native_cond_??? を使うようにしています。 [ruby-dev:44342] [Bug #5155]

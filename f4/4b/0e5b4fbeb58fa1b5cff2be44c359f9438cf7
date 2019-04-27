@@ -1,0 +1,6 @@
+Symbol の GC 時の mark 処理を RGenGC の minor GC 時の mark を省略できるようにし
+ています。 Symbol の追加時にシンボルのテーブルの minor mark 済みのフラグを消し
+て、minor mark は繰り返し mark 処理しないようにしています。これで Symbol が大量
+にある状態での GC の負荷が軽くなって早くなるそうです。Symbol が 4万くらいあると
+7.3sec -> 4.2sec になるとかそのくらい効くそうです。 Rails の起動が早くなるかも
+しれませんね。

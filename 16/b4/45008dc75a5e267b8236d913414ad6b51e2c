@@ -1,0 +1,2 @@
+template/encdb.h.tmpl の未使用になっていたマクロ ENCINDEX() の定義を削除してい
+ます。

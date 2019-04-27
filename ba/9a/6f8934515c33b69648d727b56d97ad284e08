@@ -1,0 +1,3 @@
+r65926 の Dir.home のテストの変更で "~username" の展開は Windows でうまく動かな
+かいそうで、Windows では単に "~" を File.expand_path で展開するようにしています
+。 https://github.com/ruby/ruby/pull/2022

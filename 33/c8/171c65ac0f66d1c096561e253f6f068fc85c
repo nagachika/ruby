@@ -1,0 +1,4 @@
+r64677 で opt_case_dispatch() は一部メソッド呼び出しを行なう可能性があったので
+leaf フラグが立てられなかったのを、cdhash_cmp() と cdhash_hash() を再実装してオ
+ブジェクトの型で分岐して rb_funcall() を呼ばないですむようにして leaf=true にし
+ています。

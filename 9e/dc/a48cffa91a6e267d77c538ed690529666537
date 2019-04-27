@@ -1,0 +1,5 @@
+template/insns_info.inc.tmpl でテーブルの定義から static を外して rb_vm_ という
+prefix を追加して外部からも参照できるようにしている? 外部からというか compile.c
+からも #include されているので、そっちで同じ定数を別に作ってメモリを無駄に使わ
+ないようにしているのかと思います。そのためテーブルの定義は iseq.c から include
+された時だけ行うように preprocessor の分岐を追加しています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile の Tempfile.new の第1引数も省略可能にして空文字列を
+basename にするようにしています。 https://github.com/ruby/ruby/pull/523

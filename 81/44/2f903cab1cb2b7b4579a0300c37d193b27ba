@@ -1,0 +1,5 @@
+Object クラスの VALUE の値 rb_cObject を Init_class_hierarchy での bootstrap 時
+に rb_gc_register_mark_object() で GC の root に登録するようにしています。環境
+変数に RUBY_DEBUG=gc_stress を指定して GC.stress の状態で起動すると Object クラ
+スが回収されてしまって SEGV するという不具合があったようです。おおう…。
+[ruby-dev:49666] [Bug #12492]

@@ -1,0 +1,3 @@
+標準添付ライブラリ cgi の CGI.escapeHTML および CGI.unescapeHTML で文字列が
+ASCII 非互換なエンコーディングだった時に置換用の正規表現もそのエンコーディング
+で作成するようにしています。 https://github.com/ruby/ruby/pull/1239

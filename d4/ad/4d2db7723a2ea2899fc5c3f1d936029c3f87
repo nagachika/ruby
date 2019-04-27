@@ -1,0 +1,3 @@
+標準添付ライブラリ shell の Shell.debug_output_exclusive_unlock というメソッド
+の定義は exclusive_unlock という本体のメソッドが既に削除されているので削除して
+います。 https://github.com/ruby/ruby/pull/1185

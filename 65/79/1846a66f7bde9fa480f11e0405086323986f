@@ -1,0 +1,3 @@
+RGENGC_CHECK_MODE が1以上に設定してコンパイルされた時に rgengc_remember() に
+T_NONE か T_ZOMBIE のオブジェクトが渡されたら rb_bug() で落とすようにしています
+。

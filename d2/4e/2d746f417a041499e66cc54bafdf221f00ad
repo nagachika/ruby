@@ -1,0 +1,2 @@
+probes.h を svn:ignore property へ追加。また .gitignore にはもともと存在してい
+たのですが場所をファイル名でソート済みになるように移動しています。

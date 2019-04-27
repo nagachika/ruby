@@ -1,0 +1,2 @@
+parse.y の node_newnode() で nd_set_last_lineno() と nd_set_last_column() の呼
+び出しを追加しています。 r60750 の追加漏れ?

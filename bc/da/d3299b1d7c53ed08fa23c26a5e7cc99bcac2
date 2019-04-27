@@ -1,0 +1,3 @@
+ruby_xrealloc2() の内容を ruby_sized_xrealloc2() という名称で切り出して、更に
+objspace_xrealloc() を利用するようにして ruby_sized_xrealloc2() を使うと元の確
+保サイズを考慮して malloc_increase を正確に管理できるようにしています。

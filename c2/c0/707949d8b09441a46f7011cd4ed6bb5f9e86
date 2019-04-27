@@ -1,0 +1,3 @@
+ext/pty/pty.c の MasterDevice、SlaveDevice という端末のデバイスファイル(/dev/
+pty/tts## とか)の名前を定義しているところを移動して、必要な時だけ定義するように
+。

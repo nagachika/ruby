@@ -1,0 +1,5 @@
+lambda の呼び出しを無限再帰させて SystemStackError の発生を確認するテスト
+test_machine_stackoverflow が FreeBSD ではなぜか assert_raise のブロックの外で
+置きてしまうらしいので、無限再帰させるために使っている Hash の初期化の部分まで
+assert_raise のブロック内に入れるようにしています。しかしどうもこれでもだめだっ
+たそうです。はて?

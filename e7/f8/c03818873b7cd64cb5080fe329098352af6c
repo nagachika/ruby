@@ -1,0 +1,9 @@
+configure でシステムコール pipe2(2) の有無をチェックして rb_cloexec_pipe() で可
+能なら利用するようにしています。 pipe2(2) も Linux の新しいシステムコールで
+close-on-exec を生成時に付加できるようにするものみたいです。
+ちなみに昨日から close-on-exec の付加の方法をいろいろ工夫していますが、これは要
+するに file descriptor を生成してから fcntl(2) などで close-on-exec をセットと
+いうやりかただと、生成後フラグをセットする前のタイミングで fork(2) されると fd
+leak が発生するので、1つのシステムコールで file descriptor の確保と
+close-on-exec のフラグセットまで一度にやるのが望ましい、ということだと思います
+。

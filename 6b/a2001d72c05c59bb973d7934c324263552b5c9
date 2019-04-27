@@ -1,0 +1,3 @@
+更に拡張ライブラリ io/console で 1.8 でも動くように対処を追加しているようです。
+もっとも --io-console-force-compatible-with-1.8 というオプションつきで
+extconf.rb を実行した時だけみたいですけど。

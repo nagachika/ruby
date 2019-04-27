@@ -1,0 +1,2 @@
+標準添付ライブラリ uri/http で URI::HTTP#request_uri で path_query を呼んで余分
+な中間オブジェクトを生成する可能性があったのを避けるようにしています。

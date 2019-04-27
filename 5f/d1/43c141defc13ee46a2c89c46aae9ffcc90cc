@@ -1,0 +1,4 @@
+r61875 で node_buffer_elem_t の最後の配列のサイズを省略するのはあきらめましたが
+、struct node_buffer_struct に node_buffer_elem_t を埋め込むのをやめてポインタ
+で持つようにして FLEX_ARY_LEN の利用を復活させています。実際にはひとまとめにメ
+モリを確保して、その内部のポインタを格納するようにしています。

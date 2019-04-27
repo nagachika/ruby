@@ -1,0 +1,3 @@
+標準添付ライブラリ optparse で Numeric や DecimalNumeric などの型が指定されたオ
+プションを parse する時に Float() や Integer() を使って変換するように修正してい
+ます。

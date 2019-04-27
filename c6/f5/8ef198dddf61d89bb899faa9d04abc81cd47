@@ -1,0 +1,3 @@
+Net::FTP の TLS 対応のテストで OpenSSL::SSL::SSLSocket#accept の例外を捕捉して
+いるところで mswin64 で Errno::ECONNRESET が発生したそうなので rescue に追加し
+ています。

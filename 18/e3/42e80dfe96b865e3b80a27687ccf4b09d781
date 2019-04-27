@@ -1,0 +1,2 @@
+で r33082 で Kernel#gem を使う前に require "rubygems" するようにしています。
+--disable-gem されていた時のためでしょうか。

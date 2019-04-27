@@ -1,0 +1,3 @@
+Queue#push, clear や SizedQueue#push は戻り値が内部で保持している Array を返し
+てしまっていて、実装の中身が見えてしまっている&メソッドチェインできないため
+self を返すように修正しています。 [ruby-dev:47098] [Bug #7947]

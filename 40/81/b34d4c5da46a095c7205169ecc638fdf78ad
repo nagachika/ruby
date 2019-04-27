@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http で proxy 利用時に OpenSSL::SSL::SSLSocket を利用し
+ている時に TLS のセッション確立前に書き込みを行うと元になる Socket に直接書き込
+んでくれるのですが、この時警告が出るので、SSLSocket の挙動に頼らずに plain
+socket に書き込みを行うようにしています。

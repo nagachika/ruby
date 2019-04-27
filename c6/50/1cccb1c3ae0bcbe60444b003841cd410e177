@@ -1,0 +1,4 @@
+r56194 と同様に GC#garbage_collect の rdoc 用コメントの呼び出し例で引数を省略し
+た形式でも GC.garbage_collect とは呼べないので ObjectSpace.garbage_collect およ
+び GC を include して呼ぶ方法を記述するようにしています。 [ruby-core:77327]
+[Bug #12777]

@@ -1,0 +1,3 @@
+テスト test/ruby/test_dir_m17n.rb で定義しているユーティリティメソッドで
+assert_ruby_status() を使っていたところを assert_separately を利用するように書
+き変えています。メッセージを明確にするためとのこと。

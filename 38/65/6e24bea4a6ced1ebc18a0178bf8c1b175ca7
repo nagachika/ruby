@@ -1,0 +1,4 @@
+Math.log に負数の第2引数を与えた時に Math::DomainError が発生せず NaN を返して
+しまうのを修正しています。また 2つの引数ともに 0 を渡した時に -infinity でなく
+NaN を返すようにしています。 NEWS ファイルに incompatible changes として追記し
+ているので一応仕様変更という扱いのようです。 [ruby-core:62309] [Bug #9797]

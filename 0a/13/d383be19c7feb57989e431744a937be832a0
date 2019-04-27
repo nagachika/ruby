@@ -1,0 +1,2 @@
+test/ruby/test_module.rb で "\0".inspect の挙動に依存していたテストがあったので
+変更に追随しています。

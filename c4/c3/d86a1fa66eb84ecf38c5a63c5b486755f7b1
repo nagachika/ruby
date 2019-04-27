@@ -1,0 +1,2 @@
+拡張ライブラリ zlib の zstream_buffer_ungetbyte() で zstream_buffer_ungets() を
+呼び出すようにしてリファクタリングしています。

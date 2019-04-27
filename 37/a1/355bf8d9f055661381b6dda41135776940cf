@@ -1,0 +1,4 @@
+exec/spawn 関係の関数でさらに rb_exec_arg_init()、rb_exec_arg_addopt()、
+rb_exec_arg_fixup()、rb_run_exec_options()、rb_run_exec_options_err() を
+deprecated にマークして、これらの関数を改名、互換性のためのスタブ関数
+(deprecated な名前のもの)を用意するといったリファクタリングです。

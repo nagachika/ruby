@@ -1,0 +1,4 @@
+rb_wait_for_single_fd() のテストで端末(tty)や fifo など特殊な fd への対応を確認
+するためのテスト test/io/wait/test_io_wait_uncommon.rb を追加しています。将来
+FreeBSD で ppoll() を使った実装をした時などに問題ないか検出するためにあらかじめ
+テストを入れておこうということみたいです。

@@ -1,0 +1,3 @@
+r55142 のコンパイラオプション -fexcess-precision=standard や -fp-model precise
+を ruby_cflags に入れるようにしていたのを XCFLAGS に追加して、ruby 本体のビルド
+にのみ利用するようにしています。 [ruby-core:75658] [Bug #12409]

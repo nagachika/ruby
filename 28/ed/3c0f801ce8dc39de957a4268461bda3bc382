@@ -1,0 +1,3 @@
+ということで rubyspec の socket のテストの Socket::IP_PKTINFO という定数に依存
+しているものを MSpec に feature としてチェックを追加してそれで guard を入れるよ
+うにしています。

@@ -1,0 +1,3 @@
+rubygems に upstream から 3.0.0.beta2 をマージしています。bundler との統合のた
+めに USE_BUNDLER_FOR_GEMDEPS にデフォルトで true が入るようにしています(環境変
+数 DONT_USE_BUNDLER_FOR_GEMDEPS を設定することで false にできるらしい)。

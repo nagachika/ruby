@@ -1,0 +1,4 @@
+rb_to_integer() (to_int の実装)、rb_check_to_integer(), Range.new の begin, end
+の値の扱いなどで rb_obj_is_kind_of() で継承関係も含めてチェックしていましたが
+Integer を継承したクラスはインスタンス化できないということで RB_INTEGER_TYPE_P
+() を使って直接 type をチェックするようにしています。

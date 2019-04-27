@@ -1,0 +1,5 @@
+blocking_region_end() で GVL を獲得する前に ubf (unblocking function)の管理リス
+トへの登録を削除するようにしています。コミットログによると GVL 獲得後にリストか
+ら外すとその前に再度 ubf が別 thread により再度リスト登録されて意図しないシグナ
+ル送出などが行われる可能性があるためとのこと。 ubf_list に自分の thread 以外が
+登録することってあるのかな。 [ruby-core:88141] [Bug #14945]

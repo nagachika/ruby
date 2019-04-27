@@ -1,0 +1,2 @@
+String#bytesize で INT2NUM() のかわりに LONG2NUM() を利用するように修正していま
+す。 [ruby-core:36511] [Bug #4789]

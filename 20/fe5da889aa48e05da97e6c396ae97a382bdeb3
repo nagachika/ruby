@@ -1,0 +1,2 @@
+doc/maintainers.rdoc から r50586 で標準添付から外された net/telnet の記述を削除
+しています。

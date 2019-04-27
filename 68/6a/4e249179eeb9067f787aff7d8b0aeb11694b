@@ -1,0 +1,2 @@
+さらに rubyspec の solaris で失敗する socket のテストの platform_is_not に :
+solaris を追加。

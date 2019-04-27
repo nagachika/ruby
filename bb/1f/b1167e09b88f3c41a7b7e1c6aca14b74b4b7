@@ -1,0 +1,4 @@
+これも r46240 で追加したテスト用の Dir#fileno とそれを利用した minitest の fd
+leak 検出の修正で、Dir#fileno の実装を追加したテスト用拡張ライブラリは procfs
+や sysfs で /proc/self/fd を使って検出可能な時だけ require するようにしています
+。

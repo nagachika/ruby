@@ -1,0 +1,2 @@
+r52943 の Enumerator::Lazy#grep_v の追加について NEWS ファイルに追記しています
+。 [ruby-core:71845] [Feature #11773]

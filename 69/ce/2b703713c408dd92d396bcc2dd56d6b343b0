@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf.rb で linker のチェックをする際に利用する変数の
+$LIBPATH と $DEFLIBPATH の優先順位を修正して $LIBPATH のほうを優先して参照する
+ようにしています。 [ruby-core:62100] [Bug #9760]

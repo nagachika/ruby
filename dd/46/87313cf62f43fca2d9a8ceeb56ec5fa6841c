@@ -1,0 +1,5 @@
+r40693 の Windows 環境での getipaddrs(3) のエミュレートの続きで、
+GetAdaptersAddresses() で取得したネットワークアダプタ名を iphlpapi.dll の
+ConvertInterfaceGuidToLuid とか ConvertInterfaceLuidToNameA という関数を使って
+変換するようにしています。拡張ライブラリ socket で使っている if_nametoindex(3)
+が要求する名前に変換する必要があったようです。

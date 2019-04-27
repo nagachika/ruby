@@ -1,0 +1,3 @@
+Enumerator::Lazy の zip, take, drop, drop_while などの実装でインスタンス変数の
+取得に rb_ivar_get() を使っていたため未初期化のインスタンス変数の警告が出ていた
+ので rb_attr_get() を使うように変更しています。

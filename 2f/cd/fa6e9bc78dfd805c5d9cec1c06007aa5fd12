@@ -1,0 +1,2 @@
+win32/Makefile.sub で config.h に MJIT_BUILD_DIR の定義を出力していたのを消して
+います。mswin 版では LOAD_RELATIVE が真なので MJIT_BUILD_DIR は使わないため。

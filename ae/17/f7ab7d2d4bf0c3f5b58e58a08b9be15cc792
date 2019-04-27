@@ -1,0 +1,3 @@
+r39930 で Rinda::RingServer のテストで IPv6 のローカルアドレスを除外しようとし
+て Socket.ip_address_list を使っていたところを追加された Socket.getifaddrs で書
+き換えています。

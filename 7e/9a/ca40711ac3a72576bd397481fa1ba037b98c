@@ -1,0 +1,2 @@
+OPT_CALL_THREADED_CODE が有効な時の VM の関数で引数の型変更に追随もれや typo し
+ていたところなどを修正。

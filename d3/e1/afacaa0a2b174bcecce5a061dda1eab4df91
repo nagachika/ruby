@@ -1,0 +1,2 @@
+addr2line.c の kprintf() の uintptr_t を埋め込むところを PRIuPTR を利用するよう
+にしています。

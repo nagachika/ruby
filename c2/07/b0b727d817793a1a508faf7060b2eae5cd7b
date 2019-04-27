@@ -1,0 +1,1 @@
+rexml/light/node.rb が require "rexml/light/node" しているのを削除。

@@ -1,0 +1,6 @@
+lib/net/http.rb で openssl と securerandom を遅延ロードするために Module#
+autoload を利用して OpenSSL や SecureRandom を利用しようとした時に自動で
+require するようにしていたのを、autoload を使うのをやめて、defined? で定数のが
+定義されてるかチェックして require するようにしています。最近 ruby-dev で話題に
+なっていた autoload は使わないようにしていこうという方針による修正だと思います
+。

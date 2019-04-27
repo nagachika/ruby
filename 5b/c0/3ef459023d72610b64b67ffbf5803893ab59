@@ -1,0 +1,4 @@
+internal.h で RCOMPLEX_SET_REAL() と RCOMPLEX_SET_IMAG() の関数マクロを定義する
+ときに再定義の警告除去のため一旦 #undef するところで RCOMPLEX_SET_REAL を2度 #
+undef していたのでひとつを RCOMPLEX_SET_IMAG に修正しています。
+[ruby-core:75333] [Bug #12343]

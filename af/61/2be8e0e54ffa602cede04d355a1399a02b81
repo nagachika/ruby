@@ -1,0 +1,2 @@
+time.c の rb_big_abs_find_maxbit() で bignum.c で定義した rb_absint_size() を利
+用するようにして、不要になった bdigit_find_maxbit() を削除しています。

@@ -1,0 +1,4 @@
+Thread が GVL を解放して block する処理を実施する時に割り込み用の関数 ubf
+(UnBlocking Function) を登録して割り込み可能な thread を管理していた signal
+thread list を ccan/list を使って実装するようにして、関数群を thread_list ->
+ubf_list と(その他も全体的に)改名しています。

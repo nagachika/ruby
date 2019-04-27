@@ -1,0 +1,3 @@
+r46166 の REXML のテストを REXML モジュール内にネストした変更のうち test/rexml/
+test_comment.rb は元々 REXMLTest モジュールで括っていたので REXML モジュールの
+スコープは削除しています。

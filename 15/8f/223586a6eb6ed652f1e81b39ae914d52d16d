@@ -1,0 +1,3 @@
+RubyVM::AST のテストで RubyVM::AST#children から Node だけ残すつもりで書いた
+grep の条件が RubyVM::AST になっていたため、全ての要素が削られてしまっていたの
+で RubyVM::AST::Node に修正しています。

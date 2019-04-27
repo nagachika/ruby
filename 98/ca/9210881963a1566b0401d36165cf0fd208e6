@@ -1,0 +1,4 @@
+test/ruby/test_signal.rb の test_kill_immediately_before_termination でシグナル
+ハンドラの動作テストのために SIGUSR1 を利用していたのですが、Signal.list で
+SIGUSR1 が利用可能かチェックするようにして、存在しなかったら SIGINT を使うよう
+にしています。

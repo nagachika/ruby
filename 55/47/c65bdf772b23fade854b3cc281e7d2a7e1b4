@@ -1,0 +1,2 @@
+benchmark/vm2_fiber_chain.rb をまた benchmark/fiber_chain.rb という名前に変更し
+ています。

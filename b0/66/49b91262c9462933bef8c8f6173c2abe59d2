@@ -1,0 +1,2 @@
+VM 命令の getinlinecache/setinlinecache をそれぞれ opt_getinlinecache/
+opt_setinlinecache に改名しています。

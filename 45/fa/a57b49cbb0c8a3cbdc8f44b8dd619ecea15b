@@ -1,0 +1,4 @@
+拡張ライブラリの io/wait に存在していた IO#wait というメソッドを IO#
+wait_readable という名称でも定義しています。 alias とコミットログにはありますが
+alias 定義しているのではなくて同じ関数で両方の名前で定義しています。また NEWS
+ファイルに IO#wait_readable と wait_writable について追記しています。

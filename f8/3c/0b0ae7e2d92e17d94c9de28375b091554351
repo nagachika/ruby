@@ -1,0 +1,2 @@
+lib/unicode_normalize.rb に String に追加されるメソッドの rdoc 用コメントを追記
+しています。

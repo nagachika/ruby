@@ -1,0 +1,5 @@
+r60239 で VM 内部で使う一時バッファの確保用の NODE_ALLOC を T_IMEMO 型のオブジ
+ェクトのサブタイプを使うように置き換えてましたが、T_IMEMO 型のオブジェクトは一
+時期頑張って Write Barrier を追加して WB-protected にしたのですが、バッファ内の
+VALUE 型の要素は C のコードから直接触ってて Write Barrier がきいてないので、こ
+れを使って確保した時には WB-unprotected にマークするようにしています。

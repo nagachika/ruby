@@ -1,0 +1,3 @@
+win32/Makefile.sub で rbconfig.rb を生成するところで rubyarchdir, rubylibdir を
+出力するようにしています。 r39107 あたりでの multi architecture 対応に Windows
+版も追随しているものだと思います。

@@ -1,0 +1,3 @@
+r63457 の変更をうけて(というかこっちを修正しようとして警告に気がついたのかも)
+tool/redmine-backporter.rb の無限ループが while 1 だったのを while true に書き
+直しています。

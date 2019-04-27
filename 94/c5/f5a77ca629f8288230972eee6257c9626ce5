@@ -1,0 +1,3 @@
+標準添付ライブラリ rdoc の最新版のマージ。Javascript の文法修正と、ファイルパス
+の扱いのちょっとした例外処理の追加だけですね。 https://github.com/rdoc/rdoc/
+pull/337 https://github.com/rdoc/rdoc/pull/367

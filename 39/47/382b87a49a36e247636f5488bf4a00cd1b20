@@ -1,0 +1,3 @@
+mspec と rubyspec で子プロセスの起動時のメソッドで close_others オプションに明
+示的に false を指定して make の jobserver 用の fd が close されないように対処し
+ています。

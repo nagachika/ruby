@@ -1,0 +1,1 @@
+signal.c の sigsegv() を NORETURN() で宣言しています。

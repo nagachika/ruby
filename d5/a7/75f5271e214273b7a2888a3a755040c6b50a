@@ -1,0 +1,2 @@
+webrick/https.rb で WEBrick::HTTPRequest#parse_uri が public になってしまってい
+たのを修正。 [ruby-dev:43575] [Bug #4773]

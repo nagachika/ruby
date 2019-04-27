@@ -1,0 +1,2 @@
+struct parser_params の ruby_sourcefile メンバーの型に const 修飾子を追加してい
+ます。

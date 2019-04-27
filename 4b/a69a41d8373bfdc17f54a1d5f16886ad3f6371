@@ -1,0 +1,3 @@
+r37631 で DTrace 対応した時に VM_COLLECT_USAGE_DETAILS の定義されていない時も
+COLLECT_USAGE_INSN(), COLLECT_USAGE_OPERAND() が関数呼び出しするようにされてし
+まっていたのを元に戻しています。

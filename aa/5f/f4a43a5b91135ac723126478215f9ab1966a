@@ -1,0 +1,2 @@
+標準添付ライブラリ cmath とそのテスト test/test_cmath.rb を
+frozon_string_literal: true に切り替えています。

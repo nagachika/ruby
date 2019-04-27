@@ -1,0 +1,3 @@
+vm_exec.c で定義されている vm_analysis_insn() という VM の命令の利用統計情報を
+収集する関数に static を付けています。この関数はマクロ VM_COLLECT_USAGE_DETAILS
+が定義された時だけ利用される関数で通常は定義されていません。

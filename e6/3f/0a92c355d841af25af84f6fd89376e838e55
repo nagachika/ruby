@@ -1,0 +1,3 @@
+拡張ライブラリ openssl が HMAC のサポートされていない OpenSSL とリンクされてい
+る時に表示する警告メセージの英文を修正しています。 https://github.com/ruby/ruby
+/pull/665

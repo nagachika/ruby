@@ -1,0 +1,2 @@
+r42427 で追加した WEBrick のテストが IO の binmode を考慮していなかったため
+Windows で失敗していたので IO#binmode を呼び出すようにして修正しています。

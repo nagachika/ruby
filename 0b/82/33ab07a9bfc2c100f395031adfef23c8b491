@@ -1,0 +1,4 @@
+標準添付ライブラリ test/unit に assert_all? と assert_not_all? という assertion
+を追加しています。 each メソッドが実装されているオブジェクトを受け取って、渡さ
+れたブロックに全ての要素を引数に渡して呼び出して結果が全て真/偽であることを確認
+する assertion です。

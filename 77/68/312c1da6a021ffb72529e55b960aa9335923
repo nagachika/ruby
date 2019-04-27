@@ -1,0 +1,2 @@
+invoke_iseq_block_from_c() でメソッド呼び出し時の引数の VM スタックへ積んで
+vm_yield_setup_args() を呼び出す時に cfp->sp を更新しておくようにしています。

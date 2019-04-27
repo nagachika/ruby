@@ -1,0 +1,2 @@
+rb_thread_call_without_gvl2() の rdoc で ubf (unblocking function) は GVL を確
+保しない状態で呼ばれることを追記しています。 [ruby-core:45035] [Bug #6433]

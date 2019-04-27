@@ -1,0 +1,5 @@
+gcc のオプション -fstack-protector をつけてコンパイル&リンクした static library
+とのリンク時にも -fstack-protector オプションが必要なようで、LDFLAGS にも追加す
+るようにしています。 [ruby-core:41387] [Bug #5686]
+ということは ruby *を*組み込もうとするプロジェクトも全体が -fstack-protector が
+必要になるんですかね。結構影響が大きそう。

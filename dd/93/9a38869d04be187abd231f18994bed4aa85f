@@ -1,0 +1,2 @@
+misc/ruby-additional.el で Emacs 24 の ruby-syntax-before-regexp-re の内容を書
+きかえているようです。 r49872 の正規表現に対応させているそうです。

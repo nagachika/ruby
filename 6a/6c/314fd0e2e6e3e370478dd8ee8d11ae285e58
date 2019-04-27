@@ -1,0 +1,5 @@
+FileUtils::Entry_#entries において Windows プラットフォームを判定するために
+RUBY_PLATFORM を正規表現でチェックしているのですが、そのために fu_windows? とい
+うメソッドが存在するのでそれを利用するようにしています。また Encoding を文字列
+で指定しているのを Encoding::UTF_8 の定数を利用するようにしています。
+[ruby-core:41829] [Bug #5817]

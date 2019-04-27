@@ -1,0 +1,2 @@
+mjit_worker.c の get_from_list() で linked list を辿る記法を for 文の先頭で
+next 変数に入れておくようにリファクタリングしています。

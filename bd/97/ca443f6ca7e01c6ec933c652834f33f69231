@@ -1,0 +1,3 @@
+ruby --dump=parsetree_with_comment で NODE_OPCALL について表示されるコメントが
+NODE_CALL と共通のため普通のメソッド呼び出しの例だったのを独立した case 節に分
+離して演算子的な呼び出しの例になるようにしています。

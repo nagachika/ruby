@@ -1,0 +1,3 @@
+Travis CI で r63598 の Windows で Net::HTTP の write_timeout のテストが失敗する
+ようで、assertion のメッセージに systcl net.ipv4.tcp_wmem の出力を含めるように
+しています。

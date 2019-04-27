@@ -1,0 +1,2 @@
+Rational#** で整数のオーバフローによって Float になってしまった時に
+Float::INFINITY を返すように修正しています。 [ruby-core:79686] [Bug #13242]

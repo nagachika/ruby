@@ -1,0 +1,3 @@
+tool/gem-unpack.rb というツールを追加して make extract-gems で bundled gems を
+展開するようにしています。これも r48270 と同様に zlib が使えない環境用みたいで
+す。

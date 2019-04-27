@@ -1,0 +1,5 @@
+NEWS ファイルに拡張ライブラリ objspace の新規メソッド
+ObjectSpace.after_gc_start_hook= と ObjectSpace.after_gc_end_hook= の追記してい
+ます。また ObjectSpace.dump_all の rdoc 用コメントを出力先の省略時は出力したフ
+ァイルパスを返していたのが r43679 で File オブジェクトを返すようにしたのに追随
+させています。

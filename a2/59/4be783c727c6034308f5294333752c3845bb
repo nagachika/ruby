@@ -1,0 +1,4 @@
+マシンスタックのメモリアドレス範囲を取得する get_stack() の AIX 向けの実装で
+pthread_getthrds_np() からスタックサイズのために __pi_stacksize ではなくて
+__pi_stackend と __pi_stackaddr の差を利用するようにしています。 AIX では
+__pi_stacksize が小さめに出てしまうそうです。

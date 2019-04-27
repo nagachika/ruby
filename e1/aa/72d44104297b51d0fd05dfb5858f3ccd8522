@@ -1,0 +1,2 @@
+標準ライブラリの PP (pretty print ライブラリ)の挙動を inspect の変更に合わせて
+to_s を呼ぶ処理を抜くようにしています。 [ruby-core:43238] [Feature #6130]

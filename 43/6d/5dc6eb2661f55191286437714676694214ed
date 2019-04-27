@@ -1,0 +1,3 @@
+ENABLE_VM_OBJSPACE が真に定義されていない環境(Windows)では rb_objspace という
+static 変数に rb_objspace_t が宣言されていて、その初期化に変数を書いてしまって
+いたので定数マクロに変更。

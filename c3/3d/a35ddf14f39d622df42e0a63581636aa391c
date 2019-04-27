@@ -1,0 +1,3 @@
+r67324 で azure-pipelines.yml で mswin 環境で openssl, readline や zlib などの
+依存ライブラリをインストールするのにリトライするようにしたのが shell の違いで?
+うまく機能していなかったみたいなので書き換えています。

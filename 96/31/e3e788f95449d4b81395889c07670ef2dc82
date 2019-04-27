@@ -1,0 +1,4 @@
+bignum.c の absint_numwords_generic() でCの配列の初期化に引数を使った書きかたが
+Solaris上の古いFujitsu C Compiler(fcc)でコンパイルエラーになってしまうというこ
+とで、宣言後に明示的に代入するように修正しています。 [ruby-dev:48608] [Bug #
+10350]

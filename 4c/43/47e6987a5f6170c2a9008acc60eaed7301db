@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の OpenSSL の関数をスレッドセーフに呼ぶための対応の追加
+修正。 extconf.rb で OpenSSL 側の CRYPTO_THREADID::ptr の存在チェックを行い、可
+能であれば OpenSSL 1.0.0 以降実装されているという CRYPTO_THREADID_set_pointer()
+を利用するようにしています。また現在のスレッドの識別子として Thread オブジェク
+トの id を使おうとしていたところを rb_nativethread_self() を利用するようにして
+います。 [ruby-core:54900] [Bug #8386]

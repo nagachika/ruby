@@ -1,0 +1,2 @@
+gc.c の ruby_gc_debug_indent という変数の定義は RUBY_MARK_FREE_DEBUG が有効な時
+だけ利用するので preprocessor の分岐でくくるようにしています。

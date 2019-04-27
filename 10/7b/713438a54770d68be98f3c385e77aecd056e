@@ -1,0 +1,1 @@
+r34254 で readline.c の syntax error になっていたのを修正。

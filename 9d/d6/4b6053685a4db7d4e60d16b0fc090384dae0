@@ -1,0 +1,3 @@
+refinement が拡張ライブラリになって、テストで require "refinement" しているとこ
+ろで警告メッセージが出力されるようになったので EnvUtil.suppress_warning を使っ
+て抑制しています。

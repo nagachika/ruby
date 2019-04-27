@@ -1,0 +1,3 @@
+r62220 で win32/Makefile.sub に HAVE_VA_COPY を追加していましたが、古いコンパイ
+ラでは va_copy() は未定義だったので MSC_VER をチェックして定義を分けるようにし
+ています。

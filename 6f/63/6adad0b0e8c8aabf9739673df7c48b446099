@@ -1,0 +1,4 @@
+test/ruby/test_file_exhaustive.rb で利用する一時ファイル名をできるだけ短くして
+います。r50213 で UNIX Socket のテストを追加しましたが、sockaddr_un のサイズ制
+限が厳しい環境(過去のログをみると AIX が 1024 だとありますね)があるので短めにし
+ているようです。

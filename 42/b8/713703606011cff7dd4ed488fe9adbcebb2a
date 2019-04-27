@@ -1,0 +1,7 @@
+lib/unicode_normalize/normalize.rb 内で UnicodeNormalize.unicode_normalize の呼
+び出しを String#unicode_normalize として呼び出せるようにメソッド追加して、lib/
+unicode/normalize.rb でそれを期待して UnicodeNormalize が未定義の時は require
+"unicode_normalize/normalize" してから再度 String#unicode_normalize を呼び出す
+ようにしています。うーん、トリッキーな感じがしてちょっと、わざわざ
+UnicodeNormalize のメソッドを明示的に呼び出すのをやめる必要があるのか疑問ですね
+。

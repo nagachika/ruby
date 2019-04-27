@@ -1,0 +1,4 @@
+Time#subsec や Time#round などの Time のメソッドで呼ばれる quov() でメソッド呼
+び出ししていたのを rational.c の numeric_quo() を rb_numeric_quo() にして
+static を消してこれを直接呼び出すようにして最適化しています。 https://
+github.com/ruby/ruby/pull/1601 [ruby-core:80915] [Bug #13519]

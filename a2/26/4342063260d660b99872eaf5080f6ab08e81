@@ -1,0 +1,12 @@
+Process.spawn のテストで実行用のファイルを書き出して作ってから Process.spawn す
+るものが MJIT が有効だと時々落ちるという不具合の修正。コミットログにシーケンス
+図的なものが書かれていますが、MJIT も worker thread からコンパイラを起動するた
+めに vfork+execve するので、main thread というか Ruby の Thead 側で書き込みのた
+めに開いたファイルの fd が MJIT worker thread からのコンパイラ起動のための
+vfork 時に子プロセスに複製されてて、execve() する時に close-on-exec で閉じられ
+るのですが、その前に main thread 側で Process.spawn の vfork+execve が動いてし
+まうと、main thread 側では対象のファイルの fd は閉じているのですが、MJIT worker
+thread から fork したプロセスに fd が残っているため、execve(2) が ETXTBUSY (実
+行ファイルを書き込みモードで開いている fd がある)でエラーになる可能性があったよ
+うです。すごいなー。waitpid の独自実装用のキューを利用して同時に fork しないよ
+うに排他処理を追加しています。

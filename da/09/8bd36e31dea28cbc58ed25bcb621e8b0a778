@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle で Ruby の数値を LONG_LONG 型へ変換するのに rb_big2ull()
+を使っていて Bignum と決め打ってましたが Fixnum がくるかもしれないので NUM2ULL
+() を使うように修正しています。 Fixnum を渡すと SEGV か SIGBUS になってしまう可
+能性がありました。

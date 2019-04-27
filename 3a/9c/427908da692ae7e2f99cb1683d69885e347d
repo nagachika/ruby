@@ -1,0 +1,2 @@
+lldb_cruby.py の lldb_rp/lldb_inspect で T_COMPLEX 型のオブジェクトへの対応を追
+加しています。

@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb で Backport フィールドの対象のバージョンのエントリが
+ない時にも DONE を埋めるようにしています。

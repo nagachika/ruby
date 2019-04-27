@@ -1,0 +1,2 @@
+common.mk で name2ctype.h の依存関係で $ALWAYS_UPDATE_UNICODE が yes だったら
+update-unicode ターゲットを実行するようにしています。

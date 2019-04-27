@@ -1,0 +1,3 @@
+AIX でのコンパイルのために complex.c に ruby/config.h の #include を追加してい
+ます。 sys/types.h (を #include している math.h)よりも前に #include する必要が
+あったそうです。 [Bug #11483]

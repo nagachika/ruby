@@ -1,0 +1,5 @@
+標準添付ライブラリ matrix.rb の Vector#inner_product が要素が Complex の時に負
+の値になり得るので、共役数を掛け合わせるエルミート内積として動作するようにして
+います。 [ruby-dev:46101] [Bug #6967]
+これで知ったのですが、Numeric#conjugate って常に定義されているんですね。
+Complex が組み込みだから当然といえば当然か。

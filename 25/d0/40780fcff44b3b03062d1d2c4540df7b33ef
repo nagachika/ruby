@@ -1,0 +1,5 @@
+open の mode に File::CLOEXEC を指定した時のテストを修正。popen を使って ruby
+を fork していましたが現在の ruby の Process.spawn は特に指定したもの以外の
+file descriptor は close_on_exec が指定されていなくてもデフォルトで close され
+るので*1 File::CLOEXEC の指定の有無に関わらずテストは成功していたので、
+Process.spawn に :close_others => false の指定をして起動するようにしています。

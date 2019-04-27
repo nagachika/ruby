@@ -1,0 +1,6 @@
+ChangeLog には win32/Makefile.sub のみ書かれていますが enc/Makefile.in, enc/
+depend も変更されています。
+win32.Makefile.sub は clean-enc ターゲットで enc サブディレクトリの make
+(nmake?) に変数 V の設定を伝播させています。 enc/Makefile.in と enc/depend は $
+(Q) (変数 V の設定に応じて詳細なコマンドを出力したり、省略したメッセージだけ出
+力したりする)の追加と、コマンドとの間の空白を削っていたりします。

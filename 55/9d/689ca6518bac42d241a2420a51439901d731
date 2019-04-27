@@ -1,0 +1,7 @@
+IO#statfs と File::Statfs の対応で fstatfs(2) が使えない時や NetBSD (fstatfs()
+が obsolete らしい)で fstatvfs(2) が使えるところではかわりに fstatvfs() を利用
+するようにしています。このため struct statsfs と struct statvfs の区別を吸収す
+る statfs_t という型を定義するようにしています。
+また struct statfs を使う時に f_fstypename というメンバが存在するか configure
+で検査して、存在する時だけ File::Statfs の fstypename が呼べるようにしています
+。

@@ -1,0 +1,7 @@
+r38041 で $LOADED_FEATURE に文字列以外のオブジェクトが含まれていて SEGV した時
+などにバックトレースを生成するために to_str を呼ぶとそこから Ruby のメソッドが
+動いてしまう可能性があるので、T_STRING 以外のものを文字列化するのは諦めてクラス
+名と VALUE 値だけ表示するようにしたのを revert しています。よくわかりませんがこ
+れが SEGV の原因になっているそうです。(参考URL: http://fb.rubyci.org/~chkbuild/
+ruby-trunk/log/20121130T090301Z.diff.html.gz とはいれこれを見てもなぜなのかわか
+りませんでしたけど)

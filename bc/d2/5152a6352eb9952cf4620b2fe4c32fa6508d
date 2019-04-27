@@ -1,0 +1,4 @@
+標準添付ライブラリ English.rb の rdoc コメントに書かれている $"
+($LOADED_FEATURES) についての記述は削除して、doc/globals.rdoc に追記しています
+。 $LOADED_FEATURES って昔は English.rb で追加されてたんですね。 https://
+github.com/ruby/ruby/pull/620

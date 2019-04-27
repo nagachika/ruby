@@ -1,0 +1,2 @@
+Test::Unit::GlobOpition#non_options でコマンドライン引数でテストがひとつも指定
+されなかった時は base directory の下のテストを実行するように。

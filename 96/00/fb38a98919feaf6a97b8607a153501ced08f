@@ -1,0 +1,2 @@
+Exception#message の rdoc 用コメントに Exception の to_str として挙動するという
+古い記述が残っていたので削っています。 https://github.com/ruby/ruby/pull/1517

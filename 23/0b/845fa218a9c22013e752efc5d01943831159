@@ -1,0 +1,5 @@
+r47214 で sprintf の "%f" 指示子に Rational の数値を渡した時に精度を落とさず文
+字列化できるようにしましたが、符号の有無のフラグなどと組みあわせた時の処理に抜
+けがあったので修正しています。元のパッチをくれた matthewd さんは Rubinius の
+sprintf 実装にもパッチを投げてて "I have tangled with sprintf in a past life"
+とか書いててなんか職人芸チックですね。 https://github.com/ruby/ruby/pull/717

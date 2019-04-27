@@ -1,0 +1,5 @@
+複数のブロックパラメータを yield する Enumerable#each などから生成した
+Enumerator に lambda 型の Proc オブジェクトを渡したときに、arity のチェックで
+ArgumentError になるのを修正してテストを追加した r45284、r45286、r45292 を
+revert しています。詳細はわかりませんが、既存の挙動との衝突がはげしいのでやっぱ
+りあきらめるみたいです。うーむ。 [ruby-core:61340] [Bug #9605]

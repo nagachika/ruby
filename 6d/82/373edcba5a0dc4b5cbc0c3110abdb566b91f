@@ -1,0 +1,3 @@
+common.mk で revision.h の生成時のコマンドで tool/file2lastrev.rb の実行に失敗
+した時にも revision.h への移動が実行されるようにしていたので、継続させないよう
+にコマンド先頭の - を削っています。

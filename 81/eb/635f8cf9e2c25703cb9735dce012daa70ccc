@@ -1,0 +1,4 @@
+標準添付ライブラリ minitest の 4.3.2 (r8026) をマージしています。3.4.0 → 4.3.2
+のバージョンアップ。並列テスト実行が入っているっぽいです。詳細は minitest のリ
+リースノートを参照のこと。参考URL: https://github.com/seattlerb/minitest/blob/
+master/History.txt

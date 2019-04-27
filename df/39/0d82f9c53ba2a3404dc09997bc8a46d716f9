@@ -1,0 +1,5 @@
+socketpair(2) に SOCK_CLOEXEC をセットして読んで errno=EINVAL が返ってきた時に
+SOCK_CLOEXEC を使わないようにしていましたが、別の理由で EINVVAL が返ってきてい
+るかもしれないので SOCK_CLOEXEC をつけずに再度 socketpair(2) を呼んでそれで
+EINVAL でなかったら try_sock_cloexec を 0 にして SOCK_CLOEXEC を使わないように
+するようにしています。だいぶ複雑になってきました。

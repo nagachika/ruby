@@ -1,0 +1,4 @@
+mingw-w64 で pow(3) の精度を変更するために _controlfp() という Windows の API?
+を呼び出すようにしています。デフォルトのままだと精度が小さいため TestFloat#
+test_round_with_precision が失敗していたのだそうです。 [ruby-core:47911] [Bug #
+7142]

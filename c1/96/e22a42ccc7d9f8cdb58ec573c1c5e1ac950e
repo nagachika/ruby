@@ -1,0 +1,2 @@
+r35684 で ext/json/extconf.rb を削除したのを revert してファイル復活させていま
+す。

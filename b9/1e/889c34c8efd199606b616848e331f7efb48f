@@ -1,0 +1,4 @@
+GC のトリガとして使う oldmalloc_increase の増加を obj_memsize_of() を使って自己
+申告の値を利用するのではなくて malloc_increase と同じく objspace_xmalloc() など
+で malloc/realloc/free のところで管理しているサイズの変動で増加させるようにして
+より正確な値を取れるようにしています。

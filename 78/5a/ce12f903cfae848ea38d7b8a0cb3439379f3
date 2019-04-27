@@ -1,0 +1,4 @@
+CentOS 7 でヘッダファイルには open(2) のフラグ O_TMPFILE が定義されているのです
+が、実際には動かないという問題があったそうで、テストで File::TMPFILE を指定して
+ディレクトリを File.open する時に Errno::EISDIR が発生したら skip するようにし
+ています。

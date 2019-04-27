@@ -1,0 +1,2 @@
+class/module 文で private constant に指定した Class/Module をネストした名前を直
+接指定するのを禁止するはずが制限できていなかったのを修正しています。

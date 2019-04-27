@@ -1,0 +1,1 @@
+mkmf.rb のリファクタリング(テストで使うために Logging.log_close を分離)。

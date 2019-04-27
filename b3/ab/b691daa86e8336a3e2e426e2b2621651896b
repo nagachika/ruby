@@ -1,0 +1,4 @@
+compile.c の iseq_build_callinfo_from_hash() から rb_call_info_kw_arg_t+αのキ
+ーワード引数のためのメモリ領域のサイズ計算部分を rb_call_info_kw_arg_bytes() と
+いう inline 関数として vm_core.h に切り出しています。これは後で iseq.c で再利用
+するためみたいです。

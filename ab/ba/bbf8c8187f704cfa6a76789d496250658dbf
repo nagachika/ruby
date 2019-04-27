@@ -1,0 +1,3 @@
+拡張ライブラリのビルドに成功しているかチェックするテスト test/ruby/
+test_extlibs.rb を test/test_extlibs.rb に移動しています。 ruby コアのテストで
+はないため。

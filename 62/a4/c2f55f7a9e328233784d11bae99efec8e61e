@@ -1,0 +1,2 @@
+make clean-ext で .ext/.timestamp ディレクトリを削除するのに失敗しても無視する
+ようにしています。

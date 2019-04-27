@@ -1,0 +1,4 @@
+現在の native thread を返す rb_nativethread_self() (pthread だと pthread_self()
+、Windows 版では GetCurrentThread())を追加しています。
+ところで nativethread の API 群は公開(include/ruby 以下にヘッダを置くという意味
+で)はしなくていいんでしょうか。

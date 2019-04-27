@@ -1,0 +1,3 @@
+rb_thread_stop_timer_thread() 等の関数プロトタイプ宣言を直接 eval.c や
+process.c に書くのをやめて vm_core.h を include することで取り込むようにしてい
+ます。

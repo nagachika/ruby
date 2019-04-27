@@ -1,0 +1,7 @@
+IO の finalizer で呼ばれる finish_writeconv() でも rb_io_t::write_lock を取得済
+みだったら rb_write_internal2() を使うようにしています。これで r38400 の
+ChangeLog に書かれてた IO の finalzer からの recursive lock も回避しているとい
+うことかなと思いますが、ロック取得していない時に rb_write_internal() を使う理由
+がよくわかりません。そもそも rb_write_internal() は write_lock を取得しないよう
+に思えるのでここで recursive lock になるのかなぁ。 ChangeLog に書かれてた関数呼
+び出しのツリーと少し違うのでそれとは別の変更なのかもしれません。

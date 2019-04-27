@@ -1,0 +1,2 @@
+st_foreach_check() と st_foreach() で、st_table を順序を保存するようにした時の
+名残りで今は不要になっていたチェックを削除しています。

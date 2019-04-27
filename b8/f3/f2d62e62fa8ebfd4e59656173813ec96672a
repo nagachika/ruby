@@ -1,0 +1,3 @@
+cgi/uril.rb と cgi/core.rb のドキュメント追加、変更。個人的にはクラスメソッドの
+呼び出しは Klass::meth より Klass.meth のほうが好みなんですけどねー。コーディン
+グ規約には方針あったでしょうか。 [ruby-core:36438] [Bug #4775]

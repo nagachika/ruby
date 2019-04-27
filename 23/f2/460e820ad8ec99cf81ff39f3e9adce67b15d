@@ -1,0 +1,3 @@
+test/misc/test_ruby_mode.rb で emacs 用の ruby-mode.el のテストの実行のために
+emacs を実行できるかチェックするようにしています。また古いバージョンで動くよう
+に --quick オプションを削っています。

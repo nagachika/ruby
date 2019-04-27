@@ -1,0 +1,2 @@
+なのですが r60634 の NODE_STRTERM と NODE_HEREDOC の T_IMEMO への移動は revert
+されています。 mswin と mingw でビルドできなかったからとのこと。

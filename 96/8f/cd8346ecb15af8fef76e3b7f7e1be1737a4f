@@ -1,0 +1,1 @@
+r65989 で Object#=~ を deprecate にしたので rdoc 用コメントも追随させています。

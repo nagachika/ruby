@@ -1,0 +1,4 @@
+compile.c のデバッグ用のマクロ debugi()、debugp()、debugp_verbose()、
+debugp_verbose_node()、debugp_param() などをなにもしないように定義をかえていま
+す。元々なにもしない inline 関数の呼び出しに展開してたのですが、コンパイラの最
+適化などに影響があるのを避けるようにしたのかな。

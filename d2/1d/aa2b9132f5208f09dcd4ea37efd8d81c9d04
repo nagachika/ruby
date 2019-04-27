@@ -1,0 +1,2 @@
+r48393 での internal.h の STATIC_ASSERT() の定義変更で #define が抜けてたので、
+修正しています。

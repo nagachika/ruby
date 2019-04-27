@@ -1,0 +1,2 @@
+r55973 で追加した rubystub.c に #inclue <sys/param.h> を追加しています。
+MAXPATHLEN という定数のために必要だったとのこと。

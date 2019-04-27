@@ -1,0 +1,2 @@
+parse.y のマクロ名 numeric_literl_flush() の typo 修正して
+numeric_literal_flush() に改名しています。

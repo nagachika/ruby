@@ -1,0 +1,2 @@
+fcntl(F_DUPFD) のテストで F_DUPFD で指定するのは fd の下限値であってその値その
+ものに必ず dup されるわけではないので assertion を変更しています。

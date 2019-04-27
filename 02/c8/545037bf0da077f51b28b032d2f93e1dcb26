@@ -1,0 +1,7 @@
+拡張ライブラリ curses の削除に伴ない doc/contributing.rdoc, doc/
+contributors.rdoc, doc/maintainers.rdoc, doc/standard_library.rdoc などから対応
+する記述を削除しています。また doc/syntax/modules_and_classes.rdoc で namespace
+の用例として Curses が挙げられていたのでこれも IRB でおきかえています。また
+encoding.c の rb_enc_default_internal() の rdoc コメントで変換対象となる入力ソ
+ースとして Curses が挙げられていたのでこれも削除しています。さすが typo の達人
+、見逃しませんね。

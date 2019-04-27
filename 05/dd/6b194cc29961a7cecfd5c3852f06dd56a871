@@ -1,0 +1,3 @@
+test/ruby/envutil.rb の invoke_ruby と assert_in_out_err でのオプション引数をキ
+ーワード引数を使って書きなおしています。省略時のデフォルト値がわかりやすいです
+ね。

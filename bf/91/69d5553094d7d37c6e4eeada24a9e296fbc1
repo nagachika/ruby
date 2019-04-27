@@ -1,0 +1,2 @@
+make exe/ruby で ruby-runner をコンパイルする時にも POSTLINK コマンドがあれば実
+行するようにしています。 macOS での codesign 用の変数みたいですね。

@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_insn.erb のコメントの typo 修正。

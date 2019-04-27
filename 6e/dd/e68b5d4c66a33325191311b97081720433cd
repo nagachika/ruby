@@ -1,0 +1,7 @@
+exec する時に IO の file descriptor に FD_CLOEXEC フラグをセットするためにプロ
+セスで開いている file descriptor の最大値を管理しているところをスレッドセーフに
+するために ATOMIC 操作を利用するようにした r39687 の変更と、それに合わせて最大
+値の変数の型を rb_atomic_t に変更した r39776 の追加の変更で、rb_fd_fix_cloexec
+() からも rb_update_max_fd() を呼ぶようにしています。 rb_atomic_t の変数の型の
+変更の箇所を局所的にして影響を限定的にしているようです。 [ruby-dev:47155]
+[Backport #8064]

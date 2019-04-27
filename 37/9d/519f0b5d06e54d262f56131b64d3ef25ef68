@@ -1,0 +1,2 @@
+test/rexml/test_sax.rb に require "rexml/document" を追加しています。単体で動か
+すと2つほどのテストケースでエラーになっていたようです。

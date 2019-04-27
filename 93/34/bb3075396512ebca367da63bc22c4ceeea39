@@ -1,0 +1,2 @@
+r55251 で初期化するようにした missing/crypt.c の static 変数 constdatablock の
+初期化子を修正しています。 Visual C では空の初期化子は使えなかったそうです。

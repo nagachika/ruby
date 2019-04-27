@@ -1,0 +1,2 @@
+r66667 で追加された文法 obj.:meth のための VM 命令 methodref の MJIT のテストを
+追加しています。

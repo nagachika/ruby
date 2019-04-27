@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb でコミットのサマリ情報などヘッダ部分は bold +
+underscore で端末上に表示するようにしています。

@@ -1,0 +1,3 @@
+GC のデバッグ出力用の関数 rb_gcdebug_print_obj_condition で RVALUE の file/line
+が const char */int 型なのに RSTRING_PTR() や FIX2INT() で VALUE 型として扱われ
+ていたところがあったのを修正しています。

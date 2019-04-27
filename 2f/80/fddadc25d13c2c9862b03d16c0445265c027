@@ -1,0 +1,3 @@
+拡張ライブラリ io/wait のテストで Errno::EWOULDBLOCK の rescue が漏れていたのを
+修正しています。環境によっては Errno::EWOULDBLOCK は Errno::EAGAIN と同じですが
+異なる環境(Windows/MinGW)もあるようです。 [ruby-core:49894] [Bug #7420]

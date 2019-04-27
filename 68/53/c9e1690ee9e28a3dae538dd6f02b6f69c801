@@ -1,0 +1,5 @@
+r64582 で rubygems の rubygems/installer.rb で RbConfig::TOPDIR が nil の時のサ
+ポート追加していましたが RbConfig::CONFIG の "RUBY_INSTALL_NAME" と "EXEEXT" で
+実行ファイルのファイル名を構築して bindir 配下にこのファイルが存在するかをチェ
+ックすることで bindir がインストール先と一致しているかをチェック? するように再
+修正しています。

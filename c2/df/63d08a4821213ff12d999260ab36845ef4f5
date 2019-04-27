@@ -1,0 +1,4 @@
+r63863 で revert した r62655 の MJIT での PUSH_TAG() 省略の最適化の一部リトライ
+。 MJIT が生成するソースコードで reg_cfp->pc の rollback を catch_except_p が偽
+の時だけにしてたのを常に実施するようにしています。 [ruby-core:87764] [Bug #
+14892]

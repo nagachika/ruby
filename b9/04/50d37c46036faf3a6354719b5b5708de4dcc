@@ -1,0 +1,2 @@
+insns.def の defineclass のコメントの typo 修正。 https://github.com/ruby/ruby/
+pull/618

@@ -1,0 +1,3 @@
+Integer#round, Float#round などのキーワード引数 half のデフォルトの指定を :up
+にしています。これは half の省略時の挙動がこれまでの round と一致するようにして
+互換性を保つようにしています。 [ruby-core:78204] [Bug #12958]

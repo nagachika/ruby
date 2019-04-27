@@ -1,0 +1,2 @@
+ELF の .dynstr と .dynsym セクションのアドレスも読み取って .symtab がなかった時
+はかわりに .dynstr/.dynsym を利用するようにしています。

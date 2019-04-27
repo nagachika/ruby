@@ -1,0 +1,2 @@
+test/ruby/test_symbol.rb の Symbol#to_proc の GC 関連のテストでループ回数を減ら
+しています。

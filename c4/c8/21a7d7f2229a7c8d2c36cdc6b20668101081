@@ -1,0 +1,4 @@
+r40933 で追加した RGENGC 関連の Hash オブジェクトの write barrier 挿入の変更の
+追加だと思いますが、Hash の st_table を読み込み専用の目的でアクセスする時のため
+に rb_hash_tbl_raw() という関数を追加して、write barrier を破棄せずにアクセスを
+するようにしています。

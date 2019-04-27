@@ -1,0 +1,2 @@
+r40114 で(再度) Module#class_variable_set で Symbol の生成を遅延した時に、引数
+が Symbol でない時に先に to_str で文字列化するようにしています。

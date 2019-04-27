@@ -1,0 +1,3 @@
+tool/mkconfig.rb で require "fileutils" していましたが、これは不要ということで
+削除しています。 pull request の報告の内容はちょっとよくわからなかったですが、
+確かに fileutils は不要みたいですね。 https://github.com/ruby/ruby/pull/2045

@@ -1,0 +1,2 @@
+拡張ライブラリ dbm, gdbm, sdbm の closed_dbm(), closed_sdbm(), rb_gdbm_fatal()
+などの関数に NORETURN() を使って宣言するようにしています。

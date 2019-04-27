@@ -1,0 +1,3 @@
+appveyor.yml で zlib のパッケージファイルを ext/zlib の下に展開しておくことで、
+最近 zlib の extconf.rb で対応していた zlib のライブラリを一緒にビルドする機能
+を使うようにしています。

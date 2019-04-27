@@ -1,0 +1,5 @@
+WEBrick の処理スレッド内での例外が発生した時に全ての例外を無視して次のリクエス
+トを実行していたのですが、StandardError のみ実行を継続するようにしてそれ以外の
+Exception (SignalException や LoadError など)の時は処理を止めてしまうようにして
+います。そのため後始末の処理は ensure 節にしています。 [ruby-core:43996]
+[Feature #6236]

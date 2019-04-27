@@ -1,0 +1,4 @@
+OpenSSL の ASN1_put_eoc という関数が openssl 0.9.7 で未定義なので
+openssl_missing.c で定義を追加。また OpenSSL の ASN1_object_size() と
+ASN1_put_object() バージョン間の非互換を吸収するマクロを定義して利用するように
+するようにしています。 [ruby-core:37286] [Bug #4916]

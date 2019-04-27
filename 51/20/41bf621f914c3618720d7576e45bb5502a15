@@ -1,0 +1,3 @@
+rubyspec の Thread#raise を終了した Thread に対して呼んだ時のテストで Thread#
+value が例外を発生しないことを should_not raise_error でチェックしていましたが
+、単に普通に join を呼ぶ(例外が発生すればエラーになるので)ようにしています。

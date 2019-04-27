@@ -1,0 +1,5 @@
+Windows 版で miniruby がコンソールに出力する時に組込みのエンコーディングに
+UTF-16LE がないため警告メッセージが出るのを修正しています。
+rb_w32_write_console() で出力時のエンコーディング変換に直接 rb_str_encode() を
+呼ばずに encindex をみて US-ASCII や UTF-8 なら mbstr_to_wstr() を使って変換す
+るようにしているようです。 [ruby-dev:47584] [Bug #8733]

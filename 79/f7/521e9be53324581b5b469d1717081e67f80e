@@ -1,0 +1,3 @@
+Thread.join にタイムアウト値として Float::INFINITY を渡すと SEGV することがある
+(Debian GNU/Linux on AMD64 だと発生したとのこと)ので内部では TIMET_MAX という
+time_t の最大値を返すマクロを定義してこれに変換して使うようにしています。

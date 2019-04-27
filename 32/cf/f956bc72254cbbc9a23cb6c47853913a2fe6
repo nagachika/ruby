@@ -1,0 +1,5 @@
+switch 文などの VM 命令へのコンパイルを行う compile_case() で opt_case_dispatch
+命令を用いた最適化を RubyVM の compile_option で specialized_instruction が有効
+にされてる時だけ実行するようにしています。たぶん普通は有効になってると思います
+。それを調べるので気がつきましたがこのオプションのデフォルト値を示す定数
+OPT_SPECIALISED_INSTRUCTION は typo? していますね。

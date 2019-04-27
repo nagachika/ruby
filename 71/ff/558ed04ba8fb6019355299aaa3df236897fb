@@ -1,0 +1,1 @@
+rake の Windows 環境での Rake::Task.[] のテストの間違いを修正しています。

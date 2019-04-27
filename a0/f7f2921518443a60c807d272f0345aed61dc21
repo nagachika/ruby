@@ -1,0 +1,5 @@
+拡張ライブラリ fiddle の extconf.rb で libffi のバージョンを pkg-config で
+(r40218 で追加した mkmf.rb の機能で)調べて RUBY_LIBFFI_MODVERSION マクロとし定
+義して、それをみて ffi_closure_alloc(), ffi_closure_free() を使うかどうかの判定
+をするようにしています。古い libffi に不具合があるようなのでそれを回避しようと
+しているみたいです。 [ruby-dev:41483] [Bug #3371]

@@ -1,0 +1,4 @@
+r40275, r40277 および r40278 あたりの続きで、r40278 で mkmf.rb で生成する
+Makefile に disthdrdir という変数を導入して nmake を使っているかどうかで {$
+(VPATH)} を使うか $(top_srcdir) にするかを切りかえていたのを revert して、全体
+的に {$(VPATH)} を nmake 以外では削除するように置換をかけるようにしています。

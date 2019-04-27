@@ -1,0 +1,6 @@
+標準添付ライブラリ cgi の cgi/util.rb で定義されている CGI の特異メソッド群を
+CGI::Util というモジュールのメソッドとして定義して、それを CGI に extend するよ
+うに変更しています。このため CGI::Util を使いたいところに include したりして
+escape_html などのメソッドを使えるようにしています。またこのモジュールでは
+escapeHTML の alias として h という1文字メソッドを定義しています。
+[ruby-dev:47312] [Feature #8354]

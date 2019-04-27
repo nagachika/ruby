@@ -1,0 +1,3 @@
+拡張ライブラリ etc の extconf.rb が getlogin()、getpwent()、getgrent() のいずれ
+かが存在するか RbConfig::CONFIG["sysconfdir"] が nil でない時だけ Makefile を生
+成するようになっていたのを常にビルドはするようにしています。

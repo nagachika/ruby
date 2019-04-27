@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の WIN32OLE_RECORD の実装も struct RTypedData を利用す
+るようにきりかえています。

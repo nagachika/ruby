@@ -1,0 +1,5 @@
+r37307 で追加した ObjectSpace::InternalObjectWrapper というクラスのオブジェクト
+が ObjectSpace.memsize_of() で利用しているメモリ容量を返せるように対応していま
+す。といっても InternalObjectWrapper そのものはヒープにメモリを確保しないので、
+それが参照しているオブジェクトに対して memsize_of() を呼んでその結果を返してい
+ます。

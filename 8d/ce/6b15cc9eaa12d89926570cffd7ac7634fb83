@@ -1,0 +1,4 @@
+iseq.c の iseq_load() 関数から ISeq を構築する時に compile option の
+peephole_optimization を FALSE にセットするようにしています。 peephole
+optimization を行なうと iseq が変更されるので、ロードしようと思った命令列をその
+まま作ることができなくなってしまうからだそうです。

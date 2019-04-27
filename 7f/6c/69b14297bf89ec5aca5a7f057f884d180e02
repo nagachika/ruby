@@ -1,0 +1,2 @@
+r42283 の続きで test/rexml/test_notationdecl_parsetest.rb に類似のテストクラス
+をサブクラスとして追加しています。

@@ -1,0 +1,2 @@
+新規追加された include/ruby/debug.h の svn property の設定を変更。だけではなく
+て改行コードが CR+LF だったのを LF のみに変更されているようです。

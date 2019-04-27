@@ -1,0 +1,4 @@
+succ メソッドの VM 命令での最適化で Time#succ を最適化していたのをやめています
+。 Time#succ は deprecated なメソッドなので vm_exec_core() のコードサイズを小さ
+くして icache に収まりやすくするようにしています。いやー、さすが normalperson
+ですね。コードサイズ削減の鬼です。 [ruby-core:66233] [Feature #10501]

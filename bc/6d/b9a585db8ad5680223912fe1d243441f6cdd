@@ -1,0 +1,1 @@
+missing/crypt_r.c の変数の const 修飾子追加と不要になった関数の削除など。

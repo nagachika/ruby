@@ -1,0 +1,4 @@
+GC のパラメータの GC_MALLOC_LIMIT を 8MB -> 16MB、GC_MALLOC_LIMIT_GROWTH_FACTOR
+を 1.8 -> 2.0 へ、malloc_limit の現象率を 1/4 から 1/10 に変更しています。
+mallco() の容量を増えやすく、あまり急激に減らないように調整しているみたいですね
+。これも GC 回数の抑制のためかなと思います。

@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse#set_redirect で引数 url を
+URI() で一旦パースすることで正常な URL のみ受け付けるようにしています。

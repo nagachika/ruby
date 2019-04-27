@@ -1,0 +1,4 @@
+r42457 の変更で Mac OS X でファイルパスのエンコーディング正規化のために
+CoreFoundation が必要になったので、configure.in で --enable-shared が有効の時だ
+けオプションに追加していた -framework CoreFoundation を常に追加するように修正し
+ています。 [ruby-core:56467] [Bug #8759]

@@ -1,0 +1,3 @@
+test/minitest の MetaMetaMetaTestCase#with_output というメソッドで出力をすげか
+えて実行するときに、ensure での復旧が常に STDOUT へ戻していたので、あらかじめ退
+避しておいたものを戻すようにしています。

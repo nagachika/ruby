@@ -1,0 +1,3 @@
+拡張ライブラリ coverage のコメントに require "coverage.so" と拡張子つきで
+require する例が書かれていたので、拡張子は削っています。 https://github.com/
+ruby/ruby/pull/870

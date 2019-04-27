@@ -1,0 +1,1 @@
+ext/date/date_strftime.c の変数の方の変更により警告除去。

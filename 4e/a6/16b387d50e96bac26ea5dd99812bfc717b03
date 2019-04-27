@@ -1,0 +1,4 @@
+freeze された Module に __send__ メソッドを使って private メソッドなどを呼び出
+すと、"can't modify frozen xxx" という例外にならずにメソッドの可視性を変更でき
+てしまう不具合を修正しています。 https://github.com/ruby/ruby/pull/1096
+[ruby-core:71489] [Bug #11687]

@@ -1,0 +1,3 @@
+test/runner.rb から子プロセスが全て回収されているかをチェックする
+Test::Unit::ZombieHunter というモジュールの定義を test/lib/zombie_hunter.rb に
+切り出すリファクタリング。

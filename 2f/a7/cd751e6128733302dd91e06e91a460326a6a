@@ -1,0 +1,3 @@
+tool/make-snapshot で doc/ChangeLog-YYYY の最新のファイルの最後のリビジョン番号
+の次の番号を vcs.export_changelog に渡すようにしていましたが、そのまま渡して
+git svn log コマンドを使うことで最初のリビジョンは含めないようにしています。

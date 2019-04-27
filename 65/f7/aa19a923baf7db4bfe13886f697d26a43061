@@ -1,0 +1,3 @@
+rb_iseq_t の line_seq_table のメモリを確保するのに ruby_xrealloc() を使っていた
+のを REALLOC_N() に変更して、サイズがオーバフローした時のチェックを強化していま
+す。

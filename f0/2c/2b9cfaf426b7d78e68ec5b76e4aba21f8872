@@ -1,0 +1,3 @@
+同じく rb_bug() などで loaded features を表示する時に、Class や Module が入って
+いた時には "class:" や "module:" という文字列を前に置いて、表示するようにしてい
+ます。

@@ -1,0 +1,3 @@
+.travis.yml でビルド時に -j オプションをつけるようにしています。test-all の時は
+削るけど make all では付けるように。また test-spec でオプションを -fs から -ff
+に変更しています。ff?

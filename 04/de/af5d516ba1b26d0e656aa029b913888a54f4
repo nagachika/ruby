@@ -1,0 +1,2 @@
+デバッグ用関数 obj_info() で T_IMEMO 型のオブジェクトで method entry 用の時の表
+示に alias の情報も追加しています。

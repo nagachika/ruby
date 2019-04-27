@@ -1,0 +1,8 @@
+拡張ライブラリ dl で dlsym() を呼ぶ前に dlerror() を呼んでおいて残っているエラ
+ーをクリアするようにしているようです。 FreeBSD である順序で
+(Socket.gethostbyname の後？) DL を操作するとなぜかエラーが残っているようです。
+[ruby-dev:44091] [Bug #5021]
+ext/dl/handle.c では dlsym() や dlopen() の後で dlerror() を呼ぶようになってい
+るようなのでどこか別のところで dlopen/dlsym/dlclose を使っていてエラーが残って
+いるんでしょうね、多分。Linux と Snow Leopard では再現しなかったのでどこかシス
+テム側なんでしょうけど詳細はわかりません。

@@ -1,0 +1,4 @@
+dir.c の do_stat() で Windows 版のときに代替実装の rb_w32_ustati64() を呼び出す
+ようにする修正です。 Windows の FindFirstFile() という関数が "<" や ">" をワイ
+ルドカードとして扱ってしまう不具合(?)のため Dir.glob が誤作動する不具合へ対処す
+るためだそうです。 [ruby-core:55764] [Bug #8597]

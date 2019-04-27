@@ -1,0 +1,2 @@
+Numeric#step で引数 step の 0 チェックで rb_num_corece_cmp() を使っていたのを
+rb_equal() に変更しています。中間オブジェクトの生成を抑制する最適化のようです。

@@ -1,0 +1,4 @@
+lib/unicode_normalize/tables.rb の生成のための common.mk の依存関係にタイムスタ
+ンプファイルを指定していたのを、変数 UNICODE_FILES_DEPS が "download-unicode
+-data" の時だけにして毎回作りなおさないようにしているような気がします。ビルドプ
+ロセス難しい。

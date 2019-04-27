@@ -1,0 +1,2 @@
+CGI.escapeHTML や CGI.unescapeHTML で "'" (シングルクオート記号)をエスケープ対
+象に追加しています。 [ruby-core:45760] [Feature #6620]

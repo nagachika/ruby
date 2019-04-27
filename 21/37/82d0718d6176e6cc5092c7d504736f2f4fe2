@@ -1,0 +1,3 @@
+compile.c の ibf_dump_object_unsupported() に NORETURN() を使ってこの関数からは
+return しないことをコンパイラに指示するようにしています。以降 NORETURN() をつけ
+る変更がいくつか続きます。

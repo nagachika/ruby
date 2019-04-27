@@ -1,0 +1,2 @@
+拡張ライブラリ dl の DL::Function#ptr を追加して DL::Function#unbind で Fiddle
+を利用している場合のエラーを修正しています。 [ruby-core:50756] [Bug #7543]

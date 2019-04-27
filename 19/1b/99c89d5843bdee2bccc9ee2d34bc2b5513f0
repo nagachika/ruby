@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils の upstream からのマージ。そうか fileutils も今や
+default gem なので upstream で開発されてるんですね。パッケージからの不要なファ
+イル削除や、拡張ライブラリ etc の require を遅延する変更の他、Dir.children が未
+実装の古い ruby 処理系への対応などが入っています。

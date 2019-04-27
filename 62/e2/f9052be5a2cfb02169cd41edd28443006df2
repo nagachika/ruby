@@ -1,0 +1,2 @@
+OpenSSL::X509::Name に Comparable を include するようにしています。
+[ruby-core:33560] #4116

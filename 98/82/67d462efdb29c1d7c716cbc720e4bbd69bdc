@@ -1,0 +1,4 @@
+rb_method_definition_reset() で method entry をリセットする時に def->type が
+VM_METHOD_TYPE_ATTRSET の時も def->body.attr.location で初期化するようにしてい
+ます。コミットメッセージによるとどっちかというと初期化がどうというより Write
+Barrier の挿入が主眼っぽいですね。

@@ -1,0 +1,2 @@
+昨日の BigDecimal の機能追加(初期化時に受け付けるオブジェクトに Integer, Float,
+Rational を追加)を追記しています。また ChangeLog の曜日の間違い修正。

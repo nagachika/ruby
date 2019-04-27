@@ -1,0 +1,3 @@
+test/ruby/test_lazy_enumerator.rb の assert_ruby_status の第2引数にエラー時のメ
+ッセージを渡してしまっていた(本来は stdin に渡す文字列を指定する引数)のを修正し
+ています。

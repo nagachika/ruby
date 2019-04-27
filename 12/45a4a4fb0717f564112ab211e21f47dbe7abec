@@ -1,0 +1,2 @@
+r58927 で追加された misc/lldb_cruby.py の struct RBasic::flags のビットフラグの
+定数を直に書いてたのをデバッグ情報? を元に生成するようにしています。

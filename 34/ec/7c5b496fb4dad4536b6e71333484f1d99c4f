@@ -1,0 +1,3 @@
+r47241 の続きで、追加したテストでの setup/teardown での端末のリセットを reset
+メソッドとしてまとめて alias で setup/teardown というメソッド名にみせるようにし
+ています。

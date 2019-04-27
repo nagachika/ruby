@@ -1,0 +1,4 @@
+Enumerator#each と Generator#each が無引数だったのを任意の数の引数を受け取って
+元の each に渡すようにしています。つまり Enumerator や Generator の元になってい
+る each メソッドが引数を受け取る仕様になっていたらそれに合わせることができるっ
+てわけですね。

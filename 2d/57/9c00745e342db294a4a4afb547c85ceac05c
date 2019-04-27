@@ -1,0 +1,2 @@
+詳細はわかりませんが RDoc の出力が ri 用のキャッシュを利用した時に変化してしま
+う不具合を修正しているようです。 https://github.com/rdoc/rdoc/issues/171

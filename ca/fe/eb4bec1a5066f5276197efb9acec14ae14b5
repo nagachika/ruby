@@ -1,0 +1,3 @@
+bootstraptest/runner.rb で &. 演算子(いわゆるぼっち演算子)が使われていましたが
+、bootstraptest/runner.rb は古い ruby で実行することもあるので使わないように書
+きなおしています。

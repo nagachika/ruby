@@ -1,0 +1,7 @@
+IO.popen で引数に String を受け取りつつ環境変数の指定や exec のオプションを受け
+付けるようにしています。その実装のために Hash オブジェクトから exec/spawn のオ
+プションを取得する rb_execarg_extract_options() という内部向け API を追加してい
+ます。 [ruby-dev:45853] [Feature #6651]
+また IO.popen("-") とパイプを通じて fork した子プロセスと通信する使いかたが
+fork(2) を提供していない環境では NotImplementedError 例外を発生させるようにして
+います。

@@ -1,0 +1,4 @@
+test/ruby/enc/test_case_comprehensive.rb のテストケースの動的作成時に Hash.new
+のブロックつきの呼び出しの使いかたが誤ってて毎回ブロック利用してしまっていたの
+を修正して、また ASCII 文字のみ対応した encodin の swapcase のテストを生成する
+ようにしています。

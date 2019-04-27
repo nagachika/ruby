@@ -1,0 +1,7 @@
+r46651 で標準添付ライブラリ webrick の WEBrick::Utils::TimeoutHandler で利用す
+るスレッドは Thread を継承した WEBrick::Utils::TimeoutHandler::Thread を定義し
+てこれを利用するようにして、r46941 で test-all での Thread リークチェック時にこ
+のクラスのスレッドは無視するようにしていましたが、どちらもやめて、ちゃんと
+@watcher の生成を TimeoutMutex で排他しながら作成して WEBrick
+::Utils::TimeoutHandler#terminate できちんと Thread を停止できるようにして、こ
+れを使って各テストで後始末をするという正攻法で対策しています。

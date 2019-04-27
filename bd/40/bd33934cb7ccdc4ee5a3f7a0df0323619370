@@ -1,0 +1,1 @@
+gc.c の #ifdef HAVE_VA_ARGS_MACRO という preprocessor directive を削除。

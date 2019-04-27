@@ -1,0 +1,2 @@
+MJIT のテストが make install に依存しているため make test-all の依存関係に
+install を追加しています。

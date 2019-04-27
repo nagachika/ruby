@@ -1,0 +1,3 @@
+r53789 の影響かと思いますが --enable/--disable の各 feature の指定のビットフラ
+グのデフォルト値 DEFAULT_FEATURES の計算時に debug_flag のぶんは除外するように
+しています。

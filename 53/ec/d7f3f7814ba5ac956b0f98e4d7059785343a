@@ -1,0 +1,4 @@
+tool/extlibs.rb の f.close if f を f&.close と &. 演算子を使う記法に書き換えて
+います。 tool/extlibs.rb は古い BASERUBY とかで実行されることはないかな、と
+common.mk をみると $(BASERUBY) で実行されてるっぽいので BASERUBY が 2.3 より古
+いとダメかも。

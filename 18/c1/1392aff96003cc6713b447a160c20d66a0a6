@@ -1,0 +1,2 @@
+Windows で File.identical? に長い文字列を渡すとスタックオーバフローを引き起こす
+不具合を修正。[Bug #4313] [ruby-core:34830]

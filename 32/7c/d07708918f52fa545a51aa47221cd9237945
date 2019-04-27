@@ -1,0 +1,3 @@
+標準添付ライブラリ observer.rb の rdoc 用コメントのサンプルコードで変数名が
+camelCase だったのを snake_case に変更したり、クラスメソッドの定義の方法を修正
+したりしています。 https://github.com/ruby/ruby/pull/400

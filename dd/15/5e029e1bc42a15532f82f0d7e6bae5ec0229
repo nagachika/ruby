@@ -1,0 +1,2 @@
+$SAFE の最大値は既に 3 になっていますが safe_level が 4 以上の時のチェックとい
+うのが ruby.c の process_options() に残っていたので削っています。

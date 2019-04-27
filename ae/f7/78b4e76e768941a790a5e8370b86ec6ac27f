@@ -1,0 +1,4 @@
+RingServer のテストで止まる現象の調査のためにタイムアウトと
+Thread.abort_on_exception = true を入れたのをメソッドに切り出して、テストメソッ
+ド test_do_reply_local にも同様の対処をするようにしています。こっちも固まること
+があるみたいですね。

@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::HTTPRequest#setup_forwarded_info で
+x-forwarded-proto ヘッダの値が "," で区切られていたら先頭の値だけ使うようにして
+います。 https://github.com/ruby/ruby/pull/1386

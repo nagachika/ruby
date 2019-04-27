@@ -1,0 +1,2 @@
+struct objspace 内の rgengc に関するメンバを USE_RGENGC が真に定義されている時
+だけ宣言するように条件コンパイルの分岐を追加しています。

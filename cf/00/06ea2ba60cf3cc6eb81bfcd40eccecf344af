@@ -1,0 +1,2 @@
+test/lib/test/unit の Test::Unit::TestCase.method_added で super を呼ぶようにし
+ています。 hook メソッドは super を呼ぶのが定石。

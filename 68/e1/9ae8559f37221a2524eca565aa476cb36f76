@@ -1,0 +1,4 @@
+template/insns.inc.tmpl、template/insns_info.inc.tmpl、template/
+known_errors.inc.tmpl、template/minsns.inc.tmpl などの自動生成ファイル用のテン
+プレートにコメントで生成元のツールを書いているところでファイルパスが古くなって
+いたのを修正しています。

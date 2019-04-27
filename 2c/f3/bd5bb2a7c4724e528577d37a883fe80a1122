@@ -1,0 +1,5 @@
+r63711 の rb_mutex_lock() の deadlock 修正といって RUBY_VM_CHECK_INTS_BLOCKING
+() の後で mutex->th が書きかわっている可能性を考慮するようにするため mutex->th
+へのセットを遅延したのがやっぱりまずかったようで、一部 revert しています。
+r63711 はいまいち納得がいかなかったのですが、じゃあこれでOKなのかといわれるとな
+るほどわからん……。 [ruby-core:88503] [Bug #14999] [Bug #14841]

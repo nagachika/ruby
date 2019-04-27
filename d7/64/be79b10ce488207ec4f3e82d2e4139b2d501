@@ -1,0 +1,2 @@
+timeout.rb の内部用定数を rdoc の対象外にしています。 [ruby-core:36211] [Bug #
+4701]

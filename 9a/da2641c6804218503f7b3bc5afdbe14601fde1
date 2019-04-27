@@ -1,0 +1,5 @@
+Mac OS X で SEGV 時に ~/Library/Logs/DiagnosticReports に吐かれるバックトレース
+のファイルを探してきて取得する EnvUtil.diagnostic_reports でみつけたファイルと
+plist ファイルを削除するところで、 plist ファイルが存在しなくて例外が発生した時
+にそれを無視するようにしています。 Mac OS X 10.10 (Yosemita) では
+DiagnosticReports に plist ファイルを作らなくなったみたいです。

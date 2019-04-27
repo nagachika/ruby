@@ -1,0 +1,2 @@
+自動生成されるソースファイル ext/rbconfig/sizeof/limits.c を svn:ignore に追加
+して subversion の無視させるようにしています。

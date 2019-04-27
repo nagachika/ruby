@@ -1,0 +1,4 @@
+Kernel#system のテストメソッドを test_system_exception から後半の非ASCII文字を
+渡す部分を test_system_exception_nonascii として切り出して、mswin および mingw
+の環境では吐き出す shell スクリプトのコマンドの先頭に "@" をつけてコマンドがエ
+コーバックされないようにしています。

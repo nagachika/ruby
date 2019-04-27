@@ -1,0 +1,2 @@
+configure の --program-transform-name でプログラム名の置換を指定していても効か
+ない不具合を修正。 [ruby-dev:42777]

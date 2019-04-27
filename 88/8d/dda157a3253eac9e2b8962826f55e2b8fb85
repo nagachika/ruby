@@ -1,0 +1,3 @@
+test/net/imap/Makefile を test/net/fixtures/Makefile に移動しています。 r56836
+でテスト用の証明書を移動した時にこの証明書作成のための Makefile を移動し忘れて
+たみたいです。

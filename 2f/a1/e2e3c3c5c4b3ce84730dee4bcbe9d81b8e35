@@ -1,0 +1,5 @@
+thread.c の ruby_ppoll() の定義位置を移動? 行を移動してるだけにみえるんだけどコ
+ミットログによると pthread_pthread.c がこの関数に依存しているため、プラットフォ
+ーム毎のソースを #include で取り込む前に移動しているとのこと。そういえば
+thread_pthread.c とか thread_win32.c とかって #include で取り込まれてるんでした
+っけ。

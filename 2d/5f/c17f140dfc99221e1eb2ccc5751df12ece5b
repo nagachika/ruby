@@ -1,0 +1,2 @@
+include/ruby/intern.h から rb_thread_polling() の宣言を消した、と ChangeLog に
+だけ書いてあって実際には消されてないみたいです。

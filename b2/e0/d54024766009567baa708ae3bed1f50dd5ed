@@ -1,0 +1,3 @@
+mjit.c の pch_status という extern している変数に mjit_ という prefix を追加し
+ています。また r64285 で分離したヘッダ mjit_internal.h から mjit_worker.c でし
+か使っていないマクロの定義を移動しています。

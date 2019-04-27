@@ -1,0 +1,3 @@
+r62892 で追加した rb_str_each_grapheme_cluster_size() から、grapheme cluster を
+切り出すための正規表現を作る部分を get_reg_grapheme_cluster() として切り出すリ
+ファクタリング。

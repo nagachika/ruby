@@ -1,0 +1,4 @@
+Time#to_s で返す文字列がのエンコーディングが ASCII-8BIT になっていたので、US-
+ASCII にするようにしています。ただし Encoding.default_internal が特定のエンコー
+ディングに指定されていたらそれに変換して返すようにしています。
+[ruby-core:39092] [Bug #5226]

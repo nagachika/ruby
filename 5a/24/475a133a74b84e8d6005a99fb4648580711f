@@ -1,0 +1,3 @@
+Process.spawn の :umask オプションの整数を内部で LONG2NUM() で変換しているのを
+LONG2FIX() で Fixnum 限定の変換をするようにしています。umask は下位のビットだけ
+でいいはずなので。

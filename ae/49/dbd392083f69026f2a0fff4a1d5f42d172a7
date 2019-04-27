@@ -1,0 +1,4 @@
+compile_return() の type での分岐を if 文から switch 文に書き直して、
+ISEQ_TYPE_ENSURE や ISEQ_TYPE_RESCUE の時に is->body->parent_iseq を辿る処理を
+ループで書き直しています。これまでは1段した辿れなかったのを複数回辿れるようにし
+ているので、若干挙動にも変化がありそう。

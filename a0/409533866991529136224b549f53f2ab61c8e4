@@ -1,0 +1,3 @@
+標準添付ライブラリ logger で Logger.new のキーワード引数に level, progname,
+formatter, datetime_format などを追加して生成時に同時に属性をセットできるように
+しています。 [ruby-core:74614] [Bug #12224]

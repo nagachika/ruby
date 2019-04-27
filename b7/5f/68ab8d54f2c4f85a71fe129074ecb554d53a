@@ -1,0 +1,2 @@
+File.join で常にファイルパスを "/" で連結するようにして File::SEPARATOR や
+File::Separator は参照しないようにしています。 [ruby-core:79579] [Bug #13223]

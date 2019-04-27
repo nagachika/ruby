@@ -1,0 +1,2 @@
+標準添付ライブラリ prime.rb の Prime::EratosthenesSieve の実装をより高速な実装
+に置き換えています。 https://github.com/ruby/ruby/pull/347

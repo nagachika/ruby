@@ -1,0 +1,4 @@
+include/ruby/ruby.h で rb_block_call_func_t を RB_BLOCK_CALL_FUNC_STRICT が真に
+定義されていない時は任意の引数を受け取る関数ポインタとして定義するようにして
+rb_block_call() でこれまでの定義と同じ関数が渡されても警告など出ないようにして
+います。なるほど。

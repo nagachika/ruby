@@ -1,0 +1,4 @@
+NUM2XXX などのテスト用の拡張ライブラリ ext/-test-/num2int/num2int.c で
+rb_stdout を宣言していたのを削除しています。rb_stdout は include/ruby/ruby.h で
+宣言されている & Windows 版を考慮して extern -> RUBY_EXTERN でないといけなかっ
+たんですね。

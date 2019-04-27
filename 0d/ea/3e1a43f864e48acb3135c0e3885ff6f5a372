@@ -1,0 +1,3 @@
+test/lib/test/unit/parallel.rb ですりかえた $stdin, $stdout を元の IO オブジェ
+クトに戻す時に、すりかえ前で例外が発生した場合は nil で上書きしてしまわないよう
+にしています。

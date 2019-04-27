@@ -1,0 +1,2 @@
+rubyspec の socket のテストで r64239 の FreeBSD 向けの修正を macOS(darwin) でも
+適用するようにしています。

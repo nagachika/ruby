@@ -1,0 +1,2 @@
+NUM2ULL() の Bignum から unsigned LONG_LONG への変換のアンダーフローチェックは
+そもそもチェックされていなかったので追加しています。

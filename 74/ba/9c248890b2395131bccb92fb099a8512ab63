@@ -1,0 +1,3 @@
+r40195 の IO::WaitReadable と IO::WaitWritable を include する例外を導入した時
+に EWOULDBLOCK が未定義の時に余分なクラスを定義しないようにするのを通常の条件分
+岐ではなく #if による静的なコンパイル時の変更にしています。

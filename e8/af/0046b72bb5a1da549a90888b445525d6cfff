@@ -1,0 +1,3 @@
+vm_backtrace.c の rb_debug_inspector_open() で int 型のメンバに代入するために配
+列サイズを取得するので型をそろえてコンパイラの警告を抑制するため RARRAY_LENINT
+() に変更しています。

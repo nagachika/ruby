@@ -1,0 +1,4 @@
+sizes.c の自動生成のルールで依存関係に $(PREP) というのを追加しています。 $
+(PREP) は native なビルドか cross compile 時かで異なっていて、cross compile 時
+は miniruby をビルドしているシステム上で動かすことができないので、$(MINIRUBY)
+を使う時に依存するためのターゲットみたいです。 [ruby-core:57476] [Bug #8968]

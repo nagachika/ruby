@@ -1,0 +1,2 @@
+rb_iseq_compile_with_option() で th 変数を消して GET_EC() を使うように変更して
+います。

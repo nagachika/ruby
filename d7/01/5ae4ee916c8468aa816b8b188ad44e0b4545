@@ -1,0 +1,2 @@
+test/ruby/test_enum.rb で assert_float_equal という assertion method が重複して
+定義されていたので 1つ消しています。

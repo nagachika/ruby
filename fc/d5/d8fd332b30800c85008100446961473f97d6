@@ -1,0 +1,2 @@
+GC 用 benchmark のスクリプトでサマリを1行にまとめて表示するように変更しています
+。また make gcbench-hash を gcbench-hash1 と gcbench-hash2 に分離しています。

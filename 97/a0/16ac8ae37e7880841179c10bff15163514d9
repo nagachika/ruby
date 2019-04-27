@@ -1,0 +1,4 @@
+ext/extmk.rb で $extso という変数に名前が格納されていたら Makefile の EXTSO と
+いう変数に格納して、tool/rbinstall.rb でそのライブラリも一緒にインストールする
+ようにして、zlib の Windows 向けのビルドで zlib1.dll を $extso に追加するように
+しています。

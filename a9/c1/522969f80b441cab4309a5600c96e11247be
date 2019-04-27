@@ -1,0 +1,2 @@
+r57667 で削除された NORETURN(rb_generic_ivar_table) ですが #ifdef __GNUC__ でく
+くる形で復活させています。

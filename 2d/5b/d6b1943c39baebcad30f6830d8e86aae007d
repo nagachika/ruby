@@ -1,0 +1,3 @@
+intern.h から存在しない関数(rb_ary_print_on())の宣言を削除しています。
+しかし ChangeLog には rb_ary_join と記述されています。多分 ChangeLog のほうが誤
+記だと思います。

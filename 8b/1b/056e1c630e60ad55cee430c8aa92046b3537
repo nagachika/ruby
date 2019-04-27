@@ -1,0 +1,3 @@
+Windows 版で Fiber のスタック領域確保/解放に malloc/free を使うようにしています
+。使ってなかったっけ、と思ったけど前から Windows 以外では mmap(2) を使ってまし
+たね。そうかー Windows の時は native の Fiber を使ってたんだっけ。

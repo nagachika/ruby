@@ -1,0 +1,2 @@
+gc.c の gc_profile_record_flag に GC 理由を表すビットフラグの定義を追加して GC
+::Profiler.report で詳しい理由を1文字の記号で表示するようにしています。

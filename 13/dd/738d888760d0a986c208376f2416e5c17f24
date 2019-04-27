@@ -1,0 +1,3 @@
+vm.c の関数 vm_collect_usage_register() のコメントの typo 修正。内部的な関数で
+C API として公開されているものではないけど、これも rdoc に載るのかなぁ? https:/
+/github.com/ruby/ruby/pull/738

@@ -1,0 +1,4 @@
+拡張ライブラリ win32ole で OLE の VARIANT 型から Ruby オブジェクトに変換する
+ole_variant2val() で VT_RECORD の変換の時に WIN32OLE_RECORD.new メソッドを
+rb_funcall() で呼び出していたところを、直接 folerecord_s_allocate() 関数を呼び
+出すように変更しています。

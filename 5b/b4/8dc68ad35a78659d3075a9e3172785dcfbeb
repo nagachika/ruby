@@ -1,0 +1,5 @@
+これも pedantic チェックで報告されたものですが compile.c の iseq_build_kw() で
+default_len という変数が負の場合に overflow するという警告が出たそうですが、コ
+ードをよくよむとここで default_len は正になるはず、なのですが警告抑制するため
+else if の分岐を追加して UNREACHABLE を body として入れています。 https://
+travis-ci.org/ruby/ruby/jobs/443568193#L2227

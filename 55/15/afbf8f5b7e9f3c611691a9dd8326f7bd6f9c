@@ -1,0 +1,6 @@
+Socket の接続時にタイムアウトを指定するオプション引数を受け付けるようにしていま
+す。 Socket#connect_nonblock と IO.select を利用してすぐに接続できない時は
+IO.select で接続できるようになるまで待つ実装が追加されています。
+[ruby-core:38538] [Feature #5101]
+それはともかく Socket.tcp というメソッドで TCPSocket を接続できるの知りませんで
+した。

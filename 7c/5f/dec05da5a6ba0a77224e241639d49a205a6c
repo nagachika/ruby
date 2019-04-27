@@ -1,0 +1,1 @@
+test/psych/test_nil.rb のメソッド呼び出しのかっこを追加して警告除去。

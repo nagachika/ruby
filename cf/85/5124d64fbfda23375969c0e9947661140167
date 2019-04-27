@@ -1,0 +1,3 @@
+r64138 でも弄ってた tool/transform_mjit_header.rb の関数名を切り出す正規表現
+FUNC_HEADER_REGEXP をさらに行頭に戻り値の型がある記法も許容するように? していま
+す。

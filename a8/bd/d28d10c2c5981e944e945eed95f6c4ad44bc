@@ -1,0 +1,5 @@
+Windows 版の select の実装を変更。これまでは 100msec 毎にタイムアウトを設定して
+小刻みに起きて th->interrupt_flag をみて割り込みをチェックするようにしていまし
+たが、普通に select() を呼ぶようになっています(cygwin 版はこれまで通り 100msec
+毎に起床)。rb_w32_select_with_thread() を w32_wait_events() を利用して割り込み
+可能にしているようです。

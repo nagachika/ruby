@@ -1,0 +1,2 @@
+win32/Makefile.sub で scriptbin.mk というファイルを二重に include していたので
+一方を削除。

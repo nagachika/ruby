@@ -1,0 +1,2 @@
+GC の統計情報の heap_pages_swept_num を heap_pages_swept_slots に改名して、slot
+の数のことを意味していることが明確になるようにしています。

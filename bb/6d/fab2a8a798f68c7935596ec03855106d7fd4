@@ -1,0 +1,3 @@
+拡張ライブラリ socke の Socket#connect_nonblock でも同様に Ruby でキーワード引
+数を処理して内部的な C 製のメソッド __connect_nonblock に委譲するようにしていま
+す。 [ruby-core:71439] [Feature #11339]

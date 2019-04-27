@@ -1,0 +1,3 @@
+r64207 で win32/Makefile.sub で MJIT 用の precompiled header 生成時に -U オプシ
+ョンで RUBY_EXPORT マクロを削除しているところで、XCFLAGS に含まれている
+-DRUBY_EXPORT も削除するようにしています。

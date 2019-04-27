@@ -1,0 +1,4 @@
+tool/sync_default_gems.rb で date の同期をする時に checkout 後に ext/date/lib/
+date_core.bundle というファイルを消すようにしています。 git checkout しただけだ
+とできないと思うので、そのリポジトリで build した時とかにできるやつを無視するた
+めかなぁ。

@@ -1,0 +1,2 @@
+malloc_usable_size() や malloc_size() など確保したメモリ領域のサイズを取得する
+関数のラッパーとして m_malloc_size() という API を追加しています。

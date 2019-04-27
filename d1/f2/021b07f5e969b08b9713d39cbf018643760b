@@ -1,0 +1,3 @@
+lib/optparse.rb の OptionParser::Version, LastModified, Release など Subversion
+の $Id$ の置換結果を利用するようにしていたのを定数ごと削除しています。
+[ruby-core:57069] [Bug #8877]

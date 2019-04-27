@@ -1,0 +1,8 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#close で SSL_shutdown() を呼
+んだあとに ERR_clear_error() を呼んで OpenSSL のエラースタックをクリアするよう
+にしています。 SSL_shutdown() はその中で allert packet というのを送信するので、
+そこでエラーが発生してエラー情報が残る可能性があるそうです。 [ruby-dev:44125]
+[Bug #5039]
+しかし関係ないですが OpenSSL の関数なのに ERR_clear_error() とは一般的すぎる名
+称ですね。拡張ライブラリ内で定義しているマクロに違いないと思って探しましたが
+OpenSSL の API でした。

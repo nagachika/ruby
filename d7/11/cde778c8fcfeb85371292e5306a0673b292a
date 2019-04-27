@@ -1,0 +1,4 @@
+syslog のテストで Syslog.open の第2引数に Syslog::LOG_PERROR という定数をビット
+フラグとして利用していたのですが、これは Solaris 9, 10 などでは存在しない POSIX
+に準拠していないオプションなので、 Syslog::LOG_PID というのを利用するように変更
+しています。

@@ -1,0 +1,4 @@
+これも multi architecture 対応関連の修正です。 r39345 とは逆に libdir_basename
+を Makefile で展開するのではなく configure で展開するようにしています。そのため
+libdir_basename を定義する時に multiarch の影響を加えておくようにしています。
+[ruby-core:52395] [Bug #7874]

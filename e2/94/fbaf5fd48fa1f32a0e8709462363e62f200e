@@ -1,0 +1,4 @@
+標準添付ライブラリ shell の shell/command-processor.rb の変数名 typo などを修正
+。実行時にメソッド名のリストと RubyVM::InstructionSequence にコンパイルしてメソ
+ッド呼び出しの名前を比較して存在しないメソッド呼び出しになっているのをチェック
+するプログラムを書いてみつけたそうです。

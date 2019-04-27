@@ -1,0 +1,3 @@
+r60231 のさらに続きで ruby_vm_global_method_state,
+ruby_vm_global_constant_state, ruby_vm_class_serial といったキャッシュ関係の変
+数も static を消して export するようにしています。

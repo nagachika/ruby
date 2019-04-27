@@ -1,0 +1,3 @@
+拡張ライブラリ date の NDEBUG マクロが未定義の時の d_lite_initialize() で呼んで
+いる set_to_complex() の引数を修正しています。通常はコンパイルされない部分です
+ね。

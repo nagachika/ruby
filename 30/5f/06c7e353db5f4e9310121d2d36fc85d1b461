@@ -1,0 +1,2 @@
+bignum.c の rb_cstr_to_inum() で基数が 2の累乗の時に rb_integer_unpack() を利用
+するように変更しています。

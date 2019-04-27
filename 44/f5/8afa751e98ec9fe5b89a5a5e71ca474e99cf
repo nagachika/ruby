@@ -1,0 +1,3 @@
+r45224 の環境変数 RUBY_GC_OLDMALLOC_LIMIT の取り込み処理のところ USE_RGENGC を
+条件に加えてたのをやっぱりやめて RGENGC_ESTIMATE_OLDMALLOC が定義されているかど
+うかでなくて、値が真かどうかをチェックするように再修正しています。

@@ -1,0 +1,3 @@
+r64073 や r64076 で弄ってた mjit.c の free_unit() で rb_iseq_body_t::jit_func
+と同時に rb_iseq_body_t::jit_unit も、こちらは NULL でクリアするようにしていま
+す。

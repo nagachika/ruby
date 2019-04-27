@@ -1,0 +1,2 @@
+rubyspec の win32ole のテストで InternetExplorer.Application を使っていたところ
+を Scripting.Dictionary を使うように変更。

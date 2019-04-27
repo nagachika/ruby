@@ -1,0 +1,2 @@
+include/ruby/ruby.h の enum ruby_fl_type の宣言や DSIZE_T の変数宣言に gcc の時
+__extension__ という修飾子を付けるようにしています。警告除去のためみたいです。

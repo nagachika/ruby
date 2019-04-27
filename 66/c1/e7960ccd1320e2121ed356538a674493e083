@@ -1,0 +1,2 @@
+拡張ライブラリ socket の ai_addrlen を受ける引数や変数の型を size_t から
+socklen_t に修正しています。

@@ -1,0 +1,4 @@
+r57514 からの並列テストの修正の続き。子プロセスを起動する時に通信用の pipe を渡
+す設定を Test::Unit::Parallel::Worker.launch から Test::Unit::Parallel#
+process_args に移動するリファクタリング。多分起動時の他のオプションと同じ扱いに
+して @run_options にまとめるため。

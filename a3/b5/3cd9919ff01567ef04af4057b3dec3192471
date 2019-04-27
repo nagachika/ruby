@@ -1,0 +1,4 @@
+標準添付ライブラリ resolv.rb には r52571 で frozen_string_literal: true の
+magic comment を追加したので、破壊的に利用する文字列リテラルに .b をつけて
+(String#b は dup+force_encoding("ASCII-8BIT") 相当なので dup される)います。
+[ruby-core:72559] [Bug #11910]

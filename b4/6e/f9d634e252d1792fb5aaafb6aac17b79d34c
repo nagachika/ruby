@@ -1,0 +1,2 @@
+make test-all で --debugger オプションに lldb を簡単に指定できるようにショート
+カットを追加しています。

@@ -1,0 +1,2 @@
+vm_core.h の inline 関数 VM_ENV_FLAGS() と VM_FRAME_TYPE() は警告除去のため戻り
+値の型を long から unsigned long に変更しています。

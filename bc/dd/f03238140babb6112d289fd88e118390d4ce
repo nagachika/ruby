@@ -1,0 +1,4 @@
+標準ライブラリ WEBrick の lib/webrick/httpservlet/filehandler.rb の r20152 を
+revert しています。ファイル名が長い時に 23 byte 目で切って ".." をつけるように
+しているのですが、マルチバイト文字のことが考慮されていなかったので、ということ
+だと思います。

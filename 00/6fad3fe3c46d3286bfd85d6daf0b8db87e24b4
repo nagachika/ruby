@@ -1,0 +1,5 @@
+Windows 版の lstat() の実装で readlink() の代替実装と同様に reparse point とい
+う機構を使っているときにそのタイプが IO_REPARSE_TAG_SYMLINK か
+IO_REPARSE_TAG_MOUNT_POINT であるかをチェックするようにしています。 reparse
+point じゃなくて dedup というのを使っている時に lstat が Errno::EINVAL を発生さ
+せていたようです。 [ruby-core:70454] [Bug #11462]

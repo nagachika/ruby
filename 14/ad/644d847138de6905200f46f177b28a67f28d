@@ -1,0 +1,4 @@
+Windows 環境で ARGF のファイル名の Encoding を rb_str_encode_ospath() で OS
+encoding に変換して処理するようにしています。 -i オプションの処理でマルチバイト
+文字をもつファイル名を引数に指定した時にうまく処理できてなかったそうです。
+[ruby-dev:50607] [Bug #14970]

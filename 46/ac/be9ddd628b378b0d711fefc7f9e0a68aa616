@@ -1,0 +1,4 @@
+r50347 の続きで、拡張ライブラリ socket で Socket#connect_nonblock に exception:
+false オプションを渡すと Errno::EISCONN 例外も抑制できるようになったので
+AddrInfo#connect_internal でも exception: false を利用して例外を発生させずに
+connect するようにしています。 [ruby-core:68909] [Feature #11072]

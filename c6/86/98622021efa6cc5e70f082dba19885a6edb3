@@ -1,0 +1,2 @@
+irb に NotImplementError という定数名での参照があったので NotImplementedError
+に改名しています。昔は NotImplementError という名前だったみたいですね。

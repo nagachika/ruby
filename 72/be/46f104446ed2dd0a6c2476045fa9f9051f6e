@@ -1,0 +1,3 @@
+tool/generate-backport-changelog.rb という backport 時の ChangeLog の conflict
+を解消して上に追記するためのスクリプトがあったのですが、もう不要になったので削
+除しています。

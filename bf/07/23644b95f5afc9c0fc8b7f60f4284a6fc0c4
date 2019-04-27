@@ -1,0 +1,2 @@
+configure の --disable-install-doc の usage メッセージの文法修正。
+[ruby-core:71506] [Bug #11698]

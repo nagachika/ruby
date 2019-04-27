@@ -1,0 +1,6 @@
+RubyVM::FrameInfo というクラスを追加して、RubyVM::FrameInfo.caller というクラス
+メソッドで caller の情報を文字列ではなくて RubyVM::FrameInfo のインスタンスの配
+列として取り出せるようにしています。RubyVM::FrameInfo はファイル名、行番号、メ
+ソッド名、iseq などを取り出すことができてプログラムで扱うのが楽です(文字列から
+パースしなくていい)。メソッド名については Ruby 2.0 までに良い名前を考えて変更し
+たいとのこと。

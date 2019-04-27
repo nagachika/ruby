@@ -1,0 +1,2 @@
+configure にも --enable-win95/--disable-win95 オプションが存在していたので昨日
+の r36342 に追随して削除しています。

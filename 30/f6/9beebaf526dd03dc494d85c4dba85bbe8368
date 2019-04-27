@@ -1,0 +1,3 @@
+拡張ライブラリ tk で Tk::CallbackSubst と Tk::CallbackSubst::Info は Object で
+はなく Data クラスを継承するようにしています。不要なメソッドの継承を避けるため
+とのこと。allocate とかそのあたりのメソッドのことでしょうか。

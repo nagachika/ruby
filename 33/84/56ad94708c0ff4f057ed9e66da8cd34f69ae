@@ -1,0 +1,3 @@
+openssl のテストで OpenSSL::X509::StoreContext#cleanup を呼ぶと警告が発生するの
+で警告抑制用のユーティリティ EnvUtil.suppress_warning のブロックで呼ぶようにし
+ています。

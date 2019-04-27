@@ -1,0 +1,2 @@
+C level backtrace 取得機能の powerpc64-linux で symtab, strtab セクションが読め
+ないそうで check_debuglink が 0 の時は参照しないようにしています。

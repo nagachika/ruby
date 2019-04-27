@@ -1,0 +1,3 @@
+標準添付ライブラリ net/imap の数値のチェックの処理を Net::IMAP::NumValidator と
+いうモジュールにまとめるなどのリファクタリングです。 https://github.com/ruby/
+ruby/pull/770

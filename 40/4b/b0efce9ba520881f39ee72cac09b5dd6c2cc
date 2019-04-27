@@ -1,0 +1,2 @@
+拡張ライブラリ syslog のテストで require "syslog/logger" が利用できない環境で
+Syslog を使うテストを無視するようにしています。

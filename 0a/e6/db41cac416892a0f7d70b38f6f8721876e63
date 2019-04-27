@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で T_DATA 型のオブジェクトから構造体ポインタを取り出す
+Data_Get_Struct() の wrapper マクロ GetSSLCTX() と GetSSL() を定義してこれを使
+うようにリファクタリングしています。

@@ -1,0 +1,2 @@
+標準添付ライブラリ csv のヘッダ行の処理で記号などの文字を除外する処理を追加して
+います。 https://github.com/ruby/ruby/pull/957

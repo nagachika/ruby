@@ -1,0 +1,2 @@
+EnvUtil.invoke_ruby でシグナル送信時の rescue 節の例外クラスの指定の typo 修正
+。

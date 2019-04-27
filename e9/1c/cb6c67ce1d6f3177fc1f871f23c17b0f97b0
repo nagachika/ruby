@@ -1,0 +1,3 @@
+Array#map, Array#map!, Enumerable#map の rdoc にサンプルを追加して別名の
+collect を使った例や Enumerator を返して with_index と組み合わせる例なども追記
+しています。

@@ -1,0 +1,4 @@
+これも r66160 の続きで rubyspec の Dir.home のテストで solaris では echo で
+~username を展開させるんじゃなくて getenv コマンドを使うようにプラットフォーム
+で分けるようにしています。こっちは Dir.home 自体のテストだから Dir.home 使うわ
+けにいきませんからね。

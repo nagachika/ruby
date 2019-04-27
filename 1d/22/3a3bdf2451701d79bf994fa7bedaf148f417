@@ -1,0 +1,3 @@
+r45464 で追加した rb_id_attrget() を利用して Struct のメンバの値のセット、参照
+時に ID でなくて Symbol でメンバを指定することで SYM2ID() を呼んで Symbol を
+pin down して GC できなくするのを避けるようにしています。

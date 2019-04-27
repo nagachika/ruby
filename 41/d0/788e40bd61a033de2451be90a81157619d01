@@ -1,0 +1,2 @@
+ext/curses/curses.c の利用されていない関数マクロ CHECK() の定義を削除しています
+。

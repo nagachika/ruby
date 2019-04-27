@@ -1,0 +1,2 @@
+Enumerable#chunk や slice_before で "<<" メソッドを呼ぶために毎回 rb_intern()
+で ID を取得していたのを id_lshift に格納済みのものを使うようにしています。

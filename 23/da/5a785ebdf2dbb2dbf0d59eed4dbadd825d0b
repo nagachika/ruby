@@ -1,0 +1,4 @@
+クロック(タイマー)の精度を取得する Process.clock_getres メソッドを追加していま
+す。 Process.clock_gettime と対になるもので同様に clock_id を受け取ってその精度
+を返すメソッドのようです。 [Feature #8809] [ruby-core:56780]
+今日の開発者会議で採用されたようです。

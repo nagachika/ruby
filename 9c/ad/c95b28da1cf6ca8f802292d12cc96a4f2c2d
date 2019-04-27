@@ -1,0 +1,4 @@
+Rake を 10.1.0 に更新しています。変更点は NEWS ファイルにも記載されたリリースノ
+ートに譲ります。 http://rake.rubyforge.org/doc/release_notes/
+rake-10_0_3_rdoc.html http://rake.rubyforge.org/doc/release_notes/
+rake-10_1_0_rdoc.html

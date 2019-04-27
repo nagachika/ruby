@@ -1,0 +1,8 @@
+標準ライブラリ cgi の CGI::QueryExtension#read_multipart で標準入力からの読み込
+みに利用する IO オブジェクトは stdinput という private メソッドで抽象化されてい
+て変更可能になっているのですが、それを利用せず $stdin を直接使っていたため ruby
+-fcgi 環境でエラーになっていたのを修正しています。 [ruby-dev:44601] [Bug #5451]
+ちなみに stdinput メソッドが定義されているのは CGI クラスで CGI::QueryExtension
+には定義されていませんが、QueryExtension は CGI#initialize で extend されている
+ので CGI クラスのインスタンスからは両者が使えるという関係になっています。なぜ
+include QueryExtension じゃないんでしょうかね。

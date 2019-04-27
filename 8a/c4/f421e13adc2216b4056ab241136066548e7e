@@ -1,0 +1,3 @@
+ruby_xsizedrealloc() と ruby_xsizedfree() というコアで使う用の関数を追加して
+malloc() 系のメモリ確保による GC 実行のしきい値の計算がこの関数を使ってメモリ確
+保したらより正確にできるようにしています。 [ruby-core:57667] [Feature #8985]

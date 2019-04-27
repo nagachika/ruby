@@ -1,0 +1,4 @@
+Hash#compact! で値が nil の要素がなくて削除が行なわれなかったら nil を返すよう
+に変更しています。確かに ! で終わる Enumerable の破壊的メソッド群は変更がなかっ
+たら nil を返すのが慣例ですしね。と思ったら ActiveSupport の Hash#compact! と挙
+動が違うという指摘だったようです。 [ruby-core:77709] [Bug #12863]

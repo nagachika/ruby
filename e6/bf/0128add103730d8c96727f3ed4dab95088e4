@@ -1,0 +1,2 @@
+thread.c の update_timespec() の内容を timespec_update_expire() に委譲する変更
+と、r62455 と同様に to -> end に変数名を改名する変更です。

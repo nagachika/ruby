@@ -1,0 +1,2 @@
+test/ruby/test_transcode.rb のコメントの typo 修正。 https://github.com/ruby/
+ruby/pull/1681

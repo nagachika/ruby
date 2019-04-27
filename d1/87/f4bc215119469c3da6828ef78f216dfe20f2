@@ -1,0 +1,3 @@
+TracePoint#file と TracePoint#line をそれぞれ TracePoint#path and TracePoint#
+lineno と改名し、対応する C の構造体メンバ名なども合わせて改名しています。
+RubyVM::Backtrace::Location と名称を合わせたそうです。

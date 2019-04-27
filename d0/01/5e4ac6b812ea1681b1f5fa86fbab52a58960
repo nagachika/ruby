@@ -1,0 +1,4 @@
+あちこちの暗黙のオブジェクトの変換(to_str, to_int, to_ary などを内部で呼び出し
+ているところ)で rb_convert_type() のかわりにメソッド名を ID で受け取る
+rb_convert_type_with_id() という関数を追加してこちらを利用するようにする最適化
+。 https://github.com/ruby/ruby/pull/1537 [ruby-dev:50024] [Bug #13341]

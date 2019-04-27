@@ -1,0 +1,3 @@
+拡張ライブラリ fcntl で定義される定数 Fcntl::F_DUPFD の説明に、内部的には
+FD_DUPFD_CLOEXEC を(可能なら)利用し、DUPFD と CLOEXEC が併用されるようにしてい
+ることを追記しています。

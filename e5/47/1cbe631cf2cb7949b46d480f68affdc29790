@@ -1,0 +1,2 @@
+標準添付ライブラリ rdoc の rdoc/servlet.rb で JSON.dump を利用するため require
+"json" しておくようにしています。

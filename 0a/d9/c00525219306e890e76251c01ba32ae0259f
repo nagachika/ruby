@@ -1,0 +1,3 @@
+見落としてましたが r63716 で endless range にブロック付きで Range#min を呼ばれ
+た時にも RangeError を発生させるようにしていて、そのテストを追加しています。
+[ruby-core:86612] [Bug #14699]

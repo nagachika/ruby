@@ -1,0 +1,3 @@
+test/uri/test_common.rb で envutil.rb をロードするのに require_relative を利用
+するようにしています。 parallel test のためとのこと。うーんどういうことでしょう
+。

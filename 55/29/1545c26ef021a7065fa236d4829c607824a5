@@ -1,0 +1,5 @@
+tool/rbinstall.rb が標準添付されている gem ライブラリの gemspec の date のデフ
+ォルト値を RUBY_RELEASE_DATE から取得するようにしています。元のチケットは
+test-unit の gemspec の date がビルドした時の日付になってしまうため、毎回
+gemspec の内容が変化するので Debian のパッケージ化の時に困るというものでした。
+[ruby-core:57072] [Bug #8878]

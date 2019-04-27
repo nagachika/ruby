@@ -1,0 +1,5 @@
+r38342 で FreeBSD で libexecinfo によるバックトレースの取得のために
+-fno-omit-frame-pointer オプションを付与するようにした workaround を revert し
+ています。 libexecinfo の backtrace(3) はシグナルハンドラ内でそれ以前のバックト
+レースを取得できないので利用をやめて libunwind というライブラリの unw_backtrace
+() というのを使うようにしています。

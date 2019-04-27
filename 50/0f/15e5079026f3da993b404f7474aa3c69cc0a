@@ -1,0 +1,3 @@
+rubygems に 2.6.14 をマージしています。 RubyGems.org のセキュリティ問題の対策で
+rubygems で gemspec をロードしているところを修正したそうです。 http://
+blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html

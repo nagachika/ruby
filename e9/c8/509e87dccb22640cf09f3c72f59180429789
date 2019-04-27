@@ -1,0 +1,2 @@
+r39891 で Rinda のテストで子プロセスを SIGTERM で停止しようとしているところ、
+Windows 版では SIGTERM は利用できないので SIGKILL を使うようにしています。

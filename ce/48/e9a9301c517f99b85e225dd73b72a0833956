@@ -1,0 +1,3 @@
+r38216 の Timeout#timeout の変更で Thread.async_interrupt_timing に指定する例外
+を実際に利用する例外クラスを指定する(デフォルトでは ExitException を継承した例
+外クラスを動的に生成して使っている)ようにしています。

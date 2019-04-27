@@ -1,0 +1,5 @@
+r58082 で切り出した ensure_includable() に module が Refinements の Module#
+refine メソッドが返した Module だったらエラーにするチェックを追加しています。っ
+ていうか Module#refine って生成した Module オブジェクトを返してたんですね。これ
+を include すると SEGV する可能性があったみたいです。 [ruby-core:79632] [Bug #
+13236]

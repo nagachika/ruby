@@ -1,0 +1,2 @@
+rdoc のテストから RDoc::RubyToken のテストを削除しています。 [ruby-core:83188]
+[Bug #13991]

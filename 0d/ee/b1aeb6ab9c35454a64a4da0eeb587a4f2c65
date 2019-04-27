@@ -1,0 +1,3 @@
+test/rinda/test_rinda.rb でファイルのトップレベルで DRb.start_service が呼ばれ
+てたのを setup メソッドに移動して teardown でちゃんと stop_service を呼んでスレ
+ッドを止めるようにしています。

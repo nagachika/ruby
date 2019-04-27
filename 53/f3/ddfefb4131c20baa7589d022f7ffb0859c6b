@@ -1,0 +1,3 @@
+r43870 や r43871 で追加したテストで assert_equal を使っていたところを
+assert_same を利用するようにしています。自動で object_id つきのメッセージを出し
+てくれる minitest の assertion のようです。

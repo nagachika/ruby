@@ -1,0 +1,2 @@
+mjit_worker.c と mjit.c の CC_PATH というマクロ定義を削除して直接
+CC_COMMON_ARGS[0] を参照するようにしています。

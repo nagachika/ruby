@@ -1,0 +1,2 @@
+Range#bsearch の rdoc コメントのなかで array と間違って表記していたところを
+range に修正。 [ruby-core:54143] [Bug #8242]

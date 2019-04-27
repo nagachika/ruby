@@ -1,0 +1,3 @@
+Regexp.new の引数にバックスラッシュでエスケープしたマルチバイト文字を渡すと
+RegexpError 例外になるという不具合を修正しています。 https://twitter.com/sakuro
+/status/972014409986883584

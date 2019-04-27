@@ -1,0 +1,4 @@
+thread_pthread.c で pthread_condattr_setclock() の前に pthread_condattr_init()
+を呼んで、エラーだったら pthread_condattr_setclock() を呼ぶのを抑制するようにし
+ています。 OpenBSD では先に pthread_condattr_init() が必須だったみたいです。
+[ruby-core:87345] [Bug #14807]

@@ -1,0 +1,2 @@
+r42744 の ChangeLog に Process.clock_getres は CRuby の(独自の)機能として採用さ
+れたことを追記しています。

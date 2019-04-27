@@ -1,0 +1,5 @@
+NODE は Ruby のオブジェクトではないですが同じメモリ管理の仕組みで管理されていて
+、RGenGC の Write Barrier を追加して sunny なオブジェクトになるようにしています
+。これで大規模なアプリだと remembered_shady_object_count が 80% くらい減るそう
+です。おーすごい。そして思ったほど変更箇所が多くないですね。 [ruby-core:58947]
+[Bug #9225]

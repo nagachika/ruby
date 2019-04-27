@@ -1,0 +1,3 @@
+r30451 で SSL_shutdown() が 0 を返したらリトライするようにしたら IMAPTest#
+test_imaps_verify_none が終了しなくなってしまったということで一旦 revert されて
+います。 [Bug #4241]

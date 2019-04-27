@@ -1,0 +1,4 @@
+bignum.c の bigfixize() と check_shiftdown() で Bignum のサイズを判定する際に確
+保されているバッファサイズではなくてその数値を表現するのに必要なサイズを
+rb_absint_size() で取得するように修正しています。また big2ulong() では同様に
+long に BDIGIT がいくつ入るかを bdigit_roomof() で取得するようにしています。

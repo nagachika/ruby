@@ -1,0 +1,4 @@
+Process.spawn などで fork する際に子プロセスとの通信用に作る pipe に
+rb_fork_internal() で cloexec フラグを立てるのですが、 pipe は rb_pipe() で生成
+する時に常に cloexec フラグを立てて作成するようになっているので冗長だったので削
+除しています。 [ruby-core:56523] [Bug #8769]

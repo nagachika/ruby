@@ -1,0 +1,1 @@
+signal.c の関数定義(ruby_atomic_exchange) の改行を追加して体裁の修正。

@@ -1,0 +1,3 @@
+tool/make-snapshot で生成する Makefile の prereq というターゲットは
+prepare-package に変更して、common.mk にある prereq に追加するのをやめています
+。そして prepare-package から prereq に依存関係を張っておくようにしています。

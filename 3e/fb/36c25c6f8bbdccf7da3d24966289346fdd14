@@ -1,0 +1,2 @@
+SecureRandom のテストでも File.exists? を File.exist? に変更する警告除去を行っ
+ています。

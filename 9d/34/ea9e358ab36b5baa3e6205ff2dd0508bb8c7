@@ -1,0 +1,3 @@
+r53095 で追加した rb_parser_printf() で追加したバッファ用の文字列オブジェクトを
+格納する struct parser_param::debug_buffer を出力後に Qnil に再初期化するように
+しています。

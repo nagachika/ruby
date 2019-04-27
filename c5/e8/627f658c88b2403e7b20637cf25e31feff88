@@ -1,0 +1,2 @@
+と思ったら r66659 を revert しています。 getaddrinfo(3) が timeout をサポートし
+ていないため。

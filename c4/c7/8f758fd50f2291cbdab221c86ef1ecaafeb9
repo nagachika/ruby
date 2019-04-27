@@ -1,0 +1,3 @@
+r42180 で rb_str_conv_enc() を使って書きかえた win32/file.c の
+fix_string_encoding() で enciding が変換先のエンコーディングではなく元のエンコ
+ーディングなのに逆に渡していたのを修正しています。

@@ -1,0 +1,5 @@
+標準添付ライブラリ csv に gemspec ファイルを追加しています。 csv も default gem
+化の方針のようですね。 [ruby-core:79377] [Feature #13177]
+また tool/rbinstall.rb で lib/ の直下に .gemspec ファイルがあるとうまくインスト
+ールできなかった問題に対応しています。なるほど csv は lib/csv.rb だから lib/csv
+.gemspec になっちゃいますね…。 [ruby-core:79377] [Feature #13177]

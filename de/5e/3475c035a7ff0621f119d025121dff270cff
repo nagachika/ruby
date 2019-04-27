@@ -1,0 +1,3 @@
+struct dirent の d_name が NUL 文字終端しているとはかぎらず、サイズが d_namlen
+で渡されていることがあるので glob_helper で NUL 文字終端を前提としていた部分を
+NAMLEN() マクロを使って移植性のある実装にそろえています。

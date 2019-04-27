@@ -1,0 +1,3 @@
+拡張ライブラリ io/console の Windows 版の win32_vk.h 絡みの再修正です。
+win32_vk.h を win32_vk.inc に改名しています。よくわかってませんが、拡張子が .h
+だと mkmf.rb の HDRS 定数に含まれてしまい常に再生成されてしまっていたようです。

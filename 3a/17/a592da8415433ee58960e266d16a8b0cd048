@@ -1,0 +1,4 @@
+RGenGC の世代管理のタイミング(?) を変更して効率化しているようです。
+gc_mark_children でやっていた旧世代への昇格(加齢)を gc_mark() でオブジェクトを
+mark_stack に push する前に変更して、不要なオブジェクトの mark_stack への push
+を省くようにしているみたいです。

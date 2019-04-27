@@ -1,0 +1,2 @@
+r62320 で win32/Makefile.sub で RUBY_VERSION_NAME という変数の参照が追加された
+ので、未定義だったら定義も追加するようにしています。

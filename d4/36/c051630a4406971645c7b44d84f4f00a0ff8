@@ -1,0 +1,3 @@
+lib/unicode_normalize/normalize.rb と template/unicode_norm_gen.tmpl のリファク
+タリング。 str.chars.map! を使って式を簡略化したりなど。この kompatible_table
+って変数名はわざと k になってるんですかね。

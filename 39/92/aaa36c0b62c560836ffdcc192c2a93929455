@@ -1,0 +1,3 @@
+rb_eval_string_wrap() という C API の rdoc 用コメントでこれが require 相当であ
+ると書かれていましたが load 相当だったので修正しています。 https://github.com/
+ruby/ruby/pull/779

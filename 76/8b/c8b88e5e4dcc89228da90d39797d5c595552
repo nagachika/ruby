@@ -1,0 +1,2 @@
+r50863 の続きで、rb_thread_mark() に rb_thread_t に追加した name メンバの mark
+処理を追加しています。 [ruby-dev:49068] [Feature #11251]

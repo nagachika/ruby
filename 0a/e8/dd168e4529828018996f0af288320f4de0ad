@@ -1,0 +1,6 @@
+rb_iseq_location_t の first_lineno メンバの型を size_t から VALUE に変更してい
+ます。けどセットしているところしか弄ってなくて使ってるところが変更されてないな
+ぁ…と思ったら rb_iseq_first_lineno() は VALUE 型として first_lineno を返してい
+たので、元々型が間違ってた(食い違ってた)ということみたいですねぇ。コミットログ
+をみると rb_iseq_build_for_ruby2cext() は experimental な関数ということなのでこ
+こはほとんど使われてなかった模様。

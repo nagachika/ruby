@@ -1,0 +1,3 @@
+missing/strchr.c と missing/strstr.c に strlen のプロトタイプ宣言を追加していま
+す。
+なお ChangeLog のファイル名(strstr.c)に typo があります。

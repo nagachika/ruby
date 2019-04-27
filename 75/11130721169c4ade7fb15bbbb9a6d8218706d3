@@ -1,0 +1,3 @@
+test/unit の並列テストで r57514 あたりで MAKEFLAGS から --jobserver-auth を抜き
+出して fd を利用していましたが、古い GNU make では --jobserver-fds というオプシ
+ョンが使われるそうなので両方対応するようにしています。

@@ -1,0 +1,3 @@
+ext/digest/digest.gemspec は削除しています。 digest は default gem 化は一旦とり
+やめみたいです。 gem install でのヘッダファイルのインストールが必要だけど、うま
+くいかないようです。

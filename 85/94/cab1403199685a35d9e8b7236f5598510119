@@ -1,0 +1,6 @@
+標準添付ライブラリ logger で MonitorMixin を Logger::LogDevice::LogDeviceMutex
+というクラスに include してこれを使っていた(単に include しただけのクラスを作る
+んだったら直接 Monitor を使ってもよかったようですが…)のを、Logger::LogDevice
+に直接 MonitorMixin を include するようにしています。 pull request をみると
+Logger を継承したクラスを作った時に @logdev に対して直接 synchronize が呼べたほ
+うが便利ということみたいですね。 https://github.com/ruby/ruby/pull/541

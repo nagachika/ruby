@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb のコマンドで merger.rb に渡すオプションを表示するシ
+ョートカットを s から b に変更しています。ふむ?

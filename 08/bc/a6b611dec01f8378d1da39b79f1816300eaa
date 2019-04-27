@@ -1,0 +1,2 @@
+rubyspec の Socket.pack_sockaddr_in のテストで Solaris でうまく動かないものを
+platform_is_not による guard を追加しています。

@@ -1,0 +1,2 @@
+ext/-test-/num2int と ext/-test-/old_thread_select/ の svn:ignore property に
+mkmf の生成するファイルを追加。

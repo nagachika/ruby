@@ -1,0 +1,4 @@
+make btest, test-sample, test-knownbugs, test-al test-ruby などテストを実行する
+ターゲットで TESTSOPTS という変数を指定すると TestUnit のコマンドラインオプショ
+ンに渡すようにしています。これまでも test-all には TESTS でオプションを渡せてい
+ましたが、全てのテスト用ターゲットで使える変数を用意しています。

@@ -1,0 +1,4 @@
+即値のオブジェクトは全て freeze された状態になっているので([Feature #8923])、イ
+ンスタンス変数を持たせることももうできないはずなので generic_ivar_tbl から
+SPECIAL_CONST_P() の時の対応を削除しています。 [ruby-core:69441] [Feature #
+11208]

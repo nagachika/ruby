@@ -1,0 +1,2 @@
+minitest 2.5.1 をマージしています。 MiniTest::Spec.register_spec_type に
+matcher をブロック渡しで指定する呼び方に対応しています。

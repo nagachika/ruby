@@ -1,0 +1,3 @@
+時々 RingServer のテストが rubyci で止まってしまうので、テストメソッドの先頭で
+Thread.abort_on_exception = true してバックグラウンドの Thread が例外かなにかで
+死んだらメインスレッドにも伝播させるようにしています。

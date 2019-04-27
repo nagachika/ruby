@@ -1,0 +1,5 @@
+拡張ライブラリ openssl で OpenSSL::SSL::SSLContext.new で ssl_version を指定す
+る文字列が NUL 終端している(NUL 文字を途中に含まない)ように StringValueCStr()
+を使って取り出すようにしています。また不明な version の指定時の例外に引数を埋め
+込む時に PRIsVALUE を使ってエンコーディングを保持したまま埋め込むようにしていま
+す。

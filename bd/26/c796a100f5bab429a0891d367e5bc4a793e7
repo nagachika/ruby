@@ -1,0 +1,2 @@
+internal.h に r54189 で削除されてた rb_compile_error_str() の宣言が残っていたの
+で削除しています。

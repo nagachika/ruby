@@ -1,0 +1,2 @@
+r46018 で Windows 版 Etc.uname のためにマクロ定義した GetComputerNameExW() の呼
+び出しでマクロ引数名を typo していたのを修正しています。

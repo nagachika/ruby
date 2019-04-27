@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の Net::HTTPHeader#initialize_http_header でヘッダ
+の値に nil が渡された時に例外にせずに警告を出すに留めるようにしています。
+https://github.com/ruby/ruby/pull/641 https://github.com/ruby/ruby/pull/952

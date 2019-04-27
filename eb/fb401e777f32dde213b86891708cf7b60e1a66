@@ -1,0 +1,4 @@
+fork で子プロセスを作った時に子プロセス側で signal handler を再初期化する
+disable_child_handler_fork_child() で SIGPIPE については POSIX_SIGNAL が偽の時
+に未初期化のまま handler 変数を使っていたので SIG_DFL で初期化するようにしてい
+ます。

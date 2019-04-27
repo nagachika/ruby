@@ -1,0 +1,4 @@
+拡張ライブラリ psych でシングルクオートを含んだ文字列を dump した時に不正な
+dump 結果になるのを修正するため、文字列に記号などが含まれていた時にダブルクオー
+トを使った YAML にするようにしています。 https://github.com/tenderlove/psych/
+issues/157

@@ -1,0 +1,3 @@
+さらに .travis.yml で make test や make test-all に --color=never オプションを
+渡して色付けも抑制するようにしています。また make update-rubyspec に MSPECOPT=
+-fm を渡しています。update-rubyspec? test-rubyspec の時じゃないんでしょうか。

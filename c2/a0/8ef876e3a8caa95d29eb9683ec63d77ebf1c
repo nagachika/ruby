@@ -1,0 +1,3 @@
+r60661 の tool/runruby.rb の --debugger オプションの対応で、環境変数
+RUNRUBY_USE_GDB の指定があった時にデフォルトで run.gdb を利用するのが無効になっ
+てたのを修正しています。

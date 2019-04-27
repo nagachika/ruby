@@ -1,0 +1,6 @@
+スレッドのスケジューリングまわりのリファクタリングです。 rb_thread_schedule_rec
+() は再帰的に呼ばないようにして rb_thread_schedule_limits() に改名して
+sched_depth 引数を削除。 interrupt_flag のチェックをこの上の rb_thread_schedule
+() に移動しています。また rb_threadptr_execute_interrupts_rec() も
+rb_threadptr_execute_interrupts_common() に改名して再帰的な呼び出しをやめていま
+す。

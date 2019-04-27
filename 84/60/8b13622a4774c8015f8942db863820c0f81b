@@ -1,0 +1,2 @@
+variable.c の rb_autoload() で Module/Class の Write Barrier 挿入漏れがあったの
+を修正しています。

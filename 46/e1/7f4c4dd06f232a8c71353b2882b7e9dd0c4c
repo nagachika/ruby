@@ -1,0 +1,2 @@
+README.EXT.ja で Data_Wrap_Struct および Data_Make_Struct の説明が間違っていた
+のを修正。 [ruby-dev:47269] [Bug #8292]

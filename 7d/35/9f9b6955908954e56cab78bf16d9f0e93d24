@@ -1,0 +1,1 @@
+r65444 と r65446 の Transient Heap がらみの commit を revert しています。

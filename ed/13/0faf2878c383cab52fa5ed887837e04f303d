@@ -1,0 +1,5 @@
+ブロックから yield した時の control frame にセットされる iseq の ifunc の型の判
+定を BUILTIN_TYPE() で T_NODE と比較していたのを RUBY_VM_IFUNC_P() という判定用
+マクロの利用に差し替えています。また RUBY_VM_IFUNC_P() の定義自体も
+BUILDTIN_TYPE() を使うのではなくて RB_TYPE_P() を利用するようにしています。これ
+も NODE からの脱却の準備でしょうね。

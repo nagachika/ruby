@@ -1,0 +1,3 @@
+gc_start_internal() と rb_gc_start() で finalizing フラグをチェックして
+finalize_defered() を呼ぶ処理は rb_finalize_defered() で ATOMIC_EXCHANGE() を使
+った実装があるのでそれを呼ぶように変更しています。

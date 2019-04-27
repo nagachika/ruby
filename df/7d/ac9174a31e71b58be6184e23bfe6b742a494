@@ -1,0 +1,4 @@
+RDoc 4.1.0.preview.1 をマージしています。いろいろ変わってるみたいです。変更履歴
+はこちら https://github.com/rdoc/rdoc/blob/v4.1.0.preview.1/History.rdoc
+rdoc -v が verbose モードじゃなくて --version 相当になったのというのが個人的に
+はよくひっかかったオプションなので目につきました。

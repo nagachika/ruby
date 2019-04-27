@@ -1,0 +1,5 @@
+r60411 の Enumerable#sum で Range と誤解された時のエラーの修正で begin と end
+メソッドの存在チェックを rb_check_funcall() を利用するように変更しています。ど
+うやらこれが r60413 の mspec の修正と関係あったみたいで rb_respond_to() と
+rb_funcall() してたのを rb_check_funcall() に変更しています。 [ruby-core:83541]
+[Bug #14048]

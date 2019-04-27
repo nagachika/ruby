@@ -1,0 +1,6 @@
+tool/rbinstall.rb で bundled gem の gemspec を読み込むのに Gem
+::Specification.each_spec を使ってファイルの読み込みまで行なっていたのを、Gem
+::Specification.each_gemspec を使ってファイルパスを受け取って Dir.chdir してか
+ら gemspec ファイルの読み込みを行なうようにしています。 gemspec ファイル内でさ
+らファイル読み込みをしているケースを考慮してのことだそうです。json がそういうこ
+とをしているらしいです。

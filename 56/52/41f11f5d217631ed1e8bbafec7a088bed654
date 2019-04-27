@@ -1,0 +1,3 @@
+configure で __builtin_setjmp() の存在チェックをする時に生成するソースコードに
+NORETURN() マクロで関数が戻ってこないことを明示して -Wsuggest-attribute=
+nooreturn による警告を抑制するようにしています。 [ruby-core:75510] [Bug #12383]

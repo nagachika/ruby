@@ -1,0 +1,4 @@
+拡張ライブラリ etc に uname(3) で得られるようなシステムの情報を取得するためのメ
+ソッド Etc.uname を追加しています。引数はなしで、Symbol をキーとした Hash オブ
+ジェクトが返されて :sysname/:nodename/:release/:version/:machine などのキーが含
+まれます。 [ruby-core:62139] [Feature #9770]

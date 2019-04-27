@@ -1,0 +1,3 @@
+gc.c で GC 中であることを示す変数 during_gc を sweep 処理時にクリアする処理を
+rb_objspace_free() から抜ける時から rest_sweep() と gc_prepare_free_objects()
+から抜ける時に移動しています。

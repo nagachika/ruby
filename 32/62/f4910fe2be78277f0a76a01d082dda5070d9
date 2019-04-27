@@ -1,0 +1,2 @@
+string.c の chomp_rs() や deleted_suffix_length() などの doxygen 向けコメントの
+typo 修正やマークアップ抜けの修正。

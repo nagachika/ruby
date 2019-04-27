@@ -1,0 +1,3 @@
+enc/unicode/case-folding.rb の CaseFonding と CaseMapping に @version というイ
+ンスタンス変数を追加してデータファイル間でバージョン番号が一致しているかのチェ
+ックを追加しています。

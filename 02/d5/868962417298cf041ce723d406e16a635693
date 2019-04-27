@@ -1,0 +1,6 @@
+rb_iseq_t::klass メンバを削除して、super のメソッド定義を辿るのは r51126 で追加
+された rb_callable_method_entry_t を control frame stack から取り出して利用する
+ようにしています。 r51161 で重複したメソッド呼び出しの skip をやめたのも関係あ
+るんでしょうね。 [ruby-core:37116] [Bug #4881] [ruby-dev:40959] [Bug #3136]
+vm_backtrace.c に #define VM_CHECK_MODE 2 というのが含まれたままコミットされて
+ますけど、これはいいんですかね?

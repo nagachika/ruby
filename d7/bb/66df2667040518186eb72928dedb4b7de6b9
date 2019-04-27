@@ -1,0 +1,5 @@
+標準添付ライブラリ net/http の Net::HTTPResponse#inflater で圧縮された内容を展
+開する時に ensure 節で $! で例外を退避しておいて、無条件でそれを再 raise してい
+たので、例外が発生していたわけでない時に展開で失敗すると nil を raise してしま
+って TypeError が発生するという不具合があったのを修正しています。
+[ruby-core:68846] [Bug #11058]

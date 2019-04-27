@@ -1,0 +1,2 @@
+Time#strftime で %F の幅に大きな数を指定すると SEGV する不具合の修正です。
+[ruby-dev:43284] [Bug #4456]

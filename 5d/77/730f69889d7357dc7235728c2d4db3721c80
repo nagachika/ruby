@@ -1,0 +1,1 @@
+rb_objspace_t のメンバ rgengc::old_objects_at_gc_start を削除しています。

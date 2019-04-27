@@ -1,0 +1,2 @@
+これは多分別件だと思いますが rubyspec で ThreadGroup のテストが MinGW でときど
+き失敗するとのことで platform_is_not で guard を追加しています。

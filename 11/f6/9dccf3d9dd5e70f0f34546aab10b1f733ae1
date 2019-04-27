@@ -1,0 +1,3 @@
+tool/vcs.rb の VCS::SVN と VCS::GIT に commit メソッドを追加して svn commit や
+git svn dcommit を実行できるようにしています。そして defs/gmake.mk で make
+commit でこのメソッドを使ってコミットするようにしています。

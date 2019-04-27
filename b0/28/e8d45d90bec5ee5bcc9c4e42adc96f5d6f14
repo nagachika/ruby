@@ -1,0 +1,4 @@
+標準添付ライブラリ csv の to_csv での文字エンコーディングの修正です。どうも単純
+なミスで Encoding.compatible? の呼び出しがうまくいっていなかったようです。
+Encoding.compatible? って true/false じゃなくて、結合後にどのエンコーディングに
+するかを返してくれるんですね。

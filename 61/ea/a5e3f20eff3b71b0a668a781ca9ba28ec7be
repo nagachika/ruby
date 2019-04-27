@@ -1,0 +1,2 @@
+r65577 や r65586 の configure での MJIT_CC の展開で cygpath でのパスの変換は
+$build_os が cygwin でなくても行うようにしています。

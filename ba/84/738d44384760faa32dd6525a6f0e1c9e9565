@@ -1,0 +1,2 @@
+標準ライブラリ optparse.rb の定数 Version と SPLAT_PROC に rdoc の :nodoc: タグ
+を付与しています。

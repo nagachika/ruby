@@ -1,0 +1,49 @@
+Module#prepend が追加されています。 [ruby-core:21822] [Feature #1102]
+Module#prepend は Module#include の亜種みたいなもので、include はそのクラスの継
+承関係で親クラスとの間にモジュール(実装的には正確にはモジュールへの参照を持つ
+IClass)を挟みこむことでそのモジュールの実装(メソッド/定数)を利用できるようにし
+ますが、これだとそのクラス自身が同じ名前のメソッドを持っていたらそちらが優先さ
+れます。
+module M
+  def m1
+    "M#m1"
+  end
+end
+class C
+  include M   # メソッドの優先順位は C -> M -> Object ...
+  def m1
+    "C#m1"
+  end
+end
+C.new.m1  # => "C#m1"
+Module#prepend はモジュールのほうを優先順位を高くして上記の例だと M のメソッド
+定義で C のメソッド定義を「上書きする」ような挙動をさせます。
+module M
+  def m1
+    "M#m1"
+  end
+end
+class C
+  prepend M  # メソッド探索の優先順位は M -> C -> Object ...
+  def m1
+    "C#m1"
+  end
+end
+C.new.m1 # => "M#m1"
+また prepend した時に引数の Module に対して呼ばれるコールバックの prepended な
+ども追加しています。
+実装としては T_CLASS 型のオブジェクトの拡張データに origin というメンバを追加し
+て、prepend が実行されたらそこに元のクラスが持っていたメソッドテーブルを持った
+IClass を作って、クラスそのものとメソッドテーブルを持つ IClass を分離し、メソッ
+ドテーブルを持たなくなったクラスにモジュールを include することで実現しています
+。
+class C
+  # C -> Object
+  prepend M
+  # 1. C(メソッドテーブル空) -> <C の IClass(メソッドテーブルはこっちに移植されている)>
+  # 2. C(メソッドテーブル空) -> <M の IClass> -> <C の IClass(メソッドテーブルはこっちに移植されている)>
+  #  C は <C の IClass> への参照を origin で持つ。
+end
+C へのメソッドの定義や superclass を辿る処理は origin が指している "C の
+IClass" を起点にするようになっています。
+メソッドだけで定数の探索は include と同じみたいです

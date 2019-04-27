@@ -1,0 +1,4 @@
+r63587 の Net::HTTP の write_timeout オプションの追加時に追加したテストで
+Windows 環境では write timeout を起こすことができなかったそうなので、同時に
+read_timeout オプションも指定して Net::ReadTimeout で補足するようにしています。
+Windows だとバッファがあふれたらどうなるんだろう?

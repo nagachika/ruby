@@ -1,0 +1,2 @@
+test/test_prime.rb, test/test_securerandom.rb, test_test_tracer.rb などで適切な
+assertion メソッドを使うようにするリファクタリング。

@@ -1,0 +1,2 @@
+Socket#connect で connect(2) が EINTR, ERESTART 等で返ってきた時にリトライする
+ようにしています。 [ruby-core:35621] [Bug #4555]

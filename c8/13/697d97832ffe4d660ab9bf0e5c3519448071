@@ -1,0 +1,3 @@
+rb_struct_alloc() で RARRAY_PTR() のかわりに RARRAY_CONST_PTR() を使ってオブジ
+ェクトの shady 化を防いでいます。 r45368 で変更している rb_class_new_instance()
+に渡す引数で使っているのでこのための変更だったわけですね。

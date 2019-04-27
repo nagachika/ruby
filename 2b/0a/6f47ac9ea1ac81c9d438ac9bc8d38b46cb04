@@ -1,0 +1,3 @@
+r50336 で str_buf_cat() で rb_str_modify() のかわりにバッファの伸長も行う
+rb_str_modify_expand() を利用するようにしましたが、ベンチマークの結果が悪化して
+いるということで revert しています。 [Bug #11080] [Bug #11095]

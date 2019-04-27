@@ -1,0 +1,2 @@
+標準添付ライブラリ irb でローカル変数へのセットに Kernel#eval を使っていたのを
+Binding#local_variable_set を利用するように変更しています。

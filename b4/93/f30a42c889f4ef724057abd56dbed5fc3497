@@ -1,0 +1,3 @@
+r40130 で warnflags に追加した -Werror=extra-token は -Wextra-token が gcc 3 以
+前でサポートされていなかったので gcc の major version をチェックして 4 以降の時
+だけ追加するように変更しています。

@@ -1,0 +1,2 @@
+これも VC6 でのビルドのための修正で cont.c に CreateFiberEx() が未定義の場合の
+代替マクロ定義(CreateFiber() を利用する)を追加しています。

@@ -1,0 +1,2 @@
+r41873 の RubyGems 2.1 のマージで Windows で失敗していた rubygems のテストを修
+正しています(2つ目)。

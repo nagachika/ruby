@@ -1,0 +1,3 @@
+Transitne Heap の導入の時に Hash のサイズが小さめの時の配列による実装の時の
+Hash#replace でメモリリークと transitne heap フラグのセットのミスがあったのを修
+正しています。 [ruby-core:90137] [Bug #15358]

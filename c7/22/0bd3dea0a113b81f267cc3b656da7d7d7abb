@@ -1,0 +1,2 @@
+rubyspec の Thread#terminate のテストが MinGW で不安定だとのことで
+platform_is_not で除外するようにしています。

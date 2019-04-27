@@ -1,0 +1,6 @@
+ついに $SAFE = 4 の機能が削除されました。 $SAFE == 4 での tainted と untrusted
+のチェックを無効化しています。またこれに伴ない untrust/untrusted? は deprecated
+となり、内部的には taint/tainted? と同じフラグを使う全く同じものになっています
+。 [ruby-core:55222] [Feature #8468]
+NEWS にも記述が必要ですね。また doc/security.rdoc に untrust の解説があるので、
+そこにも影響があると思います。

@@ -1,0 +1,5 @@
+昨日 doc/security.rdoc で指摘されていた CSV のオブジェクト serialize/
+deserialize 機能 CSV.dump, CSV.load を標準ライブラリ csv.rb から削除しています
+。うーんこのタイミングで消しちゃいますか。少なくとも NEWS には追記しておいたほ
+うがいいですね。
+あとなぜか ChangeLog の URL 部分のインデントがなくなってしまっています。

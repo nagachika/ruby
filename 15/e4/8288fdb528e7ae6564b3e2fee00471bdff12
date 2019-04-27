@@ -1,0 +1,3 @@
+Module#prepend した時に Refinements で再定義されたメソッドの method entry の
+Class を移動する時に、対象の Class に対して世代別 GC 用の Write Barrier が漏れ
+ていたのを修正しています。 [Bug #11497]

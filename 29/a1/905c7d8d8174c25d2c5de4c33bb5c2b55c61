@@ -1,0 +1,2 @@
+ext/extmk.rb で実行される sub make で make showflags が重複して実行されるのを防
+いでいます。

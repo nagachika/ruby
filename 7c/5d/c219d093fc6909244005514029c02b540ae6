@@ -1,0 +1,3 @@
+Hash#[] や Hash#store のキーの rdoc コメントの freeze 化などの注釈部分の体裁を
+整え、String をキーとして渡した時の挙動のサンプルを追加しています。 https://
+github.com/ruby/ruby/pull/382

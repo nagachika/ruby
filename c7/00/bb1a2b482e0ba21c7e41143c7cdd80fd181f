@@ -1,0 +1,1 @@
+iseq.c の validate_get_insn_info() という関数の引数に const 修飾子追加。

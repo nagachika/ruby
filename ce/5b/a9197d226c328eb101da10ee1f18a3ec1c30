@@ -1,0 +1,2 @@
+r54203 で time.c の mul() で rb_fix_mul_fix() を呼び出しているところで return
+が抜けていたのを修正しています。

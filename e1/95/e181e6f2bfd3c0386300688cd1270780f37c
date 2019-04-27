@@ -1,0 +1,5 @@
+irb のドキュメントに auto indent 機能と auto completion 機能を on にする方法に
+ついて追記しています。 [ruby-core:51209] [Bug #7642] [ruby-core:51348] [Bug #
+7680]
+補完機能(irb/completion)は使ってましたが auto indent 機能っていうのもあったんで
+すね、知りませんでした。

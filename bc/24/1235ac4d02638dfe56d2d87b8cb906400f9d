@@ -1,0 +1,3 @@
+hash.c の Hash#reject! の実装でも Hash の要素数を取得するために RHASH_SIZE() を
+利用するようにしています。これにより struct RHash::ntbl が NULL ではないけど空
+という場合も rb_hash_foreach() を呼び出さずにすませるようにしています。

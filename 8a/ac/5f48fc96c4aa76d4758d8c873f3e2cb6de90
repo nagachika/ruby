@@ -1,0 +1,5 @@
+標準ライブラリ matrix.rb でドキュメントやメソッドの引数の row_size/column_size
+を row_count/column_count に変更して、同名のメソッドも alias を貼って xxx_count
+のほうを使うように統一しています。 xxx_size は意味がわかりにくい/誤解しやすいか
+らだそうで、英語圏の人が言うからにはそうなのでしょう。個人的にはだいたいわかる
+だろという気がしますけど。 [ruby-core:49409] [Bug #7369]

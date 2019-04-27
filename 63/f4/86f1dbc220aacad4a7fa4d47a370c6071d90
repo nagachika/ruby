@@ -1,0 +1,2 @@
+r53141 で mkmf.rb と shellwords.rb の magic comment が重複してしまったので削っ
+ています。

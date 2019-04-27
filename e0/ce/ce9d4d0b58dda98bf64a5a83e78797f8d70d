@@ -1,0 +1,4 @@
+rubyspec の Signal.trap についてのテストの spec 名にコロンを追加。どうやら
+chkbuild がいくつかのシグナルによる終了をメッセージから検出してカウントしている
+ので、そこで誤検出されないようにしているみたいです。 https://github.com/ruby/
+chkbuild/blob/c0448670a9a5cb85f283bc639806ba09b294557f/chkbuild/ruby.rb#L847

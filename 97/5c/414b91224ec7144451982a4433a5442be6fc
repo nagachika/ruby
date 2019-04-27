@@ -1,0 +1,3 @@
+rb_obj_dig() で r53057 で修正した rb_check_funcall_with_hook() を利用して dig
+メソッドがみつからなかった時に nil を返していたのを TypeError 例外を発生させる
+ようにしています。 [ruby-core:71798] [Bug #11762]

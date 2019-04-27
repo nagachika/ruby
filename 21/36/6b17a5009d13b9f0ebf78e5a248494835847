@@ -1,0 +1,2 @@
+ISeq の struct rb_iseq_struct::body::local_table に配列を確保する時にサイズが 0
+だったらメモリは確保せず NULL で初期化するようにしています。

@@ -1,0 +1,3 @@
+vm_insnhelper.c のいくつかの static 関数に inline 指示子をつけています。つけな
+くても勝手に inline 化されるかと思ったけど gcc は inline 化してくれなかったので
+明示的に指定するようにしたようです。

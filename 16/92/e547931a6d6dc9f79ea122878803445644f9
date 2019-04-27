@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle で Fiddle::Function.new や Fiddle::Function#call で引数の
+数が多すぎてオーバフローがおきる時に例外を発生させるようにしています。

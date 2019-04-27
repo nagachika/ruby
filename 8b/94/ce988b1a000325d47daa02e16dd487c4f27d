@@ -1,0 +1,2 @@
+file.c の stat_xxxtime() シリーズの関数群の引数 struct stat * に const 修飾子を
+追加しています。

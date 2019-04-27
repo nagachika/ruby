@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb に `!` コマンドで外部コマンドの起動をする機能を追加
+しています。

@@ -1,0 +1,3 @@
+r44190 の修正の再修正。 StringValue(name) していましたがこの name はその後すぐ
+にバッファへのポインタが path に代入されていたので StringValuePtr(name) でポイ
+ンタを取り出して path に代入しておくようにしています。

@@ -1,0 +1,5 @@
+標準添付ライブラリ find の Find.find (くどいな…)に ignore_error というキーワー
+ド引数を追加して Errno::ENOENT, Errno::EACCES, Errno::ENOTDIR, Errno::ELOOP,
+Errno::ENAMETOOLONG などのエラーを無視するかどうかを切り替えできるようにしてい
+ます。デフォルトは true なので従来と同じくこれらの例外は無視して続行するように
+なっています。 [ruby-core:51025] [Feature #7596]

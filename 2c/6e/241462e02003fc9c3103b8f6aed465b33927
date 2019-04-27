@@ -1,0 +1,2 @@
+common.mk の tool/ruby_vm に関する依存関係記載についての TODO コメントを削除し
+ています。

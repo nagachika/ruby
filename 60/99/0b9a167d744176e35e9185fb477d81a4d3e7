@@ -1,0 +1,8 @@
+Hash#length の rdoc 用コメントに Hash#length は Hash#size の alias だっていう説
+明を追加して Hash#length と Hash#size は同じもの、っていうコメントを消してるん
+ですが、うーん実際には Hash#length と Hash#size は同じ C 関数を実装としてそれぞ
+れ別に rb_define_method() されているメソッドなので、ちょっと微妙かなぁ。どちら
+かというと元の記述のほうが正確だったような気も。英語なので alias というのが文法
+としての alias のことではないと解釈することもできるけど、まあ普通に考えて alias
+って書かれていると rb_define_alias() で作られてると思ってしまいそう(微妙に挙動
+が異なる)。

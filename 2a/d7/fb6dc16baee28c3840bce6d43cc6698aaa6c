@@ -1,0 +1,3 @@
+標準添付ライブラリ optparse でインスタンス変数 @version や @release に未初期化
+のままアクセスすることがあったため警告が出ることがあったので、defined?() でチェ
+ックしてから触るようにしています。 https://github.com/ruby/ruby/pull/1871

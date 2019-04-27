@@ -1,0 +1,3 @@
+rb_vm_t::loading_table の遅延初期化をやめて VM の初期化時に st_table を確保して
+おくようにしています。不要な分岐を削除しています。 https://github.com/ruby/ruby
+/pull/918

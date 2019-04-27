@@ -1,0 +1,3 @@
+拡張ライブラリ tk で Tcl/Tk 8.6.2 のサポートを追加しています。 "Tcl/Tk8.6
+support is experimental" とあるので EXPERIMENTAL な機能で、DUMP1() などで -d オ
+プション時のデバッグ情報の出力を追加しています。

@@ -1,0 +1,4 @@
+標準添付ライブラリ tsort の TSort#tsort, #tsort_each, #
+strongly_connected_components, #each_strongly_connected_component, #
+each_strongly_connected_component_from などのメソッドの rdoc 用コメントにサンプ
+ルコードを追記しています。

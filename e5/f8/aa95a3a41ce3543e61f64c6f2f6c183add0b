@@ -1,0 +1,7 @@
+curses の newpad() 関数のラッパを追加しています。 pad というのは window のよう
+なもので内容をスクロールして表示領域以上のデータを持つことができるものだそうで
+す。そこで Curses::Pad というクラスを Curses::Window のサブクラスとして新たに導
+入しています。wrap する構造体は Windows と同じで struct windata という構造体を
+そのまま流用していて、Curses::Pad#refresh や Curses::Pad#noutrefresh というメソ
+ッドに表示する領域を指定する引数を追加するようにしています。 [ruby-core:37206]
+[Feature #4896]

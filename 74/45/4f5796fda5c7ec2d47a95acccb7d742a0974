@@ -1,0 +1,2 @@
+r32071 で coverage をリスタート可能にしたら Mac OS X で SEGV するようになってし
+まったので revert しています。 [ruby-core:37352] [Bug #4927]

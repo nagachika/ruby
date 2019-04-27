@@ -1,0 +1,3 @@
+run_finalizer() で longjmp() による clobbered の警告回避のため、errinfo や
+safe_level を退避しておく変数を volatile つきの構造体として宣言してまとめておく
+ようにしています。

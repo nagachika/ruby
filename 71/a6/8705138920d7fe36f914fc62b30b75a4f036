@@ -1,0 +1,3 @@
+Kernel#lambda による Proc オブジェクトの生成の実装が rb_block_lambda() を呼んで
+いるだけだったので無駄な関数を削って直接 rb_block_lambda() を呼ぶようにメソッド
+定義を変更しています。

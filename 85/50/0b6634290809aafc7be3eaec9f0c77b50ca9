@@ -1,0 +1,3 @@
+拡張ライブラリ openssl に OpenSSL::PKey::EC.generate メソッドを追加しています。
+これも他の PKey と一致させるため。また OpenSSL::PKey::EC#initialize のエラーチ
+ェック強化もしています。 [ruby-core:45541] [Bug #6567]

@@ -1,0 +1,3 @@
+tool/runruby.rb で RbConfig::CONFIG["PRELOADENV"] があった時に LD_PRELOAD など
+の環境変数の設定をする処理を arch 毎の ruby-runner がない時にセットするのをやめ
+ています。cross compile ビルド時向け?

@@ -1,0 +1,3 @@
+r62888 の続きで String#each_grapheme_cluster が返す Enumerator の size メソッド
+で、専用の rb_str_each_grapheme_cluster_size() という関数を追加して to_a.size
+したのと同じ結果を返すようにしています。 [ruby-core:84887] [Bug #14363]

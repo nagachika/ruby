@@ -1,0 +1,2 @@
+r64378 の続きで SET_NON_BLOCKING_FAILS_ALWAYS が真の時に未使用な変数の宣言も削
+除して、到達できたいところに UNREACHABLE マクロを置くようにしています。

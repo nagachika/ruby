@@ -1,0 +1,7 @@
+webrick の gemspec ファイルで homepage 属性の URL として github.com のリポジト
+リでなくて https://www.ruby-lang.org を使うようにしています。 webrick の
+maintainer の eric wong が GitHub は利用できないので変えてほしいとのことで。
+gemspec の記述すらもかー。また metadata で bug_tracker_uri, homepage_uri,
+source_code_uri なども追加しています。 eric が maintainer のうちは webrick の
+upstream は ruby のリポジトリで、GitHub のはミラーという扱いになりそうですね。
+[ruby-core:83093]

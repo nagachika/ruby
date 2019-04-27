@@ -1,0 +1,4 @@
+RubyGems の 2.0.4 をマージしています。拡張ライブラリを含む gem のインストールに
+関する不具合修正、gem outdated で prerelease バージョンのパッケージも表示するよ
+うになるなどの変更が入っているそうです。変更点についてはこちらを参照 https://
+github.com/rubygems/rubygems/blob/2.0/History.txt

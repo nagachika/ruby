@@ -1,0 +1,2 @@
+rb_sysopen() で rb_update_max_fd() を呼んでいましたが、rb_sysopen_internal() の
+中で呼んでいて不要だったので削除しています。

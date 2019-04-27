@@ -1,0 +1,2 @@
+C99 が許されるようになったので r66775 の MJIT 関係のソースの bool 型と TRUE/
+FALSE の true/false への変更のやりなおし。いくつか typo 修正があるようです。

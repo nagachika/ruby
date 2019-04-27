@@ -1,0 +1,2 @@
+String#index や String#include? の実装で str_strlen() を呼ぶ回数を減らす最適化
+。

@@ -1,0 +1,2 @@
+もうひとつ Time#strftime の RDoc に説明を追加。Unix で picosecond までの精度っ
+て持てるんだったかな。

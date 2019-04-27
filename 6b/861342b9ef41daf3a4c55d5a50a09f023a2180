@@ -1,0 +1,2 @@
+rubygems のテスト用の Gem::TestCase クラスの setup メソッドに環境変数
+SOURCE_DATE_EPOCH をクリアするコードを追加しています。

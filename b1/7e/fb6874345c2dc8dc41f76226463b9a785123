@@ -1,0 +1,2 @@
+parse.y のマクロ numeric_literal_flush() を literal_flush() に改名して、数値以
+外のリテラルの場所でもこのマクロを利用するようにリファクタリングしています。

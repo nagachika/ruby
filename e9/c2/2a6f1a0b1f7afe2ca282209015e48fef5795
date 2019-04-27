@@ -1,0 +1,3 @@
+そこで test/testunit/tests_for_parallel/misc.rb での Test::Unit のオープンクラ
+スによる上書きを caller() をみて on/off することで make test-all で他のテストが
+走らなくなるのを避けています。

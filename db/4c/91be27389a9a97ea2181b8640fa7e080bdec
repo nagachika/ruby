@@ -1,0 +1,3 @@
+r64668 で .travis.yml の build matrix に古い ruby (Travis-CI でシステムにインス
+トールできる 2.3)を使って rubyspec を実行するやつの説明(?)を stage じゃなくて
+name という属性にしています。コメントによると並列で動かすためみたいです。

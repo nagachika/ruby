@@ -1,0 +1,2 @@
+test_push_over_ary_max という Array#push でサイズ上限を超えた時のテストでタイム
+アウト値をのばしています。 RubyCI の mswin 環境向けみたいです。

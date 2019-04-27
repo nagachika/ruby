@@ -1,0 +1,4 @@
+ISeq が通常の Ruby 実装のメソッドやブロックであることをチェックするマクロ
+RUBY_VM_NORMAL_ISEQ_P() を削除して、 r55801 で導入した VM_FRAME_FLAG_CFRAME フ
+ラグを利用してチェックする VM_FRAME_RUBYFRAME_P() という inline 関数を定義して
+、かわりにこちらを利用するように変更しています。

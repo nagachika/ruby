@@ -1,0 +1,4 @@
+r66448 の続きで tool/downloader.rb の download メソッドで :unicode_beta オプシ
+ョンの指定をみてなにかしてるんですが、うーんなにをしてるんだろうこれは……。こ
+の "assigned but unused variable..." っていう文字列はどこからくるんだろう。
+[ruby-core:90615] [Bug #15434]

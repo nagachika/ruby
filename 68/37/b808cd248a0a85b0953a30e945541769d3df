@@ -1,0 +1,4 @@
+NativeClient 版のビルド時に OBJCOPY を ":" に定義することでビルドエラーを回避し
+ています。また thread_pthread.c で #ifdef USE_SLEEPY_TIMER_THREAD としていたと
+ころを #if USE_SLEEPY_TIMER_THREAD に修正。これも NativeClient 版のビルドエラー
+修正だそうです。

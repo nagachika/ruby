@@ -1,0 +1,3 @@
+mkmf.rb が生成する Makefile の rb-install-default と rb-install の依存関係に対
+象のディレクトリそのものでなくてそのタイムスタンプファイルを指定するようにして
+います。

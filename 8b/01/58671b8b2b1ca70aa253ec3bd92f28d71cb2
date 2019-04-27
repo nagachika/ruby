@@ -1,0 +1,2 @@
+benchmark/README.md を追加して benchmark_driver.gem に依存していることや実行方
+法などのドキュメントを追加しています。

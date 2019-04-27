@@ -1,0 +1,2 @@
+gc.c で GC_ENABLE_INCREMENTAL_MARK が 0 でインクリメンタルGC が無効化されている
+時のビルドエラーを修正しているようです。

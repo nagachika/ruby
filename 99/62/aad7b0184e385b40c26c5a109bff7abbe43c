@@ -1,0 +1,7 @@
+r42457 で CoreFoundation を使って HFS+ のファイルパスのエンコーディング変換(正
+規化変更)をするようにした rb_str_normalize_ospath() ですが、HFS+ は常に分解する
+わけではなくいくつかの code point の範囲では互換性のために合成形式を使うように
+なっているそうです。そこで文字列を一文字ずつチェックしてその範囲の文字でなくて
+マルチバイト文字の時だけ変換処理にかけるようにしています。うーん遅そうですね。
+Mac OS X で Dir.glob などは鬼門……。 (参考URL: http://developer.apple.com/
+library/mac/qa/qa1173/_index.html )

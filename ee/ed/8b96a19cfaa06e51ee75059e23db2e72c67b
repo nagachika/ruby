@@ -1,0 +1,3 @@
+r58467 の tool/git-refresh の branch 変数の対応で Solaris の shell でまた動かな
+くなったそうで : つきの変数展開をやめて $branch が空だったら unset するようにし
+ています。 [ruby-dev:50102] [Bug #13522]

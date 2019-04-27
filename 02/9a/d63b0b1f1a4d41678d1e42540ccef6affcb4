@@ -1,0 +1,2 @@
+String#== の rdoc のところに String#=== も alias なので synopsis に追加していま
+す。 [ruby-core:54859] [Bug #8381]

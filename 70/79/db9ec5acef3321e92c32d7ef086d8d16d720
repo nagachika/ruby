@@ -1,0 +1,4 @@
+iseq.h の inline 関数 ISEQ_ORIGINAL_ISEQ()、ISEQ_ORIGINAL_ISEQ_CLEAR()、
+ISEQ_ORIGINAL_ISEQ_ALLOC() の実装でバッファを rb_str_tmp_new() ではなく
+rb_alloc_tmp_buffer_with_count() で確保するようにしています、が次で revert され
+ています。

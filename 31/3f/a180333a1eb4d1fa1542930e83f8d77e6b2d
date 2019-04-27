@@ -1,0 +1,2 @@
+拡張ライブラリ socket の Socket::Ifaddr#inspect に struct ifaddrs::ifa_flags の
+IFF_SIMPLEX フラグがあった時の表示を追加しています。

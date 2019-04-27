@@ -1,0 +1,4 @@
+r65820 で Thread#join のテストを bootstraptest/pending.rb に移動してたのを
+revert して、bootstraptest/runner.rb で IO#read_nonblock から IO::WaitReadable
+が発生した時にリトライするような修正を入れています。 socket がデフォルトで
+nonblock になったので対応が必要になったんですね。

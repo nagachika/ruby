@@ -1,0 +1,4 @@
+wercker.yml で test-all 時の --subprocess-timeout-scale の指定を追加してタイム
+アウトを伸ばしています。またオプションの指定を RUN_OPTS と TESTOPTS に分離して
+います。よく知らなかったけど RUN_OPTS は ruby のコマンドラインオプションで
+TESTOPTS はテストの ruby スクリプトに渡すオプションみたいですね。

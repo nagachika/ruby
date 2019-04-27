@@ -1,0 +1,3 @@
+拡張ライブラリ io/console の Windows 版限定機能の IO.pressed? でキー名に NUL 文
+字を含む文字列が渡された時に StringValueCStr() のチェックで弾いていたのを、キー
+名がみつからない時の ArgumentError 例外にまかせるようにしています。

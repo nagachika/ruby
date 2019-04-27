@@ -1,0 +1,2 @@
+拡張ライブラリ etc の extconf.rb と mkconstants.rb とテストスクリプトの magic
+comment frozen_string_literal を true に変更しています。

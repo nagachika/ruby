@@ -1,0 +1,2 @@
+r65213 と同様に今度は vm_setivar() でもインスタンス変数設定時の inline cache が
+異なる Class で使われたら invalid にする変更を入れています。

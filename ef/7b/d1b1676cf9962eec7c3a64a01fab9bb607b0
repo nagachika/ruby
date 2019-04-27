@@ -1,0 +1,4 @@
+test/ruby/test_signal.rb の test_kill_immediately_before_termination で fork を
+直接使っていたのを EnvUtil の assert_in_out_err を利用するように修正しています
+。また Process.kill が未定義の時にテストメソッド内で即 return するようにしてい
+たのを、メソッド定義自体を省略するように変更しています。

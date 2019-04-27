@@ -1,0 +1,3 @@
+拡張ライブラリ gdbm のテストで GDBM.open の lock のテストを AIX では skip する
+ようにしています。 Solaris と同様に lockf を使う時の、拡張ライブラリではなくて
+利用する gdbm の不具合みたいですね。 [ruby-dev:47631]

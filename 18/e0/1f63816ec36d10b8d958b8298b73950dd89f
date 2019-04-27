@@ -1,0 +1,8 @@
+デバッガ用の情報取得 API である rb_debug_inspector_open() をメソッド内の eval
+内で実行すると SEGV するという不具合の修正と、クラスの情報に IClass (include や
+prepend した時に Class/Module の参照となる内部的なクラス)をそのまま渡していたの
+で参照先の Class/Module を渡すように修正しています。 [ruby-core:51192] [Bug #
+7635]
+また rb_debug_inspector_frame_self_get() という新しい API を追加しています。
+Frame オブジェクト自体 (cfp->self って何が入ってるんでしたっけ)?を取得するよう
+です。

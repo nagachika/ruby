@@ -1,0 +1,4 @@
+標準添付ライブラリ tsort の TSort#each_strongly_connected_component_from と同様
+の処理をイテレータメソッドの指定を受けて行うクラスメソッド
+TSort.each_strongly_connected_component_from を追加しています。イテレータメソッ
+ド部分は Proc オブジェクトでもいいみたいです(call メソッドで呼び出している)。

@@ -1,0 +1,7 @@
+ISeq の flip-flop 条件式用の実行時の情報を保持するメンバ flip_cnt を
+iseq_compile_data から rb_iseq_q 直下へ移動して、local_iseq のほうに格納するよ
+うにしています。 irb 上で flip-flop 条件式を利用した時に同じ内容なのに結果が変
+化することがあった不具合の対処だそうです。 r38292 で iseq 上に flip-flop 用のカ
+ウンタを親 rb_iseq_t にまとめた時に eval で作られた時のことが考慮されていなかっ
+たのでやっぱり個別に rb_iseq_t 毎に持つようにしたという感じでしょうか。
+[ruby-core:51296] [Bug #7671]

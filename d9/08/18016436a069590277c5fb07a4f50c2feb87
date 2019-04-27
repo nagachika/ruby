@@ -1,0 +1,3 @@
+改めて、Enumerable#to_a で size メソッドが呼べるなら呼んで値がかえってきたらそ
+れを新しく作る Array オブジェクトの capa としてあらかじめバッファを確保しておく
+ようにしています。 https://github.com/ruby/ruby/pull/444

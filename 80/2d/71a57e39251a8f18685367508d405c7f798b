@@ -1,0 +1,2 @@
+Env.[]= や Env.store と Process.spawn の rdoc 用コメントに、環境変数のキーは文
+字列のみ受け付けることを追記しています。 [ruby-core:68146] [Bug #10859]

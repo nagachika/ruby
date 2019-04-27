@@ -1,0 +1,2 @@
+r54716 の再修正。 configure.in の platform 固有の設定部分で ac_cv_func_round の
+設定を変更するように移動しています。

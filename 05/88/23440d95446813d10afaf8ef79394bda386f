@@ -1,0 +1,2 @@
+Module#autoload のテストで Object クラスに直接 autoload を設定していたところを
+Class.new による無名クラスを利用するようにしています。

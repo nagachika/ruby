@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils.rb の FileUtils.chown、chown_R で :verbose オプシ
+ョン指定時に出力するメッセージに user が nil の時の出力が間違っていたのを修正し
+ています。

@@ -1,0 +1,2 @@
+r64331 で libz がない環境では parse_compressed_debug_line() を定義しないように
+して警告抑制するようにしています(多分)。

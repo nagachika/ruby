@@ -1,0 +1,4 @@
+NativeClient 向けのビルド環境用に PATH に NaCl SDK のツールチェインへのパスを追
+加させていたのを nacl/GNUmakefile.in で個別にツール毎に変数を(CC, LD, NM, AR,
+AS, RANLIB, OBJDUMP, OBJCOPY)設定しなおすようにしています。 Mac では configure
+での PATH の変更が効かなかったそうです。

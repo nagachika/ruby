@@ -1,0 +1,4 @@
+NaCl サポートのマージの修正。 pthread_cond_t を使う処理を条件コンパイルするため
+に pthread_cond_initialize という関数をチェックするようにしていましたが、こんな
+関数はないので常に pthread_cont_t の操作が省略されていて動かなくなっていたのを
+修正しています。正しい関数名は pthread_cond_init() です。

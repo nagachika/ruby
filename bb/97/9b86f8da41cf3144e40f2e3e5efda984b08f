@@ -1,0 +1,3 @@
+サンプルスクリプト sample/coverage.rb に File::PATH_SEPARATOR を
+File.PATH_SEPARATOR と間違っていて undefined method になるところがあったのを修
+正。

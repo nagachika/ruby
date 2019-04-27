@@ -1,0 +1,4 @@
+bin/ サブディレクトリ化にあるコマンド用のファイルを rubygems が生成した binstub
+ファイル? っていう形式のものに変更しています。こうしないと gem パッケージからイ
+ンストールした時に不一致がおきるためとのこと。 https://github.com/ruby/ruby/
+pull/2023 [ruby-core:38257] [Bug #5060]

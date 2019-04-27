@@ -1,0 +1,2 @@
+testunit の assert_send, assert_not_send のエラー時のメッセージでメソッドの引数
+をかっこでくくって表記するようにしています。

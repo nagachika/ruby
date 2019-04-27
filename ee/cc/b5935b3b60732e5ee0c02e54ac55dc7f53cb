@@ -1,0 +1,2 @@
+ext/tk/extconf.rb でグローバル変数を未初期化で使った時の guard を追加しています
+。 [ruby-core:36657] [Bug #4811]

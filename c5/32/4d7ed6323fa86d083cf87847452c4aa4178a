@@ -1,0 +1,2 @@
+TestIO#test_open_mode で File を open したまま捨てていたのできちんと close する
+ようにしています。

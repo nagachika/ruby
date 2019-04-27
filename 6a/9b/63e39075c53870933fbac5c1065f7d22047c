@@ -1,0 +1,2 @@
+thread_win32.c の rb_sigwait_fd_put() および rb_sigwait_sleep() の宣言に
+NORETURN() マクロを利用して警告除去しています。

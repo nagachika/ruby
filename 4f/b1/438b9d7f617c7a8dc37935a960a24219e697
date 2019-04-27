@@ -1,0 +1,4 @@
+iseq_build_from_ary_body(), gc_count_add_each_types(), rb_reg_named_captures()
+など内部的に固定長の Hash オブジェクトを生成しているところで
+rb_hash_new_with_size() を使ってあらかじめ容量確保して生成するように最適化して
+います。

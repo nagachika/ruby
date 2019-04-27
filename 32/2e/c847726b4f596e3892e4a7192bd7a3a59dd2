@@ -1,0 +1,2 @@
+r54738 の INLINE を inline に展開する条件に __NO_INLINE__ が定義されていないこ
+とを追加しています。 static inline になるのはいいのかな。

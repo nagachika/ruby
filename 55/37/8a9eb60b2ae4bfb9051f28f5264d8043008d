@@ -1,0 +1,2 @@
+enc/windows_1253.c で決して通らない分岐が Coverity Scan で指摘されていたので削
+っています。

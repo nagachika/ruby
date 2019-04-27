@@ -1,0 +1,3 @@
+OpenSSL::Buffering#flush で @sync を true に変更してから元に戻していないのを
+ensure 節で戻すようにしています。スレッドセーフではないですね。また flush のテ
+ストを追加しています。

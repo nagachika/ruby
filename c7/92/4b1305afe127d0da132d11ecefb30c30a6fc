@@ -1,0 +1,4 @@
+ext/extmk.rb で .ext/gems というディレクトリの下に bundled gem を展開して拡張ラ
+イブラリをビルドできるようにルールを追加させているみたいです。実際 make してみ
+ると .ext/gems というディレクトリはできるものの、まだ bundled gems に拡張ライブ
+ラリを含むものはなくて空っぽみたいです。 openssl.gem を bundle する布石かな。

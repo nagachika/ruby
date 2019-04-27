@@ -1,0 +1,2 @@
+拡張ライブラリ objpace の ext/objspace/object_tracing.c で追加している各メソッ
+ドの rdoc 用コメントを追記しています。

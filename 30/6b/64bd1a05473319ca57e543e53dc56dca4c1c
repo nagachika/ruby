@@ -1,0 +1,3 @@
+lib/unicode_normalize/tables.rb から UNICODE_VERSION の定義を削除しています。
+RbConfig::CONFIG['UNICODE_VERSION'] に格納するようにしているので不要になったよ
+うです。 [ruby-core:76251] [Feature #12546]

@@ -1,0 +1,2 @@
+標準添付ライブラリ time とそのテストにも frozen_string_literal: true の magic
+comment を追加しています。

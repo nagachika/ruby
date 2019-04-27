@@ -1,0 +1,2 @@
+標準添付ライブラリ cgi の CGI#http_header の rdoc 用コメントのサンプルコードの
+カンマ抜け修正。 https://github.com/rurema/doctree/pull/448

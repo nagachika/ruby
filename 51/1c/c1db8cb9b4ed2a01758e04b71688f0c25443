@@ -1,0 +1,5 @@
+RubyVM::InstructionSequence (以下 ISeq) の disasm の不具合修正。 inspect で
+struct RBasic::klass == 0 にして ObjectSpace から隠されているオブジェクトは
+rb_inspect() でエラーになるのでコピーを生成してから rb_inspect() に渡すようにし
+ています。また不要だった関数の削除や NULL の可能性のある構造体メンバをチェック
+せず使っていた部分などを修正。

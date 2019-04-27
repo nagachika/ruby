@@ -1,0 +1,2 @@
+拡張ライブラリ stringio の StringIO#close でも IO#close の挙動に追随して close
+済みでも例外を発生させないようにしています。

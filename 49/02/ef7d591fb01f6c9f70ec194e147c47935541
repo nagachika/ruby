@@ -1,0 +1,2 @@
+JSON のパーサーが ASCII-8BIT の encoding をもつ文字列を渡すとえその encoding を
+破壊的に変更してしまっていたので dup を追加しています。

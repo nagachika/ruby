@@ -1,0 +1,2 @@
+NEWS の非互換のところに respond_to_missing?, initialize_clone, initialize_dup
+が private になったことを追記しています。

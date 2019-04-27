@@ -1,0 +1,3 @@
+次は gc.c の rb_raw_iseq_info() で同様に iseq->body が NULL の時に SEGV するよ
+うになっていたのでチェックしてアクセスを抑制するようにしています。
+[ruby-dev:50407] [Bug #14270]

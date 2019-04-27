@@ -1,0 +1,3 @@
+r55225 の String#downcase, #upcase, #capitalize, #swapcase などの casemap 対応
+をデフォルトの挙動にする変更のリベンジ。 rubyspec がこけてたのは別途修正された
+みたいですね。

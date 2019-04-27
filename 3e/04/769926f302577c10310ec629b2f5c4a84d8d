@@ -1,0 +1,2 @@
+test/rexml/test_notationdecl_parsetest.rb の TestNotationDecl のテストメソッド
+2つをそれぞれサブクラスのテストメソッドに分けています。

@@ -1,0 +1,3 @@
+Hash#equal の実装で rb_eql() の戻り値(int)を VALUE 型の戻り値としてそのまま返し
+てしまっていたので、明示的に Qtrue と Qfalse を返すように修正しています。
+https://github.com/ruby/ruby/pull/789

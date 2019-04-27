@@ -1,0 +1,4 @@
+String#codepoints や String#each_codepoint でも配列をあらかじめ文字数ぶんのバッ
+ファを確保して生成するように最適化しています。また文字数の取得のために encoding
+の取得もあらかじめしておいて rb_str_strlen() ではなくその中で呼ばれている
+str_strlen() を直接呼ぶようにしています。

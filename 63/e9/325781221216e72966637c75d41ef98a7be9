@@ -1,0 +1,7 @@
+make の love ターゲットの時に test-almost というターゲットの依存関係に install
+を追加しています。そもそも test-almost ってなんだっけ…。忘れてしまってましたが
+test/unit を標準添付ライブラリから test/lib に移動して ruby 自体のテスト専用の
+ライブラリとした時に make check は make test-all から test framework 自体のテス
+トは除いたものにしてて、それのことでした。うーんすっかり忘れてた。つまりその時
+から make love で install が必須じゃなくなってたんですかね。それも気がつかなか
+った。

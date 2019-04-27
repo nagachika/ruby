@@ -1,0 +1,3 @@
+SEGV した時などの rb_bugs() のダンプメッセージで OS X 用に crash report の添付
+を求めるメッセージの出力を preface_dump() という関数に切り出すリファクタリング
+。

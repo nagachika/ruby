@@ -1,0 +1,5 @@
+バンドルされている bundler の lib/bundler/templates/newgems/.travis.yml.tt を
+travins.yml.tt と先頭のdot を削るように改名しています。 tool/rbinstall.rb で
+dot で始まるファイルはコピー対象から外されているため、.gitignore なども先頭の
+dot を削ったテンプレートファイルになっているようです。 https://github.com/ruby/
+ruby/pull/1710 [ruby-dev:50278] [Bug #13975]

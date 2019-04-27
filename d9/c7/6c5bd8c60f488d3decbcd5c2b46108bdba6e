@@ -1,0 +1,5 @@
+template/prelude.c.tmpl の prelude_eval() で gcc 向けに #pragma GCC diagnostic
+error を使って rb_compile_option_t の初期化のメンバーをエラーにして検出できるよ
+うにしています。そして r61450 で削除した compile option trace_instruction の初
+期化子を削除し、かわりに coverage_enabled と debug_level のぶんを追加しています
+。

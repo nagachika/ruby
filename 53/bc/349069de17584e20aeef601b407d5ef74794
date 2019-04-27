@@ -1,0 +1,2 @@
+ext/json/lib/json.rb においてコメントが JSON モジュールへの rdoc になるように
+require 文の位置を調整しています。

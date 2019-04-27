@@ -1,0 +1,3 @@
+tool/unicode_norm_gen.rb という Unicode のデータ生成ツールを追加しています。
+https://github.com/duerst/eprun/blob/master/lib/generate.rb から取ってきたよう
+です。

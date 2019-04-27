@@ -1,0 +1,2 @@
+r52125 で修正された OpenStruct に対する respond_to? でのチェックのテストを追加
+しています。 https://github.com/ruby/ruby/pull/1041

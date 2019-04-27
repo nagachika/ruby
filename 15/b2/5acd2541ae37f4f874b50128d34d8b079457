@@ -1,0 +1,10 @@
+タイマースレッドが実行中のスレッドに割り込みするために
+rb_thread_t::interrupt_flag にフラグをセットするところで、rb_thread_t のポイン
+タを取得してから interrupt_flag に書き込むあいだにその Thread が終了して、回収
+されてしまうと解放済みのメモリ領域に書き込んでしまう可能性が存在していたので、
+rb_vm_t::thread_destruct_lock に rb_mutex_t を持って、スレッドが終了する時に vm
+->running_thread を thread_destruct_lock で保護しつつ NULL にリセットするように
+しています。タイマースレッドが vm->running_thread に割り込みをかける時に、同じ
+く thread_destruct_lock を保持しつつ vm->running_thread をみて NULL になってい
+たらその時は割り込みしない(できないですけど)ようにしています。 [ruby-dev:43859]
+[Bug #4911]

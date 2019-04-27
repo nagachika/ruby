@@ -1,0 +1,5 @@
+openssl のテストで OpenSSL::SSL::SSLContext.new の引数に "SSLv3" が明示的に指定
+されていたため、SSLv3プロトコルが無効にされた OpenSSL でビルドされていた時にテ
+ストに失敗していたので、指定をやめています。 [ruby-core:63772] [Bug #10046]
+チケットで提示されたパッチの2つ目の hunk のほうは Mavericks でうまく動かないと
+いうことで適用されていません。

@@ -1,0 +1,4 @@
+拡張ライブラリ win32ole の ole_invoke() で NoMethodError 例外を発生させていたの
+を、その場で発生させずに rb_eNoMethodError を return して、呼び元で
+rb_call_super() することで通常の例外発生のメカニズムを使うようにしています。テ
+ストをみると例外オブジェクトの receiver をセットさせるためみたいです。

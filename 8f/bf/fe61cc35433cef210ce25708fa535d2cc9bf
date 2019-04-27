@@ -1,0 +1,2 @@
+r41482 で追加した AOBench のスクリプトで attr_accessor, attr_reader を利用して
+メソッド定義するように書き変えています。

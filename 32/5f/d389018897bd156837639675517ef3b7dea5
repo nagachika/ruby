@@ -1,0 +1,2 @@
+r64269 に続いて FreeBSD で失敗する rubyspec の socket のテストをファイル単位で
+削除しています。

@@ -1,0 +1,4 @@
+拡張ライブラリ tk の Tk::Tcllib::Plotchart.pixel_to_coords と Tk
+::Tcllib::Plotchart::ChartMethod#pixel_to_coords で tcllib の coordToPixel の関
+数を呼んでしまっていたのを修正しています。 https://github.com/ruby/ruby/pull/
+787

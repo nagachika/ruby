@@ -1,0 +1,3 @@
+XMLRPC::Create#conv2value が値を serialize する時に int は 32bit 整数であること
+をチェックするようにしています。また Infinity, NaN といった Float の値も
+XML-RPC では扱えないのでチェックして例外を発生させています。

@@ -1,0 +1,2 @@
+addr2line.c で PATH_MAX というマクロが未定義だった場合(GNU/Hurd で未定義らしい)
+の定義を追加しています。 [ruby-core:40840]

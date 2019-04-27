@@ -1,0 +1,4 @@
+hash.c の RESERVED_HASH_VAL と RESERVED_HASH_SUBSTITUTION_VAL という定数マクロ
+の値が st.c の同名のものと逆になっていて、理屈はよくわかってませんが st_table
+による実装の時にはこの結果 hash 値が 0 のオブジェクトの要素がなくなる? 見えなく
+なる? のを修正しています。 [ruby-core:90356] [Bug #15389]

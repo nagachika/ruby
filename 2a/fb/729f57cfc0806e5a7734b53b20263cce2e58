@@ -1,0 +1,6 @@
+parse.y で var_field() というマクロの定義を ripper 向けに追加して ripper 向けと
+本体向けで規則部の分岐をけしています。また以前同じように対処してた
+const_decl_gen() でも dispatch1() の呼び出しを追加して ripper の時にコールバッ
+クを呼ぶようにしているようです。これにより ripper で parse した時に assign
+error のイベントに var_field というノードが渡されるようになるようです。チケット
+の参照がないけどこれはなにかの修正か変更の準備かな。

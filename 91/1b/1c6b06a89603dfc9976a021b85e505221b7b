@@ -1,0 +1,5 @@
+r52514 で追加した Time 生成用 API rb_time_timespec_new() でタイムゾーンを utc
+にするか localtime にするかの指定に INT_MAX と INT_MAX-1 で指定できるようにして
+いましたが、この指定を逆にして offset=INT_MAX だと localtime、offset=INT_MAX-1
+だと utc とするようにしています。 offset = INT_MAX - gmtoff で計算できるように
+したそうです。

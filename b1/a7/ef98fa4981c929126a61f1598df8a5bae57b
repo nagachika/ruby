@@ -1,0 +1,3 @@
+r52025 の再修正。 PREP に ruby-runner を追加していたのを、実際に /bin/sh が
+LIBPATHENV 環境変数を捨ててしまう(OS X の El Capitan) の時だけ追加するようにし
+ています。

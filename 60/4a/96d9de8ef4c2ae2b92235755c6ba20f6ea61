@@ -1,0 +1,3 @@
+r62450 の再修正。拡張ライブラリ fiddle の型に応じた pack/unpack の指示子を持つ
+PACK_MAP の TYPE_VOIDP の時の値を PACK_MAP[TYPE_LONG_LONG] にしていましたが
+long long と void * のサイズが同じときだけにしています。

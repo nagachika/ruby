@@ -1,0 +1,3 @@
+MJIT 用の worker を停止する RubyVM::MJIT.pause に :wait というオプションの引数
+を追加して、コンパイル中の MJIT の worker の停止を待つかどうかを指定可能にして
+います。省略時は待つようにしています。

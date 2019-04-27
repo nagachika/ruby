@@ -1,0 +1,2 @@
+r33407 の Float#step の修正を revert しています。中途半端なパッチだった
+(half-baked patch)、とのこと。

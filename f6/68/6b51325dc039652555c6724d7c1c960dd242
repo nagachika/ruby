@@ -1,0 +1,4 @@
+Symbol GC により rb_str_dynamic_intern() で ID から Symbol を得た時にそれが
+LazySweep により mark フェーズで mark されず sweep 予定のものが取れる場合があっ
+て、その時に rb_gc_resurrect() でその Symbol オブジェクトを再利用するようにして
+います。

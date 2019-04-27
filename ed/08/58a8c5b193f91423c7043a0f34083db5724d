@@ -1,0 +1,3 @@
+r52806 でコミット漏れしていた missing/explicit_bzero.c を追加しています。
+Windows と OS X では memset_s(3) があるのでこれを利用し、それ以外(Linux)では
+while ループを自前で書いてクリアするようにしています。

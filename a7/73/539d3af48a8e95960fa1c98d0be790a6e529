@@ -1,0 +1,3 @@
+time.c でタイムゾーンの文字列を zone_table という static な st_table で管理して
+いて、その検索と追加を st_lookup() & st_add_direct していたのを st_update() で
+1度の検索で行うようにしています。

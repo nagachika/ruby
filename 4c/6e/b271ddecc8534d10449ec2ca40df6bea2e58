@@ -1,0 +1,3 @@
+r60281 の FileUtils のテストで umask の影響を考慮させるのに
+assert_equal_filemode の第4引数に渡してましたが、umask キーワード引数(オプショ
+ン?)で渡すのが正解だったようです。

@@ -1,0 +1,4 @@
+addr2line.c でバックトレース情報を表示する時に fprintf(3) は async-signal-safe
+でないためさらに SEGV してしまう不具合を修正するため、kprintf() を利用するよう
+にしています。 kprintf() の実装を FreeBSD からもらってきています。
+[ruby-core:53632] [Bug #8144]

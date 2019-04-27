@@ -1,0 +1,3 @@
+benchmark/lib/benchmark_driver/output/driver.rb という benchmark_driver の
+output plugin を追加して旧 benchmark/driver.rb の挙動を真似るものを追加していま
+す。 ko1 さんリクエストによるものとのこと。

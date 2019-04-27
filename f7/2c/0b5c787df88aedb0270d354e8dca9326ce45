@@ -1,0 +1,2 @@
+make update-unicode の並列ビルド時の競合をさけるための timestamp ファイルの作成
+を追加しています。 [ruby-core:65842] [Bug #10415]

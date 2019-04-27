@@ -1,0 +1,2 @@
+cgi のテストでも Tempfile#close(true) を #close! に置き換えています(処理内容は
+一緒)。

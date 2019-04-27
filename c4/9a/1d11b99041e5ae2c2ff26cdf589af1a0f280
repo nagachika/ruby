@@ -1,0 +1,5 @@
+String#to_i のドキュメントが "never raises a exception" となっていたけど、引数
+の base(基数)が不正だったら例外が発生するのでその旨を追記。
+[DEL:あー、"*an* exception" ですね。ものすごく trivial ですが一応チケットにコメ
+ントしておきましょう……。:DEL] あれ、既に "an" になってますね。端末の端で n が
+消えていたのかな。 [ruby-core:31685]

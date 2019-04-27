@@ -1,0 +1,2 @@
+psych のテストスクリプトで require_relative を使っているところを require に直し
+ています。

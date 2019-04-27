@@ -1,0 +1,2 @@
+Array#sort! の実装 rb_ary_sort_bang() に挿入されていた assert 文は不要だったた
+め削除しています。 [ruby-dev:47419] [Bug #8518]

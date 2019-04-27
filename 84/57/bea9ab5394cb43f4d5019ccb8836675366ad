@@ -1,0 +1,5 @@
+vm.c vm_define_method() での RB_GC_GUARD() の保護が Solaris10 での Oracle
+Solaris Studio 12.2 だとうまく行かなかったようで少し位置を修正しています。 [Bug
+#5762] [ruby-dev:45000] [Bug #4178]
+うーん、多分最後に miseq を利用している rb_add_method() の後ろに持っていったほ
+うがいいんでしょうね。 iseq を複製していない時もガードしてしまいますが。

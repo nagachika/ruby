@@ -1,0 +1,2 @@
+cygwin/GNUmakefile.in の dir.o の依存関係が win32.o になっていたので win32/
+win32.o に修正。

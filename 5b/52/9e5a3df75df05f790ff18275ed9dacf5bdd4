@@ -1,0 +1,2 @@
+プロファイラ用の C API rb_profile_frames() で取得する classpath で特異メソッド
+の場合に対応しています。

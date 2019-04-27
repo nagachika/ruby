@@ -1,0 +1,4 @@
+BMethod(define_method でブロックで定義されたメソッド)の呼び出しに
+vm_invoke_proc() を利用していたのですが、safe_level のリセットのための EXEC_TAG
+() の利用は不要だったので別に vm_invoke_bmethod() という関数を定義して
+vm_invoke_proc() からは不要な分岐を削除するようにしています。

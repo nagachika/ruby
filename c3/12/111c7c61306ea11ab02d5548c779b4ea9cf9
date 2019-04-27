@@ -1,0 +1,2 @@
+tool/downloader.rb で捕捉してリトライする例外に Net::ReadTimeout を追加していま
+す。

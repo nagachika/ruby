@@ -1,0 +1,5 @@
+タイマースレッドがメインスレッドしかいなくて起こす必要がない時に休眠する処理を
+関数切り出しして、NativeClient 版のタイマースレッドの実装を select() と pipe を
+使わず単に pthread_cond_timedwait() を使うようにしています。
+あと全体的に #ifdef .. #endif などの preprocessor directive の # の後をインデン
+トを付けるようにしています。

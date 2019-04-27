@@ -1,0 +1,4 @@
+Refinements のテストで GC.stress = true を使ったものが ARM や MIPS のアーキテク
+チャのマシン上で遅すぎて失敗してしまうので skip するようにしています。 "too
+slow cpu" ってメッセージで skip されるの現実の厳しさを感じますね。
+[ruby-core:76031] [Bug #12491]

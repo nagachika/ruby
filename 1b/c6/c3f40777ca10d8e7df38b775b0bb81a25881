@@ -1,0 +1,4 @@
+r63248 および r63383 の VM 命令の peephole optimization で jump+leave の命令の
+jump を消す最適化を revert しています。 leave 命令を移動した時に trace 命令もコ
+ピーしないと TracePoint が効かなくなることがあったので、効果のわりに複雑すぎる
+ので最適化自体をやめるとのこと。 [ruby-core:91366] [Bug #15578]

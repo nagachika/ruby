@@ -1,0 +1,3 @@
+r61870 と同様に time.c の struct time_object のメンバーの bit field の型に
+bits_t という型を定義していたのを単に unsigned int を利用するように変更していま
+す。

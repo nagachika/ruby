@@ -1,0 +1,2 @@
+Encoding Windows-1250 の大文字小文字変換の casemap 対応の実装。 r55749 と 55750
+の ChangeLog エントリの修正も含まれています。

@@ -1,0 +1,4 @@
+r50678 で T_DATA 型のオブジェクトのインスタンス変数の管理を変更した時の不具合修
+正とのことで、generic_ivar_remove() で第3引数 valp に削除した値を返すはずが代入
+していなかったのを修正しています。また generic_ivar_remove() の引数 valp を
+st_data_t* から VALUE* に変更しています。

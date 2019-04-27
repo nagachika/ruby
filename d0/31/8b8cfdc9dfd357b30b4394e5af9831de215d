@@ -1,0 +1,4 @@
+r65800 の Makefile.in の make reconfig 時に warnflags を明示的に再設定してたの
+を revert しています。その直後の r65803 と r65805 で不要になってたとのことで、
+これらは .travis.yml と configure.ac なので CI のテストでの問題の対策で入れたも
+のだったみたいです。

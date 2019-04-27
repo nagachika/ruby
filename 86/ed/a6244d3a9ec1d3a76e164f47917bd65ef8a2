@@ -1,0 +1,2 @@
+と思ったら r52485 の StringIO は IO と修正されていました。 https://github.com/
+ruby/ruby/pull/1085

@@ -1,0 +1,2 @@
+r63587 で導入した例外クラス Net::WriteTimeout の rdoc 用コメントで関連するオプ
+ション名が read_timeout になってたので write_timeout に修正しています。

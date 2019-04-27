@@ -1,0 +1,3 @@
+Array#keep_if のブロックで途中で break すると要素が重複することがある不具合を修
+正しています。 keep_if は delete_if/reject! の逆ですね。 [ruby-dev:48805] [Bug
+#10722]

@@ -1,0 +1,4 @@
+INFINITY や NAN の定義のための rb_infinity や rb_nan の宣言を include/ruby/
+defines.h から include/ruby/missing.h へ移動しています。RUBY_EXTERN の定義が
+include/ruby/defines.h のこの宣言より後にあったのでこの位置ではだめだったようで
+す。

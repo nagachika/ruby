@@ -1,0 +1,3 @@
+tool/fake.rb で RbConfig::CONFIG と RbConfig::MAKEFILE_CONFIG の "libdir" キー
+に builddir を格納しておくようにしています。rubyspec の C API のテスト時に
+libruby をリンクできるようにするためだそうです。

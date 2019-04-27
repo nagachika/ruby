@@ -1,0 +1,5 @@
+Array#combination や Array#repeated_combination でブロックを呼び出すループの条
+件で事前に取得した RARRAY_LEN() のサイズをそのまま使ってたので、ブロック内でそ
+の配列のサイズを変更すると不正アクセスになる可能性があったので、ループの条件で
+毎回 RARRAY_LEN() マクロでサイズチェックするように修正しています。
+[ruby-core:78738] [Bug #13052]

@@ -1,0 +1,3 @@
+ドキュメントやコメント、変数名などの transfered → transferred や convertion →
+conversion、infomation → information などの typo 修正をあちこちでしています。
+[ruby-core:72466] [Bug #11870]

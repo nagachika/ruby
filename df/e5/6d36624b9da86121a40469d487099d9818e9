@@ -1,0 +1,2 @@
+拡張ライブラリ etc の Etc.nprocessors の Linux での affinity 考慮部分のコメント
+の文法修正。

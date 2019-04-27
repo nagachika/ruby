@@ -1,0 +1,3 @@
+rb_vm_t::sleeper の宣言から volatile を外しています。さっきの deadlock 修正のチ
+ケットの中でついでに normal が気がついたようです。 [ruby-core:87467] [Bug #
+14841]

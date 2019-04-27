@@ -1,0 +1,3 @@
+r45462 で追加した Struct のテストが default_external の設定によって失敗すること
+があるテストだったので EnvUtil.with_default_external を使って呼び出すように修正
+しています。

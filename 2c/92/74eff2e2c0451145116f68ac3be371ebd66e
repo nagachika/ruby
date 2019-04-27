@@ -1,0 +1,3 @@
+ruby の --enable-xxx/--disable-xxx のオプションで指定できる feature 名を
+EACH_FEATURES というマクロで定義して enum feature_flag_bits の宣言と
+SET_FEATURE() の定義で使いまわすようにしています。

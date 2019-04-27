@@ -1,0 +1,9 @@
+compile.c の COMPILE_ERROR() というマクロで break 文を入れていたのをやめて、
+iseq_set_sequence() でエラー時に rb_compile_error() を読んで th->errinfo をセッ
+トしていたのを COMPILE_ERROR() を使って iseq->compile_data->err_info に例外オブ
+ジェクトをセットして COMPILE_NG を返すように変更しています。コミットログによる
+と cleanup_iseq_build() で compile_data->err_info がセットされていたら例外が発
+生するそうなので、例外発生を遅延させているのか、iseq_compile_each() をざっくり
+みた感じだと、これまでちゃんと例外になってなかったのを例外になるようにしたのか
+も。
+[追記]なかださん曰く後者(例外になってなかった)とのこと。[/追記]

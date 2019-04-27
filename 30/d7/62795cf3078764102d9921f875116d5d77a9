@@ -1,0 +1,6 @@
+r33536 で Bignum#div に 0.0 を渡した時に FloatDomainError ではなく
+ZeroDivisionError を発生させるように修正したのですが、Bignum#/ で除算した時には
+0.0 で割ると例外発生ではなく Float::Infinity を返すのに、そっちまで
+ZeroDivisionError が発生するようになっていたので修正しています。
+[ruby-core:40429] [Bug #5490]
+div と '/' で微妙に動作が異なるんですね。

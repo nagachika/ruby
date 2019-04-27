@@ -1,0 +1,4 @@
+拡張ライブラリ date の DateTime#strftime の rdoc 用コメントで %Z 指示子の説明を
+%:z と同じと修正しています。確か結構昔に JST みたいなエイリアス(?)にはならなく
+なりました。 https://github.com/ruby/ruby/pull/1565 [ruby-core:79602] [Bug #
+13231]

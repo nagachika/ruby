@@ -1,0 +1,10 @@
+RubyGems 2.1.0 をマージしています。 RubyGems 2.1.0 は gemspec のバージョンの解
+析のための正規表現のバックトラックを突いて、チェックに時間のかかるバージョン文
+字列を作れるという DoS ができるという脆弱性の修正を含んでいるそうです。 http://
+rubygems.rubyforge.org/rubygems-update/CVE-2013-4287_txt.html
+Bundler で git リポジトリから直接 gem パッケージを作ってインストールするように
+していると、gemspec ファイルを書き換えられる可能性があるので、そういうことをし
+ている場合はアップデートしておいたほうがよさそうです。また依存関係解決のコード
+を Bundler と同様のものに変更するなどの変更があるそうです。
+リリースノートはこちら。 http://rubygems.rubyforge.org/rubygems-update/
+History_txt.html#label-2.1.0+%2F+2013-09-09

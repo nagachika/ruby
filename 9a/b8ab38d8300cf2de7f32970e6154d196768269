@@ -1,0 +1,2 @@
+bignum.c のリファクタリング。 bary_pack() と bary_unpack_internal() から BDIGIT
+の配列の順番を反転する処理を bary_swap() として切り出しています。

@@ -1,0 +1,2 @@
+string.c の rb_str_enumerate_xxx() でブロック渡しが期待されていない時の警告の出
+力などを enumerator_wantarray() という関数に切り出すリファクタリング。

@@ -1,0 +1,3 @@
+gc.c で clang の静的解析によるメモリチェック機能を局所的に無効にするための
+attribute をつけるマクロ ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS を定義していたの
+を configure でチェックして定義するようにしています。

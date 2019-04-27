@@ -1,0 +1,3 @@
+ISeq をバイナリフォーマットから load する時の location.pathobj を String または
+Array から path と realpath をロードできるようにしています。 r58979 の変更に追
+随できていなかったのを修正しているみたいです。

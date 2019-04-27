@@ -1,0 +1,2 @@
+regparse.c の node_extended_grapheme_cluster() の Regional_Indicator (国旗関係
+のやつですね)で Node のリストを作るのに不要な Node を挟んでたのを省いてます。

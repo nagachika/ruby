@@ -1,0 +1,4 @@
+拡張ライブラリ zlib の gemspec ファイルで zlib.c ファイルを読んで
+RUBY_ZLIB_VERSION マクロの定義からバージョンを得るようにしています。また
+RUBY_ZLIB_VERSION が古いままだったので追随させて 1.0.0 にしています。gemspec で
+ファイルを読むの大丈夫かなぁ。

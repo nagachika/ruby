@@ -1,0 +1,5 @@
+IO#statfs の実装で fstatfs(2) か fstatvfs(2) を使うかの判定で HAVE_FSTATFS,
+HAVE_FSTATVFS だけで判定したところ Solaris では fstatfs(2) は存在するものの実際
+に呼ぶと ENOSYS が返るなど使えないそうで、HAVE_STRUCT_STATFS/
+HAVE_STRUCT_STATVFS で構造体の存在もチェックするようにしています。
+[ruby-dev:48145] [Bug #9788]

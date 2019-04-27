@@ -1,0 +1,2 @@
+probe.h を probe.d から生成した時に const char * の const が消されることがある
+ので、sed での後処理に char * から const char * への置換を追加しています。

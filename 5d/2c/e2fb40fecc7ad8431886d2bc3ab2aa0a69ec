@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole に WIN32OLE_VARIANT オブジェクトから実際に VARIANT 型を
+取り出すユーティリティ関数 ole_variant2variant() を追加してこれを利用するように
+しています。

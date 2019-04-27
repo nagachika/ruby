@@ -1,0 +1,2 @@
+r65263 の再修正。Travis-CI 上で実行除外したいテストの指定を test/excludes/
+_travis/*.rb に切り出しています。

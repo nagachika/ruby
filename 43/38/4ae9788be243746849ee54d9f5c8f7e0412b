@@ -1,0 +1,1 @@
+Fiber#to_s と Fiber#inspect で Fiber の status も表示するようにしています。

@@ -1,0 +1,3 @@
+Module#constants や Module#class_variables などで定数やクラス変数のテーブルを走
+査して st_table に格納するところで st_lookup()+st_insert() を使っていたところを
+st_update() を使って効率化しています。

@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::OCSP 関係のテストで LibreSSL 2.3.1 以降の不
+具合で失敗する可能性のあるテストで例外捕捉して skip する workaround を入れてい
+ます。

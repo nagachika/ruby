@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::BN.new に直接 Integer (Fixnum および Bignum)
+を受け取れるようにしています。テストは文字列を渡すケースも拡充しています。
+[ruby-core:53986] [Feature #8217]

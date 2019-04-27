@@ -1,0 +1,3 @@
+common.mk で make update-unicode-property-files のファイルダウンロードの対象を
+UNICODE_PROPERTY_FILES から一部を UNICODE_AUXILIARY_FILES という変数に分離して
+コマンドを分けてダウンロードするようにしています。

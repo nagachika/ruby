@@ -1,0 +1,3 @@
+VM stack inconsistency のエラー時に RUBY_DEVEL マクロが定義されていたら(つまり
+通常は trunk のみ)、実行中の命令列の内容も含めて rb_fatal() で強制終了させるよ
+うにしています。

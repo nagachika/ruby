@@ -1,0 +1,8 @@
+rb_check_funcall_with_hook() でメソッド探索時に再定義された respond_to? を呼ん
+でそれが false を返したのでメソッドがみつからなかったと判定して Qundef を返す時
+に渡された hook を呼んでなかったので、rb_obj_dig() からメソッドを呼び出す時に
+Stack consistency error というエラーで異常終了することがある不具合があったよう
+です。この rb_check_funcall_with_hook() という関数はかなり 2.1 以前から存在して
+いるようなのですが、昔は marshal.c で利用されていたものの、今は rb_obj_dig() か
+らしか利用されていないので、2.1/2.2 でも同様の問題がありますがどこからも呼ばれ
+ていないので実害はない状態みたいです。 [ruby-core:73556] [Bug #12030]

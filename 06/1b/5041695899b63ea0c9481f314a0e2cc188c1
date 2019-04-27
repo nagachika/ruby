@@ -1,0 +1,3 @@
+DTrace 対応で hook point を挿入するための関数マクロRUBY_DTRACE_HOOK() で
+RB_GC_GUARD() を追加しています。 Ruby のコンテキスト切り替えポイントがなさそう
+なので、多分大丈夫だと思いますけど、まあ念のため。。

@@ -1,0 +1,3 @@
+r55786 の Object#clone の keyword 引数 freeze の追加の追加変更で、この引数には
+true もしくは false のみ指定できる(それ以外だったら ArgumentError 例外を発生さ
+せる)ようにしています。 [ruby-core:75017] [Feature #12300]

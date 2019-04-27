@@ -1,0 +1,8 @@
+parse.y の global_symbols::pinned_dsym と
+global_symbols::pinned_dsym_minor_marked メンバを削除しています。 pindown され
+た dynamic symbol は rb_gc_register_mark_object() で登録してそちらから mark す
+るようにして、独自のテーブルに参照を保持するのはやめています。一度 pindown され
+るとそのプロセスではその Symbol はずっと存在し続けるので解除できない
+rb_gc_register_mark_object() でいいということ。昨日の r46714 で
+rb_vm_t::mark_object_ary をネストした配列にして大量のオブジェクトが登録された時
+のパフォーマンスの改善を行った(多分)のもこの布石だったんですかね。

@@ -1,0 +1,2 @@
+拡張ライブラリ date の rdoc 用コメントを Markdown 形式から RDoc 形式に変換して
+います。 [ruby-core:75136] [Bug #12311]

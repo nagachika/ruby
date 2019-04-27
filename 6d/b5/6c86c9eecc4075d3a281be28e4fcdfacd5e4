@@ -1,0 +1,3 @@
+あちこちで主に定数の定義についての rdoc コメントの追加と、
+Process::UID.from_name と Process::GID.from_name の rdoc コメントの追加をしてい
+ます。 zzak さんの発表に啓発されたんでしょうか。

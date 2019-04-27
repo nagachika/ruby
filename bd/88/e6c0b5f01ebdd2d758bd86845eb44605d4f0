@@ -1,0 +1,4 @@
+attr_reader, attr_writer, attr_accessor や instance_variable_set,
+instance_variable_get などなどメソッド名やインスタンス変数名を指定するために
+Symbol を受け取るメソッドで、String も受けつけるものの rdoc にその旨を追記して
+います。

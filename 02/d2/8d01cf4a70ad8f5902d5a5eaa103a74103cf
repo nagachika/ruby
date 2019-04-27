@@ -1,0 +1,7 @@
+configre に --disable-rubygems を指定された時にはインタプリタに組込まれる起動時
+に実行される ruby スクリプトである prelude から RubyGems の読み込みは削除して、
+--enable=gems オプションが指定されたら require "rubygems" を実行するだけにして
+いたのを、常に prelude に RubyGems 関係の初期化を用意しておいて、デフォルトのオ
+プションの値を変更するだけにするようにしています。 gem_prelude.rb も Gem が定義
+されていたら require "rubygems" を呼ぶだけなので、何が違うのかいまひとつわかり
+ませんでしたが、違わないから同じ方法にしたということでしょうか。

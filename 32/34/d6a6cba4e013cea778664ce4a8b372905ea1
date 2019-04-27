@@ -1,0 +1,3 @@
+tool/vcs.rb で git や svn などのコマンドがみつからなくて Errno::ENOENT が発生し
+た時に、かわりに例外 VCS::NotFoundError を発生させるメソッドを定義して、これを
+利用するようにしています。

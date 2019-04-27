@@ -1,0 +1,2 @@
+r46884 で rb_io_buffer_t の宣言に PACKED_STRUCT() をつけていますが、typedef ま
+でマクロの引数に含めるようにしています。 VC でのビルド時のためとのこと。

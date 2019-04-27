@@ -1,0 +1,2 @@
+r33676 で拡張ライブラリ dbm の extconf.rb で dsize 型のバイト幅を検査するために
+int と long を調べていましたが LONG_LONG も候補に追加するようにしています。

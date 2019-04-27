@@ -1,0 +1,2 @@
+mjit.c に vm_core.h の前に #include "internal.h" を追加しています。 Solaris で
+のビルドエラーの修正のためとのこと。

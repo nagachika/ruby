@@ -1,0 +1,2 @@
+zlib の rdoc に追記しています。Zlib::GzipWriter#mtime= や #orig_name= で解凍フ
+ァイルの情報を設定する例が追加されています。

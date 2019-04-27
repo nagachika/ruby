@@ -1,0 +1,5 @@
+Symbol の instance_eval, instance_exec で特異クラスを作らずに実行するようにして
+います。 Symbol は元々即値だったので rb_special_singleton_class() で特殊な特異
+クラスを返す or Qnil を klass にしていたのですが、dynamic symbol が導入されて、
+即値じゃない(SPECIAL_CONST_P() は偽)だけど特異クラスが作れないのでエラーになっ
+ていたようです。 [ruby-core:68961] [Bug #11086]

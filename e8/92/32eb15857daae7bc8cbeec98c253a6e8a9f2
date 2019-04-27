@@ -1,0 +1,2 @@
+r54112 および r54117 の onigenc_unicode_case_map() で特殊な casemap を使うとき
+と通常時の共通の処理を分岐の後に括り出しています。

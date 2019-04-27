@@ -1,0 +1,12 @@
+Ripper で自動生成される C のソースコード内の ripper_init_eventids1() という関数
+から PARSER_EVENT_TABLE という定数の Hash にシンボルと引数の数(?)の対応を格納す
+る部分を ripper_init_eventids1_table() という関数に切り分けて、Init_ripper() と
+InitVM_ripper() という拡張ライブラリのエントリポイントの関数で使い分けるように
+しています。定数へのセットを含む ripper_init_eventids1_table() は ObjectSpace
+が異なる VM 毎に実行しないといけないので InitVM_ripper() の中で実行。
+ところで InitVM() は include/ruby/ruby.h で定義されているマクロで、InitVM(ext)
+のようにすると InitVM_ext(); のプロトタイプ宣言+呼び出しするものです。他に
+InitVM_foo() を利用している拡張ライブラリは標準添付では io/console だけですね。
+あと Init_foo() の中では InitVM_foo() を呼ばないといけないみたいです。おそらく
+MVM が導入されたら最初にロードした以外の VM は InitVM_foo() だけ呼ばれるように
+なるのでしょう。

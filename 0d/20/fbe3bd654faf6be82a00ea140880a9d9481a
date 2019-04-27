@@ -1,0 +1,3 @@
+eval.c に ruby_static_id_{signo,status} という static 変数を追加してそれぞれ
+signo と status の ID を初期化時に rb_intern() して、error.c, eval_error.c,
+process.c, signal.c などでこれを使いまわすようにしています。

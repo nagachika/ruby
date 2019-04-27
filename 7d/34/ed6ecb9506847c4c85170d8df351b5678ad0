@@ -1,0 +1,3 @@
+ISeq のバイナリフォーマットからのロードで ISeq の path と realpath をロードする
+ところで、realpath が nil の場合に TypeError になるのを修正しています。 https:/
+/github.com/Shopify/bootsnap/issues/132

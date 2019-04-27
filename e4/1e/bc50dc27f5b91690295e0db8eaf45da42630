@@ -1,0 +1,4 @@
+Rational の Marshal.load でロードした num や den のデータが Integer であること
+をチェックするようにしています。意図的に生成した文字列から Marshal.load すると
+不正な Rational オブジェクトが作れてしまっていたようです。 [ruby-core:78071]
+[Bug #12918]

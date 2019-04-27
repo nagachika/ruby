@@ -1,0 +1,3 @@
+_longjmp() が利用できない場合は _setjmp() も利用できないものとして判定するのを
+AC_CHECK_FUNCS(_setjmp) の前にもってきています。 AC_CHECK_FUNCS() のチェックを
+スキップさせるためでしょうか。

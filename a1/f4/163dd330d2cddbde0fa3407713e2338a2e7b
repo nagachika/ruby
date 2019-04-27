@@ -1,0 +1,3 @@
+lazy_zip_func() で rb_rescue2() の可変数引数に 0 を渡しているところで VALUE へ
+の明示的なキャストを付加しています。sizeof(VALUE) != sizeof(int) の場合に引数の
+サイズが足りなくなってしまうためです。

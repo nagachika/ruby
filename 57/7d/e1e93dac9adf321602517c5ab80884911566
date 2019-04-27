@@ -1,0 +1,3 @@
+rdoc 用のコメントで戻り値などの説明に Fixnum のオブジェクトが返るという意味を込
+めて fixnum と書かれていたところを Fixnum/Bignum の統合にあわせて integer に変
+更しています。

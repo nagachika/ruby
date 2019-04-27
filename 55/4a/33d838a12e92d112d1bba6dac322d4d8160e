@@ -1,0 +1,5 @@
+rb_threadptr_unlock_all_locking_mutexes() にそこから(だけ)呼ばれていた
+rb_mutex_unlock_all() の処理を展開して1つの関数にしています。 th->
+keeping_mutexes のクリアをしなくなって大丈夫かな、と一瞬思いましたが
+rb_mutex_unlock_th() の中で最後の mutex を unlock した時にクリアされるはずなの
+で大丈夫ですね。

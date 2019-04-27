@@ -1,0 +1,4 @@
+Windows で mklink コマンドを使って作た REPARSE Point による mount point を
+File.realpath で解決するテストを追加しています。 r51790 の修正に対するテストで
+す。 REPARSE Point を使った mount point のことを Junction Point と言うそうです
+。

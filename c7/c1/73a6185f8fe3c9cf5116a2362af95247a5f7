@@ -1,0 +1,2 @@
+rb_frame_method_id_and_class() と rb_thread_current_status() という関数は未使用
+になっていたので削除しています。

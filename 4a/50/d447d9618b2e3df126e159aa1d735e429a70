@@ -1,0 +1,7 @@
+標準添付ライブラリ uri の URI.decode_www_form と URI.encode_www_form の変更。
+URI.encode_www_form のほうは省略可能な第2引数にエンコードの指定を受け取れるよう
+にして %xx に変換する前にエンコードの変換を行うようにしています。 UTF-16 の URL
+を正しく変換できるようにするためみたいです。 URI.decode_www_form のほうもエンコ
+ーディングの指定のほかいくつかキーワード引数が追加されていて、"a=0&b" のような
+query string をパースできるようにしています(b は空文字列になる)。
+[ruby-core:53475] [Bug #8103]

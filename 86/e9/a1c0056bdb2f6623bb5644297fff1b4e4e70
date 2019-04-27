@@ -1,0 +1,2 @@
+rb_iseq_t の解放処理 iseq_free() で rb_iseq_t::param::keyword::default_value の
+解放漏れを修正。

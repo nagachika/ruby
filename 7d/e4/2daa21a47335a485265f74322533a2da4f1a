@@ -1,0 +1,3 @@
+string.c の str_shared_replace() で ASSUME() を使っていたところを RUBY_ASSERT()
+を利用するように変更しています。ASSUME() はコンパイラの最適化のためのヒントのた
+めのマクロみたいなので用途が違ったみたいです。

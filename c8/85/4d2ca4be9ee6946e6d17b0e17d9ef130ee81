@@ -1,0 +1,11 @@
+Module が継承リストの中で2回 include されている時(普通に A と class B < A があ
+って A が M を include していると B に include M しても include されないのです
+が、順番を逆にして B に include した後に A に include すると、[B, M, A, M,
+Object, Kernel, BasicObject] のような継承状態が作れるのです)、同じ Module のメ
+ソッドは繰り返し呼ばないようにしていたのですが、この処理も不完全で super で呼ば
+れるメソッドがモジュール(正確には Module の代理である IClass)の間のクラスなどに
+定義されていると、やっぱり繰り返し呼ばれます。
+この特別扱いをやめて、同じ Module が(その IClass が)複数回継承リストに現われる
+時は super で辿ると同じメソッドが複数回呼ばれるようにしています。
+[ruby-core:30450] [Bug #3351]
+うむ、このほうがすっきりしますね。けど結構各所で影響あるんだろうなぁ。

@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole でも ole_raise() の宣言に NORETURN() と PRINTF_ARGS()
+を追加しています。

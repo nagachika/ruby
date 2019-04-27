@@ -1,0 +1,4 @@
+標準添付ライブラリ net/ftp と net/http に TLS 1.3 対応。TLS 1.3 では OpenSSL::
+SSL::SSLContext に session_new_cb というコールバック用 Proc オブジェクトをセッ
+トしておいて session オブジェクトを取得する必要があるみたいなのでそれに対応して
+います。

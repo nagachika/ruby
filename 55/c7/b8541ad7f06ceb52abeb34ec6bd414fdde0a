@@ -1,0 +1,4 @@
+古い macOS (macOS って名前じゃなかった頃ですね)で構造体 mcontext_t のメンバー名
+が異なっていてビルドできなかったそうなので、メンバー名もマクロで差異を吸収する
+ようにしています。リンクはられてる issue をみると Tiger ってことなので相当古い
+やつですね。 https://github.com/mistydemeo/tigerbrew/issues/473

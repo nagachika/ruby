@@ -1,0 +1,2 @@
+標準添付ライブラリ xmlrpc で r41257 で切り出して新しく作ったメソッド XMLRPC::
+Client#parse_set_cookies のリファクタリング。

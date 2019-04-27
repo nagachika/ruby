@@ -1,0 +1,3 @@
+昨日 Barrier から ThreadSheild に名称を変更したクラスについての関数マクロ
+rb_thread_shield_waiting_inc()、rb_thread_sheild_waiting_dec() を inline 関数と
+して実装するように変更し、待っているスレッド数のチェックを追加しています。

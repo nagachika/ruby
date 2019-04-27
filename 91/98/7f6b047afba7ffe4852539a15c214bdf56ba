@@ -1,0 +1,3 @@
+r36944 の拡張ライブラリ socket での rb_thread_fd_writable() の削除をいくつか
+revert しています。これがなくなると mswin/mingw で不正終了するようになってしま
+うそうです。

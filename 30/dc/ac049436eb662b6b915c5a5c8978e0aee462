@@ -1,0 +1,3 @@
+Queue のテストで複数の Thread を起動してそれらの状態(Thread#status)をチェックす
+るテストで Thread が動きだすまで待つように Thread.pass するループを追加していま
+す。

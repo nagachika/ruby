@@ -1,0 +1,2 @@
+r66870 を revert しています。 MinGW で -nostartfiles をつけるとうまくいかなかっ
+たようです。

@@ -1,0 +1,3 @@
+gc.c に RVALUE::as と RVALUE::as::values のサイズ(sizeof() の結果)が同一である
+ことを確認する STATIC_ASSERT() を追加しています。さっきの r67076 での embed サ
+イズの定数の共有化に絡んでかなぁ。

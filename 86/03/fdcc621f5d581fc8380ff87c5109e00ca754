@@ -1,0 +1,3 @@
+拡張ライブラリ bigdecimal の rdoc 用コメントの typo やサンプルコードの for 文を
+Integer#times に変更したりといった修正です。 https://github.com/ruby/ruby/pull/
+398

@@ -1,0 +1,2 @@
+pack.c で num2i32() を削除して、かわりに rb_integer_pack() を呼ぶようにしていま
+す。

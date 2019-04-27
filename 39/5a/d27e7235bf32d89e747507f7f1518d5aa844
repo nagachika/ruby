@@ -1,0 +1,2 @@
+doc/maintainers.rdoc と doc/standard_library.rdoc の r57701 で default gem 化し
+た gdbm についての記述を移動しています。 [ruby-core:79742] [Feature #13248]

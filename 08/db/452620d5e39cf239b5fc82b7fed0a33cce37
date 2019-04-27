@@ -1,0 +1,3 @@
+ファイナライザは GC の sweep フェーズ完了後に実行していましたが、Lazy Sweep が
+導入された今はこれだと全ての sweep が完了するまで呼ばれなくなるので、slot_sweep
+で slot をひとつ sweep する度に実行するようにしています。 [ruby-dev:42520]

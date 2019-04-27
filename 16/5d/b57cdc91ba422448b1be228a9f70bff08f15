@@ -1,0 +1,2 @@
+string.c の rb_str_quote_unprintable() で引数が String オブジェクトかどうか
+Check_Type() マクロで確認するようにしています。

@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole のテストで Thread.report_on_exception = true のデフォル
+ト化でメッセージが出るようになってたテストで Thread#report_on_exception=false
+で無効化しておくようにしています。

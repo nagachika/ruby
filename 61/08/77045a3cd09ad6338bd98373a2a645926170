@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で WIN32OLE_RECORD というクラスを追加して VT_RECORD 型
+の変数の対応を追加しています。

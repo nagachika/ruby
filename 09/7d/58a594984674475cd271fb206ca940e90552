@@ -1,0 +1,3 @@
+ruby_init_ext と rb_iseq_eval, rb_iseq_compile_with_option という関数のシンボル
+を公開しています。コメントによると "for golfers" とあるので Code Golf のためら
+しいのですが何か元ネタがあるんでしょうか。

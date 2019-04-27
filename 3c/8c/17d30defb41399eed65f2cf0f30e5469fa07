@@ -1,0 +1,4 @@
+拡張ライブラリ coverage の branch coverage で unless 文による分岐は
+Coverage.results でも :unless という Symbol が使われるように区別できるようにし
+ています。 if と unless は body と else を反転した NODE_IF で表現されてたので
+NODE_UNLESS を追加して AST の時点で区別を保持するようにしています。

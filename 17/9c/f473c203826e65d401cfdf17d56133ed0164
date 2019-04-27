@@ -1,0 +1,2 @@
+ext/json/generator/generator.c のコメントにて、'i' の文字が U+0456 になっている
+ところがあったので ASCII 文字に直しています。 [ruby-dev:44464] [Bug #5275]

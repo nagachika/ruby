@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::ASN1::ObjectId の rdoc 用コメントを追加して
+います。 primative は primitive の typo? https://github.com/ruby/ruby/pull/436

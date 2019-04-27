@@ -1,0 +1,2 @@
+thread.c の mutex_alloc() の引数 obj についていた volatile 修飾子を削っています
+。

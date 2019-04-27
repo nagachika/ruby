@@ -1,0 +1,3 @@
+r64072 の MJIT の --jit-max-cache オプションのテストを MinGW では skip していま
+したが、これは削除してかわりに putiseq 命令を含むメソッドのテストを skip するよ
+うにしています。

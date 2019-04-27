@@ -1,0 +1,2 @@
+json のテストで assert_raises を使っていたところを assert_raise に変更していま
+す。

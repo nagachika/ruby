@@ -1,0 +1,3 @@
+coverage 用の TracePoint のイベント定数 RUBY_EVENT_COVERAGE を
+RUBY_EVENT_COVERAGE_BRANCH に改名しています。これも branch coverage 専用になっ
+たため。

@@ -1,0 +1,4 @@
+parse.y で "::" という定数の区切り文字のトークンを生成する NEW_COLON{2,3} にさ
+らに const_path_field()、top_const_field() という ripper 側の実装と共通の名前の
+マクロを定義して parser 側と ripper 側での preprocessor での分岐を減らすように
+リファクタリングしています。

@@ -1,0 +1,6 @@
+拡張ライブラリ syslog の Syslog.inspect で rb_class2name() でクラス名を取得する
+前に型が T_MODULE 型であることをチェックするようにしています。この
+mSyslog_inspect() っていう関数は rb_define_module_function() に渡されてるので、
+private インスタンスメソッドと Syslog の特異メソッド(クラスメソッド)の両方が定
+義されているのに、これをみると self が Module であることを期待しているのでまず
+いんじゃないでしょうか。

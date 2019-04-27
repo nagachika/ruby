@@ -1,0 +1,6 @@
+ファイナライザの中で Mutex を lock してそのままにすると、ruby インタプリタ終了
+時のあとしまつでエラーになる問題の対策。 thread_unlock_all_locking_mutexes() を
+thread.c の外から呼べるように宣言を変え名前も
+rb_threadptr_unlock_all_locking_mutexes() に改名(rb_ をつけるとインタプリタ内の
+ほかのソースからも呼べる API という目印)し、ruby_cleanup() でファイナライザの処
+理の後に追加で呼ぶようにしています。 [ruby-dev:44049] [Bug #4988]

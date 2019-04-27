@@ -1,0 +1,4 @@
+拡張ライブラリ openssl のテストで OpenSSL::Digest の各ダイジェストアルゴリズム
+のクラスが存在するかどうかのチェックで LibreSSL の 2.3 以降では SHA はサポート
+されてないらしく省くようにしています。 https://github.com/ruby/openssl/issues/
+40#issuecomment-159839338

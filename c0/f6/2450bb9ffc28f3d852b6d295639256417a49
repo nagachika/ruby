@@ -1,0 +1,3 @@
+r64696 で追加した Enumerator::ArithmeticSequence#each の rdoc 用用コメントで
+each にブロックを渡さなかった時には self を返すのでそれがわかるように call-seq
+の戻り値部分を書き換えています。

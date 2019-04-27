@@ -1,0 +1,2 @@
+IO.copy_stream で再生するファイルの permission が 0600 → 0666 に変更しています
+。 [ruby-core:40865]

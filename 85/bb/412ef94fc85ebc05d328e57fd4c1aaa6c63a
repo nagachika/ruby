@@ -1,0 +1,2 @@
+ThreadShield についての関数の宣言を intern.h から internal.h に移動しています。
+本体専用の関数ということですね。

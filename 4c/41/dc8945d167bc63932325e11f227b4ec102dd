@@ -1,0 +1,2 @@
+compile.c の compile_array() という関数からメソッドの引数を作る処理を別の関数
+compile_args() として切り分けて関数内での分岐を整理しています。

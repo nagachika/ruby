@@ -1,0 +1,2 @@
+random.c の rand_init() で r54994 と同様に seed 計算に使った buf を
+explicit_bzero() でゼロクリアするようにしています。

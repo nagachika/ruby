@@ -1,0 +1,4 @@
+marshal.c の rb_marshal_dump_limited() と rb_marshal_load_with_proc() の変数
+wrapper の宣言に volatile 修飾子を追加して GC による不正なメモリ解放の不具合修
+正をしています。 RB_GC_GUARD() もしているのですが FreeBSD 10.3 の gcc 7.0.0 で
+は効かないという不具合があるみたいです。 [ruby-core:79224] [Bug #13150]

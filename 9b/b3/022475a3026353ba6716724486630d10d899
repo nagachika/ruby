@@ -1,0 +1,4 @@
+numeric.c の int_divmod() と int_and() を rb_int_divmod(), rb_int_and() に改名
+して static を取り、rational.c で Rational#float, #ceil, #round, #truncate の時
+にこれらを直接呼んで f_xxx() 系のメソッド呼び出しを含む関数のかわりに使うように
+して最適化しています。

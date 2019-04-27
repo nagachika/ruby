@@ -1,0 +1,2 @@
+r60966 で enc/shift_jis.c から切り出した enc/shift_jis.h がコミット漏れしてたの
+で追加しています。

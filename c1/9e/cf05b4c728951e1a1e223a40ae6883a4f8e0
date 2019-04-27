@@ -1,0 +1,4 @@
+終端が nil の Range いわゆる endless range に Range#to_a が呼ばれたらすぐに
+RangeError 例外を発生させるようにしています。まああきらかに止まらなくなる(とい
+うかメモリ食いつぶして NoMemoryError?) からそれよりは例外になって欲しいですよね
+。 [ruby-dev:50568] [Bug #14845]

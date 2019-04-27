@@ -1,0 +1,4 @@
+common.mk の UPDATE_LIBRARIES という変数を no にしていたのを yes に変更していま
+す。 make download-unicode-data でデフォルトで Unicode 用のデータファイル群をダ
+ウンロードするようにしているようです。重いから明示的にダウンロードさせる時だけ
+有効にしてたのだと思うのですが、なぜだろう。

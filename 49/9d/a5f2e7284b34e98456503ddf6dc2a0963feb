@@ -1,0 +1,2 @@
+同じく r60979 で追加した ext/-test-/string/new.c の関数に static を付加していま
+す。

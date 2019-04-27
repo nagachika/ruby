@@ -1,0 +1,3 @@
+標準添付ライブラリ set の Set#flatten!, #add? #delete?, #collect!, #reject!, #
+select!, #^, #classify などのメソッド定義で後置 if 文などを用いてシンプルに書く
+ようにリファクタリングしています。

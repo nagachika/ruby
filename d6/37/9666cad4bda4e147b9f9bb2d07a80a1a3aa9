@@ -1,0 +1,3 @@
+r52151 で追加した open_load_file() で ruby_is_fd_loadable() のエラー時に明示的
+に errno を設定するようにしています。また errno を参照するのがその後の close(2)
+の呼び出しの後だったので errno を別の変数に退避しておくようにしています。

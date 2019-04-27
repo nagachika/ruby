@@ -1,0 +1,3 @@
+Process.clock_gettime の clock_id に CLOCK_PROCESS_CPUTIME_ID をエミュレートし
+た :ISO_C_CLOCK_CLOCK_PROCESS_CPUTIME_ID を受け付けるようにしています。 clock
+(3) という標準ライブラリ関数を使ってエミュレートしています。

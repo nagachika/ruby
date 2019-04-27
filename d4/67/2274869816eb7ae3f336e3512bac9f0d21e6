@@ -1,0 +1,2 @@
+r45851 の benchmark/driver.rb の --output-rawdata の出力先を指定されたファイル
+に変更しています。 inspect で文字列化して出力しています。

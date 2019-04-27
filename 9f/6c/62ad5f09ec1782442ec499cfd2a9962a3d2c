@@ -1,0 +1,2 @@
+bignum.c の bary_small_rshift() の引数 sign_bit を higher_bdigit という最上位の
+BDIGIT の値を受け取るように変更しています。

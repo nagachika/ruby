@@ -1,0 +1,2 @@
+標準添付ライブラリ optparse の OptionParser#summarize で行のデリミタとして $/
+を参照してたのを nl という変数に変えてるんですが、nl の初期化がないような……。

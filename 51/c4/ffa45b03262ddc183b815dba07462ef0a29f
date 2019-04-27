@@ -1,0 +1,4 @@
+r54203 で rb_fix_mul_fix() を導入したのと同様に rb_fix_dix_fix() と
+rb_fix_mod_fix() を導入して、さらにそれらを統合した rb_fix_divmod_fix() を導入
+して r54213 と同様に結果が Fixnum におさまらなくなるケースを分離してメインのパ
+スでは LONG2FIX() で変換するようにしています。

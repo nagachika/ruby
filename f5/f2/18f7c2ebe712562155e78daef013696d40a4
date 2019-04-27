@@ -1,0 +1,2 @@
+cont.c の fiber_initialize_machine_stack_context() から ucontext_t の内容を初期
+化する部分を fiber_context_create() という関数に切り出すリファクタリング。

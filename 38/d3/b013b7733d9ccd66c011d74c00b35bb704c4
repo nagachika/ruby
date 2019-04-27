@@ -1,0 +1,2 @@
+rb_thread_t::errinfo の fatal error の時など Fixnum を格納することがあるので、
+適当な例外オブジェクトを作って入れるようにしています。

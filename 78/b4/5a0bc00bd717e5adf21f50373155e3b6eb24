@@ -1,0 +1,3 @@
+string.c の文字列連結を行なう rb_enc_cr_str_buf_cat() rb_str_append() で
+coderange を設定するのに空文字列の時を考慮するようにしています。昨日の変更の追
+加でしょうか?

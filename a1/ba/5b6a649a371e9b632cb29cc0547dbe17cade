@@ -1,0 +1,5 @@
+bootstraptest/runner.rb の assert_finish というメソッドでタイムアウトの判定に
+Time.now を使っていたのを Process.clock_gettime の CLOCK_MONOTONIC を使って時計
+の歪みの影響を受けないようにしています。そして 0.1 秒ずつ sleep していたのを子
+プロセスに渡した pipe の close を検出するように IO.select と IO#read_nonblock
+を使ってループ回すようにしています。待ち時間を短縮するためみたいですね。

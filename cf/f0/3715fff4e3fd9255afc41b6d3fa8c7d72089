@@ -1,0 +1,2 @@
+Hash#compared_by_identity で既に compared_by_identity? == true の時は何もせずに
+返すようにしています。

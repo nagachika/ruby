@@ -1,0 +1,4 @@
+Process.spawn で fork 後に async-signal-safe じゃない関数を呼ばないようにする修
+正の続きです。 dln_find_exe_r() で実行コマンドを PATH から探す処理を fork 前に
+実行しておいて引数の構造体にメンバを追加してそこに格納しておくようにしています
+。

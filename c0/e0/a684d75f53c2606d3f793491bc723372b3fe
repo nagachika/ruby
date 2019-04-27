@@ -1,0 +1,2 @@
+r40219 の続きで主に Windows 環境で RUBY_LIBFFI_MODVERSION が定義されない場合を
+考慮するようにしています。

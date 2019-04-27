@@ -1,0 +1,3 @@
+parser_parse_string() からクオートの終端を検出した時に tSTRING_END を返すか
+tREGEXP_END を返すかの反転部分を parser_string_term() という関数に切り出すリフ
+ァクタリング。

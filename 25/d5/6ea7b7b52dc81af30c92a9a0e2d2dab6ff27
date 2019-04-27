@@ -1,0 +1,4 @@
+標準添付ライブラリ tmpdir で Dir::Tmpname.make_tmpname という一時ディレクトリ名
+を作成するメソッドを削除して、Dir::Tmpname.create の中に展開して、重複していた
+時のリトライ時に prefix や suffix の文字列の生成が繰り返し行なわれないように最
+適化しています。

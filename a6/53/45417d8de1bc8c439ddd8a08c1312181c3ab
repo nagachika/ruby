@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#disasm で rb_iseq_body_t::params の内容をダンプする
+時にキーワード引数を ** で受け取る kwrest の内容を表示するようにしています。

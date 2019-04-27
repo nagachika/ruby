@@ -1,0 +1,5 @@
+拡張ライブラリ openssl で OpenSSL 1.1.0 で導入された multi thread 対応で、ロッ
+ク用の callback が不要になったのに対応するため、CRYPTO_lock() という関数が定義
+されているかどうかで判定して、新しい OpenSSL なら不要になったロック機構の初期化
+をやめています。また CRYPTO_add() を使った参照数の管理をマクロ化してこれを利用
+するようにしています。 [ruby-core:75225] [Feature #12324]

@@ -1,0 +1,3 @@
+r57384 と同様に make yes-test-bundler のルールで環境変数 GEM_HOME や
+BUNDLE_RUBY、BUNDLE_GEM を指定していたのを tool/runruby.rb の中で常に設定するよ
+うに移動しています。

@@ -1,0 +1,5 @@
+標準添付ライブラリ erb でクラス ERB のインスタンス変数にわざと特異クラスへの参
+照を追加して、Marshal.dump で serialize されないようにしています。理由はよくわ
+かりませんが、dump されたものを load して使われるとまずいみたいで、ERB#result
+でもこのインスタンス変数をチェックして initialize が通ってなかったら
+ArgumentError にするようにしています。

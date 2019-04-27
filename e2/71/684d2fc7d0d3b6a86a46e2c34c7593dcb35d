@@ -1,0 +1,2 @@
+rb_thread_atfork で rb_reset_random_seed を呼んでいるところに参考情報としてコメ
+ントに CVE-2003-0900 を記述。

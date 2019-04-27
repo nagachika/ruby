@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の uptodate? というメソッドの rdoc の typo 修正。
+https://github.com/ruby/ruby/pull/510
+こんなメソッドがあるんですねー、知らなかった。

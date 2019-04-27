@@ -1,0 +1,3 @@
+r65642 の flo_div() のゼロ除算回避と同様に nurat_div() でも rb_flo_div_flo() を
+利用するようにして、また nurat_fdiv() からも double の 0.0 での除算していたとこ
+ろを nurat_div() を利用するようにしています。明示的に 0.0 で割ってたのかー。

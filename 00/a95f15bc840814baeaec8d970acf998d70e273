@@ -1,0 +1,5 @@
+bignum.c のリファクタリング。 bary_divmod() という BDIGIT 配列のまま除算を計算
+する関数を新設してそれを使うようにしています。また bigdivrem() から
+bigdivrem_num_extra_words() という関数を括り出しています。この関数内の assert()
+文はあきらかに常に成り立つはず(BIGDIVREM_EXTRA_WORDS が 2 なら)ので冗長ではない
+でしょうか。

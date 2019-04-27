@@ -1,0 +1,2 @@
+doc/syntax/methods.rdoc に記載されていたサンプルコードのメソッドが自己再帰して
+いたのを修正しています。 https://github.com/ruby/ruby/pull/554

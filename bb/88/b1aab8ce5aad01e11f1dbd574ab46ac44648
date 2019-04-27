@@ -1,0 +1,4 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse#send_body_proc でレスポンス
+を Proc オブジェクトとして渡して、それを socket をパラメータに呼び出してレスポ
+ンスを返すことができるようにしています。チケット番号が3桁だ! [ruby-core:20474]
+[Feature #855]

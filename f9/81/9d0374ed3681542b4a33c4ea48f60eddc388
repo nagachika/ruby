@@ -1,0 +1,1 @@
+date_strftime.c の 64bit から 32bit への代入の警告除去。

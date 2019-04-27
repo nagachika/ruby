@@ -1,0 +1,3 @@
+r49482 で mkmf.rb のテストの test/mkmf/base.rb のモジュールを追加しているところ
+で TestMkmf::Base の範囲を修正しています。 TestMkmf::Capture クラスを
+TestMkmf::Base::Capture に移動しています。

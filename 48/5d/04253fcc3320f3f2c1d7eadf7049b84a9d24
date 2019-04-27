@@ -1,0 +1,2 @@
+vm.c の vm_make_env_each() で env->env へコピーするのにループを回していたのを
+MEMCPY() を利用するようにしています。

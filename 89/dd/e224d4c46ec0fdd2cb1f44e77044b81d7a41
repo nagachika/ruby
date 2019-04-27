@@ -1,0 +1,3 @@
+rb_str_resurrect() の内容を str_duplicate() に展開して rb_str_dup() でも
+rb_str_resurrect() の処理を使いまわようにしています。 String#dup も高速化してい
+るんでしょうか。

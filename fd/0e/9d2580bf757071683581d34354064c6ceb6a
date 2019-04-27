@@ -1,0 +1,8 @@
+p ->() do a(1) do end end のように ->() による lambda 式に do end ブロックを渡
+してその中にかっこ付きのメソッド呼び出し + do-end によるブロックという式が
+syntax error になるのを修正しています。だいぶややこしいですが lambda 式の引数の
+parse 後に cmdarg_stack 変数をリセットしておいて、lambda の body 部の parse 後
+の規則で $<val> から退避しておいた値を取り出すように修正しています。
+cmdarg_stack 変数は parser の規則部で利用されている parser 全体で共有されている
+変数(構造体のメンバ)なので、再帰的に利用される場所では退避/リセットが必要なよう
+です。 [ruby-core:69017] [Bug #11107]

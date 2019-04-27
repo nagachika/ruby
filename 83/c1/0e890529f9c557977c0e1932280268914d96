@@ -1,0 +1,6 @@
+File.directory?, File.pipe?, File.socket?, File.blockdev?, File.chardev?,
+File.exists?, File.world_readable?, File.world_writable?, File.file?,
+File.zero?, File.size?, File.owned?, File.grpowned?, File.identical?,
+File.size, File.atime, File.mtime, File.ctime などの File のメタデータチェック
+系のメソッドの rdoc に引数にファイルパスだけでなく IO オブジェクトも受け付ける
+ことを追記しています。おお、知らなかった……。

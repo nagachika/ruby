@@ -1,0 +1,2 @@
+NEWS ファイルに Thread#join が Signal.trap のハンドラ内で実行できない
+(ThreadError が発生する)ようになったことを追記しています。

@@ -1,0 +1,11 @@
+テスト用のユーティリティ EnvUtil#invoke_ruby で終了時に標準出力/標準エラー出力
+を読みとっている Thread を先に Thread#kill で殺してから pipe を close してその
+後 Thread#join で殺した Thread を回収するようにしています。 pipe を close した
+ことで読み取り用の Thread で IOError が発生することがあるのを回避しようとしてい
+るようです。一瞬 Thread#kill しても止まる前に close したらやっぱり IOError が発
+生するんじゃ……と思いましたが、Thread#kill すると Thread の status が
+"aborting" (内部的には THREAD_TO_KILL)になるので IO 待ちしているスレッドも再度
+システムコールなどに入る前にその状態をチェックして抜けるから大丈夫、のような気
+がします。
+また PStore のテストが Windows だと遅いそうで、デフォルトの timeout だとエラー
+になってしまうので 15sec にしています。 [ruby-core:47402] [Bug #6965]

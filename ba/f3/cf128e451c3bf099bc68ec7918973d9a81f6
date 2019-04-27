@@ -1,0 +1,2 @@
+拡張ライブラリ objspace で rb_gc_count() や rb_obj_memsize_of() を独自に extern
+宣言していたのを #include "internal.h" するように変更しています。

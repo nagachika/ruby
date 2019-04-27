@@ -1,0 +1,8 @@
+r42690 とか r42710 のあたりで([Bug #8730]) 標準添付ライブラリ timeout でタイム
+アウトを通知するために例外のかわりに catch-throw を使うようにしたのですが、その
+ために Timeout::ExitException というのを導入して、この例外クラスは発生させよう
+とすると実際には throw を実行するようになっていたのですが、この機能を Timeout::
+Error にまとめています。 Thread.handle_interrupt(TimeoutError => :never) でブロ
+ック内でタイムアウトの割り込みを抑制できるという記述がるりまにあるのに、実際に
+は Timeout::ExitException が利用されていたので、ドキュメントのほうに合わせるよ
+うにしているようです。 [ruby-dev:49179] [Bug #11344]

@@ -1,0 +1,2 @@
+NEWS ファイルに DateTime#to_time の timezone の情報の扱いの変更について追記して
+います。 [ruby-dev:49521] [Bug #12189]

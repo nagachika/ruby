@@ -1,0 +1,3 @@
+bignum.c に Fixnum/Bignum と Float の比較(一致するかどうか)をチェックする
+rb_integer_float_eq() という関数を追加して、 rb_integer_float_cmp() の返り値
+(-1, 0, 1 の Fixnum) を確認するかわりにこちらを使うようにしています。

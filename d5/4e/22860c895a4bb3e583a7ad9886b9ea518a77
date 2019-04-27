@@ -1,0 +1,2 @@
+続いて getlocal, setlocal, getlocal_WC_1, setlocal_WC_1 命令を使うの MJIT のテ
+ストを追加しています。

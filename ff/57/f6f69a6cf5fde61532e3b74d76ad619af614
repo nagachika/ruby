@@ -1,0 +1,4 @@
+defs/gmake.mk で make commit 時の update-src src all-incs などの自動生成の更新
+時に CONFIGURE 変数を渡すようにしています。また Makefile.in の @confugure_args@
+も削除するように sed の正規表現を修正しています(大文字のみの変数名だけ消してた
+のを小文字も消すようにした)。

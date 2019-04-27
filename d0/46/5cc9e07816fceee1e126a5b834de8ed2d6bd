@@ -1,0 +1,2 @@
+r46602 の Pathname#birthtime の追加を Windows 環境でも有効にしています。
+[ruby-dev:48339] [Feature #9857]

@@ -1,0 +1,3 @@
+Process.clock_gettime の clock_id に渡す Symbol のエミュレーション実装を利用す
+るものを、全体的に XXX_BASED_YYY_ID のように BASED という単語を挟むように改名し
+ています。

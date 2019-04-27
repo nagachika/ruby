@@ -1,0 +1,2 @@
+debug.c のデバッガからシンボルが見えるように enum の型を構造体に入れておく
+ruby_dummy_gdb_enums にenum vm_call_flag_bits も追加しています。

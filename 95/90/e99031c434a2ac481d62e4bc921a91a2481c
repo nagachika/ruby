@@ -1,0 +1,2 @@
+rb_dir_s_empty_p() で errno が EMFILE や ENFILE の時に rb_gc() を呼んでいたのを
+rb_gc_for_fd() を使うようにリファクタリングしています。

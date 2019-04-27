@@ -1,0 +1,2 @@
+parse.y の rb_parser_lex_state_names という変数に static 修飾子を付加しています
+。

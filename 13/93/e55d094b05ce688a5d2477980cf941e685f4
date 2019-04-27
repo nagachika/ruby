@@ -1,0 +1,5 @@
+rb_update_max_fd() で file descriptor が有効なものかどうかチェックするために
+fstat(2) を呼んでみているのですが、Windows でデバイスの fd を渡すと失敗するので
+、 errno もチェックして EBADF (Bad File Descriptor) の時だけ rb_bug() にするよ
+うにしています。 [ruby-dev:44837] [Bug #5593]
+コミットログと ChangeLog のチケット番号が別のものになってるみたいですね。

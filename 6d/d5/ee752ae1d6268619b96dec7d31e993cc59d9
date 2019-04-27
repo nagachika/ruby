@@ -1,0 +1,2 @@
+Regexp#match? に対応する String#match? と Symbol#match? メソッドを追加していま
+す。 https://github.com/ruby/ruby/pull/1483 [ruby-core:77908] [Feature #12898]

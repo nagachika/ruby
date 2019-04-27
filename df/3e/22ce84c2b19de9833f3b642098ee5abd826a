@@ -1,0 +1,4 @@
+標準添付ライブラリ rdoc を 5.1.0 に更新しています。 ChangeLog はこちら https://
+github.com/rdoc/rdoc/blob/master/History.rdoc#510--2017-02-24 parse 時に認識す
+るタグ名の typo 修正や Windows でのエンコード関係の不具合修正などがあったみたい
+です。

@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC#generate_key を #generate_key! に改
+名して、互換性のため #generate_key は alias として残しています。他の OpenSSL
+::PKey のクラスとメソッド名を一致させるため。 [ruby-core:45541] [Bug #6567]

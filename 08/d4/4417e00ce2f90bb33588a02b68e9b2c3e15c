@@ -1,0 +1,2 @@
+$LOAD_PATH に taint された文字列がある時のテストの重複した assertion を削除して
+います。

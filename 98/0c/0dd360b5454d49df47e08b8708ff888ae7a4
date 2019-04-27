@@ -1,0 +1,5 @@
+標準添付ライブラリ matrix に Matrix#combine と Matrix.combine メソッドを追加し
+ています。同じ shape の Matrix 2つの各要素についてブロックに渡して、その評価結
+果を要素として持つ Matrix を返す、汎用の element-wise の map 処理をするメソッド
+みたいです。combine っていう名称はちょっと confusing な気がしますね(Enumerable#
+combination があるので)。

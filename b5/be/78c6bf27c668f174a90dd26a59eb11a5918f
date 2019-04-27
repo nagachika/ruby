@@ -1,0 +1,3 @@
+RB_TYPE_P() のかわりに RB_INTEGER_TYPE_P() や RB_FLOAT_TYPE_P() を呼ぶようにし
+たり FIX2LONG() == 0 のかわりに FIXNUM_ZERO_P() を呼ぶようにするリファクタリン
+グ。

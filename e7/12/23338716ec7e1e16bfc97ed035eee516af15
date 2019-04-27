@@ -1,0 +1,2 @@
+tool/generic_erb.rb と tool/ifchange で出力の色付けを tput の出力が空の時には抑
+制するようにしています。

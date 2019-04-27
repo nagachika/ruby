@@ -1,0 +1,5 @@
+r51092 の rubygems 更新の修正。 test/rubygems/
+test_gem_resolver_git_specification.rb に require 'rubygems/installer' を追加し
+ています。 Gem::TestCase#teardown で $LOADED_FEATURES を元に戻すという後始末を
+しているので、必要なものは明示的に先に require しておかないと繰り返し require
+で読み込まれてしまって定数の再定義が発生してしまっていたそうです。

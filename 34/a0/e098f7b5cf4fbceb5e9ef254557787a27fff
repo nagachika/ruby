@@ -1,0 +1,3 @@
+標準添付ライブラリ net/ftp の Net::FTP#putline でコマンドを送信する時に途中に改
+行コード(CR, LF)が含まれていたら別のコマンド行になってしまうので ArgumentError
+を返すようにしています。 [ruby-core:76274] [Bug #12556]

@@ -1,0 +1,4 @@
+r63362 のリベンジ? ISEQ_ORIGINAL_ISEQ_ALLOC() でメモリ確保のために
+rb_str_tmp_new() を使ってたのを ruby_xmalloc2() に変更して構造体メンバー
+original_iseq を VALUE でなく VALUE* 型でポインタとして直接バッファを持つように
+しています。

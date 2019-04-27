@@ -1,0 +1,4 @@
+OpenSSL::Digest() というクラス名と同名のメソッドを追加して、名前で
+OpenSSL::Digest::XXX の子クラスを返すようにしています。 const_get しているだけ
+ですが OpenSSL::Digest("SHA1").new のように書けるようになりました。
+[ruby-core:46908] [Feature #6819]

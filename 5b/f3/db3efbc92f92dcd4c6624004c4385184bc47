@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb の show コマンドで表示するメッセージを組み立てるため
+の StringIO に UTF-8 の Encoding を設定しておくようにしています。メッセージ内容
+によっては Encoding 変換のエラーが起きてたみたいです。

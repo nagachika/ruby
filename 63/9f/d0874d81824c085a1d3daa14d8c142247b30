@@ -1,0 +1,3 @@
+vm_method.c の method_definition_addref_complement() で METHOD_DEBUG マクロが真
+値の時に出力されるデバッグメッセージの参照しているカウンタが間違っていたのを修
+正しています。

@@ -1,0 +1,2 @@
+sprintf.c の rdoc コメントの typo を修正しています。 https://github.com/ruby/
+ruby/pull/357

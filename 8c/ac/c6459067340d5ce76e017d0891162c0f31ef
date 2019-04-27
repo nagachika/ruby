@@ -1,0 +1,2 @@
+vm_backtrace.c の rb_backtrace_print_as_bugreport() で未初期化のローカル変数の
+初期化を追加しています。

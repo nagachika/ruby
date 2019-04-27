@@ -1,0 +1,2 @@
+r38464 と同様 rb_suppress_tracing() でも vm->trace_running をカウンタとして使う
+ように変更しています。

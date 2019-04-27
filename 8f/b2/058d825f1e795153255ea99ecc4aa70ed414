@@ -1,0 +1,7 @@
+WEBrick の修正です。Authorization リクエストの algorithm の値の大文字小文字を無
+視するようにしています。これまでも :OperaHack というオプションで(おそらく名前通
+り Opera の挙動のために)無視するようにしていたの常に有効にしています。 Android
+のブラウザも小文字を渡すようです。 [ruby-dev:43965] [Feature #4936]
+またコミットログによると RFC2616 で Literal texts は case-insensitive に定義さ
+れていて、RFC2617 のサンプル実装も大文字小文字を無視しているので常に無視してよ
+いようです。

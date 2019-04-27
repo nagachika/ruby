@@ -1,0 +1,2 @@
+r35352 の DLL のロード時の ordinary entry のスキップのテストを追加しています。
+[ruby-core:44381] [ruby-core:44371] [Bug #6303]

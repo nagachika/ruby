@@ -1,0 +1,4 @@
+parse.y の正規表現のコンパイルに失敗した時に、rb_thread_t::errinfo がセットされ
+ていたらそこの例外メッセージに追加していたのを、常に parser_compile_error() を
+呼び出して struct parser_params::error_buffer に Syntax Error のメッセージを追
+記するようにしています。

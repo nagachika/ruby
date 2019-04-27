@@ -1,0 +1,3 @@
+r32432 で FreeBSD では Fiber のスタック用 mmap に MAP_STACK を渡さないようにす
+る理由をコメントで追記しています。 FreeBSD では MAP_STACK を指定する時には第1引
+数の addr に NULL 以外の値を指定しないといけないそうです。

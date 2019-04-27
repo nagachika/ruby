@@ -1,0 +1,3 @@
+FileUtils.touch(:nocreate => true, :verbose => true) で実行した時に表示されるメ
+ッセージに空白が足りなくて詰まっているのを修正しています。 [ruby-dev:43401]
+[Bug #4575]

@@ -1,0 +1,1 @@
+vm_xcalloc() を新設して ruby_calloc が calloc を利用するようにしています。

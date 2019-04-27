@@ -1,0 +1,1 @@
+rb_fork_ruby() をさらに rb_fork_internal() を直接呼ぶようにしています。

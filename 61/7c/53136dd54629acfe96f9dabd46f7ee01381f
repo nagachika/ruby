@@ -1,0 +1,2 @@
+r60286 の続き。 parse.y の new_op_assign_gen() の ripper 版の定義で column 引数
+が不要なので削っています。なるほどここで差が出るから分離したんですね。

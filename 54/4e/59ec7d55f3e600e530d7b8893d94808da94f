@@ -1,0 +1,3 @@
+test/ruby/test_integer.rb で to_int や coerce を実装して整数として振る舞うよう
+にしたオブジェクトの挙動についてのテストで MimicInteger, CoercionToInt というク
+ラスを定義して共通化するリファクタリング。

@@ -1,0 +1,11 @@
+TracePoint のイベントに RUBY_INTERNAL_EVENT_NEWOBJ, RUBY_INTERNAL_EVENT_FREE,
+RUBY_INTERNAL_EVENT_GC_START などのオブジェクトの確保/解放/GC開始時に対応するイ
+ベントを追加しています。また RUBY_EVENT_SWITCH を RUBY_INTERNAL_EVENT_SWITCH と
+改名して、RUBY_INTERNAL_EVENT_XXX という名称のイベントは Ruby インタプリタの内
+部的な動作に関するイベントとするように命名規則をつけたみたいです。
+この内部的イベントでは ruby のメソッド呼び出しなどの機能は使えないそうなので、
+ここで r40940 で導入した rb_postponed_job_register() を使うことを想定していたよ
+うです。 TracePoint のイベントだったかー。
+このしくみを使って拡張ライブラリからフックを挿入してオブジェクトの確保時の情報
+などを付加することができるということみたいです。 [ruby-core:53478] [Feature #
+8107]

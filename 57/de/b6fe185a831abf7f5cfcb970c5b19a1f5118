@@ -1,0 +1,3 @@
+parse.y の ripper 向けのマクロ new_op_assign() や new_const_op_assign()、関数
+new_ary_op_assign() と new_attr_op_assign() を削除して直接 DSL で ripper 向けの
+処理を書くようにしています。

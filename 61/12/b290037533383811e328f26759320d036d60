@@ -1,0 +1,3 @@
+r54917 の続き。 bmcall() で args は argc/argv を元に作られた配列なのでそもそも
+分岐なども不要ということでいきなり rb_method_call_with_block() を呼ぶだけのただ
+の wrapper 関数にしています。

@@ -1,0 +1,4 @@
+r51800 で bundled gem としてパッケージに含まれることになった did_you_mean.gem
+ですが require しないと読み込まれなかったので、gem_prelude.rb で起動時に
+require "did_you_mean" して自動的に読み込まれるようにしています。またこの起動時
+の自動ロードを抑制する --disable-did_you_mean オプションも追加されています。

@@ -1,0 +1,2 @@
+doc/maintainers.rdoc に記載されている lib/webrick.rb のメンテナの情報を削除して
+_unmaintained_ にしています。

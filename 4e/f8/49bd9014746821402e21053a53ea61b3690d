@@ -1,0 +1,2 @@
+Windows 環境で UNC ファイルパスの require のテストで Errno::EPERM が発生しても
+無視するようにしています。

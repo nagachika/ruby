@@ -1,0 +1,1 @@
+test/ruby/test_m17n.rb で定義している assert_warning を削除しています。

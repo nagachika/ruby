@@ -1,0 +1,3 @@
+doc/syntax/literals.rdoc にハッシュのキーの記法で "key-symbol": value のような
+クオート付き記法について追記しています。そういえばこの仕様結局このままでしたね(
+文字列ではなくて Symbol がキーになる)。

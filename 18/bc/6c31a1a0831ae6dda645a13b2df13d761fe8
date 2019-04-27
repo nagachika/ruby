@@ -1,0 +1,4 @@
+sigaltstack() でシグナルハンドラ専用のスタックを設定できる場合に Thread の生成
+時に確保してしまって、rb_register_sigaltstack() では sigaltstack() での登録だけ
+するようにしています。また GC が走っても安全なので xmalloc/xfree での確保/解放
+を使うようにしています。 [ruby-core:38572] [ruby-core:38594]

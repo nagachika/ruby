@@ -1,0 +1,2 @@
+NEWS ファイルに r57382 で SipHashの実装を SipHash24 から SipHash13 に変更した旨
+を追記しています。

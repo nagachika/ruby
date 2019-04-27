@@ -1,0 +1,7 @@
+array.c の rb_ary_product() で一時バッファのために rb_strtmp_new() を利用する
+tmpbuf() と tmpbuf_discard() というマクロを独自に定義して利用していましたが、
+ALLOCV_N() を利用するように書き直しています。r61827 のメモリアライメントをある
+型にそろえるようにするというのはここで struct RString::ptr が型は char * だけど
+異なる型の配列として利用するようにしていたので、そこを正しく指定できるようにす
+るためだったみたいです(結局 struct RString::ptr についてはあきらめらめましたが)
+。

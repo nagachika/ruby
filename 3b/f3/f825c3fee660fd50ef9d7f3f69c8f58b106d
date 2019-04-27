@@ -1,0 +1,3 @@
+構造体 struct ivar_update のメンバ名を extended -> iv_extended に改名しています
+。 Solaris で /usr/include/floatingpoint.h で定義されている型名と衝突しているた
+め警告が出ていたそうです。 [ruby-dev:49448] [Bug #11853]

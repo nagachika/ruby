@@ -1,0 +1,4 @@
+拡張ライブラリ psych で String オブジェクトのインスタンス変数にその String オブ
+ジェクト自身を参照するようにタグをつけた YAML をロードできるように修正していま
+す。 YAML でこんなことまでできるんですね。 https://github.com/tenderlove/psych/
+issues/135

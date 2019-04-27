@@ -1,0 +1,3 @@
+Fiber というか Continuation の構造体の rb_context_t の thread_ptr は
+rb_execution_context_t に移動しています。あれ、thread への逆参照はまだ持ってな
+かったのか。

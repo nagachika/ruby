@@ -1,0 +1,5 @@
+Queue でシグナルで spurious wakeup (起床すべきイベントは起きてないのだけど
+sleep 状態から抜けること。適切にチェックして再度 sleep すべき)した時にうまく動
+作しなくなっていたので、r57478 で切り出した
+rb_thread_sleep_deadly_allow_spurious_wakeup() を呼ぶように修正しています。
+[ruby-core:75636] [Bug #12405]

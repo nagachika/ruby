@@ -1,0 +1,3 @@
+test-all 用のユーティリティで子プロセスを生成する assert_separately で、子プロ
+セスの終了ステータスが SIGILL, SIGABRT, SIGBUS, SIGSEGV などで終了していたらエ
+ラーにするようにチェックを追加しています。

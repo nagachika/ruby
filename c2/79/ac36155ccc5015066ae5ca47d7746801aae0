@@ -1,0 +1,4 @@
+iseq_compile_each0() で flip flop 演算子のコンパイル時に
+compile_branch_condition() を呼んでいたのを compile_flip_flop() を呼ぶように書
+きかえています。そうすると compile_branch_condition() の中での NODE_FLIP2/
+NODE_FLIP3 の分岐は不要になるのかなぁ。

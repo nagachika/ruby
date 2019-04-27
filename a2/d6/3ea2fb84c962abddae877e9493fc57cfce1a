@@ -1,0 +1,3 @@
+Kernel#fork 時に子プロセスで Queue, SizedQueue, ConditionVariable などの Thread
+の協調用のオブジェクトを初期化して子プロセスにおいていなくなった Thread の参照
+が残ってしまわないようにしています。 [ruby-core:86316] [Bug #14634]

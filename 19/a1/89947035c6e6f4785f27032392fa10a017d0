@@ -1,0 +1,2 @@
+benchmark/driver.rb で実行する ruby のバージョンを取得するために -v オプション
+を使ってたのを --version を使うように変更しています。

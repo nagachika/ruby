@@ -1,0 +1,2 @@
+node_name.inc を生成するための tool/node_name.rb で deprecated になった
+flip-flop が利用されていたので使わないように書き直しています。

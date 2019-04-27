@@ -1,0 +1,6 @@
+拡張ライブラリ socket の rsoc_socket で SOCK_CLOEXEC という定数が定義されていた
+ら socket(2) の type 引数にセットして呼ぶことで close-on-exec フラグがセットさ
+れた状態で生成されるようにしています。これも Linux 2.6.27 から利用可能になった
+とのことで errno=EINVAL でエラーになったらあきらめるようにしています。
+rb_fd_fix_cloexec() を rb_update_max_fd() におきかえているため、SOCK_CLOEXEC が
+未定義の場合に close-on-exec フラグが付加されなくなっているような気がします。

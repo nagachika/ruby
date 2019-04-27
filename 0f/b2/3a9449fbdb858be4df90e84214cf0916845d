@@ -1,0 +1,2 @@
+OpenSSL::PKCS12 のテスト test/openssl/test_pkcs12.rb でインスタンス変数名の
+typo を修正。

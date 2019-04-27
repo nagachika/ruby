@@ -1,0 +1,3 @@
+r55617 の ChangeLog から tool/mkconfig.rb の変更を削っています。 r55615 で先に
+やられてたのでコミット前の更新(git svn rebase)で差分が消えてしまったんでしょう
+ね。

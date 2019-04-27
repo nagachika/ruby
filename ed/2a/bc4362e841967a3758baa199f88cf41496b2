@@ -1,0 +1,6 @@
+拡張ライブラリ objspace の全オブジェクトの情報を JSON でダンプする
+ObjectSpace.dump_all のオプションに :full を追加して、ここに真値が渡されたら
+T_NONE の slot もダンプする(つまり確保されている object space の heap の free
+なものも含めて全 slot についてダンプする機能を追加しています。どうやら heap の
+fragmentation について調査していてそのために追加した機能みたいですね。
+[ruby-core:78468] [Feature #13001]

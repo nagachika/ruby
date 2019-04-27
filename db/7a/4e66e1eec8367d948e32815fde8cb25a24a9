@@ -1,0 +1,4 @@
+拡張ライブラリ socket の socket(2) や connect(2) listen(2) などのシステムコール
+のエラー時に errno を退避せずに close(2) を呼んでいたため errno が上書きされて
+、errno が 0 の状態で SystemCallError を発生させようとして rb_bug() で異常終了
+することがあった不具合を修正しています。 [ruby-core:68531] [Bug #10975]

@@ -1,0 +1,2 @@
+RHASH(hash)->iter_lev と struct RHash の iter_lev メンバにアクセスしているとこ
+ろを RHASH_ITER_LEV() マクロを利用するように書き換えています。

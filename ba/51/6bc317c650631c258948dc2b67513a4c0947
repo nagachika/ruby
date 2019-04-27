@@ -1,0 +1,2 @@
+rubygems の Gem::Installer の rdoc 用コメント(?) の typo 修正。 https://
+github.com/ruby/ruby/pull/1108

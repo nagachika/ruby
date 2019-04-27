@@ -1,0 +1,2 @@
+ext/io/console/console.c にて TIOCSWINSZ が定義されている時しか利用されない変数
+の宣言を #if defined TIOCSWINSZ でくくっています。

@@ -1,0 +1,3 @@
+defineclass 命令で class/module 文で指定された定数が既に Class/Module 以外で初
+期化されてた時の例外メッセージに定数名を PRIsVALUE で埋め込むようにしてエンコー
+ディングを保持するようにしています。

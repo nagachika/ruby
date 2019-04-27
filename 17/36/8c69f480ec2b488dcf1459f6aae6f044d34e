@@ -1,0 +1,2 @@
+拡張ライブラリ rbconfig/sizeof の extconf.rb でも自動生成されるソースファイル
+sizes.c を make distclean で削除されるように $distcleanfiles に追加しています。

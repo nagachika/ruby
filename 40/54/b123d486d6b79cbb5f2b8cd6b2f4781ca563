@@ -1,0 +1,4 @@
+make test-bundler-prepare というターゲットで GEM_HOME や GEM_PATH の環境変数指
+定するかわりに ruby の -C オプションで srcdir に移動してから --install-dir オプ
+ションでインストール先を指定して rspec を gem install させるようにしています。
+たぶん bundler 経由すると GEM_HOME などが効かなくなるのに対策しているのかなぁ。

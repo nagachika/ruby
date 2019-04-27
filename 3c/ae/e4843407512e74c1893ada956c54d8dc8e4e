@@ -1,0 +1,3 @@
+拡張ライブラリ dbm の関数マクロ GetDBM2() の2つめの引数を改名しています。多分抽
+出してきた時に変数名の置換が不完全で data と dbmp が両方使われていたので dbmp
+に揃えているようです。 https://github.com/ruby/ruby/pull/655

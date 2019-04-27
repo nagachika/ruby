@@ -1,0 +1,3 @@
+test/ruby/test_autoload.rb の test_threaded_accessing_inner_constant というテス
+トメソッドで循環した require の警告を除去するため一時的に $VERBOSE を false に
+して実行するようにしています。

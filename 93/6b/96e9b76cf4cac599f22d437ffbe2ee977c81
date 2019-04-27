@@ -1,0 +1,4 @@
+WeakMap の inspect メソッドを定義して、登録されているキーと値のオブジェクトを表
+示するようにしています。また WeakMap#each, each_pair, each_key, each_value,
+keys, values など Hash っぽいメソッドを追加しています。 WeakMap のデバッグ用と
+のこと。

@@ -1,0 +1,2 @@
+MJIT の実行時コンパイル用の -nodefaultlibs -nostdlib フラグをつける時には
+-nostartfiles もつけるようにしています。

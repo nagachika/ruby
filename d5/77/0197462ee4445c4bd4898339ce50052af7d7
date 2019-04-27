@@ -1,0 +1,4 @@
+gc.c の gc_mark_children() でオブジェクトの型が T_FLOAT、T_BIGNUM、T_SYMBOL だ
+ったらなにもしないので、switch 文の先頭のほうに移動してすぐ return するようにし
+ています。処理としては変わりはないですがこうすると最適化されるってことかな。
+https://github.com/ruby/ruby/pull/2091

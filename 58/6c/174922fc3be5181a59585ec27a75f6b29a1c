@@ -1,0 +1,4 @@
+r52821 で追加した missing/explicit_bzero.c で gcc 向けに #pragma で最適化オプシ
+ョンを O0 に指定して最適化避けをするようにしています。また memset_s(3) の動機に
+ついてコメントに参照URLを追記しています。 http://www.open-std.org/jtc1/sc22/
+wg14/www/docs/n1381.pdf

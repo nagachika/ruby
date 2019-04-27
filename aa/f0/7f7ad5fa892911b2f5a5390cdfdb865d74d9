@@ -1,0 +1,2 @@
+r59979 の spec/rubyspec -> spec/ruby の改名に .travis.yml や common.mk などのビ
+ルドツールやドキュメントも追随させています。 [ruby-core:82287] [Misc #13792]

@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で時刻を表す数値を time_t 型に変換する時に NUM2LONG() で
+はなく NUM2TIMET() を利用するように修正しています。 [ruby-core:45552] [Bug #
+6571]

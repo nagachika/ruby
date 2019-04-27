@@ -1,0 +1,4 @@
+doc/syntax/calling_methods.rdoc のキーワード引数を受け取るメソッドに文字列をキ
+ーとする Hash を渡した時のサンプルの表示が間違っていた(古い挙動だった?)のを修正
+しています。なんかこういうの修正してたような気がしますね。 https://github.com/
+ruby/ruby/pull/830

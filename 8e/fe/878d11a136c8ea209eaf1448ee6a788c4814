@@ -1,0 +1,4 @@
+r48748 の Struct の高速化で rb_method_for_self_aref() と
+rb_method_for_self_aset() で rb_iseq_t で構築した ISeq を返していたのを VALUE
+型で返すようにして GC から保護するようにしています。 RB_GC_GURAD() はローカル変
+数にしか意味がないとのこと。そうだったのか…。 [Feature #10575]

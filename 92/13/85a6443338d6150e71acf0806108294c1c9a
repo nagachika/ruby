@@ -1,0 +1,38 @@
+TracePoint#inspect の定義を追加してデフォルトの表現ではなくいい感じに文字列化さ
+れるようにしています。
+いい感じにというのは通常時は enable, disable の状態が表示されるだけですが、イベ
+ントが発火してフックが呼ばれた時にはそのイベントの種類に応じた情報とファイル名
+、行番号が表示されるようになっていて、試しに使ってみると以下のようになりました
+。
+tp = TracePoint.new{|tp| p [tp.event, tp] }
+tp.enable do
+  def m
+    yield
+  end
+  m { print "Hello World!\n" }
+  GC.start
+end
+*1
+これを実行すると以下のようになります。
+    [:b_call, #<TracePoint:b_call@foo.rb:3>]
+    [:line, #<TracePoint:line@foo.rb:4>]
+    [:c_call, #<TracePoint:c_call `method_added'@foo.rb:4>]
+    [:c_return, #<TracePoint:c_return `method_added'@foo.rb:4>]
+    [:line, #<TracePoint:line@foo.rb:7>]
+    [:call, #<TracePoint:call `m'@foo.rb:4>]
+    [:line, #<TracePoint:line@foo.rb:5 in `m'>]
+    [:b_call, #<TracePoint:b_call@foo.rb:7>]
+    [:line, #<TracePoint:line@foo.rb:7>]
+    [:c_call, #<TracePoint:c_call `print'@foo.rb:7>]
+    [:c_call, #<TracePoint:c_call `write'@foo.rb:7>]
+    Hello World!
+    [:c_return, #<TracePoint:c_return `write'@foo.rb:7>]
+    [:c_return, #<TracePoint:c_return `print'@foo.rb:7>]
+    [:b_return, #<TracePoint:b_return@foo.rb:7>]
+    [:return, #<TracePoint:return `m'@foo.rb:6>]
+    [:line, #<TracePoint:line@foo.rb:8>]
+    [:c_call, #<TracePoint:c_call `start'@foo.rb:8>]
+    [:c_return, #<TracePoint:c_return `start'@foo.rb:8>]
+    [:b_return, #<TracePoint:b_return@foo.rb:9>]
+こうしてトレースを表示するだけで夢が膨らみますね。 TracePoint もすばらしい新機
+能です。

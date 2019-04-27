@@ -1,0 +1,3 @@
+.document に win32 を追加し、win32/.document ファイルも追加しています。
+.document ってネストした位置のファイルを直接は指定できないのかな。 https://
+github.com/ruby/docs.ruby-lang.org/issues/56

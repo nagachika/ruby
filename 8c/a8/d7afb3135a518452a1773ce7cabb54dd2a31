@@ -1,0 +1,7 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations_start のコール
+バックに渡す class_path に対象の Class が freeze されていたら渡さないようにして
+います。rb_class_path() の結果を渡しているのですが、この関数は結果を cache する
+ためにインスタンス変数に結果を格納するために freeze しているかのチェックがあり
+、freeze されている Class に対して呼ぶと例外が発生してしまうため。これは当座の
+対応でこの目的のための class path を取得する関数を実装して対応する予定とのこと
+。

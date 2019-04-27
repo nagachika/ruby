@@ -1,0 +1,2 @@
+io.c の set_binary_mode_with_seek_cur() の宣言の体裁と、inline static -> static
+inline と順番の入れ替えしています。

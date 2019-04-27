@@ -1,0 +1,3 @@
+String#casecmp や String#casecmp? で文字列に変換できない引数が渡された時に例外
+を発生させずに nil を返すように変更しています。これは仕様変更なのかな?
+[ruby-core:80145] [Bug #13312]

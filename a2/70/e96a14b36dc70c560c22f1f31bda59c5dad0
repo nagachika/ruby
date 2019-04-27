@@ -1,0 +1,4 @@
+tool/downloader.rb で config.guess と config.status は git.savannah.gnu.org か
+らダウンロードしていたのを gcc.gnu.org/git の GCC のリポジトリからダウンロード
+するようにしています。なんでも GCC のリポジトリにあるもののほうが新しかったとの
+ことでした。

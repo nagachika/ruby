@@ -1,0 +1,5 @@
+r35662 で NativeClient 対応のために ext/extmk.rb に --with-static-linked-ext オ
+プションの挙動を有効にするために加えられた変更で Makefile に DUMMY_SIGNATURE と
+いうのを埋め込んでいたら再作成しないようにする処理で、空の Makefile が存在して
+いた時には gets が nil を返すためエラーになってしまうので無視するように修正して
+います。

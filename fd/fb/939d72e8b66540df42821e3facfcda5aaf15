@@ -1,0 +1,4 @@
+transcode.c の econv_opts() で ArgumentError のメッセージを作成するために
+Symbol を文字列化するのに rb_id2name(SYM2ID(v)) を使っていたのを rb_sym2str()
+を使うことで pindown を避けると同時にエンコーディングも保持したままメッセージに
+埋め込むようにしています。

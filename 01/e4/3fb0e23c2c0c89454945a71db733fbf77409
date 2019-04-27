@@ -1,0 +1,4 @@
+Module#prepend を呼ばれたクラスで remove_method で上書きされたメソッドを削除し
+ようとすると、挿入された IClass に対して method_removed フックを呼ぼうとして
+NoMethodError が発生していたのでオリジナルのクラスのメソッドを呼ぶようにしてい
+ます。なるほどこれは明白にバグですね。 [ruby-core:52207] [Bug #7843]

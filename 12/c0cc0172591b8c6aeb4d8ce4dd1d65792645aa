@@ -1,0 +1,3 @@
+r61940 の再修正。 KW_SPECIFIED_BITS_MAX を 32 と定義していましたが VALUE が
+32bit の環境では Fixnum は 31bit までしか表現できないので -1 しています。
+[ruby-core:84921] [Bug #14373]

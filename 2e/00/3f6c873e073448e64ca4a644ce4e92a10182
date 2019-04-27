@@ -1,0 +1,6 @@
+mjit_pause() を RubyVM::MJIT.pause のメソッド実装の関数としていましたが、
+rb_f_exec() からも直接関数を呼んでいて、:wait オプションを省略しているので
+worker thread の停止を待つようになっていましたが、この時は待たせたくなかったの
+でメソッド実装の関数は mjit_pause_m() という wrapper 関数を導入して mjit_pause
+() は int 型でフラグを受け取るインタフェースにするリファクタリングをしています
+。

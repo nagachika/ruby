@@ -1,0 +1,4 @@
+RubyGems の Gem::Command::ContentsCommand#files_in_default_gem で spec.files を
+sort していたのをやめています。 show_files メソッドで表示する時にもソートされて
+いるし、ここではソートされていないブランチもあるので互換性のため合わせるとのこ
+と。

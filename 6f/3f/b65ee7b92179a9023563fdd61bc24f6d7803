@@ -1,0 +1,2 @@
+gems/bundled_gems に記述されている同梱する gem パッケージのバージョンを
+test-unit (3.0.0 → 3.0.1) と minitest (5.4.0 → 5.4.1) で更新しています。

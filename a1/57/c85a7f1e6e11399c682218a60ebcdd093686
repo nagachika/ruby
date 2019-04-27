@@ -1,0 +1,5 @@
+ruby_init_ext() で require のロック(複数の Thread から同じファイルを require さ
+れた時に排他するためのしくみ)に load_lock/load_unlock を呼んでいるのですが、
+load_lock() は渡された文字列を中で複製して返すことがあるので、load_unlock() に
+は load_lock() に渡した文字列(char *)ではなくて load_lock() が返してきた文字列
+を渡さないといけないのに、オリジナルの方を渡していたのを修正しています。

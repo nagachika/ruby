@@ -1,0 +1,2 @@
+thread_pthread.c で USE_MONOTONIC_COND が有効な時だけ利用されるラベルを #if ..
+#end で括ったり、未使用の変数の削除などの小さな変更です。

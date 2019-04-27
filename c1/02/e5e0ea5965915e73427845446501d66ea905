@@ -1,0 +1,3 @@
+昨日 .travis.yml に追加した pedantic なコンパイラのチェックのビルドで
+addr2line.c は大量に検出されるみたいなので #pragma を使って -Wpedantic オプショ
+ンを局所的に無効化させています。

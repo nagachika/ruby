@@ -1,0 +1,4 @@
+configure に --{enable,disable}-install-static-library というオプションを追加し
+て、 --enable-shared の時(たいていそうだと思います)のデフォルトを no にすること
+で、libruby.a をインストールしないようにしています。 [ruby-core:77643] [Feature
+#12845]

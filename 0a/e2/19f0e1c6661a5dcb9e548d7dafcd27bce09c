@@ -1,0 +1,2 @@
+ext/.document から ripper/ripper.c を削除して、かわりに .document に *.y を追加
+して parse.y からドキュメントを生成するようにしています。

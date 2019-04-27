@@ -1,0 +1,2 @@
+AIX の poll(2) での struct pollfd のメンバの際を吸収するための構造体メンバを
+poll.h を #include した後で #undef しています。[ruby-core:53815] [Bug #8174]

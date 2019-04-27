@@ -1,0 +1,4 @@
+標準添付ライブラリ rdoc の RDoc::Markup::ToHtml#parsable? で Kernel#eval を使っ
+て渡された文字列が ruby として正しい文法か調べているところで $VERBOSE を一時的
+に nil にして余計な警告が出ないようにしています。 https://github.com/rdoc/rdoc/
+pull/440

@@ -1,0 +1,2 @@
+なんと TOP LEVEL の return で ensure 節が実行されないという不具合があったのを修
+正しています。まじか。 [ruby-core:82492] [Bug #13844]

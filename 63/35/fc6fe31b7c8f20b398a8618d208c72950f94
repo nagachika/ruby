@@ -1,0 +1,1 @@
+bignum.c で DBL_BIGDIG という定数をマクロで定義していたのを enum 化しています。

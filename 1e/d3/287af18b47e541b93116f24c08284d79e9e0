@@ -1,0 +1,2 @@
+r52509 で追加された失敗するテストを "expected to fail" として当面 skip するよう
+にしています。 [ruby-core:71423] [Bug #11672]

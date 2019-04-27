@@ -1,0 +1,4 @@
+rb_execution_context_mark() で ep の VM_ENV_FLAG_ESCAPED フラグチェックを #if
+VM_CHECK_MODE > 0 の時だけ VM_ASSERT() でチェックするようにしていましたが、そも
+そも VM_ASSERT() 自体が #if VM_CHECK_MODE > 0 の時だけチェックするように定義さ
+れているので、不要な #if は削除しています。

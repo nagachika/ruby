@@ -1,0 +1,3 @@
+mkfifo(3) が利用可能な時に File.mkfifo が実装するための #if HAVE_MKFIFO の分岐
+を rdoc 用コメントの前から分岐して、File.mkfifo のドキュメントが生成されるよう
+にしています。

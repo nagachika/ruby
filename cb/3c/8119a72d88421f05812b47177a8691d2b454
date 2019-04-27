@@ -1,0 +1,2 @@
+これも r42822 の追加修正だろうと思いますが vm_state_version_t の型を uint64_t
+か unsigned LONG_LONG にするかはどっちか大きいほうを優先するようにしています。

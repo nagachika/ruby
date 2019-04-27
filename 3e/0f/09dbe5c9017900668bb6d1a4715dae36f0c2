@@ -1,0 +1,3 @@
+misc/ruby-additional.el の再修正。同じく ruby-encode-unicode で TAB などのコン
+トロール文字は "\t" の形式にエスケープするようにしているようです。ただし改行は
+そのまま。

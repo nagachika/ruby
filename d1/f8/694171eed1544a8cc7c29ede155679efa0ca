@@ -1,0 +1,3 @@
+regparse.c の node_extended_grapheme_cluster() で Grapheme_Cluster_Break=
+Control のノードから \r と \n を除外する範囲を追加するコードを消しています。既
+に除外されてるので不要とのこと。

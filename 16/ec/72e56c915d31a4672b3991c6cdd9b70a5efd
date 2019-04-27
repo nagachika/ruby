@@ -1,0 +1,3 @@
+rb_garbage_collect() が未使用になってたので削除しています。あーこれもう不要なの
+か。garbage_collect() の wrapper なのですが外部から呼べるようにしてるのかと思っ
+た。

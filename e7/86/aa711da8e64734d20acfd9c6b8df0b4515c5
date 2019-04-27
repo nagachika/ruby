@@ -1,0 +1,3 @@
+拡張ライブラリ io/wait に IO が書き込み可能になるまで待つ IO#wait_writable とい
+うメソッドを新設しています。 select(2) や poll(2) で待つのを簡単に書けるという
+感じです。 [ruby-core:36005] [Feature #4646]

@@ -1,0 +1,4 @@
+parse.y の Symbol リテラルに関する文法ルールを少し組みかえて symbol というノー
+ドに ssym と dsym というノードを一旦まとめるルールを追加するようにしています(そ
+れぞれ static symbol と dynamic symbol かな)。これまで symbol は ssym 相当のも
+のだけで、dsym はその上の fitem というノードで合流されてました。

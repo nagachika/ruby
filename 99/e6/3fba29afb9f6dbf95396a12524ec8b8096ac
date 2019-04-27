@@ -1,0 +1,3 @@
+vm_eval.c の ruby_eval_string_from_file_protect() で struct
+eval_string_from_file_arg という構造体の初期化子に変数(引数)を含んでいてコンパ
+イラによってはサポートされていないのでメンバ代入する記法に置き換えています。

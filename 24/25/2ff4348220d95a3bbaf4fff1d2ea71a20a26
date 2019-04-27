@@ -1,0 +1,5 @@
+拡張ライブラリ win32ole のいくつかの関数で引数の型を long から LONG に変更して
+コンパイラ警告を抑制しています。 LONG という型を宣言しているところがみあたらな
+かったので多分 Win32OLE での型でしょう。いくつか呼んでいる Windows 独自の関数を
+(SafeArrayPutElement とか SafeArrayGetDim)を調べてみたけどその型は long を使っ
+ていたので、多分実際には long と同じなのではないかと思います。

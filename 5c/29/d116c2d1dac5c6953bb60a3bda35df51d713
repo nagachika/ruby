@@ -1,0 +1,3 @@
+make test で Ctrl-C で SIGINT を送っても子プロセスだけが死んで make test 自体は
+終了しないのを親もすぐ停止するように、子が SIGINT で死んでいたら Interrupt を
+raise するようにしています。 [ruby-dev:44856] [Feature #5612]

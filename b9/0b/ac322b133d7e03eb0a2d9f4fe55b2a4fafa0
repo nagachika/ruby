@@ -1,0 +1,3 @@
+予約語 undef のテストで呼び出すメソッド名が間違ってて undef したんじゃない(親ク
+ラスで undef してた)メソッドを呼んでたのを修正しています。 https://github.com/
+ruby/ruby/pull/2015

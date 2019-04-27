@@ -1,0 +1,2 @@
+ext/syck/lib/syck/rubytypes.rb でも Object#to_yaml_properties を定義前に undef
+しています。

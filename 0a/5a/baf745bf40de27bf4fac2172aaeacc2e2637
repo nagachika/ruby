@@ -1,0 +1,2 @@
+拡張ライブラリ psych の gemspec ファイルで "psych/version.rb" を load するよう
+に書かれていたので require "psych" に置き換えています。

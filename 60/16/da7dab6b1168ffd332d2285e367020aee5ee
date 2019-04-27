@@ -1,0 +1,2 @@
+RSYMBOL()、SYMBOL_PINNED_P() など dynamic symbol についての操作のマクロ定義を
+internal.h から symbol.h に移動しています。

@@ -1,0 +1,2 @@
+.travis.yml の build matrix の ruby 2.3 で rubyspec を実行させるテストの名前を
+すこし変更。

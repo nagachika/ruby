@@ -1,0 +1,3 @@
+Array#dig, Hash#dig, Struct#dig の rdoc 用コメントを追記、修正しています。また
+Hash#dig のテストに任意のオブジェクトの dig メソッド定義時の挙動についてチェッ
+クを追加しています。 [ruby-core:71853] [Bug #11776]

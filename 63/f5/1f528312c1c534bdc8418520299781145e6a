@@ -1,0 +1,4 @@
+r64031 の変更で MJIT でコンパイルしないように除外したい関数名の
+vm_search_method_slowpath() が rb_vm_search_method_slowpath() に変更されてしま
+っていたので tool/transform_mjit_header.rb でそれに追随させています。なるほどー
+、こんなこともしているのか。

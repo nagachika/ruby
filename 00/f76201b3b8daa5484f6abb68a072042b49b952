@@ -1,0 +1,5 @@
+make test-all が prog に依存していたのを program に変更して showflags を省略す
+るようにしています。また make test-spec 時にも ruby に依存関係をつけるようにし
+ています。コミットログによると拡張ライブラリなしでテストするというような感じの
+ことが書いてますがそれは変数 TEST_DEPENDS に all,ext を追加する部分をコメントア
+ウトしているからでしょう。

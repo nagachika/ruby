@@ -1,0 +1,3 @@
+mjit.c に ruby_strdup() に置換される get_string() というマクロを定義して使って
+いましたがこれは削除して直接 ruby_strdup() を呼ぶようにしています。これは MJIT
+の worker ではなく mjit_init() からだけ呼ばれるから OK なのかな。

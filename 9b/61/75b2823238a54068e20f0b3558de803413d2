@@ -1,0 +1,2 @@
+Enumerator#count の実装で T_IMEMO の共用体 u3.cnt の型にあわせて整数の変換を
+INT2NUM() を LONG2NUM() に修正しています。 [ruby-core:87340] [Bug #14805]

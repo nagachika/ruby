@@ -1,0 +1,4 @@
+String#index や String#split で使われている rb_memsearch() という関数の、1バイ
+ト単位で文字を検索する処理を for ループを使って書いているところを memchr(3) に
+まかせるように書き換えています。 memchr(3) を使うほうが高速化されるそうです。
+[ruby-dev:45397] [Feature #6173]

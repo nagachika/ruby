@@ -1,0 +1,2 @@
+Integer#to_f で Integer を継承した T_FIXNUM や T_BIGNUM 以外のクラスが定義され
+た場合の例外を TypeError から NotImplementedError に変更しています。

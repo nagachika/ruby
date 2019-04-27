@@ -1,0 +1,4 @@
+rb_threadptr_root_fiber_setup() で rb_thread_t::root_fiber をセットしていたのを
+やめて、thread_free() から ec 部分の mark 処理は
+rb_threadptr_root_fiber_release() に切り出して、root_fiber が別にあるときはそち
+らにまかせてここでは解放しないようにしています。

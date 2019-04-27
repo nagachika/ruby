@@ -1,0 +1,2 @@
+win32/Makefile.sub に enc/jis/props.h のコピーを行うルールを追加しています。
+nmake 対応みたいです。

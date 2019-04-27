@@ -1,0 +1,5 @@
+r58412 で追加した --with-ext のオプションの新機能について NEWS ファイルに追記し
+ています。ちゃんと読めてなかったのですが、--with-ext=openssl のように書いたら
+openssl だけビルドするということで --with-ext=openssl,+ と書くと openssl は必須
+でほかはデフォルトの挙動という指定ができるんだそうです。 [ruby-core:80033]
+[Feature #13302]

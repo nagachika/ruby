@@ -1,0 +1,2 @@
+r30549 を revert してまた起動時に require "rubygems" するようにしています
+(--disable-gems が指定されなければ)。

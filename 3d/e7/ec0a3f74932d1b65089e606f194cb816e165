@@ -1,0 +1,2 @@
+r43330 で導入した ruby_xsizedfree() と ruby_xsizedrealloc() を array.c と
+string.c で利用するようにしています。

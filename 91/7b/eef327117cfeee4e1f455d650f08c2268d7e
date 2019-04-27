@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole で WIN32OLE.new にキーワード引数 license というのを追加
+して License チェック付きの COM (?)の対応を追加しています。そんなのがあるのかー
+。 [ruby-core:82422] [Feature #13828]

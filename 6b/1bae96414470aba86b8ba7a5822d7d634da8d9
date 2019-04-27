@@ -1,0 +1,5 @@
+rb_mutex_unlock_th() で Mutex を unlock してから rb_thread_t の keeping_mutexes
+のリストからその rb_mutex_t 構造体を抜き取る処理をシンプルにリファクタリングし
+ています。
+ここに rb_mutex_t *volatile* という型の宣言があってちょっとどういう意味かなと考
+えてしまいました。

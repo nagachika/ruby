@@ -1,0 +1,3 @@
+r64777 の Hash#merge!, Hash#update の rdoc 用コメントに引数が 0 個だった時の記
+述は削っています。あってもよさそうだけど。 https://github.com/ruby/ruby/pull/
+1951

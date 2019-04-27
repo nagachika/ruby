@@ -1,0 +1,2 @@
+Makefile.in にあった make update 時の make after-update の実施を common.mk に移
+動して Windows 版でも行われるようにしています。

@@ -1,0 +1,2 @@
+fstatfs(2) を呼び出す IO#statfs メソッドが追加され、結果の struct statfs をラッ
+プする File::Statfs というクラスも導入されています。

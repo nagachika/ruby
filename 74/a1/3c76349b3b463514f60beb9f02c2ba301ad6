@@ -1,0 +1,6 @@
+NUM2ULONG で Bignum や Fixnum を unsigned long に変換する API でアンダーフロー
+チェックのミスを修正。また C の API の修正なのでテスト用の拡張ライブラリを追加
+しています。
+check_uint() のほうの修正はいいとして rb_big2ulong() の修正が難しいですね。
+sizeof(VALUE) が sizeof(long) と違う(VALUE の方が大きい場合がある)から、という
+ことだと思います。

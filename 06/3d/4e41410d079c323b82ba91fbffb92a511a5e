@@ -1,0 +1,4 @@
+test/ruby/test_signal.rb の TestSignal#test_signal_process_group で
+Process.spawn の子プロセスのコマンド引数(ruby の -e オプションの引数)に余分なク
+オートがあったため、sleep 10 させるところが実際には String リテラルの評価だけに
+なっていたのを修正しています。

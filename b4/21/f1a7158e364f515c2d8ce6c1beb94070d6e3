@@ -1,0 +1,2 @@
+r62187 で Makefile.in と win32/Makefile.sub に rb_mjit_header.h の生成ルールを
+別々に入れていたのを common.mk に統合しています。

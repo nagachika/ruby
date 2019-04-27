@@ -1,0 +1,1 @@
+process.c の rb_fork_internal() で未初期化の変数の初期化を追加しています。

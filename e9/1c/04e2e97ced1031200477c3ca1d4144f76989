@@ -1,0 +1,3 @@
+r36872 で標準添付ライブラリ test-unit の gemspec ファイルが lib/ 以下にインスト
+ールされるようになってしまっていたので tool/rbinstall.rb に除外ファイルとして
+*.gemspec を追加しています。 [ruby-core:48966] [Bug #7289]

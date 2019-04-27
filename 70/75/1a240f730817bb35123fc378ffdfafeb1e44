@@ -1,0 +1,2 @@
+標準添付ライブラリ un.rb の httpd サブコマンドの時のオプションに ServerName と
+ServerSoftware を指定するものを増やしています。

@@ -1,0 +1,2 @@
+lib/rdoc/task.rb で定数 RDocTask の再定義の警告が出るのを防ぐため remove_const
+で消すようにしています。

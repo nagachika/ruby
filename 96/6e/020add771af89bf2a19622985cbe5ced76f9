@@ -1,0 +1,4 @@
+標準添付の irb で例外のバックトレースの表示する数を --back-trace-limit オプショ
+ンで制限した時に最後の改行がなくなってしまう不具合を修正しています。こんなオプ
+ションあったのか。 https://github.com/ruby/ruby/pull/1205 [ruby-core:72773]
+[Bug #11969]

@@ -1,0 +1,2 @@
+open などで external encoding と internal encoding が一致している時に警告メッセ
+ージが出力されるのをやめています。 [ruby-core:44455] [Bug #6324]

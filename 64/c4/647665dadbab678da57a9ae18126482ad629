@@ -1,0 +1,2 @@
+標準添付ライブラリ rexml の REXML::Document#write の rdoc のサンプルコードでの
+メソッド名の typo 修正。

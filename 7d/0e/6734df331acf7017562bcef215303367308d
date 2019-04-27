@@ -1,0 +1,2 @@
+vsnprintf.c で #if _WIN32 を #ifdef _WIN32 へ修正。コンパイラの警告除去だそうで
+す。

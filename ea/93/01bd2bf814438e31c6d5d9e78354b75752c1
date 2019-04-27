@@ -1,0 +1,3 @@
+configure で CROSS_COMPILING というマクロを定義するようにしています。また
+NativeClient 版で bootstraptest を実行するために $(CROSS_COMPILING) を利用して
+fake と $(RBCONFIG) への依存関係を追加しています。

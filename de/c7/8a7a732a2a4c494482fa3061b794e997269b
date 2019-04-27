@@ -1,0 +1,2 @@
+r52982 と同様に Dir.new の実装や io.c でも :encoding の ID を rb_intern() では
+なく rb_id_encoding() を使うようにしています。

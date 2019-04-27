@@ -1,0 +1,3 @@
+r66695 に続いて Kernel#Complex() の call-seq でキーワード引数 exception: のデフ
+ォルト値は true なので false から true に表記をかえています。あーなるほど、キー
+ワード引数についてはデフォルト値を書くから true なのか。

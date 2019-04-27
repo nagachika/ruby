@@ -1,0 +1,5 @@
+Minitest の 4.7.5 をマージしています。 MiniTest::Spec で @@describe_stack とい
+うクラス変数を利用していたところを Thread#[] による thread local storage (正確
+には Fiber local ですが)を利用するように変更しているだけみたいです。
+コミットログや ChangeLog には書かれていませんが、多分このチケットへの対応だと思
+われます。 [ruby-core:54997] [Bug #8408]

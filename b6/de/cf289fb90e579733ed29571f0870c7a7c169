@@ -1,0 +1,2 @@
+拡張ライブラリ socket の Socket::Ifaddr の rdoc コメントのサンプルのレシーバ名
+を修正しています。

@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle に .gemspec ファイルを追加しています。 fiddle を GitHub
+の ruby/fiddle に切り出して default gem 化するみたいです。 [ruby-core:80577]
+[Feature #13403]

@@ -1,0 +1,2 @@
+Date#strftime で "%v" 指示子の展開が間違っていたのを修正。 [ruby-core:36064]
+[Bug #4662]

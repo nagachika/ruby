@@ -1,0 +1,2 @@
+ここから怒涛の連続コミットで拡張ライブラリ openssl の RData から RTypedData へ
+のオブジェクト型変更があります。まず OpenSSL::Digest から。

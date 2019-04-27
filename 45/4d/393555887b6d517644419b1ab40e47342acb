@@ -1,0 +1,3 @@
+eval.c でメソッドを呼ぶための extend_object と extended というシンボルの ID を
+毎回 rb_intern() で取得していたのを CONST_ID() マクロを利用して初回だけ ID を求
+めてあとは使い回すようにしています。

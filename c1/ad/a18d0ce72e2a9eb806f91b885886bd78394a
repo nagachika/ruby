@@ -1,0 +1,2 @@
+test/rexml/test_notationdecl_parsetest.rb から shebang(ファイル先頭の #! から始
+まるスクリプトのパス指定)を削除しています。

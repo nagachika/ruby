@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の ossl_ssl_def_const() という関数マクロで定数を INT2NUM
+() で変換するようにしていたのを LONG2NUM() を使うように修正しています。対象の定
+数群が OpenSSL で long として宣言されていたそうです。 https://github.com/
+openssl/openssl/blob/34750dc25d74e3db4c1ba43cd219d3f4825e4c65/include/openssl/
+ssl.h#L391

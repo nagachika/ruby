@@ -1,0 +1,2 @@
+bignum.c で利用している ffs() という関数の定義のために #include <string.h> を追
+加しています。 [ruby-core:46534] [Bug #6748]

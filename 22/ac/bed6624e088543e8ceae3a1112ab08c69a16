@@ -1,0 +1,4 @@
+tool/vcs.rb の ChangeLog を生成するメソッドで git log のオプションに --no-notes
+を追加して git notes の注釈は表示しないようにしています。 git notes については
+昔記事を書いたなぁ。 http://d.hatena.ne.jp/nagachika/20111215/
+git_notes_bottomup

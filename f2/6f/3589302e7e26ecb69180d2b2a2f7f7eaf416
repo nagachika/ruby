@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext の #tmp_ecdh_callback= は
+deprecate にして、利用すると警告が出るようにしています。 OpenSSL の
+SSL_CTX_set_tmp_ecdh_callback() という関数自体が削除される予定なんだそうです。
+2.3 から入った機能だったので短い命だった。 ECDH では SSL_CTX_set_ecdh_auto() を
+使って自動的にサーバとクライアントで利用できる鍵の仕様を決定するようにしていま
+す。

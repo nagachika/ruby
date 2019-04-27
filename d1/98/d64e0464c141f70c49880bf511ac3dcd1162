@@ -1,0 +1,4 @@
+構造体 struct io_internal_writev_struct、struct io_advise_struct、struct
+waitpid_arg で構造体メンバの順番をアライメントを意識して調整することで構造体サ
+イズを小さくするようにしています。そろそろ利用頻度それほど高くない構造体にも手
+を出しはじめてる感じですね。

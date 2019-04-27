@@ -1,0 +1,3 @@
+拡張ライブラリ dl のテストでは当然 require "dl" しないといけないわけですが
+r37910 で deprecated の警告が出るようになったので $VEREBOSE = nil で警告を抑制
+して require するようにしています。

@@ -1,0 +1,2 @@
+test/ruby/test_module.rb に Module#prepend で継承関係に2回同じモジュールが現れ
+るようなケースのテストを追加しています。

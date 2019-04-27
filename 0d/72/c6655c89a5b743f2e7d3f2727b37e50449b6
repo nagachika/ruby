@@ -1,0 +1,2 @@
+irb の lib/irb/notifier.rb の定数参照の typo を修正しています。
+[ruby-dev:47820] [Bug #9165]

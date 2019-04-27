@@ -1,0 +1,3 @@
+StringIO#gets で2つ引数を渡す呼び出しかたで不正な引数を渡した時に SEGV する不具
+合を修正しています。 watson さんのツイートより。 https://twitter.com/watson1978
+/status/56225052152168449

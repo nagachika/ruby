@@ -1,0 +1,2 @@
+tool/sync_default_gems.rb の r59779 で追加した bundler 向けの追加部分のクオート
+閉じ漏れ修正。

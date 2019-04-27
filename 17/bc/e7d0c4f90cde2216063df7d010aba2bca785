@@ -1,0 +1,3 @@
+r40759 と同様に mv.c の vm_invoke_proc() と vm_exec() でも "clobbered by
+'setjmp' or 'vfork'" 警告の除去のために変数の宣言に volatile を追加しています。
+gcc 4.9.0 で警告が出るようになったそうです。

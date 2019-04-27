@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix に Matrix#hadamard_product という要素毎の乗算を行うメ
+ソッドを追加しています。ここで r60859 で追加した Matrix.combine を利用していま
+す。 https://github.com/ruby/ruby/pull/674

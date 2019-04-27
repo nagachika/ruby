@@ -1,0 +1,3 @@
+st.c に st_table のキーを Array に格納したものを返す st_keys() という API を追
+加して、Hash#keys の実装で利用するようにしています。これは st_table のキーの
+st_data_t が VALUE だという前提を置いていることになりますね。

@@ -1,0 +1,2 @@
+IO.select の rdoc 用コメントの文法などの修正。 https://github.com/ruby/ruby/
+pull/906

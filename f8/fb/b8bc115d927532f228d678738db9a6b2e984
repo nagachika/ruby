@@ -1,0 +1,2 @@
+spec/default.mspec でフラグから -I オプションの srcdir と srcdir/.ext/common を
+除外しています。

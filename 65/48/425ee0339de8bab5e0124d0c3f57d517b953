@@ -1,0 +1,6 @@
+test/ruby/test_dir_m17n.rb の Dir.glob のテストで default_encoding を UTF-8 に
+設定してテストするようにしています。また対象のディレクトリに File.chmod で読み
+込み権限を落としているのですが、File.readable? がちゃんと false になっている時
+だけテストするようにしています。これ権限の設定と readable? のチェックは同じじゃ
+ないかと思ったのですが、File.readable? は eaccess(2) でチェックしているので
+root ユーザでの実行か、あとは Windows 版での実行時の考慮でしょうか。

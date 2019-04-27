@@ -1,0 +1,4 @@
+.travis.yml で OS X 版で gdbm のために brew install gdbm を実行しておくようにし
+ています。また make test-all でオプションの指定に TESTS 変数ではなく TESTOPTS
+を使うようにしています。あれ、自分 make test-all TESTS="-j4" とか使ってるんです
+けど TESTOPTS のほうがいいんですかね。 TESTS でも効いてはいるみたいですが…。

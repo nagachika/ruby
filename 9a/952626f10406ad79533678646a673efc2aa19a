@@ -1,0 +1,5 @@
+process.c の get_clk_tck() という関数で sysconf(_SC_CLK_TCK) を利用する時に結果
+を double にキャストしていましたが、結果は long の変数に格納しているので不要な
+キャストを削除しています。そして rb_proc_times() で get_clk_tck() の戻り値を
+double の変数に格納する時には明示的にキャストするようにしています。後半の変更は
+いるのかな?

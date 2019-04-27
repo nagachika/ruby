@@ -1,0 +1,1 @@
+OpenSSL::SSL::SSLContext#set_params メソッドの rdoc を追記しています。

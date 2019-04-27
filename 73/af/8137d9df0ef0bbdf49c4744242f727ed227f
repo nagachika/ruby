@@ -1,0 +1,2 @@
+Psych::JSON::Stream と Psych::Visitors::JSONTree で重複していた部分を Psych::
+JSON::RubyEvents というモジュールに切り出すリファクタリングをしています。

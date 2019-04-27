@@ -1,0 +1,2 @@
+tool/generic_erb.rb で ERB.new の第3引数 trim_mode に "%-" を渡して、値を展開し
+た時に前後の空白を除去するようにしています。

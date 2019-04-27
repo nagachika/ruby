@@ -1,0 +1,3 @@
+ruby の -l オプションで標準入力から読む時に chop で改行を落とす挙動をしているの
+は chomp に変更しています。 "This is because -l is older than chomp." だそうで
+。 [ruby-core:78099] [Bug #12926]

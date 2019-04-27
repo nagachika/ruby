@@ -1,0 +1,7 @@
+vm_insnhelper.c の vm_call_super_method() で VC++ コンパイラの最適化で
+refinements のテストが失敗していたのを修正するため、 Windows 版では不要な
+volatile をつけた変数の宣言を追加しています。vm_call_general() と
+vm_call_super_method() がまったく内容が同じなのでまとめられてしまうのを防いでい
+るとのこと。これがまとめられると ci->call で関数ポインタで比較しているところが
+区別されなくなってしまうので誤動作するようです。 VC++ の最適化こわい。
+[ruby-core:50871] [Bug #7556]

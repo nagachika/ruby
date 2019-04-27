@@ -1,0 +1,2 @@
+doc/extension.rdoc と doc/extension.ja.rdoc の見出しのレベルの修正。
+[ruby-core:79590] [Bug #13229]

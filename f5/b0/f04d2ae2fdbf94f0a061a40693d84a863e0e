@@ -1,0 +1,2 @@
+bm_vm4_pile.rb と bm_vm4_thread_pass.rb が時間がかかりすぎるということで繰り返
+し回数を減らしています。

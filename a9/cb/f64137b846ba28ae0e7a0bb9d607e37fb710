@@ -1,0 +1,3 @@
+io.c の io_fillbuf() で rb_read_internal() がエラーを返した時にその file
+descriptor を例外メッセージに含めるようにしています。 CI でエラーになっているの
+をデバッグするためのようです。

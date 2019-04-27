@@ -1,0 +1,2 @@
+r32244 で native_stop_timer_thread() の引数を追加したのに windows 版の関数定義
+が追随していなかったのを修正しています。

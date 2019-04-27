@@ -1,0 +1,2 @@
+ext/dl/cptr.c の rb_dlptr_inspect() という関数内で未使用だった変数を削除してい
+ます。

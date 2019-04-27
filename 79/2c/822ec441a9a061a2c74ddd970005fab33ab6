@@ -1,0 +1,4 @@
+iseq_peephole_optimize() で if の直前に真になることが確実な値を push する命令が
+あったらただの jump 命令にする最適化で、putXXX + dup + if は putXXX + jump にす
+るようにするように dup 命令があったらもうひとつ命令を遡ってチェックするようにし
+ています。

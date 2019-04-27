@@ -1,0 +1,4 @@
+Windows 環境で UNC表記(//hostname/Program Files みたいなネットワーク上のファイ
+ルの指定する表記)で起動するテストで localhost をホスト名として利用しているとこ
+ろを 127.0.0.1 にしています。 XP 以前では localhost を NBT(NetBIOS TCP/IP か
+な?)のホスト名として名前解決できなかったとのこと。

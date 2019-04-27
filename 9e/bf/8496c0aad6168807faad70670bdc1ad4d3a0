@@ -1,0 +1,3 @@
+test/ruby/envutil.rb の assert_separately で子プロセスの状態を検査する FailDesc
+という Proc オブジェクトに渡す引数を間違えている箇所があったのを修正しています
+。

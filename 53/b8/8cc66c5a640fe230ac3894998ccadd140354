@@ -1,0 +1,2 @@
+test/net/http/test_http.rb で nil guard として if 分岐を使っていたところを &.
+演算子を利用するようにリファクタリングしています。

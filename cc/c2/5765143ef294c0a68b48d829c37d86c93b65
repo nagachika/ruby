@@ -1,0 +1,6 @@
+拡張ライブラリ pathname の Pathname#chop_basename, #prepend_prefix などのメソッ
+ドで正規表現でパスの match をする時に Regexp#=~ メソッドを使っていたのを 2.4 で
+追加した Regexp#match? メソッドを使うことで $& などの特殊変数へのセットを省略す
+ることで高速化しています。ふーんという感じですが効果は絶大でマイクロベンチマー
+クとはいえ 25%〜39%くらい高速化しているとのことで、すごい。 https://github.com/
+ruby/ruby/pull/1836 [ruby-core:86093] [Bug #14599]

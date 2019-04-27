@@ -1,0 +1,2 @@
+test/ruby/test_method.rb と test/ruby/test_proc.rb の空のメソッドやブロックや未
+使用の変数の警告除去。

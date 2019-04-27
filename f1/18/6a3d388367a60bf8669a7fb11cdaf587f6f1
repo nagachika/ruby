@@ -1,0 +1,3 @@
+r63982 で DT_UNKNOWN がない環境(具体的には Solaris) での Dir.glob の実装を修正
+していましたが、これが Solaris 11 でビルドエラーになるらしくて revert していま
+す。

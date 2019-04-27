@@ -1,0 +1,6 @@
+拡張ライブラリ bigdecimal, data, dbm, gdbm, sdbm, fiddle, io/console, openssl,
+psych, readline, socket, tk などで配列の要素にアクセスする時に参照のみであれば
+RARRAY_CONST_PTR() を使って WB-protected のままにするようにしています。 WB
+-unprotected になると RGenGC の minor GC での負荷があがるので性能のため、ではあ
+りますが効果的な箇所(よく通るところ)を探したというより網羅的に変更しているとい
+う感じだと思います。

@@ -1,0 +1,4 @@
+gc.c の stack_check() の引数に rb_thread_t の th を追加して、また sigaltstack()
+が使えるかどうかチェックして定義していたところは PREVENT_STACK_OVERFLOW という
+マクロを定義してこれを参照するようにして、強制的にチェックを外したコンパイルが
+できるようにしています。

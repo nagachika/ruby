@@ -1,0 +1,4 @@
+io.c の io_setstrbuf() で戻り値の型を void から int に変更して新規の String オ
+ブジェクトを確保した時に TRUE を返すようにして、呼び元で capacity が大きすぎた
+ら capacity を必要なサイズに縮めるようにしています。 [ruby-core:81370] [Bug #
+13597]

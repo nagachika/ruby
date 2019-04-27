@@ -1,0 +1,1 @@
+Rinda::RingServer のテストでも Thread の終了を待つようにしています。

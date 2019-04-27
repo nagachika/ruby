@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の WIN32OLE_VARIABLE も struct RTypedStruct を利用した
+実装に切り替えています。

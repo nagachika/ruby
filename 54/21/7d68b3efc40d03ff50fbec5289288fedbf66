@@ -1,0 +1,3 @@
+return 文の parse についてのテストで all_assertions のかわりに
+all_assertions_foreach を、assert_ruby_status のかわりに assert_in_out_err を使
+うようにリファクタリングしています。

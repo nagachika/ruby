@@ -1,0 +1,5 @@
+Class#initialize で引数に superclass として渡されたクラスが未初期化のクラスだっ
+たら TypeError を発生させるようにしています。元のチケットの報告は initialize に
+Class.allocate で生成した自分自身を渡すと無限ループになるという内容ですが、自分
+に限らず未初期化(superclass が定義されていない。ただし BasicObject は可能)のク
+ラスを継承できないようにしています。 [ruby-core:47148] [Bug #6863]

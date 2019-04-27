@@ -1,0 +1,3 @@
+tool/downloader.rb で Net::HTTP のオプションに任意のエンコード方式を受け付ける
+ように Accept-Encoding: * を付けています。自動で圧縮が展開されてしまわないよう
+にしています。

@@ -1,0 +1,2 @@
+configure の SOLIBS と LIBRUBY_SO の定義の MirOS BSD 向けを Open BSD と同様にな
+るように追加しています。

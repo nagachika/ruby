@@ -1,0 +1,4 @@
+r34982 で at_exit で登録した終了処理の中でのエラー処理を考慮して
+rb_thread_t::errinfo のバックアップを取っておく変数 errinfo に volatile を付加
+しています。コメントによると setjmp/longjmp から保護するためらしいとのこと。そ
+うかレジスタにのせられてしまうと longjmp した時に元に戻ってしまいますね。

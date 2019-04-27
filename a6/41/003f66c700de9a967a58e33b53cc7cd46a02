@@ -1,0 +1,2 @@
+Process.clock_gettime の第2引数で結果の単位を指定するシンボルが複数形
+(microseconds)だったのを s を削って単数形にしています。

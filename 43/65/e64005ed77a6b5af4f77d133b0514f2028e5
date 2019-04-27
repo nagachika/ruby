@@ -1,0 +1,2 @@
+bootstraptest/test_insns.rb に r65343 で導入された newhashfromarray 命令につい
+てのテストを追加しています。

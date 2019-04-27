@@ -1,0 +1,2 @@
+tool/ruby_vm/models/bare_instructions.rb の RubyVM::BareInstructions#inspect で
+クラス名も含めるようにしています。

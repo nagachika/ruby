@@ -1,0 +1,2 @@
+ARGF.gets の rdoc コメントの synopsis で戻り値に nil も返る可能性があることを追
+記しています。 [ruby-core:57908] [Bug #9029]

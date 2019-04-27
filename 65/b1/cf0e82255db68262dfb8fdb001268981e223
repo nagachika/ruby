@@ -1,0 +1,2 @@
+rubyspec の Process.spawn にオプションとして Integer を fd 番号として渡す機能の
+テストを AIX でも実行除外するようにしています。

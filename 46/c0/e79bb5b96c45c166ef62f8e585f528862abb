@@ -1,0 +1,7 @@
+標準添付ライブラリ forwardable.rb で Kernel.instance_method(:respond_to?) で取
+り出した UnboundMethod を bind して呼び出しているところを defined?(_.#{method})
+のようにメソッド呼び出しを展開して defined? でチェックするようにしています。
+respond_to? を直に呼ばないのは BasicObject 対策みたいですね。しかし
+UnboundMethod を使うのは速度的に不利なので defined? を使うようにしてみたみたい
+です。同様にこれまで直接 respond_to? を使ってたところも defined? に置き換えてい
+ます。

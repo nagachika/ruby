@@ -1,0 +1,2 @@
+dir.c の has_magic() で ONIGENC_IS_CODE_ALPHA() に渡す引数名の typo 修正。しか
+し次の r49537 でこの行まるごと消えています。

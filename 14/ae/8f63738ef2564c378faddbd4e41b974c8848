@@ -1,0 +1,8 @@
+configure.in で universal binary を作るために CFLAGS や LDFLAGS からアーキテク
+チャのコンパイルオプションを取り除く部分の sed の引数を [ ] で囲んでいます。ん
+ー、これは shell でのクオート用じゃないですよね。どう parse すればいいのかよく
+わからないけど、これは Apple が適用しているパッチから取ってきたそうです。 http:
+//www.opensource.apple.com/source/ruby/ruby-104/patches/configure.diff
+[追記]configure.in から m4 でマクロ展開する時に [ と ] がクオートとして解釈され
+て消えてしまうので、それを防ぐためにさらにクオートしたということだそうです。
+configure.in でシェルスクリプト書くの大変ですね…[/追記]

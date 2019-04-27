@@ -1,0 +1,4 @@
+r33838 で --no-undefined のチェックを変更したら Mac OS X で configure が syntax
+error になってしまったので書き方を変更。また -Xlinker のかわりに -Wl, を使うよ
+うにしています。個人的にはこっちのほうが馴染みがありますがどう違うのかな……。
+[ruby-core:41316]

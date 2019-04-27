@@ -1,0 +1,6 @@
+magic comment として ISeq の compile option を指定できるようにして、その第1弾と
+して frozen_string_literal: true で r51659 で導入された frozen_string_literal
+オプションをセットして、ファイル単位で文字列リテラルの freeze 化が指定できるよ
+うになりました。 [ruby-core:57574] [Feature #8976]
+akr さんの日記にも解説があります。 http://www.a-k-r.org/d/2015-09.html#
+a2015_09_27_1

@@ -1,0 +1,4 @@
+r55507 の再修正。拡張ライブラリ win32 の ext/win32/lib/Win32API.rb の magic
+comment frozen_string_literal を false から true にしています。また
+Fiddle::Function 用の型の変換処理を最初にやっておくようにリファクタリングしてい
+ます。

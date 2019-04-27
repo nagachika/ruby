@@ -1,0 +1,2 @@
+.gdbinit の rp に Symbol GC のために r45426 で導入した struct RSymbol、T_SYMBOL
+に対応させています。

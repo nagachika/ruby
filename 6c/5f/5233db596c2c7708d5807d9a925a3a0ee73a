@@ -1,0 +1,4 @@
+r56645 で削除した ChangeLog を doc/ChangeLog-2.4.0 として復活させています。また
+doc/ChangeLog-2015 は削除して doc/ChangeLog-2016 を追加しています。自動生成で
+tool/make-snapshot が年ごとの ChangeLog をベースにするので1つはファイルがないと
+いけないからですね。

@@ -1,0 +1,4 @@
+標準添付している RubyGems を最新版(2.5.0 c202db2)にしています。大量の変更がある
+ので個別の解説はなしで History.txt へのリンクを貼るに留めます。今回もテストまわ
+りでいろいろあったようで、今日はその修正が続きます。 https://github.com/
+rubygems/rubygems/blob/c202db2d681eb3c3a02f187d346fbb2e8d733b26/History.txt#L3

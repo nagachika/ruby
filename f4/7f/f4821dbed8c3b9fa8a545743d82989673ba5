@@ -1,0 +1,2 @@
+rdoc-coverage ターゲットの rdoc 実行に --encoding=UTF-8 と --quiet オプションを
+追加。

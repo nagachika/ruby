@@ -1,0 +1,6 @@
+Windows 版に新しい API rb_w32_wrap_io_handle()/rb_w32_wrap_io_unwrap() を追加し
+ています。コメントによると Windows の I/O ハンドル (HANDLE または SOCKET) をラ
+ップして fd を返します。
+Windows 版では fd はソケットとそれ以外を区別して扱うためにソケットのリストを保
+持していて、それに登録する処理が必要なのでこのような処理が必要になるのだと思い
+ます。 [ruby-core:37227] [Bug #4906]

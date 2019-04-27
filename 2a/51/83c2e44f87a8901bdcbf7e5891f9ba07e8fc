@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils の FileUtils#install の mode に整数だけでなく
+"rwx" などの文字を使った指定を受け付けるようにしています。

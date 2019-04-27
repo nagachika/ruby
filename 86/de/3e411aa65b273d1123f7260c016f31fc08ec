@@ -1,0 +1,4 @@
+r62039 や r62407 の再修正。 iseq_poophole_optimize() で freezestring 命令を消し
+てましたが、オペランドとして debug_info がある場合(nil でない場合)は削除しない
+ように条件を追加しています。--debug オプションを使った時かな。
+[ruby-core:85542] [Bug #14475]

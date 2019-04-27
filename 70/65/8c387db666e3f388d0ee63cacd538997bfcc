@@ -1,0 +1,6 @@
+mkmf.rb で $hdrdir および $arch_hdrdir を CONFIG から取得していたのを
+RbConfig::CONFIG から取得するように修正しています。これ同じものじゃないかと思い
+ましたが、MakeMakefile::CONFIG は RbConfig::MAKEFILE_CONFIG という定数で初期化
+されていました。違うのかー。これにより DESTDIR を指定して拡張ライブラリをビルド
+する時にヘッダを探索するパスが間違っている不具合を修正しています。
+[ruby-core:55653] [Bug #8115]

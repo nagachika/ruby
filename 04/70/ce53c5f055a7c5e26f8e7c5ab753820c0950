@@ -1,0 +1,5 @@
+Kernel#readlines (ARGF.readlines) で ARGF が標準入力の時(引数にファイルが指定さ
+れていない) EOF まで読むと STDIN が close されてしまい次に読めなくなる不具合を
+修正しています。 [ruby-dev:45160] [Bug #5952]
+Kernel#readlines 等が ARGF のメソッド呼び出しになっているというの忘れてました。
+$stdin.readlines になるかと思ったのですが少し違いましたね。

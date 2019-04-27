@@ -1,0 +1,4 @@
+vm_method.c の GLOBAL_METHOD_CACHE_MASK の定義は GLOBAL_METHOD_CACHE_SIZE から
+必然的に決まるので、GLOBAL_METHOD_CACHE_SIZE を使って定義するようにしています。
+また GLOBAL_METHOD_CACHE_SIZE が 2の累乗であることをコンパイル時にチェックする
+ようにしています。

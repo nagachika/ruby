@@ -1,0 +1,4 @@
+README.EXT の Appendix B に関数マクロ RSTRING_LEN() と RSTRING_PTR() についての
+言及を追加して、RSTRING_PTR() は NUL-terminated とは限らないということを書いて
+います。また StringValueCStr() で取得できる char * な文字列は NUL-terminated が
+保証されることも追記しています。

@@ -1,0 +1,3 @@
+include/ruby/intern.h から include/ruby/ruby.h と重複している関数のプロトタイプ
+宣言(rb_uint2big, rb_int2big, rb_uint2inum, rb_int2inum, rb_ll2inum,
+rb_ull2inum)を削除しています。

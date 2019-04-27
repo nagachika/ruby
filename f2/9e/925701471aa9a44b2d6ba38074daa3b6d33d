@@ -1,0 +1,2 @@
+GC の実施回数を取得する rb_gc_count() の宣言を internal.h から include/ruby/
+intern.h に移動して公開 API にしています。

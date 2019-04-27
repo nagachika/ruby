@@ -1,0 +1,2 @@
+.gdbinit に VALUE 型から struct RBasic::flags のフラグ一覧を表示する
+print_flags コマンドを追加しています。

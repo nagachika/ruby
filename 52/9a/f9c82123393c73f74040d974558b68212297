@@ -1,0 +1,2 @@
+insns.def で opt_str_freeze 命令と opt_str_uminus の内容がほぼ同じなのを
+vm_opt_str_freeze() という関数に切り出すリファクタリング。

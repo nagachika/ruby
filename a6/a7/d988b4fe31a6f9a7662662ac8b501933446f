@@ -1,0 +1,4 @@
+io_fd_check_closed() で IOError 例外発生前に rb_thread_check_ints() で割り込み
+チェックするようにしています。他の Thread が close した時の通知があった場合はそ
+っちを先に処理しないと close した Thread が待ち続けてしまうのでそっちからの例外
+を先に処理すべきってことかな。ううーん、なんかスッキリしないですね。

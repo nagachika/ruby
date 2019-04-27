@@ -1,0 +1,3 @@
+signal.c の raise_stack_overflow() という関数の前半の sigmask の操作をしている
+部分だけを reset_sigmask() という関数に切り出し、rb_threadptr_stack_overflow()
+の呼び出しは呼び元で行うようにしています。

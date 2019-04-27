@@ -1,0 +1,3 @@
+さらに r61817 の続きで parse.y で第1引数に struct parser_params を受けとる
+xxx_gen() という関数群の _gen という prefix を削除して、関数マクロ経由でなく呼
+び元で明示的に p を渡すようにしています。おおー。

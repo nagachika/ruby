@@ -1,0 +1,4 @@
+Random.new や srand の引数を省略した時の seed について rdoc には 0 を使うと書か
+れていましたが Random.new_seed を利用しているので、rdoc を修正しています。seed
+を固定してしまうと同じ乱数列ができてしまいますからね。 [ruby-core:44428] [Bug #
+6313]

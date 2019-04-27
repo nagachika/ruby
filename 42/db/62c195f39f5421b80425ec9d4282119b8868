@@ -1,0 +1,2 @@
+common.mk の COMMONOBJS のファイル名を辞書順にソートして、依存関係を追加してい
+ます。 tool/update-deps で更新したみたいですね。

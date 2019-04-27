@@ -1,0 +1,1 @@
+vm_dump.c の backtrace() の定義のスタイル修正。

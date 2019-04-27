@@ -1,0 +1,2 @@
+拡張ライブラリ stringio でも同様に StringIO#close_read や StringIO#close_write
+が重複しても例外を発生させないように変更しています。

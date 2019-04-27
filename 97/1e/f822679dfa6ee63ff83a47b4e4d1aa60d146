@@ -1,0 +1,10 @@
+拡張ライブラリ socket で rsock_maybe_fd_writable() および rsock_maybe_wait_fd()
+という rb_thread_fd_writable()/rb_thread_wait_fd() の wrapper のマクロを導入し
+、Linux では実際には rb_thread_fd_writable() を呼ばないように定義することで不要
+な ppoll(2) や select(2) の呼び出しを抑制しています。コメントによると(少なくと
+も) Linux ではいくつかのブロックするシステムコールでは利用可能になった時にカー
+ネルが 1スレッドずつ起こすような挙動をするので一気に大量のスレッドが起床してパ
+フォーマンス低下をひきおこすことはないので ppoll/select のチェックなしに呼んで
+もいい、ということだそうです。実際には Linux に限らず今時の *nix 系のカーネルな
+ら同様なので次第に対象を増やすことができるはず、だそうです。 [ruby-core:57950]
+[Bug #9039]

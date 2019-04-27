@@ -1,0 +1,4 @@
+久しぶりに Process.wait の実装がらみの変更。MJIT worker thread の実装の変更によ
+り race condition の恐れがなくなったとのことで rb_f_system() の実装で struct
+rb_execarg::nocldwait というフラグ子プロセスを待つ排他処理を行なってたのを、他
+と同じように list に入れて待つ方式に統一しています。

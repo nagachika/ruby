@@ -1,0 +1,3 @@
+Module#define_method の rdoc 用コメントで 2.5 以降 define_method が public にな
+ったのにドキュメントが追随していなかったので説明とサンプルコードを修正していま
+す。

@@ -1,0 +1,3 @@
+拡張ライブラリ etc でビルド時に環境で使える定数から自動的に生成する constdefs.h
+ヘッダを make distclean 時に削除するように extconf.rb で $distcleanfiles 変数に
+追加しています。

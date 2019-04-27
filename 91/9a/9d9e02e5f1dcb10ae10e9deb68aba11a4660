@@ -1,0 +1,2 @@
+thread.c, thread_sync.c で真偽値として 0, 1 を使っていたところに TRUE, FALSE を
+利用するように書き換えています。

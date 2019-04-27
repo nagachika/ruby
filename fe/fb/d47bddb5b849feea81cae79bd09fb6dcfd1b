@@ -1,0 +1,3 @@
+vm_dump.c に FreeBSD から procstat_vm() という関数の実装を拝借してきて、rb_bug
+() などでのプロセスのメモリマップ出力に FreeBSD で対応しています。 http://
+svnweb.freebsd.org/base/head/usr.bin/procstat/procstat_vm.c?revision=261780

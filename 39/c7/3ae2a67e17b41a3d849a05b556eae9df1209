@@ -1,0 +1,2 @@
+localeinit.c や signal.c で RUBY_DEBUG_ENV の真偽によって変数の参照を enum やマ
+クロで置き換えていたのをやめています。ただのコード整理かな。

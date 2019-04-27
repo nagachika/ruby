@@ -1,0 +1,3 @@
+benchmark/ サブディレクトリの下には driver.rb のほかに run.rb, runc.rb,
+report.rb などのもう使われなくなったファイルが残っていてまぎらわしいので削除し
+ています。 [ruby-core:87884] [Misc #14902]

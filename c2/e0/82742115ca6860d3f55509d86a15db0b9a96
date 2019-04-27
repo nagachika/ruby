@@ -1,0 +1,2 @@
+Time.at に Rational を渡した時の Time#nsec のテストを追加しています。ビルド関係
+の変更のなか唐突に Time のテストが。 [ruby-core:66285] [Bug #10512]

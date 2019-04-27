@@ -1,0 +1,2 @@
+Array#permutation の返す Enumerator の size 対応をしています。配列サイズと組み
+合わせ数で計算しています。 [ruby-core:45805] [Feature #6636]

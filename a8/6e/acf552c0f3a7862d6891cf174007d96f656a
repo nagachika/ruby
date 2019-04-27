@@ -1,0 +1,3 @@
+拡張ライブラリ coverage に Coverage.peek_result というメソッドを新設して途中で
+coverage 情報を取り出せるようにしています。おお、なんか便利そう、だけどどう活用
+するのかよくわからないな…。 [ruby-core:67940] [Feature #10816]

@@ -1,0 +1,2 @@
+test/ruby/test_optimization.rb で assert_separately を使って子プロセスを起動す
+るテストのタイムアウトを伸ばしています。うーん、これも SIGCHLD 処理変更の影響?

@@ -1,0 +1,4 @@
+r60848 で gc.c で定義するようにした ENABLE_VM_OBJSPACE ですが常に 1 を定義する
+ようにして、Windows 版での vm_exit_handler() という関数を at_exit() に登録する
+ことにして終了時のインタプリタの後始末を行うようにしています。ううむ、Kernel#
+at_exit との食い合わせとか大丈夫かなこれ。

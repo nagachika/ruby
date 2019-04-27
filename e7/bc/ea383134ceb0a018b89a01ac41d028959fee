@@ -1,0 +1,3 @@
+Complex と Rational のテスト test_complex.rb と test_rational.rb で mathn が
+$LOADED_FEATURES に追加されているかどうかで分岐していたところが不要になったので
+削除しています。

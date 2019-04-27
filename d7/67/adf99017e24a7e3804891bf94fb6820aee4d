@@ -1,0 +1,3 @@
+objspace->flags.dont_lazy_sweep の設定に応じて LazySweep を無効化するための処理
+が USE_EGENGC の定義されている時だけ動いていたので #ifdef の外に移動しています
+。

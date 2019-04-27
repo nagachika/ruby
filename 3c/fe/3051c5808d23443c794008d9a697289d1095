@@ -1,0 +1,2 @@
+misc/lldb_cruby.py の lldb_rp コマンドの実装で未初期化だったら lldb_init() を呼
+んでおくという guard を追加しています。

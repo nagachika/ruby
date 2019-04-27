@@ -1,0 +1,4 @@
+Process.setproctitle と Process.argv0 の rdoc に追加されたバージョンや、この機
+能がサポートされないプラットフォームでも NotImplementedError が発生するのではな
+く単に何もしないことを追加しています。このコミットはドキュメントの変更のみなの
+で [DOC] タグつきですね。

@@ -1,0 +1,3 @@
+Tempfile#inspect が File を偽装する(File のオブジェクトへ委譲する)ために
+Tempfile を Tempfile と気付かずに使ってしまうのを避けるため Tempfile#inspect は
+独自の定義をしています。 [ruby-core:47544] [Bug #7027]

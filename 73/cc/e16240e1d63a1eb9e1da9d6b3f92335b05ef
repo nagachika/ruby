@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf.rb cxxflags を RbConfig::CONFIG["cxxflags"] から取得す
+るようにしています。 https://github.com/ruby/ruby/pull/823

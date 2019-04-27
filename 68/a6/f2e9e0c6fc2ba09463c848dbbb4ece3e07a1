@@ -1,0 +1,2 @@
+Array#min, Array#max を追加して可能なら比較のメソッド呼び出しを抑制して最適化し
+ています。 [ruby-core:74297] [Feature #12172]

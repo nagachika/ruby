@@ -1,0 +1,3 @@
+r49097 で test/lib/tracepointchecker.rb で TracePoint が利用できる時だけクラス
+定義するようにしたのですが、defined?(TracePoint) では不十分で TracePoint.stat
+が利用できることが必要だったのでそこまで確認するようにしています。

@@ -1,0 +1,2 @@
+Enumerable#max(n) や #max_by(n) で上位 n 個を配列で返す時に昇順で返していたので
+、降順にソートして返すようにしています。 [ruby-core:65452] [Feature #8887]

@@ -1,0 +1,2 @@
+code golf 用の goruby の prelude に f というメソッドを追加しています。いわゆる
+FizzBuzz を1文字で実現するためのメソッドみたいですね。

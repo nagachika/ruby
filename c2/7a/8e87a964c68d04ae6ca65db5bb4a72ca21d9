@@ -1,0 +1,4 @@
+benchmark/driver.rb のオプション --measure-target の引数に utime, stime,
+cutime, cstime, total などの CPU time の計測方法(?)の指定の対応を追加しています
+。 real (実時間)だと結果が安定しないので system/user など各 CPU 時間で測定でき
+るようにしたみたいです。 [ruby-core:87362] [Feature #14815]

@@ -1,0 +1,3 @@
+GC 用に世代管理などに使うビットマップから特定のビットを取り出すマクロを
+BITMAP_BIT() として切り出して MARKED_IN_BITMAP()、MARK_IN_BITMAP()、
+CLEAR_IN_BITMAP() で利用するようにするリファクタリング。

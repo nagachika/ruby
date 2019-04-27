@@ -1,0 +1,3 @@
+test/ruby/test_array.rb の TestArray#test_push_over_ary_max で
+assert_separately の timeout を 20秒に延長しています。 mswin の CI 環境で時間が
+かかってエラーになることがあるみたいです。

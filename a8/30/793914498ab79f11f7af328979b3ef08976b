@@ -1,0 +1,2 @@
+rbconfig.rb の RbConfig::CONFIG["UNICODE_EMOJI_VERSION"] に Unicode の Emoji の
+バージョンを格納するようにしています。 [ruby-core:90068] [Feature #15341]

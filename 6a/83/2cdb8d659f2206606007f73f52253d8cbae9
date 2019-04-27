@@ -1,0 +1,3 @@
+Windows 版で時刻を取得する時に可能なら GetSystemTimeAsFileTime() のかわりに
+GetSystemTimePreciseAsFileTime() という関数を使うようにしています。こちらのほう
+がより精度のよい時刻を取得できるようです。 [ruby-dev:50167] [Feature #13732]

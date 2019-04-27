@@ -1,0 +1,5 @@
+標準添付ファイル tempfile.rb で Tempfile オブジェクトが GC で回収される時に
+finalizer でファイルを削除するように登録していますが、明示的に Tempfile#unlink
+で削除した時にはもう不要なので ObjectSpace.undefine_finalizer で登録解除するよ
+うにしています。これまでは Tempfile#close! で解除していましたがより primitive
+な unlink メソッドで解除するようにしています。 [ruby-core:56521] [Bug #8768]

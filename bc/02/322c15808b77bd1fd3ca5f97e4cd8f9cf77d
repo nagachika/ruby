@@ -1,0 +1,2 @@
+r61804 の FLEX_ARY_LEN を file.c の struct apply_arg でも利用するようにしていま
+す。

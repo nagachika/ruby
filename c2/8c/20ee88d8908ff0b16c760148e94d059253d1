@@ -1,0 +1,4 @@
+array.c の配列オブジェクトの先頭または末尾から要素を取り出す
+ary_take_first_or_last() という static 変数で rb_scan_args() のかわりに
+rb_check_arity() を使うようにして Array#first や Array#last で余計な引数が渡さ
+れた時に発生する ArgumentError のメッセージを変更しています。

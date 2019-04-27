@@ -1,0 +1,3 @@
+r56169 で configure で WARN_UNUSED_RESULT() と MAYBE_UNUSED()
+(UNINITIALIZED_VAR() から改名)を定義するようにしたので、Windows 環境向けに
+win32/Makefile.sub で生成する config.h に定義を追加するようにしています。

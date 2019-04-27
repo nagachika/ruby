@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole に WIN32OLE#methods というメソッドを新規追加して
+ole_methods の結果も混ぜて返すようにしています。 did_you_mean のためみたい。

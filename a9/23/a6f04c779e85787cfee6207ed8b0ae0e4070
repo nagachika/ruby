@@ -1,0 +1,2 @@
+open_load_file() で fifo の時にあらためて rb_thread_wait_fd() で待つようにした
+ところにその意図をコメントとして追記しています。

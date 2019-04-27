@@ -1,0 +1,2 @@
+vm.c の thread_free() で th->altstack の解放を free(3) を呼ぶ前に NULL チェック
+していましたが、free(3) は NULL を受け付けるのでチェックを削っています。

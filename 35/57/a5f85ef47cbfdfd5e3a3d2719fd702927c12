@@ -1,0 +1,3 @@
+r42990 のベンチマークでのメソッド定義を require に変えた変更を revert していま
+す。ベンチマークスクリプトは自己完結していないといけないとのこと。 https://
+github.com/ruby/ruby/pull/393#issuecomment-24861301

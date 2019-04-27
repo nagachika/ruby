@@ -1,0 +1,6 @@
+NativeClient の nacl_io という機能? ライブラリ? を利用できるようにしています。
+nacl_io で検索するとこんなページがヒットしますね。 https://developer.chrome.com
+/native-client/devguide/coding/nacl_io ちゃんと読んでませんが、システムの実際の
+ファイルシステムにアクセスするわけではなくて、http やメモリ上のストレージを fs
+としてアクセスできるようにするものっぽいですね。ruby での変更は主にビルドプロセ
+ス関係のものだけですが。

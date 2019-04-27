@@ -1,0 +1,3 @@
+r60977 で make update-unicode-property-files で emoji-data.txt のダウンロード時
+に表示するメッセージの version を $(UNICODE_VERSION) から $
+(UNICODE_EMOJI_VERSION) に変更しています。

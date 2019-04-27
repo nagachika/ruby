@@ -1,0 +1,4 @@
+Range#min と Range#max でオブジェクトの比較に即値で比較できるものをショートカッ
+トするマクロ OPTIMIZED_CMP() というのを利用するようにしてメソッド呼び出しを抑制
+する最適化を行なっています。 https://github.com/ruby/ruby/pull/1585
+[ruby-core:80713] [Bug #13443]

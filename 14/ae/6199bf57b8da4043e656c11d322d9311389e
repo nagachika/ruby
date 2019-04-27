@@ -1,0 +1,2 @@
+r51689 の追加修正で open_dir_handle で古い Windows で GetFinalPathNameByHandleW
+() が使えない時の対応を追加しています。

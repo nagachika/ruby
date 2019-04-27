@@ -1,0 +1,2 @@
+akr さんの Pathname メソッド移植。 Pathname$executable_real? を C 拡張ライブラ
+リへ移動。

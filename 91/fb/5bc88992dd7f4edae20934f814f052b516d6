@@ -1,0 +1,5 @@
+open の mode 引数で "r:BOM|UTF-8:UTF-8" のように external encoding と internal
+encoding を指定した時に "BOM|UTF-8" というのは "BOM" を読んでエンコーディングを
+自動判定するので、実際には external encoding != internal encoding なのに mode
+引数などの指定上同じだと変換されない不具合があったのを修正しています。
+[ruby-core:54563] [Bug #8323] [ruby-core:54569]

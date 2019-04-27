@@ -1,0 +1,3 @@
+標準ライブラリ csv のテストでただの assert などを利用していたのを
+assert_predicate や assert_respond_to、r45222 で追加した assert_all? などを利用
+するように修正しています。

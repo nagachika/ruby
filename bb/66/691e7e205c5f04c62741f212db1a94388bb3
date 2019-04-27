@@ -1,0 +1,2 @@
+vm_insnhelper.c および vm_eval.c から cfp のチェックを CHECK_CFP_CONSISTENCY()
+というマクロに切り出すリファクタリング。

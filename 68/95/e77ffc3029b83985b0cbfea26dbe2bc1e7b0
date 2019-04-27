@@ -1,0 +1,4 @@
+Net::HTTP のテストで個別に CONFIG でポート番号に 0 を指定していたのをやめて、ユ
+ーティリティメソッドの TestNetHTTPUtils#spawn_server で WEBrick::HTTPServer に
+渡すオプションの :Port を 0 にして常に自動的に確保したポート番号を利用するよう
+にまとめて対応するようにしています。

@@ -1,0 +1,4 @@
+Array#hash, Bignum#hash, Hash#hash, Float#hash, Proc#hash, Method#hash, Range#
+hash, Regexp#hash, MatchData#hash, String#hash, Struct#hash, Time#hash の rdoc
+用コメントに Object#hash も参照するように文言を追加しています。 Object#hash の
+rdoc 自身にも追加しているような。 https://github.com/ruby/ruby/pull/567

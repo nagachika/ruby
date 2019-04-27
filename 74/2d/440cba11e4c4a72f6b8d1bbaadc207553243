@@ -1,0 +1,2 @@
+String#<< で文字を連結した結果、文字列の encoding が不正な状態になっているのに
+valid_encoding? が true を返してしまう現象の修正です。[ruby-core:33027]

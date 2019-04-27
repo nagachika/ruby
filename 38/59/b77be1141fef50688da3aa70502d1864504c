@@ -1,0 +1,2 @@
+r66859 で BOOTSTRAPRUBY の設定のため HAVE_BASERUBY をチェックしてたところを
+test コマンド利用から AS_CASE() マクロを利用するように書き換えています。

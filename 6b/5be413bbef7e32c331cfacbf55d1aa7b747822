@@ -1,0 +1,4 @@
+random.c の int_pair_to_real_inclusive() で乗算のために rb_big_mul() を直接呼ん
+でいたのを "*" メソッドの呼び出し(rb_funcall()に変更しています。 r41160 での
+rb_integer_unpack() の利用に伴い常に Bignum だったところが Fixnum になる可能性
+がでてきたためです。

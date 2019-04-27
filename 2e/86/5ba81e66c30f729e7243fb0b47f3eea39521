@@ -1,0 +1,2 @@
+r52662 の追加修正で Windows 版の socket のエラー処理 finish_overlapped_socket()
+で result には整数をセットするようにしています。

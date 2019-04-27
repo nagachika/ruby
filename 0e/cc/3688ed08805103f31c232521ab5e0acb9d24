@@ -1,0 +1,3 @@
+拡張ライブラリ openssl のファイル群から svn で自動的に置換される $Id$ などのタ
+グを削除しています。今 openssl は GitHub の ruby/openssl を upstream として開発
+されているので、そことの同機をやりやすくするためみたいです。

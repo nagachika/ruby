@@ -1,0 +1,2 @@
+set_trace_func でトレースの on/off した状態を Continuation で出入りする時に
+RuntimeError を発生させるようにしています。 [ruby-core:89747] [Feature #15289]

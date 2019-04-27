@@ -1,0 +1,3 @@
+tool/git-refresh でローカルリポジトリが既に最新版だったら fetch を省略するよう
+にしています。 git describe --tags で対象の tag に紐づいてたら不要なのでスキッ
+プするようにしています。

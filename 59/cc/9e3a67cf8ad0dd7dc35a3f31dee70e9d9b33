@@ -1,0 +1,2 @@
+tool/vcs.rb で STDERR.puts に配列を *args みたいに splat して渡してましたが、IO
+#puts は引数に配列を受け取れるのでそのまま渡すようにしています。

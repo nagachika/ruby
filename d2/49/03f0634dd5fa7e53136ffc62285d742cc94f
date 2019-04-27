@@ -1,0 +1,2 @@
+r43573 で ChangeLog だけコミットしていた securerandom.rb の rdoc コメントの引数
+に nil を受け取るケースの追記をしています。

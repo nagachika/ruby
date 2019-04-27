@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle の extconf.rb で libffi のバージョンに -rc がついているも
+のを検出した時に RUBY_LIBFFI_MODVERSION というマクロにそれが入りこまないように
+消し込むようにしています。 RUBY_LIBFFI_MODVERSION の定義を生成する際に数値を期
+待しているところに -rc# が付いてしまってエラーになるそうです。

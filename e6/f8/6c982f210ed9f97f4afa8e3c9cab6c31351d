@@ -1,0 +1,2 @@
+[ruby-core:31871] で報告された test_proc.rb の test_curry を require "profile"
+つきで実行すると SEGV する件の修正。

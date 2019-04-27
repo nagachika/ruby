@@ -1,0 +1,3 @@
+標準添付ライブラリ tsort で TSort.tsort や TSort.tsort_each などがブロックを渡
+されなかった時に Enumerator を返すようにしています。 [ruby-core:66270] [Feature
+#10508]

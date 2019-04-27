@@ -1,0 +1,2 @@
+r41930 の不具合修正。 rb_enc_associate_index() で termlen を渡すべきところを
+odltermlen を渡していました。

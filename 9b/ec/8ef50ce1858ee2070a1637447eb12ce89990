@@ -1,0 +1,5 @@
+minitest 2.6.2 をマージしています。主な修正は RUBY_VERSION の 2.0.0 化の対応、
+assert_operator の第3引数を省略可能に、assert_predicate/refute_predicate の追加
+、MiniTest::Spec.it の引数省略可能に、specify (it の alias) の追加、などです。
+ちょっとおもしろかったのは README.txt に「利用者の声」みたいなのが追記されてた
+ことです。

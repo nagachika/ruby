@@ -1,0 +1,4 @@
+Marshal.load で extend された Class を読み込む時に extmod が nil だと SEGV して
+いたのを修正しています。おそらく通常の dump だと順序的にこうなることはなくて意
+図的に作った dump 結果を load すると起こりえる潜在的なバグではないかと思います
+。

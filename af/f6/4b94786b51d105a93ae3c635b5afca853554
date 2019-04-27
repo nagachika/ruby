@@ -1,0 +1,2 @@
+Hash() メソッドの rdoc コメントの Hash(nil) の時の戻り値の間違いを修正。
+[ruby-core:55299] [Bug #8487]

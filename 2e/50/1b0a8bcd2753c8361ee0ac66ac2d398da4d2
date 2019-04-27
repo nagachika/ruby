@@ -1,0 +1,5 @@
+よくわかりませんが Marshal.dump, Marshal.load で例外オブジェクトを dump/load し
+た時のテストで使うために NoMethodError 例外を発生させるためにメソッドを呼ぶのを
+receiver 指定せずに呼んでたのを Object のインスタンスを作ってそれに対して呼ぶよ
+うにしています。TestCase にはモジュールが include されているかもしれないので、
+とのこと。

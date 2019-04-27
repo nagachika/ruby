@@ -1,0 +1,3 @@
+OpenSSL::X509::Request#to_der で OpenSSL がエラーを返した時に CertificateError
+例外を発生させていたのを RequestError に変更しています。 [ruby-dev:43237] [Bug
+#4420]

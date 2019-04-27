@@ -1,0 +1,3 @@
+NEWS ファイルの Fixnum/Bignum の Integer 統合の記事で拡張ライブラリからの
+RUBY_INTEGER_UNIFICATION マクロによる判定に加えて Ruby レベルでの判定の方法とし
+て 0.class == Integer で判定できるよ、というのを追記しています。

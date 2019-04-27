@@ -1,0 +1,4 @@
+encoding.c の enc_inspect() rb_filesystem_encindex()
+enc_set_filesystem_encoding() rb_filesystem_encindex() で US-ASCII や ASCII
+-8BIT のインデックスを関数を読んで取得していたのを定数の参照に置き換えています
+。

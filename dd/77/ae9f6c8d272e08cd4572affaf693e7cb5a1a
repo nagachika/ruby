@@ -1,0 +1,2 @@
+r29932 の tainted/untrust な正規表現で scan して切り出された文字列に tainted/
+untrust のフラグが伝播するようにする修正についてのテストを追加。 #4087

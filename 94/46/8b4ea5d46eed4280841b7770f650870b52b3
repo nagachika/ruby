@@ -1,0 +1,5 @@
+Numeric#finite? と Numeric#intifite? および Complex#finite? と Complex#
+infinite? を追加しています。 Float の同名のメソッドにそろえて追加しています。
+Complex は abs の結果で判定し、Numeric の場合は Float や Complex の場合は呼ばれ
+ないはずなので常に finite として返すように実装されています。 [ruby-core:73618]
+[Feature #12039]

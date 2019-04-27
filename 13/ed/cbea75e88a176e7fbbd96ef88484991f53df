@@ -1,0 +1,8 @@
+Psych::JSON::YAMLEvents という Mixin 用の(多分)モジュールの start_mapping,
+start_sequence というメソッドが super で親クラスのメソッドを呼ぶ時に第3引数を無
+視して常に true を渡すようにしています。
+軽く調べた感じだとこの implicit という引数は最終的に libyaml の
+yaml_document_start_event_initialize() という関数の引数に割り当てられていて、ド
+キュメントの開始インジケータが明示的かどうかを指定するそうです(意味が分かってな
+いので直訳風味)。多分 JSON フォーマットではこの選択の余地がないから true に固定
+するようにしているとかそういうことでしょう。

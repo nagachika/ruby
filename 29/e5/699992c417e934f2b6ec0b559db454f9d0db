@@ -1,0 +1,4 @@
+r39968 で追加して r39970 で改名(typo 修正)された test/-ext-/num2int/
+test_num2int.rb の assert_num2i_sucess および assert_num2i_error の中から2回呼
+ばれている assert_raise の呼び出し部分を ???_internal として切り出すリファクタ
+リング。

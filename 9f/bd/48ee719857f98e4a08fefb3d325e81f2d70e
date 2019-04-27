@@ -1,0 +1,3 @@
+template/prelude.c.tmpl で prelude.rb を C のソースコードに埋め込む時に
+prelude_eval() に行番号を渡す時に INT2FIX() してしまっていたところを修正してい
+ます。

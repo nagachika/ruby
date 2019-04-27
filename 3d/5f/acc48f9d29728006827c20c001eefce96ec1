@@ -1,0 +1,2 @@
+r57424 の bundled gem の並列ビルド対応で --static-linked-ext の対応を修正。 gem
+の時に static link してしまわないようにしているものと思われます。

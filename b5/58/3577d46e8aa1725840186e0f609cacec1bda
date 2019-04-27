@@ -1,0 +1,4 @@
+x64-mingw 環境では struct timeval の tv_sec メンバの型が time_t ではないそうで
+、その差異を吸収するために TYPEOF_TIMEVAL_TV_SEC というマクロを定義して、浮動小
+数点数を struct timeval に変換する double2timeval() という関数で利用するように
+しています。

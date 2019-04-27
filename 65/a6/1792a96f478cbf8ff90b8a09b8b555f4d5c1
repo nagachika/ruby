@@ -1,0 +1,2 @@
+dir.c で宣言されている enum answer という型の UNKNOWN, YES, NO の NO が偽(0)に
+なるように入れ替えています。

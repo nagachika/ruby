@@ -1,0 +1,5 @@
+標準添付ライブラリ optparse の OptionParser#candidate で short オプションでは大
+文字小文字を区別してマッチさせるようにしています。 OptionParser に
+--*-completion-bash や --*-completion-zsh なんてオプションがあったんですね。シ
+ェルのオプション補完用に候補を出力する機能みたいです。 https://github.com/
+mernen/completion-ruby/pull/9#issuecomment-317287946

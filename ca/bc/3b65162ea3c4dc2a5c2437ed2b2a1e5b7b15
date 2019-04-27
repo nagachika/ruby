@@ -1,0 +1,3 @@
+r61827 の RUBY_ALIGNAS() マクロで __declspec(align()) を使う場合は引数に sizeof
+() を渡すことができないそうなので、sizeof(VALUE) を SIZEOF_VALUE で置き換えるよ
+うにしています。

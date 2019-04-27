@@ -1,0 +1,2 @@
+r51070 で導入された Windows 用の rb_freopen() で rb_w32_mbstr_to_wstr() で確保
+されたバッファの解放には xfree() ではなく free(3) を呼ぶように修正しています。

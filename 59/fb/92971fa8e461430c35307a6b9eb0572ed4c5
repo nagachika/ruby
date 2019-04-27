@@ -1,0 +1,3 @@
+rb_notify_fd_close() で fd の IO 待ちをしている Thread に close を通知する時に
+struct waiting_fd::fd をリセットしていなかったので重複したエラー通知がされる可
+能性があった不具合を修正しています。 [ruby-core:81581] [Bug #13632]

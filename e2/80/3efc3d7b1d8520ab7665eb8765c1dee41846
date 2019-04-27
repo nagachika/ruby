@@ -1,0 +1,3 @@
+symbol.c で rb_id_serial_to_id() が table_id.c の ID_TABLE_IMPLE の選択によって
+は未使用なので、警告が出るのを抑制するため gcc の場合は __attribute__( (unused)
+) を利用するようにしています。

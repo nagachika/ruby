@@ -1,0 +1,5 @@
+r43436 で導入した構造体 struct child_handler_disabler_state に cancelstate とい
+うメンバを追加して、pthread_setcancelstate() を使って pthread の cancelstate も
+一時的にクリアして親プロセスでは復旧させるようにしています。pthread_cancel() を
+使った時の挙動についての設定だと思います。pthread_cancel() は ruby 本体では使っ
+てないと思いますけどね。

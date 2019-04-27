@@ -1,0 +1,3 @@
+open-uri のテストで WEBrick のプロキシサーバを利用しているとこで WEBrick
+::HTTPProxyServer#start を呼んでからテスト用のファイルが準備されるまで待つため
+に sleep 0.5 を追加しています。また未使用の変数の削除など。

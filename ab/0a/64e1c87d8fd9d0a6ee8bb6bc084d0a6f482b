@@ -1,0 +1,4 @@
+r48362 あたりで WEBrick の終了通知用の pipe の初期化を listen 時に行うようにし
+たのを、再度 start 時に行うようにしています。一度 shutdown した後に再度 listen
+した時に動くようにするために listen に移動してたのですが、stop -> start で再起
+動した時にエラーになっていたようです。 [ruby-core:68476] [Bug #10956]

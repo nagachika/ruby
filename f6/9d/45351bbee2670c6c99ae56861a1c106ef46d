@@ -1,0 +1,3 @@
+r63598 で Windows 環境で Net::HTTP の write_timeout のテストを skip したため、
+ensure 節の後始末で th が nil のままになり得るようになったので &. 演算子を使っ
+て NoMethodError にならないように修正しています。

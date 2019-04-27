@@ -1,0 +1,2 @@
+win32/Makefile.sub で config.status を読んで RUBY_SO_NAME の設定? などをして
+config.h の依存を消しているようですが、コマンドラインの文法がよくわからない…。

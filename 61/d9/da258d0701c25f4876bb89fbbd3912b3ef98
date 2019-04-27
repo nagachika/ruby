@@ -1,0 +1,4 @@
+r58374 で引数に th を追加した stack_check() を利用して rb_threadptr_stack_check
+() という関数を定義して ruby_stack_check() のかわりにこちらを呼ぶようにしていま
+す。うーんなるほど vm_eval.c の static 関数の stack_check() は引数の th にかか
+わらず current thread をチェックしていたみたいですね。

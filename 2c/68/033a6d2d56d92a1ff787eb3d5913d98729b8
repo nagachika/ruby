@@ -1,0 +1,3 @@
+r63232 で Makefile.in の mjit_config.h の生成ルールで ARCH_FLAG に -m64 のよう
+な architecture 指定のオプションが単独で入っているのが考慮されていなくてビルド
+エラーになっていたのを修正しています。 [ruby-dev:50583] [Bug #14876]

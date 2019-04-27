@@ -1,0 +1,2 @@
+win32/file.c の rb_file_expand_path_internal() で未使用の変数があったので削除し
+ています。

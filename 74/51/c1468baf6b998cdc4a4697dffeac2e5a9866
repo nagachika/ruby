@@ -1,0 +1,3 @@
+拡張ライブラリ openssl で SSL_is_server() という関数の存在チェックをして、なか
+ったら代替を実装するようにして ssl_info_cb() で利用するようにしています。
+[ruby-core:75225] [Feature #12324]

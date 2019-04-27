@@ -1,0 +1,5 @@
+drb のテストで main_loop の終了時に stop_service を呼ぶ Thread を新たに立てるの
+をやめて、stop_service から切り出した shutdown メソッドを直接呼ぶようにしていま
+す。停止時にリソース不足で Thread が起動できないことがあったのが
+Thread.report_on_exception = true でわかったみたいです。たまに thread leak して
+たっていうのこれかな。 [ruby-core:84213] [Bug #14171]

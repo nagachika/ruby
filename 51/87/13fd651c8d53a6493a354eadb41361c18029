@@ -1,0 +1,4 @@
+r54895 でコンパイラオプションの -std=iso9899:1999 を -std=gnu99 に変更しました
+が、この時 -fexcess-precision=standard というオプションの効果がなくなってたよう
+なので明示的にコンパイラオプションに追加するようにしています。参考URL: https://
+gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html

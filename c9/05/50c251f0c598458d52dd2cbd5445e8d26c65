@@ -1,0 +1,5 @@
+r51989 の追加修正および r51991 のリベンジみたいですね。
+vm_caller_setup_arg_block() で Symbol がブロック引数として渡された時に
+calling->blockptr->proc に作成した ifunc ノードを格納しておいて、proc_new() で
+procval として ifunc が渡された場合に対応するようにしています。たぶん
+blockptr->proc のほうは VALUE 型だからこちらなら mark されるってことですね。

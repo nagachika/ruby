@@ -1,0 +1,2 @@
+rational.c の f_gcd_normal() で f_negate() や f_negative_p() を使っていたところ
+をメソッド呼び出しせずに処理するマクロを導入して最適化しています。

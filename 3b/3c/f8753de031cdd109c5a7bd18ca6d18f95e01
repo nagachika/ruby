@@ -1,0 +1,3 @@
+TestSignal#test_signal_requiring で子プロセスで SIGINT の trap をデフォルトのハ
+ンドラに明示的にセットしています。IO.popen で子プロセスを作るときはハンドラは引
+き継がれないと思うのですが、明示的な指定が必要なんでしょうか?

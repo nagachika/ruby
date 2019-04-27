@@ -1,0 +1,3 @@
+r45202 の pthread_setname_np() の検出処理で SET_THREAD_NAME() マクロを定義する
+時に AC_DEFINE ではなく AC_DEFINE_UNQUOTED を使って関数の引数の部分のシェル変数
+が展開されるようにしています。

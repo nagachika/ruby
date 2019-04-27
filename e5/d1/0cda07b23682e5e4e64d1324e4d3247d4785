@@ -1,0 +1,3 @@
+parser_yyerror() と parser_compile_error() で return 前に token_flush() を追加
+しています。 parser_yyerror() は(ripper ではない時に)先頭でも呼んでますね。エラ
+ー位置の表示の修正かな。

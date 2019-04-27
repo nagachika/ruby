@@ -1,0 +1,2 @@
+r60460 でうっかり削除されてた rb_vm_bh_to_procval() の prototype 宣言を復活させ
+ています。

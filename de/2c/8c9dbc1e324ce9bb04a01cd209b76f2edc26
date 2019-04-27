@@ -1,0 +1,2 @@
+rb_sym_proc_call() の引数 argv に const 修飾子を付与しています。またローカル変
+数 id の型を long から ID に修正しています。

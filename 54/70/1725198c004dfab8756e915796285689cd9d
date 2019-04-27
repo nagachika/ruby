@@ -1,0 +1,2 @@
+r63295 の追加修正。 PlatformGuard.implementation? という判定用のメソッドがあっ
+たみたいなのでこれを利用するようにしています。

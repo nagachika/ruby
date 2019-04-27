@@ -1,0 +1,2 @@
+r46294 と r46299 のテストでの $VERBOSE 一時的な設定は test/ruby/envutil.rb の
+EnvUtil.suppress_warning を利用するように書き換えています。

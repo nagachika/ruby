@@ -1,0 +1,2 @@
+r47732 の続きで拡張ライブラリ date で Date の操作に Write Barrier を挿入して WB
+Protected としています。

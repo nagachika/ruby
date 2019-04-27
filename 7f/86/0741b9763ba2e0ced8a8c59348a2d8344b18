@@ -1,0 +1,3 @@
+r55039 の MatchedData#values_at の named capture 対応の再修正。 values_at の引
+数には Range オブジェクトを受け付けてたのに対応しているそうです。 Range オブジ
+ェクトなんて渡せたのか…。

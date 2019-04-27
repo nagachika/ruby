@@ -1,0 +1,5 @@
+同じく Symbol GC がらみで rb_sym2id() と rb_sym2id_without_pindown() で渡された
+VALUE が Symbol じゃない時に 0 を返すようにしています。はて? "for the time
+being" (差し当たりは) ってあるので、おそらくどこかに不具合があってここで Symbol
+がくるはずなのに来てないことがあるから work around としてやってるってことではな
+いかと思います。

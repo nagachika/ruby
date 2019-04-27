@@ -1,0 +1,6 @@
+Solaris と GNU/Hurd で SIZEOF_STRUCT_DIRENT_TOO_SMALL というマクロを定義してい
+たのですが、プラットフォームからの決め打ちするのはやめて、configure で実際に
+struct dirent の d_name のサイズを計算して 256 未満だったら定義するようにしてい
+ます。ちなみに ruby は d_name が 256 byte 以上ないといけないようで、このマクロ
+が定義されていたら無理矢理このサイズを確保した共用体を利用するようにしているよ
+うです。

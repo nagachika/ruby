@@ -1,0 +1,4 @@
+割り込みタイマーの POSIX timer 実装の時に ubf_timer_destroy() でいきなり
+ATOMIC_SET() で timer_posix.state を RTIMER_DEAD にセットせずに ATOMIC_CAS() で
+競合がないことを確認しつつ RTIMER_DISARM の状態になるのを確認して DEAD にするよ
+うにループさせています。

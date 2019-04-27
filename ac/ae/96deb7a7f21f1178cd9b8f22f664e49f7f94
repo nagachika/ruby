@@ -1,0 +1,2 @@
+object.c と proc.c の rdoc 用コメントで rdoc のタグの call_seq: とアンダースコ
+アになっていたものを call-seq: と修正しています。

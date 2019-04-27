@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の ext/openssl/openssl_missing.h で古い LibreSSL のヘッ
+ダで宣言が漏れてる X509_STORE_CTX_get0_store() の宣言を追加しています。

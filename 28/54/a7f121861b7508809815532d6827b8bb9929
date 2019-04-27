@@ -1,0 +1,2 @@
+rb_inspect で Encoding.default_internal_encoding をみて生成する文字列の
+encoding に反映させるようにしています。 [ruby-dev:49415] [Bug #11787]

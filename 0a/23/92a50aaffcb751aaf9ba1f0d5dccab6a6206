@@ -1,0 +1,4 @@
+Net::SMTP#esmtp= と #esmtp? メソッドを attr_accessor と alias を使うようにリフ
+ァクタリング。地味に esmtp メソッドが追加されてることになるわけですが、まあ問題
+はないかと。あと Net::SMTP のテストを追加。Net::SMTP のテストって元々全く存在し
+ていなかったんですね。

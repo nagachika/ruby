@@ -1,0 +1,3 @@
+rubyspec の Socket.getifaddrs のテストで VirtualBox 内だと netmask に不正な(ip?
+に false を返す) Addrinfo が含まれるみたいなのでそれを除外するようにフィルタを
+追加しています。

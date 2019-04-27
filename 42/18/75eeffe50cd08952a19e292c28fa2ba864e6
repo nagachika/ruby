@@ -1,0 +1,2 @@
+ERB::Util と ERB::DefMethod にも :nodoc: を付けてしまったのを戻しています。
+[Bug #4694]

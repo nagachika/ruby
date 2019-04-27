@@ -1,0 +1,3 @@
+rb_obj_hash() で object_id が LLP64 環境(Windows の 64bit 版 VC++)だと long 型
+のサイズに納まらないのに NUM2LONG() で変換していたため上位32bitが捨てられていて
+テストに失敗していたのを修正しています。 [ruby-core:51060] [Bug #7454]

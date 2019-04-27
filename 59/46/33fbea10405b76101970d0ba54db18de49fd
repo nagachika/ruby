@@ -1,0 +1,2 @@
+Net:HTTP の rdoc の修正。結局 Net::HTTPS のドキュメントも net/http.rb にまとめ
+て書くようにされています。[ruby-core:33469]

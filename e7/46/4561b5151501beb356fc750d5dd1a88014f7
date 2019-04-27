@@ -1,0 +1,4 @@
+標準添付ライブラリ resolv の Resolv::Hosts.new に渡した文字列を Kernel#open に
+渡していたので File.open を使うように修正しています。 "|cmd" みたいなのを渡すと
+コマンド起動になるので、ファイルとして開くようにするため。 https://github.com/
+ruby/ruby/pull/1777 [ruby-core:84347] [Bug #14205]

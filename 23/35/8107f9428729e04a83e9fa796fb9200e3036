@@ -1,0 +1,2 @@
+sample/timeout.rb で deprecated になっている Object#timeout を使っていて警告が
+出ていたので Timeout.timeout を使うように書き換えています。

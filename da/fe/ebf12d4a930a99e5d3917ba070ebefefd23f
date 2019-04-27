@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の CGIHandler でパラメータから HTTP_PROXY という環境
+変数をセットするのはキャンセルするようにしています。 [ruby-core:76511] [Bug #
+12610]

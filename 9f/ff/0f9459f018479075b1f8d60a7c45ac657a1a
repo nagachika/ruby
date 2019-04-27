@@ -1,0 +1,3 @@
+Object#display メソッドの rdoc 用コメントで、ruby で同等のメソッドを実装してみ
+たサンプルがあるのですが、戻り値は常に nil なので ruby 実装版もそうなるように修
+正しています。 https://github.com/ruby/ruby/pull/1429

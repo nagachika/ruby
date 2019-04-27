@@ -1,0 +1,4 @@
+mjit.c の system_tmpdir() で Windows や macOS 以外の時に環境変数 TMP や TMPDIR
+を参照していましたが、これらの環境変数のほうを優先するように変更しています。た
+だし permission が適切かどうか(書き込み可能で world writable でない)はチェック
+するようにしています。 [ruby-core:85651] [Bug #14496]

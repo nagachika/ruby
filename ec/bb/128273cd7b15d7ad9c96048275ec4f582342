@@ -1,0 +1,3 @@
+r59440 の AIX 向けの configure.ac の修正で #include <sys/select.h> する条件を追
+加してましたが、AC_INCLUDES_DEFAULT([]) も追加するように修正しています。macOS
+で問題があったみたいです。

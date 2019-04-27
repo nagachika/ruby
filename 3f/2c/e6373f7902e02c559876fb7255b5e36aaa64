@@ -1,0 +1,4 @@
+Array#sample など乱数生成のために rb_random_ulong_limited() を呼ぶときに内部で
+呼ばれる乱数生成用の rand メソッドが負の整数を返した時の例外メッセージを修正し
+ています。負の数なのに "too big" というメッセージになっていたので "too small"
+にしています。 [ruby-dev:47061] [Bug #7903]

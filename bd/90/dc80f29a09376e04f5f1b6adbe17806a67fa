@@ -1,0 +1,3 @@
+Process.maxgroups と Process.maxgroups= はグループのしくみがない(setgroups が存
+在しない)プラットフォームではそもそも NotImplementedError を発生させるようにし
+ています。

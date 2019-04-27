@@ -1,0 +1,2 @@
+Dir.exists? は deprecated になっているのでドキュメントに exist? とは分けてその
+ように明記するようにしています。 [ruby-core:64135] [Bug #10102]

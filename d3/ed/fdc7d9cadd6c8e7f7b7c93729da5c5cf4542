@@ -1,0 +1,4 @@
+class.c, enum.c, gc.c, struct.c などで配列オブジェクトの要素でループ回す時に
+RARRAY_CONST_PTR() でポインタを取り出して回すのでなくて RARRAY_AREF() を使うよ
+うにしています。 RARRAY_CONST_PTR() は将来的にコストが上がるような変更をするつ
+もりのようです。

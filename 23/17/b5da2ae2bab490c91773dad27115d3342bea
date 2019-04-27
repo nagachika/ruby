@@ -1,0 +1,2 @@
+rb_thread_method_id_and_class() も引数の rb_thread_t を rb_execution_context_t
+に変更したうえで rb_ec_frame_method_id_and_class() に改名しています。

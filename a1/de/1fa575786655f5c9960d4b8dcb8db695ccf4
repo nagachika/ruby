@@ -1,0 +1,6 @@
+r38546 で Net::HTTPRequest に uri を追加した時に、URI オブジェクトを渡してリク
+エストを作成すると Host header に port no が明示された URI が付与されるようにな
+り、このような header を Amazon ECS Api などのサービスが受け付けてくれないため
+、port no が URI のスキーマの default port no だったら省略するようにしています
+。これは本来はサービス側が対応すべき問題なのだと思いますが動かないと困るのでと
+いうことです。 [ruby-dev:46829] [Bug #7650]

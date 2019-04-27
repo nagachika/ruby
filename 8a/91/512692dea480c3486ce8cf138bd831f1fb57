@@ -1,0 +1,4 @@
+r39107 から r39109 あたりの multi architecture 対応で追加された configure のオ
+プションの --help での表示が間違っていたのを修正しています。 ruby-trunk-changes
+もここをみてオプション名を書いてしまっていたので修正しました。
+[ruby-core:52041] [Bug #7804]

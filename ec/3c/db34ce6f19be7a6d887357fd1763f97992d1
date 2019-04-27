@@ -1,0 +1,6 @@
+r66811 から続く一連の変更の続き。 MJIT の実行時コンパイルのコンパイラオプション
+-nodefaultlibs および -nostdlib を渡すかどうかを GCC_NOSTDLIB_FLAGS というマク
+ロで定義しておいて使いまわすようにしています。 precompiled header の生成時に使
+うオプションにも追加するようにしています。 Gentoo で gcc を使った時に MJIT の実
+行時コンパイルがエラーになる問題の対処だそうです。 [ruby-dev:50746] [Bug #
+15513]

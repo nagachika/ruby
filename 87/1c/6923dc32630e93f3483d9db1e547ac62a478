@@ -1,0 +1,3 @@
+gvl_yield() に race condition があり OpenBSD で gvl->wait_yield が 1 になり続け
+て Thread.pass でスレッドの切り替えが置きずに同じスレッドが走り続けるのを修正し
+ています。[ruby-core:40885] [ruby-core:38647] [Bug #5130]

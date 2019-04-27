@@ -1,0 +1,3 @@
+tool/rbinstall.rb で Gem.install のオプションに :dir_mode、:data_mode
+、:prog_mode を追加して、同じ Hash オブジェクトをオプション引数に使いまわして渡
+すようにしています。

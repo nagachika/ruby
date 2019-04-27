@@ -1,0 +1,2 @@
+拡張ライブラリ io/console での IO#getch や IO#raw での vmin のデフォルト値を 0
+から 1 に変更しています。 stty raw した時の値にそろえているそうです。

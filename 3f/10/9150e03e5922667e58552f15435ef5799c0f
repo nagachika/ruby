@@ -1,0 +1,6 @@
+test/rubygems/test_gem_ext_builder.rb で RubyGems の拡張ライブラリビルドのテス
+トで nmake が意図した出力をしないので、nmake で実行した時には assertion を実行
+しないようにしています。
+このテストの失敗は 2.0.0 のブランチでも RubyGems 2.0.6 で起きてて、こちらの
+Github の issue で調整中です。 nmake が使える人はみてみてください。 https://
+github.com/rubygems/rubygems/issues/609

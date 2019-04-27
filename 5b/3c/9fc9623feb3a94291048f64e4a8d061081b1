@@ -1,0 +1,4 @@
+gc_report() や WARN_CALL()、 WARNING_CALL()、 thread_debug() など format 文字列
+と可変長の引数を受け取る関数マクロ定義で __VAR_ARGS__ が空の場合に対応していた
+のを、引数 fmt も可変長部分に入れることで gcc の拡張を使わずに定義できるように
+しています。

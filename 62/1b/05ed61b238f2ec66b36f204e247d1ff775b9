@@ -1,0 +1,4 @@
+configure で BASERUBY が使えたら BOOTSTRAPRUBY を BASERUBY にしていたのをやめて
+MINIRUBY を使うようにしています。 OS X でのビルドエラーの修正みたいです。
+[ruby-core:72065] [Bug #11807]
+r51749 や r51789 あたりで入れた変更の revert ですね。

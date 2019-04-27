@@ -1,0 +1,3 @@
+標準添付ライブラリ erb で --enable-frozen-string-literal で文字列リテラルが
+freeze されるようになっても大丈夫なように結果を格納するバッファを "" ではなく
+String.new で生成するようにしています。 [ruby-core:73561] [Bug #12031]

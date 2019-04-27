@@ -1,0 +1,5 @@
+GC.disable した時に rest_sweep() を呼び出して LazySweep で sweep していないオブ
+ジェクトが残らないようにしています。 TracePoint のテストで問題が発生していたの
+を修正しているそうです。これはバックポート必要かなぁ。 RGenGC でいろいろ変わっ
+てるとはいえ LazySweep も TracePoint も 2.0.0 にあるので入れておいがほうがいい
+かも……。

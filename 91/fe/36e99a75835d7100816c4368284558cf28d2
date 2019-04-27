@@ -1,0 +1,4 @@
+拡張ライブラリ dl および fiddle のテストでテストの teardown にて Linux の場合に
+は GC を強制的に実行するようにしています。これも dl のテストでの SEGV を抑制す
+るための対応で、Fiddle::Closure が残る(ffi_closure_free() が遅延する)と SEGV し
+ているっぽいのでその調査のための修正みたいです。

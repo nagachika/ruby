@@ -1,0 +1,4 @@
+r54598 の追加修正。 Thread が initialize で初期化完了していなかったら Thread#
+name= で ThreadError 例外を発生させるようにしていましたが、エラーにはせず実際に
+native thread を起動時に名前をセットするように遅延させるようにしています。
+[ruby-core:74963] [Bug #12290]

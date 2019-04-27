@@ -1,0 +1,2 @@
+r64270 の make check のターゲットの変更の追加修正。 defs/gmake.mk の
+TEST_TARGETS と TEST_DEPENDS も追随させています。

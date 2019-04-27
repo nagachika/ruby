@@ -1,0 +1,2 @@
+Test::Unit::Runner#job_status 等をリファクタリングしてメソッドを切り出していま
+す。

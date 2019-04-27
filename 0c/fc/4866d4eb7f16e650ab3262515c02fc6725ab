@@ -1,0 +1,3 @@
+標準添付ライブラリ cgi/core.rb で Hash#each でキーが不要だったので Hash#
+each_value を使うように変更。また bigdecimal で未使用のローカル変数の除去など。
+https://github.com/ruby/ruby/pull/267

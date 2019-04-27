@@ -1,0 +1,4 @@
+r45707 の tmpdir.rb の require "etc.so" の例外についてと関連していると思います
+が bootstraptest/test_io.rb で tmpdir で追加される Dir.tmpdir を利用していたの
+をやめて "/tmp" 固定にしています。make test は miniruby で動き、拡張ライブラリ
+はロードできないからだろうと思います。

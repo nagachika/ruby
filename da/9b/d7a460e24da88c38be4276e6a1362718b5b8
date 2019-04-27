@@ -1,0 +1,2 @@
+コマンドラインオプション --dump=parsetree_with_comment で表示する NODE_OP_ASGN1
+と NODE_OP_ASGN2 の typo 修正。

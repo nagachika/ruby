@@ -1,0 +1,3 @@
+test/ruby/test_integer_comb.rb と test/ruby/test_optimization.rb から重複した
+assertion を削除して Fixnum と Bignum のチェックについては test/-ext-/integer/
+test_integer.rb に移動しています。

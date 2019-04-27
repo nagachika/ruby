@@ -1,0 +1,8 @@
+大域脱出(throw の他 next,break,continue などの制御文や rb_fatal() による強制終
+了も含む)の時に rb_thread_t::errinfo に格納されるオブジェクトを struct
+THROW_DATA という構造体として定義しています。ただし例外の時はそのまま例外オブジ
+ェクトが errinfo に格納されるようです。struct THROW_DATA も実際には NODE オブジ
+ェクトとして確保されて(つまり struct RVALUE スロットに入り GC 対象となる)、ジャ
+ンプの種類によって必要な情報をメンバに持つようにしています。そっか errinfo に
+NODE を入れるのは next,break などの時に使われてたんですね。ちなみにどんな種類の
+ジャンプなのかは別途 rb_thread_t::state に入ります。

@@ -1,0 +1,3 @@
+r52364 の Solaris での CI のための signal mask の表示を再修正して Process.kill
+でシグナル送信後の情報を表示するようにしています。また Solaris での表示だけでな
+くて /proc/self/status があったら(Linux?)それも表示するようにしています。

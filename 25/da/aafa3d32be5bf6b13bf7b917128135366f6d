@@ -1,0 +1,3 @@
+rb_method_definition_t という構造体のなかのフィールドの順序を入れ替えています。
+64 bit 環境で padding を減らしてメモリの節約をしているようです。
+[ruby-core:59993] [Feature #9441]

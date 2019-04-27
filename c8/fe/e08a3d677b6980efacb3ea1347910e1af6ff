@@ -1,0 +1,2 @@
+Kernel#send や __send__ メソッドでメソッドを起動する時に Refinements によるメソ
+ッドの変更が効くように変更しています。 [Feature #11476]

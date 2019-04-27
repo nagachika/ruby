@@ -1,0 +1,3 @@
+Random.urandom で /dev/urandam からの読み込みや getrandom(2) で期待したサイズま
+で読み込めなかった時にリトライするようにループを追加しています。 [ruby
+-dev:50231] [Bug #13885]

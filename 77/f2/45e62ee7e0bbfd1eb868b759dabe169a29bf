@@ -1,0 +1,1 @@
+Fixnum#bit_length の実装が bignum.c にあったので numeric.c に移動しています。

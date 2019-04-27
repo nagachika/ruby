@@ -1,0 +1,2 @@
+win32/Makefile.sub で生成する config.status に PLATFORM_DIR と THREAD_MODEL と
+いう変数の定義を追加しています。

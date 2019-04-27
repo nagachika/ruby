@@ -1,0 +1,5 @@
+Rake::FileList#egrep でファイルを open する時に "rb" モードを指定していましたが
+"b" は改行コードの変換の挙動を変えるので、エンコーディングを ASCII-8BIT に指定
+するだけにしています。参考 URL: https://github.com/jimweirich/rake/issues/74
+rake の gem パッケージでは 1.8 対応もしないといけないでしょうから mode の指定の
+バージョン間の非互換を吸収しないといけないんでしょうね。。

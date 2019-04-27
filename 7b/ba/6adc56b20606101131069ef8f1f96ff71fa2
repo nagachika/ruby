@@ -1,0 +1,3 @@
+r51026 の続き、かな? method_definition_reset() の引数から
+rb_method_definition_t * を削除して、me->def にセットするのを省くリファクタリン
+グ? なんかちょっとよくわからないです。

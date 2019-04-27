@@ -1,0 +1,5 @@
+拡張ライブラリ openssl の OpenSSL::OCSP の Response, BasicResponse,
+SingleResponse, CertificateId などの initialize メソッドで d2i_OCSP_XXXX() の関
+数群の第1引数のポインタに既存のオブジェクトの構造体のポインタを渡すと OpenSSL
+1.0.0t では問題が発生するそうで、新規にメモリを確保させて入れ換えるような実装に
+変更しています。

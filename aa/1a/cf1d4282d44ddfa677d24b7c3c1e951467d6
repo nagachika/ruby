@@ -1,0 +1,5 @@
+encoding.c に must_encindex() という関数を追加して渡されたインデックスが既に登
+録されている Encoding に対応するインデックスであるかをチェックするようにして、
+rb_enc_set_index() や rb_enc_associate_index() で呼び出すようにしています。また
+include/ruby/encoding.h の ENCODING_SET() マクロを rb_enc_set_index() の呼び出
+しに変更しています。

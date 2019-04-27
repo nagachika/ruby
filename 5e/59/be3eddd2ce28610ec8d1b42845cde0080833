@@ -1,0 +1,5 @@
+tokenize_ident() の中で識別子がローカル変数かどうかチェックしていた部分を
+parse_ident() に移動しています。 tokenize_ident() は parse_gvar() や
+parse_atmark() (グローバル変数やインスタンス変数の parse 時の関数?)からも呼ばれ
+ていて、その時には local 変数として扱われないはずなので不要なチェックだったよう
+です。 is_local_id(ident) のチェックは消えてますけどこっちはいいのかな。

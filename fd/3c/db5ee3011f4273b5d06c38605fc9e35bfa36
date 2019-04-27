@@ -1,0 +1,2 @@
+test/ruby/test_io.rb のテストメソッドの prefix が test_ になっていなかったのを
+修正しています。

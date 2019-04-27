@@ -1,0 +1,2 @@
+Addrinfo#connect_from や connect_to に Addrinfo オブジェクトを渡して動作できる
+ように修正しています。 [ruby-dev:45095] [Bug #5845]

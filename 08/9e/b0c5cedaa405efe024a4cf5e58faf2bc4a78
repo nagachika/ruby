@@ -1,0 +1,2 @@
+遅い filesystem 対策の続きで opendir(3) の時にも GVL を解放するようにしています
+。

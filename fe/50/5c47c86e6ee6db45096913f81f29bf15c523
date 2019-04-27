@@ -1,0 +1,2 @@
+test/test_syslog.rb では require "syslog" に失敗する環境でテストをまるごとスキ
+ップするようにしています。

@@ -1,0 +1,3 @@
+r41355 で拡張ライブラリ objspace で追加される ObjectSpace のメソッドの個別の
+rdoc 用コメントに reuire "objspace" が必要なことを追記していたのをやめて
+overview のところにだけ追記するようにしています。

@@ -1,0 +1,3 @@
+r58879 で新規追加した Dir.children と Dir.each_child の rdoc 用コメントでメソッ
+ド名が typo というかコピー元の Dir.entries と Dir.foreach のままだったのを修正
+しています。

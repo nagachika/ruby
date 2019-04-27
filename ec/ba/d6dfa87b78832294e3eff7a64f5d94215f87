@@ -1,0 +1,2 @@
+r50464 や r50466 の TypedData_Wrap_Struct() などのマクロの実体として追加した関
+数の名称を xxx_alloc() から xxxx_wrap() と改名しています。

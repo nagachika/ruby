@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で、ついに WIN32OLE 自体も RTypedData 化されました。多
+分これで win32ole のクラスは全て移行完了ですかね。

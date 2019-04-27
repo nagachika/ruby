@@ -1,0 +1,4 @@
+そして 40154 で追加した rsock_sys_fail_addrinfo() と
+rsock_sys_fail_addrinfo_or_sockaddr() を rsock_sys_fail_raddrinfo() と
+rsock_sys_fail_raddrinfo_or_sockaddr() に改名しています(addrinfo -> raddrinfo)
+。

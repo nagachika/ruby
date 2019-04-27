@@ -1,0 +1,4 @@
+id_table.c の rb_id_table_foreach() と rb_id_table_foreach_values() のコールバ
+ック関数の型を id_table.h で typedef で rb_id_table_foreach_func_t/
+rb_id_table_foreach_values_func_t と型名を宣言して、各関数の定義でもこの型を利
+用するようにしています。

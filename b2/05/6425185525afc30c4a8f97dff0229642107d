@@ -1,0 +1,3 @@
+timer thread との通信用の pipe の作成で rb_cloexec_pipe() がエラーになった時に
+警告メッセージが呼び元でも重複して出ていたので
+setup_communication_pipe_internal() の中に一本化しています。

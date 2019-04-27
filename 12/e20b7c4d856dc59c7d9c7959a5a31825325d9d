@@ -1,0 +1,4 @@
+標準添付ライブラリ timeout.rb の rdoc コメントに Timeout.timeout のブロック内で
+使用する例外クラスを明示的に渡さなかった場合はタイムアウト時の例外は rescue で
+きなくなったことを追記しています。また NEWS ファイルのこの変更についての記述の
+文法を修正しています。 https://github.com/ruby/ruby/pull/440 [Bug #8730]

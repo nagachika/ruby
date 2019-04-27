@@ -1,0 +1,2 @@
+r37525 で internal.h に宣言を追加した enum_cycle_size() は慣習に従って
+rb_enum_cycle_size() と rb_ の prefix をつけるように改名しています。

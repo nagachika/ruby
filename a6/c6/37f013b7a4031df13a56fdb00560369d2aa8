@@ -1,0 +1,3 @@
+vm_method.c で respond_to_missing? のシンボルの ID を変数に格納していましたが
+id.{h,c} で idRespond_to_missing が提供されるのでそれを利用するようにしています
+。

@@ -1,0 +1,3 @@
+parse.y の初期化 Init_parser() を rb_init_parse() に改名しています。拡張ライブ
+ラリ json/parser が Init_parser() を定義しているため名前が重複しないようにして
+います。

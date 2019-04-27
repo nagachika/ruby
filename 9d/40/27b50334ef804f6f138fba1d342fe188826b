@@ -1,0 +1,9 @@
+waitpid() の独自実装のための SIGCHLD 処理に使う struct waitpid_state のメンバー
+から sigwait_fd を削除して pipe による通知ではなく rb_threadptr_interrupt() に
+よる普通の(?)割り込みで待ってる thread を起こすようにしています。と、思ったけど
+ruby_waitpid_locked() をみるとローカル変数として sigwait_fd を使った
+rb_sigwait_sleep() の呼び出しが残ってますね。MJIT の worker かどうかによるのか
+。難しい……。また rb_thread_sleep_interruptible() という割り込みチェックを
+native_sleep() 前にしない版の sleep 関数を導入してこれで waitpid 用の wait にし
+てますが、利用箇所は限定されてるとはいえ、これ本当に大丈夫かー? という気がして
+しまいますね(今度は割り込みの喪失が……とかありそう)。

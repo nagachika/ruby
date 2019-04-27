@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix.rb に Vector#cross_product というメソッドを新設してい
+ます。これは3次元の Vector に限定していわゆる外積を計算するもののようです。
+https://github.com/ruby/ruby/pull/276
+テストが欲しいですね。

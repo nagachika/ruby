@@ -1,0 +1,2 @@
+lib/uri/mailto.rb および test/lib/tracepointchecker.rb の未使用変数とブロック変
+数によるローカル変数遮蔽の警告除去。

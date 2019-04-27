@@ -1,0 +1,2 @@
+doc/extension.rdoc と doc/extension.ja.rdoc に RB_TYPE_P() マクロについて追記し
+ています。

@@ -1,0 +1,3 @@
+r50776 で HAVE_STRUCT_MSGHDR_MSG_CONTROL が未定義の時に引数に rest 引数を受け付
+けないようになってしまっていたので、不要な分岐を削除しています。
+[ruby-core:69468] [Bug #11224] [Bug #11225] [ruby-core:69469]

@@ -1,0 +1,7 @@
+test/ruby/memory_status.rb で fiddle/import がない時に envutil.rb を読みこむと
+きに test/unit が require できるように $LOAD_PATH を調整しています。ここにきて
+る時点で test/unit はロードされてるのでは? と一瞬思いましたが memory_status.rb
+はメモリリークチェックのために子プロセスで読み込まれるものなので test/unit がな
+い場合があるんですね。
+あと直前の r46325 の ChangeLog エントリのところに不要な "o" が追加されてしまっ
+ていますね。

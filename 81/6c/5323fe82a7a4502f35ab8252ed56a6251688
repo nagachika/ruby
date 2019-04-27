@@ -1,0 +1,3 @@
+標準添付ライブラリ ostruct の OpenStruct で、メソッドの引数の数が多すぎた時に
+NoMethodError が発生させられていましたが ArgumentError を発生させるように変更し
+ています。 [ruby-core:90918] [Bug #15515]

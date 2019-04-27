@@ -1,0 +1,2 @@
+Time のテストのテストメソッドの _with_timezone というのを削除しています。テスト
+クラスが既に TestTimeTZ::WithTZ だから、かなぁ。

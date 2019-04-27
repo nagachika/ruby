@@ -1,0 +1,2 @@
+r66075 の続きで Time.local などで find_timezone メソッドを呼んで timezone の引
+数の変換をするのに対応しています。

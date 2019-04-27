@@ -1,0 +1,2 @@
+tainted をチェックする Check_SafeStr() の定義を obsolete にしてエラーメッセージ
+で代替として SafeStringValue() を利用するように表示しています。

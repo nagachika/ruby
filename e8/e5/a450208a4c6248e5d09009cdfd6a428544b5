@@ -1,0 +1,3 @@
+parse.y で TOKEN2EID() というマクロを ripper 向けにも定義して演算子トークンの C
+コード部分で ifndef_ripper() を使っていたところを TOKEN2EID() で変換して $$ に
+代入するようにしています。

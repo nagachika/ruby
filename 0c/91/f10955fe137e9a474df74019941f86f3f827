@@ -1,0 +1,5 @@
+構造体 rb_execution_context_t のメンバー interrupt_mask の型を unsigned long か
+ら rb_atomic_t に変更しています。 interrupt_flag と型を揃えているようです。これ
+で環境によってはサイズが減るけど padding のせいで構造体全体のサイズは減らないと
+のこと。でも他のメンバーの変更とかで差がでるかもしれないから、というか mask す
+べきメンバーと合わせるのはサイズ節約は別として良いことのような。

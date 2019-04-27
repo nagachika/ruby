@@ -1,0 +1,3 @@
+r66249 で導入した TracePoint の compiled_script イベントの名前を
+script_compiled に改名、関連する TracePoint の属性取得メソッド名も改名していま
+す。[ruby-core:89742] [Feature #15287]

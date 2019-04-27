@@ -1,0 +1,2 @@
+特異クラスに prepend すると Object#methods(false) で特異メソッドがかえってこな
+くなるのを修正しています。 [ruby-core:53207] [Bug #8044]

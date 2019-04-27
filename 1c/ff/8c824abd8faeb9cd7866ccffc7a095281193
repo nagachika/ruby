@@ -1,0 +1,3 @@
+spec/rubyspec/optional/capi/spec_helper.rb に古い ruby のバージョン用の分岐があ
+ったのを削除しています。ruby 本体に取り込んだ rubyspec と ruby/spec のリポジト
+リは同期はさせないんですかね。

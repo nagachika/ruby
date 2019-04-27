@@ -1,0 +1,2 @@
+r47422 と同じく readpartial のテストで NONBLOCK フラグを追加するのに IO#fcntl
+を使っていたのを IO#nonblock= を利用するようにしています。

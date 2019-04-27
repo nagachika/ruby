@@ -1,0 +1,5 @@
+mingw 版で psapi なるライブラリを利用して Windows のコンソールの色付けを行う
+DLL がロードされていたら ruby スクリプト側で行っている色付けのための端末エミュ
+レーションを行わないようにしています。 [ruby-core:53879] [Feature #8201]
+console_emulator_p() の中で最後の末尾の return だけ TRUE/FALSE でなく return 0;
+になっていたのがちょっと気になりました。

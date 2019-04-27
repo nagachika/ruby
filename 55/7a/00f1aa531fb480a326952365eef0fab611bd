@@ -1,0 +1,5 @@
+Thread の初期化途中で例外や Kernel#exit などで大域脱出させると
+rb_thread_t::pending_interrupt_queue が未初期化の状態になり、SEGV が発生する可
+能性があった不具合を修正。 threadptr_check_pending_interrupt_queue() という関数
+を追加して未初期化だと例外発生させるようにしています。 [ruby-core:72732] [Bug #
+11959]

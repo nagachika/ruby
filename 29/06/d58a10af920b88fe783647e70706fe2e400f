@@ -1,0 +1,6 @@
+拡張ライブラリ win32ole のテストに WIN32OLE_RECORD のテストクラスを追加していま
+す。実行には WIN32OLE_RECORD クラスは .NET Framework 3.5 が必要とのこと。
+WIN32OLE_RECORD クラス自体が環境が整ってないとビルドされないみたいですね。
+[追記]WIN32OLE_RECORD のビルドはできるみたいです。テストするためには
+WIN32OLE_RECORD を使う COM サーバが必要で、そのために .Net Framework 3.5 が必要
+ということでした。コメント欄参照[/追記]

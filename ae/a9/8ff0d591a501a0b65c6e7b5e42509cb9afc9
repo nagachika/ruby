@@ -1,0 +1,2 @@
+ruby_error_print() という関数を利用していたところを rb_threadptr_error_print()
+を使うようにして、不要になった ruby_error_print() を削除しています。

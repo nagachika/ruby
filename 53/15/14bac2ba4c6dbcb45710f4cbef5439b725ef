@@ -1,0 +1,3 @@
+r54610 で tool/redmine-backporter.rb で backport コマンド生成時に @revisions を
+sort しようとしたら rel コマンドで revision を追加した時に Integer で格納してい
+たのでエラーになったので、String で格納するように修正しています。

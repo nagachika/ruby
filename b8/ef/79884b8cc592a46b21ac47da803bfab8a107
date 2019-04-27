@@ -1,0 +1,3 @@
+標準添付ライブラリ test/unit の Test::Unit の rdoc コメントを追加したり、内部的
+なモジュールに :nodoc: タグを追加したりしています。 [ruby-core:56694] [Bug #
+8778]

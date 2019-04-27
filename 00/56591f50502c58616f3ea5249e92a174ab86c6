@@ -1,0 +1,5 @@
+rb_integer_unpack() の引数で使えるフラグのビットとして数値の範囲によらず Bignum
+を返すことを指定する INTEGRE_PACK_FORCE_BIGNUM を追加しています。
+また random.c の int_pair_to_real_inclusive() でこのフラグを利用することで
+r41162 で rb_big_mul() を直接呼ばずに rb_funcall() で "*" メソッドを呼ぶように
+したのをやっぱり rb_big_mul() を直接呼ぶように戻しています。

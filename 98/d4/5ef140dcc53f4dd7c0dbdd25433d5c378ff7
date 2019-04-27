@@ -1,0 +1,2 @@
+ベンチマークのファイル名を変更しています。 bm_vm4_thread_*.rb を
+bm_vm_thread_*.rb に。

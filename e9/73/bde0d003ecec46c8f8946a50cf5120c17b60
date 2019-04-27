@@ -1,0 +1,7 @@
+Refinements で Module を refine した時に、その Module を include していてさらに
+継承もしているクラスのメソッドからの super が using していなくても super class
+の探索に失敗するという不具合を修正しています。
+rb_method_entry_complement_defined_class() において
+rb_method_definition_t::type が VM_METHOD_TYPE_REFINED の時を考慮して method
+entry をコピーするようにしています。もう Refinements まわりの実装は理解が追いつ
+かないな…。 [ruby-dev:50390] [Bug #14232]

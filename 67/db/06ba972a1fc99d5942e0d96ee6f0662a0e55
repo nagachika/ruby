@@ -1,0 +1,3 @@
+さらにアーキテクチャ毎のヘッダファイルのインストール先ディレクトリの指定を
+configure のオプション --with-arch-rubyhdrdir, --with-arch-sitehdrdir,
+--with-arch-vendorhdrdir で変更できるようにしています。

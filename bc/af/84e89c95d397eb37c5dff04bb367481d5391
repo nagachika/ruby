@@ -1,0 +1,2 @@
+同じく test/test_pty.rb で同じチェックをしている冗長な assertion を削除していま
+す。

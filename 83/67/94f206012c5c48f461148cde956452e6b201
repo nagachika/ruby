@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle の Fiddle::Import のテストで VC14 で fprintf のシンボルを
+扱うのに問題があったみたいで LIBC.fprintf がなかったらテストをスキップするよう
+にしています。

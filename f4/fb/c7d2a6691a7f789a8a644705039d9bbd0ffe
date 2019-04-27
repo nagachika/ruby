@@ -1,0 +1,2 @@
+標準添付ライブラリ securerandom の SecureRandom.uuid の rdoc 用コメントに結果が
+持つ乱数のビット幅(122 bits = 15.25 bytes)を追記しています。

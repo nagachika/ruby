@@ -1,0 +1,6 @@
+r32587 の rb_update_max_fd() 呼び出し追加で UNIXSocket での file descriptor
+passing の時に不正は fd を渡してしまうために max_file_descriptor がとても大きな
+値になって exec する時にとても時間がかかってしまうので、fstat() を使って有効な
+file descriptor かチェックするようにしています。おそらく Mac OX X での recvmsg
+() の不具合なのでしょうけど、darwin のソースコードを読まないといけないかも。さ
+てどこにあるんだったっけ。

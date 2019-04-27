@@ -1,0 +1,5 @@
+tool/transform_mjit_header.rb で警告メッセージは STDERR でなく STDOUT に出すよ
+うにしていいます。また異常終了させる時には exit 1 ではなく exit false や Kernel
+#abort を使うようにしています。あー exit false ってすると EXIT_FAILURE を使うの
+でどの環境でも異常終了と判定される終了ステータスになることが保証できるんでした
+ね。

@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle に upstream の 1.0.0.beta2 をマージしています。
+internal.h への依存を消して独立した gem としてコンパイルできるようにしているよ
+うです。また frozen_string_literal: true の magic comment に変更して文字列リテ
+ラルが fstring になるようにしています。

@@ -1,0 +1,3 @@
+tool/rbinstall.rb で Gem::Installer#install を呼ぶ前後で File.umask を呼んで一
+時的に 022 に変更するようにしています。Gem::Installer では owner で書き込み可能
+でないといけないみたいです。

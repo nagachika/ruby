@@ -1,0 +1,3 @@
+OpenStruct#each_pair がブロックなしで呼ばれた時に生成する Enumerator が
+Enumerator#size に正しい値を返せるように size 指定ブロックつきで生成するように
+しています。 https://github.com/ruby/ruby/pull/383

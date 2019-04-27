@@ -1,0 +1,2 @@
+vm_call0_body() と check_funcall_exec() で RB_GC_GUARD() で変数保護しているのを
+、その変数を利用した後に移動しています。

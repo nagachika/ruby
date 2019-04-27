@@ -1,0 +1,2 @@
+同じく tool/sync_default_gems.rb で ostruct、scanf、webrick、fileutils なども
+sync_lib メソッドで対応するようにしています。

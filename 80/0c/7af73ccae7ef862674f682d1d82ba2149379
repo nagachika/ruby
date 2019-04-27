@@ -1,0 +1,4 @@
+vm_method.c の rb_method_entry_make() で initialize, initialize_copy,
+initialize_clone, initialize_dup, respond_to_missing など private 扱いするメソ
+ッドの ID との比較を if 文で列挙していたのを case 文で記述するようにリファクタ
+リングしています。

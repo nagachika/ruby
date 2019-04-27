@@ -1,0 +1,4 @@
+tool/unicode_norm_gen.rb が BASERUBY が 1.8 でも動くようにしています。
+Enumerable#select と #collect を #grep に変更していますけど、多分 select も
+collect もあると思うので、多分メソッド呼び出しの "." が行頭にある文法が問題だっ
+たのかなと思います。

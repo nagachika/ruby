@@ -1,0 +1,2 @@
+marshal.c の marshal_load(), marshal_dump() 関数の static 宣言をはずして外部か
+ら呼べるようにしています。

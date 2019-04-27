@@ -1,0 +1,3 @@
+poll(2) を利用した時に返すビットフラグの値を、例えば POLLHUP や POLLERR が立っ
+ている時も RB_WAITFD_IN を立てて返すというように RB_WAITFD_(IN|OUT|PRI) に適切
+にマッピングして返すようにしています。

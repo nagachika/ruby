@@ -1,0 +1,4 @@
+r35427 で Mac の標準についてる OpenSSL は使わないように configure を変更しまし
+たが --with-broken-apple-openssl というオプションを configure につければ利用で
+きるようにしています。「使うなよ」という思いがにじみ出ているオプション名ですね
+。

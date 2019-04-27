@@ -1,0 +1,4 @@
+r36666 で openssl のテストで OpenSSL::Config::DEFAULT_CONFIG_FILE を利用するも
+のが不正なファイルパスが返ってくることがあるので Windows 版では skip していたの
+を、プラットフォームで判定するのではなくて OpenSSL::Config::DEFAULT_CONFIG_FILE
+のファイルパスにファイルがあるか(読めるか)で判断するようにしています。

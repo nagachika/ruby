@@ -1,0 +1,3 @@
+enc/prelude.rb に require "unicode_normalize" を追加しています。これにより
+Encoding がロードされている環境(従って miniruby は自動的にはロードされないらし)
+では String#unicode_normalize メソッドが生えるようです。

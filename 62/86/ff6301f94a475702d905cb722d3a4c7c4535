@@ -1,0 +1,2 @@
+enc/unicode.c の onigenc_unicode_case_map() で enc/unicode/casefold.h の対応表
+を引いてその結果を利用するようにしてます。

@@ -1,0 +1,3 @@
+test/ruby/envutil.rb に assert_file/assert_file_not という(ruby 本体のテスト用
+の) assertion の定義を追加して、File.xxx? なメソッドで判定している assertion の
+書きかたを変更してエラー時により説明的な結果が出力されるようにしています。

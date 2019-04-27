@@ -1,0 +1,4 @@
+Array#sum で要素が Integer と Rational だけだった時に Rational の加算を直接
+rb_rational_add() を呼ぶようにする最適化も行なうようにしています。Rational の加
+算は nurat_add() という関数名だったのを rb_rational_add() に改名して static も
+はずしています。

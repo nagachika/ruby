@@ -1,0 +1,5 @@
+parse.y で代入系の NODE とメソッドの引数の NODE の要素で splat についての情報と
+必須キーワード引数についての情報を表すために (NODE*)-1 とキャストした -1 を両方
+で使ってましたが、マクロ NODE_SPECIAL_REQUIRED_KEYWORD と
+NODE_SPECIAL_NO_NAME_REST というのを定義してこれを使うようにリファクタリングし
+ています。

@@ -1,0 +1,3 @@
+win32/file.c の rb_default_home_dir() で変数 dir の const 修飾子を外しています
+。この中で dir に対して xfree() を呼んでて、ruby_xfree() に渡す引数の型は const
+がついてないので型が一致していなかったみたいです。

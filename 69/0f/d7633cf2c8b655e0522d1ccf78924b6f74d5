@@ -1,0 +1,1 @@
+gvl_release_common() の戻り値の型に const 修飾子を追加しています。

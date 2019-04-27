@@ -1,0 +1,3 @@
+test/ruby/test_rubyoptions.rb の test_segv_test にまとまっていた assertion を必
+要なスクリプトやオプションを SEGVTest というモジュールにまとめて使いまわして 3
+つのテストメソッドに分解しています。

@@ -1,0 +1,4 @@
+TracePoint#enable のキーワード引数 target を使った機能が MinGW でハングアップす
+る? という不具合を修正。コードの修正ではなくて configure で mingw64 の時
+__builtin_setjmp() を利用するようにしています。うーむなんでだろ。
+[ruby-core:90094] [Bug #15348]

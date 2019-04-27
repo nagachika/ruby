@@ -1,0 +1,5 @@
+gc.c の ObjectSpace 用の rdoc コメントで Document-class ではなく
+Document-module を使うようにしています。また ext/objspace/objspace.c での
+ObjectSpace の rdoc 用コメントでも Document-module を使って対象のモジュールの明
+示するようにしています。これはどうやら ext/objspace/objspace.c の RDoc でのパー
+スが失敗することの対策みたいです。 [ruby-core:55525] [Bug #8537]

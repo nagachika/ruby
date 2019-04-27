@@ -1,0 +1,2 @@
+r66758 で internal.h に FLOAT_ZERO_P() の定義が追加されたため不要になった
+rational.c での同じマクロ定義を削除しています。

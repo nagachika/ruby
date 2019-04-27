@@ -1,0 +1,6 @@
+gc.c の rb_gc_unprotect_logging() と gc_prof_setup_new_record() で malloc() お
+よび realloc() の戻り値の NULL チェックがされていなかった箇所を修正しています。
+また regparse.c の parse_regexp() でエラー時のメモリ解放漏れを修正しています。
+また util.c で MALLOC/FREE というマクロを malloc/free でなくチェック込みの
+xmalloc/xfree に展開するように修正しています。使ってるところでチェックしてない
+からですね。

@@ -1,0 +1,3 @@
+test/ruby/test_io.rb の TestIO#test_copy_stream_socket7 でテスト前に GC.start
+で full GC を実行するようにしています。 CI で時々このテストが NoMemoryError に
+なる場合があるそうで、そのための対処とのこと。

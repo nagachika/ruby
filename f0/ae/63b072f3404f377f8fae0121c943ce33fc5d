@@ -1,0 +1,3 @@
+Array#combination, Array#repeated_combination が返す Enumerator の size メソッ
+ドで使う binomial_coefficient() でも、先に巨大な整数を作っておいてから除算する
+のでなく順次乗算と除算を繰り返すようにしてメモリ効率をよくしています。

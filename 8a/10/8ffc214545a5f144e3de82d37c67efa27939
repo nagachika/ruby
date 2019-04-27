@@ -1,0 +1,3 @@
+Mac OS X で mach_timebaseinfo() を呼び出す処理を関数に切り出しています。また
+Process.clock_getres の clock_id に :MACH_ABSOLUTE_TIME_BASED_CLOCK_MONOTONIC
+をサポートするように追加しています。

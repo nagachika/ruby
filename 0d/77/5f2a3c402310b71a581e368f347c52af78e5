@@ -1,0 +1,7 @@
+r51327 の rb_iseq_t の T_IMEMO 型オブジェクト化で改名された構造体 struct
+rb_iseq_body をさらに struct rb_iseq_constant_body と struct
+rb_iseq_variable_body と2つの構造体に分割して、coverage 情報の格納用のメンバや
+flip-flop 用のメンバを可変情報用の構造体に分離しています。ほほう…。共有とかす
+るのかなーと思ったけど、もう同じスクリプトをコンパイルしたら iseq は1つしか作ら
+ないはずなのである意味既に共有化はできてるはずですし readability のためですかね
+。

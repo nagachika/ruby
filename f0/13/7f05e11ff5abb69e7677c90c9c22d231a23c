@@ -1,0 +1,2 @@
+r62266 で mjit.c で rb_const_get() で File::NULL の内容を取得していましたが、直
+接 file.c の変数を参照するようにしています。

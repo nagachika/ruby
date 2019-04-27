@@ -1,0 +1,4 @@
+r43245 の vm_trace.c の変更で "clobbered by 'longjmp' or 'vfork'" の警告を抑制
+するために postponed job のインデックスを EXEC_TAG() の前で構造体 save に格納し
+ておくようにしています。 EXEC_TAG() の戻り値を無視してしまっているんですが、フ
+ック内での例外などは無視するようになってるみたいだからまあいいのか。

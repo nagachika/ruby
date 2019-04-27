@@ -1,0 +1,4 @@
+r63092 で --jit-debug オプションがない時に leave 時の VM stack の一貫性チェック
+を省くようにしましたが tool/ruby_vm/views/mjit_compile.inc.erb でコンパイル時
+(ここでいうコンパイルというのはたぶん MJIT による実行時のコンパイルのことかなぁ
+多分)のチェックは行うようにしています。

@@ -1,0 +1,2 @@
+configure で CPPFLAGS に gcc の -Wall オプション(全ての警告出力させるオプション
+)を追加していましたが -Wall は warnflags で指定するので削除しています。

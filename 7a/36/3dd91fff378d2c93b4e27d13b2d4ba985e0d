@@ -1,0 +1,2 @@
+test/date/test_date_arith.rb にテストメソッドなのに test_ で始まっていなかった
+ので実行されてなかったメソッドがあったので prefix を追加しています。

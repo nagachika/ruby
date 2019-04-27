@@ -1,0 +1,2 @@
+rb_sweep_method_entry を呼ぶのを after_gc_sweep から before_gc_sweep にして、少
+しでも早く解放するようにしています。

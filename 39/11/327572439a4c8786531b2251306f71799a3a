@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の rsa_generate() という関数の引数 exp の型を int から
+unsigned long に修正しています。

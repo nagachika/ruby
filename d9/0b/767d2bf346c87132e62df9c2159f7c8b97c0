@@ -1,0 +1,2 @@
+PStore のテストで Thread 間の同期を取るのに sleep で調整していたのを Queue を使
+うようにしています。

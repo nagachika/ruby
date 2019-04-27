@@ -1,0 +1,3 @@
+configure.ac で -std=gnu99 をつけるかどうかの $target_os での分岐チェックを別の
+チェックの AC_CASE() マクロから分離して mingw/cygwin/darwin/netbsd などのプラッ
+トフォームでもチェックするように修正しています。

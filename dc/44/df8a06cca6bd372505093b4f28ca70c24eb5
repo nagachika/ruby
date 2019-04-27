@@ -1,0 +1,4 @@
+String#to_sym で dynamic symbol を大量に作って ObjectSpace.count_symbols のテス
+トをしているテストで Symbol 化する文字列に pid と rand で生成した乱数を含めるよ
+うにして重複しないようにしています。ふーむこれ偶然重複することあるのかな。並列
+テスト時はプロセスも別だろうし…。

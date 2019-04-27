@@ -1,0 +1,2 @@
+グローバル変数の管理に st_table のかわりに id_table.c の struct rb_id_table を
+利用するようにしています。

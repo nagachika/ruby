@@ -1,0 +1,3 @@
+defs/gmake.mk で TEST_DEPENDS の定義に CHECK_TARGETS を利用するため定義順序を入
+れ換えています。 make love や make exam でも make main が実行されるようにしてい
+ます。

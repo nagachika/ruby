@@ -1,0 +1,2 @@
+tool/make-snapshot で実行後の作業ファイル削除の対象に enc/unicode/data を追加し
+ています。

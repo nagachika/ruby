@@ -1,0 +1,2 @@
+Net::HTTP で Net::OpenTimeout が他の例外とまとめて rescue されて即再raise され
+ていたので rescue 節自体を分けるようにリファクタリングされています。

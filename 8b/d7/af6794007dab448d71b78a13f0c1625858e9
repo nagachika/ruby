@@ -1,0 +1,1 @@
+bignum.c の bitsize() というマクロを bit_length() に改名しています。

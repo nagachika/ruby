@@ -1,0 +1,5 @@
+bignum.c の Bignum のビット演算を処理する関数 bigxor_int(), bigor_int,
+bigand_int() で long の値を BDIGIT に対して利用する時に BIGLO() マクロでマスク
+するようにしています。 SIZEOF_BDIGITS が SIZEOF_LONG よりも大きい場合のコードな
+のでおそらく y が負数の時の promotion で上位 bits が 1 埋めされる可能性があった
+のではないかと思います。

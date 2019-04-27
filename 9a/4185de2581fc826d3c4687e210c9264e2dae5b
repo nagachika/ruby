@@ -1,0 +1,4 @@
+test/ruby/test_module.rb から指定した名前を返す inspect/to_s を定義した Module/
+Class を生成する labeled_module, labeled_class というユーティリティメソッドを
+test/ruby/envutil.rb の EnvUtil のモジュール関数として定義するように移動してい
+ます。

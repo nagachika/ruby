@@ -1,0 +1,3 @@
+r55863 で追加した Comparable#clamp のテストで丸めが起きない時には recceiver が
+そのまま返されるはずなのでそのように修正しています。 [ruby-core:66814] [Feature
+#10594]

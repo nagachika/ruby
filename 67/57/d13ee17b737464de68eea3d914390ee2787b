@@ -1,0 +1,6 @@
+RubyVM::InstructionSequence.translate というメソッドが呼べたらそれを呼んで結果
+を返す iseq_translate という関数を追加して、rb_iseq_new_with_opt() の末尾でこの
+関数を通すようにしています。つまり translate を定義しておくとそれ以降コンパイル
+される命令列を動的に(って言うのかな)変更することができるエントリポイントを追加
+できるようです。これはアツい。ただ experimental なので新機能というよりデバッグ
+用の機能という位置付けのようです。

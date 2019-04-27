@@ -1,0 +1,2 @@
+OpenSSL::Cipher#initialize での古い挙動(引数の数)への警告メッセージの typo を修
+正。

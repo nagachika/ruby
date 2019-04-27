@@ -1,0 +1,5 @@
+gc.c でメモリ管理に関する構造の語彙が若干あやふやになっていたので構造体やメンバ
+、マクロ、環境変数などの名称を全体的に変更しています。オブジェクト1つが入る
+RVALUE が slot、slot の集りが page、page の集合を heap と呼ぶということです。構
+造を表した図があります。 https://bugs.ruby-lang.org/attachments/4008/
+data-heap_structure.png r42021 の変更の続きという感じですね。

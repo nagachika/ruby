@@ -1,0 +1,3 @@
+r61616 の Sturct.new の keyword_init キーワード引数を使って作ったクラスのインス
+タンスの Marshal.load の不具合修正で、コンパイラが maybe-uninitialized の警告を
+出すことがあったみたいで、書きかたを少し変更して警告抑制しています。

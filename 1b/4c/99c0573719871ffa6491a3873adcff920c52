@@ -1,0 +1,4 @@
+mkmf.rb で 64bit 環境のシステムのライブラリパスが lib64 になっている(Linux だと
+そうですね)ときにも lib のほうにリンクしようとしてしまうので、config
+(RbConfig::MAKEFILE_CONFIG["libdir"]) を参照して設定されたライブラリディレクト
+リ名を利用するようにしています。 [ruby-core:43726] [Bug #6207]

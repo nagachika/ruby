@@ -1,0 +1,3 @@
+Net::HTTP で SSL 接続する際に OpenSSL::SSL::SSLSocket#session を保存しておいて
+同じオブジェクトで再度通信する時には使い回すようにすることで SSL 接続時の処理を
+スキップして高速化するようにしています。 [ruby-core:39629] [Feature #5341]

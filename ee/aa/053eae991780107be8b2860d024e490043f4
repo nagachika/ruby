@@ -1,0 +1,5 @@
+tool/transform_mjit_header.rb で vm_opt_xxx の最適化命令を実装する関数群を、
+MJIT でコンパイルするためのコード生成時に inline 関数化する最適化。なるほど gcc
+/clang でビルドするから生成するコードでがんばって inline 化しなくても inline 関
+数として宣言すればコンパイラがやってくれる。これで JIT 有効化状態で optcarrot
+がより高速になるそうです。

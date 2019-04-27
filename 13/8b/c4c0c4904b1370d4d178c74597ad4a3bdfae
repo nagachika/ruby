@@ -1,0 +1,3 @@
+bignum.c の integer_unpack_num_bdigits_generic() で VC++ での警告を抑制するため
+に数値の計算の順序を入れ替えています。うーむこれなぜ警告の有無が変化するんでし
+ょうね。

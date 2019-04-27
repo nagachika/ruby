@@ -1,0 +1,2 @@
+r40834 の PP::ObjectMixin の rdoc コメント追加を revert して :nodoc: タグを付与
+しています。

@@ -1,0 +1,4 @@
+r53616 で r53615 で追加した RUBY_ASSERT のマクロ群を利用して VM_ASSERT() を実装
+した時にマクロ名が間違っていたのを修正しています。また vm_core.h で VM_ASSERT
+の定義前に ruby_assert.h を #include するように位置を移動しています。
+[ruby-core:73371]

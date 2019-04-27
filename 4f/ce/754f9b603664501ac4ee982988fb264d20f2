@@ -1,0 +1,4 @@
+OpenSSL.fips_mode メソッドの実装はリンクする OpenSSL が FIPS_mode_set をサポー
+トしている時だけになるようにしています。サポートされていない時に呼ぶと
+OpenSSL::OpenSSLError が発生するようにしています。 [ruby-core:47345] [Feature #
+6946]

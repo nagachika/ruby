@@ -1,0 +1,2 @@
+ruby スクリプトを load するために open する時に binary モードで開いて "\r" を
+parser で処理するようにしています、がこれは次で revert されています。

@@ -1,0 +1,4 @@
+rubyspec の win32ole のテストで r65395 および r65401 で変更してたファイルを
+Windows 以外でも require してしまっていたところがあったので platform_is のブロ
+ックで括るようにしています。さらに InternetExplorer.Application を使ってたとこ
+ろを Scripting.Dictionary を使うように修正。

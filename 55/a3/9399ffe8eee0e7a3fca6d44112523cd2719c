@@ -1,0 +1,2 @@
+variable.c の check_autoload_required() の feature の文字列サイズのチェックで
+RSTRING_LEN() をみるべきところ RSTRING_PTR() をみていたのを修正しています。

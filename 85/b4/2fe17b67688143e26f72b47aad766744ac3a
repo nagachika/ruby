@@ -1,0 +1,4 @@
+拡張ライブラリ objspace の ObjectSpace.memsize_of が返すメモリ使用量に sizeof
+(RVALUE) を追加しています。つまり slot 占めているサイズも加味して返すということ
+ですね。即値は 0 のまま(struct RVALUE の slot を消費しないので)ですね。
+[ruby-core:57666] [Bug #8984]

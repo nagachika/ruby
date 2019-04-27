@@ -1,0 +1,2 @@
+class.c の rb_include_module() と rb_prepend_module() から引数の Module のチェ
+ック部分を ensure_includable() という関数に切り出すリファクタリング。

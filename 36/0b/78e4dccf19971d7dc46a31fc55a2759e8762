@@ -1,0 +1,3 @@
+rb_source_loc() を rb_source_location_cstr() と改名しています。ついでに
+rb_source_location() を使ってたところも rb_source_location_cstr() を呼ぶように
+変更しています。

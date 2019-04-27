@@ -1,0 +1,2 @@
+debug.c の RUBY_DEBUG 環境変数に設定されたデバッグ用項目に Windows 環境での
+codepage の指定のための codepage という項目を追加しています。

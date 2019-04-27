@@ -1,0 +1,2 @@
+configure.in で RUBY_STACK_GROW_DIRECTION (マシンスタックの伸びる方向)の検出が
+HP-UX/AP でエラーになっていたのを修正しています。 [ruby-core:40421] [Bug #5488]

@@ -1,0 +1,3 @@
+ruby_require_internal() で rb_require_internal() を呼んだ時に例外などのエラーを
+無視しているので rb_set_errinfo() で th->errinfo をクリアするようにしています。
+こうしないと例外などが漏れ出してしまうんですよね。

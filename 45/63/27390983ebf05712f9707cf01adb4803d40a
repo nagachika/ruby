@@ -1,0 +1,3 @@
+rb_execution_context_mark() で machine stack の mark 処理を行う条件に ec が現在
+の execution context ではないというのを追加しています。GC 中の context だったら
+別途 mark されるはずだから、ということかなと。

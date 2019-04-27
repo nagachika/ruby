@@ -1,0 +1,3 @@
+test/lib/tracepointchecker.rb で TracePoint のリークチェック時に multi thread
+環境だとうまくチェックできない? みたいで TracePoint.stats の delete の数は無視
+するようにしています。

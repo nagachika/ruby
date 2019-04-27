@@ -1,0 +1,3 @@
+ベンチマーク benchmark/bm_app_answer.rb で定義していたアッカーマン関数のメソッ
+ドを benchmark/other-lang/ack.rb を require することで重複した定義を省くように
+しています。 https://github.com/ruby/ruby/issues/393

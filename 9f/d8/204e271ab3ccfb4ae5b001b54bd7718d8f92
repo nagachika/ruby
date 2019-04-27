@@ -1,0 +1,2 @@
+test/ruby/test_unicode_escape.rb の test_basic で "\uXXXX" 記法のエスケープ不足
+で Windows 環境で失敗していたのを修正しています。

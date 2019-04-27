@@ -1,0 +1,3 @@
+rubyspec のコマンドラインオプション -v のテストで include? の結果に対して
+.should == true って書いてたのを .should include() の記法を使うようにリファクタ
+リングしています。

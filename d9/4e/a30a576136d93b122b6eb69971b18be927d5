@@ -1,0 +1,4 @@
+gc.c の gc_prof_setup_new_record() で getrusage(2) でメモリ使用量を取得するのは
+GC_PROFILE_DETAIL_MEMORY マクロが定義されている時に限るように preprocessor の条
+件を追加しています。また gc_profile_dump_major_reason() でなくなったフラグ
+RESCAN と STRESS のフラグチェックを削っています。

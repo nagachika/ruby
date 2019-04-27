@@ -1,0 +1,3 @@
+r57025 で配列内のリテラルの最適化のために切り出した static_literal_node_p() を
+判定機能だけにして、値をセットするのは static_literal_value() という関数に分離
+しています。

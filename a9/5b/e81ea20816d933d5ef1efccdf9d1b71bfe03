@@ -1,0 +1,2 @@
+r46097 の Psych::EngineManager の削除を revert しています。 [ruby-core:54665]
+[Bug #8344]

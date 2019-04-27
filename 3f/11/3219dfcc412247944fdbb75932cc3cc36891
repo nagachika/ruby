@@ -1,0 +1,3 @@
+r64991 で MinGW で除外するようにした rubyspec の Thread#terminate や r64933 で
+除外した ThreadGroup のテストですが、除外した理由と TODO コメントを追加して戻す
+のを忘れないようにしています。

@@ -1,0 +1,2 @@
+RDoc::RI::Paths.each というメソッドで環境変数 HOME がセットされていない時には
+HOMEDIR 定数を yield しないようにしています。

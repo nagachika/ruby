@@ -1,0 +1,2 @@
+r60736 で Travis CI のテスト失敗の対応のため sudo: required にしておいたのを、
+sudo: false に戻してコンテナでのテストに戻しています。

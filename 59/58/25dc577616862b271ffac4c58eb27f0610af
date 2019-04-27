@@ -1,0 +1,2 @@
+misc/ruby-mode.el の obsolete な変数の利用をやめています。 https://github.com/
+ruby/ruby/pull/290

@@ -1,0 +1,2 @@
+Psych::Parser#parse が SyntaxError を発生させた後で再度 parse を実行すると拡張
+ライブラリの assertion にひっかかってインタプリタが終了してしまう不具合を修正。

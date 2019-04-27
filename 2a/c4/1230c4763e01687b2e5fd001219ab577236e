@@ -1,0 +1,4 @@
+テスト用の test/unit の assert_in_out_err で子プロセスに渡す引数に
+--disable-gems を追加するようにしています。高速化のため。うーん、rubygems が必
+要なテストがあったりしたらどうするんだろ。--enable-gems を明示的に追加すれば良
+いのだろうけど。

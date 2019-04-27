@@ -1,0 +1,2 @@
+r64265 で追記した Process.groups の rdoc 用コメントの uniq を呼んだほうがいいよ
+というサンプルコードで uniq が unique になってたので修正しています。

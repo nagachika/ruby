@@ -1,0 +1,3 @@
+setup_exception() で freeze された例外オブジェクトを raise しようとした時に
+backtrace の設定が必要だったらコピーを作るようにしていましたが、cause の設定の
+ためにもコピーを作るようにしています。

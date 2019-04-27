@@ -1,0 +1,3 @@
+mswin 版で nmake を使ったビルドのエラーの対処。nmake だと rule 部に使えない変数
+を使っていたのをやめるのと win32/Makefile.sub で verconf.h を生成するかわりに
+verconf.in を生成するようにしています。

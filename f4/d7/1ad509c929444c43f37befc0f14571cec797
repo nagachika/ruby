@@ -1,0 +1,8 @@
+rb_method_entry_t と rb_method_definition_t の作成順序をいれかえています。 me->
+def の方向に参照されているのでこれまで def を作ってから me を作るという順序にな
+っていましたが、mark 処理が rb_method_entry_t の mark 関数で def 経由のオブジェ
+クトもマークしていて、def を作った後 me ができる前にオブジェクトが mark されな
+いタイミングがあったようです。 rb_method_entry_make() の中で
+rb_method_entry_create() も呼び出してメモリ確保するようにしています。また
+mark_method_entry() で def が NULL のケースに対応するようにしています。
+[ruby-dev:49049] [Bug #11244]

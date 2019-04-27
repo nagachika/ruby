@@ -1,0 +1,2 @@
+str_new4() で共有文字列を作成する時に ObjectSpace.memsize_of で正しいメモリ使用
+量が返せるように capa もコピーするようにしています。

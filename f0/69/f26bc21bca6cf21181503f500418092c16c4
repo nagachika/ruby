@@ -1,0 +1,2 @@
+bignum.c の struct big_div_struct からさらに xn メンバを削除して j は zn と改名
+しています。 xn はそもそも使われてなかったみたいです。

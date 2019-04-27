@@ -1,0 +1,3 @@
+拡張ライブラリ openssl の OpenSSL::PKey#sign で EVP_MD_CTX_cleanup() の呼び出し
+が抜けててメモリリークしていたのを修正しているようです。 [ruby-core:67550] [Bug
+#10735]

@@ -1,0 +1,5 @@
+tool/rbinstall.rb で default gem の install が Dir.glob の挙動の違い? で
+Windows で失敗していたので事前に Gem::Util.glob_files_in_dir で展開してから渡す
+ようにしています。 Gem::Specification.each_gemspec も中で Gem
+::Util.glob_files_in_dir を呼んでいるので、ワイルドカードが複数になるとだめと
+か? [ruby-core:88699] [Bug #15035]

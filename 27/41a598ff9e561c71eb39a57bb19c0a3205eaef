@@ -1,0 +1,5 @@
+missing/setproctitle.c にて environ というグローバル変数にアクセスしているので
+すが Mac OS X (Darwin) では _NSGetEnviron() というのを使わないといけないそうな
+ので分岐してマクロ定義するようにしています。 vim に ruby を埋め込む時にコンパイ
+ルできない現象の対応だそうです。 [ruby-core:00537] [ruby-core:45615] [Bug #
+6576]

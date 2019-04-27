@@ -1,0 +1,15 @@
+const_tbl のエントリが定数の内容を指す VALUE を直接持っていたものを、
+rb_const_entry_t 型を定義してそれを格納するようにしています。
+rb_const_entry_t は新たに追加されたヘッダファイル constant.h で以下のように定義
+されています。
+typedef enum {
+    CONST_PUBLIC    = 0x00,
+    CONST_PRIVATE   = 0x01,
+} rb_const_flag_t;
+typedef struct rb_const_entry_struct {
+    rb_const_flag_t flag;
+    VALUE value;            /* should be mark */
+} rb_const_entry_t;
+この段階で T_CLASS 型のオブジェクトが持つ定数のテーブルには可視性のフラグを持て
+るようになっています。しかしまだこれだけでは可視性は public に初期化されて変更
+できないようになっています。

@@ -1,0 +1,2 @@
+r66031 のリファクタリングで導入した regparse.c の quantify_property_node() の
+switch 文のスタイルを変更しています。

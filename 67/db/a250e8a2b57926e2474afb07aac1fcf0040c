@@ -1,0 +1,4 @@
+ruby_signal() で sigaltstack(2) が利用できないプラットフォームのために
+SA_SIGINFO のチェックを行なわない実装を追加しています。ふーむ、なんとなく
+defined?(SA_SIGINFO) とかでチェックすればいいような気がするけど USE_SIGALTSTACK
+で分岐してるのはなぜだろう。

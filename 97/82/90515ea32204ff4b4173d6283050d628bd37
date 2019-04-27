@@ -1,0 +1,2 @@
+Module#constants と Module#remove_method の rdoc 用コメントで参照してる他のメソ
+ッドが誤って特異メソッドの記法になっていたのを修正しています。

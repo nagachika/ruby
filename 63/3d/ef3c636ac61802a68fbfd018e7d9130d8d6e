@@ -1,0 +1,4 @@
+dln_find.c で #if defined(_WIN32) で分岐して環境変数 PATH のセパレータを ";" と
+":" どちらを使うかを切り替えていたのを PATH_SEP という定数マクロを利用するよう
+にリファクタリングしています。ちなみに PATH_SEP は include/ruby/defines.h で定
+義されています。

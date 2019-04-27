@@ -1,0 +1,3 @@
+標準添付ライブラリ rexml のテストで REXMLTests::TestDocument::BomTest が
+REXMLTests::TestDocument を継承していたのですが、これが不要だったので
+Test::Unit::TestCase を直接継承するようにしています。

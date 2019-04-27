@@ -1,0 +1,3 @@
+bootstraptest/test_insns.rb で各 VM 命令に対応する文法を compile してみるテスト
+で Strnig#-@ の最適化命令が opt_str_freeze から r58144 で opt_str_uminis に変わ
+ったのでそれに合わせてメッセージを変更しています。

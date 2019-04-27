@@ -1,0 +1,4 @@
+test/ruby/test_notimp.rb の TestNotImplement#test_call_fork で fork した子プロ
+セスで Kernel#sleep による無期限のスリープとタイムアウトの検出のコードを仕込ん
+でわざえとエラーを起こすようにしているようです。 CI でのハングアップの調査のた
+めと思われます。

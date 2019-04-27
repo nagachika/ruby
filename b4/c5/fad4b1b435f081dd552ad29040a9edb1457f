@@ -1,0 +1,3 @@
+r31373 で native_cond_timedwait() を利用するようになりましたが、Windows 版の
+thread_win32.c では native_cond_timedwait() が実装されていなかったので追加して
+います。

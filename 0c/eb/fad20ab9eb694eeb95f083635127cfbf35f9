@@ -1,0 +1,3 @@
+既に CRuby 本体では使われていない rb_thread_select() という API で select(2) が
+EINTR を返した時に対応していないので、ちゃんと対応している rb_thread_fd_select
+() に委譲するように変更しています。 [ruby-core:39102] [Bug #5229]

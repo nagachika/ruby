@@ -1,0 +1,1 @@
+Fixnum#size と Bignum#size も Integer#size に統合されています。

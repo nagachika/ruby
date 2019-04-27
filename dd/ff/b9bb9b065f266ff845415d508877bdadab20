@@ -1,0 +1,3 @@
+gc.c の rb_gc_writebarrier_unprotect_promoted() で RGenGC のデバッグメッセージ
+出力が常に出ていたところ(level が 0 だった)を level =1 にして通常時に出さないよ
+うにしています。

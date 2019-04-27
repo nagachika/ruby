@@ -1,0 +1,2 @@
+SystemCallError の子クラスである例外(Errno::E??? というやつ)の message にはロケ
+ールに依存した Encoding を設定するように。[ruby-dev:42358]

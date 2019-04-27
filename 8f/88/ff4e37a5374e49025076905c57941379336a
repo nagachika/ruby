@@ -1,0 +1,6 @@
+r43973 で導入された struct method_table_wrapper という構造体で method table を
+共有化して重複した GC の mark を防ぐようにしていましたが、これを削除しています
+。そもそも Module の mtbl とその Module を include した時に作られる IClass では
+IClass のほうが寿命が短い(か少くとも同じ)はずなので、IClass 経由の mtbl の mark
+はスキップするように gc_mark_children() を修正して余分な構造体をはさむコストの
+ほうを削っています。なるほど。

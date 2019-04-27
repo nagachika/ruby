@@ -1,0 +1,2 @@
+eval_error.c の print_errinfo() の引数でハイライト処理するかどうかの指定をする
+colored の仮引数名を highlight に変更しています。

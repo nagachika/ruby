@@ -1,0 +1,3 @@
+Enumerable#chunk と Enumerable#slice_before のブロックのブロックパラメータの2つ
+目に state を受け取る呼び方は deprecate として、警告を出力するようにしています
+。

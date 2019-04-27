@@ -1,0 +1,2 @@
+include/ruby/missing.h で explicit_bzero() が memset_s() で実装されているケース
+で直接 inline 展開されるようにマクロを定義しています。

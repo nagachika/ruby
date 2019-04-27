@@ -1,0 +1,2 @@
+Module#define_method で定義したメソッドが public になるように修正しています。
+[ruby-core:71762] [Bug #11754]

@@ -1,0 +1,3 @@
+これも Windows でのパスの長さの制限の関係でしょうか。 get_special_folder() とい
+う関数で SHGetPathFromIDListW() のかわりに SHGetPathFromIDListEx() を使ってバッ
+ファサイズをチェックしつつパスを取得するようにしています。

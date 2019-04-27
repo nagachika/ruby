@@ -1,0 +1,3 @@
+Digest:??? クラスの hexdigest は16進数表記なので ASCII 文字のみ含む文字列を返す
+ので、エンコーディングが ASCII-8BIT だったのを US-ASCII で返すように変更してい
+ます。 [ruby-core:46792][Bug #6799]

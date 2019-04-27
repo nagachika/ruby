@@ -1,0 +1,4 @@
+拡張ライブラリ pty で ioctl(2) の I_PUSH を使う前に I_FIND という request を試
+すようにしています。Solaris でのテストの失敗の修正のためだそうです。 Solaris で
+ioctl(2) に I_PUSH で "ldterm" を渡すと重複した CR ("\r") が送信されることがあ
+るそうで、うーむ難しい。 [ruby-dev:50552] [Bug #14786]

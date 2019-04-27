@@ -1,0 +1,3 @@
+同じく DL::CPtr で rb_respond_to() + rb_funcall() でメソッドの有無を調べて呼ん
+でいるところを rb_check_funcall() という類似のことをする関数の呼び出しに置き換
+えています。

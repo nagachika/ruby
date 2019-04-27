@@ -1,0 +1,2 @@
+NameError.new の rdoc 用コメントにキーワード引数 receiver についての記述を追加
+しています。

@@ -1,0 +1,3 @@
+rb_vm_make_proc() から lambda 型の Proc オブジェクトかどうかのフラグを渡す関数
+rb_vm_make_proc_lambda() を切り出して proc_new() でも再利用するようにしています
+。

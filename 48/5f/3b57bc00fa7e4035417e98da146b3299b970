@@ -1,0 +1,3 @@
+hash.c の小さめの Hash の array hash 実装の時に使われる関数 linear_update() で
+bin を RHASH_ARRAY_MAX_BOUND で初期化するようにしています。 gcc 4.8 での(誤っ
+た)警告抑制のためみたいです。 [ruby-core:89780] [Bug #15299]

@@ -1,0 +1,2 @@
+test/rexml/test_core.rb で不要な assert_nothing_raised で括っていた処理を
+assert なしにしています。

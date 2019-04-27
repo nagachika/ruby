@@ -1,0 +1,3 @@
+complex.c の rb_dbl_complex_polar() という関数を rb_dbl_complex_polar_pi() に改
+名しています。引数が radian ではなくて、関数内で PI が掛けられることを明示する
+ため。おお、そうなのかー。

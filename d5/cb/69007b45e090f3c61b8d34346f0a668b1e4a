@@ -1,0 +1,5 @@
+r40779 で追加した template/verconf.h.in のクオート漏れを修正。と、思いきやこれ
+は typo ではなかったようで次の r40781 で revert されています。template/
+verconf.h.in は verconf.h.in のテンプレートなので verconf.h からさらに
+verconf.h にする時にここの変数参照は展開されて最終的に C 言語の文字列になるから
+これでいいってことですね、きっと。

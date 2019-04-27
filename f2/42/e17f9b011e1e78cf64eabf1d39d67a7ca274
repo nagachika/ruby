@@ -1,0 +1,5 @@
+spawn/exec 時の内部的に利用している fd の扱いについての一連の変更で、
+rb_divert_reserved_fd() という関数を追加して dup2(2) で newfd に指定された fd
+が内部的に timer thread の通知用に使っている pipe の fd と一致していたら、pipe
+の fd を dup(2) で別の fd に変更するようにしています。 [ruby-core:69886] [Bug #
+11336] [ruby-core:69961] [Bug #11350]

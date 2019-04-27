@@ -1,0 +1,5 @@
+また r66319 の再修正。ヘッダーの key を to_s(元は to_str)してから downcase して
+いましたが、先に downcase してから to_str するようにしています。これをもって
+key が downcase があるオブジェクトであるという前提を入れてるんですね。うーんけ
+どそれだったらやっぱり to_str してから downcase でもいいような。
+[ruby-core:90384] [Bug #15394]

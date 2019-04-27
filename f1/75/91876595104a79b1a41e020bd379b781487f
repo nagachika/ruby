@@ -1,0 +1,4 @@
+NEWS ファイルに openssl の追加機能として TLS v1.1 と v1.2 のサポートと client
+renegotiation の機能追加と OpenSSL::SSL::OP_DONT_INSERT_EMPTY_FRAGMENTS による
+BEAST attack 対策(これはよくわかりませんでした。どこコミットのことだろう)を追記
+しています。

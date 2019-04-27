@@ -1,0 +1,3 @@
+compile.c の compile_case2() で branchif 命令を直接吐かずに
+compile_branch_condition() 関数を使ってコンパイルするようにリファクタリングして
+います。

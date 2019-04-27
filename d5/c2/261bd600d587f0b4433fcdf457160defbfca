@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の WIN32OLE::Variant への Fixnum からの変換で VT_I4 で
+オーバフローした時に VT_I8 を利用するようにする修正。

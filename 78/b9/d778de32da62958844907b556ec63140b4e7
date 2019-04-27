@@ -1,0 +1,4 @@
+tool/gen_dummy_probes.rb で不要な preprocessor の #pragma directive を消してい
+たところで #include, #if, #endif なども削除するようにしています。
+また common.mk と ext/ripper/depend で不要になった vm_opts.h への依存関係を削除
+しています。

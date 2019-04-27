@@ -1,0 +1,1 @@
+rb_str_intern() の不要な RB_GC_GUARD() の削除。

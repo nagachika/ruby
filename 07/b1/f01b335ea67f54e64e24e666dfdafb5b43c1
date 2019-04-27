@@ -1,0 +1,4 @@
+enc/shift_jis.c と enc/euc_jp.c の property_name_to_ctype() で ALLOCA_N(マシン
+スタック上にメモリ確保)とまちがえて ALLOC_N(ヒープ上に確保)を使っていてメモリリ
+ークしていたのを修正。
+多分 r29732 で入ったばかりなので 1.9.2 は問題ないと思います。

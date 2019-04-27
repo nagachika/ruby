@@ -1,0 +1,2 @@
+Array#shuffle と #shuffle! の rdoc 用コメントにサンプルを追加しています。
+https://github.com/ruby/ruby/pull/612

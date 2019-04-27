@@ -1,0 +1,3 @@
+rb_timespec_now() と rb_time_timespec_new() という C API を追加しています。
+struct timespec を用いて現在時刻を得たり Time オブジェクトを生成したりする API
+です。

@@ -1,0 +1,2 @@
+r42397 の追加修正。 rb_enc_str_new() に渡す encoding を UTF-8 に固定しています
+。

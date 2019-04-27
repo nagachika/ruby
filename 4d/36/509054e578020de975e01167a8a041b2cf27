@@ -1,0 +1,2 @@
+ext/-test-/old_thread_select/extconf.rb でテスト用の拡張ライブラリのビルドの際
+に -Wno-deprecated-declarations をつけてコンパイルしてみるようにしています。

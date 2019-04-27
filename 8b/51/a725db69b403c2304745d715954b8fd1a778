@@ -1,0 +1,3 @@
+標準添付ライブラリ net/imap の Net::IMAP クラスを Net::Protocol を継承するよう
+にして Net::IMAP.new のオプションに :open_timeout と :read_timeout を追加してい
+ます。 [ruby-core:80440] [Feature #13379]

@@ -1,0 +1,2 @@
+template/fake.rb.in 内で version.i をパースする正規表現でマクロの展開結果の中の
+空白を許容できるようにしています。 [ruby-dev:49047] [Bug #11243]

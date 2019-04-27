@@ -1,0 +1,4 @@
+Kernel#open や File.open などのオプションに :flags を追加して、File::CREAT や
+File::BINARY などのビットフラグの論理和による open(2) の flags のような指定がで
+きるようにしています。おおっ、っていうかこれできないんでしたっけ?
+[ruby-core:69539] [Feature #11253]

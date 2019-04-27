@@ -1,0 +1,2 @@
+r51320 で ObjectSpace.each_object で特異クラスが現れるようになったのにあわせて
+、ObjectSpace.memsize_of_all でも特異クラスをスキップしないようにしています。

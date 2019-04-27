@@ -1,0 +1,4 @@
+File::Statfs のために struct statfs を検出するのに OpenBSD では "sys/param.h"
+を "sys/mount.h" より前に #include しないといけなかったので configure の sys/
+mount.h のヘッダ検出時に sys/param.h も #include するようにしています。
+[ruby-dev:48167]

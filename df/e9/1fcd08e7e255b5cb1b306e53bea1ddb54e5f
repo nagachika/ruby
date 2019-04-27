@@ -1,0 +1,4 @@
+Float#round や Integer#round, Rational#round に half というキーワード引数を追加
+して :even か :up を指定すると、ちょうど中間の時にその1桁上が偶数になるように丸
+めるか、切り上げるかを指定できるようにしています。 [ruby-core:76273] [Bug #
+12548]

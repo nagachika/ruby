@@ -1,0 +1,3 @@
+標準添付ライブラリ time.rb の Time.rfc2822 の year の推測方法の修正と Time#
+localtime に指定のタイムゾーンを反映するようにする修正、および Time.xmlschema
+も Time#localtime にタイムゾーンの指定を反映させるように修正しています。

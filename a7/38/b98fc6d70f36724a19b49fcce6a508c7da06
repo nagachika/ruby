@@ -1,0 +1,5 @@
+シグナルハンドラについてのテスト test_propagate_signaled と test_hup_me で
+Signal.trap に "DEFAULT" を渡してデフォルトのシグナルハンドラにリセットしてから
+テストするようにしています。親プロセスのシグナルハンドラの影響を受けないように
+しています。また test_hup_me のほうは元々 fork せずにテストしていたので
+assert_separately を使って子プロセスでテストするように修正しています。

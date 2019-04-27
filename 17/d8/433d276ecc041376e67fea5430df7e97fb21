@@ -1,0 +1,5 @@
+r62060 で tool/vcs.rb に追加した(Refinements のかわりの DebugSystem で 2.6 系で
+は system のキーワード引数 exception がそのまま渡せるので渡すようにしています。
+また VCS にも Module#prepend で system メソッドを上書きするようにしています。あ
+れ VCS で再定義されてるところはなさそうだし Kernel に prepend したので効くよう
+な気がするけどなぁ。

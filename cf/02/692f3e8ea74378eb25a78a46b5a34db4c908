@@ -1,0 +1,4 @@
+Enumerable#sort_by, #min_by, #max_by などのメソッドでオブジェクトの比較に
+OPTIMIZED_CMP() マクロを使うようにしてメソッド呼び出しが不要な場合はショートカ
+ットするようにする最適化。 https://github.com/ruby/ruby/pull/1584
+[ruby-core:80689] [Bug #13437]

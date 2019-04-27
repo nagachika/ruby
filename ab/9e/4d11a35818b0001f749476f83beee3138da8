@@ -1,0 +1,2 @@
+vm_insnhelper.c の VM_CALLEE_SETUP_ARG() という関数マクロを vm_callee_setup_arg
+() という inline 関数として定義しなおすリファクタリングです。

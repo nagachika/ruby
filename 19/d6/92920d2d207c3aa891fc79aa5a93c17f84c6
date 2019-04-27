@@ -1,0 +1,4 @@
+けっこう前から Thread#name= で Thread に名前を付けることができ、この時に背後の
+native thread (pthread) でもサポートされていれば名前を付けるようにしていました
+が、Windows の Thread でも SetThreadDescription() という API を利用して名前を付
+けるようにしています。

@@ -1,0 +1,4 @@
+Enumerator#feed のドキュメント更新。サンプルコードを詳しくしています。
+Enumerator#feed は次の Enumerator の元になってる each メソッドからの yield が返
+す値を指定するものです。 [ruby-core:36373] [Bug #4757]
+Enumerator#feed の動作は言葉で表現しにくいですね。

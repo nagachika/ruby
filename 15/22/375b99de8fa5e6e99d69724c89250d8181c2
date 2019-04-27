@@ -1,0 +1,5 @@
+bignum.c のリファクタリング。 bary_2comp() から BDIGIT の配列をビット反転する処
+理を bary_neg() として切り出し、BDIGIT の配列で表現された整数に1を加算する処理
+を bary_plus_one() として切り出し、get2comp() から桁上がりでバッファを1つ増やす
+処理を big_extend_carry() として切り出し、それぞれ別の箇所でも共用するようにし
+ています。

@@ -1,0 +1,2 @@
+tool/downloader.rb の RubyGems のダウンロード用メソッドで引数 url は不要だった
+ので削除しています。

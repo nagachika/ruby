@@ -1,0 +1,4 @@
+Array#sum および Enumerable#sum で数値の和を取る時の最適化で Float::INFINITY を
+含んでいた時の結果が Float::NAN になってしまいまともにループした時と結果が変わ
+ってしまう不具合を修正しています。正のInfinity と負の Infinity を足した場合は
+NaN になるんですね。 [ruby-core:88024] [Bug #14926]

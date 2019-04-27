@@ -1,0 +1,3 @@
+drb のテストで assert を直接使っていたところで assert_respond_to や
+assert_operator などの assertion メソッドを利用するようにリファクタリングしてい
+ます。

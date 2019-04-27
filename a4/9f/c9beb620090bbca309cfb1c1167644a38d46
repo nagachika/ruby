@@ -1,0 +1,3 @@
+ext/curses/rain.rb という curses のサンプル? でシグナルのシグナル番号 1 から 15
+まで全てのハンドラを登録しようとしていまたが、SIGHUP、SIGINT、SIGQUIT、SIGTERM
+だけ設定するようにしています。

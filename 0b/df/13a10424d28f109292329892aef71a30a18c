@@ -1,0 +1,2 @@
+r52168 の Borland-C のサポート削除の続き。 include/ruby/backward/util.h にも
+defined __BORLANDC__ がありました。

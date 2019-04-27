@@ -1,0 +1,3 @@
+Thread.exclusive というメソッドを deprecated として呼ばれたら警告を出力するよう
+にしています。あれ、まだあったんだ…。 Thread.critical= と一緒に葬られたかと思
+ってました。

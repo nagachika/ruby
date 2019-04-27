@@ -1,0 +1,4 @@
+process.c の retry_fork() で親プロセスは after_fork() を呼ばないといけないのに
+fork() がエラーを返した時に呼んでいなかったのを修正しています。また
+rb_fork_internal() では子プロセスの時のみ after_fork() を呼ぶように条件を変更し
+ています。

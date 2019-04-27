@@ -1,0 +1,2 @@
+internal.h から #include "ruby/io.h" を削除して必要なソースファイルで個別に #
+include "ruby/io.h" するようにしています。

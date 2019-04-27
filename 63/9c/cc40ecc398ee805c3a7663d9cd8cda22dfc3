@@ -1,0 +1,2 @@
+tool/mkconfig.rb の生成する rbconfig.rb に rdoc 用のコメントを埋め込むようにし
+ています。

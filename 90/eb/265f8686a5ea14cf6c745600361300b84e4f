@@ -1,0 +1,2 @@
+doc/pty/README を削除して ext/pty/pty.c にライセンス表記を追記(移動)しています
+。

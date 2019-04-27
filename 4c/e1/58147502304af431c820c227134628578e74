@@ -1,0 +1,2 @@
+WEBrick にて keep_alive? が有効なのに chencked? が false でかつ content-length
+が設定されていないレスポンスを返した時にソケットを切断するようにしています。

@@ -1,0 +1,4 @@
+標準添付ライブラリ mkmf.rb で Mac OS X の時に -framework オプションを追加する変
+数を $LDFLAGS から $LIBS に修正しています。 configre --enable-static-linked-ext
+で拡張ライブラリを静的リンクした時にもオプションが引き継がれるようにしているそ
+うです。

@@ -1,0 +1,8 @@
+crt_externs.h の存在チェックをする configure.in の AC_CHECK_HEADERS() に第4引数
+の includes に #include directive を明示的に指定するようにしています。 autoconf
+のドキュメントを読むと preprocessor によるチェックと compiler によるチェックの
+両方を行なって、両者が食い違う場合デフォルトではコンパイラの結果を優先するとあ
+ります。コミットログにも compiler の結果を利用するようにするとあるので指定する
+意味があるのかどうかよくわかりませんが。 (参考URL: http://www.gnu.org/
+savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/html_node/
+Generic-Headers.html )

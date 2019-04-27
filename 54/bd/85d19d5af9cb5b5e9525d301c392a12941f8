@@ -1,0 +1,2 @@
+r49083 の再修正。標準添付ライブラリ resolv で dup.force_encoding("ASCII-8BIT")
+のかわりに String#b メソッドを利用するようにしています。

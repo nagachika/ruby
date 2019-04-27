@@ -1,0 +1,4 @@
+Kernel#sprintf および Time のテストで GC 絡みのオブジェクト解放をチェックするテ
+ストで、背後に別の Thread があるとそこから GC が発生して結果が代わってエラーに
+なる可能性があるので、GC.disable にした上で Thread.list に複数の Thread がある
+状態だと skip するようにしています。

@@ -1,0 +1,2 @@
+Matrix#** の引数に Float や Rational も受け付けるように拡張しています。ここで
+Matrix#eigensystem を使っているんですね。

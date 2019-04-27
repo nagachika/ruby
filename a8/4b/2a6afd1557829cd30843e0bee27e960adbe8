@@ -1,0 +1,2 @@
+r48423 の続き。 default_proc_for_compat_func() から compat_key() を切り出して
+gc_stat_internal() でも使いまわすようにしています。

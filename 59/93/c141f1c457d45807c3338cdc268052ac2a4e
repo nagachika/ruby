@@ -1,0 +1,4 @@
+GC.stat に新たに heap_eden_page_length と heap_tomb_page_length の2つの heap ご
+との page 数の項目を追加しています。どうやら GC のテストで GC.stat
+[:heap_length] を使っていたところが eden heap の page 数のみカウントしないとい
+けなかったためテストが失敗することがあったのを対処するために追加したようです。

@@ -1,0 +1,3 @@
+lib/bundler/setup.rb の最初に toplevel return を追加して Gem が未定義の時には実
+行しないようにしています。 rubygems は使わずに bundler を使う? っていうシチュエ
+ーションがあまり想像できないけど。

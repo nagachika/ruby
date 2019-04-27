@@ -1,0 +1,2 @@
+template/prelude.c.tmpl で {$(VPATH)} の prefix を除去してファイル名相対パスを
+取得するようにしています。

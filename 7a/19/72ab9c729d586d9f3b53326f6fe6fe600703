@@ -1,0 +1,3 @@
+r46017 の Socket::Option#inspect での TCP_INFO の対応のために拡張ライブラリ
+socket の extconf.rb で構造体 struct tcp_info のメンバーの存在チェックをしてい
+たのを、構造体が存在した時だけ実施するようにしています。

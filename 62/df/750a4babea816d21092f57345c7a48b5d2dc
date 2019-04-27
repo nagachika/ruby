@@ -1,0 +1,1 @@
+ruby_cleanup() の rdoc の typo 修正。 [ruby-core:45755] [Bug #6619]

@@ -1,0 +1,4 @@
+AIX で time.c がコンパイルエラーになるため #include <strings.h> を追加していま
+す。
+ffs(3)? http://www.unix.com/man-page/POSIX/3posix/ffs/ ふーむ最も最下位で1にな
+っているビットの位置を返す POSIX で定義されている関数と。

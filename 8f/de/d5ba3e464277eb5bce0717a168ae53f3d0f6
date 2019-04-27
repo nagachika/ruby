@@ -1,0 +1,2 @@
+標準添付ライブラリ benchmark でも if __FILE__ == $0 で括られたサンプルコードが
+あったのを sample/benchmark.rb に分離しています。

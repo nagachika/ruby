@@ -1,0 +1,3 @@
+Array#sort で要素の比較を Fixnum と String の時にメソッド呼び出しによらず直接比
+較する最適化を行なっていたのと同様の最適化を Enumerable#minmax でも適用するよう
+にしています。

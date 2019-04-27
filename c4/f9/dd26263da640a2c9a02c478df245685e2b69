@@ -1,0 +1,5 @@
+ISeq の iseq_catch_table_entry::type に格納する enum catch_type は内部で配列オ
+ブジェクトに格納されるため、整数値をそのままではなくて INT2FIX() で Fixnum にし
+ています。こうしておかないと、ObjectSpace でその配列オブジェクトに触ったときに
+不正なオブジェクトとして見えてしまう(VALUE 型で == 4 というのは 64bit 環境であ
+りえない値)という問題があったそうです。 [ruby-dev:46695] [Bug #7502]

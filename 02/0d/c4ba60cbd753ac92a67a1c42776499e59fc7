@@ -1,0 +1,4 @@
+configure --disable-rubygems オプションを追加して、これが指定された時は自動的に
+rubygems を組み込まなくしているみたいです。明示的に require するのはできそう。
+デフォルトはこれまで通りの挙動(rubygems が組み込まれる)の --enable-rubygems で
+す。

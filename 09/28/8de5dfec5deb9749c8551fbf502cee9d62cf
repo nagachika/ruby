@@ -1,0 +1,2 @@
+include/ruby/ruby.h の NUM2SSIZET のキャストする型が間違っていた(ssize_t のはず
+が size_t だった)のを修正しています。

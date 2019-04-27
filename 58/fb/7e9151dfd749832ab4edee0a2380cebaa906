@@ -1,0 +1,2 @@
+r34834 の ChangeLog に記述のあった test_io.rb の IO#pos のテストをする時に open
+の mode 引数に "b" を追加してバイナリモードで開くようにしています。

@@ -1,0 +1,3 @@
+r45047 の拡張ライブラリ socket の Socket.getaddrinfo の workaround でコンパイラ
+警告を除去するために HAVE_INET_PTON が定義されている時だけ利用される変数の定義
+をその #ifdef の中に移動しています。

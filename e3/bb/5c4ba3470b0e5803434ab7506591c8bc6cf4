@@ -1,0 +1,3 @@
+defs/gmake.mk のテストのターゲットが複数回現れた時に順番に実行するように定義し
+ている変数 ORDERED_TEST_TARGETS に test-bundler-prepare test-bundler も追加して
+います。

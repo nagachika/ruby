@@ -1,0 +1,3 @@
+rubygems の uninstall コマンド処理で require "rubygems/installer" が抜けていた
+のを追加。その他テストの修正など。削除しているテストはいいのだろうか。
+[ruby-core:33216] [Bug #4062]

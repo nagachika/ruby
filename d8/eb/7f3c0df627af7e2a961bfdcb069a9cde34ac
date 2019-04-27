@@ -1,0 +1,4 @@
+r44175 の include/prepend と alias の組み合わせの不具合修正で method entry の
+me->klass を代入しているところで method entry の所有者の Class からの参照の変更
+による Write Barrier 挿入漏れを修正しています。このテストで GC
+.verify_internal_consistency が利用されています。

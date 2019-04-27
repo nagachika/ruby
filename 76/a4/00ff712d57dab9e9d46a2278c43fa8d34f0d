@@ -1,0 +1,2 @@
+hash.c の Hash#values でも同様に結果の配列を Hash の要素数ぶんの capacity を確
+保して生成するようにしています。

@@ -1,0 +1,3 @@
+Kernel#sprintf の精度を引数で指定した時に width が 0以下の時に不正メモリアクセ
+スする可能性があったのを修正しています。 mruby の issue を参考にして修正したみ
+たいですね。 https://github.com/mruby/mruby/issues/3347

@@ -1,0 +1,2 @@
+rexml のテストで assert_equal の expected と actual が反対になっていたところが
+あったので修正しています。

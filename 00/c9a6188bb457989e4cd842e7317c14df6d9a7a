@@ -1,0 +1,3 @@
+vm_core.h の signal の種類の数のマクロ NSIG は標準化されていないそうなので
+NSIG_MAX, _SIG_MAXSIG, _SIGMAX などのマクロをチェックして使うようにしています。
+QNX ってずいぶん久しぶりにきいた。

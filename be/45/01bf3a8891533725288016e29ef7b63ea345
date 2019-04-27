@@ -1,0 +1,3 @@
+と思ったら r53522 の MSPECOPT=-fm はやっぱり test-rubspec の時に渡すように修正
+されていました。また make test の時のオプションは TESTOPTS 変数経由で渡すように
+修正されています。

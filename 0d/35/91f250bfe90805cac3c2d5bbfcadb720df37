@@ -1,0 +1,2 @@
+gc.c のデバッグ用関数 obj_info() で T_IMEMO 型のオブジェクトが method entry の
+時メソッド名も表示するようにしています。

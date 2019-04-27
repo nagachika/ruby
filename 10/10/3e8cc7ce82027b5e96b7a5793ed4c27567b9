@@ -1,0 +1,3 @@
+r39302 での条件コンパイルの条件を修正して backtrace(3) があった時でも libunwind
+の unw_backtrace() が使えたらそちらを利用するようにしています。(修正前も上書き
+していましたが HAVE_BACKTRACE の再定義になっていた。

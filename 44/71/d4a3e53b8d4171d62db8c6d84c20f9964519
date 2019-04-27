@@ -1,0 +1,3 @@
+Time オブジェクトの Marshal.load 時にも timezone オブジェクトを find_timezone
+メソッドで変換するようにしていましたが、例外発生時に rescue してそのまま
+fstring 化した文字列を使うようにしています。

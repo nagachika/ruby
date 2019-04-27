@@ -1,0 +1,3 @@
+debug.c の ruby_debug_printf() で標準エラー出力にオブジェクトの内容をダンプする
+時に rb_inspect() を使っていたのを rb_raw_obj_info() を呼び出して内部情報を取り
+出すようにしています。

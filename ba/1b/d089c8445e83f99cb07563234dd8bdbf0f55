@@ -1,0 +1,2 @@
+NEWS ファイルに refinement の機能で追加されたメソッド(Module#refine, Module#
+refinements, Module#using, Kernel#using)について追記しています。

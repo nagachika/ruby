@@ -1,0 +1,2 @@
+r65834 以降徐々に追加されてきた Fiber の独自 coroutine 実装を ppc64le の Linux
+向けの実装を追加しています。

@@ -1,0 +1,3 @@
+r66464 と(特に) r66466 の続きで、Hash リテラルのための duphash 命令のオペランド
+に埋め込んでる Hash オブジェクトを hide したので diasm 時にも rb_hash_resurrect
+() して hide されてないオブジェクトをみせるようにしています。

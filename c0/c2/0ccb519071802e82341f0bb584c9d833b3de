@@ -1,0 +1,3 @@
+iseq_add_mark_object(), iseq_add_mark_object_compile_time(),
+rb_iseq_add_mark_object() などの関数の引数の rb_iseq_t * に const 修飾子を付け
+ています。

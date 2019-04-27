@@ -1,0 +1,3 @@
+test/-ext-/string/test_modify_expand.rb の文字列サイズの拡張のオーバフローにつ
+いてのテストで size_t が long よりもサイズが大きい環境ではスキップするようにし
+ています。

@@ -1,0 +1,2 @@
+.travis.yml で before_install 項目をトップレベルに書いてたのを各 build matrix
+内に移動しています。

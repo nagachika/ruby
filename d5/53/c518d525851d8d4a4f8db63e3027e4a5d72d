@@ -1,0 +1,2 @@
+r43753 で追加した Digest の bubblebabble のテストで expectation と actual の引
+数の順番が逆だったので修正しています。

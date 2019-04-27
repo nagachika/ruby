@@ -1,0 +1,2 @@
+Array#concat や String#concat, String#prepend に複数の引数を受け付けて一度に追
+加することができるようにしています。 [ruby-core:75264] [Feature #12333]

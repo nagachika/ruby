@@ -1,0 +1,2 @@
+r65343 で追加した newhashfromarray 命令に VM 命令の attribute の leaf = false
+の指定を追加しています。

@@ -1,0 +1,5 @@
+拡張ライブラリ curses の cueses でチェックの順序の入れ替えと、socket の
+extconf.rb で UNIX ドメインソケットでの fd passing のチェックを recvmsg の存在
+チェックと struct msghdr のメンバ msg_control の存在チェックの結果をみて利用可
+能なときだけチェックするようにしています。いずれも不要なチェックを省くだけで結
+果には影響なさそうな気がします。

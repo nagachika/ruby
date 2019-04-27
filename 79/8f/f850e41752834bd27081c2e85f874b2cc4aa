@@ -1,0 +1,2 @@
+configure で struct timeval が存在するかチェックするようにしています。そして存
+在する時だけ sys/time.h を include するようにしています。

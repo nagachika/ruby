@@ -1,0 +1,3 @@
+UNIXSocket の connect(2) で失敗した時の SystemCallError 例外発生時に UNIXSocket
+のアドレス(パス)の文字列に NUL 文字('\0')を含めることができることを考慮して
+rb_inspect() で文字列化してから渡すようにしています。

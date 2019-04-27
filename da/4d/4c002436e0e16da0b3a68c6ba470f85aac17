@@ -1,0 +1,3 @@
+parse.y の parse_ident() で識別子を作る時に文字列の長さは既に知っているので
+rb_intern() のかわりに rb_intern2() を直接呼んで不要な strlen(3) を呼ばないよう
+に最適化しています。

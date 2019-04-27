@@ -1,0 +1,4 @@
+enc/unicode/case-folding.rb で CaseMapping と CaseMappingDummy というクラスを導
+入して、元となるデータの指定時に生成するようにしています。しかし今は中身はほと
+んどなくて使われてないようです。
+しかしさっき r53762 で追加した ChangeLog が上書きされて消えていますね。

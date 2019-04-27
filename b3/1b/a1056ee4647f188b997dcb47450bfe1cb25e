@@ -1,0 +1,3 @@
+Complex の内部表現を正規化する nucomp_s_canonicalize_internal() で f_real_p()
+で real? メソッド呼び出ししていたところを直接 RB_TYPE_P() で T_COMPLEX 型オブジ
+ェクトかどうかをみてチェックするように変更しています。

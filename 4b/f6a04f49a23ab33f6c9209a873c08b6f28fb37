@@ -1,0 +1,3 @@
+標準添付ライブラリ scanf の浮動小数点数の対数表現の時の E/e の後に符号がなくて
+も受け付けるように修正しています。おおー。でも最近 scanf 使ってないな…。
+https://github.com/ruby/ruby/pull/1689 [ruby-core:82435] [Bug #13833]

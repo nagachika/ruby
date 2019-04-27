@@ -1,0 +1,2 @@
+さらに VALUE と int の変換をやめるため rb_vm_insns_translator_t() という関数の
+返り値の型を int -> VALUE に変更しています。

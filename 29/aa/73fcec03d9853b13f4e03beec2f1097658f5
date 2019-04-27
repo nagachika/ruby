@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle のテストの test_nogvl_poll で MJIT が有効だと失敗していた
+ので skip していましたが、直ってるっぽい? ので skip を消しています。

@@ -1,0 +1,3 @@
+ObjectSpace.define_finalizer のテストで、finalizer が実行されなかった時に skip
+するようにしています。 finalizer は GC を強制しても保守的GCのため必ずしも実行さ
+れないから、かな。

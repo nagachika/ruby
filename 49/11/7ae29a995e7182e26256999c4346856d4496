@@ -1,0 +1,3 @@
+EnvUtil.diagnostic_reports で、子プロセスが特定のシグナルを受信して終了した時に
+は ~/Library/Logs/DiagnosticReports のファイルを消すようにしていましたが、
+SIGTRAP の時もレポートファイルを消すようにしています。

@@ -1,0 +1,2 @@
+compile.c で flip-flop 演算子のコンパイルを compile_flip_flop() という関数に切
+り出して、より短い命令列で実現するように最適化しています。

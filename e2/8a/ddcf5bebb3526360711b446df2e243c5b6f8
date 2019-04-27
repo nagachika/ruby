@@ -1,0 +1,2 @@
+ruby.c の usage() から ruby -h の表示の1行を表示する部分を show_usage_line() と
+いう関数として切り出すリファクタリング。

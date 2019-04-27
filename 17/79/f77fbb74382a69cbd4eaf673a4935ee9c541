@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の ObjectSpace.reachable_objects_from_root で利用されて
+いる rb_objspace_markable_object_p() で既に回収予定のオブジェクトなどは除外する
+ように修正しています。

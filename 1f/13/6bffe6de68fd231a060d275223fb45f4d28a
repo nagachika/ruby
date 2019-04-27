@@ -1,0 +1,2 @@
+rubyspec の Socket でない IO の nonblocking IO のテストを skip するようにしてい
+ます。

@@ -1,0 +1,2 @@
+parse.y で rb_parser_data_type の型情報を parser 用と ripper 用を統合しています
+。

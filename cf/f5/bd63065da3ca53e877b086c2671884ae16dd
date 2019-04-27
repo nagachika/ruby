@@ -1,0 +1,6 @@
+拡張ライブラリ openssl で OpenSSL の内部的に使うための M_ という prefix つきの
+マクロを使っていたところを M_ なしの外部から使うためのマクロ(関数?)を使うように
+しています。これにより不要な OPENSSL_malloc()/OPENSSL_free() でのメモリ領域の確
+保/解放を削除しています。参考URL: https://git.openssl.org/gitweb/?p=
+openssl.git;a=blob;f=CHANGES;h=bf61913d7b01212b4d8b2f3c13d71d645914f67c;hb=
+b6079a7835f61daa9fb2cbf9addfa86049523933#l878

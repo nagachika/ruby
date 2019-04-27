@@ -1,0 +1,4 @@
+拡張ライブラリ socket の Socket.getnameinfo で getaddrinfo(2) が EAI_SYSTEM を
+返した時に例外発生前の rb_freeaddrinfo() で errno が上書きされるのを防ぐため
+errno の値を退避しておくようにしています。 [ruby-core:61820] [Bug #9697]
+[ruby-core:61868]

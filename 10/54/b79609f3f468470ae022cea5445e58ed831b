@@ -1,0 +1,1 @@
+ext/socket/lib/socket.rb から未使用のローカル変数を削除。 [ruby-core:38600]

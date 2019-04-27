@@ -1,0 +1,4 @@
+r34493 で追加したメモリリークチェック用のコードで /proc/self/status を読むとこ
+ろで Solaris 10 ではテキストではなくバイナリデータが読めるためエラーになるので
+external_encoding を ASCII-8BIT に設定しています。 Solaris 10 だと設定の構造体
+の内容がそのままバイナリで読めるそうです。 [ruby-dev:45248] [Bug #6027]

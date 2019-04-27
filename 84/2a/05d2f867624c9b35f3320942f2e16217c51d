@@ -1,0 +1,3 @@
+common.mk の enc.mk を作成するルールで $(BASERUBY) を利用していたのは $
+(BOOTSTRAPRUBY) に変更しています。うーん BOOTSTRAPRUBY ってどういうのだっけ…。
+多分 cross compile 時に関係するんだったと思う。

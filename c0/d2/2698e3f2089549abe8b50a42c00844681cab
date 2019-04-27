@@ -1,0 +1,5 @@
+parse.y の parser_append_options() で変数 default_location へのポインタを & で
+作っていたのを LOC という変数に格納しておいて、それを使うようにリファクタリング
+。ただ NULL_LOC への参照もこの LOC に置き換えてて、それはいいのかなぁ。中身はち
+ょっと違うようだけど(default_location は (1, 0)-(1,0) で NULL_LOC は (0, -1)-
+(0, -1) なので後者は不正な位置情報となってる)。

@@ -1,0 +1,4 @@
+tool/transcode-tblgen.rb で --output オプションが指定されていない時に
+OUTPUT_PREFIX に格納する空文字列のリテラルを dup するようにしています。このファ
+イルには frozen-string-literal: true の magic comment がついているのでそのまま
+だと freeze された文字列が入ってしまうため。

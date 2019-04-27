@@ -1,0 +1,2 @@
+Test::Unit::Assertions#skip で minitest の skip を上書きして、 skip にメッセー
+ジが渡されていないと例外を発生させるようにしています。

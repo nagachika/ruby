@@ -1,0 +1,3 @@
+make srcs しないと lib/unicode_normalize/tables.rb が生成されなかったので
+prelude.c の依存関係に $(LIB_SRCS) を追加して make all で生成されるようにしてい
+ます。

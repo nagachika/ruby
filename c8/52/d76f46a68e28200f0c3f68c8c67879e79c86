@@ -1,0 +1,6 @@
+DRb::DRbUNIXSocket#set_sockopt と WEBrick::Utils::set_close_on_exec の IO#fcntl
+の使い方の間違いを修正しています。 set_sockopt のほうは cmd(操作)に F_SETFL を
+使っていたので F_SETFD を使うようにしたというもの。この2つの差は初めて知ったの
+ですが、F_SETFL はファイル毎のフラグの設定で F_SETFD は file descriptor 毎のフ
+ラグの設定、F_SETFL は同じファイルを異なる file descriptor で開いた場合にも共有
+されるという点が違います。

@@ -1,0 +1,2 @@
+String#tr の rdoc 用コメントでバックスラッシュをエスケープするようにしています
+。 https://github.com/ruby/ruby/pull/1063

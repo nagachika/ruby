@@ -1,0 +1,8 @@
+Test::Unit に gemspec を追加していわゆる fakegem として扱うようにしています。他
+の gem 化されている標準ライブラリは元々 rubygems パッケージがある外部のライブラ
+リを標準添付していて gem update で ruby 本体はそのままにライブラリだけ更新でき
+るというものだと思いますが、test-unit は標準添付されているものとは別に
+test-unit.gem が存在していて、 gem install test-unit でインストールするとそちら
+の rubygems のパッケージのほうを使うようにするという、しくみは同じですがちょっ
+と目的が異なる gem 化のようです(勘違いしていたら教えてください)。
+[ruby-dev:46051] [Feature #6875]

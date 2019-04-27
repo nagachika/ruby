@@ -1,0 +1,3 @@
+そして tool/ifchange と win32/ifchange.bat に --debug オプションを追加していま
+す。 tool/ifchange は set -x で shell のトレース出力(っていうのかな)を有効にし
+て、win32/ifchange.bat では echo on というのをしているようです。

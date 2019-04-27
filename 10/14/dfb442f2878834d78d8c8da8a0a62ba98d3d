@@ -1,0 +1,2 @@
+拡張ライブラリ io/console に IO#beep メソッドが追加されています。 Windows では
+MessageBeep() が呼ばれ、それ以外では '\a' の control 文字を出力しています。

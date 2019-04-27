@@ -1,0 +1,3 @@
+version.h の RUBY_RELEASE_DATE を RUBY_RELEASE_YEAR, RUBY_RELEASE_MONTH,
+RUBY_RELEASE_DAY などのマクロ定数を元にして生成させるようにしています。
+これが svn さんとの攻防の始まりになろうとは…。

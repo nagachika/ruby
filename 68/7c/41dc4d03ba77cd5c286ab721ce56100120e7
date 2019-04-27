@@ -1,0 +1,4 @@
+fd_set_cloexec() で標準入力、標準出力、標準エラー出力の file descriptor では常
+に FD_CLOEXEC は(仮に指定されても)立てないようにしています。また rb_cloexec_dup
+() の実装は rb_cloexec_fcntl_dupfd() へ移動してこれを利用するようにリファクタリ
+ングしています。

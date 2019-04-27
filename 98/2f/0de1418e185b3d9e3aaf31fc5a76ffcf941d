@@ -1,0 +1,4 @@
+lib/unicode_normalize/normalize.rb と tool/unicode_norm_gen.rb で require して
+いるファイル名を変更しているのですが、この unicode_normalize/tables.rb ってまだ
+追加されていないようです…。まだこの一連の変更は途中なんですかね。 [Feature #
+10084]

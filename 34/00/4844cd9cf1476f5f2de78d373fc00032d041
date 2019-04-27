@@ -1,0 +1,1 @@
+bignum.c の big2str_orig() を big2str_2bdigits() に改名しています。

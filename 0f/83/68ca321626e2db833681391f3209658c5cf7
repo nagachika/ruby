@@ -1,0 +1,3 @@
+ISeq のバイナリフォーマットダンプ時のアライメントをさらに
+ibf_dump_object_object() にも追加。また ibf_load_object() でロード時のオフセッ
+トのチェックも強化しています。

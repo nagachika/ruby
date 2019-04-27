@@ -1,0 +1,3 @@
+tool/ruby_vm/views/_mjit_compile_insn.erb から VM 命令のスースコードのマクロ展
+開する部分を tool/ruby_vm/views/_mjit_compile_insn_line.erb というテンプレート
+ファイルに切り出しています。

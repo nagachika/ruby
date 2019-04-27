@@ -1,0 +1,2 @@
+check_funcall_missing() でメソッド名を Symbol に変換して渡していたのを ID のま
+ま mid として扱うようにして SYM2ID() を呼ばないようにしています。

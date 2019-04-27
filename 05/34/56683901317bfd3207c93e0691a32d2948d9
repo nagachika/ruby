@@ -1,0 +1,3 @@
+add_modules() で内部的オブジェクトの Array や String を RBASIC_CLEAR_CLASS() を
+使って klass をクリアしていたのを、専用の関数 rb_ary_tmp_new() や
+rb_str_tmp_new() を利用するようにしています。

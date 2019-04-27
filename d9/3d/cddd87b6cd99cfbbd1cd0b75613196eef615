@@ -1,0 +1,2 @@
+r52949 の ISeq の binary の dump/load 機能追加時に追加された依存関係を common
+.mk に反映させています。

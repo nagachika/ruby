@@ -1,0 +1,5 @@
+symbol.c に rb_cstr_intern() という関数を追加して、C の文字列から fake string
+(ObjectSpace からは確保せずその場で struct RString に文字列オブジェクトを偽装す
+る構造を作る)を作ってそれを引数に rb_str_intern() を呼んで Symbol を返すように
+しています。
+しかし今のところ利用はしていないみたいですね。

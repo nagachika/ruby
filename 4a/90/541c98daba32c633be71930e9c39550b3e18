@@ -1,0 +1,4 @@
+r37889 と r39189 で追加されたファイルの svn property 設定。
+ちなみに test/rdoc/test.ja.large.rdoc は r35531 で一旦 test/rdoc/
+test.ja.largedoc に改名されたものが再度追加されていて、今は2つ同じファイルがあ
+る状態です。どっちか消してよさそうですけど、どっちが有効なんでしょう。

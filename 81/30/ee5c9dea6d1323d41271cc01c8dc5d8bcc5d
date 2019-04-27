@@ -1,0 +1,3 @@
+\u{XXXX} の記法の parse の処理で不正な codepoint のチェックを
+parser_tokadd_utf8() から parser_tokadd_codepoint() へ移動して1箇所にまとまるよ
+うにしています。

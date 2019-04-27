@@ -1,0 +1,4 @@
+array.c に ary_mem_clear() という Array のバッファの指定した範囲を Qnil でクリ
+アする関数を追加して各所で利用するようにしています。また Write Barrier なしの
+RARRAY_RAWPTR() でよいところを RARRAY_PTR() から置き換える変更もいくつか一緒に
+しています。

@@ -1,0 +1,3 @@
+RGenGC の不具合修正。 gc_marks() で minor GC を実行すべきところで gc_marks_body
+() の第3引数に FALSE を渡していて、full GC (major GC) を実行してしまっていたの
+を修正しています。

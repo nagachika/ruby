@@ -1,0 +1,3 @@
+r60558 で削除されてた rb_frame_method_id_and_class() を復活させて、deprecated
+にマークするようにしています。誰も使ってないと思ったけど rbtrace で利用していた
+みたいです。

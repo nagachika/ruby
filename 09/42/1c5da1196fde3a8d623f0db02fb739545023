@@ -1,0 +1,2 @@
+Encoding.locale_charmap の rdoc 用コメントを encoding.c から関数定義されている
+localeinit.c に移動しています。

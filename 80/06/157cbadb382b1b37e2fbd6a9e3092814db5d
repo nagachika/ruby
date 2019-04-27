@@ -1,0 +1,3 @@
+r54229 の Unicode の titlecase フラグの対応について String#downcase, #upcase, #
+capitalize などのテストに assertion を追加しています。ぱっと見同じ文字のように
+見えるけど微妙に違う…。

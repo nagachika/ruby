@@ -1,0 +1,4 @@
+rb_w32_select() (win32.h で select は rb_w32_select に define されてるので
+Windows 環境における select)で渡された fd が INVALID_HANDLE_VALUE でないかチェ
+ックして不正な HANDLE が渡されたら errno = EBADF でエラーにするようにしています
+。 [ruby-dev:43513] や [ruby-dev:43535] の議論を参照。

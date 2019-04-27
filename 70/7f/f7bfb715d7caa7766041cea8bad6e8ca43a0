@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole の WIN32OLE_TYPELIB#version でバージョン番号を表現した
+Float をかえしていたのを文字列を返すようにしています。

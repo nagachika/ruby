@@ -1,0 +1,7 @@
+Solaris の Oracle Developer Studio 12.4 でコンパイルエラーになるとのことで、
+rb_inten() マクロ定義の最適化時に HAVE_BUILTIN___BUILTIN_CONSTANT_P だけでなく
+__extension__ というコンパイラ拡張? が使えることを確認して
+HAVE_STMT_AND_DECL_IN_EXPR というマクロもチェックするようにしています。Oracle
+Developer Studio 12.4 で __builtin_constant_p() が追加されたけど、これだけでは
+ここで使ってる定義に不十分なので追加したみたいです。 [ruby-dev:50666] [Bug #
+15293]

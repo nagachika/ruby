@@ -1,0 +1,2 @@
+公開 API rb_wait_for_single_fd のテストで FreeBSD では止まってしまうので skip
+するようにしています。 [ruby-dev:44726] [Bug #5524]

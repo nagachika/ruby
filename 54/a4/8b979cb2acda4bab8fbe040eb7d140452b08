@@ -1,0 +1,2 @@
+標準添付ライブラリ thwait で require "e2mmap.rb" と拡張子つきで require してた
+ので拡張子を削ってます。

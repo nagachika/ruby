@@ -1,0 +1,3 @@
+ComplexRational_Test で Rational が未定義の時(Rational は現在組み込みなのでそう
+いうことはないと思いますが)にテストをすぐ return してスルーしていたのを明示的な
+skip にしています。

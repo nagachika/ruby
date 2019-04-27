@@ -1,0 +1,5 @@
+rb_objspace_free() でも heap_slot 自身は解放されていなかったので r42022 で追加
+した free_heap_slot() を使って解放するようにしています。また
+ObjectSpace.each_object でスロット内のオブジェクト(struct RVALUE)を舐めるのに
+objspace->heap.sorted のソートの基準が変化したのに対応していなかったのを追随さ
+せています。

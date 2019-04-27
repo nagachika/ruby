@@ -1,0 +1,3 @@
+標準添付ライブラリやテストなどの frozen_string_literal: true の magic comment
+の indicator (-*- ... -*- で挟むようにしていたこと)をやめています。 r52208 で
+magic comment 全般に indicator が不要になったのでそれに追随しているようです。

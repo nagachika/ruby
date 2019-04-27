@@ -1,0 +1,2 @@
+Windows 環境では File::Stat#nlink は常に1 を返す実装になっているため、File.link
+後に nkink が 2 以上になることを確認するテストを省略するようにしています。

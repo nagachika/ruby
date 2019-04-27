@@ -1,0 +1,1 @@
+Time#strftime と DateTime#strftime の '%Z' の rdoc 記述もう少し変更。

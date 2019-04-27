@@ -1,0 +1,4 @@
+Random#rand の引数には Range オブジェクトを渡してその範囲の一様分布乱数を返すこ
+とができますが、その引数に終端が省略されたいわゆる endless range を渡した時に考
+慮していなくて TypeError が発生していたのを Errno::EDOM を発生させるようにして
+います。 [ruby-core:88261] [Bug #14958]

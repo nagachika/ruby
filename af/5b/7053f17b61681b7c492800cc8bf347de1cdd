@@ -1,0 +1,5 @@
+標準添付ライブラリ mkmf.rb で try_header, try_compile, try_link などを呼ぶ時に
+with_xxflags のブロックでフラグを設定するようにしていたのを、try_xxx の引数の渡
+すように変更しています。 with_xxx を使うとグローバルな状態が変化してしまうので
+have_devel? でチェックしようとしているフラグが含まれてしまってエラーになってい
+たみたいです。 [ruby-core:67962] [Bug #10821]

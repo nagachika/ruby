@@ -1,0 +1,2 @@
+r50522 で追加された Numeric#negative? の rdoc 用コメントのところが Numeric#
+positive? になってたので修正しています。 https://github.com/ruby/ruby/pull/908

@@ -1,0 +1,4 @@
+r51109 で Dir#glob で一部の errno は警告に留めるようにしましたが、Windows 版で
+は errno にはセットされないので GetLastError() でエラーを取得して
+rb_w32_map_errno() で変換しておくようにしています。 [ruby-core:63591] [Bug #
+10015]

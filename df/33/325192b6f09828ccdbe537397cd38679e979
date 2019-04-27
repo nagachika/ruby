@@ -1,0 +1,9 @@
+拡張ライブラリ bigdecimal で BigDecimal.limit の値によって計算結果が不正になる
+ことがあった不具合を修正しています。 VpSetPTR() で BigDecimal.limit の精度を考
+慮するようにしているようですがよくわかりません。 [ruby-core:50269] [Bug #7458]
+mrkn さんに教えていただきました
+mrkn
+@nagachika VpSetPTRが返すav (bv)は精度リミットが0のときに丸める桁の値です。だか
+ら、limit != 0 でa_pos (b_pos) がリミットより後ろを見てる場合にav (bv)を0にしな
+いと結果が間違ってしまうということです。
+2013-12-14 00:36:06 via Tweetbot for Mac to @nagachika

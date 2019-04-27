@@ -1,0 +1,2 @@
+defs/gmake.mk の TEST_DEPENDS の組み立てで循環依存関係ができてしまっていたのを
+修正しています。

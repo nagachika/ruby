@@ -1,0 +1,6 @@
+rubygems で Gem.clear_paths の呼び出しを lib/rubygems.rb から lib/rubygems/
+specification.rb へ移動して、lib/rubygems/dependency_list.rb と lib/rubygems/
+path_support.rb の require を autoload を使って遅延しています。これは
+gem_prelude の廃止に伴なってインタプリタの起動時間が遅くなってしまったことに対
+する対処です。これでマイクロベンチマークの結果は --disable-gems なしでも 1.9.2
+に比べで起動が早くなっているそうです。素晴しい! [ruby-core:37730] [Bug #4962]

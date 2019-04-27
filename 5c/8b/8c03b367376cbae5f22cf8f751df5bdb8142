@@ -1,0 +1,3 @@
+NEWS に r45254 の Windows での fsync の呼び出しについて incompatible changes と
+して追記しています。ファイルのメタデータ(更新日時など)の変更が遅延されるように
+なるんですね。

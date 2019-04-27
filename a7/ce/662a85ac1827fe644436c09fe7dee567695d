@@ -1,0 +1,4 @@
+tool/mkconfig.rb で RbConfig::CONFIG["UNICODE_VERSION"] に利用している Unicode
+のバージョン情報を格納するようにしています。 UnicodeNormalize::UNICODE_VERSION
+として参照できてたものをライブラリを require しなくても(require "rbconfig" は必
+要ですが)参照できるようにしています。 [ruby-core:75845] [Feature #12460]

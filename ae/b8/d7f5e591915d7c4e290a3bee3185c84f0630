@@ -1,0 +1,7 @@
+拡張ライブラリ zlib の gzfile_read, gzfile_readpartial などの len を int から
+long に変更。
+rb_gzreader_read などで len を NUM2INT で VALUE から変換しているところも
+NUM2LONG にしなくていいのかな、と思ったのですが、NUM2INT は long と int のサイ
+ズが違ってて int に収まらない数値だったら例外が発生するようなので、int の幅を越
+えるような len を渡す(おそらく大きすぎる)のを弾くという意味でこれで良いのかもし
+れません。

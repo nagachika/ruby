@@ -1,0 +1,2 @@
+string.c と thread.c で MAYBE_UNUSED() とか ASSUME() マクロを使って警告避けして
+いた変数を単に初期化するようにしています。

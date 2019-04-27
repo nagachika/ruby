@@ -1,0 +1,5 @@
+id_table.c の hash_table_extend() で struct hash_id_table::num を元にした新しい
+capacity が元々の capacity より小さい時に struct hash_id_table::used を元に計算
+しなおすようにしています。 collision が起きた時に used は num よりも大きくなっ
+ている可能性があるので拡張時に必要なサイズまで確保されない可能性があったみたい
+です。 [ruby-core:76534] [Bug #12614]

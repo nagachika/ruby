@@ -1,0 +1,2 @@
+r43460 の ATOMIC_SIZE_CAS() の変更で Solaris でビルドできなくなっていたのを修正
+しています。 atomic_cas_ulong() の引数の数を修正しています。

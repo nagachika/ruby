@@ -1,0 +1,3 @@
+r55021 で configure.in で組み込み関数 _setjmp() や _setjmpex() のチェックに
+RUBY_CHECK_SETJMP() を切り出した時に HAVE_XXX のマクロ定義がなくなってしまって
+いたのを修正しています。

@@ -1,0 +1,2 @@
+ENV.to_a の rdoc のコード例の結果が間違っていたのを修正しています。 https://
+github.com/ruby/ruby/pull/288

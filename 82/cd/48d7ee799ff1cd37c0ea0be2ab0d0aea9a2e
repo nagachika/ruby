@@ -1,0 +1,2 @@
+gc.c で (&rb_objspace)->xxx という書きかたになっていたところを単に
+rb_objspace.xxx と書き直しています。

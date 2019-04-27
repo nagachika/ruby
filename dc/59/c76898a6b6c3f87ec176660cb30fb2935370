@@ -1,0 +1,3 @@
+拡張ライブラリ stringio の StringIO#binmode の実装が何もしないものだったのを、
+文字列バッファのエンコーディングを ASCII-8BIT に force_encoding するようにして
+います。 [ruby-core:72699] [Bug #11945]

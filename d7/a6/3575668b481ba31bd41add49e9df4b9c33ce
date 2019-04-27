@@ -1,0 +1,3 @@
+parse.y でトークンが tOROP と tANDOP の判定をしているところがあったのですが
+change_shortcut_operator_id() という関数が同じことをしているのでこれを利用する
+ようにリファクタリングしています。

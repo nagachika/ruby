@@ -1,0 +1,3 @@
+標準添付ライブラリ logger の Logger#initialize の rdoc 用コメントの shift_size
+というオプションの説明に単位やデフォルト値の正確な値を記述追加しています。
+[ruby-core:77467] [Feature #12803]

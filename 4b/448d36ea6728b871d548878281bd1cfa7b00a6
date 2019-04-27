@@ -1,0 +1,2 @@
+lib/mkmf.rb のリファクタリングをしています。 ruby のヘッダファイルを格納する
+ruby_headers という Makefile の変数を導入しています.

@@ -1,0 +1,4 @@
+r51248 と同様に rb_str_enumerate_lines() で RETURN_ENUMERATOR() を使っていたた
+め rb_block_given_p() のチェックが重複していたのを修正しています。ついでに
+SIZE_ENUMERATOR() を使うようにして size を取得できる Enumerator を返すようにし
+ています。

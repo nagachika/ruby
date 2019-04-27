@@ -1,0 +1,2 @@
+rb_thread_fd_select() で fdset のメモリ領域の resize を呼んでたのを削除していま
+す。 fdset のサイズをそろえる必要はないとのこと。

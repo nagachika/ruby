@@ -1,0 +1,2 @@
+rb_cvar_set() と rb_cvar_get() から警告出力する部分を cvar_overtaken() という関
+数に切り出すリファクタリング。

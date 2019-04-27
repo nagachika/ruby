@@ -1,0 +1,2 @@
+r56912 で追加した String#casecmp? の rdoc 用コメントが正しい関数につくように
+static 関数の prototype 宣言を移動しています。

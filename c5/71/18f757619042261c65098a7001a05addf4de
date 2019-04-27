@@ -1,0 +1,3 @@
+sysconf() を wrap する get_sc_ngroups_max() を定義して、sysconf() がない(または
+_SC_NGROUPS_MAX が定義されていない)環境(Windows が対象の模様) でも groups の上
+限を返すようにしています。

@@ -1,0 +1,2 @@
+Process.clock_getres のテストで誤って Process.clock_gettime を呼んでいたのを修
+正しています。

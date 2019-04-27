@@ -1,0 +1,3 @@
+mjit_worker.c で Windows 版で dlclose() マクロ(FreeLibrary())が失敗した時に
+mjit_warning() で警告を出力するようにしています。AppVeyor でのテストの失敗の調
+査のためみたいですね。

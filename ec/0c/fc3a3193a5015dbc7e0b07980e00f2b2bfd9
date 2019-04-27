@@ -1,0 +1,3 @@
+gc.c の objspace_malloc_increase() で MALLOC_ALLOCATED_SIZE が真の時に実行され
+るコードで objspace_malloc_increase() にポインタを渡すべきところがそうなってい
+なかったのを修正しています。こちらも普段はビルドされない部分ですね。

@@ -1,0 +1,2 @@
+test/ruby/test_io.rb の test_cross_thread_close_stdio でも fork を使っていたの
+を assert_separately を利用するように書き変えています。

@@ -1,0 +1,2 @@
+bignum.c の bary_mul_precheck() で xds と yds の typo していた箇所を修正。これ
+も Coverity Scan がみつけてくれたそうです。

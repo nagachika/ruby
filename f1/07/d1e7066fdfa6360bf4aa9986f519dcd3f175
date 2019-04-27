@@ -1,0 +1,2 @@
+bigdecimal の BigMath.exp を Ruby による実装から C による拡張ライブラリ内での実
+装に変更しています。

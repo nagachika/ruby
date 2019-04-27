@@ -1,0 +1,5 @@
+r52346 で追加した rb_wb_protected_newobj_of() と rb_wb_unprotected_newobj_of()
+に RGENGC_CHECK_MODE が 1以上でコンパイルされた時の struct RBasic::flags との整
+合性チェックの assert() を追加しています。また rb_imemo_new() で T_IMEMO 型のオ
+ブジェクトを生成する時に flags に FL_WB_PROTECTED を立ててましたが削って、
+newobj_of() の引数で指定するようにしています。

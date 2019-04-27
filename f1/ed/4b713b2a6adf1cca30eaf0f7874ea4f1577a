@@ -1,0 +1,3 @@
+configure のオプションに --disable-fiber-coroutine を追加して configure 時に
+Fiber の実装を切り替えできるようにしています。そして mingw ではデフォルトが off
+になるようにしています。

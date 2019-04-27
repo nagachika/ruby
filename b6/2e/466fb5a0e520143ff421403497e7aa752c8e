@@ -1,0 +1,5 @@
+regparse.c の node_extended_grapheme_cluster() でマジックナンバーで書かれていた
+property を "Regional_Indicator" という名前を使って書くようにしています。この部
+分のコメントよくわからないな。 Unicode 10 では Regional_Indicator だけど 11 で
+Regional_Indicator{2} に変わるから 11 に上げた時に変更しないといけない、という
+意味かな。国旗を表現する時の property ですね。

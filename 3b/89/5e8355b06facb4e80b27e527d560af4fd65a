@@ -1,0 +1,2 @@
+同じく Symbol の文字列を rb_id2name(SYM2ID(sym)) で得て symbol を pindown して
+しまっていたところを rb_sym2str() を使うように変更しています。

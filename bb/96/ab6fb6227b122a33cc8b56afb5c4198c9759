@@ -1,0 +1,3 @@
+mkmf.rb に cppflags, cflags, ldflags にそれぞれ try_xxxflags して利用可能だった
+ら対応する変数にオプションを追加する append_cppflags, append_cflags,
+append_ldflags メソッドを追加しています。

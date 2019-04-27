@@ -1,0 +1,2 @@
+configure.in の m4マクロの修正。 m4_pushdef しておいたのを m4_popdef で後始末す
+るようにしているみたいです。 configure こわいですね…。

@@ -1,0 +1,3 @@
+math.c の rb_math_log() を math_log() を呼び出す wrapper として定義していたのを
+、逆に math_log() を rb_math_log() を呼ぶように変更しています。math_log() の最
+後の unused_obj という引数は未使用なので。

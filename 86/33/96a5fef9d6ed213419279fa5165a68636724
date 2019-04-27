@@ -1,0 +1,3 @@
+make test や make test-all での coverage のための simplecov を clone してくるリ
+ポジトリは hsbt さんの fork から gituhb.com/ruby に fork したものを取ってくるよ
+うに変更しています。

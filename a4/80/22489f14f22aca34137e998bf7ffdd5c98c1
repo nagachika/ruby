@@ -1,0 +1,3 @@
+標準添付ライブラリ drb の DRb::DRbTCPSocket#shutdown および #
+close_shutdown_pipe で pipe が close 済みかどうかチェックしてから close してた
+のを、IOError が発生しなくなったのでチェックなしで close するようにしています。

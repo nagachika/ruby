@@ -1,0 +1,2 @@
+FIXNUM_NEGATIVE_P() と FIXNUM_ZERO_P() というマクロ定義を numeric.c から
+internal.h に移動して、rational.c でもこれを利用するようにしています。

@@ -1,0 +1,3 @@
+r53584 で make update-config が make up の仲間に入ったのですが、これを common
+.mk から Makefile.in での記述に移動しています。 config.status などのファイルは
+Unix 系の OS でのみ必要なため。

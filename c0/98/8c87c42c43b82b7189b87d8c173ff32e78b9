@@ -1,0 +1,2 @@
+r48129 で導入した template/unicode_norm_gen.tmpl にあわせて、出力した tables.rb
+のコメントに書く生成したスクリプト名も変更しています。

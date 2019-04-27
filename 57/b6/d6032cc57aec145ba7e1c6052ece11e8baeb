@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence.iseq_load のテストで all_assertions を利用して警告
+ではなく assertion メッセージとして diff を表示するようにしています。

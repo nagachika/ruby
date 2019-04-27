@@ -1,0 +1,3 @@
+main.include つまり Top Level での include メソッドを private メソッドとしてい
+ます。これまでは public だったのでどこからでも main.include M のように呼べてし
+まっていたのですね。 [ruby-core:51293] [Bug #7670]

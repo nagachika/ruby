@@ -1,0 +1,3 @@
+r46202 の Mac OS X での filesystem encoding を default external が US-ASCII の
+時に強制的に UTF-8 にしてたのを revert しています。やっぱり何か悪影響があったみ
+たいですね。

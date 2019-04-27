@@ -1,0 +1,2 @@
+r52564 に追随して node.h に残っていた NODE のフラグ定数のコメントから
+NODE_FL_CREF_PUSHED_BY_EVAL と NODE_FL_CREF_OMOD_SHARED についての記述を削除。

@@ -1,0 +1,6 @@
+rational.c の Float からの変換用の関数 float_numerator() と float_denominator()
+で float_to_r() の結果が整数になった場合はそのまま return して nurat_numerator
+() および nurat_denominator() を呼ぶのをスキップするようにしています。これは
+mathn をロードしている状態で SEGV を引き起す不具合があったそうで、trunk(2.5) で
+は mathn が削除されていますが backport のために修正したとのこと。
+[ruby-core:80942] [Bug #13528]

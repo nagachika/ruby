@@ -1,0 +1,4 @@
+rubygems のテスト用のテストケースクラスなどを定義している lib/rubygems/
+test_case.rb で gem "minitest", '~> 4.0' を指定しているところで捕捉する例外に
+Gem::LoadError を追加しています。 minitest が標準添付ライブラリから外れた時から
+ここが失敗して rubygems のテストが動いてなかったそうです。

@@ -1,0 +1,4 @@
+ruby のビルドプロセスでは make を実行した時に configure.in が更新されていたりす
+ると再度 configure してから make し直すしくみがあるのですが、version.h と
+include/ruby/version.h が更新されていた時も再configure するように依存関係を追加
+しています。

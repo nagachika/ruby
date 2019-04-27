@@ -1,0 +1,2 @@
+process.c の Process::CLOCK_* の定数群の定義に rdoc 用コメントを追加しています
+。 https://github.com/ruby/ruby/pull/1567 [ruby-core:80466] [Bug #13386]

@@ -1,0 +1,3 @@
+vm.c の ruby_vm_collect_usage_func_xxxx() のような関数群を変数として宣言して
+VM_COLLECT_USAGE_DETAILS というマクロが有効な時は関数ポインタ経由で呼び出すよう
+にしてましたが、この変数群に static 修飾子をつけて宣言するようにしています。

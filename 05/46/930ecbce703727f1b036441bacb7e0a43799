@@ -1,0 +1,2 @@
+test/ruby/enc/test_regex_casefold.rb のテストケースに KOI8-R と KOI8-U のエンコ
+ーディングのぶんを追加しています。

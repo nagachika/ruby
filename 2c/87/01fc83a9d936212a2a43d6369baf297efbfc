@@ -1,0 +1,2 @@
+tool/generic_erb.rb で警告の除去。ブロックパラメータの shadowing とのことですが
+erb.result を Proc オブジェクトで wrap してから呼ぶように変えていて謎。

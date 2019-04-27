@@ -1,0 +1,2 @@
+test/testunit/test_parallel.rb の test/unit の並列テスト自体のテストで結果出力
+assertion を修正しています。

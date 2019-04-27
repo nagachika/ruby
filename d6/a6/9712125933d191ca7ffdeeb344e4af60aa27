@@ -1,0 +1,3 @@
+r58359 で RSTRUCT_LEN() のテストのために拡張ライブラリを導入したのに対応して
+ext/-test-/struct/depend も導入しています。またついでに? enc/depend も更新して
+います(tool/update-deps で生成したのだと思います)。

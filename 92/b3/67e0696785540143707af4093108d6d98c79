@@ -1,0 +1,3 @@
+_FORTIFY_SOURCE が定義されていると select(2) に渡す fdset の file descriptor が
+1024 以上のときに glibc が誤ったチェックをしてエラーにしてしまうため、thread.c
+では _FORTIFY_SOURCE を undef しています。

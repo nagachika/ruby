@@ -1,0 +1,3 @@
+拡張ライブラリ psych の最新版をマージしています。Hash 内の文字列のエンコーディ
+ングの扱いなどの不具合修正が含まれています。 https://github.com/tenderlove/
+psych/pull/242 https://github.com/tenderlove/psych/pull/246 [ruby-list:50219]

@@ -1,0 +1,3 @@
+rb_get_path_check_to_string() でも to_path メソッドの呼び出しで未定義の時のデフ
+ォルト値を指定できる rb_check_funcall_default() を利用するようにリファクタリン
+グ。

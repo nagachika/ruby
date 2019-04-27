@@ -1,0 +1,2 @@
+Psych::Parser#parse が SyntaxError を発生させる時にメッセージにファイルパスを含
+めるようにしています。

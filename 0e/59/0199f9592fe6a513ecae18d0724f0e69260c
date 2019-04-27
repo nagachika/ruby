@@ -1,0 +1,3 @@
+Time.getlocal(nil) と明示的に nil の引数を与えた時のテストを追加しています。こ
+れも JRuby の不具合に対応するテストみたいです。 https://github.com/jruby/jruby/
+issues/2310

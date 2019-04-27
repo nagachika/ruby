@@ -1,0 +1,9 @@
+IO.copy_stream で引数に Pathname を渡した時に例外になる不具合を修正しています。
+to_io で変換する処理を追加していますが Pathname の場合は多分 to_path で変換して
+からファイルを開く挙動だと思うので、どっちかというと Pathname が read/write メ
+ソッドを持ってしまっているのでそれで誤作動しないように respond_to?(:read) や
+respond_to?(:write) での判定を信じずに常に T_FILE 型のオブジェクトに変換するよ
+うにしているようです。しかしそうすると StringIO の時ってどうなるのか…と思いま
+したが、その時は src_fd や dst_fd が -1 になって read メソッドと write メソッド
+を使う copy_stream_fallback() に移行するので動きますね。 [ruby-dev:49008] [Bug
+#11199]

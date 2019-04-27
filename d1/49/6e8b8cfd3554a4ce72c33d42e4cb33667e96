@@ -1,0 +1,4 @@
+拡張ライブラリ date の ext/date/date_strptime.c の read_digits() で ALLOCA_N()
+を使っていたところを ALLOCV_N() を利用して、サイズが大きい時はスタック上でなく
+String オブジェクトで包んだバッファを確保するようにしてスタックを喰い潰さないよ
+うにしています。

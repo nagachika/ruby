@@ -1,0 +1,2 @@
+標準添付ライブラリの irb の拡張用のクラス IRB::Context#save_history= の定義前に
+メソッド再定義の警告除去のため remove_method の呼び出しを追加しています。

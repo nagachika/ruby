@@ -1,0 +1,2 @@
+.travis.yml に cron のみで起動するテストとして FIBER_USE_NATIVE=0 を指定してビ
+ルドするものを追加しています。

@@ -1,0 +1,3 @@
+tool/runruby.rb の引数の --debuger というオプションに run.gdb を受け付けること
+ができるようにしているそうです。 precommand に Symbol で :gdb とか :debugger と
+いうのを入れておくのを目印にして特別な処理をするようにしているみたいですね。

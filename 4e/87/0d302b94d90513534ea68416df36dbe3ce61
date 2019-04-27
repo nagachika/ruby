@@ -1,0 +1,3 @@
+rb_vm_rewrite_cref_stack() を rb_vm_rewrite_cref() に改名しています。また変数名
+の new_node を new_cref に変更しています。もう T_IMEMO を使っていて T_NODE を使
+わなくなっているからですね。

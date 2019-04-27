@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix で Vector#dot と Vector#cross というメソッドをそれぞ
+れ inner_product と cross_product の alias として追加しています。
+[ruby-core:65571] [Feature #10352]

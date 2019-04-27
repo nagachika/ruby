@@ -1,0 +1,2 @@
+構造体メンバー rb_thread_t::fiber を rb_execution_context_t::fiber に移動するリ
+ファクタリング。

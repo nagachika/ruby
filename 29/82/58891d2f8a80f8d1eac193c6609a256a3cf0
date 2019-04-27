@@ -1,0 +1,4 @@
+テストで assert_block という assertion を利用していたところを assert_equal など
+で書き直しています。assert_block は渡されたブロックを呼んでその結果の真偽で
+assert を呼んでるだけなので、なんのためにあるのかよくわからない assertion です
+ね。

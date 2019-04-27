@@ -1,0 +1,3 @@
+tool/rbinstall.rb で gem パッケージをインストールする時に gem の展開したディレ
+クトリの bin ディレクトリを固定にしていたのを gemspec.bindir を利用するようにし
+ています。 rdoc 5.0.0 で bindir が exe に変更されたので対応するためみたいです。

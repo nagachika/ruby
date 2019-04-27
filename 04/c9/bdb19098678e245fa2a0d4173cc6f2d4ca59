@@ -1,0 +1,5 @@
+r39877 の Array#zip の変更は rb_check_block_call() に不具合があったので使わない
+ようにしていましたが、これは revert して check_funcall_respond_to() で
+passed_block を保存しておいて respond_to? のメソッド呼び出し後に復旧するように
+して rb_check_block_call() の不具合自体を修正しています。 [ruby-core:53650]
+[Bug #8153] [ruby-core:53653] [Bug #8154]

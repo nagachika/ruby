@@ -1,0 +1,4 @@
+Enumerable#zip と Array#zip で引数のオブジェクトの to_enum メソッドを呼んで外部
+イテレータ化(Enumerator 化)するまえに each メソッドが呼べない場合(respond_to?
+(:each) が偽の時)は to_ary で Array に変換してから呼ぶようにしています。
+[ruby-dev:46145] [Bug #7038]

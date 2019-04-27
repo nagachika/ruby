@@ -1,0 +1,3 @@
+r66351 で追加した rb_arithmetic_sequence_extract() の引数を
+rb_arithmetic_sequence_components_t という構造体のポインタを渡してここに情報を
+詰めて返すように変更しています。

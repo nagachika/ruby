@@ -1,0 +1,6 @@
+rb_gc_resurrect() という関数を追加して、 sweep 予定だけどまだ実際に sweep され
+ていないオブジェクトのマーク処理することができるようにして、rb_fstring() で引数
+の str が sweep 予定なのを延命するために rb_gc_mark() を呼んでいたのを
+rb_gc_resurrect() を使うように変更しています。 rb_gc_mark() は mark_stack への
+追加も実行してしまうのでそれをしないでマークビットだけ立てる処理を作ったとこの
+ことです。なんで mark_stack に入れるとよくないのかわかりませんけど。

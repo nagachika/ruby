@@ -1,0 +1,2 @@
+rubygems のテストで閉じ忘れの IO オブジェクトと file descriptor の後始末の追加
+。

@@ -1,0 +1,3 @@
+io.c で RFILE(io)->fptr の取り出しと rb_io_check_initialized() のチェック呼び出
+しをセットにした rb_io_get_fptr() というユーティリティ関数を導入してこれを利用
+するようにリファクタリングしています。

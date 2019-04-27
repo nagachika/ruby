@@ -1,0 +1,5 @@
+hash.c の rb_dbl_long_hash() で rb_objid_hash() に渡す引数に rb_hash_start() を
+呼んでたのをやめています。rb_objid_hash() の中でも rb_hash_start() が呼ばれてて
+冗長だったので。というか2回呼ぶと seed.key.hash を2回加算するから hash 値変わる
+んじゃないかな。 hash 値はプロセスが変わるだけでも変わるから通常は問題ないと思
+うけど。

@@ -1,0 +1,2 @@
+rb_str_modify_expand() で引数 expand が大きすぎる時のオーバフローチェックを追加
+して ArgumentError を発生させるようにしています。[ruby-core:75592] [Bug #12390]

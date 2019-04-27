@@ -1,0 +1,3 @@
+ビルド時に BASERUBY が使えない時は lib/unicode_normalize/tables.rb の自動生成を
+しないようにしています。Unicode データの更新のために拡張ライブラリが必要なので
+実行できないそうです。

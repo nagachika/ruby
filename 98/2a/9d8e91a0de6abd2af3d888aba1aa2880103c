@@ -1,0 +1,4 @@
+今度は marshal_dump メソッドを定義して dump したものを Marshal.load しようとし
+たらクラスに marshal_load メソッドが定義されていなかった時に発生させる
+TypeError のメッセージにクラス名を埋め込むのに PRIsVALUE を利用するようにしてい
+ます。

@@ -1,0 +1,2 @@
+ruby 本体のソースで RARRAY_PTR を使っていたところを RARRAY_AREF() と
+RARRAY_ASET() を使うように変更しています。 [ruby-core:54621] [Feature #8339]

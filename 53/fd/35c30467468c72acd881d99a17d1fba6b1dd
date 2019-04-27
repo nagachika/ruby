@@ -1,0 +1,2 @@
+Test::Unit::Assertions#assert_send の失敗時のメッセージの true,false が反対だっ
+たのを修正。

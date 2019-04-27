@@ -1,0 +1,2 @@
+vm_backtrace.c でも未初期化変数のコンパイラ警告の除去のため UNINITIALIZED_VAR()
+を使っています。

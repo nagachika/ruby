@@ -1,0 +1,3 @@
+r63795 で導入した SIGCHLD_LOSSY の定義の条件に _WIN32 マクロの存在も追加して、
+mjit.c で waitpid() のエラー時に RUBY_SIGCHLD と SIGCHLD_LOSSY の値も表示するよ
+うにしています。 [ruby-core:87705] [Bug #14867]

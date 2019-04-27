@@ -1,0 +1,3 @@
+MARSHAL_OLD_STYLE というマクロが定義されていたら Complex と Rational の
+Marshal.dump/load の実装方法を今の marshal_dump/marshal_load から _dump/_load
+メソッドによるものに変更(昔はこの方式だった?)にするようにしています。

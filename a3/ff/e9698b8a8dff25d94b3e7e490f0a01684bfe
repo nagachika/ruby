@@ -1,0 +1,6 @@
+Float#round で負の数値に引数にも負値を渡した時の丸め方向の不具合を修正、らしい
+のですけど [x86_64-darwin10.6.0] では rb_big_uminus() を通したあたりで VALUE が
+おかしくなって SEGV してしまうようです。
+一応追跡していますがもう酔いが回ってて……。[追記]internal.h を include し忘れ
+てて prototype 宣言が numeric.c から見えてないため VALUE が int に切り詰められ
+ていたようです。r31779 で修正。[/追記]

@@ -1,0 +1,2 @@
+rb_add_method() という関数は rb_method_entry_t * を返してましたが、どこでも戻り
+値を使ってないので void に変更しています。

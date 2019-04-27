@@ -1,0 +1,1 @@
+extension.rdoc に rb_check_arity() についての記述を追加しています。

@@ -1,0 +1,2 @@
+r40839 で入れて r40858 で一旦(demo のため) revert した forwardable.rb の rdoc
+の修正を再度入れています。

@@ -1,0 +1,3 @@
+拡張ライブラリ socket の Socket.getnameinfo も StringValuePtr() のかわりに
+StringValueCStr() を使うようにして NUL 文字対応しています。 [ruby-dev:50286]
+[Bug #13994]

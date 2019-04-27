@@ -1,0 +1,4 @@
+r52602 で BasicSocket#sendmsg_nonblock などの Ruby メソッド化で clen 引数のデフ
+ォルト値を nil にして内部的メソッドでデフォルト値 4096 をセットするようにしてい
+ます。追加したテストが失敗していたみたいです。 [ruby-core:71439] [Feature #
+11339]

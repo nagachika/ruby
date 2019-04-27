@@ -1,0 +1,2 @@
+tool/downloader.rb のダウンロード URL に www.unicode.org の Unicode データを指
+定できるようにしています。

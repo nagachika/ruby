@@ -1,0 +1,2 @@
+Hash#each のブロック内の callcc による Continuation の再実行のテストケースを再
+度追加しています。 [ruby-dev:47803] [Bug #9105]

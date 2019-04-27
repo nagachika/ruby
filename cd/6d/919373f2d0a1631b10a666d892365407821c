@@ -1,0 +1,3 @@
+sample/pty/shl.rb のリファクタリング。子プロセスからの出力を処理する部分を case
+文の後に括り出しています。また Process.wait を追加しています。 [ruby-dev:49974]
+[Bug #13191]

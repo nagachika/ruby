@@ -1,0 +1,2 @@
+標準添付ライブラリ win32ole のテストで "Microsoft Internet Controls" というアプ
+リ(?)を使ったテストは削除して、かわりに ADODB を使ったテストを追加しています。

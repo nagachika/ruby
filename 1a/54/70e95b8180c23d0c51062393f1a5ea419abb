@@ -1,0 +1,3 @@
+r62196 と同様に Makefile.sub でも CFLAGS の内容を architecture 毎のフラグとそれ
+以外に分離して CFLAGS_NO_ARCH という変数を導入するようにしています。次の r62202
+の布石ですかね。

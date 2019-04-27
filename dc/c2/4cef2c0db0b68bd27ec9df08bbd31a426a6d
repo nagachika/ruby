@@ -1,0 +1,5 @@
+thread_pthread.c の ruby_init_stack() で Ruby のメモリ管理に使うために Thread
+のマシンスタックの領域を検出する時に、ruby を別のプログラムに埋め込んで利用する
+場合に必要なメインスレッドのスタック領域と重複していないかのチェックをスキップ
+してしまっていたのを修正しています。 https://github.com/ruby/ruby/commit/
+53953ee#commitcomment-18887413 [Feature #2294]

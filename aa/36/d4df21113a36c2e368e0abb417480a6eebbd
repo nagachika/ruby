@@ -1,0 +1,2 @@
+string.c の内部関数 count_utf8_lead_bytes_with_word() にドキュメント(コメント)
+を追加しています。

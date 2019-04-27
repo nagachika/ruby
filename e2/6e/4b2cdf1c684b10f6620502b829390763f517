@@ -1,0 +1,2 @@
+date のドキュメント(rdoc 用のコメント)を date.rb, date/format.rb から適宜
+date_core.c へ移動しているようです。

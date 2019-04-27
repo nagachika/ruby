@@ -1,0 +1,4 @@
+r62260 で MJIT 用ヘッダの architecture 毎の生成のコマンドで miniruby を使ったヘ
+ッダのインストールをしていたところで、例外を rescue しているところで
+NotImplementedError も rescue するようにしています。 NotImplementedError は
+StandardError を継承していないので指定なしの rescue では捕捉されないのでした。

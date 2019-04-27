@@ -1,0 +1,2 @@
+string.c の rb_str_enumerate_bytes() の未初期化変数のコンパイラ警告を除去するた
+め初期化を追加しています。

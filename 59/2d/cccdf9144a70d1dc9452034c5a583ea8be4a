@@ -1,0 +1,3 @@
+ruby_init_loadpath_safe() においてファイルパスを格納する固定長の配列 libpath を
+利用する環境は存在しないはずということでその preprocessor の分岐を削除していま
+す。

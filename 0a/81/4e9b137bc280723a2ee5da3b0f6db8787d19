@@ -1,0 +1,2 @@
+r40957 で追加された ext/objspace/object_tracing.c のヘッダ部分のコメントの typo
+を修正。

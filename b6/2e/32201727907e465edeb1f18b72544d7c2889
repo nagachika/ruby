@@ -1,0 +1,2 @@
+doc/extension.rdoc および doc/extension.ja.rdoc の rb_get_kwargs() についての説
+明が不正確になっていたので修正しています。 [ruby-dev:49893] [Bug #13004]

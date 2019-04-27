@@ -1,0 +1,1 @@
+AppVeyoor でのエラー対策として WIN32OLE のテストに sleep を追加しています。

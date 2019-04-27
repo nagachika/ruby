@@ -1,0 +1,2 @@
+標準添付ライブラリ uri で URI#inspect の結果に object_id は含めないように変更し
+ています。

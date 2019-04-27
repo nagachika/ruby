@@ -1,0 +1,2 @@
+common.mk の ext/ripper/ripper.c の生成のルールでソースディレクトリ以外でのビル
+ド時に対応するように VPATH の指定を変更しています。

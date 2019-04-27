@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle の Fiddle::Handle.new と Fiddle.dlopen の rdoc 用コメント
+に説明を少し追加しています。

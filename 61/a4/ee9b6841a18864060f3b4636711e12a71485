@@ -1,0 +1,3 @@
+r30872 で revert された r30621 を再修正してまた conftest の間は -Werror などの
+warnflags を無効にしています。warnflags のバックアップする位置が悪くて消えてし
+まっていたのを修正しています。 [ruby-dev:43203]

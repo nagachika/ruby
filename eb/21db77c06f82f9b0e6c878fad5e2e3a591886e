@@ -1,0 +1,9 @@
+vm_core.h で ruby_current_thread の宣言の RUBY_EXTERN をただの extern に変更し
+ています。コミットログによると propeprofiler のためにこうなっていたみたいで、既
+に probeprofiler は削除されているので直した、というふうに読めます。 RUBY_EXTERN
+は include/ruby/defines.h で RUBY_EXPORT が定義されている時は extern に定義され
+ていて、RUBY_EXPORT は configure で(たぶん常に)コンパイルオプションに
+-DRUBY_EXPORT が定義されるようです。[DEL:と、言うことは今 RUBY_EXTERN を使って
+いるところ(かなりあります)はどれも extern にしてしまっていいんでしょうか?:DEL]
+[追記] Windows 版の場合 win32/Makefile.sub で生成されるヘッダファイルで
+RUBY_EXTERN が定義されていました。「/追記]

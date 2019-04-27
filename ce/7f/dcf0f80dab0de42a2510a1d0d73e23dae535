@@ -1,0 +1,4 @@
+関数マクロ RUBY_VM_CHECK_INTS_BLOCKING() でも同様に引数の th を複数回評価するよ
+うに展開されていたのを inline 関数 vm_check_ints_blocking() を定義してこれの呼
+び出しとして展開するように変更しています。また vm_core.h から定義を thread.c へ
+移動しています。

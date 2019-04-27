@@ -1,0 +1,2 @@
+Thread#raise のテスト? で MJIT が有効な時に assert_normal_exit のオプションに
+:reprieve を追加してタイムアウトを伸ばすようにしています。

@@ -1,0 +1,5 @@
+bignum.c に bary_plus_one() と bary_add_one() という似たような関数があったのを
+、bary_add_one() の実装を bary_plus_one() と同じものに変更したうえで
+bary_plus_one() を削除しています。また bary_2comp() で bary_plus_one() を使って
+いたところは bary_add_one() に置換するのではなくこの関数呼び出しに依存しない実
+装に変更しています。

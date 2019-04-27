@@ -1,0 +1,3 @@
+r61906 から r61910 でいくつか変数を include/ruby/ruby.h で明示的に extern して
+いましたが、C-API として公開が不要なものは static をつけて非公開にするようにし
+ています。 [ruby-core:84953] [Misc #14381]

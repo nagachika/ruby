@@ -1,0 +1,3 @@
+Numeric#step の rdoc 用コメントの 2.1 からのキーワード引数 :by, :to による新し
+い呼びかたのサンプルの typo を修正しています。 https://github.com/ruby/ruby/
+pull/522

@@ -1,0 +1,5 @@
+r54060 の benchmark/driver.rb のメッセージの修正。またメモリ使用量取得の
+Memory::Status からの要素の取得で Struct で作ったクラスのインスタンスに対して
+member? だとうまくいかなかったということで respond_to? を使うようにしています。
+Struct のオブジェクトの member? は Enumerable からきたメソッドだから意図したも
+のではなかったみたいですね。

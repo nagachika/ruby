@@ -1,0 +1,3 @@
+標準添付ライブラリ uri/mailto で "mailto:" のあとにいきなり query string のよう
+な文字列が来るのを opaque として parse するようにしています。こんな書きかたあり
+なんだ。 [ruby-core:76055] [Bug #12498]

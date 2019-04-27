@@ -1,0 +1,3 @@
+test/gdbm/test_gdbm.rb では子プロセスで GDBM を open するテストが fork を使って
+書かれていたので IO.popen を使って書き直して、ついでに have_fork? メソッドも不
+要になったので削っています。

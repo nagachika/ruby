@@ -1,0 +1,2 @@
+gcc 5 以降では -Wno-maybe-uninitialized というオプションを追加するようにしてい
+ます。 thread.c の do_select() で誤検出するので抑制のためだそうです。

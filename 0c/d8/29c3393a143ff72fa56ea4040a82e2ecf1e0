@@ -1,0 +1,4 @@
+拡張ライブラリ fiddle で ext/fiddle/win32/libffi-config.rb と ext/fiddle/win32/
+libffi.mk.tmpl というファイルを追加して mswin 版では configure のかわりにこのス
+クリプトでバンドル版の libffi の Makefile を生成するようにしているみたいです。
+自前主義! libffi の mswin 版のビルドがいかにツラかったかがうかがえますね。

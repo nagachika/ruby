@@ -1,0 +1,4 @@
+Object#method で Method オブジェクトを取得する時にも Refinements で BasicObject
+に追加したメソッドを取得しようとして SEGV することがあった不具合を修正していま
+す。こちらは rb_method_entry_t::klass に super クラスがない時に対処しています。
+なので BasicObject に追加した時限定だろうと思われます。

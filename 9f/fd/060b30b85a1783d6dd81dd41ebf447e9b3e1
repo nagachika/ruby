@@ -1,0 +1,3 @@
+CHECK_STACK_OVERFLOW でポインタ演算の時に型キャストが不足していて sizeof
+(rb_control_frame_t) を加算する時に VALUE* へ加算しているので意図せず多めに加算
+してしまっていた。これも Coverity Scan によって発見されたとのこと。

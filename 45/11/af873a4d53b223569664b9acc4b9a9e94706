@@ -1,0 +1,2 @@
+r54105 の Marshal.load の修正で追加されたテストで子プロセスを使うテストを
+EnvUtil.invoke_ruby から assert_ruby_status を使う方法に書き直しています。

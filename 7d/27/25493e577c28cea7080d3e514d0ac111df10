@@ -1,0 +1,2 @@
+rubygems のテストでファイルの permission 情報を取得しようとするテストを Windows
+環境で skip するゆにしています。 [ruby-core:51864] [Bug #7784]

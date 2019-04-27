@@ -1,0 +1,7 @@
+r38397 で rb_io_wait_writable() で rb_thread_wait_fd() を呼ぶようにしたのを削除
+しています。そして errno==EAGAINの時は rb_thread_fd_writable() を呼んで読み込み
+可能になるのを待つようにしています。 rb_io_wait_readable() でも同様に
+rb_thread_wait_fd() は削除、rb_wait_for_single_fd() を直接使うかわりに
+rb_thread_wait_fd() を使うように修正しています。 rb_thread_wait_fd()/
+rb_thread_fd_writable() を経由したほうが rb_wait_for_single_fd() の返り値をちゃ
+んとチェックしていたり fd の close 済みチェックをしていたりします。

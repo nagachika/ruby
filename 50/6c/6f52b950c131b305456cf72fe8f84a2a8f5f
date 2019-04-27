@@ -1,0 +1,2 @@
+r45670 の stringio の taint フラグ伝播の修正を revert しています。 test-all が
+失敗していたため。

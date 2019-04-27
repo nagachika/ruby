@@ -1,0 +1,2 @@
+EnvUtil#assert_pattern_list でエラー時のメッセージで文字列が複数行かどうかの判
+定を少し修正しています。

@@ -1,0 +1,3 @@
+C level backtrace 取得のための fill_line() へ curobj_baseaddr という static 変
+数を介してベースアドレスを渡していたのをやめて、引数に offset を渡して lines
+[offset].base_addr で取得するようにリファクタリングしています。

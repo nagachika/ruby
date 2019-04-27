@@ -1,0 +1,3 @@
+thread_pthread.c の MJIT 用スレッドを生成する rb_thread_create_mjit_thread() で
+pthread_attr_destroy() を呼ぶようにしています。環境によってはこれを呼ばないとリ
+ソースの leak がある場合があるみたいです。

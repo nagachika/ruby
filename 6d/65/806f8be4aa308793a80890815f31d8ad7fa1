@@ -1,0 +1,2 @@
+make test-all 用のユーティリティ test/lib/tracepointchecker.rb で TracePoint が
+必要なので TracePoint が存在する時だけクラス定義するようにしています。

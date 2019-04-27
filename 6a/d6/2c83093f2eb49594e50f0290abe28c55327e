@@ -1,0 +1,3 @@
+include/ruby/win32.h に fstati64() のプロトタイプ宣言を追加しています。 w64-
+mingw 環境で ext/-test-/file/stat.c のコンパイルで警告が発生するのでそれを抑制
+するためとのこと。

@@ -1,0 +1,3 @@
+iseq.h と method.h で prototype 宣言のために rb_iseq_t が未定義だったら typedef
+するようにしています。本体(struct rb_iseq_struct)は vm_core.h で定義されていま
+す。

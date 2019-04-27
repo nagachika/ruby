@@ -1,0 +1,7 @@
+ID 専用テーブルの実装 id_table.c の mix_id_table_insert() で容量がオーバーで
+hash に変換する時に共用体 struct mix_id_table::aux の hash を直接初期化して使う
+と、変換の間に GC が走る可能性があって元の aux.list のほうの値の mark が漏れて
+回収されてしまう恐れがあるので、スタック上に struct hash_id_table を作ってそこ
+に構築後に struct mix_id_table::aux.table に代入するようにしています。
+生の assert(3) が残ってますね、と思ったけど id_table.c には他にも結構ありますね
+。

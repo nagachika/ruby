@@ -1,0 +1,2 @@
+rb_vm_rewrite_ep_in_errinfo() を他のファイルから呼ぶ必要がなくなったので static
+関数の vm_rewrite_ep_in_errinfo() にまとめています。

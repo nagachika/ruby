@@ -1,0 +1,3 @@
+r45850 の local_variables に重複した Symbol が含まれないようにする修正で中間デ
+ータに Hash を使うようにしましたが、最後に keys で配列を取り出した後で
+rb_hash_clear() で利用した Hash を空にしておくようにしています。

@@ -1,0 +1,3 @@
+ほぼ同じで、処理が返ってこない関数の後で警告の回避のために return Qnil などとダ
+ミーの return 文を書いておいて /* not reached */ とコメントを書いている部分を
+UNREACHABLE に変更しています。 [ruby-core:42815] [Bug #6066]

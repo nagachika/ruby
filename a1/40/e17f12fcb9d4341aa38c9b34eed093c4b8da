@@ -1,0 +1,2 @@
+wercker.yml の test-all で webrick のテストを実行するステップ(?)の名前に allow
+failure というのを追記しています。

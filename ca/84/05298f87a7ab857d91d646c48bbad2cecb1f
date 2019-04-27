@@ -1,0 +1,2 @@
+String#scan で tainted な正規表現にマッチして切り出された部分文字列の String が
+tainted になっていなかった不具合の修正。[ruby-core:33338] #4087

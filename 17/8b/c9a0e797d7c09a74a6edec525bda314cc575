@@ -1,0 +1,3 @@
+test/lib/test/unit.rb で hide_skip オプションをデフォルトで true にしています。
+skip でスキップされたテストケースの表示は --show-skip で明示的にオプションが指
+定された時だけにしています。

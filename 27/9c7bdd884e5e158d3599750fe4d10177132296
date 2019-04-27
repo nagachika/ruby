@@ -1,0 +1,2 @@
+拡張ライブラリ json の generator.o と parser.o の依存関係にヘッダ群を追加してい
+ます。 [ruby-dev:47327] [Bug #8379]

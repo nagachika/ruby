@@ -1,0 +1,5 @@
+標準添付ライブラリ net/ftp の frozen_string_literal: true の magic comment の
+"-*- ... -*-" の indicator を削除しています。また getbinaryfile と gettextfile
+の実装でさっそく obj.?meth の記法を使って nil の時の対応をしています。これ
+block を yield する時にブロック引数として受け取って blk.?(arg1, arg2) のように
+呼べるんですね。またブロック渡しの呼び出し時のテストケースも追加しています。

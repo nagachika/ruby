@@ -1,0 +1,3 @@
+昨日の r55486、r55488 の続きで enc/unicode/casefold.h の生成規則で
+ALWAYS_UPDATE_UNICODE=yes だったらコマンドに exit を仕込むようにしています。こ
+れ条件逆じゃないのかな。

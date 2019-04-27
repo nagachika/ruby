@@ -1,0 +1,3 @@
+rubyspec の C API テスト用の拡張ライブラリで fcntl(3) のための定数 F_GETFL の定
+義や ioctl() のための FIOBIO の有無をチェックするようにしています。 Windows で
+のテスト対策ですね。

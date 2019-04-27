@@ -1,0 +1,6 @@
+variable.c の rb_const_set() で klass の Write Barrier の挿入位置が st_insert()
+を呼び出す前だったため、st_insert() で GC が発生すると Write Barrier で
+remember set へ追加した klass がクリアされてしまい Write Barrier の意味がなくな
+ってしまうという GC タイミングに依存した不具合があったので、OBJ_WRITE() の呼び
+出しを後ろに移動しています。
+これ以降同様に Write Barrier の挿入場所の修正が続きます。

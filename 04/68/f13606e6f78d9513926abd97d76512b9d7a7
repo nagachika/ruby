@@ -1,0 +1,2 @@
+test/ruby/test_jit.rb に require "shellwords" がありましたが、今利用していない
+ので削除しています。

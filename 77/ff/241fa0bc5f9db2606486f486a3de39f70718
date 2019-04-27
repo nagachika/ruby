@@ -1,0 +1,2 @@
+thread_pthread.c や thread_win32.c, time.c でそれぞれ定義されていた time_t につ
+いてのマクロ定義などを timev.h に切り出して共有するようにしています。

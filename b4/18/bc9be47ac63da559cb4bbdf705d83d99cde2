@@ -1,0 +1,3 @@
+コンパイラオプション -Wmissing-declarations, -Wold-style-definition が指定され
+ていた時に mkmf.rb が生成するソースコードが警告を出力しないように関数の定義スタ
+イルや宣言の追加をしています。 [ruby-core:40200] [Bug #5459]

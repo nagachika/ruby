@@ -1,0 +1,4 @@
+継承したメソッドの可視性を変更しているクラスに対して Module#prepend で Module
+を追加すると method メソッドで Method オブジェクトを得る時に method entry の探
+索に無限ループに陥るという不具合を修正しています。 RCLASS_ORIGIN() マクロの利用
+漏れがありました。 [ruby-core:77591] [Bug #12832]

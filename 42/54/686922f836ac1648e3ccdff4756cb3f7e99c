@@ -1,0 +1,5 @@
+標準添付ライブラリ cgi の CGI::Session::FileStore#delete で File の unlink の後
+置 rescue で誤って例外を指定せずに捕捉してしまっていたのを begin .. rescue ..
+end の記法で書き直しています。がこれだと最初の unlink で例外発生するとあとの
+unlink が実行されないですね。あとこれで何が問題になっているのかよくわからないの
+でテストも欲しいような気がします。 [ruby-core:52813] [Bug #7940]

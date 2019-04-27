@@ -1,0 +1,2 @@
+bignum.c の absint_numwords_generic() で定数として使われる char_bit という配列
+を static 変数として定義するように変更しています。

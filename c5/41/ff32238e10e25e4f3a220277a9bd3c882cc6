@@ -1,0 +1,4 @@
+NaCl 対応向けに、環境変数 PATH に NativeClient SDK の toolchain へのパスが含ま
+れていなかったら警告を発生させて PATH に追加するようにしています。もともと PATH
+への追加はしていましたが、Makefile 内での PATH の変更が GNU make 3.81 では効か
+なかったそうです。

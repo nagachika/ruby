@@ -1,0 +1,2 @@
+tool/make-snapshot で ChangeLog を生成する時に年毎のファイルの最新版を取得する
+のに Dir.glob の順序に依存していたのでソートするようにしています。

@@ -1,0 +1,6 @@
+拡張ライブラリ socket の Socket.gethostbyname と Socket.gethostbyaddr の rdoc
+用コメントに、これらのメソッドが deprecated であることを追記しています。このメ
+ソッドで利用されている getaddrinfo(3) と getnameinfo(3) の仕様や thread safe で
+ないという問題により、これらのメソッドが他の Thread を block してしまうことや戻
+り値が扱いにくい形式であることなどを理由として追記しています。
+[ruby-core:78947] [Feature #13097]

@@ -1,0 +1,3 @@
+r53618 の nmake 対策の sizes.c のターゲットの依存関係とコマンドの記述を分離した
+のを common.mk のほうは revert しています。 ext/rbconfig/sizeof/depend のほうは
+そのままです。nmake 対策は謎ですね。

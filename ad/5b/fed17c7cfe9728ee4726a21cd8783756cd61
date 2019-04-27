@@ -1,0 +1,3 @@
+fork(2) 後に malloc()/free() (async-signal-safe でないので呼んではいけない関数)
+を呼ばなくていいように、file descriptor の dup 情報を格納するための事前にバッフ
+ァを内部的な String オブジェクトとして確保しておくようにしています。

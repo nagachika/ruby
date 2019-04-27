@@ -1,0 +1,2 @@
+fcntl の gemspec ファイルで gem 名が Fcntl になっていたので fcntl に修正してい
+ます。

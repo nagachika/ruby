@@ -1,0 +1,4 @@
+r33596 で存在したら使うようにした accept4(2) で accept して作られた新しい fd に
+最初から SOCK_CLOEXEC を付加するようにしているのですが、SOCK_CLOEXEC が未定義だ
+った時のことを考慮するように #ifdef を追加しています。しかし SOCK_CLOEXEC がな
+かったらもう accept4() を使う意味もないような気もしますね。

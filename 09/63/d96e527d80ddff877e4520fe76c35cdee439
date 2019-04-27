@@ -1,0 +1,3 @@
+Kernel#set_trace_func や TracePoint 用の VM のイベントフック用のフラグを管理す
+る recalc_remove_ruby_vm_event_flags() でオーバフロー回避のためのキャストを追加
+しています。

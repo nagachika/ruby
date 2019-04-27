@@ -1,0 +1,4 @@
+r58542 の変更も関係してそうですが .travis.yml で make after-update に変数
+BOOTSTRAPRUBY, MINIRUBY, PREP, CC を渡すようにしています。 CC=false にしている
+のはいいのかな。コメントによると after-update 時に miniruby をビルドしてしまう
+のを抑制するためだそうです。

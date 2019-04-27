@@ -1,0 +1,2 @@
+.travis.yml で make のターゲット test test-all test-rubyspec の実行に -s オプシ
+ョンを追加してメッセージを抑制するようにしています。

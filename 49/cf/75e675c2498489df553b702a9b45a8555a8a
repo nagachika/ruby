@@ -1,0 +1,2 @@
+Net::SMTP のテストで StringIO に依存しているので require を追加し、OpenSSL が未
+定義の時にテストをスキップするようにしています。

@@ -1,0 +1,2 @@
+misc/ruby-mode.el にインデント除去つきヒアドキュメントの記法に対応する修正を入
+れているようです。 https://github.com/ruby/ruby/pull/1372

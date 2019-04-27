@@ -1,0 +1,2 @@
+RSS のパーサのテストで結果を CGI.escapeHTML して比較していたところを逆に期待さ
+れる値を CGI.unescapeHTML してから比較するように変更しています。

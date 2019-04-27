@@ -1,0 +1,3 @@
+enc/unicode.c から Unicode 11.0.0 の対応によって未使用になった
+onigenc_unicode_GCB_ranges_GAZ、onigenc_unicode_GCB_ranges_E_Base、
+onigenc_unicode_GCB_ranges_Emoji といった配列の定義を削除しています。

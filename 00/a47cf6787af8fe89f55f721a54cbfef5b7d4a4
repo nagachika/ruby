@@ -1,0 +1,3 @@
+r53310, r53311 のさらに追加変更で win32/setup.mak で verconf.mk の生成時に
+RUBY_RELEASE_DATE を直接定義するのではなく RUBY_RELEASE_{YEAR,MONTH,DAY} を定義
+するようにしています。

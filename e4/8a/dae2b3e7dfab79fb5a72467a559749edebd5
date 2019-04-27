@@ -1,0 +1,1 @@
+gc_mark_stacked_objects() の変数名の typo 修正。 [ruby-core:71799] [Bug #11763]

@@ -1,0 +1,6 @@
+SIGSEGV を受けとった時のシグナルハンドラ sigsegv() でさらに SIGSEGV が発生した
+場合に exit(2) しているのをやめて abort(3) で終了するようにしています。シグナル
+ハンドラ内 exit(2) は async-signal-safe でないのでだめでした。呼ぶなら _exit()
+でないと [ruby-dev:44078] [Bug #5013]
+[追記]と、思ったら Solaris では abort() も async-signal-safe ではないらしいです
+。えー。 [Bug #5014][/追記]

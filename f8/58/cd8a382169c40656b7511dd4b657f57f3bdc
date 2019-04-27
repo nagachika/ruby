@@ -1,0 +1,2 @@
+bignum.c の big2str_orig() 等の引数を VALUE から BDIGIT の配列で数値を渡すよう
+にしています。

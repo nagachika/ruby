@@ -1,0 +1,3 @@
+openssl/buffering.rb から require "openssl" を削除。またその他の openssl/ の下
+のファイルでも既にコメントアウトした状態にしていた require "openssl" と注意書き
+のコメントを削除。

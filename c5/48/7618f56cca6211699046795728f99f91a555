@@ -1,0 +1,2 @@
+拡張ライブラリ win32ole で Time オブジェクトから WIN32OLE::VARIANT の VT_DATE
+型のオブジェクトに変換する時に millisecond の情報も変換するようにしています。

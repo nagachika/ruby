@@ -1,0 +1,3 @@
+configure.ac の icc のバージョンチェックの再修正。検出できなかった時に
+icc_version に 0 をセットするのは AC_CASE() の外で行なうようにしています。
+$icc_version は icc じゃない時も参照されるので。

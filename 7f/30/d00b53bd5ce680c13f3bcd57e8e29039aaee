@@ -1,0 +1,4 @@
+r56929 の追加修正です。 clone でキーワード引数 freeze に false を渡されてエラー
+にするのは Bignum や Float のオブジェクトも常に freeze されているので、即値の他
+にこれらも判定する special_object_p() という関数を定義してこれで判定するように
+しています。 [ruby-core:78308] [Feature #12979]

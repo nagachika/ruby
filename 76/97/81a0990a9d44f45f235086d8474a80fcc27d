@@ -1,0 +1,4 @@
+r37844 の Process.setsid のテストの修正の再修正。子プロセスで Process.getsid す
+るようにしたのを、やはり親プロセスで Process.getsid するようにして、子プロセス
+に sleep を入れて対処しています。また親プロセス側で終了時に Process.kill で止め
+るようにしています。ただ SIGKILL は Windows 版で動かないかも。

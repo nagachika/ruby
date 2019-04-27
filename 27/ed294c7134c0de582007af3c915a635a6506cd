@@ -1,0 +1,4 @@
+r38867 の続きで、拡張ライブラリ owin32ole で OleInitialize() や OleUninitialize
+() がスレッド毎に1セットしか呼ばれないようにしています。またスレッドの終了時に
+自動的に ole_uninitialize() を呼ぶようにフックを設定するようにしています。
+[ruby-core:27634] [Bug #2618]

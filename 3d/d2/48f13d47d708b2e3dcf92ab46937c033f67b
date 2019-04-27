@@ -1,0 +1,2 @@
+r42027 の Hash#replace の高速化で RGenGC の Write Barrier なしでコピーが行なわ
+れる可能性があったので一部 revert しています。 [ruby-core:58948] [Bug #9226]

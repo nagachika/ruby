@@ -1,0 +1,3 @@
+Mac OS X 版で Process.clock_gettime の clock_id に :CLOCK_MONOTONIC のサポート
+を追加しています。 mach_absolute_time() と mach_timebase_info() というシステム
+コール? を使って実装しています。 [ruby-core:56087] [Feature #8658]

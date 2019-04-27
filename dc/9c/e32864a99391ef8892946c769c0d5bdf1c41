@@ -1,0 +1,4 @@
+test/ruby/test_optimization.rb で RubyVM::InstructionSequence.compile のテスト
+で frozen_string_literal のオプションの有無で両方テストしてるところでオプション
+を Hash もしくは nil でオプション引数として渡してたのを、明示的にキーワード引数
+で渡すように書き換えています。 r62177 の変更の追随みたいです。

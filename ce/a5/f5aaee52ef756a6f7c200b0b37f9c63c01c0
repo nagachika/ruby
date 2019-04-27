@@ -1,0 +1,4 @@
+拡張ライブラリ pathname に Pathname#glob メソッドを新規追加しています。
+receiver の Pathname オブジェクトのパスを基準として、そこからの相対パスで Dir
+.glob を行うようなメソッド(当然戻り値も Pathname オブジェクトになる)です。
+[ruby-core:49373] [Feature #7360]

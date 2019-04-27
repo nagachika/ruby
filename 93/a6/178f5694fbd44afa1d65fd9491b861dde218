@@ -1,0 +1,1 @@
+internal.h から削除されていた rb_gc_resurrect() の宣言を削除しています。

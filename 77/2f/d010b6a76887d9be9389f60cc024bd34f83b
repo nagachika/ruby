@@ -1,0 +1,4 @@
+r55024 の Fixnum と Bignum の Integer への統合で Fixnum と Bignum という定数は
+Integer への参照に変更されましたが、これらを deprecate constant として定義して
+おくことで明示的に参照していたら警告を出すようにしています。 [ruby-core:77219]
+[Feature #12739]

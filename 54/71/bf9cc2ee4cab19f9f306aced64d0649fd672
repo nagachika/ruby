@@ -1,0 +1,4 @@
+offsetof() マクロで構造体のネストしたメンバーのオフセットを得るのは gcc 拡張の
+機能らしく clang では警告が出るそうなので autoload 用のロック管理用の struct
+autoload_state という構造体で union を使って共用していたメンバー node と head
+をフラットに展開するようにしています。

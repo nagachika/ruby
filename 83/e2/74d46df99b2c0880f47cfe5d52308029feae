@@ -1,0 +1,2 @@
+cygwin/GNUmakefile.in と win32/Makefile.sub で *.rc ファイルを distclean の時に
+削除していたのを clean で削除するように変更しています。

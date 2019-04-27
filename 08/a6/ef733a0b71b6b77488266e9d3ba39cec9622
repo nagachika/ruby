@@ -1,0 +1,2 @@
+.travis.yml を編集して Travis CI で make test-all も実行するようにしています。
+そのかわり irc への通知設定もコメントアウトして off にしています。

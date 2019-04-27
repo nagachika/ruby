@@ -1,0 +1,4 @@
+random.c というかそこから #include されている siphash.c で使われている
+BYTE_ORDER や BIG_ENDIAN, LITTLE_ENDIAN といったマクロの定義を WORDS_BIGENDIAN
+を利用して定義するようにしています。 siphash.c に直接書けばいいような気もします
+がなぜ random.c 側に書いたんでしょう。

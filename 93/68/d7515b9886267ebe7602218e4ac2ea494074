@@ -1,0 +1,2 @@
+Fixnum#abs と Bignum#abs を統合して Integer#abs として定義して、内部で fix_abs
+() と big_abs() を呼び分けるようにしています。

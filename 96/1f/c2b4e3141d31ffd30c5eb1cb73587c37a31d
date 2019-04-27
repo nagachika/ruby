@@ -1,0 +1,2 @@
+r61576 の続きで xmalloc_mismatch_p() を dln_incompatible_library_p() に改名して
+、また prototype 宣言は削除しています。

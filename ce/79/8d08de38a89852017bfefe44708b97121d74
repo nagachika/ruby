@@ -1,0 +1,6 @@
+RubyVM::AST.of というメソッドを新設して Proc オブジェクトや Method オブジェクト
+の ISeq に対応する AST を取得できるようにしています。AST ってコンパイル後には残
+ってないと思うけどどうするんだろ、と思ったら ISeq からファイル名を取得して再度
+parse して、構造体 NODE に node_id というメンバーを追加して、ISeq の位置情報
+rb_iseq_location_t にも node_id を保持するようにして、これを使って対応する NODE
+を探すようにしています。力技だ。 [ruby-core:87456] [Feature #14836]

@@ -1,0 +1,3 @@
+fileutils のテストでも pipe を使って Thread で読み書きする assert_output_lines
+で assert_join_threads を使うようにしています。まあこれはもともと読むほうの値を
+取ってるのでチェックはされてたと思いますが。

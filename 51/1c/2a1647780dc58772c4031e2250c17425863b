@@ -1,0 +1,2 @@
+Kernel.fork, Process.fork の rdoc の typo 修正。 https://github.com/ruby/ruby/
+pull/544

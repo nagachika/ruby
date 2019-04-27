@@ -1,0 +1,3 @@
+variable.c で TYPE() マクロを利用していたところを RB_TYPE_P() で分岐したり、
+SPECIAL_CONST_P()(即値かどうかを判定する)と BUILTIN_TYPE() を使うようにリファク
+タリングしています。

@@ -1,0 +1,3 @@
+test/ruby/test_default_gems.rb というテストを追加して default gem の .gemspec
+ファイルを Gem::Specification.load で読み込んで成功するかどうかチェックするよう
+にしています。

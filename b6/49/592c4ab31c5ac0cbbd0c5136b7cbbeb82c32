@@ -1,0 +1,3 @@
+Enumerble#lazy の rdoc 用コメントの Enumerator::Lazy のメソッドの説明で cycle
+はすぐに評価されるように説明を修正しています。 https://github.com/ruby/ruby/
+pull/372

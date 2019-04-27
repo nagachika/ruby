@@ -1,0 +1,4 @@
+標準添付ライブラリ matrix の Vector#angle_with で 2つのベクトルが並行の時の特別
+処理を追加しています。丸めで Math.acos の地域を超えてしまって例外が発生してしま
+うことがあるのでそれを避けるためみたいです。 https://github.com/ruby/ruby/pull/
+1803

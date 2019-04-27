@@ -1,0 +1,2 @@
+numeric.c で Fixnum のメソッド定義を追加する rb_deifne_method() 呼び出しを
+Integer のものと分けて位置をまとめています。

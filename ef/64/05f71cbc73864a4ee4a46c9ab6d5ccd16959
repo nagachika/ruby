@@ -1,0 +1,2 @@
+Unicode の casemap 処理のフラグで ONIGENC_CASE_UP_SPECIAL と
+ONIGENC_CASE_DOWN_SPECIAL の考慮が漏れていたところを修正しています。

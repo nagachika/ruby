@@ -1,0 +1,7 @@
+標準添付ライブラリ socket, drb, webrick, resolv などで IO.select のかわりに拡張
+ライブラリ io/wait の IO#wait_readable や IO#read_writable を利用するように書き
+代えています。拡張ライブラリに依存するようになることで webrick あたりテストで
+miniruby で実行できなくなったりしそうな気も…、と思ったのですがテストは通ってる
+ようなので問題なさげですね。テストを実行するのは make runruby 経由だから大丈夫
+か。ppoll(2) が利用できる環境でのパフォーマンス改善のためだそうです。
+[ruby-core:35572] [ruby-core:68943] [Feature #11081]

@@ -1,0 +1,2 @@
+String#<=>, Symbol#<=>, String#casecmp, Symbol#casecmp の rdoc 用コメントなどに
+サンプルを追加したりしています。

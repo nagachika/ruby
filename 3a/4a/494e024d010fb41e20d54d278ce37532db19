@@ -1,0 +1,4 @@
+test/ruby/test_dir_m17n.rb でプラットフォームの判定をしているところをリファクタ
+リング。Ruby では =~ での正規表現マッチは regexp =~ string が正統(String#=~ が
+引数が Regexp の時に re =~ self に dispatch してくれるので右辺が String ならた
+またま動きますが)なのでそのように修正しています。

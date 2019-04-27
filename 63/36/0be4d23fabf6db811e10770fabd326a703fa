@@ -1,0 +1,3 @@
+r46914 で PACKED_STRUCT_UNALIGNED() の定義のために参照してた
+UNALIGNED_WORD_ACCESS というマクロの定義を ppc64 アーキテクチャでも 1 にするよ
+うにしています。 [ruby-core:63937] [Feature #10081]

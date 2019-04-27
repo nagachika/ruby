@@ -1,0 +1,1 @@
+r55329 で追加された rb_str_ascii_casemap() の変数の型の修正。

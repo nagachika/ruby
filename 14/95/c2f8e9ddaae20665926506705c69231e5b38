@@ -1,0 +1,2 @@
+rb_utf8_str_new_cstr() という C-API を追加して Encoding に UTF-8 を指定した文字
+列オブジェクト作成のショートカット関数を作成しています。

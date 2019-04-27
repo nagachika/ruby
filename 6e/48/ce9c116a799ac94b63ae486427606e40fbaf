@@ -1,0 +1,5 @@
+Gem.ensure_gem_subdirectories というメソッドに mode という省略可能引数を追加し
+て、これが指定されたら作成するディレクトリの権限情報を指定のものにして作成する
+ようにしています。 r38870 で Gem.ensure_gem_subdirectories の仕様を回避するため
+tool/rbinstall.rb に workaround を入れてましたが、このように外部から使う時の為
+みたいです。

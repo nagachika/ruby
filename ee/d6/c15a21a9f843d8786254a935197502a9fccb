@@ -1,0 +1,4 @@
+bignum.c の big2str_orig() に引数 x (Bignum) の BGIDIT 配列長についての assert
+() 文を追加、また big2str_karatsuba() で累乗を得るのにキャッシュつきの関数を使
+わない条件として power_level == 0 の時としていたのを負の数の時と変更しています
+。

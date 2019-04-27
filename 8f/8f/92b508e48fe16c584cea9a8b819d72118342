@@ -1,0 +1,3 @@
+doc/syntax/calling_methods.rdoc の safe navigation operator の説明が .? の記法
+のままになっていたので &. に修正しています。 https://github.com/ruby/ruby/pull/
+1182

@@ -1,0 +1,3 @@
+rational.c の rb_big_fdiv() から rb_big_fdiv_double() という名前で関数を切り出
+し、double で結果を受け付けるようにして、さらに big_fdiv() の戻り値を VALUE か
+ら double にしてわざわざオブジェクトを生成しないようにしています。

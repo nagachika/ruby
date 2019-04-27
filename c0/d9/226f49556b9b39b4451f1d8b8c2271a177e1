@@ -1,0 +1,1 @@
+singleton.rb から分離したテストを追加しています。 [ruby-core:36246] [Bug #4715]

@@ -1,0 +1,3 @@
+io.c の get_kwargs_exception() で rb_get_kwargs() に渡す配列に ID ではなく
+Symbol を渡してしまっていたのを修正しています。 r45842 でのデグレ修正みたいです
+。

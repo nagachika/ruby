@@ -1,0 +1,6 @@
+rb_debug_inspector_
+{open,frame_binding_get,frame_class_get,frame_iseq_get,backtrace_locations} と
+いったデバッガ向けの公開 API を追加しています。 rb_debug_inspector_open() にコ
+ールバック関数を渡すとrb_debug_inspector_t にデバッガ用の情報を作って渡して呼び
+出してくれて、その中で他の API を使ってフレームの情報等を取り出せる、というよう
+な使いかたみたいです。詳しくはこれも解説が書かれるでしょう、きっと。

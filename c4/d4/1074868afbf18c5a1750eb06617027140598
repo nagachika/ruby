@@ -1,0 +1,2 @@
+r39289 の configure での unexpand_shvar 関数の導入といくつかの変数の置換する変
+更を revert しています。 $LOAD_PATH に影響していたとのこと。

@@ -1,0 +1,3 @@
+rubyspec の String#casecmp のテストで to_str で変換が走ることを確認するテストで
+特異メソッド定義していたところを should_receive を使って確認するように変更して
+います。

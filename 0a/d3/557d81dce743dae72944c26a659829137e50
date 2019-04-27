@@ -1,0 +1,4 @@
+r55706 で lib/unicode_normalize/tables.rb から UNICODE_VERSION を削除していまし
+たが、元となる template/unicode_norm_gen.tmpl が修正されてなかったので再生成さ
+れた時に戻ってしまっていたので template ファイルのほうも修正しています。
+[ruby-core:76482] [Feature #12546]

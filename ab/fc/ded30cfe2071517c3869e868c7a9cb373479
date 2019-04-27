@@ -1,0 +1,3 @@
+gc.c の ObjectSpace.define_finalizer の rdoc 用コメントのサンプルコードがトップ
+レベルに include ObjectSpace するように書かれていたので特異メソッドを使う書きか
+たに変更しています。

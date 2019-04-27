@@ -1,0 +1,2 @@
+r49350 の tool/redmine-backporter.rb で Readline.readline を使うようにした時に
+include Readline していましたが、これは不要なので削除しています。

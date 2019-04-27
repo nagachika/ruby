@@ -1,0 +1,3 @@
+rsock_socket0() でも socket(2) が errno=EINVAL で返ってきたときに SOCK_CLOEXEC
+をセットせずに呼んで原因が SOCK_CLOEXEC がサポートされていないからかチェックす
+るようにしています。

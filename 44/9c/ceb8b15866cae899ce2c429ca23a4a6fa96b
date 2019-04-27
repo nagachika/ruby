@@ -1,0 +1,3 @@
+error.c, eval.c, process.c, signal.c などのソースファイルでそれぞれ extern して
+いた変数を internal.h の中で extern 宣言するように宣言を移動しています。こうい
+う局所的な extern 宣言けっこうありますよね。

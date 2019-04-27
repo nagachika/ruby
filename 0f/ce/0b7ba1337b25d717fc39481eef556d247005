@@ -1,0 +1,4 @@
+r49184 で Kernel#method で有効でないスコープで Refinement で追加したメソッドが
+取れてしまっていたのを修正したのと同様に、Kernel#singleton_method でも Module#
+refine のブロック外では追加したメソッドが取れないようにしています。
+[ruby-core:67603] [Bug #10744]

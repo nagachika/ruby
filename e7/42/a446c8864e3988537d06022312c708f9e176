@@ -1,0 +1,2 @@
+Thread.async_interrupt_timing の rdoc に改名された :never というタイミングの指
+定が残っていたので :defer に改名しています。

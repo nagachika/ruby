@@ -1,0 +1,4 @@
+random.c の Init_RandomSeed() を Init_RandomSeedCore() に、Init_Random2() を
+Init_Random_default() に改名して、Init_Random_default() で(これまでは
+InitVM_Random() でやっていた) TypedData_Wrap_Struct() で Random オブジェクトを
+生成して返すようにしています。

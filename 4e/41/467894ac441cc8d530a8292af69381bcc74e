@@ -1,0 +1,2 @@
+singleton_class_of() で生成した singleton class の struct RBasic::flags に
+FROZEN フラグを立てるのに条件分岐をしていたのを消しています。

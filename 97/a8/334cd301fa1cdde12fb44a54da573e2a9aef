@@ -1,0 +1,2 @@
+regparse.c の node_extended_grapheme_cluster() でヘルパー関数を呼んだ後のエラー
+処理(goto err)を R_ERR() というマクロにまとめるリファクタリング。

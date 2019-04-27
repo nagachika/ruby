@@ -1,0 +1,3 @@
+rb_funcall() のテストのための拡張ライブラリ ext/-test-/notimplement/ で
+Bug::NotImplement を Module として定義していたのを Class にしています。インスタ
+ンスメソッドとしてのテストが追加したかった?

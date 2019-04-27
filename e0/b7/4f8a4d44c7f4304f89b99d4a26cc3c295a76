@@ -1,0 +1,2 @@
+test/win32ole/test_err_in_callback.rb に CI でのテストのデバッグ用と思われるメ
+ッセージ出力を追加しています。

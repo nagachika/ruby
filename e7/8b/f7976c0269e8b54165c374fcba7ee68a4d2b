@@ -1,0 +1,3 @@
+r52960 で compile.c の ISeq のバイナリフォーマット化のための struct ibf_dump を
+オブジェクトに wrap するようにした時に追加した関数 ibf_dump_memsize() でポイン
+タの NULL チェックを追加しています。

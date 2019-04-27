@@ -1,0 +1,4 @@
+標準添付ライブラリ erb で ERB#run や ERB#result のデフォルトの引数の bindings
+を TOPLEVEL_BINDING にしていて、複数の Thread で同時に利用されると干渉する恐れ
+があったので TOPLEVEL_BIDING.dup で複製したものをデフォルトで用いるようにしてい
+ます。 [ruby-core:47638] [Bug #7046]

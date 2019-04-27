@@ -1,0 +1,4 @@
+拡張ライブラリ bigdecimal の upstream から 1.3.3 をマージしています。差分はこち
+ら https://github.com/ruby/bigdecimal/compare/v1.3.2...v1.3.3
+BigDecimal.new や BigDecimal#dup や BigDecimal#clone で警告を出すようにしている
+みたいですね。

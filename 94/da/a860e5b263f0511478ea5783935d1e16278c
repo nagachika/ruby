@@ -1,0 +1,2 @@
+r39617 で RubyVM::InstructionSequence#disasm で表示するキーワード引数の情報の取
+得方法のミスを修正しています。

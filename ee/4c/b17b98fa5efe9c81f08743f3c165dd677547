@@ -1,0 +1,3 @@
+configure.in で定義されている RUBY_REPLACE_TYPE という関数で型のサイズを求める
+のに rb_cv_XXX_convertible の名前から取得するようにしています。よくわかりません
+が結果が安定するようにとのこと。

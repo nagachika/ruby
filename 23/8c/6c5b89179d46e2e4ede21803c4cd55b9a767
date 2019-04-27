@@ -1,0 +1,3 @@
+Oracle Solaris Studio 12.4 での最適化の不具合の対策のため pack_unpack() で変数
+tmp_len に volatile 修飾子をつけるため AVOID_CC_BUG というマクロを導入してこれ
+をつけるようにしています。 [ruby-core:71485] [Bug #11684]

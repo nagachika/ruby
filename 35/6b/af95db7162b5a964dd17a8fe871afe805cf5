@@ -1,0 +1,3 @@
+C++ では void* を別のポインタ型に暗黙の cast をして代入したり引数に渡したりする
+のが禁止されているのでData_Make_Struct0() TypedData_Make_Struct() などのマクロ
+で明示的なキャストを行うようにしています。

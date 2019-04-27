@@ -1,0 +1,5 @@
+IO.copy_stream を使った(ただし src 側は IO オブジェクトではなくて read メソッド
+を定義したオブジェクト)ベンチマークスクリプトを benchmark/
+bm_io_copy_stream_write.rb に追加しています。 [Bug #13085] で提案している
+IO.copy_stream の write するほうの不要なオブジェクトを抑制する変更のために事前
+にベンチマークを追加したというものみたいです。

@@ -1,0 +1,5 @@
+String#lines, bytes, chars, codepoints などのメソッドが Enumerator を返さず
+Array を返すようになったのですが、当面はブロックを渡されると各要素を yield する
+ようにしているのですが、将来的には単に無視されるようになる予定で、その実装を切
+り替える条件コンパイルの条件を STRING_ENUMERATORS_WANTARRAY として定義していま
+す。今は 0 です。

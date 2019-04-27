@@ -1,0 +1,2 @@
+win32/mkexports.rb で mswin 向けのコンパイル時に Init_ で始まる関数と
+_threadptr_ を含む関数を公開しないシンボルとして扱うようにしています。

@@ -1,0 +1,2 @@
+Array の RGenGC 向け変更です。 ary_resize_capa() で読み込み専用で Write Barrier
+が不要なポインタの取り出しに RARRAY_RAWPTR() を利用するように変更しています。

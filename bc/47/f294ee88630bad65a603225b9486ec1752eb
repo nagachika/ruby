@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の OpenSSL クライアントとしてのホスト名検証時にホスト名
+に NUL 文字('\0') が含まれていた時に誤った比較をしてしまう不具合を修正していま
+す。証明書に NUL 文字の入ったホスト名を持つものをインストールしてしまうと Ruby
+の OpenSSL クライアントを使った時に脆弱性があります。 http://www.ruby-lang.org/
+en/news/2013/06/27/
+hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/

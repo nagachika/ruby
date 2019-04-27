@@ -1,0 +1,2 @@
+Regexp#=~ や String#=~ を再定義した時の正規表現マッチのテストで
+assert_in_out_err から assert_separately を使うように変更しています。

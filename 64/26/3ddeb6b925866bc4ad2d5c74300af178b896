@@ -1,0 +1,1 @@
+r32292 で追加した OPENSSL_SYS_WIN32 の #define は未定義の時だけにしています。

@@ -1,0 +1,2 @@
+r53620 で win32/configure.bat の改行コードが変換されてしまった対策として svn
+property の eol-style を設定して、改行コードを戻したようです。

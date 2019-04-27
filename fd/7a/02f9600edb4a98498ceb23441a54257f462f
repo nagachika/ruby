@@ -1,0 +1,3 @@
+標準添付ライブラリ open3 の Open3.capture2 と Open3.capture2e で引数 stdin_data
+のデフォルト値を nil にして、指定されなかった時には書き出さないようにしています
+。

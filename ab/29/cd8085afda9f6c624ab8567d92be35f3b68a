@@ -1,0 +1,2 @@
+doc/standard_library.rdoc にさらに Bundled gems というセクションを追加して
+bundled gem を追記しています。また XMLRPC も bundled gem に移動しています。

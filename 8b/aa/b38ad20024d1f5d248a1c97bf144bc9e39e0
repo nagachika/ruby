@@ -1,0 +1,2 @@
+GC モジュール、GC::Profiler, ObjectSpace, ObjectSpace::WeakMap (つまり gc.c の)
+rdoc の追記、修正です。 [ruby-core:50245] [Bug #7449]

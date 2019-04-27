@@ -1,0 +1,2 @@
+RubyVM::InstructionSequence#disasm で命令列を disassemble して表示する時にキー
+ワード引数用の情報が表示されていなかったので追加しています。

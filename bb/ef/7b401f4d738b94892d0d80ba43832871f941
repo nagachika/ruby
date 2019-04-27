@@ -1,0 +1,3 @@
+test/ruby/enc/test_case_mapping.rb のユーティリティメソッド
+check_capitalize_suffixes でループの条件が反転していて全くループの内容が実行さ
+れていなかったのを修正しています。

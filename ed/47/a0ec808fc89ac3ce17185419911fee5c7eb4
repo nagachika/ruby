@@ -1,0 +1,6 @@
+numeric.c に Fixnum の符号の判定を VALUE 型のままで行うためのマクロ
+FIXNUM_POSIVIVE_P(), FIXNUM_NEGATIVE_P(), FIXNUM_ZERO_P() を追加しています。
+INT2FIX() で 0 の Fixnum表現を作って SIGNED_VALUE として比較しています。が
+NEGATIVE_P() だけは直接 0 と比較している…。まあ Fixnum は1ビット左シフトして最
+下位ビットを立てたものなのでこれで誤ることはないですが、なんかすわりが悪いです
+ね。

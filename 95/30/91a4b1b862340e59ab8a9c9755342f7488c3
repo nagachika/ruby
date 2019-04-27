@@ -1,0 +1,3 @@
+string.c と re.c で char 型の変数に unsigned であることを期待して値を格納してい
+るところが多々あったので、型を unsigned char に変更したり、不要な cast を消した
+りしています。

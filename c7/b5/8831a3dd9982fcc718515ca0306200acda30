@@ -1,0 +1,2 @@
+r33294 で追加した openssl のテストで OpenSSL::SSL::SSLSocket を作成する為に開い
+た TCPSocket を close し忘れていたのを閉じるようにしています。

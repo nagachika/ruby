@@ -1,0 +1,2 @@
+parse.y に定数の代入についての処理を parser 側と ripper 側でどちらも const_decl
+() というマクロ/関数にまとめて、preprocessor 分岐を減らしています。

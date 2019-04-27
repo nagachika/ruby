@@ -1,0 +1,2 @@
+common.mk と enc/depend, ext/coverage/depend の依存関係の記述を更新しています。
+r61712 や r61713 のヘッダの依存関係変更を反映させています。

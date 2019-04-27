@@ -1,0 +1,3 @@
+include/ruby/ruby.h の RGenGC 用の inline 関数 rb_obj_wb_unprotect(),
+rb_obj_written(), rb_obj_write() の未使用の引数に RB_UNUSED_VAR() マクロをつけ
+て警告を抑制しています。

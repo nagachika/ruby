@@ -1,0 +1,3 @@
+TracePoint に parameters というメソッドを追加して :call, :b_call, :c_call,
+:return, :b_return などのイベントで呼び出されているメソッドやブロックの引数の情
+報を取り出せるようにしています。 [ruby-core:86567] [Feature #14694]

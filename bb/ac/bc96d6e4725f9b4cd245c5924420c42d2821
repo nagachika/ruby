@@ -1,0 +1,3 @@
+make test-bundled-gems も test-bundled-gems-run という gems/bundled_gems の1行
+ごとに処理する部分のルールのみ残して common.mk に移動しています。 win32/
+Makefile.sub にも test-bundled-gems-run を追加しています。

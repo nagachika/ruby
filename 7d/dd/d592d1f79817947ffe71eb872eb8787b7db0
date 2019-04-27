@@ -1,0 +1,4 @@
+make test-all 用の test/lib/test/unit.rb でテストから除外するファイル/ディレク
+トリを指定する EXCLUDES 環境変数や --excludes-dir オプションに
+File::PATH_SEPARATOR (":" や ";"。プラットフォームで異なる) で区切って複数のパ
+スを渡せるようにしています。

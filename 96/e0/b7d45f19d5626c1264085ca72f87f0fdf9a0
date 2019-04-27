@@ -1,0 +1,2 @@
+r54027 の変更で不要になった static 変数 disable を win32/win32.c の
+rb_w32_write_console() から削除しています。

@@ -1,0 +1,3 @@
+IO#close_read と IO#close_write でも IO#close と同様に重複して呼ばれても例外を
+発生させないようにしています。また close 後に close_read や close_write を呼ん
+でも例外を発生させないようになっています。

@@ -1,0 +1,1 @@
+tool/mkrunnable.rb に rbconfig.rb の require を追加しています。

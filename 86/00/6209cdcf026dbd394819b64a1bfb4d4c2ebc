@@ -1,0 +1,4 @@
+ruby のオプション --dump=parsetree で NODE_ARRAY 型のノードを dump する時に
+nd_alen を最初のノードのみ表示するようにしています。 https://twitter.com/
+shyouhei/status/765139920402784256 で指摘されてた点の修正だと思います(後者での
+対応)。

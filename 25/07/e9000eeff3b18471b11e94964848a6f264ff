@@ -1,0 +1,5 @@
+これまで .gemspec ファイルを追加してきた date, zlib, cmath, csv, fileutils,
+webrick の required_ruby_version を ">= 2.5.0dev" に修正しています。
+require_ruby_version での判定って 2.5.0 > 2.5.0dev なんでしょうか(つまり trunk
+だとだめだったのを trunk でも 2.5.0 (がリリースされたらその時は) でもいいように
+している?)。

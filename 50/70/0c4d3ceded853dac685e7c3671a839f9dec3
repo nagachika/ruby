@@ -1,0 +1,3 @@
+configure で pthread_attr_getguardsize() の存在チェックもして、未定義だったら
+getpagesize(3) で代替するようにしています。これも Emscripten 対応のためみたいで
+す。

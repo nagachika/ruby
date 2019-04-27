@@ -1,0 +1,2 @@
+rubyspec の Module#autoload の複数 Thread からのロード時のテストを追加していま
+す。

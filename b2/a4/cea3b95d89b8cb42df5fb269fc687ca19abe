@@ -1,0 +1,5 @@
+Module#refine でモジュールに対する refinements を定義した時にその Module や
+include したクラスが GC で解放される時に SEGV など異常終了が起きる不具合を修正
+。 Module#refine で引数の klass が Module だった時に RCLASS_SET_SUPER() のかわ
+りに rb_include_module() で Module#include 相当の処理をするようにしています。う
+ーん Refinements 難しい。 [ruby-core:83617] [Bug #14070]

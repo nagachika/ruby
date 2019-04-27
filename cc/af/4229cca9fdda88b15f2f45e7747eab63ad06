@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の未使用だった定数定義用マクロ DefOCSPConst() と
+DefOCSPVConst() を削除しています。

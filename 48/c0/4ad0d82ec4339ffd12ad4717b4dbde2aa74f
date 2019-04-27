@@ -1,0 +1,13 @@
+さらに Module#instance_methods の実装でも T_CLASS 型オブジェクトの m_tbl にチェ
+ックなしでアクセスしているところがあって SEGV していたのを NULL チェックを追加
+して修正しています。 [ruby-core:45915] [Bug #6655]
+しかし以下のように prepend を使うと instance_methods(false) がクラスのイスタン
+スメソッドを返さなくなってしまっています。 [Bug #6660]
+module M
+end
+class C
+  prepend M
+  def m
+  end
+end
+C.instance_methods(false) # => []

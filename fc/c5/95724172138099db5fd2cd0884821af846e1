@@ -1,0 +1,3 @@
+mjit_init() で method cache の管理のための通し番号の追加 mjit_add_class_serial
+() を rb_cObject に対して呼んでいます。トップレベルに定義されるメソッドの
+inline 化ができなかったためとのこと。

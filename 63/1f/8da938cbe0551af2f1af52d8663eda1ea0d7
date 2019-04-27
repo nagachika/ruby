@@ -1,0 +1,2 @@
+拡張ライブラリ readline の extconf.rb で Readline や libedit がみつけられなかっ
+た時の例外メッセージの英語を修正。 https://github.com/ruby/ruby/pull/1453

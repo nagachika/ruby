@@ -1,0 +1,3 @@
+mjit_compile.c と vm_insnhelper.c で引数の実引数の情報をチェックする部分を vm
+_call_iseq_optimizable_p() という関数に切り出して vm_insnhelper.h に定義してい
+ます。

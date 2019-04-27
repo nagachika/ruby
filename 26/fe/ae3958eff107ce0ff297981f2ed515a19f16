@@ -1,0 +1,3 @@
+unsigned long の乱数を取得する rb_random_ulong_limited() で乱数エンジンから
+rand メソッドで取り出した乱数をまず to_int で整数に変換しておくようにしています
+。 https://github.com/ruby/ruby/pull/379

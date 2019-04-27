@@ -1,0 +1,4 @@
+tool/mkconfig.rb で config.status から読み取った RUBY_INSTSLL_NAME と
+RUBY_SO_NAME を rbconfig.rb に反映させるようにしています。元々反映はしていたと
+思いますが overriding value とあるので変数の指定などで上書きできていたのをこの2
+つについては config.status の値を優先させるようにしているってことのようです。

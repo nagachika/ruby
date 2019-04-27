@@ -1,0 +1,2 @@
+拡張ライブラリ readline で Readline.point= メソッドを追加して rl_point 変数を操
+作できるようにしています。 [ruby-dev:47535] [Feature #8675]

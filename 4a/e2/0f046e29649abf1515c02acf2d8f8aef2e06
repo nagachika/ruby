@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の rdoc 用コメントに multipart/form-data のサポート
+についての説明を Net::HTTPHeader#set_form を使うように更新しています。
+[ruby-core:88617] [Bug #15019]

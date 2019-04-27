@@ -1,0 +1,2 @@
+rb_integer_pack() および rb_integer_unpack() の word order と byte order(エンデ
+ィアン)の指定を個別の引数でしていたのをビットフラグで指定するようにしています。

@@ -1,0 +1,5 @@
+r53231 および r53244 の BasicSocket.for_fd の修正のテストで BasicSocket.for_fd
+(-1) の時に発生する例外として ArgumentError も許容するようにしています。あー、
+fstat(-1) が成功して is_socket() が偽を返して ArgumentError が発生するプラット
+フォーム(たぶん Windows)があったということだったのですね。しかしこれは次で
+revert されています。

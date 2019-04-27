@@ -1,0 +1,3 @@
+regparse.c の新たなリファクタリングで node_extended_grapheme_cluster() から
+list を作って onig_node_new_alt() で alternative node なるものを作る処理を
+create_alternate_node() という関数に切り出しています。

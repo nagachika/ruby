@@ -1,0 +1,2 @@
+r56189 で追加された rb_gc_adjust_memory_usage() について doc/extension.ja.rdoc
+にも翻訳を追加しています。

@@ -1,0 +1,2 @@
+.travis.yml で CC が異なる時に config.cache を削除してから configure しなおすよ
+うにしています。

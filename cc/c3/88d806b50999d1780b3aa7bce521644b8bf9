@@ -1,0 +1,3 @@
+vm_core.h の vm_block_iseq()、vm_insnhelper.c の vm_invoke_iseq_block() などで
+も rb_iseq_t の利用時に rb_iseq_check() を挟むようにして USE_LAZY_LOAD 対策して
+います。

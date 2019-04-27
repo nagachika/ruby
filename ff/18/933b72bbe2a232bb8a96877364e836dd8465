@@ -1,0 +1,5 @@
+rb_yield_lambda() を rb_yield_force_blockarg() という名前に変更、
+invoke_block_from_c_splattable() は invoke_block_from_c_bh() に改名して未使用だ
+った splattable という引数を削除。かわりに force_blockarg という引数を追加して
+います。要するに lambda を force blockarg という別の呼びかたにしようとしている
+ようです。

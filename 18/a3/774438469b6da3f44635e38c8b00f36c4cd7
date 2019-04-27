@@ -1,0 +1,4 @@
+test/runner.rb で default_gem を読み込まないように GEM_SKIP に defs/
+default_gems に書いてある gem をセットしていたのを RubyGems 2.0 で default_gem
+が入って不要になった(もしくはむしろ害になっている?)ため空文字列をセットするよう
+にしています。

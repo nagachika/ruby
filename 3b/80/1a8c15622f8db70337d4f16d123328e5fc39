@@ -1,0 +1,2 @@
+と、思ったら tool/redmine-backporter.rb の readline で IO.console.binmode を呼
+んでおくようにしています。

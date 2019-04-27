@@ -1,0 +1,3 @@
+標準添付ライブラリ tempfile のテスト test/test_tempfile.rb で単に assert を利用
+していたところを assert_file を利用してエラー時によりわかりやすいメッセージが出
+るようにしています。

@@ -1,0 +1,4 @@
+r47657 の続きで ruby_signal() は errno に関わらず sigaction(2) 失敗時は SIG_ERR
+を返して、呼び元によって、インタプリタ起動時には rb_bug() で終了し、Signal.trap
+メソッドからの呼び出しではEINVAL だけでなく全てのエラーを SystemCallError で
+Errno::EXXX の例外発生にするようにと変更しています。

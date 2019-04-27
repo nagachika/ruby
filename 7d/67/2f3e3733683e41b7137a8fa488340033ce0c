@@ -1,0 +1,2 @@
+r39972 で include/ruby/defines.h に #include を追加したため不要になった #
+include を削除しています。

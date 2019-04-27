@@ -1,0 +1,4 @@
+thread_win32.c で native_cond_broadcast()、abs_timespec_to_timeout_ms() などの
+現在未使用の関数を #if 0 でコメントアウトしています。また thread.c の
+thread_cleanup_func() で rb_thread_t::interrupt_cond の解放処理
+(native_cond_destroy())を追加しています。

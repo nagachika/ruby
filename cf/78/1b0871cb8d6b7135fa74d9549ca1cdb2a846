@@ -1,0 +1,2 @@
+azure-pipelines.yml で displayName: を使ってステップに名前をつけています。また
+不要になった /etc/apt/sources.list を表示するコマンドを削除。

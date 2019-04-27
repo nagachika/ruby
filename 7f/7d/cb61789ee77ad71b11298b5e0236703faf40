@@ -1,0 +1,4 @@
+r52348 のあたりの newobj_of() での GC の hook_events の有無チェックに関連して
+newobj_init() の hook_needed という引数を削除して gc_event_hook() の呼び出しを
+newobj_of_slowpath() に移動しています。 fastpath の時に余分な分岐を減らす最適化
+ですね。

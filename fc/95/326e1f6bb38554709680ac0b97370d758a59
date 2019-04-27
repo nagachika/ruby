@@ -1,0 +1,2 @@
+enc/unicode/casefold.h の生成時に対象のディレクトリを掘るコマンドを追加していま
+す。 [ruby-core:76879] [Bug #12677]

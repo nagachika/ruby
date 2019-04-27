@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile.rb で Tempfile#inspect を :nodoc: タグの範囲のなか
+に入れるように修正しています。

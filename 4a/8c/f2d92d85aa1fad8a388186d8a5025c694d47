@@ -1,0 +1,1 @@
+Process.maxgroups で NGROUPS_MAX なんてものがない環境では -1 を返すように変更。

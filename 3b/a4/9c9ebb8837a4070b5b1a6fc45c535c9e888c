@@ -1,0 +1,4 @@
+configure.in で CANONICALIZATION_FOR_MATHN というマクロを定義するのが
+RUBY_API_VERSION_MAJOR が 1 の時だけになっていたため、2.0.0 にアップデートする
+ことで mathn に必要なシンボル(関数)が定義されなくなってしまったので、条件を消し
+ています。 [ruby-dev:45100] [Bug #5852]

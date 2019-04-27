@@ -1,0 +1,2 @@
+default gems の gemspec ファイル群の spec.date の代入は削除しています。このプロ
+パティは gem を push した時に自動的に設定されるのでいらないみたいです。

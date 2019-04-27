@@ -1,0 +1,3 @@
+IO#readpartial のテストで readpartial を呼んでいるスレッドが落ちていることがあ
+るらしく(RubyCI?)、 Thread#join の例外を捕捉して情報を表示するようにする調査用
+のコードを追加しています。

@@ -1,0 +1,3 @@
+st.c の st_foreach で packed 状態のテーブル(numhash)を巡回中に要素が追加されて
+unpack された場合に unpack 版の処理に飛ぶときに同じ要素を再度ブロックに渡されな
+いように修正しています。

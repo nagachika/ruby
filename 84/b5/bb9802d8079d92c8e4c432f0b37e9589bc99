@@ -1,0 +1,4 @@
+lib/unicode_normalize/normalize.rb の NF_HASH_K という定数に格納される Hash は
+KOMPATIBLE_TABLE から1文字ずつ引いて join して生成するようにデフォルト値が設定
+されていましたが、キーには1文字の文字列でしか参照されないので不要ということで削
+除して KOMPATIBLE_TABLE を直接利用するようにしています。

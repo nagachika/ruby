@@ -1,0 +1,2 @@
+r61269 で tool/merger.rb に追加したサブコマンド removetag に remove_tag や
+rm_tag, deltag などなどの別名でも呼べるようにしています。

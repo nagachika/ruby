@@ -1,0 +1,3 @@
+標準添付ライブラリ xmlrpc で XMLRPC::Client#do_rpc の async 引数が真の時に
+Net::HTTP を作成する時に Net::HTTP::SSL_ATTRIBUTES にある SSL 関係のオプション
+も全て複製するようにしています。 [Bug #11489]

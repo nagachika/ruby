@@ -1,0 +1,3 @@
+.travis.yml および appveyor.yml で tzinfo と timezone という gem をインストール
+するようにして、インストールされていたらこれらを使ったテストを実行するように追
+加しています。

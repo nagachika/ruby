@@ -1,0 +1,2 @@
+r51719 の続き。 pathname のテストで File.symlink に空文字列を渡すようにしたので
+TypeError のかわりに Errno::ENOENT を rescue するように変更しています。

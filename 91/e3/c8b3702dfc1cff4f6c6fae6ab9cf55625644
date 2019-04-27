@@ -1,0 +1,3 @@
+configure.in で RUBY_FUNC_ATTRIBUTE() で定義する関数などの attribute のキーワー
+ドを noreturn -> __noreturn__ のようにアンダースコア2つで挟んだものを使うように
+しています。マクロとなどと衝突するのを防ぐためとのこと。

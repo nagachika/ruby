@@ -1,0 +1,4 @@
+r52949 で RubyVM::InstructionSequence.load_iseq があったら require/load 時に
+hook として呼び出すようにしたところで、rb_respond_to() を使っていたのを
+rb_check_funcall() を使って rb_intern() を2回くりかえされていたのを1回で済ます
+ようにしています。

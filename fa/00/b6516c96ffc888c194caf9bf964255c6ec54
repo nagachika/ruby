@@ -1,0 +1,4 @@
+Sun Sparc 向けの register windows 退避のためのアセンブリコードを sparc.c という
+独立したファイルに移動しています。なんでも同じファイルで定義されていて inline
+に展開されるとうまく動作しなかったとのこと。inline 展開されて更に reorder され
+てしまったりするんでしょうか。 [ruby-core:40685] [Bug #5244]

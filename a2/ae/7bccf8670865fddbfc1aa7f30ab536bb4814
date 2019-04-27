@@ -1,0 +1,3 @@
+標準添付ライブラリ matrix に Vector と Matrix の単項演算子メソッドの + と - を
+追加しています。 [ruby-core:63847] [Feature #10068] [ruby-core:63850] [Feature
+#10069]

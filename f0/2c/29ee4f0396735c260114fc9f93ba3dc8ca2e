@@ -1,0 +1,3 @@
+ruby_float_step() から引数を VALUE -> double に変換する部分を除いて本体を
+ruby_float_step_size() として切り出すリファクタリング。この後 Enumerator#size
+対応のために使うのでしょう。 [ruby-core:45805] [Feature #6636]

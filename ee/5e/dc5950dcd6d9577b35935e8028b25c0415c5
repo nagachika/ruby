@@ -1,0 +1,2 @@
+tool/rbinstall.rb で DESTDIR で指定される bundle gems のインストール先のディレ
+クトリのパーミッションを設定するようにしています。

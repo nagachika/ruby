@@ -1,0 +1,2 @@
+r49921 の struct THROW_DATA の利用の対応が漏れていて RNODE() を使っていた箇所
+(rb_catch_protect())でも THROW_DATA_VAL() を利用するように追随しています。

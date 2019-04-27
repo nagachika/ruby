@@ -1,0 +1,4 @@
+respond_to? の実装で respond_to_missing? を呼ぶ時に r38113 で private になった
+ので rb_funcall2() を使うように対処しています。
+って書いたのですが、rb_funcall() でも private メソッドを呼べるような気はするの
+で効率を気にして変更なのかも。

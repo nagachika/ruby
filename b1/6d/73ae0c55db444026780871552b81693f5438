@@ -1,0 +1,3 @@
+r65369 の shadowing outer local variable の警告削除についての NEWS ファイルのエ
+ントリで Matz を説得するのに使ったというサンプルのユースケースのコードをちょっ
+と修正しています。

@@ -1,0 +1,5 @@
+sigaction(2) によるシグナルハンドラの登録が errno=EINVAL で返ってきた時は、ハン
+ドラを登録できないシグナルが指定された場合というのがありえるので、rb_bug() では
+なく Errno::EINVAL 例外の発生にするようにしています。また Signal.trap に :KILL
+や :STOP を渡した時に Errno::EINVAL が発生することを確認するテストを追加してい
+ます。

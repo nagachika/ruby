@@ -1,0 +1,3 @@
+String#b でエンコーディングを ASCII-8BIT にした文字列オブジェクトに String#
+ascii_only? メソッドを呼ぶと常に false が返ってくる不具合に対応しています。
+[ruby-core:55315] [Bug #8496]

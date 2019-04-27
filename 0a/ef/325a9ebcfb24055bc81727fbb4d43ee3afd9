@@ -1,0 +1,4 @@
+struct RBacis::klass を 0 にして内部的なオブジェクトにされてたものを、klass を
+セットして Ruby レベルで見えるようにする rb_obj_reveal() という関数がありますが
+、拡張ライブラリ zlib の zstream_detach_input() で rb_obj_reveal() が重複してい
+たところがあったので余分な呼び出しを削っています。

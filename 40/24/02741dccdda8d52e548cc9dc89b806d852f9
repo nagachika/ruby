@@ -1,0 +1,6 @@
+make test-all で test_getpty_nonexistent がブロックしてしまう件の修正。GVL の修
+正で fork 後に GVL の初期化をしないといけないのですが pty.c がそれをすりぬけて
+いたので追加しています。[Bug #4121]
+しかし kosaki さんによるとここだけでなくて popen などもまずいし、そもそも fork
+自体が実は GVL 初期化前に利用してたりするそうなので fork, exec あたりはいずれも
+うすこし大規模に修正が入りそうです。[ruby-dev:42858]

@@ -1,0 +1,2 @@
+openssl のテストスクリプトの require を util.rb でまとめてするようにしています
+。あと require_relative の利用。

@@ -1,0 +1,2 @@
+標準添付ライブラリ mkmf で Kernel#puts でメッセージ出力しているところで
+Logging.message によるログへの出力もするようにしています。

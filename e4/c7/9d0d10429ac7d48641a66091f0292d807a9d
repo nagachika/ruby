@@ -1,0 +1,3 @@
+Hash の要素数が少なめの時の array hash 実装の内部構造体 li_table_entry を
+ar_table_entry に改名(list -> array?)して、その他関連して関数名/マクロ名/構造体
+メンバー名/変数名などを改名しています。

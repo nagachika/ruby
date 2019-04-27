@@ -1,0 +1,4 @@
+NODE* が T_IMEMO 型の imemo_func の時の分岐が compile.c や iseq.c に散見されて
+いたので、ifunc 専用の関数 rb_iseq_compile_ifunc(), new_child_iseq_ifunc(),
+rb_iseq_new_ifunc() などを定義して、こちらを呼び出すようにリファクタリングして
+います。これにより r61591 の対応は不要になったので revert しています。

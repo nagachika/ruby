@@ -1,0 +1,6 @@
+make clean した時に、make runnable で生成されるファイル、拡張ライブラリのビルド
+時の一時ディレクトリなどを削除するようにルールを追加しています。
+[追記]しかし手元だと make clean すると make clean-runnable で以下のようなエラー
+が発生しました。
+/bin/sh: line 0: cd: bin: No such file or directory
+[/追記]

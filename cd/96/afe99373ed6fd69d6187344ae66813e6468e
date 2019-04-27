@@ -1,0 +1,6 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket の RTypedData 化。
+これコメントや rb_data_type_t::wrap_struct_type の名前をみると OpenSSL::SSL の
+ことかと思ってしまいますが実際 alloc しているのは SSLSocket でした。確保してい
+る OpenSSL の構造体の名称が SSL だからなのですが alloc 関数名も
+ossl_ssl_s_alloc() でまぎらわしいですね。 OpenSSL::SSL はただの Module なので
+RData でも RTypedData でもないです。

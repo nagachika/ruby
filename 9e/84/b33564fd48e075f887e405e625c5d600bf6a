@@ -1,0 +1,3 @@
+bignum.c の power_cache_get_power() と big2str_orig(), big2str_karatsuba() の引
+数 len や numdigits_ret の型を long -> size_t に変更しています。おそらく利用し
+ているテーブルのサイズ的に size_t のほうが正しいということかと思われます。

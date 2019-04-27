@@ -1,0 +1,4 @@
+テストの test/stringio/test_stringio.rb および test/-ext-/string/
+test_modify_expand.rb に require "rbconfig/sizeof" を追加しています。他のところ
+で require されてるので通ってしまってましたが並列テストしたりするとおちる可能性
+がありました。

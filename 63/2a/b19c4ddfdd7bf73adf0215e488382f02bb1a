@@ -1,0 +1,4 @@
+Module 間で相互に include すると "cyclic include detected" といわれて例外発生す
+るのですが、prepend だと検出されていなかったので Module#prepend でも循環した継
+承関係にならないように検出してエラーにするようにしています。 [ruby-core:52205]
+[Bug #7841]

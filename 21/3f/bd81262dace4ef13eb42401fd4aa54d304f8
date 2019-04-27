@@ -1,0 +1,4 @@
+.travis.yml の build matrix の MSAN という名前のものに cflags に
+-fsanitize-memory-track-origins=2 -fno-omit-frame-pointer を optflags に -O1 を
+追加し configure 時に --with-out-ext=openssl で openssl の拡張ライブラリはビル
+ドしないようにしています。

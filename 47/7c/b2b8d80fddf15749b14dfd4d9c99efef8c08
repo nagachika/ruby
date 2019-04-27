@@ -1,0 +1,2 @@
+Symbol#match, Symbol#match? の rdoc 用コメントで省略可能な第2引数について追記し
+ています。 https://github.com/ruby/ruby/pull/1606

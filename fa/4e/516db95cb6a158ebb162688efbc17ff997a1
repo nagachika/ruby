@@ -1,0 +1,3 @@
+rb_method_definition_t に complemented_count というメンバを追加して、
+alias_count とは別にメソッド定義の参照数を持ようにしてメソッド再定義の時の警告
+を include 済みの Module のメソッドの再定義の時にも出力できるようにしています。

@@ -1,0 +1,6 @@
+RubyGems を 2.2.2 に更新しています。更新履歴はこちら http://
+rubygems.rubyforge.org/rubygems-update/History_txt.html#
+label-2.2.2+%2F+2014-02-05
+ざっとみるとインストールの高速化、ローカルにホストした gem パッケージの Bundler
+でのインストールの対応などなど 2.2 系はまだまだよく使われそうな機能のあたりで修
+正されている感じですね。

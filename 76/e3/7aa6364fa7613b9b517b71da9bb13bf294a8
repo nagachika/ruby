@@ -1,0 +1,2 @@
+rubygems の拡張ライブラリ用の extconf.rb のビルドで例外発生時に Tempfile の削除
+をするように修正しています。

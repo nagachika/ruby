@@ -1,0 +1,3 @@
+標準添付ライブラリ test/unit の assert_throw を minitest の assert_throws の
+alias として定義するように変更し、test/ruby/test_object.rb で assert_throws を
+使っていたのを assert_throw を利用するように変更しています。

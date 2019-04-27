@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の環境変数 http_proxy をセットした時の Net::HTTP#
+proxy_from_env? の挙動のテストを追加しています。 OS X の El Capitan で失敗する
+テストの調査用みたいです。

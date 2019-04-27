@@ -1,0 +1,6 @@
+r66329 で拡張ライブラリ date の Date で private method として追加して継承してい
+る DateTime public にしているメソッドを単に DateTime で定義するように変更してま
+したが、なんと ActiveSupport で Date を open class して再定義しているところで使
+っているところがあったので、private メソッドとして追加しています。確かにちょっ
+と気になったけど private だからいいか、と思ったけど確かに継承や再定義で使う可能
+性はあったか。 [ruby-core:90443] [Bug #15403]

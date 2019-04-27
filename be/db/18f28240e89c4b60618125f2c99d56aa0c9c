@@ -1,0 +1,2 @@
+ext/date/date_parse.c の n2i() の引数の型を int から long に変更しています。
+r31328 で revert した変更のかわりでしょうか。

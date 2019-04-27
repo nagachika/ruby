@@ -1,0 +1,2 @@
+Hash#[]= と Hash#store の rdoc コメントのサンプルコードに Hash#store を使った例
+を追加しています。

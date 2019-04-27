@@ -1,0 +1,3 @@
+IO#advice のテストで fadvice(2) に対応していないプラットフォームで
+Errno::ENOSYS を発生させないようにしたので、例外を捕捉するかわりに skip するよ
+うにしています。 [ruby-core:72059] [Feature #11806]

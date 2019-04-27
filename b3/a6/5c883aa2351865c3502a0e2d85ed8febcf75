@@ -1,0 +1,2 @@
+Array#min, #max と Enumerable#min, #max の rdoc 用コメントのサンプルのコーディ
+ングスタイルの統一。

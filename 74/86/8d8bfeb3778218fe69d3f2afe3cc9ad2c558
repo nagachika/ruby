@@ -1,0 +1,4 @@
+r41306 で eval 内での __dir__ の不具合修正のため導入した absolute_path の宣言位
+置を利用しているブロック内に移動しています。 r40759 の時の bind 変数と同様に
+"clobbered by 'setjmp' or 'vfork'" のコンパイラ警告を抑制するためです。
+[ruby-core:55123] [Bug #8436]

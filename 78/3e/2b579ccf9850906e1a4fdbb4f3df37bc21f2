@@ -1,0 +1,3 @@
+st.c の rb_hash_bulk_insert() に MJIT 用に export する MJIT_FUNC_EXPORTED がつ
+けられていましたが、r63488 で msgpack-ruby 用に export されたのでこっちは消して
+います。

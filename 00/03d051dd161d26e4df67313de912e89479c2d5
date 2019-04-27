@@ -1,0 +1,3 @@
+test/ruby/test_bignum.rb の assertion が assert を使っていたところを
+assert_operator や assert_send などチェック内容に応じたメソッドを使うようにリフ
+ァクタリングしています。

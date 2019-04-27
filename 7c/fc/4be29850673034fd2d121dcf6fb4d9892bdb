@@ -1,0 +1,3 @@
+configure でドキュメント生成の doxygen と dot コマンドを探索するのに
+AC_CHECK_PROG ではなく AC_CHECK_PROGS を使用するようにしています。引数の数が一
+致していなくてうまくいってなかったようです。 [ruby-core:44433] [Bug #6316]

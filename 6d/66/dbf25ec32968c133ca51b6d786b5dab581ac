@@ -1,0 +1,2 @@
+nacl/GNUmakefile.in で make package 時に nacl/example.html を含めるようにしてい
+ます。

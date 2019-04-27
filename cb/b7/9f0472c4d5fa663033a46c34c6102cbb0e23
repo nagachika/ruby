@@ -1,0 +1,6 @@
+install_sighandler() でシグナルハンドラ設定する時に rb_disable_interrupt() と
+rb_enable_interrupt() で割り込みから保護していたのですが、シグナルハンドラの設
+定は起動時に Init_signal() でまとめて実行するだけなのでこまめに割り込み保護する
+必要もないので Init_signal() で全体でまとめて割り込み制御するようにしています。
+起動時のシステムコール呼び出しを削減し、実行形式のサイズも少し小さくできるとの
+こと。 [ruby-core:59480] [Feature #9345]

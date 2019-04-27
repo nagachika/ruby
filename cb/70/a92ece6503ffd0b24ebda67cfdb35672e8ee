@@ -1,0 +1,2 @@
+Array#join で separator の引数に String ではないオブジェクトで to_str で変換し
+た時に、変換結果の文字列の encoding を結果に反映させるようにしています。

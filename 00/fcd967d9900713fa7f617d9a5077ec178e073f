@@ -1,0 +1,3 @@
+strinc.c で整数の overflow 対策で termlen の加算前に size_t にキャストしたり、
+また rb_str_plus() や rb_str_modify_expand() などで overflow チェックがされてな
+かったのを追加したりしています。

@@ -1,0 +1,2 @@
+Exception#cause に例外を capture する時に誤って throw などの例外以外の大域脱出?
+を捕捉すると SEGV する不具合を修正。 [ruby-core:89712] [Bug #15282]

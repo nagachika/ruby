@@ -1,0 +1,4 @@
+さらにコンパイラオプションに -Wsuggest-attribute=noreturn というオプションを追
+加しています。関数に noreturn の attribute の指定を追加することを示唆するという
+ものみたいで、これでみつけたと思われる関数に NORETURN() マクロを使うようにして
+います。

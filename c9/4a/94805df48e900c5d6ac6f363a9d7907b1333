@@ -1,0 +1,3 @@
+r51034 で st_table のリスト管理に ccan の list 実装を利用したらビルドエラーが発
+生したのが common.mk の更新不足にあったのではないかということで、まず st.c に #
+include "ccan/list/list.h" を追加して様子を見ています。

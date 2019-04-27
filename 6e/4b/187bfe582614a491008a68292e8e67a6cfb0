@@ -1,0 +1,3 @@
+r38692 あたりで make の fake ターゲットの依存関係を変更したものの再修正。 fake/
+yes-fake/no-fake の定義は common.mk に移動して、win32/Makefile.sub で fake.rb
+を $(arch)-fake.rb に変更しています。 r38692 の変更に追随しているみたいです。

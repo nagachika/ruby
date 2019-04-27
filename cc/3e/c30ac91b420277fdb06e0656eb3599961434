@@ -1,0 +1,2 @@
+win32/win32.c の rb_w32_ustati64() と rb_w32_stati64() から utf8_to_wstr() で
+WCHAR に変換する処理を w32_stati64() に切り出して共通化するリファクタリング。

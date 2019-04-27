@@ -1,0 +1,3 @@
+Process.spawn で非常に長いコマンドラインを渡した時のテストを
+Process::RLIMIT_NPROC が使えない環境や、Solaris ではプロセスを大量に作りすぎて
+システムが不安定になるそうなので skip するようにしています。

@@ -1,0 +1,3 @@
+rb_strftime_timespec() と rb_strftime() のプロトタイプ宣言をやっぱり time.c か
+ら internal.h に移動して、ruby/encoding.h を include 済みの時だけ見えるように #
+ifdef で囲んでます。

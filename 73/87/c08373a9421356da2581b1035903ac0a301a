@@ -1,0 +1,4 @@
+Module#private_constant で private に指定した定数をスコープつきで参照した時にも
+Module#const_missing への fallback を呼ぶようにしています。あー、なるほどなー。
+ただチケット番号の参照が間違ってるっぽい。たぶんこっちが正解かな?
+[ruby-core:84963] [Feature #14382]

@@ -1,0 +1,3 @@
+misc/ruby-additional.el という emacs 用の設定ファイルに ruby-mode-set-encoding
+という関数を追加しています。マジックコメントを追加するための関数のようです。
+[ruby-core:46021] [Feature #6679]

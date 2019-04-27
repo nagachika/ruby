@@ -1,0 +1,3 @@
+Windows 版の winnt_stat() は symbolic link に使った時にリンク先の情報を取得しな
+いようになっていたので、wint_lstat() と改名して、リンク先の情報を取得する版の
+winnt_stat() を追加しています。

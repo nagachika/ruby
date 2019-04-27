@@ -1,0 +1,3 @@
+defs/id.def で :mesg と :exception という Symbol の ID を組み込みで定義しておく
+ようにしています。またこれまで rb_intern() で ID を作っていたところを idMesg と
+idException を利用するようにしています。

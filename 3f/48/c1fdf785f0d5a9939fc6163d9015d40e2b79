@@ -1,0 +1,2 @@
+sprintf.c の GETPOSARG() からも posarg のチェック部分を check_pos_arg() という
+関数に括り出しています。

@@ -1,0 +1,3 @@
+variable.c の rb_generic_ivar_table() に NORETURN() マクロを使って明示的にこの
+関数は return しない関数であることを指定するようにしています。 GCC 7 で指摘され
+るそうです。 gcc どんどん賢くなっていく。

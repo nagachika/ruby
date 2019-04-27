@@ -1,0 +1,2 @@
+Socket.getaddrinfo の rdoc 用コメントから socktype の例として :UNIX が含まれて
+いたのを削っています。 https://github.com/ruby/ruby/pull/990

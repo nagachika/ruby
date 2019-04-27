@@ -1,0 +1,4 @@
+標準添付ライブラリ rexml の REXML::Text#<< が self を返すようにしています。メソ
+ッドチェインできるようにするためとのこと。 ChangeLog には test/rexml/
+test_text.rb の変更もあるように書かれていますが実際には lib/rexml/text.rb のみ
+ですね。

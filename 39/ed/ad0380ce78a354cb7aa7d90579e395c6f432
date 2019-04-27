@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http の Net::HTTP::Response#error! でインスタンス変数
+@message の nil チェックを追加しています。 https://github.com/ruby/ruby/pull/
+1475

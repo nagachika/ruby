@@ -1,0 +1,3 @@
+newobj_slowpath() で newobj_init() に渡す flags から FL_WB_PROTECTED を削ってい
+ましたが、独立した引数で明示的に指定するようになったので削らなくても良くなりま
+した。

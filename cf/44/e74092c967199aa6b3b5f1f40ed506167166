@@ -1,0 +1,2 @@
+enc/make_encmake.rb で encdb と transdb は常にターゲットに含めるようにしていま
+す。

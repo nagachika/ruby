@@ -1,0 +1,1 @@
+URI::HTTP.build の rdoc のサンプルの typo を修正。

@@ -1,0 +1,2 @@
+Linux プラットフォームを識別するために defined(linux) や defined(__linux) など
+を利用しているところを defined(__linux__) に統一するようにしています。

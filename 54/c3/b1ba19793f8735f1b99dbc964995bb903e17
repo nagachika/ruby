@@ -1,0 +1,3 @@
+bignum.c の power_cache_get_power() で結果の Bignum のサイズ調整を bigtrunc()
+で行なうようにするリファクタリングと、big2str_karatsuba() で 0埋めする桁の長さ
+の計算間違いを修正しています。

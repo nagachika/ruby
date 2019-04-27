@@ -1,0 +1,2 @@
+misc/ruby-additional.el で char-before/char-after のかわりに preceding-char/
+following-char を使うように変更しています。

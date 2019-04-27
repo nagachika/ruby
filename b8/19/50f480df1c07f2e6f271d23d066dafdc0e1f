@@ -1,0 +1,2 @@
+標準添付ライブラリ matrix に Vector#round というメソッドを追加しています。単に
+各要素について round を呼ぶ実装ですね。 https://github.com/ruby/ruby/pull/802

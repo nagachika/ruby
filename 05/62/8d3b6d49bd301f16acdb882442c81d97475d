@@ -1,0 +1,8 @@
+configure.in で off_t の型のチェックに RUBY_REPLACE_TYPE() という関数を利用する
+ようにして NUM2OFFT() および OFFT2NUM() が生成されるようにしています。 include/
+ruby/ruby.h で定義していた NUM2OFFT() マクロは未定義の時だけ定義するようにして
+います。未定義になることあるんでしょうか? また File.truncate の実装で NUM2POS()
+というマクロを一時的に定義して ftruncate(3) の第2引数の型に応じた数値変換をする
+ようにしています。
+コミットログには ftruncate64 のチェックを消したと書かれていますが実際にはコメン
+トを追加しただけで削除はされていません。

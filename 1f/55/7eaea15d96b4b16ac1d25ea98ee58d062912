@@ -1,0 +1,3 @@
+r51663 の追加で struct rescue_funcall_args に th メンバも追加して
+check_funcall_exec() で GET_THREAD() のかわりにこの構造体メンバから rb_thread_t
+を取得するようにしています。ここが切り替わってる可能性ってあるんでしょうか…。

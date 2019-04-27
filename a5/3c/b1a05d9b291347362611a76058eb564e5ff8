@@ -1,0 +1,4 @@
+Travis CI 上でビルドするために .travis.yml の設定で autoconf 前に tool/
+config.guess と tool/config.sub をダウンロードしてくるように make コマンドの実
+行を追加しています。また tool/config_files.rb のラッパとして tool/
+get-config_files を追加しています。

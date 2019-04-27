@@ -1,0 +1,3 @@
+test/thread/test_cv.rb と test/thread/test_queue.rb, test/thread/test_sync.rb
+などは対象の ConditionVariable、Queue などが ruby 組み込みクラスとして取り込ま
+れたので、テストファイルを test/ruby 配下に移動しています。

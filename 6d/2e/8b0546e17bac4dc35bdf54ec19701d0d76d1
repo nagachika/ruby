@@ -1,0 +1,5 @@
+vm_dump.c でプロセスのメモリマップを取得するために sysctl(2) の
+MIB_KERN_PROC_PID_LEN を使っていたところで #if __FreeBSD__ を使って分岐していま
+したが、古い FreeBSD 8.4 だとこの機能がなくてビルドに失敗していたので、
+configure で検出した HAVE_LIBPROCSTAT を参照して分岐するようにしています。
+[ruby-core:67655] [Bug #10752]

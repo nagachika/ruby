@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb の help コマンドの表示に rel コマンドを追記していま
+す。

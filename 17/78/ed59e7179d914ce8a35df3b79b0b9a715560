@@ -1,0 +1,3 @@
+Integer#fdiv の実装で先に rb_gcd() を利用して可能なら約分してから除算するように
+しています。 a.fdiv(b) と Rational(a, b).to_f で少し精度に差があったのを修正し
+ているようです。 [ruby-core:78886] [Bug #13078]

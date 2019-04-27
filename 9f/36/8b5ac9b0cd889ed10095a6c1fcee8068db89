@@ -1,0 +1,4 @@
+File.symlink などのメソッドで SystemCallError (標準ライブラリやシステムコールの
+エラー)の Errno::EEXIST の時のメッセージで両方のパスが表示されるのを、作成する
+対象のパスのほうだけ表示するように修正しています。 [ruby-core:59202] [Feature #
+9263]

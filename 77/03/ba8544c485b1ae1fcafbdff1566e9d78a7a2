@@ -1,0 +1,3 @@
+thread_pthread.c で get_stack() を get_main_stack() というマクロで wrap するよ
+うにしています。 ChangeLog をみるともっと変更が書いてあるのでこの後の修正とまと
+めて入るはずだったのだと思われます。

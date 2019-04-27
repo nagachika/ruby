@@ -1,0 +1,2 @@
+標準添付ライブラリ uri の URI.regexp のテストで obsolete になったため
+EnvUtil.suppress_warning を使って警告を抑制するようにしています。

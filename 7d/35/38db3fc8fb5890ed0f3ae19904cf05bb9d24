@@ -1,0 +1,2 @@
+拡張ライブラリ bigdecimal の VpAddAbs() と VpSubAbs() でループ内で不変の条件に
+よる分岐を while ループの外に出すリファクタリング。

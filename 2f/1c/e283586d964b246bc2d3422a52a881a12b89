@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::Cipher の rdoc 用コメントのサンプルコードの
+変数名 typo (?) を修正しています。 https://github.com/ruby/ruby/pull/663

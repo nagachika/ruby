@@ -1,0 +1,6 @@
+include/ruby/ruby.h の PRIsVALUE の定義で、文字列リテラルの連結のところで、後ろ
+に定数マクロを置く時に間に空白がないと C++11 のユーザー定義リテラルの suffix と
+混同されるということで警告が出ることがあるらしく、間に空白をはさむようにしてい
+ます。なるほどーそんな機能があるのか。 https://github.com/ruby/ruby/commit/
+a9f3eb7#commitcomment-9040169 http://en.cppreference.com/w/cpp/language/
+user_literal

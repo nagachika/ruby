@@ -1,0 +1,2 @@
+benchmark/file_rename.yml でファイルの削除を close 前にしていたのが Windows 環
+境で動かないので先に close するように修正しています。 [ruby-core 87883]

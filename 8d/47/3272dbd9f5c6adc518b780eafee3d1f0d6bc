@@ -1,0 +1,2 @@
+benchmark/complex_float_{add,div,mul,new,power,sub}.yml などに Complex の生成や
+四則演算のベンチマークを追加しています。

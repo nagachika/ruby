@@ -1,0 +1,4 @@
+r62343 でビルド時に生成するようにした mjit_config.h に MJIT_CC_COMMON、
+MJIT_CFLAGS、MJIT_OPTFLAGS、MJIT_DEBUGFLAGS、MJIT_LDSHARED、MJIT_DLDFLAGS など
+のマクロも追加しています。これらも本体のビルド時と同じものを使うべきということ
+だと思います。

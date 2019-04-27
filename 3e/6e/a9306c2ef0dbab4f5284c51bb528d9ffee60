@@ -1,0 +1,5 @@
+Windows 7 でビルドできないという件の対応として、win32/configure.bat に
+@setlocal disabledelayexpansion というコマンドで変数の展開遅延を抑制しているそ
+うです。正直チケットをみただけでよく調べていませんが batch file の "!" という文
+字を使った変数の遅延展開の機能がコマンドプロンプトから on/off できるようで、そ
+れに依存していたようです。

@@ -1,0 +1,4 @@
+version.h で JIT が有効かどうかで表示する文字列を変えるためにマクロ
+RUBY_DESCRIPTION と RUBY_DESCRIPTION_WITH_JIT を定義していたのを、
+RUBY_DESCRIPTION_WITH() という関数マクロ1つを定義して参照元で引数を "" と " +
+JIT" に変えるようにして、重複を減らしています。

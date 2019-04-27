@@ -1,0 +1,2 @@
+rb_fork() の実装も rb_fork_err() を呼ぶのではなくて直接 rb_fork_internal() を呼
+ぶように変更しています。

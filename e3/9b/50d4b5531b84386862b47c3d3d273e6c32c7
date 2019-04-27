@@ -1,0 +1,3 @@
+SIGPIPE を無視するために sigpipe() という空のシグナルハンドラを用意してこれを設
+定していましたが、SIG_IGN を設定するようにしています。 [ruby-dev:43215]
+Mac OS X で test-all がたまに sigpipe() で SEGV しているようでした。

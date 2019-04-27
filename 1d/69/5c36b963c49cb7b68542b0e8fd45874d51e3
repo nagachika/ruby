@@ -1,0 +1,4 @@
+r36788 で configure のオプション --with-opt-dir が CPPFLAGS にも反映されるよう
+にして FreeBSD で ports でインストールした libexecinfo の探索ができるようにして
+いましたが、さらに DLDFLAGS にも反映させるようにしています。 LIBRUBY_SO のリン
+ク時に必要だったようです。 [ruby-dev:46170] [Bug #6900]

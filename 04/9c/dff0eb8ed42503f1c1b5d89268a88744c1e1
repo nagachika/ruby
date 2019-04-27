@@ -1,0 +1,4 @@
+r30240 で __id__ と object_id を BasicObject に移動したのですが、object_id は
+Kernel に戻しています。これは [ruby-dev:42840] での Yugui さんの指摘を反映させ
+たものでしょう。
+あー NEWS ファイルのエントリ……。

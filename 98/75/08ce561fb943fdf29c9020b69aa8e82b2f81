@@ -1,0 +1,2 @@
+tool/make-snapshot で各種変数の置換内容を tool/prereq.status というファイルに切
+り出しています。

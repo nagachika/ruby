@@ -1,0 +1,5 @@
+オブジェクトのタイプに T_IMEMO という新しい型を導入しています。どうやら NODE 型
+を流用して struct CREF にキャストしていたものを独立した型にしているみたいですね
+。 struct RVALUE の共用体に imemo というメンバを追加していて、内容は rb_cref_t
+ですね。名前的に Enumerator で使ってる struct MEMO のほうかと思いましたが CREF
+のほうですね。

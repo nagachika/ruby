@@ -1,0 +1,2 @@
+Float のテストで Float の精度を越える大きさの整数を Float() に渡すと出てくる警
+告を抑制するため suppress_warning のブロックでくくっています。

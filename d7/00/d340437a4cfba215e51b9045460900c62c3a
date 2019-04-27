@@ -1,0 +1,5 @@
+flonum 対応した時に追加したと思われる rb_float_value() と rb_float_value() を
+include/ruby/ruby.h から internal.h に移動しています。また公開 API としてこれら
+のインライン関数を呼び出す API を numeric.c に定義して宣言を include/ruby/ruby
+.h に追加しているので、同じ関数は呼べます。 inline 関数として提供されるか通常の
+関数かというところが変わっています。

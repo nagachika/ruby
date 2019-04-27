@@ -1,0 +1,5 @@
+Hash#flatten での引数の変換を FIX2INT() から NUM2INT() に変更しています。
+しかしちょっと中をみてみると FIX2INT() も rb_fix2int() で Fixnum でなかった時は
+rb_num2long() で変換しようとするんですね……と思いきやこれは sizeof(int) <
+sizeof(long) の時で、同じ時はチェックなしでシフト演算するだけですね。これはやや
+こしい……。

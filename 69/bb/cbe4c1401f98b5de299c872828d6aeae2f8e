@@ -1,0 +1,7 @@
+process.c に EXPORT_STR(), EXPORT_DUP() という DEFAULT_PROCESS_ENCODING が定義
+されていた時に文字列オブジェクトのエンコーディング変換と複製を行なうマクロを導
+入して、exec 時のプログラムや引数の文字列の変換や環境変数の文字列の変換に利用す
+るようにしています。特にチケットの参照がないですけど exec に渡す文字列のエンコ
+ーディングの指定が必要な場合があるのでしょう。
+また最後の hunk の rb_exec_fillarg() の変更で arg = EXPORT_STR(arg); も #ifdef
+DEFAULT_PROCESS_ENCODING の中に入れていいような気がします。

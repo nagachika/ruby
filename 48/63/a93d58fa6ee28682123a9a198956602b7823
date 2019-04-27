@@ -1,0 +1,2 @@
+.travis.yml の CFLAGS 環境変数の設定を cflags/cppflags/warnflags/debugflags/
+optflags などの変数への設定に分解しています。

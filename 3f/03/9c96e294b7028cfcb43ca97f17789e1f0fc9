@@ -1,0 +1,2 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DH の rdoc コメントのサンプルコードの
+変数名 typo を修正。 [ruby-core:59061] [Bug #9243]

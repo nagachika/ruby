@@ -1,0 +1,2 @@
+nil, true, false などの即値オブジェクトが常に freeze された状態になる(frozen?
+メソッドが true を返す)ようにしています。 [ruby-core:57273] [Feature #8923]

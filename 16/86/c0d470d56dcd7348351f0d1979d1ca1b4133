@@ -1,0 +1,3 @@
+Time#floor というメソッドを追加して、秒の小数点以下の精度を指定した桁(省略され
+たら秒単位)で切り捨てる丸めを行なった Time オブジェクトを返せるようにしています
+。 https://github.com/ruby/ruby/pull/2092 [ruby-core:91739] [Feature #15653]

@@ -1,0 +1,4 @@
+r59132 の String#delete_prefix に続いて String#delete_suffix および String#
+delete_suffix! というメソッドを追加しています。その名の通り、文字列の末尾に引数
+で指定した文字列と同じものがあったら削る、なかったらそのままという挙動をします
+。 https://github.com/ruby/ruby/pull/1661 [ruby-core:81714] [Feature #13665]

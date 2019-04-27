@@ -1,0 +1,4 @@
+SIGCHLD の独自処理のために pthread_cancel(3) を利用していたのをやめています。
+"it's painful to
+use correctly." だそうで、うん、昔読んだ(ピアソンエデュケーションの) pthread の
+本にもそんな感じのこと書いてあったなぁ。 [ruby-core:88282] [Misc #14962]

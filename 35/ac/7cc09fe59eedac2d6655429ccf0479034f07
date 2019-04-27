@@ -1,0 +1,2 @@
+parse.y で STATIC_ID2SYM() の別名に ID2VAL() というマクロを定義して、ripper 用
+のコードでは TOKEN2VAL() のかわりにこれを利用するようにしています。

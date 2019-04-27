@@ -1,0 +1,4 @@
+MJIT のコード生成用のテンプレート tool/ruby_vm/views/_mjit_compile_send.erb か
+らメソッドキャッシュが効いてない時のチェック部分を tool/ruby_vm/views/
+_mjit_compile_send_guard.erb というテンプレートに切り出して、attr_reader による
+メソッドのインライン化に対応する最適化。

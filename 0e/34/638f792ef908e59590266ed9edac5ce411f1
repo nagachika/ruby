@@ -1,0 +1,2 @@
+EC_ の prefix のない PUSH_TAG(), EXEC_TAG(), POP_TAG(), JUMP_TAG() などのマクロ
+を削除して、常に ec を明示的に指定するようにしています。おお、ついに。

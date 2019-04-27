@@ -1,0 +1,2 @@
+drb のテストで DRb::DRbService.finish メソッドを定義して、dRuby による rpc を実
+行している Thread の終了を待つようにしています。

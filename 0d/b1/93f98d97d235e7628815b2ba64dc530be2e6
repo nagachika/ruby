@@ -1,0 +1,3 @@
+Refinements である Module の refine ブロック内で alias 作成されていたのと同じ名
+前のメソッドを、元の Class で alias 作成すると再定義の警告が出ていたのを修正し
+ています。 [ruby-core:82385] [Bug #13817]

@@ -1,0 +1,2 @@
+Module#attr_reader, #attr_writer, #attr_accessor, #attr を public メソッドにし
+ています。 [ruby-core:83900] [Feature #14132]

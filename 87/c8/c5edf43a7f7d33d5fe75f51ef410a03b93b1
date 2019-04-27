@@ -1,0 +1,6 @@
+Windows 版のソケットの書き込みのエラーを Errno::EXXX (errno のエラー種別)に割り
+当てるところで、通常は map_errno() (マクロで定義されていて実体は
+rb_w32_map_errno())で変換するのですが、WSAECONNABORTED という Windows のエラー
+コード(通常は ECONNABORTD に変換される)を EPIPE として返すようにしています。
+BSDソケットの挙動と互換性を持たせることで net/ftp のテストのエラーを回避しよう
+としているそうです。

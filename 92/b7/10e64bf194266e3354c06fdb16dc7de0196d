@@ -1,0 +1,3 @@
+common.mk などで全体的に sub make を起動する時に mflags の変数を伝播させるよう
+にしています。 nmake で環境変数による変数の伝播ができないためとのこと。また
+defs/gmake.mk で -j は sub make には伝播させないようにしています。

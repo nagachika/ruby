@@ -1,0 +1,3 @@
+Time#strftime の実体でもある rb_strftime_with_timespec() の引数に maxsize を追
+加して、指定したサイズを超えたらエラーを返すことができるようにして結果が大きく
+なりすぎないようにしています。

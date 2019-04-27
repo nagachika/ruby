@@ -1,0 +1,2 @@
+psych の extconf.rb も libyaml がみつからない時に abort のかわりに raise するよ
+うに変更しています。

@@ -1,0 +1,3 @@
+拡張ライブラリ socket の ext/socket/raddrinfo.c で #ifndef GETADDRINFO_EMU で括
+る範囲を間違えてて parse_numeric_port() の定義も GETADDRINFO_EMU がない時のみ定
+義するようになっていたのを修正しています。

@@ -1,0 +1,4 @@
+えーと FreeBSD の時と最適化されている時(__OPTIMIZE__ が真)の時に HAVE_BACKTRACE
+を undef しています。libexecinfo を使ってバックトレースを取得する環境ではこうし
+ておくそうです。"this temporary hack" とあるので libexecinfo を使う環境で動くよ
+うにするまでの一時的な措置かもしれません。

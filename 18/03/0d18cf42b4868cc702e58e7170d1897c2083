@@ -1,0 +1,3 @@
+NUL 文字のマルチバイト文字対応続き。 String#encode などによるエンコーディング変
+換時にも NUL 文字を必要なサイズぶん付加するように rb_str_fill_terminator() とい
+う関数を追加して trancsode.c から呼べるようにしています。

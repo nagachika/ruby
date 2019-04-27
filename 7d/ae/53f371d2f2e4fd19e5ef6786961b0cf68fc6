@@ -1,0 +1,2 @@
+common.mk の ext/ripper/ripper.c を生成するためのルールで VPATH の値を相対パス
+(../..)にして submake を呼ぶようにしています。

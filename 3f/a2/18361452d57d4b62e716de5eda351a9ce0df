@@ -1,0 +1,3 @@
+method.h の struct rb_method_definition_struct の定義で bit field のフィールド
+の型を int から rb_method_type_t という enum 型に変更しています。bit field の型
+を enum にできるんですね。

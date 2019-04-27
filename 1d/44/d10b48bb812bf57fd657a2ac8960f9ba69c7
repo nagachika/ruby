@@ -1,0 +1,2 @@
+ruby-runner.c で(exe/ruby で) load path を環境変数 RUBYLIB にセットしておくよう
+にしています。

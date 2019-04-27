@@ -1,0 +1,2 @@
+Regexp.union の rdoc コメントに引数が Regexp でない時は to_regexp で変換される
+ことを追記しています。 [ruby-core:53895] [Bug #8205]

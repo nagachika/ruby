@@ -1,0 +1,5 @@
+チケットに詳細な動機が書かれているので(日本語だし)そちらを呼んでいただくのがい
+いと思います。標準添付ライブラリ resolv.rb の Resolv::DNS.fetch_resource という
+メソッドを新設して each_resource がこのメソッドを利用して実装するようにリファク
+タリングしています。 extract_resources の部分を差し替えしやすくするためみたいで
+す。 [ruby-dev:43587] [Feature #4788]

@@ -1,0 +1,2 @@
+tool/gen_ruby_tapset.rb という systemtap で DTrace 対応を利用するために
+probes.d から tapset というものを生成するツールを追加しています。

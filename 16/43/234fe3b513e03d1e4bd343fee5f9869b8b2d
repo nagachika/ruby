@@ -1,0 +1,3 @@
+gc.c の gc_verify_internal_consistency() を他のソースからも呼べるように公開した
+rb_gc_verify_internal_consistency() という wrapper 関数を導入しています。これも
+デバッグ用ですかね。

@@ -1,0 +1,4 @@
+thread.c の rb_threadptr_pending_interrupt_check_mask() でも内部的に利用してい
+る Array オブジェクトの要素を参照する時に読み込みのみなので受け取るポインタ変数
+に const を付加して RARRAY_RAWPTR() を利用するようにして不要な shady 化を抑制し
+ています。

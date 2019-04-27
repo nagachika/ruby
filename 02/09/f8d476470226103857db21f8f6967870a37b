@@ -1,0 +1,2 @@
+ただチェックに使うのが GDBM::VERSION になってたので DBM::VERSION に修正していま
+す。

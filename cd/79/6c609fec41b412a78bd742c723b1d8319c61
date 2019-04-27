@@ -1,0 +1,3 @@
+ext/io/wait/wait.c で wait_readable() という独自の関数を作っていたところを
+rb_wait_for_single_fd() を呼ぶように変更しています。[ruby-core:35565] [Feature
+#4531]

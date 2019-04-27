@@ -1,0 +1,2 @@
+transcode.c の transcoder_t の定義にあるコメントの typo 修正。 https://
+github.com/ruby/ruby/pull/1091

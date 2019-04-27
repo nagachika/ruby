@@ -1,0 +1,2 @@
+vm_yield_with_cref() から is_lambda 引数を削除して、常に false で
+invoke_block_from_c_bh() を呼ぶようにしています。

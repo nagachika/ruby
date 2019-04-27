@@ -1,0 +1,3 @@
+r48023 で enc/prelude.rb で require "unicode_normalize" するようにしましたが
+LoadError が発生した時にそれを無視させるようにしています。これでとりあえず
+unicode_normalize 回りが未完でも動くようになりました。

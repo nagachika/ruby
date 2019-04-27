@@ -1,0 +1,3 @@
+r48084 で追加したテストの先頭で Encoding.default_external と
+Encoding.default_internal をグローバルに変更しているのを、他のテストにも影響し
+てしまうので消しています。

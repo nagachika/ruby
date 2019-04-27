@@ -1,0 +1,2 @@
+rubygems を最新版に更新しています。 Molinillo という依存関係解決エンジンを
+0.5.0 に更新しているそうです。 https://github.com/rubygems/rubygems/pull/1638

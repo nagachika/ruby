@@ -1,0 +1,2 @@
+openssl のテストで定義していた TestEOF というモジュールの名前空間を OpenSSL
+::TestEOF に移動しています。

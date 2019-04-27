@@ -1,0 +1,4 @@
+compile.c の DECL_ANCHOR(), INIT_ANCHOR() で引数の変数をポインタでなく配列とし
+て宣言するように展開するように変更しています。また関数の引数の LINK_ANCHOR の型
+に const 修飾子を追加しています。また iseq_compile_each() で不要な戻り値のチェ
+ックを削ったりしています。

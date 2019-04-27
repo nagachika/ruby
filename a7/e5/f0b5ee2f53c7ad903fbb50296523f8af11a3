@@ -1,0 +1,5 @@
+さらに ext/socket/basicsocket.c でも r39760 で internal.h に移動した
+rb_sys_fail_path() を使うようにしています。
+また拡張ライブラリの socket から利用できるように internal.h で
+rb_sys_fail_path_with_func() の宣言に gcc 拡張の pragma を使って可視性の設定を
+いじっているようです。

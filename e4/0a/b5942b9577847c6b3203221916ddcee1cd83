@@ -1,0 +1,3 @@
+r50260 の再修正。 gem "json" で捕捉する例外は LoadError ではなく Gem::LoadError
+にしています。また削除していた require "json" も LoadError の捕捉付きで復活させ
+ています。

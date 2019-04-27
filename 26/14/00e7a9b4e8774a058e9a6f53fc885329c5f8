@@ -1,0 +1,3 @@
+Bitmap Marking GC のために導入された定数 HEAP_OBJ_LIMIT と HEAP_BITMAP_LIMIT で
+計算に使っている型の間違いや、切り上げる単位の数えかたの間違い(bit と byte の間
+違い)などを修正しています。 [ruby-core:42508] [Bug #6006]

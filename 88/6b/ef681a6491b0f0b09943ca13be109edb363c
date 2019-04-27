@@ -1,0 +1,2 @@
+ext/extmk.rb と標準添付ライブラリ mkmf.rb から Borland make のサポートのための
+分岐を削除しています。

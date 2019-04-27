@@ -1,0 +1,2 @@
+r50111 の再修正。 rb_method_get_iseq() が NULL だった時には env をコピーしない
+ようにしています。 [ruby-core:68673] [Bug #11012]

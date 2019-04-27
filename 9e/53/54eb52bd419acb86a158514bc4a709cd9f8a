@@ -1,0 +1,2 @@
+r63498 からの thread cache のデフォルト有効化について NEWS ファイルに追記してい
+ます。 [ruby-core:87030] [Feature #14757]

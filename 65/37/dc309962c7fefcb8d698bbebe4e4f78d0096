@@ -1,0 +1,3 @@
+include/ruby/defines.h で #include する標準ヘッダを追加しています。 NetBSD での
+コンパイルエラーを修正しているとのこと。autoconf の AC_INCLUDES_DEFAULT と同等
+のヘッダ群を追加しているそうです。

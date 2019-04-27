@@ -1,0 +1,2 @@
+BigDecimal#to_i で Integer#** で累乗を取ると Float(Infinity?) が返ってくること
+があるのに対処して、その時は例外を発生させるようにしています。

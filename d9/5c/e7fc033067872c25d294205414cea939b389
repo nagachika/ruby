@@ -1,0 +1,2 @@
+というわけで builtin_type_name() で true, false の時も個別に "true", "false" と
+いう静的文字列を返して、一時 String オブジェクトを使わないようにしてみました。

@@ -1,0 +1,7 @@
+正規表現エンジンの Onigmo の 6.1.1 をマージしています。 https://github.com/
+k-takata/Onigmo/blob/Onigmo-6.1.1/HISTORY
+https://github.com/k-takata/Onigmo/issues/82 で導入された Absent Operator (非包
+含オペレーター)が目玉機能みたいです。 https://staff.aist.go.jp/tanaka-akira/pub
+/prosym49-akr-presen.pdf に資料があります。あるパターンにマッチしない文字列にマ
+ッチするという指定ができるオペレーターだそうです。正規表現の否定(マッチするかど
+うかの反転)って難しいのでこれがあると簡単に書けるようになるみたいですね。

@@ -1,0 +1,4 @@
+Windows で socket を close する時に fptr_finalize_flush() で GVL を解放すると、
+例外処理中に再度例外が発生して SEGV することがあるのを修正しています。
+io_close_fptr() から呼ばれた時に Windows 環境では GVL 解放しないようにしていま
+す。 [ruby-core:82602] [Bug #13856]

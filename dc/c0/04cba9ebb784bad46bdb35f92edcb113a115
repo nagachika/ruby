@@ -1,0 +1,4 @@
+eval.c や eval_jump.c、load.c で PUSH_TAG() や POP_TAG() を利用していたのを明示
+的に対象の rb_thread_t を引数で指定する TH_PUSH_TAG() と TH_POP_TAG() を利用す
+るように修正しています。と、思ったけど TH_POP_TAG() は引数を受け取ってませんで
+したね。まあ実体は同じなのですが TH_PUSH_TAG() と対応しているということで。

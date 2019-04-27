@@ -1,0 +1,2 @@
+pack, unpack でエンディアンの修飾子が異なる指示が混在したときに RangeError にな
+るのを修正。[ruby-core:32793]

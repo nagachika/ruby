@@ -1,0 +1,3 @@
+r65880 の coroutine/* のビルドのための mkdir コマンドのルール変更で Travis-CI
+のビルドでうまくディレクトリが作れてなかったみたいで Makefile.in の *.s -> *.o
+のルールに mkdir を復活させています。

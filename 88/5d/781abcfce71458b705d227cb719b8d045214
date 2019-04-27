@@ -1,0 +1,5 @@
+拡張ライブラリ objspace に ObjectSpace.count_symbols というメソッドを追加してい
+ます。その名の通り Symbol を数えてくれます。戻り値は Hash で {
+mortal_dynamic_symbol: a, immortal_symbol: b, immortal_dynamic_symbol: c,
+immortal_static_symbol: d } という具合に Symbol の種類毎(ただし b = c + d)の数
+を返してくれます。 [Feature #11158]

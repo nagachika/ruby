@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPRequest で例外クラスの定数の参照がま
+ちがってて NameError になってたのを修正しています。

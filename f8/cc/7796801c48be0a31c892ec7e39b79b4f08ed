@@ -1,0 +1,1 @@
+thread_pthread.c で返り値を利用しない関数の型を void に変更しています。

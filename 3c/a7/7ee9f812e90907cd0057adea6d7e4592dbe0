@@ -1,0 +1,2 @@
+tool/make-snapshot で PWD を設定しておくようにしています。 ext/ripper/ripper.c
+の生成ルールの絡みだと思います。

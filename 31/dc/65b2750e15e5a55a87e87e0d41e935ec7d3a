@@ -1,0 +1,2 @@
+r66154 の String#crypt の rdoc 用コメントの追記の文法修正。 [ruby-core:87959]
+[Feature #14915]

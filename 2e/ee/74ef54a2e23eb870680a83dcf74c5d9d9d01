@@ -1,0 +1,3 @@
+NameError と NoMethodError の rdoc 用コメントにキーワード引数 receiver の説明を
+追記しています。また NoMethodError の private 引数の説明も追記しています。
+[ruby-core:90796] [Bug #15481]

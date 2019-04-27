@@ -1,0 +1,3 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse#set_error から response
+body の設定部分を error_body というメソッドに切り出しています。再定義で挙動のカ
+スタマイズがしやすくしているそうです。 https://github.com/ruby/ruby/pull/1307

@@ -1,0 +1,5 @@
+Process.clock_gettime の受け付ける clock_id に times(3) を利用した単調増加する
+実時間を返す :TIMES_BASED_CLOCK_MONOTONIC を追加しています。 times(3) をベース
+にした clokc_id は既に追加されていたような気がしていましたが
+、:TIMES_BASED_CLOCK_PROCESS_CPUTIME_ID でこちらは CPU 時間を返すものだったよう
+です。

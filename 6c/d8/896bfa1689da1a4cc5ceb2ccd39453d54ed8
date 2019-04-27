@@ -1,0 +1,2 @@
+r64399 の Kernel#system や Kernel#exec などの :close_others オプションのデフォ
+ルトの挙動の変更について NEWS ファイルに追記しています。

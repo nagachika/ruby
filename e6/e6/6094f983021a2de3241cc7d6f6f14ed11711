@@ -1,0 +1,3 @@
+拡張ライブラリ stringio の StriongIO#seek とバッファの拡張する strio_extend()
+で file position やバッファサイズの計算で整数のオーバフローを避けるようにチェッ
+クを追加しています。

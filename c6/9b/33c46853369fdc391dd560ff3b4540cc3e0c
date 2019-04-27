@@ -1,0 +1,3 @@
+r63779 のやりなおし。rubyspec で利用する C API の関数名を rb_encdb_alias() から
+rb_enc_alias() に変更しています。 include/ruby/encoding.h の関数宣言も追加して
+います。

@@ -1,0 +1,13 @@
+rb_iseq_t を T_IMEMO 型のオブジェクトの一種に変更しています。正確には T_IMEMO
+型のオブジェクトのタイプに imemo_iseq を追加してこの時の型を struct
+rb_iseq_struct にして、これまでの struct rb_iseq_struct とほぼ同じ内容の構造体
+は struct_iseq_body に改名して struct RVALUE 内のポインタから指すようにしていま
+す。また RubyVM::InstructionSequence クラスのオブジェクトは、これまで T_DATA 型
+のオブジェクトで rb_iseq_t を wrap するものでしたが、今度からは T_IMEMO/
+imemo_iseq のオブジェクトの参照('@' で始まらない内部的なインスタンス変数で参照
+する)を持つただの T_OBJECT 型のオブジェクトとして作成するようにしています。大き
+な変更ですね。 [ruby-core:63721] [Bug #10037]
+こうしてこの変更をみると、iseq は基本的には内部的に作られるけど
+RubyVM::InstructionSequence というオブジェクトとしても存在している(取り出せる)
+ので、self というメンバがあってそのオブジェクトの struct RVALE の参照も保持して
+いて……というややこしい構造をしていたのがわかりますね。

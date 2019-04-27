@@ -1,0 +1,2 @@
+mspec の fileutils の wrapper みたいなヘルパーメソッドの cp で IO.copy_stream
+を利用するようにリファクタリングしています。

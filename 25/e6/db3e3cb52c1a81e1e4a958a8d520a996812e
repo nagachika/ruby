@@ -1,0 +1,7 @@
+拡張ライブラリ openssl に Next Protocol Negotiation という機能のサポートを追加
+しています。 SSLContext#npn_protocols= というメソッドを追加してプロトコルの候補
+(文字列の配列)を指定できるようにし、SSL_CTX_set_next_protos_advertised_cb() と
+いう関数に渡すコールバックを SSLContext#npn_select_cb というメソッドで受け取る
+ことができるようにしています。クライアントが handshake 時に利用するプロトコル
+("http/1.1" とか "spdy/2" とか)を指定できるようにする機能で OpenSSL 1.0.1 から
+追加された機能だそうです。 [ruby-core:45272] [Feature #6503]

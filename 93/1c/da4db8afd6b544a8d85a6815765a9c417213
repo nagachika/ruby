@@ -1,0 +1,2 @@
+test/ruby/test_io.rb の multi thread 環境での IO 処理のテストで、タイムアウト時
+に子プロセスを殺すためのシグナルに SIGABRT を使うように指定しています。

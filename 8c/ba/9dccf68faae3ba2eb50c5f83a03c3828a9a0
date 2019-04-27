@@ -1,0 +1,4 @@
+標準添付ライブラリ rdoc を 4.2.0.alpha に更新しています。 darkfish のテンプレー
+トの RDoc プロジェクトページを rubyforge.org から docs.seattlerb.org のサイトへ
+変更しているのと、あとなぜか lib/rdoc/known_classes.rb に rb_mDL が追加されてい
+ます。 DL の削除と関係しているのでしょうか(でも削除されたんだけど…)。

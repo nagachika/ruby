@@ -1,0 +1,3 @@
+vm_eval.c の eval_string_with_cref() のなかで setjmp() の前に宣言された変数を後
+で使っているため "clobbered by 'setjmp' or 'vfork'" のコンパイラ警告が出ていた
+のを抑制するため変数の宣言位置を移動しているようです。

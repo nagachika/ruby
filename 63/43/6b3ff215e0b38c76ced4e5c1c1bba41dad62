@@ -1,0 +1,2 @@
+標準添付ライブラリ rdoc の ri コマンドで expand_name で NotFoundError という例
+外が発生するのを捕捉するように begin ... rescue の中に移動させています。

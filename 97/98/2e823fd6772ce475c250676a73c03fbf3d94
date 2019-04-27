@@ -1,0 +1,2 @@
+Init_xxx() で rb_intern して static 変数に格納して使っていた ID を defs/id.def
+に移動して事前に定義しておくシンボルのリストを増やしています。

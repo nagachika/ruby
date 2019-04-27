@@ -1,0 +1,3 @@
+拡張ライブラリ win32ole の folerecord_method_missing() から内部的なインスタンス
+変数 fields (先頭が "@" でないので ruby スクリプトからは不可視)の操作部分を
+olerecord_ivar_get()、olerecord_ivar_set() として切り出すリファクタリング。

@@ -1,0 +1,3 @@
+同じく r63192 の終端なし Range の対応の Bignum の加算を rb_funcallv() でメソッ
+ド呼び出ししてたところを rb_big_plus() を直接呼ぶようにして、step を考慮するよ
+うにしています。 [ruby-core:78061] [Feature #12912]

@@ -1,0 +1,2 @@
+r63279 以降 mjit.c が version.h に依存しなくなってるそうで #include を消して
+Makefile.in の依存関係からも消しています。

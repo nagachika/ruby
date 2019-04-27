@@ -1,0 +1,2 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse で Content-Range ヘッダの指
+定があった時にも IO.copy_stream を利用するようにしています。

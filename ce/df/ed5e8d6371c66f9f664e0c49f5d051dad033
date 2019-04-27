@@ -1,0 +1,2 @@
+vm_method.c の rb_sweep_method_entry() で linked list の要素を削除するコードの
+リファクタリング。

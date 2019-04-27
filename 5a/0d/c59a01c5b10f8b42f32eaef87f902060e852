@@ -1,0 +1,3 @@
+Array#sort の rdoc 用コメントでブロックが渡された時のブロックの評価値についての
+説明が反転していたのを修正しています。おおう…。 https://github.com/ruby/ruby/
+pull/1020

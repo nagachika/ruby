@@ -1,0 +1,2 @@
+Zlib::Deflate.deflare と Zlib::Infrate.inflate を Zlib.deflate, Zlib.inflate と
+いうショートカットで呼べるメソッドを追加しています。 [ruby-dev:42833]

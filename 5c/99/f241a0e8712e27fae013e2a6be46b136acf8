@@ -1,0 +1,3 @@
+標準添付ライブラリ cgi の CGI.new に :max_multipart_length オプションを追加して
+これまで定数で決め打ち(128MB)になっていた最大サイズを変更可能にしています。
+[ruby-core:54798] [Feature #8370]

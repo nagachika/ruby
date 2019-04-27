@@ -1,0 +1,3 @@
+r57554 の Test::Unit::Statistics#record でインスタンス変数 @longest へのアクセ
+ス時に defined? でのチェックをするようにしています。未初期化の警告避けですかね
+。

@@ -1,0 +1,1 @@
+同じく rb_insn_operand_intern() でダンプ文字列の typo を修正しています。

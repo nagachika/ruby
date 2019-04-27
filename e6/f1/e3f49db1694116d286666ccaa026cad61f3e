@@ -1,0 +1,5 @@
+「メソッド移植」ができるようにしています。これまで UnboundMethod *1を別の Class
+のオブジェクトに bind したり define_method で移植することはできませんでしたが、
+Module のインスタンスメソッドからは別の継承関係のない Class や Module の
+define_method で同じ定義を移植することは許可されるように変更されています。
+[ruby-core:34267] [Feature #4254]

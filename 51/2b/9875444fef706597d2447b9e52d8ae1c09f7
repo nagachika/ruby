@@ -1,0 +1,2 @@
+r38801 の再修正。 ext/bigdecimal/bigdecimal.c で TYPE() を使うかわりに
+RB_TYPE_P() を利用するようにリファクタリングしています。

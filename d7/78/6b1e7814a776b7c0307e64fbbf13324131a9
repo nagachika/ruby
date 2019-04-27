@@ -1,0 +1,2 @@
+MJIT の mswin 版で JIT コンパイル時に precompiled header を読み込ませるコンパイ
+ルオプションを追加するようにしています。

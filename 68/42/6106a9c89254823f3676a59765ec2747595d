@@ -1,0 +1,2 @@
+include/ruby/ruby.h で r50556 で追加した DEPRECATED_BY() マクロが未定義の場合
+DEPRECATED() で代替するようにしています。

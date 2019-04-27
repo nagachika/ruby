@@ -1,0 +1,4 @@
+configure で librt のチェックを clock_gettime(2) で行なっていたのですが、glibc
+2.17 から clock_* 系の関数が librt から libc に移動になったそうなので、librt な
+しでも clock_gettime() が使えたら librt のチェックマクロを off にするようにして
+います。

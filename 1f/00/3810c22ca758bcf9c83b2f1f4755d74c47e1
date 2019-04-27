@@ -1,0 +1,3 @@
+thread_pthread.c の rb_thread_create_mjit_thread() の引数で関数ポインタを void
+* という型で受け取るようになっていたところを、明示的に関数の型を書くようにして
+います。

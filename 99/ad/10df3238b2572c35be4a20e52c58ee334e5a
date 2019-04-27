@@ -1,0 +1,3 @@
+r40189 と同様に拡張ライブラリ socket のoptname_to_sym() という関数でも INET6 を
+チェックしていたところを利用している IPPROTO_IPV6 を直接 #ifdef でチェックする
+ように修正しています。

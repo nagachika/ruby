@@ -1,0 +1,4 @@
+DTrace のテストで子プロセスで sudo を使う場合に LD_LOAD_PATH(正確には
+RbConfig::CONFIG["LIBPATHENV"] でプラットフォームによって適切な環境変数名が選択
+される)、RUBY、RUBYOPT などの環境変数を明示的に子プロセスに渡すようにしています
+。

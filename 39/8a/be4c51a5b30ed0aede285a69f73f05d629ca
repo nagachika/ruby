@@ -1,0 +1,3 @@
+標準添付ライブラリ logger で Logger#level= が Symbol/String も受け付けるように
+しています。 https://github.com/ruby/ruby/pull/1101 [ruby-dev:49348] [Feature #
+11695]

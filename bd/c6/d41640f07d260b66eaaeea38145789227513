@@ -1,0 +1,2 @@
+r58425 のさらに続き。 make build-ext の時のログに色付けをしているようです。
+[ruby-core:80033] [Feature #13302]

@@ -1,0 +1,2 @@
+gc.c の rb_raw_obj_info() のswitch 文で警告除去のために default 節と
+UNREACHABLE; を追加しています。

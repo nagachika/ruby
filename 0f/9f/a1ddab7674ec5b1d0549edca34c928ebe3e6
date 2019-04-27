@@ -1,0 +1,1 @@
+r58939 と r58942 で mswin で rubyspec が失敗するので revert しています。

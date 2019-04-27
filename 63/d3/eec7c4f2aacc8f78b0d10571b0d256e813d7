@@ -1,0 +1,7 @@
+rb_mutex_lock() で remove_signal_thread_list() を呼び出すのを削除しています。
+signal_thread_list に入るのは ubf_select() で blocking region で割り込まれる時
+だけなので、ただ GVL を解除するだけの Mutex#lock では signal_thread_list に入ら
+ないので削除も不要でした。
+と、書いていてどうもすっきりしないので(これがおかしいというのではなくてなぜ
+Mutex#lock が GVL を解放するだけでいいのか実はよくわかっていないとわかったとか)
+ちょっと時間をとって勉強しないとけないなあと思う次第です。

@@ -1,0 +1,3 @@
+r58642 あたりから続く rubygems のテストの CI でのデバッグ用のコード追加で
+require 'rubygems/gem_runner' で例外が発生した時に環境変数の GEM_HOME の値自体
+も例外メッセージに含めるようにしています。

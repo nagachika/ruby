@@ -1,0 +1,2 @@
+r62279 の変更で #include <fcntl.h> が Windows 環境でも必要になったので、
+preprocessor の分岐内で #include していたのを外に出しています。

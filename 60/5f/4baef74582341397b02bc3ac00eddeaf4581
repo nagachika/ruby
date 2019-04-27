@@ -1,0 +1,3 @@
+IO.binwrite の rdoc のサンプルに省略可能な第4引数 open_args を含む例を追加し、
+説明を IO.write のモードを "wb:ASCII-8BIT" にしたもの、というように変更していま
+す。 [ruby-core:42592] [Bug #5782]

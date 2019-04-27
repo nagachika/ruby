@@ -1,0 +1,5 @@
+拡張ライブラリ socket の BasicSocket#recv_nonblock も r52541 で IO#
+read_nonblock と IO#write_nonblock についてやったのと同様に Ruby で wrapper メ
+ソッドを定義してそこでキーワード引数の処理をして内部の __recv_nonblock メソッド
+に委譲するようにしています。 C のキーワード引数の parse 処理が遅いのでその対策
+。 [ruby-core:71439] [Feature #11339]

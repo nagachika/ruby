@@ -1,0 +1,3 @@
+mswin 環境で MJIT 用の precompiled header を生成する時のコンパイラオプションに
+-URUBY_EXPORT を追加してマクロ RUBY_EXPORT の定義を打ち消して export を抑制する
+ようにしています。 -U ってオプションがあるのかー。

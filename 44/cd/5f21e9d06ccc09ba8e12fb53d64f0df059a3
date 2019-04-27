@@ -1,0 +1,6 @@
+Enumerator::Lazy.new にブロックつきで呼び出すと Enumerator.new のように yielder
+をブロックパラメータに渡して呼び出す、クラスを定義せずに簡易的に Enumerable っ
+ぽいオブジェクトを生成するインタフェースの rdoc を追記し、また Enumerator::Lazy
+#to_enum, enum_for で each のかわりに呼び出すメソッドを指定した
+Enumerator::Lazy を返すインタフェースを追加しています。 [ruby-core:48639] [Bug
+#7248]

@@ -1,0 +1,3 @@
+r40642 で書き替えた Rinda::RingServer のテストに Socket.getifaddrs を使ったとこ
+ろでデバッグ用の p での出力を追加しています。 Travis-CI でエラーになったのでそ
+の調査の為とのこと。

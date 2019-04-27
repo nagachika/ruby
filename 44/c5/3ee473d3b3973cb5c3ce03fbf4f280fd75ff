@@ -1,0 +1,2 @@
+Process::Tms というプロセスの実行時間に関するデータをまとめたクラスの別名
+Struct::Tms を deprecated constant として指定しています。

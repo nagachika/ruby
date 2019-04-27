@@ -1,0 +1,2 @@
+tool/gen_dummy_probes.rb で probes.d から生成するマクロの引数名を保持するように
+しています。

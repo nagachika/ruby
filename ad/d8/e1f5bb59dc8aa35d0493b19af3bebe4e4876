@@ -1,0 +1,7 @@
+拡張ライブラリ io/console の IO#winsize の Windows 版実装で、読み込み用 fd に
+getwinsize() を使ってサイズ取得していたのを、書き込み用のハンドラで
+GetConsoleScreenBufferInfo() という API で端末サイズを取得しています。よくみる
+と元々エラーメッセージは GetConsoleScreenBufferInfo() と書かれてましたね。また
+IO#winsize の rdoc のサンプルも $stdin.winsize となっていたのを $stdout.winsize
+に修正しています。 Windows では $stdin.winsize は動作しないようです。
+[ruby-core:68574] [Bug #10986]

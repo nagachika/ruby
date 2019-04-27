@@ -1,0 +1,2 @@
+r51061 の再修正。レスポンスヘッダの Content-Encoding が存在しなかった時に
+NoMethodError になるので対応しています。 [ruby-core:69670] [Bug #11285]

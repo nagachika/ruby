@@ -1,0 +1,3 @@
+miniinit.c の Init_enc() で Encoding の alias 定義に BINARY と ASCII (それぞれ
+ASCII-8BIT と US-ASCII の別名)を追加しています。 miniruby でも使えるようにして
+います。 [ruby-core:72481] [Bug #11872]

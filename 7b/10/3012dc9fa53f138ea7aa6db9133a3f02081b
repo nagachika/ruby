@@ -1,0 +1,3 @@
+拡張ライブラリ fiddle は dl と互換性があることになっているみたいなのですが
+Fiddle::Import#import の引数の仕様が DL::Function.new と揃っていなかったので、
+引数を省略できるようにしています。 [ruby-core:50405] [Bug #7484]

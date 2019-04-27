@@ -1,0 +1,4 @@
+r54565 で Array#sum というメソッドが追加されて、その後 Float 対応や Rational 対
+応と最適化が施されてきましたが、Enumerable にも sum メソッドを追加しています。
+仕様は Array#sum と同様で、Float の加算は誤差を軽減するアルゴリズム (Kahan's
+compensated summation algorithm) を採用しているようです。

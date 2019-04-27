@@ -1,0 +1,5 @@
+r65594 で Process のテストで子プロセスに伝播させる環境変数に MJIT のビルドディ
+レクトリ用のものを追加していましたが、MJIT_SEARCH_BUILD_DIR は環境によらず追加
+するようにして、DYLD_INSERT_LIBRARIES はプラットフォームによって異なる環境変数
+名が RbConfig::CONFIG["PRELOADENV"] に設定されてるのでこれを追加するようにして
+います。

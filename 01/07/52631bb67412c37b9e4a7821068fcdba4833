@@ -1,0 +1,3 @@
+マクロ GetCoreDataFromValue() から変数への代入を除いた struct RData のポインタ
+の取り出し部分を CoreDataFromValue() というマクロ定義を切り出すリファクタリング
+。

@@ -1,0 +1,1 @@
+Pathname#opendir を C の拡張ライブラリへ移動しています。

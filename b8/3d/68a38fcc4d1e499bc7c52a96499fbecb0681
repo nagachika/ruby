@@ -1,0 +1,12 @@
+メソッドエントリ作成時に respond_to_missing? のために作られたものは Method が作
+られた元のクラスを Method#owner にするようにしています。
+おー、respond_to_missing? で true を返すと実際にメソッド定義していなくても
+Method オブジェクトを作れるんですね。知らなかった。
+class A
+  def respond_to_missing?(meth, bool)
+    meth == :foo
+  end
+end
+A.new.method(:foo) # => #<Method: A#foo>
+そして A#method では作れるけど A.instance_method(:foo) では "NameError:
+undefined method `foo' for class `A'" になるようです。

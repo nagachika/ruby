@@ -1,0 +1,2 @@
+rb_autoload_load() で後始末処理を rb_protect() を使って書いていたのを rb_ensure
+() を利用して書くように変更しています。

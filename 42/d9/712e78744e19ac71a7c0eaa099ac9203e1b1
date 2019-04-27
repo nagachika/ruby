@@ -1,0 +1,2 @@
+include/ruby/win32.h に rb_w32_sysinit() の prototype 宣言を追加しています。
+[ruby-core:78444] [Bug #12994]

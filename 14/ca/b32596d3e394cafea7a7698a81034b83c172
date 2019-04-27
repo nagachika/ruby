@@ -1,0 +1,6 @@
+拡張ライブラリ json の変更を本家リポジトリから取り込んでバージョンを 1.8.1 とし
+ています。rb_convert_type() は Qnil を返さないのに返した時の不要な処理があった
+のを削ったり(https://github.com/flori/json/issues/162)、不正なマルチバイト文字
+のチェックの強化、コンパイラの警告除去や JSON::GenericObject に load, dump メソ
+ッドを追加して JSON から簡単に Struct のようにアクセスできるオブジェクトを作れ
+るようにしています。 ActiveModel などで利用するのを想定しているそうです。

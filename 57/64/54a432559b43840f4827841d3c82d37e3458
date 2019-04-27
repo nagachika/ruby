@@ -1,0 +1,3 @@
+OpenSSL::Engine.engines の2重呼び出しのテストで OpenSSL::Engine.load を呼んでい
+るので後始末に OpenSSL::Engine.cleanup を呼ぶように追加しています。
+[ruby-core:40669] [Bug #5547]

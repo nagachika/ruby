@@ -1,0 +1,4 @@
+不要なシンボル生成の抑制の修正で追加した rb_check_id() という関数の引数を VALUE
+から volatile VALUE * とポインタ型に変更して、内部で String への変換が行なわれ
+た時に呼び元の VALUE も変換後の String オブジェクトを指すようにしています。
+[ruby-core:38447] [Feature #5089]

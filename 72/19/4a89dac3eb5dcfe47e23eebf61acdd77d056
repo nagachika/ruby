@@ -1,0 +1,2 @@
+rb_fstring_new() は US-ASCII なエンコーディングの文字列を返すようにしています。
+非ASCII文字を含む fstring を作る時は別の関数を使うべきとのこと。

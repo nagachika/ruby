@@ -1,0 +1,5 @@
+r50887 で fifo から require しようとするとインタプリタ全体がブロックするのを避
+けるため require で load できるファイルを探すために open する時に GVL を外すよ
+うにしたところ、multi thread での require が遅くなっていたので、GVL 外しはやめ
+て O_NONBLOCK または O_NDELAY フラグをつけて open(2) するようにしています。
+NONBLOCK って open にも効くんだ。 [ruby-dev:49272] [Bug #11559]

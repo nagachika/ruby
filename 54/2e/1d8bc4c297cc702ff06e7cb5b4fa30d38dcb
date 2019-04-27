@@ -1,0 +1,2 @@
+enc/make_encmake.rb で enc.mk を作る時に enc/Makefile.in の中の "@srcdir@" を
+RbConfig::CONFIG['srcdir'] の値に展開するようにしています。

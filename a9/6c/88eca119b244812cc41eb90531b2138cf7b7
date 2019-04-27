@@ -1,0 +1,2 @@
+r49752 の再修正。 rubyspec/ruby.mspec ではなく rubyspec/default.mspec を読み込
+むように変更しています。

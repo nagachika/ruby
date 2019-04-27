@@ -1,0 +1,4 @@
+lib/rbconfig/obsolete.rb で RbConfig::Obsolete#respond_to_missing? で RbConfig#
+respond_to_missing? を呼び出していたのですが respond_to_missing? は r38113 で
+private メソッドに変更されていたので send を使って呼び出すように修正しています
+。

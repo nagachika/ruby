@@ -1,0 +1,2 @@
+r61899 で parse.y の assignable() という同名の関数の wrapper の関数マクロの定義
+をやめたので、ripper 向けに #undef しているところも削除しています。

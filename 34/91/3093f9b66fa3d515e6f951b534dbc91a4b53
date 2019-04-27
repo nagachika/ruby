@@ -1,0 +1,2 @@
+TestSignal#test_signal_requiring で子プロセスを spawn する際に stderr を閉じて
+いるのをやめています。

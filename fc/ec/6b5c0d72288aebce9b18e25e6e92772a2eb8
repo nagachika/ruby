@@ -1,0 +1,7 @@
+PStore#save_data のパフォーマンス改善。まず
+marshal_dump_supports_cannonical_option? という Marshal.dump の挙動を確認してい
+るメソッドの内容が古い(標準添付される前のもの?)のでざっくり削除して、また変更の
+検出のため MD5 のチェックサムを計算するのをサイズの比較後にしています。あとファ
+イルに書き出す時に空に truncate してから再度書き出すのを上書き後に書き出したサ
+イズまで truncate するようにしています。それから String#size を String#bytesize
+へ変更。 [ruby-core:39172] [Feature #5248]

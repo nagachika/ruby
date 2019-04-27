@@ -1,0 +1,2 @@
+enum arg_setup_type の定数 arg_setup_lambda を削除して arg_setup_method を使う
+ようにしています。差がなくなってたみたいですね。

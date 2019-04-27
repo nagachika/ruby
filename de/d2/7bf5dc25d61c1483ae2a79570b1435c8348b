@@ -1,0 +1,4 @@
+Enumerator::Lazy#flat_map でブロックが返した値が Array でない時には each を読ん
+で要素を取得するようにしていたのを、each が NoMethodError を発生させたら to_ary
+で Array に変換して利用する方法を試すようにしています。 [ruby-core:43334] [Bug
+#6155]

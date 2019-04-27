@@ -1,0 +1,3 @@
+gc.c の gc_verify_internal_consistency() で RGenGC が有効でない時に #if ... #
+end の範囲を変数の宣言やエラー処理のところまで広げて、空の関数として定義される
+ようにしています。

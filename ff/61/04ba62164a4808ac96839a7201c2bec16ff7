@@ -1,0 +1,2 @@
+Array#pack の実装で整数の pack に rb_integer_pack_2comp() を利用するように書き
+かえています。

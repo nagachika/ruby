@@ -1,0 +1,3 @@
+rational.c に Rational#* で Rational が返ってくることを前提としたコードがあった
+のですが require "mathn" するとそうとは限らないのでチェックした変換するコードを
+追加しています。 [ruby-core:56177] [Bug #8687]

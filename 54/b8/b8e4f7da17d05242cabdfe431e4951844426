@@ -1,0 +1,3 @@
+rb_iseq_disasm() で RubyVM::InstructionSequence のダンプ時に同じ ISeq は何度も
+ダンプしないように、st_table のテーブルを導入しています。catch table などで
+rescue とか ensure の節の ISeq は重複してダンプされる可能性があったのかな?

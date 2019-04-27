@@ -1,0 +1,3 @@
+Date.jd が Float や Rational など整数でない値を渡されると結果がおかしくなる不具
+合修正。 [ruby-dev:45008]
+導入された wholenum() の型が VALUE を返すべきですね。

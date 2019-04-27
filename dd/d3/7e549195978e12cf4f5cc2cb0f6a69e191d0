@@ -1,0 +1,2 @@
+標準添付ライブラリ fileutils の FileUtils.ln の rdoc 用コメントのマークアップを
+修正してサンプルも追加しています。 [ruby-core:62532] [Bug #9829]

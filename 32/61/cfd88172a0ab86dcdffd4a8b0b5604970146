@@ -1,0 +1,3 @@
+標準添付ライブラリ fileutils の FileUtils#mkdir_p でルートディレクトリは作る必
+要がないので mkdir する対象から外しています。 Cygwin で root は mkdir できなく
+なっていたそうです。 [ruby-core:79529] [Bug #13214]

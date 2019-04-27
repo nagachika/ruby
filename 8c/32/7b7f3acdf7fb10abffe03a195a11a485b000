@@ -1,0 +1,4 @@
+RUBY_PROGRAM_VERSION というのを RUBY_API_VERSION の定義から自動的に生成させるよ
+うにしています。 RUBY_API_VERSION は拡張ライブラリの互換性の判定のために使われ
+ますが(インストール先ディレクトリ名に含まれる)、RUBY_PROGRAM_VERSION って何を意
+味するものでしたっけ?

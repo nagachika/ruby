@@ -1,0 +1,2 @@
+aclocal.m4 から r62463 で削除した tool/m4/ruby_check_va_copy.m4 の m4_include
+を削除しています。

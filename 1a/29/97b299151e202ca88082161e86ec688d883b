@@ -1,0 +1,2 @@
+Windows 環境で malloc_usable_size(3) の代替として _msize() を利用するようにマク
+ロ定義を追加しています。

@@ -1,0 +1,2 @@
+enum.c の enum_sort_by() で利用していた ary_cutoff() は削除して、先日追加された
+公開関数の rb_ary_resize() を利用するようにしています。

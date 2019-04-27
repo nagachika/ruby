@@ -1,0 +1,2 @@
+thread.d の rb_reset_coverages() で method coverage 用の配列のクリアが漏れてい
+たので修正しています。

@@ -1,0 +1,2 @@
+r48018 で ext/tk/lib/tkextlib/tile/treeview.rb に追記したメソッドの syntax
+error を修正しています。

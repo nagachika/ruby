@@ -1,0 +1,3 @@
+そして .travis.yml で Undefined Behavior Sanitizer つきでビルドする時に
+UNALIGNED_WORD_ACCESS=0 を指定して align されていないメモリアドレスのアクセスを
+禁止した状態でビルドするようにしています。

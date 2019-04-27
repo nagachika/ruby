@@ -1,0 +1,3 @@
+r60172 以降の WEBrick で TLS を使った時に accept が block する可能性がある不具
+合修正の再修正。まず accept_nonblock でなく accept を利用するように戻しています
+。 [Bug #14013] [Bug #14005]

@@ -1,0 +1,2 @@
+test/lib/memory_status.rb で require_relative のパスが不要に親ディレクトリを辿
+っていたのを修正しています。

@@ -1,0 +1,2 @@
+rb_obj_id() のコメントに Object#hash の rdoc が書かれていましたが rb_obj_hash()
+にもあったのでそちらに統合しています。

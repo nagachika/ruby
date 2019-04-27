@@ -1,0 +1,6 @@
+r64103 と r64104 の make test-all を install に依存させる変更をしましたが make
+install は root 権限が必要な場合があって make test-all は通常ユーザーで実行する
+というような場合だとエラーになるので、やめています。かわりに
+MJIT_SEARCH_BUILD_DIR という環境変数が設定されている場合は mjit 用のヘッダの探
+索にビルドディレクトリのものも使うようにして、これで install せずに make
+test-all できるようにしています。

@@ -1,0 +1,3 @@
+template/prelude.c.tmpl で prelude ファイル内でのコメントに ## のように # が連
+続しているとうまく削れてなかったのを対応したり、require のパス書きかえを
+require_relative にも対応するようにしています。

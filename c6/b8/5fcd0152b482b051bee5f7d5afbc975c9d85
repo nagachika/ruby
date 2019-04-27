@@ -1,0 +1,11 @@
+timer thread とのイベント通知用の pipe は timer_thread_pipe.writing というメン
+バーで書き込み中の数を atomic にカウントして native_stop_timer_thread() で
+timer thread を停止する時に書き込み中イベントがあったら native_thread_yield()
+して待つようになってましたが、これをやめています。待ち合わせしていたのは pipe
+の書き込み側の fd を close() するためだったのですが、そもそも timer thread を
+fork のために止めるたびに close しなくても、timer thread 起動時に owner_pid を
+確認して子プロセス側だったら閉じて開きなおすというふうにすることで閉じなくても
+済むようにしています。ふむ、なるほど。一時的に子プロセスに pipe の fd が共有さ
+れるけど、すぐ閉じるから問題ない、か……? なーんか直感的に見落してそうな気がし
+ますね。コミットログ読むとこれも timer thread をなくすという計画に向けた変更み
+たいです。

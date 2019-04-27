@@ -1,0 +1,4 @@
+Range#max で終端を含まない時 Range で開始位置が Integer でない時は TypeError を
+発生させるようにしています。たとえば (1.5...2).max が 1 を返していた(end が
+Integer なら end-1 を返すようになっていた)のをやめています。 [ruby-dev:43406]
+[Bug #4591]

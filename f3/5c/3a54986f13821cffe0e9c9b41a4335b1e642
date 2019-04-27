@@ -1,0 +1,2 @@
+r58959 で変更してた rubyspec での Process.setpriority のテストで子プロセスで実
+行するスクリプトを fixture として切り出して共有するようにしています。

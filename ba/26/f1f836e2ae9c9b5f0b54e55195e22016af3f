@@ -1,0 +1,3 @@
+test/ruby/bug-13526.rb というテスト用スクリプトで Module#autoload の複数 Thread
+からの load のテストをしているところで Thread.report_on_exception = true を設定
+してメインスレッド以外での例外を通知するようにしています。

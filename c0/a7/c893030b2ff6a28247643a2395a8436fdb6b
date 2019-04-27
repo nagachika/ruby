@@ -1,0 +1,3 @@
+r53645 で追加した r53644 のテストで Encoding.default_internal が異なる環境を考
+慮して EnvUtil.with_default_internal で明示的に UTF-8 に設定してから実行するよ
+うにしています。

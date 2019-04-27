@@ -1,0 +1,2 @@
+struct vtm の定義で bit field に使うために bits8_t と bits16_t という型を定義し
+ていたのを、単に unsigned int を利用するようにしています。

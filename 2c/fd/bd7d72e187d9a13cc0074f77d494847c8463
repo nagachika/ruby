@@ -1,0 +1,2 @@
+拡張ライブラリ objspace の trace_object_allocations_{start,stop} の rdoc 用コメ
+ントの文法を修正しています。 https://github.com/ruby/ruby/pull/421

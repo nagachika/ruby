@@ -1,0 +1,2 @@
+r39689 で probes.d に仮引数名を追加したうち、symbol__create() の string という
+引数名は systemtap の予約語にひっかかったため str に変更しています。

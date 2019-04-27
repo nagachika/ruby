@@ -1,0 +1,2 @@
+Shellwords.escape や Shellwords.join は String でないオブジェクト(の配列)を受け
+取った時も to_s を呼んで文字列かしてから処理するようにしています。

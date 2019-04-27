@@ -1,0 +1,3 @@
+Array.new に大きなサイズを指定するテストで AppVeyor で NoMemoryError が発生する
+そうで GC.start を追加。ただこれ親プロセスのほうで GC してて、たぶん
+NoMemoryError は子プロセスのほうで起きてるんじゃないかな。

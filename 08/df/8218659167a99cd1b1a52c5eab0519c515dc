@@ -1,0 +1,3 @@
+r35262 で Complex#** の戻り値に f_mul() で乗算していった結果をそのまま返すので
+はなくて f_complex_new2() で改めて Complex を作り直していたのですが、その部分だ
+け revert しています。 [ruby-core:44170] [Bug #6267]

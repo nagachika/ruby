@@ -1,0 +1,4 @@
+Enumerator#with_index および with_object がブロックを省略した呼び出しでさらに
+Enumerator を返す時に RETURN_SIZED_ENUMERATOR() 関数マクロを使って Enumerator#
+size に対応した Enumerator を返すようにしています。 [ruby-core:45805] [Feature
+#6636]

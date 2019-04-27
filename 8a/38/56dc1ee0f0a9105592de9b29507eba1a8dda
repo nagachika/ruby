@@ -1,0 +1,3 @@
+Enumerable#chunk や Enumerable#slice_before(っていうメソッドがあるんですね)で内
+部的に call メソッドを呼ぶところで毎回 rb_intern で ID 化していたので static 変
+数に最初に格納しておいて使い回すようにしています。

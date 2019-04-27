@@ -1,0 +1,6 @@
+r38239 で Refinement のメソッド Module#refine, main.using が require
+"refinement" をしておかないと使えなくなっていたのですが、Matz の一声により再び
+組み込みで利用できるようになりました。ただし最初に refine か using を使った段階
+で "Refinements are experimental, and the behavior may change in future
+versions of Ruby!" が出力されるようにされています。 [ruby-core:51286] [Bug #
+7667]

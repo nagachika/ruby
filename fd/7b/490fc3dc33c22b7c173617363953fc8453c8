@@ -1,0 +1,3 @@
+r53545 と同様に include/ruby/defines.h と st.c でも gcc 6 以降で
+UNALIGNED_WORD_ACCESS を 0 に定義するようにしています。似たような定義があちこち
+にあるんですね。 [ruby-core:72211] [Bug #11831]

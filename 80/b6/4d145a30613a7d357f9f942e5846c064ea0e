@@ -1,0 +1,2 @@
+lib/test/unit.rb で if と elsif で処理内容が同じところがあったので統一していま
+す。

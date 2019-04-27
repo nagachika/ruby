@@ -1,0 +1,2 @@
+r31371 と同様に fiddle のテストでも libc のライブラリを検索するときに mswin/
+mingw では "msvc*.dll" を探すようにしています。 [Feature #4602]

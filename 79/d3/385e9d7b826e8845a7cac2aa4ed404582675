@@ -1,0 +1,2 @@
+gc.c の allocate_sorted_heaps() で不要になったローカル変数 add を削除しています
+。

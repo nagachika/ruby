@@ -1,0 +1,4 @@
+OnigEncodingType に case mapping 用のコールバック関数ポインタのメンバ case_map
+を追加して、r55112 で追加した onigenc_not_support_case_map() を unicode 系以外
+の各種 encoding の OnigEncodingDefine() の定義に追加しています。 unicode 系のエ
+ンコーディングでは onigenc_unicode_case_map をセットしています。

@@ -1,0 +1,5 @@
+r44138 で raise メソッドでの例外発生時の control frame を呼び元に戻したのですが
+、RUBY_EVENT_C_RETURN のフック実行を例外生成前に移動することで元のチケットの
+TracePoint のイベントの順序については対応したようです。今度は Exception#
+backtrace の呼び出し(例外生成時に呼ばれている模様)が raise の外側になってしまう
+という minor change がありますが。 [ruby-core:57109] [Bug #8886]

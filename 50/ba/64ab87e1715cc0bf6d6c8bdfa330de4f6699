@@ -1,0 +1,5 @@
+拡張ライブラリ openssl に OpenSSL::SSL::SSLContext#
+disable_client_renegotiation, #allow_client_renegotiation というメソッドを追加
+して、client-side renegotiation という機能の制御をできるようにして、デフォルト
+を off に(handshake count を 0 に)しています。 renegotiation の機能を突いた脆弱
+性というのがあるようです。 RFC 5746 を参照。

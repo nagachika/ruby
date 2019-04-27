@@ -1,0 +1,3 @@
+defs/separated_version.mk というファイルを追加して "FOR DEVELOPERS ONLY" とコメ
+ントで注釈していますが libruby_version という共有ライブラリをビルドするルールを
+追加しているようです。

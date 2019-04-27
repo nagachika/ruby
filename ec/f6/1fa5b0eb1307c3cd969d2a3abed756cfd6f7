@@ -1,0 +1,4 @@
+コマンドラインオプションの --dump=parsetree や --parsetree-with-comment の実装
+dump_node() で switch 文の各ノード用の case 節で break してたのを直接 return す
+るようにして、未対応の NODE があった時には rb_bug() で落とすのを default ではな
+くて switch 文の後に書くようにしています。

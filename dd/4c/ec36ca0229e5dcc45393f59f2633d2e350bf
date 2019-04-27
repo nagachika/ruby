@@ -1,0 +1,2 @@
+rb_cref_t のメンバ scope_visi に const 修飾子を追加して、このメンバを操作する処
+理を vm_cref_set_visibility() として切り出してキャストを追加しています。

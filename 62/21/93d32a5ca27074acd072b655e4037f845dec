@@ -1,0 +1,4 @@
+hash.c の rb_any_hash() で T_SYMBOL 型のオブジェクトは VALUE の値で hash 値を計
+算して Symbol#hash メソッドは呼び出さないようにしています。 dynamic symbol をキ
+ーにした時に Symbol#hash が呼び出されていたようです。 [ruby-core:68767] [Bug #
+11035]

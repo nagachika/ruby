@@ -1,0 +1,5 @@
+リンカに -unexported_symbol というオプションを渡しているみたいなのですが、Mac
+OS X の 10.4.11 PPC の gcc だと古すぎてこのオプションが存在しないみたいなので付
+けないようにしているみたいです。
+元は MacPorts で報告されたバグ報告への対応のようです。 http://trac.macports.org
+/ticket/26341

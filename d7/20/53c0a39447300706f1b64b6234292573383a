@@ -1,0 +1,5 @@
+lib/unicode_normalize.rb で require "unicode_normalize/normalize" をメソッドを
+利用する時に実行するように遅延させています。またコメントアウトされた形でメソッ
+ドが呼ばれたときにStringにdefine_methodでnormalize メソッドなどを定義させるよう
+にしているのですが、このメソッドそもそもStringに定義しているので全く意味がない
+ような気が。まあコメントアウトされているのですが。 [Feature #10084]

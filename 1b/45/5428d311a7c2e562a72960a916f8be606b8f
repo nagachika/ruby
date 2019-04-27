@@ -1,0 +1,5 @@
+thread_sync.c に rb_mutex_cleanup_keeping_mutexes() という関数を追加。 Thread
+が保持している Mutex を管理するリストを空に初期化する処理を fork 時に子プロセス
+で呼んで親の Mutex 保持の情報を引き継がないようにしています。 r58604 の構造体サ
+イズの shrink 時に入りこんだ不具合修正だそうです。 [ruby-core:85940] [Bug #
+14578]

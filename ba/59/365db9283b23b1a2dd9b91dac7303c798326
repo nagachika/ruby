@@ -1,0 +1,2 @@
+Array#repeat_combination の返す Enumerator の size 対応をしています。
+[ruby-core:45805] [Feature #6636]

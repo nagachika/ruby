@@ -1,0 +1,2 @@
+標準添付ライブラリの test/unit を削除しています。おー、minitest も同梱はやめる
+方針になりそうです。 [ruby-core:62620] [Feature #9711]

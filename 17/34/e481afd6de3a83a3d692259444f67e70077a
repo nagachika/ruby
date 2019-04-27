@@ -1,0 +1,4 @@
+tool/rbinstall.rb で Gem::Specification などの定義を利用しているので明示的に
+require "rubygems" するようにしています。 --disable-gems オプションで rubygems
+をロードしない起動ができるので、そういう時にも動くようにしているのかと思います
+。

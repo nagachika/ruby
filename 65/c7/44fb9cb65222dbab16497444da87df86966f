@@ -1,0 +1,2 @@
+Array#take_while と Array#drop_while の rdoc 用コメントの用例でのブロックパラメ
+ータの名前を変更しています。 https://github.com/ruby/ruby/pull/1028

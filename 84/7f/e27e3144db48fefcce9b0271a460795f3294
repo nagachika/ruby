@@ -1,0 +1,3 @@
+seekdir(3) が利用できない環境で Dir#seek の実装である dir_seek() は
+rb_f_notimplement に define しているのに dir_seek を利用している Dir#set_pos は
+考慮されていなかったので、同じく rb_f_notimplement にするようにしています。

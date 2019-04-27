@@ -1,0 +1,2 @@
+rubyspec の C API のテスト用の拡張ライブラリ spec/rubyspec/optional/capi/ext/
+fixnum_spec.c で未使用変数の警告除去。

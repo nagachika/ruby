@@ -1,0 +1,2 @@
+rubygems のテストで require 時に Bundler::GemfileNotFound 例外が発生するのにも
+対応するようにしています。これ以前にも入れてた気がしますね。別のところかな。

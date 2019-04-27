@@ -1,0 +1,2 @@
+Binding#local_variable_set で GC の Write Barrier 関係のテストで時間がかかる環
+境があるみたいでタイムアウトの秒数を伸ばしています。

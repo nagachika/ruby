@@ -1,0 +1,4 @@
+configure に --libdir を指定すると RbConfig::CONFIG の bindir, libdir,
+rubyprefix が正しく格納されないという不具合の修正です。気力が足りず詳しく中身を
+みていませんが、RbConfig を作るために変数参照に戻す置換を追加したということでし
+ょうか。 [ruby-core:52296] [Bug #7860]

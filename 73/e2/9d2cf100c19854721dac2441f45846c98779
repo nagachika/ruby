@@ -1,0 +1,2 @@
+r53829 の続きで ext/win32/lib/win32/resolv.rb で Windwos 9x 向けの時と NT 以降
+向けの分岐の順番をいれかえています。

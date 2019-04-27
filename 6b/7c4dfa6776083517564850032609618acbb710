@@ -1,0 +1,5 @@
+UnboundMethod#super_method で SEGV が発生する不具合を修正しています。
+method_super_method() で rb_method_entry_t::define_class が NULL の時に
+rb_method_entry_t::owner を参照する fallback が行なわれていなかったので、他の場
+所と同じく参照するようにしています。そのために method_entry_defined_class() と
+いう関数を定義してこれを呼ぶようにしています。 [ruby-core:70254] [Bug #11419]

@@ -1,0 +1,2 @@
+Thread#priority のテストで assert_send のかわりに assert_operator で比較を行な
+うようにしています。

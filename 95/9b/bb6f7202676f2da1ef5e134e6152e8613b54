@@ -1,0 +1,4 @@
+r53548 や r53554 の String#downcase の特別扱いと同様 :lithuanian オプションを指
+定した時の文字対応付けの処理を String#upcase, String#swapcase, String#
+capitalize でも有効にしています。しかし r53554 の :turcic の時の特別扱いは
+revert されているみたいです。

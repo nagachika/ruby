@@ -1,0 +1,2 @@
+Enumerable#sort, #sort!, #sort_by, #sort_by! の rdoc 用コメントでこの実装が
+stable sort ではないことを書いているところの文法を修正しています。

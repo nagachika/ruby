@@ -1,0 +1,6 @@
+defs/gmake.mk の test test-all test-rubyspec などのテストのターゲットが複数回表
+われた時に順番を並べなおすための filter-out と patsubst の連続による hack を、
+Makefile の依存関係のところに "|" の後に書くことで依存はしないけどもし実行する
+なら順序は守るという order only prerequisite というのがあるそうなのでこれを使う
+ように書きなおしています。へー、こんな記法があるの知らなかった。 https://
+www.gnu.org/software/make/manual/html_node/Prerequisite-Types.html

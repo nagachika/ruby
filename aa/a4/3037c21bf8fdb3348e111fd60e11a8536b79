@@ -1,0 +1,2 @@
+include/ruby/debug.h に rb_tracearg_callee_id() の prototype 宣言を追加して,シ
+ンボルを export するようにしています。

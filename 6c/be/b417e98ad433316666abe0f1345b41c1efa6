@@ -1,0 +1,2 @@
+bignum.c から既に #if 0 ... #endif でコメントアウトされていた rb_big_pack() と
+rb_big_unpack() の実装を削除しています。

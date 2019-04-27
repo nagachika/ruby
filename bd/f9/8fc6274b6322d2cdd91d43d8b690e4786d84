@@ -1,0 +1,3 @@
+test/lib/minitest/*.rb および test/minitest/*.rb (minitest 自体のテスト)の最初
+に書いてある、変更する時は minitest のオリジナルのリポジトリを変更してくれとい
+うコメントを削除しています。

@@ -1,0 +1,5 @@
+拡張ライブラリ openssl で OpenSSL の定数を OpenSSL::SSL::SSL_XXX として Ruby の
+定数としても定義しているところで SSL_OP_MSIE_SSLV2_RSA_PADDING という定数は定数
+マクロ OP_MSIE_SSLV2_RSA_PADDING が定義されている時だけ定義するようにしています
+。 OpenSSL 1.0.1 でこの定数が削除されたらしいので新しい OpenSSL でもビルドでき
+るようにしています。 https://github.com/ruby/ruby/pull/488

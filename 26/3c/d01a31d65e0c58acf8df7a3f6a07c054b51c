@@ -1,0 +1,4 @@
+r36246 の Win32OLE のテストの修正を再修正しています。 Win32OLE の File System
+Object が ANSI か UTF-16LE しか受け付けないのにエンコーディングとしては UTF-16
+でないとエラーになるそうで encode("UTF-16LE") した後で force_encoding でエンコ
+ード情報のみ UTF-16 にしています。 [Bug #6650]

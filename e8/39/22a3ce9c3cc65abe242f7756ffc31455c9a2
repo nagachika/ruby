@@ -1,0 +1,4 @@
+標準添付ライブラリ net/http の Net::HTTPHeader#connection_close? および #
+connection_keep_alive? で Connection ヘッダと Proxy-Connection ヘッダの内容をチ
+ェックするのに "," で分割したりして配列を作ってからチェックしていたのをヘッダの
+文字列のまま正規表現でマッチさせるように変更しています。

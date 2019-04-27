@@ -1,0 +1,2 @@
+Regexp.compile の rdoc 用コメントの閉じかっこ漏れの修正。 https://github.com/
+ruby/ruby/pull/1243

@@ -1,0 +1,4 @@
+Net::InternetMessageIO#each_crlf_line で行を分割するための正規表現に n オプショ
+ン(ASCII-8BIT としてマッチ)がついているため警告を回避するために force_encoding
+("ASCII-8BIT") しないといけなかったので n オプションを削っています。
+[ruby-dev:46394] [Bug #7278]

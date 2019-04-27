@@ -1,0 +1,4 @@
+README.EXT と README.EXT.ja の RARRAY_PTR()/RARRAY_LEN() の記述を削除して、関数
+を使ったアクセスを推奨するようにしています。また rb_ary_store() の記述がなかっ
+たので追記しています。 [ruby-core:54939] [Bug #8399]
+ドキュメントだけなので [DOC] タグ付きです。

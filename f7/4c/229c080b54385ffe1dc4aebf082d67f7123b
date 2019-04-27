@@ -1,0 +1,2 @@
+configure で mingw では -static-libgcc というコンパイラオプションを追加するよう
+にしています。

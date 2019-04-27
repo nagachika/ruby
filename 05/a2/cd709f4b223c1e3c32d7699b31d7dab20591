@@ -1,0 +1,2 @@
+DBM::VERSION が定義されていることを確認するテストを test/dbm/test_dbm.rb に追加
+しています。

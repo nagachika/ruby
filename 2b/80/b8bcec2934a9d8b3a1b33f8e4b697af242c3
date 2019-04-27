@@ -1,0 +1,2 @@
+r64041 と同様に prime、tracer、ipaddr、cmath なども共通処理のメソッド sync_lib
+で対応するようにリファクタリングしています。

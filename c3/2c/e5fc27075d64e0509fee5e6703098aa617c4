@@ -1,0 +1,4 @@
+test/lib/test/unit/assertions.rb の assert_raise_with_message で
+EnvUtil.with_default_internal を使って Encoding.default_interrnal を変更してブ
+ロック呼び出しするようにしていたのをやめています。この方法は複数の Thread で呼
+ばれるとちゃんと復旧できないので問題があったようです。

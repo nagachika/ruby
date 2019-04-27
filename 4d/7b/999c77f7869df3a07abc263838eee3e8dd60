@@ -1,0 +1,2 @@
+標準添付ライブラリ ostruct の OpenStruct#each_pair で self を返すように修正して
+います。 [ruby-core:79309] [Bug #13169]

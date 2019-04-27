@@ -1,0 +1,2 @@
+gc.c の obj_free()、obj_memsize_of()、gc_mark_children() などの関数から NODE 構
+造体の操作部分を専用の関数に切り出して node.c に移動しています。

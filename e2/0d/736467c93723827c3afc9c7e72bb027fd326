@@ -1,0 +1,6 @@
+rb_funcall で va_init_list と va_end がちきんと対応していなかったのを修正。
+va_end だけ if 節の中に入っていたので va_init_list を呼んで va_end を呼ばない可
+能性がありました。
+ちなみに "Coverity Scan found this bug" だそうです。 Coverity Scan というのはこ
+れですね。 http://scan.coverity.com/ ソースコードの静的解析の製品を販売している
+会社のサービス(?)です。詳しくは mame さんのブロクへ coverity やばい - まめめも

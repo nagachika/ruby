@@ -1,0 +1,3 @@
+標準添付ライブラリ English.rb の frozen_string_literal の magic comment を
+false から true に変更しています。文字列リテラル 1つもないから true でもまった
+く影響がなさそうですね。

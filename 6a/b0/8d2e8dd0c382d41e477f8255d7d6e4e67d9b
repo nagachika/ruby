@@ -1,0 +1,5 @@
+r46349 の configure --with-jemalloc の変更ですが、jemalloc/jemalloc.h ヘッダの
+存在もチェックして include/ruby/missing.h で #include するようにしています。ま
+た io.c、dln.c、parse.y、st.c で malloc/callloc/realoc/free などをマクロ定義し
+ているところで、(これらがマクロとして定義されている可能性を考慮して)その前に #
+undef しておくようにしています。 [ruby-core:62939] [Feature #9113]

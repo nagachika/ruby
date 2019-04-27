@@ -1,0 +1,5 @@
+拡張ライブラリ psych でオブジェクト確保と wrap する構造体のメモリ確保の順番を
+TypedData_Make_Struct() を利用して変更することで潜在的メモリリークの修正をして
+います。
+upstream にも取り込み済みのようですね。 https://github.com/tenderlove/psych/
+commit/fdf4677ce96f6d73510a76dacbbcdc7e9a7366f5

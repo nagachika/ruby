@@ -1,0 +1,2 @@
+minitest/autorun.rb で gem パッケージでインストールした minitest を有効にするた
+めに Kernel#gem で読み込むようにしています。

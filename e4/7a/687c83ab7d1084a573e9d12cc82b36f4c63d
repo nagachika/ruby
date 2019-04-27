@@ -1,0 +1,2 @@
+vm_get_ruby_level_caller_cfp() の引数も rb_thread_t から rb_execution_context_t
+の部分だけ受け取るように変更しています。これ以降同様の変更が続きます。

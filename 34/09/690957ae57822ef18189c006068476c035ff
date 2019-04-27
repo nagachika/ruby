@@ -1,0 +1,5 @@
+struct RClass は情報が RVALUE 内に入りきらないので構造体 rb_classext_t を持たせ
+て情報をそこに保持していますが、super (親クラス)の情報を rb_class_t から struct
+RClass 内に移動して、かわりに iv_index_tbl を rb_classext_t に追い出しています
+。 super は頻繁に使うのでキャッシュに乗りやすい RClass に入れるようにしたという
+パフォーマンスのための変更だそうです。

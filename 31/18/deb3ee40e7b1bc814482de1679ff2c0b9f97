@@ -1,0 +1,2 @@
+r42238 の追加変更。 rb_hash_compare_by_id_p() の前置 prototype 宣言を追加してい
+ます。

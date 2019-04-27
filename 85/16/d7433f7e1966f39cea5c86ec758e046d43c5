@@ -1,0 +1,2 @@
+tool/redmine-backporter.rb での readline 代替実装に Ctrl-p と Ctrl-n による履歴
+の参照機能を追加しています。

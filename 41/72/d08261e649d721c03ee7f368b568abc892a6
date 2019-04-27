@@ -1,0 +1,6 @@
+コアのテスト用の test/lib/test/unit.rb でコマンドラインオプション
+--subprocess-timeout-scale の処理を setup_options から non_options というメソッ
+ドに分離しています。 Test::Unit::Options のメソッドで setup_options で処理する
+と他のオプションの設定はブロック内で参照できないので、後で呼ばれる non_options
+メソッドのほうに遅延して --timeout_scale オプションの設定の有無を参照できるよう
+にしています。

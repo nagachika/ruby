@@ -1,0 +1,3 @@
+lib/rubygems/test_case.rb に rubygems のテストの時に鍵の情報を読み込む処理が書
+かれていて、実際の実行環境で呼ばれると Errno::ENOENT になるので rescue でガード
+しています。テスト用ならテストコードのほうに書けばいいのに。

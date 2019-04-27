@@ -1,0 +1,5 @@
+r38694 で $(RBCONFIG) 変数の定義を common.mk から Makefile.in, win32/Makefile
+.sub に移動した時に、変数の値を ./.rbconfig.time から .rbconfig.time と current
+directory の指定を消したために Windows 上で VC によるビルドが失敗するようになっ
+てしまっていたので修正しています。なんで directory 指定ないとだめなのかはよくわ
+かりませんが……。 [ruby-core:51261] [Bug #7659]

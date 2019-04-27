@@ -1,0 +1,2 @@
+r55018 の続き。 enc/unicode.h で定義している cacefold 処理用の定数マクロなどの
+定義も #ifdef ONIG_CASE_MAPPING でくくるようにしています。

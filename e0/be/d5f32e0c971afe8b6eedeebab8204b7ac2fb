@@ -1,0 +1,4 @@
+rb_iseq_compile_node() で node の種類で分岐している if 文で imemo_type_p() での
+チェックを nd_type() を使ったチェックの前に移動しています。 node が T_IMEMO の
+場合に nd_type() を呼ぶのはたまたまうまく動いているけど、意味的にはまずそうなの
+で。

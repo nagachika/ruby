@@ -1,0 +1,2 @@
+rb_threadptr_tag_state() の引数は rb_execution_context_t に変わっているので
+rb_ec_tag_state() に改名しています。

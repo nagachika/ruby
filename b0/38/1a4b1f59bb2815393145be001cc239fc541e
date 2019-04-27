@@ -1,0 +1,4 @@
+r44257 の configure での --with-opt-dir のオプション処理の位置を変更から Mac OS
+X で DLDFLAGS の設定が追加されなくなってビルドが失敗することがあったのを修正し
+ています。 DLDFLAGS が未初期化だったらセットするのではなくて
+RUBY_APPEND_OPTIONS で追加するようにしています。 [ruby-dev:47855] [Bug #9256]

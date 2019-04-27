@@ -1,0 +1,3 @@
+random.c で関数内で rb_num_negative_p() の extern 宣言しているところがあったの
+を削除しています。既に internal.h でプロトタイプ宣言されているので不要とのこと
+。

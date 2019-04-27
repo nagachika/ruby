@@ -1,0 +1,5 @@
+r64705 と同様に root_fiber かどうかの判定を rb_context_t::type の
+ROOT_FIBER_CONTEXT というに依存せず対応する th の root_fiber との比較で行なうよ
+うにして、Fiber では常に FIBER_CONTEXT を使うように修正しています。 r64589 で
+fork 時に root_fiber をつけかえるようにしたので、その時の問題を減らすための修正
+だったようです。 [ruby-core:88762] [Bug #15050]

@@ -1,0 +1,4 @@
+st.c の st_foreach() でハッシュ値を格納する変数の型が st_data_t になっていたの
+で st_index_t に修正しています。まあ st_index_t は typedef st_data_t st_index_t
+と定義されているので、実質の変化はないのですが意味的には st_index_t のほうが正
+しかったので。

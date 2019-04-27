@@ -1,0 +1,2 @@
+拡張ライブラリ socket の ext/socket/raddrinfo.c でコンパイラの警告除去のため
+socklen_t 型のサイズの比較演算子による条件に明示的キャストを追加しています。

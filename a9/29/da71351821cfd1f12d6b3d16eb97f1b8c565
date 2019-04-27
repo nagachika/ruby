@@ -1,0 +1,4 @@
+test/ruby/test_signal.rb の test_exit_action で IO.pipe と Process.spawn を使っ
+て書かれていたテストを IO.popen を使って、IO.new で file descriptor の番号を直
+接指定して開く方法をやめています。また使うシグナルも SIGUSR1 があるかどうかチェ
+ックするようにしています。 Windows で使えない機能を考慮したテストの修正です。

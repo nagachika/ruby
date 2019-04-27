@@ -1,0 +1,1 @@
+String#to_c, Complex(), String#to_r, Ratinal() のテストを追加しています。

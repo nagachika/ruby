@@ -1,0 +1,4 @@
+parse.y の new_qcall() や new_command_qcall() などの関数や arg_add_optblock(),
+method_optarg() などのマクロを削除して直接 DSL に処理を展開するようにしています
+。このため必要な処理を DSL の実装側に吸収しています。なんか魔境 parse.y の闇部
+分が DSL の実装に移っていっているような気も。

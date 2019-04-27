@@ -1,0 +1,2 @@
+win32/Makefile.sub で config.h に PRI_LL_PREFIX と PRI_PIDT_PREFIX の定義を追加
+しています。

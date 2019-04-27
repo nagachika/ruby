@@ -1,0 +1,2 @@
+.gdbinit の rp コマンドで struct RArray のオブジェクトの内容の表示に output/x
+のかわりに print/x コマンドを使うようにしています。

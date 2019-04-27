@@ -1,0 +1,2 @@
+test/ruby/test_hash.rb に Hash#each で生成した Enumerator の実行順序が要素の追
+加順序を保存していることを確認するテストを追加しています。

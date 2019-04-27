@@ -1,0 +1,2 @@
+WEBrick サーバの MIME の定義に .js (text/javascript) と .svg (image/svg+xml) を
+追加しています。 [ruby-core:39704] [Bug #5365]

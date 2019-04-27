@@ -1,0 +1,6 @@
+Fiber の実装で ucontext_t を利用する場合、スタックポインタおよびスタックサイズ
+を ucontext_t::uc_stack.ss_sp や ss_size を直に参照するのではなく rb_fiber_t に
+ss_sp や ss_size というメンバを追加してそこに格納しておいたものを利用するように
+しています。チケットによると AIX では fiber を切り替えた時に ss_size の値が変化
+してしまうので今までの実装では AIX では Fiber が動かなかったそうです。
+[ruby-core:62945] [Bug #9905]

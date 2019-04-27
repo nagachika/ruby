@@ -1,0 +1,5 @@
+Process のメソッドで uid, gid を取得するための処理で getpwnam_r(3) などの関数に
+渡すバッファを sysconf(_SC_GETPW_R_SIZE_MAX) などで上限を調べて ALLOCA() で確保
+していたのを rb_alloc_tmp_buffer() を使って確保するようにしています。スタック上
+に領域を確保することでスタックオーバフローがおきる可能性を回避するためみたいで
+す。

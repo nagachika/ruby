@@ -1,0 +1,2 @@
+r61137 の Struct.new の :keyword_init オプションの追加について NEWS ファイルに
+追記しています。 [ruby-core:72595] [Feature #11925]

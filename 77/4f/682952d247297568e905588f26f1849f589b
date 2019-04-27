@@ -1,0 +1,6 @@
+Enumerable#chunk と Enumerable#slice_before から引数 initial_state を削除してい
+ます。 2.2 から deprecated 警告を出すように r47653 で変更されていて、特に報告も
+ないということで本格的に削除しています。チケットによると引数を使わなくてもロー
+カル変数をブロック内で参照することで状態を持つことはできるので単純化と、
+slice_when と slice_after との一貫性のために消したいということでした。 [Feature
+#10958]

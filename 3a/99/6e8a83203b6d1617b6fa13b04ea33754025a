@@ -1,0 +1,2 @@
+proc.c で clobbered warning の抑制のための NO_CLOBBERED() マクロの定義を mingw
+でも volatile を使った定義を使うようにしています。

@@ -1,0 +1,2 @@
+bignum.c の rb_uint2big() で戻り値用の big の確保を bdigit_roomof(SIZEOF_VALUE)
+を使うことで #if の条件分岐の外に括り出すリファクタリング。

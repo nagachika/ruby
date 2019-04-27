@@ -1,0 +1,3 @@
+benchmark/app_aobench.rb が default script encoding の変更の影響で動かなくなっ
+てたらしいので magic comment を追加して US-ASCII を指定するようにしています。
+AO Bench なつかしいなー。 [ruby-core:91194] [Bug #15552]

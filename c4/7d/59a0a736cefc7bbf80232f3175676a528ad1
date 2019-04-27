@@ -1,0 +1,4 @@
+benchmark/driver.rb で File::NULL が未定義の時に /dev/null があればそれを格納し
+ておくようにしています。 benchmark は比較のために古い ruby で実行することもある
+ので 1.9.2 で実行する時に File::NULL が存在しないと失敗してしまうのを避けるため
+だと思います。

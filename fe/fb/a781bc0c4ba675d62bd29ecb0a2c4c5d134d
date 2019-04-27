@@ -1,0 +1,4 @@
+Kernel#exit の実装(rb_f_exit)と Kernel#exit! の実装(rb_f_exit_bang)から引数に応
+じて終了ステータスを決定する処理を rb_exit_status_code() という関数に切り出して
+います。なお EXIT_SUCCESS が 0 でない時(あるのかな?)は exit 0 とすると
+EXIT_SUCCESS にすりかえるようにしています。

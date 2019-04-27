@@ -1,0 +1,2 @@
+CentOS5/x64_86 でのテストで test_main_thread_status_at_exit が失敗することがあ
+るので、状況を確認するためデバッグ用の出力を追加しています。

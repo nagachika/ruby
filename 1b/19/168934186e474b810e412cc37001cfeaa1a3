@@ -1,0 +1,2 @@
+defs/gmake.mk でも r53537 の basictest の make ターゲット名の変更に追随していま
+す。 [ruby-core:72823] [Feature #11982]

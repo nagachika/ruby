@@ -1,0 +1,3 @@
+IO の multi thread での gets と close が競合した時のテスト
+test_race_gets_and_close のタイムアウトを伸ばしています。 CI の失敗の様子をみる
+ためみたいです。 http://ci.rvm.jp/results/trunk@P895/1190369

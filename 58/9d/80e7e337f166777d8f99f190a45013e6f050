@@ -1,0 +1,3 @@
+r65073 の getinstancevariable 命令の MJIT での最適化を利用するかどうかのフラグ
+マクロ USE_IC_FOR_IVAR を OPT_IC_FOR_IVAR と改名して、各ソースファイルでそれぞ
+れ定義してたのを vm_opts.h で定義するように移動しています。

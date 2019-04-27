@@ -1,0 +1,2 @@
+同じく gc.c の修正で aligned_free の MinGW での実装を __mingw_aligned_free() と
+いう関数を呼ぶようにしています。 [ruby-core:41967]

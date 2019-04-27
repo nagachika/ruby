@@ -1,0 +1,4 @@
+Array の RGenGC 向けの変更です。 array.c に ary_memfill() という Write Barrier
+つきの関数を追加して Array.new で初期値が指定された時や Array#fill で利用するよ
+うにしています。また Array#slice! の実装で Write Barrier が不要な時に
+RARRAY_RAWPTR() を利用するようにしています。

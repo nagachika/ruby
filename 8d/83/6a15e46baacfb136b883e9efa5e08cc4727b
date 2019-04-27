@@ -1,0 +1,2 @@
+OpenSSL::SSL::Session#time= が整数として Fixnum は受け付けるのに Bignum は例外
+にしていたのを受け付けるように修正。 [ruby-dev:43869] [Bug #4919]

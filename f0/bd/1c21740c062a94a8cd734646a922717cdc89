@@ -1,0 +1,3 @@
+include/ruby/defines.h にて rb_infinity と rb_nam に extern を直接書いていたと
+ころを RUBY_EXTERN を使うようにしています。"export for Windows " とあるのは
+INFINITY や NAN が未定義の環境ということでしょうか。

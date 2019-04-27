@@ -1,0 +1,3 @@
+template/Doxyfile.tmpl という doxygen の設定ファイルのテンプレートで
+INCLUDE_PATH の設定を追加しています。 [ruby-core:40843] [Bug #5597]
+Doxyfile のテンプレートなんてあったんですねぇ。知らなかった。

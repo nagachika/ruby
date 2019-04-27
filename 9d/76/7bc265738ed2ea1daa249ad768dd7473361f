@@ -1,0 +1,2 @@
+require 'rdoc/parser/perl' が混ざっていたので削除。rdoc/parser/perl.rb は元はあ
+ったのが r30249 で削除されたみたいですけど。

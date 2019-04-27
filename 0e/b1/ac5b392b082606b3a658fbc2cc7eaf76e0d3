@@ -1,0 +1,3 @@
+vm_args.c で例外オブジェクトへのバックトレース設定を rb_exc_set_backtrace() を
+直接呼ぶようにして rb_funcall() のために rb_intern("set_backtrace") を呼ばない
+ようにしています。

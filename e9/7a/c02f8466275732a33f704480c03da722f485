@@ -1,0 +1,3 @@
+SystemStackError 例外を発生させる thread.c の ruby_thread_stack_overflow() を
+rb_threadptr_stack_overflow() という名前に変更して vm_insnhelper.c に移動してい
+ます。

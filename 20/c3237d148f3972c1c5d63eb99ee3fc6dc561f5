@@ -1,0 +1,3 @@
+thread.c の terminate_all(), thread_join_sleep(), thread_join() などの関数で
+thread_debug() 関数で出力するデバッグメッセージに Thread の id だけでなく
+status も表示するようにしています。

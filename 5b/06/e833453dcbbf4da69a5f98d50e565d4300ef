@@ -1,0 +1,4 @@
+r49478 や r49537 の再修正。 Windows の short pathname への Dir.glob での対応を
+追加しています。 Windows では普通のファイル名のほかに PROGRA~1 みたいな省略形の
+名前も持っているので、この名前を取り出すようにしています。 [ruby-core:67954]
+[Bug #10819]

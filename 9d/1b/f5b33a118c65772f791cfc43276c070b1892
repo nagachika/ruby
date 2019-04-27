@@ -1,0 +1,3 @@
+これも r45414 から連なる変更の一部(多分)で、String#scan や String#gsub などで作
+った MatchData をパターンの文字列が taint されていたら taint するようにしていま
+す。

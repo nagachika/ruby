@@ -1,0 +1,6 @@
+さらに r51663 と r51664 の続きで struct rescue_funcall_args に respond と
+respond_to_missing という bit field メンバを追加して check_funcall_missing() で
+の basic_obj_respond_to_missing() の結果を使いまわすようにしています。またこの
+ために basic_obj_respond_to_missing() の戻り値が method entry がみつからない時
+に Qfalse でなく Qundef を返すように変更されています。この対応で method_missing
+関連のコードも変更されています。

@@ -1,0 +1,4 @@
+re.c の unescape_escaped_nonascii() でバッファ chbuf は signed char として宣言
+されてましたが一部 unsigned char としてアクセスしないといけない部分があったので
+unsigned char の配列として確保して char* のポインタでも参照できるようにして場所
+によって使いわけるようにしています。

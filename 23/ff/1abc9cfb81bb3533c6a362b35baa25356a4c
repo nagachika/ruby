@@ -1,0 +1,2 @@
+r66334 と同様に rubyspec の open に File::TMPFILE を渡すテストで Errno::EISDIR
+を無視させるようにしています。

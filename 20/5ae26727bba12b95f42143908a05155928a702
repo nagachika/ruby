@@ -1,0 +1,1 @@
+r58200 で追加したテスト refute_equal を assert_not_equal に書き換えています。

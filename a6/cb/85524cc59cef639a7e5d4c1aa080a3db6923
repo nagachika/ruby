@@ -1,0 +1,3 @@
+r64101 で LibreSSL でビルドした時の警告除去のためのオプション追加のために
+extconf.rb に追加した条件分岐で LIBRESSL_VERSION_NUMBER マクロのチェック時に
+openssl/opensslv.h を #include してチェックするようにしています。

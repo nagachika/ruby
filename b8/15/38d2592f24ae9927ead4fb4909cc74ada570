@@ -1,0 +1,4 @@
+r62531 の tool/generic_erb.rb と同様に enc/make_encmake.rb と tool/
+transcode-tblgen.rb も ERB.new の引数を呼び分けるのに RUBY_VERSION ではなく
+ERB.version をみるようにしています。 cross compile 時には RUBY_VERSION には依存
+できないとのこと。

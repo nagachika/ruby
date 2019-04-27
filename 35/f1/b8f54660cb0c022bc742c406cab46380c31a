@@ -1,0 +1,3 @@
+mjit_compile.c の get_iseq_if_available() を has_valid_method_type() と改名して
+、条件を一部呼び元の MJIT で生成するコードのほうに吊り上げるリファクタリングを
+しています。

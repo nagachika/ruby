@@ -1,0 +1,7 @@
+Enumerable#slice_after と Enumerator::Lazy#slice_after という新たなメソッドを追
+加しています。元は [ruby-dev:38392] で提案されていた gather_each という区切りを
+検出する lambda を引数に渡すことで区切り単位にまとめた配列を yield するメソッド
+でしたが名前は slice_after と変更して採用されています。 slice_before というメソ
+ッド(真になる要素の前で区切る)が既に存在するので、それと対称的なメソッドという
+ことでこの命名になったようです。これはなかなか便利そうですね。
+[ruby-core:58123] [Feature #9071]

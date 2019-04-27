@@ -1,0 +1,2 @@
+r66984 の bundler.gemspec の位置の修正にあわせて tool/sync_default_gems.rb でコ
+ピーする位置も修正しています。

@@ -1,0 +1,3 @@
+ivar_get() を rb_ivar_lookup() と改名して、未定義のインスタンス変数の警告を
+generic_ivar_get(), ivar_get() で出力していたのを、呼び元の rb_ivar_get() でま
+とめて出力するようにしています。

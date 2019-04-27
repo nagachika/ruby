@@ -1,0 +1,4 @@
+make runruby 用の ruby-runner.c を自動生成していたのを、ruby-runner.c はリポジ
+トリにコミットして ruby-runner.h というヘッダファイルをテンプレートから自動生成
+するように変更しています。 BUILDDIR、LIBPATHENV、PATH_SEP などの変動する部分だ
+けをヘッダに切り出して置換するようにしています。

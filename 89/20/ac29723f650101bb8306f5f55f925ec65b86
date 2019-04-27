@@ -1,0 +1,2 @@
+doc/contributing.rdoc および openssl の rdoc コメント、テストのコメントの typo
+修正。 https://github.com/ruby/ruby/pull/475

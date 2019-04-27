@@ -1,0 +1,6 @@
+errno の値に応じた SystemCallError (Errno::EXXXX) 例外を発生させる
+rb_sys_fail_path_in() に類似の関数で errno を参照するのではなくて引数でエラー番
+号を与える rb_syserr_fail_path_in() を追加しています。うーんこの名前どっちがど
+っちか毎回忘れそうですね。suffix をつけたらいいんじゃないですかね
+、..._with_errno() とか……ってこれでもどっちが引数に渡すのかわからなくなりそう
+。

@@ -1,0 +1,2 @@
+ext/win32ole/win32ole.c の ole_method_docinfo_from_type() という関数の戻り値が
+誤って VALUE になっていたので HRESULT に修正しています。

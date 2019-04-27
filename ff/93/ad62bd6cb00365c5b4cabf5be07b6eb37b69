@@ -1,0 +1,3 @@
+標準添付ライブラリ mathn を require してある状態で "/" を含む文字列オブジェクト
+を Rational() や to_r で Rational にしようとすると SEGV していた不具合を修正し
+ています。 [ruby-core:78893] [Bug #13084]

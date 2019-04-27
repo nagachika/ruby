@@ -1,0 +1,2 @@
+ext/socket/rubysocket.h の #ifdef などの directive のインデントをつけるようにし
+ています。

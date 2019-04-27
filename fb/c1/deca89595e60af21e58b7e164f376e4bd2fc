@@ -1,0 +1,2 @@
+rb_vmdebug_stack_dump_all_threads() という全 Thread のその時点のバックトレース
+を標準エラー出力に出力する関数を追加しています。デバッグ用ですね。

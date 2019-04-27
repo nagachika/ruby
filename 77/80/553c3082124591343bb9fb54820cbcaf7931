@@ -1,0 +1,3 @@
+r66239 のさらに続きで regparse.c の node_extended_grapheme_cluster() のリファク
+タリングと共用変数のサイズを拡張しています。一部 assert のつもりか exit(1) して
+いるところがあるけどこれは例外か rb_bug() のほうがよさそうですね。

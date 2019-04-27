@@ -1,0 +1,3 @@
+r50516 に続き bootstraptest/runner.rb, sample/test.rb, test/lib/test/unit.rb で
+テストの結果の色付けのデフォルトのパターンを test/colors というファイルから読み
+込むようにしています。

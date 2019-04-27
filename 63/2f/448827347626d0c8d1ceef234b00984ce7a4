@@ -1,0 +1,3 @@
+test/-ext-/symbol/test_inadvertent_creation.rb で object_id から Symbol として
+利用していない文字列を生成しようとしているところで、object_id が負の整数を返す
+ことがあるので "-" を "_" に置換するようにしています。

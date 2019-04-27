@@ -1,0 +1,4 @@
+OpenSSL::Buffering#each_byte がブロックに [DEL:Integer を渡していたのを 1.9 の
+IO#each_byte の挙動にそろえて String を渡すように変更しています。:DEL] 1.9 で
+String#[] が String を返すようになったために String を渡していたのを、IO#
+each_byte との互換性を保つために Integer を渡すように修正しています。

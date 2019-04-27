@@ -1,0 +1,2 @@
+svn property の svn:ignore にテスト用の拡張ライブラリ(ext/-test-/*)のビルド結果
+のファイルを追加したみたいです。

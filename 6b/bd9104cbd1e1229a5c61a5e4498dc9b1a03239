@@ -1,0 +1,3 @@
+Windows 版の rb_readlink() で malloc(3) を使ってメモリ確保する mbstr_to_wstr()
+を呼んでいるところを ALLOCV() を使うように書き変えています。例外発生時の潜在的
+な memory leak を修正しています。

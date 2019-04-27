@@ -1,0 +1,3 @@
+r51888 で追加して r51889 でソースディレクトリ以外のビルドディレクトリ対応した
+make test-testframework ですが $(srcdir) の prefix を消しています。あー tool/
+runruby.rb で実行されるから srcdir は load path に含まれているから不要なのか。

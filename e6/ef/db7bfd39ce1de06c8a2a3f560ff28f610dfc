@@ -1,0 +1,4 @@
+標準添付ライブラリ fileutils のテストの setup メソッドでインスタンス変数
+@process に Process.groups だけでなく Prosess.gid も追加しておくようにしていま
+す。 systemd-nspawn を使ってる場合に Process.groups が空になることがあるそうで
+す。 [ruby-core:78053] [Bug #12910]

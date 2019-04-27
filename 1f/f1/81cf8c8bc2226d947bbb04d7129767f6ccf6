@@ -1,0 +1,3 @@
+Windows プラットフォームで ordinal entry をもつ DLL のロードのテストでは mingw
+版の時に -Wl,--out-implib を指定しないとビルドエラーになっていたので修正。
+[ruby-core:44441][Bug #6320]

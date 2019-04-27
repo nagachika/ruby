@@ -1,0 +1,2 @@
+r62652 で vm_exec() から分離した vm_exec_handle_exception() を handle_exception
+() と改名しています。ついでにインデントの修正やスタイルの修正なども。

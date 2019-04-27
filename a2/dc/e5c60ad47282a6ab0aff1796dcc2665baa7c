@@ -1,0 +1,2 @@
+r51861 で internal.h から分離された encindex.h の #endif のコメントの typo 修正
+。

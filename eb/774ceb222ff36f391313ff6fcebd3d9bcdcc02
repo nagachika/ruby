@@ -1,0 +1,1 @@
+rb_method_visibility_t の型の不要なキャストを削るなどの小さな変更です。

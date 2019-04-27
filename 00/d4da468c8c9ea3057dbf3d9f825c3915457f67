@@ -1,0 +1,3 @@
+r50354 の BASERUBY の path separator の変換のかわりに tool/expand-config.rb で
+置換するようにしています。が r50354 の変更は revert されてなくて次で revert さ
+れています。

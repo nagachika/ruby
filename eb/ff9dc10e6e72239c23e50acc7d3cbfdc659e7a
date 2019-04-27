@@ -1,0 +1,4 @@
+Object#=~ を deprecate にしています。既にみてきたように Object#=~ はなんとなく
+動いて便利なんですが、ミスを遮蔽してしまうことも多いので deprecate にして、nil
+の場合は動くように NilClass#=~ を追加しています。 [ruby-core:89438] [Feature #
+15231]

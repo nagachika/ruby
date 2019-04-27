@@ -1,0 +1,3 @@
+rubygems の Gem::Command#invoke_with_build_args で Gem::Command#ui の元の値を退
+避しておいて ensure 節で元に戻すようにしています。テストで fd leak していたのを
+修正しているそうです。

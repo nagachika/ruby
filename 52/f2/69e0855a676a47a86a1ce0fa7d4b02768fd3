@@ -1,0 +1,1 @@
+spec/ruby/language/constants_spec.rb の未使用変数の警告除去。

@@ -1,0 +1,2 @@
+time.c の変数 compat_common_month_table と compat_leap_month_table の定義に
+const 修飾子を追加しています。

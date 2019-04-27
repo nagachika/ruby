@@ -1,0 +1,6 @@
+Psych による nil の YAML表現を、!!null から YAML 1.0 の標準の(？)表現に変更して
+います。具体例はテストケースより
+>> Psych.dump nil
+=> "--- \n...\n"
+>> Psych.dump([nil])
+=> "---\n- \n"

@@ -1,0 +1,3 @@
+clang での警告除去のため configure で -Wno-tautological-compare,
+-Wno-parentheses-equality, -Wno-constant-logical-operand などのコンパイルオプシ
+ョンを追加するようにしています。

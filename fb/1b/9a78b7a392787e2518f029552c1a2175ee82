@@ -1,0 +1,4 @@
+同じく文字列長カウントに関する関数 search_nonascii()、
+count_utf8_lead_bytes_with_word()、enc_strlen()、str_utf8_nth() などでなぜか文
+字列のポインタを VALUE * で扱っていたところがあったのを uintptr_t * を使うよう
+に変更しています。ワード幅で処理して高速化しているのでしょうけど。

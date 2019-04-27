@@ -1,0 +1,3 @@
+unsigned long 型の乱数を生成する rb_random_ulong_limited() という C API を追加
+しています。 rb_genrand_ulong_limited() と類似ですが第1引数に乱数エンジンが指定
+できるようになっています。

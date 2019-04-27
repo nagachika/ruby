@@ -1,0 +1,2 @@
+r35102 の openssl の rsa_generate 関数の引数の型変更が FreeBSD でテストの失敗を
+引き起こしていたそうで revert しています。

@@ -1,0 +1,2 @@
+current_vm_stack_arg() の第1引数を rb_thread_t から rb_execution_context_t に変
+更しています。

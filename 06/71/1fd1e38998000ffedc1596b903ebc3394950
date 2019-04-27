@@ -1,0 +1,4 @@
+enc/trans/single_byte.trans というファイル(文字コード変換用のものですがよくわか
+らず)の transcode_tblgen_singlebyte で transcode_tblgen メソッドの戻り値を文字
+列に埋め込んで返すようにしていましたが、呼び元でこの戻り値は使っていないので捨
+てるようにしています。

@@ -1,0 +1,2 @@
+File.utime で引数の atime と mtime が同一だった場合に rb_time_timespec() の呼び
+出しをスキップして一方の結果を使いまわすようにしています。

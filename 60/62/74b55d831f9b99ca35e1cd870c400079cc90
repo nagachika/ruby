@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle の depend で OpenBSD の make でエラーになるので .PHONY タ
+ーゲットの使いかたを修正しています。

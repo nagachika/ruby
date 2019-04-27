@@ -1,0 +1,3 @@
+IO#puts の writev(2) 対応のテストで writev(2) が使えない環境ではこけるものを
+portable でないとして skip するようにしています。そりゃそうだ。
+[ruby-core:83508] [Feature #14042]

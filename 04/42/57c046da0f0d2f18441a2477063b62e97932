@@ -1,0 +1,3 @@
+Array#push や Array#<< で要素を追加する時に共有されてない配列では rb_ary_modify
+() を呼ばず rb_ary_modify_check() だけ直接呼ぶようにして最適化しています。
+https://github.com/ruby/ruby/pull/1609 [ruby-core:81082] [Bug #13553]

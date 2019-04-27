@@ -1,0 +1,2 @@
+Mac OS X と Linux でも USE_FFI_CLOSURE_ALLOC を 0 に定義して ffi_clousre_alloc
+()/free() を利用しないようにしています。 [ruby-dev:41483] [Bug #3371]

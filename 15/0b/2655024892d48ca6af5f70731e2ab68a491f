@@ -1,0 +1,3 @@
+configure で組み込み関数 __builtin_clz(), __builtin_clzl(), __builtin_clzll()
+のチェックを追加して、bignum.c の nlz16(), nlz32(), nlz64(), nlz128() などの実
+装に利用するようにしています。

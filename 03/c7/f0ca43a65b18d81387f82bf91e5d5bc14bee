@@ -1,0 +1,4 @@
+gc.c で RUBY_FREE_MIN 環境変数の設定を変更する(大きくする)と、ヒープの解放処理
+(システムに返す処理のことだと思います)が走らなくなってしまうのを避けるため
+objspace->heap.do_heap_free が initial_free_min を下回らないようにしています。
+[ruby-core:53405] [Bug #8095]

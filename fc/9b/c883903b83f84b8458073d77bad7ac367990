@@ -1,0 +1,1 @@
+Random.new_seed と Random.raw_seed のテストを追加しています。

@@ -1,0 +1,2 @@
+mjit_config.h の生成のための Makefile.in の shell 関数部分を tool/
+mjit_archflag.sh というファイルに分離しています。

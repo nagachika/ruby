@@ -1,0 +1,1 @@
+rb_mFConst の export。 File::Constants を格納してる C の変数ですね。

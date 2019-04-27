@@ -1,0 +1,3 @@
+ruby-<version>.pc ファイルに rubylibdir, rubyarchdir, vendordir, vendorarchdir,
+sitedir, sitearchdir など組み込みのロードパスの記述を追加しています。
+[ruby-core:42766] [Feature #6052]

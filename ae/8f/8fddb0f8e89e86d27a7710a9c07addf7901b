@@ -1,0 +1,2 @@
+obj.?meth の記法で method chain を書いた時の peephole optimization の対応を強化
+しているみたいです。 [Feature #11537]

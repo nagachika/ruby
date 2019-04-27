@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::Utils::TimeoutHandler で生成する Thread
+の inspect の特異メソッドを定義してクラス名(WEBrick::Utils::TimeoutHandler)を表
+示するようにしています。テストで leak しているけどこの Thread は管理されてない
+ので消しようがないのでとりあえず判別のため名前をつけているということでしょうか
+。

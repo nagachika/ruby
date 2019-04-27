@@ -1,0 +1,4 @@
+thread_pthread.c の gvl_destroy() で rb_vm_t::gvl::switch_wait_cond,
+switch_cond, lock などの mutex や condition variable の破棄をしてたのを if(0)
+の分岐内にいれて実行しないようにしています。コミットログのコメントは VM 終了時
+に他の thread が使う可能性があるので、ってことかな。

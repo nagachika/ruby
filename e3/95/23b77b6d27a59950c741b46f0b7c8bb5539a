@@ -1,0 +1,3 @@
+random.c の rand_init() で Bignum の符号を反転するために clone してから
+RBIGNUM_SET_SIGN() でいじっていたのを rb_big_uminus() を使うようにリファクタリ
+ングしています。

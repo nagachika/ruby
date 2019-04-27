@@ -1,0 +1,3 @@
+test/ruby/envutil.rb に新しいユーティリティメソッド Test::Unit::Assertions#
+assert_separately を追加しています。子プロセスを作ってそこで assertion を実行す
+るもののようです。

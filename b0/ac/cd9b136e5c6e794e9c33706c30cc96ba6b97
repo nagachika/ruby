@@ -1,0 +1,3 @@
+rational.c の i_gcd() で下位ビットが 0 の時のショートカット処理を追加することで
+高速化しています。おお、すごい。 https://github.com/ruby/ruby/pull/1596
+[ruby-core:80843] [Bug #13503]

@@ -1,0 +1,2 @@
+ext/curses/curses.c で 32bit/64bit の変換の警告が出ていたところで NUM2LONG() を
+使って警告除去しています。

@@ -1,0 +1,3 @@
+String#crypt で crypt(3) のエラー時の SystemError 例外発生時に rb_syserr_fail()
+を使って errno ではなく戻り値を明示的に与えるようにして、一時的に errno を上書
+きしないようにしています。

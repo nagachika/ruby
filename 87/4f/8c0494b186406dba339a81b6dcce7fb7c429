@@ -1,0 +1,3 @@
+r34669 で fileutils.rb をリファクタリングしたのを revert しています。
+FileUtils::Verbose を include した時に不具合があったのでその修正だそうです。
+[ruby-core:52890] [Bug #7958]

@@ -1,0 +1,5 @@
+tool/generic_erb.rb で標準添付ライブラリ fileutil に依存していたのを
+FileUtils.touch を File.open と File.utime で実装するようにして依存をなくしてい
+ます。 encdb.h の生成時に rbconfig.rb がまだ存在しないので r63425 がエラーにな
+ってたのを対応しているみたいです。うーん MJIT のヘッダ生成とはまた別にこっちも
+問題だったのかな。

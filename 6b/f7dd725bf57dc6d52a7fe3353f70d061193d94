@@ -1,0 +1,3 @@
+lib/mkmf.rb でグローバル変数 $LIBRUBYARG を共有ライブラリリンクする時だけ設定す
+るようにしていたのを、static link する場合でも設定するようにしています。
+[ruby-core:38802] [Bug #5147]

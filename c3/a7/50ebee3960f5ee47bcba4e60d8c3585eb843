@@ -1,0 +1,2 @@
+XMLRPC で String#size をバイト数を得るために使っていたとこで String#bytesize を
+利用するように修正しています。

@@ -1,0 +1,2 @@
+test/ruby/test_dir_m17n.rb のユーティリティメソッド
+create_and_check_raw_file_name を assert_raw_file_name と改名しています。

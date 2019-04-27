@@ -1,0 +1,1 @@
+mjit.c の mjit_wait_call() という関数に rb_ の prefix を追加する改名。

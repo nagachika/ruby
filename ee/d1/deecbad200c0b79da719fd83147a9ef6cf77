@@ -1,0 +1,2 @@
+さらに process.c の check_exec_redirect() でも RARRAY_PTR() を使って単に
+dereference していたところを RARRAY_AREF() に書き直しています。

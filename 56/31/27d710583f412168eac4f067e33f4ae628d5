@@ -1,0 +1,3 @@
+dir.c の glob_helper() の引数に pathlen を追加して、 glob_helper で毎回 strlen
+() でサイズを取得していたのを省いています。 glob_helper() は再帰的に呼び出され
+ることがあるので冗長なサイズ計算が繰り返される可能性があったみたいです。

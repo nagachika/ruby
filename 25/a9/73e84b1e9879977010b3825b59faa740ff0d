@@ -1,0 +1,3 @@
+gc_profile_record という構造体に GC_PROFILE_MORE_DETAIL マクロが真でない時には
+不要なメンバが常に宣言されていたのを、 #if GC_PROFILE_MORE_DETAIL ... #end で括
+るようにしています。

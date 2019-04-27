@@ -1,0 +1,2 @@
+rb_vm_stack_to_heap() の宣言の引数の型につける const を変更しています。
+rb_thread_t const *th -> const rb_thread_t *th

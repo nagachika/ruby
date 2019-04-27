@@ -1,0 +1,2 @@
+ソースツリーとは別の場所でビルドしている時に make clean で enc/unicode/
+name2ctype.h および空になれば enc/unicode/ を削除するようにしています。

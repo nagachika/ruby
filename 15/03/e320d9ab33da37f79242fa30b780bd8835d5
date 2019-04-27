@@ -1,0 +1,2 @@
+rb_w32_getppid で 64bit 版 Windows の対応だそうです。構造体のメンバの型を ULONG
+から uintptr_t という(多分移植性のある)型に変更しています。

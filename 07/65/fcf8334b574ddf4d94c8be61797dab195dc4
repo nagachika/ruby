@@ -1,0 +1,4 @@
+Array#reject! の rdoc 用コメントに delete_if と同じだと書いてありましたが、
+delete_if は常に self を返し reject! は要素の削除が行なわれなかったら nil を返
+すのでその部分は削っています。そういう違いがあったのか…。 https://github.com/
+ruby/ruby/pull/894

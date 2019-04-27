@@ -1,0 +1,1 @@
+test/ruby/test_jit.rb のエラー時のメッセージの typo 修正。

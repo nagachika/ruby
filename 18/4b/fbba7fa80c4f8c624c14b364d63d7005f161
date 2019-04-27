@@ -1,0 +1,2 @@
+spawn の rdoc コメントに Process.waitpid で終了を待つサンプルコードを追記してい
+ます。

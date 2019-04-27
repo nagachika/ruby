@@ -1,0 +1,2 @@
+numeric.c の rdoc 用コメントに Document-method という directive を追加していま
+す。

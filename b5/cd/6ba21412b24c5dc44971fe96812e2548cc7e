@@ -1,0 +1,6 @@
+r50743 のrb_method_definition_t::flags の bit field の順番を変更しています。頻
+繁に使われるフィールドを近づけてるそうですが、これ(コンパイラに依るのでしょうけ
+ど普通に pack されたら) 多分同じ byte に乗るような気がするので影響するんですか
+ね。
+また vm_call_method() で method_definition_t::flags.visi のチェック部分で
+LIKELY() を付けくわえています。

@@ -1,0 +1,3 @@
+test/ruby/test_require.rb のテストメソッド test_load2 を test_load_scope ともう
+少し descriptive な名前に変更して、エラー時のメッセージにML番号やチケット番号を
+追加しています。

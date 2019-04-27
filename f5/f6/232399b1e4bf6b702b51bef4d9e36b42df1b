@@ -1,0 +1,3 @@
+Dir.mkdir と Dir.rmdir で mkdir(2) と rmdir(2) のシステムコールを呼ぶ時に GVL
+を解放するようにしています。最近ちょっとずつ進んでいる遅い filesystem 対策の一
+環ですね。

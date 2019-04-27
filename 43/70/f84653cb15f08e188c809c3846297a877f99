@@ -1,0 +1,2 @@
+標準添付ライブラリ test/unit の assert_send の rdoc コメントのサンプルコードを
+より現実的な例にしています。 [ruby-core:57570] [Bug #8975]

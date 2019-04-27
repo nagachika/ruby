@@ -1,0 +1,2 @@
+NEWS ファイルに Resolv::DNS#timeouts= メソッドと Resolv::DNS::Config#timeouts=
+メソッドの追加について記述しています。

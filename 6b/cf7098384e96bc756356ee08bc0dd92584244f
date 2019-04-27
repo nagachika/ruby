@@ -1,0 +1,5 @@
+WEBrick::HTTPServer.new などのオプションの :RequestHandler は deprecated になっ
+ているのでテストコードでかわりに :RequestCallback を使用するようにしています。
+また :RequestHandler を指定した時に ":RequestHandler is deprecated, please use
+:RequestCallback" とメッセージがログに残ることをチェックするテストを追加してい
+ます。

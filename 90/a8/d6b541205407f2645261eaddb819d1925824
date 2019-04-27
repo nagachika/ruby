@@ -1,0 +1,2 @@
+parse.y の cond_stack の操作マクロ CND_*() と cmdarg_stack の操作マクロ
+CMDARG_*() にコメントを追加して、なんのためにあるものなのか説明しています。

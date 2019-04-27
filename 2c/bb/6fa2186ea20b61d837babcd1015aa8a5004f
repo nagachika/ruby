@@ -1,0 +1,3 @@
+process.c の Process::Status の文字列化に使う pst_message() から終了ステータス
+を表示する部分を pst_message_status() という関数に切り出して Kernel#system の例
+外メッセージではこちらを使うようにしています。

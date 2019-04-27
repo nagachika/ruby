@@ -1,0 +1,5 @@
+ext/etc/etc.c で setpwent(3) や setgrent(3) で開いた /etc/passwd や /etc/group
+ファイルを閉じるために endpwent()/endgrent() をそれぞれ呼ばないといけないのです
+が、ensure の中で呼んでいなかったためブロックで例外が発生するときちんと後始末が
+できていなかったので、endpwent()/endgrent() の呼び出しを ensure 処理に移動して
+います。

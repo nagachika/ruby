@@ -1,0 +1,8 @@
+オブジェクトの struct RBasic::klass の操作を直接せずに常にマクロを通じで操作す
+るようにしています。 RBASIC_CLASS() でアクセスし RBASIC_SET_CLASS() でセットし
+、RBASIC_CLEAR_CLASS() で 0 にする(内部的オブジェクトを隠す時に利用)、
+RCLASS_SET_SUPER() で親クラスを設定するなどのマクロを新設しています。これは
+RGENGC という世代別GC を導入するために klass の書き換えに write barrier を挿入
+したいからだと思われます。この文脈での write barrier って何かというのは「ガベー
+ジコレクションのアルゴリズムと実装」という本に書いてあるのでこれを参照すると良
+いと思います。 [ruby-core:54621] [Feature #8339]

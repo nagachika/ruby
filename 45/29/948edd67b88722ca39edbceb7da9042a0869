@@ -1,0 +1,2 @@
+debug.c の RUBY_DEBUG 環境変数の Windows 環境での codepage 指定でコロン(:)区切
+りで locale 用と filesystem 用の codepage を別々に指定できるようにしています。

@@ -1,0 +1,3 @@
+ruby_cleanup() の終了処理でプロセスの終了ステータスに error_handle() で変換した
+ものを再度 EXIT_SUCCESS や EXIT_FAILURE に変換していて冗長だったので削っていま
+す。

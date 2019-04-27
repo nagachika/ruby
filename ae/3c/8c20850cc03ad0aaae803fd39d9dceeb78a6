@@ -1,0 +1,3 @@
+coroutine/*/Context.h で coroutine_initialize() と coroutine_destroy() の
+inline 関数の定義に static を付けるようにしています。duplicate symbol になるの
+を防ぐためとのこと。

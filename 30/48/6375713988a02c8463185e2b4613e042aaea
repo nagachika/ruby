@@ -1,0 +1,3 @@
+r41931 で signal.c に追加した valgrind のエラー抑制のための
+VALGRIND_MAKE_MEM_DEFINED() で未使用の値の警告抑制のため明示的な (void) へのキ
+ャストを追加しています。

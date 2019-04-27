@@ -1,0 +1,2 @@
+rgengc_remember() と rgengc_rememberset_mark() のデバッグ用の出力のレベルや表示
+内容の変更。

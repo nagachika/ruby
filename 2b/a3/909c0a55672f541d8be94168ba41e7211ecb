@@ -1,0 +1,2 @@
+r31933 の Net::HTTP#use_ssl? に関連して再度修正。Net::HTTP#use_ssl= で SSL の利
+用を指定された時点で require "openssl" するようにしています。

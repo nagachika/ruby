@@ -1,0 +1,2 @@
+r64188 で mswin 環境で precompiled header を生成するようにした時に object file
+も作られるのでこれもリンクするようにしています。

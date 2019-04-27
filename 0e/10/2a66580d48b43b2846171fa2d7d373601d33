@@ -1,0 +1,2 @@
+r40367 および r40368 の再々修正で結局すべての unlink で StandardError を全て
+rescue して無視するようにしています。 [ruby-core:52813] [Bug #7940]

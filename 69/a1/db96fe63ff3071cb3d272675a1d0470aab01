@@ -1,0 +1,3 @@
+標準添付ライブラリ net/http, net/ftp, net/pop, net/smtp などでソケット接続時に
+Timeout.timeout を使っていたのを、Socket.tcp の connect_timeout：キーワード引数
+を利用してタイムアウト検出するようにリファクタリングしています。

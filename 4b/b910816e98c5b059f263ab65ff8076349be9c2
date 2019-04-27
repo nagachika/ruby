@@ -1,0 +1,5 @@
+test/ruby/test_beginendblock.rb で子プロセスで Dir.chdir でカレントディレクトリ
+を移動して Kernel#system を呼んでたのをファイルパスのほうを絶対パスに展開するよ
+うにしています。 Windows 7 で vboxsf をマウントしているディレクトリ上で system
+を実行すると "warning: Insecure world writable dir..." という警告が出るのを回避
+するためとのこと。

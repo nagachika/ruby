@@ -1,0 +1,4 @@
+もうひとつ rdoc のテストの修正で Windows 版での失敗を修正しているらしいですが詳
+細はよくわかりません。 Gem::Specification#loaded_from= に設定するファイルパスに
+@tmpdir を付与していたのがよくなかったようですが、Gem.use_paths @tempdir とかし
+ているので不要だったのでしょう。なぜ Windows で失敗していたのかはともかく。

@@ -1,0 +1,4 @@
+拡張ライブラリ readline のコンパイルのための extconf.rb の実行に
+--disable-libedit を指定した時と、オプションを指定しなかった時の動作
+(libreadline と libedit の存在チェックして自動で選択する)が逆になっていたのを修
+正。 [ruby-dev:41492] [Bug #3375]

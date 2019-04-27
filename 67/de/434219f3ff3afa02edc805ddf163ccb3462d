@@ -1,0 +1,3 @@
+darwin 環境では LDSHARED とは別に DLDSHARED というコマンドを指定する変数を定義
+して LIBRUBY_LDSHARED をこっちを使うようにしています。 LDSHARED は .bundle を作
+るもので DLDSHARED は .dylib を作るもの。これも MJIT 用かな?

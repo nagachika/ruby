@@ -1,0 +1,7 @@
+SecureRandom.random_bytes で seed の設定のために OpenSSL::Random.seed を使って
+いましたが、これは seed として渡される文字列が充分な entropy を持っている(ざっ
+くり言えば充分ランダムである)ことを想定しているので、OpenSSL::Random.random_add
+を使うように変更しています。ここで entropy として 0.0 を指定すると OpenSSL (拡
+張ライブラリじゃなくて元のライブラリのほう)が初回に充分な entropy を集めてきて
+くれるからより安心ということみたいです。詳細はチケット参照。 [ruby-core:47308]
+[Bug #6928]

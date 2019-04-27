@@ -1,0 +1,3 @@
+SecureRandom.random_bytes が fork した子プロセスで同じ乱数列を使い続けてしまう
+ので fork 後に利用する時には seed を設定しなおすようにしています。
+[ruby-core:35765] [Bug #4579]

@@ -1,0 +1,2 @@
+internal.h から既に存在していなかった関数 rb_divert_reserved_fd() の宣言を削除
+しています。

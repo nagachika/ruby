@@ -1,0 +1,2 @@
+Regexp#=== の rdoc 用コメントでサンプルに使われている正規表現リテラルの ^$ を \
+A, \z に置き換えています。 https://github.com/rurema/doctree/pull/812

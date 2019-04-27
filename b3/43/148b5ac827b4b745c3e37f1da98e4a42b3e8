@@ -1,0 +1,2 @@
+common.mk の make clean-local の削除対象に version.i や bisect.sh enc/jis など
+を追加しています。

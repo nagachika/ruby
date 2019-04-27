@@ -1,0 +1,3 @@
+gc.c の malloc_increase2 という変数を更新する処理を ATOMIC_SIZE_ADD() と
+ATOMIC_SIZE_EXCHANGE() というマクロを利用して atomic に処理するようにしています
+。

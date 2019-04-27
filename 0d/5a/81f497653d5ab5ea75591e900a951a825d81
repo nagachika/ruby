@@ -1,0 +1,3 @@
+Net::Telnet で SimpleDelegate を使わない実装に変更した時に close メソッドが消え
+てしまっていたので追加。
+[ruby-dev:42260]

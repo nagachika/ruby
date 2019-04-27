@@ -1,0 +1,3 @@
+SUPPORT_JOKE の定義が必要なので id.h から vm_opts.h を include するように修正。
+[ruby-dev:42730]
+ML ではそもそも SUPPORT_JOKE 消したらいいんじゃね、といった話になってますね。

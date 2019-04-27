@@ -1,0 +1,2 @@
+hash.c の tbl_update() のコールバック関数の型を typedef で宣言しておくようにし
+ています。

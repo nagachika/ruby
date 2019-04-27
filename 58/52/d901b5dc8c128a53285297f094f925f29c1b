@@ -1,0 +1,3 @@
+Emacs 用の misc/inf-ruby.el で compilation-shell-minor-mode が必要な変数をセッ
+トする前に呼ばれててちゃんと設定できていなかったので位置を移動しているみたいで
+す。 [ruby-core:46518] [Bug #6742]

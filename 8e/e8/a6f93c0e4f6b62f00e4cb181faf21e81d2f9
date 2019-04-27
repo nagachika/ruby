@@ -1,0 +1,2 @@
+r5546 と同様に test/ruby/test_io.rb の test_read_buffer_error も cygwin では実
+施しない(定義しない)ようにしています。

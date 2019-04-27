@@ -1,0 +1,2 @@
+r43620 で切り出した should_be_callable() で call が private メソッドでも呼び出
+せるようにしています。

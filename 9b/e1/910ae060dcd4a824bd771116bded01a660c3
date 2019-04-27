@@ -1,0 +1,5 @@
+Symbol を to_proc で Proc にするブロック引数と Refinements のテストで渡したブロ
+ックを返すメソッドから返された Proc オブジェクトを呼び元で呼び出す時は呼び元の
+Refinements が影響すること(つまりこのテストの場合だと return_proc が定義されて
+いるクラスのコンテキストの Refinements の影響は受けないこと)を確認するテストを
+追加しています。 [ruby-core:60109] [Feature #9451]

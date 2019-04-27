@@ -1,0 +1,2 @@
+internal.h の中で rb_rational_reciprocal() のプロトタイプ宣言は rational.c で定
+義されているのに numeric.c の関数群のところにあったので移動しています。

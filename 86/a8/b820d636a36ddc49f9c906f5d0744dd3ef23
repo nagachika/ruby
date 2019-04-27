@@ -1,0 +1,59 @@
+[ruby-dev:42304] でささださんが詳しく解説されていますのでこれを読めばだいたい
+OK だと思います。
+opt_case_dispatch では case 文の when のマッチに一部の組み込みクラスのものはハ
+ッシュテーブルを使っていて、それ以外も opt_case_dispatch 内で st_foreach して =
+== を呼んでいたのですが、実は YARV の Instruction Sequence (バイトコード、とい
+う呼称は YARV ではあまり使いたくないそうです)でも同じことをしているので不要だっ
+た上にそちらにまかせたほうが少し速かったということで st_foreach するのを消して
+います。
+ちなみに case 文がどんな ISeq にコンパイルされているかはこんな感じに確認できま
+す。
+% ruby --dump=insns -e '
+quote> case a
+quote> when 0,1
+quote>   p :a
+quote> when 2
+quote>   p :b
+quote> else
+quote>   p :c
+quote> end'
+== disasm: <RubyVM::InstructionSequence:<main>@-e>======================
+0000 trace            1                                               (   2)
+0002 putnil
+0003 send             :a, 0, nil, 24, <ic:0>
+0009 dup
+0010 opt_case_dispatch <cdhash>, 49
+0013 putobject        0                                               (   3)
+0015 topn             1
+0017 send             :===, 1, nil, 0, <ic:2>
+0023 branchif         63
+0025 putobject        1
+0027 topn             1
+0029 send             :===, 1, nil, 0, <ic:3>
+0035 branchif         63
+0037 putobject        2                                               (   5)
+0039 topn             1
+0041 send             :===, 1, nil, 0, <ic:5>
+0047 branchif         77
+0049 pop                                                              (   8)
+0050 trace            1
+0052 putnil
+0053 putobject        :c
+0055 send             :p, 1, nil, 8, <ic:6>
+0061 leave
+0062 pop
+0063 pop                                                              (   9)
+0064 trace            1                                               (   4)
+0066 putnil
+0067 putobject        :a
+0069 send             :p, 1, nil, 8, <ic:1>
+0075 leave                                                            (   9)
+0076 pop
+0077 pop
+0078 trace            1                                               (   6)
+0080 putnil
+0081 putobject        :b
+0083 send             :p, 1, nil, 8, <ic:4>
+0089 leave                                                            (   8)
+0010 の opt_case_dispatch 命令で常にジャンプしてしまっていたわけですが、その後
+に when の各要素との比較をしてジャンプするコードも存在していたわけですね。

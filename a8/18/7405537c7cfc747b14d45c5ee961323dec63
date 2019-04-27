@@ -1,0 +1,1 @@
+rubygems の Gem::RemoteFetcher#request での socket の後始末忘れを修正。

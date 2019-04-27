@@ -1,0 +1,6 @@
+Rational や Complex の dup/clone が TypeError を発生させていましたが、これらも
+Integer や Float と同様に self を返すようにしています。 Rational や Complex っ
+て常に freeze されてましたっけ? 手元で試すと frozen? は false を返してるけど。
+けど破壊的メソッドはないから問題ないってことですね、多分。 r57680 でリファクタ
+リングした immutable_obj_clone() を利用しています。 [ruby-core:79636] [Bug #
+13237]

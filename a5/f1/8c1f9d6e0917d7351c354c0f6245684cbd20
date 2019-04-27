@@ -1,0 +1,2 @@
+Enumerator#each で struct enumerator::args の配列のサイズが int のサイズに収ま
+らなかった時に例外を発生させるようにしているようです。

@@ -1,0 +1,4 @@
+TracePoint を使ってメソッド呼び出しのフックの実行中に例外が発生すると stack
+frame の操作がずれて cfp consistency error になっていたので、stack frame を積む
+時に flag に VM_FRAME_FLAG_FINISH は立てなくて、フック呼び出し後にフラグを立て
+るようにしています。 [ruby-dev:50162] [Bug #13705]

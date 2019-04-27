@@ -1,0 +1,4 @@
+DTrace 関連のビルドの修正。 common.mk にあった .dmyh から .h へのルールを
+Makefile.in と win32/Makefile.sub に分割して win32/Makefile.sub 側は probes.h
+のルールに明示的に書くようにしています。 nmake の動作に対応するためと思われます
+。 [ruby-core:49839] [Bug #7421]

@@ -1,0 +1,3 @@
+r38870 で tool/rbinstall.rb で Gem.ensure_gem_subdirectories を使わないように
+workaround を入れていましたが、r39607 で Gem.ensure_gem_subdirectories が mode
+引数を受け付けるようになったので、それを利用するようにして戻しています。

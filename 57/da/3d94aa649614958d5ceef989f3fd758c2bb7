@@ -1,0 +1,3 @@
+process.c で exec する時に timer thread を停止しないといけない理由として古い
+Mac OS X では exec() が ENOTSUPP を返すからというコメントにバージョンを明記して
+います(10.5.x Leopard 以前)。

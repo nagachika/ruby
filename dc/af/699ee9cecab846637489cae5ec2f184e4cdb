@@ -1,0 +1,4 @@
+enc/unicode.c の st_table のコールバック関数の引数を st_data に変更して関数内で
+キャストした変数を定義するようにしています。また onigenc_unicode_fold_lookup()
+と onigenc_unicode_apply_all_case_fold() でポインタ変数に const 修飾子を付加し
+ています。

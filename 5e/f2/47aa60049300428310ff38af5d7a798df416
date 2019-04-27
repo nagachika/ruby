@@ -1,0 +1,6 @@
+array.c の RGenGC 絡みの修正続き。 rb_ary_resurrect() で書き込みをしないバッフ
+ァの取り出しを RARRAY_PTR() から RARRAY_RAWPTR() に変更。また
+rb_ary_new_from_values() では ary_memcpy() を利用するようにしています。新しく作
+った配列に格納しているのでまだ新世代のはずなので、Write Barrier の保護は不要な
+ので RARRAY_PTR_USE() で直にセットしていましたけど r42065 で追加したチェック付
+きの ary_memcpy() を使うようにしています。念のため?

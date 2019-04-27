@@ -1,0 +1,2 @@
+Thread#name のテストで起動する Thread で sleep を実行してテスト中に Thread が停
+止しないようにしています。 Thread#name には Thread が生きてる必要があるのかな。

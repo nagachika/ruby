@@ -1,0 +1,3 @@
+拡張ライブラリ date の Date と DateTime で DateTime.new を直接上書きしているの
+を alloc と initialize メソッドの定義に分割するように今どき(かなり前から)のお作
+法に従うようにしています。

@@ -1,0 +1,3 @@
+signal.c の sigbus() で Mac OS X では guard page によるスタックオーバフローの検
+出時に SIGBUS を送出することを書いたコメントの typo を修正。 https://github.com
+/ruby/ruby/issues/279

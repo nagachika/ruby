@@ -1,0 +1,2 @@
+r60275 で追加した Resolv::MDNS#each_resource のテストが Raspberry Pi の環境では
+Errno::EADDRNOTAVAIL で失敗するそうなので rescue して無視するようにしています。

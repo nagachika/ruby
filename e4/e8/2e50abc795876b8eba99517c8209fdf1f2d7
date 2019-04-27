@@ -1,0 +1,3 @@
+make reinstall というターゲットを追加して、uninstall & install を実行できるよう
+にしています。ついでに def/gmake.mk で uninstall と install が同時に指定された
+時にコマンドラインの指定順に実行されるように依存関係をつけています。

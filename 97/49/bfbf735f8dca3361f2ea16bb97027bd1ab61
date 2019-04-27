@@ -1,0 +1,5 @@
+標準添付ライブラリ webrick の WEBrick::HTTPAuth::Htpasswd.new のキーワード引数
+に password_hash を追加して、.htpasswd ファイルの暗号化方式を指定できるようにし
+て bcrypt 方式をサポートするようにしています。 bcrypt.gem に依存しているみたい
+ですがいいのかな。まあ勝手に fallback してしまうのもそれはそれでよくないのでし
+ょうがないか。 [ruby-core:88111] [Feature #14940]

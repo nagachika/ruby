@@ -1,0 +1,1 @@
+test/test_unicode_normalize.rb でメソッド呼び出しのかっこを追加して警告除去。

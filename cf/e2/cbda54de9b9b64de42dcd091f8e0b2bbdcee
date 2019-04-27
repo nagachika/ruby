@@ -1,0 +1,2 @@
+標準添付ライブラリ delegate の rdoc 用コメントに __raise__ メソッドについて追記
+しています。 https://github.com/ruby/ruby/pull/621

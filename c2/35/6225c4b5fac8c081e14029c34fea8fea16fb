@@ -1,0 +1,2 @@
+標準添付ライブラリ irb の IRB::Locale#modifieer と typo していたメソッド名を
+modifier と修正しています。 https://github.com/ruby/ruby/pull/656

@@ -1,0 +1,2 @@
+標準添付ライブラリ uri の URI.escape の省略可能な第2引数のデフォルト値について
+の rdoc 用コメントの修正。 https://github.com/ruby/ruby/pull/1151

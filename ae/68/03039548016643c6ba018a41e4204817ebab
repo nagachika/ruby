@@ -1,0 +1,2 @@
+r65731 の .travis.yml の ccache 対応で MJIT_CC は元のコンパイラをセットするよう
+にしています。

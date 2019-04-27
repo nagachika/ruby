@@ -1,0 +1,4 @@
+r43859 や r43860 での Object#hash がネストした構造を持つオブジェクトで再帰する
+のとチェックするようにしたのを再修正しています。 rb_hash() で
+rb_exec_recursive_paired() つきで呼ぶようにすることで個別の hash 関数で
+rb_exec_recursive_paired() を使わなくて済むようにしています。

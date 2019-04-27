@@ -1,0 +1,3 @@
+configure で mingw 版でも RUBY_MSVCRT_VERSION という定数を定義するようにして、
+win32/config.h で RT_VER のかわりに RUBY_MSVCRT_VERSION を利用するようにしてい
+ます。

@@ -1,0 +1,2 @@
+r51492 および r51499 のさらに再修正。 rb_alloc_tmp_buffer(), rb_free_tmp_buffer
+() の実装を node.c からさらに gc.c に移動しています。

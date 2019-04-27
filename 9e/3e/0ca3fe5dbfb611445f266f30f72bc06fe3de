@@ -1,0 +1,2 @@
+convertible_int で型の printf 用の指示文字の prefix のマクロまで生成するように
+しています。

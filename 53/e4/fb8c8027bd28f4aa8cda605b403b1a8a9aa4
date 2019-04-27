@@ -1,0 +1,2 @@
+今度は Marshal.load 時の _load_data メソッドがない時の例外メッセージに含めるク
+ラス名を PRIsVALUE を使って埋め込むようにしています。

@@ -1,0 +1,7 @@
+プロセス終了時に全 Thread を停止する rb_thread_terminate_all() で ensure 節など
+で retry したり sleep したりして止まらなくなると、再度 Ctrl-C (SIGINT) 等で割り
+込んでも終了しなくなってしまう問題について、Thread の終了待ちのループでの割り込
+みの種類をチェックして Interrupt だったら再度全 Thread に kill を送信する処理か
+ら再度やりなおすようにしています。これで止まらなくなってしまっても何度か Ctrl-C
+などで割り込みを送っていけば止まるようになったはず。 [ruby-dev:39107] [Feature
+#1952]

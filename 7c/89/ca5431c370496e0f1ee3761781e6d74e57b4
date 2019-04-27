@@ -1,0 +1,5 @@
+標準添付ライブラリ ostruct の OpenStruct#modifiable, #new_ostruct_member, #
+table などの内部的に利用するメソッドを #modifialble?, #new_ostruct_member!, #
+table! など ? や ! を付けるように改名して、さらに private メソッドにしています
+。private にしているのはドキュメンテーションから外すためみたいですが、改名は衝
+突を防ぐためですかね? [ruby-core:71069] [Bug #11587]

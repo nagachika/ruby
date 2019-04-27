@@ -1,0 +1,1 @@
+eval_jump.c の rb_exec_end_proc() にて、未使用の変数宣言を削除しています。

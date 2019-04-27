@@ -1,0 +1,2 @@
+r65444 のリトライ。 transient_heap.c と transient_heap.h のコミット漏れだったみ
+たいです。 [ruby-core:87538] [Bug #14858]

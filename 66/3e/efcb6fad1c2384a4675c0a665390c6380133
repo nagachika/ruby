@@ -1,0 +1,2 @@
+Makefile.in で CONFIGURE 変数を取り込むようにして make configure で autoconf で
+生成する configure ファイル名を変更可能なようにしています。

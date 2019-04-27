@@ -1,0 +1,3 @@
+Rake 0.9.5 をマージしています。 0.9.4 → 0.9.5 のバージョンアップです。トレース
+出力の機能の変更があったみたいです。参考URL: https://github.com/jimweirich/rake
+/blob/master/CHANGES と思ったけど 0.9.3 で止まってますね。リリースノート……。

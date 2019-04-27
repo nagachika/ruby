@@ -1,0 +1,2 @@
+bignum.c の bigdivrem_restoring() の引数 xn を削除しています。struct
+big_div_struct の zn をかわりに参照するようにしているみたいです。

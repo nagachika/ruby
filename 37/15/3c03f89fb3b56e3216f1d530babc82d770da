@@ -1,0 +1,4 @@
+コンパイラの最適化で GC のマーク漏れがおこらないように保護するためのマクロ
+RB_GC_GUARD() の定義で使っていた RB_GC_GUARD_PTR() というマクロ定義は削除して、
+RB_GC_GUARD() の定義に直接展開しておくようにしています。 https://github.com/
+ruby/ruby/pull/1293

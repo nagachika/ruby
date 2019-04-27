@@ -1,0 +1,2 @@
+test/ruby/test_io.rb で skip しているため到達しない場所にある break を削除して
+います。

@@ -1,0 +1,2 @@
+ext/extmk.rb の --command-output というオプションは必須にして省略時の挙動は削除
+しています。

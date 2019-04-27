@@ -1,0 +1,6 @@
+Net::HTTPRequest#set_form というメソッドを追加して Content-type application/
+x-www-form-urlencoded と multipart/form-data に対応しています。[ruby-dev:42729]
+じゃあ今まではどうしてたんだろうか、というと Net::HTTPRequest#set_form_data で
+application/x-www-form-urlencoded はサポートされていて、multipart/form-data は
+自分で content_type を設定して body も自力でセットしないといけなかったんでしょ
+うか。意外ですね。

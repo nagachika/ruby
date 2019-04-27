@@ -1,0 +1,1 @@
+process.c の async-signal-safe 状況のコメントを更新しています。

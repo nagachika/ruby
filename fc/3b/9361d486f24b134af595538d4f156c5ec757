@@ -1,0 +1,4 @@
+r42249 あたりでテストが NoMemoryError で終了した時にデバッグ情報を出力するよう
+にした変更の追加で、ObjectSpace.count_objects_size を出力するのをやめて /proc/
+meminfo の内容を出力するようにしています。最近テストで NoMemoryError がよく起き
+るということでその追跡中とのこと。 [ruby-dev:47559] [Bug #8711]

@@ -1,0 +1,3 @@
+r65520 の tool/darwin-cc を使うようにするための configre.ac での CC に
+CC_WRAPPER を追加するようにした時に MJIT_CC には CC_WRAPPER を追加しないように
+しています。MJIT は linker の警告は問題ないのかな。

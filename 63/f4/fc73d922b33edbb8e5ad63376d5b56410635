@@ -1,0 +1,2 @@
+lib/unicode_normalize に再び tables.rb を無視させるように svn:ignore property
+を設定しているようです。

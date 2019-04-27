@@ -1,0 +1,3 @@
+ext/json/parser/parser.rl (ragel のためのソース)で文字列のエンコーディング指定
+のために dup して force_encoding して encode! といしていたのを単に encode を呼
+ぶだけで済ましています。

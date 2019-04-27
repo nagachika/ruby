@@ -1,0 +1,7 @@
+プロファイラ向けにメソッド呼び出しやブロック呼び出しのスタックフレームを取得す
+る rb_profile_frames() という C API やそのオブジェクトから情報を取得する
+rb_profile_frame_{path, absolute_path, label, base_label, first_lineno,
+classpath, singleton_method_p}() などの関数が追加されています。
+また rb_iseq_klass() がオブジェクトが wrap している rb_iseq_t の klass ではなく
+て local_iseq->klass を返すように変更されています。こっちはどういう意味があるの
+かちょっとよくわかりません。

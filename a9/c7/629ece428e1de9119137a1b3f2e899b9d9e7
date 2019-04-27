@@ -1,0 +1,3 @@
+構造体 rb_iseq_t をさらに iseq_size と line_info_size の型をそれぞれ long と
+size_t から unsigned int に変更することでサイズ削減しています。命令列のサイズの
+上限が 4GB までになるということですが、まあ充分でしょ、ということです。

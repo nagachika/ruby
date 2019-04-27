@@ -1,0 +1,3 @@
+r51576 の追加修正。 thread_pthread.c の native_stop_timer_thread() で
+ATOMIC_CAS() の引数に明示的な rb_atomic_t への cast を追加しています。これも警
+告除去のためとのこと。

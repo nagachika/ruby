@@ -1,0 +1,7 @@
+ext/extmk.rb で extmake で create_makefile にブロックを渡して処理を挿入していた
+TARGET_SO_DIR や TARGET_SO_TIME という変数を Makefile に挿入する処理を extmk.rb
+から標準添付ライブラリ mkmf.rb に移動しています。そしてビルドした拡張ライブラリ
+は ext/extmk.rb で $sodir というグローバル変数がセットされていたらその下に置く
+ようにしています。拡張ライブラリを含む gem パッケージ用にセットしているみたいで
+すね。 ext/extmk.rb と mkmf.rb の間のグローバル変数を介した依存関係がすごい…。
+[ruby-core:77058] [Bug #12681]

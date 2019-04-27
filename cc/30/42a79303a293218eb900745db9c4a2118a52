@@ -1,0 +1,3 @@
+標準添付ライブラリ rubygems の Gem::Specification.all= で渡された specs に nil
+が含まれていたら例外を発生させるようにしています。CI での失敗のデバッグ用みたい
+な感じですね。

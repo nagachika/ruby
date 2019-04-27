@@ -1,0 +1,5 @@
+rb_method_definition_t 構造体の type メンバの bit field のサイズを 8 -> 4 に減
+らしています。残りの bit field のメンバのサイズと合計すると 64 -> 60 の減量なの
+であまり意味がなさそうですが、減ったって書いてありますね。bit field のサイズ変
+更じゃなくて PACKED_STRUCT_UNALIGNED() をつけるのが主眼なのかも。
+[ruby-core:81236] [Feature #13494]

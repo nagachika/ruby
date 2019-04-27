@@ -1,0 +1,2 @@
+r58746 の make のターゲット名の改名にあわせて defs/gmake.mk の xxx-rubyspec の
+ターゲット名を変更しています。

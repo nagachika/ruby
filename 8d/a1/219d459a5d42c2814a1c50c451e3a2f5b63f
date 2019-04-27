@@ -1,0 +1,5 @@
+cont.c で Fiber の machine stack を cache して使いまわす実装について #ifndef
+_WIN32 として Windows で無効としていましたが、#ifdef MAX_MACHINE_STACK_CACHE で
+チェックするようにしています。将来的には Windows でもサポートするようにしたいみ
+たいです。また構造体の代入をメンバー毎に代入してたのを丸ごと代入するようにして
+います。

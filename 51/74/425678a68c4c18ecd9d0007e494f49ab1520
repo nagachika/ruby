@@ -1,0 +1,3 @@
+どういう理由かわからないですが(定数の再定義を回避？) test/syck/
+test_yamlstore.rb で require 'syck' はせずに定数 Syck::Store に YAML::Store を
+設定しています。

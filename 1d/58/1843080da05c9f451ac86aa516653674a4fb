@@ -1,0 +1,4 @@
+eval_error.c の error_pos()、error_print()、error_handle() などの関数で警告メッ
+セージの作成時に適当に要素の間にコロンをはさむようにしたり、逆に削るようにした
+りしています。
+コミットログの colon が 1つ clone になっちゃってますね。

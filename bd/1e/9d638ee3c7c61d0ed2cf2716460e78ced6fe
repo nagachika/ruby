@@ -1,0 +1,2 @@
+VM_CHECK_MODE が 1 以上の時だけの処理で rb_iseq_t::iseqval が r50731 で削除され
+たのに追随しています。

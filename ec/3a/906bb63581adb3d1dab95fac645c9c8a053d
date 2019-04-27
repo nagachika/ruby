@@ -1,0 +1,4 @@
+compile.c や node.c で一部の NODE で u1, u2, u3 の子ノードのメンバーに直接アク
+セスしていた部分があったのを、他の NODE の種類と同じくマクロを定義して
+nd_alias, nd_orig, nd_undef, nd_compile_option など意味のある別名を使ってアクセ
+スするようにリファクタリングしています。

@@ -1,0 +1,6 @@
+r67287 の MJIT worker に main thread から inline cache 情報をコピーする処理のリ
+ファクタリング(mjit_worker から関連するコードを copy_cache_from_main_thread()
+に集める)のやりなおし。コミットログによると mswin ではなぜかポインタのポインタ
+を関数に渡してそこに書き戻すのがうまくいかないとのことで、
+mjit_copy_job_result_t という構造体を定義して copy_cache_from_main_thread() の
+戻り値をこの構造体にして返り値として複数の値を直接返すようにしています。

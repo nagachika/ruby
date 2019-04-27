@@ -1,0 +1,3 @@
+Init_Numeric() の前にコメントを追加しています。 rdoc が Numeric クラスの
+overview として FloatDomainError のドキュメントを使ってしまっていたのでそれを打
+ち消すために簡単なコメントを追加しているそうです。

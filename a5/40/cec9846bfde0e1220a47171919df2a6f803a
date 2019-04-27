@@ -1,0 +1,2 @@
+r58759 で defs/gmake.km の TEST_DEPENDS に all,exts を追加していたのをやめてい
+たのをやめています。やっぱり必要だったようですね。

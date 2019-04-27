@@ -1,0 +1,3 @@
+RubyVM::InstructionSequence の binary からのロードで
+rb_iseq_constant_body::catch_except_p のコピーが漏れていたのを修正しています。
+[ruby-dev:50690] [Bug #15395]

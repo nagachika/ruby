@@ -1,0 +1,3 @@
+test/-ext-/ast/test_ast.rb を test/ruby/test_ast.rb に改名しています。 ext/
+-test-/ast/ast.c がコアに入ったのでテストスクリプトも追随して test/ruby の下の
+テスト群に昇格しています。

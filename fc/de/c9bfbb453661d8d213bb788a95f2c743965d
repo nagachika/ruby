@@ -1,0 +1,1 @@
+同じく rinda のテストで DRb::DRbServer の終了漏れを修正しています。

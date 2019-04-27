@@ -1,0 +1,2 @@
+appveyor.yml で Bignum のテストを -j なしの make test-all のほうに移動していま
+す。

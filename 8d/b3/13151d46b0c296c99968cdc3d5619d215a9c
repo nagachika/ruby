@@ -1,0 +1,5 @@
+OpenSSL::Buffering#read_nonblock の except キーワード引数の追加で読み込めない時
+に例外発生させないようにする修正から OpenSSL のテストが失敗していた件について、
+片側を close してもそれが伝わって反対側のソケットからの読み込みで EOFError が発
+生するまでタイムラグがあるため少し sleep を入れています。 [ruby-dev:47660] [Bug
+#8831]

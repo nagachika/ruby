@@ -1,0 +1,4 @@
+r59710 で macOS の時の SEGV の backtrace 表示で mincore(2) を使って ip が指すメ
+モリにアクセス可能かチェックしていましたが、mincore() が vec に負の値をセットす
+る場合があったので、frame を skip する条件判定を修正しています。
+[ruby-core:82784] [Bug #13895]

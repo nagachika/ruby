@@ -1,0 +1,1 @@
+Fixnum#div と Bignum#div を Integer#div へ統合しています。

@@ -1,0 +1,3 @@
+ちょっとこの差分どう読んだらいいのかわかってませんが標準添付ライブラリ erb で
+String#concat を使っていたところで String#<< を使うようにして最適化命令による最
+適化がきくようにしています。 https://github.com/ruby/ruby/pull/1612

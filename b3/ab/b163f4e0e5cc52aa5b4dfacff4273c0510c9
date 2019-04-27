@@ -1,0 +1,2 @@
+benchmark/gc/gcbench.rb で実行している ruby インタプリタの GC::OPTS を表示する
+ようにしています。

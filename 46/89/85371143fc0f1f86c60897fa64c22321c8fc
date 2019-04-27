@@ -1,0 +1,4 @@
+Net::HTTP に local_host=, local_port= というメソッドを追加して、ソケットで接続
+する時に bind(2) を使ってローカル側のアドレス、ポート番号を指定できるようにして
+います。TCPSocket.open の第3、4引数に local_host と local_port が指定できるので
+そこに渡すようにしています。 [Feature #6617]

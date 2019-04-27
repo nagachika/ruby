@@ -1,0 +1,3 @@
+.travis.yml の before_script で config.status や Makefile rbconfig.rb
+.rbconfig.time などのファイルを削除する rm コマンドに -f オプションを付けてファ
+イルがなくても無視するようにしています。

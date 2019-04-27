@@ -1,0 +1,2 @@
+標準添付ライブラリ net/ftp で Net::FTP#stop や Net::FTP::BufferedSocket#
+shutdown で TLS のソケットを graceful に停止するため処理を追加しています。

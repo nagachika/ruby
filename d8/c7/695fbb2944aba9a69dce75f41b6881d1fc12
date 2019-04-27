@@ -1,0 +1,3 @@
+RDoc で C のソースから読み込んだ Class/Module の VALUE を格納した C の変数名の
+管理方法の修正して C から読み込んだ Class/Module のコメントの重複を修正している
+とのことです。

@@ -1,0 +1,7 @@
+mswin(Visual Studio 2005) および mingw 環境で qsort_s() が利用可能だったら利用
+するように configure および win32/Makefile.sub でのチェックを追加しています。
+qsort_r() のかわりに使うようにしていますが MSDN のドキュメントによると qsort_s
+() はセキュリティ強化版の qsort() だそうですが、ここで secure というは static
+領域をつかわないようにするからという意味らしいので、なるほど qsort_r() と似たよ
+うなものみたいですね。参考URL: https://msdn.microsoft.com/en-US/library/
+4xc60xas.aspx

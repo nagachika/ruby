@@ -1,0 +1,5 @@
+misc/ruby-electric.el に 2.0 というバージョンのものをマージしています。 ruby
+-electric.el には upstream があったんですね。 https://github.com/knu/
+ruby-electric.el
+キーバインディングのカスタマイズ機能、自動インデント機能の拡張などがあったみた
+いです。

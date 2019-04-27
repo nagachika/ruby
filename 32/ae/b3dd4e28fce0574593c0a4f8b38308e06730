@@ -1,0 +1,4 @@
+RubyVM::AST.parse_file のテストで最初はエラー時にインタプリタ自体が異常終了して
+しまってたので子プロセスを起動してテストするようにしていましたが、r63602 で
+SyntaxError 例外発生になるように修正(変更)されたので直接実行して assert_raise
+でチェックするようにしています。 https://github.com/ruby/ruby/pull/1946

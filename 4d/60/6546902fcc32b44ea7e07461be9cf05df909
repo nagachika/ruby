@@ -1,0 +1,4 @@
+.travis.yml の sudo: false を sudo: required に変更しています。確か sudo: false
+にするとコンテナ内で動くようになるけど、今 TravisCI で localhost が IPv6 の
+"::1" という loopback 用のアドレスに名前解決されるとエラーになってしまうので、
+一時的に sudo: required に変更して VM で動くようにしているようです。

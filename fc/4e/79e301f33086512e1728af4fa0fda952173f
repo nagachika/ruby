@@ -1,0 +1,2 @@
+Thread のテストに使っている test/ruby/lbtest.rb で最後に LocalBarrier なるクラ
+スのスレッドを join で待つようにしています。

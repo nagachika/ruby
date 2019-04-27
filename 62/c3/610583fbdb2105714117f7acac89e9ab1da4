@@ -1,0 +1,2 @@
+構造体 rb_execution_context_t の raised_flag と method_missing_reason の型を変
+更して構造体サイズを小さくしています。

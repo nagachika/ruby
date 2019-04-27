@@ -1,0 +1,3 @@
+test/ruby/test_string.rb の String#-@ のテストで assert_same や assert_not_same
+などの同一正チェックをする assertion を利用するようにリファクタリングしています
+。

@@ -1,0 +1,3 @@
+Enumerator#chunk にブロックを渡さずに呼び出した時に ArgumentError 例外を発生さ
+せていたのを Enumerator を生成して返すようにしています。 [ruby-core:25912]
+[Feature #2172]

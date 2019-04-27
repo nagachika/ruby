@@ -1,0 +1,6 @@
+r66106 文字列を要素とする配列リテラルで duparray を使うようにコンパイルする VM
+命令の最適化のリトライ。前は peephole optimization で putobject+newarray を変換
+する最適化をしていましたが、そもそも compile_array() で文字列リテラルが
+frozen_string_literal: true が指定されてたら duparray を使うようにコンパイルさ
+れるように static_literal_value() や static_literal_node_p() に手を入れています
+。

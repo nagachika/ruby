@@ -1,0 +1,2 @@
+ext/.document に syslog/lib と thread/thread.c を追加して rdoc のドキュメント化
+の対象にしています。 [ruby-core:58962] [Bug #9228]

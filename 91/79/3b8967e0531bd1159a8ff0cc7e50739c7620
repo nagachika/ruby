@@ -1,0 +1,2 @@
+3度目の正直なるか。 GC.compact の追加再度コミットされました。T_MODULE/T_CLASS
+などの super まわりが違うくらいかなぁ。

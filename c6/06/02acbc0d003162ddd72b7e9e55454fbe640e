@@ -1,0 +1,3 @@
+r34983 で Exception にメソッドをコピーする時に respond_to? と
+respond_missing_to? を private メソッドとしてコピーしてしまっていたので public
+にしています。

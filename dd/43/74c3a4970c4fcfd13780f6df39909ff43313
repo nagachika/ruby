@@ -1,0 +1,3 @@
+appveyor.yml でビルドに必要なライブラリのインストール先として /usr/
+{bin,include,lib} を用意してそこにコピーすることで configure.bat のオプションを
+シンプルにしています。

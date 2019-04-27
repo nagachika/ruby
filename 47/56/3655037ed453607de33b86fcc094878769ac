@@ -1,0 +1,3 @@
+Dir.glob で opendir() が想定外の errno で失敗した時に SystemCallError 例外を発
+生させるようにしています。あと r58150 の error.c の #if 0 が外されてます。ここ
+で使うためだったのか。 [ruby-core:80226] [Bug #13276]

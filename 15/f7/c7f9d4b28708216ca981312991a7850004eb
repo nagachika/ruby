@@ -1,0 +1,4 @@
+bignum.c の SIZEOF_LONG と SIZEOF_BDIGITS の関係(いずれかが他方の倍数)をチェッ
+クする STATIC_ASSERT() を追加しています。また bary_mul() の小さい数の時の最適化
+と bigfixize() で long と BDIGIT のサイズの大小を考慮した最適化(?) と bignorm()
+で bigtrunc() を呼ばないようにしています。r41500 とも関連しそうですね。

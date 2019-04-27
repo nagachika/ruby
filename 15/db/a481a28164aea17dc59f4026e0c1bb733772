@@ -1,0 +1,3 @@
+標準添付ライブラリ mkmf.rb で生成する Makefile に記述するソースファイル名やオブ
+ジェクトファイル名をソートしておくようにしています。 https://github.com/ruby/
+ruby/pull/1367

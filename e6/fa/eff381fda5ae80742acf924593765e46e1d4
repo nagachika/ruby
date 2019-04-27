@@ -1,0 +1,2 @@
+make clean-local で MJIT のヘッダ用の timestamp ファイルと mjit_config.h を削除
+するようにしています。

@@ -1,0 +1,1 @@
+test/ruby/envutil.rb に中身が空になった unless 文があったので削っています。

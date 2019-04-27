@@ -1,0 +1,2 @@
+template/exts.mk.tmpl で GNU Make でない make 向けに -C オプションのかわりに cd
+を使うように書きかえています。

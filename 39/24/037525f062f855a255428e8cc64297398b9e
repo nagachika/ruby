@@ -1,0 +1,4 @@
+r61690 で NODE などの location と code range (crange, cr) でソース上の位置と範
+囲を指す語彙を整理しましたが、code range が文字列の Encoding 関係の code range
+とまぎらわしいということで code location (code_loc) と改名して、location は
+position に変更しています。

@@ -1,0 +1,2 @@
+doc/extension.rdoc および doc/extension.ja.rdoc の rb_rescue() の prototype と
+説明を更新しています。 https://github.com/ruby/ruby/pull/1471

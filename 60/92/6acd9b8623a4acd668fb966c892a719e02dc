@@ -1,0 +1,4 @@
+r54747 を revert しています。やはり clang の 3.4 から 3.8 には不具合があり
+inline をつけた関数の symbol も link しようとして undefined reference to
+`vm_getivar' というエラーになってしまうそうです。ただし Apple版(Xcode版) および
+FreeBSD版の clang は大丈夫とのこと。 [ruby-core:75159] [Bug #12316]

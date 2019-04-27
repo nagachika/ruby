@@ -1,0 +1,4 @@
+minitest 2.2.1 をマージしています。Minitest::Spec という RSpec みたいにテストを
+記述するクラスのネストしたクラスでの teardown メソッドへの対応とか、
+Minitest::Assertions#diff を追加して assert_equal などで一致しなかった時に内容
+が大きかったら diff を取ってそれを表示するなどの変更が入っています。

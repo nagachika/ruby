@@ -1,0 +1,4 @@
+process.c の exec の処理でコマンドラインを引数に分割する処理を rb_proc_exec_e()
+から rb_exec_fillarg() へ移動して事前に分割しておくことで、(おそらく)
+Process.spawn を使った時に子プロセスでメモリ確保の必要がなくなるようにしていま
+す。

@@ -1,0 +1,2 @@
+OpenSSL::Digest.new のテストで "MDC2" を削除しています。libopenssl によって扱え
+ない場合があるようです。

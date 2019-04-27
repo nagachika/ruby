@@ -1,0 +1,1 @@
+common.mk に transient_heap.h への依存関係を追加しています。

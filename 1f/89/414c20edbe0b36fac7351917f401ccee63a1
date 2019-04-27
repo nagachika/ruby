@@ -1,0 +1,2 @@
+VM 命令用のソースコード生成に使う template/*.tmpl に命令数のチェックを行う
+STATIC_ASSERT() の出力を追加しています。

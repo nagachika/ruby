@@ -1,0 +1,3 @@
+tool/redmine-backporter.rb で redmine の不具合の回避のための修正。最新の
+redmine ではチケットの情報の取得に include=changesets を指定しても changesets
+フィールドが返されないそうです。

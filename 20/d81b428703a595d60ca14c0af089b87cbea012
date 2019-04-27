@@ -1,0 +1,6 @@
+標準添付ライブラリ mkmf.rb の macOS での have_framework のテストで
+have_framework("Ruby") としていたのを have_framework(%w"Ruby ruby.h") とヘッダ
+名も渡すようにしています。大文字小文字を区別するファイルシステムではヘッダがみ
+つけられなくなるので別途指定する必要があったようです。なるほどー、チケットは
+HFS+ ですが AppleFS が来たらデフォルトで大文字小文字が区別されるようになるんだ
+っけ。 [ruby-dev:50093] [Bug #13489]

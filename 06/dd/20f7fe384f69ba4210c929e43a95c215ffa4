@@ -1,0 +1,4 @@
+class 文による Class 定義で superclass が明示的に指定されている時に superclass
+が異なっていたら例外が発生するのに class A << Object; end のように superclass
+が Object で明示的に指定されていた場合はチェックをスルーしていた(superclass の
+省略時と同じ)のを修正しています。 [ruby-core:75446] [Bug #12367]

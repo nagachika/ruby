@@ -1,0 +1,1 @@
+r52514 で追加した C API rb_time_timespec_new() のテストを追加しています。

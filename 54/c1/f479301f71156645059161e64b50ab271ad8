@@ -1,0 +1,2 @@
+internal.h から include/ruby/ruby.h に LIKELY() と UNLIKELY() マクロを移動して
+います。

@@ -1,0 +1,2 @@
+拡張ライブラリ dbm, gdbm, sdbm の free 関数や memsize 関数で NULL が渡されるこ
+とはないので、不要な判定を削除しています。

@@ -1,0 +1,4 @@
+GC 関連のパラメータを調節できる環境変数に RUBY_GC_HEAP_FREE_SLOTS_MIN_RATIO と
+RUBY_GC_HEAP_FREE_SLOTS_MAX_RATIO を追加しています。 page の確保/解放をする時の
+空きスロット数の割合のしきい値が指定できるようです。これまでは 0.3/0.8 で固定だ
+ったのが指定できるようしています。

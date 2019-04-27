@@ -1,0 +1,4 @@
+Bignum に GMP を使うようになった関連で configure で SOLIBS に -lgmp を追加する
+ようにしています。コミットログには non-ELF なプラットフォームで test-all の
+worker が動くように、とあるのですが test-all に限定した問題があったのでしょうか
+。よくわかりませんでした。

@@ -1,0 +1,3 @@
+Time#strftime と DateTime#strftime の '%Z' の項目の rdoc 用コメントを少し変更し
+ています。
+おそらく [Bug #6491] に関連しての変更でしょう。

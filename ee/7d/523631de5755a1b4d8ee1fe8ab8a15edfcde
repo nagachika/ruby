@@ -1,0 +1,4 @@
+Windows 版の rb_fd_copy() である rb_w32_fd_copy() を実装しています。
+[ruby-core:39195] [Bug #5251]
+また rb_fdset_t のメモリを確保する rb_fd_init() が抜けていたので追加しています
+。

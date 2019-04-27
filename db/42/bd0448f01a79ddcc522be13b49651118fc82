@@ -1,0 +1,4 @@
+文字列に #{ } という書き方を使って式の埋め込みをすると文字列の Encoding が
+ASCII-8BIT になってしまう(文字列中に非ASCII文字があると source encoding になる
+らしい)不具合を修正。concatstrings 命令で最初の部分文字列の複製を作って
+Encoding を受け継ぐようにしています。 [ruby-core:38635] [Bug #5126]

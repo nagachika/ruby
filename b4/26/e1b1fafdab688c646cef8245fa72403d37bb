@@ -1,0 +1,9 @@
+Hash#keys の効率化のために st_keys() という関数を導入して st_table のキーを C
+の配列に詰めて返させて、これを利用するようにしています。またこのために st_data
+と型が compatible か調べるマクロ ST_DATA_COMPATIBLE_P() を導入して st_data と
+VALUE が compatible が調べてから使うようにしています。 compatible って要するに
+サイズが同じってことかと思ったのですが(st_keys では特に演算はしなくて代入するだ
+けなので)、sizeof() をチェックするだけでなくて __builtin_types_compatible_p()
+というビルトイン関数とその結果を利用するための __builtin_choose_expr() を使って
+実装しています。代入時の暗黙の型変換が未定義の挙動になる可能性があるからかなぁ
+。

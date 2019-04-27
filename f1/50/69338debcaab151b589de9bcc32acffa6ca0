@@ -1,0 +1,4 @@
+Enumerator::ArithmeticSequence というクラスを追加しています。
+Enumerator::ArithmeticSequence は Enumerator の一種で yield する値が数値のみと
+いうものです。 Numeric#step から返す Enumerator の実装のために使っていて、主に
+内部的に使うためのクラスのようですね。 [ruby-core:82816] [Feature #13904]

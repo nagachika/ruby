@@ -1,0 +1,5 @@
+拡張ライブラリ socket の Socket#sendmsg などのメソッドの実装で利用さている
+bsock_sendmsg_internal() で引数の解析に rb_scan_args() を利用するようにしていま
+す。可変長引数を argc をチェックしつつ ad-hoc に処理していたので簡単に書けるよ
+うにしたのと、キーワード引数の処理もできるので今後の拡張もしやすくなります。
+[ruby-core:69439] [Feature #11207]

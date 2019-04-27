@@ -1,0 +1,3 @@
+r47826 の Etc.systmpdir の実装で Mac OS X 向けの confstr() を利用する変更で Mac
+OS X 以外の時に strlen の初期化が間違っていたのを修正しています。ま、当然 Apple
+のパッチだから OS X 以外でテストされてませんよね、という……。

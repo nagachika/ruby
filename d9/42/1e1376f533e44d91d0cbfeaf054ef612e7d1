@@ -1,0 +1,3 @@
+test/rinda/test_rinda.rb で multicast を使うテストで、カーネルが IP Multicast
+をサポートしていない場合に Errno::ENOBUFS という例外が発生するので、捕捉して
+skip するようにしています。

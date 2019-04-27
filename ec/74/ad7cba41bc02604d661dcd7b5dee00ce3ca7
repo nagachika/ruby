@@ -1,0 +1,2 @@
+r62924 の rdoc のテストで require "minitest/autorun" していたところを require
+"minitest_helper" に変更しています。

@@ -1,0 +1,3 @@
+test/ruby/test_file_exhaustive.rb の主に Windows 向けの分岐の条件判定を POSIX
+という定数に代入しておいてこれを使いまわすようにして、微妙に条件が漏れていたり
+するのを修正しています。

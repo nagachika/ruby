@@ -1,0 +1,2 @@
+r39254 で導入した拡張ライブラリ socket の INIT_SOCKADDR_IN() マクロですが第2引
+数の family は常に AF_INET なので引数を削っています。

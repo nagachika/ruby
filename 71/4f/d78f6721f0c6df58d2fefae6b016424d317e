@@ -1,0 +1,5 @@
+debug.c の set_debug_option() でデバッグオプション用の変数の宣言を関数内に
+(SET_WHEN() マクロの展開で)していたのをやめて、値の代入だけするようにしています
+。また SET_WHEN() で代入する値を明示的に引数で受け取って展開するようにして
+ruby_initial_gc_stress_ptr の型が int* から VALUE* に変化していたのに対応してい
+ます。

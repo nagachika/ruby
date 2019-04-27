@@ -1,0 +1,2 @@
+sprintf.c の rb_str_format() で "%p" のために rb_inspect() を呼び出した時に余分
+な rb_obj_as_string() の呼び出しを行なわないように分岐をまとめています。

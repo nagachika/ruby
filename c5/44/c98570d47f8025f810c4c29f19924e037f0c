@@ -1,0 +1,2 @@
+date のテストで nil.frozen? についてチェックしていた assertion を削除しています
+。これも nil.freeze 化の布石っぽいですね。

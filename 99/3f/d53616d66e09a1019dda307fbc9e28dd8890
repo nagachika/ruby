@@ -1,0 +1,2 @@
+test/cgi/test_cgi_util.rb で emacs の ruby-mode.el で表示した時にヒアドキュメン
+トと誤検出するのを抑制するため文字列リテラル内の "<<" をエスケープしています。

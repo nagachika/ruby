@@ -1,0 +1,4 @@
+gc.c の RUBY_ALIAS_FUNCTION() マクロの展開結果にセミコロンは含まないようにして
+います。 Oracle Solaris Studio での警告を抑制するためだそうです。また
+NOINSERT_UPDATE_CALLBACK() の呼び出し部分のセミコロンも削ってます。こっちは展開
+結果で削るんじゃないんですね。 [ruby-dev:49439] [Bug #11821]

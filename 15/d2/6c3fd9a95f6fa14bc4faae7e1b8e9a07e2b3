@@ -1,0 +1,3 @@
+拡張ライブラリ objspace の r40957 で追加した object_tracing.c の
+allocation_info() の定義に static 修飾子が付いていなかったので static を追加し
+ています。

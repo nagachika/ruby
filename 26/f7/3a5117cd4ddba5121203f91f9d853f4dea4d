@@ -1,0 +1,5 @@
+Net::IMAP に default_imap_port, default_tls_port (alias として
+default_ssl_port, default_imaps_port) といった、デフォルトのポート番号を返すク
+ラスメソッドを追加しています。 Net::POP に同様のメソッドがあるのでこちらにも追
+加したそうです。 [ruby-core:38997] [Bug #5198]
+これは NEWS にも追記したほうが良さそうですね。

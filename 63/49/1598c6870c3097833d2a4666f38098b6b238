@@ -1,0 +1,5 @@
+tool/file2lastrev.rb と tool/vcs.rb で revision.h の BRANCH_NAME を現在のブラン
+チ名から定義するようにしています。 version.h でこの BRANCH_NAME があったら
+"trunk" の定義をしないようにしています。なにやらリリース作業に影響しそうな変更
+ですが、安定版ブランチを切った時に手動で BRANCH_NAME を変更しなくても良いように
+したってことですかね。

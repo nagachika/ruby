@@ -1,0 +1,2 @@
+AIX では UDPSocket#recvmsg が返す rflags に MSG_TRUNC のフラグは立たないそうな
+のでテストでの assertion をスキップさせるようにしています。

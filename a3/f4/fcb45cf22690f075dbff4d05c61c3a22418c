@@ -1,0 +1,3 @@
+r53614 で追加した README.md の Travis-CI のバッジの拡張子を .png から .svg に変
+更しています。 https://github.com/ruby/ruby/pull/1214 https://github.com/ruby/
+ruby/pull/1216

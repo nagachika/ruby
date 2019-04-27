@@ -1,0 +1,6 @@
+thread_pthread.c の do_gvl_timer() で ubf_wakeup_all_threads() で blocking
+region の thread に SIGVTALRM を送信した後で処理すべきシグナルがバッファに残っ
+ていたらメインスレッドに threadptr_trap_interrupt() を呼んでいます。コミットロ
+グを読むとこの中で ubf(unblocking function) を実行させるのが目的みたいです。そ
+の前に ruby_sigchld_handler() も呼んでるから、これが確実に処理されるようにする
+のがメインかも?

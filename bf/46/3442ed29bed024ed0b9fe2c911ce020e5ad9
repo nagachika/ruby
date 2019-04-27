@@ -1,0 +1,2 @@
+dir_entries() で to_a メソッドなどを呼んで配列に変換していたのを dir_each() か
+ら切り出した dir_each_entry() を呼ぶように最適化しています。

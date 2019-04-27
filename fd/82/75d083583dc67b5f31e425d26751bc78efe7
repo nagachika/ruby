@@ -1,0 +1,3 @@
+r65258 の続きで .travis.yml の macos のテストのデバッグのためにつけたオプション
+のうち -v は削っています。また --job-status=normal も --job-status=replace に変
+更しています。

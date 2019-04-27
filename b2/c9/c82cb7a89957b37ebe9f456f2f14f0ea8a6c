@@ -1,0 +1,2 @@
+ext/extmk.rb のコマンドラインオプションを整理して --install, --clean,
+--configure_only などのオプションは廃止しています。

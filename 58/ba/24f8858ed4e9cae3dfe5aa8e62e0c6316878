@@ -1,0 +1,3 @@
+vm.c の rb_vm_control_frame_id_and_class() で cfp->iseq からメソッドの Class/
+Module と ID を取得していたのを method entry から取得できるようになっているので
+シンプルにしています。

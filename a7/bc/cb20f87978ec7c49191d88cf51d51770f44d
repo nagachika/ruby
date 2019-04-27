@@ -1,0 +1,3 @@
+rb_threadptr_stack_overflow() で rb_during_gc() が真だった時に rb_fatal() で異
+常終了させていたのを、予約済みの例外オブジェクトを使って例外発生に置き換えてい
+ます。

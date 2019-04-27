@@ -1,0 +1,2 @@
+r42629 の ChangeLog エントリで非ASCII 文字が含まれていたのを iconv で変換してい
+ます。 [ruby-core:56804] [Bug #8819]

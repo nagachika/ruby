@@ -1,0 +1,3 @@
+r52146 の極力 encoding index を使うようにした変更の時に ENCODING_GET() を
+ENC_GET() と間違えていたのを修正。 ENCIDX_UTF_8 も ENCINDEX_UTF_8 と修正。
+[ruby-core:71111] [Bug #11601]

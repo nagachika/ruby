@@ -1,0 +1,4 @@
+r57631 の marshal.c での内部的オブジェクトの強制解放をやめるようにしています。
+Continuation を使って再入した時に check_dump_arg() で struct dump_arg のポイン
+タが参照される可能性があるので、強制的に解放してしまうとまずいとのこと。うーむ
+、Continuation…。

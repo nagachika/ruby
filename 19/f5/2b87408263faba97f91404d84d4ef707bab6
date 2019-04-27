@@ -1,0 +1,9 @@
+pthread_cond_timedwait() から EINTR でかえってきた時にリトライする処理を
+native_cond_timedwait() に入れて、thread_timer() で EINTR を処理していた所は削
+除しています。
+コード中のコメントによると pthread_cond_timedwait() は POSIX によれば EINTR を
+返すことはないのですが、昔の Linux だと EINTR を返すことがあるのだそうです。
+今 Linux の環境を使えないので確認できないのですが、EINTR で返るような環境ではリ
+トライしてしまうと sleep で寝ている Thread へ signal 受信時に割り込みをかけて起
+こすことができなくなったりしないでしょうか? Mac OS X だとシグナル飛ばすと 0 で
+返るのですぐ起きましたけど。

@@ -1,0 +1,2 @@
+ext/fiddle/depend で clean-libffi などのターゲットに .PHONY マークをつけるよう
+にしています。

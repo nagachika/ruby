@@ -1,0 +1,3 @@
+同じく tempfile のテストで assert_predicate や assert_not_predicate で closed?
+メソッドのチェックをするようにしてエラー時に何のメソッドが期待値と違ったのかメ
+ッセージに表われるようにしています。

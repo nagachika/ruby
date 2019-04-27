@@ -1,0 +1,6 @@
+Windows 環境での文字列の NUL 終端の扱いの修正。 win32/win32.c の wstr_to_mbstr
+() と wstr_to_wstr() で WideCharToMultiByte() と MultiByteToWideChar() の返すサ
+イズから -1 していたのを clen が -1 の時だけ -1 するようにしています。大抵の場
+合 -1 で呼ばれているような感じで、w32_getenv() と rb_w32_write_console() からの
+時だけ文字列サイズが渡されているみたいです。と、思ったら rb_w32_write_console()
+のほうはこの次の r42385 で追加されたものだったみたいです。

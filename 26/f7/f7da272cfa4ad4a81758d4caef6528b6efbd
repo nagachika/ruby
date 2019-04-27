@@ -1,0 +1,2 @@
+Emacs 用の misc/ruby-electric.el の修正。 self-insert-command というのを利用し
+ないように書き換えているそうです。

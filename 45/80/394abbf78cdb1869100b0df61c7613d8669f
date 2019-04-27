@@ -1,0 +1,3 @@
+probes.d に記述されている DTrace 用 probe の定義を Wiki に変換するためのスクリ
+プト tool/probes_to_wiki.rb を追加しています。なんか usage が間違ってる気がする
+。

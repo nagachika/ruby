@@ -1,0 +1,3 @@
+r52172 で追加されたテストで File.mkfifo のチェックに defined? を使っていました
+が、これは NotImplementedError を発生させる rb_notimplement() で実装されている
+ので未定義ではないので respond_to? によるチェックに修正しています。

@@ -1,0 +1,4 @@
+これも vboxsf を(VirtualBox を)使っている時の対応で test/webrick/
+test_filehandler.rb で File.executable?(__FILE__) をチェックして、テストスクリ
+プトにリポジトリ上はないはずの実行権限がついていたら permission がちゃんとサポ
+ートされていない環境だと判断してテストを skip するようにしています。

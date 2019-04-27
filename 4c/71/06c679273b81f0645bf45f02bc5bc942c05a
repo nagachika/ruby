@@ -1,0 +1,2 @@
+rb_file_truncate のエラー時に char * を期待している rb_sys_fail() に String の
+VALUE を渡してしまっていたので rb_sys_fail_path() に変更しています。

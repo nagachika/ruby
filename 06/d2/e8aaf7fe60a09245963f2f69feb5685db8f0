@@ -1,0 +1,3 @@
+拡張ライブラリ thread で実装されている Queue や ConditionVariable を dup すると
+SEGV が発生してしまっていたので initialize_copy を undef して dup できないよう
+にしています。 [ruby-core:59961] [Bug #9440]

@@ -1,0 +1,7 @@
+gc.c で GC.profile が有効かをチェックするマクロ gc_prof_enabled() を追加して、
+objspace->profile.run だけでなく objspace->profile.current_record もチェックす
+るようにしています。より厳密に次の GC で情報が蓄積され始めたかというかもチェッ
+クするようにしたみたいな感じです。また gc_profile_enable() と gc_profile_clear
+() で rest_sweep() を呼んで LazySweep の sweep を一旦完遂させるようにしていたの
+を消しています。 gc_profile_clear() のほうは r42697 でクリア後の current_record
+に触るのを防ぐための処置として入っているので、消してしまっていいのかなぁ。

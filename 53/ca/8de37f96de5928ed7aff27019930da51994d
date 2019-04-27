@@ -1,0 +1,4 @@
+.travis.yml から webhook の設定を削除しています。 ruby のテストが通ると travis-
+ci.org 自身の ruby のビルドを走らせるフックを起動していたみたいなのですが、
+Travis CI は現在 nightly build を別に実行しているそうなのでもう不要ということだ
+そうです。

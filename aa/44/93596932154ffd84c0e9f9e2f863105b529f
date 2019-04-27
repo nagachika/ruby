@@ -1,0 +1,3 @@
+r66020 と同様に regparse.c の node_extended_grapheme_cluster() の property のノ
+ード生成を "Grapheme_Cluster_Break=Extend" という名前を使って作るようにしていま
+す。

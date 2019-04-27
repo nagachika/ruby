@@ -1,0 +1,2 @@
+Module#const_get, const_set の rdoc 用コメントに第1引数が定数名として使える名前
+(大文字で始まる識別子)でない時に NameError を発生させることを追記しています。

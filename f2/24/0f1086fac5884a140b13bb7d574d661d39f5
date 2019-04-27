@@ -1,0 +1,2 @@
+r51419 で version.i は生成しないようになったので common.mk の make clean-local
+ターゲットの削除対象からも version.i を削っています。

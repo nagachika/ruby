@@ -1,0 +1,1 @@
+random.c の init_by_array() の配列の引数に const 修飾子を追加しています。

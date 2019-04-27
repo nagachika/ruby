@@ -1,0 +1,14 @@
+Warning#warn を定義して警告の出力方法をカスタマイズした時に、そのメソッドで
+super を呼ぶと stack overflow になっていた不具合を修正しています。うーん、なる
+ほど…。 stack overflow を避けること自体は良いけど、そもそも「Warning.warn を定
+義するとそれが呼ばれる」というセマンティクスなので、Warning#warn の再定義で効く
+んだっけ、というのと、効くにしても super が使えるとは限らないのではという気もし
+ます。 Warning.singleton_class.prepend とかで再定義したら修正前でもできるみたい
+…というか Warning.warn の再定義で super を呼ぶのも動くから、これって「Warning#
+warn の定義でも効く」というのが意図的なのかどうかなのかなぁ。と思ったら https:/
+/bugs.ruby-lang.org/issues/12299 のコメントではそれについて触れられてるので、ど
+うやら Warning#warn があること自体は意図的(というか Warning に extend Warning
+することで Warning.warning のデフォルトの実装が用意されてる。そしてそれは
+Warning.warn の再定義時に super ができるように、などの配慮でそうなってるらしい)
+で、あと [Bug #14006] のコメントでも触れられているので認識はされてますね。
+[ruby-dev:50293] [Bug #14006]

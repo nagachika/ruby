@@ -1,0 +1,7 @@
+子プロセスが終了した時に SIGCHLD のシグナルハンドラが呼ばれるか、というテスト(
+ruby/test_process.rb test_wait_and_sigchild)のタイミング問題を回避、とコメント
+にはあります。
+なのですが、削られている後半の sleep するループは、waitpid は return するけど、
+まだ SIGCHLD は来てない or シグナルハンドラの実行が完了していないという状態で
+assert_equal に入るのを避けるためのように思えるので、削ってしまうとタイミングに
+よって Failure になるような気がします。

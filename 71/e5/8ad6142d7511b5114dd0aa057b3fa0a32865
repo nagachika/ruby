@@ -1,0 +1,2 @@
+README.md のメールアドレスが書いてあるところに mailto scheme がついてたのを消し
+ています。Markdown だと不要とのことで。 https://github.com/ruby/ruby/pull/1827

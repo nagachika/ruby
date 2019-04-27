@@ -1,0 +1,1 @@
+r52129 で未使用になっていた関数 rb_block_clear_env_self() を削除しています。

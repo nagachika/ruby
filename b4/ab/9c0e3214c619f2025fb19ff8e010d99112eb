@@ -1,0 +1,2 @@
+bootstraptest/test_insns.rb でも古い ruby での実行を考慮して RbConfig::LIMITS
+の参照前に defined? でチェックするようにしています。

@@ -1,0 +1,2 @@
+拡張ライブラリ tk で引数を Fixnum に変換後に taint チェックしていたのを消してい
+ます。 nil や fixnum は tainted にならないからとのこと。

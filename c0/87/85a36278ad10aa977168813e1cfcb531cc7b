@@ -1,0 +1,4 @@
+r38043 と ChangeLog に重複して追記されてしまっていますね。
+rb_str_cmp_m() で rb_respond_to() でメソッドが呼べるか確認して rb_funcall() で
+呼んでいるのを rb_check_funcall() という関数でまとめて実行できるのでこれを利用
+するようにリファクタリングしています。

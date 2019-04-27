@@ -1,0 +1,2 @@
+NameError の #name, #args, #receiver などのテストで receiver なしの FCALL 形式
+のメソッド呼び出しでの NameError の時のテストケースも追加しています。

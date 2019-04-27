@@ -1,0 +1,1 @@
+Array#pack, String#unpack の rdoc 用コメントのテーブルを整形しなおしています。

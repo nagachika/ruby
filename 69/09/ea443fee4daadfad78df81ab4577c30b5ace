@@ -1,0 +1,3 @@
+st_table の num_entries 宣言に __extension__ がついている理由のコメントを追記し
+ています。 bit field の long や long long のサイズの宣言はコンパイラの実装依存
+なので警告を抑制するために付けているとのこと。

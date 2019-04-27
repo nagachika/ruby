@@ -1,0 +1,2 @@
+IO#write, IO#read, IO#sync= の rdoc 用コメントの文法の修正やサンプルの追加など
+。

@@ -1,0 +1,5 @@
+struct rb_iseq_struct::compile_data にアクセスするためのマクロ
+ISEQ_COMPILE_DATA() を定義して、これを利用するようにリファクタリングしています
+。そして構造体メンバの名前を struct rb_iseq_struct::compile_data_ に変更してい
+ます。これ修正漏れがないかチェックのために変えたんだと思いますけど、変えなくて
+も良いような気も…。しかしその謎は r52865 で解けるのでした。

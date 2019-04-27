@@ -1,0 +1,4 @@
+r50536 で r50506 での rb_data_object_alloc() と rb_data_typed_object_alloc() の
+rb_data_object_wrap() と rb_data_typed_object_wrap() への改名の影響を緩和するた
+めソースレベル互換性のためにマクロで置換するようにしたのを、DEPRECATED_BY() を
+利用して古い名前を参照していたら警告を出すようにしています。

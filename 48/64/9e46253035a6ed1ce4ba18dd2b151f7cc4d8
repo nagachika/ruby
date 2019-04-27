@@ -1,0 +1,4 @@
+insns.def の attribute sp_inc の設定に 1 - num みたいな式を書いてたところを明示
+的な (rb_snum_t) へのキャストを追加しています。unsigned な整数同士の引き算で未
+定義動作(コミットログに詳細に書かれていますが正確には implementation-defined な
+ので実装依存動作?)になるのを防ぐためだそうです。

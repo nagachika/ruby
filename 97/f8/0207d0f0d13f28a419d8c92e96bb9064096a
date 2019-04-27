@@ -1,0 +1,3 @@
+RubyGems を 2.4.5 に更新しています。内容も実際細々と変わっていますね。変更点は
+https://github.com/rubygems/rubygems/blob/master/History.txt を参照。require の
+パフォーマンスの改善も含まれているようです。

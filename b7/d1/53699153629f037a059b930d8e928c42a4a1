@@ -1,0 +1,4 @@
+拡張ライブラリ stringio で StringIO#pos= でバッファの文字列の末尾以降に移動した
+状態で StringIO#ungetbyte した時に間に NUL 文字(\000)を埋めるようにしています。
+またこれ以外にも StringIO#ungetbyte と #pos= の組み合わせについてのテストが追加
+されているようです。

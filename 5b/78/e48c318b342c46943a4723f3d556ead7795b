@@ -1,0 +1,2 @@
+標準添付ライブラリ prime で Prime#with_object に引数が渡されなかった時に返す
+Enumerator に引数の obj が渡されていなかったのを修正しています。

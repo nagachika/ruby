@@ -1,0 +1,3 @@
+r54638 の続きで、さらに Logger.new にキーワード引数 shift_period_suffix も追加
+して生成時に指定できるようにしています。 https://github.com/ruby/ruby/pull/
+10772

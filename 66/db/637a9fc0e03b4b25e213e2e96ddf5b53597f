@@ -1,0 +1,5 @@
+VALUE 型の値が GC で解放予定のオジェクトかどうか判定する is_dead_object() から
+sweep 対象のスロットに含まれているかの判定部分を is_swept_object() に切り出して
+います。また rb_gcdebug_print_obj_condition(), rb_gcdebug_sentinel() という GC
+のデバッグ用の関数を #ifdef GC_DEBUG という条件つきでコンパイルするようにして追
+加しています。

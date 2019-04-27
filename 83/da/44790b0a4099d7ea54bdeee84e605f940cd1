@@ -1,0 +1,4 @@
+r52042 の標準添付ライブラリ tmpdir の magic comment frozen_string_literal: true
+の追加で Dir.tmpdir が返す文字列が freeze されたものになる可能性が残っていたの
+で String#dup を追加しています。この位置で dup すると($SAFE が 1以上の時だけで
+すが)これまで以上に複製が多くなるケースもあるような気もしますね。

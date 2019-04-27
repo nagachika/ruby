@@ -1,0 +1,2 @@
+vm_insnhelper.c の vm_throw_start() に文末の ";" が二重になっていたところがあっ
+たので1つ削っています。 https://github.com/ruby/ruby/pull/1432

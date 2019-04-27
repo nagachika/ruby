@@ -1,0 +1,2 @@
+VM 命令に opt_str_uminus という命令を追加して String#-@ メソッドが再定義されて
+いた時に脱最適化するようにしています。 [ruby-core:80368] [Feature #13295]

@@ -1,0 +1,2 @@
+basictest/runner.rb で ruby を起動する時に -W1 オプションを渡して警告抑制するよ
+うにしています。

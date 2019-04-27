@@ -1,0 +1,3 @@
+Marshal.dump, load 時に _dump, _load メソッドが呼べるかどうかチェックする方法を
+元に戻して、事前に respond_to? で判定して method_missing が呼ばれないようにして
+います。 [ruby-core:50900] [Bug #7564]

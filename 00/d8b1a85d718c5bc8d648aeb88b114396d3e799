@@ -1,0 +1,3 @@
+標準添付ライブラリ irb で STDOUT.sync = true をトップレベルで実行しているため
+require しただけで変更されてしまうのを IRB.start 時に実行するように修正していま
+す。 https://github.com/ruby/ruby/pull/864

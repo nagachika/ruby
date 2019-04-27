@@ -1,0 +1,10 @@
+TracePoint の API を全体的に変更しています。
+ 1. TracePoint.new で TracePoint を作成(ただし有効にはしない)
+ 2. TracePoint.trace で TracePoint を作成してすぐ有効にする
+ 3. TracePoint#enable で有効にする(retrace から改名) ブロック付きで呼ばれるとそ
+    のブロック内でのみ有効になります。
+ 4. TracePoint#disable で無効にする(untrace から改名) ブロック付きで呼ばれると
+    そのブロック内でのみ無効になります。
+ 5. TracePoint#enabled? で現在の状態を返す
+ついでに enable 状態で enable が呼ばれた時の挙動などに迷いがあったのをリファク
+タリングしてすっきりしています。 [ruby-core:47243] [Feature #6895]

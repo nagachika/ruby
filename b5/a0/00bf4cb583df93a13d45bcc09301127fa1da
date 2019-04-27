@@ -1,0 +1,2 @@
+File.join の rdoc 用コメントで戻り値の表記を string に変更しています。 https://
+github.com/ruby/ruby/pull/646

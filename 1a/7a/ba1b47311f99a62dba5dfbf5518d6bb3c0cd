@@ -1,0 +1,5 @@
+Range オブジェクトを freeze したオブジェクトについて range_modify() 関数が呼ば
+れても freeze チェックがされていなかったのを修正しています。といっても Range は
+破壊的メソッドがないはずだけど…とテストをみると Range.allocate で生成したオブ
+ジェクトを freeze してから __send__ で initialize メソッドを呼ぶということをし
+てテストにしています。すごい。

@@ -1,0 +1,2 @@
+RubySpec から ObjectSpace.each_object にクラスを指定して実行した時のテストを取
+り込んでいます。

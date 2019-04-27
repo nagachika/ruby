@@ -1,0 +1,4 @@
+bignum.c に最近導入された BDIGIT の配列で直接演算する bary_add(), bary_sub(),
+bary_mul(), bary_divmod(), bary_zero_p() などの関数のラッパのマクロ BARY_ADD(),
+BARY_SUB(), BARY_MUL, BARY_DIVMOD(), BARY_ZERO_P() などのマクロ定義を追加し、こ
+れを利用するようにしています。

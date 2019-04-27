@@ -1,0 +1,3 @@
+lib/test/unit.rb でも gem "minitest", "< 5.0.0" で明示的に 5.0.0 以前の gem パ
+ッケージを利用するように指定しています。そういえば同梱版の test-unit の gemspec
+ってなにに使われるんでしょうね。

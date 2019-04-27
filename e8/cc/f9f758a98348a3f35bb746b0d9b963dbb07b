@@ -1,0 +1,3 @@
+r60782 の追加修正。 cont_restore_thread() で vm->trace_running のインクリメント
+を行なう時の条件に ec を退避していた sec の trace_arg のチェックをしていたのを
+削っています。コンパイルエラーになったそうです。

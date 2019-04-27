@@ -1,0 +1,4 @@
+r63590 で Net::HTTPServerException と同時に Net::ProtoServerError も
+deprecate_constant で参照すると警告が出るようにしていましたが、こちらは代替がな
+いので deprecate にしないように一部 revert しています。 [ruby-core:87488]
+[Feature#14688]
