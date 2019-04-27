@@ -1,0 +1,1 @@
+UnboundMethod#owner の rdoc 用コメントで receiver を参照と書かれているけど、クラス名が省略されているためリンクになっていなかったので Method#receiver を明記するようにしています。 https://github.com/ruby/ruby/pull/2156
