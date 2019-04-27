@@ -1,0 +1,1 @@
+irb で iterator? を使っていたところを block_given? を使うようにしています。なんか変だなと思ったらこれは r66866 の(svn の頃の)コミットを再適用したもののようでした。Author は nobu だけど committer は znz さん。
