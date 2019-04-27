@@ -1,0 +1,1 @@
+AST を --dump=parsetree_with_comment でダンプした時に NODE_IN の最初の子要素について value と書かれてたのを pattern に修正しています。
