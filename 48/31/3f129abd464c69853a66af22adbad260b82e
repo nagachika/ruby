@@ -1,0 +1,1 @@
+Enumerator::ArithmeticSequence#begin の rdoc の call-seq に nil がかえってくることもありえることがわかるように書いています。beginless range が導入されたからですね。
