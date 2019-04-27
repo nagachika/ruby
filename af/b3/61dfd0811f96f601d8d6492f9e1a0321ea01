@@ -1,0 +1,1 @@
+AppVeyor でも GC.compact のテストを分離するようにしています。
