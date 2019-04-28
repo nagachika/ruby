@@ -1,0 +1,1 @@
+tool/vcs.r で ChangeLog 生成のための git log のフォーマットを --format=medium に指定するようにしています。
