@@ -1,0 +1,1 @@
+tool/make-snapshot で過去の ChangeLog ファイルから今回生成する最初の revision を特定するところで git の commit hash 形式に対応するようにしています。
