@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストで ARM のプラットフォームでも失敗するようなので、これらのアーキテクチャで CLOCK_PROCESS_CPUTIME_ID, CLOCK_THREAD_CPUTIME_ID, CLOCK_MONOTONIC_RAW などの定数はテスト対象から外すようにしています。
