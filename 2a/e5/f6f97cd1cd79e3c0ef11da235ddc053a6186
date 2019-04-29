@@ -1,2 +1,2 @@
 2fb83a0af7a49788e80c55fd324dfa8e046cd9d9 の続きで tool/vcs.rb の GIT クラスのメソッド commit の実装を追加しています。
-git svn dcommmit ではなく単に git push するようにしています。 公式リポジトリの git 化の対応ですね。
+git svn dcommit ではなく単に git push するようにしています。 公式リポジトリの git 化の対応ですね。
