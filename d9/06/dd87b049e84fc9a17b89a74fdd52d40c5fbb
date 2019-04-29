@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストで macOS の時にさらに CLOCK_UPTIME_RAW_APPROX を除外するようにしています。
