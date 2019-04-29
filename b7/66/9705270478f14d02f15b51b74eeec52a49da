@@ -1,0 +1,1 @@
+ChangeLog 生成のために matz の version.h のコミットを探す時のコミットログの grep をもうちょっと正確に絞るようにしています。そこまでしなくても version.h を matz が変更するのは bump version する時しかないような気もしますが。
