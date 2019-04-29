@@ -1,0 +1,1 @@
+13abf5519a8c00ac2b05409e667c58f05c75123a の CentOS で失敗する rubyspec の Process.clock_getres のテストの定数除外を 9a0dbb341442fc0d203a5cd6fb46250e429e9188 で括り出したヘルパーメソッドのほうに移動させています。ついでに Linux のみで除外するように範囲を限定。
