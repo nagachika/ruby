@@ -1,0 +1,1 @@
+9a0dbb341442fc0d203a5cd6fb46250e429e9188 の変更で移動した CLOCK_REALTIME_COARSE, CLOCK_MONOTONIC_COARSE の除外がプラットフォームによる guard が外れてて常に除外されるようになっていたので Linux の時のみ除外するようにしています。しかし元は windows または solaris 以外の時、という条件だったのでちょっと変わってるような。
