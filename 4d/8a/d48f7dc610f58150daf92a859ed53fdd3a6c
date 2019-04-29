@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb のサブコマンド done でローカルの working copy が svn の時は revision 番号で、git の時は commit hash でメッセージを作るようにしています。
