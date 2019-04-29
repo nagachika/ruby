@@ -1,0 +1,1 @@
+b7c301569df2eaee3a2785e5ec56f8c53fbc9fea で rubyspec の Process.clock_getres のテストの一部を bsd で skip するようにしていましたが、そのテストケース全体を FreeBSD の時だけ skip するようにしています。
