@@ -1,0 +1,1 @@
+AppVeyor の mswin 版のビルドでも GC.compact のテストは分離して実行するようにしています。
