@@ -1,0 +1,1 @@
+tool/merger.rb の大部分のメソッド定義を Merger モジュールの特異メソッドとして定義するようにするのを module 内で def << self するかわりに外で class << Merger とするようにしています。インデントを浅くするためとのこと。
