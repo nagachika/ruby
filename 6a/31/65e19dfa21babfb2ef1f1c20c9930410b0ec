@@ -1,0 +1,1 @@
+c7f780c155ac553aa026e6caf4b1c88ff988adde でリファクタリングした構造体 struct rb_strterm_heredoc_struct のサイズを調整するのに使ってるマクロ HERETERM_LENGTH_BITS を LLP64 環境に向けて再修正しています。
