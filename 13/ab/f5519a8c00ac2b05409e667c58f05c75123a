@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres で CentOS で CLOCK_MONOTONIC_RAW に対して負の精度を返すことがあるそうで、skip するようにしています。
