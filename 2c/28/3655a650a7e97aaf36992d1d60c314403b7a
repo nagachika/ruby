@@ -1,0 +1,1 @@
+同じく rubyspec の Process.clock_getres のテストの一部を solaris で skip するようにしています。
