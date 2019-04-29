@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストの一部を BSD で skip するようにしています。
