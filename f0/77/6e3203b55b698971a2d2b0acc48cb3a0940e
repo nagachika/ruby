@@ -1,0 +1,1 @@
+Travis-CI の macOS での Permission Denied エラーのデバッグメッセージをさらに追加。検査するディレクトリを増やしている他 date コマンドで何度か時刻を表示させています。
