@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストで macOS で除外する定数に CLOCK_MONOTONIC_RAW_APPROX も追加しています。
