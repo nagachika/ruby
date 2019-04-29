@@ -1,0 +1,1 @@
+Travis-CI での macOS の Permission Denied エラー調査のためのデバッグログのいくつかの ls コマンド実行を削っています。
