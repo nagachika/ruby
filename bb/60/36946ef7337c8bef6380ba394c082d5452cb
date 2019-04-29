@@ -1,0 +1,1 @@
+doc/ChangeLog-201{678} は削除して、tool/make-snapshot で ChangeLog の始点になるコミットを特定するために matz による version.h へのコミットを利用するようにしています。こんなところに matz 依存が。毎年すぐにコミットしてもらわないといけませんね。
