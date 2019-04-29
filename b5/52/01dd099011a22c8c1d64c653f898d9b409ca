@@ -1,1 +1,1 @@
-f6cd383f9dc3ae1204a5fba8f56ee7826cbce の続きで irb でコードを評価した結果のオブジェクトを inspect した結果の出力も色付けするようにしています。 https://github.com/ruby/ruby/pull/2150
+94af6cd383f9dc3ae1204a5fba8f56ee7826cbce の続きで irb でコードを評価した結果のオブジェクトを inspect した結果の出力も色付けするようにしています。 https://github.com/ruby/ruby/pull/2150
