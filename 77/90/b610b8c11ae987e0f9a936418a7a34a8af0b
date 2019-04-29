@@ -1,0 +1,1 @@
+tool/make-snapshot の tag に使う revision の頭に r を付けるのを抑制するようにしています。nightly snapshot 作成時かな。
