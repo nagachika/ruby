@@ -1,0 +1,1 @@
+rubyspec の Process の CLOCK_XXX の定数を抽出する helper のちょっとしたリファクタリング。
