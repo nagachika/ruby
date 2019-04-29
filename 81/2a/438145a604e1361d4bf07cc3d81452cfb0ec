@@ -1,0 +1,1 @@
+iseq.c の rb_iseq_disasm_recursive() で文字配列の初期化を削っています。
