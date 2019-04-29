@@ -1,0 +1,1 @@
+ruby/spec の再度更新。 File.expand_path でホームディレクトリを補完するテストを Etc.getlogin が取得できる時だけ実行するようにしています。
