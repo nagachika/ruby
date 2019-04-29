@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストで AIX 向けの guard 追加しています。
