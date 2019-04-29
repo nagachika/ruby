@@ -1,0 +1,1 @@
+Makefile.in や defs/gmake.mk など Makefile 系のファイルに emacs の mode line を追加しています。
