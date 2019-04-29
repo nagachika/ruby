@@ -1,1 +1,1 @@
-tool/vcs.rb の SVN 版で ChangeLog 生成のために matz の version.h のコミットを探す時に svn log に --reverse がついてたのを消しています。
+tool/vcs.rb の GIT 版で ChangeLog 生成のために matz の version.h のコミットを探す時に svn log に --reverse がついてたのを消しています。
