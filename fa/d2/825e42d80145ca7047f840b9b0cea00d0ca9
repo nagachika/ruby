@@ -1,0 +1,1 @@
+tool/merger.rb で tag サブコマンドを安定版ブランチが git の時に対応。
