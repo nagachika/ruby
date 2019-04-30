@@ -1,0 +1,1 @@
+readline のテストで Readline が Reline で代用されていた時に Windows でテスト全体を skip するようにしています。
