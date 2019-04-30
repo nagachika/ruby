@@ -1,0 +1,1 @@
+ということで rubyspe の Process.ppid のテストを windows では除外するようにしています。
