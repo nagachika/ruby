@@ -1,0 +1,1 @@
+17350c7e5534c8678097d70698fe08614a6c3997 の再修正。reline のテストに使う Encoding を決定する場合に default_external が IBM437 の時という分岐を生やしています。 AIX 向けかな?
