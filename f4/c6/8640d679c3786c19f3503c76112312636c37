@@ -1,0 +1,1 @@
+string.c の search_ascii() で aligned_ptr() を利用していたけど不要なポインタがあったのでただのキャストに変更しています。
