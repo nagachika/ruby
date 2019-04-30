@@ -1,0 +1,1 @@
+319eee0f4a13d29a82eeffa348b8a3b5685e2f6e のさらに再修正。 reline のテストに使う Encoding に追加した分岐は消して、default_external ではなく UTF-8 をデフォルトの値として使うようにしています。
