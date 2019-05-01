@@ -1,0 +1,1 @@
+標準添付イブラリ reline の Reline.delete_text というメソッドを定義した上で NotImplementedError 例外を発生させるようにしています。
