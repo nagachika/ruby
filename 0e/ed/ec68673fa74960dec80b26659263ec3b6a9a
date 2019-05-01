@@ -1,0 +1,1 @@
+tool/downloader.rb で HTTP 経由でダウンロードする時のリクエストヘッダの Accept-Encoding を "identity" に指定するように修正しています。Unicode のデータファイルダウンロード時に gzip された状態でダウンロードされてしまってたことがあったみたいです。
