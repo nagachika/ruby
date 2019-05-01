@@ -1,1 +1,1 @@
-標準添付イブラリ reline の Reline.delete_text というメソッドを定義した上で NotImplementedError 例外を発生させるようにしています。
+標準添付イブラリ reline の Reline.delete_text というメソッドを定義した上で NotImplementedError 例外を発生させるようにしています。 Readline に同名のメソッドがあるので、Reline を Readline の単純な代替として使おうとした時にメソッドがない時に NoMethodError になるよりは NotImplementedError のほうがいいってことかな。または将来的には実装予定があるのか。
