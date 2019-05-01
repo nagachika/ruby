@@ -1,0 +1,1 @@
+internal.h でヘッダファイル sanitizer/msan_interface.h を include する前に __has_features() で memory_sanitizer 機能が使えるかどうかチェックするようにしています。ヘッダの有無はその外側の preprocessor 分岐でチェックしているので、コメントによるとマクロの再定義を回避するためらしい。
