@@ -1,0 +1,1 @@
+tool/merger.rb で String#match の結果の MatchData#[] メソッドを使ってたのを String#[] メソッドの第2引数にインデックスを指定する方法で代替しています。この仕様知らなかったなぁ。
