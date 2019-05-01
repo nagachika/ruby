@@ -1,1 +1,1 @@
-begin-less range に対して Range#first を呼んだ時に RangeError を発生させるようにしています。
+begin-less range に対して Range#first を呼んだ時に RangeError を発生させるようにしています。 https://github.com/ruby/ruby/pull/2163
