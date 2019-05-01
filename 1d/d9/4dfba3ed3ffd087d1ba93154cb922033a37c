@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb でも /dev/null が使われていたところを IO::NULL を参照するように修正しています。
