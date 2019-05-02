@@ -1,0 +1,1 @@
+tool/vcs.rb の GIT.get_revisions で最新の変更を取得しようとして更新がなかった時に FETCH_HEAD という参照が使えない? かなにかで、事前に git branch --list で remote の最後のコミットを取得してそれを利用するようにしています。
