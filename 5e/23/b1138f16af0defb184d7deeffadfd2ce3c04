@@ -1,0 +1,1 @@
+string.c で文字列の大文字小文字の対応を、特に Unicode を意識して変換する rb_str_casemap() で内部的に利用している mapping_buffer という構造のメモリ領域が例外発生時に解放されないようになっていたので、TypedObject として wrap して例外発生時も GC で解放できるようにしています。
