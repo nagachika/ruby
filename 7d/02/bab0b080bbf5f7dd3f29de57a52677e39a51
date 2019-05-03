@@ -1,0 +1,1 @@
+tool/merger.rb の diff 表示の時のファイル指定がない時に IO.popen に渡す配列の要素に nil が入らないように修正しています。
