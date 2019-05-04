@@ -1,0 +1,1 @@
+標準添付ライブラリ drb でリモートへ参照を渡したオブジェクトが GC されなくなってしまうのを防ぐために参照を残さず object_id のみ渡して ObjectSpace._id2ref でオブジェクト参照を取得するようにしていましたが、ObjectSpace._id2ref を deprecated にしたいということで DRb::WeakIdConv というクラスを追加して、ObjectSpace::WeakMap を使って直接 object_id を使わない弱参照を実装しています。インスタンス変数 @immutable のほうに fallback しているのはなにをしているんだろう? [Bug #15711]
