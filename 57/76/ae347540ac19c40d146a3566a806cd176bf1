@@ -1,0 +1,1 @@
+String#upcase! および String#downcase! の実装において Encoding の種類による分岐で条件が冗長なところがあったのでシンプルにリファクタリングしています。
