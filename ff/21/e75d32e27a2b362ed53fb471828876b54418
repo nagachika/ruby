@@ -1,0 +1,1 @@
+compile.c の case_when_optimizable_literal() に prefix rb_ を追加して非 static 関数にして parse.y からもこれを呼んで case 文の重複した when 節の警告を parse 時に出すようにしています。コミットログによると ruby -wc で parse のみ実行するようにしても警告が出るようにするためだそうです。 なるほど -c の時は compile はしないのか。
