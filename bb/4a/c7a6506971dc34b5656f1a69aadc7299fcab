@@ -1,0 +1,1 @@
+0c0ed1cee8aa8c538cc81f0daef26737eb2d5d0d の続きで -> 記法の lambda の 引数のデフォルト値に ->() 記法の lambda を使ってそのブロック内で numbered parameter を使うと(おそらく外側の lambda に引数があるため) SyntaxError になっていたのを修正しています。ネストした状態管理大変。 [ruby-core:92400] [Bug#15789]
