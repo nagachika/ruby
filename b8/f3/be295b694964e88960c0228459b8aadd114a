@@ -1,0 +1,1 @@
+ブロックに |var| で通常のブロックパラメーターが宣言されている時に numbered parameter の参照を SyntaxError にする処理が特定の文法で効いてなかったのを修正しています。 [ruby-core:92543] [Bug #15825]
