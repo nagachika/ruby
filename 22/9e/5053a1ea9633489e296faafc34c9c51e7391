@@ -1,0 +1,1 @@
+.travis.yml の build matrix の rubyspec 実行用のやつで mspec のオプションに -fs をつけていたのを消しています。
