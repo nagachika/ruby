@@ -1,0 +1,1 @@
+a7cbb659566b4b9114cc2a00f036e7a88300b30d で追加した rubyspec の autoload のテストでの version による guard のメッセージにチケットの参照を追加しています。
