@@ -1,0 +1,1 @@
+Moddule#const_defined? で引数に String を渡すと autoload が発火してしまうという不具合を修正しています。 [ruby-core:92351] [Bug #15780]
