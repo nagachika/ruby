@@ -1,0 +1,1 @@
+mkmf.rb の dir_config で結果をキャッシュするようにして、have_library, find_library, have_header などで常に dir_config を呼んでおくようにしています。 --with-xxx とかのオプションが自動で効くようにするということだと思いますがコミットログに [EXPERIMENTL] って書かれてるので実験的な試みのようです。もしかすると拡張ライブラリのビルドの互換性に影響があるかもしれないのかな。
