@@ -1,0 +1,1 @@
+r67347 以降でちょくちょくデバッグ用のコマンドを追加している Travis-CI の macOS で時々 Permission Denied なエラーになるやつで make install が失敗したら環境変数 COPY に cp -f をセットして再度 make install を試すようにしています。
