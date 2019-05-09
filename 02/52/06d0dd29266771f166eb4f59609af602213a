@@ -1,0 +1,1 @@
+tool/vcs.rb の GIT.get_revisions で branch 名が取得できなかった時に :detached: という名前をつけるようにしています。
