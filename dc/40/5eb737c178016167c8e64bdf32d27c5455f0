@@ -1,0 +1,1 @@
+GC.compact 対応で finalizer_table を mark する時に値を pin するため mark_tbl() を使ってましたが、finalizer_table は key も pin して動かせないようにしないといけなかったので、専用の mark_finalizer_tbl() という関数を追加してこれを使うようにしています。ついでに一部関数名の変更。
