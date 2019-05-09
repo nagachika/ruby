@@ -1,0 +1,1 @@
+ripper のテストに require "stringio" を追加しています。
