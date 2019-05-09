@@ -1,0 +1,1 @@
+gc.c の rgengc_remembered() で obj_info() を呼んでデバッグ出力してましたが obj_info() は GC sweep 中に呼ぶと不正な参照をみてしまって SEGV する恐れがあるので、この呼び出しを省いた rgengc_remembered_sweep() という関数を追加して gc_page_sweep() 内からはこちらを呼ぶように修正しています。
