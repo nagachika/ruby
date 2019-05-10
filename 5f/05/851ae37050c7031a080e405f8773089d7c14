@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect で即値じゃないオブジェクトの時に freeze されてるかのフラグをみて表示を追加するようにしています。
