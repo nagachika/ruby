@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の respond_to_missing? でインスタンス変数 @table が未定義の時の警告除去のため defined? でチェックしてからアクセスするようにしています。
