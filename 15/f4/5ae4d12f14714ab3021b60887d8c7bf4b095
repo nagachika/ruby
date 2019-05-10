@@ -1,0 +1,1 @@
+parse.y の rb_yytnamerr() の引数に struct parser_params を追加しています。
