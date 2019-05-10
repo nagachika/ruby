@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の modifiable と new_ostruct_member という古い? alias を削除しています。
