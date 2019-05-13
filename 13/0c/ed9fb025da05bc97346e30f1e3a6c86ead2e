@@ -1,0 +1,1 @@
+Reline.completion_append_character= の引数が空文字列だった時に nil として扱うようにしています。
