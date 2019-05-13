@@ -1,1 +1,1 @@
-標準添付ライブラリ reline に履歴のインクリメント検索の機能(ed_search_prev_history)を追加しています。
+標準添付ライブラリ reline に履歴のインクリメント検索の機能(ed_search_prev_history)を追加しています。実装に Fiber を使ってるのがおもしろいですね。
