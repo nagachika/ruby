@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで Reline::LineEditor の prompt と encoding を initialize 時に指定するのではなくて、作成後に reset メソッドを呼んで設定するように変更しています。なにか違いがあるのかな。
