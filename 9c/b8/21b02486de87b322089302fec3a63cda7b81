@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に入出力の IO をすりかえる Reline.input= と Reline.output= を追加しています。
