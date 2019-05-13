@@ -1,0 +1,1 @@
+Enumerable#include? の rdoc 用コメントのサンプルコードでなぜか意味ありげに IO.constants を使った例が使われてたので Range を使ったより一般的な内容に書き換えています。 https://github.com/ruby/ruby/pull/2168
