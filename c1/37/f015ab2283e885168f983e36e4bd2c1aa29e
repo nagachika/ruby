@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Readline と同様の Reline.pre_input_hook および Reline.pre_input_hook= というメソッドを追加しています。 Reline::LineEditor の設定を透過的にセットするためのメソッドとして。
