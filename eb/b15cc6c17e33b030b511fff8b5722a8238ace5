@@ -1,0 +1,1 @@
+Reline.completion_proc= で引数が Proc オブジェクトじゃなかったら ArgumentError を発生させるようにしています。
