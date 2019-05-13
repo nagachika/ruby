@@ -1,0 +1,1 @@
+標準添付ライブラリ readline のテストの一部を Readline が Reline で代替されている時に skip するようにしています。
