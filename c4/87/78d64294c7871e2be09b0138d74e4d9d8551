@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Config に各設定項目の attr_accessor を定義するようにしています。
