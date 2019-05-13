@@ -1,0 +1,1 @@
+aaaede8bcff278bd304092e1c74d39e8fbd4cef8 の変更で Reline::Config の読み込みがスクリプトのロード時になってたので Reline.inner_readline の呼び出し時まで遅延するように戻しています。また Reline::Config.read で環境変数 INPUTRC が設定されていたらそちらを参照するようにしています。
