@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate の method_missing でモジュール Kernel で定義されているインスタンスメソッドに委譲する時の条件判定が Kernel.respond_to? で行なわれていましたが、これだと Kernel の特異メソッドとして存在してるものだけ反応するので Module#method_defined? と Module#private_method_defined? で判定するように修正しています。 https://github.com/ruby/ruby/pull/1422
