@@ -1,0 +1,1 @@
+gc.c の preprocessor の #endif にコメントで if の条件を書いてたところの typo 修正。
