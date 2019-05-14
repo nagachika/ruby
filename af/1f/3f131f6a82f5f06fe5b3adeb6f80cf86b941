@@ -1,0 +1,1 @@
+5837290af1216eaadbee3204e40ef16931da2fdb あたりで Readline との互換性のために追加したものも含め Reline のクラス変数に格納する属性の文字列は Encoding.default_external でエンコードしておくようにしています。
