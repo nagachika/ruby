@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の completion の実装で unicode_normalize で Encoding::CompatibilityError が発生した時に unicode_normalize を省略してやりなおすようにしています。
