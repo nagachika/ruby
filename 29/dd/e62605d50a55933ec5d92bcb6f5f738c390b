@@ -1,0 +1,1 @@
+6d733565c2df1b34c7f0b7d43d97f80f714a64b9 の io/console での IO#getch の Windows 実装の再修正。 export していない API を利用していたので rb_str_conv_enc() を利用するように修正しています。
