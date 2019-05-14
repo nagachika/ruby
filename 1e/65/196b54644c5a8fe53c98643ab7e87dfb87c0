@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の completion 用のコールバックで渡された文字列の Encoding が補完対象の文字列群と一致しなかった時に Encoding::CompatibilityError を発生させるようにしています。
