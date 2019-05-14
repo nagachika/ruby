@@ -1,0 +1,1 @@
+ext/json/parser/parser.c の NaN/Infinity/MinusInfinity などの定数を確保する static 変数を rb_gc_register_mark_object() で明示的に mark 対象に追加しておくように修正しています。
