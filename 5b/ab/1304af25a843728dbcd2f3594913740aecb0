@@ -1,0 +1,1 @@
+r57384 の変更で標準添付ライブラリ securerandom の SecureRandom.gen_random を alias で宣言するようにしたところ private なメソッドになってしまっていたので明示的に public に戻すように修正しています。 [ruby-core:92633] [Bug #15847]
