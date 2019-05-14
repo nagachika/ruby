@@ -1,0 +1,1 @@
+GC.enable=false されてる状態だと GC.compact は正常に動作できないので処理しないようにしています。また gc_update_object_references() のデバッグ出力で obj_info() を通さないようにしています。
