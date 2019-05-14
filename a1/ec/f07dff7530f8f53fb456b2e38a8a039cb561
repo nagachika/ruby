@@ -1,0 +1,1 @@
+GC.compact で移動済みの slot を埋める T_MOVED 型のオブジェクト struct RMoved を linked list にして一度の compact で生成されたものをリストにして返すようにしています。
