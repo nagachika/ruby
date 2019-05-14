@@ -1,0 +1,1 @@
+test/readline のテストで readline.so と reline を両方 load しておいて helper メソッドでトップレベルの ::Readline 定数をすりかえて両方のテストを実行するようにしています。また LibEditline とリンクしている時に一部のテストを skip するようにしています。
