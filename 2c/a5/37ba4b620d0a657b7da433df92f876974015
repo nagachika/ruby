@@ -1,0 +1,1 @@
+gc.c の関数 rb_gc_mark_stack_values() を rb_gc_mark_vm_stack_values() と改名しています。VM スタックをマークすることを明示するため。
