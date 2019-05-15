@@ -1,0 +1,1 @@
+dc405eb737c178016167c8e64bdf32d27c5455f0 で finalizer_table のキーも GC.compact 対応のため pin するようにしたのを revert して gc_update_references() で finalizer_table 内の参照も移動に対応するようにしています。
