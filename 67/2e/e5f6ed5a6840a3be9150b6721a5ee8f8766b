@@ -1,0 +1,1 @@
+enumerator.c で Symbol を VALUE 型の static 変数に格納してましたが、Symbol は GC.compact で移動してしまう可能性があるので ID を格納しておいて使うところで ID2SYM() で変換するようにしています。
