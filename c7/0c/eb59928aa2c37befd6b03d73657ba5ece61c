@@ -1,0 +1,1 @@
+GC.compact で移動可能なオブジェクトをどの page に移動するかのロジックを、従来の pin されてて動かせないオブジェクトが多い page を優先する方法の他に、free_slots (空き)が多い page を優先する方法も gc_compact_heap() に渡す比較用の関数ポインタで変更できるようにして、GC.verify_compaction_references メソッドのキーワード引数 toward の指定によってはそれを選択できるようにしています。 GC.compact では対応しないんですね。コミットログがよく解読できないんですがこれはテスト用ということかな。
