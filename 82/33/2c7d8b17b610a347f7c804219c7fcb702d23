@@ -1,0 +1,1 @@
+mjit.c の関数 mjit_gc_finish_hook() を mjit_gc_exit_hook() と改名しています。
