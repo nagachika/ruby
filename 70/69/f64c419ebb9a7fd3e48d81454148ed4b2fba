@@ -1,0 +1,1 @@
+symbol.c の global_symbols という変数は extern するようになったので ruby_global_symbols と prefix を追加しています。
