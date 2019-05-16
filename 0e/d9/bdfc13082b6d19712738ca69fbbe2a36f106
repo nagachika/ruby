@@ -1,0 +1,1 @@
+parse.y の構造体 struct rb_strterm_heredoc_struct のメンバー length の bit field のサイズに応じて、32bit 環境でうまく収まるなら quote と func も bit field を使い、おさまらなかったら uint8_t を使ってアライメントされるようにしています。
