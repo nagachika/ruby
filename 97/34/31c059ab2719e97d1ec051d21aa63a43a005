@@ -1,0 +1,1 @@
+c70ceb59928aa2c37befd6b03d73657ba5ece61c で追加した GC.compact で移動する page を決めるための比較関数など内部利用の関数に修飾子 static を追加しています。
