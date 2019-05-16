@@ -1,0 +1,1 @@
+アーキテクチャ毎の coroutine 実装の coroutine/*/Context.h で定義している定数 COROUTINE_REGISTERS を enum 型の定数として定義するように変更しています。変数として残らないようにするためらしい。
