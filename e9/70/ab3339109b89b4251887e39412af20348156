@@ -1,0 +1,1 @@
+gc.c の gc_verify_compaction_references() で ASAN が無効な時に利用されないローカル変数になって警告が出ているのがあったので preprocessor の分岐で (void) つきで参照して警告除去しています。
