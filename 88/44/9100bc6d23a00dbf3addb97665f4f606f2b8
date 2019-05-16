@@ -1,0 +1,1 @@
+Transient Heap の機能追加時に一時的に確保したバッファから通常のヒープにコピーする時に GC を一時的に無効化していましたが、rb_gc_disable() は Lazy Sweep 中だった時は最後まで sweep を完了させてから disable するので、Lazy Sweep はやめないで GC の開始のみ止めるために rb_gc_disable_no_rest() というのを新規追加してこっちを使うようにしています。
