@@ -1,0 +1,1 @@
+a160b2f56716f70fa3e485ae89875da48baefc1d の続きで coroutine/win64/Context.h の定数 COROUTINE_XMM_REGISTERS も一緒に enum による定数に変更しています。
