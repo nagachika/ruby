@@ -1,0 +1,1 @@
+coroutine/ ソースをビルドする時にマクロ SYMBOL_PREFIX を伝播させて不要なシンボルを export しないようにしています。
