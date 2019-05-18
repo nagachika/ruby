@@ -1,0 +1,1 @@
+Enumerable#find や Enumerable#find_index の rdoc 用コメントのサンプルコードで and のかわりに && を使うようにしています。ふーむ、なんでだろ。
