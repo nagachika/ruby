@@ -1,0 +1,1 @@
+GC.compact で移動可能なオブジェクトを判定する gc_is_moveable_obj() で T_SYMBOL 型のオブジェクトも dynamic symbol から static に変更されたものを移動不可としています。dynamic symbol と static symbol の関係どんなだったか忘れてしまったな…。コミットログによると拡張ライブラリで rb_sym2id() で ID 化したものはもう移動できないとのこと。
