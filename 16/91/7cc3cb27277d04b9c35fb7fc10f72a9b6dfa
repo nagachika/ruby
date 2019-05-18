@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline.test_mode というクラスメソッドを追加して Reline::IOGate をすりかえることができるようにしています。
