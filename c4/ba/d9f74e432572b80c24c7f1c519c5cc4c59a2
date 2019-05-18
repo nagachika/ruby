@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree::Node#children で while/until などのループのブロックが返す配列に、それが通常の文なのか、後置 while/until によるものなのかを判定できる要素を追加するようにしています。
