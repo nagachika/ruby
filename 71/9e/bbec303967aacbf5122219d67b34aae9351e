@@ -1,0 +1,1 @@
+common.mk の update-download というターゲットで ALWAYS_UPDATE_UNICODE という変数に yes が設定されている時だけ Unicode 関係のデータファイルダウンロードのターゲットを実行するようにしています。
