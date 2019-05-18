@@ -1,0 +1,1 @@
+readline のテストでテストクラスを Readline や Reline の名前空間の下に定義していたのをやめています。
