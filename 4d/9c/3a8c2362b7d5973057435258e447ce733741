@@ -1,0 +1,1 @@
+appveyor.yml で mingw 向けのビルド時に make up ど同時に incs も実行して .inc ファイルを生成しなおすように? しています。
