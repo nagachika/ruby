@@ -1,0 +1,1 @@
+gc.c の rb_gc_new_location() を rb_gc_location() と改名。常に新しい位置を返すわけではないので。
