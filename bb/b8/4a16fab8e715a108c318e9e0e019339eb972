@@ -1,0 +1,1 @@
+ea3e7e268546599883b25d9a33d26e042461ac25 の変更の switch 文の case 追加に fall throgh というコメントを追加しています。 Coverity Scan が警告したみたいです。
