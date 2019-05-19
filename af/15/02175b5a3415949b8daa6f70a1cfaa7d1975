@@ -1,0 +1,1 @@
+.travis.yml の before_script で make touch-unicode-files を実行して make update-download で Unicode 関連のファイルのダウンロードを省略するようにしています。
