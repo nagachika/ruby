@@ -1,0 +1,1 @@
+ab0f2deab11a3203f9af3af1a27dfea1f4a882f3 の変更を Linux の時だけ CLOCK_MONOTONIC_RAW を除外するようにして、実施するところで削るんじゃなくて定数用意するところで削るように修正しています。
