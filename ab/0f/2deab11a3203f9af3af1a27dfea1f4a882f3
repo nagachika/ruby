@@ -1,0 +1,1 @@
+Process.clock_gettime が返す数値が Process.clock_getres の精度に従っているかチェックする rubyspec のテストが Hyper-V 上の VM に乗ってる Linux だと Process::CLOCK_MONOTONIC_RAW の時にエラーになるので、Process::CLOCK_MONOTONIC_RAW についてはこのテストを実行しないようにしています。
