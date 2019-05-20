@@ -1,0 +1,1 @@
+1e65196b54644c5a8fe53c98643ab7e87dfb87c0 で追加した標準添付ライブラリ reline の completion 用のコールバックで渡された文字列の Encoding のチェックで US-ASCII の時も許容するようにしています。
