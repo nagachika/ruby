@@ -1,0 +1,1 @@
+環境変数 RUBY_DEBUG に gc_stress をセットしていると起動時に死ぬ不具合の修正。 rb_vm_t::load_path の配列に要素を追加する時に rb_ary_modify() を呼んでおくようにしています。共有している配列を直接編集してしまったために RGenGC 用の Write Barrier がきいてなくて必要なオブジェクトが解放されてしまうことがあったようです。 [ruby-core:92537] [Bug #15821]
