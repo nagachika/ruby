@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor で multi line の入力が完了した時にインスタンス変数 @cursor を 0  にリセットするようにしています。
