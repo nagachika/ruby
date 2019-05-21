@@ -1,0 +1,1 @@
+rb_gc_compact() と gc_verify_compaction_references() の共通の後処理を gc_compact_after_gc() として切り出しています。
