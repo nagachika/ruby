@@ -1,0 +1,1 @@
+ir のオプションに --colorize/--nocolorize を追加して色付けをオプションで on/off できるようにしています。
