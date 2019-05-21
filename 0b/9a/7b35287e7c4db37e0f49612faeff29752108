@@ -1,0 +1,1 @@
+f2606d6250d5f4b2e7d02b97567b74de6435864a で追加した shared array でないかのチェックつき RARRAY_ASET() である ARY_SET() を inline 関数による実装に変更して、freeze されていないかのチェックも追加しています。さらに array.c 内では常に ARY_SET() 経由で使うようにしています。
