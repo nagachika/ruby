@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#reset を reset_variables メソッドとして改名して initialize でこれを呼ぶようにし、reset メソッドはさらに画面サイズなどの情報のリセットも含むようにしています。
