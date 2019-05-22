@@ -1,0 +1,1 @@
+reline のテストで Reline.test_mode メソッドを呼ぶようにしています。
