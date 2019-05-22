@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree::Node#inspect の表示の変更に追随して rdoc のサンプルでの出力例も修正しています。
