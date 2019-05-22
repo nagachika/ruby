@@ -1,0 +1,1 @@
+IRB::Context に --colorize の設定を伝播させるようにしています。 https://github.com/ruby/ruby/pull/2188
