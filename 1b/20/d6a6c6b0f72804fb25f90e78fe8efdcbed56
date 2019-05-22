@@ -1,0 +1,1 @@
+b00f280d4b9569e7153365d7e1c522b3d6b3c6cf の続きのリファクタリング。 build_const_path() の ID を文字列オブジェクト化する部分を除いた残りを build_const_pathname() という関数に切り出して rb_set_class_path_string() で再利用するようにしています。 [ruby-core:92253] [Feature #15765]
