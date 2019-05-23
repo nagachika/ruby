@@ -1,0 +1,1 @@
+gc_mark_maybe_() という関数の名前を gc_mark_maybe() に変更しています。 また GC.compact の追加後の追加修正で追加された gc_mark_and_pin_maybe() という関数を削除して gc_mark_maybe() を呼び出すように戻しています。
