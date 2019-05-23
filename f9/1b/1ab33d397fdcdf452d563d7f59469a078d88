@@ -1,0 +1,1 @@
+readline のテストで Readline 4.3 で不具合のために動かないテストの assertion を実行しないように条件分岐を追加しています。 [ruby-core:92676] [Bug #15853]
