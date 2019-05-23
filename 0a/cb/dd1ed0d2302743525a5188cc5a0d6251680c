@@ -1,0 +1,1 @@
+Enumerable#filter_map という filter/select + map のようなメソッドを新規追加しています。各要素毎のブロックの評価値が nil か false だとその要素は消されて、そうでなかったらブロックの評価値に変更したものを含む配列を返します。なるほど、たしかに map + compact することはあるので便利かも。 https://github.com/ruby/ruby/pull/2017 [ruby-core:89907] [Feature #15323]
