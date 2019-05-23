@@ -1,0 +1,1 @@
+poison_object(), unpoison_object() など ASAN 用のメモリ領域のチェック有無を制御する関数に asan_ という prefix を追加しています。
