@@ -1,0 +1,1 @@
+gc_pin() と gc_mark_and_pin() の両方で is_markable_object() のチェックをしていたのを、gc_pin() のほうでは省略して、gc_mark_and_pin() から pin する処理は gc_pin() を呼び出すようにリファクタリングしています。
