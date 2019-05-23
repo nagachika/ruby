@@ -1,0 +1,1 @@
+Range#inspect で beginless range の時に開始の値を nil と明記せず省略した表記をするようにしています。
