@@ -1,0 +1,1 @@
+rb_gc() の最後に gc_finalize_deferred() を呼び出すのを消しています。 finalizer の呼び出しは Ruby のプログラムが動く可能性があるためオブジェクト生成が行われる可能性があり GC.compact のテストで問題が起きてたようです。 GC.compact のテストを全体的にスキップしていたのを元に戻しています。 [ruby-core:92465] [Bug #15809]
