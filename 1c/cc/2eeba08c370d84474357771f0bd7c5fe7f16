@@ -1,0 +1,1 @@
+.travis.yml と appveyor.yml でチェックアウト後の make up で Unicode 系のデータファイルの更新を抑制するための変数定義を追加しています。
