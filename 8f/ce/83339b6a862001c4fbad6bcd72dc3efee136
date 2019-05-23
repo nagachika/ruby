@@ -1,0 +1,1 @@
+.travis.yml の ASAN/MSAN/UBSAN でのビルドの時にコンパイラオプションに -U_FORTIFY_SOURCE を追加してこのマクロを未定義にするようにしています。 https://github.com/google/sanitizers/issues/247
