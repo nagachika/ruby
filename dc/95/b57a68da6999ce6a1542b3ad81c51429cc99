@@ -1,0 +1,1 @@
+gc_compact_after_gc() で引数 use_verifier が真の時に compact 後だけでなく前にも gc_verify_internal_consistency() を呼び出すようにしています。
