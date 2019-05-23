@@ -1,1 +1,1 @@
-RUBY_FULL_REVISION はやっぱり先頭 10文字までの commit hash にして
+RUBY_REVISION はやっぱり先頭 10文字までの commit hash にして RUBY_FULL_REVISION という定数を追加してこっちにフルサイズの commit hash を定義するように、しているようにみえるのですがコミットログをみると RUBY_REVISION をフルサイズにするって書いてあるな……。
