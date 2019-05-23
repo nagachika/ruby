@@ -1,0 +1,1 @@
+appveyor.yml と azure-pipelines.yml のビルド対象のブランチ指定の変更を revert しています。これらの CI ツールでブランチ名のエイリアスがうまく扱えてない?
