@@ -1,0 +1,1 @@
+tool/make-snapshot の reiosion.h の RUBY_REVISION の定義で文字列をそのまま埋め込んでたので、String#dump を呼んでクオートつきにしておくようにしています。
