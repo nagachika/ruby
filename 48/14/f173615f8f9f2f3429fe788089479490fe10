@@ -1,0 +1,1 @@
+gc_ref_update() の中で T_ZOMBIE 型のオブジェクトも無視するようにしています。 rb_gc() で finalizer を起動しなくなったためにこのタイミングで T_ZOMBIE が残ってる可能性が出てきたようです。
