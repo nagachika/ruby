@@ -1,0 +1,1 @@
+と思ったら Time#floor も NEWS に追記されてなかったので f5415a95ce1d393a3fd1d7f657ba85d85171356a の Time#ceil と一緒に NEWS ファイルに追記しています。
