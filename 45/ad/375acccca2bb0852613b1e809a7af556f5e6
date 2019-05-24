@@ -1,0 +1,1 @@
+Time#round, Time#floor, Time#ceil の rdoc 用コメントのサンプルで Rational の引数を 1.1r のようなリテラル表記を使うようにしています。
