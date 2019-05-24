@@ -1,0 +1,1 @@
+r67632 で追加された Time#floor があるので Time#ceil も新規追加しています。 NEWS ファイルにも追記が必要ですね。 https://github.com/ruby/ruby/pull/2133
