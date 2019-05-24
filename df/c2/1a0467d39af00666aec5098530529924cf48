@@ -1,0 +1,1 @@
+.gitignore に bin/ と lib/ruby の配下の生成ファイルを追加しています。 [ruby-core:92808] [Bug #15870]
