@@ -1,0 +1,1 @@
+GC.verify_internal_consistency というメソッドで check_rvalue_consistency() という関数を呼んでオブジェクトのチェックを行なえるようになってましたが、この関数はビルド時に RGENGC_CHECK_MODE が 1以上に指定してビルドされてないとなにもしない関数なので、普通にビルドしてもチェックが行なわれるようにしています。
