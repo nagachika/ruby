@@ -1,0 +1,1 @@
+Time#round, Time#ceil, Time#floor の実装から共通部分を ndigits_denominator() という関数に切り出して共有しています。
