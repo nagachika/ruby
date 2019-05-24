@@ -1,0 +1,1 @@
+環境変数 RUBY_DEBUG に gc_stress をつけて起動する時のテストで assert_in_out_err のタイムアウトを 60秒に増やしています。
