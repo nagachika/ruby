@@ -1,0 +1,1 @@
+.travis.yml でテスト後に make leaked-globals を実行して意図しないシンボル公開をチェックさせるようにしています。
