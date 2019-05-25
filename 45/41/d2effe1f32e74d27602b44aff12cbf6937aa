@@ -1,0 +1,1 @@
+50e993d4e347bd3e821c4996cc745fa0aa74bd64 で rubyspec の Process.clock_getres のテスト全体を AIX でスキップさせてたのを、エラーになった定数のみ除外するように修正しています。
