@@ -1,0 +1,1 @@
+動機はよくわからないですが defs/gmake.mk で make install, make love などのターゲットで rdoc によるドキュメントを再生成させるようにしています。
