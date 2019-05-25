@@ -1,0 +1,1 @@
+Reline::LineEditor で Ctrl-V + Ctrl-j の入力で改行を挿入するように修正しています。
