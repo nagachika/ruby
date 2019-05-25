@@ -1,0 +1,1 @@
+POSIX timer がない環境での timer thread の実装でタイマースレッドがメインスレッドに SIGVTALRM を送信し損ねてハングアップしてしまうケースがあったようで、consume_communication_pipe() の戻り値をチェックして disarm されててもシグナル送信するパスを増やしています。チケットによると OpenBSD でのみ発生してる現象みたいですがたぶん他でも潜在的にはありえたんじゃないかなぁ。 [ruby-core:92428] [Bug #15798]
