@@ -1,1 +1,1 @@
-irb で Reline をデフォルトの複数行処理に使うようにしています。
+irb で Reline をデフォルトの複数行処理に使うようにしています。厳密には irb が Readline モードと Reidline モードというのを使い分けるようになり、Reidline モードというのが Reline を使って実装されている、という感じのようです。あわせてコマンドラインオプションに --reidline と --noreidline というのが追加されています。
