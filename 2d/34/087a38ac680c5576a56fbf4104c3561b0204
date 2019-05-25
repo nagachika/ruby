@@ -1,0 +1,1 @@
+4541d2effe1f32e74d27602b44aff12cbf6937aa の続きで rubyspec で Process.clock_getres のテスト全体を FreeBSD で除外してるところにコメントを追加して、個別の除外は fixtures/clocks.rb をいじるように注意書きを追記しています。
