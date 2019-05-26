@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor で補完処理時に Reline.completer_word_break_characters という設定を考慮するようにしています。
