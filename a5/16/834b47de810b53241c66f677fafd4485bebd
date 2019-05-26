@@ -1,0 +1,1 @@
+コマンドラインオプションのテスト test_script_from_stdin のタイムアウト値を EnvUtil.apply_timeout_scale を通して環境変数によるスケーリングに対応するようにしています。
