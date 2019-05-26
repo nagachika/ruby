@@ -1,0 +1,1 @@
+irb でエスケープシーケンスのエスケープに Reline::Unicode.escape_for_print を利用するようにしています。
