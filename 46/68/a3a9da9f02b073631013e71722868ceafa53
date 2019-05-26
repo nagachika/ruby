@@ -1,0 +1,1 @@
+ruby コアのテスト用のユーティリティ Envutil に timeout メソッドを追加して、タイムアウト値を環境変数 RUBY_TEST_SUBPROCESS_TIMEOUT_SCALE で変更できるようにして Timeout.timeout を使うようにして、一部のテストでこれを使うようにしています。
