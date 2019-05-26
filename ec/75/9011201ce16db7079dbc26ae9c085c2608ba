@@ -1,0 +1,1 @@
+reline の multiline editing の再描画時に補完によるメニュー表示への対応を追加しています。
