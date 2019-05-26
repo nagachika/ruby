@@ -1,1 +1,1 @@
-tool/make-snapshot で reivision 取得のためのブランチを現在のブランチを元にするようにしています。
+tool/make-snapshot で revision 取得のためのブランチを現在のブランチを元にするようにしています。
