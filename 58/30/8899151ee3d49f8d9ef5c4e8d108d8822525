@@ -1,0 +1,1 @@
+NotImplementedError のテストでも EnvUtil.timeout を利用するようにしています。
