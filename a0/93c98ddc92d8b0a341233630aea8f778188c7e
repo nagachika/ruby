@@ -1,1 +1,1 @@
-version.c で a205e24747497391390ef7c004293a8a7934dd96 で追加し RUBY_FULL_REVISION が未定義の時に RUBY_REVISION を利用するようにしています。
+version.c で a205e24747497391390ef7c004293a8a7934dd96 で追加した RUBY_FULL_REVISION が未定義の時に RUBY_REVISION を利用するようにしています。
