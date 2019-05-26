@@ -1,0 +1,1 @@
+r67224 の parser_yyerror() と parser_compile_error() への token_flush() 追加を revert しています。不正な文法のスクリプトに対して lexer がトークンを返してしまうのを修正しているそうです。 irb の multiline editing か colorization のためかな。
