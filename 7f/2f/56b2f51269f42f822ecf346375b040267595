@@ -1,1 +1,1 @@
-common.mk で make up 時の git pull のオプションを指定する変数 GITPULLOPTIONS に --rebase --autostash をセットしておくようにしています。 --autostash っていうのがるのか。
+common.mk で make up 時の git pull のオプションを指定する変数 GITPULLOPTIONS に --rebase --autostash をセットしておくようにしています。 --autostash っていうのがるのか。 [ruby-core:92809] [Bug #15871]
