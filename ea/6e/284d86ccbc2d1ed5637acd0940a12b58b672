@@ -1,0 +1,1 @@
+parse.y の static 関数 parser_tokadd_utf8() から prefix を削って tokadd_utf8() に改名しています。
