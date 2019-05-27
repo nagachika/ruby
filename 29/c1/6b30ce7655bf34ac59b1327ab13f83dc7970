@@ -1,0 +1,1 @@
+irb の history 機能を Readline 固定でなく Readline/Reline の利用しているほうに依存させるようにしています。
