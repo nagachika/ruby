@@ -1,0 +1,1 @@
+1d301acbe8e9b0df7872d6719d6646ade25630d6 で追加した Reline::ReidlineInputMethod の eof? 実装を super を呼ぶだけにしています。てことは定義しなくてもいいのでは……。
