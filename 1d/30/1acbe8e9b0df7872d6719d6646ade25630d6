@@ -1,0 +1,1 @@
+Reline::LineEditor で Ctrl-D で EOF を送出した時の不具合修正らしい。
