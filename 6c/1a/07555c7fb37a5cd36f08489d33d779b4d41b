@@ -1,0 +1,1 @@
+check_rvalue_consistency_force() でひとつのエラーで即 rb_bug() で強制終了するのではなく検出できる全エラーを標準エラー出力に出した後で異常終了するようにしてデバッグしやすくしています。また GC.verify_internal_consistency で呼ばれた時には異常終了しないようにしています。
