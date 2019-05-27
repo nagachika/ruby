@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor で multiline editing を完了後にカーソルを1行下に移動するようにしている?
