@@ -1,0 +1,1 @@
+デバッグ用のチェック関数 check_rvalue_consistency_force() で tomb heap 内を指してたら専用のエラーメッセージを出力するようにしています。
