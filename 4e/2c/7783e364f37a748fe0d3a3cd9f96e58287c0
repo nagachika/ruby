@@ -1,0 +1,1 @@
+reline の Reline::LineEditor で history が空っぽの時にエラーになるのを修正しています。
