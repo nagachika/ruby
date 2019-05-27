@@ -1,0 +1,1 @@
+6ae9d5c85f3a2a7002b8fc0525e3aca645ec1709 で revert された 712c027524e3a03500b3098d950fc2f0608ce897 の is_pointer_to_heap() で tomb heap を指してたら FALSE を返す変更のリトライ。 heap_page_add_freeobj() で生きてるオブジェクトかどうかでなくて heap を指してるかどうかという意味で呼んでるところがあったので、そこでインラインで処理を書いて回避しています。
