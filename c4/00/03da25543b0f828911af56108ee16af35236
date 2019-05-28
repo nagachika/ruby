@@ -1,0 +1,1 @@
+拡張ライブラリ ripper で Ripper#token メソッドを追加して、おそらく SyntaxError 時に参照する用だと思いますがその時点で読んでた token を返せるようにしています。 EXPERIMENTAL て書かれてるので仕様は模索中かも。
