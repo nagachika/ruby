@@ -1,0 +1,1 @@
+reline の Reline.retrieve_completion_block という属性は削除して Reline.completer_quote_characters を利用して Reline.retrieve_completion_block というメソッドを追加してこのメソッド呼び出しを使うようにしています。
