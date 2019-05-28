@@ -1,0 +1,1 @@
+reline の Reline::LineEditor で非表示文字の判定するのに OSC というのをサポートするための正規表現を追加していますが、OSC ってなんだろ……。 Open Sound Control じゃないよなぁ……。
