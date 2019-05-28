@@ -1,0 +1,1 @@
+77bfebebc44c5e46ebd156d074081846c037f882 の reline での OSC サポート追加の再適用。 allow_escape_code が false の時の分岐での戻り値がちゃんと伝播できてなかったのを修正しています。
