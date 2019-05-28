@@ -1,0 +1,1 @@
+reline の Windows 版向けの GetKeyState() を利用したキー入力チェックで VK_MENU でなく VK_LMENU という定数を使うようにしています。ALT キーの判定のためらしい。
