@@ -1,0 +1,1 @@
+irb でバッファを RubyVM::InstructionSequence.compile で一旦コンパイルしてみる時に parse や compile の段階で出る警告が出てしまうので、$VERBOSE を局所的に nil にセットして抑制するようにしています。
