@@ -1,0 +1,1 @@
+7f211bfe6c5e4a763412406e5e257ea275ca53da の修正漏れを修正。 init_cursors() でインデックス初期化する時も eden heap の page 数を使うように追随しています。
