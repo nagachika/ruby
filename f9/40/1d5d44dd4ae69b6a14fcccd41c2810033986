@@ -1,0 +1,1 @@
+count_pinned() で T_ZOMBIE になってるオブジェクトは RVALUE_PINNED() を呼ばずに pin されてると判定するように修正しています。
