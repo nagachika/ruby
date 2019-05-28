@@ -1,0 +1,1 @@
+allocate_page_list() で calloc(3) のかわりに malloc(3) を利用するようにリファクタリング。
