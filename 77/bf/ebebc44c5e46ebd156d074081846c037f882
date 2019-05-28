@@ -1,1 +1,1 @@
-reline の Reline::LineEditor で非表示文字の判定するのに OSC というのをサポートするための正規表現を追加していますが、OSC ってなんだろ……。 Open Sound Control (MIDI の代替として提案されている演奏情報用のプロトコル)じゃないよなぁ……。
+reline の Reline::LineEditor で非表示文字の判定するのに OSC というのをサポートするための正規表現を追加していますが、OSC ってなんだろ……。 Open Sound Control (MIDI の代替として提案されている演奏情報用のプロトコル)じゃないよなぁ……。というのは冗談で Operating System Command の略らしい。
