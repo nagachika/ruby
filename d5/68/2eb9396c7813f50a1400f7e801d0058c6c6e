@@ -1,0 +1,1 @@
+lib/irb/completion.rb に不要な変数の代入が残ってたので削除しています。
