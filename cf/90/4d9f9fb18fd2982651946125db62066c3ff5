@@ -1,0 +1,1 @@
+Travis-CI と AppVeyor でとりあえずは trunk でビルドするようにして逆に master は除外するようにしています。
