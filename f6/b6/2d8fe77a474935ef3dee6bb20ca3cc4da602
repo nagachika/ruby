@@ -1,0 +1,1 @@
+同じく reline の Windows 向け実装で Shift-Enter と Meta-Enter を判定する処理を追加。
