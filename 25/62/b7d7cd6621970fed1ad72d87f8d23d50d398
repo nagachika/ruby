@@ -1,0 +1,1 @@
+appveyor.yml でテスト時に環境変数 RELINE_TEST_ENCODING を設定する指定をトップレベルに統一しています。
