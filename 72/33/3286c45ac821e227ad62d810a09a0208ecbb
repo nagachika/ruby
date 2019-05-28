@@ -1,0 +1,1 @@
+af17e111b3f7cb3c5ad7dc194399b44d0e5004d0 で Ripper::Lexter#inspect および #pretty_print に埋め込む式の typo 修正。
