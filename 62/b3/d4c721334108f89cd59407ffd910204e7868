@@ -1,0 +1,1 @@
+parse.y の parse_atmark() で @ のあとに数字が出現して SyntaxError の時はクラス変数っぽい prefix (@@1 とか)の時でも位置情報をずらしておくようにしています。
