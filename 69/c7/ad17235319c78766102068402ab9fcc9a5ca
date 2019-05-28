@@ -1,0 +1,1 @@
+Reline::LineEditor の emacs binding の em_delete_or_list というメソッドでマルチライン時のための判定を追加しています。
