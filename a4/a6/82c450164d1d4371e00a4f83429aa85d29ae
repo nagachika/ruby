@@ -1,0 +1,1 @@
+d341bb285768ae70bc8d251e577181c57322968c の続きで、環境変数 RUBY_YES_I_AM_NOT_A_NORMAL_USER に任意の値をセットしておくと RubyVM の rdoc も表示されるようにしています。
