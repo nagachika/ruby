@@ -1,0 +1,1 @@
+Reline::HISTORY で履歴追加時に常に history_size 以下になるように古い履歴を捨てるようにしています。また reline のテストの Reline::Config と Reline::LineEditor のインスタンスをクラス変数からひっぱってきて使いまわすようにしています。いいのかなこれは。
