@@ -1,0 +1,1 @@
+rubyspec の a66bc2c01194a9c017c874a30db5b3b6bd95e966 の更新で Travis-CI で通らなくなったテストをとりあえず macOS で除外するようにしています。
