@@ -1,0 +1,1 @@
+util_spec_rb_get_kwargs() で keys の配列帳を RARRAY_LENINT() で取り出すようにして警告除去しています。
