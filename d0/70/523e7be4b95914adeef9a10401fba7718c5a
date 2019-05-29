@@ -1,0 +1,1 @@
+Travis-CI の build matrix から uinversal.x86_64h-darwin17 というのを削除しています。
