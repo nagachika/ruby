@@ -1,0 +1,1 @@
+irb のシンタックスハイライトで on_parse_error だけでなく compile_error の時の色付けにも対応しています。
