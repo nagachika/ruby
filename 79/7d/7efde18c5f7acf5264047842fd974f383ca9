@@ -1,0 +1,1 @@
+やはり GC.compact でオブジェクト移動中は MJIT で ISeq を触るのはまずいようで、GC.compact 中に MJIT を一部停止するようにしています。ただ 4fe908c1643c3f355edd787bb651aefb53b996c0 のように gc_verify_compaction_references() で worker 全体を mjit_pause()/mjit_resume() するのではなくて gc_compact_after_gc() でロックを取得するようにもうちょっと軽量に行うようにしています。
