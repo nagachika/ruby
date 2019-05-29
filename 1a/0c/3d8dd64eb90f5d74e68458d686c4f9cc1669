@@ -1,0 +1,1 @@
+tool/vcs.rb の String#lines に明示的に to_a を呼び出して配列に変換しておくようにしています。 BASERUBY が 1.9.3 でも動くようにするため。
