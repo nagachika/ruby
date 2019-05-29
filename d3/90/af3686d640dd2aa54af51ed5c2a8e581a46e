@@ -1,0 +1,1 @@
+irb の completion 用の Proc で結果を Encoding.default_external に encode しなおすようにしています。
