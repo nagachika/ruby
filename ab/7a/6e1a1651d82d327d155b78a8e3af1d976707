@@ -1,0 +1,1 @@
+559dca509d2a98584b09c7d9a6d74749ce793ad7 の irb での補完での rdoc 表示機能で require の間違いを修正。
