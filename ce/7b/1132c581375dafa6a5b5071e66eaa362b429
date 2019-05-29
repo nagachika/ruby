@@ -1,0 +1,1 @@
+mjit_worker.c の print_jit_result() の中で iseq->body->location から行番号を取り出すのをやめて呼び元から引数で受けとるようにしています。 GC.compact 中に動くと壊れることがあるのに対応するためみたいです。
