@@ -1,0 +1,1 @@
+revision.h の生成時に tool/file2lastrev.rb の実行エラーを無視してましたが、これは BASERUBY がそもそもない環境向けだったので、BASERUBY があって(HAVE_BASERUBY)エラーになった時は無視しないようにしています。
