@@ -1,0 +1,1 @@
+include/ruby/ruby.h に ISBLANK(), ISCNTRL(), ISPUNCT() といったマクロを追加しています。 ISSPACE(), ISALPHA() とかの仲間ですね。
