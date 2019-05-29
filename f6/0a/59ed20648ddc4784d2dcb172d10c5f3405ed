@@ -1,0 +1,1 @@
+appveyor.yml でビルドに使うライブラリの pacman でのインストールを追加、変更しています。msys2 の更新? で動かなくなったのに対応しているようです。 https://github.com/ruby/ruby/pull/2208
