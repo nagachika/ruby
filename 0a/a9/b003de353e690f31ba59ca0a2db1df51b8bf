@@ -1,1 +1,1 @@
-irb で SyntaxError 発生時の行数の表示を修正。
+irb で SyntaxError 発生時に例外の取得のために作るスクリプトの内容の表示を修正。
