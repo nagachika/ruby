@@ -1,1 +1,1 @@
-reline の 3b7862c8e88cd7838a53ec083ac5733386400956、c67934b1c3b40dda5f170b032423e520511c68dd、f0d1dc5cee87dfb023cb43a2db9bcdef5a8dee8f を revert しています。CI で止まってしまったため。やっぱりクラス変数で使いまわすのがまずかったんじゃないかな。
+reline の 3b7862c8e88cd7838a53ec083ac5733386400956、c67934b1c3b40dda5f170b032423e520511c68dd、f0d1dc5cee87dfb023cb43a2db9bcdef5a8dee8f を revert しています。CI で止まってしまったため。やっぱりクラス変数で使いまわすのがまずかったんじゃないかな。一緒に Reline::HISTORY の修正も revert されてますね。
