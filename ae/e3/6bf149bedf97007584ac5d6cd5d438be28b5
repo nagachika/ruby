@@ -1,0 +1,1 @@
+remove_coverage_i() や trace_set_i() で asan_poison_object() を呼ぶ前にポインタの NULL チェックをしていたら Coverity Scan がこの文は決して実行されないという警告を出したので(誤検出?) 分岐込みの asan_poison_object_if() を導入しています。
