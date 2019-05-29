@@ -1,0 +1,1 @@
+3e54ff67e6dc1c5882fc05392add09bc59c1afae の Travis-CI での BASERUBY の動作確認用のビルドを build matrix に差し込む位置をちょっと変更しています。この順序意味あるのか。
