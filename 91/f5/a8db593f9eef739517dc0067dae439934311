@@ -1,0 +1,1 @@
+rubyspec の upstream からの再 merge。 BigDecimal::BASE のチェックを wordsize で分けずにまとめてます。
