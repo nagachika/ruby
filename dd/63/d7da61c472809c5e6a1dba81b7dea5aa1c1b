@@ -1,0 +1,1 @@
+gc.c の構造体 struct heap_page の中でビットマップを保持する pinned_bits メンバーを最後に移動しています。あんまり使わないからとのことですが、これ memory access の locality の改善でキャッシュ効率が良くなるとかそういうことでしょうか。
