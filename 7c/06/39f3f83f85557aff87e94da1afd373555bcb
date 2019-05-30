@@ -1,1 +1,1 @@
-ce7b1132c581375dafa6a5b5071e66eaa362b429 のさらに続き。 convert_unit_to_func() から print_jit_result() のために FIX2IN() を呼んでたのを FIX2LONG() に変更して print_jit_result() の引数の方も変更しています。また FIXNUM_P() でチェックしてから呼ぶようにして例外発生など ruby レベルの処理を利用しないようにしています。
+ce7b1132c581375dafa6a5b5071e66eaa362b429 のさらに続き。 convert_unit_to_func() から print_jit_result() のために FIX2INT() を呼んでたのを FIX2LONG() に変更して print_jit_result() の引数の方も変更しています。また FIXNUM_P() でチェックしてから呼ぶようにして例外発生など ruby レベルの処理を利用しないようにしています。
