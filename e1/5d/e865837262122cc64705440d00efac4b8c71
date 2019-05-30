@@ -1,0 +1,1 @@
+rb_objspace_t::flags に during_compacting というフラグを追加して、GC.compact の実行中のみ mark 時の pin の bitmap の更新を行うようにしています。GC.compact は明示的に呼ばないと発生しないので(今のところ?)、通常時に不要な処理をしないようにしています。
