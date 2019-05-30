@@ -1,0 +1,1 @@
+mjit_worker.c の print_jit_result() を削除して iseq から必要な情報を alloca(3) でコピーしてから verbose() を呼ぶようにしています。 GC.compact で参照してる ISeq のオブジェクトが移動されるのにたいする対策のようです。
