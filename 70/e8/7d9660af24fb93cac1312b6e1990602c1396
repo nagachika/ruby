@@ -1,0 +1,1 @@
+irb の色付けの有無の判定に IRB.conf[:MAIN_CONTEXT].use_colorize? を使ってたところで初期化前に走る可能性があるので IRB.conf[:USE_COLORIZE] を直接参照するように修正しています。
