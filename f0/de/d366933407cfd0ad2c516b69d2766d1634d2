@@ -1,0 +1,1 @@
+tool/vcs.rb で Regexp#match? を利用していたのを Regexp#match を使うように書き換えています。 BASERUBY 1.9 でも動くようにするため。
