@@ -1,0 +1,1 @@
+構造体のメンバーへのアクセスに使う UNALIGNED_MEMBER_ACCESS() マクロの定義する条件に GCC 9 以降というのも追加しています。 GCC 9 で -Waddress-of-packed-member オプションがサポートされるようになったそうです。
