@@ -1,0 +1,1 @@
+5b64d7ac6e7cbf759b859428f125539e58bac0bd で irb から ripper のメソッド Ripper::Lexer#scan として抽出したエラーも含めて結果を取る処理を、再び irb 側に移動しています。
