@@ -1,0 +1,1 @@
+アライメントの取れてない構造体メンバーへのアクセスの警告を抑制する UNALIGNED_MEMBER_PTR() などのマクロ定義を eval_intern.h から internal.h に移動して、利用箇所を増やしています。
