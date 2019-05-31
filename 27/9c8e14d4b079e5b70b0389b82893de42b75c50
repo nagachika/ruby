@@ -1,0 +1,1 @@
+Reline::LineEditor#rerender で再描画用のバッファを @buffer_of_lines をそのまま使わず一度 whole_lines を呼んで現在の行を更新してから処理するように修正しています。
