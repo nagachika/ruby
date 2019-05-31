@@ -1,0 +1,1 @@
+rubyspec で UNIX domain socket を用意する時にパス名が長すぎてエラーになった時は無視するようにしています。
