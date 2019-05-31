@@ -1,0 +1,1 @@
+method.h に TODO コメントされてたとおり VM_METHOD_TYPE_MINIMUM_BITS のサイズについて STATIC_ASSERT() で充分な数が指定されていることを確認するようにしています。
