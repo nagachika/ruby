@@ -1,0 +1,1 @@
+tool/make-snapshot で include/revision.h に定義を生成するマクロ RUBY_FULL_REVISION は RUBY_REVISION に定義されるのが切り詰められたものだった時だけにしています。うーん、これは古い安定版ブランチで trunk の tool/make-snapshot を使った時のこと想定してるのかな? tool/make-snapshot はたぶん各ブランチのものを使ってしまうような気がするけど。
