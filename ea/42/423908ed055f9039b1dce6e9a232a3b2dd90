@@ -1,0 +1,1 @@
+rb_vm_t::orig_progname が mark 漏れしていて Process.argv0 で SEGV することがあった不具合を修正しています。なんということでしょう。しかも結構前からみたい。 [ruby-core:92884] [Bug #15887]
