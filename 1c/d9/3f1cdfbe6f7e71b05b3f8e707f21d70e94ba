@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate の Kernel#DelagateClass() メソッドがブロックを受け取るようにして、そのブロックを生成した Class の Module#module_eval に渡すようにしています。Class.new や Struct.new でできるのと同様のことができるようにしたとのこと。
