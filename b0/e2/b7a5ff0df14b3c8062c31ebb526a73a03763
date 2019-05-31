@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper::Lexer#scan でエラー時に @stack に残っている要素もまとめて返すようにしています。
