@@ -1,0 +1,1 @@
+tool/vcs.rb の VCS::GIT.get_revisions で現在のブランチが detauched でもその名前を使うようにしています。
