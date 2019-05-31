@@ -1,0 +1,1 @@
+tool/file2lastrev.rb に --limit というオプションを追加して RUBY_BRANCH_NAME マクロの値に定義するブランチ名の長さの上限を指定できるようにしています。デフォルトは 20。
