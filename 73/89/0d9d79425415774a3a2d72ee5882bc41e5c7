@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で 環境変数 RELINE_STDERR_TTY でエラー出力を指定のファイルに出力する時に puts を再定義して毎回 flush するようにしています。sync=true でいいんじゃないかな。
