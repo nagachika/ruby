@@ -1,0 +1,1 @@
+Reline::LineEditor#process_key の第3引数の Method オブジェクトは第2引数から自明に取り出せるのでメソッド内で作るようにして引数を削っています。
