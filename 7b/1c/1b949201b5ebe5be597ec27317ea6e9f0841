@@ -1,0 +1,1 @@
+Reline::LineEditor#process_key で引数に Symbol が渡された時の処理を追加しています。
