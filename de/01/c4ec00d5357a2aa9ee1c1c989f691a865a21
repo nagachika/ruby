@@ -1,0 +1,1 @@
+Reline::Config のテストの teardown で Reline::Config#reset を呼んでおくようにしています。
