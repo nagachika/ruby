@@ -1,0 +1,1 @@
+reline で inputrc を読み込むのに open してから readlines してたのを File.readlines を使うようにリファクタリング。
