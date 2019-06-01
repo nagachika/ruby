@@ -1,1 +1,1 @@
-Reline::LineEditor#readmultiline は常にブロックつきの呼び出しを要求するように分岐を削除しています。
+Reline::LineEditor#readmultiline は常にブロックつきの呼び出しを要求するように分岐を削除しています。とはいえ inner_readline にブロック引数で委譲しているだけなのでつけなくてもエラーにはならないか。
