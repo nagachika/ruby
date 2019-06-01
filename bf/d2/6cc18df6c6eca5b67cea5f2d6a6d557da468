@@ -1,0 +1,1 @@
+Reline::LineEditor#readmultiline は常にブロックつきの呼び出しを要求するように分岐を削除しています。
