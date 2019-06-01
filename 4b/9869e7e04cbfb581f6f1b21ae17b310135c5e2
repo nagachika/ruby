@@ -1,0 +1,1 @@
+String#crypt のテストに OpenBSD 向けの分岐を追加しています。なんだろうこの magic number は。チケットのほうをみても CI の修正ではないみたいだしはて。 [ruby-core:70015] [Bug #11363]
