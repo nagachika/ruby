@@ -1,1 +1,1 @@
-rubyspec の upstream からのマージ。
+rubyspec の upstream からのマージ。 Enumerable#tally のテストが追加されています。
