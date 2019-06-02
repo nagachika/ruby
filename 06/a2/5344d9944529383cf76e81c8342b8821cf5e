@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で Dir.glob の結果を sort することでビルド結果に再現性があるようにしています。 [ruby-core:92899] [Bug #15890]
