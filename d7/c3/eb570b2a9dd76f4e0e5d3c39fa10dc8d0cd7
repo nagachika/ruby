@@ -1,0 +1,1 @@
+reline の未使用になってた定数 Reline::VI_OPERATORS を削除しています。
