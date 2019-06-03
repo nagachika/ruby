@@ -1,0 +1,1 @@
+Reline::LineEditor のカーソル移動のメソッドにいくつか alias を追加しています。
