@@ -1,0 +1,1 @@
+Reline::LineEditor のマクロを処理するメソッドの引数の数をチェックして不正な呼び出しで ArgumentError にならないように修正しています。 https://github.com/ruby/ruby/pull/2221
