@@ -1,0 +1,1 @@
+gc.c の rb_objspace_pinned_object_p() という関数はほぼなにもしてない wrapper になってたので直接 RVALUE_PINNED() を呼ぶようにリファクタリングしています。
