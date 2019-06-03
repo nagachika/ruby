@@ -1,0 +1,1 @@
+make benchmark でベンチマーク実行する ruby は miniruby ではなく $(RUNRUBY) にしています。 72ad092960c413b6a5687c552747b20a5ed78b22 で追加したベンチマークが require "time" していて、miniruby では拡張ライブラリが使えないため失敗してたためとのこと。
