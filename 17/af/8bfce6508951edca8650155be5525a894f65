@@ -1,0 +1,1 @@
+終端のない Enumerable#each_slice が返す Enumerator の size メソッドが Float::INFINITY を返すようにしています。 こういうのいっぱいありそうだけど each_slice だけなのかな。 [ruby-core:92894] [Bug #15889]
