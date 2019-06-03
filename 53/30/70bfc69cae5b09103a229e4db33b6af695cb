@@ -1,0 +1,1 @@
+4fda39fc8788cbcdd07f04768ec84faf3ea44721 で reline のテストで inputrc ファイルの内容を正規表現で split して行に分割してたのを単に String#lines を呼ぶようにリファクタリングしています。
