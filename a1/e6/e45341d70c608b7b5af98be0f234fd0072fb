@@ -1,0 +1,1 @@
+reline が読み込む inputrc のパスを環境変数 INPUTRC から読む時も File.expand_path を通すようにしています。
