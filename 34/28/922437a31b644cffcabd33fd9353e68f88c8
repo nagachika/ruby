@@ -1,0 +1,1 @@
+reline の vi モードでの "^" の処理を ed_move_to_beg から vi_first_print に変更しています。期待される動きがちょっと違うみたい。
