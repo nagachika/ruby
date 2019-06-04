@@ -1,0 +1,1 @@
+Random オブジェクトの内部で使われてる T_TYPEDDATA 型オブジェクトのタイプの名前を "random" -> "random/MT" に変更して、型情報を格納する変数名も変更しています。また Init_Random_default() という初期化関数に Class を渡すようにしていますが、呼んでるところでは同じ rb_cRandom を渡してるので結果は同じですね。
