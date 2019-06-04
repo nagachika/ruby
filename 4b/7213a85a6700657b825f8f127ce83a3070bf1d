@@ -1,0 +1,1 @@
+reline の emacs モードで Meta-t による ed_transpose_words という処理を実装しています。単語単位の前後の入れ替え。
