@@ -1,0 +1,1 @@
+marshal.c の rb_marshal_dump_limited() と rb_marshal_load_with_proc() という関数は誤って static として marshal.c の先頭で宣言されてましたが、rb_ の prefix もついてるので宣言を include/ruby/ruby.h に移動して公開 API にしています。
