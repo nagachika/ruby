@@ -1,0 +1,1 @@
+make の出力に色付けするための tool/colorize.rb で test/colors というファイルから設定を読み込むようにしています。
