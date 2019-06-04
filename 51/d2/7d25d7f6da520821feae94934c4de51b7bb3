@@ -1,0 +1,1 @@
+test/lib/test/unit.rb での出力の色付けを tool/colorize.rb を require して使うようにしています。うーん、tool/ 配下に依存しちゃうのか…。
