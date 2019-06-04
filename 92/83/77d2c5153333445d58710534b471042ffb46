@@ -1,0 +1,1 @@
+ということで bash 依存を入れていた 4c0e21add7c87b70df27fbff81d8f192a467556d のほうを revert しています。
