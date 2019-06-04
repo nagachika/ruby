@@ -1,0 +1,1 @@
+58fd27d3d89451fbbe840348cd66f2205e34e72b の追加修正。 tool/colorize.rb の Colorize.new で設定ファイルをキーワード引数で受け取るようにして省略可能にしています。
