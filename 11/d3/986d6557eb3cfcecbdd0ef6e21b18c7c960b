@@ -1,0 +1,1 @@
+4c0e21add7c87b70df27fbff81d8f192a467556d で common.mk に bash 依存が入ってたので SHELL 変数を /bin/bash に変更しています。 おお、しかし意外と壊れる環境ありそう。
