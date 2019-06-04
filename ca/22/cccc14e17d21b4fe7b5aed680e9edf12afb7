@@ -1,0 +1,1 @@
+gc.c の allocate_page_list() で VC++ の警告抑制のため明示的な初期化を追加しています。
