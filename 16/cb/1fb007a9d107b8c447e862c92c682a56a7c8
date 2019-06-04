@@ -1,0 +1,1 @@
+tool/extlibs.rb で tool/colorize をロードして出力を色付けするようにしています。
