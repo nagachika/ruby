@@ -1,0 +1,1 @@
+790a1b17902f7ccb5939b9e0314571079fc30bc8 の続きで mark_keyvalue() で key を pin しなくなったので mark_hash() で compare_by_id タイプのテーブルだったらやっぱり key を pin する pin_key_mark_value() という関数を新設してこちらを使うようにしています。
