@@ -1,0 +1,1 @@
+Proc/Binding の GC.compact 対応を追加しています。 rb_block_t の移動に追随する block_compact() を追加して Proc/Binding からの参照を更新できるようにしてこれらのオブジェクトの mark でオブジェクトを pin しないようにしています。
