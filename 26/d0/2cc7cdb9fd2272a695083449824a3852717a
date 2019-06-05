@@ -1,0 +1,1 @@
+tool/runruby.rb で lldb 経由の起動の時も misc/lldb_cruby.py をロードするようにしています。
