@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::KeyStroke#read_io の実装を Reline 自体に移動するリファクタリング。 Reline::KeyStroke のインスタンスはクラス変数に格納するようにしています。
