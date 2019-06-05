@@ -1,0 +1,1 @@
+b2fe7484e7e7c7741f33bfb02c2fc91f03763ab4 の変更で FrozenError のメッセージの構築のために inspect を呼ぶ時に再帰的呼び出しを抑制するため rb_exec_recursive() 経由で呼ぶようにしています。
