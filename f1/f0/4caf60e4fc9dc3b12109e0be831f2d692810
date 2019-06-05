@@ -1,0 +1,1 @@
+FrozenError 発生時のメッセージに receiver のオブジェクトを inspect で文字列化したものも埋め込むようにしています。
