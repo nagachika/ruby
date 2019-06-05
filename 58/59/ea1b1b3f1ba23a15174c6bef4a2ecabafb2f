@@ -1,0 +1,1 @@
+tool/runruby.rb で gdb 経由の実行の時に -x オプションで .gdbinit をロードするようにしています。
