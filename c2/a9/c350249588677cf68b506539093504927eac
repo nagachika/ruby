@@ -1,0 +1,1 @@
+lib/rubygems.rb に再帰的 require の警告を抑制するため require "bundler" に後置 if で条件を追加しています。
