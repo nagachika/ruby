@@ -1,0 +1,1 @@
+8d81e59aa7a62652caf85f9c8db371703668c149 の CGI.escapeHTML のリトライです。 ALLOCA_N() のかわりにサイズが大きい時はヒープを使う ALLOCV_N() を利用してメモリ確保するようにしています。 https://github.com/ruby/ruby/pull/2226
