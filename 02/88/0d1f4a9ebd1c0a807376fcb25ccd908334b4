@@ -1,0 +1,1 @@
+reline の emacs mode での transpose_words でバッファに単語が1つしかない時のショートカットを追加しています。
