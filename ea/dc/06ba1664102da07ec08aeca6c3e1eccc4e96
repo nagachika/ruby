@@ -1,0 +1,1 @@
+reline の emacs mode での transpose_words のテストでマルチバイト文字の時のテストケースを追加しています。
