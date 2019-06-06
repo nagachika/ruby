@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテスト用の鍵を OpenSSL 1.1.1 の要求する強度にするため作りなおしています。 https://github.com/ruby/openssl/pull/217
