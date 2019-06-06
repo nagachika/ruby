@@ -1,0 +1,1 @@
+rubygems の Gem.use_gemdeps でメッセージの抑制のため Gem::DefaultUserInteraction.ui で出力をリダイレクトしている場合に fd leak するのを避けるため ensure 節での close を追加しています。
