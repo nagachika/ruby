@@ -1,0 +1,1 @@
+net/http のテストでタイムアウトの数値を EnvUtil.apply_timeout_scale を通すことで環境変数によるスケーリングに対応するようにしています。 Solaris での CI のタイムアウト対策とのこと。
