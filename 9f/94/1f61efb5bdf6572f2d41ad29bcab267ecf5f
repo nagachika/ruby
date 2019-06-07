@@ -1,0 +1,1 @@
+60924636e5184c967df129e523ba9374ccc57144 と同じく webrick のテストでもタイムアウト値を EnvUtil.apply_timeout_scale を利用するようにしています。
