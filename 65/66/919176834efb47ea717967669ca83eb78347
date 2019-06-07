@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のヒアドキュメントの終端の判定で末尾の改行の除去を正規表現を使った gsub からたんに String#chomp と String#lstrip! を利用するように変更しています。リファクタリングかと思ったけどコミットログによると改行に \r (CR) が含まれていた時にも対応するという意味もあるようです。 http://github.com/ruby/rdoc/issues/694, http://github.com/ruby/rdoc/issues/697, http://github.com/ruby/rdoc/issues/705
