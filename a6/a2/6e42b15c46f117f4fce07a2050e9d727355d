@@ -1,0 +1,1 @@
+peephole optimization による VM 命令列の最適化で a = a のような無意味な式を if 文の本体に持つ文がうまく動かないことがある不具合を修正しています。 iseq_peephole_optimization() で if 文の条件部で prev insn がない時にも変数に代入してしまう副作用があったため後の条件分岐がおかしくなってしまったみたいです。 [ruby-dev:50792] [Bug #15906]
