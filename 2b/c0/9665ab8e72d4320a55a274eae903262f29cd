@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の Win32::Registry#each_value で例外発生時にも index を増やすように修正しています。
