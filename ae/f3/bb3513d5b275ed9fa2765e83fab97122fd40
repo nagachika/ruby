@@ -1,0 +1,1 @@
+Makefile.in 内の Makefile ターゲットの依存関係から Makefile.in 自身を削除しています。あれ、これはいいのかな?
