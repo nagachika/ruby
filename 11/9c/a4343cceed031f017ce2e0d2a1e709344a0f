@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres や socket のテストで OpenBSD でサポートされないものを実行除外するようにしたり、 String#crypt のテストを OpenBSD だけ独自のものに書きかえたりしています。
