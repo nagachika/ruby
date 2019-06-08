@@ -1,0 +1,1 @@
+rubygems の個別のファイルに明示的な require 'rubygems/package' を追加しています。 gem unpack でのエラーを修正するためとのこと。
