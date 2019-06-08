@@ -1,0 +1,1 @@
+b76630f73e8362d3072bfa7178471ddc5d21c235 の rubygems の明示的 require の追加を revert しています。 bundler のテストが失敗していた模様。
