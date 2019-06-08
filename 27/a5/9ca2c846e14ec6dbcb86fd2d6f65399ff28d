@@ -1,0 +1,1 @@
+macOS で __has_feature() および __has_attribute() が未定義だった時に API_AVAILABLE() と API_DEPRECATED() というマクロを定義するようにしています。よくわかりませんがコミットログによれば MacPorts でインストールした gcc でのビルドエラーを修正するとのことで、Xcode 10.2.1 でインストールされているヘッダがおかしいんじゃないかとのこと。
