@@ -1,0 +1,1 @@
+tool/file2lastrev.rb で revision.h を生成する時にリリース版でない時(RUBY_PATCHLEVEL が -1 の時)に RUBY_RELEASE_DATE に時刻まで含めるようにしています。 revision が commit hash になったのでぱっと見でどのへんのバージョンかわからなくなったため。
