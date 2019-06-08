@@ -1,0 +1,1 @@
+test/unit の並列実行時に子 worker が死んだ時の pipe からの読み出しの Errno::EPIPE を警告にするようにしています。
