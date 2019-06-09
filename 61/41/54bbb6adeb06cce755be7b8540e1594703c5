@@ -1,0 +1,1 @@
+make test-bundler の前処理で gem パッケージインストール時に rake への依存関係も追加しています。
