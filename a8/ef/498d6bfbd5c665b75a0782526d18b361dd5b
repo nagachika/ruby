@@ -1,0 +1,1 @@
+File.read の mode 引数に BOM をつけた時のテストの assertion にメッセージを追加したり assertion を追加したりしています。
