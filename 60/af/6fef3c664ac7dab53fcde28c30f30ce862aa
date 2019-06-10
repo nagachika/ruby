@@ -1,0 +1,1 @@
+rubygems の標準添付ライブラリ resolv のテストでシステムの /etc/hosts ファイルに依存しないように Resolv::Hosts.new の生成時に fixture のファイルを指定するようにしています。
