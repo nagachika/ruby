@@ -1,0 +1,1 @@
+.travis.yml の before_script に ~/.irbrc が読まれたらエラーにするためにわざと例外を発生させる ~/.irbrc を生成しておくようにしています。
