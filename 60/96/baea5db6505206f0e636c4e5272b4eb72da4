@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテストで Thread のタイムアウトに EnvUtil.apply_timeout_scale を経由した数値を使って環境変数でスケーリングできるようにしています。
