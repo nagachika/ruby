@@ -1,0 +1,1 @@
+pattern match の文法のコンパイルでオブジェクトのクラスのチェックに putobject+checkmatch を使っていたところを checktype 命令を使うように最適化しています。
