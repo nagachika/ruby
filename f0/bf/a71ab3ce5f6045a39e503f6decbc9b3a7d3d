@@ -1,0 +1,1 @@
+02155da7bad37bd1c8adadd486d2d16eac7af43b の再修正。時刻を埋め込む時の timezone の部分は Z を決め打ちにしています。
