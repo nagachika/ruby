@@ -1,0 +1,1 @@
+拡張ライブラリ socket で TCPServer の時は自動的に setsockopt(3) で SO_REUSEADDR をつけてましたが、TCPSocket の時もローカルアドレスの指定があったら SO_REUSEADDR をつけるようにしています。 rubyspec でたまに失敗してしまうのでその対策とのこと。
