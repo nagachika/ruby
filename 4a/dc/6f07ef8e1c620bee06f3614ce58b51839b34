@@ -1,0 +1,1 @@
+test/unit の assert_cpu_usage_low という CPU 利用率をチェックする assertion のデフォルトのしきい値を 0.01 から 0.05 に引き上げてます。この assertion normalperson が追加したやつですけど追加直後にも引き上げられてて、なかなかきびしいというか不安定そうですよね。
