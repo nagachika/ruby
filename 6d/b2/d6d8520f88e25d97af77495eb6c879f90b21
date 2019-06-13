@@ -1,0 +1,1 @@
+Fiber, Continuation および autoload のために内部的に保持するオブジェクトを GC.compact で移動可能にしています。
