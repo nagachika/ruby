@@ -1,0 +1,1 @@
+test/unit のオプションの --subprocess-timeout-scale を --timeout-scale に改名するようにしています。 6096baea5db6505206f0e636c4e5272b4eb72da4 で子プロセスを起動した時だけでなく Thread の待ちのタイムアウトにも使うようになったので subprocess という名前が不正確になったからですね。
