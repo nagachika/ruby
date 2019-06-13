@@ -1,0 +1,1 @@
+標準添付ライブラリ monitor で deadlock が起きることがあるという不具合の修正。実際には monitor に固有の問題ではなくて組み込みの Mutex の lock 取得処理(正確には th->keeping_mutexes への rb_mutex_t 構造体の追加)前に割り込みチェックをするようにし、この時に mutex->th を一旦 0 クリアするようにしています。 RUBY_VM_CHECK_INTS_BLOCKING() では例外発生する可能性があり、そこで mutex->th がリークするとデッドロックになるため。 https://github.com/ruby/ruby/pull/2131 [ruby-core:90170] [Bug #15360]
