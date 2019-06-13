@@ -1,0 +1,1 @@
+140b8117bd3c32cb9d0b144937b90f0178a00b0e の再修正。 SyntaxError のメッセージで LHS という専門用語(?)だとわかりにくいので assignment destination を書くようにしています。
