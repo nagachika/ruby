@@ -1,0 +1,1 @@
+Module#to_s の実装 rb_mod_to_s() および Exception#inspect の実装 exc_inspect() で不要な rb_str_dup() してたのを削っています。 https://github.com/ruby/ruby/pull/2232
