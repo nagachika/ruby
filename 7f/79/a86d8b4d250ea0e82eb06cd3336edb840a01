@@ -1,0 +1,1 @@
+Array#sort と Enumerable#sort_by の rdoc 用コメントに sort 後に reverse! をつけて逆順にする方法について追記しています。
