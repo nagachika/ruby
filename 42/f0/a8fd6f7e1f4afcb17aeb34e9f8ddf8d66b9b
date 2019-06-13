@@ -1,0 +1,1 @@
+test/unit でカーネルの時間の解像度を設定する定数を Windows 環境の時に 67 Hz に調整するコードが元からありましたが、これをassert_cpu_usage_low 内の変数から定数にしています。 [ruby-core:81540]
