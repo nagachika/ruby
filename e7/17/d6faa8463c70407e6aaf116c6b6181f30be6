@@ -1,0 +1,1 @@
+open の mode の "bom" と同様に、open 済みの IO に対して IO#set_encoding_by_bom というメソッドを呼ぶことで BOM  があれば読み飛ばしてそれを元に Encoding を指定できるようにメソッド追加しています。 IO の位置は先頭にある状態で呼ばないといけないようです。 [ruby-core:89298] [Bug #15210]
