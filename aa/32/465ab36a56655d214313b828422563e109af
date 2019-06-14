@@ -1,0 +1,1 @@
+irb の IRB.conf[:PROMPT_MODE] の設定についての rdoc 用コメントに :PROMPT_N というキーについて追記しています。
