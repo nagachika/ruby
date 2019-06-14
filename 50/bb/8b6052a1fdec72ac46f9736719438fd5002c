@@ -1,0 +1,1 @@
+test/unit の assert_join_threads で例外のメッセージやバックトレースを結合して文字列化しているところを Exception#full_message を利用するようにリファクタリングしています。
