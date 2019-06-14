@@ -1,0 +1,1 @@
+64310b2573a9e1e83cd405aed4a5c3351793e09d で reline に追加した Reline.prompt_proc を irb で利用して、各行の状態に応じたプロンプトを表示させるようにしています。
