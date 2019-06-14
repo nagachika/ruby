@@ -1,0 +1,1 @@
+Reline::LineEditor でプロンプトの文字列に escape sequence を許可するようにしています。
