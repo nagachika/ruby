@@ -1,0 +1,1 @@
+parse.y および拡張ライブラリ ripper の関数の引数でトークンを表すのに int を使っていたところを enum yytokentype に変更しています。
