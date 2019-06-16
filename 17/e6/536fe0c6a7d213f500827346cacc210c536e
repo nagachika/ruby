@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb で redmine の git の revision の URL path を修正しています。
