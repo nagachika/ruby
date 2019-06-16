@@ -1,0 +1,1 @@
+irb から Reline.prompt_proc に渡す Proc の引数の数を1つに変更して行数を irb の RubyLex の @line_no で正しくカウントするようにしています。
