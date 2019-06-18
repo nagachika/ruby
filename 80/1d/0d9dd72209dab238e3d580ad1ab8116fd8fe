@@ -1,0 +1,1 @@
+a064e46762ec0bfd40e6a04242d9e62fdd21e1f0 の Bison 3 対応を古い bison でも動くようにするための tool/pure_parser.rb 実行を ripper 向けの ripper.y 生成時にも行うようにしています。
