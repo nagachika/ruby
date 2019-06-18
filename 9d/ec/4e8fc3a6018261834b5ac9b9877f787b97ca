@@ -1,0 +1,1 @@
+3f9562015e651735bfc2fdd14e8f6963b673e22a および c06ddfee878524168e4af07443217ed2f8d0954b の String オブジェクトの共有の参照関係を修正したものと同様に str_replace_shared_without_enc() でも shared string からの共有文字列作成時に大元のオブジェクトを参照元として登録するようにしています。 [ruby-core:93207] [Bug #15934]
