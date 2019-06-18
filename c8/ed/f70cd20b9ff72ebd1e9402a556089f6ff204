@@ -1,0 +1,1 @@
+File.executable? と File.executable_real? の rdoc 用コメントに Windows での executable の概念は拡張子で判定される? というのを追記しています。 [ruby-core:91822] [Bug #15664]
