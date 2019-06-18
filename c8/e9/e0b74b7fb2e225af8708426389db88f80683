@@ -1,0 +1,1 @@
+01b3a3804334be19d013526d3edde2b84399ae43 の追加修正で、代入の右辺が後置 if/unless つきの break の時も SyntaxError にしないようにしています。 [ruby-core:93199] [Bug #15932]
