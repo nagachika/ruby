@@ -1,0 +1,1 @@
+string.c の str_replace_shared_without_enc() で str2 のほうの文字列が GC で管理されてないものだった時に解放処理を忘れてたのを修正しています。また parse.y の gettable() で __FILE__ が返す文字列を rb_fstring() を通したものにしておくようにして struct parser_params のほうの内容が変更されないようにしています。けどこの 2つの変更は関係あるのかな。 [ruby-core:93071] [Bug #15916]
