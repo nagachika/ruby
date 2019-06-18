@@ -1,0 +1,1 @@
+Bison 3 対応とのことで parse.y の %pure-parser を %define api.pure と変更しています。ひえー、こんな非互換が入るとは。 で古い Bison だと逆に動かなくなるみたいなので tool/pure_parser.rb というツールを追加して bison --version の出力をみて古いやつだったらこの directive を %pure-parser に書き換えるようにしています。
