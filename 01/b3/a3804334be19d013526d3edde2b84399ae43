@@ -1,0 +1,1 @@
+if/unless 文を代入の右辺としていて、if または else (elsif) の節のひとつに next や break などのループやブロックから抜ける制御文があると "void value expression" という SyntaxError になってしまい他の条件の時には値があっても parse 時点でエラーになる不具合を修正しています。最近入ったのかな、と思いきや 1.8.7 でもおきるらしいのでだいぶ昔からですね。 [ruby-core:93199] [Bug #15932]
