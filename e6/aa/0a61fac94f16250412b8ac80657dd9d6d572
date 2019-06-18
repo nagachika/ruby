@@ -1,0 +1,1 @@
+doc/globals.rdoc に $, と $; への nil 以外の代入は deprecated になったことを追記しています。
