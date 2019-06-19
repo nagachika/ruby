@@ -1,0 +1,1 @@
+irb に元々あった(?) auto indent 対応のためのプロンプトの調整が reline の auto_indent が有効な時は抑制するようにしています。
