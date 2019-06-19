@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Reline.auto_indent_proc というコールバック登録機能を追加して irb でこれを使って複数行編集時の auto indent 機能を追加しています。 新しい irb 使ってるとやっぱり auto indent 欲しいなって思ってたのでうれしいですね。
