@@ -1,0 +1,1 @@
+Azure Pipelines での macOS 上でのテストの設定に continueOnError: true を追加してエラーを無視させるようにしています。
