@@ -1,0 +1,1 @@
+.travis.yml の homebrew を使う時に brew update するようにしています。
