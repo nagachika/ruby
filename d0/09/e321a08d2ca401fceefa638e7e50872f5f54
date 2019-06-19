@@ -1,0 +1,1 @@
+irb に元々あった IRB.conf[:AUTO_INDENT] の設定を参照して reline の auto indent 機能を有効にするようにしています。
