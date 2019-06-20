@@ -1,0 +1,1 @@
+28678997e40869f5591eae60edd9757334426ffb の続きで String#initialize の実装で embed じゃなく shared もしくは str_new_static() で作られた static string の時には新しいメモリ領域を確保してコピーしておくようにしています。 [ruby-core:93228] [Bug #15937]
