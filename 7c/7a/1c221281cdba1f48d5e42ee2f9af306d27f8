@@ -1,0 +1,1 @@
+リファクタリングと混じっててどこが本命なのかよくわからないのですが、Thread の終了/解放時に rb_fiber_close() や rb_threadptr_root_fiber_release() の呼び出しをコメントアウトしているのと、rb_execution_context_t の VM スタックの設定を th_init() の時点で NULL クリアしておくようにしているのが本質的な変更のようです。コメントを読むと vm_stack_size の設定を修正しているそうだけど…。
