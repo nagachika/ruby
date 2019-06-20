@@ -1,0 +1,1 @@
+8121a523c3ea68898016ab3984b6c0240ff66995 の pthread_win.c のマシンスタックサイズのハードコードをやめる変更のうち rb_thread_create_mjit_thread() のほうは revert しています。この関数内では th が参照できなかったので。
