@@ -1,0 +1,1 @@
+b24603adff8ec1e93e71358b93b3e30c99ba29d5 からの VM スタックのマシンスタック内での確保の変更で thread_start_func_2() での rb_execution_context_t の初期化の前に GVL 確保をするように修正しています。
