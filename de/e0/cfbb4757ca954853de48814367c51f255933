@@ -1,0 +1,1 @@
+thread_win.c で CreateThread() などの native thread の作成に渡すフラグに STACK_SIZE_PARAM_IS_A_RESERVATION というのを追加しています。
