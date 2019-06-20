@@ -1,0 +1,1 @@
+7c7a1c221281cdba1f48d5e42ee2f9af306d27f8 の変更のうち thread_free() での rb_threadptr_root_fiber_release() 呼び出しをコメントアウトするのは revert しています。また rb_threadptr_root_fiber_setup() で th->root_fiber をセットするようにしています。これは b24603adff8ec1e93e71358b93b3e30c99ba29d5 の変更の追加修正かなぁ。明示的に root_fiber のセットが消されてるところはないけど…。
