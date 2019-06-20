@@ -1,0 +1,1 @@
+thread_start_func_2() などにデバッグ出力の追加と VM_ASSERT() でのチェック追加。また ruby_thread_set_native() を呼ぶタイミングを th->ec->machine.stack_{start,maxsize} の設定後に移動しています。
