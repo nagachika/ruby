@@ -1,0 +1,1 @@
+racc のテストで minitest のかわりに test/unit を利用するように書きかえています。
