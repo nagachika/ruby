@@ -1,0 +1,1 @@
+rubyspec から Float::NAN を含む配列を比較した時のテストを削除しています。これは undefined behavior だということ。 [ruby-dev:50715] [Bug #15432]
