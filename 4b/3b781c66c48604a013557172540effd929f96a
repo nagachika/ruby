@@ -1,0 +1,1 @@
+7c7a1c221281cdba1f48d5e42ee2f9af306d27f8 のうち thread_start_func_2() での rb_fiber_close() の呼び出しのコメントアウトを rever...t かと思いきや消してかわりに rb_ec_set_vm_stack() を呼ぶようにしています。 そして th_init() での呼び出しはかわりに消しています。
