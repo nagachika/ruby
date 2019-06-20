@@ -1,0 +1,1 @@
+dbc2b89bc042d73e60aeb7d56686aa28d82e2622 で追加した thread_cleanup_func_before_exec() からの rb_ec_clear_vm_stack() の呼び出しをやっぱり if(0) のブロック内に入れて一時的に? 実行しないようにしています。
