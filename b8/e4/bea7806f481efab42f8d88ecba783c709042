@@ -1,0 +1,1 @@
+で 4b3b781c66c48604a013557172540effd929f96a で thread_start_func_2() の終了時に rb_ec_set_vm_stack() を呼ぶようにしたのはやっぱり(元コメントアウトしてた) rb_fiber_close() に戻して、構造体 rb_context_t に free_vm_stack というメンバを追加して Fiber の解放時に VM スタックを解放するかどうか指定できるようにして、roob fiber の VM スタックは使いまわすようにしています。なるほどこれがやりたかったことですね、たぶん。
