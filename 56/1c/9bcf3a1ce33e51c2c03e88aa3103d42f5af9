@@ -1,0 +1,1 @@
+thread.c で Linux の時に #include <alloca.h> を追加するようにしています。インライン化されることを期待してとのこと。
