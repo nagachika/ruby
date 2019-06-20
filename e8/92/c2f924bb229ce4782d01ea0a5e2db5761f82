@@ -1,0 +1,1 @@
+ext/racc/extconf.rb に Subversion の自動展開の結果が残ってたのを削り frozen_string_literal: false の magic comment を追加しています。
