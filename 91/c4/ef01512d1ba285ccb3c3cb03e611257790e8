@@ -1,0 +1,1 @@
+構造体 rb_execution_context_t の mark 処理で cfp も NULL のタイミングができたのでチェックして NULL の時にアクセスしないようにしています。
