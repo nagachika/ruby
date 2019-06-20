@@ -1,0 +1,1 @@
+thread_start_func_2() と fiber_init() に分散してた VM スタックの初期化処理を rb_ec_initialize_vm_stack() という関数に切り出しています。
