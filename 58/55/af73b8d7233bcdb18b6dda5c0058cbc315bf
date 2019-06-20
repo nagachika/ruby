@@ -1,0 +1,1 @@
+th_init() でメインスレッド以外だった時に rb_execution_context_t の内容がクリアされてることを VM_ASSERT() でチェックするようにしています。
