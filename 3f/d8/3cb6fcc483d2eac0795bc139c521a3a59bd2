@@ -1,0 +1,1 @@
+benchmark/ 配下の Thread 関係のベンチマークを .rb から .yaml フォーマットに書き変えたり、追加したり、繰り返し回数を変更したりしています。あと bootstraptest に Thread#backtrace についてのテストを追加しています。
