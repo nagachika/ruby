@@ -1,0 +1,1 @@
+rb_execution_context_t の vm_stack と cfp の両方をクリアする rb_ec_clear_vm_stack() という関数を導入して thread_cleanup_func_before_exec() でこれを呼ぶようにしています。
