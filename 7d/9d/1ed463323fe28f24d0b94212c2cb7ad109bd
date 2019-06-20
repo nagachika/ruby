@@ -1,0 +1,1 @@
+15c4f6aed29b4f9f8d2c911548ac87756239b592 やはっぱりやめて rb_ec_clear_vm_stack() は呼び出すんだけどその中で ec->cfp のクリアはしないようにしています。これ dbc2b89bc042d73e60aeb7d56686aa28d82e2622 で別の明示的に ec->cfp = NULL してたところも rb_ec_clear_vm_stack() の呼び出しにするようにしているんだけどいいのかな。
