@@ -1,0 +1,1 @@
+rb_fiber_close() にて vm_stack をクリアするのと同時に ec->cfp の明示的な NULL リセットを追加しています。
