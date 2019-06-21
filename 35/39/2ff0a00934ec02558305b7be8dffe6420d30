@@ -1,0 +1,1 @@
+06a622b76e20b8996cd6d66c11ac7819a0996fae で Enumerator::Lazy#filter_map のサンプルコードとして rdoc 用コメントに書いたコードは take を使ってて結果を取り出してなかった(Enumrator::Lazy#take は先頭の指定の数まで取る Lazy を返すメソッド)ので first の呼び出しに変更しています。
