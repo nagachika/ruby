@@ -1,0 +1,1 @@
+標準添付ライブラリ net/pop で SSL 利用した時に警告が出ていたのを抑制するため TCPSocket に hostname をセットするようにしています。 [ruby-core:87390] [Bug #14822]
