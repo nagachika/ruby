@@ -1,0 +1,1 @@
+同じく test/racc/helper.rb で $VERBOSE を弄っていたので begin-ensure で囲んで ensure 節で復旧させるようにしています。
