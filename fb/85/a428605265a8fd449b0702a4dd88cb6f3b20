@@ -1,0 +1,1 @@
+Module#autoload? に省略可能な第2引数 inherit を追加しています。親クラスまで再帰的に検査するかを指定できるようにして、デフォルトは true にしています。デフォルトの挙動は変化なしですね。 https://github.com/ruby/ruby/pull/2173 [ruby-core:92336] [Feature #15777]
