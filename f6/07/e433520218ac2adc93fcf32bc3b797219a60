@@ -1,0 +1,1 @@
+thread_cleanup_func_before_exec() で fork 後に main 以外の全 Thread の root fiber の状態を FIBER_TERMINATED にセットするようにしています。 しかしこれの呼び元を調べてて気がついたんですが rb_thread_atfork_before_exec() って関数今はどこからも呼ばれてないみたいですね。 rb_thread_atfork() 経由で呼ばれてるので fork 時に呼ばれるようですが。
