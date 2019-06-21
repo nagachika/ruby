@@ -1,0 +1,1 @@
+06a622b76e20b8996cd6d66c11ac7819a0996fae の Enumerator::Lazy#filter_map の rdoc 用コメントが Enunmerable#filter_map のもののままだったので修正。
