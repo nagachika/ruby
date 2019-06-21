@@ -1,0 +1,1 @@
+doc/maintainers.rdoc に racc のメンテナ追加と doc/standard_library.rdoc での racc の記述を default gem のところに移動しています。
