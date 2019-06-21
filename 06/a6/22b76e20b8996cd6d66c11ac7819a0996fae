@@ -1,0 +1,1 @@
+Enumerator::Lazy#filter_map メソッドを追加しています。Enumerable に追加した時に Lazy には入れ忘れてたので今回追加ってことですね。 [ruby-core:93299] [Bug #15949]
