@@ -1,0 +1,1 @@
+reline の Reline::LineEditor#input_key から auto indent ありの複数行変数の処理を process_auto_indent というメソッドに切り出して @previous_line_index をチェックして early return するのを追加しています。コメントによると up/down キーによる行の移動だけの時は動かさないようにしているようです。
