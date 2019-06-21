@@ -1,0 +1,1 @@
+fb85a428605265a8fd449b0702a4dd88cb6f3b20 で使った rb_autoload_at_p() の引数 recur を VALUE から int にして Qtrue ではなく C の真偽値で渡すようにしています。 https://github.com/ruby/ruby/pull/2173 [ruby-core:92336] [Feature #15777]
