@@ -1,0 +1,1 @@
+ec8e5f5aa64e2a54cf1e303f2b012c98e8d521ba の修正は共有配列の時の最適化処理の意味がなくなってしまうので revert して、実際にバッファの書き換えが起きる条件に入ったところで rb_ary_modify() を呼ぶように再修正しています。 https://github.com/ruby/ruby/pull/2252 [ruby-core:93322] [Bug #15952]
