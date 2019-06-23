@@ -1,0 +1,1 @@
+ObjectSpace のテストで子プロセスを起動する時にコマンドラインオプションに --disable=frozen-string-literal を付けておくようにしています。 [ruby-core:84313] [Bug #14194]
