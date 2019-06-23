@@ -1,0 +1,1 @@
+test/unit の assert_join_threads で ensure 節を追加してまだ動いている Thread に Timeout::Error 例外を送信して終了させるようにしています。
