@@ -1,0 +1,1 @@
+定数の宣言のソース上の位置を返す Module#const_source_location を追加しています。あれ、これまだなかったっけ? [ruby-core:67745] [Feature #10771]
