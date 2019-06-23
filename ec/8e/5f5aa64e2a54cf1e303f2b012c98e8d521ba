@@ -1,0 +1,1 @@
+Array#unshift の実装でバッファを共有した配列の時に rb_ary_modify() がスキップされてしまっていたのを修正しています。 https://github.com/ruby/ruby/pull/2251 [ruby-core:93322] [Bug #15952]
