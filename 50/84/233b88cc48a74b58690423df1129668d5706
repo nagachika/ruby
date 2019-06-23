@@ -1,0 +1,1 @@
+定数探索の関数 rb_const_search() から retry で繰り返してるところを rb_const_search_from() という関数に切り出して呼び直すようにリファクタリングしています。
