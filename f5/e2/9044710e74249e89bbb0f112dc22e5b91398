@@ -1,0 +1,1 @@
+minitest/unit で diff コマンドの利用可能なコマンド名を探すところで RbConfig::CONFIG["EXEEXT"] をみて ".exe" の有無は判定するようにして分岐を減らしています。
