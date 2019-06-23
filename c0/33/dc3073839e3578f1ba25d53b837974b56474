@@ -1,0 +1,1 @@
+Array#rindex の実装で rb_equal() を呼んだ結果 receiver の配列のサイズが変化した場合を考慮して再度サイズチェックするようにしています。 https://github.com/ruby/ruby/pull/2250 [ruby-core:93319] [Bug #15951]
