@@ -1,0 +1,1 @@
+version.h でリリース版でも定数マクロ RUBY_RELEASE_DATETIME を常に定義するようにしています。
