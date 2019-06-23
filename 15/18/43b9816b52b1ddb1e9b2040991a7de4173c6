@@ -1,0 +1,1 @@
+rb_autoloading_value() から処理の大部分を autoloading_const_entry() という関数に切り出して rb_const_search() かこちらを呼び出すようにリファクタリングしています。
