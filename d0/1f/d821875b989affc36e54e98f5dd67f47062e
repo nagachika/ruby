@@ -1,0 +1,1 @@
+ENV に merge! メソッドを ENV.update の alias として追加しています。 https://github.com/ruby/ruby/pull/2246 [ruby-core:93296] [Feature #15947]
