@@ -1,0 +1,1 @@
+e5e811e4a04482a5ad764fbb2b792ee5fbdd7195 の続き。 rubyspec の Module#autoload? のテストで使う定数名を変更しています。意図をわかりやすくするためで内容的には変化はないはず。
