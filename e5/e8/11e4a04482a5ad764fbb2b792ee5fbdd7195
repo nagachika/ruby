@@ -1,0 +1,1 @@
+rubyspec に autoload? のテストに第2引数を指定したものを追加しています。 https://github.com/ruby/ruby/pull/2173
