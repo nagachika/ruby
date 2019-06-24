@@ -1,0 +1,1 @@
+rubyspec の UNIXSocket のテストで UNIX socket のパス名の上限が macOS で厳しくなったらしくサイズ上限のチェックを変更しています。まじか。
