@@ -1,0 +1,1 @@
+cont.c に FIBER_USE_COROUTINE が未定義の時に警告を出力する #pragma を追加しています。
