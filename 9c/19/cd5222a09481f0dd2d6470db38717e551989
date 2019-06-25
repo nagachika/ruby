@@ -1,0 +1,1 @@
+irb の auto indent のためのネストレベル管理のためのメソッド process_nesting_level からメインの処理を check_corresponding_token_depth というメソッドに切り出して、インデントレベルの管理部分だけ process_nesting_level に残すようにリファクタリングしています。
