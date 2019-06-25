@@ -1,0 +1,1 @@
+array.c の ARY_HEAP_SIZE() が共有配列の時(や embed されてる時?)に不正な値を返していたのを修正しています。 https://github.com/ruby/ruby/pull/2253 [ruby-core:93325] [Bug #15953]
