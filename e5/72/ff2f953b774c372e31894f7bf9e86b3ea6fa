@@ -1,0 +1,1 @@
+lib/fileutils.rb からの fileutils/version の require を require_relative を利用するように修正? しています。
