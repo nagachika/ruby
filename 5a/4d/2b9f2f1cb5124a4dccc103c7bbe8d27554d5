@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::ScalarScanner のインスタンス変数 @string_cache を削除しています。使われかたをみてもいまいちなにを cache していたのかよくわからず。dedup してるわけでもなさそうだしなぁ。
