@@ -1,0 +1,1 @@
+0e6396d2ac8bc3803742655896bb0fad70007dda に続き armv7-linux の環境で coroutine の arm32 実装を利用するように configure を修正しています。
