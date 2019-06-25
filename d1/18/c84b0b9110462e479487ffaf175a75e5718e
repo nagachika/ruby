@@ -1,0 +1,1 @@
+標準添付ライブラリ scanf で IO#scanf で seek が Errno::EINVAL を返した時にも  Errno::ESPIPE と同様に無視するようにしています。 Windows では EINVAL が発生するらしいです。 [ruby-core:89271] [Bug #15199]
