@@ -1,0 +1,1 @@
+a53ab897c35586a836710a8afeb1e8c1abd9b087 で例外を Psych.dump すると backtrace もダンプされるようになったので rubyspec を追随させています。
