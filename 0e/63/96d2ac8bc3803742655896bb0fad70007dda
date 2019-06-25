@@ -1,0 +1,1 @@
+arm64-linux の環境で coroutine の ARM 実装を利用するように configure を修正しています。
