@@ -1,0 +1,1 @@
+4bd190942710725a79ca61fb30cff152888b55d0 の続きで psych での Exception と NameError (NameError は内部に追加の属性があるので独自に実装があるらしい)で共通部分をメソッドに切り出すリファクタリング。
