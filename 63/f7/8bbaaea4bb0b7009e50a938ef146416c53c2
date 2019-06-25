@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::ScalarScanner#tokenize で switch 文の when に正規表現書いてたのを if 文と Regexp#match? メソッドを使うように書き換えています。
