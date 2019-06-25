@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で io/console の同期時のファイルパス間違いを修正。
