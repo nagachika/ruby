@@ -1,0 +1,1 @@
+3c4fc830dd3f2c3e1e642f83072bead8189aec63 と同じく psych.gemspec ファイルの spec.extra_rdoc_files からも CHANGELOG.rdoc を削除しています。
