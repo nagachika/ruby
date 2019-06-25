@@ -1,0 +1,1 @@
+7f64a0b4db7ee27a04579236950d88301c7bcabb で追加した CESU-8 の Encoding 追加で不要な switch 文の default 節を削除しています。
