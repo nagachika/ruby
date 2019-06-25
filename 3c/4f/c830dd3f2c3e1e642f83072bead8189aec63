@@ -1,0 +1,1 @@
+拡張ライブラリ psych の .gemspec ファイルの spec.files から存在しなくなってる CHANGELOG.rdoc を削除しています。
