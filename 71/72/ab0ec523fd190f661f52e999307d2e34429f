@@ -1,0 +1,1 @@
+d004989ac6355bcf2840ed190aae139c3a852848 の追加修正で OpenBSD の x86_64 環境では amd64 版の Coroutine 実装を Fiber に使うように設定しています。ただし OpenBSD には ucontext がないので cont.c から #include <ucontext.h> を削っています。あれ coroutine なしの Fiber 実装(のことを native fibers って書いてるんだと思うんだけど)って ucontext 使う実装ないんだっけ?
