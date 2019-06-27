@@ -1,0 +1,1 @@
+6df1814c08df93bbc0b3e7a73649bcf82e126064 の arm32 版の Coroutine の実装は再適用しつつ、configure 時に armv7 linux 環境ではこれを使わず ucontext 実装の Coroutine を利用するようにしています。
