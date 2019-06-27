@@ -1,0 +1,1 @@
+0b57f9b25d43c2efec8ac17c0c03ce9fa461937a の irb の auto indent の処理で else などと同様に elsif キーワードも処理するようにしています。
