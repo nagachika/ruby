@@ -1,0 +1,1 @@
+24c4e6dec109e105c13bd4c1b7f7cd51e534a3c3 の irb の auto indent のための継続行処理で参照する token のフラグを修正。
