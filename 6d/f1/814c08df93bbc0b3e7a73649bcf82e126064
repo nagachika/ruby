@@ -1,0 +1,1 @@
+730aeb2523fadd816b07e0e5322fb79841efc709 で revert された 518adcca0a2c611c4a94eaa778f9dcec4aff03f9 および dbe232e24e56cb200b8e5b78062c8a2784a792e9 のリトライ。 arm32 の COROUTINE_REGISTERS を1減らしたり arm32 版実装のアセンブラを変更したりしています。
