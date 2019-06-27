@@ -1,0 +1,1 @@
+parse.y の lexer の状態を表す文字列のテーブル rb_parser_lex_state_names で各文字列の prefix の "EXPR_" を削ってサイズを小さくしています。 ripper の Ripper.lex_state_name で取得する表示名も変わるのと parser のデバッグ時のメッセージに表示されるものが変化します。
