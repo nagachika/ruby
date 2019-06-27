@@ -1,0 +1,1 @@
+configure に OpenBSD の時の Fiber の coroutine の実装の指定を空にしています。つまり非 coroutine 実装版を使うってことかな。
