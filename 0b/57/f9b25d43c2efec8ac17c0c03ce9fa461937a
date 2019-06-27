@@ -1,0 +1,1 @@
+irb の auto indent のための対応するトークンのインデントレベルを計算する処理で else, rescue, ensure, when, in などのブロックの途中(?)に出現するキーワードの時も対応する begin や switch のインデントレベルを参照するようにしています。
