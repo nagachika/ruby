@@ -1,0 +1,1 @@
+Coroutine 実装に ucontext(3) を利用した実装を追加して、ネイティブの実装が使えないときにこれを利用するようにしています。ついでに構造体の名前変更(というか typedef をやめる)があったりしてメインの変更がよくわからないですが、これでもう Fiber の実装は常に Coroutine 実装になったのかな。そうはなってなさそう。 FIBER_USE_COROUTINE が偽の時の実装と ucontext 利用時の Coroutine 実装は違うのかな?
