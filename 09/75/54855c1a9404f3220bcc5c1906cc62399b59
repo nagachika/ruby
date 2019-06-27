@@ -1,0 +1,1 @@
+2a56702eeea5a571eaa2af15967c6535395e83a2 のテストに対応して parse.y の heredoc_identifier() がマーカーなしに EOF がきてしまってエラー(-1)を返した時に parser_yylex() からそれをそのまま返してしまっていたので、かわりに END_OF_INPUT (0) を返すようにしています。 [ruby-core:93379] [Bug #15962]
