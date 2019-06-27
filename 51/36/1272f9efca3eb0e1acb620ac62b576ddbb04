@@ -1,0 +1,1 @@
+r66844 で tool/rbinstall.rb でインストール先に既に default gem の gemspec ファイルがあったら一度削除するようにしていましたが、この時 configure の --dest-dir の指定を加味して掃除するディレクトリを決めるように修正しています。
