@@ -1,0 +1,1 @@
+.travis.yml に rubyspec を 2.4 で動かすテストのエラー時に ruby_version_is でバージョンの guard 入れてねってメッセージを表示するようにしています。
