@@ -1,0 +1,1 @@
+doc/syntax/assignment.rdoc に Kernel#eval でのローカル変数への代入が通常のローカル変数(parse 時点で確保される)と違う点を追記しています。 [ruby-core:80253] [Bug #13337]
