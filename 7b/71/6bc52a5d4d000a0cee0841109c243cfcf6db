@@ -1,1 +1,1 @@
-拡張ライブラリ ripper の Ripper::Lexer::Elm の inspect メソッドで state が表示されていなかったので追加しています。このクラスの inspect とか pretty_print ってなんのためのやつだったっけな。 af17e111b3f7cb3c5ad7dc194399b44d0e5004d0 で追加されてこの時ひととおり調べたんだけど忘れてしまった。
+拡張ライブラリ ripper の Ripper::Lexer::Elem の inspect メソッドで state が表示されていなかったので追加しています。このクラスの inspect とか pretty_print ってなんのためのやつだったっけな。 af17e111b3f7cb3c5ad7dc194399b44d0e5004d0 で追加されてこの時ひととおり調べたんだけど忘れてしまった。
