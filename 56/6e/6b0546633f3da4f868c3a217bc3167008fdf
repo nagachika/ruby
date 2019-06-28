@@ -1,0 +1,1 @@
+test/ruby/enc/test_emoji_breaks.rb と test/ruby/enc/test_grapheme_breaks.rb で同じクラス名を使ってしまっていたので、名前空間をネストさせて衝突を解消しています。
