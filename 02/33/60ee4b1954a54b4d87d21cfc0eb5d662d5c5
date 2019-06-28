@@ -1,0 +1,1 @@
+標準添付ライブラリ singleton の instance というメソッドについての rdoc 用コメントを追加しています。正確には Singleton を include したユーザーのクラスに生えるクラスメソッドですね。
