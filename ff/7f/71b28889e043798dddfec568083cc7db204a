@@ -1,0 +1,1 @@
+rb_io_stdio_file() という C API で IO オブジェクトに対応した stdio の FILE* 構造体を wrap して作る時に mode から O_EXCL フラグを落とすようにしています。この API は本体では使われてなくて拡張ライブラリ objspace と fiddle から使われてて objspace のテストでたまにファイル open に失敗することがあるため skip するようにしていたのを根本修正になるみたいです。
