@@ -1,0 +1,1 @@
+scanf のテストスクリプトに明示的な require "test/unit" を追加しています。
