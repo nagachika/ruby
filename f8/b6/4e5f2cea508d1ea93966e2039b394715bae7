@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のテストで readability のためにローカル変数に受けたのにその後使ってないところがあったので使うようにしています。
