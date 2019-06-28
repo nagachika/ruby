@@ -1,0 +1,1 @@
+標準添付ライブラリ singleton で Singleton を include した各クラスで動的にクラスメソッドの instance を定義するようにしていたのを、再定義を避けるため include 時に自動で extend される Singleton::SingletonClassMethods 内で定義しておくようにしています。
