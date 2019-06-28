@@ -1,0 +1,1 @@
+test/ruby/enc/test_emoji_breaks.rb と test/ruby/enc/test_grapheme_breaks.rb の initialize メソッドの定義でかっこのまえに余計な空白があったのを削除。
