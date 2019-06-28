@@ -1,0 +1,1 @@
+a0c141b6d04482ebfc4b3abf3f00a476d073226a で修正したテストで EnvUtil.invoke_ruby のかわりに assert_separately を使うようにしてもうちょっと自然に assertion 書けるようにしています。
