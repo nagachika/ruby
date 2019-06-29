@@ -1,1 +1,1 @@
-ruby/mspec を upstream からマージしています。サポートする ruby のバージョンを 2.4 移行に変更しています。
+ruby/mspec を upstream からマージしています。サポートする ruby のバージョンを 2.4 以降に変更しています。
