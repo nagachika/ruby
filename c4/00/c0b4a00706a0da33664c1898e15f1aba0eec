@@ -1,0 +1,1 @@
+GC.compact のテスト test_many_collisions でも途中で return していたのを skip に書きかえています。
