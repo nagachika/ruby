@@ -1,0 +1,1 @@
+UTF-16 や UTF-32 のエンコーディングで String#grapheme_clusters が正しく分割しない、というか文字自体が消えてしまうという不具合を修正しています。 テストに 8aecc90974ab1ac87056f77e2cb3406c5c041504 でくくり出した定数 WIDE_ENCODINGS を利用しています。 [ruby-core:93417] [Bug #15965]
