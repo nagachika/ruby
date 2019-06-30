@@ -1,0 +1,1 @@
+TracePoint#enable の rdoc 用コメントで r66640 で追加された キーワード引数 target_thread にドキュメントが追随していなかったので追記しています。
