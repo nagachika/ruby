@@ -1,0 +1,1 @@
+SizedQueue のテストで複数の Thread から push して pop する時の判定を push する Thread がまだ生きてるかのほうを先に判定するように変更しています。 Queue の空チェックを先にすると、空の Queue に push して先に Thread が終了するともうメッセージがないと誤判定して pop し漏れる可能性があったようです。
