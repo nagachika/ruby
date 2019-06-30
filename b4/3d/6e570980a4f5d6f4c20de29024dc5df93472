@@ -1,0 +1,1 @@
+SizedQueue のテストでテストメソッドの先頭で return してて動いてなかった test_empty_non_blocking を修正して通るようにしています。
