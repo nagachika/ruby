@@ -1,0 +1,1 @@
+cbb7dc21a823e8b09341860d8737ed24ee1ce1b8 と同様に rubyspec の Addrinfo のテストで同一性チェックのために == の比較を equal? に変更しています。
