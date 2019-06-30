@@ -1,0 +1,1 @@
+test/dtrace/helper.rb で macOS で拡張ライブラリ pty の require に失敗したら DTrace モジュールの定義自体行わないようになってましたが、PTY を使う Proc の宣言をやめるだけで依存しないテストは行うようにしています。 macOS の場合は r55736 で dtrace からの端末への改行を抑制するために pty に逃がすようにしたようです。
