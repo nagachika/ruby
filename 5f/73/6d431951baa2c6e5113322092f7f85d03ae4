@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree のテストで while や until などのテストの条件部にリテラルが書かれてて警告になってたのでメソッド呼び出し参照に変更しています。
