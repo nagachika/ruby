@@ -1,0 +1,1 @@
+TracePoint のテストでも警告抑制のために EnvUtil.suppress_warning 経由で eval するようにしています。
