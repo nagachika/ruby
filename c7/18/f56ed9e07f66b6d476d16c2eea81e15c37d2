@@ -1,0 +1,1 @@
+24c4e6dec109e105c13bd4c1b7f7cd51e534a3c3, d6bcf367936e92b8662dce969bc6b48ae2112d45, 2fd03fd7e651d5f0bf78e315eafdde5468c1de53 あたりの irb の auto indent での行継続対応を revert しています。
