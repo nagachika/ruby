@@ -1,0 +1,1 @@
+test/dtrace/helper.rb で dtrace や stap が使えるかどうかのチェック時に環境変数 SUDO で sudo コマンドの指定があれば付けるようにしています。
