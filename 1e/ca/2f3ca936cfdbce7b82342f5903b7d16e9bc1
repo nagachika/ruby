@@ -1,0 +1,1 @@
+DTrace のテストで TracePoint#__enable の引数が 2つになってたところがあったので第3引数に Thread.current を渡すように修正しています。
