@@ -1,0 +1,1 @@
+net/protocol のテストで使っている IO っぽく振る舞う mock を作る create_mockio で max というキーワード引数を追加して capacity とは別に一度に読めるサイズの上限を指定できるようにして Net::BufferedIO のテストで使っています。
