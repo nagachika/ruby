@@ -1,0 +1,1 @@
+同じく ISeq や ISeq へのコンパイルの最適化のテストで到達できない文の警告を抑制するため EnvUtil.suppress_warning 経由にしています。
