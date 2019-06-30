@@ -1,0 +1,1 @@
+Thread#kill, #exit, #terminate (全部同じメソッドの別名)の rdoc 用コメントの call-seq の戻り値の修正と記述の英文修正。 r11000 の再適用だそうです。 _why のパッチだ。
