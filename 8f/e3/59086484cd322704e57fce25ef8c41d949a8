@@ -1,0 +1,1 @@
+Queue のテストで ClosedQueueError の発生をチェックするテストで Thread#report_on_exception の設定をしておくようにして、また Thread#join して例外のチェックをちゃんとするようにしています。
