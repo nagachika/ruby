@@ -1,0 +1,1 @@
+ISeq.load_from_binary のテストでもメソッド再定義の警告が出るのを EnvUtil.suppress_warning 経由にして抑制しています。
