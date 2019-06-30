@@ -1,0 +1,1 @@
+テストでスクリプトを RubyVM::AbstractSyntaxTree.parse で parse する時に未使用の式の警告などを抑制するためにスクリプトを修正したり EnvUtil.suppress_warning 経由で呼ぶようにしています。
