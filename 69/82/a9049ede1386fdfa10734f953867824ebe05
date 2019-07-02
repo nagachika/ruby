@@ -1,0 +1,1 @@
+IPAddr のテストで IPAddr#ipv4_compat? の呼び出し時に assert_warning で obsoleted 警告の出力をチェックするようにしています。
