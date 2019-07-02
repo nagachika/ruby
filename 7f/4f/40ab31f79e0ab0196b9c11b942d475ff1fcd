@@ -1,0 +1,1 @@
+fe03bbaf3405b9e45bb3504fab5f4195ec6c3630 で標準エラー出力が端末の時だけプログレス表示するようにした bootstraptest/runner.rb の show_limit で @verbose が真の時だけ更新しながら出力するようにしています。また @verbose が真の時は1行を更新しながら出力せずに毎回改行してたのを抑制するようにしています。
