@@ -1,0 +1,1 @@
+template/Makefile.in でアセンブリソースコードファイルの拡張子を指定する変数 ASMEXT を S 固定にせず configure 時の変数指定を継承するようにしています。
