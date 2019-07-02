@@ -1,0 +1,1 @@
+CMath の deprecated になったメソッドが警告を出すことを確認するテストで assert_warning の外でも再度 CMath.sqrt! を呼んでて警告が出てたので assert_warning の中で呼んだ結果を利用するようにしています。
