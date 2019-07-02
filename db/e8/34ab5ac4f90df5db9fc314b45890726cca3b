@@ -1,0 +1,1 @@
+README.md/README.ja.md の CI のバッジで参照するブランチ名や GitHub へのリンクなどを trunk から master のほう変更しています。また rubyspec のコメントで GitHub のリポジトリ内への URL が書かれてたところも master を参照するように変更。
