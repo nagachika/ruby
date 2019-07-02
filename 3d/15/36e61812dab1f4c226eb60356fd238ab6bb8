@@ -1,0 +1,1 @@
+appveyor.yml で除外するブランチ名を master から trunk に変更。
