@@ -1,0 +1,1 @@
+c9423b016cfeab852bc5a829e55e0a11f80b3ab7 で修正した w_ivar() と w_objivar() でほぼ共通の処理を w_ivar_each() という関数に切り出すリファクタリング。
