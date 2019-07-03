@@ -1,0 +1,1 @@
+c6a131da64a949c3148565f0bfd7777f5a4a309c で defs/gmake.mk の TEST_TARGETS で test-almost の展開を単にそのまま test-all の置換にしてしまってておかしなことになっていたので、TEST_TARGETS の test-almost を test-all に置換するように再修正しています。
