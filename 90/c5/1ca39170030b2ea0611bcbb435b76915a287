@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#input_key で auto indent 用の Proc が負のインデントレベルを返した時に無視するようにしています。
