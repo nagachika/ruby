@@ -1,0 +1,1 @@
+babaad1065b1e45614d03e30f82c9007cc115b7c で configure 時の指定が効くようにした ASMEXT ですが tool/prereq.status で S に置換するようにしています。
