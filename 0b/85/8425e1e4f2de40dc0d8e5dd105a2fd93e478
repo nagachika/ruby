@@ -1,0 +1,1 @@
+tool/make-snapshot で git のリポジトリとして GitHub のほうを参照するように変更しています。 [ruby-core:93450] [Bug #15969]
