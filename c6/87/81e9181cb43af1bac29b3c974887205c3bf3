@@ -1,0 +1,1 @@
+そして ruby core のテストのためのライブラリ(testunit, minitest) が test/ 配下に置いてたのを tool/test/ 配下に移動しています。おー、test 用のも tool の下に置くようにしたのか。
