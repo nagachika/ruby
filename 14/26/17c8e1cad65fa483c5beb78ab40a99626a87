@@ -1,0 +1,1 @@
+11c311e36fa6f27a9144b0aefe16bdffea651251 で導入した realpath(3) の利用ですが Solaris でも利用せず従来の実装に fallback させるようにしています。 CI で Solaris 10 だとエラーになったらしい。
