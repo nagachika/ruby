@@ -1,0 +1,1 @@
+c3c0e3f5c9444c197779cb242de46dfffda79dec の移動に追随させて test/runner.rb での test-coverage.rb の require するパスを修正しています。
