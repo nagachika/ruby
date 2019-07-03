@@ -1,0 +1,1 @@
+デフォルトブランチの変更に追随して version.h のデフォルトの RUBY_BRANCH_NAME も "master" に変更しています。
