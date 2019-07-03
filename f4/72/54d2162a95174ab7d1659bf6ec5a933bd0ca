@@ -1,0 +1,1 @@
+同じく c3c0e3f5c9444c197779cb242de46dfffda79dec の移動に追随して basictest/test.rb および bootstraptest/runner.rb で参照してたカラースキーマのファイルパスを修正しています。
