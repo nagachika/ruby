@@ -1,0 +1,1 @@
+tool/make-snapshot でもブランチ名として master を受け付けるようにしています。
