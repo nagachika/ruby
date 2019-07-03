@@ -1,0 +1,1 @@
+make test-almost というターゲットで test ディレクトリの下で testunit や minitest を実行除外するオプションを削っています。なるほど、このへんが狙いのようですね。
