@@ -1,0 +1,1 @@
+test/lib および test/colors 配下のファイルを tool/lib、tool/colors に移動しています。 test 以外からの利用もあったので。
