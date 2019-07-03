@@ -1,0 +1,1 @@
+File.realpath や File.realdirpath のために独自に実装していた rb_check_realpath_internal() を realpath(3) を使った実装に変更して、従来の実装は rb_check_realpath_emulate() と改名し configure で利用可能じゃなかった時または Windows 環境の時は従来実装に fallback するようにしています。ベンチマークも追加されているので主にパフォーマンスのための変更みたいですね。
