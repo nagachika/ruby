@@ -1,0 +1,1 @@
+4adfd5227f4f62c4e571d31e8bb07c40402f73b8 で make test-almost の除外オプションが不要になった結果 test-all と同じになったそうで alias にしています。 test-almost は make check から参照させてるときに test 用ライブラリ自身のテストが重複しないように存在してたのですね。
