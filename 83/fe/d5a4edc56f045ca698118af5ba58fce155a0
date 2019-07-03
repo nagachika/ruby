@@ -1,0 +1,1 @@
+5aed62454cec6556d476347f13947f83f6f7de4b と同様に tool/test/minitest 配下のファイルでの require を require_relative を使って書きかえています。
