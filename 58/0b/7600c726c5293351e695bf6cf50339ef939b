@@ -1,0 +1,1 @@
+make commit でコミット後のソースツリー更新のために defs/gmake.mk および template/Makefile.in の変数置換して Makefile 生成するところで @xxx@ で囲まれたところを適当に削除してたのを tool/prereq.status を sed に与えてちゃんと置換するように? しています。また DTRACE_EXT の変数の置換ルールを tool/prereq.status に追加しています。
