@@ -1,0 +1,1 @@
+tool/test/minitest/test_minitest_unit.rb からの別のファイルの require をロードパスに依存しないよう require_relative を利用するように書きかえています。
