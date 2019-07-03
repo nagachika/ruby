@@ -1,0 +1,1 @@
+で test-almost というターゲットを defs/gmake.mk の TEST_TARGETS 変数でテスト内容の重複を解決する処理からはずしているんですが、なんかよくわからないなぁと思ったら 4d6c35d33a3f8a2ab29b3aabcf74be0bd9e7bf98 で再修正されてました。
