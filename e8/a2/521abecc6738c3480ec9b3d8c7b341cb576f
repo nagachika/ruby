@@ -1,0 +1,1 @@
+benchmark/ 配下にある benchmark_driver の中から test/lib にあった memory_status.rb を参照していましたが、これもディレクトリ構成の変更に伴ない tool/lib 配下をみるように修正しています。
