@@ -1,0 +1,1 @@
+rb_hash_new_compare_by_id() を使ってるところを rb_ident_hash_new() を使うようにしています。これなにが違うんだけ……と思ったら同じものだったので rb_hash_new_compare_by_id() のほうは定義も削除しています。
