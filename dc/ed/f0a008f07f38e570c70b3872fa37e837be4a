@@ -1,0 +1,1 @@
+efde19ce440f8656c3ce631a1d2a56e830961e9d の defs/gmake.mk の TEST_TARGETS の調整は revert して、check ターゲットを分解する時に test-testframework test-short も追加するようにしています。 test-all はこれらを含んでいないと。
