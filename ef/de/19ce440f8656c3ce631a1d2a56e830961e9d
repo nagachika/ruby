@@ -1,0 +1,1 @@
+defs/gmake.mk の TEST_TARGETS のテストターゲットの整理で test-all を test-short と test-testframework と test-all に展開するということをしているみたいですけど、うーん? コメントとは逆のことが行なわれているような。 patsubst() って PATTERN,REPLACEMENT,TEXT の順ですよね。
