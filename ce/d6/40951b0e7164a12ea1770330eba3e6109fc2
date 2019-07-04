@@ -1,0 +1,1 @@
+Array#minmax を追加しています。 Enumerable#minmax はあるのでそちらが呼ばれてたのですが、単に rb_ary_min() と rb_ary_max() を呼んで結果をまとめるという実装でも Enumerable#minmax に委譲するよりは高速なようです。 [ruby-core:93189] [Bug #15929]
