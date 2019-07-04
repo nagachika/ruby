@@ -1,0 +1,1 @@
+String#-@ で String を継承したクラスのインスタンスで、まだ freeze もされていなかったら dup してから rb_fstring() に渡すようにしています。String クラスでなかった場合 receiver を破壊的に(っていうのかな) freeze するので、それを避けようとしたみたいです。 [ruby-core:93159] [Bug #15926]
