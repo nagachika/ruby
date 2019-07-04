@@ -1,0 +1,1 @@
+928260c2a613bbdd4402c300e0bf86ae7562e52a の ObjectSpace.define_finalizer のチェックの再修正。 利用する API の変更や警告の除去など。 [ruby-core:93485] [Feature #15974]
