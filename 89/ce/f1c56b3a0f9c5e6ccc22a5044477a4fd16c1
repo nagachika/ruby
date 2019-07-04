@@ -1,0 +1,1 @@
+928260c2a613bbdd4402c300e0bf86ae7562e52a で追加した ObjectSpace.define_finalizer の警告追加についての spec を version guard を追加して古い ruby で動くようにしています。 [ruby-core:93485] [Feature #15974]
