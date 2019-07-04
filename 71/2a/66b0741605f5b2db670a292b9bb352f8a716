@@ -1,0 +1,1 @@
+ea30dd702512ff9df34fe8c71c825f8f901bf5b1 の MJIT で JIT コンパイルしたコードでローカル変数用の領域をスタックに確保する対応を revert しています。 VM_CHECK_MODE=1 を指定してビルドしたときに assertion にひっかかるそうです。
