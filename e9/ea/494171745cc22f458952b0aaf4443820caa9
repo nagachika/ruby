@@ -1,0 +1,1 @@
+File.birthtime のテストで NotImplementedError 例外発生も無視するようにしています。 [ruby-core:93477] [Bug #15972]
