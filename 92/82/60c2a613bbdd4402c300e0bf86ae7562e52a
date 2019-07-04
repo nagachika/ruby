@@ -1,0 +1,1 @@
+ObjectSpace.define_finalizer で対象のオブジェクト自体への参照を持ったスコープを含む Proc オブジェクトが登録されたら警告を出力するようにしています。あるあるですね。 rb_objspace_reachable_objects_from() を使ってあるオブジェクトから参照できるオブジェクトをトラバースして参照されてないかをチェックしています。結構重いんじゃないかなこれ……。 https://github.com/ruby/ruby/pull/2264 [ruby-core:93485] [Feature #15974]
