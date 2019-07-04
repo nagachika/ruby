@@ -1,0 +1,2 @@
+標準添付ライブラリ tempfile の Tempfile#inspect で "(closed)" というメッセージを含めるかどうかの判定のために closed? メソッドを self にそのまま呼んでたので File オブジェクトの closed? メソッドを呼ぶように修正。エラーになってたみたいですが r46191 でだいぶ前に追加されてそのままだったのでなんで今になって CI でエラーになったんだろ。
+[追記]これは 928260c2a613bbdd4402c300e0bf86ae7562e52a の Object.define_finalizer の影響で Tempfile の delegate がちゃんと設定されなくなって呼べなくなってしまったということみたいです[/追記]
