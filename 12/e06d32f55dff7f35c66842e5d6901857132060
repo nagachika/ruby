@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor で行頭の空白を削るのに String#gsub を使ってたのを String#lstrip を使うようにしています。
