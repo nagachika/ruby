@@ -1,0 +1,1 @@
+928260c2a613bbdd4402c300e0bf86ae7562e52a の ObjectSpace.define_finalizer での参照チェックと警告で発覚した rb_objspace_reachable_object_p() の不具合修正。 rb_objspace_reachable_object_p() の実行中に GC を止めるようにしています。 [ruby-core:93485] [Feature #15974]
