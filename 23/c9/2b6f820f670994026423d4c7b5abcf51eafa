@@ -1,0 +1,1 @@
+928260c2a613bbdd4402c300e0bf86ae7562e52a の ObjectSpace.define_finalizer での参照チェックと警告とそれに追加した一連の修正を revert しています。 [ruby-core:93485] [Feature #15974]
