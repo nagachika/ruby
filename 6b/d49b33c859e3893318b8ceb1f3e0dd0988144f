@@ -1,0 +1,1 @@
+GC.compact で gc_compact_after_gc() を呼び出すあいだ during_gc を TRUE にして GC.compact 中に GC が走らないようにしています。 https://github.com/ruby/ruby/pull/2264
