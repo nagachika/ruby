@@ -1,1 +1,1 @@
-gc.c の構造体 struct should_not_capture_data を struct should_not_capture_data に改名、また関数も should_not_capture_callback() → reachable_object_callback()、should_not_capture() → rb_objspace_reachable_object_p() というふうに改名しています。
+gc.c の構造体 struct should_not_capture_data を struct reachable_object_data に改名、また関数も should_not_capture_callback() → reachable_object_callback()、should_not_capture() → rb_objspace_reachable_object_p() というふうに改名しています。
