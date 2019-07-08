@@ -1,0 +1,1 @@
+win32 版の Coroutine 実装 coroutine/win32/Context.S を追加して、i386-mingw の環境で Fiber に coroutine 実装を利用するようにしています。ユーザーいるのかなぁ。
