@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#multiline_off をリファクタリング。 loop と if 文で書いてたのを String#scan と case 文で書きなおしています。
