@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#calculate_height_by_width を Integer#div を使って簡潔に書きなおしています。
