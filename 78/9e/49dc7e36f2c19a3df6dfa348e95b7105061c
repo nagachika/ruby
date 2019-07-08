@@ -1,0 +1,1 @@
+parse.y の構造体 token_info のメンバー column を indent に改名、linenum はかわりに rb_code_position_t 全体を格納するようにしています。
