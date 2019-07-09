@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump や dump_all の実装で使う構造体 struct dump_config のメンバー root と full_heap をビットフラグにして bit field として構造体末尾にまとめるようにして構造体サイズを削減しています。 https://github.com/ruby/ruby/pull/2274
