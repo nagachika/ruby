@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で racc の upstream からの同期時に racc/cparse の内容のコピー方法を変更して、また ext/racc/cparse/README は ruby リポジトリのほうにしかないので git checkout で復活させるようにしています。
