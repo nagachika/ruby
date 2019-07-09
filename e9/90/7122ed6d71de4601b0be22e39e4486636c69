@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV::Writer のインスタンス変数 @fields_converter の明示的な初期化を追加して write_headers: true 指定時の警告を抑制しています。
