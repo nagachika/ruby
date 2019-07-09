@@ -1,0 +1,1 @@
+Enumerable#select の rdoc 用コメント から Enumerable#reject と同時に  Enumerable#grep への参照も追記しています。
