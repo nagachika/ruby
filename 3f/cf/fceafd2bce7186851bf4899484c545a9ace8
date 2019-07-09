@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の OptionParser::Switch#summarize というメソッドの第1、第2引数のデフォルト値を空配列から空ハッシュに変更しています。 [ruby-core:68378] [Bug #10928]
