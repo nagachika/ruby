@@ -1,0 +1,1 @@
+defs/gmake.mk で .unicode-table.time ファイルの依存関係の宣言のために wildcard 関数で Unicode 関係のファイル存在チェック? しているところで timestamp ファイル自体をマッチさせないようにしている? のかな。 Makefile むずい。
