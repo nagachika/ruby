@@ -1,0 +1,1 @@
+rubyspec の File::Stat#inspect のテストで expected の構築時に Time を文字列化するのに(暗黙的な) to_s ではなく inspect を使うように変更しています。
