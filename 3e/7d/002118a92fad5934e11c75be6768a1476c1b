@@ -1,0 +1,1 @@
+Integer(), Float(), Complex(), Rational() などの変換系のメソッドの exception キーワード引数や IO#read_nonblock, IO#wite_nonblock の exception キーワード引数は false でなかったら真と扱かってしまってたので、明示的に nil を渡した時に例外が発生してたので、共通して処理する関数 rb_opts_exception_p() を導入して true/false 以外を渡した時に ArgumentError を発生させる挙動にするようにしています。 [ruby-core:93552] [Bug #15987]
