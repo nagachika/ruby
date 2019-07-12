@@ -1,0 +1,1 @@
+ext/stringio/stringio.gemspec で文字列リテラルを .freeze つけまくってるのを消してます。
