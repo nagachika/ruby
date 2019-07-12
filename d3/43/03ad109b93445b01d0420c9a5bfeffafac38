@@ -1,0 +1,1 @@
+test/webrick/test_httpproxy.rb の未使用の変数除去。
