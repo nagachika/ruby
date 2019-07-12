@@ -1,0 +1,1 @@
+db844749af2da9cc06d90db0cb317ec379582afa で stringio の gemspec ファイルでバージョンを stringio.c から切り出してるところで結果が使われてなかったので Array#find のブロック内で break して結果を返すようにしています。
