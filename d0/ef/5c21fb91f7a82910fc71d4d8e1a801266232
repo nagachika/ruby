@@ -1,0 +1,1 @@
+.travis.yml に tool/update-deps を実行して更新漏れがないか確認するジョブを追加しています。
