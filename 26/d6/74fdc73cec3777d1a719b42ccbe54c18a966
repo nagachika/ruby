@@ -1,0 +1,1 @@
+gc.c の rb_memerror() にて fprintf(3) のフォーマット指示子に PRI_PIDT_PREFIX を使うようにして x64-mingw での警告除去。
