@@ -1,0 +1,1 @@
+parse.y の parser_yylex() にて last_state への冗長な代入があったので削っています。
