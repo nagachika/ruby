@@ -1,0 +1,1 @@
+標準添付ライブラリ monitor の MonitorMixin#mon_synchronize に例外での割り込み時にデッドロックに陥る可能性がある不具合があったので mon_enter と mon_exit の呼び出し部分を Thread.handle_interrupt で割り込み禁止するようにしています。 [ruby-core:93652] [Bug #15992]
