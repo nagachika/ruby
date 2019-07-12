@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline.dig_perfect_match_proc= に渡された引数が Proc オブジェクトじゃなかったら ArgumentError を発生させるようにしています。 call メソッドがなかったら、みたいなのもありかなって気はしますがまあ。
