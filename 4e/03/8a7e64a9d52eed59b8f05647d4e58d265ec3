@@ -1,0 +1,1 @@
+r63667 (bae638ad5b782c44c80efe33834cb9039279af46) の flip-flop を deprecated の警告を出力するようにしたのを revert しています。 Matz が RubyKaigi 2019 のキーノートであきらめたって言ってましたね、確か。 [ruby-core:39915] [Feature #5400]
