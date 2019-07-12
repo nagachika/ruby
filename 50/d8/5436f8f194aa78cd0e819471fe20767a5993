@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick で レスポンスが call メソッドを呼ぶ形式(たぶん Proc?)の時に Tempfile を使って一時ファイルに一度書き出してサイズを取得して Content-Length ヘッダにセットするようにしています。コミットログによると HTTP/1.0 に則ったクライアントが WEBrick::HTTPProxyServer に接続してきた時に Content-Length がないと問題になることがあったみたいです。
