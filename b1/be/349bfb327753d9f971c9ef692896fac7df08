@@ -1,0 +1,1 @@
+common.mk の exe/ruby のために miniruby を起動して File.symlink してるところで RUBY_INSTALL_NAME とリンク先が同じだったら symlink 作成を抑制するようにしています。
