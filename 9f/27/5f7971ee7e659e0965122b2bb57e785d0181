@@ -1,0 +1,1 @@
+tool/lib/with_different_ofs.rb も test/lib/with_different_ofs.rb に戻して require しているところも追随しています。
