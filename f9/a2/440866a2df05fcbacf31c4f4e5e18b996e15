@@ -1,0 +1,1 @@
+c3c0e3f5c9444c197779cb242de46dfffda79dec で移動されたファイルのうち tool/lib/jit_support.rb を test/lib/jit_support.rb に戻して require しているところもパスの変更に追随させています。
