@@ -1,0 +1,1 @@
+6bd49b33c859e3893318b8ceb1f3e0dd0988144f で GC.compact で gc_compact_after_gc() を呼び出す間に GC を抑制するために during_gc 変数を直接代入してましたが rb_gc_disable() および rb_gc_enable() を使うように修正しています。
