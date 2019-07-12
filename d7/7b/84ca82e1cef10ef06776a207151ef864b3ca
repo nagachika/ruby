@@ -1,0 +1,1 @@
+RubyVM.resolve_feature_path という require した時にどのファイルがロードされるかをエミュレートするメソッドを $LOAD_PATH のオブジェクトの特異メソッドとして定義するように移動しています。確かに RubyVM にあるのはちょっと違和感ありましたね。 [ruby-core:92986] [Feature #15903]
