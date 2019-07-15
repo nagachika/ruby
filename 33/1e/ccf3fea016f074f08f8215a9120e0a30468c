@@ -1,0 +1,1 @@
+bigdecimal, json, openssl, racc などの gemspec ファイルで文字列リテラルに .freeze を常につけてたのを削除しています。
