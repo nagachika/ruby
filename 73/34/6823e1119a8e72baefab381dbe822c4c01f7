@@ -1,0 +1,1 @@
+.travis.yml の macOS でのビルドで ALWAYS_UPDATE_UNICODE=yes を設定して Unicode 関係のデータファイルを毎回更新するように指定しています。
