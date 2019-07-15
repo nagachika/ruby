@@ -1,0 +1,1 @@
+0eafa1dce86be0e2f86a029271ec24cf6b577fad による logger.gemspec ファイルの移動に伴なって require_relative のパスも変更しています。
