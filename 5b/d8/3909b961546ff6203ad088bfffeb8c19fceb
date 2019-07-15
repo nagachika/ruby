@@ -1,0 +1,1 @@
+1464f7a149264b02637fdd444f8a431f1692981a と同様に complex.c で f_arg() の定義に fun1() を使わずに直接定義して Integer, Float, Rational, Complex 向けの最適化を行っています。
