@@ -1,0 +1,1 @@
+make help から test-rubyspec, gcbench-rdoc などのターゲットの説明を削っています。
