@@ -1,0 +1,1 @@
+test/helper.rb を test/logger/helper.rb に移動しています。あーなるほど cherry-pick で取り込んだからパスの構成が upstream のものになってたのか。
