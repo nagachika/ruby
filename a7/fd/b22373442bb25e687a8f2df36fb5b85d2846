@@ -1,0 +1,1 @@
+08c2a9dc599021668e11dee2f099a204122eab90 で RUBY_ASSERT が RUBY_DEBUG を非ゼロにしたら有効になるようにしたのを、さらにそこから使ってる RUBY_ASSERT_MESG_WHEN() の中に移動してより広い範囲の assertion を RUBY_DEBUG マクロで有効化できるようにしています。
