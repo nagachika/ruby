@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の gemspec ファイルで version.rb を require するのに require_relative を使うようにリファクタリング。
