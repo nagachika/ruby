@@ -1,0 +1,1 @@
+compile.c の switch 文の break がないところに fall through コメントを追加しています。
