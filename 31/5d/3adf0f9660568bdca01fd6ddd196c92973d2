@@ -1,0 +1,1 @@
+io.c の io_reopen() で io_tell() を呼んでいたところ、戻り値を利用していなくて Coverity Scan で警告が検出されてたので、関数マクロ io_tell() の一部の flush_before_seek() の呼び出しだけでここでの目的は達成できるので直接呼ぶようにしています。
