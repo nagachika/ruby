@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV#eof? で MalformedCSVError を補足して false を返すようにしています。 https://github.com/ruby/csv/issues/86
