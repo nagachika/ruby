@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV.new の :strip オプション引数の説明を追記しています。 https://github.com/ruby/csv/issues/88
