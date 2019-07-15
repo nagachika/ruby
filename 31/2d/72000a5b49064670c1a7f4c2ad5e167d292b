@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の gemspec ファイルの spec.files から lib/rdoc/markup/regexp_handling.rb が漏れてたのを修正しています。
