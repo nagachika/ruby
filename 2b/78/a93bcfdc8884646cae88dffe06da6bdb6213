@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の gemspec ファイルの spec.files に抜けてた lib/irb/color.rb を追加しています。
