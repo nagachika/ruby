@@ -1,0 +1,1 @@
+parse.y の here_document() で常に通らない分岐があったのを削っています。 Coverity Scan による検出とのこと。
