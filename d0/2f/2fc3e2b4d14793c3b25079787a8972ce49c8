@@ -1,0 +1,1 @@
+ac6d137157121381fb57e3febd34c84cb7ca47b2 で追加した make test-tool というターゲットを make help で出力するようにしています。
