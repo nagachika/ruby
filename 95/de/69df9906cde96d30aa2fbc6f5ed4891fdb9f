@@ -1,0 +1,1 @@
+io.c の rb_file_open_internal() で構造体の変数 convconfig の全メンバーを明示的に初期化しておくようにして警告除去しています。
