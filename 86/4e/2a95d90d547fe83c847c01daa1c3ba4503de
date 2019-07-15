@@ -1,0 +1,1 @@
+標準添付ライブラリ csv のバージョンを 3.1.0 に更新しています。コミットログの形式からみてどうやら直近の tool/sync_default_gems.rb の cherry-pick 機能を利用して https://github.com/ruby/csv/commit/312f844693 から cherry-pick されたみたいですね。すごいなこれは。
