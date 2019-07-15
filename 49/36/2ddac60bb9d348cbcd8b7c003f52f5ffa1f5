@@ -1,0 +1,1 @@
+vm_insnhelper.c の switch 文の break がないところに fall through のコメントを追加しています。
