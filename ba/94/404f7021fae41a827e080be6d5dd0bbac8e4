@@ -1,0 +1,1 @@
+marshal.c および sprintf.c で switch 文で break していないところに警告除去のため fall through のコメントを追加ています。Coverity Scan こういう警告も出すんだ。
