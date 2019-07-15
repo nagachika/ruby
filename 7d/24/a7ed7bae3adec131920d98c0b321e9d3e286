@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb でファイルの削除のために外部コマンドの rm を呼び出してたところを FileUtils.rm_rf を利用するようにリファクタリングしています。
