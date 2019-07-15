@@ -1,0 +1,1 @@
+tool/generic_erb.rb および tool/id2token.rb で $LOAD_PATH にディレクトリを追加してたのは既に require_relative を利用するようになって不要になってたので削っています。
