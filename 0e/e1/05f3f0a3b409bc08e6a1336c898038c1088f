@@ -1,0 +1,1 @@
+make help で表示されるヘルプの make test-spec の説明に SPECOPTS 変数での指定について追記しています。
