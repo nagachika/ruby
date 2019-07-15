@@ -1,0 +1,1 @@
+Proc#lambda? や Proc の rdoc 用コメントに Proc オブジェクトの lambda か否かの違いの影響について説明を増やしています。
