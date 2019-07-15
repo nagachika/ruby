@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri で Content-Type が text/* の場合の Encoding のデフォルトを UTF-8 に変更しています。従来は RFC2616 に従って schema が http の時は ISO-8859-1 (いわゆる latin1 かな)にしていましたが RFC6838 の更新にあわせて UTF-8 にするとのこと。 schema が http か https でデフォルトの Encoding が異なる状態だったので、それを統一的に扱うという意味合いもあるみたいですね。 [ruby-core:93206] [Bug #15933]
