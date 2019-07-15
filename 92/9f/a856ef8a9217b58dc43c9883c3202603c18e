@@ -1,0 +1,1 @@
+.gitattributes に tool/leaked-globals を ruby フォーマットとして扱うように追加しています。
