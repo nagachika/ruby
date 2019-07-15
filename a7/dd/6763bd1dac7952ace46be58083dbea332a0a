@@ -1,0 +1,1 @@
+azure-pipelines.yml の git リポジトリからの fetchDepth 設定を増やしています。少ないと checkout のエラーになることがあるらしい。
