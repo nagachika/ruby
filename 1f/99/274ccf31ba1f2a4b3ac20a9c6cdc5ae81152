@@ -1,0 +1,1 @@
+make help の説明に make update-gems および make update-bundled_gems の説明を追加しています。
