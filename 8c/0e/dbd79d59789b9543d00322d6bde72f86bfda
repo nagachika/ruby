@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ csv の CSV.new の rdoc 用コメントにオプション引数 :quote_empty の説明を追加しています。 https://github.com/ruby/csv/issues/89
