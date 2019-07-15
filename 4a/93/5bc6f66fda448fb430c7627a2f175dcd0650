@@ -1,0 +1,1 @@
+doc/globals.rdoc に $LOAD_PATH.resolve_feature_path メソッドについてのドキュメントを追記して vm.c の rdoc 用コメントは削除しています。
