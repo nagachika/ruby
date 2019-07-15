@@ -1,0 +1,1 @@
+compile.c の defined_expr() や defined_expr0() の戻り値は常に 1 だったので void に変更しています。
