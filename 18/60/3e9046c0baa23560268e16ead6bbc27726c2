@@ -1,0 +1,1 @@
+369ff79394765ce198ac7cee872a8c739d895aaa で追加した enc/trans/cesu_8.c の依存関係を enc/depend に追加しています。Travis-CI で依存関係の漏れが検出できたみたいです。
