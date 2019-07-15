@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri で URI を指定した open を Kernel#open (つまりたいていの場合は receiver なしの open) で利用した時は deprecated の警告を出して URI.open を使うように促すようにしています。おお、これけっこう大きな変更ですね。 [ruby-core:92922] [Misc #15893]
