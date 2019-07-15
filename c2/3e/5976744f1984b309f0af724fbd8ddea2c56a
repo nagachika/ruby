@@ -1,0 +1,1 @@
+hash.c でも独自に定義されてた HASH_ASSERT() や ARRAY_DEBUG, VM_CHECK_MODE などのデバッグ用のマクロ類を RUBY_DEBUG で一括で on にできるようにしています。
