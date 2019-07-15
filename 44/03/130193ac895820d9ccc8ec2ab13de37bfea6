@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の gemspec ファイルの spec.files に抜けてたファイルを追加。
