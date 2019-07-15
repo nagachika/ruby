@@ -1,0 +1,1 @@
+lib/e2mmap.gemspec と lib/logger.gemspec をそれぞれ対応するサブディレクトリの配下に移動しています。
