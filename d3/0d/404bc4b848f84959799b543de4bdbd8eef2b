@@ -1,0 +1,1 @@
+ブロック引数の Proc 化を抑制して高速に呼ぶための命令 getblockparamproxy の MJIT サポートを追加しています。 MJIT コンパイルの変更的には unsupported_insns から削って INSN_LABEL の展開に対応してるのでそれが必要なだけだったのかな。
