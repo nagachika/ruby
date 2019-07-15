@@ -1,0 +1,1 @@
+mjit_worker.c の form_args() でループの途中で直接 return しているため va_end(3) を呼ばずに return してしまっていたところがあったのを修正しています。 Coverity Scan の検出らしいです。
