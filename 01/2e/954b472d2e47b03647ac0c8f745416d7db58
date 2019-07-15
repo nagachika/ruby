@@ -1,0 +1,1 @@
+Fiber のベンチマーク benchmark/fiber_chain.rb を YAML による記法にしていくつかのファイルに分割したり、bootstraptest の Fiber のテストを bootstraptest/test_fiber.rb というファイルに独立させたりしています。
