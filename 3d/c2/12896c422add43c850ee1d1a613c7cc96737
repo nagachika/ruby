@@ -1,0 +1,1 @@
+thread.c の rb_thread_call_with_gvl() で blocking_region_begin() の戻り値チェックしていないと Coverity Scan に指摘されたので? RUBY_ASSERT_ALWAYS() でチェックするようにしています。
