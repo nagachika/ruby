@@ -1,0 +1,1 @@
+gc.h の STACK_GROW_DIR_DETECTION マクロの定義前にコメントで解説を追記しています。
