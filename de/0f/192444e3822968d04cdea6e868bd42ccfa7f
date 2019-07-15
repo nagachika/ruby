@@ -1,0 +1,1 @@
+NEWS ファイルの irb に multi line 対応とタブ補完による rdoc 検索、auto indent 機能追加と history 保存のデフォルト有効化について追記しています。
