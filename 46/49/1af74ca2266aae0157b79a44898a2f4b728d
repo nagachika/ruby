@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で filter-branch を使ってコミットログにどの gem のものなのかを先頭に追記するようにしています。
