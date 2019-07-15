@@ -1,0 +1,1 @@
+common.mk にコメントで書かれてた make benchmark のオプションの指定方法なんかは benchmark/README.md を参照するように書いて削っています。
