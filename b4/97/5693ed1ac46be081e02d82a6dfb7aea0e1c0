@@ -1,0 +1,1 @@
+process.c で PREPARE_GETGRNAM/FINISH_GETGRNAM という対のマクロで一時バッファを用意しているのに使ってない箇所があったので削除しています。
