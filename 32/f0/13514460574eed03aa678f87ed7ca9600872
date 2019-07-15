@@ -1,0 +1,1 @@
+ruby_assert.h の内容から RUBY_ASSERT() などの定義を include/ruby/assert.h に切り出しています。
