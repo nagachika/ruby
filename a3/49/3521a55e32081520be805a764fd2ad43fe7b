@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に 46491af74ca2266aae0157b79a44898a2f4b728d で追加した git filter-branch サブコマンドの実行が失敗したらメッセージを出力して終了するようにしています。
