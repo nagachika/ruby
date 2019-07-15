@@ -1,0 +1,1 @@
+標準添付ライブラリ logger で Logger.new のキーワード引数 binmode を追加して IO#binmode の呼び出しに伝播させるようにしています。
