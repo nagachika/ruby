@@ -1,0 +1,1 @@
+lib/logger.rb の frozen_string_literal の指定を true に変更しています。
