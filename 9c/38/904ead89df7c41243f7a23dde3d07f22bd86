@@ -1,0 +1,1 @@
+a7dd6763bd1dac7952ace46be58083dbea332a0a と同様に azure-pipelines.yml で fetchDepth の値をどのジョブでも 20 にするようにしています。
