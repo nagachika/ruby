@@ -1,0 +1,1 @@
+include/ruby/ruby.h から 32f013514460574eed03aa678f87ed7ca9600872 で分離した include/ruby/assert.h を include するようにして、依存関係も全体的に更新しています。
