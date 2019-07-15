@@ -1,0 +1,1 @@
+Method#inspect で source_location の情報が取れればそれも文字列に埋め込むようにしています。 [ruby-core:84004] [Feature #14145]
