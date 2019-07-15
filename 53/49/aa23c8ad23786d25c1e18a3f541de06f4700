@@ -1,0 +1,1 @@
+同じく 0eafa1dce86be0e2f86a029271ec24cf6b577fad による e2mmap.gemspec ファイルの移動に伴なって require_relative のパス指定を変更しています。
