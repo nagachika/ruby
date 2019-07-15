@@ -1,0 +1,1 @@
+make help の出力から make exam の説明を削っています。今は make check と同じ意味なのであまり使う必要がないので。
