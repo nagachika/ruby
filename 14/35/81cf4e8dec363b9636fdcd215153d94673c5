@@ -1,0 +1,1 @@
+openssl, stringio, racc などの gemspec ファイルの先頭にある stub というコメント行を削除しています。なんだろ、こういう機能があるのかな。
