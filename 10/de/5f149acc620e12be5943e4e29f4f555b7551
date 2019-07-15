@@ -1,0 +1,1 @@
+complex.c の除算で両方の Complex の real/imag 全てが Float だった時に f_complex_new2() を呼び出すショートカットを削除しています。 f_complex_new2() の引数に Complex を渡す状態になってて assertion にひっかかっていた? ようです。うーんすぐにでもテストで踏みそうなパスだけどどうして見過されてたんだろう。[追記] complex.c の assert は有効になってなかったそうです[/追記]
