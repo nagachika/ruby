@@ -1,0 +1,1 @@
+もうひとつ標準添付ライブラリ csv のリファクタリングを cherry-pick してきています。 https://github.com/ruby/csv/commit/7ff57a50e8
