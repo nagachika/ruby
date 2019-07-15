@@ -1,0 +1,1 @@
+make help の出力から make goruby を削っています。同じことをする make golf の説明があるので。
