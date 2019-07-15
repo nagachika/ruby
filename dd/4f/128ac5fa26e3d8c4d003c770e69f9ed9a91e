@@ -1,0 +1,1 @@
+mjit_worker.c の start_process() で /dev/null (などその環境における null device)を open するのに失敗した時のエラー処理を追加しています。これも Coverity Scan の検出とのこと。
