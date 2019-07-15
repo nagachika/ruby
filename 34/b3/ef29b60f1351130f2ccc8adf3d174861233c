@@ -1,0 +1,1 @@
+MJIT で生成するコードで debug counters の mjit_cancel_ivar をインクリメントするコードを生成してたところを削っています。 mjit_cancel_ivar_inline をかわりに使ってるのでもう不要とのこと。
