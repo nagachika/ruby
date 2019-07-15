@@ -1,0 +1,1 @@
+complex.c の rb_funcall() の wrapper 関数を定義するための関数 fun1() を abs の定義に使ってたのをやめて f_abs() を定義して  Integer, Float, Rational, Complex 向けに rb_funcall() を経由せずに直接対応する関数を呼ぶ最適化を行なうようにしています。
