@@ -1,0 +1,1 @@
+標準添付ライブラリ logger に Logger#debug!, #info!, #warn!, #error!, #fatal!  などの log level 設定用のショートカットメソッドを追加しています。
