@@ -1,0 +1,1 @@
+d30d404bc4b848f84959799b543de4bdbd8eef2b の rb_block_param_proxy の宣言を vm_insnhelper.h から vm_core.h に移動しています。
