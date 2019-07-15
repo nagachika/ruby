@@ -1,0 +1,1 @@
+doc/NEWS-2.6.0 の RubyVM::AbstractSyntaxTree.of についてのエントリの [experimental] がタグみたいな記法になってないので修正しています。
