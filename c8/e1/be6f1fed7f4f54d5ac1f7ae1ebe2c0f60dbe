@@ -1,0 +1,1 @@
+265e94a7fa96c918c4278ae58bf6e5cdb018906d の再修正。 tool/sync_default_gems.rb で default gem の upstream repo から cherry-pick する時に merge commit はスキップするようにしています。
