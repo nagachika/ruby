@@ -1,0 +1,1 @@
+73346823e1119a8e72baefab381dbe822c4c01f7 の続きで .travis.yml の macOS のビルドで ALWAYS_UPDATE_UNICODE 変数の指定は revert して make up が失敗した時だけ ALWAYS_UPDATE_UNICODE=yes つきで再度 make up をリトライするようにしています。あんまり頻繁にダウンロードされると Unicode 側から ban されるかもしれない、という指摘があったとのこと。そういえばそんなことが(GNU だったかもしれないけど)あったような。
