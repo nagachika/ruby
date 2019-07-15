@@ -1,0 +1,1 @@
+標準添付ライブラリ logger のテストに test/helper.rb を追加して必要な require をここで upstream と ruby のリポジトリ内の時との差異を吸収するようにしています。
