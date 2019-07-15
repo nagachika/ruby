@@ -1,0 +1,1 @@
+RUBY_ASSERT_ALWAYS() という NDEBUG の影響を受けず常にチェックを行うマクロを導入して、既に同様の RUBY_ASSERT_WHEN() を使ってたところをこれを使うようにしています。
