@@ -1,0 +1,1 @@
+と思ったらやっぱり be082e28003543eff5ff07cf5261dbf7b6278a50 で default gems のリポジトリの履歴を fetch したのを利用して git cherry-pick を試すようにしています。しかしたいていの場合パス構成の違いとかですんなり cherry-pick できなさそうだけど。
