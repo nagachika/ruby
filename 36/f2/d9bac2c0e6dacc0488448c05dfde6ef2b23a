@@ -1,0 +1,1 @@
+numeric.c の fix_cmp() に if 文の else 節も含めて全てで直接 return しているため末尾には到達しないのに return 文があったので削除しています。これも Coverity Scan の検出かな。
