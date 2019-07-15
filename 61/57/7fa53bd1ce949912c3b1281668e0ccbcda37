@@ -1,0 +1,1 @@
+load.c の switch 文の break を使ってないところも fall through コメントを追加しています。
