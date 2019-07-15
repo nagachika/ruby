@@ -1,0 +1,1 @@
+Time#nsec のテストで Float を渡して作った Time の nsec のチェックで assert_equal ではなく assert_in_delta を使って誤差を許容するようにしています。
