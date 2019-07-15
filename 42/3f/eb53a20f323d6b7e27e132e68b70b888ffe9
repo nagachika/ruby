@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix に他の default gem と同様にバージョンを Matrix::VERSION 定数に持つようにしています。
