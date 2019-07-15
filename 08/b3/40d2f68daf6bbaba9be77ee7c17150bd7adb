@@ -1,0 +1,1 @@
+tool/lib/test/unit/assertions.rb から一部の独自の assertion 定義を tool/lib/test/unit/core_assertions.rb というファイルに分割しています。
