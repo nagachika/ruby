@@ -1,0 +1,1 @@
+addr2line.c の binary_filename というファイルパスを格納する変数のサイズを終端の NUL 文字を考慮して +1 しています。
