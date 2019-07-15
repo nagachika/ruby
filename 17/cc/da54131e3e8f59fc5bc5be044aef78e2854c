@@ -1,0 +1,1 @@
+irb の history 保存の処理で Reline::HISTORY を to_a してから map を呼んでましたが、このインスタンスは Array を継承したクラスのインスタンスなので直接  map 呼ぶようにしています。
