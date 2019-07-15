@@ -1,0 +1,1 @@
+encoding.c で独自に定義されてた ENC_ASSERT() も RUBY_DEBUG で on にできるようにしています。
