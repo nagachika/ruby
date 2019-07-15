@@ -1,0 +1,1 @@
+7d24a7ed7bae3adec131920d98c0b321e9d3e286, e91ff4dbaf0bdbf7185b485b43cd9393419efd11, a73f45247652d563e4043af8d14964b9d911fe81 で tool/sync_default_gems.rb のファイル操作に FileUtils のメソッドを使うようにしましたが include FileUtils しておくことで直接メソッドを呼ぶようにしています。
