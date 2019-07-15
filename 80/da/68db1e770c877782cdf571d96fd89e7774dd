@@ -1,0 +1,1 @@
+ext/openssl/ossl_ssl.c の switch 文の break がないところに fall through のコメント追加。
