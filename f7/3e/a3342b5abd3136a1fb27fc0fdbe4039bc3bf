@@ -1,0 +1,1 @@
+rubyspec の logger のテストで例外メッセージの変化に対応してテストをバージョンで変更するように ruby_version guard を追加しています。
