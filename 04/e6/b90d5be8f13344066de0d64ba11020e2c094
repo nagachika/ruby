@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::History の未使用のメソッド set_config の定義を削除しています。
