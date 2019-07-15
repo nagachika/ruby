@@ -1,0 +1,1 @@
+doc/globals.rdoc の定数の説明の TRUE, FALSE, NIL のところに Deprecated になったことを追記しています。
