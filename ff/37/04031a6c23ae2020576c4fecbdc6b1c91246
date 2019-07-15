@@ -1,0 +1,1 @@
+tool/rbinstall.rb で =begin/=end のコメントブロックに挟んで prolog_script を埋め込む時に最後が改行である前提で末尾に改行なしに =end を繋げてましたが、chomp して最後の改行を削った上で明示的に改行して =end を置くようにしています。
