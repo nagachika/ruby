@@ -1,0 +1,1 @@
+compile.c switch 文で break がないところで fall though のコメントを追加。
