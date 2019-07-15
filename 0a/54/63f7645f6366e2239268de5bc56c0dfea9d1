@@ -1,0 +1,1 @@
+$LOAD_PATH.resolve_feature_path のメソッド移動について NEWS ファイルに追記しています。
