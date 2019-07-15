@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname.glob にも Dir.glob と同様に第3引数 base のサポートを追加しています。 [ruby-core:85131] [Feature #14405]
