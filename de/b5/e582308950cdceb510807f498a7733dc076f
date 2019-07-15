@@ -1,0 +1,1 @@
+ext/stringio/stringio.c で常に偽になる条件での無意味な分岐があったのを解消しています。 Coverity Scan の検出。
