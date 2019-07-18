@@ -1,0 +1,1 @@
+Kernel#exec や Process.spawn のオプション引数を処理する rb_execarg_addopt() で真偽値を期待しているオプションについて rb_bool_expected() を利用して true か false しか受け付けないようにしています。
