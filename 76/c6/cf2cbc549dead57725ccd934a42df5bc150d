@@ -1,0 +1,1 @@
+.travis.yml で make up が失敗した場合に ALWAYS_UPDATE_UNICODE=yes つきでリトライしてたのを、変数の指定は消して --debug つきで make リトライするように変更しています。
