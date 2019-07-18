@@ -1,0 +1,1 @@
+拡張ライブラリ socket の get_afamily() および ai_get_afamily() の引数に const 修飾子を追加。
