@@ -1,0 +1,1 @@
+Kernel#exec や Process.spawn などの引数の処理でエラー時に例外を発生させるようにするキーワード引数 exception のチェックを rb_execarg_init() から呼び元の rb_execarg_new() に引き上げて、実際にフラグを立てるのは rb_execarg_addopt() に移動しています。サポートしていないメソッド経由の時の ArgumentError を適切に発生させるようにしています。
