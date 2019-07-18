@@ -1,0 +1,1 @@
+defs/gmake.mk で make pull-github というターゲット? を分離して pull request のブランチを取ってこれるようにしているみたいです。
