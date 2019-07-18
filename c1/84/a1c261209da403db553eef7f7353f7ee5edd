@@ -1,0 +1,1 @@
+4b345f9d4bbff2cfc9895155fb0e8f90d1cac816 と同様に compile.c で戻り値を利用していない箇所に NO_CHECK() マクロを利用して Coverity Scan の警告を抑制しています。
