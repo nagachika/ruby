@@ -1,0 +1,1 @@
+rubyspec の Process.daemon のテストでオプション引数に true/false 以外を渡してるテストがあったのを削ってます。
