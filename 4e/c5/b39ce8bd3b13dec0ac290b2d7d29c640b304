@@ -1,0 +1,1 @@
+d7fdf45a4ae1bcb6fac30a24b025d4f20149ba0a のかわりなのかなと思いますが fiber_t_alloc() で rb_fiber_t を確保した時に fib->cont.saved_ec.cfp を NULL クリアしておくようにしています。
