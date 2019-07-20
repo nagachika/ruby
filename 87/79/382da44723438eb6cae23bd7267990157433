@@ -1,0 +1,1 @@
+USE_THREAD_DATA_RECYCLE が真の時の Thread と Fiber で VM スタックを使いまわす機構は Fiber pool 導入で不要になったので削除しています。
