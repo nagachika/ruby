@@ -1,0 +1,1 @@
+3e8d4ff3e571bd556898efd94badb66a5dadf4d2 と同様に assert() の中に複雑な式を書かないようにするため ELTS_SHARED および RARRAY_EMBED_FLAG のフラグチェックをしている部分を should_not_be_shared_and_embedded() という関数に切り出し、この関数呼び出しを assert() の中に入れるようにしてコンパイル時のメモリ使用量を抑制するようにしています。assert() の展開ってそんなに大きくなるんだなぁ。
