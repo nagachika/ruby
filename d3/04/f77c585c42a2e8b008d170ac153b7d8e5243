@@ -1,0 +1,1 @@
+6bd49b33c859e3893318b8ceb1f3e0dd0988144f や 12762b76cba8ac4623a6c16e1fe60efafa3b7d1c で GC.compact 中の gc_compact_after_gc() の呼び出し前後で GC を抑制するようにしてましたが、gc_compact_after_gc() の中の gc_update_references() の呼び出し前後まで絞っています。また GC.enable の状態を保持しておいて元に戻すようにしています。
