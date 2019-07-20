@@ -1,0 +1,1 @@
+doc/syntax/methods.rdoc にメソッド定義に begin なしの ensure, else も書けることを追記しています。 rescue 節のことだけ書かれてて抜けてたみたいです。
