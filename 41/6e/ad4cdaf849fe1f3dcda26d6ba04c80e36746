@@ -1,0 +1,1 @@
+compile.c で式の値を使ってないところに NO_CHECK() マクロを使って Coverity Scan の警告を抑制するのをもう一箇所追加しています。
