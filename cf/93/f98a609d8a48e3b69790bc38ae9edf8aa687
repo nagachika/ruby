@@ -1,0 +1,1 @@
+9790b778a339f36f9b29517a1d762cf02a2f0293 や 4ec5b39ce8bd3b13dec0ac290b2d7d29c640b304 ec->cfp を NULL クリアしていたのを revert して rb_ec_clear_vm_stack() 内で ec->cfp を NULL クリアするようにして、必要ならこの呼び出しを追加しています。
