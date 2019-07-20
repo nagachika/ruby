@@ -1,0 +1,1 @@
+同じく doc/syntax/methods.rdoc に省略可能引数のデフォルト値の評価順序について(左から右)追記しています。 [ruby-core:57175] [Misc #8905]
