@@ -1,0 +1,1 @@
+再度 benchmark-driver.gem の利用するバージョンを更新しています。 make run での NameError を修正しているようです。
