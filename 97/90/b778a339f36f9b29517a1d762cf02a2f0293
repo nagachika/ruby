@@ -1,0 +1,1 @@
+14cf95cff35612c6238790ad2f605530f69e9a44 の fiber_stack_release() で ec->cfp を NULL クリアし忘れてたのを修正しています。
