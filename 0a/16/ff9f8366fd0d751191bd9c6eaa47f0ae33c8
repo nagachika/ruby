@@ -1,0 +1,1 @@
+3e8d4ff3e571bd556898efd94badb66a5dadf4d2 で切り出した assert_T_ARRAY() は should_be_T_ARRAY() と改名して assert() は呼び元で実行するようにしています。assert() の失敗した位置がわからなくなるので assert はマクロ側に戻しているようです。
