@@ -1,0 +1,1 @@
+8ac9a7be0fea95d9fc17cce53c0d18d70cc8d091 で 32bit 環境での Fiber pool のまとめて確保するスタック数の制限を sizeof(void*) で決めてたのを Coroutine の実装毎に COROUTINE_LIMITED_ADDRESS_SPACE というマクロを定義したりしなかったりして決めるようにしています。また初期値も変えるようにしているうえ大きく使える環境での上限は 4096 まで増やしてます。そんなに確保して大丈夫なのかな…。
