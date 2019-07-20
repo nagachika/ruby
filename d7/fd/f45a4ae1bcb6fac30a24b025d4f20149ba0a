@@ -1,0 +1,1 @@
+なんとなく既視感がありますが(9790b778a339f36f9b29517a1d762cf02a2f0293) cont_init() で cont->saved_ec.cfp を明示的に NULL クリアしておくようにしています。 cont_mark() で未使用の execution context の mark をスキップする時に判定に使うため。
