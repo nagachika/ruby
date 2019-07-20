@@ -1,0 +1,1 @@
+parse.y のブロック引数のルールで終端というかなにもない時の値を 0 (ripper の場合は Qundef) と書いてたのを Qnull にしています。 Qnull ってあったっけ、と思ったら parse.y で 0 or Qundef (ripper の場合)に定義されてました。なので実際には変化はないはず。
