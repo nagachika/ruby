@@ -1,0 +1,1 @@
+8ac9a7be0fea95d9fc17cce53c0d18d70cc8d091 で追加した Fiber pool のスタック領域管理のリストを双方向にして解放時の優先度を変えたのは FIBER_POOL_ALLOCATION_FREE というマクロが定義された時だけ使うようにしています。実験中かな。
