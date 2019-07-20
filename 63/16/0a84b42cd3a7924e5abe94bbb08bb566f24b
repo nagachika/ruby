@@ -1,0 +1,1 @@
+ruby_assert.h で NDEBUG マクロが定義されていたら RUBY_NDEBUG も 1 に定義して assert のチェックやデバッグ用のコードが有効になるようにしています。include/ruby/assert.h でも同様の定義がされていますが ruby/ruby.h 経由で ruby/assert.h を include した後で NEBUG を #define してから ruby_assert.h を include している場合(array.c) があって、その場合も RUBY_NDEBUG が有効になるようにしたかったみたいです。ややこしいですね…。
