@@ -1,0 +1,1 @@
+Continuation の mark 関数で cont->saved_ec を mark する前にその cfp が NULL になってないかチェックするように修正しています。
