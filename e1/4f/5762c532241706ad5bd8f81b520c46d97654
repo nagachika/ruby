@@ -1,0 +1,1 @@
+dd0e33f0839124a910f4eb0bb67423e041036645 で分割した coroutine/copy/Context.h の assert(3) のうち stack と size についてのチェックはここから呼んでる coroutine_initialize_main() という関数の中に移動しています。
