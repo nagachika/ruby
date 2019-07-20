@@ -1,0 +1,1 @@
+cont.c の fiber pool 関連の関数に VM_ASSERT() によるチェックやデバッグ出力を追加しています。また madvise() でメモリ領域解放時にすぐシステムに返すように指定する時に MADV_DONTNEED を使う場合は VM_CHECK_MODE が 1以上の時だけ行うようにしています。
