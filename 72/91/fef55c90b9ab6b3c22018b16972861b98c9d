@@ -1,0 +1,1 @@
+91aae651bf90be46773a246e4c46b9e221353fbd でこれまでのアーキテクチャごとの Coroutine 実装が使えないケースもカバーする C 実装の Coroutine が作られたので configure の Fiber 実装の選択部分をちょっと(?)変更しています。変数名の改名が大部分であとは Coroutine 実装がない時の処理のかわりに copy を使うようになったのでちょっとシンプルに書けるようになった、というのと --with-coroutine というオプションで copy/ucontext など configure 時に指定できるようにしています。
