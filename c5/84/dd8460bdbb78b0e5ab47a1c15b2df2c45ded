@@ -1,0 +1,1 @@
+.travis.yml の Fiber の coroutine 実装を copy や ucontext にした時のテストを cron only の設定を追加して毎回ビルドしないようにしています。
