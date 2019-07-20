@@ -1,0 +1,1 @@
+fiber_pool_allocate_memory() にスタック領域用メモリ確保の戦略についてコメントを追加しています。
