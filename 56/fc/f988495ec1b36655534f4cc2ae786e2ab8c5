@@ -1,0 +1,1 @@
+ベンチマーク benchmark/vm2_fiber_count.yml のコメントに Linux では sysctl で vm.max_map_count を増やさないといけないよとメモを追加しています。
