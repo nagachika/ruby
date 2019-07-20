@@ -1,0 +1,1 @@
+array.c で ARY_SHARED_P()、ARY_EMBED_P()、ARY_OWNS_HEAP_P()、ARY_SHARED_ROOT_P() などのチェック系マクロで FL_TEST() を使ってオブジェクトのタイプのチェックをしていたところを FL_TEST_RAW() を使うようにして FL_ABLE() のチェックを省き、かわりに assert() でデバッグ用ビルド時のみ RB_TYPE_P() によるチェックをするようにしています。不要なチェックを削って高速化するためみたいです。
