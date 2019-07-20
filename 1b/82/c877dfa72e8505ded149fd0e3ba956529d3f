@@ -1,0 +1,1 @@
+FIBER_USE_NATIVE というマクロは廃止して、無条件で有効なものとして preprocessor の分岐を消しています。
