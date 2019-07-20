@@ -1,0 +1,1 @@
+.travis.yml でビルド条件に copy タイプの Coroutine 実装を使うビルドを追加しています。 --with-coroutine=ucontext をつけて configure するタイプも追加しているけど結局 ucontext も残ってるのか。よくわからん。
