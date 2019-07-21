@@ -1,0 +1,1 @@
+test/runner.rb とそこからコピーされた tool/test/runner.rb のコード重複を解消するため test/runner.rb は削除して tool/test/runner.rb に統合して --test-target-dir というオプションを追加してテスト対象のディレクトリを指定できるようにして make の各種ルールでこれを指定するようにしています。
