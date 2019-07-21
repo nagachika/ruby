@@ -1,1 +1,1 @@
-file.c の statx_notimplement() の宣言に NORETUR() マクロを利用して clang での警告? を抑制しています。
+file.c の statx_notimplement() の宣言に NORETURN() マクロを利用して clang での警告? を抑制しています。
