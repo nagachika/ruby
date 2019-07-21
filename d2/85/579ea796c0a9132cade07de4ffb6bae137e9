@@ -1,0 +1,1 @@
+common.mk の simplecov と doclie の clone してくるバージョンを更新しています。 doclie ってなんだっけ…と思ったらこれも simplecov で結果の整形とかに使っている gem みたいでした。
