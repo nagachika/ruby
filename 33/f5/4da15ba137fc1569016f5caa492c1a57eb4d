@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree::Node のオブジェクト型で memsize に対応するようにしています。
