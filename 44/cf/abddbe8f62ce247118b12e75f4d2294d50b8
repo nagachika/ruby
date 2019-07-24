@@ -1,0 +1,1 @@
+doc/maintainers.rdoc に racc のエントリが lib/racc と ext/racc で重複して存在していたので ext/racc にまとめています。序でにメンテナに hsbt さんを追加しています。
