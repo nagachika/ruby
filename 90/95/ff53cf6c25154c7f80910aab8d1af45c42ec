@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date.valid_date? の rdoc 用コメントに day に -1 が渡されても true を返すこと、Date.new の引数として渡しても OK かどうかが判断基準だということを追記しています。
