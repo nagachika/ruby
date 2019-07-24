@@ -1,0 +1,1 @@
+make check に make test-tool を含めるようにしています。
