@@ -1,0 +1,1 @@
+24712eeec39f5e9a11cfc2b940358403cda4f2b6 で test/runner.rb を tool/test/runner.rb に統合した時に追加した --test-target-dir は option_parser など使わずに実装してたので、先頭にある時だけ受け付けるようにして、通常のオプションとの間に置いた "--" は削るようにしています。
