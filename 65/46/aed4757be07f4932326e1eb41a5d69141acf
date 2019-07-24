@@ -1,0 +1,1 @@
+rb_enc_init() の呼び出しが遅延されていて代表的な Encoding を返す rb_utf8_encoding() などの先頭で分岐があったので Init_encodings() を追加してここからプロセス起動時に呼んでおくようにしています。 https://github.com/ruby/ruby/pull/2128 [ruby-core:92452] [Misc #15806]
