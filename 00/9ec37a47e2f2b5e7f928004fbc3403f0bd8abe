@@ -1,0 +1,1 @@
+rb_enc_from_index() で index が不正じゃないかチェックしてる分岐の条件に LIKELY() を追加しています。 https://github.com/ruby/ruby/pull/2128 [ruby-core:92452] [Misc #15806]
