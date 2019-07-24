@@ -1,0 +1,1 @@
+構造体 struct rb_method_definition_struct の宣言に PACKED_STRUCT_UNALIGNED() マクロを使っていたのをやめ、先頭の bit field 部分のサイズ(正確にはその後の要素の offset)を STATIC_ASSERT() でチェックするに留めています。
