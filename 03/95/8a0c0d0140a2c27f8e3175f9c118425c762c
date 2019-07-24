@@ -1,0 +1,1 @@
+configure で Fiber 用の Coroutine の実装を選択する部分で $target_os の linux のあとに "-gnu" がつくことがあるのでそれも許容するようにしています。 [ruby-core:93878] [Bug #16015]
