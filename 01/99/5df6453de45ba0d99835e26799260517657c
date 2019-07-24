@@ -1,0 +1,1 @@
+object_id や send の rdoc 用コメントに BasicObject にはアンダースコア 2つが前後についた版のみ定義されていることを追記しています。 [ruby-core:65868] [Bug #10422]
