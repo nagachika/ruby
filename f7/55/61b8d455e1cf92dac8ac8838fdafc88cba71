@@ -1,0 +1,1 @@
+構造体 struct RHash のメンバー ifnone に const 修飾子を追加しています。
