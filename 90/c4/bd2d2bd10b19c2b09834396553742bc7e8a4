@@ -1,0 +1,1 @@
+ObjectSpace.memsize_of で T_MEMO 型オブジェクトのメモリ使用量を正確に返せるように実装を追加しています。 https://github.com/ruby/ruby/pull/2140 [ruby-core:92451] [Feature #15805]
