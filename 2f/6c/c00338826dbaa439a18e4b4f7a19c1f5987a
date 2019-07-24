@@ -1,0 +1,1 @@
+Array#pack の rdoc 用コメントの指示子 "m" の count の扱いについてもうちょっと詳しく追記しています。 [ruby-core:63639] [Bug #10025]
