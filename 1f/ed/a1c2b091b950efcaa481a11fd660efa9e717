@@ -1,0 +1,1 @@
+f75561b8d455e1cf92dac8ac8838fdafc88cba71 と同様に struct RBasic::klass, struct RArray の as.heap.aux.shared_root, struct RRegexp::src struct rb_classext_struct::origin_, redefined_class …等の VALUE 型のメンバーに const 修飾子を追加して、特に rb_classext_struct::redefined_class のセット時に write barrier を設定するようにしています。
