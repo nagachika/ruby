@@ -1,0 +1,1 @@
+tool/test/runner.rb および tool/lib/test/unit/parallel.rb で Gem::TestCase クラスを定義して @@project_dir を用意してたのが 99680f81e832506792cf32d830d09954acd220fc の変更で不要になったので削っています。
