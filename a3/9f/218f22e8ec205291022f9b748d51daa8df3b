@@ -1,0 +1,1 @@
+make test-bundled-gems で環境変数 TEST_BUNDLED_GEMS_ALLOW_FAILURES によるエラーの無視を if 文を使ってテスト実行を分けてたのを、一時的に set -e してエラー無視させる方法に書きかえテスト実行部分のコマンドは共通のものを使うようにしています。
