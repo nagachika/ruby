@@ -1,0 +1,1 @@
+TracePoint のイベントフック内でその TracePoint を disable すると target が特定されているイベントの場合 rb_hook_list_t を早く解放してしまって SEGV する恐れがあったので解放しないようにしています。 https://twitter.com/joker1007/status/1153649170797830144
