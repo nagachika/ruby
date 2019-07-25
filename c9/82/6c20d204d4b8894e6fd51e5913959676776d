@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP::Header#initialize_http_header の警告で uplevel を調節して呼び元の位置を表示するようにしています。
