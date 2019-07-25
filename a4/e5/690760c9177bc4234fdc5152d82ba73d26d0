@@ -1,0 +1,1 @@
+transcode.c の rb_econv_open0() で rb_enc_find_index() 呼び出し後その index で rb_enc_from_index() を呼ぶパスは通らない? らしいので削っています。 Coverity Scan が指摘してきたとのことで、結果を使ってないからかなぁ。軽く見ただけだとこれが「不要」と言いきれるのよくわからないけど Coverity Scan すごいな。
