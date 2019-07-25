@@ -1,0 +1,1 @@
+prelude.rb の IO#read_nonblock メソッドの rdoc 用コメントに Windows など一部の環境では socket 以外の IO では non-blocking はサポートされてなくて Errno::EBADF が発生すると追記しています。
