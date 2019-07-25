@@ -1,0 +1,1 @@
+defs/gmake.mk の test_%.rb で指定したテストファイルを実行するようにしたターゲットでも test/runner.rb から test/tool/runner.rb への統合に追随させています。
