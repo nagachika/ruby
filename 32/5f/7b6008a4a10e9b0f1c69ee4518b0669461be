@@ -1,0 +1,1 @@
+mkmf.rb の r47458 の変更で Mkmf#pkg_config で INCFLAGS に分離したフラグが結果に含まれなくなっていたのを修正しています。 [ruby-core:67137] [Bug #10651]
