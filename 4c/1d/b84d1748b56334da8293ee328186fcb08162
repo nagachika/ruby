@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb の Test::Unit にテストファイルを探索する起点となるディレクトリを指定する --base-directory オプションを追加しています。
