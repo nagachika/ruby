@@ -1,0 +1,1 @@
+Travis-CI の macOS での失敗がまだ直らないそうで make touch-unicode-files 後にまた ls でタイムスタンプファイルなどの更新時刻を表示させるようにしています。
