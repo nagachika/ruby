@@ -1,0 +1,1 @@
+a850be68a57dce65449766654aa1912b5fa660cb の追加変更。 テスト中の NoMemoryError 発生時の処理を Test::Unit::AutoRunner.run からさらに Test::Unit::Runner#run に移動しています。
