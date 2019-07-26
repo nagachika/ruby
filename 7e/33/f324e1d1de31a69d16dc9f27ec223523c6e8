@@ -1,0 +1,1 @@
+tool/test/runner.rb で終了ステータスを Test::Unit::AutoRunner.run の戻り値を使ってに明示的に exit するようにしています。 simplecov がないのに COVERAGE が設定されてる時の問題のためらしいけどよくわからず。
