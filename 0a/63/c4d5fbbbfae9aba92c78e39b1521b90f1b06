@@ -1,0 +1,1 @@
+pipe で IO#seek を呼んだ時に Errno::ESPIPE を発生させる挙動が Windows では発生しないので、専用の wrapper 実装を追加して socket または pipe の時は Errno::ESPIPE を発生させるようにしています [ruby-core:74724] [Bug #12230]
