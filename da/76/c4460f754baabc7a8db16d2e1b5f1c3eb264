@@ -1,0 +1,1 @@
+Thread の rdoc 用コメントに Thread 内で発生した例外を Thread#value などで再発生させる挙動について例を上げて説明を詳しくしています。 [ruby-core:74827] [Bug #12252]
