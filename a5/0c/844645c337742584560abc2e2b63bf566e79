@@ -1,0 +1,1 @@
+1feda1c2b091b950efcaa481a11fd660efa9e717 の変更で struct vm_throw_data::throw_state の型を VALUE から int に変更してましたがそれが s390x など Big Endian の環境でまずかったので THROW_DATA_NEW() の引数の型も int に変更して obj->throw_state を明示的に初期化しなおすようにしています。
