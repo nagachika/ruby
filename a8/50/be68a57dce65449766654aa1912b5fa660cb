@@ -1,0 +1,1 @@
+テスト中に NoMemoryError が発生した時にシステムの情報をダンプする処理は tool/test/runner.rb から tool/lib/test/unit.rb の run メソッド内に引き上げています。
