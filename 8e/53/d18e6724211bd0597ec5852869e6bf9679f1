@@ -1,0 +1,1 @@
+24712eeec39f5e9a11cfc2b940358403cda4f2b6 で削除した test/runner.rb を復活させて tool/test/runner.rb の --test-target-dir オプションの実装は削除しています。
