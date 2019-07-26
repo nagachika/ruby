@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream の repository を git fetch する時に tag は取得しないように --no-tags オプションを追加しています。
