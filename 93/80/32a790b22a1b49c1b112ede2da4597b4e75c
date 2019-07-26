@@ -1,0 +1,1 @@
+拡張ライブラリ psych の .gemspec ファイルの不要な development dependency を削除しています。
