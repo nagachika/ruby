@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb で --base-directory を $LOAD_PATH の先頭に追加するようにしています。
