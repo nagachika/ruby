@@ -1,0 +1,1 @@
+拡張ライブラリ psych で load 時に Hash のキーが文字列だった時に String#-@ (があれば)を使って dedup するようにしています。 https://github.com/ruby/psych/commit/0414982ffd
