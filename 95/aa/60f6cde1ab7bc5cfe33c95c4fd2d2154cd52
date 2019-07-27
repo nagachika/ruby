@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で cherry-pick から除外する commit の判定に Merge commit のメッセージのほかに ruby の repository 内にはコピーされないファイル群(.travis.yml, appveyor.yml など CI 系や  .gitignore, Gemfile など)の変更のみのコミットも除外するようにチェックを強化しています。
