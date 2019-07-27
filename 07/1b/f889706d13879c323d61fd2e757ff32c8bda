@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream の repository からコミットを cherry-pick してくる時にメッセージを出す前に Merge commit を除外するように順番を変更しています。
