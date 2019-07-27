@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Comment#to_s を #text の alias として、RDoc::ClassModule のテストで #add_comment メソッドの引数に文字列を渡してたのを RDoc::Comment のインスタンスをそのまま渡すように変更しています。実際の使われかたに沿ったテストにしたってことかなぁ。
