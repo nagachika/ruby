@@ -1,0 +1,1 @@
+Travis-CI の macOS のビルドに使うイメージのバージョンを xcode11 というのに更新しています。 darwin18 ということは Mojave 相当かな?
