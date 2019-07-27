@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Servlet でネストした名前空間の定数への URL の処理を修正しています。 https://github.com/ruby/rdoc/issues/615
