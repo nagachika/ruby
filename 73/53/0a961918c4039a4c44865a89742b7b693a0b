@@ -1,0 +1,1 @@
+tool/merger.rb で安定版へのバックポートパッチを svn ci コマンドでコミットした直後に svn update して working copy の revision を最新に追随しておくようにしています。 svn ci だと更新されないのでその後の done サブコマンドがうまく働いてくれないのでした。
