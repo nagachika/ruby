@@ -1,0 +1,1 @@
+.travis.yml の macOS でのテスト時に --timeout-scale=3.0 オプションをつけてタイムアウトを延長するようにしています。
