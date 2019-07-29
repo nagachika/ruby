@@ -1,0 +1,1 @@
+tzinfo.gem の TZInfo::Timezone を timezone オブジェクトとして受け取って作った Time オブジェクトで dst? メソッドが誤った判定をしてしまうことがあるので、初期化時に dst フラグを timezone オブジェクトから取得してセットしておくようにしています。 [ruby-core:93557] [Bug #15988]
