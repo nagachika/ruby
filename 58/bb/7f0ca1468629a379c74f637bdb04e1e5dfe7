@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream から cherry-pick する時に失敗したコミットを skip して commit hash を表示した上で続きを cherry-pick するようにしています。
