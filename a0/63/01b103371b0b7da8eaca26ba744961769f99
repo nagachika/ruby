@@ -1,0 +1,1 @@
+irb で history ファイルの mode から外のユーザーの読み込み権限を落とすようにする File.chmod で Errno::EPERM が発生した時に黙って return するようにしています。 [ruby-core:82821] [Bug #13907]
