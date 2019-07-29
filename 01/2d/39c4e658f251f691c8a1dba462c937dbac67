@@ -1,0 +1,1 @@
+95aa60f6cde1ab7bc5cfe33c95c4fd2d2154cd52 で tool/sync_default_gems.rb で default gems の upstream から cherry-pick する時に除外するコミット判定のためのファイルリストを定数にくくり出して、いくつかファイル名を追加しています。
