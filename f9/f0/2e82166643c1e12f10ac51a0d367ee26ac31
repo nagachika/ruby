@@ -1,0 +1,1 @@
+irb で RubyVM::InstructionSequence.compile を使っているところを RUBY_ENGINE で分岐して JRuby では JRuby.compile_ir を利用するようにしています。
