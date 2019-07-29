@@ -1,0 +1,1 @@
+e3b613a66986306950fc69d426d947a349b9fc8b で変更した .travis.yml の macOS 時のオプションを --timeout-scale=2.0 に短縮してかわりに travis_wait を 50分まで伸ばしています。
