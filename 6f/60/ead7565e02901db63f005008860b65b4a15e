@@ -1,0 +1,1 @@
+Gem::ConfigFile#initialize からオプション処理部分を set_config_file_name という private method に切り出すリファクタリング。
