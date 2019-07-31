@@ -1,0 +1,1 @@
+Gem::GemcutterUtilities にあった OptionParser.accept の呼び出しを Gem::Command に移動しています。gemcutter! これまた懐しい名前を。
