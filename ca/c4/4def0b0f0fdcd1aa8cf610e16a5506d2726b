@@ -1,0 +1,1 @@
+06574ad945dcce0bf626b3af020810230b169b56 でデバッグメッセージを入れた MiniTest::Unit#location で渡された例外の backtrace が nil の時に "<empty>" を返すようにしています。 SystamStackError の場合 nil になることがあるとのこと。
