@@ -1,0 +1,1 @@
+bootstraptest/runner.rb で出力の行頭に戻って前の出力を消すのは標準出力が tty の時だけにしています。
