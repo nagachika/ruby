@@ -1,0 +1,1 @@
+おそらく cac44def0b0f0fdcd1aa8cf610e16a5506d2726b も関連して ebd398ac5a4147a1e652d6943c39a29a62f12e66 の struct RHash::iter_lev の削除の影響をテストするため深くネストした Hash のイテレータのテストで SystemStackError 例外が発生しても無視するようにしています。
