@@ -1,0 +1,1 @@
+lib/bundler/shared_helpers.rb の require "rubygems" を削除しています。 circular require を解消するため。
