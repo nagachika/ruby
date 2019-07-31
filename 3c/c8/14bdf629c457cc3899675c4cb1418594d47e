@@ -1,0 +1,1 @@
+test/rubygems/test_gem_installer.rb の変数の shadowing の警告除去。
