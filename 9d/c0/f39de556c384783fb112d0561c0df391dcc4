@@ -1,0 +1,1 @@
+と思ったら d97fc48e92dbee041a476f7dca65f3d466c8ca91 で build_error の引数削除したのに対応して呼び元でも渡す引数から削ってます。うーん grep すると lib/rubygems/installer.rb にも同じかどうかわからないけど build_error の呼び出しがあるけどこっちはいいのかな。
