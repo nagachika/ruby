@@ -1,0 +1,1 @@
+Gem::Specification#to_ruby で gemspec ファイルを生成する時に add_runtime_dependency を使うかどうかを Gem::VERSION で分岐するコードを生成してたのを respond_to? を使うように変更しています。あと分岐を1つ減らしてます。
