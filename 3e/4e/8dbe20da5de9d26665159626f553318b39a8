@@ -1,0 +1,1 @@
+.travis.yml で macOS でのテスト時に ntlm-http という gem を uninstall しておくようにしています。この gem が古すぎて RubyGems で削除した autorequire の機能に依存してしまってたみたいです。
