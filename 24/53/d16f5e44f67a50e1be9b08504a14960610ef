@@ -1,0 +1,1 @@
+rubygems の定数 Gem::Specification::LOAD_CACHE_MUTEX という定数に Mutex を追加して LOAD_CACHE の操作をこの Mutex で排他するようにしています。
