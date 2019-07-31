@@ -1,0 +1,1 @@
+5f95edb7af68ce03732da4d49eee8d6ee87ef544 で Hash の iter_lev 関係のテストで SystemStackError を rescue してるところでローカル変数に bind してましたが参照してなくて警告が出るので変数は指定しないようにしています。
