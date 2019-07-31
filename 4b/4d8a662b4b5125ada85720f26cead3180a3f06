@@ -1,0 +1,1 @@
+.travis.yml や appveyor.yml で -j オプションぬきの make test-all に分離してたテストのうち test_gc_compact.rb を -j ありのほうに復帰? させています。
