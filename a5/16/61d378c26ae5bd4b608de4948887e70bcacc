@@ -1,0 +1,1 @@
+rubygems の gem env packageversion というサブコマンドを削除しています。互換性のため deprecated にした状態で残してたものみたいです。
