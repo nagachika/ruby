@@ -1,0 +1,1 @@
+1a759bfe5d554c22571d2e6e4e5998cf06a7b98f の File#path の taint の挙動変更を revert しています。いくつかの OS 上でテストが(?)失敗したからとのこと。
