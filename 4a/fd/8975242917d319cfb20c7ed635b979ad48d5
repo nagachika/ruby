@@ -1,0 +1,1 @@
+test/rubygems/test_rake_package.rb で File.exists? が使われてたので File.exist? に修正しています。
