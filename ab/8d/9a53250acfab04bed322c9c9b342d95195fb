@@ -1,0 +1,1 @@
+Gem::Ext::Builder の生成時に @ran_rake を nil でなく false に初期化するようにしています。
