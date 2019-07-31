@@ -1,0 +1,1 @@
+test/rubygems/test_gem_remote_fetcher.rb に require "json" を追加しています。テストだからここで遅延しなくてもいいんじゃないかな。まあいいけど。
