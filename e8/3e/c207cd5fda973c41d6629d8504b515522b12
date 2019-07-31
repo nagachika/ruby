@@ -1,0 +1,1 @@
+CI のデバッグのため  MiniTest::Unit#location で backtrace が nil な例外が渡された時にデバッグメッセージ出力するようにしています。
