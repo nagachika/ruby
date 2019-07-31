@@ -1,0 +1,2 @@
+ここからは rubygems の upstream からの cherry-pick が続きます。
+rubygems の未使用のメソッド削除。
