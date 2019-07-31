@@ -1,0 +1,1 @@
+e25088488bbf7b4bf1be19e57ee5fba41ad6f21c の make check 時に master からの差分の #include を検出するコマンドで git log に --format=oneline オプションをつけてコミットは短かく表示するようにしています。
