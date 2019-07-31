@@ -1,0 +1,1 @@
+make check の最後に remote の master と現在の HEAD の間で preprocessor の #include の変更を含む差分がないかを表示するようにしています。 dependency の更新が必要じゃないかのチェックのためみたいです。 [ruby-core:93751] [Bug #16000]
