@@ -1,0 +1,1 @@
+Gem::Ext::Builder#build_extension で引数の extension が nil/false だった時に空文字列で初期化する行は不要とのことで削除しています。
