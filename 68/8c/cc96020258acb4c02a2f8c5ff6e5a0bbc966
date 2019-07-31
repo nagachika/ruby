@@ -1,0 +1,1 @@
+rubygems の Gem::Commands::UnpackCommand#get_metadata の定義を Gem::Package.metadata に移動するリファクタリング。
