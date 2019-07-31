@@ -1,0 +1,1 @@
+rubygems の Gem::Ext::Builder#build_extension で build_for の呼び出しを extension がディレクトリ特定に使われる前に移動しています。
