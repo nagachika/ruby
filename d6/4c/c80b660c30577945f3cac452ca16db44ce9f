@@ -1,0 +1,1 @@
+rubygems の外部コマンド実行を IO.pipe から Open3 を利用した実装の変更。 JRuby サポートのためみたいです。
