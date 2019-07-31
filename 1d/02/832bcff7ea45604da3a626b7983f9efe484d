@@ -1,0 +1,1 @@
+同じく rubygems のテストで Gem::Specification.default_specifications_dir を使っているところで deprecation の警告を抑制するため Gem::Deprecate.skip_during を利用しています。
