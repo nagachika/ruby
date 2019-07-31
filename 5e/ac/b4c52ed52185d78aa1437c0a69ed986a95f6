@@ -1,0 +1,1 @@
+rubygems で 互換性のために残してた Gem::Resolver::DependencyConflict を削除しています。
