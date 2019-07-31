@@ -1,0 +1,1 @@
+toplevel return (require や load から抜ける) に引数が与えられていたら警告を出力するようにしています。戻り値は使われないからですね。 [ruby-core:83590] [Bug #14062]
