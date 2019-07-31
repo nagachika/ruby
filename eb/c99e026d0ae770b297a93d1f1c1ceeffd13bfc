@@ -1,0 +1,1 @@
+d8562ab2a40658db0e6a44ce07cfbe616b9b4078 の再修正。 IO.pipe には引数で明示的に external_encoding と internal_encoding を設定できるので、これが指定されている時は binmode: true があっても Encoding は ASCII-8BIT にはしないようにしています。 [ruby-core:78404] [Bug #12989]
