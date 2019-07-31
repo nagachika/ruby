@@ -1,0 +1,1 @@
+Gem::Specification の autorequire という属性はもう動いてないので削除しています。
