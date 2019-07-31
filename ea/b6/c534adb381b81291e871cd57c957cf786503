@@ -1,0 +1,1 @@
+rubyspec の Hash#rehash のテストで Hash のキーに配列を使っていたのを特異メソッドとして hash を上書きした Object のインスタンスを使うように書きかえています。 array hash 実装の時の影響でキーの Array を変更してもたまたま fetch できてしまったとかかな……。
