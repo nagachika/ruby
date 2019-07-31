@@ -1,0 +1,1 @@
+rubygems のテストに rake package のテストを追加しています。
