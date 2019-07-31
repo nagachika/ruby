@@ -1,0 +1,1 @@
+13e84d5c0a53ad013aa0093f179115bcf88417e9 でマクロにした RHASH_LEV_MASK の定義を hash.c から internal.h に移動してコメントをつけています。
