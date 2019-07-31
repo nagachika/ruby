@@ -1,0 +1,1 @@
+rubygems の Gem::MockGemUi というクラスで StringIO を使ってますが require をトップレベルから initialize メソッドの中に移動して、利用するまでロードしないようにしています。
