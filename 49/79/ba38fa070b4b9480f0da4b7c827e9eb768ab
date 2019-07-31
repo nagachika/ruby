@@ -1,0 +1,1 @@
+rubygems のテストで古い gem による 41dd9f7e67c1d767a7d040cd79f26985e3996821 で deprecated にした fetch_size をテストで使っているところの警告を抑制するようにしています。
