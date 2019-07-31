@@ -1,0 +1,1 @@
+rubygems の Gem::Ext::Builder#build_error の第1引数 build_dir は既に利用されてなかったので引数自体を削除しています。なのですが、これ呼び元の修正っていらないのかな……。
