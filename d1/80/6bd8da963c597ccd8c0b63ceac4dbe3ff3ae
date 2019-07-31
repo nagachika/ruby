@@ -1,0 +1,1 @@
+lib/rubygems/test_case.rb の未使用のインスタンス変数の削除。
