@@ -1,0 +1,1 @@
+148f50fc789d59319113a1fd2897dbe552e73e73 で .travis.yml の macOS 向けで homebrew の update をするようにしていたのをやっぱりやめています。 update しないと "Your Homebrew is outdated" というエラーになってたそうですが、brew update するとそこでまた別のエラー(タイムアウト?)になることがあるので、一旦 update なしにしてみています。
