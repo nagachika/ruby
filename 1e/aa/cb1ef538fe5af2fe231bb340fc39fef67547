@@ -1,0 +1,1 @@
+lib/rubygems/stub_specification.rb で Kernel#open のかわりに File.open を利用するようにしています。
