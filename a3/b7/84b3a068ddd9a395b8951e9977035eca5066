@@ -1,0 +1,1 @@
+Gem::BasicSpecification.default_specifications_dir を deprecated にして Gem.default_specifications_dir に移動しています。
