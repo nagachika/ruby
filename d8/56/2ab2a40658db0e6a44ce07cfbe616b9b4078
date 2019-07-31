@@ -1,0 +1,1 @@
+IO.pipe に binmode: true というオプションを渡した時にその IO#external_encoding に ASCII-8BIT を設定するようにしています。 改行コードの扱いの変更のみで Encoding についての変更がなかったので IO#binmode を呼んだのとは挙動が違ってたのでそろえようとしています。 [ruby-core:78404] [Bug #12989]
