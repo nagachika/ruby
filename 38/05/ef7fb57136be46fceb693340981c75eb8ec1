@@ -1,0 +1,1 @@
+test/ruby/test_io.rb のテストメソッド test_set_lineno を分割しています。また test_readline は test_set_lineno_readline にメソッド名を改名しています。
