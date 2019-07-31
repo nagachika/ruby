@@ -1,0 +1,1 @@
+lib/rubygems/gemcutter_utilities.rb の terminate_interaction の引数に 1 を渡してたのを ERROR_CODE という定数にしています。けどファイル内にもう一箇所 1 のままのところが残ってますね。
