@@ -1,0 +1,1 @@
+mspec の File.realpath を利用するところで Errno::ENOTDIR が発生する可能性があるので rescue する例外クラスに追加しています。
