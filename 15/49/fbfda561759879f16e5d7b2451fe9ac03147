@@ -1,0 +1,1 @@
+同じく enumerator.c で to_proc の ID を組み込みの idTo_proc を利用するようにして rb_intern() を消しています。
