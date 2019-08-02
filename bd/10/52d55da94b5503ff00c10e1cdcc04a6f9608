@@ -1,0 +1,1 @@
+hash.c の関数マクロ RHASH_AR_TABLE_SET() がたんに hash_ar_table_set() を呼ぶだけになってたのでマクロ定義を削除して直接 hash_ar_table_set() を呼ぶようにしています。
