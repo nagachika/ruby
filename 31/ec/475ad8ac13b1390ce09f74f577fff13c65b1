@@ -1,0 +1,1 @@
+object.c の rb_false() に MJIT_FUNC_EXPORTED をつけています。 9faef3113fb4331524b81ba73005ba13fa0ef6c6 の opt_nil_p 命令の実装で使うので export する必要があるためその追随ですね。
