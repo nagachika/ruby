@@ -1,0 +1,1 @@
+Hash の array hash 実装時に要素の hash 値の下位1バイトだけを保持する時の変数の型を ar_hint_t という独自の型に定義するようにしています。 sizeof(VALUE) が RHASH_AR_TABLE_MAX_SIZE の 2倍あったら 16bit 使うようにしてますが、RHASH_AR_TABLE_MAX_SIZE って SIZEOF_VALUE で定義してるからこれはありえないよなぁ。将来的ななんらかの変更に備えてかもしれないです。
