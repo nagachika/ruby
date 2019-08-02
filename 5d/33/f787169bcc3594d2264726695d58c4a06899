@@ -1,0 +1,1 @@
+gc.c の gc_event_hook_body() の中で ec->cfp->pc を一時的にインクリメントしていますが、そもそも control frame がない? 時に SEGV をおこす可能性があったので VM_FRAME_RUBYFRAME_P() でチェックしてから操作するようにしています。通常問題になることはなく、C API 経由で TracePoint を使うことで起こす可能性があったみたいです。テスト用の拡張ライブラリみるとけっこうややこしいですが stackprof ではこれが発生してたみたいです。 [ruby-core:87449] [Bug #14834]
