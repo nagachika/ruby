@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトの imemo_env タイプの rb_vm_env_prev_env() の指すオブジェクトを pin して GC.compact で動かないようにしていましたが、gc_ref_update_imemo() でこれも移動できるようにしています。
