@@ -1,0 +1,1 @@
+test/ruby/test_io.rb の IO.pipe の binmode 関係のテストのリファクタリング。
