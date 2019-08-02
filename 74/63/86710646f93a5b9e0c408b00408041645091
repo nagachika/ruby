@@ -1,0 +1,1 @@
+ebd398ac5a4147a1e652d6943c39a29a62f12e66 の strut RHash の iter_lev を削除して flags に押し込めた変更の追加修正で、flags の領域に収まりきらなくなった時に追加する内部的インスタンス変数の ID を rb_intern() でなく rb_make_internal_id() で作ったものにしています。こうすると Marshal.dump で出力されないらしいです。そうなのか。
