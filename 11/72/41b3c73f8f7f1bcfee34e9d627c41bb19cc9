@@ -1,0 +1,1 @@
+hash.c の RHASH_AR_TABLE_BOUND_SET()、RHASH_AR_TABLE_SIZE_SET()、HASH_AR_TABLE_SIZE_ADD()、RHASH_AR_TABLE_CLEAR() などの関数マクロを inline 関数として定義しなおしています。
