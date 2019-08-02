@@ -1,0 +1,1 @@
+bootstraptest/test_insns.rb にも opt_nil_p のテストを追加しています。
