@@ -1,0 +1,1 @@
+rational.c の f_ceil() も rb_funcall() を呼び出すようにマクロ定義されていたのを関数として定義して引数が Integer や Float だった時にメソッド呼び出しを経由しないように最適化しています。またここで使うために flo_ceil() から rb_float_ceil() という関数を切り出しています。
