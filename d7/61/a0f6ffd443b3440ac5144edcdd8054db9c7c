@@ -1,0 +1,1 @@
+bundle install ? でオプション --all-platform が指定された時に lockfile に限らず依存関係解決をやりなおすようにしているみたいです。
