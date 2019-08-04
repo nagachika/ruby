@@ -1,0 +1,1 @@
+bundler のテストで context ごとに異なる前処理を if で分岐してたのを context 毎の before にわけて書くように修正しています。
