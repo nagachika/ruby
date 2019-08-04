@@ -1,0 +1,1 @@
+Bundler::EnvironmentPreserver::BUNDLER_KEYS という配列の定数から "BUNDLER_ORIG_MANPATH" というキーワードを削除しています。
