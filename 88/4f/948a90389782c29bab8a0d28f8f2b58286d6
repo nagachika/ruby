@@ -1,0 +1,1 @@
+bundler のテストに BUNDLE_PATH 指定時のテストを追加しています。
