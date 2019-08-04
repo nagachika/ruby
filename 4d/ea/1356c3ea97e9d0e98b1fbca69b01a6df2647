@@ -1,0 +1,1 @@
+Bundler::CurrentRuby#ruby? メソッドに Gem::Platform::RUBY と Bundler::GemHelpers.generic_local_platform を比較するコードを追加しています。よくわからないけどたぶんテスト向けの処理かな。
