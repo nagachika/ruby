@@ -1,0 +1,1 @@
+require するのになぜか Kernel.send(:require, ...) してたところを require_relative に直しています。なんで send してたんだろ…。
