@@ -1,0 +1,1 @@
+dae6d303d5aa13eeeb482398eb748b3a8f4edcfa の追随だと思いますが bundler の config ファイルの BUNDLE_DISABLE_PLATFORM_WARNINGS っていう項目を削除しています。
