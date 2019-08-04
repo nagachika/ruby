@@ -1,0 +1,1 @@
+b3b2b55f7b7ab035851176d28ecee4afaa3fe0cc で使わないようにした Bundler.rubygems.config_map をもう一箇所 RbConfig で代替してメソッド定義を削除しています。
