@@ -1,0 +1,1 @@
+lib/bundler/vendor/net-http-persistent/lib/net/http/persistent.rb から connection_pool の require を require_relative にしていたのを通常の require に戻しています。
