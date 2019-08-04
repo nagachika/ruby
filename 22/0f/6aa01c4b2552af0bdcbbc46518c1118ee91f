@@ -1,0 +1,1 @@
+bundler のテスト spec_helper.rb で環境変数 GEMRC をクリアしておくようにしています。
