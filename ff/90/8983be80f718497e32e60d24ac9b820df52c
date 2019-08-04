@@ -1,0 +1,1 @@
+同じく Bundler::Definitions の expand_dependencies の処理の一部を Bundler::Dependency#expanded_platforms というメソッドに切り出すリファクタリング。
