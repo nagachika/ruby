@@ -1,0 +1,1 @@
+rational.c の f_integer_p() をマクロ fun1() を使って定義していたのを展開して RB_INTEGER_TYPE_P() を利用するように最適化しています。
