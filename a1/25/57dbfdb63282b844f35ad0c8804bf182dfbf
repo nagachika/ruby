@@ -1,0 +1,1 @@
+bundler のテストに gemspec の required_ruby_version のテストを追加。
