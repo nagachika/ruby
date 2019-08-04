@@ -1,0 +1,1 @@
+ここから bundler の upstream からの cherry-pick が続きます。 dependency のショートカット記述に ruby 2.6 対応を追加。
