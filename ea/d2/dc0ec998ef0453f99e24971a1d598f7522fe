@@ -1,0 +1,1 @@
+Bundler::GemHelpers#generic で引数が Gem::Platform::RUBY の時に特別処理してましたが、参照する Hash オブジェクトを格納する GENERIC_CACHE に最初からそのためのエントリを入れておくようにリファクタリングしています。
