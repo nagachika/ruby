@@ -1,0 +1,1 @@
+bundler のテストで Process.fork を利用しているものを Windows で skip するようにしています。
