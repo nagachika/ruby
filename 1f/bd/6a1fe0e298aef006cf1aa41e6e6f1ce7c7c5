@@ -1,0 +1,1 @@
+Bundler::CLI::Outdated で続いて strict も attr_reader で定義するようにしています。
