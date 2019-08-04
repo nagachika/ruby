@@ -1,0 +1,1 @@
+rational.c の f_quo() も rb_funcall() を使ってメソッド呼び出しするマクロ定義による実装から関数定義にして引数が Integer, Float の時の最適化を追加しています。
