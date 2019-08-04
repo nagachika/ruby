@@ -1,0 +1,1 @@
+bundler のテストで rubygems のバージョンによる guard が不要になったので削除しています。
