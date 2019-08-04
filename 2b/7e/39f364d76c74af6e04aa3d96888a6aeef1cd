@@ -1,0 +1,1 @@
+bundler のテストで cache_all オプションを毎回つけてるのを bundle config set で保存しておくように書きかえています。
