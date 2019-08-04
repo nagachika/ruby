@@ -1,0 +1,1 @@
+Bundler::CLI::Outdated さらに filter_options_patch と sources、outdated_gems_by_groups、outdated_gems_list も attr として定義するようにしています。
