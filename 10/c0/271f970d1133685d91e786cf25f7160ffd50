@@ -1,0 +1,1 @@
+bundler のテストで共通の let を親 context に括り出すリファクタリング。
