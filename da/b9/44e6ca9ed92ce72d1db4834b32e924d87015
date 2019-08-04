@@ -1,0 +1,1 @@
+bundler の vendor に同梱されている net-http-persistent のバージョンをさらに 3.1.0 に更新しています。
