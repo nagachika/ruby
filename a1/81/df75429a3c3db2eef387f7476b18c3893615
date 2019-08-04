@@ -1,0 +1,1 @@
+bundler で Gem.refresh を再定義? していたのをやめています。
