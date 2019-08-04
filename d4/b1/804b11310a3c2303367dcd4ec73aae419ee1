@@ -1,0 +1,1 @@
+bundler のテストの spec_helper.rb で BUNDLE_USER_XXX の環境変数群をリセットしておくようにしています。
