@@ -1,0 +1,1 @@
+lib/bundler/templates/Executable.bundler の activate_bundler というメソッドの引数を使ってなかったので削除しています。
