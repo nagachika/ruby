@@ -1,0 +1,1 @@
+lib/bundler/compatibility_guard.rb というファイルを削除して Bundler 2系向けの警告? を出す処理を削っています。
