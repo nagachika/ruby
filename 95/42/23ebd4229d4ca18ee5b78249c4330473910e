@@ -1,0 +1,1 @@
+doc/contributing.rdoc のビルドに必要なツール autoconf, bison, gperf にそれぞれ必要なバージョンも追記しています。
