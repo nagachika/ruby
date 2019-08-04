@@ -1,0 +1,1 @@
+e9e17cbc051e894dfd27eda5feca2939f65552db で eval 内の __FILE__ 参照がデフォルトで警告を出すようになったので irb で使ってたところを source_location を参照するように変更しています。 [ruby-core:35027] [Bug #4352]
