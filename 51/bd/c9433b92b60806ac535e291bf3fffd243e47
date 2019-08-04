@@ -1,0 +1,1 @@
+同じく bundler から rubygems の Gem::Util のメソッドを使ってるところ、こちらは逆に Gem::Util の利用に揃えてます。
