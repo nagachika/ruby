@@ -1,0 +1,1 @@
+bundler のテストに使う Gemfile.lock の PLATFORMS の部分を可変にしています。
