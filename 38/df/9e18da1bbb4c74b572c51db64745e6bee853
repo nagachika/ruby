@@ -1,0 +1,1 @@
+bundler のテストに Bundler::UI::Shell の no-color オプションについてのテストを追加。
