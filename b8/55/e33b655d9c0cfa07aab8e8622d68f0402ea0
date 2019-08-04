@@ -1,0 +1,1 @@
+Bundler::CLI::Outdated のメソッド check_for_deployment_mode を check_for_deployment_mode! に改名しています。
