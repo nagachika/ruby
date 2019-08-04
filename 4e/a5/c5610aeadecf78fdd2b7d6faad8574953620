@@ -1,0 +1,1 @@
+div, divmod, fdiv, quo, name などの Symbol の ID を組込みで定義しておくようにしてあちこちで rb_intern() していたものは組込みのを使うようにしています。
