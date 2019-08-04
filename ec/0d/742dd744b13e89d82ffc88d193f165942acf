@@ -1,0 +1,1 @@
+rubyspec の eval 内で __LINE__ や __FILE__ を使ってたところの警告を抑制するため suppress_warning ブロック内にしています。
