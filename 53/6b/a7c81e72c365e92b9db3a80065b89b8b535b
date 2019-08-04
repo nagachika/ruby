@@ -1,0 +1,1 @@
+というわけで a1727e43af18c122c4d7adfa603f895fdc8f3df1 で削除した opt_nil_p の MJIT 向けテストも復活させています。
