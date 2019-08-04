@@ -1,0 +1,1 @@
+tool/lib/colorize.rb の属性に bold, underline, reverse などの強調用のものを追加しています。
