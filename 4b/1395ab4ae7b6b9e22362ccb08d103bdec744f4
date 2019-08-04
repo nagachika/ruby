@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Git::GitProxy で revision がみつからないエラーの時のメッセージを強化しています。
