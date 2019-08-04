@@ -1,0 +1,1 @@
+bundler が gem のテンプレートを生成する時に development dependency を gemspec ファイルじゃなく Gemfile に生成するようにしています。おー、なるほどたしかに。
