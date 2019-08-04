@@ -1,0 +1,1 @@
+bundler 自身の gemspec ファイルに書かれてた add_development_dependency を削除しています。
