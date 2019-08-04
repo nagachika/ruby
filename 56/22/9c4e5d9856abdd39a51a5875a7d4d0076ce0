@@ -1,0 +1,1 @@
+man/gemfile.5.ronn に書かれてる Gemfile での git リポジトリを指定する記法のサンプルを修正。
