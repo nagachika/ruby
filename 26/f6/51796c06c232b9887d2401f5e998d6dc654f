@@ -1,0 +1,1 @@
+bundler の spec_helper.rb で環境変数への設定時に不要な original_env という変数への代入を削除しています。
