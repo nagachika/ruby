@@ -1,0 +1,1 @@
+lib/bundler/templates/Executable.bundler の bundler_requirement に古い rubygems 向けの対応を追加。
