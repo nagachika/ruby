@@ -1,0 +1,1 @@
+さらに libexec/bundler からも require を require_relative に変更しています。
