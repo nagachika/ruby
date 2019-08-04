@@ -1,0 +1,1 @@
+bundler 内の vendor ディレクトリに含まれてる thor のファイル群の相互の require に require_relative を利用するようにリファクタリングしています。
