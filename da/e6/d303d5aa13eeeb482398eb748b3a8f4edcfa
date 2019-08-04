@@ -1,0 +1,1 @@
+Bundler::Definition#expand_dependencies で対応 platform がみつからなかった時の警告を削除しています。
