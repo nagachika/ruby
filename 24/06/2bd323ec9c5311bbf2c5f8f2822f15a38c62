@@ -1,0 +1,1 @@
+Bundler::BuildMetadata.git_commit_sha で未定義のインスタンス変数への参照の警告抑制のため instance_variable_defined? でチェックしてから参照するようにしています。
