@@ -1,0 +1,1 @@
+bundler の cache_command_is_package というフラグを消して bundler_3_mode というのを流用するようにしています。
