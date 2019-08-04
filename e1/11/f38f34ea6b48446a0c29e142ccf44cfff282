@@ -1,0 +1,1 @@
+bundler の file:// ではじまる URI の処理が Windows 環境で壊れていたのを修正。
