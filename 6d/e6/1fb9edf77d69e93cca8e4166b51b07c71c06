@@ -1,0 +1,1 @@
+rational.c の f_mod() を binop() マクロで定義していたのを展開して引数が Integer だった時の最適化を追加しています。
