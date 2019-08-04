@@ -1,0 +1,1 @@
+.travis.yml の homebrew addon を利用せず、before_install で独自に brew update および brew install コマンドを実行するようにしています。
