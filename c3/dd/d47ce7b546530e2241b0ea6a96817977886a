@@ -1,0 +1,1 @@
+bundler のテストで Gemfile, Gemfile.lock の source のファイルパスを file:// の schema つきで指定されてた時に古い ruby 向けに localhost とホスト部をつけるようにしています。あれ、file schema ならホスト部なんていらないのでは…URI でなんか修正があったような気がそういえばするなぁ。
