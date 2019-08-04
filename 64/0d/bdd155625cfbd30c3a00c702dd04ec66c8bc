@@ -1,0 +1,1 @@
+bundler のテストのヘルパークラス RequirementChecker の inspect を定義して意味のある表示をするようにしています。
