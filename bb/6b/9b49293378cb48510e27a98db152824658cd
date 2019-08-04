@@ -1,0 +1,1 @@
+lib/bundler/templates/Executable.bundler でも代入右辺を謎の begin ... end ブロックで囲んでたのをやめています。古い ruby 向けの対応だったのかもな。
