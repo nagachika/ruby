@@ -1,0 +1,1 @@
+bundle clean で掃除するファイルパスを特定するのに File.realpath を利用するようにしています。
