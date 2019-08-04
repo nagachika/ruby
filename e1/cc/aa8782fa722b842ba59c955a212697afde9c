@@ -1,0 +1,1 @@
+lib/bundler/cli/outdated.rb  の gem の情報表示部分を print_gems というメソッドに切り出して共有化しています。
