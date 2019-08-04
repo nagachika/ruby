@@ -1,0 +1,1 @@
+attr_reader や attr_writer などの attr 系メソッドで呼び元がクラス内でない時(klass.send(:attr_reader) のように呼んだ時など)に定義されるメソッドが private になるというのを修正しています。 [Bug #4537]
