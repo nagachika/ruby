@@ -1,0 +1,1 @@
+bundler で gem のテンプレート生成する時に gemspec ファイルに bundler への development_dependency を追加するのをやめています。
