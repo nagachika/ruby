@@ -1,0 +1,1 @@
+tool/pure_parser.rb で bison がない時のエラーメッセージに色をつけて強調するようにしています。 [ruby-core:94125] [Bug #16042]
