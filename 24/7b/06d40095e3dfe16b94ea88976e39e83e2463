@@ -1,0 +1,1 @@
+.travis.yml で brew.update をコメントアウトしてたのを戻しています。 brew update やめてもやっぱり失敗するみたいで、あとは Travis-CI の中のひとにきくしかないかなって感じみたいです。
