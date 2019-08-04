@@ -1,0 +1,1 @@
+lib/bundler/templates/Executable.bundler に bundler_requirement というメソッドを追加しています。うーんそもそもこのファイルはなんなんだろう。
