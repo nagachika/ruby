@@ -1,0 +1,1 @@
+a27198f64850441688ae77d329eab66049d0f5e5 の libexec/bundle の require を require_relative に変更してたのを revert しています。
