@@ -1,0 +1,1 @@
+3af9d8bb671cfdc474110af3f2db24e36954d38d でリファクタリングした Bundler::Definition#add_current_platform メソッドを削除しています。え、じゃあ current_platforms もいらなくなったんじゃないの、と思ったけどそれは既に別のところでも利用されてました。
