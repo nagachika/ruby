@@ -1,0 +1,1 @@
+bundler から rubygems の rubygems/util のメソッドを利用していたところを wrapper メソッドを作って rubygems 側のメソッドがあるかどうかチェックして代替を用意するようにしています。
