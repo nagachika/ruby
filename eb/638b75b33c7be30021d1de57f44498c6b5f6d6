@@ -1,0 +1,1 @@
+tool/lib/test/unit/core_assertions.rb の Test::Unit::CoreAssertions に  MiniTest::Assertions を include する時に envutil.rb のパスの違いで include するクラスを変更しています。gem のテストでもこれを使うようにしてるみたいです。
