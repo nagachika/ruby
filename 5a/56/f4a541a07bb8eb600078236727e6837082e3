@@ -1,0 +1,1 @@
+Bundler::SharedHelper の find_gemfile の引数を削除しています。
