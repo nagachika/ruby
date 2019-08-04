@@ -1,0 +1,1 @@
+bundler のテストで互換性のために? オプション引数を渡すのに使ってた forgotten_command_line_options というメソッドの利用をやめています。
