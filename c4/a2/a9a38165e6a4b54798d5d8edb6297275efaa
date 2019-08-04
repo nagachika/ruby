@@ -1,0 +1,1 @@
+bundler のテストのさっき使うのをやめてた forgotten_command_line_options というメソッドで不要になった処理を削除。
