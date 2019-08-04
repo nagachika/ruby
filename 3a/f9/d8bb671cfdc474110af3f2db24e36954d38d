@@ -1,0 +1,1 @@
+Bundler::Definition#add_current_platform から追加する platform を用意するところを current_platforms という private メソッドに切り出しています。
