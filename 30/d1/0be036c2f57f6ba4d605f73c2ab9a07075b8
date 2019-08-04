@@ -1,0 +1,1 @@
+Bundler::CLI で bundler_3_mode というフラグを参照していたところを cache_all をチェックするようにしています。
