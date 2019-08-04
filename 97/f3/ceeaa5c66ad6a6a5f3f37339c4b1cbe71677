@@ -1,0 +1,1 @@
+bundler の vendor ディレクトリ配下に取り込んでる net-http-persistent のバージョンを 3.0.1 に更新しています。今みてみたら bundler の vendor には fileutils もコピーが入ってるんですね。
