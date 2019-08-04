@@ -1,0 +1,1 @@
+MJIT 用の assertion メソッドの assert_compile_once に uplevel キーワード引数に追加して、そこから呼ぶ assert_eval_with_jit にそれを基準に +1 した値を渡すようにしています。また assert_eval_with_jit もデフォルト値を 1 に変更して、そこから +2 した値を Kernel#warn に渡すようにしています。
