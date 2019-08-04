@@ -1,0 +1,1 @@
+その Bundler::Definition#current_platforms で配列に platform をつめて返すかわりに tap を利用するようにリファクタリング。
