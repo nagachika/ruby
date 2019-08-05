@@ -1,0 +1,1 @@
+REXML::Text.check の例外メッセージに文字列を埋め込む時に inspect を使うようにしています。
