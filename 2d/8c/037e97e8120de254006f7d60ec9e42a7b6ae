@@ -1,0 +1,1 @@
+6ef82943978ea5816a91c32e9ff822c73d1935f9 で削除した lib/rexml/synchnumerator.rb が rexml.gemspec ファイルの spec.files に残ってたので削除しています。
