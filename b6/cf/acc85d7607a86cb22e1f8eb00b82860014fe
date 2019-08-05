@@ -1,0 +1,1 @@
+ext/openssl/ossl.h から不要な openssl/conf_api.h の #include を削除しています。 boringssl という openssl クローン? のライブラリでビルドしようとしたらこのヘッダファイルがなくてエラーになったそうです。 https://github.com/ruby/ruby/pull/2210
