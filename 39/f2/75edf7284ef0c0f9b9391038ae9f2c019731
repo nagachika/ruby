@@ -1,0 +1,1 @@
+REXML::Function.number で文字列が数値の表現かどうかチェックする正規表現を修正しているみたいです。コミットログには false が NaN になるのを修正って書いてあるけどそんなことはなさそうな。 https://github.com/ruby/rexml/issues/18
