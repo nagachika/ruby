@@ -1,0 +1,1 @@
+Array#to_h の rdoc 用コメントでブロックつきで呼び出した時にブロックに渡されるブロックパラメーターがあることがわかるように修正しています。 https://github.com/ruby/ruby/pull/2254
