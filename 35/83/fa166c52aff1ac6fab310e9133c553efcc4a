@@ -1,0 +1,1 @@
+REXML::XPath.match で namespace のマッチの不具合修正。 [ruby-list:50733]
