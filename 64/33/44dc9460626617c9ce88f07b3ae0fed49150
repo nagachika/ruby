@@ -1,0 +1,1 @@
+REXML::Function.local_name で namespace がない時? に nil を返してたのを空文字列を返すように修正しています。
