@@ -1,0 +1,1 @@
+標準添付ライブラリ rexml の REXML::XPathParser#node_test の冗長な nil チェックの削除。
