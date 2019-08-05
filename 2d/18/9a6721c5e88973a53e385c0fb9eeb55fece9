@@ -1,0 +1,1 @@
+拡張ライブラリ psych のビルド時の警告除去のため明示的なキャストを追加しています。 https://github.com/ruby/ruby/pull/2283
