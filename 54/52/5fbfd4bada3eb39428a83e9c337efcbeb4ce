@@ -1,0 +1,1 @@
+REXML::XPathParser のデバッグ用のコメントアウトされた trace メソッド呼び出しなどを環境変数 REXML_XPATH_PARSER_DEBUG で on にできるようにしています。
