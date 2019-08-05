@@ -1,0 +1,1 @@
+rexml の REXML::SyncEnumerator を削除しています。よくわかってないですが REXML::XPath.match の不具合修正のようです。 https://github.com/ruby/rexml/issues/17
