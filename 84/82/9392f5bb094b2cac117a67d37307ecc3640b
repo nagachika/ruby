@@ -1,0 +1,1 @@
+Array#difference の rdoc 用コメントの call-seq で戻り値は receiver とは異なるオブジェクトが返ることを強調する記法に修正しています。 https://github.com/ruby/ruby/pull/2255
