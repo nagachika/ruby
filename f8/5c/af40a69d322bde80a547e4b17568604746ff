@@ -1,0 +1,1 @@
+標準添付ライブラリ rexml の REXML::Parsers::BaseParser#pull_event の例外メッセージの強化。
