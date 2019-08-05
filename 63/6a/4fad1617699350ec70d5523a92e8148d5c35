@@ -1,0 +1,1 @@
+README.md の ruby-talk のメーリングリストの subscribe 用メールアドレスの記載を subscribe 用のメール本文も含んだ mailto リンクとして Markdown で書くようにしています。 https://github.com/ruby/ruby/pull/2236
