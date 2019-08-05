@@ -1,0 +1,1 @@
+39f275edf7284ef0c0f9b9391038ae9f2c019731 の追加修正で REXML::XPathParser の演算子つきの XPath に対応して値の変換処理を修正しています。なるほどーこういう仕様があるのか。大変そう…。 https://github.com/ruby/rexml/issues/18
