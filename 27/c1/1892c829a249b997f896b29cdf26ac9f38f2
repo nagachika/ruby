@@ -1,0 +1,1 @@
+REXML::Attribute#namespace の rdoc 用コメントに namespace attribute がない時は nil を返すべきという TODO コメントを追加しています。
