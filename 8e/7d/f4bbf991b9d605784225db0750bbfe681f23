@@ -1,0 +1,1 @@
+doc/syntax/literals.rdoc のヒアドキュメントについてのセクションの見出しに (heredocs) という略記を追加しています。 https://github.com/ruby/ruby/pull/2103
