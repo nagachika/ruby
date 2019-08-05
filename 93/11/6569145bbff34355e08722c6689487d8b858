@@ -1,0 +1,1 @@
+Encoding.default_internal の rdoc 用コメントの __ENCODING__ の説明を locale encoding から script encoding に修正しています。 https://github.com/ruby/ruby/pull/1611
