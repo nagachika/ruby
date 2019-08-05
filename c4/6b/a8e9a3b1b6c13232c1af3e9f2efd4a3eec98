@@ -1,0 +1,1 @@
+REXML::XPathParser のデバッグ用メソッド trace でデバッグメッセージ出力に標準添付ライブラリ pp を利用して pretty print するようにしています。
