@@ -1,0 +1,1 @@
+標準添付ライブラリ rexml の READML::Attribute の #prefix や #namespace で default namespace の影響を受けないようにしています。非互換になりますが REXML の仕様に準拠するためにとのこと。
