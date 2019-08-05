@@ -1,0 +1,1 @@
+win32/README.win32 のテスト手順として make exam が書かれてましたが今は同じ意味になってるので make check に変更しています。[ruby-core:84275] [Feature #14187]
