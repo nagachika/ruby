@@ -1,0 +1,1 @@
+a34168f2ac674b2660fa895271faea258389a614 を revert して Gem::Specification の autorequire という属性を復活させています。
