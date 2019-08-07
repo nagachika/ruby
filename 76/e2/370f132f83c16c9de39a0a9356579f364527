@@ -1,0 +1,1 @@
+5931857281ce45c1c277aa86d1588119ab00a955 の再修正。 rb_require_internal() でも load_lock() に渡す前の path を fstring 化するようにしています。 [ruby-core:94122] [Bug #16041]
