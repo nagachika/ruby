@@ -1,0 +1,1 @@
+test/ruby/test_array.rb に冗長な assertion があったので削除しています。 https://github.com/ruby/ruby/pull/1790
