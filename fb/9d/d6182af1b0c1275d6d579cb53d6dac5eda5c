@@ -1,0 +1,1 @@
+rb_scan_args_count_end() や rb_scan_args_verify() といったマクロ定義で gcc の拡張属性に依存しない実装をするように変更しています。
