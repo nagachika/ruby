@@ -1,0 +1,1 @@
+346aa557b31fe96760e505d30da26eb7a846bac9 で leaf 属性を true にした VM 命令 opt_eq と opt_neq ですが、デフォルトで leaf は true なので明示的な指定と関連するコメントを削除しています。
