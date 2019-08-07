@@ -1,0 +1,1 @@
+include/ruby/ruby.h の rb_scan_args_count_block(), rb_scan_args_count_end()、rb_scan_args_count_hash()、rb_scan_args_count_trail() といったメソッド引数処理のマクロの未使用の引数 varc を削除しています。
