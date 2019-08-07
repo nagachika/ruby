@@ -1,0 +1,1 @@
+benchmark/other-lang に含んでた python 版の fact がループ回数が少なくなってたのを修正しています。 https://github.com/ruby/ruby/pull/1982
