@@ -1,0 +1,1 @@
+Process.getrlimit のテストで二重にネストした子プロセスを起動したテストをしていたのを、assert_separately の rlimit_cpu オプションが利用できるようになってるのでそれを使って子プロセスのみでテストするようにリファクタリングしています。またただの assert を使ってたところを適宜 assert_file, assert_predicate, assert_send などの専用の assertion メソッドを利用するようにしています。
