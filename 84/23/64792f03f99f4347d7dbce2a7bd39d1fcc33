@@ -1,0 +1,1 @@
+lib/reline.rb で Windows 環境かどうか判定するのに RUBY_PLATFORM でなく RbConfig::CONFIG['host_os'] を参照するようにしています。 JRuby では RUBY_PLATFORM が "java" になるのでうまく判定できないのに対応するためだそうです。
