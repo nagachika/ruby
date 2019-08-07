@@ -1,0 +1,1 @@
+rubygems の S3 の署名つきURL処理で BASE64 の改行を削る処理を String#gsub の第2引数に Hash を渡す記法を使うようにリファクタリングしています。
