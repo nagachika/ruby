@@ -1,0 +1,1 @@
+tool/lib/test/unit/core_assertions.rb 内の定数 FailDesc に Proc オブジェクトとして定義した子プロセスが失敗した時の状態表示用の処理の本体を tool/lib/envutil.rb のメソッド EnvUtil.failure_description として切り出しています。
