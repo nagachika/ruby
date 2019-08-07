@@ -1,0 +1,1 @@
+.travis.yml で addon による apt のパッケージインストールもやめて、before_install で独自に apt-get コマンドを呼ぶようにして失敗時にリトライするようにしています。
