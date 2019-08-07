@@ -1,0 +1,1 @@
+614c90fe21cf1d9cf6fb18684187d8c7e2f61de6 の .travis.yml の追加修正で baseruby のジョブで gcc-8 の before_install を使うようにしています。
