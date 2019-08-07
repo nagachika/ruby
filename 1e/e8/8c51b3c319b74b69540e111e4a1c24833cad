@@ -1,0 +1,1 @@
+irb で評価した文が代入文だった時には結果を表示しないようにしているそうです。 --echo-on-assignment オプションや inputrc の ECHO_ON_ASSIGNMENT の設定で表示するように戻すこともできるようです。
