@@ -1,0 +1,1 @@
+VM 命令の opt_eq と opt_neq の attribute の leaf を true にして MJIT でインライン化可能にしています。ついでに(?) string.c の static 関数 str_eql() を internal.h の inline 関数 rb_str_eql_internal() に移動しています。opt_eq_func() で引数の型チェックを追加して rb_str_eql_internal() を呼ぶようにして例外発生の可能性を消してるのだと思います。 https://github.com/ruby/ruby/pull/2318 [Bug #15589]
