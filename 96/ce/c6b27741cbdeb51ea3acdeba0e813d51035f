@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence クラスの rdoc 用コメントにこのクラスは ruby の実装やバージョンによってクラス自体の有無や挙動が異なることを明記しています。 [ruby-core:46710] [Bug #6785]
