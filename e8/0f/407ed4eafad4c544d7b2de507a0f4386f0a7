@@ -1,0 +1,1 @@
+aaf69a8ba866193863a7eafe5c6044844bd71bc3 と 076f3fcf11a061394d3d5f8c671512df1e983023 で Process のテストの sleep を長くしてたのを revert して Travis-CI の macOS ではこの 2つのテストは実行除外するようにしています。
