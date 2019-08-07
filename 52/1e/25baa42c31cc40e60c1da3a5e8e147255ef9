@@ -1,0 +1,1 @@
+Process.spawn 系メソッドの rlimit 関係のオプションのテストで、例外のメッセージもチェックするつもりで assert_raise を使ってたところを assert_raise_with_message を呼ぶように修正しています。
