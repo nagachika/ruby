@@ -1,0 +1,1 @@
+rubygems の Gem::BasicSpecification.default_specifications_dir の deprecated warning で代替として提示しているのが同じメソッドだったので、Gem.default_specifications_dir を提示するように修正しています。
