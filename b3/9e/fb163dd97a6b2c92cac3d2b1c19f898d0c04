@@ -1,0 +1,1 @@
+test/benchmark/test_benchmark.rb で capture_io メソッドの結果の文字列の時間っぽいところをマスクして差分を検出しないようにしていたのをやめて capture_bench_output というメソッドのほうにその処理を移動しています。あと capture_output はたんに capture_io の alias にしています。
