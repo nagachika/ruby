@@ -1,0 +1,1 @@
+.travis.yml で 330e3f19c32dc6b0c287b7845c796e7e4a3ed575 で切り出した tool/travis_retry.sh に渡すオプションを env の変数としてまとめています。
