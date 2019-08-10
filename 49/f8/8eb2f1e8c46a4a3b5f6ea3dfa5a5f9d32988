@@ -1,0 +1,1 @@
+.github/workflows/workflow.yml の on に push を追加して pull request 以外でもビルドが走るようにしているようです。
