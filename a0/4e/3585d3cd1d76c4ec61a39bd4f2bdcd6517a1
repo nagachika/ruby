@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap のメソッド実装で頻出する is_id_value() と is_live_object() のチェックを wmap_live_p() という static 関数に切り出すリファクタリング。
