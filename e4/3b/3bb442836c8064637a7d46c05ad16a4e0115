@@ -1,0 +1,1 @@
+GitHub Actions の macos.yml の設定で push は master のみテスト対象にするようにしています。
