@@ -1,0 +1,1 @@
+346aa557b31fe96760e505d30da26eb7a846bac9 で opt_eq, opt_neq を leaf=true にしたのと同様に opt_plus も引数の型チェックを追加して leaf=true にして MJIT で inline 化できるようにしています。 https://github.com/ruby/ruby/pull/2321
