@@ -1,0 +1,1 @@
+.github/workflows/macos.yml の jobs の下のラベルは macos から latest に変更して、環境変数の表示などのデバッグ用? コマンドは削っています。また make test や make test-all の実行には name 属性で表示名を設定しています。
