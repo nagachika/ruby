@@ -1,0 +1,1 @@
+Fiber のテストで使う invoke_rec というユーティリティメソッドで EnvUtil.invoke_ruby に渡すタイムアウト値を大幅に(6時間に)伸ばしています。 macOS でのデバッグ用とのこと。
