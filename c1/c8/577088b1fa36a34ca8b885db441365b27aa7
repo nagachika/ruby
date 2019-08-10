@@ -1,0 +1,1 @@
+e43b3bb442836c8064637a7d46c05ad16a4e0115 で .github/workflows/macos.yml の pull requests に対する設定で branches のかわりに誤って paths が指定されてしまっていたので修正しています。
