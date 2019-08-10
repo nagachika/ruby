@@ -1,0 +1,1 @@
+common.mk の class.o から gc.h への依存関係が足りてなかったので追加しています。 d0ef5c21fb91f7a82910fc71d4d8e1a801266232 で追加した Travis-CI で update-deps 実行してみて追加漏れを検出するやつで検出されたみたいです。
