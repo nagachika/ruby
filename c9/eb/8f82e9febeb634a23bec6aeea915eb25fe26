@@ -1,0 +1,1 @@
+enc/gb2312.c から ruby/ruby.h と ruby/encoding.h の #include を削除して enc/depend ファイルも更新しています。
