@@ -1,0 +1,1 @@
+ef64ab917eec02491f6bf7233a4031a8c35385e3 で 1024 に増やした STACKFRAME_FOR_CALL_CFUNC の値をさらに 2048 を倍に増やしています。 RubyCI をみるとどうやらこれ移行直ってるみたいですね。
