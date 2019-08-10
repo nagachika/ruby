@@ -1,0 +1,1 @@
+GitHub Actions の設定ファイル .github/workflows/workflow.yml を .github/workflows/macos.yml と移動して name という設定を追加しています。
