@@ -1,0 +1,1 @@
+marshal.c で Encoding の dump の時に :E という symbol のために毎回 rb_intern() していたのを Init_marshal() で static 変数に格納しておいてそれを使うように修正しています。
