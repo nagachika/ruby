@@ -1,0 +1,1 @@
+.travis.yml の make test や make leaked-globals の実行時に -o オプションをつけて showflags の実行を抑制しています。
