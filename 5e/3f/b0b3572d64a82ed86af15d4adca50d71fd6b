@@ -1,0 +1,1 @@
+.travis.yml の macOS でのたまにあるビルドの問題のために 676df311d90990a4666adb5b1db4c7aa6b080e57 で追加した全ファイルの mtime を touch で揃える処理を macOS のみでなく全ての環境で行うようにしています。
