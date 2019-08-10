@@ -1,0 +1,1 @@
+load.c の rb_load_internal0() で rb_execution_context_t にアクセスするのに th->ec を使ってましたがローカル変数に代入してるのでその変数のほうを使うようにしています。
