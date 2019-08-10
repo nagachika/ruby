@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream のコミットを cherry-pick する機能で、コミットメッセージの先頭が "Auto Merge" のものも除外するようにしています。 bundlerbot による自動マージのコミットはこのメッセージではじまるみたいです。
