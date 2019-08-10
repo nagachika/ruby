@@ -1,0 +1,1 @@
+同じく tool/sync_default_gems.rb の upstream repo からの cherry-pick 機能でうまく cherry-pick できなかった commits を列挙する前に区切りの見出しみたいなのを表示して見易くしています。
