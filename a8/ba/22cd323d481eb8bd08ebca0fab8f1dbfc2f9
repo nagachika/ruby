@@ -1,0 +1,1 @@
+c9eb8f82e9febeb634a23bec6aeea915eb25fe26 の #include 削除で enc/gb2312.c のコンパイルがエラーになったので revert しています。
