@@ -1,0 +1,1 @@
+c9eb8f82e9febeb634a23bec6aeea915eb25fe26 のリトライ。 Init_gb2312() で rb_enc_register() の呼び出しをしてたのを関数定義ごと消して ENC_REPLICATE() マクロによる登録に変更しています。
