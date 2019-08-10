@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary に pattern match で使う例外クラスの対応が入ってなくて SEGV する恐れがあったのを修正しています。 https://github.com/ruby/ruby/pull/2325 [ruby-core:94201] [Bug #16088]
