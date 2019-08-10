@@ -1,0 +1,1 @@
+同じく complex.c の f_quo() も fun2() マクロによる定義を、第1引数が Integer, Float, Rational の時の最適化を含む関数定義に変更しています。このため numeric.c の static 関数だった flo_div() は static を消して rb_flo_div() に改名しています。
