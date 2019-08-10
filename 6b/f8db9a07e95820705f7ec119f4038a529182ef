@@ -1,0 +1,1 @@
+gc.h で宣言されていた rb_obj_info_dump() および vm_debug.h で宣言されていた ruby_debug_breakpoint() とその別名であるマクロ bp() の宣言を interna.h に移動して gc.h の #include を減らしています。また rb_obj_info_dump() の wrapper である rp() というオブジェクトを表示するデバッグ用のマクロを追加しています。
