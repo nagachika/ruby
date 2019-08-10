@@ -1,0 +1,1 @@
+2d6b92c5f6b6343f34bb363604339f4bd7b951ac の .travis.yml での apt-add-repository のリトライ処理を if 文つかわないように書きかえています。
