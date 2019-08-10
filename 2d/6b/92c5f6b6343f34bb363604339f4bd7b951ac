@@ -1,0 +1,1 @@
+.travis.yml で apt-get の source 追加にも addon を使わずに自前で apt-add-repository コマンドを呼びリトライ対応するようにしています。
