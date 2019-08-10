@@ -1,0 +1,1 @@
+.github/workflows/macos.yml の repository checkout のオプションの fetch-depth を 5 から 20 に増やしています。
