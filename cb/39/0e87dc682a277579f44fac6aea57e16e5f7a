@@ -1,0 +1,1 @@
+54bdfe27f361c0cccb9d16f32e5796b47d017134 に追加して GitHub Actions で make test-spec と make leaked-globals (ってこのターゲットなんだっけ?)の実行もするようにしています。 https://github.com/ruby/ruby/pull/2327
