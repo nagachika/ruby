@@ -1,0 +1,1 @@
+b004d3e8300ba803d4a499148fa4fc6a690149e6 および 76bd0714cf1140ffd64bf564446c76c54f2c4870 の追加修正。 rb_load_internal0() から処理を切り出して load_iseq_eval() という関数を作って rb_require_internal() から rb_load_internal() のかわりにこれを呼び出すようにして、require の時にネストした EXEC_TAG() の処理がされるのを避けるようにしています。
