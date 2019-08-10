@@ -1,0 +1,1 @@
+make test-all に変数 TESTS でテストファイルを指定した時の補完処理に test_ という prefix がなかったら補完して探すという機能も追加しています。つまり test_pp.rb を指定するのに TESTS=pp.rb でもいいってことですね。
