@@ -1,0 +1,1 @@
+enum.c で不要だった transient_heap.h の #include を削除しています。
