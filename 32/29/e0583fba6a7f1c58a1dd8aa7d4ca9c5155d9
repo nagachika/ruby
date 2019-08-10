@@ -1,0 +1,1 @@
+0cf6bfca7866a0205ba6d603cca7c87f4db0065e の再修正。 HASH_DEBUG が真の時にはまだ gc.h が必要だったので preprocessor による分岐つきで #include "gc.h" を残すようにしています。
