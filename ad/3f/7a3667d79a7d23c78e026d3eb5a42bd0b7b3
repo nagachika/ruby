@@ -1,0 +1,1 @@
+require_internal() で rb_thread_t の top_wrapper と top_self というメンバーを退避しておいて top_wrapper を 0 にリセットしてから実際の require 処理して最後に復帰させるようにしています。 th->top_wrapper ってなんだろ。記憶にないなぁ。
