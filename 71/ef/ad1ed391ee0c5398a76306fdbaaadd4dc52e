@@ -1,0 +1,1 @@
+Module/Class が dup で複製されると、その配下の定数の参照が inline cache で共有されてしまい、誤った定数を参照してしまうことがある不具合の対策として RCLASS_CLONED という bit flag を追加して vm_get_const_key_cref() で cref の親のどこかにこのフラグが立ってたら ic->ic_cref にセットしておくようにしています。特異クラスの時の特別扱いと同じ処理を使って誤った inline cache 利用を抑制するようにしています。 [ruby-core:92849] [Bug #15877]
