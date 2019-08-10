@@ -1,0 +1,1 @@
+Float::ROUNDS という丸めの方法を表す定数を deprecated にしています。こんな定数あったんだ……。 [ruby-core:94139] [Bug #16044]
