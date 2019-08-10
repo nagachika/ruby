@@ -1,0 +1,1 @@
+complex.c で f_real_p() は fun1() マクロでメソッド呼び出しする関数定義に展開されてたのを、引数が Integer, Float, Rational, Complex の時の最適化を含む関数定義に変更しています。
