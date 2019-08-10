@@ -1,0 +1,1 @@
+require 関係の benchmark スクリプトでファイルを作成するのに File.open + puts を使ってたのを File.write メソッドを利用するようにリファクタリングしています。
