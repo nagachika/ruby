@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper::Lexer で配列への追加に Array#<< を使ってたところを push メソッドに変更しています。 consistency のためとのことなので ripper の他のところでは push だからそろえたってことですね。
