@@ -1,0 +1,1 @@
+.travis.yml のリトライ用の処理を tool/travis_retry.sh というシェルスクリプトに切り出して .travis.yml の記述を完結にしています。
