@@ -1,0 +1,1 @@
+1c7d3a13caa718ef52ec6b55988b1459a002f965 に続いて RubyVM の特異メソッドに USAGE_ANALYSIS_INSN_CLEAR、USAGE_ANALYSIS_OPERAND_CLEAR、USAGE_ANALYSIS_REGISTER_CLEAR といった集計したデータをクリアするメソッドも追加しています。 https://github.com/ruby/ruby/pull/2258
