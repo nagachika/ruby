@@ -1,0 +1,1 @@
+rational.c の rb_numeric_quo() に第1引数が Complex の時のショートカットも追加しています。
