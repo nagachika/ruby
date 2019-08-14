@@ -1,0 +1,1 @@
+.travis.yml の make test-all の実行を travis_wait コマンド経由で実行するようにしています。 -v を消したので復活させてているみたいです。
