@@ -1,0 +1,1 @@
+make commits で common.mk を sed コマンドで書き換える時も tool/prereq.status を利用するようにしている? みたいです。
