@@ -1,0 +1,1 @@
+.github/workflows/macos.yml および .github/workflows/ubuntu.yml に make test-bundled-gems の実行も追加して bundled gems のテストを GitHub Actions で行うようにしています。
