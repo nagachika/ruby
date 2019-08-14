@@ -1,0 +1,1 @@
+azure-pipelines.yml から GitHub Actions で実行するようにした Ubuntu でのテストを削除しています。 https://github.com/ruby/ruby/pull/2340
