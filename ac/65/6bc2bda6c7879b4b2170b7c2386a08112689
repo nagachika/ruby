@@ -1,0 +1,1 @@
+gc.c の profiling 用のフラグに GPR_DEFAULT_REASON という定数を追加して gc_compact() と gc_compact_after_gc() からの rb_gc() 呼び出しをこの定数を渡した garbage_collect() 呼び出しに変更しています。これもメインはフラグの定数追加というより gc_compact() から rb_gc() ではなく直接 garbage_collect() を呼ぶようにして引数の objspace で rb_objspace_t を指定するようにするのが主眼のような気がします。
