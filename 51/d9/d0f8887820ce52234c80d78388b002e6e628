@@ -1,0 +1,1 @@
+defs/gmake.mk で定義している GitHub から pull request のブランチをとってくる fetch-github コマンドで既に同じ名前のローカルブランチが作成済みだったら git branch でブランチ作成するだけにしています。
