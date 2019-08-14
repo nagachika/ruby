@@ -1,0 +1,1 @@
+さらに .github/workflows/macos.yml で make test-all と make test-spec を分けてたのを make check でまとめて実行するようにしています。
