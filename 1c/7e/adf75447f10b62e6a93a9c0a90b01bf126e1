@@ -1,0 +1,1 @@
+今度は appveyor.yml の make test-all の時のオプションに -v をつけるようにしています。デバッグのため。
