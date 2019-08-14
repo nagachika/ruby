@@ -1,0 +1,1 @@
+azure-pipelines.yml から make test-all test-spec test-bundler のタスクを削除しています。 GitHub Actions でするようになったから Azure Pipelines ではしないようにしたということでしょう。 https://github.com/ruby/ruby/pull/2336
