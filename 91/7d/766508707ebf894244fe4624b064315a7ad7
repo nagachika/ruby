@@ -1,0 +1,1 @@
+gc_verify_internal_consistency() を VALUE でなく rb_objspace_t* を引数に受け取るようにして、メソッド定義に使う関数は gc_verify_internal_consistency_m() と改名しています。
