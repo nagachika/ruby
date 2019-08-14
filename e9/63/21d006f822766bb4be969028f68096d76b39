@@ -1,0 +1,1 @@
+.github/workflows/ubuntu.yml から make check の実行を削除しています。test-all および test-spec は他の CI ツールでカバーしてるからなくてもいいってことかな。
