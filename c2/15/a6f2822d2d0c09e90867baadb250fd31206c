@@ -1,0 +1,1 @@
+r60856 で常に 1 を定義するようにした ENABLE_VM_OBJSPACE ですが、もう定義自体を削除して preprocessor による分岐も消しています。
