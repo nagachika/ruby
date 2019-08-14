@@ -1,0 +1,1 @@
+.github/workflows/windows.yml にさらに nmake test までするステップを追加しています。
