@@ -1,0 +1,1 @@
+.github/workflows/check_branch.yml のヘッダコメントに master ブランチは GitHub から git.ruby-lang.org の cgit への動機も試験的に開始していることを追記しています。 [Misc #16094] https://github.com/ruby/ruby/pull/2350
