@@ -1,0 +1,1 @@
+gc.c の gc_check_references_for_moved() の引数も VALUE から rb_objspace_t* に変更しています。なんか元の引数は dummy で呼び元でも常に Qnil を渡してましたが objspace を引数で指定するようにしている変更の一環のようです。
