@@ -1,0 +1,1 @@
+組み込み例外クラスである fatal の rdoc 用コメントに fatal は rescue で捕捉できないと書かれてましたが、実際には自分で raise したら rescue できるので削除しています。まあでも自分で raise することはないし rb_fatal() の場合は TAG_FATAL で JUMP  するので、こいつは rescue はできないはず。 [ruby-core:67297] [Bug #10691]
