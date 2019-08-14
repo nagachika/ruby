@@ -1,0 +1,1 @@
+5ee11a95ffbf194a73d1bea300a35f5d6250d203 の brew update の timeout とリトライは timeout コマンドが GitHub Actions の macOS 環境に存在しなかったようなので revert しています。
