@@ -1,0 +1,1 @@
+defs/gmake.mk の pull-github コマンドで git filter-branch でコミットログに pull request の参照を追加するのをやめています。 git notes に書くようにしたので不要になったってことでしょうか。
