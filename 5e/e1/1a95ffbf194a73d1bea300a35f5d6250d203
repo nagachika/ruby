@@ -1,0 +1,1 @@
+.github/workflows/macos.yml で brew update に timeout とリトライつきで実行するようにしています。Travis-CI でもよく失敗しているので予防的に? 対処しているようです。
