@@ -1,0 +1,1 @@
+51d9d0f8887820ce52234c80d78388b002e6e628 で defs/gmake.mk の fetch-gibhub コマンドで既に Pull Requests のブランチが存在するかチェックするのに git log を使っていましたが git rev-parse を利用するように変更しています。
