@@ -1,0 +1,1 @@
+azure-pipelines.yml を削除して Windows 環境のテストを GitHub Actions へ移行しています。
