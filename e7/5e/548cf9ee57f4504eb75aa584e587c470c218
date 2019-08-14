@@ -1,0 +1,1 @@
+defs/gmake.mk に make spec/bundler/xxx で bundler のテストのうち指定したファイルのみ実行するターゲットを追加しています。
