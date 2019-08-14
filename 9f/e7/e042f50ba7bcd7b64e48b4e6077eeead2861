@@ -1,0 +1,1 @@
+同じく defs/gmake.mk の pull-github コマンドで git rebase するようにしているんですが、git rebase に --exec なんてオプションがあるんですね。 git notes でコミットのコメントを外に付けるようにしています(ruby trunk changes のコメントも git notes で保存しています)。
