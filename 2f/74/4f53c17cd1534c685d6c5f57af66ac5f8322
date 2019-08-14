@@ -1,0 +1,1 @@
+ObjectSpace の全オブジェクトを traverse する objspace_each_objects() は引数に struct each_obj_args へのポインタを VALUE として渡してましたが、そのメンバーを直接引数として受け取るようにして、さらに rb_objspace_t も引数で受け取るようにしています。これも引数で明示的に受け取るようにしてグローバルな rb_objspace を使うのを避けるようにする変更の一環ですかね。
