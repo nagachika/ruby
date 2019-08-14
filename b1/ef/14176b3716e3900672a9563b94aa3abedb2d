@@ -1,0 +1,1 @@
+4f10a61eaaf5bfe7e4c53edc79c5e27a7bd1ae33 でリトライつきで git clone しようとしましたが、git clone 前にはまだ tool/ もないわけなので、リトライはあきらめて git clone するようにしています。また tool/ci_retry.sh のファイル名も tool/travis_retry.sh に戻しています。
