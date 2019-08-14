@@ -1,0 +1,1 @@
+make commits で git notes のデフォルトの refs も push するようにしています。
