@@ -1,0 +1,1 @@
+.travis.yml の macOS でのビルド時の make test-all のオプションに -v を追加していたのを消しています。
