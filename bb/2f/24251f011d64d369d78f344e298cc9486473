@@ -1,0 +1,1 @@
+rubyspec で Windows で skip するテストを環境変数 CI がセットされている時も skip するようにして、GitHub Actions でこの環境変数をセットすることで skip させるようにしています。 ANSI のカラーコードが GitHub Actions でサポートされてないから、とのこと。
