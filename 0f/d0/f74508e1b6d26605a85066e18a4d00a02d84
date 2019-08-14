@@ -1,0 +1,1 @@
+.github/workflows/windows-2016.yml と .github/workflows/windows-2019.yml を .github/workflows/windows.yml にマージして 1ファイルで両方の環境に対応するようにしています。
