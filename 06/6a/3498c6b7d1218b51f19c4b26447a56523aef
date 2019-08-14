@@ -1,0 +1,1 @@
+tool/lib/vcs.rb のリリース時に ChangeLog を生成するためにコミットログを出力するときに git log に --notes=commits を指定して git notes も出力するようにしています。 9fe7e042f50ba7bcd7b64e48b4e6077eeead2861 で pull requests を merge した時に git notes でその参照を残すようにしたのでそれも取り込めるようにしているようです。
