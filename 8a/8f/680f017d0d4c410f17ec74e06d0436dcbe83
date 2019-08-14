@@ -1,0 +1,1 @@
+bb2f24251f011d64d369d78f344e298cc9486473 で rubyspec で一部のテストを skip させるために環境変数 CI というのを使うようにしていましたが GITHUB_ACTION という環境変数が使えるのでそれをみるようにしています。また rubyspec の context のタグが non_windows という名前であいまいだったので no_color_tty として色付けができない場合の skip だとわかるようにしています。
