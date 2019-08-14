@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence の中のキーワード引数のデフォルト値を保持する VALUE は GC.compact での移動に対応しているのに pin してたので pin なしの mark 関数を使うように修正しています。
