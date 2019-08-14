@@ -1,0 +1,1 @@
+GitHub Actions でもやはり公式のアクションでのリポジトリの clone は失敗することがあるので、tool/travis_retry.sh を tool/ci_retry.sh に改名して独自のコマンドとしてリトライ付きで git clone するようにしています。
