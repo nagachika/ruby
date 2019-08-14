@@ -1,0 +1,1 @@
+bbc5e97b959ba526036f0f6c95682c1721a87130 で追加した .github/workflows/windows-2016.yml は configure.bat までしかしていなかったので nmake でビルドまでするようにしています。
