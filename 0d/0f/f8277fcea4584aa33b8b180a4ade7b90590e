@@ -1,0 +1,1 @@
+include/ruby/intern.h から rb_trap_exec() の prototype 宣言を削除しています。公開されてるヘッダですがずいぶん前から存在しなくなってた関数なのでほぼ使われてないのではないかと。
