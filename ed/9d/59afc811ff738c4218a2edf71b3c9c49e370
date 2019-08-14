@@ -1,0 +1,1 @@
+rubyspec の Process.setproctitle のテストを GitHub Actions でさらに Linux の時だけ skip させるためにタグを追加しています。
