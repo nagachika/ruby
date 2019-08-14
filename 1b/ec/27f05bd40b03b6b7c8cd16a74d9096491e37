@@ -1,0 +1,1 @@
+.travis.yml の sudo apt-get update に exec をつけて子プロセスを生成しないようにしています。 travis_retry に終了ステータスを正しく認識させるためとのこと。
