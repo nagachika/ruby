@@ -1,0 +1,1 @@
+ruby_cleanup() の本体部分を引数に rb_execution_context_t* を受け取る rb_ec_cleanup() という関数として切り出して呼び元で明示的に GET_EC() で ec を取得するようにしています。
