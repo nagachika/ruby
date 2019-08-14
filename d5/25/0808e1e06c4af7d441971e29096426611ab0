@@ -1,0 +1,1 @@
+.github/workflows/macos.yml で homebrew でインストールする openssl のバージョンを 1.1 に固定するようにしています。
