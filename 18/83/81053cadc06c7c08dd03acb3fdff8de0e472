@@ -1,0 +1,1 @@
+.github/workflows/windows.yml の configure 時に --disable-install-doc オプションを追加しています。速度のためかな。 https://github.com/ruby/ruby/pull/2346
