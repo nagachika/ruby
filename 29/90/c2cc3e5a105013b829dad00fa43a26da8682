@@ -1,0 +1,1 @@
+b39efb163dd97a6b2c92cac3d2b1c19f898d0c04 と似てますが rdoc のテストでも capture_output というメソッドのかわりに capture_io を利用するように変更しています。
