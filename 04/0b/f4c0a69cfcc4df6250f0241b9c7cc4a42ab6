@@ -1,0 +1,1 @@
+さらに .github/workflows/windows-2019.yml という設定も追加して Windows 2019 という環境(たぶん Windows 自体というよりコンパイラのバージョンの違い?)でもビルドするようにしています。
