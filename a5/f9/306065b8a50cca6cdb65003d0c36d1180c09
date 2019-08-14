@@ -1,0 +1,1 @@
+.travis.yml で tool/travis_retry.sh つきのコマンドで bash に渡したコマンドラインで sudo を使っていたものは外側の bash 自体に sudo をつけるように修正しています。
