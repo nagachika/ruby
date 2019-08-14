@@ -1,0 +1,1 @@
+.github/workflows/windows-2016.yml を追加して Windows 環境でのビルドも GitHub Actions へ移行しています。 GitHub Actions 最強か。
