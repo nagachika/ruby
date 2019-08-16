@@ -1,0 +1,1 @@
+Exception#backtrace および Exception#backtrace_locations の rdoc 用コメントの call-seq に nil がかえる可能性があることについて明記しています。 https://github.com/ruby/ruby/pull/2358
