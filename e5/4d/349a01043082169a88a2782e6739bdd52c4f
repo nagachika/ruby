@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の c8f9e9a2a0788fff08824985a74748dbe7ff7b18 の変更で利用する関数 rb_io_extract_modeenc() が古い ruby だと存在しないので、default gems 化されているので古い ruby でビルドされた時のための代替関数を追加しています。
