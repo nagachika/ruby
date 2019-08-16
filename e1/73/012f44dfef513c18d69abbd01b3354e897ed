@@ -1,0 +1,1 @@
+defs/gmake.mk の make merge-github および merge-github-xxx のターゲットを削除しています。
