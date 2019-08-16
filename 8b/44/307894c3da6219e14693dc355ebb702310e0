@@ -1,0 +1,1 @@
+さらに拡張ライブラリ stringio の StringIO.new の mode に Bignum の整数で渡された時にも対応できるように FIX2INT() ではなく NUM2INT() で変換するようにし、さらに to_int で整数化するオブジェクトにも対応するようにしています。
