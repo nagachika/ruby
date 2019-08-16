@@ -1,0 +1,1 @@
+.github/workflows/macos.yml の make check と make test-bundler および make test-bundled-gems の実行を分けて continue-on-error の設定を true にしてエラーを無視させるようにしています。また .github/workflows/ubuntu.yml でも test-bundler と test-bundled-gems のエラーを無視させるようにしています。
