@@ -1,0 +1,1 @@
+assert_raise_with_message、assert_warning、assert_warn などの assertion メソッドを tool/lib/test/unit/assertions.rb から tool/lib/test/unit/core_assertions.rb に移動しています。 default gems のテストで使うためとのこと。 https://github.com/ruby/ruby/pull/2354
