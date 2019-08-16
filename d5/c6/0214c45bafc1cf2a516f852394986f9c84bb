@@ -1,0 +1,1 @@
+Range#minmax の定義を追加して Enumerable#minmax を継承していたので非効率な実行になってたり処理が帰ってこなくなってたりしたのを対処しています。 [ruby-core:92459] [Bug #15807] [ruby-core:92789] [Bug #15867]
