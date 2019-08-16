@@ -1,0 +1,1 @@
+Enumerator および Yielder の GC.compact 対応。enumerator_compact() と yielder_compact() を追加して struct enumerator や struct yielder の VALUE な要素について移動をサポートするようにしています。
