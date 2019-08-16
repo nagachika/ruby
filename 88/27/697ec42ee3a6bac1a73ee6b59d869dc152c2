@@ -1,0 +1,1 @@
+bootstraptest/test_thread.rb の Thread#backtrace のテストの assertion の書きかたをちょっと変更。
