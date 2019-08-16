@@ -1,0 +1,1 @@
+8a687b8a4ff4096d7783bed58642112cfa3256a0 の GitHub Actions でのリポジトリ取得の独自コマンド化で .github/workflows/windows.yml では変数の参照を ${{...}} を使うようにしています。これは GitHub Actions 自体の記法かな。 https://github.com/ruby/ruby/pull/2361
