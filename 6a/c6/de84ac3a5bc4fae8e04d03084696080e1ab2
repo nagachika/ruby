@@ -1,0 +1,1 @@
+fbcd0652944568c43a6ae427960d909d62ce6a8d の再修正。 getconstant のオペランドに 0/1 を渡していたのを Qfalse/Qtrue を渡すように修正しています。
