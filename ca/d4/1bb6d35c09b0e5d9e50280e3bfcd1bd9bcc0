@@ -1,0 +1,1 @@
+拡張ライブラリ stringio に e717d6faa8463c70407e6aaf116c6b6181f30be6 で追加された IO#set_encoding_by_bom と同様に BOM を元に Encoding を決定させる StringIO#set_encoding_by_bom メソッドを追加しています。
