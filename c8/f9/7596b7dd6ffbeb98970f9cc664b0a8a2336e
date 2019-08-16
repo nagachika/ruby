@@ -1,0 +1,1 @@
+b00f280d4b9569e7153365d7e1c522b3d6b3c6cf の Module/Class の name の取得方法の変更で無名の Module/Class の配下で定数定義すると無名のクラスの inspec したものが name として登録されてしまうという不具合があった(Module#name が nil を返すべきところ文字列を返してしまう)のを再修正しています。定数の名前付けってすごく複雑だなー。  [ruby-core:94277] [Bug #16097]
