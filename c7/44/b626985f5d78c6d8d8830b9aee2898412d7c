@@ -1,0 +1,1 @@
+io.c の rb_io_extract_modeenc() から static をはずして include/ruby/io.h で export するようにしています。
