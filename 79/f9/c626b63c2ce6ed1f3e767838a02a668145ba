@@ -1,0 +1,1 @@
+.github/workflows/*.yml の各プラットフォームでのリポジトリの clone に GibHub Actions の公式のアクションを利用するように戻しています。 git clone だと対象のコミットをきっちり取得できないのと、fork されたリポジトリからの pull request のコミットを取得する必要があるのでとのこと。 https://github.com/ruby/ruby/pull/2357
