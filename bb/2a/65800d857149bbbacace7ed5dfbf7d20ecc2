@@ -1,0 +1,1 @@
+rubygems のテストでただの require のかわりに assert_require という assertion を使うようにしています。こんな assertion メソッドがあるのか。
