@@ -1,0 +1,1 @@
+rubygems で terminate_interaction の終了コードをマジックナンバー 1 から ERROR_CODE という定数にしています。これ前もあったやつの変更漏れですね。 https://github.com/rubygems/rubygems/pull/2844
