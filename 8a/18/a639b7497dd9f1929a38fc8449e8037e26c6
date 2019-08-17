@@ -1,0 +1,1 @@
+rdoc の gemspec ファイルから add_development_dependency を削除しています。かわりに Gemfile を使うとのこと。
