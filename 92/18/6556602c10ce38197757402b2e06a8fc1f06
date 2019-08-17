@@ -1,0 +1,1 @@
+test/rdoc/helper.rb の capture_io の alias を削除しています。minitest からの移行にまつわる変更ですね。
