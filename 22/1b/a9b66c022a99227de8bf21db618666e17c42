@@ -1,0 +1,1 @@
+260ef51a73c067599826c8ab110c53994c1b6226 で revert した古い ruby 用の Gem.load_path_insert_index が nil を返すケースの対応はやっぱり復活させています。 2.4/2.5 の安定版で壊れるとのこと。
