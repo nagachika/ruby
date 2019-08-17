@@ -1,0 +1,1 @@
+Refinements で Module#using で Refinements を適用している Module 内でさらに Module#refine で refinements のブロックを開くと、その中では外のスコープの using が効かないという不具合を修正しています。これ不具合なのかな…。まあ Refinements は lexical に効くはずだから効いたほうがいいのか。けどなんとなくサンプルをひとめ見た瞬間は、こっちが正しいような気がしてしまったけど…。 [ruby-core:94382] [Bug #16107]
