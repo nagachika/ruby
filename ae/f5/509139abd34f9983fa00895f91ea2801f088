@@ -1,0 +1,1 @@
+と思ったら 20af44c27727333b4cd3eef9d5b18daaa0445f0e で削除した alias の install_gem は install_gem から呼び出す 1つの gem のインストールの処理のメソッドとして定義しています。
