@@ -1,0 +1,1 @@
+bundler の bundle gem のテストで bundler.gem は不要なので用意しないようにしています。
