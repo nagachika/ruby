@@ -1,0 +1,1 @@
+1ac6890bd05a48e385f564d212765a3a60899659 の再修正。よくわかりませんが default gem の require した時に @path_to_default_spec_map から消すのはやめて、load 済みかどうかのチェックのほうで重複を回避するようにしてるみたいです。
