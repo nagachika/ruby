@@ -1,0 +1,1 @@
+bundler のテストで bundler.gemspec を作ってテストする処理をヘルパーメソッド with_root_gemspec として切り出しています。
