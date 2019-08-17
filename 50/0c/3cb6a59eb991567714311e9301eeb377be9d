@@ -1,0 +1,1 @@
+bundler のリファクタリング。 Bundler::Source::Path で Bundler.root を直接呼び出してたのを wrap しているメソッド root の呼び出しに置き換え。
