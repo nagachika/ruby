@@ -1,0 +1,1 @@
+bundler のテストで spec/bundler/realworld/double_check_spec.rb  の spec のタグに :sometimes => true というのを追加しています。このタグはリトライ対象になるものみたいで、つまりたまに失敗することがあるのでその時に自動的なリトライ対象にするってことみたいですね。
