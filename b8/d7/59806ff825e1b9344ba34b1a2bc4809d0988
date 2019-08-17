@@ -1,0 +1,1 @@
+3b61019a89c366e50db908ccf25a9156bc500a5f で追加した bundler のテスト spec/bundler/bundler/build_metadata_spec.rb を spec/bundler/build_metadata_spec.rb に改名しています。 https://github.com/bundler/bundler/pull/7297
