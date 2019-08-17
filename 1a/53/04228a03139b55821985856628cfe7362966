@@ -1,0 +1,1 @@
+rdoc のテストで minitest のかわりに test-unit を利用するように変更しています。 https://github.com/seattlerb/minitest/issues/779
