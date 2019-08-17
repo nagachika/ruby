@@ -1,0 +1,1 @@
+.github/workflows/ の GitHub Actions の設定の fail-fast というオプションを false に設定しています。一部のタスク? ジョブ? が失敗しても続きのテストも実行したいため。
