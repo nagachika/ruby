@@ -1,0 +1,1 @@
+Fiber#resume の rdoc 用コメントのサンプルで fiber.resume に渡す引数の数値を変更しています。なんかコミットログにいろいろ書いてあるけど、元のサンプルだと最後(にエラーにならずに呼べる) Fiber#resume の戻り値がその前の Fiber.yield に渡した値と関係あるようにみえてしまって混乱するから、みたいです。うーん、そうかな。そうかも。 https://github.com/ruby/ruby/pull/2170
