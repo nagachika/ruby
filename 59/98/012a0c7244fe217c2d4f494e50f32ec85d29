@@ -1,0 +1,1 @@
+これもよくわかりませんが rubygems の bundler との協調のためのコードで Gemfile.lock に書かれる bundler のバージョンより実際の bundler のバージョンを優先するようにしているっぽいです。
