@@ -1,0 +1,1 @@
+bundler のテストで ruby 実行時に -rrubygems オプションをつけてたのは、最近の ruby だとデフォルトで rubygems 有効で不要なので削除しています。
