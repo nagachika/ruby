@@ -1,0 +1,1 @@
+rubygems の require のテストで loaded_spec_names のチェックも追加しています。
