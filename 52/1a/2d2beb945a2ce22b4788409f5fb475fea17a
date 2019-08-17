@@ -1,0 +1,1 @@
+e97741e12a22d78825a3a9dfcb7382adb0e27855 でマージされた bundler の変更の一部を revert しています。 upstream でいうと https://github.com/bundler/bundler/commit/e63e844bc7444c6a489fcde0dc7011c6c4807edd これらしい。まだまとめてマージしていた時期のなので ruby のリポジトリでは混ざってます。
