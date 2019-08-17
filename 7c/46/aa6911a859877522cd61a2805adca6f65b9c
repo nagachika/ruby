@@ -1,0 +1,1 @@
+Array#- と Array#difference の rdoc 用コメントの英文修正。confusion を避けるためとのことだけど英語よくわからないので confusing だったということがよくわからない。 https://github.com/ruby/ruby/pull/2068 https://github.com/ruby/ruby/pull/2070
