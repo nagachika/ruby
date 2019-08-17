@@ -1,0 +1,1 @@
+load.c の rb_load_internal0() を load_wrapping() と改名して wrap 引数を削除、呼び元の rb_load_internal() に wrap が 0 の時の処理を吊り上げていて、この時は top_wrapper = 0 で呼ぶのではなくて load_iseq_eval() を直接呼ぶようにしています。不要な TAG セットを抑制するためみたいです。
