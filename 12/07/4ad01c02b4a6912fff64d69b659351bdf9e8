@@ -1,0 +1,1 @@
+make update-github の echo と cut コマンドを使って文字列を切り出してたのを GNU make の word というコマンドを利用するように書きかえています。
