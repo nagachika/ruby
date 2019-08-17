@@ -1,0 +1,1 @@
+さらに bundler のテストのヘルパーメソッド gem_command でも切り出した gem_bin を流用するようにしています。
