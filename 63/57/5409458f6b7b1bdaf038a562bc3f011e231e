@@ -1,0 +1,1 @@
+bundler のテストでコマンドとしての bundle ファイルの位置を ruby リポジトリ内では libexec/bundle にするように変更しています。
