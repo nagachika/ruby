@@ -1,0 +1,1 @@
+787b437a2aaf8bfd60a9ac151f52cdb2638b7d8d の再修正。古い rubygems を使ってた場合を考慮して respond_to? でチェックしてから呼び分けるようにしています。
