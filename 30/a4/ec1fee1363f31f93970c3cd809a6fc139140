@@ -1,0 +1,1 @@
+91c63828f7b841df6b7b124acb752c0a3bca66c0 で切り出した gem_bin で gem コマンドに --backtrace オプションを追加するようにしています。
