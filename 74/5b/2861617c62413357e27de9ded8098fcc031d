@@ -1,0 +1,1 @@
+話題の lib メソッドを spec/bundler/support/helpers.rb から spec/bundler/support/path.rb に移動しています。
