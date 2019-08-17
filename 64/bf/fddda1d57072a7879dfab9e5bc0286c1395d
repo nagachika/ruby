@@ -1,0 +1,1 @@
+同じく make update-github で ruby の Kernel#exit に 0 か 1 を渡すため条件演算子を使ってましたが、Kernel#exit は true/false も受付けるので条件の真偽値を反転してそのまま渡すようにしています。
