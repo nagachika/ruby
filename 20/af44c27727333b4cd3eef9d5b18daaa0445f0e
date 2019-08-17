@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッドの install_gems には install_gem という alias も残してあったのですが、最後の呼び出し元も改名して alias は削除しています。
