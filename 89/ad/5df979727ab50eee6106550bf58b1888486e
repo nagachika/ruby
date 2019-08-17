@@ -1,0 +1,1 @@
+Gem::Command#show_lookup_failure の第4引数 domain を削除してかわりに省略可能引数 suppress_suggestions を追加し実体に名前と渡す内容をあわせるようにリファクタリングしています。
