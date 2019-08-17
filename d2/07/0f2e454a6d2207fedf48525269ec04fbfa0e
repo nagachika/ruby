@@ -1,0 +1,1 @@
+BasicObject クラスの rdoc 用コメントの method_missing のサンプルのバグを修正しています。 https://github.com/ruby/ruby/pull/2239
