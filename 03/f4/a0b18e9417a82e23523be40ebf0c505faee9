@@ -1,0 +1,1 @@
+rdoc のテストで assert_raises のかわりに assert_raise を使うように変更しています。
