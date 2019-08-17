@@ -1,0 +1,1 @@
+make update-github の FORK_REPO と PR_BRANCH の取得方法を修正。
