@@ -1,0 +1,1 @@
+lib/rubygems/installer.rb の Windows 向けバッチファイル? 生成の ruby.exe のファイル名が決め打ちになってたのを修正しています。
