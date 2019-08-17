@@ -1,0 +1,1 @@
+NetBSD では explicit_bzero() がないそうなので configure でチェックして存在しない場合は explicit_memset を使った代替実装を利用するようにしています。 https://github.com/ruby/ruby/pull/2145
