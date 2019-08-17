@@ -1,0 +1,1 @@
+rdoc のテストで最近の rubygems の更新で deprecated になってた Gem::Specification.default_specifications_dir を Gem.default_specifications_dir に変更しています。
