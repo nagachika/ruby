@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::TokenStream#add_tokens と RDoc::TokenStream#add_token というメソッドは alias になってましたが、add_tokens は配列を受け取り、add_token は1つの token だけ受け取るように変更しています。
