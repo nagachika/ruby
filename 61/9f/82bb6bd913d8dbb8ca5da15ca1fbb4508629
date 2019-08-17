@@ -1,0 +1,1 @@
+拡張ライブラリ socket の rsock_inspect_sockaddr() から UNIX Socket のアドレスのサイズを取得する関数を rai_unixsocket_len() として切り出しています。
