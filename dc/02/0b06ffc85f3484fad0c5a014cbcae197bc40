@@ -1,0 +1,1 @@
+11a9f7ab9431b0f361e43b4ac2bd6ee44827d88b の追加で Refinements 関連の method entry 探索を search_refined_method() という関数に切り出しています。 [ruby-core:94382] [Bug #16107]
