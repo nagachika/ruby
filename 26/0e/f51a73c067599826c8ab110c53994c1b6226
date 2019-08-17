@@ -1,0 +1,1 @@
+dd16f8524c44f8802e634af2577fe5a149cd740e の rubygems 版の require の対処で Gem.load_path_insert_index が nil の時の対処はやっぱり消しています。これが nil になるのは 1.9 より前らしいので、さすがにそれはもう考慮しないでいいということで。
