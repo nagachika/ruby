@@ -1,0 +1,1 @@
+bundler の bundle gem に --[no-]git オプションを追加して、生成した gem のディレクトリ内で git init を抑制できるようにしています。
