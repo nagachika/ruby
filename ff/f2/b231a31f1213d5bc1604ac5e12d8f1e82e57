@@ -1,0 +1,1 @@
+make update-github の GITHUB_TOKEN の有無による分岐を1行で書くようにリファクタリングしています。
