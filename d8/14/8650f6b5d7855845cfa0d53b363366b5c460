@@ -1,0 +1,1 @@
+dd16f8524c44f8802e634af2577fe5a149cd740e で復活させた rubygems の再定義 require で先に $LOAD_PATH 内にみつけたファイルをオリジナルの require に渡した時になぜか LoadError が発生した場合にも対処して残りの処理に fallback させるように例外の捕捉と RUBYGEMS_ACTIVATION_MONITOR のロック再取得するようにしています。
