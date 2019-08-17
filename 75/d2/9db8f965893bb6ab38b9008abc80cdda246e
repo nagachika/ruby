@@ -1,0 +1,1 @@
+00cd5d74cecb6aa4a184e57e2b8246ef6e45d458 の rubygems の再定義する require での default gems より -I オプションを優先するための変更とそれに追随する変更を revert しています。
