@@ -1,0 +1,1 @@
+bundler のテストで $LOAD_PATH を弄った後で復帰する処理は JRuby では実行しないようにしています。 JRuby の $LOAD_PATH は replace できないのかな。
