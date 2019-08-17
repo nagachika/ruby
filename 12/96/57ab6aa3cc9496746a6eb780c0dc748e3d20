@@ -1,0 +1,1 @@
+bundler の Windows でのテストで $LOAD_PATH にいくつかのパスを unshift で追加してたのを Dir.glob を利用して 1行に書きなおしています。
