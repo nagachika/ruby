@@ -1,0 +1,1 @@
+8a8f680f017d0d4c410f17ec74e06d0436dcbe83 や ed9d59afc811ff738c4218a2edf71b3c9c49e370 で bundler のテストで GitHub Actions での実行かどうかを判定するのに環境変数 GITHUB_ACTION を参照しているところで、nil? メソッドを利用するように変更しています。 rubocop の警告に対策するためとのこと。
