@@ -1,0 +1,1 @@
+make update-github を checkout-github に依存させてたのを fetch-github に依存するように変更。 make update-github 時の再 configure を避けるためみたいです。あと pull requests ごとのブランチを git worktree を使って分離するようにしているようです。
