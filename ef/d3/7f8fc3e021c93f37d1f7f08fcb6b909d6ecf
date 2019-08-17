@@ -1,0 +1,1 @@
+Enumerable#sum の rdoc 用コメントで数値じゃない要素があった時の TypeError になる例として Array#each で Enemerator を生成してから sum を呼んでる例があって若干まぎらわしかったので、文字列を要素にもつ Range を例に変更しています。 https://github.com/ruby/ruby/pull/2190
