@@ -1,0 +1,1 @@
+mv_method.c の verify_method_cache() という関数は VM_DEBUG_VERIFY_METHOD_CACHE が真の時だけ定義するようにしていて呼び出し元も preprocessor による分岐をしていましたが、関数定義は常にしてその中で VM_DEBUG_VERIFY_METHOD_CACHE が偽の時はすぐ return するようなコードにしています。コンパイルが通る状態にするためみたいです。static 関数だし定数による分岐で return してるからコンパイラの最適化で関数呼び出し自体が消されて実質変化はないかも。
