@@ -1,0 +1,1 @@
+rubyspec の require のテストで $LOAD_PATH にパスを追加する時に先頭でなく最後に追加するようにしています。 rubygems の require 関連の変更の影響でしょうね。
