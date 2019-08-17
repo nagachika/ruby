@@ -1,0 +1,1 @@
+ea496e9fb2c930ac0c5ff8c12c4a10fac0ec3c7b の make check 追加に追随して continue-on-error: true の設定が make check についてしまわないよう除外の条件を復活させています。
