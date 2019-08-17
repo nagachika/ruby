@@ -1,0 +1,1 @@
+man/gemfile.5* のサンプル? の依存 gem で上げられてる debugger を byebug に変更しています。
