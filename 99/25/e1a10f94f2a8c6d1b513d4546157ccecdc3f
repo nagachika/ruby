@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッド gem_command! の第2引数に渡す Pathname と to_s してから渡してるところはそのまま渡すようにしています。gem_command! の中でも to_s しているため。
