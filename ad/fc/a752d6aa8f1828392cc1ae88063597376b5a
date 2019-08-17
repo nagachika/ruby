@@ -1,0 +1,1 @@
+bundler のテストで FileUtils.rm に渡す引数でも to_s してるところがありましたが Pathname も受け付けるのでそのまま渡すようにしています。
