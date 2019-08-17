@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッド with_built_bundler というのも切り出しています。
