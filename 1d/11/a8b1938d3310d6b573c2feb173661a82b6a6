@@ -1,0 +1,1 @@
+6db3051fcc08440fb1d80617dae90ae3f97db95c と同様に OPT_GLOBAL_METHOD_CACHE が真の時だけ定義していた Init_Method() の関数内部(こちらは関数宣言自体は常に行なわれているけど内容を preprocessor の分岐で消してた)を早期 return するようにしてコンパイルは通る状態でないとビルドできないようにしています。
