@@ -1,0 +1,1 @@
+rubygems のテスト用クラスで $LOAD_PATH の内容をチェックして @gem_prelude_index をセットする処理でファイルパスを File.realpath で絶対パス化するようにしています。
