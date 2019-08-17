@@ -1,0 +1,1 @@
+bundler のテストで $LOAD_PATH に追加するパスに mustermann という gem のものも追加しています。あと利用する? rack と sinatra の依存バージョンを更新しています。
