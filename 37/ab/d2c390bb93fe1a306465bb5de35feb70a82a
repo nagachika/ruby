@@ -1,0 +1,1 @@
+00cd5d74cecb6aa4a184e57e2b8246ef6e45d458 の追加修正。 rubygems が古くて Gem.load_path_insert_index が nil だったら $LOAD_PATH を全部調べるように終端を -1 にするようにしています。ますます遅くなりそう…(まあ古い場合だけみたいだけど)。
