@@ -1,0 +1,1 @@
+Module#define_method の rdoc 用コメントにブロックにブロックパラメーターがあったらそれが定義されるメソッドの引数として使われる点を追記しています。 https://github.com/ruby/ruby/pull/2165
