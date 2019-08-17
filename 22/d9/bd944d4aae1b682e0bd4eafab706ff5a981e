@@ -1,0 +1,1 @@
+dd16f8524c44f8802e634af2577fe5a149cd740e で復活させた rubygems による require 実装でディレクトリパスが symbolic link だった時の対処を追加しています。
