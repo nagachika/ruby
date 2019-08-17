@@ -1,0 +1,1 @@
+bundler のテストで rubygems の deprecated の警告を抑制するためのヘルパーメソッドを追加しています。
