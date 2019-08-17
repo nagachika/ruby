@@ -1,0 +1,1 @@
+rdoc の RDoc::Markup::FormatterTestCase と RDoc::Markup::TextFormatterTestCase の autoload 設定の削除。
