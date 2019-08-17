@@ -1,0 +1,1 @@
+rdoc のテストで require するのを test-unit から test/unit に変更しています。 えーとたしか test-unit って……なにが違うんだっけ?
