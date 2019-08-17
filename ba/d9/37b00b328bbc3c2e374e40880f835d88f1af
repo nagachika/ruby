@@ -1,0 +1,1 @@
+daf5ce3ba1545e295ba2efd0ee153638ae446e6e の再修正。 rdoc のテストのうち Gem::TestCase に依存しているものは Minitest を使っているので omit ではなく skip を使うようにしています。
