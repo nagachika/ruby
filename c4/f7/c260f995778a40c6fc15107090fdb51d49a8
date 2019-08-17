@@ -1,0 +1,1 @@
+rubygems の Gem::RubyGemsVersion と Gem::ConfigMap という定数を deprecate にしています。
