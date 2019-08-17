@@ -1,0 +1,1 @@
+rdoc のテストで skip を omit の alias として定義して使ってたのを、omit のほうを使うようにして alias 宣言削除しています。
