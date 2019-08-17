@@ -1,0 +1,1 @@
+ruby 本体の require のテストで普通に require と書くと rubygems の再定義した Kernel#require が呼ばれてしまってうまくテストできないことがあるので、Kernel.send(:require, ...) でオリジナルのメソッドを呼ぶようにしています。あーなるほど Kernel#require は上書きされるけど特異メソッドの Kernel.require のほうはオリジナルのままなのか。
