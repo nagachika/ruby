@@ -1,0 +1,1 @@
+vm_core.h の VM_DEBUG_VERIFY_METHOD_CACHE というマクロは VM_DEBUG_MODE に依存して定義していたのを VMDEBUG をみるように変更しています。 VM_DEBUG_MODE というマクロは既に使われてなかった模様。
