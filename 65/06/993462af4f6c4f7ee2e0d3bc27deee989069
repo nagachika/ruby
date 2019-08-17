@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッド install_gems でファイルパスの生成に + のかわりに Pathname#join を使うようにリファクタリング。
