@@ -1,0 +1,1 @@
+00cd5d74cecb6aa4a184e57e2b8246ef6e45d458 の変更で rubygems で再定義された require で tainted な文字列を require に渡す可能性があったのを修正しています。
