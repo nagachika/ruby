@@ -1,0 +1,1 @@
+lib/rubygems.rb の Gem.register_default_spec からファイルの suffix の正規表現の変数をメソッド Gem.suffix_regexp として切り出すようにしています。
