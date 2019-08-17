@@ -1,0 +1,1 @@
+rdoc のテストで test/unit の流儀にそって assert_raises → assert_raise に、omit はやっぱり skip に変更しています。結局 skip って test/unit にあるのか。
