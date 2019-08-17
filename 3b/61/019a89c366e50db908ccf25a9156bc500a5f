@@ -1,0 +1,1 @@
+bundler のテストに spec/bundler/bundler/build_metadata_spec.rb というファイルを追加して Bundler::BuildMetadata のテストを行うようにしています。
