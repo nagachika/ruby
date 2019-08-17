@@ -1,0 +1,1 @@
+irb のテストで IRB::Context#return_format を設定しておくようにしています。
