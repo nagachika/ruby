@@ -1,0 +1,1 @@
+3c23bb29ecbc0c736e99d23a3c47892d67f3a322 と同じ bundler のテストで $LOAD_PATH の内容をチェックするもので global なところに bundler.gem がインストールされてても通るようにパスの整形を修正しています。
