@@ -1,0 +1,1 @@
+75d29db8f965893bb6ab38b9008abc80cdda246e で revert した 00cd5d74cecb6aa4a184e57e2b8246ef6e45d458 はじめとする rubygems の再定義する require で default gems より -I の指定を優先するためのパスを再度追加しています。特に重大な差分はないのでなにか追加修正を一緒にしたというわけではなさそう。
