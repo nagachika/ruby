@@ -1,0 +1,1 @@
+make fetch-github で git notes のための remote の reference も追加するようにしています。
