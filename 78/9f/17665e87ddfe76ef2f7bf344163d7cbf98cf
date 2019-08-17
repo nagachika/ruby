@@ -1,0 +1,1 @@
+make update-github で git remote が既に存在してたら追加しないように修正しています。
