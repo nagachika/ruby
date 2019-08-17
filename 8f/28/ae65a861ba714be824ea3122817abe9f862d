@@ -1,0 +1,1 @@
+bundler 自体の gemspec ファイルの files についてのコメントを削除しています。
