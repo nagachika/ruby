@@ -1,0 +1,1 @@
+.github/workflows/ubuntu.yml の make check 時の continue-on-error: true の設定を消しています。
