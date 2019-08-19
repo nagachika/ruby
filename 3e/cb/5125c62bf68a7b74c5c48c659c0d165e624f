@@ -1,0 +1,1 @@
+rubygems の定数 Gem::ConfigMap は deprecated になったので tool/lib/envutil.rb で利用してたところは削除しています。
