@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の git リポジトリの remote に ruby/ruby を追加して fetch してくる時に tag は取得しないようにしています。
