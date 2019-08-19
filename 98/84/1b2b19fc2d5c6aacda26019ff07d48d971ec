@@ -1,0 +1,1 @@
+bundler のテスト spec/bundler/commands/open_spec.rb でテスト全体を 1段 context のブロックでネストさせています。
