@@ -1,0 +1,1 @@
+bundle doctor サブコマンドで参照するパスを Bundler.home を利用していたのが条件によっては存在しないパスになるので Bundler.bundle_path を使うように修正しています。
