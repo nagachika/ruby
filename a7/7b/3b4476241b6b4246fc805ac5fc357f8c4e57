@@ -1,0 +1,1 @@
+683f9e1dbf42aa4b326b244f1d4dbbbdcb9e8ceb で不要になった require "bundler/vendored_fileutils" を bundler のテストから削除しています。
