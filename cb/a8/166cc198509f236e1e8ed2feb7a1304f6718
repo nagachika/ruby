@@ -1,0 +1,1 @@
+appveyor.yml に vc のバージョンによって利用する OpenSSL のバージョンを変更するようにしています。 https://github.com/ruby/ruby/pull/1998
