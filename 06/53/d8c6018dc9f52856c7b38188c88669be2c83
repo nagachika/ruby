@@ -1,0 +1,1 @@
+bundler のテスト spec/bundler/commands/exec_spec.rb で path の設定に bundle config path を使ってたのを bundle config set path と canonical な書きかたを使うように修正しています。
