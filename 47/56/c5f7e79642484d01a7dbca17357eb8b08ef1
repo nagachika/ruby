@@ -1,0 +1,1 @@
+bundler のテストで bundler の require するパスを修正しています。
