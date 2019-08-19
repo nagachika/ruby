@@ -1,0 +1,1 @@
+libexec/bundle の require を存在するならこのファイル自体からの相対パスで指定して require_relative を利用するようにしています。
