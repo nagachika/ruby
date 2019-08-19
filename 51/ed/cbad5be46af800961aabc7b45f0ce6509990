@@ -1,0 +1,1 @@
+同じく tool/sync_default_gems.rb でついでに ruby のリポジトリのデフォルトの branch は master が canonical になったので参照を変更しています。
