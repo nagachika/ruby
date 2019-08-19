@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の reline の同期でテストディレクトリの構成を修正しています。
