@@ -1,0 +1,1 @@
+reline の gemspec ファイルの spec.bindir と spec.executables が upstream リポジトリに exe ディレクトリがあることを前提にした書きかたになってたのを削除しています。これ書き直しじゃなくて単に削除でいいのかな。
