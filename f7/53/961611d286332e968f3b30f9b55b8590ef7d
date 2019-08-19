@@ -1,0 +1,1 @@
+bundler のテストで不要な require "rubygems" を削除しています。
