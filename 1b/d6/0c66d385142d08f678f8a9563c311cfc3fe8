@@ -1,0 +1,1 @@
+include/ruby/ruby.h の FL_USER19 の定義で RUBY_FL_USER19 を一旦 unsigned int にキャストするようにしています。たぶん RUBY_FL_USER19 が 32bit 整数だと最上位ビットなので、VALUE へのキャストで VALUE と int のサイズが違う場合に上位 bit が埋まってしまうのを避けるようにしているのだと思います。
