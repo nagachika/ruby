@@ -1,0 +1,1 @@
+.github/actions/notify-slack/action.yml というファイルを追加して GitHub Actions の Slack 通知機能を実装しています。へー、こんなふうに action を追加できるんですね。
