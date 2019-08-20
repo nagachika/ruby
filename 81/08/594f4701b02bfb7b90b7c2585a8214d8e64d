@@ -1,0 +1,1 @@
+1bd60c66d385142d08f678f8a9563c311cfc3fe8 と同様に rb_thread_shield_waiting_inc() でビットフラグとして使う変数を unsigned long から unsigned int に変更しています。 int で十分だからとのこと?
