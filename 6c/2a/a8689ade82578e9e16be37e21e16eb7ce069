@@ -1,0 +1,1 @@
+.github/workflows/macos.yml でやはり brew update がたまに失敗するようで、sleep で時間をあけつつ 2回までリトライするようにしています。
