@@ -1,0 +1,1 @@
+標準添付ライブラリ uri のテストで明示的な require "envutil" を追加しています。また refute_match の引数に正規表現でなく文字列を渡してたので Regexp.compile するように修正しています。
