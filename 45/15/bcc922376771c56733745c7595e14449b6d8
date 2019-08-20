@@ -1,0 +1,1 @@
+tool/merger.rb で master の変更をマージするためにパッチを作る時に version.h の変更は取り除くようにしています。また git apply する時の pipe を binary モードで開くようにしています。
