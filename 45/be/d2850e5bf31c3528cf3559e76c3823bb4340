@@ -1,0 +1,1 @@
+6c2aa8689ade82578e9e16be37e21e16eb7ce069 で GitHub Actions の macOS でのビルド時の brew update のリトライを追加したのを () で sub shell 起動してたのを { } によるブロックに変更し、また sleep と brew update の間も && で連結しています。
