@@ -1,0 +1,1 @@
+2f6c8ed26eec4ad2d2fdaa0823cc63ba32f4c7a2 で追加した .github/actions/notify-slack/action.yml はやっぱり削除して k0kubun/action-slack@v1.0.0 とリポジトリのタグ? を指定するようにしています。パラメーターの指定方法もちょっと変更になったみたいです。
