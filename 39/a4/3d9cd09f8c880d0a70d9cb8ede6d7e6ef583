@@ -1,0 +1,1 @@
+RubyVM およびその配下の rdoc 用コメントを RubyVM は CRuby というか MRI というか、ともかく C 実装の元祖の ruby 実装に特有のものを集めたものだというのを強調するようにしています。 https://github.com/ruby/ruby/pull/2113 [ruby-core:92109] [Bug #15743]
