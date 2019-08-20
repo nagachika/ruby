@@ -1,0 +1,1 @@
+cont.c の fiber_initialize_coroutine() 内の不要な STACK_GROW_DIR_DETECTION を削除しています。未使用変数の警告の除去のため。
