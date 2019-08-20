@@ -1,0 +1,1 @@
+Windows 環境での symlink の実装で特権ユーザーでなくても作れるように専用のフラグを create_symbolic_link() に追加するようにしています。 https://github.com/ruby/ruby/pull/2381
