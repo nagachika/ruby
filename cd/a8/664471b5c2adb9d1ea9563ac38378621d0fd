@@ -1,0 +1,1 @@
+sample/list3.rb というサンプルコードで Point というクラスの to_s を再定義してたのを inspect を再定義するように修正しています。昔って inspect は to_s 呼ぶようになってましたね、そういえば…。 https://github.com/ruby/ruby/pull/2387
