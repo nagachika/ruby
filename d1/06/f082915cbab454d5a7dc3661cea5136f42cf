@@ -1,0 +1,1 @@
+GitHub Actions の make test-bundled-gems の実行に continue-on-error: true をつけてエラーを無視するようにしています。コミットログによるとこれにより Slack 通知にも無視させることができるようです。
