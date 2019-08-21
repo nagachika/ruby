@@ -1,0 +1,1 @@
+bundler のテストで GitHub Actions でのエラーのデバッグのために Spec::Indexes#resolve で NoMethodError を捕捉して詳細情報を表示させるようにしています。
