@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトからの ISeq の参照の GC.compact でのオブジェクト移動に対応する参照の付け替えの処理 rb_iseq_update_references() で original_iseq からの参照も付け替えるようにしています。 TracePoint を使った時にエラーになることがあるよってことでした。 [Bug #16098]
