@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で不要なローカル変数の代入を除去しています。
