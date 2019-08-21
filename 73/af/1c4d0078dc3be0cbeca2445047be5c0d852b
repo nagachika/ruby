@@ -1,0 +1,1 @@
+rubygems の Gem.default_dir で RbConfig::CONFIG['rubylibprefix'] がない場合の分岐というのを消しています。 1.9.2 以降ずっとあるのでもう考慮しなくていいでしょということのようです。
