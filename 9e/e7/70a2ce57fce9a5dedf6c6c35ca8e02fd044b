@@ -1,0 +1,1 @@
+af2c8d283665f741f82b4e16b06c520e702c012b の続きで configure での OS バージョンチェックで古い macOS の時に BROKEN_SETREUID および BROKEN_SETREGID を定義するのはやめています。
