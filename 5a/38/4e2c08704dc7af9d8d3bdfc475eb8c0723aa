@@ -1,0 +1,1 @@
+bundler のテストの細かな修正たち。これは squash commit にしてくれたみたいですね。 また tool/runruby.rb で環境変数 BUNDLE_GEM のかわりに GEM_COMMAND を利用するように変更しています。 https://github.com/ruby/ruby/pull/2380
