@@ -1,0 +1,1 @@
+io.c の ioctl_req_t の typedef で Android (マクロ __ANDROID__ が定義されてる)では普通の Linux とは異なり int で定義されるそうなので preprocessor の分岐条件を修正しています。
