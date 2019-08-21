@@ -1,0 +1,1 @@
+configure で macOS の場合の OS のバージョンのチェックを 10.5移行に変更。ついでにチェックに使うマクロを MAC_OS_X_VERSION_MAX_ALLOWED から MAC_OS_X_VERSION_MIN_REQUIRED に変更しています。
