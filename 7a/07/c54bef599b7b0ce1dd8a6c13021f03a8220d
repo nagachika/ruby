@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の default gems の upstream からの cherry pick 時のコミットログの1行目にコンマが含まれていた場合を考慮するように修正しています。
