@@ -1,0 +1,1 @@
+6dd9736c3a73ecd9b0dcf47348a81fb934eb88b3 とも関連して addr2line.c で実行中のファイルパスを得るのに macOS で libproc のproc_pidpath() を使うように修正しています。
