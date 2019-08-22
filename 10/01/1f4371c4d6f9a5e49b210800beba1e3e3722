@@ -1,0 +1,1 @@
+spec/bundler/support/parallel.rb というファイルを追加して bundler のテストの並列対応するようにしています。
