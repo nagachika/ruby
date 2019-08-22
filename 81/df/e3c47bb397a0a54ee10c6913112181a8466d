@@ -1,0 +1,1 @@
+Time の timezone 関係のテストで openbsd でもテストを実行するように設定しています。
