@@ -1,0 +1,1 @@
+f91879a7b548284c93743168acfd11e3d2aeefac で追加した標準添付ライブラリ monitor の Monitor#wait での Thread.handle_interrupt の引数にオプション引数で例外の処理の指定を渡す記法が毎回 Hash オブジェクトを生成するためメモリ使用量に影響したので、定数に Hash オブジェクトを保持しておいてそれを渡すようにしています。あーこれ 2.6 にも既に backport したなぁ。 Pull Request のほうをみるとかなり影響大きいみたいなので、これも一緒に入れたほうがいいかも……。 https://github.com/ruby/ruby/pull/2393 [Bug #15992]
