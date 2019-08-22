@@ -1,0 +1,1 @@
+.github /workflows/ の GitHub Actions の設定でコミットログに "[ci skip]" という文字列が含まれてたら make check や make test-bundler などのタスク実行を抑制するようにしています。そもそもジョブ全体を抑制する設定というのはないみたいなので、個別にテストだけ skip するようにしています。
