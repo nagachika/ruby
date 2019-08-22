@@ -1,0 +1,1 @@
+.travis.yml および appveyor.yml から slack 通知を複数のチャンネルにしていたのを削っています。
