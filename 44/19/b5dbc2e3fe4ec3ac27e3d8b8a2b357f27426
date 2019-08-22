@@ -1,0 +1,1 @@
+bundler の GitHub Actions でのエラーを調査するために NoMethodError を rescue して表示するというコードが dd58c4ba3576d5dc1489767a25de9540b79b0ef9 で追加されてましたが、表示する位置をさらに奥の vendoring されてる molinillo の中に移動しています。
