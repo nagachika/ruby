@@ -1,0 +1,1 @@
+拡張ライブラリ digest の配下の digest/xxx のソースコードで Digest モジュールを取得する処理を ext/digest/digest.h に inline 関数 rb_digest_namespace() として切り出しています。
