@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix に Matrix#abs メソッドを追加しています。各要素毎に絶対値にした Matrix を返すという内容です。 https://github.com/ruby/ruby/pull/2199
