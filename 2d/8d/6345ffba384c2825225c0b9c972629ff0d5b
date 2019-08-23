@@ -1,0 +1,1 @@
+make test-bundler で rspec に渡す引数の変数から --format progress を削っています。デフォルトの挙動だから指定不要ということのようです。
