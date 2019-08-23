@@ -1,0 +1,1 @@
+0b0fedad7098b70686ef9f3c931a8c9c93d5b00c の make test-bundler-parallel のルールで nmake 対応のため変数の展開に ${} でなく $() を使うようにしています。
