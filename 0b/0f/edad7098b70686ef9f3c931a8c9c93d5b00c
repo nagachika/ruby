@@ -1,0 +1,1 @@
+make test-bundler-parallel という bundler のテストを並列実行するターゲットを追加しています。
