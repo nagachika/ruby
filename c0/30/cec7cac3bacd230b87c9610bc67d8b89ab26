@@ -1,0 +1,1 @@
+.github/workflows/ubuntu.yml でデバッグ用にエラー発生時に GITHUB_CONTEXT という環境変数の内容を表示するようにしています。
