@@ -1,0 +1,1 @@
+同じく拡張ライブラリ digest で metadata という識別子の ID を得るのが ext/digest/digest.c の他に ext/digest/sha2/sha2init.c でも独立して行われてたので inline 関数として切り出しています。
