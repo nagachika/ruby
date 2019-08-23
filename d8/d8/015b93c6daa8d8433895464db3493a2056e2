@@ -1,0 +1,1 @@
+同じく GitHub Actions でエラー時の Slack 通知から footer の指定を削っています。
