@@ -1,0 +1,1 @@
+15eaedf805fb2727c79a6c59af6d5f6c2a6d634b で追加した misc/expand_tabs.rb のファイル拡張子チェックなどを正規表現を使わず String#end_with? などでチェックするようにしています。
