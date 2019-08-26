@@ -1,0 +1,1 @@
+bundler のテストで GitHub Actions 経由の時にはスキップするためのタグを削除しています。 5a384e2c08704dc7af9d8d3bdfc475eb8c0723aa で修正されたはずとのこと。
