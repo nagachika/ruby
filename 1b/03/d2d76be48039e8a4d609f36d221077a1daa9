@@ -1,0 +1,1 @@
+df348310dc2ba0b01f7dd7277184c688a5d430fe の tool/lib/vcs.rb の VCS::GIT#export での例外時の trunk で代替する処理をやめています。環境のほうで対処してもらったのかな。
