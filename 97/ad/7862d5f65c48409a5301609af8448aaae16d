@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の VCS::GIT#export メソッドでデバッグ用に git branch -a の結果を表示するようにしています。CI で master ブランチがみつからないことがあるみたいなので、その調査のため。
