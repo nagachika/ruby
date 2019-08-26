@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の ChangeLog 生成時のメソッド export_changelog で git リポジトリに git notes の参照がなかったらエラーにしています。ん? 今 master の make-snapshot はリポジトリが git であることを前提にしてるのかな。安定版ブランチは svn だが…と思ったけど、そうかパッケージ作る時はチェックアウト済みの working copy ではなくて新規に checkout するのが普通だから、その時は git になるのか。
