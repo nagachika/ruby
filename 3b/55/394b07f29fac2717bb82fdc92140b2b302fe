@@ -1,0 +1,1 @@
+tool/rbinstall.rb の default gems インストール用の処理でインストール先ディレクトリを先に作成するようにしています。gem install --default による挙動とそろえるためだそうです。
