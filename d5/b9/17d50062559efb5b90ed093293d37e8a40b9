@@ -1,0 +1,1 @@
+parse.y の numbered parameter 用の p->max_numparam に入れるマジックナンバー -1 と 0 をそれぞれ ORDINAL_PARM と NO_PARAM と名前をつけて enum による定数にしています。
