@@ -1,0 +1,1 @@
+数値を期待していた値に dynamic symbol を渡した時に発生する TypeError に class 名しか表示されなかったので inspect 結果を埋め込むようにしています。static symbol なら SPECIAL_CONST_P() で判定されるけど dynamic symbol は別途チェックする必要があったようです。
