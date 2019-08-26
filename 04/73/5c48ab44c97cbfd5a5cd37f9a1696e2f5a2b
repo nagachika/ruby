@@ -1,0 +1,1 @@
+Enumerator の rdoc 用コメントで to_enum や enum_for などのメソッドが Kernel のメソッドと書かれてたのを Object のインスタンスメソッドに修正しています。 また Kernel#warn メソッドの call-seq に uplevel の記述追加や一部のサンプルコードで yield_self を then に書きかえるなど。 [ruby-core:94536] [Misc #16126]
