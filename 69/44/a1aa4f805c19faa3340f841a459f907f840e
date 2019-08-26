@@ -1,0 +1,1 @@
+lib/webrick.rb の require "webrick/util.rb" を require_relative に書き換えています。テスト時に test/webrick/utils.rb というファイルもあるためこっちが読み込まれてしまっていたそうです。それでよく動いてたな。
