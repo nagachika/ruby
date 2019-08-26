@@ -1,0 +1,1 @@
+tool/lib/vcs.rb に 97ad7862d5f65c48409a5301609af8448aaae16d でデバッグ用に git branch の結果を出力させてましたが、一部の CI 環境で master ブランチが fetch されなくてエラーになる場合に trunk を使うように fallback させるようにしています。
