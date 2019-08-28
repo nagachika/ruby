@@ -1,0 +1,1 @@
+e3fc30564e9466d6926f9d25a090dcf787bd5c33 の rb_thread_create() の引数の関数ポインタの型の修正に追随して thread_spec_rb_thread_create() からの呼び出し部分でキャストを追加しています。 https://github.com/ruby/ruby/pull/2404
