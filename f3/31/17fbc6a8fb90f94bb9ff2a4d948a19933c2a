@@ -1,0 +1,1 @@
+test/test_reline.rb を追加。主に Reline の特異メソッドのテストです。
