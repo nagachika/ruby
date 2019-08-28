@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で forwardable の def_delegators のかわりに def_single_delegators を使うように変更しています。これなにが違うんだっけな。
