@@ -1,0 +1,1 @@
+tool/make-snapshot で revision が svn のものだった時には revision.h で RUBY_REVISION を整数として定義するように修正しています。
