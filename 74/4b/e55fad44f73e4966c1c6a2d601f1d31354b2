@@ -1,0 +1,1 @@
+reline の Reline::Core の readline メソッドの def_single_delegators が2回呼ばれてたので1つ削っています。
