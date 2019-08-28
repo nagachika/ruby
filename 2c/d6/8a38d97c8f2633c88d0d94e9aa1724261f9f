@@ -1,0 +1,1 @@
+tool/lib/vcs.rb で VCS::SVN.short_revision で結果を Integer に変換するように修正しています。
