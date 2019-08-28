@@ -1,0 +1,1 @@
+compile.c で Solaris での警告抑制のため const 修飾子を削っています。
