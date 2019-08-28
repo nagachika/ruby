@@ -1,0 +1,1 @@
+test/reline/test_reline.rb で Reline の特異メソッドに渡す文字列の Encoding を明示的に設定するようにしています。 Encoding::ASCII って US-ASCII の別名なんだ。知らなかった…。
