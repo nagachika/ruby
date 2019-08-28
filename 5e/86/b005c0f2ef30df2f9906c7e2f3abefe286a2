@@ -1,0 +1,1 @@
+process.c の rb_ensure() に渡すコールバック関数 p_uid_sw_ensure() と p_gid_sw_ensure() の引数が VALUE でなく rb_uid_t/rb_gid_t になっていたので VALUE に変更し、関数内で明示的にキャストするようにしています。VALUE と型のサイズが違う可能性があるのでその場合おかしなことになるので。
