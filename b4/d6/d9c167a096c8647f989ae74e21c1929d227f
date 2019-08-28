@@ -1,0 +1,1 @@
+common.mk の xxx-fake.rb のルールでコンパイラに渡すオプションから $(warnflags) $(XCFLAGS) を削って -DRUBY_EXPORT だけ直に追加するようにしています。$(XCFLAGS) は ruby 本体のビルドに必要なオプションで fake.rb の生成時にはいらないとのこと。ビルドプロセスむずい(久しぶり)。
