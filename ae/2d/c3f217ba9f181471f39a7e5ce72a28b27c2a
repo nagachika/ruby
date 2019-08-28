@@ -1,0 +1,1 @@
+関数ポインタの型をちゃんとしようシリーズ。rb_define_virtual_variable() と rb_define_hooked_variable() の引数の修正です。しかしなんか $ を名前に含む関数が定義されているのがこれ大丈夫なのかな。
