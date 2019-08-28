@@ -1,0 +1,1 @@
+reline のテストで Reline の config および line_editor にアクセスする方法を修正。 private メソッドの core 経由で取得するように変更しています。
