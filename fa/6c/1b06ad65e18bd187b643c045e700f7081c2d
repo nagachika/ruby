@@ -1,0 +1,1 @@
+retry_fork_async_signal_safe() の変数 waitpid_lock_init の宣言に volatile 修飾子を追加して clobbered 警告除去。連続した #ifdef HAVE_WORKING_FORK の分岐を1つにまとめる変更も一緒にされてますがこれはついでだと思います。
