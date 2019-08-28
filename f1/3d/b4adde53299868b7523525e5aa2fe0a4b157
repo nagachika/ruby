@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Core#may_req_ambiguous_char_width で accessor で参照されるために変数 ambiguous_width をインスタンス変数 @ambiguous_width に変更しています。
