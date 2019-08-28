@@ -1,0 +1,1 @@
+common.mk の make showflags で MFLAGS も表示するようにしています。MFLAGS ってなんだっけ…。 extmk.rb に渡すオプションか。
