@@ -1,0 +1,1 @@
+lib/reline.rb の定数 ATTR_READER_NAMES および ATTR_ACCESSOR_NAMES に代入する配列を freeze していたのをやめています。
