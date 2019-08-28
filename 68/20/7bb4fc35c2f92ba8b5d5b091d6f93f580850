@@ -1,0 +1,1 @@
+lib/reline.rb で無引数で private を呼んでそれ以降のメソッドを暗黙のうちに private にするのをやめて、def 文の前に private を書く(def 文は最近は Symbol を返すのでそれを private に渡すことになる)方式に変更しています。
