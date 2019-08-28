@@ -1,0 +1,1 @@
+rb_iterate() の引数も同様に適当な関数ポインタでなく rb_block_call_func_t を受け取るようにして、拡張ライブラリ openssl の ssl_npn_encode_protocol_i() の宣言も修正しています。
