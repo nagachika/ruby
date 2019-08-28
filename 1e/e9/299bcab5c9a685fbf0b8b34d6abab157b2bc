@@ -1,0 +1,1 @@
+reline のテストで Windows での CI のエラー対応のため Reline.basic_word_break_characters や Reline.basic_quote_characters に指定するマルチバイト文字を変えています。なんで元のだとダメだったのかはよくわかりませんが。
