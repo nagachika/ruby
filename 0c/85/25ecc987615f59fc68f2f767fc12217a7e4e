@@ -1,0 +1,1 @@
+.github/workflows/coverage.yml というファイルを追加して、どうやら GitHub Actions でカバレッジを取るようにしたみたいです。 たぶん C のソースコードのほうのカバレッジ。
