@@ -1,0 +1,1 @@
+.github/workflows/doxygen.yml にコピーしたまま残ってたとおぼしき strategy の設定を削除しています。
