@@ -1,0 +1,1 @@
+misc/expand_tabs.rb で git blame の行頭の commit hash が全て 0 の行を検出するのに正規表現を使っていたのを String#start_with? を使うように修正しています。 Jeremy の手元では Encoding まわりのエラーが起きたそうです。
