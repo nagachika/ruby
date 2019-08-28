@@ -1,0 +1,1 @@
+f0e73fc9862c8d2c57a89349fb79012b826b8245 で rb_block_call_func_t という関数ポインタ型を導入したのに追随して rb_block_call() と rb_check_block_call() の引数もこの型名を利用するようにしています。
