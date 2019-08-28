@@ -1,0 +1,1 @@
+3ac0b75c456fa1d16c133cef2f47b7361cf651c5 の doxygen 実行する GitHub Actions で apt-get で graphviz をインストールしておくように修正しています。
