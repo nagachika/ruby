@@ -1,0 +1,1 @@
+関数ポインタの型をちゃんとしようシリーズ。 obj_ivar_each() および gen_ivar_each()、rb_ivar_foreach() の引数も修正しています。
