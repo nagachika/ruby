@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb による reline の同期時に lib/readline.rb も同期するようにしています。
