@@ -1,0 +1,1 @@
+.github/workflows/doxygen.yml というファイルを追加して GitHub Actions で doxygen によるドキュメント生成を走らせるようにしています。 https://github.com/ruby/ruby/pull/2406
