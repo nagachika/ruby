@@ -1,0 +1,1 @@
+関数ポインタの型をちゃんとしようシリーズ。 thread_create_core() および rb_thread_create() も修正しています。
