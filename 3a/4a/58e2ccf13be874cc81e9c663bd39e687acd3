@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストで reline を使う場合に Reline.test_mode の呼び出しなどの準備を修正しています。
