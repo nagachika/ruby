@@ -1,0 +1,1 @@
+irb の IRB::WorkSpace で irb_binding を再定義する時の private の位置がメソッドの中になっちゃってたので外に移動しています。
