@@ -1,0 +1,1 @@
+b4d6d9c167a096c8647f989ae74e21c1929d227f の続きで fake.rb 生成時のコンパイラオプションに $(INCFLAGS) は追加するようにしています。 mswin 環境で CPPFLAGS に INCFLAGS が含まれてないためとのこと。ビルドプロセスむずい。
