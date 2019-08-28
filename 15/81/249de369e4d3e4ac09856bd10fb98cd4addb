@@ -1,0 +1,1 @@
+defs/gmake.mk に in-srcdir というマクロ(この記法は Makefile のマクロ定義らしい)を作って、不要な chdir を抑制するようにしています。
