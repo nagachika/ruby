@@ -1,0 +1,1 @@
+3bed468e8864f3ac4332a08b6c95b1a542aa23dd と同様に .github/workflows/coverage.yml からも strategy の設定を削除しています。またデバッグ用の GITHUB_CONTEXT を表示するタスクも削除しています。
