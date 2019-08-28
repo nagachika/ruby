@@ -1,0 +1,1 @@
+gc.c の gc_update_table_refs() で第2引数が NULL の時と要素数が 0 の時の早期 return をするようにしています。
