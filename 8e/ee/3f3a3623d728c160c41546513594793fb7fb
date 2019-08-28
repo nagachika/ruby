@@ -1,0 +1,1 @@
+signal.c の ruby_abort() の NORETURN() つきの宣言を Solaris 環境では消すように preprocessor の分岐を追加しています。コンパイラ警告抑制のため。
