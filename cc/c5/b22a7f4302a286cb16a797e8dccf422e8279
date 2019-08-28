@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu でのテスト時の -j オプションの値を nproc で検出したコア数を使うようにしています。 https://github.com/ruby/ruby/pull/2402
