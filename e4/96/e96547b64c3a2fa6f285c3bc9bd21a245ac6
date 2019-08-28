@@ -1,0 +1,1 @@
+Enumerable#sum の rdoc 用コメントに Range#each を再定義しても最適化されてるので sum の結果には影響しないよということが追記されています。なるほどそうなのか。 [ruby-core:81847] [Bug #13700]
