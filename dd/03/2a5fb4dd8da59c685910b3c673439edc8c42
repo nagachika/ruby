@@ -1,0 +1,1 @@
+GitHub Actions の coverage と doxygen のジョブで git clone の --depth オプションを 1 から 10 に増やしています。
