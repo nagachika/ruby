@@ -1,0 +1,1 @@
+lib/reline.rb の定数 Reline::Core::Windows の参照を Reline::Windows に修正。
