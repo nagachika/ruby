@@ -1,0 +1,1 @@
+b4d6d9c167a096c8647f989ae74e21c1929d227f および fafabe2f43ecd58588ac89edc5c177dd956825ad のさらに続きで、mswin 環境と同じように INCFLAGS は CPPFLAGS から分離して XCFLAGS に含めるように修正しています。
