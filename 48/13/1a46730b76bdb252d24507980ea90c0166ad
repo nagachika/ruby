@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl で doxygen でのドキュメント化から生成されたヘッダ rb_mjit_header.h は除外するように指定を追加しています。
