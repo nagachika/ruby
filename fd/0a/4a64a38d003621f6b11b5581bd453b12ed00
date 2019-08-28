@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::Core から def_instance_delegators でインスタンスの readline メソッドを委譲する先を core からクラスメソッドに修正しています。
