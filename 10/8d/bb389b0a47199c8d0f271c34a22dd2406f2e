@@ -1,0 +1,1 @@
+ccc5b22a7f4302a286cb16a797e8dccf422e8279 .github/workflows/ubuntu.yml で make の -j オプションで並列数を指定するのに nproc コマンドを直接使うようにしてましたが 、JOBS という環境変数にオプションごと設定しておいてこれを参照するように戻しています。
