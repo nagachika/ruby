@@ -1,0 +1,1 @@
+st.c のサイズ拡張の計算のための get_power2() でループで書いてた最上位ビットを探す処理を nlz_intptr() を使って書きなおしています。  https://github.com/ruby/ruby/pull/2292 [ruby-core:91651] [Feature #15631]
