@@ -1,0 +1,1 @@
+ruby-runner.c で ruby/config.h の #include を先頭に移動しています。 _FILE_OFFSET_BITS というマクロの定義をシステムヘッダを #include する前にしておいて上書きするため。
