@@ -1,0 +1,1 @@
+.github/workflows/doxygen.yml で過去の生成物の index.html をダウンロードしてきた時にその中の projectnumber というのを表示させるようにしています。デバッグ用かな?
