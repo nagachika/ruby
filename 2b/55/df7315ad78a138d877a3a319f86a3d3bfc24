@@ -1,0 +1,1 @@
+6454808c52fff445ff09fefb0fb96988f82aaa3c の tool/make-snapshot で安定版ブランチ向けに revision.h を生成する時の RUBY_REVISION の定義を整数にするようにしてましたが、その条件判定を revision が Integer かどうかという判定に変更しています。
