@@ -1,0 +1,1 @@
+rdoc の gemspec ファイルの spec.file から削除した jquery.js を削除。
