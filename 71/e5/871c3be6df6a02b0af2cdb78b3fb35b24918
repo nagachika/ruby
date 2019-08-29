@@ -1,0 +1,1 @@
+.github/workflows/doxygen.yml を定期的な実行のみ行うようにして pull request ごとに動かさないようにしています。また更新がなければ再生成もしないようにしています。
