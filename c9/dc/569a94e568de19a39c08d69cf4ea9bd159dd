@@ -1,0 +1,1 @@
+2cd68a38d97c8f2633c88d0d94e9aa1724261f9f の tool/lib/vcs.rb の VCS::SVN.short_revision を Integer にする変更を revert して、かわりに _get_revisions の中で Integer に変換するように再修正しています。
