@@ -1,0 +1,1 @@
+構造体 rb_ast_t の mark 処理 rb_ast_mark で ast->body.compile_option も mark するようにしています。これまでは add_mark_object() で parser の mark 用配列に入れて参照させるようにしていたようですが。なんかこれ既視感があって、parse 途中だとうまく mark されないからあえて配列に入れてたとか大丈夫かなぁ。 add_mark_object() のかわりにすぐに compile_option に代入してるから問題なさそうだと思うけど。またセットする時に RB_OBJ_WRITE() を使ってメモリバリアを設けています。
