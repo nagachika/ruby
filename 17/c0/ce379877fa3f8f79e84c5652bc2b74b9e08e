@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu/macOS と coverage 用の設定ファイルでも GITHUB_SHA 環境変数は設定しないようにしています。 Actions 側で自動的に設定されるようです。
