@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc に添付されてる darkfish.js に追加したデバッグ用の console.log を削除しています。
