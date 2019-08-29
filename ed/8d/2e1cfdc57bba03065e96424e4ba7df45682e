@@ -1,0 +1,1 @@
+tool/merger.rb の tag サブコマンドで subversion (つまり今の安定版ブランチ)で既に tag がないかチェックするのに条件が反転していたので修正。また REPOS という定数の参照で NameError になってたので特異クラス内に Merger 自身を include するようにして回避しています。
