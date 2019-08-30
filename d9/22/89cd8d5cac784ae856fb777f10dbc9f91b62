@@ -1,0 +1,1 @@
+r63668 (bf7a32d22079cc44eb19794e41d82b886d5d17b3) の flip-flop の deprecation 警告を抑制するためのテストと rubyspec の修正を revert しています。 flip-flop の警告出力をやめたため。 [ruby-core:39915] [Feature #5400]
