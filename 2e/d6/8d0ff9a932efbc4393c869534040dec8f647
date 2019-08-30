@@ -1,0 +1,1 @@
+pipeline operator "Object#|>" の追加および関連の commit 群が revert されています。 Goodbye pipeline operator. 次は右代入と一緒だといいですね。 [ruby-core:94645] [ruby-core:92432] [Feature #15799]
