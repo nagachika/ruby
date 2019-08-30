@@ -1,0 +1,1 @@
+よく知らなかったのですが ObjectSpace::WeakMap のキーや値に Integer とか Symbol (static symbol) のように即値のものは(厳密には finalizable なもので T_NODE も)入れられなかった(入れる必要ないような気もするけど)のをチェックを緩和して受け付けるようにしています。deduplicate に便利ってあるけど、どういうことかあんまりよくわかってない。チケットの例は freeze じゃなくて key に Symbol を入れてるのがミソなのかな。 [ruby-core:94101] [feature #16035]
