@@ -1,0 +1,1 @@
+9ef51b0b89a10c8c401cb9f2337e47a25be72cbe と同様に rb_define_module_function() も GCC の拡張を使って overload して関数定義の引数の数の間違いを検出できるようにしています。そして実際にいくつか関数の引数を修正しています。
