@@ -1,0 +1,1 @@
+ここまでの GCC 拡張を用いたメソッド定義系関数の関数ポインタの型による overload が mingw? 環境でうまく動かないようなので抑制するために Windows 環境では定義したマクロを include/ruby/intern.h および include/ruby/ruby.h #undef しておくようにしています。
