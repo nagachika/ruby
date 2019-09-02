@@ -1,0 +1,1 @@
+pattern matching の in でもキーワード引数と同様に **nil という記法を書けるようにサポート追加しています。 Hash の要素をマッチさせる Hash Pattern で **var のようにマッチしなかった残りを受ける記法があるので、ここでも「余りがない」ことを明示するのに **nil と書けるようにしたようです。なるほどなー。 参考URL: https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7?slide=32
