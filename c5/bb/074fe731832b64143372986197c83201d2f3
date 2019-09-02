@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor でウィンドウサイズ変更になった時の処理で再描画の必要の判定や @highest_in_this @first_line_started_from などの描画に使う変数を再計算する処理を追加しています。
