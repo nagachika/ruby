@@ -1,0 +1,1 @@
+83c6a1ef454c51ad1c0ca58e8a95fd67a033f710 で追加した UnboundMethod#bind_call を標準添付ライブラリ pp で利用するようにしています。 [ruby-core:93337] [Feature #15955]
