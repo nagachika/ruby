@@ -1,0 +1,1 @@
+83c6a1ef454c51ad1c0ca58e8a95fd67a033f710 で追加した UnboundMethod#bind_call の rdoc 用コメントの call-seq で第1引数を recv としてこれが receiver としてメソッドが bind されるというのがわかるように、というのと戻り値とは違うというのがわかるようにしています。
