@@ -1,0 +1,1 @@
+bundler および rubygems で標準添付ライブラリ pp の定数 PP を参照する前に明示的に require するようにしています。 Kernel#pp メソッドの呼び出し時には prelude.rb で自動 require が起きるようなメソッドが用意されているので大丈夫だけど PP はいきなり参照はできないので。
