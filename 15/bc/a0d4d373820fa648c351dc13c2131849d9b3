@@ -1,0 +1,1 @@
+16c6984bb97409029e213154ac4f633ae04af3d8 からのキーワード引数の処理変更で Symbol でないキーをもつ Hash を ** で keyword splat した時の例外が ArgumentError に変更されたのでテストを追随させています。
