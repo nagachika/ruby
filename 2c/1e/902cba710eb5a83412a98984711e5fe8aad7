@@ -1,0 +1,1 @@
+978ff1ff3a0db5455d591e151f212f4eff0f86c0 で tool/sync_default_gems.rb で reline の同期時に lib/readline.rb も更新するようにしていましたが、やっぱりやめています。
