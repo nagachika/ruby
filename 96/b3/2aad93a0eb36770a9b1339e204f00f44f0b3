@@ -1,0 +1,1 @@
+tool/make-snapshot で自動生成系ファイルの生成後に削除するファイルのリストに ext/ripper/y.output を追加しています。
