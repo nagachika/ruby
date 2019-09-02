@@ -1,0 +1,1 @@
+tool/lib/vcs.rb でパッケージ作成のため VCS::SVN で export した後 .gitignore など .git で始まるファイルを削除するようにしています。
