@@ -1,0 +1,1 @@
+8c7f4e8f8b7f9e74195ea0eb51f39014fec342c0 の続き。 i686-linux ではうまくいかなかったのでコンパイラオプションを格納してる変数 CC_DLDFLAGS_ARGS から -nostartfiles を CC_LINKER_ARGS という新しい変数に分離して、この CC_LINKER_ARGS は compile_c_to_o() でも渡すようにしています。へー、オブジェクトの生成時にもこれいるのか…。
