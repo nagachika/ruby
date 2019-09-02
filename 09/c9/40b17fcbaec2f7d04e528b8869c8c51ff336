@@ -1,0 +1,1 @@
+83c6a1ef454c51ad1c0ca58e8a95fd67a033f710 で追加した UnboundMethod#bind_call についてのテストを rubyspec に追加しています。 [ruby-core:93337] [Feature #15955]
