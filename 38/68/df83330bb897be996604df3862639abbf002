@@ -1,0 +1,1 @@
+58a373e9ed54556e18a13825dfe72d3f7a86b833 の続き。 --allow-unauthenticate を渡すのではだめだったみたいで apt-get update 前に apt-get install debian-keyring debian-archive-keyring を実行するようにしています。
