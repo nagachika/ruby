@@ -1,0 +1,1 @@
+rb_const_source_location_at() という関数に MJIT_FUNC_EXPORTED をつけて MJIT 用に export するようにしています。
