@@ -1,0 +1,1 @@
+16c6984bb97409029e213154ac4f633ae04af3d8 の最後の引数が Hash だったら自動的に keyword splat したものとして扱う処理はその Hash の key が全て Symbol だった時だけ行うようにしています。
