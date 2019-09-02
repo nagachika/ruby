@@ -1,0 +1,1 @@
+.travis.yml の古い BASERUBY を使ったビルドのテストで apt-get update のオプションに --allow-unauthenticate を渡すようにしています。
