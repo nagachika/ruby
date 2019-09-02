@@ -1,0 +1,1 @@
+internal.h の rb_hash_stlike_foreach() の宣言を MJIT 用に export するようにしています。
