@@ -1,0 +1,1 @@
+ec6206a81a1d61efe5bda69ab704c09e75033c01 で iseq_location() を export していましたが、export する関数は rb_ と prefix をつけるという慣習に従うため iseq_location() は static に戻して rb_iseq_location() という wrapper 関数を追加してこちらを export して vm_args.c から利用するようにしています。
