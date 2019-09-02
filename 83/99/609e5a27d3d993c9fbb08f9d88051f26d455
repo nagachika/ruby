@@ -1,0 +1,1 @@
+vm_args.c の keyword_hash_split() を static に変更しています。
