@@ -1,0 +1,1 @@
+84dca8eff0cbcb1c23623b47fb78b0daf5c76e35 で Solaris でのテストの skip を消してたのを revert しています。やっぱりまだ直ってなかった模様。
