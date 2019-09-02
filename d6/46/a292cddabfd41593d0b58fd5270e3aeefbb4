@@ -1,0 +1,1 @@
+Object#__send__ や #send メソッドでメソッド起動する時に **kwargs のような keyword splat 渡しのフラグが無視されてたのを修正しています。
