@@ -1,0 +1,1 @@
+昨日 9ef51b0b89a10c8c401cb9f2337e47a25be72cbe から 3df37259d81d9fc71f8b4f0b8d45dc9d0af81ab4 あたりまでの一連のコミットでメソッド定義関係の関数で渡す関数ポインタの引数の数ごとに overload して引数の間違いを検出できるようにした実装が古い clang でうまく動かないらしく、関数ポインタの型の引数の union につける __transparent_union__ という attribute の位置を調整しています。
