@@ -1,0 +1,1 @@
+昨日のキーワード引数の扱いの変更で最後の Hash を keyword rest 引数に変換したり逆に **kw みたいな keyword splat で渡された Hash を通常引数の最後に追加したりした時の警告で位置情報の表示は rb_compile_warn() にまかせるようにしています。全部 rb_compile_warn() のほうにしないのはなんでだろ?
