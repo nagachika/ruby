@@ -1,0 +1,1 @@
+09c940b17fcbaec2f7d04e528b8869c8c51ff336 で追加した UnboundMethod#bind_call のテストを ruby 2.7 以降でのみテストするように guard を追加しています。
