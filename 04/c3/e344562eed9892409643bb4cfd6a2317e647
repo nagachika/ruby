@@ -1,0 +1,1 @@
+make benchmark で利用する benchmark-driver.gem の checkout するタグのバージョンを v0.14.22 に更新しています。キーワード引数まわりの変更での警告除去したバージョンだそうです。
