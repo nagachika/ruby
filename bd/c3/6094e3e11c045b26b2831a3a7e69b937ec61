@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドで T_NODE 型オブジェクトの情報表示を対応しています。
