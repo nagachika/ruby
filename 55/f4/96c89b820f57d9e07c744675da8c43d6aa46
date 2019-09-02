@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の VCS::GIT に svn_revision というメソッドを追加して git-svn 経由のコミットの場合の subversion 側の revision 番号を切り出せるようにしています。
