@@ -1,0 +1,1 @@
+8adefd4cf29288f6e43f20efbdd44b215ae16c7a で Solaris で標準添付ライブラリ drb のテストがうまくいかないということで skip していたのを revert しています。
