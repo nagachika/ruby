@@ -1,0 +1,1 @@
+bundler のテスト用のヘルパー? Bundler::Resolver::SpecGroup#eql? で引数が同じクラスのインスタンスじゃない時の処理を追加。
