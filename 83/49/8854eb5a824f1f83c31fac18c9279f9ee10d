@@ -1,0 +1,1 @@
+Enumerator::Lazy#with_index が返すものを Enumerator::Lazy にしています。ずいぶん長く寝かせられてたチケットだなぁ。あと NEWS への追記も必要ですね。 [ruby-dev:47025] [Bug #7877]
