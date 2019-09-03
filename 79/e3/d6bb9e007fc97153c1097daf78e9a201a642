@@ -1,0 +1,1 @@
+8ad7fafcddece2096b748178df9a3318cb1ba3ae での vm_opt_regexpmatch2() の receiver が String の時のチェックで引数が Regexp かどうかのチェックも追加しています。
