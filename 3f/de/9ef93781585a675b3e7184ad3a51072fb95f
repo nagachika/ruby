@@ -1,0 +1,1 @@
+キーワード引数の keyword splat (**kwargs) 渡しの呼び出し時の警告処理が method_missing に渡される時に keyword splt だというフラグが落ちてたので伝播させるようにしています。
