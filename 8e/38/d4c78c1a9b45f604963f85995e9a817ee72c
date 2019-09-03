@@ -1,0 +1,1 @@
+Exception のテストで一時ファイルのテスト対象の ruby スクリプトを書いて load する方法でテストしてたものを assert_separately を使って書くように変更しています。
