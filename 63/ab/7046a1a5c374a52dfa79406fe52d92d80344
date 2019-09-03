@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.udp_server_loop_on とかのテストで利用しないようにするアドレスをフィルタリングするところで macOS においてアドレスに POINTOPOINT って名前がついているものも除外するようにしています。
