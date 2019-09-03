@@ -1,0 +1,1 @@
+Dir.glob(Dir#[]) メソッドで複数のパターンを NUL 文字("\0")で区切って列挙する仕様は削除して、NUL 文字が含まれていたら ArgumentError 発生させるように変更しています。まあ NUL 文字区切りできる仕様なんてほとんど知られてないでしょうからこのほうが安全でしょうね。 https://github.com/ruby/ruby/pull/2419 [ruby-core:86377] [Feature #14643]
