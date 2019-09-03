@@ -1,0 +1,1 @@
+と思ったら 83498854eb5a824f1f83c31fac18c9279f9ee10d の Enumerator::Lazy#with_index が revert されました。 rubyspec が通らなかったからとのことで、たぶんテストと一緒にリトライされるのではないかと思います。 [ruby-dev:47025] [Bug #7877]
