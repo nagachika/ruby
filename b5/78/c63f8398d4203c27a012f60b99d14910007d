@@ -1,0 +1,1 @@
+tool/make-snapshot で Makefile に追加するルールに after-update というターゲットで gems/ サブディレクトリ内の symbolic link を解消しています。がこれって同じファイルに2箇所から link されてたら取りあいになりそう。まあそんなことはありえないんだろうけど。
