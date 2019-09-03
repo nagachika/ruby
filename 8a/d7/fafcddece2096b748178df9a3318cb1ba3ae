@@ -1,0 +1,1 @@
+Regexp のマッチに使われる VM の最適化 opt_regexpmatch1 を使った最適化は実際には効果がない(むしろ僅かに遅い)というベンチマーク結果を提示して、opt_regexpmatch1 を削除して、"=~" メソッドの呼び出しを iseq_specialized_instruction() で opt_regexpmatch2 命令に変更するようにする最適化で利用するようにしています。
