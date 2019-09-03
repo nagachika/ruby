@@ -1,0 +1,1 @@
+Exception#exception メソッドで例外オブジェクトのコピーを作ったあと exc_initialize() を呼んでたのが、これだとバックトレースの情報が消えるので rb_ivar_set() で直接メッセージの内容だけ書きかえるようにしています。 [ruby-core:91232] [Bug #15558]
