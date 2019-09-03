@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp に Net::FTP#features と Net::FTP#options メソッドを追加しています。それぞれ ftp の FEAT, OPTS コマンドの発行に対応しています。 [ruby-core:93406] [Feature #15964]
