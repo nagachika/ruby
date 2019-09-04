@@ -1,0 +1,1 @@
+c181ecc161c5482426f045322cf00d00b15d96c6 で tool/make-snapshot の PACKAGES って定数に .tar も追加してましたが通常パッケージを作る対象は DEFAULT_PACKAGES という定数の別に追加して、こっちからは tar は除外するようにしています。
