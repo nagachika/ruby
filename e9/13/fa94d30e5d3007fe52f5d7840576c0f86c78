@@ -1,0 +1,1 @@
+既に未使用になっていた ruby_eval_string_from_file_protect() およびそこから呼ばれてる eval_string_from_file_helper() という関数の定義を削除しています。
