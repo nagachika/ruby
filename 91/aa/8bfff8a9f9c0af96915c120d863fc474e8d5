@@ -1,0 +1,1 @@
+Travis-CI の macOS 環境はビルドが安定しないので、GitHub Actions で macOS 環境のテストもできるようになったので削除しています。これで macOS 向けテスト除外の設定とかも削除できています。
