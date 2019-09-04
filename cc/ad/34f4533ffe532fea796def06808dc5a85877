@@ -1,0 +1,1 @@
+GitHub Actions の macOS と Ubuntu 環境で make test-bundled-gems 実行時に TEST_BUNDLED_GEMS_ALLOW_FAILURES=minitest を渡すようにして minitest のテスト失敗を無視させるようにしています。
