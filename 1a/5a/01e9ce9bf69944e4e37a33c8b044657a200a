@@ -1,0 +1,1 @@
+f560609d66502101264706877577220e3ebf5a38 で newarraykwsplat という VM 命令が追加されたので bootstraptest と MJIT のテストでこの命令を使うスクリプトを含めるようにしています。
