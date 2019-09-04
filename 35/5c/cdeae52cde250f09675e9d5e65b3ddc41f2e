@@ -1,0 +1,1 @@
+0b81e7d6e2810adac081965f0da1d8064888c0bd とかそのあたりの define method 系関数の GCC 拡張利用した引数の数チェックできるようにする変更で Cygwin でビルドできなくなってたそうなので preprocessor の分岐に条件を追加しています。 [ruby-core:94751] [Bug #16134]
