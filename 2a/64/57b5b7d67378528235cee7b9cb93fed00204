@@ -1,0 +1,1 @@
+rb_funcallv_with_cc() というメソッド呼び出し用の C API を追加して、呼び元に ID や rb_callable_method_entry_t を wrap した構造体へのポインタを opaque なポインタとして返してキャッシュさせることができるようにしています。呼び元毎に rb_callable_method_entry() で解決した method entry のキャッシュを持てるようにしています。 ZALLOC()  で確保されてるので必要なら解放しないといけないけど、まあこのくらいはプロセス修了まで保持したままにするんでしょうね。
