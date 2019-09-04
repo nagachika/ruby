@@ -1,0 +1,1 @@
+4e15be8bade0a6a75c209eff3b96b4c4f03019a9 で compile.c をいじった時に SUPPORT_JOKE というジョーク VM 命令を有効にした時のコードに追随漏れがあったのを修正しています。
