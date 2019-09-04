@@ -1,0 +1,1 @@
+.travis.yml のビルド対象ブランチ名に feature とか bug とか travis- といった prefix のものもあったのを削っています。
