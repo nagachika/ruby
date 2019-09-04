@@ -1,0 +1,1 @@
+VM の control stack frame のフラグに VM_FRAME_FLAG_CFRAME_KW というのを追加して、これをみてキーワード引数が渡されたかどうかを判定する rb_keyword_given_p() という C API を追加しています。 keyword splat だけでなく普通の keyword 引数を渡しても真になるようです。 https://github.com/ruby/ruby/pull/2422
