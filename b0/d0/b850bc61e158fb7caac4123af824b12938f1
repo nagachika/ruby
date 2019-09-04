@@ -1,0 +1,1 @@
+GitHub Actions で make test-all に渡すオプションの指定を環境変数で渡す時に TESTOPTS ではなく RUBY_TESTOPTS で渡すようにしています。 make に直接変数で指定する時は TESTOPTS でいけるけど環境変数の時は RUBY_TESTOPTS らしい。
