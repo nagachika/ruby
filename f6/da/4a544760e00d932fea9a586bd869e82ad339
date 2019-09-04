@@ -1,0 +1,1 @@
+Enumerator::Lazy クラスの rdoc 用コメントに 1d4bd229b898671328c2a942b04f08065c640c28 で追加した Enumerator::Lazy#eager の使用例について追記しています。ちょっとわかった気がする。 Enumerator を期待しているところに Lazy に評価するものを渡したいってことですかね。 Lazy 使わなくてもできそうな気もするけど Lazy だと普通の Enumerable と同様に書けるっていうのがメリットなのでってことでしょうか。
