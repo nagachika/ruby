@@ -1,0 +1,1 @@
+VM 命令定義の DEFINE_INSN マクロに DEFINE_INSN_IF() というバリエーションを追加して SUPPORT_JOKE とか STACK_CACHING 有効化時のみ定義する VM 命令に使っています。また SUPPORT_JOKE を定義するために指定するマクロ名を OPT_SUPPORT_JOKE という別のマクロを一段かませるようにしています。これはなんでだろ。
