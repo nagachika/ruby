@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の ChangeLog 生成のためにコミットログを整形する処理で git-log の --date=iso-local というオプションが古い git でサポートされていないとのことで、使えるかチェックしてだめなら --date=iso に変更するようにしています。
