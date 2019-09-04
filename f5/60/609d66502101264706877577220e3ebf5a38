@@ -1,0 +1,1 @@
+配列リテラル内の keyword splat 記法(つまり "[ **kwargs ]" みたいなの)で渡された Hash が空の時にそもそも要素を追加しないようにするために newarraykwsplat という新たな VM 命令を追加しています。わー、こんなの書けたのか。知らなかった。 https://github.com/ruby/ruby/pull/2418
