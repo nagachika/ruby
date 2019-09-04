@@ -1,0 +1,1 @@
+MJIT の VM 命令を網羅する用のテストで bitblt や answer など SUPPORT_JOKE 有効化時にのみ実装される命令や reput, tracecoverage といった VM 最適化などの設定時のみ使われる命令を除外するようにしています。 RubyVM::INSTRUCTION_NAMES と突きあわせて実際にはそのインタプリタのビルドでは存在しない命令を使おうとしてたら警告を出力するようにしています。
