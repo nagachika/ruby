@@ -1,0 +1,1 @@
+bootstraptest にある sleep 中の Thread の Thread#backtrace 呼び出しのテストが AppVeyor の mswin 環境で不安定とのことで pending.rb に移動しています。
