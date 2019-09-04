@@ -1,0 +1,1 @@
+VM 命令 setinstancevariable で対象のオブジェクトが freeze されているかどうかのチェックが MJIT で生成されたコードだと省かれてしまっていた不具合を修正しています。 [ruby-core:94767] [Bug #16139]
