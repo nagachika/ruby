@@ -1,0 +1,1 @@
+tool/fetch-bundled_gems.rb  で現在 master ブランチだったら git pull して現在のブランチも更新するようにしています。
