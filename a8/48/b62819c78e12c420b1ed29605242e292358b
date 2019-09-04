@@ -1,0 +1,1 @@
+vm_core.h の rb_vmdebug_debug_print_post() の prototype 宣言で OPT_STACK_CACHING という VM の最適化手法を使う場合に引数が追加されているのを反映させるようにしています。 Stack Caching 懐かしい。
