@@ -1,0 +1,1 @@
+拡張ライブラリ socket の BasicSocket#setsockopt の :TIMESTAMP についてのテストで MJIT 有効化時にタイムアウトを伸ばしています。
