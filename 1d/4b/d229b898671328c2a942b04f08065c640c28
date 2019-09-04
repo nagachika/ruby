@@ -1,0 +1,1 @@
+Enumerator::Lazy#eager メソッドを追加しています。 to_a の alias かと思ったらそうではなくて、Enumerator 返したいけど Lazy ではない Enumerator を返したい、という時に使うものみたいです。どういう時なのかはいまひとつよくわかってないですけど。 [ruby-core:92978] [Feature #15901]
