@@ -1,0 +1,1 @@
+83498854eb5a824f1f83c31fac18c9279f9ee10d で一度入れて 6724b1f83d2cad57bbcbcdc9756532d825b0c592 で revert された Enumerator::Lazy#with_index が Enumerator::Lazy を返すようにする変更のリトライ。 このコミットは 83498854eb5a824f1f83c31fac18c9279f9ee10d と全く同じ内容ですね。 [ruby-dev:47025] [Bug #7877]
