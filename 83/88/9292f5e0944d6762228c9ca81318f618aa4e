@@ -1,0 +1,1 @@
+拡張ライブラリ socket の MSG_OOB フラグを使ったテストを Solaris で skip していたのを、Solaris では OOB は 1 byte のみ許されるので、OOB 使って送信するメッセージを1文字にすることで skip しないですませるようにテストを対応しています。
