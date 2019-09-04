@@ -1,0 +1,1 @@
+e94ac03eb0d07af3cbff20194acf479bf8851c39 に追加して rubyspec の Enumerator::Lazy に with_index はじめ each_xxx や cycle などのメソッドが直接定義されていないという assertion があったのを削除しています。 [ruby-dev:47025] [Bug #7877]
