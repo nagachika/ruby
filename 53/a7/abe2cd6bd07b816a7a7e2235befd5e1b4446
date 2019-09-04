@@ -1,0 +1,1 @@
+標準添付ライブラリ drb のテストで Solaris で skip を追加。またこのテストを 0660d7cb538cf5284d50f66adfcbd78609839715 で armv7l-linux でも skip した時に Timeout の設定を削ってたので復活させています。
