@@ -1,0 +1,1 @@
+.github/workflows/macos.yml で make test-bundled-gems にオプションを渡すのに make のコマンドラインで TESTOPTS 変数を渡してましたが -j オプションは未対応だったので削って、$JOBS の展開が不要になったのでやっぱり環境変数 RUBY_TESTOPTS 経由で渡すようにしています。
