@@ -1,0 +1,1 @@
+rubygems でメソッド内でクラスメソッドの操作をするために class << Gem ... end を使ってたところを Gem#singleton_gem_class というメソッドを追加してここからモジュールの特異クラスを返させて Module#class_eval を利用するようにしています。 rubocop の警告避けだそうです。
