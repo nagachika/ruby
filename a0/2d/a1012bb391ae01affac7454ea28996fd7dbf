@@ -1,0 +1,1 @@
+同じく rubygems の Gem::Commands::BuildCommand#build_gem を呼び出す execute メソッドで引数を省略せず呼び出すようにして、その引数を生成するメソッドを追加してそっちでデフォルト値を決める処理を記述するようにしています。
