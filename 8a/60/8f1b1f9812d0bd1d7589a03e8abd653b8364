@@ -1,0 +1,1 @@
+tool/make-snapshot の -git オプションを廃止して、git を使う場合は常に事前に clone してある working copy からはじめるようにしています。うーん、なるほど?
