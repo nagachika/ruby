@@ -1,0 +1,1 @@
+で同じく rubygems の Gem::Commands::BuildCommand#build_gem の引数名を変更するリファクタリング。
