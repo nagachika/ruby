@@ -1,0 +1,1 @@
+rubygems の Gem::Commands::BuildCommand#build_gem の引数のデフォルト値を作るメソッドを get_one_gem_name から get_one_optional_argument に変えてるけどあまり深追いしてないのでよくわからず。
