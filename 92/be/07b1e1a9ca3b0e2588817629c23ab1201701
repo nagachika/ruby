@@ -1,0 +1,1 @@
+というわけで rubygems の Gem::Commands::BuildCommand#build_gem の引数は省略可能じゃなくてよくなったので必須の(通常の)引数にして、呼び元の #execute メソッドでその引数を決める処理は専用のメソッドから execute メソッド内に展開しています。
