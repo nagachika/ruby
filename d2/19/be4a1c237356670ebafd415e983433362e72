@@ -1,0 +1,1 @@
+rubygems の Gem::Uninstaller#uninstall で対象のパッケージがない時の例外発生をより前のほうに移動しています。
