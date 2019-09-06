@@ -1,0 +1,1 @@
+整数と Float の比較をする rb_integer_float_eq() で y が long で表現できる範囲よりも大きいか判定する時に LONG_MAX  を使わず LONG_MAX_as_double という変数に代入した double の値との比較にするようにしています。自動的な promotion にまかせると -Wimplicit-int-float-conversion というオプション設定でコンパイラの警告が出るのでこれを抑制するためだそうです。
