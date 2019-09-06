@@ -1,0 +1,1 @@
+rubygems の uninstall サブコマンドで default gem の扱いを修正しているようです。
