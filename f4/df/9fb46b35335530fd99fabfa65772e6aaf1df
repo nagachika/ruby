@@ -1,0 +1,1 @@
+GitHub Actions の make test-bundled-gems のタスクの名前に test-bundled-gems という内容がわかるように文字列を追加しています。
