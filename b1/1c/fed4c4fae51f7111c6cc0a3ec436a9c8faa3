@@ -1,0 +1,1 @@
+rubygems の Gem::Commands::BuildCommand#build_gem に渡す引数を決めるメソッド find_gemspec 内で複数の gemspec ファイル名の候補があった時にエラーにするようにしています。
