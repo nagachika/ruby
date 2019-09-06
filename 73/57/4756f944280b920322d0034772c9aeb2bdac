@@ -1,0 +1,1 @@
+rubygems の Gem::Commands::BuildCommand#build_gem のメソッド呼び出しにかっこをつけるリファクタリング。
