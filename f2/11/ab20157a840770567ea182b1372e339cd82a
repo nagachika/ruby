@@ -1,0 +1,1 @@
+8f096226e1b76f95f4d853d3dea2bc75eeeb5244 の変更で switch 文の break を忘れて fallthrough してたので break 追加しています。コミットログがいいですね。
