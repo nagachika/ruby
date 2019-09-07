@@ -1,0 +1,1 @@
+RubyVM::DEFAULT_PARAMS がちゃんとセットされるか確認するテストで子プロセスを起動する時の環境変数 RUBY_FIBER_VM_STACK_SIZE に渡す VM スタックサイズを少し控えめに 5MB? にしています。
