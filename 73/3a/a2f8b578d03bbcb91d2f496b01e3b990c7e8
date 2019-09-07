@@ -1,0 +1,1 @@
+configure.ac の cxxflags を設定している部分をコメントアウトして cflags と同じフラグを使わないようにしているようです。
