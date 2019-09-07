@@ -1,0 +1,1 @@
+Proc から作ったメソッドの呼び出しで、呼び元で keyword splat によるキーワード引数渡しがあったかどうかが伝播しなくて警告がうまく出せないのに対応するため rb_vm_invoke_proc(), rb_vm_invoke_bmethod(), invoke_iseq_block_from_c(), vm_yield_with_cfunc(), vm_yield_with_symbol() 等々の関数に引数を追加して、フラグを伝播させるようにしています。
