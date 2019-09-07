@@ -1,0 +1,1 @@
+逆に vm_call_method_each_type() で VM_METHOD_TYPE_ATTRSET と VM_METHOD_TYPE_IVAR のタイプのメソッド呼び出し (それぞれ []=  と xxx= みたいな代入記号つきメソッドですかね)では空のキーワード引数削除を有効にするフラグを渡すようにしています。
