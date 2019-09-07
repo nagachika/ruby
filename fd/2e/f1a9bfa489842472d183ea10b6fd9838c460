@@ -1,0 +1,1 @@
+ce04392d8d4f8cf14c70bbf1ad3544c7db4e1671 で各種関数に追加した keyword splat 用フラグの定数 0 を VM_NO_KEYWORDS というマクロで名前をつけています。
