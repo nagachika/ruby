@@ -1,0 +1,1 @@
+vm_call_cfunc() からの呼び出しでは空の keyword 引数の Hash を消さないように CALLER_SETUP_ARG() 呼び出しのフラグを変更しています。
