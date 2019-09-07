@@ -1,0 +1,1 @@
+vm_callee_setup_block_arg() 経由でメソッド起動する時にも keyword splat で渡した引数がメソッド側に通常引数の最後に Hash として渡される時の警告を出すようにしています。 define_method によるメソッドと lambda タイプの Proc オブジェクトの時らしい。まだそのケースは対応されてなかったのか…。
