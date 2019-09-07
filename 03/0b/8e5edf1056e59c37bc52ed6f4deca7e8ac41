@@ -1,0 +1,1 @@
+と思ったら 1fffd33189ddb4dfdefe2ada09ec884f89e305ce の vm_call_bmethod_body()/vm_call_method_missing()/vm_invoke_symbol_block() などで通常のキーワード引数の時もフラグ立ててたのはやめて、かわりに vm_caller_setup_arg_kw() 内で keyword splat 使ってた時に struct rb_calling_info::kw/splat を立てるようにしています。
