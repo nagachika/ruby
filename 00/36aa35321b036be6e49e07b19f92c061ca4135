@@ -1,0 +1,1 @@
+Process.clock_gettime の rdoc 用コメントの Process::CLOCK_PROCESS_CPUTIME_ID をサポートしている OS に FreeBSD 9.3 を追記しています。
