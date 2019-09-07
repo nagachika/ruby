@@ -1,0 +1,1 @@
+a569bc09e25a2ba813d0bec1228d9ff65330a3db のヘッダ及び 04f570e266ba7f9d155ceea943043532a7e2f859 のテスト用拡張ライブラリで Visual Studio 向けのコンパイルエラー修正のため初期化子の修正や DEPRECATED_BY() マクロの利用とりやめなど。
