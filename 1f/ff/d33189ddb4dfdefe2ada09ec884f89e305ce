@@ -1,0 +1,1 @@
+define_method で作ったメソッドや method_missing の呼び出しや Symbol#to_proc で作られた Proc の呼び出し時の kw_splat のフラグには keyword splat で渡した時だけじゃなくて通常のキーワード引数だけで渡した時もフラグを立てるようにしています。あ、やっぱりそうなのか。
