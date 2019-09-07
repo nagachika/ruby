@@ -1,0 +1,1 @@
+CALLER_SETUP_ARG() 呼び出し後に struct rb_call_info::flag を参照しているところは struct rb_calling_info を参照するように変更しています。うーんよくわからない。ともかくすごくよく似た構造体名だな(呼び出し元の情報と、その後の諸々の変換とかを経た情報の違いかな)。
