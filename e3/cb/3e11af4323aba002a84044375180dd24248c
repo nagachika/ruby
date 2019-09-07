@@ -1,0 +1,1 @@
+vm_yield_with_cfunc() で vm_push_frame() に渡すフラグにも追加した引数 kw_splat の影響を伝播させるようにしています。
