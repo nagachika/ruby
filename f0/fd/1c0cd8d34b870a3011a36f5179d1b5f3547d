@@ -1,0 +1,1 @@
+やはり 581fcde0884e493206b04b3e6b7a069b941dfe46 の続きで NODE のタイプが NODE_SCOPE の時のバッファ node->nd_tbl を T_IMEMO からの GC による管理つきのバッファを取得するのをやめて直接 ALLOC_N() などで確保するようにして、rb_ast_t の mark 時にこのバッファの内容の各要素も mark するようにしています。
