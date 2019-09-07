@@ -1,0 +1,1 @@
+e7274a8ec43b5b20e42842e730dbabae58d2e6a2 と同様の条件での keyword splat の空 Hash の最後の通常引数への追加を define_method で定義したメソッドと lambda 型 Proc オブジェクトについても修正しているようです。
