@@ -1,0 +1,1 @@
+vm_insnhelper.c の CALLER_SETUP_ARG() というマクロみたいな static 関数の引数 cfunc も使ってなかったので削除し、かわりに remove_empty_keyword_hash というフラグを引数に追加し空の Hash を keyword splat で渡されてた時に消す処理を追加しています。同じような処理が分散していたのでまとめたようです。
