@@ -1,0 +1,1 @@
+parse.y で文字列リテラルの連結のための AST 構築するところで NODE_DSTR の NODE の type を NODE_ARRAY に上書きしてから繋げてたのを、新規の NODE_ARRAY の NODE  を作って繋げるようにしています。さっきの 545b6db3fb367944f72cee5d41892eed63574634 でリストを2つに分けた都合上途中で type が変わるのはまずいからみたいです。
