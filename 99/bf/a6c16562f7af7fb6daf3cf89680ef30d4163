@@ -1,0 +1,1 @@
+Windows 環境での C++ ヘッダのテストのビルドエラーに対処するため win32/Makefile.sub で生成する config.h の restrict の定義する部分を #ifndef __cplusplus でくくって C++ でビルド時には定義しないようにしています。
