@@ -1,0 +1,1 @@
+rb_warn_keyword_to_last_hash() の宣言に MJIT_FUNC_EXPORTED を追加して JIT 用に export するようにしています。
