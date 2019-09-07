@@ -1,0 +1,1 @@
+vm_caller_setup_arg_kw() の引数 cfunc が未使用になっていたので消しています。
