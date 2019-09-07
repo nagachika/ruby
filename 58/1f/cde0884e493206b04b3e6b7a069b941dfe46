@@ -1,0 +1,1 @@
+T_NODE 型オブジェクトの各 NODE を GC mark 用の配列にいれることで mark 対象にするようにしていたのを、参照元の RubyVM::AbstractSyntaxTree の mark 関数から直接 mark するようにしています。GC.compact で移動可能にするためだと思われます。
