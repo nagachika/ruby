@@ -1,0 +1,1 @@
+7fc874bf4cbdd87b3d6fe05dc5959175f3fe94b8 の追加修正で(たぶん) struct rb_calling_info::kw_splat のリセットもれを修正しています。空の Hash リテラルを渡した時になかったことにする時にフラグ落としているようです。
