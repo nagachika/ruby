@@ -1,0 +1,1 @@
+5045fe6017996a9ce2562667284b392e01b5759e で一旦 export しましたがやはり rb_warn_keyword_to_last_hash() は static 関数にしています。 vm_xxx 系のソースは #include で1まとめになってるので static でも呼べるのでした。
