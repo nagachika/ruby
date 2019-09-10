@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の VCS::GIT#export の git clone コマンドに -c advice.detachedHead=false というオプションを追加しています。なんだろうこれは。なんか不安な響きのある設定ですが…。
