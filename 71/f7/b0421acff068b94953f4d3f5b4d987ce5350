@@ -1,0 +1,1 @@
+revision.h の更新のために使う tool/file2lastrev.rb で 799de9122e2bd9c2f4cc7e0611f6f8313876ca1d で追加した VCS.define_options を使うようにしています。
