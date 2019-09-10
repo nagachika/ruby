@@ -1,0 +1,1 @@
+rdoc の .gemspec ファイルの spec.files のリストから .document と .gitignore を削除しています。
