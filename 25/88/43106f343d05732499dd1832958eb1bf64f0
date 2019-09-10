@@ -1,0 +1,1 @@
+標準添付ライブラリ set の SortedSet の initialize メソッドで再帰的に initialize を読んでたのを super を使うように修正。参照されてるチケットは SortedSet をさらに継承したクラスで initialize が定義されてたらそっちが呼ばれてしまうからっていう内容でしたが、そもそも素の SortedSet のインスタンスでここで initialize 呼ぶと同じメソッドを呼ぶので無限再帰になってたのでは。initialize はなにか特殊な扱いがあるのかな。 [ruby-core:92563] [Bug #15830]
