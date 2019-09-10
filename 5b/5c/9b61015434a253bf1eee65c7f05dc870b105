@@ -1,0 +1,1 @@
+tool/file2lastrev.rb で未使用になってたトップレベルのローカル変数 srcdir を削除しています。
