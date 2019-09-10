@@ -1,0 +1,1 @@
+.github/workflows/doxygen.yml で doxygen によるドキュメント生成の GitHub Actions ではリポジトリが ruby/ruby の本家のものの時だけ動くように各ステップに if: を追加しています。まとめて全体を停止できないのはちょっと不便ですね。
