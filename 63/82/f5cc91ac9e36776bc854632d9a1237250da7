@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Addrinfo.getaddrinfo の名前解決にタイムアウトをかけられるように、キーワード引数 timeout を追加しています。 libanl (anl は何の略だろう?)の getaddrinfo_a(3) と gai_suspend(3) というライブラリ関数を使うとブロックせずに名前解決要求をすることができるようです。これを利用するため Socket.tcp にも resolv_timeout というキーワード引数を追加しています。
