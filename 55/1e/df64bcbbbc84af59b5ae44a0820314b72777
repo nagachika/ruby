@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Core#read_escaped_key の引数の名前が間違ってたのを修正しています。
