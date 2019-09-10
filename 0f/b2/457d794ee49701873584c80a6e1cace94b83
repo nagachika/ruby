@@ -1,0 +1,1 @@
+461663f52a87bbae7f3713862a20a4aa6bd63e4c と同様 6382f5cc91ac9e36776bc854632d9a1237250da7 で追加した Addrinfo.getaddrinfo のテストで service name の指定を nil に変更しちます。 Solaris で "http" を指定するとうまくいかないらしい。
