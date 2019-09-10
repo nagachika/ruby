@@ -1,0 +1,1 @@
+rubyspec の platform による gurad で armv7l は armv7 とだけ書くように修正しています。 [ruby-core:93810] [Bug #16007]
