@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Esc キーのコードを vi モードの時に em_meta_next から ed_unassigned に変更しています。単に無視するらしい。
