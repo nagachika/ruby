@@ -1,0 +1,1 @@
+Enumerable#to_enum や #enum_for で生成された Enumerator へのメソッドのキーワード引数の時の警告対応のために struct enumerator にも kw_splat メンバーを追加して呼び出し時に keyword splat が渡されていたかどうかを保持するようにしています。
