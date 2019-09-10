@@ -1,0 +1,1 @@
+tool/lib/vcs.rb のコマンドラインオプションの処理の SVN/GIT の共通部分を VCS.define_options に切り出すリファクタリング。
