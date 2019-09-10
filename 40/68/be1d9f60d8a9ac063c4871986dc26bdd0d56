@@ -1,0 +1,1 @@
+appveyor.yml で pacman コマンドでパッケージインストールする時に mingw-w64-x86_64-gettext のインストールはやめています。また mingw-w64-x86_64-toolchain のインストール時に --nodeps オプションをつけてたのをやめています。
