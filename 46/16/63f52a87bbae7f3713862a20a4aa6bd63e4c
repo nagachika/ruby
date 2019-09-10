@@ -1,0 +1,1 @@
+6382f5cc91ac9e36776bc854632d9a1237250da7 の Addrinfo.getaddrinfo の timeout キーワード追加のテストで利用するホスト名を localhost に変更しています。
