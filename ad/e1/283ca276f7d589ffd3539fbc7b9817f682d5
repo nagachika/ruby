@@ -1,0 +1,1 @@
+rb_str_intern() で rb_str_new_frozen() を使っていたところを dup して OBJ_FREEZE() を使うように修正しています。 rb_str_new_frozen() は fstring 用? で共有文字列として新たな String オブジェクトを作るのに、必要なフラグがないため root 文字列が解放される時にバッファが解放されてしまうという不具合があったようです。 [ruby-core:94757] [Bug #16136]
