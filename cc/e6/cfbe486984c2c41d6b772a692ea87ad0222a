@@ -1,0 +1,1 @@
+Android の環境で make test-all と test-spec を走らせるためにいくつかのテストや spec に skip や platform guard を追加しています。
