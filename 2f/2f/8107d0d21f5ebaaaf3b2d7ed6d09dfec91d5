@@ -1,0 +1,1 @@
+compile.c の compile_list() で巨大な Array リテラルの最適化のため静的に配列を生成する処理は要素数2つずつのペアでしか処理されてなくて(Hash の場合も同じコードで対応していたので)、要素数が奇数の場合は最後の要素は別途 concatarray 命令で連結されるようになってしまっていたので、COMPILE_ARRAY_TYPE_ARRAY と COMPILE_ARRAY_TYPE_HASH で分岐して配列の場合は奇数でも可能なものは全て静的に配列オブジェクトにつめるようにしています。
