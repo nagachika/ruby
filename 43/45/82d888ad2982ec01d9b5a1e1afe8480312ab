@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の Tempfile.open() の引数に **kw を追加して Tempfile.new への委譲時に暗黙の変換に頼らず引数を引き継ぐように修正しています。
