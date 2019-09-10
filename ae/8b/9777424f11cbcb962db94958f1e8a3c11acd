@@ -1,0 +1,1 @@
+vm_exec.h の DISPATCH_ARCH_DEPEND_WAY() というマクロの定義を VM のループ方式が token threaded の時? の位置に移動して通常定義されないようにしているようです。
