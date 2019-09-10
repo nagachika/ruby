@@ -1,0 +1,1 @@
+NODE のタイプの定数 NODE_ARRAY と NODE_ZARRAY をそれぞれ NODE_LIST と NODE_ZLIST に改名しています。これらは実際には NODE* による linked list なので、ちょっと気にはなっていたんですけどねー。 --dump=parsetree の結果も変わるので NEWS にも書いてあったほうがいいかも。RubyVM::AbstractSyntaxTree::Node も影響するかな? クラス名だけだから結果を使うだけならあまり影響はないかなぁ。
