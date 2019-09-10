@@ -1,0 +1,1 @@
+compile.c の iseq_compile_each0() で node->nd_head のタイプが NODE_ZLIST かそもそも NULL だったら compile_hash() を呼ばず newhash 命令を直接生成してたのを常に compile_hash() を呼んでその中で NODE_ZLIST 用の処理を吸収するようにしています。
