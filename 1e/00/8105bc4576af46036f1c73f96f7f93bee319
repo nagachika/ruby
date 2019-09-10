@@ -1,0 +1,1 @@
+compile_list() (ちょうど a7a2be7a31b66b05a118fb41dabf0cb965f4a9c0 で改名されたばかりで元は compile_array() だった)で引数リストや Array リテラルで最後の要素のチェックはしていたものの、途中の要素も中身が Hash だったら(つまり Hash リテラルかな)常に newarraykwsplat 命令を使うようになってしまっていたので、最後の要素のみ newarraykwsplat を利用するように修正しています。
