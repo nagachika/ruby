@@ -1,0 +1,1 @@
+tool/make-snapshot でディレクトリの指定も svn のリポジトリの指定もなかった時に実行されている make-snapshot ツール自体を含むソースツリーからリポジトリが検出できないかチェックしてみるようにしています。いやー "this tool has been intended to use in a working directory" ってありますが、少なくとも現状は安定版ブランチのリリースの時には違うんですよねー。いや、まあでも今の master は既に git なので、master のものを使う場合はその git で指定したタグの参照を fetch してきてそれを対象にしてくれると思うのでいいのか?
