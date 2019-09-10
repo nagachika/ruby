@@ -1,0 +1,1 @@
+compile_hash() でこの関数内で一時的に使うだけの Array オブジェクトを iseq_add_mark_object_compile_time() で mark 用配列に追加していたのをやめています。
