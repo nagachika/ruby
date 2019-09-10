@@ -1,0 +1,1 @@
+Class#new, Method#call, UnboundMethod#bind_call などでも keyword splat で渡した引数を必要に応じて必須引数の最後の Hash への変換を行いつつ警告を出力するようにしています。 Class#new の場合って別に対応必要なんだ。もう ruby のメソッド呼び出しがさっぱりわからない。
