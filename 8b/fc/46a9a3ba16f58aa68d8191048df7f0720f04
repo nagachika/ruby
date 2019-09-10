@@ -1,0 +1,1 @@
+revision.h の生成時に tool/file2lastrev.rb を実行する時に srcdir を渡すのに普通の引数ではなく --srcdir オプションの引数として渡すように変更しています。
