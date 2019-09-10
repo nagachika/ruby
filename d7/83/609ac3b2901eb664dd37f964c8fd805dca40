@@ -1,0 +1,1 @@
+tool/make-snapshot で空の revision.tmp と .revision.time ファイルを生成することで revision.h が再生成されてしまわないようにしています。また Makefile をいじって revision.tmp の依存関係に Makefile 自身を追加しています。がこれだと revision.tmp が更新されちゃうんじゃないかな。いやファイル生成するのは make update した後のことだから revision.tmp ファイル生成が Makefile 更新よりは後だからいいのか。
