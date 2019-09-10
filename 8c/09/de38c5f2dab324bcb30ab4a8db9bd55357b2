@@ -1,0 +1,1 @@
+同じく 6382f5cc91ac9e36776bc854632d9a1237250da7 で追加した Addrinfo.getaddrinfo のテストで 0fb2457d794ee49701873584c80a6e1cace94b83 で service name の指定を消したのに対応して ip_port の assertion を修正しています。
