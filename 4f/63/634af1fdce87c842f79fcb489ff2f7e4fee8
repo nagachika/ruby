@@ -1,0 +1,1 @@
+compile_each0() の NODE_OP_ASGN1 の NODE のコンパイル時に引数の要素を指すのに使っていた ANCHOR は使わなくても変数 ret で代用できたので削除しています。
