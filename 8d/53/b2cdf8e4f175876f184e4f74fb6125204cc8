@@ -1,0 +1,1 @@
+defs/gmake.mk で rdoc のオプションに --force-update を追加して全ドキュメント更新するのを ifeq を使わず trget-specific variable なる機能を利用するようにしています。また make great ターゲットで test-rubyspec 実行するようにしてたのを削っています。
