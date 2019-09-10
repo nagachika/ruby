@@ -1,0 +1,1 @@
+99c9431ea1cc538489c3da70f52121aa8bc0800b の改名に追随して parse.y のヘルパー関数や compile.c の関数や enum などの名前も array -> list に改名しています。
