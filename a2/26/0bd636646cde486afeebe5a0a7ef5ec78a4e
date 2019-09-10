@@ -1,0 +1,1 @@
+compile.c の compile_list() は Array のための処理と Hash のための処理が同居していたので、これをさらに compile_array() と compile_hash() という関数に分割して呼び分けるようにしています。
