@@ -1,0 +1,1 @@
+親クラスのメソッドを呼ぶ super(*args, **kw) および無引数(かっこなし)の super (いわゆる ZSUPER?)での keyword splat の変換や警告のテストを追加しています。
