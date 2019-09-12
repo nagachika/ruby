@@ -1,0 +1,1 @@
+構造体 struct RArray の宣言で shared_root につける const が古い C++ のコンパイラでは問題があるそうで preprocessor で分岐して問題の環境では消すようにしています。
