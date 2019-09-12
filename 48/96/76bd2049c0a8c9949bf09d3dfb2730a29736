@@ -1,0 +1,1 @@
+GitHub Actions の coverage と doxygen 用のジョブで aws s3 によるファイルアップロードに --no-progress オプションをつけて進捗の出力を抑制しています。
