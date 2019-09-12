@@ -1,0 +1,1 @@
+c4efbf663ea1849986383ca97bfc8c2609142c68 で一旦 revert した拡張ライブラリ socket の Addrinfo.getaddrinfo の timeout キーワード引数対応を再度入れています。前回との違いをみるとテストで使う service 名に ssh を使うようにしているだけなので、どうやら Solaris での問題というのはテストの問題だけだったようです。
