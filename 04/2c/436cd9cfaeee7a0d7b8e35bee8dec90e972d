@@ -1,0 +1,1 @@
+ext/-test-/cxxanyargs/cxxanyargs.cpp の static なメンバー変数に静的な初期化を追加しています。
