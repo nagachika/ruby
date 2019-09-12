@@ -1,0 +1,1 @@
+拡張ライブラリ io/console にカーソル位置を上下左右に動かす IO#cursor_up, #cursor_down, #cursor_left, #cursor_right メソッドを追加しています。便利。
