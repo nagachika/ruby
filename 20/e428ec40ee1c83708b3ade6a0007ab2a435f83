@@ -1,0 +1,1 @@
+CentOS 6 の古いコンパイラ(?)だと DEPRECATED_TYPE() が使えなかったようで、C++ 用ヘッダでは configure で直接 __attribute__((__deprecated__)) が使えるかチェックして RUBY_CXX_DEPRECATED というマクロを定義してこれを使うようにしています。
