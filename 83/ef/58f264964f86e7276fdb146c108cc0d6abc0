@@ -1,0 +1,1 @@
+803dc9e1e48325515bf7c5ce176cf2b5bc0792a9 で console_vt_response() 定義のために定義した構造体 struct ttymode_callback_args や static 関数 ttymode_callback() の定義は Windows 環境では不要なので preprocessor の分岐内に入れて Windows 環境での警告を抑制しています。
