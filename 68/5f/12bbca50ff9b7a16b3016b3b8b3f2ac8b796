@@ -1,0 +1,1 @@
+805b0a481132938638dbd32830cf5dca3910efb1 の続きで IO#getch のかわりに IO#raw と IO#getbyte を使って raw モードで 1バイト読むように修正しています。
