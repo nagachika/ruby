@@ -1,0 +1,1 @@
+拡張ライブラリ io/console に端末の現在の行or次の 1行を消す IO#erase_line と全体を消す IO#erase_screen を追加。また全画面消したうえでカーソル位置を原点にする IO#clear_screen も定義していますが、この実装の関数は e8be056af92b2f13162567c057322a2c16797b79 で定義済みだったみたい。
