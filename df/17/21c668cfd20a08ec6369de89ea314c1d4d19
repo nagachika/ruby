@@ -1,0 +1,1 @@
+internal.h で _Pragma("GCC diagnostic push") を使うマクロを定義する条件を GCC のバージョンが 4.2.0 以上から 4.6.0 以上に修正しています。
