@@ -1,0 +1,1 @@
+4524780d1795e750e23896866eb447be2670ddcd の追加修正。 parse.y で add_mark_object() を使って RGenGC 用 Writer Barrier の追加をするようにしていましたが、NEW_NODE() とかで NODE 生成するその引数で直接 add_mark_object() を呼ぶと順序が前後してしまって、Write Barrier 設定後に実際にオブジェクトへの参照を対象の NODE にセットする前に GC 発生するタイミングが生じてしまっていたのを修正しています。はー、ラクをしようとするとはまるという例でしたね。
