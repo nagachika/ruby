@@ -1,0 +1,1 @@
+ext/io/console/console.c の未使用変数の警告除去。
