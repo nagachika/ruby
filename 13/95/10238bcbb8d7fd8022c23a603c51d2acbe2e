@@ -1,0 +1,1 @@
+d8a4af47a5e5f72be2cd2897712d1718013b2e4c と同様の RGenGC のための Write Barrier の入れかたの問題で、NEW_NODE() の前に RB_OBJ_WRITTEN() を呼ぶと実際にオブジェクトから参照される前に読んでその後 GC が走るポイントがあるという問題があり順序を修正しています。また NEW_SCOPE() はマクロ定義内に RB_OBJ_WRITTEN() の呼び出しを組み込んでいます。これは今までは単に Write Barrier 漏れてたってことかな。
