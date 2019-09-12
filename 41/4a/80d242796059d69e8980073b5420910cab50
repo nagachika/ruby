@@ -1,0 +1,1 @@
+node.c の rb_ast_newnode() および mark_ast_value() で NODE の NODE_MATCH タイプへの対応を追加しています。
