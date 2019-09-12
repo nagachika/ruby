@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の端末のスクロールを行う IO#scroll_forward と IO#scroll_backward というメソッドを追加しています。
