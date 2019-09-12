@@ -1,0 +1,1 @@
+803dc9e1e48325515bf7c5ce176cf2b5bc0792a9 で追加した console_vt_response() を利用して Windows 以外の環境でも拡張ライブラリ io/console で IO#cursor で現在のカーソル位置を取得できるようにしています。すごい。
