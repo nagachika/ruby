@@ -1,0 +1,1 @@
+0e9d56f5e73ed2fd8e7c858fdea7b7d5b905bb64 で復活させた Addrinfo.getaddrinfo のテストですが Solaris 10 ではさらに ai.protocol の値も違ってたそうで assertion を削っています。
