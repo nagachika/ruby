@@ -1,0 +1,1 @@
+parse.y の new_array_pattern() および new_array_pattern_tail() で NODE_ARYPTN タイプの NODE の各要素へのアクセスを struct rb_ary_pattern_info という構造体経由の T_IMEMO を利用したバッファ経由で取得するように修正しています。 8f096226e1b76f95f4d853d3dea2bc75eeeb5244 の変更で作成するところと mark 処理を変更してたのに利用するところを追随漏れしてたようです。よく動いてたなこれ。
