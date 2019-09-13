@@ -1,0 +1,1 @@
+GitHub Actions のテストカバレッジを計測する .github/workflows/coverage.yml も削除しています。 これも ruby/actions というリポジトリに移動しているようです。
