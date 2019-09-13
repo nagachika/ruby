@@ -1,0 +1,1 @@
+GitHub Actions で doxygen 実行する.github/workflows/doxygen.yml を削除しています。 ruby/actions という専用のリポジトリに移動するとのこと。
