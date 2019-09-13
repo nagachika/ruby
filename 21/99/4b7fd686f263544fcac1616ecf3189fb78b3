@@ -1,0 +1,1 @@
+Hash#transform_values メソッドの実装で素朴に rb_hash_foreach() でイテレートして変換した要素を新しい Hash に rb_hash_aset() で追加していってたのを rb_hash_stlike_foreach_with_replace() という関数を使って、コピーした Hash に大して破壊的に各要素を上書きしていくようにしています。 rehash がいらなくなるのでこちらのほうが高速だとのこと。
