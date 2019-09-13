@@ -1,0 +1,1 @@
+parse.y の for 文のアクション部で rb_imemo_tmpbuf_auto_free_pointer() で生成したバッファへの AST からの参照の Write Barrier を挿入する位置を参照(実際にはバッファへの参照を含む tbl)を実際に ast に繋げる直前に移動しています。
