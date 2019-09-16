@@ -1,0 +1,1 @@
+VCS::GIT#format_changelog でコミットログから ChangeLog 生成する時の git log のオプションに --no-merges を追加してマージコミットは含めないようにしています。
