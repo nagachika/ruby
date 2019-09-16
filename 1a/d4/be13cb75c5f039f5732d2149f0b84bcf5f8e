@@ -1,0 +1,1 @@
+tool/make-snapshot のチェックアウト済み working copy を使う -exported オプションは削除しています。  [ruby-core:94932] [Bug #16167]
