@@ -1,0 +1,1 @@
+ISeq のバイナリフォーマットへのダンプのフォーマットバージョンとして IBF_MAJOR_VERSION と IBF_MINOR_VERSION という定数マクロを定義して ISEQ_MAJOR_VERSION および ISEQ_MINOR_VERSION のかわりにバージョンチェックに使うようにしています。開発中にこのバージョンを上げて非互換にしたいけど MAJOR/MINOR は ruby 自体のバージョンと同一に保ちたいという同期でさらに下に桁を足して IBF_DEVEL_VERSION というマクロでインクリメントするみたいです。これ ruby 本体の minor を上げたらまた 0 にリセットするのかな?
