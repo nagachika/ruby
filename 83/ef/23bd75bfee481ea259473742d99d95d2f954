@@ -1,0 +1,1 @@
+同じく 805b0a481132938638dbd32830cf5dca3910efb1 の reline で io/console の IO#getch を使うようにしたのを revert して io/console 依存を消しています。ふーむ、依存関係消すのが目的かな?
