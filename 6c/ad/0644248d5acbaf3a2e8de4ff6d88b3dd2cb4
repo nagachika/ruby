@@ -1,0 +1,1 @@
+e9c7fc7ca9bc15a9f84bdc356f7b6fac12988ccb の続きで VCS::GIT#export_changelog で git notes 用の refs を show-ref で取得するだけでなくこの時点で git fetch するようにしています。つまりスナップショットとか作るだけならいいけどリリース版を作るときはちゃんと git notes も準備しておこうってことですかね。と思ったけどスナップショットの時も呼ばれるんじゃないかな。 [ruby-core:94932] [Bug #16167]
