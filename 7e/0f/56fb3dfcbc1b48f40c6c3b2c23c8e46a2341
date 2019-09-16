@@ -1,0 +1,1 @@
+test/ripper/test_sexp.rb の Ripper::Sexp のテストで define_method でテストメソッド定義する時にメソッド名にその元になった情報の行数も含めるようにしています。
