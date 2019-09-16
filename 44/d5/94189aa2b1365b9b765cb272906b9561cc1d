@@ -1,0 +1,1 @@
+include/ruby/ruby.h の引数処理マクロ rb_scan_args_count_opt() および rb_scan_args_count() で引数に渡してる ofs を使わずにマジックナンバーを直接書いてたところを修正しています。
