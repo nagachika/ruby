@@ -1,0 +1,1 @@
+同じく reline の入力に io/console の IO#raw を利用するようにしたのを revert しています。
