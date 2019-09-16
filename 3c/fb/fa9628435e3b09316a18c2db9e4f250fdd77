@@ -1,0 +1,1 @@
+空の Hash による keyword splat の処理のリファクタリング。 kw_splat をただのフラグでなく定数を渡すようにして RB_NO_KEYWORDS、RB_PASS_KEYWORDS、RB_PASS_EMPTY_KEYWORDS、RB_PASS_CALLED_KEYWORDS の4種類(実際に使われてるのは最後の 2種類だけみたいだけど)を使うようにしています。また空の Hash オブジェクトを通常引数の最後に追加する処理を add_empty_keyword() という関数にして 各種 rb_funcall_xxx() 系関数で呼ぶようにまとめています。けどこの add_empty_keyword() で argv にメモリを確保しなおしてるところで解放してないけどこれはリークしないのかな。なんかこれはまずそうな気が。
