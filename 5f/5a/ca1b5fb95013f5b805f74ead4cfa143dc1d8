@@ -1,0 +1,1 @@
+ruby_node_name() の宣言を vm_core.h から node.h に移動しています。
