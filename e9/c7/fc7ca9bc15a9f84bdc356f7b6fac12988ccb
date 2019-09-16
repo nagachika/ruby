@@ -1,0 +1,1 @@
+tool/make-snapshot が ChangeLog 生成用に git notes を fetch しようとして失敗しても処理は続行するようにしています。 [ruby-core:94932] [Bug #16167]
