@@ -1,0 +1,1 @@
+rubyspec の Time のテストで使う timezone オブジェクト用のクラスを Struct を使って定義するようにして、name 指定するだけで良いようにしたり local_to_utc や utc_to_local といったメソッドを用意しておくようにしています。
