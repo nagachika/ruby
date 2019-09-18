@@ -1,0 +1,1 @@
+標準添付ライブラリの gemspec ファイルの spec.files に 1行で大量のファイル名を書いてたのを1ファイルずつ改行して記述するようにしています。ついでに一部 add_development_dependency を削除しています。
