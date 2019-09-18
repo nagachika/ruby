@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#finish で vi_insert モードの時のカーソル位置変更に対応しています。
