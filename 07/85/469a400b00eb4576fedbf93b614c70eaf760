@@ -1,0 +1,1 @@
+GitHub Actions の macOS のテストで brew update と brew install のリトライを tool/travis_retry.sh を使って行うようにしています。
