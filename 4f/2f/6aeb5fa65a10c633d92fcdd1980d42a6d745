@@ -1,0 +1,1 @@
+bundler の config の cache_all の挙動についてのテストケースに :git 指定による gem パッケージ指定時のテストを追加しています。
