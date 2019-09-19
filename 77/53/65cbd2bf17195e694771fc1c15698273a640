@@ -1,0 +1,1 @@
+vm_eval.c の add_empty_keyword() は rb_adjust_argv_kw_splat() と改名して vm_yield_with_cfunc() から VM stack frame を積む時のフラグの調整を行なうようにしています。コミットログによると Symbol#to_proc による Proc と Refinements の組み合わせ時の keyword splat の扱いの修正みたいです。
