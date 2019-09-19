@@ -1,0 +1,1 @@
+.travis.yml の Ubuntu の trusty を指定してたのを削除しています。
