@@ -1,0 +1,1 @@
+6492f23d919589745fc90fd151b1ce7f5478d776 の bundler の config の BUNDLE_DISABLE_PLATFORM_WARNINGS 項目サポート削除も revert しています。
