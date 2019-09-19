@@ -1,0 +1,1 @@
+vm_eval.c の method_missing() に kw_splat 引数を追加して各種メソッド呼び出しの関数から method_missing 経由のメソッド呼び出しを C で行う時にフラグの伝播を行うようにしています。
