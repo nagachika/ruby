@@ -1,0 +1,1 @@
+bundler の 6e0dc5594ced353aabdb3f118667ca987720e624 での Bundler::Definition#add_current_platform の削除を revert しています。
