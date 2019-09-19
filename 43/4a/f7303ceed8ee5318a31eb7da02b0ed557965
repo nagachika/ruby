@@ -1,0 +1,1 @@
+bundler の bundle clean サブコマンドで path 設定のファイルが実際に存在しない時にエラーになるのを修正しています。 https://github.com/bundler/bundler/pull/7340
