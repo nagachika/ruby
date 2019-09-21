@@ -1,0 +1,1 @@
+method entry の inline cache を C API 経由でも利用できるようにする rb_funcallv_with_cc() で rb_vm_call0() を呼ぶかわりに直接 vm_call0_body() を呼ぶようにしています。 struct rb_calling_info へのポインタ型をインラインで書いてる。こういう記法ができるのか。
