@@ -1,0 +1,1 @@
+RubyVM.reset_debug_counters や RubyVM.show_debug_counters メソッドの定義のための関数 rb_debug_counter_reset() と rb_debug_counter_show() が引数を受け取らないように宣言されているため、メソッド定義系関数の引数の数のチェックでひっかかっていたのを修正しています。デバッグ用なので USE_DEBUG_COUNTER が定義されてないと使われないので通常のビルドだと気がつかなかったんですね。
