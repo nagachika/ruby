@@ -1,0 +1,1 @@
+compile.c の COMPILE_RECV() というマクロで private_recv_p() が偽の時の COMPILE() の結果によらず評価値を 0 にしていたのを COMPILE() のエラーを返すようにして呼び元でチェックを追加しています。
