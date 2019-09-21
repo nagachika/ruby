@@ -1,0 +1,1 @@
+make checkout-github-### (###  は pull request の番号を入れられる)のターゲットで可変部分を参照する変数名を修正しています。
