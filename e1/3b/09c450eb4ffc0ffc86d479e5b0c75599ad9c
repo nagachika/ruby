@@ -1,0 +1,1 @@
+compile.c で COMPILE_ERROR() と return でエラー処理していたのを専用のマクロ EXPECT_NODE_NONULL() を使うようにリファクタリング。
