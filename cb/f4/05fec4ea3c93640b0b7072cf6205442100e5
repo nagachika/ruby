@@ -1,0 +1,1 @@
+5208c431bef3240eb251f5da23723b324431a98e の Time#inspect の実装で rb_enc_sprintf() を利用するようにして、Encoding に US-ASCII を指定するようにしています。
