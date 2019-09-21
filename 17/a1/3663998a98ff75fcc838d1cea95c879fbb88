@@ -1,0 +1,1 @@
+C++ 拡張ライブラリ用ヘッダ include/ruby/backward/cxxanyargs.hpp に rb_define_virtual_variable()、rb_define_hooked_variable() などのフックつき変数定義用の関数も追加しています。
