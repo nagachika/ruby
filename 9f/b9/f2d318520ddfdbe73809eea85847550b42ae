@@ -1,0 +1,1 @@
+.github/workflows/draft-release.yml というファイルを追加しパッケージ作成を行うようにしています。これは v ではじまるタグが push された時に起動するようです。
