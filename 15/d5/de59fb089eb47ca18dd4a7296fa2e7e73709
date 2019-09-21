@@ -1,0 +1,1 @@
+c3f03da4944241f46233ce159068f35c5bd5f9b2 の MakeMakefile::CXX 追加時に一緒に追加されたテスト用の拡張ライブラリの extconf.rb で MakeMakefile::CXX#try_compile にキーワード引数 lang を渡してたのを削除しています。
