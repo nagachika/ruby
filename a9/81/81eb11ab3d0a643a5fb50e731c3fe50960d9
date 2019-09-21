@@ -1,0 +1,1 @@
+続き。 a9cdaaada4ade22f2f85fbc1f8bd41a8579528b0 と 70fd022a2ae03d237ee9045db9834f253f3d843f は revert して ext/-test-/cxxanyargs/extconf.rb で失敗時に mkmf.log をダンプさせるようにしています。
