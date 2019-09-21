@@ -1,0 +1,1 @@
+method entry の call cache が expire していて再度メソッド探索する時に rb_vm_search_method_slowpath() で結局全く同じ method entry がみつかってきた場合は struct rb_call_cache のメンバーである関数ポインタ call は前回のキャッシュされていたものを再利用するようにしています。
