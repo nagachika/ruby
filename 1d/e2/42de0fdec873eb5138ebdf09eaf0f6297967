@@ -1,0 +1,1 @@
+37c083942509dd7e0d8b7ccd3575936a2017c400 の標準添付ライブラリ sync の削除時に tool/sync_default_gems.rb のコメントの消し忘れを修正しています。 [ruby-core:94954] [Feature #16170]
