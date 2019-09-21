@@ -1,0 +1,1 @@
+7fbd2f7cc247ee66e877ab3c88f0274834c6b6c7 の変更での rubyspec のテスト変更に ruby version による guard を追加しています。 [ruby-core:69711] [Feature #11297] [ruby-core:94511] [Feature #16123]
