@@ -1,0 +1,1 @@
+private メソッドの呼び出しに明示的に self.foo や self.foo= のように self のみ receiver を書けるという仕様変更を NEWS ファイルと doc/syntax/assignment.rdoc、doc/syntax/modules_and_classes.rdoc のドキュメントに反映しています。 [ruby-core:69711] [Feature #11297] [ruby-core:94511] [Feature #16123]
