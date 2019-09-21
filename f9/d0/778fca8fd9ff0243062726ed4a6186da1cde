@@ -1,0 +1,1 @@
+同じく c3f03da4944241f46233ce159068f35c5bd5f9b2 で MakeMakefile::CXX を追加した時に同じく C という変数に MakeMakefile 自身を代入していたのを削除しています。
