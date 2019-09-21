@@ -1,0 +1,1 @@
+7fbd2f7cc247ee66e877ab3c88f0274834c6b6c7 の private なメソッドを self.foo のように呼べるようにする変更で NEWS や doc/syntax/assignment.rdoc で "." までを receiver としてマークアップしてたのを修正しています。 [ruby-core:69711] [Feature #11297] [ruby-core:94511] [Feature #16123]
