@@ -1,0 +1,1 @@
+7fbd2f7cc247ee66e877ab3c88f0274834c6b6c7 の追加変更で代入記号つきのメソッドも private メソッドを self.foo= のように明示的に self を receiver として書けるようにしています。あ、これは別に対応が必要なのか。 [ruby-core:69711] [Feature #11297] [ruby-core:94511] [Feature #16123]
