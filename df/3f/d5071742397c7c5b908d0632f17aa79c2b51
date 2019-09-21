@@ -1,0 +1,1 @@
+ext/-test-/cxxanyargs/extconf.rb および ext/extmk.rb のエラー時の mkmf.log ダンプのデバッグコードを削除。
