@@ -1,0 +1,1 @@
+benchmark/mjit_exec.yml という MJIT 有効化時のメソッド呼び出しのベンチマークを追加しています。
