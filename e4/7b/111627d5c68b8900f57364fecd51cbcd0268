@@ -1,0 +1,1 @@
+vm_call_super() や rb_call0()、rb_check_funcall_default_kw()、rb_check_funcall_with_hook_kw()、call_method_entry() といった関数から rb_vm_call0() を呼んでいたのを、その前後の keyword splat の通常引数への変換やそのためのメモリ管理などの処理をまとめた rb_vm_call_kw() という便利関数があったのでそれを呼ぶようにリファクタリングしていす。
