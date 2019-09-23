@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_push_frame() で cfp を1つたどるのに RUBY_VM_NEXT_CONTROL_FRAME() マクロを使うようにリファクタリングしています。また for 文のカウンタ変数を for 文のところで直接宣言するようにしています。
