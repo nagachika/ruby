@@ -1,0 +1,1 @@
+.github/workflows/draft-release.yml の make install と ruby -v の実行に if: always() というコマンド? を追加しています。2.4 ブランチで make check は失敗することがわかっているので、エラー時にもその後のこれらの処理を実行させようということだと思います。
