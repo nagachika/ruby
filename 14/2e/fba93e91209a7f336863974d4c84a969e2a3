@@ -1,0 +1,1 @@
+cadfaacb2533d47d52dbb5dbefe724d7bf11112e で追加した rb_thread_local_storage() の宣言の修飾子の順番の修正とスタイルの修正。
