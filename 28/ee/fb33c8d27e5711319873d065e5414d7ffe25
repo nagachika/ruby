@@ -1,0 +1,1 @@
+rb_st_copy() という関数は常に struct rb_classext_struct の iv_tbl にセットするために使われているので、rb_iv_tbl_copy() という名前に変更して、関数内で iv_tbl へのセットまで含めて行なうようにリファクタリングしています。
