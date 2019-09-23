@@ -1,0 +1,1 @@
+ENV.each および ENV.each_pair の rdoc 用コメントに戻り値が ENV そのものであることを示すように call-seq を修正しています。またそれを確認するテストを rubyspec に追加しています。 [ruby-core:94908] [Bug #16164]
