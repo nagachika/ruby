@@ -1,0 +1,1 @@
+Hash#dig や Array#dig メソッドは再帰的に要素のオブジェクトへ dig メソッドを呼ぶので、この時 keyword splat によるキーワード引数をその先の dig メソッド呼び出しにそのまま渡せるように check_funcall_missing() に kw_splat 引数を追加したり rb_check_funcall_with_hook() に kw_splat 引数を追加した rb_check_funcall_with_hook_kw() という関数を定義したりしています。
