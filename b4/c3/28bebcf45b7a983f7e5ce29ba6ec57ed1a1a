@@ -1,0 +1,1 @@
+2e551356a7a6e74ba07283e000ff16f5d1ea6506 で追加したテストで deprecated になって警告が出るようになった BigDecimal.new が使われてたので BigDecimal() を使うように修正しています。
