@@ -1,0 +1,1 @@
+Module#class_variables を Class/Module の singleton class に対して使うと、include している Module のクラス変数が漏れてくる不具合を修正。クラス変数をもつ Module を extend するとその Class/Module の singleton_class にもクラス変数が見えてしまうという問題で、一瞬これ仕様じゃないかな? と思いましたが参照はできない(class_variable_get では取得できない)ということで class_variables のみの不具合のようでした。 [ruby-core:54463] [Bug #8297]
