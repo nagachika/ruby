@@ -1,0 +1,1 @@
+private メソッドを self.foo のような記法で呼べるようにするために receiver のチェックをする private_recv_p() というマクロを inline 関数に変更して NODE_SELF の NODE でも nd_state が 0 の場合は拒否するようにチェックを追加しています。 (self).foo のようにかっこでくくった場合は呼べないようにするために struct NODE::nd_state を使うようにしています。
