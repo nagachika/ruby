@@ -1,0 +1,1 @@
+Thread の生成時に thread local storage、ここでは Ruby の Thread オブジェクトが保持する Thread#[], #[]= などでアクセスできる Hash オブジェクトのこと、の初期化を実際にアクセスするまで遅延するようにしています。
