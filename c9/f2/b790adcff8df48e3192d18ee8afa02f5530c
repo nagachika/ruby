@@ -1,0 +1,1 @@
+Enumerator#size でも keyword splat を扱えるように rb_check_funcall() から kw_splat 引数を追加した rb_check_funcall_kw() を定義してこれを使うように修正しています。うへー、こんなふうに C からメソッド呼び出ししている各所を対応していかないといけないのかな。
