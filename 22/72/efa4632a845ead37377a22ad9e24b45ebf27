@@ -1,0 +1,1 @@
+st.c の st_add_direct_with_hash() を static inline 関数として宣言するように変更しています。 8f675cdd00e2c5b5a0f143f5e508dbbafdb20ccd の Transient Heap 対応時にうっかり公開関数にされてしまっていたようです。
