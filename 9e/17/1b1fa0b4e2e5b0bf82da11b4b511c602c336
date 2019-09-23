@@ -1,0 +1,1 @@
+mjit_add_iseq_to_process() において iseq->body->jit_unit->compile_info をセットするのを jit_unit の NULL チェックの前にしていたので後に移動しています。
