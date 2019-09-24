@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の Python 3 対応。 Xcode に含まれる lldb が利用する Python も 3 に移行したみたいですね。試してないけど。
