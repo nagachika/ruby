@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のカーソル操作の関数 console_goto() と console_move() の引数の x, y の順序を y, x に変更しています。 winsize は [row, column] なのでその順序に合わせるとのこと。
