@@ -1,0 +1,1 @@
+Kernel#send や Kernel#public_send  の実装でも keyword splat の通常引数への変換と警告が有効になるようにしています。
