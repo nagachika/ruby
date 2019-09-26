@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のカーソル位置の操作についてのテストは Solaris 環境では skip するようにしています。 mysterious に失敗するとのこと。
