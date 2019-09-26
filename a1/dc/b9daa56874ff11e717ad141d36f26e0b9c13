@@ -1,0 +1,1 @@
+GitHub Actions を使ってリリースパッケージのドラフト版を作る設定でアップロードする時のファイル名を ruby-x.y.z.tar.gz.draft みたいに拡張子の後に .draft と追加してたのを、ruby-x.y.z-draft.tar.gz みたいに拡張子の前につけるように変更しています。
