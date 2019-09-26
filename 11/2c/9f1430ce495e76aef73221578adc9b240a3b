@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドによる Regexp オブジェクト表示で余計な改行が入るのを削っています。
