@@ -1,0 +1,1 @@
+numbered block parameter の仲間でたぶん @0 を implicit block parameter として追加しています。がなんか implicit block parameter は numbered block parameter と競合するらしいのでなんか想像しているのとは違うかも。
