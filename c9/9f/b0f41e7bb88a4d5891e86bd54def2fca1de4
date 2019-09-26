@@ -1,0 +1,1 @@
+やはりさっきのが Solaris での io/console のテスト失敗の原因だったようで 5294ded681992ced2ecbd31c814b63265d2f591e の skip を revert しています。
