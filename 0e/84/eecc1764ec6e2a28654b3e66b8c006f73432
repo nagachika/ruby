@@ -1,0 +1,1 @@
+numbered block parameter はブロックがネストしてるどのブロックのパラメーターになるのか問題ですが、とりあえずその時点で最内のブロックのパラメーターになるようになってたと思いますが、外のブロックで既に numbered parameter が使われていたら numbered parameter は書けないように SyntaxError を発生させるようにしています。
