@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#ruby_code に OpenSSL::PKey::RSA のインスタンスを渡すと渡されたオブジェクトの class (てことはたいてい OpenSSL::PKey::RSA)を返すようにしています。ううーん? なんだろうこれは。
