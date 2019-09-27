@@ -1,0 +1,1 @@
+拡張ライブラリ io_console に IO#console_mode および IO#console_mode= というメソッドを追加。 IO::ConsoleMode というクラスも追加されていてこれをセットすることで raw mode, echo の on/off などの指定/取得が簡単にできるようにしているようです。こういうメソッドまだなかったんだっけ。
