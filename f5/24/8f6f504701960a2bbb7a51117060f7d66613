@@ -1,0 +1,1 @@
+.github/workflows/workflow.yml を追加して GitHub Actions で macOS での rubygems のテスト実行? を行うようにしています。が、これファイルパスの指定とかからみて rubygems のリポジトリからそのまま入っちゃったので ruby リポジトリ用ではないような気がします。
