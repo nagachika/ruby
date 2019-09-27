@@ -1,0 +1,1 @@
+と思ったら 8f2379b0c5e182eb6e417431cbdcf2a0edfba71a の Gem::Specification#ruby_code の変更は revert されて Gem::Specification#to_ruby で signing_key の OpenSSL::PKey::RSA オブジェクトをスキップするようにする修正が入っています。これならテストと対応が取れてますね(正しいのかどうかはよくわかりませんが)。
