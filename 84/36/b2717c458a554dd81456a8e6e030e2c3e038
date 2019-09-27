@@ -1,0 +1,1 @@
+rubygems の Gem::Package に attr_reader :gem を追加しています。
