@@ -1,0 +1,1 @@
+struct RString の flags のブットフラグの定数 STR_IS_SHARED_M をもうちょっと散文的(?)に STR_BORROWED という名前に改名しています。
