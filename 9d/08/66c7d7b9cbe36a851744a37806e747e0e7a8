@@ -1,0 +1,1 @@
+6ffc045a817fbdf04a6945d3c260b55b0fa1fd1e の Symbol#to_s の返す String を freeze されたものにする変更に伴ない Module#name が返す String も freeze されたものをそのまま返すようにしています。 [ruby-core:94815] [Feature #16150]
