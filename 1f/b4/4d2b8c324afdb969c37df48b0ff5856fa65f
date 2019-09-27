@@ -1,0 +1,1 @@
+lib/rubygems/platform.rb で archtecture 判定で linux の時に linux-xxx のような suffix 部分も抽出するようにしています。 libc のバージョンをつけるらしい。 https://github.com/rubygems/rubygems/pull/2918
