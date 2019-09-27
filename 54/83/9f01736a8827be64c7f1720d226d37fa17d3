@@ -1,0 +1,1 @@
+rubygems による Kernel#warn メソッドの再定義で keyword splat の対応を追加したところで JRuby 向けに分岐して従来のメソッド呼び出しをするようにしています。
