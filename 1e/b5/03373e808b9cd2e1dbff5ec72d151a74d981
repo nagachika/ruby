@@ -1,0 +1,1 @@
+rubygems の Gem::Installer#verify_spec で gem の依存関係が runtime なのか development なのかのチェックをよる厳密に行なって不正な type だったら例外にするようにしています。
