@@ -1,0 +1,1 @@
+rubygems でいくつかバージョンに pre-release のバージョンをつけるときに ".a" を付加するように書いてたところを  Gem::Requirement.default_prerelease というメソッドを参照するようにリファクタリング? しています。
