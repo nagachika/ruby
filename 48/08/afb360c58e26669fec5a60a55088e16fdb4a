@@ -1,0 +1,1 @@
+同じく 98d7583bfcf1442c01ebe0288726cacef138d349 で compile.c の freeze_string() も単に rb_fstring() を呼ぶだけになってたので削除して、直接 rb_fstring() を呼ぶようにしています。
