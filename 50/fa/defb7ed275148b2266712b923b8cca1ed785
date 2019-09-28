@@ -1,0 +1,1 @@
+ここまでで insn arena と node arena にわけた ISeq コンパイル時のデータのうち node arena のほうを ISeq の mark 時に内容によって mark 処理するようにしています。これで mark 用配列にオブジェクトを入れる必要がなくなるというのがねらい。
