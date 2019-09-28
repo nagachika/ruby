@@ -1,0 +1,1 @@
+compile.c の iseq_add_mark_object_compile_time() で実際には mark 用配列にオブジェクトを追加せずに、Write Barrier のみ入れるようにしています。
