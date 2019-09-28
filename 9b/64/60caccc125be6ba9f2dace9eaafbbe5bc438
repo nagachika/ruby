@@ -1,0 +1,1 @@
+e197d9ca71570c980274ddd2cb6a32af6c00d95e で mark 用配列への追加は実際には行なわれなくなったので struct iseq_compile_data のメンバー mark_ary を削除しています。
