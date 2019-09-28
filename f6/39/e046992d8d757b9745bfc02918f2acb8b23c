@@ -1,0 +1,1 @@
+compile.c の iseq_add_mark_object_compile_time() を呼び出す位置を変更。 Write Barrier 追加できる位置(GC の mark 処理がそのオブジェクトに到達できるようになっている状態)に移動したとのこと。
