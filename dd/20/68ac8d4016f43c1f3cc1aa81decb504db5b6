@@ -1,0 +1,1 @@
+rb_adjust_argv_kw_splat() の extern 宣言が各所で行なわれてるので internal.h に prototype 宣言するようにしています。
