@@ -1,0 +1,1 @@
+955634283862d9d1966de43c73ece15714afdae2 の追加修正だと思いますが thread_create_core() でキャストする args がそもそも int に収まっているかというのと RARRAY_LENINT() を使ってチェックするようにしています。
