@@ -1,0 +1,1 @@
+続いて compile_data_alloc_insn() では insn のほうの arena を使ってメモリ確保するようにしています。
