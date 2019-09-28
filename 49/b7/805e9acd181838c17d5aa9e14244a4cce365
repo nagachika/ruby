@@ -1,0 +1,1 @@
+fileutils の gemspec ファイルで development_dependency に rake を追加してたのを消しています。かわりに Gemfile を使うとのこと。 upstream からの cherry pick ですね。
