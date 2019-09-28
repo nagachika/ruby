@@ -1,0 +1,1 @@
+Enumerator::Generator#each の引数をブロックに渡すところも keyword splat の変換と警告が有効になるように rb_proc_call_kw() を利用するようにしています。
