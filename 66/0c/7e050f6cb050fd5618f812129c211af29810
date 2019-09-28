@@ -1,0 +1,1 @@
+Enumerator::Yielder の keyword splat 変換と警告の対応や C からブロックを呼び出す API rb_yield_block()、vm_yield()、vm_yield_with_block() などの関数にも keyword splat の情報を伝播させる引数を追加する対応。このシリーズまだあるのか。
