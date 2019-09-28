@@ -1,0 +1,1 @@
+直近の変更で compile.c の iseq_add_mark_object_compile_time() は単に RB_OBJ_WRITTEN() を呼ぶだけになったので関数定義自体を消して呼び元で直接 RB_OBJ_WRITTEN() を呼ぶようにしています。
