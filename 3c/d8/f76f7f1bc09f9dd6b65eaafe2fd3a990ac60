@@ -1,0 +1,1 @@
+451776f13d24b0121b2bdfbe4eaafe7c74069c72 と bd017c633da4fe27c85b5dfc059b85d44a3b7afe の下準備を経て compile.c の struct iseq_compile_data_storage を ISeq 全体のもののほかに Node 毎の? arena というのを準備して使い分けることができるようにしています。というか実質 node のほうを使うように全部切り替えてるっぽいですね。この node のほうの arena には mark 処理できるオブジェクトのみ入れるということだそうです。つまりこれも GC.compact 対応の一環なわけですね。
