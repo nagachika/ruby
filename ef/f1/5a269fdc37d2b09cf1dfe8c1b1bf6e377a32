@@ -1,0 +1,1 @@
+NilClass#to_s, TrueClass#to_s and FalseClass#to_s なども毎回オブジェクトを生成せず freeze された文字列を返すようにしています。 [ruby-core:94815] [Feature #16150]
