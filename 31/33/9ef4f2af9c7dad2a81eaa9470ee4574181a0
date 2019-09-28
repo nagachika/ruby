@@ -1,0 +1,1 @@
+拡張ライブラリ syslog の Syslog::Logger でインスタンス変数 @level を直接参照しているところで attr_reader の level メソッドを使うようにしています。 level メソッドを再定義された時にそれが効くようにするためみたいです。
