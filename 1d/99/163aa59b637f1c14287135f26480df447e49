@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.cp  の実装で対象のファイルが socket (つまり UNIX socket?) だった時に require "socket" するようにして、作成するのに mknod ではなく UNIXServer を利用するようにしています。また fifo を作成する時に mode を保存するようにしています。
