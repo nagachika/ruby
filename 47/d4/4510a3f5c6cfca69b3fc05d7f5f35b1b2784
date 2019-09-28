@@ -1,0 +1,1 @@
+拡張ライブラリ pathname から File.binwrite, File.write, File.readlines, File.open などのメソッドを呼ぶのに rb_funcallv() などを利用していたのも rb_funcallv_kw() を使うようにしています。
