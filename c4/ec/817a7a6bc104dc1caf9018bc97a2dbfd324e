@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#to_ruby のメソッド内に明示的な require "openssl" を追加しています。
