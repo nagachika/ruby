@@ -1,0 +1,1 @@
+OpenSSL が IO オブジェクトに対して sysread/read_nonblock/syswrite/write_nonblock メソッドを呼ぶ時に rb_funcall() にかわり rb_funcallv_kw() を使ってここでも keyword splat の変換と警告が機能するようにしています。水も漏らさぬ対応……とはいえ openssl は default gem になっているので、これを upstream に当てるには古い ruby のバージョンへの対応が必要ですね。
