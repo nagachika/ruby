@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils でグローバル変数 $fileutils_rb_have_lchmod というのを使ってたのをクラス変数に変更しています。
