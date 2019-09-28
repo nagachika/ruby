@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.copy_entry で Windows における symbolic link の対応の修正。 [Bug #12123]
