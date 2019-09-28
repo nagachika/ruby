@@ -1,0 +1,1 @@
+同じく compile.c の freeze_literal() で mark 用配列へ追加していたのを、呼び元で NODE に繋げた後で iseq_add_mark_object_compile_time() を呼ぶように修正しています。
