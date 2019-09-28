@@ -1,0 +1,1 @@
+同様に Fiber#resume の引数を Fiber のブロックに渡す時の keyword splat の変換と警告が機能するようにしています。
