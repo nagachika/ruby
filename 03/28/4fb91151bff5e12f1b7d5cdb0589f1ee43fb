@@ -1,0 +1,1 @@
+テスト用のユーティリティ EnvUtil の assert_in_out_err でエラーメッセージ生成に FailDesc を利用するようにしています。
