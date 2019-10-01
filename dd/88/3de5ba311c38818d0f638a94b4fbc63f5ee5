@@ -1,0 +1,1 @@
+構造体 rb_callable_method_entry_t と rb_method_entry_t の全メンバーに const 修飾子をつけるようにしています。 一箇所だけになった METHOD_ENTRY_FLAGS_COPY() の呼び元に内容を展開して METHOD_ENTRY_FLAGS_COPY() の定義は削除。
