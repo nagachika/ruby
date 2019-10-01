@@ -1,0 +1,1 @@
+メソッド呼び出しやブロック起動に keyword splat の情報を渡せる C API シリーズに rb_funcallv_public_kw()、rb_funcall_passing_block_kw()、rb_yield_splat_kw() などの API を追加しています。
