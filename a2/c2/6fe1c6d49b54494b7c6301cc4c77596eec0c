@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI.encode_www_form_component で form component に使えない文字を実体参照に変換する時に "#" が不足していたのを修正しています。 [ruby-core:84868] [Bug #14358]
