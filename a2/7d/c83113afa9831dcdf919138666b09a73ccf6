@@ -1,0 +1,1 @@
+4096e4b08c46dddb8edc9dabf70e737946ac6df8 の再修正。tool/test-bundled-gems.rb にそれを実行している ruby 自体のファイルパスを渡すようにしています。
