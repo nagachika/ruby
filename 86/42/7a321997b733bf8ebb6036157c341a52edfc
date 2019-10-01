@@ -1,0 +1,2 @@
+ここから dd883de5ba311c38818d0f638a94b4fbc63f5ee5 までは fba8627dc1c5b191713edeb5fc21cbe0ddde9e3c の invokeblock VM 命令での分岐を消すため構造体 struct rb_call_cache の def メンバーを消すためにこれを使っている箇所をなくすための変更が続きます。
+method.h の METHOD_ENTRY_COMPLEMENTED() というマクロを削除して呼び元の rb_free_method_entry() で直接 rb_method_definition_t::complemented_count で判定するようにしています。
