@@ -1,0 +1,1 @@
+メソッド呼び出しやブロック呼び出しの関数群の kw_splat 引数に渡して keyword splat を渡さないことを明示するためのフラグの定数 VM_NO_KEYWORDS を削除して RB_NO_KEYWORDS を同じ用途に使いまわすようにしています。
