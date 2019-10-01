@@ -1,0 +1,1 @@
+c3b84f2de83a27acc638f99743bfa2c44bac621c のデバッグ用に tool/lib/leakchecker.rb に追加したチェックを revert しています。
