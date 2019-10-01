@@ -1,0 +1,1 @@
+595b3c4fddc5cde58add2fa2637acb2664694194 の続きで rb_method_definition_set() で rb_method_definition_t の内容を memcpy(3) で書き換えるのはやめて生成時に適切にセットしておくようにしています。
