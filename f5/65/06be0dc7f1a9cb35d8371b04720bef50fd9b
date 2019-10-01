@@ -1,0 +1,1 @@
+id_table.h の enum rb_id_table_iterator_result の最後の要素 ID_TABLE_ITERATOR_RESULT_END を削除しています。未使用なので。たぶん以前 trailing comma が使えなかった時に毎回要素を追加するたびに2行変更になるのを防ぐために番兵的に置いてたやつだろうな。
