@@ -1,0 +1,1 @@
+rb_method_entry_alloc() の引数に flags を追加して rb_method_entry_t::flags も初期化してから返すようにしています。ついでに(?)構造体 rb_method_entry_t も一旦確保してから内容を書き換えないようにしようとしているようです。もっとも rb_method_entry_alloc() 内でも一旦確保してから METHOD_ENTRY_FLAGS_COPY() でコピーしてますが、これも後で消されます。
