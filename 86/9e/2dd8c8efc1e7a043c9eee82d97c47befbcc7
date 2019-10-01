@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI.escape と URI.unescape の deprecated 警告を $VERBOSE の設定によらず常に出力するようにしています。 [ruby-core:93372] [Feature #15961]
