@@ -1,0 +1,1 @@
+d53cf854741bbf496298c5a722988d2dd84314a1 で Struct.new の keyword_init キーワード引数での警告抑制のため rb_funcall_passing_block() でメソッド呼び出しで module_eval を呼び出すようにしてましたが、これを revert して rb_mod_module_eval() を直接呼び出すように戻し、module_eval や instance_eval, instance_exec などのブロックを特定のコンテキスト化で実行するメソッドの実装関数で keyword splat の伝播を明示的に指定するようにしています。
