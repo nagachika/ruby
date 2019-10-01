@@ -1,0 +1,1 @@
+167e6b48f1b321d671998728adf5a0db06d24445 と同様に METHOD_ENTRY_FLAGS_COPY() を使ってる場所を減らして rb_method_entry_t を確保する rb_method_entry_create() は引数に元となる rb_method_entry_t を受け取る rb_method_entry_from_template() という関数に変更しています。
