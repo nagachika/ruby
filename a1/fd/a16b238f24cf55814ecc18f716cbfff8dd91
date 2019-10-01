@@ -1,0 +1,1 @@
+Array#flatten で実際に展開する子 Arrayがなかった時に中間オブジェクトの確保を抑制する最適化。 https://github.com/ruby/ruby/pull/2495 [ruby-core:94501] [Bug #16119]
