@@ -1,0 +1,1 @@
+c11c5e69ac66ae10255a20a6b84e481f0423703d で切り出した the_location() という関数(見過してたけどすごい名前の関数だ)で rb_method_attr_t::location に空を表すつもりで Qnil を返してたのを Qfalse に修正しています。ここは 0 (Qfalse) で判定していた模様。
