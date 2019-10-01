@@ -1,0 +1,1 @@
+3207979278bea11c50cb84f4044047b9c503230b の変更で VM_ASSERT() でチェックしている rb_method_entry_t の条件は callable_method_entry_p() だと型がおかしいみたいなので、 rb_method_entry_t::defined_class を callable_class_p() でチェックするように修正しています。
