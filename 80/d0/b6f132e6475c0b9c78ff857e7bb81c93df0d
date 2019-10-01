@@ -1,0 +1,1 @@
+gems/bundled_gems の minitest と rake のバージョンをそれぞれ 5.12.0 と 13.0.0 に更新しています。
