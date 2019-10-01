@@ -1,0 +1,1 @@
+make test-bundled-gems のルールに直接書いてあった shell の内容を tool/test-bundled-gems.rb というファイルに分離して Makefile のほうをシンプルに記述するようにしています。
