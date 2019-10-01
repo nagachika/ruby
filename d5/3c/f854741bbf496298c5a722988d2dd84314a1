@@ -1,0 +1,1 @@
+Struct.new の keyword_init キーワード引数を渡した時に誤って keyword splat の警告が出ていたのに対応しています。 Struct.new で rb_mod_module_eval() を直接呼んでいたのを rb_funcall_passing_block() を使ってメソッド呼び出し経由で module_eval を呼ぶようにしています。
