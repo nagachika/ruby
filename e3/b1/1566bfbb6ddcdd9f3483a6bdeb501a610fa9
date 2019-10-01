@@ -1,0 +1,1 @@
+GitHub Actions の macOS と Ubuntu の workflow から make test-bundled-gems のエラーを無視させる設定を消しています。
