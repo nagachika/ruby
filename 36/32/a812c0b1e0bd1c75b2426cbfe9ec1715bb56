@@ -1,0 +1,1 @@
+id_table.c の rb_id_table_foreach() や rb_id_table_foreach_with_replace() から共通部分を rb_id_table_foreach_with_replace_with_key() という関数に切り出すリファクタリング。
