@@ -1,0 +1,1 @@
+d090e449ef4e92b2020e51fe495cd039e4f6fdda の GitHub Actions の macOS と Ubuntu 環境の設定で make test-bundled-gems で test-unit のテストのエラー無視する設定を revert しています。
