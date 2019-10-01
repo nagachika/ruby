@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で古い名前の rb_funcall2() を使っていたところを rb_funcallv() を使うように修正しています。
