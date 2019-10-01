@@ -1,0 +1,1 @@
+構造体 rb_method_iseq_t や rb_method_cfunc_t、rb_method_attr_t、rb_method_alias_t、rb_method_refined_t、rb_method_bmethod_t、rb_method_definition_t などのメソッド関連のメンバに const を付けています。
