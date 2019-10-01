@@ -1,0 +1,1 @@
+c11c5e69ac66ae10255a20a6b84e481f0423703d のリファクタリングで分割した rb_method_definition_new() をrb_method_definition_create() から利用して rb_method_definition_t の内容を適切に初期化するところまでまとめてやるようにしています。
