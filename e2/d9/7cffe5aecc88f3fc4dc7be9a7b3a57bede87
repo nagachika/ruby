@@ -1,0 +1,1 @@
+Array#to_s が各要素を文字列化する際に inspect メソッドを呼ぶことを rdoc 用コメントに明記しています。 [ruby-list:50826]
