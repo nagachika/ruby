@@ -1,0 +1,1 @@
+rubyspec の rubygems のテストで ruby 本体のテストで make install していない場合には通せないテストを回避するようにしています。
