@@ -1,0 +1,1 @@
+拡張ライブラリ zlib で古い ruby 向けに rb_nogvl() がない時にかわりに rb_thread_call_without_gvl() を使うようにしているのと、キーワード引数の警告抑制のための rb_class_new_instance_kw() も古い ruby 向けの fallback マクロを定義するようにしています。
