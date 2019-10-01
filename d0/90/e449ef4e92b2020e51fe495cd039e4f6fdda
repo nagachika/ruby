@@ -1,0 +1,1 @@
+同じく GitHub Actions の macOS と Ubuntu の設定で make test-bundled-gems のテストでエラーを無視する gem に test-unit を追加しています。
