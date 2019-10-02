@@ -1,0 +1,1 @@
+タグを打った時にパッケージを作るための GitHub Actions の設定ファイル .github/workflows/draft-release.yml を削除しています。 GitHub Actions はタグに反応する場合そのタグを打った commit の tree の .github/workflows を使って処理するみたいなので、安定版に .github/workflows が含まれてないと動かなかったので、専用のリポジトリで動かすことにしてメインのリポジトリからは消しています。
