@@ -1,0 +1,1 @@
+1edcfd610703fb6f773e8f31f88f8ca920bda1ac の add_empty_keyword() (その後改名されて今は rb_adjust_argv_kw_splat()) の条件分岐が誤ってたのを修正しています。 argc が 0 の時も警告を出力するようにしています。
