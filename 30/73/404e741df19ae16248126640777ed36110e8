@@ -1,0 +1,1 @@
+Enumerable#lazy で Enumerator::Lazy を作る時に keyword splat の有無の設定を伝播させるようにしています。また size メソッドの定義つきで Enumerator を生成する C API に keyword splat の指定も追加した rb_enumeratorize_with_size_kw() およびマクロ SIZED_ENUMERATOR_KW() なども追加しています。
