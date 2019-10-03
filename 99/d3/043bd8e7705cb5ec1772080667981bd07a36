@@ -1,0 +1,1 @@
+6a9ce1fea89bc5c6518dd6bb7ff3b824a9321976  でメソッド定義の引数に **nil と書いて余分なキーワード引数を受け付けないことを明示できるようになったのにあわせて RubyVM::InstructionSequence#to_binary でバイナリフォーマットでダンプする時のフォーマットのフラグも拡張しています。 https://github.com/ruby/ruby/pull/2508
