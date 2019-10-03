@@ -1,0 +1,1 @@
+tool/lib/iseq_loader_checker.rb の ISeq の to_s やバイナリフォーマットへのダンプのチェックで parallel test 時に対応するようにしているようです。これテスト時に差し込んで使われるものだったんだ。  https://github.com/ruby/ruby/pull/2508
