@@ -1,0 +1,1 @@
+tool/make-snapshot で make update-download や make prepare-package を実行する子プロセスがエラーだった時に Kernel#system が false を返すのをチェックしていなかったので、なにかエラーがあっても処理が進んでしまっていたのでエラーメッセージを表示して終了するようにしています。
