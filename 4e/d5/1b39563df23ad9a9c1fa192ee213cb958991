@@ -1,0 +1,1 @@
+a61ae414b6f8310c9dff9a6f18b6064499167513 で tool/make-snapshot で make prepare-package と make clean-cache を別の make コマンドに分けて実行するようにした時に make clean-cache が失敗した時のメッセージが prepare-package のままだったので修正しています。
