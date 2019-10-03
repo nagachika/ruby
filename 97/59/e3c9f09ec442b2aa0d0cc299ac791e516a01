@@ -1,0 +1,1 @@
+84cbce3d880f0d6a51ccf3622b8d1e79132b9a0e の変更で test/unit も弄った影響か test/unit の parallel test 自体のテストで worker が返した payload の内容チェックの値をちょっと変更しています。 これまで動いてなかった checker が動くようになった影響かな。
