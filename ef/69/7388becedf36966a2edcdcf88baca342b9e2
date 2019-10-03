@@ -1,0 +1,1 @@
+メソッド内でない class/module 文のコンテキストにある proc や Proc.new のブロックなどからの return がエラーになってなかった(lambda のブロックの場合は return は break 相当なので OK)ので LongJumpError にするように修正しています。 2.4 で top-level return を導入した影響でエラーにならなくなってたみたいです。これは不具合扱いでもいいような気もするけど rubyspec は一応 2.7 限定でテスト変更しています。てか rubyspec はこれを認識してたのか。 https://github.com/ruby/ruby/pull/2511
