@@ -1,0 +1,1 @@
+tool/make-snapshot が生成する Makefile で update-download の依存関係に after-update が書かれてたのを prepare-package の依存関係に移動しています。
