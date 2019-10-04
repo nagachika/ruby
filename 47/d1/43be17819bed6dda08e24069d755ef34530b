@@ -1,0 +1,1 @@
+tool/make-snapshot で gem パッケージや Unicode 用データファイルの cache への symlink を生成していたところをやめて直接コピーするようにしています。またコピーしたファイルの mode を rwXr-Xr-X に設定しなおすようにしています。
