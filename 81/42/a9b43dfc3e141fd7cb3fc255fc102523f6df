@@ -1,0 +1,1 @@
+tool/make-snapshot の 5af2c8735a22e6b54acf4164b1f1f7bac98e7111 で system のエラーを検出するようにしたのを MAKE っていうクラスに分離して Process.spawn を使って make コマンドを実行するようにしています。これ ensure での Process.wait は Process.spawn で例外発生時にエラーになるんじゃないかな。どっちみちエラーではあるけど。
