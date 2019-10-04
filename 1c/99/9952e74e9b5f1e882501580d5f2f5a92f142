@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect で T_ARRAY 型オブジェクトの表示で文字列への埋め込みを忘れてた変数があったのを修正しています。
