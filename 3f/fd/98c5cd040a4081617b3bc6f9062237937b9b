@@ -1,0 +1,1 @@
+VM の debug counters に mc_miss_by_xxx といった method cache の cache miss を原因ごとにカウントするカウンタを追加しています。
