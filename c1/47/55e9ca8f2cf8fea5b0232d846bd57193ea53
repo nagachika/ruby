@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の Test::Unit::CoreAssertions::MiniTest という深いところにある module の Skip という例外クラスを同じ名前空間の Assertion という例外クラスを継承するようにしています。 minitest との互換性のためらしい。
