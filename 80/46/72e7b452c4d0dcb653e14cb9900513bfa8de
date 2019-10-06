@@ -1,0 +1,1 @@
+bdbf8de4980ef54f466809ee27a9f2a00614b0f0 で追加した .drone.yml で master のみビルド対象になるようにしています。
