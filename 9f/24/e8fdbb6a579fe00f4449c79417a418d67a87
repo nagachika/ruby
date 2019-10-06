@@ -1,0 +1,1 @@
+doc/extension.rdoc にメソッドやブロック起動で keyword splat 対応した rb_xxx_kw() みたいな名前の C API の追加ぶんについて追記しています。
