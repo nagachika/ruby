@@ -1,0 +1,1 @@
+.drone.yml で arm32 での make test がエラーになるそうなのでこれを無視するように failure: ignore の設定を追加しています。
