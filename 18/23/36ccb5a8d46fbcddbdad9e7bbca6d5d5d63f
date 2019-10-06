@@ -1,0 +1,1 @@
+rubyspec の Gem.bin_path についてのテストを Windows 環境では常に skip するようにしています。
