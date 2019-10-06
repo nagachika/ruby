@@ -1,0 +1,1 @@
+b43afa0a8f82a5d806adc24afa2eaf41479da1a3 の変更で parse.y で rb_iseq_t という型を使ってましたが、ここでは typedef されてなかったということで struct rb_iseq_struct を使うようにしています。そうなのか。
