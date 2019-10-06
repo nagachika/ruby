@@ -1,0 +1,1 @@
+GC.compact で参照を移動させる gc_update_object_references() で T_IMEMO 型オブジェクトの時の switch 文の break を return に変更。 T_IMEMO では klass を変更しないので UPDATE_IF_MOVED() は呼ばなくていいらしい。
