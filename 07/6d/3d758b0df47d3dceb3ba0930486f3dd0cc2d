@@ -1,0 +1,1 @@
+拡張ライブラリ json で 91793b8967e0531bd1159a8ff0cc7e50739c7620、79ead821dd4880725c9c6bb9645b3fad71715c5b、80b5a0ff2a7709367178f29d4ebe1c54122b1c27 などで ext/json/parser/parser.c を直接編集していましたが、このソースコードは parser.rl から自動生成されるものなので元になっている parser.rl のほうにも対応する変更を入れています。
