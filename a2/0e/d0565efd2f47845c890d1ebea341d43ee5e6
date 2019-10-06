@@ -1,0 +1,1 @@
+gc.c の gc_compact() で gc_compact_stats() という関数の戻り値を返すようにしていたのを消して戻り値なしに変更しています。かわりに戻り値を使っている rb_gc_compact() や gc_verify_compaction_references() の呼び元のほうで gc_compact_stats() を呼ぶようにリファクタリングしています。
