@@ -1,0 +1,1 @@
+711c40ebdcd0974ef3e6ac6870412dc88ae25f3e の変更とも関連しそうですが RubyVM::InstructionSequence.compile で文字列から ISeq を作るのは eval とは違ってコンテキストは引き継がないので parent_iseq が NULL を渡しているので、通常のスクリプトのように末尾に未使用の参照があると警告が出るそうで、けどそれは抑制したい(compile した ISeq をメソッド内に埋め込むみたいに評価結果を使うようなことをしたい?)ので  dummy の rb_iseq_t を作って渡すようにしています。
