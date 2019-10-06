@@ -1,0 +1,1 @@
+rubygems の Gem::Package のテストで Zlib::GzipReader.wrap というメソッド(ってこれはなんだろう)にキーワード引数を渡すのになぜか Hash を作ってから **opts で keyword splat 使って渡してたのを普通に渡すようにしています。
