@@ -1,0 +1,1 @@
+同じく rubygems の Gem::Package のテストで素の assert を使ってたのを assert_kind_of とか assert_operator とか適切な assertion メソッドを使うようにしてエラー時のメッセージがわかりやすくなるようにしています。
