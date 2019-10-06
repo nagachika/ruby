@@ -1,0 +1,1 @@
+Process::Status#to_i の rdoc 用コメントの call-seq に to_int も別名であるかのように書かれていましたが、実際には定義されていなかったので削除しています。
