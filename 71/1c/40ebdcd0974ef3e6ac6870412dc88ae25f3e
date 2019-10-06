@@ -1,0 +1,1 @@
+parse.y の struct parser_param から in_main というフラグ(トップレベル、とはちょっと違うのか。直接実行するスクリプト毎の最上位のみ?)を削除し、main のスクリプトの parse 時にも base_block を NULL にするようにしています。eval 系の時は base_block に値が入るらしい。
