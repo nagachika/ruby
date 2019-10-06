@@ -1,0 +1,1 @@
+711c40ebdcd0974ef3e6ac6870412dc88ae25f3e の続きでローカル変数の定義時に struct parser_param::base_block を利用せず rb_iseq_t を直接参照するようにしています。
