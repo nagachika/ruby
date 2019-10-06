@@ -1,0 +1,1 @@
+common.mk の ext/ripper/ripper.c、ext/json/parser/parser.c、ext/date/zonetab.h などの自動生成されるソースコードの依存関係に depend ファイルや prereq.mk を追加しています。
