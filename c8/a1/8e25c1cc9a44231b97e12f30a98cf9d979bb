@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile で使う rb_iseq_compile_with_option() の引数から struct rb_block のポインタを削除しています。ここに NULL 以外を渡す rb_iseq_compile_on_base() という関数がそもそも使われてなかったとのこと。
