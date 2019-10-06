@@ -1,0 +1,1 @@
+.drone.yml を追加し Drone という CI ツールで ARM のテストを実行できるようにしています。 Drone ひさしぶりにきいた。これは自前でホストするやつじゃなくてサービスとして提供されているものが使えるってことかな? https://github.com/ruby/ruby/pull/2520 [ruby-core:95201] [Misc #16234]
