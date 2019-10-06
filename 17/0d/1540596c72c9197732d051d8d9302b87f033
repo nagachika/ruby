@@ -1,0 +1,1 @@
+signal.c で MINSIGSTKSZ というマクロを参照する時に int にキャストするようにしています。 OpenBSD の環境でこのマクロが unsigned な値だったらしく警告が出ていたのを抑制しています。
