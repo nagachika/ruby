@@ -1,0 +1,1 @@
+b659c1b92f3d5f251a3436073cd60d955d5fc457 で導入した Gem::Dependency#identity メソッドを使って Gem::SpecFetcher#search_for_dependency の一部をおきかえています。
