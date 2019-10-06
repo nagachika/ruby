@@ -1,0 +1,1 @@
+rubygems の Gem::Package のテストで assert_equal の引数の expected と actual が反対になってたのを修正しています。
