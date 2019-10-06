@@ -1,0 +1,1 @@
+182336ccb5a8d46fbcddbdad9e7bbca6d5d5d63f の追加修正で rubyspec の Gem.bin_path のテストの guard が guard_not + platform_is になってたのを platform_is_not を使うようにリファクタリング。 guard_not が思ったように動いてないらしいという問題もあったようです。
