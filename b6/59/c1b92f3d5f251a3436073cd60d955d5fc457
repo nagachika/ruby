@@ -1,0 +1,1 @@
+rubygems の Gem::Dependency#identity メソッドというのを追加して、依存関係のバージョンの指定の種類が取れるようにしているようです。
