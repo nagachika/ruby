@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で ossl_sslctx_session_get_cb() の型を判定するのに LibreSSL を使っている時は無条件で const なしの引数の宣言を使ってましたが、LIBRESSL_VERSION_NUMBER の範囲もチェックして 2.8 以降だったら const つきを使うようにしています。
