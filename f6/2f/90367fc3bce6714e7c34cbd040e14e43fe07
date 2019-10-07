@@ -1,0 +1,1 @@
+r67315 で rest 引数のないメソッドの呼び出しのための最適化パスを追加した際に末尾再帰最適化のオプションつきで ISeq を compile した時の考慮が漏れてたので、VM_CALL_TAILCALL をチェックして有効だった時のためまた別の実装を使うようにして対応を復活させています。 https://github.com/ruby/ruby/pull/2528 [ruby-core:94881] [Bug #16161]
