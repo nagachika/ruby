@@ -1,0 +1,1 @@
+DTrace のテストの helper で Linux で stap が使えるかのチェックのために実行ユーザーが stapusr stapdev のいずれかの group に入ってるかのチェックで Etc.getgrnam が nil を返した時の例外処理を追加しています。
