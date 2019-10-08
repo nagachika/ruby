@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor で出力の flush を数カ所追加しています。
