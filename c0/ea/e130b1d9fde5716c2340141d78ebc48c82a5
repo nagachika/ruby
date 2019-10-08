@@ -1,0 +1,1 @@
+keyword splat の処理にまつわる C API の定数 RB_SCAN_ARGS_EMPTY_KEYWORDS と RB_PASS_EMPTY_KEYWORDS のコメントに 3.0 で削除する旨追記しています。
