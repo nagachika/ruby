@@ -1,0 +1,1 @@
+テストで long の最大値を計算するのに RbConfig::SIZEOF から計算していたところを RbConfig::LIMITS を利用するようにしています。
