@@ -1,0 +1,1 @@
+0a2f04e156cb717dcf78f2ea9bfe26f864a24616 と 058db33c5ec881271d028b7490d88b3baed74acb の続きで空になった page を tomb heap に移動する条件に heap_pages_freeable_pages のチェックも追加しています。なんだっけこれ。
