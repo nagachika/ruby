@@ -1,0 +1,1 @@
+tool/make-snapshot でパッケージ作成中に info.yaml と info.json というファイルを生成するようにしています。これは www.ruby-lang.org のリリース時の releases.yml に追記するための情報を出力するためのものです。
