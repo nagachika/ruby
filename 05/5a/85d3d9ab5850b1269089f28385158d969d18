@@ -1,0 +1,1 @@
+NEWS ファイルに ruby2_keywords について追記しています。また File.realpath の追加、Pathname() の仕様変更、keyword argument 関係の C API 追加などについても追記しています。
