@@ -1,0 +1,1 @@
+GC.compact で最後に T_MOVED に変更されたオブジェクトを解放するのに最後に garbage_collect() を呼んでたのを moved_list を辿りつつ直接 free list に追加していくように変更しています。
