@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで assert_equal の引数の expected と actual が反対になってたのを修正しています。
