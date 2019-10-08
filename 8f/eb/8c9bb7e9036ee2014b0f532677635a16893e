@@ -1,0 +1,1 @@
+parse.y の struct parser_params のメンバー delayed、delayed_line、delayed_col をまとめて構造体にしてネストさせるように宣言を変更しています。
