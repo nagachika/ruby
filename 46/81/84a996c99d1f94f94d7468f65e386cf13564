@@ -1,0 +1,1 @@
+キーワード引数の移行のために用意されている Kernel#ruby2_keywords メソッドの引数に Module#define_method で block から作られたメソッドにも対応するようにしています。
