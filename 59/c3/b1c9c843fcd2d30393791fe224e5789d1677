@@ -1,0 +1,1 @@
+doc/extension.rdoc に 2.6 以前の ruby 向けに 2.7 で追加された keyword argument 関係の C API の代替実装するのにこう書けばいいよっていうサンプルを追記しています。
