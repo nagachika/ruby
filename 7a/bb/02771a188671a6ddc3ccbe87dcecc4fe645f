@@ -1,0 +1,1 @@
+3374e1450c18c33420f616f41ad7f884fdb4df21 の tool/make-snapshot の JSON と YAML の出力のヘッダが逆になっていたのを修正。
