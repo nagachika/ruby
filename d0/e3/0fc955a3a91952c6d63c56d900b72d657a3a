@@ -1,0 +1,1 @@
+メソッドの引数の keyword splat の変換や警告出力をまとめている関数 rb_adjust_argv_kw_splat() で引数を一時バッファにコピーする時にサイズ 0 だったら memcpy(3) を呼ばないように修正しています。 Coverity Scan が警告を出すのでそれを回避するためみたいです。
