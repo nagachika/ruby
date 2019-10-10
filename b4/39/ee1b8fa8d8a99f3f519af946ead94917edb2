@@ -1,0 +1,1 @@
+lib/net/http/status.rb になぜかあった shebang の行を削除しています。
