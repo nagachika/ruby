@@ -1,0 +1,1 @@
+internal.h の ruby_sized_xrealloc2() の定義に ruby_xrealloc() を使っていて引数の数が間違ってたのを ruby_xrealloc2() に展開するように修正しています。
