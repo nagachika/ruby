@@ -1,0 +1,1 @@
+2f3b4029da1b64ffb989916a8b74e17c366e45b0 の続きかと思いますが ruby_xmalloc()、ruby_xmalloc2()、ruby_xcalloc() などの定義に __attribute__((__malloc__)) をつけて宣言するようにしています。
