@@ -1,0 +1,1 @@
+misc/lldb_cruby.py で String オブジェクトの文字列を取り出すのに struct RVALUE に embedding されてる時の取り出しかたが間違ってたのを修正。
