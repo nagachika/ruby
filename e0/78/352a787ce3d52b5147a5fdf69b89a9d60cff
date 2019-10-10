@@ -1,0 +1,1 @@
+同じく misc/lldb_cruby.py の lldb_inspect 関数で 98131f148f057b1364ae080f99b1efb2dc72002a で修正した string2cstr を使って文字列の内容をサイズも指定して表示するようにしています。
