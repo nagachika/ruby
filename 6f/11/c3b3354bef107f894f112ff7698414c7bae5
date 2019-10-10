@@ -1,0 +1,1 @@
+.github/workflow の GitHub Actions の設定ファイルでコミットログに '[ci skip]' が含まれてたらジョブ全体をスキップするという条件を追加しています。ジョブ全体に効く if の機能が GitHub Actions に追加された模様。
