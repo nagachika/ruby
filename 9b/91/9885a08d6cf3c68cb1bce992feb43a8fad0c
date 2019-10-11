@@ -1,0 +1,1 @@
+7e0ae1698d4db0baec858a46de8d1ae875360cf5 の rb_xmalloc_mul_add_mul() という関数導入時に変数代入の間違いがあったのを修正しています。
