@@ -1,0 +1,1 @@
+203b7fa1ae8cc40d41c38d684f70b3fea7fae813 の再修正。 openssl が内部的に使っている変数を GC の mark 対象にするのに rb_global_variable() を使っていたのを rb_gc_register_mark_object() を使うようにしてオブジェクト確保後に呼ぶようにしています。変数のアドレスを直接 root にするんじゃなくてオブジェクトを mark 用配列に入れるのでこちらのほうがちょっとスマート。 [ruby-core:95179] [Bug #16196]
