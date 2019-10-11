@@ -1,0 +1,1 @@
+error.c の rb_bug_context() を rb_bug_for_fatal_signal() に改名しています。
