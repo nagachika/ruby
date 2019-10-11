@@ -1,0 +1,1 @@
+rubygems の Gem::Package::TarReader で IO に seek を呼ぶ前に respond_to? でチェックするようにしています。毎回呼んでみて例外を rescue してたのが遅いのでそれを回避するようにしています。
