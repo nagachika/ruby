@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で ASN1 のタグ名? を管理する Hash オブジェクトを rb_global_variable() で GC の root にするのを、実際にオブジェクトを代入する前にやっておくようにしています。すぐに呼んでたから大丈夫かなと思ったけど rb_global_variable() 自体が中で ALLOC() を呼んでるのでそこで GC が走る可能性があるんですね。 [ruby-core:95179] [Bug #16196]
