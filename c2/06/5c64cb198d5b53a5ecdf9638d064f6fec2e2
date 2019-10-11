@@ -1,0 +1,1 @@
+numbered parameter のスコープの情報を保持するのを struct parser_params に直接保存していたのを struct local_vars に移動してローカル変数のスコープ毎に管理するようにしています。ブロック内でメソッド定義したりした時にその中のブロックにローカル変数のスコープが分かれている外側のブロックでの numbered parameter の利用が影響してしまっていたのを修正しています。 [ruby-core:95294] [Bug #16248]
