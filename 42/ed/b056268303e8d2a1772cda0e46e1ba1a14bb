@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_declare_class() と vm_declare_module() からクラス名設定のため名前の文字列を生成して定数に設定する処理を declare_under() という関数に切り出すリファクタリング。
