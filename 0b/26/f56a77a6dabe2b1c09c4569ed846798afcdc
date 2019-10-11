@@ -1,0 +1,1 @@
+6f11c3b3354bef107f894f112ff7698414c7bae5 で GitHub Actions の job level if で [ci skip] がコミットログに含まれてたらテストをスキップするようになったので、各ステップ毎に書いてた if は削除しています。
