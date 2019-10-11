@@ -1,0 +1,1 @@
+negative_size_allocation_error() の宣言に NORETURN() をつけています。
