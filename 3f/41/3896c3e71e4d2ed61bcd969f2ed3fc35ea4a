@@ -1,0 +1,1 @@
+f1ce4897f2eaf9a99c250e4707e3ab6f6bdacb74 で一部 revert したために不要になった "ruby/thread.h" の include を error.c から削除しています。
