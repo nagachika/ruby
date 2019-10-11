@@ -1,0 +1,1 @@
+891cbd66a411725d7300a28b1a95619c2902f0eb のさらに続きで rb_bug_for_fatal_signal() の第1引数の型を vm_core.h で ruby_sighandler_t と定義しておいてこれを使うようにしています。
