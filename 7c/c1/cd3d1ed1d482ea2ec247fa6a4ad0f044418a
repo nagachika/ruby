@@ -1,0 +1,1 @@
+Module#define_method に渡された引数が誤っていた時の例外メッセージに Proc/Method を渡すべしと書かれてましたが UnboundMethod でも OK なのでそれも追記しています。
