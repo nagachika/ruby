@@ -1,0 +1,1 @@
+r60856 (e33b1690d06f867e45750bd8e3e8b06d78b5bc26) で win32.c の socket 管理の変更の時に NtSocketsInitialized という変数をマクロにしてほぼ未使用に近い状態だったのを削除して冗長な分岐を削除しています。 https://github.com/ruby/ruby/pull/2312
