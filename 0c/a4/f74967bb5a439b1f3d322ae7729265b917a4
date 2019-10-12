@@ -1,0 +1,1 @@
+起動時に VM 命令の ID と通し番号を登録する st_table の初期化時にサイズを指定する st_init_numtable_with_size() を使うようにしてちょっとした最適化。
