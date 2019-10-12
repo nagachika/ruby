@@ -1,0 +1,1 @@
+doc/syntax/ の下のドキュメントや doc/keywords.rdoc で expression と statement (式と文、かな)という単語の利用を若干修正して、後置の if/unless/rescue などの記法についてのドキュメントを追加しています。 [ruby-core:94221] [Bug #16092]
