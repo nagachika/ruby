@@ -1,0 +1,1 @@
+Binding#irb で irb のセッションを起動した時に __FILE__ や __dir__ が起動されたファイルを指すように binding_irb.context.irb_path をセットするようにしています。 https://github.com/ruby/ruby/pull/1896
