@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate で BasicObject には respond_to? メソッドすらないので Kernel#respond_to? を UnboundMethod として取り出して bind_call で対象のオブジェクトに bind して呼ぶことで BasicObject への委譲もできるようにしています。 [ruby-core:94541] [Bug #16127]
