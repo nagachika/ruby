@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で UnboundMethod#bind と Method#call を組み合わせてたところを UnboundMethod#bind_call を使うようにリファクタリング。古い ruby で…と思ったけど uri はまだ default gem 化されてなかったですね。
