@@ -1,0 +1,1 @@
+710bc003791b90adf3970e137c69f283c88234cd の続きで RB_METHOD_DEFINITION_DECL_XXX() の移動にあわせて __has_attribute() が未定義の時の代替定義も include/ruby/internal.h に移動してします。
