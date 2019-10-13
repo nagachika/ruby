@@ -1,0 +1,1 @@
+include/ruby/ruby.h にあった C++ でのメソッド定義系関数でのコールバック関数の引数の数のチェックを行うためのマクロ定義を include/ruby/intern.h に移動しています。 ruby.h を include する前に intern.h の宣言で使われていたので。
