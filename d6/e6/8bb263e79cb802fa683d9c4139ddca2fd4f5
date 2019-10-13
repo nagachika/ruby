@@ -1,0 +1,1 @@
+ruby 本体に組み込まれて起動時に評価される prelude.rb で Thread.exclusive で deprecated 警告を表示する Kernel#warn に uplevel キーワード引数を追加して呼び元の位置を表示させるようにしています。
