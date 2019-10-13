@@ -1,0 +1,1 @@
+標準添付ライブラリ rexml に upstream の変更をマージしてバージョンを 3.2.3 に更新しています。変更点は REXML::XMLDecl に writethis というインスタンス変数を追加しているだけのようです。 https://github.com/ruby/ruby/pull/2548
