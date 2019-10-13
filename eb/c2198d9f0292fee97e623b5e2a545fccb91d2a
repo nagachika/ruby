@@ -1,0 +1,1 @@
+re.c の match_set_string() において onig_region_resize() の戻り値のチェックをしてメモリ確保失敗時に NoMemoryError 例外を発生させるように修正しています。 Coverity Scan の検出とのこと。
