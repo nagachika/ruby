@@ -1,0 +1,1 @@
+missing/setproctitle.c の setproctitle() の代替実装で引数 fmt が NULL の時の分岐を消して fmt に NULL が渡されるのは不正ということにしています。 fmt が NULL の時にバッファが未初期化のまま使われてしまうのを Coverity Scan が検出したとのこと。
