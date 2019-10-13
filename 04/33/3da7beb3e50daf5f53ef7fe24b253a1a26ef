@@ -1,0 +1,1 @@
+eval.c の "clobbered by 'longjmp' or 'vfork'" 警告が gcc 9.2.0 で出るようになったそうでその除去のため volatile 宣言した変数を導入。
