@@ -1,0 +1,1 @@
+拡張ライブラリ md5/digest で Xcode 11.1 での警告除去のため #pragma で -Wdeprecated-declarations を無効にしています。コメント読むとどうやら MD5 はもう推奨されないということで警告が出るみたいです。
