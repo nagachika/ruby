@@ -1,0 +1,1 @@
+拡張ライブラリjson の JSON::Ext::Generator::State.new という内部的に使われてるオブジェクトの rdoc 用コメントに ascii_only というキーワード引数について追記しています。
