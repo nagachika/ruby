@@ -1,0 +1,1 @@
+io.c の rb_update_max_fd() に fd に負値を渡された時に無視するという処理を追加。 Coverity Scan による指摘。
