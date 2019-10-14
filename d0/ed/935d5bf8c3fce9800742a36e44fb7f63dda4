@@ -1,0 +1,1 @@
+標準添付ライブラリ drb のオブジェクトの同一性チェックや呼んではいけないメソッドの判定などで BasicObject に対応すべく __id__ メソッドや private_methods, protected_methods などのメソッドを UnboundMethod#bind_call を使うようにしたりしています。また同じプロセス内の DRbObject へのメソッドコールで不要な接続をはらないようにする修正など。 https://github.com/ruby/ruby/pull/2552 [ruby-core:26554] [Bug #2339] [ruby-core:28089] [Bug #2718] [ruby-core:52148] [Bug #7833] [ruby-core:85524] [Bug #14471]
