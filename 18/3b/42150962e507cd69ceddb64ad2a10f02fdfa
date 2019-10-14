@@ -1,0 +1,1 @@
+mjit_worker.c のコンパイル失敗時の struct rb_mjit_unit の解放処理を convert_unit_to_func() の中から呼び元の mjit_worker.c に引き上げています。解放後に unit を触る可能性があったので解放を遅延させるようにしています。
