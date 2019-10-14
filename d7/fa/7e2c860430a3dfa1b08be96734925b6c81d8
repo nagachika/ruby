@@ -1,0 +1,1 @@
+先の 40724d7d10e9902fcdc4149326acbfe4dd95d3c7 で rb_str_encode() を呼び出して UTF-8 にエンコードしていたのは ASCII incompatible な文字列の時だけにしています。んー、これはいいのかな? 実際のバイト列が ASCII Compatible というのと Encoding が US-ASCII か UTF_8 かというのは別の話ではあると思うけど。実用上は必要なら適宜変換される場合が多くてこれでこけることはあまりないかもしれない。
