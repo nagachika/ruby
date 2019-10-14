@@ -1,0 +1,1 @@
+拡張ライブラリ json で文字列の Encoding の変換を rb_funcall() で encode メソッドを呼び出していたのを直接 rb_str_encode() を呼ぶように最適化しています。
