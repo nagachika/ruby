@@ -1,0 +1,1 @@
+さらに 183b42150962e507cd69ceddb64ad2a10f02fdfa に続いて JIT コンパイルした struct rb_mjit_unit を active_units のリストに繋ぐのも convert_unit_to_func() から呼び元の mjit_worker() に引き上げています。リストに繋げた要素が free されてしまうのを避けるためとのこと。
