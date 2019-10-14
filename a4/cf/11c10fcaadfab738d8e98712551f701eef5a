@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで NaN を含んだものを parse するテストはかわりに Infinity を使うようにしています。 NaN 同士の比較は false になるけど、配列の要素として NaN が含まれている時には配列の一部としての要素の比較時にはたまたま同一視されるという挙動に依存していたので。 https://github.com/flori/json/issues/343
