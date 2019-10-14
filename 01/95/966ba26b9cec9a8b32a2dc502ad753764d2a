@@ -1,0 +1,1 @@
+rubyspec で Thread.exclusive の deprecated 警告が出てたところを抑制するため $VEEBOSE を一時的に nil にするようにしています。
