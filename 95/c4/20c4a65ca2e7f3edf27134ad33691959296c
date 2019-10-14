@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に upstream から 1.0.3 をマージしています。 StringScanner.new の機能追加や不具合修正が含まれているようです。 https://github.com/ruby/ruby/pull/2553
