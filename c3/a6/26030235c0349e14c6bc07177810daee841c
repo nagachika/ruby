@@ -1,0 +1,1 @@
+8488d5b5b6cc9205e8e0641c514f1f2e38bf7d1e で drb で MonitorMixin を利用するようになってたのに require "monitor" が抜けてたので追加しています。
