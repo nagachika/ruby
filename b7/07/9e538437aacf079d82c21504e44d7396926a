@@ -1,0 +1,1 @@
+Thread と Process.spawn や Kernel#system を一緒に使うテストで Thread が sleep に入ったことを確実にしてタイミングによって稀にエラーになるのを避けるため Queue を使って子 Thread と協調するようにしています。 [ruby-core:69304] [Bug #11166]
