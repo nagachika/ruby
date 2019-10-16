@@ -1,0 +1,1 @@
+File.readable?、File.writable?、File.readable_real?、File.writable_real?、File.executable?、File.rxecutable_real? というったメソッドの rdoc 用コメントに OS のセキュリティ機能によっては誤った真偽値が返される可能性があると追記しています。 たとえば ファイルシステムが read-only で mount されている時に writable? が真(permission 的には書き込み操作の権限はある)でも実際には書き込めない、というようなことを言ってるようです。 [ruby-core:93764] [Bug #16002]
