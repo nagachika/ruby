@@ -1,0 +1,1 @@
+978276a7d9249535f855088f866551b6557f321f および 96617ad1d57a13e9a282fb663ea73e4801519389 のさらに続きで irb でオブジェクトの表示をする時の循環参照検出のための Hash を Hash#compare_by_identity で同値性チェックするようにして Object#object_id の呼び出しを不要にしています。 [ruby-core:95318] [Bug #16250]
