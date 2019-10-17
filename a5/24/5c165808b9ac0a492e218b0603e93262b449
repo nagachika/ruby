@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の vi insert mode での Ctrl-r の操作を insert からインクリメンタルサーチの前方検索に割り当てるように修正しています。
