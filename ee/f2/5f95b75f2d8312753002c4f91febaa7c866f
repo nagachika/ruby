@@ -1,0 +1,1 @@
+.travis.yml の build matrix 定義内の arm64-linux の alias の挿入位置を "(Allowed Failures)" というコメントの行の後ろに移動しています。
