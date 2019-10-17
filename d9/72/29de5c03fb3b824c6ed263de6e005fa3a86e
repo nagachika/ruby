@@ -1,0 +1,1 @@
+Travis-CI にも ARM の環境があるみたいなので .travis.yml に arm64-linux でのビルドを追加しています。 https://github.com/ruby/ruby/pull/2559 [ruby-core:95201] [Misc #16234]
