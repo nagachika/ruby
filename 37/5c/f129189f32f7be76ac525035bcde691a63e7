@@ -1,0 +1,1 @@
+標準添付ライブラリ csv のテストで Encoding.default_internal を変更する前後で $VERBOSE を nil にセットして警告を抑制しています。
