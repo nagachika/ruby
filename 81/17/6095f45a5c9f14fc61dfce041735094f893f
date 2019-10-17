@@ -1,0 +1,1 @@
+Comparable#between? と Comparable#clamp の rdoc 用コメントのマークアップの修正。
