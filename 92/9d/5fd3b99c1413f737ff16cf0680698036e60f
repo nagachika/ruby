@@ -1,0 +1,1 @@
+Comparable#clamp に切り詰める範囲を min, max の2引数のかわりに Range オブジェクトで受け取れるようにしています。 Range オブジェクトの begin/end を取り出してかわりに使うようです。終端を含まない Range や beginless/endless Range だと ArgumentError が発生します。 [ruby-core:87241] [Feature #14784]
