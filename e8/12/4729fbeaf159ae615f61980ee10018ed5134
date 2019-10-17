@@ -1,0 +1,1 @@
+.travis.yml の arm64-linux 環境のビルドで ccache を利用しないようにしています。 https://github.com/ruby/ruby/pull/2559
