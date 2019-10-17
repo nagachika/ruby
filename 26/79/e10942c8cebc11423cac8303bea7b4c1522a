@@ -1,0 +1,1 @@
+.travis.yml の make-test-only というラベルで make test だけでなく指定したファイルのみの make test-all も実行するようにして test/ruby/test_jit.rb のテストを実行するようにしています。
