@@ -1,0 +1,1 @@
+4ccb49bad31b3c4a9cc7c6138cae93bd60a7bec4 で追加した test/ruby/test_jit_debug.rb でコマンドライン引数 --jit-debug を追加するためのフラグになるインスタンス変数の設定は TestJIT がロードされている時だけにし、またビルド時の CPPFLAGS に -DVM_CHECK_MODE が設定されていた時も抑制するようにしています。
