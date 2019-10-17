@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストにコマンドラインオプション --force-update/--no-force-update/-U のテストを追加しています。
