@@ -1,0 +1,1 @@
+4ccb49bad31b3c4a9cc7c6138cae93bd60a7bec4 で追加した test/ruby/test_jit_debug.rb ですがやっぱり消してます。 AppVeyor などいくつかの Ci が失敗したとのこと。
