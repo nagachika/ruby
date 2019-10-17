@@ -1,0 +1,1 @@
+tool/lib/test/unit/core_assertions.rb で定義している(えーとこっちが bundled gem のテストでも使えるほうだっけ) assert_raise_with_message に assert_raise_message という別名を追加して test-unit と同名の assertion が使えるようにしています。
