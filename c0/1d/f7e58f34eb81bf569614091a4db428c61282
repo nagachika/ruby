@@ -1,0 +1,1 @@
+f94202fcc228d0348ca050a7b18a8f8a538a7305 の irb のオブジェクト表示で循環参照検出に使う Hash を compare_by_identity にする変更で一箇所 object_id の呼び出しを削り忘れていたところがあったので追加修正。 [ruby-core:95318] [Bug #16250]
