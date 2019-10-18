@@ -1,0 +1,1 @@
+String や Symbol の match/match? メソッドで引数に nil が渡された時に nil や false を返していたのを、Regexp#match や #match? と同じ挙動になるように TypeError を発生させるように変更しています。 https://github.com/ruby/ruby/pull/1506
