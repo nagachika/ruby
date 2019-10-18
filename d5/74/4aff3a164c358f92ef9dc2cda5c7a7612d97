@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の DRbServer#any_to_s で d0ed935d5bf8c3fce9800742a36e44fb7f63dda4 で BasicObject 対応で UnboundMethod を使って kernel#to_s を呼ぶようにしたところでオブジェクトのクラスが Object を継承してるかというチェックをしてましたが、ここが既に to_s の呼び出しに失敗したケースだったのでこの分岐を消して常に bind_call を使うようにしています。
