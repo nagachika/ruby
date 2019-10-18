@@ -1,0 +1,1 @@
+public/private/protected/module_function などのメソッドは引数を渡さずに呼ぶと class 文や module 文のそれ以降のメソッド定義に効くようにモードを変更するような働きをしますが、これをメソッド内で呼んだ時にはおそらく誤用なので警告を出すようにしています。 [ruby-core:79751] [Bug #13249]
