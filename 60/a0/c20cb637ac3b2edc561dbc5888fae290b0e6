@@ -1,0 +1,1 @@
+e26c6d4ab840c100c4f3ad20d0399598ef427c13 で切り出した reline の prompt 処理メソッド check_multiline_prompt の引数から special_prompt を削除してメソッド内に呼び元のロジックを移動しています…が、なんかメソッド内に移動したところには special_prompt への代入部分がなくて、常に nil になって NameError になってしまいそうな気がします。
