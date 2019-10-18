@@ -1,0 +1,1 @@
+e169ad93f44e1944ecf7bb65133fd34e8b868ea8 の File.extname の変更は実は Windows 環境以外でのみの変更なので rdoc 用コメントや NEWS の記述に追記しています。あれ、そうなのか。 File.extname の実装は Windows 版は別のところにあるのか。 [ruby-core:89615] [Bug #15267]
