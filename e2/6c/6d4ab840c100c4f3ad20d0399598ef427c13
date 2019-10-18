@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#reset と #rerender からプロンプト処理の部分をメソッドとして切り出しています。
