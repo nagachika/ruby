@@ -1,0 +1,1 @@
+標準添付ライブラリ drb で Socket#setsockopt を実行した時の IOError, Errno::ECONNRESET, Errno::EINVAL などの例外を無視するようにしています。 socket が close 済みの時にこれらの例外が発生する可能性があるみたいです。 [ruby-core:53186] [Bug #8039]
