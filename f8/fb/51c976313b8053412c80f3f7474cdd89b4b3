@@ -1,0 +1,1 @@
+43015275b9a7f2833c93ad11ea96ae4cb3b7acd7 の assert_raise_message の alias 追加を revert しています。 test-unit の assert_raise_message は tool/lib/test/unit/core_assertions.rb の assert_raise_with_message と仕様が違ってて例外クラスの検査をしないので同一視はできなかったようです。
