@@ -1,0 +1,1 @@
+標準添付ライブラリ drb でサーバー側でのオブジェクトのメソッド呼び出しで発生した例外をレスポンスとして返すようにしてたのを NoMemoryError, SystemExit, SystemStackError, SecurityError はそのまま再 raise するようにしています。 [ruby-core:40942] [Bug #5618]
