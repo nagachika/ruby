@@ -1,0 +1,1 @@
+標準添付ライブラリ racc で生成する ruby スクリプトでクラス名の名前空間がネストしている時? に module X ... end の end の行のインデントがずれてて警告が出るのを修正しています。 https://github.com/ruby/ruby/pull/2571
