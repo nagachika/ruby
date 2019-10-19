@@ -1,0 +1,1 @@
+hash.c の ID ベースのテーブルを指定するための変数 identhash を rb_hashtype_ident と改名して static 宣言を外し、gc.c で ObjectSpace::WeakMap の実装に使うテーブルの初期化時に使うようにして st_init_numtable() のかわりにするようにしています。 [ruby-core:94101] [Feature #16035]
