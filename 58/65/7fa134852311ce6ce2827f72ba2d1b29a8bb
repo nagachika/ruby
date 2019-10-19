@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Windows 向けのキーストロークのテーブル Reline::Windows::RAW_KEYSTROKE_CONFIG にカーソルキーや Home/End などのキーを追加しています。
