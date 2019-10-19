@@ -1,0 +1,1 @@
+拡張ライブラリ json の generator (JSON エンコードする処理)で JSON::SAFE_STATE_PROTOTYPE という定数を C の拡張ライブラリ部分で参照するのに最初の参照時に static 変数にキャッシュしておいてそれ以降そちらを参照するようにしていたのをやめて、毎回 rb_const_get() を呼ぶようにしています。 GC.compact での移動に対応するためみたいです。
