@@ -1,0 +1,1 @@
+template/unicode_norm_gen.tmpl で numbered parameter と解釈される _2 のようなローカル変数を使っているところがあって警告が出てたので変数名変更しています。
