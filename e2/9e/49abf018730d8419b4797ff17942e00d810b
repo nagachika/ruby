@@ -1,0 +1,1 @@
+続きで標準添付ライブラリ optparse で did_you_mean.gem を使う際に DidYouMean.formatter が DidYouMean::PlainFormatter じゃなかったら DidYouMean::PlainFormatter に設定しなおすようにしています。しかしインスタンス変数の @formatter にはセットしなおしてないけどいいのかな。[追記]インスタンス変数 @formatter は teardown で元に戻すためのバックアップなのでこれで良かったようです。[/追記]
