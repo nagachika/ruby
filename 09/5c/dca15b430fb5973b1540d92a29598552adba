@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の finalizer 用のコールバックを rb_obj_method() で Method オブジェクトとして作るのではなくて rb_func_lambda_new() で C の関数を wrap した Proc オブジェクトとして作るようにしています。
