@@ -1,0 +1,1 @@
+さらにさらに続きで標準添付ライブラリ optparse で did_you_mean.gem を使って候補を出すために追加した処理で AmbiguousOption 例外が発生するパターンでも対応するようにしています。
