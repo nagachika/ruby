@@ -1,0 +1,1 @@
+c3b64a86bcd7773c081f5049115c57ec73d7a76a の続きで標準添付ライブラリ optparse で did_you_mean.gem を使った補完候補表示するのにメッセージ部分を独自に書いてたのを DidYouMean.formatter.message_for というメソッドを流用するようにしています。
