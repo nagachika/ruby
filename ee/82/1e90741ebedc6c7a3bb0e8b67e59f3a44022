@@ -1,0 +1,1 @@
+Time オブジェクトの ObjectSpace.memsize_of をチェックするテストで struct RVALUE のサイズが 24 の場合に対応するようにしています。32bit 版で 24 になるそうな。 [ruby-core:94068] [Bug #16030]
