@@ -1,0 +1,1 @@
+caac5f777ae288b5982708b8690e712e1cae0cf6 の続きで拡張ライブラリの wrapper としての monitor.rb の MonitorMixin#mon_syncronize でブロック引数をそのまま委譲するかたちで Monitor#syncronize を呼ぶようにリファクタリングしています。
