@@ -1,0 +1,1 @@
+parse.y のメソッドの引数まわりで idNil を ID2SYM() で Symbol にして渡してたところを何箇所か ID2VAL() に変更して VALUE を渡すようにしています。たぶん最終的にはどちらも STATIC_ID2SYM() が呼ばれて同じ(ripper の時は違うかも)ものになってたんだと思います。
