@@ -1,0 +1,1 @@
+caac5f777ae288b5982708b8690e712e1cae0cf6 のさらに続きで MonitorMixin::ConditionVariable#wait の実装も C 拡張ライブラリのほうに移植しています。これも割り込み制御のため。
