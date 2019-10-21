@@ -1,0 +1,1 @@
+appveyor.yml の pacman で依存パッケージをインストールする部分をコメントアウトしています。 mingw-w64 の更新でなにか壊れたらしく一時的な措置のようです。 https://github.com/ruby/ruby/pull/2573
