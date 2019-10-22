@@ -1,0 +1,1 @@
+92234667526dfb66cfeff0eab49fa3e7588ff73e で DidYouMean 定数の有無で分岐していたのを defined? で DidYouMean.formatter が定義されてるかどうかまでチェックするようにしています。定数だけだと stub が入っている可能性があるため。 [ruby-core:95429] [Bug #16263]
