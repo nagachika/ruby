@@ -1,0 +1,1 @@
+NoMethodError のテストで did_you_mean.gem を使っている時と使っていない時でメッセージが変化するので DidYouMean 定数の有無で分岐させるようにしています。 [ruby-core:95429] [Bug #16263]
