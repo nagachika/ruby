@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で UDPSocket を使った bind が Errno::EACCES を発生させることがあるようで、その場合に TCP を使った方式に fallback させるように修正しています。 [ruby-core:67636] [Bug #10747]
