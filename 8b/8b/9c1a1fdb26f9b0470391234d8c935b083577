@@ -1,0 +1,1 @@
+72825c35b0d8b9d566663de961fddbf4f010fff7 による array hash 実装による小さめの Hash の hash 値の格納方法の変更について追記しています。 [ruby-core:91530] [Feature #15602]
