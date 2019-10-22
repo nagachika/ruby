@@ -1,0 +1,1 @@
+27261007eb45adae4d5b30cbafa2ef27a2345b3f で test/ruby/test_exception.rb の did_you_mean.gem が使われてるかどうかの判定に defined? を使うようにした変更で定数の参照のかわりに symbol リテラルになってしまっていたところを修正。たぶんこれ "::DidYouMean" とトップレベルの定数であることを明示しようとしたんだと思うんですよね。
