@@ -1,0 +1,1 @@
+拡張ライブラリ ripper で beginless range リテラルで使われる BDOT2 と BDOT3 というトークンを ripper_token2eventid() で operator として対応付けるように対応しています。
