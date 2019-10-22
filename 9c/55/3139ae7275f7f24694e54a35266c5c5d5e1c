@@ -1,0 +1,1 @@
+compile.c の CPDEBUG が 1以上の数で定義されている時だけ行なわれていた append_compile_error() の prototype 宣言が変更に追随できていなかったのを修正しています。
