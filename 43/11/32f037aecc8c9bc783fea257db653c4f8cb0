@@ -1,0 +1,1 @@
+Struct.new に keyword_init キーワード引数に true を渡して作ったクラスのインスタンスは rb_class_new_instance_kw() を使って作成して、new に渡されたキーワード引数を委譲させるようにしています。
