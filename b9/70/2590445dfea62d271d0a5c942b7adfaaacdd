@@ -1,0 +1,1 @@
+Hash#initialize_copy の実装でコピー後に rb_hash_rehash() を呼んでいて、rb_hash_rehash() の内部でもさらにもうひとつ Hash オブジェクトを作って挿入後にポインタ付け替えをしていて無駄なので、Hash#replace の実装に手を加えてこっちを使うようにしています。代表的には Hash#dup で Hash の複製する時のパフォーマンス改善のためのようです。 https://github.com/ruby/ruby/pull/2489 [ruby-core:94507] [Bug #16121]
