@@ -1,0 +1,1 @@
+Fiber#to_s で文字列化した時に Fiber#transfer で起動されたことのある Fiberは "transfered" という文字列を状態のところに追加するようにしています。
