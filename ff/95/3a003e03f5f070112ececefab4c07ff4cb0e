@@ -1,0 +1,1 @@
+同じく default gem の e2mmap の gemspec ファイルで version.rb を require するパスを修正しています。
