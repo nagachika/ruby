@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick から WEBrick::HTTPResponse#to_s というメソッド定義を削除しています。 この中でなぜか send_response を呼んでその結果というか書き込まれたレスポンスを返すようになっていたので。うへー。 [ruby-core:67428] [Bug #10715]
