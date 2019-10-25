@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick でも tainted? をチェックしていたところを削っています。ただ RUBY_VERSION が 2.7 より古い場合は untaint の呼び出しは残しています。
