@@ -1,0 +1,1 @@
+ce6caade7c57a505f73086ccd7b33c14f7715f22 で fiddle で常に ffi_prep_closure() を使うようにしたのを revert しています。 CI には古い環境もあるからそれが壊れたかな?
