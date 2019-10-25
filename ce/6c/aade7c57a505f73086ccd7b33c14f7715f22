@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle で ffi_closure_free() のかわりに munmap(3) を直接呼ぶ実装があったのですが、どうやらこれは昔の libffi で不具合があったバージョンがあったようで、それを回避するためにやっていた extconf.rb でのチェックや preprocessor でのチェックなど不要になったので削って ffi_closure_free() を常に利用するようにしています。
