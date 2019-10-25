@@ -1,0 +1,1 @@
+include/ruby/ruby.h の RUBY_METHOD_FUNC マクロ定義に ANYARGS を使わないようにするのを RUBY_DEVEL が真の時だけに限定しています。これはリリース版じゃない時だったかな。つまり開発版でのみメソッド定義関数の引数の厳密なチェックをするようにしています。 [ruby-core:95480] [Bug #16271]
