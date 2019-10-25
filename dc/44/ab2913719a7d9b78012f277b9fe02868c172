@@ -1,0 +1,1 @@
+ということで fiddle のテストで RUBYOPT と RUBYLIB をクリアする 5ebb0d50f6560b35bc03deb79341a115c5f782ee を revert。これも CI のエラー対応かなぁ。
