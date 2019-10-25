@@ -1,0 +1,1 @@
+include/ruby/backward/cxxanyargs.hpp の rb_rescue2() が可変長引数を扱う va_end() の前に return してたのを修正しています。 Coverity Scan による検出とのこと。
