@@ -1,0 +1,1 @@
+拡張ライブラリ date に rb_check_trusted() での taint チェックや OBJ_INFECT() での taint flag伝播の処理を削っています。 2.7 で taint は deprecated になるそうなのでそれに先んじて削除。date は default gem ですが古いバージョンでも $SAFE がサポートされなくなってきているので削っても大きな影響はないということで。
