@@ -1,0 +1,1 @@
+make refresh-gems というターゲットを追加して bundled gems の更新と展開を行うようにしています。こういうのまだなかったのか。
