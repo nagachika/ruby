@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の ChangeLog 生成のためのコミット範囲の取得のための from が nil だった場合の考慮が漏れてたので追加しています。
