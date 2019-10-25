@@ -1,0 +1,1 @@
+拡張ライブラリ date で Date を Range の終点に持ち、もう一方に -Float::INFINITY を持つようなものが作れなかった不具合を修正しています。 Range が <=> メソッドを呼んで始点終点のチェックをする時に -Float::INFINITY が infinite? メソッドを呼んでチェックするみたいで、Date#infinite? メソッドを追加するだけのシンプルな修正です。 [ruby-core:78220] [Bug #12961]
