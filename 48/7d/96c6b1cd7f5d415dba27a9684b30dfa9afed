@@ -1,0 +1,1 @@
+default gem date の gemspec ファイルから development dependency の rake-compiler を削除しています。
