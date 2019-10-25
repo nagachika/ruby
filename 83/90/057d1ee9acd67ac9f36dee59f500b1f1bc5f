@@ -1,0 +1,1 @@
+c8542ab484efb6ee0009cd081789d9a68f482483 で追加した Array#intersection のベンチマークを追加しています。 [ruby-core:94855] [Feature #16155]
