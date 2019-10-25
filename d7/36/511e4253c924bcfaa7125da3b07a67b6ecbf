@@ -1,0 +1,1 @@
+aec0a293a4f9d2f8f8d085f57023ec3ba4bf6525 で追加した bin/format-release は削除して tool/format-release に統合するようにしています。あれ、format-release でも既に diffy 使ってたか。
