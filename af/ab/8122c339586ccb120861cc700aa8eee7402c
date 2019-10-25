@@ -1,0 +1,1 @@
+append_compile_error() にて CPDEBUG が真の時に Qnil や Qfalse になる可能性があった? みたいでその場合にかわりに rb_eSyntaxError を使うようにする fallback の分岐を追加しています。
