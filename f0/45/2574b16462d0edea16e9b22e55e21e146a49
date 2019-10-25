@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick のテストで Net::HTTP#write_timeout= は 2.6.0 以降でサポートされるようになったので RUBY_VERSION をチェックして代入するようにしています。 webrick も default gems なので古い ruby でもテストできるようにしないといけないため。
