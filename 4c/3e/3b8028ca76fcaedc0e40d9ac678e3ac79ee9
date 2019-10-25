@@ -1,0 +1,1 @@
+fa8ac91e957a076f6df1adaecad7896817138009 の Fiber#transfer した時に呼び元の Fiber に transfered のフラグを立てて resume 禁止するよう変更してたのを revert しています。やはりこれはささださんの意図の通りの変更ではなかったか。
