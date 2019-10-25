@@ -1,0 +1,1 @@
+vm_opts.h の OPT_SUPPORT_JOKE というマクロの定義は未定義の時のみするようにして、ファイルを書きかえなくてもコンパイル時に -DOPT_SUPPORT_JOKE=1 を指定すれば joke 命令が有効になるようにしています。また .travis.yml で OPT_SUPPORT_JOKE を有効にした時のビルドを vm_opts.h を sed で書きかえてビルドしてたのをコンパイルオプションの指定だけに切り替えています。また 97a03a035695e948ce6b3a0f91bfd0302fbc30de で CPDEBUG を有効にしたビルドも追加した時に DEFS でコンパイルオプション追加させてたのを cppflags 変数による指定に変更しています。
