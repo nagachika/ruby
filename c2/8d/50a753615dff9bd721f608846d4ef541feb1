@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPRequest で X-Forwarded-Host ヘッダを処理しているところでホスト部が IPv6 のアドレスだった場合を考慮してポート番号との分離を修正しています。
