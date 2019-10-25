@@ -1,0 +1,1 @@
+拡張ライブラリ date で Date.new の引数のチェックが不足してて NoMethodError が発生したり TypeError が発生したりとケースバイケースで変わるようになっていたので、チェックを追加して常に TypeError が発生するようにしています。 [ruby-core:72641] [Bug #11935] [ruby-core:89777] [Misc #15298]
