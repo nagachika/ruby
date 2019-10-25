@@ -1,0 +1,1 @@
+test/unit の assert_syntax_error や assert_valid_syntax という assertion から使う syntax_check というメソッドで SyntaxError 以外の例外は捕捉して無視するようにしています。これも CPDEBUG モードの対策かな。
