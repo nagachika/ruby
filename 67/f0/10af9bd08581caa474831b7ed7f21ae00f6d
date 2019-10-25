@@ -1,0 +1,1 @@
+common.mk の enc/unicode/ 配下に生成する name2ctype.h の依存関係に $(UNICODE_EMOJI_FILES) も追加しています。Unicode からダウンロードする絵文字関係のデータファイルですね。
