@@ -1,0 +1,1 @@
+913807bd6ce98d3d362d27caef4f5e2aef0e5d79 の Date#inspect, DateTime#inspect の表示の変更に合わせて rdoc 用コメントも修正しています。
