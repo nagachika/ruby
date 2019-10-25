@@ -1,0 +1,1 @@
+メソッド呼び出しでだいたい一緒に使われる struct rb_call_info と struct rb_call_cache を struct rb_call_data という1つの構造体に埋め込んでまとめて確保することで、メモリ消費量の削減とアクセスのローカリティの改善によるパフォーマンス向上を狙っています。なのですがこの実現で VM 命令の attribute を sp_inc から comptime_sp_inc という attribute を分離する必要ができてその関連で VM のソースコード生成や MJIT 用のテンプレートにも変更が行なわれています。なぜこれ分けないといけなくなったのかはよくわかってないですが。 [ruby-core:95373] [Misc #16258]
