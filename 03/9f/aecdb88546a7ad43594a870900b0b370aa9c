@@ -1,0 +1,1 @@
+lib/readline.rb で readline.so が require できない時の fallback で require "reline" する時に 既に定数 Reline が定義済みだったら require しないようにしています。require は重複しても false を返すだけなのでここまでしなくてもいい気がしますが、stub で Reline を定義して抑制したいってことかな。
