@@ -1,0 +1,1 @@
+bin/format-release というスクリプトを追加して tool/make-snapshot の出力を元に www.ruby-lang.org のパッケージのチェックサムやサイズなどの情報の YAML ファイルを変更するパッチを生成するようにしています。
