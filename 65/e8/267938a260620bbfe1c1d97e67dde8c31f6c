@@ -1,0 +1,1 @@
+が ff953a003e03f5f070112ececefab4c07ff4cb0e は revert しています。 require_relative を使ってるので gemspec を移動したので require するパスはそのままでよかった。
