@@ -1,0 +1,1 @@
+Kernel#ruby2_keywords は ruby2_keywords.gem という gem でも提供されるようになったのでその互換性? のために rb_provide() で ruby2_keywords.rb をロード済みにするようにしています。
