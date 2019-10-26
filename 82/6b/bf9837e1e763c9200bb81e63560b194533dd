@@ -1,0 +1,1 @@
+同様に .github/workflows/windows.yml でコマンドを && で連結してたところを複数行の run にしています。複数行はいけるのか。
