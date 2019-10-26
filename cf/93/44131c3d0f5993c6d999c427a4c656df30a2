@@ -1,0 +1,1 @@
+42c652d1959564bc5fb5147c8c343d8c0589583c の Comparable#clamp の引数に渡す Range が beginless/endless でも終端を含まない Range でも受け付けるようにした変更の追加で、終端を含まない Range の場合は endless range でない限りは範囲にかかわらず ArgumentError を発生させるように変更しています。 [ruby-core:87241] [Feature #14784]
