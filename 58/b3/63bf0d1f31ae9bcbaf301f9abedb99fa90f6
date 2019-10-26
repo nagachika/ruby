@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary でダンプする時に ISeq のメソッドの引数のフラグに追加した ruby2_keywords 用のものも対応するようにしています。
