@@ -1,0 +1,1 @@
+929d5fd3b99c1413f737ff16cf0680698036e60f で Comparable#clamp に Range を渡せるようにした時 beginless や endless の range や、終端を含まない Range は禁止していましたが受け付けるようにして、終端を含まない Range で receiver の値が終端より大きい時だけ丸めるべき値が自明でないので ArgumentError とするようにしています。 [ruby-core:87241] [Feature #14784]
