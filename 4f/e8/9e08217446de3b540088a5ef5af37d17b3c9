@@ -1,0 +1,1 @@
+NEWS ファイルの Core Class の変更セクションで Regexp と String が一緒にされてたのを分離。また String#match や #match? が nil を渡すと TypeError を発生させるようになったのを追記しています。 [Feature #13083]
