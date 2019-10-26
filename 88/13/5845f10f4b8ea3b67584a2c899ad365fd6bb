@@ -1,0 +1,1 @@
+vm_core.h で定義している inline 関数 def_iseq_ptr() で VM_CHECK_MODE が1以上の時だけ実行している rb_method_definition_t::type のチェックを一時的に常に実行するようにしています。 CI でのエラーの調査のためのようです。
