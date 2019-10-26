@@ -1,0 +1,1 @@
+.github/workflows/windows.yml で openssl のインストールを vcpkg から chocolatey というパッケージマネージャ経由に変更しています。 chocolatey のほうが新しいバージョンの openssl が入るからみたいです。
