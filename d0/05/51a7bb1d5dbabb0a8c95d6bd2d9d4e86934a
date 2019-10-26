@@ -1,0 +1,1 @@
+標準添付ライブラリ forwardable で def_delegators で __send__ メソッドと __id__ メソッドを除外するのに文字列との比較のみしていたので Symbol として渡したらチェックが漏れていたのを修正しています。 https://github.com/ruby/forwardable/pull/4 [ruby-dev:47689] [Bug #8855]
