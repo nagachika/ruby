@@ -1,0 +1,1 @@
+標準添付の irb の IRB::Context.new の第3引数 output_method を削除しています。 使ってないため、とのこと。 [ruby-core:62834] [Bug #9876]
