@@ -1,0 +1,1 @@
+d00551a7bb1d5dbabb0a8c95d6bd2d9d4e86934a で追加したテストが古い ruby で attr_reader が private メソッドのためエラーになってたので __send__ を利用して起動するように対策しています。
