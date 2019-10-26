@@ -1,0 +1,1 @@
+.github/workflows/windows.yml で chocolatey でパッケージインストールする時に --no-progress オプションをつけてプログレス表示を抑制しています。
