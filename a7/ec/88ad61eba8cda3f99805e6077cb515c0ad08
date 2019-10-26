@@ -1,0 +1,1 @@
+.github/workflows/windows.yml の run を持つステップに shell: cmd という項目を追加しています。 Windows 版で cmd.exe を使ってコマンド実行させるための設定っぽい。 あー今日の GitHub Actions の Windows 環境向け変更は、デフォルトのシェルが Power Shell に変更になったからだったようですね。参考 URL: https://github.blog/changelog/2019-10-17-github-actions-default-shell-on-windows-runners-is-changing-to-powershell/
