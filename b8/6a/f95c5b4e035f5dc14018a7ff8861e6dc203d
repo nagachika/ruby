@@ -1,0 +1,1 @@
+.github/workflows/windows.yml の vcpkg でのパッケージインストールのリトライのためにコマンドを || で連結して制御してたのをやめています。 PowerShell ではこれが動かないらしいので。
