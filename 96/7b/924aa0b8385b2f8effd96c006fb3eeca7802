@@ -1,0 +1,1 @@
+同じく .github/workflows/windows.yml でコマンドラインで環境変数を %var% のように展開する記法を使ってましたがこれも PowerShell で動かないそうで直接値を展開して書いておくようにしています。
