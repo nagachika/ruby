@@ -1,0 +1,1 @@
+vm_insnhelper.c の CALLER_SETUP_ARG() で *args で受け取った引数の最期のオブジェクトが Hash でさらに ruby2_keywords 用のフラグが立ってた時(ruby2_keywords つきのメソッドから委譲されたもの)、それを dup してフラグのない Hash を呼び出した先には渡すようにしています。
