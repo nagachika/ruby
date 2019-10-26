@@ -1,0 +1,1 @@
+6df6611ce77d1bb7d50375a1399e1d5101a3a616 で lib/reline/windows.rb の Reline::Windows.getc の変数 alt を meta に改名したのに一箇所 alt のままだったところがあったので追随して変更しています。
