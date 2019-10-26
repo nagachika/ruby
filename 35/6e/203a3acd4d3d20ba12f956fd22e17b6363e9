@@ -1,0 +1,1 @@
+89e7997622038f82115f34dbb4ea382e02bed163 の struct rb_call_info と struct rb_call_cache を両方まとめた struct rb_call_data の導入をさらに押し進めて、構造体宣言を internal.h に移動して、両方を受け取る関数は常に rb_call_data にまとめたものを渡すようにリファクタリングしています。
