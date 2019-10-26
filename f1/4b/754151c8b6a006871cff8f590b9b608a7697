@@ -1,0 +1,1 @@
+forwardable の gemspec ファイルから development dependency の記述を削除しています。
