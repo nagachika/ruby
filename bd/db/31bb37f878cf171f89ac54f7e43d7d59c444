@@ -1,0 +1,1 @@
+String, Process, Proc のメソッドや Object#enum_for などの rdoc 用コメントや doc/syntax.rdoc など doc/ 配下のドキュメントの追記や修正。
