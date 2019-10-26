@@ -1,0 +1,1 @@
+f62f90367fc3bce6714e7c34cbd040e14e43fe07 の tailcall optimization の復活のリトライ。本体の修正は前のままでテストコードの修正で実際に再帰版の fact を呼んでみて SystemStackError が起きないというので確認する方法にしています。 https://github.com/ruby/ruby/pull/2529
