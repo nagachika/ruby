@@ -1,0 +1,1 @@
+test/ruby/test_syntax.rb で instance_eval を使ってスクリプト片を実行する時に __FILE__ と __LINE__ をファイル名/行番号として渡すようにしています。
