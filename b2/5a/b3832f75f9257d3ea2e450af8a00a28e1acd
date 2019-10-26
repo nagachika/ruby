@@ -1,0 +1,1 @@
+標準添付ライブラリ forwardable の gemspec ファイルで参照するバージョンの定数を lib/forwardable/version.rb に切り出しています。
