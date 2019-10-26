@@ -1,0 +1,1 @@
+46f175ed5c8560b3c9da5ab7b4fa73287f1eb1c5 で OPT_SUPPORT_JOKE を有効にするのに sed で vm_opts.h を編集するのをやめたのを revert しています。 tool/ruby_vm が vm_opts.h のマクロ定義を参照するからとのこと。
