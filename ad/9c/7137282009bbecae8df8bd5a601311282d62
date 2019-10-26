@@ -1,0 +1,1 @@
+d70fdeedf0a2fc942d91b82f564b78a54ff48d7c の続きで rdoc でクロスリファレンスのためのリンクを生成する正規表現の定数 CROSSREF_REGEXP に加えて ALL_CROSSREF_REGEXP という定数の正規表現でも同じくかっこでくくられたメソッド名の参照をリンクにするようにしています。 --hyperlink-all というオプションをつけた時にこちらが関係するらしい。
