@@ -1,0 +1,1 @@
+Fiber#transfer の rdoc 用コメントに transfer して resume が呼べなくなるのは呼ばれた(receiver になった) Fiber であることを明示するようにしています。なるほど元のドキュメントを読むと「呼んだ時に current だった Fiber」のように読めますね今みると…というか逆には読めない。
