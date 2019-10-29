@@ -1,0 +1,1 @@
+GitHub Actions Windows と Ubuntu の設定で Slack 通知のメッセージに build matrix の OS 情報も含めるようにしています。
