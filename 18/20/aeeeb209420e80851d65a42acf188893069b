@@ -1,0 +1,1 @@
+tool/lib/minitest/unit.rb で skip の alias として omit を追加しています。
