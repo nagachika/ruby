@@ -1,0 +1,1 @@
+finalizer のリストを linked list で管理していたのを Array オブジェクトを使って管理することで実行中に mark されるようにしています。
