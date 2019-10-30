@@ -1,0 +1,1 @@
+iseq.c の make_compile_option_value() で一時的に使う Hash も rb_hash_new_with_size() で要素数 11 ぶんのバッファを確保するようにしています。
