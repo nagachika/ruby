@@ -1,0 +1,1 @@
+54eb51d72bc43f90b595f0d7ffb5069ebf1a56d9 の configure でコンパイラ拡張の attribute __nonnull__ が使えるかどうかチェックするようにした影響で Windows でのビルドがエラーになってたそうなので revert しています。
