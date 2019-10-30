@@ -1,0 +1,1 @@
+Enumerator::Lazy#to_enum に Symbol を渡した時の不具合修正として a7d7a0df91805e59fe6b383ea7ecdad509222966 で InitVM_Enumerator() で Enumerable への alias を生成するために作る Hash オブジェクトもあらかじめ必要な数の要素数のバッファを指定して作るようにしています。しかしこの数は今後変化しそうだなぁ。
