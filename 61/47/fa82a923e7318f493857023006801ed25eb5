@@ -1,0 +1,1 @@
+Continuation の GC.compact 対応で rb_context_t から self でオブジェクト自体を逆参照していたものを GC.compact の移動に追随させるように修正しています。
