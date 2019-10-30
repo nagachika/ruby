@@ -1,0 +1,1 @@
+コンパイラの拡張 attribute の __nonnull__ が使える時に rb_funcallv() を rb_funcallv_with_cc() を使って呼び元での call cache を有効にする preprocessor 分岐を clang でも有効にしています。
