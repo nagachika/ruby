@@ -1,0 +1,1 @@
+ということで b4da6fc1c277190bbd10e795ebf3be45772038e8 を revert した ca5812fe4516a10cc687281f9e47e1a08449f1ab を revert して、やっぱり rdoc のテストで omit を使うようにしています。
