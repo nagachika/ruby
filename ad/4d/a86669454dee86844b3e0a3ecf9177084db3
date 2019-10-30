@@ -1,0 +1,1 @@
+54eb51d72bc43f90b595f0d7ffb5069ebf1a56d9 のリトライ。 include/ruby/defines.h に fallback 用マクロ RUBY_FUNC_NONNULL() の定義を追加しています。
