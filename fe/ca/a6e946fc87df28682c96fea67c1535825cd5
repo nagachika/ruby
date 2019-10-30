@@ -1,0 +1,1 @@
+vm_backtrace.c の backtrace_collect() でも一時的に使う配列の capa をあらかじめわかっている要素数にあわせて作るようにしています。
