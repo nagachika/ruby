@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストで生成したファイルパスを Windows の long path に変更する(Windows のファイル名は8文字に切り詰める short path というのが別名みたいにあって、どうも File.expand_path ではそっちの名前になってしまうらしい)ため Dir.glob を一度通すようにしています。うへー。
