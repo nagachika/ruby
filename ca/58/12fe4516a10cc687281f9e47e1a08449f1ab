@@ -1,0 +1,1 @@
+b4da6fc1c277190bbd10e795ebf3be45772038e8 の rdoc のテストで omit を使うようにした変更を revert。 make test-all でも minitest が使われる(あれ、そうだっけ)ので omit は使えなかったため。
