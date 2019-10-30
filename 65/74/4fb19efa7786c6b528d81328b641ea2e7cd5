@@ -1,0 +1,1 @@
+compile.c の関数マクロ DECL_BRANCH_BASE() で一時バッファとして rb_ary_tmp_new() で確保する配列は要素数5まで使うとわかっているので最初から capa 5 で確保するようにしています。
