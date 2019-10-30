@@ -1,0 +1,1 @@
+st_table の mark 時に key も value もどちらも pin して GC.compact で移動不可にするようにしています。 Marshal 時の影響で pin が必要になっちゃうみたいです。
