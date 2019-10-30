@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence の配列からの構築時に内部的に使う st_table を wrap したオブジェクトの mark 処理に rb_mark_set() を指定して pin するようにしています。mark_st のまちがい? じゃなくて key だけ pin する時の関数ですね。
