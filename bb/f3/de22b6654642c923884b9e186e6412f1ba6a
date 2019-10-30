@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_a や #disasm で処理中にラベル情報を管理するために確保する st_table をオブジェクトで wrap して rb_mark_set() で mark することで key を pin して GC.compact で移動されないようにしています。
