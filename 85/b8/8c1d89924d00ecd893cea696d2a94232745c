@@ -1,0 +1,1 @@
+class.c の class_instance_method_list() および rb_obj_singleton_methods() でもあらかじめわかっているメソッド数ぶんの capa で配列を作成するようにしています。
