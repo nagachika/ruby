@@ -1,0 +1,1 @@
+gc_compact_after_gc() でヒープ上でオブジェクトを移動すると各種 st_table の更新を伴なうため GC のトリガーがかかる可能性があるがこのタイミングで GC が走って欲しくないので rb_gc_disable() を呼んで GC 禁止するのを gc_compact_heap() を呼ぶ前に移動しています。
