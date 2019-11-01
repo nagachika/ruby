@@ -1,0 +1,1 @@
+拡張ライブラリ gdbm の gemspec ファイルで development dependency を書いてたのを削っています。
