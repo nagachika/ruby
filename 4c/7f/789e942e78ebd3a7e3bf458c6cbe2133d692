@@ -1,0 +1,1 @@
+Struct.new に keyword_init: true を渡して作った Class の initialize で2つの引数を渡してもエラーにならない不具合を修正しています。
