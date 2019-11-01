@@ -1,0 +1,1 @@
+af01edd7d8575f544f647dbe8cde5b6ae535d459 で Date#inspect から暦の種類とかの情報を削ったのを revert しています。
