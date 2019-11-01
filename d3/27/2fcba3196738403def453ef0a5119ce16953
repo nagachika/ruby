@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で racc の upstream のディレクトリ構造変更で JRuby 向け jar ファイルなどが含まれてるのを削除するように対応しています。
