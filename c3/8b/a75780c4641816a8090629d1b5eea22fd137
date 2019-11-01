@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の拡張ライブラリ json の ext/json/depend の変更を無視するのと ext/json/lib/json/pure の内容を削除するようにしています。
