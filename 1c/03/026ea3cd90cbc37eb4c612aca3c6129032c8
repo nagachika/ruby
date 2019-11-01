@@ -1,0 +1,1 @@
+racc のテストで minitest のかわりに test/unit を使うようにして assert_output_unchanged という assertion を使っていたところをコメントアウトしていたのを実行するようにしています。 GitHub Actions 上では結果が変わってしまうので実行しないようにしていたりして、結果が安定しなくて大変そう。
