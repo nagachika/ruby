@@ -1,0 +1,1 @@
+拡張ライブラリ date で Date.new で不正な値に対する例外を ArgumentError から Date::Error という新規追加した ArgumentError を継承した例外を発生させるようにしています。継承してるから互換性の問題は大きくなさそうですね。
