@@ -1,0 +1,1 @@
+拡張ライブラリ socket の SOCKSSocket.new の rdoc 用コメントの説明追加と、第2引数の名前を serv → port に変更しています。
