@@ -1,0 +1,1 @@
+b8004103873f4e18bfaefea8e2f540f451c4ae68 の追加修正で libsocks より先に libsocksd の方を先に探すようにしています。
