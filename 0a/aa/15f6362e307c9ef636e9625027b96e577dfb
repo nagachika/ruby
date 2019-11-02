@@ -1,0 +1,1 @@
+拡張ライブラリ zlib で Zlib::GzipWriter#mtime= に値がセットされなかった場合というのを 0 がセットされていることで判定していましたが、明示的に 0 をセットすることもありえるので struct zstream::flags のフラグを利用してセットされているかどうかを渡すように修正しています。 https://github.com/ruby/zlib/pull/10
