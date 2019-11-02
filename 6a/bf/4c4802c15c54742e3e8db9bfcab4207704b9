@@ -1,0 +1,1 @@
+469545307f7b688d0b7a15a5cfd33bcecb775123 で追加した bin/update-abbr を ext/date/update-abbr に移動して、これを利用して ext/date/zonetab.list を更新する make update-zonetab というターゲットを common.mk に追加しています。
