@@ -1,0 +1,1 @@
+拡張ライブラリ socket の extconf.rb で SOCKS ライブラリを探す時に libsocksd という名前も探索するようにしています。どの環境向けだろう。
