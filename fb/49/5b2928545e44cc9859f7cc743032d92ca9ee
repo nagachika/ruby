@@ -1,0 +1,1 @@
+Transient Heap 用のメモリ確保関数 transient_heap_block_alloc() 内で rb_aligned_malloc() の戻り値のチェックが漏れてたので rb_bug() で異常終了させるように対応しています。
