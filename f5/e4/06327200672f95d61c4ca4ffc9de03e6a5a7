@@ -1,0 +1,1 @@
+ruby_mimmalloc() の宣言にコンパイラ拡張の attribute __malloc__ があればそれをつけて宣言するようにしています。また ruby_mimmalloc() や malloc(3) の呼び出しの戻り値をチェックしていないところがあったので NULL チェックするように修正しています。
