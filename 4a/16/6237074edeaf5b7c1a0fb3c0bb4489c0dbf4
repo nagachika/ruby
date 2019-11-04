@@ -1,0 +1,1 @@
+NEWS ファイルから String#match, String#match? の仕様変更についての記述を削除しています。 [Feature #13083]
