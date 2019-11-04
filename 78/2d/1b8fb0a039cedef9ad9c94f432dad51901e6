@@ -1,0 +1,1 @@
+31110d820cc1258cbc84b46ecc65b254c7d5529a で Regexp#match, Regexp#match? の警告メッセージを追加したのに合わせて他の一部のテストで警告を抑制して実行するように suppress_warning を追加しています。
