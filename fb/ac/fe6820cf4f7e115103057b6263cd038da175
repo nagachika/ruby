@@ -1,0 +1,1 @@
+4a166237074edeaf5b7c1a0fb3c0bb4489c0dbf4 と同様に NEWS ファイルから Regexp#match と Regexp#match? の仕様変更についての記述を削除しています。 [Feature #13083]
