@@ -1,0 +1,1 @@
+452bee3ee8d68059fabd9b1c7a75661b14e3933e の続きで match/match? メソッドに nil が渡された時の警告メッセージに次回のリリースで TypeError に変わると追記しています。 [Feature #13083]
