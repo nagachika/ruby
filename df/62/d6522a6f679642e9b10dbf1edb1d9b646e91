@@ -1,0 +1,1 @@
+process.c の check_exec_redirect_fd() 内でオブジェクトの型をチェックして IO でなかったら to_io メソッドで変換する処理を rb_io_check_io() という専用の関数を呼ぶようにリファクタリングしています。
