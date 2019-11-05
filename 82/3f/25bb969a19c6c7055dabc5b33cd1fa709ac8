@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で git fetch コマンドを実行するのにバッククオートを利用していたのを Kernel#system を使うように修正しています。コミットログをみると標準出力を端末に表示させるためみたいですね。
