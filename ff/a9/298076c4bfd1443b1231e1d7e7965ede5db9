@@ -1,0 +1,1 @@
+lib/rexml/text.rb の REXML::Text#initialize で else のかわりに elsif と書いてしまっていて条件部として else の内容を実行してしまっていたのを修正しています。まあ raise してるので結果は同じなわけですが。
