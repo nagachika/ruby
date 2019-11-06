@@ -1,0 +1,1 @@
+make test-bundled-gems-run のコマンドを template/Makefile.in と win32/Makefile.sub から common.mk に統合しています。
