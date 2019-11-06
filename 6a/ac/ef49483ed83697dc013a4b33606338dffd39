@@ -1,0 +1,1 @@
+c4b627e2daf76e2f8922c62c8e0a6c2a10c8b435 に対応して readline のテストで String#taint の影響を確認する assertion を 2.7 以降で実行しないようにしています。
