@@ -1,0 +1,1 @@
+Symbol#to_s が返す文字列を freeze しておく 6ffc045a817fbdf04a6945d3c260b55b0fa1fd1e の変更を revert しています。rails 周辺でこの変更の影響で動かなくなるところがあるなど影響が大きそうなので 2.7 では見送るようです。 [ruby-core:94815] [Feature #16150]
