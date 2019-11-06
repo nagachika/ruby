@@ -1,0 +1,1 @@
+GitHub Actions の macOS と Ubuntu でテスト時の make コマンドに $JOB の指定(並列ビルドの -j オプションと思われる)を渡すようにしています。
