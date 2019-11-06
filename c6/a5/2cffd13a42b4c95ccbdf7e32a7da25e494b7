@@ -1,0 +1,1 @@
+同じく spec/mspec の MultiFormatter のインスタンス変数 @tally と @counter が同じもの(Tally)を格納してたのを @tally には TallyAction というクラスのインスタンスを格納するようにしています。コメントによると -j オプションで並列化できるようにするためらしいです。
