@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の zlib_gzip_ensure() で rb_ensure() に渡す関数の signature をあわせるために wrapper 関数を1つ挟むように修正しています。
