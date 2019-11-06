@@ -1,0 +1,1 @@
+e1bf29314feee6aaf535917da0178e868e7ff3fa でやろうとしていた GC.compact の結果 free slot がなくなった page が free list に残らないようにする変更のリトライ。前とは heap_eden の要素の初期化やリセットの漏れを修正しているみたいです。
