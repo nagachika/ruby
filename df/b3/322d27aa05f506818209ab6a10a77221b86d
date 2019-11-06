@@ -1,0 +1,1 @@
+spec/mspec のあちこちの after メソッドの引数 state を省略可能にしています。
