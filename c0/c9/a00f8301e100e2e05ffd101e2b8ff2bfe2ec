@@ -1,0 +1,1 @@
+GitHub Actions の設定で bundled gems のテストの実行を別の step にして if: で特定の matrix の時だけ動かすようにしてたのを同一の step にまとめてオプションなどコマンドラインでなく env: で環境変数経由で渡すようにまとめています。
