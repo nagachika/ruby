@@ -1,0 +1,1 @@
+Windows 版の coroutine 実装の coroutine/win32/Context.h でマシンスタックに積む値を変更しています。SEH のなんからしい。 SEH とは Windows の例外処理機構で…前もなんか調べたような気がしてきたけど、とにかく mingw でのエラー修正とのこと。 https://github.com/ruby/ruby/pull/2279#issuecomment-509508810
