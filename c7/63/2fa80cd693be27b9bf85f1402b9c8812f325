@@ -1,0 +1,1 @@
+4e8336bae853e712eb884b87560621c2da4c4743 で common.mk に統合した test-bundled-gems-run のコマンドラインで tool/test-bundled-gems.rb の引数に $(XRUBY) の値を渡してたのをやめて、tool/test-bundled-gems.rb の内部で環境変数 RUBY か RbConfig.ruby を参照して ruby のファイルパスを得るようにしています。
