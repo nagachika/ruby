@@ -1,0 +1,1 @@
+rb_method_basic_definition_p() の使われかたを調べたところ固定の引数を渡すケースが多いので呼び出し元に cache を持たせた rb_method_basic_definition_p_with_cc() という関数を追加して、rb_method_basic_definition_p() をマクロにして ruby 本体ではこちらが使われるようにして高速化を図っています。
