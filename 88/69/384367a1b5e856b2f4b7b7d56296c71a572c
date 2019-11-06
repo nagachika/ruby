@@ -1,0 +1,1 @@
+encoding.c の Init_encodings() の定義位置を移動しています。たぶん Encoding の rdoc 用コメントが Init_Encoding() の前になるようにってことでどっちかというと Init_Encoding() を前に移動したってことですね。 [ruby-core:95674] [Bug #16292]
