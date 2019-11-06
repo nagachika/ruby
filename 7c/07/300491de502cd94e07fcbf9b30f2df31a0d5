@@ -1,0 +1,1 @@
+6ff1250739c57ce7f234a2148d3f6214da01b7e5 の再修正。 call cache つきのマクロ rb_method_basic_definition_p() や、先に追加されてた rb_funcallv() でも static 変数の初期化子を使った初期化を消しています。static 領域はゼロ初期化されるので明示的な初期化は不要なため。
