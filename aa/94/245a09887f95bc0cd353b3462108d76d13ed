@@ -1,0 +1,1 @@
+MatchData.allocate メソッドを undef して呼べないようにしています。 MatchData を immutable にしたいのでその布石みたいです。 [ruby-core:95699] [Feature #16294]
