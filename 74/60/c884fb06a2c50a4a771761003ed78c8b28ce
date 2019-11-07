@@ -1,0 +1,1 @@
+node.h の node_buffer_t の mark 用配列 mark_ary を mark_hash と改名して identity hash を使って GC.compact で移動されないように pin するようにしています。
