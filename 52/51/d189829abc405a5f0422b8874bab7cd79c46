@@ -1,0 +1,1 @@
+Time#strftime の rdoc 用コメントには %Q という指示子にも対応していると書かれていますが、実際には対応していなかったので削除しています。 Date や DateTime の strftime は対応しているようですね。
