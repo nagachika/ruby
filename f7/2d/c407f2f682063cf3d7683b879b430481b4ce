@@ -1,0 +1,1 @@
+aa94245a09887f95bc0cd353b3462108d76d13ed のように allocate メソッドを各クラスで undef しても Class.instance_method で Class#alloc メソッドを UnboundMethod オブジェクトとして取り出してクラスに bind_call してしまうと呼べてしまうので、そのクラスで allocate メソッドが呼べない(respond_to? が偽を返す)とうだったら TypeError を発生させるようにしています。そこまでしますかー。 [ruby-dev:50856] [Bug #16297]
