@@ -1,0 +1,1 @@
+default gem を upstream から同期するためのツール tool/sync_default_gems.rb でデフォルトの方法ですむやつも一応名前を列挙していましたが、case 文の else にまとめてしまうようにしています。ここからたくさん default gems 化するので。
