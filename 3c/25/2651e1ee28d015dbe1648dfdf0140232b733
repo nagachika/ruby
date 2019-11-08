@@ -1,0 +1,1 @@
+同様に version.rb で Net::POP と Net::SMTP の継承元を書いていなかったので Net::Protocol を継承するように修正しています。
