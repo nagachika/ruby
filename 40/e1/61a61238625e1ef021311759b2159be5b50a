@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres で指定できる clock の種類の定数で CLOCK_PROCESS_CPUTIME_ID、CLOCK_THREAD_CPUTIME_ID、CLOCK_MONOTONIC_RAW を除外するプラットフォームに armv8 を追加しています。
