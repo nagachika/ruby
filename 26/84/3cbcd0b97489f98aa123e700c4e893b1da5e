@@ -1,0 +1,1 @@
+numeric.c の flo_cmp() で右辺(y)が整数だった時に rb_integer_float_cmp() に委譲した結果の整数を変換するのに FIX2INT()+INT2FIX() を使ってたのを FIX2LONG()+LONG2FIX() に変更しています。実際には起きそうにないですが(cmp は -1, 0, 1 のいずれかを返しそう) FIX2INT() は int に収まらなかった時に例外を発生させるため余計な処理が作られる可能性があるので。
