@@ -1,0 +1,1 @@
+gc.c の rb_update_st_references() は rb_gc_update_tbl_refs() と全く同じ実装だったので削除しています。
