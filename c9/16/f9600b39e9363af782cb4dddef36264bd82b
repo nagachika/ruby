@@ -1,0 +1,1 @@
+223d3c460a25e47577b6414e3ed141e54864c8dd の net/smtp の default gem 化で追加した version.rb ファイルで Net::SMTP を module として宣言してしまっていたので class に修正しています。
