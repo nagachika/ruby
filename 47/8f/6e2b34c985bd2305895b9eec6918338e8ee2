@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に getoptlong の対応を追加し、汎用的な同期処理で upstream のリポジトリに test/ サブディレクトリがない時にも対応するようにしています。
