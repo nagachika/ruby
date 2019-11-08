@@ -1,0 +1,1 @@
+pattern match の文法で variable pattern で代入する変数に同じものを複数使うのはエラーにしています。
