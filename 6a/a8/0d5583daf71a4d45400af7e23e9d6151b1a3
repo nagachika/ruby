@@ -1,0 +1,1 @@
+26843cbcd0b97489f98aa123e700c4e893b1da5e の追加修正で、rb_float_{gt,ge,lt,le}() などでも FIX2INT()+INT2FIX() ではなく FIX2LONG()+LONG2FIX() を使うように変更しています。
