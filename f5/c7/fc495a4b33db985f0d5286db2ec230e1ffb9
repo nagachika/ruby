@@ -1,0 +1,1 @@
+rubyspec の Process.spawn の :pgroup オプションのテストで Travis-CI の arm64 環境でのテストのための skip を追加しています。
