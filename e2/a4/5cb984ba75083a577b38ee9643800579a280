@@ -1,0 +1,1 @@
+46acd0075d80c2f886498f089fde1e9d795d50c4 で導入された builtin 関数呼び出しと ruby スクリプトの埋め込み機能を利用して TracePoint の実装を trace_point.rb にしてそこから vm_trace.c の関数を呼び出すメソッドを定義するようにしています。なるほどー、こういうふうに使うのか。 Init_vm_trace() からは rb_define_method() は消してかわりに tool/mk_builtin_loader.rb が生成する load_trace_point() を呼び出すようにしています。
