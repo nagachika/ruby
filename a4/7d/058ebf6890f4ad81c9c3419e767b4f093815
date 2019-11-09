@@ -1,0 +1,1 @@
+同じく builtin 関数を利用して RubyVM::AbstractSyntaxTree の実装を ast.rb に移動してそこから各メソッド内で C の関数を __builtin_xxx で呼ぶようにしています。
