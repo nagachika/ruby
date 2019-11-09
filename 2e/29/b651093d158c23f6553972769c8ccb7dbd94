@@ -1,0 +1,1 @@
+tool/mk_builtin_binary.rb  および tool/mk_builtin_loader.rb で生成する .rbinc ファイルの先頭に modeline を追加。また tool/mk_builtin_binary.rb が生成するファイルのほうには自動生成ファイルなので編集しないようにというコメントも追加しています。
