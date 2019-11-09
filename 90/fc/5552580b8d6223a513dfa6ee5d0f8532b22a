@@ -1,0 +1,1 @@
+d45a013a1a3bcc860e6f7f303220b3297e2abdbc の call cache の class_serial の履歴保持化の変更で cache miss した時に最終的に method entry の再探索を含む関数を呼ぶかどうか決める calccall() の戻り値をローカル変数に保持しておくようにリファクタリングしています。
