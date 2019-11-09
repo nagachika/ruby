@@ -1,0 +1,1 @@
+IO#read_nonblock と IO#write_nonblock の実装を io.rb に移動して __builtin_ 関数を使って C 実装を呼ぶようにしています。 まずは元々 prelude.rb を使って wrapper が書かれてたメソッドをこの方式に移植していく流れですかね。
