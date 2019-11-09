@@ -1,0 +1,1 @@
+.travis.yml の BASERUBY に古い ruby を使うテストで BASERUBy のバージョンを 1.9.3 から 2.2 に変更しています。 tool/mk_builtin_loader.rb などが BASERUBY で実行されるので要求バージョンが上がったようです。
