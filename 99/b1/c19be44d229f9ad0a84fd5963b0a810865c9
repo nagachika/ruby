@@ -1,0 +1,1 @@
+io.c でも vm_core.h を builtin.h よりも前に #include するように位置を移動しています。
