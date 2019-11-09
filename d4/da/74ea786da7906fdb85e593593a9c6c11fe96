@@ -1,0 +1,1 @@
+Struct#deconstruct_keys というメソッドを新規追加して Struct のインスタンス(クラス)のインスタンスをパターンマッチに渡して Hash pattern でマッチさせられるようにしています。 [Feature #14912]
