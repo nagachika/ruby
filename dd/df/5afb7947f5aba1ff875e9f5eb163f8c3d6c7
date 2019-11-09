@@ -1,0 +1,1 @@
+GC 関連カウンターに GC.compact が実行された回数を数える :compact_count を追加しています。
