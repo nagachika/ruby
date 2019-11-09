@@ -1,0 +1,1 @@
+20971799f26c6466f63ab179ce2d3384155b9760 の load_xxx.inc を xxx.rbinc に命名規則を変える変更で win32/Makefile.sub にもルールを追加しています。
