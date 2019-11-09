@@ -1,0 +1,1 @@
+ISeq のバイナリからのロードする ibf_load_setup_cstr() は _cstr という suffix にもかかわらず実際には NUL terminated じゃないバイト列を受け取るので、ibf_load_setup_bytes() に改名して引数も cstr -> bytes と改名しています。iseq.h の prototype 宣言のほうの引数名が cstr のままですね(仮引数名は一致しなくてもエラーにならないと思うけど)。
