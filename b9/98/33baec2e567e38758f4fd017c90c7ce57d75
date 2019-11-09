@@ -1,0 +1,1 @@
+bd2b314a05ae9192b3143e1e678a37c370d8a9ce の object_id に単調増加する数値を使う変更のリトライ。これ入るのか。前回のは単に master の変更に追随できていなかったみたいですね。というわけで内容も読んだところ構造体 rb_objspace_t に next_object_id を追加して cached_object_id() で新たに採番するつど増やしていくようにしています。といっても単に +1 していくのではなくて struct RVALUE のサイズの半分ずつ(なんで半分?)増やすようにしています。 https://github.com/ruby/ruby/pull/2638
