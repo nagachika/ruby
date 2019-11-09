@@ -1,0 +1,1 @@
+標準添付ライブラリ reline でブロックのパラメーターが外の変数と同名だと shadowing outer local variable の警告になるので改名して警告抑制しています。
