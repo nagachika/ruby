@@ -1,0 +1,1 @@
+mini_builtin.c に BOM がついていたので削除しています。
