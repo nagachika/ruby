@@ -1,0 +1,1 @@
+ext/ripper/tools/dsl.rb で警告抑制のため二重代入するようにしています。
