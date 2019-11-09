@@ -1,0 +1,1 @@
+d45a013a1a3bcc860e6f7f303220b3297e2abdbc で追加された vm_cache_check_for_class_serial() に複数の class_serial をどのように更新するかなどの説明をコメントに図解つきで追記しています。
