@@ -1,0 +1,1 @@
+dad2abc69fdd1af52df353b8604017bd6a5c6a99 で書き直した rb_bug() のメッセージのソースコードのファイル名部分を RUBY_FUNCTION_NAME_STRING というマクロを利用して埋め込むようにしています。
