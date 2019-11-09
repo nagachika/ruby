@@ -1,0 +1,1 @@
+46acd0075d80c2f886498f089fde1e9d795d50c4 で追加した iseq_builtin_function_name() の __builtin_ の prefix のサイズを格納する変数を size_t に修正しています。
