@@ -1,0 +1,1 @@
+46acd0075d80c2f886498f089fde1e9d795d50c4 で追加された tool/mk_builtin_loader.rb で生成する C コード片で、コンパイラがサポートしていたら #pragma で(たぶん) -Wincompatible-pointer-types を一時的に有効にして builtin 関数の呼び出しで引数の数が一致してなかったらビルドエラーになるようにしています。
