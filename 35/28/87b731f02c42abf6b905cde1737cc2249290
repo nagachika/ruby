@@ -1,0 +1,1 @@
+8c9438d219885fb26ca2e7cfc6ca38dd0bcb3db6 で追加した lib/yaml/version.rb は削除して gemspec ファイルに直接バージョン番号を書くようにしています。
