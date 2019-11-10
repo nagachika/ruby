@@ -1,0 +1,1 @@
+common.mk の生成すべき .rbinc ファイルを知るための BUILTIN_RB_SRCS の指定に $(VPATH) を利用していたのを $(srcs_vpath) のほうを使用するように変更しています。また common-srcs の依存関係に .rbinc ファイル群を含めるようにしています。
