@@ -1,0 +1,1 @@
+拡張ライブラリのほうの readline にも gemspec ファイルを追加して default gem 化しています。こちらは gem 名としては readline-ext になっています。
