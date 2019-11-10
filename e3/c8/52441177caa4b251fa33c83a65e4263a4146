@@ -1,0 +1,1 @@
+miniruby で組み込みクラスの ruby スクリプトのフルパスが不要になったので rb_load_with_builtin_functions() の引数からファイル名を削っています。
