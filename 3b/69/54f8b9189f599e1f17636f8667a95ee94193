@@ -1,0 +1,1 @@
+finalizer に object_id を渡すのに以前は VALUE の値をそのまま渡せるから良かったのですが b99833baec2e567e38758f4fd017c90c7ce57d75 で object_id に単調増加する整数を使うように変更したので object_id が Bignum になる可能性ができたので、object_id の管理テーブルから削除するのを finalizer の処理後まで遅延する(対象のオブジェクトに finalizer が設定されていた場合)ようにしてこれが解放されるのを防ぐようにしています。コミットログにもありますが、finalizer と GC.compact の相性が元々良くなかったのがこの object_id の実装変更と今回の修正で解消されるようです。
