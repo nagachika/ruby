@@ -1,0 +1,1 @@
+iseq_builtin_function_name() で __builtin_ の prefix を処理して呼ばれる関数名を取り出す処理で prefix を配列として定義するように変更しています。
