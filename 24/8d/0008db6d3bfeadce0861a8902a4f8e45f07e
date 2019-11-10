@@ -1,0 +1,1 @@
+a3141e3c76ef057080d5aab22130a326378094e2 で common.mk に load_pack.inc 生成のルールを独立して追加してたのを消して BUILTIN_RB_SRCS に pack.rb のパスを追加しています。これ毎回追加しないといけないの大変だなぁ。
