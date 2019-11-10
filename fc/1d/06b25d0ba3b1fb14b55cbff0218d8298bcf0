@@ -1,0 +1,1 @@
+拡張ライブラリ readline もしくは reline を Readline としてロードするための lib/readline.rb を default gem 化するため? lib/readline.gemspec ファイルを追加しています。
