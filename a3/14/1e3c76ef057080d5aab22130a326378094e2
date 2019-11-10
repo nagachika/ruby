@@ -1,0 +1,1 @@
+pack.c の Array#pack や String#unpack の実装を pack.rb に抽出しています。
