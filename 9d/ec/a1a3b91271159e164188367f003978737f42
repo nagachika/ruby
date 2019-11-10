@@ -1,0 +1,1 @@
+rubyspec の spec/ruby/security/cve_2018_6914_spec.rb という tmpfile の脆弱性対応のテストで環境変数 TMPDIR に設定してすぐに有効にならない? という現象が macOS であるらしく、少し sleep を入れながら Dir.tmpdir が環境変数 TMPDIR に指定したパスを返すようになるまで何度かリトライするようにしています。
