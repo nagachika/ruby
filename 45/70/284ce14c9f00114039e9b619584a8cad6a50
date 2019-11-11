@@ -1,0 +1,1 @@
+MJIT のテストに builtin func 用の命令 opt_invokebuiltin_delegate_leave を使うメソッドを使うテストを追加しています。
