@@ -1,0 +1,1 @@
+spec/ruby/security/cve_2018_6914_spec.rb で環境変数 TMPDIR をおきかえるために作成するディレクトリを 700 の permission を指定して作成するようにしています。
