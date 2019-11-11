@@ -1,0 +1,1 @@
+MJIT のテストで使う assert_eval_with_jit で渡された VM 命令の種類が script  内に含まれてるかチェックして警告を出力する処理を mark_tested_insn というメソッドに切り出しています。これメソッドに切り出したので warn の uplevel: は増やさなくていいのかな。けど元の uplevel のデフォルトが 1 で +2 するとこれで丁度いいような気も。またこれを利用して Array#pack を JIT 化して invokebuiltin 命令のテストを追加していますが、肝心の(?) mark_tested_insn を呼ぶところはコメントアウトされています。 RubyVM::InstructionSequence#to_a がうまく動いてないらしい。
