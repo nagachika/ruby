@@ -1,0 +1,1 @@
+faa4f4f23fbb6b48b158cc38d9b509fd00838976 の続きで exit の代わりに使うようにした NULLCMD というコマンドを示す変数を win32/Makefile.sub で初期化しておくようにしています。 [ruby-core:95741] [Bug #16331]
