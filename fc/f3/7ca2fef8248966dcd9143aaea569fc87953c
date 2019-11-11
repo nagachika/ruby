@@ -1,0 +1,1 @@
+ff2d99406db4cd8aa0164c86525eedf627acffbe で common.mk 内で .rbinc ファイルの生成に使う組み込みクラス定義の .rb ファイルのパスの指定を $(VPATH) から $(srcs_vpath) に変更していたのを、ただの $(srcdir) に変更しています。 nmake でうまくいかなかった模様。
