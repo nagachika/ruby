@@ -1,0 +1,1 @@
+2c55ba7191a69dd4db34572754162308f0a9acdd のさらに再修正で win32/Makefile.sub で NULLCMD として : を指定していたのを type nul というコマンド? に変更しています。 [ruby-core:95741] [Bug #16331]
