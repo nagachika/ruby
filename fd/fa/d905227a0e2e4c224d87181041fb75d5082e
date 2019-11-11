@@ -1,0 +1,1 @@
+c5b4d2a2592942766dc2789f46105b91eba7026a の標準添付ライブラリ uri の default gem 化を revert しています。なぜか rubygems の gem か require あたりと干渉して deadlock が起きてしまうようです。 [ruby-core:95768] [Bug #16337]
