@@ -1,0 +1,1 @@
+ということで RubyVM::InstructionSequence#to_a で invokebuiltin 命令に対応するようにしています。
