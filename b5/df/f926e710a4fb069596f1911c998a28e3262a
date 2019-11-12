@@ -1,0 +1,1 @@
+test/ruby/test_parse.rb と test/ruby/test_syntax.rb で SyntaxError になることを確認するテストに assert_raise を使っていたのを assert_syntax_error を使うようにしています。また assert_nothing_raised のかわりに assert_valid_syntax を使うようにしています。一箇所(じゃないかもしれないけど) assert_raise で閉じてない =begin が文法エラーになるのを確認しているところが =end を補ってしまって assert_valid_syntax になっててテスト内容が代わってしまってそうだけどこれはいいのかな。と、思ったけど少し後で再度同じようなテストが追加されていたので意図的だったようです。
