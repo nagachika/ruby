@@ -1,0 +1,1 @@
+続いて 69ec3f70fab0c1c537c68fb135cc315181b1d750 の =begin/=end の後の NUL 文字などに警告する変更を revert しています。
