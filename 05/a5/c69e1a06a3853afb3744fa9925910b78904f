@@ -1,0 +1,1 @@
+common.mk の miniprelude.c の依存関係に組み込みクラス実装用の .rb ファイル群を追加しています。動的に読み込むのではなくて miniprelude.c に埋め込むようになったので。
