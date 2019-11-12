@@ -1,0 +1,1 @@
+6f9be8505d172b110ec449478a791d70b9b74afb のテスト修正は revert して tool/rbinstall.rb で gemspec ファイル内の NUL 文字を含む行を消すようにしています。 gemspec ファイル対応のためだったのかな。
