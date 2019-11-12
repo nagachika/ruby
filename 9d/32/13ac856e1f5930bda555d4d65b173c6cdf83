@@ -1,0 +1,1 @@
+test/ruby/test_default_gems.rb のテストは git コマンドが利用可能じゃないと失敗するので(gemspec ファイル内で git ls-files を使ってるからかと)、git が使えなかったら skip するようにしています。
