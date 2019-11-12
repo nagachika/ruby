@@ -1,0 +1,1 @@
+ade038889468e7755d7ebfe75975e0e77d1e1dec の追加修正で =begin/=end の後の NUL 文字や Ctrl-D/Ctrl-Z は警告を出力するようにしています。
