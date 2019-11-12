@@ -1,0 +1,1 @@
+make up でソースコード更新後に extract-gems も実行されるように依存関係を追加しています。 optparse のテストで did_you_mean.gem が利用できなくてエラーになる場合があったようです。
