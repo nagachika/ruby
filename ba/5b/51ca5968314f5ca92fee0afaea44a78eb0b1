@@ -1,0 +1,1 @@
+6eaac7cfac668d6669be694fd7b723c4982ed218 の =begin/=end の後の NUL 文字などの警告の変更を revert。
