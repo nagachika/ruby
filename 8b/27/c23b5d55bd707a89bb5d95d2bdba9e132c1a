@@ -1,0 +1,1 @@
+rubygems の更新で失敗したテストの対応で spec.activate の前後の mutex の操作の変更を revert しています。
