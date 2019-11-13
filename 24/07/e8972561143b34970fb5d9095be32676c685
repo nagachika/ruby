@@ -1,0 +1,1 @@
+d9978ce5d397866afae536db2aa708af3b7a4b2f の rubygems の require で untaint を直接呼ぶようにしたのはやっぱり revert しています。 b8d242d221641752a495ca43f8f211a3ad73d467 で問題のテストを削除したのでってことなので、 revert してたのは SecurityError が発生してたからじゃなくて、これらのテストが通らなくなってたからってことだったのかも。
