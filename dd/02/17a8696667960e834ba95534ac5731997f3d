@@ -1,0 +1,1 @@
+同じく __builtin_inline! の実装のため builtin.h に追加された rb_vm_lvar() は static 関数として宣言するようにしています。
