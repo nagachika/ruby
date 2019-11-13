@@ -1,0 +1,1 @@
+irb の独自 tokenizer の lib/irb/ruby-token.rb はもう利用していないので削除しています。
