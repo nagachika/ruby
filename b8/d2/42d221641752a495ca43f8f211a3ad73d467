@@ -1,0 +1,1 @@
+a815053a3ea16382bea8b420a3070b4da3c3bb94 および 4be1e84d7894751799cc9d8ae2dec720952a02a3 のデバッグ用コードで原因が判明したようで rubygems の require の再定義で File.symlink? が例外を発生させた時に Monitor#exit が漏れてたのを修正しています。
