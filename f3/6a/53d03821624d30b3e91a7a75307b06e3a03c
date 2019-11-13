@@ -1,0 +1,1 @@
+Monitor#mon_owned? が使えるのは 2.5 以降とのことで rubygems の require の実装で呼ぶのは respond_to? で確認してからにしています。
