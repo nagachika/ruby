@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal でも $SAFE の deprecate に対応するため rb_check_safe_obj() の呼び出しを削っています。
