@@ -1,0 +1,1 @@
+Kernel#require のテストで $SAFE の機能を確認するテストは削除しています。 [ruby-core:95398] [Feature #16131]
