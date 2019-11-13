@@ -1,0 +1,1 @@
+4a30fabfcfd72bd61bf1dad61f168eaba6100f12 のさらに続きで rubygems の require でメソッドに入る時と抜ける時とで Monitor の所有状態が変化してたらデバッグ出力するように変更しています。
