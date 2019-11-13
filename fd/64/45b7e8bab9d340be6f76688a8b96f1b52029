@@ -1,0 +1,1 @@
+どうやら rubygems の require の問題は標準添付ライブラリ monitor 側にあったようで Monitor#exit で呼んでいる Thread が Monitor を所有済みの Thread でなかったら例外を発生させるようにしています。
