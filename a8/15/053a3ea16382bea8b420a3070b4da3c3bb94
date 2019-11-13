@@ -1,0 +1,1 @@
+f1f27da6c457684fdbfc0352297e6847f675ce4c で revert された rubygems の変更の部分でデバッグのため require を抜ける時点で Monitor を所有しっぱなしだったら例外発生させるようにしています。
