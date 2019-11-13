@@ -1,0 +1,1 @@
+拡張ライブラリの出力先に作られる common/ というサブディレクトリの依存関係のため .RUBYCOMMONDIR.time という timestamp ファイルを使って作成するようにしています。 https://github.com/ruby/ruby/pull/2669
