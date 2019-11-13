@@ -1,0 +1,1 @@
+File.realpath や File.realdirpath のテストにちゃんと絶対パスになっていることを確認する assertion を追加しています。いくつかのシステムでは realpath(3) や realdirpath(3) が相対パスを返すことがあるとのこと。
