@@ -1,0 +1,1 @@
+fdfad905227a0e2e4c224d87181041fb75d5082e で標準添付ライブラリ uri の default gem 化を revert したのを revert して、再度 default gem 化しています。 f1f27da6c457684fdbfc0352297e6847f675ce4c の rubygems の変更(というか revert の revert)により require 時の問題は解決したそうです。
