@@ -1,0 +1,1 @@
+さらに rubygems の require 再定義でパス名を untaint するのに Gem::UNTAINT という定数を使ってたのを直接 untaint メソッドを呼ぶように修正しています。2.7 から $SAFE が deprecated になるのに対応するために 2.7 以降では untaint を省略するために空の Proc オブジェクトを格納しておくようにしていたみたいですけど、現状だとまだ untaint が必要だった(File.symlink? が SecurityError を発生させてしまった)みたいですね。
