@@ -1,0 +1,1 @@
+593f0b88533c9d327b33d098bb6b3b51df871966 の続きで GitHub Actions の Windows 版でパッケージを cache するキーに matrix.os の値も含めるようにしています。 https://github.com/ruby/ruby/pull/2671
