@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb を強化して環境変数 LEAK_CHECKER_TRACE_OBJECT_ALLOCATION をセットしたら fd の leak 検出時にどこで開いた fd かも表示するようにしています。正確にはオブジェクトの allocate した位置ですが。
