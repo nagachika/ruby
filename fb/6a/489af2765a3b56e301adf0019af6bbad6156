@@ -1,0 +1,1 @@
+obj.:meth という記法で Method オブジェクトを取り出す機能を revert しています。 [ruby-core:95502] [Feature #16275]
