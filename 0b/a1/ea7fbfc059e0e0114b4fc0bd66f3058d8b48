@@ -1,0 +1,1 @@
+tool/merger.rb で git を利用している場合 upstream をローカルリポジトリの remote の origin という名前のものを使うのではなく git.ruby-lang.org のほうを URL 指定で参照するように修正しています。
