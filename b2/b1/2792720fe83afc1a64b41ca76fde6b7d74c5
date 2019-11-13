@@ -1,0 +1,1 @@
+tool/format-release でパッケージの情報を GitHub Actions による YAML 情報を取り込むようにしています。またリリースノートの雛形を表示するようにしています。
