@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 16。04 で test-bundler と test-bundled-gems の実行を省略するようにしています。
