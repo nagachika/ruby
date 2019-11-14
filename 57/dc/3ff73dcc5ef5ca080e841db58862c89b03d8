@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から標準添付ライブラリ sync のエントリを削除しています。sync は標準添付から外されたので。
