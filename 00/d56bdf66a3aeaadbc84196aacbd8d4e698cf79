@@ -1,0 +1,1 @@
+pack.c で builtin.h の #include の前に vm_core.h を追加しています。これ builtin.h から vm_core.h を #include しておくようにするとまずいのかな。
