@@ -1,0 +1,1 @@
+MJIT 有効化時に tail-call optimization を確認するテストを skip するようにしています。
