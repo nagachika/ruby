@@ -1,0 +1,1 @@
+1f7cb4bee9f711d07a5b31f439f621a2557e7505 の rb_parser_lex_state_names の prefix 削除に追随して ext/ripper/lib/ripper/lexer.rb のコメント内の記述も prefix を削っています。
