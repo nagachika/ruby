@@ -1,0 +1,1 @@
+template/Makefile.in の vm 関連の .inc ファイル群の依存関係に VM 系コード生成ツールやテンプレートなど tool/ruby_vm/ 配下のファイル群を追加しています。
