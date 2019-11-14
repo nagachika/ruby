@@ -1,0 +1,1 @@
+c4064aef7f48c51add6c24467da64528d5a2a2a5 で追加した tool/actions-commit-info.sh を利用して GitHub Actions の MJIT のテストの Slack 通知でも同様にその日のコミット数などを表示するようにしています。
