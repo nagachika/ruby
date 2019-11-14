@@ -1,0 +1,1 @@
+GitHub Actions の ubuntu 環境でデバッグ用に環境変数 GITHUB_CONTEXT を表示させてたのが重複してたので一方を削っています。
