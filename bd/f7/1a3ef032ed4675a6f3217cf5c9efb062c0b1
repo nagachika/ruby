@@ -1,0 +1,1 @@
+GitHub Actions の MJIT 用テストの設定で Slack 通知のメッセージに埋め込む変数の間違いを修正。
