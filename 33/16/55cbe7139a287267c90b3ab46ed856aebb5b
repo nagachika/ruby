@@ -1,0 +1,1 @@
+Wercker で行なっていた MJIT 有効にして行なうテストを GitHub Actions を利用するように移植しているようです。 https://github.com/ruby/ruby/pull/2676
