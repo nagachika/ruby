@@ -1,0 +1,1 @@
+tool/actions-commit-info.sh というツールを追加して、UTC 基準でその日のうちに行なわれたコミット数を取得するようにして、GitHub Actions で Slack 通知する時にその数と最後の変更のタイムスタンプを表示するようにしています。
