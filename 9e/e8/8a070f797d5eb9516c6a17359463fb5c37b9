@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu と macOS でのテスト時に MSPECOPT に -ff を設定していたのを削除しています。デバッグ用にだいぶ前に入れてもう不要になったようです。
