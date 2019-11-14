@@ -1,0 +1,1 @@
+c4064aef7f48c51add6c24467da64528d5a2a2a5 や 990728170c5e4d6b763fa42c48ce82473d753aad での tool/actions-commit-info.sh によるコミット数の集計のため GitHub Actions で git clone する時に --depth による指定ではなく --single-branch --shallow-since=yesterday というオプションで昨日からのコミットのみ取得するようにしています。
