@@ -1,0 +1,1 @@
+pack.c から vm_core.h の #include を消して builtin.h に rb_vm_lvar() の prototype 宣言を追加しています。
