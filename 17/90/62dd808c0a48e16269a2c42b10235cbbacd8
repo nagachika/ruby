@@ -1,0 +1,1 @@
+rb_vm_lvar_exposed() の定義を builtin.c から vm_insnhelper.c に移動しています。 mini_builtin.c にも必要なのに miniruby にリンクされない builtin.c にあったのがまずかったらしい。なんでビルドできてたんだろ。
