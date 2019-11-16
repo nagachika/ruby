@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor に mark 機能用のキーバインドの対応を追加しています。なんだけど追加する時に :ed_move_to_end を消してしまって :ed_prev_char が二重に書かれてしまっているような。
