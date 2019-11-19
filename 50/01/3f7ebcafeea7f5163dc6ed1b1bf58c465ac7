@@ -1,0 +1,1 @@
+標準添付ライブラリ rexml で戻り値に taint してるところを RUBY_VERSION が 2.6 以前の時だけ taint するように対応しています。
