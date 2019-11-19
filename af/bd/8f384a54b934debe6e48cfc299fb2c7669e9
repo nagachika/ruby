@@ -1,0 +1,1 @@
+拡張ライブラリ openssl からも rb_check_safe_obj() や OBJ_TAINT() の呼び出しを削っています。
