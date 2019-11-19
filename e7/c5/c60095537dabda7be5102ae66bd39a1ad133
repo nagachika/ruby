@@ -1,0 +1,1 @@
+irb の gemspec ファイルの spec.files から 45bb6f28db04a1f267f5b8d79392cb35087510d8 で削除した lib/irb/ruby-token.rb を削っています。
