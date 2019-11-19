@@ -1,0 +1,1 @@
+tool/update-deps で make -p で依存関係を表示させる時に ruby のかわりに ruby-runner を指定するようにしています。
