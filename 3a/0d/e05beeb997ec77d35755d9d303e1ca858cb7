@@ -1,0 +1,1 @@
+doc/security.rdoc および doc/extension.rdoc, doc/extension.ja.rdoc から $SAFE についての記述や関連する C API の説明を削除しています。
