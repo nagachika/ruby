@@ -1,0 +1,1 @@
+string.c の rb_tainted_str_new_with_enc() という static 関数が未使用になってたので削除。
