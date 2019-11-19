@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#input_key で引数の nil? でのチェックは不要として削っています。
