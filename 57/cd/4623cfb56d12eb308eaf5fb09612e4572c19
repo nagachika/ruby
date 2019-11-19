@@ -1,0 +1,1 @@
+71fee9bc720ba7a117062bf3f78b6086527b656c で追加したデバッグ用の printf() に渡してる __func__ を移植性のため RUBY_FUNCTION_NAME_STRING に変更。
