@@ -1,0 +1,1 @@
+71fee9bc720ba7a117062bf3f78b6086527b656c の変更で vm_invoke_builtin_delegate() の引数 に追加した index の型を unsigned int に変更。コンパイラの警告抑制のため。
