@@ -1,0 +1,1 @@
+process.c、ruby.c、string.c などで代入して未使用の変数の削除。
