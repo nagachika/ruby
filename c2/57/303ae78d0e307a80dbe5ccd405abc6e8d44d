@@ -1,0 +1,1 @@
+互換性のため safe_level を指定する引数を消せなかった rb_eval_cmd() を deprecated にして代替として rb_eval_kw() という C API を追加しています。
