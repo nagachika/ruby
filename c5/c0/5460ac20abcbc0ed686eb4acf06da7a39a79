@@ -1,0 +1,1 @@
+tainted フラグをチェックする処理を削り、$SAFE を操作したり $SAFE の値に応じたチェックを行う API で警告を出力するようにして $SAFE を deprecated にしています。互換性のため C API の rb_eval_cmd() の level 引数は残されていますが、たぶん代替となる API を追加する予定とのこと。
