@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems のテストで minitest のテスト失敗を無視していたのをやめています。 https://github.com/seattlerb/minitest/pull/798
