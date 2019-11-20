@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Unix 系環境で stty コマンドを起動するのにバッククオートを使っていたのを Kernel#system を使い、標準エラー出力を /dev/null に捨てるようにしています。 Apple Terminal で stty のエラーメッセージが出るそうです。
