@@ -1,0 +1,1 @@
+fstring のテストで taint を呼び出すことによく警告を抑制するため一時的に $VERBOSE を nil に設定。
