@@ -1,0 +1,1 @@
+71fee9bc720ba7a117062bf3f78b6086527b656c の変更で Array#pack が invokebuiltin でなく opt_invokebuiltin_delegate を利用するようになったので MJIT のテストで invokebuiltin を対象としたテストがなくなったので TEST_PENDING_INSNS に追加しています。
