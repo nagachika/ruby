@@ -1,0 +1,1 @@
+reline のテストで assert_equal のかわりに assert_include を使ってよりわかりやすいエラーメッセージが出るようにしています。
