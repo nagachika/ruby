@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile の rdoc 用コメントに省略可能な第2引数以降の file、path や lineno の用途の説明やサンプルを追記しています。
