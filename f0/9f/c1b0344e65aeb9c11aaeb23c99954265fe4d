@@ -1,0 +1,1 @@
+tool/update-deps に必要に応じて probe.dmyh への依存関係を追加する対応を追加。
