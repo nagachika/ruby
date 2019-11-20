@@ -1,0 +1,1 @@
+require の実装で EC_EXEC_TAG() から大域脱出で TAG_FATAL を返してきた時に対応していなくて SEGV する場合があったのを修正しています。 [ruby-core:95055] [Bug #16177]
