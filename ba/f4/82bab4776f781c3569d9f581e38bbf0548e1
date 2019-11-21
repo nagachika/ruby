@@ -1,0 +1,1 @@
+4b583cff97025394fab4a014a2a8606dfb557475 に対応して影響する test/ruby/test_module.rb のテストを修正しています。 [ruby-core:84004] [Feature #14145]
