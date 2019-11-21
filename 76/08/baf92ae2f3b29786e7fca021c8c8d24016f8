@@ -1,0 +1,1 @@
+0e8219f591f3f17cb7ee361e8a60dbef08145883 で一部関数を static に変更していた時に internal.h から array.c の関係ない関数の prototype 宣言が消されてたそうでそれを復旧しています。 icc で明示的に export していない関数が見えなくてエラーになってたようです。
