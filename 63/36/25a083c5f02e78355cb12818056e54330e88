@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::IS_WINDOWS という定数は削除して、1箇所でしか参照されていなかったのでそこで直接 RbConfig::CONFIG["host_os"] をチェックするようにして、さらに Reline::Windows.get_screen_size が [0, 0] になってしまっていたら Reline::ANSI を使うように fallback させています。 Cygin 上で Mintty という端末? を使うと Reline::Windows がうまく機能しない(というか ANSI が使える)みたいです。
