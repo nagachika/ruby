@@ -1,0 +1,1 @@
+Method#inspect でメソッドの引数の情報を詳しく表示するようにしています。 [ruby-core:84004] [Feature #14145]
