@@ -1,0 +1,1 @@
+と思ったら 83900528ad6a2cf37360abe2bcebb16787177838 の警告をエラーにしてた件で出てた警告の修正? で vm_args.c の rb_resolve_refined_method_callable() の宣言が MJIT_HEADER が定義されている時にされていなかったので常に宣言するようにしています。
