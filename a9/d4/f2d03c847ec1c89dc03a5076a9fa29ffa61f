@@ -1,0 +1,1 @@
+標準添付ライブラリ time.rb で追加される Time.strptime の指示子に %U/%u/%W/%w/%V/%g/%G などのサポートを追加しています。 [ruby-core:62567] [Bug #9836] [ruby-core:84478] [Bug #14241]
