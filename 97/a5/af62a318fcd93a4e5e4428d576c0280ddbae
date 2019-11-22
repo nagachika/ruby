@@ -1,0 +1,1 @@
+revision.h の依存関係に .revision.time を追加するのを revision.h に書かれてる RUBY_FULL_REVISION が現在の git リポジトリのコミットハッシュと異なっている時だけにして余計な再生成を抑制するようにしています。
