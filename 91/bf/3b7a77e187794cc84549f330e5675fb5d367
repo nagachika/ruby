@@ -1,0 +1,1 @@
+irb のオプションに --singleline, --nosingleline と --multiline, --nomultiline いうオプションを追加してマルチライン編集を有効にするかどうか指定できるようにしています。 --singleline は --readline と同じ意味になるみたいです(つまり readline を使う?)。
