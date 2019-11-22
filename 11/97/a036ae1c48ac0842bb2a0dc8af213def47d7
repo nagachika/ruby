@@ -1,0 +1,1 @@
+mjit_compile.c の mjit_compile_body() の生成するソースコードで警告除去のため明示的なキャストを追加するようにしています。
