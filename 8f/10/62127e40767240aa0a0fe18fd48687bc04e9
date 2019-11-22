@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストに Reline::LineEditor#calculate_width のテストを追加しています。
