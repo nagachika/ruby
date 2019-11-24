@@ -1,0 +1,1 @@
+GC.compact で使う struct heap_page 内で pin されているオブジェクト数を数える count_pinned() 自体も bitmap のほうをみて立っている bit を数えるという方法にして軽量化しています。 T_ZOMBIE も数えるというのもこれで吸収できるのかな、と思ったらちゃんとコミットログにその言及があって、それは temporary objects で small in number のはずだからまあええやろ、という感じらしくて、まあ、機能的に厳密なソートが必要なわけでないのならいいのか(多分効率的な compaction のためのヒントとして使ってるのだろう)。
