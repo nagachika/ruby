@@ -1,0 +1,1 @@
+b0614a0f968d40fb1bad31592fc9a607dbac447d で追加した標準添付ライブラリ tracer の Tracer.set_get_line_procs のテストで dummy_script のファイルパスを File.realpath を通して symbolic link を解決しておくようにしています。
