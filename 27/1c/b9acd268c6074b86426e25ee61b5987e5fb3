@@ -1,0 +1,1 @@
+defs/gmake.mk の REVISION_LATEST を抽出するコマンドで git log が出力するエラーメッセージを /dev/null にリダイレクトして抑制するようにしています。
