@@ -1,0 +1,1 @@
+tool/merger.rb の remove_tag サブコマンドで git を使う時に GitHub へも同時にタグ削除を push するようにしています。
