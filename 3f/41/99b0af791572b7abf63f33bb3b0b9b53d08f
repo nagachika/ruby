@@ -1,0 +1,1 @@
+gc.c の gc_compact() から gc_compact_after_gc() の呼び出しで use_verifier という引数を TRUE に固定して呼んでたのを同名の引数を委譲するように修正しています。
