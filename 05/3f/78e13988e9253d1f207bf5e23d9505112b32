@@ -1,0 +1,1 @@
+rb_gvar_readonly_setter() の宣言を internal.h に追加しています。 emscripten でのビルドに必要だったとのこと。
