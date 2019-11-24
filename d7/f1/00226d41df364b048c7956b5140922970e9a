@@ -1,0 +1,1 @@
+default gem の gemspec のテストで git に依存しているものを skip するための判定で git --version を使っていたのを git rev-parse に変更。 git --version では git がインストールされてさえいれば動いてしまいますがここで判定したいのはカレントディレクトリが git の working copy 内であるということなので不十分でした。
