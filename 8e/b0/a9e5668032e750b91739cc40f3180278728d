@@ -1,0 +1,1 @@
+tool/downloader.rb の gnu の config.guess や config.sub をダウンロードするのに使うサイトを raw.githubusercontent.com から cdn.jsdelivr.net という CDN? に変更しています。
