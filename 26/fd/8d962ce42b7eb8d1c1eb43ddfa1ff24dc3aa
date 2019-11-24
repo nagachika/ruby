@@ -1,0 +1,1 @@
+GC.compact の処理で struct heap_page のリストをソートするために pin されているオブジェクト数を数える処理を比較のたびに count_pinned() を呼び出していたのが非効率なので、struct heap_page に pinned_slots というメンバーを追加してソート前に全 page ぶんカウントしてセットしておくようにしています。
