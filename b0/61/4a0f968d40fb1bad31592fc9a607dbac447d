@@ -1,0 +1,1 @@
+1ee010a3171978007a4550e8077f1e4b646bd80a と同様に標準添付ライブラリ tracer の Tracer.set_get_line_procs も通常引数とブロック両方受け取れるようにしています。
