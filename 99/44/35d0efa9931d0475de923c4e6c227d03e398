@@ -1,0 +1,1 @@
+e1b234148829f65bea9f5ecc7018beb782ea6023 の依存関係更新のうち ext/psych/depend の部分を revert しています。 Fedora での psych のビルドに外部の libyaml を使うのがうまくいかなくなったとのこと。なるほど ext/psych/yaml/ 内のヘッダに依存してしまうとだめか。 [ruby-core:95908] [Bug #16359]
