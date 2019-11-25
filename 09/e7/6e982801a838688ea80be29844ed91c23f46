@@ -1,0 +1,1 @@
+complex.c の nucomp_real_p() の戻り値を VALUE から bool に変更したり、bool 型の変数に渡す値を TRUE/FALSE といったマクロから true/false に変更しています。
