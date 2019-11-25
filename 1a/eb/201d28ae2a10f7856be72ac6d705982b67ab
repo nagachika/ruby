@@ -1,0 +1,1 @@
+ということで 745ab168185fc8f3c9d9dbd3a2355738776aee6d で消し忘れてた raise LoadError を削除しています。
