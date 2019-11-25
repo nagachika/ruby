@@ -1,0 +1,1 @@
+標準添付ライブラリ irb には tracer をロードして irb 自体は通常の実行をしつつ入力されたスクリプトを trace する機能があったらしいのですが(知らなかった)、その lib/irb/ext/tracer.rb で require "tracer" しているところで、tracer が標準添付から消されたので LoadError を捕捉して top level return して機能は無効にしつつ処理続行できるようにしています。が、begin 節の最初で raise LoadError してるので常に無効になりそう。たぶん消し忘れ?
