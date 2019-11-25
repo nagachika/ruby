@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect で RArray オブジェクトで配列の要素が embed されていた時の表示を修正しています。
