@@ -1,0 +1,1 @@
+time.c の rb_localtime_r() で bool 型の変数に 1 を代入していたのを定数 TRUE を使うように修正しています。
