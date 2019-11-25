@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の output_string の引数に result を追加して、append_command_output というメソッドを利用して文字列化するようにしています。コメントによれば Symbol の表示の改善のためらしいです。
