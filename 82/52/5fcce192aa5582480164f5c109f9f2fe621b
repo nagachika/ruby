@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に openssl の upstream からの同期の対応を追加しています。あれ、まだなかったのか…。
