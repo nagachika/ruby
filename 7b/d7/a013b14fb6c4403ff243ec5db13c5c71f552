@@ -1,0 +1,1 @@
+Windows での rm コマンドの代替? の win32/rm.bat で -r オプションが指定されてた時に変数 recursive に代入する set コマンドにクオートを追加しています。また Windows での $(RMALL) コマンドで rm.bat に -f オプションを渡すように変更しています。
