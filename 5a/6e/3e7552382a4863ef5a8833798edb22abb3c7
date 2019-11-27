@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境での configure.bat 実行時に --with-openssl-dir オプションで OpenSSL のインストール先を指定するようにしています。
