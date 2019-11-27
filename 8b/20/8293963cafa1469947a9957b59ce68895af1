@@ -1,0 +1,1 @@
+lib/irb/input-method.rb の不要な変数代入を削除。
