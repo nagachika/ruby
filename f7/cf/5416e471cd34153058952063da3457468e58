@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse#body の rdoc 用コメントに body に Proc オブジェクトなど call メソッドを呼べるオブジェクトを渡すこともできることを追記しています。
