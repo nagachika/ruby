@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の .gemspec ファイルを lib/fileutils/ の下から lib/ の直下に移動しています。
