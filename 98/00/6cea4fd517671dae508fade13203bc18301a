@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で同梱版の libyaml を使う時に yaml.h への依存関係を depend に追加するようにしています。
