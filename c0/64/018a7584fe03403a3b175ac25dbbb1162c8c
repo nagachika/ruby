@@ -1,0 +1,1 @@
+GitHub Actions で make extract-gems を実行するのは matrix 内の make check 用のアクションの時だけにしています。
