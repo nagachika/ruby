@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu と macOS のステップに make update-gems の実行を make extract-gems を追加しています。 Windows 版ではもともと nmake up してたので不要みたいです。
