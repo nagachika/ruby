@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトの m_tbl と class_serial の位置を rb_serial_t が VALUE と同じ幅を持ってる時に struct RClass と rb_classext_t の間で入れ換えるようにしています。 class_serial が頻繁にアクセスさえれるのでポインタを辿らなくてもいいように struct RClass に直接置くようにしようとしているようです。
