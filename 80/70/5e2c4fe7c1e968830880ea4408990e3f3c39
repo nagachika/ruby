@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の upstream の repository から cherry pick する機能でコミット範囲を 1つのコミットのみ指定する方法にも対応するようにしています。
