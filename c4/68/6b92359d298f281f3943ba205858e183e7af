@@ -1,0 +1,1 @@
+5e275dd2af4d9d24cdb1cfc0f232f348dae9c2cd で irb が使う RubyLex という lexer で numbered parameter の @1 みたいな文法に対応していたのを revert しています。 numbered parameter は _1、_2 みたいな形式に変更になったので。
