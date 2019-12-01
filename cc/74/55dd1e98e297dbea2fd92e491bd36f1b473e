@@ -1,0 +1,1 @@
+ですが 56faa13a1c5261a0d046a4c0203e88fccfafae17 は revert して assert_match でチェックを緩めることで対処しています。
