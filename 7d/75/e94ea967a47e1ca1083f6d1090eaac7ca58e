@@ -1,0 +1,1 @@
+irb の completion で Complex のリテラルのための正規表現を修正。
