@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の .gemspec ファイルで spec.required_ruby_version を ">= 2.5" に変更しています。 RbConfig::LIMITS に依存するようになってて、これが 2.5 以降にしかないので。そんなに最近だったか。
