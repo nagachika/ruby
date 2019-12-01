@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の ExceptionForMatrix::TypeError や ExceptionForMatrix::ArgumentError などのクラス(これは例外クラスですらないですね…)を削除し、ExceptionForMatrix::ErrOperationNotDefined や ExceptionForMatrix::ErrOperationNotImplemented の initialize の引数の数を変更しています。これは呼び元も変更しなくていいのかな。
