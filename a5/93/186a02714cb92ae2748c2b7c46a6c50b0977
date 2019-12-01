@@ -1,0 +1,1 @@
+98006cea4fd517671dae508fade13203bc18301a の続きで拡張ライブラリ psych の extconf.rb で同根版の yaml.h のヘッダのパスを Windows 版では $(VPATH) をつけて参照するように修正しています。
