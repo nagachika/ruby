@@ -1,0 +1,1 @@
+parse.y の struct parser_params に pktbl というメンバーを追加して ripper においてパターンマッチの Hash Pattern のキーに重複がないかのチェックをするように修正しています。なるほどここで $10 以上を使う必要ができたんですね。
