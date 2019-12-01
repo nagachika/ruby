@@ -1,0 +1,1 @@
+doc/standard_library.rdoc と doc/maintainers.rdoc からも e2mmap の記述を削除し、NEWS の削除した標準添付ライブラリのエントリに e2mmap も追記しています。
