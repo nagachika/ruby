@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の ExceptionForMatrix::ErrDimensionMismatch の initialize も ErrNotRegular に倣って省略時に専用の固定メッセージを使うのみに変更しています。思うにこれが e2mmap の主要な機能だったんでしょうね。
