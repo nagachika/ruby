@@ -1,0 +1,1 @@
+parse.y の struct parser_params::pvtbl の操作を push_pvtbl() と pop_pvtbl() という関数に切り出すリファクタリング。しかしこの関数部分だけみると push/pop のイメージが逆な気がしますね。
