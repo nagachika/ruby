@@ -1,0 +1,1 @@
+5069c5f5214ce68df8b3954321ad9114c5368dc3 の再修正で rb_include_class_new() の RCLASS_SET_ORIGIN() の呼び出しを一箇所にまとめるリファクタリング。 [ruby-core:95242] [Bug #16242]
