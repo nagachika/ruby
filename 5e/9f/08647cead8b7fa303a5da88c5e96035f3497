@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick のテストで Net::HTTP の write_timeout 設定可否を RUBY_VERSION で判定せずに直接 respond_to? でメソッドが呼べるかどうかで判定するようにしています。
