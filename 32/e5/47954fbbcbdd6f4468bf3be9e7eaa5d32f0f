@@ -1,0 +1,1 @@
+eab88d20eaa925d5e61a2a65820a099b46ccf3f8 の fileutils の install メソッドでの "X" を含む mode 引数の不具合修正を revert しています。 CI が壊れたとのこと。
