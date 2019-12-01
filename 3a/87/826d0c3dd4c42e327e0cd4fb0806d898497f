@@ -1,0 +1,1 @@
+なんか最近まちがえて Kernel#ruby2_keywords って書いちゃった気がしますが、まだ Module#ruby2_keywords しかなくてトップレベルで定義するメソッドには使えなかったので main オブジェクトの特異メソッドとしての ruby2_keywords も追加してトップレベルでも使えるようにしています。 [ruby-core:95918] [Feature #16364]
