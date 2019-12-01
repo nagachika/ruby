@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の例外クラス ExceptionForMatrix::ErrDimensionMismatch の initialize に引数を追加して文字列以外のオブジェクトが渡されたら専用のメッセージを使うようにしています。また ExceptionForMatrix::ErrOperationNotDefined も引数が配列の時のみ添字アクセスを行うようにしています。なんかいろいろな使われかたをしてるみたいですねこれらの例外は…。
