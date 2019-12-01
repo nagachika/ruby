@@ -1,0 +1,1 @@
+おなじく Refinements に使う Module を include してからその後に include した Module に別の Module を prepend すると(ややこしい) Refinements が効かなくなるという不具合を修正しています。そうそう踏まない条件だとは思います。 [ruby-core:80748] [Bug #13446]
