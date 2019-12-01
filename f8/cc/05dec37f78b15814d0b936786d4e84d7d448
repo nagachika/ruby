@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::ReidlineInputMethod#eof? で super を呼んでたのをインスタンス変数 @eof を直接参照するようにしています。そもそも親クラスである IRB::InputMethod に eof? が定義されてなさそう。
