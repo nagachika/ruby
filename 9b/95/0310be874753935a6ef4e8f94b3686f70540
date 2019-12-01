@@ -1,0 +1,1 @@
+04511b994e19de65fff84dd55a246842a2f9ad29 で変更した ErrOperationNotDefined と ErrOperationNotImplemented という例外の initialize の引数の数をやっぱり 1つに戻して呼び元で配列を渡してそれを添字でアクセスしてメッセージに埋め込むようにしています。
