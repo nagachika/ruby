@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPResponse#[]= でヘッダに Transfer-Encoding: chunked を設定しようとしているのを検出したらインスタンス変数 @chunked にも true を設定するようにしています。なるほど。従来は res.chunked = true を設定するとヘッダがセットされるという動きですがヘッダのセットで代替してもいいということですね。 [ruby-core:63372] [Bug #9986]
