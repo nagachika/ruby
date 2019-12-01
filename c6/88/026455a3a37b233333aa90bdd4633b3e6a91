@@ -1,0 +1,1 @@
+cont.c の Windows 版の実装 cont_restore_1() で setjmp() してセットされた _JUMP_BUFFER から Frame 情報をコピーする時に _JUMP_BUFFER 全体も退避しておくよにしています。警告除去のためとのこと。
