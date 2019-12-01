@@ -1,0 +1,1 @@
+Symbol#start_with? や Symbol#end_with? といったメソッドを新規追加しています。 [ruby-dev:50862] [Feature #16348]
