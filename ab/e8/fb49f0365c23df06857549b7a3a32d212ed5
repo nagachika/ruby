@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor で emacs モードでの Ctrl-k を行末で入力した時に改行を削るようにしています。
