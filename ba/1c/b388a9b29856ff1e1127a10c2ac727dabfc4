@@ -1,0 +1,1 @@
+b5fbefbf2c14742f6d46ecdf3ce712062dfb1d0a の NEWS エントリの位置が String の部分になってたので Symbol のところに移動しています。 [ruby-dev:50862] [Feature #16348]
