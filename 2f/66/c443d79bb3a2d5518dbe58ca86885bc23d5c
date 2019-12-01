@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の例外クラス ExceptionForMatrix::ErrNotRegular の initialize の引数が省略された時にデフォルトのメッセージを使うようにしています。
