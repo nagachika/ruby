@@ -1,0 +1,1 @@
+5069c5f5214ce68df8b3954321ad9114c5368dc3 か a0579f3606561a74e323f6193b9504c06845236c の Refinements と prepend/include との組み合わせの修正の影響で Refinement で変更した Module で定義されているクラス変数を include した Module から参照した時に不要な警告が出てしまっていた不具合を修正。こういう警告があること自体を知らなかったなぁ。
