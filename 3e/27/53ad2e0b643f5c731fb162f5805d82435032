@@ -1,0 +1,1 @@
+a19d625e667024fe27dcee04dd748e914bc24762 で追加したテストで子プロセス起動時に MJIT_SEARCH_BUILD_DIR という環境変数を指定するようにしています。 GitHub Actions での失敗対策のようです。
