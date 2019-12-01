@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::CGIHandler のオプションに :CGIInterpreter というのを指定して CGI 実行用のコマンドを指定できるようにしています。 [ruby-core:89191] [Feature #15170]
