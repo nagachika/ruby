@@ -1,0 +1,1 @@
+rubyspec の Process.times のテストで Process.clock_gettime(:GETRUSAGE_BASED_CLOCK_PROCESS_CPUTIME_ID) を使って必要な精度が得られないことがわかったら skip するようにしています。
