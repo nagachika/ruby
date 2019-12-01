@@ -1,0 +1,1 @@
+2e6f1cf8b264f4c8499c4e5f18bf662fdade04ff のやりなおし。dd723771c118da71aa58bb74537cacaec425542a で追加した rb_ivar_generic_ivtbl() を MJIT 向けに export するように MJIT_FUNC_EXPORTED を定義に追加。
