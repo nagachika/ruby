@@ -1,0 +1,1 @@
+dd723771c118da71aa58bb74537cacaec425542a で追加した rb_ivar_generic_ivtbl() を MJIT 向けに export するように MJIT_FUNC_EXPORTED を定義に追加。してますが余計な変更も混じってしまったみたいで後で revert されています。
