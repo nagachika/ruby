@@ -1,0 +1,1 @@
+Refinements に使う Module に別の Module を prepend していると using が効かないという不具合を修正しています。 [ruby-core:95242] [Bug #16242]
