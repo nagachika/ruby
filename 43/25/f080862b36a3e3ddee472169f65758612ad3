@@ -1,0 +1,1 @@
+7d75e94ea967a47e1ca1083f6d1090eaac7ca58e で追加したテストのため? に test/irb/test_completion.rb に require "irb" を追加しています。
