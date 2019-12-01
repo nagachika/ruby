@@ -1,0 +1,1 @@
+SECURITY.md というファイルを追加して安定版のバージョンや脆弱性報告についてのページへのリンクを書いています。どうやらこのファイルを置くと GitHub が https://github.com/ruby/ruby/security/policy というところに表示してくれるようです。へー知らなかった。
