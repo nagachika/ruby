@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の version.rb ファイルを削除して gemspec ファイルで "VERSION = " を含む行を切り出してバージョン番号を取り出すようにしています。
