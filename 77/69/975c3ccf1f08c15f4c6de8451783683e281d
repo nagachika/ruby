@@ -1,0 +1,1 @@
+irb の completion の実装で既に削除された lexer の定数 SLex と RubyToken を探索しないように修正しています。
