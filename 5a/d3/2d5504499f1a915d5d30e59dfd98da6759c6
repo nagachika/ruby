@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse のテストの did_you_mean の機能を使うテストで require "did_you_mean" に失敗したら top-level return してテスト全体を定義しないことでスキップするようにしています。後置 rescue で同様の対処をしていましたが後置 rescue は StandardError しか捕捉できないので LoadError はスルーされてしまっていました。
