@@ -1,0 +1,1 @@
+後置 in による expr in pattern のようなパターンマッチ記法で、マッチしなかった時に NoMatchingError という例外を発生させるようにしています。またマッチした時の expr in pattern 全体の評価値は true から nil にしています。 [ruby-core:95889] [Feature #16355]
