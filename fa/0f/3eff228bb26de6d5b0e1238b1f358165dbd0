@@ -1,0 +1,1 @@
+tool/lib/test/unit/core_assertions.rb で使われてた exception_details というメソッドを flunk に変更しています。 fileutils のテスト失敗のため。
