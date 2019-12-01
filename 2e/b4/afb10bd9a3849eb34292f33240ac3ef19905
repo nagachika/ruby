@@ -1,0 +1,1 @@
+GitHub Actions のビルド前に make extract-gems の実行を入れています。
