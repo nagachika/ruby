@@ -1,0 +1,1 @@
+a19d625e667024fe27dcee04dd748e914bc24762 および 8a677a6e80b3b7e1f52073b362083a78eb87397f で追加した split_flags() と ruby_strndup() の引数に const 修飾子を追加。
