@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の ed_search_prev_history キーバインドによる入力履歴の検索で @history_pointer で残しておいた前回のヒット位置から遡ってインクリメンタルに検索? するようにしています。
