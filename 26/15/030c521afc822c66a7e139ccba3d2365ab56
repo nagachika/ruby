@@ -1,0 +1,1 @@
+common.mk の builtin_binary.inc の生成ルールで $(MINIRUBY) ではなく ./miniruby を直接指定して実行するようにしています。両者が違うことってあるんだっけ。 cross compile 時かな。
