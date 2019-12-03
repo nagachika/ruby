@@ -1,0 +1,1 @@
+rubyspec のテストで環境変数 LC_ALL=C をセットしていると失敗するテストの対応。あと require_relative のパスの修正。
