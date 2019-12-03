@@ -1,0 +1,1 @@
+MJIT がサポートされた状態でビルドされてるかのチェックで RbConfig::CONFIG["MJIT_SUPPORT"] をみていたのを test/lib/jit_support.rb の JITSupport.supported? メソッド内にまとめて不要になったチェックは削除しています。
