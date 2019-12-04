@@ -1,0 +1,1 @@
+a7b9f085ff952fcb18f82de39b3bf9ab7e5ba3e7 の変更で configure で mingw では -D_FORTIFY_SOURCE=2 を抑制するための変更で生の test コマンドが configure.ac に書かれてたのを AC_IF() マクロを利用するように修正しています。
