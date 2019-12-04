@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor での auto indent 時の処理で @auto_indent_proc が値を返すまでカーソル位置を減らして繰り返し呼ぶようにしてたのをやめています。
