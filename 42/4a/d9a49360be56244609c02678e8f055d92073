@@ -1,0 +1,1 @@
+rubyspec の Process.times のテストで環境のチェックのため Process.clock_gettime(:GETRUSAGE_BASED_CLOCK_PROCESS_CPUTIME_ID) を呼ぶ回数を 100回から 1000回に増やしています。
