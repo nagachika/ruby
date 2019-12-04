@@ -1,0 +1,1 @@
+$LOAD_PATH に含まれるパスがマルチバイト文字を含んでいる状態で LC_ALL="C" で Encoding.default_external などを設定して起動すると Encoding をロードするために Encoding が必要という状態に陥ってスタックオーバーフローするという不具合の対応。 [ruby-core:96029] [Bug #16382]
