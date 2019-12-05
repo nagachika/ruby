@@ -1,0 +1,1 @@
+拡張ライブラリ coverage で行単位の coverage 計測するためのイベントが peephole optimization で jump 命令が消された時に消えてしまって coverage が取れなくなるという不具合の対応のため line coverage が有効な時にはこの最適化を抑制するようにしています。 TracePoint の line イベントの発火もなくなるそうですが、それは(coverage が有効になってなければ)この変更では直らないとのこと。 [ruby-core:93508] [Bug #15980] [ruby-core:96088] [Bug #16397]
