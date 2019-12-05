@@ -1,0 +1,1 @@
+452bee3ee8d68059fabd9b1c7a75661b14e3933e の String/Symbol の #match, #match? メソッドに nil が渡された時の例外を抑制して警告にした変更を revert しています。
