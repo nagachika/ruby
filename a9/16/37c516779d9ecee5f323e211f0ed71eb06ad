@@ -1,0 +1,1 @@
+Method/UnboundMethod の super_method メソッドが、Method#unbind や UnboundMethod#bind で変換したものや、clone で複製したインスタンスではちゃんと super で呼ばれるメソッドが返されなくなる不具合を修正しています。単にコピーし忘れてたようですね。これ call した時は大丈夫だったのかな。 [ruby-core:91649] [Bug #15629]
