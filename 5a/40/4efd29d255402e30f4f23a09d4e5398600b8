@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#getch の Windows 環境での :intr というオプションに false を指定した時の挙動を修正しています。
