@@ -1,0 +1,1 @@
+ここから Regexp#match, Regexp#match? の例外発生の revert の関連。テストでの警告抑制の 782d1b8fb0a039cedef9ad9c94f432dad51901e6 を revert しています。
