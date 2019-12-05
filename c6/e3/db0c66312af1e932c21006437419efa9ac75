@@ -1,0 +1,1 @@
+caac5f777ae288b5982708b8690e712e1cae0cf6 の拡張ライブラリとしての monitor の導入で MonitorMixin の mon_initialize を呼ぶ前に new_cond を呼ぶとエラーになってしまっていたので、new_cond が呼ばれた時もまだだったら自動的に mon_initialize を呼んでインスタンス変数を初期化するようにしています。 [ruby-core:95349] [Feature #16255]
