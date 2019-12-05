@@ -1,0 +1,1 @@
+でこれが本命? 2a22a6b2d8465934e75520a7fdcf522d50890caf の Regexp#match? に nil を渡した時に例外発生にしたのを revert しています。  [ruby-core:78891] [Feature #13083]
