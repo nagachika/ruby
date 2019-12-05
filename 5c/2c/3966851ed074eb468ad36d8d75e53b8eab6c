@@ -1,0 +1,1 @@
+Thread 内からその同じ Thread を作るメソッドを呼んで再帰させることで Thread bomb みたいなことをすると切り替えポイントがなくて割り込みがきかないという問題の修正のため thread_do_start() でブロック起動前に vm_check_ints_blocking() を呼んで割り込みチェックするようにしています。はー、なんか微妙に嫌な予感のする変更だけど、ぱっとみ args_ptr に RARRAY_CONST_PTR() で取り出した Array のポインタを渡してるところがその Array が割り込み先で変更されるとまずいかもというくらいで、この args はth->invoke_arg.proc.args から来ているのでそうそう変更されることはなさそう? [ruby-core:81801] [Bug #13688]
