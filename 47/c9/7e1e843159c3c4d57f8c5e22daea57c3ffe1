@@ -1,0 +1,1 @@
+autoload でファイルがロードされる時にターゲットとなっている定数の private_constant や deprecated_constant などの属性が無効になった状態で実行されてしまうという不具合を修正しています。そもそも autoload を設定しておいてその定数名に対して private_constant とかロード前に設定できるんですね。 [Bug #11055]
