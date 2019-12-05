@@ -1,0 +1,1 @@
+compile.c の iseq_set_sequence() で while で書かれたループを for 文で書きなおすリファクタリング。
