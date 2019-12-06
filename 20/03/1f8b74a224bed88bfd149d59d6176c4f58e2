@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の completion のテストで候補のリストの文字列の Encoding をテスト用に指定された Encoding または default_external に変換しておくようにしています。
