@@ -1,0 +1,1 @@
+20031f8b74a224bed88bfd149d59d6176c4f58e2 と同様に標準添付ライブラリ reline の completion のテストで候補の文字列リストの Encoding 変換するテストの対応を増やしています。
