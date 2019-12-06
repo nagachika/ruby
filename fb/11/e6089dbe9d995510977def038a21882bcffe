@@ -1,0 +1,1 @@
+File.fnmatch の rdoc 用コメントにフラグ用定数 File::FNM_SYSCASE を渡した時の挙動についてのコメントを追加しています。 [ruby-core:96062] [Bug #16391]
