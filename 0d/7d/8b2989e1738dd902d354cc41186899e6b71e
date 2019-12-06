@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の extconf.rb でコンパイラオプションに -Werror=deprecated-declarations をつけるようにしていたのを revert しています。 Solaris でビルドエラーになってしまう場合があったようです。
