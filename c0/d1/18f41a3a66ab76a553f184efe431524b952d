@@ -1,0 +1,1 @@
+arm32 の環境で strcpy(3) がみつからないというエラーでビルドできないらしいので Travis-CI の arm32 環境で apt-get で libc6:armhf というパッケージをインストールしておくようにしています。 https://github.com/ruby/ruby/pull/2686
