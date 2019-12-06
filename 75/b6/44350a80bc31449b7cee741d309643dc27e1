@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で 98006cea4fd517671dae508fade13203bc18301a や a593186a02714cb92ae2748c2b7c46a6c50b0977 で Windows 版で同梱版の libyaml とリンクする時の対応を追加しましたが nmake のための VPATH の記法はnmake を使う時のみ行なうようにしています。
