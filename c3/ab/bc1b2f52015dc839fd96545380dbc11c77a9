@@ -1,0 +1,1 @@
+0d7d8b2989e1738dd902d354cc41186899e6b71e の拡張ライブラリ openssl での -Werror=deprecated-declarations オプション追加の削除を revert して、ただし create_makefile の直前に $warnflags を元に戻すようにしています。うーんこれはつまりヘッダやライブラリ関数の利用可能かのチェックの時はエラーにするけど、実際のビルド時にはオプションをつけないようにするってことかな。
