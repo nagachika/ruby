@@ -1,0 +1,1 @@
+5fbb4555b427909aed4fe2376c4c583849c1d51c の変更の前からですが tool/mkconfig.rb で config.status の変数の MJIT_SUPPORT および MJIT_CC を取り出すための正規表現に $ を追加して後に余計な文字があった時にマッチしてしまわないようにしています。
