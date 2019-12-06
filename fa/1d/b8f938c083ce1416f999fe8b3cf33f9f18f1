@@ -1,0 +1,1 @@
+common.mk の依存関係更新。 vm_dump.o に gc.h への依存関係を追加しています。 edb80dfe3e6086fb9d5d905a40cdd6ec61a2e1ee の追随かな。
