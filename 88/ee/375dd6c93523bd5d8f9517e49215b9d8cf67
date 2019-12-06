@@ -1,0 +1,1 @@
+f289e3994bbc6560e2e4e5905b52c35c829c972d で drb のテストで Solaris 上でのみ ruby のコマンドラインオプションに -dv を追加していたのを revert しています。
