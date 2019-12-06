@@ -1,0 +1,1 @@
+e2a45cb984ba75083a577b38ee9643800579a280 で TracePoint の実装を ruby 実装にした時に TracePoint.stat メソッドがうっかりインスタンスメソッドに変更されてしまっていたのでクラスメソッドに戻しています。 https://github.com/ruby/ruby/pull/2726 [ruby-core:96103] [Bug #16399]
