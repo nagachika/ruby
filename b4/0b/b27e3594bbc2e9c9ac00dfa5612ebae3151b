@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで bcd984f02fdfd74436df2cff8f2d9fe27f005566 で FreeBSD 用に SIGTTOU を無視させるようにしていたのが Solaris でも必要だったようなので同じ措置を Solaris でも行うようにしています。
