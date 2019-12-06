@@ -1,0 +1,1 @@
+did_you_mean の gemspec ファイルで did_you_mean/version.rb の require で重複した定数代入の警告を抑制するため require_relative を使うようにして、ruby 本体の同梱版と gem 版のパスの差異を吸収するため LoadError 発生時の fallback を追加しています。しかし require_relative でも重複 load のチェックはフルパス(realpath?)ですると思うから定数再代入警告の抑制に効くのかな?
