@@ -1,0 +1,1 @@
+did_you_mean で receiver が BasicObject の時に除外するメソッド名リストを作るのをやめています。たぶんこのリスト取り出すために BasicObject にないメソッドに依存していてそれを呼ぶためまた NoMethodError が発生して……と再帰してしまうのを避けるためかと。
