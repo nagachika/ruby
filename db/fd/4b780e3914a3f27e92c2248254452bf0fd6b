@@ -1,0 +1,1 @@
+coroutine/ucontext/Context.c に #include "ruby/config.h" を追加しています。 Solaris 上でのビルドのために必要だそうです。
