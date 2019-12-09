@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upsteram repository から cherry-pick する時に失敗したコミットを列挙するセクションのヘッダは失敗したコミットがあった時だけ表示するようにしています。
