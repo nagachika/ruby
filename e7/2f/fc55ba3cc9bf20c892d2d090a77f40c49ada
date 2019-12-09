@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の gemspec ファイルに spec.required_ruby_version で 2.5 以上を要求するようにしています。 String#grapheme_clusters が必要なためとのこと。
