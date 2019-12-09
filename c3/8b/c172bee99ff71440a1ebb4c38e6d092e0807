@@ -1,0 +1,1 @@
+c9b06d4a4e52b6ae705ebb16cafe455671780770 に続いて readline の completion のテストに Readline.completion_append_character を使ったテストを追加しています。 reline ではまだ未サポートのため Reline 利用時は skip するようにしています。
