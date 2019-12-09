@@ -1,0 +1,1 @@
+test/ruby/test_file_exhaustive.rb のテストで使う一時ディレクトリの basename を短く変更しています。 Solaris 上での CI で UNIX domain socket の名前が長すぎるエラーが起きたのでその対策のため。
