@@ -1,0 +1,1 @@
+ということで irb の gemspec も spec.required_ruby_version を  2.5 以降に指定しています。
