@@ -1,0 +1,1 @@
+inline cache の実体である struct iseq_inline_cache_entry からインスタンス変数の inline cache の時の値を struct iseq_inline_iv_cache_entry という別の構造体に分離するようにしています。インスタンス変数の時は VALUE ではなく配列のインデックス値をキャッシュしているため struct iseq_inline_cache_entry 内に共用体で定義されていて、これが GC.compact の移動の対応の処理のためにやりにくいので分離たということみたいです。
