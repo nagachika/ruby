@@ -1,0 +1,1 @@
+d43b9eb22de1b1cd8de09a161cc836413cc158a1 で DRb::DRbConn の class 文内でインスタンス変数 @pool_proxy を初期化するのに make_pool でインスタンスを作ってましたが、ここでは nil で初期化するように戻しています。 ここで pool 作っちゃうと require しただけで Thread 起動しちゃうので。未代入のインスタンス変数参照の警告抑制のためには nil を入れておくだけで足ります。
