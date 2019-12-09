@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で IRB::ReidlineInputMethod を定義するのも RUBY_VERSION が "2.5.0" 以上の時にしています。む、文字列としての比較、と思ったけどまあこれなら大丈夫か。
