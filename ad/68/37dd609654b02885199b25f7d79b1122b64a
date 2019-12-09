@@ -1,0 +1,1 @@
+c2afddccb36c10ac0eb530bfc3b38765882126d8 の irb のテストを 2.5 以前で定義しない変更を revert しています。 reline の使わなくてもどのみち ripper を使った lexer を必要とするため 2.5 以降が必要みたいです。
