@@ -1,0 +1,1 @@
+dbfd4b780e3914a3f27e92c2248254452bf0fd6b で Solaris でのビルドのため coroutine/ucontext/Context.c に #include "ruby/config.h" を追加しましたが、これはやめてかわりに Solaris の環境で #define __EXTENSIONS__ するのみに留めるようにしています。 https://github.com/ruby/ruby/commit/dbfd4b780e3914a3f27e92c2248254452bf0fd6b#diff-7fd78c3cc8a19b7e0637502983ec26ff
