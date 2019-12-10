@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP#start に :ipaddr というオプションを追加して、指定した URL のドメイン名とは別に指定した IP アドレスにコネクションをはるという挙動ができるようにしています。どういう動機なのかというと、証明書のチェックなどでサーバー上で localhost に繋げつつ TLS や HTTP のレイヤでは指定のドメイン名へのリクエストいう体裁でリクエストは投げたい、とかそういうことのようです。 https://github.com/ruby/ruby/pull/1893 https://github.com/ruby/ruby/pull/1977 [ruby-dev:44368] [Feature #5180] [ruby-core:89305] [Feature #15215]
