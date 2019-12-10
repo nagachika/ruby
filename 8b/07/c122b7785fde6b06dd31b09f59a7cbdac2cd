@@ -1,0 +1,1 @@
+標準添付ライブラリ rinda のテストの後始末で DRb::DRbConn の thread pool を停止して Thread を回収するようにしています。
