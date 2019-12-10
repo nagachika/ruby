@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の gemspec ファイルの spec.files を Dir.glob を使うように変更しています。これ ruby 本体の配下だとうまくいかないんじゃないかな。
