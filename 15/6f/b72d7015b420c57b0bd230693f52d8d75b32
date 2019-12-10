@@ -1,0 +1,1 @@
+036bc1da6c6c9b0fa9b7f5968d897a9554dd770e のリトライ。 rb_iseq_constant_body_alloc() という関数を導入して、ここでメモリ確保と同時に struct rb_iseq_constant_body::iseq_unique_id の設定をするようにして、バイナリフォーマットからの load 時もこれを使って通し番号を持たせるようにしています。なるほど、この番号はプロセス内で一貫性があればいいので dump した内容には影響せず、load 時にあらためて採番するようにしているのですね。
