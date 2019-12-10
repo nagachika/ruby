@@ -1,0 +1,1 @@
+GitHub Actions に cygwin 環境でのビルドと make test の実行というアクションを追加しています。cygwin はパッケージでインストールしていますね。
