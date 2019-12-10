@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のデフォルトの completion の処理で候補の Encoding のチェックに Encoding.compatible? メソッドを利用してより柔軟なチェックをするようにしています。
