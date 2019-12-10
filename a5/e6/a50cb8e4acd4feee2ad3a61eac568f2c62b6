@@ -1,0 +1,1 @@
+GitHub Actions の cygwin 版で cygwin 自体のパッケージにもキャシュを使うようにしています。
