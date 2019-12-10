@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の依存関係から minitest を削除して test-unit と rdoc を追加しています。
