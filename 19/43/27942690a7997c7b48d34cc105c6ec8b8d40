@@ -1,0 +1,1 @@
+4b36832ba64a8879a4b0702d6d5079ddd9d3078e の追加修正。 ruby 本体での利用時のため require 'core_assertions' の LoadError を捕捉するようにしています。
