@@ -1,0 +1,1 @@
+GitHub Actions の cygwin 環境で chocolatey のキャッシュ設定を cygwin 用に分けている? これってファイルが別でもキーが同じだとキャッシュは共有されるってことでしょうか。
