@@ -1,0 +1,1 @@
+標準添付ライブラリ logger に magic comment #frozen_string_literal: true を追加したり、文字列リテラルや配列リテラルに freeze を追加する変更。
