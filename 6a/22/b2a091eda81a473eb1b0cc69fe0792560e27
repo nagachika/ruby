@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline.completion_case_fold/.completion_case_fold= メソッドを Reline::Config をバックエンドにするようにして、設定ファイルで completion の大文字小文字の区別有無の指定を受付けるようにしています。
