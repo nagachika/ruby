@@ -1,0 +1,1 @@
+156fb72d7015b420c57b0bd230693f52d8d75b32 で 2.7 からのキーワード引数の警告の重複を抑制するために ISeq に通し番号をあてるための fresh_iseq_unique_id や struct rb_iseq_constant_body::iseq_unique_id の型を unsigned long から uintptr_t に変更して、ポインタにキャストするのでなく結局 st_lookup() に渡すので st_data_t で持ち回るようにしています。
