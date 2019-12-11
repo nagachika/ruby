@@ -1,0 +1,1 @@
+GitHub Actions の cygwin 版で cygwinsetup.exe でインストールするパッケージから libcrypt-devel, libedit-devel や libcurses-devel, tcl-tk-devel など不要になっているパッケージを消しています。
