@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の DRb::ThreadObject#kill で Thread#kill を呼ぶだけでなく join も呼んで終了するまで待つようにしています。また drb のテストの後始末に DRb::DRbConn.stop_pool の呼び出しをいくつか追加しています。
