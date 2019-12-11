@@ -1,0 +1,1 @@
+54072e329cab7207fba133caba4fc12b45add8f9 の Net::HTTP.start のオプションの :ipaddr 対応が proxy が有効な時に効いてなかったので proxy 経由の時も ipaddr の指定を利用するように修正しています。
