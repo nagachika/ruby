@@ -1,0 +1,1 @@
+拡張ライブラリ io/console でブロックする処理で GVL を解放するのに rb_thread_io_blocking_region() を使っていましたが、これは deprecated ということで(そうだっけ) rb_thread_call_without_gvl() を使うように書き換えています。
