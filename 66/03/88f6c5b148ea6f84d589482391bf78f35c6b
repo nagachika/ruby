@@ -1,0 +1,1 @@
+54072e329cab7207fba133caba4fc12b45add8f9 で追加した Net::HTTP のテストで proxy の設定の後始末をするため test/net/http/test_http.rb で定義してた utility メソッドを test/net/http/utils.rb のモジュールのメソッドに移動して共有するようにしています。
