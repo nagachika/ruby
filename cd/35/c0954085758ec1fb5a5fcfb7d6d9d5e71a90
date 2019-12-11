@@ -1,0 +1,1 @@
+GitHub Actions の cygwin 版で autoconf や configure などの実行に bash の -c オプションをつけてたのをやめています。また bash.exe と書いてたところはただの bash にしています。
