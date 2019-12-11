@@ -1,0 +1,1 @@
+Proc#ruby2_keywords というメソッドを追加しています。Method と同様に keyword splat と通常引数の相互変換のサポートを延命するためのものだと思います。正直 ruby2_keywords の仕様忘れてしまった。
