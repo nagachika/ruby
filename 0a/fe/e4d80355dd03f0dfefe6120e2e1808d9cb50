@@ -1,0 +1,1 @@
+bootstraptest/test_thread.rb の Thread#join のテスト? で失敗時に例外メッセージをエラーメッセージとして表示させるようにしています。
