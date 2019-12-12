@@ -1,0 +1,1 @@
+builtin.h に二重に #include されないようにする #ifndef と #define でのお作法を追加しています。
