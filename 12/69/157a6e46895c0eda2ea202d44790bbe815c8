@@ -1,0 +1,1 @@
+8a80bfcfd4d510a20a62e21d8d2f4119cb823d4f の Thread#to_s の rubyspec のテストで 2.4 以前は Thread#to_s は inspect の alias になってなかったので挙動が違うので skip するようにしています。
