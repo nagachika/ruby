@@ -1,0 +1,1 @@
+8a80bfcfd4d510a20a62e21d8d2f4119cb823d4f の Thread#to_s の変更で rubyspec のテストを修正した時の ruby_version_is の使いかたがまちがってたのを修正しています。
