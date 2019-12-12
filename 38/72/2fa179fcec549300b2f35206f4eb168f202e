@@ -1,0 +1,1 @@
+標準添付ライブラリ logger で log rotation のための期間を判定する Logger::Period で不正な引数には ArgumentError を発生させるようにしています。 [ruby-core:93491] [Bug #15977]
