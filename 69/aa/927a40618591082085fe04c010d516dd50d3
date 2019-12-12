@@ -1,0 +1,1 @@
+Enumerable#select などの rdoc 用コメントに find_all と select は同じメソッドの alias で性能に違いはないということを明記するようにしています。
