@@ -1,0 +1,1 @@
+1ed0212bcf76ec244ca5b75c65f09e5b04158377 の GitHub Actions でわざと .rb ファイルを作る step を make check 時のみ実行するように if: を追加しています。
