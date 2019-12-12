@@ -1,0 +1,1 @@
+rubyspec の Thread のテストで inspect と同様のテストを to_s でも行なうように(ただし 2.5 以降で)しています。
