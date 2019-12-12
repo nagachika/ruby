@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline.completion_quote_character 機能をサポートするようにしました。
