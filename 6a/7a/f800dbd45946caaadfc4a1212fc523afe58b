@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の completion の Proc で候補の文字列と入力バッファの Encoding の互換性がない時の例外メッセージを追加しています。
