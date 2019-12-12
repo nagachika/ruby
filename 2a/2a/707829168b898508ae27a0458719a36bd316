@@ -1,0 +1,1 @@
+38722fa179fcec549300b2f35206f4eb168f202e の再修正。テストで ArgumentError の rescue が必要になったところの対応追加。
