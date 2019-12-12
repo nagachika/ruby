@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の Logger.new の rdoc 用コメントに shift_age オプションに 0 を指定すると rotation を行なわないことを明記しています。 [ruby-core:95852] [Bug #16349]
