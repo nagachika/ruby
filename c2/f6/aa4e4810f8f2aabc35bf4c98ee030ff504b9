@@ -1,0 +1,1 @@
+標準添付ライブラリ readline の completion のテストで Readline.completion_proc の Proc が判定する候補文字列の Encoding を Encoding.default_external に揃えておくように修正しています。mingw での失敗というのはこれが原因かなぁ。
