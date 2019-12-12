@@ -1,0 +1,1 @@
+Range#sum の rdoc 用コメントに要素が Integer のRange だった場合ブロックなしだと最適化されて each は呼ばずに計算されることを明記しています。んーこれって外から観測できるのかな。 each を再定義しても効かないとか? https://github.com/ruby/ruby/pull/1593
