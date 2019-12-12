@@ -1,0 +1,1 @@
+標準添付ライブラリ forwardable の def_instance_delegator, def_single_delegator などのメソッドの戻り値が ruby2_keywords を呼ぶようにした影響で変わってしまっていたので、元の戻り値を返すように修正しています。 https://github.com/ruby/forwardable/issues/10
