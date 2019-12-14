@@ -1,0 +1,1 @@
+d5c73681f8fd9e17b5378cb029fc88e98d7b6abb と同様に GitHub Actions の MJIT 用テストのアクションでも apt-get update のエラーを無視するようにしています。
