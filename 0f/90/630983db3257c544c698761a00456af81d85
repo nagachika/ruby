@@ -1,0 +1,1 @@
+6f27fa4f7d52bfaea4fd1bd7605bda28e302e74c で T_CLASS の class_serial と mtbl の位置を classext 内に入れるかどうかをプラットフォームによって変えるようにした影響で gc_update_object_references() で RCLASS_M_TBL() を触るのに struct RClass::class_ext の存在チェックの後にするように移動しています。無条件で移動してもいいものかな。SIZEOF_SERIAL_T == SIZEOF_VALUE の条件で変化すると思うけど。
