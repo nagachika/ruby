@@ -1,0 +1,1 @@
+51cc5a26df5f47ecdd88398ba1a50a8e62182649 の readline のテストでリンクしている Readline のバージョンが 6.0 以降でないとスキップするようにしていたところ、そもそも TestReadline という定数が定義されているかの defined? でのチェックも追加しています。同じファイル内で定義されてるしあるのでは、と思ったら TestReadline は ReadlineSo が定義されている時だけ定義されていて TestRelineAsReadline 経由でテストされることもあるのでした。
