@@ -1,0 +1,1 @@
+c20dd2f75491fc6e78dab55b492c507ee3bb670d の net/imap のテストのデバッグ用の例外上げなおしの rescue の位置が assert_raise の外だったため効いてなかったので、ブロック内に移動しています。
