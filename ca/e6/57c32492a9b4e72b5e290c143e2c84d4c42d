@@ -1,0 +1,1 @@
+47a365dd580f2dfe0f0d56155587dfdf2fc7afb7 の再修正。 allow_failures への入れかたをまちがえてたのを修正。 [ruby-core:95910] [Misc #16360]
