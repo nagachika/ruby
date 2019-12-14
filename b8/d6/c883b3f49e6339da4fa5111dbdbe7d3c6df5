@@ -1,0 +1,1 @@
+Thread#inspect のファイル位置の表示を変更したので test-all 内の Thread#inspect でこの部分はチェックしていなかったのでチェックするように assertion を追加しています。 また inspect と to_s が同じ文字列を返すことのチェックも追加しています。 [ruby-core:96181] [Feature #16412]
