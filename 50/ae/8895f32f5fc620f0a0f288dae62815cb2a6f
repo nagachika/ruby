@@ -1,0 +1,1 @@
+debug_counter.c の #include "internal.h" の位置を #include <stdio.h> の前に移動しています。 stdio.h の前に _LARGE_FILES を定義したいそうです。
