@@ -1,0 +1,1 @@
+bc3e7924bc66d3ef77b219c72f3e59cc154550a3 のメソッド定義の関数ポインタの型をちゃんとしようシリーズの一環で gcdebug_sentinel() に RB_BLOCK_CALL_FUNC_ARGLIST をつけ損ねていたので追加修正しています。
