@@ -1,0 +1,1 @@
+GC_DEBUG という定数を真に設定してビルドすると struct RVALUE のサイズが struct RObject より大きくなるそうで、newobj_init() での struct RVALUE の初期化を RBASIC() や RANY() 経由で各メンバーの初期化をしてたのを一旦 struct RVALUE の変数に格納してから MEMCPY でコピーするようにしています。こうしないと SEGV するそうですが、各メンバーを明示的に初期化するの問題なさそうだけどダメなのか……。
