@@ -1,0 +1,1 @@
+79eb5e1acac2339c6ec71db723298bdfcd92b233 で追加した各テスト後に GC.compact するためのモジュールを parallel test の子プロセスでもロードするようにしています。
