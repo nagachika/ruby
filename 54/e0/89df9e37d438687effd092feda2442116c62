@@ -1,0 +1,1 @@
+rb_bug() などで edb80dfe3e6086fb9d5d905a40cdd6ec61a2e1ee で --debug=ci が指定された時に VM スタック情報をダンプする時に cfp->self の情報もダンプするようにしています。
