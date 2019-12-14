@@ -1,0 +1,1 @@
+環境変数 RUBY_TEST_GC_COMPACT を設定して make test-all すると各テストメソッドの teardown 処理時に GC.compact を実行するようにしています。
