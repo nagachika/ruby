@@ -1,0 +1,1 @@
+Module のメソッド定義内の instance_eval 内で super を呼んだ時に TypeError 例外を発生させるため rb_classext_t::includer というのを追加して Module#include 時に生成される T_ICLASS にそのクラスに include したかを憶えておくようにしています。 [ruby-core:71274] [Bug #11636]
