@@ -1,0 +1,1 @@
+標準添付ライブラリ readline の completion のテストでリンクする Readline が 6.0 以降でないと Windows で成功しないテストをこの条件で skip するようにしています。
