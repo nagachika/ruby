@@ -1,0 +1,1 @@
+0afee4d80355dd03f0dfefe6120e2e1808d9cb50 と同様に bootstraptest/test_thread.rb の Thread のテストでエラー時に発生した例外メッセージを表示するようにしています。
