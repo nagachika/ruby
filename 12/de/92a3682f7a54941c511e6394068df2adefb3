@@ -1,0 +1,1 @@
+make test-all オプションに --gc-compact を指定すると各テスト後に GC.compact するようにしています。
