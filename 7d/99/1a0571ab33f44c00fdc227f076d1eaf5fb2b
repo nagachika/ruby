@@ -1,0 +1,1 @@
+ec54ac938104517dd61887006ef8cc324b3b1b35 の reline での Reline.completion_quote_character サポートで候補の nil guard が不完全だったのを修正しています。
