@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境での apt-get update にエラーが発生しても処理を止めないようにしています。
