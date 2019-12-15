@@ -1,0 +1,1 @@
+rubygems で Kernel#warn を上書きしているところでも module_function として定義するようにしています。
