@@ -1,0 +1,1 @@
+NEWS ファイル内の Regexp#match の仕様変更についての記述は revert されたので削除しています。
