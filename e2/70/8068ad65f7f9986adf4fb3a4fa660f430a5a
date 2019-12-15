@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean の delegator に依存していたのをやめています。 DidYouMean::ClassNameChecker::ClassName を SimpleDelegator として定義していたのを String を継承したサブクラスに変更しています。
