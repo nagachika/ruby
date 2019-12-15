@@ -1,0 +1,1 @@
+0b5268afbcf11c299e11102c366e836ae55cc39f で ruby 実装に分離した Kernel#warn を module_function として宣言しています。
