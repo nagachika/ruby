@@ -1,0 +1,1 @@
+Kernel#warn の uplevel キーワード引数で表示するスタックトレースの位置を取り出すのに rb_vm_thread_backtrace_locations() という関数を呼んでたのを ec_backtrace_location_ary() に rb_ の prefix をつけて static をやめてこれを直接呼び出すようにしています。
