@@ -1,0 +1,1 @@
+error.c の Kernel#warn の実装を ruby 実装にして __builtin_xxx で C の実装を呼ぶようにしています。
