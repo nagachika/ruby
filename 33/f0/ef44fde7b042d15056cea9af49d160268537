@@ -1,0 +1,1 @@
+FrozenError.new の rdoc 用コメントの call-seq の返り値の記述が間違っていたのを修正。
