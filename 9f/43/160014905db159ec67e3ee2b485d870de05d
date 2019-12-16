@@ -1,0 +1,1 @@
+e2708068ad65f7f9986adf4fb3a4fa660f430a5a で did_you_mean.gem から deletage への依存をなくしたのにあわせて bundler のテストで delegate の特別処理を削っています。
