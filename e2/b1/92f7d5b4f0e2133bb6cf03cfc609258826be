@@ -1,0 +1,1 @@
+Kernel#rand の引数に Range を渡した場合にそれが beginless range だった場合に Errno::EDOM 例外を発生させるように修正しています。
