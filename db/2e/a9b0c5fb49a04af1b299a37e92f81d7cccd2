@@ -1,0 +1,1 @@
+FrozenError#receiver のメソッド実装は frozen_err_receiver というマクロ定義にして実体は name_err_receiver そのままにしています。あーなるほど rdoc 用コメントを書くべき場所の確保のためということか。
