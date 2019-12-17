@@ -1,0 +1,1 @@
+struct rb_call_cache の def と me->def とが常に一致するように cc->me を直接書き換えているところを CC_SET_ME() というマクロを使って更新するようにして cc->me を変更したら cc->def も揃えるようにしています。
