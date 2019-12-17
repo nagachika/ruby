@@ -1,0 +1,1 @@
+IO#set_encoding_by_bom を呼び出した時に既に open のオプションなどで external encoding が決まっていた場合は ArgumentError 例外を発生させるようにしています。 [ruby-core:96239] [Bug #16422]
