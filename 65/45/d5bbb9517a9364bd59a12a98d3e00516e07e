@@ -1,0 +1,1 @@
+tool/gen-mailmap.rb で設定ファイルをダウンロードするのを GitHub のファイル起き場から cdn.jsdelivr.net を経由するようにしています。
