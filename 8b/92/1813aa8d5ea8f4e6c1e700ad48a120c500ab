@@ -1,0 +1,1 @@
+tool/gen-mailmap.rb で close せずに URI.open を使っていたのを URI#read メソッドを使うように変更しています。URI#read なんてあるのか!
