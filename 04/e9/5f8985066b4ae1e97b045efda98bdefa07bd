@@ -1,0 +1,1 @@
+file.c の rb_str_encode_ospath() で Windows での encidx を filesystem encoding に上書きする処理をコメントアウトしています。 Encoding の拡張ライブラリのロードが無限再帰状態になる不具合の対策みたいです。 [ruby-core:96065] [Bug #16392]
