@@ -1,0 +1,1 @@
+gc.h の SET_MACHINE_STACK_END() の定義に Powerpc64 環境向けの preprocessor 分岐を追加しています。 https://github.com/ruby/ruby/pull/1767
