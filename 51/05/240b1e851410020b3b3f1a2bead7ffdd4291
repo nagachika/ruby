@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のレスポンスを Content-Encoding に従って圧縮する時に Content-Encoding=deflate の場合に Zlib::Inflate.new の引数を変更しています。 zlib の raw deflate モードを使うようにしているそうです。 [ruby-core:69609] [Bug #11268]
