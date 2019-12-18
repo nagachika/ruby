@@ -1,0 +1,1 @@
+do_select() や rb_wait_for_single_fd() で poll/select が fd の read イベントを検出してない時に check_signals_nogvl() の呼び出しでシグナル通知用の fd からの読み込みを抑制するようにしています。
