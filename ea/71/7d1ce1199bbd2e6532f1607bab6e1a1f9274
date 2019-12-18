@@ -1,0 +1,1 @@
+ba11a74745e10fac88a74c2da2e0032ccf254265 で導入した vm_insnhelper.h の CC_SET_ME() の定義を関数マクロから inline 関数に書きなおしています。また CC_SET_FASTPATH() というマクロも inline 関数に書きなおしています。
