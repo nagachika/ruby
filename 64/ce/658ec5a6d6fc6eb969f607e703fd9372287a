@@ -1,0 +1,1 @@
+95213f6df6a23918d57a743975708c638da42aae と同様に拡張ライブラリ readline のテストで Readline が Reline かどうかでの判定を Readline.completion_append_character= が呼べるかどうかでスキップするかどうか判定するようにしています。
