@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で switch 文の break の後に return 文があったので削除しています。
