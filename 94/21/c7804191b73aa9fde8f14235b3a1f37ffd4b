@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の rotate の period に不正な値を渡した時のテストで Logger.new していたのが不要な一時ファイルが残るということで  Logger::Period.next_rotate_time を直接呼んでテストするようにしています。
