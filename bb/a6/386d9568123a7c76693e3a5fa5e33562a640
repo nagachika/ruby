@@ -1,0 +1,1 @@
+test/ruby/test_process.rb の rescue 節に未使用の変数への capture があったので削除しています。
