@@ -1,0 +1,1 @@
+88135845f10f4b8ea3b67584a2c899ad365fd6bb で vm_core.h の def_iseq_ptr() で VM_CHECK_MODE によらず常に有効にしてたチェックをまた VM_CHECK_MODE が 1以上のときだけ行うように戻しています。 ba11a74745e10fac88a74c2da2e0032ccf254265 で修正した不具合のためにチェックするようにしていたそうです。
