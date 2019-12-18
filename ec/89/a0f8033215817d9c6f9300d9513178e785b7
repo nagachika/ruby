@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストに IO#getch(intr: true) のキーワード引数対応のテストを追加しています。
