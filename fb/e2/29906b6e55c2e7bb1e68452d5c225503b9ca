@@ -1,0 +1,1 @@
+メソッド呼び出しで inline cache が無効になっていたので再度メソッド探索したら同じ me だった時に cc->call が vm_call_general() じゃなかった時にインクリメントする debug counters を追加しています。
