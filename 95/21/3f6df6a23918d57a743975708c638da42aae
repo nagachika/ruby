@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストで Readline.completion_append_character= を使うテストを Reline を使ってる時には skip するようにしているのを、Readline.completion_append_character= が定義されているかどうかで判定するようにしています。
