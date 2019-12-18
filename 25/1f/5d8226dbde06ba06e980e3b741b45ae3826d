@@ -1,0 +1,1 @@
+5105240b1e851410020b3b3f1a2bead7ffdd4291 を revert しています。 RFC 2616 によると Content-Encoding: deflate というのは zlib フォーマットを使うのが正しいので、チケットの報告はサーバーのほうが悪いってことかな。 [ruby-core:69609] [Bug #11268]
