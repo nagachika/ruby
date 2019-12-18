@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp の Net::FTP#storbinary と Net::FTP#storlines で例外発生時に Socket#shutdown を送信して接続の終了を対向に知らせるようにしています。 [ruby-dev:50881] [Bug #16413]
