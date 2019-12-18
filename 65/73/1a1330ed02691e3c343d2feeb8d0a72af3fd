@@ -1,0 +1,1 @@
+test/excludes/TestIO_Console.rb に ec89a0f8033215817d9c6f9300d9513178e785b7 で追加した IO の :intr オプションのテストを除外するように追加しています。 Travis-CI でうまく動かないらしいです。
