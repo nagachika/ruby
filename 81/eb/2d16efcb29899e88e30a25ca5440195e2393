@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#raw などで raw mode に設定する時に :intr オプションが設定されていた時にセットするフラグから IEXTEN を削除しています。
