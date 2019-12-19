@@ -1,0 +1,1 @@
+77e3078ede833e86a1ee0e2ce745b15e892bdbf6 の変更で 07ed8f2f916a512b35bc69b49f1c482a2ea6e9dd でコメントアウトした io/console の IO#getch(intr: true) のテストの assertion を戻してましたが、Linux 上ではやっぱりチェックしないようにしています。なぜか Travis-CI 上でのみ hang up してしまうそうです。
