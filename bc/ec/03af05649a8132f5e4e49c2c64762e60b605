@@ -1,0 +1,1 @@
+65731a1330ed02691e3c343d2feeb8d0a72af3fd で Travis-CI で io/console の IO#getch の :intr オプションのテストを除外するようにしてたのを revert しています。
