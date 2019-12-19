@@ -1,0 +1,1 @@
+d7a50a5cc694ab28608a9d5a2e39c2766330ffe6 で古い class_serial を取り出すのに rb_next_class_serial() を一度呼んでしまうという通し番号の無駄遣いをしていたので PREV_CLASS_SERIAL() というマクロを定義して直接現在の ruby_vm_class_serial を取り出すようにしています。
