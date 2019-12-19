@@ -1,0 +1,1 @@
+メソッドの再定義をした時に class_serial を更新するのを継承している子Class や Module に辿って cache 破棄を行なうのに同じ Class/Module に到達する経路が複数あった時に重複して処理していたのを、class_serial が古いやつよりも新しくなっていたら既に辿っていると判定して無駄な traversal をやめるようにしています。賢い。
