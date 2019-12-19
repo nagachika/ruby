@@ -1,0 +1,1 @@
+debug_counter.h に fbe229906b6e55c2e7bb1e68452d5c225503b9ca で追加した debug counters の mc_miss_reuse_call についてのドキュメント用コメントを追加しています。
