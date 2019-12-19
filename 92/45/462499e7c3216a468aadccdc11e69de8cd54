@@ -1,0 +1,1 @@
+rb_class_clear_method_cache() で klass の mtbl が NULL じゃなかった時のデバッグ用の出力や rb_bug() の呼び出しを VM_ASSERT() に置き換えています。最近入れたやつじゃないかなと思ったけどそんなことはなかった。
