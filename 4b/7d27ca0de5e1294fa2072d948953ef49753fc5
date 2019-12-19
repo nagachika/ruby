@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで IO#getch を STDIN に対して使っていたのを IO.console を使って端末に紐付いた IO を作って使うように修正しています。
