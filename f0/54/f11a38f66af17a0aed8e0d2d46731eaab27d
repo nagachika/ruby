@@ -1,0 +1,1 @@
+method の inline cache で method entry の更新時に古い rb_method_definition_struct が解放されて同じアドレスに新しい definition がたまたま置かれてしまうと、ポインタでチェックしていると更新が検出できないという問題のため struct rb_method_definition_struct に method_serial というメンバーを追加してこの通し番号でチェックするようにしています。method entry と method definition のライフサイクルがよくわからない。
