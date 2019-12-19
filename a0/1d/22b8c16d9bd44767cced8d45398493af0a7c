@@ -1,0 +1,1 @@
+vm_method.c の rb_class_clear_method_cache() で RB_TYPE_P() のかわりに BUILTIN_TYPE() と T_CLASS の比較をするようにしています。んー、これってしばらく昔に nobu さんが全体的に RB_TYPE_P() に置き換えてた(そのほうが効率的だからだったっけ)と思うけど、ここでは即値は来ないはずだからってことだそうです。 rb_class_clear_method_cache() かなり頻繁に呼ぶということかな。Rails とかだとそうなのかも。
