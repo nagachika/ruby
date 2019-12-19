@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#getch の :intr オプションのテストで intr: true を渡した時に子プロセスで Interrupt が発生するのを確認する assertion をコメントアウトしています。
