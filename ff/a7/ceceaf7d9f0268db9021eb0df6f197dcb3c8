@@ -1,0 +1,1 @@
+b226a68141bd60db4b14264cb579e3eab9b6bcbd で Gem::Source#initialize 内で uri を遅延ロードしてたのをさらに Gem::SourceList#<< メソッドの中に移動しています。呼び元に引き上げたって感じですね(なんでだろ。require の空振りを減らすためかな)。
