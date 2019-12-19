@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で環境変数 FILTER_BRANCH_SQUELCH_WARNING に 1 をセットするようにしています。 これなんの環境変数かなと思ったら git が認識する環境変数のようですね。警告を抑制するためみたいです。
