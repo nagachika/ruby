@@ -1,0 +1,1 @@
+同じく Warning.[]= の :deprecated カテゴリでキーワード引数についての警告も抑制できるようにしています。あれは deprecation なのか。
