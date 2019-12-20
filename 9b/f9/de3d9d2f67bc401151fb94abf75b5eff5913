@@ -1,0 +1,1 @@
+6183addf6a4b94db7fe5b9187ac66fa11c8d2825 で追加した Warning.[] および Warning.[]= で設定できるカテゴリ毎の警告の抑制機能の :deprecated カテゴリで deprecated と宣言した定数の参照時の警告が抑制できるように対応しています。
