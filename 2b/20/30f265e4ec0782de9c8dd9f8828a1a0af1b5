@@ -1,0 +1,1 @@
+$, や $; に nil 以外の値を代入した時の警告を deprecated カテゴリの警告として Warning[:deprecated] = false で抑制できるようにしています。 [ruby-core:96358] [Bug #16438]
