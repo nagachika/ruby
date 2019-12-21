@@ -1,0 +1,1 @@
+tool/format-release でタイムスタンプを UTC 基準で表示するようにしています。
