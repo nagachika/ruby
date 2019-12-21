@@ -1,0 +1,1 @@
+NameError や NoMethodError のように receiver を保持する例外は initialize に receiver キーワード引数を受け付けますが FrozenError.new は受け付けてなかったので、キーワード引数で指定できるように対応しています。これまでは省略可能引数で2つめの引数として指定可能にしていたのですが、それが追加されたのが 39eadca76b48fc7841da688f6745e40897ec37ff なのでまだリリースされてないので仕様変更ですが問題なさそうですね。 [ruby-core:96227] [Feature #16419]
