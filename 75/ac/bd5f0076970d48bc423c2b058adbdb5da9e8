@@ -1,0 +1,1 @@
+keyword splat 変数の処理の不具合で空の keyword splat が渡されてた場合に不要な Hash オブジェクトが消される影響で SEGV することがある不具合を修正しています。 [ruby-core:96392] [Bug #16442]
