@@ -1,0 +1,1 @@
+Thread.handle_interrupt のテストで Thread 間の同期に Queue を利用するようにしています。
