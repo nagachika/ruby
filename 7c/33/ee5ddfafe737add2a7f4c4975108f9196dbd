@@ -1,0 +1,1 @@
+d2d42081ce76954ff55392a6e07e3eb4f26c696c の rspec での Thread#to_s のテストのバージョンによる guard の位置を修正して describe 全体を skip させるようにしています。
