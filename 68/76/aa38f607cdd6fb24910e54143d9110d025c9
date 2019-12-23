@@ -1,0 +1,1 @@
+コマンドラインオプションの --enable=/--disable= で指定する features のビットフラグを指定した内容にセットする処理を FEATURE_SET_RESTORE() というマクロにしています。
