@@ -1,0 +1,1 @@
+irb の ruby-lex.rb で auto indent 用の do ブロックのインデントの深さの判定を修正。
