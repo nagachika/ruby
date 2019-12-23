@@ -1,0 +1,1 @@
+parse.y の pattern match の記法に対する警告メッセージを出力しつつ NODE を作る処理を new_case3() という関数に切り出しています。そういえば pattern match を使った時の警告ってこのままでリリースするのかな?
