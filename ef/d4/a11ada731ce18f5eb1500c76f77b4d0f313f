@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.getc で読んだ 1 byte が 0x16 だった時にもう 1 byte 読めればそちらを返すようにしています。
