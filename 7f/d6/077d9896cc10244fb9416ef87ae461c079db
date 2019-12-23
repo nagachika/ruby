@@ -1,0 +1,1 @@
+Reline::ANSI.prep で stty コマンド実行するのにバッククオートを使っていたのを IO.popen や system を利用するようにし、例外に対応するようにしています。
