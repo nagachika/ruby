@@ -1,0 +1,1 @@
+Warning.[]= で指定できるカテゴリとして :experimental というのも追加して、pattern match の警告をこのカテゴリで制御できるようにしています。 なるほど、これで抑制するようにするのか。 [ruby-core:96233] [Feature #16420]
