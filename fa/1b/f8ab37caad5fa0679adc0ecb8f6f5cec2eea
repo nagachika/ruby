@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI に Ctrl-→ や Ctrl-← などの矢印キーと Control キーの組み合わせを認識させるようにしています。
