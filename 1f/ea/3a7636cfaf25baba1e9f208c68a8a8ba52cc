@@ -1,0 +1,1 @@
+NEWS ファイルに後置 in による pattern match の例が書かれてなかったので追加しています。またマッチしなかった時に NoMatchingPatternError が発生する例も追加しています。
