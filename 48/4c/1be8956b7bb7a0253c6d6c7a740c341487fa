@@ -1,0 +1,1 @@
+Warning.[]= の :experimental カテゴリも -W:experimental や -W:no-experimental といったコマンドラインオプションで同等の指定ができるようにしています。 [ruby-core:96233] [Feature #16420]
