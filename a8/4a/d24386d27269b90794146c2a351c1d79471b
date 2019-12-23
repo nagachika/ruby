@@ -1,0 +1,1 @@
+コマンドラインオプション -W:deprecated と -W:no-deprecated で Warning[:depcateted] への設定と同様の指定ができるようにしています。 6876aa38f607cdd6fb24910e54143d9110d025c9 で追加した FEATURE_SET_RESTORE() を利用しています。 [ruby-core:95808] [Feature #16345]
