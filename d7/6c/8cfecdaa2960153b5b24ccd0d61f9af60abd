@@ -1,0 +1,1 @@
+Warning.[] と Warning.[]= メソッドの rdoc 用コメントを追加しています。 [ruby-core:95808] [Feature #16345]
