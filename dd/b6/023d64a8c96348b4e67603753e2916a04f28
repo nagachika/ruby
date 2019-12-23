@@ -1,0 +1,1 @@
+Kernel#lambda を Kernel#method メソッドで Method として取り出して呼ぶテストを追加しています。
