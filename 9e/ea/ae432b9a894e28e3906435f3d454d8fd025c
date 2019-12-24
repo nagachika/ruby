@@ -1,0 +1,1 @@
+obj_free() でオブジェクトが回収(解放)される時にオブジェクトの型に応じてカウントする debug counter のシリーズに T_RATIONAL、T_COMPLEX、T_FLOAT、T_BIGNUM のうち struct RVALUE に埋め込み型の時のカウンタを追加しています。
