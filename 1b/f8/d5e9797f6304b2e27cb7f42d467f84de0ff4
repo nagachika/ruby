@@ -1,0 +1,1 @@
+NEWS ファイルの File.extname の変更についてのエントリを修正しています。 [ruby-core:89615] [Bug #15267]
