@@ -1,0 +1,1 @@
+FrozenError.new の rdoc 用コメントに 435a4ca2a38f3be1f5d2db0f71487a52c8285e9c の変更に追随して receiver をキーワード引数として記述を修正しています。
