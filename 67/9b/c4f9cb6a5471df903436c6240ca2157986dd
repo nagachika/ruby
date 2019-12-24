@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI から io/console の IO#raw を使うようにしています。あれ、既にこの前使ってたような、と思ったらやっぱり直後で使ってますね。 reline.gemspec にも依存関係を追加しています。
