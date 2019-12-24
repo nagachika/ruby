@@ -1,0 +1,1 @@
+61aff0cd189e67fa6f2565639ad0128fa33b88fc の File.extname の Windows での挙動変更を revert しています。Windows でのこれらのパスの扱いが一貫性がとれてなくて合わせるのが難しそうとのこと。
