@@ -1,0 +1,1 @@
+Module#deprecate_constant の rdoc 用コメントに実際に定数名を変更する時にこう使うんだよという例を追記しています。
