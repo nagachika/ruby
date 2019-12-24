@@ -1,0 +1,1 @@
+ostruct のバージョンが gemspec ファイルに直接書かれてたのを lib/ostruct/version.rb ファイルを追加してよくある定数参照を使う方法に変更しています。
