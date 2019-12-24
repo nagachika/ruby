@@ -1,0 +1,1 @@
+ENV.each_key や ENV.each_value、ENV.each_pair、ENV.reject! などの rdoc 用コメントの説明を追記しています。
