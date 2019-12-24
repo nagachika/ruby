@@ -1,0 +1,1 @@
+tool/mk_builtin_loader.rb の例外クラス名の typo 修正。
