@@ -1,0 +1,1 @@
+NEWS ファイルに Warning.[] と Warning.[]= メソッドによるカテゴリ毎の警告の設定について追記しています。 [ruby-core:95808] [Feature #16345]
