@@ -1,0 +1,1 @@
+FrozenError.new が receiver をキーワード引数で受けるように変更されたのにあわせて NEWS ファイルの記述も修正しています。 [ruby-core:96227] [Feature #16419]
