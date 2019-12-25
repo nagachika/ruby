@@ -1,0 +1,1 @@
+NEWS ファイルに Refinements が Object#method および Module#instance_method で Method や UnboundMethod を取り出す時にも効くようにした件について追記しています。 [ruby-core:90253] [Feature #15373]
