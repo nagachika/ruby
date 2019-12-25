@@ -1,0 +1,1 @@
+test/io/wait/test_io_wait.rb で sleep メソッドを EnvUtil.apply_timeout_scale を使って環境変数によるタイムアウト延長の影響を受けるようにしています。一般的にいうとタイムアウトと同時に sleep を伸ばすとまずい時もあるような気もするけど。
