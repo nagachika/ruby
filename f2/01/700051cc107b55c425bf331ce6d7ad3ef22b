@@ -1,0 +1,1 @@
+NEWS ファイルの method cache の変更による高速化の記述を Implementation improvements のセクションの RubyVM の項目として移動しています。
