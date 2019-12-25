@@ -1,0 +1,1 @@
+NEWS ファイルの Range の変更、おもに begin-less range と Range#=== の挙動の変更について追記しています。
