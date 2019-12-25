@@ -1,0 +1,1 @@
+Object#=~ メソッドが警告を出力するようにしたものも deprecated カテゴリとして Warning[:deprecated] = false や -W:no-deprecated の影響を受けるようにしています。
