@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#wait のテストで sleep せずに Queue を使った Thread 間同期を使うように修正しています。
