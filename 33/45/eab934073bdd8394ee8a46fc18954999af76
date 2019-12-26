@@ -1,0 +1,1 @@
+NEWS ファイルの File.realpath で realpath(3) を使うようにした変更についてのエントリにチケット参照を追記しています。 [ruby-core:92425] [Feature #15797]
