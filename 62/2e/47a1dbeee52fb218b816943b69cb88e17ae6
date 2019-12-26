@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の vi mode で Ctrl-D を文字バッファが空じゃない状態での挙動を Enter 相当にしているとのこと(コメントしか読んでない)。そうなんだ(vi mode に馴染みがない)。
