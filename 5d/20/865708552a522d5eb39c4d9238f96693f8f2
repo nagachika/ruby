@@ -1,0 +1,1 @@
+標準添付ライブラリ readline の readline.gem のインストール後に readline-ext と reline の wrapper になった旨メッセージを出力するようにしています。
