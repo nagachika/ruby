@@ -1,0 +1,1 @@
+3e9221d94a12b54c1285923b642364acdbc31c7e を revert しています。 パフォーマンスのみの変更で影響が小さいからかな。 https://github.com/ruby/ruby/pull/2781 [ruby-core:92253] [Feature #15765]
