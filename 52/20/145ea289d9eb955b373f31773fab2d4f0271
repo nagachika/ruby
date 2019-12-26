@@ -1,0 +1,1 @@
+debug counters のリセットや取得を行う API ruby_debug_counter_reset()、ruby_debug_counter_get()、ruby_debug_counter_show_at_exit() などを追加しています。外部から使えるようにするためかな?
