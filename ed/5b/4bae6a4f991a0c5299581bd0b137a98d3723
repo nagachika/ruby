@@ -1,0 +1,1 @@
+622e47a1dbeee52fb218b816943b69cb88e17ae6 の変更で reline の Reline::LineEditor#vi_end_of_transmission というメソッドは alias として追加されてたので定義を削除しています。
