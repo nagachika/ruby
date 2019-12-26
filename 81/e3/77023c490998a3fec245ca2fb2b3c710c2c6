@@ -1,0 +1,1 @@
+Range#min を beginless range に対して呼んだ時に RangeError 例外を発生させるようにしています。 [ruby-core:96462] [Bug #16450]
