@@ -1,0 +1,1 @@
+1857b4427817755bb0879ca67e1b2f3276f95d4c で lib/bundler/rubygems_integration.rb に追加した require "rubygems" は Gem が未定義の時だけ実行するように修正しています。
