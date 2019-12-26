@@ -1,0 +1,1 @@
+bundler に upstream から 2.1.2 をマージしています。 lib/bundler/rubygems_integration.rb に明示的な require "rubygems" を追加しています。 [ruby-core:96458] [Misc #16449]
