@@ -1,0 +1,1 @@
+compile.c の rb_iseq_complete() を MJIT 向けに export するようにしています。
