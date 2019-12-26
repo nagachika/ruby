@@ -1,0 +1,1 @@
+make update-bundled_gems で gem の metadata.source_code_uri や homepage から GitHub のリポジトリを得るのにブランチ名などを削る処理を追加しています。ブランチ付きの URL を書いてる場合があるのか。
