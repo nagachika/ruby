@@ -1,0 +1,1 @@
+NEWS ファイルの GC.compact についての記述で CoW という略語に copy-on-write と注意書きを追加しています。
