@@ -1,0 +1,2 @@
+毎年恒例となった matz による include/ruby/version.h の更新です。 暫定的に 2.8.0 に変更されています(次回リリースは 3.0.0 になる予定)。
+あーそっか version.h の RUBY_VERSION は自動的に API VERSION を使うようになったから編集不要になったのか。
