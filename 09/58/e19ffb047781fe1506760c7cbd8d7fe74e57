@@ -1,0 +1,1 @@
+コンパイラ毎の attribute の機能の有無を判定する __has_attribute_xxx みたいなマクロを定義しています。
