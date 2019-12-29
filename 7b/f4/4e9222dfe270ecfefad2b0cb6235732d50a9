@@ -1,0 +1,1 @@
+hash.c に HASH_DEBUG 定義時に #include "internal/debug.h" を追加しています。
