@@ -1,0 +1,1 @@
+VM insns counter というのを導入して、USE_INSNS_COUNTER というマクロを真に定義してビルドすると VM 命令の種類毎に実行回数をカウントしてプロセス終了時に統計情報を表示するようにしています。 https://github.com/ruby/ruby/pull/2789
