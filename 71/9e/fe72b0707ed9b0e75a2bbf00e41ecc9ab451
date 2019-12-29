@@ -1,0 +1,1 @@
+internal/process.h の #include 追加、マクロの inline 関数への変更など。
