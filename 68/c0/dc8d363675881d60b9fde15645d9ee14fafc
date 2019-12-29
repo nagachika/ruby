@@ -1,0 +1,1 @@
+internal/static_assert.h の STATIC_ASSERT() の定義で可能なら static_assert() マクロを利用するようにしています。
