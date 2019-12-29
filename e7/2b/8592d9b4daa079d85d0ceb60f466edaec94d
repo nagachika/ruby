@@ -1,0 +1,1 @@
+internal/hash.h の RHASH_XXX() なマクロ群を inline 関数に書き換え。
