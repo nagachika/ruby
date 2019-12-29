@@ -1,0 +1,1 @@
+internal/bignum.h の #include 追加、BIGNUM_SIGN()、BIGNUM_POSITIVE_P() などの関数マクロを inline 関数化など。
