@@ -1,0 +1,1 @@
+internal/vm.h の宣言の順番の入れ替えや MJIT 向け export の追加。
