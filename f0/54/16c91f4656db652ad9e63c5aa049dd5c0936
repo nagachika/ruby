@@ -1,0 +1,1 @@
+coroutine/copy/Context.h の alloca.h の #include は OpenBSD では省くようにしています。コミットログの英語がちょっとよくわからないけど、とにかく OpenBSD では alloca.h は使えないらしい。
