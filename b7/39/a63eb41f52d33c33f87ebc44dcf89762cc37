@@ -1,0 +1,1 @@
+internal.h を internal/*.h というヘッダファイル群に分割しています。
