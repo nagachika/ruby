@@ -1,0 +1,1 @@
+missing/stdbool.h を削除して internal/stdbool.h に統合しています。
