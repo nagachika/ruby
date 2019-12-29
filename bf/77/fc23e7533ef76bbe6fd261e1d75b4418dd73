@@ -1,0 +1,1 @@
+Object#=~ の rdoc 用コメントの deprecated にされてる理由を記述してるところを英文を修正。 [ruby-core:96342] [Bug #16437]
