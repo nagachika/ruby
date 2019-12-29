@@ -1,0 +1,1 @@
+internal/string.h の #include 追加、マクロの inline 関数化、またここで利用するため internal/compilers.h に __has_builtin____builtin_constant_p の定義を追加。
