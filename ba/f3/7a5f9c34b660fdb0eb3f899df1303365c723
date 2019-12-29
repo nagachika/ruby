@@ -1,0 +1,1 @@
+vm_dump.c で LIST_HEAD というマクロが sys/queue.h と ccan/list/list.h で衝突するのでシステムヘッダの #include の後で #undef するようにしています。
