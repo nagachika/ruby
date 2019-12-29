@@ -1,0 +1,1 @@
+internal/gc.h の SIZED_REALLOC_N() マクロの定義の typo 修正。 n と m がひっくりかえってた。 メモリアライメントに厳しい Solaris (というか sparc?) でエラーになっていたそうです。
