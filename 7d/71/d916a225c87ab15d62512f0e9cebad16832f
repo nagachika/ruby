@@ -1,0 +1,1 @@
+internal/struct.h でも RSTRUCT_XXX() なマクロを inline 関数に書き換え。
