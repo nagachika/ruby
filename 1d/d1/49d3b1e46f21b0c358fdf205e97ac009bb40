@@ -1,0 +1,1 @@
+include/ruby/encoding.h および include/ruby/io.h は internal.h より前に #include されてないといけないので既に RUBY_INTERNAL_H が定義されてたらエラーにする pragma が追加されてましたが、internal.h の先頭でこれらを #include することでこれを不要にしています。これ include しちゃうのはいいのかな。
