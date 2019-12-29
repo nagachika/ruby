@@ -1,0 +1,1 @@
+FIXNUM_XXX マクロを internal/numeric.h から internal/fixnum.h に移動、internal/compilers.h に  GCC 版の時の __has_builtin____builtin_add_overflow の定義を追加など。
