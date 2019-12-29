@@ -1,0 +1,1 @@
+ソースコードで internal.h を #include してたのを internal/*.h の必要なものを #include するように分解しています。これは大仕事。
