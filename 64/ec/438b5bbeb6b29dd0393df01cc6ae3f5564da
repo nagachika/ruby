@@ -1,0 +1,1 @@
+internal/bits.h のビット演算のリファクタリング。また internal/compiler.h に __has_builtin__xxxx のようなコンパイラの builtin function の有無を判定するためのマクロを追加しています。
