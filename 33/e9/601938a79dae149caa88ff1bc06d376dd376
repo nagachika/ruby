@@ -1,0 +1,1 @@
+bf53d6c7d19f877c821901b3288d7f80955ffbb7 で TIMET_MAX_PLUS_ONE というマクロを削除して利用していたところに展開してましたが、int から double への promotion で警告が出るのを抑制するため対象の警告を局所的に無効化するか、TIMESPEC_SEC_MAX_as_doube という static 変数を導入してこれを経由して参照するようにしています。
