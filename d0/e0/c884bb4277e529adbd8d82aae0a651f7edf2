@@ -1,0 +1,1 @@
+internal/object.h の一部マクロの inline 関数化や不要になった構造体宣言の削除など。
