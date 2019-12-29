@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb にテストで Warning.[] のカテゴリ毎の設定の変更が戻されてないのを検出するようにしています。
