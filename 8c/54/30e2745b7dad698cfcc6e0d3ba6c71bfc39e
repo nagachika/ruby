@@ -1,0 +1,1 @@
+internal/bits.h の swap16, swap32, swap64 などのマクロを inline 関数化したら OpenBSD の関数? と衝突したそうなので関数名に ruby_ の prefix を追加して、マクロで prefix 追加した関数の呼び出しに置換するようにしています。
