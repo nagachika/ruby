@@ -1,0 +1,1 @@
+internal/thread.h の #include 追加と MJIT 向け export の追加。
