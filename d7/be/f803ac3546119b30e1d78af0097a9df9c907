@@ -1,0 +1,1 @@
+Warning や TracePoint など ruby 実装による組み込みメソッド実装したものを読み込む処理を元の実装のあるソースコードの Init_xxx() から呼び出していたのを rb_call_inits() 内から BUILTIN() というマクロを使って呼ぶようにしています。
