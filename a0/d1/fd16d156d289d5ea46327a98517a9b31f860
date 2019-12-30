@@ -1,0 +1,1 @@
+Dir#each_child の rdoc 用コメントの call-seq に戻り値が nil だと表記されていたのを修正。実際は self が返され、ブロックなしで呼ぶと Enumerator が生成されます。
