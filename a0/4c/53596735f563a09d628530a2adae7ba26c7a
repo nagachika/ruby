@@ -1,0 +1,1 @@
+C ソースコード上の関数名に展開されるマクロ RUBY_FUNCTION_NAME_STRING として OpenBSD では configure 時のコンパイルによるチェックによらず __func__ を利用するようにバイパス処理を追加しています。
