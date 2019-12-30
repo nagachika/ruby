@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の set_rawmode() で IO.getch の intr キーワード引数が真に指定されてた時の termios のフラグから IXON を消しています。
