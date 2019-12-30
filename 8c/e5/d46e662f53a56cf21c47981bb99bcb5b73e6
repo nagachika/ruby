@@ -1,0 +1,1 @@
+ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS マクロの定義で address sanitizer は使えるけど memory sanitizer は使えないという preprocessor の分岐内で memory sanitizer を利用するように指定してしまっていたのを修正しています。
