@@ -1,0 +1,1 @@
+doc/syntax.rdoc の syntax/refinements.rdoc へのリンクに experimental な機能と記述があったのを削っています。 https://github.com/ruby/ruby/pull/2796
