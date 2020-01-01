@@ -1,0 +1,1 @@
+.github/workflows/mingw.yml に Slack 通知の設定を追加。 また .github/workflows/mjit.yml の Slack 通知の設定のメッセージに build matrix のタスク名を追加するようにしています。
