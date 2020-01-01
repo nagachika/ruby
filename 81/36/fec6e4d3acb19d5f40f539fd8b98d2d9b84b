@@ -1,0 +1,1 @@
+.github/workflows/mingw.yml のステップ名に make compile というのがあったので make all に修正しています。
