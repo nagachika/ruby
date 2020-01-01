@@ -1,0 +1,1 @@
+標準添付ライブラリ readline のテストで MinGW で skip しているものが Reline ベースのテストの場合は通るそうなので、Readline を使ったテストの時だけ skip するように条件を修正しています。 https://github.com/ruby/ruby/pull/2743
