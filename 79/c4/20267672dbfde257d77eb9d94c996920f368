@@ -1,0 +1,1 @@
+75e8dd58f69c190c9698d0133942032903fb2f07 で GitHub Actions の bundled gems のテストで minitest のエラー無視をやめたのを revert しています。ランダムなエラーが発生しているようです。
