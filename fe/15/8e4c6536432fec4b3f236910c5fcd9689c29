@@ -1,0 +1,1 @@
+.github/workflows/mingw.yml のビルド対象ブランチを master に限定するように修正しています。
