@@ -1,0 +1,1 @@
+eb2b4258214337f165eb994e2c5b9c2a3f6ae0a8 で GitHub Actions による MinGW ビルドが追加されたので AppVeyor 上でのビルド設定は削除しています。 https://github.com/ruby/ruby/pull/2791
