@@ -1,0 +1,1 @@
+freeze したオブジェクトに特異メソッドを定義しようとした時の FrozenError のテストに assert_raise を利用するようにして確かに FrozenError が発生していることを確認するようにしています。
