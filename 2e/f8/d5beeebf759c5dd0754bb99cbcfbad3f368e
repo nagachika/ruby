@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の private メソッド OpenSSL::SSL::SSLSocket#sysread_nonblock や #syswrite_nonblock、#stop などの rdoc 用コメントに :nodoc: タグをつけて rdoc によるドキュメント生成を抑制するようにしています。 [ruby-core:71565] [Misc #11712]
