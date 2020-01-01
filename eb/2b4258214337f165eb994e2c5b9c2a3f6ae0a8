@@ -1,0 +1,1 @@
+GitHub Actions に MinGW でのビルドの action を追加しています。またこれに関連してテストの guard 追加や skip 処理などがいくつか追加されています。 https://github.com/ruby/ruby/pull/2791
