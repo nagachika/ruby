@@ -1,0 +1,1 @@
+tool/fetch-bundled_gems.rb から minitest 向けの分岐を削除しています。 minitest にタグが正しく打たれるようになったからとのこと。
