@@ -1,0 +1,2 @@
+Proc#<< で Proc オブジェクトの合成をした時に結果の Proc オブジェクトの lambda フラグを右辺側 (f << g で作った場合は g のほう)のフラグを引き継ぐようにしています。 https://github.com/ruby/ruby/pull/2729
+まあ対称性でいうと(f >> g との)そうかも。
