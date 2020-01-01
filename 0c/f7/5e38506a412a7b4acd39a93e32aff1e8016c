@@ -1,0 +1,1 @@
+同じく test/ruby/test_exception.rb から NoMethodError に関するテストを test/ruby/test_nomethod_error.rb に分割しています。
