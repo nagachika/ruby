@@ -1,0 +1,1 @@
+Object#inspect の rdoc 用コメントに、inspect で表示される16進数の値が object_id と関係していると記述がありましたが、2.7 からは object_id は VALUE の値とは関係ない単調増加する値になったので書き直しています。
