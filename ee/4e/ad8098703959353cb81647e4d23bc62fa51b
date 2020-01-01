@@ -1,0 +1,1 @@
+test/ruby/test_exception.rb から FrozenError についてのテストを独立したファイル test/ruby/test_frozen_error.rb に切り出しています。
