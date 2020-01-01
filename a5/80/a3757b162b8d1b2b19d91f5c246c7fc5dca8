@@ -1,0 +1,1 @@
+同じく test/ruby/test_exception.rb から NameError についてのテスト群を test/ruby/test_name_error.rb というファイルに分割しています。
