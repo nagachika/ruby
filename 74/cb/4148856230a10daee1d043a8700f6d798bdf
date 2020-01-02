@@ -1,0 +1,1 @@
+.github/workflows/mingw.yml でテスト実行する順番を test-all、test-spec に修正(逆になってた)。
