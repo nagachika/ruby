@@ -1,0 +1,1 @@
+.github/workflows/mingw.yml に前のテストのステップが失敗しても make test-all と make test-spec を実行させるようにする記述があったのを削っています。他の環境のテストに合わせるため。
