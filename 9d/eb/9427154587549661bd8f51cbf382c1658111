@@ -1,0 +1,1 @@
+a118bb805f022a915a4b075ddd9dd49c04e68591 で追加された test/irb/test_ruby_lex.rb に require "openstruct" を追加しています。 ostruct じゃなかったっけ? と思いましたが後で修正されてました。
