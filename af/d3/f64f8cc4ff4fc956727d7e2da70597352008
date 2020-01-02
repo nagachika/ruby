@@ -1,0 +1,1 @@
+ドキュメント類や tool/redmine-backporter.rb から Redmine の /projects/ruby-trunk の URL を参照していたところを /projects/ruby-master に変更しています。あーここも変わるのか。
