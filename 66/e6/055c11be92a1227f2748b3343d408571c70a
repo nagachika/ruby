@@ -1,0 +1,1 @@
+というわけで 9deb9427154587549661bd8f51cbf382c1658111 で追加した require "openstruct" を require "ostruct" に修正しています。
