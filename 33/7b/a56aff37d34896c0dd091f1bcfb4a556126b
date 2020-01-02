@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.get_screen_size で IO#winsize が正常な値を返さなかったら環境変数 LINES と COLUMNS を参照する実装に fallback するようにしています。またそれもだめだったら [24, 80] というのをデフォルトの値として返すようにしています。
