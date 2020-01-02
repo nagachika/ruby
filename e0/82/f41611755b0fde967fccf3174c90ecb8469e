@@ -1,0 +1,1 @@
+T_BIGNUM のオブジェクトで struct RVALUE 内に値を埋め込んでいる時の flag チェックを BIGNUM_EMBED_P() という inline 関数を定義してこれを使うようにしています。 https://github.com/ruby/ruby/pull/2802
