@@ -1,0 +1,1 @@
+GitHub Actions および AppVeyor の設定から trunk を除外するために master を明示したりしていたところを削っています。
