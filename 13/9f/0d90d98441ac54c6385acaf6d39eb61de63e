@@ -1,0 +1,1 @@
+139f0d90d98441ac54c6385acaf6d39eb61de63e で GitHub Actions の MinGW ビルドでチェックアウト処理を独自のコマンドに書き変えたのを pull request 向けのビルド時には公式のアクションを利用するようにしています。コメントによると pull request のブランチを取得するために環境変数を伝播させるのが難しかったためとのこと。 https://github.com/ruby/ruby/pull/2804
