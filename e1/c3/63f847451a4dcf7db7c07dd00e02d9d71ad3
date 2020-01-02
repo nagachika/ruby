@@ -1,0 +1,1 @@
+bundler のテストで利用する gem パッケージから ruby2_keywords.gem のものを追加しています。
