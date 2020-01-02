@@ -1,0 +1,1 @@
+MinGW 向け GitHub Actions の make test-all の実行時のオプションから一部テストを除外してたものを消しています。 https://github.com/ruby/ruby/pull/2803
