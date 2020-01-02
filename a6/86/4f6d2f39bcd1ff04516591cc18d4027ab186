@@ -1,0 +1,1 @@
+racc2y および y2racc というコマンドを bin/ と libexec/ から削除しています。 [ruby-core:93516] [Feature #15982]
