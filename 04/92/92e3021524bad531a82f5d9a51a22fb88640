@@ -1,0 +1,1 @@
+さらに a118bb805f022a915a4b075ddd9dd49c04e68591 で追加された test/irb/test_ruby_lex.rb に require "irb/ruby-lex" も漏れてたので追加しています。
