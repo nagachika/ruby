@@ -1,0 +1,1 @@
+test/irb/test_ruby_lex.rb を追加して irb に含まれている RubyLex のテストを追加しています。
