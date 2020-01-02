@@ -1,0 +1,1 @@
+.github/workflows/cygwin.yml にもプラグイン k0kubun/action-slack を使った Slack 通知を追加して、他の環境の Slack 通知のメッセージもフォーマットをそろえるように調整しています。
