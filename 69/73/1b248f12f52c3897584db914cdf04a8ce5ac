@@ -1,0 +1,1 @@
+racc の gemspec ファイルからも spec.executables と spec.files から racc2y と y2racc を削除しています。
