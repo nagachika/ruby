@@ -1,0 +1,1 @@
+Module#ruby2_keywords に引数が1つも渡されてなかった時に ArgumentError を発生させるようにしています。
