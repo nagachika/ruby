@@ -1,0 +1,1 @@
+warning.rb の frozen-string-literal magic comment が typo してたので修正。
