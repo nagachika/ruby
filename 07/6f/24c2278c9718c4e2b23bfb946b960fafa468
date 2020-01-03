@@ -1,0 +1,1 @@
+Bignum の GMP を使った実装 bary_mul_gmp() と bary_divmod_gmp()、str2big_gmp()、bary_powm_gmp() などから mzp_t 型と BDIGIT 型の相互変換の処理を bdigits_to_mpz()、bdigits_from_mpz() として切り出すリファクタリング。 https://github.com/ruby/ruby/pull/2805
