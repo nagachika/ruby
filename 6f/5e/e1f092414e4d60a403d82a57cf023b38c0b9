@@ -1,0 +1,1 @@
+27fae1d4adfef26d30d43f2d0d6653e99aaaba3d の追加修正。RUBY_DEBUG=ci が指定されていた時だけ MJIT_CC で ccache を使わせないように調整するようにしています。これは一部の CI で様子をみるためかな?
