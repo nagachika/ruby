@@ -1,0 +1,1 @@
+vm_args.c の args_stored_kw_argv_to_hash() という static 関数がどこでも使われてなかったので削除しています。また class.c の rb_scan_args_parse() でも未使用変数を削除して警告を抑制しています。
