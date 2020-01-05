@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree::Node#type の rdoc 用コメントのサンプルの結果の表示が実際のものと合ってなかったのを修正しています。
