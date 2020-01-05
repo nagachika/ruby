@@ -1,0 +1,1 @@
+internal/debug.h 内の prototype 宣言やマクロ定義を internal.h に移動しています。
