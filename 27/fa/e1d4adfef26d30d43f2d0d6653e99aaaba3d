@@ -1,0 +1,1 @@
+configure 時に $CC で指定されているコンパイラが ccache のものだったら MJIT 用の MJIT_CC にはこれを使わせないようにしています。
