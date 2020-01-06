@@ -1,0 +1,1 @@
+c7f01d889becbeffc4254e1b0b7faecb80ea3f3e と同様に class.c の構造体 struct rb_scan_args_t の last_idx メンバーも削除しています。
