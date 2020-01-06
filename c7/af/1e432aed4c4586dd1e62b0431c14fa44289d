@@ -1,0 +1,1 @@
+44a164c26f5371519636585d8ba7aa59f489442e と同様に class.c の構造体 struct rb_scan_args_t のメンバー tmp_buffer も削除しています。
