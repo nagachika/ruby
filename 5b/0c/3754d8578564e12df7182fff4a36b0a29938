@@ -1,0 +1,1 @@
+parse.y の vtable_free_gen() で ruby_sized_xfree() に渡すサイズの指定が間違っていたのを修正。
