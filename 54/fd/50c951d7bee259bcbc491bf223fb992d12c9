@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の require_relative の位置をrdoc 用コメントの上に移動して正しく OpenStruct クラスのドキュメントになるようにしています。
