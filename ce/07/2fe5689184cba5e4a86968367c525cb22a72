@@ -1,0 +1,1 @@
+TracePoint で eval に文字列を渡した時の compiled イベントの発火が SyntaxError が発生した時にも呼ばれてしまって NULL 参照により SEGV する不具合を修正。SyntaxError 発生時にはイベント発生させないようにしています。  [ruby-core:96529] [Bug #16459]
