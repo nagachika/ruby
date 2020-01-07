@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.retrieve_keybuffer で read_nonblock が EOFError を発生させた時に無視するようにしています。これは Ctrl-D で EOF 送出できるのでこれで異常終了しないようにするためのようです。
