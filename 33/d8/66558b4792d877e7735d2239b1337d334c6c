@@ -1,0 +1,1 @@
+53a55aeff3d409b4894d077f2b3b874fac53e387 で環境変数 RUBY_ON_BUG が設定されていると rb_bug() で異常終了する時に自分の pid で gdb などデバッガを起動して attach するという機能を呼び出すのを bug_report_begin_valist() 内から rb_vm_bugreport() に移動しています。 rb_assert_failure() からも呼ばれるようにするためとのこと。
