@@ -1,0 +1,1 @@
+8c9450e7b875db846b19cc631af0d7fee66db5c6 の変更の影響で fork したリポジトリでも GitHub Actions が動くようになった? のでリポジトリ名を ruby/ruby に固定せず github.repository 変数を参照するように修正しています。
