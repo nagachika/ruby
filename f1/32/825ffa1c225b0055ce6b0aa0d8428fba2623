@@ -1,0 +1,1 @@
+Travis-CI の s390x の環境でのテストで先に sysctl を実行してネットワーク設定の IPv6 を無効にしておくようにしています。テスト自体じゃなくて apt-add-repository がタイムアウトするからとのこと。 https://github.com/ruby/ruby/pull/2819
