@@ -1,0 +1,1 @@
+test/ruby/test_keyword.rb と test/ruby/test_object.rb の未使用の変数削除とメソッド再定義の警告除去のため remove_method 追加などテストの警告除去。
