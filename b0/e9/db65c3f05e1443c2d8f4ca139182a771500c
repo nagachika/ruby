@@ -1,0 +1,1 @@
+rubyspec の Process.gid のテストで macOS 上での id コマンドの出力を /usr/bin/id の結果も追加するようにしています。 HomeBrew などで入れた GNU coreutils の id では macOS では完全なリストが出ないみたいです。
