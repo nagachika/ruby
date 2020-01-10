@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の Kernel#open のかわりに File.open を使うようにする変更と IO.copy_stream に渡すためにわざわざファイルを open してたのをファイルパスを直接引数に渡すようにする変更。
