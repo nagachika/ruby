@@ -1,0 +1,1 @@
+random.c の構造体 seed_keys_t を hash_salt_t、static 変数名 seed を hash_salt と改名しています。
