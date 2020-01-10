@@ -1,0 +1,1 @@
+592d7ceeebb380d197876400efdb18a27d5192b5 の default_proc の Proc の呼び出しの処理は rb_hash_default() にも存在したので共通部分を call_default_proc() という関数に切り出しています。
