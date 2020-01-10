@@ -1,0 +1,1 @@
+0eeed5bcc5530edb0af2af2ccff09d067c59e8f9 の Kernel#eval 内での __FILE__ の参照の警告をやめたのに追随して eval 内の __dir__ の参照のテストも修正しています。
