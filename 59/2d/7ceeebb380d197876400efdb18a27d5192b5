@@ -1,0 +1,1 @@
+Hash のデフォルト値を決めるのに default_proc に登録されている Proc を起動するのに yield メソッドを rb_funcall() で起動していたのを rb_proc_call_with_block() を直接呼ぶようにしてちょっと効率的にしています。そして関連するベンチマークを追加しています。
