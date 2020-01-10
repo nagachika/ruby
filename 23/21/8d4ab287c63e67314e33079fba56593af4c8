@@ -1,0 +1,1 @@
+config.status から config.cache への依存関係を追加しています。 Makefile の wildcard 関数を使ってるのはファイルが存在しない時に依存しないようにするためかな。
