@@ -1,0 +1,1 @@
+io.c と ruby.c に #include "internal/variable.h" を追加しています。 emscripten で WASM にビルドするのに必要だったとのこと。
