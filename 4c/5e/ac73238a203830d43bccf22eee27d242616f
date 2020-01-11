@@ -1,0 +1,1 @@
+random.c の関数 init_seed() も 23fbee0311d34da4f623a828bf0c015a90d8edc9 と同様にまぎらわしいので init_hash_salt() に改名しています。
