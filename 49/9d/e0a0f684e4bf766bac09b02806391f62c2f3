@@ -1,0 +1,1 @@
+random.c の初期化関数 Init_RandomSeedCore() で hash_salt に初期値を詰めるのに init_hash_salt() で MT(メルセンヌツイスター)を使う前に fill_random_bytes() でもっと質の良い? 乱数ソースを試してみてこれが失敗した時だけ init_hash_salt() を使うようにしています。
