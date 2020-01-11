@@ -1,0 +1,1 @@
+マクロ rb_define_method_if_constexpr() の定義を include/ruby/ruby.h から include/ruby/intern.h に移動して HAVE_BUILTIN___BUILTIN_CHOOSE_EXPR_CONSTANT_P が定義されてる時だけ定義するようにしています。
