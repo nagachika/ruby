@@ -1,0 +1,1 @@
+URI.escape と URI.unescape の deprecated 警告メッセージで alias 経由で呼ばれた時にメッセージ内のメソッド名も変更するため __callee__ を参照するようにしています。 URI.encode/URI.decode を呼んだ時のため。 [ruby-dev:50907] [Bug #16469]
