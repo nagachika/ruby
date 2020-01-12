@@ -1,0 +1,1 @@
+internal/bits.h の Windows 環境のチェックのために参照しているマクロの _Win64 → _WIN64 に typo 修正と nlz_int128() で参照する変数を間違えてた不具合修正。
