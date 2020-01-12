@@ -1,0 +1,1 @@
+doc/maintainers.rdoc に記述されている benchmark の upstream を bundler/benchmark から ruby/benchmark に修正しています。間違ってたっぽい。
