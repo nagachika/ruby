@@ -1,0 +1,1 @@
+Hash#transform_values が返す Hash が元の Hash のデフォルト値の Proc オブジェクトを共有してしまうのを抑制してリセットするようにしています。 [ruby-core:96759] [Bug #16498]
