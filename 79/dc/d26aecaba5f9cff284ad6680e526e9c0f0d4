@@ -1,0 +1,1 @@
+同じく internal/bits.h で Windows 環境でのコンパイラバージョンのチェックのため MSC_VERSION_SINCE() を使うように変更していいます。
