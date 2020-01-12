@@ -1,0 +1,1 @@
+GitHub Actions のリポジトリを cloneするための job で git clone に --branch オプションをつけるようにしています。
