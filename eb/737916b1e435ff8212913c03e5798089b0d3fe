@@ -1,0 +1,1 @@
+String#encode の newline オプションが xxxx_newline: true と同時に指定されてたら警告するようにしています。
