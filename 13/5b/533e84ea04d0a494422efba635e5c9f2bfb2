@@ -1,0 +1,1 @@
+internal/compilers.h に GCC 以外の時に #include "ruby/ruby.h" を追加しています。分岐のもう一方でも同じようなマクロを参照しているけどそっちはいらないのかな。
