@@ -1,0 +1,1 @@
+thread.c の st_delete_wrap() という inline 関数はもう未使用になっているので削除しています。
