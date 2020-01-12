@@ -1,0 +1,1 @@
+Thread#[] や Thread#[]= でアクセスする thread local storage の実装を通常の st_table から id_table にして Symbol の ID でアクセスするようにしています。thread local storage のキーって常に Symbol なんだったっけ。
