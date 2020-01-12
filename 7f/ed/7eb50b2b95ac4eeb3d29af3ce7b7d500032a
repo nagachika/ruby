@@ -1,0 +1,1 @@
+同じく internal/bits.h の Windows 向け実装の不具合修正。
