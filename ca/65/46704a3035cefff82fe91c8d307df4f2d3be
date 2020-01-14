@@ -1,0 +1,1 @@
+GitHub Actions で bundled gems のテストのうち rss と xmlrpc のエラーを許容するように設定を追加しています。
