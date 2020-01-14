@@ -1,0 +1,1 @@
+GitHub Actions の cygwin 版の git clone に bash でなく cmd.exe を使うようにしています。 Windows 環境で shell: bash を使うと git コマンドも msys のものになってしまうので改行コードの扱いが変わってしまってうまくなかったみたいです。
