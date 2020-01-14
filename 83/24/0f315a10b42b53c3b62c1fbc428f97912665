@@ -1,0 +1,1 @@
+標準添付ライブラリ rss も削除して bundled gem にしています。 [ruby-core:96683] [Feature #16485]
