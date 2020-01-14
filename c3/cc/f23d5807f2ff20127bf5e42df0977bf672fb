@@ -1,0 +1,1 @@
+標準添付ライブラリ rexml を削除して bundled gem に変更しています。 [ruby-core:96683] [Feature #16485]
