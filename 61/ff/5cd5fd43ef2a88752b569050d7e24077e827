@@ -1,0 +1,1 @@
+gc.c の obj_free() で debug counters が有効な時の switch 文にかっこがなくてコンパイルエラーになっていたのを修正。
