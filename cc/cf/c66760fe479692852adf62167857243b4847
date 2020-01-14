@@ -1,0 +1,1 @@
+make ChangeLog というターゲットを追加して ChangeLog 生成を実行できるようにしています。
