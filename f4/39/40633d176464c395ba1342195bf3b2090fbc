@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で rake コマンドの絶対パスを File.realpath を使って取得するようにしています。また gems サブディレクトリも File.expand_path ではなく File.realpath を使ってシンボリックリンクを解決した絶対パスを得るようにしています。
