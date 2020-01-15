@@ -1,0 +1,1 @@
+irb の history ファイルの読み込み時の external encoding の指定に存在すれば IRB.conf[:LC_MESSAGES].encoding を利用するようにしています。
