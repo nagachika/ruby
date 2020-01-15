@@ -1,0 +1,1 @@
+Travis-CI での s390x のビルドを allow_failures から削っています。すごい、安定しているのか。
