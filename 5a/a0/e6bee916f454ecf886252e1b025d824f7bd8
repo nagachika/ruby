@@ -1,0 +1,1 @@
+NEWS ファイルに b25e27277dc39f25cfca4db8452d254f6cc8046e で追加した Hash#transform_keys の引数に Hash を渡す新機能について追記しています。 コミットログのチケットの参照は番号が間違ってそう。 [Feature #16274]
