@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Windows 環境で入出力の Encoding と Encoding.default_external が一致しないという問題があるらしくて Reline::Core の生成時に Encoding 指定できるようにして Reline::IOGate.encoding によって指定できるようにしています。 Reline::ANSI では Encoding.default_external ですが Reline::Windows では Encoding::UTF_8 に固定しています。
