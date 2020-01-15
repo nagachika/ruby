@@ -1,0 +1,1 @@
+irb の IRB.set_encoding から @CONF[:ENCODINGS] への設定を削除しています。もう使ってないとのこと。
