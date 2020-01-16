@@ -1,0 +1,1 @@
+NEWS ファイルを NEWS.md と改名して、rdoc のかわりに Markdown 形式で記述するようにしています。
