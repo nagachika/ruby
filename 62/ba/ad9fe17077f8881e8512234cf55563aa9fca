@@ -1,0 +1,1 @@
+net-telnet と xmlrpc を bundled gems からも削除しています。 [ruby-core:96682] [Feature #16484]
