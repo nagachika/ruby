@@ -1,0 +1,1 @@
+parse.y で numbered parameter のために生成する NODE_ARGS_AUX のノードの位置情報がずれてたのを修正しています。テストに追加されてる文が assertion でもないただの Integer#times で、これはどういう意図だろう。
