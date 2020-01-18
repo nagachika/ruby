@@ -1,0 +1,2 @@
+同じく Kernel#ruby2_keywords などで修飾したメソッドの keyword rest 引数を最後の Hash 引数として受け取った時のフラグを、Hash.ruby2_keywords_hash? というクラスメソッドで ruby レベルで判定できるようにしています。さらにフラグを立てた Hash オブジェクト(コピーしたもの)を返す Hash.ruby2_keywords_hash というクラスメソッドも追加しています。 これは実用上使うことあるのかな。 rdoc 用コメントにも "This method is not for casual use; debugging, researching, and some truly necessary cases" とあるからまあ通常使うものではないですね。
+[ruby-core:96687] [Bug #16486]
