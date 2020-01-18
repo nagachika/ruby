@@ -1,0 +1,1 @@
+019a0ed0c78ccd0eb694d09c6a226761261ec15d で inline 関数に変更して改名した RATIONAL_SET_{NUM,DEN}() に引数の type をチェックする assert(3) を追加。また rational.c の INT_POSITIVE_P() もマクロから inline 関数にして internal/numeric.h に移動しています。
