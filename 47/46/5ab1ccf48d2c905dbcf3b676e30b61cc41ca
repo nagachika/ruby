@@ -1,0 +1,1 @@
+Rational を作る時に負数が渡された場合内部的に常に numerator のほうで符号を表現して denominator は正数にするようにしています。
