@@ -1,0 +1,1 @@
+Module#included_modules と Module#included? の rdoc 用コメントに親を再帰的に辿って列挙/判定することを明記しています。 [ruby-core:56898] [Bug #8841]
