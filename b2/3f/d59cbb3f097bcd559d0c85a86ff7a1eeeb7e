@@ -1,0 +1,1 @@
+2.7 の Kernel#ruby2_keywords などで修飾したメソッドの keyword rest 引数を最後の Hash 引数として自動的に変換して受け取った場合、それをさらに委譲した時に伝播されるように Hash オブジェクトに隠しフラグのように RHASH_PASS_AS_KEYWORDS を立ててましたが、このフラグを Marshal.dump/load 時に保持するようにしています。dRuby 経由のメソッド呼び出しでも伝播するようにと。なるほど。 [ruby-core:96777] [Feature #16501]
