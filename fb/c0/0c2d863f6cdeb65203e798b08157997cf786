@@ -1,0 +1,1 @@
+rational.c の nurat_s_new() という関数を削除して、Rational.convert の実装から呼ぶのは nurat_s_canonicalize_internal() を使うようにしています。
