@@ -1,0 +1,1 @@
+internal/rational.h の RRATIONAL_SET_{NUM,DEN} を改名してマクロから inline 関数 RATIONAL_SET_{NUM,DEN}() に変更しています。
