@@ -1,0 +1,1 @@
+String#to_r などで文字列から Rational を作る時に使われる rb_rational_raw() で numerator/denominator を to_int を呼んで整数に変換するようにしています。
