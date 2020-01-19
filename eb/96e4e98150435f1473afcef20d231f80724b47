@@ -1,0 +1,1 @@
+Dir.glob のオプションの Symbol 用 ID を rb_intern() で作ってたのを rb_intern_const() を使って static 変数として使いまわすようにしています。
