@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の set_raw_mode() で intr: true が設定されている時に struct termios のフラグ c_oflag に OPOST をセットするようにしています。出力に対する後処理を有効にするというもので出力されるべき改行などが失われることがある不具合の対応みたいです。 [ruby-core:96858] [Bug #16509]
