@@ -1,0 +1,1 @@
+28b290f7f4cb332dab3ddf3132e1916d413ea65c の GitHub Actions の macOS 環境で test-bundled-gems を削ったのを revert して、かわりに rexml のテストを TEST_BUNDLED_GEMS_ALLOW_FAILURES の仲間に入れるようにしています。
