@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で bundled gems のテスト実行時にタイムアウトを設定して、時間を超えたらシグナル送出して止めるようにしています。
