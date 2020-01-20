@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版で make test-bundled-gems の実行を削っています。
