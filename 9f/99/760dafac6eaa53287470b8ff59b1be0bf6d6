@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の ext/ripper/tools/preproc.rb や Encoding 関連のヘッダ生成のためのテンプレートで、警告されるようになった特殊変数 $/ や $. への nil 以外の代入が使われてたので代替手段に書き換えています。 [ruby-dev:50393] [Feature #14240]
