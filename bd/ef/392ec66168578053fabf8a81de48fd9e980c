@@ -1,0 +1,1 @@
+2f1081a451f21ca017cc9fdc585883e5c6ebf618 の Dir.glob のソート化で dirp を二度 closedir() する可能性があったそうなのでエラー処理を goto でまとめてたのを修正しています。
