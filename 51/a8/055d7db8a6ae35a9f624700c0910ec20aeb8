@@ -1,0 +1,1 @@
+irb の IRB::Context#newline_before_multiline_output というオプションを追加して、これに true を指定すると複数行編集時に評価した値の表示する時に空行を追加するようにしています。
