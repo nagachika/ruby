@@ -1,0 +1,1 @@
+make run.gdb で run.gdb を生成する時に rb_assert_failure() と rb_bug() にも break point を初期化時にセットするようにしています。
