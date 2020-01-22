@@ -1,0 +1,1 @@
+rb_class_clear_method_cache() で rb_serial_t * にキャストしてから dereference した値を VALUE の変数で受けてたのを rb_serial_t に型を変更しています。環境によっては VALUE のほうが幅が小さいので情報が落ちる可能性がありました。
