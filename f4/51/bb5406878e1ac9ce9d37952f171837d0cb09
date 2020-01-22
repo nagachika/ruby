@@ -1,0 +1,1 @@
+irb の completion のコードで Array#append を呼んでいたのを Array#push を呼ぶように変更しています。 ActiveRecord でも Array#append というメソッドが追加されていたらしいのですが、ruby 2.5 から本体にも Array#append が追加されて複数引数を受けとるように Array#push の alias として定義されたので、古い rails との互換性のために append ではなく push を直接使うほうが良いとのことです。なるほどなー。
