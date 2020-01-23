@@ -1,0 +1,1 @@
+readline および reline のテストで Encoding として locale encoding を使ってたところを default_external を使うように修正しています。また Windows では基本的に UTF-8 を使うようにしています。
