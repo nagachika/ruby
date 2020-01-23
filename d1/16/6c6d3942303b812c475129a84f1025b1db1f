@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Windows 版で MinTTY を使われてる時に検出するロジックが不完全(標準出力をパイプに繋げた時に誤検出する?)なので Reline::Windows.msys_tty? というメソッドを実装して Win32API の GetFileInformationByHandleEx() を使ってその内容で判定するようにしています。
