@@ -1,0 +1,1 @@
+benchmark/fiber_chain.yml、ext/fiddle/win32/fficonfig.h、ext/fiddle/win32/libffi.mk.tmpl などのファイルにも mode に実行権限の bit がついてしまっていたみたいなので落としています。
