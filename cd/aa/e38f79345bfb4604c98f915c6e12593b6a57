@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream のリポジトリ名を取得するのに使う $repositories のキー名を gem 名のものを使うようにしています。 "-" が入るとクオートが必要になっちゃうので削ってたけど一貫性を重視してって感じですね。
