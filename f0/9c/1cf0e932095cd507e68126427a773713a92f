@@ -1,0 +1,1 @@
+readline のテストで Readline.refresh_line のテストを assert_ruby_status が未定義の時は skip するようにしています。 ruby 本体にしかない EnvUtils のメソッドなので独立したリポジトリでのテストで落ちないようにするためかな。
