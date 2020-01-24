@@ -1,0 +1,1 @@
+taint や untaint メソッドの deprecated 警告を rb_warning() から rb_warn() に変更して $VERBOSE がセットされてなくても出力するようにしています。
