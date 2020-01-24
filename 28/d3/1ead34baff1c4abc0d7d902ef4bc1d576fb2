@@ -1,0 +1,1 @@
+標準添付ライブラリ pp の PP#seplist でブロックを yield する時に明示的に空の Hash で **{} と keyword splat 引数を渡すようにして、splat 引数で渡してる通常引数の最後の Hash にたまたま ruby2_keywords フラグがついていたためにうっかりキーワード引数に変換されるのを防ぐようにしています。 [ruby-core:96957] [Bug #16519]
