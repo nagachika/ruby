@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http に Net::HTTP#connect 時に OpenSSL::SSL::SSLContext#set_params に渡すパラメーターの verify_hostname を指定できるようにする機能を追加しています。チケットをみるにチェックを skip させて proxy 経由などの時のチェックを抑制するため。なんかちょっと前に似たような変更をみたような。。 [ruby-core:96975] [Feature #16555] https://github.com/ruby/ruby/pull/2858
