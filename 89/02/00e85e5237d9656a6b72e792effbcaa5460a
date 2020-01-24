@@ -1,0 +1,1 @@
+readline のテストで DONT_RUN_RELINE_TEST という環境変数をセットすると Reline を使うテストは定義せず require もしないようにしています。これも upsteam で古い ruby でのテストのためかな。
