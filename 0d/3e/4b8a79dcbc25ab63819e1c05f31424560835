@@ -1,0 +1,1 @@
+readline のテストで skip のかわりに omit を使うようにしています。そういえば skip は test/unit じゃないんだった。
