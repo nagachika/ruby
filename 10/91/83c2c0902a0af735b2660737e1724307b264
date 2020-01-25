@@ -1,0 +1,1 @@
+aefb13eb631cc5cd784fe2fc10f1f333a2c5e68c の(というよりは e18b817b1f0a4c318f1f0fe54fceaa5cbc85e8ab の)変更に追随して rubyspec の taint/untaint のテストを 2.8 以降では実施しないように ruby_version_is での guard を追加しています。
