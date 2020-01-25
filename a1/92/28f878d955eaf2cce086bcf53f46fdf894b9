@@ -1,0 +1,1 @@
+同じく musl を使っている環境で File.lchmod がサポートされてない場合に Errno::EOPNOTSUPP を発生させる場合があるのに対応するために fileutils やテストで例外の捕捉に追加しています。
