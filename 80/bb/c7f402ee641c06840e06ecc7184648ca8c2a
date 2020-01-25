@@ -1,0 +1,1 @@
+昨日の be6931f7f7d2eed46226f0cc452de64cdeec0dab の Net::HTTP の verify_hostname オプション追加について NEWS に追記しています。 https://github.com/ruby/ruby/pull/2858 [ruby-core:96975] [Feature #16555]
