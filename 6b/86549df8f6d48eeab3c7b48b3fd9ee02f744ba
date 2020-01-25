@@ -1,0 +1,1 @@
+2bde7919a0a8302c344e9bb9ddc217958fcbd3c7 の Module#const_source_location の rdoc 用コメントのサンプルに行番号を示したコメントを追加するようにしています。またサンプルの結果の行数が誤ってたのを修正しています。
