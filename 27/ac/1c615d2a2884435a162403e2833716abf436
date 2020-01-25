@@ -1,0 +1,1 @@
+aefb13eb631cc5cd784fe2fc10f1f333a2c5e68c のうち path_taint() と path_untaint() で rb_warn_deprecated_to_remove() を使うようにしてたのは revert しています。これは拡張ライブラリ内で、rb_warn_deprecated_to_remove() は非公開な C API なので。そうなのかー。ま、そうか。
