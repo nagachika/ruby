@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream からの更新時にリポジトリ名を含むメッセージを出力するようにしています。
