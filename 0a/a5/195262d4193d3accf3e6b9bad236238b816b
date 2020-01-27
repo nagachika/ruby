@@ -1,0 +1,1 @@
+Reline::History のテストで setup 時に Reline.test_mode を呼び出しておくようにしています。
