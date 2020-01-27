@@ -1,0 +1,1 @@
+8f4beec15291b1fae80be42685c61a6e5f9ce369 の(たぶん)続きで標準添付ライブラリ reline の Reline::GeneralIO.encoding で Windows 環境では常に Encoding::UTF_8 を返すようにしています。
