@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Core に initialize 時に引数で Encoding の指定を受け取るようにしていたのを常に Reline::IOGate.encoding を参照するように変更しています。
