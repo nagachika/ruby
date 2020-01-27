@@ -1,0 +1,1 @@
+Array#shuffle と Array#shuffle! の実装を ruby 実装(C の関数を呼び出す __builtin 機構を使うもの)にして array.rb というファイルを追加しています。
