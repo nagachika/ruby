@@ -1,0 +1,1 @@
+af899503a646f20d63d4aa2f358894b98f85dab7 で ruby 実装に移植した GC.verify_compaction_references の rdoc 用コメントの call-seq の戻り値が nil であると書かれてたのを hash に変更しています。
