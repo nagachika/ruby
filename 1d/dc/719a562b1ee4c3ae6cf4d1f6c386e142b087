@@ -1,0 +1,1 @@
+Float#round や Integer#round の half キーワード引数に渡された文字列が ASCII 非互換なエンコーディングの文字列だったら検査前に Encoding::CompatibilityError 例外を発生させるようにしています。
