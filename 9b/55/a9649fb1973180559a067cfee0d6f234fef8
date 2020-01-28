@@ -1,0 +1,1 @@
+rubyspec の Array#shuffle と Array#sample の引数に to_hash が呼ばれることを確認したテストを削っています。引数処理部分が ruby 実装になってキーワード引数がきれいに扱われるようになったので、かな。
