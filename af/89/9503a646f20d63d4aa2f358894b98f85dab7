@@ -1,0 +1,1 @@
+GC.verify_compaction_references というメソッドの実装も gc.rb の ruby 実装に移植しています。
