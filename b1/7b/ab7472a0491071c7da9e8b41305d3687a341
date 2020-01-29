@@ -1,0 +1,1 @@
+同じく autoload のテストでも  make test-all の --repeat-count 対応のため後始末の処理で TestAutoload から定数の削除をするようにしています。
