@@ -1,0 +1,1 @@
+lib/racc/.document を追加して rdoc/ サブディレクト配下の .rdoc ファイルを parse 対象に指定しています。 [ruby-core:97005] [Bug #16596]
