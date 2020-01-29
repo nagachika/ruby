@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応で 9b65bfdc9e5eb8a36fdd464ed7534ed2a9557ea7 で test/ruby/test_refinement.rb の 2回目以降 skip するようにしたテストで 20c1c240145b7db66014020e233b23d12574efae で導入した Minitest::Unit.current_repeat_count を利用するように書き換えています。
