@@ -1,0 +1,1 @@
+C++ 用のメソッド定義系のコールバック関数を受け取る関数の宣言を overload するマクロ群の宣言を include/ruby/intern.h から include/ruby/ruby.h に移動しています。
