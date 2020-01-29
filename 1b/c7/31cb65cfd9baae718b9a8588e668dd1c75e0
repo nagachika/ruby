@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応で test/ruby/test_module.rb で setup 時に定数の掃除をするようにしています。
