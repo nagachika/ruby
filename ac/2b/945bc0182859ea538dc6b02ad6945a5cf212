@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応で test/ruby/test_marshal.rb で定数の削除を行うようにしています。
