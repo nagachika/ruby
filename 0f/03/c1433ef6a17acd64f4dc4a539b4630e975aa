@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応で test/ruby/test_primitive.rb で後始末で定数削除したりクラス変数の初期化を setup 処理内で明示的にするようにしています。
