@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応のために利用できるように tool/lib/minitest/unit.rb で繰り返し実行回数をクラス変数に保持しておいて Minitest::Unit.current_repeat_count で参照できるようにしています。
