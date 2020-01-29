@@ -1,0 +1,1 @@
+make test-all の --repeat-count の対応で test/ruby/test_autoload.rb でも定数の掃除をするようにしています。
