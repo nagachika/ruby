@@ -1,0 +1,1 @@
+同じく C++ 向けの rb_define_global_function() のテストを追加しています。
