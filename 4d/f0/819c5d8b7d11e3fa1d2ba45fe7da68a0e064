@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応で test/ruby/test_settracefunc.rb で後始末で定数削除するようにしています。
