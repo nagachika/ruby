@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応で test/ruby/test_rand.rb で Kernel#srand のテストを子プロセスを起動して行うようにしています。けど srand 呼ばなかったことの確認に teardown で srand 呼んじゃってるけど、これはいいのかな。
