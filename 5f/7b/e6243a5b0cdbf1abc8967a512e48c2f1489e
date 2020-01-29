@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count 対応のため Encoding#replicate のテストで複製する時の名前に時刻を含めるようにしています。 Encoding は replicate すると消せない(String に紐付いちゃうとなかなか消せないからこれはしょうがなさそう)のでかわりに名前が衝突しないようにしているようです。
