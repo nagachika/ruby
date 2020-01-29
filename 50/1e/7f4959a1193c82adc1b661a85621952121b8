@@ -1,0 +1,1 @@
+同じく VM 命令についてのテストでクラス変数の初期化を明示的な setup メソッドで行うようにして make test-all の --repeat-count 対応しています。
