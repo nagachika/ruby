@@ -1,0 +1,1 @@
+同じく make test-all の --repeat-count の対応で test/ruby/test_time.rb で 20c1c240145b7db66014020e233b23d12574efae で導入した Minitest::Unit.current_repeat_count を使って 2回目以降は skip する処理を追加しています。環境変数 TZ を変更するテストが 2回目以降うまくいかないらしいです。
