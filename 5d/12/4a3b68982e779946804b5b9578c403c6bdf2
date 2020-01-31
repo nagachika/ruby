@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI で Home キーと End キーのキーコードに対応するように対応するよう修正しています。 [ruby-core:96870] [Bug #16510]
