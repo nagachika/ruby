@@ -1,0 +1,1 @@
+test/ruby/test_rubyoptions.rb でわざと SEGV させるテストが環境変数 RUBY_ON_BUG が定義されていると gdb 起動されちゃうのでその時は skip するようにしています。
