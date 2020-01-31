@@ -1,0 +1,1 @@
+これもおそらく make test-all の --repeat-count オプション対応で test/ruby/enc/test_regex_casefold.rb で定義されているユーティリティで String オブジェクトを破壊的変更する場合に dup しておくようにしています。
