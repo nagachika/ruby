@@ -1,0 +1,1 @@
+これもおそらく間接的に make test-all の --repeat-count の対応のため? test/ruby/test_require.rb で Dir.tmpdir で作った一時ディレクトリが rand の返す乱数が同じ場合同じファイルパスになるのでこけるのをふせぐため $LOADED_FEATURES を復旧するようにしています。
