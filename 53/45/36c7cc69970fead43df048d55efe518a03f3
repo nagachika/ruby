@@ -1,0 +1,1 @@
+test/ruby/test_exception.rb で $LOADED_FEATURES のクリーンアップ時に Tempfile オブジェクト自体を指定していてうまく消せてなかったのを修正しています。
