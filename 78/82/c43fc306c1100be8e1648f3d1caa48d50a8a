@@ -1,0 +1,1 @@
+test/ruby/test_const.rb と test/ruby/test_method.rb のテストで定数の掃除を Proc オブジェクトを単に call して行うようにして、わざわざ define_method で Proc を wrap したメソッドを経由するのをやめています。
