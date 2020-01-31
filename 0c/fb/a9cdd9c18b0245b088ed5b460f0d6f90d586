@@ -1,0 +1,1 @@
+65768c80beb64a14c3e918f8ed5e41e9349025d0 で削除した test/ruby/test_rand.rb で srand が呼ばれてないかチェックする teardown を復活させています。あれ、なんでだろ。
