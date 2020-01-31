@@ -1,0 +1,1 @@
+Travis-CI の rubyspec の実行に使う ruby のバージョンを 2.4.9 に更新しています。
