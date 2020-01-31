@@ -1,0 +1,1 @@
+rubyspec の eval 内での __dir__ についてのテストの ruby_version_is の guard を 2.7 まで含めるように修正しています。
