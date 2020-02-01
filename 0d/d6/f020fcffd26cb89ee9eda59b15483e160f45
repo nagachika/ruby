@@ -1,0 +1,2 @@
+52dc0632faa8450af90e37ef3c2c9f30d06951a1 で String#slice! の実装で使う空文字列オブジェクトを fstring にしてたのをさらに進めて heap 上の slot を使わない fake string (struct RVALUE の領域を自動変数として持ってそこへのポインタを VALUE ということにする)を使うようにリファクタリングしています。
+こういうのみるとさっきの 18e7f9000dc3695b9db02ae153d41bd1efa01d6e のグローバル変数の処理で VALUE は heap 指してるはず、というの大丈夫かなぁとか思ったりしてしまいますね。
