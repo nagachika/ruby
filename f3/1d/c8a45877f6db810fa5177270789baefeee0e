@@ -1,0 +1,1 @@
+include/ruby/backward/cxxanyargs.hpp の Doxygen 向けコメントの @brief という special command を削除したり @copydoc というのを利用したりといった変更。
