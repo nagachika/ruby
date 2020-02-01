@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate の Delegator.delegating_block を ruby2_keywords で修飾して通常引数経由でキーワード引数の委譲を行えるようにしています。 [ruby-core:96949] [Bug#16154]
