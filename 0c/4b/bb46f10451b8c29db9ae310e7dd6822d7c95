@@ -1,0 +1,1 @@
+gc.c で st_lookup(), st_delete() などに渡す引数のところで st_data_t* へのキャストを行うのを一旦変数に代入してその時にキャストするように書きかえています。また switch 文で return するところの後の break を削ってます。
