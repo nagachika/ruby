@@ -1,0 +1,1 @@
+variable.c の rb_gvar_val_marker() からグローバル変数の VALUE を mark するのに rb_gc_mark_maybe() を呼んでましたが、これは 0 か正しい heap 内のポインタのはずなのでということでチェックを省いた rb_gc_mark() を直接呼ぶようにしています。
