@@ -1,0 +1,1 @@
+ca2888fb3d23d702738873f5c0f956575fd3c5d3 の C++ 用ヘッダテスト用拡張ライブラリの extconf.rb でエラー無視させるように Makefile 生成するようにしたところで、Windows環境だと create_makefile のブロックの評価結果が nil になっちゃうので、最後に mk を返すようにしています。
