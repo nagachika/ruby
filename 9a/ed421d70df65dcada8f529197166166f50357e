@@ -1,0 +1,1 @@
+53adb53c9aea5da98ed3e470983b2cbfe367cb7d で ext/-test-/cxxanyargs/depend に追加した .IGNORE  という directive? は nmake では動かないそうなので !INDEF というのを使って分岐するようにしています。Makefile にこんな記法があるのか。
