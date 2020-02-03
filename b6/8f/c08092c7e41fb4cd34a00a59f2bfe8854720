@@ -1,0 +1,1 @@
+tool/lib/vcs.rb で生成する ChangeLog のインデントの調整。
