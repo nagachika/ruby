@@ -1,0 +1,1 @@
+tool/lib/vcs.rb で ChangeLog 生成する時に先頭にエンコーディングを UTF-8 と指定する emacs 向けのマジックコメント(?)を追記しています。
