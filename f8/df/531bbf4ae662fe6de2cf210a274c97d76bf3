@@ -1,0 +1,1 @@
+rubygems の更新にあわせて tool/rbinstall.rb で Gem::Installer.new の使いかたを変更しています。
