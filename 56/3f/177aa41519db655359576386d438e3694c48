@@ -1,0 +1,1 @@
+同じく rubygems の更新にあわせて tool/rbinstall.rb で Gem::Installer を継承したクラスの initialize の引数も変更しています。
