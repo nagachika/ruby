@@ -1,0 +1,1 @@
+irb のタブ補完で RubyVM のメソッドは表示せず lib/irb/ruby_logo.aa の内容を表示してたのを lib/irb/easter-egg.rb というスクリプトを導入して、どうやらロゴが動くようにしているようです(試してない)。
