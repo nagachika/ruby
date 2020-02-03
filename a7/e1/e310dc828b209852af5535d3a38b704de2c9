@@ -1,0 +1,1 @@
+lib/irb/lc/help-message というファイルを rdoc の対象にしないために lib/irb/lc/.document ファイルを置いてたのを lib/irb/.document に移動して、ファイル列挙せず単に拡張子 .rb のファイル全てにマッチするようにパターンを書き換えています。
