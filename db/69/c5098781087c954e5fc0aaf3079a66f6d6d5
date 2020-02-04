@@ -1,0 +1,1 @@
+include/ruby/ruby.h の rb_scan_args_xxxx() 系のマクロ定義で引数の展開時にかっこを追加しています。
