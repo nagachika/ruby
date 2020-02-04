@@ -1,0 +1,1 @@
+vm_insnheler.c の vm_check_canary() と vm_canary_is_found_dead() に MJIT_FUNC_EXPORTED をつけて MJIT 用に export するようにしています。 VM_CHECK_MODE を 1以上にしてかつ optflags=-O0 を指定した時に MJIT のテストが失敗してたそうです。
