@@ -1,0 +1,1 @@
+struct rb_scan_args_t の kw_flag をチェックする処理を rb_scan_args_keyword_p() という inline 関数またはマクロに分離して、rb_scan_args_set() で rb_keyword_given_p() を直接呼び出してたところも kw_flag をチェックするようにしています。
