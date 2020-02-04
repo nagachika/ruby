@@ -1,0 +1,1 @@
+構造体 struct rb_scan_args_t をさらに整理して argc, argv, hash などのメンバーも削除して、これらのメンバーに相当する変数を rb_scan_args_assign() に直接渡すよう限定しています。実行時の情報を struct rb_scan_args_t から追い出すっていう意図だそうです。
