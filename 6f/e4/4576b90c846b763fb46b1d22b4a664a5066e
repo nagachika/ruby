@@ -1,0 +1,1 @@
+さらに assert_separately の修正で fd leak を防ぐため IO.pipe で pipe 生成していた場合読んだ後に fd で開いた IO を close するようにしています。これは親プロセスのほうの処理ですね。
