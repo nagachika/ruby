@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#open の rdoc 用コメントに call-seq がなかったので追記しています。
