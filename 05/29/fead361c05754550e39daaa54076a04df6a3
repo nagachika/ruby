@@ -1,0 +1,1 @@
+テスト用のユーティリティ assert_separately で pipe を生成して子プロセスからのオブジェクトを受け取るのに Marshal.dump したものを stdout から受け取るのではなくてその pipe で受け渡すようにしています。
