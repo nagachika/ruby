@@ -1,0 +1,1 @@
+テスト用拡張ライブラリの extconf.rb ext/-test-/popen_deadlock/extconf.rb で Linux と Solaris で $LDLFLAGS に -ldl オプションを追加しています。 dlsym(3) を使うテストなので dynamic link 用にビルドしないといけないとかかな。
