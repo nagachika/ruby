@@ -1,0 +1,1 @@
+9b9a621ae35bd6aefe78ff8a22874d8036ddd883 の追加修正で Windows 環境では子プロセスで fd を指定して IO.new するのもやめて単に STDOUT 定数を参照するようにしています。
