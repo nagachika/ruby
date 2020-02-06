@@ -1,0 +1,1 @@
+readline のテストと -E オプションのテストなどで Windows 環境で Encoding として locale encoding を使っていたところを external encoding を利用するようにしています。ふーむ、なんか Windows では locale encoding を使うことが多いのでそういうものだと思っていたけど、まあ現状の実装に合わせた修正ということですかね。
