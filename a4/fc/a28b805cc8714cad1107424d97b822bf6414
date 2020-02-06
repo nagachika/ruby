@@ -1,0 +1,1 @@
+Encoding.default_external と Encoding.default_internal の rdoc 用コメントに script encoding が使われる記述の削除と出力時の変換が internal_encoding が明示されてる時だけ行なわれることを追記しています。
