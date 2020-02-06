@@ -1,0 +1,1 @@
+0529fead361c05754550e39daaa54076a04df6a3 の assert_separetely の pipe 対応で Windows では fd の 0, 1, 2 以外を子プロセスに渡すことができないという制限にひっかかるので、Windows 環境ではやっぱり標準出力(fd=1)を使って Marshal.dump したオブジェクトを受け渡すように修正しています。
