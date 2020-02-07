@@ -1,0 +1,1 @@
+ruby_atomic.h のマクロ定義を分岐する preprocessor の条件で sizeof(long) と sizeof(size_t) を比較してたところをかわりに _LP64 と _I32LPx というマクロをチェックするようにしています。これも Solaris 上での警告抑制のためみたいです。
