@@ -1,0 +1,1 @@
+blocking region (GVL 解放している状態)などで ruby の呼び出しができない状態で処理を遅延させるための postponed job の管理に使う rb_vm_t::postponed_job_index の型を int から rb_atomic_t に変更しています。 ATOMIC_CAS() にこのメンバーのポインタを渡してるので rb_atomic_t にしておくべきとのこと。
