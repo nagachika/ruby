@@ -1,0 +1,1 @@
+tool/m4/ruby_setjmp_type.m4 で builtin 関数 __builtin_setjmp() を使う条件に GCC 以外の場合も追加しています。 Sun C Compiler で使えた模様。
