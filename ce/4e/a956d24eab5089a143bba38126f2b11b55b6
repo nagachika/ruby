@@ -1,0 +1,1 @@
+8427fca49bd85205f5a8766292dd893f003c0e48 と同様に coroutine/ucontext/Context.c  と mjit.c で関数ポインタ型の変数に void * 型の変数を代入する時に明示的にキャストするようにしています。
