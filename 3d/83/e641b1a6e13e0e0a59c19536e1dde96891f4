@@ -1,0 +1,1 @@
+rubyspec のマルチスレッドを使うテストで Thread が停止しているかを Thread#status が "sleep" になってるかでチェックしていたのを Thread#stop? を使って判定するようにリファクタリングしています。
