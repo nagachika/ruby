@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl の PREDEFINED という変数にいくつかマクロ定義のスタブを追加して MACRO_EXPANSION を ON にしています。マクロ展開後のソースコードからドキュメント生成するのかな。
