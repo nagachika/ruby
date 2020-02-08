@@ -1,0 +1,1 @@
+fork と signal の組み合わせて deadlock していた不具合についてのテストで assert_separately の子プロセス内で stdout に書き込みしていたのを不要として削除しています。
