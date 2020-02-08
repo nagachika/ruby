@@ -1,0 +1,1 @@
+assert_separately の子プロセスでのテストを通常の test/unit の実行にまかせずに BEGIN 節にコードを置いて自動実行を抑制し、専用の separated_runner というメソッドを使って at_exit で Marshal.dump したオブジェクトを書き出すように書き換えています。並列テストで問題になるからとのこと。
