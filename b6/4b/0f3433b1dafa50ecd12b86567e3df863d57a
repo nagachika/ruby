@@ -1,0 +1,1 @@
+Range#step のテストで assert_equal のエラー時のメッセージに Range#step の結果の inspect も表示させるようにしています。
