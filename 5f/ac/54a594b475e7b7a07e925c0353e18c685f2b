@@ -1,0 +1,1 @@
+同じく assert_separately において子プロセスに pipe を渡す場合 EnvUtil.invoke_ruby の capture_stdout に false を渡して子プロセスの stdout に MiniTest::Unit.output を渡すようにしています。並列テスト時の出力をまとめるため。
