@@ -1,0 +1,1 @@
+テスト用ユーティリティ assert_separately の pipe 利用時の assertion 数のカウントも pipe 経由のオブジェクトを利用するようにまとめています。
