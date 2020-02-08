@@ -1,0 +1,1 @@
+同様に rubyspec の ConditionVariable のテストでメソッドの戻り値について rdoc で明言されていないものはチェックをやめています。
