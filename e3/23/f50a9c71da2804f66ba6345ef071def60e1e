@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の readline の同期用処理を sync_lib を使わず独自の cp_r でのコピーを行うようにしています。
