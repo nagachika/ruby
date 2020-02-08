@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで Struct でクラスを作っているところで同じ名前でクラスを作ると定数が再定義されるので事前にチェックして remove_const するようにしています。make test-all の複数回実行の対応。 https://github.com/ruby/ruby/pull/2881
