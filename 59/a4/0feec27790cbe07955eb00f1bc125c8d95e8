@@ -1,0 +1,1 @@
+同じく psych のテストで Struct の定数再定義を避けるため remove_const するようにしています。 https://github.com/ruby/ruby/pull/2887
