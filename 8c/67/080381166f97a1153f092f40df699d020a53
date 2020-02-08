@@ -1,0 +1,1 @@
+d767da428c28b7b9fec56b383bb32f6f76c6ad26 の rubygems の再定義している require の拡張子の優先順位についての変更を revert しています。 rubyspec がこけたとのこと。
