@@ -1,0 +1,1 @@
+rb_gc_disable() のメイン処理部分を rb_objspace_t を引数として受け付ける rb_objspace_gc_disable() として切り出して objspace を持ってる関数からはこちらを呼び出すようにリファクタリングしています。
