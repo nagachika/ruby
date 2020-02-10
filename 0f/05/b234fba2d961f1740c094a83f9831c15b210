@@ -1,0 +1,1 @@
+環境変数 RUBY_THREAD_VM_STACK_SIZE をとても大きくセットすると SEGV してしまうという不具合の修正。修正内容としては Init_vm_objects() の最後まで GC を実施しないようにするというものです。まだ準備ができてないのに VM stack 確保のためのメモリが足りずに GC 起動してしまって SEGV してたってことですかね。 [ruby-core:97102] [Bug #16616]
