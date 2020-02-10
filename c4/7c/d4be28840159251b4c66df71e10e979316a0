@@ -1,0 +1,1 @@
+enumerator.c の arith_seq_float_step_size() というのは ruby_float_step_size() と同一なので削除して同じ関数を使うようにしています。
