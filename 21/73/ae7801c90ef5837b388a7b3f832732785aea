@@ -1,0 +1,1 @@
+File.utime の引数に非常に大きな整数で表現される Time オブジェクトを渡した時に File.mtime/File.atime で返される日時がファイルシステムによっては truncate されるのでそれを考慮した assertion に修正しています。
