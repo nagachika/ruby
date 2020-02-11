@@ -1,0 +1,1 @@
+GitHub Actions の Slack 通知に github.run_id という変数を使って GitHub Actions の対応するページへのリンクを貼るようにしています。
