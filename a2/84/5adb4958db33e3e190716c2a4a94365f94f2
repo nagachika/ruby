@@ -1,0 +1,1 @@
+struct ibf_dump_buffer::obj_list も同様に削除して 6e5e6a40c4c35aee1cfb7d0effa47354f80baa9e で導入した struct ibf_dump_buffer::obj_table で代替するようにしています。 [ruby-core:96801] [Feature #16505]
