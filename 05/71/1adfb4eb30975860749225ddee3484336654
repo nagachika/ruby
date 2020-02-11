@@ -1,0 +1,1 @@
+拡張ライブラリ readline の extconf.rb で $INCFLAGS に -I$(top_srcdir) を追加していたのを削除しています。独立した gem としてビルドする時に問題になったようです。
