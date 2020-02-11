@@ -1,0 +1,1 @@
+2つの文字列の Encoding の互換性チェックの enc_compatible_latter() で str2 も String オブジェクト(T_STRING 型)の時だけ rb_enc_str_asciionly_p() を呼ぶパスに入るように修正しています。
