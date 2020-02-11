@@ -1,0 +1,1 @@
+parse.y で command_rhs というノードのアクションで value_expr() というチェックを行なっているので、command_rhs を還元するルールのアクション部で重複して value_expr() を呼んでいるところを削除しています。
