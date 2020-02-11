@@ -1,0 +1,1 @@
+readline のテストで reline を使っているバージョンかどうかのチェックで TestRelineAsReadline を参照する前に defined? で存在チェックするようにしています。これも独立した gem としてのテスト時のためですね。
