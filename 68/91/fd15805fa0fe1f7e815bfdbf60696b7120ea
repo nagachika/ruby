@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で readline の同期時に ext/readline/depend の変更は取り消すようにしています。なるほど、こうして upstream の変更を無視することができるのか。
