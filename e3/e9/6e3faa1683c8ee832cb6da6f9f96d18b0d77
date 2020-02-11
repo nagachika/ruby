@@ -1,0 +1,1 @@
+UnboundMethod#bind でそのインスタンスの対応する Method にする時に Refinements で再定義してるメソッドをその Module から取り出して bind すると実際には呼べないのに bind できてしまって SEGV する可能性がある不具合を修正しています。ややこしい。 [ruby-core:97103] [Bug #16617]
