@@ -1,0 +1,1 @@
+doc/make_cheatsheet.md に make test-spec で特定のファイルのみ実行するのに MSPECOPT 変数を使う方法を追記しています。
