@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary の実装で struct ibf_dump::iseq_list を削除して ibf_dump_iseq_list() で struct ibf_dump::iseq_table を元にリスト生成するようにしています。 [ruby-core:96801] [Feature #16505]
