@@ -1,0 +1,1 @@
+a629f147cd255b9887ce05a803431e243b925d08 の readline の depend ファイルから ruby/assert.h を削除した変更を revert しています。うーん綱引き状態。
