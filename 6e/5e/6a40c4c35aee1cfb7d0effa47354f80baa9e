@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary でのバイナリダンプで同一のオブジェクトを同じ通し番号でダンプするための探索が Array オブジェクトの線形探索だったので st_table を使うようにして高速化しています。 [ruby-core:96801] [Feature #16505]
