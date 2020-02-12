@@ -1,0 +1,1 @@
+同じく assert_no_memory_leak の定義も tool/lib/test/unit/assertions.rb から tool/lib/test/unit/core_assertions.rb に移動。
