@@ -1,0 +1,1 @@
+variable.c の不要になってた static 変数 generic_iv_tbl_compat と残ってた参照箇所のコードを削除しています。
