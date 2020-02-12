@@ -1,0 +1,1 @@
+テスト用の assertion メソッド assert_nothing_raised/assert_valid_syntax/assert_normal_exit などを tool/lib/test/unit/assertions.rb から tool/lib/test/unit/core_assertions.rb に移動しています。拡張ライブラリ weakref のテスト? から利用できるようにするためみたいです。
