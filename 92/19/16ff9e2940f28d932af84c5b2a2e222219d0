@@ -1,0 +1,1 @@
+Encoding#replicate のテストはグローバルかつプロセス内で永続的な変更を加えてしまうので assert_separately を使って子プロセス内で実行するようにしています。
