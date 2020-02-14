@@ -1,0 +1,1 @@
+did_you_mean のテストで setup で DidYouMean.formatter の初期化を行うようにしています。これも複数回の make test-all 対応のようです。
