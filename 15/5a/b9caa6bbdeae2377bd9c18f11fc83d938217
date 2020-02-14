@@ -1,0 +1,1 @@
+Kernel#exec や spawn 系のメソッドでの親プロセスでの処理 rb_execarg_parent_start1() で vpath の変換が冗長に呼ばれてたのを削除しています。
