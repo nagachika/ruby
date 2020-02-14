@@ -1,0 +1,1 @@
+ObjectSpace.each_object で取れないように struct RBasic::klass を 0 にして hidden object にしたものはインスタンス変数を持てないので iv_index_tbl_make() でテーブル参照前にチェックして例外を発生させるようにしています。
