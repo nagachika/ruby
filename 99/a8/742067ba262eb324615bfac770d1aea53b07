@@ -1,0 +1,1 @@
+ed7b46b66be671165b6f38abd21d7638f4dfdcea の super の inline cache 対応でキャッシュとの比較に cc->me->def->original_id を使ってたのを cc->me->called_id に変更しています。 alias によるメソッドの時にうまく一致しない場合があるようです。
