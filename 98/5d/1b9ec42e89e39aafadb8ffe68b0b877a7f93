@@ -1,0 +1,1 @@
+同じく exec や spawn の引数処理でカレントディレクトリの文字列を rb_str_new2() でオブジェクト化してたのを rb_dir_getwd_ospath() を使うようにしています。 NoMemoryError が発生する可能性があるのでこの位置で呼ぶのは不適切だったとのこと。
