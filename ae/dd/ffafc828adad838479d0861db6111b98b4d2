@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu の make test-all に TESTS=--repeat-count=2 を渡して 2回繰り返し実行するようにしています。
