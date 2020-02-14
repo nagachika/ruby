@@ -1,0 +1,1 @@
+def でのメソッド定義内での class <<obj での特異クラス定義内で yield 文を書くのは SyntaxError になるようにしています。
