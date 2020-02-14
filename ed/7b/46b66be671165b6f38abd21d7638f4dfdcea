@@ -1,0 +1,1 @@
+super で呼ばれるメソッドの探索時に inline cache を考慮するようにしています。 https://github.com/ruby/ruby/pull/2869
