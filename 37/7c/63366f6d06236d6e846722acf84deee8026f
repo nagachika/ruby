@@ -1,0 +1,1 @@
+rubygems のテスト test/rubygems/test_gem_commands_setup_command.rb でも 65201c054a90c8e7beb8fe1e6d0006541ac33449 と同様に shebang に /bin/env または /usr/bin/env を使うようにしています。
