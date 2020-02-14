@@ -1,0 +1,1 @@
+String#format で format 文字列の Encoding の format 文字列からのコピーしないようにしています。 52cdf400efaecc0f5e1d1f70f22dc45212e03c4c で hidden object のインスタンス変数が使えなくしたので struct RBasic::flags に埋め込めない encindex の Encoding を持たせることができないのでその時は ASCII-8BIT として扱うようにしているそうです。
