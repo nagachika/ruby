@@ -1,0 +1,1 @@
+rubygems のテストで shebang に書くコマンドとして /bin/env と /usr/bin/env どちらも試して使えるほうを使うようにしています。
