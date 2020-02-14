@@ -1,0 +1,1 @@
+String#dup した時に Encoding の index が flags に埋め込める数値を超えてた時の処理が漏れてたのを修正しています。
