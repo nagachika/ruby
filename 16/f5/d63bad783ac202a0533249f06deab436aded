@@ -1,0 +1,1 @@
+irb でロゴ表示のコードが 2.6 以降でないと動かない endless range が使われてたので Integer#step を使うように修正しています。
