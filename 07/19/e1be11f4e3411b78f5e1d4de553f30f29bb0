@@ -1,0 +1,1 @@
+irb の補完時に現在の context の binding を伝播させるようにしているのと、retrieve_completion_data の戻り値チェックしているところで変数名間違えてたのを修正。
