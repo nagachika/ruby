@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境の libcrypto-1_1-x64.dll や libssl-1_1-x64.dll といったファイルが C:\Windows\System32 にあるのが邪魔らしくて(64bit 版なのに System32 にあるからかな)、rename してからテストするようにしています。
