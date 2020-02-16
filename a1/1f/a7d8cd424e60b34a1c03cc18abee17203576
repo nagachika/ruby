@@ -1,0 +1,1 @@
+rubyspec の Dir.home のテストを Android 環境で実行除外するようにしています。
