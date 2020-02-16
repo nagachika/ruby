@@ -1,0 +1,1 @@
+rubyspec の File::Stat の所有者についてのテストも Android で除外するようにしています。
