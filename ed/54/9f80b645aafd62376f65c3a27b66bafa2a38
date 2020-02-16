@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストを Android 環境で実行除外するようにしています。
