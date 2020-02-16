@@ -1,0 +1,1 @@
+rb_scan_args() と rb_scan_args_kw() から arity チェックの部分を rb_scan_args_result() という関数に切り出して共有しています。
