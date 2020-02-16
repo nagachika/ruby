@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#chmod, #chown, #lchmod, #lchown などの rdoc 用コメントの call-seq に引数が書かれていなかったのを修正。
