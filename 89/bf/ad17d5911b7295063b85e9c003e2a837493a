@@ -1,0 +1,1 @@
+rubyspec の標準添付ライブラリ syslog のテストも Android で除外するようにしています。
