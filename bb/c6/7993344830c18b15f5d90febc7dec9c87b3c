@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ socket の UNIX domain socket での getnameinfo のテストを Android でスキップするようにしています。
