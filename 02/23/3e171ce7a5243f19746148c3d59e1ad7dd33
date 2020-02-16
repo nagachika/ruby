@@ -1,0 +1,1 @@
+rubyspec の Dir.chdir + Process.spawn のテストで移動するディレクトリを /tmp から / に変更。 Android では /tmp が存在しないからとのこと。
