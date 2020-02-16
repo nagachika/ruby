@@ -1,0 +1,1 @@
+rubyspec の定数 Socket::Constants::IP_MAX_MEMBERSHIPS をチェックするテストを Android で除外するようにしています。
