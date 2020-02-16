@@ -1,0 +1,1 @@
+Encoding.locale_charmap のテストを Android の時のバージョンを分離するようにしています。 Android では locale は常に UTF-8 らしい。
