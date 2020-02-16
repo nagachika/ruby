@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の DRb::DRBObject#method_missing に ruby2_keywords を適用して、委譲時のキーワード引数の自動変換を有効にするようにしています。[ruby-core:97166] [Bug #16634]
