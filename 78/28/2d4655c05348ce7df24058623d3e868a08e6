@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#raw などのオプションを解析する rawmode_opt() で rb_scan_args() を使うようにしています。古い ruby 対応のため RB_SCAN_ARGS_PASS_CALLED_KEYWORDS をチェックして従来の Hash として扱うほうも残しています。
