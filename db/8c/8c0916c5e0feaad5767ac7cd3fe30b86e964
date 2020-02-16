@@ -1,0 +1,1 @@
+rubyspec の 拡張ライブラリ socket の SOCK_SEQPACKET というタイプの socket を使うテストを Android で除外するようにしています。
