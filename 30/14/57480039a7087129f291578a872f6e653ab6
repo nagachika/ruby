@@ -1,0 +1,1 @@
+b99775b163ce44079c1f8727ce9b4ed8bb03489d の openssl の更新で追加された OpenSSL::PKey::EC::Point のテストで環境によってはサポートされていなくて OpenSSL::PKey::EC::Group::Error 例外が発生するので rescue して skip させるようにしています。
