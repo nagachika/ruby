@@ -1,0 +1,1 @@
+拡張ライブラリ openssl を upstream からマージ。 2.2.0 に更新しています。openssl の更新久しぶり。 https://github.com/ruby/ruby/pull/2693
