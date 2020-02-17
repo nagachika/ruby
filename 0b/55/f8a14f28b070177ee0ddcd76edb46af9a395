@@ -1,0 +1,1 @@
+openssl が Solaris でビルド失敗するとのことで extconf.rb で -Werror=deprecated-declarations を一部抑制するようにしているようです。
