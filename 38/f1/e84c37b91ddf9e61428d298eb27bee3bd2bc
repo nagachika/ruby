@@ -1,0 +1,1 @@
+irb の gemspec ファイルの spec.files に lib/irb/easter-egg.rb を追加するのを忘れてたので追加しています。
