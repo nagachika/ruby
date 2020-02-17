@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#add_certificate_chain_file のテストは OpenSSL 1.1.d 以降に定義しないようにしています。証明書サイズの下限が変わったためのものらしく、本当は証明書を作りなおしたいけど方法がわからないのでとりあえず skip というようなコメント。
