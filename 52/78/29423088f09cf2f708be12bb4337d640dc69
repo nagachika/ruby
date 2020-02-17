@@ -1,0 +1,1 @@
+Range リテラルの VM 命令へのコンパイル時の最適化が endless, beginless の range でも有効になるように修正しています。
