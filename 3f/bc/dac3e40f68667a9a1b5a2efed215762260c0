@@ -1,0 +1,1 @@
+e37e0bfa989bccf219e82ad7a73d415a8b7add80 で新しい OpenSSL とリンクしている時は証明書サイズの制限のため通らないテストを定義しないようにしてたのを pend を使って pending にするように変更しています。また test_fallback_scsv というテストメソッドも同様の条件で pending にしています。
