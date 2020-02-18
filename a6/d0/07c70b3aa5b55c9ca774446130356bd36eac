@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Timestamp::Request.new のテストをコメントアウトしています。 CI の CentOS 6.9 でこれがエラーになってたそうですがもう CentOS 6.9 はサポートされないので環境を消すのでその前に一時的に(green にするため)コメントアウトするとのこと。
