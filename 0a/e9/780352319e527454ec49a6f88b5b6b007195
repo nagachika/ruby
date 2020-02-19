@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol を default gem にしています。 net/protocol って net/xxx で使われてる共通のライブラリみたいな感じですが、他 net/xxx が net-xxx.gem みたいな感じで個別に gem になるのでこれも単独で gem になるんですね。(net.gem みたいにすると大きすぎますしね)
