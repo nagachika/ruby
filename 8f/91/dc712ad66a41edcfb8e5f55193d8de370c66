@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテスト test_fallback_scsv で check_supported_protocol_versions で取得したサポートされてる TLS バージョンに TLS 1.1 も 1.2 も含まれてなかったらテストをスキップするようにしています。
