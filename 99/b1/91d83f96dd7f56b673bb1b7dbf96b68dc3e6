@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Timestamp::Request#algorithm で OBJ_obj2nid() が NID_undef か NID_ccitt を返した時に ANS1 のオブジェクトを作らず nil を返すという特別扱いをしていたのをやめています。 OpenSSL::Timestamp::TokenInfo#algorithm の挙動に揃えたとのこと。
