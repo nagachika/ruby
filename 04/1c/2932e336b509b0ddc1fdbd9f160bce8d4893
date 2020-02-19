@@ -1,0 +1,1 @@
+ARGF.each_line とか each_xxx 系のメソッドからの IO オブジェクトなどへの委譲時に rb_block_call() が使われててキーワード引数への変換の警告が出てしまっていたので rb_block_call_kw() を使うように修正しています。 [ruby-core:97186] [Bug #16639]
