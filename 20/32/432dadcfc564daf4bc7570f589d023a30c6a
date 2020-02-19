@@ -1,0 +1,1 @@
+3fbcdac3e40f68667a9a1b5a2efed215762260c0 で openssl のテスト test_fallback_scsv に新しい OpenSSL を使っていたら pending するようにしていた部分を revert しています。たぶん 8f91dc712ad66a41edcfb8e5f55193d8de370c66 の条件でカバーされるようになって不要になったからかと。
