@@ -1,0 +1,1 @@
+GitHub Actions の macOS 環境で brew update してたのを brew upgrade に修正。
