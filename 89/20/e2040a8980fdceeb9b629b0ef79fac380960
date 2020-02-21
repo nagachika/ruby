@@ -1,0 +1,1 @@
+vm.c の vm_ep_in_heap_p_() という関数に static をつけています。 VM_CHECK_MODE が設定されている時だけ定義される関数なので見逃がされてたようです。
