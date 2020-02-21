@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストの teardown で Readline.special_prefixes と Readline.completion_append_character のリセットをするようにしています。複数回繰り返しテストした時の対応のため。
