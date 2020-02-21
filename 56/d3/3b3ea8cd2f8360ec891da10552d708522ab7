@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary の実装で VALUE の書き出しで CHAR_BIT が 8でない時(!)の分岐内の return が漏れてたので修正。
