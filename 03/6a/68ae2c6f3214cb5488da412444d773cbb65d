@@ -1,0 +1,1 @@
+ENV.rassoc の rdoc 用コメントで結果が "value and name" と書かれてたので、実際の配列の順序にあわせて "name and value" と修正。
