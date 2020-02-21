@@ -1,0 +1,1 @@
+win32/Makefile.sub で生成する config.h の inline のマクロ定義を C++ でない時にのみ行なうように preprocessor 分岐内に移動しています。
