@@ -1,0 +1,1 @@
+vm_method.c と mjit.h のポインタから enum へのキャストを一旦 intptr_t/uintptr_t を経由するようにしています。 clang 11 での警告抑制のためとのこと。
