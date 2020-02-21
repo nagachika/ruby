@@ -1,0 +1,1 @@
+ENV.delete_if と ENV.value? などの rdoc 用コメントの typo 修正。
