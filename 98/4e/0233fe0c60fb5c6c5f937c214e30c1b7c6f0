@@ -1,0 +1,1 @@
+GC_DEBUG というマクロの状態を GC::INTERNAL_CONSTANTS[:DEBUG] で参照できるようにして、GC_DEBUG がオンの時に Time オブジェクトの memosize_of のテストを skip するようにしています。
