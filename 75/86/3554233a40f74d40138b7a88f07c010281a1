@@ -1,0 +1,1 @@
+include/ruby/ruby.h に定義している enum ruby_rvalue_flags の trailing comma を削除しています。 C99 では許容されているけど公開ヘッダでは厳しくしようということみたいです。
