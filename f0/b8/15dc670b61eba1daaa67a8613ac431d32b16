@@ -1,0 +1,1 @@
+Symbol#to_proc で作った Proc オブジェクトが lambda? メソッドに false を返すのを修正しています。なんかこれ前もこういうチケットなかったっけ…。 [ruby-core:95418] [Bug #16260]
