@@ -1,0 +1,1 @@
+net-imap の gemspec ファイルの  version.h のパスを ruby 本体組み込みの時に対応するようにしています。
