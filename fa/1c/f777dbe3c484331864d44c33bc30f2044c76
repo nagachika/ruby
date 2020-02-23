@@ -1,0 +1,1 @@
+doc/maintainers.rdoc と doc/standard_library.rdoc の net/http のエントリも default gems のセクションに移動しています。
