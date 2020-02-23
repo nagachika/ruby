@@ -1,0 +1,1 @@
+internal.h のデバッグ用の rp() マクロ定義で __func__ を使っていたところを移植性のため RUBY_FUNCTION_NAME_STRING のほうを使うようにしています。
