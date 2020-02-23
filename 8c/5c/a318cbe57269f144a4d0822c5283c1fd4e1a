@@ -1,0 +1,1 @@
+Symbol#to_proc で作った Proc が Refinements で上書きされているメソッドの呼び出しだった時にも lambda? を true にする対応が有効になるように修正しています。 [ruby-core:95418] [Bug #16260]
