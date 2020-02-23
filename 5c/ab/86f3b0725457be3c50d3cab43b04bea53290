@@ -1,0 +1,1 @@
+f0b815dc670b61eba1daaa67a8613ac431d32b16 の Symbol#to_proc で作った Proc が lambda? に true を返すようにした変更についてのテストを追加しています。 [ruby-core:95418] [Bug #16260]
