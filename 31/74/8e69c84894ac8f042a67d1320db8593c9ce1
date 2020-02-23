@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary で f2286925f08406bc857f7b03ad6779a5d61443ae の変更の影響? で rb_call_data::ci が NULL の場合があるようになったのでそれに対処するように分岐を追加しています。
