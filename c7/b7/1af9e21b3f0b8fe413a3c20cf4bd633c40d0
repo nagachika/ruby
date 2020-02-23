@@ -1,0 +1,1 @@
+ruby-runner.c のコンパイル時(これって make runruby で起動するためのバイナリのソースだっけ?)に RUBY_INSTALL_NAME マクロを定義するコンパイラオプションを渡してビルドして、ruby-runner で環境変数 PATH を上書かないようにしています。うーん、よくわからない。
