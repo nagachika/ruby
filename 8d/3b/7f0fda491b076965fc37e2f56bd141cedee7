@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の ftp 以外の net/xxx 系の gem の同期の手順も修正しています。
