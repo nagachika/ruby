@@ -1,0 +1,1 @@
+b9007b6c548f91e88fd3f2ffa23de740431fa969 で rb_iseq_mark() に追加した MJIT を考慮した分岐を USE_MJIT が真の時だけ定義するように preprocessor の分岐を追加しています。
