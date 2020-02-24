@@ -1,0 +1,1 @@
+5b29ea0845c14092abd866ce0183c52635bade4c の変更で Symbol#to_proc で作った Proc の arity の rubyspec でのテストを調整したところを ruby_version の guard で分岐してそれぞれに宣言的に書くようにして読みやすくしています。
