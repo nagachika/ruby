@@ -1,0 +1,1 @@
+String#encode のキーワード引数 fallback に代替文字を検索させる方法として `[]` メソッドを持つオブジェクトを渡した時にうまく呼ばれない不具合を修正しています。 rb_respond_to() と rb_funcall3 に ID でなく Symbolを渡してしまっていたのを修正しているようです。 [ruby-core:97246] [Bug #16649]
