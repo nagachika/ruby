@@ -1,0 +1,1 @@
+b9007b6c548f91e88fd3f2ffa23de740431fa969 および 7ec23593746c8ccabd6c005cc34dde77d564c6c9 の再修正で jit_unit->cc_entries のメモリ確保時に ZALLOC_N() や calloc(3) を使うようにしてゼロクリアするようにしています。また NULL について rb_gc_mark() を呼ばないようにするチェック追加など。
