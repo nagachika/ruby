@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#fnmatch? の rdoc 用コメントの call-seq の戻り値が string と書かれてたのを修正しています。
