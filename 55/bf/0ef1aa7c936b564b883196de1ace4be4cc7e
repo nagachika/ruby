@@ -1,0 +1,1 @@
+make extract-gems で bundled gems を展開してパッケージを作る時に gems/bundled_gems ファイルの内容をみて展開する gem を決めるようにしています。コミットログによると make の複数ターゲットで定数の重複した宣言の警告を抑制するためとか。
