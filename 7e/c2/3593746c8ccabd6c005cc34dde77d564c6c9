@@ -1,0 +1,1 @@
+b9007b6c548f91e88fd3f2ffa23de740431fa969 のメソッドキャッシュまわりの変更で MJIT にメソッドキャッシュ情報を受け渡すために mjit_worker で実行される mjit_copy_job_handler() で ALLOC_N() を使ってしまっていて GC が行なわれる可能性があったので、その処理を mjit_copy_cache_from_main_thread() のほうに吊り出して malloc(3) を直接呼ぶように変更しています。
