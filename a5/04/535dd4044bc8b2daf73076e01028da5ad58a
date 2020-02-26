@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct のテストでただの assert を assert_respond_to を使うようにするリファクタリング。
