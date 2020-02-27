@@ -1,0 +1,1 @@
+tool/rbinstall.rb のファイル名を .gemspec から .rb に変更するのを dirname と String#gsub を使ってたのを File.basename の第2引数で拡張子指定した時の挙動を利用して簡便に書きなおしています。
