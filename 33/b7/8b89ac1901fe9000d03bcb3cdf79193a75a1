@@ -1,0 +1,1 @@
+69f377a3d62b29bc927da7fdae99bcb5e7d096fe の追加修正。 mjit_iseq_cc_entries() の呼び出しを繰り返さずに結果を使いまわすようにしています。
