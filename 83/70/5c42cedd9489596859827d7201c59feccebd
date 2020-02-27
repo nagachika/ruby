@@ -1,0 +1,1 @@
+mjit_worker.c の free_unit() で struct rb_mjit_unit の解放処理時に cc_entries の解放を追加漏れていてメモリリークしていたのを修正しています。
