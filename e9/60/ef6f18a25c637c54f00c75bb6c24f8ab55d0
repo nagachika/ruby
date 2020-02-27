@@ -1,0 +1,1 @@
+tool/rbinstall.rb の gem パッケージインストール用の class/module のリファクタリング。Gem::Package のインスタンスに Module を extend して一部の挙動を書き換えてたのを専用のクラスを定義してそれを利用するようにしています。詳細はわからないけど rubygems の変更に対して強くするためかな。
