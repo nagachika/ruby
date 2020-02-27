@@ -1,0 +1,1 @@
+tool/rbinstall.rb の bundled gem インストール時のオプションの prog_mode に渡すのを $prog_mode から $script_mode に変更しています。これもちょっとよくわからないけど意味的にこっちのほうが正統だろということみたい。
