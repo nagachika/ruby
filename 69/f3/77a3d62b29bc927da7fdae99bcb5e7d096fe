@@ -1,0 +1,1 @@
+b9007b6c548f91e88fd3f2ffa23de740431fa969 のメソッドキャッシュ実装変更の MJIT 対応で TODO になっていた jit_unit->cc_entries の参照を mjit.c の関数に切り出して構造体 struct rb_mjit_unit の宣言を mjit_worker.c の中に閉じ込めています。
