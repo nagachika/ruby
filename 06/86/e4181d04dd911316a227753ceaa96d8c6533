@@ -1,0 +1,1 @@
+66d1900423e6fb9774c2fe72dba8c2968b54d7ab の CSV のテストの MJIT 対応の再修正。古い Ruby で RubyVM::MJIT がない場合を考慮して defined? でのチェックも追加しています。
