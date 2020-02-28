@@ -1,0 +1,1 @@
+と思ったら 14f179080713012251e1faecccefebf2f33ecd86 の minitest 自体のテストでの options の設定は revert して tool/lib/minitest/unit.rb 内で MiniTest::Unit#options が返す Hash の :seed のデフォルト値を 42 にセットするようにしています。テストケースに options への設定なしで srand に特定の値が入っていることを期待していたものがあったようです。なんかそのテストが間違っているような気もするけど、そのテストっていうのが revert している minitest 自体のテストなのかなぁ。 [ruby-core:97272] [Feature #16655]
