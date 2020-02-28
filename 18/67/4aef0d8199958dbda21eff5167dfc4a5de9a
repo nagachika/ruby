@@ -1,0 +1,1 @@
+vm_insnhelper.c の callable_method_entry_p() の条件分岐を分解して、途中に VM_ASSERT() を追加して T_IMEMO 型のオブジェクト cme が期待したタイプのものかのチェックを追加しています。
