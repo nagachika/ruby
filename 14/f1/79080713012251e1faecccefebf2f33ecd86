@@ -1,0 +1,1 @@
+7c1553e91db07fed4fed3287b50304f1c69a685d のリトライ。 tool/test/minitest/metametameta.rb の MetaMetaMetaTestCase で setup で --seed オプション自体のテスト? で srand を呼んでいるところがあったので同じ seed を options[:srand] にセットしておいて同じ値で srand 呼ぶようにしています。が、なんかそれは正しいテストになってるんだろうか…? [ruby-core:97272] [Feature #16655]
