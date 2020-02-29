@@ -1,0 +1,1 @@
+Module#include した時に receiver が Module である(Class じゃない)時にその Module をすでに include している T_ICLASS をみて include に渡した Module に対応するものがまだなければそれも追加するようにしています。要はある Module A を Module B に include した時に、既に Module B を include している Module/Class にも Module A も include された状態にするってことですね。なんか割と大きな変更のような気もしますね。 [ruby-core:61117] [Bug #9573]
