@@ -1,0 +1,1 @@
+minitest/unit のテストの実施順が MiniTest::Unit::TestCase.test_order によらず常に sorted だったのをオプションに従うようにしています。
