@@ -1,0 +1,1 @@
+test/ruby/test_module.rb で Other という Module を定義するための Proc OtherSetup というのがあるのですが、必要なのに呼んでないテストメソッドがあったようなので追加しています。実施順を変更したことで表出したんでしょうね。
