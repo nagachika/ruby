@@ -1,0 +1,1 @@
+tool/rbinstall.rb の gems/bundled_gems から gem 名とバージョン番号を切り出すのに使ってる正規表現のエスケープが漏れてた修正。 https://github.com/ruby/ruby/pull/2922
