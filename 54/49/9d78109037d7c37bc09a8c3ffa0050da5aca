@@ -1,0 +1,1 @@
+IO#ungetc の引数に nil を渡した時に単に無視するという仕様をなくして TypeError が発生するようにしています。 [ruby-core:81752] [Bug #13675]
