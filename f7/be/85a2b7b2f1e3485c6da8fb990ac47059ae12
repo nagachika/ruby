@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテスト test_readline の先頭で Readline::HISTORY.clear を追加したり Readline.completer_quote_characters= や Readline.completer_word_break_characters= に nil を渡せないので、設定前の値(復旧のための取っておいた値)が nil だったらテストを skip するようにしています。omit じゃなくていいのかな。
