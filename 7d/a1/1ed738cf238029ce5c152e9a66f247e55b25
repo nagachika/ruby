@@ -1,0 +1,1 @@
+bigdecimal, ipaddr, logger など default gem になってるライブラリの gemspec ファイルの rake への依存関係を 12.3.3 以降に更新しています。
