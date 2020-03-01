@@ -1,0 +1,1 @@
+String の casecmp や upcase/downcase のベンチマークの追加。
