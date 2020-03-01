@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick のテスト test_filehandler で :DocumentRootOptions オプションから :NondisclosureName の指定を削除しておくようにしています。テストの実行順に依存していたようです。
