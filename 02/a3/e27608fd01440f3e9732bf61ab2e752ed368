@@ -1,0 +1,1 @@
+ruby/mspec の依存している rake のバージョンを 12.3 以上に更新。 https://github.com/ruby/ruby/pull/2942
