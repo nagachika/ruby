@@ -1,0 +1,1 @@
+NotImplementedError のテスト? にプラットフォーム毎の File.lchmod のサポート有無を利用していたのを、専用の拡張ライブラリを用いたテストのほうに移植しています。 Linux の glibc で lchmod がサポートされるようになったとかで。 [ruby-core:97302] [Bug #16662]
