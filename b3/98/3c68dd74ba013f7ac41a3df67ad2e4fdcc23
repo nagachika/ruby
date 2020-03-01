@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.internal_class_of や ObjectSpace.internal_super_of で struct RBasic::klass が 0 になっているいわゆる hidden object を直接返さないようにして ObjectSpace::InternalObjectWrapper で wrap するようにしています。
