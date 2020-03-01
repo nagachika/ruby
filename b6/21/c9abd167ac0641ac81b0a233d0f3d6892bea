@@ -1,0 +1,1 @@
+f7be85a2b7b2f1e3485c6da8fb990ac47059ae12 の追加修正。 readline のテストで Readline.completion_append_character = nil での初期化を追加。これも実行順に依存しないようにするためかな。
