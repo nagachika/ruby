@@ -1,0 +1,1 @@
+NEWS にキーワード引数完全分離や Kernel#clone, Kernel#eval, Module#include、$SAFE の C API 廃止などの変更を追記しています。
