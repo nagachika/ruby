@@ -1,0 +1,1 @@
+MJIT で Fiber を使っている時に root_fiber から参照されているメソッドの JIT コンパイルしたコードがうまく保持されてなくて消されてしまい SEGV することがあったのを修正しています。 cont_init() でそのための処理をしていたんだけどこれは子 Fiber のぶんしか呼ばれないので rb_fiber_init_mjit_cont() という関数も追加して、これは mjit_init() から呼ばれていますね。てことはメインスレッドの root_fiber の時だけ問題で Thread を新規に作成した時は大丈夫だったんだろうか。 https://github.com/ruby/ruby/pull/2939
