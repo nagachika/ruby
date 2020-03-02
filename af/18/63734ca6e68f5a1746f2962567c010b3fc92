@@ -1,0 +1,1 @@
+rubyspec の C API テスト用の拡張ライブラリで RSTRING_LEN() と size_t の演算結果を int 型の変数で受けてたのを long に修正しています。
