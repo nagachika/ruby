@@ -1,0 +1,1 @@
+Kernel#require のテスト test/ruby/test_require.rb の prepare_require_path の先頭で require 'enc/trans/single_byte' を追加しています。 このライブラリが必要なんだけどこのテストでは $LOAD_PATH を空にして実行するので必要になった時にロードできないためとのこと。これもテストが実行順に依存していたということですね。
