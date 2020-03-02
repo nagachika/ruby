@@ -1,0 +1,1 @@
+pattern match の Hash pattern で最後の要素のあとにカンマを置く記法を許すようにしています。
