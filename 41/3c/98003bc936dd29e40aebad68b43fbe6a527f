@@ -1,0 +1,1 @@
+test/unit の assert_nothing_raised で意図しない例外が発生した時にそのバックトレースも表示させるようにしています。
