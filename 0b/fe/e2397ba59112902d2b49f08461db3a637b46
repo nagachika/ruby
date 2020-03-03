@@ -1,0 +1,1 @@
+$stdin.fileno のテストにデバッグのため assertion メッセージを追加しています。
