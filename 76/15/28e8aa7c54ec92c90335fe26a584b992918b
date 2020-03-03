@@ -1,0 +1,1 @@
+Pathname の class の rdoc 用コメントに write と binwrite メソッドについての参照を追記しています。
