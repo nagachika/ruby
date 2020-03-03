@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで teardown で Reline.point = 0 にリセットするようにしています。
