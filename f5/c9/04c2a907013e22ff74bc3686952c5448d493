@@ -1,0 +1,1 @@
+pattern match の Hash パターン内で改行を許容するようにしています。
