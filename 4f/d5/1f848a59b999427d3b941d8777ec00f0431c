@@ -1,0 +1,1 @@
+構造体 struct rb_callcache のメンバー共用体  aux_ の値に VALUE  v を追加して vm_cc_fill() で aux_ を 0 クリアするために利用しています。
