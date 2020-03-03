@@ -1,0 +1,1 @@
+clang の -fsanitize=undefined つきのビルドを allow_failures から消してエラーを検出するようにしています。
