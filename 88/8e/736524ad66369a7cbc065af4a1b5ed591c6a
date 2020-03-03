@@ -1,0 +1,1 @@
+GitHub Actions で working-directory の設定をすることでコマンド内で cd しなくてすむようにしています。
