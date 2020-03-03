@@ -1,0 +1,1 @@
+struct parser_params から defined, kwarg, def, class といった bit field を struct lex_flags という別の構造体に切り分けています。これこうすると構造体のサイズは増えるのかな。またこの struct lex_flags の parse.y の %union の型のひとつにして node の値として持てるようにしています。
