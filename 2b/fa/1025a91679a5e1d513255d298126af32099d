@@ -1,0 +1,1 @@
+GitHub Actions で make leaked-globals を他の make check などと並行して実行できるようにしています。
