@@ -1,0 +1,1 @@
+.travis.yml と GitHub Actions の ubuntu 版で環境の情報を表示する処理を削っています。
