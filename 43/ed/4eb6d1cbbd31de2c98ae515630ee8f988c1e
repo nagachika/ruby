@@ -1,0 +1,1 @@
+1ad9364440f6685d2df3b855f5e22f644e9f1f43 で tool/lib/leakchecker.rb に追加したデバッグ用の GC.verify_internal_consistency の呼び出しを i386-solaris のみに範囲を狭めています。
