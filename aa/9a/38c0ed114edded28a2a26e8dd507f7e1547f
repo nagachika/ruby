@@ -1,0 +1,1 @@
+91440ff13fbf3b14dc6ac6c1e0a33bc5a1e3237c の Encoding 変換時に Encoding::UndefinedConversionError が発生したらその Symbol は無視するようにしています。
