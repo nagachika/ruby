@@ -1,0 +1,1 @@
+同じくマクロ USE_TRANSIENT_HEAP=0 に定義してビルドした時にコンパイルエラーしていたようで preprocessor の分岐を追加しています。
