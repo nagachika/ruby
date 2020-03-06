@@ -1,0 +1,1 @@
+6e271e4cbbe6a8bc4d4f75dc553ce054eae7af00 と同様に GC.latest_gc_info のテストでもターゲットの GC.start の前に一度 GC.start を実行しておくようにしています。コメントないとこれうっかり重複として消してしまいそう。
