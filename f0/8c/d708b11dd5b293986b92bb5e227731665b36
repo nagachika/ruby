@@ -1,0 +1,1 @@
+net/http のテストで Net::HTTP#finish の呼び出しが漏れてたのを修正しています。
