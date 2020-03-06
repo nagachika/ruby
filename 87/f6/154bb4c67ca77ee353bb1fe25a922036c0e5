@@ -1,0 +1,1 @@
+efd641ffab34e433a8d8a7d78914576f2425aa90 の ce6caade7c57a505f73086ccd7b33c14f7715f22 で fiddle で常に ffi_prep_closure() を使うようにしたのを revert したのを revert しています。CI のエラーだったと思われるけどこの変更で Ubuntu でビルド時の警告が出るのでリトライしてみるみたいです。
