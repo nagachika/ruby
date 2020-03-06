@@ -1,0 +1,1 @@
+test/ruby/test_settracefunc.rb の setup/teardown の RubyVM::InstructionSequence.compile_option の設定と復旧に defined?(RubyVM) のチェックを追加しています。このテストは JRuby も利用しているからかな。
