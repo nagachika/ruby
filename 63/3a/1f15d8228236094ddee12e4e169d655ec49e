@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle で USE_FFI_CLOSURE_ALLOC の指定に libffi のバージョンやアーキテクチャなどいろいろ条件が書いてありましたが、シンプルに HAVE_FFI_CLOSURE_ALLOC の有無だけで分岐するように変更しています。
