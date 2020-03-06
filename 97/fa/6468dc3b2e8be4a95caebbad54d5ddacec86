@@ -1,0 +1,1 @@
+マクロ CALC_EXACT_MALLOC_SIZE を定義してビルドした時にコンパイルエラーしていたようで preprocessor の分岐を少し修正しています。
