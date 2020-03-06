@@ -1,0 +1,1 @@
+528a3a17977aa1843a26630c96635c3cb161e729 の fiddle での ffi_closure_alloc() の利用チェックを libffi のバージョンによらず mswin および mingw でも ffi_closure_allloc() があるものとして扱うようにしています。
