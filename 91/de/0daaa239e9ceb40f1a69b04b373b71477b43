@@ -1,0 +1,1 @@
+Kernel#send 経由で method_missing に委譲(っていうのかな)される場合で、メソッド名に対応する ID がまだ存在していない(そもそもその名前がまだインタプリタ内で利用されてない)時のパスで rb_execution_context_t::method_missing_reason のセットが漏れてたのを修正しています。SEGV とかはしないけど例外の種類が変わってしまってたようです。
