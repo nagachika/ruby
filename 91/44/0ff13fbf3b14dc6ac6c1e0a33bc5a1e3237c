@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::InputCompletor.retrieve_completion_data の全 Symbol のリテラル表現を文字列化する時に Symbol の Encoding を考慮して Encoding.default_external に変換しておくようにしています。あーということは、同じ文字列の Encoding 違いの Symbol を作ったりするとめんどうなことになりそう。
