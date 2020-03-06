@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb のテストでの各種リソースの leak チェックの先頭で Solaris 上でのみ GC.verify_internal_consistency を実行するようにしています。 CI のデバッグのため。
