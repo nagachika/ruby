@@ -1,0 +1,1 @@
+95f387f61a4a4ea92635da760b7de5b1e09bb84e の fiddle の extconf.rb で ffi_closure_alloc() の存在チェックを同梱されてる libffi を使う時に省略する変更を revert して libffi のバージョンを元にして判定するように変更しています。
