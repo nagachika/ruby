@@ -1,0 +1,1 @@
+f5c904c2a907013e22ff74bc3686952c5448d493 の hash pattern の変更で struct lex_flags::kwarg の復帰が漏れていたのを修正しています。
