@@ -1,0 +1,1 @@
+20a2ab0825b7e441e303002f0feeb1b643198ffc で parse.y の struct parser_params から切り出した struct lex_flags を struct lex_context と改名しています。またメンバー名にも "in_" という prefix を追加しています。
