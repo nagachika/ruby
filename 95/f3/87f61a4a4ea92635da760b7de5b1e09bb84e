@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の execonf.rb でバンドルされている libffi を使う場合は ffi_closure_free() が定義されていることはわかっているので have_func() を使わずに直接 -DUSE_FFI_CLOSURE_ALLOC=1 をコンパイラオプションに追加するようにしています。
