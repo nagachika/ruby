@@ -1,0 +1,1 @@
+43ed4eb6d1cbbd31de2c98ae515630ee8f988c1e で対象を i386-solaris に絞った tool/lib/leakchecker.rb のデバッグ用コードをさらにテスト名に TestGem が含まれる時だけに絞っています。
