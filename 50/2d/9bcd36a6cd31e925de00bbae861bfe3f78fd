@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストで Fiddle::Function.new に渡すポインタを "rb_obj_frozen" という関数名で取り出してたのを rb_obj_frozen_p に修正しています。こんな名前存在してなかったと。なんでエラーにならなかったんだろう。TypeError を rescue してたから遮蔽されてたのかな。
