@@ -1,0 +1,1 @@
+win32/Makefile.sub で生成する config.h でマクロ _INTEGRAL_MAX_BITS を定義する時に #ifndef で既に定義済みなら上書きしないようにしています。 mswin では同名のマクロが定義済みのようなのでその警告抑制のためとのこと。
