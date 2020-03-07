@@ -1,0 +1,1 @@
+標準添付ライブラリ pp のテストで RubyVM::AbstractSyntaxTree を利用しているものがあるので CRuby 以外の実装の対応のため defined?(RubyVM)  でチェックしてから定義するようにしています。
