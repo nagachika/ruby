@@ -1,0 +1,1 @@
+FreeBSD  12 と RHEL 8 では MJIT のテストは skip するようにしています。
