@@ -1,0 +1,1 @@
+87ad5ea729735ff6b8f1ac0bb3aad2aedd6f716e の追加で FreeBSD 12 と RHEL 8 での MJIT のテストの skip を test/lib/jit_support.rb の JITSupport.supported? メソッドの実装に移動することで全ての MJIT を使うテストに影響するようにしています。
