@@ -1,0 +1,1 @@
+Thread を新規作成する時に sigaltstack を確保するために xmalloc() を呼び、そこでGCが発生してしまうとまだ ruby のThread として動くための準備が完了していないので abort が発生してしまうという不具合があったので、このメモリ領域の確保を rb_register_sigaltstack() の中から rb_allocate_sigaltstack() にまで釣り出して引数で渡すようにしています。
