@@ -1,0 +1,1 @@
+Prime に Module#include? を呼び出すと無限ループ状態に陥る(おそらく Prime に Enumearble が include されていて、Prime#each が素数をどこまでも数え上げるため)のを回避するため Prime#include? メソッドを定義して引数が Integer の時は prime? に委譲して、Module だった場合は Module#include? を UnboundMethod を取り出して bind することで呼ぶようにして回避しています。 [ruby-core:64546] [Bug #10167]
