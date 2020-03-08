@@ -1,0 +1,1 @@
+e91c39f1c0f7d5e670266d9593d533fd444957f6 で safe level の操作の C API を消した時に rb_check_safe_obj() の宣言を include/ruby/ruby.h から削除しています。
