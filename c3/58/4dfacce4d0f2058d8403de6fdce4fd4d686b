@@ -1,0 +1,1 @@
+4c019f5a626523e99e2827ed917802e3097c380d の変更によりすでに st_table 実装に切り替わってる Hash オブジェクトに対して ar_try_convert_table() を呼ぶ場合がでてきて、この中で array hash 実装であることをチェックする assertion のあるマクロが使われているので、その前に RHASH_AR_TABLE_P() でチェックして既に st_table だったらすぐ return するようにしています。
