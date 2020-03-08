@@ -1,0 +1,1 @@
+Kernel#global_variables の rdoc 用コメントと doc/syntax/miscellaneous.rdoc の defined? の説明に正規表現のマッチ後の thread local な特殊変数の扱いについて追記しています。global_variables は $1 とかは含まないんですね。 [ruby-core:69731] [Bug #11304]
