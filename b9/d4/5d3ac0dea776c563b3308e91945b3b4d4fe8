@@ -1,0 +1,1 @@
+.travis.yml にもエラー時の Slack? (secure 化されてて URL はわからない)通知を追加しています。
