@@ -1,0 +1,1 @@
+tool/rbinstall.rb の修正。 Gem.ensure_gem_subdirectories への mode 引数の渡しかたの間違い(キーワード引数/オプション引数としてでなく通常の引数として渡す)や Gem.default_specifications_dir を利用するようにするリファクタリングなど。 https://github.com/ruby/ruby/pull/2930
