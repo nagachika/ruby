@@ -1,0 +1,1 @@
+C APIのテスト test/-ext-/string/test_normalize.rb で文字列リテラルを split して使ってたところを %W による配列リテラル記法を使うように書き直しています。
