@@ -1,0 +1,1 @@
+90de118a75921a08497b41de2950971073b3c924 で tool/downloader.rb で Unicode 関連のデータファイルをダウンロードするのに https を使うと mswin でエラーになるので http を使うようにしていたのを再度 https を利用するようにしています。 [ruby-core:83074] [Bug #13962]
