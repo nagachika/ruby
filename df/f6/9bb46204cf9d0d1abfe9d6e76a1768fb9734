@@ -1,0 +1,1 @@
+hash.c の hash_iter_lev_inc() で struct RBasic::flags にセットするビットフラグの演算で int の変数をそのまま使ってたところがあったので VALUE に明示的にキャストして符号なしにするように修正しています。
