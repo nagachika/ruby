@@ -1,0 +1,1 @@
+拡張ライブラリ digest の ext/digest/digest_conf.rb というファイル(コメントによると openssl の extconf.rb からコピーしてきたらしい)で openssl の deprecation.rb というライブラリというかツール? に依存していたのをやめてOpenSSL.check_func のかわりに mkmf の通常の have_func を利用するようにしています。コミットログによるとこの deprecation.rb は macOS の古い OpenSSL をリンクしないようにするためのもので、もうこの考慮は不要になったとのこと。 https://github.com/ruby/openssl/pull/333 [ruby-core:44755] [Bug #6379]
