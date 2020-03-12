@@ -1,0 +1,1 @@
+9511b4c8facf583073ed8ecfd3d84710565572a6 と同様に tool/ruby_vm/views/_mjit_compile_send.erb で生成する C コード内での call cache のチェックで vm_cc_valid_p() を呼ばずに生成時に呼んでおいたポインタをそのまま埋め込むようにしています。このために rb_iseq_mark() で vm_cc_cme() の結果も  rb_gc_mark() を呼んで pin down しておくようにしています。
