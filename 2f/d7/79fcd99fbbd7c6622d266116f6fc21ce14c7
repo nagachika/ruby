@@ -1,0 +1,1 @@
+rubyspec  OpenSSL::Config のテストに openssl のバージョンによる guard を追加しています。
