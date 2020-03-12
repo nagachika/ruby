@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP.get メソッドで引数のヘッダーを指定する Hash を渡せるようにしています。第1引数を URI オブジェクトにして第2引数に渡すことで使えるようですね。 https://github.com/ruby/ruby/pull/2957 [ruby-core:97444] [Feature #16686]
