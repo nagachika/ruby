@@ -1,0 +1,1 @@
+gc.c の rb_raw_obj_info() で T_IMEMO 型で imemo_ment (メソッドエントリ)の時の表示で ISeq のポインタを表示していたのを obj_info() で文字列として %s で埋め込むようにしています。
