@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_send.erb で生成する C コード内の call cache のチェックで  struct rb_call_data::cc との比較をしているところは GC.compact 対策で導入されていて、call cache のオブジェクトは pin されているのでもう不要ということで削っています。パフォーマンスのためのようです。
