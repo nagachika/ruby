@@ -1,0 +1,1 @@
+Time.at のタイムゾーンを指定する in キーワード引数についての rdoc 用コメントのサンプルに整数や tzinfo の TZInfo::DataTimezone のインスタンスを渡す例を追加しています。
