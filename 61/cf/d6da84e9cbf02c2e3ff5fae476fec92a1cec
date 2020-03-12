@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の openssl の同期時のディレクトリ構成の対応を変更しています。
