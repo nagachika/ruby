@@ -1,0 +1,1 @@
+parse.y のルールで keyword splat の引数渡しの有無の差を吸収する f_any_kwrest や p_any_kwrest といったルールを追加してルールの記述をシンプルにしています。
