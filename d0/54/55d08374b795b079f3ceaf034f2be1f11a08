@@ -1,0 +1,1 @@
+ec78b8b62a84fd57eb93d7b5de5b83ea517ad7c4 の rb_raw_obj_info での imemo_ment の表示時に obj_info() に渡す引数を VALUE 型に明示的にキャストするようにしています。
