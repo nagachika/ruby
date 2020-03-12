@@ -1,0 +1,1 @@
+b9007b6c548f91e88fd3f2ffa23de740431fa969 のメソッドキャッシュの実装の変更の修正。よくわかってないですがメソッドキャッシュをクリアする時に METHOD_ENTRY_COMPLEMENTED() が真の時の分岐を追加しています。 method entry の complement は r52614 あたりでメソッドエントリの参照数を導入して Module を include した時に参照されてるのがわかるようにするためのもので、Module の m_tbl にメソッドエントリを追加しないようにするためとのこと。 [ruby-core:97334] [Bug #16669]
