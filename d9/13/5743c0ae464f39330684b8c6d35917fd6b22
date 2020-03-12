@@ -1,0 +1,1 @@
+VMDEBUG を定義した時の RubyVM.mtbl というメソッドと同様のデバッグ用メソッド RubyVM.mtbl2 を追加しています。引数のクラスの mtbl でなくその引数自体の mtbl をダンプするもの。ただ mtbl の定義(rb_define_singleton_method()) が重複してしまっていますね。
