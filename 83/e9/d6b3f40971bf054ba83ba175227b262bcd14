@@ -1,0 +1,1 @@
+Object#clone の実装で使われる mutable_obj_clone() で init_clone メソッドを呼び出す時にキーワード引数の委譲に RB_PASS_CALLED_KEYWORDS を付けてたのを RB_PASS_KEYWORDS にしています。RB_PASS_CALLED_KEYWORDS だと rb_keyword_given_p() によるチェックでキーワード引数として渡したいのに false になっちゃう可能性があるから?
