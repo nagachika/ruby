@@ -1,0 +1,1 @@
+GitHub Actions での make test-bundler の対応のため default gem の gemspec ファイル内で spec.files の設定のため git ls-files を利用しているところで標準エラー出力を /dev/null にリダイレクトするようにしています。
