@@ -1,0 +1,1 @@
+rb_iseq_mark() の mjit_iseq_cc_entries() の領域を mark する処理を mjit_mark_cc_entries() という関数に切り出して mjit.c に追加しています。
