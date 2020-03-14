@@ -1,0 +1,1 @@
+make gems/xxx.gem のようなターゲットで個別に bundled gem 更新できるようにしています。
