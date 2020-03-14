@@ -1,0 +1,1 @@
+make prepare-gems というターゲットを追加してここで bundled gems の .gem ファイルダウンロードと展開を行うようにしています。
