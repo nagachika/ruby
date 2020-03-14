@@ -1,0 +1,1 @@
+そして make update-gems が refresh-gems から切り出されたたためその前の update-bundled_gems の完了まで待つように defs/gmake.mk での依存関係の調節を修正しています。今更ながら(既に類似のことはやられている)この defs/gmake.mk での同時に実行されるターゲットによって依存関係を動的につけるのすごいな。
