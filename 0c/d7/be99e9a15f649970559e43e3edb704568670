@@ -1,0 +1,1 @@
+構造体 struct compile_status から cc_entries メンバーで call cache の位置を指すのをやめて cc_entries_index というインデックスで参照するようにしています。 4bcd5981e80d3e1852c8723741a0069779464128 の変更時に call cache の領域を root iseq に統合しましたが、ポインタで持っていると指している root iseq 内のバッファが realloc(3) で確保しなおされた時に不正な領域を指したままになってしまう可能性があったため。
