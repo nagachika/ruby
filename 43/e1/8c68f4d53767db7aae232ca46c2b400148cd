@@ -1,0 +1,1 @@
+8562bfd1501a69aa736ba4f699a77940b2cdd9b1 で切り出した mjit_mark_cc_entries() で body->jit_unit->cc_entries の要素を舐める時のループを回す数を子 ISeq のぶんも含めた body->jit_unit->cc_entries_size のほうを使うように修正しています。
