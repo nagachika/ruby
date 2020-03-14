@@ -1,0 +1,1 @@
+よくわかりませんが compile.c に OpenBSD でのみ STRICT_ALIGNMENT マクロを定義する preprocessor 分岐を追加しています。
