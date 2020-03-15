@@ -1,0 +1,1 @@
+GitHub Actions の make check 前に bundled gems を準備するのに 289bdb64d97a4a7eb626ce6ebc4e609d4bdc0ee0 で追加した make prepare-gems を利用するようにしています。
