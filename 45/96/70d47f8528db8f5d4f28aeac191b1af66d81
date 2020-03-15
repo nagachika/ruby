@@ -1,0 +1,1 @@
+make install の依存関係に pre-install-gem や post-install-gem を追加して make update-gem を明示的に実行しなくても良いようにしています。
