@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で StringIO の Encoding を引数が1つだけ(文字列)渡されていたらその Encoding を利用するようにしています。あれ、これまでそうじゃなかったのかな。チケットをみると Encoding.default_internal に影響されてしまっていたという不具合のようです。 [ruby-core:96758] [Bug #16497]
