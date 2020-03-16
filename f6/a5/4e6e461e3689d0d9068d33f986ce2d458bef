@@ -1,0 +1,1 @@
+debug counters に MJIT 用の新しいカウンタ mjit_unload_units を追加して mjit_exec_not_added_add_iseq は mjit_add_iseq_to_process と改名してMJIT 無効時に行なわないようにカウントアップする位置もちょっと変更しています。
