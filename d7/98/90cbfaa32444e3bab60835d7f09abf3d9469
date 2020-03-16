@@ -1,0 +1,1 @@
+70fd099220446e39bb80eb0bb32870ce12134619 で追加した debug counters の値を実行途中で表示する RubyVM.show_debug_counters メソッドを呼び出したらプロセス終了時のダンプを off にするようにしています。
