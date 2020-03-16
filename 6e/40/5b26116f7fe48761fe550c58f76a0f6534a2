@@ -1,0 +1,1 @@
+cecebf55c476ae936f3e880477dfb62149143c46 のリトライ。 compact_all_jit_code() で新しく作った関数 sprint_funcname() に渡す引数を間違えていたようです。
