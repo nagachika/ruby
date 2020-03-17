@@ -1,0 +1,1 @@
+proc.c の rb_block_arity() の switch 文の /* fall through */ という break がない時の警告抑制に使われるコメントが return 文のあとにあって意味がないので削っています。
