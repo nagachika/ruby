@@ -1,0 +1,1 @@
+21994b7fd686f263544fcac1616ecf3189fb78b3 の Hash#transform_values の高速化のための変更が write barrier を削ってしまったため GC で SEGV する恐れがあったので再度 write barrier を追加しています。 また rb_hash_stlike_foreach_with_replace() のコールバックに渡す引数も transform_values_foreach_replace() に渡した時に write barrier を入れるために使われるのでコピー先の Hash オブジェクトを渡すように修正しています。これを 0 にしてたのはわざとだったのかな。 [ruby-core:97449] [Bug #16689]
