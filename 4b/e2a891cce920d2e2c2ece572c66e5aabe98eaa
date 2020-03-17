@@ -1,0 +1,1 @@
+bundler が rubygems のリポジトリに統合されたようで、tool/sync_default_gems.rb の同期元や同期するときのディレクトリ構成の対応の修正をしています。 また doc/maintainers.rdoc の bundler のリポジトリの URL も修正しています。
