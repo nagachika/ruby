@@ -1,0 +1,1 @@
+stringio の e257c08f2ec27e2d66cdfa7e2415deb492522e22 の修正についてのテスト追加と StringIO::VERSION による rubyspec の分岐を追加しています。 [ruby-core:96758] [Bug #16497]
