@@ -1,0 +1,1 @@
+tool/rbinstall.rb の RbConfig::CONFIG の "sitelibdir" と "vendorlibdir" が存在する時だけこれらの設定を利用するようにしています。チケットをみると configure に --with-sitedir, --with-sitearchdir, --with-vendordir, --with-vendorarchdir などのオプションに no を渡した時に期待したように動かないという問題があったようです。 [ruby-dev:49628] [Bug #12392]
