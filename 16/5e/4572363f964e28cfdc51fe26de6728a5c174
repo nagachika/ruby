@@ -1,0 +1,1 @@
+290d608637e37323bb6eeda1b1466519f16308a5 の Kernel#clone の ruby 化時に追加した freeze の値をチェックする関数 obj_freeze_opt() は freeze_opt() からも呼ばれてましたが、こっちではまだ C 実装なので明示的な引数の指定がなく Qundef が入っている場合があるのでそれに対応するようにしています。
