@@ -1,0 +1,1 @@
+Hash#to_proc で作った Proc オブジェクトは lambda? には false を返すのに、実際に call する時には複数の引数を渡すと  ArgumentError が発生していたので実態にあわせて lambda? が true を返すように修正しています。 [ruby-core:76846] [Bug #12671]
