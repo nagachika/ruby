@@ -1,0 +1,1 @@
+Kernel#clone の実装を builtin function 呼び出しを利用した ruby 実装に移植しています。
