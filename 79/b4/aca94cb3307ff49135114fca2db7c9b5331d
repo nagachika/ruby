@@ -1,0 +1,1 @@
+test/ruby/test_jit_debug.rb で toplevel return でテストクラス自体の定義をスキップする条件に mswin 版も追加しています。
