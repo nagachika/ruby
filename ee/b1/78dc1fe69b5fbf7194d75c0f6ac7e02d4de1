@@ -1,0 +1,1 @@
+a833eb29f7eaced61919b7ed19e830a3905e8a8b に続いて arm64-linux も travis.yml で allow_failures に追加しています。
