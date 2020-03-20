@@ -1,0 +1,1 @@
+vm_core.h と builtin.h でそれぞれ rb_execution_context_t の typedef があって再定義になってしまっていたのでマクロ定義するようにして重複した typedef しないように preprocessor 分岐を追加しています。
