@@ -1,0 +1,1 @@
+.travis.ylm の allow_failures のリストに arm32-linux を追加しています。 [ruby-core:97540]
