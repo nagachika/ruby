@@ -1,0 +1,1 @@
+RUBY_INTEGER_UNIFICATION という Fixnum と Bignum のクラスを Integer に統合した時にそれを拡張ライブラリから判定できるようにするために追加したマクロで分岐していたところが本体にも残っていたので削除しています。
