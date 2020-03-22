@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の extconf.rb で libffi のバージョンを Kernel#warn で表示するのを ver が定義されている時だけにしています。同梱している libffi を使う時と pkg-config でバージョン指定があった時、かな?
