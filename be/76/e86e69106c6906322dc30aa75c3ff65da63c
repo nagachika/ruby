@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで TCPSocket を wrap して作った OpenSSL::SSL::SSLSocket で TCPSocket のほうを先に close してから OpenSSL::SSL::SSLSocket#close を呼んでもエラーにならないことを確認するテストで、close 自体は大丈夫だけどダミーサーバー内で read しているところが OpenSSL::SSL::SSLError を発生させてしまうことがあるので、start_server にキーワード引数 server_proc で OpenSSL::SSL::SSLError を無視させるメインループ実装を渡してそれを抑制するようにしています。
