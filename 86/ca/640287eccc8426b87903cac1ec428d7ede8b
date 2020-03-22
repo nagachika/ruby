@@ -1,0 +1,1 @@
+f132825ffa1c225b0055ce6b0aa0d8428fba2623 で Travis-CI で apt-add-repository がタイムアウトするからということで IPv6 を無効化するために追加した tool/travis_disable_ipv6.sh というツールを削除しています。 Travis-CI 側で対処がされたとのこと。
