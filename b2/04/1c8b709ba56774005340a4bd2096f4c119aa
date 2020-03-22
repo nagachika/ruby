@@ -1,0 +1,1 @@
+RbConfig.fire_update! の rdoc 用コメントの typo 修正。tool/fake.rb で使っている依存先にも変更を伝播させるためのメソッドですね。
