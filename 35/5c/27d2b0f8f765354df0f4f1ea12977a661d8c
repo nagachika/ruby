@@ -1,0 +1,1 @@
+bundled gem の power_assert を 1.1.7 に更新しています。make test-bundled-gems の失敗対策とのこと。
