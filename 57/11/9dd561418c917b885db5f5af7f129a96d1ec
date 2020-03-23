@@ -1,0 +1,1 @@
+tool/run_without_tabs.rb というツールを追加して自動生成した rb_mjit_header.h のタブを展開するようにしています。gdb などを使う時にタブが表示をじゃまするからみたい。 [Misc #16112]
