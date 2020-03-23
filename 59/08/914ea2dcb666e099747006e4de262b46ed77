@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の timeout のテストで使う Net::HTTP#open_timeout の基本値(RUBY_TEST_SUBPROCESS_TIMEOUT_SCALE の影響を与える前)を 0.1 から 1 に増やしています。 OpenCSW Sparc Solaris 10 でタイムアウトしてしまうとのこと。 RUBY_TEST_SUBPROCESS_TIMEOUT_SCALE を 20 にしても足りなかったので基本値のほうを伸ばしたみたいです。
