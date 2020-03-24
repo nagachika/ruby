@@ -1,0 +1,1 @@
+大量の Fiber をつくるテスト test_many_fibers_with_threads のタイムアウトを 60秒から 180秒に延ばしています。 Solaris 11 で時間がかかるのでたまにひっかかるのを避けるため。
