@@ -1,0 +1,1 @@
+57119dd561418c917b885db5f5af7f129a96d1ec の rb_mjit_header.h のタブを展開する変更のリトライ。展開不要なファイルを skip するようにしたのと Encoding を force_encoding で UTF-8 にそろえるようにしたのが違いかな。 https://github.com/ruby/ruby/pull/2975 [ruby-core:94428] [Misc #16112]
