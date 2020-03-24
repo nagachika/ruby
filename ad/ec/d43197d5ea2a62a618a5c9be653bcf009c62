@@ -1,0 +1,1 @@
+alias で作られたメソッドに対する alias を作った時に Write Barrier をきかせる先の Module/Class が間違っていた不具合を修正しています。 https://github.com/ruby/ruby/pull/2721
