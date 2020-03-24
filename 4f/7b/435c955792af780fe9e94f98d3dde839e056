@@ -1,0 +1,1 @@
+Object#clone のデフォルト値を true から nil に変更して、デフォルトでは receiver の freeze 状態を引き継ぐようにしています。言われてみればそのオプションはなかったのか。 [ruby-core:95021] [Feature #16175]
