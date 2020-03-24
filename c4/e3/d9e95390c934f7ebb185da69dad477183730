@@ -1,0 +1,1 @@
+tool/run_without_tabs.rb で include/ruby/ruby.h も展開対象にするようにしています。
