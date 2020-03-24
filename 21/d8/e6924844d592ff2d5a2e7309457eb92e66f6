@@ -1,0 +1,1 @@
+bootstraptest/test_thread.rb の Thread を大量に作って上限に達した時のテストを一時的に実行しないようにしています。 Debian 9 の CI? でリソースを食い尽してしまうそうなのでデバッグのため?
