@@ -1,0 +1,1 @@
+9ebf74fd7843c34eda59f228fc34ab73f2cc458d で再追加した tool/run_without_tabs.rb で Encoding の変換エラーをひとまず無視させるようにしています。
