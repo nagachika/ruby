@@ -1,0 +1,1 @@
+tool/mjit_tabs.rb を実行するのに BASERUBY でなく miniruby を利用するようにしています。 BASERUBY なしの環境でのビルドに対応するため。
