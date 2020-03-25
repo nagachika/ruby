@@ -1,0 +1,1 @@
+bundled gem rss のテストを通すために rexml が必要とのことで test-bundled-gems-prepare でインストールする gem に追加するようにしています。 https://github.com/ruby/ruby/pull/2976
