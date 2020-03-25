@@ -1,0 +1,1 @@
+d578f1d3ea317ef8d899d0fd9a4440ba67821d17 で rb_mjit_header.h のタブ展開のために追加した common.mk の MJIT_WITHOUT_TABS という変数を configure のオプションで指定可能にしています。
