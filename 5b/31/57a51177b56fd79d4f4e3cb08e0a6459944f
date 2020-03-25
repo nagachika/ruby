@@ -1,0 +1,1 @@
+tool/mjit_without_tabs.rb をふたたび tool/mjit_tabs.rb という名前に改名しています。また common.mk の変数名なども変更しています。
