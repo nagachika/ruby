@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストで Process.clock_gettime を呼び出す回数を増やしています。 Process.clock_gettime の返す値が rubyspec の Process.clock_getres の10倍で割り切れないことがあるということを確認していますが、10000個だとたまたま失敗してしまうことがあるので1桁増やしています。
