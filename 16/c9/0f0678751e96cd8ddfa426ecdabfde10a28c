@@ -1,0 +1,1 @@
+拡張ライブラリ digest のテストの sleep しているところを EnvUtil.apply_timeout_scale を通すようにして環境変数 RUBY_TEST_TIMEOUT_SCALE やオプションによる倍率がきくようにしています。
