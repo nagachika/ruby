@@ -1,0 +1,1 @@
+RbConfig.expand というメソッドを呼ぶと RbConfig::CONFIG の内容が変数展開結果で置換するので macOS で RbConfig::CONFIG["SDKROOT"] という項目に ENV から取得した文字列を入れていると freeze されているためエラーになるそうで、文字列展開する式を埋め込んだ文字列を入れておくようにしています。dup しないのは expand 時点での環境変数を反映させるためかな。 [ruby-core:97585] [Bug #16738]
