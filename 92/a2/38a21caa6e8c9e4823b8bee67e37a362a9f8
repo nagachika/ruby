@@ -1,0 +1,1 @@
+標準添付ライブラリ URI の schema として WebSocket の ws を追加して ws://〜 のような URI を処理できるようにしています。
