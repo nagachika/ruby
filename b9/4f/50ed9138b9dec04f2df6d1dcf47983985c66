@@ -1,0 +1,1 @@
+92a238a21caa6e8c9e4823b8bee67e37a362a9f8 で追加した URI::WS のテストに利用している "net/http" の require を追加しています。
