@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で may_req_ambiguous_char_width というメソッドで、出力が端末の時に文字幅を検出するために Unicode の U+25BD (WHITE DOWN-POINTING TRIANGLE。"▽" こんな文字)を出力する処理で Encoding::UndefinedConversionError が発生した時の対応を追加しています。
