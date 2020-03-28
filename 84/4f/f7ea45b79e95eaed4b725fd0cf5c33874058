@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::RFC2396_Parser、URI::RFC3986_Parser の処理を URI.for というメソッドに切り出して共有するようにするリファクタリング。
