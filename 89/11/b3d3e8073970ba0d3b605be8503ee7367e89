@@ -1,0 +1,1 @@
+9339a7d9d48fe5f7ed86b51a7a96e931742f8091 で追加した yamatanooroti.gem を使ったテストの LoadError を rescue しているところで、ruby リポジトリ内では通常実行されない旨コメントを追記しています。
