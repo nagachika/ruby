@@ -1,0 +1,1 @@
+appveyor.yml に git config でユーザー情報を登録するコマンドを初期化ステップに追加しています。 https://github.com/ruby/ruby/pull/2983
