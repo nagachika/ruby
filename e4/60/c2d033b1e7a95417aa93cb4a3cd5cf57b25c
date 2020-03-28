@@ -1,0 +1,1 @@
+lib/uri.rb の uri/ 配下のファイルをロードするための require を require_relative に変更しています。
