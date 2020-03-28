@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストに yamatanooroti という gem があったらそれを利用した端末テストを追加しています。 yamatanooroti って端末のテスト専用のライブラリっぽいですね。
