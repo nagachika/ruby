@@ -1,0 +1,1 @@
+rubyspec の RbConfig::CONFIG のテストで make install されていないと通らないものを windows でのみ除外していたのを RbConfig::TOPDIR の有無で判定する guard に書き換えています。
