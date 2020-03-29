@@ -1,0 +1,1 @@
+7072e0324ec7c083c46b7e6f566efa6a74206a07 で guard を書き換えた rubyspec の RbConfig::CONFIG のテストですが、やっぱり Windows を除外するのも必要だったようなのでそれも復活させています。
