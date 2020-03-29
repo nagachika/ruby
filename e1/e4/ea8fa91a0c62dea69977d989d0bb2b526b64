@@ -1,0 +1,1 @@
+File.open で第2引数 mode にビットフラグとして File::BINARY を渡す呼びかたで Windows 環境でちゃんとバイナリモードになっていなかった不具合を修正しています。 [ruby-core:97582] [Bug #16737]
