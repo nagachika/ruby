@@ -1,0 +1,1 @@
+bundled gems のパッケージ展開に RUNRUBY (miniruby)を使うようにしていたのを BASERUBY を利用するように変更しています。
