@@ -1,0 +1,1 @@
+7072e0324ec7c083c46b7e6f566efa6a74206a07 で guard を書き換えてた rubyspec の RbConfig::CONFIG のテストを libdir が RbConfig::CONFIG['libdirname'] によって別の名前が指定されているケースを考慮するようにしています。
