@@ -1,0 +1,1 @@
+rubyspec の C API rb_rescue2() のテストが CI で SEGV を起こしているとのことで一時的に実行しないようにしています。
