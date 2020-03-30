@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in に gnumake = yes という変数宣言を追加しています。
