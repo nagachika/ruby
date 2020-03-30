@@ -1,0 +1,1 @@
+irb の RubyLex クラスで JRuby では requre "jruby" するようにしています。 JRuby の JRuby.compile_ir という機能を利用するためこの require が必要なようです。
