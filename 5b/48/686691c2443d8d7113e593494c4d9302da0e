@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres についてのテストを消しています。ほとんどのプラットフォームで Process.clock_getres が正しい値を返してくれないから、とのこと。 [ruby-core:97609] [Bug #16740]
