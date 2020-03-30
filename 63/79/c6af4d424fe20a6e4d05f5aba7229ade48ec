@@ -1,0 +1,1 @@
+rubyspec の別実装向けのテストみたいなのがあるみたいですが、そこで  simulate_ruby_engine "jruby" というメソッドを使ってるテストのひとつを MRI の時に skip するようにしています。
