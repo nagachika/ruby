@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 版で TMPDIR, PATH などの環境変数? にセットするパスの相対パスを修正しています。
