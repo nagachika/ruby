@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/source_local.rb というファイルを削除しています。既に deprecated になっていて require しても警告が出るだけのファイルだったみたいなので、もう不要だしそもそも壊れてるということみたいです。
