@@ -1,0 +1,1 @@
+rubygems の Gem::DependencyInstaller#find_gems_with_sources というメソッドを削除していたのを revert して復活させています。来年まで? 消すのを延期するとのこと。
