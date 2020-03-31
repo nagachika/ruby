@@ -1,0 +1,1 @@
+0c2d81dada88b5a3946c3162187df4223bfe6b4f の VM 終了時の処理をリファクタリングした時に TracePoint の RUBY_INTERNAL_EVENT_GC_EXIT イベントのフックが残るようになってしまって SEGV することがあったようなのでその修正のため rb_ec_teardown() で全 trace_func を削除するようにしています。 [ruby-core:97416] [Bug #16682]
