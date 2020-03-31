@@ -1,0 +1,1 @@
+GitHub Actions で git clone で取得する履歴が --shallow-since=yesterday で行なれていると pull request に対して実行すると履歴が足りないことがあるので --depth=50 の指定に変更しています。
