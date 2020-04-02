@@ -1,0 +1,1 @@
+拡張ライブラリ socket の BasicSocket#read_nonblock などに引数でバッファとして使う String オブジェクトを渡して、まだデータが受信してない状態で未初期化のバッファが String オブジェクトにセットされてしまうためメモリ上に残ったゴミが ruby レベルでみえてしまうという不具合の修正。脆弱性情報がこちらにまとめられています。 https://www.ruby-lang.org/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/
