@@ -1,0 +1,1 @@
+rubygems のテスト用の assert_path_exists や refute_path_exists といった assertion の定義を lib/rubygems/test_case.rb から tool/lib/minitest/unit.rb に移動しています。
