@@ -1,0 +1,1 @@
+Arm Linux の環境で Fiber の実装の coroutine に ucontext 実装ではなく独自のアセンブリ実装(arm32)を使うように configure を変更しています。
