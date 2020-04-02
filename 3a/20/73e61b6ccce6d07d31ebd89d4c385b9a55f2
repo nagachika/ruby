@@ -1,0 +1,1 @@
+rubyspec で 2.5 から FrozenError 例外クラスが導入されたのでその差異を吸収するために定義されてた frozen_error_class というメソッドを削除して、直接 FrozenError を参照するようにしています。
