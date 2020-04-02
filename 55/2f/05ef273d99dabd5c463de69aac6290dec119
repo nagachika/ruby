@@ -1,0 +1,1 @@
+ちょっとよくわからないのですが拡張ライブラリ etc の gemspec ファイルの spec.files から stub/etc.rb を削除。binary gem のサポートを切るとのこと。元々 ruby リポジトリ内の etc には当該ファイルはないですね。
