@@ -1,0 +1,1 @@
+919b175afc389f8df6a3caa05ffdd28f5fc4bfca の  etc での Struct の下の定数定義 deprecated 化を revert しています。拡張ライブラリで rb_deprecate_constant() を使うのがビルドのされかたによってはダメだったみたいです。
