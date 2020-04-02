@@ -1,0 +1,1 @@
+そして arm32 の coroutine 実装の coroutine/arm32/Context.S で .align 2 という directive などを追加しています。
