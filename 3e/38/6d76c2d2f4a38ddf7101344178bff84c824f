@@ -1,0 +1,1 @@
+musl (というか alpine) でのテストのために拡張ライブラリ fiddle の テストで arm-linux の時にライブラリの探すディレクトリの決定に /lib/arm-linug-gnuxxx がみつからなかったケースの workaround を追加しています。
