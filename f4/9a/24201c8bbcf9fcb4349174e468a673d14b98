@@ -1,0 +1,1 @@
+rubyspec に古いバージョンの ruby のサポートを切る時のために ruby_version_is の guard を編集するためのツール spec/mspec/tool/remove_old_guards.rb というのがあったみたいなんですが、このツールで置換対象の ruby_version_is や ruby_bug などの guard の検索する正規表現でマッチ対象を広げるように修正しています。
