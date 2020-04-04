@@ -1,0 +1,1 @@
+で、これが etc の定数 deprecated の最終版みたいです。 Struct の配下に追加する定数を deprecated にしています。そのための rb_deprecate_constant() の検出を extconf.rb に追加して、公開されてなかった時はあきらめてマクロでなにもしないようにしています。
