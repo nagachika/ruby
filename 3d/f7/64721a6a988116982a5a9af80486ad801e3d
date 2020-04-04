@@ -1,0 +1,1 @@
+default gem の更新を取り込むツール tool/sync_default_gems.rb で cherry-pick で upstream の commit を取り込む時に IO.popen のブロックとして read メソッドを呼び出すようにして fd の leak をさせないようにしています。なるほどー Symbol をブロック引数として渡すのが open 系でもこういうふうに使えるのか。
