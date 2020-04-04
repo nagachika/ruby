@@ -1,0 +1,1 @@
+rubyspec で platform による実行除外に guard を直で使っているところがあったので platform_is を利用するようにするリファクタリング。
