@@ -1,0 +1,1 @@
+拡張ライブラリ etc の extconf.rb で rb_deprecate_constant() を libruby.a からリンクしようとするための hack らしいですが後に revert されています。
