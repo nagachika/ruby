@@ -1,0 +1,1 @@
+GC のために mark すべき VALUE を一時的に mark_stack_t というスタック構造に追加する push_mark_stack() で T_NIL, T_FIXNUM, T_NODE などの不正なオブジェクトが追加された時に異常終了させるようにしています。
