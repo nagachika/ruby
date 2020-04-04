@@ -1,0 +1,1 @@
+03ca90c732d4e2369d907d3b1b8d641ff4345f5a で追加した bundled gem のキャッシュを共有するための make ターゲット .bundle/cache で CACHE_DIR という変数の指すディレクトリも作成しておくようにしています。
