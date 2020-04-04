@@ -1,0 +1,1 @@
+919b175afc389f8df6a3caa05ffdd28f5fc4bfca の 拡張ライブラリ etc で Struct の下に定義する定数の deprecated 化のリトライですが、また後で revert されています。
