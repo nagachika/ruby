@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::Utils#create_self_signed_cert で自己署名証明書を作成する時の extension の keyUsage という項目に digitalSignature, keyAgreement, dataEncipherment などを追記しています。コミットログによると Chrome の 75以降でサーバー証明書の keyUsage のチェックが厳密になったらしくて、WEBrick の簡易的な証明書による TLS アクセスが弾かれる? ようです。
