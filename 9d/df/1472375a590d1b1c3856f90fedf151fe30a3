@@ -1,0 +1,1 @@
+internal/variable.h で rb_deprecate_constant() の prototype 宣言を export されるシンボルの定義位置に移動しています。確か mswin などではこれが厳密に判定されるんでした。
