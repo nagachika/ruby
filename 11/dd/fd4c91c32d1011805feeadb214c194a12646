@@ -1,0 +1,1 @@
+5885550c8cb80fb8784598d3af1d90823f4f6604 の etc の extconf.rb の変更を revert。 --enabled-shared でビルドした時に動かない状態だったようです。
