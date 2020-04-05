@@ -1,0 +1,1 @@
+rubyspec の RbConfig::CONFIG のテストでライブラリのディレクトリ名を取得するための項目名自体をとってくる元を RbConfig::CONFIG["LIBPATHENV"] が "PATH" になってる(Windows を想定)かどうかで分岐するようにしています。
