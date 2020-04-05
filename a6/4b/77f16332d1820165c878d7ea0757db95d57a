@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 版でビルド時の make に V=1 を渡して verbose モードにしていたのを消しています。
