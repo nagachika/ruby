@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装化したものをISeq のバイナリにするツール tool/mk_builtin_loader.rb で rescue 節にも対応するようにしているようです。
