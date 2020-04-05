@@ -1,0 +1,1 @@
+34b0a7be0ed2fd4ca4d1d509a22964b5e61dfe34 で Windows での実行除外を復活させた rubyspec の RbConfig::CONFIG のテストですがやっぱり Windows を弾く必要ないとのことで revert しています。
