@@ -1,0 +1,1 @@
+configure.ac でも tool/ ディレクトリを指す変数 tooldir を導入しています。
