@@ -1,0 +1,1 @@
+4a6571dbc14ee4e88c12cd9931f7695077a3ee6e で aclocal.m4 を tool/m4 に移動してたのを revert しています。 rubyci で使う chkbuild が未対応だったため。
