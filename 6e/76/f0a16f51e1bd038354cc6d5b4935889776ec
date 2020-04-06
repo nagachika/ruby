@@ -1,0 +1,1 @@
+lib/.document に bundler/ 配下が指定されていたのを bundler/version* など一部のファイルのみ対象にするようにしています。 [^v] は v 以外の文字という文字クラス指定かなぁ。具体的には bundler/vendor/ や bundler/vendored_xxx を無視させたいのだと思います。
