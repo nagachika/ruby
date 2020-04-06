@@ -1,0 +1,1 @@
+tool/ruby_vm/helpers/dumper.rb および tool/ruby_vm/helpers/scanner.rb で Pathname#relative_path_from を使っているところで Windows 環境でドライブが異なる時など例外発生する可能性があるのでその場合を考慮した後置 rescue を追加しています。
