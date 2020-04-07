@@ -1,0 +1,1 @@
+include/ruby/thread_native.h のコメントの typo 修正。
