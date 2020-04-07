@@ -1,0 +1,1 @@
+同じく tool/ruby_vm/views/_mjit_compile_send.erb で生成する C コードが JIT 用に生成する C コードに埋め込む sp の変更量を計算するのに sp_inc_of_sendish() という関数を利用するようにするリファクタリング。
