@@ -1,0 +1,1 @@
+6e76f0a16f51e1bd038354cc6d5b4935889776ec の lib/.document の bundler/vendor を除外するためのルール変更を revert して lib/bundler/vendor/.document を追加して空にしておくことで除外させるように変更しています。
