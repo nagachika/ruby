@@ -1,0 +1,1 @@
+VM 用コード生成のテンプレートで pc_moved_p という変数の初期化に TRUE/FALSE マクロを使ってたのを true/false を使うようにしています。また宣言位置を tool/ruby_vm/views/_mjit_compile_pc_and_sp.erb に移動。生成後のソースコードからみて内側のスコープに狭めているんだと思います。
