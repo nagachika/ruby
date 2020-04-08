@@ -1,0 +1,1 @@
+Dir.open, Dir#initialize の実装を ruby 実装に移動して引数処理をして実際の処理を builtin function で C 関数に委譲するようにしています。
