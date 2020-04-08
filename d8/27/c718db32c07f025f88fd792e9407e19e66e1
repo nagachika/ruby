@@ -1,0 +1,1 @@
+Dir.exists? および File.exists? の rdoc 用コメントを削除しドキュメント化の対象から外すため :nodoc: タグを付けています。
