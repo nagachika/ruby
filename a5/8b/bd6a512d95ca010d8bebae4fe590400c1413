@@ -1,0 +1,1 @@
+File.exists? と Dir.exists? は typo なので exist? のほうを使うように警告を出力する時に警告のカテゴリ指定が効くように rb_warn_deprecated() を使うようにしています。
