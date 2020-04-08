@@ -1,0 +1,1 @@
+a58bbd6a512d95ca010d8bebae4fe590400c1413 の Dir.exists? と File.exists? の警告出力に rb_warn_deprecated() を使うようにした時に対象メソッド名を指定する引数を空にしていたのを修正しています。
