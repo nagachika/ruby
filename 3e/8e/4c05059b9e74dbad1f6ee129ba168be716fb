@@ -1,0 +1,1 @@
+0c131fb7ff0b927d8d7bf5824dcb19ed2efc926d と同様に net/ftp のテストで MJIT が有効な時に skip するようにしているテストで参照する前に defined? で定数 RubyVM::MJIT の存在確認するようにしています。
