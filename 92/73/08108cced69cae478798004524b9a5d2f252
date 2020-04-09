@@ -1,0 +1,1 @@
+Module#autoload によって定義された定数に対して Module#const_source_location を使うと、定義された位置じゃなくてロードするトリガーになった定数参照の位置がかえってきてたのを修正しています。 [ruby-core:97733] [Bug #16764]
