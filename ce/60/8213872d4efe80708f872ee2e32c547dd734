@@ -1,0 +1,1 @@
+variable.c の autoload_const_set() の引数を VALUE から内部で実際に使っている struct autoload_const * に変更してキャストを消しています。
