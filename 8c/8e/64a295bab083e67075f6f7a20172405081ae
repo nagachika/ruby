@@ -1,0 +1,1 @@
+win32/Makefile.sub で config.h を生成する時に _MSC_VER がビルド時の設定とずれてたらエラーにするための #error pragma で _MSC_VER を出してましたが、これは展開されなくてこのまま表示されるので消しています。
