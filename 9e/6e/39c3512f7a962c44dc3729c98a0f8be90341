@@ -1,0 +1,2 @@
+include/ruby/ruby.h を分割して大量のヘッダの集合にしています。 この include/ruby/3/xxx.h の 3 ってなんだろう。また GitHub Actions に様々なコンパイラとコンパイラオプションの組み合わせによるビルドのテストを追加しています。 https://github.com/ruby/ruby/pull/2991
+[追記]メジャーバージョンの 3 からきてるんだそうです。まだ RUBY_VERSION_MAJOR は 2 ですけど。[/追記]
