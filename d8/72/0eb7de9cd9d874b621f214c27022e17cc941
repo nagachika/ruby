@@ -1,0 +1,1 @@
+拡張ライブラリや rubyspec の C API テスト用拡張ライブラリで size_t 型や ssize_t 型、time_t 型の変数をオブジェクトに変換するのに INT2NUM() を使ってたところを SIZET2NUM() や SSIZET2NUM()、TIMET2NUM() を使うよう修正しています。
