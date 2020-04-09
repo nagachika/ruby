@@ -1,0 +1,1 @@
+標準添付ライブラリ prime の .gemspec ファイルの spec.files の更新と development dependency の削除。
