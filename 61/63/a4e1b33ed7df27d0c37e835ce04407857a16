@@ -1,0 +1,1 @@
+9e6e39c3512f7a962c44dc3729c98a0f8be90341 の include/ruby/ruby.h の分解で icc でのビルドのエラーが起きたので、GCC系や MSVC 系以外のコンパイラでの RUBY3_HAS_BUILTIN() マクロの定義に +0 を追加しています。RUBY3_TOKEN_PASTE() がからっぽに展開された時に数値として解釈されるようにするためみたいです。
