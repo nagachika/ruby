@@ -1,0 +1,1 @@
+標準添付ライブラリ English の .gemspec ファイルのバージョンを更新しています。また gem 名である spec.name は English から english に変更しています。
