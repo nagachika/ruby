@@ -1,0 +1,1 @@
+標準添付ライブラリ weakref の gemspec の spec.summary と spec.description が bundle gem で生成されるテンプレートの TODO のままだったので説明を追記しています。
