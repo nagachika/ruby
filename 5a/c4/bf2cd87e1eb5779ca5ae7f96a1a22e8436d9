@@ -1,0 +1,1 @@
+win32/setup.mak で生成する verconf.bat というバッチファイル? に MSC_VER の表示を追加しています。
