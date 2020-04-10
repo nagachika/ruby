@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb のサブコマンド up で追加の引数で更新する default gem 名の指定を受け付けるようにしています。
