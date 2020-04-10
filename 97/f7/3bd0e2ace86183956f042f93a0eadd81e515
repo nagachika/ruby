@@ -1,0 +1,1 @@
+f099bb040c26708ecdb4f5e552843717caaba70b で PW_EXPIRE2VAL() というマクロを導入して対応したのを PW_TIME2VAL() に変更して struct passwd::pw_change というメンバーでも同様の問題が起きてたのを修正しています。
