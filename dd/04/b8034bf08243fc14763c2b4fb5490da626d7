@@ -1,0 +1,1 @@
+9e6e39c3512f7a962c44dc3729c98a0f8be90341 で追加した RUBY3_CAST() というマクロを RARRAY_EMBED_LEN() や RSTRING_EMBED_LEN() で利用するようにしています。 C++ での警告抑制のためみたいです。
