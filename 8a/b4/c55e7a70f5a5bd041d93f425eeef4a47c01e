@@ -1,0 +1,1 @@
+78eec3cdc5ff0664b421e041f4f70a814542b914 の Sun C Compiler 向けの RUBY3_UNREACHABLE_RETURN() を削るのを Intel C Compiler 向けにも同じ対応を追加しています。こちらでも警告がでてビルド失敗してたようです。
