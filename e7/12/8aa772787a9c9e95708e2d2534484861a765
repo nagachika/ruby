@@ -1,0 +1,1 @@
+random.c でマクロ RUBY_UNTYPED_DATA_WARNING が未定義の時に 0 に定義しておくようにしています。Data_Wrap_Struct() に必要だったらしい。これも include/ruby/ruby.h の分割の影響?
