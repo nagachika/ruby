@@ -1,0 +1,1 @@
+internal/bits.h の MUL_OVERFLOW_FIXNUM_P() でインラインで定義する構造体の変数の初期化を追加しています。未初期化変数アクセスの警告除去。
