@@ -1,0 +1,1 @@
+d2bb2e066b5a914283dd3ea473fc1762183af013 の icc で RUBY3_UNREACHABLE_RETURN() に NULL のかわりに 0 を渡すようにしたのはやっぱりうまくいかなかったみたいで revert しています。
