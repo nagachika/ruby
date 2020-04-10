@@ -1,0 +1,1 @@
+include/ruby/3/memory.h および include/ruby/3/core/rtypeddata.h で到達しない位置の return 文のかわりにする RUBY3_UNREACHABLE_RETURN() というマクロを使ってたところが Sun C Compiler で警告が出るそうなので defined(__sun) で分岐して省略させるようにしています。ヘッダ分割の時にけっこうこういうマクロがいろいろ導入されてたようですね。
