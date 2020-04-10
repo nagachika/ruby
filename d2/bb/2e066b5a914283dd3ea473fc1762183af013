@@ -1,0 +1,1 @@
+8ab4c55e7a70f5a5bd041d93f425eeef4a47c01e でなぜか Intel C Compiler でも RUBY3_UNREACHABLE_RETURN() が警告になってたところを削るようにしてましたが、これは NULL を使ってたせいで C++ で  NULL を使うのがよくなかったとのことで一部 revert して return する値を 0 に置き換えています。もう一箇所は 0 なのにだめだったのかな。
