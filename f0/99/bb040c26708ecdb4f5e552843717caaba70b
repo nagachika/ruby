@@ -1,0 +1,1 @@
+拡張ライブラリ etc で  struct passwd::pw_expire の型が macOS では time_t の上位ビットにゴミが入るらしく(ひどい) TIMET2NUM() で変換するとおかしな値になるので macOS では int に明示的にキャストして INT2NUM() を利用するようにしています。
