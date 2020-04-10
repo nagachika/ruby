@@ -1,0 +1,1 @@
+configure で Solaris 上で Sun OpenStudio を利用している時には C++ コンパイラは利用不可とするようにしています。 C++ 用ヘッダがうまく扱かえなかったらしい。
