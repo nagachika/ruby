@@ -1,0 +1,1 @@
+昨日の 9e6e39c3512f7a962c44dc3729c98a0f8be90341 での include/ruby/ruby.h の分割後に icc のビルドが失敗したのは defined(__has_builtin) が偽になると思ったら存在してたので明示的に Intel Compiler の時は除外するようにしています。icc に __has_builtin() が追加されたものの期待したような動きをしてくれないということみたいです。
