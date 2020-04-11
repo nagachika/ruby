@@ -1,0 +1,1 @@
+include/ruby/3/assume.h で icc での警告抑制のため RUBY3_ASSUME の定義に警告番号 2261 を無視させる pragma の一緒に定義させるようにしています。
