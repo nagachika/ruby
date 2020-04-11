@@ -1,0 +1,1 @@
+9e6e39c3512f7a962c44dc3729c98a0f8be90341 の include/ruby/ruby.h のヘッダの分割で大量のヘッダファイルに分けられた影響でビルドがめっちゃ遅くなったということで、ruby/3/compiler_since.h, ruby/3/warning_push.h, ruby/3/has/attribute.h などいくつか冗長な include をしていたところを削っています。 また include/ruby/3/compiler_is.h にはファイル全体の #ifndef と #define で重複した #include で定義を省く guard を追加しています。 [ruby-core:97757] [Bug #16772]
