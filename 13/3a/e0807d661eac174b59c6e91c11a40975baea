@@ -1,0 +1,1 @@
+include/ruby/3/has/builtin.h で  RUBY3_HAS_BUILTIN___builtin_unreachable を定義する時に値を忘れてたのを修正しています。これが 6163a4e1b33ed7df27d0c37e835ce04407857a16 で +0 を追加しないといけなかった理由ですね。
