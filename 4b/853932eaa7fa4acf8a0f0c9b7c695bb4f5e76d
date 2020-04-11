@@ -1,0 +1,1 @@
+mjit_worker.c で -Wdeprecated-declarations オプションを無視させる pragma を __GNUC__ が定義されていたら効くようにしてましたが icc では __GNUC__ が定義されてるけどこのオプションは存在せずエラーになる? みたいなので preprocessor の条件に __has_warning("-Wdeprecated-declarations") も追加しています。
