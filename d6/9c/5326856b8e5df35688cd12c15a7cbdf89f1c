@@ -1,0 +1,1 @@
+Oracle Developer Studio のコンパイラの時に unreachable code の警告を抑制するために -erroff というコンパイラオプションを試すようにしています。警告抑制のための組み込み関数などはないのでオプションで unreachable code の警告を全て抑制するしかないそうです。
