@@ -1,0 +1,1 @@
+include/ruby/3/core/rstring.h で未初期化の const 修飾子をもつメンバーがあるというのが icc で警告になるので pragma でこの警告を部分的に抑制させるようにしています。
