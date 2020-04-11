@@ -1,0 +1,1 @@
+同じく C++ 用ヘッダのテストのための拡張ライブラリ ext/-test-/cxxanyargs/cxxanyargs.cpp でも警告抑制のための pragma を追加しています。
