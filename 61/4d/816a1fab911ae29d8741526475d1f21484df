@@ -1,0 +1,1 @@
+io.c の io_fwritev()、io_writev()、rb_io_writev() の argv 引数に const 修飾子を追加しています。
