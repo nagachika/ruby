@@ -1,0 +1,5 @@
+1行でメソッド定義する Endless method definition なる記法が追加されました。これ April fool のジョークとして作られたチケットだったみたいですけど本当に入ったんだ。
+>|ruby|
+def foo(x) = x * x
+||<
+のように def と代入記号で定義します。これも NEWS エントリには [EXPERIMENTAL] がつけられています。 [ruby-core:97652] [Feature #16746]
