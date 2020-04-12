@@ -1,0 +1,1 @@
+icc や Solaris で RUBY3_UNREACHABLE_RETURN() を削ってた preprocessor 分岐がおそらく 133ae0807d661eac174b59c6e91c11a40975baea で不要になったので削除しています。
