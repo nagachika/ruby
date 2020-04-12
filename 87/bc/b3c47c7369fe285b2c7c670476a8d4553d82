@@ -1,0 +1,1 @@
+6abd08c0b451b9ef9c8bcd99e58ebc7097ac9547 に続き標準添付ライブラリ prettyprint の rdoc で Fixnum を Integer に変更したところで冠詞の a → an への変更漏れ修正。
