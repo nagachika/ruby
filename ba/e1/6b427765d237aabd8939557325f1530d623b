@@ -1,0 +1,1 @@
+Dir.foreach と Dir.each_child のテストにブロックを渡さず Enumerator を返した場合のテストも追加しています。
