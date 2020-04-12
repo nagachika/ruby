@@ -1,0 +1,1 @@
+標準添付ライブラリ prettyprint (pp) の rdoc 用コメントに Fixnum というクラス名の表記が残ってたので Integer に修正しています。
