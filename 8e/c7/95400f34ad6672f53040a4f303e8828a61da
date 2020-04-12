@@ -1,0 +1,1 @@
+c9b3aa84be6577a9df8a0a1ee12715b114a10d9b の Process.clock_getres の rdoc 用コメントの変更で clock_getres(3) への言及部分が Process.clock_getres へのリンクになってしまうのを防ぐため code タグでマークアップしています。
