@@ -1,0 +1,1 @@
+Dir.entries、Dir.children、Dir.foreach、Dir.each_child などのメソッドの encoding キーワード引数を渡した時のテストを追加しています。
