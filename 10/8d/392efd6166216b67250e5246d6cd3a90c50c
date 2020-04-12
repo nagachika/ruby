@@ -1,0 +1,1 @@
+133ae0807d661eac174b59c6e91c11a40975baea の RUBY3_HAS_BUILTIN___builtin_unreachable マクロ定義と同様に RUBY3_HAS_ATTRIBUTE_xxxx のマクロ群を空で定義してたところを 1 に定義するように修正しています。
