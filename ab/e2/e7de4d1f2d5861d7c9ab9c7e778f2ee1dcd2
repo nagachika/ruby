@@ -1,0 +1,1 @@
+configure で __atomic_xxx や __sync_xxx などの atomic な操作の組み込み関数を検出する時に利用する変数に unsigned char を使ってたのを unsigned int に変更しています。 流行の RISC-V などのアーキテクチャでは unsgined char などの word 幅より狭い変数の atomic 処理には libatomic のリンクが必要なことがあるそうです。へー。
