@@ -1,0 +1,1 @@
+f22c4ff359498ab342e4b6d6feb21af6004ee270 の --help での pager 起動時に環境変数 LESS が未定義だったら -R をセットしておくようにしています。 [ruby-core:97688] [Feature #16754]
