@@ -1,0 +1,1 @@
+f22c4ff359498ab342e4b6d6feb21af6004ee270 の --help での pager 起動に直接 fork して子プロセスで exec で pager コマンド起動してたので、fork が使えない環境もサポートするため rb_io_popen() を使ってコマンド起動するようにしています。 [ruby-core:97688] [Feature #16754]
