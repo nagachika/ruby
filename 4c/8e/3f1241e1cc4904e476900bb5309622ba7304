@@ -1,0 +1,1 @@
+struct rb_scan_args_t のメンバー f_var, f_hash, f_block などは真偽値なので bool 型に変更して末尾に移動し、n_mand と argi は削除しています。これらはいらないのかなと思ったけど n_mand は n_lead+n_tail で計算でき argi はそもそも使われてなかったみたいです。
