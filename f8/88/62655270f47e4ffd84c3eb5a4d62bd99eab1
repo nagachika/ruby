@@ -1,0 +1,1 @@
+70b7304f036a55d526e3c67fe31ad3ce949ae13f の MJIT テスト skip のために Visual Studio のバージョンをチェックするメソッドで RbConfig::CONFIG['MJIT_CC'] をチェックしてたのを MJIT コンパイルを試した時のエラー出力に "x64-mswin64_120" が含まれていることをチェックするように変更しています。 AppVeyor で MJIT_CC が設定されていなかった模様。
