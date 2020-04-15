@@ -1,0 +1,1 @@
+c9b3aa84be6577a9df8a0a1ee12715b114a10d9b の Process.clock_getres の rdoc 用コメントでバグがあると追記したところで実際に問題が観測された clock の種類と OS について列挙しています。 [ruby-core:97609] [Bug #16740]
