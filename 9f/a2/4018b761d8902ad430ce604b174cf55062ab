@@ -1,0 +1,1 @@
+common.mk で ext/ripper/ripper.c を生成する時のコマンドで make を実行する時に環境変数 LANG=C を設定するようにしています。生成される y.output に日本語などが混じらないようにするためらしいです。
