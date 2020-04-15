@@ -1,0 +1,1 @@
+Hash.new や Hash.try_convert の rdoc 用コメントのサンプル追加などして説明を追記しています。
