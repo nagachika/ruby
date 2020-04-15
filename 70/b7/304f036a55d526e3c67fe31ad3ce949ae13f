@@ -1,0 +1,1 @@
+MJIT のテストで AppVeyor での Visual Studio 12.0 で precompiled header の作成がうまくいかないらしくて、テストを skip させるため VS のバージョンチェックや MJIT がちゃんと動くかの確認をするメソッドを追加しています。
