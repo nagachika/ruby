@@ -1,0 +1,1 @@
+benchmark/ ディレクトリ内の vm1_xxx と vm2_xxx の prefix を vm_xxx に統一いています。 #3028
