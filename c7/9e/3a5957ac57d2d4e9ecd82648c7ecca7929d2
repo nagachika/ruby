@@ -1,0 +1,1 @@
+Regexp#match と String#match の rdoc 用コメントの call-seq にブロックを渡したケースについて追記しています。
