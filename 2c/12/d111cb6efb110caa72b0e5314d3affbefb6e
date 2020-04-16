@@ -1,0 +1,1 @@
+iseq_setup_insn() で debug_level 5以上で ISeq compile した時に iseq_insert_nop_between_end_and_cont() の呼び出し後にも ISeq の disassemble 結果を表示させるようにしています。
