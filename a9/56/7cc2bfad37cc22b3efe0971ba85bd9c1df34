@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile の debug_level というキーワード引数についてのテストを追加しています。あー compile.c の debeg_devel って ruby そのもののビルド時じゃなくて ISeq のコンパイル時のオプションだったのか。
