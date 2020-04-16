@@ -1,0 +1,1 @@
+79f3403be0cdbec814be29308c0583599ca5824f で追加したテストの変数名が attr_writer 用のものと同じ(writer_class, superwriter)だったのを attr_reader のテストなのでそれにあわせて改名しています。
