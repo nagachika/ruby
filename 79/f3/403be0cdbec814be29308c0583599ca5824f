@@ -1,0 +1,1 @@
+8355a998839f17ff214a89062821a0a4287f6a54 の続きで super で呼び出されるメソッドが VM_METHOD_TYPE_IVAR (attr_reader で定義されたメソッド?)の場合も fastpath を無効化するようにしています。
