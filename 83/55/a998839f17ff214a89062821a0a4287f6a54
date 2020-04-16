@@ -1,0 +1,1 @@
+5c2768181382bf84137759efea66f3aaf212665d で invokesuper でメソッド呼び出しのメソッドキャッシュを利用した最適化が効くように refinements で上書きされたメソッドで fastpath を無効化するようにし変更ですが、その後 Rails のテストでエラーがおきたそうなので追加で VM_METHOD_TYPE_REFINED に加えて VM_METHOD_TYPE_ATTRSET (xxx= のようなメソッド)も fastpass 無効化するようにしています。 [ruby-core:97877] [Bug #16785]
