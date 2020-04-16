@@ -1,0 +1,1 @@
+trace 版の命令を切り替えるようにした時に get_insn_info() で命令位置を取得するのに使う succinct bitvector による実装のテーブル初期化の処理を finish_iseq_build() から iseq_setup() 内に移動しています。早めに初期化しておかないと CPDEBUG を 2以上にした時にデバッグ用処理で必要とした時にまだ初期化されてなくて SEGV するという状態だったようです。
