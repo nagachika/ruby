@@ -1,0 +1,1 @@
+iseq_setup() でデバッグ用の出力に rb_iseq_translate_threaded_code() を読んだ後の出力も追加しています。
