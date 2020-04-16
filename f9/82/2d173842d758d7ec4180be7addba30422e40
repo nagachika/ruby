@@ -1,0 +1,1 @@
+rb_iseq_disasm() で作った ISeq の disassemble 結果の文字列の capa を切り詰めてな必要なサイズだけ使うようにしています。
