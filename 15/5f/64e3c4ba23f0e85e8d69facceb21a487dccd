@@ -1,0 +1,1 @@
+6f28ebd585fba1aff1c9591ced08ed11b68ba9e3 の -p/-n オプションによるフィルタモードで標準出力への書き込みが EPIPE になった時の例外を SIGPIPE に変更してたのを revert してやっぱり Errno::EPIPE にして、かわりに例外を捕捉するところで Errno::EPIPE でメッセージを抑制するようにしています。後方互換性のためとのこと。 [ruby-core:85166] [Feature #14413]
