@@ -1,0 +1,1 @@
+FreeBSD で <sys/cdefs.h> というシステムヘッダで提供される __has_attribute() が壊れてるので、ちゃんと動いてなさそうな時は RUBY3_HAVE___HAS_ATTRIBUTE を定義しないようにしてこのマクロで実際に使えるかを判定するようにしています。
