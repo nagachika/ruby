@@ -1,0 +1,1 @@
+48273534c7aa6552c9155366a39f54ce10653c5a の続きで古い gcc (4以前)で #ifdef ... #elif がうまく扱えないことがあったそうなので preprocessor 分岐をちょっと修正しています。 #if ... #else #if ... #endif #endif と #if ... #elif #endif は等価じゃない(elif の条件部分が不正な式の時後者は NG)という参考情報がリンクされています。 http://www.open-std.org/JTC1/SC22/WG14/www/docs/dr_412.htm
