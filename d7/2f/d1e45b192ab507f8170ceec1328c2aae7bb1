@@ -1,0 +1,1 @@
+rb_syserr_fail_path_in() から例外を raise せず例外オブジェクトを返すに留める関数を rb_syserr_new_path_in() として切り出しています。外部 API ではないしまだ使っているところはなさそう。
