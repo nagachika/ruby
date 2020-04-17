@@ -1,0 +1,1 @@
+string.c の unescape_ascii() で switch 文の default 節で UNREACHABLE を使ってたのを消して、関数末尾に UNREACHABLE_RETURN() を置くようにしています。関数の型が int なので環境によって return 文になる UNREACHABLE_RETURN のほうが良いということかな。
