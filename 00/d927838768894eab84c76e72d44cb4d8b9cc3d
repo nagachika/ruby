@@ -1,0 +1,1 @@
+MJIT 用の precompiled header の更新用のタイムスタンプファイルの依存関係に $(RBCONFIG) を追加しています。 JRuby のために必要とのこと。
