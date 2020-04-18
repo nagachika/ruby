@@ -1,0 +1,1 @@
+test/unit の並列テスト用のライブラリ部分で結果を送信する _report メソッドで Errno::EPIPE が発生した時に呼び元で rescue してたのですが _report 内で rescue するようにまとめています。
