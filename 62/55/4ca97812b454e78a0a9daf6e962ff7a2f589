@@ -1,0 +1,1 @@
+2.4 から deprecated にしていた定数 NIL, TRUE, FALSE を削除しています。
