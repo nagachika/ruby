@@ -1,0 +1,1 @@
+Process::UID.from_name と Process::GID.from_name というメソッドのテストを追加しています。こんなメソッドあったのか。
