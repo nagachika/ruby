@@ -1,0 +1,1 @@
+テスト用の EnvUtil.assert_separately メソッドで後始末の pipe の close などしている部分を ensure 節にしています。タイムアウト発生時に fd leak していたとのこと。
