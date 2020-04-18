@@ -1,0 +1,1 @@
+そして Process::UID.from_name と Process::GID.from_name で渡された名前が不正な時の例外メッセージを渡された文字列の Encoding を保持するよう PRIsVALUE を使って埋め込むように修正しています。
