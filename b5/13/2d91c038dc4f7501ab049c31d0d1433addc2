@@ -1,0 +1,1 @@
+rb_readwrite_sys_fail(), rb_readwrite_syserr_fail() の引数 writable を waiting と変更しています。また if 文を switch 文に変更するなどのリファクタリング。
