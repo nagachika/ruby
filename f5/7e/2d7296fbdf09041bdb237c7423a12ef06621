@@ -1,0 +1,1 @@
+Kernel#system や Process.spawn で環境変数を渡す時に環境変数名が不正な時の例外メッセージをその変数名の文字列の Encoding を考慮するよう PRIsVALUE の指示子を使って埋め込むようにしています。
