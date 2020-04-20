@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向けの設定 .github/workflows/mingw.yml で MSP-Greg/actions-ruby のかわりに MSP-Greg/setup-ruby-pkgs というプラグインを利用するように変更しています。 https://github.com/ruby/ruby/pull/3042
