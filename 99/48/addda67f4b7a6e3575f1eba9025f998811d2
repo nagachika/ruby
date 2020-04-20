@@ -1,0 +1,1 @@
+RUBY_PLATFORM が s390x-linux だった時に Travis-CI のテストが不安定だったとのことで RubyVM::DEFAULT_PARAMS のマシンスタックや VM スタックのサイズに関するテストを skip するようにしています。
