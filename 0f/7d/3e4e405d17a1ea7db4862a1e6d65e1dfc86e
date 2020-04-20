@@ -1,0 +1,1 @@
+RUBY_FL_USHIFT と RUBY_SPECIAL_SHIFT という定数がなくなったため misc/lldb_cruby.py が動かなくなってたそうで復活させています。
