@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の private メソッド search_history を incremental_search_history に改名しています。
