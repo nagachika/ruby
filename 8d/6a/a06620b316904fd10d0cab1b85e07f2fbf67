@@ -1,0 +1,1 @@
+test/ruby/test_jit_debug.rb のテストクラスの setup に JITSupport.supported? をチェックして skip するコードが追加されていますが、このテストクラス TestJIT を継承しているので、そっちで skip してるんじゃないかな。
