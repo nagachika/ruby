@@ -1,0 +1,1 @@
+AppVeyor の VC で MJIT 用の precompiled header ビルドに失敗する場合に MJIT テストを skip するためのチェックで MJIT つきの実行の終了ステータスをみてたのをやめています。ruby の終了ステータスには影響しないので誤って skip しそこなったとのこと。
