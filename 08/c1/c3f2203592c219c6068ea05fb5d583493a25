@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ reline の LineEditor のメソッド ed_search_prev_history/ed_search_next_history を vi_search_prev/vi_search_next に改名しています。
