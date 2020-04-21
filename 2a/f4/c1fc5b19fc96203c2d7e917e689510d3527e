@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres のテストで  Solaris と AIX、OpenBSD で除外していたテストを Android でも除外するようにしています。
