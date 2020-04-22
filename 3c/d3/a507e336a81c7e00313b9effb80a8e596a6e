@@ -1,0 +1,1 @@
+e571bb8436502b1bce54a1e41c40ef682e05c555 でうっかり一緒に入ってしまった tool/sync_default_gems.rb の upstream からの同期時の conflict 対応の修正をあらためて追加。 git reset 後に git checkout も実行して staging されていない変更も消すようにしています。
