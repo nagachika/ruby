@@ -1,0 +1,1 @@
+Refinements のタイムアウトが RISC V 環境で足りなかったそうで伸ばしています。 RubyCI に RISC V の環境が追加されたんですねぇ。
