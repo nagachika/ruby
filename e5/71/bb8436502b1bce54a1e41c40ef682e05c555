@@ -1,0 +1,1 @@
+20773a109029ba4464d7749d38a311f880a73293 と同様にポインタと size_t のサイズが異なる時に ruby_atomic.h に実際には atomic じゃない操作を inline 関数として定義してたところを #error プラグマでビルドエラーにさせるようにしています。ついでに(というかアクシデントで tool/sync_default_gems.rb の conflict 解消の修正が入ってますがこれは後で revert されています。
