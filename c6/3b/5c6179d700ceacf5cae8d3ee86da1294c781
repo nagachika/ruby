@@ -1,0 +1,1 @@
+adab82b9a71f60ad1c7f4f8c134a5ae9198ab32a で TRY_WITH_GC() で icc での CI のデバッグのため NoMemeryError のかわりに rb_bug() で異常終了させるようにしましたが、どうやら TRY_WITH_GC() のところじゃなかったようなので rb_memerror() 内で icc の場合のみ __builtin_trap() を直接呼んで異常終了させるようにしています。
