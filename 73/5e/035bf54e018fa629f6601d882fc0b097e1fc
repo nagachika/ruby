@@ -1,0 +1,1 @@
+4b853932eaa7fa4acf8a0f0c9b7c695bb4f5e76d と同様に icc は __GNUC__ を定義するけど -Wdeprecated-declarations オプションが効かないので __has_warning() によるチェックも preprocessor 分岐に追加しています。
