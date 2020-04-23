@@ -1,0 +1,1 @@
+RubyVM::DEFAULT_PARAMS のテストを s390x-linux に追加して RISC V の環境でも skip するようにしています。
