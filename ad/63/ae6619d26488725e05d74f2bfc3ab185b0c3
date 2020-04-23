@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境で pull request 向けにブランチをチェックアウトするためのコマンド部分にも shell: bash を追加しています。
