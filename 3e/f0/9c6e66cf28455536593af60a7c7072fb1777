@@ -1,0 +1,1 @@
+487d0c99d53208594702bb3ce1c657130fb8d65f で捕捉されなかった例外のバックトレース表示を戻した時に rb_error_write() の reverse 引数を Qfalse を渡すようにしましたが、Qnil を渡した時のデフォルトも false 扱いにするようにしています。  [Feature #8661]
