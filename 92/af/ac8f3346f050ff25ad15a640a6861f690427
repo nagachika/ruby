@@ -1,0 +1,1 @@
+configure でビルドしているターゲット環境が Android の時に getprop ro.build.version.sdk で SDK バージョンを取得して __ANDROID_API__ というマクロに定義するコマンドラインオプションを CPPFLAGS に追加しています。
