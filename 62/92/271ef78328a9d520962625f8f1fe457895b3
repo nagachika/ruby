@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境と MJIT 用のアクションで ~/.config/ と PATH 環境変数内のディレクトリの mode から所有者以外の書き込み権限を落とすようにしています。警告除去のため。
