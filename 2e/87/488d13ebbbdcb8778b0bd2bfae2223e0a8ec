@@ -1,0 +1,1 @@
+test/unit で並列テストする時に対象のテストファイルのパスを File.realpath で symbolic link 解決しておくようにしています。
