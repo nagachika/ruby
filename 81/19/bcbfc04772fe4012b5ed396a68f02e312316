@@ -1,0 +1,1 @@
+2943ff9d4441485a18773aa745bab7f47767dde2 のメソッドキャッシュクリア時の実装修正の追加修正。 undef によるメソッド定義削除のマーカーも正常な method entry として扱ってしまっていたため defined? で undef したメソッドも "method" になってしまっていたようなので、rb_method_entry() で undef のマーカーのチェックを追加して NULL を返すようにしています。 [ruby-core:97334] [Bug #16669]
