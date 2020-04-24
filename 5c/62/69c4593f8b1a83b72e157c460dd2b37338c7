@@ -1,0 +1,1 @@
+XDG_CONFIG_HOME、XDG_CACHE_HOME、XDG_DATA_HOME といった環境変数はアプリケーションなどの設定などを置くディレクトリを指定する標準的な方法として使われているので、rubygems や bundler, rdoc でもこれらの環境変数が指定されていたら尊重するようにしています。 https://github.com/ruby/ruby/pull/2174
