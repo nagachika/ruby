@@ -1,0 +1,1 @@
+Minitest::Unit のクラス変数 @@current_repeat_count の初期化がされていなかったので追加しています。 _run_anything メソッドを呼ぶと初期化してましたが、これが呼ばれないケースがあったのでしょう。
