@@ -1,0 +1,1 @@
+81b0b7919718bf7f8a6bd9590651b62279977327 の再修正。 ~/.inputrc が存在せず XDG_CONFIG_HOME や ~/.config の配下にもみつからなかった時に inputrc_path メソッドの戻り値はとりあえず ~/.inputrc を返すようにしています。
