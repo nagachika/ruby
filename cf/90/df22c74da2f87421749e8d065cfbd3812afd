@@ -1,0 +1,1 @@
+Method#[] の rdoc 用コメントが Method#call の call-seq にひっそり同居していたので別にエントリを追加しています。 [ruby-core:98038] [Bug #16813]
