@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の inputrc ファイルの読み込みでも環境変数 XDG_CONFIG_HOME を考慮するようにしています。優先順序的には INPUTRC があればそのファイルを、~/.inputrc が存在していればそのファイルを、なければ環境変数 XDG_CONFIG_HOME があればその配下の readline/inputrc を、それもなければ ~/.config/readline/inputrc をという順序で探索するようです。
