@@ -1,0 +1,1 @@
+同じく doc/make_cheatsheet.md の特定のファイルのみの test-all や rubyspec のテスト実行のためのターゲットについて追記しています。
