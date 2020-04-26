@@ -1,0 +1,1 @@
+rdoc のテストで RDoc::TestCase を継承しているテストクラスの teardown の super 呼び出しを末尾にしています。 環境変数のすりかえなど setup と対称になってないといけないので。
