@@ -1,0 +1,1 @@
+rubygems のテスト用 Gem::TestCase で XDG 環境変数群の対応で追加した Gem のインスタンス変数 @cache_home と @data_home のクリアを追加しています。
