@@ -1,0 +1,1 @@
+f12f9f511ddf2116ed5da9a580336b148812ad23 の再修正。 -c advice.detachedHead=false オプションはサブコマンドではなく git コマンド自体のオプションなので checkout の前に置くように修正しています。
