@@ -1,0 +1,1 @@
+misc/lldb_cruby.py での rp コマンドの対応のためいくつかの enum に名前(タグっていうんだっけ)をつけ、またデバッガでの表示のための union ruby_dummy_gdb_enums にその enum 名を追加しています。
