@@ -1,0 +1,1 @@
+tool/fetch-bundled_gems.rb で git checkout 時に -c advice.detachedHead=false というオプションを追加しています。 HEAD の参照が detached 状態の時の警告抑制らしい。
