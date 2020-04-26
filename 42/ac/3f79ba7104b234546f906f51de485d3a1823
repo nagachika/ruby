@@ -1,0 +1,1 @@
+rb_data_object_wrap() および rb_data_typed_object_wrap() に RUBY_ASSERT_ALWAYS() という assertion で不正な引数のチェックをするようにしています。
