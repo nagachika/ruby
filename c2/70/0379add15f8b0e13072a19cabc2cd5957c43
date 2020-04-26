@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で git checkout サブコマンドのかわりに co と書かれてたので修正。これ自分もこういう alias 定義してる(わりと定番だと思う)ので全然違和感なく読んでしまっていた。
