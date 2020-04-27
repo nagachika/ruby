@@ -1,0 +1,1 @@
+rb_str_clear() という関数はもう呼ばれてる箇所がなくなっているのに string.c の先頭に不要な prototype 宣言が残ってたので削除しています。 https://github.com/ruby/ruby/pull/3059
