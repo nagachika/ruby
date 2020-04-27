@@ -1,0 +1,1 @@
+rdoc のテストで RDoc::RI::Paths::HOMEDIR を String#replace ですりかえようとしていましたが、もともと nil が入っていてエラーになることがあったので remove_const と const_set を使って定数をいれかえるようにしています。
