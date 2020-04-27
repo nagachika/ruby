@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドで T_STRING 型のオブジェクトの表示で空文字列は "(empty)" と明示的に表示するようにしています。
