@@ -1,0 +1,1 @@
+rubyspec の BigDecimal のテストで should を書きわすれて assertion になってないところがあったのを修正しています。
