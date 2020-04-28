@@ -1,0 +1,1 @@
+ruby_atomic.h の ATOMIC_ADD()/ATOMIC_SUB() などのマクロを ATOMIC_FETCH_ADD()/ATOMIC_FETCH_SUB() に変更して可算/減算する数値を指定できるようにして、ATOMIC_ADD()/ATOMIC_SUB() はこれらの wrapper として定義しなおしています。また ATOMIC_SET() を ATOMIC_EXCHANGE()  を使って定義しなおしています。
