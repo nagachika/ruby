@@ -1,0 +1,1 @@
+9948addda67f4b7a6e3575f1eba9025f998811d2 で RubyVM::DEFAULT_PARAMS のテストを s390-linux で skip するようにしたのを revert しています。 a217d3cedce3f5aa5c27a1ce6c72b65ec37da057 で追加した assertion は s390-linux 向け? だったみたいで、その結果をみてみるためのようです。
