@@ -1,0 +1,1 @@
+同じく bootstraptest/pending.rb にあった dup されたクラスからのクラス変数参照のテストを、既に修正されているということで test/ruby/test_module.rb に移動しています。 [ruby-core:17019]
