@@ -1,0 +1,1 @@
+181ffea5e040705d03603365ca5527d9e0676c5d で大昔に追加されてた Range#inspect のテストで bootstraptest/pending.rb に移動されていた(おそらくうまく動かなくなっていた?)ものを削除しています。 ec0c394b9eb142c8e72e59bfa9061675b1167ed5 で不具合が修正されたため。
