@@ -1,0 +1,1 @@
+e25088488bbf7b4bf1be19e57ee5fba41ad6f21c で追加された make check で git リポジトリ内で実行したら master からの差分の #include があるものを表示するという機能(おそらく開発中のブランチでテストした時に dependency 追加を忘れないようにするためのしかけ)で master 以外の upstream に対応するようにしているみたいです。
