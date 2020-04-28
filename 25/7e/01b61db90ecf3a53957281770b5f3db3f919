@@ -1,0 +1,1 @@
+1760c60174b80e837371a19ec13b1148629262cb で追加した rb_atomic_fetch_sub() で atomic_sub_int_nv() を利用していたのを atomic_add_int_nv() を使って引数を負にしてから可算する操作で代替するようにしています。 Solaris で atomic_sub_int_nv() がなかったようです。
