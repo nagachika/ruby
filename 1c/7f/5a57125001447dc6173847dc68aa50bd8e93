@@ -1,0 +1,1 @@
+拡張ライブラリ ripper のテストでなぜか Process.setrlimit で Process::RLIMIT_AS (仮想メモリサイズ)の制限をつけて DummyParser#parse を実行していたのをやめています。このテストを追加した時の修正 72ad8595f2032cfcf73084083306eef909eb42a5 を入れる前だと発生していた NoMemoryError を確実に発生させるための setrlimit だったみたいですが、実際にはなくても起きるしこの制限のせいでこける環境があったようなので削っています。
