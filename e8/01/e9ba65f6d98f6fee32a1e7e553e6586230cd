@@ -1,0 +1,1 @@
+mspec で rubyspec で使う一時ディレクトリのデフォルト rubyspec_temp を File.expand_path で絶対パスにしてたのを File.realdirpath にして symbolic link を展開するようにしています。
