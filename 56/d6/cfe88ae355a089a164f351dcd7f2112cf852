@@ -1,0 +1,1 @@
+.travis.yml の古い ruby での rubyspec 実行の処理をまとめるリファクタリング。
