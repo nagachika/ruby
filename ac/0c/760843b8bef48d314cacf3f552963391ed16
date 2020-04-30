@@ -1,0 +1,1 @@
+ruby_memerror() の exit(3) の呼び出しを関数末尾に移動して NORETURN() つきで宣言するようにしています。
