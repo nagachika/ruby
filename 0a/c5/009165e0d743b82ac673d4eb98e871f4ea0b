@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で環境変数 XDG_CONFIG_HOME が相対パスだったら利用しないようにしています。[XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) という仕様でそう定められているらしい。
