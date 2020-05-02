@@ -1,0 +1,1 @@
+f5ddbba9a233c2d32118507158c5ef451167cfe0 で JIT コンパイルするために生成する C ソースの関数名につける通し番号を INIT_COMPILE_STATUS() マクロで構造体 struct compile_status にセットするのが漏れていたのを修正しています。
