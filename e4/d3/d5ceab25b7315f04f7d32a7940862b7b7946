@@ -1,0 +1,1 @@
+MJIT で生成する C コードの precompiled header を #include する部分を #ifndef MJIT_PCH で囲んでいたのを mswin 環境ではやめています。 VC だと警告が出てビルドエラーになってしまう模様。
