@@ -1,0 +1,1 @@
+MJIT の JIT されたコードの compaction 対応が mswin 版ではまだサポートされていないので対応するテストに警告をチェックする assertion を追加しています。
