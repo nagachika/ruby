@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の Matrix#orthogonal? も unitary? と同様の間違いがあったので修正しています。
