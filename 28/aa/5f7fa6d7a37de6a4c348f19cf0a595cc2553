@@ -1,0 +1,1 @@
+76507bfc3d06984b02e3124cd6557c81af2171cd で rubyspec の Matrix#unitary? のテストの 2.8 以降対応をしたのを ruby のバージョンではなく Matrix のバージョンで分岐させるようにしています。
