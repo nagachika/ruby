@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の Matrix#unitary? のループが間違っていたのを修正。 https://github.com/ruby/matrix/pull/14
