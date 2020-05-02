@@ -1,0 +1,1 @@
+7d360efe92d2db11a4e51820ed2f52de36b3257f の Matrix#unitary? の修正で rubyspec の matrix のテストが失敗していたようなので対応しています。
