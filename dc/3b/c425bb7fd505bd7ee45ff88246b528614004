@@ -1,0 +1,1 @@
+a52a459b16ce1b5cf32cb6393960ff59e35c48d0 で Thread#name= で Thread につける名前の文字数上限を環境毎に const の変数を定義するよう preprocessor 分岐していたのが -Wgnu-folding-constant で有効になるコンパイラ警告の対称になったそうで enum の定数として定義するようにしています。なんでこれ警告になるんだろ。
