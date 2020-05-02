@@ -1,0 +1,1 @@
+irb のコマンドのテストで Encoding.default_external と Encoding.default_internal をバックアップしておいて復旧させるようにしています。
