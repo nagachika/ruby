@@ -1,0 +1,1 @@
+標準添付ライブラリ matrxi に Matrix#adjoint というメソッドを追加しています。 conjugate + transpose のショートカットになっています。
