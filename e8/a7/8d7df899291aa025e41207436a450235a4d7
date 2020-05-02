@@ -1,0 +1,1 @@
+MJIT で JIT コンパイルしたオブジェクトファイル群から必要なものだけまとめて共有ライブラリを作りなおす compact_all_jit_code() で排他する critical section を狭めてかわりに is_compact というフラグを使って処理中の unload_units() の呼び出しを抑制するようにしています。停止時間を減らすためとのこと。
