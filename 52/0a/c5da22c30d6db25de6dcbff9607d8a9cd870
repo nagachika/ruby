@@ -1,0 +1,1 @@
+拡張ライブラリ pty の extconf.rb で have_library で libopepty のチェックが重複して行なわれる場合があったので結果をキャッシュするようにしています。
