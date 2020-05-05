@@ -1,0 +1,1 @@
+rubyspec の Kernel#system のテストで子プロセス終了後の $?.exitstatus を具体的にチェックしているのが環境依存になるため success? メソッドによる抽象的なチェックに修正しています。
