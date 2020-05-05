@@ -1,0 +1,1 @@
+spec/ruby/optional/capi/ext/rbasic_spec.c の最終行に改行がなかったのを追加しています。
