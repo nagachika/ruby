@@ -1,0 +1,1 @@
+AppVeyor のテストで Visual Studio 2013 で MJIT の precompiled header まわりの不具合のため skip していた MJIT のテストが Visutal Studio 2015 でも再現するらしいので除外する条件に追加しています。
