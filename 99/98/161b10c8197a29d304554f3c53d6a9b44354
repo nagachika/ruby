@@ -1,0 +1,1 @@
+spec/ruby/optional/capi/shared/rbasic.rb で should を忘れて単なる比較をしていてチェックになっていなかったところを修正しています。
