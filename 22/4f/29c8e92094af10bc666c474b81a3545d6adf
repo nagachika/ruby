@@ -1,0 +1,1 @@
+rubyspec の Process.clock_getres(Process::CLOCK_MONOTONIC, :nanosecond) のテストで Android では resolution が 10 msec らしいので上限を大幅にゆるめています。
