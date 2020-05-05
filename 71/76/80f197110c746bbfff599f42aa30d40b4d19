@@ -1,0 +1,1 @@
+同じく spec/ruby/optional/capi/shared/rbasic.rb で struct RBasic の flags の値のチェックを修正していますが、よくわからない helper (たぶん本来 ruby レベルでいじれない flags を強制的にセットしたり参照したりしている)だらけでよくわからない。おそらく flags をいじったあとで元に戻すようにしているようです。
