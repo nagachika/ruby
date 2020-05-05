@@ -1,0 +1,1 @@
+f22c4ff359498ab342e4b6d6feb21af6004ee270 で --help オプションの出力を pager で表示させるために ruby.c 内に直接 fork(2) の呼び出しが追加されたのが Solaris でビルドエラーになるそうで rb_fork() という wrapper 関数に切り出してここで -Wdeprecated-declarations の警告を局所的に抑制させるようにしています。またもともと rb_fork_ruby() という関数定義の全体で警告抑制していたところも rb_fork() を使うようにして全体を警告無視する対象にしなくてすむようにしています。
