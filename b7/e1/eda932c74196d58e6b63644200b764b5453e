@@ -1,0 +1,1 @@
+拡張ライブラリ ripper で独自に定義しているトークンの enum の型を enum yytokentype に明示的にキャストするマクロ経由で使うようにしています。 GCC 10 で警告になるようになったみたいです。 また enc/unicode.c の onigenc_unicode_get_case_fold_codes_by_str() で通らないはずのパスで未初期化の変数参照をする可能性についての警告が出てしまうということで明示的に if 文を追加して UNREACHABLE_RETURN() で return させるようにしています。
