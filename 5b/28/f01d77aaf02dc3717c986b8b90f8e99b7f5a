@@ -1,0 +1,1 @@
+random.c 内の int_pair_to_real_exclusive() という 2つの 32bit 整数を double に変換して返す関数を double の表現 (IEEE 754) に依存しないように? しています。
