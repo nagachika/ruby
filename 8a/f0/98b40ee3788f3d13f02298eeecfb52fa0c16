@@ -1,0 +1,1 @@
+rubyspec の struct RBasic::flags についてのテストのための拡張ライブラリで VISIBLE_BITS として定義したビットフラグのみ ruby スクリプト側にみせるように修正しています。 reserved の領域のフラグは隠す(0にする)ようにしています。
