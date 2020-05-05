@@ -1,0 +1,1 @@
+Solaris の Sun C Compiler の時に MJIT の JIT コンパイル時に -Winvalid-pch というオプションを追加するようにしています。これにより MJIT のテストを Solaris で skip するのをやめています。
