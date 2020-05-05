@@ -1,0 +1,1 @@
+vm_insnhelper.c の callable_class_p() で VM_CHECK_MODE が 2以上でビルドした時の switch() 文の警告抑制のため default 節を追加しています。
