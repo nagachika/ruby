@@ -1,0 +1,1 @@
+テスト用のユーティリティ EnvUtil の labeled_module, labeled_class でインスタンスメソッドの to_s, inspect に追加して name も渡した名前をかえすように(alias を定義して)います。
