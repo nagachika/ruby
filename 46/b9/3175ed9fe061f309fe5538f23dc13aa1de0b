@@ -1,0 +1,1 @@
+b247ac086e60a6cee99ea1989277c5c66b0541de で対処したように macOS では IPSocket.getaddress を呼ぶことでシステムライブラリ内で fd を使ってしまうので URI() の http_proxy オプションのテスト一部の assertion 用の with_proxy_env ブロック内で IPSocket.getaddress を mock にすりかえていたのを、テストメソッド全体で行うようにしています。
