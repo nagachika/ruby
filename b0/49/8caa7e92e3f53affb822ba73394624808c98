@@ -1,0 +1,1 @@
+48d509cefc376df8af0ad0e08a09aecbd78f4f10 で case_equal() を rb_equal() を呼び出す関数として定義していたのをただのマクロとして置換させるようにしています。
