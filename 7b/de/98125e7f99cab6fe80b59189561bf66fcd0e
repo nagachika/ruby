@@ -1,0 +1,1 @@
+Enumerator#next の rdoc 用コメントのエントリに #next_values, #peek, #peek_values と共通の注意事項をまとめたり Fiber を実装に使っているために速度は遅くなることはバックトレースが独自のものになる点などを追記しています。
