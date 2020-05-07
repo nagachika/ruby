@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::LDAP (こんな schema 対応あったんだ)で path がない時に URI::InvalidURIError 例外を発生させるようにしています。
