@@ -1,0 +1,1 @@
+テスト中の各種リソースのリークチェックする tool/lib/leakchecker.rb で自プロセスが開いている file descriptor を取得するために使う procfs のパスに /proc/self/fd の他に /dev/fd というのも試してみるようにしています。
