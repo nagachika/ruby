@@ -1,0 +1,1 @@
+b247ac086e60a6cee99ea1989277c5c66b0541de で leak fd を一時的に IO.for_fd で IO オブジェクトで wrap したものを close する時に何らかの理由で IO.for_fd が失敗して io が nil だった時に対応するため safe guard 演算子を使うようにしています。
