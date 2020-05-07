@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb の fd leak チェックで getaddrinfo() を使うと macOS ではシステム側で fd が利用されてしまうようなので device 番号で判定して無視するように対応しています。
