@@ -1,0 +1,1 @@
+拡張ライブラリ socket の UNIXSocket のテストで後始末が漏れていて fd leak していたのを修正しています。
