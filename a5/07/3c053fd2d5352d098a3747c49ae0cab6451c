@@ -1,0 +1,1 @@
+MJIT が実行時に生成する C ソースコードで inline 化がキャンセルされた時の cfp->sp のリセットを常に実施するようにしています。local stack optimization というのを使ってない時も sp の巻き戻しは必要だったとのこと。
