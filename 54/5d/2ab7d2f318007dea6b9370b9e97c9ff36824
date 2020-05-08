@@ -1,0 +1,1 @@
+テスト中のリソースリークのチェックを行なう tool/lib/leakchecker.rb で fd leak の検出のため可能なら lsof コマンドを利用して利用している process id を表示するようにしています。
