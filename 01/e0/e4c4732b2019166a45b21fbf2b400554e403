@@ -1,0 +1,1 @@
+String#to_sym で生成した Symbol の memory leak のテストで assert_no_memory_leak に渡していた warmup の処理を軽量にしています。
