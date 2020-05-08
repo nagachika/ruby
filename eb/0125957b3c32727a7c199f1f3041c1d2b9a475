@@ -1,0 +1,1 @@
+object.c の false_or() と false_xor() という関数は内容が同じなので true_and() に置換するようにマクロ定義におきかえています。
