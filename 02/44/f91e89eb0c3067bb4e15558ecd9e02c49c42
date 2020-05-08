@@ -1,0 +1,1 @@
+1e3c910bfc57e4d8bedb0c8784562e06aa08ae29 で削った mjit_compile() の先頭でのデバッグ時の OPT_CHECKED_RUN のマクロ定義の行の出力を削除しています。
