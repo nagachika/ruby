@@ -1,0 +1,1 @@
+rb_struct_initialize() で引数を格納している配列オブジェクト values を RB_GC_GUARD() で GC mark 漏れしないようにしています。
