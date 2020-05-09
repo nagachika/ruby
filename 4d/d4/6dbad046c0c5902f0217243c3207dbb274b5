@@ -1,0 +1,1 @@
+rubyforge_project= メソッドを deprecate にしてたのをやめて別の方法で局所的に警告を出すようにしているようです。
