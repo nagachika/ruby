@@ -1,0 +1,1 @@
+rubygems のテスト test/rubygems/test_gem_commands_signout_command.rb の setup で rubygems の credential ファイルを削除していたのをやめています。
