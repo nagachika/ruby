@@ -1,0 +1,1 @@
+rubygems で bundler を default gem としてインストールした時に man ページもインストールするようにしています。
