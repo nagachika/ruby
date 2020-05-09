@@ -1,0 +1,1 @@
+vm_backtrace.c の rb_profile_frame_full_label() という C API で利用できるバックトレースでメソッド名を生成するところで特異メソッドのレシーバを表示するのに T_CLASS だけでなく T_MODULE のときもそのものの名前を表示するようにしています。
