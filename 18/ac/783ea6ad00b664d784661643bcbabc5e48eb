@@ -1,0 +1,1 @@
+Gem::Specification.stubs や stubs_for で Gem.loaded_specs を参照するのをやめています。
