@@ -1,0 +1,1 @@
+test/rubygems/test_gem_commands_setup_command.rb の assertion につけてたコメントを削除。
