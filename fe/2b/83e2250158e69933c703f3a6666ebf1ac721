@@ -1,0 +1,1 @@
+rubygems で ruby 実装の判定に RUBY_ENGINE 定数をみてたのを Gem::Platform::RUBY という定数のほうをみるように変更しています。
