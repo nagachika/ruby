@@ -1,0 +1,1 @@
+rubygems の Gem::Commands::SetupCommand のメソッド template_files を bundler_template_files に改名。
