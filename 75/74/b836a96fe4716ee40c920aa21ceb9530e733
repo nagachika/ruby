@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドの T_IMEMO タイプへの対応。あれ、まだ未対応だったっけ。
