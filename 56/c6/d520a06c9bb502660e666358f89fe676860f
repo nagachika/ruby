@@ -1,0 +1,1 @@
+misc/llodb_cruby.py の lldb_inspect コマンドで T_MOVED 型のオブジェクト(というか跡地)の表示に対応しています。
