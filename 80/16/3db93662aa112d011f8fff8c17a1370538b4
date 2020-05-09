@@ -1,0 +1,1 @@
+次の rubygems の major version を得るという処理をメソッドに切り出しています。
