@@ -1,0 +1,1 @@
+rubygems のテスト test/rubygems/test_gem_commands_setup_command.rb で定義してたユーティリティメソッドを private メソッドにしています。
