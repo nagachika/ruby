@@ -1,0 +1,1 @@
+rubygems のテストで $SAFE の対応のために taint フラグをおとすために untaint してた対応を消しています。
