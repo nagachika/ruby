@@ -1,0 +1,1 @@
+rubygems のテストで bundler の gemspec を生成してるところを実際の gem? をもってくるようにしているみたいです。
