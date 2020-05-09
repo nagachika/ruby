@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb でテストで Encoding.default_internal や Encoding.default_external が変更されたままになってるのも検出しているところで STDIN/STDOUT/STDERR の encoding の設定についてもチェックするようにしています。
