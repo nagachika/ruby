@@ -1,0 +1,1 @@
+push_mark_stack() にオブジェクトの型が GC.compact による T_MOVED になったスロットが渡されたら rb_bug() で異常終了する分岐を追加しています。
