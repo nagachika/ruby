@@ -1,0 +1,1 @@
+よくわかりませんが rubygems で gunzip メソッドで Zlib::GzipReader.new が例外を発生した時のそのメッセージを例外オブジェクト自体の inspect の結果にすりかえるようにしています。デバッグ用かな。
