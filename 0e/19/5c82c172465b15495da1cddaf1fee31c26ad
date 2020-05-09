@@ -1,0 +1,1 @@
+rubygems の setup コマンドで gauntlet_rubygems.rb というファイルがあったら消すようにしています。古い rubygems でなんらかの意味のあったファイルみたいです。
