@@ -1,0 +1,1 @@
+rubygems の Gem::Installer.generate_plugins で Gem::Specification.latest_spec_for を呼び出す時になにやらロックを取得するようにしています。排他が必要らしい。
