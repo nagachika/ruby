@@ -1,0 +1,1 @@
+rubygems の cmake によるビルドのテストで使ってる Open3.capture2e が cmake コマンドが存在しなくて Errno::ENOENT を発生させた時に skip するようにしています。
