@@ -1,0 +1,1 @@
+lib/rubygems/deprecate.rb に deprecate_command というメソッドも追加しています。
