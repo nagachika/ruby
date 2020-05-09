@@ -1,0 +1,1 @@
+rubygems のテストで JRuby でのみ skip するようにしてたものを skip しないようにしています。
