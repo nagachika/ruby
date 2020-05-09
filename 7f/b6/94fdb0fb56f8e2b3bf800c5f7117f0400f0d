@@ -1,0 +1,1 @@
+b454b4e3107921348bc13f8c024239f82965ed4a の変更を利用して Gem::Specification#activate_dependencies で Gem::MissingSpecError が発生した時に対象の gemspec ファイルパスを追加メッセージに含めるようにしています。
