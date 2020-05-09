@@ -1,0 +1,1 @@
+rubygems のテストで古い mninitest 対策で Minitest::Test が存在するかとか  _assertions が存在するかとかチェックしてたのが不要になったようで削除しています。
