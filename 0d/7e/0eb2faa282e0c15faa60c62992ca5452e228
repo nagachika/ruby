@@ -1,0 +1,1 @@
+同じく rubygems の check_that_user_bin_dir_is_in_path メソッドで String#gsub のかわりに String#tr でたりるのでそちらに変更。
