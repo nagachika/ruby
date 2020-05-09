@@ -1,0 +1,1 @@
+rubygems の deprecate, deprecate_command などのメソッドに rubygems_ という prefix を追加しています。
