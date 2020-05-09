@@ -1,0 +1,1 @@
+rubygems_ prefix をつけたので衝突しなくなったからか前の deprecate メソッドを復活させています。
