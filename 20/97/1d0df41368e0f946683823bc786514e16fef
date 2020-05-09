@@ -1,0 +1,1 @@
+2efe741902301a6185d7ee1eff91d53b1d527302 の rubygems のテストで環境変数 TMPDIR をセットする変更を revert。
