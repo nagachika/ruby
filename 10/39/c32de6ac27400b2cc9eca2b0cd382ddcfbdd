@@ -1,0 +1,1 @@
+rubygems の Kernel#require の再定義で本来の Kernel#require に fallback する条件から LoadError のメッセージをみてたのをやめています。
