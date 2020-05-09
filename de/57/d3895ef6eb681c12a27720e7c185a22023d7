@@ -1,0 +1,1 @@
+rubygems の check_that_user_bin_dir_is_in_path というメソッドで警告が不要な時にメソッドの先頭ですぐ return するように変更しています。
