@@ -1,0 +1,1 @@
+rubygems のテストで acc86570dd8cc1920d1c55da7836d6c60d98a6d5 でいじってた Gem::Specification.stubs_for に同じ名前を連続して渡した時の挙動についてのテストを追加しています。
