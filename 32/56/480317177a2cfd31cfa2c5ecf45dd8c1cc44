@@ -1,0 +1,1 @@
+rubygems のテストで Kerne#gem で minitest のバージョン指定した時の Gem::LoadError を無視していたのをやめています。
