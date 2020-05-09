@@ -1,0 +1,1 @@
+rubygems の Gem::MissingSpecError 例外で extra_message という引数を追加して追加メッセージが埋め込めるようにしています。
