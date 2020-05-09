@@ -1,0 +1,1 @@
+acb793b71c2465c2cc527393eab57fe29f53f665 で JRuby での警告抑制のため Kernel#system のかわりに Open3 を使うようにしたところで require "open3" が漏れてたので追加。
