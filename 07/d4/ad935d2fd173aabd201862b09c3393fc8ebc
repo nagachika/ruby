@@ -1,0 +1,1 @@
+rubygems のテストで不要な teardown メソッド定義の削除。
