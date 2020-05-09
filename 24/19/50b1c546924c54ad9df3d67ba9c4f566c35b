@@ -1,0 +1,1 @@
+ece1690105b9e2887eeab36f67ad414049137ae2 の man ページファイル群を探すパスに RbConfig::CONFIG を使うように修正しています。
