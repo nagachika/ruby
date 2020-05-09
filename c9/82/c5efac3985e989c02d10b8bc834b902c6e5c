@@ -1,0 +1,1 @@
+rubygems のテストのひとつを JRuby 環境で skip するようにしています。
