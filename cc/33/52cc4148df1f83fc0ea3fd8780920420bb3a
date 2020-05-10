@@ -1,0 +1,1 @@
+tool/rbinstall.rb で Gem::Installer の再定義しているところで bundled gem のインストールしたファイルリストを .installed.list ファイルに出力するようにしています。
