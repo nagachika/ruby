@@ -1,0 +1,1 @@
+tool/rbinstall.rb で default gem のインストールによって不要な上書きを抑制するようにしているようです。
