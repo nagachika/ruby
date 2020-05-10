@@ -1,0 +1,1 @@
+bundler のテストでトップレベルに receiver なしの describe メソッド呼び出しが書かれてたので RSpec.describe に修正しています。そういえばトップレベルにいきなりは書けないんだっけ。
