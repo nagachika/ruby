@@ -1,0 +1,1 @@
+d7a59e2ffe45b27c084a8fe8cfe12b63dd1e6de8 にさらに追加して Errno::EBADF も許容するようにしています。
