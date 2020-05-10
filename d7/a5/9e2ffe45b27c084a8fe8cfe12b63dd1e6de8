@@ -1,0 +1,1 @@
+cc9bc145300d129f27ad3a4ce186d7b1e3068b88 で追加した io/console のテストで発生する例外クラスとして Errno::ENODEV のほか Errno::ENOTTY も(定数が存在すれば)許容するようにしています。
