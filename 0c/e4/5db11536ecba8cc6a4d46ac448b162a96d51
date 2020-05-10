@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の sys_fail_fptr() というマクロ経由で rb_sys_fail_str() 呼び出しするようにして rb_sys_fail() のかわりにこちらを利用してファイルパスを表示させるようにしています。
