@@ -1,0 +1,1 @@
+0ce45db11536ecba8cc6a4d46ac448b162a96d51 で拡張ライブラリ io/console で一箇所直接 rb_sys_fail_str() を呼ぶようになってしまっていたので sys_fail_fptr() に変更しています。
