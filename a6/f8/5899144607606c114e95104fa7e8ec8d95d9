@@ -1,0 +1,1 @@
+rubygems の cmake を使ったビルドのテストで Open3 を利用した時に MJIT が有効な場合子プロセスが残ることがあるので MJIT が有効な時は Process.waitall を追加するようにしています。
