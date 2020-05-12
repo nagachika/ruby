@@ -1,0 +1,1 @@
+処理が戻ってこない関数の return に UNREACHABLE_RETURN() を使って NORETURN() つきで関数を宣言するのをいくつかの関数に適用しています。
