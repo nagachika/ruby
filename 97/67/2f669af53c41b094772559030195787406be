@@ -1,0 +1,1 @@
+dca234a5dc9d5bb39c906d833c43305ce95508fb の include/ruby/3/ -> include/ruby/impl/ の改名に追随してマクロ名 RUBY3_xxx も RBIMPL_xxx に改名しています。
