@@ -1,0 +1,1 @@
+.github/workflows/compilers.yml に GCC 10 でのビルドを追加しています。
