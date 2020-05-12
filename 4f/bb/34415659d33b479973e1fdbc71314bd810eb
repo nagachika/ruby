@@ -1,0 +1,1 @@
+NORETURN() マクロ定義のために SunPro というコンパイラでは #pragma does_not_return を利用するようにしていましたが、これが引数が必要で _Pragma() で利用できない? ため利用しないようにしています。
