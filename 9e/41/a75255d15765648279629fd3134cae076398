@@ -1,0 +1,1 @@
+b85fd1d690b65efaa126cf9c24da73f31eee7a4e に追随して再度 #include のファイルパスも ruby/impl/ を ruby/internal に変更しています。
