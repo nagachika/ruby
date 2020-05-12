@@ -1,0 +1,1 @@
+vm_args.c の refine_sym_proc_call() の変数 me の初期化を追加しています。コンパイラの警告抑制のため。
