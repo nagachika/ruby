@@ -1,0 +1,1 @@
+configure で BASERUBY が --disable=gems オプションを受付けることをチェックするようにしています。 BASERUBY は 1.9 以降じゃないと動かないツールがあるので 1.8 以下は弾くようにするためみたいです。 [ruby-core:98241] [Bug #16845]
