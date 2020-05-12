@@ -1,0 +1,1 @@
+a6f85899144607606c114e95104fa7e8ec8d95d9 で rubygems のテストで子プロセスがリークするのを防ぐためとりあえず Process.waitall するようにしていた件ですが、fork_check_err() で waitpid_state に a2264342063260d660b99872eaf5080f6ab08e81 で導入された WAITPID_LOCK_ONLY という定数だった時も rb_syswait() を呼び出して子プロセス終了を待たせるように修正しています。 2.6 あたりから timer thread を不要な時に消すために子プロセスの終了待ちの実装が複雑になったので、その時の考慮不足かなぁ。
