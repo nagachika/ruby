@@ -1,0 +1,1 @@
+4fca592e8c707c76e8afea2a0b5dd4d17e97cd8f で追加(専用スクリプトから移行)した template/builtin_binary.inc.tmpl で RubyVM.enum_for(:each_builtin) の呼び出しもクロスコンパイルじゃない時の分岐内に移動しています。 RubyVM.each_builtin メソッドが miniruby にのみ追加あれるメソッドでクロスコンパイル時には使えないので。
