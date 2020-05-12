@@ -1,0 +1,1 @@
+4fca592e8c707c76e8afea2a0b5dd4d17e97cd8f で追加(専用スクリプトから移行)した template/builtin_binary.inc.tmpl でクロスコンパイルかどうか判断するのにチェックするオプション引数の typo 修正。
