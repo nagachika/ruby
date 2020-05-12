@@ -1,0 +1,1 @@
+9e6e39c3512f7a962c44dc3729c98a0f8be90341 で include/ruby/ruby.h を分割した時に include/ruby/3/ というサブディレクトリを掘ってたのを include/ruby/impl/ に改名しています。
