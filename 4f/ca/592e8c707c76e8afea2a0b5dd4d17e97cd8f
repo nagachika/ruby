@@ -1,0 +1,1 @@
+同じく VM 用のコード builtin_binary.inc の生成も tool/mk_builtin_binary.rb というスクリプトで生成していたのを template/builtin_binary.inc.tmpl というテンプレートを追加して tool/generic_erb.rb で生成するように変更しています。 https://github.com/ruby/ruby/pull/3097
