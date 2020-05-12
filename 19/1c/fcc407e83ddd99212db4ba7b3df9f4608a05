@@ -1,0 +1,1 @@
+VM 用の C ソースコードを生成するためのスクリプト tool/mk_call_iseq_optimized.rb を削除してかわりに template/call_iseq_optimized.inc.tmpl を追加して tool//generic_erb.rb でコード生成させるようにしています。 https://github.com/ruby/ruby/pull/3097
