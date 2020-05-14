@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::PKey::PKey#oid や #inspect メソッドを追加して EVP_PKey_id() 関数の結果を文字列化したものを得られるようにしています。
