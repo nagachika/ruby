@@ -1,0 +1,1 @@
+GitHub Actions の設定で独自に git checkout をコマンドで記述していたのを公式の actions/checkout@v2 を利用するようにしています。
