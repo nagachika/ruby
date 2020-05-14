@@ -1,0 +1,1 @@
+bundler のテスト用に tool/bundler/test_gems.rb.lock と tool/bundler/test_gems.rb というファイルを追加しています。
