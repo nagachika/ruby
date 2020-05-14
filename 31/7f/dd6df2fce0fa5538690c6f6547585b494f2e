@@ -1,0 +1,1 @@
+3150b97d3261025955561e40ec781723ddc716fb での tool/extlibs.rb の a -> b 記法の対応を利用して ext/fiddle/extlibs に config.guess と config.sub の symbolic link 作成の設定を追加しています。
