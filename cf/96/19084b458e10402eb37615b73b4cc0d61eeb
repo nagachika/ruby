@@ -1,0 +1,1 @@
+make test-bundle 時の gem install のコマンドラインでの rake の依存バージョン指定を 13.0 移行に更新しています。
