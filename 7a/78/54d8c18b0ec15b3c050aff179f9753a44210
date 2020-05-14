@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.cursor_pos で  IO#pread が Errno::ESPIPE を返した時の対応を追加しています。 d39be242ba795e34c1907c4d88329b15ad2838bd のテストで出力にも pipe を渡すようにしたので発覚したのでしょうね。
