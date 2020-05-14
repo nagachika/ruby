@@ -1,0 +1,1 @@
+946dadd3f479198e87873a863d15c7660a8e2b56 の did_you_mean の更新を revert しています。 rubygems の require 関連のテストが失敗してしまうとのこと。
