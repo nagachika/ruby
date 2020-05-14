@@ -1,0 +1,1 @@
+ext/fiddle/extconf.rb でリンクしようとしている libffi に ffi_closure_alloc() が存在するかチェックするようにしています。 95f387f61a4a4ea92635da760b7de5b1e09bb84e で ffi_closure_alloc() の存在チェックしたのを revert してバージョンだけで判断するようにしてましたがやはり have_func でのチェックを復活させています。
