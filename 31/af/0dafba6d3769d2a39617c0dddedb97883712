@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http に Net::HTTP#extra_chain_cert メソッドを追加して OpenSSL::SSL::SSLContext の extra_chain_cert の参照や設定ができるようにしています。 [ruby-core:62090] [Feature #9758]
