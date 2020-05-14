@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Digest のドキュメントでアルゴリズムを配下のクラス名の指定で OpenSSL::Digest::SHA1 などを参照する方式を書いてたのを OpenSSL::Digest.new("SHA1") のように OpenSSL::Digest のメソッドを直接使って文字列で名前を指定する方式を記述するようにしています。こっちのほうが推奨なのかな。
