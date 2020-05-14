@@ -1,0 +1,1 @@
+MJIT で inline 化の対象となる 関数から vm_getinstancevariable()、vm_setinstancevariable()、vm_setivar() を外しています。実際には使われないのにコードサイズを圧迫するので inline 化しようとしないほうが性能が良くなるとのこと。
