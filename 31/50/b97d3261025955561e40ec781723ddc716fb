@@ -1,0 +1,1 @@
+tool/extlibs.rb で extlibs ファイルの A -> B のような記法で symbolic link を作る処理に対応しています。
