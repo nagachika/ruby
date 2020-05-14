@@ -1,0 +1,1 @@
+fake.rb ファイルの生成を test-bundled-gems や test-spec の前処理の依存関係に入れてたのを programs ターゲットの依存関係にしてビルド時に生成させるようにしています。
