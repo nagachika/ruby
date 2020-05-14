@@ -1,0 +1,1 @@
+拡張ライブラリ opessl から OpenSSL::SSL::SSLContext#add_certificate_chain_file メソッドを(一時的に?)削除しています。 openssl.gem のリリースのため実験的な? このメソッドは一旦消しておこうというコミットのようです。
