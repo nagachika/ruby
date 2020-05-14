@@ -1,0 +1,1 @@
+bundler のテスト前に gem install する時の rspec の依存バージョンを 3.8 以降に更新しています。
