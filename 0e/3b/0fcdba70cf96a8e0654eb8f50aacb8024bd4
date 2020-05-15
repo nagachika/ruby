@@ -1,0 +1,2 @@
+Fiber を作成する時に blocking キーワード引数を追加して、これに false を指定することで IO や Mutex など block する処理で自動的に Thread.scheduler で取得できるようにした Thread ごとに scheduler というオブジェクトを使って別の Fiber に切り替えることができるようにしています。デフォルトの Scheduler 実装というのは提供されないようで自分で用意するみたいですね。 わりと大きな変更だけどチケットはないのかな。 https://github.com/ruby/ruby/pull/3032
+Fiber を作成する時に blocking キーワード引数を追加して、これに false を指定することで IO や Mutex など block する処理で自動的に Thread.scheduler で取得できるようにした Thread ごとに scheduler というオブジェクトを使って別の Fiber に切り替えることができるようにしています。デフォルトの Scheduler 実装というのは提供されないようで自分で用意するみたいですね。 [Feature #16786] https://github.com/ruby/ruby/pull/3032
