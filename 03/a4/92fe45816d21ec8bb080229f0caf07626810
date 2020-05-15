@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストの  setup で Reline の各種コールバック設定用メソッド(Reline.completion_proc= など)で nil をセットしておくようにしています。
