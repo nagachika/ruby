@@ -1,0 +1,1 @@
+readline のテストで Readline.completer_quote_characters や Reline.basic_word_break_characters などの設定を書きかえるテストでも ensure 節で元の設定を復旧させるようにしています。
