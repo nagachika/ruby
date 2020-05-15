@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline.completion_proc= や Reline.output_modifier_proc=, Reline.prompt_proc=, Reline.auto_indent_proc=, Reline.dig_perfect_match_proc= などのコールバック登録するメソッドで nil が渡された時に ArgumentError を発生させていたのをやめています。 respond_to?(:call) でチェックしてたのですが nil には特別な意味があるので。
