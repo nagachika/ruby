@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで teardonw で Reline.delete_text を読んでバッファをクリアしておくようにしています。
