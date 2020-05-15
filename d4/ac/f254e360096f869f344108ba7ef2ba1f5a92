@@ -1,0 +1,1 @@
+bundler のテストで ruby 本体に同梱している状態での bundler.gemspec ファイルのパスを切り替えるようにしてたのを、build_path 配下に移動してテスト実行するようにしています。
