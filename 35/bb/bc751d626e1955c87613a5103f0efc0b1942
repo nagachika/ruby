@@ -1,0 +1,1 @@
+ea517cfe23fece12345d76be8f05abad7d5a46fe で bundler のテストで ruby 同梱版では skip するようにしたテストで .bundle ディレクトリの削除を相対パスではなく bundled_app メソッドで求めたパスで指定するようにして skip をとりやめています。
