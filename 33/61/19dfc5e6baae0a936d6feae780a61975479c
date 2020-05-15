@@ -1,0 +1,1 @@
+tool/extlibs.rb から Downloader.cache_file を呼ぶところで cache directory を渡すのにオプション引数で渡していたのを通常引数で渡すようにインターフェース変更に追随しています。また戻り値が Pathname なので to_path で文字列化するようにしています。
