@@ -1,0 +1,1 @@
+同じく 0e3b0fcdba70cf96a8e0654eb8f50aacb8024bd4 の blocking Fiber の追加時のテストを test/scheduler/ 配下から test/fiber/ ディレクトリの下に移動しています。 [ruby-core:98366] [Bug #16892]
