@@ -1,0 +1,1 @@
+同じく 0e3b0fcdba70cf96a8e0654eb8f50aacb8024bd4 の blocking Fiber の追加時の doc/fiber.rdoc の記述のコメント修正と --backtrace-limit オプションの追加。 なんか混ざってる? (コミットログみると --backtrace-limit 追加がメインらしい)。 https://github.com/ruby/ruby/pull/3047
