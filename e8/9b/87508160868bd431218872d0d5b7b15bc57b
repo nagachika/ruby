@@ -1,0 +1,1 @@
+autload された Class/Module で定義されたメソッドの source_location についてのテストで複数回実行に対応するため assert_separately で子プロセスに分離して実行するようにしています。
