@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb の fd leak 時のメッセージの typo 修正やテスト名をメッセージに含めるようにする変更。
