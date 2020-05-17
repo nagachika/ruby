@@ -1,0 +1,1 @@
+Array の各種メソッドの rdoc 用コメントの追記/書きなおしや doc/syntax/calling_methods.rdoc にメソッドチェインについての記述の追加など。 https://github.com/ruby/ruby/pull/3063
