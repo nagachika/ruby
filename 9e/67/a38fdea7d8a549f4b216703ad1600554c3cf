@@ -1,0 +1,1 @@
+rb_locale_encindex() でデフォルトの Encoding として US-ASCII でなく UTF-8 を利用するようにしています。スクリプトの Encoding のデフォルトが UTF-8  になってるのでそれに合わせるとのこと。
