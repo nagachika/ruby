@@ -1,0 +1,1 @@
+Kernel#rand のテストで使う assert_random_int という assertion で指定された seed で生成される乱数を順に配列で引数に渡すようにしていたのを同じ seed で生成した Random インスタンスが生成する乱数列と比較するように変更しています。
