@@ -1,0 +1,1 @@
+doc/dtrace_probes.rdoc にチケット [Feature #14104] への参照を追加して、TracePoint が enabled になってないと DTrace の probe も発火しないことを明記しています(そりゃそうだ、と思うんだけどなにか議論を見落してるかな)。
