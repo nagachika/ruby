@@ -1,0 +1,1 @@
+b16a2aa938d091c387a7437d94dac7f7bb829ba2 で追加した maybe_special_const_class_p() という関数で if 文を使って true, false を return してたのを、if 文の条件部をそのまま return するように書きかえています。
