@@ -1,0 +1,1 @@
+ruby スクリプトのうち __builtin_xxx で builtin 関数の呼び出しをしているものを VM 命令にコンパイルする時にその呼び出しが receiver つきだったら CompileError にするようにしています。
