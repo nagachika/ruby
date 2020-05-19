@@ -1,0 +1,1 @@
+compile.c の compile_call() の引数の int で渡していた type を対応する enum node_type 型に変更しています。
