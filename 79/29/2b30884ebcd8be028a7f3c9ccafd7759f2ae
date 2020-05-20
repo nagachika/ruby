@@ -1,0 +1,1 @@
+builtin 関数を使った ruby 実装を ISeq にして埋め込むためのツール tool/mk_builtin_loader.rb で RubyVM::InstructionSequence.compile_file で VM 命令列を作るかわりに Ripper で構文解析してから処理するようにしています。構文解析だけでもいけるのか。
