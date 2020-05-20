@@ -1,0 +1,1 @@
+GC.compact で VM の値スタック上に積まれている参照を移動可能にしています。 rb_execution_context_update() で Thread からの参照の移動対応する時に VM スタック上の参照も rb_gc_location() でチェックして書き換えるようにしています。
