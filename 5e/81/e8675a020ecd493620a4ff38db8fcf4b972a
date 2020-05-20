@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp の Net::FTP#retrbinary, #retrlines, #storbinary, #storlines などの対応する FTP コマンドの実装で送信側のソケットを shutdown する時やレスポンスを read する時の例外を無視するようにしています。2.7 からの 5be34d6a3310065850c0c530db6936415124b5d9 この変更で例外が上がってしまうようになっていたようです。丁寧に報告されててありがたいですね。 [ruby-core:97838] [Bug #16780]
