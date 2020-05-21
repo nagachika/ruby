@@ -1,0 +1,1 @@
+win32/file.c の #include <wchar.h> の位置を ruby/ruby.h より前にしています。include/ruby/internal/memory.h で memchr() の wrapper を定義する前に #include しておかないといけなかったとのこと。
