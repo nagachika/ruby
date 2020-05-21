@@ -1,0 +1,1 @@
+include/ruby/assert.h の RBIMPL_ASSERT_OR_ASSUME() マクロ定義で __builtin_assume を使う時? の条件として Clang 7.0.0 以降であることを追加しています。 clang-6 になにか不具合か期待していない結果になっていたようです。
