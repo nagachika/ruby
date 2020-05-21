@@ -1,0 +1,1 @@
+tool/pure_parser.rb (a064e46762ec0bfd40e6a04242d9e62fdd21e1f0 で追加された Bison 3 からの非互換吸収のため %pure-parser を %define api.pure に書きかえるやつ)で環境変数 LANG, LC_MESSAGES や LC_ALL  など locale 関係のものを C にセットしてメッセージが変化するのを避けているようです。
