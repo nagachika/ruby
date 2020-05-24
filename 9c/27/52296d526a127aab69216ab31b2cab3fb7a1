@@ -1,0 +1,1 @@
+c7ebeb7eda9f7f6bbb48effe1efc026eeb64d09c の bundler 更新で bundler.gemspec ファイルの spec.files に格納するファイルの glob のパターンを ruby リポジトリ同梱版にあわせて? man file を含めるよう修正しています。
