@@ -1,0 +1,1 @@
+array.c の flatten() で変数の未初期化警告抑制のための初期化子追加。拡張ライブラリ stringio で rb_check_arity() を使っていたのをやめて switch 文での argc のチェックのエラー時に rb_error_arity() を呼ぶようにする(これは効率のため? コイットログを読むと警告抑制みたいだけど)。 vm_insnhelper.h のマクロ SETUP_CANARY() 内の変数の初期化追加。 https://github.com/ruby/ruby/pull/3107
