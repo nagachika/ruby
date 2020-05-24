@@ -1,0 +1,1 @@
+GC.compact で rb_vm_t の保持する VALUE の参照の移動の対応を rb_vm_update_references() に追加してこれらが pin-down されなくてすむようにしています。
