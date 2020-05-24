@@ -1,0 +1,1 @@
+0e3b0fcdba70cf96a8e0654eb8f50aacb8024bd4 で導入された blocking fiber のテストのために追加された test/fiber/ の配下のテスト(test/scheduler/ から移動されたもの)がテストクラス名はまだ TestSchedulerXxxx になってたのでテストクラス名も TestFibverXxxx に改名しています。また test/fiber/test_fiber.rb は逆に test/fiber/test_scheduler.rb にファイル名を改名しています。
