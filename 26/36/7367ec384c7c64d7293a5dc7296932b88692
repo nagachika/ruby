@@ -1,0 +1,1 @@
+c7ebeb7eda9f7f6bbb48effe1efc026eeb64d09c の bundler 更新の対応で ruby リポジトリ同梱版で通らないテストにタグをつけて実行除外するようにしています。
