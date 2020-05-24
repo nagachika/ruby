@@ -1,0 +1,1 @@
+c745a60634260ba2080d35af6fdeaaae86fe5193 の修正が  VM の assertion にひっかかるようになったそうなので revert しています。
