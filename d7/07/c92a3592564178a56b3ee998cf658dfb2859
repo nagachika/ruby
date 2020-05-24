@@ -1,0 +1,1 @@
+Hash#keep_if の実装 rb_hash_keep_if() に static 修飾子を追加しています。
