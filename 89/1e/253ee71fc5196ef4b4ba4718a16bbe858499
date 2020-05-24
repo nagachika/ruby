@@ -1,0 +1,1 @@
+VM 命令を生成してる途中に GC.compact で作成中の ISeq に関連するオブジェクトが移動されてしまうと不具合になるので、利用中であることを示す pinned_list という linked list で管理して GC.compact で移動できないよう GC の mark 処理時に pin down するようにしています。GC されないようにするための mark 用配列から C 言語実装の linked list にしたようですけど Array の要素だと重複して mark されるからかな。
