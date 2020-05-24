@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で rubygems と bundler の同期の前の掃除で削除するファイル名パターンを修正しています。
