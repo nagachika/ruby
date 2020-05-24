@@ -1,0 +1,1 @@
+13f64333ea6c6b904274cb1a95d2bc82236e9237 で導入した ext/fiddle/lib/fiddle/version.rb で Fiddle を Class として定義してたので Module に修正しています。
