@@ -1,0 +1,1 @@
+d48c92aa04ffd3a1cecef599eaa5e4409aab2fe4  の再修正。test_fiber.rb を test_scheduler.rb に改名した時に assertion でファイル名を使ってるところが追随してなかったので追随させています。
