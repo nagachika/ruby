@@ -1,0 +1,1 @@
+8d798e7c531c19756f38aadd03cb801a48cbd97d で revert された c745a60634260ba2080d35af6fdeaaae86fe5193 のリトライ。rb_vm_check_redefinition_opt_method() で最適化命令の脱最適化のためのメソッド再定義の検出部分や find_defined_class_by_owner() で追随する変更が必要だったようです。  [ruby-core:97581] [Bug #16736]
