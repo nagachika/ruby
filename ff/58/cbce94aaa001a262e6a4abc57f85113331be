@@ -1,0 +1,1 @@
+Hash#fetch_values の実装である関数 rb_hash_fetch_values() に static 修飾子を追加しています。
