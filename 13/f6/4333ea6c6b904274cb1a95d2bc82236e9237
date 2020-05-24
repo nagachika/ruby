@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のバージョンを ext/fiddle/lib/fiddle/version.rb を追加して定数として定義するようにしています。
