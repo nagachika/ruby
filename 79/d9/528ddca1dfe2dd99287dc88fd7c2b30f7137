@@ -1,0 +1,1 @@
+6e7e7c1e577d6c2276e9a8cc85c28c55c46c2618 で ISeq のコンパイル中のオブジェクトを pin-down するために導入された struct pinned_list を wrap するオブジェクトを生成する pinned_list_new() で先に TypedData_Make_Struct() するようにしてオブジェクト確保に失敗した時に確保したメモリ領域がリークする潜在的な不具合を修正しています。
