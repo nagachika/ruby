@@ -1,0 +1,1 @@
+79d9528ddca1dfe2dd99287dc88fd7c2b30f7137 の struct pinned_list を wrap するオブジェクトを生成する時の潜在的メモリリーク修正でうっかり rubygems の変更が混ざってたのを revert しています。
