@@ -1,0 +1,1 @@
+0e3b0fcdba70cf96a8e0654eb8f50aacb8024bd4 の blocking Fiber 導入時に io.c の cygwin 専用の preprocessor 分岐内の部分で変数名参照の間違いがあってビルドエラーになっていたのを修正。 [ruby-core:98452] [Bug #16903]
