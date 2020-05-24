@@ -1,0 +1,1 @@
+Hash#delete, Hash#shift, Hash#delete_if, Hash#reject! などの rdoc 用コメントを修正しています。なんか最近 Hash のドキュメントの修正が続いているけど説明が良くなってるのかどうかはいまひとつよくわからない。
