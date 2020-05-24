@@ -1,0 +1,1 @@
+rb_scan_args_assign() や rb_scan_args_result() の定義も 43725c60915753a88224583fafc87c0bac7c5422 にあわせたリファクタリングを施しています。
