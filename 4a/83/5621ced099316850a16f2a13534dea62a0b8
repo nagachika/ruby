@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::CStruct#[] や #[]= で offset とsize によるメモリ領域の ASCII-8BIT の文字列としての切り出しに対応するようにしています。よくみてないけど便利そう。
