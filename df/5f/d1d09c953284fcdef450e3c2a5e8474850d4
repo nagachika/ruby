@@ -1,0 +1,1 @@
+今度は 1d889c96562e9619d2cab443da711e82daeb983c での bundler の更新に対応して失敗する bundler のテストに :ruby_repo タグをつけて実行除外するようにしています。
