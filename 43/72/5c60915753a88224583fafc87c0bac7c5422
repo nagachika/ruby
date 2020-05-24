@@ -1,0 +1,1 @@
+rb_scan_args_set() inline 関数のちょっとしたリファクタリング。
