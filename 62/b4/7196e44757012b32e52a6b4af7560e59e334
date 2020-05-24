@@ -1,0 +1,1 @@
+43725c60915753a88224583fafc87c0bac7c5422 でリファクタリングした rb_scan_args_set() の末尾に UNREACHABLE_RETURN() を追加して処理が戻らないことを明示するようにしています。
