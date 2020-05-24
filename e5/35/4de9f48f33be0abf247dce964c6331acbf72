@@ -1,0 +1,1 @@
+Hash#select! の実装 rb_hash_select_bang() に static 修飾子を追加しています。
