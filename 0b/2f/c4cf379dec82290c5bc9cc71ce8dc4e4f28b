@@ -1,0 +1,1 @@
+tool/extlibs.rb の do_link で symbolik link を作成する前に対象のファイルが存在するかチェックして、なかったら生成しないようにしています。
