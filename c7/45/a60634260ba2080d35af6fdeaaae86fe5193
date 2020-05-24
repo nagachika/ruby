@@ -1,0 +1,1 @@
+Module を include した時に内部的に作られる IClass が Module#prepend 対応のために指す RCLASS_ORIGIN() を対応するの Module の RCLASS_ORIGIN() になるようにしていたのが GC の不具合を引き起こしていたようなので、Module#include や #prepend 時に Array を使って IClass と origin の指す先の参照を両方保持しておくようにしています。また obj_free() で T_ICLASS の mtbl が共有されていた時に解放しないようにしています。  [ruby-core:97581] [Bug #16736]
