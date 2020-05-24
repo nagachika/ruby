@@ -1,0 +1,1 @@
+Hash#default_proc, #default_proc= と #key の rdoc 用コメントの説明やサンプルを書き直しています。 https://github.com/ruby/ruby/pull/3129
