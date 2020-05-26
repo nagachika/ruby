@@ -1,0 +1,1 @@
+rb_check_symbol() という C API に doxygen  向けのドキュメントのためのコメントを追記しています。
