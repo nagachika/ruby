@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Context#instance_method_list に obsoleted の警告を出すようにしています、がこれ戻り値が変わってしまってそう。またかわりに instance_methods メソッドを追加しています。
