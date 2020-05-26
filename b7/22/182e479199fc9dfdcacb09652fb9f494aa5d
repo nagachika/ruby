@@ -1,0 +1,1 @@
+6006ab8cf93a0e06d9d65213eff3117965c9bd0c を revert しています。 AC_CHECK_TOOL() の引数の数が AC_CHECK_PROG() とは異なっていたのでエラーになっていた模様。 [ruby-core:98490] [Bug #16909]
