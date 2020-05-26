@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の lib/rdoc/erb_partial.rb で magic comment で frozen_string_literal: true が指定されているためERB の出力先として使う文字列リテラルが freeze されていたので String#@+ で dup しておくようにしています。
