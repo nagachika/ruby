@@ -1,0 +1,1 @@
+LEGAL、doc/NEWS-2.6.0、doc/NEWS-2.7.0 の見出しつきリストの記法を item:: から [item] のような記法に変更しています。  e6d1363ae6bff73f2eb9f0c727edd4586f7274ad で rdoc の CSS のクラス名変更と関係ありそう。
