@@ -1,0 +1,1 @@
+GCC 10 の C++ で RBIMPL_ATTR_DEPRECATED() の実装に __attribute__() を使わないようにしています。 参照リンクによると typedef の宣言を含む関数に対して利用した時に不具合があるようです。 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=95302
