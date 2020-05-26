@@ -1,0 +1,1 @@
+Dir.home が環境変数 HOME が設定されていない状態でも getlogin(3) や getpwnam(3) や sysconf(3) など環境に応じた関数を利用したホームディレクトリの取得を強化しています。 [ruby-core:97893] [Bug #16787]
