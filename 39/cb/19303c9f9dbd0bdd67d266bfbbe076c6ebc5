@@ -1,0 +1,1 @@
+6006ab8cf93a0e06d9d65213eff3117965c9bd0c のリトライ。再度 pkg-config のチェックに AC_CHECK_TOOL() を使うのはあきらめて独自に ${ac_tool_prefix} つきの pkg-config を探索するようにループつきで AC_CHECK_PROG() を使うようにしています。 [ruby-core:98490] [Bug #16909]
