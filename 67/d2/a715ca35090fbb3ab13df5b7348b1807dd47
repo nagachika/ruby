@@ -1,0 +1,1 @@
+bundler のテストで git ls-files でファイルリストを得るヘルパーメソッドで git 作業ディレクトリでなかった時のための Dir.glob を使った fallback 実装を追加しています。
