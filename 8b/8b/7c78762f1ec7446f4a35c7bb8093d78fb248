@@ -1,0 +1,1 @@
+Hash#reject, Hash#slice, Hash#values_at, Hash#fetch_values などの rdoc 用コメントの強化。 https://github.com/ruby/ruby/pull/3139
