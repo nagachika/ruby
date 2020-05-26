@@ -1,0 +1,1 @@
+configure で pkg-config コマンドの存在チェックをするのに AC_CHECK_PROG() を使っていたのを AC_CHECK_TOOL() を使うように修正しています。 prefix のついたものを探すようにするためとのこと。cross compile のためかな?  [ruby-core:98490] [Bug #16909]
