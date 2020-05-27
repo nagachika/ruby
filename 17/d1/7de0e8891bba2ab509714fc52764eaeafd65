@@ -1,0 +1,1 @@
+feb8dc55b6d2acd8f87e0415af65ff861cc55828 で win32/file.c の #include <wchar.h> を #include "ruby/ruby.h" より前に移動してたのを revert して、かわりに include/ruby/internal/memory.h で memcpy() を代替実装にマクロで上書きしていたのを MinGW ではやめるようにしています。
