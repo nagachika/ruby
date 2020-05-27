@@ -1,0 +1,1 @@
+NameError に原因となった参照の名前などを埋め込むための内部クラス NameError::message クラス(定数になってないので ruby レベルだとアクセスできない)の to_str メソッドで対象の receiver を文字列化するのに receiver が Class/Module だった時は inspect のかわりに name メソッドを使うようにしています。 [ruby-core:98147] [Feature #16832]
