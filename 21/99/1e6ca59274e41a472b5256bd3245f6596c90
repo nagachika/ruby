@@ -1,0 +1,1 @@
+マクロで有効になる assertion 類のマクロの定義に NDEBUG というマクロのかわりに RUBY_DEBUG を使うようにしています。 NDEBUG は否定(定義されてると assertion が無効になる)なので通常のビルドで assertion が有効になっていたため、実行が遅くなっていたので明示的に RUBY_DEBUG=1 を指定して有効にした時だけ assertion が有効になるようにしています。 https://github.com/ruby/ruby/pull/3120 [ruby-core:98174] [Feature #16837]
