@@ -1,0 +1,1 @@
+vm_insnhelper.c に mjit の precomiled header 向けの vm_stackoverflow() の宣言を追加しています。
