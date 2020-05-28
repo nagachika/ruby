@@ -1,0 +1,1 @@
+標準添付ライブラリ open3 の Open3.popen2e で ensure 節を追加して作成した pipe が確実に close されるようにしています。テストで fd leak が検出されていたようです。
