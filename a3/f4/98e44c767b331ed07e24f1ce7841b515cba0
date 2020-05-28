@@ -1,0 +1,1 @@
+Array#max と Array#min の rdoc 用コメントの説明に、配列の要素に Comparable を implement したオブジェクトであることを期待しているという記述がありましたが、これはちょっと意味がおかしいので <=> メソッドを実装しているオブジェクト、と修正しています。 Comparable も <=> が定義されていることを期待した Mix-in 用の Module なので、なんとなく意味はわかりますけどね。 https://github.com/ruby/ruby/pull/3131
