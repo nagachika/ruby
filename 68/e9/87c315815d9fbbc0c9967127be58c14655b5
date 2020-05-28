@@ -1,0 +1,1 @@
+マクロ RUBY_DEBUG  を通行にした状態でのビルドを GitHub Actions の Ubuntu 版の matrix の項目として追加しています。 https://github.com/ruby/ruby/pull/3144
