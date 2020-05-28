@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in で clean-local のターゲットがすぐそばで分割して記述されていたので 1つにまとめています。
