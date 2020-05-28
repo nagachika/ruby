@@ -1,0 +1,1 @@
+Enumerator.produce の rdoc 用コメントで組み合わせて使えるメソッド名として Enumerable#slice と書かれてたのを Enumerable#slice_after に修正。 Enumerable#slice なんてメソッドはないということで。 https://github.com/ruby/ruby/pull/3141
