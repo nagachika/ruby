@@ -1,0 +1,1 @@
+tool/rbinstall.rb で mdoc という形式から man 形式への変換をしているところで、bundler の man ファイル群の時はもとから man 形式らしいので変換しないように特別扱いするようにしています。 [ruby-core:98095] [Bug #16823]
