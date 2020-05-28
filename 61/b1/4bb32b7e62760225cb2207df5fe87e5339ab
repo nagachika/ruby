@@ -1,0 +1,1 @@
+MJIT で rb_mjit_recompile_iseq() を呼ぶコードを生成しているところで ISeq の命令ごとの関数 rb_mjit_recompile_send()、rb_mjit_recompile_ivar()、rb_mjit_recompile_exivar()、rb_mjit_recompile_inlining() などを定義して呼び元での rb_mjit_iseq_compile_info()->xxx_inlining のセットをこれらの関数に切り出しています。キャンセル時の処理なのでメイン部分(?)のコードサイズを小さくして、あまり呼ばれないコード部分に処理を移動する命令キャッシュの効率化による最適化のためという感じでしょうか。
