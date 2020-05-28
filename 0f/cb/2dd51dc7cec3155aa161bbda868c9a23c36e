@@ -1,0 +1,1 @@
+String#ord の実装 rb_str_ord() に static 修飾子を追加しています。
