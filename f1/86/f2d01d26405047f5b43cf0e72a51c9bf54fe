@@ -1,0 +1,1 @@
+385ac07fd8f5a50825aee8db459086e617f492aa の NameError のメッセージに Class/Module が receiver の時は inspect のかわりに name を使うようにした変更の影響で tool/test-coverage.rb が影響をうけたようなので追随しています。
