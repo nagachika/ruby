@@ -1,0 +1,1 @@
+test/drb/drbtest.rb と test/rinda/test_rinda.rb に envutil の明示的な require を追加しています。
