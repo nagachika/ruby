@@ -1,0 +1,1 @@
+common.mk の make distclean-platform、realclean-platform で clean-platform と同様に platform ごとのディレクトリとそのためのタイムスタンプファイルの削除をするようにしています。
