@@ -1,0 +1,1 @@
+Hash#valuesat や Hash#keep_if、Hash#clear、Hash#[]=、Hash#replace、Hash#size、Hash#empty? などのメソッドの rdoc 用コメントの call-seq やサンプルを書き直しています。 https://github.com/ruby/ruby/pull/3143
