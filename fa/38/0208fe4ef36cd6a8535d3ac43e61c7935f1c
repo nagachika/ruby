@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP#set_form の rdoc 用コメントのパラメーターの説明の整形やサンプルコードの強化。 [ruby-core:98534] [Misc #16916]
