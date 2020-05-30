@@ -1,0 +1,1 @@
+ext/ripper/tools/dsl.rb で $$ というグローバル変数? を別に新規作成したグーバル変数 $dollar への alias として上書きしています。グローバル変数の alias なんてできたんだ。 ripper の DSL 内で yacc っぽい $$ が使えるようにするためのようです。
