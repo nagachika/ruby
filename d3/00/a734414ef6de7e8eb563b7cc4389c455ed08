@@ -1,0 +1,1 @@
+RUBY_DEBUG が未定義で clang の 7 以降の時に RBIMPL_ASSERT_OR_ASSUME() は RBIMPL_ASSUME()  を使って __builtin_assume() というのを使ってコンパイラに最適化のヒントを与えるようになっていましたが、Clang で _builtin_assume() の挙動に不具合っぽいものがあったそうで RUBY_ASSERT_NOASSUME というマクロを定義すると __builtin_assume() を使うのもやめるようにしています。
