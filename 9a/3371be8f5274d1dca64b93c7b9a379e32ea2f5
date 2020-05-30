@@ -1,0 +1,1 @@
+参照しているチケットは tool/vcs.rb が SyntaxError になるというものですが、変更は configure で BASERUBY のバージョンが 2.2 以降であることを要求するようにする内容になっています。 [ruby-core:97325] [Bug #16668]
