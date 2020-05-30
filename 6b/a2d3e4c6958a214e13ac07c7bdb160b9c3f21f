@@ -1,0 +1,1 @@
+internal.h の ruby_debug_breakpoint() と ruby_debug_printf() の宣言を RUBY_SYMBOL_EXPORT_BEGIN と RUBY_SYMBOL_EXPORT_END で囲んで mswin 環境で export されるようにしています。
