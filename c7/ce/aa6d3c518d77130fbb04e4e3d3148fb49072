@@ -1,0 +1,1 @@
+gc_compact_after_gc() から移動したオブジェクトの slot を解放する処理を gc_unlink_moved_list() という関数に切り出すリファクタリング。
