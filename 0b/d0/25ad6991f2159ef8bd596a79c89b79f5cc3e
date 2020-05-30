@@ -1,0 +1,1 @@
+debug counters に MJIT で VM 命令の leave をコンパイルしたもので割り込みを検出してキャンセルする処理に入った時のカウンター mjit_cancel_leave を追加しています。
