@@ -1,0 +1,1 @@
+ということで 9a3371be8f5274d1dca64b93c7b9a379e32ea2f5 の続きで tool/lib/vcs.rb の古い ruby のための代替実装などを削除しています。  [ruby-core:97325] [Bug #16668]
