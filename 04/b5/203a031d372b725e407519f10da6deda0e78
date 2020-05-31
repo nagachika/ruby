@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv::DNS::Requester::UnconnectedUDP#sender というメソッドで引数の host のアドレスを Addrinfo.ip で正規化するようにしています。Hash で管理しているので IPv6 で省略表記(っていうのかな)は正規化しないとマッチしなくなるので。  [ruby-core:96374] [Bug #16439]
