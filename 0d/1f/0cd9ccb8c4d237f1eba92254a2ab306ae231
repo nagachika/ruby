@@ -1,0 +1,1 @@
+tool/mkrunnable.rb の ln_safe メソッドで ln_sf が Errno::ENOENT を発生させた時に対象のファイルが存在していない場合を無視するようにしています。 Windows ではリンク先のファイルが実際に存在しない場合に reparse points を使った symbolic link のエミュレートが使えないためあきらめるようにしているようです。
