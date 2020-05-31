@@ -1,0 +1,1 @@
+GC.start に compact キーワード引数を追加して、GC の mark 後の sweep 時にあわせてオブジェクトの移動も行うようにしています。コミットログによると GC.compact とは移動を行う順序が違って確保した heap の順に移動するので古い heap のほうに詰められるのが GC.compact とは異なるとあります。GC.compact の時ってどういう順序だったっけな。
