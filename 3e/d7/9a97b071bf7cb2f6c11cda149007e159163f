@@ -1,0 +1,1 @@
+doc/contributing.rdoc のプラットフォームメンテナがいないプラットフォームの項目から bcc32, djgpp, wince などの記述を消しています。
