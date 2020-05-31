@@ -1,0 +1,1 @@
+Process::GID.from_name を使うテストで不正な名前を渡した時に ArgumentError に加えて Errno::ENOENT、Errno::ESRCH、Errno::EBADF、Errno::EPERM などの例外を許容するようにしています。getgrnam(3) がこれらの errno を返すことがあるそうです。
