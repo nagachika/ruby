@@ -1,0 +1,1 @@
+rubyspec のプラットフォームの判定として Windows の WSL 2 を uname で判定して、Windows で除外されるテストも実行されるようにしています。ただし gethostbyaddr(3) を使うテストは動かないのでこれは除外するようにしています。
