@@ -1,0 +1,1 @@
+Hash の rdoc の call-seq の表記の変更や Hash#to_h の説明の強化など。 https://github.com/ruby/ruby/pull/3155
