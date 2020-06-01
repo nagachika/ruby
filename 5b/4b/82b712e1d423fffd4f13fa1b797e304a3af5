@@ -1,0 +1,1 @@
+rubyspec の Net::HTTP.get のテストで describe の引数のテストケースの説明を修正しています。
