@@ -1,0 +1,1 @@
+compile.c の debug_list() で LINK_ELEMENT::type をデバッグ用に表示する時に誤って FIX2INT() で変換していましたが、このメンバーはただの enum 型なので int にキャストして表示するようにしています。
