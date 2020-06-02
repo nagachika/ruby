@@ -1,0 +1,1 @@
+0d30f42813716f837ca39d74657f7f715042e820 や e10798b3a3dc1f4e4225ad1b92f9157b58df52d9 の Kernel#load と Kernel#require の rdoc 用コメントへの追記にさらに相対パスは Dir.pwd を基準に解決されるということを明示しています。
