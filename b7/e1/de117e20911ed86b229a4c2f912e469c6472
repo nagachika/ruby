@@ -1,0 +1,1 @@
+rubyspec の C API のテスト用の拡張ライブラリで encoding_spec_rb_enc_str_new_cstr_constant() の引数の Encoding の指定がなかった時に rb_enc_str_new_static() を利用して C の静的文字列を使うようにしています。 mswin での SEGV の対策らしいです。
