@@ -1,0 +1,1 @@
+最適化命令 opt_eq の実装 opt_eq_func() と Object#eql? の実装に使っている opt_eql_func() を opt_equality() という関数にまとめています。コンパイル後のコードが小さくなるとのこと。
