@@ -1,0 +1,1 @@
+テスト用のユーティリティ EnvUtil の terminate の 3591703b31658f8e97eb0677e2261e6e7551307b と 7b9527ce74de11afc8e890db83f2a13a6ed5dc91 での変更を revert して、SIGSEGV で子プロセスを止めようとするかわりに macOS 上では lldb で子プロセスに attach して rb_vmdebug_stack_dump_all_threads() を呼び出すようにしています。 CI のデバッグ用かな?
