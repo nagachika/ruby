@@ -1,0 +1,1 @@
+Hash#inspect の rdoc 用コメントの call-seq やサンプルでの表記が to_s になってたのを修正したり、そのほか Hash の rdoc 用コメントの書き直し。最近 Hash のドキュメントの書き直し多いな。正直内容的に欠けてたものが追加されてるのかはよくわかっていない。 https://github.com/ruby/ruby/pull/3162
