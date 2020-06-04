@@ -1,0 +1,1 @@
+vm_invoke_block() の引数に is_lambda を追加して vm_invoke_block() 内で block_handler_type_proc の時に goto を使って vm_invoke_iseq_block() を呼ぶように制御しているのを、ちゃんと専用の関数を作って vm_invoke_block() を再帰的に呼び直させるようにスッキリさせています。
