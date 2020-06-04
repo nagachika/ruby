@@ -1,0 +1,1 @@
+vm_invoke_block() から各 vm_invoke_iseq_block(), vm_invoke_symbol_block(), vm_invoke_ifunc_block() などブロックの種類毎の関数へのブロックを渡す引数を struct rb_captured_block からそれを wrap したオブジェクトの VALUE に変更して、内容に応じてポインタを取り出す処理を各関数内に移動するリファクタリング。
