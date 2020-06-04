@@ -1,0 +1,1 @@
+054c2fdfdfe9d43c3ae4ba508bb419c3e9db015f の変更で vm_call_symbol() の VM stack 調整時に VM stack の overflow チェックを追加しています。
