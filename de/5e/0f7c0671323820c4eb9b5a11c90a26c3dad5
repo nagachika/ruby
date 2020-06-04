@@ -1,0 +1,1 @@
+ec87a58d556c83bbec44c2df8444d95df56379a4 で goto を消すために vm_invoke_block() から切り出した vm_invoke_proc_block() で vm_invoke_block() を再帰呼び出しした先でまた vm_invoke_proc_block() を呼び出してしまうのを避けるためここで vm_block_handler_type() の結果が block_handler_type_proc のあいだは vm_proc_to_block_handler() で辿るようにしています。 Proc オブジェクトのブロックを取り出したらそれがまた Proc オブジェクトだった、ということだと思うけど、ブロック引数の委譲をネストさせると何段にもなり得るのかな。
