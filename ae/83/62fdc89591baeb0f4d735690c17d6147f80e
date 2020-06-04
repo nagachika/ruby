@@ -1,0 +1,1 @@
+NoMethodError のメッセージに receiver を埋め込む時に最近の変更で Module/Class だったら inspect ではなく name を使うようになった変更に対応した rubyspec のテスト追加。
