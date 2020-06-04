@@ -1,0 +1,1 @@
+vm_invoke_symbol_block() で vm_yield_with_symbol() を利用していたのを VM stack を弄って調整してからメソッド呼び出しの vm_call_opt_send() 関数を流用するようにしています。 vm_exec() の呼び出しのネストを減らすためらしいです。
