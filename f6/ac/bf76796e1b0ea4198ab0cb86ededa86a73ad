@@ -1,0 +1,1 @@
+GitHub Actions の設定で git pull のオプションとして環境変数 GITPULLOPTIONS を使って --no-tags を指定するようにしています。
