@@ -1,0 +1,1 @@
+st.c の未使用になっていた変数 st_reserved_hash_val と st_reserved_hash_substitution_val を削除しています。 [ruby-core:98650] [Bug #16934]
