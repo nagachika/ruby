@@ -1,0 +1,1 @@
+GitHub Actions でリポジトリの clone 前に git config サブコマンドで advice.detachedHead=0 という設定を追加して detached HEAD の警告を抑制するようにしています。
