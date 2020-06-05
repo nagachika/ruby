@@ -1,0 +1,1 @@
+8340c773e54feb399c9fab322e3ff6dd578ac04d と同様に defined? で private method が Refinements で定義されていた場合に検出できるように修正しています。 [ruby-core:98642] [Bug #16932]
