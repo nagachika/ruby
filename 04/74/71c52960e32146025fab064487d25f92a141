@@ -1,0 +1,1 @@
+f6acbf76796e1b0ea4198ab0cb86ededa86a73ad の GitHub Actions での git pull のオプションを GITPULLOPTIONS 環境変数で指定するのに加えて引数まで指定して、common.mk で GITPULLOPTIONS に --rebase を設定(上書き)していたのをやめ、make up で git pull を呼ぶところでは明示的に --rebase オプションを追加するようにしています。
