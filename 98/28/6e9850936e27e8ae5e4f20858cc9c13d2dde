@@ -1,0 +1,1 @@
+Module#include や Module#prepend と Refinements や Module#dup とメソッド再定義の組み合わせでおきる不具合の修正。Module#refine する時に引数の Module の CLASS_ORIGIN() を生成するようにする修正と Module#initialize_dup で CLASS_ORIGIN() があった時に継承ツリーも複製するようにする修正が主で、それに関連して多岐にわたる追随する変更があるようです。 [ruby-core:98302] [Bug #16852]
