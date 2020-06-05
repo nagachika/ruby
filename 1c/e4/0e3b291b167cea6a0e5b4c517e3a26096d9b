@@ -1,0 +1,1 @@
+GitHub Actions の設定で git リポジトリの clone 用のアクションの設定から fetch-depth 設定を削除しています。
