@@ -1,0 +1,1 @@
+vm.c の vm_empty_cc という変数に static 修飾子を追加しています。 [ruby-core:98650] [Bug #16934]
