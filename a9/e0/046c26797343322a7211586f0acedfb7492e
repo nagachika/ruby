@@ -1,0 +1,1 @@
+8b22fd27f181ea1902bbb584b41488e307121587 の続き。 変数 vm_empty_cc を MJIT 向けの precompiled header では export していたのを関数 rb_vm_empty_cc() 経由で参照させるようにしています。 [ruby-core:98650] [Bug #16934]
