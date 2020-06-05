@@ -1,0 +1,1 @@
+defined? で Refinements で上書きされたメソッド呼び出しを検出するように修正しています。 [ruby-core:98642] [Bug #16932]
