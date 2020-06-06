@@ -1,0 +1,1 @@
+rubygems の再定義する Kernel#require で -I オプションで追加されるロードパスは rubygems の gem 探索の際にはスキップするようにしているみたいです。いいのかなそれ。
