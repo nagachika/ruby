@@ -1,0 +1,1 @@
+ruby setup.rb を実行すると rubygems の警告が出るということで警告除去のため rubygems の require を require_relative に変更。setup.rb が $LOAD_PATH に相対パスを追加するためとのこと。コミットログみるとこれが根本的な修正ではなさそう(というか setup.rb が悪い気がする)けどこれで抑えられるからみたいな感じ。
