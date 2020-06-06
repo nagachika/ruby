@@ -1,0 +1,1 @@
+rubygems のテストで RbConfig::TOPDIR が未定義だとうまく動かないテストを skip するようにしています。 make install してないと動かないテストらしい。
