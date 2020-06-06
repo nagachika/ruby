@@ -1,0 +1,1 @@
+cont.c の fiber_pool_vacancy_push() で struct fiber_pool_vacancy の linked list の先頭に追加した時に新しい head の previous を NULL クリアするのを忘れてたのを修正しています。  [Bug #16814]
