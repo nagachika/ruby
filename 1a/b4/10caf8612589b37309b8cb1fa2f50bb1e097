@@ -1,0 +1,1 @@
+fcc8be0198a16cc5fa7d4827be0c781209b70f98 の bundler のテストでコミットハッシュを得るのに失敗した時の fallback を revert しています。
