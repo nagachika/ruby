@@ -1,0 +1,1 @@
+bundler のテストでの forgotten_command_line_options の削除漏れがあったので追加修正。
