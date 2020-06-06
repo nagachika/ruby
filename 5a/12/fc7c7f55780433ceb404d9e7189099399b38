@@ -1,0 +1,1 @@
+bundler のテストで Windows 上で skip していたいくつかのテストの skip をやめています。
