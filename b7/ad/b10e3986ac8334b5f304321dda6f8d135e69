@@ -1,0 +1,1 @@
+rubygems の extension (ってなんだろ)で Gem::Ext::RakeBuilder が含まれてないけど必要だったという時に警告を表示するようにしています。
