@@ -1,0 +1,1 @@
+net/http の rdoc 用コメントに Net::HTTP.start のオプション keep_alive_timeout を追記しています。
