@@ -1,0 +1,1 @@
+bundler のテストのコマンドラインオプションの指定に forgotten_command_line_options を使ってたところをさらに消しています。
