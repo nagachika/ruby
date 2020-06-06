@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/ext/ext_conf_builder.rb で fileutils と tempfile の require を実際に必要になるまで遅延するようにしています。
