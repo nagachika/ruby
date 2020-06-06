@@ -1,0 +1,1 @@
+bundler のテストで BUNDLER_SPEC_FORCE_RECORD という環境変数で挙動変更していたのをやめています。
