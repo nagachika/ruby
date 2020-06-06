@@ -1,0 +1,1 @@
+さらに bundler の normalize_groups の修正。 --with/--without オプションの指定がなかった時の処理を修正しています。
