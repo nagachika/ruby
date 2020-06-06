@@ -1,0 +1,1 @@
+rubygems の再定義する Kernel#require で LoadError のメッセージに対象のファイルパスが末尾に含まれることに依存していたのを LoadError#path メソッドを使うようにしています。LoadError#path の追加って 2.0.0 なんでずいぶん前なんだな。
