@@ -1,0 +1,1 @@
+e17028e48bcddaef2fb6ded37e8f104886120465 で追加したデバッグ用の情報収集で BasicSocket#local_address が例外 IOError を発生させる場合があるので無視させるようにしています。
