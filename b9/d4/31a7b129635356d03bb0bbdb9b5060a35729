@@ -1,0 +1,1 @@
+lib/rubygems/core_ext/kernel_require.rb のコメントに書かれてた pull request の URL を削除。もうだいぶ変わっちゃったからとのこと。
