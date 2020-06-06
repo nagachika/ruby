@@ -1,0 +1,1 @@
+rubygems のテストで require 'rubygems/package_task'  の LoadError を無視させていたのをやめています。不要になったらからしい。
