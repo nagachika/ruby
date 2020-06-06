@@ -1,0 +1,1 @@
+a18e81d797135de6e143a600e4f4d2b00ab23bf9 および 5aa5aad48aa3effce60de3559d9bd107bfc9a91d の続き。 rubygems の再定義する Kernel#require でループ内での計算をループ外に括り出してローカル変数で使いまわす最適化。
