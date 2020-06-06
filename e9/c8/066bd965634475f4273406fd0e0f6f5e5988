@@ -1,0 +1,1 @@
+rubygems の Gem::SpecificationPolicy#validate をさらに #validate_required! と #validate_optional に分割したり追加の validation メソッドを呼び出したりしています。
