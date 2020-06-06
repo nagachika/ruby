@@ -1,0 +1,1 @@
+01fcc291dc8a4c43c0763ebbb04e2e9e137cc738 の続きで RakeFileUtils.verbose_flag を false にセットするのを setup で全体的にやっていたのを個別のテストメソッド内でそれぞれセットするように変更しています。
