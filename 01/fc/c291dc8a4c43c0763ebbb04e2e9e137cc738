@@ -1,0 +1,1 @@
+rubygems のテストで RakeFileUtils.verbose_flag の値を teardown で復旧するようにしています。
