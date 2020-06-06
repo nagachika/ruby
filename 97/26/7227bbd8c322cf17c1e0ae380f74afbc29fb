@@ -1,0 +1,1 @@
+bundle install で --no-deployment というオプションを suggest する場合があったのをやめています。
