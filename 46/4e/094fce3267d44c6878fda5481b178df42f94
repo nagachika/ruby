@@ -1,0 +1,1 @@
+b7adb10e3986ac8334b5f304321dda6f8d135e69 で lib/rubygems/specification_policy.rb に追加した require 'rubygems/ext' を必要になってから require するように遅延しています。また追加した警告メッセージの修正。
