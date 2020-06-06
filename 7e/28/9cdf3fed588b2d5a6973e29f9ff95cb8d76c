@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで libyaml のバージョンによってちょっと結果が変わっちゃったのを許容するようにしています。https://github.com/yaml/libyaml/issues/196
