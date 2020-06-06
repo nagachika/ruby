@@ -1,0 +1,1 @@
+rubygems で文字列のマッチに先頭/末尾への正規表現を使うかわりに String#start_with?, String#end_with? で代替できるものはこちらを使うようにしています。
