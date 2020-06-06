@@ -1,0 +1,1 @@
+rubygems の Gem.load_path_insert_index のデフォルト値を 0 にして呼び元での分岐をなくしています。
