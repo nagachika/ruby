@@ -1,0 +1,1 @@
+拡張ライブラリ psych のバージョンを version.rb から読み込むために gem 版と ruby リポジトリ版でのパスの違いを相対パスで吸収して $LOAD_PATH に追加しておくようにしています。require_relative じゃだめなんかな。
