@@ -1,0 +1,1 @@
+bundler のテストで使ってる forgotten_command_line_options (今現在はもう存在しないんだけど)で Bundler 2系向けの利を削っています。
