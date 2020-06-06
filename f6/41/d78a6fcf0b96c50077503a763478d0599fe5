@@ -1,0 +1,1 @@
+4085c51a5175aeff2aeb8b849214c2899a79eb19 の続き。拡張ライブラリ psych の Psych.load の freeze キーワード引数対応で freeze が漏れてたところを修正しています。
