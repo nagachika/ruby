@@ -1,0 +1,1 @@
+bundler のテストで使ってた forgotten_command_line_usages というメソッドを削除してコマンドラインオプションを直接文字列で記述するようにしています。
