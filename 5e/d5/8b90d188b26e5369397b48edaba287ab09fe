@@ -1,0 +1,1 @@
+拡張ライブラリ psych の gemspec ファイルの spec.files から .travis.yml を削除しています。
