@@ -1,0 +1,1 @@
+net/imap のテストで CI のデバッグのため保存している情報に ObjectSpace.each_object で全ての socket のアドレス情報を収集しておくようにしています。
