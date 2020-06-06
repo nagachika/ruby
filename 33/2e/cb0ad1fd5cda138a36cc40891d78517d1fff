@@ -1,0 +1,1 @@
+6b7a0c0ca7102c2891b75cd6ef7429dd90d931c3 の影響で bundle install 中に bundle config 相当の設定の保存が暗黙に行なわれれるようになっちゃったらしくて、明示的にオプションが渡された時だけ normalize_groups を呼ぶようにしています。
