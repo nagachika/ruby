@@ -1,0 +1,1 @@
+rubygems の再定義する Kernel#require のテストで default gem の新しいバージョンがインストールされてた場合のテストを追加しています。
