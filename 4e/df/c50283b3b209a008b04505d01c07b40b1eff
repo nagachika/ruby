@@ -1,0 +1,1 @@
+lib/rubygems/package.rb に明示的な require "rubygems" を追加しています。
