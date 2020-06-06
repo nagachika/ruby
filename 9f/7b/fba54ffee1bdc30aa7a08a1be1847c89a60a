@@ -1,0 +1,1 @@
+67d2a715ca35090fbb3ab13df5b7348b1807dd47 の bundler のテストで git ls-files が失敗した時の fallback 実装も revert しています。
