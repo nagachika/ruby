@@ -1,0 +1,1 @@
+bundler のテストで bundle install の --deployment オプションを渡すのを forgotten_command_line_options というメソッドを通してたのをやめてますが意味はよくわからない(今現在はもう forgotten_command_line_options というメソッドは存在しなくなっている)。
