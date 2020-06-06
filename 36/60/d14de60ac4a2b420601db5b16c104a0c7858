@@ -1,0 +1,1 @@
+rubygems の rake package で FileUtils のメッセージを標準出力に出すように @fileutils_output をセットするようにしています。こうしないと stderr に出てるからかな。
