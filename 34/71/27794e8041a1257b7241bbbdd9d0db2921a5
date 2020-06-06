@@ -1,0 +1,1 @@
+make test-bundler-parallel で spec/bundler/support/parallel はもう不要らしくて  --require で指定するのをやめています。
