@@ -1,0 +1,1 @@
+bundler のテストに使う gemspec ? の compact_index への依存関係のバージョン指定を更新しています。
