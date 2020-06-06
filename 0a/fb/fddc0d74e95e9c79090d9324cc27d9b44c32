@@ -1,0 +1,1 @@
+347127794e8041a1257b7241bbbdd9d0db2921a5 の続きで、クオートの閉じ漏れの修正と PARALLEL_TESTS_EXECUTABLE という変数を定義するようにしています。けど PARALLEL_TESTS_EXECUTABLE は他に使われてなさそう。[追記] PARALLEL_TESTS_EXECUTABLE は parallel_tests という gem が見てるそうです。[/追記]
