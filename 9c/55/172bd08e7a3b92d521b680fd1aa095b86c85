@@ -1,0 +1,1 @@
+de3f183c2a2da499da5d4349c82f122bef1fc68b の続きで require "rubygems/test_case" がひとつのテストメソッド内に置かれてたので先頭に移動しています。
