@@ -1,0 +1,1 @@
+01fcc291dc8a4c43c0763ebbb04e2e9e137cc738 と f7d3522a54627b6d2fec0606fff5612ba52f2731 で rubygems のテストで RakeFileUtils.verbose_flag のフラグを復旧するようにしたうえでフラグの変更は必要なテストメソッド内でのみ行うようにしてましたが、復旧も teardown を使わずに各メソッドの ensure 節でするようにしています。
