@@ -1,0 +1,1 @@
+bundler の gemspec ファイルで bug_tracker_uri の指定は rubygems に統合されたかわりにクエリパラメーターでフィルタリングされた URL に変更しています。
