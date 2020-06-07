@@ -1,0 +1,1 @@
+make test-bundler-parallel で並列度を -j オプションから得て設定するようにして、GitHub Actions の MinGW 版では -j の並列数を CPU コア数の2倍に設定するようにしています。
