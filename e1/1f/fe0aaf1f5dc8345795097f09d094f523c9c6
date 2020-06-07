@@ -1,0 +1,1 @@
+347127794e8041a1257b7241bbbdd9d0db2921a5 と 0afbfddc0d74e95e9c79090d9324cc27d9b44c32 のさらに続きで make test-bundler-parallel で起動する時の環境変数 PARALLEL_TESTS_EXECUTABLE の設定を ruby のワンライナー内で行なうようにしてさらに .bundle/bin/parallel_rspec を load で読み込むようにしています。make で変数をセットしても環境変数に書き戻されないので。
