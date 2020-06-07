@@ -1,0 +1,1 @@
+GitHub Actions の Utuntu と macOS で make test-bundler のかわりに test-bundler-parallel を使うようにしてみています。
