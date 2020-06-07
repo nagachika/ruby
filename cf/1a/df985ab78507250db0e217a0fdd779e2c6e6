@@ -1,0 +1,1 @@
+defs/gmake.mk のテストのターゲットの順序をそろえるための対象のターゲットに test-bundler-parallel を追加しています。
