@@ -1,0 +1,1 @@
+e5f54465284b4505042fca10ace998e1d29c2313 の did_you_mean の変更に伴なって rubyspec の NoMethodError のテストでメッセージの改行の有無を変更しています。
