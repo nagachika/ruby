@@ -1,0 +1,1 @@
+e5f54465284b4505042fca10ace998e1d29c2313 でうっかり? 入った did_you_mean のメソッド定義字に initialize の typo を指摘したりインスタンス変数の参照の typo をチェックするなどの experimental な機能のための Module 定義を削除しています。
