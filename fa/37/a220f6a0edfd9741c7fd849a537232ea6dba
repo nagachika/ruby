@@ -1,0 +1,1 @@
+Enumerable#slice_when と Enumerable#chunk_while の rdoc 用コメントの typo 修正。
