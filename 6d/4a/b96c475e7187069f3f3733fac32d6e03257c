@@ -1,0 +1,1 @@
+ruby の test-all のほうのテストでも NoMethodError のテストを did_you_mean による suggest の有無に依存しないようより robust になるように書きかえています。
