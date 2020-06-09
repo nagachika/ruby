@@ -1,0 +1,1 @@
+Hash の比較演算子メソッドや Hash#to_proc の rdoc 用コメントの markup 修正やサンプルの変更。 https://github.com/ruby/ruby/pull/3187
