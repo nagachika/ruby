@@ -1,0 +1,1 @@
+make benchmark でデフォルトのオプションとして --output=markdown --output-compare を渡して Markdown 形式で比較結果を出力させるようにしています。
