@@ -1,0 +1,1 @@
+rb_equal_opt() と rb_eql_opt() で rb_call_data::cc メンバーの初期化を USE_EMBED_CI の分岐の外に出しています。 USE_EMBED_CI の時は利用する変数を static 変数にしていたため初期化子で初期化すると利用後に変化している可能性があるため、再初期化しないといけないということみたいです。
