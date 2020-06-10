@@ -1,0 +1,1 @@
+vm.c の static 変数 vm_empty_cc の初期化を Init_vm_objects() で行なってたのから初期化子による初期化に変更しています。生成コードを小さくするためとのこと。また 77293cef91a9aa424c086ae05f03211d9a8a87d3 で行なってた struct rb_callinfo がオブジェクト生成しない場合のフラグを追加して rb_equal_opt() で callinfo と callcache を静的領域のデータを使うようにしています。
