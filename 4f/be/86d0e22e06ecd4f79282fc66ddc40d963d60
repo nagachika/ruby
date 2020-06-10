@@ -1,0 +1,1 @@
+vm_call_method() で struct rb_callcache の初期化に VM_CC_ON_STACK() を使うかわりにコピー元の構造体を単に代入するようにしています。flags の VM_CALLINFO_NOT_UNDER_GC のセットはしなくてもいいのかな?
