@@ -1,0 +1,1 @@
+vm.c の static 変数 vm_empty_cc の初期化に VM_CC_ON_STACK() マクロを利用するようにしています。
