@@ -1,0 +1,1 @@
+vm_call_method_missing_body() でも同様に callinfo もスタック上の静的領域を使うようにしています。
