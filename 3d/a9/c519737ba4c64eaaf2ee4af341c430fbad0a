@@ -1,0 +1,1 @@
+rb_vm_search_method_slowpath() で 8f3d4090f037ae35fc9ba6380ee284aec837201f のオブジェクトを生成していない callinfo の対応をしています。
