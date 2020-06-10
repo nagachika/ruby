@@ -1,0 +1,1 @@
+cd3d035e8a0d8555748f564f10ea00458a60355c で拡張ライブラリ psych の gemspec ファイルの中で psych/version.rb を require してバージョンの定数を得るようにしてたのをやめて、相対パスで version.rb を指定して File.read で読み込み module_eval で評価して定数を取り出すようにしています。make test-all した時に ext/ の配下と .ext/common/ 配下のファイルを二重に読み込み定数再定義の警告が出るのを抑制するため。なるほどー。そういう意味だと require_relative でもだめか。
