@@ -1,0 +1,1 @@
+vm_call_symbol() でも callinfo と callcache をマシンスタック上に確保してオブジェクト生成を抑制しています。
