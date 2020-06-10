@@ -1,0 +1,1 @@
+mjit.c の mjit_mark_cc_entries() で call cache の GC mark 処理する時に vm_cc_markable() で flags をチェックして静的領域に確保されたものは mark 処理しないようにしています。
