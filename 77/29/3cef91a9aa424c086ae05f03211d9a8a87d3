@@ -1,0 +1,1 @@
+vm_ci_markable() という関数を導入して struct rb_callinfo が GC で管理されてるかどうか判定するようにしています。
