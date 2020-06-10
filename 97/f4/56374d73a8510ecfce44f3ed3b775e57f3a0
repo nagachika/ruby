@@ -1,0 +1,1 @@
+8f3d4090f037ae35fc9ba6380ee284aec837201f と同様に rb_eql_opt() でも callinfo および callcache のために T_IMEMO オブジェクトを生成しないようにしています。
