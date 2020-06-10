@@ -1,0 +1,1 @@
+vm_yield_setup_args() で struct rb_callinfo の初期化しているところで導入した VM_CI_ON_STACK() マクロを利用するようにしています。
