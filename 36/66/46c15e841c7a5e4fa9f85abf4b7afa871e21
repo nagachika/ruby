@@ -1,0 +1,1 @@
+GitHub Actions の設定 .github/workflows/codeql-analysis.yml を追加。 CodeQL という静的解析による? 脆弱性診断サービスを利用したチェックをするようにしています。 https://github.com/ruby/ruby/pull/3196
