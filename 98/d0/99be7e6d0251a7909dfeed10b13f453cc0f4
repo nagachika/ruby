@@ -1,0 +1,1 @@
+88e6799759374cbd6af77a5feb596d806b4e1bd9 の static 変数 vm_empty_cc の初期化子に VM_CC_ON_STACK() マクロを使ってたのが VC ではコンパイルエラーになるそうなので revert しています。
