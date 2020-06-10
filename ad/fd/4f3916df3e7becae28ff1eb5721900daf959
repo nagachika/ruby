@@ -1,0 +1,1 @@
+GitHub Actions のコンパイラオプションのバリエーションを網羅するやつで cppflags に -DMJIT_FORCE_ENABLE を設定するものを追加しています。
