@@ -1,0 +1,1 @@
+Kernel#sleep が blocking Fiber のために Thread に scheduler が設定されていた時に実際に眠ってた秒数を返さず真偽値を返してた? のを修正しています。https://github.com/ruby/ruby/pull/3198
