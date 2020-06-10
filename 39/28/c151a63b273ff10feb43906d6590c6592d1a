@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_search_cc() と vm_search_method_fastpath() で vm_cc_empty() というアクセサ関数経由で参照している変数 vm_empty_cc を直接参照するようにしています。頻繁に通るところなので効率のためとのこと。
