@@ -1,0 +1,1 @@
+vm_call_method() でも vm_cc_fill() の呼び出しをやめて VM_CC_ON_STACK() による初期化子で構造体 struct callcache の初期化を行なうようにしています。
