@@ -1,0 +1,1 @@
+vm_ccs_push() で callinfo  や callcache が GC 可能なオブジェクトかどうかチェックして静的領域だったら callcache の管理用配列への追加をしないようにしています。
