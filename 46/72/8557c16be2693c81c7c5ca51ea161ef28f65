@@ -1,0 +1,1 @@
+VM_CI_ON_STACK() と VM_CC_ON_STACK() のマクロ定義を vm_insnhelper.c から vm_callinfo.h に移動して vm_eval.c の rb_vm_call0() でも struct rb_callinfo をスタック上に確保するようにしています。また vm_cc_fill() は不要になったので定義自体を削除しています。
