@@ -1,0 +1,1 @@
+iseq_peephole_optimize() による VM 命令列の最適化で不要な jump 命令の削除に関するもので、ISeq の jump 命令の次の要素が insn の要素になってるかチェックを追加しています。 アライメントの関係で ISEQ_ELEMENT_ADJUST が来ている場合があってその時に異常終了してしまっていたようです。
