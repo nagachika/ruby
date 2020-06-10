@@ -1,0 +1,1 @@
+vm_insnhelper.c の check_cfunc() という関数の分岐を分解して、VM_ASSERT() で me の内容についてのチェックを追加しています。
