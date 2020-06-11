@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate の gemspec ファイルに ruby2_keywords.gem への runtime_dependency を追加しています。
