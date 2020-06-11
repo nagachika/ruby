@@ -1,0 +1,1 @@
+02b216e5a70235f42f537e895d6f1afd05d8916a と 9b8825b6f94696c9659f93f5da9bf02644625f67 の GC.compact の処理を GC.start のキーワード引数 compact: true で同時に行なえるようにする新機能を revert しています。 sweep と compact 処理を同時に行なうのは安全ではなかったとのこと。
