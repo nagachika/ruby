@@ -1,0 +1,1 @@
+a4f3e1762aa195969ace000ac0dc8d300dda85cb でテスト系ターゲットの依存関係を program から main に変更してたのを make test-all については revert しています。開発時の時間短縮のため。
