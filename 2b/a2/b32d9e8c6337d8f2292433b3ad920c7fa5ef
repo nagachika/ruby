@@ -1,0 +1,1 @@
+gc.c の cc_table_free() でコールバック関数内で ID は未使用なので rb_id_table_foreach() のかわりに rb_id_table_foreach_values() を利用するようにしています。ここでいう cc_table って call cache table だっけ……。T_MODULE 型のオブジェクトの mark に関するものみたいだからたぶんそうだな。
