@@ -1,0 +1,1 @@
+c8cd6b2003b6787630637d93b4d2930c7fa5590e の delegate の gemspec ファイルで ruby2_keyword への依存関係を追加していたのをやめ、spec.required_ruby_version に 2.7 以降という指定を追加しています。
