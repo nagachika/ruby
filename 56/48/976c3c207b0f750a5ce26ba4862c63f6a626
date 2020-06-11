@@ -1,0 +1,1 @@
+4fbe86d0e22e06ecd4f79282fc66ddc40d963d60 でコードサイズ削減のため構造体 struct rb_callcache の初期化に VM_CC_ON_STACK() のかわりに構造体代入を使ってたところで、flags の VM_CALLCACHE_UNMARKABLE の設定が漏れてたので構造体代入後に追加で flags のセットを行うようにしています。コピー元の rb_callcache はオブジェクトになっているものかもしれないので。
