@@ -1,0 +1,1 @@
+Module#instance_method で取り出した Method#owner が Module を include している Module を prepend したクラスのインスタンスで実行すると止まらなくなるという不具合を修正しています。結構前からあったみたいだけどよくみつからずに残ってましたね。 https://github.com/ruby/ruby/pull/3201 [ruby-core:98691] [Bug #16942]
