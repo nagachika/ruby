@@ -1,0 +1,1 @@
+拡張ライブラリ fcntl の gemspec ファイルから add_development_dependency の指定を削除。
