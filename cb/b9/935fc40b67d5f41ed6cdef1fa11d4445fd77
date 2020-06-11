@@ -1,0 +1,1 @@
+Kernel#sleep の戻り値を INT2FIX() で変換していたのを型にあわせて TIMET2NUM() に修正しています。
