@@ -1,0 +1,1 @@
+拡張ライブラリ dbm の gemspec ファイルに spec.metadata["msys2_mingw_dependencies"] を "gdbm" に設定する法を追加しています。依存する外部ライブラリの指定かな?
