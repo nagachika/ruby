@@ -1,0 +1,1 @@
+Array の rdoc 用コメントのサンプルで fail のかわりに raise を使うようにするのと、Array#fetch と Array#index の rdoc 用コメントでサンプルの強化。 https://github.com/ruby/ruby/pull/3202
