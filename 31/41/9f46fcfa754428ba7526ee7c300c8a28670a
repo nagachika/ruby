@@ -1,0 +1,1 @@
+拡張ライブラリ fcntl に定数 Fcntl::F_SETPIPE_SZ と Fcntl::F_GETPIPE_SZ を追加しています(その環境に同名のマクロ定数が定義されていたら)。
