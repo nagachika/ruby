@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPProxy#perform_proxy_request で Net::HTTP.new する処理を create_net_http というメソッドに切り出すリファクタリング。まだ使いまわされてはいない。再定義で stub するためかな?
