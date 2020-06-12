@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の gemspec ファイルで required_ruby_version を 2.5 以降に設定しています。
