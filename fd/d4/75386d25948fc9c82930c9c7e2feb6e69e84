@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の gemspec ファイルで spec.date を svn の置換文字列を使ってセットしていたのをやめています。指定しなくても自動的に rubygems.org が設定してくれるとのこと。
