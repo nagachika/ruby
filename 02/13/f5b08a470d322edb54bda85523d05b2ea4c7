@@ -1,0 +1,1 @@
+gc.c の rb_raw_obj_info() で Address Sanitizer での誤検出を避けるための asan_unpoison_object() 追加。
