@@ -1,0 +1,1 @@
+Object#instance_variable_set の rdoc 用コメントの注意書きの言葉遣いを丁寧に修正しています(英語のニュアンスの違いよくわからないけど)。 [ruby-core:89594] [Misc #15265] [ruby-core:92144] [Misc #15748]
