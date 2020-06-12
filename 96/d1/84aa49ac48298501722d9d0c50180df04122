@@ -1,0 +1,1 @@
+73ca989a8175dfdfbc92a31aac7bb6252ee4fe2c の追加で spec/bundler/ のターゲットのコマンドで make test-bundler-parallel を実行するのではなく、test-bundler-parallel への依存関係をつけることで同じ make コマンド内で実施するようにしています。
