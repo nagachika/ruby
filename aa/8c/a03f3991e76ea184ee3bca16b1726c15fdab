@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate の version.rb で Delegator クラスを BasicObject を継承するように修正しています。他の箇所の定義と食い違ってたので。
