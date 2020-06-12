@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ net/smtp の gemspec ファイルで required_ruby_version を 2.5 以降に更新しています。
