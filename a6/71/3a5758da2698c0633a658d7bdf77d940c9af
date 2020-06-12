@@ -1,0 +1,1 @@
+rubyspec の IO#ioctl のテストで不正な引数を指定した時の例外として Errno::ENOTTY を期待していたところを SystemCallError 全般に緩めています。
