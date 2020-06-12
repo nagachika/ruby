@@ -1,0 +1,1 @@
+573e8d7736c84149ae298f4a8ed532525b6645d0 の Object#instance_variable_set の rdoc 用コメントの書き換えの typo 修正。  [ruby-core:89594] [Misc #15265] [ruby-core:92144] [Misc #15748]
