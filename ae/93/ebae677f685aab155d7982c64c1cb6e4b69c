@@ -1,0 +1,1 @@
+f3e12caa088cc893a54bc2810ff511e4c89b322b に追随して標準添付ライブラリ logger の Logger#reopen で @logdev が nil の場合に対応するため &. 演算子を利用するようにしています。
