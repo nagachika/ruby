@@ -1,0 +1,1 @@
+make spec/bundler で bundler のテストを実行するターゲットで test-bundler-parallel を利用するようにしています。ファイル名を指定する spec/bundler/% のターゲットのほうにマッチしちゃうと rspec での実行になってしまうからそれを防ぐために明示的なターゲットを定義したのかな?
