@@ -1,0 +1,1 @@
+過去に 02705b27be207fce57bd0253251f81108c7ed57b でも GC.start を二重にするなど対策してた GC.latest_gc_info のテストでさらに GC.start を追加。さらに GC.latest_gc_info の呼び出しも事前に 1回しておくなど偶然の失敗の対策を強化しています。
