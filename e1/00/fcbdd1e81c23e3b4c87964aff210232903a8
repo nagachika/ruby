@@ -1,0 +1,1 @@
+クラス変数へのアクセスは継承した Class や Module からも可能ですが、所属している Class/Module が freeze されていてもこれら継承先からのアクセスでは代入できてしまっていたのを修正しています。 https://github.com/ruby/ruby/pull/3203
