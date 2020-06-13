@@ -1,0 +1,1 @@
+7cddb844e6d51f954c6669341b9cc656bd7d3492 の fileutils の verbose メッセージを stderr に出すようにした変更を revert しています。rake のテストが失敗したためということ。やっぱりそれなりに影響大きそう。
