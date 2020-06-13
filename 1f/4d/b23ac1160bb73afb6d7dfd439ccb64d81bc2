@@ -1,0 +1,1 @@
+さらに .gdbinit の rp で T_HASH 型オブジェクトの表示で struct RHash::basic.flags へのアクセスの記法が間違っていたのを修正しています。
