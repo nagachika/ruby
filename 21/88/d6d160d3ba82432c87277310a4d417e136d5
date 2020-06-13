@@ -1,0 +1,1 @@
+Kernel#lambda のブロックとしてブロック引数経由で Proc や Method や Symbol などが渡された時に deprecation warning を表示するようにしています。 lambda にブロック引数で is_lambda? == false な Proc が渡されると lambda なのに is_lambda? じゃない Proc オブジェクトができてしまう、という問題に対して、そもそもブロック引数渡す意味ないので警告対象にしよう、という対処みたいです。 [ruby-core:93482] [Feature #15973]
