@@ -1,0 +1,1 @@
+Array#join, #inspect, #to_s, #to_a の rdoc 用コメントのサンプルや説明の追記。 https://github.com/ruby/ruby/pull/3219
