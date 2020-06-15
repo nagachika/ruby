@@ -1,0 +1,1 @@
+parse.y の new_array_pattern() および ddded1157a90d21cb54b9f07de35ab9b4cc472e1 で追加した new_find_pattern() の apinfo および fpinfo の NULL チェックは不要として削っています。
