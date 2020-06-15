@@ -1,0 +1,1 @@
+997133d5959d73663988814704b2e390a75ea718 の tool/mk_builtin_loader.rb の追加修正。 特異メソッド定義のところの collect_params 呼び出し漏れを修正。
