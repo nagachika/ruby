@@ -1,0 +1,1 @@
+a3e6f52c17061f012c4e638b3343b57752ed7603 で組み込みメソッドの ruby 実装から使うための  __builtin_cstmt!、__builtin_cexpr!、__builtin_cconst!、、__builtin_cinit! などの特殊メソッドが 79292b30884ebcd8be028a7f3c9ccafd7759f2ae で builtin 用 ruby スクリプトを ISeq にする処理を ripper を利用するようにした時に動かなくなってたのを修正しています。
