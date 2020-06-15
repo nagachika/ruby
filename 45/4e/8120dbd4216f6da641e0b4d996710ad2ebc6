@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 版の対象 OS バージョンの ubuntu-latest のかわりに ubuntu-20.04 と ubuntu-18.04 を明示的に指定するようにしています。
