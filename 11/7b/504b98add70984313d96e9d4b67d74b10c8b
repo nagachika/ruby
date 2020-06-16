@@ -1,0 +1,1 @@
+bundler のテストで bundle exec サブコマンドのテストが ruby 同梱版で skip されていたのを実行するようにして、ヘルパーメソッドの gem_command にその対応のための? RUBYOPT  環境変数の設定を追加しています。
