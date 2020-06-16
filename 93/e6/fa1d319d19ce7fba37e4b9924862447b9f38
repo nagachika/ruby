@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::DefaultFileHandler の GET の対応で指定されたパスをの文字列の Encoding を filesystem encoding に force_encoding しておくようにしています。 mswin での(?)ファイルがうまくみつからない場合がある不具合の修正のため。
