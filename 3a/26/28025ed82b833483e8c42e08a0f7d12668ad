@@ -1,0 +1,1 @@
+07d4ad935d2fd173aabd201862b09c3393fc8ebc の rubygems のテストの teardown 削除の revert をしてた ceacb06311cf150cd3682b277bbe6cf7e7bbbc30 の revert。つまり teardown による credential ファイル削除を復活させています。
