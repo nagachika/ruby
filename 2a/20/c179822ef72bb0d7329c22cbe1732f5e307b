@@ -1,0 +1,1 @@
+8f99bfa26d0bd99089f0f38af3666a89e8432265 の実装で String#bytes にブロックを渡してたのが警告の対象なので String#each_byte を使うように修正しています。
