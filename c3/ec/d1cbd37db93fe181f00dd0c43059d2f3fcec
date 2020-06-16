@@ -1,0 +1,1 @@
+93293043f135dec5a972378682b9e947fba7c4a6 の rubygems のテストでの credential ファイル削除を各テストクラスの teardown で行なうようにしてたのを ac2c07e98373bb62be618001c897fa9d5809d8a4 で revert してたのを revert しています。
