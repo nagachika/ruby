@@ -1,0 +1,1 @@
+1583c743d52a0ba94c98c2723b9e595b5e400c6e やその前から MJIT で skip するようにしていた net/ftp のテストで skip はやめて Net::FTP の read_timeout を延ばす設定を追加しています。
