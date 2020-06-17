@@ -1,0 +1,1 @@
+numeric.c の rb_int_floor() と rb_int_ceil() に static 修飾子を追加しています。 https://github.com/ruby/ruby/pull/3217
