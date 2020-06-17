@@ -1,0 +1,1 @@
+lib/rubygems/specification.rb の末尾の Gem.clear_paths がなんであるのかわからないみたいで消しています。
