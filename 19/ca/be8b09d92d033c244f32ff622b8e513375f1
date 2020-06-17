@@ -1,0 +1,1 @@
+Struct の [], []= メソッドの実装のため ISeq を取り出すのに使ってた rb_method_for_self_aref()/rb_method_for_self_aset() といった関数の引数を struct rb_builtin_function という組み込みメソッドを ruby 実装した時の builtin 関数呼び出しに使う struct rb_builtin_function という構造体を利用するようにして opt_call_c_function 命令のかわりに invokebuiltin 命令を使うようにしています。が後に revert されています。
