@@ -1,0 +1,1 @@
+rb_builtin_type_name() でオブジェクトのタイプ別のクラス名や値の文字列に変換するためのテーブルで T_BIGNUM と T_FIXNUM をいずれも Integer と表示するように変更しています。
