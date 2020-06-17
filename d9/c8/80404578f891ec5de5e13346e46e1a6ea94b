@@ -1,0 +1,1 @@
+466d3e68da5df4f76d87332ff6786a391cc8bde4 の続きで GitHub Actions のファイル生成を make incs で行なうように簡略化しています。 make touch-unicode-files というのはなくしています。再ダウンロードもスキップさせてるのかな。
