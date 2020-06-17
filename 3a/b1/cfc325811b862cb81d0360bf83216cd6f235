@@ -1,0 +1,1 @@
+Gem.disable_system_update_message という設定を追加して gem update --system を無効にする(エラーにする)ことがにできるようにしています。環境をうっかり壊さないようにするための設定かなぁ。
