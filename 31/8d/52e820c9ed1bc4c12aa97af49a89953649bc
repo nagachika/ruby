@@ -1,0 +1,1 @@
+19cabe8b09d92d033c244f32ff622b8e513375f1 の Struct のメソッドの一部で invokebuiltin 命令を使うようにした変更を revert しています。 tool/lib/iseq_loader_checker.rb が対応してないからとのこと。
