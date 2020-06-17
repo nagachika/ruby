@@ -1,0 +1,1 @@
+rubygems の子プロセス起動に Gem::Util.silent_system というメソッドを使ってたのを Open3.capture2e を使うように書き換えています。
