@@ -1,0 +1,1 @@
+rubygems およびそのテストの magic comment に encoding 指定していたものはもう不要なので( デフォルトの script encoding が UTF-8 になったので)削除しています。
