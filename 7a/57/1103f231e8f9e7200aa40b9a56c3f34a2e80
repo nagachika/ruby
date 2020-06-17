@@ -1,0 +1,1 @@
+rubygems の 3ab1cfc325811b862cb81d0360bf83216cd6f235 で追加した設定で gem update --system をエラーにした時に終了ステータスを異常終了にするようにしています。
