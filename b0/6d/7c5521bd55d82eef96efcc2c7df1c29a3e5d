@@ -1,0 +1,1 @@
+iseq.c の rb_iseq_new_with_callback() で RubyVM::InstructionSequence.translate というメソッドが定義されてたらそれを通して ISeq の書き換えに対応するための iseq_translate() を通してから返してましたが、rb_iseq_new_with_callback() という関数ではこれは不要として削ってます。
