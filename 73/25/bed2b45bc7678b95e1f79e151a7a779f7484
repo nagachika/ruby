@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServer のテストでエラー時に Encoding.find("filesystem") の値をエラーメッセージに埋め込むようにしています。 e698bf1a7f06452c9509f33e865cc9797dde15b9 の修正時に追加したテストがうまくいなかったみたいで CI でのデバッグのため。
