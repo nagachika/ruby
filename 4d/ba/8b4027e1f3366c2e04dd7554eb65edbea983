@@ -1,0 +1,1 @@
+Moduel を include した時に作られる IClass を作成する rb_include_class_new() で引き数の module は T_ICLASS ではないはずということで、分岐してたところを RUBY_ASSERT() によるチェックに変更しています。
