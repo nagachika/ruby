@@ -1,0 +1,1 @@
+proc.c の rb_method_name_error() で T_MODULE/T_CLASS の時の s への代入がその後 goto で移動した先ですぐ再代入されるので無意味だったので削っています。
