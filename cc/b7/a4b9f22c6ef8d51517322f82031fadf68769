@@ -1,0 +1,1 @@
+318d52e820c9ed1bc4c12aa97af49a89953649bc で revert した 19cabe8b09d92d033c244f32ff622b8e513375f1 の Struct のメソッド実装に invokebuiltin を使うようにした変更のリトライ。内容は全く同じみたいですね。
