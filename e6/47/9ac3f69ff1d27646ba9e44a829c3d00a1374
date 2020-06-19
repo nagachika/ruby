@@ -1,0 +1,1 @@
+bundle gem の CI の選択についてのテストを test framework 選択のテストの中にネストさせるように移動しています。
