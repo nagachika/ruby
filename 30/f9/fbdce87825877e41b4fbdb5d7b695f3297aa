@@ -1,0 +1,1 @@
+bundler の bundle install の --no-cache オプションが deprecated にされてたのを revert しています。
