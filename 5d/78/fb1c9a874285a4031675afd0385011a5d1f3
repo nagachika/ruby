@@ -1,0 +1,1 @@
+bundler のテストで bundler 3 でなくなるらしい bundle install の --deployment フラグを使ってるところを bundle config set に置き換えています。なくなるのかー。
