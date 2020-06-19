@@ -1,0 +1,1 @@
+VM 命令 opt_call_c_function という命令は現在使用されていないので OPT_SUPPORT_CALL_C_FUNCTION というマクロを定義しないとコードが有効にならないようにしています。 https://github.com/ruby/ruby/pull/3232
