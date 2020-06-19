@@ -1,0 +1,1 @@
+bundler のテストで bundle gem 結果に .travis.yml が存在しないことを確認してたコードを削除しています。
