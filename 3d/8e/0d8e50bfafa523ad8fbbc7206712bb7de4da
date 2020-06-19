@@ -1,0 +1,1 @@
+rubygems のテストで require 'rubygems/package_task'  が LoadError を発生させた時に "rake/packagetask" の require で失敗してた時はエラーにせず警告を表示した上でテストクラス全体の定義をやめるようにしています。
