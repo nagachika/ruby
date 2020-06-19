@@ -1,0 +1,1 @@
+bundler のテストで .bundle/ が書き込み不可能だった時のテストで bundle config set で .bundle をインストール先として指定しておくようにしています。
