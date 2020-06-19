@@ -1,0 +1,1 @@
+bundler の bundle gem サブコマンドでの CI 設定の反映のリファクタリング。
