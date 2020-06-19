@@ -1,0 +1,1 @@
+2d817e05649d4cc7f3be7185be4bc016ee836e07 の webrick のテスト修正の追加修正。 filesystem encoding が US-ASCII または ASCII-8BIT の場合は変換に失敗するので、UTF-8 の文字列をそのまま渡すようにしてみています。
