@@ -1,0 +1,1 @@
+bundler のテストに CI 設定関係のテスト用の shared_example を追加。
