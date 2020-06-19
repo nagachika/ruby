@@ -1,0 +1,1 @@
+rubygems のテストでダミーサーバーのために使う webrick を require する時の LoadError 時の条件に openssl の require が失敗した場合は無視するようにしてたところで LoadError#path の存在チェックしてたのはもう不要なので削除しています。LoadError#path の追加は 2.0.0 からかな。
