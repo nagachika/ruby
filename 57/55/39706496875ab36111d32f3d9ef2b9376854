@@ -1,0 +1,1 @@
+bed17974a1563852c3d1d2b7b24033ed0beaa33e の再再修正。 String#encode が Encoding::UndefinedConversionError を発生させた時に無視するようにしています。 "\u3042" って "あ" だと思うけど、CI 環境の filesystem encoding が Windows-1252 で Latin 系の文字エンコーディングなので変換できないのか。
