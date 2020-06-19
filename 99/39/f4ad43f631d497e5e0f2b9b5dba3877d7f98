@@ -1,0 +1,1 @@
+他にも bundler のテストで install_gemfile のかわりに gemfile メソッドを使って余計な bundle install を削るようにしています。
