@@ -1,0 +1,1 @@
+bundler の bundle gem による自動生成ファイルテンプレートに Cicle CI でのテスト用の設定ファイルや GitLab CI 用の設定ファイルなどを追加しています。
