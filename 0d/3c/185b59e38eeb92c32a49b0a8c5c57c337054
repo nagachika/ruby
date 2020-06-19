@@ -1,0 +1,1 @@
+bundler のテストで bundle gem の結果に .travis.yml が存在しないことを確認する shared_example とその利用箇所を削除しています。
