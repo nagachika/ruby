@@ -1,0 +1,1 @@
+Exception#exception メソッドの rdoc 用コメントの call-seq で引数は省略可能なのでそのように表記を修正しています。
