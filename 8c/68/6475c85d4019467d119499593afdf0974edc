@@ -1,0 +1,1 @@
+bundler のテストで bundle install の --path オプションの指定のかわりに bundle config で設定する方法を使うようにしています。
