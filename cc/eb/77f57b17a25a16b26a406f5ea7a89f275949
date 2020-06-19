@@ -1,0 +1,1 @@
+bundler のテストでダミーの gemspec ファイルの内容を install_gemfile に渡して bundle install させてたのを gemfile に渡して冗長な? コマンド実行を削っています。
