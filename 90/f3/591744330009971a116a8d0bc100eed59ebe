@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する CI 用の設定ファイルで bundle install の --jobs オプションを削除(Bundler 3 で自動で job 数を決めるようになるらしい)。
