@@ -1,0 +1,1 @@
+bundler の bundle gem での test framework と CI の設定のヘルプメッセージに選択肢を全て表示するように変更。
