@@ -1,0 +1,1 @@
+別の webrick のテストで Windows での short filename でのアクセスのテストのために dir コマンドの出力を読み取るところで開く pipe のモードを binary モードにしています。
