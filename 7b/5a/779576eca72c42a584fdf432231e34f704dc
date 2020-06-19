@@ -1,0 +1,1 @@
+rubygems のテストで不要な gem "rake", gem "rake/packagetask", gem "rdoc" などを削除しています。
