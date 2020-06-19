@@ -1,0 +1,1 @@
+特異メソッドのほうの Exception.exception を、Exception の特異クラス内で new への alias として定義するように変更しています。が、後に revert されています。
