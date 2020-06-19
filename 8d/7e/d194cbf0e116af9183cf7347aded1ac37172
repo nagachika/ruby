@@ -1,0 +1,1 @@
+bundler のテストで install_gemfile を使ってたところが冗長だったので gemfile を使うように更新。また冗長な bundle update --ruby の実行を削っています。
