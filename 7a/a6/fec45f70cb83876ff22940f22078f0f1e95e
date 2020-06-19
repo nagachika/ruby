@@ -1,0 +1,1 @@
+bundler で恒に true を返していて意味がなくなってたメソッド can_install_in_parallel? というのを削除しています。
