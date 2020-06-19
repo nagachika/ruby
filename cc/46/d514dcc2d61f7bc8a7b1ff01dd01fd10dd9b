@@ -1,0 +1,1 @@
+common.mk の ext/extinit.c の作成に miniruby が必要なので、関連するターゲット $(PREP) を依存関係に追加しています。
