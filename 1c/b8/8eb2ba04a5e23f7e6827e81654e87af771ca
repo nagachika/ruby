@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する CI 用設定ファイルのテンプレートのファイル名を .travis.yml.tt に変更しています。古い travis.yml というファイルがまだ残ってますね。
