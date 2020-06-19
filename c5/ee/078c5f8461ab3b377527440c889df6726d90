@@ -1,0 +1,1 @@
+bundler で Windows 環境での bundle install の並行ジョブ実行を無効にするようにしています。
