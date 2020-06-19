@@ -1,0 +1,1 @@
+もう一箇所 bundler のテストで install_gemfile のかわりに gemfile を使って余計な bundle install を抑制しています。
