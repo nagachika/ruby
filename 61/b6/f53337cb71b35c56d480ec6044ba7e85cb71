@@ -1,0 +1,1 @@
+bundler のテストで使ってた bundle コマンドを実行するヘルパーメソッド bundle のキーワード引数  :raise_on_error のデフォルト値を true に変更してエラー時に例外が発生するようにしています。それで困る箇所には明示的に raise_on_error: false を渡すようにしています。
