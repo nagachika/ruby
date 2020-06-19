@@ -1,0 +1,1 @@
+rubygems のテスト用 Gem::TestCase でバックアップしておいた $LOADED_FEATURES を戻す時に消すパスを一時ディレクトリ配下であるかどうかで判定するようにしています。
