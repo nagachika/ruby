@@ -1,0 +1,1 @@
+bundler のテストでも余計な bundle install が走らないように(たぶん) build_gem のオプションを変更しています。
