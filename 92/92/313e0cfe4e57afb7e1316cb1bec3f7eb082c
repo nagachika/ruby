@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する GitHub Actions 用設定で利用する setup-ruby プラグインを ruby/setup-ruby@v1 を使うように更新しています。
