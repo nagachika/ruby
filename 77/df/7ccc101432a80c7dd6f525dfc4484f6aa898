@@ -1,0 +1,1 @@
+1436b5026cd1b2ac4b428955aeadaac8e8b12b1b から ea4824ee0ffcea5fcfacfe40b4f399efe310455a までの変更で使わなくなった bundle! などの ! つきのbundler のテストのヘルパーメソッドの定義を消しています。
