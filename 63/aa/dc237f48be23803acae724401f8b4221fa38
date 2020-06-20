@@ -1,0 +1,1 @@
+49f0fd21e468e567dc122547d516eef42c0ce0d3 で導入した Primitive.func を使うように d863f4bccdd1b5566fbdbe87af766e54b995f8af で __builtin.func に変更した ruby 実装を再度変更しています。__builtin_func と Primitive.func と __builtin.func の使い分けはどういう感じなんだろう。というか今は全て Primitive.func に統一されたみたいだけど。  [ruby-core:95344] [Feature #16254]
