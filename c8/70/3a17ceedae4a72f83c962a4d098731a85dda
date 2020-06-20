@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装から呼び出す builtin 関数の呼びかたとして receiver を __builtin として __builtin.func のように呼び出すことで関数 func の呼び出しにする記法のサポートを追加しています。なるほどー。 [ruby-core:95344] [Feature #16254]
