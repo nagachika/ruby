@@ -1,0 +1,1 @@
+template/exts.mk.tmpl で生成する exts.mk の distclean, realclean のターゲットで exts.mk 自体の削除も追加しています。
