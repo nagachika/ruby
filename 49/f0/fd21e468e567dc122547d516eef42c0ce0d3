@@ -1,0 +1,1 @@
+さらに __builtin.func ではなく Primitive.func という定数を receiver にしたかのような記法でも C 関数呼び出しにマッピングするようにしています。 [ruby-core:95344] [Feature #16254]
