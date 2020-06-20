@@ -1,0 +1,1 @@
+50c13eb718d961c333ac832e734dae21ca7a8330 で追加した Hash#except について NEWS に追記。ついでに ENV.except も自動的に追加されるのでそれも NEWS にエントリを追加しています。 [ruby-core:92538] [Feature #15822]
