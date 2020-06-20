@@ -1,0 +1,1 @@
+template/configure-ext.mk.tmpl および template/exts.mk.tmpl で bundled gems の展開場所が gems から .bundled/gems に移動してたのに追随しています。
