@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::DefaultFileHandler でファイルパスを filesystem encoding ではなく root ディレクトリを指定するのに使った文字列の Encoding にそろえるように encode するように変更しています。
