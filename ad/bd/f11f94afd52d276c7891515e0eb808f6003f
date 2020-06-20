@@ -1,0 +1,1 @@
+標準添付ライブラリ open3 の 5429deb075beb9a2b67adae269bbac16325876d1 の修正でブロックが渡されない時にも pipe を close してしまう regression があったのを修正しています。
