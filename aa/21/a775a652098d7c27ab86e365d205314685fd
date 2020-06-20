@@ -1,0 +1,1 @@
+template/configure-ext.mk.tmpl で make configure 実行するのを extconf.rb が存在するかどうかで判定するようにしています。
