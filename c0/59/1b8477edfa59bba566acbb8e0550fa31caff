@@ -1,0 +1,1 @@
+NEWS にメソッドの引数委譲のための "..." の前後に通常引数が追加できるようになったことや $SAFE 関係の C API の削除、クラス変数の上書きがエラーになったこと、Kernel#clone の  freeze キーワード引数追加、Kernel#lambda がブロック引数を受けると警告するようにしたこと、41582d5866ae34c57094f70f95c3d31f4a1fa4ff の Module#prepend も prepend 先の Module を既に include しているところにも影響するようにした修正などについて追記しています。
