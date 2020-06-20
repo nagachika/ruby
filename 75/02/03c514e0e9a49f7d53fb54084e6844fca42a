@@ -1,0 +1,1 @@
+e698bf1a7f06452c9509f33e865cc9797dde15b9 の修正以降の標準添付ライブラリ webrick のファイル名の Encoding まわりの修正やテストの対応の続きで、WEBrick::HTTPServlet::DefaultFileHandler でファイルパスを force_encoding で UTF-8 にして保持しておくようにしています。うーんなるほど? (あまりうまく納得できてない)
