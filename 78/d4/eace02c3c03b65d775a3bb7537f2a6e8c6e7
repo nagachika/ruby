@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::DefaultFileHandler の 750203c514e0e9a49f7d53fb54084e6844fca42a と 93e6fa1d319d19ce7fba37e4b9924862447b9f38 の修正を revert。
