@@ -1,0 +1,1 @@
+branch coverage の測定用の trace 命令を生成するマクロ DECL_BRANCH_BASE() と ADD_TRACE_BRANCH_COVERAGE() を削除して、かわりに static 関数 decl_branch_base() と add_trace_branch_coverage() に書きかえています。
