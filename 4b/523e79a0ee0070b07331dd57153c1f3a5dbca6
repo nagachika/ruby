@@ -1,0 +1,1 @@
+37cd877dbd70745c05aab7e1e155beb5ae6ad772 で関数に変更した decl_branch_base() と add_trace_branch_coverage() から冒頭の共通部分を branch_coverage_valid_p() に切り出すリファクタリング。
