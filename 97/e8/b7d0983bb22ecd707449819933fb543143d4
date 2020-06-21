@@ -1,0 +1,1 @@
+ad156f7e2caa28f429a9f05f3b9b184118b85432 の再修正。ad156f7e2caa28f429a9f05f3b9b184118b85432 は revert してかわりに Marshal.load 時の実装 d_lite_marshal_load() で dump されたデータが simple タイプのはずなのに表現できない情報を含んでた時に自動的に complex タイプ用の処理に移行するように修正しています。 https://github.com/ruby/date/issues/20
