@@ -1,0 +1,1 @@
+拡張ライブラリ coverage の branch coverage 機能による測定が ensure 節において重複する? という不具合の修正。 coverage counter の登録を compile 時の AST を辿る処理で行なわせてたのが、ensure 節の中身は 2度 traverse されるので重複していたみたいです。 ISeq 内で分岐している命令ごとに通し番号を対応させてその id で branch counter の管理をするようにしているみたいです。  [ruby-core:98844] [Bug #16967]
