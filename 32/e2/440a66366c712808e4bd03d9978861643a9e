@@ -1,0 +1,1 @@
+97c1782db634ab0344fbc829477897d5de034475 の再修正。req.path_info を丸ごと変換してから String#scan にかけてたのを、先に scan で分解してから Encoding の変換するようにしています。 force_encoding した結果不正なバイト列になってた場合に String#scan でエラーになるのを防ぐためみたいです。
