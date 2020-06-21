@@ -1,0 +1,1 @@
+decl_branch_base() と add_trace_branch_coverage() の引数 first_line、first_column、last_line、last_column のかわりに、それを格納した NODE を渡して中で取り出させるようにリファクタリングしています。
