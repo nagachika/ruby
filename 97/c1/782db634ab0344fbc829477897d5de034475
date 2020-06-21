@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick のテストで 6fe1919486111bcdd5ef41fea15b0e82f7f50d82 の @root の encoding にあわせる変更を revert して、やっぱり req.path_info を filesystem encoding に force_encoding するようにしています。ただし filesystem encoding が US-ASCII だったら ASCII-8BIT に変換しています。
