@@ -1,0 +1,1 @@
+test/pathname/test_pathname.rb で assert のかわりにヘルパーメソッドを使ってエラー時のメッセージがわかりやすくなるように修正しています。
