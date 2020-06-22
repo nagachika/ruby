@@ -1,0 +1,1 @@
+67e544cbe15abb852742236f9de1b3b9a9add676 にさらに追記して Date._strptime, Date.strptime, DateTime.strptime を使うことをすすめる一文も追加しています。
