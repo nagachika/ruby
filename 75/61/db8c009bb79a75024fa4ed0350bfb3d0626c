@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装で使える Primitive.attr! というメソッド(のようにみえるもの)で MJIT 時に C 関数呼び出しの inline 展開を指定できるようにしています。これを Integer#zero? の定義で使って(MJIT 下での)高速化を図っているようです。 https://github.com/ruby/ruby/pull/3242 [ruby-core:91420] [Feature #15589]
