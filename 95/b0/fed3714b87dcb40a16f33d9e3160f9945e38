@@ -1,0 +1,1 @@
+[Feature #15589] の Number#zero? が == 演算子メソッドで比較するより遅いという問題(問題?)を解決するための布石らしいですが、Integer#zero? を Numeric#zero? を再定義するかたちで定義追加しています。またこの定義は ruby 実装で追加され C 関数 int_zero_p() を Primitive.cexpr! を用いて呼び出すように定義されています。 https://github.com/ruby/ruby/pull/3226 [ruby-core:98796] [Misc #16961]
