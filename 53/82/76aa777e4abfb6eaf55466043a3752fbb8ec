@@ -1,0 +1,1 @@
+95b0fed3714b87dcb40a16f33d9e3160f9945e38 や 7561db8c009bb79a75024fa4ed0350bfb3d0626c の Integer#zero? の高速化がらみの変更で MJIT のテストが RHEL での CI で SEGV するようになったそうで、ひとまず skip するようにしています。
