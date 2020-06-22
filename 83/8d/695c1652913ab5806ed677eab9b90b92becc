@@ -1,0 +1,1 @@
+tool/runruby.rb で起動する ruby のファイル名を ruby と決め打ちにしてた部分があったので RbConfig::CONFIG["RUBY_INSTALL_NAME"] を考慮するように修正しています。
