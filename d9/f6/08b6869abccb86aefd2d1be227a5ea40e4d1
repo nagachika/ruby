@@ -1,0 +1,1 @@
+7561db8c009bb79a75024fa4ed0350bfb3d0626c で導入した Primitive.attr! での inline 指定により MJIT 時のメソッド inline 化に CHECK_CANARY() による VM stack の消費量チェックを対応させるための変更のようです。 https://github.com/ruby/ruby/pull/3244
