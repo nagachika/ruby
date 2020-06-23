@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::DefaultFileHandler の変更なんですが、基本的にはリファクタリングのようにみえます。req.path_info をディレクトリごとに分けた後の set_filesystem_encoding を一括でせずに while ループで順次行なうようにしているので途中で break した時に余計な set_filesystem_encoding が呼ばれないというのがあるけど。
