@@ -1,0 +1,1 @@
+7ac6c967e49d1e3ad46be20aca98e8f1df2c2d5b のデバッグ出力を revert して d231b8f95b35d8a344cec4f62d7bbdf360a70e1c の標準添付ライブラリ fileutils の Encoding まわりの修正のリトライ? FileUtils::Entry_#join メソッドで File.join で EncodingError が発生した時に Windows 環境ではそれぞれの文字列を UTF-8 に encode してからリトライするというコードを追加しています。
