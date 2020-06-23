@@ -1,0 +1,1 @@
+MJIT でのメソッドの inline 化の条件を判定する関数のひとつ has_valid_method_type() で callcache に乗ってるメソッド定義タイプの引数を追加して VM 命令の opt_xxx のうち opt_send_without_block 以外の命令のコンパイル時にメソッド定義が VM_METHOD_TYPE_ISEQ の時のみ callcache が不正になってた時に inline 化をキャンセルする fallback を使うようにしています。よくわからなかったのですが opt_nil, opt_not, opt_eq などの命令が callcache を埋めてしまうけど無視してもいいから、ということかな?
