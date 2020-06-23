@@ -1,0 +1,1 @@
+d231b8f95b35d8a344cec4f62d7bbdf360a70e1c の標準添付ライブラリ fileutils でのファイル名の Encoding 関連の変更を revert して、テストのエラー時のデバッグ用出力を追加しています。
