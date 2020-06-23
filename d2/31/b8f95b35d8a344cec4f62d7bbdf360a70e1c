@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils で Windows 環境ではファイル名の Encoding を UTF-8 固定にしていたのを、パス名の Encoding が UTF-8 と互換でなかった場合は path 名の Encoding をそのまま使うように修正しています。
