@@ -1,0 +1,1 @@
+benchmark/ の MJIT 関係のベンチマークから warmup 用の処理を benchmark/lib/benchmark_driver/runner/mjit.rb という runner を追加してここに追加しています。
