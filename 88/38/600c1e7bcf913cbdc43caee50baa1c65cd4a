@@ -1,0 +1,1 @@
+benchmark/ サブディレクトリ内の YAML ファイル形式のベンチマークで type の指定にサブディレクトリ benchmark/lib が $LOAD_PATH に追加されてる前提で runner が指定されてたのをやめています。 make benchmark ターゲット利用時に -I オプションで指定されてるのですが、このターゲットなしで benchmark-driver のコマンドを直接指定したい時もあるので、ということのようです。
