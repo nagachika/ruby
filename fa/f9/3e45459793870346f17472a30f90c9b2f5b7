@@ -1,0 +1,1 @@
+8838600c1e7bcf913cbdc43caee50baa1c65cd4a に追随して benchmark/ の YAML 形式のベンチマークスクリプトのコメントに書かれてる Usage に RUBYOPT=-Ibenchmark/lib を指定するように書かれてたのを削っています。
