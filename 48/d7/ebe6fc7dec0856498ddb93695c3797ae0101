@@ -1,0 +1,1 @@
+fileutils のテストで File.symlink が使える環境かどうかの判定に src にも dest にも空文字列を指定して File.symlink を呼んでみていたのを一時ディレクトリを作成してそこでちゃんと名前のある symlink を作る方法に修正しています。空文字列で File.symlink ってどうなるんじゃろ、と思ったら手元の環境では Errno::ENOENT でした。
