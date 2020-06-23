@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPServlet::DefaultFileHandler のテストでファイル名がマルチバイト文字だった時のテストで、DocumentRoot だけでなく DirectoryIndex にもマルチバイト文字を含むファイルパスを渡した場合もテストするようにしています。
