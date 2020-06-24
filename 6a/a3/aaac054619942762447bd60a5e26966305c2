@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドで T_BIGNUM 型のオブジェクトの表示に正負の符号についての情報表示を追加しています。
