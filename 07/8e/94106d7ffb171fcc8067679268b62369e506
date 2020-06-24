@@ -1,0 +1,1 @@
+a3cc9b3c8e8e55660e434015654dfc4e11e3a3ab で拡張ライブラリ psych の gemspec ファイルでバージョンを得るために無名モジュールを導入したのに spec.requirements への格納が追随していなかったので修正しています。
