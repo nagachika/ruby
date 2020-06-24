@@ -1,0 +1,1 @@
+拡張ライブラリ psych で YAML のタグ(anchor というらしい)参照の展開で symbolize_names: true オプションが指定されてた時の不具合修正。
