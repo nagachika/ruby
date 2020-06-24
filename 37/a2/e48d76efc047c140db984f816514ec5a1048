@@ -1,0 +1,1 @@
+MJIT で opt_nil や opt_not などの最適化命令は callcache にキャッシュが乗ってたら fallback 用の send 命令の生成を抑制するようにしているようです。よけいなコード生成を抑えてサイズを小さくするのが目的かな。昨日の 78352fb52ed2c15fe0d74c02ea29b7e5a28b18c0 での has_valid_method_type() の引数追加を revert して別途 has_cache_for_send() という関数を追加して opt_send_without_block 命令の処理を入れる箇所の条件に追加しています。
