@@ -1,0 +1,1 @@
+file.c の fpath_check_0() の第2引数 execpath は常にTRUE になってる(唯一 FALSE を渡す可能性があった fpath_check() マクロも 61374839e4132aec92e00eb8d2fdb0619a0307cf で削除された)ので引数を削除し判定条件からも消しています。
