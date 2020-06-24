@@ -1,0 +1,1 @@
+GC.compact によるオブジェクトの移動で移動した slot を埋めておく T_MOVED 型オブジェクトの実際の構造体 struct RMoved は single linked list として管理できるようになってましたが、任意のノードをリストから外す操作を容易にするため struct list_node および stuct list_head を使って doubly linked list とするようにしています。両者を共用体として struct RMoved に埋め込んでますが、list head を struct RMoved じゃなくて直接 struct list_head で持てばいいんじゃないのかな。なおこの変更はこのリスト操作に read barrier を入れたくてその時にノードの削除がしたいからとのこと。
