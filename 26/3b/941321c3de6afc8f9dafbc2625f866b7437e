@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper#parse でインデントの不整合についての警告が Ripper#warn メソッドで検出されなくなっていた不具合を修正しています。  yylex() 内での dispatch_delayed_token() や dispatch_scan_event() の呼び出しをソース内の位置を表す yylloc へのセットの後に移動しています。いやーこの差分で警告が出なくなってたというのはさすがにテストなしでは気がつけないのでやっぱり parser は難しいですね。  [ruby-core:98928] [Bug #16981]
