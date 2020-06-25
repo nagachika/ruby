@@ -1,0 +1,1 @@
+GitHub Actions の各種コンパイラでのビルドを試す Actions での slack 通知のメッセージに workflow 名を含めるようにしています。
