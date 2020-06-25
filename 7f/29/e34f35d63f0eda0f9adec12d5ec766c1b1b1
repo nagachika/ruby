@@ -1,0 +1,1 @@
+拡張ライブラリ ripper のテストのヘルパーメソッド warning/warn で DummyParser#parse のブロック内で return してるのでメソッド呼び出し以降には処理が続かないはずなのでそれを明確にするため処理が到達すると assert(false) で明示的に失敗させるようにしています。
