@@ -1,0 +1,1 @@
+ruby 実装された組み込みメソッドで C 関数を呼び出して戻り値にしているものの ISeq に opt_invokebuiltin_delegate_leave 命令が使われてることを確認するテストが 3e02cd518fbe4d91c2aca7fbc3c5aafa387d3cb7 の変更で TracePoint が有効な状態だと失敗してしまうので子プロセスを起動してそこで ISeq を取り出させるように修正しています。
