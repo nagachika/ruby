@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree モジュールの rdoc 用コメントの説明でこれが Class だと書かれてたところを修正。
