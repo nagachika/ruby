@@ -1,0 +1,1 @@
+さらに 3e02cd518fbe4d91c2aca7fbc3c5aafa387d3cb7 の rb_vm_encoded_insn_data_table_init() での追加部分の明示的なキャスト追加。
