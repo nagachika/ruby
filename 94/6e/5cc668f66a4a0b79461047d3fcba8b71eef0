@@ -1,0 +1,1 @@
+Kernel#class メソッドを C 関数定義から ruby 実装による C API 呼び出しを Primitive.cexpr! で行なうようにして、さらに  Primitive.attr!("inline") を指定することで MJIT での inline 化可能にする最適化。組み込みメソッドを ruby 実装にして JIT したら速くなるねという話が実際に進行してきていますね。 https://github.com/ruby/ruby/pull/3250
