@@ -1,0 +1,1 @@
+標準添付ライブラリ json, psych, stringio, racc, rdoc などの gemspec ファイルから spec.rubygems_version の指定を削除しています。
