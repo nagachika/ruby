@@ -1,0 +1,1 @@
+yycompile0() で struct parser_params::debug_lines に文字列を詰めて初期化する時に改行を含む文字列で初期化しておくようにしています。 RubyVM::AbstractSyntaxTree.of のためとのことだけどさてどういうことだろ。
