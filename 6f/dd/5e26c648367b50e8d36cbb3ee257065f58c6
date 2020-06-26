@@ -1,0 +1,1 @@
+defs/gmake.mk の make spec/bundler と spec/bundler/ のターゲット名を別々に列挙してたのを spec/bundler のみにしています GNU make のバージョンによって "/" でおわるターゲットがないものと同じと扱われるか別のものとして扱われるかが異なり、make spec/bundler/xxx によるファイル指定でのテストとして処理されるのを防ぐためのようです。
