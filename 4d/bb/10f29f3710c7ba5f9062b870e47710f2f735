@@ -1,0 +1,1 @@
+拡張ライブラリ json の gemspec ファイルの required_ruby_version を 2.0 以降とする変更。
