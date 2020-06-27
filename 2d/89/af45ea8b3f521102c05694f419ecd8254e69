@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate の SimpleDelegator の rdoc 用コメントのサンプルコードに require "delegate" を明示するようにしています。
