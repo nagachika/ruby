@@ -1,0 +1,1 @@
+compile.c の compile_args() でキーワード引数を compile する際に node->nd_head->nd_brace を一時的に書き換えてコンパイルしてたのを compile_hash() の引数に method_call_keywords というのを追加して直接 compile_hash() を呼び出すようにリファクタリングしています。
