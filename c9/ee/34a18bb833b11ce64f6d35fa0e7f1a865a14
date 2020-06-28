@@ -1,0 +1,1 @@
+ddded1157a90d21cb54b9f07de35ab9b4cc472e1 で導入された pattern match の新しい find pattern を ISeq に compile した時に case の値を deconstruct メソッドで配列に展開した結果の VM スタック上の位置を記憶して使いまわすようにしています。ちょっとコンパイル結果のサイズが増えそうだけどメソッド呼び出しが減るので in 節が複数あればたいてい速くなりそう。
