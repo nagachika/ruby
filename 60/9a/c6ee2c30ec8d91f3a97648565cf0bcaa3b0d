@@ -1,0 +1,1 @@
+5c03e4680e724faeedb2c5fc1581d5fcb66aaff2 で標準添付ライブラリ rinda のテストのタイムアウトを MJIT 有効化時に伸ばす変更を revert して、かわりに skip するようにしています。
