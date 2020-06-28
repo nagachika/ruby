@@ -1,0 +1,1 @@
+pattern match の array pattern を ISeq に compile した時に case の値を deconstruct メソッドで配列に展開した結果の VM スタック上の位置を記憶して使いまわすようにしています。ちょっとコンパイル結果のサイズが増えそうだけどメソッド呼び出しが減るので in 節が複数あればたいてい速くなりそう。
