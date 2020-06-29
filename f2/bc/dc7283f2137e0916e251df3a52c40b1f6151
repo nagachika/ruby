@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の mswin 環境サポートのために extconf.rb などを書きかえています。とはいえ大部分は変数名などをより説明的にする改名などなので本質的なのは -DHAVE_FFI_PREP_CIF_VAR を追加するところくらいかな?  https://github.com/ruby/fiddle/pull/43
