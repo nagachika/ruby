@@ -1,0 +1,1 @@
+組み込みメソッドを ruby 実装したスクリプトを事前コンパイルして読み込む tool/mk_builtin_loader.rb でファイルパスのセパレーターの File::ALT_SEPARATOR を File::SEPARATOR に置換しています。つまり Windows 環境でファイルパスのセパレーターが "\" になってるものを "/" に置換しているようです。
