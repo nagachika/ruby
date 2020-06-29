@@ -1,0 +1,1 @@
+7561db8c009bb79a75024fa4ed0350bfb3d0626c で Integer#zero? の実装を inline 可能な C 関数に委譲した ruby 実装におきかえたのと同様に Integer の abs, bit_length, even?, integer?, magnitude, odd?, ord, to_i, to_int などのメソッドも Primitive.attr! 'inline' と Primitive.cexpr! を用いた ruby 実装に変更しています。 https://github.com/ruby/ruby/pull/3264
