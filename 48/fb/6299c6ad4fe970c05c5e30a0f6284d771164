@@ -1,0 +1,1 @@
+ae18220f9904c70304bd1672eecadbb3618fc7e5 の fiddle での可変長引数関数サポートの変更で非常に古い libffi だと ffi_prep_cif_var() という関数がなくて失敗するので HAVE_FFI_PREP_CIF_VAR をチェックして定数 Fiddle::TYPE_VARIADIC を定義するようにしています。
