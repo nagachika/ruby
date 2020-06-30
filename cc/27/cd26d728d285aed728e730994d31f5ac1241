@@ -1,0 +1,1 @@
+random.c の rand_range() で goto のラベル fixnum を if 文の外に出してますが、これは FIXNUM_P() のチェックが冗長になるけどいいのかな? goto してるブロックの外側だからこのケースは良しってことかな。 https://github.com/ruby/ruby/pull/3247
