@@ -1,0 +1,1 @@
+rational.c の parse_rat() で条件分岐を整理して if 文の末端のほうのブロックに goto で飛ぶのをやめて外向きに飛ぶようにしています。やっぱり中から外に飛ぶほうが better という方針のようですね。 https://github.com/ruby/ruby/pull/3247
