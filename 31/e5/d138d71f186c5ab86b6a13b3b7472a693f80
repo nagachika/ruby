@@ -1,0 +1,1 @@
+string.c の rb_str_slice_bang() でエラー処理を関数末尾にあつめて常に goto でジャンプするようにしています。 https://github.com/ruby/ruby/pull/3247
