@@ -1,0 +1,1 @@
+eval.c の make_exception() で早期 return などを併用してエラー処理を末尾に移動して goto を不要にしています。 https://github.com/ruby/ruby/pull/3247
