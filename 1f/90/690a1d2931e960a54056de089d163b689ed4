@@ -1,0 +1,1 @@
+compile.c の compile_branch_condition() でもただの retrurn の共有のために goto 文を使ってたのを廃止しています。 https://github.com/ruby/ruby/pull/3247
