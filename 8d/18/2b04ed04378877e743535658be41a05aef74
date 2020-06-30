@@ -1,0 +1,1 @@
+builtin.c の builtin_lookup() で feature の検索に if 文内に else の節から goto してたのを文字列の比較部分を bin4feature() という関数に切り出しています。たぶんここはそこそこ速度を(起動速度を)気にしたところだと思いますがおそらく通常は bin の初期化時に non-NULL になるので for 文は空まわりするはずですね。そう考えると条件部は !bin のほうが先のほうが良いかも? コンパイラが良きにはからってくれるかも。 https://github.com/ruby/ruby/pull/3247
