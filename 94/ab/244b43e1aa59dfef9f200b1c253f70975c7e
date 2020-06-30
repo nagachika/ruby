@@ -1,0 +1,1 @@
+eval.c の rb_class_modify_check() で不正なタイプのオブジェクトが渡されて Check_Type() で例外発生させた後に UNREACHABLE を追加しています。 gcc で警告が出るのでその抑制のためとのこと。
