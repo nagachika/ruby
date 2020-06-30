@@ -1,0 +1,1 @@
+proc.c の rb_method_name_error() で変数の Qundef での初期化により goto をやめるリファクタリング。一連の pull request の変更内ではちょっと珍しいパターンですね。 https://github.com/ruby/ruby/pull/3247
