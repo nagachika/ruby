@@ -1,0 +1,1 @@
+object.c の class_or_module_required() で switch 文の条件を工夫することで goto を廃止しています。 https://github.com/ruby/ruby/pull/3247
