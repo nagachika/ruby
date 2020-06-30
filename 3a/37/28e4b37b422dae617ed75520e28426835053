@@ -1,0 +1,1 @@
+singleton_class_of() でも goto 文で if の分岐の間で飛び込むのをやめて swicth 文で書き直しています。 https://github.com/ruby/ruby/pull/3247
