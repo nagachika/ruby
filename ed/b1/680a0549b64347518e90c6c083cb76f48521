@@ -1,0 +1,1 @@
+vm_eval.c の rb_method_call_status() のエラー処理を関数の末尾に移動して常に goto でジャンプするようにしています。 https://github.com/ruby/ruby/pull/3247
