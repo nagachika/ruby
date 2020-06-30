@@ -1,0 +1,1 @@
+bignum.c の str2big_scan_digits() でもたんに return FALSE するために goto 使ってたのを直接 return するように変更しています。 https://github.com/ruby/ruby/pull/3247
