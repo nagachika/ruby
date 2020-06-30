@@ -1,0 +1,1 @@
+rational.c の rb_rational_cmp() で if 文を case 文で書き換えて fall through を利用して goto の代用にしています。 https://github.com/ruby/ruby/pull/3247
