@@ -1,0 +1,1 @@
+numeric.c の fix_pow() から goto で共有してた処理を fix_pow_inverted() という関数に切り出すことで goto 文を廃止しています。 https://github.com/ruby/ruby/pull/3247
