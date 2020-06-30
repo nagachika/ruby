@@ -1,0 +1,1 @@
+variable.c の rb_copy_generic_ivar() のエラー処理を関数末尾に移動して常に goto でジャンプするようにしています。 https://github.com/ruby/ruby/pull/3247
