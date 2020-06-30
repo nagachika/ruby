@@ -1,0 +1,1 @@
+eval.c の make_exception() で引数の数が 1つの時の早期 return するようにするリファクタリング。
