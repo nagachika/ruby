@@ -1,0 +1,1 @@
+rb_ary_aset() でも同様に共通の処理を ary_aset_by_rb_ary_store() や ary_aset_by_rb_ary_splice() という関数に切り出して goto をなくすリファクタリング。 https://github.com/ruby/ruby/pull/3247
