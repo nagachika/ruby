@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_getivar() で goto での移動を if のブロックの中から外に飛ぶ方向にするようにリファクタリングしています。 https://github.com/ruby/ruby/pull/3247
