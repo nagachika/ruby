@@ -1,0 +1,1 @@
+ary_join_1() でも ary_join_1_ary() と ary_join_1_str() という関数に切り出して goto をなくすリファクタリング。 https://github.com/ruby/ruby/pull/3247
