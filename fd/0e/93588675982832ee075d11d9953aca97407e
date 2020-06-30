@@ -1,0 +1,1 @@
+time.c の time_mload() のエラー処理を関数末尾に移動して常に goto でジャンプするようにしています。 https://github.com/ruby/ruby/pull/3247
