@@ -1,0 +1,1 @@
+proc.c の proc_binding() で switch 文の case 節の順序を調節して fall through を利用して goto を使わないようにしています。 https://github.com/ruby/ruby/pull/3247
