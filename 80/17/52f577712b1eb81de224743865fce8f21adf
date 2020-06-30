@@ -1,0 +1,1 @@
+error.c の rb_check_typeddata() から builtin_class_name() を呼び出してたのを displaying_class_of() という専用の関数を定義してこちらを利用するようにリファクタリングしています。
