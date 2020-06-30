@@ -1,0 +1,1 @@
+object.c の rb_convert_to_integer() で base!=0 の時の分岐を最初に行なうようにすることで goto で処理を共有する必要がなくなるようにリファクタリングしています。 https://github.com/ruby/ruby/pull/3247
