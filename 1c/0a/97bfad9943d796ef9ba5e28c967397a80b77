@@ -1,0 +1,1 @@
+time.c の vtm_add_offset() で不要な goto 文を削除しています。 https://github.com/ruby/ruby/pull/3247
