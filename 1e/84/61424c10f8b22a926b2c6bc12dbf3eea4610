@@ -1,0 +1,1 @@
+hash.c の rb_hash_transient_heap_evacuate() でも条件分岐を整理して goto 文を廃止。 https://github.com/ruby/ruby/pull/3247
