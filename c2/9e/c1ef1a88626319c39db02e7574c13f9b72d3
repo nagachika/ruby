@@ -1,0 +1,1 @@
+string.c の rb_str_index_m() で条件分岐を整理して goto を不要にしています。 https://github.com/ruby/ruby/pull/3247
