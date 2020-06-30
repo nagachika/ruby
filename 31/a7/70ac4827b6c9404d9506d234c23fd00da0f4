@@ -1,0 +1,1 @@
+strftime.c の rb_strftime_with_timespec() でエラー処理(といっても return 0 してるだけなのですが……)を関数末尾に移動して常に goto でジャンプするようにしています。 https://github.com/ruby/ruby/pull/3247
