@@ -1,0 +1,1 @@
+signal.c の signm2signo() でエラー処理を関数末尾に移動して常に goto でジャンプするようにするリファクタリング。 https://github.com/ruby/ruby/pull/3247
