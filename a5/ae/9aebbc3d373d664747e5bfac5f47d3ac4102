@@ -1,0 +1,1 @@
+string.c の trnext() の goto のラベルを if 文のブロックの 1つ外に出しています。 https://github.com/ruby/ruby/pull/3247
