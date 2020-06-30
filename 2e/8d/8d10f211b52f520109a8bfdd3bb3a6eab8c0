@@ -1,0 +1,2 @@
+ここから pull request https://github.com/ruby/ruby/pull/3247 で行なわれている goto 文をなくしたり、飛び先を整理したりするリファクタリングが続きます。おおまかに分類して 1. switch 文の別の case 節や if 文の別のブロックなどに外から飛び込む goto を廃止して飛び先を外に括りだしたり fall through を利用する。 2. エラー処理など共通の処理をまとめるための goto 文でその処理が一箇所の処理に埋め込まれてるのを関数末尾などに移動したり関数として切り出して呼びかたを共通する。という変更が行なわれているようです。
+このコミットでは array.c の rb_ary_behead() の分岐内の処理を behead_shared() という関数に切り出して goto 文をなくしています。  https://github.com/ruby/ruby/pull/3247
