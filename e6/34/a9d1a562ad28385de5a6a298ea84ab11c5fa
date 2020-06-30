@@ -1,0 +1,1 @@
+ast.c の node_children() で swicth 文の別の case に goto で飛んでるのをやめて fall through するのにまかせるようにしています。 https://github.com/ruby/ruby/pull/3247
