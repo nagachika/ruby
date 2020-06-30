@@ -1,0 +1,1 @@
+enum.c の sum_iter() で共通部分を sum_iter_normalize_memo()、sum_iter_fixnum()、sum_iter_bignum()、sum_iter_rational()、sum_iter_some_value()、sum_iter_Kahan_Babuska() といった関数に切り出して goto を削除しています。 https://github.com/ruby/ruby/pull/3247
