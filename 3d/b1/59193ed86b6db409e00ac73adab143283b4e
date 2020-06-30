@@ -1,0 +1,1 @@
+proc.c の rb_obj_singleton_method() でも条件分岐を整理することで goto を不要にしてエラー処理を関数末尾にまとめるようにリファクタリングしています。 https://github.com/ruby/ruby/pull/3247
