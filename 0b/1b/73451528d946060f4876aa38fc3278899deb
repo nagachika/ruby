@@ -1,0 +1,1 @@
+eval.c の rb_class_modify_check() で不要な goto 文を削除して直接同じ式を書くようにしています。 https://github.com/ruby/ruby/pull/3247
