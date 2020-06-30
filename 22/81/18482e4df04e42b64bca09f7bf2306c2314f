@@ -1,0 +1,1 @@
+gc.c の gc_marks_finish() の goto 文は不要だったみたい? なので条件を追加して対応しています。 https://github.com/ruby/ruby/pull/3247
