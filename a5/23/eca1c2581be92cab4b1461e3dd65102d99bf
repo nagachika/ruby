@@ -1,0 +1,1 @@
+symbol.c の rb_enc_symname_type() のリファクタリング。 enc_synmane_type_leading_chars() という関数を導入して goto を減らそうとしているようです。
