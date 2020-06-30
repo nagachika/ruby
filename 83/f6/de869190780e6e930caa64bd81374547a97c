@@ -1,0 +1,1 @@
+time.c の find_time_t() の goto のラベルを if 文のブロックの 1つ外に移動しています。 https://github.com/ruby/ruby/pull/3247
