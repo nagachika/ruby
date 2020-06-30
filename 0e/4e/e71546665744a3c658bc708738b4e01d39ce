@@ -1,0 +1,1 @@
+io.c の rb_io_each_codepoint() でエラー処理を関数末尾に移動して常に goto を使って移動するように変更。 https://github.com/ruby/ruby/pull/3247
