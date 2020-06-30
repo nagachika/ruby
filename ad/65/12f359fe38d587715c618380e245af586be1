@@ -1,0 +1,1 @@
+symbol.c の rb_enc_symname_type() でエラー処理を関数末尾にあつめて常に goto でジャンプするようにしています。 https://github.com/ruby/ruby/pull/3247
