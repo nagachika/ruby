@@ -1,0 +1,1 @@
+マクロ RBIMPL_UNREACHABLE_RETURN() の定義で引数に渡されたものを展開結果にも含めるようにしています。 UNREACHABLE_RETURN() と書き間違えたのがわかるようにとのことですが後に 1ce9c37257111df15ca646c526b86798fab5775e  で revert されています。
