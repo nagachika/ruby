@@ -1,0 +1,1 @@
+cmp_clamp() で不要な goto で else へ飛び込んでたので、条件を整理して普通の if 文で書きなおしています。 https://github.com/ruby/ruby/pull/3247
