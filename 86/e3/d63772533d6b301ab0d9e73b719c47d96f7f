@@ -1,0 +1,1 @@
+class. c の SPECIAL_SINGLETON() というマクロを削除して、利用してたところはただの switch 文で書きなおしています。 https://github.com/ruby/ruby/pull/3247
