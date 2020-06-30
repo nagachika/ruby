@@ -1,0 +1,1 @@
+signal.c の trap_handler() で switch 文の case 節の中に goto の label があったのを switch 文のブロック内の case より前に移動しています。 https://github.com/ruby/ruby/pull/3247
