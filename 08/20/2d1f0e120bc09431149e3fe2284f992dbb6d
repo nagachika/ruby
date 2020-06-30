@@ -1,0 +1,1 @@
+process.c の check_exec_redirect() で Symbol が不正な時のエラー処理を goto を使う必要はなかったのでなくすリファクタリング。  https://github.com/ruby/ruby/pull/3247
