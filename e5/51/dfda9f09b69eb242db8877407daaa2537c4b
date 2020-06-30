@@ -1,0 +1,1 @@
+load.c の rb_feature_p() でエラー処理を関数末尾に移動して常に goto で移動するように変更。 https://github.com/ruby/ruby/pull/3247
