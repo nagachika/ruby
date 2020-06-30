@@ -1,0 +1,1 @@
+string.c の chompped_length() から goto で共有している処理を関数 smart_chomp() として切り出して goto を廃止するリファクタリング。 https://github.com/ruby/ruby/pull/3247
