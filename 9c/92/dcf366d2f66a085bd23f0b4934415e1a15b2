@@ -1,0 +1,1 @@
+compile.c の ibf_dump_object_object() でも条件を整理して goto 文を廃止しています。 https://github.com/ruby/ruby/pull/3247
