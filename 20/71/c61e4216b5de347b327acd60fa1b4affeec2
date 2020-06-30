@@ -1,0 +1,1 @@
+vm_trace.c の tracepoint_inspect() で goto を break で代替するリファクタリング。 https://github.com/ruby/ruby/pull/3247
