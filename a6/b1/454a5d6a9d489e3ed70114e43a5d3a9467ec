@@ -1,0 +1,1 @@
+compile.c の optimize_checktype() でもただの return FALSE のために goto 文が使われてたのを廃止しています。 https://github.com/ruby/ruby/pull/3247
