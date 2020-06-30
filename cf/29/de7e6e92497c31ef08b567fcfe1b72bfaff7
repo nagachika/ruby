@@ -1,0 +1,1 @@
+compile.c の compile_next() でも不要な goto 文があったので条件を整理して(? ちょっと局所的にみただけだとこれでいいのかぱっとわからないですが)廃止しています。 https://github.com/ruby/ruby/pull/3247
