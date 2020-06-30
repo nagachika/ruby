@@ -1,0 +1,1 @@
+dln_find.c の dln_find_1() でエラー処理を関数末尾に移動して常に goto で移動するようにしています。 https://github.com/ruby/ruby/pull/3247
