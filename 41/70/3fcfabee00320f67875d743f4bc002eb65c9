@@ -1,0 +1,1 @@
+marshal.c の r_object0() でも例外処理を独立したブロックに移動して常に goto で移動するようにしています。switch 文の break と case の間に置くのはいいのかな? https://github.com/ruby/ruby/pull/3247
