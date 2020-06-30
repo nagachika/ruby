@@ -1,0 +1,1 @@
+string.c の rb_str_rindex_m() の条件分岐を工夫して goto を廃止するリファクタリング。 https://github.com/ruby/ruby/pull/3247
