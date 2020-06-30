@@ -1,0 +1,1 @@
+hash.c の any_hash() の if 文を switch 文で書きなおして goto で移動するのをやめています。 https://github.com/ruby/ruby/pull/3247
