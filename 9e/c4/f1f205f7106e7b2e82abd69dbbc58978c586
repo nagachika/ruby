@@ -1,0 +1,1 @@
+bignum.c の rb_big_aref() で引数エラー時の return を goto でまとめてたのをやめて同じ return 文をコピーしています。 https://github.com/ruby/ruby/pull/3247
