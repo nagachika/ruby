@@ -1,0 +1,1 @@
+同様に array.c の ary_ensure_room_for_unshift() から共通部分を ary_modify_for_unshift() という関数に切り出して goto 文をなくしています。 https://github.com/ruby/ruby/pull/3247
