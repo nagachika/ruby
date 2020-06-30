@@ -1,0 +1,1 @@
+thread_sync.c の rb_szqueue_push() で goto 文は不要で break でループから抜けるだけで代用できたのでそのように変更しています。 https://github.com/ruby/ruby/pull/3247
