@@ -1,0 +1,1 @@
+compile.c の iseq_set_exception_table() でも条件を整理して不要な goto 文を削除しています。  https://github.com/ruby/ruby/pull/3247
