@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick や rubyspec で OpenSSL::HMAC.digest や OpenSSL::X509::Certificate#sign に渡す digest のアルゴリズムを OpenSSL::Digest::SHA1 などのクラスを渡してたのを文字列を渡すように変更しています。最近類似の変更があったけど、この定数を使うのって deprecated なんだ。
