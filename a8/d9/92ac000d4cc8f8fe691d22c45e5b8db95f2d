@@ -1,0 +1,1 @@
+compile.c の compile_call() でも条件を整理して goto 文を削除しています。 https://github.com/ruby/ruby/pull/3247
