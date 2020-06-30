@@ -1,0 +1,1 @@
+rb_ary_slice_bang() でも共通部分を ary_slice_bang_by_rb_ary_splice() という関数に切り出して goto 文をなくすリファクタリング。 https://github.com/ruby/ruby/pull/3247
