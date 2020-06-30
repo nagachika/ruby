@@ -1,0 +1,1 @@
+error.c の rb_check_typeddata() でエラー処理を関数末尾に移動して常に goto 文を利用するようにしています。 https://github.com/ruby/ruby/pull/3247
