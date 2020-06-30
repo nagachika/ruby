@@ -1,0 +1,1 @@
+proc.c の bind_local_variable_get() のリファクタリングでエラー処理を関数末尾になるように分岐を整理しています。 https://github.com/ruby/ruby/pull/3247
