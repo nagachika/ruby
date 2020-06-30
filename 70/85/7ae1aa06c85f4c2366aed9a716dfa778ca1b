@@ -1,0 +1,1 @@
+dir.c の glob_make_pattern() でエラー処理を関数末尾に移動して常に goto で移動するようにしています。 https://github.com/ruby/ruby/pull/3247
