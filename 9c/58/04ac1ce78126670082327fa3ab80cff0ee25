@@ -1,0 +1,1 @@
+range.c の range_each() から goto で共有している処理を range_each_bignum_endless()、range_each_fixnum_endless()、range_each_fixnum_loop() といった関数に切り出して goto を廃止しています。  https://github.com/ruby/ruby/pull/3247
