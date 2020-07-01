@@ -1,0 +1,1 @@
+method.h に METHOD_ENTRY_CACHEABLE() というメソッドの可視性(visibility) が protect かどうかをチェックする頻出処理を関数マクロとして切り出すリファクタリング。
