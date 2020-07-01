@@ -1,0 +1,1 @@
+method.h の METHOD_ENTRY_COMPLEMENTED_SET()、METHOD_ENTRY_CACHED_SET()、METHOD_ENTRY_INVALIDATED_SET() などの method entry の flags にビットフラグをセットするマクロで |= による論理和つき代入を使うようにしています。関数マクロの引数の評価を 1回にするためみたいです。
