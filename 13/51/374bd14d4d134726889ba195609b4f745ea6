@@ -1,0 +1,1 @@
+vm_method.c の rb_method_boundp() にて複雑な条件による if 文をネストさせて METHOD_ENTRY_VISI(me) による分岐は if 文内にさらに switch 文を置くようにするリファクタリング。
