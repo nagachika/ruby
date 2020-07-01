@@ -1,0 +1,1 @@
+configure が使う tool/m4/ruby_universal_arch.m4 で定義する RUBY_UNIVERSAL_ARCH というマクロでコンパイルターゲットの CPU アーキテクチャを検出するのに preprocessor のマクロをチェックしてるところに __arm64__ を検出して arm64 という名前をセットする対応を追加しています。"for ARM64 Macs" とあるから Apple が Mac に ARM を採用するのにむけた対応ですかね。
