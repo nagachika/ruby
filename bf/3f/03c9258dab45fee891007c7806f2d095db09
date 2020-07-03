@@ -1,0 +1,1 @@
+Integer の to_i, to_int, ord などの C 実装を呼ぶまでもないメソッドの ruby 実装で builtin 関数呼び出しもなくして直接 ruby だけで実装するようにしています。たしかに。
