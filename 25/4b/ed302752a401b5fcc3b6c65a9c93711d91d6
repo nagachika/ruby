@@ -1,0 +1,1 @@
+rational.c の nurat_sub() という関数を rb_rational_minus() に改名して static 修飾子をはずして別のソースファイルからも呼べるようにしています。
