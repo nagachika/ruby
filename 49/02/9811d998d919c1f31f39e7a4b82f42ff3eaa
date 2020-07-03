@@ -1,0 +1,1 @@
+254bed302752a401b5fcc3b6c65a9c93711d91d6 で改名した関数 rb_rational_minus() も利用して rational.c の nurat_rationalize() (Rational#rationalize の実装)で f_sub()/f_add() のかわりに直接 rb_rational_minus()/rb_rational_plus() を呼ぶようにしたり、Float から Rationalize への変換で負の時にも precision の指定がきくようにする修正や中間オブジェクトの生成を抑えるようにする変更など。
