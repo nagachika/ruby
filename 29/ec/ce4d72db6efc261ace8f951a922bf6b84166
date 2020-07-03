@@ -1,0 +1,1 @@
+rational.c の Integer#% メソッドを呼び出してた関数 f_odd_p() を削除して rb_int_odd_p() を直接呼ぶことで代替するようにしています。
