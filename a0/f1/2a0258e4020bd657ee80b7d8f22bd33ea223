@@ -1,0 +1,1 @@
+グローバル変数の参照を compile した時に GENTRY という型(実体は VALUE) を使ってたのをやめめ ID で代替するようにしています。 GENTRY 知らなかったな……。 https://github.com/ruby/ruby/pull/3278
