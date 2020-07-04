@@ -1,0 +1,1 @@
+RUBY_DEBUG_LOG() というマクロを追加してデバッグ情報を記録するようにしています。 USE_RUBY_DEBUG_LOG マクロを指定してビルドした時にだけ使えて、環境変数 RUBY_DEBUG_LOG で格納(出力)先がメモリ上/stderr/指定のファイルなどに切り替えができるというもののようです。 https://github.com/ruby/ruby/pull/3279
