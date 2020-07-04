@@ -1,0 +1,1 @@
+c565dfb09ad7d55fa671f65cea7088a914bf1931 で json のテストでの $LOAD_PATH へのパス追加時に絶対パスに変換しておく修正 (参考 https://mametter.hatenablog.com/entry/2020/03/24/123456) が 0aac138e0b507c8a361f7cf2f30c276e7110ea33 の json-2.3.1 への更新時に戻ってしまってたので再適用しています。
