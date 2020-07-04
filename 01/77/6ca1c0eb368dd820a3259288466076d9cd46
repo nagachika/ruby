@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL でのチェックで拡張ライブラリの mkmf.rb での確認のために生成する conftest.c は無視させるようにしています。
