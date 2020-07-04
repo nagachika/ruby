@@ -1,0 +1,1 @@
+tool/lib/test/unit/assertions.rb で定義されていた assert_pattern_list という assertion メソッドを tool/lib/test/unit/core_assertions.rb に移動しています。 default gem (drb) のテストで使えるようにするためみたいですね。
