@@ -1,0 +1,1 @@
+.gitignore から "." で始まって "-"  を含むファイル名のパターンを消しています。 元々なにを意図して ignore してたのかわかりませんが、.gitlab-ci.yml.tt みたいな名前が無視されてしまうからとのこと。 bundler による gem 生成時のためのテンプレートファイルの名前ですね。 かわりに .downloaded-cache や .top-enc.mk などいくつか明示的に .gitignore に追加しています。
