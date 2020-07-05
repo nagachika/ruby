@@ -1,0 +1,1 @@
+Object#tap の実装を ruby 実装にしています。 tap みたいなのは ruby 実装のほうが速そうですね。 https://github.com/ruby/ruby/pull/3281
