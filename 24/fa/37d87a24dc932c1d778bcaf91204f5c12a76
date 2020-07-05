@@ -1,0 +1,1 @@
+Kernel#then, Kernel#yield_self, Kernel#frozen? などのメソッドも ruby 実装にしています。 then/yield_self はブロックが与えられてた場合は純粋な ruby 実装になってます(そうでない時は Enumerator を返すので C 関数を builtin 関数機能で呼び出す)。 https://github.com/ruby/ruby/pull/3283
