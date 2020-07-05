@@ -1,0 +1,1 @@
+インスタンス変数のテーブルのインデックスの inline cache の値を可能なら MJIT で JIT コンパイルした時にも利用するようにする機能を追加しています。 https://github.com/ruby/ruby/pull/3284
