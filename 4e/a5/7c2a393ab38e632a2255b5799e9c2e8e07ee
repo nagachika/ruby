@@ -1,0 +1,1 @@
+358f91bf6f9999ba4683f702bc47483789bd4e7e の gems/bundled_gems のコメント行対応の defs/gmake.mk の対応で Makefile 内での "#" にエスケープが必要だったのでバックスラッシュを追加しています。
