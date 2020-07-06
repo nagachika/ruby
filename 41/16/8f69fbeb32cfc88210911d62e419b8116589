@@ -1,0 +1,1 @@
+Coroutine 実装 coroutine/arm32/Context.S、coroutine/arm64/Context.S、coroutine/ppc64le/Context.S で coroutine_transfer というシンボル名に SYMBOL_PREFIX という(これもマクロかな) export 用の prefix を追加するようにしているようです。
