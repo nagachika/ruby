@@ -1,0 +1,1 @@
+7a5da7d55d40e431e561ab2c891b7cab155e74db で .gitignore から ".*-*" を削った影響でほかにも .ruby-version も無視したかったので追加しています。
