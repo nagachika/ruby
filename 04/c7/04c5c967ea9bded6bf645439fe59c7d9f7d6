@@ -1,0 +1,1 @@
+coroutine/arm32/Context.S と coroutine/arm64/Context.S の行末の空白を除去。
