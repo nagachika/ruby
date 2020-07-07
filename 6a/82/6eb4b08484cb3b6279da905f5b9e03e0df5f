@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#to_s が返す文字列の Encodig を常に US-ASCII にするようにしています。なんでかなと思ったら "ASCII-8BIT" になってしまう場合があったようです。 https://github.com/ruby/bigdecimal/issues/159
