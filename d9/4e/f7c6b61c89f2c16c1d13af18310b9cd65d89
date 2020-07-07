@@ -1,0 +1,1 @@
+関数 method_missing() 内で GET_EC() で rb_execution_context_t を得てたのを引数で受け取るようにして呼び元の ec を渡すようにしています。おそらく呼び元の ec も同じものではあると思いますが。
