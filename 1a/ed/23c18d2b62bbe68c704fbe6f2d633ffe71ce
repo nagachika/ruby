@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の commit hash の範囲指定による cherry pick 指示に複数の範囲を同時に指定できるように機能拡張しています。
