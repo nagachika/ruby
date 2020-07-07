@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で 2.5 以前の ruby に対応するため rb_complex_real() と rb_complex_imag() の代替実装を追加しています。そういえば struct RComplex 構造体を不可視にするという変更がすこし前にありましたね。
