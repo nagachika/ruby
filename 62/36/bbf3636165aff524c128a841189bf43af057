@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal のテスト test/bigdecimal/test_bigdecimal.rb で重複したテスト内容があったようで一方を削っています。
