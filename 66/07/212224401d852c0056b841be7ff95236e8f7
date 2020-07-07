@@ -1,0 +1,1 @@
+d36b197d7c1ce5684fb215697dc2d404cbd730d0 で修正した bigdecimal のテストで 2.4 以前だと freeze されたオブジェクトの変更は FrozenError ではなくただの RuntimeError だったのでそれにも対応するようにしています。
