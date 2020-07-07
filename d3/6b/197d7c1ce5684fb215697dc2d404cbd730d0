@@ -1,0 +1,1 @@
+ceb9d516c6d17b0619cf53dfba7cb7b29fe073e4 で追加した BigDecimal#initialize_{copy,dup,clone} の明示的な undef を削除しています。 BigDecimal のインスタンスは freeze されてるので Kernel から継承(Mix-in)したメソッドで FrozenError が発生するのでそれにまかせています。
