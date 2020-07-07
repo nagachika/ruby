@@ -1,0 +1,1 @@
+RubyVM::AbstractSzyntaxTree.of で OP_ASGN2 ノードの子要素がひとつ足りてなかった不具合を修正しています。 "+=" みたいな演算子つき代入の syntax sugar に対応したノードですね。
