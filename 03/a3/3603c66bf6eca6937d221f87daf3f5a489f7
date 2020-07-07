@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で Complex#to_d メソッドも追加しています。Kernel#BigDecimal() と同様に虚数部が 0 なら変換するようにしています。
