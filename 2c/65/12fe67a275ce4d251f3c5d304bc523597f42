@@ -1,0 +1,1 @@
+file.c の rb_check_realpath_internal() という関数で Linux または macOS 以外の環境でのみ必要な stat(2) の呼び出しを preprocessor の分岐で括っています。 realpath(3) が成功してるからもう不要なはずということですが一部の環境(OS)では realpath(3) が実際には存在しないファイルパスを返す可能性があるためのチェックとのことです。 https://github.com/ruby/ruby/pull/3267
