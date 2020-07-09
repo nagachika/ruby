@@ -1,0 +1,1 @@
+b06a4dc6f1fbef12ff7b4d57e7b5f12fd1f6cb5b での gc.c の gc_page_sweep() での bitmap の操作の変更のところでビット演算するところの 1 という定数を bits_t という型に明示的にキャストするようにしています。 Coverity Scan による検出とのこと。
