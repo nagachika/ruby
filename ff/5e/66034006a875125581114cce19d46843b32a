@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.of で ARGS ノードのデコード時にブロック引数の最後に余分なコンマが書かれてた時の NODE_SPECIAL_EXCESSIVE_COMMA というのを Symbol として返すように対応を追加しています。 https://github.com/ruby/ruby/pull/3298 [ruby-core:99077] [Bug #17015]
