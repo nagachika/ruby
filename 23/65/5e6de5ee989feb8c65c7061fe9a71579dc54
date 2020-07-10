@@ -1,0 +1,1 @@
+Apple silicon 上での macOS 11 でのビルドエラーの修正。もう新しい ARM 版の macOS を入手されたんですね。 configure.ac に Coroutine 実装として coroutine/arm64 を選択するプラットフォームの指定を追加しています。 https://github.com/ruby/ruby/pull/3289
