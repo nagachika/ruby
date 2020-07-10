@@ -1,0 +1,1 @@
+ast.c の node_children() 内で繰り返し使われてる rest 引数にまつわる NODE の取り出しを rest_arg() および no_name_rest() という関数に切り出すリファクタリング。
