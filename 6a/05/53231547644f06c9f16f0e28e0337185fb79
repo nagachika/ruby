@@ -1,0 +1,1 @@
+構造体 struct ASTNodeData のメンバー node に const 修飾子を追加して関連する関数の引数にも const を追加しています。
