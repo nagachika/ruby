@@ -1,0 +1,1 @@
+1d93705d6a76f805d1ca5153cb5f4c59ce58c754 で切り出した vm_push_frame_debug_counter_inc() でテーブルを使った書きかたを if 文で分岐して明示的に RB_DEBUG_COUNTER_INC() を呼ぶように変更しています。ささださんの意見による変更らしいです。
