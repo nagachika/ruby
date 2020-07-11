@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_push_frame() が戻り値に rb_control_frame_t を返していたのをやめています。どこでも戻り値は見てなかったとのこと。
