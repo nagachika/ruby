@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate の instance_methods, public_instance_methods, instance_method などのメソッドを探すメソッドで 委譲先のクラスに後から追加されたメソッドに対応できるように対応を追加しています。 [ruby-core:98929] [Bug #16982]
