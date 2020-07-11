@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_push_frame() から debug counters の処理を vm_push_frame_debug_counter_inc() という関数に切り出すリファクタリング。
