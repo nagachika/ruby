@@ -1,0 +1,1 @@
+CHECK_VM_STACK_OVERFLOW0() という VM スタックのオーバーフローチェックのためのマクロの実装を RUBY_CONST_ASSERT() を使っていたところを STATIC_ASSERT() を利用するようにしています。
