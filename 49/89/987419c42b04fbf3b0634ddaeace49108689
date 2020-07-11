@@ -1,0 +1,1 @@
+debug counters を操作するマクロ RB_DEBUG_COUNTER_INC_IF() および RB_DEBUG_COUNTER_INC_UNLESS() で条件の引数は !!  を使って真偽値として評価されるようにしています。環境によっては型が幅の小さいサイズにキャストされる警告が出るようです。
