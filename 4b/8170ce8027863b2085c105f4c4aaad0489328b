@@ -1,0 +1,1 @@
+同じく vm_push_frame() の中の VM_ASSERT() で VM_ENV_DATA_INDEX_XXX の定数の値のチェックをしていたところは静的にチェック可能なので関数外で STATIC_ASSERT() でチェックするように変更しています。
