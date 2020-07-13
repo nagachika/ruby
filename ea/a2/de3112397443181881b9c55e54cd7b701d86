@@ -1,0 +1,1 @@
+signal.c の rb_sigaltstack_size() のコメントに書いてあったスタックサイズの単位に誤った prefix がついてた(KiB)ので削っています。
