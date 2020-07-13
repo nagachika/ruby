@@ -1,0 +1,1 @@
+doc/syntax/refinements.rdoc に super の呼び先に影響があるのは refine されたメソッドだけであることを明記しています。 [ruby-core:98917] [Bug #16977]
