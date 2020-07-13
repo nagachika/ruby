@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal のテストで BigDecimal.mode の丸めモードに依存しているテストのために元の丸めモードを保存しておいて後で復旧させるようにしています。 https://github.com/ruby/ruby/pull/3297
