@@ -1,0 +1,1 @@
+GitHub Actions の MJIT テストでコマンドラインオプションに --jit-min-call=5 を追加しています。 https://github.com/ruby/ruby/pull/3313
