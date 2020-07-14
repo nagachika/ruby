@@ -1,0 +1,1 @@
+lib/uri/common.rb の rdoc 用コメント内のリンクが http を使ってたのを https に変更しています。
