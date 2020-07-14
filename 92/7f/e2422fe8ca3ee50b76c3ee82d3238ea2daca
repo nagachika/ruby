@@ -1,0 +1,1 @@
+f66e0212efe4f6572d5e81741e831ab735cc2fee で導入した invokebuiltin 命令の MJIT 時の個別関数の引数に stack_size を追加して VM stack から引数を特定するのに STACK_ADDR_FROM_TOP() を使わないようにしています。
