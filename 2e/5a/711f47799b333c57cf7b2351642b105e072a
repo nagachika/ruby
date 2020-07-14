@@ -1,0 +1,1 @@
+common.mk の mjit_compile.inc の依存関係に ruby_vm/views/_mjit_compile_invokebuiltin.erb を追加しています。
