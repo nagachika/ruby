@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gem の upstream から commit を cherry pick する時に conflict したら自動でエディタを起動できるようにしています。
