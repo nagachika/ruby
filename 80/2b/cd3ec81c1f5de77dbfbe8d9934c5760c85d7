@@ -1,0 +1,1 @@
+9721f477c7f33d64af94fad4a1ca51f739b0b08f の変更で rb_int_bit_length() に static 修飾子が残っててエラーになったのを修正しています。
