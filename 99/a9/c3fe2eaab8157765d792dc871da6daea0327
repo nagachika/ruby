@@ -1,0 +1,1 @@
+Time.new や Time.utc で timezone を指定して作成した時に Time#yday と Time#wday が正しくセットされていなかった不具合を修正しています。 [ruby-core:99127] [Bug #17024]
