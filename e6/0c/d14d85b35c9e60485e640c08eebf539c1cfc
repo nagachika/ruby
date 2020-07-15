@@ -1,0 +1,1 @@
+bignum.c の BIGNUM_DEBUG が真の時に定義する ON_DEBUG というマクロと dump_bignum() および rb_big_dump() という static 関数が既に未使用になってたので削除しています。
