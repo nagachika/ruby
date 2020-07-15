@@ -1,0 +1,1 @@
+7e536b3be26ae48738a036a58be8dfa380bd21da のリファクタリングで tool/ruby_vm/views/_mjit_compile_invokebuiltin.erb   に追加した sp_inc の VM_ASSERT() によるチェックを stack_size との比較をするように修正しています。
