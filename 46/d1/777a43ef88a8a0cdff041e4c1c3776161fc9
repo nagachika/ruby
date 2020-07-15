@@ -1,0 +1,1 @@
+d99d96cc6d139b9496fa33b81d378481a8c6388b で GitHub Actions の MJIT テスト用の workflow で --jit-min-calls=5 を指定するようにしたのを revert しています。ついでに(?) --jit-warnings も削っています。
