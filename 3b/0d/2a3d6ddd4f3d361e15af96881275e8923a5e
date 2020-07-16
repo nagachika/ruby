@@ -1,0 +1,1 @@
+bundler の RuboCop の指摘に対応するための修正。 magic comment frozen_string_literal の追加や(こんなの言われるの…)、Symbol キーの Hash リテラルの記法の変更など。
