@@ -1,0 +1,1 @@
+bundler のc44c7019b5b320d427b9cf560fdb7790fd5c775f で分離した bundle gem と rubocop のテストに :readline タグを追加しています。
