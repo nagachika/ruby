@@ -1,0 +1,1 @@
+rubyspec の内部構造のテストのための拡張ライブラリで struct RBasic::flags を取り出す時に INT2FIX() を使ってたのを VALUE2NUM() というマクロを導入してこれを使うようにしています。
