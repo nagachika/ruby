@@ -1,0 +1,1 @@
+bundler の Bundler::Runtime#require で発生した LoadError 例外の対象のパスを取り出すのに例外メッセージから正規表現で切り出してたのを LoadError#path を使うようにしています。
