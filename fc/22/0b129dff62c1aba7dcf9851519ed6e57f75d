@@ -1,0 +1,1 @@
+test/rubygems/test_gem_source_list.rb にも明示的な rubygems の require を追加しています。
