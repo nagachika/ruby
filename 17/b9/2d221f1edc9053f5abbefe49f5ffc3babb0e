@@ -1,0 +1,1 @@
+bundler のテストで git checkout で特定のタグに変更する前に git remote update していたコマンド実行を削除しています。git clone をローカルからするようにした変更に追随したものかな。
