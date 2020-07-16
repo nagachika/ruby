@@ -1,0 +1,1 @@
+bundler のテストの helper メソッドで実行するディレクトリを指定したうえで git clone する URL に ".." を指定するように変更しているのですが、working copy からも clone できるんだ……。
