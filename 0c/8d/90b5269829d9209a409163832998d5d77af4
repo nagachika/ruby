@@ -1,0 +1,1 @@
+bundler の Bundler::RubygemsIntegration#spec_from_gem で Gem::Package::FormatError を rescue して GemspecError を投げ直していたのをやめています。元のメッセージやバックトレースが失なわれてしまうので、CI のエラーの調査のためみたいです。
