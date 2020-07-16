@@ -1,0 +1,1 @@
+bundle gem で生成する Rakefile などで古い Hash リテラル記法を使ってたのを新しい Symbol キーの記法を使うように変更しています。
