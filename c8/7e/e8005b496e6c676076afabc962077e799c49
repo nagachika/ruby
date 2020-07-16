@@ -1,0 +1,1 @@
+test/irb/test_workspace.rb に明示的な rubygems の require を追加しています。
