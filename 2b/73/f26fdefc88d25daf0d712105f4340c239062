@@ -1,0 +1,1 @@
+bundler のテストで $LOADED_FEATURES を検査する assert_system_features_not_loaded という assertion メソッドでエラー時のメッセージを強化しています。
