@@ -1,0 +1,1 @@
+bundle gem で生成する Gemfile に含める rubocop のバージョンの指定に  "~> 0.80" を追加しています。
