@@ -1,0 +1,1 @@
+bundler のテストで spec/bundler/commands/binstubs_spec.rb のファイル全体を Windows 環境で skip してたのを特定のテストケースのみ skip するように狭めています。
