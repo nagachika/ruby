@@ -1,0 +1,1 @@
+ad743337b376d8e2a9dae7350b0e89eed636c5bb で狭めた skip も含めて bundler のテストで Windows 環境で skip していたものを skip を消して、数カ所ではファイルを open しっぱなしで GC にまかせてたのを File.readlines を使うように修正しています。
