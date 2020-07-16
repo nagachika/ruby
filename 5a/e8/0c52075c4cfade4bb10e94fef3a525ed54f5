@@ -1,0 +1,1 @@
+bundler のテストの helper メソッドで git checkout するコマンドに --quiet をつけてたのを削っています。デバッグのためみたいですね。
