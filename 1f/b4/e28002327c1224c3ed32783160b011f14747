@@ -1,0 +1,1 @@
+f66e0212efe4f6572d5e81741e831ab735cc2fee で Primitive.cexpr! で MJIT 用に式ごとの専用の compile 関数を作るようにしたところで Primitive.attr! で inline が指定されていないやつも無条件で inline 化してしまっていたので、定義する関数の引数で inline 可能かどうか渡すようにしています。たぶん今は全て inline ついてるから実質問題なかったのかな……と思ったけど yield_self/then は inline なしでした。
