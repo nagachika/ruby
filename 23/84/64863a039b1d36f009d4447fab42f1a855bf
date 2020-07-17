@@ -1,0 +1,1 @@
+test/fiber/test_http.rb という blocking Fiber のテストをファイルまるごと消しています。 https://www.ruby-lang.org/en/ にアクセスするという外部リソースに依存しているのでテスト用のサーバーを立てるように書きなおしたいとのこと。
