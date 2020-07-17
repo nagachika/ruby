@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb で Warning[] によるカテゴリごとの on/off 指定が実装されてなかったら WARNING_CATEGORIES という定数を空にして Warning[] を呼ばないようにしています。このディレクトリは default gem でも実行されるんでしたっけ。
