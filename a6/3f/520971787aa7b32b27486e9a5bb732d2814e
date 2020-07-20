@@ -1,0 +1,1 @@
+Array#max の最初の要素が Integer/String/Float だった時に(そして当然残りの要素も同じクラスのインスタンスだった時に)比較のため <=> をメソッド呼び出しせず直接関数を呼び出すようにする最適化を加えています。 https://github.com/ruby/ruby/pull/3325
