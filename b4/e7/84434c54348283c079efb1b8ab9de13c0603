@@ -1,0 +1,1 @@
+a63f520971787aa7b32b27486e9a5bb732d2814e と同様に Array#min でも要素が Integer/String/Float の時に比較関数を直接呼び出すようにする最適化を行なっています。 https://github.com/ruby/ruby/pull/3324
