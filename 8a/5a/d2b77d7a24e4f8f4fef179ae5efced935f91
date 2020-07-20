@@ -1,0 +1,1 @@
+始点が nil になっている Range (いわゆる begin-less range) で終点が Integer のものに対する Range#max が ArgumentError になる不具合を修正しています。 [ruby-core:99198] [Bug #17034]
