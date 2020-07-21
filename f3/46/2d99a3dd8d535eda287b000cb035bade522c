@@ -1,0 +1,1 @@
+blocking Fiber で Thread 毎の Scheduler を取得する関数 rb_current_thread_scheduler() を rb_thread_scheduler_if_nonblocking() い改名して引数に明示的に Thread を受け取るようにしています。コミットログをみると GVL 解放した後で current thread を参照してたのでタイミングによっては間違った Thread の scheduler を参照してしまう可能性があったみたいです。
