@@ -1,0 +1,1 @@
+4e33a878793a5ced47a4f14b8a73cbc2795d97b7 の追加修正。標準添付ライブラリ csv の CSV.open で変換できない文字があった時の例外が想定される Encoding::InvalidByteSequenceError にならなくなってたのを修正しています。 https://github.com/ruby/csv/pull/131
