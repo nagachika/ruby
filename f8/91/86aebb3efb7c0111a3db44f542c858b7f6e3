@@ -1,0 +1,1 @@
+CSV.instance の rdoc 用コメントを追加しています。ついでに(?) 1ac702cd29786085d5bfe618eef9e9d9817e76f3 で変更した委譲しているメソッド一覧の位置を移動したりもしています。 https://github.com/ruby/csv/pull/136
