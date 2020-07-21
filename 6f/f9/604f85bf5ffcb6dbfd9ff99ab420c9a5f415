@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO への書き込み時に Encoding をバッファに合わせて変換する時に変換がうまくできなかった場合に rb_enc_check() を呼び出して Encoding::CompatibilityError を発生させるようにしています。issue をみると暗黙のうちに UTF-8 に変換されてしまっていたようです。なるほど、この変更のために csv の変更もマージされたんですね。 https://github.com/ruby/stringio/issues/13
