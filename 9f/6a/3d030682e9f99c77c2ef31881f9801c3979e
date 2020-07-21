@@ -1,0 +1,1 @@
+test/fiber/test_io.rb に複数 Thread で blocking Fiber を起動するテストを追加しています。
