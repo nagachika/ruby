@@ -1,0 +1,1 @@
+標準添付ライブラリ csv  のCSV.generate_line で利用する Encoding を最初にみつけた非 ASCII な Encoding を使うようにしています。
