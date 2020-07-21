@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の書き込み時にクオートをつけるカラムの指定を force_quote でヘッダ名やインデックスで指定できるようにしています。 https://github.com/ruby/csv/pull/153
