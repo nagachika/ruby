@@ -1,0 +1,1 @@
+CSV.new の rdoc 用コメントの strip オプションの説明で削る空白文字として \r と \n が含まれていたのを削り、スペースを追加しています。 https://github.com/ruby/csv/pull/114
