@@ -1,0 +1,1 @@
+doc/ の配下の標準添付ライブラリ csv 用の rdoc ファイル群のディレクトリ構成を変更しています。 https://github.com/ruby/csv/pull/145
