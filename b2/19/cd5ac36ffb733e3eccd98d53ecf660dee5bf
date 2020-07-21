@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV::Row#dup がその @row 自体を dup するだけで各要素を dup していなかったので、全要素を dup した新しい配列を返すようにしています。 https://github.com/ruby/csv/pull/108
