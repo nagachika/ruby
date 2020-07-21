@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV.generate で StringIO を利用する時に StringIO#set_encoding でバッファの文字列の Encoding を設定しておくようにしています。 https://github.com/ruby/csv/pull/111
