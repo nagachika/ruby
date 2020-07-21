@@ -1,0 +1,1 @@
+6ff9604f85bf5ffcb6dbfd9ff99ab420c9a5f415 で追加した拡張ライブラリ stringio のテストで UTF-8 の StringIO のバッファに ISO-8859-1 の文字列を書き込むという非 ASCII だけで互換性のある Encoding の書き込みのテストケースを追加しています。
