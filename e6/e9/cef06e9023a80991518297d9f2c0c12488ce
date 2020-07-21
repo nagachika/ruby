@@ -1,0 +1,1 @@
+blocking Fiber のテストで 79d06483a8ac98a87e5c32d3a34823382a72a0da で skip 時の fd leak 修正を test/fiber/test_io.rb でも同様に修正しています。
