@@ -1,0 +1,1 @@
+6ff9604f85bf5ffcb6dbfd9ff99ab420c9a5f415 の StringIO の書き込み時の Encoding 変換のエラー処理再修正。StringIO のバッファの Encoding が US-ASCII だった場合に自動的に変換されるため? 互換性チェックしないようにしています。
