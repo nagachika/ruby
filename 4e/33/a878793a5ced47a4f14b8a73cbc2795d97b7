@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV.open のオプションに :undef と :replace を追加し、対応する文字がなくて文字エンコーディング変換がうまくできない時の代替文字などの指定ができるようにしています。 https://github.com/ruby/csv/pull/129
