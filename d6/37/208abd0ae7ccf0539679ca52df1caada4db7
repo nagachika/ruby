@@ -1,0 +1,1 @@
+vm_method.c の static な関数名 copmplemented_callable_method_entry() の typo を修正して complemented_callable_method_entry() に改名しています。
