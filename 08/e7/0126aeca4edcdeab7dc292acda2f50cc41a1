@@ -1,0 +1,1 @@
+4e33a878793a5ced47a4f14b8a73cbc2795d97b7 に続いて CSV.open のオプションに :invalid も追加しています。不正なバイト列があった時の置換指定ができるようにしています。 https://github.com/ruby/csv/pull/130
