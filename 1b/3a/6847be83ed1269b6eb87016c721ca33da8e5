@@ -1,0 +1,1 @@
+include/ruby/internal/intern/thread.h から blocking Fiber 関係の関数宣言 rb_thread_scheduler_get()/rb_thread_scheduler_set()/rb_thread_scheduler_if_nonblocking() などを include/thread.h に移動しています。
