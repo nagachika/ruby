@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV::Parser#skip_needless_lines で :skip_lines オプションにが空文字列にマッチする時に無限ループに陥る不具合を修正。 https://github.com/ruby/csv/pull/110
