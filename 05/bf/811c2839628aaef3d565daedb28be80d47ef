@@ -1,0 +1,1 @@
+8a5ad2b77d7a24e4f8f4fef179ae5efced935f91 の始点が Integer で終点が Integer じゃない Range に対する Range#max の変更の再修正。 (1.0..Float::INFINITY).max は Float::INFINITY を返すけど、という指摘に対応して (1...Float::INFINITY).max は Float::INFINITY を返すようにしています。 [ruby-core:99079] [Bug #17017]
