@@ -1,0 +1,1 @@
+rubyspec でテスト内で StringIO を使う時に明示的に +""  で文字列リテラルを渡すことで Encoding を script encoding に? するようにしています。 default external の影響を受けないようにするためとのこと。
