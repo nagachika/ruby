@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の rdoc 用のファイル doc/argument_io.rdoc がコミット漏れしてたようなので追加。 https://github.com/ruby/csv/pull/140
