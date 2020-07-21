@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の rdoc 用コメントで委譲先のメソッドの列挙がリンクになるように receiver のクラスつきで記述するようにしています。 https://github.com/ruby/csv/pull/135
