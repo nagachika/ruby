@@ -1,0 +1,1 @@
+T_CLASS/T_MODULE/T_ICLASS  などのクラス系の型のオブジェクトに対する ObjectSpace.memsize_of で返すメモリ消費量に call cache 用の構造体などの領域も加算するようにしています。
