@@ -1,0 +1,1 @@
+0faf02718a75fb7c338c9ec7c27b284b4cf2f874  で書きかえた assertion をさらに正規表現とただの assert を使うように書きかえてますが、これ assert_match の間違いじゃないかな?
