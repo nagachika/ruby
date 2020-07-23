@@ -1,0 +1,1 @@
+lib/irb/color.rb に明示的な require 'irb/ruby-lex' を追加しています。
