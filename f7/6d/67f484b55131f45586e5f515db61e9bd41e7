@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Context#instance_method_list で obsoleted という警告を追加したために戻り値が nil になってしまっていたので位置を修正。なんかこういう変更見覚えがある。一回修正しなかったっけな……。
