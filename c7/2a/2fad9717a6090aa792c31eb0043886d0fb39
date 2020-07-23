@@ -1,0 +1,1 @@
+78ccab25306d15c325baa0761d9505ac23956f22 で irb に追加した RubyLex.compile_with_errors_suppressed がブロックを呼び出す時に渡す引数に lineno を追加して Ripper::Lexer に渡す行番号がずれないようにしています。
