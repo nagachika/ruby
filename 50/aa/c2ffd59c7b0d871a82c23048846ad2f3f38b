@@ -1,0 +1,1 @@
+と思ったら 8b0dc77a621ded75f72486c33f55404ce73f00d7 の追加修正で、configure でのチェック時にも signal.c から定数マクロ RUBY_SIGALTSTACK_SIZE の定義部分を抜き出して埋め込むことでこれを使うようにしています。すごいなこのトリック。ところで結局 RUBY_SIGALTSTACK_SIZE は 16KB として定義されていました。実際のサイズは同じだったか。
