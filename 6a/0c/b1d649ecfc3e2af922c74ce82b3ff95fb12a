@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で Module/Class を文字列化する時に無名 Module/Class だったら不要な文字列追加を避けるようにしています。
