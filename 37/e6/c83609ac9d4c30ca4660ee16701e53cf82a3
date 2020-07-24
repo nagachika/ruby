@@ -1,0 +1,1 @@
+98286e9850936e27e8ae5e4f20858cc9c13d2dde の Module#include, #prepend と refinements の修正の再修正で rb_mod_refine() で rb_ensure_origin() を呼び出していたのをやめて rb_prepend_module() 内で対象の Class/Module に RCLASS_ORIGIN() が無かった時だけ継承ツリーを複製して ORIGIN の生成をするようにしているようです。コミットログによると省メモリ化のためらしい。
