@@ -1,0 +1,1 @@
+Enumerator::Lazy の生成時に使う関数 lazy_init_yielder() から登録された関数ポインタの関数を呼び出したりする実際の処理を lazy_yielder_result() という関数に切り出し、これを利用する lazy_yielder_yield() という引数に struct MEMO を渡して呼び出せる関数を追加しています。まだ使われていませんが次の 6b3cff12f6add831c678ce7a5288097714bc6850 でこの関数を使って Enumerator::Lazy の効率化をしているようです。
