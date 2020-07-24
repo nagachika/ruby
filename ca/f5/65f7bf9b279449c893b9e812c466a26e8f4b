@@ -1,0 +1,1 @@
+99a9c3fe2eaab8157765d792dc871da6daea0327 や afacf85e443cc64dd41c248659b65476434b4175 で timezone 指定して作った Time オブジェクトについての修正で使った共通の処理を MAKE_TM_ENSURE() という関数マクロとして定義するリファクタリング。 [ruby-core:99265] [Bug #17042]
