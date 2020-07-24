@@ -1,0 +1,1 @@
+8ed687a4d7b7a77f30f8e937f58aae74bfb699b6 で先にテストを追加した timezone 指定して作った Time オブジェクトの strftime の %U %V %W 指示子の不具合修正。 [ruby-core:99265] [Bug #17042]
