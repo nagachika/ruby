@@ -1,0 +1,1 @@
+default gem になった標準添付ライブラリ optparse の gemspec で required_ruby_version を 2.5 以降に更新しています。
