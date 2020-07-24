@@ -1,0 +1,1 @@
+6a0cb1d649ecfc3e2af922c74ce82b3ff95fb12a で追加した ObjectSpace.dump のテスト test_dump_allocations と test_anonymous_class_name の一部がオブジェクトの確保数に依存しているためテストの実行順序とかに依存して失敗しやすいみたいなので削除しています。なんとなくそんな気はした https://github.com/ruby/ruby/pull/3349
