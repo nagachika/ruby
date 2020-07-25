@@ -1,0 +1,1 @@
+timezone 指定つきで作成した Time オブジェクトの挙動修正シリーズの最新作で、Time#to_a した時に wday/yday のところの値がおかしくなってしまっていた不具合を修正しています。 https://github.com/ruby/ruby/pull/3355 [ruby-dev:50934]  [Bug #17046]
