@@ -1,0 +1,1 @@
+irb の RubyLex と blocking fiber のテストで未使用の変数の警告が出ていたのを解消しています。
