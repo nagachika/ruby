@@ -1,0 +1,1 @@
+Enumerable#inject で receiver が Array 以外だった時の実装で each メソッドから呼ばれるコールバックとして使われる inject_op_i() という関数で、渡されたブロックが Symbol から変換されたものだった時にメソッド呼び出しするのに rb_funcallv() ではなく rb_funcallv_public() を使うようにしています。private なメソッドのメソッド名を Symbol で渡した時には呼べないはず、というのを厳密にチェックさせるようにしているそうです。なるほどー。しかしそこまで気にしたことないな……。
