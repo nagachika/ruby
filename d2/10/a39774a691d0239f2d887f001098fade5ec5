@@ -1,0 +1,1 @@
+GitHub Actions の様々なコンパイラやコンパイラオプションの組み合わせでのビルドを試す .github/workflows/compilers.yml の DEBUG_FIND_TIME_NUMGUESS というマクロを指定するオプションで typo していたのを修正しています。
