@@ -1,0 +1,1 @@
+rb_profile_frames() が返すスタックフレームの情報の配列に C 言語定義の関数によるメソッドの control frame も含めるようにしています。rb_iseq_t のかわりに rb_callable_method_entry_t のポインタを詰めて返すようです。パフォーマンスの解析のために有用なのでということみたいです。
