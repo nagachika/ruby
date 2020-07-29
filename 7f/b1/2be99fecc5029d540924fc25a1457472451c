@@ -1,0 +1,1 @@
+標準添付ファイルの lib/net/ftp/version.rb を削除して Net::Ftp::VERSION 定数の定義を Net::FTP::VERSION に改名して lib/net/ftp.rb へ移動しています。 そして net-ftp.gemspec でバージョンを切り出すのに require せずにファイルから正規表現で切り出すようにしています。
