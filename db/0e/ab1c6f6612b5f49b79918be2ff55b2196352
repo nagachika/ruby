@@ -1,0 +1,1 @@
+tool/lib/envutil.rb の EnvUtil.rubyexec というメソッド(invoke_ruby の alias として)を削除しています。もうどこからも使われてないからとのこと。
