@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.memsize_of  と ObjectSpace.memsize_of_all の rdoc 用コメントに、返される値の単位は bytes であることを明示するようにしています。
