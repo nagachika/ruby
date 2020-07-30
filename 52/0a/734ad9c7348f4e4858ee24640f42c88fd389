@@ -1,0 +1,1 @@
+秒数に Rational を渡して Time を作った時の Time#ceil で引数の精度に現在の Rational の精度以上の桁数を指定した場合に結果がおかしくなっていた不具合を修正。 [ruby-core:99143] [Bug #17025]
