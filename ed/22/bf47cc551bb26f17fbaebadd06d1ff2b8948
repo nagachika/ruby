@@ -1,0 +1,1 @@
+bootstraptest/runner.rb で bootstraptest 中に core dump が発生するような異常終了が起きた時に "E" のマークや標準エラー出力のメッセージが出てなかったらしいのを修正しています。
