@@ -1,0 +1,1 @@
+transient_heap.c の struct transient_heap::status の変更時にそれを 8655c2e69041cc812d30c2e951a8ac9ea7a60c47 で導入した RUBY_DEBUG_LOG() を利用してデバッグログに出力するようにしています。
