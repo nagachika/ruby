@@ -1,0 +1,1 @@
+Hash#to_proc で生成した Proc オブジェクトは is_lambda? が false なのに実際には引数の数が合わないと ArgumentError になるので、is_lambda? が true を返すように修正しています。 [ruby-core:76846]  [Bug #12671]
