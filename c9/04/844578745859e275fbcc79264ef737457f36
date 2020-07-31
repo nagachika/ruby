@@ -1,0 +1,1 @@
+common.mk の make extract-gems で既に対象の gem のバージョンのディレクトリが存在してたら Gem.unpack での展開は省略するようにしています。
