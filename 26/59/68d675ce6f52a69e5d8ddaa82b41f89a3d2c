@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストで Fiddle::Function#call で poll(2) を呼び出すのにかかった時間を測るテストで EnvUtil.apply_timeout_scale を使って時間の幅も環境変数によるスケーリングの対象にしています。
