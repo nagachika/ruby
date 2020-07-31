@@ -1,0 +1,1 @@
+tool/rbinstall.rb でインストールした実行ファイルに chmod する時のファイル名を rubygems の formatted_program_filename というメソッドで整形したものを使うように修正しています。
