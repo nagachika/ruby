@@ -1,0 +1,1 @@
+Module/Class の複製をする rb_mod_init_copy() で flags に RCLASS_CLONED フラグを立てる前に複製可能かのチェックを行うように修正しています。
