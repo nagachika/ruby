@@ -1,0 +1,1 @@
+dd6f5aba0e07c6e65cad026317d1a77dbb72f56e で導入した transient_heap.c のためのデバッグログで使うため追加した関数 transient_heap_status_cstr() の宣言を #if USE_RUBY_DEBUG_LOG でくくって未使用な時に定義しないようにしています。
