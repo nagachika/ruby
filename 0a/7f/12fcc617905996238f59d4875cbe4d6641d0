@@ -1,0 +1,1 @@
+rubygems の Gem::Request.configure_connection_for_https メソッド内で require 'net/https' してたのを削除して require 'openssl' に変更しています。このメソッド内で直接参照してたのは openssl のほうだったので。
