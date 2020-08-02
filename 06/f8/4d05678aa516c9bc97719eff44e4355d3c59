@@ -1,0 +1,1 @@
+rubygems の Gem::TestCase の setup メソッドで super を呼び出してたのを削除しています。teardown が super してないし不要だからとのことだけど、うーん、お作法としてこれはいいのかな。
