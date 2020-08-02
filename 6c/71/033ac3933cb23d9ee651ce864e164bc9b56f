@@ -1,0 +1,1 @@
+rubygems 内で "rubygems/util"  を require してるところを削除。 autoload 設定しているからとのこと。
