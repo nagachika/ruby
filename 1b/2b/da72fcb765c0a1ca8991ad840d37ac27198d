@@ -1,0 +1,1 @@
+69881a41f22e6d76ce23c97e7026783ea8f2d07c で追加した util/remove_openssl.rb の機能強化。 --revert というオプションをつけると元に戻せるようにしています。
