@@ -1,0 +1,1 @@
+rubygems のテストで e1494145d9725dba217fbc2bd9645db011fab946 で openssl がロードできてなかった時の警告メッセージの typo 修正。
