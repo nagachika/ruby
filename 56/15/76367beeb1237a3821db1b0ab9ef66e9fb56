@@ -1,0 +1,1 @@
+rubygems の Gem::Requirement.parse でバージョン指定の "="  とか "~>"  などの文字列を String#-@ メソッドで fstrng 化するように最適化しています。
