@@ -1,0 +1,1 @@
+lib/bundler/vendored_persistent.rb で require "openssl" していたのを削除しています。もう不要とのこと。
