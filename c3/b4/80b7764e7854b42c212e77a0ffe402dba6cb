@@ -1,0 +1,1 @@
+ruygems の Gem::Specification#files の rdoc 用コメントのサンプルで files に test/ の配下を含めてたのが例として望ましくないということで削っています。
