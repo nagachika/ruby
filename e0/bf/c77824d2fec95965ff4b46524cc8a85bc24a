@@ -1,0 +1,1 @@
+rubygems の Gem.load_yaml メソッド内で gem メソッドが存在するか defined? でチェックしていたのがもう不要とのことで削除しています。
