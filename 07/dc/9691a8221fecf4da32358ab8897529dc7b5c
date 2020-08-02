@@ -1,0 +1,1 @@
+bundler のテスト spec/bundler/support/artifice/fail.rb で require 'net/https' してたのを削除して test/rubygems/test_bundled_ca.rb の require "net/https" も "net/http" に変更しています。コミットログは typo かな?
