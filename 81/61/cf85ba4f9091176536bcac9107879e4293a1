@@ -1,0 +1,1 @@
+rubygems で openssl の OpenSSL::Digest の配下の定数を直接参照するのをやめ、名前で指定するようにしています。またユーティリティメソッドとして Gem::Security.create_digest というのを追加しています。
