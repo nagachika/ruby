@@ -1,0 +1,1 @@
+rubygems の instraller  File::ALT_SEPARATOR と File::SEPARATOR を置換する対応をさらに環境変数 PATH の内容についても行なうようにしています。
