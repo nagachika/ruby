@@ -1,0 +1,1 @@
+lib/rubygems/security.rb で LoadError を処理しているところで LoadError#path メソッドがない古いバージョンも考慮していた分岐を削除しています。
