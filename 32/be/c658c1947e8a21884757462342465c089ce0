@@ -1,0 +1,1 @@
+GitHub Actions で CodeQL によるチェックを行う workflow .github/workflows/codeql-analysis.yml で /usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb というファイルを削除しておくようにしています。よくわかりませんがこれが悪さをするようです。
