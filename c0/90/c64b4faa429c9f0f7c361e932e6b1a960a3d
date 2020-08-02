@@ -1,0 +1,1 @@
+rubygems の installer の Windows 対応で File::SEPARATOR と File::ALT_SEPARATOR の置換の間違ってたところを修正。
