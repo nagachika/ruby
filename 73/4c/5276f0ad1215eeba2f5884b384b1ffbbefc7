@@ -1,0 +1,1 @@
+8161cf85ba4f9091176536bcac9107879e4293a1で追加した Gem::Security.create_digest を Gem::Package::TarWriter でも利用するようにリファクタリングしています。
