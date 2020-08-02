@@ -1,0 +1,1 @@
+rubygems の Gem::Request.configure_connection_for_https で LoadError を rescue して Gem::Exception を投げなおしていたのをやめています。
