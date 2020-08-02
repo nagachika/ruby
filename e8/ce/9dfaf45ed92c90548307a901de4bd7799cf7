@@ -1,0 +1,1 @@
+symbol.c の関数 enc_synmane_type_leading_chars() の引数 enc の型から const 修飾子を削除しています。型の rb_encoding 自体が const を含んでいるので不要だったとのこと。
