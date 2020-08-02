@@ -1,0 +1,1 @@
+lib/rubygems/specification.rb の処理を private なクラスメソッドに切り出すリファクタリング。
