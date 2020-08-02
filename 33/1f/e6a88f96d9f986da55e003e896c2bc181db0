@@ -1,0 +1,1 @@
+rubygems による Kernel#warn の上書きで uplevel キーワード引数による警告位置として表示するファイル位置を調整する時に rubygems のパスを無視させるようにしています。しかしこれ rubygems のコード内で warn 呼んだらおかしくなるのでは。
