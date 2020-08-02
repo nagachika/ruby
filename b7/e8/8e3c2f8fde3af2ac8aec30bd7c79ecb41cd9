@@ -1,0 +1,1 @@
+rubygems の Gem::Commands::SetupCommand.new で継承元の Gem::Command の initialize のオプション :format_executable に false を渡すように変更しています。a9b044e97b710a30f0598b6f85da29217471f030 でテストのほうを変更していた Gem.default_exec_format を使わないようにしていたのと関係ありそうですね。
