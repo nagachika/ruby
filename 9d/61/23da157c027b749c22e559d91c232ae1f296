@@ -1,0 +1,1 @@
+rubygems の Gem::TestCase#new_default_spec で Gem のインスタンス変数を得るのに instance_variable_get を直接呼ばず send メソッドを使って default_gem_load_paths メソッド経由で参照するようにしています。private な attr_reader メソッドなのかな。
