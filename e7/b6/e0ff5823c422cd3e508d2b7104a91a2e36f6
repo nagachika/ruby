@@ -1,0 +1,1 @@
+rubygems で autoload が設定されているので不要ということで一部 require を削っています。
