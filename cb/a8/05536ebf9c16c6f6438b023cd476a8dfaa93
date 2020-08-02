@@ -1,0 +1,1 @@
+test/rubygems/test_gem_commands_build_command.rb の先頭の空行を削除。どうやら RuboCop が警告するみたいですね。
