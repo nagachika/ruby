@@ -1,0 +1,1 @@
+rubygems 内で require 'rubygems/source' を削除。 autoload 設定されているからとのこと。
