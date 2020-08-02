@@ -1,0 +1,1 @@
+rubygems のテスト用ユーティリティの Gem::FakeFetcher の find_data メソッドでファイルを読み込むのに File.read を使ってたのを Gem.read_binary に変更しています。 Windows でのテストエラー対策みたいです。
