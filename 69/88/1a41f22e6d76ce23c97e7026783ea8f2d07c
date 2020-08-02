@@ -1,0 +1,1 @@
+rubygems を openssl が存在しない状態でテスト実行するための util/remove_openssl.rb というツールを追加しています。
