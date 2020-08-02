@@ -1,0 +1,1 @@
+rubygems の Gem.already_loaded? で $LOADED_FEATURES に default_gem_load_paths のファイルのいずれかが含まれているかの確認でループの順序を変えるのと、引数の $LOADED_FEATURES の要素が file を終端の部分文字列として持ってるかのチェックを先にすることで最適化しています。
