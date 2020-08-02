@@ -1,0 +1,1 @@
+rubygems のテストで MinGW で Encoding がらみで失敗するものの対応のため一部文字列を String#b で ASCII-8BIT に変換しています。
