@@ -1,0 +1,1 @@
+lib/rubygems/security/policy.rb  でも require "openssl" していたのを不要として削除しています。
