@@ -1,0 +1,1 @@
+拡張ライブラリ racc で生成した parser で syntax error 発生時に false でなく nil を返すようにしているようです。
