@@ -1,0 +1,1 @@
+rubygems のテストで XDG_CACHE_HOME、XDG_CACHE_HOME、XDG_CACHE_HOME などの環境変数の影響を受けて実行しているユーザーの環境を変更してしまわないように Gem::TestCase#setup でこれらの環境変数を消すようにしています。
