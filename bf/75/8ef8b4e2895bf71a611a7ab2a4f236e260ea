@@ -1,0 +1,1 @@
+GitHub Actions の mswin でのビルドで zlib のインストールに vcpkg を使うのをやめて zlib.net から直接パッケージをダウンロードして展開するようにしています。
