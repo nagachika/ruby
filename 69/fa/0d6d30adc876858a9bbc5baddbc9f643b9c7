@@ -1,0 +1,1 @@
+rubygems で require "openssl" して LoadError を処理している処理を lib/rubygems/openssl.rb に切り出して、このファイルを require_relative で読み込むようにしています。
