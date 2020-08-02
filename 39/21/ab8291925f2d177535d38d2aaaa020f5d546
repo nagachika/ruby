@@ -1,0 +1,1 @@
+rubygems の Gem::Package#verify_entry で例外を rescue して Gem::Package::FormatError 例外として投げなおしてたのをやめ、警告を出して元の例外をそのまま再 raise するようにしています。
