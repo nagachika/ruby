@@ -1,0 +1,1 @@
+rubygems の Gem::TestCase#setup で $stderr を一時ファイルへの出力に切り替えて #teardown でその内容をチェックして出力があったらエラーにするようにしています。
