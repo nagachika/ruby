@@ -1,0 +1,1 @@
+lib/rubygems/commands/cert_command.rb で require "openssl" してたのが不要とのことで削除しています。
