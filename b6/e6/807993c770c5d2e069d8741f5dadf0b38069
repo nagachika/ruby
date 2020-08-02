@@ -1,0 +1,1 @@
+1b1ea7b3bc9484e6e59d716fce2965a2f39d1e3d の Array#flaten, #flatten!  の変更の再修正。 array.c の flatten() で変数 memo を 0 で初期化して level の符号チェックで分岐していたところを memo のチェックで代替するようにしています。 gcc 7以降での警告? 抑制のためみたいです。
