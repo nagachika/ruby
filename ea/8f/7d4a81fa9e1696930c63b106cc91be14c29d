@@ -1,0 +1,1 @@
+e1494145d9725dba217fbc2bd9645db011fab946 で lib/rubygems/openssl.rb を読み込むのに require "rubygems/openssl" としていたのを require_relative を使うように変更しています。
