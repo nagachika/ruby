@@ -1,0 +1,1 @@
+rubygems の Gem::Installer.new でインスタンス変数 @plugins_dir を初期化するようにしています。 --user オプションつきの時に plugin のインストール先を追随させるためだそうです。
