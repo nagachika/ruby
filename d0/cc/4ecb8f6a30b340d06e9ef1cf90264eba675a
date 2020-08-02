@@ -1,0 +1,1 @@
+Gem::TestCase で default_test というメソッドが定義済みだったら undef するコードがもう不要みたいで削除しています。
