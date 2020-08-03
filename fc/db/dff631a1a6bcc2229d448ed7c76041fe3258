@@ -1,0 +1,1 @@
+8f096226e1b76f95f4d853d3dea2bc75eeeb5244 の NODE のうち NODE_ARYPTN と NODE_ARGS の一時バッファ用の imemo を mark 対象にしてたのを、そもそも struct rb_ary_pattern_info::imemo と struct rb_fnd_pattern_info::imemo  メンバーを削除して他の種類と同じく NODE の子ノードへのポインタを利用して保持するように変更しています。
