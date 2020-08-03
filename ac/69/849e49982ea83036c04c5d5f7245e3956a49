@@ -1,0 +1,1 @@
+CI でのエラーのデバッグのため clear_method_cache_by_id_in_class() に klass の型をチェックして想定した T_CLASS/T_ICLASS でなかったら rb_bug() で異常終了させるようにしています。
