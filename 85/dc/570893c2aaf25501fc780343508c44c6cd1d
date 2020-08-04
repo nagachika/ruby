@@ -1,0 +1,1 @@
+20eb9e98b65352422fbb1197eb8699bfcb12d5ef の追加で  net/http の TLS を使う時の session reuse のテストで拡張ライブラリ openssl がリンクしているライブラリが LibraSSL の3.20 以降だった場合に Net::HTTP#ssl_version を :TLSv1 にセットするようにしています。LibreSSL 3.2 だとデフォルトが TLSv1.3 になっていて、その場合 session reuse に対応していないため。
