@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp の gemspec ファイルを lib/net/net-ftp.gemspec に移動して tool/sync_default_gems.rb もこれに対応しています。
