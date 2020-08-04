@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の gemspec ファイルで required_ruby_version に 2.5.0 以降の指定を追加しています。
