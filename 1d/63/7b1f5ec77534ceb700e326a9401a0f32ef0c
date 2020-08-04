@@ -1,0 +1,1 @@
+標準添付ライブラリ weakref の gemspec ファイルの add_development_dependency が記述されてたのを削除しています。add_development_dependency よりは Gemfile を使おうというのが今の推奨みたいです。
