@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の gemspec ファイルで required_ruby_version を 2.5.0 以降にセットしています。
