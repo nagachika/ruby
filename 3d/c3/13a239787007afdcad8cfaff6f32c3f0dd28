@@ -1,0 +1,1 @@
+GC.compact の対応でオブジェクトを移動できないように pin する gc_pin() 関数で rb_objspace_t::mark_func_data をチェックして、これが NULL じゃなかったら実際の mark 処理ではなく、mark 時に参照されるオブジェクトを検索しているだけなのでビット操作しないようにしています。
