@@ -1,0 +1,1 @@
+NODE による一時バッファのための構造体 struct node_buffer_struct のメンバー local_tables を削除しています。 35ba2783fe6b3316a6bbc6f00bf975ad7185d6e0 でうっかり使ってないのに追加してしまっていたようです。
