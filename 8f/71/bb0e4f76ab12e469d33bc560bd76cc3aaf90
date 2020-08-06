@@ -1,0 +1,1 @@
+2346e2f0db50c577af6568e5697d39553d7ddb67 と 3ec860ae8870ee955e34bfa0acc576197012a0c7 の net-ftp の gemspec ファイルと同様に標準添付ライブラリ net/ の他の imap, pop, smtp, protocol の gemspec ファイルも lib/net/ の直下に移動して、version.rb のファイルパスの解決も追随させています。
