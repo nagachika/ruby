@@ -1,0 +1,1 @@
+TracePoint#inspect で返す文字列に含まれるファイル位置の前に "@" が入っていたのを、少し前に Thread#inspect でも変更したのと同様に空白に変更しています。 https://github.com/ruby/ruby/pull/3391 [ruby-core:96905] [Feature #16513]
