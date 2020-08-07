@@ -1,0 +1,1 @@
+Thread#kill についてのテストで子プロセスを起動して待つタイムアウトの秒数に EnvUtil.apply_timeout_scale を適用して環境変数による変更が効くようにしています。
