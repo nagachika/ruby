@@ -1,0 +1,1 @@
+コンパイル時の assert に関連する NDEBUG と RUBY_DEBUG, RUBY_NDEBUG のマクロ指定が衝突した時にコンパイル時の警告を出力するようにしています。 https://github.com/ruby/ruby/pull/3327
