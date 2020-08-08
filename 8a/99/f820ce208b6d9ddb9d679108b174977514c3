@@ -1,0 +1,1 @@
+bf758ef8b4e2895bf71a611a7ab2a4f236e260ea と b6175c9e4fe25b978252d8998fe791d65d998fc5 で GitHub Actions の mswin 版で zlib のインストールに vcpkg が使えなくなったので独自にインストールするようにした対応を revert しています。どうやらインストールできない現象が解消されたみたいです。
