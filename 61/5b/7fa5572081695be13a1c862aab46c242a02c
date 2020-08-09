@@ -1,0 +1,1 @@
+Array#product の rdoc 用コメントの call-seq の戻り値のブロック有無による違いの明確化、説明やサンプルコードの強化。 https://github.com/ruby/ruby/pull/3395
