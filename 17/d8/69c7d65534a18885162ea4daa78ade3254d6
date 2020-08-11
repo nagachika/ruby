@@ -1,0 +1,1 @@
+GitHub Actions の設定ファイル .github/workflows/check_encoding.yml を追加して C のソースファイル/ヘッダファイルおよび parse.y に非 ASCII 文字がないかのチェックを行なうとのこと。grep で「TAB と " "(\x20) と "~"(\x7e) の間の文字以外」にマッチ、として、マッチしたら失敗しているわけですね。
