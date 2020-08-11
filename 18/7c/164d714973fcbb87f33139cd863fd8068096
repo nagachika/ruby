@@ -1,0 +1,1 @@
+id_table.c の rb_id_table_foreach_with_replace() 内で assert(3) の引数としてしか使ってない変数を削除して、代入部分をそのまま assert() に渡すようにしています。これも NDEBUG 真の時の警告除去のため。
