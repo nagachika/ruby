@@ -1,0 +1,1 @@
+array.c の初期化関数 Init_Array() で should_be_T_ARRAY() と should_not_be_shared_and_embedded()  という関数を呼び出すようにしています。コミットログによると NDEBUG  がデフォルトで真になったので ARY_SHARED_P() や ARY_EMBED_P() マクロ内での assert(3) で呼ばれてるこれらの関数が展開されなくなって、未使用関数という警告が出るようになったのでその対策のためとのこと。引数を定数にしているので実際にはコンパイル時に消えるはずとのこと。
