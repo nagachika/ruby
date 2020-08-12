@@ -1,0 +1,1 @@
+MJIT 用の precompiled header を生成するための tool/transform_mjit_header.rb で標準出力が端末の時の色付けに tool/lib/colorize.rb を利用するようにしています。
