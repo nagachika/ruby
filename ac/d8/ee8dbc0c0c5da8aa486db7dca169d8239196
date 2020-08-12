@@ -1,0 +1,1 @@
+template/prelude.c.tmpl で C のコードにする時にエスケープするために独自にメソッド定義していたのをやめてtool/ruby_vm/helpers/c_escape.rb を利用するようにしています。
