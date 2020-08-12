@@ -1,0 +1,1 @@
+doc/method_documentation.rdoc というファイルを追加して組み込みクラスおよび標準添付ライブラリのドキュメントのガイドラインを記述しています。英語を読みやすいものにしましょうねというセクションもあって良いですね。 https://github.com/ruby/ruby/pull/3399
