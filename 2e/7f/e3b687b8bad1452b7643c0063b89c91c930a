@@ -1,0 +1,1 @@
+tool/lib/colorize.rb に rdoc 用コメント追加と Colorize.new の キーワード引数 color 追加。
