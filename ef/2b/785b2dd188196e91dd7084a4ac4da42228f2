@@ -1,0 +1,1 @@
+.github/workflows/compilers.yml に clang-12 というコンパイラを利用する環境を追加しています。
