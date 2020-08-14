@@ -1,0 +1,1 @@
+c355fa72d4e356378a8b03a67432b52bafcc308b の array.c での assert(3) が無効の時の未使用関数の警告避けのために Init_Array() に関数呼び出しを追加していたのを revert して、かわりに RBIMPL_ATTR_MAYBE_UNUSED() マクロつきで宣言して警告抑制するようにしています。
