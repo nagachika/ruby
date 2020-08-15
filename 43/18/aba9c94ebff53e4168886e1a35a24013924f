@@ -1,0 +1,1 @@
+787cb0fd868bb6de40dcc78fcc39c28a96c7d561 の変更で re.c の関数 rb_reg_quote() の変数 n に未初期化の警告が出てたそうで MAYBE_UNUSED() マクロを使った宣言を使うようにしています。
