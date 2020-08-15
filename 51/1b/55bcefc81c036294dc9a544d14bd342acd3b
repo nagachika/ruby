@@ -1,0 +1,1 @@
+ARM は alignment のとれてないアドレスにもアクセスできるということでそれを意識した最適化が有効になるように UNALIGNED_WORD_ACCESS の定義の条件に追加しています。 https://github.com/ruby/ruby/pull/3393
