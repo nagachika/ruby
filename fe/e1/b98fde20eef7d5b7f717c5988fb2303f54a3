@@ -1,0 +1,1 @@
+doc/fiber.rdoc 内のサンプルの Scheduler の定義で fd の数値から IO オブジェクトを作る IO.for_fd のメソッド名が間違ってたのを修正しています。
