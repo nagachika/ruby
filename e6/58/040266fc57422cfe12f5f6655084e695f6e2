@@ -1,0 +1,1 @@
+同じく 787cb0fd868bb6de40dcc78fcc39c28a96c7d561 の re.c の変更で rb_reg_quote() では文字列サイズは利用してなかったので変数 n がそもそも不要だったので RSTRING_GETMEM() はやめて RSTRING_PTR() の結果を変数に受けておくように再変更しています。
