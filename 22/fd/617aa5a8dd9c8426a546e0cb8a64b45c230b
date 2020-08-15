@@ -1,0 +1,1 @@
+doc/dig_methods.rdoc という dig メソッドについての一般的なドキュメントのファイルを追加して、Array/Hash/Struct/OpenStruct の dig メソッドの rdoc 用コメントからこれへのリンクを追加しています。 https://github.com/ruby/ruby/pull/3416
