@@ -1,0 +1,1 @@
+rdoc 用コメントから doc/dig_methods.rdoc へのリンクの記法に rdoc-ref という、タグ? を利用するようにしています。単に相対パスで指定するとリンクが生成される時のパスがおかしくなってたようですね。  https://github.com/ruby/ruby/pull/3421
