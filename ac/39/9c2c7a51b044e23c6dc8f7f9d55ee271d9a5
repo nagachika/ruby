@@ -1,0 +1,1 @@
+デバッグ用にビルドした時の RubyVM::InstructionSequence のデバッグ出力で TS_BUILTIN タイプを rb_bug() で異常終了させてたのを通すようにして、また TS_VALUE タイプの表示で対象のオブジェクトが klass を持たない内部的なオブジェクトの時に inspect を呼ばないようにしています。
