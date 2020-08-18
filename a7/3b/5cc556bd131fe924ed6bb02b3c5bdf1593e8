@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri が再定義している Kernel#open の定義を削除しています。 2.7 以降は Kernel# open での対応は deprecated 警告を出力するようにしていたのですがもう消すとのこと。そうかー。 [ruby-core:92922] [Misc #15893]
