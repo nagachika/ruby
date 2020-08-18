@@ -1,0 +1,3 @@
+昨日の pattern match の文法の命令列へのコンパイル時の swap 命令を不要にするため putnil 命令を追加する位置を変更しています。
+こちらに分析時のメモがあるようです
+[https://gist.github.com/wanabe/b4baf0d4459b60a0c31d794cd9801f27#node_case3-%E3%81%AE-nd_head-%E9%83%A8%E5%88%86]
