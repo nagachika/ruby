@@ -1,0 +1,1 @@
+ObjectSpace.dump でメソッド名を表現する文字列オブジェクトを埋め込む時に直接 %s で埋め込まず dump_append_string_value() を利用してクオートのエスケープが行なわれるようにしています。
