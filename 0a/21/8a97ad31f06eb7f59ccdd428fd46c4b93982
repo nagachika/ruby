@@ -1,0 +1,1 @@
+Fiber#backtrace および Fiber#backtrace_locations メソッドを追加して Fiber ごとのバックトレースを取得できるようにしています。 NEWS にも追記が欲しいですね。 [ruby-core:98049] [Feature #16815]
