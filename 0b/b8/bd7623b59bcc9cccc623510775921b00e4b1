@@ -1,0 +1,1 @@
+default gem の gemspec ファイルに spec.licenses の設定がなかったものに追加しています。
