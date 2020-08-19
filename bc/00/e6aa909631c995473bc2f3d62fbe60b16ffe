@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations のテストを一時的に実行しないようにしています。
