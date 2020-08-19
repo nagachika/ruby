@@ -1,0 +1,1 @@
+default gems の gemspec ファイルで license に "BSD-2-Clause" しかなかったものを "Ruby" との dual licenses にするよう変更しています。
