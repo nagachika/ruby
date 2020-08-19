@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に明示的な require "rbconfig"  を追加しています。
