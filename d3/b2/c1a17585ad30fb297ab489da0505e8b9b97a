@@ -1,0 +1,1 @@
+default gem の bignum と readline の gemspec ファイルでライセンス ID として "ruby" や "Ruby License" など SPDX ID として正しくない記法が使われてたのを "Ruby"  に修正しています。
