@@ -1,0 +1,1 @@
+1359da6ec09d60ac9aef28f2e0df4d7f712f08d3 で追加した irb の history file のテストで irb を起動するのに -rbundler/setup オプション追加していたのを -I でロードパスを追加するだけにするように変更しています。
