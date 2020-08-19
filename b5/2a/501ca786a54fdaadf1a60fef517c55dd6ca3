@@ -1,0 +1,1 @@
+インスタンス変数の操作で iv_index_tbl の NULL チェックを追加しています。 File オブジェクト(など IO のサブクラス?)に IO#reopen を呼ぶと RCLASS_IV_INDEX_TBL が NULL にリセットされる場合があったみたいです。
