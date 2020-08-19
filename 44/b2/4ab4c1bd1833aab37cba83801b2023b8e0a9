@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で show_mode_in_prompt という設定を追加して、プロンプトに現在の mode (vi mode の時?)を表示するようにしています。
