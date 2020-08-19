@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の gemspec ファイルで license の指定を "Ruby License" から "Ruby" に修正しています。 SPDX ID というのがあるんですね。
