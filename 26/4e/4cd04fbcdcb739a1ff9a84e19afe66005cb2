@@ -1,0 +1,1 @@
+T_ICLASS 型オブジェクトの操作に Write Barrier を追加して WB_UNPROTECTED だったのを RGenGC の対象にできるようにしています。久しぶりに RGenGC がらみの変更をみたなぁ。 [ruby-core:98935] [Feature #16984]
