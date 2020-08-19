@@ -1,0 +1,1 @@
+irb から不要な require "readline" を削除し require に失敗した時にエラーにならないようにする対応の追加。
