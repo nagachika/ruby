@@ -1,0 +1,1 @@
+Ripper::Lexer::Elem#state が利用可能かどうかの判定に RUBY_VERSION をみてチェックしてたのを、Module#method_defined? でより直接的にチェックするように変更しています。
