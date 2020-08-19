@@ -1,0 +1,1 @@
+1359da6ec09d60ac9aef28f2e0df4d7f712f08d3 で追加した test/irb/test_history.rb に明示的な require "irb" を追記しています。
