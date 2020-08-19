@@ -1,0 +1,1 @@
+lib/irb/ext/save-history.rb の remove_method 呼び出しに明示的なかっこを追加しています。警告除去かなと思ったら ruby-mode.el がうまく対応できてなかったからとのこと。
