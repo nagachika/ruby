@@ -1,0 +1,1 @@
+lib/irb/ext/save-history.rb からも明示的な require "readline" を削除しています。
