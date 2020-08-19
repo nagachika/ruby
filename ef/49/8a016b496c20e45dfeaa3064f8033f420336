@@ -1,0 +1,1 @@
+irb の設定で IRB.conf[:SAVE_HISTORY] に T_BIGNUM な数値がセットされていると RangeError でエラーになってしまってたのを修正しています。
