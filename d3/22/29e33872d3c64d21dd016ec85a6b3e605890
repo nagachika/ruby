@@ -1,0 +1,1 @@
+lib/irb.rb および lib/irb/xmp.rb から require のかわりに require_relative を利用するようにしています。
