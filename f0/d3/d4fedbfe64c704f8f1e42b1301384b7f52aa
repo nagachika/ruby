@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI で  urxvt や exoterm といった端末での Home/End キーの入力に対応しています。
