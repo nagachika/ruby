@@ -1,0 +1,1 @@
+ObjectSpace.trace_object_allocations が GC.compact によるオブジェクトの移動の影響でうまく動かなくなってたのを修正。 ObjectSpace.trace_object_allocations で利用している構造体の確保を ALLOC_N() でしてたのを wrap する T_TYPEDDATA タイプのオブジェクトを作って GC に管理させるようにしています。ただし rb_gc_register_mark_object() で登録されるのでずっと解放はされないようです。そして 7a58ee9b962ad0072e5213d3512c809048e4eba1 で ObjectSpace.trace_object_allocations のテストを実行しないようにしたのを戻しています。
