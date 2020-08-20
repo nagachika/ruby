@@ -1,0 +1,1 @@
+標準添付ライブラリ racc の gemspec ファイルでも spec.licenses の内容を "Ruby" との dual licenses に変更しています。元は "MIT" だったのを "BSD-2-Clause" と "Ruby" との dual licenses に変更しています。
