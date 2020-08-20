@@ -1,0 +1,1 @@
+マクロ ROBJECT_IV_INDEX_TBL() をインタプリタ内部では inline 関数として定義するようにしています。また include/ruby/internal/core/robject.h では(これ名前には internal とついてるけど公開ヘッダですよね) deprecated の警告つきで定義するようにしています。
