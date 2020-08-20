@@ -1,0 +1,1 @@
+irb の history file についてのテストで irb を起動するのに Kernel#system に複数の引数にわけて渡すようにしています。 空白で連結して渡すのは Windows でうまくいかないみたいですね。
