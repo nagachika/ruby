@@ -1,0 +1,1 @@
+irb の history file のテストで一部のテストメソッドは Editline とリンクしている時に skip するようにしています。
