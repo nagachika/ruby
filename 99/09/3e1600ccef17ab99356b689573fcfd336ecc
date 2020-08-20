@@ -1,0 +1,1 @@
+RHASH_TBL() で Hash オブジェクトのテーブルに直接アクセスしてる部分は WB_UNPROTECTED  にして RHASH_TBL_RAW() を利用するようにして、RHASH_TBL() の定義は削除しています。
