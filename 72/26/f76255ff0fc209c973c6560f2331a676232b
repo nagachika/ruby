@@ -1,0 +1,1 @@
+7a58ee9b962ad0072e5213d3512c809048e4eba1 で実行するように戻した ObjectSpace.trace_object_allocation のテストですが、テストメソッドの最初で ObjectSpace.trace_object_allocations_clear を呼ぶようにしています。再実行のためかと思ったけどコミットログをみると GC.compact の影響で失敗する可能性を減らすためみたいですね。
