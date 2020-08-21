@@ -1,0 +1,1 @@
+Array の rdoc 用コメントの暗黙の変換時の例外についての記述を削除。 doc/method_documentation.rdoc で導入されたガイドラインに従うためとのこと。 https://github.com/ruby/ruby/pull/3431
