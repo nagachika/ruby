@@ -1,0 +1,1 @@
+ObjectSpace.trace_object_allocations_stop をいきなり呼んでもエラーを起こさないようにしています。 [ruby-core:99088] [Bug #17020]
