@@ -1,0 +1,1 @@
+register_fstring() で fstring のテーブルを更新する時のコールバック関数 fstr_update_callback() で不要な文字列オブジェクトの複製を抑制するようにしています。  [ruby-dev:49188] [Bug #11386]
