@@ -1,0 +1,1 @@
+irb の history file についてのテストを e2c2283a80843f6011a3d7665725ff0c5aed27c5 で  Solaris で実行しないようにしたのをさらに mswin/mingw でも実行しないように条件に追加しています。
