@@ -1,0 +1,1 @@
+C++ 用のヘッダファイルのテストのための拡張ライブラリで Oracle Developer Studio での警告を抑制するための #pragma を追加しています。
