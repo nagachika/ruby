@@ -1,0 +1,1 @@
+Hash の rdoc 用コメントでも暗黙の変換についての追記部分を削除しています。 https://github.com/ruby/ruby/pull/3432
