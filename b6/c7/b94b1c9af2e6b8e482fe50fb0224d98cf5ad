@@ -1,0 +1,1 @@
+Array#pop, Array#shift, Array#[], Array#first, Array#last などの rdoc 用コメントに空の配列に使うなどした時のサンプルを削っています。 https://github.com/ruby/ruby/pull/3437
