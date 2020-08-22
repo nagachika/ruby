@@ -1,0 +1,1 @@
+同じく古い Oracle Developer Studio で HAVE_STMT_AND_DECL_IN_EXPR を undef しておくようにしています。 configure では式の中で文や変数宣言が書けると検出されても実際にうまくいかなかったみたいです。
