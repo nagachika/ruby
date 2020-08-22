@@ -1,0 +1,1 @@
+コンパイラが古い Oracle Developer Studio の時に __has_cpp_attribute() というビルトイン関数? がうまく働かないようなので利用しないようにしています。
