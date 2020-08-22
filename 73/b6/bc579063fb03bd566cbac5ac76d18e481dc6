@@ -1,0 +1,1 @@
+configure.ac に 2c96e04868477eaa1420945d57bf5b3adb521e84 で追加した AC_PROG_CXXCPP を削除しています。環境によっては CI でエラーになったとのこと。
