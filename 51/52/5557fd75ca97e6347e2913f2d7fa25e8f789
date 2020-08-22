@@ -1,0 +1,1 @@
+String の rdoc 用コメントからも暗黙の変換についての部分を削っています。 https://github.com/ruby/ruby/pull/3436
