@@ -1,0 +1,1 @@
+2c96e04868477eaa1420945d57bf5b3adb521e84 の変更で configure.ac の $program_prefix のチェックの前に AC_CANONICAL_TARGET マクロが移動されてしまってたのですが、これが cross compile 時に問題になるそうなので順番を戻しています。
