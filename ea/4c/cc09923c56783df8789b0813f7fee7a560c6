@@ -1,0 +1,1 @@
+Array の rdoc から細かすぎるサンプルコードを削除しています。 https://github.com/ruby/ruby/pull/3442
