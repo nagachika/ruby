@@ -1,0 +1,1 @@
+.travis.yml で common.mk の依存関係のチェックをする時の configure 時に --with-gcc オプションをつけるようにしています。 clang だと使いたいオプションが思ったように使えなかったようです。
