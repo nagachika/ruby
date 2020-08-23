@@ -1,0 +1,1 @@
+Hash の rdoc 用コメントから細かすぎるサンプルコードを削除しています。 https://github.com/ruby/ruby/pull/3438
