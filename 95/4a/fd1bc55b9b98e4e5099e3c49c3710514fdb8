@@ -1,0 +1,1 @@
+2c96e04868477eaa1420945d57bf5b3adb521e84 で configure.ac に AC_PROG_CC_C99 を追加したところ CFLAGS/CXXFLAGS も上書きされてしまってたようなのでその前後で退避しておいて復旧させるようにしています。
