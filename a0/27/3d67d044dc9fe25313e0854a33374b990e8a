@@ -1,0 +1,1 @@
+rb_current_vm() 内の VM_ASSERT() のチェックに rb_execute_context_t::status をチェックするようにしています。コミットログによるとチェックの追加というより対応する Thread がすでに終了している時に rb_ec_vm_ptr() の呼び出しを抑制するために条件に追加しているようです。 [ruby-core:98484] [Bug #16907]
