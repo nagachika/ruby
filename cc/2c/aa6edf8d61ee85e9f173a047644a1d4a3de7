@@ -1,0 +1,1 @@
+LLVM 版の strip コマンドである llvm-strip-7 が --version オプションを受付けないそうなので、rubyspec で RbConfig::CONFIG["STRIP"] のテストで --version オプションをつけて実行してたのをコマンドに /bin/sh を入力に与えて実行してみるようにしています。
