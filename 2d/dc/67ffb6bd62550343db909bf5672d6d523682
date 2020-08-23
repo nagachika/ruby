@@ -1,0 +1,1 @@
+Sun Compiler での警告抑制のため警告抑制のための -erroff オプションの指定できるか試す名前に E_INIT_SIGN_EXTEND、E_INIT_DOES_NOT_FIT、E_INITIALIZATION_TYPE_MISMATCH なども追加しています。
