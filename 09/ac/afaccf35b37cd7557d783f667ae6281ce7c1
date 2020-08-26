@@ -1,0 +1,1 @@
+NEWS に Module#ancestors で後から include した Module への include が影響するようになった仕様変更変更についてのサンプルコードの追加やいくつかの項目にチケット参照の追加などがありました。
