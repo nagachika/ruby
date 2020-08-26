@@ -1,0 +1,1 @@
+GitHub Actions で様々なコンパイラやコンパイルオプションをためす .github/workflows/compilers.yml でいくつか cross compile してみる workflow を追加しています。
