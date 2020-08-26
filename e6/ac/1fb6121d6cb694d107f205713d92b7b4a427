@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルで spec.executables の設定を spec.files から抽出してたのを単に ["erb"] を決め打ちで書くようにしています。
