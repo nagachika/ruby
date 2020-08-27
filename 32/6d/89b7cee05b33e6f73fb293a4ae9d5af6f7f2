@@ -1,0 +1,1 @@
+gc.c の heap_pages_final_slots の加算を gc_page_sweep() から make_zombie() に移動しています。 finalize_list() で減算する時に underflow してしまう可能性があったのでチェックしていたのが不要になるようです。
