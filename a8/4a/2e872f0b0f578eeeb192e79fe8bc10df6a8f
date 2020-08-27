@@ -1,0 +1,1 @@
+Hash の rdoc 用コメントでも細かすぎるサンプルコード削除と call-seq の体裁の修正。 https://github.com/ruby/ruby/pull/3454
