@@ -1,0 +1,1 @@
+Hash の rdoc 用コメントで細かすぎるサンプルコードの削除や整形の変更。 https://github.com/ruby/ruby/pull/3451
