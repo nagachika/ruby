@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の全体的な rdoc 用コメントに WEBrick はプロダクション環境で使うほどパフォーマンスやセキュリティに注力していないよという注意書きを追記しています。  https://github.com/ruby/ruby/pull/3457
