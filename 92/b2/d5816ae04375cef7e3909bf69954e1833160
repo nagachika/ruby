@@ -1,0 +1,1 @@
+doc/extension.rdoc で構造体 rb_data_type_t の function メンバーの内容で reserved だったうちの1つを GC.compact で使うための関数ポインタ dcompact メンバーに使うようになったのでドキュメントにそのあたりの説明を追加しています。
