@@ -1,0 +1,1 @@
+include/ruby/backward/st.h と include/ruby/backward/util.h を削除しています。
