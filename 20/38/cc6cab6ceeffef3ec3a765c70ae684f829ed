@@ -1,0 +1,1 @@
+拡張ライブラリ socket の getaddrinfo(3) を使う名前解決でブロックしてしまって割り込みがきかなくなることがあったのを rb_getaddrinfo_a() という GVL を解放する実装を利用して割り込みがきくようにしています。getaddrinfo_a(3) の wrapper 実装自体はだいぶ昔から存在してたんですね。 [ruby-core:88500] [Bug #14997] [ruby-core:96027] [Feature #16381] [ruby-core:96642] [Feature #16476] https://github.com/ruby/ruby/pull/2827
