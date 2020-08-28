@@ -1,0 +1,1 @@
+include/ruby/backward.h で警告を出しつつ定義してた構造体 struct RClass (正確にはマクロで struct RClassDeprecated にすりかえられてた)の定義を削除しています。
