@@ -1,0 +1,1 @@
+configure での DEPRECATED_TYPE() マクロの定義を削除しています。かわりに include/ruby/backward/2/attributes.h に警告つきで代替実装を追加しています。
