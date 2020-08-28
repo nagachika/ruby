@@ -1,0 +1,1 @@
+4bc3846389eea28da2ef8c95a199f28b43060779 の include/ruby/backward/classext.h の削除に追随して internal/class.h で定義していたダミーの構造体 struct rb_deprecated_classext_struct を削除しています。
