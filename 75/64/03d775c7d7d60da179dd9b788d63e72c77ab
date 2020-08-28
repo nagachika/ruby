@@ -1,0 +1,1 @@
+cd1d6d90299d727ad4a87c42f3ba09c87df2bce3 での R_CAST() 依存を消したのにあわせて common.mk や depend ファイルでの include/ruby/backward/2/r_cast.h への依存関係を削除しています。
