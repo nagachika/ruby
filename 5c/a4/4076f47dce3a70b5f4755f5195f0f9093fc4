@@ -1,0 +1,1 @@
+RMODULE_xxxx なマクロを定義している include/ruby/backward/2/rmodule.h 全体を deprecated にして本体では利用しないようにしています。
