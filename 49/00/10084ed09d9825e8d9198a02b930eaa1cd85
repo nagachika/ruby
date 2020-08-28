@@ -1,0 +1,1 @@
+5ca44076f47dce3a70b5f4755f5195f0f9093fc4 で include/ruby/backward/2/rmodule.h を deprecated にして include/ruby/ruby.h での #include も削除したのに追随して common.mk や depend ファイルでの依存関係から削除しています。
