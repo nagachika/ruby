@@ -1,0 +1,1 @@
+R_CAST() というマクロの利用をやめて include/ruby/backward/2/r_cast.h での定義部分で deprecated 警告を出すようにしています。
