@@ -1,0 +1,1 @@
+b2e1688e7d44d45e772ac9d5e79f4ad6e70141d5 で消した include/ruby/backward/2/extern.h の依存関係や #include しているヘッダの削除。
