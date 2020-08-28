@@ -1,0 +1,1 @@
+include/ruby/backward/2/extern.h というヘッダファイルを削除しています。 backward の配下のヘッダは拡張ライブラリで #include "ruby/xxx.h" のように include すべきヘッダファイルを昔は #include "xxx.h" で #include できてしまっていたので、その互換性のために作ったもので、コンパイル時に警告を出しているのでもう include/ruby/backward/ の配下は消そうということになったようです。
