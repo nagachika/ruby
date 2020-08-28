@@ -1,0 +1,1 @@
+21b3bc10d3626272683e085b2b3ea62d2c05b1d7 で include/ruby/backward/2/attributes.h で定義した DEPRECATED_TYPE() の警告で代替として RBIMPL_ATTR_DEPRECATED() を提示するのをやめています。
