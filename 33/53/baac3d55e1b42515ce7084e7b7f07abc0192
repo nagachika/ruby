@@ -1,0 +1,1 @@
+sample/drb/name.rb で deprecated なメソッド Thread.exclusive を使ってたので Mutex を使う実装に変更しています。 [ruby-core:99636] [Feature #17125]
