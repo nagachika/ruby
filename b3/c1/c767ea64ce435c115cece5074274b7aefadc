@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#each_codepoint が返す Enumerator でブロックを呼び出す前にファイルポジションの更新をするように修正しています。これはバックポートしたほうが良さそう。
