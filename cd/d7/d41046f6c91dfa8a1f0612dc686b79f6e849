@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.cursor_pos で console から期待した出力がなく閉じてしまうと無限ループする? 不具合を修正しています。
