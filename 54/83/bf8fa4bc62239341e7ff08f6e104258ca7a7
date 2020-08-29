@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドを T_ZOMBIE タイプのオブジェクトに表示を対応させています。
