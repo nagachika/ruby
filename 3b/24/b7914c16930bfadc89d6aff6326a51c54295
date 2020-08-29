@@ -1,0 +1,1 @@
+f2d7461e85053cb084e10999b0b8019b0c29e66e で一度入れて 4fc6cfbeae3c86e8f3675c70b417356ecd3d4a56 で revert された backtrace_each() で VM のバックトレースを得るのに一部のフレームのみ得る場合の最適化をリトライしています。 [ruby-core:99169] [Bug #17031]
