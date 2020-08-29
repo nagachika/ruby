@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TCPSocket.gethostbyname メソッドを呼ぶと deprecated 警告を表示するようにしています。
