@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の文字列幅を計算するメソッドの実装を Reline::LineEditor から Reline::Unicode に移動しています。
