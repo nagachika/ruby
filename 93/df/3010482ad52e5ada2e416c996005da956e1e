@@ -1,0 +1,1 @@
+IO.copy_stream の実装に sendfile(2) を使う時に NFS で ENOTSUP で返ってくることがあったとのことでそれに対応するようにしています。 [ruby-core:98837] [Feature #16965]
