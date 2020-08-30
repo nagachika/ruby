@@ -1,0 +1,1 @@
+doc/method_documentation.rdoc に alias による別名について call-seq に列挙しなくてもいいなどの基準を追記しています。 https://github.com/ruby/ruby/pull/3468
