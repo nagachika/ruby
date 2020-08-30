@@ -1,0 +1,1 @@
+6d946665bd79a93fb98b2d25400d1b6174472302 で Socket.gethostbyname と Socket.gethostbyaddr に警告が出るようになったので rubyspec で利用していたところで警告を抑制するようにしています。 Addrinfo による代替を使えば……と思ったけどそもそもそのメソッドのテストだからしかたないのか。
