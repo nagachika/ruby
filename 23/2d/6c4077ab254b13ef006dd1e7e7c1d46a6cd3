@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で利用していたグローバル変数を定数に置き換えています。
