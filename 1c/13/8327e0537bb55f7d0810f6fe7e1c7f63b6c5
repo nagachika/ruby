@@ -1,0 +1,1 @@
+75c4e9b72eca22b087c8c2d6d8a950922545aa00 で定数化した re.c の OPTBUF_SIZE を static const int での宣言から enum の定数に変更しています。 VC でうまくコンパイルできなかったようです。
