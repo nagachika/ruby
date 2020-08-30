@@ -1,0 +1,1 @@
+Array の rdoc から不要な相互参照やサンプルの削除など。 https://github.com/ruby/ruby/pull/3469
