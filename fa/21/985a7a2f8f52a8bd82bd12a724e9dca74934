@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の Tempfile.open のブロック渡しでの最後の close を close! に変更してファイル削除されるようにしています。
