@@ -1,0 +1,1 @@
+93df3010482ad52e5ada2e416c996005da956e1e の再修正。 ENOTSUP のかわりに EOPNOTSUP に対応するように変更しています。 Linux では同じ値に定義されているようですがチケットをみると EOPNOTSUP のほうが意図したエラーだったようなので。 [ruby-core:98837] [Feature #16965]
