@@ -1,0 +1,1 @@
+標準添付ライブラリ reline と openssl のテストでも fa21985a7a2f8f52a8bd82bd12a724e9dca74934 で Tempfile.open のブロック渡しでファイル削除されるようになった変更に追随させています。
