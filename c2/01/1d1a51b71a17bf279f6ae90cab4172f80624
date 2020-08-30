@@ -1,0 +1,1 @@
+include/ruby/internal/config.h のコメントの typo 修正。関係ないですがなんかこのコメント妙に二重のスペースが多いですね。
