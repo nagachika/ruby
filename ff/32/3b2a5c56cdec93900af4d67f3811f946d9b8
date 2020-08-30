@@ -1,0 +1,1 @@
+fa21985a7a2f8f52a8bd82bd12a724e9dca74934 で Tempfile.open のブロック渡しで読んだ後にファイルが消されるようになったのに rubyspec を追随させています。
