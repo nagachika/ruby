@@ -1,0 +1,1 @@
+b9007b6c548f91e88fd3f2ffa23de740431fa969 でインラインメソッドキャッシュを T_IMEMO 型のオブジェクトとして持つようにした変更後に Module#using を呼ぶと clang の ASAN (Address Sanitizer) のチェックにひっかかっていたのを再現させるテストを KNOWNBUGS.rb に追加しています。キャッシュの invalidate のところで不正なメモリアクセスの可能性があるみたいですね。
