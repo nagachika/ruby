@@ -1,0 +1,1 @@
+Array の rdoc 用コメントの細かすぎるサンプル削除や call-seq のスタイル修正など。 https://github.com/ruby/ruby/pull/3473
