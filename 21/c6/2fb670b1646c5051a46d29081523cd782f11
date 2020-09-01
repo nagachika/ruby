@@ -1,0 +1,1 @@
+include/ruby/version.h の RUBY_API_VERSION_{MAJOR,MINOR} を更新してバージョンを 2.8 から 3.0 にしています。ついに 3.0 になりましたかー。
