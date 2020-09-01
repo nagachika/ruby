@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::Utils.getservername が Socket.gethostbyname を利用していたのでこれをやめて Socket.gethostname をそのまま返すようにしています。
