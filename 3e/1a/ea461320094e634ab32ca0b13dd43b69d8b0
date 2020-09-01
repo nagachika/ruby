@@ -1,0 +1,1 @@
+gems/bundled_gems から minitest を削除しています。 minitest が ruby のバージョンが 2.x であることを要求しているそうなので、とりあえず消しとくということみたいです。
