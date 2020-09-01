@@ -1,0 +1,1 @@
+deprecated warning が出る状態で残していた Thread.exclusive をついに削除しています。 [ruby-core:99636] [Feature #17125]
