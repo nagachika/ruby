@@ -1,0 +1,1 @@
+Array の rdoc 用コメントで call-seq から alias のぶんを消したり不要なサンプルを消したり。 https://github.com/ruby/ruby/pull/3475
