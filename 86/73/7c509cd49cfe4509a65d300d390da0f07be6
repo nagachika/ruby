@@ -1,0 +1,1 @@
+make test-bundled-gems での gem install する gem から minitest と hoe を削除しています。 3.0 だと動かないためとのこと。
