@@ -1,0 +1,1 @@
+21ad4075a71f302474a78dc744149ac8ce2ff0ec の再修正。 RSTRING_LEN() を int にキャストしていたのを RSTRING_LENINT() マクロを利用するようにしています。
