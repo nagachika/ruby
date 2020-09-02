@@ -1,0 +1,1 @@
+GitHub Actions での make test-bundled-gems でのエラーを無視する gem から xmlprc を削除しています。がこれはそもそも xmlrpc が bundled gems からも消えたからその追随ですね。
