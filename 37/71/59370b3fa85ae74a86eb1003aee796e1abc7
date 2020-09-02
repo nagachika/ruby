@@ -1,0 +1,1 @@
+minitest と hoe が ruby のバージョン 3.0.0 でも動くようになったということで 86737c509cd49cfe4509a65d300d390da0f07be6 と 3e1aea461320094e634ab32ca0b13dd43b69d8b0 の一時的対応を revert しています。
