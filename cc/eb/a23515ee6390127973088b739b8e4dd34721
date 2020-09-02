@@ -1,0 +1,1 @@
+同じく GitHub Actions での make test-bundled-gems で minitest のエラーを無視するようにしていたのも revert しています。
