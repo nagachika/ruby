@@ -1,0 +1,1 @@
+Array の rdoc 用コメントの変更。同じく引数についての期待とか消してるけどいいのかな。 https://github.com/ruby/ruby/pull/3489
