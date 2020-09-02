@@ -1,0 +1,1 @@
+GitHub Actions での Windows 環境でのビルドのため chocolatey で winflexbison3 というパッケージをインストールする時にバージョンを指定するようにしています。最新版でのインストールがうまくいかなかったみたいなので。
