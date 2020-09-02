@@ -1,0 +1,1 @@
+Kernel#iterator? メソッドに deprecated 警告を出力するようにしています。block_given? の別名ですね。知らなかった。 https://github.com/ruby/ruby/pull/2071 [Feature #15547]
