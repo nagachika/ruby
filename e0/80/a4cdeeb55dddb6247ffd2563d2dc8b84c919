@@ -1,0 +1,1 @@
+05bf811c2839628aaef3d565daedb28be80d47ef の Range#max の終点が Integer じゃない場合の変更を revert しています。(0..Float::INFINITY) みたいな Range の時の仕様変更ですね。 [ruby-core:99079] [Bug #17017]
