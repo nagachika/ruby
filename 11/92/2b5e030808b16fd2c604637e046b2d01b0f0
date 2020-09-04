@@ -1,0 +1,1 @@
+gc.c の gc_verify_internal_consistency() で WB-unprotected なオブジェクト(RGenGC の世代管理の対象にならないオブジェクト)の数のチェックが異常だった時の rb_bug() のメッセージが間違ってたのを修正しています。
