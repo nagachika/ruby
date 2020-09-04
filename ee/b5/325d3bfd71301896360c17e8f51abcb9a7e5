@@ -1,0 +1,1 @@
+rb_warn_deprecated() および rb_warn_deprecated_to_remove() で Warning.warn を呼び出すあたりの処理が共通だったので warn_deprecated() という関数に切り出すリファクタリング。
