@@ -1,0 +1,1 @@
+Module#const_set で定数に無名 Module を代入した時の Module#name に名前空間の親のパスを含めるようにする修正。 [ruby-core:87787] [Bug #14895]
