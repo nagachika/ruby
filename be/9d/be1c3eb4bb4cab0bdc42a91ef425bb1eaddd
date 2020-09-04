@@ -1,0 +1,1 @@
+configure.ac の pthread_setname_np() の確認のために渡す引数の format 文字列の引数の順序が間違ってたのを修正しています。 [ruby-dev:50643] [Bug #15178]
