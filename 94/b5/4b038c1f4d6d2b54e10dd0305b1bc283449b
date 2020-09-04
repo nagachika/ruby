@@ -1,0 +1,1 @@
+e080a4cdeeb55dddb6247ffd2563d2dc8b84c919 で revert した (1..Float::INFINITY) のような Range への max メソッドで Float::INFINITY を返すというテストを再度追加しています。あれ、実装はそのままでいいのかな。
