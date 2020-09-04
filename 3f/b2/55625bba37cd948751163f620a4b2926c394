@@ -1,0 +1,1 @@
+misc/lldb_cruby.py にメモリ管理の情報を出力する heap_page、heap_page_body というコマンドを追加しています。
