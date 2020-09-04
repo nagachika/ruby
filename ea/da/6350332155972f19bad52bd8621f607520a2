@@ -1,0 +1,1 @@
+rb_warn_deprecated() から Warning.warn が定義されてたら呼び出す対応を追加しています。また rb_warn_deprecated_to_remove() で Warning.warn でなく Warning#warn のほうを呼んでたのを修正しています。 [ruby-core:99582] [Feature #17122]
