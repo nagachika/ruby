@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb  で bundler の同期時に man/ 配下のファイルを Dir.glob で展開するようにしています。 FileUtils.rm_rf にワイルドカードつきのパスを渡していましたが自動で展開されないので事前に Dir.glob しておくように修正しています。
