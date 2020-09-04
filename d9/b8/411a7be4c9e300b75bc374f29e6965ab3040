@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#matched_size の rdoc 用コメントの戻り値の記述をより正確にしています。 [ruby-core:99820] [Bug #17139]
