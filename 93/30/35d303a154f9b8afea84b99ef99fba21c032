@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドで RUBY_T_MATCH 型のオブジェクトの対応を追加しています。
