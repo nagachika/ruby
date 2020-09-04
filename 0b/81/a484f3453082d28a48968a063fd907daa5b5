@@ -1,0 +1,1 @@
+rb_class_allocate_instance() で T_OBJECT 型のオブジェクトを生成する時に struct RBasic::flags に ROBJECT_EMBED フラグを立てるようにしています。これまでは初期化直後にインスタンス変数のテーブルが NULL ということになってて最初にインスタンス変数をセットする時に ROBJECT_EMBED が立てられるようになってて、よくわかりませんがインラインキャッシュに悪影響があったようです。
