@@ -1,0 +1,1 @@
+b52513e2a1ede39eef094e9e2cfa8710ce26e1f1 で toplevel return を利用してしまっていたので使わないようにしています。古い BASERUBY を考慮してとのこと。
