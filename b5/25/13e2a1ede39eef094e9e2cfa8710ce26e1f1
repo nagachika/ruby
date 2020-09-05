@@ -1,0 +1,1 @@
+79df14c04b452411b9d17e26a398e491bca1a811 で追加した Ractor を利用したテストを GitHub Actions の .github/workflows/compilers.yml で定義しているいろんなコンパイラでためす workflow 内では実行しないようにしています。たまにメモリ関連のエラーで落ちるのでとのこと。
