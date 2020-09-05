@@ -1,0 +1,1 @@
+rb_ractor_main_p() が TLS(Thread Local Storage) にアクセスするため遅いので Ractor を利用中でなければ呼ばないように Ractor 利用中かどうかを先にチェックするように rb_ractor_main_p() を変更しています。
