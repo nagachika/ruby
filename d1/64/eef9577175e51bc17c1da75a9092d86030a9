@@ -1,0 +1,1 @@
+rb_objspace_call_finalizer() で解放処理をスキップする条件に main Ractor であることというのを追加しています。
