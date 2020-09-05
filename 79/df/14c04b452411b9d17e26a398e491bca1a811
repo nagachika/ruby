@@ -1,0 +1,3 @@
+みなさんお待ちかねの新しい並列化機構 Ractor がコミットされました。 [ruby-core:99449] [Feature #17100]
+Ractor については今日 RubyKaigi takeout でささださんが解説したセッションがあったので、そのうちアーカイブも公開されると思うので RubyKaigi の YouTube チャンネルに登録しておきましょう。 https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A/featured
+ざっくりと見所を探していくと、まず ractor.h で構造体 rb_ractor_t が定義されていて、この内容は Thread とか Fiber の構造体とはだいぶ違ってて内部に rb_thread_t と rb_execution_context_t を管理してる linked list があってあとは IO やオブジェクトのやりとりのための排他処理に使ってるらしい構造体などが保持されています。実行コンテキストは rb_thread_t などが持っててその上位構造みたいになってるようですね。また Ractor 間でオブジェクトを移動すると元のオブジェクトを Ractor::MovedObject というクラスに書き換えてしまってなんのメソッドにも反応しないようにしているようです。 gc.c をみると ObjectSpace 自体は共通しているみたいですね。
