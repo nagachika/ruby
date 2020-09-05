@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の 1380aa04a6c3681a232046058f4388f3bce904ae で古い ruby でも動くように FrozenError がなかったら RuntimeError を raise するようにしてたのを revert しています。古い ruby の support を切ったからかな。
