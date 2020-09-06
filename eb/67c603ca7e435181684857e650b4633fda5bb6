@@ -1,0 +1,1 @@
+Symbol#name というメソッドを追加して fstring の文字列化を返すようにしています。Symbol#to_s が fstring を返すようにしたら互換性の問題があったのでかわりに name で fstring を返すようにしようということのようです。 [ruby-core:99915] [Feature #16150]
