@@ -1,0 +1,1 @@
+Makefile の依存関係を更新するツール tool/update-deps で make のターゲットとして ruby-runner のかわりに exe/ruby を指定するようにしています。 このターゲットは suffix は考慮しなくてもいいのかな。
