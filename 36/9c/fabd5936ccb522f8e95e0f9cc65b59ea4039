@@ -1,0 +1,1 @@
+例外オブジェクトを Marshal.dump して Marshal.load したものに Exception#backtrace_locations を呼ぶと異常終了する不具合を修正しています。 Exception クラスに Marshal 用の dump/load 用の関数を追加して rb_marshal_define_compat() で登録するようにしています。 https://github.com/ruby/ruby/pull/3521 [ruby-core:99924] [Bug #17150]
