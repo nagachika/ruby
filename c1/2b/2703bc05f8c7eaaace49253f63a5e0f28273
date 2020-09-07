@@ -1,0 +1,1 @@
+include/ruby/internal/arithmetic/size_t.h で定義される size_t の型変換のためのマクロ群 NUM2SIZET()/SIZET2NUM()/NUM2SSIZET()/SSIZET2NUM() を定義部分では RB_ の prefix つきで定義しておいて、あとでまとめて #define で prefix なしのバージョンを別名定義するようにしています。
