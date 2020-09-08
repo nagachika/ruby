@@ -1,0 +1,1 @@
+GitHub Actions で様々なコンパイルオプションを試す workflow で使うコンテナイメージを GitHub Container Registry のイメージを使うようにしています。
