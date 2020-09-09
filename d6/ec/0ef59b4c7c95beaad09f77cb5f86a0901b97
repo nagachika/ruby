@@ -1,0 +1,1 @@
+af5e87ab218c5f4e34c6cdb54ae119a7f0f9033f で追加された Random のための乱数生成器を定義するのに使う構造体 rb_random_interface_t にメンバー get_real を追加してこれがセットされてたらその関数を使って乱数を得るようにしています。
