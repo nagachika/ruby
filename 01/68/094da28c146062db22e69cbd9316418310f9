@@ -1,0 +1,1 @@
+test/fiddle/helper.rb で macOS の最新版 BigSur で /usr/lib/libc.dylib や /usr/lib/libm.dylib がなくなったそうで fiddle のテストで使うライブラリのパスを /usr/lib/libSystem.dylib に変更しています。元々 /usr/lib/libc.dylib や /usr/lib/libm.dylib は libSystem.dylib への symbolic link になってたようです。
