@@ -1,0 +1,1 @@
+構造体メンバ rb_random_t::seed に値をセットする rb_random_base_init() という C API を追加しています。
