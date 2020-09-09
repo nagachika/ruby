@@ -1,0 +1,1 @@
+Random の親クラスとして Random::Base というクラスを追加して rand, bytes などのメソッドは Random::Base に生やすようにしています。Random::Base は名前空間的に Random の下なので、最初 ID で無名クラスを作ってから rb_const_set() で Random::Base にセットするようにしています。
