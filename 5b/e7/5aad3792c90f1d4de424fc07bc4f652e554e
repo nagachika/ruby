@@ -1,0 +1,1 @@
+af5e87ab218c5f4e34c6cdb54ae119a7f0f9033f で追加した ext/-test-/random/loop.c の switch 文の break のない case に FALLTHROGH コメントを追加しています。 Coverity Scan の検出を抑制するためとのこと。
