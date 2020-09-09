@@ -1,0 +1,1 @@
+random.c の random_real() から rb_int_pair_to_real_exclusive() と rb_int_pair_to_real_inclusive() を呼び分ける部分を rb_int_pair_to_real() という関数に切り出しています。
