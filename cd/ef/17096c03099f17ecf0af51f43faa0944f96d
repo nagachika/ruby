@@ -1,0 +1,1 @@
+昨日の 0168094da28c146062db22e69cbd9316418310f9 の続きで fiddle のテストで使うライブラリのパスを macOS で /usr/lib/libSystem.dylib にしましたが、これも symbolic link なのでさらに指してる先の /usr/lib/libSystem.B.dylib を直接指定するようにしています。
