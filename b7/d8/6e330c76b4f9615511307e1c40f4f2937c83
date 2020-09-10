@@ -1,0 +1,1 @@
+さらに macOS Big Sur での fiddle のテストのためのライブラリパスの指定を test/fiddle/helper.rb でしてましたが、なんと Big Sur ではこのファイルはファイルシステム上は削除された?  ものの dlopen(3) すると開ける(!!?)らしいので、通常の case 文での設定後のファイル実体チェックのさらに後に workaround として libc_so と libm_so の再設定を macOS では行うようにしています。
