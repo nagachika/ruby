@@ -1,0 +1,1 @@
+mjit_compile.c の struct compile_status という構造体のメンバー max_ivar_index の型を st_index_t から size_t に変更しています。 printf フォーマットでの出力時の警告を抑制するためみたいです。
