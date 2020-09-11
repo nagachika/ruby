@@ -1,0 +1,1 @@
+fa21985a7a2f8f52a8bd82bd12a724e9dca74934 で標準添付ライブラリ tempfile の Tempfile.open のブロックつき呼び出しでブロックを抜けた時にファイルを削除するように仕様変更されてましたが、互換性の問題がありそうな使われかたが実際にあったようなので revert して、かわりに Tempfile.open の rdoc 用コメントにこの点を Tempfile.create との比較しつつ追記しています。なるほど Tempfile.create を使えばブロック抜けると同時に消せるのか。どうもこの変更は Matz の承認は得てなかったようです。
