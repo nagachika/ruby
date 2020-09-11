@@ -1,0 +1,1 @@
+Ractor の実装で callable_method_entry() で method entry のテーブルを操作する時に Ractor 間で排他処理が必要だったので RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() を使うようにしています。
