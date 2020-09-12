@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all の実装の switch 文の break 漏れを修正しています。 Coverity Scan の警告で判明したとのこと。おお、役に立ってる。
