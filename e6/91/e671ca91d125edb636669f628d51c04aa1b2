@@ -1,0 +1,1 @@
+Thread#safe_level という deprecated になっていたメソッドを削除しています。
