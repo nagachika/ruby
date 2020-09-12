@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の DRb.default_safe_level および DRb::DRbServer#safe_level も削除しています。
