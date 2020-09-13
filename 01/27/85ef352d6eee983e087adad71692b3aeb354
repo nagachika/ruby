@@ -1,0 +1,1 @@
+io.c で IO.copy_stream のために copy_file_range(2) を利用するかどうかの判定に USE_COPY_FILE_RANGE のほかに __linux__ および __NR_copy_file_range マクロ定数の存在チェックをしていたのを configure で実際に使えるかチェックして USE_COPY_FILE_RANGE マクロ定義するようにしています。GitLab のバグトラッカで実際には copy_file_range() が使えない環境での不具合というのがあった模様。 https://gitlab.com/gitlab-org/gitlab/-/issues/218999#note_363225872
