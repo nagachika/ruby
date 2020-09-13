@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.clear_screen でエスケープシーケンスを出力していたのを kernel32.dll の FillConsoleOutputAttribute() という API を利用するように書き換えています。
