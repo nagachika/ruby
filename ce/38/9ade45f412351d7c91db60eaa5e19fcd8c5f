@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#rerender でカーソルを次の行に移動する向きの計算を修正しています。
