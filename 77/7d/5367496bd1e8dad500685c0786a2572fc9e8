@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI の RAW_KEYSTROKE_CONFIG に iTerm2 での Option+→、Option+←、Option+f、Option+b などのキー入力に対応するキーマップを追加しています。
