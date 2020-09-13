@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#calculate_height_by_lines のプロンプトを渡す引数の扱いを変更しています。 Reline.prompt_proc が設定されてない時の不具合修正らしいです。
