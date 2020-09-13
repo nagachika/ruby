@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#rerender で不要な文字を消す処理でカーソルが行末にある状態でカーソルより後ろの文字削除すると行末の文字が消えることがあるそうなので判定して不要な Reline::IOGate.erase_after_cursor の呼び出しを行なわないようにしているようです。
