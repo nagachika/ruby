@@ -1,0 +1,1 @@
+012785ef352d6eee983e087adad71692b3aeb354 で追加した configure.ac の copy_file_range(2) 確認用のコードに close(2) 追加。また copy_file_range(2) を使うかどうかの判定にコンパイルしてみての確認の他に $ac_cv_func_copy_file_range も見るようにしています。 cross compile のビルド時の対応らしいのですがどうしてこうなるんだろう。
