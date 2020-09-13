@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Unicode.split_by_width の第3引数 encoding を省略可能にしてデフォルト値を第1引数 str の encoding を使うようにしています。
