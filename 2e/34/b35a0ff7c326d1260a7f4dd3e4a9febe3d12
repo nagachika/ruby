@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.gretc で IO#raw で getbyte で読み込んだ結果が nil の時に少し sleep して繰り返し読み込むようにしています。EOF になっていれば例外が発生するはずなので、とのこと。ここでループしていいのかな。Reline::ANSI.cursor_pos で getc を呼び出してるところでも nil が返ってきてもループを抜けないようにしているけど、こちらも EOF  の時に nil を返してるのでこれだとまずくないのかな。
