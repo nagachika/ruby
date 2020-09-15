@@ -1,0 +1,1 @@
+blocking fiber 追加時に? 追加されてた Kernel#Fiber() を Fiber.schedule というクラスメソッドに改名しています。
