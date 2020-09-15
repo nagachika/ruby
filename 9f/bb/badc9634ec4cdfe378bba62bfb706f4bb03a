@@ -1,0 +1,1 @@
+tool/lib/test/unit/core_assertions.rb に Test::Unit::CoreAssertions#diff というメソッドを追加しています。どこかでこのメソッドが呼ばれて NoMethodError になるので簡易的な実装を追加しておいたようです。
