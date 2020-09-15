@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルで spec.bindir の指定を exe から libexec に変更しています。
