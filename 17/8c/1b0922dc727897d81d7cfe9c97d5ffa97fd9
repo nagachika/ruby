@@ -1,0 +1,1 @@
+Mutex を Thread 全体で共有せず Fiber ごとに排他処理できるようにしています。そのかわり Mutex#lock で Scheduler を認識して Scheduler による切り替えに対応しているようです。しかし blocking じゃない普通の Fiber で事故るとデッドロックしそう。まあでもそのような使いかたは潜在的な不具合のような気がしますが。 [ruby-core:97907] [Feature #16792]
