@@ -1,0 +1,1 @@
+blocking fiber 用の Scheduler クラスの実装のための C API 群を追加しています。また IO#wait_priority というのを新設しています。 703e529751deb086a46a9c029ce38d4fff14e84c で導入した rb_thread_current_scheduler() をここで利用していますね。
