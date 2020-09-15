@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp の Net::SMTP#tlsconnect で SNI をサポートするようにしています。@address が IP アドレスの時に hostname として代入していいのかな。
