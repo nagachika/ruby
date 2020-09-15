@@ -1,0 +1,1 @@
+定数 IO::WAIT_READABLE, IO::WAIT_PRIORITY, IO::WAIT_WRITABLE の WAIT_ の prefix を削除してそれぞれ IO::READABLE, IO::WRITABLE, IO::PRIORITY に変更しています。これは互換性大丈夫なのかな。 blocking fiber でだけ使ってた定数かな。
