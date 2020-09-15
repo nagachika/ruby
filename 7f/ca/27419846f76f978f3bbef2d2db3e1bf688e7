@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#getch でも blocking fiber の Scheduler 対応しています。
