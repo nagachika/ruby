@@ -1,0 +1,1 @@
+blocking fiber のための Scheduler を取得する rb_thread_current_scheduler() という API を追加しています。
