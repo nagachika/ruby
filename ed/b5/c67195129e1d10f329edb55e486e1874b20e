@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の Dir.tmpdir で環境変数 TMPDIR, TMP, TEMP やクラス変数 @systmpdir などがなんらかの理由で採用されなかった場合にはなぜ採用できなかったのかを警告メッセージで出力するようにしています。 https://github.com/ruby/tmpdir/pull/7
