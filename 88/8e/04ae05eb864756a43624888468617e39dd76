@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp で TLS を利用する時にデフォルトでホスト名のチェックを無効にするように変更しています。明示的にチェックが有効な OpenSSL::SSL::SSLContext を渡して Net::SMTP#enable_starttls_auto を呼んだ時だけ有効にしているようです。SMTP ではそういうもんなんだろうか。
