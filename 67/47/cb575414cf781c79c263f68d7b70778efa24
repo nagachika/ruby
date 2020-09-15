@@ -1,0 +1,1 @@
+include/ruby/io.h のマクロ GetOpenFile() を RB_IO_POINTER() に、MakeOpenFile() を RB_IO_OPEN() に改名しています。元の名前も #define で別名として定義しているので使えそうです。
