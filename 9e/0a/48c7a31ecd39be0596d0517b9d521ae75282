@@ -1,0 +1,1 @@
+io.c や process.c の Thread に設定されている blocking fiber のための Scheduler を得るのに rb_thread_scheduler_if_nonblocking() のかわりに 703e529751deb086a46a9c029ce38d4fff14e84c で追加したrb_thread_current_scheduler() を使うように変更しています。
