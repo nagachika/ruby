@@ -1,0 +1,1 @@
+irb で代入文の評価値の表示を短く省略表示するようにしているようです。IRB::Context#omit_on_assignment という設定で on/off が設定できるようです。
