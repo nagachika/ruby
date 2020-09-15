@@ -1,0 +1,1 @@
+標準添付ライブラリ open3 の gemspec ファイルで required_ruby_version を 2.6.0 以上に変更しています。
