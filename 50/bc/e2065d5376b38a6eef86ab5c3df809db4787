@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile のテストで assert_equal のかわりに assert_not_predicate を使ってより意味のあるエラーメッセージが出るようにしています。
