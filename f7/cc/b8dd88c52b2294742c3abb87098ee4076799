@@ -1,0 +1,1 @@
+Ractor.select に signal で割り込まれた時に処理を続行するようにしています。
