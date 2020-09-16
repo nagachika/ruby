@@ -1,0 +1,1 @@
+vm_sync.h から vm_core.h および ractor_pub.h の #include を削除して VM_ASSERT() のかわりに RUBY_ASSERT() を使うようにしています。
