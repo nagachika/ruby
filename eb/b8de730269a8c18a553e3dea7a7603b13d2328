@@ -1,0 +1,1 @@
+ 標準添付ライブラリ ostruct で OpenStruct#freeze メソッドを再度追加しています。@table も freeze して内容を変更しようとしたら FrozenError が自然に発生するようにして modifiable? というメソッドは不要になったので削除しています。
