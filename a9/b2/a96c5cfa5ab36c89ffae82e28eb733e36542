@@ -1,0 +1,1 @@
+IO オブジェクト生成時の内部的な構造体 rb_io_t のメンバー self の初期化が漏れてたのを修正し、また GC の mark や GC.compact のための gc_update_object_references() でこのメンバーも mark や参照の移動対応するようにしています。
