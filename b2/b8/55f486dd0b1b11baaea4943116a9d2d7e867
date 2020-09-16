@@ -1,0 +1,1 @@
+error.c の exception_loader() で内部的なインスタンス変数を取得するのに rb_ivar_get() を使ってたのを rb_attr_get() に変更しています。未初期化インスタンス変数の警告が出るのを避けるため。
