@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#initialize_dup と OpenStruct#initialize_clone も private メソッドにして、さらに initialize_clone で super を呼んでなかったので frozen? が true を返してなかったらしいのを修正しています。
