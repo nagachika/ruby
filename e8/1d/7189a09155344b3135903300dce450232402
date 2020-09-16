@@ -1,0 +1,1 @@
+fstring のテーブルに文字列を登録する register_fstring() で RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() でロックしておくようにしています。Ractor を使ってた場合の不具合修正のようです。
