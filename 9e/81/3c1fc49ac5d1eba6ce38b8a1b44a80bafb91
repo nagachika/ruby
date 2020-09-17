@@ -1,0 +1,1 @@
+9b535f3ff7c2f48e34dd44564df7adc723b81276 の再修正。なんですが本体の修正ではなくて問題になってたテストの assertion を環境変数 RUBY_ISEQ_DUMP_DEBUG が定義されてたら実行しないという変更。うーんこれでいいのかな? RubyVM::InstructionSequence#to_binary がうまく動かないっていうことかと思ったのですが。
