@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom のテストでエラーメッセージを作るのに message メソッドのかわりに build_message メソッド(tool/lib/test/unit に同梱している test/unit のヘルパー)を使うように変更しています。
