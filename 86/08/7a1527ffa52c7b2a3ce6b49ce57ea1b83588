@@ -1,0 +1,1 @@
+gc.c の gc_mark_stack_values() から呼び出す gc_mark() を gc_mark_and_pin() に変更して VM スタック上から参照されているオブジェクトは GC.compact で移動不可とするようにしています。
