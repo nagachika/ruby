@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all を ruby 実装にして引数の処理をしてから拡張ライブラリ実装のメソッドに委譲するようにしています。 C 実装だと引数の処理のために Hash オブジェクトを生成してしまうのでそれが Objecpace.dump_all の結果にも入ってしまうのでそれを避けるためとのこと。うーむなるほど。 [ruby-core:99297] [Feature #17045]
