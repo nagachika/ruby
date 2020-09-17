@@ -1,0 +1,1 @@
+Complex.polar の引数に Complex を渡した時に assert() にひっかかっていたのを修正しています。実数部のみ取り出す処理を追加しています。 https://github.com/ruby/ruby/pull/3551 [ruby-core:100020] [Bug #17172]
