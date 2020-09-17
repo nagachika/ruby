@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::Escape という Module の定義を削除してずっと deprecated だった URI.escape と URI.unescape をついに削除しています。おお、ついに。
