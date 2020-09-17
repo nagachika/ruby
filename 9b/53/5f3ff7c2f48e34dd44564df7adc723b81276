@@ -1,0 +1,1 @@
+magic comment frozen-string-literal: true が指定されていても式の埋め込みのある文字列リテラルは freeze しないように仕様変更しています。Matz 承認済みのようですね。  [ruby-core:99485] [Feature #17104]
