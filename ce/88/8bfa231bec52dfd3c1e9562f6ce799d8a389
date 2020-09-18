@@ -1,0 +1,1 @@
+NEWS に Mutex が Fiber 単位で排他するようになったという変更を追記しています。 [ruby-core:97907] [Feature #16792]
