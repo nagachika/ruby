@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の erb 用の同期処理で upstream リポジトリ内のコマンドファイルのパスを exe から libexec に対応しています。
