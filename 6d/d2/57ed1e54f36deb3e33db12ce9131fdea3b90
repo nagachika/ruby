@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に拡張ライブラリ bigdecimal の同期の処理を追加しています。
