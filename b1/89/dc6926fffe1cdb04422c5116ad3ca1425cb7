@@ -1,0 +1,1 @@
+デバッグ出力用の rb_raw_obj_info() で T_SYMBOL 型オブジェクトに対応。
