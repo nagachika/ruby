@@ -1,0 +1,1 @@
+thread_sync.c の rb_mutex_unlock_th() で Thread に scheduler がない時の処理を else 節のなかに移動しています。異常終了の不具合修正のようです。
