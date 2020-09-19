@@ -1,0 +1,1 @@
+Thread 起動時に Ractor のセットアップする vm_insert_ractor() に複数の Ractor が動作している場合のデバッグログを RUBY_DEBUG_LOG() で追加しています。
