@@ -1,0 +1,1 @@
+thread_sync.c の sync_wakeup() で blocking fiber 対応のコードの Thread の schedule 設定有無チェック漏れを修正。
