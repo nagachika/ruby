@@ -1,0 +1,1 @@
+rb_ractor_confirm_belonging() の条件分岐に UNLINKELY() を追加したり rp でデバッグ出力を追加したりしています。 rp って .gdbinit とかで定義してるコマンドじゃなかったっけ、と思ったら internal.h でマクロとして定義されていたオブジェクト内容をダンプするものですね。
