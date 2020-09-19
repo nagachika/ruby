@@ -1,0 +1,1 @@
+String オブジェクトの解放処理 rb_str_free() で fstring 管理用テーブルの操作をしているところでの Ractor 用の排他処理漏れを修正。
