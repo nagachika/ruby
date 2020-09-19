@@ -1,0 +1,1 @@
+blocking fiber のための Scheduler クラス実装のための C API の関数名を改名しています。
