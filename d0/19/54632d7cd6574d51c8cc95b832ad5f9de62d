@@ -1,0 +1,1 @@
+264889ec3d3d38fc1fd23c4fb48402f1367a8deb の追加修正。 rb_mutex_unlock_th() で Thread に shceduler が設定されてた時に goto でロック取得待ちの Thread のループを抜けるようにしています。
