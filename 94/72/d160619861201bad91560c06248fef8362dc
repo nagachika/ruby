@@ -1,0 +1,1 @@
+blocking fiber の対応。 rb_thread_sleep_deadly_allow_spurious_wakeup() で Scheduler クラスの kernel_sleep メソッドのかわりに block メソッドを呼ぶように変更しています。
