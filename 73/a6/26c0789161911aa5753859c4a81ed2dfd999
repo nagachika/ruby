@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の gemspec ファイルの spec.required_ruby_version を 3.0.0 以上に更新しています。 blocking fiber 関連の変更が入ったので 3.0 以降に依存しちゃったみたいですね。
