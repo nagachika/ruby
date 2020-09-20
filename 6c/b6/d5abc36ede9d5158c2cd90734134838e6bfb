@@ -1,0 +1,1 @@
+MJIT の実行時コンパイルする worker が call cache の内容を取得するための mjit_capture_cc_entries() で call cache の内容が GC.compact で移動済みの T_MOVED になってたら異常終了するように assert(3) を追加しています。 不具合の調査のために一時的に追加しているとのこと。
