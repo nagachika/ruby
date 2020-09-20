@@ -1,0 +1,1 @@
+標準添付ライブラリ irb に e468d9f49ca34f713c030c623f655a40370e186d で導入された代入文の時に評価値を表示しないようにする設定 OMIT_ON_ASSIGNMENT はやっぱり削除して、オプション --omit-on-assignment も廃止してかわりにオプション --truncate-echo-on-assignment を追加しています。 ECHO_ON_ASSIGNMENT に :truncate を指定すると表示はするけど1行におさまらない長い値は省略表示するというものみたいです。
