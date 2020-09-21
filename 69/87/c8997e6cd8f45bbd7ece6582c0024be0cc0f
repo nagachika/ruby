@@ -1,0 +1,1 @@
+Mutex のロック時に blocking fiber 用の Scheduler が Thread に設定されていた時に block メソッドを呼び出すのに rb_ensure() を利用して rb_mutex_t::waitq のリストからの削除を例外発生時にも確実に行なうようにしています。
