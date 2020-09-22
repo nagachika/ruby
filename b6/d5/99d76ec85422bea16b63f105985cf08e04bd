@@ -1,0 +1,1 @@
+メモリ管理で未使用の heap を free(3) でシステムに返す heap_pages_free_unused_pages() で heap 解放後に全 heap 内のアドレスの最高の位置を保持する heap_pages_himem の更新をするようにしています。ポインタが Object かどうかの判定で最初のふるいに使うアドレス範囲のものですね。
