@@ -1,0 +1,1 @@
+NEWS に Fiber#backtrace や Fiber#backtrace_locations について追記しています。 [ruby-core:98049] [Feature #16815]
