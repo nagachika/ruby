@@ -1,0 +1,1 @@
+blocking fiber で Thread#join の終了待ちで Fiber を切り替えできるように Scheduler 対応しています。またこのために Scheduler#block メソッドに省略可能な timeout 引数を追加して一定時間で待ちを解除する機能も追加しています。
