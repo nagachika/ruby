@@ -1,0 +1,1 @@
+Ractor#inspect の出力に Ractor#status を含めるようにしています。
