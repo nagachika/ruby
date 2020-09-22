@@ -1,0 +1,1 @@
+Thread#scheduler= で新たな Scheduler もしくは nil がセットされた時に元々設定されてた Scheduler の close メソッドを呼ぶようにしています。
