@@ -1,0 +1,1 @@
+Ractor.new に渡した名前の Encoding が ASCII-incompatible だった場合に ArgumentError を発生させるようにしています。
