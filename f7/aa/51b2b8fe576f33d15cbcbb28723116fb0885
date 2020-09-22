@@ -1,0 +1,1 @@
+NEWS  に blocking fiber とそのための Thread#scheduler の追加についての項目を追記しています。 また doc/fiber.rdoc を削除してかわりに? doc/scheduler.md を追加して blocking fiber の使いかたについて記述しています。
