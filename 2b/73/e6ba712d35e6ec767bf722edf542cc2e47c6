@@ -1,0 +1,1 @@
+blocking fiber のテストで使う Scheduler の実装のリファクタリング。
