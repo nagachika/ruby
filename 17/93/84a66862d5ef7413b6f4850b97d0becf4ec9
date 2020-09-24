@@ -1,0 +1,1 @@
+eeef16e190cdabc2ba474622720f8e3df7bac43b で Module#refine で上書きしたメソッド内の super の不具合修正したのを revert しています。別のパッチが PR できてるのでそっちのほうが良さそうということみたいです。 [ruby-core:100070] [Bug #17182]
