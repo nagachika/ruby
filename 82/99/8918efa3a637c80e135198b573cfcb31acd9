@@ -1,0 +1,1 @@
+70f08f1eed1df4579fef047d28fc3c807183fcfa の Thread#join の blocking fiber 対応で引数の変換が漏れてたそうなので nil または Integer(Fixnum)でなかった時に Float に変換する処理を追加しています。
