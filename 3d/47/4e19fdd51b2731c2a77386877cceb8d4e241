@@ -1,0 +1,1 @@
+misc/lldb_disasm.py に rbdisasm というコマンドを追加して rb_iseq_t 構造体を渡すと VM 構造体を disassemble して表示できるようにしています。
