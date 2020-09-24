@@ -1,0 +1,1 @@
+rubyspec の Thread#join の不正な引数についてのテストで Thread の終了を待つため Thread#join の呼び出しを追加しています。
