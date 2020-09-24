@@ -1,0 +1,1 @@
+UNIXSocket のテストで UNIXSocket#recv_io で fd 受信する時にその fd を wrap するクラスとして UNIXSocket を指定するとうまくいかないので IO を使うようにしていたのを修正しています。 UNIXSocket#recv_io の第2引数 mode を指定しなければ大丈夫だったとのこと。 [ruby-core:71860] [Bug #11778]
