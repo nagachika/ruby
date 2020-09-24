@@ -1,0 +1,1 @@
+deprecated になっていた rb_find_file_safe() と rb_find_file_ext_safe() という C API を削除しています。
