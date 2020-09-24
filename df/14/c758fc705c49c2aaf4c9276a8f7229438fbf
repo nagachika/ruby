@@ -1,0 +1,1 @@
+Hash#transform_values で返す Hash オブジェクトの default 値を nil に再初期化しています。中途半端に元の receiver のデフォルト値指定の Proc オブジェクトが残って意図しない挙動をしていたようです。 [ruby-core:100062] [Bug #17181]
