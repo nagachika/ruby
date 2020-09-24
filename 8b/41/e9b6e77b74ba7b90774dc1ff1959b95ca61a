@@ -1,0 +1,1 @@
+1a9dd31910699c7cd69f2a84c94af20eacd5875c で finalizer 用の管理テーブルを pin down するようにした変更のうち finalizer_table を GC.compact の移動可能チェックをするのもやめてたのを revert しています。また gc_is_moveable_obj() で flags に FL_FINALIZE フラグが立っているものは移動不可と判定する変更も復活させています。前者はなぜ必要なんだろう。
