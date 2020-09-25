@@ -1,0 +1,1 @@
+man/bundle-package.1、man/bundle-package.1.txt、man/bundle-package.ronn などのファイルは bundler からコピーされたもので upstream で削除されたそうなので削除しています。
