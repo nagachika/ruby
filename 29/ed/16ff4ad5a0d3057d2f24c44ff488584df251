@@ -1,0 +1,1 @@
+Ractor 間のオブジェクトのコピーのやりとりのために ractor_basket_accept() で Marshal.dump したオブジェクトを load するときに構造体 struct rb_ractor_basket のメンバー v を RB_GC_GUARD() で GC から保護するようにしています。送信側で dump したあと参照が消えてるかもしれなくて struct rb_ractor_basket は GC の mark 対象じゃないので保護しておかないと load 前に文字列オブジェクトが削除されてるかもしれなかったようです。
