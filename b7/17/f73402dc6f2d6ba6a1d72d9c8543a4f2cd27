@@ -1,0 +1,1 @@
+31a6eaabc165d8a222e176f2c809d90622d88ec2 の rubygems のコーディングスタイル修正を revert しています。upstream で Rubocop の設定変更して不要な空行削られてたとのこと。
