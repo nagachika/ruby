@@ -1,0 +1,1 @@
+07786edd66f59a529d6febb2e0fe901782991755 の net/http のテストの OpenSSL 1.1.1h 対応のリファクタリング。 Enumerable#zip で証明書の対応をとってたのを callback が呼ばれる順序にも依存しないようにしています。
