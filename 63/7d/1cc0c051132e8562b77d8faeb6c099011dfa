@@ -1,0 +1,1 @@
+super の 呼び出しの最適化のため vm_search_normal_superclass() で FL_TEST() を FL_TEST_RAW() に変更したり method entry が現在の control frame の method entry と一致していたら instance_eval などで self のすりかえが行なわれてないので不要な rb_obj_is_kind_of() の呼び出しを抑制するなどの細かい調整をしています。   https://github.com/ruby/ruby/pull/3545
