@@ -1,0 +1,1 @@
+Backtrace::Location#path と Backtarce::Location#absolute_path の rdoc 用コメントに返すパスが絶対パスになるかどうかの条件について追記しています。
