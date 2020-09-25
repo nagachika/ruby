@@ -1,0 +1,1 @@
+GC の mark 処理の root として登録する rb_gc_register_mark_object() で Ractor のための排他処理が必要だったので RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() を追加しています。
