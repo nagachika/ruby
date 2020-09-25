@@ -1,0 +1,1 @@
+test/fiber/scheduler.rb でインスタンス変数の未初期化警告をさけるため initialize に初期化を追加しています。
