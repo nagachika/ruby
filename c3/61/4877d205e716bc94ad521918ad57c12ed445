@@ -1,0 +1,1 @@
+拡張ライブラリ json に JSON.load_file と JSON.load_file! メソッドを追加しています。これは欲しかったやつ! なお末尾の "!" の有無は呼ばれる JSON.parse と parse! にそれぞれ対応しています。
