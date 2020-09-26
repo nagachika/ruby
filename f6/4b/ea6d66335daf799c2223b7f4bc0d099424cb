@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::GenericServer#initialize で :ShutdownPipe オプションがうまくインスタンス変数にセットされてなかったのを修正しています。
