@@ -1,0 +1,1 @@
+include/ruby/internal/stdalign.h の RBIMPL_ALIGNOF() マクロ定義のところのコメントに説明と参考 URL をさらに追加しています。
