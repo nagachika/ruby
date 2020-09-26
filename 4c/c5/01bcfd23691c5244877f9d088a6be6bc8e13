@@ -1,0 +1,1 @@
+0b77a86d1ec3a8bb3d62ea38a93d7aed44dd2c0c で追加した RUBY_ALIGNOF() のテストのための拡張ライブラリで C++ のコンパイラがない場合にエラーにならないよう extconf.rb で $objs に ext/-test-/RUBY_ALIGNOF/cpp.cpp を含めないようにしています。
