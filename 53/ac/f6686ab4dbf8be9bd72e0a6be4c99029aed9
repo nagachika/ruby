@@ -1,0 +1,1 @@
+同じく c06eab13290757fc326bb2a6e3ac25cd53e00894 の標準添付ライブラリ webrick の :ShutdownPipe オプションのテスト追加も revert しています。
