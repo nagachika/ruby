@@ -1,0 +1,1 @@
+ractor_obj_ivars_shareable_p() で Struct のインスタンスであるクラスのインスタンスで freeze されてて所属しているオブジェクトも全て sharable なものも sharable として判定するようにして Ractor 間で共有可能にしています。 Struct のインスタンス(つまりクラス)自体は freeze されてなくてもいいんだな、と思ったけど後から属性は増やせないからいいのか。
