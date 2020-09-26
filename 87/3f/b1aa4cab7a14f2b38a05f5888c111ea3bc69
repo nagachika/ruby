@@ -1,0 +1,1 @@
+ALLOCA_N() マクロの定義で可能なら __builtin_alloca_with_align() を使って alignment を意識したメモリ確保するようにしてたのをやめています。 RUBY_ALIGNOF() マクロを使うのをやめるためとのこと。
