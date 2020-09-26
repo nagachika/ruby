@@ -1,0 +1,1 @@
+Range も T_STRUCT 型のオブジェクトだったので freeze すれば sharable になるのでテストケースに追加しています。
