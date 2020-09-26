@@ -1,0 +1,1 @@
+Ractor.yield で既に Ractor の送信 port が close されてたら Ractor::ClosedError 例外を発生させるようにしています。
