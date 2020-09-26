@@ -1,0 +1,1 @@
+Python の Buffer Protocol というメモリ空間を特定の型としてアクセスするための機能と同様のものを Ruby に追加しています。拡張ライブラリから使うためのもので Ruby レベルの Class/Module が追加されるわけではなく一連の C API が追加されているようです。なおまぎらわしいですが protocol buffer の対応がコアに入ったわけではありません。 https://github.com/ruby/ruby/pull/3261 [ruby-core:86746] [Feature #14722]
