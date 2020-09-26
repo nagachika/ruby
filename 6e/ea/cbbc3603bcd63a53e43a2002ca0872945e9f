@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストの 81dc37b1b41db9957d783b28cb1a4eaa03a5bd5d で assert に変更したチェックを assert_include と assert_not_include を使うようにリファクタリングしています。
