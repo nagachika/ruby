@@ -1,0 +1,1 @@
+511fe23fa2bdf1f17faa91e0558be47b5bb62b2a で追加した TCPSocket.new のキーワード引数 resolv_timeout について NEWS に追記しています。
