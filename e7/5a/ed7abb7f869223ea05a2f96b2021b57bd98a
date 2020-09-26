@@ -1,0 +1,1 @@
+include/ruby/internal/stdalign.h の RBIMPL_ALIGNOF() の定義に C++ 用の定義で constexpr を使ってたのを避けるようにしています。
