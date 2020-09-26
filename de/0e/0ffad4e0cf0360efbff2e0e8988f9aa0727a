@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.recurse_proc に rdoc 用の :nodoc: タグのコメントを追加してドキュメント化を抑制しています。
