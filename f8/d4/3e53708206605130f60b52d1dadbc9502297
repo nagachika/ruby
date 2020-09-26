@@ -1,0 +1,1 @@
+拡張ライブラリ json の gemspec ファイルの spec.required_rubygems_version と spec.require_paths の削除。コミットログによると json-java と gemspec を統合するためみたいです。
