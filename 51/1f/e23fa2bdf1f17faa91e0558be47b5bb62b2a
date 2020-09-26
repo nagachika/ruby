@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TCPSocket.new のキーワード引数に resolv_timeout を追加して、名前解決の時点でのタイムアウトを設定できるようにしています。 [ruby-core:99766] [Feature #17134]
