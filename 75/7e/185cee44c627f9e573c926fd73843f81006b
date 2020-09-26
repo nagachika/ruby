@@ -1,0 +1,1 @@
+ed12019ce6abe87aac87ec77ac081d37b25180a2 の標準添付ライブラリ webrick でリクエストボディなしの POST/PUT で content-length ヘッダなしを許容する変更を revert いています。 CI がこけたみたいです。
