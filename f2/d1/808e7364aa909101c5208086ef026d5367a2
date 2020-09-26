@@ -1,0 +1,1 @@
+TCPSocket.new の rdoc 用コメントに 511fe23fa2bdf1f17faa91e0558be47b5bb62b2a で追加したキーワード引数 resolv_timeout について追記しています。
