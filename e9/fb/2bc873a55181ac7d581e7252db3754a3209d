@@ -1,0 +1,1 @@
+同じく configure で alignof() の亜種をチェックしているところで GCC の __alignof__ は i686 環境で期待してるのと違う値を返す場合があるらしいので _Alignof() を優先するようにして、さらに古い GCC や clang では _Alignof() もバグがあるらしいので、configure で使えるかどうかチェックするようにしています。
