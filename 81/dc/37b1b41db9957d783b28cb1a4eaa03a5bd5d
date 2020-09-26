@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで assert_true を使ってたのをただの assert に変更しています。 コアのテスト用ライブラリの test/unit には assert_true がないためとのこと。
