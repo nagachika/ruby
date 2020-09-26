@@ -1,0 +1,1 @@
+rb_ractor_shareable_p_continue() で T_OBJECT 型のオブジェクトはそれ自体が freeze されていて保持しているインスタンス変数も全て Ractor 間で sharable なものだけだったら sharable と判定するようにしています。
