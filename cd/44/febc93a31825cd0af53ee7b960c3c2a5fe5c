@@ -1,0 +1,1 @@
+.github/workflows/check_dependencies.yml というファイルを追加して GitHub Actions で ruby tool/update-deps を実行して Makefile の依存関係に更新があったら Slack 通知する workflow を追加しています。
