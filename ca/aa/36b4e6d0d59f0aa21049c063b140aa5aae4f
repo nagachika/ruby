@@ -1,0 +1,1 @@
+Module#define_method に Proc オブジェクトを渡して定義したメソッドは定義したのとは別の Ractor からは呼べないように制限を加えています。 構造体 rb_method_bmethod_t のメンバーに defined_ractor として定義した Ractor を追加して一致しない時は RuntimeError 例外発生させるようにしています。
