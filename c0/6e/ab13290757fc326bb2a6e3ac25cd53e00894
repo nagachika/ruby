@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick のテストに WEBrick::GenericServer. の :ShutdownPipe オプションの機能確認するテストメソッドを追加しています。
