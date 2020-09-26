@@ -1,0 +1,1 @@
+String#match? の rdoc 用コメントに Regexp へのリンクを追加しています。 https://github.com/ruby/ruby/pull/3576
