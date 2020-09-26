@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグの定数として FL_SHAREABLE を追加しています。これは tainted のマークのために使われてた FL_TAINT と同じビットを使っています。互換性のために? FL_TAINT という定数も残ってはいますが、3.0 からはこれは意味が異なるので注意が必要です。そして rubyspec の C API チェックのための拡張ライブラリで FL_TAINT を使ってるところがあったので、FL_SHARABLE が定義されてたら使わないように修正しています。
