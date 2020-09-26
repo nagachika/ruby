@@ -1,0 +1,1 @@
+configure で RUBY_ALIGNAS() マクロを定義するためコンパイラごとのいろんな手法を試してたところを消しています。 include/ruby/internal/stdalign.h でマクロで環境判定して定義をわけているので configure のチェックは不要とのこと。
