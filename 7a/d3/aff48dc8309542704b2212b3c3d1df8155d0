@@ -1,0 +1,1 @@
+構造体 rb_ractor_t にメンバー yield_atexit を追加して Thread 終了時の終了処理時には Ractor からのオブジェクト受信のために待ってる Ractor の処理を再開させるのはやめて、通常の Ractor の終了時? は待ってる Ractor を起こすようにしています。
