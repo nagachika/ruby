@@ -1,0 +1,1 @@
+deprecated のカテゴリの警告をデフォルトで off にするようにしています。また -w オプションをつけると自動的に -W:deprecated もつけたように解釈して deprecated 警告 on にするようにしています。 https://github.com/ruby/ruby/pull/3481 [ruby-core:95808] [Feature #16345]
