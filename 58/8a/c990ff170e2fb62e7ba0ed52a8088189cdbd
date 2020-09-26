@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick のテストで URL のパスにマルチバイト文字を含めた時のテストが Encoding.default_external が US-ASCII の時に警告が出るようなので $VERBOSE を一時的に nil に設定するようにしています。
