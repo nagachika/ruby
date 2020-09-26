@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.load_stream および Psych.load_file に keyword rest 引数を追加して、内部で呼ぶ node.to_ruby にそのまま委譲するようにしています。今後の拡張を考えると Psych.load にも追加しなくていいのかな。
