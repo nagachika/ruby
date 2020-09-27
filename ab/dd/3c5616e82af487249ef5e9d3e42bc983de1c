@@ -1,0 +1,1 @@
+test/ruby/test_enumerator.rb の Enumerator.new のブロックなしの呼び出しのテストに警告のチェックを追加。 79063d8cbfb7ce4740774289252a2a20dc9a5dc1 で deprecated warning がデフォルト off になったため一時的に  Warning[:deprecated] を true にセットするようにしています。
