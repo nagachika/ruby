@@ -1,0 +1,1 @@
+RBIMPL_ALIGNOF() マクロの定義のめの preprocessor の分岐の順序を変更して C++ の時に template を使う実装を優先するようにしています。
