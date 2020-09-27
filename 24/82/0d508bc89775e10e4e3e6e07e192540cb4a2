@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.internal_class_of メソッドで T_NODE 型のオブジェクトの場合異常終了になってたので nil を返すようにしています。テストでは RubyVM::AbstractSyntaxTree::Node を使うようにしています。
