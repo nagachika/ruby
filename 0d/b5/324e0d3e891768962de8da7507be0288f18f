@@ -1,0 +1,1 @@
+test/ruby/test_memory_view.rb の Memory view のテストで未使用変数の警告を抑制するため変数名に _ の prefix を追加しています。
