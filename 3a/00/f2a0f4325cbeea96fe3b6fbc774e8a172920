@@ -1,0 +1,1 @@
+ext/readline/depend の依存関係を更新しています。おそらく f4328d7f5d035b5a292d00ad21e79818b9220d8b が revert された結果になってると思います。
