@@ -1,0 +1,1 @@
+ruby_atomic.h の ATOMIC_FETCH_SUB() マクロ定義の引数の typo 修正。GCC の builtin 関数が使えない時の実装で CentOS 6 でのビルド時に発覚したようです。CentOS 6 はもう RubyCI から消えてるからなぁ。 [ruby-core:100169] [Bug #17194]
