@@ -1,0 +1,1 @@
+test/ruby/test_enumerator.rb の capture_io を使ってたのをやめています。これは警告メッセージを捕捉して無視するためのものだったようで、996af2ce086249e904b2ce95ab2fcd1de7d757be で deprecated warning がデフォルトで off になったので不要になったということのようです。
