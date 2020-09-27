@@ -1,0 +1,1 @@
+Range オブジェクトは生成時に常に freeze しておくようにしています。 [ruby-core:90881] [Feature #15504]
