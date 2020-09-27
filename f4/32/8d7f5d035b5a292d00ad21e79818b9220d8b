@@ -1,0 +1,1 @@
+ext/readline/depend の不要なヘッダへの依存関係を削除しています。
