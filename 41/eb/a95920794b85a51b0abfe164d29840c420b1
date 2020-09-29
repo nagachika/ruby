@@ -1,0 +1,1 @@
+dead7478748a828c45e16134fca812bc7771344e で IO のテストで Tempfile.create を使うようにリファクタリングしたうちの finalizer での autoclose についてのテストの部分は revert しています。Windows で開いた状態のファイルが削除でないため。
