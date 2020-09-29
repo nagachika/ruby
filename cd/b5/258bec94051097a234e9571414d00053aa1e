@@ -1,0 +1,1 @@
+ENV.except の rdoc 用コメントのサンプルの typo 修正。
