@@ -1,0 +1,1 @@
+rubygems の gem build サブコマンドに --platform オプションを追加して JRuby などの他の実装向けのビルドができるようにしているようです。
