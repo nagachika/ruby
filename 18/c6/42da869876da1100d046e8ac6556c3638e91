@@ -1,0 +1,1 @@
+bundle gem でプロジェクトの雛形を生成する時に spec.files や spec.executable を git ls-files から生成する時に除外するファイルパスパターンの正規表現に改行が含まれてる場合を考慮して \A を使うようにしています。
