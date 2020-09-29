@@ -1,0 +1,1 @@
+thread_win32.c の native_mutex_trylock() に RBIMPL_ATTR_MAYBE_UNUSED() による修飾子を追加しています。現在未使用なため。
