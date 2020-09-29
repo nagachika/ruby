@@ -1,0 +1,1 @@
+racc の --runtime-version オプションでの出力から Racc::Parser::Racc_Runtime_Revision と Racc::Parser::Racc_Runtime_Core_Revision_R の表示を削っています。 RCS のタグ(っていうんだっけ)による定数の削除に追随しているようです。フォーマット文字列の指示子が残ってますね。
