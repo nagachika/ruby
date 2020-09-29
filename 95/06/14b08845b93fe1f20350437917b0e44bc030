@@ -1,0 +1,1 @@
+511fe23fa2bdf1f17faa91e0558be47b5bb62b2a の TCPSocket の resolv_timeout オプション追加で preprocessor の分岐で一部の環境でしか使われないローカル変数があったのを削除して直接構造体メンバーを参照するようにしています。
