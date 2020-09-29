@@ -1,0 +1,1 @@
+.github/workflows/ubuntu.yml と .github/workflows/macos.yml の GitHub Actions の bundled gems のエラーを無視する gem についてのコメントがもう不要になってたので削除しています。
