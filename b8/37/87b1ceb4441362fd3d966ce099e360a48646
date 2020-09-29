@@ -1,0 +1,1 @@
+rubygems の gem cleanup サブコマンドのオプション --dryrun を --dry-run に変更いています。他のサブコマンドに合わせてるようです。
