@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/specification.rb でクラス変数を埋め込んだスクリプトを生成して eval でメソッド定義しているところで先頭に # frozen_string_literal: true とマジックコメントをつけるようにしています。文字列で eval してメソッド定義するのわりと久しぶりにみたな。
