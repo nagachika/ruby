@@ -1,0 +1,1 @@
+sprintf.c の MAYBE_UNUSED() マクロ定義が conflict していたとのことで削除しています。
