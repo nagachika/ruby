@@ -1,0 +1,1 @@
+bundle gem でプロジェクト生成する時の bin/console ファイルのテンプレートで frozen_string_literal: true magic comment を shebang の後に移動させています。
