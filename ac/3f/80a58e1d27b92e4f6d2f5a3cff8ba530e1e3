@@ -1,0 +1,1 @@
+rubygems の gem パッケージダウンロードの cache directory の書き込み権限のチェックを追加しています。
