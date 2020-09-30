@@ -1,0 +1,1 @@
+test/fiber/http.rb と test/json/json_generator_test.rb の mode に実行可能パーミッションがついてたのを落としています。
