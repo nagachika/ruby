@@ -1,0 +1,1 @@
+OpenBSD の make で make install に失敗するという不具合の修正。 make prepare-gems や make extract-gems で BASERUBY が存在しない時に bundled gems を再ダウンロードしようとするのを抑制するようにしています。 [ruby-core:100163] [Bug #17191]
