@@ -1,0 +1,1 @@
+テスト用のユーティリティ EnvUtil.invoke_ruby で起動する子プロセスの ruby に ASAN_OPTIONS 環境変数を伝播させるようにしています。
