@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドで heap ごとのビットマップ部分に格納されているビットフラグによる make/pinned/WB-unprotected などの情報も表示するようにしています。
