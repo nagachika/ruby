@@ -1,0 +1,1 @@
+拡張ライブラリ objspace で全オブジェクト(slot)を iterate する実装のために each_object_with_flags() という関数を追加して、ASAN の考慮のコードを1つにまとめるリファクタリング。
