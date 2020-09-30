@@ -1,0 +1,1 @@
+String#succ! の rdoc 用コメントの call-seq から別名の next! の表記を削っています。 https://github.com/ruby/ruby/pull/3596
