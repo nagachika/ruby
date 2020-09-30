@@ -1,0 +1,1 @@
+GC.compact で移動したオブジェクトへの参照を差し替える gc_ref_update() 内での不要な SPECIAL_CONST_P() のチェックを削除。 またオブジェクトが ASAN 用に poisoned されてた時にその型が T_NODE であることをチェックしている assertion を消しています。poisoned されたら flag をチェックするのも NG のため、かな。
