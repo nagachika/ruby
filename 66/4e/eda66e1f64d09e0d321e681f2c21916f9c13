@@ -1,0 +1,1 @@
+vm_ccs_free() でも ASAN のチェックを一時的に回避するため asan_unpoison_object() する対応を追加しています。
