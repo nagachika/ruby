@@ -1,0 +1,1 @@
+invalidate_all_cc() でも asan_unpoison_object() による ASAN のチェック回避の対応を追加しています。また 18b3f0f54c66632b1039a27634a8a449a7812e34 で objspace に追加した 変更で変数名の衝突があったので解消しています。
