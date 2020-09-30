@@ -1,0 +1,1 @@
+拡張ライブラリ objspace ではメモリ管理で struct RVALUE を確保してる heap を舐めるので ASAN によるチェックにひっかかるのを避けるため asan_poison_object()/asan_unpoison_object() で一時的にチェックを回避させるコードを追加しています。
