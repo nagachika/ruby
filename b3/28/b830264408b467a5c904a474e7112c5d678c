@@ -1,0 +1,1 @@
+拡張ライブラリ coverage にも ASAN によるチェックを回避するための asan_unpoison_object()/asan_poison_object() を追加しています。
