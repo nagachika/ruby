@@ -1,0 +1,1 @@
+オブジェクト生成を一時的なバッファに行う transient_heap_block_evacuate() で ASAN のチェックを回避するための asan_unpoison_memory_region() と asan_poison_memory_region() での対応を追加しています。
