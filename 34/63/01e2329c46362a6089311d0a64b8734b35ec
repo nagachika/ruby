@@ -1,0 +1,1 @@
+rb_category_warn() および rb_category_warning() という C API を追加して拡張ライブラリから category 指定つきの警告出力できるようにしています。おお、ここでは category と $VERBOSE のモードの指定は直交したものになっている。そういう仕様だったっけ……?
