@@ -1,0 +1,1 @@
+rubyspec の json のテストで Tempfile.open を使っててファイルが leak していたので Tempfile.create をつかうように変更しています。ensure 節で File.delete はしていましたがなんでだろう。
