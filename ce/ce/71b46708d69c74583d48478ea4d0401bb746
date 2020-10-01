@@ -1,0 +1,1 @@
+Hash#transform_keys の rdoc 用コメントの call-seq に引数に Hash を渡した時の記法を追記しています。 [Feature #16274]
