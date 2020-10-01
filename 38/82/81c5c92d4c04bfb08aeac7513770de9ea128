@@ -1,0 +1,1 @@
+blocking fiber のための Scheduler の終了処理で Thread#scheduler= でリセットする時に例外が発生しうるので EC_PUSH_TAG()/EC_EXEC_TAG()/EC_POP_TAG() で大域脱出から保護するようにしています。また rb_ec_cleanup() 内での rb_ec_scheduler_finalize() の呼び出しを例外処理の前に移動しています。
