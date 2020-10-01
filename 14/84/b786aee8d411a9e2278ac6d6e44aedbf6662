@@ -1,0 +1,1 @@
+mjit_worker.c の mjit_capture_cc_entries() 内の assert(3) の式に警告除去のため明示的なキャストを追加しています。
