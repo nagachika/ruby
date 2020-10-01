@@ -1,0 +1,1 @@
+30bb040ea4718270e269fefdd0440940f2bdfc5d の rubyspec の変更で ensure  節がなくなったので begin が不要になったので削っています。
