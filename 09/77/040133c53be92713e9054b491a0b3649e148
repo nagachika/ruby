@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct に Ractor 間で freeze した OpenStruct のインスタンスが共有できることをチェックするテストを追加しています。
