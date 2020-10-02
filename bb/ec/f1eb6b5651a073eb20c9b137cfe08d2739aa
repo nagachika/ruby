@@ -1,0 +1,1 @@
+spec/mspec  を再度 upstream と同期しています。 Warning[:deprecated] = true して実行するようにしてくれています(2.7 の RubyCI のために必要でした)。
