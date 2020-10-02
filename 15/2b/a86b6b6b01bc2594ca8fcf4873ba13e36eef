@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#method_missing の不要な条件分岐の削除。
