@@ -1,0 +1,1 @@
+クラスメソッド Thread.scheduler の定義を削除しています。Thread.current.blocking? で代替できるので不要とのこと。
