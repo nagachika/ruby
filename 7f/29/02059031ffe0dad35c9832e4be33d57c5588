@@ -1,0 +1,1 @@
+blocking fiber のテストで使うサンプルの Scheduler の close メソッド実装で二重に close が呼ばれたら例外発生させるようにしています。
