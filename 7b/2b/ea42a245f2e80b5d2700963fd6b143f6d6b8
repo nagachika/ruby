@@ -1,0 +1,1 @@
+文字列の式展開に文字列リテラルをそのまま書いてるだけ(式展開してる意味があんまりない)の時の #frozen_string_literal: true だと値の埋め込みがあっても freeze されてたのを freeze しないようにしています。 [ruby-core:99485] [Feature #17104]
