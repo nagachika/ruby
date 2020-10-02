@@ -1,0 +1,1 @@
+Thread#join で blocking fiber 対応してる時に th->scheduler を使ってたのを rb_thread_current_scheduler() というインタフェースを使うように修正しています。Thread が blocking かどうか(つまり blocking fiber を使ってるかどうか?)のチェックも含まれているようですね。
