@@ -1,0 +1,1 @@
+blocking fiber で使う Scheduler の close メソッドを呼ぶ前に rb_respond_to() で定義されてるかチェックしてなかったら呼ばないようにしています。
