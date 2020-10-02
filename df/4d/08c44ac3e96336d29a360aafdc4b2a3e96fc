@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#initialize の内容を update_to_values! というメソッドに切り出し、initialize_dup から initialize を呼んでたのをこちらのメソッドを呼ぶようにリファクタリングしています。 initialize を呼ぶのは NG なのかな。テストをみると継承したクラスで initialize 再定義された時に意図しない呼び出しが起きるのを避けるためみたいですね。
