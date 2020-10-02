@@ -1,0 +1,1 @@
+よくわかりませんが rb_ec_cleanup() で rb_ec_scheduler_finalize() を呼び出すのをやめて rb_ec_teardown() から呼び出すようにしています。
