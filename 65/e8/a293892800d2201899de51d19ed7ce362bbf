@@ -1,0 +1,1 @@
+spec/ruby の upstream との同期。 3.0 で deprecated warning のデフォルトを off にしたので一部の spec を 3.0 で除外してたのを消しています。bbecf1eb6b5651a073eb20c9b137cfe08d2739aa で mspec が Warning[:deprecated] = true にして実行するようになったので。
