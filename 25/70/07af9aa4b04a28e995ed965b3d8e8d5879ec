@@ -1,0 +1,1 @@
+scheduler.c の rb_scheduler_close() で Scheduler の close メソッドが未定義の時の return がなかったので明示的な return Qnil を追加しています。
