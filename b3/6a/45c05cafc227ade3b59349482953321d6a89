@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct の YAML でのエンコード/デコード時のフォーマットの変更をしています。YAML にした時の読みやすさのため? [ruby-core:54860] [Feature #8382]
