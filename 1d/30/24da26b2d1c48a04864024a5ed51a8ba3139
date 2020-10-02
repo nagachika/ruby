@@ -1,0 +1,1 @@
+test/fiber/test_mutex.rb で assertion メソッドを変更してエラー時により詳しいメッセージが出せるようにしています。
