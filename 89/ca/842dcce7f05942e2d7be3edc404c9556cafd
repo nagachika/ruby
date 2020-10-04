@@ -1,0 +1,1 @@
+Float オブジェクト同士の比較を行う関数 rb_float_cmp() で第1引数が Float::NAN だった時に ArgumentError を発生させるようにしてオブジェクト変換のための TypeError が発生しないようにしています。 [ruby-core:100236] [Bug #17205]
