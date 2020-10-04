@@ -1,0 +1,1 @@
+super の呼び出しで呼ぶべき method entry を探す vm_search_super_method() で FL_TEST() のかわりに FL_TEST_RAW() を使うようにするなど細かい最適化をしています。
