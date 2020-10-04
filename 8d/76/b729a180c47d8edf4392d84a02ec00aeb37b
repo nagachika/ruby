@@ -1,0 +1,1 @@
+VM 命令へのコンパイル時に Range リテラルのオブジェクトを putobject の operand に埋め込んで毎回同じオブジェクトを返すようにする最適化を復活させています。 Ractor で問題があったので無効にしてたけど Range が常に freeze されてて Ractor sharable になったので問題なくなったようです。
