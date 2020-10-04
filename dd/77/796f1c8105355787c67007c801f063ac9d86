@@ -1,0 +1,1 @@
+numeric.c の Float の比較を行なう関数 rb_float_cmp() の比較結果が nil だった場合をケアする処理を ensure_cmp() という関数に切り出して rb_num_coerce_relop() でも利用するように修正しています。
