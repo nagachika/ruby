@@ -1,0 +1,1 @@
+Thread オブジェクトの GC.compact 時の処理のコールバック thread_compact() で rb_thread_t::self の内容も compact による移動での参照更新を行うように対応追加しています。
