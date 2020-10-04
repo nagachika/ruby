@@ -1,0 +1,1 @@
+174ae0f5775cc7af7d197963a8f87b7d1972c268 で KNOWNBUGS.rb のテスト削除時に追加した test/ruby/test_method.rb のテストで assert_ruby_status の ruby のコマンドラインにスクリプトをそのまま書いてたので -e オプションを追加するように修正しています。
