@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の構造体 struct strscanner のメンバー regex を明示的に Qnil で初期化して GC の mark 処理で mark 漏れしてたのを修正しています。
