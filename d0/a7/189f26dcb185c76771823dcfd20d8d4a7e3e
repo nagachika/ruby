@@ -1,0 +1,1 @@
+fbba6bd4e3dff7a61965208fecae908f10c4edbe. の ObjectSpace.dump などの ruby による wrapper 実装化で意図せず戻り値が変化してしまっていたので修正しています。
