@@ -1,0 +1,1 @@
+Memory View のインターフェースの構造体 rb_memory_view_t のメンバー ndim の型を int から ssize_t に変更しています。ビルド時の警告抑制のため。 https://github.com/ruby/ruby/pull/3615
