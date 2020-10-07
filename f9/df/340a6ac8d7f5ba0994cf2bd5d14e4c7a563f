@@ -1,0 +1,1 @@
+GitHub Actions の設定で tool/actions-commit-info.sh というコマンドで Slack 通知のためのその日のコミット数などの情報を取ってたのはもう不要になってるようなので削除しています。
