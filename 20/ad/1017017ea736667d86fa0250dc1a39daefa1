@@ -1,0 +1,1 @@
+irb の history ファイルのテストで子プロセスで irb 実行するかわりに IRB::InputMethod を継承したテスト用の InputMethod 実装のクラスを導入してこれを使って history ファイルを保存させるようにしています。
