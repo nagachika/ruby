@@ -1,0 +1,1 @@
+標準添付ライブラリ irb のテストの独自の assertion メソッド launch_irb_with_irbrc_and_irb_history を assert_history_with_irbrc_and_irb_history に改名して子プロセスの標準エラー出力も取得してエラー時に表示するようにしています。
