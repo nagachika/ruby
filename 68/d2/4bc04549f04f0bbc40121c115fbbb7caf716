@@ -1,0 +1,1 @@
+proc.c の rb_callable_receiver() という C API の宣言を include/ruby/internal/intern/proc.h から削除して非公開 API にしています。
