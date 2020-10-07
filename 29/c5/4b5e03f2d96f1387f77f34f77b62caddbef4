@@ -1,0 +1,1 @@
+rubygems の FileUtils.mkdir_p を使う箇所でその直前に require "fileutils" するようにしています。もともと require が不足していたようです。
