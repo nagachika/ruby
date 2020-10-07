@@ -1,0 +1,1 @@
+include/ruby/random.h の関数マクロ rb_rand_if() を inline 関数に変更しています。
