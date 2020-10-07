@@ -1,0 +1,1 @@
+同じく include/ruby/random.h のマクロ RB_RANDOM_DATA_INIT_PARENT() の定義の本体を rbimpl_random_data_init_parent() という inline 関数に切り出しています。
