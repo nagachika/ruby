@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream repository から cherry-pick してくる時にコミットログを整形する時に最後に改行がなかった時に対応するようにしています。 grep をかけると行末に改行がない時にも改行を補ってくれるというのを利用しています。はーなるほど。
