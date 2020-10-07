@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の Tempfile.open の rdoc 用コメントでブロックを抜けた時にファイルを削除する Tempfile.create の存在とその推奨の記述を追加しています。
