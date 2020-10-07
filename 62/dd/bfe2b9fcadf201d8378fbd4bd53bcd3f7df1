@@ -1,0 +1,1 @@
+include/ruby/memory_view.h の rb_memory_view_is_contiguous() というマクロを inline 関数に書きかえています。
