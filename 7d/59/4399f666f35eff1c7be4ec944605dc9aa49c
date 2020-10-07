@@ -1,0 +1,1 @@
+Memory View のインターフェースとなる構造体 rb_memory_view_t のメンバー readonly の型を int から bool に変更しています。対応して関数の戻り値や引数の型も変更しています。
