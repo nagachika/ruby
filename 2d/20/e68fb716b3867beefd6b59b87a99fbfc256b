@@ -1,0 +1,1 @@
+include/ruby/memory_view.h の関数宣言のいくつかに RBIMPL_ATTR_PURE() マクロによる修飾子を追加しています。
