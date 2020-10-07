@@ -1,0 +1,1 @@
+Memory View のテスト用の拡張ライブラリで STRUCT_ALIGNOF() というマクロ定義に offsetof() を使った定義を書いてたのを RUBY_ALIGNOF() を利用するように書きかえています。 e75aed7abb7f869223ea05a2f96b2021b57bd98a のあたりの修正で問題がなくなったからと思われます。 https://github.com/ruby/ruby/pull/3570 も参照。
