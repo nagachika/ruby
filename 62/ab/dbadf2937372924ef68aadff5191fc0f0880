@@ -1,0 +1,1 @@
+c839168b1141db53bedef771d1bc78908b6ac782 の rb_callable_receiver() の宣言の復活を revert しています。やはり不要だったみたい。
