@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.reachable_objects_from で全オブジェクトを走査している時に保持するテーブル struct rof_data::refs を st_table から VALUE に変更して Hash オブジェクトとして保持するようにしています。GC.compact でオブジェクトの移動があった時に st_table 内の参照が追随できないためとのこと。
