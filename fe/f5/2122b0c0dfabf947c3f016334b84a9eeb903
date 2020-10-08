@@ -1,0 +1,1 @@
+proc.c の rb_callable_receiver() という関数で Proc オブジェクトの binding を得るのに binding メソッドを rb_funcall() で呼んでたところを直接 proc_binding() 関数を呼ぶように変更しています。
