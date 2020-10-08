@@ -1,0 +1,1 @@
+1486785a5759c5cb0b7a7bf0bc5368cc9a280191 の変更で alias 先の OpenStruct#update_to_values! が private なため marshal_load も private になってしまっていたので public に変更するよう追加修正しています。
