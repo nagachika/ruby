@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#marshal_load をほぼ同等の実装のメソッド update_to_values! の alias として定義するよう変更しています。 new_ostruct_member! の呼び出しによる特異メソッド追加が呼ばれてなかったのを修正しているみたいですね。
