@@ -1,0 +1,1 @@
+68d24bc04549f04f0bbc40121c115fbbb7caf716 で include/ruby/internal/intern/proc.h から宣言を削除した rb_callable_receiver() の宣言を再度  include/ruby/internal/intern/proc.h に追加しています。コミットログは "Don't export rb_callable_receiver" ってあるけど、どういうことだろ。 RBIMPL_SYMBOL_EXPORT_END() の後に移動しているので export はしないってことかもしれないけど、コンパイラによってはリンクできるよなぁ。
