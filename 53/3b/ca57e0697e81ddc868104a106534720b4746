@@ -1,0 +1,1 @@
+Test::Unit::Assertions#assert、#assert_respond_to、assert_not_respond_to の定義を tool/lib/test/unit/assertions.rb から tool/lib/test/unit/core_assertions.rb に移動しています。default gems で使えるようにするため。
