@@ -1,0 +1,1 @@
+標準添付ライブラリ prettyprint も default gem に変更しています。あれ、pp と prettyprint って分かれてるんだっけ。
