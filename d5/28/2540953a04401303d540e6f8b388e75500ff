@@ -1,0 +1,1 @@
+VM 命令列へのコンパイル時の iseq_compile_each0() の引数 iseq への再代入で RGenGC 用の Write Barrier の付け忘れがあったのを修正しています。
