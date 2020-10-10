@@ -1,0 +1,1 @@
+misc/lldb_disasm.py で lldb 上で rbdisasm コマンドで rb_iseq_t の変数から VM 命令を disassemble する時に行頭にアドレスも表示して rb_control_frame_t::pc で現在実行中の命令が分かるようにしています。
