@@ -1,0 +1,1 @@
+Kernel#autoload の実装で rb_class_real() の戻り値のエラーチェック? で Qnil と比較してましたが、rb_class_real() はみつからなかった時に Qnil ではなく Qfalse (0) を返すのでチェックを変更しています。
