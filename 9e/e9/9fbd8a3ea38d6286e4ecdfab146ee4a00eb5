@@ -1,0 +1,1 @@
+random.c で Random::Base の定数設定後に rb_set_class_path() で名前空間の明示的な設定をしていましたが、単に rb_const_set() するだけで設定されるので不要なので削除しています。
