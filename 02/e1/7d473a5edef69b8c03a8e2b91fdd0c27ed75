@@ -1,0 +1,1 @@
+gems/bundled_gems に bundled gems の upstream のリポジトリに加えて tag や commit hash を記述して特定のバージョンを取り出すことをサポートするように tool/fetch-bundled_gems.rb を修正しています。 https://github.com/ruby/ruby/pull/3641
