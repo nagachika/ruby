@@ -1,0 +1,1 @@
+String#insert の rdoc コメントのサンプルを削除して文章で説明するようにしています。サンプルあったほうが良いような気もするけど。 https://github.com/ruby/ruby/pull/3643
