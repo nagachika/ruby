@@ -1,0 +1,1 @@
+object.c の rb_class_real() という関数の Doxygen 用のコメントでクラスがみつからなかった時の戻り値について Qfalse を明記するようにしています。昨日の 6944b927bdaaa9c27407eaa5ce411b9bad75af5b の修正にも関連したところですね。この PR が元になってあの(潜在的)不具合がみつかったのかも。  https://github.com/ruby/ruby/pull/3637
