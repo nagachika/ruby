@@ -1,0 +1,1 @@
+Ractor.recv や Ractor#recv のメソッド名を receive に改名しています。元の recv も alias として残しています。
