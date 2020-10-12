@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で 7fca27419846f76f978f3bbef2d2db3e1bf688e7 で blocking fiber のための Scheduler インターフェースに対応していましたが、default gem 化されているので古い ruby でも動くように必要な C API がない場合を考慮するようにしています。
