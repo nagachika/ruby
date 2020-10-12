@@ -1,0 +1,1 @@
+7fca27419846f76f978f3bbef2d2db3e1bf688e7 の拡張ライブラリ io/console の blocking fiber 用 Scheduler API 対応の修正。rb_io_wait() の戻り値を RB_NUM2INT() で int に変換後に VALUE 型の変数に代入してから Qfalse と比較したので不要な変換を削除しています。 https://github.com/ruby/io-console/pull/18
