@@ -1,0 +1,1 @@
+Ractor 間のオブジェクト送受信のバッファである struct rb_ractor_queue の実装を ring buffer にして pop した時に内容をずらす処理を省略できるようにしています。
