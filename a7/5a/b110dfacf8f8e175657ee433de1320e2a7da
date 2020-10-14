@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の設定 .github/workflows/windows.yml でビルド用の変数設定をする BAT ファイル? のパスをあちこちに書いてたのを VCVARS という環境変数にセットして使いまわすようにリファクタリングしています。
