@@ -1,0 +1,1 @@
+test-all と rubyspec で Android 環境での失敗を手当てするため実行除外したり File.link や TCPServer#listen の発生させる例外クラスの指定の変更などがありました。
