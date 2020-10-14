@@ -1,0 +1,1 @@
+Fiber#transfer を一度使うと通常の Fiber#resume での切り替えはできなくするという制限がありましたが、これを少し弱めて、別の Fiber を resume 中の Fiber や Fiber.yield 呼び出しで一時停止中の Fiber への transfer と、transfer で起動されて実行中の Fiber の resume 呼び出しを禁止するように、少し条件を細かくしています。結局どういう起動が OK になったんだろう。また Fiber が終了して root fiber に戻るようになっていたのは transfer を呼び出した Fiber に実行が戻るようにしています。 [ruby-core:100332] [Bug #17221]
