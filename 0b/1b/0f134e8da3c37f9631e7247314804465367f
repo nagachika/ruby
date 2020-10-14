@@ -1,0 +1,1 @@
+2fd71112fb5b1aafa5b243c7ac5713cfae7fc23c の再修正。 rubyspec の TCPServer#listen のテストで発生する例外を Errno::EOPNOTSUPP も許可するようにしています。
