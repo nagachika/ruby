@@ -1,0 +1,1 @@
+encoding.c のグローバル変数 enc_table と rb_encoding_list が Ractor からアクセスされるので global_enc_table および rb_default_encoding_list、rb_additional_encoding_list と改名、分解して RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で保護してアクセスするようにしています。また rb_ascii8bit_encoding()/rb_utf8_encoding()/rb_usascii_encoding() などで返すための rb_encoding はテーブルを参照しなくて済むように static 変数を導入してこちらを返すようにしています。
