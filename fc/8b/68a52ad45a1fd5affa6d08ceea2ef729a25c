@@ -1,0 +1,1 @@
+vm_sync.h のマクロ RB_VM_LOCK_ENTER_LEV() と RB_VM_LOCK_LEAVE_LEV() の定義に含まれてたセミコロンを削除。
