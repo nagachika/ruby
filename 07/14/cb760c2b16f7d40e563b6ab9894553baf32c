@@ -1,0 +1,1 @@
+cont.c の enum fiber_status の説明のコメントの重複した行を削除しています。
