@@ -1,0 +1,1 @@
+c3ba3fa8d01aa3970dc1f4e3dc0090ae171e9e35 の GVL の POP_TAG() での解放処理の再修正。EC_POP_TAG() マクロの定義に解放処理を追加してたのを rb_ec_tag_state() 内に移動しています。race condition があったようです。
