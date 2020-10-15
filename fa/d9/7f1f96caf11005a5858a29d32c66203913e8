@@ -1,0 +1,1 @@
+T_OBJECT 型など struct RVALUE 構造体内にインスタンス変数テーブルのある型以外のオブジェクトのインスタンス変数を管理するためのテーブル generic_ivtbl() も Ractor 間で共有されているので RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で保護するようにしています。
