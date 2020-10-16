@@ -1,0 +1,1 @@
+d386a58f6f1865aaa35eda5af55cff3ff3cca4ca の bundler の更新のうち bundler のテスト spec/bundler/bundler/cli_spec.rb の変更部分がテストが通らなくなったそうなので revert しています。
