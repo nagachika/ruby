@@ -1,0 +1,1 @@
+misc/lldb_cruby.py に ruby レベルのバックトレースを表示する rbbt コマンドを追加しています。
