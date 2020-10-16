@@ -1,0 +1,1 @@
+Encoding#replicate に渡された encoding 名が最大長 63 bytes を超えてた時に ArgumentError を発生させるようにしています。
