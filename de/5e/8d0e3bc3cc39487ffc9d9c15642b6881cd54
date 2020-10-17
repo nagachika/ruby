@@ -1,0 +1,1 @@
+標準添付ライブラリ rinda のテストで Thread.abort_on_exception を書き換えてるところがあったので teardown で復旧するようにしています。またタイムアウトが発生した時にデバッグのためにその時点で存在する全ての Thread の backtrace を表示するようにしています。
