@@ -1,0 +1,1 @@
+VM 命令列の peephole optimization で後置(じゃなくてもかも) until と unless を組み合わせた時に pop 命令で VM スタックの調整の不具合でチェックにひっかかって異常終了してしまう不具合を修正しています。 [ruby-core:97538]  [Bug #16695]
