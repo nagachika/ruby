@@ -1,0 +1,1 @@
+Encoding を管理する global_enc_table という変数の型の構造体のメンバーの配列 list を default_list という固定長の配列と additional_list という可変長の配列に分解して、DEFAULT_ENCODING_LIST_CAPA (128 に定義されています)までの Encoding は固定長配列に入れるようにして、ここを触る限りは Ractor 間の排他のためのロックを省略できるようにしています。通常のアプリケーションで default_list を超える Encoding を扱うことはまずなさそうなのでこれでほぼ Encoding を触るためのロックを排除できるということみたいです。
