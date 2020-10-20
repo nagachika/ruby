@@ -1,0 +1,1 @@
+708413807ae958afb79257b18475424e0a8a4a56 で復活させた ext/digest/digest.gemspec の再編集や tool/sync_default_gems.rb の対応を追加して digest の default gem 化を完了させています。
