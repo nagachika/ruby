@@ -1,0 +1,1 @@
+de17e2dea137bc5ba9f00e3acec32792d0dbb2eb の Encoding の管理テーブルを固定長の配列と可変長の部分に分けて Ractor 間の排他のためのロックを減らすようにしたのを revert しています。固定長部分の更新と参照で race condition がありえるのでダメだったみたいです。
