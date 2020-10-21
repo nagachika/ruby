@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.each_object は Object Space 内の(つまり VM 内のメモリ管理されてる全) オブジェクトを iterate しますが、Ractor 間で共有不可なオブジェクトは別の Ractor から見えてはまずいので、sharable なオブジェクトだけ yield するようにしています。ううむ、なるほど。 [ruby-core:100441] [Feature #17270]
