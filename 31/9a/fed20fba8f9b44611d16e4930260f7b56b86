@@ -1,0 +1,1 @@
+pthread の thread local storage を使うよりも __thread や _Thread_local といった修飾子でコンパイラに変数を thread local storage 扱いさせるほうが高速らしくこれを使うようにしています。ただ Darwin ではこの方法の TLS は共有ライブラリをまたいで共有できない? らしいので rb_execution_context_t の設定に独自に変数にして関数で設定/参照するようにしています。 https://github.com/ruby/ruby/pull/3665
