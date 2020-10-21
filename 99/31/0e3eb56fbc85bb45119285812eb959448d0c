@@ -1,0 +1,1 @@
+グローバル変数のような見た目の特殊変数たちを Ractor の導入に伴なって Process 単位/Ractor 単位/Thread 単位と locality の階層が増えたので $DEBUG, $-d, $VERBOSE, $stdin などを Ractor 単位の特殊変数として定義しています。このために rb_gvar_ractor_local() という関数が導入されています。 [ruby-core:100439] [Bug #17268]
