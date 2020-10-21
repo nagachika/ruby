@@ -1,0 +1,1 @@
+bundled gems に typeprof を追加しています。また make test-bundled-gems の前準備として rbs.gem もインストールする対象に追加しています。
