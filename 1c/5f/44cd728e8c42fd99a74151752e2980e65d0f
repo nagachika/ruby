@@ -1,0 +1,1 @@
+.travis.yml から GitHub Actions でカバーされているテストなどをいくつか削除しています。
