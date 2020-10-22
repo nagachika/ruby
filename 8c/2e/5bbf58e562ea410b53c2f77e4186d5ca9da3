@@ -1,0 +1,1 @@
+rb_intern() で文字列から対応する ID を得るのに実行するたびに再計算しないように rb_intern_const() をかわりに呼ぶところで、面倒なので関数内やファイル内の先頭で #define rb_intern(str) rb_intern_const(str) みたいに定義して preprocessor で置換して対応してたのを、ちゃんと明示的に rb_intern_const() を呼ぶように一括でリファクタリングしています。うん、まあそうですよね。一括変更は backport 時にも影響するのでよく憶えておこう。
