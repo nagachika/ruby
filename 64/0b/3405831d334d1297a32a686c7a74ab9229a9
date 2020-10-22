@@ -1,0 +1,1 @@
+GitHub Actions で make の依存関係更新をチェックする .github/workflows/check_dependencies.yml  で実行環境として macOS も使うようにしています。なるほど、環境によって依存関係変わることもあるからか。けどその場合って自動更新の結果はどっちを利用するんだろ。
