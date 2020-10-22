@@ -1,0 +1,1 @@
+確保したてのオブジェクトを保持する Transient Heap の構造体 struct transient_heap_block からメンバー size を削除して、確保できるサイズ(まとめて確保するサイズからこの構造体自体のサイズを削ったのこり)は静的に決まるのでマクロ TRANSIENT_HEAP_USABLE_SIZE を導入してこちらを使うようにしています。
