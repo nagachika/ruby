@@ -1,0 +1,1 @@
+Integer#step などが返す Enumerator::ArithmeticSequence を Array#[] などの引数に受付けるようにしています。おお、これは便利そうですね。 https://github.com/ruby/ruby/pull/3241 [ruby-core:98034] [Feature #16812]
