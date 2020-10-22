@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON.parse の freeze オプションを追加して、parse 結果の全オブジェクトを freeze したものを返すようにしています。String は(最近の ruby なら) String#-@ を呼んで fstring に(つまり同じ内容と Encoding の文字列なら共有)します。
