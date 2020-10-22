@@ -1,0 +1,1 @@
+5a77e90fe843a2bfbde3df1867f142efb0ffe9fe の続き。 enumerator.c の InitVM_Enumerator() でも rb_intern() を使ってたのを rb_intern_const() を利用するように変更しています。大量にあるのでマクロを使って ID2SYM() まで含めてまとめて変換するようにしています。
