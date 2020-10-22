@@ -1,0 +1,1 @@
+8c2e5bbf58e562ea410b53c2f77e4186d5ca9da3 に追加してまだ rb_intern() を Init_xxx() な関数で利用していたところも rb_intern_const() を使うように変更しています。
