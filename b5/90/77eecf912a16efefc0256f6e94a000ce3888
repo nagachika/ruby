@@ -1,0 +1,1 @@
+構造体 rb_objspace_t のメンバー mark_func_data を削除して、かわりに during_gc のフラグをみて mark 処理中かどうかのチェックをするようにしています。Ractor 導入により GC 時の mark 処理でオブジェクトの参照を辿るのが Ractor-safe でないため、プロセス(VM)全体で GC 中かどうかのフラグを立てて、mark_func_data の内容は Ractor 毎の rb_ractor_t::mfd というメンバーのほうに移動しています。そういえば Ractor と GC の関係ってどうなってるんだろう。mark 処理は [Feature #17100] をみると全 Ractor が barrier で足並みを揃えて並列で実行するみたいだけど。
