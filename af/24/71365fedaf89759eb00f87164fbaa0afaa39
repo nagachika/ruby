@@ -1,0 +1,1 @@
+Ractor のデバッグ用の rb_ractor_confirm_belonging() というオブジェクトの所属をチェックする関数で Ractor shareable なオブジェクトなら rb_ractor_belonging() が返した id が実行中の Ractor と異なっていても異常終了させないようにしています。
