@@ -1,0 +1,1 @@
+Kernel#Rational で 2つの引数がそれぞれ to_r が定義されてないけど to_int は呼べる、という時には to_int で変換してから扱うようにしています。 https://github.com/ruby/ruby/pull/3684 [ruby-core:75995] [Bug #12485]
