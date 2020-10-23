@@ -1,0 +1,1 @@
+ractor.c の frozen_shareable_p() のリファクタリング。 switch 文で書いてたのをシンプルな if 文に変更したり BUILTIN_TYPE() のかわりに RB_TYPE_P() を使うようにしたり。
