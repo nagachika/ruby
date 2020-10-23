@@ -1,0 +1,1 @@
+89f6644de71b7dfbdbdba216a8667b9c3348203b の続き?のリファクタリング。 主に ractor.c の obj_traverse_i() のコールバック関数 struct obj_traverse_data::enter_func の戻り値を enum で定数として定義してマジックナンバーを直書きしていたのをやめています。
