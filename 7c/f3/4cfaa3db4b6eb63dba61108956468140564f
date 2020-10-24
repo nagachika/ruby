@@ -1,0 +1,1 @@
+GitHub Actions の workflow 設定 .github/workflows/spec_guards.yml を追加しています。Travis CI でやっていたテストの一部の古い ruby で rubyspec を実行するというテストを移植しているようです。
