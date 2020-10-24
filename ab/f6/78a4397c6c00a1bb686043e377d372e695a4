@@ -1,0 +1,1 @@
+GC.compact と MJIT の併用で MJIT が参照する call cache 内のオブジェクトが移動されてしまって異常終了することがあるらしく、MJIT を GC 中に停止させるためのロックを取得/解放する mjit_gc_start_hook()/mjit_gc_exit_hook() で in_gc を真偽値ではなくて数値にして再帰的ロックがかけられるようにして、gc_compact() で garbage_collect() と gc_compact_after_gc() を呼ぶ全体にもロックをかけて gc_compact() による pin down とその後の移動の処理のあいだのロックが外れる瞬間に MJIT が動かないようにしています。
