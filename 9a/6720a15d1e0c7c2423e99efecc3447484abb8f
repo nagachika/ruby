@@ -1,0 +1,1 @@
+6cb6d5abc36ede9d5158c2cd90734134838e6bfb や 1484b786aee8d411a9e2278ac6d6e44aedbf6662 で mjit_capture_cc_entries() に追加していたデバッグ用の assert() を削除しています。 abf678a4397c6c00a1bb686043e377d372e695a4 の修正がここで調査したかった不具合の修正になってるみたいです。
