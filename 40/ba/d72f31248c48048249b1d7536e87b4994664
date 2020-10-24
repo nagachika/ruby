@@ -1,0 +1,1 @@
+abf678a4397c6c00a1bb686043e377d372e695a4 の MJIT を GC 中に停止するためのロックを解放する mjit_gc_exit_hook() で in_gc が負になる(0の時に呼ばれた)場合に無視するのではなく RUBY_ASSERT_ALWAYS() で異常終了させるようにしています。 https://github.com/ruby/ruby/pull/3687
