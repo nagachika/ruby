@@ -1,1 +1,1 @@
-Numeric#step や Range#step の第2引数のステップ幅に 0 を許容するようにしています。キーワード引数の by で指定する時は 0 が許容されているので、それに合わせるためみたいです。 [ruby-core:91324] [Feature #15573]
+Numeric#step や Range#step の第2引数のステップ幅に 0 を指定した時に Enumerator を返す場合でもエラーにするようにしています。 [ruby-core:91324] [Feature #15573]
