@@ -1,0 +1,1 @@
+7cf34cfaa3db4b6eb63dba61108956468140564f で新規追加された GitHub Actions の workflow .github/workflows/spec_guards.yml で ruby/setup-ruby アクションに bundler: none オプションをつけるようにしています。対象のバージョンが既に全て bundler 同梱版だから bundler のインストール不要ということかな。
