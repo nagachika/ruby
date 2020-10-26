@@ -1,0 +1,1 @@
+rubyspec の C API テスト用の拡張ライブラリで #pragma GCC diagnostic という pragma を使ってるところが MSVC で動かないということで __GNUC__ または __clang__ の時だけ使うようにしています。
