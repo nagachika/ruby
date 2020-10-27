@@ -1,0 +1,1 @@
+rubyspec に ruby 実装された builtin function を利用したメソッド実装が UnboundMethod#source_location や Kernel#caller や Kernel#caller_locations でスタックトレースからソースコード位置を取得された時に <internal:〜> みたいな表示になることを確認するテストを追加しています。
