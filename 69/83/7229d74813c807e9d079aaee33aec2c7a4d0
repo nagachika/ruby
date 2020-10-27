@@ -1,0 +1,1 @@
+Kernel#Rational や Rational.convert で 2つの引数から Rational を作る時に両方の引数が Integer 以外の Numeric だった時にまず第1引数を Kernel#Rational で変換してから Numeric#/ メソッドで割るようにしています。第1引数が BigDecimal の時に結果が Integer の時と一致しなくなる場合があったようです。 https://github.com/ruby/ruby/pull/3702 [ruby-core:96942] [Bug #16518]
