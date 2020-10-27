@@ -1,0 +1,1 @@
+rubyspec の C API テスト用の拡張ライブラリで他にも #pragma GCC diagnostic を使っているところがあったので #ifdef __GNUC__ でくくるようにしています。
