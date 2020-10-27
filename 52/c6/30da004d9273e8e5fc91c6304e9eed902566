@@ -1,0 +1,1 @@
+pattern match の後置 in による 1行 pattern match を in のかわりに "=>"  を使うように変更しています。ちょっと右代入っぽくなりますね。というか、このために右代入は入らないことになるようです。 https://github.com/ruby/ruby/pull/3703 [ruby-core:100371] [Feature #17260]
