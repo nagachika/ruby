@@ -1,0 +1,1 @@
+common.mk のコンパイル時にバイナリ内に埋め込む prelude の ruby スクリプトを列挙する変数 COMPILE_PRELUDE  に ruby_vm/helpers/c_escape.rb も追加しています。template/prelude.c.tmpl が使ってるからとのこと。
