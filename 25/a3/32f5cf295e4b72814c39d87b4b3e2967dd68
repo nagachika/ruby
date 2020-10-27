@@ -1,0 +1,1 @@
+99e067eac6fd2babcdd56142493ef0396744af85 で MSVC  でのコンパイル向けに修正してた #pragma の利用を削除して getpid(3) を wrap した ubf_pid() という関数を定義して使うようにして #pragma による警告抑制を不要にしています。
