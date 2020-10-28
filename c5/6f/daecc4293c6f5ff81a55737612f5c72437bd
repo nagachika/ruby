@@ -1,0 +1,1 @@
+ac69849e49982ea83036c04c5d5f7245e3956a49 で clear_method_cache_by_id_in_class() に追加してた CI でのエラーのデバッグ用のチェックと rb_bug() を削っています。
