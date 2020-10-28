@@ -1,0 +1,1 @@
+.github/workflows/check_dependencies.yml という GitHub Actions の設定で WAITS という環境変数をセットしていたのを削っています。もう使われてないらしい。
