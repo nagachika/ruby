@@ -1,0 +1,1 @@
+標準添付ライブラリで Object#send を使ってたところを用途によって Object#public_send か Object#__send__ を使うように書きかえています。
