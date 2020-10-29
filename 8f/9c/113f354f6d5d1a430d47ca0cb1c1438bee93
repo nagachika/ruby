@@ -1,0 +1,1 @@
+Object#__send__ によるメソッド起動のベンチマーク benchmark/vm_send.yml に引数が Symbol リテラルではなく変数経由で渡された時のベンチマークも追加しています。
