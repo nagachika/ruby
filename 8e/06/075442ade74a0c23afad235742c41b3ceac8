@@ -1,0 +1,1 @@
+しかし 379a5ca539af0e954b1cdf63b9365ad208b9c7f3 で修正した typo は did_you_mean で検出させるための意図的なものだったので revert しています。
