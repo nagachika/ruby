@@ -1,0 +1,1 @@
+compile.c のメソッド呼び出し系のスクリプトをコンパイルする compile_call() から ruby 実装による組み込みメソッドからの builtin function 呼び出しの処理をしている部分を compile_builtin_function_call() という関数に切り出すリファクタリング。 https://github.com/ruby/ruby/pull/3711
