@@ -1,0 +1,1 @@
+0bbbb5a6578fc3c6ebfb2150a0fffe96880ae515 や 2c19c1484abda749540c5865de4dce5a47fc8f0f と同様に obj_free() でも T_OBJECT 型オブジェクトの flags に ROBJECT_EMBED が立っている時のポインタの NULL チェックを削っています。
