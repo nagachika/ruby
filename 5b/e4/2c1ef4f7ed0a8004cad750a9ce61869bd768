@@ -1,0 +1,1 @@
+2c19c1484abda749540c5865de4dce5a47fc8f0f と同様で、0b81a484f3453082d28a48968a063fd907daa5b5 で T_OBJECT 型のオブジェクト作成時に最初から flags に ROBJECT_EMBED を立ててインスタンス変数は埋め込みで管理しているという体になっているので ROBJECT_IVPTR() は常に有効なポインタを返すので NULL チェックを削っています。
