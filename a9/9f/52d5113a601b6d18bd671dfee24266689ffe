@@ -1,0 +1,1 @@
+5be42c1ef4f7ed0a8004cad750a9ce61869bd768 と同様に gc_ref_update_object() でも T_OBJECT 型オブジェクトの ROBJECT_IVPTR() の NULL チェックを削っています。
