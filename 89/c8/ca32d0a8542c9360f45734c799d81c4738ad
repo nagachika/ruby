@@ -1,0 +1,1 @@
+bootstraptest/test_ractor.rb に Ractor 間で Proc オブジェクトを共有するテストを追加しています。
