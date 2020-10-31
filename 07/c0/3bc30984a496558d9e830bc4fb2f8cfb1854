@@ -1,0 +1,1 @@
+構造体 struct iseq_compile_data のメンバーに isolated_depth というのを追加して、rb_iseq_new_with_opt() や prepare_iseq_build() の引数で指定し Proc.new のブロック外のローカル変数へのアクセスの禁止のチェックを強化しているようですが、Proc#isolate 自体がまだ入ってないので実効性はないのかな。
