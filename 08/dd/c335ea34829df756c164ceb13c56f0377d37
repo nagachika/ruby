@@ -1,0 +1,1 @@
+rb_thread_wait_for_single_fd() で待ち行列からの要素削除が Ractor 間の競合がありえたので RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() での排他を追加しています。
