@@ -1,0 +1,1 @@
+5dc107b03f5cf32656a5308574b90458486c633c で導入した iseq_optimize_after_set_sequence() で未使用のローカル変数があったのを削っています。
