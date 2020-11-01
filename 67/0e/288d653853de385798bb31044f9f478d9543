@@ -1,0 +1,1 @@
+rb_str_new_static()、rb_usascii_str_new_static()、rb_utf8_str_new_static() などの関数のヘッダでの prototype 宣言で仮引数名を明示するスタイルにしています。またコメントを追加してこれらの関数が C の文字列として NUL 文字の終端ぶんのメモリ領域を含んでいることを期待していることを追記しています。
