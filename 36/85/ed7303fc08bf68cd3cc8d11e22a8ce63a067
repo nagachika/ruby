@@ -1,0 +1,1 @@
+compile.c の iseq_set_sequence() で ISEQ_ELEMENT_ADJUST で sp の調整は常に行うようにしています。
