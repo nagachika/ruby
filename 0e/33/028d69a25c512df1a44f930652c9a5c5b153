@@ -1,0 +1,1 @@
+rubyspec で experimental warning を出すテストとして pattern match が使われていたところを b60153241121297c94de976419d421683da4d51b の追随で一行 pattern match 記法を使うように変更しています。
