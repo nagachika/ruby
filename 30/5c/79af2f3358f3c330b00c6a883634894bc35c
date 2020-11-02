@@ -1,0 +1,1 @@
+拡張ライブラリ socket の AIX でのビルドのため Solaris で ext/socket/rubysocket.h の T_DATA  というマクロを undef しているのを AIX でも有効にしています。システムヘッダに同じ名前のマクロが定義されているようです。
