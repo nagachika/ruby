@@ -1,0 +1,1 @@
+pattern match はまだ experimental warning が出てましたがついに警告が出ないようにしています。ただし最近追加された find pattern と最近記法が変更になった一行 pattern match の構文はまだ experimental warning が出るようにしています。
