@@ -1,0 +1,1 @@
+pattern match の構文の struct NODE の 3つの子 node へのポインタの利用のしかたを変更しています。pconst を最初のノードに揃えるように u1 <-> u2 の入れ替えをしています。
