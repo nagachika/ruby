@@ -1,0 +1,1 @@
+parse.y の parser_get_bool() で strcasecmp(3) を直接使っていたところを STRCASECMP() マクロを利用するようにしています。 STRCASECMP() の実体は st.c で定義されている locale の影響を受けない独自バージョンの実装のようです。
