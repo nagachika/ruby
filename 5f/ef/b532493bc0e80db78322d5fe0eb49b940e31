@@ -1,0 +1,1 @@
+ractor_copy() という関数で Marshal.dump を使ったオブジェクトのコピーを行なっていたのを db7a3b63bae810a03b19b5577ded1403bb789185 で導入した rb_obj_traverse_replace() を利用してコピーするようにしています。
