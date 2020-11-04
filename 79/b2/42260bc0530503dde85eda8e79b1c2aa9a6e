@@ -1,0 +1,1 @@
+parse.y で magic comment の frozen-string-literal に不正な値が指定されてた時の警告を rb_compile_warning() を直接読んでたのを rb_warning2() というマクロ経由で呼ぶようにしています。拡張ライブラリ ripper で parse した時に警告を正しく扱えるようにするたみみたいですね。
