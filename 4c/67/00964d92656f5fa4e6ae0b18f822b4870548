@@ -1,0 +1,1 @@
+Travis-CI でのテストから clang の ASAN/MSAN/UBSAN などのチェック機能を有効にしたテストの実施を削っています。
