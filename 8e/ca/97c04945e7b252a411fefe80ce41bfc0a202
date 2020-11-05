@@ -1,0 +1,1 @@
+Travis-CI の BASERUBY を 2.5 の ruby でビルドするテストを GitHub Actions に移植しています。ついでに 2.2 以降のバージョン全てを BASERUBY にするテストするようにしているようです。
