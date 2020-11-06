@@ -1,0 +1,1 @@
+ee7cc6ac35cfb056b3946b1dcd6d4d5a140ccacf で標準添付ライブラリ ostruct の OpenStruct#marshal_load を public に戻す変更を revert しています。元々 alias にした時に accidental に private になったから戻したという変更みたいでしたが、なんでかな。
