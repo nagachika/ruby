@@ -1,0 +1,1 @@
+68a3a2d90f96b46e5c20659ea3eef3f554fbf542 の変更は revert して呼び元の gc_verify_compaction_references() 内で page の追加などを行なうようにしています。また gc_verify_compaction_references() の未使用の引数は消して rb_objspace_t を渡すようにしています。
