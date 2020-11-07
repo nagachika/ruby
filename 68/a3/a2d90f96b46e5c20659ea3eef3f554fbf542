@@ -1,0 +1,1 @@
+gc.c の gc_double_heap_size() および gc_sort_heap_by_empty_slots() で heap_eden の page リストを操作する時に RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で排他処理するようにしています。
