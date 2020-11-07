@@ -1,0 +1,1 @@
+gc_sort_heap_by_empty_slots() の最初に gc_rest() を呼び出して GC 完結させてたのを呼び元の gc_verify_compaction_references() で無条件に呼ぶようにしています。heap_add_pages() の前に呼ぶようにしたのがキモかな? d8da5c198348eac3d3d7a3e13dfb8a9351ed07ae で assert() にしていたのがこの修正のためかな(戻してないですが)。
