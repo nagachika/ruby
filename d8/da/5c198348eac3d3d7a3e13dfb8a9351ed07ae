@@ -1,0 +1,1 @@
+gc_sort_heap_by_empty_slots() 内の GC_ASSERT() を assert(3) に置き換えています。デバッグのためみたいですね。
