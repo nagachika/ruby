@@ -1,0 +1,1 @@
+blocking Fiber のための Scheduler を設定/参照するためのメソッド Thread#scheduler、Thread#scheduler= はやめて Fiber#scheduler、Fiber#set_scheduler を追加して Fiber の側から Scheduler を設定できるようにしています。さらに Fiber#blocking? というメソッドも追加しています。 https://github.com/ruby/ruby/pull/3742 [ruby-core:97878] [Feature #16786]
