@@ -1,0 +1,1 @@
+include/ruby/internal/gc.h の rb_gc_register_address()、rb_global_variable()、rb_gc_unregister_address()、rb_gc_register_mark_object() などの GC 関連の C API の prototype 宣言に rdoc 用コメントを追加しています。rdoc 用コメントって通常定義のところに書くんじゃないのかな。
