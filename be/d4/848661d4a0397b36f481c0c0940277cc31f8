@@ -1,0 +1,1 @@
+blocking Fiber のテストで Scheduler のインスタンス変数 @urgent に IO.pipe で生成した pipe を入れるタイミングをオブジェクト初期化時に早めています。
