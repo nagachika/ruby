@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で IPv6 の fe80: ではじまる link local address の対応を追加しています。 [ruby-core:99539] [Bug #17112]
