@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv::DNS::Requester#request_for でマッチした要素をインスタンス変数 @senders から削除するようにしています。 [ruby-core:77616] [Bug #12838]
