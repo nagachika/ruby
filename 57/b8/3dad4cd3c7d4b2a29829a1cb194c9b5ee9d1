@@ -1,0 +1,1 @@
+blocking Fiber のテストで使っている Scheduler の kernel_sleep で block メソッドを再利用するように書きかえています。duration に nil が渡された時にメインループが抜けるようになってしまっていたとのこと。
