@@ -1,0 +1,1 @@
+doc/scheduler.md のサンプルコードで Fiber.new に blocking: false を明示的に渡しているところを引数省略するようにしています。現在は省略時は blocking: false (従来の Fiber と同じ)なので。
