@@ -1,0 +1,1 @@
+thread_sync.c の sync_wakeup() で Thread に scheduler がセットされている時に rb_thread_t::status のチェックの外になっていて既に終了した Thread の fiber への切り替えが走ってしまう可能性があったのを修正しています。
