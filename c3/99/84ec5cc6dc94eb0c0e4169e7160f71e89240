@@ -1,0 +1,1 @@
+rb_thread_t::keeping_mutexes を操作する関数 thread_mutex_insert() と thread_mutex_remove() に切り出すリファクタリング。 thread_mutex_remove() のほうは切り出し元の rb_mutex_unlock_th() での処理よりも少しチェックが厳しくなっていて削除しようとする要素がリスト内にない時に対応するようにしていますね。これは意図的なんだろうか。
