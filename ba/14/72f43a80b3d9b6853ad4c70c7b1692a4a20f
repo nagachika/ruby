@@ -1,0 +1,1 @@
+標準添付ライブラリ racc の lib/racc/parserfilegenerator.rb に現在は組み込みになったので不要になっている require "enumerator" が残っていたので削除しています。
