@@ -1,0 +1,1 @@
+Array#sum や Enumerable#sum の実装のコメントで Kahan-Babuska balancing compensated summation というアルゴリズムの参考 URL の schema を https に修正しています。
