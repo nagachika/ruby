@@ -1,0 +1,1 @@
+vm.c の rb_vm_add_root_module() から未使用の引数 id を削除しています。
