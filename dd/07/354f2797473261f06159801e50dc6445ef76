@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の Win32::Importer が既に fiddle の Fiddle::Importer の別名になっているのを削除して ext/win32/lib/win32/resolv9x.rb 内で Win32::Importer を使っていたところも直接 Fiddle::Importer を参照するように変更しています。
