@@ -1,0 +1,1 @@
+Ractor の(main Thread の)終了時にまだ実行中の子 Thread があったらそれらを終了させるようにしています。 https://github.com/ruby/ruby/pull/3754
