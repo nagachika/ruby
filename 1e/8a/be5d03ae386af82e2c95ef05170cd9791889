@@ -1,0 +1,1 @@
+rb_vm_t::clock というインタプリタ全体の clock を格納するメンバーを追加して、timer thread の定期的な割り込みでインクリメントしていって、各 Thread は rb_execute_context_t::checked_clock にこの値をコピーしてこれが変化したのを検出することで time slice のための割り込み検知とするようにしています。timer thread の定期的な処理で全 Ractor への割り込みをするのが排他処理も必要で重いので変更したということでしょうか。Windows では逆にオーバーヘッドが増えるそうです。そういえば timer thread と Ractor の関係ってどうなってるんだろう。この記述からすると timer thread は VM に 1つかな。
