@@ -1,0 +1,1 @@
+debug counters に ivar_set_ic_miss_iv_hit という項目を追加して f259906eabac6038bb7c79e426c17ae850c8e017 で追加した inline cache にヒットしなかった時にカウントアップするようにしています。
