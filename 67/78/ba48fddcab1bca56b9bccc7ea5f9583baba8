@@ -1,0 +1,1 @@
+Class/Module などの定義時に GC されないように登録するのに rb_gc_register_mark_object() と rb_vm_add_root_module() で重複してたので rb_gc_register_mark_object() は削っています。
