@@ -1,0 +1,1 @@
+Ractor#close は適切なユースケースがないということで削除しています。 https://github.com/ruby/ruby/pull/3759
