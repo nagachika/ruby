@@ -1,0 +1,1 @@
+拡張ライブラリ json で Complex や Rational のために未定義だと require "complex" や require "rational" するコードが残ってたので削っています。そういえば昔は拡張ライブラリでしたね。
