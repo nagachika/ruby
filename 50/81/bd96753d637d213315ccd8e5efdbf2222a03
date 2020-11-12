@@ -1,0 +1,1 @@
+拡張ライブラリ win32 内の ext/win32/lib/win32/resolv9x.rb というファイルを削除しています。存在を知らなかったけど古い Windows での名前解決のための wrapper みたいですね。
