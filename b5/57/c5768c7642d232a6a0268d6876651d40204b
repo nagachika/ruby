@@ -1,0 +1,1 @@
+iv_index_tbl_newsize() の不要な変数を削除するリファクタリング。
