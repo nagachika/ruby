@@ -1,0 +1,1 @@
+Ractor のブロックの終端まで到達した時に既に Ractor#close_outgoing でオブジェクトの出力側を閉じている時に Ractor.yield が例外を発生して Ractor の終了処理が阻害されてたので、close 済みだったら yield の処理をしないようにしています。 [ruby-core:100744] [Bug #17310]
