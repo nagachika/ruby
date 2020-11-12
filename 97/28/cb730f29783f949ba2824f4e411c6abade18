@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の ext/win32/lib/win32/sspi.rb というライブラリで Win32API のかわりに fiddle の win32/importer を利用するように書き換えています。 Win32API は deprecated になっててかわりに fiddle を使えと警告している状態なので標準添付ライブラリ内でも利用を避けるようにしています。
