@@ -1,0 +1,1 @@
+54fb8fb62a30c7b60ab6443a62821f6f8bc479c4 の Array の rdoc 用コメントのうち Array#shuffle! が receiver を破壊的に変更することを明示したサンプルを消してたのを復活させています。
