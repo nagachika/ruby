@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date::Infinity というクラスに Comparable を include していたのを削っています。
