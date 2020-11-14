@@ -1,0 +1,1 @@
+d65f1140b94e4817fba4a37efd512c0653a0baf1 の 拡張ライブラリ date の make update-zonetab で起動されるスクリプト ext/date/update-abbr で参照する URL を引数で変更できるようにしています。
