@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の WEBrick::HTTPRequest で POST や PUT のリクエストでリクエストボディが空のものがエラーにならないように対応しています。読み込んでる socket が EOF になってたら Content-Type がなくてもエラーにならないようにしているようです。
