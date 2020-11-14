@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick の MIME タイプの拡張子の対応に .mjs というのを追加して "application/javascript" として扱うようにしています。
