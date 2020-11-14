@@ -1,0 +1,1 @@
+拡張ライブラリ date の DateTime の rdoc 用コメントに DateTime は deprecated なので Time を使いましょうと追記しています。
