@@ -1,0 +1,1 @@
+f64bea6d66335daf799c2223b7f4bc0d099424cb で 標準添付ライブラリ webrick の WEBrick::GenericServer の :ShutdownPipe オプションが設定されてなかったのを修正したのを revert しています。対応するテストが成功していないとのこと。
