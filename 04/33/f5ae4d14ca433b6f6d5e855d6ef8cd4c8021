@@ -1,0 +1,1 @@
+52bd8f6f68a45cb990a827e4a1c276251cdf471c で vm_insnhelper.h に定義を切り出した vm_call_iseq_optimizable_p() という関数がヘッダにあるのに inline 関数になってなかったので inline 修飾子を追加しています。
