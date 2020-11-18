@@ -1,0 +1,1 @@
+configure.ac を autoconf の 2.70 でうまく動かなくなってたのを修正。 https://github.com/ruby/ruby/pull/3773
