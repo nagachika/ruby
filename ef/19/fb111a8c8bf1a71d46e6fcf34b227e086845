@@ -1,0 +1,1 @@
+rb_enc_interned_str()、rb_enc_interned_str_cstr() といった fstring 用の wrapper 関数を定義して include/ruby/encoding.h で C API として公開しています。 [ruby-core:80447] [Feature #13381]
