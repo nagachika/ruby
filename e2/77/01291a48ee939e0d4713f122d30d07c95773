@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の rb_fiddle_malloc() で ruby_xmalloc() を利用して後で memset() でゼロクリアしていたのを ruby_xcalloc() を利用するようにリファクタリングしています。
