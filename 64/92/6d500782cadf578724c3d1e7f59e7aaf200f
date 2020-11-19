@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp のテストで UNIXSocket を使っているところを UNIXSocket がなかったらただの Socket.pair を使うように対応して、Windows でテストを実施しないようにしてたのを戻しています。
