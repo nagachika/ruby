@@ -1,0 +1,1 @@
+include/ruby/ractor.h を追加して Ractor 関連の拡張ライブラリが作れるようにいくつかの関数を C API 化しています。
