@@ -1,0 +1,1 @@
+5e3259ea7490a2542d78c433eb8c9d44c7819e61 で追加した include/ruby/ractor.h の rb_ractor_shareable_p_continue() の宣言はコメントで直接呼ぶなって書かれてましたが、利用している inline 関数の中で宣言することでヘッダを include しただけで宣言がみえるのを避けるようにしています。
