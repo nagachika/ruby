@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の C の型を指定する定数に Fiddle::TYPE_CONST_STRING や Fiddle::SIZEOF_CONST_STRING を追加しています。 const char * に対応する型のようです。
