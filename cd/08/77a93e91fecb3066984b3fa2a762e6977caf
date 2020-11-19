@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper.lex, Ripper.tokenize, Ripper.sexp などにキーワード引数 raise_errors を追加して、これに true を指定するとエラー時に戻り値で返すかわりに SyntaxError 例外を発生させるようにしています。 [ruby-core:100470] [Feature #17276]
