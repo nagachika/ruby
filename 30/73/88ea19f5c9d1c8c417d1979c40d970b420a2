@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に Fiddle::Pinned というクラスを導入して、確保したオブジェクトを GC.compact で移動できない pin されたオブジェクトにする参照を作れるようにしています。また fiddle 内で使う例外のベースクラスとして Fiddle::Error という例外クラスを導入しています。 https://github.com/ruby/fiddle/pull/44
