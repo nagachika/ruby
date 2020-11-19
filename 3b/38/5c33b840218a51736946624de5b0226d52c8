@@ -1,0 +1,1 @@
+821cfa74cb6c5b778928e880c08d61265e539c60 の続きで fiddle の gemspec ファイルでの spec.metadata の設定で freeze された文字列リテラルを代入するとその後 String#sub! で置換しようとしてエラーになるそうなので String#+@ を使って dup しておくようにしています。
