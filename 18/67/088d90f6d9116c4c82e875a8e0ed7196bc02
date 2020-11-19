@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の fiddle/import.rb で Fiddle.dlopen から発生した Fiddle::DLError を捕捉してメッセージを変えて再 raise してたのをやめています。
