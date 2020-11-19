@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の value_to_generic() が戻り値が void 型なのに不要な return 文が書かれてたのを削除しています。
