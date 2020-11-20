@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile_file でファイルの内容を読み込む時の Encoding の処理を Encoding.default_external を考慮するようにしています。ファイルから AST にするまでの処理に利用する関数を rb_parser_compile_file_path() から rb_parser_load_file() に変更しています。他にも magic comment の解釈や shebang の解釈なども行なわれてそうです。なんか副作用あるものはないかな。 [ruby-core:100726] [Bug #17308]
