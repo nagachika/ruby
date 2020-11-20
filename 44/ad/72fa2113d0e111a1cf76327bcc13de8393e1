@@ -1,0 +1,1 @@
+4a5c42db88d30532bd4fbcdff89615ebf961d2a2 で追加した RubyVM::InstructionSequence.compile_file のテストで Encoding.default_external を一時的に差し替えるのは EnvUtil.with_default_external というヘルパーメソッドがあったのでそれを使うようにリファクタリングし、また警告が出力されないことや SyntaxError が発生しないことを確認する assertion を追加しています。
