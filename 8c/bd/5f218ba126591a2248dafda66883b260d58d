@@ -1,0 +1,1 @@
+d79cdcb113ed63705f857ac2a7c323db398c4256 と c11c25baefa996fd16ac6b03e2c4cbe8a98b7237 の続き。 flo_prev_or_next() を flo_nextafter() に改名しています。
