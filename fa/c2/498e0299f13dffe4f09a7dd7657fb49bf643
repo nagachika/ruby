@@ -1,0 +1,1 @@
+defined?(super) が respond_to_missing? で動的に respond_to? に反応するようにされてた時にそれで定義されてるとみなして "super" を返すようにしています。 method_missing は元からみてたんですね。なおこのために basic_obj_respond_to() の引数にオブジェクトの class も渡すようにしています。 どうでもいいですけどコミットログの先頭にチケットの参照を書くのは新しいスタイルですね。 [ruby-dev:49013] [Bug #11213]
