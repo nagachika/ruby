@@ -1,0 +1,1 @@
+d79cdcb113ed63705f857ac2a7c323db398c4256 の再修正。フラグではなく nextafter() に渡す第2引数を直接渡すように flo_prev_or_next() の引数を変更しています。
