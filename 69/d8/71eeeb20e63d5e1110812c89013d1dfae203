@@ -1,0 +1,1 @@
+cd0877a93e91fecb3066984b3fa2a762e6977caf や 1800f3fa5c29515113ecdcc5695e8a96f462b74c の再修正。 Ripper.lex や Ripper.tokenize のクラスメソッドで変更/修正していたのをさらに内部の Ripper::Lexer のインスタンスメソッドに raise_errors キーワード引数を追加しています。 [ruby-core:100470] [Feature #17276]
