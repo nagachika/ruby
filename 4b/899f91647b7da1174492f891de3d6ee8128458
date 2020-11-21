@@ -1,0 +1,1 @@
+tool/downloader.rb で GNU のサイトからの config.guess や config.sub のダウンロード時に jsDelivr の CDN が使えなかった時に GitHub のミラー? を利用するように fallback を追加しています。
