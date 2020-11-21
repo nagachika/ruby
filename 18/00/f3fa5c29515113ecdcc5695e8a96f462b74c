@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper.lex と Ripper.tokenize で渡されたスクリプトが途中で SyntaxError になっても最後の token  まで返すようにしています。 [ruby-core:100470] [Feature #17276]
