@@ -1,0 +1,1 @@
+Ractor の導入により inline cache のアクセスが排他されるようになったので MJIT の worker に inline cache をコピーするための仕組みが不要になったそうで削除しています。 https://github.com/ruby/ruby/pull/3799
