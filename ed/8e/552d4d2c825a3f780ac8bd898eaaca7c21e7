@@ -1,0 +1,1 @@
+MIT の C ソースコードをまとめて 1つの共有ライブラリにコンパイルする処理の関数 compact_all_jit_code() で compile_compact_jit_code() の呼び出しを CRITICAL_SECTION_START()/CRITICAL_SECTION_FINISH() で排他してるところに入れてたのを外に出しています。 in_compact という static 変数をセットする時だけ排他処理すれば充分みたいだったので。
