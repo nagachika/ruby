@@ -1,0 +1,1 @@
+mjit_worker.c の convert_unit_to_func() で未使用になってた .o ファイル名の生成を削除しています。
