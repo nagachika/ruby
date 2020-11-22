@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper.tokenize と Ripper.lex の rdoc 用コメントで SyntaxError になった時に残りのトークンが無視されると記述されていたのを 1800f3fa5c29515113ecdcc5695e8a96f462b74c で挙動が変化したのでそれに追随して変更しています。 [ruby-core:100470] [Feature #17276]
