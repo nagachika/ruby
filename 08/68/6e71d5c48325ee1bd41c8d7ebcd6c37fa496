@@ -1,0 +1,1 @@
+Module#include で Module を継承ツリー内に差し込む位置がその Module に prepend されている Module が既に対象の Class/Moduleに prepend されてると対象の Class/Module の前に入ってしまっていたのを修正しています。なるほどなぁ。かなり長いこと置いておかれたチケットなので 3.0 で変更してみようということかな。 [ruby-core:52208] [Bug #7844]
