@@ -1,0 +1,1 @@
+58325daae3beefda13ed100782cd19a89cc68771 の String のクラスで子クラスから呼ばれても String を返すようにする変更について NEWS に追記しています。 [ruby-core:68084] [Bug #10845]
