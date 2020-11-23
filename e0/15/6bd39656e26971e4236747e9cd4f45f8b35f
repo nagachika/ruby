@@ -1,0 +1,1 @@
+rb_threadptr_root_fiber_setup() から rb_fiber_init_mjit_cont() の呼び出しを追加しています。その他コメントの typo 修正や TRUE のかわりに true を使うようにするリファクタリングなど。
