@@ -1,0 +1,1 @@
+rubyspec の C API テスト用の拡張ライブラリで未仕様の変数の警告除去のための preprocessor 分岐追加。
