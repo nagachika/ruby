@@ -1,0 +1,1 @@
+make dist 時に tool/make-snapshot の引数に DISTOPTS という変数を渡すことで環境変数でオプションを渡せるようにしています。
