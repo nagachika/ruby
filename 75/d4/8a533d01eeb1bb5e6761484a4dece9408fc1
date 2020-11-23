@@ -1,0 +1,1 @@
+rubyspec の C API  テスト用の拡張ライブラリのコンパイル時に DLFLAGS のかわりに XDLDFLAGS を参照するようにしています。
