@@ -1,0 +1,1 @@
+defs/gmake.mk に rubyspec の C API のテスト用の拡張ライブラリをビルドするためのターゲット rubyspec-capiext というのを追加しています。
