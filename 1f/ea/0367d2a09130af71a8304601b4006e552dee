@@ -1,0 +1,1 @@
+VM 用のコード生成のテンプレート tool/ruby_vm/views/_mjit_compile_send.erb で if 文の条件に false を混ぜて常に通らないようにしているブランチのところを cfunc_debug という変数経由で false を評価させるようにしてさらにコメントでデバッグ時に true にしてデバッグ出力を有効にするための分岐だというのを説明しています。
