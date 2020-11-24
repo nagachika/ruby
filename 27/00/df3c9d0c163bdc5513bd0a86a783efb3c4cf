@@ -1,0 +1,1 @@
+0a2b9876968dcfd7015dff09d5e44dcbf5668244 の再修正。 mjit.c で #include "ruby/internal/config.h" を USE_MJIT のチェックの中に入れてたのは revert しています。ここで USE_MJIT が定義されてるのでやっぱり必要だったとのこと。他にも #include してるところで同じコメントを追記してうっかり移動しないようにしています。
