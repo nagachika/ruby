@@ -1,0 +1,1 @@
+ruby プロセスの起動時に実行される process_options() で UTF-8 の Encoding の初期化を最初に行なうようにしています。
