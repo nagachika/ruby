@@ -1,0 +1,1 @@
+mjit.c で ruby/internal/config.h を #include するのを MJIT  のサポートつきでビルドされて USE_MJIT が真のときだけになるようにしています。また mjit.h でも vm_core.h を MJIT サポートありの時だけ #include するようにしています。
