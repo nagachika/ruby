@@ -1,0 +1,1 @@
+irb でコード片がコンパイル可能かチェックするのに RubyVM::InstructionSequence.compile を使っていたのを可搬性のために eval と BEGIN ブロックを使うように変更しています。 https://github.com/ruby/irb/issues/133
