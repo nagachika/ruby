@@ -1,0 +1,1 @@
+internal/mjit.h の内容を mjit.h にマージして common.mk の依存関係から internal/mjit.h を消しています。
