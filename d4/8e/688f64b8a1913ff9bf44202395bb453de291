@@ -1,0 +1,1 @@
+doc/csv/recipes/parsing.rdoc にさらに CSV.parse の unconverted_fields オプションと converters のサンプルを追記しています。
