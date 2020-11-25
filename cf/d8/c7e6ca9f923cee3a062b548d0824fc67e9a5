@@ -1,0 +1,1 @@
+mjit.c の mjit_cont_new() で struct mjit_cont 構造体のメモリ確保に ZALLOC() を使っていたのを calloc(3) を直接呼ぶようにしています。ZALLOC() はメモリ不足の時に GC を起動するのでそれがまずかったみたいです。
