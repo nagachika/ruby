@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV::Row#header_row?, #field_row?, #headers, #field, #fetch, #has_key? などのメソッドの rdoc 用コメントの追記。
