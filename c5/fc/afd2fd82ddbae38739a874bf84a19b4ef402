@@ -1,0 +1,1 @@
+ doc/csv/recipes.rdoc をファイル分割して  doc/csv/recipes ディレクトリ化に配置するようにしています。
