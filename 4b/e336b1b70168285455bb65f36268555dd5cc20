@@ -1,0 +1,1 @@
+doc/csv/recipes.rdoc にさらに CSV.parse の conoverter オプションを使った例を追記しています。
