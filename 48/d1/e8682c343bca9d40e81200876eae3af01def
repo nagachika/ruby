@@ -1,0 +1,1 @@
+78c40e658848e762b20f069042b5ec4eb853d330 の続きで 拡張ライブラリ zlib の extconf.rb で Windows 環境の mswin64 では外部ライブラリの zlib にパッチを当てるようにしています。
