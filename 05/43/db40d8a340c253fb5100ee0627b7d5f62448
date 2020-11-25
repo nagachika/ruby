@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV::Row#initialize_copy の戻り値が super の戻り値から変化してしまっていたので修正しています。
