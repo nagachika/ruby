@@ -1,0 +1,1 @@
+cfd8c7e6ca9f923cee3a062b548d0824fc67e9a5 の追加修正。 ZALLOC() を calloc(3) に変えたため NULL が返る可能性があるので、チェックして rb_memerror() を呼ぶようにしています。例外発生は OK なのか。
