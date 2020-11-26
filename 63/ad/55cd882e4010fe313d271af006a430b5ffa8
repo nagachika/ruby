@@ -1,0 +1,1 @@
+GC.auto_compact=true で GC の実行時に自動的に GC.compact も実行できるようになってましたが、mprotect(3) や VirtualProtect() によるメモリ領域保護が ruby で使っている heap の page サイズにマッチしない環境ではこれがうまくいかないので設定しようとすると NotImplementedError を発生させるようにしています。 [ruby-core:100715] [Bug #17306]
