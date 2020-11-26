@@ -1,0 +1,1 @@
+490b57783d80f0c5f7882c66d9fb6aa02713c9a5 と 63ad55cd882e4010fe313d271af006a430b5ffa8 の GC.compact のための page 保護に関する変更を revert しています。なんでだろう。
