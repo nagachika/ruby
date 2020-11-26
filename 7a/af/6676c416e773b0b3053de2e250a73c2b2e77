@@ -1,0 +1,1 @@
+オブジェクトの確保を一時的に保持する Transient Heap から ObjectSpace の heap に移動する transient_heap_evacuate() の先頭に rb_vm_barrier() を追加して複数 Ractor 利用時に全 Ractor の実行を一時止めるようにしています。RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で排他はすでにしているけどそれでは不足ということは transient_heap_evacuate() の内容を同時に実行してはいけないというだけではなくて他の Ractor が任意のオブジェクトを操作するのがだめということかな。
