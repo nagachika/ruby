@@ -1,0 +1,1 @@
+test/unit の並列テスト時の worker の終了処理で例外を Exception#full_message でバックトレースつきで出力するようにしています。
