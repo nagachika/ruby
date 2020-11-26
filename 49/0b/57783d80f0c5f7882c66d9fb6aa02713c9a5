@@ -1,0 +1,1 @@
+GC.compact を明示的に呼び出した時に lock_page_body() と unlock_page_body() の処理を省略して対象の page の参照の禁止をしないようにしています。GC.compact の場合 compact 前に通常の GC を実行するようにしたので、それで不要になるということみたいですがよくわからず。
