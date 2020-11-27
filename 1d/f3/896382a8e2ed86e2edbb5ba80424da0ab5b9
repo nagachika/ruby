@@ -1,0 +1,1 @@
+cd0877a93e91fecb3066984b3fa2a762e6977caf で追加した拡張ライブラリ ripper の Ripper.tokenize の raise_errors キーワード引数についてのテストで同じ assertion が重複していたのを削除しています。
