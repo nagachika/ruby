@@ -1,0 +1,1 @@
+Module を定義する関数群 rb_define_module()、rb_define_module_id_under()、vm_declare_module() などで rb_define_module_id() を利用していたのを rb_module_new() という関数を使うようにリファクタリングしています。rb_define_module_id() の内容は引数は使わず単に rb_module_new() を呼んでるだけだったので結局処理に変化はありません。
