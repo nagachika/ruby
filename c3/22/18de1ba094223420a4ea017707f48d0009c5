@@ -1,0 +1,1 @@
+490b57783d80f0c5f7882c66d9fb6aa02713c9a5 および 63ad55cd882e4010fe313d271af006a430b5ffa8 で GC.compact を明示的に呼んだ時に mprotect(3) などによる ObjectSpace の page の保護をやめる変更と環境によって mprotect(3) がうまく使えない時に GC.auto_compact = true をエラーにする変更が fed67fe6b277361940e3357c8b1ffa455d7f2339 で revert されてたのをリトライしています。 gc_compact_finish() の変更が前回からちょっと追加になってるかな。  [Bug #17306]
