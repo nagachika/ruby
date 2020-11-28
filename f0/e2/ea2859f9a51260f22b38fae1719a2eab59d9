@@ -1,0 +1,1 @@
+2db2fb9f6c742d5bd0019ccd11c7a375e1b12c0b で rubyspec の Random::DEFAULT の値について書きかえたテストで Random::DEFAULT が Class であることだけチェックしてたのを Random そのものであることまでチェックするようにしています。
