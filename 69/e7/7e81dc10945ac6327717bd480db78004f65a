@@ -1,0 +1,1 @@
+4dbf6f1e515bd6a3b03ba9edccabccb780c3f789 の続きで GC.compact 処理中に保護してた heap page へのアクセスを検出した時のシグナルハンドラで rb_print_backtrace() を先に呼び出すようにしています。 rb_bug_without_die() が Ruby レベルのバックトレース出力で異常終了してしまうことがあったみたいなので先に C のバックトレースを出しておくようにしたみたいです。
