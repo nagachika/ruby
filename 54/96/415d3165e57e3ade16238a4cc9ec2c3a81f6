@@ -1,0 +1,1 @@
+2db2fb9f6c742d5bd0019ccd11c7a375e1b12c0b の続き。 Ractor 毎に Random の背後の乱数生成器を生成するので Ractor の GC の mark 関数にそのオブジェクトの mark 処理も追加しています。
