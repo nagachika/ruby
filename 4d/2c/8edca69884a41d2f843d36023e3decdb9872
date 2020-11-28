@@ -1,0 +1,1 @@
+MJIT の性能改善のために vm_call_iseq_setup_normal() という関数の引数に extra_type というのを追加してMJIT で生成するコードからの呼び出しの時に積む control frame の種類に VM_FRAME_FLAG_FINISH フラグを追加できるようにしています。後から VM_ENV_FLAGS_SET() でセットしなおす処理を省略するためみたいです。
