@@ -1,0 +1,1 @@
+14453a256d58b11b06d432e2a4388d95aac298d6 の続きで win32/win32.c で getenv() を w32_getenv() を使うように書きかえるマクロ定義を削除してたのを復活させています。 win32/win32.c は dln_find.c を #include していて、この中の getenv() も差し替えるためにこのマクロは必要だったそうです。dln_find.c の中の getenv() も書きかえるわけにはいかないのかな。
