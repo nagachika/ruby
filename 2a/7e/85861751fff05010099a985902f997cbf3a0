@@ -1,0 +1,1 @@
+122cd35939ddf8ef7bfa17ad75570c01d0cf06ab の MJIT の unload_unit() 呼び出しの頻度変更に対応してテストを修正しています。
