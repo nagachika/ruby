@@ -1,0 +1,1 @@
+MJIT の JIT compaction 処理を行う compile_compact_jit_code() でまとめようとしてた rb_mjit_unit の ISeq が GC で回収済みだった場合にデバッグログを出力するようにしています。
