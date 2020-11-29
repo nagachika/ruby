@@ -1,0 +1,1 @@
+MJIT が JIT コンパイル対象のコードを単一の C ソースコードにまとめて 1つの共有ライブラリにビルドする処理(GC.compact とまぎらわしいですが JIT compaction と呼ばれている)の処理の途中に JIT コードをメモリ上から外す unload_units() の処理を避けるようにしていたのを、unload_units() の実行を mjit_worker  のスレッド側で実行するようにして競合しないようにしています。このため mjit.c から関連する関数を mjit_worker.c に移動しています。JIT compaction 中であることを示す in_compact 変数は削除して、かわりに unload 処理の要求を示す unload_units_p という変数を追加してスレッド間の通信のために使っています。
