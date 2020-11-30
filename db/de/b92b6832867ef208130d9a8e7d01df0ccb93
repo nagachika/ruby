@@ -1,0 +1,1 @@
+122cd35939ddf8ef7bfa17ad75570c01d0cf06ab で MJIT の unload 処理の頻度を下げるチューニングをしたために --jit-wait オプションが指定されてた時には mjit_opts.max_cache_size を増やし続ける処理も減らされてしまってたので分岐の外に出しています。 --jit-wait はテスト用なので JIT unit 数を必要に応じて自動で増やし続けるようにしていたので。
