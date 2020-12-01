@@ -1,0 +1,1 @@
+rb_str_buf_new() で引数の capa が文字列のバッファを struct RVALUE の中に埋め込めるサイズだった時には capa を STR_BUF_MIN_SIZE (=63) まで切り上げることはせずそのまま返すようにしています。
