@@ -1,0 +1,1 @@
+Ractor.shareable? で再帰的なデータ(Array や Hash の参照先に自分自身がある場合)で呼び出し順などによって誤った結果が返ることがあった不具合を修正。rb_obj_traverse() に引数を追加して、traverse の行きがけと帰りがけの他に全ての子を traverse した後に再度呼び出す関数を登録できるようにして再度 RUBY_FL_SHAREABLE フラグをチェックするようにしています。 [ruby-core:101088] [Bug #17344]
