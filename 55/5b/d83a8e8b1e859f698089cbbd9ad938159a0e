@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.load_from_binary でバイナリフォーマットにした ISeq を読み込む時に ruby 実装のメソッドから呼び出せる builtin 関数の対応するものがなかったら rb_bug() で異常終了させてたのを ArgumentError 例外に変更しています。テストみるとプロセスを分けて Integer#abs の実装で起こしてますが、これどうやって起こしてるんだろう。 builtin func のテーブルは起動時にまとめてロードしてると思うのですが。 [ruby-core:100165] [Bug #17192]
