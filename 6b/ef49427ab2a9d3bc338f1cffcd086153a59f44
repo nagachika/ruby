@@ -1,0 +1,1 @@
+register_fstring() に第2引数を追加して、渡された文字列オブジェクトのバッファが静的領域にあるかどうかでバッファ内容をコピーするかどうかを制御するようにして、rb_interned_str()、rb_interned_str_cstr()、rb_enc_interned_str()、rb_enc_interned_str_cstr() などではコピーするようにしています。これらは C API なので渡される文字列バッファが静的領域とかぎらないのでコピーしておくようにしたようです。 [ruby-core:80447] [Feature #13381]
