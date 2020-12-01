@@ -1,0 +1,1 @@
+拡張ライブラリから型つきのメモリ領域を扱う Memory View 機能で rb_memory_view_get() や rb_memory_view_release() でオブジェクトの参照カウンタを管理して即座に解放せず GC にまかせるようにしているようです。すぐにメモリ領域を解放すると何か問題があったのかも。 https://github.com/ruby/ruby/pull/3816
