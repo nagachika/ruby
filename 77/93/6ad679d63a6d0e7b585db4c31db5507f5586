@@ -1,0 +1,1 @@
+GC.compact の処理中に ObjectSpace の page に mprotect(3) などで保護をかけて触ったらシグナルが飛ぶようにしていて、その signal handler の read_barrier_signal() で再度 SIGSEGV や SIGBUS が発生した時に再入にならないようにデフォルトのハンドラに戻してから read_barrier_handler() を呼ぶように修正しています。
