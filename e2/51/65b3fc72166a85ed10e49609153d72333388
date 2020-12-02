@@ -1,0 +1,1 @@
+930a135524382ddd80c0608a7593b6cdfceee846 の追加修正で Ractor.shareable? の実装で rb_obj_traverse() のかえりがけの処理は不要になってたので null_leave() という関数を渡すようにしています。 https://github.com/ruby/ruby/pull/3823
