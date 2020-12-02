@@ -1,0 +1,1 @@
+ext/.document に monitor/lib と monitor/monitor.c を追加して rdoc によるドキュメント生成の対象に追加しています。
