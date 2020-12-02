@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の gemspec ファイルに uri、stringio、time への依存関係を追加しています。
