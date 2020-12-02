@@ -1,0 +1,1 @@
+Ractor 間でのオブジェクトのコピー時に T_ARRAY 型オブジェクトに対して rb_ary_modify() を呼んでましたが rb_ary_modify_check() によるチェックが freeze されてる時に例外を発生させてしまうので rb_ary_modify_check() を取り除いた部分を rb_ary_cancel_sharing() という関数に分離してこちらを使うように修正しています。 https://github.com/ruby/ruby/pull/3817 [ruby-core:101087] [Bug #17343]
