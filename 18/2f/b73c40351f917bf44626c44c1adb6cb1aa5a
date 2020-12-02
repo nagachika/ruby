@@ -1,0 +1,1 @@
+rb_ext_ractor_safe() という C API を追加して拡張ライブラリが定義するメソッドに ractor safe であることを宣言できるようにして、明示的に ractor safe と宣言されたメソッド以外は main Ractor 以外から呼ばれると例外が発生するようにしています。 [ruby-core:100720] [Feature #17307]
