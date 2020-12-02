@@ -1,0 +1,1 @@
+標準添付ライブラリ prime の gemspec ファイルに singleton と forwardable への依存関係を追加しています。
