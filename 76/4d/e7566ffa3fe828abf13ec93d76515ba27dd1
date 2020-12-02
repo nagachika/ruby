@@ -1,0 +1,1 @@
+8247b8eddeb2a504a5c9776d1f77d413c8146897 の追加修正。 Ractor 間のオブジェクトコピー時に T_STRING 型の時にも T_ARRAY と同様に rb_str_modify() は freeze されてた時に例外が発生してしまうので rb_str_make_independent() という関数を追加してこれでバッファが共有されてる時にコピーを作成するようにしています。 [ruby-core:101087] [Bug #17343]
