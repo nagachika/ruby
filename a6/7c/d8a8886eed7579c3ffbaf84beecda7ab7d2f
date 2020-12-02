@@ -1,0 +1,1 @@
+doc/syntax/literals.rdoc の -> 構文で作成されるオブジェクトを proc から lambda proc という表現に変更しています。
