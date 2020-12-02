@@ -1,0 +1,1 @@
+GC のデバッグ出力用に使われる rb_raw_obj_info() で T_STRING 型オブジェクトに shared フラグの有無を表示するようにしています。
