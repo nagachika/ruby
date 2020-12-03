@@ -1,0 +1,1 @@
+defs/gmake.mk で gems/bundled_gems を元にする update-gems や extract-gems ターゲットで使う変数名を大文字から小文字にしアンダースコアのかわりにハイフンを使うようにしています。 make の変数はハイフン含めることが可能なのか。
