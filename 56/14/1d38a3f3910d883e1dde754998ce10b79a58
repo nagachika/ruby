@@ -1,0 +1,1 @@
+C API rb_gc_register_mark_object() の rdoc 用コメントにこれで mark したオブジェクトは GC.compact で移動する可能性があると書かれてましたが実際には pin されるので記述を修正しています。
