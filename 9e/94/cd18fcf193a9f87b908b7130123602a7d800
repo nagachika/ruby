@@ -1,0 +1,1 @@
+make test-bundled-gems-run という bundled gems のテストを実行するターゲットで BUNDLED_GEMS 環境変数で対象の gem 名を指定できるようにしています。
