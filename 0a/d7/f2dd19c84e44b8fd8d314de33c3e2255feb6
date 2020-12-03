@@ -1,0 +1,1 @@
+55c9a95ac8ed1a44645cc8d7d80f2e5ebee6ec8f と同様に gem_prelude.rb の require 'rubygems.rb' でも LoadError を無視するようにしています。
