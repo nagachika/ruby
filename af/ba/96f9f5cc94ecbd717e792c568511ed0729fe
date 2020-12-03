@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http (net-http.gem) の gemspec ファイルに uri への依存関係を追加しています。
