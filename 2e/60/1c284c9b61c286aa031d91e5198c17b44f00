@@ -1,0 +1,1 @@
+拡張ライブラリ digest から OpenSSL を利用した実装を削除しています。FIPS に準拠した環境の OpenSSL を利用している時にこの実装の digest がうまく動かない状態だったようです。 [Feature #6946] [Feature #13681]
