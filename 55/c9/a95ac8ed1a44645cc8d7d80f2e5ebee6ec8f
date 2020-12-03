@@ -1,0 +1,1 @@
+gem_prelude.rb の require "did_you_mean"  で LoaadError が発生しても無視するようにしています。パッケージシステムなどで did_you_mean.gem が含まれてない状況を作ることがありえるからということみたいです。
