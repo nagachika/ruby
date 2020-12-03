@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp (net-smtp.gem) の gemspec ファイルに timeout への依存関係を追加しています。
