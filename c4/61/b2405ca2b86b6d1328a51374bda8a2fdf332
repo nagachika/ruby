@@ -1,0 +1,1 @@
+0ad7f2dd19c84e44b8fd8d314de33c3e2255feb6 の前からだったのですが gem_prelude.rb の require "rubbygems.rb" になぜか ".rb" の拡張子まで明示的に含まれてたのですが不要なので削っています。
