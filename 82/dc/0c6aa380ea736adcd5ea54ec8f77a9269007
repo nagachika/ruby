@@ -1,0 +1,1 @@
+Memory View 機能の C API rb_memory_view_get() で available_p_func に登録されている関数で指定されたオブジェクトが Memory View をサポートしてるかチェックするようにしています。
