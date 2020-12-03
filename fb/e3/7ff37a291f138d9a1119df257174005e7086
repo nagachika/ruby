@@ -1,0 +1,1 @@
+55c9a95ac8ed1a44645cc8d7d80f2e5ebee6ec8f の続きで did_you_mean の require に失敗した時に警告メッセージを表示するようにしています。
