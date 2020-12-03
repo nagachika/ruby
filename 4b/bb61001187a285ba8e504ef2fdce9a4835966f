@@ -1,0 +1,1 @@
+0ad7f2dd19c84e44b8fd8d314de33c3e2255feb6 の続きで require "rubygems" が失敗した時に警告メッセージを出力するようにしています。
