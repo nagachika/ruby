@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の gemspec ファイルに fileutils への依存関係を追加しています。
