@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp (net-ftp.gem) の gemspec ファイルに time への依存関係を追加しています。
