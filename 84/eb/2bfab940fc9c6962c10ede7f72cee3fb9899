@@ -1,0 +1,1 @@
+ruby_xmalloc()、ruby_xmalloc2()、ruby_xrealloc()、ruby_xrealloc2()、ruby_xfree() などの関数に doxygen でのドキュメント生成のためのコメントを追加しています。
