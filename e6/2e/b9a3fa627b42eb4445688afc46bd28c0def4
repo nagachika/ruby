@@ -1,0 +1,1 @@
+d65621b636e1eb89696f13f4076e53d54710cb3f の再修正。ipaddr の gemspec の required_ruby_version の書きかたが 3.0 は除外するようになってたので 2.3 以降なら major が上がっても大丈夫なようにしています。
