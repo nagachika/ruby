@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr の gemspec ファイルに spec.required_ruby_version の指定を追加して 2.3 以降に依存するようにしています。
