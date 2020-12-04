@@ -1,0 +1,1 @@
+IO#bytes, #chars, #lines, #codepoints などのメソッドや IO に類似の StringIO, ARGF などのクラスのメソッドは長らく deprecated になっていて警告が出ていたので、3.0 で削除しています。 preview1 の後だけど大丈夫かな。
