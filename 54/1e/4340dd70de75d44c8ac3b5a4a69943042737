@@ -1,0 +1,1 @@
+mjit_free_iseq() に static 変数 in_gc と in_jit で GC 中であることと JIT 中でないことをチェックするようにしています。
