@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の gemspec ファイルでも .git* と .travis* も除外するようにしています。また spec.required_ruby_version を 2.3.0 以上に変更しています。
