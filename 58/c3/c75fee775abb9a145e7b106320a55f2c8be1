@@ -1,0 +1,1 @@
+ractor.c の ASSERT_ractor_unlocking()、ASSERT_ractor_locking()、ractor_lock() などの関数は GET_RACTOR() を使っていて、その実装は GET_EC() に依存していますが MJIT の worker thread では GET_EC() が値を返さないので呼ぶと SEGV してしまうので、GET_EC() の NULL チェックも併用するようにしています。
