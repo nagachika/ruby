@@ -1,0 +1,1 @@
+7d0a6e28f2260ec2ba487c174e35a9dc614e2e60 の続きで拡張ライブラリ io/nonblock の gemspec ファイルの spec.files から .git* や .travis* も除外するようにしています。
