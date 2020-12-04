@@ -1,0 +1,1 @@
+拡張ライブラリ io/nonblock の gemspec ファイルで spec.files を git ls-files から抽出するところで test/, spec/, features/ ディレクトリを除外するための正規表現で \A を使うように変更しています。
