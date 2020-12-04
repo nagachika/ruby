@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr の gemspec ファイルの spec.files から不要なファイルを削り、spec.bindir と spec.executables の指定は削除しています。
