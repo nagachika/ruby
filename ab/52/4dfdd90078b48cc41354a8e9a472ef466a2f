@@ -1,0 +1,1 @@
+標準添付ライブラリ forwardable の gemspec ファイルに spec.required_ruby_version  を追加して 2.4.0 以降への依存を追加しています。
