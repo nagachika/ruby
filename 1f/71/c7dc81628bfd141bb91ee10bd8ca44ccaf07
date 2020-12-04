@@ -1,0 +1,1 @@
+VM の control frame をブロックから Proc などを作成するためにコピーする env_copy() で prev_ep のコピーを指す VALUE の参照が処理中に mark されなくなるおそれがあったようで RB_GC_GUARD() で保護するようにしています。
