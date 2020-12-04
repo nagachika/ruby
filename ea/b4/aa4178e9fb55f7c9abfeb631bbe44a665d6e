@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の gemspec にも spec.extensions の指定を追加しています。
