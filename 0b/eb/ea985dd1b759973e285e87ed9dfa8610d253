@@ -1,0 +1,1 @@
+gc.c の gc_sweep_continue() から heap_increment() を呼んで heap に page 追加してたのをやめています。 incremental sweep (lazy sweep と同じ?)では空き slot を探してるので空きをみつけるまでやらないといけないのに page 追加したら無駄になっちゃう、ということみたいです。
