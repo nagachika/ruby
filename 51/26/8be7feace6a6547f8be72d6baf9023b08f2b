@@ -1,0 +1,1 @@
+0bebea985dd1b759973e285e87ed9dfa8610d253 の続き? heap_add_page() で heap に追加する page を linked list の先頭ではなく末尾に追加するようにしています。GC.compact での処理との相性のためみたいですね。
