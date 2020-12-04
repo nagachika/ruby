@@ -1,0 +1,1 @@
+net/imap、net/pop、net/smtp の gemspec ファイルのコメントアウトされてた digest への依存関係のコメントアウトを消しています。 digest の gem 化が完了したようです。
