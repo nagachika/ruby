@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#em_exchange_mark で mark がない時に先頭で return して余計な処理をスキップするようにしています。
