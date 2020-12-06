@@ -1,0 +1,1 @@
+coroutine/copy/Context.c で Fiber のための coroutine の copy 版実装の修正。マシンスタックの位置を取得するための実装を変更してスタックの内容をコピーする範囲? の修正をしているみたいです。
