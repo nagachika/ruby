@@ -1,0 +1,1 @@
+標準添付ライブラリ mutex_m の Mutex_m#initialize を Kernel#ruby2_keywords で修飾するようにしています。
