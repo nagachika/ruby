@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の vi mode での Ctrl-h とバックスペースキーの割り当てを1文字削除になってたのを :ed_unassigned に変更しています。
