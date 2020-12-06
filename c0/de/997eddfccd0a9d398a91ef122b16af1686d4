@@ -1,0 +1,1 @@
+Memory View 機能でメモリの型を指定する指示子の n, N, v, V が環境依存になってたのをそれぞれ big endian, little endian に変更しています。
