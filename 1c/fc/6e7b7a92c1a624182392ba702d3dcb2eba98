@@ -1,0 +1,1 @@
+標準添付ライブラリ rinda の gemspec ファイルに drb, ipaddr, forwardable への依存関係を追加しています。
