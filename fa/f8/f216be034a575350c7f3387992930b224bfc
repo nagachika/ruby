@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#editing_mode で @waiting_proc に保存する Proc オブジェクト内から @waiting_operator_proc を参照してましたが、このインスタンス変数を変更しても Proc オブジェクトから参照するものは変更したくないようで一旦ローカル変数に代入してからそれを Proc 内で参照するように変更しています。
