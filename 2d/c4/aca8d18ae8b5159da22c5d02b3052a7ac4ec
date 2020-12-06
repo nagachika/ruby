@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#wrap_method_call で Method オブジェクトを呼び出す際に引数を要求しているかどうかを判定して arg キーワード引数を渡すかどうかを変更するようにしています。
