@@ -1,0 +1,1 @@
+a3db08d7b6ff119223f77e3df00b4f6deac971e2 で rubyspec から SortedSet のテストを削除したのを revert しています。
