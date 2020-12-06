@@ -1,0 +1,1 @@
+Proc オブジェクトの生成に使う vm_proc_create_from_captured() という関数で参照するブロックからのオブジェクトの参照に入れる write barrier の順序を変更しています。コミットログによると proc->block.as.captured.code.val より先に proc->block.as.captured.self をセットしてしまうとこの隙間に GC が発生すると不正な状態になってしまうからみたいです。 Ractor の導入によりここで GC 発生し得るようになったみたいですね。
