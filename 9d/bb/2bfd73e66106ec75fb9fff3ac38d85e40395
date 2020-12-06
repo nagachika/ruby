@@ -1,0 +1,1 @@
+bb3d70581972969a01c8ba7f2f3477ec92224f97 で追加したツールを使ったのでしょうが d0bd43c332f95e5f227ffcd4eb0e6f7bfa942b2a で復活させた rubyspec の SortedSet についてのテストに 3.0 以降で実行しないように ruby_version_is による guard を追加しています。
