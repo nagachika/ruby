@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の Matrix#** で引数が Integer の時の最適化を追加しています。 [ruby-core:89452] [Feature #15233]
