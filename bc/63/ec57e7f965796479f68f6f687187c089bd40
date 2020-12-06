@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib.adler32 と Zlib.crc32 の引数に IO も受け付けるように拡張しています。
