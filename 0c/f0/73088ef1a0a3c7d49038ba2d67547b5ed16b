@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#rerender_all でバッファを全て処理してから再描画するようにしています。
