@@ -1,0 +1,1 @@
+lib/reline/line_editor.rb の rerender メソッドを rerender_added_newline、rerender_changed_current_line、rerender_all_lines などの複数のメソッドに分割するリファクタリング。
