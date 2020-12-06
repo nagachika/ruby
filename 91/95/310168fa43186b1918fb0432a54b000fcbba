@@ -1,0 +1,1 @@
+String#encode と String#encode! の rdoc 用コメントの call-seq を修正して options はキーワード引数として受け付けるような記法に変更しています。 [ruby-core:101226] [Bug #17364]
