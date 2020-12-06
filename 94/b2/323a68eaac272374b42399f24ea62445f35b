@@ -1,0 +1,1 @@
+84eb2bfab940fc9c6962c10ede7f72cee3fb9899 で追加した ruby_xmalloc() と ruby_xfree() の Doxygen 用コメントの typo 修正。
