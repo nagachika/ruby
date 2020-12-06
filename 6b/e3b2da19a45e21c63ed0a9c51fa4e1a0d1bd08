@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#vi_yank の実装が空だったのをちゃんと処理を追加しています。
