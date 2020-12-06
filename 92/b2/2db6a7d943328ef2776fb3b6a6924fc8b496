@@ -1,0 +1,1 @@
+よくわかりませんが 266ffdde8eeb9b6626030653a927f033d7464cdf で追加した標準添付ライブラリ reline の Reline::LineEditor#wrap_method_call で vi mode の時に対応してないキーバインドの入力の処理をお skip するようにしています。
