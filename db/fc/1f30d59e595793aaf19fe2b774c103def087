@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Reline::LineEditor#vi_movement_mode を #vi_command_mode の alias として追加しています。互換性のためとのこと。
