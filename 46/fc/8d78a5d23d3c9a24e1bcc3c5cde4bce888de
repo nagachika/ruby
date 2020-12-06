@@ -1,0 +1,1 @@
+標準添付ライブラリ set で ruby が 2.x 系の時をサポートするため initialize_copy の freeze キーワード引数の有無を UnboundMethod#arity で判定して定義を変えるようにしています。
