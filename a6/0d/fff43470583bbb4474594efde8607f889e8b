@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::GzipReader#gets の rdoc 用コメントに nil を返すことがあることについて追記しています。 [ruby-core:82816] [Bug #13904]
