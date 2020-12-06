@@ -1,0 +1,1 @@
+coroutine/Stack.h というヘッダファイルを追加して coroutine 実装でスタック上にローカル変数として確保するかヒープ上に ruby_xmalloc() でメモリ確保するかを COROUTINE_PRIVATE_STACK というマクロの有無で変更するようにしています。どうやら copy 版の実装の coroutine ではスタックを使わずヒープに確保させるようにしているようです。
