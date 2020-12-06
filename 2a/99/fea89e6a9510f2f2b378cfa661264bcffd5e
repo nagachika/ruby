@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb でテストにエラーがあった bundled gem の名前を最後に表示するようにしています。
