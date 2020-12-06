@@ -1,0 +1,1 @@
+092c253bff2e81ddae6e8c85b3a94af45129bdab の変更を revert してかわりに start_terminal にキーワード引数 startup_message を渡すようにしています。 start_terminal が内部でこのメッセージの出力まで待ってくれるとかかな。
