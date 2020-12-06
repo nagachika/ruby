@@ -1,0 +1,1 @@
+lib/reline/line_editor.rb で backward_char の alias_method 定義の位置を alias 先の ed_prev_char の直後に移動しています。
