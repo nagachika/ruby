@@ -1,0 +1,1 @@
+lib/reline/ansi.rb でバッファとして使う文字列を文字列リテラルで書いてたのを String.new に変更しています。このファイルにはマジックコメントでは frozen_string_literal: true は指定されてませんが、オプションでデフォルトを true にされるとここが動かなかったとのこと。
