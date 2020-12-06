@@ -1,0 +1,1 @@
+mspec に spec/mspec/tool/wrap_with_guard.rb というツールを追加して、ファイル全体に ruby_version_is などの guard を追加したファイルを生成できるようにしています。
