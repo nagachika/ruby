@@ -1,0 +1,1 @@
+02e17d473a5edef69b8c03a8e2b91fdd0c27ed75 で gems/bundled_gems のリポジトリにタグや commit hash を指定できるようにフォーマットを拡張してたのに tool/update-bundled_gems.rb を追随させています。
