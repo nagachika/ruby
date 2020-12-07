@@ -1,0 +1,1 @@
+rubygems に含まれている lib/rubygems/ssl_certs/rubygems.org/AddTrustExternalCARoot.pem というルート証明書ファイル? を削除してかわりに lib/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA_R3.pem  を追加しています。これなんだろう。
