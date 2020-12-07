@@ -1,0 +1,1 @@
+94d49ed31c39002335eeee65d42463139f561954 の getaddrinfo_a(3) の thread を fork 前に停止するための関数の名前が rb_getaddrinfo_a_before_exec() になってたのを実態に合わせて rb_getaddrinfo_a_before_fork() に改名し、また実行するのも fork の前だけにしています。これまで before_fork_ruby() は before_exec() の別名としてマクロ定義されてたので関数の実態を分けて定義するようにしています。これって Socket.getaddrinfo を使ったかどうかに関わらず常に呼んでるから常に 1.5秒 sleep することになっちゃうんですね。影響でかそう。
