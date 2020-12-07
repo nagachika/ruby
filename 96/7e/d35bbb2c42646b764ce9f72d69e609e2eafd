@@ -1,0 +1,1 @@
+common.mk の make update-bundled_gems のアクションに書かれてたスクリプトを tool/update-bundled_gems.rb というファイルに切り出しています。
