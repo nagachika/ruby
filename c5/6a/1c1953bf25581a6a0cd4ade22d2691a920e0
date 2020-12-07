@@ -1,0 +1,1 @@
+94d49ed31c39002335eeee65d42463139f561954 で getaddrinfo_a(3) が起動した thread を停止させる rb_getaddrinfo_a_before_exec() で thread の停止を確実に待つために sleep() で待つようにしてたのを nanosleep() を使って 1.5 秒待つように伸ばしています。1秒だと一部 CI 環境でテストが失敗したそうです。
