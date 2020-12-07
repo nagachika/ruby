@@ -1,0 +1,1 @@
+967ed35bbb2c42646b764ce9f72d69e609e2eafd で切り出した tool/update-bundled_gems.rb で URL の ".git" という拡張子部分を削るようにしています。
