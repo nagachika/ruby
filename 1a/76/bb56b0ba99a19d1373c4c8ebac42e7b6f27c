@@ -1,0 +1,1 @@
+51500eedefa492699668ced3e07e330a9a4d53ee で追加した rb_memory_view_extract_item_members() の prototype 宣言の引数に const を追加。
