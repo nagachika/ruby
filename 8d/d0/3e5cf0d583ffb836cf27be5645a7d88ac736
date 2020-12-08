@@ -1,0 +1,1 @@
+gc_verify_internal_consistency_() という GC 時のデバッグのための一貫性チェックで生きてる slot の数のカウントのチェックを Ractor 利用時にも実施しないようにしています。おそらく 91d99025e4776885ceea809123a129cb31cd1db6 の Ractor 毎の free list の導入で一致しなくなることがあるようになったからでしょうね。
