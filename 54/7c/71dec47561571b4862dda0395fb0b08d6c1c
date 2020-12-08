@@ -1,0 +1,1 @@
+Hash#index (Hash#key と同等)は deprecation warning が出る状態になってたので削除しています。
