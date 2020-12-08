@@ -1,0 +1,1 @@
+Memory View 機能の C API に memory_view_extract_item_members() というのを追加してポインタと rb_memory_view_item_component_t による内容の型の指定を受け取ってデコードした要素のオブジェクトの配列を返すことができるようにしています。
