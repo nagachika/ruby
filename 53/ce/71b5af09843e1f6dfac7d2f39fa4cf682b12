@@ -1,0 +1,1 @@
+Ractor.select で引数の Ractor の指定がなくてキーワード引数 yield_value も指定されてなかったら ArgumentError 例外を発生させるようにしています。
