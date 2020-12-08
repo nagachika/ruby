@@ -1,0 +1,1 @@
+ruby_debug_log() で複数 Ractor を使ってるかどうかの判定に b67b24d0f5e78481e6a306881b6858f0dec996ba で追加した ruby_single_main_ractor を参照するようにしています。
