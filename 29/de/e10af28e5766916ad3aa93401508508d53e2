@@ -1,0 +1,1 @@
+tool/rbinstall.rb の load_gemspec に第2引数 expanded を追加してこれが true に指定されると spec.files に動的に配下のファイルを追加するようにしています。gemspec ファイルの spec.files に不足があっても展開して出てきたファイルは全てインストールするためかな。
