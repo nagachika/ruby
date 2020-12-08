@@ -1,0 +1,1 @@
+Ractor 間の排他を行う RB_VM_LOCK_ENTER_LEV()/RB_VM_LOCK_LEAVE_LEV() に引数に current ractor を明示的に渡す RB_VM_LOCK_ENTER_CR_LEV()/RB_VM_LOCK_LEAVE_CR_LEV() というのを追加しています。
