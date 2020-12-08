@@ -1,0 +1,1 @@
+RB_NEWOBJ_OF() に rb_execute_context_t を指定する引数を追加したバージョンの RB_EC_NEWOBJ_OF() というマクロを追加しています。 パフォーマンスのために可能なら GET_EC() を省くためですかね。
