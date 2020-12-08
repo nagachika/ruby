@@ -1,0 +1,1 @@
+compile_compact_jit_code() で compile unit のリストをループする時に CRITICAL_SECTION_START()/CRITICAL_SECTION_FINISH() でリストの要素を辿る瞬間だけ排他するようにしています。 mjit_recompile() での remove_from_list() と競合していた模様。
