@@ -1,0 +1,1 @@
+b67b24d0f5e78481e6a306881b6858f0dec996ba で追加した ruby_single_main_ractor という変数の定義を ractor.c から vm.c に移動しています。 MJIT のために必要だったとのこと。また prototype 宣言に extern を直接使ってたのを RUBY_EXTERN マクロを利用するようにしています。
