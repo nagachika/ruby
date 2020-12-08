@@ -1,0 +1,1 @@
+Ractor を使ってるかどうかを変数 ruby_multi_ractor というので判定するようにしてたのを、bool ではなくて Ractor が 1つだけの時にその Ractor を指す ruby_single_main_ractor というポインタをグローバル変数として持っておくことで判定するようにしています。子 Ractor を作るとこの変数は NULL が代入されて複数あることを示すようになるようです。
