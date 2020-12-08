@@ -1,0 +1,1 @@
+VM 命令の putstring と newarray で呼ぶ関数に rb_execute_context_t を渡すバージョンを使うようにする最適化。 59ddb88da6bf483eeec7b85b8a85cf3719edf440 で追加したマクロ RB_EC_NEWOBJ_OF() を利用しています。やはりパフォーマンスのためだったようです。
