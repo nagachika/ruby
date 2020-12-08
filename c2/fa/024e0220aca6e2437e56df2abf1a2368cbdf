@@ -1,0 +1,1 @@
+Ractor#yield や Ractor#take の実装で Thread で割り込みが発生した時に rb_ractor_t::wait::wakeup_status が変化するのを考慮していなかったようなのでそれを修正して wakeup_none にリセットするようにしています。  [ruby-core:101246] [Bug #17366]
