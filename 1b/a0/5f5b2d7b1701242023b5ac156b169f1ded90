@@ -1,0 +1,1 @@
+obj_free_object_id() で VM 全体の排他をする範囲内に T_ZOMBIE 型オブジェクトの時の処理も入れています。
