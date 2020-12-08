@@ -1,0 +1,1 @@
+ruby_xmalloc()/ruby_xcalloc()/ruby_xrealloc()/ruby_xrealloc2()/ruby_xfree() などの Doxygen 用のコメントで確保したメモリ領域のことを指す語彙を object instance から storage instance に変更しています。 N2328 という文書で C 2x の語彙を決める提言がされてたみたいです。 http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2328.pdf
