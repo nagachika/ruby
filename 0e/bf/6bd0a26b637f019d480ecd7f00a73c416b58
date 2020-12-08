@@ -1,0 +1,1 @@
+vm_lock_enter() に no_barrier という引数を追加して全 Ractor の処理を一時止める barrier はなしでロックだけするということができるようにしています。またこれを利用するためのマクロ RB_VM_LOCK_ENTER_NO_BARRIER()/RB_VM_LOCK_LEAVE_NO_BARRIER() を追加しています。
