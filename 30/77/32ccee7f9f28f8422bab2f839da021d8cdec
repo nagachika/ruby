@@ -1,0 +1,1 @@
+Ractor を使うと Transient Heap を扱うために排他をする必要があってパフォーマンスの低下に繋がるので、Ractor を作ると Transient Heap を使うのはやめるようにしています。なるほどー。Ractor を作った時には cancel_single_ractor_mode() という関数が呼ばれてそこで rb_transient_heap_evacuate() が呼ばれて確保中の Transient Heap はその時点ですぐに ObjectSpace に移動されるようにするみたいです。これにあわせて Transient Heap の実装で既に追加されてた Ractor 間のロックのための RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() は削除しています。
