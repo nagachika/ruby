@@ -1,0 +1,1 @@
+547c71dec47561571b4862dda0395fb0b08d6c1c の Hash#index の削除に追随して……というわけではなく rubyspec のHash#index のテストの ruby_version_is による guard がまだ 2.8 だったので 3.0 に修正しています。
