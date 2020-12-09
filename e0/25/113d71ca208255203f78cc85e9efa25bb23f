@@ -1,0 +1,1 @@
+5894ea5954db119fc818bb7030ed56cf46830c6d で gemspec ファイルの spec.files 記述部分を検出するための正規表現をちょっと変更して did_you_mean の gemspec ファイルの記述にも対応するようにしています。
