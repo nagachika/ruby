@@ -1,0 +1,1 @@
+556a7285080c1344c75bb93a333c9bfc5d631c61 で mjit_worker.c の compile_compact_jit_code() で compile unit をループするープ変数を辿るところだけロックするようにしてましたが、どうもうまくいかないようでループ全体をロックしたまま回すように変更しています。
