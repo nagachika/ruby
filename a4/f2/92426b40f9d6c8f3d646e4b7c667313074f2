@@ -1,0 +1,1 @@
+GitHub Actions の MinGW でのテストで一部のテストが通らないということで make test-all のオプションで除外する指定を追加しています。 [ruby-core:101264] [Bug #17372]
