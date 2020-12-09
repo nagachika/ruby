@@ -1,0 +1,1 @@
+WIndows の ENV が保持する文字列の Encoding を UTF-8 に統一しています。 https://github.com/ruby/ruby/pull/3818 [ruby-core:76668] [Feature #12650]
