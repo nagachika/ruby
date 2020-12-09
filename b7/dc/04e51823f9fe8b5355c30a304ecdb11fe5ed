@@ -1,0 +1,1 @@
+mjit_worker.c の a8f16df615daa55901bb351efe038e86b61fbb92、556a7285080c1344c75bb93a333c9bfc5d631c61、5c2ff88be2e515613dfe54823e8429656f688e9f などの JIT unit のループに関する排他の変更を revert しています。対処したかったエラーをこれではうまく修正できなかったみたいです。
