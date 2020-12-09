@@ -1,0 +1,1 @@
+5894ea5954db119fc818bb7030ed56cf46830c6d で tool/rbinstall.rb で gemspec ファイルを解釈する時に spec.files を差し替える処理で .git ではじまるファイル名は無視するようにしているのを、後から spec.files の内容を削るようにして、ついでに .gemspec の拡張子で終わるファイルも削るようにしています。
