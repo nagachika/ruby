@@ -1,0 +1,1 @@
+a4f292426b40f9d6c8f3d646e4b7c667313074f2, 2580093d5deb9940700aa5faa5bed3af405d989f のさらに続きで GitHub Actions の MinGW でのテストのエラーは BUNDLER_VERSION という環境変数があるせい? らしいので消しておくようにしています。 https://github.com/ruby/ruby/pull/3859 [ruby-core:101264] [Bug #17372]
