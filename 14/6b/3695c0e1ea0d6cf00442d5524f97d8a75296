@@ -1,0 +1,1 @@
+94b6933d1c6f4c8698319fbcac9dcecc9033b4b9 の Windows での Encoding.default_encoding の変更に追随して process_options() での uenc のリセットが不要になったので削除しています。
