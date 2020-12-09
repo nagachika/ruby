@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストで利用する libc と libm のパスの指定が macOS の時の処理が重複してたので一箇所にまとめています。 https://github.com/ruby/ruby/pull/3863
