@@ -1,0 +1,1 @@
+遂に(?) WIndows での Encoding.default_encoding のデフォルト値を UTF-8 にセットするようにしています。 https://github.com/ruby/ruby/pull/2877 [ruby-core:97049] [Feature #16604]
