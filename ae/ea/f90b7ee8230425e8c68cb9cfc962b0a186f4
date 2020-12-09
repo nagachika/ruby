@@ -1,0 +1,1 @@
+tool/gem-unpack.rb に明示的な require "fileutils" を追加しています。 rubygems が自動的に require してたのがなくなったのでその対処ですね。
