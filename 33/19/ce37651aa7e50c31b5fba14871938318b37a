@@ -1,0 +1,1 @@
+構造体 struct rb_mjit_unit を linked list として扱うための struct list_node unode メンバーを構造体の先頭に移動しています。これ先頭じゃなくてもいいんだなぁ。gdb でキャストするだけで良いようにするためとのこと。
