@@ -1,0 +1,1 @@
+60eabb1aa7d1d8ab83c49916bd8c3536daf5d03b で revert された 51500eedefa492699668ced3e07e330a9a4d53ee の Memory View 機能に rb_memory_view_extract_item_members() という C API を追加する変更のリトライ。 https://github.com/ruby/ruby/pull/3855
