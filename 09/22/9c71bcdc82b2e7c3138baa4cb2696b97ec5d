@@ -1,0 +1,1 @@
+coroutine/arm32/Context.S の coroutine 実装の arm32 版に .note.GNU-stack というセクションを追加しています。 [ruby-core:97731] [Bug #16762]
