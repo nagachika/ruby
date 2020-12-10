@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix で Matrix#freeze した時に参照先の Vector も freeze するように変更して、Ractor でコピーせずに渡せるようにしています。
