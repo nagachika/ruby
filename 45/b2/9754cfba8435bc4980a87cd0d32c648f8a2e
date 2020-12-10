@@ -1,0 +1,1 @@
+newobj_init() のデバッグ用の assertion の部分に RB_VM_LOCK_ENTER_NO_BARRIER()/RB_VM_LOCK_LEAVE_NO_BARRIER() による VM 単位のロックを追加しています。
