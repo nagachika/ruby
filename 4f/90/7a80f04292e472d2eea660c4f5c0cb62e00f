@@ -1,0 +1,1 @@
+2553c5f94a5d51c2c5876b31e4c1521ad9be12f6 で存在しない関数 rb_socket_before_fork_func() の prototype 宣言が include/ruby/internal/intern/process.h に追加されてたのを削除しています。
