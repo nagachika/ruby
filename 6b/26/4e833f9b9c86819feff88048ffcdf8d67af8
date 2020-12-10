@@ -1,0 +1,1 @@
+標準添付ライブラリ prime の gemspec ファイルもメンテナを変更しています。また spec.files から .travis.yml を削除しています。
