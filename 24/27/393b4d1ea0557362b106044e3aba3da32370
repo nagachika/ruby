@@ -1,0 +1,1 @@
+bd47a8d660ab33a20c5e28d0effcc29105c434e4 で fiddle のテストの macOS での libc, libm のパスの設定が冗長として消してたのを revert しています。一見冗長な代入は b7d86e330c76b4f9615511307e1c40f4f2937c83 で Big Sur 対応として入れられたもので必要でした。
