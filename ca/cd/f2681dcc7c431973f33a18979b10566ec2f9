@@ -1,0 +1,1 @@
+a7dccd08e7c9cf0e5d0c0fdbe659ccc921624e6f で matrix のテストとして Matrix を Ractor 間で共有することができることを確認するテストを追加してましたが、コメントアウトしています。古い Ruby で動かないからかな。
