@@ -1,0 +1,1 @@
+Ractor の実体の構造体 struct rb_ractor_struct から一部のメンバーを struct rb_ractor_sync に切り出して埋め込むようにするなどのリファクタリング。
