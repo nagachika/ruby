@@ -1,0 +1,1 @@
+bootstraptest/test_ractor.rb の Ractor のテストに Ractor.make_shareable に渡したオブジェクトの freeze が呼ばれることを確認する assertion を追加しています。
