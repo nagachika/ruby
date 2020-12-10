@@ -1,0 +1,1 @@
+標準添付ライブラリ prime で Integer#prime? の実装を Miller-Rabin アルゴリズムというのを使った実装に変更して高速化を図っているようです。 [ruby-core:96600] [Feature #16468]
