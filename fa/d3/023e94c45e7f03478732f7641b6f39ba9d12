@@ -1,0 +1,1 @@
+Range の始点/終端が Rational の時の Range#step が返す Enumerator::ArithmeticSequence で加算処理が Integer 前提になってて C の関数を直接呼んでたので、数値のクラスに応じた処理をする関数を新たに追加してこれを呼ぶように修正しています。 https://github.com/ruby/ruby/pull/3870 [ruby-core:100312] [Bug #17218]
