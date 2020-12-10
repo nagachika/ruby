@@ -1,0 +1,1 @@
+Process.wait を non-blocking Fiber で対応するために Process::Status を T_TYPEDDATA 型のオブジェクトとして定義しなおして(これ T_OBJECT だとだめなのかな)、non-blocking Fiber 用の scheduler 対応が Thread にあってなおかつ process_wait というメソッドが定義されていたらそれで待つようにしています。子プロセスを待つあたりは timer thread 削除の時にもいろいろあったからちょっと不安がありますね。まあほぼ scheduler の実装依存みたいなのでライブラリの実装の自己責任でしょうけど、この今のタイミングでつっこむの大丈夫かな……。
