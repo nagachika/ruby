@@ -1,0 +1,1 @@
+bundler のテストで Refinements を使って Spec::Helpers#out の定義を上書きして不要なエスケープシーケンスを消すようにしています。
