@@ -1,0 +1,1 @@
+da3bca513f437b05b3953c3712ff48621fc5e008 で Ractor 毎のオブジェクトの slot のキャッシュを増やしたところで page->freelist の asan_unpoison_memory_region() の呼び出しが不足していて異常終了になってたのを修正。
