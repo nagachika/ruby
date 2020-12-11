@@ -1,0 +1,1 @@
+GitHub Actions でコンパイラオプションや BASERUBY のバージョンの網羅など workflow が大量になってたものを減らすためコメントアウトしています。 https://github.com/ruby/ruby/pull/3876
