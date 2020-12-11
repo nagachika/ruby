@@ -1,0 +1,1 @@
+doc/standard_library.rdoc や doc/maintainers.rdoc でも webrick の記述セクションを default gems から bundled gems として移動して gems/bundled_gems に追加しています。
