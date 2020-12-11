@@ -1,0 +1,1 @@
+91d99025e4776885ceea809123a129cb31cd1db6 で Ractor 毎に ObjectSpace の slot を予約して VM 全体のロックをオブジェクト確保の都度行なわなくても良いようにしてましたが、さらに複数 page にまたがってキャッシュを持てるようにしています。 1 Ractor あたり 512 slots まで持てるようにしています。 https://github.com/ruby/ruby/pull/3842
