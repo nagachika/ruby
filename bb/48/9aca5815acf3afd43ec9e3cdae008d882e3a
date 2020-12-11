@@ -1,0 +1,1 @@
+Memory View 機能の C API に rb_memory_view_get_item() と rb_memory_view_prepare_item_desc() という関数を追加しています。 MemoryView のオブジェクトからインデックス指定で要素を取り出す関数と format 文字列を解釈して構造体にセットさせる関数のようです。ヘッダファイルの prototype 宣言で関数名が typo していますね。 https://github.com/ruby/ruby/pull/3871
