@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc でも webrick を使う時に webrick がなかったら gem install を促すメッセージを出力して終了するようにしています。
