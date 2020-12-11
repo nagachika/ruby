@@ -1,0 +1,1 @@
+make test-spec の実行時の $LOAD_PATH に tool/lib を含めるようオプションを追加しています。
