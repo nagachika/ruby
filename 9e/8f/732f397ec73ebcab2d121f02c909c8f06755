@@ -1,0 +1,1 @@
+ b7dc04e51823f9fe8b5355c30a304ecdb11fe5ed で compile_compact_jit_code() のロックまわりの変更を revert してたのを復活させています。これも list_for_each_safe() を使うことで謎の SEGV が直ったからかな。
