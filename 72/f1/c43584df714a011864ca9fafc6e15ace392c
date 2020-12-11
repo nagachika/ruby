@@ -1,0 +1,1 @@
+Ractor を使っていると Ractor 間で特に共有するように指定されたオブジェクトでないと共有できないのですが、ObjectSpace._id2ref を使うと id から任意のオブジェクトの参照を得ることができてしまうので、複数 Ractor 起動後に shareable でないオブジェクトを取り出そうとした時には RangeError 例外が発生するようにしています。 RangeError なのか。
