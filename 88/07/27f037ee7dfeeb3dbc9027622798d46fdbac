@@ -1,0 +1,1 @@
+webrick の bundled gems 化により標準添付ライブラリ un.rb で require "webrick" が失敗した時の対応を追加しています。
