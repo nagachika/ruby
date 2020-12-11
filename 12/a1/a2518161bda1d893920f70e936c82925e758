@@ -1,0 +1,1 @@
+3319ce37651aa7e50c31b5fba14871938318b37a の struct rb_mjit_unit のメンバーの移動のリトライ。おそらく 16c765990ceaf5fb1efaeba2850083cfec7c137e で list_for_each_safe() を使うようにしたことにより SEGV が直せたということではないかと思います。
