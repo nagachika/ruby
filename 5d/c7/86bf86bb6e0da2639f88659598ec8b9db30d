@@ -1,0 +1,1 @@
+標準添付ライブラリ webrick を lib/webrick から tool/lib/webrick に移動してテスト用のツールという立ち位置で同梱するように変更しています。標準添付ライブラリ(default gems)からは外して bundled gems にするということですね。
