@@ -1,0 +1,1 @@
+rubygems で gem server で webrick を起動する時にその時点で require "webrick" するように遅延させて、さらに webrick がなかった時に gem install webrick するように促すメッセージを表示するようにしています。
