@@ -1,0 +1,1 @@
+MJIT で JIT unit の管理に使ってる ccan/list の list_for_each() のループ内で list_del() を呼ぶのはまずかったようなので list_for_each_safe() というマクロを使うように修正しています。
