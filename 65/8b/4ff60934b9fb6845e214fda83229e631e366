@@ -1,0 +1,1 @@
+4ccc66265cdef0480eb6ff46f6be9f8de1a01891 の rubygems での webrick 利用時の対処の再修正。チェックを Gem::Server.run で行なってたのを Gem::Server#initialize 内に移動しています。実際に使うメソッド内でチェックするようにしています。
