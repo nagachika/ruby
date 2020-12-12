@@ -1,0 +1,1 @@
+087ac34fb2f6fa74bd84a290d511f4d47a286119 で common.mk で make test-spec 実行時に mspec に -I./tool/lib のオプションを渡すようにしてましたが GitHub Actions の MinGW 版ではコマンドが直接書かれてたのでそこにもオプションを追加しています。 https://github.com/ruby/ruby/pull/3882
