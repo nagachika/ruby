@@ -1,0 +1,1 @@
+Process::Status.wait で waitpid(2) または wait4(2) がエラーを返した時には内部的な構造体にエラーを格納した状態の Process::Status を返してたのを rdoc の記述に合わせて nil を返すようにしています。
