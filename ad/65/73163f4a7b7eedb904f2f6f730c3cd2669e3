@@ -1,0 +1,1 @@
+make run や make runruby、make gdb や make lldb で ruby を起動する時に RUNOPT0 という変数で ruby のオプションを追加できるようにしています。
