@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に 1.0.4 を upstream repo からマージしています。いくつか C の型の定数の追加などがあるようです。 https://github.com/ruby/ruby/pull/3860
