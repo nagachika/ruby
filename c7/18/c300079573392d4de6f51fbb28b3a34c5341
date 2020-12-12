@@ -1,0 +1,1 @@
+8c5ec10038a9bbc328eeb3756da207ba5976072d の続きで addr2line.c で C のバックトレースを Debian などの distribution でビルドされているようにデバッグ情報が異なるファイルパスのファイルに分離されるようにビルドされている時に取得できるように対応しています。デバッグ情報って分離できるんだ。 https://github.com/ruby/ruby/pull/3627
