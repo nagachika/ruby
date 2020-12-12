@@ -1,0 +1,1 @@
+bb489aca5815acf3afd43ec9e3cdae008d882e3a で追加した C API rb_memory_view_prepare_item_desc() の prototype 宣言で戻り値の型も間違えてたので修正しています。こっちは気がつかなかったな。
