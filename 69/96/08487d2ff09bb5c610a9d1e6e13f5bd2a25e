@@ -1,0 +1,1 @@
+01b7d5acc702df22d306ae95f1a9c3096e63e624 の影響で VM 命令 getinstancevariable が割り込みされる可能性がなくなったので leaf = true に変更しています。MJIT 化で inline 化できるようになってこの意味でも高速化される余地ができますね。
