@@ -1,0 +1,1 @@
+Kernel#abort と Process.abort の rdoc 用コメントの位置を rb_define_global_function() などに渡してる関数の前のほうに移動しています。
