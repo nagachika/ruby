@@ -1,0 +1,1 @@
+067f45ecd379ea44f294084c8f342c69f735c018 で make test-all と同様に bootstraptest/runner.rb でも core ファイルを削除していたのを日時つきのファイル名に改名して一時ディレクトリに残していくようにしています。
