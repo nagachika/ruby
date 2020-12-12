@@ -1,0 +1,1 @@
+4a559aa22537bbd2f17c7babb1aca48d1a3a4647 の続きで GitHub Actions の MinGW での rubyspec 実行で ruby のオプションとして -I オプションを渡してましたが mspec へのオプションとして渡すように変更しています。
