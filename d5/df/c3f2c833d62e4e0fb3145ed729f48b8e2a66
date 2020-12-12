@@ -1,0 +1,1 @@
+rubygems, rdoc, un.rb で webrick がなかった時のメッセージ出力と終了を Kernel#abort メソッドを使うように書きかえています。
