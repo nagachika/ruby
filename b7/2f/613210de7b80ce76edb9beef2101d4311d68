@@ -1,0 +1,1 @@
+load.c の require_internal() で th という変数を EC_EXEC_TAG()/EC_POP_TAG() のセクションをまたいで使いまわしていたためいわゆる clobbered 警告が出ていたのを、別の変数を導入して使いまわさないようにして回避しています。
