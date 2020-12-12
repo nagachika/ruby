@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で C の関数宣言で NORETURN() のようにマクロ込みで宣言しているものを parse できるように正規表現を修正しています。 https://github.com/ruby/ruby/pull/3883
