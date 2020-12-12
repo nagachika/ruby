@@ -1,0 +1,1 @@
+GCC 8 以降でコンパイルした場合に rb_bug() などでの C のバックトレース表示で関数が抜けることがあったのを修正しています。 debug_info_reader_init() で DebugInfoReader::current_low_pc を 0初期化していなかったのを修正しています。デバッグ情報の DWARF の内容のエンコードのされかたが変化したので表出したみたいです。
