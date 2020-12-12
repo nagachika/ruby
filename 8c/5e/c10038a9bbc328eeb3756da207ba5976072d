@@ -1,0 +1,1 @@
+configure で ruby 本体に libz (zlib) をリンクするかどうかの判定に --compress-debug-sections=zlib が指定されたことというチェックがありましたが、Linux distribution のパッケージ向けにビルドする時には --compress-debug-sections=no が指定されているらしく、そうするとバックトレースを得るのに問題があるらしくて、常に libz をリンクするようにしています。 https://github.com/ruby/ruby/pull/3627
