@@ -1,0 +1,1 @@
+Process::Status.wait の rdoc 用コメントの位置を実際に rb_define_singlelton_method() に渡している rb_process_status_waitv() の前に移動しています。
