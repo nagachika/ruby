@@ -1,0 +1,1 @@
+rb_bug() などから呼ばれる rb_vm_bugreport() は MJIT の worker からも呼ばれるため GET_EC() が NULL の時に ruby のメソッド呼び出しのバックトレースの出力は抑制するようにしています。
