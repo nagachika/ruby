@@ -1,0 +1,1 @@
+TCPSocket.new にキーワード引数 connect_timeout を追加して connect(2) 可能になるまでのタイムアウトを指定して Errno::ETIMEDOUT 例外で中断できるようにしています。 [ruby-core:100139] [Feature #17187]
