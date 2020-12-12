@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TCPSocket.new の rdoc 用コメントに resolv_timeout というキーワード引数の記述が残ってましたが、たぶん getaddrinfo_a() 利用をやめた影響で使えなくなったので削除しています。
