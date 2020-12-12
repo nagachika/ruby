@@ -1,0 +1,1 @@
+699608487d2ff09bb5c610a9d1e6e13f5bd2a25e で VM 命令 getinstancevariable を leaf=true にしていましたが、Ractor 対応で入れたチェックのためやっぱり leaf にはできないということで戻しています。残念。
