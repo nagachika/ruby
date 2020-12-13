@@ -1,0 +1,1 @@
+GitHub Actions の MJIT 用テストの workflow のデバッグのため環境変数 RUN_OPTS に --jit-save-temps --jit-debug=-ggdb3 を追加しています。
