@@ -1,0 +1,1 @@
+numeric.c から不要になってた事前 prototype 宣言を削除しています。
