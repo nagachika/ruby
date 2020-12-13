@@ -1,0 +1,1 @@
+Fiber#raise を Fiber#transfer で起動されている Fiber でも受け付けるようにしています。 https://github.com/ruby/ruby/pull/3795
