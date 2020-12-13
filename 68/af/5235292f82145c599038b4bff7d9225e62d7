@@ -1,0 +1,1 @@
+GCC 11 で警告されるとのことで include/ruby/internal/core/rbasic.h のマクロ RBIMPL_EMBED_LEN_MAX_OF() の定義にかっこを追加しています。 [ruby-core:101381] [Bug #17385]
