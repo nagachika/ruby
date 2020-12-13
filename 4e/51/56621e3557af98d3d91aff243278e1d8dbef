@@ -1,0 +1,1 @@
+Process::Status.wait の rdoc 用コメントに子プロセスがいない状態で呼ぶと SystemCallError が発生すると書いてあったのを実装にあわせて nil を返すと記述を更新しています。
