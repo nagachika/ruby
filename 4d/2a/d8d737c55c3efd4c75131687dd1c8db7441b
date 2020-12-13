@@ -1,0 +1,1 @@
+configure.ac で AC_STRUCT_ST_BLKSIZE、AC_STRUCT_ST_BLOCKS、AC_STRUCT_ST_RDEV といった struct stat のメンバーの有無をチェックする専用のコマンド? を使っていたのは obsolete になったとのことで AC_CHECK_MEMBERS() を使って明示的にメンバー名を指定してチェックするようにしています。
