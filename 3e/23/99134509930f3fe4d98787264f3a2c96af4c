@@ -1,0 +1,1 @@
+MJIT の worker で struct rb_mjit_unit_list のリストから優先度の高い unit を取り出す get_from_list() というユーティリティ関数で GC 中だったら GC 完了するまで待つようにしています。
