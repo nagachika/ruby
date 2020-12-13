@@ -1,0 +1,1 @@
+sigaction() や posix_signal() に渡す関数ポインタの戻り値を RETSIGTYPE というマクロで定義してましたが、常に void なのでマクロ定義は削除して直接 void を書くようにしています。
