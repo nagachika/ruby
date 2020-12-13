@@ -1,0 +1,1 @@
+Ractor 間で共有可能にマークされたオブジェクトのインスタンス変数へのアクセスは main ractor でのみできるように制限していて、これを vm_getivar() でもチェックするように? しているのかな? 変更内容は vm_getivar() から fill_ivar_cache() や rb_ivar_generic_lookup_with_index() を切り出してるリファクタリングだけみたいで。ちょっとよくわかりませんでした。 shareable ってことは参照先も含めて freeze されてるんじゃないかと思ったのですが、条件分岐みると !RB_OBJ_FROZEN_RAW() と rb_ractor_shareable_p() が同時に含まれてるので違うのかな。
