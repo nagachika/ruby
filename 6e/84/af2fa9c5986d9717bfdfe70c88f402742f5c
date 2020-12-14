@@ -1,0 +1,1 @@
+1b45174aeaad4ab0e14b37f70d60a1d43ae21adc で GitHub Actions の MJIT 用テストのために ulimit -c の実行をしてましたが、この設定は shell 毎なので単発のコマンドとして実行しても効果がないので対象となる make test, make test-all, make test-spec の直前でそれぞれ実行するように書きかえています。
