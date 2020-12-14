@@ -1,0 +1,1 @@
+ractor.c の ractor_select() で rb_ractor_t::sync::wait::wakeup_status への代入と間違えて比較演算子になってたところを修正しています。
