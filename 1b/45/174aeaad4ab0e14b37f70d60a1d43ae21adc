@@ -1,0 +1,1 @@
+GitHub Actions の MJIT 用テストの workflow で ulimit -c を実行して core ファイルのサイズの制限を解除するようにしています。
