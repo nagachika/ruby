@@ -1,0 +1,1 @@
+test/ruby/test_lambda.rb の Kernel#lambda に is_lambda じゃない Proc オブジェクトを渡す警告を抑制するため一時的に Warning[:deprecated] を false にセットするようにしています。
