@@ -1,0 +1,1 @@
+rubyspec でも Kernel#lambda の警告を抑制するため suppress_warning を追加しています。
