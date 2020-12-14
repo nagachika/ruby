@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp のテストや test/ruby/test_thread.rb でテスト用に起動する Thread の後始末で停止を待つように Thread#join の呼び出しを追加しています。
