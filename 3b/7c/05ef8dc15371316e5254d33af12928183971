@@ -1,0 +1,1 @@
+tool/m4/ruby_rm_recursive.m4 の m4_version_prereq() というコマンドを使ってるところで行末に dnl によるコメントを追加しています。これはどういう意味があるんだろう(追記: 生成した configure に余計な改行を入れないようにするためとのことでした https://twitter.com/n0kada/status/1338096143037726721)。 また m4_version_prereq() の第2引数を -1 から空文字列に変更しています。m4_version_compare() からの変換で誤ってそのまま残されてたみたいです。
