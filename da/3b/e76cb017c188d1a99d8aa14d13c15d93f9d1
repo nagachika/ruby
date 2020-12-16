@@ -1,0 +1,1 @@
+debug counters に inline method cache の cache miss をその種類ごとにカウントする種別を追加しています。
