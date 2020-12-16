@@ -1,0 +1,1 @@
+magic comment に shareable_constant_value： true/false というのを追加して parse.y の構造体 struct lex_context の shareable_constant_value というビットフラグでその値をセットするようにしています。この時点ではまだ使用されてないです。 https://github.com/ruby/ruby/pull/3681 [Feature #17273]
