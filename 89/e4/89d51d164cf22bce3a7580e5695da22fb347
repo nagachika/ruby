@@ -1,0 +1,1 @@
+magic comment の shareable_constant_value を true/false の 2値ではなく none/literal/experimental_everything の 3種類の指定ができるようにしています。none は make_shareable を呼ばず、literal は右辺値がリテラルの時のみという意味でしょうが、この時点では none と同じ実装になってます(shareable_literal_constant() という関数を通すようにしているもののまだ return しているだけ)。
