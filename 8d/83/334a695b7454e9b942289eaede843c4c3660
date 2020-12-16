@@ -1,0 +1,1 @@
+246d7e4f1d92851356d459f424cbc3491135d1ac で bootstraptest/runner.rb で core ファイルがあった時に gdb でバックトレース出力させるために指定する ruby の実行ファイルを RbConfig.ruby で指定してたのをインスタンス変数 @ruby が使えるのでそれを使うようにしています。
