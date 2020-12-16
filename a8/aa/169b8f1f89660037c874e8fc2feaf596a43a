@@ -1,0 +1,1 @@
+967040ba59799e6b7891168ffbf37cc646988d84 で導入したメソッドキャッシュの negative cache のクリア回数の debug counters の項目を追加しています。
