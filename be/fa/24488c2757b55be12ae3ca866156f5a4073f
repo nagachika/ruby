@@ -1,0 +1,1 @@
+Exception クラスの rdoc 用コメントに Document-class タグを追加して正しくドキュメント生成するようにしています。
