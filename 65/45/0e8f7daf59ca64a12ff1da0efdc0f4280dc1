@@ -1,0 +1,1 @@
+f43c71abe07b4b2b0f8f9a69c567fcd0f38faef6 の続きで magic comment の shareable_constant_value: true が設定されてた時に定数に代入される値を Ractor.make_shareable というメソッドを通すようにしたのをやめて、VM が利用する処理をメソッド化したものを保持する内部的なモジュール RubyVM::FrozenCore に make_shareable というメソッドを生やしてこちらを使うようにしています。再定義されないようにということですかね。
