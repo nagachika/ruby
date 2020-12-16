@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の 2.0.0 を upstream からマージしています。BigDecimal#round の不具合修正などが含まれているようです。 https://github.com/ruby/ruby/pull/3905 [ruby-core:77333] [Bug #12780]
