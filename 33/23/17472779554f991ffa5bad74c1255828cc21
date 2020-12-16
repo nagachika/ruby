@@ -1,0 +1,1 @@
+89e489d51d164cf22bce3a7580e5695da22fb347 で追加した shareable_literal_constant() を具体的に実装してリテラルの種類に応じて shareable な値を返すようにしています。Array や Hash も各要素が全てリテラルなら再帰的に処理しているようです。
