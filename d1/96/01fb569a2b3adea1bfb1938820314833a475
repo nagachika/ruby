@@ -1,0 +1,1 @@
+f43c71abe07b4b2b0f8f9a69c567fcd0f38faef6 で追加した magic comment shareable_constant_value のテストで定数の値のチェックを frozen? ではなく Ractor.shareable? でチェックするように変更しています。
