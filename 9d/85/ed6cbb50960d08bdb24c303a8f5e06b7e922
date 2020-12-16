@@ -1,0 +1,1 @@
+tool/ruby_vm/views/mjit_compile.inc.erb の生成する case 文で分岐ごとに {} のかっこを生成するのを分岐の外側に移動してテンプレートをシンプルにしています。
