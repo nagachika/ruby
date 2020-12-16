@@ -1,0 +1,1 @@
+さらに Random::DEFAULT を参照した時に deprecation warning が出るようにしています。 [ruby-core:101124] [Feature #17351]
