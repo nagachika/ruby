@@ -1,0 +1,1 @@
+b1bd223085d7b97d8de8679894a81b7993c26b28 で追加した magic comment の shareable_constant_value が true にセットされているとその中では定数を定義するとその値が freeze されるようにしています。正確には Ractor.make_shareable メソッドが呼ばれるようになっています。
