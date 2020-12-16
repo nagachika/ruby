@@ -1,0 +1,1 @@
+Integer#bit_length の rdoc 用コメントを C のソースコードから integer.rb の ruby 実装のほうのメソッドの前に移動しています。
