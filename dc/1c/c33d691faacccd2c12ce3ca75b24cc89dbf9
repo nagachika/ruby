@@ -1,0 +1,1 @@
+b1bd223085d7b97d8de8679894a81b7993c26b28 の shareable_constant_value の parse.y での対応の再修正で shareable というルールを追加して struct lex_context::shareable_constant_value の値を返すだけのノードを代入系のルールに挿入してアクション部でこれを参照するようにしています。そして node_assign() 等の関数の引数に shareable フラグを追加して shareable_constant_value() にも引数でこのフラグの on/off を渡すようにしています。なんでだろう。局所的に on/off できるようにするためかな。
