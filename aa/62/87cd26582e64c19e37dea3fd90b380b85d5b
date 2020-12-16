@@ -1,0 +1,1 @@
+メソッド探索の rb_vm_search_method_slowpath() の引数に struct rb_call_data を渡していたのが Ractor 間の競合の問題があったそうでかわりに struct rb_callinfo を直接渡すようにしています。うろおぼえだけど call data はメソッドの呼び元ごとに固有の情報だったかな。また rb_vm_search_method_slowpath() の戻り値で struct rb_callcache を返すようにして処理を一段呼び元に引き上げるようにしているようです。
