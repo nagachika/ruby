@@ -1,0 +1,1 @@
+f43c71abe07b4b2b0f8f9a69c567fcd0f38faef6 で追加したテストに magic comment shareable_constant_value: false を指定したケースも追加しています。この magic comment は任意の行に書けるんですね。
