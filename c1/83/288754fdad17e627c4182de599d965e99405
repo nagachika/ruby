@@ -1,0 +1,1 @@
+Random::DEFAULT はひとつのインスタンスを Ractor 間で共有できないため 2db2fb9f6c742d5bd0019ccd11c7a375e1b12c0b で Ractor 毎に処理するように Random クラスそのものの別名になっていて非推奨なので rdoc 用コメントから記述を消すようにしています。 [ruby-core:101124] [Feature #17351]
