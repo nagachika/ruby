@@ -1,0 +1,1 @@
+mjit_worker.c の compile_compact_jit_code() で JIT unit のリストをループする時に for のリストを辿る部分のみ排他処理するようにしてたのをあきらめてループ全体を排他処理するようにしてましたが、ここでも ccan/list の list_for_each_safe() マクロを利用するようにして critical section を for のリストを辿る部分のみにするように戻しています。
