@@ -1,0 +1,1 @@
+拡張ライブラリ ripper で Ripper::Lexer._push_token の戻り値が間違ってた? のを修正しています。
