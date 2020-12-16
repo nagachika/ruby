@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の digest の同期処理の部分で lib/digest.rb をコピーする時のコピー先のディレクトリ指定に最後に "/" を追加しています。
