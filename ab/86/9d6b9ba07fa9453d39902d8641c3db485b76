@@ -1,0 +1,1 @@
+0362b4c689e319e233691ee052cd703bf8d2baa1 で追加した test/ruby/test_method_cache.rb の未使用変数の警告除去のため変数名の prefix にアンダースコアを追加しています。
