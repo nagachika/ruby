@@ -1,0 +1,1 @@
+f43c71abe07b4b2b0f8f9a69c567fcd0f38faef6 のさらに続きで magic comment shareable_constant_value: true が設定された時の定数の値の処理を rb_ractor_make_shareable() を呼ぶようにして再帰的に freeze するようにしています。
