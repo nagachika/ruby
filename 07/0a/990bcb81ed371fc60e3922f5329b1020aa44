@@ -1,0 +1,1 @@
+dc1cc33d691faacccd2c12ce3ca75b24cc89dbf9 のさらに続きで shareable_constant_value のフラグだけでなく struct lex_context の構造体全体を引数で取り回すようにしています。
