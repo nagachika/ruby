@@ -1,0 +1,1 @@
+カテゴリつきの警告を出力する rb_warn_deprecated() rb_warning_category_from_name() などの C API で利用するカテゴリを指定する Symbol に対応する ID を static 変数に保持するようにして都度 rb_intern() を呼び出すのをやめるようにしています。
