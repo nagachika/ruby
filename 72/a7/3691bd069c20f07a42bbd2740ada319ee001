@@ -1,0 +1,1 @@
+メソッド探索まわりの debug counters の項目追加や vm_search_invokeblock() で VM_CC_ON_STACK() マクロを使うのをやめてたり(なんでだろう)、関数を分割したりといったリファクタリング(?)。
