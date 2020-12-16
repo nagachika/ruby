@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Function#call の rdoc 用コメントの thread safety についての記述の記法をちょっと変更して、マークアップも修正しています。
