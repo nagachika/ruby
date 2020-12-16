@@ -1,0 +1,1 @@
+da3be76cb017c188d1a99d8aa14d13c15d93f9d1 の続きで inline method cache の cache miss の理由に結局同じ method entry になった場合の項目を追加しています。
