@@ -1,0 +1,1 @@
+Process::Status が最近の変更で T_OBJECT から T_TYPEDDATA に変化してインスタンス変数を使わなくなったために Marshal.dump した時のバイナリに互換性がなくなってたそうなので、互換性のために Marshal 用の dump/load 関数を追加しています。あれ、なんで T_OBJECT やめる必要があったんだろう。
