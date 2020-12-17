@@ -1,0 +1,1 @@
+5499651ee75538a4d8a3bb4a7442f5f59f36acd8 で分離した vm_setivar_slowpath() をさらに is_attr の有無で vm_setivar_slowpath_ivar() と vm_setivar_slowpath_attr() という wrapper 関数を導入しています。vm_setivar_slowpath() は inline 化されるようにして wrapper 関数のほうは常に inline 化させないような指定をしているので、コンパイラになんらかの最適化を促してるのかなぁ。
