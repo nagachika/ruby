@@ -1,0 +1,1 @@
+GitHub Actions の MJIT 用の workflow で 6e84af2fa9c5986d9717bfdfe70c88f402742f5c で shell 毎に効く ulimit の呼び出しを 1つのステップごとに呼ぶようにしたので step 名がどれも ulimit になっちゃったみたいで、明示的に名前をつけるように設定ファイルを修正しています。
