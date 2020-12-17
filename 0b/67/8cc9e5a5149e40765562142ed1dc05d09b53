@@ -1,0 +1,1 @@
+debug counters に vm_sync_xxxx という項目群を追加しています。 Ractor 間の同期のための排他処理関連のカウンタのようです。
