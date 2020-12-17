@@ -1,0 +1,1 @@
+Ractor#receive で引数に渡す Ractor の取得に RACTOR_PTR() を使ってたのを rb_ec_ractor_ptr() で呼び元の Ractor を渡すように修正しています。
