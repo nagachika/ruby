@@ -1,0 +1,1 @@
+MJIT の JIT unit のリストからの削除を mjit.c の mjit_recompile() で行なっていた部分が mjit_worker の thread との競合があったみたいで、この場で削除はせずに struct rb_mjit_unit::stale_p というメンバーを新設してこのフラグを立てておくようにして、実際の削除は mjit_worker() でフラグをみて実施させるようにしています。compile_compact_jit_code() で JIT unit のリストの操作の排他処理をしてたところと関連した SEGV の修正みたいです。
