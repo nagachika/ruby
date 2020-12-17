@@ -1,0 +1,1 @@
+MemoryView の実装の各所に RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() を追加して複数 Ractor から利用可能なようにしています。 https://github.com/ruby/ruby/pull/3911
