@@ -1,0 +1,1 @@
+Hash#transform_keys および Hash#transform_keys! の rdoc 用コメントに引数に Hash を渡した場合の仕様について追記しています。
