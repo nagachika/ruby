@@ -1,0 +1,1 @@
+同じく configure でコンパイラオプション -fstack-protector の有無を指定するのに Haiku では付けないようにする指定を追加(復活?)しています。
