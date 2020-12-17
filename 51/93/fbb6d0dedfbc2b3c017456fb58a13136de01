@@ -1,0 +1,1 @@
+既に存在していない rb_w32_pipe_exec() の prototype 宣言を include/ruby/win32.h から削除しています。
