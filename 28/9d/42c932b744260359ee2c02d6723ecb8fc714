@@ -1,0 +1,1 @@
+make_io_zombie() で make_zombie() の引数に渡す関数ポインタのキャストが不要として削って、また関数名も rb_io_fptr_finalize はマクロで rb_io_fptr_finalize_internal() の別名として定義されてるものだったので展開後の rb_io_fptr_finalize_internal のほうを使うようにしています。
