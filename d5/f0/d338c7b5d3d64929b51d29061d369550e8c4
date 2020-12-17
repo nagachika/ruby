@@ -1,0 +1,1 @@
+Enumerable#grep と Enumerable#grep_v で引数に正規表現(Regexp オブジェクト)が渡されてブロックが渡されてない場合には内部でのメソッド呼び出しは行なわず rb_reg_match_p() を直接呼ぶように最適化しています。 [ruby-core:99156] [Bug #17030]
