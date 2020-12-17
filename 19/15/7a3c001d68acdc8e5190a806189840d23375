@@ -1,0 +1,1 @@
+rb_bug() などでダンプするレジスタの情報などに ARM のサポートを追加しています。 https://github.com/ruby/ruby/pull/3900
