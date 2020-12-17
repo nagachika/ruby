@@ -1,0 +1,1 @@
+configure の Fiber 実装のための coroutine の実装を選択する部分で Haiku という BSD 系の OS で copy 版の実装を選択するようにしています。
