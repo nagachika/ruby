@@ -1,0 +1,1 @@
+拡張ライブラリ json でバージョンを ext/json/VERSION というファイルに記述するようにして gemspec ファイルからこれを読み込むようにしています。またバージョンを 2.4.1 に更新しています。tool/sync_default_gems.rb の同期処理も VERSION ファイルの追加に対応しています。
