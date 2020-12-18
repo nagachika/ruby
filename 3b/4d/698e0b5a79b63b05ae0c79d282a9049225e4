@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_pc_and_sp.erb で MJIT の JIT 用の C コード生成する時に pc の変更を出力するかどうかの判定に body->catch_except_p も条件に入れてたのを不要として削っています。C のソースコードを出力する C のソースコードを生成するための ERB のテンプレートなのでややこしいですがこの catch_except_p の判定は ruby プロセス実行時の iseq の情報ですね。
