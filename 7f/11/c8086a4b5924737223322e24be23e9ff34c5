@@ -1,0 +1,1 @@
+gc_enter() で起動理由を示す event が gc_enter_event_start または gc_enter_event_mark_continue の時(mark 処理する時)だけ rb_vm_barrier() で全 Ractor を停止させるようにしています。
