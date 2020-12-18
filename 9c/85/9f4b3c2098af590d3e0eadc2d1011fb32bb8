@@ -1,0 +1,1 @@
+f5ca3ff4dbcf5c140a77d1de5ff3fe3eed2d558d や 47328ad217ecaf240f0faedac89723dcd6a917ac のさらに続きで alias_error! に渡す token を get_cval() で子ノードを辿ったのを渡してましたが、そのまま渡すようにしています。渡した先で辿ってるのかな。 [ruby-core:101089] [Bug #17345]
