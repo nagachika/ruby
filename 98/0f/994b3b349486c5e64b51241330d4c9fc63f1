@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::CONF[:CONTEXT_MODE] に 4 というモードを新設してスクリプトを評価するのに使う Binding に TOPLEVEL_BINDING そのもののではなく dup したものを使うようにしています。 irb コマンドで sub-irb を起動するたびに Binding を分けるためみたいです。てことはローカル変数は sub irb には引き継がれなくなるのか……と思ったけど元から引き継がれてなかった。
