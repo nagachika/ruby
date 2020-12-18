@@ -1,0 +1,1 @@
+f5ca3ff4dbcf5c140a77d1de5ff3fe3eed2d558d の続きで alias でグローバル変数の $1 などの数字の引数への別名を作ろうとした時の alias_error! への引数の間違いを修正。 [ruby-core:101089] [Bug #17345]
