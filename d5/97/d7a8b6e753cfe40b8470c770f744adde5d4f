@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#reset_variables で kill_ring を常にリセットしてたのをやめています。リセットしなくていいのかなって感じですが https://github.com/ruby/irb/issues/85 の issue の修正のために必要だったようです。
