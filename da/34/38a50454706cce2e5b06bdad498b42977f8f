@@ -1,0 +1,1 @@
+91793b8967e0531bd1159a8ff0cc7e50739c7620 の GC.compact 追加時に導入された object_id を解決する cached_object_id() が Ractor 間で競合があるようなので RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() による排他処理を追加しています。
