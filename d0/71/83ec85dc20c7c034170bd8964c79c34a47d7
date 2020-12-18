@@ -1,0 +1,1 @@
+mjit_recompile() で struct rb_iseq_body::jit_unit が NULL の時に参照してしまってたのでチェックして処理をスキップするようにしています。
