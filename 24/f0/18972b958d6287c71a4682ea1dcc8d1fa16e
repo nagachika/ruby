@@ -1,0 +1,1 @@
+ractor_sleep() で割り込みを受けると rb_ractor_t::sync::wait::status がリセットされないので戻して、さらに rb_thread_check_ints() の呼び出しを追加しています。
