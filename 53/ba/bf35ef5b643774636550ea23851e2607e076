@@ -1,0 +1,1 @@
+VM 命令の getconstant を MJIT で JIT コンパイル時に inline 展開をサポートするようにしています。このため inline cache の更新時に mjit worker との間で排他処理するためのロック取得するようにしています。 https://github.com/ruby/ruby/pull/3906
