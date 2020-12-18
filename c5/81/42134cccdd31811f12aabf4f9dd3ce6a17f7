@@ -1,0 +1,1 @@
+debug counters のインクリメントが複数の Ractor 間で呼ばれると正しく更新されない可能性があったので、atomic 版の rb_debug_counter_add_atomic() という関数を追加して複数 Ractor 使用時にはこれを呼ぶようにしています。
