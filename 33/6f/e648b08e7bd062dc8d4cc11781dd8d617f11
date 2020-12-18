@@ -1,0 +1,1 @@
+irb のテストで TruffleRuby で動かないものを RUBY_ENGINE をチェックして skip するようにしています。
