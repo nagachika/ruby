@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の pathname の同期処理に lib/ のコピーを追加しています。
