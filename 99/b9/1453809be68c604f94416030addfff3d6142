@@ -1,0 +1,1 @@
+RGenGC のための write barrier で rgengc_remember() を呼ぶ前後に RB_VM_LOCK_ENTER_NO_BARRIER()/RB_VM_LOCK_LEAVE_NO_BARRIER() での Ractor 間の排他を行なうようにして、かわりに呼び元の rb_gc_writebarrier() でもっと広い範囲でロック取得していたのをやめています。ついでに(?) is_incremental_marking() が真の時のリトライの処理を消しています。こっちは Ractor は関係ないのかな。
