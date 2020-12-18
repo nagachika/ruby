@@ -1,0 +1,1 @@
+include/ruby/internal/intern/load.h に HAVE_RB_EXT_RACTOR_SAFE というマクロ定義を追加しています。特に利用はされてないので、拡張ライブラリで rb_ext_ractor_safe() を使っていいかどうか判定するために使うために追加したみたいです。既に RB_EXT_RACTOR_SAFE() という wrapper マクロがあるから、これが defined かどうかで判定しても良さそうですけどね。
