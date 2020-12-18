@@ -1,0 +1,1 @@
+VM 命令の属性の leaf の false という指定に leafness_of_check_ints というのも対応するようにして、この実装の場合は MJIT で命令の実装 で RUBY_VM_CHECK_INTS() マクロを呼ぶ時までに pc の移動を遅延するような C のコードを生成するようにしています。
