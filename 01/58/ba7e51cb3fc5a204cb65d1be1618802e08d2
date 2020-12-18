@@ -1,0 +1,1 @@
+標準添付ライブラリ reline でテスト用の(?) 環境変数 RELINE_STDERR_TTY で $stderr を上書きするのに IO#reopen を使っていたのが Windows ではうまくいかないということで Windows 環境では $stderr 変数そのものを新しく open した IO オブジェクトで上書きするようにしています。
