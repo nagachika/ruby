@@ -1,0 +1,1 @@
+vm_sendish() の最後の引数に関数ポインタを受け取ってたのをやめて enum による定数を渡すようにしています。これにより vm_search_invokeblock() や vm_search_method_wrap() という関数は不要になったので削除して vm_sendish() 内に処理を展開しています。最適化のためかなぁ。
