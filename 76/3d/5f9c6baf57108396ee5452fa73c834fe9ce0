@@ -1,0 +1,1 @@
+GC の設定をする環境変数のうち RUBY_FREE_MIN と RUBY_HEAP_MIN_SLOTS は既に deprecated で警告を出していたので、単に無視するように変更しています。
