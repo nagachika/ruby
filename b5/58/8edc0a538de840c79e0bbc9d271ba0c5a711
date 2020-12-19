@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の Init_openssl() にも rb_ext_ractor_safe() の呼び出しを追加して Ractor safe にしています。ただし OpenSSL::BN の実装が ossl_bn_ctx というグローバル変数の構造体を共有していたので、これを Ractor local storage で Ractor 毎に確保するように修正しています。がっつり 3.0 の C API に依存してるので古い ruby ではビルドできなくなってますね。
