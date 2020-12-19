@@ -1,0 +1,1 @@
+GC 中の状態のチェックのための関数 gc_verify_internal_consistency() に rb_vm_barrier() を追加して全 Ractor を一時停止させるようにしています。
