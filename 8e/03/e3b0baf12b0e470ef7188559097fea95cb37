@@ -1,0 +1,1 @@
+parse.y の一行メソッド定義の文法のアクション部で token_info_drop() を呼び出してたのを endless_method_name() という関数の中に移動して、def x.meth = ... のように特異メソッド定義時のルールで抜けてたのを修正しています。
