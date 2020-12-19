@@ -1,0 +1,1 @@
+gc_finalize_deferred() も Ractor 間で競合する可能性があったので RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() でロック取得するようにしています。
