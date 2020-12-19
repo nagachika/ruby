@@ -1,0 +1,1 @@
+6538c89f1c9d1af95c0fb3e58ac0e807a5fe47f4 で rb_vm_barrier() を追加した gc_verify_internal_consistency() ですが、VM 全体のロックを取得してから呼ばれることを期待していましたが実際にはロックせずに呼ばれる場合があったそうで RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() によるロックを追加しています。 RB_VM_LOCK_ENTER() はネストしたロック取得を許容するので既にロック取得していても大丈夫。
