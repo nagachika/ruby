@@ -1,0 +1,1 @@
+Module#public、Module#protected、Module#private などのメソッドで引数に配列で Symbol や String を受け取れるようにしています。また Module#attr_xxx 系のメソッドや Module#alias_method で定義したメソッド名を示す Symbol の配列を返すようにして、1文でまとめて private attr_reader :xxx のように書けるようにしています。 [ruby-core:100763] [Feature #17314]
