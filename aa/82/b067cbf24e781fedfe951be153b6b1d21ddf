@@ -1,0 +1,1 @@
+include/ruby/internal/interpreter.h に既に存在しない ruby_set_stack_size() の prototype 宣言が残ってたので削除しています。
