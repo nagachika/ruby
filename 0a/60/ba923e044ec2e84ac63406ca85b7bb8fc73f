@@ -1,0 +1,1 @@
+ここから 81739ad4fdfcc86a769056fec352f27c686fba1b の public/protected/private や alias_method、 attr_xxx の仕様変更を revert するための関連 commits の revert が続きます。 34f06062174882a98ebef998c50ad8d4f7fc0f2e のテスト追加を revert。
