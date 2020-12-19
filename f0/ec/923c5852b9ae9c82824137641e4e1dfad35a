@@ -1,0 +1,1 @@
+e53c0bc906c514ca6f0d40e2140dee1e23b4591e で GitHub Actions の MJIT テスト用の workflow でテスト時のオプションに追加した --jit-save-temps を削除しています。SEGV 時のバックトレースを得るために付けたそうですが効果がなかった模様。
