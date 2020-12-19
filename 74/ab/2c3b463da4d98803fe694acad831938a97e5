@@ -1,0 +1,1 @@
+61236770e6cc41f1364dc04249d845def03d9f37 で gc_finalize_deferred() に追加した VM ロック取得は finalilzing フラグの変数をセットした後に取得するようにします。このフラグ設定は ATOMIC_EXCHANGE() を使ってるので排他しなくても良いし、既に finalizing が真だった時にロックを解放せずに return してしまってたのでロックのリークの不具合がありました。
