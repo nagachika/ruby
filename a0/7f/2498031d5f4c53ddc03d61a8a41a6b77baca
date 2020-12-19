@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Init_socket() の先頭で rb_ext_ractor_safe() を呼んで socket は Ractor safe だと宣言するようにしています。 182fb73c40351f917bf44626c44c1adb6cb1aa5a で追加された C API で main Ractor 以外でも socket の提供するメソッドを使えるようにするためですね。
