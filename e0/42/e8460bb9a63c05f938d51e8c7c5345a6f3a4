@@ -1,0 +1,1 @@
+Module#public, #protected, #private と #alias_method の基本的テストがなかったので追加しています。また vm_method.c のスタイルの修正。
