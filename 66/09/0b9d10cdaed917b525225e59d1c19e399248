@@ -1,0 +1,1 @@
+81739ad4fdfcc86a769056fec352f27c686fba1b で rb_mod_attr_writer() および rb_mod_attr_accessor() で戻り値のために Symbol を作るのに rb_sprintf() で文字列オブジェクトを生成してたのをやめて ID2SYM() で取得するように効率化しています。
