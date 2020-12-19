@@ -1,0 +1,1 @@
+拡張ライブラリ strscan でも rb_ext_ractor_safe() の呼び出しを追加して Ractor safe だと宣言するようにしています。また子 Ractor から strscan のメソッドを使うテストも追加しています。
