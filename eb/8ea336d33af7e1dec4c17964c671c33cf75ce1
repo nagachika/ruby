@@ -1,0 +1,1 @@
+Module#public, #protected, #private の引数に Symbol や String の配列を受け取ることができるようにしています。 [ruby-core:100763] [Feature #17314]
