@@ -1,0 +1,1 @@
+拡張ライブラリ digest で metadata という内部的インスタンス変数で Digest::XXX 系のクラスに T_DATA 型のオブジェクトで wrap した情報がセットしている処理でオブジェクト生成するのを rb_digest_make_metadata() という関数に切り出すリファクタリング。
