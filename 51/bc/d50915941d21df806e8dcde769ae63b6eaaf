@@ -1,0 +1,1 @@
+Module#alias_method も戻り値に追加したメソッド名の Symbol を返すようにしています。 [ruby-core:100763] [Feature #17314]
