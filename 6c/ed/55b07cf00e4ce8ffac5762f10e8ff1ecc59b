@@ -1,0 +1,1 @@
+52fb696ee7d01b1d55a1d5c42c60c6a5ebfc4502 で導入した Warning category の定数から文字列への対応表の Hash オブジェクトを保持する warning_category_t_map を rb_ident_hash_new() で作るように修正。また warning_categories という変数で保持するテーブルを Symbol からこの定数への Hash に変更することで rb_warning_category_from_name() の実装をシンプルにしています。
