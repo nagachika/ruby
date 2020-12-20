@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::KillRing に Enumerable を include して each メソッドを定義しています。デバッグ時の利便性のためみたいです。
