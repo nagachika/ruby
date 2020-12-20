@@ -1,0 +1,1 @@
+Ractor::MovedObject というクラスを freeze してたのをやめています。 Matz の一声で「自分の足を撃つ自由」を残すほうがいいとのこと。 [ruby-core:101483] [Feature #17401]
