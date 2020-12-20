@@ -1,0 +1,1 @@
+8ec8f37566902c0167f736d345bb5c8cca6016d3 で vm_search_method_fastpath() の宣言にも inline 修飾子を追加していましたが、この宣言は既に ALWAYS_INLINE() マクロ内で行なわれていて冗長だったので削っています。
