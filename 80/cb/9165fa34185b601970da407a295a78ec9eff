@@ -1,0 +1,1 @@
+Ractor.make_shareable のキーワード引数の copy を追加して、オブジェクトツリーを freeze してそのまま共有可能にするかわりにコピーを作るようにしています。コミットログには make deep copied object とあるけど rb_ractor_make_copy_shareable() をみると渡されたオブジェクトは ractor_copy() してその後の traverse した参照先の処理は同じみたいだからそこは copy じゃなくて freeze されてるような?
