@@ -1,0 +1,1 @@
+b5588edc0a538de840c79e0bbc9d271ba0c5a711 で openssl を Ractor safe にしてましたが、実装が 3.0 で定義される C API が必須になっていたので HAVE_RB_EXT_RACTOR_SAFE マクロをチェックして新旧の実装を使い分けるようにしています。
