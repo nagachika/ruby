@@ -1,0 +1,1 @@
+attr_xxx メソッドの戻り値にこのメソッドによって追加されたメソッド名を示す Symbol の配列を返すようにする変更。81739ad4fdfcc86a769056fec352f27c686fba1b で行なわれて後に revert された変更の一部ですね。 https://github.com/ruby/ruby/pull/3935
