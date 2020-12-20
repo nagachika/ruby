@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#simplified_rendering? でプロンプトの表示のためにカーソルを動かしただけの場合に動的なプロンプトの再評価を抑制するようにしています。
