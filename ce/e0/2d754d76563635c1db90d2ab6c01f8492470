@@ -1,0 +1,1 @@
+Refinements と Module#prepend を併用した時にメソッドキャッシュをクリアし忘れていて期待しないメソッドが呼ばれる場合があった不具合の修正。 move_refined_method() に rb_clear_method_cache() の呼び出しを追加しています。 [ruby-core:101406] [Bug #17386]
