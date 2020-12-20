@@ -1,0 +1,1 @@
+拡張ライブラリ stringio でも rb_ext_ractor_safe() を呼び出して Ractor safe にしています。
