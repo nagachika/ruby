@@ -1,0 +1,1 @@
+まだ category のついてない警告のうち experimental な実装についての警告を rb_warn0L_experimental() というマクロを追加して category つきの警告にしています。
