@@ -1,0 +1,1 @@
+ractor.rb および ext/psych/yaml/yaml.h の行末の空白除去。
