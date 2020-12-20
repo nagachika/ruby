@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で BigDecimal#allocate メソッドを undef するのに rb_undef_method() を使ってましたが、専用の C API rb_undef_alloc_func() があるのでこちらを使うように修正しています。
