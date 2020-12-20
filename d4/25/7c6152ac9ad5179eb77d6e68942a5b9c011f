@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の em-kill-region のアクションで kill ring に追加する時の挙動を修正しています。
