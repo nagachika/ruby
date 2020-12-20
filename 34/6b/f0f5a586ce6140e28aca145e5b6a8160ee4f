@@ -1,0 +1,1 @@
+5944c4b3cfbbf8b774a4a76ca71ab9f71c71d1b0 で追加された rubyspec の attr_xxx の戻り値についてのテストを ruby_version_is で分岐させるようにしています。
