@@ -1,0 +1,1 @@
+89e489d51d164cf22bce3a7580e5695da22fb347 で magic comment の shareable_constant_value の値を literal にした時に定数に代入する相対がリテラルのみだった時に Ractor shareable にするというので literal かどうかの判定に間違いがあったようで修正しています。 [ruby-core:100466] [Feature #17273]
