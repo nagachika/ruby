@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::RubyLex でプロンプトの表示のために Ripper::Lexer#lex を複数回呼び出すのをやめる最適化。 cbf6a7f906d17968c8f54f4efb1899e9b204ccfe の修正は revert されてるけどいいのかな(master の ripper では不要な修正のはずですが)。
