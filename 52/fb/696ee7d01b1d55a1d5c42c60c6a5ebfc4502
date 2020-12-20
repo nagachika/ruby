@@ -1,0 +1,1 @@
+rb_category_warn() および rb_category_warning() の引数 category を文字列としてではなく enum 定数の rb_warning_category_t の型で受け付けるようにしています。このため rb_warning_category_t はの定義 include/ruby/internal/error.h に移動して公開 API になっています。
