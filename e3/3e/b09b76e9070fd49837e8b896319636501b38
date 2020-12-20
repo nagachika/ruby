@@ -1,0 +1,1 @@
+拡張ライブラリ ripper が予約語への代入でエラーを返さない問題の再修正で Ripper::Lexer の on_error メソッドを引数の数によって on_error1 と on_error2 に分けて event の種類で使いわけるようにしています。 [ruby-core:101089] [Bug #17345]
