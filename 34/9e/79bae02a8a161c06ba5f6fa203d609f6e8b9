@@ -1,0 +1,1 @@
+一旦 revert された 7cddb844e6d51f954c6669341b9cc656bd7d3492 の fileutils の verbose メッセージを stderr に出すようにした変更のリトライ。rake のテストが失敗したためだったので、bdd18090ad75cd5659b561890756c5e0b1227b69 で bundled gems の rake のバージョン更新したのでそれで直ってるのかも。
