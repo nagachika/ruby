@@ -1,0 +1,1 @@
+197550c9564d56372d4ea30dd3f17c8905072c21 で改名した .github/workflows/check_misc.yml に include/ruby/ 内のヘッダファイルに対応する HAVE_XXX マクロが定義されてるか? をチェックする workflow を追加しています。
