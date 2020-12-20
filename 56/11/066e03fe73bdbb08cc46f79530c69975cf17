@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_ivar.erb で JIT 用に実行時に生成する C コードで RB_OBJ_FROZEN() を使ってたところを RB_OBJ_FROZEN_RAW() を使って冗長な判定を省略する最適化。
