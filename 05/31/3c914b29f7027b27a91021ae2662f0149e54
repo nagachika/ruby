@@ -1,0 +1,1 @@
+まだ category が指定されてなかった警告のうち deprecation warning なものに deprecated category つきの警告出力にするようにしています。
