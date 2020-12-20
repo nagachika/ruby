@@ -1,0 +1,1 @@
+8ec8f37566902c0167f736d345bb5c8cca6016d3 で復活させた MJIT 用ヘッダ時の vm_search_invokeblock() の実装を rb_vm_empty_cc() にしてたのを struct rb_callcache::call_ に vm_invokeblock_i をセットしたものを返すように修正しています。92137718170118030a1f56303764d08201bf5c33 で消す前の実装に戻してる感じですね。
