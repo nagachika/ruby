@@ -1,0 +1,1 @@
+NEWS に Module#attr_xxx の戻り値に Symbol の配列を返すようになったことについて追記しています。また rdoc 用コメントの call-seq も追随させています。 [ruby-core:100763] [Feature #17314]
