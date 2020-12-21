@@ -1,0 +1,1 @@
+70f20234b297a7fc9940bace30101813aa9df052 で追加された assert_ractor を利用して標準添付ライブラリ matrix の Ractor を利用したテストを復活させています。
