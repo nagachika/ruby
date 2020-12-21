@@ -1,0 +1,1 @@
+さらに 9f08e3c703795e81d333d568e7e44743022468f1 で追加した irb の measure コマンドのテストで IRB.conf[:VERBOSE] を false にセットしておくようにしています。
