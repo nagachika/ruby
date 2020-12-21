@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#precs メソッドを deprecated にして警告を出力するようにしています。depcated カテゴリなのでデフォルトだと表示されないけど。
