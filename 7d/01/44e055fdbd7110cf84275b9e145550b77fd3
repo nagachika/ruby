@@ -1,0 +1,1 @@
+MJIT で JIT 用に実行時に生成する C のコードで割り込みの処理時に mjit_call_p というグローバル変数が偽だったら JIT コードの利用をやめるチェックを追加しています。そのかわり(?) tool/ruby_vm/views/_mjit_compile_insn.erb のほうで leaf_without_check_ints が真の命令では mjit_call_p のチェックを省略するようにしているようです。うーむ難解。
