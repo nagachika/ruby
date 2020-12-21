@@ -1,0 +1,1 @@
+.github/workflows/mjit.yml で core ファイルのダンプのために gdb のインストールするステップを追加しています。
