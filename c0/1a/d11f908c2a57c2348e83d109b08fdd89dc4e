@@ -1,0 +1,1 @@
+ff9e40811c67b1090966b655f7adc0684fc58abe で追加した拡張ライブラリ bigdecimal の BigDecimal#precision の実装関数で未初期化変数の警告を抑制するため明示的な初期化を追加しています。
