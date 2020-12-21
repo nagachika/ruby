@@ -1,0 +1,1 @@
+io.c の rb_thread_scheduler_wait_for_single_fd() の定義に static を追加しています。rb_thread_call_with_gvl() に渡すコールバック関数としての用途のみなので外部から呼べる必要はないので。
