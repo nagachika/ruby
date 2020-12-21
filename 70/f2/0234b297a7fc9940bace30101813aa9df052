@@ -1,0 +1,1 @@
+tool/lib/test/unit/core_assertions.rb に assert_ractor という assertion メソッドを追加して子プロセスで複数 Ractor 起動した状態で指定のスクリプト片を実行するようにしています。Ractor が存在しなければ実行しないようにする対処も含まれています。 [ruby-core:101247] [Feature #17367]
