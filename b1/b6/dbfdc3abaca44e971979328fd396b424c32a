@@ -1,0 +1,1 @@
+70f20234b297a7fc9940bace30101813aa9df052 で追加した assert_ractor で keyword rest 引数のまま扱ってた require を明示的なキーワード引数にしています。
