@@ -1,0 +1,1 @@
+parse.y の range_op() と parser_append_options() で NEW_GVAR() と NEW_GASGN() マクロの引数で rb_intern() していたのがマクロ展開後に 2回 rb_intern() を呼び出すようになってしまってたので、事前に呼び出した結果の ID を渡すようにリファクタリングしています。
