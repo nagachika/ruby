@@ -1,0 +1,1 @@
+struct RClass の定数テーブルは VM 全体で共有されるため、これにアクセスするコード部分は RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で排他処理して複数 Ractor での競合を避けるようにしています。
