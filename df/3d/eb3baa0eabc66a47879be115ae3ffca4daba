@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal に BigDecimal#n_significant_digits メソッドを追加。有効数字の桁数? を返しているようです。
