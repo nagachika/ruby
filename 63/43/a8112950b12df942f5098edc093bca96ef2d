@@ -1,0 +1,1 @@
+同じく 70f20234b297a7fc9940bace30101813aa9df052 で追加された assert_ractor を利用して拡張ライブラリ ostruct のテストで Ractor を使ったものも復活させています。
