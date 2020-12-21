@@ -1,0 +1,1 @@
+654f6fbf19c0ca2e01765a909b4d952b7f0f5baa で BigDecimal#precs を deprecated にした時に追加したテストで警告メッセージのチェックのため一時的に Warning[:deprecated] = true にセットするようにしています。
