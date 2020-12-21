@@ -1,0 +1,1 @@
+e1424c35012ccf1f3822c9046081b225aef4142e の続きで DBL_DIG+1 を定義してたマクロ DBLE_FIG を利用するようにリファクタリングしたうえで DBLE_FIG の定義を rmpd_double_figures() という inline 関数(内容は同じ)に置換するように変更しています。
