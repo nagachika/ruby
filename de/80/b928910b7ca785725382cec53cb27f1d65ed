@@ -1,0 +1,1 @@
+拡張ライブラリ pathname でも Init_pathname() に rb_ext_ractor_safe() の呼び出しを追加して Ractor safe にしています。 https://github.com/ruby/ruby/pull/3940
