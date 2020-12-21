@@ -1,0 +1,1 @@
+Windows 環境でファイル名など filesystem encoding に UTF-8 を使うようにする変更の続き。 [ruby-core:76693] [Feature #12654]
