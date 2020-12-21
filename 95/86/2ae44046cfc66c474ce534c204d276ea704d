@@ -1,0 +1,1 @@
+5b98b2ce39ed979aec614365a2dc3e1c30052bca のさらに続きで Windows 環境で readdir() にも UTF-8 を使うバージョンの API の wrapper 関数 rb_w32_ureaddir() を導入して readdir() をこれに置換するようにしています。 [ruby-core:76693] [Feature #12654]
