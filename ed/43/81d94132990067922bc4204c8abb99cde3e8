@@ -1,0 +1,1 @@
+rubyspec の BigDecimal#precs のテストで deprecated カテゴリの警告が出るようになったのに対応してとりあえず 3.0 ではテストしないようにしています。
