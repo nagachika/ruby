@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#to_d のデフォルトの precision を Float::DIG にしていたのを +1 しています。 Float との計算で期待した結果にならないことがあるという不具合があった模様。 [ruby-core:80234] [Bug #13331]
