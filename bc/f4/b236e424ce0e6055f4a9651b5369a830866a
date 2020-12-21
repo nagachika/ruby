@@ -1,0 +1,1 @@
+拡張ライブラリ racc/cparse の Init_cparse() にも rb_ext_ractor_safe() を追加して Ractor safe にしています。
