@@ -1,0 +1,1 @@
+5b98b2ce39ed979aec614365a2dc3e1c30052bca や 95862ae44046cfc66c474ce534c204d276ea704d の続きでファイル操作系の API の wrapper で rb_w32_xxx() のほう(UTF-8 版じゃないほう)を deprecated に宣言して、実装を共有するようにリファクタリングしています。
