@@ -1,0 +1,1 @@
+拡張ライブラリ monitor の Init_monitor() にも rb_ext_ractor_safe() を追加して Ractor safe にしています。
