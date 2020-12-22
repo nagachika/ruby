@@ -1,0 +1,1 @@
+76e88480371469400346fca609efe67096813915 で Ractor::MovedObject を freeze しなくなったので、このクラスの rdoc 用コメントから FrozenError 発生するサンプルを削除しています。 [ruby-core:101483] [Feature #17401]
