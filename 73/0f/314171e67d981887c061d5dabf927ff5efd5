@@ -1,0 +1,1 @@
+ractor.c の make_shareable_check_shareable() で traverse を止める判定に RB_OBJ_SHAREABLE_P() を使ってたのを rb_ractor_shareable_p() に変更しています。 rb_ractor_shareable_p() は rb_ractor_shareable_p_continue() の呼び出しも含んでて、その中でさらに rb_obj_traverse() して flags に RUBY_FL_SHAREABLE をつけているみたいなのでいいのかな。コミットログをみると shareable_p_enter() で T_CLASS/T_MODULE/T_ICLASS の時にその配下を辿らないようにしているのが必要だったみたいですが、よくわからず。
