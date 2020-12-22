@@ -1,0 +1,1 @@
+eval_error.c の print_backtrace() で --backtrace-limit の指定による抑制の判定が 1つずれているところがあったので修正しています。 [ruby-core:101561] [Bug #17413]
