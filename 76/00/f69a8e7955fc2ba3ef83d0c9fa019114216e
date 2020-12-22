@@ -1,0 +1,1 @@
+80cb9165fa34185b601970da407a295a78ec9eff で追加した ractor.c の rb_ractor_make_copy_shareable() を rb_ractor_make_shareable_copy() と改名しています。
