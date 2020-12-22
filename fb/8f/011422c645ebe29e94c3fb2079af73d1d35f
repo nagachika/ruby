@@ -1,0 +1,1 @@
+rdoc 用コメントや rubyspec で Integer の冠詞に a を使ってたところを an に修正しています。
