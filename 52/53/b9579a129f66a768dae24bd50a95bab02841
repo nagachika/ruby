@@ -1,0 +1,1 @@
+Array#[]、#slice の rdoc 用コメントや Enumerator::ArithmeticSequence クラスのコメントに引数に使えるという関係を明示的に追記しています。 https://github.com/ruby/ruby/pull/3952
