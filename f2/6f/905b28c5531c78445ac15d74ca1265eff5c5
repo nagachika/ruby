@@ -1,0 +1,1 @@
+MJIT に今まさにコンパイル処理中の ISeq をセットしておく変数 compiling_iseq を追加して、mjit_mark() でこれも mark して解放されないようにしておくようにしています。
