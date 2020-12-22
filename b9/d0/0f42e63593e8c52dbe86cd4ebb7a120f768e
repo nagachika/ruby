@@ -1,0 +1,1 @@
+09f939d3a0140478f2e547f45b4becd05247d360 の続きで process_options() で --help オプションによるヘルプメッセージを pager つきで表示する時に Windows 環境で GetConsoleMode() で ENABLE_VIRTUAL_TERMINAL_PROCESSING フラグが立ってるかでコンソールでの実行かどうか判定するようにしています。
