@@ -1,0 +1,1 @@
+コメントや rubyspec の it の引数の typo 修正と rubygems の gemcutter  関係のコードで環境変数 USER, USERNAME がなかった時のデフォルト値の typo の修正があります。
