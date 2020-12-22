@@ -1,0 +1,1 @@
+MJIT でコンパイルする ISeq が解放されるのを防ぐために mjit_mark() という関数で unit_queue リストが参照する ISeq を mark していましたが 143776f6fe1f050fe0806cb9e6810b05bf473956 の変更でこれが不要になってたようで mjit_mark() 関数は削除しています。
