@@ -1,0 +1,1 @@
+ractor.c の ractor_recursive_receive_if() で rb_ractor_t::receiving_mutex のロック保持してるかのチェックに rb_mutex_locked_p() を呼んでましたが、この関数は「誰かがロック取得しているか」のチェックで自分がロック取得しているかのチェックではなかったので、rb_mutex_owned_p() を呼ぶように修正しています。
