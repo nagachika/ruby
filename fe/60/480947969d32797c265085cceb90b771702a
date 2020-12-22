@@ -1,0 +1,1 @@
+11656d15e2c5d5779a637eaf5f388a5c18bef629 に続いて include/ruby/internal/xmalloc.h の Doxygen 用コメントの rb_eMemError を rb_eNoMemError に修正しています。
