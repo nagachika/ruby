@@ -1,0 +1,1 @@
+rubyspec に Fixnum や Bignum という名前を使ってるところがあったので全て Integer に置換しています。 Fixnum を参照した時の警告の spec まで置換してしまってるのもありますが。
