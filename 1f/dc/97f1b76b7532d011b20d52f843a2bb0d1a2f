@@ -1,0 +1,1 @@
+a574df14e45b8b5a1de7bfe949e08b61ae51b0bd で mjit_mark() を削除しましたが、再度追加して今度は active_units というリストの ISeq を mark するようにしています。
