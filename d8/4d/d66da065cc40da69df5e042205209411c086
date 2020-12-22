@@ -1,0 +1,1 @@
+test/readline/test_readline.rb で NotImplementedError の例外クラス名が typo (i が小文字になってた)してたのを修正しています。
