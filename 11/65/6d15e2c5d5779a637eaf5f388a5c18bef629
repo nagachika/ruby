@@ -1,0 +1,1 @@
+include/ruby/internal/xmalloc.h の Doxygen 用のコメントのタグで発生する例外を指定するものを @throw から @exception に変更しています。
