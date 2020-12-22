@@ -1,0 +1,1 @@
+rubyspec の spec 名(っていうのかな、it の引数)で string/symbol と並列して fixnum を Symbol の名称として扱う記述があったので削っています。
