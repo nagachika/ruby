@@ -1,0 +1,1 @@
+ブロックは基本的に Ractor 間をまたげないので TracePoint を Ractor 単位でイベント発火させるようにしています。つまり TracePoint を設定してから Ractor.new しても新しい Ractor でのイベントは発火しないってことですね。
