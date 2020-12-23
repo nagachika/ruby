@@ -1,0 +1,1 @@
+Random の rdoc のためにダミーの rb_define_method() の呼び出しを追加しています。
