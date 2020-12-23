@@ -1,0 +1,1 @@
+Ractor#to_s と #inspect の alias として定義を追加しています。
