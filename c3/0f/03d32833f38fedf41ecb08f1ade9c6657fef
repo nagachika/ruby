@@ -1,0 +1,1 @@
+Data クラスが r60930 684bdf6171b76f5bc5e4f05926a5ab01ec2b4fd5 で deprecated にされてしばらくたつので 3.0 ではもう削除することにしたようです。ただし C API としての変数 rb_cData は deprecated にされてなかったということで、改めて警告を出すようにしたうえで rb_cObject を参照するようにしています。
