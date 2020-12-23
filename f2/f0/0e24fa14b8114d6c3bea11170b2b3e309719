@@ -1,0 +1,1 @@
+拡張ライブラリ date の Init_date_core() に RB_EXT_RACTOR_SAFE() 呼び出しを追加して(マクロのほうを使うのか) Ractor safe にし、さらに Date のインスタンスをデフォルトで Ractor shareable にするようにしています。
