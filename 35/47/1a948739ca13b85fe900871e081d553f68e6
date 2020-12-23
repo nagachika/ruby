@@ -1,0 +1,1 @@
+Ractor#[] や Ractor#[]= で Ractor local storage を使えるようにメソッド追加しています。
