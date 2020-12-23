@@ -1,0 +1,1 @@
+vm_exec() の第2引数を int から bool に変更し、また TRUE/FALSE といった定数を利用していたところは true/false を利用するようにしています。
