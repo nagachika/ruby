@@ -1,0 +1,1 @@
+843fd1e8cfccdf1efcbb157315e267e4f380e030 で追加の Fiber#backtrace の rdoc 用コメントで Fiber 終了後に呼ばれた時の挙動についての説明を修正しています。 [ruby-core:101530] [Bug #17408]
