@@ -1,0 +1,1 @@
+doc/scheduler.md を doc/fiber.md とファイル名を変更して冒頭に通常の(blocking じゃない) Fiber の明示的に切り替える使いかたについての記述を追加しています。
