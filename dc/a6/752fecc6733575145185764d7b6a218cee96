@@ -1,0 +1,1 @@
+Ractor::IsolationError という例外クラスを追加して main Ractor 以外で shareable でないオブジェクトを参照しようとした時に RuntimeError や NameError のかわりにこの例外を発生させるようにしています。
