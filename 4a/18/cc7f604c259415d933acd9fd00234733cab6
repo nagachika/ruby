@@ -1,0 +1,1 @@
+NEWS に Binding#eval での __FILE__ の変更について追記しています。 [ruby-core:101595] [Bug #17419]
