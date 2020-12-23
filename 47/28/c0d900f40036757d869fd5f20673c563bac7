@@ -1,0 +1,1 @@
+Symbol#name の rdoc のためのダミーの関数定義(#if 0 ... #endif でコメントアウトされている)を string.c に追加しています。また Symbol#to_s に戻り値は freeze されてない(一方 Symbol#name は freeze された String を返す)ことを追記しています。
