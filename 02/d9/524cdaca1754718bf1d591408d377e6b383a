@@ -1,0 +1,1 @@
+構造体 rb_ractor_t から self, id と a2950369bd8a5866092f6badf59b0811653a6092 で追加した hooks メンバーを struct rb_ractor_pub という構造体に分離して埋め込むリファクタリング。 rb_ec_ractor_hooks() を inline 化して MJIT 対応するという目的もあったようです。
