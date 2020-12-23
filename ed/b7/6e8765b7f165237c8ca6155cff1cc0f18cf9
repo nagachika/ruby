@@ -1,0 +1,1 @@
+拡張ライブラリ json のバージョンを 2.5.0 に更新して JRuby 対応のため定数 JSON::SAFE_STATE_PROTOTYPE を復活させたり Ractor を使うテストを Ractor が使える時だけ実行するようにしたりという対応を追加しています。
