@@ -1,0 +1,1 @@
+rubyspec の rb_eFrozenError の定数を参照するかどうかの判定で RUBY_VERSION_IS_2_4 と RUBY_VERSION_IS_2_5 というマクロが使われていましたが、もう不要になった(2.4 以前を使わなくなった?)ので削除しています。
