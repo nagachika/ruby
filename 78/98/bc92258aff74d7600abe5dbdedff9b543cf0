@@ -1,0 +1,1 @@
+include/ruby/internal/globals.h から既に存在しなくなってた rb_cCont の宣言を削除しています。
