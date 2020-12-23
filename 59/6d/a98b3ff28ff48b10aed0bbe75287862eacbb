@@ -1,0 +1,1 @@
+JSON Module の create_id という attr を Thread local storage を使って管理するように実装を変更しています。 attr_accessor :create_id も消していいのではないかな、と思ったら後で消されてました。
