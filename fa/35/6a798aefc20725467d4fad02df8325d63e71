@@ -1,0 +1,1 @@
+Enumerator.new に引数としてオブジェクトとメソッド名を渡してブロックを渡さない呼び出しかたは deprecated になっていたので 3.0 でサポートするのをやめて ArgumentError が発生するようにしています。 [ruby-dev:50945] [Feature #17116]
