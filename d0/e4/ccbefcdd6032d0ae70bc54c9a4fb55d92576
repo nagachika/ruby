@@ -1,0 +1,1 @@
+Ractor.main というメソッドを追加して、main Ractor のオブジェクトを返すようにしています。 [ruby-core:101594] [Feature #17418]
