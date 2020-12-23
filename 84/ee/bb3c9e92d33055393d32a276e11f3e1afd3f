@@ -1,0 +1,1 @@
+configure で Solaris で -D_XOPEN_SOURCE フラグを追加する場合に C++ コンパイラにはこれを渡してはいけないそうで CXXFLAGS に -U_XOPEN_SOURCE オプションを追加して打ち消すように(?) しています。
