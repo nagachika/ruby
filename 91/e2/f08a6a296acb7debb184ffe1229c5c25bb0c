@@ -1,0 +1,1 @@
+rb_eRactorUnsafeError と rb_eRactorIsolationError の宣言に使う extern を RUBY_EXTERN に変更しています。 MJIT 用ヘッダのため。
