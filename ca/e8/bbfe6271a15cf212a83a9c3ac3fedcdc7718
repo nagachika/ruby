@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で PP モジュールの特異メソッドとして sharing_detection という attr_accessor で設定できるインスタンス変数がありましたが、VM 全体で共有されるため Ractor で相性がよくないので Ractor local storage を使って実装するように変更しています。
