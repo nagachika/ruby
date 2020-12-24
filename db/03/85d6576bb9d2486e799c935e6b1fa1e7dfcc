@@ -1,0 +1,1 @@
+MemoryView のテスト用の拡張ライブラリで format 文字列を StringValueCStr() 使ってたのを RSTRING_PTR() で取り出すようにしています。format は NUL 終端してなくてもいいのかな。 memory_view.c での扱いをみるとしてないといけなさそうだけど。
