@@ -1,0 +1,1 @@
+rb_memory_view_t 構造体のメンバー shape, strides, sub_offsets に const 修飾子を追加しています。
