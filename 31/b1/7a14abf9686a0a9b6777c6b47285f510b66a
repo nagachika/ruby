@@ -1,0 +1,1 @@
+パターンマッチで発生させる例外 NoMatchingPatternError の親クラスを RuntimeError から StandardError に変更しています。
