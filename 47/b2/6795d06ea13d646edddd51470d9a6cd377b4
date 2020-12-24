@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::RubyLex のリファクタリング? ちょっと意図がよくわかりませんでしたが process_continue、check_code_block、process_nesting_level、process_literal_type の引数を明示的に渡すのをやめて引数のデフォルト値としてインスタンス変数を参照するようにしています。暗黙の依存ができてあんまりよくないような気もしますが。
