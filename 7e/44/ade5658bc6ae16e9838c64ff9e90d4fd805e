@@ -1,0 +1,1 @@
+Ractor 起動時に cancel_single_ractor_mode() でグローバル変数の ruby_single_main_ractor をクリアするのを警告出力の前に変更しています。警告出力の呼び出しでオブジェクトが生成される可能性があって、それが TransientHeap を使わないモードにしないといけなかったので先にクリアしておく必要があったそうです。
