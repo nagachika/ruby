@@ -1,0 +1,1 @@
+299f5708a2274d069c624073ca3958f8625faf35 で Reline::Core の attr_accessor :ambiguous_width を attr_writer のみに変更していましたが、attr_writer は利用されてなかったので削除しています。
