@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_ivar.erb でインスタンス変数の読み書きの VM 命令を JIT コンパイルする際に生成する C ソースコードから status->max_ivar_index が struct RVALUE に埋め込める数を超えてた時に flags の ROBJECT_EMBED をチェックするコードを出力しないようにするという最適化。あるオブジェクトについて一度インスタンス変数のインデックスが確保されたら減ることはないので、コンパイル時点で埋め込めない数になってたら埋め込まれてるかのチェックは不要なため。
