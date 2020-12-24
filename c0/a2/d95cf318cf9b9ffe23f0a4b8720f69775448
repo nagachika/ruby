@@ -1,0 +1,1 @@
+rb_ractor_ensure_shareable() で rb_ractor_shareable_p() の戻り値を RTEST() でチェックしてましたが  rb_ractor_shareable_p() の戻り値は bool なので直接評価するようにしています。また shareable じゃなかった時に発生させる例外を Ractor::IsolationError にしています。
