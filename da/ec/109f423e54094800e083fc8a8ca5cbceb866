@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::Visitors::Visitor.dispatch_cache や Psych::Visitors::YAMLTree の @dispatch_cache で作る Hash オブジェクトに compare_by_identity を呼んで object_id で判定する Hash にするようにしています。高速化のためとのこと。
