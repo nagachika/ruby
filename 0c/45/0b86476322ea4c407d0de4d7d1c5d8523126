@@ -1,0 +1,1 @@
+parse.y の value_expr() で 第2引数の node が remove_begin() を通されるようになってたのをやめています。 begin ... end 節がリテラルと誤判定されるからとのことなので、shareable_constant_value: literal の時の判定の修正のためみたいです。
