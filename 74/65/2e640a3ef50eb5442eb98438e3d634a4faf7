@@ -1,0 +1,1 @@
+MemoryView の rb_memory_view_t 構造体の len メンバーを byte_size に改名しています。
