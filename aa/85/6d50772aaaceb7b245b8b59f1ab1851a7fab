@@ -1,0 +1,1 @@
+テスト用のユーティリティ EnvUtil の Warning[category] の保存と復旧のコードを古い ruby でも動くように defined? でのチェックなどを追加しています。
