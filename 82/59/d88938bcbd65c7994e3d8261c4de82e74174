@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Ractor を使うテストがで使っている assert_ractor が minitest では動かないということで Test::Unit::TestCase が未定義の時にはテストクラス全体の定義を消すようにしています。
