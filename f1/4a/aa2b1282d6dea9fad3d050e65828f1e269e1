@@ -1,0 +1,1 @@
+テスト用のユーティリティ EnvUtil の capture_global_values で Warning[category] の設定を記録しておくのを 3.0 以降でのみ実行するようにしていますが、2.7 でも Warning[category] は動くので 2.7 以降かな? default gem のテストでも EnvUtil 使えるみたいなので(そうだっけ)、gem のほうでのテスト時に古い ruby で動くようにするためみたいです。
