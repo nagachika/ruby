@@ -1,0 +1,1 @@
+magic comment の shareable_constant_value: literal が指定された時に定数に代入するのが完全なリテラルじゃなくて式を含む時もチェックするように? しています。
