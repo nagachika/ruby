@@ -1,0 +1,1 @@
+test/ruby/test_parse.rb に Ractor 関係のテスト用の専用 assertion メソッドなどのヘルパーメソッドを切り出しています。
