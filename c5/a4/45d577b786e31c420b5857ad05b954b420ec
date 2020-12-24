@@ -1,0 +1,1 @@
+3ee0ad919034fbc098939979c872d041a82c4334 の続きでやはり拡張ライブラリ psych の Psych の設定をクラスのインスタンス変数から Ractor local storage を使った実装に切り替えて、Init_psych() で RB_EXT_RACTOR_SAFE() の呼び出しも追加して Ractor safe にしています。
