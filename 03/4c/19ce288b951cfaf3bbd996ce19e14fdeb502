@@ -1,0 +1,1 @@
+拡張ライブラリ json を 2.5.1 に更新して定数 JSON::FAST_STATE_PROTOTYPE と JSON::PRETTY_STATE_PROTOTYPE も復活させています。たぶん JRuby のためかな。
