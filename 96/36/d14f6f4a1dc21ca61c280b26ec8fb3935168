@@ -1,0 +1,1 @@
+MemoryView の export しているオブジェクトを管理するために内部的に使う T_TYPEDDATA 型オブジェクトの解放関数 exported_object_registry_free() でテーブル操作を RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() でロックかけて Ractor 間の競合を避けるようにしています。mark 関数のほうは不要みたいですが解放関数は必要なんですね。lazy sweep だからかな。
