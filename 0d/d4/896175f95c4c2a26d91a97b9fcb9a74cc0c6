@@ -1,0 +1,1 @@
+rb_thread_atfork_internal() で fork で子プロセス起動した時に vm->ractor.blocking_cnt を 0 にリセットするようにしています。
