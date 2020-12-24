@@ -1,0 +1,1 @@
+ObjetSpace::WeakMap のオブジェクト生成の wmap_allocate() で st_init_table() を使ってたところに専用の rb_init_identtable() を使うようにリファクタリングしています。
