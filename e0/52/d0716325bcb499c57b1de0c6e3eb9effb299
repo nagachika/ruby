@@ -1,0 +1,1 @@
+0dd4896175f95c4c2a26d91a97b9fcb9a74cc0c6 の fork 時の vm->ractor.blocking_cnt のリセットを revert しています。 RUBY_DEBUG=1 に定義してビルドした時のテストがエラーになったとのこと。
