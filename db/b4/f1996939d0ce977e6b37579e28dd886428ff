@@ -1,0 +1,1 @@
+単項演算子メソッドの Integer#-@ と Integer#~ の実装を integer.rb からの builtin function 呼び出しに変更しています。 MJIT での inline 化による最適化がきくようにするのが主目的のようです。
