@@ -1,0 +1,1 @@
+拡張ライブラリ etc で static 変数を使った排他処理を Ractor 対応のため rb_nativethread_lock_t を使った mutex による排他処理に書き換えています。
