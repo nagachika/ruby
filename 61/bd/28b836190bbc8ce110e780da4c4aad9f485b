@@ -1,0 +1,1 @@
+tool/lib/test/unit/core_assertions.rb を default gems の gem 単体のリポジトリでのテスト時に動くように Test::Unit::Runner や MiniTest::Unit の参照を defined? でチェックするようにしています。
