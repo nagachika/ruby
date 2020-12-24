@@ -1,0 +1,1 @@
+diff はみてないですが magic comment の shareable_constant_value: literal で定数に代入される値がリテラルでなおかつ Ractor shareable じゃない場合? に SyntaxError を発生させてたのを、実行時に Ractor::Error を発生させるようにしているそうです。 Ractor shareable じゃないリテラルってなんだろ、と思ったら配列リテラルなどで要素に文字列どうしの concat の式があった時などのようです。あれ、これってリテラルのみじゃないって判定されるからチェック対象にならないんだと思ってた。エラーになるのか。 [ruby-core:101472] [Feature #17397]
