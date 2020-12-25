@@ -1,0 +1,1 @@
+ruby_atomic.h の atomic な操作をするための各種マクロを include/ruby/atomic.h に移動して拡張ライブラリからも利用できるようにしています。
