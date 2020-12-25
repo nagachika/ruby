@@ -1,0 +1,1 @@
+Fiber の non-blocking  fiber 関連のメソッドや定数、 Scheduler に定義すべきメソッドについてもダミーの(実際には定義しない)クラスを導入して rdoc 用コメントを追加しています。
