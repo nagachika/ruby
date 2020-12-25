@@ -1,0 +1,1 @@
+magic comment の shareable_constant_value の設定できる値に experimental_copy というのを追加して、定数に代入する値を deep copy して shareable にするようにしています。
