@@ -1,0 +1,1 @@
+DTrace 用の probes.d から method__cache__clear という probe の宣言(っていうのかな)を削除しています。 [ruby-core:97289] [Bug #16658]
