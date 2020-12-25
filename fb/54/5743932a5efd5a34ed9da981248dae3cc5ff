@@ -1,0 +1,1 @@
+テスト用の assert_syntax_error にキーワード引数の委譲用の keyword rest 引数を追加しています。
