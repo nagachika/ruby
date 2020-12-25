@@ -1,0 +1,1 @@
+rb_thread_atfork_internal() の Ractor 関係の処理を rb_ractor_atfork() という関数に切り出して ruby_single_main_ractor のリセットなど main Ractor のみでロックや barrier 関係の状態も初期化する処理も追加しています。
