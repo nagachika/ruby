@@ -1,0 +1,1 @@
+Module#public_class_method も attr_xxx と同様に引数に引数を受け取れるようになってたのでドキュメントと NEWS に反映させています。 [ruby-core:100763] [Feature #17314]
