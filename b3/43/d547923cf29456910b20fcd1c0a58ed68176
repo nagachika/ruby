@@ -1,0 +1,1 @@
+6ed6b85ece8733518a7da0c3ec714f20d1102bf5 で追加した include/ruby/atomic.h で preprocessor の分岐のために MSC_VERSION_SINCE() を使って MSVC のバージョンをチェックしていたのを RBIMPL_COMPILER_SINCE() というマクロを利用するように変更しています。
