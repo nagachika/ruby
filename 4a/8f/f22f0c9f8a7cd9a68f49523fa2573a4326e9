@@ -1,0 +1,1 @@
+parse.y の parser_yylex() で struct parser_params::lex::paren_nest の更新が漏れてた不具合を修正。 [ruby-core:101651] [Bug #17431]
