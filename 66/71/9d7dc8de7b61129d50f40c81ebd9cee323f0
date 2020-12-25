@@ -1,0 +1,1 @@
+6ed6b85ece8733518a7da0c3ec714f20d1102bf5 で追加した include/ruby/atomic.h を etc で利用するようにしています。3286380ebcc239b3fe1044884780162f1ee079fe で Ractor safe 化のために mutex を使うようにしたけどこっちのほうが軽いからということですかね。
