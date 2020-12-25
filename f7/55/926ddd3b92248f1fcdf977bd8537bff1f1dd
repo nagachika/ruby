@@ -1,0 +1,1 @@
+Module のテストで private_methods の結果の順序に依存しないように sort してからチェックするようにしています。
