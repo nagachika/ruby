@@ -1,0 +1,1 @@
+rb_ractor_thread_list() で RACTOR_LOCK()/RACTOR_UNLOCK() でのロック内で配列への push をしないようにして、事前に確保したメモリ領域にいったん詰めてからロック解放後に rb_ary_push() を呼ぶようにしています。
