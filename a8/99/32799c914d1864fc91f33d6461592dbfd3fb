@@ -1,0 +1,1 @@
+同じく 709d9cf1ba47d6df20ba067fdc8e92a7a817d1d3 で追加した tool/releng/gen-release-note.rb で _data/releases.yml (これは www.ruby-lang.org のソースコードに含まれてる設定ファイル)に依存しないようにしています。
