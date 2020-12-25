@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の StdioInputMethod#eof? で単に IO#eof? を呼ぶのではなくて IO.select で入力を待って getc でなにが取れるかをチェックするように変更しています。 --inf-ruby-mode というオプションをつけた時の対策らしいです。
