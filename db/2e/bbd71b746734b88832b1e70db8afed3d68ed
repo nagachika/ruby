@@ -1,0 +1,1 @@
+オブジェクトの hash 関数のデフォルト実装である rb_hash() でメソッド呼び出し時にみつかった method entry が指定した Class/Module のものの時だけ呼び出す rb_check_funcall_basic_kw() という関数を追加して、これで Kernel#hash メソッドを呼び出せれば呼ぶショートカットをしています。再帰チェックを省くためみたいです。 https://github.com/ruby/ruby/pull/3987
