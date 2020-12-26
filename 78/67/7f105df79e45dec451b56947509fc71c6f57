@@ -1,0 +1,1 @@
+configure で FreeBSD での DTrace サポートをデフォルトで off にするようにしています。 DTrace 対応するとビルドに失敗するみたいです。 https://github.com/ruby/ruby/pull/3999
