@@ -1,0 +1,1 @@
+Process::Status の実体である構造体 struct rb_process_status にメンバー error を復活させています。  子プロセスの終了ステータス取得時のエラーを non-blocking Fiber の scheduler に伝播させるため? ちょっとこのへん変わりすぎててよくわからないです。
