@@ -1,0 +1,1 @@
+debug.c で USE_RUBY_DEBUG_LOG マクロが未定義の時に STATIC_ASSERT() によるチェック内で参照していてビルドエラーになっていたのを修正しています。
