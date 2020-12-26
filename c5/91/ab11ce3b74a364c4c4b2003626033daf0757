@@ -1,0 +1,1 @@
+今年も matz による バージョンの更新のコミットです。 include/ruby/version.h の RUBY_API_VERSION_MINOR を 1 に更新しています。これから 3.1.0 の開発がはじまります。
