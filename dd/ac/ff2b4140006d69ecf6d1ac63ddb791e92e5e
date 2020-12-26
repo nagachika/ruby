@@ -1,0 +1,1 @@
+tool/lib/vcs.rb で安定版の ChangeLog 生成のために安定版ブランチの分岐開始地点のコミットを探索するのに git log から "has started" を探すようにしてましたが、c591ab11ce3b74a364c4c4b2003626033daf0757 のコミットログがいつもとちがって "started" だけだったので started だけで検索するようにしています。
