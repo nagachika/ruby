@@ -1,0 +1,1 @@
+09216f63ba29b777beda6d4691eb8067af0af5e2 で追加した test/test_trick.rb でソースコードから読み込む時に明示的に encoding に UTF-8 を指定するようにしています。
