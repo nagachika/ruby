@@ -1,0 +1,1 @@
+a01d28fed7de2682d23606346ffededf19eb42c9 で test/test_trick.rb の File.join に追加した timeout を削って assert_in_out_err につけなおしています。やっぱり File.join はおかしいですよね。
