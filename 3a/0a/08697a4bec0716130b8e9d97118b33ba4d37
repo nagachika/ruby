@@ -1,0 +1,1 @@
+GitHub Actions で古い ruby で rubyspec のテストを行なうための設定ファイル .github/workflows/spec_guards.yml に ruby 3.0 での実行も追加して、3.0 での実行では webrick のインストールが必要になるので gem install webrick を追加しています。
