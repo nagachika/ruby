@@ -1,0 +1,1 @@
+gc.c の変数 old_handler の定義に static 修飾子を追加。またいくつかの関数の定義のスタイルの修正と static でない関数の prefix に rb_ をつける改名。 make leaked-globals で誤検出されたものに対応するためみたいです。
