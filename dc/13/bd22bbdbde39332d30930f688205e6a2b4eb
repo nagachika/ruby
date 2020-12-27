@@ -1,0 +1,1 @@
+open_load_file() で fcntl(2) に F_SETFL で fd のフラグを落としている処理を disable_nonblock() という関数に切り出しています。Haiku での fcntl(2) の返す errno の仕様に対応するための修正みたいです。  https://github.com/ruby/ruby/pull/3723
