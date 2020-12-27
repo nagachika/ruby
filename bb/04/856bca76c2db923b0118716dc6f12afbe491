@@ -1,0 +1,1 @@
+lib/racc/info.rb のバージョンを示す定数 Racc::VERSION を 1.5.2 に更新しています。
