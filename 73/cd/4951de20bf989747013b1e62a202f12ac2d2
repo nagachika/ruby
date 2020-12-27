@@ -1,0 +1,1 @@
+GitHub Actions の workflow の matrix 設定から leaked-globals を削って make check の workflow で同時に実行させるようにしています。
