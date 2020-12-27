@@ -1,0 +1,1 @@
+09216f63ba29b777beda6d4691eb8067af0af5e2 で追加した test/test_trick.rb で子プロセスの終了や File.join にタイムアウトを設定しています。 File.join がタイムアウトするってどういうことだろ。
