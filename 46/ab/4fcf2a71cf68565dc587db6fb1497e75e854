@@ -1,0 +1,1 @@
+tool/leaked-globals で config.h の AC_FUNC_MEMCMP の有無をチェックして除外するシンボルに memcmp を追加するようにしています。
