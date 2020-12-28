@@ -1,0 +1,1 @@
+拡張ライブラリ readline で Windows 版で vcpkg でインストールした Readline に対応するため? に Readline に渡すコールバック用の関数の宣言に RUBY_EXTERN マクロを利用するようにしています。
