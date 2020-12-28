@@ -1,0 +1,1 @@
+win32/win32.c で定義している wait() の戻り値を int から rb_pid_t に修正しています。また宣言を include/ruby/win32.h に追加しています。
