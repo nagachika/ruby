@@ -1,0 +1,1 @@
+Memory View のテスト用の拡張ライブラリの関数内で変数  rb_memory_view_exported_object_registry と rb_memory_view_exported_object_registry_data_type の extern 宣言を明示的にしていたのを削除しています。
