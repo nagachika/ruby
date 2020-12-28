@@ -1,0 +1,1 @@
+tool/leaked-globals にさらに除外するシンボルとして main と DllMain (Windows 版の main かな?)を追加しています。
