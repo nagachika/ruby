@@ -1,0 +1,1 @@
+GitHub Actions での make leaked-globals での global なシンボルのチェックを .github/workflows/compilers.yml に移動して特定のコンパイラオプションで誤って export されたものをチェックできるようにしています。
