@@ -1,0 +1,1 @@
+Exception#full_message で例外のバックトレースつきメッセージを生成する時に --backtrace-limit の指定を効かせるようにしています。
