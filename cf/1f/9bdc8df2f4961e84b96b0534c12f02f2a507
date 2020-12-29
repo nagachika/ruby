@@ -1,0 +1,1 @@
+cont.c の non-blocking Fiber についての rdoc コメントの修正。ですが Fiber#to_s のドキュメントが消えたりしてますね。
