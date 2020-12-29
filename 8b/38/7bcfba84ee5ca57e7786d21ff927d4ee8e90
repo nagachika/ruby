@@ -1,0 +1,1 @@
+標準添付ライブラリ pp の gemspec で spec.required_ruby_version を 2.7 以降に引き上げています。
