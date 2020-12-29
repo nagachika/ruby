@@ -1,0 +1,1 @@
+Warning のカテゴリ名と対応する定数の対応付けを保持する warning_categories や warning_category_t_map といった変数で Hash オブジェクトを保持してたのを直接 st_table で管理するようにリファクタリング? しています。
