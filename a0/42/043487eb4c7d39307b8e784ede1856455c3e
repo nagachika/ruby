@@ -1,0 +1,1 @@
+tool/make-snapshot で make update 時に make extract-extlibs が実行されないようにして依存パッケージを同梱しないようにしています。
