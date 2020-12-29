@@ -1,0 +1,1 @@
+spec/ruby/shared/rational/exponent.rb のテストで警告をチェックする assertion を追加して警告が出ないようにしています。
