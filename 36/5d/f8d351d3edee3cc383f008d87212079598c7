@@ -1,0 +1,1 @@
+文字コード変換用のテーブル生成のツール tool/transcode-tblgen.rb でメッセージを STDERR でなく STDOUT に出力するようにしています。
