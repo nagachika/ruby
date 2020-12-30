@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の Kernel#BigDecimal() の rdoc 用コメントの第2引数のデフォルト値が書かれてなかったのを修正しています。
