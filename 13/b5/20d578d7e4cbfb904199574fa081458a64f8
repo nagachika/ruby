@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の ToValue() と BigDecimal_check_num() の例外発生するかどうか選べるバージョン VpCheckException() を導入して 使いまわすようにするリファクタリング。
