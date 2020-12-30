@@ -1,0 +1,1 @@
+2f42243bceb60043ca06448a2b419724be0e6d0a で make の -s/--silent オプションを make reconfig に伝播させる時に -s でなく --silent を使うようにしています。 config.status は -s をサポートしてないのかな。
