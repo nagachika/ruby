@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で stdbool.h がなかった時に bool, true, false などの代替の定義を追加するようにしています。
