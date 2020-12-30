@@ -1,0 +1,1 @@
+c715fb46c2d8eab48323a6008c5dbca550ebe2e0 の変更のうち dispatch_seq メソッドに追加した必須キーワード引数 ignore_error は削除しています。
