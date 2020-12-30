@@ -1,0 +1,1 @@
+tool/transcode-tblgen.rb のメッセージ出力を make の V=1 が指定された時だけ出力するようにしています。
