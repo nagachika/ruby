@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_str_convert_to_BigDecimal() や rb_convert_to_BigDecimal() などで構造体を wrap するオブジェクトの slot 確保を構造体自体のメモリを確保する前にしています。 d11b78f9c420f39ee800b9feed4839cd28f4ff5c のところのコメントで書いてた問題がこれで対応されていると思います。
