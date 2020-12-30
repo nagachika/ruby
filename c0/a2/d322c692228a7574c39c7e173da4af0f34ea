@@ -1,0 +1,1 @@
+make help で表示するヘルプメッセージの make sync-default-gems のところに GEM  変数に git ref 名? の指定もできることを書いています。
