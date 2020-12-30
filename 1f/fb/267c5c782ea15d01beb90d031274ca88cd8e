@@ -1,0 +1,1 @@
+78f188524f551c97b1a7a44ae13514729f1a21c7 で拡張ライブラリ socket の rsock_init_inetsock() に引数が追加されてたのに ext/socket/sockssocket.c の socks_init() の呼び出しで引数が追加されてなかったのを修正しています。マクロ SOCKS が定義されている時だけ使われる部分なので extconf.rb でオプションが渡されてないとコンパイルエラーにならなかったのではないかと思われます。  [ruby-core:100139] [Feature #17187]
