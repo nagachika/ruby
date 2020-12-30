@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の VpNewVarArg() をリファクタリングして変換元の型ごとの変換関数 rb_xxxx_convert_to_BigDecimal() に分解しています。 Kernel#BigDecimal() の実装も rb_convert_to_BigDecimal() を呼び出すように変更されています。
