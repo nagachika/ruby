@@ -1,0 +1,1 @@
+b9007b6c548f91e88fd3f2ffa23de740431fa969 のメソッドキャッシュの変更の影響で MJIT で各 Class/Module の再定義を検出するための class serial を MJIT の worker に伝えるための仕組みが不要になってたようで関連するコード削除しています。
