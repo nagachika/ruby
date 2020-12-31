@@ -1,0 +1,1 @@
+tool/leaked-globals で nurat_ および nucomp_ ではじまる関数名を除外するようにしてたのが b958e2add835d62c0a62edaf9a23ecbbd70a3635 で削除されて不要になったので正規表現から対応する部分を削っています。
