@@ -1,0 +1,1 @@
+0284e7ca62e55c160c84d3471e64765e612788ec で定義したマクロ RBIMPL_ATTR_INTERNAL() を RBIMPL_ATTR_DEPRECATED_SINCE() と組み合わせて RBIMPL_ATTR_DEPRECATED_INTERNAL() に変更して、deprecated になったバージョンも引数に受け取るようにしています。常にセットで呼ばれてたので分けてると attribute が重複して警告になる場合があったみたいです。
