@@ -1,0 +1,1 @@
+0284e7ca62e55c160c84d3471e64765e612788ec の変更時に include/ruby/backward.h の rb_mod_const_missing() の宣言から NORETURN() マクロが消されてしまってたので復活させています。
