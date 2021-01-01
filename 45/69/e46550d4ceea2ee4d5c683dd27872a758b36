@@ -1,0 +1,1 @@
+ext/bigdecimal/bigdecimal.c の ToValue() マクロを削除して直接 VpCheckGetValue() を使うようにしています。
