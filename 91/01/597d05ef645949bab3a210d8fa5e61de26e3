@@ -1,0 +1,1 @@
+d5fb51d2d3a7ba0e16042282d0f94c5336ed2cc1 および 93735f8fc0597b9f52e631739f68965ff8a4a81c で準備した timev.rb に Time.now の実装を移動して C 関数を __builtin で呼び出すようにしています。この時にキーワード引数 in に対応する必要があったので 0fbf4d0374e2cef84761985b043c2255e03f2ff2 で __builtin.arg! を追加したんですね。
