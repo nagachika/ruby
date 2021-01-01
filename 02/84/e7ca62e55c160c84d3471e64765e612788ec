@@ -1,0 +1,1 @@
+include/ruby/backward.h で C API の deprecated の警告を出すためのマクロ DECLARE_DEPRECATED_FEATURE() を RBIMPL_ATTR_DEPRECATED_SINCE() と RBIMPL_ATTR_INTERNAL() というメッセージの異なる 2つのマクロに分けています。関数の宣言自体をマクロの引数内に受けるようにしてたのをマクロ部分は修飾子として使えるようにしています。この前もマクロの引数に宣言を入れちゃうと未使用の警告が出たみたいなことがあったのでそういうコンパイラの警告抑制のためかな。
