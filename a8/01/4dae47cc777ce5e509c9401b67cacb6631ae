@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal のオブジェクト生成の関数 VpCreateRbObject() の引数に raise_exception を追加して rb_convert_to_BigDecimal() などの変換関数でもこの関数を利用するようにまとめています。
