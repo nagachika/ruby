@@ -1,0 +1,1 @@
+test/ruby/test_ast.rb に一行メソッド定義の AST についてのテストを追加しています。
