@@ -1,0 +1,1 @@
+de5f8a92d5001799bedb3b1a271a2d9b23c6c8fb に対応して 1e51027763ab2b96e9a1a0aecbe7d42e62d00fc6 で追加した test/ruby/test_ast.rb の一行メソッド定義の AST についてのテストに  ARGS ノードの存在をチェックする assertion も追加しています。 [ruby-core:101837] [Bug #17495]
