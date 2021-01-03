@@ -1,0 +1,1 @@
+Float#-@、Float#abs、Float#zero?、Float#to_f などの Float のメソッドをいくつか ruby 実装に移植しています。キーワード引数はないけど inline 化できるので高速化されるようです。 https://github.com/ruby/ruby/pull/4018 [ruby-core:101846] [Feature #17498]
