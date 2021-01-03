@@ -1,0 +1,1 @@
+b8d33df1d9799cd04b92c1c28e42cc3028cc7524 で追加した Enumerable#compact と Enumerator::Lazy#compact について NEWS  に追記しています。 [ruby-core:100753] [Feature #17312]
