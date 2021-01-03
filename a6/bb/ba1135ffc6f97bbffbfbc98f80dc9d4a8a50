@@ -1,0 +1,1 @@
+448a67cd812d0be0a7f1cc871daa598c3b846143 の bigdecimal での整数の変換の高速化で __builtin_ctzll は Solaris の SPARC アーキテクチャでは利用しないようにしています。
