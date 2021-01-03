@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装の builtin 関数呼び出しの命令をすりかえる compile_builtin_function_call() で __builtin.arg! の実装部分を compile_builtin_arg() に分離するリファクタリング。
