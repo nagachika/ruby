@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal のテストの BigDecimal.limit のテストメソッドの全体を BigDecimal.save_limit のブロックで括るように修正しています。このメソッド知らなかったな。
