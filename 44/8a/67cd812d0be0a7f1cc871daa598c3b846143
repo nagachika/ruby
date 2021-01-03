@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の Integer からの変換で 64 bits 整数からの変換で __builtin_clz や __builtin_clzl といったコンパイラの組み込み関数を利用した最適化などがありました。
