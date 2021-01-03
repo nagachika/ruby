@@ -1,0 +1,1 @@
+Enumerable#compact と Enumerator::Lazy#compact メソッドを追加しています。これまでは Array#compact しかなかったのか。 [ruby-core:100753] [Feature #17312]
