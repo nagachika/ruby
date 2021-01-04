@@ -1,0 +1,1 @@
+MJIT 用のコマンドラインオプション --jit-wait で MJIT worker のコンパイルを待つようにしている場合に RubyVM::MJIT.pause で worker を停止しているとハングアップしてしまう不具合を修正。worker 停止中は待っても無駄なので rb_mjit_wait_call() ですぐに return するようにしています。
