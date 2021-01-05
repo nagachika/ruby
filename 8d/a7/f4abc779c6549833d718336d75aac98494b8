@@ -1,0 +1,1 @@
+Proc.new の rdoc 用コメントからブロックなしの呼び出しの例を削除し、ブロックなしで呼ばれた時は ArgumentError が発生することを追記しています。 [ruby-core:66225] [Feature #10499] [ruby-core:91214] [Feature #15554]
