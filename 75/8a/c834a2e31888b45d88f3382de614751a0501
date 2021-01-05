@@ -1,0 +1,1 @@
+GitHub Actions の workflow 設定 .github/workflows/bundled_gems.yml を追加して tool/update-bundled_gems.rb で bundled gems の更新を検知するようにしています。
