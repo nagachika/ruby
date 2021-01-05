@@ -1,0 +1,1 @@
+0644f466b0ef017202712882b557ba32863002c4 で bigdecimal に #include RUBY_EXTCONF_H を追加したのを revert しています。 include/ruby/internal/config.h 経由で既に include してたからとのこと。
