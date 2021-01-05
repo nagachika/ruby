@@ -1,0 +1,1 @@
+tool/ifchange および win32/ifchange.bat に help オプションを追加して、また不明なオプションが指定されたらエラー終了するようにしています。
