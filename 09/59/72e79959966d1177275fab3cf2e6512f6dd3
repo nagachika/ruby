@@ -1,0 +1,1 @@
+メソッドが MJIT で JIT コンパイルする対象になるタイプやサイズを満たしてるかのチェックを mjit_exec_slowpath() から mjit_add_iseq_to_process() に移動して mjit_recompile() からの呼び出し時にもチェックされるようにしている? みたいです。 コミットログによると --jit-wait オプション指定時の worker の処理待ちが発生しないようにするためみたいです。
