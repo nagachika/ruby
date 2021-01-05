@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の deprecated になってた例外 TimeoutError と Kernel#timeout メソッドの定義を削除しています。
