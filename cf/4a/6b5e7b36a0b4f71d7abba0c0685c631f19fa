@@ -1,0 +1,1 @@
+common.mk の mjit_compile.inc への依存関係に 53babf35ef5b643774636550ea23851e2607e076 で追加した tool/ruby_vm/views/_mjit_compile_getinlinecache.erb を追加しています。
