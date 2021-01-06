@@ -1,0 +1,1 @@
+configure でターゲットのアーキテクチャが ARM で OS が Android の場合に __builtin_setjmp() はないものとして扱うようにしています。 [ruby-core:101917] [Bug #17511]
