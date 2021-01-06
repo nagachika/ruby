@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_getinlinecache.erb で生成する C のソースコード内で goto 文を使ってたのを、他では使ってないので使わないようにリファクタリングしています。
