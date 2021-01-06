@@ -1,0 +1,1 @@
+拡張ライブラリ ripper のノードの pretty_print 時に state の内容表示にも pretty_print メソッドを呼ぶように修正しています。
