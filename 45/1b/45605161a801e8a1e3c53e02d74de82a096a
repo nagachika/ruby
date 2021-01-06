@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#getpass の rdoc 用コメントに改行は削られることを追記しています。
