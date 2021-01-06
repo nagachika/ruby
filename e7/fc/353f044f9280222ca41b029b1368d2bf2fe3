@@ -1,0 +1,1 @@
+定数の inline cache を子 Ractor からも参照できるようにしています。 Ractor 毎にキャッシュを持つわけではなく iseq_inline_storage_entry から直接 struct iseq_inline_constant_cache_entry を持たずに T_IMEMO 型オブジェクトとして独立したものをポインタ経由で参照するようにしています。なんでこれでいいのかはよくわからず。   [ruby-core:101913] [Bug #17510]
