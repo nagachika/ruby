@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_getinlinecache.erb で利用している関数 vm_ic_hit_p() の引数の型が食い違っていたので vm_ic_hit_p() から vm_inlined_ic_hit_p() と抽出した関数を作って引数の型を合わせて、さらに e7fc353f044f9280222ca41b029b1368d2bf2fe3 の変更に追随させています。
