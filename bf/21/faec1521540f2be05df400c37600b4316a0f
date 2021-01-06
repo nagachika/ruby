@@ -1,0 +1,1 @@
+main.c の RUBY_DEBUG_ENV 定義時の stdio.h の include は不要(既に常に include されてる)なので削除しています。
