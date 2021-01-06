@@ -1,0 +1,1 @@
+configure でクロスコンパイル時に getprop コマンドで Android の API バージョンを取得するのをやめるようにしています。 [ruby-core:101819] [Bug #17491]
