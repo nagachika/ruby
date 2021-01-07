@@ -1,0 +1,1 @@
+gc.c のデバッグ用情報の表示のための関数 rb_raw_obj_info() で T_IMEMO 型の imemo_callcache サブタイプの時の表示内容を強化しています。
