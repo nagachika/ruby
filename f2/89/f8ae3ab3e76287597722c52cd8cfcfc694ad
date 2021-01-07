@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で Bignum で数値が 64bit  の範囲に収まるもののための専用の変換処理を追加して Kernel#BigDecimal などでの変換を最適化しています。
