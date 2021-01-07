@@ -1,0 +1,1 @@
+f289f8ae3ab3e76287597722c52cd8cfcfc694ad で rb_big_cmp() で数値の比較した結果は Fixnum でかえってくるので FIX2INT() で int に戻してから使うように修正しています。
