@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#method_missing で無引数だった時の実装が抜けてたのを修正しています。OpenStruct を継承したクラスからの super での呼び出し時に値が取れないことがあったらしいです。 https://github.com/ruby/ruby/pull/4028
