@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#getpass で取得した文字列を chomp する処理で rb_funcallv() で chomp! メソッドを呼び出した時に結果を再代入してしまっていたのをやめています。 chomp! は変更がない時に nil を返すので。
