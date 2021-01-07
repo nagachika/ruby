@@ -1,0 +1,1 @@
+rb_iseq_mark() で ISeq の mark 時にメソッド呼び出しの call cache が再定義によって無効になってるのを検出したら mark せずにその場で rb_vm_empty_cc() で上書きしてすぐに回収されるようにしています。rb_vm_empty_cc() は新規にオブジェクトを作ったりしないので mark 中でも使えるんですね。
