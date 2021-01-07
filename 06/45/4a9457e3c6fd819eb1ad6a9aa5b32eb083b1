@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に -a オプションを追加して、upstream から同期するコミットの範囲を自動で決定するようにしています。
