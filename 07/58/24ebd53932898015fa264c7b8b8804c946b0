@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で定数 REPOSITORIES の Hash からリポジトリ名を引くのを毎回実行しないで結果を変数に保存しておくようにリファクタリングしています。
