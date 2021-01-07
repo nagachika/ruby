@@ -1,0 +1,1 @@
+rb_proc_isolate()、rb_proc_isolate_bang()、rb_proc_ractor_make_shareable()、rb_ractor_make_shareable()、rb_ractor_make_shareable_copy() などの C API  を公開ヘッダに移動したり RUBY_SYMBOL_EXPORT_BEGIN/RUBY_SYMBOL_EXPORT_END で囲んだりして公開 API  にしています。Ractor 関係の便利 gem を作るためだそうです。また Ractor#[] で Ractor local storage を取得するための関数 rb_ractor_local_storage_value_lookup() も追加してこれも公開 API  にしています。
