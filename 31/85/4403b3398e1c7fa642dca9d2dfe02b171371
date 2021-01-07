@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の変換の高速化のために使う __lzcnt()/_lzcnt_u32()/_BitScanReverse() などの builtin 関数の存在をヘッダの存在有無だけでチェックせず全て have_func() で個別に存在チェックするようにしています。
