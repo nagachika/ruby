@@ -1,0 +1,1 @@
+ead8d89bd7fa11601c7d6678a2b9182b01263077 の続きで拡張ライブラリ io/console で String#chomp! メソッド呼び出しのための chomp!  を毎回 rb_intern() を呼び出してたのを ID を static 変数に保持しておくようにしています。
