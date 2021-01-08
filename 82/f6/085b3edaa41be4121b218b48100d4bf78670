@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の整数からの変換に使う rb_uint64_convert_to_BigDecimal() の精度の検出に末尾の 0 が連続する部分も含めてしまっていたようなので修正しています。
