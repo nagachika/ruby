@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の rdoc 用コメントのサンプルコードで require "uri"  を明示してたのは実際には不要(require "net/http" したらその中で require されるので)とのことで削除しています。
