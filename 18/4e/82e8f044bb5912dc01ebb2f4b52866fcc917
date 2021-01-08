@@ -1,0 +1,1 @@
+complex.c と rational.c で NDEBUG を #undef してから #define しなおすしぐさがあったのを削除しています。再定義警告を防ぎつつ常に定義するためにやってたのかな。
