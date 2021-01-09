@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#call_completion_proc でインデント幅が @cursor_max を超えないように修正しています。
