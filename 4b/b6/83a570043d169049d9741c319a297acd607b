@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::Irb#convert_invalid_byte_sequence で変数名の参照の typo があったので修正しています。
