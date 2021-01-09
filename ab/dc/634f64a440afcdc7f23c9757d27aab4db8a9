@@ -1,0 +1,1 @@
+internal/vm.h から rb_vm_call0()、rb_vm_call_kw()、rb_make_no_method_exception() などの宣言を削っています。使ってるところがなかった模様。
