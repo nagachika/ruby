@@ -1,0 +1,1 @@
+lib/irb/color_printer.rb に require 'irb/color' を追加しています。
