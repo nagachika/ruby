@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の vi mode の時の mode-icon という名前は mode-string のほうが適当だったそうなので変数名などを改名しています。
