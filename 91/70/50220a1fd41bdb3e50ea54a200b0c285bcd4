@@ -1,0 +1,1 @@
+irb で例外発生時に表示するバックトレースの向きを Exception#full_message を使うことで ruby 本体の挙動と合わせるようにしています。 [ruby-core:101665] [Bug #17466]
