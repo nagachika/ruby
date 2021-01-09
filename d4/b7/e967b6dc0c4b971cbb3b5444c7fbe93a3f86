@@ -1,0 +1,1 @@
+test/irb/test_completion.rb で assertion に assert_include を利用してエラー時のメッセージをわかりやすくしています。
