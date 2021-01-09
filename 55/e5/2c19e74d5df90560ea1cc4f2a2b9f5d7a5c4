@@ -1,0 +1,1 @@
+vm_insnhelper.c の VM_ASSERT() の引数に使う変数を宣言するため #if VM_CHECK_MODE > 0 で分岐を入れてましたが、変数定義してもここでしか使ってなかったので変数を使わず直接 rb_callable_method_entry() の呼び出しを VM_ASSERT() の引数内に入れるようにしています。
