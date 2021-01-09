@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::InputCompletor.retrieve_completion_data で正規表現でマッチしたグループの内容を Regexp.quote に通してたので余計なエスケープが含まれてたのを修正しています。
