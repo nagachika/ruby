@@ -1,0 +1,1 @@
+Enumerator::Lazy の rdoc 用コメントのサンプルや Object#then, #yield_self の rdoc 用サンプルで open-uri でサポートされなくなった Kernel#open での URL を開くコードが残ってたので URI.open を利用するように書きかえています。
