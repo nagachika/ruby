@@ -1,0 +1,1 @@
+missing/dtoa.c の pow5mult() 内のテーブル的に使う static 変数 p05 に const 修飾子を付加しています。
