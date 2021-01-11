@@ -1,0 +1,1 @@
+missing/dtoa.c のいくつかの細かな修正。まず strtod() で使われてる hexdigit が未定義の時の代替の定義で変数名が hexdigits と typo していたのを修正。また int や long の bit 幅の判定に SIZEOF_INT や SIZEOF_LONG を利用していたのを INT_MAX や LONG_MAX のビット演算で直接(?)判定するようにしています。それから一部のマクロを未定義の時の代替宣言を追加。また xmalloc()/xfree() を直接呼び出していたのを MALLOC/FREE マクロを利用するようにしています。なんだっけこれ。
