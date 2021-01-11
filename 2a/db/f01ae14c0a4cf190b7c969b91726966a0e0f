@@ -1,0 +1,1 @@
+missing/dtoa.c  で Bigint の linked list の操作や static 変数 p5s の更新を ATOMIC_PTR_CAS() を利用するようにして MT safe にしています。とはいえ list のほうは SEGV などしないようにしているということで実際に同じ list を別のスレッドから同時に触るようなことはなさそう。
