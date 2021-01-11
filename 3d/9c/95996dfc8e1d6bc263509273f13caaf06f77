@@ -1,0 +1,1 @@
+fb18a8113a549185938e3cf12b3494547d077558 と同様に拡張ライブラリ bigdecimal で T_RATIONAL なオブジェクトからの BigDecimal への変換処理で GetVpValueWithPrec() から rb_rational_convert_to_BigDecimal() を呼ぶ(元は反対でした)ようにリファクタリングしています。
