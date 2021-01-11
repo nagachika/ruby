@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_float_convert_to_BigDecimal() と rb_rational_convert_to_BigDecimal() に引数のオブジェクト型についてのチェックをする assert(3) を追加しています。
