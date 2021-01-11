@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の fb18a8113a549185938e3cf12b3494547d077558 や 3d9c95996dfc8e1d6bc263509273f13caaf06f77 の変更で GetVpValueWithPrec() で負の精度が指定された時にそのまま rb_float_convert_to_BigDecimal() や rb_rational_convert_to_BigDecimal() に渡してしまっていたので不正な値を渡してしまっていたので負の時は SIZE_MAX を渡すように修正しています。
