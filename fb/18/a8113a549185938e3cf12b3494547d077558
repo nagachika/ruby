@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の GetVpValueWithPrec() から変換元が Float の時の処理を rb_float_convert_to_BigDecimal() に委譲するようにして一部の処理は rb_float_convert_to_BigDecimal() のほうに移植するようにリファクタリング? しています。元は逆に rb_float_convert_to_BigDecimal() から GetVpValueWithPrec() を呼んでました。
