@@ -1,0 +1,1 @@
+bundled gems の更新チェックする GitHub workflow .github/workflows/bundled_gems.yml を削除しています。この workflow は GitHub Actions 実行専用のリポジトリに移動するそうです。
