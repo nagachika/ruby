@@ -1,0 +1,1 @@
+Hash クラスの rdoc 用コメントに Hash のメソッドリストを追加しています。 https://github.com/ruby/ruby/pull/4045
