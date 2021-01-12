@@ -1,0 +1,1 @@
+random.c の fill_random_seed() で変数 n の型を rb_atomic_t に変更して複数の thread から呼ばれた時に同じ seed を使ってしまうのを避けるようにしています。
