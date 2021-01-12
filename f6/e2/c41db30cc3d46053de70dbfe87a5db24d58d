@@ -1,0 +1,1 @@
+拡張ライブラリ etc の static 変数 passwd_blocking の更新を RUBY_ATOMIC_EXCHANGE() を利用するようにして MT-safe にしています。
