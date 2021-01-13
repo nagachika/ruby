@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_str_convert_to_BigDecimal() から StringValueCStr() を呼び出して NUL 終端した文字列にしてから後の処理を rb_cstr_convert_to_BigDecimal() として切り出すリファクタリング。
