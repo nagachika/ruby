@@ -1,0 +1,1 @@
+include/ruby/internal/arithmetic/ 配下の型を定義するヘッダで PRI_XXX_PREFIX のようなフォーマット指示子が定義されない場合の fallback 定義を追加しています。
