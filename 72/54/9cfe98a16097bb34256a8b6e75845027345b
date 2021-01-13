@@ -1,0 +1,1 @@
+コンパイラオプションをいろいろ変えてビルドする GitHub Actions の workflow .github/workflows/compilers.yml で -DENABLE_PATH_CHECK を追加するテストはコメントアウトしています。Windows 環境向けのマクロのためこの workflow は全て ubuntu 環境を使ってて意味がなかったからとのこと。
