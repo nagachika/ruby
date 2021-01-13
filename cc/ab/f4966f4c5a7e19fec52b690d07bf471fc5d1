@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_uint64_convert_to_BigDecimal() で精度計算の丸めの順序が間違っていたのを修正しているようです。
