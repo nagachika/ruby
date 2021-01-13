@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で 78d3813c74c3dd37eb3a7d5fa2fb096566c0b290 で切り出した rb_cstr_convert_to_BigDecimal() を GetVpValueWithPrec() の T_STRING 型および T_FIXNUM  型の時(sprintf() で文字列にしてから変換している)で利用するようにリファクタリングしています。
