@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct で OpenStruct#is_method_protected! でメソッドが Module から mixin されたものだった時の対応を追加しています。
