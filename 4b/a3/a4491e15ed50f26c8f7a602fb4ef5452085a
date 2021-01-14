@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_float_convert_to_BigDecimal() を一度 Rational に変換してから BigDecimal に変換していたのを BigDecimal_dtoa() で文字列化したものを元に変換するようにしています。高速化のためだそうです。
