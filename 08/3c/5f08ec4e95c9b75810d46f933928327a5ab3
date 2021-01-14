@@ -1,0 +1,1 @@
+Dir.glob に "**/*" を渡した時に配下のディレクトリツリーが深いと stack overflow になることがあるので stack_check() の呼び出しを追加しています。 [ruby-core:99967] [Bug #17162]
