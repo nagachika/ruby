@@ -1,0 +1,1 @@
+コマンドラインオプションの -w や -W で $VERBOSE や Warning[category] を指定した時に -r でロードしたスクリプトを実行する時に Warning[category] の指定は反映されてなかったので、rb_warning_category_update() の呼び出しを早めて -r で読み込んだスクリプト実行にも反映させるようにしています。 [ruby-core:101991] [Bug #17523]
