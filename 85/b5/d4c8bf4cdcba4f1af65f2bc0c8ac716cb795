@@ -1,0 +1,1 @@
+fac2498e0299f13dffe4f09a7dd7657fb49bf643 の defined?(super) で respond_to_missing? を呼び出してそれを反映させるようにしてたのを revert しています。 respond_to? の実装が super を呼んでると defined? が例外を発生させてしまってたようです。 [ruby-core:101912] [Bug #17509]
