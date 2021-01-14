@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の Kernel#BigDecimal() で nil, true, false などから変換しようとした時の例外メッセージをわかりやすくしています。
