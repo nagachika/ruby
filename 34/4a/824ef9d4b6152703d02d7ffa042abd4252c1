@@ -1,0 +1,1 @@
+Object#then の rdoc 用コメント内のサンプルで URI.open().read を使ってたのを URI().read を使うように書き換えています。URI#read のほうが昔からあるメソッドで、さらに open したまま close してないという問題もなくなるので。
