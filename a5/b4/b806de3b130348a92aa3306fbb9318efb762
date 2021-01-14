@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の Float からの変換で GetVpValueWithPrec() を呼ぶ時の digits 引数を 0 にしています。4ba3a4491e15ed50f26c8f7a602fb4ef5452085a の最適化により 0 を渡しても大丈夫になったみたいですね。
