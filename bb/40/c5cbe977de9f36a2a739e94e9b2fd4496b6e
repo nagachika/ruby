@@ -1,0 +1,1 @@
+parse.y の %i や %I でシンボルの配列を記述するリテラルで使う symbol_append() で配下の NODE が NODE_STR か NODE_DSTR 以外の時に compile_error() で例外発生させるようにしています。
