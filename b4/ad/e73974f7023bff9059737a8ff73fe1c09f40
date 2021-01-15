@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_uint64_convert_to_BigDecimal() で log10() に渡す引数を明示的に double にキャストするようにしています。
