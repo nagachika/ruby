@@ -1,0 +1,1 @@
+AST から VM 命令列 ISeq へのコンパイル時に catch table の先に nop 命令を追加する処理が不要な場合があったそうなので break/next/redo のための場合は省略するようにします。
