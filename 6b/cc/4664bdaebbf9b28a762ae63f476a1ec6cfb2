@@ -1,0 +1,1 @@
+parse.y の shareable_literal_constant() で NODE の nd_type を NODE_LIT に変更して子 node を差し替えてたのを、新規に NODE_LIT の NODE を作るようにしています。c060bdc2b4ab8eeef5374f4174f5de48ab936d74 でチェックしてた途中で NODE の nd_type を変更したことで mark 可能かどうかが変化してしまうパターンというのがここであったのではなかろうかと思います。
