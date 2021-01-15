@@ -1,0 +1,1 @@
+Fiber.current、Fiber#transfer、Fiber#alive? メソッドの実装を拡張ライブラリ fiber から ruby 本体の組み込みに移動しています。これにより拡張ライブラリ fiber はなくなりました。 [ruby-core:101529] [Feature #17407]
