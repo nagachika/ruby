@@ -1,0 +1,1 @@
+gc.c の ractor_cache_slots() と gc_sweep_start_heap() で Address Sanitizer 対応のため asan_unpoison_object()/asan_poison_object() を追加しています。
