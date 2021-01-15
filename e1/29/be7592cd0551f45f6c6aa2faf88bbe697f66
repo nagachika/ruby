@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で gcc で NO_SANITIZE というマクロを再定義して __no_sanitize__ という attribute を利用する時に出る警告を局所的に抑制するため _Pragma を利用するようにしています。
