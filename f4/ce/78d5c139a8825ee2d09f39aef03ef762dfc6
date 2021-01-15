@@ -1,0 +1,1 @@
+967040ba59799e6b7891168ffbf37cc646988d84 で Class/Module ごとのメソッドの negative cache というのを追加していましたが、その negative cache をクリアするタイミングの漏れがあったようで修正しています。
