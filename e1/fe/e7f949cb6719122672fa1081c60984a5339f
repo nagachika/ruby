@@ -1,0 +1,1 @@
+定数 RubyVM::MJIT を RubyVM::JIT に改名しています。実装としての MJIT のことは JIT って呼ぶようにしたほうがいいのかな(さすがにそれは一般的すぎるか)。 [ruby-core:101809] [Feature #17490]
