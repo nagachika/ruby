@@ -1,0 +1,1 @@
+compile.c の new_insn_send() で send 命令のための INSN 構造体を生成する時に new_callinfo() で生成した struct rb_callinfo が GC から保護されていなくて関数内で GC が発生すると誤って解放されるおそれがあったので RB_GC_GUARD() を追加して保護しています。
