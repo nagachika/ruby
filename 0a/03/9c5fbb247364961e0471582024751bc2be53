@@ -1,0 +1,1 @@
+BigDecimal_divide() で引数 r が T_FLOAT や T_RATIONAL のオブジェクトの時に rb_float_convert_to_BigDecimal() や rb_rational_convert_to_BigDecimal() を直接呼び出すようにリファクタリングしています。
