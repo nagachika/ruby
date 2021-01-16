@@ -1,0 +1,1 @@
+Module#prepend で既に同じ Module を include している Module/Class に prepend した時には継承ツリーに変更はせずそのままにしていたのを、常にその Module/Class の前に指し込むように移動するように仕様変更しています。Module#prepend 実装時からの挙動だったみたいですが、確かに本来の意図は変更後のような気はしますね。 [Bug #17423]
