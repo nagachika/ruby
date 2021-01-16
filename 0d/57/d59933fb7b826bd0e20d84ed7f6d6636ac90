@@ -1,0 +1,1 @@
+File.expand_path に渡した文字列の Encoding が全て UTF-8 でも、結果が US-ASCII の Encoding になってたのを入力の文字列の Encoding を保持するようにしています。これも長らくこういう挙動だったようですが、まあ、揃ってたほうが自然な気はする。 [ruby-core:101954] [Bug #17517]
