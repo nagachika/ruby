@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal_divide() の引数の順番を入れ替えるリファクタリング。
