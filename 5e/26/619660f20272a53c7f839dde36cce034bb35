@@ -1,0 +1,1 @@
+efcdf68e6443ab70fbff1703b9dabbfc5090df31 の続きで compile.c の new_insn_send() 内で struct rb_callinfo を GC から保護する変更で RGenGC のための Write Barrier が漏れてたのを修正しています。
