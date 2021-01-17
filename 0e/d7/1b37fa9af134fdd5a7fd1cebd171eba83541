@@ -1,0 +1,1 @@
+Class/Module ごとのメソッドキャッシュをクリアする clear_method_cache_by_id_in_class() で引数の klass が既に GC で mark されてなくて回収される予定(Lazy Sweep によりまだ実際に freelist 送りにはなってない)状態でも処理をしてしまって SEGV する可能性があったようなので、rb_objspace_garbage_object_p() で生きてるオブジェクトかチェックして sweep 予定だったら処理しないようにしています。 [ruby-core:102065] [Bug #17536]
