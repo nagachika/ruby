@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal_divide() と BigDecimal_DoDivmod() で整数からの BigDecimal の変換の場合に rb_inum_convert_to_BigDecimal() を使うように分岐を追加しています。
