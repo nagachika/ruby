@@ -1,0 +1,1 @@
+標準添付ライブラリ time の Time#rfc2822 の実装で Kernel#sprintf を使ってたのを Time#strtime を使うようにリファクタリングしています。
