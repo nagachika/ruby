@@ -1,0 +1,1 @@
+Array クラスの rdoc 用コメントにメソッド一覧を追加しています。うーむこれ全部のクラスにつけていくのかな。 https://github.com/ruby/ruby/pull/4062
