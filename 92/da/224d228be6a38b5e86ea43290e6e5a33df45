@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の gemspec ファイル(gem 名は io-console) に JRuby 向けにコマンドラインオプションに --platform が指定されていたらそれと検出して JRuby 向けに spec の内容を変更する対応を入れています。
