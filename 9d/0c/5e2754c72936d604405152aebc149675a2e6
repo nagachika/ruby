@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal_DoDivmod() で 0 の BigDecimal を返すために毎回オブジェクトを作っていたのを static に確保したオブジェクトを使いまわすようにしています。
