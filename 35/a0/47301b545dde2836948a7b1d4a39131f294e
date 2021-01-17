@@ -1,0 +1,1 @@
+92da224d228be6a38b5e86ea43290e6e5a33df45 で io/console の gemspec 内でコマンドラインオプション --platform の内容を取り出す処理を追加していましたが rubygems 3.2 以降では公式に --platform オプションに対応してるため不要だったそうで削っています。
