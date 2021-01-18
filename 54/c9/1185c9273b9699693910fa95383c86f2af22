@@ -1,0 +1,1 @@
+random.c で fill_random_bytes_urandom() の実装として getentropy(2) というシステムコールが使えたら使うようにしています。これは最近の macOS で提供されるシステムコールみたいです。
