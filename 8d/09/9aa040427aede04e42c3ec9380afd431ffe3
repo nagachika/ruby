@@ -1,0 +1,1 @@
+Struct.new で作った Class のインスタンスを作る時にキーワード引数のみで値を指定すると、1つの Hash として扱かわれるので警告を出力するようにしています。ただし Struct.new に keyword_init: true を指定して作った Class の場合は Hash としてではなくキーワード引数に対応する名前の attr に格納されて警告も出力されないし、逆に keyword_init: false を明示的に指定した時も警告は抑制されるようです。 [ruby-core:98014] [Feature #16806]
