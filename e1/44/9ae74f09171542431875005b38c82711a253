@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.erase_after_cursor で文字を削除した時にエスケープシーケンスのような文字の色などの属性も削除するため FillConsoleOutputAttribute() の呼び出しも追加しています。
