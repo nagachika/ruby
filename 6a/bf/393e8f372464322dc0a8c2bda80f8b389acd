@@ -1,0 +1,1 @@
+54c91185c9273b9699693910fa95383c86f2af22 で利用するようにした getentropy(2) ですが OpenBSD では getentropy(2) はあるけど sys/random.h というヘッダはないため、configure でヘッダの存在チェックも追加してなかったら #include しないようにしています。
