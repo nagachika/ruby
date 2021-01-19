@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の yamatanooriti.gem を使ったテストで Windows 環境での端末描画待ちの sleep の追加や sleep 時間の延長。
