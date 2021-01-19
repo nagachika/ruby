@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#just_move_cursor で EOF に自動的に改行が追加される挙動のために追加した対応 06c37fa5b4834c81470213a04dc73a63e69e9776 の一部を revert しています。なんか Windows の更新? により挙動が変わったみたいです。
