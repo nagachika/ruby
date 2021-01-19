@@ -1,0 +1,1 @@
+autoconf のバージョン 2.70 で configure 生成できるように configure.ac や tool/m4/ 配下のファイルの記法などを対応しています。結構変わりますね。
