@@ -1,0 +1,1 @@
+aclocal.m4 から tool/m4/ruby_type_attribute.m4 の m4_include を削除しています。
