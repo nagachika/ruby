@@ -1,0 +1,1 @@
+d290a02bd7035eb186eb5c275af4e1ddc20ad47f で追加した irb のテストが truffleruby で失敗するようで skip するようにしています。
