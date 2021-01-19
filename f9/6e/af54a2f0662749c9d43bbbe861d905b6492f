@@ -1,0 +1,1 @@
+8d099aa040427aede04e42c3ec9380afd431ffe3 で追加した Struct のテストで EnvUtil.verbose_warning を使うため? assert_warn を使ってないところがありましたが assert_warn を使うようにかきかえています。しかし tool/lib/test/unit/core_assertions.rb の定義をみると assert_warn は $VERBOSE = false にして実行するみたいなので assert_warning じゃないといけないんじゃないかな?
