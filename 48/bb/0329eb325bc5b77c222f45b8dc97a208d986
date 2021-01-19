@@ -1,0 +1,1 @@
+c32375883a696fcf8e9e99875f1339ee5474a255 で configure.ac の AC_PROG_CC_C99 をコメントアウトしていましたが古い gcc 向けに必要らしくて m4_version_prereq() で autoconf のバージョンチェックつきで復活させているようです。
