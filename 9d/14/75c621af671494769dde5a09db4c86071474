@@ -1,0 +1,1 @@
+numeric.c の rb_float_uminus() や rb_float_abs() の宣言に MJIT_FUNC_EXPORTED をつけて precompiled header に含めるようにしています。また numeric.rb の実装で実行する C の式を flo_iszero() から FLOAT_ZERO_P() に変更しています。MJIT で動かないのを修正しているようです。
