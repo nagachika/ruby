@@ -1,0 +1,1 @@
+pattern match の文法を VM 命令列にコンパイルする時に peephole optimization で必要がラベルが消されてしまうことがあったようで、ラベルを追加するところのほうに LABEL_UNREMOVABLE() というマクロを使って LABEL::unremovable をセットするようにしています。 [ruby-core:102061] [Bug #17534]
