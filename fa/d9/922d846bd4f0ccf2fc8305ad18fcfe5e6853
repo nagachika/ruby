@@ -1,0 +1,1 @@
+ac1a4bccbda4358436a7a907a7f09d047f562740 の Array#push の rdoc 用コメントの call-seq 追加を revert しています。 https://github.com/ruby/ruby/pull/4088 のコメント欄をみると rdoc の call-seq で alias を列挙するのはやめる方針になってたみたいですね。
