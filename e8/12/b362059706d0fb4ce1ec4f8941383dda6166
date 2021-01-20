@@ -1,0 +1,1 @@
+vm_method.c の invaldate_negative_cache() の関数名の typo を修正して invalidate_negative_cache() に改名しています。
