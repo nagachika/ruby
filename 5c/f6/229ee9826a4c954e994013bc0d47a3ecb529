@@ -1,0 +1,1 @@
+make test-spec の依存関係の main を program に変更しています。ruby 本体がビルドされてれば良いようにしてテスト開始にかかる時間を短縮するためのようです。 https://github.com/ruby/ruby/pull/4089
