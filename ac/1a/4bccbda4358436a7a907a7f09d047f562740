@@ -1,0 +1,1 @@
+Array#push の rdoc 用コメントの call-seq に別名である Array#append も追記しています。
