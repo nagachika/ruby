@@ -1,0 +1,1 @@
+b2159f7c38262f5d0746a3cfb9b33ea9d62ed813 で追加した irb のテストの setup と teardown で super を呼んでたのをやめています。また同様の Reline.get_screen_size の stub 追加を test/irb/test_context.rb でも行なっています。
