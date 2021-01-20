@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の gemspec ファイルに依存関係として ruby2_keywords を追加しています。
