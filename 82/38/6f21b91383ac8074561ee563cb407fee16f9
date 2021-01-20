@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::ColorPrinter.pp で引数 width のデフォルト値を固定の 79 から Reline.get_screen_size を使って端末のサイズから取得するようにしています。
