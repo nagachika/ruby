@@ -1,0 +1,1 @@
+Module#ruby2_keywords で defined_method にブロックを渡して定義されたメソッドの時に早期に return しすぎて rest 引数の最後の Hash がキーワード引数として扱われる特別処理が行なわれなくなっていた不具合を修正しています。 [ruby-core:102153] [Bug #17558]
