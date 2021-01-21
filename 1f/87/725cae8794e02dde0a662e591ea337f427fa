@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::ColorPrinter.pp 引数のデフォルト値を得るために Reline.get_screen_size を呼ぶ処理はクラスメソッド IRB::ColorPrinter.screen_width に切り出して Errno::EINVAL 発生時に前のデフォルト値 79 に fallback るようにしています。
