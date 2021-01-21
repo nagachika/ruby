@@ -1,0 +1,1 @@
+定数に値を設定する rb_const_set() で代入する値のほうの Class/Module が freeze されていると名前を再設定するための 内部的インスタンス変数 __tmp_classpath__ の変更で freeze チェックされて FrozenError が発生してたので、チェックを迂回する ivar_set() を利用してセットするように修正しています。 [ruby-core:102172] [Bug #17563]
