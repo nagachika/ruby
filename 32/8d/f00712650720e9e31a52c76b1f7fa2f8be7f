@@ -1,0 +1,1 @@
+irb の IRB::ColorPrinter についてのテストを test/irb/test_color.rb から test/irb/test_color_printer.rb ファイルに分割しています。
