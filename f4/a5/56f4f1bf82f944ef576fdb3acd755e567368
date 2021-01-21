@@ -1,0 +1,1 @@
+328df00712650720e9e31a52c76b1f7fa2f8be7f のテストのファイル分割で不要になった test/irb/test_color.rb 内の setup と teardown メソッド定義を削除しています。
