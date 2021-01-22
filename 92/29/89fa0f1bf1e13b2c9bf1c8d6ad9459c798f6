@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB.new で deprecated になっている省略可能引数として与える safe_level、legacy_trim_mode、legacy_eoutvar が渡された時の警告を $VERBOSE によらず常に出力するようにしています。 [Feature #14256]
