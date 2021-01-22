@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルでの version の指定やコマンドの --version での出力に使うバージョンを lib/erb/version.rb から得るようにしています。
