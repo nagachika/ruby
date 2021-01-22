@@ -1,0 +1,1 @@
+5f7df72b56ebb741dcc1935897a79f42bc077bcf の erb の gemspec で erb/version.rb を読み込むのに ruby 本体の標準添付ライブラリの場合のための require_relative のパスが間違ってたのを修正しています。
