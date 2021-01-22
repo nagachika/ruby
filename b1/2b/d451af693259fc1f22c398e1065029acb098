@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB.version はバージョンのほか cvs の自動更新されるタグを使った定数 ERB::Revision も含めた文字列を返してたのを ERB::VERSION をそのまま返すように変更しています。
