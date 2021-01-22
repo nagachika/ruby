@@ -1,0 +1,1 @@
+Array と Hash クラスの rdoc 用コメントに Enumerable を include していることを追記しています。
