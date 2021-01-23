@@ -1,0 +1,1 @@
+0130e17a410d60a10e7041ce98748b8de6946971 で GC.compact 中かどうかで処理を分けるのをやめる変更の続きで lock_page_body() および unlock_page_body() でも同様にメモリ領域に protect をかける処理が明示的な GC.compact では実行されないようになってるままだったのでチェックを削除しています。
