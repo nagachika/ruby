@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix に Matrix#rotate_entries という、その名のとおり行列を時計回りに90度回転させるように入れ替えた Matrix を返すメソッドを追加しています。引数で :clockwise, :half_turn (180度回転), :counter_clockwise で向きの指定もできるようです。
