@@ -1,0 +1,1 @@
+ractor.c の ractor_sleep_interrupt() 内の処理を ractor_wakeup() を使いまわすようにリファクタリングしています。
