@@ -1,0 +1,1 @@
+RGenGC 用の write barrier をセットする rb_gc_writebarrier() で is_incremental_marking() が真なので gc_writebarrier_incremental() を呼ぼうと VM のロックを確保した後でもう一度  is_incremental_marking() をチェックして偽になってたらロック解放して最初からリトライするようにしています。
