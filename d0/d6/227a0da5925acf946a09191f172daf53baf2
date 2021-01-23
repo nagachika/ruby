@@ -1,0 +1,1 @@
+ractor_select() の引数 alen を rs_len と改名して変数 alen は yielded_value に値が渡されてたら +1 した数値を格納しておくリファクタリング。変数名の内容が意味と一致するようにするためのリファクタリングかなぁ。restart ラベルの位置を変更しているところは処理が変わりそうですが元々冗長な actions の ractor_select_action_yield 用のスロットを埋める処理を飛ばすためで副作用はなさそう?
