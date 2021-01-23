@@ -1,0 +1,1 @@
+configure で aarch64-darwin という環境で target_cpu を arm64 に変更するようにしています。 ARM 版 mac で cpu のアーキテクチャ指定の文字列に揺れがあるみたいですね。config.sub が aarch64 に変更してしまうとのこと。
