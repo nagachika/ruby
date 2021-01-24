@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の ChangeLog 生成のための git log 取得の --format オプションを fuller に変更しています。
