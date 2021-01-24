@@ -1,0 +1,1 @@
+configure 時に target_os が emscripten の時に -s ALLOW_MEMORY_GROWTH=1 というオプションをリンカに渡すようにしています。また -lm -lc を明示的に渡す必要もあるようです。
