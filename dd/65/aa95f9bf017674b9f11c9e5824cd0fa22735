@@ -1,0 +1,1 @@
+bignum.c で LONG2FIX() に渡す引数を明示的に long に cast するようにしています。BDIGIT_DBL の型が long long の場合に警告が出るのでそれを抑制するためとのこと。
