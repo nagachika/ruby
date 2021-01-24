@@ -1,0 +1,1 @@
+emscripten では pthread_kill() が使えないとのことで Thread 実装で GVL をはずしてブロックする処理をしているスレッドを起こすのに SIGVTALRM シグナルを使う実装を利用しないようにしています。
