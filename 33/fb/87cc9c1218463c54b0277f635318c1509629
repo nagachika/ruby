@@ -1,0 +1,1 @@
+emscripten では popen(3) が使えないということで __EMSCRIPTEN__ マクロの有無によって pipe_open() を NotImplementedError を発生させる実装に変更しています。
