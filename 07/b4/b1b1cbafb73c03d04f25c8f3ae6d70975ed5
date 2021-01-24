@@ -1,0 +1,1 @@
+macOS の universal binary の時の coroutine/ の実装を追加しています。universal を選択するとソースコード内で CPU アーキテクチャを示すマクロをみて必要なソースコードを #include するようにしています。
