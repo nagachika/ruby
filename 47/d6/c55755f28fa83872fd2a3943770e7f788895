@@ -1,0 +1,1 @@
+gc.c の machine stack のオーバーフロー検出のための stack_check() の定義を emscripten 向けのビルド時には無効にするようにしています。
