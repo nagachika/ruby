@@ -1,0 +1,1 @@
+coroutine 配下のヘッダファイルに #ifndef での二重 include 防止のための guard を追加しています。
