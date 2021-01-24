@@ -1,0 +1,1 @@
+a55eb9a2af7950d180d9d31ffde2bce66710f44f の続きで Rational#coerce に Float を要素として持つ Complex を渡された時にその要素を Rational に変換した Complex を返すようにしています。 [ruby-dev:50994] [Bug #17572]
