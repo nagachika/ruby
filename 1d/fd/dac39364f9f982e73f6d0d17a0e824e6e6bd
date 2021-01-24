@@ -1,0 +1,1 @@
+configure でコンパイラのオプションから -fstack-protector を消す条件として emscripten 向けのコンパイル時というのも追加しています。
