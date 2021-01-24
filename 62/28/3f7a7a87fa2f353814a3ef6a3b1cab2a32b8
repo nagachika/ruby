@@ -1,0 +1,1 @@
+coroutine/ に emscripten 向けの実装を追加しています。 emscripten_fiber_init() とか emscripten_fiber_swap() といった関数はライブラリ(っていうのかな、実行環境というか)から提供されてるものでしょうか。
