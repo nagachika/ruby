@@ -1,0 +1,1 @@
+c8121b2e3d85c5dc4219918604c4d301204e6455 および c3244a3574da8ddc35523ef1b882dd2aadfc2818 の続きだと思われますが tool/m4/ruby_default_arch.m4 と tool/m4/ruby_universal_arch.m4 で ARCH_FLAG に arm64 をセットするための対応を追加。
