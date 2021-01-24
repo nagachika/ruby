@@ -1,0 +1,1 @@
+RubyVM::JIT の改名に関連して d961f14df3629f933613b062034deea0346de1cd で net/http のテストで新旧の定数両方チェックするようにしてましたが、そうすると今度は新しい ruby で RubyVM::MJIT の参照が警告されてしまうので、まず defined?(RubyVM::JIT) でチェックして存在したら enabled? の結果によらず RubyVM::MJIT は参照しないように条件を書きかえています。
