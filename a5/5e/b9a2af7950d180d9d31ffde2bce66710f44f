@@ -1,0 +1,1 @@
+Rational に coerce メソッドを呼び出して作った Rational オブジェクトで不正な内容のオブジェクトができてしまって SEGV することがあったのを修正。f_rational_new_no_reduce2() で作成していたのを nurat_convert で分子分母を与えて Rational 作成させるようにしています。 [ruby-dev:50994] [Bug #17572]
