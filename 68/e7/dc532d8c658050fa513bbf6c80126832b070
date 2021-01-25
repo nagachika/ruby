@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の gemspec ファイルに development dependency に gettext を追加しています。テスト時に利用しているみたいです。
