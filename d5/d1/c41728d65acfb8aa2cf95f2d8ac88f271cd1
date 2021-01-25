@@ -1,0 +1,1 @@
+同じく rdoc の git log からの ChangeLog 生成でコミットログを CommitDate を基準にソートしなおすようにしています。
