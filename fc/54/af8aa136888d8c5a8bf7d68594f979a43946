@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の RubyLex#check_newline_depth_difference で予約語 in が for 文のための in なのか pattern match のための(というか for 以外の) in なのかを判定してインデントへの影響を変えるようにしています。大変そう。
