@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc に git log から ChangeLog を生成するための Module RDoc::Parser::ChangeLog::Git を追加しています。元々 ChangeLog を生成する機能は rdoc にあったんですね。
