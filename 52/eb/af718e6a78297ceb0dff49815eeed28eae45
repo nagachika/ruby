@@ -1,0 +1,1 @@
+rdoc の git log からの ChangeLog 生成で日時を parse するのに標準添付ライブラリ time の Time.parse を利用していたのを専用のメソッドを導入して正規表現で解析するように変更しています。commit hash が誤って日時として取得されてしまうことがあったみたいです。
