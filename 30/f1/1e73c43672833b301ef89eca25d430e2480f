@@ -1,0 +1,1 @@
+80bad36989bbc4ad6167fe9670327f95b78089ce の rubygems の Gem::TestCase の一時ディレクトリをローカルに作らないようにする変更を revert しています。 CI で失敗する環境があったとのこと。
