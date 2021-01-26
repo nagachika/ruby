@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Parser::ChangeLog::Git の CommitDate から日時を parse するのを 52ebaf718e6a78297ceb0dff49815eeed28eae45 で導入した parse_date メソッドを使うようにしています。
