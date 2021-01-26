@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Parser::ChangeLog::Git#parse_date で日付と時刻の間が "T" で区切られてるフォーマットにも対応するように正規表現を修正しています。
