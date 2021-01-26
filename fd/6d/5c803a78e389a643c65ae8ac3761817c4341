@@ -1,0 +1,1 @@
+80bad36989bbc4ad6167fe9670327f95b78089ce および 30f11e73c43672833b301ef89eca25d430e2480f の続き。rubygems の Gem::TestCase の一時ディレクトリを全般的に Dir.mktmpdir を使うように修正しています。
