@@ -1,0 +1,1 @@
+同じく tool/lib/vcs.rb の ChangeLog 生成時の git notes によるコミットログ編集に "d" で行数指定して行を削除するのに対応するようにしています。
