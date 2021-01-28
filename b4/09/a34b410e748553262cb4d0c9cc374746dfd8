@@ -1,0 +1,1 @@
+struct RBasic::flags の定数 RB_FL_TAINT が廃止になったので rubyspec の C API テスト用拡張ライブラリで 3.1 以降は使わないようにしています。
