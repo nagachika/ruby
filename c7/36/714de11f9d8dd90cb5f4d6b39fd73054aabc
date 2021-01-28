@@ -1,0 +1,1 @@
+configure の MJIT_CFLAGS に -std=gnu99 を追加するかどうかの判定しているところで常に mjit_std_cflag 変数を設定する(追加しない時は空にしておく)ようにしています。
