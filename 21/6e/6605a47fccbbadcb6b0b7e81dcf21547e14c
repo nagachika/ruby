@@ -1,0 +1,1 @@
+class.c の rb_define_class_under()、rb_define_class_id_under()、rb_define_module() などの Doxygen 用コメントにこれらの関数群から返される Class/Module は compaction で移動できないオブジェクトになるということを追記しています。
