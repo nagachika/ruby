@@ -1,0 +1,1 @@
+f8a117f858cdb748c400396aa5a4d46e4832f4e2 で RUBY_FL_DUPPED を deprecated にした時のメッセージが間違ってたのを修正。
