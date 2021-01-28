@@ -1,0 +1,1 @@
+include/ruby/internal/fl_type.h の RBIMPL_ATTR_DEPRECATED() を使うかどうかの判定をまとめて結果を RBIMPL_HAVE_ENUM_ATTRIBUTE というマクロにしておくことでシンプルにするリファクタリング。
