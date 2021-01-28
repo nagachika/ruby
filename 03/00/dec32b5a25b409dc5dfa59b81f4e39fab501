@@ -1,0 +1,1 @@
+Object#taint は既に廃止されているので、内部実装の struct RBasic::flags の RUBY_FL_TAINT フラグの定数を削除して、C API も何も処理しないように変更しています。
