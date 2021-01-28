@@ -1,0 +1,1 @@
+同じく RUBY_FL_DUPPED という定数も deprecated の警告が出るようにして rb_clone_setup() と rb_dup_setup() を何もしないようにしています。ただ proc.c にはなにかしらの事情で CLONESETUP() が必要だったみたいなので proc.c 内に独自に定義するようにしています。 https://github.com/ruby/ruby/pull/4100#discussion_r563481718
