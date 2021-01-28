@@ -1,0 +1,1 @@
+さらに C API から taint する関数が利用された時にコンパイル時の警告が出力されるように RBIMPL_ATTR_DEPRECATED() を関数定義に使っています。
