@@ -1,0 +1,1 @@
+include/ruby/internal/fl_type.h で struct RBasic::flags のフラグ定数 RB_OBJ_UNTRUST と RB_OBJ_UNTRUSTED の定義を RB_OBJ_TAINT と RB_OBJ_TAINTED にそれぞれ置き換えるようなマクロ定義に変更しています。  9e6e39c3512f7a962c44dc3729c98a0f8be90341 のヘッダ大分割の時に誤って置換してしまってたみたいです。
