@@ -1,0 +1,1 @@
+MJIT 用の precompiled header を作るために tool//transform_mjit_header.rb を実行する時の引数に渡すコンパイラオプションから $(ARCH_FLAG) を削除しています。 CFLAGS に既に含まれているので重複して渡す必要がなかったそうです。
