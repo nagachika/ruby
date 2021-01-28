@@ -1,0 +1,1 @@
+rb_define_module_id_under() で既に同名の定数が設定されていた時に取得した module を rb_gc_register_mark_object() で GC mark 用に登録するようにしています。定数に設定されてるのに mark が必要なのか? と思ったけどどうも単に mark するためではなくて compaction で移動されないように pin down するためみたいです。
