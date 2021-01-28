@@ -1,0 +1,1 @@
+RGENGC_CHECK_MODE マクロを 4以上に設定した時のチェックのために ObjectSpace の全 slot を舐める処理が Ractor safe でなかったので Ractor 毎の struct gc_mark_func_data_struct を利用するように修正しています。
