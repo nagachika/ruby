@@ -1,0 +1,1 @@
+bundler のテスト用の matcher include_gems で require 前に既に $LOAD_PATH に存在してると読み込まれないので消す処理で Array#delete ではなく Array#delete_if を使って、さらに絶対パスにして判定して文字列として一致してなくても同じパスは全て消すようにしています。
