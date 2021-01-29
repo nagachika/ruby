@@ -1,0 +1,1 @@
+GC_ENABLE_INCREMENTAL_MARK マクロを 0 にしてビルドした時のコードに不具合があってさらに RGENGC_CHECK_MODE を 1以上にした時にチェックにひっかかって異常終了するのを修正しています。 [ruby-core:102071] [Bug #17538]
