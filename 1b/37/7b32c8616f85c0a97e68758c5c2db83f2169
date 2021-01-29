@@ -1,0 +1,1 @@
+763d242fcdb2cd400a8973d7d0da3e162fee90d6 の続きで環境変数 PWD が設定されてないような時には source_root 変数を使う元の方法に fallback するようにしています。
