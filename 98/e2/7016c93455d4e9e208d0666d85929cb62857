@@ -1,0 +1,1 @@
+vm_eval.c の rb_method_call_status() の if 文の連なりを if ... else if に書きかえたりどの条件にもマッチしなかった時の return を早期 return に書きかえたりといったリファクタリング。
