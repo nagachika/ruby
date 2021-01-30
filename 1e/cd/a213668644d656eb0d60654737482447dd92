@@ -1,0 +1,1 @@
+メソッド呼び出しの call cache を Ractor 対応のため inline cache を廃止したら性能が悪化してしまったとのことで、Global Call-Cache Cache Table (gccct) というものを導入して、inline cache のかわりに rb_vm_t::global_cc_cache_table にグローバルな cache table を持つことで代替としています。この table は Class/Module とメソッドの ID からハッシュ値を作ってそれをキーにして引いてますが、ここの操作は Ractor 間での排他は不要なのかな。ポインタの格納と参照だけだから競合はしないということだろうか……。 [ruby-core:101840] [Bug #17497]
