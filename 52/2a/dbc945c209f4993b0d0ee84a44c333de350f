@@ -1,0 +1,1 @@
+rubyspec の Kernel#rand のテストで Float を比較するのに equal? ではなく eql? で同値チェックするようにしています。
