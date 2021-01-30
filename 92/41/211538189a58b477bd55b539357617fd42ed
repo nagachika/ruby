@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#each_line で File.foreach に委譲する時にキーワード引数も委譲するように rb_block_call_kw() を利用する修正。 [ruby-core:102280] [Bug #17589]
