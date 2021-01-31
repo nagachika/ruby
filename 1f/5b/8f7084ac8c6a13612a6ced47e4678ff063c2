@@ -1,0 +1,1 @@
+str_casecmp() の char* 型の変数に const 修飾子を追加しています。
