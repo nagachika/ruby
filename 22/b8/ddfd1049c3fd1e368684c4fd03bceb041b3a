@@ -1,0 +1,1 @@
+proc.c の mnew() で Method オブジェクトを作る処理が内部で引数 obj に Qundef を渡されたかどうかで分岐してたのを mnew_callable() と mnew_unbound() という 2つの関数に分離して、呼び元で呼ぶ関数を変えるようにしています。不要な分岐を消すためかな。
