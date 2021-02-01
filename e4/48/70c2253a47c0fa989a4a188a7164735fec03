@@ -1,0 +1,1 @@
+ae0a179c4bb13c64584bc07b29372723d1d6c4fa で追加した struct RVALUE と VALUE 型のサイズの関係についての STATIC_ASSERT() を削除しています。環境によってはこの関係を保証できないことがあったみたいです。
