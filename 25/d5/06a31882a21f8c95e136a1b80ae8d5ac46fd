@@ -1,0 +1,1 @@
+numeric.c の rb_big_isqrt() の prototype 宣言を internal/bignum.h に移動しています。
