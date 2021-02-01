@@ -1,0 +1,1 @@
+struct RVALUE の型宣言しているところで #pragma pack() を使って構造体のメンバーのアライメントを抑制する条件を mswin と cygwin であることに加えて double の幅が VALUE より大きい場合というのを追加しています。また RVALUE のサイズが VALUE 5つぶんになってることを確認する STATIC_ASSERT() を追加しています。
