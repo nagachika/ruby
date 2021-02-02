@@ -1,0 +1,1 @@
+NameError に原因となった参照の名前などを埋め込むための内部クラス NameError::message クラス(定数になってないので ruby レベルだとアクセスできない)に initialize_copy メソッドを追加して Ractor 間のやりとりのための clone に対応できるようにしています。
