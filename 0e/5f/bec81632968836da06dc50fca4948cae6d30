@@ -1,0 +1,1 @@
+error.c の rb_bug_without_die() で可変長引数を ... と書いてたのを va_list 型で受けるようにして report_bug_valist() で委譲するように修正しています。"..." で受けられるのって C99 だっけ? [ruby-core:102341] [Bug #17603]
