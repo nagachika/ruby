@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in で windres というコマンドの引数を追加して windres 2.36 というバージョンでビルドできなくなってたのを修正しているようです。 [ruby-core:102338] [Bug #17602]
