@@ -1,0 +1,1 @@
+GitHub Actions の mswin 版と Appveyor でのテスト時に git config で core.autocrlf、core.eol などの設定を追加しています。改行コードの自動変換を無効にしているようです。
