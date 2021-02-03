@@ -1,0 +1,1 @@
+拡張ライブラリ json で Encoding::UTF_8 の値を static 変数に格納して使ってたのをやめて rb_utf8_encoding() の呼び出しを使うようにしています。 GC compaction によるオブジェクトの移動で異常終了してしまうのを避けるためみたいです。
