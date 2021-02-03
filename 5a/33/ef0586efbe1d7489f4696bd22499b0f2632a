@@ -1,0 +1,1 @@
+GitHub Actions の mswin と mingw 版での git config での設定のオプション --system を --gloabal に変更しています。
