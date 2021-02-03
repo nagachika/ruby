@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトの struct RClass の struct rb_classext_struct のメンバーに直接参照してたところが残ってたので RCLASS_EXT() マクロを利用するようにリファクタリングしています。
