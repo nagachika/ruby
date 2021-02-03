@@ -1,0 +1,1 @@
+timer thread のかわりに定期的な割り込みを POSIX timer を利用した実装の時の static 変数 timer_posix の state メンバーの変更のための関数を導入して TIMER_STATE_DEBUG というマクロを真に定義すると state の変更を逐次 stderr に出力するデバッグ用のコードを追加しています。
