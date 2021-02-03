@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトの struct RClass の struct rb_classext_struct 内の parent_subclasses メンバーにアクセスするのに RCLASS_PARENT_SUBCLASSES() というマクロを定義してこれを使うようにリファクタリングしています。
