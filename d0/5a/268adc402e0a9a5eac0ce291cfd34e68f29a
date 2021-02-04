@@ -1,0 +1,1 @@
+拡張ライブラリ zlib のテストで Zlib::GzipReader.zcat に渡す File オブジェクトを open する時に mode に "rb" を渡して binary mode で開くようにしています。
