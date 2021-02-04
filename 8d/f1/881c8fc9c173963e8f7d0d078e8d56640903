@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_float_convert_to_BigDecimal() で浮動小数点数を変換するために一旦文字列化する時の桁数の上限を double からの変換の精度の DBLE_FIG に修正しています。バッファ用の配列のサイズを上限にしてましたがそれだと使いすぎのようです。
