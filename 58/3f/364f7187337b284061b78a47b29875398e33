@@ -1,0 +1,1 @@
+vm_call0_body() で call cache の method entry のタイプが VM_METHOD_TYPE_ALIAS の時に再帰呼び出ししていたのを call cache のエントリを更新して goto で前に戻ってリトライする方法に変更しています。alias はネストすることがあるので何度再帰呼び出しが続くかわからないのでスタック消費しないようにするためとのことです。
