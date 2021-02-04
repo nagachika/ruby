@@ -1,0 +1,1 @@
+bundler のテストで bundle info と bundle show コマンドの補完候補出力をチェックするテストで厳密な一致でなく正規表現でチェックするようにしています。 readline が EditLine とリンクされてる時に出力内容が変わるみたいでした。
