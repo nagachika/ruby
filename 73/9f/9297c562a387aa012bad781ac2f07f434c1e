@@ -1,0 +1,1 @@
+addr2line.c の NetBSD でのビルド時に実行している実行形式ファイルのパスを procfs から得る実装の対応を追加しています。読むファイルパスは Linux とは異なっていて "/proc/curproc/exe" のようです。 https://github.com/ruby/ruby/pull/4079
