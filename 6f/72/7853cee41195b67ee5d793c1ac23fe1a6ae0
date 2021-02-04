@@ -1,0 +1,1 @@
+Ractor.receive でブロック中に Ctrl-C の端末からのシグナルによる割り込みでブロックから抜けないことがあったらしく、よくわかりませんが rb_vm_t::ubf_async_safe の更新を main thread のみで行なうように修正しています。 [ruby-dev:50984] [Bug #17482]
