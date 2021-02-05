@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の rb_uint64_convert_to_BigDecimal() で整数からの変換に log10() を利用してたのをやめて uint64 で表現できる桁の最大数までのバッファを自動変数で用意して BIGDECIMAL_BASE で繰り返し割って配列に余剰を詰めていくように変更しています。高速化のためかな?
