@@ -1,0 +1,1 @@
+include/ruby/internal/intern/vm.h に rb_clear_method_cache_by_class() という既に存在しなくなってた関数の宣言が残ってたのを削除しています。
