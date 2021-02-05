@@ -1,0 +1,1 @@
+variable.c の rb_define_const() で定数に代入する値の VALUE を rb_gc_register_mark_object() を呼んで pin down して GC.compact で移動しないようにしてたのをやめています。646131448eea616dfb388cfea84e34358caa7b47 で rb_define_module_id_under() で pin down するようになったのでその関連かなぁ、と思いましたが後に revert されています。
