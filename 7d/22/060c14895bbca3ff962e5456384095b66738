@@ -1,0 +1,1 @@
+addr2line.c の DWARF のデバッグ情報をデコードする時に DW_LNS_fixed_advance_pc という operation? のオペランドのデコードを修正しています。 [ruby-core:102394] [Bug #17609]
