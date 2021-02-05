@@ -1,0 +1,1 @@
+string.c で static 関数 str_new_shared() の前方宣言があったけど不要なので削除しています。
