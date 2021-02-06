@@ -1,0 +1,1 @@
+2a764fe7644f839cec445d3467303543ad7a087b で io/console のテスト test_cursor_position で JRuby ではスキップするようにしてましたが、そこで使われてる run_pty というユーティリティメソッド内で pend で実行しないように変更しています。
