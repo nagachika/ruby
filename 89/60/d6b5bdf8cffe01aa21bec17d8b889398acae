@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで $LOADED_FEATURES から io/console/xxx.rb が既に存在してないかチェックしてるところで io/ 直下の io/console.rb にもマッチするように修正? しています。
