@@ -1,0 +1,1 @@
+GitHub Actions の macOS  版で tool/travis_retry.sh というツール経由で brew コマンドの実行をリトライさせてたのをもう不要ということで直接 brew 実行するようにしています。
