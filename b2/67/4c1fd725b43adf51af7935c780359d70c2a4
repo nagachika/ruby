@@ -1,0 +1,1 @@
+rb_nogvl() で引数に独自の ubf (un-blocking function)が渡された時に、GVL 解放してコールバック関数を実行する前に ubf 用の native thread を作成する条件を main Ractor の main thread から呼ばれた時だけにしています。
