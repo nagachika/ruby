@@ -1,0 +1,1 @@
+configure でコンパイラオプションの -fdeclspec というのが使えたら追加するのを CC/MJIT_CC に直接追加してたのを CFLAGS および CXXFLAGS に追加するように変更しています。
