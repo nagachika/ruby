@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版で socket のテストなどのために firewall の設定を無効にするために /usr/libexec/ApplicationFirewall/socketfilterfw を実行してたのをやめています。手元だとダイアログが出るけどやめてもよくなったのかな?
