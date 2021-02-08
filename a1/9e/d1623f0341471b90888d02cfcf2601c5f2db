@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#vi_histedit というメソッドが複数行バッファのヒストリに対応してなかったのを修正しているようです。
