@@ -1,0 +1,1 @@
+Array#values_at と MatchData#values_at の rdoc 用コメントに引数(の一部)に Ragen オブジェクトを渡した時の挙動について追記しています。へー、Range のみじゃなくて整数によるインデックスと混ぜる呼び方もできるのか。
