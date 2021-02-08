@@ -1,0 +1,1 @@
+b69c965f477af1b2eb883137b3df9da8fca7b616 の続き? 標準添付ライブラリ reline の Reline::LineEditor#rerender_added_newline で不要な whole_lines の呼び出しを削除しています。
