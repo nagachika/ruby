@@ -1,0 +1,1 @@
+さらに reline の Reline::LineEditor で複数行入力時にスクロールバックした履歴が正常に表示できるように LineEditor#just_move_cursor でもスクロールをちゃんと差分のぶんだけするようにしています。
