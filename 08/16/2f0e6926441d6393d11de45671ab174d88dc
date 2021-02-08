@@ -1,0 +1,1 @@
+b69c965f477af1b2eb883137b3df9da8fca7b616 で標準添付ライブラリ reline の Reline::LineEditor#rerender の @cursor 変数更新がペーストモードで行なわれなくなる不具合があったので条件分岐の外に出すように修正しています。
