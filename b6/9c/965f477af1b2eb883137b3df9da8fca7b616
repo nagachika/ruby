@@ -1,0 +1,1 @@
+irb でスクリプトをペーストした時の高速化のために標準添付ライブラリ reline の Reline::LineEditor#rerender で再描画時にペーストモードを検出したら複数行の再描画は最後の行まで modify_lines を呼ばないようにしているようです。
