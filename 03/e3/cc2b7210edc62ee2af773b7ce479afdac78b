@@ -1,0 +1,1 @@
+object.c の Module#inherited, #method_added, #method_removed, #method_undefined……などのメソッド群の rdoc 用コメントが rdoc でそのメソッドのドキュメントとして扱われるようにダミーの #define を追加して、メソッド定義の rb_define_private_method()に渡す引数もそのマクロ経由で渡すようにしています。これまでは rb_obj_dummy1() というダミーの関数をそのまま渡してました。
