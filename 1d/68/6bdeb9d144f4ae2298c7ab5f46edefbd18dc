@@ -1,0 +1,1 @@
+ARGF.each_line や ARGF.realines の chomp キーワード引数についてのテストを追加しています。
