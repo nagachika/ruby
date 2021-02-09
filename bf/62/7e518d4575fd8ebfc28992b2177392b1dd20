@@ -1,0 +1,1 @@
+ARGF.putc, ARGF.puts, ARGF.gets, ARGF.readline などなど ARGF のメソッドで IO オブジェクトに委譲する時に rb_funcallv_kw() などを使うようにしてキーワード引数も委譲するようにしています。
