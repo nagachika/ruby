@@ -1,0 +1,1 @@
+標準添付ライブラリ benchmark に Benchmark::Tms#to_h メソッドを追加しています。 [ruby-core:102336] [Feature #17601]
