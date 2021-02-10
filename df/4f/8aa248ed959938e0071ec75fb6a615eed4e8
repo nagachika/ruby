@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の extconf.rb で HAVE_RUBY_FIBER_SCHEDULER_H マクロをチェックして -DHAVE_RB_IO_WAIT=1 をコンパイラオプションに追加するようにしています。新機能の対応かなと思いましたが 3.0 での regression の修正のためとのこと。
