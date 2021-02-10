@@ -1,0 +1,1 @@
+どういう意図なのかよくわかってないのですが blocking Fiber のための Scheduler を Thread に設定できるようにしたものの C API を拡張ライブラリに公開するようにしているようです。 https://github.com/ruby/ruby/pull/3945
