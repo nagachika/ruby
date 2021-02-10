@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の blocking Fiber の Scheduler 対応で定義してたマクロの名前の typo を修正しています。
