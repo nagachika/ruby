@@ -1,0 +1,1 @@
+5f69a7f60467fa58c2f998daffab43e118bff36c で追加した include/ruby/fiber/scheduler.h の関数定義で無引数の関数の宣言の引数に明示的に void をつけるようにしています。
