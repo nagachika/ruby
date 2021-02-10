@@ -1,0 +1,1 @@
+eval.c の rb_vrescue2() で EC_EXEC_TAG() の戻り値を格納する変数の初期化を magic number 0 でしていたのを定数マクロ TAG_NONE を使うようにリファクタリングしています。
