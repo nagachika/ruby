@@ -1,0 +1,1 @@
+Float#negative? と Float#negative? の実装を ruby 実装にして inline 化可能にしています。 https://github.com/ruby/ruby/pull/4160 [ruby-core:102422] [Feature #17614]
