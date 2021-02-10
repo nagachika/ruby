@@ -1,0 +1,1 @@
+include/ruby.h に HAVE_RUBY_FIBER_SCHEDULER_H マクロの定義を追加しています。
