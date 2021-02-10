@@ -1,0 +1,1 @@
+configure の Fiber 用の coroutine 実装を選択する時のデフォルト(プラットームなどで決まらない時)の ucontext を getcontext()、swapcontext()、makecontext() などのシステムコールが使えるかどうかチェックして、使えなかったら copy に fallback するように判定を追加しています。
