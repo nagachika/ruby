@@ -1,0 +1,1 @@
+random.c の random_mt_free() でデフォルトの乱数生成器を default_rand() を呼んで作ってましたが、ここは比較がしたいだけでなかったら作らなくてもいいので、rb_ractor_local_storage_ptr() で直接 ractor local storage を参照するようにしています。
