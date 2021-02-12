@@ -1,0 +1,1 @@
+time.c で DEBUG_REPORT_GUESSRANGE というマクロの有無で分岐してたのを static 変数 debug_guessrange を参照する実行時の分岐でデバッグ出力の有無を切り替えるようにしています。デバッグ有効時のみコンパイルエラーになったりするのを避けるためかな。
