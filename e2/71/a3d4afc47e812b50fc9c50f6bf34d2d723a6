@@ -1,0 +1,1 @@
+README.md  および README.ja.md のビルド方法の手順として常に autoreconf で configure の(再)生成をするように変更しています。あれ、そうなのか。また autoreconf のオプションに -i を付けるように指定しています。
