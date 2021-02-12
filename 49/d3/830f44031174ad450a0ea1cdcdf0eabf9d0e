@@ -1,0 +1,1 @@
+Module#ruby2_keywords の rdoc 用コメントで戻り値が self になってたのを nil に修正しています。 [ruby-core:102158] [Bug #17560]
