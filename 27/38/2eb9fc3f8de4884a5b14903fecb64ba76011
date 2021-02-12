@@ -1,0 +1,1 @@
+make benchmark に利用する benchmark-driver のバージョンを v0.15.17 に更新して、benchmark 用のライブラリに複数 Ractor を起動して実行する runner を追加しています。 https://github.com/ruby/ruby/pull/4172
