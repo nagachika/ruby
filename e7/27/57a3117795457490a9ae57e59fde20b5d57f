@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の gemspec ファイルの spec.add_development_dependency を削除しています。development dependency は Gemfile に書くべしということで gemspec には書かない潮流。
