@@ -1,0 +1,1 @@
+time.c の find_time_numguess_getter() の定義の引数に間違いとスタイル修正。
