@@ -1,0 +1,1 @@
+missing/dtoa.c の Balloc() と Bfree() で freelist の操作に race condition があって二重 free する可能性があり複数 Ractor で触ると異常終了する可能性があったらしいので修正しています。 [ruby-core:102416] [Bug #17612]
