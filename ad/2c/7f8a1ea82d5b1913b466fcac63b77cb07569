@@ -1,0 +1,1 @@
+benchmark/float_to_s.yml に Float#to_s のベンチマークを追加しています。
