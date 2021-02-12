@@ -1,0 +1,1 @@
+Thread#group の rdoc に nil を返すことがあると書かれてましたが、実際にはありえないそうなので削っています。 call-seq の戻り値にまだ nil が残ってますね。 [ruby-core:101892] [Bug #17505]
