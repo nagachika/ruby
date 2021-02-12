@@ -1,0 +1,1 @@
+27382eb9fc3f8de4884a5b14903fecb64ba76011 で追加した benchmark の Ractor 利用する runner の計測結果の一時ファイルへの書き出しを Ractor 内で書き出さず Ractor 終了後に Ractor#take で取り出して main Ractor (?) で書き出すようにしています。
