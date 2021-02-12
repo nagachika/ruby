@@ -1,0 +1,1 @@
+拡張ライブラリ zlib のテストで __name__ という……なんだろうこれ、メソッド? を使っていたのが test-unit では使えないということで TestZlibDeflate#test_deflate を利用しないように書きかえているようです。
