@@ -1,0 +1,1 @@
+c3b2bb0969cc47dcfb1f624c94a46cdf1e2cc2ad の Queue.new に初期値を渡せる変更の再修正。引数を Array に変換するのに to_ary ではなく to_a で変換するようにしています。 [ruby-core:100858] [Feature #17327]
