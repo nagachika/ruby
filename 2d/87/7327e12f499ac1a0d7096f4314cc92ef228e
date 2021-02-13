@@ -1,0 +1,1 @@
+Module#prepend で自分自身に prepend するなど循環するような prepend をすると例外が発生しますが、その時に Module#ancestors が変化してしまう副作用があったのを修正しているようです。 https://github.com/ruby/ruby/pull/4165
