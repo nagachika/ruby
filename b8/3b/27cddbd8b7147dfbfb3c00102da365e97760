@@ -1,0 +1,1 @@
+d77a42fbfd60f4e4f49f1feb56e089494fbf3572 の IRB::IrbLoader の修正の再修正。よくみると直前で if File::ALT_SEPARATOR で分岐しているので意味のない変更になってたのでそれを利用するように書きなおしています。
