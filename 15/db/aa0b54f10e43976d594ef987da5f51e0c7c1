@@ -1,0 +1,1 @@
+rb_execution_context_t 構造体の mark 関数と GC.compact のための update 関数 rb_execution_context_mark() と rb_execution_context_update() cfp->ep の配列内の prev_ep に辿るポインタの mark/update 漏れがあったのを修正しています。これはいつからかな……と思ったらチケットのほうで報告者が bisect してくれていて a53e2850c572135ed657144bc14e47b29c64fa94 からじゃないかということなので、3.0.0 からですね。 [ruby-core:102463] [Bug #17622]
