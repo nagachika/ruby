@@ -1,0 +1,1 @@
+tool/rbinstall.rb の default gems のインストールのための再修正。RbInstall::DirPackage というクラスでインストール時のディレクトリ名の変換用の Hash を受け取れるようにして、spec.bindir の指定を "libexec" にすりかえるようにしているようです。
