@@ -1,0 +1,1 @@
+31f4dec6373c15a58899f8b86e35d48a7d813bf6 と fc56b96b09e477686975c978142e3af9179219cd の tool/rbinstall.rb の default gems インストールについての変更を revert しています。
