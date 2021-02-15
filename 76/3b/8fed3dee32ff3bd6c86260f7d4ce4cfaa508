@@ -1,0 +1,1 @@
+tool/rbinstall.rb で default gems になっている標準添付ライブラリの install に rubygems の Gem::Installer を継承している RbInstall::UnpackedInstaller の実装を流用するようにしています。これは以前から bundled gems のインストール時に使うために使ってたクラスです。
