@@ -1,0 +1,1 @@
+31f4dec6373c15a58899f8b86e35d48a7d813bf6 の続きで tool/rbinstall.rb で、.gemspec ファイルだけ存在してて ruby スクリプトが存在してない時?  に対応するようにしているようです。
