@@ -1,0 +1,1 @@
+Windows の wutimensat() という API の wrapper の w32_utimensat() でファイルパスの codepage 指定を filecp() にしてたのを引数の cp を使うように修正しています。マルチバイト文字を含むファイルの操作でエラーになることがあったようです。 [ruby-dev:51020] [Bug #17626]
