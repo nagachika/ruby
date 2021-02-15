@@ -1,0 +1,1 @@
+bin/bundle、bin/bundler、bin/erb、bin/irb、bin/racc、bin/rdoc、bin/ri などのファイルを削除しています。tool/rbinstall.rb で gem としてインストールするようにしたのでそれぞれのライブラリ内のものがコピーされるので不要になったということです。確かにここだけ更新忘れてたりありそうなので良いことですね。
