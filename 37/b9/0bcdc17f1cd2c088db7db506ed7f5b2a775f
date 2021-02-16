@@ -1,0 +1,1 @@
+NEWS に 4f47d655e357a7f09943f199969b437a25665ed2 で追加した Thread::Backtrace.limit について追記しています。 [ruby-core:101734] [Feature #17479]
