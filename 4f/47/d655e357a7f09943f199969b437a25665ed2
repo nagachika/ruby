@@ -1,0 +1,1 @@
+Thread::Backtrace.limit というメソッドを追加して --backtrace-limit オプションで指定された値を取得できるようにしています。 [ruby-core:101734] [Feature #17479]
