@@ -1,0 +1,1 @@
+C++ 製拡張ライブラリ用ヘッダファイル include/ruby/backward/cxxanyargs.hpp で ruby::backward::cxxanyargs の名前空間を参照するのに先頭に "::" をつけるようにしています。
