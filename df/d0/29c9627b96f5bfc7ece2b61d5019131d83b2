@@ -1,0 +1,1 @@
+configure で OS が Haiku の時にコンパイラオプションの -fstack-protector や -fstack-protector-strong を試さないようにしてたのをやめています。
