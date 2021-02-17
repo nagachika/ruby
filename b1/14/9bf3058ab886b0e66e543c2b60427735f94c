@@ -1,0 +1,1 @@
+bundled gems の更新がないか確認するための make update-bundled_gems で gems/bundles_gems の更新を git commit してしまうところまでやるようにしています。
