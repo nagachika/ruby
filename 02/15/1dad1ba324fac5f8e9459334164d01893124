@@ -1,0 +1,1 @@
+$LOAD_PATH.resolve_feature_path で指定の feature がみつからなかった時に例外を発生させていたのを nil を返すように変更しています。 [ruby-core:94135] [Feature #16043]
