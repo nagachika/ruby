@@ -1,0 +1,1 @@
+do ... end のブロックに begin なしで rescue/ensure 節を書けるようになった影響か、rescue/ensure を使っていないブロックでも VM 命令列にした時に catch table が作成されてしまっていたので、不要な時には作成しないようにする VM 命令列へのコンパイル時の最適化を追加しています。 [ruby-core:102418] [Feature #17613]
