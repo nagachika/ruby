@@ -1,0 +1,1 @@
+33b8bd97a8e7d894c3e19b7362884c4882bf38e0 の続き? gc.c の gc_page_sweep() の was_compacting という変数が不要になってたので宣言と代入しているところを削っています。
