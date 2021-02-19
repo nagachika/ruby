@@ -1,0 +1,1 @@
+check_rvalue_consistency_force() という RGENGC_CHECK_MODE マクロで GC 関係のデバッグ用の一貫性チェックを実行する関数が複数 Ractor が動いている環境で異常終了してしまうので RB_VM_LOCK_ENTER_NO_BARRIER()/RB_VM_LOCK_LEAVE_NO_BARRIER() で他の Ractor を停止させてから実行するようにしています。 [ruby-core:102543] [Bug #17636]
