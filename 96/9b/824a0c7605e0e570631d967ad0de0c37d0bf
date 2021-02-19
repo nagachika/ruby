@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations_start でオブジェクト確保の情報収集中に T_NONE 型のオブジェクトを mark しようとして異常終了してしまうという不具合の修正。gc_enter() で gc_enter_event_rest というイベントの時も mark 時には rb_vm_barrier() を呼び出して他の Ractor を停止させておくようにしています。 [ruby-core:102334] [Bug #17599]
