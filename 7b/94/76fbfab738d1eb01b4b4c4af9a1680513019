@@ -1,0 +1,1 @@
+Ractor に dup メソッドを呼ぶと異常終了するそうで、Ractor.allocate を未定義にして dup 禁止しています。 [Bug #17642]
