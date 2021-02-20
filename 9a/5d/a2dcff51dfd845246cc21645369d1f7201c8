@@ -1,0 +1,1 @@
+拡張ライブラリ readline の Init_readline() に prepare_readline() という関数呼び出しを追加しています。EditLine を使ってる場合に必要? みたいです。  [ruby-core:102487] [Bug #17629]
