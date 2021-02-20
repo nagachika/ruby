@@ -1,0 +1,1 @@
+f4ce78d5c139a8825ee2d09f39aef03ef762dfc6 で Class/Module ごとのメソッドの negative cache のクリアタイミングの漏れを修正したのがまだ足りてなかったようで、その時に追加した invalidate_negative_cache() という関数の引数 invalidate_cme は削除して常に vm_cme_invalidate() を呼ぶようにしています。 [ruby-core:102136] [Bug #17553]
