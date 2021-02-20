@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテスト test/readline/test_readline.rb で skip を使ってたところをかわりに omit を使うように変更しています。
