@@ -1,0 +1,1 @@
+Numeric#real?、Numeric#int?、Numeric#finite?、Numeric#infinite? などの Numeric の定数を返すだけのメソッドの実装を numeric.rb の ruby 実装に移動しています。 MJIT 時に inline 化されて高速になるからかな。 https://github.com/ruby/ruby/pull/4190 [ruby-core:102529] [Feature #17632]
