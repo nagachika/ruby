@@ -1,0 +1,1 @@
+time.c のコメントに Fixnum/Bignum についての記述があったので Integer に変更しています。また 1.9.2 移行の Time の内部実装が任意の精度の整数または Rational を使っていることのコメントを "Internal Details" として Time クラスの rdoc 用コメントから外に出しています。 [ruby-core:102241] [Misc #17580]
