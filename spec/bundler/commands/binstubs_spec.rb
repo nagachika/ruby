@@ -118,7 +118,6 @@ RSpec.describe "bundle binstubs <gem>" do
         end
         install_gemfile! <<-G
           source "#{file_uri_for(gem_repo2)}"
-          gem "bundler"
           gem "rack"
           gem "prints_loaded_gems"
         G
