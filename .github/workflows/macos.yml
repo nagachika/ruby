@@ -44,8 +44,8 @@ jobs:
         run: which ruby && which bundler
       - name: show gem list
         run: gem list
-      - name: install bundler 2.1.4
-        run: gem install bundler -v 2.1.4
+      - name: remove system gems
+        run: rm -rf /usr/local/lib/ruby/gems/2.7.0/
       - name: Set ENV
         run: |
           echo "JOBS=-j$((1 + $(sysctl -n hw.activecpu)))" >> $GITHUB_ENV

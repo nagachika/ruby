@@ -50,6 +50,6 @@ jobs:
       - name: show ruby version
         run: ruby --version
       - name: ruby absolute path
-        run: which ruby && which bundler
+        run: which ruby
       - name: show gem list
         run: gem list
