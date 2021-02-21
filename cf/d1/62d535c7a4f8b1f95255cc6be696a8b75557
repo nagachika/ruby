@@ -1,0 +1,1 @@
+String#strip、String#lstrip、String#strip!、String#lstrip! などで先頭の NUL 文字('\0')を削る対象に含めるようにしています。末尾は削れてたんですが先頭は削れなくなってたみたいです。 [ruby-core:101676] [Bug #17467]
