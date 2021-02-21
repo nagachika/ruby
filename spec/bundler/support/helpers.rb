@@ -206,6 +206,9 @@ module Spec
       command_execution = CommandExecution.new(cmd.to_s, Dir.pwd)
 
       require "open3"
+      puts "=========== sys_exec ============"
+      puts "PATH=#{ENV["PATH"]}"
+      p [env, cmd.to_s]
       Open3.popen3(env, cmd.to_s) do |stdin, stdout, stderr, wait_thr|
         yield stdin, stdout, wait_thr if block_given?
         stdin.close
