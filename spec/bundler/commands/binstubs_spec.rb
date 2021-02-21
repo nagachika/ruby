@@ -212,7 +212,9 @@ RSpec.describe "bundle binstubs <gem>" do
         end
 
         it "calls through to the explicit bundler version" do
+          ENV["DEBUG_BUNDLER"] = "1"
           sys_exec "#{bundled_app("bin/bundle")} update --bundler=999.999.999"
+          ENV["DEBUG_BUNDLER"] = nil
           expect(exitstatus).to eq(42) if exitstatus
           expect(err).to include("Activating bundler (~> 999.999) failed:").
             and include("To install the version of bundler this project requires, run `gem install bundler -v '~> 999.999'`")
@@ -222,7 +224,9 @@ RSpec.describe "bundle binstubs <gem>" do
       context "without a lockfile" do
         it "falls back to the latest installed bundler" do
           FileUtils.rm bundled_app("Gemfile.lock")
+          ENV["DEBUG_BUNDLER"] = "1"
           sys_exec! bundled_app("bin/bundle").to_s
+          ENV["DEBUG_BUNDLER"] = nil
           expect(out).to eq "system bundler #{system_bundler_version}\n[]"
         end
       end
@@ -230,7 +234,9 @@ RSpec.describe "bundle binstubs <gem>" do
       context "using another binstub" do
         let(:system_bundler_version) { :bundler }
         it "loads all gems" do
+          ENV["DEBUG_BUNDLER"] = "1"
           sys_exec! bundled_app("bin/print_loaded_gems").to_s
+          ENV["DEBUG_BUNDLER"] = nil
           expect(out).to eq %(["bundler-#{Bundler::VERSION}", "prints_loaded_gems-1.0", "rack-1.2"])
         end
 
