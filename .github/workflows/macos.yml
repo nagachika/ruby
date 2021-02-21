@@ -38,6 +38,10 @@ jobs:
           cd src
           tool/travis_retry.sh brew upgrade
           tool/travis_retry.sh brew install gdbm gmp libffi openssl@1.1 zlib autoconf automake libtool readline
+      - name: show ruby version
+        run: ruby --version
+      - name: ruby absolute path
+        run: which ruby && which bundler
       - name: show gem list
         run: gem list
       - name: install bundler 2.1.4
