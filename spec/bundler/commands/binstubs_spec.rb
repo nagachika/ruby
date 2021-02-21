@@ -127,7 +127,12 @@ RSpec.describe "bundle binstubs <gem>" do
       let(:system_bundler_version) { Bundler::VERSION }
 
       it "runs bundler" do
+        puts "~"*100
+        system("ls /Users/runner/work/ruby/ruby/src/libexec")
+        puts "~"*100
+        $debug_bundler = true
         sys_exec! "#{bundled_app("bin/bundle")} install"
+        $debug_bundler = false
         expect(out).to eq %(system bundler #{system_bundler_version}\n["install"])
       end
 
