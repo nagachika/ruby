@@ -127,6 +127,9 @@ RSpec.describe "bundle binstubs <gem>" do
       let(:system_bundler_version) { Bundler::VERSION }
 
       it "runs bundler" do
+        puts "="*100
+        puts "ENV BUNDLE_BIN_PATH = #{ENV["BUNDLE_BIN_PATH"].inspect}"
+        puts "="*100
         ENV["DEBUG_BUNDLER"] = "1"
         $debug_bundler = true
         sys_exec! "#{bundled_app("bin/bundle")} install"
