@@ -110,7 +110,7 @@ end
 m.load_bundler!
 
 if m.invoked_as_script?
-  if ENV["DEBUG_BUNDLER"]
+  if ENV["DEBUG_BUNDLER"] and false
     puts "GEM_HOME = #{ENV["GEM_HOME"].inspect}"
     puts "GEM_PATH = #{ENV["GEM_PATH"].inspect}"
     puts "Gem.bin_path(<%= spec.name %>, <%= executable %>) = #{Gem.bin_path("<%= spec.name %>", "<%= executable %>")}"
