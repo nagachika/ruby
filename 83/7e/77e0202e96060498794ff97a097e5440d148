@@ -1,0 +1,1 @@
+win32/file.c のコメント内の MSDN へのリンクが https でないとリンク切れになってたのを修正しています。 https://github.com/ruby/ruby/pull/4202
