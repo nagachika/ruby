@@ -1333,7 +1333,7 @@ yes-test-bundler-prepare: test-bundler-precheck
 		--install-dir .bundle --conservative "rspec:~> 3.5" "rake:~> 12.0" "parallel_tests:~> 2.29"
 
 RSPECOPTS =
-BUNDLER_SPECS =
+BUNDLER_SPECS = commands/binstubs_spec.rb
 test-bundler: $(TEST_RUNNABLE)-test-bundler
 yes-test-bundler: yes-test-bundler-prepare
 	$(XRUBY) -C $(srcdir) -Ispec/bundler .bundle/bin/rspec \
