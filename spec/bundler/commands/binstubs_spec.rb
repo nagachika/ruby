@@ -129,6 +129,9 @@ RSpec.describe "bundle binstubs <gem>" do
       it "runs bundler" do
         puts "="*100
         puts "ENV BUNDLE_BIN_PATH = #{ENV["BUNDLE_BIN_PATH"].inspect}"
+        puts "ENV GEM_HOME = #{ENV["GEM_HOME"].inspect}"
+        puts "ENV GEM_PATH = #{ENV["GEM_PATH"].inspect}"
+        system("find #{ENV["GEM_HOME"]} -ls") unless ENV["GEM_PATH"].to_s.empty?
         puts "="*100
         ENV["DEBUG_BUNDLER"] = "1"
         $debug_bundler = true
