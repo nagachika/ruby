@@ -131,9 +131,11 @@ RSpec.describe "bundle binstubs <gem>" do
         system("ls /Users/runner/work/ruby/ruby/src/libexec")
         puts(File.read("/Users/runner/work/ruby/ruby/src/tmp/1/bundled_app/bin/bundle"))
         puts "~"*100
+        ENV["DEBUG_BUNDLER"] = "1"
         $debug_bundler = true
         sys_exec! "#{bundled_app("bin/bundle")} install"
         $debug_bundler = false
+        ENV["DEBUG_BUNDLER"] = nil
         expect(out).to eq %(system bundler #{system_bundler_version}\n["install"])
       end
 
