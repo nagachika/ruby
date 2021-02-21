@@ -41,7 +41,7 @@ jobs:
       - name: show gem list
         run: gem list
       - name: install bundler 2.1.4
-        run: gem uninstall bundler
+        run: gem install bundler -v 2.1.4
       - name: Set ENV
         run: |
           echo "JOBS=-j$((1 + $(sysctl -n hw.activecpu)))" >> $GITHUB_ENV
