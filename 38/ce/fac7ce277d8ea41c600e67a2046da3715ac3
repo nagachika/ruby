@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の 05df7e0d4a09eaacb91388f32ef557d1d5fbe082 で Windows での EOF の挙動についての対応を revert したのを revert しています。Windows の更新で直ったけど古い環境にも対応できるようにするためみたいです。
