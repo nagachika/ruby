@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf の mkintpath というメソッドに RbConfig::CONFIG["build_os"] が "msys" だった時の対応を追加しています。 MSys は Cygwin の同類として処理するようにしています。
