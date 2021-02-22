@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に yamatanooroti を使った仮想端末によるテストのためのプログラム test/reline/yamatanooroti/multiline_repl を追加しています。
