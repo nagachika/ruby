@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#simplified_rendering? で prompt_list が空だとエラーになるので強制的に prompt 変数に格納してる文字列を 1要素持つ配列にセットするようにしています。
