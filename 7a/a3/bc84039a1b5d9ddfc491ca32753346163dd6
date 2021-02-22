@@ -1,0 +1,1 @@
+a3055a35dd7b8b6520d5fe599d1c67490c556a3c で追加した test/reline/yamatanooroti/multiline_repl にコマンドラインオプション --dynamic-prompt-returns-empty を追加して、おそらく ac9e3b514bc98ded741006c94281fb8aee10c7ef で修正したのに対応するテストを追加しています。
