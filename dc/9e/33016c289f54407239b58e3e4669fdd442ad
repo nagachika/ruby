@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Unicode.get_mbchar_width に不明な文字が渡された時に nil を返してたのを 1 を返すようにしています。else 節はまだいるのかな?
