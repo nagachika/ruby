@@ -1,0 +1,1 @@
+doc/extension.rdoc から Data クラス(rb_cData)を使うことを推奨する古い文を削除しています。またサンプルコードで alloc 関数を定義する例を追加しています。
