@@ -1,0 +1,1 @@
+win32/mkexports.rb の Exports クラスのサブクラスを Module#inherited フックを使って収集してたのを、Module#constants で定数リストを取得して検索するようにしています。
