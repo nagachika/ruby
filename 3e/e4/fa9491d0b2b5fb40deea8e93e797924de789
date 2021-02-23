@@ -1,0 +1,1 @@
+Fiber 内で例外が発生して実行が終了した時に TracePoint の :fiber_switch イベントが発火していなかったのを発火するように修正しています。また Fiber を例外で終了する時にいくつかの後始末がスキップされていたのも修正しています。 https://github.com/ruby/ruby/pull/4207
