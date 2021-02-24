@@ -1,0 +1,1 @@
+19cc24b34b0490b7c2779eec521fe0089e05f183 および 41eb4fbf86e7ae9c9ff993e07a19fa44eb74be9b の続きで win32/win32.c にもうひとつ uenvarea_mutex という mutex を追加して w32_getenv() に排他処理を追加しています。
