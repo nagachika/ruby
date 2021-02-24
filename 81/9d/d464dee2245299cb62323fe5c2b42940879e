@@ -1,0 +1,1 @@
+19cc24b34b0490b7c2779eec521fe0089e05f183 および 41eb4fbf86e7ae9c9ff993e07a19fa44eb74be9b、5a4742a0b4d57e95d6ed7e27c786a74e7cb55977 の続きで constat_handle() に thread_exclusive() マクロを使った排他処理追加をしています。 return のかわりに thread_exclusive() マクロが for 文になってるので continue でブロックを抜けるようにしてるのが hacky ですねえ。
