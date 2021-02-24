@@ -1,0 +1,1 @@
+edd25382687c840f10eec23d72fa08ebd3515fbf で pull request を master に向けさせるようにするために追加した GitHub Actions の workflow .github/workflows/check_branch.yml を削除しています。コミットログによると本来の意図とは違ってコミットログに [ci skip] が含まれているためにマージできない pull request ができてしまうとのことで、もう必要はなくなったので消すとのこと。
