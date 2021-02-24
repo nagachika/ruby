@@ -1,0 +1,1 @@
+19cc24b34b0490b7c2779eec521fe0089e05f183 の続きで thread_exclusive() を使うリファクタリングの追加と constat_handle() の EnterCriticalSection()/LeaveCriticalSection() による排他処理を不要にするリファクタリングをしています。
