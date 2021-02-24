@@ -1,0 +1,1 @@
+GitHub Actions の設定に明示的にコミットログに "[ci skip]" が含まれてたら処理しないという if が含まれてたのを削っています。GitHub Actions がデフォルトに "[ci skip]" などのキーワードに対応したので不要になったそうです。 https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
