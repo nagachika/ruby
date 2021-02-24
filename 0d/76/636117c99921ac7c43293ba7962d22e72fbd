@@ -1,0 +1,1 @@
+win32/win32.c の constat_delete()、vm_exit_handler()、socklist_insert()、socklist_lookup() などの Windows で socket を管理するためのリストの操作を排他処理するための Mutex を追加しています。 Ractor 対応のためかな。
