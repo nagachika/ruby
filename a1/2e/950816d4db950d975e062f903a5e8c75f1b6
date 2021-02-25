@@ -1,0 +1,1 @@
+19cc24b34b0490b7c2779eec521fe0089e05f183 で win32/win32.c に導入した排他処理をブロックっぽく書ける thread_exclusive() マクロをやめて EnterCriticalSection()/LeaveCriticalSection() を明示的に書くようにしています。また不要になった getenv の排他のための uenvarea_mutex を削除しています。
