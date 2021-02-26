@@ -1,0 +1,1 @@
+785f5eb8f0f994c755ac5f1e1479f6e2ec6d0ef3 の続きで gc_set_auto_compact() で mmap(2) のない Windows 環境では GC.auto_compact = true  は NotImplementedError 例外を発生させるようにしています。 https://github.com/ruby/ruby/pull/4221 [ruby-core:102585] [Bug #17652]
