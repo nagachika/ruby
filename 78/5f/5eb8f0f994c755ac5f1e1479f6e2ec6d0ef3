@@ -1,0 +1,1 @@
+オブジェクトの struct RVALUE の配列の heap を確保するのに mmap(2) を利用するという変更。メモリ確保に mmap() を使うというのはだいぶ昔にもアイデアだけだったかもしれないけどあった気がしますが、なんでだめなんだったっけ。これも後で revert されています。 https://github.com/ruby/ruby/pull/4221 [ruby-core:102585] [Bug #17652]
