@@ -1,0 +1,1 @@
+include/ruby/internal/intern/random.h から既に存在しなくなってた rb_random_int() の宣言を削除しています。
