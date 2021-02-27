@@ -1,0 +1,1 @@
+1e13548953659bd12c28625d45998322449f3be8 と 1c0e79e87b202ac707833fb1bd5e9398c8d0b4fb の続きで 59fb5d4fa3e21dd00f8f45999bb7b4be9418429c のリトライ。 GC.auto_compact = true の状態での大量の GC 発生させるテストを追加しています。 https://github.com/ruby/ruby/pull/4221 [ruby-core:102585] [Bug #17652]
