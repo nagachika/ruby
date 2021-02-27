@@ -1,0 +1,1 @@
+785f5eb8f0f994c755ac5f1e1479f6e2ec6d0ef3 のオブジェクトの heap 確保に mmap(2) を使うようにする変更のリトライ。 mmap(2) の第5引数 fd に 0 を渡してしまってたのを -1 に変更しているようです。 https://github.com/ruby/ruby/pull/4221 [ruby-core:102585] [Bug #17652]
