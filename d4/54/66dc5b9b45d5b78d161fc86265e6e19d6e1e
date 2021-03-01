@@ -1,0 +1,1 @@
+0590e9b677e8c0b7a2364f660f06d9f5bd8fe87d の続きで拡張ライブラリ fiddle の Fiddle::Function#to_proc の lambda 内で self にアクセスしてるのをメソッド内のローカル変数に退避したものを使うようにしています。あー Object#instance_eval とか Module#define_method に渡すと self が変わっちゃいますからね。
