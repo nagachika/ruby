@@ -1,0 +1,1 @@
+8305a484133ef67c0c95122008026d9262993a37 で調査していた時間のかかる rubyspec のテストで C API の rb_thread_call_without_gvl() が時間がかかってたらしいので MinGW では実行除外するようにしています。
