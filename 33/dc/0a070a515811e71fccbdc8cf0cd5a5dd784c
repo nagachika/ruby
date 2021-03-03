@@ -1,0 +1,1 @@
+clang の最適化オプション -O3 をつけてビルドすると、おそらく LLVM の最適化の不具合で SEGV するケースがあるとのことで internal/object.h の inline 関数 RBASIC_SET_CLASS_RAW() 内で VALUE 型の引数から struct RBasic の klass をconst 修飾子を無視してセットするための書きかたを変更しています。 [ruby-core:102083] [Bug #17540]
