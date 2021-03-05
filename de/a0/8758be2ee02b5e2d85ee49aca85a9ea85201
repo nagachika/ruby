@@ -1,0 +1,1 @@
+GitHub Actions による各種チェックを行う workflow .github/workflows/check_misc.yml に行末の空白をチェックするアクションを追加しています
