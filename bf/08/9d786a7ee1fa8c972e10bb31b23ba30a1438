@@ -1,0 +1,1 @@
+macOS で random.c に #include してるヘッダを Security/Security.h から Security/SecRandom.h に変更しています。 コミットログによると Security/Authorization.h という(おそらくSecurity/Security.h からさらに #include される)ヘッダファイルが clang の独自の拡張に依存していて gcc で syntax error になるらしくて、それを避けつつ必要な宣言が含まれてるヘッダを直接 #include するようにしたということのようです。
