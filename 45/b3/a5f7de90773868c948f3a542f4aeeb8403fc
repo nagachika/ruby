@@ -1,0 +1,1 @@
+include/ruby/internal/intern/parse.h の rb_sym_interned_p() という関数は r11615 で 2007年というかなり昔に削除されてたのでさすがにもういらないだろうということで宣言を削除しています。
