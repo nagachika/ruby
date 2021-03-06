@@ -1,0 +1,1 @@
+arm64 向けの Fiber 用 coroutine の実装 coroutine/arm64/Context.S に .note.GNU-stack といくセクションの宣言を追加しています。Linux で必要とのこと。
