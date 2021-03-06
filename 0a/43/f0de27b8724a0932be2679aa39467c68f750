@@ -1,0 +1,1 @@
+symbol.c の rb_enc_symname_type() で switch 文内から goto で末尾に飛んでるところがあったのは、対象のラベルが switch 文のすぐ後にあるので単に break するだけにするように switch 文を融合するリファクタリング。
