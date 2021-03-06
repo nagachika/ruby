@@ -1,0 +1,1 @@
+さらに x86 と amd64 の coroutine 実装でも .note.GNU-stack セクションの宣言を追加するかどうかの preprocessor の分岐の条件に FreeBSD も追加するようにしています。
