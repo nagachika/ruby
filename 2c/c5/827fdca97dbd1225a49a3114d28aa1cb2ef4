@@ -1,0 +1,1 @@
+irb の RubyLex で 2.7 から導入された endless range が行末にきた時の対応を追加しています。 [ruby-core:87394] [Bug #14824]
