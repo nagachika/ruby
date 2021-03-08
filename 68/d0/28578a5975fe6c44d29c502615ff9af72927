@@ -1,0 +1,1 @@
+さらに Enumerator::Chain の feed, next, next_values, peek, peek_values などのメソッドを undef しています。呼ばれても TypeError が発生する状態だったので、未定義のほうが良いだろうという判断みたいです。respond_to? で判定できたほうがいいからってことかな。
