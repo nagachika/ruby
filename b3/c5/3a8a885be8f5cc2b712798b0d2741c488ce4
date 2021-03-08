@@ -1,0 +1,1 @@
+標準入出力などを指す特殊変数 $stdin, $stdout, $stderr のオブジェクトは Ractor local になっていますが、この IO オブジェクトの生成を ractor_create() の時点ではなく Ractor を実行開始した時にその thread 内で行うようにしています。所有権が呼び元の Ractor のものになってしまうのでそれを避けるためみたいです。 [ruby-core:102747] [Bug #17672]
