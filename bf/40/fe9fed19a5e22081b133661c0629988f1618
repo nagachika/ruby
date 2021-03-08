@@ -1,0 +1,1 @@
+Enumerator#chain で連結した時に生成されるインスタンスのクラス Enumerator::Chain に Enumerator を返すようなメソッドを呼ぶとエラーになっていた不具合を修正しています。 Enumerator::Chain ってなんだったっけなーと思ったけどもう入ったのは 2年以上前でしたね。忘れてた。 [ruby-core:100302]  [Bug #17216]
