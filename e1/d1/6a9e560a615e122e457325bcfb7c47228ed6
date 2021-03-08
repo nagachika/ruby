@@ -1,0 +1,1 @@
+Enumerator::Lazy のインスタンスに Enumerable#chain を呼び出した時に Enumerator::Chain が返されるのが期待に反しているということで、Enumerator::Chain を wrap した Enumerator::Lazy を返すようにしています。なるほど確かに。とはいえなんか混乱してきますね。 [ruby-core:101100] [Feature #17347]
