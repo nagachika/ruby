@@ -1,0 +1,1 @@
+標準添付されている bundler の bundler.gemspec の spec.files を生成するのに man/ の配下も Dir.glob してたのをもう存在しないので削っています。
