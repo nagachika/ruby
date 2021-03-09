@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL でのチェックを行う .github/workflows/codeql-analysis.yml で pull request のブランチからのチェック時に git checkout HEAD^2 してたのを削っています。なんでやってたんだろこれ。
