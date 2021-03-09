@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#eof? の実装を関数に切り出して StringIO#each_{byte, codepoint} で読み込み可能かのチェックに流用するようにしています。 StringIO#each_byte などで読み込む文字があるかをループ内でチェックするようにしています。 [ruby-core:102764] [Bug #17675]
