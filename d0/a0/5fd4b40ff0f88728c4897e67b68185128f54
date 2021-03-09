@@ -1,0 +1,1 @@
+TCPSocket のテストで fd leak が起きてたのを TCPSocket.open をブロックつき呼び出しにしてしています。
