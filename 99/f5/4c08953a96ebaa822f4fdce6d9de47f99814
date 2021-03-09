@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の gemspec ファイルの s.add_development_dependency を削除しています。
