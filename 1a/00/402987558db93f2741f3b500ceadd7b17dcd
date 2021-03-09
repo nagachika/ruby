@@ -1,0 +1,1 @@
+win32/win32.c に 19cc24b34b0490b7c2779eec521fe0089e05f183 で導入したものの a12e950816d4db950d975e062f903a5e8c75f1b6 で revert された排他処理のためのマクロ thread_exclusive() を再度追加して for 文を使ってブロックっぽく書けるようにしています。
