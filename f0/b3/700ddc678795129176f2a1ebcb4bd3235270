@@ -1,0 +1,1 @@
+5f821ee9777b1c13364892a65e9af97545d14bb6 の続き? configure の --with-coroutine オプションの引数チェックで利用する変数名を rb_cv_coroutine から coroutine_type に変更しています。コミットログによるとキャッシュしないようにするということなのですが、変数名の rb_cv_ の prefix がキャッシュするかどうかの制御に使われてるのかな。しかしまだ少し rb_cv_coroutine を使ってる箇所が残ってますね。
