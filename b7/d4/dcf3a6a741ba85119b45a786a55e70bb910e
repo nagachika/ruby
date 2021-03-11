@@ -1,0 +1,1 @@
+win32/win32.c の install_vm_exit_handler() で ruby_vm_at_exit() の呼び出しを必ず 1回だけにするために static 変数を使って制御していたところを InterlockedCompareExchange() を使ってより厳密に複数スレッド対応(つまり Ractor 対応?)しています。
