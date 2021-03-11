@@ -1,0 +1,1 @@
+configure の --with-coroutine オプションのチェック時に ucontext や copy が明示的に指定された時にも指定がなかった時と同様に環境から利用する coroutine を決めるようにしています。 make reconfig を安定させるためとのことで、configure.ac を変更してやりなおした時に反映されるようにするためかな。
