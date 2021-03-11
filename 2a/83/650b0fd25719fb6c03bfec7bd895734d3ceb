@@ -1,0 +1,1 @@
+Windows 環境で ruby_vm_destruct() で mutex など? 排他処理のための領域をロック解放しないままメモリ解放しているというエラーが発生する(なにかそういう verifier があるのかも)という不具合の修正のため ruby_vm_destruct() で rb_vm_t::waitpid_lock と rb_vm_t::workqueue_lock の rb_native_mutex_destroy() を呼び出しておくようにしています。 [ruby-core:92668] [Bug #15852]
