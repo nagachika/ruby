@@ -1,0 +1,1 @@
+iseq.h の enum defined_type から DEFINED_IVAR2 という定数を削除しています。いつからか使われなくなってたようです。
