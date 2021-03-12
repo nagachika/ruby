@@ -1,0 +1,1 @@
+f0b3700ddc678795129176f2a1ebcb4bd3235270 の続き。 configure.ac でまだ残ってた rb_cv_coroutine の変数を使ってたところも coroutine_type に改名しています。
