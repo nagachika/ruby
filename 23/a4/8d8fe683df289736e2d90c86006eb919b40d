@@ -1,0 +1,1 @@
+rb_class_ivar_set() に呼び元で常に行なわれてた RCLASS_IV_TBL() の初期化を移動して取り込むリファクタリング。
