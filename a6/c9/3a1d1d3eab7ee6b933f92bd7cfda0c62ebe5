@@ -1,0 +1,1 @@
+b37f60fbd4b18f23e0443ae41b2cd7b991f0e11c の gems/bundled_gems の rbs のバージョン更新を revert しています。 make test-bundled-gems が CI で失敗していたため。
