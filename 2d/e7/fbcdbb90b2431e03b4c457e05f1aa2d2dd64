@@ -1,0 +1,1 @@
+d00e7deb5c780d75e4edd3afa3e26ea02c296d8c とも関連してそうですが iseq_compile_each0() で class/module の ISeq に埋め込む名前の文字列を rb_str_freeze() で freeze しておくようにしています。
