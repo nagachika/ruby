@@ -1,0 +1,1 @@
+8463c8a425758fd4dc58a5c202aba295c837b154 で Symbol 専用の処理に書きかえた ibf_dump_object_symbol() ですが、ibf_dump_object_string() にまるっと委譲することができたみたいで rb_sym2str() で文字列化してから ibf_dump_object_string() を呼ぶようにリファクタリングしています。ということは読み込むほうも互換性あるのかも。
