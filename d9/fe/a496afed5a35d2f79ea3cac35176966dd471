@@ -1,0 +1,1 @@
+cbc7c1c06145b02b3d887a6fb2c3b6d9e4bb22dd で追加したテストメソッドに ensure 節を追加して、eval で追加している定数を Module#remove_const で削除するようにしています。
