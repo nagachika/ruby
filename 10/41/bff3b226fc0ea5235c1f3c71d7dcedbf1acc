@@ -1,0 +1,1 @@
+d00e7deb5c780d75e4edd3afa3e26ea02c296d8c と 2de7fbcdbb90b2431e03b4c457e05f1aa2d2dd64 の効果を測るためだと思いますが benchmark/iseq_load_from_binary.yml に ISeq のバイナリフォーマットからの load RubyVM::InstructionSequence.load_from_binary のベンチマークを追加しています。
