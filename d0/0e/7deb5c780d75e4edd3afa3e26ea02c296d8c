@@ -1,0 +1,1 @@
+同じく ISeq のバイナリフォーマットでの load で String の処理 ibf_load_object_string() で freeze された文字列向けの最適化?
