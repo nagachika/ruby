@@ -1,0 +1,1 @@
+ISeq のバイナリフォーマットでの dump/load で Symbol の処理を ibf_dump_object()/ibf_load_object() の一般的な処理を使ってたのを Symbol 用に専用の処理を用意するようにしています。これ互換性はなくなりそうだけど version 上げなくてもいいのかな。
