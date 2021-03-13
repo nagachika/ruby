@@ -1,0 +1,1 @@
+configure のプラットフォームごとの変数設定で mingw の時の rb_cv_negative_time_t の設定が複数行あってしかも矛盾してたので 1つにまとめています。
