@@ -1,0 +1,1 @@
+tool/generic_erb.rb から timestamp ファイルを利用して更新があった時だけファイルを再生成する処理を tool/lib/atomic_write.rb というライブラリに切り出しています。
