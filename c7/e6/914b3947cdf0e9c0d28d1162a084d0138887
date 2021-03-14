@@ -1,0 +1,1 @@
+doc/syntax/comments.rdoc の 1行に複数の magic comment を書く例に frozen_string_literal: true も追加しています。
