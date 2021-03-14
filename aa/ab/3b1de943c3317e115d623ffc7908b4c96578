@@ -1,0 +1,1 @@
+Integer#remainder および Float#remainder の引数に Float::INFINITY を渡した時に receiver と符号が逆だと結果が NaN になってたのを修正しています。 NaN じゃないんだ。 [ruby-core:43109] [Bug #6120]
