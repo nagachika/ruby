@@ -1,0 +1,1 @@
+3ac28de5414c81a0da8c8ec969ea74db5a0f1b0f の続き? で rb_mutex_sleep() の戻り値を time_t の変数を INT2FIX() で変換していたのを TIMET2NUM() に修正しています。 [Bug #17645]
