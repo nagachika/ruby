@@ -1,0 +1,1 @@
+File#birthtime の実装として statx(2) が使える時の実装 statx_birthtime() で rb_time_nano_new() の第1引数を明示的に time_t にキャストしています。環境によって struct statx.tv_sec が 64bit の時にコンパイルエラーになる場合があるようです。  [Bug #17645]
