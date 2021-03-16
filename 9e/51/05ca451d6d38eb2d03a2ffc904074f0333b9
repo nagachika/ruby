@@ -1,0 +1,1 @@
+addr2line.c で C のバックトレース取得のために DWARF5 からデバッグ情報を取得できるようにしています。 最近の gcc だと DWARF のバージョンが新しくなってるんですね。 https://github.com/ruby/ruby/pull/4240 [ruby-core:102256] [Bug #17585]
