@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey#sign と OpenSSL::PKey#verify の実装で OpenSSL 1.1.1 以降を利用していた場合に使える EVP_DigestSign() と EVP_DigestVerify() というシンプルなインターフェースを利用するようにしています。
