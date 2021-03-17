@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::StoreContext#chain の実装のリファクタリング。 ossl_x509_sk2ary() という API が有用だったのでこれを使うようにしているようです。
