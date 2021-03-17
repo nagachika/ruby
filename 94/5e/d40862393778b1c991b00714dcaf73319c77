@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket で macOS において OpenSSL のエラーが errno == EPROTOTYPE を返した時にリトライするようにしています。 https://github.com/ruby/openssl/issues/227 [ruby-core:86690] [Bug #14713]
