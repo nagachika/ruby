@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Group.new の引数に Symbol で :GFp_simple などの EC_METHOD なるものを指定する呼びかたのサポートを削除しています。
