@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::PKey#derive というメソッドを新規追加しています。 EVP_PKEY_derive() という API を使うためのメソッドのようです。専用のクラスのないタイプの OpenSSL の鍵タイプを利用するための低レベル API という感じみたいです。
