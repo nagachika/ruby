@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::#sign および #verify の実装で利用する OpenSSL のインターフェースを EVP_Xxxx から EVP_DigestXxxx に変更しています。 OpenSSL 1.0.0 以降で追加されたインターフェースとのこと。
