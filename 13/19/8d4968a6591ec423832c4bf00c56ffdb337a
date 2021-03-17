@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::HMAC#base64digest および特異メソッド OpenSSL::HMAC.base64digest を新規追加しています。
