@@ -1,1 +1,1 @@
-File.dirname にキーワード引数 level を追加して dirname を繰り返し呼んだように親ディレクトリを辿った名前を 1回で返せるようにしています。 [ruby-core:74448] [Feature #12194]
+File.dirname に省略可能な引数 level を追加して dirname を繰り返し呼んだように親ディレクトリを辿った名前を 1回で返せるようにしています。 [ruby-core:74448] [Feature #12194]
