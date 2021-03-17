@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Cipher#cmm_data_len= メソッドを追加して AES の CCM モードでのデータサイズの指定ができるようにしています。
