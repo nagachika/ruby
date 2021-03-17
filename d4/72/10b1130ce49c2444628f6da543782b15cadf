@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#tmp_ecdh_callback の実装を削除しています。なんか見覚えがあるなと思ったら 2.3 で入ったけど r55214 ですぐに deprecated になったメソッドでした。なのでもう 5年ほど deprecated になってたのですね。
