@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext の verify_mode と verify_host のデフォルト値での初期化を追加しています。 元は nil になってたけど挙動は変わらないとのこと。
