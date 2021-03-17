@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DH#compute_key と OpenSSL::PKey::EC#dh_compute_key の実装を C から ruby 実装に移植しています。 fbadb01d6e0881ef6c6e5e105b8ac20fe663c817 で追加した OpenSSL::PKey::PKey#derive を利用することで可能になったようです。なるほどー。
