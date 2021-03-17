@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey.read の実装 ossl_pkey_new_from_data() で OpenSSL の PEM_read_bio_Parameters() という関数も試すようにしています。
