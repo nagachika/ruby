@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Config#value と OpenSSL::Config#section は長らく deprecated になっていたので削除しています。また OpenSSL::Config#add_value と OpenSSL::Config#[]= も対応する OpenSSL の実装が 1.1.0 で消えているため削除しています。
