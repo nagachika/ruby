@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket.open のテストで Errno::EACCES 例外も無視するようにしています。 MinGW で発生することがあった模様。
