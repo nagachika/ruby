@@ -1,0 +1,1 @@
+OpenSSL::Timestamp::Response#failure_info で Symbol を使うべきところに ID を使ってて結果がおかしくなっていたのを修正しています。 [ruby-core:102475] [Bug #17625]
