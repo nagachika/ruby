@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Point#mul というメソッドで引数を 2つ受け取る呼びかたを deprecated として警告を出力するようにしています。
