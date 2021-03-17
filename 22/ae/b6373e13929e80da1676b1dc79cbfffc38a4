@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Config の実装を ext/openssl/lib/openssl/config.rb で独自にしていたのを削除して C の拡張ライブラリで実装しなおしています。
