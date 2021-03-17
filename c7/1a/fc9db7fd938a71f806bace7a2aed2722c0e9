@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::PKey#compare? メソッドを追加しています。 EVP_PKEY_cmp() という API の wrapper です。
