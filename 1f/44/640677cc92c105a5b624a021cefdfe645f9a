@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey#to_pem や #to_der のための実装の共有化するようにするリファクタリング。
