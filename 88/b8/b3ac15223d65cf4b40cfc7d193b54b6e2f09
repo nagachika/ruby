@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Store#add_file の引数に nil が渡された時に TypeError 例外を発生させるようにしています。
