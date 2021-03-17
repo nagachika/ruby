@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで OpenSSL::Cipher の "aes-128-ccm" を使うテストは OpenSSL の 1.1.1c 以降でないと使えないということで OpenSSL::OPENSSL_VERSION_NUMBER でのチェックの範囲を修正しています。
