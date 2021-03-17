@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで古い OpenSSL (といっても 1.1.1) で OpenSSL::Config.parse の ".include" directive の仕様が変化してしまっているため通らないので実行除外するようにしています。
