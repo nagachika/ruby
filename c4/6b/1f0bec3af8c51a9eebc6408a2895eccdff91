@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Store および OpenSSL::X509::StoreContext のメソッドの rdoc 用コメントの説明を追記しています。
