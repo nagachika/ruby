@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpneSSL::PKey のオブジェクトから構造体を取り出す GetPrivPKeyPtr() で秘密鍵かどうかの判定に rb_funcallv() いよるメソッド呼び出しを使ってたのを先に OSSL_PKEY_IS_PRIVATE() マクロでチェックするようにし、さらに呼べれば private? メソッドの呼び出しも行なうようにしています。private? メソッドがない場合は private だとみなしています。これでいいのかな。
