@@ -1,0 +1,1 @@
+Enumerable#tally の実装で rb_hash_stlike_update() を利用して Hash オブジェクトの更新を rb_hash_aref()/rb_hash_aset() を使わず st_table を直接更新するようにして高速化しています。
