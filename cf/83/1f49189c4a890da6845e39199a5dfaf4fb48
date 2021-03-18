@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::GzipReader, Zlib::GzipWriter に File::TMPFILE フラグを渡して開いた File オブジェクトを渡すと File#path メソッドが例外を発生するため? エラーになってたのを rb_rescue で例外を無視して抑制するようにしています。
