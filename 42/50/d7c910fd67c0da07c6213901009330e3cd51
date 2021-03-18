@@ -1,0 +1,1 @@
+autogen.sh というシェルスクリプトを追加して autoreconf --install を実行するようにしています。よく知らないのですが autoconf 系のお作法でしょうか。
