@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の rp から bitmap のフラグをダンプする処理をコマンドに切り出すリファクタリング。
