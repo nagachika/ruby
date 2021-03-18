@@ -1,0 +1,1 @@
+autogen.sh で autoreconf のオプションに --symlink を追加したり autogen.sh の呼び出し時のパスによって srcdir を決めて autoreconf の引数に渡すようにしたりしています。
