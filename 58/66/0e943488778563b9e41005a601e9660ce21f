@@ -1,0 +1,1 @@
+Module#public_class_method や #private_class_method などで特異メソッドの可視性を変更する時に Refinements で refine されているメソッドの場合に意図せず refine で上書きしているほうの method entry が変更されているという不具合を修正しています。 [ruby-core:101981] [Bug #17519]
