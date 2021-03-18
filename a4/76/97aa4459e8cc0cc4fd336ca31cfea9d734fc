@@ -1,0 +1,1 @@
+misc/lldb_cruby.py に dump_page というコマンドを追加してオブジェクトの heap page の全オブジェクトの情報を表示することができるようにしています。
