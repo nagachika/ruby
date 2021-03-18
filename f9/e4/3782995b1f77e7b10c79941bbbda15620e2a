@@ -1,0 +1,1 @@
+aclocal.m4 を空ファイルにして同じ内容? を configure.ac に埋め込むようにしています。 https://github.com/ruby/ruby/pull/4280
