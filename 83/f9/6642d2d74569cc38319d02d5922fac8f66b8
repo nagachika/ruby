@@ -1,0 +1,1 @@
+4250d7c910fd67c0da07c6213901009330e3cd51 で追加した autogen.sh で autoreconf コマンドを決め打ちで書いてたのを環境変数 AUTORECONF があれば参照してこれを使うようにしています。
