@@ -1,0 +1,1 @@
+17bf478de14d0dd9098df65282f7f419cd792599 からの defined 命令の変更の続きで VM 命令 defined の定義で変数を初期化しておくことで不要な else 節を削っています。また check_respond_to_missing() の戻り値の型を enum defined_type から VALUE に変更して Qtrue/Qfalse を返すようにしています。さらに vm_defined() の実装で type による分岐内で対応する rb_xxx_defined() 関数を呼び出すようにリファクタリングしています。なんとなくなにかの修正のためにやってそうですが対応しそうなチケットなどはみつけられず。
