@@ -1,0 +1,1 @@
+VM 命令の defined のオペランドの needstr を rb_iseq_defined_string() の返す文字列オブジェクトを埋め込むようにしています。
