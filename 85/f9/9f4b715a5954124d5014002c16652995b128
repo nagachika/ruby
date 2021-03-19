@@ -1,0 +1,1 @@
+e0dd072978e6c2c8180e75617e7ee37830caefa3 と同様に irb の history file のテストでも環境変数 XDG_CONFIG_HOME を一時的に削除しておくようにしています。
