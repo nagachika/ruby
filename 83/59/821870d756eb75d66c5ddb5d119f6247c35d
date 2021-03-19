@@ -1,0 +1,1 @@
+17bf478de14d0dd9098df65282f7f419cd792599 からの一連の defined? の実装の変更の続きで rb_iseq_defined_string() で返す文字列オブジェクトを fstring にしています。これにより ObjectSpace.memsize_of での考慮が不要になったため rb_vm_t::defined_strings メンバーを削除しています。
