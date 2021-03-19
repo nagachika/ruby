@@ -1,0 +1,1 @@
+check_respond_to_missing() および vm_defined() の戻り値を VALUE から bool に変更して Qtrue/Qfalse のかわりに C の true/false を使うようにしています。
