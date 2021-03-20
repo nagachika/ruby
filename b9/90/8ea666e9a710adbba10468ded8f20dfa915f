@@ -1,0 +1,1 @@
+eval.c の rb_raise_jump()、rb_using_refinement()、rb_using_module() などの関数に static 修飾子がついてなかったので追加しています。
