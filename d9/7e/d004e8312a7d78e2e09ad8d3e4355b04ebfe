@@ -1,0 +1,1 @@
+configure で emscripten 向けのビルド時の LDFLAGS に追加する -s オプションと引数の間に空白を入れないようにしています。
