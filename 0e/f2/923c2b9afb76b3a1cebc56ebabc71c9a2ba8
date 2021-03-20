@@ -1,0 +1,1 @@
+d094c3ef046aba0bb99fd08bcbc72ff87216e736 と同様に Hash#replace, Hash#dup, Hash#initialize_copy などでひとつひとつ要素を追加するのではなく st_copy() などを使った複製をすることで負荷を下げるようにしています。Hash の複製って結構頻繁に使われてそうだし、これどのくらい効くのかな。 [ruby-core:98978] [Bug #16996]
