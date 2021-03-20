@@ -1,0 +1,1 @@
+4ea96f1d4f8a50c204c4367c994cdbf12cd97b64 の追加修正で CommonCrypto/CommonRandom.h とともに CommonCrypto/CommonCryptoError.h というヘッダも利用するようにしています。コメントによると古い Xcode でのビルドのためとのこと。
