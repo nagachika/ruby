@@ -1,0 +1,1 @@
+Hash#select や Hash#reject の実装で Hash オブジェクトを新規に作成して rb_hash_aset() で追加していくと rehash が起きることがあるので、receiver をコピーしてから不要になったやつを消していくという方式に変更しています。なるほどなー。 [ruby-core:98978] [Bug #16996]
