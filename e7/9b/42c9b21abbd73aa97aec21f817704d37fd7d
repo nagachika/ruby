@@ -1,0 +1,1 @@
+configure で pthread_sigmask() のチェックを emscripten でのビルド時には強制的に存在しないものとするようにしています。
