@@ -1,0 +1,1 @@
+gc.c で Emscripten でのビルド時にマシンスタックおよびレジスタ(を退避した?)の領域を取得する emscripten_scan_stack() と emscripten_scan_registers() という API を利用して mark 対象を得るようにしています。おお、こういう API があるのか。かっこいい。
