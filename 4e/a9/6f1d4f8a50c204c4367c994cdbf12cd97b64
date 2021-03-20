@@ -1,0 +1,1 @@
+macOS でバージョンによって CommonCrypto/CommonRandom.h というヘッダが使える場合はこのヘッダを使って CCRandomGenerateBytes() という API を SecRandomCopyBytes() のかわりに利用するようにしています。
