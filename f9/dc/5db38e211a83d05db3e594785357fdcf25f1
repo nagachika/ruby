@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の gemspec ファイルの spec.files で lib/irb/lib の配下を全て列挙するのでなく Dir.glob で実際に存在するファイルを取得して使うようにしています。
