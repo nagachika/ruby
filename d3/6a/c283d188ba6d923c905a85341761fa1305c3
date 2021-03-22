@@ -1,0 +1,1 @@
+7954bb056be30e86c419fe3792064d28990a4999 の Hash の破壊的メソッドのブロックでの freeze 対応をより包括的にするため tbl_update() の内部で rb_hash_modify() を呼ぶようにしています。 [ruby-core:102955] [Bug #17736]
