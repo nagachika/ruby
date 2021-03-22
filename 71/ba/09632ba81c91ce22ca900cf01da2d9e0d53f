@@ -1,0 +1,1 @@
+gc.c、io.c、marshal.c からも static 関数の不要な前方宣言を削除しています。
