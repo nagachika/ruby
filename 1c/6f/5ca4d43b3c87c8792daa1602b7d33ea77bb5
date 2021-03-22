@@ -1,0 +1,1 @@
+configure に emscripten でのビルド時に LDFLAGS に -sFORCE_FILESYSTEM=1 を追加するようにしています。
