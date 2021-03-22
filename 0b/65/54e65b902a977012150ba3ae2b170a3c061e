@@ -1,0 +1,1 @@
+hash.c の rb_hash_update_callback() という関数から置換すべき値を引数で指定する形で hash_update_replace() という関数を切り出して rb_hash_update_block_callback() からも再利用するリファクタリング。
