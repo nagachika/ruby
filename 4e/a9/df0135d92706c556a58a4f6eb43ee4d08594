@@ -1,0 +1,1 @@
+aclocal はもう使わなくなったとのことで template/Makefile.in から aclocal.m4 を作成するルールを削除し、LEGAL から aclocal.m4 のライセンスについての記述を削除しています。
