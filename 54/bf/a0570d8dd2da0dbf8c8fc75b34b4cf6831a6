@@ -1,0 +1,1 @@
+class.c の xxxx_methods 系メソッドの実装でメソッドの可視性をチェックするコールバック関数 ins_methods_priv_i()/ins_methods_prot_i()/ins_methods_pub_i() から共通部分を ins_methods_type_i() として切り出すリファクタリング。
