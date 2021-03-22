@@ -1,0 +1,1 @@
+rb_hash_update_func_callback で Enumerable#tally の最適化のため Hash オブジェクトとしてでなく st_table として直接更新するようにした影響で RGenGC のための write barrier が不足していたみたいで、rb_hash_update_func_callback() で RB_OBJ_WRITTEN() の呼び出しを追加しています。
