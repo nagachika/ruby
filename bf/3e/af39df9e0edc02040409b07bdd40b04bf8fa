@@ -1,0 +1,1 @@
+ast.c から static 関数 rb_ast_parse_array() の不要な前方宣言を削除しています。
