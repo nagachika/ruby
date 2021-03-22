@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in から defs/gmake.mk を include していたのを template/GNUmakefile.in を include するように変更しています。template/GNUmakefile.in も defs/gmake.mk を include しているので、より広い範囲を include するようにしているみたいです。
