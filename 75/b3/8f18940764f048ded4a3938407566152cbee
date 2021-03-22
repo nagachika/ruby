@@ -1,0 +1,1 @@
+d0b044a842ec03525ab839eb79864899ad81bed3 の追加修正。誤って既に Integer になっていた cols 変数の size メソッドを呼んでた(Integer#size は整数のメモリ上の幅を返すメソッドがあるので NoMethodError にはなってなかった)のを修正しています。
