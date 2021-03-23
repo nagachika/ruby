@@ -1,0 +1,1 @@
+7954bb056be30e86c419fe3792064d28990a4999 の続きで Hash#transform_values! でもブロック内で receiver を freeze した時にちゃんと FrozenError が発生するように対応を追加しています。 [ruby-core:102955] [Bug #17736]
