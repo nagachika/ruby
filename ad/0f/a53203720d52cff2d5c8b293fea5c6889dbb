@@ -1,0 +1,1 @@
+Fiber#transfer などのメソッドは今は require "fiber" は不要になっているのに rdoc 用メソッドにその記述が残ってたので削っています。 [ruby-core:101529] [Feature #17407]
