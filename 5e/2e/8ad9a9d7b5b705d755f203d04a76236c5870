@@ -1,0 +1,1 @@
+tool/mkconfig.rb で生成する rbconfig.rb に RbConfig::CONFIG["platform"] の項目を追加しています。むしろ今までなかったんですね。
