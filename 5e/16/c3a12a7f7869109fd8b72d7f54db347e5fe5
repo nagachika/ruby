@@ -1,0 +1,1 @@
+cont.c の fiber_pool_stack_free() で各種 madvise() を使ってるところで posix_madvise(2) が利用可能な場合は madvise() の定数 MADV_FREE_REUSABLE/MADV_FREE/MADV_DONTNEED よりこちらを優先するようにしています。また addr2line.c の ranges_include() で read_dw_form_addr() の戻り値を明示的に uintptr_t にキャストしています。コミットログによると Solaris でのビルドのためらしいですね。
