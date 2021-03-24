@@ -1,0 +1,1 @@
+enc_autoload_p() および enc_autoload() をそれぞれ rb_enc_autoload_p() と rb_enc_autoload() に改名して static 修飾子を取り、rb_enc_interned_str() から Encoding の autoload 関係の処理を呼び出すようにしています。 Encoding の個別の拡張ライブラリを autoload でロードする設定をしていると異常終了になることがあった不具合の修正のようです。
