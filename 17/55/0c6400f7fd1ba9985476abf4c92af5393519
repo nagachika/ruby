@@ -1,0 +1,1 @@
+test_many_fibers_with_threads といういかにも重そうなテストの timeout を Solaris 環境では  60 → 300 に伸ばしています。CI のためでしょうね。
