@@ -1,0 +1,1 @@
+include/ruby/internal/value_type.h の定数 RUBY_T_NONE のコメントの typo 修正。
