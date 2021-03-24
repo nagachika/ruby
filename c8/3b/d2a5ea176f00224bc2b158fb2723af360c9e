@@ -1,0 +1,1 @@
+test/ruby/test_file_exhaustive.rb のテストの assertion のエラー時のメッセージの引数が渡されてなかったのでとりあえずファイルパスを渡すようにしています。
