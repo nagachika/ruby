@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::GzipWriter と Zlib::GzipReader に File::TMPFILE のフラグつきの File を渡した時のテストで環境にとって O_TMPFILE フラグを使うことによる Errno::EINVAL、Errno::EISDIR、Errno::EOPNOTSUPP などの例外を rescue して skip するようにしています。
