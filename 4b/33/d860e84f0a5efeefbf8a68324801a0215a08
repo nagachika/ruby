@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#delete_text で複数行編集時に全体でなく現在の行だけ削除されるようにしています。
