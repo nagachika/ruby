@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に補完用の Proc オブジェクトを登録する Reline.completion_proc に 3つのブロックパラメーターを受け取るものをサポートして preposing と postposing という文字列(補完対象のトークンの前後の文字列?)も渡せるようにしています。また複数行編集の時に preposing と postposing に前後の行のバッファも加えるようにしています。どう使うのかな。
