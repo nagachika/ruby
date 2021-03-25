@@ -1,0 +1,1 @@
+bundler のテストのユーティリティに Spec::Path.xdg_config_home というメソッドを追加してテスト前に環境変数 XDG_CONFIG_HOME をセットしておくようにしています。
