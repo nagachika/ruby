@@ -1,0 +1,1 @@
+irb の completion で require の引数を $LOAD_PATH を使って require 可能なファイル名を取得して補完できるようにしているみたいです。便利そう! だけどちょっと重そう。Dir.glob の時点で actual_target を prefix として加えるのはだめなんだろうか?
