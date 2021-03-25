@@ -1,0 +1,1 @@
+irb の IRB::RubyLex#ripper_lex_without_warning をクラスメソッド IRB::RubyLex.ripper_lex_without_warning に変更しています。
