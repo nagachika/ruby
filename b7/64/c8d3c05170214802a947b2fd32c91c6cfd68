@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Reline.ungetc メソッドを追加しています。 Reline::IOGate に委譲しています。
