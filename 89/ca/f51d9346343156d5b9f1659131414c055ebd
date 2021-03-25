@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#retrieve_completion_block で Reline.completer_word_break_characters が空文字列にセットされてるとエラーになっていたのを修正しています。
