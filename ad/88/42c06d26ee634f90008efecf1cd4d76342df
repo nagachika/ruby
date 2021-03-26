@@ -1,0 +1,1 @@
+0927756e58c7d68517a1468f2327ce50989ff3f2 の irb の completion で require/require_relative の引数の補完ができるようになった変更の追加で Dir.glob で得たファイル名リストをクラス変数にキャッシュしておいて使いまわすようにしています。なるほどー。 Dir.chdir した時に files_from_current_dir のほうはクリアしたくなるとか、今後も変更の余地がありそう。
