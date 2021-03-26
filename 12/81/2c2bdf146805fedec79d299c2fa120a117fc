@@ -1,0 +1,1 @@
+make test-bundler-parallel で XRUBY への引数に $(srcdir) を渡すかわりに shell の変数に $(srcdir) の位置を pwd で取得して格納しておいて、これを展開して渡すようにしています。 $(srcdir) だと展開されないのかな。
