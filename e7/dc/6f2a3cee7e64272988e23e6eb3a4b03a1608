@@ -1,0 +1,1 @@
+common.mk の enc.mk の依存関係に enc/jis/props.h を追加しています。
