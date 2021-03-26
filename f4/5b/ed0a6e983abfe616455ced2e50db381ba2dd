@@ -1,0 +1,1 @@
+12812c2bdf146805fedec79d299c2fa120a117fc の再修正。 make test-bundler-parallel で引数に spec/bundler/ を渡すために shell の pwd を使っていたのをやめて、$(XRUBY) のスクリプト内で引数を File.expand_path して、そこからさらに Kernel#exec で $(XRUBY) を実行するという 2段構えの起動をするようにしています。 $(srcdir) の展開というよりフルパスにするのが目的だったみたいですね。
