@@ -1,0 +1,1 @@
+common.mk の lib/unicode_normalize/tables.rb の更新用のターゲットを ALWAYS_UPDATE_UNICODE が yes にセットされてた時だけ定義するようにして、デフォルトでは再生成させないようにしています。
