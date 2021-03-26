@@ -1,0 +1,1 @@
+テストコードをみても発生条件はよくわからなかったのですが、caller とか caller_locations で ruby の backtrace を得る時に取得範囲が間違ってることがあった不具合を修正しているようです。 https://github.com/ruby/ruby/pull/4237 [Bug #17581] の 87437326214e4587a41946c8937e11418d983acd の修正の影響?
