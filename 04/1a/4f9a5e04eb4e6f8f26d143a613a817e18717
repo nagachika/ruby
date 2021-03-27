@@ -1,0 +1,1 @@
+make up の実行時に環境変数 ALWAYS_UPDATE_UNICODE をクリアしてから make after-update を実行するようにして二重に Unicode 関連のデータファイルのダウンロードしなくて良いようにしています。
