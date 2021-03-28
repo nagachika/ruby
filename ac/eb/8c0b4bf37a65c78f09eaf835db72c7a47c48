@@ -1,0 +1,1 @@
+9143d21b1bf2f16b1e847d569a588510726d8860 で Enumerable#tally の引数に Hash を渡せるようにしていましたが、rb_check_hash_type() で変換していたため Object などを渡すと SEGV する状態だったので rb_convert_type() で必要なら to_hash メソッドで変換するようにしたうえで freeze されてないかチェックも追加しています。 [ruby-core:102992]  [Feature #17744]
