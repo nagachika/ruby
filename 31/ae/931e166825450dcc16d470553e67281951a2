@@ -1,0 +1,1 @@
+doc/extension.rdoc および doc/extension.ja.rdoc に記述されてる正規表現エンジンの名前が鬼車(Oniguruma)のままになってたので、鬼雲(Onigumo) に改名して、関連するソースコードとして既に存在しない regex.c も挙げられてたのを削っています。
