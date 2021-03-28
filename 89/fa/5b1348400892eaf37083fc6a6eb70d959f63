@@ -1,0 +1,1 @@
+eval.c の rb_exc_raise() と rb_exc_fatal() から共通部分を rb_exc_exception() という関数に切り出すリファクタリング。
