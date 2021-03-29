@@ -1,0 +1,1 @@
+NameError.message という内部的なクラスの to_str で Module#name が文字列でないオブジェクトを返した時に SEGV することがあった不具合を修正しています。 [ruby-core:103062] [Bug #17754]
