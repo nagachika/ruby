@@ -1,0 +1,1 @@
+error.c の rb_ident_hash_new() の宣言が既に利用されてなかったので削除しています。
