@@ -1,0 +1,1 @@
+31e0382723bfb35cffe3ca485dd0577668cafa07 および 5e5fb72f99701dc27c66ab148471893f14e6d6f0 と fb6ebe55d91187d9635e0183d47dbf38e95b1141 の追加修正。 Hash#transform_keys! の実装で中間オブジェクトを使い終わった時に rb_gc_force_recycle() を呼び出して強制的にオブジェクトの slot を解放するところまでさせています。 [ruby-core:102949] [Bug #17735]
