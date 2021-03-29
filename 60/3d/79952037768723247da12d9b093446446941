@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default  gems の upstream からコミットを cherry-pick する時に指定の範囲のコミットがなかった時にメッセージを表示して処理を中断するようにしています。
