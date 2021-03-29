@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname.split で File.split が配列でない値を返した場合(再定義されてた場合?)に SEGV する可能性があったのを修正しています。 [ruby-core:103063] [Bug #17755]
