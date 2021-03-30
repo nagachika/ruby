@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream repo からのマージで範囲を指定せずに自動判定する時の git log からコミット参照を抜き出すときに git log に渡す --grep 引数をより厳密に抽出する時の正規表現をそのまま利用するようにしています。
