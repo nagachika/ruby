@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse で決してマッチしないようなオプションの指定があった時に OptionParser::InvalidOption 例外が発生するようにしています。 OptionParser#on に正規表現って渡せるんだ。 https://github.com/ruby/optparse/issues/3
