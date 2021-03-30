@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream repo をマージする時に無視すべきファイルを削除するのに git reset と git checkout HEAD だけだとファイル自体が消えないので File.unlink で削除するようにしています。
