@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の rdoc 用コメントのサンプルで OptionParser.new のブロックパラメーターの名前を opts から parser に変更しています。
