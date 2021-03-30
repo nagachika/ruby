@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で同期時に無視するファイルのパターンに COPYING ファイルを追加しています。
