@@ -1,0 +1,1 @@
+misc/rb_optparse.zsh の使いかたを記述したコメントで .zshrc の置き場所を環境変数 ZDOTDIR を参照するように変更しています。
