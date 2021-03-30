@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の gemspec ファイルの spec.files を git ls-files から抽出する処理で除外するファイルのパターンを増やしています。
