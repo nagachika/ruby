@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse に OptionParser#require_exact というメソッドを追加して、long option の前方一致で自動的に補完して解釈する機能を抑制できるようにしています。 [Feature #11523]
