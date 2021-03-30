@@ -1,0 +1,1 @@
+cont.c の fiber_pool_allocate_memory() および fiber_pool_stack_free() で madvise(2) を利用する場合 errno=EAGAIN でかえってきたら成功するまで繰り返すようにしています。この while の書きかたはちょっとびっくりしますね。
