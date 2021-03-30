@@ -1,0 +1,1 @@
+misc/rb_optparse.bash と misc/rb_optparse.zsh の shebang を削除して、かわりに emacs のファイルタイプ指定の modeline? を追加しています。
