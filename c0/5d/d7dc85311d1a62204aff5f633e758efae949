@@ -1,0 +1,1 @@
+同じく 4c53dc970bf82e4c5fb237be4b2404bcb07496d2 の再修正で、追加された rb_fiber_scheduler_timeout_raise() でメソッド呼び出しに rb_funcall() を使っていたのを rb_check_funcall() を利用するように修正しています。
