@@ -1,0 +1,1 @@
+と、思ったら 4c53dc970bf82e4c5fb237be4b2404bcb07496d2 の続きで Fiber.scheduler が nil の時のために safe guard operator を使うようにしています。がメソッド自体がない場合というのがあるんじゃないかな。
