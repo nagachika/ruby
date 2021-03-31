@@ -1,0 +1,1 @@
+4c53dc970bf82e4c5fb237be4b2404bcb07496d2 で追加した拡張ライブラリでの blocking fiber 対応のための API で利用する Scheduler のメソッド名を timeout_raise から timeout_after に変更しています。また doc/fiber.md に説明を追記しています。
