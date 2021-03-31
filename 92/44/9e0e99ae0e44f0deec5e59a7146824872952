@@ -1,0 +1,1 @@
+Fiber.current_scheduler というメソッドを追加して、標準添付ライブラリ timeout では Fiber.scheduler のかわりにこちらを利用するようにしています。rb_thread_t::blocking のチェックを含めて blocking fiber でない時に nil を返す点が Fiber.scheduler とは違うようです。
