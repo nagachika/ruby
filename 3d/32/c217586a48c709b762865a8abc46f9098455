@@ -1,0 +1,1 @@
+4c53dc970bf82e4c5fb237be4b2404bcb07496d2 や 09c865d541472366550804ef09bf14e22a193644 で追加していた C API rb_fiber_scheduler_timeout_raise() と rb_fiber_scheduler_timeout_raisev() の宣言および定義をコメントアウトしています。
