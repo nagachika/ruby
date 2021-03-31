@@ -1,0 +1,1 @@
+rb_io_wait_readable() と rb_io_wait_writable() で blocking fiber の scheduler 対応で io_fd_check_closed() が errno=EAGAIN で失敗した時のリトライを追加しています。 [ruby-core:102003] [Bug #17527]
