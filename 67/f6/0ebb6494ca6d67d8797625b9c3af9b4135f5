@@ -1,0 +1,1 @@
+4c53dc970bf82e4c5fb237be4b2404bcb07496d2 および c05dd7dc85311d1a62204aff5f633e758efae949 の追加修正で rb_check_funcall() の引数に VALUE をそのまま渡していたのでポインタを渡すように修正しています。
