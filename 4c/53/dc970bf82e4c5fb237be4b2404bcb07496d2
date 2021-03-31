@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout.timeout による割り込みに blocking fiber のための Scheduler が設定されている場合の実装の対応を追加しています。 Fiber.scheduler を無条件に呼んでるけど古い ruby では大丈夫なのかな。
