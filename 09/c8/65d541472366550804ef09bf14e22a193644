@@ -1,0 +1,1 @@
+さらに 4c53dc970bf82e4c5fb237be4b2404bcb07496d2 の追加修正。 rb_fiber_scheduler_timeout_raise() の引数を argc と argv で渡す版の rb_fiber_scheduler_timeout_raisev() という関数を追加しています。拡張ライブラリから利用するため。
