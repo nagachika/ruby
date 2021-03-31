@@ -1,0 +1,1 @@
+blocking fiber で rb_io_wait_readable() および rb_io_wait_writable() の挙動についてのテストを追加しています。テストが先に入ってて修正がこの後 a9c5c2d614f30a616970245fef3e7ffc151e2ecf で入ってるみたいです。
