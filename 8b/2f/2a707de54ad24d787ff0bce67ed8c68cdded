@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で同様に HAVE_RB_EXT_RACTOR_SAFE マクロのチェックを #if でしていたのを #ifdef に変更しています。
