@@ -1,0 +1,1 @@
+T_IMEMO 型のオブジェクトの GC mark 用の関数 gc_mark_imemo() で imemo_env タイプの時に rb_env_t::ep が NULL  でないかどうかチェックするようにしています。
