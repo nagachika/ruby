@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の install_dirs で HDRDIR と ARCHHDRDIR を展開する時に rubyhdrdir のかわりに vendorhdrdir と vendorarchhdrdir という変数参照に展開するように変更しています。拡張ライブラリの独自ヘッダファイルをインストールするために使った時に ruby 本体のヘッダファイル置き場に入れてしまっていたので、site_ruby の配下に入れるようにするためだそうです。 [ruby-core:103100] [Bug #17761]
