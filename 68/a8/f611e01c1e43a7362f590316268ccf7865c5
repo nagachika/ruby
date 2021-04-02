@@ -1,0 +1,1 @@
+arm64版の coroutine 実装 coroutine/arm64/Context.S で macOS 版では .align のかわりに .p2align directive を利用するようにしています。 .align と .p2align の違いってなんだろと調べてみると .p2align はオペランドを 2の累乗にしてアライメントサイズを指定するものだそうです。ただ macOS だと .align が .p2align と同じ意味になるらしいので(ref. http://umezawa.dyndns.info/wordpress/?p=6361)、分岐しなくても同じ結果になりそうですが、いずれにせよアライメントを 2  bytes じゃなく 4 bytes になるようにしているようです。
