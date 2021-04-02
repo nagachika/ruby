@@ -1,0 +1,1 @@
+time.c の timespec2timew() の引数を struct timespec * からそのメンバーの tv_sec と tv_nsec だけが必要なのでそれぞれを引数に受け取るように変更するリファクタリング。また time_overflow_p() を subsec_normalize() と改名して nanosec と microsec の余剰処理を引数で最大桁を指定することで共通するリファクタリング。
