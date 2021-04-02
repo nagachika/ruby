@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の GC.stress = true にして実施するテストでユーティリティメソッド EnvUtil.under_gc_stress を利用するようにリファクタリングしています。
