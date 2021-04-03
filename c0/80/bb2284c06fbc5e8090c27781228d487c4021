@@ -1,0 +1,1 @@
+Object#freeze の rdoc 用コメントで発生する例外の記述が RuntimeError のままだったので FrozenError に修正しています。
