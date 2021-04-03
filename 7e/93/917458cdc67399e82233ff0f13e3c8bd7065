@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor のカーソル移動時に @rest_height のリセットが漏れてたのを修正。 Ctrl-l で端末をクリアした時の挙動の修正みたいです。
