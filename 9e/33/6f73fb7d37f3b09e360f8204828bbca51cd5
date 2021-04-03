@@ -1,0 +1,1 @@
+irb の組み込みコマンドに show_source というのを追加して引数に指定された定数、メソッド(Class#method_name の形式で指定)、特異メソッド(Class.eigen_method_name の形式)などのソースコードを取得して表示するようにしています。
