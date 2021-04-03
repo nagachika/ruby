@@ -1,0 +1,1 @@
+gc.c の objspace_each_objects() の変数初期化子を追加。警告抑制のため。
