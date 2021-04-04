@@ -1,0 +1,1 @@
+irb のテストに test/irb/yamatanooroti/test_rendering.rb という yamatanooroti.gem を使ったダミー端末によるテストを追加しています。
