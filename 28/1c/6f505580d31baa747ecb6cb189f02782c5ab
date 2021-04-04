@@ -1,0 +1,1 @@
+irb の gemspec ファイルに UNIX 系 OS では vterm への development_dependency も追加しています。
