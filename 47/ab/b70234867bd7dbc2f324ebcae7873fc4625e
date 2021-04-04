@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の gemspec でも UNIX 系 OS で vterm への development_dependency を追加しています。
