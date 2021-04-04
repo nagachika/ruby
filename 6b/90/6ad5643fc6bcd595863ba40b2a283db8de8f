@@ -1,0 +1,1 @@
+CONTRIBUTING.md に doc/contributing.rdoc へのリンクを追加しています。なるほど、このリンクで rdoc-ref: を不要にするために先の 64b991b0cd98ee8f23266b8cbea0fa34bdaab1ec を入れてたんですね。
