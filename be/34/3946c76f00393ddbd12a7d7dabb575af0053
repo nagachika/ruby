@@ -1,0 +1,1 @@
+eval.c の rb_obj_call_init() の内容を rb_funcallv_kw() で initialize メソッド呼び出ししてたのを rb_obj_call_init_kw() を直接呼ぶようにしています。再定義とかいいのかなと思ったけど rb_obj_call_init_kw() の内容が rb_funcallv_kw() で initialize メソッドを呼ぶという全く同じものなので、引数だけ補って委譲するというリファクタリングです。 https://github.com/ruby/ruby/pull/4351
