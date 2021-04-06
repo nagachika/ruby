@@ -1,0 +1,1 @@
+ccb0b7ab7dd8667f9cd6d3d74483ffbc083d9c24 と同様に irb の組み込みコマンドのテストで 9e336f73fb7d37f3b09e360f8204828bbca51cd5 で追加されたテストメソッドでも IRB::Irb.new の前に IRB.conf[:VERBOSE] をセットしておくようにしています。
