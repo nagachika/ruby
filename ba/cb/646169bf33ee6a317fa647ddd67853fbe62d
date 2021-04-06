@@ -1,0 +1,1 @@
+irb の gemspec で development dependency に vterm.gem への依存関係を追加するのを環境変数に WITH_VTERM が設定されてる時だけにしています。こういうの gemspec じゃなくて Gemfile で書いたほうがいいんじゃないかなぁ。
