@@ -1,0 +1,1 @@
+IO#each_codepoint の rdoc 用コメントの call-seq に 43b95bafd57d04c8fb401d3a9b52aca3f5b4b0be で廃止されてた IO#codepoints のメソッドが残ってたのを削除しています。
