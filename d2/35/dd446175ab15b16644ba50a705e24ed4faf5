@@ -1,0 +1,1 @@
+tool/update-deps に Makefile を作成するために autogen.sh があればそれを、なければ autoreconf -i を実行して configure を生成するようにしています。
