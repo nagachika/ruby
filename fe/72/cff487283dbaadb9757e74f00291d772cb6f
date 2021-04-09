@@ -1,0 +1,1 @@
+0d1d779c239c4e4d98c42a7e97a9f43e3c5e53ff で追加された標準添付ライブラリ optparse のドキュメントやサンプルを doc/tutorial/  の下に移動してさらに加筆しています。このパスだと ruby 自体の tutorial っぽいですね。
