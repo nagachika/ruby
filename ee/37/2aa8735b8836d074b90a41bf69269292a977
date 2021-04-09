@@ -1,0 +1,1 @@
+拡張ライブラリ zlib のテストで Windows 環境で失敗するものがあったので Zlib::GzipWriter に渡す File オブジェクトの binmode を呼び出して改行コード変換を無効にするようにしています。
