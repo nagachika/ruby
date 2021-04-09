@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream のうち無視するファイル群の指定が空の時に git checkout コマンド実行を抑制することで全部の変更が戻されてしまうのを避けるようにしています。
