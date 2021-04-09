@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の gemspec ファイルで spec.files を作るのを git ls-files コマンドを利用していたの Dir.glob を使うように書き換えています。
