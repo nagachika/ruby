@@ -1,0 +1,1 @@
+GitHub Actions でビルド時に autoconf のかわりに autogen.sh を利用するように変更しています。
