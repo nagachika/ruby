@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Config#reset に reset_default_key_bindings の呼び出しを追加しています。
