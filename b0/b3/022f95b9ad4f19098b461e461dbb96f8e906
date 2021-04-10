@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の gemspec ファイルからも add_development_dependency の指定は削除しています。
