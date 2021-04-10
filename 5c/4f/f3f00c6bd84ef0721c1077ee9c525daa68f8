@@ -1,0 +1,1 @@
+Thread.handle_interrupt の rdoc 用コメントに、全ての割り込みを捕捉するためには引数に Exception クラスのかわりに Object を指定すると良いという Tips を追記しています。なるほど〜それは知らなかった。 [ruby-core:92038] [Bug #15735]
