@@ -1,0 +1,1 @@
+eval_intern.h の rb_char_next() の戻り値の型から const 修飾子を削除して return 時にキャストするようにしています。
