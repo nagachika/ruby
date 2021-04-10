@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI::RAW_KEYSTROKE_CONFIG と Reline::Windows::RAW_KEYSTROKE_CONFIG という定数を削除してそれぞれの特異メソッド set_default_key_bindings の引数に渡した config に add_default_key_binding_by_keymap メソッドを呼び出して keystroke を登録させるようにしています。
