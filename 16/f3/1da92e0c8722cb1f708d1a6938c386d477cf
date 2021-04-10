@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の gemspec ファイルで vterm.gem の devlopment_dependency を追加するのを環境変数 WITH_VTERM が設定されてた時だけにしています。
