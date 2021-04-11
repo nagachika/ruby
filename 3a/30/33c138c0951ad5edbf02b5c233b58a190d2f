@@ -1,0 +1,1 @@
+internal/bits.h で __builtin_unreachable() というコンパイラ依存の組み込み関数が直接使われてたのを UNREACHABLE_RETURN() マクロを利用するようにしています。 AIX でのビルド対応のためみたいです。 [ruby-core:103317] [Bug #17787]
