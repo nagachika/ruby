@@ -1,0 +1,1 @@
+configure のコンパイラオプション -fdeclspec のチェックを RUBY_TRY_CFLAGS() から RUBY_TRY_LDFLAGS() でのチェックに変更して LDFLAGS に追加させるようにしています。これも AIX ビルド対応みたいです。 [ruby-core:103317] [Bug #17787]
