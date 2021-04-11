@@ -1,0 +1,1 @@
+tool/rbinstall.rb で使う UnpackedInstaller (Gem::Installer を継承)で write_default_spec メソッドを再定義して default gems の gemspec ファイルを uninstall 時に参照するための出力ファイルに追記しておくようにしています。
