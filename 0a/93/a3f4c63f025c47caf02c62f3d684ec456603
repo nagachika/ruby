@@ -1,0 +1,1 @@
+win32/setup.mak で生成する verconf.mk の RUBY_RELEASE_{YEAR,MONTH,DAY} などの変数を上書き定義するようにしています。
