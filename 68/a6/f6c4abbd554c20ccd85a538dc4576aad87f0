@@ -1,0 +1,1 @@
+common.mk の INSTRUBY で macOS では SDKROOT という環境変数を "/" に設定しておくようにしています。なんでだろ。
