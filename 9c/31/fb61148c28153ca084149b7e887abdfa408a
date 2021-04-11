@@ -1,0 +1,1 @@
+Enumerator::Lazy#with_index の rdoc 用コメントにブロックが渡された時の挙動について間違って Enumerable の時の記述が書かれてたので修正しています。 [ruby-core:103336] [Bug #17789]
