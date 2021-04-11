@@ -1,0 +1,1 @@
+template/Makefile.in の CPPOUTFLAG という変数の定義を COUTFLAG に委譲せず ">" と決め打ちで書いて shell によるリダイレクトを利用するようにしています。これも AIX ビルド対応みたいです。 [ruby-core:103317] [Bug #17787]
