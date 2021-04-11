@@ -1,0 +1,1 @@
+include/ruby/fiber/scheduler.h の rb_fiber_scheduler_xxx() 系の関数宣言を RBIMPL_SYMBOL_EXPORT_BEGIN()/RBIMPL_SYMBOL_EXPORT_END() ではさんで export するようにしています。
