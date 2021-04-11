@@ -1,0 +1,1 @@
+tool/rbinstall.rb の GemInstaller#ensure_writable_dir でディレクトリ名の最後には "/" を付加するようにしています。
