@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream からのマージで無視するファイルのパターンをメンテナンスしていたのを逆に gem 名のサブディレクトリ? のみを対象にするようにしているようです。
