@@ -1,0 +1,1 @@
+5891159f9608f058b3fb2ba96a9874fc81f3d7b3 などで標準添付ライブラリ optparse のドキュメントやサンプルを doc/option_params  に配置していたのを doc/ruby に移動しています。
