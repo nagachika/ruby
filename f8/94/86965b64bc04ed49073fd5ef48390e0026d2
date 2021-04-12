@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse のドキュメントが doc/ruby/ 配下や doc/tutorial.rdoc に置かれてしまっていたので doc/optparse/ を掘ってその下に置くように移動しています。
