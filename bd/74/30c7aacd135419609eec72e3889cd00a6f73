@@ -1,0 +1,1 @@
+rakelib/.document というファイルを追加していますが、これは optparse の upstream からの同期でミスで追加されたものっぽい。ということで後に revert されています。
