@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream からの同期の時に無視するファイルのパターンに rakelib/ を追加しています。
