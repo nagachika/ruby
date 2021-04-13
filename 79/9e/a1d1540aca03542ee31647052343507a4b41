@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で生成する Makefile 内の arch_hdrdir 変数にセットする(ruby の)変数 $arch_hdrdir を mkintpath メソッドを通して Windows 環境でのパス名の調整をするようにしているようです。 MinGW での拡張ライブラリビルドのエラー対策みたいです。 [ruby-core:97248] [Bug #16651]
