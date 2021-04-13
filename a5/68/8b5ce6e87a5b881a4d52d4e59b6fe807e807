@@ -1,0 +1,1 @@
+ARM アーキテクチャの Android 向けの 32bit 版ビルド時にコンパイルエラーになるとのことで struct stat::st_dev および st_rdev のメンバーの型をチェックして dev_t 以外の時にも対応するようにしています。 Android では dev_t 型じゃないということみたいですね。 [ruby-core:103386] [Bug #17793]
