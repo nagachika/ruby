@@ -1,0 +1,1 @@
+string.c の crypt.h または missing/crypt.h の #include する位置を ruby 内部のヘッダ群の #include 後に移動しています。 LONG_LONG マクロの再定義対策とのこと。
