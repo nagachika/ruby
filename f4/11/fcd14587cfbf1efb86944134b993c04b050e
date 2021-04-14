@@ -1,0 +1,1 @@
+include/ruby/internal/token_paste.h で定義されていた RBIMPL_TOKEN_PASTE() という引数を連結したトークンに展開するマクロを削除して、それを使っていたところを単に "x ## y" のような構文で連結するようにしています。
