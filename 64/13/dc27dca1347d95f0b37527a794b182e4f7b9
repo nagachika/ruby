@@ -1,0 +1,1 @@
+f411fcd14587cfbf1efb86944134b993c04b050e の include/ruby/internal/token_paste.h の削除に伴なう #include directive の削除と common.mk および各種拡張ライブラリの depend ファイルの依存関係の更新。
