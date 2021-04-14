@@ -1,0 +1,1 @@
+RB_LL2NUM()/RB_ULL2NUM()/RB_NUM2ULL() などのマクロを RB_NUM2LL() と同様に inline 関数版に展開するようにしています。
