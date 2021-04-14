@@ -1,0 +1,1 @@
+include/ruby/internal/core/rdata.h で定義しているマクロで rb_data_object_xxx_ のような名前のマクロを同じ名前に展開するように定義していたのが MSVC で再帰的な展開になってビルドエラーになるとのことで、マクロ名を rb_data_object_xxxx_2 に改名しています。最終的に rb_data_object_wrap_0 が rb_data_object_wrap に展開されるようになってて循環はしているので、改名すると直るのがよくわからないですが、直るそうです。
