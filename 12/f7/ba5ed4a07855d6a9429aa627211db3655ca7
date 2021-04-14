@@ -1,0 +1,1 @@
+String#crypt の実装で呼ぶ crypt(3) は MT-safe ではないみたいで複数 Ractor から呼ばないようにするため排他するため専用の mutex を追加しています。その初期化を利用時にするためにさらに rb_atomic_t なメンバーも作って RUBY_ATOMIC_CAS() で二重に初期化しないようにするなど結構手が込んでます。
