@@ -1,0 +1,1 @@
+Array#intersect? メソッドを新規追加しています。配列を集合とみなして、receiver と引数に論理積があれば true を、なければ false を返すというメソッドのようです。 [ruby-core:89269] [Feature #15198]
