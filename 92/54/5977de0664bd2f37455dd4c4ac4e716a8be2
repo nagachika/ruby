@@ -1,0 +1,1 @@
+Hash#has_value? の rdoc 用コメントの call-seq に #value? も別名として追加しています。 https://github.com/ruby/ruby/pull/4293
