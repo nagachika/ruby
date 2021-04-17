@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の Matrix#set_value で引数のタイプが不正な時の例外メッセージの typo 修正。
