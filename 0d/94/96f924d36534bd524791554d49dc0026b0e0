@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb での bundler の同期時に bundler.gemspec ファイルの変更を取り消すようにしています。 upstream とは内容が違うのかな。
