@@ -1,0 +1,1 @@
+55d91a096a840aaff1e08a4286c216da56b6e968 で追加された Array#intersect? メソッドについて NEWS に追記しています。チケット参照もこちらにありました。 [ruby-core:89269] [Feature #15198]
