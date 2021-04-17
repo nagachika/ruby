@@ -1,0 +1,1 @@
+68a6f6c4abbd554c20ccd85a538dc4576aad87f0 の macOS 向けに common.mk で INSTRUBY コマンドで環境変数 SDKROOT をセットするようにしたのと関連ありそうですが、tool/mkconfig.rb で環境変数 SDKROOT がなかった時にかわりに RbConfig::CONFIG["prefix"] のディレクトリに "include/" があればそちらを使い、なければ /usr/bin/xcrun というコマンドでパスを取得するようにしています。 Apple が独自に当ててるパッチを参考にしてるみたいですね。 https://opensource.apple.com/source/ruby/ruby-145.40.1/patches/tool_mkconfig.rb.diff
