@@ -1,0 +1,1 @@
+gc.c の init_mark_stack() で mark_stack_t::cache_size を 0 にクリアしていましたが直前に MEMZERO() でクリア済みで冗長だったので削除しています。
