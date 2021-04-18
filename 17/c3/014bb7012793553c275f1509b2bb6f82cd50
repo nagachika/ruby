@@ -1,0 +1,1 @@
+configure で Android 向けのビルドかどうか判定するのに AC_COMPILE_IFELSE() を使ってるところで条件を反転させて Android の時に else 側で処理していたのを前に移動しています。
