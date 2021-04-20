@@ -1,0 +1,1 @@
+tool/rbinstall.rb の標準添付ライブラリのインストール時に net-xxx.gemspec のファイル群を生成する時に誤った spec.files を設定してしまっていたので net/xxx 向けに "-" を含む gem 名の時にスキャンするディレクトリを調整する処理を追加しています。 [ruby-core:101724] [Bug #17476]
