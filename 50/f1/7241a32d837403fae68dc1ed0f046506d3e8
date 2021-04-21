@@ -1,0 +1,1 @@
+d953ac11394729ef66a4fb44f2eb1383b0ef2e00 で bundler のテストでホームディレクトリの書き込み権限がないためにテストが失敗するのを回避するため環境変数 XDG_CONFIG_HOME をセットしておく事前準備を spec/bundler/commands/console_spec.rb から spec/bundler/spec_helper.rb に移動して bundler の全てのテストでやっておくようにしています。他にも同じ原因のエラーになるテストがあったみたいです。
