@@ -1,0 +1,1 @@
+GC.compact で T_IMEMO タイプのオブジェクトを移動した時の参照の追随のための gc_ref_update_imemo() で imemo_env タイプの T_IMEMO の時の処理で rb_env_t::ep が NULL の場合というのがありえて、その時に SEGV していたので NULL チェックを追加しています。コミットログによると allocation tracing 機能を有効にしている時に NULL になる可能性があったみたいです。
