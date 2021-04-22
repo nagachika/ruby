@@ -1,0 +1,1 @@
+拡張ライブラリ gdbm の gemspec ファイルの spec.executable を明示的に空をセットするようにしています。
