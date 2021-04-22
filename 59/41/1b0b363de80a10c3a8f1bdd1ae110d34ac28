@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の gemspec ファイルでも spec.executable を明示的に空にするのと spec.files から .gitignore や .travis.yml などを削除しています。
