@@ -1,0 +1,1 @@
+Array#zip は receiver の要素数までしかブロックを yield しないので、引数に渡された要素も receiver の要素数と同じ数までしか参照しないはずですが、引数に Enumerator を渡すと(つまり参照するとカーソル的なものが進む副作用があるものを渡すと)ひとつ余分に読んでしまっていたという不具合を修正しています。 Enumerable#zip は大丈夫で Array#zip の独自の実装だけこういう挙動をしていたようです。 https://github.com/ruby/ruby/pull/4389 [ruby-core:103513] [Bug #17814]
