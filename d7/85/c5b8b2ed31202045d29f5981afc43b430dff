@@ -1,0 +1,1 @@
+標準添付ライブラリ net/imap で Net::IMAP.new の options 引数の項目として :idle_response_timeout を受け付けるようにしてレスポンスの受信にタイムアウトを指定できるようにしています。
