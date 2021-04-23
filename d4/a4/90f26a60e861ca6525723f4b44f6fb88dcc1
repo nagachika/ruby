@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の gemspec ファイルで required_ruby_version を 2.4 以降に設定しています。
