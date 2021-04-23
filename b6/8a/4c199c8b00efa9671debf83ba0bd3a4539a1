@@ -1,0 +1,1 @@
+標準添付ライブラリ base64 の gemspec ファイルで spec.files を git ls-files を使って動的に作成していたのを直接配列を書くようにしています。
