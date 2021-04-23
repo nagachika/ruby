@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で拡張ライブラリ io_consoel を upstream からマージする時に ext/io/console/lib/console/ffi を削除するようにしています。コミットログによると JRuby で使われるファイル群みたいですね。
