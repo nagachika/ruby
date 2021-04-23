@@ -1,0 +1,1 @@
+標準添付ライブラリ benchmark の Benchmark.benchmark の rdoc 用コメントに引数の caption に改行を含める必要があることを追記しています。
