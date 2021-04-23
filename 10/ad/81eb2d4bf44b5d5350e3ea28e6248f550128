@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で to_s メソッドを再定義されてても Kernel#to_s を呼ぶために UnboundMethod を bind して使うのに UnboundMethod#bind_call を利用してましたが、2.7 よりも古い ruby で存在しないので respond_to? でチェックして、なかったら従来の bind して call するのを使うようにしています。
