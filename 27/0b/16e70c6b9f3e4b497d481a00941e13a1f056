@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の gemspec ファイル spec.files に登録しているの jruby 用のファイル群を jruby/io/console/ から lib/io/console/ffi/ に移動しています。537fc3ad5c5ed48a28d6cdd898ff6f41e9376b0e の変更により ruby のリポジトリには反映されてませんが upstream ではファイルが移動されてたのでしょう。
