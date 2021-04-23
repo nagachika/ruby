@@ -1,0 +1,1 @@
+標準添付ライブラリ time にマジックコメント # shareable_constant_value: literal を追加して Ractor で利用できるようにしています。
