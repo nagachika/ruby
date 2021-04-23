@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::Generic#find_proxy で Java 用の環境変数? の ENV_JAVA という定数を参照して http.proxy{Host,User,Port} などの環境変数を読み取るようにしています。ENV_JAVA という定数は他にはないから、JRuby の場合に組み込みで存在する定数かな、たぶん。 [ruby-core:69398] [Bug #11194]
