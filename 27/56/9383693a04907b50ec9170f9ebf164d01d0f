@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI.escapeHTML で ASCII incompatible なエンコーディングの文字列の場合に force_encoding で ASCII-8BIT に変換してからタグなどの置換を実施して元のエンコーディングに戻すという実装を追加しています。
