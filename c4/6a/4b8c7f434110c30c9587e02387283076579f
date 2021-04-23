@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::Generic#hostname と #hostname= の実装でブラケット([])でかこまれてた時にそれを取り除いた中身だけ取り出すという処理を正規表現を使ってたのを String#start_with?, #end_with? を使うようにリファクタリングしています。
