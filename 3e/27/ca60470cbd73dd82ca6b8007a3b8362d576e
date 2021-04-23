@@ -1,0 +1,1 @@
+標準添付ライブラリ uri のテストに URI::RFC3986_Parser#inspect と URI::Parser#inspect で本来のクラス名が表示されることを確認するテストを追加しています。
