@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI.decode_www_form_component で不正な %-encoding を検出するのに正規表現の  Regexp#=~ を使っていたのを Regexp#match? メソッドを使うようにしています。 Regexp#match? も割と最近じゃなかったっけ、と思って調べてみたら 2.4 からなので現在サポートされてるバージョンでは全て使えました。
