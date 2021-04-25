@@ -1,0 +1,2 @@
+メソッド呼び出し時の引数処理する vm_callee_setup_arg() で通常引数の最後の空 Hash を削る CALLER_REMOVE_EMPTY_KW_SPLAT() の呼び出しを削除しています。削った箇所は条件分岐で既に呼び元に keyword splat がない場合とわかっているので不要ということみたいです。
+が、後で a224ce8150f2bc687cf79eb415c931d87a4cd247 で revert されています。
