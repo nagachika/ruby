@@ -1,0 +1,1 @@
+58660e943488778563b9e41005a601e9660ce21f の refinements とModule#public_class_method や private_class_method などのメソッドの可視性を変更するメソッドの組合せの不具合修正の追加修正。refine してる Module が複数あった時に修正しきれてなかったみたいです。 [ruby-core:101981] [Bug #17519]
