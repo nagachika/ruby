@@ -1,0 +1,1 @@
+a224ce8150f2bc687cf79eb415c931d87a4cd247 で vm_callee_setup_arg() の CALLER_REMOVE_EMPTY_KW_SPLAT() の呼び出しを削ったのはやっぱりまずかったみたいで、テストを追加しつつ revert しています。メソッドを ruby2_keywords で修飾した時には必要だったとのこと。 https://github.com/ruby/ruby/pull/4405
