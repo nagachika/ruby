@@ -1,0 +1,1 @@
+5512353d97250e85c13bf10b9b32e750478cf474 で VM 命令の reverse が削除されたので、MJIT で命令を網羅するためのテスト test/ruby/test_jit.rb の対応するテストメソッド test_compile_insn_reverse を削除しています。
