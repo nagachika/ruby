@@ -1,0 +1,1 @@
+53d153e42c90f48ac35316b9fd69b8819aa4e7d3 で lib/time.rb にマジックコメント shareable_constant_value: literal を追加して Ractor safe にしていたところ FreeBSD でなぜかエラーが起きるようになったとのことで Time::MonthValue という定数の定義部分で局所的にマジックコメントを shareable_constant_value: none にすりかえて、明示的に Ractor.make_shareable で共有化した値を定数に代入するようにしています。
