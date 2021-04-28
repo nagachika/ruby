@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp の Net::FTP#transfercmd で例外発生時に socket の close 漏れがあったので修正しています。
