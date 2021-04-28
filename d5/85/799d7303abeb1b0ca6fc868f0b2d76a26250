@@ -1,0 +1,1 @@
+TracePoint#binding の rdoc 用コメントなどに c_call, c_return イベントの時には最も近い ruby 実装のメソッドの場所の Binding オブジェクトが返されることを追記しています。 [ruby-core:57792] [Bug #9009]
