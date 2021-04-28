@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の gemspec ファイルの spec.executables を空配列にしています。
