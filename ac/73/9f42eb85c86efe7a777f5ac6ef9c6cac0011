@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の Ractor を使うテストメソッドを defined?(Ractor) で Ractor がある時だけ定義するようにしています。
