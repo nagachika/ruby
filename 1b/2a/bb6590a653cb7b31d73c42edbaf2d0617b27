@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp の Net::FTP#closed? の rdoc 用コメントの iff を "if and only if" に書きかえています。
