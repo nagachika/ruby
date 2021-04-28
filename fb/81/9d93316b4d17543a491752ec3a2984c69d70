@@ -1,0 +1,1 @@
+net/ftp のテストで MJIT が有効な時にタイムアウトをのばすために RubyVM::JIT.enabled? を呼ぶ前古い ruby のサポートのために defined? でモジュールがあるかどうかのチェックを追加しています。
