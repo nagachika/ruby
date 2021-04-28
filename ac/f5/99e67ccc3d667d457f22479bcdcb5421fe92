@@ -1,0 +1,1 @@
+標準添付ライブラリ matrix の gemspec ファイルから add_development_dependency を削除しています。Gemfile に書こうってことですね。
