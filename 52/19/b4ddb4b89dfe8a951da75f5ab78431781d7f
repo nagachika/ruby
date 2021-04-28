@@ -1,0 +1,1 @@
+irb のテストで irbrc ファイルの存在に影響されないように環境変数 XDG_CONFIG_HOME、IRBRC などを削除して、環境変数 HOME に一時ディレクトリを指定してから実行するように setup/teardown を追加しています。
