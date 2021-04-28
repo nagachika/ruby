@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace._dump の実装でバッファに内容を追記する時の書き出しサイズのための変数を unsigned int と宣言するようにしています。警告抑制のため。
