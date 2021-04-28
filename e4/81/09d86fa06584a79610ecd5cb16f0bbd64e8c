@@ -1,0 +1,1 @@
+2c7d3b3a722c4636ab1e9d289cbca47ddd168d3e で T_IMEMO 型オブジェクトの imemo_ast タイプを WB-unprotected にしたのを revert しています。あらためて Write Barrier を追加して WB-protected にするのでその準備のため。
