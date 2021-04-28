@@ -1,0 +1,1 @@
+203eeeefddb3ae6c0e129ad9cd99da804c2cbaba の修正で修正されたはずなので、調査のために lib/time.rb で部分的にマジックコメント shareable_constant_value を none に変更していた c647205c3eb1f17409a859149bb7d2ea38b43bed を revert しています。
