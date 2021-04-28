@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトの imemo_ast タイプの時に RGenGC 用の Write Barrier が適切にきいていなくて生きているオブジェクトが回収される可能性があったので WB-unprotected のフラグをつけて生成するようにしています。 53d153e42c90f48ac35316b9fd69b8819aa4e7d3 で lib/time.rb にマジックコメント shareable_constant_value: literal を追加したら FreeBSD の CI でエラーが起きてた問題はこれが関連していたようです。
