@@ -1,0 +1,1 @@
+609de71f043e8ba34f22b9993e444e2e5bb05709 で追加したブロック内の rescue と ensure の利用時のテストで "statement not reached" という警告が出るということで、抑制のために return 文に後置 if true を追加して判定を回避するようにしています。
