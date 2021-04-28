@@ -1,0 +1,1 @@
+拡張ライブラリ gdbm の gemspec ファイルで spec.metadata["msys2_mingw_dependencies"] という項目に gdbm をセットしています。 RubyInstaller2 でインストール時に依存ライブラリの指定ができるみたいです。
