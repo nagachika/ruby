@@ -1,0 +1,1 @@
+e48109d86fa06584a79610ecd5cb16f0bbd64e8c の続き。parse.y の const_decl_path() および shareable_literal_constant() で NEW_LIT() で NODE を作った時に p->ast への RB_OBJ_WRITTEN() 呼び出しによる Write Barrier を追加しています。
