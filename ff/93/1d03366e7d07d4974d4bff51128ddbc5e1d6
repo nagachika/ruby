@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp で Socket.tcp の connect_timeout キーワード引数を利用して Timeout.timeout のかわりに接続時のタイムアウトを実現するようにしています。
