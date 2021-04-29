@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の Ractor を使ったテストを defined?(Ractor) で Ractor クラスがある時だけテストメソッド定義するようにしています。
