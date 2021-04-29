@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の dump_page_rvalue コマンドで引数で渡したオブジェクトの slot が目立つように印をつけて表示するようにしています。
