@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http でも接続タイムアウトに Timeout.timeout を使っていたところを Socket.tcp の connect_timeout キーワード引数を利用するようにしています。
