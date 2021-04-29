@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp の gemspec ファイルの spec.files を git ls-files を使ってたのを直接配列リテラルを書くようにしています。
