@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の dump_page コマンドで表示する情報の slot の free list 上でのインデックスも表示させるようにしています。
