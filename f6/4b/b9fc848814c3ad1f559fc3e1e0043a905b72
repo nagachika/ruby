@@ -1,0 +1,1 @@
+c752a35816c64c0eef3324a860ad4a535fb8ff2b の続き。misc/lldb_cruby.py に dump_page_rvalue というコマンドを追加してオブジェクトの VALUE 値を指定してそれが含まれてる page の内容をダンプできるようにしています。
