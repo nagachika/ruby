@@ -1,0 +1,1 @@
+misc/rb_optparse.bash や misc/rb_optparse.zsh のインデント変更と test/optparse/test_acceptable.rb の空行削除。コミットログをみるとなんか意味がありそうだけど、たぶん upstream のリポジトリでは ruby 本体に同期されないファイルの部分で他に変更があったのを cherry-pick した結果だと思います。
