@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp の Net::SMTP.start, #start メソッドに ssl_context_params キーワード引数を追加して利用する OpenSSL::SSL::SSLContext を渡せるようにしています。
