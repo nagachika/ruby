@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http で URL で http_proxy などの変数の指定による URL に埋め込まれている user/password を %-encode されているものとしてデコードして使うようにしています。 [ruby-core:102089] [Bug #17542]
