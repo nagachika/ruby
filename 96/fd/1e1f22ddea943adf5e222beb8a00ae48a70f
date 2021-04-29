@@ -1,0 +1,1 @@
+拡張ライブラリ digest/xxx の extconf.rb で -DHAVE_CONFIG_H のコンパイラオプション追加を削除しています。
