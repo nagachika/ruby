@@ -1,0 +1,1 @@
+MJIT で利用するコンパイラが clang の場合に precompiled header を作成する時のコンパイラオプションに -c オプションを追加しています。 https://github.com/ruby/ruby/pull/4423 [ruby-core:103629] [Bug #17836]
