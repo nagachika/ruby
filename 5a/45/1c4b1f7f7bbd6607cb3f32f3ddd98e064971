@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の dump_page の引数に不正な page の指定があった時に警告を出力するようにしているようです。
