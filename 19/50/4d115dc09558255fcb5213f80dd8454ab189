@@ -1,0 +1,1 @@
+r57311 (58935eb8bdad1a42ce35efd0e0b0a9d7d43df299) で標準添付ライブラリ net/ftp に追加されてたテストで Net::SMTP がサーバー側からソケットが閉じられた時の挙動のためのダミーサーバーで close する前に一瞬 sleep するようにしています。Solaris の CI で close 時に EINVAL が発生することがあったとのこと。  [ruby-core:78550] [Bug #13018]
