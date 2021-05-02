@@ -1,0 +1,1 @@
+Time#strftime の実装で struct vtm::wday が unsigned で宣言されているのに < 0 という判定をしているところがあって GCC 11 で警告が出てたそうなので不要な条件を削っています。
