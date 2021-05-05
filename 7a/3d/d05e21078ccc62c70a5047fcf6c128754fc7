@@ -1,0 +1,1 @@
+rubyspec の標準添付ライブラリ net/http のテストで起動する WEBrick のサーバーのための設定で :BindAddress を 127.0.0.1 と IPv4 決め打ちにしていたのを localhost に変更しています。Windows でのテストのためとのこと。けどなんかここわざと IPv4 にしてたんだったような気もするんだよなぁ。 e7535c6eaa87813d6ce6591c200f1fce7ee16ae2 これなのでだいぶ昔のことですね。
