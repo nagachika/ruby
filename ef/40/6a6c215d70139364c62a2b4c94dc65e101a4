@@ -1,0 +1,1 @@
+thread_win32.c の native_thread_init_stack() で MinGW の GCC 11 で未初期化変数の警告が出るのを抑制するため VirtualQuery() という API の呼び出しを局所的に -Wmaybe-uninitialized の警告をオフにする pragma つきで定義した inline 関数でくるんで呼ぶようにしています。
