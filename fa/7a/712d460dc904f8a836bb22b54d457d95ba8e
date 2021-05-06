@@ -1,0 +1,1 @@
+拡張ライブラリで Ractor safe 宣言のために HAVE_RB_EXT_RACTOR_SAFE マクロを #if でチェックしてたのを #ifdef でチェックするように修正しています。 [ruby-core:103040] [Feature #17752]
