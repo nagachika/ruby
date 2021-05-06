@@ -1,0 +1,1 @@
+FreeBSD でのビルドエラー対応として random.c での sys/param.h ヘッダファイルの include する条件に FreeBSD であることも追加しています。これも -Werror=undef で判明したエラーかな? [ruby-core:103040] [Feature #17752]
