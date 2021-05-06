@@ -1,0 +1,1 @@
+拡張ライブラリ nkf と openssl でマクロを #if で使う時に定義済みかのチェックも追加するようにしています。これも -Werror=undef 対応みたいです。 [ruby-core:103040] [Feature #17752]
