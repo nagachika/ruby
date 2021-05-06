@@ -1,0 +1,1 @@
+configure で -Werror=undef を追加する時に古い GCC だと #if defined の後に続く #elif で定義されてるはずのマクロ参照をしても警告になるという不具合があるそうなので、その場合は -Wundef に留める(コンパイルエラーにはしない)ように緩めるようにしています。 [ruby-core:103040] [Feature #17752]
