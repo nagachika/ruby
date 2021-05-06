@@ -1,0 +1,1 @@
+siphash.c で __LITTLE_ENDIAN と __BIG_ENDIAN というマクロが参照されているのが MinGW では未定義になってるらしく __MINGW32__ が定義されてる環境ではこれらのマクロを定義するようにしています。 [ruby-core:103040] [Feature #17752]
