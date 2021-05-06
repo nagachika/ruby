@@ -1,0 +1,1 @@
+include/ruby/internal/fl_type.h で ENUM_OVER_INT をチェックしているところを #if から #ifdef に変更しています。 -Werror=undef 対応の続きですね。 [ruby-core:103040] [Feature #17752]
