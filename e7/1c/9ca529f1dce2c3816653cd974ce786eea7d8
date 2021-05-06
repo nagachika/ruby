@@ -1,0 +1,1 @@
+configure でコンパイラの組み込み関数 __builtin_expect の存在チェックを追加しています。これも -Werror=undef の対応のひとつで、明示的にチェックして HAVE_BUILTIN___BUILTIN_EXPECT マクロが定義されるようにしてあげないと ICC でのビルド時にコンパイルエラーになってたようです。 [ruby-core:103040] [Feature #17752]
