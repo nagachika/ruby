@@ -1,0 +1,1 @@
+thread_win32.c で USE_WIN32_MUTEX をチェックするのに #if を使ってたのを #ifdef を使うように修正しています。 [ruby-core:103040] [Feature #17752]
