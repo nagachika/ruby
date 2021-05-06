@@ -1,0 +1,1 @@
+IO#ungetc や IO#ungetbyte の rdoc 用コメントに複数回呼ばれた時の挙動や引数に Integer を渡した時の扱いについて追記しています。 [ruby-core:85108] [Bug #14400]
