@@ -1,0 +1,1 @@
+同じく -Werror=undef 対応。あちこちの preprocessor による分岐の #if と #ifdef の誤用の修正や条件の追加修正など。 [ruby-core:103040] [Feature #17752]
