@@ -1,0 +1,1 @@
+同じく -Werror=undef 対応。 include/ruby/internal/core/rbasic.h に RBIMPL_RVALUE_EMBED_LEN_MAX というマクロ定義を追加しています。コンパイラによって? enum の値が preprocessor で正しく評価されてないことがあったのが判明したみたいです。 [ruby-core:103040] [Feature #17752]
