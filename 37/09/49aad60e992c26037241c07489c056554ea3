@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp のテストで Errno::EPIPE を捕捉しているところが MinGW では Errno::ECONNRESET が発生することもあるとのことで rescue する例外クラスに追加しています。
