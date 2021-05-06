@@ -1,0 +1,1 @@
+同じく HAVE_ATTRIBUTE_ERRORFUNC というマクロを #if でチェックしていたところを #ifdef でのチェックに修正。対応してない時に 0 に #define してるところがあったので削っています。これ削るよりは #undef にしたほうがいいのではないかな。 [ruby-core:103040] [Feature #17752]
