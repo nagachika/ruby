@@ -1,0 +1,1 @@
+8b32de2ec9b72d4c9ede19b70ec9497718fb25a6 の -Werror=undef 追加の対応で vm_dump.c で backtrace() という関数の有無のチェックを HAVE_BACKTRACE を直接いじらず USE_BACKTRACE というマクロを導入するようにリファクタリングしています。 [ruby-core:103040] [Feature #17752]
