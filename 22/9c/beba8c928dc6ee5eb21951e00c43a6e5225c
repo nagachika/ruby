@@ -1,0 +1,1 @@
+coroutine/copy/Context.h および coroutine/ucontext/Context.h の未定義シンボルの警告対応。 stdint.h の include が必要だったみたいです。 [ruby-core:103040] [Feature #17752]
