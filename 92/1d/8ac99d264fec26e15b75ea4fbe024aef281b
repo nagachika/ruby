@@ -1,0 +1,1 @@
+23a98237df28ad01d17b163eb650dfbd321b13ba の再修正。 configure で mmap() 利用の判定のためのビルド時に sys/user.h を追加したのが今度は sys/queue.h というヘッダで定義される LIST_HEAD というマクロの再定義の警告が発生してしまってたので macOS では使わないようにしています。
