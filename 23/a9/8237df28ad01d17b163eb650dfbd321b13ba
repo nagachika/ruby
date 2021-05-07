@@ -1,0 +1,1 @@
+3d5b6ddff8def49e59fb9a9ddd28a653498ae861 の再修正。 PAGE_SIZE が使えるかどうかの判定で使うソースコードにヘッダファイルが足りてなくて判定に失敗する環境があったみたいなので修正しています。ついでに gc.c の preprocessor 分岐も変更してますが、defined(PAGE_SIZE) が復活されてるところがあって、これって -Werror=undef でひっかからないのかな。 defined だからいいのか。
