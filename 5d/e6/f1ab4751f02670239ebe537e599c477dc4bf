@@ -1,0 +1,1 @@
+標準添付ライブラリ net/imap の gemspec ファイルを  lib/net/ の下から lib/net/imap/ の下に配置するように変更して、tool/sync_default_gems.rb の同期処理もこれに追随するようにしています。
