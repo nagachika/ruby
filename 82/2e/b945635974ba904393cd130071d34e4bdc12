@@ -1,0 +1,1 @@
+標準添付ライブラリ strscan の gemspec ファイルで add_development_dependency を使ってたのを削っています。 Gemfile に書くのがいまどきということですね。またテストで skip を使ってたところを pend に変更しています。
