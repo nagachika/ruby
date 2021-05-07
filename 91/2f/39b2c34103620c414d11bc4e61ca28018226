@@ -1,0 +1,1 @@
+標準添付ライブラリ net/imap の PLAIN タイプの認証の username, password などに NUL 文字が含まれてたらエラーにするなど規格(RFC4616)に沿ったチェック強化をしています。
