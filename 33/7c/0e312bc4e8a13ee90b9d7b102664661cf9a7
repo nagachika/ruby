@@ -1,0 +1,1 @@
+標準添付ライブラリ net/imap の Net::IMAP.encode_utf7 と Net::IMAP.decode_utf7 の実装を lib/net/imap/data_encoding.rb というファイルに分離するリファクタリング。
