@@ -1,0 +1,1 @@
+M1 チップの macOS で PAGE_SIZE が定数マクロとしてでなく const 変数? として定義されている場合があるみたいで、メモリ確保に mmap() を使うかどうかの判定に PAGE_SIZE を preprocessor の分岐で利用していたのがうまく判定できなくなっていたそうなので configure 時に判定用のプログラムをコンパイルして判定して USE_MMAP_ALIGNED_ALLOC マクロを定義しておくようにしています。
