@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ net/imap でレスポンスの解析に使う Struct を格納する定数群の定義を lib/net/imap/response_data.rb というファイルに分離するリファクタリング。
