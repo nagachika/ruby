@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の blocking fiber 対応のために  Fiber.current_scheduler を呼び出してるところで、古い ruby 対応のため respond_to? でチェックしてから呼び出すようにしています。
