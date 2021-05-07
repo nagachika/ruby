@@ -1,0 +1,1 @@
+標準添付ライブラリ net/imap の Net::IMAP::RawData や Net::IMAP::Atom などのプロトコル上のコンポーネント? に対応するクラスの定義を lib/net/imap/command_data.rb というファイルに分離するリファクタリング。
