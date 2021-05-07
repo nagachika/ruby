@@ -1,0 +1,1 @@
+標準添付ライブラリ net/imap の lib/net/imap.rb から認証関連の実装を lib/net/imap/authenticators/ の配下に分割するリファクタリング。
