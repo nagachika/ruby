@@ -1,0 +1,1 @@
+標準添付ライブラリ net/imap から Net::IMAP::ResponseParser クラスの実装を lib/net/imap/response_parser.rb というファイルに切り出すリファクタリング。
