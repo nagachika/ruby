@@ -1,0 +1,1 @@
+compile.c の ADD_INSN() などのマクロに行番号を渡す時に行番号そのものを渡すのではなくて、対応する NODE を渡して、new_insn_core() の中で nd_line() で行番号を取り出すようにしています。さらに INSN::insn_info::node_id という構造体メンバーを追加してこの NODE の node_id の値も格納しておくようにしています。また EXPERIMENTAL_ISEQ_NODE_ID というマクロを定義してビルドすると RubyVM::AbstractSyntaxTree::Node#node_id メソッドを追加して ruby レベルでも node_id が取り出せるようにしています。NoMethodError の位置をより細かく取得できるようにするための布石だそうです。
