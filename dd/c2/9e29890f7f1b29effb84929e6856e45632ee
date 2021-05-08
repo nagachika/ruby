@@ -1,0 +1,1 @@
+364044e0909692315bd6c2f0e1d968ede9c2beb8 で標準添付ライブラリ net/http が stringio を require しなくなったので、rubyspec の net/http のテストで逆に StringIO を使ってるところで明示的に require を追加しています。
