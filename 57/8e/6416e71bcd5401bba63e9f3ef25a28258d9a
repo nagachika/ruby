@@ -1,0 +1,1 @@
+misc/lldb_cruby.py に 5a451c4b1f7f7bbd6607cb3f32f3ddd98e064971 で導入した dump_page の page 指定が正常かどうかチェックする is_valid メソッドで / による除算の結果が float になる(Python 3 系では)ので明示的に int に直すようにしています。
