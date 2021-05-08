@@ -1,0 +1,1 @@
+8bbd3198068f5e8335ab01f0b29cdae225b25b5b の変更の C のスタイルの修正や USE_RVARGC が定義されてる時だけ使われる関数の宣言を preprocessor の分岐でかこむ変更。
