@@ -1,0 +1,1 @@
+Time の組み込みメソッドの ruby 実装版の timev.rb で def Time.xxx のように特異メソッドを定義していたのを class Time のコンテキスト内で def self.xxx のように定義するようにスタイルを変更しています。ISeq のサイズを減らすためとのこと。へー、putself で Time がスタックに積めるからちょっと短くなるのかな。
