@@ -1,0 +1,1 @@
+Enumerable#grep と Enumerable#grep_v の rdoc 用コメントの説明に自然言語を増やしています。 https://github.com/ruby/ruby/pull/4473
