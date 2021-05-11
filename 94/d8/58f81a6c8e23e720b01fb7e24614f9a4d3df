@@ -1,0 +1,1 @@
+標準添付ライブラリ set の SortedSet を sorted_set.gem に切り出されているものを require した時のエラーメッセージの修正。
