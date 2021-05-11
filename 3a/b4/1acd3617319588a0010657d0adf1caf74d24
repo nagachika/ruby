@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::Visitors::ToRuby で Psych.load_tags を何度も呼び出すのをやめてインスタンス変数に結果を格納して使いまわすようにしています。
