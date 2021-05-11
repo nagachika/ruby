@@ -1,0 +1,1 @@
+拡張ライブラリ psych で Ractor 対応時の Psych::Visitors::Visitor#dispatch の結果をインスタンス変数にキャッシュするようにしています。うーん、でもこれってせっかく Ractor local storage を使って Ractor 毎に独立するようにしているのにインスタンス変数に入れちゃっていいのかな? 別の Ractor から触った時にエラーになる可能性もあるような気が。
