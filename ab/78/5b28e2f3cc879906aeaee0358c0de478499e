@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで assert_raises を利用していたところを assert_raise を使うように変更しています。test-unit 移行のためですね。
