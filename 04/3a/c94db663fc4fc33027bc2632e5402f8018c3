@@ -1,0 +1,1 @@
+include/ruby/internal/intern/cont.h から rb_fiber_new_kw() という関数の宣言を削除しています。現在この関数は存在していないようです。
