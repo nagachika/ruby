@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.load に symbolize_names: true を渡した時に marshal_load/marshal_dump を定義してダンプ方法をカスタマイズしているオブジェクトを dump/load した時の対応を追加しています。修正前がどういう挙動だったのかちょっとよくわかりませんが。
