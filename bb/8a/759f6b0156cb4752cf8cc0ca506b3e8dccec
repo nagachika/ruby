@@ -1,0 +1,1 @@
+c6a11b865e1f9085c88fe169a1f47680383580c2 で MiniTest::Assertions の assert_path_exists alias を追加してるところで refute_path_not_exist に alias 名を変更しています。これ下の refute_path_exists の alias のまちがいではないのか、と一瞬思いましたが refute にさらに not がついて二重否定になってるんですね。
