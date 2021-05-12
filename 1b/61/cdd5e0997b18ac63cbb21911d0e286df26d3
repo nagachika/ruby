@@ -1,0 +1,1 @@
+774cc32b4d4962ef685fb852a2dbf1897f64a8f7 で追加された irb のテストの再再修正。assert_in_out_err に encoding を指定するのに加えて環境変数 LC_MESSAGES、LC_ALL、LC_CTYPE、LANG も上書きして子プロセスを起動するようにしています。
