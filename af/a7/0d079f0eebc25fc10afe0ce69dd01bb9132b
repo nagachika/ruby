@@ -1,0 +1,1 @@
+e2ccc3301e2c69533b9ef2464613781c6c964c3a の修正で 774cc32b4d4962ef685fb852a2dbf1897f64a8f7 で追加された irb のテストが mwin/mingw で通るようになってるはずなので bb54361057c169e1209d771c189ec662fa4e7395 で追加した skip の条件追加を revert しています。また他のところの assert_in_out_err でも encoding を明示的に指定するようにしています。
