@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で rubygems の同期を指定すると bundler も同時に同期させるようにしています。 upstream repo が今は同じになってるので分ける必要なくなってたので。
