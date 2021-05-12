@@ -1,0 +1,1 @@
+いろいろなコンパイラでのビルドを試す GitHub Actions の workflow .github/workflows/compilers.yml のコメントアウトされてた古い gcc と clang でのビルドを復活させています。また GCC 11 でのビルドを追加しています。
