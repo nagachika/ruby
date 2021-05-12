@@ -1,0 +1,1 @@
+c6a11b865e1f9085c88fe169a1f47680383580c2 および bb8a759f6b0156cb4752cf8cc0ca506b3e8dccec の続き。 tool/lib/minitest/unit.rb の MiniTest::Assertions に assert_path_exist と refute_path_exist という alias も追加しています。
