@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で Resolv::DNS#getresources が長い時間かかってしまう場合がある不具合を修正しています。 [ruby-core:77616] [Bug #12838] [ruby-core:103013] [Bug #17748]
