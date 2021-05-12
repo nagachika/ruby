@@ -1,0 +1,1 @@
+tool/lib/minitest/unit.rb の MiniTest::Assertions の assert_path_exists と refute_path_exists に alias として最後の s がない&refute のかわりに not をつけた assert_path_exist と assert_path_not_exist をそれぞれ追加しています。 rubygems のテストで使われてるためとのこと。
