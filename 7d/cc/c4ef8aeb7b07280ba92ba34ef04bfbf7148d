@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で bundler の同期時に gemspec ファイルの変更は打ち消すようにしていたのを、中身を読んで String#gsub で exe -> libexec の変換を加えるようにしています。
