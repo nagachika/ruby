@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境での workflow で choco で依存パッケージをインストールする時に Choco-Install という wrapper コマンドを使うようにしています。自動でリトライをしてくれるらしい。
