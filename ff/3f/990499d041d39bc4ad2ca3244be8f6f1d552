@@ -1,0 +1,1 @@
+rubygems のテストの minitest/mock への依存を削除しています。
