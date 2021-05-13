@@ -1,0 +1,1 @@
+rubygems のテストで assertion のないテストメソッドを通すために assertions をインクリメントだけしてたのを assert true を実行しておくように書きかえています。 minitest の内部実装に依存しないようにするためかな。
