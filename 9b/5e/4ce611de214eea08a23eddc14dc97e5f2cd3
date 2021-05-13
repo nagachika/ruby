@@ -1,0 +1,1 @@
+a1c416460b2cda7df6810ef8e9619d1903242de4 で rubygems のテストで assert_silent を capture_output で書きかえた時に capture した出力をチェックする assertion の呼び出しが変数のスコープ外になってしまっていたのを修正しています。
