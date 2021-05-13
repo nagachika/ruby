@@ -1,0 +1,1 @@
+rubygems のテスト用の Gem::TestCase の実装に minitest のかわりに test-unit を使うようにしています。
