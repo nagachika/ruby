@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境で実行できない rubygems や resolv のテストなどの skip を追加しています。また workflow で make check とまとめていたのを make test, make test-all, make test-spec に分割して並列に実行するようにしています。 https://github.com/ruby/ruby/pull/4487
