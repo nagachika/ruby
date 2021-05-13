@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.memsize_of に RubyVM::InstructionSequence を渡した時のテストが繰り返し実行すると失敗するとのことで一旦 skip するようにしています。
