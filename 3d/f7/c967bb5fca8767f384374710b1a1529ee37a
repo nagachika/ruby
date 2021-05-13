@@ -1,0 +1,1 @@
+magic comment #shareable_constant_value: literal  のテストのために class_eval をブロックつきで読んでたところが定数が外のスコープで定義されてしまっていたので? 文字列で渡すように修正しています。
