@@ -1,0 +1,1 @@
+case 文の when 節に 1r のような Rational のリテラルを渡すと T_RATIONAL がくることが考慮されていなくて SEGV する恐れがあった不具合を修正しています。 [ruby-core:103759] [Bug #17854]
