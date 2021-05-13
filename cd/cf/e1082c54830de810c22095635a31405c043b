@@ -1,0 +1,1 @@
+rubygems のテストから assert_performance_linear という assertion を利用しているテストを削除しています。 minitest の機能で代替がなく不安定なものなので。
