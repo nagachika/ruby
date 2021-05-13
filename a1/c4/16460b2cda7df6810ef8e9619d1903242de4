@@ -1,0 +1,1 @@
+rubygems のテストで assert_silent を使っていたところを capture_output を使って書きかえています。
