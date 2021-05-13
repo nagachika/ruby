@@ -1,0 +1,1 @@
+rubygems のテスト用のユーティリティに Object#stub メソッドを移植してきています。 minitest/mock のかわりに使うため。
