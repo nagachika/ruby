@@ -1,0 +1,1 @@
+rubygems のテストで capture_io を capture_output に変更しています。
