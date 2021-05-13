@@ -1,0 +1,1 @@
+rubygems のテスト用のコードに環境変数 RG_BISECT_SERVER_PLUGIN があるとそれを require する機能を削除しています。minitest にそういう機能があったみたいですね。
