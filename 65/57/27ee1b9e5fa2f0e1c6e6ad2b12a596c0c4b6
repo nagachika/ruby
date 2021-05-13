@@ -1,0 +1,1 @@
+3456335a9c624cd5f475fc71cc65e72d97acb86e で rubygems に移植してきた Object#stub メソッドの定義に移植元の URL をコメントで追加しています。
