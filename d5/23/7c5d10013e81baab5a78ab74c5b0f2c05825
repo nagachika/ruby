@@ -1,0 +1,1 @@
+rubygems のテスト用のユーティリティとして capture_subprocess_io というメソッドを追加しています。minitest の実装で代替がないものを移植したのだと思います。
