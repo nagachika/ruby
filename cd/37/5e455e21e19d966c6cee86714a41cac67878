@@ -1,0 +1,1 @@
+rubygems のテストで assert_output を capture_output を使って書きかえています。
