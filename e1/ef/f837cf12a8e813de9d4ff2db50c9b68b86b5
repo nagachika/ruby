@@ -1,0 +1,1 @@
+d0e6c6e682b9ba2b0309a5177933a0628e8ef316 および cc0dc67bbbe1951ff90004bc987f78545625d772 の Rational と Complex の比較を cdhash_cmp() という関数を用いて比較するようにしています。各要素が Bignum になる可能性があるので VALUE 値を直接比較してはいけなかったため。 [ruby-core:103759] [Bug #17854]
