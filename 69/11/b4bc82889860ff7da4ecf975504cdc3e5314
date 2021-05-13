@@ -1,0 +1,1 @@
+2bc293e899c9d32dcd794a73de8925c49ecf8f15 および cc0dc67bbbe1951ff90004bc987f78545625d772 で追加した case 文のテストが Rational のテスト用のファイルに入ってたので test_syntax.rb に移動しています。
