@@ -1,0 +1,1 @@
+cd375e455e21e19d966c6cee86714a41cac67878 で rubygems のテストで assert_output を capture_output で書きかえた時に出力を assert_nil でチェックしてたのを assert_empty に変更しています。
