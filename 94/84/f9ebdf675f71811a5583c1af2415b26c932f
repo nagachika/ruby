@@ -1,0 +1,1 @@
+rubygems のテストで ff3f990499d041d39bc4ad2ca3244be8f6f1d552 で削除した Time の mock を復活させています。3456335a9c624cd5f475fc71cc65e72d97acb86e で minitest の Object#stub を移植してきたあと復活させていなかったので。
