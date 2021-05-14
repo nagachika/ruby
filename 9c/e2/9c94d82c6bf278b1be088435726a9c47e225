@@ -1,0 +1,1 @@
+case 文の when 節に Rational や Complex のリテラルが書かれてた時に最適化命令 opt_case_dispatch による最適化を抑制するようにしています。 2bc293e899c9d32dcd794a73de8925c49ecf8f15 からの case 文の一連の修正の影響で誤って最適化して不整合がおきてたみたいです。 [ruby-core:103791] [Bug #17857]
