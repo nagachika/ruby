@@ -1,0 +1,1 @@
+gc.c の USE_MMAP_ALIGNED_ALLOC をマクロとしてでなく static const な変数として定義するように変更しています。デバッガで見るためかな?
