@@ -1,0 +1,1 @@
+rubygems のテストに minitest から Object#stub が移植された関係で tool/lib/minitest/mock.rb で定義されている Object#stub は定義済みだったら再定義しないようにしています。
