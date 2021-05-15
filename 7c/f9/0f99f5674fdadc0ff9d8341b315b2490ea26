@@ -1,0 +1,1 @@
+0aa4ca1477e76c7ea0b5d76b4afbc226297dd874 の再修正。 やっぱり configure で sys/user.h は macOS でもチェックして gc.c で PAGE_SIZE マクロが未定義で sys/user.h があったら #include するようにしています。そのかわり(?) configure で gc.c の malloc 関連のヘッダファイルを include したりマクロ定義している部分を切り出して configure でのチェックのためのコンパイルするソースコードでも同じものを挿入するようにしています。
