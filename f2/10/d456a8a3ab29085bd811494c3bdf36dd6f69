@@ -1,0 +1,1 @@
+cf1e1879f12ad547f95fe94ab62b4d960e804eb8 の objspace/tracer での Kernel#p 再定義のテストで stderr のチェックを先にするようにしています。エラー時のメッセージのわかりやすさのため。
