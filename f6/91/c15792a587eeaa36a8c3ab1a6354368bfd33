@@ -1,0 +1,1 @@
+cf1e1879f12ad547f95fe94ab62b4d960e804eb8 の追加修正で Kernel#p を再定義する前に Kernel#p を remove_method で削除しておいて再定義の警告が出ないようにしています。
