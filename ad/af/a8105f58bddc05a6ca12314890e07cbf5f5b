@@ -1,0 +1,1 @@
+mingw および mswin 環境では PAGE_SIZE が定義されず mmap(2) を使ったメモリ確保が使えないので gc.c で余計な変数(定数) USE_MMAP_ALIGNED_ALLOC を定義しないようにしています。未使用変数の警告抑制のためかな。
