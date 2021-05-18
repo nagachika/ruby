@@ -1,0 +1,1 @@
+fbb4e3f96c10de2240f2d87eac19cf6f62f65fea で Psych.load が safe_load 相当になったのに対応するため標準添付ライブラリ rdoc で YAML.load を使ってたところを YAML.unsafe_load を使うように変更しています。
