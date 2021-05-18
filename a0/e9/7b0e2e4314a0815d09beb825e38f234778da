@@ -1,0 +1,1 @@
+mspec および rubyspec でも fbb4e3f96c10de2240f2d87eac19cf6f62f65fea の YAML.load が safe_load 相当になったのに対応するため一部明示的に YAML.unsafe_load を利用するように変更しています。
