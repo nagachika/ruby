@@ -1,0 +1,1 @@
+fbb4e3f96c10de2240f2d87eac19cf6f62f65fea の Psych.unsafe_load の導入に伴なって標準添付ライブラリ ostruct のテストで YAML.load を使ってたところも YAML.unsafe_load に変更しています。
