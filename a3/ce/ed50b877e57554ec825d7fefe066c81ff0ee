@@ -1,0 +1,1 @@
+拡張ライブラリ psych で文字列でないキーによる Hash を load した時に symbolize_names: true が指定されててもエラーにならないようにしています。
