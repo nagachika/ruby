@@ -1,0 +1,1 @@
+test/lib/core_assertions.rb や test/lib/envutil.rb にテスト用のライブラリを移植していますが、コミットログをみるとこれは拡張ライブラリ psych の upstream に ruby 本体から移植したものが逆輸入されたものみたいです。
