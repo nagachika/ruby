@@ -1,0 +1,1 @@
+mswin および mingw で manifest ファイルというのを追加して Windows のロングパスというのをサポートできるようにしています。この manifest ファイルは XML でアプリケーションの設定などを記述したものみたいです。 [ruby-core:76256] [Bug #12551]
