@@ -1,0 +1,1 @@
+拡張ライブラリ json の json_string_unescape() の引数に intern と symbolize を追加してキーの Symbol 化を parse 時点で対応するようにして不要なオブジェクト確保を回避するようにしているようです。なるほど、1d2b4ccaf28596efee65c59dc69ea489a4237079 はこのための前フリだったのかな。
