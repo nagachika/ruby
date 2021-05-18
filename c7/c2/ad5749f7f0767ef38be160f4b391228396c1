@@ -1,0 +1,1 @@
+拡張ライブラリ psych に Psych.unsafe_load と Psych.unsafe_load_file というメソッドを新規追加して、Psych.load と Psych.load_file はその alias にしています。将来的には Psych.load が Psych.safe_load と同じ挙動をする予定とのこと。
