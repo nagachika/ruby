@@ -1,0 +1,1 @@
+GitHub Actions の古い ruby で rubyspec のチェックをする .github/workflows/spec_guards.yml から 2.5 と 2.6 での実施を削除しています。
