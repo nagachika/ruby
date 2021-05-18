@@ -1,0 +1,1 @@
+cf1e1879f12ad547f95fe94ab62b4d960e804eb8 で拡張ライブラリ objspace に objspace/trace というライブラリを追加したのを NEWS  に追記しています。 [ruby-core:103102] [Feature #17762]
