@@ -1,0 +1,1 @@
+a0e97b0e2e4314a0815d09beb825e38f234778da で mspec と rspec でも YAML.unsafe_load を使うようにしたのを revert しています。古い ruby 対策かな。
