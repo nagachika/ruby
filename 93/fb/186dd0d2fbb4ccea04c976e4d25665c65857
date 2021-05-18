@@ -1,0 +1,1 @@
+a0e97b0e2e4314a0815d09beb825e38f234778da および 008a63c477c35ff72344370005029fc73c5ae6eb の続きで mspec で YAML.unsafe_load の存在チェックを追加しています。また rubyspec ではバージョンが 3.1 の時(つまり master の時)は YAML.unsafe_load のテストをするように追加して、YAML.load のテストは 3.0 以前でのみ実行するようにしています。
