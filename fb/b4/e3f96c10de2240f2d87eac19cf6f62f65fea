@@ -1,0 +1,1 @@
+と、思ったら拡張ライブラリ psych で Psych.load が Psych.safe_load の wrapper になるように再定義されています。あれ、alias も残ってるけどどっちが正解なんだろう……。
