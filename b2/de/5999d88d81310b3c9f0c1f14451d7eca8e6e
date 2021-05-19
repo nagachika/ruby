@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Closure の引数の C の型の指定を Symbol でも受け付けるようにしています。
