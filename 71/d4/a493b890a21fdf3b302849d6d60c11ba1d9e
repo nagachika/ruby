@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に Fiddle.win32_last_socket_error および Fiddle.win32_last_socket_error= というメソッドを追加しています。Windows 環境ではソケットが特別なハンドラとして扱われるためかソケットを操作する関数のエラーが WSAGetLastError() という関数で取得できる特別な errno? に格納されるらしく、これを取得するためにメソッドを呼ぶとリセットされてしまうので専用のメソッドが必要だったということみたいです。実体は Thread の local storage に保存しています。Fiber local storage じゃなくてもいいのかな。 blocking fiber とソケットプログラミング併用ありがちな気がするけど。
