@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle で Fiddle::CParser#parse_ctype で const 修飾子への対応を追加しています。今まで対応できてなかったんだ。
