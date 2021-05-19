@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Win32Types モジュールを include した時に定義する C の型の名前の LPCSTR の定義に const をつけるのと HINSTANCE/HDC/HWND などを unsigned int で代替(?) してたのを HANDLE を利用するようにしています。
