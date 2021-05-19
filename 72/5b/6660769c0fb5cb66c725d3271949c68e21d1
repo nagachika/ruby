@@ -1,0 +1,1 @@
+rubyspec の従来のバージョンでの YAML.load のテストと 3.1(master) での YAML.unsafe_load のテストを shared spec という機能(describe に shared: true というオプションがある)を使うようにしています。
