@@ -1,0 +1,1 @@
+93fb186dd0d2fbb4ccea04c976e4d25665c65857 で rubyspec で YAML.unsafe_load が使えるかどうかに defined? を使うようにしてたのを respond_to? によるチェックに変更しています。
