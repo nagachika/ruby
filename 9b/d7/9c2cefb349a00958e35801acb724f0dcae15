@@ -1,0 +1,1 @@
+tool/lib/minitest/benchmark.rb および tool/test/minitest/test_minitest_benchmark.rb というファイルを削除しています。minitest の benchmark 機能は標準添付ライブラリで使わないように削除したのでこれも不要になったということかな。
