@@ -1,0 +1,1 @@
+拡張ライブラリ json の自動生成されるソースファイルの static const 変数の定義に MAYBE_UNUSED() マクロをつけて警告抑制するため ext/json/parser/prereq.mk の生成後の ruby での編集にルールを追加しています。
