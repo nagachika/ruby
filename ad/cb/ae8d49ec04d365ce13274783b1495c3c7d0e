@@ -1,0 +1,1 @@
+minitest から移植した tool/lib/minitest/mock.rb を削除してこのライブラリ自体のテストおよび標準添付ライブラリ resolv のテストで使ってたところを独自に Object#stub の定義を持つようにしています。
