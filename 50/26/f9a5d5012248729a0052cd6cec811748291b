@@ -1,0 +1,1 @@
+VM 命令列にコンパイルする時の peephole optimization で jump 命令の飛び先で再度 jump しているのを直接 1回で jump するようにする最適化が場合によっては trace が省略されてしまって TracePoint でのイベント発火が消えてしまうことがあったようなので、insn_info.events を調べてそういう場合は最適化しないようにしています。 [ruby-core:103887] [Bug #17868]
