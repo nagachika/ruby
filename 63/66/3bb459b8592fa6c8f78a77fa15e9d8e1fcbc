@@ -1,0 +1,1 @@
+complex.c の nucomp_false() という Complex#real? メソッドを実装してる関数(ただ Qfalse を返してるだけ)の関数名を nucomp_real_p_m() に改名しています。
