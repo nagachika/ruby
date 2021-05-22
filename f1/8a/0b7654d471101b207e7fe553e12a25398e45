@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストで minitest のかわりに test-unit のスタイルの assertion メソッドを利用するように変更しています。
