@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.load_from_binary で TS_CDHASH という特別な種類の Hash のオペランドをロードする時に通常の Hash として再現してしまっていたので、専用の処理を追加してちゃんと st_table::type に専用の型を指定した Hash オブジェクトを生成するように修正しています。通常の Hash だと配列による実装の時のメソッド呼び出しが発生することがあって leaf のはずの命令が leaf でなくなってしまう(例外が発生しうるようになる)という問題があったようです。
