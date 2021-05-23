@@ -1,0 +1,1 @@
+tool/extlibs.rb で外部ライブラリのダウンロード(もしくはキャッシュの利用)を実行する時に例外が発生した時に警告に出すのを Exception#inspect から Exception#full_message の結果にしてバックトレースも表示されるようにしています。 GitHub Actions で起きたエラーの原因を調べるためみたいです。
