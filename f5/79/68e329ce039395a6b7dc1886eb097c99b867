@@ -1,0 +1,1 @@
+b8ffb1c46f03dacfdb6b4417274ca66cc9142e5b で追加された irb のテストのさらに修正で環境変数 NO_COLOR だけでなく IRB.conf[:USE_COLORIZE] もバックアップしておいてテスト後にリストアするようにしています。
