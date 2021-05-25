@@ -1,0 +1,1 @@
+numeric.c の num_zero_p() が rb_equal() の戻り値で分岐して Qtrue/Qfalse を返していましたが、単に rb_equal() の戻り値も VALUE 型なので単にそのまま返すだけで良かったのでそのように書きかえて不要な分岐を削除しています。
