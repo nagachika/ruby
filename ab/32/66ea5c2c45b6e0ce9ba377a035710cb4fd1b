@@ -1,0 +1,1 @@
+標準添付ライブラリ tracer を ruby 本体のリポジトリから削除しています。 https://github.com/ruby/ruby/pull/4523 [ruby-core:97828] [Misc #16778]
