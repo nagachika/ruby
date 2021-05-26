@@ -1,0 +1,1 @@
+4f735903c2288f985ebf64e62817fb3cc47549d5 で復活させた .travis.yml で前も使ってた tool/travis_wait.sh や tool/ci_functions.sh などのユーティリティツールを復活させてこれを利用するようにしています。また arm64/ppc64le/s390x などの環境でのビルドを復活させているようです。
