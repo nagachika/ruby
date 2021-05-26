@@ -1,0 +1,1 @@
+bootstraptest/test_ractor.rb のテストが arm64 の環境でたまに失敗するそうなのでひとまず環境変数 TRAVIS と TRAVIS_CPU_ARCH をみてテスト実施しないようにしています。 [ruby-core:103950] [Bug #17878]
