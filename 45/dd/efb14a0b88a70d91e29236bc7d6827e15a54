@@ -1,0 +1,1 @@
+misc/lldb_cruby.py に rb_id2str というコマンドを追加して ID から ruby_global_symbols に登録されてる Symbol としての文字列に変換したものを表示するようにしています。
