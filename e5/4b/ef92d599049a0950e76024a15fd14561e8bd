@@ -1,0 +1,1 @@
+Kernel#require のテスト? で lib/irb/ext/tracer.rb という irb 内の tracer を利用するライブラリが標準添付から tracer が消えたので失敗するみたいなので除外するようにしています。
