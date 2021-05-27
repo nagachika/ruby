@@ -1,0 +1,1 @@
+Thread#native_thread_id というメソッドを追加して、Thread に対応する native thread の ID を表す値(整数として取れるようにしているようです)を返せるようにしています。 pthread_getthreadid_np() とか GetThreadId() とか syscall() で gettid システムコールを発行するなど環境に応じて実装しています。 [ruby-core:103756] [Feature #17853]
