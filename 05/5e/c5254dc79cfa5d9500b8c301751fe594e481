@@ -1,0 +1,1 @@
+46655156dcc37509dcb69fcd0717c110eb1c624a で追加した Thread#native_thread_id のテストで skip するための rescue で NotImplementedError は StandardError の継承例外クラスではないのでただの rescue では捕捉できないので、明示的に NotImplementedError を捕捉するように指定を追加しています。
