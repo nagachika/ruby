@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri で net/ftp に依存している部分があったので require に失敗したら net-ftp インストールを促す例外を発生させるように対応しています。bundled gems だから通常は使えるのではと思ったけど Gemfile に書いてなくて bundler 経由だと使えないからか。
