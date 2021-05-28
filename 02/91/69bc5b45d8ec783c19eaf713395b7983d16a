@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の標準添付ライブラリ digest の同期処理時に ext/digest/lib ディレクトリを掘っておくのを clone した upstream repo のコピーのほうに作ろうとしてしまっていたのを ruby repo 内のほうに掘るように修正しています。
