@@ -1,0 +1,1 @@
+gc.c の push_mark_stack() で switch 文で BUILTIN_TYPE() のオブジェクト型(T_XXXX のやつ)で分岐してるところで、異常系(rb_bug() で異常終了させる)のみ case を書いて大部分を default で吸収して switch 文の後にその場合の処理を書くようにしていたのを、全ての T_XXX (?) を明示的に書くようにしています。また異常系として扱うタイプに ﻿﻿﻿T_NONE/T_ZOMBIE/T_UNDEF/T_MASK を追加しています。
