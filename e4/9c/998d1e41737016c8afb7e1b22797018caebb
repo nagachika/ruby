@@ -1,0 +1,1 @@
+標準添付ライブラリ net/ftp を削除して bundled gems に net-ftp.gem を追加しています。
