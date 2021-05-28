@@ -1,0 +1,1 @@
+gems/bundled_gems で rbs の upstream の指定にコミットハッシュの指定を追加しています。 rbs で prime が使われていたので、その依存を削除した変更(https://github.com/ruby/rbs/pull/679)を取り込むために gem がリリースされるまでは直接指定するようにしているのだと思います。
