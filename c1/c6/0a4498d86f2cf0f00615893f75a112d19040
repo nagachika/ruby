@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から標準添付ライブラリから消された dbm の対応部分を削除しています。
