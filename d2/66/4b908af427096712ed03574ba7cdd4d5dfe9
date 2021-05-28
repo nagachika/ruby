@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 1.2.1 に更新して 9f192d42a69b06d05a575d2df99ba605301e8cf8 の commit hash 直接指定は削除しています。
