@@ -1,0 +1,1 @@
+標準添付ライブラリ net/pop を削除して bundled gems に net-pop.gem を追加しています。
