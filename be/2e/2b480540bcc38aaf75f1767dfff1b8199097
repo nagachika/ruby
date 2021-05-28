@@ -1,0 +1,1 @@
+標準添付ライブラリ net/smtp を削除して bundled gems に net-smtp.gem を追加しています。
