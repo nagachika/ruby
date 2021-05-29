@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb で minitest を利用するために bundled gem の minitest を使うため(?) gem "minitest" していたところを単に require_relative で tool/lib に移植版の minitest を require するようにしています。
