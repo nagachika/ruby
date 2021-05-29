@@ -1,0 +1,1 @@
+59c682097197fee4052b47e4b4ab86562f3eaa9b の変更に追随して rubygems のテストで require "rubygems/test_case" してたのを require_relative で同じディレクトリにあるやつを読み込むようにしています。
