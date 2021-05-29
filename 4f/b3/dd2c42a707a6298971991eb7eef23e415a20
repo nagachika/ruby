@@ -1,0 +1,1 @@
+test/rubygems/test_case.rb のメソッドのコメントに require "rubygems/test_case" したら使えるよとわざわざ書いてたのを削除しています。
