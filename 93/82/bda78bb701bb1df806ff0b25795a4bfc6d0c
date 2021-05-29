@@ -1,0 +1,1 @@
+lib/rubygems/test_case.rb の test/rubygems/test_case.rb への移動に伴なって RUBYGEMS_TEST_PATH という環境変数で rubygems のテストが置かれてるディレクトリの指定をする必要がなくなったとのことで対応コードを削除しています。
