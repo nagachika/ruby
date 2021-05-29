@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で make test-bundled-gems の実行をやめるようにしています。コメントによると matrix のテストが失敗するらしいとのこと。
