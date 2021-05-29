@@ -1,0 +1,1 @@
+rubygems のテストのためのユーティリティが lib/rubygems の配下にあったのを test/rubygems の下に移動しています。前から Gem::TestCase とかが lib/rubygems の下にあるの不思議ではあったんですよね(rubygems 本体以外の gem のテストでも使うとかなのかなと思ってた)。
