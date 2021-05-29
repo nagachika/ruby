@@ -1,0 +1,1 @@
+Enumerator::Lazy#with_index が返す Enumerator::Lazy インスタンスの size メソッドが実装されていなかったので対応しています。 [ruby-core:104058] [Bug #17889]
