@@ -1,0 +1,1 @@
+8e91b969df08b7a2eb27a5d6d38733eea42dc7ad の続きで rubygems で YAML.load や YAML.load_file の挙動が 4.0 で変更になったのを吸収するように Gems::TestCase に wrapper メソッドを追加してこれを利用するようにしています。 wrapper メソッドでは unsafe_load や unsafe_load_file があればそれを使うようにしています。
