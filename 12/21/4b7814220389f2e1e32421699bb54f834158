@@ -1,0 +1,1 @@
+test/rubygems/test_utilities.rb に明示的な require_relative "test_case" を追加。テストの実行順序に依存して未 load で呼ばれてエラーになる場合があったみたいです。
