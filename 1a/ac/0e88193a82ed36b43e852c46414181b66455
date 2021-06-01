@@ -1,0 +1,1 @@
+MJIT による命令列の実行時の JIT コンパイル 中に inline 化可能な ISeq から参照される全ての ISeq を辿って配列に詰めておいて GC mark 対象に追加するようにしているようです。 MJIT 対象のメソッドが GC で解放されてしまって SEGV するケースがあったようです。 https://github.com/ruby/ruby/pull/4539 [ruby-core:102254] [Bug #17584]
