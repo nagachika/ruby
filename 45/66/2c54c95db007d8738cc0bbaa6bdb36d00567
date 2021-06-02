@@ -1,0 +1,1 @@
+internal/string.h から string.c 以外で使われてない rb_str_initialize() の宣言を削除しています。 https://github.com/ruby/ruby/pull/4465
