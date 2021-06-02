@@ -1,0 +1,1 @@
+re.c の rb_reg_eqq() と rb_check_regexp_type() という関数が外で使われてないので static 修飾子を追加しています。 https://github.com/ruby/ruby/pull/3153
