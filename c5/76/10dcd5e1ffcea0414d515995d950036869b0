@@ -1,0 +1,1 @@
+hash.c の rb_hash_reject_bang()、rb_hash_reject()、rb_hash_values_at()、rb_hash_assoc()、rb_hash_rassoc() などのメソッド定義に使っている関数に static 修飾子がついてなかったので追加しています。 https://github.com/ruby/ruby/pull/3138
