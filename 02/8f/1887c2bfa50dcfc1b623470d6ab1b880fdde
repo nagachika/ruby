@@ -1,0 +1,1 @@
+MJIT の JIT compile の結果の cache サイズの指定する --jit-max-cache オプションのデフォルト値を 100 から 10000 に増やしています。これもそのほうが現実的なアプリケーションで性能が出るみたいです。 参考URL: https://k0kubun.medium.com/ruby-3-jit-can-make-rails-faster-756310f235a
