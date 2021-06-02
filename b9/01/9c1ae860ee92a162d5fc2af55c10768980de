@@ -1,0 +1,1 @@
+b9019c1ae860ee92a162d5fc2af55c10768980de の GitHub Actions の MJIT 用 workflow で configure に cppflags=-DVM_CHECK_MODE を追加してたのを revert しています。
