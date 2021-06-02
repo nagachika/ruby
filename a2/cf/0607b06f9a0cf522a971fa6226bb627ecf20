@@ -1,0 +1,1 @@
+rb_class_path_cached() という関数も rb_mod_name() と全く同じ内容なのでこれに委譲するようにリファクタリングしています。 https://github.com/ruby/ruby/pull/4485
