@@ -1,0 +1,1 @@
+GitHub Actions の MJIT テスト用の workflow で configure 時に cppflags=-DVM_CHECK_MODE オプションを渡すようにしています。
