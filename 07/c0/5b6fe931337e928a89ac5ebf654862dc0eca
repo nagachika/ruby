@@ -1,0 +1,1 @@
+MJIT で ISeq を JIT compile するかどうかの判定に struct rb_iseq_constant_body::iseq_size が 1000 以上だったらコンパイルしないという制限を加えていたのが、実用上は性能向上を抑制してしまっていたみたいなので制限をやめています。
