@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の bundler の同期処理で bundler.gemspec ファイルを書きかえる処理で "extra_rdoc_files" を含んでいる行を読み飛ばすようにしてたのを LICENSE.md にマッチした行を読み飛ばすように変更しています。コミットログをみると遅いからみたいなことが書いてますが、うーん、どういうことだろ?
