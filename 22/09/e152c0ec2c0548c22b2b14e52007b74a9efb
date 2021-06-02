@@ -1,0 +1,1 @@
+tool/ruby_vm/views/_mjit_compile_send.erb で GitHub Actions で発生する SEGV のデバッグのために 1行で書いてるコードを複数行に細かくわけて書いてどこで SEGV しているのか調べられるようにリファクタリングしています。
