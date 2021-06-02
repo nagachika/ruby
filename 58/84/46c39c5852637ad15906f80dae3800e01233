@@ -1,0 +1,1 @@
+内部では使用されていない rb_ary_ptr_use_start() の宣言を internal/array.h から削除しています。 https://github.com/ruby/ruby/pull/4427
