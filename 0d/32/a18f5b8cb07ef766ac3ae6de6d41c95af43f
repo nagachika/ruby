@@ -1,0 +1,1 @@
+rb_mjit_header.h のタブを空白に展開する tool/mjit_tabs.rb で vm_sync.h と vm_sync.c を処理除外するファイルに追加しています。
