@@ -1,0 +1,1 @@
+からっぽのコミットですが、コミットログをみると https://github.com/ruby/ruby/pull/4400 をマージしたものみたいで、 これが 1055b37ef56ff786b5dfd407c23dcf585eb86748 でマージされた https://github.com/ruby/ruby/pull/4492 と全く同じ内容なのでマージするために rebase? された時に空のコミットになってしまったみたいです。
