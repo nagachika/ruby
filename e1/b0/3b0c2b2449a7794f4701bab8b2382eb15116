@@ -1,0 +1,1 @@
+e9e3b65d836b5796882b5bf28717e4586366ceec の MJIT 用の GitHub Actions の workflow で configure に cppflags=-DVM_CHECK_MODE  を渡すのを再度復活させて、GET_EC() で rb_execution_context_t を取得する時に NULL だったら異常終了するようにしています。デバッグのためと思われます。 https://github.com/ruby/ruby/pull/4543
