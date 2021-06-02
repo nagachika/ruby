@@ -1,0 +1,1 @@
+rb_define_class_variable() の内容が rb_cv_set() とまったく同じなのでこれに委譲するようにリファクタリングしています。 https://github.com/ruby/ruby/pull/4492
