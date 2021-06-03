@@ -1,0 +1,1 @@
+46655156dcc37509dcb69fcd0717c110eb1c624a で追加した Thread#native_thread_id が実装できない環境では rb_f_notimplement() でメソッド定義して NotImplementedError 例外を発生させるようにしています。実装のなかで rb_notimplement() をよぶかわりにこうすることで method_defined? で判定できるようになる?
