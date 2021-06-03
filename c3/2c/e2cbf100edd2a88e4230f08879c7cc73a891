@@ -1,0 +1,1 @@
+MJIT のために vm_core.h や vm_insnhelper.h で一部の変数を export するために RUBY_SYMBOL_EXPORT_BEGIN/RUBY_SYMBOL_EXPORT_END というマクロで挟んでたのを、MJIT のためというのがわかるように MJIT_SYMBOL_EXPORT_BEGIN/MJIT_SYMBOL_EXPORT_END に変更しています。
