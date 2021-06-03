@@ -1,0 +1,1 @@
+rubyspec の File.atime のテストが Travis-CI 上の ppc64le の環境で通らないことがあるそうなので環境変数でその場合に限り skip するようにしています。 [ruby-core:104101] [Bug #17926]
