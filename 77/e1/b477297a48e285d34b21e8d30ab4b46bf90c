@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストに assert_raise が未定義だったら assert_raises への alias として定義するようにする guard を追加しています。
