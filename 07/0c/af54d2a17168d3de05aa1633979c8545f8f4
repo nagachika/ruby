@@ -1,0 +1,1 @@
+VM 命令列の命令を取得する処理で VM の実装方式で rb_vm_insn_addr2insn() を呼ぶか iseq_encoded の配列の要素をみるだけかというのを preprocessor の分岐する処理があちこちに書かれてたので rb_vm_insn_decode() という関数に切り出すリファクタリング。
