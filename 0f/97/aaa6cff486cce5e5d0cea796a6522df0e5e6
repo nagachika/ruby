@@ -1,0 +1,1 @@
+mjit_worker.c の compiling_iseqs 変数の指す領域を解放する処理が MSVC で const 修飾子の violation で警告になるので free_compiling_iseqs() という関数に切り出して MSVC だったら一時的に警告を抑制するようにしてから free() を呼ぶようにしています。
