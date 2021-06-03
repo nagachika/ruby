@@ -1,0 +1,1 @@
+rb_heap_t の compact_cursor_index メンバーの型を size_t から RVALUE* のポインタ型に変更して GC.compact での移動処理中の slot を直接参照を保持するようにしています。ちょっとよくわからないけど少し処理を効率化しているのかな。
