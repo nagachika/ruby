@@ -1,0 +1,1 @@
+e1b03b0c2b2449a7794f4701bab8b2382eb15116 で GET_EC() マクロで rb_execution_context_t を得る時に NULL だったら異常終了するようにした影響で vm_dump.c の rb_vm_bugreport() を MJIT worker から呼ぶ時に SEGV が発生してしまってたということで、ここでは rb_current_execution_context() に false を渡して NULL 許容するようにしています。
