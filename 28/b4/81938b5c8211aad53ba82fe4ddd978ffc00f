@@ -1,0 +1,1 @@
+NilClass#to_i と NilClass#to_f のメソッド定義を ruby 実装におきかえています。 https://github.com/ruby/ruby/pull/3366 [ruby-dev:50937] [Feature #17054]
