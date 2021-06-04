@@ -1,0 +1,1 @@
+rubygems で 59c682097197fee4052b47e4b4ab86562f3eaa9b でテスト用のユーティリティを lib/rubygems から test/rubygems に移動したのですが、テストディレクトリ配下に text_ ではじまるファイルを置くとテストクラスが定義されるファイルと認識されてしまうので、test/rubygems/test_utilities.rb を test/rubygems/utilities.rb に、test/rubygems/test_case.rb を test/rubygems/helper.rb に改名しています。
