@@ -1,0 +1,1 @@
+Fiber の Fiber#transfer を C API で使えるように rb_fiber_transfer() および rb_fiber_transfer_kw() を static 修飾子を外して、prototype 宣言を include/ruby/internal/intern/cont.h に追加しています。
