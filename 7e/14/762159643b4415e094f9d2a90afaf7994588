@@ -1,0 +1,1 @@
+86c262541ad07528842d76dab4b9b34bd888d5f4 の MJIT の recompile の race condition 修正の続きで mjit_worker から呼ばれる関数で ZALLOC() を使っていたのが GC 起動する可能性があるので素の calloc(3) を使うようにしたり、mjit_add_iseq_to_process() という関数も mjit worker から呼ばれる可能性ができたので CRITICAL_SECTION_START()/CRITICAL_SECTION_FINISH() の呼び出しによる排他処理を実行しないようにしたりといった追加修正をしています。
