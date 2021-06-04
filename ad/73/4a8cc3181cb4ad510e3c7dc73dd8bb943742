@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.each_objects で使う objspace_each_objects() で生きてるオブジェクトが所属する heap の数のぶんポインタの配列を確保するのに heap_allocated_pages という変数を使っていましたが、これには解放待ちのページが所属する tomb heap のぶんも含まれているので heap_eden->total_pages のほうを参照して不要なサイズを確保しないようにしています。
