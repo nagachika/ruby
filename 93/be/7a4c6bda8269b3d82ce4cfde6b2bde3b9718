@@ -1,0 +1,1 @@
+rb_thread_wait_for_single_fd() および rb_fiber_start() で EC_EXEC_TAG() を使ってるところで ppc64le-linux で "might be clobbered by 'longjmp' or 'vfork'" の警告が出てたのを抑制するため変数の宣言位置を移動したり変数に volatile 修飾子を追加したりしています。
