@@ -1,0 +1,1 @@
+gc.c の gc_fill_swept_page() という関数の戻り値を int から bool に変更しています。
