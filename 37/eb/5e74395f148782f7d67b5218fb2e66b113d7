@@ -1,0 +1,1 @@
+Hash リテラルのキーとしてさらに Bignum の範囲の Integer、Float(即値 flonum ではない値のもの)、Rational、Complex のリテラルも複数出現した時の警告ができるように、比較に rb_iseq_cdhash_cmp() を利用するようにしています。
