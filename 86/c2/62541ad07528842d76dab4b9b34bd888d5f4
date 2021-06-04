@@ -1,0 +1,1 @@
+MJIT の worker へコピーされる call cache の受け渡しに race condition があって SEGV することがあったようで、--jit-wait オプションの指定がない時には同じ ISeq を call cache の変化に伴なって(?)再度コンパイルする mjit_recompile() で mjit_add_iseq_to_process() を呼び出すのをやめています。 iseq->body->jit_unit->stale_p のフラグを立てといて後で MJIT worker のスレッドで再コンパイルされるようにしているみたいです。
