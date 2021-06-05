@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドに Float が flonum でない値の時に対応していなかったので修正しています。
