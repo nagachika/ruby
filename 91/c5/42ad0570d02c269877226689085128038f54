@@ -1,0 +1,1 @@
+3c57c087ec4ac9f2d7b9f4111a667efe42d30cfb の追加修正。 misc/lldb_cruby.py の lldb_inspect の Float の時の出力を append_command_output() を使うように変更しています。
