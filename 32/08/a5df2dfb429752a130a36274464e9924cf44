@@ -1,0 +1,1 @@
+Integer#size メソッドの実装を builtin function 呼び出しする ruby 実装に変更しています。さらにこれを生かすため MJIT 用の C のコード生成時に inline 化できるかどうかチェックする VM 命令に opt_size という最適化命令も追加しています。 https://github.com/ruby/ruby/pull/3476 [ruby-core:99779] [Feature #17135]
