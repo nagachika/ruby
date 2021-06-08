@@ -1,0 +1,1 @@
+appveyoryml および .travis.yml でも Unicode 関係のファイル更新をしないようにしています。どうやら unicode.org の証明書の期限切れによるエラーが起きてたみたいですね。
