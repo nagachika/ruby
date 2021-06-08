@@ -1,0 +1,1 @@
+拡張ライブラリ psych で Psych.load_file を unsafe_load_file の alias としていたのが重複していたのを削除しています。また Psych.load_file も alias の定義は削除して独立したメソッド定義を追加して File.open で開いて Psych.load に渡すようにしています。 load と safe_load には挙動に少し違いがあったので safe_load_file の alias にしているとその差が食い違ってしまうため。
