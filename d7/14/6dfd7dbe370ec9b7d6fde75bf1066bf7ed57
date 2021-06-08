@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで assert_raises を使ってたところを assert_raise に変更しています。
