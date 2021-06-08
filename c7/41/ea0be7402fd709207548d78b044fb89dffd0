@@ -1,0 +1,1 @@
+Time クラスの rdoc 用コメントを time.c から ruby 実装の timev.rb に移動しています。
