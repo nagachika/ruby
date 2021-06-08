@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree のメソッドの ruby 実装が置かれてる ast.rb で Module の定義を RubyVM と AbstractSyntaxTree で class 文と module 文をネストさせて書いてたのを名前空間の絶対パスで module RubyVM::AbstractSyntaxTree と書くようにしています。
