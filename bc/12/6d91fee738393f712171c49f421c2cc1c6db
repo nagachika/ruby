@@ -1,0 +1,1 @@
+いろんなバージョンの ruby を BASERUBY として使ってビルドする GitHub Actions の workflow .github/workflows/baseruby.yml で make update-unicode の実行をしないようにしています。外部サイトの状態に依存してしまうので稀なエラーを抑制するため。
