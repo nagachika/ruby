@@ -1,0 +1,1 @@
+Dir クラスの rdoc 用コメントを dir.c から ruby 実装の dir.rb に移動しています。
