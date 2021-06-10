@@ -1,0 +1,1 @@
+gc.c の gc_marks_wb_unprotected_objects() という関数でスキャンする heap page を生きてるオブジェクトが存在する eden heap だけにしてたのを、引数に rb_heap_t を受け取って指定できるようにしています。現状では引数に別の heap は渡してないので挙動は変更されてなさそう。
