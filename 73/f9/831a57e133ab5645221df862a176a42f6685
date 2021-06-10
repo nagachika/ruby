@@ -1,0 +1,1 @@
+timer thread のかわりにタイマー割り込みに使うようになった POSIX timer が fork(3) した子プロセスでは有効じゃないということで ubf_timer_disarm() で timer 解除する時に timer_posix.owner に保存してある pid と現在の pid を比較して使えなかったら処理をスキップするようにしています。 [ruby-core:104199] [Bug #17941]
