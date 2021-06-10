@@ -1,0 +1,1 @@
+定数の inline cache 用の構造体 struct iseq_inline_constant_cache_entry のレイアウトを変更して、環境に応じて padding を追加する対応をしています。
