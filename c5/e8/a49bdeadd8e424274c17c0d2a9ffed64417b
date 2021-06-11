@@ -1,0 +1,1 @@
+MJIT で JIT コンパイル対象の ISeq を unit_queue に登録する時に mjit_recompile() 経由以外の時は複数 Ractor からの重複した挿入を避けるようにしています。
