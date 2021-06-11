@@ -1,0 +1,1 @@
+c5e8a49bdeadd8e424274c17c0d2a9ffed64417b の変更の続きで判定のために struct rb_iseq_constant_body::jit_func を参照する時に明示的なキャストを追加しています。 Windows での警告避けのためみたいです。
