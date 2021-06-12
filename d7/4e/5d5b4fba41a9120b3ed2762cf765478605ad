@@ -1,0 +1,1 @@
+vm_dump.c の rb_vm_bugreport() で rb_bug() での異常終了時などに表示する loaded features が VM 初期化途中で rb_vm_t::loaded_features が未設定の時に SEGV していたので NULL チェックするようにしています。
