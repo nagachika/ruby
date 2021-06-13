@@ -1,0 +1,1 @@
+Fiber.current_scheduler の rdoc 用コメントの "iff" を "if and only if" に置き換えています。
