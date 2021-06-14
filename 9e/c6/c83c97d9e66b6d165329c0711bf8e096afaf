@@ -1,0 +1,1 @@
+gc.c で RUBY_ALTERNATIVE_MALLOC_HEADER が定義されてたら #include してましたが ruby/missing.h で既に #include されているとのことで削ってその旨コメントを残しています。
