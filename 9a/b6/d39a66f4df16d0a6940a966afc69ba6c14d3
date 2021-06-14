@@ -1,0 +1,1 @@
+gc.c の mark_current_machine_context() で関数内で宣言している union 型の中で配列のサイズの指定のため sizeof() を使ってるところでかっこを追加しています。警告の抑制みたいですが sizeof() を sizeof() で割るのがだめなのかな。よくやる方法だと思うけど。
