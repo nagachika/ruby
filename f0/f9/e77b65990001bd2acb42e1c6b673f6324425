@@ -1,0 +1,1 @@
+load.c の require_internal() で GCC 11 での "might be clobbered by 'longjmp' or 'vfork'" 警告を抑制するため volatile 変数を導入しています。
