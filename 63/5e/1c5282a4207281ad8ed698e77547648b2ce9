@@ -1,0 +1,1 @@
+load.c の require_internal() で volatile 変数を 3つ定義していたのを、構造体にまとめて全体を volatile 修飾子つきで宣言するようにしています。うーん、これはなんでだろう。
