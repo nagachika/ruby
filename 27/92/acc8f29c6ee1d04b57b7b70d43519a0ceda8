@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Addrinfo.getaddrinfo を blocking fiber のための Scheduler 対応をして Schedule#address_resolve メソッドが呼ばれるように対応を追加しています。テスト用のサンプル実装をみると結局 Thread を使ってますが、resolv はしかたないですね。 https://github.com/ruby/ruby/pull/4375
