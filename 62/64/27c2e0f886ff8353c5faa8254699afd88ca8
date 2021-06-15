@@ -1,0 +1,1 @@
+2792acc8f29c6ee1d04b57b7b70d43519a0ceda8 の変更で未使用になった ext/socket/socket.c の sock_s_getnameinfo() 内の変数の宣言を削除しています。
