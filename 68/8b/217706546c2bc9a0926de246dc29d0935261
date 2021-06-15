@@ -1,0 +1,1 @@
+time.c の Windows 環境向けの tzname および daylight のマクロ定義の preprocessor 分岐の書きかたが Solaris のコンパイラでエラーになるとのことで defined() のチェックを追加しています。 [ruby-core:104238] [Bug #17947]
