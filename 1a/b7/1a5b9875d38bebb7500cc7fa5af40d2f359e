@@ -1,0 +1,1 @@
+2792acc8f29c6ee1d04b57b7b70d43519a0ceda8 で追加された Addrinfo.getnameinfo の blocking fiber 対応のテストで Socket::NI_NUMERICSERV を渡してサービス名でなくポート番号で取得してチェックするようにしています。 Solaris でサービス名が違うか解決できなかったかなにかでテスト失敗していたのに対応するためとのこと。
