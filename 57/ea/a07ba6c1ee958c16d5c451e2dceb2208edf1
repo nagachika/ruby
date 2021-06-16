@@ -1,0 +1,1 @@
+blocking fiber のテストで Scheduler の close 漏れを修正しています。
