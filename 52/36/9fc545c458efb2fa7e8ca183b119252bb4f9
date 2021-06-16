@@ -1,0 +1,1 @@
+70833fab7fc2e912f5a405157b3afa101b482c17 の OpenStruct#delete_field でブロックが渡されてるかどうかの判定に block_given? を使ってましたが、これをフィールド名として使えるように blocks_given! に alias を作っておいてこっちを使うようにしています。
