@@ -1,0 +1,1 @@
+inline cache 操作のための VM 命令 opt_setinlinecache の attr 指定のコメントで leaf=false の指定を追加しています。この命令内の処理に追加された ractor_shareable_p() が Ruby メソッドを呼び出す可能性があったので leaf でなくなってしまって VM スタックを壊す可能性があったみたいです。テストの再現スクリプトみるとかなり条件が複雑そうですが  https://github.com/ruby/ruby/pull/4565 [ruby-core:103971] [Bug #17880]
