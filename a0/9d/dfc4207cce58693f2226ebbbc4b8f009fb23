@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct のテストで YAML.unsafe_load を利用していたのを YAML.safe_load にキーワード引数 permitted_classes を渡すように変更しています。
