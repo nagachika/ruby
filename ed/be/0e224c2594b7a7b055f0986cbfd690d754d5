@@ -1,0 +1,1 @@
+Thread のテストで子 Thread 内の例外が標準出力に出ないように Thread#report_on_exception = false を設定しておくようにしています。
