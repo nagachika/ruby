@@ -1,0 +1,1 @@
+f0f9e77b65990001bd2acb42e1c6b673f6324425 で入れて 25921fe1d67e4bdd2370e1e9c26f1ed4533af73e で revert された load.c の require_internal() で GCC 11 での "might be clobbered by 'longjmp' or 'vfork'" 警告抑制のリトライ。path 変数の内容を別の変数に退避しておくようにしています。
