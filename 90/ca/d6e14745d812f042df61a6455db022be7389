@@ -1,0 +1,1 @@
+configure で Solaris 上では利用するコンパイラの候補として clang を除外するようにしています。 [ruby-core:104244] [Bug #17949]
