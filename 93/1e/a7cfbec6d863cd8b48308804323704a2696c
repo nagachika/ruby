@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#delete_field にブロックを渡すと削除対象のフィールドがない時に例外を発生させるかわりにブロックを呼び出すようにしています。 https://github.com/ruby/ruby/pull/1409
