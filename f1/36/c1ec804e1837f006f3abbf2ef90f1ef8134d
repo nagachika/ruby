@@ -1,0 +1,1 @@
+c2d9967f78d2e6f93f8d9876c2b3ab25aa6b86e7 の追加修正。 NUM2IOCTLREQ() マクロの定義が configure でされる場合にも io.c で再定義して冗長になってたので io.c の定義を削除しています。 [ruby-core:103080] [Bug #17759]
