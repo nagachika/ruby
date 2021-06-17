@@ -1,0 +1,1 @@
+Time#getlocal のテストを追加しています。9ef66ce3fcfee06d628b611dbc22026d7cc72d0e で対応した timezone が不明の時の "-00:00" という指定の対応が getlocal でも効いているというのを確認するテストみたいです。 [ruby-core:102103] [Feature #17544]
