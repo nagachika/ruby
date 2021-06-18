@@ -1,0 +1,1 @@
+rubygems のテスト用のヘルパーメソッド capture_subprocess_io で子プロセスの出力を格納する一時ファイルの削除を IO の close 後にしています。 Windows ではプロセスが開いているファイルの削除が失敗するため。
