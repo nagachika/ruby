@@ -1,0 +1,1 @@
+miniruby 向けの ruby 実装のメソッド定義をロードするための mini_builtin.c で rb_compile_option_t の設定を指定して VM 命令列にコンパイルするようにしています。コミットログによると frozen_string_literal を true にしておくためみたいです。
