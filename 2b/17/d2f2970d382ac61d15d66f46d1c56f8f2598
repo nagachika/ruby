@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol で内部的に利用している Net::WriteAdapter というクラスで Symbol を受け取ってそれを Object#__send__ を使ってメソッド呼び出ししていたのを、Method オブジェクトを受け取ってそれを call するだけに変更しています。
