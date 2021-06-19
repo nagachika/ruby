@@ -1,0 +1,1 @@
+gc.c の heap_set_increment() という関数はそこから呼んでる heap_allocatable_pages_set() と融合させて heap_allocatable_pages_set() だけにしています。追加の処理は実際には機能していなかったということです。 gc_report() の呼び出しを消してるのはいいのかな。デバッグ用だと思うので挙動には影響ないと思いますが。
