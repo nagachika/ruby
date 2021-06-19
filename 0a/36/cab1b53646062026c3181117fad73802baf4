@@ -1,0 +1,1 @@
+dfba87cd622f9699f54d1d0b8c057deb428874b6 の Thread::Backtrace::Location から AST を取れるようにした変更は EXPERIMENTAL_ISEQ_NODE_ID というマクロ(ff69ef27b06eed1ba750e7d9cab8322f351ed245 で RubyVM::AbstractSyntaxTree::Node#node_id メソッドを実験的に追加した時に追加した条件マクロ)が定義されてる時しか有効になってませんでしたが、これを DEBUG_ISEQ_NODE_ID に改名してデフォルトで定義しておくようにしています。
