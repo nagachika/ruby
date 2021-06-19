@@ -1,0 +1,1 @@
+RubyVM::AST.parse と RubyVM::AST.of などスクリプトや Method から AST を得るクラスメソッドにキーワード引数 save_script_lines を追加して、これを true に指定すると parse 時に元のスクリプトの行の文字列そのものを  RubyVM::AbstractSyntaxTree::Node に保持させることができるようにしているようです。 RubyVM::AST.of でもできるんだ。デバッガなどのツールで使うためかと思われます。
