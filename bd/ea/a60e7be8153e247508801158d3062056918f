@@ -1,0 +1,1 @@
+Time クラスのオブジェクトが利用している T_TYPEDDATA 型オブジェクトのデフォルトの flags に RUBY_TYPED_FROZEN_SHAREABLE を追加して、Time オブジェクトが Ractor 間で共有可能になるようにしています。 このフラグは freeze すれば sharable になるという意味かな(freeze してるわけではない?)。
