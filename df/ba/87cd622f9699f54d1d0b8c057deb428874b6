@@ -1,0 +1,1 @@
+RubyVM::AST.of が受け付ける引数として Proc や Method に加えて Thread::Backtrace::Location からも AST が得られるようにしています。つまり例外捕捉するとそこから発生箇所の AST が取れるってことになりますね。どうやって取るかというと全 NODE に id を採番しておいて、その node id から RubyVM::AST::Node を引ける Hash をメンテナンスしておいて、Thread::Backtrace::Location 作成時に行番号などを取得する時に一緒に取れるようにしているようです。
