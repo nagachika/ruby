@@ -1,0 +1,1 @@
+acae5f363dfaedd9c2873cee68c9498da3c072f5 の変更で rb_ast_body_t にメンバーを追加したので構造体サイズが struct RVALUE のサイズ(オブジェクトの slot)に収まらなくなってしまってたのでかわりに line_count メンバーを削除して、追加した script_lines  というメンバーを利用しない場合にここに Integer として数字を入れておくようにして、ast_line_count() という関数で Integer の値かまたは save_script_lines 利用時には配列のサイズから取得するようにしています。
