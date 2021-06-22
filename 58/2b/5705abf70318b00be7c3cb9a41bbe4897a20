@@ -1,0 +1,1 @@
+46c813969be642e61763379e03c9698b91ab1a96 で追加した標準添付ライブラリ reline の Reline::Terminfo で fiddle のバージョンのチェックをする時にそもそも Fiddle::VERSION 定数が定義されているかを defined? でチェックするようにしています。
