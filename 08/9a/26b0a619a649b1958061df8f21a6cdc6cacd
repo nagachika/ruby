@@ -1,0 +1,1 @@
+標準添付ライブラリ readline のヒストリファイルの扱いについてのテストで Encoding.default_external を利用するようにしています。
