@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で inputrc などの設定ファイルの読み込み時に Encoding.default_external の Encoding で読み込むようにしています。
