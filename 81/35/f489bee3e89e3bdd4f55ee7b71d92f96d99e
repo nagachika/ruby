@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.set_default_key_bindings に C-x C-x のキーバインディングの対応を追加しています。
