@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Reline::Terminfo という Module を追加して fiddle を使って libcurses を使った端末制御の wrapper を実装して可能ならキーバインド設定時に tigetstr() を利用するようにしています。
