@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストに Windows 環境でキリル文字を入力するテストを追加しています。 https://github.com/ruby/reline/issues/103
