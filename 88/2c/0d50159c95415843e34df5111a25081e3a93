@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストの teardown に reset_default_key_bindings でキーバインディングを元に戻しておく後始末を追加しています。
