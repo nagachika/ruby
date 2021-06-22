@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.set_default_key_bindings に Meta+→ と Meta+← のキーバインドを追加しています。
