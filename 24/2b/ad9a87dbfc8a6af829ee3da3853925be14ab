@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で標準出力が端末でない時に Reline::IOGate を Reline::GeneralIO に fallback するようにしています。 また Reline::Unicode.calculate_width が未初期化のクラス変数参照でエラーになるので @@encoding の参照時に defined? によるチェックを追加しています。 [ruby-core:101829] [Bug #17493]
