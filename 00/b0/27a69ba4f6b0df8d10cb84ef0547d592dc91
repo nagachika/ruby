@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Core#read_io の引数 keyseq_timeout について書いてあるコメントの meta キー解釈への影響の記述を少し修正しています。引数の数値が milliseconds だということを明記しています。
