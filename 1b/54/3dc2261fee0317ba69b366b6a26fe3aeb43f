@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI での getbyte による 1文字読み込み時の例外 Errno::ENOTTY を捕捉して無視するようにしています。
