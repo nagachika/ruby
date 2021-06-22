@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo Module の定義で fiddle のバージョンチェックするのに RUBY_VERSION を最初にチェックするようにしています。ふーむ、ruby 本体は新しいけど fiddle を古いのを使ってるということはないはずということかな。
