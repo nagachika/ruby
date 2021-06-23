@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストで reline を実装として使っている場合に利用する Encoding を Reline::IOGate.encoding で決めるようにしています。
