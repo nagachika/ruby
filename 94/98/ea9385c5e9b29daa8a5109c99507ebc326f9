@@ -1,0 +1,1 @@
+089a26b0a619a649b1958061df8f21a6cdc6cacd の拡張ライブラリ readline のテストの Encoding.default_external 利用を revert。CI のどこかの環境が壊れたのかな。
