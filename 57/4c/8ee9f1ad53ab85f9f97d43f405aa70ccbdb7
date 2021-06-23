@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストでも reline を利用する場合 teardown で Reline.test_reset を呼んでおくようにしています。
