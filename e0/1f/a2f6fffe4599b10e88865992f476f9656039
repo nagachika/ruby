@@ -1,0 +1,1 @@
+NEWS に拡張ライブラリ socket の blocking Fiber の Scheduler 対応についてや 3deb5d7113e1fd6e4b468e09464d524d390d811e で追加された新しい C API について追記しています。
