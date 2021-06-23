@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで環境変数 RELINE_TEST_ENCODING で指定された Encoding でファイルなどの入力を読み込むようにしています。
