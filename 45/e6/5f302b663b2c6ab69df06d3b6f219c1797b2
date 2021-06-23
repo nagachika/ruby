@@ -1,0 +1,1 @@
+rb_io_wait_writable()、rb_io_wait_readable() などの API を deprecated にして拡張ライブラリ socket や openssl で 3deb5d7113e1fd6e4b468e09464d524d390d811e で追加した rb_io_maybe_wait_writable()、rb_io_maybe_wait_readable() などをかわりに使うようにしています。
