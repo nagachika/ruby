@@ -1,0 +1,1 @@
+215fd1bf2ca70c5853623a0575b34863cc165057 で切り出した readline のテストの finish_using_lib_reline ですが Reline.test_reset を呼ぶかわりに Reline モジュールのインスタンス変数 @core を nil にリセットするという実装に置き換えています。内容は同じものみたいですね。なんでだろ。Reline がないとどっちみち呼べない実装だし……。
