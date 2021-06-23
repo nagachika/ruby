@@ -1,0 +1,1 @@
+45e65f302b663b2c6ab69df06d3b6f219c1797b2 で rb_io_sysread() も rb_thread_wait_fd() のかわりに rb_io_wait() を使うように書きかえたのを再修正。そもそも読み込み可能になるのを待つのをやめてかわりに read_internal_locktmp() で nonblock の指定をしてたのをやめています。
