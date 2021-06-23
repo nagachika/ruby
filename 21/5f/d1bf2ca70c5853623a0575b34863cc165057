@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストで Reline.test_reset の呼び出しを finish_using_lib_reline というメソッドに切り出すリファクタリング。
