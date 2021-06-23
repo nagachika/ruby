@@ -1,0 +1,1 @@
+rb_io_maybe_wait()、rb_io_maybe_wait_readable()、rb_io_maybe_wait_writable() といった blocking fiber 用に Scheduler を利用した blocking IO のための C API を追加して、拡張ライブラリ socket で accept や send, sendmsg, recvfrom などの実装でこれを利用するようにしています。つまり socket が blocking fiber 対応するということで着々と下準備が進められていますね。
