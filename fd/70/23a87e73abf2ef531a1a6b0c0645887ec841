@@ -1,0 +1,1 @@
+拡張ライブラリ socket の 45e65f302b663b2c6ab69df06d3b6f219c1797b2 の変更で udp_send_internal() 戻り値の変換を RB_INT2NUM() を使っていたのを RB_SSIZE2NUM() に修正しています。
