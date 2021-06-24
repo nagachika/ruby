@@ -1,0 +1,1 @@
+gc.c の objspace_each_objects_try() で preprocessor の分岐で USE_RVARGC が定義されている時だけ実行する範囲を少し調整しています。 ASAN による検出を避けるためとのこと。 [Bug #18001]
