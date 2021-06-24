@@ -1,0 +1,1 @@
+45e65f302b663b2c6ab69df06d3b6f219c1797b2 で C API rb_wait_for_single_fd()/rb_io_wait_readable()/rb_io_wait_writable() などを deprecated としてマークしていましたがこれはやめています。
