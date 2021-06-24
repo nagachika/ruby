@@ -1,0 +1,1 @@
+b91b3bc7717a97f4f1cdf6131b1688e1958dcfed のクラス変数の inline cache 実装の再修正。cache 更新の処理の共通部分を関数として切り出しています。
