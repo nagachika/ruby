@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の rubygems を使ったテストの修正続き。tearown 時に Gem::DefaultUserInteraction.ui に対して close を呼んでいます。 fd leak があった模様。
