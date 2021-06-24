@@ -1,0 +1,1 @@
+ddb87396349fa4699153d5c4c7569c2e0186adfc の再修正。 Gem.configuration 全体を nil にクリアするようにしています。
