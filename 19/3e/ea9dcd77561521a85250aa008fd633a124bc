@@ -1,0 +1,1 @@
+c483aa8394fc26e341666db66938b1d6fc2cbb8e などの標準添付ライブラリ rdoc の rubygems を使ったのテスト修正の続き。 RDoc::Options#check_files を呼ぶ時に gem 用の一時ディレクトリに chdir してから呼ぶようにしています。
