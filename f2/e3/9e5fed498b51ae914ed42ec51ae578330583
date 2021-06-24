@@ -1,0 +1,1 @@
+c483aa8394fc26e341666db66938b1d6fc2cbb8e の標準添付ライブラリ rdoc の rubygems を使ったテストの変更の続き。 setup/teardown の処理の漏れを修正?
