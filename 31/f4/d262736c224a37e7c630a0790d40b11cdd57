@@ -1,0 +1,1 @@
+iseq_peephole_optimize() で nobj の type のチェックが漏れてて ADJUST が次にきてた時に不正なメモリアクセスをする可能性があったのを修正しています。 [ruby-core:104371] [Bug #18001]
