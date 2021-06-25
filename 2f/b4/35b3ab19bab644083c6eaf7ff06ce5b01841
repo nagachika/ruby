@@ -1,0 +1,1 @@
+String#hash の rdoc 用コメントに Object#hash への参照を追記しています。動機としては String#hash がプロセスをまたいで同じ値なら同じ hash 値になると思ってたけど違ったので、その注意書きのある Object#hash へのリンクを復活させたということみたいです。
