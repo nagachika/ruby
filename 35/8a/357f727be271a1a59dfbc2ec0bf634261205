@@ -1,0 +1,1 @@
+thread.c の rb_thread_wait_for_single_fd() や do_select() で共通の select(2) や ppoll(2) の戻り値をチェックする処理をマクロとして切り出すリファクタリング。
