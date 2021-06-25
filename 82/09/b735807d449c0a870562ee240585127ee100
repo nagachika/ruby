@@ -1,0 +1,1 @@
+複数 Ractor を使いはじめた時に rb_gc_enable() を呼ぶ前に GC.enable を true にしておくようにしています。 [ruby-core:104260] [Bug #17985]
