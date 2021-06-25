@@ -1,0 +1,1 @@
+tool/make-snapshot の rubygems などの require をファイルの先頭に移動しています。他の標準添付ライブラリが default gems 化されているので、その前に rubygems をロードしておくようにしているようです。
