@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテスト用の assertion メソッド assert_external_string_equal でエラー時のメッセージを追加しています。
