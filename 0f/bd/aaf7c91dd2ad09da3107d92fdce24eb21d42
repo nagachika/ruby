@@ -1,0 +1,1 @@
+random.c の rand_bytes() で rb_rand_bytes_int32() を直接呼び出していたのを rb_random_interface_t::get_bytes にセットされている関数を呼ぶようにしています。この構造体で実体の関数を変更できるようにしてたつもりだったのに決め打ちになってたってことですね。
