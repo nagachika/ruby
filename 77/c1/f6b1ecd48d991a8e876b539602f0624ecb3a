@@ -1,0 +1,1 @@
+標準添付ライブラリ racc の rdoc ディレクトリを doc に改名したのに追随して gemspec ファイルの spec.files のリストも修正しています。
