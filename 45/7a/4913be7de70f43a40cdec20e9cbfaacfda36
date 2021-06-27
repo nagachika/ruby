@@ -1,0 +1,1 @@
+include/ruby/internal/attr/deprecated.h の RBIMPL_ATTR_DEPRECATED() マクロ定義で __attribute__((__deprecated__)) が Coverity Scan による静的チェック時にうまくいかないことがあるみたいで、__COVERITY__ マクロが定義されている時には空の定義をするように preprocessor 条件を追加しています。
