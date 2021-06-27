@@ -1,0 +1,1 @@
+Dir.glob に File::FNM_CASEFOLD フラグを渡した時にこれを無視するようにしています。 [ruby-core:85448] [Bug #14456]
