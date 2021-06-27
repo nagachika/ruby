@@ -1,0 +1,1 @@
+標準添付ライブラリ racc に Object#funcall というメソッドを alias として追加していたのをやめています。
