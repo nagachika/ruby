@@ -1,0 +1,1 @@
+C API rb_str_conv_enc_opts() で変換元の文字列が ASCII 文字のみかどうかのチェック時に、引数で渡された変換元の Encoding と文字列オブジェクトに設定されてる Encoding が一致してない場合に enc_coderange_scan() を呼び出して文字列全体をチェックするようにしています。しかし一致してる時に呼ばれる is_ascii_string() もその先で enc_coderange_scan() を呼ぶ場合があるけど、文字列オブジェクトに coderange がキャッシュされてると内容と一致してないことがあるから信用してはいけないってことかな。
