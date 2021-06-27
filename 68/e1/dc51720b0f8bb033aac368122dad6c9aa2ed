@@ -1,0 +1,1 @@
+fb01411ae842dbcc16d18dec2216fa2719649dff で構造体 rb_ast_body_t のサイズ削減のために追加した関数 ast_line_count() で rb_ast_body_t::script_lines に Qfalse がセットされている時にチェックせずに T_ARRAY または T_FIXNUM として扱おうとしてしまってたので修正しています。構文エラーで parse 失敗してた時に起きうるみたいです。
