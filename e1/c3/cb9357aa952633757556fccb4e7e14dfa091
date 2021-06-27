@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb の test/unit のコマンドラインオプションに --seed が指定された時に自動的に --test_order に random が指定されたものとして扱うようにしています。
