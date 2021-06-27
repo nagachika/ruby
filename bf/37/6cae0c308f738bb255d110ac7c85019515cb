@@ -1,0 +1,1 @@
+e788481843d71030bd5dfee28fd0fc22dcae2f97 の変更で reline に必要になった require "io/wait" を追加しています。
