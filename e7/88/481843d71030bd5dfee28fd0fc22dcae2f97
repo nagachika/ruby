@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.empty_buffer? や Reline::ANSI.retrieve_keybuffer で IO.select を利用してたところを IO#wait_readable を利用するようにリファクタリングしています。これも blocking fiber 対応かな?
