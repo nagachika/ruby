@@ -1,0 +1,1 @@
+String#encode にキーワード引数 xml というのがあり、これを渡して 非 ASCII-Comptible な Encoding 間の変換をすると結果がおかしくなるという不具合を修正しています。一旦 UTF-8 への変換を中継するようにしているみたいです。 [ruby-dev:49493] [Bug #12052]
