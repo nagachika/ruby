@@ -1,0 +1,1 @@
+IO#each_byte, IO#each_codepoint でブロック内からその IO の close が呼ばれてしまうと SEGV する可能性があったので、ブロック起動(rb_yield() 呼び出し)後にすぐ読み込みできるかチェックする rb_io_check_byte_readable() の呼び出しを追加/移動しています。 [ruby-core:102634] [Bug #17661]
