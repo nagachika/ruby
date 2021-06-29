@@ -1,0 +1,1 @@
+キーワード引数を freeze した Hash として取り出す freeze_opt() を rb_get_freeze_opt() と改名して ENV.close の実装でも利用するようにリファクタリングしています。
