@@ -1,0 +1,1 @@
+tool/lib/minitest/unit.rb で環境変数 LEAK_CHECKER_TRACE_OBJECT_ALLOCATION がセットされているとオブジェクトの leak を ObjectSpace.trace_object_allocations を使って検出する処理が有効になるのを処理する範囲を狭めるようにしています。
