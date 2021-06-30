@@ -1,0 +1,1 @@
+benchmark やテスト、ドキュメントなどで Thread の配下に置かれる Thread::Queue や Thread::Mutex などのクラスをトップレベルの名前空間の定数のほうで参照してたのを Thread:: をつけるようにしています。
