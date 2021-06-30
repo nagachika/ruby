@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean のテストでこれも例外メッセージのテストで assert_equal で厳密一致をみてたのを assert_match でチェックを緩めています。
