@@ -1,0 +1,1 @@
+addr2line.c の uncompress_debug_section() で libz が使えなくて SUPPORT_COMPRESSED_DEBUG_LINE マクロが未定義の時に malloc(3) の呼び出しが消されるのに free(3) の呼び出しだけしていて、さらにその変数が初期化されてない可能性があったので不正なポインタで free(3) を呼び出す可能性があったので初期化を preprocessor 分岐の前に追加しています。 [ruby-core:103390] [Bug #17794]
