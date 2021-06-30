@@ -1,0 +1,1 @@
+3deb5d7113e1fd6e4b468e09464d524d390d811e で追加された blocking fiber のための Scheduler 対応した C API rb_io_maybe_wait()、rb_io_maybe_wait_readable()、rb_io_maybe_wait_writable() などのテストのための拡張ライブラリとテストを追加しています。
