@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean の DidYouMean::Correctable#original_message というメソッドで to_s メソッドを再定義されているのを迂回して super_method で取り出したメソッドを呼ぶようにしてましたが、mame さんが NameError に to_s メソッドを Module#prepend で上書きすることで動作する gem を作っているとのことでその影響を受けないように Method#owner が DidYouMean::Correctable になるまで super_method で辿ることを繰り返すようにしています。メタプログラミングの蠱毒みたいだ。
