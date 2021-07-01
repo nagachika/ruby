@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の ErrorHighlight::CoreExt という Module の定義に did_you_mean と協調して動くための hack についてのコメントを追記しています。
