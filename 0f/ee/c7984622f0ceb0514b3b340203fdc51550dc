@@ -1,0 +1,1 @@
+common.mk の dont-install-nodoc というターゲットで rbinstall.rb に --exclude=doc というオプションを渡すようにしています。 doc/ ディレクトリのインストールを除外するためですかね。
