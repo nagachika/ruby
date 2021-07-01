@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で minitest のテスト時に特別扱いして特定のテストを実行除外するようにしています。 error_highlight の導入によってエラーになるテストを除外しているようです。
