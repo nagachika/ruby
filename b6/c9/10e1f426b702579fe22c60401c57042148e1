@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の gemspec ファイルの required_ruby_version を 3.1.0.dev 以上に修正しています。3.1.0 がまだリリースされてないのでこうしないと master の ruby も弾かれてしまうため。
