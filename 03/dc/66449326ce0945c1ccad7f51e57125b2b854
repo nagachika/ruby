@@ -1,0 +1,1 @@
+gc.c の gc_marks_finish() で RGENGC_CHECK_MODE=4 のマクロ指定つきでビルドされた時に gc_marks_check() を呼び出す時に during_gc 変数を FALSE にしておくようにしています。異常終了してしまうことがあったようです。
