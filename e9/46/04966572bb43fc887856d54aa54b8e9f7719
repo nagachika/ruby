@@ -1,0 +1,1 @@
+error_squiggle.gem というのを標準添付ライブラリとして追加しています。NoMethodError などの NameError 例外時にそのカラム位置をマーカーで表示するようにするものみたいです。さらに gem_prelude.rb でプロセス起動時に require するようにしているので、デフォルトで有効になるようです。 [ruby-core:104109] [Feature #17930]
