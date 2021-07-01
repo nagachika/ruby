@@ -1,0 +1,1 @@
+8118d435d000adec3023a0ff509baa11cc73fabb の rb_warn_deprecated_to_remove() の定義でバージョン番号の指定の静的なチェックを追加しています。
