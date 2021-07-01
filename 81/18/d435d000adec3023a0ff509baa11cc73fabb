@@ -1,0 +1,1 @@
+rb_warn_deprecated() や rb_warn_deprecated_to_remove() など deprecation warning の出力する関数で出力するかどうかのチェックを deprecation_warning_enabled() という関数に切り出し、また警告出力部分も warn_deprecated() に切り出すリファクタリング。また rb_warn_deprecated_to_remove_at() で削除するバージョンの指定の引数の順序が変化しています。マクロの実装が少し複雑になってますね。 [ruby-core:101660] [Feature #17432]
