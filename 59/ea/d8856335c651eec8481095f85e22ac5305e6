@@ -1,0 +1,1 @@
+Kernel#open や IO.readlines、IO.read の rdoc 用コメントに pipe を使ってコマンド実行の入出力を扱う時に shell でメタキャラクタが解釈されうることを追記しています。
