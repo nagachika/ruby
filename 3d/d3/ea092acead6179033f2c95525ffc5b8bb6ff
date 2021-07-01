@@ -1,0 +1,1 @@
+定数探索の rb_const_search_from() で Module/Class の継承関係を辿る時のロジックを少し変更していて、prepend されている Module 内の探索を先にするため RCLASS_ORIGIN() が一致してないクラスはスキップする(後に出現するはずなので)ようにしています。 [ruby-core:104013] [Bug #17887]
