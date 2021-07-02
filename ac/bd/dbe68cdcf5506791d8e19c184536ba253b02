@@ -1,0 +1,1 @@
+e8c2b03ee145e10217a8ed58dbadfe30f9edbdfe で後置 rescue で例外を全て捕捉してましたが、TypeError のみ捕捉するように begin ... rescue を使うように修正しています。
