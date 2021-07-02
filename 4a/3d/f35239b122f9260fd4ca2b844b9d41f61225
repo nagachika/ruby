@@ -1,0 +1,1 @@
+ObjectSpace.each_object の実装で os_obj_of_i() というコールバック関数が引数に struct RVALUE の slot の 1つのエントリのサイズを渡しているのにそれを使わずに struct RVALUE * にキャストしてポインタ演算してたので VALUE にキャストして stride 引数の値を利用するようにしています。しかしどっちが可搬性があるのかな。
