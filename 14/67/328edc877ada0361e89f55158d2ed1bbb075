@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu でのテストに configure に --with-coroutine=pthread を渡すケースを追加しています。
