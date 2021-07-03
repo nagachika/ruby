@@ -1,0 +1,1 @@
+42130a64f02294dc8025af3a51bda518c67ab33d で追加された coroutine の pthread 版実装の coroutine/pthread/Context.c で pthread_cancel(3) を利用しているところで対象の thread が既に終了していると errno == ESRCH でエラーが返ってくる場合があるのでその時にはエラーを無視するようにしています。
