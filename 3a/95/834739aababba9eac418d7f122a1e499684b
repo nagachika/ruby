@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で RubyVM::AbstractSyntaxTree.of が SyntaxError を発生させた時に捕捉して無視するように修正しています。
