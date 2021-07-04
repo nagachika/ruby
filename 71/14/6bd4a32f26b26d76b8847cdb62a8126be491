@@ -1,0 +1,1 @@
+win32/Makefile.sub に copy 版 coroutine 実装のためのルールが残ってたので削除しています。
