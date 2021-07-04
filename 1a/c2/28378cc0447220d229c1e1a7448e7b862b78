@@ -1,0 +1,1 @@
+enc/depend で mkmf.rb で定義されているグローバル変数 $ignore_error を取り込んで rmdir コマンドなどのオプションに追加するようにしています。 enc/depend ってテンプレートになってて erb みたいに ruby のスクリプトが解釈されるんですね。
