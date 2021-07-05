@@ -1,0 +1,1 @@
+goruby のビルド時に golf_prelude.c をコンパイルしてリンクするのではなく goruby.c から #include で取り込むようにしています。 EXTOBJS を変更するのを避けるためみたいです。
