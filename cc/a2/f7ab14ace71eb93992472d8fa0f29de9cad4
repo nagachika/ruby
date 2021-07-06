@@ -1,0 +1,1 @@
+common.mk の main ターゲットの依存関係から programs を削除しています。 exts が program を包含しているので後に書くと拡張ライブラリを static link する設定の時に問題があるみたいです。
