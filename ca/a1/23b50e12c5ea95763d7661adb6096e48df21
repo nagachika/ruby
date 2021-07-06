@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で ruby スクリプトを解析してドキュメントを抽出する処理で ActiveSupport の Concern.included を利用したコードに対応するためブロックつきの included メソッドの呼び出しを検出するようにしています。
