@@ -1,0 +1,1 @@
+2488589b2f1a70dbfdc4155ac9bea3c533ef35d8 の続き? math.c の domain_error() の条件チェックも含めた domain_check_min() および domain_check_range() というマクロを追加しています。
