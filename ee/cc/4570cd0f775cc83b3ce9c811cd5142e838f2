@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の extconf.rb で zlib.h のヘッダの存在チェックに失敗した時にその前に実行した have_library で追加された $libs の変更を巻き戻すようにしています。
