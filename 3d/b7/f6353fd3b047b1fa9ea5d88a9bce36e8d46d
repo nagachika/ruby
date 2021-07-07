@@ -1,0 +1,1 @@
+コマンドラインオプションの --disable/--enable で feature 名をあいまい一致させる機能を有効にするマクロ AMBIGUOUS_FEATURE_NAMES が偽の時に未使用変数の警告が出ていたのを抑制するため (void) へのキャストを追加しています。
