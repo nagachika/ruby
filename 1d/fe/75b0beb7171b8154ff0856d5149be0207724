@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の ENTER() というマクロの定義時に RBIMPL_ATTR_MAYBE_UNUSED() が使えたら変数宣言にこれをつけるようにしています。
