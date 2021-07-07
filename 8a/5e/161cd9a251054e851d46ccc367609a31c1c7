@@ -1,0 +1,1 @@
+win32/Makefile.sub で rbconfig.rb を生成するルールで ENCSTATIC 変数の展開が漏れていたのを修正しています。 Windows で --with-static-linked-ext つきで configure するとビルドエラーになってたようです。 [ruby-core:104108] [Bug #17929]
