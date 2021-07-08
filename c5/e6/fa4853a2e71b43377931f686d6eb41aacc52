@@ -1,0 +1,1 @@
+configure で Fiber のための coroutine 実装の種類の選択のメッセージの出力タイミングを調整しています。
