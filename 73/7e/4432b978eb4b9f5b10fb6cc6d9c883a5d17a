@@ -1,0 +1,1 @@
+configure で -Wl,--no-as-needed というリンカオプションが利用可能か調べて可能なら追加するようにしています。 --enable-shared と --with-jemalloc を両方使うと新しい Linux 上のリンカでビルドエラーになることがあって、その対策みたいです。
