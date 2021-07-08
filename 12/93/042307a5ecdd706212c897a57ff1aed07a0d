@@ -1,0 +1,1 @@
+e4e416380d4b1b36ca1cc2e1e1ed993c9be694bb で GC.compact による移動した参照が machine stack 上にありそうだと移動できないのでキャンセルする処理で、gc.c の mark_current_machine_context() で mark_stack_locations() を呼んでたところを each_stack_location() を呼ぶように変更しています。 emscripten でのビルドのためらしいです。
