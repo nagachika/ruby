@@ -1,0 +1,1 @@
+conofigure で FreeBSD で --enable-load-relative が指定された時に適切なリンカオプションを設定するように修正しています。
