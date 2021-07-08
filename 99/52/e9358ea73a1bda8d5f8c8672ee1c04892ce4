@@ -1,0 +1,1 @@
+string.c の rb_str_export() および rb_str_export_locale() の実装をそれぞれ rb_str_export_to_enc() と rb_str_export_to_enc() に委譲するようにリファクタリングしています。結果的には同じ処理だと思います。
