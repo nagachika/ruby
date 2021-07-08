@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.load_from_binary でバイナリフォーマットからのロード時に一時的に使われる Hash が参照がされてなくて GC で解放されてしまう可能性があったようなので ibf_load_code() で pinned_list_store() を呼び出して load が終わるまで保護するようにしています。 [ruby-core:104259] [Bug #17984]
