@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の strio_extract_modeenc() で警告除去のため明示的なキャストを追加しています。
