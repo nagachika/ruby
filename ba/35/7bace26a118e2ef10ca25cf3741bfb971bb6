@@ -1,0 +1,1 @@
+rubyspec の RbConfig::CONFIG['UNICODE_VERSION'] や RbConfig::CONFIG['UNICODE_EMOJI_VERSION'] の内容についてのテストを 3.1 以降変更するように version guard を追加しています。
