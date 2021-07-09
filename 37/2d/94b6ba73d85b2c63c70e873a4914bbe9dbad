@@ -1,0 +1,1 @@
+configure の --with-jemalloc オプション指定時の LIBRUBYARG_SHARED 変数指定の修正。
