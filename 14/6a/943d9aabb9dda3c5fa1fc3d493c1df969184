@@ -1,0 +1,1 @@
+ba357bace26a118e2ef10ca25cf3741bfb971bb6 の rubyspec のテストの対応で ruby_version の Range の書きかたをまちがってて 3.0 系のテストがなくなってしまっていたので修正しています。
