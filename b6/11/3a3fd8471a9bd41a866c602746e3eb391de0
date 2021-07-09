@@ -1,0 +1,1 @@
+common.mk で Unicode のダウンロードするデータファイルのバージョンを 13.0.0 に、絵文字のバージョンを 13.0 に更新しています。また update-unicode-ucd-emoji-files というターゲットを追加して絵文字関連のデータの更新を update-unicode ターゲットから分離しています。
