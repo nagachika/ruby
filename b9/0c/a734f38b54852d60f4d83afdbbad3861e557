@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境でのビルドに --with-coroutine=pthread を渡していたのをやめています。
