@@ -1,0 +1,1 @@
+gc.c で LIST_HEAD というマクロが sys/queue.h というヘッダで定義されていることがあって ccan/list で定義されるものと衝突するので事前に #undef しています。
