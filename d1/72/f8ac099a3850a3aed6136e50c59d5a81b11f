@@ -1,0 +1,1 @@
+test/fiddle/test_memory_view.rb および test/fiddle/test_pinned.rb で拡張ライブラリ fiddle のビルドに失敗していて require が LoadError になる場合に rescue してましたがそのまま無視しているだけだったのでトップレベルの return でテストクラスの定義自体をスキップしてテスト実施しないようにしています。
