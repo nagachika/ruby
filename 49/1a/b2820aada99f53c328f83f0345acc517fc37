@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストで require "reline" が LoadError を発生させた時に、fiddle がビルドされていない場合に Reline モジュール自体は定義されてしまっているケースがあるので remove_const で削除しておくようにしています。
