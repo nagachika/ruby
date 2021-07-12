@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date._parse、Date.parse および DateTime.parse の rdoc 用コメントで強調のために **bold** のように囲んでいたのが markup になってなかったので *bold* のように "*" 1つで囲むように修正しています。
