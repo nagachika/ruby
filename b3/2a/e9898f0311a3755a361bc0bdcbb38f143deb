@@ -1,0 +1,1 @@
+object.c で string.c の rb_str_escape() の宣言をしていたのを internal/string.h に宣言を追加しておいてこれを #include するようにしています。
