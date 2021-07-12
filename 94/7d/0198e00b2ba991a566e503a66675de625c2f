@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の builtin command info で環境変数の LANG および LC_ALL の値を表示するようにしています。
