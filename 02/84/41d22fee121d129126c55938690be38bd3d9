@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Windows 以外の環境で fd が socket かどうかチェックするために fstat(2) を呼ぶのを rsock_init_sock() から bsock_s_for_fd() に移動して、不明な fd から Socket オブジェクトを作る時にだけチェックを実施するようにしているようです。
