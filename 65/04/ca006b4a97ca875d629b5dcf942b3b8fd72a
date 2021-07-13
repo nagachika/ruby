@@ -1,0 +1,1 @@
+コマンドラインオプション --dump=parsetree や --dump=parsetre_with_comment で構文木をダンプする時に NODE の nd_node_id() で取得した ID も表示するように追加しています。
