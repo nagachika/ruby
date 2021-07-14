@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の --message-filter 機能で改行コードが CR+LF だった時に CR を削るようにしています。
