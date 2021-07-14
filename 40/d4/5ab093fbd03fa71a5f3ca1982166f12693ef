@@ -1,0 +1,1 @@
+bb868f4814c09c978f20f224c5e99656bc8b9bee の拡張ライブラリ fiddle で MemoryView を有効にするかどうかの判定を HAVE_RUBY_MEMORY_VIEW_H マクロによるチェックに再度変更しています。
