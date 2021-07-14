@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::MemoryView で 10e26cfa76468dea6f828dbe8031b5ffcff543cb の変更で struct memview_data::view::obj が Qnil の状態を未初期化として扱うようにしたので Fiddle::MemoryView#initialize の実装で例外発生時に Qnil をセットしておくように修正しています。
