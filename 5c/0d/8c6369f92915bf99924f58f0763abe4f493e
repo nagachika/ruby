@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::CStruct.offsetof メソッドを追加して構造体内のレイアウト上での先頭からの位置を返すようにしています。 https://github.com/ruby/fiddle/pull/83
