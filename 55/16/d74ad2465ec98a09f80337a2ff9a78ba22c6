@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストに Windows 版での Fiddle.win32_last_socket_error を利用するテストを追加しています。
