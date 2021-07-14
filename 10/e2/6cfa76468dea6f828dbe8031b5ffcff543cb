@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に Fiddle::MemoryView#release メソッドおよび Fiddle::MemoryView.export メソッドを追加しています。release は対応するメモリ領域を明示的に解放し、export はブロックつきで呼ぶとそのブロック内でのみメモリ領域を確保する MemoryView を作成するようです。 https://github.com/ruby/fiddle/issues/79 https://github.com/ruby/fiddle/pull/80
