@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::MemoryView#to_s というメソッドを追加しています。 MemoryView が示してるメモリ内容をそのままマッピングした文字列オブジェクトを返すみたいです。 https://github.com/ruby/fiddle/issues/74 https://github.com/ruby/fiddle/pull/78
