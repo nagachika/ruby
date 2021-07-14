@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb を --message-filter オプションつきで実行してコミットメッセージの内容をフィルタリングする機能で GitHub の pull request の参照を URL に展開するようにしています。
