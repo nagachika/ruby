@@ -1,0 +1,1 @@
+同じく拡張ライブラリ fiddle の d1eeb9fec953c41ebaf312d7a56948bca43e9f93 で追加したテストで Fiddle::Function.new に渡す型の引数で TYPE_LONG を負の値にして渡すように変更しています。
