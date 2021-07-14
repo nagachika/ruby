@@ -1,0 +1,1 @@
+rb_obj_is_fiber() の宣言を internal/cont.h から include/ruby/internal/intern/cont.h に移動して公開関数にしています。
