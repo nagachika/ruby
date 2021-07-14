@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の builtin command measure の実装の設定可能な type について lib/irb/init.rb で設定している MEASURE_PROC のキーが対応してる旨コメントを追記しています。
