@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の d1eeb9fec953c41ebaf312d7a56948bca43e9f93 で追加したテストで dlopen を呼んでたところを Fiddle.dlopen と receiver を明示するように修正しています。
