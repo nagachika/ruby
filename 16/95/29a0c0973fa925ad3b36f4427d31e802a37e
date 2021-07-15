@@ -1,0 +1,1 @@
+昨日の bb868f4814c09c978f20f224c5e99656bc8b9bee や 40d45ab093fbd03fa71a5f3ca1982166f12693ef で拡張ライブラリ fiddle で MemoryView が使えるかどうかの判定の方法を変更してた続きで HAVE_RUBY_MEMORY_VIEW_H でヘッダがあるかどうかで分岐するようにしてさらに不要になる関数の定義などもこの preprocessor 分岐で囲むようにしています。 https://github.com/ruby/fiddle/pull/86
