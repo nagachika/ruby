@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に Fiddle::Handle#to_ptr というメソッドを新規追加しています。その名の通り共有ライブラリを dlopen した struct dl_handle の ptr を Fiddle::Pointer で wrap して返すメソッドのようです。 https://github.com/ruby/fiddle/pull/87
