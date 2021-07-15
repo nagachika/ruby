@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Handle#file_name というメソッドを新規追加しています。その名の通り実行環境で可能であれば対象のライブラリのファイル名を返すようです。 https://github.com/ruby/fiddle/pull/88
