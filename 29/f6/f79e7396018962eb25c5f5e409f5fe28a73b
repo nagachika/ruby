@@ -1,0 +1,1 @@
+include/ruby/internal/memory.h の ruby_nonempty_memcpy() という inline 関数の定義/宣言を RBIMPL_SYMBOL_EXPORT_BEGIN() と RBIMPL_SYMBOL_EXPORT_END() で囲んで明示的に公開関数にするようにしています。 [ruby-core:103323] [Bug #17788]
