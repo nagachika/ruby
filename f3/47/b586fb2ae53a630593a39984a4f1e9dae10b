@@ -1,0 +1,1 @@
+さらに 67897762cf3cabad99effd636b50a2db26fb0f3f で追加したテストを修正して Fiddle::Handle#file_name が nil を返した時に許容するようにしています。そのかわり macOS でテストメソッド自体の定義を省略していたのはやめています。
