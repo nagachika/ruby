@@ -1,0 +1,1 @@
+include/ruby/encoding.h から rb_interned_id_p() という存在しない関数の宣言を削除しています。
