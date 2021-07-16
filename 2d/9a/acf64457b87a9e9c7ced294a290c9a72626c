@@ -1,0 +1,1 @@
+include/ruby/encoding.h から rb_enc_casefold() という存在しない関数の宣言を削除しています。
