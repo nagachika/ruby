@@ -1,0 +1,1 @@
+fork(2) の呼び出し時の rb_thread_atfork() の呼び出しを rb_f_fork() や pipe_open()、rb_daemon() などから個別に呼んでたのをその直前の rb_fork_ruby() の中で呼ぶようにしています。リファクタリングですが ruby レベルで fork 時のコールバックを設定できるようにしようというチケットがあって、その地均しのようです。 [ruby-core:103400] [Feature #17795]
