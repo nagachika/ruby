@@ -1,0 +1,1 @@
+Struct が生成したクラスのスラスメソッドに keyword_init? というメソッドを追加して、Struct からクラスを生成する時に keyword_init: true が渡されたかどうかを ruby レベルで取得できるようにしています。 [ruby-core:104410] [Feature #18008]
