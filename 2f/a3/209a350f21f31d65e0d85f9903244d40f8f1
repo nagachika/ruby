@@ -1,0 +1,1 @@
+67897762cf3cabad99effd636b50a2db26fb0f3f で追加した拡張ライブラリ fiddle の Fiddle::Handler#file_name のテストでファイルシステムが大文字小文字を無視する場合は casecmp? でチェックするように修正しています。
