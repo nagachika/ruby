@@ -1,0 +1,1 @@
+1a637544166eca6b917fb6f32baeb771f4914b7a で追加した Struct で生成したクラスの keyword_init? メソッドは keyword_init キーワード引数が指定されずに生成された場合は nil を返すようにしています。 [ruby-core:104410] [Feature #18008]
