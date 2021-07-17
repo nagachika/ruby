@@ -1,0 +1,1 @@
+bundler の bundle plugin install --help で bundle install のヘルプメッセージが表示されてしまっていたのを修正。
