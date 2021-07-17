@@ -1,0 +1,1 @@
+IO.read、IO.foreach、IO.binread、IO.write、IO.binwrite などのメソッドの rdoc 用コメントの call-seq に File を receiver として呼ぶ形式も追加して、パイプが使えるのは IO を receiver として呼んだ場合と明記しています。そういう実装なんでしたっけ。File 以外の IO を継承したクラスでもパイプは無効なんだっけ。
