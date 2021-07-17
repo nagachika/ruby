@@ -1,0 +1,1 @@
+C API rb_iterate() を DEPRECATED_BY() つきで宣言して利用時に警告が出るようにしています。 [ruby-core:104520] [Misc #18025]
