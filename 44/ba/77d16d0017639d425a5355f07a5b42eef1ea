@@ -1,0 +1,1 @@
+bundler の生成するリポジトリでの Gemfile.lock ファイルの PLATFORM に arm64-darwin-20 を追加しています。 M1 Mac での対応ですかね。
