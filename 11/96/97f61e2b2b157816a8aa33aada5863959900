@@ -1,0 +1,1 @@
+rb_gc_force_recycle() で mark フラグを記録している bitmap のクリアする条件が判定していたのを修正しています。 [ruby-core:104443] [Bug #18014]
