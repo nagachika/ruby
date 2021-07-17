@@ -1,0 +1,1 @@
+Hash のメソッド群 except, merge, reject, select, slice, transform_values など新しい Hash オブジェクトを返すものが compare_by_identity でキーの同一性で比較するようにした Hash に対しても通常の Hash を返してしまっていたので、receiver の compare_by_identity のフラグを保持した Hash を返すようにしています。 [ruby-core:103071] [Bug #17757]
