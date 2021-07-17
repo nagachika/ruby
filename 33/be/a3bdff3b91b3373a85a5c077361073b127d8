@@ -1,0 +1,1 @@
+1a637544166eca6b917fb6f32baeb771f4914b7a の Struct が生成したクラスのクラスメソッド keyword_init? で Struct.new に明示的に keyword_init キーワード引数に ture/false 以外のオブジェクトが渡されてた場合に対応するように? しています。 [ruby-core:104410] [Feature #18008]
