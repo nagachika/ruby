@@ -1,0 +1,1 @@
+Integer.try_convert メソッドを追加しています。今までなかったんだっけ。 to_int による変換が可能なら変換して、なかったら nil を返します。 [ruby-core:89301] [Feature #15211]
