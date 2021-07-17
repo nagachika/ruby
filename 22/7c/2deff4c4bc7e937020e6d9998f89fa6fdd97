@@ -1,0 +1,1 @@
+bundler の依存関係解決時に gemspec の development_dependency と Gemfile に書かれた依存関係が重複してた時の処理に問題があったようで修正していますがよくわからない。
