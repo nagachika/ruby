@@ -1,0 +1,1 @@
+irb のテストで irb_info コマンドで Windows 版の時 code page (chcp コマンドの出力)も出力するようにしています。
