@@ -1,0 +1,1 @@
+4a627dbdfd1165022fa9e716ba845e937b03773d の続きで gc_page_sweep() に struct heap_page::free_slots と freelist の要素数が一致していることを確認するチェックを RGENGC_CHECK_MODE が真の時に実行するようにしています。  [ruby-core:104443] [Bug #18014]
