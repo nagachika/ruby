@@ -1,0 +1,1 @@
+rb_funcallv() および rb_funcallv_kw() に VM_ASSERT() で現在の Thread が GVL を確保していることを確認するようにしています。拡張ライブラリでうっかり GVL 解放中に ruby の呼び出しがありえる API を呼んだりするとありえるか。
