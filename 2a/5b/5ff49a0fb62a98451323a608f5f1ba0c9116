@@ -1,0 +1,1 @@
+503fa1620c1da74a15831bf864320cae4b17dc56 と同様に eed5e8f796ab18e2e0a436dab83e35504ae3ded0 の変更に追随して Warning[] の機能のテストでも experimental の警告を出力させるのに 1行 pattern match を利用してたので Kernel#warn の category キーワード引数を利用するように書き換えています。
