@@ -1,0 +1,1 @@
+eed5e8f796ab18e2e0a436dab83e35504ae3ded0 の変更に追随して rubyspec の -W オプションのテストで experimental の警告を出力するのに 1行 pattern match の構文を利用していたのを Kernel#warn にキーワード引数で category: :experimental を渡すことで実現するように書き換えています。
