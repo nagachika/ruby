@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Buffering に getbyte メソッドを追加しています。 OpenSSL::SSL::SSLSocket が通常の Socket と同じメソッドを備えるようにするため。
