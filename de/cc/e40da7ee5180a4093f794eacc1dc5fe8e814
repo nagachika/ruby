@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::BN.new と OpenSSL::BN#to_s の rdoc 用コメントに説明を追記しています。
