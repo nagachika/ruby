@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::RSA.generate の実装も C 実装から ruby 実装に移動しています。
