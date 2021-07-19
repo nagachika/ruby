@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL  1.1.1 で追加された EVP_PKEY_check() という関数を一部の OpenSSL::PKey の check_key メソッドで利用するようにしています。
