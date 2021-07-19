@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::BN#set_flags と OpenSSL::BN#get_flags メソッドを新規追加しています。OpenSSL の side channel attack の対策としてフラグを設定する機能が追加されたようでそれを ruby レベルでも使えるようにしたということみたいです。
