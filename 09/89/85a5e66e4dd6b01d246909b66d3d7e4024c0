@@ -1,0 +1,1 @@
+拡張ライブラリ OpenSSL::PKey::DH.generate と OpenSSL::PKey::DH#generate_key! メソッドを C 実装から ruby 実装に移動しています。
