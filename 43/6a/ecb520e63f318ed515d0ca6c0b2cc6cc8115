@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の ossl_generate_cb_2() という関数が各種 PKey の generate メソッドの ruby 実装への移動で不要になったので削除しています。
