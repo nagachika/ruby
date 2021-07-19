@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::RSA#private_encrypt と #public_encrypt、#private_decrypt と #public_decrypt メソッドを新規追加しています。 それぞれ RSA の公開鍵と秘密鍵による暗号化/復号を簡単にできるようにしています。
