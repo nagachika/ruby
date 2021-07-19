@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で TLS_method() という関数を利用するのを OpenSSL 利用時のみにしていましたが LibreSSL 利用時にも使うようにしています。
