@@ -1,0 +1,1 @@
+拡張ライブラリ racc の extconf.rb に rb_block_call() の存在チェックを追加しています。
