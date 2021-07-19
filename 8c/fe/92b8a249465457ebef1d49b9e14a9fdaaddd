@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::PKey#sign と #verify に Hash でオプションを引数として渡せるようにしています。キーワード引数じゃないんだなぁ。
