@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::{DH,DSA,RSA} の public_key メソッドの実装を ruby 実装に移動しています。
