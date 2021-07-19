@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC#dsa_sign_asn1 と #dsa_verify_asn1 メソッドを ruby 実装に移動して 4ebff35971d499f4ddd13f48bff0444f77d63421 で追加した sign_raw と verify_raw を利用するようにしています。
