@@ -1,0 +1,1 @@
+rubyspec の C API のテストのための拡張ライブラリで fd0df9c4fb36597e5e3f500670b29dbd77a14eca で deprecated にした C API rb_iterate() のかわりに rb_block_call() を利用するように変更しています。
