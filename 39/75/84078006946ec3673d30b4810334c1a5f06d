@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で rb_iterate() を使っているところが残ってたので rb_block_call() を使うように書きかえています。
