@@ -1,0 +1,1 @@
+load.c の features_index_add_single() で st_lookup() の引数に直接 & 演算子によるポインタ化とキャストしたものを渡してたのを一旦 st_data 型の変数を使うようにしています。
