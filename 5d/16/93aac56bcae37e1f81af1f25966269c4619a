@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey の各種クラスの to_text メソッドの実装を共通の親クラス OpenSSL::PKey::PKey に定義して EVP_PKEY_print_xxxx() という関数群を利用するように変更しています。OpenSSL 1.0.0 以降で追加された API とのこと。
