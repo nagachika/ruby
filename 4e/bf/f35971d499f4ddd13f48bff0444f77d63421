@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::PKey::PKey#sign_raw および #verify_raw、#verify_recover メソッドを追加しています。あらかじめ渡すデータを hash 計算したものを渡すことを前提とした API みたいです。
