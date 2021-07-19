@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に 8cfe92b8a249465457ebef1d49b9e14a9fdaaddd で OpenSSL::PKey::PKey#sign や #verify の options 引数を追加した時の rdoc 用コメントに追記したバージョンを 2.3 から 3.0 に変更しています。次のリリース時に openssl.gem のバージョンを 3.0 系にすることにしたみたいです。
