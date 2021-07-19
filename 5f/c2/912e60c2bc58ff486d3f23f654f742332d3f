@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DSA#syssign, #sysverify の実装も ruby 実装に移動して sign_raw と verify_raw を利用するように書きかえています。
