@@ -1,0 +1,1 @@
+object.c の rb_opts_exception_p() 内の配列変数宣言に const 修飾子を追加しています。
