@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で Thread safe にするためのロック取得のためのコールバック群の利用を CRYPTO_lock() という関数の存在チェックで制御していたのを LIBRESSL_VERSION_NUMBER と OPENSSL_VERSION_NUMBER だけで判定するように変更しています。
