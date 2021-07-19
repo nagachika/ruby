@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket の例外発生時に例外メッセージに peer の IPアドレスを含めるようにしています。
