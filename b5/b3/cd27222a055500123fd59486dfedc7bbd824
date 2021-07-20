@@ -1,0 +1,1 @@
+標準添付ライブラリ racc の lib/racc/rdoc/grammar.en.rdoc というドキュメントのファイルを削除しています。また gemspec ファイルの spec.files に doc/en/grammar2.en.rdoc というファイルパスの指定を追加しています。重複してドキュメントファイルが含まれてたみたいですね。
