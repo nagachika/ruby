@@ -1,0 +1,1 @@
+Exception#full_message のキーワード引数 highlight に true/false/nil 以外が渡された時の例外発生を rb_bool_expected() という関数を利用するようにして、また rb_bool_expected() のメッセージも少し変更しています。
