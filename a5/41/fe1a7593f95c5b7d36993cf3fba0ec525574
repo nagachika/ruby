@@ -1,0 +1,1 @@
+doc/method_documentation.rdoc を doc/documentation_guide.rdoc というファイル名に変更したうえで内容も書き換えてるっぽいです。 https://github.com/ruby/ruby/pull/4600
