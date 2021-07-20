@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ racc の gemspec ファイルの spec.files から 7217f60bb344d2e97fb6bf3ae6cf29c7f5ca7dbf で削除した lib/racc/pre-setup も削除しています。
