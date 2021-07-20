@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ racc の gemspec ファイルの spec.files から sample/ の中の *.y ファイルや Rakefile や JRuby 向けの .java のファイルを削除しています。
