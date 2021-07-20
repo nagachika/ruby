@@ -1,0 +1,1 @@
+error.c の exc_full_message() で switch 文の例外発生させる rb_bool_expected() のあとに break がないため警告が出てたので /* fall through */ というコメントを追加しています。しかしこれは rb_bool_expected() から戻ってこないことがわかっているからなので break を入れるか UNREACHABLE() を書くのが良いのではないかと。
