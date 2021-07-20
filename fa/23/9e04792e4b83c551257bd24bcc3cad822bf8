@@ -1,0 +1,1 @@
+common.mk の update-bundled_gems のコマンドで $(IFCONFIG) の変数展開をダブルクオートで囲んでいたのをやめています。unneeded とありますがこれって囲んでても問題はないですよね?
