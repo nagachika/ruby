@@ -1,0 +1,1 @@
+irb の builtin command irb_info で Windows 版の時に chcp の出力を表示する時に、出力メッセージが英語じゃない場合にそなえて切り出すための正規表現のマッチ条件を緩めています。
