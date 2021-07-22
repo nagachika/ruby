@@ -1,0 +1,1 @@
+util.c の ruby_scan_hex() という関数で strchr(3) を使った実装を ruby_digit36_to_number_table という配列テーブルを利用した実装に変更しています。
