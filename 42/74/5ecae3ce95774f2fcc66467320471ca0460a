@@ -1,0 +1,1 @@
+rubyspec の IO#close_on_exec= の戻り値をチェックしているテストを削除しています。 [ruby-core:102998] [Feature #17745]
