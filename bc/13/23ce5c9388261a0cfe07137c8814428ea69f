@@ -1,0 +1,1 @@
+object.c の rb_check_to_integer() でオブジェクトのタイプのチェックに RB_INTEGER_TYPE_P() を使うようにリファクタリングしています。
