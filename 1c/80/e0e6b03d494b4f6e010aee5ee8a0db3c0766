@@ -1,0 +1,1 @@
+gems/bundled_gems の typeprof のバージョンをコミットハッシュ指定にしています。 rbs の 1.3 の対応のために typeprof にも変更が必要になったみたいです。
