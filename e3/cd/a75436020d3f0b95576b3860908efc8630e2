@@ -1,0 +1,1 @@
+hash.c の rb_hash_stlike_update() で ar_update() や st_update() に渡す key が元々 st_data_t なのに st_data_t へのキャストが書かれたままになってたので不要なキャストを削っています。
