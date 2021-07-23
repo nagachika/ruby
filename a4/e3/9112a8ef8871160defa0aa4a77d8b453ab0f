@@ -1,0 +1,1 @@
+util.c の ruby_scan_oct() と ruby_scan_hex() の scan したサイズを返す時に int にキャストしていたのを引数の型にあわせて size_t にキャストするように修正しています。
