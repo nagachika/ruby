@@ -1,0 +1,1 @@
+rb_proc_call_with_block() もほぼ同じ内容の rb_proc_call_with_block_kw() に RB_NO_KEYWORDS を最後の引数を渡して委譲するようにリファクタリングしています。
