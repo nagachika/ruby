@@ -1,0 +1,1 @@
+sprintf.c の quad_t 型の定義についての preprocessor 分岐を整理して不要な分岐を消しています。
