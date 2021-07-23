@@ -1,0 +1,1 @@
+range.c の sym_each_i() で rb_yield() が使われていたのをほぼ同じ内容の each_i() に委譲するようにしています。
