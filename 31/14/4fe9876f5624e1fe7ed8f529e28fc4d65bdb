@@ -1,0 +1,1 @@
+gc.c の gc_verify_internal_consistency_() (typo ではない) で objspace_each_objects() を使って全オブジェクトについて呼び出してたのを heap_pages_sorted について直にループして解放済みの slot についても verify_internal_consistency_i() を呼び出すようにしています。コミットログによると tomb heap を対象にするためみたいです。
