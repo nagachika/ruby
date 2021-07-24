@@ -1,0 +1,2 @@
+irb の字句解析器 IRB::RubyLex で :1 のように数字が後続する Symbol リテラルを許容するようにしているようです。が、数字だけの Symbol リテラルってありでしたっけ? 試してみたら SyntaxError になったけど。
+と、思ったけど https://github.com/ruby/irb/issues/256 をみると irb で parse が終わらないために評価が始まらなくてそもそも SyntaxError にすらできないという不具合の修正みたいです。
