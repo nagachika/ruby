@@ -1,0 +1,1 @@
+ObjectSpace.define_finalizer の実装で同じ finalizer を登録しないようにするチェックで rb_funcall() を利用していたのを直接 rb_equal() を呼ぶようにしています。
