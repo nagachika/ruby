@@ -1,0 +1,1 @@
+同じく gc.c の finalize_list() で heap_page_add_freeobj() の引数に渡すためのオブジェクトの slot が所属している page を GET_HEAP_PAGE() で取得していたのを既に変数に格納済みのものを使いまわすようにリファクタリングしています。
