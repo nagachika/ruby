@@ -1,0 +1,1 @@
+gc.c の run_finalizer() で rb_execution_context_t::errinfo の操作に rb_set_errinfo() と rb_errinfo() という API を利用していたのを、ここで扱う ec を変数として持っているので直接構造体のメンバーにアクセスするように変更しています。毎回 GET_EC() するのが無駄だからかな?
