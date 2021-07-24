@@ -1,0 +1,1 @@
+gc.c の finalize_list() の中で引数 zombie のオブジェクトの struct RBasic::flags を 0 にクリアしていたのをやめています。この後で呼んでいる obj_free_object_id() の中でもクリアされているので冗長だからみたいです。
