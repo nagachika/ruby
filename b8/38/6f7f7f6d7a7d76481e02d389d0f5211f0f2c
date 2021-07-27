@@ -1,0 +1,1 @@
+24e5f1c982966c379220b1bbb26b4e0320180fa1 の続き。 24e5f1c982966c379220b1bbb26b4e0320180fa1 の変更は revert してかわりに tool/lib/vcs.rb で Kernel#system を上書きしてるのをやめています。
