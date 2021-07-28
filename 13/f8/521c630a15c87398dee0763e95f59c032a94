@@ -1,0 +1,1 @@
+blocking fiber を使った時の Thread#join がハングアップする可能性があった不具合の修正。意図しないタイミングで ruby メソッド呼び出しの処理が入る可能性があって rb_thread_t::status をチェックするだけだと不十分な可能性があったようで rb_thread_t::value もチェックするようにしています。
