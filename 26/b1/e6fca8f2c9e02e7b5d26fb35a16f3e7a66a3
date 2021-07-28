@@ -1,0 +1,1 @@
+test/ruby/enc/test_emoji_breaks.rb を新しい Unicode 絵文字のデータに対応して修正しています。 [ruby-core:104540] [Bug #18028]
