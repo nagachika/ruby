@@ -1,0 +1,1 @@
+tool/intern_ids.rb というスクリプトを追加して defs/id.def を元に ID の static 変数宣言を生成できるようにしています。
