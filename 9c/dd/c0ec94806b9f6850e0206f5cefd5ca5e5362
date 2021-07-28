@@ -1,0 +1,1 @@
+rubygems から標準添付ライブラリ shellwords を require するのを実際に使う直前まで遅延させるようにしています。
