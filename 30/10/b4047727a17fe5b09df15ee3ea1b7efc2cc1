@@ -1,0 +1,1 @@
+test/ruby/enc/test_emoji_breaks.rb で Unicode の絵文字バージョンのチェックも追加しています。
