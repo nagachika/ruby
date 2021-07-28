@@ -1,0 +1,1 @@
+bundler に Bundler::Source::Rubygems#no_remotes? というメソッドを新規追加しています。
