@@ -1,0 +1,1 @@
+bundler に Bundler::SourceList#implicit_global_source? というメソッドを新規追加しています。
