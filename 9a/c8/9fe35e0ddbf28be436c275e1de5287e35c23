@@ -1,0 +1,1 @@
+bundle install --quiet で警告は表示されるように変更しています。
