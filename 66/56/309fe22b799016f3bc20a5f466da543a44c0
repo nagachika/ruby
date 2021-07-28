@@ -1,0 +1,1 @@
+1cf111774f03c6d1ddba735cb8cc79483f16f699 の標準添付ライブラリ uri の Ractor 対応の定数の宣言を lib/uri.rb から lib/uri/common.rb に移動しています。並列テスト時に失敗することがあったそうで、なんでだろ。
