@@ -1,0 +1,1 @@
+bundler でも require "shellwords" を実際に必要になるタイミングまで遅延させるようにしています。
