@@ -1,0 +1,1 @@
+bundler のテストで生成する Gemfile に source がないものを全て追加するようにしています。 source がない Gemfile を deprecate にしたいみたいです。
