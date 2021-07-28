@@ -1,0 +1,1 @@
+1cf111774f03c6d1ddba735cb8cc79483f16f699 で(再)追加された標準添付ライブラリ uri の Ractor 対応のテストで assert_ractor を利用するように書きかえています。
