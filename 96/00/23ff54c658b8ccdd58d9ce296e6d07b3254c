@@ -1,0 +1,1 @@
+rubygems で不要になってた require "resolv" を削除しています。
