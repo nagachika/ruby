@@ -1,0 +1,1 @@
+enum.c と transcode.c に毎回 rb_intern() していた識別子を static 変数を宣言して Init_xxx() 関数で初期化するようにしています。
