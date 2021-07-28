@@ -1,0 +1,1 @@
+同じく rubygems で不要になっていた require "base64" を削除しています。
