@@ -1,0 +1,1 @@
+defs/id.def に __recursive_key__ を追加して thread.c の Init_Thread() で static 変数に初期化してたのを組み込みの変数を利用するようにしています。
