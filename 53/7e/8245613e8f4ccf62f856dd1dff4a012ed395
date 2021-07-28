@@ -1,0 +1,1 @@
+transcode.c の Init_transcode() で static 変数の Symbol を作るのに rb_intern() を使っていたのを rb_intern_const() を利用するようにリファクタリングしています。
