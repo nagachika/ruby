@@ -1,0 +1,1 @@
+require "enumerator" のような拡張ライブラリの require が既に load 済みの時に $LOADED_FEATURES には "enumerator.so" として登録されているので拡張子が ".rb"  のファイルだけ探せばいいのに毎回拡張ライブラリ用の拡張子のほうも検索しているのを抑制するようにしています。 [ruby-core:68290] [Bug #10902]
