@@ -1,0 +1,1 @@
+拡張ライブラリ readline の gemspec ファイルの spec.summary, spec.description および spec.post_install_message の説明の英文を少し変更しています。また no-break space というマルチバイト文字が混じってたのを削っています。
