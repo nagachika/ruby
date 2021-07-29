@@ -1,0 +1,1 @@
+hash.c の rb_hash_delete_entry() につけられたコメントの英文法修正。
