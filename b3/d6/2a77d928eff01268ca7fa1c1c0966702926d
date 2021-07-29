@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の multi Thread での利用時に race condition が発生して SEGV する可能性があったので struct zstream に Mutex オブジェクトのためのメンバー mutex を追加してブロック呼び出し時にこれで排他処理するようにしています。 [ruby-core:103449] [Bug #17803]
