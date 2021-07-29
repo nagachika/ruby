@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で標準添付ライブラリ optparse の同期時の特殊処理として upstream の doc を doc/optparse へコピーするようにしています。
