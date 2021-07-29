@@ -1,0 +1,1 @@
+標準添付ライブラリ getoptlong の gemspec ファイルから spec.bindir と spec.executables を削除しています。
