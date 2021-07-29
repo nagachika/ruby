@@ -1,0 +1,1 @@
+13f8521c630a15c87398dee0763e95f59c032a94 の blocking Fiber 利用時の Thread#join のハングアップ修正を revert しています。 Solaris での CI が失敗したため。
