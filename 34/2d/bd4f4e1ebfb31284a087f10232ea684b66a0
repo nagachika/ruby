@@ -1,0 +1,1 @@
+internal/array.h から include/ruby/internal/core/rarray.h で宣言済みの rb_ary_detransient() と rb_ary_ptr_use_end() の宣言を削除しています。
