@@ -1,0 +1,1 @@
+Ruby VM のメインループである vm_exec() の例外などの大域脱出発生時の処理で NoMemoryError 発生時のフラグリセットが不足していて NoMemoryError 後に ensure 節があると無限ループ状態に陥ることがあるという不具合を修正しています。 [ruby-core:92342] [Bug #15779]
