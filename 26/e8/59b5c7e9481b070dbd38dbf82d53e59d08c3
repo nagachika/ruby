@@ -1,0 +1,1 @@
+拡張ライブラリ digest の gemspec ファイルの spec.files から Gemfile や gemspec ファイル自身、bin/ ディレクトリの配下のファイルなどを削っています。
