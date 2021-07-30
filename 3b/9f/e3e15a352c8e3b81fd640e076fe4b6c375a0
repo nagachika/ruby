@@ -1,0 +1,1 @@
+a6dc48f86a8ee7b1f713105b5c7136824d6b5720 で追加した NoMemoryError 発生時のテストが Solaris 11 の CI 環境で時間がかかりすぎて timeout するそうなので捕捉して無視するようにしています。
