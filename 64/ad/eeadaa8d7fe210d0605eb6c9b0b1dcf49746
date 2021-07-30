@@ -1,0 +1,1 @@
+file.c で rb_access() の結果を Qtrue or Qfalse にして返すという処理が頻出なので RBOOL() という C の真偽値を Qtrue/Qfalse にするマクロを追加してこれを使うようにリファクタリングしています。
