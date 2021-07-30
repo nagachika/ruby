@@ -1,0 +1,1 @@
+標準添付ライブラリ set の Set#intersect? の引数に Array も受け付けるようにしています。確かに Array くらいは受付けて欲しいかも。 [ruby-core:103635] [Feature #17838]
