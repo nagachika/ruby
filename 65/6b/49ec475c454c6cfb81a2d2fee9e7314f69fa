@@ -1,0 +1,1 @@
+gems/bundled_gems の更新。 https://github.com/ruby/ruby/pull/4688 しかしおそらく同じ内容が d04ba0906c35013a8432535168eec270d6e9a913 でコミットされてしまっているため差分は空っぽになっています。
