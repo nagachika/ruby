@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の 60b02db5161625dd5f7d22d31989dd966837333c で追加したテストで Windows 環境でのみ Net::ReadTimeout を期待するようになってましたがこれは正しくなかったみたいで常に Net::WriteTimeout を期待するように書きかえています。OpenSSL::SSL::SSLSocket で生のソケットだと ReadTimeout のこともあってそのテストからのコピーだったとかかな。
