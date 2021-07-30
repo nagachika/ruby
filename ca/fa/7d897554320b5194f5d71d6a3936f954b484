@@ -1,0 +1,1 @@
+571dafdc7f57af067706fbc318a64778f4fc218a の続きで標準添付ライブラリ set の Set#intersect? の引数に Array だけでなく Enumerable を受け付けるようにしています。 Enumerable#any? で判定するようにしています。なるほど。
