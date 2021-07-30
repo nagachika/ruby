@@ -1,0 +1,1 @@
+拡張ライブラリ readline の gemspec ファイルからも add_development_dependency の指定を削除しています。
