@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo のテストスクリプト test/reline/test_terminfo.rb を追加しています。
