@@ -1,0 +1,1 @@
+finalize_deferred() で finalizer の処理をしている間 rb_execution_context_t::interrupt_mask に PENDING_INTERRUPT_MASK のビットフラグを立てて割り込みの処理を遅延するようにしています。finalizer 処理中に Thread#raise などを投げた時に処理されなくて無視されるのを修正しています。 [Bug #13876] [ruby-core:90898] [Bug #15507]
