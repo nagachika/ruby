@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.curses_dl で fiddle が Fiddle::TYPE_VARIADIC を定義していないバージョン/環境? だった時に fiddle_supports_variadic を false に落としておくようにしています。
