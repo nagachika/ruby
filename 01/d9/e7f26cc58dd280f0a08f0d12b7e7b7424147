@@ -1,0 +1,1 @@
+Kernel#exec の rdoc 用コメントの環境変数 RUBYSHELL や COMSPEC の参照についての記述が両方とも Windows 環境で使われるのに RUBYSHELL は UNIX 系 OS で使われると書かれてたので修正しています。
