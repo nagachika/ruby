@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで assert_raises を使ってたところを assert_raise に変更しています。
