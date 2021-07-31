@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.tigetstr メソッドが返す String オブジェクトに特異メソッドとして tiparm メソッドを追加してたのを StringWithTiparm という String を継承したクラスを作ってこのインスタンスを返すように変更しています。特異メソッドを持ってると Marshal.dump できなくなったりしますしね。
