@@ -1,0 +1,1 @@
+test/runner.rb で bundled gems の gemspec ファイルを探すディレクトリをソースディレクトリの gems/* から .bundle/gems/* に変更しています。 55bf0ef1aa7c936b564b883196de1ace4be4cc7e の変更に追随しています。
