@@ -1,0 +1,1 @@
+f1b5cb7e5d9498405f7ed611abda37cb0d9f2ea4 で切り出した 標準添付ライブラリ reline の Reline::Termnfo.curses_dl_files に cygwin と macOS でのファイル名対応を追加しています。
