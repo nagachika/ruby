@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.of で eval 内で定義されたメソッドを渡すと不正なオブジェクトを返してたので例外を発生させるようにしています。 [ruby-core:98931] [Bug #16983]
