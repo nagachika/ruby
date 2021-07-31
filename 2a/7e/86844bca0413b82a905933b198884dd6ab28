@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に require "reline/terminfo" を追加しています。
