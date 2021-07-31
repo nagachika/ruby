@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.curses_dl で tiparm() 関数の Fiddle::Function を得ようとしているところで OpenBSD ではみつらかなくて tparm() という関数が代替みたいなので tparm() を探すようにしています。
