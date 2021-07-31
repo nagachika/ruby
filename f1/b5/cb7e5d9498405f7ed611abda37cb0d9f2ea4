@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.curses_dl で探すライブラリ名の候補を Reline::Terminfo.curses_dl_files というメソッドに切り出して Windows 環境ではサポートされないので空配列を返すようにしています。
