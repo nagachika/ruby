@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.curses_dl で関数を Fiddle::Function で取得するところでコメントで C の関数の prototype 宣言を追記しています。
