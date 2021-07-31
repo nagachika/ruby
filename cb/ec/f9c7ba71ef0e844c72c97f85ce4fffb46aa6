@@ -1,0 +1,1 @@
+insn_set_specialized_instruction() で一時的に operand を保持する変数を VALUE* から VALUE に変更しています。確かに machine stack に VALUE 自体が乗らないので、こうしておかないと GC の mark 漏れが起きる可能性がありそうですね。 -DUSE_EMBED_CI=0 でビルドすると異常終了することがあったみたいです。
