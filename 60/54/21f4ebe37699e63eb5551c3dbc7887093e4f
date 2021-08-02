@@ -1,0 +1,1 @@
+include/ruby/internal/config.h に HAVE___VA_OPT__ というマクロを定義する条件分岐を __cplusplus のバージョンに応じて自前で書いています。コミットログによると GCC で誤った定義になることがありみたいです。
