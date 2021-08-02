@@ -1,0 +1,1 @@
+rb_thread_wait_fd() および rb_thread_fd_writable() というマクロが定義されていたのを 関数として定義しなおしています。チケットをみると RUBY_IO_READABLE や RUBY_IO_WRITABLE といったマクロのためのヘッダの循環 include 問題を解決するためみたいですが、関数マクロから関数になるとなんで大丈夫になるのかちょっとよくわからなかった。 [ruby-core:104686] [Bug #18046]
