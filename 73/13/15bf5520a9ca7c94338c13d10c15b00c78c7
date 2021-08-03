@@ -1,0 +1,1 @@
+GitHub Actions の設定ファイル .github/workflows/codeql-analysis.yml の github/codeql-action/init アクションの設定の launguage: cpp を削除して、かわりに CodeQL の設定ファイルの .github/codeql/codeql-config.yml に languages: cpp を追加しています。
