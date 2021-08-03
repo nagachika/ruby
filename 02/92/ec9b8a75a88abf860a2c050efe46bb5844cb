@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL での静的解析の workflow で無視するパスの指定 paths-ignore の設定を削除しています。
