@@ -1,0 +1,1 @@
+String#<=> と String#casecmp の rdoc 用コメントで大小の関係が反対になってたのを修正しています。
