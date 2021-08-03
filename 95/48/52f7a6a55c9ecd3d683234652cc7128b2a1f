@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による静的解析で git clone する時に fetch-depth: 2 の設定をして取得する履歴を浅くしていたのを削っています。最新版の actions/checkout アクションでは不要とのこと。
