@@ -1,0 +1,1 @@
+64adeeadaa8d7fe210d0605eb6c9b0b1dcf49746 で file.c に導入した RBOOL() マクロを internal.h に移動して他のファイルでも利用するようにしています。
