@@ -1,0 +1,1 @@
+6505c77501f1924571b2fe620c5c7b31ede0cd22 で revert された 13f8521c630a15c87398dee0763e95f59c032a94 の blocking Fiber 利用時の Thread#join のハングアップ修正のリトライ。今回は thread_do_start_proc() と rb_thread_alive_p() の修正も追加されているようなので CI のエラーも対策したものかと思われます。
