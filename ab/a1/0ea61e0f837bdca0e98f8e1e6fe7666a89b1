@@ -1,0 +1,1 @@
+同じく 5ca0a51ffd218131f5d396f0250781cdf972779f で追加した readline のテストで子プロセス内での require 'test/readline/helper' を子プロセス起動時に -I オプションでロードパスを追加することで require "helper" で済むようにしています。
