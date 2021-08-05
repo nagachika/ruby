@@ -1,0 +1,1 @@
+5ca0a51ffd218131f5d396f0250781cdf972779f で追加した readline のテストでテストクラスが TestReadline か TestRelineAsReadline かチェックしているところでそもそもそれぞれの定数が定義済みかチェックするようにしています。あーここでは BasetestReadline という Module として定義してて、readline と reline のテストでそれぞれテストクラスに include して使われてるので、個別の実行時などに定義されてない可能性があるわけですね。
