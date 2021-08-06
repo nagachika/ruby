@@ -1,0 +1,1 @@
+ac86fcbfd0bab8667d277aa575bc5b81e5135d3c のリンク時に $(EXTOBJS) をリンクするファイル群から削除した変更を revert しています。configure に --disable-shared と --with-static-linked-ext を同時に指定するとビルドに失敗するからとのこと。
