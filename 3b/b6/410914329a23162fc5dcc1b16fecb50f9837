@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_separately で子プロセスで tool/lib/core_assertions.rb 自体を require させるために埋め込むファイルパスを __FILE__ をそのまま埋め込むようにしています。普段あんまりしないですけど拡張子ありでも require はできるので。
