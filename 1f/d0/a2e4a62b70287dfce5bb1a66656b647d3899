@@ -1,0 +1,1 @@
+87b327efe6c1f456c43b3f105c7a92a5a7effe93 で追加した finalizer のテストで GC.disable したまま戻していなかったので ensure 節で GC.enable を呼ぶように修正しています。
