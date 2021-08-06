@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Windows 向けのテスト test/reline/windows/test_key_event_record.rb で Reline::Windows が未定義の時に toplevel return でファイル全体をスキップするようにしています。
