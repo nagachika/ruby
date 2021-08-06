@@ -1,0 +1,1 @@
+標準添付ライブラリ readline の SIGINT のシグナルハンドラのテストで Timeout::Error の例外発生時の assertion のエラーメッセージに子プロセスのログを出力しています。
