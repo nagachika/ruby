@@ -1,0 +1,1 @@
+tool/lib/memory_status.rb でメモリ使用量を計測する拡張ライブラリの Windows 対応をして GetProcessMemoryInfo() で取得した PROCESS_MEMORY_COUNTERS の WorkingSetSize というメンバーを RSS として返すようにしています。
