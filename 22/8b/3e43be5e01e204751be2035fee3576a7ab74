@@ -1,0 +1,1 @@
+tool/lib/gc_compact_checker.rb を tool/lib/gc_checker.rb に移動して GC.compact を teardown でする GCCompactChecker の他に GC.disable したままになってないかをチェックする GCDisabledChecker という Module も追加して常にテスト時にチェックするようにしています。
