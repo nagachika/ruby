@@ -1,0 +1,1 @@
+defs/gmake.mk に make exts の依存関係として rubyspec-capiext ターゲットを追加しています。rubyspec の C API テスト用拡張ライブラリのビルドですね。
