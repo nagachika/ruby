@@ -1,0 +1,1 @@
+b158b4666d88eda3d9b9786fd427405749aff48f で拡張ライブラリ reline の Reline::Terminfo の fiddle バージョンのチェックで条件が反転していたのを修正しています。
