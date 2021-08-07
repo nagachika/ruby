@@ -1,0 +1,1 @@
+標準添付ライブラリ readline の SIGINT のシグナルハンドラのテストで Timeout.timeout の例外をキャッチするためにブロック内の rescue 節を使っていたので begin を追加しています。
