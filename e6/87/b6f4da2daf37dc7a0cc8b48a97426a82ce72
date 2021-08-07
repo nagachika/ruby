@@ -1,0 +1,1 @@
+拡張ライブラリ readline の SIGINT シグナルハンドラのテストでエラー時のログに Readline::VERSION も埋め込むようにしています。
