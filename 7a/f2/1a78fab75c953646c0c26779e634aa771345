@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo のテストで setup 時の Reline::Terminfo.setupterm が Reline::Terminfo::TerminfoError を発生させた時に rescue してテストを skip させるようにしています。
