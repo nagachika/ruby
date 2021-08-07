@@ -1,0 +1,1 @@
+拡張ライブラリ readline の SIGINT のシグナルハンドラのテストで Timeout::Error を rescue した時の assertion 失敗しないようになってた(true を渡してた)ので常に失敗するようにしています。
