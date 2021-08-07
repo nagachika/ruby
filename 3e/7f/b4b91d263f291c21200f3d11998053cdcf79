@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.tigetstr で tigetstr() が 0 や -1 を返した時はエラーなので Reline::Terminfo::TerminfoError 例外を発生させるようにしています。
