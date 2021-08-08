@@ -1,0 +1,1 @@
+cont.c にもう利用していない rb_fiber_transfer_kw() の宣言が残ってたのを削除しています。
