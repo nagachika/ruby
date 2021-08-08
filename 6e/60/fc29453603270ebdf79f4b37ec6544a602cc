@@ -1,0 +1,1 @@
+template/Makefile.in と win32/Makefile.sub に ACTIONS_GROUP と ACTIONS_ENDGROUP という変数を導入して GitHub Actions での実行時に ##[group] と ##[endgroup] という出力をするコマンドにするようにしておいて、それを各種の test のターゲットのコマンド実行の前後に置くようにしています。 GitHub Actions の結果の表示の時に折り畳んで表示される機能があるみたいですね。
