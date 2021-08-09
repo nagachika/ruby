@@ -1,0 +1,1 @@
+gc.c で定義している構造体 gc_profile_record の flags メンバーや rb_objspace_t の profile::latest_gc_info の型を int から unsigned int に変更し、同様に garbage_collect()/gc_start()/gc_prof_setup_new_record() などの reason 引数の型も int から unsigned int に変更しています。ビットフラグとして扱うメンバー/引数なので unsigned にしておくほうが都合がよいので。
