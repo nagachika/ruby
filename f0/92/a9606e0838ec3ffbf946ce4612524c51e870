@@ -1,0 +1,1 @@
+7af21a78fab75c953646c0c26779e634aa771345 で test/reline/test_terminfo.rb の setup で Reline::Terminfo.setupterm が Reline::Terminfo::TerminfoError 例外を発生させた場合に skip するようにしていましたが、test/reline/helper.rb で環境変数 TERM に "xterm-256color" を強制的にセットすることで回避して rescue 節を消しています。
