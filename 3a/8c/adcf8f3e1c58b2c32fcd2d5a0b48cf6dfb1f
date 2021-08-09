@@ -1,0 +1,1 @@
+io.c の io_bufread() および rb_io_maybe_wait() で rb_read_internal() や rb_io_wait() の前に rb_io_check_closed() で IO が close 済みでないかのチェックを追加して EBADF エラー発生の可能性を減らすようにしています。マルチスレッドで IO#close が呼ばれた場合に発生する可能性はこの変更後も残ってそうですが、少しでも減らすためみたいです。
