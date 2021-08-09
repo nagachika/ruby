@@ -1,0 +1,1 @@
+GC_ENABLE_INCREMENTAL_MARK=0 でビルドされた場合の未使用関数の警告除去のため gc_marks_step() の定義自体を #if GC_ENABLE_INCREMENTAL_MARK の分岐内に入れるようにしています。
