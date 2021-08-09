@@ -1,0 +1,1 @@
+f092a9606e0838ec3ffbf946ce4612524c51e870 の続きで環境変数 TERM にセットするのを xterm に変更しています。 Solaris で xterm-256color だと動かなかった模様。
