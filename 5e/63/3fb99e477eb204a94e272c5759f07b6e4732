@@ -1,0 +1,1 @@
+readline の SIGINT のシグナルハンドラについてのテストが Readline の 7.0 とリンクしている拡張ライブラリ readline 版の時もテストが通らないそうで skip するようにしています。
