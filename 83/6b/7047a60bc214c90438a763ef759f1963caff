@@ -1,0 +1,1 @@
+bignum.c の integer_unpack_num_bdigits() および rb_absint_numwords() で未使用変数の警告除去のための (void) つきの参照を追加しています。
