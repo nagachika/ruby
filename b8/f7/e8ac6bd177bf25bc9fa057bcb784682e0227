@@ -1,0 +1,1 @@
+テスト用の拡張ライブラリ ext/-test-/time/leap_second.c で警告抑制のため #include "ruby.h" を追加しています。
