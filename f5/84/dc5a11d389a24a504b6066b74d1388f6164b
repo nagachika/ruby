@@ -1,0 +1,1 @@
+vm_exec.c で vm_insns_counter_count_insn() の宣言を MAYBE_UNUSED() マクロつきで追加して未使用関数の警告抑制しています。
