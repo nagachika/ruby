@@ -1,0 +1,1 @@
+ruby_cleanup() と rb_ec_cleanup() の引数についている volatile 修飾子を削除しています。 新しい規格の C++ のコンパイラでの警告抑制のためみたいです。
