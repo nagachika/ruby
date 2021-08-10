@@ -1,0 +1,1 @@
+eval.c の rb_ec_cleanup() で EC_EXEC_TAG() と EC_POP_TAG() の間で th 変数へ代入しているのを大域脱出があった時だけにしています。 "might be clobbered by 'longjmp' or 'vfork'" 警告の抑制のためみたいです。
