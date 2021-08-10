@@ -1,0 +1,1 @@
+readline の SIGINT シグナルハンドラのテストで追加するシグナルハンドラ内で Kernel#p でログ出力してたのを Kernel#puts に変えて、さらに IO#flush を呼ぶようにしています。
