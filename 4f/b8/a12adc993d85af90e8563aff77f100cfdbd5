@@ -1,0 +1,1 @@
+同じく C++ 製拡張ライブラリ向けヘッダファイル include/ruby/backward/cxxanyargs.hpp で rb_iterate() の定義に RUBY_CXX_DEPRECATED() マクロを追加して代替として rb_block_call() があることを示すようにしています。
