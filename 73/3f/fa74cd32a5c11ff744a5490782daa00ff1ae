@@ -1,0 +1,1 @@
+C++ 製拡張ライブラリ向けのヘッダファイル include/ruby/backward/cxxanyargs.hpp で rb_iterate() の呼び出しを backward::rb_iterate() と名前空間つきで宣言するようにしています。これも C++ コンパイラでの警告抑制のためみたいです。
