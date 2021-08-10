@@ -1,0 +1,1 @@
+4fb8a12adc993d85af90e8563aff77f100cfdbd5 で include/ruby/backward/cxxanyargs.hpp に追加した関数宣言の RUBY_CXX_DEPRECATED() マクロによる deprecated のマークのうち rb_iterate() につけたほうをコメントアウトしています。 RUBY_CXX_DEPRECATED() は追加したものの他にも ANYARGS の利用についての警告で既に付けていたので Windows の VC で冗長な attribute として警告が出てしまったとのこと。
