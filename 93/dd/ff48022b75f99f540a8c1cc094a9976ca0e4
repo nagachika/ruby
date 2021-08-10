@@ -1,0 +1,1 @@
+include/ruby/internal/iterator.h の C++ 向けの API rb_iterate() を rb_iterate_deprecated() と改名しています。 Sun の C Compiler だと C 用の? rb_iterate() と名前が衝突してエラーになるみたいです。
