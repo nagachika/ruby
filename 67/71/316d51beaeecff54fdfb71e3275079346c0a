@@ -1,0 +1,1 @@
+.travis.yml のテスト失敗を許容する allow_failures から arm64-linux を削除しています。安定してきたとのこと。
