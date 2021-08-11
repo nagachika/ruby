@@ -1,0 +1,1 @@
+lib/rdoc/rdoc.gemspec の add_development_dependency から gettext を消してかわりに lib/rdoc/Gemfile に追加しています。
