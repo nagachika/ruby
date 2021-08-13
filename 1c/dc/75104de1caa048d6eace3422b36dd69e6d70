@@ -1,0 +1,1 @@
+include/ruby/internal/attr/deprecated.h で GCC の不具合のため C++ 向けに RBIMPL_ATTR_DEPRECATED() マクロの定義で __attribute__ を使わないようにしていたの不具合が修正されたみたいで GCC 10.3 以降では利用するように preprocessor 分岐の条件を追加しています。
