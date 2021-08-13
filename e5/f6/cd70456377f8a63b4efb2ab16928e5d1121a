@@ -1,0 +1,1 @@
+readline のシグナルハンドラのテストで Timeout::Error 例外を rescue する範囲を TImeout.timeout のブロックの外に移動しています。中だと例外を明示的に指定しないと throw で抜けるようになってるので捕捉できないんですよね。
