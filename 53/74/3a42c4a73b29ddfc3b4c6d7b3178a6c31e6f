@@ -1,0 +1,1 @@
+irb の gemspec ファイルの dependency の reline のバージョンを 0.2.7 以降に更新しています。
