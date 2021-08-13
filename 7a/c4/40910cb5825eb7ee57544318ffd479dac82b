@@ -1,0 +1,1 @@
+GitHub Actions でいろんなコンパイラを試す .github/workflows/compilers.yml でテストも実行するかどうかをコンパイラオプションの -O3 オプションの有無でチェックしてたのを明示的に matrix に check フラグを追加するようにしています。
