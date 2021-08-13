@@ -1,0 +1,1 @@
+rb_objspace_t::flags のビットフィールド during_gc のビット数を 2 から 1 に減らしています。 GC.compact のための write barrier についての情報のために増やしてたけど 32b7dcfb56a417c1d1c354102351fc1825d653bf で不要になっていたとのこと。
