@@ -1,0 +1,1 @@
+b64f81c81729bbc248d19af01cafde88eb60fdc7 の TracePint などで MJIT の JIT コンパイルしたコードが無効になった時に worker を止めるようにした変更を revert しています。 --jit-wait つきに CI で問題があったとのこと。
