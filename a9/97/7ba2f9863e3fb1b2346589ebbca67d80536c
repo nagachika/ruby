@@ -1,0 +1,1 @@
+addr2line.c の uleb128() や fill_filename()、fill_line()、read_xxx() 系の関数などの引数の C の文字列のポインタに const 修飾子を追加するリファクタリング。
