@@ -1,0 +1,1 @@
+b3f8c491efefc0461ab225d062f6c64286498609 の続きで JIT されたコードを無効にする時の関数 mjit_cancel_all() で mjit_pause() も呼び出して worker プロセスの処理が止まるまで待つようにしています。
