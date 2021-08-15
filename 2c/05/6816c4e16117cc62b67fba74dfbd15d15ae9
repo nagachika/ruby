@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで IRB::Context のスタブとして使う Struct に workspace という attribute も追加するようにしています。
