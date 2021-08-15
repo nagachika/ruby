@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ASCII.prep の SIGINT の起動時のシグナルハンドラを取得してた処理を削除しています。
