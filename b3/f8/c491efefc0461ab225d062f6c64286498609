@@ -1,0 +1,1 @@
+TracePoint や GC.compact の影響で JIT されたコードが無効化された時に --jit-wait や --jit-warning オプションが指定されていたら標準エラー出力にメッセージを出力するようにしています。
