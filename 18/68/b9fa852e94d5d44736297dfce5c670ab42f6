@@ -1,0 +1,1 @@
+appveyor.yml で nmake up 実行時に VCSUP という変数を指定することで clone したばかりのリポジトリの更新を抑制するようにしているようです。
