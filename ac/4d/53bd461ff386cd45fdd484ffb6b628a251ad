@@ -1,0 +1,1 @@
+b3f8c491efefc0461ab225d062f6c64286498609 の続きで TracePoint の :class イベントのみが有効にされた場合は JIT は無効にする必要はないそうなので update_global_event_hook() で mjit_cancel_all() を呼び出す条件分岐を追加しています。
