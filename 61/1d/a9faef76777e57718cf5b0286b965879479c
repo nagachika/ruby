@@ -1,0 +1,1 @@
+611da9faef76777e57718cf5b0286b965879479c の続き。呼び出すようにした rb_unexpected_type() の宣言に NORETURN() に加えて COLDFUNC 修飾子も追加しています。 [ruby-core:104780] [Bug #18062]
