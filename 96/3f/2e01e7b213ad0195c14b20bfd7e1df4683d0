@@ -1,0 +1,1 @@
+.travis.yml の allow_failure に ppc64le-linux を追加して PowerPC でのテスト失敗を通知しないようにしています。
