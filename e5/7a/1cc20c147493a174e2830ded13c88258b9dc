@@ -1,0 +1,1 @@
+common.mk の make test-spec での rubyspec の実行に webrick をロードさせるため -I オプションでロードバスに tool/lib を追加していたのが webrick を使わなくなったため不要になったとのことで削除しています。
