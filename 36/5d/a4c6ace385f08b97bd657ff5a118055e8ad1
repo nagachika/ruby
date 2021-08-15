@@ -1,0 +1,1 @@
+MJIT が無効の状態で mjit_cancel_all() を呼んだ時に mjit_pause() で例外発生しないように mjit_enabled が偽だったら先頭ですぐ return するようにしています。
