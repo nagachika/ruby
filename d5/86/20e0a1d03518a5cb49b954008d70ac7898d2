@@ -1,0 +1,1 @@
+inline 関数 Check_Type() の slowpath のラベルは unexpected_type と改名して、また fastpath のラベルは不要になるように条件分岐の書きかたを変更しています。
