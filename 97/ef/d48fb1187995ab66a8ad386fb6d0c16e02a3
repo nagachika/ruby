@@ -1,0 +1,1 @@
+rb_check_type() で T_DATA 型の RTYPEDDATA_P() によるチェックを rbimpl_rtypeddata_p() を直接呼ぶようにしています。RUBY_DEBUG が真でビルドされた時に再帰呼び出しになる可能性があったみたいです。
