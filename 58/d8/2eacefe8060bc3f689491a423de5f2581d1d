@@ -1,0 +1,1 @@
+611da9faef76777e57718cf5b0286b965879479c の rb_unexpected_type() と同様に error.c での static 関数 unexpected_type() の宣言に再度 COLDFUNC() マクロを利用するようにしています。また異常時の条件分岐に RB_UNLIKELY() マクロを利用してコンパイラにめったにおきないはずの分岐であることを明示するようにしています。
