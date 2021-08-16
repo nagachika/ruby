@@ -1,0 +1,1 @@
+拡張ライブラリ ripper で Ripper#yydebug を true に設定していた時に NotImplementedError が発生することがある不具合を修正しています。 [ruby-core:104916] [Bug #18075]
