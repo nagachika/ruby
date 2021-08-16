@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラを試す .github/workflows/compilers.yml に gcc に -flto=auto -ffat-lto-objects、clang-14 に -flto=auto を渡してビルドするケースを追加しています。LTO というのは Link Time Optimization つまりリンク時最適化のことみたいですね。
