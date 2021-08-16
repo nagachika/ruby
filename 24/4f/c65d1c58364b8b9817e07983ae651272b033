@@ -1,0 +1,1 @@
+29dd70492eb3e3f0018c01fb3fa4ce77029a208f で追加した .github/workflows/compilers.yml の LTO を有効にしたビルドで make check 実行するようにしていたのを削っています。
