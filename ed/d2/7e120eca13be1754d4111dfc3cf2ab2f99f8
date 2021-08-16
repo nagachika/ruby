@@ -1,0 +1,1 @@
+rb_check_type() 内で unexpected_type() を呼び出して例外を発生させるところにコメントを追加しています。
