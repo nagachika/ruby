@@ -1,0 +1,1 @@
+addr2line.c で DWARF フォーマットの DW_FORM_ref_addr, DW_FORM_ref_sig8, DW_FORM_ref_sup4, DW_FORM_ref_sup8 などの form をみたら無視するようにしています。 [ruby-core:99351] [Bug #17052]
