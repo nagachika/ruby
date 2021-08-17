@@ -1,0 +1,1 @@
+ruby 実装による組み込みメソッド定義を ISeq にしてロードできる形式にするための前処理ツール tool/mk_builtin_loader.rb で関数ポインタをソースコードに埋め込む時のフォーマット指示子を PRIdPTR から PRIuVALUE に変更しています。 emscripten で WASM 向けにビルドした時に intptr_t 型が指示子 PRIdPTR と型が合わないそうです。
