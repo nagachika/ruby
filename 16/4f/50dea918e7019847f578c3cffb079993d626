@@ -1,0 +1,1 @@
+gems/bundled_gems の typeprof のバージョンを 0.15.1 に更新しています。 4568ba071107a139b9f02fc17aa12f998181abf1 の pattern match のエラーメッセージ変更に追随した変更みたいです。GitHub Actions で typeprof のテスト失敗を無視させる設定も戻しています。
