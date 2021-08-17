@@ -1,0 +1,1 @@
+popen(3) が emscripten では利用できないそうで利用部分の preprocessor 分岐に #ifndef __EMSCRIPTEN__ の条件を追加しています。
