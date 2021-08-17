@@ -1,0 +1,1 @@
+configure.ac に Fiber 実装用の coroutine の種類を決める設定を FreeBSD 向けの条件を追加しています。
