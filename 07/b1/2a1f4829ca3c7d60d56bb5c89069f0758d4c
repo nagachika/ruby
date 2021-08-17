@@ -1,0 +1,1 @@
+process.c および thread_pthread.c で proprocessor の分岐によって未使用の変数の警告が出るところを変数宣言も分岐内に移動するなどして警告抑制しています。
