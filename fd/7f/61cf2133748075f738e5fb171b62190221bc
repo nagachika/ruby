@@ -1,0 +1,1 @@
+Unicode の絵文字についてのテスト test/ruby/enc/test_emoji_breaks.rb で emoji-variation-sequences.txt というファイルも利用するようにしているみたいです。 [ruby-core:104539] [Bug #18027]
