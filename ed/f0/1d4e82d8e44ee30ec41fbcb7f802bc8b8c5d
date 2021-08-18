@@ -1,0 +1,1 @@
+fstring のテーブル更新などで利用する ObjectSpace のヒープに所属してない struct RString を String オブジェクトのようにみせるための初期化する setup_fake_str() で引数の C 文字列のポインタが NULL だった時にも許容して空文字列("")として扱うようにしています。
