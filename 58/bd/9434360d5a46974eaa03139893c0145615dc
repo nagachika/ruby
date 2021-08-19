@@ -1,0 +1,1 @@
+complex.c、math.c、rational.c などでそれぞれ独自に f_boolcast() というマクロを定義して使っていたのを 64adeeadaa8d7fe210d0605eb6c9b0b1dcf49746 や 378e8cdad69e6ba995a024da2957719789f0679e で導入した RBOOL マクロを利用するようにリファクタリングしています。
