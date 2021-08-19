@@ -1,0 +1,1 @@
+numeric.c の Integer オブジェクトの VALUE を C の整数型に変換する関数群で rb_num_negative_int_p() を使っていたところを FIXNUM_NEGATIVE_P() マクロに変更しています。rb_num_negative_int_p() はメソッド呼び出しをするので遅いのと、おそらく再定義された時の対策のため?
