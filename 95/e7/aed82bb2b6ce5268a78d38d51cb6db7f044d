@@ -1,0 +1,1 @@
+574f3af36ea008896419d2e2407f8fce83bdcd2e の続きで SIGILL のシグナルハンドラで system stack の overflow チェックを macOS でのみ呼んでいたのを Linux の時にも呼ぶようにしています。stack overflow 時に SIGILL シグナルが発生することがあるみたいです。 [ruby-core:104963] [Bug #18084]
