@@ -1,0 +1,1 @@
+チケットをみると再帰的な参照を持つ Array や Hash に JSON.dump を使うと stack overflow を起こし、場合によっては SEGV することがあるという不具合に対する修正です。 JSON.generate はネストの深さに制限を入れてるけど JSON.dump は固定の制限はないので、json に限らず一般的な stack overflow のチェックで SystemStackError 例外が発生するのですが、チェックに失敗して guard page に突入してしまう場合があったみたいです。 [ruby-core:104963] [Bug #18084]
