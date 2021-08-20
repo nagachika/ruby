@@ -1,0 +1,1 @@
+gem_prelude.rb で require "rubygems" が LoadError になった時に警告だけして例外は抑制していましたが、その LoadError#path が "rubygems" ではなかった時は例外を再発生させるようにしています。
