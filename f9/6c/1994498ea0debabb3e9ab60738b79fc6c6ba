@@ -1,0 +1,1 @@
+ecb6d6a4ef058b5598a7633c3921eeab08ce11c6 で rubyspec に追加した 一行パターンマッチのテストを古い ruby で SyntaxError になるのを防ぐため eval を利用するようにしています。
