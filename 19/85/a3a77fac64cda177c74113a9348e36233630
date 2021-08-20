@@ -1,0 +1,1 @@
+bundled gems の typeprof と rbs をそれぞれ 0.15.2 と 1.4.0 に更新しています。 https://github.com/ruby/ruby/pull/4753
