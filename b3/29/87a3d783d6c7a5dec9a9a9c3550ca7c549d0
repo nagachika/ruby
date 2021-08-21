@@ -1,0 +1,1 @@
+class.c の rb_class_remove_from_super_subclasses()、rb_class_remove_from_module_subclasses()、do_include_modules_at() などの関数のリファクタリング。同じマクロを何度も利用していたのを変数に格納しておいて使いまわすようにしています。
