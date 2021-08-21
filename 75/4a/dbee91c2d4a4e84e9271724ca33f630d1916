@@ -1,0 +1,1 @@
+Module#ancestors が Refinements を定義している Module に対して呼ぶと refine で差し込む先の Class/Module の ancestors も含めてしまっていた不具合を修正しています。 [ruby-core:86949] [Bug #14744]
