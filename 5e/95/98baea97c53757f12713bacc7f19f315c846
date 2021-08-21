@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight のテストで DidYouMean.formatter= に渡しているダミーの formatter がクラスのままだったのでインスタンスを作って渡すように修正しています。
