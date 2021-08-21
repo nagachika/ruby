@@ -1,0 +1,1 @@
+e8e3b7a0e2fc2cc6384eb10332cc46e385373cbb で rb_data_object_wrap() と rb_data_typed_object_wrap() で対象のクラスの allocate メソッドが再定義もしくは undef されていなかった時の警告出力をコメントアウト状態で入れてたのを 371bb4eaddf5d6d8aaab56173649da22378bbbae で変更した RUBY_VERSION_SINCE() と 追加した RBIMPL_TODO() マクロを使って 3.2.0 以降で自動的に警告を出すようにしています。
