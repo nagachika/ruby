@@ -1,0 +1,1 @@
+T_DATA, T_TYPEDDATA 型オブジェクトの生成時の rb_data_object_wrap()/rb_data_typed_object_wrap() 関数で Check_Type() でオブジェクトの型のチェックしていたかわりに rb_get_alloc_func() で allocate 関数を取得して rb_class_allocate_instance() だったら allocate メソッドを undef しておくようにしています。T_DATA/T_TYPEDDATA ではデフォルトの allocate の実装は利用不可ということで将来的には警告も出力するようにコメントアウトした状態で rb_warn() も追加しています。
