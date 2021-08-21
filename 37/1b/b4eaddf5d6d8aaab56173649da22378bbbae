@@ -1,0 +1,1 @@
+internal/error.h の RUBY_VERSION_SINCE() や RUBY_VERSION_BEFORE() などのマクロの引数を major と minor の数値を受け取るように変更しています。従来の定義は RUBY_VERSION_STRING_SINCE() と RUBY_VERSION_STRING_BEFORE() に改名しています。
