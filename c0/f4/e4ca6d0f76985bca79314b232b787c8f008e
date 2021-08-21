@@ -1,0 +1,1 @@
+拡張ライブラリ objspace と socket で e8e3b7a0e2fc2cc6384eb10332cc46e385373cbb で示されているように allocate メソッドが undef されたり再定義されたりしていなかったので rb_undef_alloc_func() を呼び出して undef しておくようにしています。
