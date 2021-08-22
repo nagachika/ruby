@@ -1,0 +1,1 @@
+5e7cc0eebe7519486a04c840cb9c3494cb7ca3e6 の続き。 doc/extension.rdoc と doc/extension.ja.rdoc の TypedData_Wrap_Struct() マクロの使いかたの説明に使う klass に rb_undef_alloc_func() か rb_define_alloc_func() のどちらかを呼んでおくべきという説明を追加しています。
