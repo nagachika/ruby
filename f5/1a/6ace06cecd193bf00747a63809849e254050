@@ -1,0 +1,1 @@
+doc/extension.rdoc と doc/extension.ja.rdoc で TypedData の構造体の dfree メンバーの説明で、直接 free() を呼ぶだけで良いというのを指定する時に -1 というマジックナンバーをそのまま書くように説明していたのを RUBY_DEFAULT_FREE マクロを利用するように記述を修正しています。
