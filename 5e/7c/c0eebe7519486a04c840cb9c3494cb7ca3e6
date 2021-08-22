@@ -1,0 +1,1 @@
+doc/extension.ja.rdoc の TypedData_Wrap_Struct() の使いかたの説明に、渡すクラスは rb_undef_alloc_func() を呼んでおくべきという記述を追加しています。また Data クラスから派生することを推奨する記述は削除しています。
