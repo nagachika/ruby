@@ -1,0 +1,1 @@
+Marshal.dump の引数に IO を渡す場合に close 済みの IO オブジェクトを渡すと IOError が発生していたのを dump できないオブジェクトということで TypeError が正しく発生するようにしています。Encoding を得るために rb_io_internal_encoding() や rb_io_external_encoding() を呼び出した時点で close 済みの時に例外が発生するせいだったみたいなのでこれらの関数の挙動を変更しているようです。 [ruby-core:104927] [Bug #18077]
