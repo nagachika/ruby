@@ -1,0 +1,1 @@
+TracePoint などが有効になって VM 命令が trace つきの命令に差し替わった時によく使われるメソッドの最適化命令の trace_ つき版を opt_send_without_block 命令にすりかえるようにしています。最適化命令が使われたメソッドの呼び出しが TracePoint でイベント発火しないのを :c_call, :c_return イベントが発火するようにするためのようです。 [ruby-core:87638] [Bug #14870]
