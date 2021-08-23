@@ -1,0 +1,1 @@
+6594623f623a0982da62cc105094da0701d499da で Marshal.dump のために close 済みの IO の Encoding 取得をエラーにしないように変更した時に追随させた rubyspec のテストを IOSpecs.io_fixture というヘルパーメソッドを利用するように変更しています。 default external encoding が UTF-8 でない環境で失敗していたみたいです。 [ruby-core:104927] [Bug #18077]
