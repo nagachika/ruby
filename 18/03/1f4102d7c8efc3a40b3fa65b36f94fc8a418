@@ -1,0 +1,1 @@
+2つの文字列オブジェクトの Encoding が互換性があるかチェックする rb_enc_check() や rb_enc_check_str() という似たような関数から例外を発生させてる処理を rb_encoding_check() という関数に切り出して共有するリファクタリング。
