@@ -1,0 +1,1 @@
+VM のメインループの実装方式の違いによって次の VM 命令に飛ぶ方法を吸収するマクロ START_OF_ORIGINAL_INSN() や DISPATCH_ORIGINAL_INSN() で goto を使う実装の時に使われない label が作られることがあるので、警告抑制のため START_OF_ORIGINAL_INSN() のほうに実行されない(if(0) の body に置かれた) goto 文を埋め込むようにしています。コンパイラが充分賢いとこれも消されちゃいそうですけどね。
