@@ -1,0 +1,1 @@
+拡張ライブラリ date の ext/date/prereq.mk に zonetab.list をターゲットとして追加しています。依存関係はなにもしない update-nothing になってるので特になにもしなさそうですが……。[追記] make update=zonetab と make に変数を渡すことで zonetab.list を更新させるようにするための設定だそうです。[/追記]
