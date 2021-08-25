@@ -1,0 +1,1 @@
+configure で NetBSD 上での Fiber 用の coroutine の実装のアーキテクチャ検出に対応しています。 また random.c で OpenBSD や FreeBSD と同じく sys/param.h の include をするように preprocessor 条件を追加しています。
