@@ -1,0 +1,1 @@
+gc.c で intptr_t を使っていたところを軒並み uintptr_t に変更しています。 https://github.com/ruby/ruby/pull/4680 [ruby-core:104684] [Feature #18045]
