@@ -1,0 +1,1 @@
+file.c に 構造体 struct timespec をそのまま引数に受け取る stat_time() という関数を導入するリファクタリング。
