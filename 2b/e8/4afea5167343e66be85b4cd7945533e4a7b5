@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラを試す workflow でテスト用のコンテナを  --user root つきで起動するようにしています。この workflow では root ユーザーで実行しないといけない(コンパイラのインストールのためかな?)のですが GitHub Actions が一般ユーザーで実行されるようになるためみたいです。
