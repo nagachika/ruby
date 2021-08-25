@@ -1,0 +1,1 @@
+48ff7a9f3e47bffb3e4d067a12ba9b936261caa0 と b2e2cf2dedd104acad8610721db5e4d341f135ef を revert して T_PAYLOAD を使った実装に戻しています。 https://github.com/ruby/ruby/pull/4680 [ruby-core:104684] [Feature #18045]
