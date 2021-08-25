@@ -1,0 +1,1 @@
+8bbd3198068f5e8335ab01f0b29cdae225b25b5b で Object Space のヒープ上の連続した slot を確保するための T_PAYLOAD というオブジェクト型を廃止しています。 VWA の実装で必要なくなったから、とコメントにはありますが VWA は Variable Width Allocation の略みたいですね。で、それはなんで必要なんだっけ……。Ractor の個別の slot 確保のためだっけ? https://github.com/ruby/ruby/pull/4680 [ruby-core:104684] [Feature #18045]
