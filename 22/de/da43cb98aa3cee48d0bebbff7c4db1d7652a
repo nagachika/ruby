@@ -1,0 +1,1 @@
+make test-bundled-gems で bundled gems のテストをする時に同じく bundled gem である rbs に依存している typeprof のテスト時に bundle されているバージョンの rbs でなく最新の rbs を利用していたのを bundle されているバージョンをテストでも利用するようにしているようです。なんだけどコマンドに -I オプションを追加する部分がコメントアウトされているみたいだけどこれでいいのかな。
