@@ -1,0 +1,1 @@
+標準添付ライブラリ un.rb の gemspec ファイルの spec.executable を空配列に決め打ちしています。
