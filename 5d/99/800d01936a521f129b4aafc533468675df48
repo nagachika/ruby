@@ -1,0 +1,1 @@
+c38c2d8ee26c70300e2e0a4eec867273a8520579 と同様で rb_int_positive_pow() の extern 宣言を internal/numeric.h から include/ruby/internal/intern/numeric.h に移動しています。 [ruby-core:104715] [Feature #18051]
