@@ -1,0 +1,1 @@
+c38c2d8ee26c70300e2e0a4eec867273a8520579 や 5d99800d01936a521f129b4aafc533468675df48 と同様に rb_deprecate_constant() の宣言を internal/variable.h から include/ruby/internal/variable.h に移動しています。  [ruby-core:104715] [Feature #18051]
