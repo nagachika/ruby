@@ -1,0 +1,1 @@
+internal/util.h から ruby_digit36_to_number_table、ruby_hexdigits といったテーブル(変数)や ruby_scan_digits() の extern 宣言を公開ヘッダ include/ruby/util.h に移動して依存関係を整理しています。 [ruby-core:104715] [Feature #18051]
