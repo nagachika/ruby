@@ -1,0 +1,1 @@
+T_PAYLOAD 型オブジェクトを削除した代替の Variable Width Allocation のための実装を追加しているみたいですが、すぐ revert されているので詳細はパス。 https://github.com/ruby/ruby/pull/4680 [ruby-core:104684] [Feature #18045]
