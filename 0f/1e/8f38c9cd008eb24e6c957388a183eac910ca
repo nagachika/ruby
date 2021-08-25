@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::CStruct.offsetof でネストした構造体の中のメンバーのオフセットも "." で繋げた記法で指定して取得できるようにしています。 https://github.com/ruby/fiddle/pull/90
