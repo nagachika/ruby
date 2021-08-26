@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で typeprof.gem のテストの場合には RUBYLIB 環境変数で bundle されている rbs のパスを追加するようにしています。 gems/bundled_gems で typeprof のエントリ(行)を rbs の後になるよう順序を入れかえているのも必要なのかな?
