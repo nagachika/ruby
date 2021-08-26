@@ -1,0 +1,1 @@
+複数 Ractor 利用時に Ractor.yield で排他処理が足りてなかったようで GC 中に Ractor.yield を呼ぶと rb_bug() で異常終了することがあったという不具合の修正のため RB_VM_LOCK_ENTER_NO_BARRIER()/RB_VM_LOCK_LEAVE_NO_BARRIER() での排他処理を rb_objspace_reachable_objects_from() の呼び出し前後に追加しています。 [ruby-core:104976] [Bug #18117]
