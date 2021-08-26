@@ -1,0 +1,1 @@
+defs/gmake.mk に spec/%_spec.c と spec/%_spec.bundle というターゲットを追加しています。 rubyspec のテストをファイル指定でそのファイルだけ実行するターゲット spec/% と spec/%_spec.rb が以前追加されてましたが、コミットログによると macOS で --enable-shared をつけてビルドすると rubyspec の C API テスト用拡張ライブラリのソースコードが spec/%/ にマッチしてしまうらしくてその対策として明示的にマッチするターゲットを作っておいて実行コマンドを空にしておくようにしているようです。
