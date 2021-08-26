@@ -1,0 +1,1 @@
+win32/Makefile.sub に empty という空文字列の変数(マクロ)の定義を追加しています。6e60fc29453603270ebdf79f4b37ec6544a602cc で GitHub Actions でのログ整形のために empty を参照する変更が追加されたけど定義がなかったようです。
