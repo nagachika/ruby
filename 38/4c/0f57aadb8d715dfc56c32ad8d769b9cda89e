@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で rdoc の動機処理の途中で生成ファイルを作るための bundle exec rake の実行前に bundle install を実行しておくようにしています。
