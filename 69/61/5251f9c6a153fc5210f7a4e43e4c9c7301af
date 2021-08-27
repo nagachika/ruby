@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版で make test-all と make test-spec のエラーを Windows Server 2022 版のほうでは無視するようにしています。
