@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版で msys2/setup-msys2 という提供されてるアクションを利用して MSYS2 で patch コマンドをインストールするようにしています。
