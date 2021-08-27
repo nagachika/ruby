@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版で Windows Server 2022 の時は libffi をインストールしてみるようにしてましたが、やっぱりどちらも同梱されている libffi を使うようにしています。VC 2022 でもだめだったのかな。
