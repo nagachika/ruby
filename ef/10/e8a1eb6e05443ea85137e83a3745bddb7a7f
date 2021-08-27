@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版で MSYS2 でインストールした patch コマンドのパスが変化してたみたいで PATCH 変数に設定しているパスを変更しています。
