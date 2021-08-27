@@ -1,0 +1,1 @@
+さらに続きで GitHub Actions の Windows 版での configure に Windows のバージョンに応じて Windows Server 2022 では --enable-bundled-libffi オプションを消すようにしています。
