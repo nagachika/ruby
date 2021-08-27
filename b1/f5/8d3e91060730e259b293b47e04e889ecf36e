@@ -1,0 +1,1 @@
+5e65f31b5ad7b2143f3905863649e43f2c238281 の続きで GitHub Actions の Windows 版で Visual Studio のバージョンは matrix に直接入れずに Windows のバージョンにあわせて VCVARS 変数を変更することで対応するバージョンを使うようにしています。
