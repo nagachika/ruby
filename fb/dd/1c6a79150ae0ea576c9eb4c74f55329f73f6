@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の設定で Windows と VS のバージョンをやっぱり matrix で指定するようにしています。前は matrix.exclude を使って不正な組み合わせを除外するようにしていましたが、matrix.include を使って os と vs のバージョンの組み合わせを指定するようにしています。
