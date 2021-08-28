@@ -1,0 +1,1 @@
+GitHub Actions の Window 版で patch コマンドを変数に設定するのを MSYS2 のシェルで command -v を実行して得るようにしています。
