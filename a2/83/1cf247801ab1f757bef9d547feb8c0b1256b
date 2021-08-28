@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版で nmake test-all の TESTOPTS に -j と --job-status=normal オプションの設定を追加しています。
