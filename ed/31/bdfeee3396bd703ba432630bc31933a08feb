@@ -1,0 +1,1 @@
+62bc4a9420fa5786d49391a713bd38b09b8db0ff で導入したオブジェクトの slot のサイズの違う page を用意する機構で rb_gc_force_recycle() でオブジェクトを強制的に解放した時に次の sweep で freelist に繋げてた slot が戻されず再利用できなくなってメモリリークになる可能性がある不具合があったので rb_gc_ractor_newobj_cache_clear() で実装していた freelist を struct heap_page::freelist に追加して行方不明にならないようにする処理を heap_page_freelist_append() という関数に切り出して gc_sweep_start() でもこれを呼ぶようにして修正しています。
