@@ -1,0 +1,1 @@
+Process.clock_gettime の rdoc 用コメントの定数 Process::CLOCK_REALTIME と Process::CLOCK_MONOTONIC のサポートされる OS リストに Windows のバージョンを追加しています。
