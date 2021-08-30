@@ -1,0 +1,1 @@
+ruby.pc ファイルを configure 時に作成していたのを template/Makefile.in にターゲットを追加して make 時に作成するようにしています。configure では参照できない変数などがあったみたいです。
