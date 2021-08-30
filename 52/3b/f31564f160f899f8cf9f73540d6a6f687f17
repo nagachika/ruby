@@ -1,0 +1,1 @@
+5dc36ddcd00fc556c04c15ce9770c5a84d7d43dc のさらに続きで d43279edacd09edf3a43e02d62f5be475e7c3bcb の Array#slice! の修正に対応するテストを追加しています。 [ruby-core:105080] [Bug #18138]
