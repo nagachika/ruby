@@ -1,0 +1,1 @@
+4f2425549a870d8c42ff26812aa53ab93bba5bc8 のリファクタリングで切り出した ary_slice_bang_by_rb_ary_splice() という関数で Array#slice! の切り出すサイズが大きすぎる時の扱いに不具合があったのを修正しています。 [ruby-core:105080] [Bug #18138]
