@@ -1,0 +1,1 @@
+template/ruby.pc.in から DEFFILE という変数の定義を削除して MinGW 環境で DLDFLAGS の定義に渡していたのを EXTDLDFLAGS の定義に渡すように変更しています。
