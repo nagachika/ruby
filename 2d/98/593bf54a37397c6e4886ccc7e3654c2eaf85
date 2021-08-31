@@ -1,0 +1,1 @@
+TracePoint が attr_reader や attr_writer などで追加された reader/writer メソッドのイベントをトレースできないのを修正しています。vm_call0_body() のメソッドの種類による分岐でフック呼び出しの実装が漏れてたのを追加しているようです。また call cache が残ってると正しくフック起動できないみたいなので TracePoint の有効化された時の cache 無効化するようにしています。 [ruby-dev:48729] [Bug #10470] [ruby-core:96032] [Bug #16383]
