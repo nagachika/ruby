@@ -1,0 +1,1 @@
+55459bdd679207640d345cae0a6cd71356732ed5 でコメントアウトしてた Reline::IOGate.erase_after_cursor を元に戻してます。たぶんデバッグ用に消してたのを戻し忘れかな?
