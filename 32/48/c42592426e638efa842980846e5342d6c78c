@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Core#dialog_proc_list という reader メソッド定義を削除しています。専用の dialog_proc メソッドがあるので。
