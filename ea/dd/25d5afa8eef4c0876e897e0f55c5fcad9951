@@ -1,0 +1,1 @@
+irb の gemspec ファイルの dependency の reline の依存バージョンを 0.2.8.pre.1 以上に変更しています。
