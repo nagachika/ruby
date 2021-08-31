@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の dialog_proc 登録時に使う context に DEFAULT_DIALOG_CONTEXT という定数を渡すようにして同じ配列を共有するようにしています。不要になった context ローカル変数の代入が残ってますね。
