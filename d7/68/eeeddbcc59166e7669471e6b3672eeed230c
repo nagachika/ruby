@@ -1,0 +1,1 @@
+02a61fe33f422d7e041531cac1a5a45a14ca5752 の続きで標準添付ライブラリ reline の Reline::Windows に SetConsoleCursorInfo() API を利用してカーソルの表示/非表示の切り替えに対応しています。
