@@ -1,0 +1,1 @@
+3a2e2a684824c8c60badd78bc30f1205ead2938c で追加したメソッドは Reline::Core のインタンスメソッドなので Reline の特異メソッドとして Reline.autocomletion, Reline.autocompletion= で呼べるように delegator を追加しています。
