@@ -1,0 +1,1 @@
+rubyspec の C API テストのための拡張ライブラリで rb_int_positive_pow() という include/ruby/internal/intern/numeric.h で宣言されている関数のソースコード内の宣言に RUBY_EXTERN をつけるようにしています。
