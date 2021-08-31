@@ -1,0 +1,1 @@
+Integer#abs の rdoc 用コメントを numeric.c から ruby 実装の numeric.rb に移動しています。
