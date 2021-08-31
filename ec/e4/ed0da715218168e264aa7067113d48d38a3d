@@ -1,0 +1,1 @@
+irb のコマンドラインオプションに --autocomplete と --noautocomplete を追加して irb の設定にも IRB.conf[:USE_AUTOCOMPLETE] を追加しています。
