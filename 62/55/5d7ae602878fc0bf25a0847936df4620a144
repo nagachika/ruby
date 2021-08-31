@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で autocompletion をデフォルト true にしていたのを false に変更しています。互換性優先のため。
