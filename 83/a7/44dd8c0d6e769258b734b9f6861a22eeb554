@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラを試す .github/workflows/compilers.yml で configure 実行のアクションを crosshost の有無で分けていたのを同じアクションで引数を決めるところで分岐するようにしています。
