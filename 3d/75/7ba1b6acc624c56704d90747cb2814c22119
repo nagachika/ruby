@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の dialog 消去時の nil で NoMethodError になるところを空配列にしておいて回避するようにしています。
