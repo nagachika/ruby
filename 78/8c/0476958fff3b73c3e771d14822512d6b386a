@@ -1,0 +1,1 @@
+d7f654ad5a688dfcd6c274346c437e36ce249c4f の sleep 追加を ervert して標準添付ライブラリ reline の Reline::Windows で Win32API の WaitForSingleObject() という Windows の API を利用して入力待ちするようにしています。
