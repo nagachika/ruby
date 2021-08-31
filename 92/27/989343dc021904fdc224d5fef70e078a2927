@@ -1,0 +1,1 @@
+d1f0d1ca2ea4d7418b096ce71f68ce2bb3afd2c4 で defs/gmake.mk に macOS で rubyspec のファイル指定のターゲットの誤爆を防ぐために追加した spec/%_spec.bundle のターゲットの拡張子を $(DLEXT) 変数を利用するように修正しています。
