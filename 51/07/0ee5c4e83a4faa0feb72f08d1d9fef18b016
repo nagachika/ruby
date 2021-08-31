@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#mkpath と Pathname#rmtree の実装(これらは ruby スクリプトで定義されている)でメソッド内で require "fileutils" していたのを autoload を利用するようにしています。このほうが高速だからとのこと。うーんなるほど。マルチスレッドでの競合はもう大丈夫なんでしたっけ。
