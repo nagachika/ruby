@@ -1,0 +1,1 @@
+ae4e301d5d180251e8e8b70437e078b61aa0f42e の追加修正で RDoc::RI::Driver#expand_name の例外を捕捉するようにしています。
