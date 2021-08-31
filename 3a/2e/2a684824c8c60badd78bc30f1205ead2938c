@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Config の autocompletion 設定のためのショートカットメソッド Reline::Core#autocompletion と Reline::Core#autocompletion= を追加しています。本当は Reline の特異メソッドを追加したかったみたいですがそれは 8750e1ada879fdb25fbea63fe5fd5f575b1a5ae7 で完了しています。
