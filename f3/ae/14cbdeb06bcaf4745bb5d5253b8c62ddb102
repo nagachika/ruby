@@ -1,0 +1,1 @@
+irb のテストで capture_io のかわりに capture_output を利用するようにしています。
