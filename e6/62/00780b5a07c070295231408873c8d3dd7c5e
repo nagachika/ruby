@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のタブ補完時のコールバック Proc を呼び出すところで Reline.core のインスタンス変数 @completion_quote_character のクリアする部分を省いたメソッドを call_completion_proc_with_checking_args として切り出すリファクタリング。
