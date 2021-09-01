@@ -1,0 +1,1 @@
+bundler の bundle install の --local オプション指定時にネットワーク通信を抑制するようにしています。
