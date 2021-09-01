@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#mkpath の引数に mode キーワード引数を追加して作成するディレクトリ/ファイルの mode を指定可能にしています。 [ruby-core:98888] [Feature #16972]
