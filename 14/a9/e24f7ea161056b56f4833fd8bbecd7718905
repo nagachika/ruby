@@ -1,0 +1,1 @@
+rubygems に新しい Gem::UriParser.parse_uri についてのテストを追加しています。
