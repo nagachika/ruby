@@ -1,0 +1,1 @@
+拡張ライブラリ zlib で zstream_data_type の T_TYPEDDATA で free 関数として独自の zstream_free() という関数を登録していたのを xfree() を指定するようにしています。zstream_finalize() の呼び出しはやめてもいいのかな? 警告抑制のためとのことだけど。
