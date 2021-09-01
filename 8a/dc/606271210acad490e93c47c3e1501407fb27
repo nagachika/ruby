@@ -1,0 +1,1 @@
+bundler の bundle gem で実行する git init の引数を shellwords でエスケープするようにしています。
