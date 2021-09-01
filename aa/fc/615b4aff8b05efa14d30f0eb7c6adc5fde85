@@ -1,0 +1,1 @@
+rubygems の rubygems/defaults/operating_system のロード時の任意の例外にメッセージを追加して再発生させるようにしています。
