@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet の missing_specs の実装で @specs を sort してからイテレートする each メソッドを利用しないで直接インスタンス変数を参照するようにしています。なんかテストの失敗の対策のためみたいです。
