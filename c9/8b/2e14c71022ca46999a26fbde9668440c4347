@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で dialog_proc のコールバック起動時に渡す context の第4要素に DialogRenderInfo のインスタンスを渡すようにしています。b30be9f22231883b3cb32dac915d967c0fc9220f で irb で受け取るようにしたのがこれですね。
