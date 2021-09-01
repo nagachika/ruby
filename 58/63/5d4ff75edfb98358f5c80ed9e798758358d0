@@ -1,0 +1,1 @@
+bundler の bundle exec の keep_file_descriptors オプションのデフォルト値を true に変更しています。おっ、これは微妙な挙動の変化ですね。
