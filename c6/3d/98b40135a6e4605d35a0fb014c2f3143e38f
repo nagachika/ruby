@@ -1,0 +1,1 @@
+irb で b30be9f22231883b3cb32dac915d967c0fc9220f で受け取った dialog_proc に渡される context の第4要素 dialog を利用してダイアログの表示位置? を調整するようにしています。
