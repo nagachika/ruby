@@ -1,0 +1,1 @@
+bundler で RUBY_ENGINE を直接参照するようにして Bundler::RubyVersion の利用のかわりにしています。
