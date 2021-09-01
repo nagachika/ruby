@@ -1,0 +1,1 @@
+bundler の require "rubygems/command" を利用するメソッド内で遅延して require するようにしています。
