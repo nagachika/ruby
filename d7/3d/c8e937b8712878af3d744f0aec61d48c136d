@@ -1,0 +1,1 @@
+rubygems の Gem::PrintableUri の不要なメソッド実装削除。
