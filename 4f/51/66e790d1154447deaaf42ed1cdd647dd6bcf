@@ -1,0 +1,1 @@
+c8a07a1231361f41963960d5acb129808f6d1c98 の変更で nil の NoMethodError 対策を追加修正。
