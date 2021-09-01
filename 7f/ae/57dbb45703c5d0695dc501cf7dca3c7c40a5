@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor::Dialog の contents= メソッドを attr_writer ではなく専用のメソッド定義をして contents_width というメンバーも表示するべき文字列の桁から設定して必要な幅にするようにしています。
