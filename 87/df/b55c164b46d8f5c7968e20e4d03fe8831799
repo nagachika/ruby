@@ -1,0 +1,1 @@
+rubygems の Gem.use_gemdeps 呼び出しを lib/rubygems.rb から削除しています。
