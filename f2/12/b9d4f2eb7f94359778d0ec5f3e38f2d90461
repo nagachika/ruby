@@ -1,0 +1,1 @@
+rubygems で gem のバージョンの比較で platform の優先順位を Platform.sort_priority というメソッドに切り出すリファクタリング。
