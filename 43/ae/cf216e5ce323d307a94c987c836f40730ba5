@@ -1,0 +1,1 @@
+同じく bundler の bundle gem で生成する GitHub Actions の workflow 設定のテンプレートで matrix で複数 ruby バージョンでテストする構成を想定した作りに修正しています。
