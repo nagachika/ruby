@@ -1,0 +1,1 @@
+3adc141a79cdab83671b7f68301901dd7726e7c4 の再修正。Gem::RemoteFetcher::FetchError.build はやっぱり削除しています。
