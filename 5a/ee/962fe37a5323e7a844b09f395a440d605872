@@ -1,0 +1,1 @@
+bundler の環境変数 RUBYGEMS_GEMDEPS についての警告メッセージ出力を削除しています。
