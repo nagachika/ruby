@@ -1,0 +1,1 @@
+compile.c の iseq_compile_each0() で変数 line_node の宣言に const 修飾子を追加しています。
