@@ -1,0 +1,1 @@
+rubygems で gem source への通信で秘密情報をマスクする処理で x-oauth-basic というのを利用している時にも対応するようにしています。
