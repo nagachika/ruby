@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する gemspec ファイルのテンプレートの spec.files の記述を変更。
