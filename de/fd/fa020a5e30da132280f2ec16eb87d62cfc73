@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の sync_default_gems_with_commits の戻り値に true/false で成否を返してコマンドの終了ステータスに反映させるようにしています。
