@@ -1,0 +1,1 @@
+bundler の require "bundler/setup" で source を検索するためのネットワーク通信を抑制するようにしています。
