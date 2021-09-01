@@ -1,0 +1,1 @@
+bundler の bundle exec の --no-keep-file-descriptors オプションを deprecated にして警告出力しています。
