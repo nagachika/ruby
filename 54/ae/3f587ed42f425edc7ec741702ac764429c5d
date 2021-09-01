@@ -1,0 +1,1 @@
+rubygems で require より require_relative を使うように全体的に変更しています。
