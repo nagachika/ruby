@@ -1,0 +1,1 @@
+bundler のテストで環境変数 RUBYGEMS_GEMDEPS を setup で削除するようにしています。
