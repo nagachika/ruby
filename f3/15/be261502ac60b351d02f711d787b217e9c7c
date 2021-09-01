@@ -1,0 +1,1 @@
+bundler の不要になったコード lib/bundler/gemdeps.rb と lib/bundler/rubygems_integration.rb をファイルごと削除しています。
