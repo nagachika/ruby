@@ -1,0 +1,1 @@
+c8a07a1231361f41963960d5acb129808f6d1c98 で reline 側の Reline::LineEditor::Dialog の属性 contents_width を width に改名したのにあわせて irb に a8e6a850d571ea798ea52753f6b3252c33dd1270 で追加した参照箇所のメソッド名を修正しています。
