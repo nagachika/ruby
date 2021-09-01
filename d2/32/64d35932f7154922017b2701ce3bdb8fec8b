@@ -1,0 +1,1 @@
+iseq_compile_each0() の引数の const 修飾子の追加や NODE_BLOCK 型の NODE のコンパイル部分を compile_block() という関数に切り出すリファクタリング。
