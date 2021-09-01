@@ -1,0 +1,1 @@
+同じく rubygems で b41802421ac7e790a98ed59be67631687fc5808f で導入された Gem::PrintableUri を利用するようにしています。
