@@ -1,0 +1,1 @@
+rubygems で gem がない時のメッセージを bundle install を促すように変更しています。
