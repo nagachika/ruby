@@ -1,0 +1,1 @@
+addr2line.c に DrangonFlyBSD をサポートするための preprocessor の条件を追加しています。
