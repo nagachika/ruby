@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で commit 範囲で同期しようとした時に対象となる commit が1つもなかった時に正常終了にするようにしています。
