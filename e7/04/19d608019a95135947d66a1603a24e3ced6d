@@ -1,0 +1,1 @@
+bundler の未初期化インスタンス変数の参照の抑制のため Bundler::Source::Rubygems#local_only! で初期化を追加しています。
