@@ -1,0 +1,1 @@
+rubygems の Gem::PrintableUri の #parse_uri メソッドで uri の複製に clone を使っていたのを dup に変更しています。
