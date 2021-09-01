@@ -1,0 +1,1 @@
+aafc615b4aff8b05efa14d30f0eb7c6adc5fde85 で Exception で全ての例外を捕捉するようにしてたのを StandardError を継承した例外のみにしています。
