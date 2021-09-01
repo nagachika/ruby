@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Struct で作ったクラス Reline::DialogRenderInfo を導入して配列のかわりに利用するリファクタリング。
