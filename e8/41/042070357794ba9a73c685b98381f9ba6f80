@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する GitHub Actions 用の設定ファイルのテンプレートでトリガー設定の指定が漏れてたのを修正しています。
