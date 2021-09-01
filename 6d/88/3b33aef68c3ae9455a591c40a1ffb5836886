@@ -1,0 +1,1 @@
+rubygems の Gem::PrintableUri で URI::Generic のインスタンスかどうかでなく user, password の reader/writer メソッドの有無などをチェックする duck typing な方法で判定するように変更しています。
