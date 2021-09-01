@@ -1,0 +1,1 @@
+rubygems の Gem::Installer で生成するスクリプトからも Gem.use_gemdeps の呼び出しを削除しています。
