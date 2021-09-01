@@ -1,0 +1,1 @@
+bundler の Bundler::Standalone でパスを絶対パス化するようにしています。
