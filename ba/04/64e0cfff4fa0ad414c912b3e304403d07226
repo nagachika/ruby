@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::GeneralIO のクラス変数 @@input の初期値を STDIN にセットしておくようにしています。
