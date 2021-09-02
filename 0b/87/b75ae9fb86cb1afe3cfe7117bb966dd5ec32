@@ -1,0 +1,1 @@
+AST を VM 命令列にコンパイルする iseq_compile_each0() から添字つき代入のメソッド呼び出しの NODE_OP_ASGN1 のコンパイル処理を compile_op_asgn1() という関数に切り出すリファクタリング。
