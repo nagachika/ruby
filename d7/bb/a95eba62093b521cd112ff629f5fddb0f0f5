@@ -1,0 +1,1 @@
+AST を VM 命令列にコンパイルする iseq_compile_each0() から range の ".." および "..." に対応する NODE_DOT2, NODE_DOT3 のコンパイル処理を compile_dots() という関数に切り出すリファクタリング。
