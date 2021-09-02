@@ -1,0 +1,1 @@
+d19af1675c9dcf4ccef643e831d83976f1831101 の拡張ライブラリ zlib の struct zstream の解放関数を消してたのを revert しています。やっぱりメモリリークするとのこと。
