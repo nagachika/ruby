@@ -1,0 +1,1 @@
+AST を VM 命令列にコンパイルする iseq_compile_each0() から ||= の代入記号 NODE_OP_ASGN_OR のコンパイル処理を compile_op_log() という関数に切り出すリファクタリング。
