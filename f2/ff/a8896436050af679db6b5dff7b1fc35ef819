@@ -1,0 +1,1 @@
+Regexp#match? の rdoc 用コメントの call-seq の整形と第2引数のデフォルト値の明示。
