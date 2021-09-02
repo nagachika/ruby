@@ -1,0 +1,1 @@
+AST を VM 命令列にコンパイルする iseq_compile_each0() から定数の名前空間のデリミタの "::" に対応する NODE_COLON2 のコンパイル処理を compile_colon2() という関数に切り出すリファクタリング。
