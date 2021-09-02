@@ -1,0 +1,1 @@
+readline のテストで入出力を pipe にして Readline.readline を呼んだ時のテストを追加しています。
