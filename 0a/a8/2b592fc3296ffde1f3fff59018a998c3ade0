@@ -1,0 +1,1 @@
+gc.c の heap_is_swept_object() という関数を呼び元の is_swept_object() 内に展開するリファクタリング。
