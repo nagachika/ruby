@@ -1,0 +1,1 @@
+test/excludes/TestArray.rb を追加して test_shared_marking というテストメソッドの実行を除外するようにしています。 GC がらみの不具合についてのテストみたいですが現在では意味がなくなっているということみたいです。 [ruby-core:61919] [Bug #9718]
