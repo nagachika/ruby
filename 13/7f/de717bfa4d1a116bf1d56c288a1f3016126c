@@ -1,0 +1,1 @@
+complex.c の f_finite_p() でも条件分岐をまとめて、また f_infinite_p() や f_integer_p() の戻り値を VALUE から int に変更して他の f_xxx_p() 関数群とそろえています。
