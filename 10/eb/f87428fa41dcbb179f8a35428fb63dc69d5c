@@ -1,0 +1,1 @@
+rb_method_entry_t の type を参照しているところで METHOD_VISI_UNDEF ではないことを確認する RUBY_ASSERT() による assertion を追加しています。
