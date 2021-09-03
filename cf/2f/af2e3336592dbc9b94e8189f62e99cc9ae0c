@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の Rdoc::RDoc#load_options メソッドを RDoc::Options.load_options に移動しています。
