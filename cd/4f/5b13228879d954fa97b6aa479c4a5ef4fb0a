@@ -1,0 +1,1 @@
+Array#concat などの実装で利用される ary_append() 関数内で引数に渡された Array オブジェクトが GC で解放される可能性があるらしく RB_GC_GUARD() で保護するようにしています。引数に渡されているものは machine stack かレジスタの参照がされると思いますが RARRAY_CONST_PTR_TRANSIENT() でバッファのポインタだけ取り出されて呼び元で他に使われてないと最適化で先に参照が消えることがありえるみたいです。 [ruby-core:105099] [Bug #18140]
