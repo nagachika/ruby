@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の Time を文字列に整形しているところで Kernel#format を使ってたのを Time#strftime を利用するようにリファクタリングしています。
