@@ -1,0 +1,1 @@
+complex.c の f_finite_p() と f_infinite_p() から FIXNUM の範囲の整数や flonum (即値になってる)の Float の時の判定してる部分を always_finite_type_p() という関数に切り出すリファクタリング。
