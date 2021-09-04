@@ -1,0 +1,1 @@
+67eaa222cf37dd95ba0be8da3972126183868810 で追加した readline の入出力が pipe の時のテストが EditLine とリンクした readline 版の時に失敗するそうなので Readline::VERSION でチェックして skip するようにしています。
