@@ -1,0 +1,1 @@
+irb のテストで自動補完が有効だと失敗するものに IRB.conf[:USE_AUTOCOMPLETE] を false に設定しておくようにしています。
