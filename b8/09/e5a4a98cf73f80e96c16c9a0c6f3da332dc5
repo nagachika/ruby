@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストの RDoc::TestCase クラスについてのコメントで minitest を利用してると書かれてるところを test-unit と変更しています。
