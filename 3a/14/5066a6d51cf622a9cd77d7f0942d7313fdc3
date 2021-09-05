@@ -1,0 +1,1 @@
+tool/lib/vcs.rb でコミットログに default gems の upstream からのマージや cherry-pick の時のログを検出してそのリポジトリでの issue や pull request の参照を URL を補完して表示するようにしています。これはコミットを読んでる人にとってうれしいですね。 コミット読みツールで issue/pull request へのリンクに変換するようにしてますけど # に番号だけだと ruby/ruby リポジトリへのリンクになってしまうので頭で判断して無視してたので。
