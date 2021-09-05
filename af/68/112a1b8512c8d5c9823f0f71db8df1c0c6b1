@@ -1,0 +1,1 @@
+tool/lib/vcs.rb でコミットログの解析に使う正規表現の共通部品を LOG_FIX_REGEXP_SEPARATORS という定数に切り出すリファクタリング。
