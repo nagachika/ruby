@@ -1,0 +1,1 @@
+irb のドキュメント表示のダイアログで receiver のあるメソッド呼び出しの記法での補完時に receiver が Module/Class の時の対応を追加しています。
