@@ -1,0 +1,1 @@
+thread_win32.h で rb_nativethread_cond_t の typedef をしてましたが include/ruby/thread_native.h で typedef しているので普通の構造体宣言だけにしています。
