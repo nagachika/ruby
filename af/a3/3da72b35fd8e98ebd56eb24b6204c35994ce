@@ -1,0 +1,1 @@
+テスト用の拡張ライブラリ群 ext/-text-/ の各種拡張ライブラリの extconf.rb で利用するライブラリ ext/-test-/auto_ext.rb で create_header の呼び出しを追加しています。 MSVC でのビルドのためらしい。コミットログをみると fiddle の upstream での変更のマージみたいなので fiddle のテストでのみ使われてるっぽいです。
