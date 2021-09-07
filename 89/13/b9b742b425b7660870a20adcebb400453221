@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::KeyStroke#expand で配列を sort して reverse してから first を取ってたのを reverse せずに last を取得するようにリファクタリングしています。
