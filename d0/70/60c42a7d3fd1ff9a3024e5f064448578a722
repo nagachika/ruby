@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::KeyStroke#match_status で配列サイズが 1 なので不要な max_by の呼び出しを削っています。
