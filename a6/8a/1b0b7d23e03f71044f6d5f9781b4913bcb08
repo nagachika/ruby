@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストで MiniTest::Assertion を rescue して無視しているところがあったので being...rescue を削っています。
