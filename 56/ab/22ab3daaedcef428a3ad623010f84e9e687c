@@ -1,0 +1,1 @@
+bb6d45cfeecc8e16ec22e89ab40fb6b56177da7f に続いて標準添付ライブラリ reline の Reline::Key#match? の引数に Symbol も受け付けるようにしています。
