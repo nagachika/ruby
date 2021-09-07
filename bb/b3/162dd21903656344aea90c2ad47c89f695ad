@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Key#match? の alias として Reline::Key#== を追加しています。
