@@ -1,0 +1,1 @@
+irb の組み込みコマンド help で RDoc::RI::Driver.process_args を呼んで rdoc のデフォルトのオプションを適用させるようにしているようです。
