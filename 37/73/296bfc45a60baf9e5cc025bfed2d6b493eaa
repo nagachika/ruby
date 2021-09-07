@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::KeyStroke の判定の修正をしています。変更内容より reline はこのために Integer や Array を Refinements を使って == を再定義してるんだなというのに気がつきました。bb6d45cfeecc8e16ec22e89ab40fb6b56177da7f や 56ab22ab3daaedcef428a3ad623010f84e9e687c で Reline::Key#match? の引数に Integer や Symbol の対応を追加したけど実装は単に比較してて、これでいいのかな? って思ったけど Refinements を使ってたからかー。
