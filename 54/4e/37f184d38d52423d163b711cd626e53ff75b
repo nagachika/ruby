@@ -1,0 +1,1 @@
+ruby コアのテスト用の test/unit で Test::Unit::AssertionFailedError 定数に MiniTest::Assertion を代入するのを tool/lib/core_assertions.rb から tool/lib/test/unit/assertions.rb に移動しています。
