@@ -1,0 +1,1 @@
+同じく tool/lib/test/unit/assertions.rb に minitest との互換性のために Test::Unit::PendedError 定数を定義して MiniTest::Skip の別名として openssl のテストで両方に対応するため defined? でチェックしていたのをシンプルにしています。
