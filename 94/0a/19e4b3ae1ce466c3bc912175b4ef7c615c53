@@ -1,0 +1,1 @@
+いくつかのテストで Minitest::Assertion を rescue していたのを Test::Unit::AssertionFailedError を rescue するように書きかえています。 minitest から test-unit への移行のため。
