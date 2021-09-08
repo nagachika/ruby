@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Config#key_bindings でメソッドチェインで Hash#merge を重ねてたのを dup して merge! で破壊的に変更するようにして中間オブジェクト生成を抑制するようリファクタリングしています。
