@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::Core の設定へのショートカットを Reline モジュールに定義する def_single_delegators の引数を Symbol にするようにしています。
