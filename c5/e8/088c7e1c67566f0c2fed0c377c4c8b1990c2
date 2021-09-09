@@ -1,0 +1,1 @@
+irb で File.absolute_path? が使えない古い ruby 向けの代替実装を追加しています。
