@@ -1,0 +1,1 @@
+gems/bundled_gems の typeprof のバージョンを 0.15.3 に更新しています。先日の GitHub Actions での更新により git さん(svn さん)が更新してくれていますね。
