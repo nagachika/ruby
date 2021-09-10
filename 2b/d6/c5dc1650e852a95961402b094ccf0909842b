@@ -1,0 +1,1 @@
+拡張ライブラリ date の extconf.rb で have_var で timezone と altzone という変数の存在チェックをする時に -Werror オプションをつけて警告が出る場合はないものと判定して使わないようにしています。
