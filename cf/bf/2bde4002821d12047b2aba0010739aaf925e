@@ -1,0 +1,1 @@
+compile.c の access_outer_variables() で COMPILE_ERROR() に余分な引数が渡されていたので削除しています。
