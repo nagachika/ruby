@@ -1,0 +1,1 @@
+include/ruby/internal/config.h の Doxygen 用コメントの @file コマンド削除。
