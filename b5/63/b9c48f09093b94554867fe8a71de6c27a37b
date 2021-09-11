@@ -1,0 +1,1 @@
+object_spec_rb_obj_taint() と string_spec_rb_tainted_str_new()、string_spec_rb_tainted_str_new2() でのコンパイラの警告を抑制するため RBIMPL_WARNING_IGNORED() で局所的に -Wdeprecated-declarations の警告を抑制するようにしています。
