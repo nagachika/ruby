@@ -1,0 +1,1 @@
+include/ruby/regex.h の Doxygen 用コメントの @file コマンドの削除。
