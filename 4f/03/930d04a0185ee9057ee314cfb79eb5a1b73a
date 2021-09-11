@@ -1,0 +1,1 @@
+ruby_cleanup() の宣言が MSVC でエラーになるそうで __cplusplus で分岐して引数の volatile 修飾子をつけたりしていたのをやめています。
