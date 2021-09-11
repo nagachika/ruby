@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::DialogRenderInfo の pointer 属性を削除して Reline::Dialog の属性に追加するリファクタリング。
