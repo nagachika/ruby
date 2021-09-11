@@ -1,0 +1,1 @@
+rb_str_buf_cat2() と rb_str_cat2() の宣言に RBIMPL_ATTR_NONNULL(()) を追加して引数に NULL を渡さないことを静的にチェックするようにしています
