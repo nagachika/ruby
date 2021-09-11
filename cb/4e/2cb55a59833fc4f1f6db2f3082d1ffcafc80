@@ -1,0 +1,1 @@
+488ef54f0bbd724fd0965b7439d00ed1a3ffc379 で GitHub Actions のいろんなコンパイラを試す workflow で configure に --enable-shared をつけるようにしたのを全てに付けるのでなく matrix 内で条件にあわせて付けるようにしています。
