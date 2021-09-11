@@ -1,0 +1,1 @@
+ruby_scan_oct() と ruby_scan_hex() の宣言に RBIMPL_ATTR_PURE() をつけていたのを RBIMPL_ATTR_NOALIAS() に変更しています。
