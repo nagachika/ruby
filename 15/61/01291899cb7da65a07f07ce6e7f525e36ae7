@@ -1,0 +1,1 @@
+include/ruby/internal/anyargs.h の RBIMPL_ANYARGS_ATTRSET() マクロの定義で RBIMPL_ATTR_NONNULL() の引数に空の () を渡すようにしています。
