@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl の ALIASES という設定に shyouhei という名前? を追加しています。Doxygen は @ ではじまるトークンをコマンドとして処理しようとするので @shyouhei という文字列をエスケープなしでそのものに展開するために設定しているみたいです。
