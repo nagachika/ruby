@@ -1,0 +1,1 @@
+include/ruby/backward/2/rmodule.h の Doxygen 用コメントの @file コマンド削除。
