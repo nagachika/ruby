@@ -1,0 +1,1 @@
+rb_data_typed_object_wrap() の定義でのコンパイラの警告を抑制するため COMPILER_WARNING_IGNORED() を使って局所的に -Wnonnull-compare を無効にするようにしています。
