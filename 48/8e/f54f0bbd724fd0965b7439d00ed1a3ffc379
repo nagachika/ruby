@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラを試す workflow で configure に --enable-shared オプションを付けるようにしています。
