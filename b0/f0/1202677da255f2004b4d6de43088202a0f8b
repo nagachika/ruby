@@ -1,0 +1,1 @@
+rubyspec の C API テスト用拡張ライブラリで 2.x 系の ruby でもビルドできるように RBIMPL_WARNING_PUSH() マクロでなく直接 #pragma を使うようにしています。
