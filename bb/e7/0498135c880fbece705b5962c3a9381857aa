@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl の除外するディレクトリの設定を ext 配下をまとめて除外するように変更しています。
