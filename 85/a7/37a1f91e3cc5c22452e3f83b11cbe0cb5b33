@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl の DOT_GRAPH_MAX_NODES という設定を増やしています。デフォルトの設定だと C API のドキュメント生成で規模が大きすぎてエラーになった模様。
