@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl の EXTRACT_STATIC の設定を YES に変更して statc 関数のコメントも対象にするようにしているようです。 [ruby-core:83433] [Bug #14037]
