@@ -1,0 +1,1 @@
+rb_fiber_new() の Doxygen による C API ドキュメント用コメントの不要な @ref コマンドの削除。
