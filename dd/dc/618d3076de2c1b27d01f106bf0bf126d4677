@@ -1,0 +1,1 @@
+gcc の -Wsuggest-attribute=format オプションでの警告除去のため関数宣言に RBIMPL_ATTR_FORMAT() というマクロを使っています。
