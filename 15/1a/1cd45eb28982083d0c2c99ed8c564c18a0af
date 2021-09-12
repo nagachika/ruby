@@ -1,0 +1,1 @@
+Test::Unit::Assertions と Test::Unit::CoreAssertions の include や extend の順序には注意が必要みたいで常に Assertions のほうが先になるようにリファクタリングしています。
