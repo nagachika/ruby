@@ -1,0 +1,1 @@
+Test::Unit::TestCase.test_suites に自分自身を初期値として追加するようにしたことによるテストのエラーの対応。
