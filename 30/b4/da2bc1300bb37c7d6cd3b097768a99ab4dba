@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb のテストライブラリのパスをバックトレースから除外するために得るところでディレクトリ名を minitest から test/unit に変更しています。
