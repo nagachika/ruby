@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で default gems のテストのために MiniTest::Assertion や MiniTest::Skip を定義していたのを削除しています。
