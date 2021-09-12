@@ -1,0 +1,1 @@
+8aaa40e55fa2812755dec33db265745c77cdb3ed で移動しファイル内で Test::Unit.runner のかわりに Test::Unit::Runner.runner を利用するように変更しています。
