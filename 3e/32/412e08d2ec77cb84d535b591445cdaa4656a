@@ -1,0 +1,1 @@
+tool/lib/test/ 配下で MiniTest::Test::TestCase のかわりに Test::Unit::TestCase を利用するように移行しています。
