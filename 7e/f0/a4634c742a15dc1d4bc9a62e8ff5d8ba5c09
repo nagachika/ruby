@@ -1,0 +1,1 @@
+Test::Unit::Runner#_run_suites メソッドも未使用になっていたので削除しています。
