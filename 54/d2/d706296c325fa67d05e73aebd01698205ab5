@@ -1,0 +1,1 @@
+tool/lib/minitest/unit.rb の MiniTest::Unit の配下の Guard, LifecycleHooks, TestCase などの Module/Class の定義を tool/lib/test/unit/testcase.rb の Test::Unit の配下に移動しています。
