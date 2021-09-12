@@ -1,0 +1,1 @@
+テスト用ライブラリ自体のテストで assert_raises のかわりに assert_raise を利用するように変更しています。
