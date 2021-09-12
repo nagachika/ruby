@@ -1,0 +1,1 @@
+同じく tool/lib/test/unit/assertions.rb の定数 MIN_HZ, MIN_MEASURABLE を tool/lib/test/unit/testcase.rb の Test::Unit::TestCase 配下に移動しています。がこれは後に revert されています。
