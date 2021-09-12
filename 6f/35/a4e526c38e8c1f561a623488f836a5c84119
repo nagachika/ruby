@@ -1,0 +1,1 @@
+doc/contributing.rdoc および doc/make_cheatsheet.md で autoconf コマンド実行のかわりに ./autogen.sh を使うことを支持するように書きかえています。
