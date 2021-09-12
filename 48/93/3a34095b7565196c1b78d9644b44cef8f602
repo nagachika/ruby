@@ -1,0 +1,1 @@
+Test::Unit::TestCase#reset でクラス変数 @@test_suites をクリアしたあと self をキーとして追加するようにしています。よくわかりませんが並列テストのためらしい。
