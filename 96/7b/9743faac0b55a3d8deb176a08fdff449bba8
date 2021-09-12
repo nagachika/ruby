@@ -1,0 +1,1 @@
+Enumerable#to_a, #to_h, #inject の rdoc 用コメントの修正。inject の call-seq から別名の reduce の例を消してるけどこれはそういうルールになったんだっけ。 https://github.com/ruby/ruby/pull/4808
