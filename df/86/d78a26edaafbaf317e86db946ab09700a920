@@ -1,0 +1,1 @@
+tool/lib/test/unit/assertions.rb で MiniTest::Assertions.diff というクラスメソッドを呼び出しているところを self.class.diff とクラス名を明示しないかたちで呼び出すように変更しています。
