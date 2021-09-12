@@ -1,0 +1,1 @@
+Test::Unit::Runner.run の実装を消して呼び元の Test::Unit::AutoRunner#run に展開しています。がこれは後に revert されています
