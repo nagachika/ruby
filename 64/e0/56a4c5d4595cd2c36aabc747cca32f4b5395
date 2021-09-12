@@ -1,0 +1,1 @@
+tool/test/testunit/test_minitest_unit.rb に 1.8以前の ruby を対応するためのコードが残っていたのを削除しています。
