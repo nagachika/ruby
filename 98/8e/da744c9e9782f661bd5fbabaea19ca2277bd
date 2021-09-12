@@ -1,0 +1,1 @@
+Test::Unit::Runner#process_args というメソッドが不要になっていたので削除しています。
