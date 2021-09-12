@@ -1,0 +1,1 @@
+一部のテストで MiniTest::Unit のかわりに Test::Unit::Runner を利用するように変更しています。
