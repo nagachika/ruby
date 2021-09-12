@@ -1,0 +1,1 @@
+Test::Unit::Runner に Test::Unit::StatusLine を include していたのを extend に変更してメソッド上書きするようにしています。
