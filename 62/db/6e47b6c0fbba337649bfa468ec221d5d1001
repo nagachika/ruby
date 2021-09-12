@@ -1,0 +1,1 @@
+Test::Unit::Runner#initialize の実装を削除して Test::Unit::Options#initialize に移動しています。
