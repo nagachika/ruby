@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb の _run_suite メソッドを orig_run_suite の alias として定義を変更しています。
