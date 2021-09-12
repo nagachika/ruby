@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb と tool/lib/test/unit/testcase.rb にコメントで MiniTest を利用することを前提とした箇所があったので削除したり書きかえたりしています。
