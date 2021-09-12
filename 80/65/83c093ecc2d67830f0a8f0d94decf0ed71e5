@@ -1,0 +1,1 @@
+assert_separately で子プロセスの最初に実行させる処理で Test::Unit::CoreAssertions の include を tool/lib/core_assertions.rb 自体の require の前にするように順序を変更しています。
