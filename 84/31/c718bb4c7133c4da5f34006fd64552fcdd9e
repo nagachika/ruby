@@ -1,0 +1,1 @@
+同じく tool/lib/minitest/unit.rb で MiniTest::Test という定数を互換性のため定義していたのを削除しています。
