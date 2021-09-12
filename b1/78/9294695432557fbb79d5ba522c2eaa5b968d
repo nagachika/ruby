@@ -1,0 +1,1 @@
+93c44c4ed2f3b35db862f4238e5fb104cfb7aab9 で tool/lib/test/unit/testcase.rb に移動した定数 MIN_HZ や MIN_MEASURABLE の定義を元の tool/lib/test/unit/assertions.rb に戻しています。RubyCI で定数未定義になって失敗してしまったとのこと。
