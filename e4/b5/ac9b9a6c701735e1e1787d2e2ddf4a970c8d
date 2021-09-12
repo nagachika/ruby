@@ -1,0 +1,1 @@
+テスト用のライブラリで MiniTest::Unit::TestCase のかわりに Test::Unit::TestCase を利用するようにしています。
