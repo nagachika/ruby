@@ -1,0 +1,1 @@
+tool/lib/minitest/unit.rb から MiniTest::Unit モジュール全体を Test::Unit::Runner 内に移動しています。
