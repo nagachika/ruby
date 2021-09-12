@@ -1,0 +1,1 @@
+テスト用ライブラリ内でまだ MiniTest::Assertions を使っているところがあったので Test::Unit::Assertions を使うように変更しています。
