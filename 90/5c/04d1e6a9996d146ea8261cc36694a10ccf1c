@@ -1,0 +1,1 @@
+テスト用ライブラリ自体のテストで MiniTest::Assertion や MiniTest::Skip を使っていたところを Test::Assertion、Test::Skip を利用するように変更しています。
