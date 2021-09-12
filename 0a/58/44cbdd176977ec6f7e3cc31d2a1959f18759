@@ -1,0 +1,1 @@
+tool/test/testunit/test_minitest_unit.rb のテストから Test::Unit への移行により不要になったテストを削除しています。
