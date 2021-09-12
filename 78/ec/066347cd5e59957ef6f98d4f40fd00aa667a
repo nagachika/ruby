@@ -1,0 +1,1 @@
+一部のテストで Test::Unit::Assertions のかわりに Test::Unit::CoreAssertions を利用するように変更しています。
