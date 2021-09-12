@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb の不要な require を削除しています。
