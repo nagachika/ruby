@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb でバックトレースの不要なファイルの行を消すためにチェックしていたファイルパスを lib/minitest から lib/test に変更しています。
