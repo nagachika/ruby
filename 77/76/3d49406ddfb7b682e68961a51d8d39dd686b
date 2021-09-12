@@ -1,0 +1,1 @@
+tool/lib/minitest/unit.rb で Minitest という定数を typo 対策として定義してたのを削除しています。
