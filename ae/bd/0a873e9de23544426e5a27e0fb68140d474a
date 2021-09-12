@@ -1,0 +1,1 @@
+tool/lib/test/unit/testcase.rb と tool/test/testunit/test_minitest_unit.rb から maglev 向けのコードを削除しています。
