@@ -1,0 +1,1 @@
+tool/lib/minitest/unit.rb の Minitest::Assertions モジュールの内容を tool/lib/minitest/unit.rb の Test::Unit::Assertions の中に移動しています
