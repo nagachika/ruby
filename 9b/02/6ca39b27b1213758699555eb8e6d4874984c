@@ -1,0 +1,1 @@
+テスト用ライブラリ内で MiniTest::Skip や MiniTest::Assertion のかわりに Test::Skip や Test::Assertion を利用するように移行しています。
