@@ -1,0 +1,1 @@
+テスト用ライブラリで Test::Skip のかわりに Test::Unit::PendedError を利用するようにしています。
