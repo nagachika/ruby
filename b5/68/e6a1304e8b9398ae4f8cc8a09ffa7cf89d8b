@@ -1,0 +1,1 @@
+C++ で拡張ライブラリを書いている時の警告抑制のために rb_iterate() の宣言に RBIMPL_ATTR_DEPRECATED() をつけるようにしています。
