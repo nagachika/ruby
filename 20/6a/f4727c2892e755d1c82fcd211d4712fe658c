@@ -1,0 +1,1 @@
+同じく Test::Unit::Runner#puke メソッドは削除して Test::Unit::AutoRunner#puke に展開しています。
