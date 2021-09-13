@@ -1,0 +1,1 @@
+rubyspec の C API テスト用拡張ライブラリで string_spec_rb_vsprintf_worker() と call_rb_str_vcatf() という関数の宣言に PRINTF_ARGS() マクロを利用して printf タイプの引数のチェックが有効になるようにしています。
