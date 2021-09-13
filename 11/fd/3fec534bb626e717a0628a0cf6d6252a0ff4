@@ -1,0 +1,1 @@
+benchmark/ 配下に Time.new や Time.parse のベンチマークを追加しています。
