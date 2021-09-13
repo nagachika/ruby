@@ -1,0 +1,1 @@
+Test::Unit::Runner に Test::Unit 配下の Module 群を include していたのを prepend に変更しています。 Test::Unit::Runner#run を上書きするために prepend でないといけなかったようです。以前は MiniTest::Unit#run が呼ばれてたので include でも先に呼ばれてたけど移動したので prepend じゃないといけなくなったということみたいです。
