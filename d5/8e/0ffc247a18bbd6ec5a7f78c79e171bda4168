@@ -1,0 +1,1 @@
+tool/lib/test/unit/testcase.rb で Test::Unit::TestCase の run_test を __send__ への alias として宣言して直後に run_test メソッドを定義して上書きするという謎なことをしていたので alias を削除しています。
