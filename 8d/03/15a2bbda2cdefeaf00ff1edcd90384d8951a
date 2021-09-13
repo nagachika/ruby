@@ -1,0 +1,1 @@
+tool/lib/test/unit/assertions.rb から capture_subprocess_io メソッドの定義を削除しています。
