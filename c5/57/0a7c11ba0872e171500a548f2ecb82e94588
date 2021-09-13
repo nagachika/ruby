@@ -1,0 +1,1 @@
+99d8c4832a7133ca52578d015e3ddcfd94820f4a の続きで MatchData#offset で対応するグループの通し番号を得た後で範囲内の整数かチェックしている部分を backref_number_check() という関数に切り出すリファクタリング。 [ruby-core:105204] [Bug #18160]
