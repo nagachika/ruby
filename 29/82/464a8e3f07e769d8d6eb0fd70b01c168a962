@@ -1,0 +1,1 @@
+62db6e47b6c0fbba337649bfa468ec221d5d1001 でテスト用ライブラリの Test::Unit::Runner#initialize の実装を移動していたのを revert しています。 308183fffab43f1e111d5bb4c60f1380432966e6 で Module#include のかわりに Module#prepend を使うようにしたことで解決したため。
