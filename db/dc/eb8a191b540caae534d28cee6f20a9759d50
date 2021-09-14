@@ -1,0 +1,1 @@
+tool/lib/test/unit/testcase.rb で --test-order オプションの処理を MiniTest 利用のため undef したりしてた workaround を削除しています。
