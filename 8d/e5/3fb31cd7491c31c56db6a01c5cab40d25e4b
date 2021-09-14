@@ -1,0 +1,1 @@
+標準添付ライブラリ reline でキーストロークの判定のために Integer#== や Array#== メソッドを Refinements を使って上書き定義していたのを Reline::KeyStroke クラスのほうに equal? メソッドを実装してその中にロジックを詰め込むようにリファクタリングしています。
