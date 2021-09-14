@@ -1,0 +1,1 @@
+tool/lib/test/unit/assertions.rb で skip メソッドを定義していたのを pend というメソッドを定義するようにしています。また skip を pend の alias として追加しています。
