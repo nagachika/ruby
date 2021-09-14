@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の separated_runner で引数に時刻や乱数を元に作るトークンを渡して子プロセスの出力から目的の行を切り出せるようにしています。
