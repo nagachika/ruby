@@ -1,0 +1,1 @@
+configure で Dragonfly BSD 用に Fiber 用 coroutine 実装を設定する条件を追加しています。
