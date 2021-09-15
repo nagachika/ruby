@@ -1,0 +1,1 @@
+vm_yield() で invoke_block_from_c_bh() を呼んでいたのをさらにその wrapper である vm_yield_with_cref() を呼ぶようにリファクタリングしています。
