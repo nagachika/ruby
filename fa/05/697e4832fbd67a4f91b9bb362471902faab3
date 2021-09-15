@@ -1,0 +1,1 @@
+parse.y の parser_token_value_print() という関数定義を削除して Bison の %printer という directive を利用するように変更しています。新しい Bison では YYPRINT マクロのかわりにこういう記法を使うんですね。
