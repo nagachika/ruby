@@ -1,0 +1,1 @@
+Dir クラスと Time クラスの rdoc 用コメントに継承元の Class や include している Module を記述するようにしています。 https://github.com/ruby/ruby/pull/4827
