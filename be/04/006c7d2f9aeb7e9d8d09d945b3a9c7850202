@@ -1,0 +1,1 @@
+tool/lib/test/unit/assertions.rb の capture_io を capture_output に改名して capture_io は NoMethodError 例外を発生させるようにしています。
