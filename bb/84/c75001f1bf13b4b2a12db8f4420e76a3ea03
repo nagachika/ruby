@@ -1,0 +1,1 @@
+522d4cd32f7727886f4fcbc28ed29c08d361ee20 で Hash#transform_key! の不具合修正のついでに(?) 中間オブジェクトを rb_gc_force_recycle() で即座に解放させていたのを revert しています。不要な変更ではあると思うけどなんかまずかったんだろうか。 [ruby-core:102949] [Bug #17735]
