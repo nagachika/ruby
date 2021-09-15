@@ -1,0 +1,1 @@
+455978cd133f27fab9e2bfa4301efd3b7c7d0462 に追随して mu_pp のテストに Test::Unit::Assertions モジュールのかわりに Test::Unit::CoreAssertions を使うようにしています。
