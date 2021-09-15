@@ -1,0 +1,1 @@
+テストで capture_io のかわりに capture_output を利用するように変更しています。
