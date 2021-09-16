@@ -1,0 +1,1 @@
+標準添付ライブラリ racc のテストで test/racc/helper.rb というファイルを test/racc/case.rb に改名しています。
