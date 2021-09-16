@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の gemspec ファイルの spec.bindir と spec.executables を削除しています。logger.gem に実行するコマンドなどはなくて不要なので。
