@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ racc のテストでも core_assertions の require を削除しています。
