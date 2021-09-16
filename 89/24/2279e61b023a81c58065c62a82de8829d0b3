@@ -1,0 +1,1 @@
+Marshal.load に Proc オブジェクトをコールバックとして渡した時に String を dump した文字列を load した時に String オブジェクトに Encoding が紐付けられる前にコールバックを呼び出してしまっていた不具合を修正しています。 [ruby-core:105104] [Bug #18141]
