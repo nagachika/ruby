@@ -1,0 +1,1 @@
+include/ruby/atomic.h の各種マクロに Doxygen による C API ドキュメント用のコメントを追加しています。
