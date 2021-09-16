@@ -1,0 +1,1 @@
+Array#bsearch と Range#bsearch の rdoc 用コメントを doc/bsearch.rdoc という独立したファイルに移動してそこへのリンクにおきかえています。 https://github.com/ruby/ruby/pull/4838
