@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl を Doxygen 1.9.3 の doxygen -g で作りなおしたみたいです。けど独自に追加した ALIASES とかは残ってるので生成後の変更は残ってるっぽい。
