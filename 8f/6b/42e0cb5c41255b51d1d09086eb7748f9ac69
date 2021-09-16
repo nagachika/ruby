@@ -1,0 +1,1 @@
+標準添付ライブラリ logger のテストで test/logger/helper.rb を削除して core_assertion の require を不要としています。これも脱 MiniTest の結果かなぁ。
