@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で 8de53fb31cd7491c31c56db6a01c5cab40d25e4b で KeyStroke の判定のために Refinements を使うのをやめた時に空の Module の定義を消し忘れてたので削除しています。
