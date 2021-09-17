@@ -1,0 +1,1 @@
+gc.c の invalidate_moved_plane() という関数に struct gc_sweep_context を引数として渡してそこで解放した slot 数を蓄積させていって後でまとめて objspace->profile.total_freed_objects や struct heap_page::free_slots に反映させていたのを、invalidate_moved_plane() の中で直接これらのメンバーを更新してくようにしてこの不要な引数を削除しています。page のほうの free_slots の更新の対象の page が移動先になってたのを移動元のほうを加算するように修正しているようです。
