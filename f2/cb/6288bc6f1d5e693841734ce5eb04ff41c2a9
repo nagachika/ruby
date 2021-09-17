@@ -1,0 +1,1 @@
+MatchData#match_length メソッドを追加しています。 MatchData#match と同様にインデックスか文字列/Symbol でグループに対応するマッチした部分文字列のサイズを返すメソッドです。 [ruby-core:105290] [Feature #18172]
