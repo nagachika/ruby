@@ -1,0 +1,1 @@
+おそらく e624d0d202ef691f5c75841b90bf44a624e3cdcc の続きで gc.c の gc_page_sweep() で struct heap_page::free_slots を同様に struct gc_sweep_context に蓄積させておいてあとで代入しているところを、直接加算していることを考慮して上書きでなく加算するようにしています。
