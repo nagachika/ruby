@@ -1,0 +1,1 @@
+e624d0d202ef691f5c75841b90bf44a624e3cdcc の追加修正で invalidate_moved_plane() で移動するオブジェクトの flags の FL_FROM_FREELIST というビットフラグの有無をみて total_freed_objects を加算するかどうか決めてるところを、移動後のオブジェクトのフラグをみてしまっていたので移動元のオブジェクトのほうで判定するように修正しています。
