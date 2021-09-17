@@ -1,0 +1,1 @@
+09d724e6f846b4e53e8571d41ca7d3055d732d9f と f2cb6288bc6f1d5e693841734ce5eb04ff41c2a9 で追加した MathData#match と MatchData#match_length メソッドについて NEWS に追記しています。 [ruby-core:105290] [Feature #18172]
