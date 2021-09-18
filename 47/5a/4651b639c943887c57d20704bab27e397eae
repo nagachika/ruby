@@ -1,0 +1,1 @@
+f2cb6288bc6f1d5e693841734ce5eb04ff41c2a9 で追加した MatchData#match_length のテストメソッドの名前が間違っていて重複していたので修正しています。 [ruby-core:105290] [Feature #18172]
