@@ -1,0 +1,1 @@
+178ee1e801acb33d13b3e8a630f6ca4926c68fbc の続きで Module.allocate や Class.allocate などの特異メソッドの undef を追加しています。空の Class や Module はおかしなことになるので作っちゃだめということですね。 [ruby-core:99311] [Bug #17048]
