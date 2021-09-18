@@ -1,0 +1,1 @@
+Thread::Mutex の rb_data_type_t のフラグに RUBY_TYPED_WB_PROTECTED を追加して Thread::Mutex のインスタンスを WriteBarrier protected なオブジェクトとして扱えるようにしています。Mutex の構造体は他の Ruby オブジェクトへの参照がないので。
