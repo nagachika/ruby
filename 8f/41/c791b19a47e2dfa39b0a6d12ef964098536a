@@ -1,0 +1,1 @@
+rubyspec に MatchData#match と MatchData#match_length メソッドについてのテストを追加しています。 [ruby-core:105290] [Feature #18172]
