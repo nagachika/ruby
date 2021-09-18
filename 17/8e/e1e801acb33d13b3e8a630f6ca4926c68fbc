@@ -1,0 +1,1 @@
+Module の initialize_copy メソッドを(private メソッドなので __send__ などで)呼ぶ時にコピー元が Module の場合に異常終了する場合があったみたいなのを修正しています。 rb_module_s_alloc() で Module のインスタンスを作る時に struct RClass::super を rb_cBasicObject に設定しておいて、Module#initialize_copy の引数に渡された場合に 0 にクリアして複数回コピーされないようにしているみたいです。 [ruby-core:99311] [Bug #17048]
