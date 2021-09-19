@@ -1,0 +1,1 @@
+bundler の bundle remove の --install オプションを deprecated にして指定されなくても bundle install 再実行するようにしています。
