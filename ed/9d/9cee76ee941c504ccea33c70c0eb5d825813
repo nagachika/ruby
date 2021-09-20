@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.of に C 実装のメソッドの UnboundMethod を渡すと SEGV してしまう不具合を修正しています。 [ruby-core:105341] [Bug #18178]
