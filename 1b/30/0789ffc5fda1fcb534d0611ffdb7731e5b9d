@@ -1,0 +1,1 @@
+ed9d9cee76ee941c504ccea33c70c0eb5d825813 の RubyVM::AbstractSyntaxTree.of の修正の再修正。 ISeq の取得できないメソッドを渡された時に ArgumentError 例外を発生させるようにしてましたが、以前のバージョンにあわせて nil を返すようにしています。 [ruby-core:105341] [Bug #18178]
