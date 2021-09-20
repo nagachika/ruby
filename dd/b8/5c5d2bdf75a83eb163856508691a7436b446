@@ -1,0 +1,1 @@
+require で $LOADED_FEATURES に登録されるパスが symbolic link を経由しているものだと実際には同じファイルが複数回 load される可能性があったのを修正しています。しかし $LOADED_FEATURES に realpath を登録するのだとうまくいかないとのことで別途 load 済みの realpath のテーブルを持ってそっちで既に load 済みだったら実際のファイル読み込みをスキップするするというアプローチを取っているようです。 [ruby-core:104010] [Bug #17885]
