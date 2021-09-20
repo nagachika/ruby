@@ -1,0 +1,1 @@
+ddb85c5d2bdf75a83eb163856508691a7436b446 の require で実体が同じファイルを symbolic link 経由で複数回 load しないようにする修正を revert しています。 CI で警告が出ていたためとのこと。 [ruby-core:104010] [Bug #17885]
