@@ -1,0 +1,1 @@
+vm_call0_body() および vm_call_method_each_type() で attr_reader/writer/accessor で定義されたメソッドのための TracePoint のフックを起動する処理を共通化させて VM_CALL_METHOD_ATTR() というマクロに切り出すリファクタリング。
