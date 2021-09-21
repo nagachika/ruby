@@ -1,0 +1,1 @@
+MinGW 版のビルドで uCRT というランタイム(?)を使う時のビルドエラーの修正として win32/win32.c の set_pioinfo_extra() の宣言に加えて _CrtSetReportMode() と _RTC_SetErrorFunc() というマクロの定義も追加しています。
