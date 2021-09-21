@@ -1,0 +1,1 @@
+649c87bd86d08bee8cd61584e6ece34e15e6814d で rubyspec に追加したテストの describe と ruby のバージョンでの guard の順序を入れかえています。
