@@ -1,0 +1,1 @@
+同じく MinGW での uCRT でのビルドのため configure 時の dll ファイル名の対応を増やしています。
