@@ -1,0 +1,1 @@
+88ba5fe547cae2370eccbe230754f59e1d5cbaf3 で公開 C API にした rb_fiber_raise() のテストを rubyspec に追加しています。
