@@ -1,0 +1,1 @@
+configure の Fiber 用 coroutine の決定のところで MinGW での target_os 名を mingw32 固定にせず 32 の部分は可変にしています。
