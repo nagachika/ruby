@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow で uCRT を利用したビルドを追加しています。
