@@ -1,0 +1,1 @@
+MinGW のビルド時に RUBY_PLATFORM の名前に x64-mingw-ucrt のように ucrt という文字列が含まれる場合に対応しています。
