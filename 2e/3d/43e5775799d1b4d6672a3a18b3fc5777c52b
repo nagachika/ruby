@@ -1,0 +1,1 @@
+178ee1e801acb33d13b3e8a630f6ca4926c68fbc の Module の initialize_copy 時の不具合修正のために未初期化であるマークのために struct RClass::super を rb_cBasicObject で埋めるようにした時の変更で未初期化の Module を include しようとすると例外が発生するようになっていたので、ensure_includable() 内で例外発生させるかわりにその時点で super を 0 でクリアするように修正しています。 [ruby-core:105334] [Bug #18177]
