@@ -1,0 +1,1 @@
+blocking fiber 用の Scheduler のインターフェースとして scheduler_close メソッドというのがあれば close のかわりにこちらを呼ぶようにしています。
