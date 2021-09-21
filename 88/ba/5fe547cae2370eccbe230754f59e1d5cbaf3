@@ -1,0 +1,1 @@
+rb_fiber_t::resuming_fiber を VALUE から struct rb_fiber_struct * とオブジェクト参照から構造体へのポインタを直接持つように変更し rb_fiber_raise() をリファクタリングして static 関数ではなく公開 C API として include/ruby/internal/intern/cont.h にも宣言を追加しています。
