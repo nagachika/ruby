@@ -1,0 +1,1 @@
+178ee1e801acb33d13b3e8a630f6ca4926c68fbc の修正時に切り出した関数の名前 rb_module_check_initialiable() を rb_module_check_initializable() に修正しています。 [ruby-core:99311] [Bug #17048]
