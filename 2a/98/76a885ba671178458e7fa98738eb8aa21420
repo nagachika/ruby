@@ -1,0 +1,1 @@
+GC.stat の rdoc 用コメントで返される Hash の各項目の説明を追加しています。 https://github.com/ruby/ruby/pull/4843
