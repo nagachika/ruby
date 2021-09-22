@@ -1,0 +1,1 @@
+Makefile の rm のようなコマンド用の変数 RM に加えて RM1 という変数も追加しています。 win32/Makefile.sub では del /f /q を使うように設定して ext/ripper/ripper.c の生成時の sub make の時に RM=$(RM1) のようにこちらにすりかえるようにしています。
