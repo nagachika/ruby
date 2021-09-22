@@ -1,0 +1,1 @@
+Incremental GC の実装時に xmalloc() で集計している確保済みメモリ領域サイズのカウンタのリセットが誤っていたのを修正しています。 gc_reset_malloc_info() 内で is_full_marking() を呼んで full GC 中かどうか判定していたのを、引数で full GC 中かどうか呼び元の gc_start() のフラグをそのまま渡すようにしています。 https://github.com/ruby/ruby/pull/4860
