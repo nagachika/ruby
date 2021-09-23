@@ -1,0 +1,1 @@
+rubygems のテストで Gem::Request のテストに渡す uri を URI のインスタンスにしてたのを Gem::Uri のインスタンスにするように修正しています。
