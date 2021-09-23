@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/resolver/set.rb 内の不要な require "uri" を削除しています。
