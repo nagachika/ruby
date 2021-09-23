@@ -1,0 +1,1 @@
+rubygems で gemspec ファイルの authors, summary, description, email などの項目をテンプレートの TODO や FIXME のままにしている時にパッケージをビルドできないようにチェックしているところで文中に含まれていてもチェックしていたのを先頭に残っている時だけチェックするように修正しています。
