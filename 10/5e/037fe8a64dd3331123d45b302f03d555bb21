@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する gemspec ファイルのテンプレートで metadata["allowed_push_host"] のサンプルとして書かれてた https://mygemserver.com を https://example.com に変更しています。 example.com は実際に使われるドメインとして取られることがないことが保証されてるので例示する時にはこのドメインを使うというのが慣例なので。
