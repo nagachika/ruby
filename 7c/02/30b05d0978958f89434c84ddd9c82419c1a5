@@ -1,0 +1,1 @@
+Module#ruby2_keywords で修飾されたメソッドの最後の Hash 引数につけるフラグを Marshal.load 時に復旧する時に Symbol の名前の先頭の文字しか比較していなかった不具合を修正しています。 [ruby-core:105371] [Bug #18184]
