@@ -1,0 +1,1 @@
+include/ruby/atomic.h の関数マクロを極力 inline 関数として実装しなおしています。attribute を使ったコンパイラのチェックが効きやすくするためみたいです。
