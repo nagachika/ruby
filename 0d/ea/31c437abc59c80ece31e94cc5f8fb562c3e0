@@ -1,0 +1,1 @@
+include/ruby/internal/attr/noalias.h の RBIMPL_ATTR_NOALIAS() マクロの定義で Clang の 12 より前のバージョンでは __declspec(noalias) が期待したように機能してくれないとのことで使わないように preprocessor 分岐を追加しています。
