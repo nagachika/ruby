@@ -1,0 +1,1 @@
+common.mk の make install 時の tool/rbinstall.rb 実行コマンドに --install=all というオプションを渡すのを追加しています。たぶん省略時も all 指定になるので変わらないと思いますが dont-install-all というターゲットのコマンドと揃えるためみたいです。
