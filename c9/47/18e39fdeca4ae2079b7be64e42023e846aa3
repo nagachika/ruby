@@ -1,0 +1,1 @@
+irb の require の補完のために Gem::Specification.latest_specs を呼び出してるところを Gem::Specification が定義されているか defined? でチェックするようにしています。また配列をまとめるのに Array#+ のかわりに Array#| を使うように変更しています。
