@@ -1,0 +1,1 @@
+Kernel#system の実装で Process.spawn などで使う構造体 struct rb_execarg に子プロセスの終了ステータスなどを格納する status メンバーを追加し Kernel#system で終了状態を取得するあたりをリファクタリングしています。コミットログをみると blocking fiber での子プロセスの終了待ちで自動 yield するための変更みたいですけど waitpid_sleep() のかわりに Process.wait の実装である rb_process_status_wait() の呼び出しに変更しているのでそこで Scheduler 対応しているからってことですね。結構大きな変更ではあるので後を引きそう。こういう変更時についでにコーディングスタイルを変更するのはやめて欲しいなぁ。
