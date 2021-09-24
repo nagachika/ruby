@@ -1,0 +1,1 @@
+marshal.c の to_be_skipped_id() というマクロを inline 関数に変更しています。
