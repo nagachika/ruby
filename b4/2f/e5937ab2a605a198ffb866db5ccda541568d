@@ -1,0 +1,1 @@
+irb の補完処理で Symbol.all_symbols で取り出した Symbol を Encoding.default_external に encode しなおす時に Encoding::InvalidByteSequenceError が発生した場合に捕捉して例外を投げなおすようにしています。デバッグ用かな。
