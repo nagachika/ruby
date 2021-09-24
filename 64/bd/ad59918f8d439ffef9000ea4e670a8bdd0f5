@@ -1,0 +1,1 @@
+marshal.c の r_ivar() と w_ivar() からオブジェクトの flags の ruby2_keywords 用のビットフラグをチェック/更新する処理を rb_hash_ruby2_keywords() および rb_hash_ruby2_keywords_p() という static 関数に切り出すリファクタリング。
