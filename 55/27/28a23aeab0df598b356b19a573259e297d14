@@ -1,0 +1,1 @@
+7c0230b05d0978958f89434c84ddd9c82419c1a5 の ruby2_keywords つきメソッドに渡された Hash のフラグを Marshal.load 時に保持する修正で対象の Symbol の Encoding をチェックして US-ASCII でなかったら無視するように条件分岐を追加しています。 NUL 文字を含む可能性があるのを排除するためかな? [ruby-core:105371] [Bug #18184]
