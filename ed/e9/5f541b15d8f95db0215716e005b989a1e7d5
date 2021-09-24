@@ -1,0 +1,1 @@
+irb の補完処理で Symbol.all_symbols で取得した Symbol の処理時に Encoding::UndefinedConversionError 例外を捕捉して無視してたのをその親クラスの EncodingError でもっとまとめて捕捉するように変更しています。そうすると b42fe5937ab2a605a198ffb866db5ccda541568d で追加した Encoding::InvalidByteSequenceError の rescue もここでまとめてされるのでそちらは不要になりましたね。
