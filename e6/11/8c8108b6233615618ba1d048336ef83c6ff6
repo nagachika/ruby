@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラでのビルドを試す workflow で make コマンドを $make 変数にセットして -j オプションつきで実行させていたのをかわりに GNUMAKEFLAGS 環境変数にセットしておくように変更しています。環境変数に make というのがあると rubygems のテストが失敗することがあったそうです。
