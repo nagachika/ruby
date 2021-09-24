@@ -1,0 +1,1 @@
+rdoc 用コメントのサンプル内で String#unpack を使っているところで String#unpack1 で足りるところは unpack1 を使うように変更しています。
