@@ -1,0 +1,1 @@
+Range#% メソッドの rdoc 用コメントを追加しています。また Range クラスの rdoc 用コメントにメソッド一覧のクロスリファレンスを追加しています。 https://github.com/ruby/ruby/pull/4881
