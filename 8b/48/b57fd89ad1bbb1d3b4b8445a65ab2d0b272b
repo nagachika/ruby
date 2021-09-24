@@ -1,0 +1,1 @@
+enumerator.c の rb_arithmetic_sequence_beg_len_step() の最初の RUBY_ASSERT() での引数のチェックを RBIMPL_HAS_ATTRIBUTE(nonnull) が偽の時だけするように preprocessor 分岐を追加しています。include/ruby/internal/intern/enumerator.h の宣言に RBIMPL_ATTR_NONNULL(()) をつけているので有効ならチェックは不要なので。
