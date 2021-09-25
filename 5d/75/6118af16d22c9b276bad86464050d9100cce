@@ -1,0 +1,1 @@
+addr2line.c の read_dw_form_addr() という関数で読みこむサイズに構造体 DebugInfoReader の format というメンバーを利用していたのを address_size を利用するように修正しています。たぶん現実的な環境では値は同じだと思いますが意味が異なってるんだろうな。
