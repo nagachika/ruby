@@ -1,0 +1,1 @@
+Range#== および Range#eql? の rdoc 用コメントの typo 修正。 https://github.com/ruby/ruby/pull/4889
