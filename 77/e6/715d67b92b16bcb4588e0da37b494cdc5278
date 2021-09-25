@@ -1,0 +1,1 @@
+addr2line.c の DWARF の DW_RLE_start_length というレコードを正しく処理していなかったのを修正しています。 [ruby-core:103578] [Bug #17823]
