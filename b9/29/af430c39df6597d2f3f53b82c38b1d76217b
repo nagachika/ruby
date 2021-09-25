@@ -1,0 +1,1 @@
+65285bf673914424e960671d1d35e357c455985e の続きで Module の未初期化であることをマークするための方法として struct RClass::super を使うのをやめて flags に RUBY_FL_USER5 のビットフラグを利用するようにしています。 [ruby-core:105374] [Bug #18185]
