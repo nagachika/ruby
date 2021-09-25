@@ -1,0 +1,1 @@
+addr2line.c の ranges_include() という関数で DW_RLE_base_address というレコードのアドレスを加算するのを忘れてたのを修正しています。
