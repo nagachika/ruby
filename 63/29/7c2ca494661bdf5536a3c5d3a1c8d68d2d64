@@ -1,0 +1,1 @@
+include/ruby/atomic.h の rbimpl_atomic_inc() を inline 関数化したものの定義に HAVE_GCC_ATOMIC_BUILTINS か HAVE_GCC_SYNC_BUILTINS が定義済みの時に rbimpl_atomic_xxx() という関数群を利用する実装を追加しています。MinGW での警告抑制のためだそうです。
