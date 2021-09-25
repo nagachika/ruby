@@ -1,0 +1,1 @@
+63109976bef20a7141f18fc33d6d8a867c3a7fc1 で rubygems がメッセージ出力時に Gem::Uri のインスタンスを再度 Gem::Uri.new に渡してたのを冗長としてやめていましたが、やっぱり Gem::Uri#redact を呼び出して変更するので必要だったのに気がついたようで revert しています。
