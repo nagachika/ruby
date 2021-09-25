@@ -1,0 +1,1 @@
+win32/win32.c の kernel32.dll の関数を取得している部分のいくつかに Windows Vista または Windows Server 2008 以降で利用可能なシンボルというコメントを追記しています。
