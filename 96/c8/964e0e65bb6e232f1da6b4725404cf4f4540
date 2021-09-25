@@ -1,0 +1,1 @@
+Marshal.load のテストに ruby2_keywords のフラグつきの Hash の dump 結果の Symbol の Encoding を無理矢理 UTF-7 に置換してみてエラーになるのを確認するテストを追加しています。
