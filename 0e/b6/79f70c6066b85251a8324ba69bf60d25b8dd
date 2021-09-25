@@ -1,0 +1,1 @@
+Windows の API の HCRYPTPROV という型の値を INVALID_HANDLE_VALUE という定数と比較していたのをやめて INVALID_HANDLE_VALUE を HCRYPTPROV 型に明示的にキャストした定数 INVALID_HCRYPTPROV というのを導入してこれと比較するようにしています。 HCRYPTPROV は HANDLE 型じゃないからとのことですがHANDLE とそうでない整数型とはなにかセマンティクスが違うのかな。
