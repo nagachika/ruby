@@ -1,0 +1,1 @@
+vm_eval.c の rb_call_super() を vm_call_super() を呼ぶのでなく rb_call_super_kw() に委譲するようにリファクタリングしています。
