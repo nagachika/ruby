@@ -1,0 +1,1 @@
+appveyor.yml を .appveyor.yml と改名しています。 AppVeyor はどっちのファイル名でも対応してくれるみたいですね。
