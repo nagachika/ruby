@@ -1,0 +1,1 @@
+variable.c の定数の名前空間のパス文字列を生成する build_const_pathname() で rb_fstring() を利用するように変更しています。コミットログをみると rb_cString の初期化前に呼ばれた時のための処置みたいです。
