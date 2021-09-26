@@ -1,0 +1,1 @@
+4704bc09767cb885315abf7393605fcb930fddb8 で revert した irb の補完処理時の Encoding::InvalidByteSequenceError の捕捉を復活させています。けどこの位置だとその前の EncodingError の rescue に取られてしまって通らないはず。
