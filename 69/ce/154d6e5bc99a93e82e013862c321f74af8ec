@@ -1,0 +1,1 @@
+225a29b9bc200f09ee56ce7b5221245709f64e4c の続きで rubyspec の C API テスト用拡張ライブラリで T_DATA 型オブジェクト用に struct RBasic::flags の利用可能なビット範囲を別に定義しておくようにしています。 [ruby-core:104758] [Misc #18059]
