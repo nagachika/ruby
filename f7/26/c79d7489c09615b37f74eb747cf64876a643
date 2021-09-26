@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Reline::LineEditor#previous_history および #next_history をそれぞれ ed_prev_history、ed_next_history の alias として追加しています。
