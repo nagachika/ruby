@@ -1,0 +1,1 @@
+rubyspec の C API テストの struct RBasic::flags の FL_USER フラグの領域のテストを spec/ruby/optional/capi/shared/rbasic.rb から spec/ruby/optional/capi/rbasic_spec.rb に移動しています。 T_DATA 型オブジェクト以外ではこの範囲のビットフラグは使えないので Object のインスタンスの時だけテストするようにしているようです。 [ruby-core:104758] [Misc #18059]
