@@ -1,0 +1,1 @@
+irb のドキュメントに --echo-on-assignment、--noecho-on-assignment、--truncate-echo-on-assignment などのオプションについての記述を追加しています。
