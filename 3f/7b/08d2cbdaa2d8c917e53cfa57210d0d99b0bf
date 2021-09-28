@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor に vi_kill_line_prev というメソッドを em_kill_line の alias として追加しています。
