@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ reline の Reline::LineEditor に unix_line_discard を em_kill_line の alias として追加し、kill_line は ed_kill_line の alias に変更(元は em_kill_line の alias)しています。
