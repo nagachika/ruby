@@ -1,0 +1,1 @@
+05a28ce5b11d0e0ca48bae799ef65e9657dc4f6a の続きで標準添付ライブラリ base64 の Base64.strict_decode64 の padding の "=" 削除を String#chomp! だけ利用するようにしています。String#chomp! に引数をわたすとその部分文字列が末尾にあると消すという挙動になっているのを利用しています。
