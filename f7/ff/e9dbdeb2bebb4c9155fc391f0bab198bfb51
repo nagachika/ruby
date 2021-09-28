@@ -1,0 +1,1 @@
+8b48b57fd89ad1bbb1d3b4b8445a65ab2d0b272b の enumerator.c の引数の NULL チェックを #if !RBIMPL_HAS_ATTRIBUTE(nonnull) で囲んでた変更の続きで、この条件で定義が分岐されたマクロ RBIMPL_NONNULL_ARG() というのを導入して、これでチェックすることでチェック箇所に preprocessor の条件分岐が不要なようにしています。
