@@ -1,0 +1,1 @@
+標準添付ライブラリ base64 の Base64.urlsafe_encode64 で strict_encode64 後にキーワード引数 padding に false が指定されてた時に末尾の "=" を削除するのに String#delete! を利用していましたが、これは "=" が複数あった時に非効率なので Base64 の仕様によってたかだか 2つまでしか末尾の "=" が続かないことを前提にして String#end_with? で細かく条件分岐して String#delete_suffix! または String#chop! を利用して削るようにしています。
