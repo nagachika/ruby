@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout::VERSION 定数に代入する文字列を freeze するようにしています。
