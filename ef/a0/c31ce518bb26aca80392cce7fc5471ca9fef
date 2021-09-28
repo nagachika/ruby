@@ -1,0 +1,1 @@
+regparse.c および regerror.c の onig_syntax_warn()、onig_vsnprintf_with_pattern()、onig_snprintf_with_pattern() などの printf(3) のようなフォーマット指示子をもつ引数を受け取る関数の宣言に PRINTF_ARGS() マクロを利用するようにしています。さらにフォーマット文字列に UChar ではなく char を使うように一部変更しています。
