@@ -1,0 +1,1 @@
+ENV の文字列の Encoding についてのテストで assert_equal に失敗した時のメッセージに Encoding を埋め込むようにしています。
