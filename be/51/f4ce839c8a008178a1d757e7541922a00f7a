@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean テストに error_highlight の影響を抑制するために ErrorHighlight.formatter に独自の formater クラスを設定するようにしています。
