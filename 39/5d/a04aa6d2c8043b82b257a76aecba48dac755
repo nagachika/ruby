@@ -1,0 +1,1 @@
+rubyspec の Date#strftime と DateTime#strftime のテストを f9f7f3a75ec5af4a70e3332f8f5aa300c13432e2 の変更に追随して変更しています。
