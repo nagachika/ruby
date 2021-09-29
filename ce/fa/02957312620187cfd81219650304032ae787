@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の Ractor 対応として OpenStruct#new_ostruct_member! で属性の名称の特異メソッドを定義する時に  Proc オブジェクトを作成してそれを Ractor.make_shareable で共有可能にしてから define_singleton_method! に渡すようにしています。 Proc を sharable にしたらそれで定義された特異メソッドをもつオブジェクトは移動可能なのか。
