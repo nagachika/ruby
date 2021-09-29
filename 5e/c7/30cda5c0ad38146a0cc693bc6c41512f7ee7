@@ -1,0 +1,1 @@
+09863a4cd8eb40b34b310083d8cdda899ab5bcc1 のかわりに .cirrus.yml で環境変数 LANG に C.UTF-8 を設定するようにして対応しています。
