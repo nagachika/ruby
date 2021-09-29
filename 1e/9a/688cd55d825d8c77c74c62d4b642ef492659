@@ -1,0 +1,1 @@
+rb_io_prep_stdin()、rb_io_prep_stdout()、rb_io_prep_stderr() などの関数の宣言を internal/io.h に追加して、thread.c で個別に宣言していたのを削除しています。
