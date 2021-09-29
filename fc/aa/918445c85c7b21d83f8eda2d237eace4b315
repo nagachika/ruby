@@ -1,0 +1,1 @@
+cd2e6318f6502018d398cb9706a286ef5b202bf4 で rubygems が gemspec ファイルの authors, summary, description, email などの項目の TODO や FIXME をチェックする時の正規表現を行頭に限るようにしてたのを、\A に変更して文字列全体の先頭に限るようにさらに修正しています。
