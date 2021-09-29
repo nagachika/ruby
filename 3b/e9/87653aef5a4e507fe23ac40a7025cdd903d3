@@ -1,0 +1,1 @@
+標準添付ライブラリ drb  の gemspec ファイルから spec.bindir と spec.executables の指定は削除しています。
