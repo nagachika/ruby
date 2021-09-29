@@ -1,0 +1,1 @@
+bundler の Bundler::GemHelper の install が定義する rake task の "release:rubygem_push" に依存関係として "build" を追加しています。
