@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date および DateTime の strftime での "%v" の指示子の指定で表示する月の名前を全部大文字の表記(%^b の指定と同じ)に変更しています。Time#strftime にそろえるためみたいです。 [ruby-core:82369] [Bug #13810]
