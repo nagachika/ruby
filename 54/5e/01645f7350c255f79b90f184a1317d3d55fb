@@ -1,0 +1,1 @@
+misc/lldb_cruby.py で lldb の rp で String オブジェクトを表示する時に Encoding 名も表示するようにしています。
