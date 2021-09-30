@@ -1,0 +1,1 @@
+vm_trace.c の rb_add_event_hook() で rb_add_event_hook2() にまるごと委譲するリファクタリング。
