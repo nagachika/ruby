@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#em_delete_prev_char メソッドにキーワード引数を追加して複数文字削除するコマンドに対応できるようにしています。
