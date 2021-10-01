@@ -1,0 +1,1 @@
+cont.c の fiber_raise() および rb_fiber_raise() の第3引数に const を付加し、また Doxygen 向けのドキュメント用コメントを追加しています。
