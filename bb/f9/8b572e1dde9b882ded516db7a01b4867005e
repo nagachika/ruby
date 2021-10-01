@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の rp などで String オブジェクトの表示時に Encoding を表示する時に名前が取得できない Encoding だった時は encindex をそのまま表示するように対応を追加しています。
