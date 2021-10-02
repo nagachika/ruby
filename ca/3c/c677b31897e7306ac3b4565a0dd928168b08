@@ -1,0 +1,1 @@
+configure.ac の AC_C_BIGENDIAN に引数を追加して macOS での Universal Binary のビルド時の対応を追加しています。 [ruby-core:105180] [Bug #18156]
