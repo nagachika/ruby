@@ -1,0 +1,1 @@
+60d0421ca861944459f52292d65dbf0ece26e38a、b6534691a16d751d59fc572d5dddebcaeb21f007 のさらに続きで Encoding のセットのしなおしがあった時だけ vm->loaded_features_snapshot の内容の書きかえを行なうようにしています。
