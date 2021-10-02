@@ -1,0 +1,1 @@
+60d0421ca861944459f52292d65dbf0ece26e38a、b6534691a16d751d59fc572d5dddebcaeb21f007、409dbc951b9875d27bd73748c88e15386473cffb、842b0008c132dd587f09766a228041afb7fed24f とも関係ありそうですが file.c の copy_path_class() で展開した文字列に元の文字列の Encoding をコピーするようにしています。ただし元の文字列の Encoding が US-ASCII の時には単に filesystem encoding に変更するようにしています。
