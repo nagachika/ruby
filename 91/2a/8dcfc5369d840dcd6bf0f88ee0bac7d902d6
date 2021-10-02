@@ -1,0 +1,1 @@
+configure.ac で autoconf のバージョンをチェックしてるところで AC_PROG_CC が使えることも条件に追加しています。
