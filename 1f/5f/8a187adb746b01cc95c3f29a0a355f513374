@@ -1,0 +1,1 @@
+Array#min と Array#max の receiver がリテラルの場合の最適化命令 opt_newarray_min と opt_newarray_max に Refinements でメソッドが再定義されているケースを考慮するようにしています。最適化命令の実装である vm_opt_newarray_{min,max}() 関数の引数に rb_execute_context_t を追加して Refinements を考慮した method entry を取得するようにしています。これって再定義されてるかどうかの判定のほうは手を入れなくてもいいんですね。 [ruby-core:105352] [Bug #18180]
