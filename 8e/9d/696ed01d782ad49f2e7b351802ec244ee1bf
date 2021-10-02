@@ -1,0 +1,1 @@
+GitHub Actions の依存関係の更新チェックの workflow でも利用する os として macos-latest と書いてたところを macos-11 に変更しています。
