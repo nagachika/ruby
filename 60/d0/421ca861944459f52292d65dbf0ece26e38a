@@ -1,0 +1,1 @@
+起動時に最初から $LOADED_FEATURES 内のエントリ追加されている文字列を filesystem encoding に変換しなおすようにしています。 [ruby-core:105416] [Bug #18191]
