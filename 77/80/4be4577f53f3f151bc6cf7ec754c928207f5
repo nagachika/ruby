@@ -1,0 +1,1 @@
+GitHub Actions の macOS 向けの workflow で macOS の 10.15 と 11 の両方でテストするように matrix に追加しています。
