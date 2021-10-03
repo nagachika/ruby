@@ -1,0 +1,1 @@
+vm_insnhelper.c の check_match() と vm_opt_newarray_max()、vm_opt_newarray_min() などの最適化命令用の関数から Refinements を意識しながらメソッド呼び出しする処理を vm_eval.c の rb_vm_call_with_refinements() という関数に括り出して共有するようにリファクタリングしています。
