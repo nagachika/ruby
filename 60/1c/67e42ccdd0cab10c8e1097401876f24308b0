@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in に MinGW での警告抑制のため miniruby のリンク時に -Wno-maybe-uninitialized オプションを追加するようにしています。
