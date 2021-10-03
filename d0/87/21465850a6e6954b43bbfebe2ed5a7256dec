@@ -1,0 +1,1 @@
+Hash#compare_by_identity が呼ばれた Hash を Marshal.dump したものを Marshal.load するとこのフラグが復元されないという不具合を修正しています。 806e7947fec775ce27aa783ee00dbd8f52685db8 で追加した rb_ident_hash_new_with_size() を利用しています。 [ruby-core:105282] [Bug #18171]
