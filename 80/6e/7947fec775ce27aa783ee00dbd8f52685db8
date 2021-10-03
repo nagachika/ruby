@@ -1,0 +1,1 @@
+id をそのままハッシュ値として使う ident_hash をキャパシティを指定して作る rb_ident_hash_new_with_size() という関数を追加しています。
