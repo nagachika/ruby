@@ -1,0 +1,1 @@
+tool/m4/ruby_universal_arch.m4 に RUBY_UNIVERSAL_CHECK_HEADER というマクロの定義を追加して configure.ac で CPU アーキテクチャが x86_64 か i386 の時だけ x86intrin.h ヘッダの存在チェックをするようにしています。
