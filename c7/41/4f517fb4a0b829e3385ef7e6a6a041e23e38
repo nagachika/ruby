@@ -1,0 +1,1 @@
+tool/m4/ruby_define_if.m4 で confdefs.h を生成する時に cat コマンドを利用していたのを printf(1) コマンドを利用するようにしています。
