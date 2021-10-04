@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の SIGWINCH のハンドラの処理を Reline::LineEditor#resize というメソッドに切り出して、ついでに Reline::ANSI.inner_getc でもこれを呼び出して毎回端末サイズ変更がないかのチェックをするようにしています。
