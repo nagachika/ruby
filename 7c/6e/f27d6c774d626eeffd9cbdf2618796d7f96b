@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで vi-movement-mode というコマンドのテストをするために inputrc に追加したキーバインディングを Ctrl-j から Ctrl-a に変更しています。 Windows だと Ctrl-j と Enter の区別ができないためとのこと。
