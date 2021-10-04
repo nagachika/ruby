@@ -1,0 +1,1 @@
+Random の実装に MinGW 版の時に bcrypt ライブラリの BCryptGenRandom() という関数を利用するようにしています。
