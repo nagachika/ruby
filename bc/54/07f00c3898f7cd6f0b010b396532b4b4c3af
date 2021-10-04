@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の private メソッド ed_unassigned と ed_insert (というより inputrc に書くコマンドについてのドキュメントみたいですけど)の説明をコメントとして追記しています。
