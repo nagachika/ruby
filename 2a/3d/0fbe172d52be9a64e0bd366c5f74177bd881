@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の test/reline/yamatanooroti/multiline_repl の文字列配列リテラルが横に長くなってのを1要素ごとに改行するようにスタイルの変更。
