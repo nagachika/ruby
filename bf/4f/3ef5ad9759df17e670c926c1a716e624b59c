@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の lib/reline/line_editor.rb に TODO コメントを追加して、2.5 のサポートがなくなったら alias_method の戻り値を private に渡すようにするぞ、と宣言しています。
