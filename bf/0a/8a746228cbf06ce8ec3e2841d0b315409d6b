@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.check_input_event でも Reline::LineEditor#resize を呼び出して1文字ごとに端末サイズ変更がないかチェックするようにしています。
