@@ -1,0 +1,1 @@
+load_encoding() で一時的に load_encoding 変数を Qfalse にセットして警告抑制するようにしていたのを rb_require_internal_silent() という関数を導入して require_internal() で ruby_verbose 変数を直接参照せず引数で警告を出すかどうかを判定させるようにリファクリングしています。 Ractor の導入で GVL 内でも複数の thread で同時に動く可能性ができたのでグローバル変数を変更するのは race condition があるため不要な警告が出る可能性があったから、ということかなと思います。
