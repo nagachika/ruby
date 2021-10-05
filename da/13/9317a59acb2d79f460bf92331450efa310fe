@@ -1,0 +1,1 @@
+if 文などの条件部にリテラルが書かれてる時の警告で式展開ありのクオートつき Symbol の時の警告メッセージが string literal になってたので symbol literal に修正しています。
