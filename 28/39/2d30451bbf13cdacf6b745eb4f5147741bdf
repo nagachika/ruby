@@ -1,0 +1,1 @@
+if 文などの条件部に静的 symbol リテラルが書かれてる時にも symbol literal が書かれているという警告メッセージになるようにしています。これまではただ単に "literal in condition" になってたようです。
