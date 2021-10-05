@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.erase_after_cursor で端末の attribute を 0 にクリアしてしまっていたのを元のフラグを保持するようにしています。
