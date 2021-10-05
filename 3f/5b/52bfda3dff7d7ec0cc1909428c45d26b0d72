@@ -1,0 +1,1 @@
+thread_win32.c の w32_error() という関数に RBIMPL_ATTR_NORETURN() をつけて処理が戻らないことを示すようにしています。
