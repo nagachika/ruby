@@ -1,0 +1,1 @@
+Range#each や Range#step で要素のオブジェクトが Time でないか毎回チェックしていたのを削っています。 Time#succ が削除されたのでもう respond_to? によるチェックで良くなったので。 [ruby-core:105531] [Bug #18237]
