@@ -1,0 +1,1 @@
+rb_ractor_p() の prototype 宣言を ractor.c から ractor_core.h に移動しています。
