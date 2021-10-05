@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の e25ad5475c235b51395fe14edf212c85fe3e17fe でのタイムアウトの短縮で make test-bundler-parallel の時は再度 40分にまで伸ばしています。
