@@ -1,0 +1,1 @@
+GitHub Actions の macOS と MinGW の make check や make all, mate test-all のタイムアウトを短縮しています。
