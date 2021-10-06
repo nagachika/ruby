@@ -1,0 +1,1 @@
+tool/rbinstall.rb の GemInstaller を継承した UnpackedInstaller というクラスで build_extensions メソッドを上書きして空っぽにしていたのをやめています。 rubygems の実装を使って拡張ライブラリのビルドをするようにしているみたいです。
