@@ -1,0 +1,1 @@
+parse.y の parser_yyerror() で yylloc->beg_pos と yylloc->end_pos のチェックしていたところを削っています。よくわかりませんが yylloc をクリアしてしまってエラー位置が出なくなることがあるのを修正するためみたいです。
