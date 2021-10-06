@@ -1,0 +1,1 @@
+d9b7403746249b532ac57ca80112d7e63a417d86 や 3381fa5458d26fee1a5d109ba65e87212f644ac0 の Solaris での require の不具合修正のリトライ。 realpath(3) がない環境で rb_check_realpath_emulate() を mode=RB_REALPATH_CHECK で呼ぶ場合にのみ rb_rescue() を使って rescue つきで呼び出すようにしています。
