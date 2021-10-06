@@ -1,0 +1,1 @@
+gc.h の SET_MACHINE_STACK_END() マクロの定義に AIX 向けの対応を追加しています。
