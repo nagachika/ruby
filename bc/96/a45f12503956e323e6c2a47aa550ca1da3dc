@@ -1,0 +1,1 @@
+bundled gems に debug.gem を追加しています。debug.gem は拡張ライブラリを使うみたいなので tool/rbinstall.rb や tool/test-bundled-gems.rb などにも変更が入ってます。
