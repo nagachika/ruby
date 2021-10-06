@@ -1,0 +1,1 @@
+parse.y で YY_() というマクロを定義して bison によるエラーメッセージ? が "memory exhausted" だったら "nesting too deep" に書きかえるようにしています。
