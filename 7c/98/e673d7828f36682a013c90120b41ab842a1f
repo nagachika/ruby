@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb の変数名の typo 修正。 688f2e1a893e04457a1a5aa3577b13f74b2bc080 のタイムアウト時の後処理の不具合の修正です。
