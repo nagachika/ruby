@@ -1,0 +1,1 @@
+parse.y に位置情報なしの parser_yyerror0() という関数を追加して、RUBY_SET_YYLLOC() で現在位置を取得するようにしています。bison 用と ripper 用で少し分離のしかたが違ってて bison 用は parser_yyerror0() から parser_yyerror() を呼び出すようにしていて、ripper 用では parser_yyerror() から parser_yyerror0() を呼び出すように分離しています。
