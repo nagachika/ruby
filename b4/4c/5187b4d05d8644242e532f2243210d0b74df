@@ -1,0 +1,1 @@
+rb_vm_insn_len_info、rb_vm_insn_name_offset、rb_vm_insn_op_offset などの VM 命令についての情報のテーブルを export する変数として宣言するようにしています。 debugger で使うためとのこと。 [ruby-core:104526] [Feature #18026]
