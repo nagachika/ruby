@@ -1,0 +1,1 @@
+e42c8c160d17e302f56fdc4af4d54043ed2499df の続きで string.c の upcase_single() および downcase_single() でそもそも rb_enc_isascii() を呼ばないように変更しています。
