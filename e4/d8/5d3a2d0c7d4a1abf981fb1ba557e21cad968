@@ -1,0 +1,1 @@
+d9b7403746249b532ac57ca80112d7e63a417d86 および 3381fa5458d26fee1a5d109ba65e87212f644ac0 の Solaris 向けの require_internal() での rb_rescue 追加を revert しています。 Solaris でこの修正してもエラーが直らなかったみたいです。
