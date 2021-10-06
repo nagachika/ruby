@@ -1,0 +1,1 @@
+tool/rbinstall.rb のオプションを解析する正規表現の typo 修正。
