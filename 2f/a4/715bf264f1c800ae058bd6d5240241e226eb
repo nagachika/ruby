@@ -1,0 +1,1 @@
+rb_ractor_shareable_p() の Doxygen 用コメントに戻り値の説明を追記。
