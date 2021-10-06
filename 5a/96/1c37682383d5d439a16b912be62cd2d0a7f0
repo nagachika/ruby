@@ -1,0 +1,1 @@
+string.c の rb_str_casemap() 内からの各 rb_encoding::case_map の呼び出し時に不要なキャストをしていたのを削っています。
