@@ -1,0 +1,1 @@
+rb_enc_left_char_head() の第2引数の型を const char * から const void * に変更しています。
