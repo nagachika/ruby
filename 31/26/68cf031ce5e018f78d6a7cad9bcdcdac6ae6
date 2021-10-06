@@ -1,0 +1,1 @@
+include/ruby/encoding.h ヘッダの内容を include/ruby/internal/encoding/ 配下に細かく分割するリファクタリング。
