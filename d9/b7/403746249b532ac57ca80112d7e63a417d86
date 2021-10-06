@@ -1,0 +1,1 @@
+require_internal() でファイルパスを realpath にしてから読みこむ時に rb_rescue() を使って例外発生を捕捉するようにしています。Solaris でのみ必要になる対応とのことですが一時的に常に有効になるように preprocessor の条件を設定しています。
