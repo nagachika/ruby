@@ -1,0 +1,1 @@
+f032c09bca96d82ce5fe935c99afed4c3fc2dbea の rb_enc_left_char_head() も第2引数の型を変更したのを revert して呼び元のほうの変数の型を変更することで対応しています。
