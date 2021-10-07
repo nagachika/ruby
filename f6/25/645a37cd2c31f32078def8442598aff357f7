@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#reset でダイアログのスクロールバー用の文字の表示幅を取得する処理を Windows 環境では常に 1 にするようにしています。
