@@ -1,0 +1,1 @@
+template/GNUmakefile.in に GNUmakefile への依存関係として template/GNUmakefile.in 自身を追加しています。
