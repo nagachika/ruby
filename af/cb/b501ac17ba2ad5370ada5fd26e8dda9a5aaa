@@ -1,0 +1,1 @@
+Marshal.load にキーワード引数 freeze というのを追加して、load したオブジェクトを freeze するように指定できるようにしています。 [ruby-core:105133] [Feature #18148]
