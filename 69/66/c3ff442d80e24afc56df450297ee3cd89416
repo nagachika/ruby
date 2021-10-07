@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.erase_after_cursor の Windows API GetConsoleScreenBufferInfo() に渡すバッファの文字列サイズを修正しています。
