@@ -1,0 +1,1 @@
+rb_encoding という型は既に typedef の時点で const 修飾子が付与されているので冗長な const rb_encoding * のような引数の型の指定の const を削っています。MSVC で警告が出てたそうです。
