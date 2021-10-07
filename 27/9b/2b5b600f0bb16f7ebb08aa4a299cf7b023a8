@@ -1,0 +1,1 @@
+Enumerable#slice_before の rdoc 用コメントを手直ししています。 https://github.com/ruby/ruby/pull/4932
