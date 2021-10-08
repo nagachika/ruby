@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr で IPAddr.ntop で明示的な return をやめるリファクタリング。
