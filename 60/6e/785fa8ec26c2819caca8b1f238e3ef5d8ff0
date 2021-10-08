@@ -1,0 +1,1 @@
+io.c の rb_stderr_to_original_p() という関数で rb_ractor_stderr() を呼び出して結果を参照していたのをかわりに引数で受け取るようにして、呼び元で rb_ractor_stderr() を呼んだものを渡すようにしています。呼び元でも結局 rb_ractor_stderr() を呼んでるのでこれを使いまわすためみたいです。
