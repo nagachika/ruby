@@ -1,0 +1,1 @@
+Ractor.make_shareable で Proc オブジェクトをコピーする時に env_copy() で内部的な rb_env_t をコピーする時にローカル変数を再帰的に複製する時の順序を逆順にしています。Ractor.make_shareable を通した Proc オブジェクトで外部のローカル変数を参照してる時に参照値が false になってしまうことがあったみたいです。 [ruby-core:104519] [Bug #18023]
