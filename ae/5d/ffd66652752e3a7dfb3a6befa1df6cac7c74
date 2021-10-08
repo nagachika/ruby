@@ -1,0 +1,1 @@
+bd6e1a0f0883dba7b02f30cefe5ebec96d02cb90 の標準添付ライブラリ ipaddr の IPv6 のアドレスの変更に追随して rubyspec のテストを 3.1 とそれ以前とで分岐するようにしています。
