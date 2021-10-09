@@ -1,0 +1,1 @@
+Proc オブジェクトのブロックから参照している外のスコープの変数を探す collect_outer_variable_names() や env_copy() で変数名を文字列で持ちまわっていたのを、結局あとで rb_str_intern() してるので ID2SYM() で Symbol にして格納するように変更しています。
