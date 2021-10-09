@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary で ISeq をバイナリフォーマットにダンプする時に Ractor.make_shareable で複製した Proc オブジェクトの外部の変数の参照が保存できていなかったのを修正しています。これスコープ外の変数参照も機能するんだ。すごいな。 [ruby-core:105504] [Bug #18232]
