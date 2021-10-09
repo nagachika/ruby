@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のダイアログ表示のメソッドで Encoding.default_external が UTF-8 でなかった時にはダイアログ表示しないようにしています。ダイアログのスクロールバーに使う記号文字が US-ASCII に変換する時にエラーになるので default_external が UTF-8 じゃないとちゃんと表示できないため。
