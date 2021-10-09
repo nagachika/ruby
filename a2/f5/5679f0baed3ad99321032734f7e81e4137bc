@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の定数名 Reline::LineEditor::DIALOG_HEIGHT を DIALOG_DEFAULT_HEIGHT に改名。
