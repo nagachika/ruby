@@ -1,0 +1,1 @@
+require_internal() の引数 realpath の宣言に volatile 修飾子を追加しています。 EC_EXEC_TAG() の前後で利用しているので警告抑制のためかな。
