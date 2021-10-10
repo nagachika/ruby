@@ -1,0 +1,1 @@
+bundler の bundle gem コマンドで生成した gemspec ファイルのデフォルトの spec.required_ruby_version を 2.6.0 以降にするように変更しています。ただし実行している ruby 自体が古い場合はそれにあわて 2.3.0 までは古いのも指定するようにしています。そのほか rubocop や standard といった gem の最低バージョンの指定も更新しています。
