@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の Test::Unit::CoreAssertions::AllFailures#for というメソッド(assert_all? で使うやつかな、たぶん)でブロックを yirld する時にメソッドの引数をブロックにも渡すようにしています。
