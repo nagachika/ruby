@@ -1,0 +1,1 @@
+テスト用ライブラリの Test::Unit::CoreAssertions#assert_nothing_raised の例外処理を複数の rescue 節に分けて書くようにリファクタリングしています。
