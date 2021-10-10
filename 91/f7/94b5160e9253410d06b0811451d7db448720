@@ -1,0 +1,1 @@
+bundler のテストで git コマンドを操作するためのクラス Spec::Builder::GitUpdater で :branch オプションに "master" を指定したら例外を発生させてたのをやめています。
