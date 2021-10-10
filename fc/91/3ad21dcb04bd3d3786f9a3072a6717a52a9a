@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb でバックトレースからテスト用ライブラリのファイルパスを取り除く処理で core_assertions.rb も除外対象になるように追加しています。
