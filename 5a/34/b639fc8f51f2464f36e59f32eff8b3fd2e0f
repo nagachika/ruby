@@ -1,0 +1,1 @@
+bundler のテストで git コマンドを実行するところで git add してから git commit してたのを commit に -a オプションを追加して 1コマンドで実施するようにしています。
