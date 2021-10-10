@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#missing_extensions? の条件分岐の順序をいれかえて最適化しているみたいです。
