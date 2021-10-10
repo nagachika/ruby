@@ -1,0 +1,1 @@
+Test::Unit::CoreAssertions#message メソッドの定義を削除して Test::Unit::Assertions#message に同様の処理を追加しています。
