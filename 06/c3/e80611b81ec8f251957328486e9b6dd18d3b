@@ -1,0 +1,1 @@
+configure に --enable-install-static-library というオプションをつけた時に --disable-shared も一緒に指定されていたらエラーにするようにしています。 [ruby-core:104361] [Bug #18000]
