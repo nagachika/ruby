@@ -1,0 +1,1 @@
+.travis.yml の環境変数の設定で TEST_ALL_SKIPPED_TESTS と TEST_ALL_SEPARATED_TESTS の設定を先頭に移動しています。サマリ表示でみえるようにしたいからみたいです。
