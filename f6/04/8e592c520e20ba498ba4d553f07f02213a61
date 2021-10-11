@@ -1,0 +1,1 @@
+Travis-CI で arm32-linux でのテストのエラーを無視しないように allow_failures から外して、かわりに TEST_ALL_SKIPPED_TESTS=test_interrupt_in_other_thread の設定を追加して既知の通らないテストを skip させるようにしています。
