@@ -1,0 +1,1 @@
+range.c の step_i() と sym_step_i() から共通の前処理部分を step_i_iter() という関数に切り出すリファクタリング。
