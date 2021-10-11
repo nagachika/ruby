@@ -1,0 +1,1 @@
+同じく .travis.yml で RUN_SEPARATED_TESTS という環境変数を使っていたのをやめて TEST_ALL_OPTS_SEPARATED が空じゃないかどうかで判定するようにしています。
