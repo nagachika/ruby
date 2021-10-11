@@ -1,0 +1,1 @@
+numeric の flo_floor() や flo_ceil() から引数の精度を指示する整数を取得する処理を flo_ndigits() という関数として切り出すリファクタリング。
