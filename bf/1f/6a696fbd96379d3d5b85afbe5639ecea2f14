@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで 9cb7ba2f21aac6356089de949ef59ca42974b24b で導入した環境変数 RELINE_ALT_SCROLLBAR を指定した時のテストを追加しています。
