@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテスト test/reline/test_reline_key.rb で Reline::Test というテストクラスを再 open して定義してたのでファイル名にあわせて Reline::TestKey に改名しています。
