@@ -1,0 +1,1 @@
+bundler のテストで使う gemspec ファイルの PLATFORMS にテスト実施している PLATFORM を追加して環境によって失敗しないようにしています。
