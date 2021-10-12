@@ -1,0 +1,1 @@
+rb_get_expanded_load_path() や rb_construct_expanded_load_path() の引数に rb_vm_t* を追加して内部で GET_VM() で取得してたのを引数で指定できるようにリファクタリングしています。また rb_get_expanded_load_path() の大部分は get_expanded_load_path() として抽出した static 関数を追加しています。
