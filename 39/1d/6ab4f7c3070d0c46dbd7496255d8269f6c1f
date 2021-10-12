@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ ipaddr の IPAddr#include? で receiver と引数がそれぞれ IPv4 と IPv6 と別のアドレスだった時に false を返すようにしました。
