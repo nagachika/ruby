@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の sync_default_gems メソッドと sync_default_gems_with_commits にコメントを追加しています。ruby 自体のリポジトリのフックからこのツールを利用するようになってるらしいので使いかたのドキュメントを追加しているようです。
