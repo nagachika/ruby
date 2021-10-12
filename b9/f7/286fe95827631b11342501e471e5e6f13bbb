@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで IO#getch(intr: true) のテストで Interrupt 例外による割り込みのチェックを Linux で skip していたのを Solaris でも skip するようにしています。
