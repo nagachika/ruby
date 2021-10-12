@@ -1,0 +1,1 @@
+rubygems で証明書のエラー処理でメッセージ作成に Time#iso8601 を利用する箇所で require "time" を追加しています。
