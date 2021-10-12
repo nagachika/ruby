@@ -1,0 +1,1 @@
+b33caa5bbc1ff6cb2ea1656419e1fa09e3e60690 で追加した irb のテストが trufflruby で失敗するとのことで pend でスキップするようにしています。
