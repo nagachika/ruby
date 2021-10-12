@@ -1,0 +1,1 @@
+rubygems のパッケージ内の symbolic link のチェックを bbcf8f87ac50be423991ccbb2d83ac09ebecf46a で追加したので不要になった インストール先のチェックを削っています。
