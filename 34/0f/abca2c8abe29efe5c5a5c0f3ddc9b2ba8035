@@ -1,0 +1,1 @@
+irb の IRB::Context#prompt_mode= でインスタンス変数 @return_format の設定がなかったらデフォルト値をセットしておくようにしています。
