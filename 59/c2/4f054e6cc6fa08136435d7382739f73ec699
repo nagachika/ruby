@@ -1,0 +1,1 @@
+rubygems で File.expand_path にわざわざ File.join して渡してたのは第2引数に基準となるディレクトリを渡せばよいので File.join を省いています。
