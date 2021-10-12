@@ -1,0 +1,1 @@
+vm_dump.c で rb_bug() などで異常終了する時にレジスタの内容を表示するマクロ dump_machine_register() を arm64-darwin つまり M1 Mac の場合はレジスタ名を第2引数で渡すようにしています。
