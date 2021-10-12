@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の TODO コメントで空にされてた Reline.line_buffer と Reline.insert_text を使うテストを追加しています。
