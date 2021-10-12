@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで TODO コメントをつけて空で定義されてたテストメソッド test_editing_mode は Reline.editing_mode がないとのことで削除しています。
