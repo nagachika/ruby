@@ -1,0 +1,1 @@
+bundler の bundle info サブマンドで gem 名を表示するためにインスタンス変数を参照していたのを引数の Gem::Specification を参照するように修正しています。
