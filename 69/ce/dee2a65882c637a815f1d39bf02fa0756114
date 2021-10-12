@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の先頭に shebang コメントを追加しています。またファイル自体に実行可能のモードを追加しているみたいです。
