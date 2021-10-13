@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo のために拡張ライブラリ fiddle を require して LoadError になった場合に Reline::Terminfo.curses_dl のダミー実装を追加しておくようにしています。
