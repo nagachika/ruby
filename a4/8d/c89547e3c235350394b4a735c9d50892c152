@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Windows での端末サイズやカーソル位置などの取得に GetConsoleScreenBufferInfo() を使っているところでエラーを検出して不正な結果を利用してしまわないようにしています。
