@@ -1,0 +1,1 @@
+mjit_compile.c の precompile_inlinable_iseqs() から一部の処理を precompile_inlinable_child_iseq() という関数に切り出しています。
