@@ -1,0 +1,1 @@
+bignum.c の bary_mul_balance_with_mulfunc() で BDIGIT の配列のメモリ確保を最初にしておくようにしています。
