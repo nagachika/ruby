@@ -1,0 +1,1 @@
+bignum.c の bary_mul_balance_with_mulfunc() という関数の引数に const 修飾子を追加して引数のポインタを変更せずに変数も宣言するスコープを狭くして const 修飾子を追加するようにしています。
