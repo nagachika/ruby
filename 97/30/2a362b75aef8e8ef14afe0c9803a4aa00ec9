@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで Reline.input= と Reline.output= に pipe をセットするテストで IO の close 漏れを ensure 節で close するように対応しています。
