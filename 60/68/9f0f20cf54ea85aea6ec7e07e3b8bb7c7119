@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#calculate_height_by_width で 0除算の可能性があったのを回避するようにしています。
