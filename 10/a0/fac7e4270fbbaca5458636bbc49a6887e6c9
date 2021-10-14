@@ -1,0 +1,1 @@
+拡張ライブラリ digest の gemspec ファイルで JRuby の時の spec.files に lib/digest.jar も追加しています。
