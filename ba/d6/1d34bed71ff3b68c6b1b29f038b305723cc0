@@ -1,0 +1,1 @@
+rb_id_table_foreach_with_replace() でコールバック変数に Qundef を渡していましたがこのコールバック変数の引数は ID なので  Qundef は未定義値として正しくないので 0 を渡すようにしています。
