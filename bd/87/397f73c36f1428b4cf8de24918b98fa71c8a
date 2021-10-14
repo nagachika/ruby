@@ -1,0 +1,1 @@
+同じく bundler で gem が同梱されているものかどうかのチェックに独自のロジックを書いてたところを Gem::Specification#default_gem? を利用するように書きかえています。
