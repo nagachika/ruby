@@ -1,0 +1,1 @@
+bundler の Gem::Specification#default_gem? メソッドがなかった時の考慮を削除しています。現在のサポートが続いてる rubygems では常にあるはずとのこと。
