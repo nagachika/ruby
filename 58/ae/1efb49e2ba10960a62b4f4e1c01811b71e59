@@ -1,0 +1,1 @@
+lib/digest.rb で定数 Digest::REQUIRE_MUTEX への代入を ||= にして重複して load された時に上書きしてしまわないようにしています。
