@@ -1,0 +1,1 @@
+lib/digest.rb を ext/digest/lib/digest.rb に lib/digest/sha2.rb を ext/digest/sha2/lib/sha2.rb に再度移動しています。
