@@ -1,0 +1,1 @@
+Travis-CI の arm64-linux のテストを matrix からコメントアウトしています。Cirrus CI でテストするようにしたのでこちらでは不要になったとのこと。
