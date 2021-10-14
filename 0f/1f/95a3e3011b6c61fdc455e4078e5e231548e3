@@ -1,0 +1,1 @@
+bundle install で uninstall された gem を再インストールするようにしているそうです。つまり従来は手動で削除すると bundle install で再インストールされなかったのかな。
