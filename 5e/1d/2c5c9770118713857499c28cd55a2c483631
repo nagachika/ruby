@@ -1,0 +1,1 @@
+拡張ライブラリ digest の gemspec ファイルの licenses を Gem::Platform で分岐してたのをやめています。
