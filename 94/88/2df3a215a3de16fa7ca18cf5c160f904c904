@@ -1,0 +1,1 @@
+拡張ライブラリ digest に JRuby サポートのために JRuby::Util.load_ext での代替ライブラリのロードを追加してます。
