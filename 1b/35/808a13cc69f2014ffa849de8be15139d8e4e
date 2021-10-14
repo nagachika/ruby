@@ -1,0 +1,1 @@
+vm.c の collect_outer_variable_names() をリファクタリングして if 分岐内の共通の処理を分岐の後に出しています。
