@@ -1,0 +1,1 @@
+symbol.c の rb_id_serial_to_id() の宣言に __attribute__((unused)) を付加していたのを削除しています。今は key2id() で使われてるので嘘になってたみたいです。
