@@ -1,0 +1,1 @@
+拡張ライブラリ digest の ext/digest/sha2/lib/sha2.rb を ext/digest/lib/digest/sha2.rb に移動して tool/sync_default_gems.rb で digest の同期時の処理にこのファイルのコピー処理を追加しています。
