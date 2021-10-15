@@ -1,0 +1,1 @@
+file.c の rb_group_member() という gid が示す group に所属してるかのチェックで macOS (Mountain Lion) 向けの workaround がもう不要になった? みたいでループを回して必要なバッファサイズを決めてたのを getgroups() に NULL を渡して返ってきたサイズでバッファを作ってあらためて getgroups() を呼ぶようにリファクタリングしています。
