@@ -1,0 +1,1 @@
+rubygems のテストで $LOADED_FEATURES をバックアップしておいて後で復旧するためのユーティリティメソッド save_loaded_features を単にブロックを yield するだけで他になにもしないメソッドにしています。$LOADED_FEATURES のバックアップは setup と teardown でテストメソッド単位でするようになっていてもう不要になってたみたいです。メソッド自体消してもよさそうですね。
