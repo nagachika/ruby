@@ -1,0 +1,1 @@
+File.grpowned? のテストに Process.egid 以外の所属している group があればその group が権限を持つファイルを作ってこれに対するテストケースを追加しています。
