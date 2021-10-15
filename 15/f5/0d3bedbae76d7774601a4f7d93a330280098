@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#converge_locked_specs で依存関係チェック? まわりの修正みたいです。ここだけみてもまったくわからないですね。
