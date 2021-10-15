@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#initialize でインスタンス変数 @locked_specs_incomplete_for_platform の初期化を false 固定でなく 15f50d3bedbae76d7774601a4f7d93a330280098 で修正していた converge_locked_specs メソッド内のチェックと同等の処理で初期化しておくようにしています。なにをしてるかはわかりませんがコミットログを読むと一連の変更は Gemfile.lock の platform の指定に対応した gem がインストールされてない場合に依存関係の解決をやりなおしてインストールする処理が働かないことがあって、それを修正しようとしていたみたいです。
