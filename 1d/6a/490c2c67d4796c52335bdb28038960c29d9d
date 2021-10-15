@@ -1,0 +1,1 @@
+regcomp.c の optimize_node_left() 内で ONIGENC_MBC_MAXLEN_DIST() の結果と乗算する整数を OnigDistance にキャストしておくようにしています。
