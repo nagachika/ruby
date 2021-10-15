@@ -1,0 +1,1 @@
+GitHub Actions での CodeQL でのチェック時に --disable-install-doc でビルドするようにしています。
