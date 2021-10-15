@@ -1,0 +1,1 @@
+symbol.c の STATIC_SYM2ID() というマクロ定義で RSHIFT() の第1引数に渡す引数を unsigned long にキャストしていたのを VALUE にキャストするように修正しています。 IL32LLP64 の環境(mswin?)で不具合があったみたいです。
