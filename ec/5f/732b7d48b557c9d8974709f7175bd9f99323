@@ -1,0 +1,1 @@
+bundler の Bundler::Definition にインスタンス変数を参照する locked_dependencies というメソッドを追加するリファクタリング。
