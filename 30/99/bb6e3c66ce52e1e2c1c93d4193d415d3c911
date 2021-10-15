@@ -1,0 +1,1 @@
+file.c の rb_check_realpath_emulate_try() からの rb_check_realpath_emulate() の呼び出しの引数のキャストから const 修飾子を削っています。rb_encoding 自体が const つきで typedef されているので不要とのこと。
