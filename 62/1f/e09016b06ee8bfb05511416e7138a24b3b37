@@ -1,0 +1,1 @@
+e97c671b3a21aeb1b2813f44487b6232cb39a205 と同様に bundler の Bundler::GemHelper#perform_git_push でも sh メソッドを利用するようにリファクタリングしています。
