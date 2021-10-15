@@ -1,0 +1,1 @@
+さらに拡張ライブラリ digest の ext/digest/lib/digest/sha2.rb を ext/digest/sha2/lib/digest/sha2.rb に移動、ext/digest/lib/digest/sha2/loader.rb は ext/digest/sha2/lib/digest/sha2/loader.rb に移動して、tool/sync_default_gems.rb で digest の同期処理もこれに追随させています。digest は内部でさらにアルゴリズム毎のディレクトリに分かれててややこしいですね(net/xxx とかもまあそうですが)。
