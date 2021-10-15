@@ -1,0 +1,1 @@
+e97c671b3a21aeb1b2813f44487b6232cb39a205 で利用するようにした bundler の Bundler::GemHelper#sh メソッドで Array の shelljoin メソッドが呼べるか respond_to? でチェックしてたのをやめています。引数は常に Array だし require "shellwords" もしてあるはずだからとのこと。
