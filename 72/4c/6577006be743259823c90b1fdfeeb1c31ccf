@@ -1,0 +1,1 @@
+Array クラスの rdoc 用コメントの重複した the を削る修正。 https://github.com/ruby/ruby/pull/4966
