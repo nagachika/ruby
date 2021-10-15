@@ -1,0 +1,1 @@
+bundler の Bundler::GemHelper#perform_git_push メソッドをそもそも削除して呼び元で sh メソッドを直接呼ぶようにリファクタリングしています。
