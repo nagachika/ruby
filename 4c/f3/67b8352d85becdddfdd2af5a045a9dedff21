@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL での静的チェックの workflow に環境変数 GNUMAKEFLAGS の設定を追加しています。nproc で CPU コア数を取得して -j オプションの設定に使うようにしています。
