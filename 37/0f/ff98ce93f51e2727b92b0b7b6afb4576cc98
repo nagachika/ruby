@@ -1,0 +1,1 @@
+tool/lib/test/ 配下のスクリプトでテスト用ライブラリ内のファイルの require に require_relative を使うようにリファクタリングしています。
