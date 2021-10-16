@@ -1,0 +1,1 @@
+tool/test/testunit/test_parallel.rb で File.dirname(__FILE__) を使ってたところを __dir__ におきかえています。
