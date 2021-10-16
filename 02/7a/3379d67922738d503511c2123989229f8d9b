@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::GZipReader#gets で読み込み時に文字境界を判定するために rb_enc_left_char_head() を呼び出す時の引数が 1バイト間違っていたのを修正しています。 https://github.com/ruby/csv/issues/117#issuecomment-933289373
