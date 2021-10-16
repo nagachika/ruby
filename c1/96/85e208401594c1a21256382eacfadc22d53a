@@ -1,0 +1,1 @@
+Thread::ConditionVariable のテストで Thread が終了しないまま終わることがあったテストに ensure 節で Thread#kill と Thread#join で終了待ちを追加しています。
