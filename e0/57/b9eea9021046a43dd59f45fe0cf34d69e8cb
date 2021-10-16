@@ -1,0 +1,1 @@
+拡張ライブラリ socket で localtime(3) を利用しているとこで可能なら localtime_r() を利用するように wrapper マクロ LOCALTIME() を追加してこれを利用するようにしています。また gmtime() を呼ぶところでも存在すれば gmtime_r() を利用するようにしています。
