@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Digest のクラス定義時に rb_require() で digest ライブラリをロードしてたのを rb_funcall() で require メソッドを起動する方法で読み込むように変更しています。digest も default gem になっているので rubygems が再定義した require を使わないといけないのでこうする必要があるみたいです。なるほどー。
