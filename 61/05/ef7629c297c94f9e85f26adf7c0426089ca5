@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に SSL_CTX_set0_tmp_dh_pkey() または SSL_CTX_set_tmp_dh() の wrapper である OpenSSL::SSL::SSLContext#tmp_dh= メソッドを追加しています。
