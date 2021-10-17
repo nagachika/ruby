@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで LibreSSL とリンクしている場合に OpenSSL::SSL::SSLSocket#finish_message のテストで TLS 1.2 を利用するようにしています。 LibreSSL では不具合があるためみたいです。
