@@ -1,0 +1,1 @@
+Integer#divmod, Float#divmod, Numeric#divmod の rdoc 用コメントを追加/手直ししています。 https://github.com/ruby/ruby/pull/4973
