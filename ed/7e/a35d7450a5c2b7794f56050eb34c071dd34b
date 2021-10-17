@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテスト test/openssl/test_config.rb のメッセージなどの typo を修正しています。 [ruby-core:96342] [Bug #16437]
