@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#sysread で IO と同様に読み込み用のバッファの文字列オブジェクトに対する rb_str_locktmp() および rb_str_unlocktmp() を呼んで読み込みのためのブロック中に変更されないようにしています。
