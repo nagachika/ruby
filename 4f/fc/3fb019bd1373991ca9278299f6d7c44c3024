@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::AnyMethod#deduplicate_call_seq というメソッドでドキュメント用コメントの call-seq で別名での呼び出しがみつからなかった時に空文字列でなく nil を返すようにしています。
