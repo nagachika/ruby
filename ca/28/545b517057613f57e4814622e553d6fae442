@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext や OpenSSL::SSL::SSLSocket のオブジェクトの mark 関数を追加して SSL_get_ex_data() や SSL_CTX_get_ex_data() で取得したオブジェクトの mark をするようにしています。これは GC で解放される恐れはないんだけど、GC.compact の移動を禁止するために pin するために明示的に呼ぶ必要があったとのことです。なるほどー。こういうの他にもありそうだな……。
