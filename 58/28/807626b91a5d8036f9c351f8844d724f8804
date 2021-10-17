@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#syswrite で引数に渡された文字列を一度 rb_str_new_frozen() で fstring にしてから利用するようにしています。書き込み途中で Thread 切り替えが起きてバッファが変更されないようにするためみたいです。
