@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の ossl_tsfac_time_cb() という関数の宣言を LibreSSL でビルドする時のために引数の型を変更するようにしています。
