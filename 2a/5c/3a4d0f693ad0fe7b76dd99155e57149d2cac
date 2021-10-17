@@ -1,0 +1,1 @@
+Symbol クラスの rdoc 用コメントに Module#constants や Module#instance_methods などのメソッドが名前を返す時は Symbol で返すことや Symbol が識別子を返すために設計されたということを追記しています。 [ruby-core:84794] [Feature #14347]
