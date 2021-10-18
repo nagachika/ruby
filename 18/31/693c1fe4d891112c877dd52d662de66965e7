@@ -1,0 +1,1 @@
+configure で OS が haiku の時に LIBS に -lssp を追加していたのをやめています。マシンスタックの overflow check のために必要だったみたいですが、現在の haiku は libc に取り込まれて不要になったとのこと。
