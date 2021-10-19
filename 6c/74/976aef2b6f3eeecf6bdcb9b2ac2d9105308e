@@ -1,0 +1,1 @@
+テスト用ライブラリの tool/lib/test/unit/testcase.rb の Test::Unit::TestCase.make_my_diffs_pretty! というメソッドがもう利用されていないとのことで削除しています。
