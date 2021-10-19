@@ -1,0 +1,1 @@
+テスト用ライブラリで parallel test の子 worker プロセスが hang up してたのを親プロセスで再実行する時に options[:verbose] を true に設定してから実行するようにしています。
