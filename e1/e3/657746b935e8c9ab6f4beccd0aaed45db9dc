@@ -1,0 +1,1 @@
+rubyspec の spec/default.mspec でソースディレクトリを Makefile から抽出する処理を File.read メソッドを使って 1行にまとめるように書きかえています。
