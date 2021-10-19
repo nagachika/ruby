@@ -1,0 +1,1 @@
+1831693c1fe4d891112c877dd52d662de66965e7 で configure から haiku 向けの LIBS の設定を削除してましたが -lssp の追加は削ったまま LIBS の再設定は復活させています。これって意味あるのかな? [追記] Haiku 用の分岐を消すと default の分岐に fallback してしまい LIBS に -lm が追加されてしまうのでこれを避けるためとのことでした。 https://twitter.com/n0kada/status/1450083496223928324 [/追記]
