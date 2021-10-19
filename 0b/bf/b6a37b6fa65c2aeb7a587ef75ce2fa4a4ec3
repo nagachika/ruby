@@ -1,0 +1,1 @@
+同じく rubyspec の spec/default.mspec で srcdir の解決に失敗した時にエラーになっていたのを flags のセットをスキップしてエラーにならないようにしています。
