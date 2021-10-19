@@ -1,0 +1,1 @@
+テスト用ライブラリの tool/lib/test/unit/assertions.rb の Test::Unit::Assertions#exception_details メソッドがもう利用されていないとのことで削除しています。
