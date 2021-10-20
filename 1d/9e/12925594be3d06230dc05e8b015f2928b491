@@ -1,0 +1,1 @@
+process.c の rb_fork_ruby2() を static 関数にして引数の struct rb_process_status のポインタが渡されていたらエラー情報を格納して返すようにしています。
