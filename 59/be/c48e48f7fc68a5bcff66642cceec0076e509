@@ -1,0 +1,1 @@
+complex.c の rb_flo_is_finite_p() と rb_flo_is_infinite_p() の不要な前方宣言を削除しています。
