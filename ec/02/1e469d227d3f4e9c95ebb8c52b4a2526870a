@@ -1,0 +1,1 @@
+vm_insnhelper.c の iv_index_tbl_lookup() で st_lookup() にポインタをキャストしてそのまま渡すのをやめて自動変数に st_data_t の変数を確保してそれを渡してから結果をコピーするようにしています。
