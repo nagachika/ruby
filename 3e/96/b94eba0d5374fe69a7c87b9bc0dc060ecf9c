@@ -1,0 +1,1 @@
+Numeric のいくつかのメソッドの rdoc 用コメントの call-seq 修正や説明を追加しています。 https://github.com/ruby/ruby/pull/4991
