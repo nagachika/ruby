@@ -1,0 +1,1 @@
+NEWS に新たに bundled gem になった debug.gem について追記し、また Debugger というセクションを追加してデバッガサポートについて記述しています。
