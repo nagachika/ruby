@@ -1,0 +1,1 @@
+addr2line.c、compile.c、ractor.c などで printf のフォーマットの %p のために渡す引数を明示的に void* にキャストするようにしています。
