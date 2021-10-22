@@ -1,0 +1,1 @@
+RubyVM.keep_script_lines および RubyVM.keep_script_lines= というメソッドを追加して、これに true が設定されたら ISeq と AST にコンパイルする元のスクリプトの行ごとの内容を保持して RubyVM::InstructionSequence#script_lines で配列で取得できるようにしています。デバッガなどで利用するためみたいです。
