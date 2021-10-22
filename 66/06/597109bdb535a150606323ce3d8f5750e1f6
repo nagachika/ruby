@@ -1,0 +1,1 @@
+Refinements の refine のブロック内で作成される Module の親クラスになる Refinment という(Module を継承した)クラスを追加して、この Refinement 内では include や prepend は deprecated 警告を出すようにしています。かわりに Refinement#import_method という private メソッドを追加して、引数に指定した Module に定義されているメソッド群をコピーするような挙動をするようです。今のところ Module からさらに継承(include/prepend)元のメソッドへと辿ってコピーはしないようです。 [ruby-core:101639] [Bug #17429]
