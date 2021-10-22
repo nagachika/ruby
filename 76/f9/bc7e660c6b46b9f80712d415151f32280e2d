@@ -1,0 +1,1 @@
+.travis.yml の allow_failures に arm32-linux を再度追加してビルド失敗を許容するようにしています。
