@@ -1,0 +1,1 @@
+c7550537f11dcf6450a9d3df3af3fa1f4fe05b15 で追加した RubyVM::InstructionSequence の保持する script_lines の配列を freeze して Ractor 間共有できるようにしています。
