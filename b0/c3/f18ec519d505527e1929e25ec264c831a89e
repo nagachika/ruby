@@ -1,0 +1,1 @@
+gc.c の lock_page_body() と unlock_page_body() の mprotect(2) のエラー時の rb_bug() のメッセージに errno を strerror() で文字列化したものも含めるようにしています。
