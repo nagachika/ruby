@@ -1,0 +1,1 @@
+cppflags=-DYJIT_FORCE_ENABLE をつけて、つまり YJIT を有効にしてビルドした時にエラーになるテストを YJIT.enabled? でチェックして実行除外するようにしています。
