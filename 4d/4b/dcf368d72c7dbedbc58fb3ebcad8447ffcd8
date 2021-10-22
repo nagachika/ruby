@@ -1,0 +1,1 @@
+YJIT のテスト用の yjit_asm_tests.c を misc/yjit_asm_tests.c にファイル移動しています。
