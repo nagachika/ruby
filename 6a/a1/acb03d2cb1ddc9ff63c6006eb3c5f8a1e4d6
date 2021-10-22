@@ -1,0 +1,1 @@
+rubyspec に fixture としての .dylib ファイルをいくつか追加しています。 .gitignore にヒットしてマージされていなかったようです。
