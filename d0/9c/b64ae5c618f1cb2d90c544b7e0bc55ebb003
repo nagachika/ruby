@@ -1,0 +1,1 @@
+標準添付ライブラリ mutex_m の Mutext_m::VERSION 定数を Ractor.make_shareable で Ractor 間で共有可能にしています。なんでだろ。
