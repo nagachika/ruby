@@ -1,0 +1,1 @@
+9f4f3bd1cce879d1de906b332353e5e9c051df00 と同様に rubyspec の Refinements と super についてのテストも 3.0 以前でのみ実施するようにしています。
