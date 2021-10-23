@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal のバージョンを 3.1.0.dev に更新し、不要な add_development_dependency を削除し required_ruby_version を 2.5.0 以降に変更しています。
