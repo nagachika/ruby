@@ -1,0 +1,1 @@
+標準添付ライブラリ uri に URI::HTTP#authority と URI::HTTP#origin というメソッドを追加しています。authority はドメインと port 番号を合わせた部分で、origin はさらに schema を含んだ部分を返すようです。
