@@ -1,0 +1,1 @@
+bundler が bundle gem で生成する gem のテンプレートの standard.yml で default_ignores: false という設定を入れるようにしていたのを削っています。明示的な設定のないルールは無効にするようにしたということでしょうかね。
