@@ -1,0 +1,1 @@
+GitHub Actions の YJIT の macOS でのテスト用 workflow の matrix から --yjit-call-threshold を変えて実行するものを削って実行回数を減らしています。
