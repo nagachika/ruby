@@ -1,0 +1,1 @@
+6606597109bdb535a150606323ce3d8f5750e1f6 で Refinements の Module#refine 内での include や prepend が deprecated 警告を出すようになったのに対応して rubyspec の refinements のテストの一部を 3.0 以前でのみ実施するようにしています。
