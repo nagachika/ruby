@@ -1,0 +1,1 @@
+gc.c の gc_compact() の先頭でシステムのページサイズを取得して HEAP_PAGE_SIZE がページサイズの整数倍になってるかチェックしていたのを、その直後に呼ぶ gc_start_internal() の中に移動しています。 compact のために gc_start_internal() を呼ぶ経路は他にもあるので、コミットログを読んだ感じだと gc_verify_compaction_references() 経由(GC.verify_compaction_references メソッド呼び出し)の時にも page alignment をチェックするためみたいですね。
