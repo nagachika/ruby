@@ -1,0 +1,1 @@
+Class や Module のインスタンス変数が複数の Ractor 利用時に main Ractor 以外で参照できなかったのを緩和して、設定のみ main Ractor が可能で参照はできるようにしています。ただしもちろん格納されているオブジェクトは即値か freeze されているなど Ractor shareable になっているものである必要があります。このためにインスタンス変数のテーブル操作に RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() でプロセス全体で排他して行うための関数を追加しています。 [ruby-core:102305] [Feature #17592]
