@@ -1,0 +1,1 @@
+yjit_iface.c の rb_yjit_constant_ic_update() という関数で YJIT が有効でない時にすぐに return するようにしています。関数名やコミットログからみると YJIT のために定数参照の inline cache をしているところみたいですが YJIT 無効なら不要にコストがかかるだけなのでスキップするということでしょう。
