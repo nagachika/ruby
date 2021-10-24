@@ -1,0 +1,1 @@
+YJIT のテストで GC.verify_compaction_references を呼び出していたところを NotImplementedError 例外を無視するようにしています。
