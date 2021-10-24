@@ -1,0 +1,1 @@
+66df18c55e929de4d133cd9e71807a70de392ec0 の did_you_mean の同期の時に DidYouMean.formatter= の引数名を消してしまっていたのを復活させています。
