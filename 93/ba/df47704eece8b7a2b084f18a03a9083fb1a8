@@ -1,0 +1,1 @@
+pattern matching のテストでエラーメッセージが変化してしまってテストが失敗するのを避けるため? did_you_mean の formatter を無効にしておくようにしています。
