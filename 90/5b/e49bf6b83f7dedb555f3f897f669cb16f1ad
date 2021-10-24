@@ -1,0 +1,1 @@
+did_you_mean のテストで DidYouMean.formatter= が警告を出すことをチェックするテストが残っていたので削除しています。
