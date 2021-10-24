@@ -1,0 +1,1 @@
+35b9d8d39317cc5ed9eeb11d3ecbb7335b81ed91 で追加した openssl のテストで assert_raises のかわりに assert_raise を利用するように修正しています。
