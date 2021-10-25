@@ -1,0 +1,1 @@
+拡張ライブラリ psych の psych 内のスクリプトの require に require_relative を使うようにリファクタリングしています。
