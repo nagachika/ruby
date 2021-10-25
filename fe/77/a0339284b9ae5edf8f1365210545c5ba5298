@@ -1,0 +1,1 @@
+GitHub Actions の YJIT 用の workflow で if 節(っていうのかな)で ${{}} を使って評価するようにしています。
