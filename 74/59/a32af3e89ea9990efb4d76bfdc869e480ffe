@@ -1,0 +1,1 @@
+ポインタが NULL の場合の警告が出てたところに ASSUME() マクロを追加したり VM_ENV_ENVVAL() と VM_ENV_ENVVAL_PTR() の定義に RBIMPL_ATTR_NONNULL() をつけて警告抑制しています。
