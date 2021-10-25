@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の gemspec ファイルから simplelcov への development dependency を削除しています。
