@@ -1,0 +1,1 @@
+標準添付ライブラリ csv が English.rb に依存していて $INPUT_RECORD_SEPARATOR という特殊変数を参照していたのをやめて InputRecordSeparator.value を参照するようにしています。
