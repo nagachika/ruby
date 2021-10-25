@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の build_parser_fields_converter や build_header_fields_converter で CSV::Converters や CSV::HeaderConverters といった定数を直接参照せず定数名の Symbol のみ設定しておいて実際に必要になった時に Module#const_get で取得するようにしています。複数 Ractor 利用時のための対応だそうです。
