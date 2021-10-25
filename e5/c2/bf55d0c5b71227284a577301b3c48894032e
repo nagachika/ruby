@@ -1,0 +1,1 @@
+vm.c の check_machine_stack_size() で PTHREAD_STACK_MIN との比較で size_t へのキャストを追加して警告除去しています。
