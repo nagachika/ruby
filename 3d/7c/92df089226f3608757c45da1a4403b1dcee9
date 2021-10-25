@@ -1,0 +1,1 @@
+io.c の errno のチェックで EAGAIN または EWOULDBLOCK であることをチェックしているところがたくさんあるので io_again_p() という inline 関数に切り出すリファクタリング。
