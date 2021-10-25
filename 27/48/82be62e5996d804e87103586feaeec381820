@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の gemspec ファイルに test-unit への development dependency を追加しています。
