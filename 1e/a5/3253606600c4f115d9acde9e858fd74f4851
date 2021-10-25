@@ -1,0 +1,1 @@
+GitHub Actions の workflow で aee4940d5e45f6502aa661662d0ee142a45b98dc と同様に ubuntu 版でも --yjit-call-threshold の変更したバリエーションは matrix から削っています。
