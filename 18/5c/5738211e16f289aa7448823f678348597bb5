@@ -1,0 +1,1 @@
+make install-nodoc 時に --install=all をオプションに追加するようにしています。
