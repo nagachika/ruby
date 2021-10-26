@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で BN_check_prime() という関数が利用可能だったら BN_is_prime_fasttest_ex() のかわりに利用するようにしています。
