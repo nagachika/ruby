@@ -1,0 +1,1 @@
+拡張ライブラリ coverage に Coverage.suspend と Coverage.resume というメソッドを追加して、coverage 測定を一時的に停止したり再開したりできるようにしています。またこのため Coverage.start から準備部分を Coverage.setup というメソッドに切り出して、setup してから Coverage.resume で開始するという使いかたもできるようにしています。さらに現在の状態を得る Coverage.state というメソッドも追加されています。 https://github.com/ruby/ruby/pull/4856 [ruby-core:105321] [Feature #18176]
