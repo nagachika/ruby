@@ -1,0 +1,1 @@
+Enumerable#zip や Range クラス、Struct#[] の rdoc 用コメントなどで n-th という表現の n のマークアップがミスしていたのを修正しています。
