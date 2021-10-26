@@ -1,0 +1,1 @@
+Enumerable#each_slice、Enumerable#each_cons などのメソッドが nil を返していたのを receiver をそのまま返すように変更しています。少し探したんですが対応するチケットがないみたいでした。
