@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で TS_VERIFY_CTX_set_certs() という関数が利用可能か調べて可能なら TS_VERIFY_CTS_set_certs() のかわりにこちらを利用するようにしています。
