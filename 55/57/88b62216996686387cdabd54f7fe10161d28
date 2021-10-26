@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Point#make_affine! を deprecated 警告を出力するようにしています。 EC_POINT_make_affine() が OpenSSL 3.0 で deprecated になったため。
