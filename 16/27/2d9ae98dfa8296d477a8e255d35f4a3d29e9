@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で EVP_MD_CTX_get_pkey_ctx() という関数(マクロ?)が利用可能だったら EVP_MD_CTX_pkey_ctx() のかわりにこちらを利用するように変更しています。
