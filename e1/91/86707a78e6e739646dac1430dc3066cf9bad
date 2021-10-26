@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で BN.pseudo_rand と BN.pseudo_rand_range メソッドをそれぞれ rand と rand_range メソッドの alias として定義しなおしています。 それぞれの実装になってた BN_pseudo_rand() と BN_pseudo_rand_range() という関数が OpenSSL 3.0 で deprecated になったため。
