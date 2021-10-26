@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で EVP_MD_CTX_get0_md() という関数が利用可能だったら EVP_MD_CTX_md() のかわりに利用するようにんしています。
