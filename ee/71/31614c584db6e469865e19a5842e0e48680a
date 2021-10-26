@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で EC_GROUP_clear_free() のかわりに EC_GROUP_free() という関数を利用するようにしています。これも OpenSSL 3.0 対応のため。
