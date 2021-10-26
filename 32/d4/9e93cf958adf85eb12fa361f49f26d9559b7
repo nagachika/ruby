@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のリンクしている OpenSSL/LibreSSL のバージョンをチェックするためのマクロ OSSL_IS_LIBRESSL、OSSL_OPENSSL_PREREQ()、OSSL_LIBRESSL_PREREQ() などを追加しています。
