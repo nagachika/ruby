@@ -1,0 +1,1 @@
+.github/CODEOWNERS というファイルを追加して yjit* と doc/yjit/ の配下および bootstraptest/test_yjit* の reviewer に @maximecb と @xrxr を指定するようにしています。
