@@ -1,0 +1,1 @@
+rubygems で digest を利用していたのを openssl 内の digest 実装を利用するように変更しています。
