@@ -1,0 +1,1 @@
+bundler の Bundler::RubygemsIntegration#download_gem で fetcher.download を使うかわりに代替実装を追加しています。 cache まわりの不具合対応のためらしいです。
