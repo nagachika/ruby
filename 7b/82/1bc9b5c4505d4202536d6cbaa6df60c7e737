@@ -1,0 +1,1 @@
+bundler の Bundler::RubygemsIntegration#download_gem でメソッド内で遅延した require "rubygems/remote_fetcher" を追加しています。
