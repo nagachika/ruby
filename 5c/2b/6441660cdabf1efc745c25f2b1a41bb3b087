@@ -1,0 +1,1 @@
+IO.io_wait に不正な fd を持つ IO を渡すテストで IO.for_fd を使って fd を close していたので assert_separately を使って子プロセスで実行させるようにしています。 7864efa105921eb3900c843126f2e0db02b9c6ae や a1c4cab11d613d7df037a81a770ee44a23a2e9be で parallel test で使う pipe の close のエラーの調査をしていたやつの原因みたいで、fd を close した IO を作ってしまうので、その IO が GC で回収される時にその fd が別の IO で(つまり parallel test 用の pipe で)再利用されているとそれを誤って close してしまうという悲劇が発生していたようです。
