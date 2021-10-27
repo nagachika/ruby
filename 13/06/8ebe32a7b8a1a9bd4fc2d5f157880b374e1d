@@ -1,0 +1,1 @@
+Process._fork というメソッドを追加して Kernel#fork の実体をこのメソッドの呼び出しにしています。 fork をフックしたい時にこれを再定義することで実現するためのもので、直接利用することはないメソッドとしてドキュメントにも注意書きがされています。 https://github.com/ruby/ruby/pull/5017 [ruby-core:103400] [Feature #17795]
