@@ -1,0 +1,1 @@
+rubygems の gem cert サブコマンドに --key-algorithm というオプションを追加して RSA 以外の鍵の種類を使った署名ができるようにしているようです。
