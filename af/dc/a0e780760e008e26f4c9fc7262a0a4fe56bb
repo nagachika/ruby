@@ -1,0 +1,1 @@
+double の変数が align されていないアドレスに置かれていないといけない環境向けの struct RFloat の操作の修正をしています。そのような環境だと struct RFloat::float_value を直接使えないので変数に memcpy() でコピーして参照/セットするようにしています。
