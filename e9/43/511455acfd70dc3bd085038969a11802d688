@@ -1,0 +1,1 @@
+YJIT に VM 命令の duphash の JIT 対応を追加しています。YJIT の実装はまだ見てなかったのですが、なるほどこんなふうに VM 命令毎に実行コード生成の指定をしていくんですね。 https://github.com/ruby/ruby/pull/5009
