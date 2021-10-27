@@ -1,0 +1,1 @@
+bundler で gem の cache 探索時の default gems の考慮する位置を移動しています。
