@@ -1,0 +1,1 @@
+748688a63d8ab621d4b2ab91cbccb5cad2c7797c で GitHub Actions で利用するようにした GNUMAKEFLAGS が macOS 版では効かなかったようなので MAKEFLAGS という変数に変更しています。
