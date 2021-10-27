@@ -1,0 +1,1 @@
+bundler に独自の SHA1 の digest の実装を追加しています。 digest.gem への依存を消すためだそうです。
