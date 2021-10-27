@@ -1,0 +1,1 @@
+cf52a2c9ba0e2add78f50c32dfadda8e7808d2e9 に続いて .github/CODEOWNERS に test/ruby/test_yjit* も追加しています。また 722d43ad5e2685c4ca6edf090755eeca1a8cc8ce は revert しています。
