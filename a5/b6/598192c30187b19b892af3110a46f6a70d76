@@ -1,0 +1,1 @@
+struct RClass に続いて struct RString も USE_RVARGC マクロが真に定義されている時に struct RVALUE の slot を複数まとめて確保して文字列バッファをそこに埋め込むことができるようにしています。埋め込む最大のサイズは SIZE_POOL_COUNT で決まるので struct RVALUE の 4つぶんかな? [ruby-core:105544] [Feature #18239]
