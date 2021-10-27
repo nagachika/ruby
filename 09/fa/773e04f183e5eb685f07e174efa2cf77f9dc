@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence にスクリプトの内容を入れるのに再度スクリプトから読まずに ISeq に保持されてる情報を利用するようにしています。 https://github.com/ruby/ruby/pull/5019
