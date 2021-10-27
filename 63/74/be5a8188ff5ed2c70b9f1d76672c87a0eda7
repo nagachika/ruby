@@ -1,0 +1,1 @@
+class.c で rb_gc_rvargc_object_data() という関数を利用するのをやめています。 [ruby-core:105544] [Feature #18239]
