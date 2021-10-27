@@ -1,0 +1,1 @@
+GitHub Actions の workflow 設定で make のオプションに渡すフラグのために JOBS という環境変数を使っていたのを GNUMAKEFLAGS に設定してコマンドラインで明示的に渡さなくても良いようにしています。
