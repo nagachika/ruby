@@ -1,0 +1,1 @@
+YJIT を無効にしてビルドした時に空の関数の実装にしてバイナリサイズを減らすようにしています。 https://github.com/ruby/ruby/pull/5003
