@@ -1,0 +1,1 @@
+Bundler::Source::Rubygems#cached_path の実装を見やすくリファクタリングしています。
