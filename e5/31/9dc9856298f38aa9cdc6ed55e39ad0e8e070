@@ -1,0 +1,1 @@
+String#unpack と String#unpack1 に、読み取りをはじめる位置を指定するキーワード引数 offset を追加しています。おお、なるほど便利かも。 [ruby-core:105660] [Feature #18254]
