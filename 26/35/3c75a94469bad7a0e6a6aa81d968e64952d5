@@ -1,0 +1,1 @@
+e3a783b14191fef175c9a59996afdc744c8edc4c の追加修正で rb_float_value_type の型をただの double にできる条件として sizeof(VALUE) と sizeof(double) が同じだった場合が弾かれてたので条件を修正しています。
