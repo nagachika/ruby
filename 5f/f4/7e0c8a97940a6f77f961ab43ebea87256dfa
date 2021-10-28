@@ -1,0 +1,1 @@
+configure で -Werror=old-style-definition というコンパイラフラグが使えたら wflags に追加するようにしています。33844f3096ed15eb1568d6aa333d8040ec9f074a のようなスタイルの修正のためですね。
