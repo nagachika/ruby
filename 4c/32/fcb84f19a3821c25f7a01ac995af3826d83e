@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で ErrorHighlight.formatter を保持するのにクラス変数を利用していたのが複数 Ractor で利用する時に問題だったので Ractor local storage を使って Ractor 毎に保持するようにしています。
