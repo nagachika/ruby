@@ -1,0 +1,1 @@
+TracePoint の T_TYPEDDATA で wrap する構造体についてその解放関数が RUBY_TYPED_NEVER_FREE になっていて GC 時に回収しないようになっていたのでメモリリークしていたのを RUBY_TYPED_DEFAULT_FREE にして普通に回収するようにしています。これなんで解放しないようになってたんだろう。 [ruby-core:105755] [Bug #18264]
