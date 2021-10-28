@@ -1,0 +1,1 @@
+thread.c と missing/langinfo.c の無引数の関数定義の引数部分に明示的に void を書くようにコーディングスタイルを修正しています。
