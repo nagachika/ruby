@@ -1,0 +1,1 @@
+afdca0e780760e008e26f4c9fc7262a0a4fe56bb で struct RFloat の float_value が align されてないので align されてないメモリアクセスができないアークテクチャ向けの対応を入れてましたが、アライメントの取られた位置にメンバーが配置されるようにした rb_float_value_type という型を作って float_value の型をこれにしています。なるほど memcpy() が不要になったぶん効率的になったのかな。
