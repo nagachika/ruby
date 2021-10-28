@@ -1,0 +1,1 @@
+Random オブジェクトが wrap する構造体 rb_random_mt_t の解放関数で複数 Ractor の対応のために Ractor local storage に保存しているものと同じ構造体を指していたら解放しないようにしていたのをやめています。現在はもう不要になっていた? らしいのと sweep 処理中に Ractor local storage をさわることでメモリ確保が必要になって異常終了することがあったようです。 [ruby-core:102589] [Bug #17653]
