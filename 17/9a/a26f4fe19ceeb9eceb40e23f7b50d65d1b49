@@ -1,0 +1,1 @@
+defs/gmake.mk の pull-github ターゲットで git worktree prune というサブコマンドの実行を追加して余計な変更が混ざらないようにしているようです。
