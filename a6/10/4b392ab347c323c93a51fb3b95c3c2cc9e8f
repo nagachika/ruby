@@ -1,0 +1,1 @@
+YJIT の VM 命令 newhash の対応でオペランドの Hash のサイズ指定があった( 1以上だった)時に JIT 対応していなかったのを JIT コンパイルするように対応を追加しています。 https://github.com/ruby/ruby/pull/5029
