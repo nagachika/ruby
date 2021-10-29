@@ -1,0 +1,1 @@
+misc/lldb_cruby.py を 46b66eb9e8e6de2d5750591e532310e8f8599d90 での struct RString の構造体の宣言の変更に追随するように修正しています。
