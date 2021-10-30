@@ -1,0 +1,1 @@
+bundler の Bundler.rubygems.spec_from_gem の呼び出しの例外を rescue しているところで広く StandardError を rescue していたのを Gem::Package::FormatError だけ rescue するようにしています。
