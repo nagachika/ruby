@@ -1,0 +1,1 @@
+Proc#isolate のテストで不正な変数参照してたら ArgumentError 例外を発生させるのを確認するテストで、不要なのに Proc#call もするようになってた(Proc#isolate を呼ぶ時点で例外になるはず)のを削除しています。
