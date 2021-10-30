@@ -1,0 +1,1 @@
+f45af5f0a427a85fd157bbb1461a7dc33d30eb1b と同様に rubygems にも tsort を rubygems 内に vendoring するようにしています。こっちもかー。これも tsort の gem 化のために必要ということみたいです。
