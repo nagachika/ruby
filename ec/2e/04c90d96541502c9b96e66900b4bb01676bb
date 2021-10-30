@@ -1,0 +1,1 @@
+Proc オブジェクトにブロック外の変数の参照がないかチェックするコードが Ractor.make_shareable と Proc#isolate の実装の 2箇所に記述されてたので proc_shared_outer_variables() という関数に切り出して共有するようにリファクタリングしています。また変数名をエラーメッセージに埋め込む時にその Encoding 保持するようにしています。
