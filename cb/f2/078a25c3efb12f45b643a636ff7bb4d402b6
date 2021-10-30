@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence の GC mark 用関数で  struct rb_iseq_constant_body::variable.script_lines の mark 処理を追加しています。最近追加された項目で mark が漏れていたようです。
