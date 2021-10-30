@@ -1,0 +1,1 @@
+bundler のテストで default gems についてのテストに error_highlight と ruby2_keywords を対象に追加しています。
