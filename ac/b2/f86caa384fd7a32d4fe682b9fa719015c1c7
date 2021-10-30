@@ -1,0 +1,1 @@
+struct RString の flags のビットフラグの内訳についてのコメントに STR_TMPLOCK、STR_NOFREE、STR_FAKESTR について説明を追記しています。
