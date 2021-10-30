@@ -1,0 +1,1 @@
+GitHub Actions の YJIT 用の workflow のうち macos での実行については .github/workflows/macos.yml のステップの一部に取り込んでいます。 GitHub Actions の macOS 環境は並列実行の上限が厳しいみたいなので一緒にしたほうが全体として効率的になるみたいです。
