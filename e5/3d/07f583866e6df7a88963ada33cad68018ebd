@@ -1,0 +1,1 @@
+YJIT モジュールを RubyVM::YJIT に移動しています。
