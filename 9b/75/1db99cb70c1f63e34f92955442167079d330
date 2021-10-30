@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のバイナリフォーマットからのロード時に元のスクリプトの内容を保持する script_lines のクリアをするように修正しています。
