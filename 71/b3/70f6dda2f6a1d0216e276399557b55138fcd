@@ -1,0 +1,1 @@
+bundler のテストで生成する Gemfile に ruby2_keywords を追加して環境変数 BUNDLE_FORCE_RUBY_PLATFORM を設定するようにしています。しかし、この BUNDLE_FORCE_RUBY_PLATFORM という環境変数、現在は検索してもドキュメントとこのテストにしか登場しないのでなにも効力はなさそう。
