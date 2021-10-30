@@ -1,0 +1,1 @@
+bundler に tsort を標準添付ライブラリから bundler 内部に vendoring しています。 tsort の gem 化のために必要だったとのこと。
