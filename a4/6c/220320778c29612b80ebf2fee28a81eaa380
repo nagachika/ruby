@@ -1,0 +1,1 @@
+error.c で例外オブジェクトに Module を extend する rb_extend_object() と rb_exc_raise() を連続して呼び出す処理が頻出だったので rb_mod_exc_raise() という関数に切り出すリファクタリング。
