@@ -1,0 +1,1 @@
+doc/syntax/comments.rdoc の magic comment についての記述で書ける位置についての記述を encoding コメントのみ 1行めまたは 2行目(1行目が shebang の場合)という縛りがあるのでその言及する位置を encoding コメントについての記述に移動しています。
