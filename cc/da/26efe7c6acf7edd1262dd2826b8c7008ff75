@@ -1,0 +1,1 @@
+configure.ac から Thread の実装に使う native thread の指定を検出する部分を tool/m4/ruby_thread.m4 という独立した m4 ファイルに分離しています。 thread model を切り替えできるようにする予定があるみたいですね。
