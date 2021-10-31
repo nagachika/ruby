@@ -1,0 +1,1 @@
+rubyspec の GC.auto_compact のテストでこのメソッドが NotImplementedError を発生させる環境で before/after でのバックアップからの復旧も例外を起こしてしまうので it のなかにまとめて例外時に skip するようにしています。 https://github.com/ruby/spec/pull/891
