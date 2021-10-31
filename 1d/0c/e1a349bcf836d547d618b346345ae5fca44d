@@ -1,0 +1,1 @@
+TracePoint.trace の rdoc 用コメントから rdoc の Document-method タグの指定を削っています。
