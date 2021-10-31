@@ -1,0 +1,1 @@
+gc.c の rb_objspace_t::size_pools の各要素へのアクセスを SIZE_POOL_XXXX() といったマクロ群を利用するようにリファクタリングしています。 size_pools ってなんだっけ、と思ったけど複数 slots をまとめて割当てる VWA で割り当てサイズごとにまとめて heap を作るようにした時のものかな。
