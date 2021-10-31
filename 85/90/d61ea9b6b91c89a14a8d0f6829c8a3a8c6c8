@@ -1,0 +1,1 @@
+native thread の実装によって切り替える thread_pthread.c と thread_win32.c を THREAD_IMPL_SRC というマクロで指定しておいて thread.c からこのマクロ指定で #include するようにしています。これも新しい実装を選択可能にするのに向けた地均しのようですね。
