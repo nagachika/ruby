@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の X509::Name.parse_openssl と X509::Name.parse_rfc2253 の rdoc 用コメントを追加して X509::Name.parse_openssl and X509::Name#to_s の rdoc 用コメントにその参照を追記しています。
