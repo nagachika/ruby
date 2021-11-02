@@ -1,0 +1,1 @@
+bundler で require "bundler/setup" した時に Gemfile の内容を読み込んだ結果をキャッシュしてそれ以降 Bundler.require の内容を変更しても Bundler.definition.specs が影響を受けないようにしているようです。
