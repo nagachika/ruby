@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket が TLS の handshake が終わってセッション確立していない時点でも write/read で読み書きしようとすることができてしまっていたのを修正して OpenSSL::SSL::SSLError 例外を発生させるようにしています。
