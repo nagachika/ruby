@@ -1,0 +1,1 @@
+GitHub Actions で gems/bundled_gems の更新 pull request を自動で作成する workflow にて git pull 前に git commit してたので順序を入れ替えてます。
