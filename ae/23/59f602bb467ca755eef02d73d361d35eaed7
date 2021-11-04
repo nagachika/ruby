@@ -1,0 +1,1 @@
+String#slice!, #sub, #sub!, #gsub, #gsub! などのメソッドの rdoc 用コメントの説明を String クラスの説明内に移動したりしています。 https://github.com/ruby/ruby/pull/5060
