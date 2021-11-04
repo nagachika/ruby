@@ -1,0 +1,1 @@
+configure で emscripten 向けのビルド時に shutdown() 関数の存在をないこととしてビルドするように指定を追加しています。
