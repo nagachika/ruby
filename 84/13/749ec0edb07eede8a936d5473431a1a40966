@@ -1,0 +1,1 @@
+拡張ライブラリ socket の extconf.rb で if_indextoname() や if_nametoindex() の関数宣言の存在チェック時にヘッダファイルの指定が抜けていて正しく存在チェックできていなかったのを修正しています。
