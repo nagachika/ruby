@@ -1,0 +1,1 @@
+標準添付ライブラリ racc のローカル変数名の typo 修正。 path の複数形は pathes じゃなくて paths らしい。
