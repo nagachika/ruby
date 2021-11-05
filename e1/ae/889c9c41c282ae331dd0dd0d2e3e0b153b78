@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ racc の private メソッド名 _regist を _register に修正しています。
