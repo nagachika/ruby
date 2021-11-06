@@ -1,0 +1,1 @@
+GC.compact のテストが s390x でうまく動かないらしいので toplevel return で test/ruby/test_gc_compact.rb ファイル全体を実行除外するようにしています。
