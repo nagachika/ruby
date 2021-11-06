@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPResponseReceiver 定数を deprecated に宣言しています。
