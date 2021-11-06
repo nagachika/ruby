@@ -1,0 +1,1 @@
+他にも標準添付ライブラリ net/http の互換性のための定数を depreated_constant で deprecated とマークするようにしています。
