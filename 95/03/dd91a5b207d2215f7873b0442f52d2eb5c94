@@ -1,0 +1,1 @@
+5e855be86be19240257e444a09a95e1ddb355043 の rubygems のリファクタリングで導入したメソッド prepend_destdir_if_present を他のところでも利用するようにしています。
