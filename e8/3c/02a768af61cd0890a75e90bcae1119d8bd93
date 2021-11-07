@@ -1,0 +1,1 @@
+Enumerable を include したクラスの each メソッドにキーワード引数が定義されてた時に Enumerable#to_a の任意のキーワード引数を each メソッドを呼ぶ時に委譲するようにしています。えーなんだこれ。これは new feature なのでは……と思ったけど to_a はもともと引数を委譲する仕様があったのか。 [ruby-core:105944] [Bug #18289]
