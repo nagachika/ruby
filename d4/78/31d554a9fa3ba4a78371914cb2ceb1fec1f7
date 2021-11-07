@@ -1,0 +1,1 @@
+rubygems のインストールのテストで bindir を destdir の配下の bin ディレクトリになるように変更しています。
