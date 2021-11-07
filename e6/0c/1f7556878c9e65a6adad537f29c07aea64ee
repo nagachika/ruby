@@ -1,0 +1,1 @@
+rubygems のテストで RbConfig::CONFIG['mandir'] と RbConfig::CONFIG['sitelibdir'] を設定してテストでこれを参照するようにしています。
