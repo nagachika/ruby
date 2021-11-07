@@ -1,0 +1,1 @@
+fill_random_bytes_crypt() や fill_random_bytes_bcrypt() で乱数を生成するバッファサイズが DWORD の最大値より大きい時にループして複数回 API を呼び出すように対応を追加しています。
