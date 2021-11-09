@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境向け workflow で nmake の incs, extract-extlibs, all のターゲットの実行を 1つのステップでしていたのを別々のステップにして不要な echo コマンドを削ったり不要な name での名前付けを消したりしています。
