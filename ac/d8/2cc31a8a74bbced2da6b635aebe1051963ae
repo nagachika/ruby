@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow の rubyspec 実行の step で自前で mspec/bin/mspec を実行していたのを make test-spec を使うように変更しています。
