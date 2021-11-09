@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow で make の -j オプションの指定を環境変数 GNUMAKEFLAGS でまとめて設定して各コマンドのところでは指定しなくていいようにしています。
