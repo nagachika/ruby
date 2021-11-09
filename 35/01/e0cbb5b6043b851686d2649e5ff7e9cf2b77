@@ -1,0 +1,1 @@
+Memory View 機能の構造体 rb_memory_view_t のメンバーに _memory_view_entry という rb_memory_view_entry_t のポインタを追加して rb_memory_view_release() で解放するべきエントリを取得するのに lookup_memory_view_entry() を呼んでたのをこのメンバーにキャッシュして直接参照するようにしています。 https://github.com/ruby/ruby/pull/5088 finalizer から呼ぶと異常終了する可能性があるのでクラス継承ツリーを辿るのはだめだったみたいです。 https://github.com/ruby/ruby/pull/5012
