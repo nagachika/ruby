@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow で make install-nodoc 時に DESTDIR に ../install を指定するようにしています。かわりに configure 時の --prefix からは install を削除しています。
