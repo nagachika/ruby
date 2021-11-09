@@ -1,0 +1,1 @@
+numeric.c の ruby_float_step_size() という関数で浮動小数点数の計算結果の比較を一旦 double の変数に格納してから比較するようにしています。 long double に拡張されるのを防ぐためとのことです。
