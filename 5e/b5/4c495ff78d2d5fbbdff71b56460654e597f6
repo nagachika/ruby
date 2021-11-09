@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow で環境変数の設定を各 step でしていたのを Write-Output と $env:GITHUB_ENV というのを使ってまとめてするようにリファクタリングしています。
