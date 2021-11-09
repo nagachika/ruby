@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow の make test-all 実行時に環境変数 BUNDLER_VERSION をクリアするのを env コマンド? を利用して常に空にしておくようにしています。
