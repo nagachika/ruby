@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow でまだ autoreconf を使ってたので autogen.sh を使うように変更しています。
