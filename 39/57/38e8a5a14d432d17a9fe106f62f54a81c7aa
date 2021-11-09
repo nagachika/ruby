@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境向け workflow で 32bit モードでビルド時に拡張ライブラリ readline のテストの test_interrupt_in_other_thread というのをスキップするようにしています。
