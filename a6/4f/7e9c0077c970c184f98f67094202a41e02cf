@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境向け workflow で configure 時に --host=i686-$OSTYPE をつけて 32bit モードでビルドするジョブを追加しています。
