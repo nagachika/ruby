@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow でコンソールの encoding 設定をするためのコマンド? を削除しています。もう不要になってるとのこと。
