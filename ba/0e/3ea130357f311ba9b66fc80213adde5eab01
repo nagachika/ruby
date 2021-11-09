@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版で test-all 時のオプションの -j の設定方法とプロセッサ数をそのまま渡さず少し多めにするように変更しています。
