@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow で環境変数設定のために Write-Output を使ってたのをデフォルトの run: の実行コマンドを sh にして echo コマンドなどを使うようにしています。元のは PowerShell だったのかな。
