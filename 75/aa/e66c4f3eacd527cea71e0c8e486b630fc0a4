@@ -1,0 +1,1 @@
+真偽値を返すメソッドの実装で RBOOL() マクロを利用するようにしています。 https://github.com/ruby/ruby/pull/5023
