@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境用 workflow で 395738e8a5a14d432d17a9fe106f62f54a81c7aa で追加した一部のテストの skip のための指定でコマンドラインに渡す $ をエスケープするため $ を2重に書くようにしています。
