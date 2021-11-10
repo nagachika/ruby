@@ -1,0 +1,1 @@
+fork 時のフックを挿入するために分離された Process._fork メソッドについて NEWS に追記しています。 [ruby-core:103400] [Feature #17795]
