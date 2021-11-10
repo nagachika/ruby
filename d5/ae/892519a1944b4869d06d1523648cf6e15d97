@@ -1,0 +1,1 @@
+TracePoint の rdoc 用コメントのイベントフックの種類に r43645 で追加されてた a_call と a_return について追記しています。
