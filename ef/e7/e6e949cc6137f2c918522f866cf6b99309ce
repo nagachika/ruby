@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 1.7.0.beta.5 に変更しています。また tool/test-bundled-gems.rb に拡張ライブラリビルドのため? tool/dummy-rake-compiler/rake/extensiontask.rb というファイルを追加して rbs のビルド時にこの tool/dummy-rake-compiler を RUBYLIB のライブラリパスに追加するようにしています。
