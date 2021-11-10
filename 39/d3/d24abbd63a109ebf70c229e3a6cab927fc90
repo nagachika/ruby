@@ -1,0 +1,1 @@
+GC 関連のテストで rb_gc_force_recycle() に依存しているものを削除しています。 https://github.com/ruby/ruby/pull/4363 [ruby-core:105945] [Feature #18290]
