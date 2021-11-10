@@ -1,0 +1,1 @@
+finalizer から GC 中にできない処理を後で実行するために登録しておく postponed job という機構で rb_execution_context_t を得る時に Ractor 導入後に NULL になる可能性があったみたいで、その場合は rb_vm_main_ractor_ec() で main Ractor の ec を利用するように修正しています。
