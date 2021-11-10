@@ -1,0 +1,1 @@
+bootstraptest/test_insns.rb で VM 命令の swap のカバレッジのためのテストケースに !! を使ったスクリプトを追加しています。
