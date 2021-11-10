@@ -1,0 +1,1 @@
+bundler の生成した gem の rake タスクから呼ばれる git コマンド実行のメソッドでコマンドを %W 記法で配列として作っていたのを、文字列を標準添付ライブラリ shellwords の String#shellsplit で作るように変更しています。
