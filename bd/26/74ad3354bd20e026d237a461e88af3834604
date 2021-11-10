@@ -1,0 +1,1 @@
+bundler の依存関係可視化のために bundler-viz というプロジェクトを使うように警告メッセージを出してたのを bundler-graph に変更しています。
