@@ -1,0 +1,1 @@
+e83c02a768af61cd0890a75e90bcae1119d8bd93 で追加した Enumerable#to_a のキーワード引数委譲についてのテストで警告抑制のため each メソッドの再定義前に remove_method で削除するようにしています。
