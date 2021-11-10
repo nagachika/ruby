@@ -1,0 +1,1 @@
+拡張ライブラリ readline の SIGINT 関連のテストで 32bit 環境の Linux では Readline のほうに不具合があって SEGV が発生するそうなのでテストをスキップするようにしています。
