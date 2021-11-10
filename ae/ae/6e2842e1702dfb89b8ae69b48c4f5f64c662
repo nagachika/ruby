@@ -1,0 +1,1 @@
+オブジェクトを強制的にする解放する rb_gc_force_recycle() の呼び出しを削除しています。GC 関連の変更をする時にこれがあるために難しいことがあるのでということみたいです。一カ所 free() も消してるところがあるけどこれはいいのかな。 https://github.com/ruby/ruby/pull/4363 [ruby-core:105945] [Feature #18290]
