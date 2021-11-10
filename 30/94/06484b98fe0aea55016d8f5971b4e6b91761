@@ -1,0 +1,1 @@
+rb_gc_force_recycle() を deprecated として、内容もなにもしない関数に変更しています。またこれにより不要になった invalidate_mark_stack() と invalidate_mark_stack_chunk() という関数を削除しています。 https://github.com/ruby/ruby/pull/4363 [ruby-core:105945] [Feature #18290]
