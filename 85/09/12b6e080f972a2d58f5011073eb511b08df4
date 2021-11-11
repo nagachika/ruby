@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu の workflow で apt-get でインストールするパッケージに pkg-config を追加しています。 32bit 環境で必要らしいです。
