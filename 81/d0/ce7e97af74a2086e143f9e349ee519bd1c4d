@@ -1,0 +1,1 @@
+4b8903421828cb9d4de139180563ae8d8f04e1ab で導入した IO::Buffer は experimental として利用時に警告を出力するようにしています。
