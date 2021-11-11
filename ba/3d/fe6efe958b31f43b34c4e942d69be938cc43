@@ -1,0 +1,1 @@
+rubygems のテスト用ライブラリの assert_contains_make_command といメソッドで不要な yield を削除しています。ブロック渡しして呼ばれることはないからとのこと。
