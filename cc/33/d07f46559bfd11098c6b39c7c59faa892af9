@@ -1,0 +1,1 @@
+81d0ce7e97af74a2086e143f9e349ee519bd1c4d で IO::Buffer を experimental にしたためテスト時の警告を抑制するために Warning[:experimental] を false に設定していたのを tool/test/runner.rb から test/runner.rb に移動しています。
