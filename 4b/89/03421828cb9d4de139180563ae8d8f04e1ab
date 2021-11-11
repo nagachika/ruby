@@ -1,0 +1,1 @@
+blocking fiber 機能のために IO::Buffer というクラスが導入されて mmap(2) や Windows の場合は CreateFileMapping()/MapViewOfFile() でメモリ領域を確保するようにして、IO の内部的なバッファのために ObjectSpace に所属しない内部的にだけ文字列オブジェクトとして扱える fake string を使っていたのをこの IO::Buffer クラスのオブジェクトを使うこともできるようにしているようです。 Scheduler は ruby で実装するクラスで、Scheduler に読み書きのためのバッファを見せる必要があるためこのような抜本的な改造をしたみたいです。かなり大きい変更ですね。 [ruby-core:104481] [Feature #18020]
