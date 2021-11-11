@@ -1,0 +1,1 @@
+rb_objspace_garbage_object_p() という関数の宣言を gc.h から internal/gc.h に移動して class.c から gc.h を #include しなくて良いようにしています。
