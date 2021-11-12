@@ -1,0 +1,1 @@
+include/ruby/internal/intern/file.h の rb_file_size() のための Doxygen 用コメントを追加しています。
