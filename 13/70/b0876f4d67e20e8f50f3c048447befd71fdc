@@ -1,0 +1,1 @@
+include/ruby/io/buffer.h の export する関数を囲む RUBY_SYMBOL_EXPORT_BEGIN/RUBY_SYMBOL_EXPORT_END を RBIMPL_SYMBOL_EXPORT_BEGIN()/RBIMPL_SYMBOL_EXPORT_END() に変更しています。 C++ で書かれた拡張ライブラリ対応のため。
