@@ -1,0 +1,1 @@
+IO::Buffer 対応で変更した IO まわりの処理で nogvl_wait_for() で引数の rb_io_t の fd が -1 だった時のエラー処理を追加しています。
