@@ -1,0 +1,1 @@
+include/ruby/internal/encoding/encoding.h の rb_enc_code_to_mbclen() の Doxygen 用コメントの引数名を修正しています。
