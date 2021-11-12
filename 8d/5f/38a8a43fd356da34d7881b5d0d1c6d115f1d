@@ -1,0 +1,1 @@
+Time の ruby 実装のための timev.rb で __builtin を使っていたところを Primitive を使うように変更しています。他の .rb フファイルでは Primitive を使っていたのでそれにあわせるため。
