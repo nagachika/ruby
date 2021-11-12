@@ -1,0 +1,1 @@
+include/ruby/internal/encoding/encoding.h の Doxygen 用のコメントで定数名をまちがっていたところを修正。
