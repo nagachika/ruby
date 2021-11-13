@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 1.7.0 に更新しています。また tool/test-bundled-gems.rb の rbs ビルド時の rbs コマンド実行を削除し、typeprof のテスト時に rbs のビルド実行済みかチェックするためにみるファイルを共有ライブラリファイルをみるように変更しています。 https://github.com/ruby/ruby/pull/5105
