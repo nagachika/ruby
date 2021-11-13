@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトで rb_classext_t は VWA が有効になってる場合は連続したオブジェクトヒープの slot に確保されるのでそれを指すポインタは不要なので、USE_RVARGC が有効にビルドされた時には struct RClass から ptr を削除して RCLASS_EXT() は単に struct RClas のサイズぶんポインタをずらすだけにしています。struct RClass のサイズも小さくなるし、次の slot というより連続したメモリ領域をそのまま使うって感じになりますね。けどこれ padding とかは気にしなくていいのかな。
