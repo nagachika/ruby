@@ -1,0 +1,1 @@
+4b8903421828cb9d4de139180563ae8d8f04e1ab で導入した IO::Buffer の IO::Buffer#copy メソッドの実装で receiver の flags の RB_IO_BUFFER_IMMUTABLE ビットフラグをみて立ってたら例外発生させるようにしています。
