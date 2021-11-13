@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッドの gemfile_should_be を削除して呼び元で変数で gemfile を明示的に指定して比較するようにしています。
