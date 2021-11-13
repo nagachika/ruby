@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッド lockfile_should_be を削除して呼び元で明示的に lockfile の変数名を指定して比較するようにしています。
