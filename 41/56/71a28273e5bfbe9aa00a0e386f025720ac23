@@ -1,0 +1,1 @@
+parse.y の yycompile() のエラー時に struct parser_params::lvtbl というポインタの解放漏れがあったのを修正しています。
