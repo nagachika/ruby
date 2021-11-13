@@ -1,0 +1,1 @@
+io/console のテストで io/console のライブラリパスを得る為の前処理の部分で CI で Encoding::CompatibilityError が発生しているらしく調査のため rescue して $LOADED_FEATURES の内容を表示するデバッグ出力を追加しています。
