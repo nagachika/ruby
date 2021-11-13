@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境でコメントアウトしている windows-2022 でのビルド時の vcvars の設定のファイルパスを変更しています。
