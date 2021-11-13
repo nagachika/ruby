@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッド have_lockfile を削除しています。
