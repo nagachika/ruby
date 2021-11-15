@@ -1,0 +1,1 @@
+3aa62b455caf4926fd203878eca71b5281f10edf と 4d8d8c9d4908a28e22c3182e27eac0e397e23833 の io/console のテストのデバッグのさらに続きで $LOADED_FEATURES の内容を encoding とともに表示するようにしています。
