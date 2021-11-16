@@ -1,0 +1,1 @@
+a698181021c11711dc56b74dacbdebc2895b5384 および f9638c3b1716df4a94ea6ae0854cf55d66072ee4 で一度子プロセスで実行する対応を入れてすぐ revert した test/ruby/test_m17n.rb の Encoding.default_internal を変更するテストは、一時的に skip するようにしています。 [ruby-core:106067] [Bug #18338]
