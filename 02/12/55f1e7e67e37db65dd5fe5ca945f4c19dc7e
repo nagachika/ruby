@@ -1,0 +1,1 @@
+f943264565f3072a30616fa93ffa3da3790294b0 で追加した Time.at のベンチマークの prelude に magic comment の frozen_string_literal を追加しています。
