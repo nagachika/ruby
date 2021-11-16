@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb の typeprof のテスト時に rbs がビルド済みかチェックするための共有ライブラリの拡張子を .so 決めうちにしていたのを RbConfig::CONFIG['DLEXT'] を利用するように修正しています。
