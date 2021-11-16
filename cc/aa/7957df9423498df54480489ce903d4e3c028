@@ -1,0 +1,1 @@
+.gitignore に bundled gems のテスト時に作成される /ext/-test-/gems を追加しています。
