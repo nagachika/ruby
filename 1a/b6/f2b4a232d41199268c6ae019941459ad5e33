@@ -1,0 +1,1 @@
+builtin.h に rb_vm_lvar_exposed() の宣言に PUREFUNC() を使って pure function だと宣言するようにしています。
