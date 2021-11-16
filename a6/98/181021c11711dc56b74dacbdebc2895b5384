@@ -1,0 +1,1 @@
+test/ruby/test_m17n.rb のテストで Encoding.default_internal を一時的に変更しているのが 3aa62b455caf4926fd203878eca71b5281f10edf などでデバッグしていたテストのエラーに影響していたみたいで assert_separately で子プロセスを作ってテストするようにしています。
