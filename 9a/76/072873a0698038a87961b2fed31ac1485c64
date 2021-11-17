@@ -1,0 +1,1 @@
+LEGAL ファイルに rubygems と bundler に vendoring されている molinillo.gem のソースコードについてのライセンスの記述を追加して tool/sync_default_gems.rb で rubygems の同期時に個別の LICENSE ファイルは削除するようにしています。
