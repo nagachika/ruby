@@ -1,0 +1,1 @@
+リリース時の www.ruby-lang.org 用の設定ファイルを生成するツール tool/format-release に x.y.0-preview みたいに末尾に文字のつくリリースも tag の情報を生成するようにしています。
