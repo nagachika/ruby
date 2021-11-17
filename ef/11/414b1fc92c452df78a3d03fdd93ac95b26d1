@@ -1,0 +1,1 @@
+LEGAL ファイルに bundler に vendoring されている connection_pool.gem のソースコードについてのライセンスの記述を追加して tool/sync_default_gems.rb で rubygems の同期時に lib/bundler/vendor/connection_pool/LICENSE は削除するようにしています。
