@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の HEAD リクエストのテストで期待されるヘッダに accept-encoding を追加しています。 52ab9bbee918c63faad32e3851b162691b984d40 で HEAD でも accept-encoding を渡すようにしたのに追随。
