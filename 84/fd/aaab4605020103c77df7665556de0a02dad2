@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の rubygems 同期時のライセンス関係のファイル削除を 1つの rm_rf にまとめています。
