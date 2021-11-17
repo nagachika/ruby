@@ -1,0 +1,1 @@
+b5531adf4160304ca62b7d128af458704c9beb4e で net/http の HEAD リクエストのテストで一時的に accept-encoding ヘッダを削ってから比較してたのを revert しています。
