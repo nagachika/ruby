@@ -1,0 +1,1 @@
+fc456adc6a62d09b755243b8c8f190934b9965d6 の Integer の rdoc 用コメントの強化を 15bc1ae41e513af3c6c8749191513ee1101f7cf3 で revert したのをリトライ。 https://github.com/ruby/ruby/pull/5118
