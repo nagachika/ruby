@@ -1,0 +1,1 @@
+拡張ライブラリ digest の ext/digest/lib/digest.rb が二重にロードされた時に定数の再定義警告が出ないようにするため 3.0.2 以前では bundler や rubygems 経由のロード時にはトップレベル return ですぐに返して Module 定義しないようにしています。
