@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait で ruby の C API の rb_io_wait() がない場合に wait_for_single_fd() を使った代替実装をするようにして古い ruby でも動かせるように対応しています。
