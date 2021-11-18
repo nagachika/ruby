@@ -1,0 +1,1 @@
+fa674cf7230e40bc96625ee97a6057e48bb20f0f と同様に 489c8cebf575741d62effd0d212f1319beff3c40 の拡張ライブラリ date の再修正で Date._parse などに Symbol を渡した時に文字列に変換してから処理するように対応しています。
