@@ -1,0 +1,1 @@
+Enumerable#each_cons や Enumerable#each_slice の戻り値を dfb47bbd17c3c2b8ce17dbafaf62df023b0224b2 で nil から receiver を返すように変更したのが引数に指定された数が receiver の size 以上だった時には変更されていなかったので追加で変更しています。
