@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date.parse, Date._parse や Date.iso8601, rfc3339 などなどの文字列からパースするメソッド群でキーワード引数 limit を追加して、長すぎる文字列が渡された時に ArgumentError 例外を発生させるようにしています。 limit のデフォルトのサイズは 128 になっています。
