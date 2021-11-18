@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを commit hash で指定するようにしています。 io/wait の変更に起因するエラーの修正を取り込んだものを取り敢えず CI で使うためみたいです。
