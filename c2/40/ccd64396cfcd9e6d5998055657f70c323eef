@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の gemspec ファイルの不要な spec.executables の指定を削除しています。
