@@ -1,0 +1,1 @@
+コマンドラインオプション --dump=parsetree_with_comment で NODE_ARGS ノードをダンプする時の説明に keyword 引数と keyword rest 引数について追加しています。
