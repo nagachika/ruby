@@ -1,0 +1,1 @@
+b2255153cf2fe9d7b851c59cc09b358c0630e0a2 での vm_empty_cc_for_super の導入によって(たぶん) vm_search_method_fastpath() で vm_cc_cme() の戻り値が NULL かどうかのチェックが不要になったので分岐条件を減らしています。
