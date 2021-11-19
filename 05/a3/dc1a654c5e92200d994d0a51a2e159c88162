@@ -1,0 +1,1 @@
+ruby 実装化されている Kernel#Float メソッドでも b1b73936c15fd490159a9b30ab50b8d5dfea1264 で導入された Primitive.mandatory_only? を使って引数の数で分岐するようにメソッドを実装してキーワード引数が渡されなかった時の効率を改善しています。 https://github.com/ruby/ruby/pull/5133  [ruby-core:106110] [Feature #18344]
