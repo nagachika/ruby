@@ -1,0 +1,1 @@
+b2255153cf2fe9d7b851c59cc09b358c0630e0a2 で ObjectSpace のヒーブに確保されない struct rb_callcache が作られる時に flags に新たなビットフラグ VM_CALLCACHE_ON_STACK というのを定義してこのビットも立てておくようにしています。 そして rb_iseq_mark() で struct rb_iseq_constant_body からそのような struct rb_callcache が参照されてたら異常終了するように VM_ASSERT() によるチェックを追加しています。
