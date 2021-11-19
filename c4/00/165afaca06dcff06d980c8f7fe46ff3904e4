@@ -1,0 +1,1 @@
+clear_method_cache_by_id_in_class() で mandatory_only_cme が NULL の時にも vm_cme_invalidate() に渡してしまっていたので条件を追加しています。cme->def->iseq_overload が真でも mandatory_only_cme が NULL というのがありえるのかな。
