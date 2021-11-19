@@ -1,0 +1,1 @@
+vm.c に vm_empty_cc_for_super という static 変数を導入して vm_search_super_method で cme が NULL だった時に利用するダミーの? struct rb_callcache を用意して vm_search_super_method() 関数内の static 変数としてポインタを保持して vm_cc_new() で生成して rb_gc_register_mark_object() で mark されるようにしていたのを GC の管理外にあるメモリ領域として扱うようにしています。
