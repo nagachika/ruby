@@ -1,0 +1,1 @@
+rubygems の Gem::Specification::LOAD_CACHE, LOAD_CACHE_MUTEX という定数をクラスのインスタンス変数を使うようにリファクタリングしています。
