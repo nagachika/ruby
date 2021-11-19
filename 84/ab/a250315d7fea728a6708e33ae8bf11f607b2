@@ -1,0 +1,1 @@
+vm_callinfo.h の inline 関数 vm_cc_call() に cc->call_ をチェックする VM_ASSERT() を追加しています。
