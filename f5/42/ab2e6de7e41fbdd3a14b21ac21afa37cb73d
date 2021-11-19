@@ -1,0 +1,1 @@
+rubygems のクラスメソッド Gem::Specification._clear_load_cache を clear_load_cache と改名して、private メソッドにしています。
