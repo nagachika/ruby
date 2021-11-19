@@ -1,0 +1,1 @@
+b2255153cf2fe9d7b851c59cc09b358c0630e0a2 の変更で導入した vm_empty_cc_for_super を使う場合以外では struct rb_callcache::cme_ が NULL にならないことを vm_cc_cme() 内で VM_ASSERT() でチェックするようにしています。
