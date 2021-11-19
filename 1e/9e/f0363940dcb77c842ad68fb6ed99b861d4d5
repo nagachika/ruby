@@ -1,0 +1,1 @@
+compile.c の compile_builtin_function_call() で重複した return 文が書かれていて無意味になっていた後のほうの return 文を削除しています。
