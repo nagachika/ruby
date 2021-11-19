@@ -1,0 +1,1 @@
+NoMethodError の発生するメソッド呼び出しを繰り返すと異常終了する不具合の修正 84202963c52e02cecad3e6b2fad478bfbeee1bc7 に対応するテストを追加しています。 https://github.com/ruby/ruby/pull/5121
