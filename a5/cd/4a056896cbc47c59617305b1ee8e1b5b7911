@@ -1,0 +1,1 @@
+rubygems の Gem::Specification.reset からクラス変数群をクリアする処理を Gem::Specification.clear_specs という private なクラスメソッドに切り出すリファクタリング。
