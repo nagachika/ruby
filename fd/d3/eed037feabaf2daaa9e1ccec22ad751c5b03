@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/specification.rb で Gem::Specification のクラス変数 @@all を利用時に初期化するようにしていたのを class 文のトップレベルで初期化しておくようにしています。参照時に defined? でのチェックを不要にするためみたいです。
