@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_call_super_method() で不要な変数への代入を削除し、また rb_bug() の呼び出しを VM_ASSERT() に書きかえています。
