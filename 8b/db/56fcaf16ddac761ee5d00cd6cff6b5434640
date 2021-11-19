@@ -1,0 +1,1 @@
+rubygems の install 処理時の Thread 間排他を Gem::Installer.install メソッドで大きめにしていたのを、クラス変数など共有されるリソースを操作する時にもう少し細かくロック取得するように変更しています。
