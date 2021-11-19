@@ -1,0 +1,1 @@
+Integer の比較演算子メソッドやビット演算メソッドの rdoc 用コメントの移動とサンプルの追加など。 https://github.com/ruby/ruby/pull/5134
