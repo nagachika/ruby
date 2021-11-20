@@ -1,0 +1,1 @@
+VM 命令の getclassvariable で cref の取得を遅延して vm_getclassvariable() 内で inline cache にヒットしなかった時にのみ取得するようにしています。クラス変数の取得がちょっと早くなるようです。 https://github.com/ruby/ruby/pull/5137
