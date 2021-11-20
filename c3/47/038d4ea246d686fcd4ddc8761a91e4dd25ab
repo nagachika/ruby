@@ -1,0 +1,1 @@
+GC.measure_total_time= および GC.measure_total_time と GC.total_time というメソッドを追加して、nano sec で GC 時間を測定して返すようにしています。 349a1797828a1fa6acc3c0d30a2a24e884d02907 でビルド時の定義にしていた MEASURE_GC を実行時に on/off できるフラグによる判定にしています。
