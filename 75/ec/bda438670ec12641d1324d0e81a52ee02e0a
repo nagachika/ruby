@@ -1,0 +1,1 @@
+Module#private, #protected, #public, #module_function などのメソッドが引数の Symbol 群をそのまま戻り値に返すようにしています。なるほどなぁ。より正確には「無引数なら nil、引数1つだけなら引数をそのまま、2つ以上の引数が渡されたらそれらを配列にして返す」となっています。 [ruby-core:76047] [Feature #12495]
