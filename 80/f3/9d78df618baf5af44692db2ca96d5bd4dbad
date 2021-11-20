@@ -1,0 +1,1 @@
+bundler の bundle update 時に Gemfile.lock に書かれていたのより古いバージョンの指定に Gemfile が書きかえられていた時に追随できるようにしているようです。
