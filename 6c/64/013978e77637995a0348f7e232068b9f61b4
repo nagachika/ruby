@@ -1,0 +1,1 @@
+c347038d4ea246d686fcd4ddc8761a91e4dd25ab の GC.total_time を uint64_t から返すのに Primitive.cexpr! で UINT64_2NUM() というマクロを Primitive.cinit! で局所的に定義して使っていたのを ULL2NUM() を使うように変更しています。
