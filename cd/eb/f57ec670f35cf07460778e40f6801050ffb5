@@ -1,0 +1,1 @@
+YJIT 向けのコマンドラインオプション --yjit-no-type-prop というのを追加しています。 YJIT のテストのためで生成する機械語のオペランドの型昇格を抑制するということをしているようです。 https://github.com/ruby/ruby/pull/5135
