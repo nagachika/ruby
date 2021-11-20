@@ -1,0 +1,1 @@
+GitHub Actions の設定に cancel-in-progress: true というのを追加して、同じブランチに? 新しいコミットが push されたら前の実行中のジョブをキャンセルするようにしているようです。
