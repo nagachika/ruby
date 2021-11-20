@@ -1,0 +1,1 @@
+struct rb_iseq_constant_body::optimize_type メンバーをさらに rb_method_optimized_t という構造体の中に入れています。将来的に他のメソッド呼び出しの最適化関連のメンバーを増やすためにまず構造体化したということみたいです。
