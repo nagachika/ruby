@@ -1,0 +1,1 @@
+2f1081a451f21ca017cc9fdc585883e5c6ebf618 で追加してた Dir.glob のキーワード引数 sort に true と false 以外の値を渡すと ArgumentError 例外が発生するようにしています。 [ruby-core:105928] [Feature #18287]
