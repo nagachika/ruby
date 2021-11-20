@@ -1,0 +1,1 @@
+75ecbda438670ec12641d1324d0e81a52ee02e0a の変更に追随して Module#private, #protected, #public, #module_function の rdoc 用コメントの call-seq を修正し、NEWS にエントリを追加しています。
