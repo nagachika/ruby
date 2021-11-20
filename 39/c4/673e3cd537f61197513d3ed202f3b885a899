@@ -1,0 +1,1 @@
+bundler の依存関係チェックの処理で Array#reduce を使って複雑に書いてたのを Array#map でシンプルに書きなおしています。
