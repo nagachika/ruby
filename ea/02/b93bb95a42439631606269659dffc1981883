@@ -1,0 +1,1 @@
+ec574ab3453709490b53b5cc761ec158103fe42a と同様に VM 命令 setclassvariable でも cref の取得を遅延して vm_setclassvariable() 内で inline cache がヒットしなかった時にのみ取得するようにしています。 https://github.com/ruby/ruby/pull/5143
