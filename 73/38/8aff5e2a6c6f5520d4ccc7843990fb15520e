@@ -1,0 +1,1 @@
+b08dacfea39ad8da3f1fd7fdd0e4538cc892ec44 で文字列リテラルへの式の埋め込みの最適化のために導入された新しい VM 命令 objtostring への YJIT の対応を追加して、一時的に実施除外されていたテストを戻しています。対応早いですねー。 https://github.com/ruby/ruby/pull/5149
