@@ -1,0 +1,1 @@
+rubygems に vendoring されている optparse と tsort の内容のドキュメント生成を抑制するため lib/rubygems/optparse/.document と lib/rubygems/tsort/.document を追加してファイルの指定なしにしています。
