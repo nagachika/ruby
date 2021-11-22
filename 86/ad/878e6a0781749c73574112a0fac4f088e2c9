@@ -1,0 +1,1 @@
+Float の演算子や hash メソッドなどの rdoc 用コメントの call-seq 手直しやサンプルの追加など。 https://github.com/ruby/ruby/pull/5150
