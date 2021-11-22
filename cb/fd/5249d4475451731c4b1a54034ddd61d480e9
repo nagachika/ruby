@@ -1,0 +1,1 @@
+vm_debug.h で node.h を #include していたのをやめて、struct RNode のみ独自に宣言するようにしています。
