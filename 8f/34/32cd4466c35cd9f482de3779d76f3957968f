@@ -1,0 +1,1 @@
+82ea2870188d66aa75a99f03b4e7fdd1750aa196 の Struct の最適化で vm_call_opt_struct_aref0() および vm_call_opt_struct_aset0() の引数に不要な rb_control_frame_t が渡されてたので削除し、また一部 vm_call_opt_struct_aset0() に間違えて引数を渡していたところがあったので修正しています。 Object#public_send でメソッド呼び出しした時に不正な値が設定されていたようです。
