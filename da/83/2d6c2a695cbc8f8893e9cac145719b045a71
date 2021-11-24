@@ -1,0 +1,1 @@
+Integer クラスの rdoc 用コメントにメソッド一覧を追記しています。また Numeric クラスの rdoc 用コメントのマークアップのミスを修正。 https://github.com/ruby/ruby/pull/5155
