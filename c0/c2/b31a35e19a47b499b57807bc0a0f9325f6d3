@@ -1,0 +1,1 @@
+Class#subclasses メソッドを新規追加しています。最近追加されてなかったっけ? と思いましたがあれは Class#descendants で、継承している子クラス孫クラス……を全て列挙しますが、Class#subclasses は直接継承している子クラスのみ(孫以降は含まない)という違いがあるようです。使い道あるのかと思ったけど ActiveSupport に定義されているそうです。 [ruby-core:105826] [Feature #18273]
