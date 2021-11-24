@@ -1,0 +1,1 @@
+5680c38c75aeb5cbd219aafa8eb48c315f287d97 で finalizer から GC 中にできない処理を後で実行するために登録しておく postponed job という機構の Ractor 対応として rb_executable_context_t の取得時に NULL になる場合を考慮するようにしたのですが、rb_postponed_job_register() は ruby 実行中の thread ではない thread から呼ばれることもある(MJIT の worker とか?)ので GET_EC() を使っているのはまずくて rb_current_execution_context() という inline 関数を使うように再修正しています。 [ruby-core:102206] [Bug #17573]
