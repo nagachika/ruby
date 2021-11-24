@@ -1,0 +1,1 @@
+blocking fiber についてのテストで experimental の警告が出る IO::Buffer を使うところで最初に Warning[:experimental] = false して一度 IO::Buffer を作成しておくようにしています。この警告は 1回しか出ないので一度警告抑制した状態でインスタンスを作っておけば全てのテストケースで Warning[:experimental] を抑制しておく必要はないみたいです。
