@@ -1,0 +1,1 @@
+構造体 rb_classext_t の subclasses メンバが保持する構造体 struct rb_subclass_entry が single linked list だったのを prev も追加して doubly linked list にしています。逆向きに辿るためというよりも要素を抜き取る時に親クラスのオブジェクトの参照を不要にして GC.compact 時の memory barrier の影響を受けないようにするというのが目的みたいです。
