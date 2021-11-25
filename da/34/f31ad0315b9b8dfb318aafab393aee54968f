@@ -1,0 +1,1 @@
+拡張ライブラリ cgi/escape で HTML の escape 処理に使うバッファを ALLOCV_N() で確保する時にかけ算によるオーバーフローの可能性があったので ALLOCV_N() の1要素の型を HTML_ESCAPE_MAX_LEN サイズの char の配列で定義してオーバーフローチェックが効くようにしています。
