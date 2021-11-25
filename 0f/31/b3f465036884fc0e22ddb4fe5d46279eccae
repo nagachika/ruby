@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI::Cookie.parse で cookie 名の部分を CGI.unescape を呼んでいたのをやめるようにしています。
