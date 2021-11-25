@@ -1,0 +1,1 @@
+YJIT の VM 命令 setclassvariable の JIT コンパイル対応の追加。 inline cache の利用に対応していないので早くはならないとのことですがこの命令を利用しているメソッドを JIT 対応できるようにするためとのこと。 https://github.com/ruby/ruby/pull/5127
