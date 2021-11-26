@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッド Spec::Helpers#all_commands_output でコマンドが空の時に空配列を返していたのを空文字列を返すように修正しています。
