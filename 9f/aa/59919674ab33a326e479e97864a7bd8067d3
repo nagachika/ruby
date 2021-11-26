@@ -1,0 +1,1 @@
+Float#floor の rdoc 用コメントの位置を移動して、さらに Float#ceil, Float#round, #to_i, #to_int, #truncate などの rdoc 用コメントを整形? しています。んー、なんかいまいちサンプルを削っている理由がわからないんだよなぁ。自然言語で説明したほうが良いという嗜好なのかなと思うけどサンプルみたほうがわかりやすいことも多いと思うので。 https://github.com/ruby/ruby/pull/5167
