@@ -1,0 +1,1 @@
+bundler のテストの assert_system_features_not_loaded! という assertion メソッドで発生中の例外をチェックしてたのをやめています。
