@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 向け workflow で apt-get install するパッケージの pkg-config${arch} はコマンドを分けてエラーになっても処理を止めないようにしています。
