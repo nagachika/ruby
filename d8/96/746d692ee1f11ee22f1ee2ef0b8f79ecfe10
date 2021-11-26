@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の extconf.rb で clean する時に削除するファイルを $cleanfiles と $distcleanfiles に分けて追加して ripper.y ripper.c などの生成ソースコードは make distclean 時にだけ削除するようにしています。 [ruby-core:106270] [Bug #18363]
