@@ -1,0 +1,1 @@
+bundler の Bundler::EnvironmentPreserver#replace_with_backup というメソッドで ENV.replace が使えない(?) Windows 環境向けの fallback 処理を常に実行してたので Windows 以外ではすぐに return するように修正しています。
