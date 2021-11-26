@@ -1,0 +1,1 @@
+Cirrus CI の設定ファイル .cirrus.yml で doc/ 配下や拡張子 .md と .rdoc のファイルの変更のみの時にビルドを skip するようにしています。
