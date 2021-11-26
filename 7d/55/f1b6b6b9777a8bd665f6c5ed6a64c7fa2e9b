@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向けの workflow で利用する OS を windows-2019 から windows-2022 に更新しています。また ruby を使うための action を MSP-Greg/setup-ruby-pkg から MSP-Greg/ruby-setup-ruby に変更しています。
