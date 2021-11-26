@@ -1,0 +1,1 @@
+Float#next_float と Float#prev_float の rdoc 用コメントのサンプルを削って自然言語の説明を少し追加しています。うーん、これ元のサンプルには IEEE 754 のビット構造と照らしあわせた変化が分かるように書かれてて、これはこれで有用だと思うけどなぁ。 https://github.com/ruby/ruby/pull/5162
