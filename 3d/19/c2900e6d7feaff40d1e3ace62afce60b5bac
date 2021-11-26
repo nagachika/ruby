@@ -1,0 +1,1 @@
+e6f4a39a4de28067ff0b5dca55a8c09a8f9e2006 の続きで MJIT 用の precompiled header のビルド時の .pdb ファイルのインストールが不要になったみたいでコピーや clean 時の掃除の対象から外しています。
