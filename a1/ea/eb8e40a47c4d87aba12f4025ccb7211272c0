@@ -1,0 +1,2 @@
+GitHub Actions の Ubuntu 環境用の workflow で make check 時の TESTS 変数の指定に matrix.skipped_tests の内容を設定した時に make test-all も再実行していたのを抑制するようにしている? みたいです。
+[追記] matrix.skipped_tests が空の時に TESTS にマッチしないオプションを指定してしまい実行するテストがない状態になってたのでその対策だそうです。 [/追記]
