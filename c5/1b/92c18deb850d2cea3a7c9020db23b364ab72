@@ -1,0 +1,1 @@
+拡張ライブラリ zlib に Zlib::InProgressError という例外を追加して zstream_run_synchronized() で排他的な処理中に zstream::flags のフラグに ZSTREAM_IN_PROGRESS というのを立てておいて既に処理中の zstream に対して zstream_run() が呼ばれた時にこの例外を発生させて競合を防ぐようにしています。 https://github.com/ruby/ruby/pull/5159 [ruby-core:106222] [Bug #18358]
