@@ -1,0 +1,1 @@
+doc/yjit/yjit.md で定数 YJIT について参照しているところを現状にあわせて RubyVM::YJIT を参照するように書きかえています。
