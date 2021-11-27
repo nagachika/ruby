@@ -1,0 +1,1 @@
+b1b73936c15fd490159a9b30ab50b8d5dfea1264 で追加された Primitive.mandatory_only? を使って引数の数によって呼び出すメソッドの ISeq を切り替える機構を利用しているメソッドの呼び出し時に誤った callcache を参照してしまうことがあった不具合を修正しています。 struct rb_class_cc_entries::entries に複数の callcache が格納されている場合に最初の要素しか使ってなかったので、cme が一致するキャッシュを選ぶようにしています。
