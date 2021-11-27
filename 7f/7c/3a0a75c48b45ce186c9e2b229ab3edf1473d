@@ -1,0 +1,1 @@
+gc.c の ractor_cached_free_region() 内でマクロ RGENGC_CHECK_MODE が真の時だけ VWA の複数 slot まとめて確保される領域全体を 0 クリアするようにしています。
