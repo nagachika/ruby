@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に win32ole の upstream からの同期処理を追加しています。
