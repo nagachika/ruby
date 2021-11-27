@@ -1,0 +1,1 @@
+gc.c の size_pool_idx_for_size() 内の rb_bug() のメッセージ内の関数名を修正しています。
