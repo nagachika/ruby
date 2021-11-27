@@ -1,0 +1,1 @@
+6157619bb68e4307cdf065cb73d5bfcec30d042d の GC.stat_size_pool の追加を revert しています。まだ Feature チケットに matz などのコメントがないのでしばらく待つとのこと。 [ruby-core:106279] [Feature #18364]
