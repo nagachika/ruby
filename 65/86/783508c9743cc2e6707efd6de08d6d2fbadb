@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で拡張ライブラリ win32ole の同期時に gemspec ファイルの位置を ext/win32ole の下に移動するように対応を追加しています。
