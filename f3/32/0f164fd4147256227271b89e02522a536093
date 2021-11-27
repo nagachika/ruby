@@ -1,0 +1,1 @@
+bundler の bundle info サブコマンドで削除済みの gem についての警告を出す時に bundler 自身につては警告を出さないようにしています。
