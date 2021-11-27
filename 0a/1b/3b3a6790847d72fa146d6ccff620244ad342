@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 向け workflow の make check の skipped_tests の指定を削除しています。OS 側の更新で readline のテストが通るようになったかもとのこと。
