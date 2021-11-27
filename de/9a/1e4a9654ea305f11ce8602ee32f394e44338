@@ -1,0 +1,1 @@
+82ea2870188d66aa75a99f03b4e7fdd1750aa196 の Struct の最適化で使われる最適化メソッド呼び出しタイプに YJIT を対応させているようです。 https://github.com/ruby/ruby/pull/5161
