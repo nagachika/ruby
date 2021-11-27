@@ -1,0 +1,1 @@
+VWA(Variable Width Allocation) でオブジェクトの heap を連続した複数の slot を確保するサイズで分けるようにしたのを GC.stat_size_pool で種類毎の統計情報を返すようにしています。 [ruby-core:106279] [Feature #18364]
