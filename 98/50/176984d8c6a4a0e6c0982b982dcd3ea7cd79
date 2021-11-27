@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境向け workflow で parallel 実行時のテストで skip したテストを並行実行なしでやりなおしているのを別の step に分離しています。
