@@ -1,0 +1,1 @@
+YJIT の VM 命令 putnil と putobject に対応したコード生成の関数から汎用部分を jit_putobject() という関数に切り出し共有し最適化命令の対応部分でも使いまわすようにリファクタリングしています。 https://github.com/ruby/ruby/pull/5179
