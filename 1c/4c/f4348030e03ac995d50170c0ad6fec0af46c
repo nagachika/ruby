@@ -1,0 +1,1 @@
+win32/Makefile.sub で MJIT 用の precompiled header をビルドする時のコンパイラオプションに -Zi が渡されていたら -Z7 に変換しておくようにしています。 e6f4a39a4de28067ff0b5dca55a8c09a8f9e2006 も関係ありそうですがコンパイル時の警告抑制のためとのこと。
