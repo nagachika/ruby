@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の MakeMakefile#xsystem からコマンドラインの配列の先頭に環境変数の指定を Hash で渡された時の処理を expand_command というメソッドに分離して xpopen でも環境変数の指定を受け付けるように機能拡張しています。
