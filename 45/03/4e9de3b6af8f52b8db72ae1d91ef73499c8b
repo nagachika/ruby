@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の gemspec ファイルの spec.extensions に cgi/escape の extconf.rb のパスを追加しています。
