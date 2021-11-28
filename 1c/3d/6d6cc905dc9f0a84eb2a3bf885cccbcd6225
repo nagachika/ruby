@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の MakeMakefile#xpopen で省略可能な第3引数 mode に Hash が渡された時に読み込みモードとして扱うように対応を追加しています。
