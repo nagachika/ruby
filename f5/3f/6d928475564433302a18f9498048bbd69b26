@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の gemspec ファイルの spec.bindir の指定を削除し、spec.files から .gitignore などの .git ではじまるファイルも除外するようにしています。
