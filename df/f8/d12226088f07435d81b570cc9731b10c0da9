@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の MakeMakefile#pkg_config で xsystem や xpopen でコマンド実行する時に 21a29844a34589506e88a2473c62f84e417a61bc で拡張した機能を利用して環境変数 PKG_CONFIG_PATH を指定して実行するようにしています。
