@@ -1,0 +1,1 @@
+thread_sync.c の queue_do_pop() で queue_waitq() の戻り値をそのまま list_add_tail() に渡していたのを一旦変数に格納して渡すようにして gcc での警告を抑制しています。
