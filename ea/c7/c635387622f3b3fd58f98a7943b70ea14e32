@@ -1,0 +1,1 @@
+numeric.c の rdoc 用コメントに浮動小数点数リテラルのサンプルの追記や Kernel#Integer についての言及の追加など。 https://github.com/ruby/ruby/pull/5184
