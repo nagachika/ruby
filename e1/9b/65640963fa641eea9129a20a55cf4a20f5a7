@@ -1,0 +1,1 @@
+lib/readline.rb で拡張ライブラリの readline.so を require して LoadError が発生した時に reline で代替する時に Readline に代入する前に既に Readline モジュール自体は定義できていた場合警告抑制のために Module#remove_const で定数を削除しておくようにしています。
