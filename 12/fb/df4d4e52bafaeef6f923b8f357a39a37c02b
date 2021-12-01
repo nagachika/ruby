@@ -1,0 +1,1 @@
+8287d2f23c06c614d1ae83b6e0dad48bcda622cb の Solaris 環境での madvise() の宣言追加の判定を configure 時により詳しくチェックするようにしています。
