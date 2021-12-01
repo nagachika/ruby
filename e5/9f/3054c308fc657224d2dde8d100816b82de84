@@ -1,0 +1,1 @@
+12fbdf4d4e52bafaeef6f923b8f357a39a37c02b で configure に追加した madvise() の確認のためにコンパイルするコードで  HAVE_CADDR_T などのマクロチェックしていたのをやめて常に madvise() の宣言を含むソーコードをコンパイルするようにしています。これ endif は出力してなかったみたいだけどそれは AC_COMPILE_IFELSE() では不要だったのかな。
