@@ -1,0 +1,1 @@
+rubygems の Gem::UnsatisfiableDepedencyError という定数を deprecated_constant で参照時に deprecation warning が出るようにしています。
