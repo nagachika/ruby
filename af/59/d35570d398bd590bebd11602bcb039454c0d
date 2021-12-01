@@ -1,0 +1,1 @@
+bundler の bundle doctor で外部コマンド起動時に埋め込むファイル名を shellwords を使ってエスケープするようにしています。
