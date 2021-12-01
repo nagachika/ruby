@@ -1,0 +1,1 @@
+20065eabdb2235a605b61e03d72c19b2a20b52a5 の追加修正で環境ごとに発生しうる errno 起因の例外を捕捉するのはやめて SystemCallError で Errno::EXXXX は全て捕捉するようにしています。Windows でさらに Errno::EBADF が起きることがあったみたいです。
