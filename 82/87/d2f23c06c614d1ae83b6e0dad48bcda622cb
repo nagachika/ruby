@@ -1,0 +1,1 @@
+Solaris 環境で configure 時に caddr_t という型の存在チェックをして cont.c で madvise() の宣言を追加するようにしています。
