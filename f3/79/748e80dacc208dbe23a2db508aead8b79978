@@ -1,0 +1,1 @@
+12fbdf4d4e52bafaeef6f923b8f357a39a37c02b の configure 時の madvise() 利用可否のチェックを AC_CACHE_CHECK() を使ってキャッシュするようにしているようです。
