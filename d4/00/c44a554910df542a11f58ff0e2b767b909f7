@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で pp を使っているところで require "io/console" を追加しています。[eac347fdb04023e1a365d84a8c163263cc7a5904 で require が追加されたのでテスト途中に load されるのを避けるために先に require しておくということみたいです。
