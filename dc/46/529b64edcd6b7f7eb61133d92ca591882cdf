@@ -1,0 +1,1 @@
+3288f0d09e35a98d3569c79fad654e38eaeb7a9c と同様に標準添付ライブラリ error_highlight でも io/console の require 時の捕捉する例外の Errno::EXXX を SystemCallError でまとめて捕捉するように変更しています。
