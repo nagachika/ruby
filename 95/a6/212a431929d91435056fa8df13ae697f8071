@@ -1,0 +1,1 @@
+ENV のテスト test/ruby/test_env.rb で環境によって ENV にセットする文字列サイズを変更する条件として ucrt をチェックしてたのを RUBY_PLATFORM を正規表現でチェックするシンプルな方法に変更しています。
