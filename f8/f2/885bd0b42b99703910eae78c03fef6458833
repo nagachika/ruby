@@ -1,0 +1,1 @@
+27fb9d272daaae89089dfb61849ebe8e7aa6c833 で Solaris で socket のテストをファイル全体 skip するようにしていたのを revert しています。CI 環境の問題だったのが直ったはずなのでとのこと。
