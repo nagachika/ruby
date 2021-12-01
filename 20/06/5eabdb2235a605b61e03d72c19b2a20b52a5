@@ -1,0 +1,1 @@
+eac347fdb04023e1a365d84a8c163263cc7a5904 の PP.pp の端末幅を得るために io/console を require する時に捕捉する例外に Errno::EINVAL を追加しています。 Solaris  の CI で発生していたようです。
