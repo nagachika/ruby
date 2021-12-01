@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で事前に load しておくために require "io/console" していたのを nil.pretty_inspect として pp経由で require させるようにしています。例外の捕捉などをさせるためかなと思いましたが、古いバージョンの pp.rb は require しないので不要な require を避けるためという意味もあるようです。ruby 本体のテストで古い pp を使うことってあるのかな。
