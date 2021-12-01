@@ -1,0 +1,1 @@
+tool/mkrunnable.rb で ln_exe というメソッドを symbolic link でなく hard link にするようにしているのを Linux だけでなくて macOS と Solaris も hard link を使うようにしています。
