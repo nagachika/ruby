@@ -1,0 +1,1 @@
+rubyspec の GC.total_time のテストでチェックに等号を追加して GC.start しても GC.total_time が増えなかったケースも許容するようにしています。
