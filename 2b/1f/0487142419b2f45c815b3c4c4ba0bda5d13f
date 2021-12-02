@@ -1,0 +1,1 @@
+rubygems のテストで setup_base_installer という helper を使っていたところを util_spec+util_build_gem+util_installer という複数の helper の組合せに変更しています。今後の変更でゴミが残るようになっちゃう予定なのでそれを避けるためみたいです。
