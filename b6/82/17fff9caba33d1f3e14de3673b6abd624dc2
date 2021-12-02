@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する GitHub Actions の設定ファイルテンプレートの余分な空白の除去。
