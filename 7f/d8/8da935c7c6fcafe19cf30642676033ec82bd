@@ -1,0 +1,1 @@
+rubygems の Gem::Installer でファイルの書き込みを排他するのに Gem.write_binary で open してから File#flock を利用していたのを File.open の flags に File::LOCK_EX を渡すことで open 時に競合しないようにするようにしています。
