@@ -1,0 +1,1 @@
+bundler の bundle gem で作成するプロジェクトの GitHub Actions 用の設定ファイルで ruby のバージョンを RUBY_VERSION で埋め込んでたところを文字列として解釈させるため明示的にクオートするようにしています。
