@@ -1,0 +1,1 @@
+a7fd639423dba631900d1d4f395d805cf0d97d5e の bundle gem で生成する GitHub Actions の設定ファイルの変更を revert してまた RUBY_VERSION をまるごと埋め込むようにしています。
