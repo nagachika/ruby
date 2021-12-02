@@ -1,0 +1,1 @@
+37cd35aea8afa35476640e454eaf2c53150dc014 の変更に追随して rubyspec の STDIN の external_encoding のチェックを Windows を除外するようにしています。
