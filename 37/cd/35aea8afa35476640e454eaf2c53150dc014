@@ -1,0 +1,1 @@
+標準入出力の IO の internal_encoding と external_encoding を決める rb_stdio_set_default_encoding() で Windows 環境では端末からの入力の時は標準入力の external_encoding は rb_locale_encoding() にするようにしています。 preprocessor の #endif を挟んで dangling else になっててちょっとすわりが悪いですね。 [ruby-core:106191] [Bug #18353]
