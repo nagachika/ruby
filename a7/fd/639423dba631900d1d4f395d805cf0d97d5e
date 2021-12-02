@@ -1,0 +1,1 @@
+42efb8c1859c89490cad9bf9312dc3e743f730ee の続きで bundler の bundle gem で生成する GitHub Actions 用設定ファイルで ruby のバージョンを major.minor までのみ指定するようにしています。
