@@ -1,0 +1,1 @@
+win32/Makefile.sub の config.status のコマンドに exit を書いてたのを消しています。
