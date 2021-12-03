@@ -1,0 +1,1 @@
+lib/bundler/lazy_specification.rb に 2a15b28a9ec59d41fc3f9a5e17cf3efe6d0817b6 や cf882713312576a827abff8ddf7eb620e1f3f6d8 で修正した内容についてコメントを残しています。 default_requirement のほうを ">= 0.A" にしたら、というのはさっきも思ったのですが、どこかで互換性の影響があるかもしれないのでここだけ固定で書くようにしてるということも書き残しています。
