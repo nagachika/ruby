@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper::Lexer::State や Ripper::Lexer::Elem を Struct を使って定義していたのを class 文で通常の Class として定義するようにしています。高速化のためみたいです。
