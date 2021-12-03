@@ -1,0 +1,1 @@
+3f74eaa7a83e42b31c219a534ec5330e511d2921 で Struct による Class から class 文で定義するように変更された Ripper::Lexer::Elem に to_s を inspect への alias として定義を追加しています。
