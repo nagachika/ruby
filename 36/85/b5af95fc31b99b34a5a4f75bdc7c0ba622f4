@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper::Lexer#on_heredoc_dedent で @buf の最後の要素が Elem のインスタンスの場合がありえるので、配列の時だけその内容を each_with_index で舐めてインデント除去の処理をするように条件分岐を追加しています。
