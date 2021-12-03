@@ -1,0 +1,1 @@
+157095b3a44d8b0130a532a0b7be3f5ac197111c の追加修正で YJIT のコード領域の PROT_EXEC フラグを立てる cb_mark_all_executable() の呼び出しを対象のメモリポインタが NULL の時に呼ばないようにする分岐を追加しています。
