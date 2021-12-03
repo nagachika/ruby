@@ -1,0 +1,1 @@
+lib/bundler/vendor/.document を追加して bundler に vendoring されたライブラリのドキュメント化を抑制するようにしています。
