@@ -1,0 +1,1 @@
+rubygems の Gem::Security.email_to_name で返す OpenSSL::X509::Name を文字列を構築して OpenSSL::X509::Name.parse で作るのでなくて直接 OpenSSL::X509::Name.new で作成するようにリファクタリングしています。parse で正しく解析されないことがあったみたいです。
