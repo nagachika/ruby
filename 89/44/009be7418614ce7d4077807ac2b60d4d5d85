@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper::Lexer::Elem や State の "[]" メソッドを警告を出力するようにしています。
