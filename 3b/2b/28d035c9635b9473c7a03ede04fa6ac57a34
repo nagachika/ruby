@@ -1,0 +1,1 @@
+157095b3a44d8b0130a532a0b7be3f5ac197111c の変更で OpenBSD で YJIT 実行が可能になったはずなので無効にしていた 119626da947bf6492ef7a27abf3bf12de5d0d95a を revert しています。
