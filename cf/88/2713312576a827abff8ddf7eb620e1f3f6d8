@@ -1,0 +1,1 @@
+2a15b28a9ec59d41fc3f9a5e17cf3efe6d0817b6 の追加修正で bundler の依存関係解決時に明示的なバージョン制約がない時の requirement を Gem::Requirement.default_prerelease から ">= 0.A" に変更しています。default_prerelease は '>= 0.a' らしいので大文字にしているだけみたいですが A のほうが a よりコードポイント的に前だからかな。
