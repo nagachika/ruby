@@ -1,0 +1,1 @@
+TracePoint で define_method にブロックを渡して定義されたメソッドの call/return のイベントが通常のメソッドの call/returnの指定があった時に自動的に連携して有効になるようにして、ブロックの call/return イベントとメソッドの call/return 両方が発火するようにしています。 [ruby-core:80515] [Bug #13392]
