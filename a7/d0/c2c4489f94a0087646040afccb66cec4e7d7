@@ -1,0 +1,1 @@
+defs/gmake.mk で revision.h が存在してない時に生成させるために REVISION_LATEST の更新が必要であるということを指示するように変数の設定をするようにしています。
