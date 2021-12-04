@@ -1,0 +1,1 @@
+697d7b8d629ae20c42611ac697bb7e763a7e7213 の reline の変更で rescue する例外を TerminfoError で参照していたのを Reline::Terminfo::TerminfoError とフルパスで参照するようにしています。
