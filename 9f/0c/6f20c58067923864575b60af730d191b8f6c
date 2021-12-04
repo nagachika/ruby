@@ -1,0 +1,1 @@
+GC.auto_compact が true の時に ObjectSpace.trace_object_allocations が NULL チェック不足で SEGV することがあったのを修正しています。 [ruby-core:106399] [Bug #18382]
