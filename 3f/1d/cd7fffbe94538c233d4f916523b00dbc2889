@@ -1,0 +1,1 @@
+GitHub Actions の設定全般に actions/cache@v2 という step を利用して src/.downloaded-cache をキャッシュしてジョブ間で使いまわすようにしているようです。
