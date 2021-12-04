@@ -1,0 +1,1 @@
+同じく bundler の lib/bundler/definition.rb の if 文を後置 if に変更するリファクタリング。
