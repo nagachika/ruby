@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#converge_dependencies で最初に source を書き換える依存関係に locked_dependencies も追加していたのをやめています。正しくエラーにするため? みたいです。なのでたぶん挙動の変化を含んだ変更だと思われます。
