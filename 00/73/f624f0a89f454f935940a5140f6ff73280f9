@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#converge_dependencies で @dependencies.each を不要に2度読んでいたのを 1回にしてブロックをまとめています。
