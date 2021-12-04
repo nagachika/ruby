@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems の to_s メソッドを identifier メソッドに、to_err を to_s に改名しています。
