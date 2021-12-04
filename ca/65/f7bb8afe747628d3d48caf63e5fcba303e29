@@ -1,0 +1,1 @@
+bundler の locked_dependencies で不要な条件分岐を削除。
