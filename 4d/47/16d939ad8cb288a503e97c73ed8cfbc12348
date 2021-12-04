@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.move_cursor_up, .move_cursor_down の実装で引数の符号をチェックする if が冗長だったので後置 if のほうを削除しています。
