@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#ensure_equivalent_gemfile_and_lockfile で lockfile の同一性チェックの実装をシンプルにリファクタリング(?) しています。
