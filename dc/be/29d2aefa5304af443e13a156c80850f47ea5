@@ -1,0 +1,1 @@
+irb の RubyLex.ripper_lex_without_warning で Ripper::Lexer#parse から返ってきた token の pos.first が 0 のものを削るようにしています。ruby 2.6 で使った時に期待したのと異なる tokens が返ってくるので無限ループに陥いってしまうのでそれを避けるためとのこと。
