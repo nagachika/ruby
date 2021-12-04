@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb で gems/bundled_gems の更新の必要をチェックする時の条件に間違いがあったのを修正しています。
