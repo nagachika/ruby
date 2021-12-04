@@ -1,0 +1,1 @@
+bundler の lib/bundler/definition.rb の不要な nil チェックを削除しています。
