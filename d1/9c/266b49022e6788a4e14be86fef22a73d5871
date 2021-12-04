@@ -1,0 +1,1 @@
+同じく bundler の lib/bundler/definition.rb でインスタンス変数を直接参照するかわりに locked_dependencies メソッドを利用するリファクタリング。
