@@ -1,0 +1,1 @@
+make の ruby.pc のターゲットのルール記述を template/Makefile.in から defs/gmake.mk に移動して、Makefile の filter-out を使って --with-ruby-pc で "ruby.pc" が指定されてた時に依存ファイルから削って循環した依存関係になるのを防いでいます。 [ruby-core:106356] [Bug #18374]
