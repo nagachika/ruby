@@ -1,0 +1,1 @@
+gc.c の try_move_in_plane() を try_move_plane() に、gc_fill_swept_page_plane() を gc_fill_swept_plane()、gc_page_sweep() を gc_sweep_page()、gc_marks_wb_unprotected_objects_in_plane() を gc_marks_wb_unprotected_objects_plane() などと改名しています。
