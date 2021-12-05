@@ -1,0 +1,1 @@
+doc/syntax/literals.rdoc や Kernel#Integer, Kernel#Rational などの Kernel のメソッド群の rdoc 用コメントのマークアップ追加やリンク追加など。 https://github.com/ruby/ruby/pull/5192
