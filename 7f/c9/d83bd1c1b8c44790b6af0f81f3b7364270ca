@@ -1,0 +1,1 @@
+String クラスの rdoc 用コメントのリンクを id つきの特定のセクションへのリンクになるように修正しています。 https://github.com/ruby/ruby/pull/5208
