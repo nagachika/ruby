@@ -1,0 +1,1 @@
+733500e9d02b11ff60fbbdb8daa43c2e9cfbd750 の Object#instance_eval, #instance_exec の仕様変更について NEWS に追記しています。 https://github.com/ruby/ruby/pull/5146 https://github.com/ruby/ruby/pull/5210
