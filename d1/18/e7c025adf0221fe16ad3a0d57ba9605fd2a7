@@ -1,0 +1,1 @@
+ec7f14d9fab82b097fb8b58501461cd0e19d6bdf で導入した nd_type_p() をマクロから inline 関数に変更しています。
