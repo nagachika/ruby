@@ -1,0 +1,1 @@
+defs/gmake.mk の spec/%/ および spec/%_spec.rb というターゲットで make に直接 spec ファイル指定して rubyspec の指定のファイルのみテストするルールの記述位置を末尾に移動しています。 rubyspec の C API テスト用拡張ライブラリのルールの後にしないといけなかったみたいです。また rubyspec 内の rubyspec.h というヘッダファイル用にマッチしないようにするためのダミーのルールも追加しています。 [ruby-core:106356] [Bug #18374]
