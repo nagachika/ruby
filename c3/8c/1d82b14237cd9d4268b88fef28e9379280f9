@@ -1,0 +1,1 @@
+bundler が Bundler::CompactIndexClient::Updater#update で一時ディレクトリ作成に Errno::EACCES で失敗した時にそれを捕捉して Bundler::PermissionError という例外を上げなおしていたのをやめています。そもそもこのエラー起きることあるの? という疑問もあるみたいで関連するテストごと削除しています。
