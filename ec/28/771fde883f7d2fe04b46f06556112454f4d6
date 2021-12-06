@@ -1,0 +1,1 @@
+lib/rubygems/commands/setup_command.rb の長い引数をもつメソッド呼び出しが 1行にまとめられてたのを改行するようにリファクタリングしています。
