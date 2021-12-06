@@ -1,0 +1,1 @@
+rubygems の gem pristin サブコマンドに --install-dir オプションを追加して bundler のインストール時にこの指定を利用するようにしています。
