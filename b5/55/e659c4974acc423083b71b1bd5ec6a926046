@@ -1,0 +1,1 @@
+IO.copy_stream で書き込み先の IO が append モードで開かれた File でも truncate になってしまっていた不具合を修正しています。 2.7 の頃からこの挙動になってたみたいです。けっこう long standing な不具合ですね。でも確かに不具合だな。 [ruby-core:106493] [Bug #18388]
