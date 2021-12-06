@@ -1,0 +1,1 @@
+rubygems の bundler のインストール時の binstub と plugins の生成時に bindir の指定を伝播させるようにしています。
