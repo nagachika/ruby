@@ -1,0 +1,1 @@
+rubygems の require のテスト test/rubygems/test_require.rb で setup メソッドが不要になってたとのことで削除しています。
