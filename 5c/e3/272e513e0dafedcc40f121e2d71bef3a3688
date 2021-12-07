@@ -1,0 +1,1 @@
+autogen.sh でコマンドライン引数に -i/--install が指定されたら autoreconf コマンド起動時にオプション --install --symlink を渡さないようにしています。コンテナ内でのビルドのための対応みたいです。 GitHub Actions とかの環境での実行用かな?
