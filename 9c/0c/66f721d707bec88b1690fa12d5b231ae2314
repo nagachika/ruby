@@ -1,0 +1,1 @@
+rubygems のサブコマンドに login/logout を signin/signout の alias として追加しています。
