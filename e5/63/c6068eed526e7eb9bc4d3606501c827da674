@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の sync 時に使う --message-filter オプションの機能で commit hash を GitHub の commit へのリンクに変換するようにしています。
