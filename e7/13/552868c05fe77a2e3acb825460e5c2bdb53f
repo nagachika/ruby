@@ -1,0 +1,1 @@
+rubygems のテスト test/rubygems/test_require.rb で $LOAD_PATH を各テストメソッド内で復旧するようにしてたのは rubygems のテスト全体でやっていて冗長なので削っています。
