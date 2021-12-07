@@ -1,0 +1,1 @@
+Refinement#import_methods で C 実装のメソッドを import しようとして例外発生した時のメッセージに ruby で実装されたメソッドでないので import できないとわかるように記述を追加しています。 [ruby-core:106483] [Bug #18385]
