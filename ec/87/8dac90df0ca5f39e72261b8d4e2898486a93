@@ -1,0 +1,1 @@
+拡張ライブラリを含む gem のインストールのため configure に --with-jemalloc が指定された時に DLDLIBS という変数にも指定のライブラリを追加するようにしています。 [ruby-core:106518] [Bug #18391]
