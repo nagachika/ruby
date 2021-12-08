@@ -1,0 +1,1 @@
+YJIT の実行コードの生成時に ISeq のコードブロックの数と gen_single_block() に渡される blockid のつじつまがあっているかをチェックする RUBY_ASSERT_ALWAYS() を verify_blockid() という関数で追加してチェックするようにしています。
