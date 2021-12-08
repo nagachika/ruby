@@ -1,0 +1,1 @@
+Kernel#pp の表示のために拡張ライブラリ io/console の IO#winsize を利用するようにしたことを NEWS に追記しています。  [Feature #12913]
