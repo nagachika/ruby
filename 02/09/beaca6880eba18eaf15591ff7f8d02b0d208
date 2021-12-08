@@ -1,0 +1,1 @@
+doc/syntax/literals.rdoc のドキュメント内のリンク追加や %-literal についての説明の強化をしています。 https://github.com/ruby/ruby/pull/5213
