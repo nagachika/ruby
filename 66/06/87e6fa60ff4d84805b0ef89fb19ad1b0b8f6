@@ -1,0 +1,1 @@
+NEWS に Struct の高速化について追記しています。ついでに Object#instance_eval と #instance_exec の仕様変更についての記述を Implementation improvements のセクションに移動しています。
