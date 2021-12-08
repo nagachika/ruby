@@ -1,0 +1,1 @@
+bundler の man ページのヘッダの年月を更新しています。また Gemfile に GitHub の URL を書く時に pull request の URL を書くことができるようにしています。これでその pull request のブランチを利用することができるようにしているようです。
