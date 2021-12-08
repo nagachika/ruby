@@ -1,0 +1,1 @@
+YJIT は ruby の定数をマシン語に展開するということをしているみたいで、そのために定数の inline cache の invalidation 時の処理 rb_yjit_constant_ic_update() の実装で不具合があったのを修正しているようです。
