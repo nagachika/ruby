@@ -1,0 +1,1 @@
+NEWS に ruby による組み込みメソッド実装から使える Primitive.mandatory_only? メソッドの追加について追記しています。
