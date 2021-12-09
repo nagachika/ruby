@@ -1,0 +1,1 @@
+d6c5a30cfdf658280338dbb8c8b17fab3190b928 の続きでさらに gc.c の wmap_live_p() の判定方法を修正して、まず VALUE の値が ObjectSpace のヒープ内のポインタになってるかをチェックするようにしています。 [ruby-core:106528] [Bug #18392]
