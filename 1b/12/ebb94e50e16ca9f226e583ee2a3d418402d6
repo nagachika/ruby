@@ -1,0 +1,1 @@
+bundler の bundle add サブコマンドに -r/--require というオプションを追加して Gemfile に追加する時の require オプションに指定するパスが渡せるようにしています。
