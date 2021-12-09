@@ -1,0 +1,1 @@
+bundler の bundle init で生成する Gemfile や gems.rb で git_source を出力しないようにしています。
