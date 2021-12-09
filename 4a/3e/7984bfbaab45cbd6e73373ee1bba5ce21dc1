@@ -1,0 +1,1 @@
+メソッド引数に配列を *ary のように splat して展開する時に不要な duparray 命令を省く peephole optimization を追加しています。 https://github.com/ruby/ruby/pull/5211
