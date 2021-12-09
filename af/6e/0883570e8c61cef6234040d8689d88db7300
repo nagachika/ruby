@@ -1,0 +1,1 @@
+rubyspec の socket のテストで /proc/sys/net/ipv4/ip_unprivileged_port_start という procfs の内容を調べて 0 だったらテストが通らないのでスキップするようにしています。
