@@ -1,0 +1,1 @@
+bundler の Gemfile に git リポジトリを書く時のいくつかの deprecation 警告を削除しています。
