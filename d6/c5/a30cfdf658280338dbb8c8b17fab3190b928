@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の inspect メソッドで既に解放されているオブジェクトを触ろうとしてしまって SEGV することがある不具合を修正しています。 [ruby-core:106528] [Bug #18392]
