@@ -1,0 +1,1 @@
+8944009be7418614ce7d4077807ac2b60d4d5d85 で拡張ライブラリ ripper の Ripper::Lexer::State#[] および Ripper::Lexer::Elem#[] メソッドから deprecation warning を出力するようにしたのを revert しています。
