@@ -1,0 +1,1 @@
+rubygems のテストで起動する ruby のパスを Gem.ruby で取得していたのを ruby_with_rubygems_in_load_path というヘルパーメソッドで rubygems の load path を -I で追加したものを使うようにしています。
