@@ -1,0 +1,1 @@
+標準添付ライブラリ open3 の 01febcab3e6258051e2fc083b906d9ac2bdc3927 で追加された JRuby 向けの実装 lib/open3/jruby_windows.rb のファイルを削除しています。
