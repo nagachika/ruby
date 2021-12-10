@@ -1,0 +1,1 @@
+9c269316357a1a5b6ef27794f3c9412b2e33a6cd の続きというか本丸で Ractor.make_shareable で Proc オブジェクトを Ractor 間共有可能にする時にその Proc 内の self も共有可能なオブジェクトかチェックを追加しています。 [ruby-core:105573] [Bug #18243]
