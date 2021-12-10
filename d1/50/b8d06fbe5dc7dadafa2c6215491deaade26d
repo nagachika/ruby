@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の gemspec ファイルの bindir の設定を削除し executables は空配列にしています。
