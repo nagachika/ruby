@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#new_ostruct_member! で setter/getter 用の Proc オブジェクト作成を Ractor が定義されている環境では nil を receiver とした Proc オブジェクトを instance_eval 経由で作成するようにしています。 Ractor.make_shareable で共有可能にするためには receiver(self) が共有可能なオブジェクトでないといけないのでそのための対処のようです。 [ruby-core:105573] [Bug #18243]
