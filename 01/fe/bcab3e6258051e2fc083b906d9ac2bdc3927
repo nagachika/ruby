@@ -1,0 +1,1 @@
+標準添付ライブラリ open3 に JRuby 向けに Windows 環境用の実装を追加しています。 java.lang.ProcessBuilder というモジュールを利用した代替実装を使うようにしています。
