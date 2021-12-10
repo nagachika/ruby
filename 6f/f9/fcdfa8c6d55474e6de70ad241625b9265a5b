@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストで Module#ancestors に BasicObject が含まれるのに対応するように assertion を修正しています。関係ないように思えるけど 2e50989ad39a1085e04a901d072e7a2a77d1dc8f の変更の影響への追随かな?
