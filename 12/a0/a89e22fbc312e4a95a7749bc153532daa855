@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom から乱数を文字列として返したりする機能部分司る Random::Formatter を random/formatter として切り出しています。これは新しい標準添付ライブラリ random ができたっていう感じなんだろうか。それとも securerandom.gem に組込まれるんだろうか。 [ruby-core:105395] [Feature #18190]
