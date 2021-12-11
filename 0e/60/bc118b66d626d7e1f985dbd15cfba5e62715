@@ -1,0 +1,1 @@
+bundler の依存関係解決で bundler 2以前の時のみ必要な処理を Bundler.feature_flag.bundler_3_mode? をみてスキップするようにしています。この条件ループの外に出してもいいのでは。
