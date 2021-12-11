@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で #map と #flatten を使ってたところを Enumerable#flat_map を利用するようにリファクタリングしています。
