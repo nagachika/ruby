@@ -1,0 +1,1 @@
+doc/extension.ja.rdoc の Qfalse についての記述からも C 言語の偽(0)になるという記述をなくしています。 [ruby-core:106557] [Bug #18397]
