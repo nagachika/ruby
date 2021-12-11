@@ -1,0 +1,1 @@
+UnboundMethod と Method に public?/protected?/private? といったメソッドを追加しています。 [ruby-core:71490] [Feature #11689]
