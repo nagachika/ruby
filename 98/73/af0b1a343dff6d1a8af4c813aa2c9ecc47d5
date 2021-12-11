@@ -1,0 +1,1 @@
+TracePoint.allow_reentry というメソッドを新規追加してそのブロック内では TracePoint のイベントのフック内でもさらに TraePoint のイベントが発火するようにしています。いかにもうっかり使うと再帰してやばそうなので注意して使うようにと rdoc 用コメントにも書かれています。 [ruby-core:93043] [Feature #15912]
