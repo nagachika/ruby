@@ -1,0 +1,1 @@
+bcc2bb28b04054106f4a36e8fd69b2af6ecb033a で ALLOCA_N()/RB_ALLOCV()/RB_ALLOCV_N() などでサイズに 0 が渡されたら NULL を返すようにした部分を revert しています。コンパイラ警告が出たみたい? です。
