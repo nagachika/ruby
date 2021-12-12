@@ -1,0 +1,1 @@
+inline 関数 rb_fd_dup() の未使用の第3引数を削除しています。 C API の互換性問題はないのかなと思いましたが rb_fd_dup() は thread.c や include/ruby/internal/intern/select/win32.h でも定義されていてそれと一致していなかったので include/ruby/ruby.h の分割時にうっかり誤って変更されてしまったものみたいです。ということは 3.0 でも修正しないといけないかな……。 [Bug #18403]
