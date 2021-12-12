@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows でさらにペースト時の高速化のために Reline::Windows.check_input_event の ReadConsoleInputW() のバッファサイズを増やしています。
