@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::KeyStroke#compress_meta_key で inputrc などで convert_meta という設定が off になってたら処理せずすぐに return するショートカットを追加しています。
