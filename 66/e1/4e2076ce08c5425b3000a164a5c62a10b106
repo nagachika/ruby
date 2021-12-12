@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.check_input_event で標準入力からの入力を WaitForSingleObject() で待ってタイムアウト時に GetConsoleMode() の結果を @@legacy_console にセットしなおすようにしています。待ってる間に変更された時に追随するためみたいですね。端末制御する pager のようなコマンドを起動した後などに復帰しなくなるなどの不具合修正のため。 https://github.com/ruby/reline/issues/300
