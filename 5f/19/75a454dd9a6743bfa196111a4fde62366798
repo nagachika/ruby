@@ -1,0 +1,1 @@
+519a945efcb0205bdf4085e32cc76e56610a45c0 の続きで Reline::Config#convert_meta のデフォルト値を出力の Encoding が US-ASCII の時に true に設定するようにしています。 readline のデフォルトの挙動にあわせるためみたいです。
