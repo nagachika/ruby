@@ -1,0 +1,1 @@
+rubygems の Gem.latest_spec_for で複数の source があった時の対応を修正しています。
