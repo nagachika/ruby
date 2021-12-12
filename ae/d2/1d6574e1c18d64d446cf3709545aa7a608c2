@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows にクラス変数 @@hsg を導入して Reline::Windows.process_key_event でサロゲートペアを使った文字に対応するようにしています。2つの codepoint を組み合わせて1つの文字にするためバイト列の範囲が特定の範囲の時にそれを一時的に @hsg に格納して後続のバイト列と連結させるようです。
