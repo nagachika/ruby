@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI および Reline::GeneralIO で入力待ちのために Kernel#select を使っていたところを 拡張ライブラリ io/wait の IO#wait_readable を利用するようにしています。なんでかなーと思ったら blocking fiber の対応のためみたいです。
