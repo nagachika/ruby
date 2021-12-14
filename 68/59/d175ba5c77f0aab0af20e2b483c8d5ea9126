@@ -1,0 +1,1 @@
+lib/.document でドキュメント化するライブラリを明示していたのをやめて lib/bundler/.document を置いて bundler のみドキュメント生成の対象外にするようにしています。
