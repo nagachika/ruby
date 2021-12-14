@@ -1,0 +1,1 @@
+proc.c の rb_method_entry_min_max_arity() の関数名を rb_ を削って method_def_min_max_arity() に改名し、引数に rb_method_entry_t のかわりに rb_method_definition_t() を受け取るように変更。method_def_aritry() という wrapper 関数を導入して rb_method_entry_arity() および method_min_max_arity() からこれを呼ぶようにリファクタリングしています。
