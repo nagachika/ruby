@@ -1,0 +1,1 @@
+NEWS に Time#strftime のサポートする表記の仕様変更について追記しています。 [ruby-core:102103] [Feature #17544]
