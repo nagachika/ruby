@@ -1,0 +1,1 @@
+Struct のテストで define_method でメソッド定義するために引数に Method と to_proc で Proc オブジェクト化したものを渡していたのを Module#instance_method で取り出した UnboundMethod を直接渡すように変更しています。
