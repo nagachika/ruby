@@ -1,0 +1,1 @@
+NEWS に Time.new の in キーワード引数の追加について追記しています。 [ruby-core:101780] [Feature #17485]
