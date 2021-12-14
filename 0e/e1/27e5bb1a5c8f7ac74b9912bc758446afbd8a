@@ -1,0 +1,1 @@
+NEWS に TracePoint.allow_reenter メソッドの新規追加について追記しています。チケット参照のマークアップが不足してそう。 [Feature #15912]
