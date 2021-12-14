@@ -1,0 +1,1 @@
+NEWS に securerandom から Random::Formatter の実装を random/formatter に分離したことについて追記しています。 [ruby-core:105395] [Feature #18190]
