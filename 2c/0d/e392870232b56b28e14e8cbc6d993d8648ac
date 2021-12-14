@@ -1,0 +1,1 @@
+NEWS に --disable-gems は使うな、という help メッセージの変更について追記しています。 [ruby-core:102797] [Feature #17684]
