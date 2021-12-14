@@ -1,0 +1,1 @@
+Random.rand や Random#random_number の rdoc 用コメントに引数に Range を渡すケースの call-seq を追加しています。
