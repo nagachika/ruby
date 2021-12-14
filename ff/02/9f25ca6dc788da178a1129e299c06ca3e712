@@ -1,0 +1,1 @@
+NEWS の Method/UnboundMethod の public? などのメソッド追加についてのエントリで単語の頭に "#" がついてるのがマークアップとして解釈されてしまうみたいなので Method#public? のように receiver 込みの表記を使うように変更しています。
