@@ -1,0 +1,1 @@
+doc/extension.rdoc と doc/extension.ja.rdoc に RBOOL() というマクロの紹介を追記しています。 [ruby-core:79066] [Feature #13125]
