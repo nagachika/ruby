@@ -1,0 +1,1 @@
+YJIT の登場に伴ない RubyVM::JIT モジュールを MJIT 用に使っていたものを YJIT::MJIT と昔の名前に戻しています。 https://github.com/ruby/ruby/pull/5262
