@@ -1,0 +1,1 @@
+拡張ライブラリ ripper のテストで assert_lex という専用の assertion メソッドを導入して expected の state のところを Ripper::Lexer::State オブジェクトにしてから比較するようにしています。エラー時の表示のためかな?
