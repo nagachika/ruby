@@ -1,0 +1,1 @@
+標準添付ライブラリ random/formatter で String#unpack1 メソッドを利用するように変更しています。
