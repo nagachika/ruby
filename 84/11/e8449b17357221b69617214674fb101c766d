@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#render_each_dialog のローカル変数 lower_space というのは不要だったとのことで削除しています。参照しているところからも消してますが、ここはもともと間違ってたみたいです。
