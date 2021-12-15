@@ -1,0 +1,1 @@
+vm_trace.c の update_global_event_hook() に rb_event_flag_t 型の引数を追加して、rb_clear_attr_ccs() の呼び出しを必要な時だけに callcache のリセットを行わせるように最適化しています。
