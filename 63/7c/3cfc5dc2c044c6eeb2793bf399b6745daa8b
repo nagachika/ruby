@@ -1,0 +1,1 @@
+parse.y の SET_LEX_STATE() マクロの実体を parser_set_lex_state() という inline 関数で実装してこのの呼び出しに変更しています。
