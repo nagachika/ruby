@@ -1,0 +1,1 @@
+GitHub Actions の .github/workflows/check_misc.yml に標準添付ライブラリのバージョンの更新を NEWS に反映されているかをチェックして自動的に更新してコミットまでするという処理を追加しています。
