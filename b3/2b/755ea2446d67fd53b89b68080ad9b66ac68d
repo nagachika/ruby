@@ -1,0 +1,1 @@
+Integer.try_convert の rdoc 用コメントの未対応のオブジェクトについての記述でメソッド名の typo 修正(to_ary -> to_int)をしています。
