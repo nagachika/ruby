@@ -1,0 +1,1 @@
+ENV で環境変数にとても大きい文字列を設定した時に Errno::EINVAL が発生する環境として RUBY_PLATFORM に mswin を含むという条件にしていたのを ucrt も条件に追加しています。
