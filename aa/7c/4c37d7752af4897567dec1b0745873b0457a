@@ -1,0 +1,1 @@
+parse.y の構造体 struct lex_context に in_kwarg とは別に新しいメンバー in_argdef を追加して、メソッド定義の引数に委譲用の "..."  を書いてなおかつメソッド引数をかっこで括らなかった時の parse がおかしくなるのを修正しています。 [ruby-core:105795] [Bug #18267]
