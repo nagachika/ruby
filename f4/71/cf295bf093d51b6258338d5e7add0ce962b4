@@ -1,0 +1,1 @@
+d3d156c21ecf0a602d366209b3e2da665c3ec389 で導入された  ENV 排他用のロックの変数 env_lock や関数 getenv_with_lock() に static 修飾子を追加しています。
