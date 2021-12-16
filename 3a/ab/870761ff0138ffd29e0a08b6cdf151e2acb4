@@ -1,0 +1,1 @@
+ENV を Ractor 間で共有可能なオブジェクトとして flags に RUBY_FL_SHAREABLE を設定しています。
