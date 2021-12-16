@@ -1,0 +1,1 @@
+NEWS に String#unpack, #unpack1 の offset キーワード引数追加と Marshal.load の freeze キーワード引数の追加について追記しています。
