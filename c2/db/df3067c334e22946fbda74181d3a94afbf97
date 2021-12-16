@@ -1,0 +1,1 @@
+rubygems のテストから Encoding.default_internal を変更してテスト実行するという処理を with_internal_encoding というヘルパーメソッドとして切り出すリファクタリング。
