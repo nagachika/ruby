@@ -1,0 +1,1 @@
+hash.c の env_entry_count() の定義で引数に明示的に void を書くように修正しています。
