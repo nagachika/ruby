@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI::Session#initialize や CGI::Session::PStore#initialize から一時ファイルを生成する処理を CGI::Session#new_store_file に切り出すリファクタリング。
