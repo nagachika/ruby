@@ -1,0 +1,1 @@
+d3d156c21ecf0a602d366209b3e2da665c3ec389 の ENV の排他のためのロック処理を共通の RB_VM_LOCK_ENTER() と RB_VM_LOCK_LEAVE() を利用するように書きかえています。
