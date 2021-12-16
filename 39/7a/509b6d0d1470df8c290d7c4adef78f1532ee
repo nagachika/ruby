@@ -1,0 +1,1 @@
+main Ractor でない Ractor から Module#autoload で設定された定数の参照によりファイルのロードが行なわれそうになったら例外を発生させるようにしています。 [ruby-core:105014] [Bug #18120]
