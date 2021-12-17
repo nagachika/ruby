@@ -1,0 +1,1 @@
+rubyspec およびテストで Integer の表示をするのに Kernel#p のかわりに print や puts を、文字列化に inspect のかわりに to_s を利用するようにしています。
