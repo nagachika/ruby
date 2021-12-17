@@ -1,0 +1,1 @@
+rubyspec の Kernel#srand のテストの spec 名(っていうのかな)を少し修正しています。
