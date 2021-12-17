@@ -1,0 +1,1 @@
+rubygems のテストで 5044371621b071c1d846693b0e3251f67ecccaeb にて s390x で skip するようにした変更を revert して、かわりに assertion で Test::Unit::AssertionFailedError という例外が発生した時に skip するようにしています。
