@@ -1,0 +1,1 @@
+rubyspec の Kernel#srand を含むテストで seed を変更するので before/after で実際の seed を保存しておいて元に戻すようにしています。
