@@ -1,0 +1,1 @@
+parse.y の YYLTYPE の位置情報をセットする処理を rb_parser_set_pos() という関数に切り出すリファクタリング。
