@@ -1,0 +1,1 @@
+e1fee7f949cb6719122672fa1081c60984a5339f ([Feature #17490]) で RubyVM::MJIT を RubyVM::JIT という別名を残していたのをやめています。 RubyVM::JIT という定数はなくなりました。 今後 JIT が YJIT の別名になったりするのかなぁ。 https://github.com/ruby/ruby/pull/5275 [ruby-core:106173] [Feature #18349]
