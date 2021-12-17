@@ -1,0 +1,1 @@
+ded33ed5b8d923b0bb707b4e617ba02dde404188 で GitHub Actions を使って NEWS の標準添付ライブラリのバージョンを更新するようにしたところで reline のバージョンが誤検出されてたので $LOAD_PATH の先頭に "lib" を追加しています。
