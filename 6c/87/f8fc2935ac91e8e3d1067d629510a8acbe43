@@ -1,0 +1,1 @@
+rubyspec の Kernel#rand のテストの describe に "Kernel.rand" と書かれてたので記法を修正しています。
