@@ -1,0 +1,1 @@
+bundler の依存関係解決のエラー時の処理を gem_not_found_message というメソッドに切り出すリファクタリング。
