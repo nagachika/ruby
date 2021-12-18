@@ -1,0 +1,1 @@
+同じく 37bd795cf8bc9681fccaf9b2d42292b14610a310 で導入した ENV のための TypedData の型を指定する変数 env_data_type を static 変数にしています。
