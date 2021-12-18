@@ -1,0 +1,1 @@
+37bd795cf8bc9681fccaf9b2d42292b14610a310 で ENV のオブジェクトのための TypedData の型で free 用関数に RUBY_DEFAULT_FREE を指定していたのは不要なので NULL にしておくようにしています。
