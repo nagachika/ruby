@@ -1,0 +1,1 @@
+GitHub Actions の設定 .github/workflows/check_misc.yml で NEWS の default gems のバージョン更新のリストの変更検出と更新をする処理を複数のステップに分解して、gem 名の表記を調整したり(rubygems は RubyGems にする)、前回の安定版以降の更新がないものは除外するなどの改善をしています。
