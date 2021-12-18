@@ -1,0 +1,1 @@
+dln.c で _AIX や NeXT など環境を特定するマクロを使って preprocessor で分岐していたところを USE_DLN_DLOPEN というマクロと _WIN32 を利用するようにしています。
