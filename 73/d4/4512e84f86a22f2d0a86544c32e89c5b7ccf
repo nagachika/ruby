@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems のバージョン更新用 workflow に NEWS の記述の更新コミットも自動で行なわせるようにしています。
