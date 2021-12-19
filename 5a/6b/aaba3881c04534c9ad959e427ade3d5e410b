@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で RubyVM::AbstractSyntaxTree を利用するコードが追加されていたのを CRuby 以外でも動くように defined? で定数の存在チェックをするようにしています。
