@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.cursor_pos で String#unpack1 に "*" つきのフォーマット指示子を渡していたのが不要だったので削除しています。 receiver は 2 byte になるように切り出しているし unpack1 なのでどのみち先頭の要素しか取らないのでつけてても意味がなかったので。
