@@ -1,0 +1,1 @@
+標準添付ライブラリ logger のデフォルトの時刻の出力フォーマットを Logger::Formatter::DatetimeFormat という定数に格納しています。
