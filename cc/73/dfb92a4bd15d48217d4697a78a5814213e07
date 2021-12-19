@@ -1,0 +1,1 @@
+標準添付ライブラリ pp のテストで 2.6 対応のため ruby2_keywords を require して、2.7 から追加された UnboundMethod#bind_call の代替実装を追加しています。
