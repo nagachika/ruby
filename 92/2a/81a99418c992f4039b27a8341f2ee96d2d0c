@@ -1,0 +1,1 @@
+GitHub Actions の各 workflow の起動条件に pull request の label に Documentation がついていたら実施しないというのを追加しています。
