@@ -1,0 +1,1 @@
+String と Symbol の upcase, downcase, swapcase, casecmp, capitalize やその派生系などの大文字小文字に関するメソッド群の rdoc 用コメントの手直し。Unicode の文字における特別な大文字小文字の対応関係についても専用のセクションが追加されて少し触れられています。 https://github.com/ruby/ruby/pull/5245
