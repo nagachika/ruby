@@ -1,0 +1,1 @@
+標準添付ライブラリ benchmark の lib/benchmark/version.rb に magic comment の frozen_string_literal: true を追加しています。
