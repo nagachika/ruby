@@ -1,0 +1,1 @@
+io_buffer.c のマクロ DECLAIR_TYPE() が typo していたので DECLARE_TYPE() と改名しています。
