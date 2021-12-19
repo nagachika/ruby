@@ -1,0 +1,1 @@
+include/ruby/fiber/scheduler.h に inline 関数の API rb_fiber_scheduler_io_result_apply() というのを追加して、IO 系の関数でエラー時に返された負の Integer を errno にセットするようにしています。そして rb_write_internal() で対象の IO の write_lock 取得済みの時に rb_thread_call_without_gvl2() を使って GVL 取得せずに書き込み処理するようにしています。こちらは IO::Buffer 対応の続きかな?
