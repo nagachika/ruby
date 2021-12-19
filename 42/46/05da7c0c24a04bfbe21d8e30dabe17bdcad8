@@ -1,0 +1,1 @@
+NEWS の default gems のバージョン更新のために https://stdgems.org/default_gems.json からリリース済みの安定版でのバージョンリストを取得した結果をキャッシュしておくようにしています。
