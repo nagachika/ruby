@@ -1,0 +1,1 @@
+rb_iseq_type() という C API を追加して rb_iseq_t::body::type を Symbol 化したオブジェクトを返すようにしています。
