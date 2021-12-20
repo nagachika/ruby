@@ -1,0 +1,1 @@
+RubyVM.keep_script_lines に true が設定されていた時には eval で定義されたメソッドを RubyVM::AbstractSyntaxTree.of に渡しても ArgumentError が発生しないようにエラーチェックを緩めています。
