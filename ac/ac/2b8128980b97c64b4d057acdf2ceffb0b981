@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.of メソッドで返す AST の Node を求める時にスクリプトの位置情報から特定した ISeq から辿るように修正しています。詳細はわかりませんが eval で実行されたコード内でのエラーを error_highlight で処理する時に不具合が発生していたようです。
