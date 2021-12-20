@@ -1,0 +1,1 @@
+89a02d8932774f740013fe2a829faa9c40a1cfd1 の rb_iseq_type() のために追加した static 関数の iseq_type_sym() は iseq_type_id() と改名してこの関数の時点では Symbol (VALUE) ではなく ID を返すようにしています。
