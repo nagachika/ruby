@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の gemspec ファイルでバージョンを取得するための require を require_relative を利用するようにしています。upstream と ruby の標準添付ライブラリとして配置された時の違いがうまく吸収できていなかったのを修正しているようです。
