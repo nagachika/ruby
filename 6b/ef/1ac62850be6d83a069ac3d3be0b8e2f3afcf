@@ -1,0 +1,1 @@
+iseq.c の rb_iseq_update_references() で GC.compact の対応のため参照の更新をしているところで rb_iseq_constant_body::variable::script_line の対応が漏れていたのを修正しています。これは 3.0 でも必要かな?
