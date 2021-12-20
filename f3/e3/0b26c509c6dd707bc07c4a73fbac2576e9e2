@@ -1,0 +1,1 @@
+blocking fiber 対応のための IO::Buffer の実装で IO::Buffer::DEFAULT_SIZE 定数を追加し、IO::Buffer.new の引数を省略可能にして省略時のデフォルトのバッファサイズとして用いるようにしています。またこの定数は環境変数 RUBY_IO_BUFFER_DEFAULT_SIZE で起動時に設定可能にしています。環境変数は起動時にしか参照しないので起動後に変更しても影響しないのは注意が必要です。
