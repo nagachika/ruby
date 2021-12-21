@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.scroll_down メソッドの実装を変更しています。 ScrollConsoleScreenBuffer() という API を利用していましたがこれだとうまくスクロールできないそうで GetConsoleScreenBufferInfo() という API を利用して端末のサイズなどを取得して改行を出力することでスクロールするようにしています。
