@@ -1,0 +1,1 @@
+rubygems の Gem::Installer#app_script_text で生成するスクリプトでコマンドが bundler の時にバージョンの指定を環境変数 BUNDLER_VERSION で指定させるようにコード追加するようにしています。
