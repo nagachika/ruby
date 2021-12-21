@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Reline.dialog_proc メソッドを追加して Symbol を渡して対応する Proc オブジェクトを返すようにしています。
