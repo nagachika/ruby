@@ -1,0 +1,1 @@
+irb の irb_info 組み込みコマンドで East Asian Ambiguous Width の設定も表示するようにしています。
