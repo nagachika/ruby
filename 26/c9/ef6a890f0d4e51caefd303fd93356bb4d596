@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems の更新チェックの workflow でコミットする時に、変更が NEWS.md だけだった場合にはコミットログに [ci skip] を追加して CI の起動を抑制するようにしています。
