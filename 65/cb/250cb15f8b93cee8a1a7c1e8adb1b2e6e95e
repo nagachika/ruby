@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.clear_screen の実装をエスケープシーケンスを出力することで実現するように変更しています。
