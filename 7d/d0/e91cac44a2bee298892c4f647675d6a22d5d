@@ -1,0 +1,1 @@
+8cc01b668aa1eb0a19e7880dd697d78b93246704 で標準添付ライブラリ reline の lib/reline/windows.rb の空白削除したのを revert しています。 pull request をマージするためとあるので conflict したのかな。
