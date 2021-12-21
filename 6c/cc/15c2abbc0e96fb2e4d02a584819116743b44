@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.clear_screen で未使用のローカル変数の抑制のため変数名の先頭に "_" を追加しています。
