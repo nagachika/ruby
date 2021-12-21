@@ -1,0 +1,1 @@
+拡張ライブラリ psych の gemspec ファイルで spec.add_dependency で stringio への依存関係を追加するのを JRuby 向けでは削るようにしています。
