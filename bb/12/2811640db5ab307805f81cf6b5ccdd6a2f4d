@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline.add_dialog_proc でのコールバック上書きを確認するテストを追加しています。
