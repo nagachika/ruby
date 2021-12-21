@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntxTree.of で eval 内で定義されたメソッドから AST を得るテストで eval 内で定義するメソッド名が重複していて警告が出ていたので suffix を追加して重複を回避するようにしています。
