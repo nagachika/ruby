@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.clear_screen を古い環境? か JRuby でも動くように代替実装も追加しています。
