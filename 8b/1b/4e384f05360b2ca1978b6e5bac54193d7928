@@ -1,0 +1,1 @@
+rubygems のテストで TruffleRuby でうまく動かないものを RUBY_ENGINE をチェックして skip するようにしています。
