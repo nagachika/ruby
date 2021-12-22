@@ -1,0 +1,1 @@
+df48db987da2bd623d29d06419f2fbc8b7ecb38a の Primitive.mandatory_only? のための構造修正で導入した overloaded_cme_table というテーブルの key 側の cme をマークせず GC されたら自動的に削除されるようにしています。また static 変数としてプロセス全体で 1つにせずちゃんと rb_vm_t のメンバーとして作るように修正しています。
