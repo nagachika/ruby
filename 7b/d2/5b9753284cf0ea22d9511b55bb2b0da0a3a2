@@ -1,0 +1,1 @@
+libexec/bundle に新たに rubygems 3.2.3 より前で ruby も 2.6 以前の時チェックと警告出力を追加しています。
