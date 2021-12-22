@@ -1,0 +1,1 @@
+ruby 実装の組み込みメソッドから使える Primitive.mandatory_only? を使った場合に ISeq の iseq_overload が設定されている時の rb_callable_method_entry_t から rb_method_definition_t への参照の持ちかたに問題があり RGenGC のための WB が効いていないところがあったなどの問題があったので、static 変数で overloaded_cme_table というテーブルを持ってここで関連を保持するようにしています。これは VM 全体で共有しているので複数 Ractor 対応のためロックで排他処理するようにしています。
