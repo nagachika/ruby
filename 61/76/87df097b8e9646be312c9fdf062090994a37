@@ -1,0 +1,1 @@
+IO::Buffer の実装で RB_IO_BUFFER_IMMUTABLE というフラグ名を RB_IO_BUFFER_READONLY に改名してメソッド名も immutable? を readonly? に改名しています。また IO::Buffer#empty? というメソッドもついでに(?)一緒に追加されています。
