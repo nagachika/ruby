@@ -1,0 +1,1 @@
+c3a3f65b4575898ae2ae457bc4f56d1e6bdb169f で切り出した Reline::LineEditor#set_signal_handlers の呼び出し位置を少し移動しています。
