@@ -1,0 +1,1 @@
+IO::Buffer.map の実装で引数に File 以外のオブジェクトが渡された時に ArgumentError を発生させるチェックを追加しています。
