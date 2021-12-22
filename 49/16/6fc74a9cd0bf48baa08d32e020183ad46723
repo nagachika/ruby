@@ -1,0 +1,1 @@
+rb_file_size() で receiver が T_FILE 型のオブジェクトでなかった場合(IO::Buffer のことだと思います) rb_funcall() で size メソッドを呼ぶという実装にしています。それとは別に(?) IO::Buffer が発生させる各種例外のクラスを RuntimeError としていたところを専用の例外クラスを使うように変更しています。
