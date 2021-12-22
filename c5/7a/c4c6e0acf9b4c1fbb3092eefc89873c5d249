@@ -1,0 +1,1 @@
+tool/rbinstall.rb の default gems インストール処理で拡張ライブラリのインストール先ディレクトリの指定を修正しています。configure 時に --static-linked-ext が指定されてた時におかしくなってたみたいです。
