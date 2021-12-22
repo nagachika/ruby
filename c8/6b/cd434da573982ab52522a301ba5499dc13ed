@@ -1,0 +1,1 @@
+include/ruby/io/buffer.h のビットフラグとして使う enum rb_io_buffer_flags を 0はじまりにしてしまっていたので 1 からはじめるように修正しています。
