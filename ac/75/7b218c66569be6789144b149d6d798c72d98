@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の pkey_generate() という API で OpenSSL 3.0 とリンクしている場合は EVP_PKEY_CTX_new_from_name() という API を利用するようにしています。
