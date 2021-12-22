@@ -1,0 +1,1 @@
+GitHub Actions で default gem の更新チェックのためのファイル群をキャッシュするための step で mkdir を追加しています。
