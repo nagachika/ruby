@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::HMA のテストを OpenSSL 3.0 利用時には通らないので skip するようにしています。
