@@ -1,0 +1,1 @@
+blocking Fiber 用の Scheduler のインターフェースを定めた仮想のクラスの SchedulerInterface#io_read と SchedulerInterface#io_write という空のメソッドを追加しているかのようなコードを書いて rdoc にドキュメント生成させるようにしています。
