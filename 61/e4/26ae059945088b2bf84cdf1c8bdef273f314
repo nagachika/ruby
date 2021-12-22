@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の ossl_pkey_check_public_key() という API で OpenSSL 3.0 とリンクしている時に public key がみつからなかったら例外を発生させるようにしています。 SEGV を避けるためみたいですね。
