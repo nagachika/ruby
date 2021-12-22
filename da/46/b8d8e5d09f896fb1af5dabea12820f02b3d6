@@ -1,0 +1,1 @@
+71bbc40ffa4bb16ef0fc31f8015f61709fac36ce で追加した IO::Buffer#get_string のデフォルトの Encoding の指定を ASCII-8BIT にしています。
