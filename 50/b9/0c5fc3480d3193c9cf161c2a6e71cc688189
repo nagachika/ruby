@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL 3.0 で OpenSSL::PKey::EC#public_key= がうまく動かないようなので OpenSSL::PKey::EC#dh_compute_key の実装でこのメソッドを使わない方法で実装しなおしています。
