@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean のテストの test/did_you_mean/test_ractor_compatibility.rb で Ractor 対応について判定して toplevel return でファイルごと省略する処理を helper の require 後に移動しています。
