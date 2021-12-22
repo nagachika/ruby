@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL 3.0 では OpenSSL::Engine が依存している Engine API というものがまるっと deprecated になっているということで定数自体定義しないようにしています。
