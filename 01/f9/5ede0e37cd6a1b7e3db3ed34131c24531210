@@ -1,0 +1,1 @@
+bundler のテスト用のヘルパーで参照する環境変数 BUNDLE_SPEC_RUN を BUNDLER_SPEC_RUN に改名しています。
