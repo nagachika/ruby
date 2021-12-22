@@ -1,0 +1,1 @@
+IO::Buffer#to_str メソッドを #get_string と改名して文字列として暗黙の変換をしないようにしています。また get_string ではoffset, length と Encoding の指定を引数で受けつけるようにしています。
