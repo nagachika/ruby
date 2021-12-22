@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.deprep で SIGINT のシグナルハンドラのリセットをしていたのを削除しています。
