@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#reset からシグナルハンドラまわりの処理を set_signal_handlers というメソッドに切り出して、Reline::Core#inner_readline からこれを呼び出すようにして不要なシグナルハンドラ設定を繰り返さないようにしています。
