@@ -1,0 +1,1 @@
+IO::Buffer のメソッド名をいくつか改名して、テストや blocking fiber テスト用の Scheduler で IO::Buffer のメソッド名の変更などに追随させています。
