@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean の DidYouMean::SPELL_CHECKERS という定数を削除したのを互換性のために復活させています。
