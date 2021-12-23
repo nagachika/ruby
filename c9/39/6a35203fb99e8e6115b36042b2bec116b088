@@ -1,0 +1,1 @@
+Ractor.make_shareable に Proc オブジェクトを渡した時にブロックの外の変数参照があった時の例外メッセージにその Proc オブジェクトの inspect 結果を埋め込むようにしています。
