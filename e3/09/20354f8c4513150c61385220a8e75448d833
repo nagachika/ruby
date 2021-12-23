@@ -1,0 +1,1 @@
+IO::Buffer#hexdump と IO::Buffer#valid? メソッドの追加や IO::Buffer::MutationError を IO::Buffer::AccessError に改名したりと変更しています。その他内部的な API の関数名なども変更しています。
