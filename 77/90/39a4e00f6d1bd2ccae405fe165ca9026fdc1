@@ -1,0 +1,1 @@
+NEWS の GC.measure_total_time などの新しい GC の統計情報の記述にチケット参照を追加しています。
