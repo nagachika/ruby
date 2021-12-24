@@ -1,0 +1,1 @@
+拡張ライブラリ digest の extconf.rb でグローバル変数 $INSTALLFILES に digest.h のインストール用の指定を入れておくようにしています。default gem のインストール時にヘッダファイル ruby/digest.h がインストールされるようにするため。
