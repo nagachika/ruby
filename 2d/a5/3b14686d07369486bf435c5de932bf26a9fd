@@ -1,0 +1,1 @@
+gc.c の gc_finalize_deferred() で finalize_deferred() を呼ぶ前後の VM 全体のロックによる排他処理を削っています。 finalize_deferred() の中でロックしているのでここでは不要とのこと。
