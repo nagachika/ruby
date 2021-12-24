@@ -1,0 +1,1 @@
+GitHub Actions の default gems や bundled gems のバージョン情報をキャッシュする時の key に github.sha を含めるようにしています。
