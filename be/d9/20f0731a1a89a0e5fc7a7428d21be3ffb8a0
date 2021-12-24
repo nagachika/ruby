@@ -1,0 +1,1 @@
+blocking fiber 用の Scheduler のための C API に rb_fiber_scheduler_io_pread() と rb_fiber_scheduler_io_pwrite() を追加し、これを利用して IO::Buffer にメソッド #read, #pread, #write, #pwrite を新規追加しています。 read/write もまだなかったのか……。
