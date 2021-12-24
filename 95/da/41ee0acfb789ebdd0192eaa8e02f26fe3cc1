@@ -1,0 +1,1 @@
+GitHub Actions で default gems や bundled gems のバージョン情報を https://stdgems.org/ からダウンロードする時に curl のオプションに -R と -z を指定してキャッシュしているファイルから変更がなければダウンロードしないようにしています。
