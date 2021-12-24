@@ -1,0 +1,1 @@
+IO#read と IO#readpartial の rdoc 用コメントの手直し。 IO https://github.com/ruby/ruby/pull/5321
