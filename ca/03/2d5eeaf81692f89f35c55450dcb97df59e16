@@ -1,0 +1,1 @@
+vm_method.c の rb_vm_lookup_overloaded_cme() という関数は VM_CHECK_MODE マクロが 1以上の時だけ定義するようにして、gc.c の呼んでいたところは method entry の T_IMEMO オブジェクトを pin down する条件からの関数を削っています。厳密にはこの判定はあったほうがいいけど、pin down を余計にしても GC.compact で移動できないだけなので数が多くないという前提でそんなに問題はないという判断のようです。rb_vm_lookup_overloaded_cme() をこの位置で呼ぶのが実は NG だったので大丈夫なようにしようとするとロックが必要になるのでその時のオーバーヘッドとのトレードオフで判断したということですね。
