@@ -1,0 +1,1 @@
+lib/did_you_mean.rb の Ractor の存在チェックしているところで定数名 typo していたのを修正しています。
