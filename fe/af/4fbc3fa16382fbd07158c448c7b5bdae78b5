@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean のテストで Ractor 対応のテストがプロセスを multi Ractor モードにしてしまうので他のテストをエラーにしてしまうみたいなのでひとまず test/did_you_mean/test_ractor_compatibility.rb をファイルごと削除しています。
