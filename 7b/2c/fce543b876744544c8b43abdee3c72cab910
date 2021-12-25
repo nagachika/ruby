@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#divmod でも 7b2cfce543b876744544c8b43abdee3c72cab910 と同様に結果の精度の計算を修正しています。
