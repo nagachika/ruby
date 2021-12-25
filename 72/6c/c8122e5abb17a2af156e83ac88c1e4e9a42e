@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で半角カナの濁点/半濁点つきの文字を1つの grapheme として扱うため Reline::Unicode.escape_for_print にて判定を増やしています。
