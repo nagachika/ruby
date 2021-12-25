@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の alias で定義される編集コマンド群を private にしています。
