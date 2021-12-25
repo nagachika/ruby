@@ -1,0 +1,1 @@
+Refinement クラスについての rdoc 用コメントとそれを rdoc に認識させるためのダミーの関数や rb_define_method() を追加しています。
