@@ -1,0 +1,1 @@
+irb の irb_info 組み込みコマンドが Windows 環境で chcp コマンドを実行して codepage を得るところで結果を String#b で  ASCII-8BIT にして出力の Encoding を無視して処理するようにしています。
