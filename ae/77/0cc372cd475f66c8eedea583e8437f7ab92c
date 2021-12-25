@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで使う assertion メソッド assert_byte_pointer_size で不一致の時のメッセージに Encoding も表示するようにしています。
