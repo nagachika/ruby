@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#precision が実際より小さな値を返す場合があった不具合を修正しています。
