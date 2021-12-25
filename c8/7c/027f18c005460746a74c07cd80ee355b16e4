@@ -1,0 +1,1 @@
+configure で prefix を付加する対象の変数に $includedir を追加しています。 --prefix を指定した時の default gems の拡張ライブラリでヘッダも必要なもののインストールのためでしょうか。 [ruby-core:106355] [Bug #18373]
