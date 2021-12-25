@@ -1,0 +1,1 @@
+拡張ライブラリ digest に upstream から 3.1.0 をマージしています。主に ext/digest/install_headers.rb を削除して gemspec のバージョン番号を抽出する処理を Gem::Specification.new のブロックの外に出す変更だけなので大きな変更はなさそう。
