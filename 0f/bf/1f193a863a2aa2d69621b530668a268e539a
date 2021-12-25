@@ -1,0 +1,1 @@
+拡張ライブラリ readline のシグナルハンドラのテストで f8a0ef30b20207aa57cce9537babcc283d8f6a4d および 5138ef3875ca3ee7fc94cea536cb4f9cb50ea3fd のあたりのタイムアウトした時にメッセージにタイムアウトしたので SIGKILL で kill したことを表示するようにしています。
