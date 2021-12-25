@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の bad1e153d485cf7b68981a78e78e23c3f118c5a8 で追加した Reline::LineEditor#em_kill_line の rdoc 用コメントを追加しています。
