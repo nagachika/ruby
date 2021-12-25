@@ -1,0 +1,1 @@
+IO::Buffer の実装で rb_io_maybe_wait() が 0 を返した時の処理を修正しています。 https://github.com/ruby/ruby/pull/5340
