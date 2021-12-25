@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#ed_kill_line と #em_kill_line の rdoc 用のコメントを追加しています。
