@@ -1,0 +1,1 @@
+Marshal.load の rdoc 用コメントにキーワード引数 freeze についての説明を追記しています。 https://github.com/ruby/ruby/pull/5332
