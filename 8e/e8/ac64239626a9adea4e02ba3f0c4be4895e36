@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal の Float からの変換で小数点以下に 0 が連続している時の処理に不具合があったのを修正しています。 https://github.com/ruby/bigdecimal/issues/192
