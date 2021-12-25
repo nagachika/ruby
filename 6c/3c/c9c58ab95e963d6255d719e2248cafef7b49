@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の #em_kill_line を #vi_kill_line_prev と改名しています。 em_kill_line という名前は alias としても残さないみたいですね。
