@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal に BigDecimal#precision_scale というメソッドを新規追加しています。
