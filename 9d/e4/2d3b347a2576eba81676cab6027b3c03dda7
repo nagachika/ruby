@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の emacs mode での Ctrl-u を em_kill_line という機能にマッピングしていたのを ed_kill_line に変更しています。 em は emacs の略で ed はラインエディタの ed (vi の祖先)かなぁ。
