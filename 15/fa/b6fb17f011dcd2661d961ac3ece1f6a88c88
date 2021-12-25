@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.set_default_key_bindings で Shift-TAB のキーバインディングを vi mode の時にも設定するようにしています。
