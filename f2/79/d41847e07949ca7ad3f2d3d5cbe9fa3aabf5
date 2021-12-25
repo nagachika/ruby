@@ -1,0 +1,1 @@
+irb の RubyLex::Lexer::Elem の check_string_literal メソッドで token がない時に空文字列を返していたのを nil を返すように変更して、呼び元で safe guard 演算子を使って nil を許容するようにしています。警告抑制のためとのこと。
