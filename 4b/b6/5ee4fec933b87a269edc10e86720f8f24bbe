@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#finish で複数の文字をまとめて 1つの文字(grapheme)として扱う時に表示幅が変化する可能性を考慮しているようです。
