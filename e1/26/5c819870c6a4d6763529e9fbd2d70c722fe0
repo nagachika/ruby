@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#/ で必要な精度の計算にミスがあって精度が減ってしまうことがあった不具合を修正しています。 https://github.com/ruby/bigdecimal/issue/94 [ruby-core:82107] [Bug #13754]
