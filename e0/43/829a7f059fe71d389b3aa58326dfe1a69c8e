@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#+ の rdoc 用コメントの強化や BigDecimal#add の rdoc 用コメント追加。
