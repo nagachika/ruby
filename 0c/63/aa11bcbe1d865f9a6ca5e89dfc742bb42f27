@@ -1,0 +1,1 @@
+a8243d07e16cea77dfc9cd323e7cbf8ba478f127 で追記した拡張ライブラリ bigdecimal の BigDecimal#add の rdoc 用コメントのサンプルコードで BigDecimal.mode の引数を定数名を書いてたのを :half_up と Symbol リテラルを書くようにリファクタリングしています。
