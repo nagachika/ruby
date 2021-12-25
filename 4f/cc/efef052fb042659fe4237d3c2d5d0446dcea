@@ -1,0 +1,1 @@
+fc5bc378e54bebc4ef254fa36c3736fbe2e17c43 で reline の Reline::LineEditor の alias によるメソッド群を private にしたのは revert しています。 2.5 では private alias_method のような書きかたができなかったので。
