@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に 6c3cc9c58ab95e963d6255d719e2248cafef7b49 で改名することで消えた Reline::LineEditor#em_kill_line を再度別の実装として追加しています。カーソルの位置によらずその行全体を削除して kill ring に保存するという挙動をするようです。
