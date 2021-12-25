@@ -1,0 +1,1 @@
+AppVeyor の設定で環境変数 RELINE_TEST_ENCODING を Windows-31J から UTF-8 に変更しています。 半角カナのテストのためかな?
