@@ -1,0 +1,1 @@
+複数 Ractor を利用している時に main ractor 以外ではクラス変数は参照できないという仕様ですが、inline cache に格納されているものが invalidate されていなかった時に main Ractor 以外からクラス変数へのアクセスがエラーになってなかったのを修正しています。 [ruby-core:105057] [Bug #18128]
