@@ -1,0 +1,1 @@
+String#unpack と String#unpack1 の rdoc 用コメントの offset キーワード引数の説明の記載位置を移動しています。 https://github.com/ruby/ruby/pull/5331
