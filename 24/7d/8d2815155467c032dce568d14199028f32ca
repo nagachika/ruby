@@ -1,0 +1,1 @@
+ec478d947f218e1b94856941135701fe37e88fbc で追加した拡張ライブラリ bigdecimal のテストのテストメソッドを改名して assertion のメッセージに GitHub の issue の参照を追加しています。
