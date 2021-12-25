@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#quo にも第2引数に精度を受け付けるように拡張しています。
