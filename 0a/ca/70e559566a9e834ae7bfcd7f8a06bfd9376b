@@ -1,0 +1,1 @@
+readline のシグナル処理のテストで子プロセスで Readline::VERSION を出力する位置を少し変更しています。
