@@ -1,0 +1,1 @@
+4767cf0cb542e0ac9aea5b97ae1dc6af9d46e603 で did_you_mean を更新したので再度標準添付ライブラリ optparse のテストでチェックする DidYouMean 配下の定数名を変更しています。
