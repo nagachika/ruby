@@ -1,0 +1,1 @@
+tool/format-release で www.ruby-lang.org のための releases.yml ファイルのための情報を生成するところで tags の prefix が間違っていたのを修正しています。
