@@ -1,0 +1,1 @@
+a042043487eb4c7d39307b8e784ede1856455c3e で tool/make-snapshot の make update 時の外部パッケージ展開を抑制するようになってたのを revert しています。
