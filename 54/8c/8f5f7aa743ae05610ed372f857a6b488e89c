@@ -1,0 +1,1 @@
+io.c の rb_io_maybe_wait() でイベントがなかった時の戻り値を Integer の 0 から Qfalse に修正しています。またついでに(?)拡張ライブラリ io/wait で rb_io_wait() の戻り値のチェックに RTEST() を使うようにリファクタリングしています。たぶん相互に直接関係はない変更ですよね? https://github.com/ruby/ruby/pull/5341
