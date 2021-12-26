@@ -1,0 +1,1 @@
+irb の IRB::InputMethod::SHOW_DOC_DIALOG の Proc オブジェクトのブロック内で Alt-D を検出するための key code (っていうのかな)のバリエーションに [226, 136, 130] を追加しています。 macOS の iTerm2 では(というか macOS の他のアプリでもそうだと思うけど) alt-D で ∂ というギリシア文字が入力されるので、それを認識するようにしています。
