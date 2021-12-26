@@ -1,0 +1,1 @@
+NEWS の YJIT の利用可能な環境について macOS と Linux と書いてたところを Unix-like な x86-64 環境と変更しています。OpenBSD でも動くようになっているので。
