@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の check_multiline_prompt メソッドから未使用になってた prompt 引数を削除しています。
