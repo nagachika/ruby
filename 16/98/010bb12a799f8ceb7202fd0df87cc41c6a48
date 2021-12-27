@@ -1,0 +1,1 @@
+GitHub Actions の NEWS の default gems や bundled gems のバージョン一覧を更新する処理で変更がなければ空にしておくようにしています。
