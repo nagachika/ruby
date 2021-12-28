@@ -1,0 +1,1 @@
+bundler のテストで不要になった helper 用モジュールの include を削除しています。
