@@ -1,0 +1,1 @@
+Windows で mmap(2) が使えないために YJIT が無効になるのを避けるため VirtualAlloc() の wrapper として代替実装を追加して YIJT が有効にできるようにしています。しかし VM のメインループの実装タイプとして OPT_DIRECT_THREADED_CODE または OPT_CALL_THREADED_CODE しか対応していなくて VC では未対応なので実際には JIT コンパイルされたコード実行はされないようです。
