@@ -1,0 +1,1 @@
+bundler で Kernel#untaint を利用しているところがあったので Kernel.method_defined? でチェックしてから呼ぶようにしています。
