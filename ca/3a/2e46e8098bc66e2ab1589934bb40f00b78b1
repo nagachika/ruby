@@ -1,0 +1,1 @@
+bundler のテストでテストに使う Gemfile.lock の ruby バージョンの指定のチェックのため RUBY_VERSION をモンキーパッチしてたのをやめています。コミットログみると String#untaint がなくなったために判定に使ってる RUBY_VERSION を変更すると untaint を呼んでしまうからとのことですが、respond_to? とかでチェックすれば良いのではなかろうか……。
