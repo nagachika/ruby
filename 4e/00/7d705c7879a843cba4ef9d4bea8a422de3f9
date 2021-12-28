@@ -1,0 +1,1 @@
+85a426dc8678f04a78ffd799943b690ce2984c49 と 9790f54bff387b57579dc6f588bc29735eeae85b のさらに続きで Windows 環境で mprotect(2) の代替実装を rb_w32_mprotect() という関数に切り出して PROT_WRITE と PROT_READ にも対応した実装が……と思ったらそこはコメントアウトされた状態なのでやっぱりまだ未対応なようです。
