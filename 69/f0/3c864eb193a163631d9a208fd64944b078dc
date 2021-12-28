@@ -1,0 +1,1 @@
+既に deprecate 警告が出るようにしていた Refinement#include と Refinement#prepend を削除しています。これも 3.2 で削除予定とされていました。
