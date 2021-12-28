@@ -1,0 +1,1 @@
+85a426dc8678f04a78ffd799943b690ce2984c49 の続きで Windows 環境で mprotect() はなにもしないように定義していたのを PROT_EXEC フラグが指定されてたら FlushInstructionCache() という API の wrapper として実装を追加しています。しかしビットフラグのチェックが "|" 演算子になってて "&" の間違いっぽい。
