@@ -1,0 +1,1 @@
+ca3a2e46e8098bc66e2ab1589934bb40f00b78b1 の続きで bundler のテストで RUBY_VERSION を偽装するための実装を削除しています。
