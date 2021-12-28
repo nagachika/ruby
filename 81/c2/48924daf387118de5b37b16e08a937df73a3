@@ -1,0 +1,1 @@
+include/ruby/version.h の RUBY_API_VERSION_MINOR が 2 に更新されました。 開発版が 3.2.0 となりました。
