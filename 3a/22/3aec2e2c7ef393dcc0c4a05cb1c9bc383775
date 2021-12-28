@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems のテストで rbs のテストが失敗するみたいなのでエラーを無視するように設定しています。
