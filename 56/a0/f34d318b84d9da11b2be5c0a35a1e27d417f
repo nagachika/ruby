@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の DRb::ExtServManager#regist と #unregist をそれぞれ #register と #unregister に改名しています。互換性のため元の名前も alias として残しています。
