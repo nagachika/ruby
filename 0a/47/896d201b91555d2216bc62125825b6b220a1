@@ -1,0 +1,1 @@
+rubyspec の spec 名で "an Bignum" となっていたところの冠詞を "a" に修正しています。
