@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを commit hash つきの指定にして GitHub Actions でエラーを無視するようにした設定を revert しています。 https://github.com/ruby/ruby/pull/5364
