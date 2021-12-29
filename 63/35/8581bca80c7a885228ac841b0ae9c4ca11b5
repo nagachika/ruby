@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境でのテストの失敗時の Slack 通知のメッセージに MINGW64 か UCRT64 という msystem の項目も含めるようにしています。
