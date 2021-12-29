@@ -1,0 +1,1 @@
+テストで YJIT が利用可能(有効化できる)環境かどうか判定する処理をヘルパーモジュールの JITSupport.yjit_supported? というメソッドに切り出すリファクタリング。 https://github.com/ruby/ruby/pull/5363
