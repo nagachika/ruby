@@ -1,0 +1,1 @@
+rubygems の update サブコマンドで rubygems 自身を更新する処理で rubygems-update という gem をダウンドードするのはインストールされていない時だけにするようにしています。
