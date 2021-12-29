@@ -1,0 +1,1 @@
+既に deprecated とされていた Fixnum と Bignum というクラスを実際に削除しています。
