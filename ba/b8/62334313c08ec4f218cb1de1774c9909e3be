@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向けの workflow の matrix で test_task という項目が配列になってたのを要素がひとつしかないので展開して文字列にしています。
