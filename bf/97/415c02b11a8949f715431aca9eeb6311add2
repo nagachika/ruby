@@ -1,0 +1,1 @@
+typo していた(というか文法の間違い?)ので修正した名前を追加して deprecatd として残していた File.exists? と Dir.exists? というメソッドを削除しています。
