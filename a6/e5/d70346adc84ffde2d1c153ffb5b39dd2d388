@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で -DUSE_RVARGC=1 を指定して Variable Width Allocation を有効にしたビルドを試すようにしています。
