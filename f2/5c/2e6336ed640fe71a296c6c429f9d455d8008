@@ -1,0 +1,1 @@
+Encoding についての test/ruby/enc/ 配下のテスト群でも skip のかわりに omit を利用するように修正しています。
