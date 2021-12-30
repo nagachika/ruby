@@ -1,0 +1,1 @@
+Integer#coerce の rdoc 用コメントに Fixnum や Bignum という名称が残っていたのでこれも Integer に変更しています。
