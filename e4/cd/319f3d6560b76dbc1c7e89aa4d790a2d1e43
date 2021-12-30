@@ -1,0 +1,1 @@
+irb の IRB::InputMethod で IO.select を使ってたところを IO#wait_readable を使うように変更しています。
