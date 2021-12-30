@@ -1,0 +1,1 @@
+bignum.c の rb_big2dbl() での Float::INTINITY からの変換時の警告に Bignum という名称があったのを Integer に変更しています。
