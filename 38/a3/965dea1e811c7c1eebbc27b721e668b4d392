@@ -1,0 +1,1 @@
+RubyVM::YJIT::Block の allocate メソッドを undef するようにしています。 T_TYPEDDATA 型オブジェエクトを使ってたので警告抑制のためとのこと。
