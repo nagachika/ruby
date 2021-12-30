@@ -1,0 +1,1 @@
+io.c の ioctl_narg_len() という関数の定義は ioctl(2) システムコールが利用可能な時しか利用されないので preprocessor の分岐で囲んでいます。
