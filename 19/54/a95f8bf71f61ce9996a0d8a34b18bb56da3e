@@ -1,0 +1,1 @@
+bundler のテストでファイルパスを連結するのに String#join を使ってたのを File.join を利用するように修正しています。
