@@ -1,0 +1,1 @@
+GC.stat の rdoc 用コメントに戻り値の Hash の :time, :compact_count, :read_barrier_faults, :total_moved_objects などのキーについての説明を追記しています。 [ruby-core:106908] [Bug #18451]
