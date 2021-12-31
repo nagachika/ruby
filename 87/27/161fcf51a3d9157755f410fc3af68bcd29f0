@@ -1,0 +1,1 @@
+include/ruby/backward.h で古い C API で警告つきで残されてていた RBIMPL_ATTR_DEPRECATED_SINCE() つきで宣言されていた関数群をまとめて削除しています。
