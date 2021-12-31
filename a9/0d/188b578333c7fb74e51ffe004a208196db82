@@ -1,0 +1,1 @@
+include/ruby/internal/intern/error.h から削除済みの関数 rb_error_untrusted() と rb_check_trusted() の prototype 宣言を削除しています。
