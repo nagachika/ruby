@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の emacs mode での Ctrl-u のキーバインディングで実行するコマンドを ed_kill_line から unix_line_discard に変更しています。 vi_kill_line_prev の alias ですね。
