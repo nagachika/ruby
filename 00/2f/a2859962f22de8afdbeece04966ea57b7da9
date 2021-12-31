@@ -1,0 +1,1 @@
+大きな文字列の String#lines が macOS で遅くなっている、という現象があるらしくて、HEAP_PAGE_ALIGN_LOG という ObjectSpace のヒープを確保する時のバッファサイズを指定する定数を 16 に増やす(16KiB → 64KiB に増やす)ようにしています。 macOS では mmap(2) が遅いので、呼び出し回数を減らすためとのこと。mmap(2) って遅いのか……。 [ruby-core:106883] [Bug #18447]
