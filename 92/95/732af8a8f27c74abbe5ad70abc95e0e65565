@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の yamatanooroti.gem を使ったテストで Ripper.lex を呼び出してたところをヘルパーメソッド ripper_lex_without_warning を利用するようにしています。名前からして警告抑制のためみたいですね。
