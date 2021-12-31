@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.scroll_down で端末の情報を GetConsoleScreenBufferInfo() API で取得したものを String#unpack でデコードする時の順序が間違っていたのを修正しています。
