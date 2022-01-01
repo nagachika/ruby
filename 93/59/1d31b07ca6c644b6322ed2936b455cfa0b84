@@ -1,0 +1,1 @@
+template/prelude.c.tmpl が生成するコードで prelude オブジェクトを deprecated になった rb_cData のインスタンスとして作ってたところがあったので rb_cObject のインスタンスとして作るように修正しています。
