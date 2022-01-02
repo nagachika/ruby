@@ -1,0 +1,1 @@
+insns.def の VM 命令 checktype の実装や RubyVM::YJIT.enabled? の実装の Primitive.cexpr! の引数でも RBOOL() を使うようにリファクタリング。
