@@ -1,0 +1,1 @@
+NEWS に Removed C APIs というセクションを追加して rb_cData の削除と taint/untrust に関する API の削除について追記しています。
