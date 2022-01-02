@@ -1,0 +1,1 @@
+numeric.c の static 関数 int_zero_p() の戻り値を VALUE から bool に変更して、呼び元に必要に応じて RBOOL() でオブジェクト(VALUE)化するようにしています。
