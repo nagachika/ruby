@@ -1,0 +1,1 @@
+deprecated な定数として宣言していた Random::DEFAULT を削除しています。3.0 で depreacted にしてたと思うのでわりとすぐ消されましたね。 [ruby-core:101124] [Feature #17351]
