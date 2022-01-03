@@ -1,0 +1,1 @@
+拡張ライブラリ etc の extconf.rb の rb_deprecate_constant() のチェックをしている部分に 2.7 のサポートを切る時に消せるという TODO コメントを追加しています。
