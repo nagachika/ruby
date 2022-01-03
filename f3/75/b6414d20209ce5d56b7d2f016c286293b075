@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.tigetstr のエラー時のテストを追加しています。
