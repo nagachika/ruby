@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に fiddle を利用して tigetnum() の wrapper である Reline::Terminfo.tigetnum メソッドを新規追加しています。
