@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.tigetstr で引数が String オブジェクトじゃなかった時に TerminfoError 例外を発生させるようにしています。 fiddle を使って関数に渡してるので SEGV することがあったようです。
