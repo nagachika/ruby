@@ -1,0 +1,1 @@
+IO::Buffer の rdoc 用コメントが別の関数の前についてのを修正したり IO::Buffer#set_string の rdoc 用コメントを追加したりしています。 https://github.com/ruby/ruby/pull/5374
