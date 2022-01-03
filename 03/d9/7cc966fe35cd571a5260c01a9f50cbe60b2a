@@ -1,0 +1,1 @@
+e7c2d5cc024207dae91c19e9e0d0b1df43ec1b7d で誤って追加した? IO::Buffer#get_string の rdoc 用コメントのサンプルを削除しています。サンプルに UTF-8 の文字列が含まれていたからとのことですがマルチバイト文字はだめなんだっけ? https://github.com/ruby/ruby/pull/5374 [追記]古いコンパイラでエラーになる可能性を考慮してとのこと。[/追記]
