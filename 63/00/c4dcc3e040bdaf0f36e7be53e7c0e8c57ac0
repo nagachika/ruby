@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に拡張ライブラリ fiddle を利用して libcurses の tigetflag() の wrapper として Reline::Terminfo.tigetflag というメソッドを追加しています。
