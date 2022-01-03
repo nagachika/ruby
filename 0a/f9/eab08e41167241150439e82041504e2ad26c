@@ -1,0 +1,1 @@
+6300c4dcc3e040bdaf0f36e7be53e7c0e8c57ac0 で追加した Reline::Terminfo.tigetflag のエラー時のテストメソッドを分割していたものを 1つにまとめています。
