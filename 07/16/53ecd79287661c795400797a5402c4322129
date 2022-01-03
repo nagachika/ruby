@@ -1,0 +1,1 @@
+defs/gmake.mk および common.mk で make test-bundled-gems がターゲットに含まれていた時の実行順序を並べなおすための記述を追加しています。
