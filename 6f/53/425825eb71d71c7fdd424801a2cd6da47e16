@@ -1,0 +1,1 @@
+NEWS に Random::DEFAULT、Struct::Group、Struct::Passwd などの deprecated な定数の削除について追記しています。
