@@ -1,0 +1,1 @@
+拡張ライブラリ etc で rdoc による Etc::Passwd と Etc::Group のドキュメント化のための #if 0 でコメントアウトされたコメントと実装で rb_define_class_under() を使うようにしてクラスとしてドキュメント生成されるようにしています。
