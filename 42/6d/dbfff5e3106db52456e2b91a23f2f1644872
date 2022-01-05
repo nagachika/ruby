@@ -1,0 +1,1 @@
+test/ruby/test_method.rb のテストメソッド test_method_list で ObjectSpace.each_object を使って無名でない Module を取り出す時に Module#name が Symbol であるかチェックするようにしています。 Module#name が BasicObject のインスタンスを返すような Module が作られることがあるようで、その時にテストが失敗していたのでそれを避けるためとのこと。
