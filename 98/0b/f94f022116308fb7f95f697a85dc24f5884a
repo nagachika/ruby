@@ -1,0 +1,1 @@
+deprecated になっていた Kernel#=~ メソッドを削除しています。またこれに追随して標準添付ライブラリ delegate の undef しておくメソッドのリストから =~ メソッドを削除しています。 [ruby-core:89438] [Feature #15231]
