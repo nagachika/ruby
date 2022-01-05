@@ -1,0 +1,1 @@
+bundler のテストに checksums ファイルの内容をチェックする assertion を追加しています。
