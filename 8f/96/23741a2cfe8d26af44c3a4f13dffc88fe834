@@ -1,0 +1,1 @@
+c2e8e1f6a43b867c8e08efa55467bcabd0f6ab6b の続きで bundler が gem パッケージの checksum を checksums ファイルに出力する時に改行を末尾に加えるようにしています。
