@@ -1,0 +1,1 @@
+426ddbfff5e3106db52456e2b91a23f2f1644872 で Module#name が Symbol のものだけ抽出してましたが、Module#name は文字列を返すので String だけ抽出するように修正しています。
