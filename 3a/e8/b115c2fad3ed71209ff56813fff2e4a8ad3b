@@ -1,0 +1,1 @@
+yjit_codegen.c の slot_to_local_idx() で重複してた冗長な代入を削っています。
