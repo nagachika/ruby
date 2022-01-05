@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse でサブディレクトリ内のスクリプトから optparse.rb を読み込むのに require のかわりに require_relative を利用するようにリファクタリングしています。
