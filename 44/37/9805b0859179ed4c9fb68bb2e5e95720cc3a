@@ -1,0 +1,1 @@
+プロセス起動時の $LOADED_FEATURES の初期化処理中に rb_ary_modify() を呼ぶようにしています。 RGenGC のための世代管理のために必要で、RGENGC_CHECK_MODE を 2に設定しておくとアサーションにひっかかる場合があったようです。
