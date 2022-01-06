@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の e22218b510ec6befb385a6dda92d4a178607ebc7 で追加したテストに対応した修正。例外の位置情報が取れない時に RubyVM::AbstractSyntaxTree.of が使えないのであきらめてメッセージのみ表示するようにしています。
