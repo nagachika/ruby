@@ -1,0 +1,1 @@
+bundler の bundle gem で作成するプロジェクトの gemspec ファイルのテンプレートで spec.files を git ls-files で作る時の除外用パターンに bind ディレクトリを追加しています。
