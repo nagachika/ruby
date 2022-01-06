@@ -1,0 +1,1 @@
+Enumerable モジュールの rdoc 用コメントの Enumerable を include しているクラス一覧のところに例を追加しています。 https://github.com/ruby/ruby/pull/5393
