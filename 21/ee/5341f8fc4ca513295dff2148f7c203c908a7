@@ -1,0 +1,1 @@
+Module.used_refinements というメソッドを追加して現在 Refinements で上書きされているクラスごとの Refinement モジュールを配列で返すようにしています。 Module.used_modules が using で指定されている Module 自体を返すのに対して上書き対象の Class ごとの Refinement モジュールを返しています。一時は Module.used_modules が Module.used_refinements という名前だったようです。その状態でリリースされたことはなさそうなので used_refinements を使ってる人はいないと思いますが。 [ruby-core:84694] [Feature #14332]
