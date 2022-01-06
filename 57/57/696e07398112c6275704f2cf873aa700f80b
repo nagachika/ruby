@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP の rdoc 用コメントのサンプルコードで Net::HTTPResponse#body にアクセスしているところで response_body_permitted? をチェックする if を書いてたのを削っています。
