@@ -1,0 +1,1 @@
+rubygems に JRuby での CI の失敗の対応のために不要と思われる Gem::Specification#ignored のコピーを削除しています。詳細はよくわからず。
