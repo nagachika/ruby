@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight に発生させた NoMethodError の backtrace_locations を空に上書きしてしまうと TypeError になる不具合に関するテストを先に追加しています。
