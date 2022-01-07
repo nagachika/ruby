@@ -1,0 +1,1 @@
+54198c7b97d3d353f7ac233e0360034b6e7b6cb6 で追加した Refinement#refined_class についてのテストで未使用の変数を警告抑制のため削除しています。
