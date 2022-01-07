@@ -1,0 +1,1 @@
+NEWS の削除されたメソッドのところに Kernel#taint, Kernel#untaint, Kernel#tainted?, Kernel#trust, Kernel#untrust, Kernel#untrusted? などを追加しています。また tainted 関連の API 削除についての記述にチケット参照を追加しています。
