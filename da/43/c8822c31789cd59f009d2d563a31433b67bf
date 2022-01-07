@@ -1,0 +1,1 @@
+少し前に Module の dup 時の初期化チェックで追加した rb_module_check_initializable() で klass::super を 0 にクリアしていたのが不要になってたようで消しています。 [ruby-core:105374] [Bug #18185]
