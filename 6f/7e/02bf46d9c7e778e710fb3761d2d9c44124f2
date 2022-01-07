@@ -1,0 +1,1 @@
+gc.c の is_pointer_to_heap() 内の heap_page_for_ptr() が返したポインタの GC_ASSERT() でのチェックが compaction のために設定してた read barrier にひっかかってしまうとのことで削除しています。
