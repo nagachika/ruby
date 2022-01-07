@@ -1,0 +1,1 @@
+Refinements で上書きした時に Class の継承ツリーに指し込まれる Refinement モジュールの Refinement#append_features、Refinement#prepend_features、Refinement#extend_object などのメソッドを削除しています。うーん、こんなのあったっけ。 [ruby-core:105805] [Feature #18270]
