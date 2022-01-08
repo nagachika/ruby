@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の T_STRING 型オブジェクトの文字列の内容を取得するコマンドで Variable Width Allocation 対応のため as.embed.len メンバーを参照するように変更しています。
