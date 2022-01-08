@@ -1,0 +1,1 @@
+cea4a81056311f13ca1c17f26c9d2c21b5a017a6 で rubygems の gem fetch サブコマンドの --suggestions フラグの効果が反転していたのを修正しています。やっぱり逆だったんだ。
