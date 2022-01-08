@@ -1,0 +1,1 @@
+include/ruby/internal/config.h でマクロ USE_RVARGC のデフォルト値を 1 にして、ObjectSpace の slot を複数まとめて確保して追加のメモリ領域を T_CLASS などで利用する Variable Width Allocation の機能をデフォルトで有効にしています。ついに有効になりましたか。
