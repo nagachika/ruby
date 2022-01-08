@@ -1,0 +1,1 @@
+rb_enc_cr_str_buf_cat() で文字列バッファの連結の前に ENCODING_CODERANGE_SET() を呼び出して Encoding と coderange をセットしておくように修正しています。終端文字のサイズの判定が変わる可能性があるので先に Encoding を設定しておく必要があるとのこと。これは Variable Width Allocation と直接関係はないけどバッファサイズのミスで slot が書き潰されることで表面化したので直したとかかも。
