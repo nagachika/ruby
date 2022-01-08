@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションをためす workflow で -DUSE_RVARGC=1 を使うようにしていたのを d4a95428bb244ca8c4a97ad50f3837f191f1f0c3 のデフォルト値変更に伴ない逆に -DUSE_RVARGC=0 オプションを試すようにしています。
