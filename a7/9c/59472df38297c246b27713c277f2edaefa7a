@@ -1,0 +1,1 @@
+Module の初期化処理を Module#initialize から rb_module_s_alloc() の時点にまで引き上げています。Module を継承したクラスを作った時にその initialize 内で include できるようにするためとのこと。うーん Module を継承したクラスを使うことがあるのか。 [ruby-core:105966] [Bug #18292]
