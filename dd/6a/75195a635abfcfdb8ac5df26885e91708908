@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#each_entry がブロックを渡さずに呼び出した時に LocalJumpError を発生させていたのを、多くの Enumearble なメソッドと同様に Enumerator を返すようにしています。 [ruby-core:105185] [Bug #18158]
