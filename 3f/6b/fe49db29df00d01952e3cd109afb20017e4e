@@ -1,0 +1,1 @@
+a79c59472df38297c246b27713c277f2edaefa7a で追加したテストの assert_equal を assert_operator を使うようにリファクタリングしています。 [ruby-core:105966] [Bug #18292]
