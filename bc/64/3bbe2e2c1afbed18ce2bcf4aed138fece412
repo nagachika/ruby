@@ -1,0 +1,1 @@
+Variable Width Allocation が有効な時の struct RString の as.embed.len メンバーの型を unsigned short に変更しています。
