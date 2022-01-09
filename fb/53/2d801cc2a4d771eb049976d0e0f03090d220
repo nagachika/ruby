@@ -1,0 +1,1 @@
+64eccbf578b82b30299418444a1b77027c2abdd9 の続き test/ruby/test_string.rb の test_gsub_enumerator というテストメソッドに文字列リテラルをそのまま使っているところが残っていたのでこれも S() を通すようにしています。またこのテストは String#gsub が返した Enumerator を一度だけ next を呼んでエラーにならないことだけチェックしてたので、複数回 next を呼んでその戻り値もチェックするようにテストを強化しています。
