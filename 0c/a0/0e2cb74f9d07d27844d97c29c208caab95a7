@@ -1,0 +1,1 @@
+io.c の rb_io_t の書き込みバッファや mutex を確保する処理を io_allocate_write_buffer() という関数に切り出すリファクタリングとコーディングスタイルの修正。
