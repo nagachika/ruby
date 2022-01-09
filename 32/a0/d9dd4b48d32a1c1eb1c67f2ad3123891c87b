@@ -1,0 +1,1 @@
+Enumerable#tally の実装で引数が指定されていた時に rb_convert_type() を使って Hash に変換していたのを rb_to_hash_type() という関数を利用するようにリファクタリングしています。
