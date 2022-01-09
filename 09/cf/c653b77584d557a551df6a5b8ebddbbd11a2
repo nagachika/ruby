@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.setupterm で C の関数に渡すためのバッファを String オブジェクトとして確保していたのを Fiddle::Pointer.malloc を利用するように修正しています。 Solaris でメモリアドレスのアライメントの問題でエラーになってたのを修正するためだそうです。
