@@ -1,0 +1,1 @@
+be68b3a49030f592a10eacc180d21c38c5d5d5db で rb_enc_cr_str_buf_cat() が正しく修正できたので d4a95428bb244ca8c4a97ad50f3837f191f1f0c3 の Variable Width Allocation をデフォルトで有効にするため USE_RVARGC マクロのデフォルト値を 1 にする変更を再度適用しています。
