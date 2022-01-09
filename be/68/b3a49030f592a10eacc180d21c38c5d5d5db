@@ -1,0 +1,1 @@
+rb_enc_cr_str_buf_cat() の Encoding と coderange 設定後に rb_str_change_terminator_length() を呼び出して終端文字サイズを調整するようにしています。 44368b5f8bc21e19fa06a0fc0625923fc41293e6 の修正のやりなおしみたいですね。 Encoding を先にセットするのではなくて終端文字サイズを後から変更するのが正しかったらしい。
