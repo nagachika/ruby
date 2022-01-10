@@ -1,0 +1,1 @@
+昨日 c365c5921ea26e31c03a85b01ff4c04629abfc10 で再度デフォルトで有効にした Variable Width Allocation ですが、また revert されています。 CI で問題が発覚したのかな。
