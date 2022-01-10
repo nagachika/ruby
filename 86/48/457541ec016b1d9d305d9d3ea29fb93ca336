@@ -1,0 +1,1 @@
+doc/hacking.md の rubyspec の実行のところに make test-all test-rubyspec となぜか test-all も書かれてたので削っています。
