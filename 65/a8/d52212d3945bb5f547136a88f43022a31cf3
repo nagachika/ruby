@@ -1,0 +1,1 @@
+9ad34da47ff7d71446e667897559047ed5635b60 で doc/extension.rdoc と doc/extension.ja.rdoc に RBOOL() マクロについて追記したのを revert しています。 RBOOL() は公開ヘッダで定義されていないため。そういえばそうですね。 [ruby-core:79066] [Feature #13125]
