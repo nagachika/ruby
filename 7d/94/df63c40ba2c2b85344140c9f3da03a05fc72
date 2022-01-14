@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の gemspec ファイルに spec.rdoc_options を追加して rdoc のオプション指定をしています。
