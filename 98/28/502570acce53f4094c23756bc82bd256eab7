@@ -1,0 +1,1 @@
+rubygems のバージョン番号の比較用のクラス Gem::Version の Gem::Version#<=> メソッドに文字列が渡された時に自動的に Gem::Version で wrap して比較するように fallback を追加しています。
