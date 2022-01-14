@@ -1,0 +1,1 @@
+Variable Width Allocation が有効な時の構造体 struct RString の as.embed.len メンバーの型を unsigned short から long に修正しています。格納する値の範囲の問題じゃなくてメモリアクセスの alignment のためとのこと。
