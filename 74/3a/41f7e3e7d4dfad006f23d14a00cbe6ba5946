@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse のテストで新しい did_you_mean を使っている時のために ::DidYouMean::PlainFormatter を使うようにすりかえる setup と teardown を追加しています。
