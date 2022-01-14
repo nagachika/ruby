@@ -1,0 +1,1 @@
+include/ruby/internal/intern/vm.h の rb_get_alloc_func() の Doxygen 用コメントの typo 修正。
