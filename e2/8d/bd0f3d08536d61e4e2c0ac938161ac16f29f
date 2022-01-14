@@ -1,0 +1,1 @@
+743a41f7e3e7d4dfad006f23d14a00cbe6ba5946 の続きで標準添付ライブラリ optparse のテストで常に DidYouMean.formatter に DidYouMean::Formatter を利用するように修正しています。
