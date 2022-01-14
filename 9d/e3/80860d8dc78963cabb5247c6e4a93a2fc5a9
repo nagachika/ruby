@@ -1,0 +1,1 @@
+7e21b77dc6bfefaf331a0dbf89782303b8cda05d の Proc を継承したクラスでの dup の不具合修正について NEWS に追記しています。 [ruby-core:102107] [Bug #17545]
