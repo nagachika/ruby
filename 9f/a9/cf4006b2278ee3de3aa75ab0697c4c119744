@@ -1,0 +1,1 @@
+2d81a718eca679b9bf458beccf1e7a86b812c3e2 で Variable Width Allocation 有効時の struct RString の構造体メンバーの型を変更したのに追随して RSTRING_EMBED_LEN() の対応が漏れていたのを修正しています。
