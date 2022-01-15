@@ -1,0 +1,1 @@
+tool/fetch-bundled_gems.rb で gems/bundled_gems にブランチやタグ、コミットハッシュが指定されてた時に git fetch でそのバージョンを取り出すコマンド実行を追加しています。
