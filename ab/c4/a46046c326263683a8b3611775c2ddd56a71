@@ -1,0 +1,1 @@
+GitHub Actions で make test-bundled-gems を実行する時に PRECHECK_BUNDLED_GEMS という環境変数に no をセットして make の test-bundled-gems-precheck ターゲットを省略するようにしています。ビルドが二重に走ってしまうのを避けるためみたいです。
