@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs の commit hash の指定を更新しています。 rbs のテストで rubygems の Gem::Version#<=> メソッドを利用していて、9828502570acce53f4094c23756bc82bd256eab7 で Gem::Version#<=> メソッドの仕様変更したのに対応するためでしょうか。
