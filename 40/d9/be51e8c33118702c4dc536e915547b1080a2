@@ -1,0 +1,1 @@
+拡張ライブラリ psych の ext/psych/lib/psych/scalar_scanner.rb で不要な string_scanner の require を削除しています。
