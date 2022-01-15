@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトの standard.yml のテンプレートで ruby_version という設定項目に required_ruby_version を元にして minor バージョンまでの指定をするようにしています。
