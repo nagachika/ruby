@@ -1,0 +1,1 @@
+yjit_codegen.c で unsigned な値に単項演算子の - をつけていて警告が出ていたので signed な型に cast するようにしています。
