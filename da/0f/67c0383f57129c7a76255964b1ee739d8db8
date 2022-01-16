@@ -1,0 +1,1 @@
+rubygems のテストで定数 RubyVM::MJIT の存在チェックを defined? でしている条件が冗長だったので整理しています。
