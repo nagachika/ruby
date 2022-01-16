@@ -1,0 +1,1 @@
+Method や UnboundMethod の public?/private?/protected? などのメソッドが継承先の子クラスで可視性のみ変更されてた時に正しい結果(上書きされた結果)を返していなかったのを修正しています。 [ruby-core:106828] [Bug #18435]
