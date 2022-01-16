@@ -1,0 +1,1 @@
+f75e871e4f7b004d5a7c73086e46a3ad6e0432a0 で GitHub Actions の MinGW 向け workflow の MSP-Greg/ruby-setup-ruby アクションの固定をしてたのを ruby/setup-ruby@v1 を利用するようにしています。
