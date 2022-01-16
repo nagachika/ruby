@@ -1,0 +1,1 @@
+拡張ライブラリ fcntl に FreeBSD に存在する定数に対応した Fcntl::F_DUP2FD と Fcntl::F_DUP2FD_CLOEXEC という定数を追加しています。
