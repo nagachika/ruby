@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow のアクションで MSP-Greg/ruby-setup-ruby の win-ucrt-1 というブランチを指定していたのが変更により openssl のテストが失敗する原因になってたみたいなので一時的に? コミットハッシュを直接指定するようにしています。
