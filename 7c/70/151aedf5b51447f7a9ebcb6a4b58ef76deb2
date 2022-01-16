@@ -1,0 +1,1 @@
+rubygems の gem update --system で rubygems 自身を更新する時に既に最新版がインストールされてた時に処理をスキップするようにしています
