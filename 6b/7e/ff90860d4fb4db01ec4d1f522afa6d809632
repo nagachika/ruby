@@ -1,0 +1,1 @@
+Variable Width Allocation が有効な時に rb_serial_t を別途メモリ確保して構造体 struct RClass にポインタを持たせるようにしています。 32bit 環境では struct rb_classext_t に埋め込まれたぶんがメモリアライメントが取れてなくて Solaris などアライメントに厳しい環境でエラーになるようです。
