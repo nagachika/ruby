@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向けの workflow で gcc や make, bison などのビルドに利用するツールのバージョン表示を追加しています。
