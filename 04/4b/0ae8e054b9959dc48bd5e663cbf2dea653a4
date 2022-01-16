@@ -1,0 +1,1 @@
+rubygems の RbConfig::CONFIG['ruby_install_name'] を参照するところをメソッドに切り出すリファクタリング。
