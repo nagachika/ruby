@@ -1,0 +1,1 @@
+Module#const_added の追加についての rubyspec のバージョンによる分岐の間違いを修正しています。
