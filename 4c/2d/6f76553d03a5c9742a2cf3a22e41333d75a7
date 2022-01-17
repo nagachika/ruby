@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 用 workflow で configure に --enable-shared --enable-load-relative を渡すビルドパターンを追加しています。
