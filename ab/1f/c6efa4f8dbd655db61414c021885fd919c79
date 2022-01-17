@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 向け workflow で skip したテストをあらためて単独で実行させる時に continue-on-skipped_tests という設定がされてる matrix ではエラーを無視させるようにしています。
