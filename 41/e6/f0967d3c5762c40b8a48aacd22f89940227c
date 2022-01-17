@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 用 workflow の環境変数 TESTS への設定のための sed に渡している正規表現のエスケープ漏れ? を修正しています。
