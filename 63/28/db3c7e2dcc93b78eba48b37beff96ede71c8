@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 向け workflow で ab1fc6efa4f8dbd655db61414c021885fd919c79 で追加した continue-on-error という設定を 4c2d6f76553d03a5c9742a2cf3a22e41333d75a7 で matrix に追加した configure --enable-shared --enable-load-relative でビルドした時に設定して skip したテストの再実行時のエラーを無視させるようにしています。
