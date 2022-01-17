@@ -1,0 +1,1 @@
+GitHub Actions の rubyspec を実行する workflow で実行する ruby のバージョンを 2.7 と 3.0 から 2.7 と 3.1 に更新しています。
