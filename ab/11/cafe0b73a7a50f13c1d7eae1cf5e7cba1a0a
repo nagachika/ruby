@@ -1,0 +1,1 @@
+internal/class.h の RCLASS_EXT() マクロ定義の Variable Width Allocation が有効な時の定義にかっこを追加しています。
