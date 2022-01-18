@@ -1,0 +1,1 @@
+process.c と re.c で真偽値を判定して Qtrue または Qfalse を返しているところを RBOOL() マクロを利用するようにリファクタリング。
