@@ -1,0 +1,1 @@
+ruby 本体のテスト test/ruby/test_exception.rb と test/ruby/test_weakmap.rb で skip のかわりに pend を使うように変更しています。あれ、本体は omit じゃないのかな。
