@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで利用する test/reline/yamatanooroti/multiline_repl に Bundler.require の呼び出しを追加しています。
