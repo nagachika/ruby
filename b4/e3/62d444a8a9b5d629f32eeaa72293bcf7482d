@@ -1,0 +1,1 @@
+64e19ad7e98d9ede10116c6aa4ab4bd6e5b763a2 で標準添付ライブラリ drb の DRb::DRbServer#main_loop で GC 避けのために追加したローカル変数が代入するだけで利用されないため警告が出ていたので _last_invoke_method と改名しています。
