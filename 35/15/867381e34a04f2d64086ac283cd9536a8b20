@@ -1,0 +1,1 @@
+test/unit の skip メソッドで omit か pend を使えという NoMethodError 例外を発生させるようにしています。
