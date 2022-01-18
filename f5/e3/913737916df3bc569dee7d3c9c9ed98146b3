@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#generate_searcher で複数行編集時のインクリメンタルサーチのヒットした時のカーソル位置の描画の修正をしています。
