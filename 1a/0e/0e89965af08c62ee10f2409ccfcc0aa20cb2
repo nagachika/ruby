@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect で T_CLASS 型オブジェクトの classext の内容を表示する処理を Variablee Width Allocation の時のレイアウトに対応するようにしています。
