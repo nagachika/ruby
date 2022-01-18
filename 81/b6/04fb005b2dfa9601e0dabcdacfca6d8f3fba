@@ -1,0 +1,1 @@
+irb で内部ファイルの require に require_relative を使うようにリファクタリング。
