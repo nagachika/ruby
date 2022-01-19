@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の lib/irb/extend-command.rb で irb 内の拡張コマンドに対応するスクリプトを require_relative でロードするようにしてファイルパスの指定も追随して変更しています。
