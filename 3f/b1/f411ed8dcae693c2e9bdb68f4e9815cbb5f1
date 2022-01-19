@@ -1,0 +1,1 @@
+libexec/irb で require_relative を使っていたのは default gems のインストール時にはまくいかないので通常の require に戻しています。
