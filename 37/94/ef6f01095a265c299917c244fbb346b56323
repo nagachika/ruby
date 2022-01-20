@@ -1,0 +1,1 @@
+macOS でコンパイラの警告を抑制するためにデフォルトで tool/darwin-cc というのを強制的に CC_WRAPPER と XCC_WRAPPER にセットするようになっていたのをやめています。
