@@ -1,0 +1,1 @@
+gc.c で emscripten 向けに追加していた rb_emscripten_mark_locations() を WASI 環境向けにも使いまわすため改名して、mark_current_machine_context() は WASI 環境向けの別バージョンの実装を追加しています。
