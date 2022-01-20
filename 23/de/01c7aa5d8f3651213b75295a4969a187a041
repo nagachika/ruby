@@ -1,0 +1,1 @@
+WASM 環境では setjmp.h をシステムヘッダを使うかわりに wasm/setjmp.h を #include するようにしています。
