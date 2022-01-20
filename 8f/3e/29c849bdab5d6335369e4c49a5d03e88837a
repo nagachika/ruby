@@ -1,0 +1,1 @@
+gc.c の rb_raw_obj_info() で文字列の capacity を表示するために使うフォーマット指示子に %ld を使ってましたがポインタが long より大きい環境向けに PRIdSIZE を使うように修正しています。
