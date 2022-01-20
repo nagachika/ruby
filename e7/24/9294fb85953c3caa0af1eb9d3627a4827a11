@@ -1,0 +1,1 @@
+bundler の spec.required_rubygems_version の未定義時のデフォルト値を Gem::Requirement.default に fallback するなどして nil にならないようにしてエラーを回避しているようです。
