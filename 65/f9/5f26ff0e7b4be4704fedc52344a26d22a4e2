@@ -1,0 +1,1 @@
+WASI 環境向けにビルドに必要なツール類の wrapper コマンド追加や Makefile のルール追加、main 関数を rb_main() に改名して WASM  環境では rb_wasm_rt_start() を経由する main() 関数をその上に置く変更、WASI 環境用に setjmp(), fiber 用の swapcontext() などの関数の代替実装の追加、asyncify を利用するための実装の追加など。 asyncify という語彙が出てきますが、これは emscripten で C/C++ の同期的な関数の処理を非同期化してブラウザの処理エンジンに組み込めるようにするためのランタイム機能のことのようです。
