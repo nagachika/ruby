@@ -1,0 +1,1 @@
+WASI 環境には dup() と dup2() が利用できないため target_os が wasi の時にはこれらの関数を RUBY_REPLACE_FUNC() で存在しないとビルドエラーにするのを抑制するようにしています。
