@@ -1,0 +1,1 @@
+Process.groups や Process.initgroups の rdoc 用コメントの記法やマークアップの修正、groups の返す最大数についての記述の追加など。
