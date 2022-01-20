@@ -1,0 +1,1 @@
+ここから WASI 向けのビルドのための変更が続きます。 configure に target_os が wasi の時にコンパイラオプションの stack-protector を無効にする指定を追加しています。
