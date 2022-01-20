@@ -1,0 +1,1 @@
+Fiber のための coroutine 実装に WASI 環境向けの coroutine/asyncify/ を追加しています。
