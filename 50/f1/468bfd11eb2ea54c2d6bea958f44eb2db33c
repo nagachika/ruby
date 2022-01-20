@@ -1,0 +1,1 @@
+include/ruby/io.h での poll(2) 用の定数の定義で POLLPRI という定数が定義されない WASI 環境のためにマジックナンバーで RB_WAITFD_PRI を定義する分岐を追加しています。
