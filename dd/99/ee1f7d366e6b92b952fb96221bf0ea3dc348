@@ -1,0 +1,1 @@
+basictest および bootstraptest の Kernel#` (バッククオートによるコマンド実行) のテストを RUBY_PLATFORM をチェックして WASI 環境では実行しないようにしています。
