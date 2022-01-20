@@ -1,0 +1,1 @@
+50f1468bfd11eb2ea54c2d6bea958f44eb2db33c の include/ruby/io.h での WASI 環境での RB_WAITFD_PRI 定義の再修正。POLLPRI が未定義だったら 0 で定義しておくようにしています。この定数はビットフラグとして使うものなので 0x3 にしていたのはまずかったとのこと。
