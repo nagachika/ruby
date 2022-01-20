@@ -1,0 +1,1 @@
+bundler のテストで Windows で skip していたものが File.open の mode の変更で直ったみたいなので skip をやめています。
