@@ -1,0 +1,1 @@
+rubygems の gem list、gem query、gem search の引数処理は共通化されていて、全てで同じ name オプションの処理は共通部分に埋め込んでいます。
