@@ -1,0 +1,1 @@
+HP-UX のサポートを停止して configure の対応部分の削除や preprocessor 分岐で __hpux をチェックしているところを削除するなどしています。 [ruby-core:107129] [Feature #18491]
