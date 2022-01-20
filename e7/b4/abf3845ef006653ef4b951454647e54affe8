@@ -1,0 +1,1 @@
+コンパイラの組み込み関数の存在チェックに使うマクロ RBIMPL_HAS_BUILTIN___builtin_bswap32 と RBIMPL_HAS_BUILTIN___builtin_bswap64 を OpenBSD では定義しないようにしています。
