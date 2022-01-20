@@ -1,0 +1,1 @@
+rubygems の gem dependency サブコマンドの実装のリファクタリング。 Gem::Dependency.new を利用しないようにしている? ようです。
