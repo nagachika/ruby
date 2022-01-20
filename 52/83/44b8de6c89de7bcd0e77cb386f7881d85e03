@@ -1,0 +1,1 @@
+include/ruby/win32.h で Windows 環境での HAVE_SHUTDOWN を 1 に定義しておくようにしています。WASI のために追加した代替実装が使われないようにするため。
