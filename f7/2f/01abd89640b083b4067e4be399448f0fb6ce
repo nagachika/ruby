@@ -1,0 +1,1 @@
+WASM 環境向けのテスト用ターゲット make test-wasm を追加して wasm/tests に C API のテスト? を追加しています。実行には wasmtime というコマンドを利用するようです。
