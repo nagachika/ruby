@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/commands/dependency_command.rb の未使用のメソッドを削除しています。
