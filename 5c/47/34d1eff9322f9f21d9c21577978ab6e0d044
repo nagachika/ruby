@@ -1,0 +1,1 @@
+dln.c の dln_load() から dln_open() と dln_sym() という関数を切り出すリファクタリング。
