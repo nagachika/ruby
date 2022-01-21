@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.load を unsafe_load の alias としていたのを削除しています。load は別に定義されているため。
