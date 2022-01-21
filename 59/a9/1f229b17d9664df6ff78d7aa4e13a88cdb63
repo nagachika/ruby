@@ -1,0 +1,1 @@
+rb_clear_constant_cache() という関数の宣言を include/ruby/internal/intern/vm.h から internal/vm.h と include/ruby/backward.h に移動して、公開ヘッダ側では RBIMPL_ATTR_DEPRECATED_INTERNAL_ONLY() マクロを使って警告が出るようにしています。
