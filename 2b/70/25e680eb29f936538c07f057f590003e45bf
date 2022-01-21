@@ -1,0 +1,1 @@
+ec5bde1a8034608939ee649ca8ad4c39f9f52956 の続きで Gem.open_with_flock を Gem.open_file と改名しています。
