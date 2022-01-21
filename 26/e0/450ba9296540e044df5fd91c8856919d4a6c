@@ -1,0 +1,1 @@
+4e955b2e379a550cebd27e5d66fd5bcd98c70cf7 の続きで bundler のテストで bundle gem で生成する minitest によるテストファイルの内容チェックを強化しています。
