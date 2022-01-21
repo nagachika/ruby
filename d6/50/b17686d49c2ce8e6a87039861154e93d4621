@@ -1,0 +1,1 @@
+Fiber 内で Process.daemon を呼ぶと SEGV することがある不具合を修正。 rb_fiber_terminate() 内で fiber_switch() から処理が帰ってきてしまった時に ruby_stop() を呼び出して処理を返さないようにしています。 Process.daemon は fork を含むので、複数の Thread や Fiber があった時に呼び出した Thread/Fiber のみが main Thread/Fiber として残りあとは消えるため、本来は処理が帰ってこないはずの fiber_switch() が空振りして処理が帰ってきてしまうことがあり、考慮されていない状態が発生していたようです。 [ruby-dev:51146] [Bug #18497]
