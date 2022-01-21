@@ -1,0 +1,1 @@
+configure で MinGW 環境向けに shutdown() 関数の存在チェックをバイパスして HAVE_SHUTDOWN が真になるように指定しています。
