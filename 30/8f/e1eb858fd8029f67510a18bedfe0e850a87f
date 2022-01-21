@@ -1,0 +1,1 @@
+シグナルを使ったテストで core dump ファイルを作成しないようにするため Process.setrlimit(Process::RLIMIT_CORE, 0) で core ファイル抑制する設定をしておくようにしています。
