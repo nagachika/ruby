@@ -1,0 +1,1 @@
+tool/lib/envutil.rb の EnvUtil.invoke_ruby で子プロセスに伝播させる環境変数に ASAN_OPTIONS に加えて RUBY_ON_BUG も伝播させるようにしています。
