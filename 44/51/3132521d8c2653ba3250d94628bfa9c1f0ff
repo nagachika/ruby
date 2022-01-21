@@ -1,0 +1,1 @@
+4e955b2e379a550cebd27e5d66fd5bcd98c70cf7 の続きで bundler の bundle gem で minitest によるテストを生成する時に gem 名を元にファイルパスを決めるルールを再修正しています。
