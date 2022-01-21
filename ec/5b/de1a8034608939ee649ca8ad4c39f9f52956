@@ -1,0 +1,1 @@
+rubygems の Gem.open_with_flock で IO#flock を呼び出す条件に Solaris 環境でないというのがありましたが、これを Windows 環境に限って flock を呼ぶというふうに変更しています。
