@@ -1,0 +1,1 @@
+563d0fdadaca6d12c90ceb33120bc7bcf932c612 で拡張ライブラリ etc の gemspec ファイルの spec.files に ChangeLog-xxx を追加するための Dir.glob のパターンをバージョン番号が含まれるものだけにするように修正しています。
