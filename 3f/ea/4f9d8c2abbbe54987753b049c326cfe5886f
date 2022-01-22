@@ -1,0 +1,1 @@
+拡張ライブラリ etc の gemspec ファイルから spec.add_development_dependency で開発時依存関係を追加しているのを削っています。開発時の依存関係は Gemfile に書くという方式に移行(Gemfile は ruby 本体にはコピーされない)。
