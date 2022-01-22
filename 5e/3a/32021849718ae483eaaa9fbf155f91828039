@@ -1,0 +1,1 @@
+bootstraptest/runner.rb でテスト時のコマンドラインオプション --quiet で余分な出力を抑制するようにしています。また bootstraptest/test_fiber.rb の Fiber のテストで --quiet が指定されているとその環境で Fiber の作成できる数を調査する show_limit の実行はしないようにしています。
