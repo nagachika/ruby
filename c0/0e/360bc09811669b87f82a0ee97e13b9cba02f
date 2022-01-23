@@ -1,0 +1,1 @@
+rb_vm_memsize_postponed_job_buffer() の宣言と定義の空の引数を明示的に void を書くようにスタイルを修正しています。
