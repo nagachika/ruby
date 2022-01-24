@@ -1,0 +1,1 @@
+configure で警告関係のコンパイラオプションを試すところに -Werror=div-by-zero というオプションを追加しています。 -Werror=division-by-zero というのも元々ありましたが GCC が -Wdiv-by-zero というのを提供しているとのこと。
