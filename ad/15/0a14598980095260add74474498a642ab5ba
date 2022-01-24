@@ -1,0 +1,1 @@
+tool/m4/ruby_try_cflags.m4 で古い autoconf の時に AC_LANG_PROGRAM というマクロを上書き定義しておくようにしています。 -Werror=old-style-definition という警告オプションのチェック時に利用している C のソースコードの main 関数の引数が空なのがひっかかってしまうということで明示的に void を書くスタイルに修正しているようです。
