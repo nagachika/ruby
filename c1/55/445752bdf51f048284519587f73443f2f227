@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo のテストで Module#const_defined? で Fiddle::VERSION の存在チェックをしていところで第2引数に false を渡してトップレベルの VERSION 定数の影響を受けないようにしています。
