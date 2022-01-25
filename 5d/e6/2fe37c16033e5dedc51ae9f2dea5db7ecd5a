@@ -1,0 +1,1 @@
+Windows 用の win32/configure.bat のコマンドラインオプション処理で witharg 変数の参照の % が足りてなかったのを修正しています。
