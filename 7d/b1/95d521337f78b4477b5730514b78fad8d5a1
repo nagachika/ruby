@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で利用するバッファサイズの指定でサイズが足りない可能性があった不具合を修正しています。 rb_bug() により異常終了になる場合があったようです。 https://github.com/ruby/bigdecimal/pull/220
