@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の rdoc 用コメントで戻り値を true/false を明記していたのを truthy value/falsy value という表現に変更しています。
