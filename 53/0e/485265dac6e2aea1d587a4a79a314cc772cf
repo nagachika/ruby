@@ -1,0 +1,1 @@
+id_table.c の rb_id_table_foreach_with_replace() という関数で callback 関数の第1引数に ID にキャストした 0 や NULL を渡していたのを通し番号の key から ID に変換した ID を渡すようにしています。将来の拡張のため? [ruby-core:105658] [Feature #18253]
