@@ -1,0 +1,1 @@
+rubygems の gem update サブコマンドで rubygems 自身のバージョンの下限の設定に 3.1.x 用の設定を追加しています。
