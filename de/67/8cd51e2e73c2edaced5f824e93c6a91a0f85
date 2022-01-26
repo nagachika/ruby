@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の gemspec ファイルで require_ruby_version を 2.7.0 以上に引き上げています。またこれにより? tool/lib/core_assertions.rb で RUBY_VERSION が 2.4 以前だった時のための分岐というのが不要になったようなので削除しています。
