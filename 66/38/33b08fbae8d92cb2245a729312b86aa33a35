@@ -1,0 +1,1 @@
+WASI 環境では GC.compact のための read barrier が実装できないので GC_ENABLE_READ_SIGNAL_BARRIER というマクロを導入してましたが GC_COMPACTION_SUPPORTED にしてさらに GC.compact や GC.auto_compact= などで NotImplementedError を発生させるようにしています。
