@@ -1,0 +1,1 @@
+530e485265dac6e2aea1d587a4a79a314cc772cf で rb_id_table_foreach_with_replace() という関数から呼び出すコールバック関数の第1引数に ID を渡すようにしたのを revert しています。 compaction の途中に呼ばれる可能性があるので不正な値を渡してしまう可能性があったとのこと。 [ruby-core:105658] [Feature #18253]
