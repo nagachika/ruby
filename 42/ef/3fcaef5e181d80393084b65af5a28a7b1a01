@@ -1,0 +1,1 @@
+bundler が bundle platform で出力するメッセージに含めるプラットフォーム名を RUBY_PLATFORM を直接表示するのではなく Gem::Platform.local を参照するようにしています。 https://github.com/rubygems/rubygems/issues/5264
