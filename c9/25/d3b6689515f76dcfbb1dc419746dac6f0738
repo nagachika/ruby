@@ -1,0 +1,1 @@
+bundler の force_ruby_platform という設定が効かなくなる場合があった不具合を修正しています。
