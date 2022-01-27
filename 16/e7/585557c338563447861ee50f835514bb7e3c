@@ -1,0 +1,1 @@
+gc.c の Ractor ごとのオブジェクトの領域から slot を取得する ractor_cached_free_region() で Variable Width Allocation が有効な時に ASAN 用の unpoison の処理のサイズが間違っていたのを修正しています。
