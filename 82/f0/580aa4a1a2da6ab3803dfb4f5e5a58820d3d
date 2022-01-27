@@ -1,0 +1,1 @@
+4d9ad91a35b16afde38fd4ae513a49d22e27b3ea の続きで他にも update_cc_tbl() と update_cvc_tbl() から呼び出す関数を rb_id_table_foreach_values_with_replace() から rb_id_table_foreach_values() に変更しています。 [ruby-core:105658] [Feature #18253]
