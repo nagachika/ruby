@@ -1,0 +1,1 @@
+NEWS に定数 Fixnum と Bignum の削除について追記しています。 [ruby-core:72918] [Feature #12005]
