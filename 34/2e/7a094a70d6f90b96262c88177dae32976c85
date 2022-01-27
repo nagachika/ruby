@@ -1,0 +1,1 @@
+bundler のテストで利用する Gemfile の rack のソースが github.com になってたのでローカルに作る git リポジトリを参照するように変更しています。
