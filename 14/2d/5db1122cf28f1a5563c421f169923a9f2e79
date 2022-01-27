@@ -1,0 +1,1 @@
+4d9ad91a35b16afde38fd4ae513a49d22e27b3ea の続きで rb_id_table_foreach_values_with_replace() で replace コールバック関数が ID_TABLE_STOP を返した場合に処理を抜けるようになってなかったのを修正しています。
