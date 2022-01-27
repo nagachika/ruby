@@ -1,0 +1,1 @@
+6e901939c67d7c1275c183b0bde4d5d1c78ef081 の続きで rb_id_table_foreach_with_replace() から呼び出すコールバックの第1引数には意味のある値が渡せないので、compaction の処理から呼ぶ関数は rb_id_table_foreach_values_with_replace() と改名して、渡すコールバック関数からも ID の引数を削除しています。 [ruby-core:105658] [Feature #18253]
