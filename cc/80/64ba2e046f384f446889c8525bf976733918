@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の extconf.rb で libffi のバージョンを Kernel#warn で出力していたのを標準出力に出すように変更しています。
