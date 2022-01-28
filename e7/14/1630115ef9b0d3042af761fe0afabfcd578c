@@ -1,0 +1,1 @@
+gc.c の RGENGC_CHECK_MODE が真の時の assertion の式の構造体の参照の typo 修正。
