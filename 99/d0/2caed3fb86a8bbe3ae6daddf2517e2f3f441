@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の log rotation 時にファイルのロックをとるための実装を Windows 上の環境では空の実装にするための分岐に RUBY_PLATFORM をみるというのを使っていたので、JRuby では判定がうまくいっていなかったので RbConfig::CONFIG['host_os'] を参照するように修正しています。
