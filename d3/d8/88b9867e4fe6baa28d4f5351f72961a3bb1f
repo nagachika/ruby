@@ -1,0 +1,1 @@
+misc/lldb_cruby.py に macOS では定数マクロ HEAP_PAGE_ALIGN_LOG が 16に定義されるのに対応して分岐を追加しています。 lldb_cruby.py って定数の参照のために Python の変数に代入しておくようになってるのか。
