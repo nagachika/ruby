@@ -1,0 +1,1 @@
+VM の callcache のための構造体 struct rb_callcache の aux_.attr_index の値を 0オリジンで格納しておくようにして不要な +1 や -1 を削るようにしています。また vm_cc_attr_index_p() という関数を導入するリファクタリングも行なっています。
