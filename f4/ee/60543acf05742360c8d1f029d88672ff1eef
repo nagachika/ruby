@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows.process_key_event で \e を前置する条件として Alt キーが押されていた時に加えて Ctrl は押されていないこともチェックするようにしています。
