@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows の定数 VK_MENU に Alt キーとして扱うとコメントを追記しています。
