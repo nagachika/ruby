@@ -1,0 +1,1 @@
+gc.c でマクロ MAP_ANONYMOUS が未定義で MAP_ANON は利用可能な時に MAP_ANONYMOUS を定義するようにしています。古い環境では MA_ANON という名前が使われてることがあったみたいです。 [ruby-core:107336] [Bug #18556]
