@@ -1,0 +1,1 @@
+b90e56e6243f4e6567991bfd2375e1f58b1414a0 の mkmf の pkg_config メソッドの再修正。 pkg-config コマンドの呼び出し箇所をまとめています。
