@@ -1,0 +1,1 @@
+c956f979e5d05900315d2753d5c3b1389af8dae4 で Struct.new の keyword_init キーワード引数の指定がなかった時にできたクラスの new にキーワード引数を渡しても警告を出さないようにした変更について NEWS に追記しています。 [ruby-core:98014] [Feature #16806]
