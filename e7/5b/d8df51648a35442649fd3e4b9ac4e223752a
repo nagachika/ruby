@@ -1,0 +1,1 @@
+RubyVM.keep_script_lines を true に設定するテストで環境変数 RUBY_ISEQ_DUMP_DEBUG が指定されているときは skip するようにしています。 RubyVM::InstructionSequence#to_binary が keep_script_lines に対応していないためとのこと。
