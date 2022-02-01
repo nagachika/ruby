@@ -1,0 +1,1 @@
+IO や Kernel#readline などの IO 関係のメソッド群の rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/5460
