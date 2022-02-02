@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で bundler の同期時に tool/bundler/ というサブディレクトリの dev_gems* というファイル群もコピーするようにしています。また bundler を upstream から同期しています。
