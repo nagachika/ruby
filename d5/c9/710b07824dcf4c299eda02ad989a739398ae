@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/specification.rb に encoding のマジックコメントが 2行目に残っていたのを削除しています。
