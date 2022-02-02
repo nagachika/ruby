@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の gemspec ファイルの spec.files に git ls-files で取り出したファイルから削るパターンに gemspec ファイル自身と rakelib/ ディレクトリおよび Rakefile や appveyor などの CI 用設定ファイルを追加しています。
