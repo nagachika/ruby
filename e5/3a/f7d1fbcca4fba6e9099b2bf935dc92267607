@@ -1,0 +1,1 @@
+common.mk の make test-bundler-prepare で gem install で利用する gem をインストールしていたのを 517d7c3221e3ca0ca76d79cc67cb9efefc01ece3 で追加された tool/bundler/dev_gems.rb を gemfile として指定して bundle install 相当のコマンドでインストールするようにしています。依存している gem の問題で CI が失敗していたので依存する gem のバージョンを common.mk に直接書いていたのを bundler のリポジトリで管理できるようにしているようです。
