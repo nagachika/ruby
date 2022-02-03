@@ -1,0 +1,1 @@
+gems/bundled_gems で rbs を commit hash で固定していたのを削除して 2.1.0 のバージョン指定に更新しています。 rubygems.org で rbs-2.1.0 がリリースされたようです。 https://github.com/ruby/ruby/pull/5515
