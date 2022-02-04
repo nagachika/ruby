@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP#connect でサーバーが IP アドレスで指定されていた時には SNI (Servver Name Indication) を無効化するようにしています。 RFC を厳密に適用するようにしたというのと、LibreSSL で hostname= に IP アドレスを渡すとエラーになるようになってたのでそれを抑制するためとのこと。
