@@ -1,0 +1,1 @@
+メモリ管理する heap 内の slot は従来 struct RVALUE のサイズにしていましたが、これを BASE_SLOT_SIZE という定数マクロで定義しておくようにしています。コミットログをみて一瞬 Variable Width Allocation が有効なビルドでは slot のサイズを大きくするのかと思いましたが、現時点ではそういうわけではなくて sizeof(RVALUE) としているところを定数マクロにするようにしているだけのようです。
