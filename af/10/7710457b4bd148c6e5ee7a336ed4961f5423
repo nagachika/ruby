@@ -1,0 +1,1 @@
+transcode.c の econv_source_encoding() および econv_destination_encoding() から nil チェックをしつつ rb_encoding から Encoding オブジェクト(VALUE)に変換する処理を econv_get_encoding() という関数に切り出して共有するリファクタリング。
