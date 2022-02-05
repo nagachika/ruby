@@ -1,0 +1,1 @@
+a9221406aa3177f98be507ff5474f2f7d78b481a と同様に構造体メンバー rb_objspace_t::profile::total_freed_pages を構造体 rb_size_pool_t のメンバーに移動して、GC.stat の返す項目にも :total_freed_pages を追加しています。項目の追加は NEWS にも追記したほうが良さそうですね。
