@@ -1,0 +1,1 @@
+gc.c の heap_prepare() という関数で Lazy Sweep 中の場合に gc_sweep_continue() を呼び出して sweep を完了させるのを incremental marking を完遂させる処理の後に移動しています。コミットログによると gc_marks_continue() は mark が完了したら最後に lazy sweep を開始するのでそれも完遂させて空き page ができることを期待しているようです。
