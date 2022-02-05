@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump, dump_all の返す項目に slot_size というのを追加しています。Variable Width Allocation でオブジェクトの型によってはまとめて確保される slot があるので、そのサイズを返すようになったみたいです。これまで複数の slot をまとめて確保する、という表現をしてきましたが Variable Width Allocation の概念としては 1つの slot のメモリ上のサイズが大きくなっていると考えるのが正しいみたいですね。
