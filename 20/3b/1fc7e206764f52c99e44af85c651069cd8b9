@@ -1,0 +1,1 @@
+正規表現のドキュメント doc/regexp.rdoc に絵文字(emoji)にマッチする "\p{Emoji}" という POSIX パターンについて追記しています。
