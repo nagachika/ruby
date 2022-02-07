@@ -1,0 +1,1 @@
+AppVeyor の configure.bat の --without-ext に readline を渡していたのを削除し、nmake test-all でも --exclude に readline を渡して拡張ライブラリ readline のビルドとテストを除外していたのを削除しています。
