@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境用 workflow や AppVeyor の設定で configure.bat や nmake のコマンドが長いので複数行表記にしています。
