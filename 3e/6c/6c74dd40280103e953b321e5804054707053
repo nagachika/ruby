@@ -1,0 +1,1 @@
+io.c の rdoc 用コメントの主に call-seq の引数名の統一などの手直し。 https://github.com/ruby/ruby/pull/5529
