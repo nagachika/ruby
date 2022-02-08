@@ -1,0 +1,1 @@
+AppVeyor で vcpkg がインストールする bin ディレクトリに環境変数 PATH を通すようにしてたのをやめて mklink.exe で /usr/local/bin にリンクをはるように(GitHub Actions と同じ戦略に?)変更しています。
