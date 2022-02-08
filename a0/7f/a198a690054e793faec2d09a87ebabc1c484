@@ -1,0 +1,1 @@
+String と Struct の rdoc 用コメントのクロスリファレンスの記法を変更しています。こういう書きかたができるんだなぁ。 rdoc 独自のマークアップ? https://github.com/ruby/ruby/pull/5531
