@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境向け workflow に vcpkg でインストールしたパッケージをキャッシュして使いまわせるようにしています。
