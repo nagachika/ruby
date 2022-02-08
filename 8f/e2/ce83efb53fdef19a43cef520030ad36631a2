@@ -1,0 +1,1 @@
+65ccae5b2a0b29797522bbe882105eeea00433be の続きで GitHub Actions の Windows 向け workflow でインストールしたパッケージの .dll ファイルへのリンクを mklink.exe コマンドで作る処理を libffi と libyaml についてだけ実施するように書かれてたのを、readline.dll についてだけ実行しないというふうに除外する書きかたにしています。
