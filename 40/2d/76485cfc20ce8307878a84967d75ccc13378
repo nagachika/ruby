@@ -1,0 +1,1 @@
+GitHub Actions の Windows 向け workflow と AppVeyor で libffi のインストールをして fiddle で同梱の libffi を利用するようにしていたのをやめています。 AppVeyor では libyaml readline zlib なども vcpkg でインストールするようにしています。
