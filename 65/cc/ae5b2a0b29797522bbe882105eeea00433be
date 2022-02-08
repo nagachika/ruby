@@ -1,0 +1,1 @@
+GitHub Actions の Windows 向け workflow で拡張ライブラリ psych のための libyaml も vcpkg でインストールしておくようにしています。
