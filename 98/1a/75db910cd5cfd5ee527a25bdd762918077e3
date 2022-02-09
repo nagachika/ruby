@@ -1,0 +1,1 @@
+rubygems の Gem::Version の rdoc 用コメントと class 文のあいだに require_relative が入っていたためドキュメンテーションができていなかったので require_relative をコメントの前に移動しています。
