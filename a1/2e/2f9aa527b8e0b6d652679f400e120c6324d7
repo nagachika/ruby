@@ -1,0 +1,1 @@
+Kernel#readlines の rdoc 用コメントで閉じかっこが重複していたのを修正しています。
