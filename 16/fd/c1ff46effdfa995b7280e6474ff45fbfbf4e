@@ -1,0 +1,1 @@
+rdoc 用コメント内の doc/syntax/literals_rdoc.html へのリンクに rdoc-ref: が抜けていてリンク切れになっていたのを修正しています。
