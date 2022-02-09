@@ -1,0 +1,1 @@
+rdoc 用コメント内から doc/case_mapping.rdoc へのリンクに rdoc-ref: が抜けていたためリンク切れになっていたのを修正しています。
