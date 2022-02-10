@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の C のソースコードの解析で rb_struct_define_under() や rb_struct_define_without_accessor_under() などの関数もクラスの検出対象にするように機能拡張しています。
