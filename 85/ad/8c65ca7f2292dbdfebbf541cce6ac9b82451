@@ -1,0 +1,1 @@
+Array の rdoc 用コメント内で Array が Array クラスへのクロスリファレンスになるのを抑制するためのバックスラッシュを追加しています。なるほど、なかなか rdoc 用コメントを書くのも大変だなぁ。 https://github.com/ruby/ruby/pull/5532
