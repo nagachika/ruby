@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.reachable_objects_from で内部的に利用する Hash オブジェクトが ObjectSpace.each_object から見えるオブジェクトになってしまっていたので rb_obj_hide() で klass を 0 にして見えない内部的オブジェクトにしています。 https://github.com/ruby/ruby/pull/5542
