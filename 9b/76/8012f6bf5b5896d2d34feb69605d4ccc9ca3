@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr で freeze した IPAddr オブジェクトに to_range メソッドを呼ぶと clone メソッドを使っていたため FrozenError が発生していたのを new メソッドで新規にインスタンスを作るようにして修正しています。
