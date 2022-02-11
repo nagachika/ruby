@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラとコンパイルオプションを試す workflow に clang 15 でビルドする設定を追加しています。
