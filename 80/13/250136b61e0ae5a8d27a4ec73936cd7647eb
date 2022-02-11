@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の lib/rdoc/markup/attribute_manager.rb の冗長な分岐をしている if 文を単純な論理式に置き換えるリファクタリング。
