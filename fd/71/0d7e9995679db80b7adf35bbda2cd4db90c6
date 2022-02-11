@@ -1,0 +1,1 @@
+Range#include? で beginless range の時に終端を含まない range (つまり ...10 のようなの)に引数に終端と同じ値を渡した時に true を返していたのを false になるよう修正しています。 [ruby-core:107521] [Bug #18577]
