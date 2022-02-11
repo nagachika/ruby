@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr のバージョンを lib/ipaddr.rb 内の定数 IPAddr::VERSION として定義してこれを gemspec ファイルから読んで正規表現で parse するようにしています。
