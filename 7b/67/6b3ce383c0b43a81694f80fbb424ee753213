@@ -1,0 +1,1 @@
+bundler で Gemfile などに複数の source の指定があった時の Gemfile.lock の生成時にバージョンの制限がうまく効かなくなる不具合を修正しているようです。
