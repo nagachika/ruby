@@ -1,0 +1,1 @@
+bundler の man ページの更新。ほとんど生成日時が更新されているだけですが bundle config の man で with オプションの説明が修正されています。
