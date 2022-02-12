@@ -1,0 +1,1 @@
+ObjectSpace の開放時の処理で rb_objspace_t::mark_stack の解放処理を追加しています。まあ現状ではインタプリタのプロセスと VM/ObjectSpace が 1:1 なので実際のメモリリークの弊害はないと思いますが。
