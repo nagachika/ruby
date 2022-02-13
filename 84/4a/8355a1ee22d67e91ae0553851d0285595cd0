@@ -1,0 +1,1 @@
+標準添付ライブラリの RDoc::Options のテストで RDoc.load_yaml を呼び出して psych などの YAML の処理に必要なライブラリをロードしておくようにしています。
