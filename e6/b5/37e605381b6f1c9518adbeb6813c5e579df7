@@ -1,0 +1,1 @@
+parse.y の operation2 のルールで operation というノードを再利用するようにリファクタリングしています。
