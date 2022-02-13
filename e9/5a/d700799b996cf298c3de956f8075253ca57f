@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の rd 記法用 parser は racc で生成されているようで、再生成しています。racc のバージョンの記述が変わっただけですけど。また  lib/rdoc/markdown/literals.rb も current_line の実装に Array#bsearch を利用するように更新されています。
