@@ -1,0 +1,1 @@
+GitHub Actions の Windows 向け workflow で OpenSSL を Choco-Install のかわりに vcpkg でインストールするように変更しています。
