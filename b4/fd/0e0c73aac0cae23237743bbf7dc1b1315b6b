@@ -1,0 +1,1 @@
+Thread のテスト test_signal_at_join が FreeBSD 13 ではハングアップしてしまうとのことで実行除外するように test/excludes/TestThread.rb に追記しています。
