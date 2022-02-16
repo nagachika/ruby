@@ -1,0 +1,1 @@
+Array#product の実装で配列のバッファ共有のフラグをチェックするのに FL_USER5 という struct RBasic::flags のビットフラグの位置を表わす一般的なマクロ名のほうを使ってたのを RARRAY_SHARED_ROOT_FLAG という意味のあるマクロを使うように修正しています。実際の値は同じですね。
