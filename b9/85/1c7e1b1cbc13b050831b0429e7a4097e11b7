@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom の gen_random_urandom で Random.urandom でエントロピーが枯渇していた時に nil が返されることを期待した書きかたになっていましたが、r59858 で RuntimeError 例外を発生させるように変更していたので rescue して fallback するようにしています。 [ruby-dev:50231] [Bug #13885]
