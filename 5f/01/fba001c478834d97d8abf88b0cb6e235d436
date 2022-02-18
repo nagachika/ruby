@@ -1,0 +1,1 @@
+yjit_codegen.c の gen_send_iseq() で引数の数の上限チェックで 1つ上限が多く許容されてしまっていたのを修正しています。 Coverity Scan で検出されたとのこと。久しぶりですね。
