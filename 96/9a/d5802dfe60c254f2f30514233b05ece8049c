@@ -1,0 +1,1 @@
+load.c で loaded features の管理に Array オブジェクトを利用していたのをかわりに darray.h の rb_darray() による型を利用するようにしています。darray は可変長の C の配列にヘッダをつけたものをマクロの集合で管理するというものみたいです。
