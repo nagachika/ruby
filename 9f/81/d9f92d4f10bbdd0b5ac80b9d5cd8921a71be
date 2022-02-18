@@ -1,0 +1,1 @@
+リリースバージョンの  ruby -v などで表示される patchlevel の定数マクロ RUBY_PATCHLEVEL_STR を空文字列にしています。次のリリースからパッチレベルは表示されなくなるようです。 [ruby-core:107278] [Feature #18513]
