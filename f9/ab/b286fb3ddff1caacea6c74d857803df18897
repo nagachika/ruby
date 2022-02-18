@@ -1,0 +1,1 @@
+yjit_iface.c のマクロ CODE_PAGE_SIZE の定義にかっこを追加しています。
