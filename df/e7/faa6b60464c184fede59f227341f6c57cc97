@@ -1,0 +1,1 @@
+test/excludes/TestThread.rb で除外するテストメソッド名を文字列で指定してたのを Symbol に変更しています。
