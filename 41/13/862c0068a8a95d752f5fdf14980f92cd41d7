@@ -1,0 +1,1 @@
+configure でビルドに利用するコマンド群を AC_CHECK_TOOL() で存在チェックしていたのを RUBY_CHECK_PROG_FOR_CC() というマクロを定義してこれを使うように変更しています。 cross compile 時に CC に prefix がついていてうまく検索できず警告が出ているのを修正しているようです。 [ruby-core:107223] [Bug #18504]
