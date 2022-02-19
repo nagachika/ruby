@@ -1,0 +1,1 @@
+dln.c で古い macOS では dlclose(3) に不具合があって異常終了してしまうので呼ばないようにしているのを MAC_OS_X_VERSION_MIN_REQUIRED マクロの preprocessor のチェックで分岐してビルド時に埋め込んでいたのを sysctl() を使ってカーネルのバージョンを取得して動的に判定するように変更しています。
