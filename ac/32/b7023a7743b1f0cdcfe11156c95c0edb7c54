@@ -1,0 +1,1 @@
+dd3501bb9580951623a9aa7c2f86f7c98f9d6b9c の Set の autoload 設定と Enumerable#to_set の追加について NEWS に追記しています。 [ruby-core:98964] [Feature #16989]
