@@ -1,0 +1,1 @@
+prelude.rb に Enumerable#to_set メソッドを追加してデフォトで任意の Enumerable なオブジェクトを Set に変換できるようにしています。このため Set への autoload が設定されています。 [ruby-core:98964] [Feature #16989]
