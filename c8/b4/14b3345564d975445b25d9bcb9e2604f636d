@@ -1,0 +1,1 @@
+bootstraptest/runner.rb の RUBY_PLATFORM を出力するためのコードで ruby -v の出力を利用しているところを結果を変数に入れて使いまわすようにして複数回起動しなくてすむようにしています。
