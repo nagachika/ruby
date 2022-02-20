@@ -1,0 +1,1 @@
+dln.c の Windows 環境向けに getenv() を prototype 宣言していたのが不要になってたとのことで削除しています。
