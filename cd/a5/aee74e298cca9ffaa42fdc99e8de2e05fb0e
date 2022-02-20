@@ -1,0 +1,1 @@
+MatchData#offset, #begin, #end などの実装で整数を INT2FIX() で変換していたのを LONG2NUM() を利用するように修正しています。
