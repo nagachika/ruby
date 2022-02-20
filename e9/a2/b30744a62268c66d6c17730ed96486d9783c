@@ -1,0 +1,1 @@
+Kernel#system やバッククオートメソッドや IO のメソッド群の rdoc 用コメントの強化やクロスリファレンスの追加。 https://github.com/ruby/ruby/pull/5537
