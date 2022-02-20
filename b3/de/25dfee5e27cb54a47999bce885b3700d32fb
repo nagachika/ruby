@@ -1,0 +1,1 @@
+process.c で内部で利用するメソッド名などの ID を Init_process() で rb_intern_const() で取得する処理をマクロ化するリファクタリング。
