@@ -1,0 +1,1 @@
+parse.y の keyword pattern 用のノードの位置情報を間違えていたのを修正しています。
