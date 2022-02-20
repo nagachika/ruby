@@ -1,0 +1,1 @@
+pattern match の "=>" による find pattern は experimental warning を出していたのを止めて正式採用ということにしています。 [ruby-core:107574] [Feature #18585]
