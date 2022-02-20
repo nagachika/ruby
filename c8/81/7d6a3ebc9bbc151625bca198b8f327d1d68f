@@ -1,0 +1,1 @@
+String#byteindex, String#byterindex と MatchData#byteoffset というメソッドを新規追加して文字数ベースでなく byte ベースでのオフセットで部分文字列やマッチ位置を取得できるようにしています。 https://github.com/ruby/ruby/pull/5518 [ruby-core:78998] [Feature #13110]
