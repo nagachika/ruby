@@ -1,0 +1,1 @@
+Process.clock_gettime や Process.clock_getres の実装でクロックの種類を表す引数の型 clockid_t が C の数値の型でない時の対応のため ruby レベルでの定数を Symbol にして対応するようにしているようです。
