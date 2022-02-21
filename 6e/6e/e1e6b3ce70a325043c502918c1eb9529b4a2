@@ -1,0 +1,1 @@
+class.c で  T_CLASS/T_ICLASS/T_MODULE 型オブジェクトの struct RBasic::klass を取得するのに METACLASS_OF() というマクロが定義されているので直接 klass を参照しているところをこれに置き換えるリファクタリング。
