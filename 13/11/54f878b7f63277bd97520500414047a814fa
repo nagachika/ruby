@@ -1,0 +1,1 @@
+configure で UNREACHABLE マクロ builtin 関数が使える時に __builtin_unreachable() で定義していたのを HAVE___BUILTIN_UNREACHABLE マクロ(真偽値を持つマクロ)を定義するに留めるようにしています。
