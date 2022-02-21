@@ -1,0 +1,1 @@
+configure で builtin 関数 __assume() が利用可能かチェックして HAVE___ASSUME を定義するようにして include/ruby/internal/assume.h でコンパイラの種類やバージョンで分岐していたのをこのチェック結果を使うようにリファクタリングしています。
