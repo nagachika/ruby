@@ -1,0 +1,1 @@
+common.mk の RDOC_GEN_OPTS に --title と --main というオプションを追加して .rdoc_options にも対応するオプションの内容を設定しておくようにしています。
