@@ -1,0 +1,1 @@
+GitHub Actions の Windows 向け workflow でコメントアウトされていた VC 2022 でのビルドを復活させています。
