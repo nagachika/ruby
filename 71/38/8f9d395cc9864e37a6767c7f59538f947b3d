@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境向け workflow の matrix のところで利用する vcbars64.bat のファイルパスの設定まで書いてたのを実行するところで両方試してみるという作りにしています。
