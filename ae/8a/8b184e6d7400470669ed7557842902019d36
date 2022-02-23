@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で require "cgi" していたのをやめて require "cgi/util" と必要な部分だけ load するようにしています。CGI.escape や CGI.escapeHTML などのメソッドを使っているだけだったので cgi 全体を load する必要はないため。
