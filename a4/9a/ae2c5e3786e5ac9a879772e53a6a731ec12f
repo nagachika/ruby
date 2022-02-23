@@ -1,0 +1,1 @@
+rubygems のテストで後始末時に @gemhome のディレクトリが削除できないということがおきてたらしいので ensure 節で FileUtils.chmod で書き込み権限を追加するようにしています。
