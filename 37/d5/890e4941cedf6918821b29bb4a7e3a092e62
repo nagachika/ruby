@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の inputrc の設定で keymap に emacs-ctlx と emacs-meta という設定がされた時に key binding の keystroke にそれぞれ Ctrl-x や \e を前に追加するようにしています。
