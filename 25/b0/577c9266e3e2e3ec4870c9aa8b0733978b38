@@ -1,0 +1,1 @@
+error.c でキーワード引数処理のために "highlight" という識別子の ID を static 変数にセットする処理があちこちにできたのでファイルグローバルな static 変数を導入して Init_Exception() で初期化しておくようにしています。
