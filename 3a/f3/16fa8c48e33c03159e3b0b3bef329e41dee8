@@ -1,0 +1,1 @@
+eval_error.c の print_errinfo() からエラーメッセージをハイライト処理する部分を rb_decorate_message() という関数に切り出して show_cause() や rb_error_write() から呼ぶようにしています。逆に print_errinfo() からは呼ばれてないようなのでそっちはハイライトしなくなるみたいですね。
