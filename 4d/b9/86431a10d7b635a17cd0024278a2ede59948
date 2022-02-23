@@ -1,0 +1,1 @@
+Exception#full_message から Exception#detailed_message を呼ぶ時にキーワード引数 highlight の指定を伝播させるようにしています。
