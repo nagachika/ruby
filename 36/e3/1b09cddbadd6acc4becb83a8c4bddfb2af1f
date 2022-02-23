@@ -1,0 +1,1 @@
+error.c の exc_full_message() からキーワード引数に関する処理を check_highlight_keyword() と check_order_keyword() という関数に切り出すリファクタリング。
