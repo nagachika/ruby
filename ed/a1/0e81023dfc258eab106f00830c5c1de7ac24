@@ -1,0 +1,1 @@
+3af316fa8c48e33c03159e3b0b3bef329e41dee8 で切り出した rb_decorate_message() で余分な改行の出力があったので削除しています。
