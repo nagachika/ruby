@@ -1,0 +1,1 @@
+36e31b09cddbadd6acc4becb83a8c4bddfb2af1f でリファクタリングで切り出した check_highlight_keyword() に引数を追加して出力が tty かどうかのチェックをせずに常にハイライトオフにする指定もできるようにして、Exception#detailed_message のデフォルトをハイライトなしにするようにしています。
