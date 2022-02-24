@@ -1,0 +1,1 @@
+vm_backtrace.c の rb_ec_partial_backtrace_object() で未初期化変数の警告抑制のための初期化を追加しています。
