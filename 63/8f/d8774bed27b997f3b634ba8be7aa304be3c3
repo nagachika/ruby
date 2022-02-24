@@ -1,0 +1,1 @@
+3df16924b45adfd88c20ef5fe25b10a1acb82dd7 の続きで拡張ライブラリ enc.so のソースコードのテンプレート enc/encinit.c.erb や enc/trans/transdb.c およびテスト用の拡張ライブラリ ext/-test-/load/dot.dot/dot.dot.c で #include "ruby.h" を追加しています。 ruby_abi_version() のシンボルを取り込むためだと思います。 [ruby-core:105618] [Feature #18249]
