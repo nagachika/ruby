@@ -1,0 +1,1 @@
+string.c の String#byteslice の実装で変数名が内容と一致していなかったところを修正しています。
