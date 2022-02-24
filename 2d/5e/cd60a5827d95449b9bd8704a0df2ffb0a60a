@@ -1,0 +1,1 @@
+3df16924b45adfd88c20ef5fe25b10a1acb82dd7 および 638fd8774bed27b997f3b634ba8be7aa304be3c3 の続きで common.mk および拡張ライブラリ群の depend を更新して主に include/ruby/internal/abi.h への依存関係を追加しています。 [ruby-core:105618] [Feature #18249]
