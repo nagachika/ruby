@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.memsize_of_all の実装で struct RBasic::klass が 0クリアされている内部的オブジェクトで rb_obj_is_kind_of() を呼ばないようにしています。そして rb_obj_is_kind_of() では RUBY_ASSERT() で CLASS_OF() が NULL だったら異常終了させるようにチェックを追加しています。
