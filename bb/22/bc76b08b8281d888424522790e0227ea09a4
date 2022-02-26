@@ -1,0 +1,1 @@
+拡張ライブラリ date の Data._parse などに Symbol を渡しても文字列化してから parse するという機能があったので deprecated warning を出すようにしています。知らなかった。というか必要性あるのかな。
