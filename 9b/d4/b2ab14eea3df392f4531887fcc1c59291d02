@@ -1,0 +1,1 @@
+version.h から include/ruby/internal/abi.h を #include して RUBY_LIB_VERSION の末尾に RUBY_ABI_VERSION も含めるようにしています。そのかわり tool/mkconfig.rb で RbConfig に ruby_abi_version を追加している処理を削っています。しかしこれ非互換にならないのかな。
