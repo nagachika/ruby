@@ -1,0 +1,1 @@
+doc/encoding.rdoc に Symbol や Regexp オブジェクトの Encoding についてや Locale Encoding, Script Encoding などの概念についての説明を追加しています。 https://github.com/ruby/ruby/pull/5578
