@@ -1,0 +1,1 @@
+Windows 版でも 9bd4b2ab14eea3df392f4531887fcc1c59291d02 と同様に RUBY_ABI_VERSION を RUBY_VERSION_NAME に追加するようにしています。
