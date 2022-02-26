@@ -1,0 +1,1 @@
+拡張ライブラリ date の bb22bc76b08b8281d888424522790e0227ea09a4 で Symbol を parse した時の警告をチェックするテストで assert_deprecated_warn という assertion を使うようにしています。 deprecated warning はデフォルトでは表示されないからですね。
