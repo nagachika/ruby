@@ -1,0 +1,1 @@
+doc/yjit/yjit.md のリンクが github.com/Shopify/yjit へのリンクになってたので文書内のリンクに修正しています。 https://github.com/ruby/ruby/pull/5596
