@@ -1,0 +1,1 @@
+String#encode の rdoc 用コメントを置くために doc/transcode.rb というダミーの? ruby スクリプトに切り出して doc/.document で拡張子 .rb のファイルもドキュメンテーション対象に追加しています。コミットログをみるに US-ASCII 以外の文字を含んでいると古いコンパイラでエラーになるので transcode.c に書くことができないためとのこと。
