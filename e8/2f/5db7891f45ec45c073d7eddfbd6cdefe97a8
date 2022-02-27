@@ -1,0 +1,1 @@
+rubyspec に拡張ライブラリ date の Date.iso8601 に Symbol を渡すテストがあったので削っています。
