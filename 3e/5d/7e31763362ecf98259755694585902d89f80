@@ -1,0 +1,1 @@
+62c15833531d85134783ba5e1d6cef8b7a4488da と同様に String#initialize の rdoc 用コメントを string.c から doc/string.rb に切り出してダミーの builtin メソッド実装(にみえるもの)を置いてこちらからドキュメント生成させるようにしています。ドキュメント内に非 ASCII 文字が含まれるため。
