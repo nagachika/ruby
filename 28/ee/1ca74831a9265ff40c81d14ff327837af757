@@ -1,0 +1,1 @@
+doc/encoding.rdoc に IO や File、ARGV などについて Streaming と呼んで external encoding と internal encoding について追記しています。Streaming Encoding というのは新しい造語のような気がしますね。 https://github.com/ruby/ruby/pull/5603
