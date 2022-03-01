@@ -1,0 +1,1 @@
+st.c の DO_PTR_EQUAL_CHECK() マクロ定義のコメントの typo 修正。
