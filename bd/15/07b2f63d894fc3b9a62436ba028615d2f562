@@ -1,0 +1,1 @@
+rubyspec の $LOADED_FEATURES の拡張子についてのテストで configure 時に --with-static-linked-ext が指定されてビルドされた時は拡張ライブラリが静的リンクされるため .so の拡張子のライブラリがロードできないので skip するようにしています。
