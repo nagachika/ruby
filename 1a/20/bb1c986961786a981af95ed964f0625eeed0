@@ -1,0 +1,1 @@
+rb_define_variable() の Doxygen 用のコメントのサンプルコードの関数名が間違っていたのを修正。
