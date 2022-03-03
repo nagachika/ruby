@@ -1,0 +1,1 @@
+compile.c で LINK_ELEMENT::type をチェックするのに直接メンバーを参照してたのを IS_LABEL() や IS_INSN() といったマクロを利用するようにリファクタリングしています。
