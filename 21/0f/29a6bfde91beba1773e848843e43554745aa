@@ -1,0 +1,1 @@
+33dadb2c8aeaaa03f90e4b0f2613031633aa8751 の再修正で abi_check_enabled_p() の定義の条件から _WIN32 の定義は抜いています。Windows ではサポートされないとのこと。
