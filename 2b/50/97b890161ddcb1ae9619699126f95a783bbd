@@ -1,0 +1,1 @@
+rb_f_notimplement() の定義の本体を rb_f_notimplement_internal() という関数に切り出してこれを呼び出すだけという関数として定義するようにしています。 rb_f_notimplement() には通常の可変長引数を受け取るメソッド定義の関数にさらに marker という引数が追加された signature になっててそのまま rb_definemethod() などに渡すと型の不一致が起きるので、marker を省いた rb_f_notimplement_internal() を定義してこれを rb_method_definition_set() で利用するようにするためのようです。
