@@ -1,0 +1,1 @@
+include/ruby/internal/abi.h に C++ のソースコードから #inclue した時のための extern "C" のブロックの追加をしています。
