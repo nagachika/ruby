@@ -1,0 +1,1 @@
+dln.c の abi_check_enabled_p() の定義の条件に USE_DLN_DLOPEN が定義されてるかまたは Windows 環境(_WIN32 が定義されている)という条件を追加しています。 WASI 向けビルドで未使用関数の定義の警告を抑制するためとのこと。
