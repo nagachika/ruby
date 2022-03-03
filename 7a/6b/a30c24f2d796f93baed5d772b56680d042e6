@@ -1,0 +1,1 @@
+doc/encoding.rdoc に Stream Encoding (IO などの default_external, default_internal のこと)のサンプルのセクションを追加しています。 https://github.com/ruby/ruby/pull/5610
