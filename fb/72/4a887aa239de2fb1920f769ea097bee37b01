@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で空の配列の時に配列の要素が struct RVALUE 内に embed されているかどうかのフラグの出力も抑制されていたので常に表示するように変更しています。
