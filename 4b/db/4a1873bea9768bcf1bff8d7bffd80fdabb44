@@ -1,0 +1,1 @@
+IO の rdoc 用コメントのサンプルコードに全体的に IO#close でちゃんと閉じておくように追記しています。後始末は大切ですね。 https://github.com/ruby/ruby/pull/5615
