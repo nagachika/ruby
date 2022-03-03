@@ -1,0 +1,1 @@
+test/excludes/TestGem.rb を追加して test_looks_for_gemdeps_files_automatically_from_binstubs というテストを一時的に除外するようにしています。
