@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の lib/rdoc/store.rb でキャッシュファイルから Marshal.load でオブジェクトをロードする時に IO#read で全体を読み込んでから渡していたのですが、Marshal.load は IO を受け取ることもできるので IO のまま渡して逐次読み込みさせるようにしています。
