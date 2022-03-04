@@ -1,0 +1,1 @@
+doc/encoding.rdoc の Encoding のドキュメントに IO などでの自動的な Encoding 変換についての説明を追記しているようです。 https://github.com/ruby/ruby/pull/5617
