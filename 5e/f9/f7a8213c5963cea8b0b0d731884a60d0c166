@@ -1,0 +1,1 @@
+非 ASCII 文字を含む rdoc 用コメントのために .c のソースファイルから doc/string.rb や doc/transcode.rb に切り出したダミーの builtin 実装のファイルの拡張子を .rb から .rdoc に変更しています。そのかわり先頭にコメントで :markup: ruby を追加しているので、これで rdoc がこのファイルを .rb ファイルの体裁として処理してくれるということでしょう。
