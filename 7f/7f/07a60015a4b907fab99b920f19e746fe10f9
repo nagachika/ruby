@@ -1,0 +1,1 @@
+string.c の String#initialize の実装である rb_str_init() に rdoc のドキュメント化を抑制するために :nodoc: タグのコメントを追加しています。
