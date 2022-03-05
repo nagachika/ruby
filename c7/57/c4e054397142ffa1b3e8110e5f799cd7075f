@@ -1,0 +1,1 @@
+rubyspec のテストで RbConfig::CONFIG['sitelibdir'] を使ったテストを skip するようにしています。
