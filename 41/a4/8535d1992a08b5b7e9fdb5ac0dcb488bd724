@@ -1,0 +1,1 @@
+.travis.yml の apt-get でインストールするライブラリから libgdbm-dev を削除しています。
