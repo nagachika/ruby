@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#new_ostruct_member! メソッド内で class メソッドを呼んでいるところを名前の衝突回避のために alias している class! メソッドを使って、attribute に class という名前が使われている時の不具合を修正しています。
