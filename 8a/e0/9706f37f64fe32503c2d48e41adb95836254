@@ -1,0 +1,1 @@
+bundler の bundle gem で自動生成する README.md のテンプレートのインストール方法のセクションの記述を Gemfile を編集する方法ではなく bundle add を使う方法に変更しています。
