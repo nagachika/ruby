@@ -1,0 +1,1 @@
+doc/documentation_guide.rdoc のメソッド一覧のマークアップの方法についての記述を変更しています。 labeled list でなく bullet list を使うようにとのこと。 https://github.com/ruby/ruby/pull/5618
