@@ -1,0 +1,1 @@
+bundler の bundle update と bundle outdated サブコマンドの --update-strict というオプションを --strict に改名して(元々別名ではあったみたい)います。 --update-strict も別名としてしばらく残すみたいです。
