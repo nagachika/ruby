@@ -1,0 +1,1 @@
+String#tr と String#tr! の rdoc 用コメントの追記とサンプルの変更。 https://github.com/ruby/ruby/pull/5626
