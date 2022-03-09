@@ -1,0 +1,1 @@
+Process.clock_gettime の rdoc 用コメントの typo 修正。 https://github.com/ruby/ruby/pull/5625 [ruby-core:107782] [Misc #18610]
