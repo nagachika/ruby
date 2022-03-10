@@ -1,0 +1,1 @@
+doc/character_selector.rdoc というファイルを追加して String のいくつかのメソッドの引数で文字を指定するための文字列の引数について character selector という語彙を導入して(たぶん新しくつけた名前?)その仕様について一括で解説しています。 https://github.com/ruby/ruby/pull/5632
