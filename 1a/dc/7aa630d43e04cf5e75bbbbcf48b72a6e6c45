@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb のコマンドライン引数に sync_default_gems.rb all release というサブサブコマンド? を追加して master ブランチでなくタグ辞書順で最後のものを利用するというモードを追加しています。
