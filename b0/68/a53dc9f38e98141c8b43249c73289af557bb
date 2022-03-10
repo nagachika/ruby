@@ -1,0 +1,1 @@
+String#byterindex の rdoc 用コメントの call-seq の offset のデフォルト値が間違って length の結果になってたので bytesize に修正しています。
