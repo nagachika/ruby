@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の all release サブコマンドで master ブランチのかわりに最新のタグを利用する機能でタグ名に  pre や beta という文字列がついているものは使わないようにしています。
