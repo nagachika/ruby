@@ -1,0 +1,1 @@
+String#tr, #tr! や String#tr_s, #tr_s! の rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/5633
