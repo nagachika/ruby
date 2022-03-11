@@ -1,0 +1,1 @@
+vm_backtrace.c の backtrace_each() および rb_ec_partial_backtrace_object() の else if の冗長な条件を削除してただの else 節にしています。
