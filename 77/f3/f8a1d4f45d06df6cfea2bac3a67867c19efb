@@ -1,0 +1,1 @@
+template/exts.mk.tmpl で生成する exts.mk の libencs のアクションで起動する sub make に MINIRUBY 変数を伝播させるようにしています。ソースディレクトリの外で configure の --with-static-linked-ext オプションつきのビルドする時のためだそうです。
