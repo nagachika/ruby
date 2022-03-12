@@ -1,0 +1,1 @@
+正規表現のマッチの処理中に SIGINT などでの割り込みが効かないという不具合の修正のため regexec.c の match_at() のループ内に CHECK_INTERRUPT_IN_MATCH_AT() の呼び出しを追加しています。 [ruby-core:83750] [Bug #14103]
