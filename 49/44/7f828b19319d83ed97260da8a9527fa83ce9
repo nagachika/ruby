@@ -1,0 +1,1 @@
+regenc.h から #include "ruby.h" しているところを #ifdef RUBY の preprocessor 分岐内に移動しています。
