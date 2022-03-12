@@ -1,0 +1,1 @@
+71c746379d5872e250d90ae45c585760afaf9516 の rb_alias() でメソッドの alias を作った時に alias に対する alias をショートカットする変更を再修正して、visibility については直接参照している alias のものを利用するようにしています。 [ruby-core:107722] [Bug #18600]
