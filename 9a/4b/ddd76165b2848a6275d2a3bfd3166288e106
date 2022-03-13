@@ -1,0 +1,1 @@
+array.c の rb_ary_unshare_safe() にその呼び元で常に行なわれていた heap のバッファを開放する処理も移動して rb_ary_reset() という関数名に改名しています。
