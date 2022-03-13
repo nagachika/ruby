@@ -1,0 +1,1 @@
+昨日の 1b15756d24c11ed6bfddb5ae53402a071a20ea97 での rb_obj_is_kind_of() で T_ICLASS 向けのショートカットを追加する変更のリトライ。 RCLASS_INCLUDER() の継承関係を class_search_class_ancestor() を使ってチェックするショートカットを RCLASS_INCLUDER() の返すのが T_CLASS 型オブジェクトであるという条件を追加しています。
