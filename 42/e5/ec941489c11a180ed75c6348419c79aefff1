@@ -1,0 +1,1 @@
+Array#replace や Array#initialize_copy の実装である rb_ary_replace() で配列の要素数が struct RVALUE に埋め込み可能かどうかの分岐内で重複していた処理を分岐の前に移動するリファクタリング。
