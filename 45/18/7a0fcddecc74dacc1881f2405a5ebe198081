@@ -1,0 +1,1 @@
+rubyspec の RbConfig::CONFIG['UNICODE_VERSION'] と RbConfig::CONFIG['UNICODE_EMOJI_VERSION'] のチェックの 3.1 向けの分岐を一時的にコメントアウトしています。はて、なんでだろう。 [ruby-core:104587] [Feature #18037]
