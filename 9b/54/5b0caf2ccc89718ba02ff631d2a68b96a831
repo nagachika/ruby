@@ -1,0 +1,1 @@
+rubyspec の RbConfig::CONFIG['UNICODE_VERSION'] および RbConfig::CONFIG['UNICODE_EMOJI_VERSION'] のチェックに 3.2 向けの spec を追加しています。 [ruby-core:104587] [Feature #18037]
