@@ -1,0 +1,1 @@
+String#upcase のテストと正規表現のテストに Unicode 14.0.0 向けのテストを追加しています。 [ruby-core:104587] [Feature #18037]
