@@ -1,0 +1,1 @@
+45e0711f29f9ce65cd34ad14e3af1546ccc7252e で common.mk の変数 UNICODE_BETA の値を YES に変更していたのを NO に戻しています。 [ruby-core:104587] [Feature #18037]
