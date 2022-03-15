@@ -1,0 +1,1 @@
+標準添付ライブラリ weakref の WeakRef#initialize (WeakRef.new) の rdoc 用コメントにあった引数が即値など変更不可能なオブジェクトだった時は ArgumentError が発生するという記述は現在の挙動に合ってないので削除しています。 [Feature #16035] のための変更 a4a19b114ba94b8f28d5a91aee5d595a516006d5 からエラーにならなくなったとのことなので 2.7 からですね。
