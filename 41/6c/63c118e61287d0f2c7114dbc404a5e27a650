@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::NormalModule, RDoc::NormalClass の pretty_print メソッドの余分な? 空白除去と RDoc::SingleClass#pretty_print の再定義追加。
