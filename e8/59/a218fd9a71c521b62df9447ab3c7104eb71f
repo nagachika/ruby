@@ -1,0 +1,1 @@
+lib/unicode_normalize/normalize.rb の UnicodeNormalize モジュール全体を rdoc によるドキュメント抑制するため :nodoc: のタグコメントを追加しています。
