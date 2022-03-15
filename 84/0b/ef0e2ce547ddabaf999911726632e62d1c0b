@@ -1,0 +1,1 @@
+libexec/bundle で利用している rubygems が古い時の警告メッセージの余分な閉じかっこの削除。
