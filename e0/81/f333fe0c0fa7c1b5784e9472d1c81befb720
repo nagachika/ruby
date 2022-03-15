@@ -1,0 +1,1 @@
+14cf95cff35612c6238790ad2f605530f69e9a44 で導入された Fiber pool という仕組みを有効にして(マクロ RB_EXPERIMENTAL_FIBER_POOL を定義して)ビルドした時のトップレベルに Pool というクラスが定義されてたのを Fiber::Pool に移動しています。また Fiber を継承して定義してたのを Object を継承するように修正しています。
