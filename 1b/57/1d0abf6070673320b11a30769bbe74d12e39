@@ -1,0 +1,1 @@
+45187a0fcddecc74dacc1881f2405a5ebe198081 で一時的にコメントアウトされていた rubyspec の  RbConfig::CONFIG['UNICODE_VERSION'] と RbConfig::CONFIG['UNICODE_EMOJI_VERSION'] のチェックを ruby version の guard を修正して復活させています。
