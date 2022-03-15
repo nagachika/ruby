@@ -1,0 +1,1 @@
+rubyspec の 3.2 向けの RbConfig::CONFIG['UNICODE_VERSION'] および RbConfig::CONFIG['UNICODE_EMOJI_VERSION'] をチェックする spec の名前を "3.2 or later" とそれ以降のバージョンも対象になることがわかるように改名しています。
