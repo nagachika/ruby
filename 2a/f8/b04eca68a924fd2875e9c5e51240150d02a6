@@ -1,0 +1,1 @@
+cont.c で VM の設定の Fiber 用のマシンスタックサイズのパラメーターを Integer に変換するのに INT2NUM() を使ってたのを型にあわせて SIZET2NUM() に修正しています。
