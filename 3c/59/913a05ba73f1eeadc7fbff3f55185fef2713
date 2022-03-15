@@ -1,0 +1,1 @@
+test/ruby/enc/test_emoji_breaks.rb 内でダウンロードしてる Unicode 用のデータファイル自体のチェックをするテストがこけていたのでチェック方法を修正しています。
