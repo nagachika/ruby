@@ -1,0 +1,1 @@
+mspec でプラットフォームをチェックするユーティリティメソッドとして WASI 環境はチェックする PlatformGuard.wasi? を追加して子プロセスを起動する ruby_exe で WASI 環境では skip するようにしています。
