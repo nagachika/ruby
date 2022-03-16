@@ -1,0 +1,1 @@
+array.c の rb_ary_decrement_share() で引数の shared_root が 0 でないかチェックする分岐がありましたが、呼び元で 0 (Qfalse) を渡す可能性はないとのことで分岐を削除しています。
