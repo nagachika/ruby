@@ -1,0 +1,1 @@
+wasm/README.md のビルド手順に configure 前に config.guess, config.sub のダウンロードと autogen.sh の実行のステップの記述を追加しています。
