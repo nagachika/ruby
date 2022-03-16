@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/compatibility.rb での rdoc のドキュメント化を抑制するための :stopdoc: タグコメントを Gem の module 文のブロック内に移動しています。
