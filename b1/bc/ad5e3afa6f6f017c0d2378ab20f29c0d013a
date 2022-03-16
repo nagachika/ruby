@@ -1,0 +1,1 @@
+rubyspec の Dir.home のテストを WASI 環境で skip するようにしています。
