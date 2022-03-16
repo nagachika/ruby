@@ -1,0 +1,1 @@
+cont.c の FIBER_STACK_FLAGS マクロ定義のための環境による preprocessor 分岐のところに記述されたコメントで FreeBSD のバグ管理サイトへのリンクを修正しています。
