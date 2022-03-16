@@ -1,0 +1,1 @@
+bundler からダウンロードのために HTTPS アクセスする時の user-agent の文字列に各種 CI サービス上での実行であることを示す文字列を埋め込むために、実行環境を検出する環境変数のリストに GitHub Actions 用の GITHUB_ACTIONS を追加しています。
