@@ -1,0 +1,1 @@
+rubygems の rdoc での Gem::Package クラスのドキュメント化のため require_relative の呼び出しをコメントと class 文の間からコメントの上に移動しています。
