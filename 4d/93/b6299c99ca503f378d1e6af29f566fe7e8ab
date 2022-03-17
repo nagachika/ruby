@@ -1,0 +1,1 @@
+string.c の crypt(3) を並列に呼び出さないようにするための crypt_mutex という変数で rb_nativethread_lock_t の初期化のために rb_atomic_t による CAS での排他を行なっていたのをやめて PTHREAD_MUTEX_INITIALIZER を代入する方法で初期化するようにしています。 crypt(3) が利用可能な環境ではこの方法で良いとのこと。
