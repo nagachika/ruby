@@ -1,0 +1,1 @@
+Windows 版で標準入力が端末かどうかチェックする時に利用する API を PeekConsoleInput() から PeekConsoleInputW()、ReadConsoleInput() から ReadConsoleInputW() と W つきの API を利用するように変更しています。新しいバージョンの Windows 10 でマルチバイト文字の一部を読んでしまった時に後続の読み込みが化ける現象が起きてたみたいです。 [ruby-dev:51165] [Bug #18588]
