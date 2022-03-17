@@ -1,0 +1,1 @@
+common.mk の Unicode 関係のデータファイルの更新をするための tool/enc-unicode.rb への引数に UNICODE_AUXILIARY_FILES と UNICODE_UCD_EMOJI_FILES の変数の内容も追加しています。
