@@ -1,0 +1,1 @@
+include/ruby/internal/stdbool.h で _Bool を typedef するのを既に _Bool が定義済みだったら避けるようにしています。
