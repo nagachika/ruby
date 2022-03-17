@@ -1,0 +1,1 @@
+doc/documentation_guide.rdoc 内のリンクに docs.ruby-lang.org への絶対 URL を書いていたのを rdoc-ref による相対リンクに変更しています。
