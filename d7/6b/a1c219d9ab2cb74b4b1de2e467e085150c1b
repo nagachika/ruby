@@ -1,0 +1,1 @@
+Class/Module の継承関係をチェックする rb_class_inherited_p() で引数が両方とも T_CLASS 型だった時に b13a7c8e36e9b00b5c6668846f31be4e25523111 で導入した superclasses という構造体メンバーに保持した配列を使った高速な判定を利用するように分岐を追加しています。
