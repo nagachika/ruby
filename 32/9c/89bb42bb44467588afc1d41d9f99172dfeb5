@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の $warnflags 内の -Werror を -W に置換して警告をエラーにしないようにしていたところで implicit-function-declaration は -Werror のままにしておくようにしています。必要な関数がないバージョンの ruby などでビルドした時に実行時まで(require 時)までエラーがわからないのでビルド時にエラーになるようにするためですね。 [ruby-core:107794] [Feature #18615]
