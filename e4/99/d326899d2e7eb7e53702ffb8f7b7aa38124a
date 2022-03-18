@@ -1,0 +1,1 @@
+rubyspec の $LOADED_FEATURES と symbolic link の関係をチェックするテストを Windows で skip していたのを WASI 環境でも skip するようにしています。
