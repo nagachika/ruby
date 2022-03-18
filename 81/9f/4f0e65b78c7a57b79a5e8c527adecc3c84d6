@@ -1,0 +1,1 @@
+Module#prepend_features の実装で子クラスを辿るための RCLASS_SUBCLASSES() の linked list の処理でダミーの head ノードをスキップするために余計な条件があったのを削除しています。
