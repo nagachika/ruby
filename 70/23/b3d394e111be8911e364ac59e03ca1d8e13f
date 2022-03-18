@@ -1,0 +1,1 @@
+rubyspec の Kernel#open で pipe を使ってコマンド実行するテストを Windows で skip していたのを WASI 環境でも skip するようにしています。
