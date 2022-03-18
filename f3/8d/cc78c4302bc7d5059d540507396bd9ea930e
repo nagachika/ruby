@@ -1,0 +1,1 @@
+819f4f0e65b78c7a57b79a5e8c527adecc3c84d6 の rb_prepend_module() の修正と同じく rb_include_module() でも RCLASS_SUBCLASSES() のダミー head エントリをスキップするための条件修正。
