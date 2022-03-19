@@ -1,0 +1,1 @@
+同じく fiber pool を有効にした時の Fiber::Pool のインスンタンス生成時に TypedData_Wrap_Struct() でなく TypedData_Make_Struct() を利用するようにして潜在的なメモリリークを防ぐようにしています。
