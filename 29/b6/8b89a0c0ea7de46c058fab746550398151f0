@@ -1,0 +1,1 @@
+rb_class_superclass() でも Class 同士の継承関係チェックのために導入した rb_classext_t::superclasses が利用できるのでこれで高速化するようにしています。
