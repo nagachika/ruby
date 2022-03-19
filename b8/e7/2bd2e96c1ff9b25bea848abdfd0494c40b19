@@ -1,0 +1,1 @@
+29b68b89a0c0ea7de46c058fab746550398151f0 の rb_class_superclass() で rb_classext_t::superclasses を利用する実装を revert しています。
