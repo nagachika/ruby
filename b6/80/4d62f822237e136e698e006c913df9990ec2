@@ -1,0 +1,1 @@
+Proc#parameters が receiver が lambda? が真の時にデフォルト値のない引数が必須引数として返されるようにしています。また Proc#parameters にキーワード引数 lambda を追加して、その真偽値を receiver の lambda? だとした時の引数の解釈をして返されるようにしています。キーワード引数による指定はどういう時に使うんだろう? [ruby-core:90135] [Feature #15357]
