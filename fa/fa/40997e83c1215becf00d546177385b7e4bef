@@ -1,0 +1,1 @@
+test/ruby/test_arity.rb のユーティリティメソッド err_mess を assert_arity と改名して呼び元での assert_equal の呼び出しまでメソッド内に取り込むリファクタリング。
