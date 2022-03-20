@@ -1,0 +1,1 @@
+Lazy Sweep の不具合(?)で Module を include した時に作られる T_ICLASS 型のオブジェクトが指す klass が回収済みオブジェクトになっている可能性があるため Module#include や Module#prepend の実装で rb_objspace_garbage_object_p() でチェックしながら参照するようにしています。うーん、rb_include_module() や rb_prepend_module() が呼べるような状態でそこから参照されうる Class や IClass が回収可能になっているのがおかしいような気もするけど。 [ruby-core:107853] [Bug #18627]
