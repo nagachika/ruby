@@ -1,0 +1,1 @@
+String#split, #each_line, #lines, #each_byte, #bytes などの rdoc 用コメントを string.c から doc/string.rdoc に移動したりサンプルを追加したりしています。 https://github.com/ruby/ruby/pull/5675
