@@ -1,0 +1,1 @@
+String の rdoc 用ファイルの doc/string.rdoc の内容をメソッド毎にさらにサブディレクトリ doc/string/*.rdoc に分割して、string.c の rdoc 用コメントを復活させてそこから :include: タグでそのファイルを取り込むように方針を変更しています。 https://github.com/ruby/ruby/pull/5683
