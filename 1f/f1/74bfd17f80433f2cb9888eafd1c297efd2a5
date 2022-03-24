@@ -1,0 +1,1 @@
+bundler の bin/bundle で bundler 自身の更新を実行した時のテストで出力のチェックをより詳細にしています。
