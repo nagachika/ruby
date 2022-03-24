@@ -1,0 +1,1 @@
+include/ruby/internal/abi.h が変更された時に configre からやりなおさせるように Makefile を修正しています。
