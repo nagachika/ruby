@@ -1,0 +1,1 @@
+lib/bundler.rb の Marshal.load の wrapper メソッドで StandardError 全体を MarshalError という例外で投げなおしていたのを TypeError に絞るようにしています。投げなおすと元の例外発生箇所がわからなくなってしまうので想定外の例外はそのままあげるようにしています。
