@@ -1,0 +1,1 @@
+247f8ecfa441b120ad8cb43fa1f3a96145814cd1 の続きで tool/extlibs.rb のトップレベルに定義してた Vars クラスを ExtLibs::Vars に移動しています。
