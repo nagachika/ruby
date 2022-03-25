@@ -1,0 +1,1 @@
+bundler/.document を追加して bundler 配下を rdoc によるドキュメント生成の対象から外すようにしています。
