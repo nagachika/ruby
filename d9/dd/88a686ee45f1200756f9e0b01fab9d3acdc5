@@ -1,0 +1,1 @@
+rubygems のテスト用の Gem::TestCase#setup メソッドでインスタンス変数 @orig_hooks を初期化するのを先頭に移動しています。 setup 中に例外が発生した場合に teardown でさらにエラーが発生してしまうのを避けるためとのこと。
