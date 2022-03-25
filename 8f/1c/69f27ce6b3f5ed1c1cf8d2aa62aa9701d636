@@ -1,0 +1,1 @@
+Enumerable#inject をブロックも引数も渡さずに呼び出した時に ArgumentError を発生させるように修正しています。要素数が 2以上の時は LocalJumpError を発生させていたので意図した挙動ではないだろうということみたいですね。 [ruby-core:107911] [Bug #18635]
