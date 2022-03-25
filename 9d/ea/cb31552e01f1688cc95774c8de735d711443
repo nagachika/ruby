@@ -1,0 +1,1 @@
+2ec82dd361dff18b6899ef47d9b9ab4f71f94432 の dependabot の設定により GitHub Actions の workflows 内の actions に使っている actions/cache のバージョンを v2 から v3 に更新しています。 なるほど各 action のバージョン更新をしてくれる設定なのか。
