@@ -1,0 +1,1 @@
+8e3fbf943236aa3c78c8320f8ab11944e1c861de で拡張ライブラリ psych に同梱されてた libyaml が削除されたのにあわせて ext/psych/depend を更新。libyaml 自体のソースコードに対応したオブジェクトファイルのエントリが残ってたので削除。 [ruby-core:107481] [Feature #18571]
