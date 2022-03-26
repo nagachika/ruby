@@ -1,0 +1,1 @@
+629908586b4bead1103267652f8b96b1083573a8 の続きで do_include_modules_at() のインデントの修正。 https://github.com/ruby/ruby/pull/5000 [ruby-core:107603] [Feature #18589]
