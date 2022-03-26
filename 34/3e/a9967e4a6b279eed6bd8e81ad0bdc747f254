@@ -1,0 +1,1 @@
+Kernel#binding が ruby 実装の ISeq の control frame 内でない所(C 実装のメソッド内とか)で呼ばれた場合に RuntimeError を発生させるようにしています。また TracePoint などでトレース用メソッドに Binding を渡す第5引数を c_call/c_return などの C 実装のメソッド内のイベントでは作らないようにしています。 [ruby-core:107106] [Bug #18487]
