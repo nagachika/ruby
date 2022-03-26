@@ -1,0 +1,1 @@
+拡張ライブラリ readline の readline-ext.gemspec ファイルから add_development_dependency による開発時の依存関係の指定を削除しています。
