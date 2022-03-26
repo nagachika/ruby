@@ -1,0 +1,1 @@
+String#chop, #chomp などのメソッドの rdoc 用コメントも doc/string/*.rdoc に切り出して :include: で取り込むようにしています。 https://github.com/ruby/ruby/pull/5707
