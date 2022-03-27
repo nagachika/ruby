@@ -1,0 +1,1 @@
+array.c, compar.c, enum.c のクラスの rdoc 用コメントのメソッド一覧のところでリストになってなかったのを修正。また pack.rb の余計なコメントを削除。 https://github.com/ruby/ruby/pull/5711
