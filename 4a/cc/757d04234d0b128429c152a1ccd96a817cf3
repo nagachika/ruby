@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb にて libyaml の存在チェックに pkg_config を利用したチェックも追加しています。 macOS で Homebrew で入れた libyaml への対応だそうです。
