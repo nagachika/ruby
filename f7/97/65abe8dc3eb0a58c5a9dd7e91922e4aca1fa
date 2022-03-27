@@ -1,0 +1,1 @@
+NEWS に 343ea9967e4a6b279eed6bd8e81ad0bdc747f254 での Kernel#binding の仕様変更と TracePoint の c_call/c_return でイベントフックに binding が渡されなくなる変更について追記しています。
