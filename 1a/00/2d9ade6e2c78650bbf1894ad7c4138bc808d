@@ -1,0 +1,1 @@
+hash.c の rdoc 用コメントのメソッド一覧のリストの markup も修正。また array.c の rdoc 用コメントのリンクの記法を修正。 https://github.com/ruby/ruby/pull/5718
