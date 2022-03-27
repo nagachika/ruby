@@ -1,0 +1,1 @@
+io.c と numeric.c の rdoc 用コメントのメソッド一覧でもリストの markup の修正。 https://github.com/ruby/ruby/pull/5719
