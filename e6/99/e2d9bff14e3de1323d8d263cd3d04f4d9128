@@ -1,0 +1,1 @@
+String の strip, strip!, {rl}strip などのメソッドの rdoc 用コメントの説明をまとめるリファクタリング。あと今気がつきましたが call-seq でメソッドの receiver を書かないようになってますね。 https://github.com/ruby/ruby/pull/5723
