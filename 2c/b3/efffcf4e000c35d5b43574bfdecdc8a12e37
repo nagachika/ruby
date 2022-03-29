@@ -1,0 +1,1 @@
+configure.ac から RUBY_REQUIRE_FUNC() というマクロの定義を tool/m4/ruby_require_funcs.m4 に分離するリファクタリング。
