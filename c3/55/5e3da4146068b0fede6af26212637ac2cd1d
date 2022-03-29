@@ -1,0 +1,1 @@
+NEWS に拡張ライブラリ psych から libyaml の同梱をやめたことを追記しています。 [ruby-core:107481] [Feature #18571]
