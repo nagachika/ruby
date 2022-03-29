@@ -1,0 +1,1 @@
+tool/m4/ruby_replace_funcs.m4 の AC_DEFUN() の引数のカンマが抜けてたのを修正しています。
