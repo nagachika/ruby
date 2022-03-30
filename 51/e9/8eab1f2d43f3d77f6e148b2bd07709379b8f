@@ -1,0 +1,1 @@
+Ractor.receive_if の実装 ractor_receive_if() のループ内で割り込みが効くように RUBY_VM_CHECK_INTS() の呼び出しを追加しています。
