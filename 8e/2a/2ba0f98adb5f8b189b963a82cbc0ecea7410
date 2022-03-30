@@ -1,0 +1,1 @@
+拡張ライブラリ psych に ext/psych/extlibs ファイルを追加して libyaml の 0.2.5 のパッケージを GitHub からダウンロードして利用するように extconf.rb を拡張しています。
