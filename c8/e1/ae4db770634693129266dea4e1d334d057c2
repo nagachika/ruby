@@ -1,0 +1,1 @@
+Object のメソッド名一覧のところでリストの markup の修正と一部記号のメソッドを明示的にリンクにするよう markup を追加しています。 https://github.com/ruby/ruby/pull/5722
