@@ -1,0 +1,1 @@
+tool/m4/ruby_replace_funcs.m4 と tool/m4/ruby_require_funcs.m4 の m4 マクロ定義でかっこの対応が間違ってたのを修正しています。
