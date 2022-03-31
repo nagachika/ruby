@@ -1,0 +1,1 @@
+Object#define_singleton_method が private な特異メソッドを定義してしまう場合があった不具合(?)を修正しています。 [ruby-core:107400] [Bug #18561]
