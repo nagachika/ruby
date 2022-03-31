@@ -1,0 +1,1 @@
+23530d68cb04aed9c2f59a050523b0193ee2d0c1 で追加した rb_ractor_ensure_main_ractor() という関数の宣言を ractor_core.h から internal/ractor.h という新たに追加したヘッダファイルに移動しています。
