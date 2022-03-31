@@ -1,0 +1,1 @@
+linked list などのデータ構造のために利用している ccan のヘッダファイルで定義しているマクロや関数に CCAN_ や ccan_ といった prefix を追加しています。 https://github.com/ruby/ruby/pull/4568
