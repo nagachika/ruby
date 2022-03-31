@@ -1,0 +1,1 @@
+doc/regexp.rdoc に Regexp.timeout= や Regexp.new の timeout キーワード引数によるタイムアウト指定についてのセクションを追加しています。 [ruby-core:103631] [Feature #17837]
