@@ -1,0 +1,1 @@
+thread.c から double2hrtime() という関数の定義を hrtime.h に移動して inline 関数にしています。後で ffc3b37f969a779f93b8f8a5b3591b4ef7de1538 などで thread.c 以外からも使うため。
