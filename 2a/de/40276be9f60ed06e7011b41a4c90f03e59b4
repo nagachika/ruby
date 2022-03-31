@@ -1,0 +1,1 @@
+ffc3b37f969a779f93b8f8a5b3591b4ef7de1538 で導入した正規表現のマッチ処理のタイムアウト時に発生させる例外を RuntimeError から Regexp::TimeoutError という新しく導入した例外クラスを使うようにしています。 [ruby-core:103631] [Feature #17837]
