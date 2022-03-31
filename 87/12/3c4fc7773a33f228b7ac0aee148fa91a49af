@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all の結果をチェックする専用の assertion を定義して使うようにリファクタリングしています。
