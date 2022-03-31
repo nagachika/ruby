@@ -1,0 +1,1 @@
+9c1d32a7ada794ecd0356d56f7be3cdf3982d8ac の再修正。 TracePoint#enable のキーワード引数のデフォルト値を決めるところで式を書いてたのでそこで TracePoint のイベントフックが起動する可能性があったので、ruby 実装部分で Thread.current を渡すようにするのはやめて :default という Symbol を渡し、C 言語実装部分でそれをみて条件分岐するようにしています。なるほど、これに限らず組み込みメソッドの ruby 実装をすると TracePoint のイベント発火のしかたが変わることがありえますね。
