@@ -1,0 +1,1 @@
+rb_ractor_ensure_main_ractor() という関数を追加して現在 main Ractor で実行中でなかったら例外を発生させるようにしています。
