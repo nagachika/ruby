@@ -1,0 +1,1 @@
+TracePoint#enable にブロックが渡されていた場合はキーワード引数 target_thread のデフォルト値を Thread.current にして指定しなくても現在の Thread のみフック起動の対象になるように変更しています。 [ruby-core:98355] [Bug #16889]
