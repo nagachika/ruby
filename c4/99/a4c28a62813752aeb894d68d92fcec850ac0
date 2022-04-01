@@ -1,0 +1,1 @@
+ce87bb8bd64869c0d04026d6bca41dc6bd312a73 の Regexp.new に timeout キーワード引数を追加した時に "flags ignored" という警告が誤った条件で出力されてしまっていたのを修正しています。 [ruby-core:108121] [Bug #18669]
