@@ -1,0 +1,1 @@
+win32/Makefile.sub で変数 RUBY_SO_NAME に含める ruby のバージョンを major と minor のみにして teeny は 0固定にしています。 [ruby-core:108110] [Bug #18667]
