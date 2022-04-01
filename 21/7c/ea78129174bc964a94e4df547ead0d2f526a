@@ -1,0 +1,1 @@
+75efbb98afe854972a1c832ec5d4d66639c41c74 の追加修正。 拡張ライブラリ psych の extconf.rb で cross compile 用に libyaml のビルド時の configure に追加する --host オプションの "-unknow-" という部分は削るようにしています。
