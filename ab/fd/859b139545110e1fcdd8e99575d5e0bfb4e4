@@ -1,0 +1,1 @@
+make extract-gems や make bundle/gems/xxx で gem パッケージを取得する時に展開したディレクトリから .gib/ や .github/ などのサブディレクトリを削除しておくようにしています。
