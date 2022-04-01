@@ -1,0 +1,1 @@
+ffc3b37f969a779f93b8f8a5b3591b4ef7de1538 の Regexp.timeout= 導入により QEMU で RISC-V のエミュレーションしている環境での CI で Data._parse のテストがタイムアウトしてしまっていたのでタイムアウト値をのばしています。
