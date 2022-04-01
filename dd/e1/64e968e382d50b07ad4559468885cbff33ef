@@ -1,0 +1,1 @@
+GC の incremental marking の処理で1回の mark で処理する slot 数が page 数を基に計算されていたため page あたりのサイズが大きくなると 1回の incremental mark 処理にかかる時間が延びるので処理する slot 数ができるだけ一定になるように計算を変更しています。また Ractor のオブジェクト用 slot のキャッシュからの確保時にも incremental mark のためのカウンタに寄与させるようにしているようです。
