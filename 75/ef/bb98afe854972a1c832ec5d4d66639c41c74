@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で cross compile の対応のために libyaml のビルドのための configure に --host オプションを渡すようにしています。
