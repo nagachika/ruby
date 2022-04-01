@@ -1,0 +1,1 @@
+Range, String, Symbol, Struct の rdoc 用コメントのメソッド一覧のリストの markup 修正。 https://github.com/ruby/ruby/pull/5735
