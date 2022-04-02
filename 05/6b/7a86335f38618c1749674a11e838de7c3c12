@@ -1,0 +1,1 @@
+String のメソッドの rdoc 用コメントを doc/string/*.rdoc に切り出してサンプル強化しています。 https://github.com/ruby/ruby/pull/5742
