@@ -1,0 +1,1 @@
+GC の sweep 処理で 1回に sweep する slot 数の上限がハードコードされてたのを GC_INCREMENTAL_SWEEP_SLOT_COUNT という定数マクロを定義するリファクタリング。
