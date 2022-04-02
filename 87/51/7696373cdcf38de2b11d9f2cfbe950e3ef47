@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の OpenStruct#each_pair でブロックが渡されているかのチェックに alias した block_given! を使っていたのが ad5754162bddfd0ce2f11bd7fc7fce90ba6bf7ed で alias が削除されたため動かなくなっていたので defined?(yield) でチェックするよう書きかえています。
