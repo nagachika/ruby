@@ -1,0 +1,1 @@
+1cbdedec895070df1df96d05370cf8da084ab6fa の再修正。long と int が同じサイズの時の関数マクロ checksum_long() の定義でも mask 処理をするようにしています。
