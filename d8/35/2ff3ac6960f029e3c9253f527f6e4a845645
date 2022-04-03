@@ -1,0 +1,1 @@
+76572e5a7fc0ffde6501fd9a8c034bb621f11688 および c26a85fc968d19fc40b9aee8fb8451a08e3d26d1 の再修正。 struct RBasic::flags にセットするビットフラグの定数 FL_FROM_FREELIST というのが不要になったみたいで削除しています。  [ruby-core:107818] [Feature #18619]
