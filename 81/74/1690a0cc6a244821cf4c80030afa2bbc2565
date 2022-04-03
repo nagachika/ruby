@@ -1,0 +1,1 @@
+doc/encoding.rdoc を doc/encodings.rdoc にファイル名変更したり Encoding の rdoc 用コメントを削ったりしています。冗長だからかな? https://github.com/ruby/ruby/pull/5748
