@@ -1,0 +1,1 @@
+gc.c の gc_sweep_step() 内で 1回のステップで解放する page 数を直に書いていたのを GC_SWEEP_PAGES_FREEABLE_PER_STEP という定数マクロを定義して利用するようにリファクタリングしています。
