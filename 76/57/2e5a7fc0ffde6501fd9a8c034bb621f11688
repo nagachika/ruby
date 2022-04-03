@@ -1,0 +1,1 @@
+GC.compact でオブジェクトの slot を移動する時に移動すべきオブジェクトと移動先の空き slot を探すスキャンの順序を逆にするという変更。空きを探す際に page 内を sweep する処理を必要に応じてするので少し効率的にするため? チケットに貼ってある GIF アニメーションがとてもわかりやすいです。チケットをみると Variable Width Allocation により slot のサイズが大きい heap の compaction が未対応なのに対する修正も入っているみたいですが、今回の差分に含まれているのかはよくわかりませんでした。 https://github.com/ruby/ruby/pull/5637 [ruby-core:107818] [Feature #18619]
