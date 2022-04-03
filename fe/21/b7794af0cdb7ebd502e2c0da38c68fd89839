@@ -1,0 +1,1 @@
+rb_aligned_malloc() という関数でメモリ確保時に可能なら mmap(2) を利用するようにしていましたが、この関数は transient heap の確保でも利用されていてこちらは  32KiB でのアライメントが必要で mmap(2) でこれを満たせない可能性があるとかで、heap_page_body_allocate() という mmap(2) を(可能なら)利用する関数を別に作成してオブジェクトの heap にはこちらを利用して、rb_aligned_malloc() では mmap(2) を使うのをやめています。
