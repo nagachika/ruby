@@ -1,0 +1,1 @@
+343ea9967e4a6b279eed6bd8e81ad0bdc747f254 で C 関数実装のメソッド内で Kernel#binding が呼ばれた時に例外発生させるようにした変更を revert しています。 RUBY_DEBUG と RGENGC_CHECK_MODE=2 が有効な時にエラーになってたそうです。  [ruby-core:107106] [Bug #18487]
