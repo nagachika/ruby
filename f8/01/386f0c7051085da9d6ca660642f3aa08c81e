@@ -1,0 +1,1 @@
+doc/extension.rdoc および doc/extension.ja.rdoc に mkmf.rb の append_{cpp,c,ld}flags() メソッドについて追記しています。
