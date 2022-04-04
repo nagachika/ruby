@@ -1,0 +1,1 @@
+a7cb30124cf1c8be7ce637b068cc235d353513b2 で net/http のレスポンスヘッダの Content-Length を圧縮されていた body を展開した場合に追随して変更するようにしたのを revert しています。 CI でエラーが起きてしまったとのこと。
