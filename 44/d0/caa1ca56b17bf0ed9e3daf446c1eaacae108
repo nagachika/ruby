@@ -1,0 +1,1 @@
+0c90ca4dd0abbd28d7bb34b9241d93995ab9cfb7 で Dir.glob の実装で WASI 環境のために IFTODT() マクロが未定義の時に代替を定義していましたが、他にも DT_UNKNOWN で分岐する元からの分岐のままになっていたところがあったので EMULATE_IFTODT マクロで分岐するように追随させています。
