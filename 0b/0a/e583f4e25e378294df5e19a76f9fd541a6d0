@@ -1,0 +1,1 @@
+String#length, #bytesize の rdoc 用コメントを doc/string/*.rdoc に移動してサンプルにマルチバイト文字列を含めるようにしています。 https://github.com/ruby/ruby/pull/5753
