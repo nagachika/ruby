@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb でダウンロードしてきた libyaml の configure 実行する時に変数 CC に RbConfig::CONFIG["CC"] を伝播させるようにしています。クロスコンパイル対応のためみたいです。
