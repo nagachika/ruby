@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する GitHub Actions の workflow 設定のテンプレートで利用する actions/checkout のバージョン指定も v3 に更新しています。
