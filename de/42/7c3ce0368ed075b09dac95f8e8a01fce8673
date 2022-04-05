@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の OptionParser#pretty_print や OptionParser#inspect メソッドを追加して inspect 時にオプションの設定内容を人間が読めるような形式で表示するようにしています。
