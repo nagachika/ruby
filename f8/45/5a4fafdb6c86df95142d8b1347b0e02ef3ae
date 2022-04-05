@@ -1,0 +1,1 @@
+bundled gems の typeprof にタグでなく指定の commit hash を利用するようにしています。 rbs の 2.3.0 の変更に追随するためとのことなのでいずれ typeprof のバージョンが bump されると思います。
