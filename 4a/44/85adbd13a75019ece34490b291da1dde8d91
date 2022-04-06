@@ -1,0 +1,1 @@
+String#index の rdoc 用コメントを doc/string/index.rdoc に移動してサンプルにマルチバイト文字列を使っています。 https://github.com/ruby/ruby/pull/5759
