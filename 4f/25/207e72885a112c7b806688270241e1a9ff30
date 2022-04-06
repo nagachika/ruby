@@ -1,0 +1,1 @@
+bundler のテスト用の依存 gems をインストールするための Gemfile である tool/bundler/dev_gems.rb で rspec-mocks のバージョンを 3.11.1 以降に更新しています。
