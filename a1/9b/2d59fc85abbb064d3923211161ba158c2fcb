@@ -1,0 +1,1 @@
+環境変数 RUBY_GC_MALLOC_LIMIT による malloc_limit の指定がプロセス起動時の処理順序の影響で変化が有効にならないようになってたので ruby_gc_set_params() で環境変数から値を取得した時に rb_objspace_t::malloc_params::limit にも代入しておくようにしています。 [ruby-core:107170] [Feature#18494]
