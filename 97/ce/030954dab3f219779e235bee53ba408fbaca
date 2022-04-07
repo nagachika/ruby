@@ -1,0 +1,1 @@
+Makefile 群の変数 BTESTRUBY で -r オプションで xxx-fake.rb をロードするようにしています。クロスコンパイル対応のため?
