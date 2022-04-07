@@ -1,0 +1,1 @@
+b3f1b3ccef6f61b95685690e5a8faaa3f009c25f からの rubygems の変更の続きで API からアカウント情報を得るのに JSON でなく YAML で取得するようにしています。API としての利用だから JSON でいいような気もしますが。
