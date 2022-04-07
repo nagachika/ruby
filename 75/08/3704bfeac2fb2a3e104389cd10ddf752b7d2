@@ -1,0 +1,1 @@
+lib/rubygems/gemcutter_utilities.rb の再度修正で RubyGems.org の利用する API のエンドポイントを変更しています。
