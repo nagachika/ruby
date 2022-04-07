@@ -1,0 +1,1 @@
+RubyVM.stat のキーに :constant_cache_invalidations と :constant_cache_misses というインラインキャッシュのメトリクスを追加しています。 https://github.com/ruby/ruby/pull/5766
