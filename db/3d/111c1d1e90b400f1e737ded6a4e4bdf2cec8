@@ -1,0 +1,1 @@
+拡張ライブラリを含む bundled gems 用の exts.mk のテンプレートで拡張ライブラリを .exts/ でなく .bundle/gems/ の配下に展開するように対応しています。
