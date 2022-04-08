@@ -1,0 +1,1 @@
+tool/rbinstall.rb で bundled gems の拡張ライブラリのインストール対応を追加しているようです。
