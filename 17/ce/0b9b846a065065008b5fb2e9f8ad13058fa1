@@ -1,0 +1,1 @@
+db3d111c1d1e90b400f1e737ded6a4e4bdf2cec8 の続き? で拡張ライブラリ用の Makefile のテンプレートで make all のターゲットの依存関係に gems も追加しています。たぶん拡張ライブラリを含む bundled gems 用?
