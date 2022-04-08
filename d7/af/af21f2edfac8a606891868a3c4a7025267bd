@@ -1,0 +1,1 @@
+ext/extmk.rb で拡張ライブラリを含む bundled gems のビルドした拡張ライブラリを作成するディレクトリを .bundle/extensions/ 配下にするようにしています。
