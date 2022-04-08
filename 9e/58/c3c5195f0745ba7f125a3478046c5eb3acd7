@@ -1,0 +1,1 @@
+rubyspec の C API ruby_native_thread_p() のテストのための拡張ライブラリの関数で pthread_join(3) に渡す変数を type aliasing の警告抑制のため void* 型に宣言して後で VALUE* にキャストして取り出すように変更しています。
