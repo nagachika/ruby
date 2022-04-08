@@ -1,0 +1,1 @@
+template/exts.mk.tmpl で exts.mk の内容から変数代入を切り出してるところで 17ce0b9b846a065065008b5fb2e9f8ad13058fa1 の変更で extensions という変数への代入以外をスキップするようになってしまっていたので不要になってた next 文を削除しています。
