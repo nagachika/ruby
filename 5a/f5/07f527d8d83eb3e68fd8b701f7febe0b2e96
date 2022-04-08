@@ -1,0 +1,1 @@
+rb_objspace_call_finalizer() で finalizer の呼び出しのために rb_objspace_t::heap_pages::deferred_final を参照する時に ATOMIC_VALUE_EXCHANGE() を用いて race condition が起きないようにしています。複数 Ractor 時に finalizer の呼び出しがされないオブジェクトができてしまう可能性があったのかな? だとすると 3.1 にはバックポートが必要そうです。
