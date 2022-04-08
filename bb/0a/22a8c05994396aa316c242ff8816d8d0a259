@@ -1,0 +1,1 @@
+make extract-gems で bundled gems のパッケージを展開する時に .bundle/specifications というディレクトリに .gemspec ファイルが展開されるようにしています。
