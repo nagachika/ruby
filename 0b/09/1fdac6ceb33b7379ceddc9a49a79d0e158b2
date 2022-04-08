@@ -1,0 +1,1 @@
+343ea9967e4a6b279eed6bd8e81ad0bdc747f254 で入って d1d48cb690fdad855da94b2a2d11721428bc06ba で一旦 revert された C 実装のメソッドのフレーム内からの Kernel#binding で例外を発生させる変更のリトライ。前回との違いは多くはなくて Proc#curry で作られたメソッドの対応のため call_trace_func() および rb_tracearg_binding() での iseq のタイプのチェック追加しています。 [ruby-core:107106] [Bug #18487]
