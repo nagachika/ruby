@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_ic_compile_i() でも st_table へのポインタを VALUE* にキャストして rb_id_table_lookup() に渡していたのを変数を VALUE 型で宣言した変数を使って後でキャストするようにしています。
