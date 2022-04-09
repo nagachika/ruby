@@ -1,0 +1,1 @@
+string.c に残っていた String の rdoc 用コメントを string.rb ファイルに移動しています。ついでに? 昨日 doc/string/slices.rdoc に切り出してたドキュメント用コメントも string.rb に合流させています。他にも doc/string/*.rdoc に残ってるファイル群がありますが、これらも合流させるのかな? https://github.com/ruby/ruby/pull/5777
