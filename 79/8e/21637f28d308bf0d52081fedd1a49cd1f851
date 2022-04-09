@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_ic_compile() で iseq のリストについて vm_ic_compile_i() を呼ぶループを RB_VM_LOCK_ENTER() と RB_VM_LOCK_LEAVE() で排他処理して複数 Ractor 環境対応しています。
