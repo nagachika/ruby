@@ -1,0 +1,1 @@
+Module#autoload を使っている時に複数の Thread から同時に対象の定数を参照された時に、load すべきファイルがない場合に LoadError が発生しないことがある不具合を修正しています。 rb_const_set() から const_added() の呼び出しを省いた const_set() を切り出して rb_autoload_str() からはこちらを呼び出し関数の最後で別途 const_added() を呼び出すようにしています。 const_added() を呼び出した後でまだ autoload の処理が続いてる途中で Thread の切り替えが起きると問題があったようです。
