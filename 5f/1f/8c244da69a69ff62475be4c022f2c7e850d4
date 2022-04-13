@@ -1,0 +1,1 @@
+template/fake.rb.in で RUBY_DESCRIPTION マクロの表示内容に MJIT の対応をしていたのと同様に YJIT 用の記述の追加も対応するようにしています。
