@@ -1,0 +1,1 @@
+ doc/implicit_conversion.rdoc に暗黙の変換に対応しているクラス名の列挙を追加しています。 https://github.com/ruby/ruby/pull/5790
