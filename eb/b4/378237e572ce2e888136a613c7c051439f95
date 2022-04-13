@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPResponse で body の文字列の Encoding を Content-Type ヘッダや meta タグの記載を元に設定できるように対応を追加しています。 Encoding 不明なまま内容を読むの難しそうだなと思いましたが BOM をチェックして UTF-16 にも対応しているようです。 [ruby-core:27451] [Feature #2567] [ruby-core:90931] [Feature #15517]
