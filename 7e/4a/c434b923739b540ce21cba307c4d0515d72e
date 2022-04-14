@@ -1,0 +1,1 @@
+3112475469e35b522448858d23ee1651532276e7 の続きで、RbInstall::UnpackedInstaller#build_extensions の再定義をする条件にさらにクロスコンパイル時というのを追加しています。
