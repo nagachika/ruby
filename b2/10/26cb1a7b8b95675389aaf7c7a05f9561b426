@@ -1,0 +1,1 @@
+Symbol の rdoc 用コメントを手直しし、一部は doc/symbol/*.rdoc ファイルに移動しています。 https://github.com/ruby/ruby/pull/5795
