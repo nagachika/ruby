@@ -1,0 +1,1 @@
+tool/rbinstall.rb の RbInstall::UnpackedInstaller という bundled gems をインストールするためのクラスの build_extensions メソッドの再定義を消しています。 Gem::Installer のこのメソッドが空のメソッドで上書きされていたので拡張ライブラリを含む bundled gems のインストールがうまくできてなかったみたいです。
