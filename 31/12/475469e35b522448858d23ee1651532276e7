@@ -1,0 +1,1 @@
+4246e102d49eae0bd1bca01fba53286ad8178d2a で削除した RbInstall::UnpackedInstaller#build_extensions を RUBY_PLATFORM をチェックして Windows 版(mswin, MinGW)でのみ再定義するように一部復活させています。
