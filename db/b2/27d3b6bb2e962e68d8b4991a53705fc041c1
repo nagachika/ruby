@@ -1,0 +1,1 @@
+C API rb_fiber_scheduler_io_read_memory() および rb_fiber_scheduler_io_write_memory() の Doxygen 用コメントに引数の説明が抜けていたものがあったので追記しています。 https://github.com/ruby/ruby/pull/5441
