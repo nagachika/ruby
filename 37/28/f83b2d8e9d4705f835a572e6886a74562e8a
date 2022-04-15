@@ -1,0 +1,1 @@
+thread.c の select(2) に渡せる fd の上限についてのコメント内の URL が http schema になってたのを https に更新しています。
