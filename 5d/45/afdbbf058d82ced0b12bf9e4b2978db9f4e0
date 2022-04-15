@@ -1,0 +1,1 @@
+Symbol#name や Symbol#to_proc の rdoc 用コメントを実際に rb_define_method() を呼ぶ string.c 内にコメントアウトされた状態で書いていたのをそれぞれの関数の定義の場所に書くように移動しています。
