@@ -1,0 +1,1 @@
+thread_pthread.c の gvl_release_common() 内で ccan_list_top() で waitq の先頭の要素を取り出す時に linked list の next に相当する構造体メンバー名の指定が誤っていたのを修正しています。
