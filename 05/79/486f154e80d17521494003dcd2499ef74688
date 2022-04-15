@@ -1,0 +1,1 @@
+一度 revert されてた標準添付ライブラリ net/http の Net::HTTPResponse で body が圧縮されていた時に Content-Length ヘッダの内容を展開後のサイズに変更するようにする修正のリトライです。 [ruby-core:97359] [Bug #16672]
