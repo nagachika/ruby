@@ -1,0 +1,1 @@
+File.sticky? が sticky bit が存在しない環境で偽値として false でなく ni を返していたのを false に修正しています。 [ruby-core:108250] [Bug #18734]
