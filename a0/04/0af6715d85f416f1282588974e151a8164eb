@@ -1,0 +1,1 @@
+File.chardev? および File::Stat#chardev? が Windows 環境で期待した結果を返さないことがある不具合を修正しています。 "nul" とか "con" (端末のこと?) に対して呼ばれた時に true を返すようにしているみたいです。 [ruby-core:108245] [Bug #18732]
