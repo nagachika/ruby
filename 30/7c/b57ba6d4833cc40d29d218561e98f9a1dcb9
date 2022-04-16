@@ -1,0 +1,1 @@
+GitHub Actios のいろんなコンパイルオプションでビルドしてみる workflow で clang 14 に -std=cXX のオプションを渡す時に -Wno-strict-prototypes オプションも渡してエラー抑制するようにしています。
