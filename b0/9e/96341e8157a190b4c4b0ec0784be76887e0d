@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb でコミット群を同期する時にマージコミットを検出するために正規表現を使っていたのを String#start_with? を使うようにリファクタリング。
