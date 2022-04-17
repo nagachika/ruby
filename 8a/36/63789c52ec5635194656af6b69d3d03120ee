@@ -1,0 +1,1 @@
+tool/rbinstall.rb の RbInstall::UnpackedInstaller の build_extensions メソッド定義するかどうかの判定をしていたのを削って親クラスの RbInstall::GemInstaller で定義するようにしています。また条件のうち Windows 環境であるという条件は RbConfig::CONFIG["LIBRUBY_RELATIVE"] == "yes" に置き換えています。
