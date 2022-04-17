@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で rakelib/ ディレクトリ配下の全てのファイルを同期対象外にするようにしています。
