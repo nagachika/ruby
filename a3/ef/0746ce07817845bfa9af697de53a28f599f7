@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で git のコマンドの出力を NUL 文字で分割して読み取る処理を pipe_readlines というメソッドに切り出すリファクタリング。
