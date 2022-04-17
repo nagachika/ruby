@@ -1,0 +1,1 @@
+rakelib/release.rake というファイルが追加されていますが、これは stringio の upstream repo からの同期で誤って追加されてしまったものだと思います。
