@@ -1,0 +1,1 @@
+22f79ae3f749ebe31c34c22d5b8699ffd81ab341 で stringio からの同期で誤って追加された rakelib/release.rake を削除しています。
