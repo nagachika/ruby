@@ -1,0 +1,1 @@
+2c6876f811a3c08e69816861127458b967900bcd で定義した INIT_IMEMO_TYPE_ID() で rb_intern() を呼んでいたのを rb_intern_const() を呼ぶように最適化しています。
