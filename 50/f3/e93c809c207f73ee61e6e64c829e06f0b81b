@@ -1,0 +1,1 @@
+rubyspec の String#to_sym と Encoding の関係についての spec の名前の typo 修正。
