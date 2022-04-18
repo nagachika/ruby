@@ -1,0 +1,1 @@
+rubygems の Gem::Installer#spec で Gem::Package::Error を捕捉して Gem::InstallError を投げなおしていた rescue 節を削除しています。不要だと思うとのこと。
