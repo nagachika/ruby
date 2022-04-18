@@ -1,0 +1,1 @@
+Class/Module を dup で複製した時に rb_class_update_superclasses() を呼び出して継承関係判定の高速化のために導入した親クラス群の配列を更新するようにしています。
