@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.count_imemo_objects の実装でカウンタ用の配列の初期化に局所的に INIT_IMEMO_TYPE_ID() というマクロを定義して imemo_xxx という定数を配列の添字に使ってマジックナンバーが書かれてたのを避けるようにしています。
