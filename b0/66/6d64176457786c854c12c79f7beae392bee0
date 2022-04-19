@@ -1,0 +1,1 @@
+File::Stat の #mtime, #ctime, #birthtime などの rdoc 用コメントの call-seq で戻り値を表現する名前として aTime というのが使われてたので他とそろえて time に変更しています。 [ruby-core:108177] [Bug #18680]
