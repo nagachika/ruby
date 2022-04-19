@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の Jacobian#dfdxi と Jacobian#jacobian の rdoc 用コメントの引数名にマークアップを追加して誤ってリンクになっていたところを修正しています。
