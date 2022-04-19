@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の Float から BigDecimal への変換の実装内で指数部? を保持する変数の型を size_t から SIGNED_VALUE に変更しています。
