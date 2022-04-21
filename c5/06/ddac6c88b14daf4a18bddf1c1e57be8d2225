@@ -1,0 +1,1 @@
+ruby テスト用の test/unit に assert_true と assert_false という assertion メソッドを追加しています。本体の test-unit.gem からの移植みたいです。
