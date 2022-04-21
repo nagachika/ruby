@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http で JRuby のサポートのため openssl の OpenSSL::SSL::SSLContext の未実装のメソッドを利用しないようにする条件分岐を追加しています。
