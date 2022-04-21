@@ -1,0 +1,1 @@
+いろんなコンパイルオプションを試す GitHub Actions の workflow でデフォルトのコンパイラとして clang 15 を試していたのを clang 14 に戻しています。 https://github.com/ruby/ruby/pull/5824
