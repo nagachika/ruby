@@ -1,0 +1,1 @@
+C API rb_io_set_nonblock() の Doxygen 用コメントにこの関数で nonblocking mode に設定しても C のレベルの fd に設定されるだけなので ruby の IO#read メソッドなどはブロックすることを追記しています。
