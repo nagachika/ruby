@@ -1,0 +1,1 @@
+拡張ライブラリ pathname に Pathname#lutime を追加しています。File.lutime へ委譲する実装ですね。
