@@ -1,0 +1,1 @@
+Windows 版の fcntl() の代替実装で rb_w32_set_nonblock2() を利用するようにして pipe に対する操作を受付けるように修正しています。
