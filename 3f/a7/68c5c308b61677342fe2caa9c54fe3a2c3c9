@@ -1,0 +1,1 @@
+c94f964e3f94e9f934a3f4e73fb55f5fd2a21f08 で追加した標準添付ライブラリ uri の wss schema のテストで require する uri/http を uri/https に変更しています。
