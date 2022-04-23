@@ -1,0 +1,1 @@
+vm_iter_break() でコメントアウトされていた LocalJumpError 例外を発生させるチェックを復活(?)させています。 Object#to_enum で Enumerator 化したメソッド内で Thread を作って別 Thread から yield された時に例外発生させるようにしているようです。昔はこういうの例外になってたはずですね確か。 [ruby-core:107980] [Bug #18649]
