@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で正規表現の定数を取り込むのに REGEXP を include していたのを RFC2396_REGEXP を include するように変更しています。 REGEXP は RFC2396_REGEXP の別名というか代入されてるだけなので実体は同じだと思います。
