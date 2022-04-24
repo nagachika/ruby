@@ -1,0 +1,1 @@
+rb_thread_t の native_thread_data メンバーを削除して、かわりに nt というメンバーで struct rb_native_thread という新しく定義した構造体へのポインタを保持して代替とするようにリファクタリングしています。コミットログに今は Ruby の Thread は 1つの natgive thread を持つとわざわざ書いているので、1:M(N:M) thread 化しようと考えているのかも。
