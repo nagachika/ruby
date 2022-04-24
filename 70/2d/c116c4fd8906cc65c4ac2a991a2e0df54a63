@@ -1,0 +1,1 @@
+vm.c の ruby_thread_init() と th_init() という rb_thread_t の初期化をする似たような関数があったのを th_init() に集約して th_init() には引数に rb_vm_t と rb_ractor_t のポインタを追加してそれぞれ vm/ractor メンバーの初期化も行うようにしています。さらに rb_thread_t の top_wrapper, top_self, value などのメンバーの初期化も追加しています。
