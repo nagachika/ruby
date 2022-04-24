@@ -1,0 +1,1 @@
+03d21a4fb099da7c52e6591e17704c297871b7db の rb_thread_t::native_thread_data から nt メンバーへの移行の漏れがあったのを修正しています。
