@@ -1,0 +1,1 @@
+拡張ライブラリ io/nonblock の IO#nonblock= の rdoc 用コメントにこれは fd の fcntl(2) で O_NONBLOCK フラグをオンオフするもので ruby レベルのメソッドが nonblock になるというものではないということを追記しています。 IO#read_nonblock や IO#write_nonblock は fd の O_NONBLOCK フラグを立てるので、それをプロセスをまたがって伝播してしまうのを避けるためにリセットするなどの用途で使うものだと書かれています。なるほど、そういう理由でフラグだけセットする必要がある場合があるのか。
