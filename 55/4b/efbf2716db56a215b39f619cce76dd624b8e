@@ -1,0 +1,1 @@
+proc.c の rb_block_arity() で rb_proc_arity() という関数を利用するようにするリファクタリング。
