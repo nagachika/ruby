@@ -1,0 +1,1 @@
+doc/syntax/literals.rdoc に Rational リテラルの記法についてサンプルを追記して BNF 記法での文法も併記しています。 https://github.com/ruby/ruby/pull/5840
