@@ -1,0 +1,1 @@
+Kernel#Array()、Kernel#Hash()、Kernel#String() などの変換メソッドの rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/5846
