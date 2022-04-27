@@ -1,0 +1,1 @@
+Math の rdoc 用コメントのモジュール全体のドキュメントは doc/math/math.rdoc に切り出し、他の各メソッドの rdoc 用コメントもサンプルを追加するなど全体的に手直ししています。 https://github.com/ruby/ruby/pull/5837
