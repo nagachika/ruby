@@ -1,0 +1,1 @@
+拡張ライブラリ io/nonblock の IO#nonblock の rdoc 用コメントの call-seq でブロック付きの呼び出しでの戻り値が receiver の IO オブジェクトであるように書かれてましたが、ブロックの評価値になるので object と修正しています。
