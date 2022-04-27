@@ -1,0 +1,1 @@
+Enumerable#each_with_object メソッドの rdoc 用コメントの Hash に対して利用する時のサンプルコードでブロック引数での splat を使う記法を使うように変更しています。simplify したって書いてるけどある意味こっちのほうが(ruby っぽいけど)複雑ですね。
