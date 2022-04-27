@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で gcc の -flto=auto -ffat-lto-objects オプションを試す時に最適化オプション -O2 を CC で設定していたのを configure の optflags で指定するように移動しています。 optflags で上書きされてデフォルトの -O1 になってしまってたみたいです。
