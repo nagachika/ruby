@@ -1,0 +1,1 @@
+vm_method.c の rb_clear_constant_cache_for_id() で rb_id_table_lookup() の引数に型の異なる変数のポインタを渡していて strict aliasing エラーになっていたのを VALUE 型の変数で一旦受け取ってからキャストするように修正しています。
