@@ -1,0 +1,1 @@
+rb_class_superclass() で引数に T_ICLASS 型のオブジェクトが来た時のための処理が実際には不要だったみたい? でその処理は削除して RCLASS_SUPERCLASSES() を利用した高速な実装を使うようにしています。
