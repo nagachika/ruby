@@ -1,0 +1,1 @@
+doc/ChangeLog-2.3.0 と lib/rubygems/text.rb のコメントに書かれてる git.io という短縮 URL? を展開して正式な? URL に修正しています。 もうすぐ git.io がリダイレクトを止めるそうです。 https://github.blog/changelog/2022-04-25-git-io-deprecation/
