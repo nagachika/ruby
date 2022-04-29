@@ -1,0 +1,1 @@
+6dc314ac6df69e29ba58dfd61dde90e85a2b47c9 で追加された rubygems のテストで Rust 対応のためのテストクラスの setup メソッドで super を最初に呼ぶように移動しています。
