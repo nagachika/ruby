@@ -1,0 +1,1 @@
+bundler の Bundler::EndpointSpecification#required_rubygems_version で古い rubygems の Gem::Requirement.default という API に fallback する対応を追加しています。
