@@ -1,0 +1,1 @@
+6dc314ac6df69e29ba58dfd61dde90e85a2b47c9 と fbb4b8d23505be46da7cd996d0c85039cf43b45a のさらに続きで test/rubygems/test_gem_ext_cargo_builder.rb の setup メソッドで super をさらに前に移動してメソッドの先頭で呼ぶように移動しています。また ENV の内容を退避していたのが不要だったみたいで削っています。
