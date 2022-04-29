@@ -1,0 +1,1 @@
+template/Makefile.in で YJIT 対応のためのルール? で Solaris の make でうまく動かなかったコマンドの記法をリファクタリングしています。 shell の if を使ったコマンドを Makefile のコマンド部に書くとだめだった模様。
