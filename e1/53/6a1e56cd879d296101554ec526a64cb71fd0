@@ -1,0 +1,1 @@
+doc/yjit/yjit.md の configure 時の --with-opt-dir の指定方法の例にクオートを追加しています。
