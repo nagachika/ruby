@@ -1,0 +1,1 @@
+rubygems のテスト test/rubygems/test_require.rb で定義されていた testing_ruby_repo? というユーティリティメソッドを test/rubygems/helper.rb に移動しています。
