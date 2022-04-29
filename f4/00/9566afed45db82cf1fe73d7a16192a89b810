@@ -1,0 +1,1 @@
+rubygems で Open3 を利用しているところに明示的な require "open3" を追加しています。
