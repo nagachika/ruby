@@ -1,0 +1,1 @@
+YJIT の Rust 実装内のコーディングスタイルというか記法の変更。より Rsut っぽい書きかたにするためにってことみたいです。 https://github.com/ruby/ruby/pull/5858
