@@ -1,0 +1,1 @@
+Array#replace でバッファの内容をコピーする時に RGenGC 用の write barrier が抜けていたのを修正。ary_memcpy() を利用するようにしています。
