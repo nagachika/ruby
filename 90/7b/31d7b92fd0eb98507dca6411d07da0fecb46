@@ -1,0 +1,1 @@
+configure で macOS(darwin) 環境でコンパイラの -print-search-dirs オプションを指定して表示されるディレクトリを LDFLAGS に追加してた処理を削っています。 M1 Mac (Apple Silicon) の環境で誤って x86 版のライブラリをリンクしないようにするためみたいです。 [ruby-core:108424] [Bug#18758]
