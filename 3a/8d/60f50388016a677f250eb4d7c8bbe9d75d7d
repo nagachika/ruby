@@ -1,0 +1,1 @@
+Object#hash の rdoc 用コメントに独自に hash メソッドを再定義する時にはクラスも hash 値計算に含めて Array#hash を利用するのがいいよというベストプラクティスを追記しています。ほー、なるほど。 https://github.com/ruby/ruby/pull/5805
