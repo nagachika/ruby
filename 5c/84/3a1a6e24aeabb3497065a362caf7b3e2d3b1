@@ -1,0 +1,1 @@
+YJIT の Rust 実装で rustc が警告する dead code などの検出結果を削るなどの対応と警告抑制のため? #[allow(dead_code)] という attribute を追加するなどの対応。 https://github.com/ruby/ruby/pull/5864
