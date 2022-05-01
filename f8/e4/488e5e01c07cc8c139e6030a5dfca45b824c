@@ -1,0 +1,1 @@
+YJIT の Rust 実装でコメントを追加する処理を cfg attribute で feature=acm_comments が有効になってる時だけ定義するようにしています。 preprocessr 分岐みたいなものかな。 https://github.com/ruby/ruby/pull/5863
