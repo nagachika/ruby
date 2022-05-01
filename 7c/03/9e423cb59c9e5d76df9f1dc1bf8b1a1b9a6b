@@ -1,0 +1,1 @@
+doc/format_specifications.rdoc というファイルを追加して printf 系メソッドのフォーマット文字列についてのドキュメントを記述しています。いくつかの指示子はまだセクション分けだけで空白なので未完のようです。 https://github.com/ruby/ruby/pull/5857
