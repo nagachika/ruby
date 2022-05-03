@@ -1,0 +1,1 @@
+doc/format_specifications.rdoc の英文の修正やリンクのファイルパスが間違ってたのを修正。 https://github.com/ruby/ruby/pull/5866
