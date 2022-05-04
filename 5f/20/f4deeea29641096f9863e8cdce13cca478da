@@ -1,0 +1,1 @@
+yjit.c で STATIC_ASSERT() で USE_FLONUM=0 でビルドされているとビルドエラーにするようにしています。 flonum (Float を即値にする)を有効にしてないビルドは YJIT はサポート外のようです。
