@@ -1,0 +1,1 @@
+fef79dfa251b167480ef9ba8d17698c469c22542 の doc/format_specifications.rdoc のリンク修正を再度修正しています。相対パスなので doc/ は不要だった模様。
