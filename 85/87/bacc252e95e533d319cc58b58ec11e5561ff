@@ -1,0 +1,1 @@
+YJIT の Rust 実装で現在必要としている Rust のバージョンでは不要になっている extern crate 文を削除しています。 https://github.com/ruby/ruby/pull/5869
