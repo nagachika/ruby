@@ -1,0 +1,1 @@
+doc/yjit/yjit.md の YJIT のためのサードパーティーライブラリの依存から libcapstone についての記述を削除しています。
