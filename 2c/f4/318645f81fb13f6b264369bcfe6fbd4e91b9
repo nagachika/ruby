@@ -1,0 +1,1 @@
+bundler の Bundler::Definition::GemHelper#converge_specs というメソッドで Enumerable#each のかわりに Enumerable#select を使ってより ruby らしい使いかたをするようにリファクタリングしています。
