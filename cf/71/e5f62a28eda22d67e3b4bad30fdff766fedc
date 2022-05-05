@@ -1,0 +1,1 @@
+YJIT のテストに opt_plus 命令に未対応の型のオブジェクトが渡された時のテストを追加しています。 https://github.com/ruby/ruby/pull/5878
