@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトが GC.compact で移動した時の rb_classext_t の内容を更新する update_class_ext() で rb_classext_t::includer メンバーの更新が漏れていたのを修正しています。
