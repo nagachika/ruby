@@ -1,0 +1,1 @@
+YJIT の実装のために導入された rb_darray というデータ構造のメモリ確保の関数やマクロの _with_gc という suffix つきの variant を削除しています。YJIT が Rust 実装になったので不要になったとのこと。
