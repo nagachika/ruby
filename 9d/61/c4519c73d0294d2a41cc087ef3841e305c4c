@@ -1,0 +1,1 @@
+bundler の依存関係解決時に converge_locked_specs というメソッドのかわりに SpecSet というクラスを利用した実装を使って lockfile の記述からの変更がない時の高速化を図っているそうです。
