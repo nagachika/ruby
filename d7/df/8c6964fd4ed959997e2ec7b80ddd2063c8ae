@@ -1,0 +1,1 @@
+gc.c の gc_sweep_page() で RGENGC_CHECK_MODE が真に定義されてビルドされている時の freelist のチェックの前後で ASAN のチェックを緩めるための unpoison を追加しています。
