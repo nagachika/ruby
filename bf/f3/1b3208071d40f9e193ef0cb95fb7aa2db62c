@@ -1,0 +1,1 @@
+gc.c の heap_page_allocate() から不要なキャストを削除。
