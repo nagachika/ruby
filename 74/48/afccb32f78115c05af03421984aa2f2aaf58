@@ -1,0 +1,1 @@
+Module#prepend の実装で rb_subclass_entry_t の linked list を辿って include 処理してる途中で GC が走る可能性のある処理が行なわれるため一度 rb_objspace_garbage_object_p() でチェックした後で rb_subclass_entry_t の構造体のメモリ領域が解放されている可能性があるので、rb_subclass_entry_t::klass の内容を変数に格納しておいてそれを参照するようにしています。
