@@ -1,0 +1,1 @@
+Kernel#sprintf の rdoc 用コメントの内容を doc/format_specifications.rdoc へのリンクにおきかえています。また IO#printf の rdoc 用コメントからも doc/format_specifications.rdoc にリンクするようにしています。 https://github.com/ruby/ruby/pull/5886
