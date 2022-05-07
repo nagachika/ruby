@@ -1,0 +1,1 @@
+4d8f76286beefbb8f7fba2479f6d0a0b4a47304c で rb_obj_is_kind_of() に T_ICLASS のための高速化を追加した時に T_ICLASS 型オブジェクトの mark 時に rb_classext_t::includer メンバーも mark するようにしておくべきだったので修正しています。
