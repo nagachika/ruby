@@ -1,0 +1,1 @@
+Module#autoload が Thread 間で同時にファイルを load しようとするのを防ぐために内部的に ccan の linked list を使って排他処理を実装していたのを Mutex クラスによるシンプルな排他処理に変更しています。 元の実装が blocking Fiber でうまく動作しなかったためとのこと。 autoload のための排他処理って歴代の実装で苦労していると思うのでこれですんなりうまくいくかなぁ。 https://github.com/ruby/ruby/pull/5788
