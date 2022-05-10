@@ -1,0 +1,1 @@
+blocking fiber の Scheduler 実装のために導入した IO::Buffer の IO::Buffer#for でブロックつきの呼び出しを受付けるようにして、ブロックなしなら freeze した文字列オブジェクトを生成してそれを wrap し、ブロックつきの時は文字列オブジェクトの内容を破壊的に変更できる状態の IO::Buffer を yield するようにしています。 https://github.com/ruby/ruby/pull/5892
