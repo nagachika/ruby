@@ -1,0 +1,1 @@
+blocking fiber のための Scheduler を使ったテストで autoload 用のファイルの load 後に $LOADED_FEATURES から削っておくように後始末追加しています。
