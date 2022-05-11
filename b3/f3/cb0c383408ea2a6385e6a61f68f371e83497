@@ -1,0 +1,1 @@
+gc_sweep_start() で Variable Width Allocation 有効時にあるサイズの heap にひとつも page がない時に gc_sweep_finish_size_pool() を呼び出すパスを追加しています。 gc_sweep_finish_size_pool() を呼ばないと page 追加されないのでずっと page が作られなくなってしまうということみたいです。
