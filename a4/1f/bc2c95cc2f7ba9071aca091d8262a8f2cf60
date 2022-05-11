@@ -1,0 +1,1 @@
+Variable Width Allocation で可能な slot のサイズを struct RVALUE 4つまでから 5つまでに拡張しています。いくつかのベンチマークの結果性能もメモリ消費量も良い結果が得られたみたいです。
