@@ -1,0 +1,1 @@
+拡張ライブラリ psych で String#gsub のかわりに極力 String#delete などを使って正規表現による置換を避けるようにしています。
