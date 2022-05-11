@@ -1,0 +1,1 @@
+cea34bd8082784051542131ddf8a353f5656ac88 で追加した IO::Buffer のビット演算のメソッド群のテストで assert_equal の result と expected の引数の順序が逆だったのを修正しています。
