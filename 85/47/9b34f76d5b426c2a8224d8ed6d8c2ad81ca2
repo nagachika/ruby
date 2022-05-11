@@ -1,0 +1,1 @@
+gc_sweep_finish_size_pool() で実際に heap_increment() を呼んで heap に page を追加していたのをやめています。 rb_size_pool_t::allocatable_pages に確保する page 数上限をセットするだけで実際に page を確保するのは必要な時まで遅延させるようにしています。
