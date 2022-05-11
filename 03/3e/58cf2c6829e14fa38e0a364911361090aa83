@@ -1,0 +1,1 @@
+gc.c の gc_sweep_page() で bitmap を管理するループのカウンタの上限を HEAP_PAGE_BITMAP_LIMIT にしてたのを page 内の slot 数から実際に必要な数を計算するようにしています。無駄な処理の回避かと思ったけど buffer overrun の可能性があったみたいです。
