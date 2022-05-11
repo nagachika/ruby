@@ -1,0 +1,1 @@
+gc_sweep_finish_size_pool() で page 追加する条件になる空き slot 数の計算をその heap の全 slot の割合で計算しているところで heap_init_slots よりも小さくなってしまったら heap_init_slots に切り上げておくようにしています。Variable Width Allocation で大きなサイズの heap はあまり利用されず page 数が小さいまま GC が実施される可能性があるのでその時にうまく動かなくなる可能性があったようです。
