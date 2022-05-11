@@ -1,0 +1,1 @@
+heap_extend_pages() でもその heap の slot 数が 0 (つまり page がひとつもない)時の対応を追加しています。やはり Variable Width Allocation で大きなサイズの heap が利用されないまま GC が開始された時の考慮漏れがあったようです。
