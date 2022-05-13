@@ -1,0 +1,1 @@
+標準添付ライブラリ uri に URI::Generic#decoded_user, #decoded_password というメソッドを追加して、URI.decode_uri_component でデコードした文字列を返すようにしています。 [ruby-dev:47768] [Feature #9045]
