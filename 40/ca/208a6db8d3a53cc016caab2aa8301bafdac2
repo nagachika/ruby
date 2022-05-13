@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI.register_schema でクラス名を文字列で渡した時に upcase してクラス名を探すようにしています。
