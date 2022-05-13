@@ -1,0 +1,1 @@
+configure に --enable-mkmf-verbose というオプションを追加して拡張ライブラリのビルド時の mkmf.rb の生成する Makefile の V 変数(コマンド内容を出力するようにする)の設定に反映させるようにしています。
