@@ -1,0 +1,1 @@
+doc/contributing.rdoc を doc/contributing.md に改名したうえで内容を doc/contributing/ サブディレクトリの下に分割してそれらにリンクを張るように再構成しています。 README からビルド方法のコメントも削ってるんですが、contribute しようという人でなくてもビルドするとはあると思うけど……。
