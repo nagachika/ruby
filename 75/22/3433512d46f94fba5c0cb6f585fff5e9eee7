@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションを試す workflow に configure 時に 019cbded90ade76fdb87d02bd4d444724429fc92 で追加した --enable-mkmf-verbose をつけたビルドを追加しています。
