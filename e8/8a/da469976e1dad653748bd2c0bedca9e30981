@@ -1,0 +1,1 @@
+YJIT で "<<" メソッドで receiver が String オブジェクトの時に Encoding の変換が不要なケースで rb_str_cat() を直接使えるようにして高速化しているようです。 Rust 実装を読めるようにしないとなぁ。 https://github.com/ruby/ruby/pull/5896
