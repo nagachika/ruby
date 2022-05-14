@@ -1,0 +1,1 @@
+YJIT で VM 命令 getblockparam の JIT コンパイルに対応しています。 rb_vm_bh_to_procval() を Rust から呼べるようにして Proc オブジェクトに変換するようにしています。毎回変換しなくていいように rb_env_t にキャッシュする仕組みにも対応しているっぽい雰囲気を感じます。
