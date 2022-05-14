@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems#install で引数名 opts を options と改名しています。
