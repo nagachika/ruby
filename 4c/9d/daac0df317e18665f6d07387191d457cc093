@@ -1,0 +1,1 @@
+bundler で bundle install 時に lock file の指定が効かないことがあった不具合を修正しているそうです。どの差分が重要なのかはっきりわかりませんが Bundler::Installer::GemInstaller#install で previous_spec というオプションを渡すようにしているのが必要だったみたいです。
