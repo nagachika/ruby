@@ -1,0 +1,1 @@
+tool/rbinstall.rb で拡張ライブラリを含む bundled gem のインストール時のエラー対応のため環境変数 DESTDIR が設定されていた時にも拡張ライブラリのビルドを抑制する? workaround を利用するようにしています。
