@@ -1,0 +1,1 @@
+gc.c で Variable Width Allocation を無効にして(USE_RVARGC=0 で)ビルドした時に未使用の変数の警告が出るのを抑制するため変数を利用するように修正しています。
