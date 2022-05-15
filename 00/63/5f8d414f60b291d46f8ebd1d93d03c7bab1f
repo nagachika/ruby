@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の rdoc 用コメントの 90d8b7219e26135cb1003ebfc5884f132ba39867 の変更で String#dump へのリンクを ruby-doc.org から docs.ruby-lang.org に変更。これ内部リンクでも、と思ったけど default gems なので独立した gem としてドキュメント生成した時にもリンクできないといけないので外部サイトにせざるを得ないんですね。
