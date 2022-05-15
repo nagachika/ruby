@@ -1,0 +1,1 @@
+addr2line.c の print_line0() で line_info_t::sname が利用できる時には saddr がなくても表示するようにしています。関数名が表示できるみたいですね。
