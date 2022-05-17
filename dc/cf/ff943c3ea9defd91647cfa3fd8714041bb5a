@@ -1,0 +1,1 @@
+annocheck というツール(これ自体はコンパイルしたバイナリファイルのセキュリティチェック? をするものみたいです)を使ってチェックする make test-annocheck というターゲットを追加し、さらに GitHub Actions の .github/workflows/compilers.yml の workflow でこれを実行するようにしています。今のところ Fedra でしか動かない(?)ので Docker コンテナを使って実行するスクリプトを追加しています。
