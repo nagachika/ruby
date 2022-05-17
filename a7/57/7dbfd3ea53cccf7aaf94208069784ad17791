@@ -1,0 +1,1 @@
+dccfff943c3ea9defd91647cfa3fd8714041bb5a で追加した make test-annocheck を $(target_os) つきのターゲットに依存させて Linux でのみ実行するように変更しています。$(TEST_RUNNABLE) が yes の時に(他のテストと同様)実行するようにターゲットを作ってましたがこれは build した環境で実行できるかというチェックの結果みたいなのでコンテナを使って実行する test-annocheck ではこれを参照するのは不適切とのこと。
