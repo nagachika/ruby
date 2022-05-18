@@ -1,0 +1,1 @@
+32de6097b2b5d8394b3a1399e13d309444697954 の autoload のデッドロック修正の続きです。変数名の改名(static 変数の autoload_featuremap を autoload_features と改名)や構造体のメンバー名/関数名の変更などのリファクタリングが混じっていてわかりにくいですが autoload_features に格納する構造体の内容を変更して定数のロード要求毎にエントリを作るようにしてロードが完了したらエントリを消すようにしています。 https://github.com/ruby/ruby/pull/5910
