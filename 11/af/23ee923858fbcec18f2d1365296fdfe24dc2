@@ -1,0 +1,1 @@
+autoload_data_type 型オブジェクト の mark 関数内で struct autoload_data::constants の linked list が空だったら static 変数の autoload_features の st_table から対応する要素を消すようにしていたのを autoload_delete() 内で行なうように遅延しています。mark 関数内で削除処理するというのなんとなく意外なのでこのほうが自然ですね。おそらく生存期間が延びるというか定数の削除や上書きをしないと残り続けるようになるんだと思います。 https://github.com/ruby/ruby/pull/5912
