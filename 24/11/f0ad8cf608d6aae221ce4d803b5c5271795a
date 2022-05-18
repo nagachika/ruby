@@ -1,0 +1,1 @@
+template/Makefile.in に target_os 変数の代入を追加しています。 a7577dbfd3ea53cccf7aaf94208069784ad17791 の make test-annocheck のためのターゲットに必要だったようです。
