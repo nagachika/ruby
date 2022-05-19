@@ -1,0 +1,1 @@
+3db8db8a329d6bcc46b5aaf41571309a489540c7、9b3ed5a23fba68d364f5e2eea654fd75ce0ea0db、9a0f5a8edc9c1a7b3d1f85fb1c02e137520cfe1a のさらに続きで trap 組み込みコマンドで終了時に libyjit サブディレクトリを終了時に掃除するようにしています。
