@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の rdoc 用コメントの .irbrc ファイルの探索順についての記述に環境変数 IRBRC や XDG_CONFIG_HOME の考慮などを追加しています。
