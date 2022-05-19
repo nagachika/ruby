@@ -1,0 +1,1 @@
+template/Makefile.in の libruby.a の生成のためのコマンドで Rust 製の YIJT 実装をライブラリ化したものを作る時のファイルパス指定を相対パスにしています。
