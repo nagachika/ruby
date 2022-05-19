@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md に記述してたデバッガ経由で ruby 起動する make ターゲット名の間違いを修正しています。
