@@ -1,0 +1,1 @@
+60d45b2ee86a80e248c3bff0c90c981ed2168ac3 の autoload の排他処理変更で追加された autoload_feature_clear_if_empty() が未使用になってたため警告抑制のためコメントアウトしています。
