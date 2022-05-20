@@ -1,0 +1,1 @@
+89fbec224d8e1fa35e82bf2712c5a5fd3dc06b83 の続きで標準添付ライブラリ timeout の Timeout.timeout の実装で fork した時に main Thread 以外の Thread が殺されてしまうのを考慮してタイマー用 Thread が死んでたら既にあっても作りなおすというようにしています。なるほど。
