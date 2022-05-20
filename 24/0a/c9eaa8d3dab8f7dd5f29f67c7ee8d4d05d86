@@ -1,0 +1,1 @@
+89fbec224d8e1fa35e82bf2712c5a5fd3dc06b83 の Timeout.timeout の実装変更で内部的に利用するために追加したクラスの Timeout::Request#done? にインスタンス変数参照時の排他処理を追加しています。
