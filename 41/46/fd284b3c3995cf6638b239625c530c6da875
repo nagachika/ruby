@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean の Ractor 関係のテストで assert_ractor を利用するように書き替えています。
