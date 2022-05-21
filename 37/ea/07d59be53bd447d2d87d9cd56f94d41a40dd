@@ -1,0 +1,1 @@
+Init_BareVM() 内で rb_vm_t::main_ractor の初期化を Init_native_thread() の呼び出し前に移動しています。また rb_thread_t::ractor の初期設定も th_init() 内から呼び元の rb_thread_alloc() に移動しています。
