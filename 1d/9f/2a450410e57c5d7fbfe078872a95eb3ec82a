@@ -1,0 +1,1 @@
+標準添付ライブラリ racc のテストの assert_output_unchanged という assertion メソッドでエラー時に比較している2つのファイルの diff コマンドでの差分をメッセージに含めるようにしています。
