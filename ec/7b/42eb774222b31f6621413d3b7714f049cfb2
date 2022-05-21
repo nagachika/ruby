@@ -1,0 +1,1 @@
+IO クラスについての rdoc 用コメントに IO.open などの flags に渡す File::BINARY は改行コードの変換についての指定をするだけで external encoding についての指定は含んでないということを追記しています。
