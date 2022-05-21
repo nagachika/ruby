@@ -1,0 +1,1 @@
+拡張ライブラリ io/nonblock で io_nonblock_mode() という関数/マクロを get_fcntl_flags() と解明しています。また fcntl(2) の F_SETFL での呼び出し処理を set_fcntl_flags() という関数に切り出すリファクタリング。
