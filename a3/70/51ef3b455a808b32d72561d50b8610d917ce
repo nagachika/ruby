@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで DateTime.parse のオプション引数 :create_additions を渡していたところを削っています。 JRuby での失敗の回避のためみたいです。
