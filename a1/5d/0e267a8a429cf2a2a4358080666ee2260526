@@ -1,0 +1,1 @@
+拡張ライブラリ json で rb_enc_interned_str() があるかどうかチェックしてある時はバッファ確保時にサイズ 0 で ALLOCA_N() を呼ばないようにしています。rb_enc_interned_str() に NULL を渡して SEGV してしまう不具合があったのでその対策のためみたいです。
