@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#rmtree に FileUtils.rm_rf の各種キーワード引数 noop, verbose, secure に委譲できるように同名のキーワード引数を追加しています。またメソッド内で require "fileutils" するようにしています。
