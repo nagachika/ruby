@@ -1,0 +1,1 @@
+拡張ライブラリ json の rdoc 用コメントに JSON.parse が JSON::ParseError を発生させるということを追記しています。
