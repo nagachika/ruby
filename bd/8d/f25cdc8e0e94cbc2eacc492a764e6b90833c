@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean の lib/did_you_mean/formatters/verbose_formatter.rb というファイルで先頭に警告メッセージなどを追加したため frozen_string_literal のマジックコメントがファイル先頭行でなくなってしまっていたのを修正しています。
