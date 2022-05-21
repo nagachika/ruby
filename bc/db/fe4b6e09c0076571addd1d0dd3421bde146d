@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の gemspecfile で required_ruby_version を 2.6 以降に更新しています。
