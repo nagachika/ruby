@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait と stringio の gemspec ファイルで spec.files に JRuby の時に jar ファイルを追加するようにしています。
