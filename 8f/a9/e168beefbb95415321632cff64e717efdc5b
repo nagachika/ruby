@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http で例外クラスとして Net::HTTPServerException を定義して別名として定数 Net::HTTPClientException にも代入していたのを逆にしています。 また Net::HTTPServerException は rdoc でドキュメント化されないように :nodoc: タグを付けています。
