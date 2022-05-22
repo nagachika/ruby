@@ -1,0 +1,1 @@
+テストファイルの test_jit.rb などを test_mjit.rb と MJIT のテストであることがわかるようにしています。
