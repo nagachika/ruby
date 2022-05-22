@@ -1,0 +1,1 @@
+String#dedup というメソッドを単項演算子メソッドの String#-@ の alias として追加しています。 [ruby-core:107682] [Feature #18595]
