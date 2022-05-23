@@ -1,0 +1,1 @@
+Exception#full_message のキーワード引数の解釈を行なう check_highlight_keyword() および check_order_keyword() でキーワード引数が格納されている Hash を参照するのに rb_hash_aref() を使っていたのを rb_hash_lookup() を利用するようにしています。Hash のデフォルト値を無視するようにしているみたいです。
