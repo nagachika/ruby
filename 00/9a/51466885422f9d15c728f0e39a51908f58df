@@ -1,0 +1,1 @@
+539459abda3f4e086ca060620dee2586ebfed873 で thread_pthread.c に追加した native_thread_native_thread_id() の対応を revert しています。 preprocessor 分岐によって宣言されてない変数の参照ができてしまってたようです。
