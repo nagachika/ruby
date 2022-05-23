@@ -1,0 +1,1 @@
+configure で macOS の時に 319afed20fba8f9b44611d16e4930260f7b56b86 で導入した __thread という修飾子でコンパイラに変数を thread local storage として扱うようにする機能がサポートされているかチェックするため preprocess だけでなくコンパイルまで実施するようにしています。
