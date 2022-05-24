@@ -1,0 +1,1 @@
+thread_pthread.c で macOS 10.5 以前をサポートするために古いバージョンでは pthread の id として pthread_threadid_np() のかわりに pthread_mach_thread_np() を使うようにしています。コメントにもちらっと書いてありますがこれ preprocessor での分岐にしなくてもいいんですね。
