@@ -1,0 +1,1 @@
+lib/net/http/exceptions.rb および lib/net/http/responses.rb で Net にネストした Module 群の定義をフルパスでの定義にしていたのをトップレベルに module Net の module 文を書く記法に変更しています。コミットメッセージによると rdoc でのドキュメント化の制御不具合対策のためみたいです。
