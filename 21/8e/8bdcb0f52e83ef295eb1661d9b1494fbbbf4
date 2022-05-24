@@ -1,0 +1,1 @@
+e79983a44885db24b82f25e6fc29def347dd1a9f の続き。 configure で macOS でコンパイラによる thread local storage の修飾子が使えるかのチェックを macOS の最低バージョンのチェックから分離して、結果を RB_THREAD_LOCAL_SPECIFIER_IS_UNSUPPORTED というマクロの定義有無に反映させて thread_pthread.h での preprocessor 分岐に利用するようにしています。
