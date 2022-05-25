@@ -1,0 +1,1 @@
+rb_ractor_set_current_ec() のデバッグ用のコードを RUBY_DEBUG_LOG2() を使うようにしてリファクタリングしています。
