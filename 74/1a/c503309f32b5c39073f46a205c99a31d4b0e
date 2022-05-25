@@ -1,0 +1,1 @@
+native_tls_get() で pthread_getspecific() や TlsGetValue() の戻り値が NULL ポインタだった時に異常終了していたのをやめてそのまま return するようにしています。
