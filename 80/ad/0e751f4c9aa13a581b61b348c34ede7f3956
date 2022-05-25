@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグに使う RMODULE_IS_OVERLAID という定数は不要とのことで削除してかわりに T_MODULE 型オブジェクトを期待しているところで BUILTIN_TYPE() でチェックしたり RUBY_ASSERT() でチェックしたりするようにしています。
