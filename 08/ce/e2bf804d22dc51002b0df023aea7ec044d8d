@@ -1,0 +1,1 @@
+シグナル処理時のスタックを切り替えるための rb_thread_t のメンバー altstack を struct rb_native_thread に移動しています。
