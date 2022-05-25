@@ -1,0 +1,1 @@
+main.c の rb_main() を static 関数にするのと main() 関数のスタイルを修正。
