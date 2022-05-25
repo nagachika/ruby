@@ -1,0 +1,1 @@
+did_you_mean が Exception#message を上書きしないようにしたのが rubygems に影響したそうなので例外メッセージの取得に Exception#detailed_message メソッドが使えたら使うように対応を追加しています。
