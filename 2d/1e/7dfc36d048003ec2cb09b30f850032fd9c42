@@ -1,0 +1,1 @@
+4111028a5cc229c314c2b93271d205206b207088 で廃止されたマクロ THREAD_DEBUG を定義してビルドするテストが GitHub Actions の .github/workflows/compilers.yml の workflow にコメントアウトされた状態ですが存在していたので削除しています。
