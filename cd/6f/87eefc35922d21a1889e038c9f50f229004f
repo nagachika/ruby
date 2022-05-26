@@ -1,0 +1,1 @@
+e77e233935007c418acdcac13de0e76e3b514fb0 で標準添付ライブラリ timeout のタイマー用の Thread をテストの leakchecker.rb で検出されないようにするための処理を Thread.new のブロック内で実行していたので、起動した Thread が動く前にメソッドから抜けると処理されないまま leak check が動きだす可能性があるのでブロック外で Thread.new の戻り値に対して Thread#thread_variable_set を呼ぶように変更しています。
