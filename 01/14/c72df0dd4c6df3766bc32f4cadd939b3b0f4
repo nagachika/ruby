@@ -1,0 +1,1 @@
+template/Makefile.in の clean-local ターゲットで拡張子が .bc, .i, .s などのコンパイラの中間生成物ファイルの削除をするようにしています。
