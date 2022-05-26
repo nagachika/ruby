@@ -1,0 +1,1 @@
+Fiber 用 coroutine の amd64 と arm64 向けの実装で ASAN 対応のための __sanitizer_start_switch_fiber() と __sanitizer_finish_switch_fiber() というコンパイラの組み込み関数? の呼び出しを追加しています。ついでに doc/hacking.md というファイルが追加されていますがこれはコミットミスかも。
