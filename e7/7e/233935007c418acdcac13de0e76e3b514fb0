@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout のタイマー用 Thread をプロセスで 1つだけ保持するようにしたものが make test-all の leak checker にひっかかってしまうので、timeout の実装のほうでそれを意識してスレッド変数の "\0__detached_thread__" というのをセットしておくようにしています。
