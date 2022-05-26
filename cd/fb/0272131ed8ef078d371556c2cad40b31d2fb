@@ -1,0 +1,1 @@
+0114c72df0dd4c6df3766bc32f4cadd939b3b0f4 の続きで template/Makefile.in の clean-local の中間成果物削除で find コマンドを /usr/bin/find に決めうちにしてたのを PATH から検索するように find とだけ書くようにして、また変数 $Q でコマンドの出力を抑制できるようにしています。
