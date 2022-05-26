@@ -1,0 +1,1 @@
+df7a1377e6283ca8645dbf1f0577ebc194337f50 の続きで標準添付ライブラリ timeout の gemspec ファイルの spec.files から除外するファイルに rakelib/ も含めています。そして rakelib/epoch.rake というファイル(サブディレクトリ)も追加されていますがこれはおそらく timeout の upstream からのマージのミスですね。
