@@ -1,0 +1,1 @@
+0de1495f358e9b892dfa63d4b74f59b1d2903703 の続きで compaction が未サポートの環境で GC.compact など compaction 関係の GC モジュールの特異メソッドの定義を rb_f_notimplement() を使うようにしています。respond_to? でチェックできるようにするためとのこと。現状 NotImplementedError 例外を発生させつつ respond_to? で false を返すようにするには C 実装にしてメソッド定義を rb_f_notimplement() にするしかないということですね。 [ruby-core:108543] [Bug #18779]
