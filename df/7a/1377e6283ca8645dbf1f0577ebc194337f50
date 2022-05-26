@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の gemspec ファイルで spec.files を得るのに git ls-files の結果から除外するファイルに CI 関係のファイルも含めるようにしています。
