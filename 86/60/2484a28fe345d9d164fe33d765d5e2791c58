@@ -1,0 +1,1 @@
+901525b1079ac02da0122a76d8e4c3546a7f80f6 の Fiber 用 coroutine の ASAN 対応の続きで __sanitizer_finish_switch_fiber() の第2、3引数に switch 元の struct coroutine_context の stack の情報を渡すようにしています。
