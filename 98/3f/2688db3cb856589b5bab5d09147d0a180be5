@@ -1,0 +1,1 @@
+e77e233935007c418acdcac13de0e76e3b514fb0 でセットした標準添付ライブラリ timeout によるタイマー用の Thread をテスト時の leak checker で無視するコードを tool/lib/leakchecker.rb に追加しています。
