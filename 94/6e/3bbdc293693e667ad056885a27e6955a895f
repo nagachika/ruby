@@ -1,0 +1,2 @@
+Module#autoload の autoload_feature_require() の呼び出しに rb_ensure() を利用していたのをやめて rb_mutex_synchronize() の呼び出しを autoload_feature_require() 内で実行するようにしています。しかしこれ rb_funcall() を呼んでるのでそこで例外が発生したらまずいのではないのかな?
+そしてついでに(?) doc/hacking.md に「よくわからんけどビルドが失敗するって時は git clean -xfd とかで生成ファイル全部消してやりなおしてみるといいよ」みたいなコメントが追加されています。
