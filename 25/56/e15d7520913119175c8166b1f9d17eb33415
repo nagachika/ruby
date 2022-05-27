@@ -1,0 +1,1 @@
+cont.c で局所的にコンパイラの警告を抑制するために COMPILER_WARNING_IGNORED() マクロで pragma を使ってたのがもう不要になっていたみたいで削除しています。
