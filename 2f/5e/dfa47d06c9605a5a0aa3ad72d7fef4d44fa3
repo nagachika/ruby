@@ -1,0 +1,1 @@
+defs/gmake.mk の miniiruby の依存関係の $(YJIT_LIBS) の前に | というのを追加しています。Makefile において依存関係の "|" の後のものは order-only の依存というものになるそうで、$(YJIT_LIBS) が更新される都度 miniruby がビルドされないようにしているようです。
