@@ -1,0 +1,1 @@
+time.c で構造体 struct time_object の tzmode メンバーに localtime を意味する値をセットするのに TZMODE_SET_LOCALTIME() というマクロを利用するようにリファクタリングしています。
