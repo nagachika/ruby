@@ -1,0 +1,1 @@
+doc/hacking.md に ASAN を有効にしてビルドする時に指定する環境変数 ASAN_OPTIONS をコマンドラインのサンプルに追加しています。
