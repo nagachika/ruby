@@ -1,0 +1,1 @@
+Struct のインスタンスであるクラスのインスタンス変数を探索する時に T_ICLASS をスキップするように親クラスを辿る時に RCLASS_SUPER() でなく rb_class_superclass() を利用するように修正しています。特に異常終了したりするわけではなさそうですがこのほうがちょっと効率が良いということでしょう。 https://github.com/ruby/ruby/pull/5664
