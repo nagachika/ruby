@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグの定数 RMODULE_INCLUDED_INTO_REFINEMENT がもう誰も参照してない状態になっていたので定義ごと削除しています。
