@@ -1,0 +1,1 @@
+Numeric#% および Numeric#modulo の rdoc 用コメントのサンプルコードで Rational の例のところで変数名に c (Complex の時の変数名の例として使われている)を使ってしまっていたのを修正しています。
