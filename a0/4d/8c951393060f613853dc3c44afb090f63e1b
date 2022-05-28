@@ -1,0 +1,1 @@
+33fdff3c300cbc2e37f1a0819418be313848754d の変更で flags のビットフラグの定数を定義している enum の RMODULE_IS_REFINEMENT の項目の最後にカンマが消し忘れてたので削除しています。C99 でも末尾カンマはだめなんですっけ。 https://github.com/ruby/ruby/pull/5958
