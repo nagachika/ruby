@@ -1,0 +1,1 @@
+2f5edfa47d06c9605a5a0aa3ad72d7fef4d44fa3 で miniruby の依存関係の $(YJIT_LIBS) を order-only の依存関係にしてたのを revert しています。
