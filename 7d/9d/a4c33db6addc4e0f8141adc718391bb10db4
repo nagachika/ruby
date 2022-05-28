@@ -1,0 +1,1 @@
+defs/gmake.mk の yjit-static-lib-dev ターゲットのコマンドで cd を直書きしてたのを変数 $(CHDIR) を参照するように修正しています。Windows 対応のため? と思ったけどコミットメッセージによると symbolic link 対応のためとのこと。
