@@ -1,0 +1,1 @@
+539459abda3f4e086ca060620dee2586ebfed873 の Fiber 用 coroutine の実装の ppc/ppc64 対応追加で native thread id の古い macOS 用対応を 009a51466885422f9d15c728f0e39a51908f58df で revert していたもののリトライみたいです。 https://github.com/ruby/ruby/pull/5927
