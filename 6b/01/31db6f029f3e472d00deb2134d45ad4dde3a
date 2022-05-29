@@ -1,0 +1,1 @@
+Kernel#p の実装で rb_io_flush() を呼び出す時にも rb_uninterruptible() を経由するようにして割り込みされないようにしています。
