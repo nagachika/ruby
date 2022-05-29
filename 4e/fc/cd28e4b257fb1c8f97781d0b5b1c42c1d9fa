@@ -1,0 +1,1 @@
+io.c の io_binwritev_internal() の 15ebfe28493560f8368fc9a2fe7d9b5913051b84 のリファクタリング時にコピーしてきた errno = EAGAIN の代入の削除。これ要らない気がしたんだけどやっぱり不要だったみたい。
