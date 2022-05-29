@@ -1,0 +1,1 @@
+rubygems の gem update サブコマンドの --install-dir 指定があった時にそれを利用していなかったところがあったのを修正しています。
