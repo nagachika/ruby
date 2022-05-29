@@ -1,0 +1,1 @@
+io.c の io_allocate_write_buffer() で書き込み用のバッファを新規確保してなくても rb_io_t::write_lock が未初期化なら mutex を初期化するようにしています。
