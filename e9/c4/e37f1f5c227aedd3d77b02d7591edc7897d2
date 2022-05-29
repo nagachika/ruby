@@ -1,0 +1,1 @@
+rubygems の gem update サブコマンドの実装の Gem::Commands::UpdateCommand#highest_remote_name_tuple で引数の spec から platform などが一致しているものを絞る処理は呼び元で行なわれているため冗長とのことで削除しています。
