@@ -1,0 +1,1 @@
+abd473928ec54e2ee990d178e42f2f544f21b041 で変更した Enumerable#slice_after, #slice_when, #chunk_while の rdoc 用コメントの説明が間違っていたとして revert しています。 https://github.com/ruby/ruby/pull/5952
