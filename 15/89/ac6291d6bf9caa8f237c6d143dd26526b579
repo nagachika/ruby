@@ -1,0 +1,1 @@
+io.c の io_binwrite_string() や io_binwritev_internal() で書き込み用の関数が書き込んだサイズとして 0 を返した時に errno = EAGAIN をセットしておくようにしています。
