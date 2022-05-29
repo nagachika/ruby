@@ -1,0 +1,1 @@
+ce23cfa5182bb53e8b6555fb6a5b2846cd559922 と同様に io_binwritev() でバッファを全て書き出すまでリトライしていたのをそこから呼ぶ io_binwritev_internal() (元は call_writev_internal() という関数名だったのを改名している)内でループするようリファクタリングしています。コミットメッセージをみると i_binwritev() を atomic にする、とありますがなにか機能的な意味があるのかなこれ?
