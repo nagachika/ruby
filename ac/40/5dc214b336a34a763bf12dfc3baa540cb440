@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の object space の page の内容を出力する関数で未使用の slot の表示に freelist の次の要素のアドレスを追加しています。変数名は klass となってるけたぶんそういうことだと思う。
