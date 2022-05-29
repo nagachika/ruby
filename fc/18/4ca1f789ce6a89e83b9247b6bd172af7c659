@@ -1,0 +1,1 @@
+メモリを特定の型の配列として扱うための API Memory View の lookup_memory_view_entry() 内で引数のクラスの継承関係を辿るのに rb_class_get_superclass() のかわりに Class#superclass の実装である rb_class_superclass() を利用するようにしています。 adc709adb8c7fbe83a20b7c9b554856c98346a4b と同様に不要な T_ICLASS をスキップするためのようです。
