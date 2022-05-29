@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグで T_CLASS 型の時に使う定数を FL_USER5〜FL_USER8 の範囲を使って定義していたのを FL_USER0〜FL_USER3 の範囲に移動しています。軽く grep した感じで RUBY_FL_SINGLETON が FL_USER0 で被ったりしてるけど大丈夫なのかな?
