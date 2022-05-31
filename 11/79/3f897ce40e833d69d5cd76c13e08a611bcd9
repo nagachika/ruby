@@ -1,0 +1,1 @@
+template/Makefile.in で変数 YJIT_LIBS と OBJEXT をその場で展開せずに変数の参照として埋め込むようにしています。
