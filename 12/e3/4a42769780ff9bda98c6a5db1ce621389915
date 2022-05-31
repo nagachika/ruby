@@ -1,0 +1,1 @@
+rubyspec の StringIO の行分割系メソッド群(each, readlines など)のテストを 609d73e8925f807786686caf635178bb1de74256 のパラグラフモードの修正に追随して変更しています。
