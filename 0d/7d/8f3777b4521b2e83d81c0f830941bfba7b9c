@@ -1,0 +1,1 @@
+bundler のテストで symbolic link を作るために標準添付ライブラリ fileutils を使ってたのを File.symlink を使うようにして fleutils 不要にしています。
