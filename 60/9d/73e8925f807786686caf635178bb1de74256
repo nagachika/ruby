@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#each や StringIO#readlines などで区切り文字として空文字列が指定され複数の改行を1つの区切りとして扱うパラグラフモードで呼び出しつつキーワード引数 chomp: true を指定した時に改行が全て消えてなかったのを修正しています。 [ruby-core:108500] [Bug #18768]
