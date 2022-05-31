@@ -1,0 +1,1 @@
+d3e986d9ab9a880b58a0b4fc68dadc2b10f4cf12 の続きで拡張ライブラリ stringio で文字列の mode 指定から Encoding を抜き出す処理で internal と external の Encoding の解釈の順序が間違ってた? のを修正しています。
