@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で StringIO#each や #readlines で区切り文字の引数とキーワード引数 chomp: true を渡すと無限ループに陥いっていた不具合を修正しています。 https://github.com/ruby/stringio/pull/30 [Bug #18769]
