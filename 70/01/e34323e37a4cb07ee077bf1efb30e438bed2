@@ -1,0 +1,1 @@
+bundler のテストで Windows 環境で skip していたテストを Tempfile を利用しないように書きなおして修正しています。
