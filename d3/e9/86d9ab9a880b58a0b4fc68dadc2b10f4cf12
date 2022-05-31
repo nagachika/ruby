@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#set_encoding に ":" で区切った external encoding と internal encoding の両方を指定する記法に対応するようにしています。
