@@ -1,0 +1,1 @@
+373dabe00a71214e12702ff1ccda88f865b504c4 と同じく bundler が lockfile を File#flock でロックする時に無視する例外に Errno::EROFS も追加しています。
