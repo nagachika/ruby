@@ -1,0 +1,1 @@
+Thread の IO 待ち中の kill についてのテストが FreeBSD 12 で失敗するとのことで omit でスキップするようにしています。  [ruby-core:107790] [Bug #18613]
