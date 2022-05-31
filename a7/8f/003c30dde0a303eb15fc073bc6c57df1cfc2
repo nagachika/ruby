@@ -1,0 +1,1 @@
+File#flock のテストも FreeBSD で失敗することがあるとのことで omit で除外するようにしています。 [ruby-core:107790] [Bug #18613]
