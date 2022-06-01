@@ -1,0 +1,1 @@
+doc/hacking.md を削除して doc/contributing/building_ruby.md と doc/contributing/testing_ruby.md に記述を移動しているようです。 https://github.com/ruby/ruby/pull/5963
