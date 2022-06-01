@@ -1,0 +1,1 @@
+rubygems の Rust 実装の gem のテスト用のサンプルの Cargo.lock ファイルのパッケージのバージョンを更新しています。dependabot で更新するように(upstream で)設定されているみたいですね。
