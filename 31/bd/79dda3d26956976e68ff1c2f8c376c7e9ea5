@@ -1,0 +1,1 @@
+template/Makefile.in の DTRACE_DEPENDENT_OBJS 変数に $(YJIT_OBJ) を追加しています。 [ruby-core:107071] [Bug #18480]
