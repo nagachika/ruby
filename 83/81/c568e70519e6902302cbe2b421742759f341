@@ -1,0 +1,1 @@
+ebb534801f7032476fa069be11ee1e52f54819f5 のさらに続きで rubygems の Gem::Specification の Marshal.load 対応で文字列を load した時に定数 YAML がなくて例外が発生したと思われる時には Psych を YAML に代入(Object.const_set)してから再実行するように fallback しています。
