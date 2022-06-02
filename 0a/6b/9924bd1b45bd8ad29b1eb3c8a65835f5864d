@@ -1,0 +1,1 @@
+bundler の Bundler::StubSpecification に full_gem_path= というメソッドを追加しています。 default gems 用の specification に使われるクラスみたいですね。 bundle install 時の動作のために setter が不足してたみたいです。
