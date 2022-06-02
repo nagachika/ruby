@@ -1,0 +1,1 @@
+rubygems の Gem::Specification の Marshal.load 用の _load メソッドで load した配列から Psych::PrivateType というクラスのインスタンスを削る処理がもう不要になってたとのことで削除しています。
