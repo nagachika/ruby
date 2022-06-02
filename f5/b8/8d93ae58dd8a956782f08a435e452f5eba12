@@ -1,0 +1,1 @@
+bundler の Bundler::StubSpecification#full_gem_path で method_missing を呼ぶ fallback を削除しています。なんとなく古式ゆかしいメタプログラミング作法を感じますね。
