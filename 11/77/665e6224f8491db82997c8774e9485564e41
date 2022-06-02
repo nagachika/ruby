@@ -1,0 +1,1 @@
+bundler の bundle remove サブマンドの実装に Bundler.reset_paths! の呼び出しを追加しています。コミットメッセージによると Gemfile.lock から削除した gem も消すために必要だったみたいです。
