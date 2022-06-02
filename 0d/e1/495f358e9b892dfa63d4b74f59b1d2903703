@@ -1,1 +1,1 @@
-GC モジュールの GC.cmpact など compaction 関係の特異メソッドを gc.rb の ruby 実装から gc.c の C 実装に戻しています。次のコミットで compaction が未サポートの環境で rb_f_notimplement() で NotImplementedErrr 例外を発生するようにするためとのこと。 [ruby-core:108543] [Bug #18779]
+GC モジュールの GC.compact など compaction 関係の特異メソッドを gc.rb の ruby 実装から gc.c の C 実装に戻しています。次のコミットで compaction が未サポートの環境で rb_f_notimplement() で NotImplementedErrr 例外を発生するようにするためとのこと。 [ruby-core:108543] [Bug #18779]
