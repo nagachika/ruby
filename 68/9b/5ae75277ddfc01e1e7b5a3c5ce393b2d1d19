@@ -1,0 +1,1 @@
+defs/gmake.mk から YJIT 関連のルールを yjit/yjit.mk というファイルに分離して include で取り込むようにしています。
