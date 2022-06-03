@@ -1,0 +1,1 @@
+0de1495f358e9b892dfa63d4b74f59b1d2903703 および 0c36ba53192c5a0d245c9b626e4346a32d7d144e で GC.compact 関連のメソッドの実装を C 実装に戻して GC.compact がサポートされてない環境で respond_to? で判定できるようにするため rb_f_notimplement() を使うようにしてたもののうち GC.verify_compaction_references はまた ruby 実装にして、compaction がサポートされない環境でのみ C の rb_define_singleton_method() によるメソッド定義をするようにしています。 [ruby-core:108543] [Bug #18779]
