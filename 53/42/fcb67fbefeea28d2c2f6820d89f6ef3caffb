@@ -1,0 +1,1 @@
+Module#autoload および Kernel#autoload の rdoc 用コメントの call-seq の第1引数の名前を module から const に変更しています。autoload で定義させるのは Module/Class に限らないので、ということでしょう。
