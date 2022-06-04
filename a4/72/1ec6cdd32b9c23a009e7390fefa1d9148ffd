@@ -1,0 +1,1 @@
+Numeric#div の rdoc 用コメントに Complex もこの実装を使っていると挙げられていましたがこれは事実と異なる(Complex では undef されている)ので削除しています。
