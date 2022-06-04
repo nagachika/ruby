@@ -1,0 +1,1 @@
+拡張ライブラリ nkf の定数テーブル encoding_name_to_id_table や nkf_char に static 修飾子や const 修飾子をつけたり、いくつかの構造体の typedef にメンバーに const 修飾子をつけてたのをかわりに構造体全体に const をつけるように変更したりしています。この場合全メンバーに const をつけたのと同じ意味になるのかな。 https://github.com/ruby/nkf/pull/1
