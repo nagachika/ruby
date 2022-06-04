@@ -1,0 +1,1 @@
+さらに Module#autoload と Kernel#autoload の rdoc 用コメントに既に定数が定義されていた時や別の autoload が設定されていた時の挙動について追記しています。
