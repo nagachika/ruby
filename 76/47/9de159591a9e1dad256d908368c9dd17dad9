@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の lib/rdoc/ri/driver.rb に win32console を require してるところがありましたが使ってないとのことで削除しています。
