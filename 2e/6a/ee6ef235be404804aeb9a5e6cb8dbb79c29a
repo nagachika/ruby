@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の .gemspec ファイルで spec.extra_rdoc_files に加えるため列挙していたドキュメントファイル群を spec.files から拡張子で自動的に抽出するように変更しています。
