@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の 323acd263aff3cc29786a55d4604f240a9cbab46 の変更で不要になった RDoc::RI::Driver#in_path? メソッドの実装も削除しています。
