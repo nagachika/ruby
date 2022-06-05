@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の lib/rdoc/ri/driver.rb でコマンド実行の JRuby 向けの独自の実装をしていたのを常に IO.popen を利用するように変更しています。
