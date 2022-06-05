@@ -1,0 +1,1 @@
+rb_internal_thread_add_event_hook() と rb_internal_thread_remove_event_hook() という C API を追加して内部的な Thread の切り替え時に GVL の確保前後と解放後に呼び出される C のコールバック関数を登録できるようにしています。ただし Windows 版では C API は用意されるものの中身は空になっています。コールバック関数から ruby のメソッド呼び出しや例外発生などはできないという規約とのこと。チケットのほうをみると Thread を使ったアプリケーションのチューニングのためのメトリクスを得るためということみたいです。 [ruby-core:106069] [Feature #18339]
