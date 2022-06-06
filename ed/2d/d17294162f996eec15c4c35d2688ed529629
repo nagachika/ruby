@@ -1,0 +1,1 @@
+例外メッセージを表示用に整形する Exception#detailed_message のキーワード引数 highlight の処理をする check_highlight_keyword() で if 文による分岐をシンプルな論理演算と RBOOL() マクロの利用にリファクタリングしています。
