@@ -1,0 +1,1 @@
+rubygems で rubygems/requirement.rb を常に require してたのを autoload を使って遅延ロードするように変更しています。
