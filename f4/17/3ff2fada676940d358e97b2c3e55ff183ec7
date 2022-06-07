@@ -1,0 +1,1 @@
+doc/standard_library.rdoc の debug.gem を default gems のセクションから bundled gems のセクションに移動しています。
