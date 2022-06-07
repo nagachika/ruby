@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の .gemspec ファイルで spec.files を git ls-files コマンドの結果から抽出するように書かれてたのを Dir.glob を使った書きかたに変更し、さらに JRuby 対応のための分岐を追加しています。
