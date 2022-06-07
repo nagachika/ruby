@@ -1,0 +1,1 @@
+configure に不要な coroutine_type の代入があったのを削除しています。
