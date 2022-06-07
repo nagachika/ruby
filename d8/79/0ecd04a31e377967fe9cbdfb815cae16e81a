@@ -1,0 +1,1 @@
+rbconfig.rb の RbConfig::CONFIG に "COROUTINE_TYPE" というキーを追加して configure 時の Fiber 用の coroutine 実装の選択結果を取得できるようにしています。 https://github.com/ruby/ruby/pull/5976
