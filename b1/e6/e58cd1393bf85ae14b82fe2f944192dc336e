@@ -1,0 +1,1 @@
+9125374726fbf68c05ee7585d4a374ffc5efc5db で追加した GVL の確保/解放のコールバック関数登録の C API のテストが CI で不安定なので fork した子プロセスで Kernel#exit! で終了させたり、子プロセス内で assert_predicate を呼んでたのをチェック対象を pipe 経由で親プロセスに渡してそこで assertion メソッドを呼ぶようにするなどの変更をしています。
