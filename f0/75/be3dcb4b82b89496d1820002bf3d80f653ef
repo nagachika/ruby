@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で Exception#to_s を再定義していたのを Exception#detailed_message を再定義するように変更しています。 https://github.com/ruby/did_you_mean/pull/177
