@@ -1,0 +1,1 @@
+9d927204e7b86eb00bfd07a060a6383139edf741 で Exception#inspect の改行をエスケープしたのを revert しています。
