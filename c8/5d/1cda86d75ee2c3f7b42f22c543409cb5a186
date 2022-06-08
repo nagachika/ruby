@@ -1,0 +1,1 @@
+Module#const_source_location を autoload が設定されていたのに直接ロードされて定義された定数に対して呼ぶとファイル名が取得できていなかったのを修正しています。 [ruby-core:107846] [Bug #18624]
