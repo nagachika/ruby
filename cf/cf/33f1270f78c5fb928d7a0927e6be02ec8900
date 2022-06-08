@@ -1,0 +1,1 @@
+いろんなコンパイラオプションを試す GitHub Actions の workflow .github/workflows/compilers.yml で MJIT のテストが失敗していたのを gcc-11 への -Wl,-z,now というオプションを LDFLAGS に渡すようにして skip していたテストを戻しています。 [ruby-core:108549] [Bug #18781]
