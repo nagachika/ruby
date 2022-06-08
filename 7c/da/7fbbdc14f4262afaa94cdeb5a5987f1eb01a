@@ -1,0 +1,1 @@
+Module#undefined_instance_methods というメソッドを追加して Module#undef で未定義にされたメソッドの一覧が取得できるようにしています。 [ruby-core:76732] [Feature #12655]
