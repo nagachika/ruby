@@ -1,0 +1,1 @@
+Range#cover? が endless Range を receiver と引数の両方に渡した場合に期待と異なる結果を返すことがあったので修正しています。コミットログだと beginless range のほうの挙動を変更したというふうに読めるけど実装は逆で開始点が同じ endless range 同士が true を返すようになっていますね。 [ruby-core:105176] [Bug #18155]
