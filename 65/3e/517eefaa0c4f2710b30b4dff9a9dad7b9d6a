@@ -1,0 +1,1 @@
+YJIT の Rust 実装に取り込む C のシンボルや型を追加しています。 https://github.com/ruby/ruby/pull/5943
