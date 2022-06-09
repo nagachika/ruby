@@ -1,0 +1,1 @@
+internal/imemo.h に rb_imemo_new() という関数の prototype 宣言が重複して宣言されてたので1つ削除しています。
