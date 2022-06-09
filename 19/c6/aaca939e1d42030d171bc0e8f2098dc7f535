@@ -1,0 +1,1 @@
+9125374726fbf68c05ee7585d4a374ffc5efc5db で追加した GVL 確保/解放時のコールバック関数登録の C API で登録したコールバックを thread_sched_to_running_common() 内で呼ぶ位置を関数の先頭に移動して Scheduler が未初期化の時? にフックが呼ばれてなかったのを修正しています。
