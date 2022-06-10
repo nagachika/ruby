@@ -1,0 +1,1 @@
+MJIT のテストで macOS で作られる .bundle.dSYM/ が残るために失敗するテストを skip するようにしています。
