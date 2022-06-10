@@ -1,0 +1,1 @@
+gc.c の gc_sweep_finish_size_pool() で空きを作るために major GC をトリガーする条件を強めて、GC しても page が増えない heap で誤って GC を起動してしまうことがあったみたいなのでこれを避けるためとのこと。rb_size_pool_t::allocatable_pages ってなにが入ってるんだろう。
