@@ -1,0 +1,1 @@
+fafe68185c1c39949d69754cfac5a15c3438ec08 とも関連して構造体 rb_size_pool_t のメンバー force_major_gc_count を Variable Width Allocation が有効でないビルドの時にも定義するようにしています。
