@@ -1,0 +1,1 @@
+5a4f997b2e8e819ed40731cd769826112072a9d4 での ruby_debug_log_filter() の引数追加に vm_debug.h での宣言を追随させています。
