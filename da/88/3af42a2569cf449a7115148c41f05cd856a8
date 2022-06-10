@@ -1,0 +1,1 @@
+MJIT で MinGW 以外の Windows 環境では JIT コンパイルで .c のソースファイルから一旦 .o ファイルを作るのをやめて共有ライブラリへ直接コンパイルするようにしています。 https://github.com/ruby/ruby/pull/5987
