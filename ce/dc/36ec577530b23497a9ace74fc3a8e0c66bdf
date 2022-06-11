@@ -1,0 +1,1 @@
+MJIT のテスト test/ruby/test_mjit.rb で不要になった shellwords の require を削除しています。
