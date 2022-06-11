@@ -1,0 +1,1 @@
+https://github.com/ruby/ruby/pull/5970 の RubyVM::YJIT.dump_exit_locations の追加時に追加した YJIT のテストで toplevel return する条件に RubyVM::YJIT.trace_exit_locations_enabled? を加えてしまっていたので、起動する子プロセスで判定させるように修正しています。 https://github.com/ruby/ruby/pull/5995
