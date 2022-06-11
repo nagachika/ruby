@@ -1,0 +1,1 @@
+YJIT のトレース情報をダンプする RubyVM::YJIT.dump_exit_locations というメソッドを新設して --yjit-trace-exits オプションをつけて実行された時に exit した位置(この exit はプロセスの終了じゃなくて JIT コンパイルされた処理から抜けるという意味かな)の情報をダンプするようにしています。 https://github.com/ruby/ruby/pull/5970
