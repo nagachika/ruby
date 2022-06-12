@@ -1,0 +1,1 @@
+bundler の Bundler::RubygemsIntegration#spec_from_gem で Exception で全ての例外を rescue して rescue 節内で if 文でメッーセージ内容などで判定してたのが Gem::Security::Exception を rescue するだけで良くなってたとのことで変更しています。
