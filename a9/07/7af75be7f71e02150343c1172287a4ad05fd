@@ -1,0 +1,1 @@
+詳細わかりませんが bundler の Bundler::Source::Rubygems#install で cache されている gem を使う条件を少し修正しています。
