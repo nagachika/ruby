@@ -1,0 +1,1 @@
+YJIT の Rust 実装で未使用になっていた string_p() という関数の定義を削除。また String を継承した子クラスを使った YJIT のテストを追加しています。 https://github.com/ruby/ruby/pull/5999
