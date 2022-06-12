@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems#fetch_gem で cache されている gemspec ファイルが既に存在していた時に早期 return して不要な通信を抑制するようにしています。
