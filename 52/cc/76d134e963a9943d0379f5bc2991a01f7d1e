@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems#install で spec.loaded_from を設定するパスがありましたが、呼び元で既に設定されているはずだからとのことで削っています。
