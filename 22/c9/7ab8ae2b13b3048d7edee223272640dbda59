@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems で cache のファイルパスを組み立てるのを package_path というメソッドに切り出すリファクタリング。
