@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems#install で Bundler::RemoteSpecification#__swap__ を呼び出しているところを rescue 節つきの begin の中から外に出しています。捕捉対象の例外発生しないはずだからとのこと。コミットログみるとエラーが発生しなはずって書いてあるけど Bundler::RemoveSpecification#__swap__ の実装みたらおもいっきり raise している(例外クラスが異なるのでこの変更は問題なさそうだけど)けど。
