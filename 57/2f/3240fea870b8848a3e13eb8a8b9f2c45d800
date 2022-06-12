@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems#spec_from_gem の先頭で require "rubygems/security" してたのが不要とのことで削っています。
