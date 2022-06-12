@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems#fetch_gem の先頭で spec.remote のチェックをしてたのが冗長とのことで削っています。
