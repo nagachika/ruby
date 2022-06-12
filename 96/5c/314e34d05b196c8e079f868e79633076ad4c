@@ -1,0 +1,1 @@
+bundler の Bundler::RubygemsIntegration#spec_from_gem で Gem::Security::Exception 例外を捕捉してたのをやめて呼び元の Bundler::Source::Rubygems#install で捕捉するようにリファクタリングしています。
