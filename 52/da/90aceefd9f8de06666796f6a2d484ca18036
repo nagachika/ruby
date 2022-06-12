@@ -1,0 +1,1 @@
+f4747958e546a5d3f2c0033b19c6ad69ce7278b1 のリファクタリングで引数を追加した exec_recursive() の呼び元のひとつである rb_exec_recursive_outer() を rb_exec_recursive_outer_mid() と改名してここも引数でメソッドの ID を受け付けるようにして、関数 exec_recursive_outer() からの呼び出し時に "exec_recursive_outer" の ID を明示的に渡すようにしています。 VM の最適化命令 opt_aref や opt_aset が hash メソッドを呼び出す時に control frame を積まないため再帰チェックが 1回ぶん漏れてしまうことがあったのを修正しているようです。
