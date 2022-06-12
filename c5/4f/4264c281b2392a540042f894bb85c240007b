@@ -1,0 +1,1 @@
+yjit.c の rb_yjit_get_stats() の prototype 宣言が重複していたのでひとつ削除しています。 https://github.com/ruby/ruby/pull/5997
