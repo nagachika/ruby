@@ -1,0 +1,1 @@
+object.c の rb_obj_copy_ivar() に RUBY_ASSERT() による struct RBasic::flags のチェックを追加しています。コピー元が ROBJECT_EMBED フラグが立ってない時にコピー先のオブジェクトも ROBJECT_EMBED が立ってないはず、というのをチェックしています。
