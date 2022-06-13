@@ -1,0 +1,1 @@
+rubygems の Gem::Specification.from_yaml で require_paths という項目が配列の配列になってしまっている場合があるとのことで flatten! しておくという workaround を追加しています。修正は rubygems ですがテストは bundler の spec のほうに追加されていますね。
