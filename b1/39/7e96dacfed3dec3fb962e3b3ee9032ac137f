@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo で d020334e9ee6d978bbed09ce96a03a6d6d2490a6 でロードするライブラリとして libncursesw.so.6 と libncurses.so.6 を追加していたのを revert しています。
