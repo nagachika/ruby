@@ -1,0 +1,1 @@
+io.c の io_binwrite_string() で io_binwrite_string_internal() の文字列が 0 で1バイトも書き込めなかった時に errno に EWOULDBLOCK をセットしておくようにしています。後の rb_io_maybe_wait_writable() でブロックさせるためみたいですね。
