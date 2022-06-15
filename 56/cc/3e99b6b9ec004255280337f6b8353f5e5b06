@@ -1,0 +1,1 @@
+文字列オブジェクトのバッファの埋め込みが Variable Width Allocation でサイズの異なる slot の heap pool 間の移動が GC.compact で可能になるように対応しているようです。
