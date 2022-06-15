@@ -1,0 +1,1 @@
+MJIT の MinGW でのサポートを停止してそのための分岐などを削除しています。 https://github.com/ruby/ruby/pull/6012 [ruby-core:108867] [Feature #18824]
