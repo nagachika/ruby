@@ -1,0 +1,1 @@
+MJIT のテストに Process.waitall の呼び出しが MJIT の worker プロセスの影響を受けないことを確認するテストを追加しています。
