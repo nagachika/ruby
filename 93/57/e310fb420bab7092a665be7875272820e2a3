@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で libyaml をダウンロードする処理が digest の LoadError で失敗していたそうなので LoadError を rescue して手動での libyaml のインストールを促すメッセージの例外を発生させるようにしています。
