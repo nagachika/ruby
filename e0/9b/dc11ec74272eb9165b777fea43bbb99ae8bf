@@ -1,0 +1,1 @@
+bundler のテストの helper で環境変数 RUBYLIB から git リポジトリ内のファイルパスだけを残すようにしてく前処理を追加しています。 asdf-ruby という bundler のプラグイン? が RUBYLIB を設定するのでその影響を受けないようにするためだそうです。
