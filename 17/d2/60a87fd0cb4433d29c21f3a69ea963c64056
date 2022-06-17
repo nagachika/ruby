@@ -1,0 +1,1 @@
+52da90aceefd9f8de06666796f6a2d484ca18036 で rb_exec_recursive_outer() という関数を rb_exec_recursive_outer_mid() と改名していたのを revert して、別途 rb_exec_recursive_outer() という wrapper 関数を定義するように変更しています。公開 API だったので消すのはまずかったということみたいです。
