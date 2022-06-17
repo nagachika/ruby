@@ -1,0 +1,1 @@
+parse.y の no_blockarg() で引数の node の NULL チェックは不要とのことで削っています。
