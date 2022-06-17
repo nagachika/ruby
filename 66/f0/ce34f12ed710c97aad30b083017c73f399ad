@@ -1,0 +1,1 @@
+MIT の実装で JIT コンパイル中の ISeq を保護するため格納しておく配列の compiling_iseqs という static 変数を削除しています。独自の native thread でなく Ractor を利用するようになったので ruby の GC にまかせることができるようになったからですかね。
