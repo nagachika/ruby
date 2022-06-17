@@ -1,0 +1,1 @@
+MJIT の実装で子プロセスのコンパイラの終了による SIGCHLD の受信からの通知を受け取る mjit_notify_waitpid() で current_cc_unit->iseq が NULL のケースというのを考慮するように分岐を追加しています。
