@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の rb_backtrace という関数で lldb_init() による初期化がまだ呼ばれてなかったら呼ぶという guard を追加しています。
