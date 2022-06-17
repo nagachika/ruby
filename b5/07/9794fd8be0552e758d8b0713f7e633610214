@@ -1,0 +1,1 @@
+MJIT のコンパイル処理停止時の mjit_wait() の呼び出しに struct rb_mjit_unit::compact_p のフラグを考慮する mjit_wait_unit() という wrapper 関数を定義して stop_worker() からこれを使うように修正しています。
