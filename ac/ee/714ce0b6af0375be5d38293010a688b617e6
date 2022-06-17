@@ -1,0 +1,1 @@
+misc/lldb_cruby.py に rb_rclass_ext という関数を追加して T_CLASS 型のオブジェクトを指定して rb_classext_t 構造体の内容を表示する機能を追加しています。
