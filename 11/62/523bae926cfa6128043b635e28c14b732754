@@ -1,0 +1,1 @@
+MJIT でコンパイラを起動するための Thread ではない native thread を立てていたのをやめて Ractor を利用して並列処理させるように変更しています。 https://github.com/ruby/ruby/pull/6006 [ruby-core:108925] [Misc #18830]
