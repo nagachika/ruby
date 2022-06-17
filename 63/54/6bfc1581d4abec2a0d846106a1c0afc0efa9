@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Content-Range ヘッダのフォーマットが不正だった時に Net::HTTPHeaderSyntaxError 例外を発生させていたのを nil を返すように変更しています。コミットログによると Net::HTTPHeader#initialize_http_header の変更もしたつもりっぽいですが含まれていないですね。 pull request をみると変更したけど master ブランチで既に同じ変更がされていたのでその差分は消えたみたいですね。 https://github.com/ruby/ruby/pull/1018 [Bug #11450]
