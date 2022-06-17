@@ -1,0 +1,1 @@
+66f0ce34f12ed710c97aad30b083017c73f399ad の static 変数 compiling_iseqs 削除時に mswin 版実装での free_compiling_iseqs() の呼び出し箇所が残ってたので追加で削除しています。
