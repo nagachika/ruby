@@ -1,0 +1,1 @@
+e09bdc11ec74272eb9165b777fea43bbb99ae8bf の bundler のテストで環境変数 RUBYLIB の内容を変更する処理を revert しています。不要だったのか別の問題があったのか……。
