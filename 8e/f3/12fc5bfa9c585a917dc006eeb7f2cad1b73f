@@ -1,0 +1,1 @@
+mjit_notify_waitpid() でコンパイラのプロセスがエラーを返した時の処理で current_cc_unit->compact_p のチェックを追加しています。
