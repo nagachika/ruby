@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の初期化処理で enum imemo_type の型の値を取得しておくようにしています。
