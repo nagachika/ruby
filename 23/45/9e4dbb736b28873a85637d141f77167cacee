@@ -1,0 +1,1 @@
+vm.c から RubyVM::MJIT のメソッド群を mjit.rb という ruby 実装に移行させています。
