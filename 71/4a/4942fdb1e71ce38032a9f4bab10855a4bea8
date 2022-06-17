@@ -1,0 +1,1 @@
+56cc3e99b6b9ec004255280337f6b8353f5e5b06 で Variable Width Allocation によるサイズの異なる slot の pool 間を T_STRING 型オブジェクトを埋め込みバッファの必要なサイズに応じて移動できるようにした時に不要になってた rb_str_shared_root_p() という関数の定義を削除しています。
