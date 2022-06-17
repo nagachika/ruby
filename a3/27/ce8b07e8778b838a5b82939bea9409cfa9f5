@@ -1,0 +1,1 @@
+1162523bae926cfa6128043b635e28c14b732754 で MJIT の実装が native thread を別に起動しなくなったために不要になった rb_thread_create_mjit_thread() と mjit_worker() という関数の実装を thread_pthread.c および thread_win32.c から削除しています。
