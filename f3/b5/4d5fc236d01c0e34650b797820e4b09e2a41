@@ -1,0 +1,1 @@
+configure に $target_cpu が aarch64 の時に -mbranch-protection=pac-ret や -msign-return-address=all といったコンパイラオプションを追加するようにチェック追加しています。
