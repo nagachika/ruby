@@ -1,0 +1,1 @@
+さらに freeze されたオブジェクトのインスタンス変数を Object#instance_variable_set で変更しようとした時のテストを追加しています。
