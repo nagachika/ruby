@@ -1,0 +1,1 @@
+FreeBSD で File#flock の File::LOCK_SH を渡すテストが失敗するそうで skip するようにしています。
