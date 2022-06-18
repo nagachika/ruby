@@ -1,0 +1,1 @@
+2223eb082afa6d05321b69df783d4133b9aacba6 で revert された 63546bfc1581d4abec2a0d846106a1c0afc0efa9 の標準添付ライブラリ net/http の Content-Range ヘッダの不正フォーマット時の処理の変更のリトライ。Content-Range ヘッダの単位のところに bytes 以外の文字列がきても受け付けるようにしています。
