@@ -1,0 +1,1 @@
+bundler のテストの helper で環境変数 BUNDLE_APP_CONFIG と BUNDLE_SILENCE_ROOT_WARNING が設定されているとテストに影響あるようなので前処理でクリアしておくようにしています。
