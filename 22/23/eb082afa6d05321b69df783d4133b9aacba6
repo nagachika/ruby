@@ -1,0 +1,1 @@
+63546bfc1581d4abec2a0d846106a1c0afc0efa9 で標準添付ライブラリ net/http の Content-Range のフォーマットが不正だった時に例外を発生させず nil を返すようにしたのを revert しています。
