@@ -1,0 +1,1 @@
+Source Encoding を返す __ENCODING__ という特殊変数が返す Encoding が SCRIPT_LINES__ という特殊な定数や RubyVM::AbstractSyntaxTree.parse のキーワード引数 keep_script_lines: true が指定された時にスクリプトの Encoding でなく locale? encoding を返してしまっていた不具合を修正しています。 [ruby-core:108886] [Bug #18827]
