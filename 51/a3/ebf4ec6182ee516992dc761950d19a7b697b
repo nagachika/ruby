@@ -1,0 +1,1 @@
+compar.c の cmp_between() で RBOOL() を使って簡易に書くようにリファクタリングしています。
