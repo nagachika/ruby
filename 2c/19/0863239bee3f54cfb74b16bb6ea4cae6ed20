@@ -1,0 +1,1 @@
+79eaaf2d0b641710613f16525e4b4c439dfe854e の変更で GC_CAN_COMPILE_COMPACTION マクロが偽の時に未使用のままの static 変数が残るようになってたので再び preprocessor の分岐で囲むように修正しています。
