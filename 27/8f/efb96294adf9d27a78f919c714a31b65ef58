@@ -1,0 +1,1 @@
+ENV.update の引数に Hash#update と同様に複数の Hash を受付けるように拡張しています。 [ruby-core:105876] [Feature #18279]
