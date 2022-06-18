@@ -1,0 +1,1 @@
+文字列の coderange が ENC_CODERANGE_7BIT かどうかチェックしている部分を is_ascii_string() という関数の呼び出しにリファクタリングしています。
