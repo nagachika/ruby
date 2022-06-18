@@ -1,0 +1,1 @@
+GC.compact をサポートしているかどうかのマクロ GC_COMPACTION_SUPPORTED を GC_CAN_COMPILE_COMPACTION と改名しています。 [ruby-core:108908] [Bug #18829]
