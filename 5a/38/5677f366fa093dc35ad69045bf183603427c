@@ -1,0 +1,1 @@
+rubygems の Gem::Ext::ExtConfBuilder.build というメソッドで生成するスクリプトに RbConfig::CONFIG の内容を書き変える行を追加していたところを削っています。このクラスはなにをしてるところだろう。
