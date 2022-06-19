@@ -1,0 +1,1 @@
+configure で GCC の 5 でのみ -Wno-maybe-uninitialized オプションを指定して警告抑制していたのを GCC 4 でも抑制するようにしています。
