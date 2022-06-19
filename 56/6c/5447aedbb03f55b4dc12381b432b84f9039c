@@ -1,0 +1,1 @@
+yjit.rb の YJIT.dump_exit_locations メソッドで File.write を使っていたところを File.binwrite を使うように修正しています。
