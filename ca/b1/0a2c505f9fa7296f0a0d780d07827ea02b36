@@ -1,0 +1,1 @@
+gc.c の lock_page_body()/unlock_page_body() から共通部分を protect_page_body() という関数に切り出すリファクタリング。 Windows 版とそれ以外とで if 文の条件部だけを preprocessor 分岐で分けていたのでブロックの開始 brace の対応がおかしくなってエディタなどが混乱するのを避けるためみたいです。
