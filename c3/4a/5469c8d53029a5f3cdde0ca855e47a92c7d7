@@ -1,0 +1,1 @@
+GVL の確保/開放のコールバック関数を登録する C API のテストで Thread#status をチェックする assertion を追加しています。
