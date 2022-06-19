@@ -1,0 +1,1 @@
+iseq.c で "<compiled>" という fstring を rb_iseq_compile_with_option() の関数内の複数の箇所で初期化していのを関数の先頭で変数に格納して使いまわすようにリファクタリングしています。
