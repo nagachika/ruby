@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect などで T_ARRAY 型オブジェクトの embed されている時の要素数を得るのに使う flags のビット数が Variable Width Allocation 有効時に拡張されたのに追随させています。
