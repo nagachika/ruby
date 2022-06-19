@@ -1,0 +1,1 @@
+Compaction のために移動したオブジェクトへの参照を検出するための write memory barrier が macOS で debugger を使っている状態では発生するシグナルの違いでうまく働かないという問題があるらしく、macOS では compaction 実行時に EXC_BAD_ACCESS のエラーハンドラを一時的に無効化するという対処を入れています。
