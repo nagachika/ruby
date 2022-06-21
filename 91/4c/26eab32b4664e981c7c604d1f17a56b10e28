@@ -1,0 +1,1 @@
+Regexp#timeout= や Regexp.new の timeout キーワード引数の rdoc 用コメントで Integer も受け付けると書いてたのを Float または nil と記述を変更しています。実際には Integer を渡しても変換してくれるようになってるとは思いますが。
