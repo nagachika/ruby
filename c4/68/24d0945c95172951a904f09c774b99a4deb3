@@ -1,0 +1,1 @@
+GVL のイベントフックのコールバック関数登録の C API のテストで da362fee59b2bff30eb8d63ee15724f5c3aac957 で sleep する時間を EnvUtil を使って環境変数で変更できるようにしていたのを revert して、そもそも sleep しないようにしています。sleep いらんかったんかい。
