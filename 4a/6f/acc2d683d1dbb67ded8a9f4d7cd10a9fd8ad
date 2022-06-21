@@ -1,0 +1,1 @@
+Regexp.new の rdoc 用コメントおよび doc/regexp.rdoc に Regexp.new の第2引数での正規表現オプションの文字列での指定について追記しています。 [ruby-core:108590] [Feature #18788]
