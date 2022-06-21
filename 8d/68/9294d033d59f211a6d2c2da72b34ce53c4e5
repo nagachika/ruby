@@ -1,0 +1,1 @@
+bundler の Bundler::Standalone#paths で gem の require_paths 内の拡張ライブラリ用のファイルパスの ruby の version 部分の変数展開を抑制して実行時の ruby のバージョンで展開されるようにする変換を追加しています。
