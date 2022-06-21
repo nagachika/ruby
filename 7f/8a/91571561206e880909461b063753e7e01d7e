@@ -1,0 +1,1 @@
+cd3a5cd0e33f7b2495c5b3421e7f1d124de8c343 で Regexp.new の rdoc 用コメントの call-seq に省略可能な第3引数を追加しましたが、その引数名を encoding から n_flag に変更しています。また timeout キーワード引数の指定方法についてサンプルを追加しています。
