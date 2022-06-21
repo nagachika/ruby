@@ -1,0 +1,1 @@
+eca31d24d606a73def3674938112dc3c5b79c445 で Module#autoload の警告を追加したため警告が出るようになった Module#autoload のテストを一時的に $VERBOSE を nil にして警告抑制するようにしています。 [ruby-core:108749] [Bug #18813]
