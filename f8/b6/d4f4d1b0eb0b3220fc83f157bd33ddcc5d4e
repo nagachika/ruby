@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションをためす workflow の make test-annocheck を実行する時に --skip-gaps オプションを追加しています。
