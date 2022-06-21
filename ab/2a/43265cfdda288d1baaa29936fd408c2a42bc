@@ -1,0 +1,1 @@
+a58611dfb1bfc74fb1a51a9cd0ca8ac690c2f1f4 で引数を追加した rb_bool_expected() を Regexp.new の第2引数のチェックに利用するようにしています。従って nil/true/false じゃない時に警告メッセージを出力するように変更しています。別の分岐で Integer の場合もあるので Regexp.new の引数としては整数も受け付けてますね。 [ruby-core:108590] [Feature #18788]
