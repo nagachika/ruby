@@ -1,0 +1,1 @@
+ab2a43265cfdda288d1baaa29936fd408c2a42bc の Regexp.new の第2引数に Integer/nil/true/false 以外を渡した時の警告出力について rubyspec を追随させてます。 [ruby-core:108590] [Feature #18788]
