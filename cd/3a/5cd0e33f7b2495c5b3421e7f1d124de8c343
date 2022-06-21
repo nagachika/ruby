@@ -1,0 +1,1 @@
+Regexp.new の rdoc 用コメントの call-seq に省略可能な第3引数 encoding の記述がなかったので追加しています。この引数知らなかったなぁ。
