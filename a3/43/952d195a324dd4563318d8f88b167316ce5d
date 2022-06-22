@@ -1,0 +1,1 @@
+bootstraptest/test_io.rb のテストで FreeBSD でエラーになるものがあるみたいで実行しないように分岐(or による制御)を追加しています。
