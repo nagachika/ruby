@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow の make test-annocheck を実行する時のビルド時に -Wa,--generate-missing-build-notes=yes という警告オプションを追加して、f8b6d4f4d1b0eb0b3220fc83f157bd33ddcc5d4e で追加した annocheck の --skip-gaps とその前からあった --skip-notes オプションは削っています。
