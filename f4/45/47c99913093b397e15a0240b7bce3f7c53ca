@@ -1,0 +1,1 @@
+regparse.c に GCC 12 での警告の抑制のため #pragma を使ってこのファイルでだけ -Warray-bounds、-Wstringop-overflow、-Wrestrict などの警告オプションを無効化するようにしています。
