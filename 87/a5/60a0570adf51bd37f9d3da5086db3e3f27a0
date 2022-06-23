@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の lldb_inspect コマンドで T_STRUCT 型オブジェクトの対応がなかったので追加しています。
