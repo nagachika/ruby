@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の rdoc 用コメントで FileUtils#cp_r と #install が所有者や mode もコピーするかどうかの点で違うことを追記しています。
