@@ -1,0 +1,1 @@
+bundler の bundle add サブコマンドの man ページの余計なカンマを削除しています。
