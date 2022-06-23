@@ -1,0 +1,1 @@
+tool/lib/vcs.rb で git コマンド実行の時に環境の設定の影響を受けないように HOME、XDG_CONFIG_HOME、GIT_SYSTEM_CONFIG、 GIT_CONFIG_SYSTEM などの環境変数を削除または /dev/null などの nulデバイスに置き換えるようにしています。
