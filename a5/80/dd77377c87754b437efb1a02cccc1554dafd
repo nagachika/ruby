@@ -1,0 +1,1 @@
+メソッド呼び出しの処理 vm_call_method() で protected のメソッドの呼び出し時に VM_CALL_FCALL つまり receiver が省略された関数っぽいメソッドの呼び出し方で呼ばれてた時も fastpath の最適化された処理に入るようにしています。
