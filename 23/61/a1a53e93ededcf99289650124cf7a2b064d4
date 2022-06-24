@@ -1,0 +1,1 @@
+variable.c の autoload_apply_constants() という関数の変数 autoload_const の宣言に初期化子を追加しています。
