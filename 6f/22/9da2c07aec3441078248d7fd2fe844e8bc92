@@ -1,0 +1,1 @@
+bundler の Bundler::Standalone#paths で spec.require_paths をすりかえる時の ruby のバージョン番号を実行時の RbConfig::CONFIG["ruby_version"] から Gem.ruby_api_version および Gem.extension_api_version というメソッドを利用するようにして、 Gem.extension_api_version のほうは RbConfig::CONFIG['ENABLE_SHARED'] もチェックしてディレクトリ名に -static という suffix がつくように対応しています。
