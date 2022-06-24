@@ -1,0 +1,1 @@
+thread_win32.c の rb_internal_thread_add_event_hook() と rb_internal_thread_remove_event_hook() に明示的に return 文が書かれてなかったので追加しています。
