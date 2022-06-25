@@ -1,0 +1,1 @@
+e23540e5666664e23f2adecdc2cc591f3ff6fe2f で導入した struct rb_iseq_constant_body の bitmap が結果的に不要だったら NULL クリアして解放しておくようにしています。
