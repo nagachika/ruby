@@ -1,0 +1,1 @@
+ISeq の GC の mark 処理を高速化するために rb_iseq_body_t 内に保持されている VALUE の位置を bitmap として保持するようにリファクタリングしています。 [ruby-core:109042] [Feature #18875]
