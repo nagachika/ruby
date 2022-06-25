@@ -1,0 +1,1 @@
+parse.y で警告抑制のために #pragma を使う RBIMPL_WARNING_PUSH() や RBIMPL_WARNING_IGNORED() マクロを使って -Wpsabi の警告オプションをファイル内で無効にするようにしています。古い GCC で誤って警告が出ることがあるみたいです。
