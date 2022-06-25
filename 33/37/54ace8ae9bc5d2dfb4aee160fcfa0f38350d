@@ -1,0 +1,1 @@
+bootstraptest/test_yjit.rb にブロック渡しで定義されたいわゆる bmethod が外のスコープの変数を上書きする時の挙動の YJIT でのテストを追加しています。
