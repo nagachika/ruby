@@ -1,0 +1,1 @@
+doc/syntax/modules_and_classes.rdoc で protected メソッドの呼び出せる条件について呼び元の self についての記述があったのを削除しています。
