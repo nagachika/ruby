@@ -1,0 +1,1 @@
+.github/workflows/compilers.yml のビルド中に make showflags を実行して各種ツールチェインのオプションを表示するようにしています。
