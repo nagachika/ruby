@@ -1,0 +1,1 @@
+.github/workflows/compilers.yml で LDFLAGS の設定を append_configure という環境変数経由でしていたのを直接 LDFLAGS 環境変数に設定するように変更しています。
