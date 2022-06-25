@@ -1,0 +1,1 @@
+addr2line.c、io_buffer.c、thread_win32.c で古い GCC での警告抑制のための各種修正。
