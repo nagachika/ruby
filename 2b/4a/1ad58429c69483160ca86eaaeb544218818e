@@ -1,0 +1,1 @@
+IO::Buffer#copy の rdoc 用コメントのサンプルコード内で変数名の typo を修正しています。
