@@ -1,0 +1,1 @@
+IO#wait, #wait_{readable,writable} の実装を ruby 本体に移植しています。 f9c8d8088378981385f6acd18d2fe9fedcd7ab85 の変更時にもう存在してると思ったけどここで移植された後のソースコードをみてたんですね。
