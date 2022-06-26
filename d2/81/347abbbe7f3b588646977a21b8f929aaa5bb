@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait のテストで assert_raises のかわりに assert_raise を使うように修正しています。
