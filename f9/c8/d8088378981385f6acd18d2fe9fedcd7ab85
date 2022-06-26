@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait で RUBY_IO_WAIT_METHODS というマクロが定義されていた時に IO#wait, #wait_{readable,writable} メソッド定義をしないようにしています。ruby 3.2 では既に IO#wait_{readable,writable} が本体で定義されているのでということなので、古い ruby で gem としてインストールした時のための修正だと思います。
