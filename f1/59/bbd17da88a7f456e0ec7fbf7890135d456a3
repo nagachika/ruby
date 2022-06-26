@@ -1,0 +1,1 @@
+テスト用の assert_raises メソッドの定義を tool/lib/test/unit/assertions.rb から tool/lib/core_assertions.rb に移動して標準添付ライブラリで使われないようにしています。これって minitest との互換性? のためとかでわざと使えるようにしてたんじゃないのかな……。
