@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::InputMethod#winsize で出力が端末であることも確認してから IO#winsize メソッドを呼び出すように修正しています。
