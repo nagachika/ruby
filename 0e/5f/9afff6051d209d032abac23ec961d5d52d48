@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の e0bfdb23af3f182d7605a6ac3c93b07001d9045c で追加した出力先が pipe だった時のテストで irb.context.prompt_mode を設定しておくようにしています。 irbrc の影響をなくすためかな?
