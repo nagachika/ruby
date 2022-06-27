@@ -1,0 +1,1 @@
+MinGW の ucrt64 を利用した環境で Rinda::TupleSpace のテストでハングアップしてしまうことがたびたびあったそうで、テストクラス TupleSpaceProxyTest の setup でチェックしてその環境では全テストを skip するようにしています。
