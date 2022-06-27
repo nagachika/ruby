@@ -1,0 +1,1 @@
+rubygems の Gem::Indexer#update_index で例外発生時の一時ディレクトリ削除を追加しています。
