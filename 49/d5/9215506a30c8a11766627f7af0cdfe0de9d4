@@ -1,0 +1,1 @@
+c2e37c8ff7da395f33fae546d9ae9e2408fc9236 で rinda のテストを MinGW の ucrt 環境で skip するようにした影響で今度は teardown でエラーが起きたとのことで、skip した時は teardown の実行もやめるようにしています。
