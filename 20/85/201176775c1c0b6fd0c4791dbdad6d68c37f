@@ -1,0 +1,1 @@
+yjit.h で YJIT_BUILD マクロの定義の判定に使った後で YJIT_SUPPORTED_P マクロを #undef しておくようにしています。 eb1a84a9c328acf3f77249617115208eacf396cd で YJIT_SUPPORTED_P マクロの参照を YJIT_BUILD に置き換えてたのでもう不要なので置換漏れがないか確認する意味もこめてということかな。
