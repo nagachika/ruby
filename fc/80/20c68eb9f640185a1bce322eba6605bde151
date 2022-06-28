@@ -1,0 +1,1 @@
+configure で macOS において -framework Security オプションをつけるかどうかの判定のために使っていたヘッダファイル AvailabilityMacros.h に OS のバージョンを表現するマクロがない場合があるとのことで、それに対応するように configure でビルドしてみて失敗した時の対応を追加しています。 [ruby-core:109053] [Bug #18879]
