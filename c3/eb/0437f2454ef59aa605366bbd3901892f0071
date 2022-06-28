@@ -1,0 +1,1 @@
+rubyspec の Process.cock_gettime のテストで利用する定数を OpenBSD の時の対象を FreeBSD と合わせるように修正しています。
