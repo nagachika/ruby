@@ -1,0 +1,1 @@
+c2e37c8ff7da395f33fae546d9ae9e2408fc9236 で rinda のテストを MinGW の ucrt64 環境で skip するようにしていましたが、ucrt64 以外の MinGW 環境でも skip するように対象を広げています。
