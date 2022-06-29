@@ -1,0 +1,1 @@
+bootstraptest/test_yjit.rb でおそらく 0fab06f3c33999d7366036440dbc7ce6d16ac792 の変更に対応した処理が通るようにテストを追加/変更しています。
