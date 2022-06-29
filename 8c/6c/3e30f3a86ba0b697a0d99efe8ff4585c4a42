@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の dialog 表示の色付けを設定で変更できるように拡張しています。 https://github.com/ruby/reline/pull/413
