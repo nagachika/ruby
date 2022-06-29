@@ -1,0 +1,1 @@
+bundler で BundlerError 例外の処理時に Bundler.ui.trace と Bundler.ui.error でエラーメッセージを二重に出力していたところがあったので、debug 出力の有無で分岐してどちらか一方だけで出力するように修正しています。
