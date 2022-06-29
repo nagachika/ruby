@@ -1,0 +1,1 @@
+YJIT のコード生成部分の実装で Rust に取り込んだ VALUE の型の情報の Type::String を Type::CString と Type::TString に分けています。コメントによると CString は String クラスのインスタンスで、TString は T_STRING 型のオブジェクト(つまり String を継承した子クラスのインスタンスの場合も含むということかな)の場合に使うというふうに使い分けるようにしています。これにより CString の時の一部のメソッド呼び出しを最適化したりするための区別かなと思います。
