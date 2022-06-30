@@ -1,0 +1,1 @@
+rubygems の gem env に user_gemdir、user_gemhome という引数の対応も追加しています。Gem.user_dir を表示するみたいです。
