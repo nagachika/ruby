@@ -1,0 +1,1 @@
+標準添付ライブラリ irb のテストで IRB.conf[:USE_COLORIZE] を false にして実行してたところを without_colorize というヘルパーメソッドを導入してこれを経由して実行するようにリファクタリングしています。
