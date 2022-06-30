@@ -1,0 +1,1 @@
+file.c の utime_internal() 内にもうジャンプ元がなくなっているラベル no_utimensat が残ってたので削除しています。
