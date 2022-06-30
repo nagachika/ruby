@@ -1,0 +1,1 @@
+rubygems のテストが alpine Linux の環境でファイルパスの扱いの違いでこけるそうなので Gem::Package#install_location に渡すパスの "/" を "//" に置換していたのをやめています。
