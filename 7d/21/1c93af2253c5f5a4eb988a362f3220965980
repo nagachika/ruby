@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::Color.colorable? メソッドで IRB.conf メソッドが呼べない場合というのを考慮するようにしています。そんなことあるのかなと思ったけど irb/color だけ require するとそうなるみたいですね。
