@@ -1,0 +1,1 @@
+rubygems の gem env サブコマンドのテストで "USER INSTALLATION DIRECTORY:" という項目の出力もチェックするように assertion を追加しています。
