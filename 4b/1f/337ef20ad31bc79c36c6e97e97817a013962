@@ -1,0 +1,1 @@
+rubyspec の openssl のテストでデバッグのため OpenSSL::X509::Store#verity の結果のチェック時に #error, #error_string の内容も一緒に比較するようにしています。
