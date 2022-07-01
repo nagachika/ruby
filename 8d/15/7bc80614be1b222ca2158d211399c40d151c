@@ -1,0 +1,1 @@
+e3ab525f699b5191db70ef095b3d110890441940 で iseq.c に追加していた関数 ISEQ_IS_ENTRY_START() を inline 関数として tool/ruby_vm/views/_insn_type_chars.erb から生成する VM のコードに移動しています。
