@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence の binary format からの dump/load の bitmap 対応の追加変更。これってたぶん dump された binary の内容の意味も変化してますよね。バージョンは上げなくていいんだっけ……?
