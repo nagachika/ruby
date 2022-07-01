@@ -1,0 +1,1 @@
+MIT を有効にしてビルドされている時の --enable オプションで --enable-yjit を指定された時に警告メッセージを出してすぐ exit(3) で終了してしまっていたので process_options() から return Qfalse するように修正しています。
