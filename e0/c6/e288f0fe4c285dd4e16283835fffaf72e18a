@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 2.6.0 にしてコミットハッシュ指定つきにしています。 https://github.com/ruby/ruby/pull/6082
