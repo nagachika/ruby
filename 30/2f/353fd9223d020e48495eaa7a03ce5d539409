@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#truncate の戻り値が引数をそのまま返していましたが File の戻り値にあわせて Integer(Fixnum)の 0 を返すようにしています。
