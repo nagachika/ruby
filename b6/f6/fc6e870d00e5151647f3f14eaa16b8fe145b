@@ -1,0 +1,1 @@
+YJIT で Integer#% の最適化命令の実装を変更しています。 vm_insnhelper.c の rb_vm_opt_mod() 関数を削除しているけどこれは YJIT 用に導入されたものではなさそうだかけど大丈夫かな? 公開 API ではないとは思いますが。利用箇所ないみたいなのでもう不要になってたのか。 https://github.com/ruby/ruby/pull/6078
