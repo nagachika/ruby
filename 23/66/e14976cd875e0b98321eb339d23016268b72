@@ -1,0 +1,1 @@
+RubyVM::YJIT.print_sorted_exit_counts という YJIT の統計情報を出力するメソッドで total_exits が 0 の時に内訳の表示で 0 除算して NaN を表示してしまっていたようなので不要な詳細表示を抑制するようにしています。 https://github.com/ruby/ruby/pull/6079
