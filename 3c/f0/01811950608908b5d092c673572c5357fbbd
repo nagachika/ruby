@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境の workflow で make test, test-all, test-spec を実行する条件を matrix.test_task の設定を元にするようにしています。
