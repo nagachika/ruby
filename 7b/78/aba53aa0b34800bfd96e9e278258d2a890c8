@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems で default gems にはダウンロードすべき remote がないのでその時の対応を含めた処理を intall から fetch_gem_if_possible というメソッドに切り出して 9101269e948d838c916ea8342b8e6edce2e0957c で Bundler::Runtime から移動してきた処理でこのメソッドを利用するように修正しています。
