@@ -1,0 +1,1 @@
+doc/strftime_formatting.rdoc というドキュメント用のファイルを追加して Time#strftime などのメソッドで使われる format 文字列の指示子の説明をまとめて追加しています。確かにあれは専用のページがあってもよさそうな内容ですね。 https://github.com/ruby/ruby/pull/6074
