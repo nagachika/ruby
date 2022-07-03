@@ -1,0 +1,1 @@
+bundler の Bundler::Runtime#cache 内で spec の fetch_gem を呼び出す処理を Bundler::Source::Rubygems#cache 内に移動しています。
