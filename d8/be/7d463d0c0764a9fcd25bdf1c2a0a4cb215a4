@@ -1,0 +1,1 @@
+debug_counter.c の USE_DEBUG_COUNTER を真にしてビルドされた時の警告抑制。
