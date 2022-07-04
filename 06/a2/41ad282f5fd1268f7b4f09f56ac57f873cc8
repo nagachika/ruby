@@ -1,0 +1,1 @@
+8c6a2cc24e6fcc49615d24e865f628a9b3606df5 で .github/workflows/compilers.yml に追加した USE_DEBUG_COUNTER=1 でビルドする条件をコメントアウトしています。
