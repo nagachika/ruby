@@ -1,0 +1,1 @@
+debug_counter.c の debug_counter_lock という変数が外部から見えるように宣言されてたので static 変数に変更しています。
