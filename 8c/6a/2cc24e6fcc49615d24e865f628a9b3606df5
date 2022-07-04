@@ -1,0 +1,1 @@
+GitHub Actions でいろんなコンパイラを試す workflow に USE_DEBUG_COUNTER=1 でのビルドを追加しています。
