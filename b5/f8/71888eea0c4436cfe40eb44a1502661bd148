@@ -1,0 +1,1 @@
+GitHub Actions の MinGW の workflow で拡張ライブラリ objspace のテストを除外するように make test-all 時のオプションを追加しています。
