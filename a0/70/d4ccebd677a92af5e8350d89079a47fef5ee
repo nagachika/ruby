@@ -1,0 +1,1 @@
+890df5f81271e031ae86775b8b8b8e4e4d4640d8 で拡張ライブラリ objspace に追加した dump_string_ascii_only() という関数に static 修飾子を追加しています。
