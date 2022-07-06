@@ -1,0 +1,1 @@
+1b34bd07c18068228188a72f94662cceac50f30e で切り出した OutputOption という実装で --stdout-on-failure というオプションも追加しています。
