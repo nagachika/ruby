@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date.gregorian_leap? の rdoc 用コメントの call-seq のメソッド名修正。
