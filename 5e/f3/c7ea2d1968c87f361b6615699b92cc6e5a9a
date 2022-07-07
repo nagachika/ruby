@@ -1,0 +1,1 @@
+IO#set_encoding の第2引数に Encoding 名としては不正な文字列を渡した時に異常終了が発生してしまう不具合を修正しています。  https://github.com/ruby/ruby/pull/6093 [ruby-core:109150] [Bug #18898]
