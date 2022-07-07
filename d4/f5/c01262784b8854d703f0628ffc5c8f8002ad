@@ -1,0 +1,1 @@
+defs/gmake.mk で macOS 環境で INSTRUBY_ENV に追加している SDKROOT の設定を "/" から空文字列に変更しています。 RbConfig::CONFIG["includedir"] の先頭の "/" が重複するのを防ぐためとのこと。
