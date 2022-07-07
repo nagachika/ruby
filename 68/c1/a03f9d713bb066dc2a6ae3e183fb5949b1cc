@@ -1,0 +1,1 @@
+Cygwin 環境用の cygwin/GNUmakefile.in に make のファイル単位でテスト実行するターゲット test/% と spec/% にほかのテストと同様に MSYS2_ARG_CONV_EXCL という環境変数をセットするルールを追加しています。
