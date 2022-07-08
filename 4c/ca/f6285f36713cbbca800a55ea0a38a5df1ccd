@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の初期化処理時に enum 型の値を取り出す記法が古い lldb の python 向けライブラリで対応してない書きかただったようなので修正しています。GetEnumMembers() が iterable を返していなかったみたいですね。
