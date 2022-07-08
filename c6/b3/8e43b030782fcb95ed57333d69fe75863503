@@ -1,0 +1,1 @@
+thread_pthread.c の Init_native_thread() の先頭で pthread_rwlock_init() で rb_internal_thread_event_hooks_rw_lock の初期化するようにしてましたが、この変数は初期化子で PTHREAD_RWLOCK_INITIALIZER という定数代入で初期化していてこの呼び出しは不要なようなので削除しています。
