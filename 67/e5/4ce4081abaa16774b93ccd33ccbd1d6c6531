@@ -1,0 +1,1 @@
+configure で mkdir -p コマンド相当のディレクトリを再帰的に作成するコマンドを検出するマクロを tool/m4/ruby_prog_makedirs.m4 に切り出して install-sh を代替にできるようにしている? みたいです。コミットログを読むと違いそう。
