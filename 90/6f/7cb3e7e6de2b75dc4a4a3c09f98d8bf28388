@@ -1,0 +1,1 @@
+演算子メソッドの << のための VM の最適化命令 opt_ltlt で receiver が String オブジェクトの時の最適化処理でさらに右辺が String の時に直接 rb_str_buf_append() を呼び出す最適化パスを追加しています。
