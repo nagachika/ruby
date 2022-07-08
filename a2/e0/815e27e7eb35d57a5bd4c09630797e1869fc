@@ -1,0 +1,1 @@
+YJIT の Rust 実装で C API の rb_str_append() を利用していたところをかわりに rb_str_buf_append() を利用するように変更しています。
