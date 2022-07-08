@@ -1,0 +1,1 @@
+YJIT の実装で統計情報収集用のカウンタに JIT で GC の mark 用の参照を配列に追加した数のカウンタを追加しています。 https://github.com/ruby/ruby/pull/6089
