@@ -1,0 +1,1 @@
+include/ruby/internal/memory.h で MinGW 環境で memcpy(3) のシンボルをマクロで再定義していたのをやめています。かわりに internal.h に移動しています。 [ruby-core:109118] [Bug #18893]
