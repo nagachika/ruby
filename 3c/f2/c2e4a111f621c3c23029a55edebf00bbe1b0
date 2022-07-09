@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグの定数 ISEQ_MARKABLE_ISEQ は(おそらく e23540e5666664e23f2adecdc2cc591f3ff6fe2f などの bitmap 導入に伴なって)不要になったということで削除して、フラグを立てていたところも削除しています。
