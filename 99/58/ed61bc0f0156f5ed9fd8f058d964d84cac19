@@ -1,0 +1,1 @@
+iseq.h の ISEQ_MBITS_BUFLEN() というマクロの定義で roomof() マクロを利用するようにしています。
