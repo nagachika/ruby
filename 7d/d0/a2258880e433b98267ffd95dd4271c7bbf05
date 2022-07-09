@@ -1,0 +1,1 @@
+bundler のテストで環境変数 BUNDLER_SPEC_WINDOWS を指定して Windows 環境であるかのようにみせかけてテスト実行できるようにしているようです。
