@@ -1,0 +1,1 @@
+GVL の確保/解放処理のコールバック関数を登録する C API で登録されたコールバック関数に POSIX thread の時の natgive_sleep()  の実装で suspended イベントを発行するようにしています。内部実施で thread の一時停止のために native_sleep() を呼ぶことがあってここで状態遷移のイベントが不足していたとのこと。 [ruby-core:109157] [Bug #18900]
