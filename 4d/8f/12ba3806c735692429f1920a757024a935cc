@@ -1,0 +1,1 @@
+7f64989e5c913ef7624e084badd1a43ce65b3ccc で internal.h で memcpy() をマクロで再定義するところで再定義の警告抑制のために #undef しておくようにしています。
