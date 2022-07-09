@@ -1,0 +1,1 @@
+gc.c の GC.compact での移動したオブジェクトへの参照を検出するための read_barrier_handler() で GET_PAGE_BODY() で対象の slot の struct heap_page_body を得られなかった時に rb_bug() で明示的に異常終了させるようにしています。本来 0 にならないはずだけどそうなってしまって SEGV するという現象があったみたいですね。
