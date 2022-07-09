@@ -1,0 +1,1 @@
+Thread#value の実装で thread_join() しても rb_thread_t::value が Qundef になっている場合 nil を返すようにしています。fork した時に呼び出した以外の Thread はそのまま停止されるのでそういう時に Qundef のままになってしまうからということみたいです。Qundef は ruby レベルからみえてはいけない値なのでかわりに Qnil を返すことで ruby レベルでは nil が返却されるようにしています。 [ruby-core:109162] [Bug #18902]
