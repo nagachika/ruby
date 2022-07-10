@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で RUBYLIB 環境変数に複数のパスを含める時のデリミタとして ":" が決め打ちで使われていたのを移植性のため File::PATH_SEPARATOR を参照するように修正しています。
