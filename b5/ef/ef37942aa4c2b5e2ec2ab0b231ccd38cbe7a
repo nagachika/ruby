@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のライブラリのバージョンチェックをする OSSL_OPENSSL_PREREQ() および OSSL_LIBRESSL_PREREQ() というマクロで展開後に意図しない演算子の結合を避けるためのかっこを追加しています。
