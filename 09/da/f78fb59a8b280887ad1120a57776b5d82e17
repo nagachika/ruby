@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::SSL::SSLContext#ciphersuites= というメソッドを追加しています。 SSL_CTX_set_ciphers= とほぼ同じですが SSL_CTX_set_ciphersuites() という関数の wrapper となっているようです。
