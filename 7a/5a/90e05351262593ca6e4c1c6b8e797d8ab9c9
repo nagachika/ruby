@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の Openssl::OCSP::Request#sign の実装で digest のアルゴリズムの指定がない時に SHA1 を指定してたところを NULL のままにしてライブラリのデフォルト値を利用するようにしています。
