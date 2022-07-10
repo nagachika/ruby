@@ -1,0 +1,1 @@
+7a5a90e05351262593ca6e4c1c6b8e797d8ab9c9 と同様に拡張ライブラリ openssl の Openssl::OCSP::BasicResponse#sign の実装でも digest の指定がない時にライブラリのデフォルトにまかせるようにしています。
