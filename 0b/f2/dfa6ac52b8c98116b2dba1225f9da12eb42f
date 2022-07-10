@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の extconf.rb で dir_config("openssl") の結果が空っぽの時だけ pkg_config による検出を試すようにしています。
