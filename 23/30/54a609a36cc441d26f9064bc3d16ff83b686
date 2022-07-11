@@ -1,0 +1,1 @@
+gc.c のオブジェクトの情報をダンプする時のバッファ管理の変数 obj_info_buffers_index を rb_atomic_t 型にして RUBY_ATOMIC_CAS() などを利用して並列処理を考慮するようにしています。 複数 Ractor 間での並用のため?
