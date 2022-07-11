@@ -1,0 +1,1 @@
+gc.c の rb_raw_obj_info() の内容を rb_raw_obj_info_common() と rb_raw_obj_info_buitin_type() という 2つの関数に分割するリファクタリング。
