@@ -1,0 +1,1 @@
+gc.c の obj_info_buffers_index を最大値の制限つきで atomic に加算する処理を atomic_inc_wraparound() という関数に切り出すリファクタリング。
