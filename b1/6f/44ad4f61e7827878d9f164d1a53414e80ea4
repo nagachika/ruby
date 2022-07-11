@@ -1,0 +1,1 @@
+gc.c の rb_raw_obj_info() で rb_raw_obj_info() を利用するようにして rb_obj_info() による C の文字列リテラルを返すのを利用しないようにしています。なんでだろ。
