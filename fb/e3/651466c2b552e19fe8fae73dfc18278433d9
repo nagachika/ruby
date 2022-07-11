@@ -1,0 +1,1 @@
+gc.c で asan_poisoned_object_p() + asan_unpoison_object()  の呼び出しのペアを asan_unpoison_object_temporary() という関数の呼び出しにまとめるリファクタリング。
