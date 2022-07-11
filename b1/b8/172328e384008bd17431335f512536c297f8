@@ -1,0 +1,1 @@
+gc.c の rb_raw_obj_info() で asan_unpoison_object_temporary() と asan_poison_object() で ASAN 対策してメモリを触る処理をまとめてブロックのように書けるマクロ asan_unpoisoning_object() を追加しています。
