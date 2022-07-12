@@ -1,0 +1,1 @@
+86df6f4bb3b380ad536b102675d7fa452b01549f と同様に NoMemoryError と NotImplementedError と ZeroDivisionError も C の変数名との対応が間違っていたのを修正しています。
