@@ -1,0 +1,1 @@
+https://github.com/ruby/ruby/pull/5872 の 31b2cd38c5dcf4a0c51ca56ecdddf7461b8ac86c で GitHub Actions の MJIT のテストが失敗するようになっていたそうで、MJIT が有効にされているかどうかで異常終了時の description のチェック内容から MJIT の記述部分を削るようにしています。
