@@ -1,0 +1,1 @@
+irb のコマンドラインオプションについての rdoc 用コメントを削除して ./irb/lc/help-message を include するように変更しています。
