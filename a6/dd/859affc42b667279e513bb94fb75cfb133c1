@@ -1,0 +1,1 @@
+GC のテスト用のメソッド GC.verify_compaction_references に expand_heap というキーワード引数を追加して強制的に heap に page を追加させるようにしています。元からあった double_heap というキーワード引数を指定すると警告が出るようにしています。double_heap は現在の page 数を倍にするので、Variable Width Allocation で slot サイズごとの heap で page が 0 の時などは追加されない可能性もあるので必要な数の slot が用意されるようにするためとのこと。GC.compact で slot サイズの異なる heap 間の移動のテストのために必要だったそうです。
