@@ -1,0 +1,1 @@
+a6dd859affc42b667279e513bb94fb75cfb133c1 の変更に追随して YJIT のテストや GC のテストで GC.verify_compaction_references を呼んでいるところで double_heap のかわりに expand_heap を指定するようにしています。
