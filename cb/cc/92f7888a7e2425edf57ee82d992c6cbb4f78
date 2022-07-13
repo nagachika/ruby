@@ -1,0 +1,1 @@
+mjit.c や mjit_worker.c で assert(3) を直接呼んでいたところを VM_ASSERT() を利用するように変更しています。
