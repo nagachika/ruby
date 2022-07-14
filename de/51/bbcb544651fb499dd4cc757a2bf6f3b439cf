@@ -1,0 +1,1 @@
+rb_thread_wait_for_single_fd() から rb_ensure() で後始末のために登録されるコールバックでイベント待ちしている fd のためのリスト構造からノードを削除する処理が複数 Ractor からの並列処理で問題があったので RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で排他処理するようにしています。 [ruby-core:108771] [Bug #18816]
