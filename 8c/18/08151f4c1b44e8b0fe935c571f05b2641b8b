@@ -1,0 +1,1 @@
+Unknown Behavior Sanitizer (UBSAN) が誤検出するコードを修正しています。また #include の追加に伴ない common.mk の依存関係の再生成も実施しています。 https://github.com/ruby/ruby/pull/6115
