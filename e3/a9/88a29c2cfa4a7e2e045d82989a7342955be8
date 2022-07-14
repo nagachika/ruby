@@ -1,0 +1,1 @@
+doc/contributing/documentation_guide.md の例で特異メソッド(クラスメソッド)とインスタンスメソッドの記法の違いのために例を分けたり記述のルールを追加したりしています。 https://github.com/ruby/ruby/pull/6121
