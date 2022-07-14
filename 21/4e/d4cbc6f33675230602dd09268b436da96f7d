@@ -1,0 +1,1 @@
+GC.compact で Array オブジェクトの移動を Variable Width Allocation による slot サイズが異なる heap 間での移動を可能にしています。 a6dd859affc42b667279e513bb94fb75cfb133c1 で heap 間の移動のために page 追加のロジックを変更したのはこのための準備だったのかな。 [ruby-core:109159] [Feature #18901]
