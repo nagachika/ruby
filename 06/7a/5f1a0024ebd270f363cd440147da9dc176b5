@@ -1,0 +1,1 @@
+214ed4cbc6f33675230602dd09268b436da96f7d で追加したテストはそもそも Variable Width Allocation が有効な状態でビルドされていないと意味がないので GC.using_rvargc? によるチェックを追加して skip するようにしています。 [ruby-core:109159] [Feature #18901]
