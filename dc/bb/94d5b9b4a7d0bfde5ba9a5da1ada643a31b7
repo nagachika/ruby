@@ -1,0 +1,1 @@
+ext/extmk.rb で bundled gems の拡張ライブラリビルドの再実行の制御のための timestamp ディレクトリの位置を TARGET_TOPDIR という変数の指定で変更できるようにしています。
