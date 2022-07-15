@@ -1,0 +1,1 @@
+a2c66f52f402cb58372e271226f3341065561e53 の続き? で ext/extmk.rb で bundled gems の lib ディレクトリへの symbolic link をビルドディレクトリの .ext/ ディレクトリ内のパスに作るようにしています。これもおそらく拡張ライブラリを含む bundled gems のビルド対応のため。
