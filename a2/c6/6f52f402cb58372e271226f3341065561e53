@@ -1,0 +1,1 @@
+tool/gem-unpack.rb で同じく拡張ライブラリを含む bundled gems のビルド時に、その gem が依存している default gem の gemspec がまだインストール先にコピーされていないため依存関係が満たされてないと判定されてしまうのに対処するため spec から dependencies をクリアして gemspec ファイルを上書きしてしまうということをしています。で ext/extmk.rb で gemspec ファイルをコピーして復旧している? みたいです。
