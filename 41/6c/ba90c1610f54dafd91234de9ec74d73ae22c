@@ -1,0 +1,1 @@
+tool/rbinstall.rb で .bundle/specifications/ 内に対象の gem の gemspec ファイルが存在しなかった時に .bundle/gems/xxx/ の下も探してみるようにしています。 e1a4e44f14482814a0540ae0a4b31d858ff56f53 で tool/gem-unpack.rb が gemspec ファイルの展開先を変更したのに追随させているのだろうと思います。
