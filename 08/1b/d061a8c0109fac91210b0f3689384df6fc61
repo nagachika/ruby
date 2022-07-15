@@ -1,0 +1,1 @@
+String#split の rdoc 用コメントで call-seq のタグの記法のミスを修正しています。 https://github.com/ruby/ruby/pull/6131
