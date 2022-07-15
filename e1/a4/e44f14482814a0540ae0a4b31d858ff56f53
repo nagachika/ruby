@@ -1,0 +1,1 @@
+tool/gem-unpack.rb で bundled gems の gemspec ファイルを書き出す先のディレクトリを各 gem 毎のサブディレクトリの下にするようにしています。拡張ライブラリを含む gem のビルドのために必要とのこと。
