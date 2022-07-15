@@ -1,0 +1,1 @@
+rubygems の gem update --system が例外で失敗することがあった不具合の修正。古い bundler の(?) gemspec ファイルの削除時に同時に不要なファイル群も消すようにしているみたいです。
