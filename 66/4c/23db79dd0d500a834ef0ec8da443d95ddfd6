@@ -1,0 +1,1 @@
+GVL のイベントフックの EXITED イベントを発行するのを thread_sched_to_dead() という関数(thread_start_func_2() 内から呼ばれる)からさらに呼び元の thread_start_func_1() に移動しています。またテストで EXITED イベントの回数をチェックする assertion がなぜか失敗する(想定より多くなる)ということで assertion 削除しています。テストのチェックを消しつつリファクタリングっぽいコードの変更をする、なんか一貫性のない変更だな……。
