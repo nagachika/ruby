@@ -1,0 +1,1 @@
+標準添付ライブラリ set のテストで skip するための判定で RUBY_VERSION が 3.2.0 未満かどうかチェックするところで Gem::Version を利用していたのが uninitialized constant になることがあったそうで Gem::Version を使わないように書きなおしています。
