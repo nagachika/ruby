@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout で監視用の Thread を作った時にその Thread#name を設定しておくようにしています。
