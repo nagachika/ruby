@@ -1,0 +1,1 @@
+MJIT の JIT コンパイルするメソッドのコードをまとめて 1つのオブジェクトファイルにするための処理で struct rb_iseq_constant_body::jit_unit が NULL の場合に SEGV してしまってた箇所があるのでとりあえず通すためにそういう ISeq をスキップするようにしています。
