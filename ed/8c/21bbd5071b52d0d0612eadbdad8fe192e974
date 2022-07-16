@@ -1,0 +1,1 @@
+b2491783986084770f6f97552f27b868622730cf で ext/extmk.rb で bundled gems の lib ディレクトリへの symbolic link を作るようにした時に対象のディレクトリがまだ存在しなくてエラーになるというケースがあったようなので FileUtils.mkdir_p でディレクトリ作成もするようにしています。
