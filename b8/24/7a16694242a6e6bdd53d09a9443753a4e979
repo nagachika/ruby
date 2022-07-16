@@ -1,0 +1,1 @@
+vm_core.h の enum vm_frame_env_flags の宣言につけていたコメントの説明の Env flags のビット数が古かった? ので修正しています。
