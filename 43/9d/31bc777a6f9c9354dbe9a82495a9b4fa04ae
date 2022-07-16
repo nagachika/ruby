@@ -1,0 +1,1 @@
+MJIT の worker を Ruby の Thread で動かすようにしたために worker では GC できないという制約がなくなったので mjit_worker.c を mjit.c にマージするそうです。 https://github.com/ruby/ruby/pull/6138
