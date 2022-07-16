@@ -1,0 +1,1 @@
+構造体 struct rb_mjit_unit の定義を mjit.c から mjit_unit.h というヘッダファイルに切り出して mjit_compile.c からも直接利用できるようにしています。 call cache の情報を得るために mjit_iseq_cc_entries() という関数経由していたのを直接構造体メンバーを参照するようにしています。
