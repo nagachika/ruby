@@ -1,0 +1,1 @@
+doc/syntax/modules_and_classes.rdoc の protected メソッドの呼び出し可否についての説明で呼び元の self が主語なのを receiver についてと書き間違えてたのを修正しています。 [ruby-core:109092] [Bug #18887]
