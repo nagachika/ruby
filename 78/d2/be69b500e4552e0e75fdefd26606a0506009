@@ -1,0 +1,1 @@
+tool/ln_sr.rb というスクリプトを追加して、環境や BASERUBY (fileutils)のバージョンに応じて symbolic link 作成またはコピーを行なうことができるようにして、ext/extmk.rb で生成する Makefile で拡張ライブラリを含む bundled gems のビルド時にこれを利用するようにしています。また make clean 時にソースディレクトリでのビルドかどうかで gemspec ファイルの削除するかどうかを変化させるようにしています。拡張ライブラリを含む bundled gems をちゃんとビルド/インストールするのものすごく大変みたいですね。
