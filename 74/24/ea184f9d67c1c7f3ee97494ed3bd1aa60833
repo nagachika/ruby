@@ -1,0 +1,1 @@
+Variable Width Allocation に T_OBJECT 型のオブジェクトも対応するようにしています。インスタンス変数の slot への埋め込みできる数を増やせるようにしているようです。これにより struct RObject の定義が変化するので RUBY_ABI_VERSION マクロの値を 2 に変更しています。
