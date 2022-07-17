@@ -1,0 +1,1 @@
+common.mk の test-bundled-gems-run というターゲットのコマンドに $(gnumake_recursive) という変数の利用を追加しています。GNU make の場合に先頭に "+" を追加するようです。
