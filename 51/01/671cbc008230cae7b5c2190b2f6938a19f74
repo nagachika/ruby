@@ -1,0 +1,1 @@
+b536ac2cd085a7f14b91959c1a8e8d7db43f1c4a を revert してかわりに make test-bundled-gems で環境変数から GNUMAKEFLAGS を削除するようにしています。test-bundled-gems で並列テストを無効化しようとしているみたいです。 b536ac2cd085a7f14b91959c1a8e8d7db43f1c4a は並列テスト時のために変数を sub-make に伝播させるためにやっていたようなので、並列化のほうをあきらめるという方針に変更したみたいですね。
