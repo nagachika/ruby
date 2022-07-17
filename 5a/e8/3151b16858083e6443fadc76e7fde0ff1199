@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#to_ruby で生成する gemspec で古い rubygems のバージョンでも動くようにメソッドを respond_to? でチェックしたりしていたところをもう不要として削っています。
