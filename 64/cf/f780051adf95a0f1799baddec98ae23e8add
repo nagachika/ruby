@@ -1,0 +1,1 @@
+make extract-gems で bundled gems のパッケージを展開する時のディレクトリ構成を少し変更? して、また spec.exacutables などの指定があった時に binstub ファイルの書き出しをするようにして各 gem のコマンドが実行可能なようにしています。
