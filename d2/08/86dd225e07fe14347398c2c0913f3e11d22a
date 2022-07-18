@@ -1,0 +1,1 @@
+tool/gem-unpack.rb でインストールのための gemspec ファイルを書き出すのを bundled gems パッケージが拡張ライブラリを持つ時だけに変更しています。
