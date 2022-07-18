@@ -1,0 +1,1 @@
+bundler の Bundler::RubyGemsGemInstaller の shellwords を rubygems のバージョンに応じて require する処理を専用のメソッドに切り出すリファクタリング。
