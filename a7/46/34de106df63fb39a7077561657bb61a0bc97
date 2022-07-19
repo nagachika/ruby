@@ -1,0 +1,1 @@
+rubygems の gem setup サブコマンドで bundler をインストールする時に bundler の gemspec ファイルを読むディレクトリを Gem モジュールのインスタンス変数 @default_dir の値を考慮するようにしているようです。
