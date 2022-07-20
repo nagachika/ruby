@@ -1,0 +1,1 @@
+0ae8dbbee0631721e820e29d0a613485cdcb3507 の続きで str_buf_cat() を str_buf_cat4() と改名したうえで引数 keep_cr を追加して 0ae8dbbee0631721e820e29d0a613485cdcb3507 で追加した最適化パスでは rb_str_modify() のかわりに str_modify_keep_cr() を呼んで coderange を保持して再計算しないようにしています。
