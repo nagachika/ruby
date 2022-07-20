@@ -1,0 +1,1 @@
+構造体 struct rb_iseq_constant_body に icvarc_size を追加してクラス変数とインスタンス変数の inline cache の数を別々に管理して配列内で混ざらないようにしています。
