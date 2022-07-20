@@ -1,0 +1,1 @@
+vm_callinfo.h に vm_ic_entry_index(), vm_ic_entry_p(), vm_ic_entry_set() といった構造体 struct iseq_inline_iv_cache_entry を操作する inline 関数を切り出すリファクタリング。
