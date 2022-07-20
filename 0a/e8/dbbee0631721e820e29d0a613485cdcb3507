@@ -1,0 +1,1 @@
+String#concat などの文字列の末尾に文字列を追加する実装で引数の文字列が ASCII 文字のみで左辺値(receiver) も ASCII-8BIT/US-ASCII/UTF-8 の場合に coderange の再計算を無視した実装を呼ぶ最適化をするようにしています。
