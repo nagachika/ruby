@@ -1,0 +1,1 @@
+GitHub Actions の .github/workflows/bundled_gems.yml と .github/workflows/check_misc.yml という workflow の設定で ruby スクリプトを文字列として埋め込んでいるところに shebang を追加しています。というか emacs の mode に認識させてハイライトさせるためみたいですね。
