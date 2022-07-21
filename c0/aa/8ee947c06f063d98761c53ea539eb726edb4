@@ -1,0 +1,1 @@
+rubygems のテストで RbConfig::CONFIG の項目を "enable_shared" と小文字で参照していたのを "ENABLE_SHARED" と大文字に修正しています。
