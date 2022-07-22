@@ -1,0 +1,1 @@
+異常終了時の rb_bug() の出力内容のテストで子プロセスを起動して SIGSEGV を送信する場合に YJIT が有効なら子プロセスでも有効にするため --yjit オプションを渡すようにしています。 https://github.com/ruby/ruby/pull/6141
