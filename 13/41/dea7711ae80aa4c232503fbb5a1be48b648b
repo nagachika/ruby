@@ -1,0 +1,1 @@
+Thread オブジェクトの mark 処理で現在実行中の Fiber の保持している rb_execution_context_t を mark していましたが Fiber オブジェクト経由でも mark されるはずなので不要ということで削って、かわりに RUBY_ASSERT() で rb_thread_t::ec とその ec->fiber_ptr が保持している saved_ec が同じであることをチェックするようにしています。
