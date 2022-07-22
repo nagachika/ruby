@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の実装で使われる wmap_live_p() という関数内で引数に与えられた VALUE の値が is_pointer_to_heap() で偽だった(オブジェクトの slot を指してるポインタじゃなかった)時に TRUE を返してしまっていたため異常終了する可能性があったのを修正しています。 [ruby-core:109251] [Bug #18928]
