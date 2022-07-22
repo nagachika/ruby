@@ -1,0 +1,1 @@
+YJIT でローカル変数へのセットのコード生成時に即値の代入の場合には RGenGC 用の Write Barrier が不要なので省略するようにしているようです。 https://github.com/ruby/ruby/pull/6122
