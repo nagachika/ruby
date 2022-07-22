@@ -1,0 +1,1 @@
+ObjectSpace._id2ref に Symbol の object_id を元にして調節した整数を渡すことで不正な Symbol の参照を作れてしまっていたのを修正しています。即値の Symbol を得る時に static な(文字列から to_sym などで作ったのではない、主にリテラルの) Symbol の ID でない数値の範囲だと例外にするようにしています。
