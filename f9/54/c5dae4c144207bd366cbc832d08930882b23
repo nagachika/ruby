@@ -1,0 +1,1 @@
+0ae8dbbee0631721e820e29d0a613485cdcb3507 や cb9fd920a31c8090fae0b1183be9483e17dc3e96 の String#concat の最適化で追加した str_enc_fastpath() という関数を文字列の NUL 終端のバイトサイズを計算する TERM_LEN() マクロでも利用するようにしています。
