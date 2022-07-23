@@ -1,0 +1,1 @@
+04f86ad0b5d2fe4711ff300d855228a6aed55f33 で IO#each_line の挙動を変更したのを revert しています。 CI が失敗したためとのこと。
