@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で非 ASCII 文字を含むメソッド名対応の 79406e3600862bbb6dcdd7c5ef8de1978e6f916c のやりなおし。dump しないのではなく dump_append_c() という関数の引数の型を char から unsigned char にすればよかったようです。
