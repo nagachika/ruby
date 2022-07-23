@@ -1,0 +1,1 @@
+bin/gem で Gem::GemRunner#run の Gem::SystemExitException 例外を rescue していたのをやめています。
