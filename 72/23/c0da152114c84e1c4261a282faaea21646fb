@@ -1,0 +1,1 @@
+04f86ad0b5d2fe4711ff300d855228a6aed55f33 の IO#each_line の挙動変更のリトライ。今回は rubyspec の変更も含んでいるようです。 [ruby-core:108502] [Bug #18770]
