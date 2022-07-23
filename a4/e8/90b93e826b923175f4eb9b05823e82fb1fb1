@@ -1,0 +1,1 @@
+rubygems の Gem::SystemExitException という例外クラスで attr_accessor で exit_code を定義していたのを親クラスの SystemExit の status への alias に変更しています。
