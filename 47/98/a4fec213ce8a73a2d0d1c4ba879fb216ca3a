@@ -1,0 +1,1 @@
+include/ruby/internal/core/rarray.h の RARRAY_PTR_USE_START()、RARRAY_PTR_USE_START_TRANSIENT()、RARRAY_PTR_USE_END_TRANSIENT() などの関数マクロの定義が未使用とのことで削除しています。
