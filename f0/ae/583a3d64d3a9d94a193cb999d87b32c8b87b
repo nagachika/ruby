@@ -1,0 +1,1 @@
+79406e3600862bbb6dcdd7c5ef8de1978e6f916c で拡張ライブラリ objspace の ObjectSpace.dump で非 ASCII 文字のメソッド名の出力を抑制したのを revert していま。CI の失敗かな?
