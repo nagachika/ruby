@@ -1,0 +1,1 @@
+common.mk で make update に common-srcs を依存させて自動生成されるソース類の更新をするようにしているようです。
