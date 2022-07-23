@@ -1,0 +1,1 @@
+gc.c の ARY_SHARED_P() や ARY_SHARED_ROOT_P()、ARY_EMBED_P() などのマクロを internal/array.h で inline 関数として定義し配列オブジェクト用のビットフラグの定数も array.c から internal/array.h に移動して assert(3) によるチェックを追加しています。transient_heap.c からもこれらのマクロを利用可能にしています。
