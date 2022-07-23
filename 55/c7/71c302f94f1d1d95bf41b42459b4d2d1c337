@@ -1,0 +1,1 @@
+bin/gem の require "rubygems" は不要なので削除しています。
