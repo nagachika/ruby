@@ -1,0 +1,1 @@
+5b21e94bebed90180d8ff63dad03b8b948361089 でタブを空白に展開したので git blame で無視する commit の設定を .git-blame-ignore-revs に追加しています。こういう便利な機能があるんですね。ただファイルを配置してるだけではだめで git config でローカルのリポジトリに設定しておく必要があるようです。 [ruby-core:109115] [Misc #18891]
