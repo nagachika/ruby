@@ -1,0 +1,1 @@
+85479b34f76d5b426c2a8224d8ed6d8c2ad81ca2 のメモリ管理で page 追加するのを遅延させる変更でパフォーマンスが劣化したとのことで、逆に page の追加と解放が頻発してしまったので gc_sweep_finish_size_pool() に改修済みの tomb heap から page を eden heap に復活させる処理を追加しています。 [ruby-core:109256] [Bug #18929]
