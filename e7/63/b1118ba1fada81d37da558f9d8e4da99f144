@@ -1,0 +1,1 @@
+rb_ractor_t や struct rb_iseq_constant_body などの構造体で構造体の定義内で直接 enum を定義していたのを外に出して enum の定義だけで独立して書くようにしています。
