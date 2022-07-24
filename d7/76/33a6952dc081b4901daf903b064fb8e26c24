@@ -1,0 +1,1 @@
+bundler の bundle exec の mac ページのサンプルから ruby のコマンドラインオプション -rrubygems を削っています。
