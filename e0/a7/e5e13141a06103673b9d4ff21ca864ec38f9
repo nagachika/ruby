@@ -1,0 +1,1 @@
+make test-bundled-gems で bundled gems のテスト実行時に Ctrl-C で割り込んだ時に子プロセスグループに SIGKILL を送信してテストを停止させるようにしています。
