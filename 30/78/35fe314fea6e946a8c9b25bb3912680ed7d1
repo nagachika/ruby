@@ -1,0 +1,1 @@
+Thread#inspect のテストでタイミングを調節するために Thread::ConditionVariable による協調を追加しています。
