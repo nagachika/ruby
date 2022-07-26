@@ -1,0 +1,1 @@
+GitHub Actions の test-bundled-gems のために make prepare-gems を実行するアクションを追加しています。 b291c972fa36e05107d13eea25cc445db4b4bec3 の変更で bundled gems の拡張ライブラリのビルドが実施されている必要ができたからかな。
