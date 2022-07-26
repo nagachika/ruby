@@ -1,0 +1,1 @@
+ext/extmk.rb で default gems や bundled gems(?) の拡張ライブラリのビルド用 Makefile を生成する時に変数 TARGET_GEM_DIR に ruby のバージョンのディレクトリ名に static link 時? に -static という suffix を追加するようにしています。
