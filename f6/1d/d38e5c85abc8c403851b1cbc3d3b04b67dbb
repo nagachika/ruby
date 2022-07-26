@@ -1,0 +1,1 @@
+307835fe314fea6e946a8c9b25bb3912680ed7d1 の Thread#inspect のテストの変更を revert してかわりにターゲットの Thread が Thread#stop? で true を返すようになるまで単に Thread.pass して待つという簡単な実装に変更しています。
