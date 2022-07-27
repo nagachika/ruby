@@ -1,0 +1,1 @@
+rb_profile_frames() という主にデバッガなどで使われることを想定した C API が main Thread では backtrace_each() などでは無視している env の control frame を含めてしまうのでバックトレース取得の API などと合わせるためにこれをスキップするように変更しています。 [ruby-core:109185] [Bug #18907]
