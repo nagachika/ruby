@@ -1,0 +1,1 @@
+43c11f6c4973e5e79043c90faee1ffc2019becc2 の変更に追随して rdoc を同期して doc/rdoc/markup_reference.rb ファイルをコピーしてきています。また rdoc の spec.files を変更して Gemfile, Rakefile, rdoc.gemspec などのファイルを削っています。
