@@ -1,0 +1,1 @@
+internal/variable.h の struct RBasic::flags のビットフラグの定数 ROBJECT_TRANSIENT_FLAG の利用するビットを変更しています。
