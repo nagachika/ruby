@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の同期時に upstream のリポジトリのディレクトリを得るのに "../.."  をつかってたのを Kernel#__dir__ を利用して絶対パスによる指定をするようにしています。が後に revert されています。".." が足りてなくて解決後のパスが間違ってたようです。
