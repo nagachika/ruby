@@ -1,0 +1,1 @@
+b404a5f106d13e25708c163c91e117b2e106b70c で tool/sync_default_gems.rb の upstream リポジトリのディレクトリを絶対パス指定にしたのを revert しています。 rubygems および json の同期で問題があったとのこと。
