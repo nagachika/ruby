@@ -1,0 +1,1 @@
+String#b の実装でも coderange をクリアしてたのを ASCII 文字のに含まれる文字列なら ENC_CODERANGE_7BIT にそうでなければ ENC_CODERANGE_VALID をセットしておくようにしています。default 節もあるんでけど ASCII-8BIT の文字列でここに来る可能性あるのかな?
