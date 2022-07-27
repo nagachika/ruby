@@ -1,0 +1,1 @@
+0ae8dbbee0631721e820e29d0a613485cdcb3507 の String#concat の最適化をさらに拡張して ASCII 文字のみの文字列でなくても Encoding の変換が不要な場合に直接 str_buf_cat4() を呼ぶようにしています。
