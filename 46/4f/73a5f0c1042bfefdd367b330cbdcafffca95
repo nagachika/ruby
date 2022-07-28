@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で bundled gems のテスト実行時のコマンドラインオプションで各 gem のリポジトリの lib に load path を通すのをやめています。つまり gems/bundled_gems で branch/tag や commit hash を指定してもテストにはリリースバージョンが使われるってことでしょうか。
