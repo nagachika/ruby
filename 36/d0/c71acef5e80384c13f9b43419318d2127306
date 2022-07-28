@@ -1,0 +1,1 @@
+gc.c の asan_poison_memory_region()/asan_unpoison_memory_region() の呼び出しの共通化部分を切り出した asan_lock_freelist()/asan_unlock_freelist() という関数を定義してこれを使うリファクタリング。
