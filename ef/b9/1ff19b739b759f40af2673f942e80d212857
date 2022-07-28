@@ -1,0 +1,1 @@
+klass を NULL にすることで ObjectSpace.each_object に現れないようにする配列オブジェクトを生成する rb_ary_tmp_new() を rb_ary_hidden_new() と改名しています。
