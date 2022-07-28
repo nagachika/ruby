@@ -1,0 +1,1 @@
+rb_ary_hidden_new_fill() という関数で efb91ff19b739b759f40af2673f942e80d212857 で改名した rb_ary_hidden_new() と同じ処理している部分があったのでそれを呼び出すようにリファクタリングしています。
