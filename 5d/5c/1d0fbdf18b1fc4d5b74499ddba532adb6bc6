@@ -1,0 +1,1 @@
+gc.c の objspace_xfree() で free(3) で解放したポインタの変数に明示的に NULL を代入しておくようにしています。 GCC 12 で use-after-free の警告が出るとのことでその抑制のためとのこと。ブロックをとるマクロ objspace_malloc_increase() を使っているからですかね。
