@@ -1,0 +1,1 @@
+拡張ライブラリ pathname で FileUtils の autoload 設定を class 文の外に出しています。中で書くと Pathname::FileUtils という定数のための autoload 設定になってしまうので。
