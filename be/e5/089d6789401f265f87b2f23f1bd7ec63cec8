@@ -1,0 +1,1 @@
+標準添付ライブラリ rinda のテストで MinGW でスキップするようにしていたのをやめて .github/workflows/mingw.yml で make test-all 時に time(1) を付けて実行時間を出力させるようにしています。調査のためみたいです。 https://github.com/ruby/ruby/pull/6168
