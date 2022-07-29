@@ -1,0 +1,1 @@
+doc/contributing/testing_ruby.md に make btest (bootstrap test の実行)時に特定のテストファイルだけ実行するための変数指定の方法について追記しています。
