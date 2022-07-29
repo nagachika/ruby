@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストも FreeBSD でたまに失敗するとのことで FreeBSD で一部の assertion を実行除外するようにしています。
