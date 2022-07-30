@@ -1,0 +1,1 @@
+GC.compact で移動したオブジェクトの参照を更新する処理の T_ARRAY 型オブジェクトの処理の gc_update_object_references() 内の部分を gc_ref_update_array() の中に移動するリファクタリング。処理が分散していたため不要な分岐などもあったので関数内にまとめています。
