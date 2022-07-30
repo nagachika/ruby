@@ -1,0 +1,1 @@
+lib/rdoc/markup.rb の記述の一部を RDoc::MarkupReference へのクロスリファレンスに変更しています。
