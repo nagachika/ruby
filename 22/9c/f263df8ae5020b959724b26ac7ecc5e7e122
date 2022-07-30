@@ -1,0 +1,1 @@
+gc.c の rb_gc_writebarrier_unprotect() 内で RGenGC 用の write barrier の操作を複数 Ractor 利用時に保護するため RB_VM_LOCK_ENTER_NO_BARRIER()/RB_VM_LOCK_LEAVE_NO_BARRIER() で囲むように修正しています。
