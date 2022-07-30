@@ -1,0 +1,1 @@
+Ractor#inspect の実装で ID を整数に変換する時のマクロを型にあわせて INT2FIX() から UINT2FIX() に修正しています。
