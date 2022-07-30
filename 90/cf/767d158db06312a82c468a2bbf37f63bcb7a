@@ -1,0 +1,1 @@
+ractor_core.h でも RUBY_DEBUG_LOG2() によるデバッグログに埋め込む値を明示的に void* にキャストしています。
