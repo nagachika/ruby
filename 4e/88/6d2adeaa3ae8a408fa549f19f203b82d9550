@@ -1,0 +1,1 @@
+標準添付ライブラリ racc の Racc::ParseError の別名としてトップレベルの ParseError を代入しているところに rdoc の :nodoc: タグをつけてドキュメント化を抑制しています。
