@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の拡張ライブラリ psych の同期処理時に ext/psych/.gitignore の変更も取り消すようにしています。
