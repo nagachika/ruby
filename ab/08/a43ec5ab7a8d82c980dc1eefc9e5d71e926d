@@ -1,0 +1,1 @@
+YJIT で VM 命令の getblockparamproxy のメソッドにブロックが渡されていなかった場合に JIT コードの利用をキャンセルしていたのを対応するようにしているようです。 https://github.com/ruby/ruby/pull/6191
