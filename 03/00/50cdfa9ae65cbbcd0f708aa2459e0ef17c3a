@@ -1,0 +1,1 @@
+b515fdcc32a6a7d484c73f090fa2a58a8662e6ca の続きで bundler の bundle install に --standalone と --local の両方が指定されていた時に --path オプションを無効にするようにしています。
