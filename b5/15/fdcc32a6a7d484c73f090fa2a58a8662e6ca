@@ -1,0 +1,1 @@
+bundler の bundle install の --path オプションの定義を --standalone オプションが指定されてた時だけ有効にするようにしています。
