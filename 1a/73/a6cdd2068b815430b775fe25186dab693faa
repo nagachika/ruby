@@ -1,0 +1,1 @@
+Enumerator::Product というクラスと Enumerator.product メソッドを導入し Array#product を一般化した product を Enumerator として生成できるようにしています。 [ruby-core:108198] [Feature #18685]
