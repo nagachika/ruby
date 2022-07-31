@@ -1,0 +1,1 @@
+同じく configure のオプションに --enable-yjit=dev_nodebug の対応を追加しています。
