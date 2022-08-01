@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date._httpdate や Date#to_time などの rdoc 用コメントに追記しています。
