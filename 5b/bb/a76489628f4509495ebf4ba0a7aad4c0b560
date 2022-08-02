@@ -1,0 +1,1 @@
+rb_eval_string() を ruby のメソッドを含まない環境から呼び出した時(テスト用の拡張ライブラリをみると rb_define_global_function() で Kernel にメソッドを追加してそこから呼び出した時などが該当する? ようです)に self が常にトップレベルの self である main オブジェクトになっていましたが、呼び元の control frame のうちメソッド呼び出しのものの最も内側の self を使うように変更しています。たぶんこのチケットに関連する修正(仕様変更)ではないかと思います。 https://github.com/ruby/ruby/pull/6199 [ruby-core:108546] [Bug #18780]
