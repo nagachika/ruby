@@ -1,0 +1,1 @@
+rb_node_init() で NODE::node_id の初期化をするようにしています。
