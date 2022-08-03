@@ -1,0 +1,1 @@
+bundler の bundle outdated サブコマンドで debug 用出力を有効にしていると例外発生で異常終了してしまう不具合を修正しています。
