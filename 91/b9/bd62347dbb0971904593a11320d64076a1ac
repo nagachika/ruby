@@ -1,0 +1,1 @@
+bundler の依存関係解決時のインストール元の source の Source::Gemspec の時の特別扱いを削除しています。
