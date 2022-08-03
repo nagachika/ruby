@@ -1,0 +1,1 @@
+ENV.clone で ENV オブジェクトを複製したものに対して fetch を呼んだ時に発生する NameError の receiver が常に ENV になっちゃうとのことで、もともと deprecated の警告は出していたので ENV.clone を呼ぶと TypeError 例外が発生して複製できないようにしています。 [ruby-core:103132] [Bug #17767]
