@@ -1,0 +1,1 @@
+Thread::Queue#pop にキーワード引数 timeout を追加して一定時間待っても取り出す要素がなかったら nil を返すようにしています。 ついでに Thread::Queue#pop とその alias の deq, shift などのメソッドの実装を ruby 実装にしています。キーワード引数の処理のため。 [ruby-core:108514] [Feature #18774]
