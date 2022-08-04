@@ -1,0 +1,1 @@
+e3aabe93aae87a60ba7b8f1a0fd590534647e352 で追加した Thread::Queue#pop の timeout キーワード引数のテストの Thread leak の修正と join する待ち時間を少し伸ばしています。
