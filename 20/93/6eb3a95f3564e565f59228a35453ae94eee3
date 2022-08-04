@@ -1,0 +1,1 @@
+rubygems で Gem::Specification#version が nil の時にエラーにならず警告を出力して動かすようにしているようです。
