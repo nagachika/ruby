@@ -1,0 +1,1 @@
+bundler で不要な Array#uniq の呼び出しを削除。
