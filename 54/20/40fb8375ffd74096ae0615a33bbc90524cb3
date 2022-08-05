@@ -1,0 +1,1 @@
+rubygems でパッケージ内の symbolic link の指す先のファイルが存在しない時の警告出力する処理を Gem::Package#extract_tar_gz に移動して実行ファイルに限らずチェックするようにしています。
