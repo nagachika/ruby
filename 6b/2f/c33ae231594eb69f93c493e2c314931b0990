@@ -1,0 +1,1 @@
+Thread::SizedQueue#push の実装で rb_ensure() のコールバック関数 queue_sleep() に渡す引数が e3aabe93aae87a60ba7b8f1a0fd590534647e352 の Thread::Queue#pop の timeout キーワード引数追加の対応で変化していたのに追随できていなかったので修正しています。 [ruby-core:108514] [Feature #18774]
