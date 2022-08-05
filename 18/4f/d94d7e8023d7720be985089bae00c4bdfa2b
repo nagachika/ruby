@@ -1,0 +1,1 @@
+これも 50d81bfbc19d9b2e3d4be511c26c3dff317e2f8e の macOS での -bundle_loader オプション追加の続きで configure に --enable-shared が指定されていた時かわりにリンカに libruby.dylib のパスを渡すようにしています。
