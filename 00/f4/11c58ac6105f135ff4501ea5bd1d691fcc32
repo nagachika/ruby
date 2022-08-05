@@ -1,0 +1,1 @@
+同じく 50d81bfbc19d9b2e3d4be511c26c3dff317e2f8e の続きで macOS では MJIT で JIT コードをビルドする時にも -bundle_loader を指定する必要があったようなのでその対応を追加しています。
