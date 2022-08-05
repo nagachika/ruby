@@ -1,0 +1,1 @@
+50d81bfbc19d9b2e3d4be511c26c3dff317e2f8e の configure の修正で -bundle_loader オプションを EXTDLDFLAGS にセットする時にパスに空白が含まれていた時の対応のため $(BUILTRUBY) にクオートを追加しています。
