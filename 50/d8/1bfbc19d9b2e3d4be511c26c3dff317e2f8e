@@ -1,0 +1,1 @@
+macOS で拡張ライブラリをビルドする時に -bundle_loader というリンカオプションを指定するようにしています。 macOS で -undefined dynamic_lookup というリンカオプションについて ld64 を使うと実際には問題がないけど警告が出ていてビルドの失敗に繋がっていたそうで、このオプションはもう古いということもありかわりに -bundle_loader を指定するようにしています。ただ未解決のシンボルの load 時の処理に若干の変更もあるとのことです。 https://developer.apple.com/documentation/xcode-release-notes/xcode-13-release-notes
