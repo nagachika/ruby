@@ -1,0 +1,1 @@
+make extract-gems で利用する ruby を $(RUNRUBY) から $(BASERUBY) に変更しています。
