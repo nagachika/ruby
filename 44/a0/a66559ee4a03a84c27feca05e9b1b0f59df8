@@ -1,0 +1,1 @@
+make extract-gems で bundled gems を展開するためのコードを tool/gem-unpack.rb から tool/lib/bundled_gem.rb に移動しています。
