@@ -1,0 +1,1 @@
+make bundleld-gems や make update-gems の並列実行対応をしているようです。
