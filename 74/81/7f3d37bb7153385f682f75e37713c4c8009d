@@ -1,0 +1,1 @@
+fork 時に呼び出されるコールバックメソッドの Process._fork の rdoc 用コメントに Process.daemon で子プロセスを作る時には呼ばれないことを明記しています。 [ruby-core:109196] [Bug #18911]
