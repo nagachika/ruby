@@ -1,0 +1,1 @@
+make extract-gems 時に GitHub から clone したリポジトリの内容をコピーしてテストにはこれを使うようにするようにしているようです。 464f73a5f0c1042bfefdd367b330cbdcafffca95 で bundled gems のテスト対象をリリース対象にしたので再度(別の方法で?)テストは gems/bundled_gems に書いたタグなどを利用するようにしているのかと思います。
