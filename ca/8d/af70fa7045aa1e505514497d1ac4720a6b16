@@ -1,0 +1,1 @@
+File.open の rdoc 用コメントの text mode と binary mode の説明にファイルの末尾の \x1A (EOF) の扱いについても追記しています。なるほどテキストモードで処理されるのは改行コードに限らないんですね。 [ruby-core:109063] [Bug #18882]
