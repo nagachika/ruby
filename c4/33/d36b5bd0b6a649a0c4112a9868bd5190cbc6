@@ -1,0 +1,1 @@
+rubyspec に Windows 環境での \x1A 文字を末尾に持つファイルの IO.read での読み込みのテストを追加しています。 [ruby-core:109063] [Bug #18882]
