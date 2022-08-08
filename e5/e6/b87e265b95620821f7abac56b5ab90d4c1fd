@@ -1,0 +1,1 @@
+ext/extmk.rb の atomic_write_open というメソッドでファイルを開く時の mode に "x" を追加して exclusive access mode を利用してプロセス間の競合しないように開くようにしています。 並列ビルドした時などのためかなぁ。
