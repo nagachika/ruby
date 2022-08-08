@@ -1,0 +1,1 @@
+process.c で proc_syswait() を定義する際に rb_syswait() の引数の int と VALUE のサイズが等しいかチェックするのに SIZEOF_LONG を利用してしまっていたところを SIZEOF_VALUE に修正しています。
