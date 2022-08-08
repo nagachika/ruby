@@ -1,0 +1,1 @@
+起動時の $LOAD_PATH を初期化する ruby_init_loadpath() で macOS 用の preprocessor 分岐で LOAD_RELATIVE が定義されている時に libruby_path の文字列オブジェクトを複製して使うようにしています。 libruby_path は他で破壊的に変更してしまう可能性があるからみたいです。
