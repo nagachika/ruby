@@ -1,0 +1,1 @@
+f245b425af2e560a85edac85ad4426a04b01e4de の再修正でそもそも proc_syswait() から rb_syswait() を呼び出す時に int にキャストしていたのを rb_pid_t にキャストするようにして preprocessor での分岐を不要にしています。
