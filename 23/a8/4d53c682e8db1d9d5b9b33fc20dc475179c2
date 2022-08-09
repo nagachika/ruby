@@ -1,0 +1,1 @@
+lib/rdoc/markup.rb から doc/rdoc/markup_reference.rb に rdoc のドキュメント記述のマークアップについての記述を移動しています。また古い記述を削っているみたいです。
