@@ -1,0 +1,1 @@
+拡張ライブラリ psych の例外クラス Psych::AliasesNotEnabled を追加して不正な alias の参照時の例外を BadAlias からこちらに変更しています。
