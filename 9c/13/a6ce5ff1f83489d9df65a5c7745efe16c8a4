@@ -1,0 +1,1 @@
+拡張ライブラリ psych で未定義の alias 参照時の例外として Psych::AnchorNotDefined を導入してこちらを発生させるようにしています。あれ 54219ae8c46bc431782caf01142883ce7e8b970b とは何が違ったんだろう。
