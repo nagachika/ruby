@@ -1,0 +1,1 @@
+rubyspec の Time#to_datetime や DateTime#to_time のテストで西暦 3年というとても古い日付を利用していたのを 2012年に変更しています。暦の違いの影響をなくすためみたいです。 [ruby-dev:51185] [Bug #18946]
