@@ -1,0 +1,1 @@
+e0dfa5967e7063da8b65dc3c062ef4652e246e34 の続きで rubyspec の Time#to_datetime と DateTime#to_time のテストに Date::Version のバージョン指定つきで修正に対応したテストを追加しています。なにかこのへんの修正あったっけ? と思いましたが次のコミットで修正されているものみたいでした。 [ruby-dev:51185] [Bug #18946]
