@@ -1,0 +1,1 @@
+test/excludes/Psych/TestDateTime.rb を追加して拡張ライブラリ psych の DateTime についてのテストを実行除外するようにしています。
