@@ -1,0 +1,1 @@
+gc.c の objspace_each_objects_try() でコールバック関数を呼び出す前に __asan_region_is_poisoned() で対象のメモリ領域 ASAN でチェック対象になってないかチェックするようにしています。debug.gem が ASAN を有効にしているとエラーになってたみたいです。
