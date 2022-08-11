@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の ErrorHighlight.spot メソッドの引数に例外(Exception)オブジェクトを渡すとその例外の backtrace_locations を使って例外発生箇所の Spotter オブジェクトを生成するようにしています。また ErrorHighlight::CoreExt#generate_snippet で NameError や TypeError の対応をしていたのを ErrorHighlight.spot に委譲するようにリファクタリングしています。
