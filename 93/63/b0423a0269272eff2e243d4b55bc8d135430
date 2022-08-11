@@ -1,0 +1,1 @@
+VM 命令の peephole optimization に duparray + expandarray が連続していたら duparray で dup された配列オブジェクトはすぐに VM の値スタック上に展開されるので新しい Array オブジェクトを確保する必要がないのでコピーはせずに putobject でコピー元の Array オブジェクトを VM スタックに積んで expandarray するような最適化を追加しています。これも splat 代入で起こりうる命令のパターンみたいで 7922fd65e30fb9f011b939dead38cda94a7e2721 のベンチマークで改善が測定できたようです。
