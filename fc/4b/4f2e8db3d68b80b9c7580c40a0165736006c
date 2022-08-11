@@ -1,0 +1,1 @@
+5089b6acc7b57605823704d28c82e286f49661e6 の peephole optimization の最適化では newarray と expandarray のサイズが同じだったら最適化できるとしていましたが、splat 代入で右辺値と左辺値の数が一致してないケースでも最適化できるようにしています。
