@@ -1,0 +1,1 @@
+開発中ブランチであることを示す RUBY_DEVEL というマクロが RUBY_PATCHLEVEL が -1 の時自動で真になるのを止めるようにしています。 [ruby-core:101695] [Feature #17468]
