@@ -1,0 +1,1 @@
+9f8abd28babf1ab84093fe0cc97f8d42cf62286c の続きで VM 命令の newarray と expandarray で同じサイズを指定してた場合を d9167491db220756df159048348f006619df28c1 で復活させた reverse 命令を利用するようにして任意のサイズに対応するように拡張しています。また reverse 命令は opt_reverse 命令に変更しています。
