@@ -1,0 +1,1 @@
+yjit/src/cruby_bindings.inc.rs の YJIT の Rust 実装に取り込む C のシンボル情報の再生成をしています。 VM 命令の opt_reverse の復活/改名に追随するためみたいですね。
