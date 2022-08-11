@@ -1,0 +1,1 @@
+benchmark/masgn.yml の配列を splat して代入する処理のベンチマークに代入する値がリテラルでないパターンを追加しています。 5089b6acc7b57605823704d28c82e286f49661e6 の peephole optimization の効果を測定するたみみたいです。
