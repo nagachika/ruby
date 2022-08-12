@@ -1,0 +1,1 @@
+template/Makefile.in で ext/clean.sub や .bundle/clean.sub などの clean 系ターゲットのためのダミーのターゲットの依存関係に ext/clean.mk などのファイルを追加しています。
