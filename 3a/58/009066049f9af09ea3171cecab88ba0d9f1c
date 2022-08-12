@@ -1,0 +1,1 @@
+99e7fa5b3718d61d61427c67d244ec50b9eb8578 の error_highlight の変更で ErrorHighlight.spot のキーワード引数の参照が rest kwarg の変数を上書きした後にしてしまっていたので変更前に取り出しておくよう修正しています。
