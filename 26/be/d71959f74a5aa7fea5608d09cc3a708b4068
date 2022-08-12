@@ -1,0 +1,1 @@
+doc/strftime_formatting.rdoc にフォーマット文字列の padding や大文字小文字の指定などの修飾子について追記したうえ、Date の文字列化のメソッドについての記述も追加しています。 Date についてここに追加するのはなんか違うような……。 https://github.com/ruby/ruby/pull/6227
