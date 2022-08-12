@@ -1,0 +1,1 @@
+Array#[] に負の step を持つ Enumerator::ArithmeticSequence (Integer#step や Range#step で値が Integer の時に返されるオブジェクト)を渡した時の結果を修正しています。うーん、beginless や endless の Range から作ったものはどうなるのが正しいのかちょっとテストコードみてもこれが良いのかいまいち納得できませんでした。 https://github.com/ruby/ruby/pull/5739 [ruby-core:105607] [Bug #18247]
