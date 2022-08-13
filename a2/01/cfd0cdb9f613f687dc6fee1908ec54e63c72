@@ -1,0 +1,1 @@
+include/ruby/internal/encoding/ctype.h に rb_enc_iscntrl() という ONIGENC_IS_CODE_CNTRL() の wrapper となる inline 関数を追加しています。
