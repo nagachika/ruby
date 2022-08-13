@@ -1,0 +1,1 @@
+error.c に可変長引数の va_start()/va_end() を利用して warn_vsprintf() を呼び出す処理をまとめた with_warn_vsprintf() というマクロを導入して使いまわすようリファクタリングしています。
