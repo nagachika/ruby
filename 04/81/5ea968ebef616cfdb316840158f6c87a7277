@@ -1,0 +1,1 @@
+tool/rbinstall.rb で RbInstall::GemInstaller#build_extensions メソッドを再定義するかどうかを configure のオプションや環境変数 DESTDIR の指定有無によって変えてたのをやめています。ビルドプロセスの変更により不要になったみたいです。
