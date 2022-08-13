@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の ErrorHighlight.spot の rdoc 用コメントに Limitation のセクションを追加して複数行のスクリプト片は処理できないことを明記しています。
