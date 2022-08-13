@@ -1,0 +1,1 @@
+doc/rdoc/markup_reference.rb の rdoc 用コメントのサンプルの先頭に # が置かれてたのを削るなどの整形。
