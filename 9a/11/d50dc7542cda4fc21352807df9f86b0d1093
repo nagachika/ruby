@@ -1,0 +1,1 @@
+include/ruby/internal/encoding/ctype.h の戻り値が bool の関数の Doxygen 用コメントの retval の記述を 0/1 でなく true/false に変更しています。
