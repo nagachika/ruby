@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb で gems/bundled_gems の自動更新のための処理でデリミタとしての空白の数を保存するようにしているみたいです。次の整形の変更のためですね。
