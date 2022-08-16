@@ -1,0 +1,1 @@
+bundler で bundle update した時に Gemfile.lock の platform が誤って消えることがあった不具合を修正しているみたいです。
