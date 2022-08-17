@@ -1,0 +1,1 @@
+79fdf9712dea4943a15c4ef34348b1a159b62f4a で追加した拡張ライブラリ psych のテストの一部を除外するためのファイル test/excludes/Psych/TestDateTime.rb のメッセージに YAML にはユリウス歴など古いカレンダーの扱いについての規定がないというのを yaml の spec へのリンクと共に追記しています。
