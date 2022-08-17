@@ -1,0 +1,1 @@
+T_FIXNUM 型の整数オブジェクトの Marshal.dump で 31 bit を越える幅が必要なものは一旦 T_BIGNUM のオブジェクトに変換してから出力していたのを専用の処理で書き出すようにして不要なオブジェクト生成を抑制するようにしています。 https://github.com/ruby/ruby/pull/6229
