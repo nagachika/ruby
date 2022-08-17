@@ -1,0 +1,1 @@
+UnboundMethod#bind_call メソッドでメソッド呼び出しをする時に内部的に UnboundMethod から Method オブジェクトに相当するものを生成する時に、一時的にしか利用されないので method entry の複製を抑制して不要なオブジェクト slot の消費を抑えるようにしています。
