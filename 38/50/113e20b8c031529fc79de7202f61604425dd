@@ -1,0 +1,1 @@
+拡張ライブラリ cgi/escape に CGI::Escape.escapeURIComponent と CGI::Escape.unescapeURIComponent を追加しています。そしてこれを利用して CGI.escapeURIComponent と CGI.unescapeURIComponent を追加しています。また CGI.escape と CGI.unescape の実装で中間オブジェクトを抑制するため破壊的メソッドを利用するようにリファクタリングしています。 [ruby-core:108822] [Feature #18822]
