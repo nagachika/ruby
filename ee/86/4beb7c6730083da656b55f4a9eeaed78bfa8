@@ -1,0 +1,1 @@
+YJIT が有効かどうかの判定のマクロの YJIT_BUILD のかわりに USE_YJIT を参照するように修正しています。 https://github.com/ruby/ruby/pull/6240
