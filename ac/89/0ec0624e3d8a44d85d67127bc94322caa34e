@@ -1,0 +1,1 @@
+tool/rbinstall.rb で default gems の gemspec ファイルを読み込んだ時に spec.date を RUBY_RELEASE_DATE で上書きするようにしています。未指定だと make install した時にその実施した日が入る? ので実行するたびに変化しうるのでそれを避けるためみたいです。
