@@ -1,0 +1,1 @@
+sprintf.c の rb_enc_vsprintf() と rb_str_vcatf() から共通部分を ruby_vsprintf0() という関数に切り出して共有するリファクタリング。
