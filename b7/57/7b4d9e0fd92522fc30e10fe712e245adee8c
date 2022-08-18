@@ -1,0 +1,1 @@
+rubyspec の Time のテストからタイムゾーンに Europe/Amsterdam を利用したテストをコメントアウトしています。最新版の tzdata でこのタイムゾーンが消えた? みたいです。
