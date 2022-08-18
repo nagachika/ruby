@@ -1,0 +1,1 @@
+mjit.h で #include "yjit.h" していたのが過剰とのことで削除して mjit_compile.c で直接 #include するように変更しています。 yjit.h の何を MJIT の実装で利用してるんだろう。
