@@ -1,0 +1,1 @@
+Thread::Queue#pop と同様に Thread::SizedQueue#push にもキーワード引数 timeout を追加して要素の追加時の空き待ちの時間に上限を設定できるようにしています。キーワード引数の追加に伴なって引数の処理部分は ruby 実装に移動しています。 [ruby-core:109348] [Feature #18944]
