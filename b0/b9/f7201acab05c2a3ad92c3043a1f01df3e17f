@@ -1,0 +1,1 @@
+str_shrink()、rb_str_format()、ruby_vsprintf0() などで文字列バッファ変更後に coderange の指定をクリアして必要に応じて再スキャンさせるようにしています。また rb_str_modify_expand() では逆に coderange をクリアしていたのをやめています。変更時に一律クリアしていたのをやめて非効率な再スキャンを抑制するためのようです。
