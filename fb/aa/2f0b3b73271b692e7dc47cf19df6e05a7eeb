@@ -1,0 +1,1 @@
+defs/gmake.mk の bundled gems を .bundled/gems/ ディレクトリ下に展開する処理で git リポジトリで対象のブランチ/タグや commit hash を取り出す時に git checkout に --detach オプションを追加しています。
