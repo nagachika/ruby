@@ -1,0 +1,1 @@
+0264424d58e0eb3ff6fc42b7b4164b6e3b8ea8ca で追加した GC の性能に関するテストに GC.start(full_mark: false) を追加して誤検出を防ぐようにしています。
