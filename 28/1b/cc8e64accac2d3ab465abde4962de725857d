@@ -1,0 +1,1 @@
+misc/lldb_cruby.py から heap_page コマンドを独立したファイルに分離しています。 [ruby-core:109195] [Feature #18910]
