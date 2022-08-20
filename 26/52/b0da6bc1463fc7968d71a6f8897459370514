@@ -1,0 +1,1 @@
+fe61cad7490da8a879597f851f4a89856d44838e で追加した Thread::SizedQueue#pop のテストの Thread#join での待ち時間を少し伸ばしています。また ensure 節で Thread leak を防ぐため kill した Thread の join を追加しています。
