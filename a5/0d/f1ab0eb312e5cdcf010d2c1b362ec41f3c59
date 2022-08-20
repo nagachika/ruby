@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に syntax_suggest という default gem の同期用に upstream リポジトリ設定を追加しています。また gem_prelude.rb に起動時の syntax_suggest の読み込みを追加しています。 [ruby-core:105191] [Feature #18159]
