@@ -1,0 +1,1 @@
+sprintf.c の rb_str_format() でも coderange をクリアしていたのを必要な部分だけ再スキャンして設定するように最適化しています。
