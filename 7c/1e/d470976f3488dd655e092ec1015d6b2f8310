@@ -1,0 +1,1 @@
+テスト用ライブラリ test/unit 自体のテストに assert_pattern_list という assertion メソッドのテストを追加しています。
