@@ -1,0 +1,1 @@
+テスト用ライブラリの assert_pattern_list という assertion メソッドの pattern_list 引数に文字列を受付けるようにしています。
