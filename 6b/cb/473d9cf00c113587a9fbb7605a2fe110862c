@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で TypeError と ArgumentError に ErrorHighlight::CoreExt を extend して to_s を上書きするのをコメントアウトしていたのをやめて有効にしています。
