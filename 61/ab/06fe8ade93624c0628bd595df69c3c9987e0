@@ -1,0 +1,1 @@
+NEWS の default gems のバージョンリストのところに syntax_suggest を追加しています。これはバージョン変更時に自動的に追記するフックによるものですね。 syntax_suggest の追加そのものについての NEWS の追記はまだです。
