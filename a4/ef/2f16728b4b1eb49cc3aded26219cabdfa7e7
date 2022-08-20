@@ -1,0 +1,1 @@
+misc/lldb_cruby.py から rclass_ext コマンドを別ファイルに分離しています。 [ruby-core:109195] [Feature #18910]
