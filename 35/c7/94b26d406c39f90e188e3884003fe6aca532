@@ -1,0 +1,1 @@
+file.c の str_shrink() という関数で文字列の capacity を切り詰めるだけの処理でも Windows 環境での不具合で coderange が変化してる場合があるとのことでクリアしていたのが 725626d8905fe1ac4a2cf1c3e2db6412bf8f381f で修正されて不要になったとのことで削っています。
