@@ -1,0 +1,1 @@
+lldb 用の python スクリプト内で lldb_init 関数の呼び出しを RbBaseCommand というクラスのクラスメソッドに移動しています。 [ruby-core:109195] [Feature #18910]
