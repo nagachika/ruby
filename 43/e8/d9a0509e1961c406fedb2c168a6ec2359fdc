@@ -1,0 +1,1 @@
+string.c の rb_must_asciicompat() という ASCII 互換の Encoding をもつ文字列であることをチェックする関数で rb_enc_get() でそもそも Encoding が取れないという場合の例外発生を追加しています。そもそも String や Symbol じゃなかった時ということかな。
