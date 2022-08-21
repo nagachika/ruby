@@ -1,0 +1,1 @@
+Kernel#sprintf や String#% でフォーマット指示子 %c に対応する引数に負の整数を渡した時にオーバーフローした整数として扱かったメッセージを出してしまっていたので "invalid character" として ArgumentError 例外を発生させるようにしています。 [ruby-core:109429] [Bug #18956]
