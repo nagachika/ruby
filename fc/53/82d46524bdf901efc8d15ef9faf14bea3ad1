@@ -1,0 +1,1 @@
+object.c の rb_class_new_instance() という C API を rb_class_new_instance_kw() に委譲するように書き変えています。内容が完全に同じみたいですね。
