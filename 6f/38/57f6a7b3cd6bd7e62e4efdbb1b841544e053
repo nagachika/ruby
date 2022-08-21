@@ -1,0 +1,1 @@
+Encoding::Converter.new の newline キーワード引数および File.open の newline キーワード引数に :lf と :lf_newline という Symbol を受付けるように(というか無視されないように)しています。  [ruby-core:75767] [Bug #12436]
