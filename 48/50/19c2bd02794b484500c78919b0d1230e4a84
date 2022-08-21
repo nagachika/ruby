@@ -1,0 +1,1 @@
+MJIT に関連した関数名や変数名などを mjit_exec() → jit_exec() のように m を削るよう改名しています。また mjit_exec_slowpath() は mjit_check_iseq() と改名しています。 https://github.com/ruby/ruby/pull/6262
