@@ -1,0 +1,1 @@
+bundler の bundle platform で Gemfile.lock に ruby_version の指定がない時にエラーになってたのを修正しています。
