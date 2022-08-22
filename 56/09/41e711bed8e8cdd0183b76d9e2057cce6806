@@ -1,0 +1,1 @@
+bundler の bundle package で no_install の設定の影響を受けないように修正しています。
