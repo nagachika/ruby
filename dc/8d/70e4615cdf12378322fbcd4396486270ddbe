@@ -1,0 +1,1 @@
+MJIT のコンパイラを起動する処理を別プロセスに分けるように変更しているようです。チケットをみると MJIT 実装を ruby で書くようにするために以前は native thread を使っていたのを Ractor を使うようになっていました。しかし multi Ractor モードにするとパフォーマンスへの影響があるとのことでシンプルに子プロセスを fork してそこで MJIT の処理をするようにしているようです。このため fork(2) が使えない Windows 環境では MJIT のサポートを止めるみたいです。 https://github.com/ruby/ruby/pull/6264 [ruby-core:109585] [Misc #18968]
