@@ -1,0 +1,1 @@
+というわけで dc8d70e4615cdf12378322fbcd4396486270ddbe の続きで Windows 環境での MJIT サポートを削っています。 https://github.com/ruby/ruby/pull/6265 [ruby-core:109585] [Misc #18968]
