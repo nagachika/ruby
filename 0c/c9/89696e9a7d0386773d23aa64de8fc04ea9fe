@@ -1,0 +1,1 @@
+Kernel#Float のテストに 0x ではじまる16進数の記法の小数点を含む数値を渡された時に ArgumentError になるケースの assertion を追加しています。
