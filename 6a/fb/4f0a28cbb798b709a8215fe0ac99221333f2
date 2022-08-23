@@ -1,0 +1,1 @@
+make help の出力に make test-bundler-parallel についてのメッセージを追加しています。
