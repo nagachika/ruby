@@ -1,0 +1,1 @@
+GitHub Actions の WIndows 版の workflow でコンパイラ(cl) を引数なしで実行してみるようにしています。バージョンの確認のためみたいです。 [ruby-core:106268] [Misc #18362]
