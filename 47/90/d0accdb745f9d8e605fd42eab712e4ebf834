@@ -1,0 +1,1 @@
+bundler の依存関係解決で bundle update に --conservative オプションを渡した時のロジックの不具合修正みたいです。
