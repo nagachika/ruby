@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#getch(intr: false) のテストで一部を FreeBSD でスキップさせていたのをテストメソッド全体をスキップするように変更しています。
