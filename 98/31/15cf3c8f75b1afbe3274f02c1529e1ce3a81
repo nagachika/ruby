@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.rm_rf で全ての例外を無視していたのろ Errno::ENOENT のみ無視するように変更しています。コマンドの rm(1) の挙動にあわせようとしているみたいです。 [ruby-core:108565] [Bug #18784]
