@@ -1,0 +1,1 @@
+bundler の Bundler::EndpointSpecification クラスで MatchPlatform を mix-in していたのをやめています。親クラスで既に include しているので不要とのこと。
