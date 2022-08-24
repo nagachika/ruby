@@ -1,0 +1,1 @@
+rubygems の platform 判定で musl などの glibc でない標準添付ライブラリを利用した環境への対応みたいです。
