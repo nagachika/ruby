@@ -1,0 +1,1 @@
+bundler の Bundler::MatchPlatform という定数の autoload 設定を削除しています。同時に lib/bundler/lazy_specification.rb の require_relative も削除しているけどいいのかな。と思ったけど必要な箇所では明示的に require しているとのことでいいみたいです。
