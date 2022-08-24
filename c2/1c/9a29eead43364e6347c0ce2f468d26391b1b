@@ -1,0 +1,1 @@
+bundler の Bundler::Resolver::SpecGroup#metadata_dependencies から一部を #metadata_dependency に切り出すリファクタリング。
