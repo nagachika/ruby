@@ -1,0 +1,1 @@
+rubygems の platform 判定で musl を利用した Linux 環境の対応の不具合修正。
