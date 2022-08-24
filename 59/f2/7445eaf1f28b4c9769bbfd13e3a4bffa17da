@@ -1,0 +1,1 @@
+さらに rubygems の platform 判定での Linux の libc の種類による違いを意識するようにする変更。
