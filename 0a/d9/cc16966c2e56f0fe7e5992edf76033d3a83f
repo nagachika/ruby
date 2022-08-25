@@ -1,0 +1,1 @@
+bundler の libc に musl を利用した Linux 環境の platform 指定を正しく処理できない rubygems と組み合わせて使われている時のために Gem::Platform#=== メソッドを再定義するモンキーパッチをあてる実装を追加しています。
