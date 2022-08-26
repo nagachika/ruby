@@ -1,0 +1,1 @@
+Module#instance_method の rdoc 用コメントに引数に false を指定して継承したメソッドは出さないようにしても private/protected/public などで可視性を変更したメソッドや alias したメソッドはそのクラスの method entry ができるので取得されるというのを明記しています。
