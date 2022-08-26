@@ -1,0 +1,1 @@
+ractor_lock_self() および ractor_unlock_self() で cr->sync.locked_by についての VM_ASSERT() によるチェックを RACTOR_CHECK_MODE が 1以上に指定してビルドされた時だけ実施するようにしています。このチェック内容が 32bit 環境では無意味な 32bit のシフトを含んでいるとのことで VALUE が 64bit ある環境でないと RACTOR_CHECK_MODE が真(つまり 1)にならないようにしています。
