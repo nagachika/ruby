@@ -1,0 +1,1 @@
+構造体 struct rb_iseq_constant_body の catch_except_p メンバーの型を char から bool に変更しています。これに伴ない代入する値も TRUE/FALSE のマクロから true/false に変更しています。
