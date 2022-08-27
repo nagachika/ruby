@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で syntax_suggest の同期処理の例外処理に libexec/ へのコピーやテストのコピーの対応を追加しています。
