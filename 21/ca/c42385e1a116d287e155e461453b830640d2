@@ -1,0 +1,1 @@
+IO.foreach メソッドの第2引数に limit として整数を渡す呼び方で 0 が渡された時に無限ループ状態に陥ってしまうので IO.readlines の挙動と合わせるためにも ArgumentError 例外を発生させるようにしています。  [ruby-core:108499] [Bug #18767]
