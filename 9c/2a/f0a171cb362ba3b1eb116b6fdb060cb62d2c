@@ -1,0 +1,1 @@
+common.mk に test-syntax-suggest ターゲットを追加して rspec を使ったテスト実施できるようにしています。 ruby-prof.gem も必要なんですね。
