@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の単体テストを spec/syntax_suggest/ に追加しています。rspec によるテストですね。
