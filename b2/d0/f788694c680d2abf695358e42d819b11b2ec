@@ -1,0 +1,1 @@
+bfa6a8ddc84fffe0aef5a0f91b417167e124dbbf の Symbol#to_proc が可視性を考慮するようにした変更で switch 文の break 文が抜けてた不具合を修正しています。 [Bug #18826]
