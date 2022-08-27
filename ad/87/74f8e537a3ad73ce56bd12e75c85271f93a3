@@ -1,0 +1,1 @@
+bundler の Gemfile.lock の platform の処理の最近の変更での regression を修正しているとのこと。
