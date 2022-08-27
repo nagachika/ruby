@@ -1,0 +1,1 @@
+46c3a93982d0b81668668a65c10bc3670a488d8a で irb の lib/irb/input-method.rb から require "rdoc" を削除していたのを定数 SHOW_DOC_DIALOG に格納する Proc オブジェクトのブロック内に移動して復活させています。やっぱり消しちゃだめだったみたいですね。
