@@ -1,0 +1,1 @@
+と、思ったら syntax_suggest のテストで ruby-prof は必須じゃないようで gem install はやめて require 時の LoadError を無視するようにしています。
