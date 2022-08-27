@@ -1,0 +1,1 @@
+libexec/syntax_suggest というファイルを追加しています。標準添付ライブラリ syntax_suggest のコマンドラインツールみたいです。また upstream とのディレクトリ構成の違い(exe/ -> libexec/)を吸収するようにテストで対応しています。
