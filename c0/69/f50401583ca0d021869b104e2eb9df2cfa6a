@@ -1,0 +1,1 @@
+Time の特異メソッドやその alias の定義のための rb_define_alias() や rb_define_private_method() の引数に rb_singleton_class() の呼び出しを直接書いてたのを一旦変数に代入してから渡すようにしています。 rdoc が解釈できるようにするためとのこと。
