@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu の workflow で make test-syntax-suggest を実行するように追加しています。
