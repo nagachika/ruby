@@ -1,0 +1,1 @@
+rubygems のテストのヘルパーメソッドで環境変数 RUBY_DEBUG に ci という部分文字列が含まれていたら FileUtils.rm_rf による削除を Kernel#system による rm コマンドの実行に置き換えるようにしています。 983115cf3c8f75b1afbe3274f02c1529e1ce3a81 で FileUtils.rm_rf が Errno::ENOENT 以外の例外を無視しないようにしてからたまに MJIT の CI 中に失敗することがあるとのこと。
