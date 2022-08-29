@@ -1,0 +1,1 @@
+95d2d7920c97d0502ebed4ba439177325ad05e57 の rubygems のテスト用ヘルパーメソッドで FileUtils.rm_rf 前に MJIT の worker を止めるための RubyVM::MJIT.pause の呼び出しでキーワード引数 wait: false を渡しています。タイムアウトを避けるためとのことですがこれ止まるのを待たなくてもファイル削除は大丈夫なんでしょうか。
