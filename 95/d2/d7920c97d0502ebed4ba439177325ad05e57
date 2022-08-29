@@ -1,0 +1,1 @@
+13d2225c460cfc3daa679acb89433289527a844f および 458d49a04ab7ce8a61be11fbaf341ee252b8253a の続きで rubygems のテストのヘルパーメソッドで CI の時に rm コマンドを実行するようにしてたのをやっぱり FileUtils.rm_rf を利用するように戻して、その前後で MJIT が有効な場合に RubyVM::MJIT.pause/RubyVM::MJIT.resume で MJIT の worker を止めるようにしています。
