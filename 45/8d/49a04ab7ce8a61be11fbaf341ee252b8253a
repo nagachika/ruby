@@ -1,0 +1,1 @@
+13d2225c460cfc3daa679acb89433289527a844f の続きで rubygems のテスト時のヘルパーメソッドで CI 上でディレクトリ削除を FileUtils.rm_rf を使わず rm コマンドの実行に変更しましたが Kernel#system の exception: true を指定していたのをやめてエラーを無視するようにしています。 rm コマンドでもエラーが発生するということは FileUtils.rm_rf が rm と挙動を揃えたから発生するようになったってことなので FileUtils.rm_rf の例外を無視するのと同等っぽいですね。
