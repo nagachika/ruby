@@ -1,0 +1,1 @@
+bundler の Gemfile.lock に出力する文字列の余計な改行の削除。
