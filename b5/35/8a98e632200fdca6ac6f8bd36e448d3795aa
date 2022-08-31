@@ -1,0 +1,1 @@
+spec/mspec に upstream から最新版をマージ。 Thread の leak check 用のメソッドで無視するようマークした Thread の対応を追加しているみたいですね。
