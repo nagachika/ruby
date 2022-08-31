@@ -1,0 +1,1 @@
+vm.c の usage_analysis_insn_clear()、usage_analysis_operand_clear()、usage_analysis_register_clear() といった VM 命令の統計情報を蓄積する Hash をクリアする関数群の共通処理を usage_analysis_clear() に切り出すリファクタリング。
