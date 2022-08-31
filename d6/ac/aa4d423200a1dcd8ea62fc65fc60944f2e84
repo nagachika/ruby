@@ -1,0 +1,1 @@
+debug.c の関数 ruby_debug_log() の定義前にマクロの ruby_debug_log を #undef しておくようにしています。 27173e3735ff509dc8d9cc9b410baff84adf57dc で関数マクロ定義を導入した時から問題があったようです。
