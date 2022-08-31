@@ -1,0 +1,1 @@
+bundler が mswin 以外の Windows 環境でも Gemfile.lock の platform に :windows を追加するようにしているようです。
