@@ -1,0 +1,1 @@
+YJIT の Rust 実装でオペランドのオブジェクトの型チェックで Symbol の flags チェック内容を修正しています。 https://github.com/ruby/ruby/pull/6301
