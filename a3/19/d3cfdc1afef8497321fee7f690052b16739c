@@ -1,0 +1,1 @@
+GitHub Actions の make test-spec 実行時の workflow にて環境変数 CHECK_LEAKS を指定してリソースのリークチェックを有効にしています。
