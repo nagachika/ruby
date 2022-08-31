@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の upstream リポジトリのデフォルトブランチ名が main なので tool/sync_default_gems.rb で対応を追加しています。
