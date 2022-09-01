@@ -1,0 +1,1 @@
+CI の設定ファイル .cirrus.yml で rdoc 生成のタスクの削除? と btest の make のターゲットを btest から test に変更しています。だいたいいっしょですが make test のほうが known_bugs.rb の実行などを含んでてちょっとだけ対象が広いという感じですね。
