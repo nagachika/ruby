@@ -1,0 +1,1 @@
+同じく .cirrus.yml に YJIT 関連の Rust コードのテストのため? cargo test の実行をするタスクを追加しています。
