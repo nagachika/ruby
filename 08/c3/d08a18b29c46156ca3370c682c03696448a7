@@ -1,0 +1,1 @@
+rubystub.c に #include "internal/missing.h" を追加しています。 ruby_init_setproctitle() の宣言のために必要とのこと。
