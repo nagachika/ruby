@@ -1,0 +1,1 @@
+497b5ee1803e67efe641671276a05831ad788898 の続きで .cirrus.yml で make test を実行するようにしたタスクの名前も make_btest_script から make_test_script に変更しています。
