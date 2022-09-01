@@ -1,0 +1,1 @@
+defs/gmake.mk の SCRIPTPROGRAMS という変数に設定するファイルを探索するディレクトリの libexec/ を bin/ に変更しています。
