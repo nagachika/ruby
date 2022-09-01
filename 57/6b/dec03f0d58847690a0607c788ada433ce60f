@@ -1,0 +1,1 @@
+Kernel#sprintf や String#% で %c 指示子で 128-255 の範囲の 8bit 文字を追加する時に文字列オブジェクトの Encoding を ASCII-8BIT に変更するようにしています。 [ruby-core:109645] [Bug #18973]
