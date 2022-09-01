@@ -1,0 +1,1 @@
+ruby -v オプションなどで表示するためのマクロ RUBY_DESCRIPTION_WITH の定義を version.h から version.c に移動しています。
