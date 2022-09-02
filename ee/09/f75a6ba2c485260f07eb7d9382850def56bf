@@ -1,0 +1,1 @@
+tool/file2lastrev.rb から revision.h の自動更新の内容を構築する処理を tool/lib/vcs.rb に VCS#revision_header というメソッドとして切り出しています。
