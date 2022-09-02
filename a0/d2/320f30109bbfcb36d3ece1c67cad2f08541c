@@ -1,0 +1,1 @@
+doc/yjit/yjit.md に YJIT のビルドのために必要な Rust のバージョンの条件を追記しています。
