@@ -1,0 +1,1 @@
+aded6971ad37a75e4eb0493159c19c94971e80e4 の再修正で arm-linux-eabi のアーキテクチャで glibc でない libc (msul など)を使う環境の考慮も追加しています。
