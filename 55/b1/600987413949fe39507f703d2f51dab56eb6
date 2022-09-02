@@ -1,0 +1,1 @@
+ee09f75a6ba2c485260f07eb7d9382850def56bf で切り出した VCS#revision_header メソッドにキーワード引数 time を追加して RUBY_RELEASE_DATETIME マクロの定義を出力するかどうかを指定できるようにして、tool/make-snapshot でパッケージ作成する時の revision.h の生成にも VCS#revision_header を呼び出すようにしています。パッケージ作成時には time: false を指定して RUBY_RELEASE_DATETIME の定義は出力しないようにしています。
