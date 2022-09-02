@@ -1,0 +1,1 @@
+rubygems で arm の環境(arm-linux-eabi)を platform として処理できるように Gem::Platform を修正しています。
