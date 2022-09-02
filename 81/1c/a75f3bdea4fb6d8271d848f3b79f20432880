@@ -1,0 +1,1 @@
+CI の設定ファイル .cirrus.yml でテストの make のオプションに数値の指定のない -j を渡していたのを削っています。そのほうが速いからということみたいです。 https://github.com/ruby/ruby/pull/6307
