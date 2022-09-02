@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Windows 環境で環境変数 TERM が dumb だった時には Reline::GeneralIO を使って端末の機能を利用してなかったのを常に Reline::Windows を利用するようにしています。
