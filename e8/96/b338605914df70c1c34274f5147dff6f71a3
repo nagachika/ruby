@@ -1,0 +1,1 @@
+.cirrus.yml で YJIT を有効にしたテストを arm64 環境で実施するようにしています。 https://github.com/ruby/ruby/pull/6313
