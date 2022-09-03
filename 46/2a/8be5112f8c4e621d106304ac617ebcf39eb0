@@ -1,0 +1,1 @@
+ee09f75a6ba2c485260f07eb7d9382850def56bf で切り出した VCS#revision_header メソッドの未使用の引数 changed を削除して他の引数を省略可能にしています。パッケージ作成のための revision.h 生成の時の呼び出し時に省略するため。
