@@ -1,0 +1,1 @@
+spec/README.md に syntax_suggest のテストを実行する make test-syntax-suggest とこれも特定のファイルのみテスト実施する方法について追記しています。
