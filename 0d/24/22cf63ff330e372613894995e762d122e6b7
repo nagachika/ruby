@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#padding_space_with_escape_sequences というメソッドでダイアログ内の文字列の末尾に空白を追加する時にその数の計算結果が負になってしまったら無視して 0 にしておくようにしています。 Aracritty という端末? でこの問題が起きるそうです。
