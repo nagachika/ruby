@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプション --yjit-dump-disasm=all を指定した時に outlined cb なるコード部分もダンプするように対応しているようです。 https://github.com/ruby/ruby/pull/6309
