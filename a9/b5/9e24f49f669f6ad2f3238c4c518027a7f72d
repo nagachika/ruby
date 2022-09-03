@@ -1,0 +1,1 @@
+complex.c の f_zero_p() という関数の戻り値を int から bool に変更し、safe_mul() の引数の int も bool に変更しています。
