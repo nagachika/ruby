@@ -1,0 +1,1 @@
+.cirrus.yml で test/ruby/test_gc_compact.rb のテストを除外して別コマンドで分けて実行するようにしていたのをやめています。 https://github.com/ruby/ruby/pull/6310
