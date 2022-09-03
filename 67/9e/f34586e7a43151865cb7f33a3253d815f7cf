@@ -1,0 +1,1 @@
+定数の inline cache の解決をするための専用の VM 命令 opt_getconstant_path というのと導入して opt_getinlinecache/opt_setinlinecache を組み合わせて実現しているのを 1命令で実行するようにしています。効率化というよりも命令列で参照している定数を知るために opt_getinlinecache/opt_setinlinecache の間に putobject しているところの値を知る必要があって大変なので、VM 命令列を1度スキャンするだけで定数名がわかるようにしたいというのが動機みたいです。
