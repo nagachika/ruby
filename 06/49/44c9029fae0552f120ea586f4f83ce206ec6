@@ -1,0 +1,1 @@
+YJIT の arm64 アーキテクチャでレジスタの使いまわしで SEGV が発生することがあった不具合を修正しています。 https://github.com/ruby/ruby/pull/6312 [ruby-core:109789] [Bug #18985]
