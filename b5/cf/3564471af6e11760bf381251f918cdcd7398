@@ -1,0 +1,1 @@
+9212d963070612e669c40e5fde7954f19d648002 のテストで使うクラスを Numeric を継承するように修正しています。また Complex.polar の実装や Complex を生成する f_complex_new2() で引数に Complex が渡された時も assert() で異常終了させず対応するようにしています。
