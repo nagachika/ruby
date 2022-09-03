@@ -1,0 +1,1 @@
+iseq_peephole_optimize() による VM 命令列の peephole 最適化で getblockparam のあとに分岐の命令(branchif/branchunless)が置かれてた時に getblockparam を getblockparamproxy に置き換えるようにしています。ブロック引数の Proc オブジェクト化を遅延するため。
