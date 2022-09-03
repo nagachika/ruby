@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::GeneralIO に hide_cursor と show_cursor というクラスメソッドを追加しています。 Reline::ANSI などに追加されたメソッドに追随が漏れてたみたいですね。
