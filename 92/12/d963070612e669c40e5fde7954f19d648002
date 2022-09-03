@@ -1,0 +1,1 @@
+Complex#<=> で d5f50463c2b5c5263aa45c58f3f4ec73de8868d5 で Numeric でない値を渡された時の coerce 呼び出し対応した続きで real? に false を返すようなオブジェクトの時の対応を追加しています。 [ruby-core:109311] [Bug #18937]
