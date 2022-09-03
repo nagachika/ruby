@@ -1,0 +1,1 @@
+spec/README.md に make test-bundler-parallel というターゲットと特定のファイルのみテスト実行する指定のしかたについて追記しています。
