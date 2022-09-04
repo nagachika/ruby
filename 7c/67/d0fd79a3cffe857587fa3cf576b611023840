@@ -1,0 +1,1 @@
+enc/ のソースファイルや VM 命令のソースコードなどビルド時に生成する時に利用する ruby を $(MINIRUBY) から $(BOOTSTRAPRUBY) に変更して BASERUBY が使える環境では BASERUBY を利用するようにしています。
