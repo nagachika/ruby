@@ -1,0 +1,1 @@
+template/Makefile.in、win32/Makefile.sub に書いてた rbconfig.rb の依存関係を common.mk に移動しています。また template/Makefile.in の verconf.h から $(RBCONFIG) への依存関係を削除しています。
