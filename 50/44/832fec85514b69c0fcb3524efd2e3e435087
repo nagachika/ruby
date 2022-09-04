@@ -1,0 +1,1 @@
+0608a9a08693286a7d84845a216927ff2e3c9951 で Marshal.dump の T_BIGNUM の整数の出力を最適化するために導入した w_bigfixnum() の定義を long が 64 bit 以上の環境でのみ定義するようにしています。
