@@ -1,0 +1,1 @@
+exe/ruby の依存関係から miniruby を削除して miniruby のかわりに $(BOOTSTRAPRUBY) を利用してスクリプトを実行するようにしています。
