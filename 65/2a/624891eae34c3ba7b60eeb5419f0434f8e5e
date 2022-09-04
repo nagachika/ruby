@@ -1,0 +1,1 @@
+GitHub Actions の WASM 用の workflow で make ruby でビルドしているところに make mini と明示的に miniruby をビルドするようターゲットに追加しています。通常は ruby のビルドの途中で miniruby もビルドされますが cross compiling 時には作られないため。
