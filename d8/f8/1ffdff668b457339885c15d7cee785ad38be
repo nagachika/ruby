@@ -1,0 +1,1 @@
+common.mk に cross compile 時の builtin.o の依存関係に mini_builtin.c と miniprelude.c を追加しています。 miniruby 用の ruby 製組み込みメソッド定義の読み込みと prelude のためのソースコードだと思いますが cross compile 時には ruby 本体のビルド時にも必要になるのかな。
