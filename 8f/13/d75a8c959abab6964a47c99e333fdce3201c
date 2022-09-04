@@ -1,0 +1,1 @@
+common.mk の common-srcs ターゲットの依存関係に preludes を追加しています。
