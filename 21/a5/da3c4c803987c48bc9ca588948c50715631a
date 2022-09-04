@@ -1,0 +1,1 @@
+configure で MinGW 環境で MSys の shell がドライブレターつきのコマンドが使えるか確認して、だめだったら BASERUBY が使えないという設定にするようにしています。
