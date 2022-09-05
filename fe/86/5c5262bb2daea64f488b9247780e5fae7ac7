@@ -1,0 +1,1 @@
+Time の rdoc 用コメントの手直し。Time#strftime のフォーマット指示子の説明が別ファイルへのリンクになってしまったので ri ツールなどで参照する時にちょっと面倒だなぁ。 https://github.com/ruby/ruby/pull/6320
