@@ -1,0 +1,1 @@
+tool/make-snapshot で noarch-fake.rb という空ファイルを生成しておくようにしています。今度は a01271c1c46079cb6f7f32051f1253cf3d9bca6b の変更に追随するためだと思われます。
