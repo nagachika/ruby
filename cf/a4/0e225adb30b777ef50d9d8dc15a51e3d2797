@@ -1,0 +1,1 @@
+MJIT のコマンドラインオプションを保持する構造体 struct mjit_options で真偽値用のメンバーの型を char から bool に変更しています。
