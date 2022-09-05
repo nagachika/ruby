@@ -1,0 +1,1 @@
+configure で cross compiling 時には変数 BOOTSTRAPRUBY_COMMAND に fake.rb を -r オプションで読み込ませるように修正しています。これも 7c67d0fd79a3cffe857587fa3cf576b611023840 で自動生成に BOOTSTRAPRUBY を利用するようにした変更の追随のためだと思われます。
