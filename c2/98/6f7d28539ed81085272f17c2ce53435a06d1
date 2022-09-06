@@ -1,0 +1,1 @@
+3767c6a90d8970f9b39e9ed116a7b9bbac3f9f26 で MJIT の実装を ruby 実装に変更した時に追加された ruby スクリプトのテンプレート tool/ruby_vm/views/mjit_instruction.rb.erb でメソッドの第1引数に * がついてるのが警告になるので明示的な引数のかっこを追加しています。
