@@ -1,0 +1,1 @@
+68a092a4691efc8aba9a8ae7b27c2ad51c840bf9 の template/fake.rb.in の変更の再修正。 RUBY_DESCRIPTION_WITH_{MJIT,YJIT} の設定のデフォルトを version.h の RUBY_DESCRIPTION の定義を使うようにしているみたいです。
