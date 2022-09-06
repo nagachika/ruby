@@ -1,0 +1,1 @@
+make mjit-bindgen という make ターゲットを追加して tool/mjit/bindgen.rb を実行して C の関数呼び出しのためのスクリプト生成するようにしています。また GitHub Actions の workflow を新たに追加して make mjit-bindgen を実行するようにしています。 https://github.com/ruby/ruby/pull/6327
