@@ -1,0 +1,1 @@
+bundler の bundle add サブコマンドに --path オプションを追加して Gemfile に gem を直接ローカルのファイルパス指定で追加できるようにしています。
