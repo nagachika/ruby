@@ -1,0 +1,1 @@
+file.c の rb_utimensat() の定義の前後に RBIMPL_WARNING_PUSH()/RBIMPL_WARNING_POP() のマクロで局所的に警告を抑制するようにしているところでセミコロンが不要だったので削除しています。
