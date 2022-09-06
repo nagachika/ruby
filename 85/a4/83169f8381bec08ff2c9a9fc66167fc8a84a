@@ -1,0 +1,1 @@
+tool/make-snapshot で 2767cb282531be10c6393d3d7c48fcdd2935ca4d で作るようにした noarch-fake.rb を空ファイルでなく require_relative 'cross' というのを書いておくようにしています。 cross.rb なんて作られるっけ? cross compiling の時だけかな?
