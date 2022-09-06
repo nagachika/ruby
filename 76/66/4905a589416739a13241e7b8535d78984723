@@ -1,0 +1,1 @@
+common.mk の fake.rb のルールで $(arch) が "noarch" だった時にルールを無視させるようにしています。  2767cb282531be10c6393d3d7c48fcdd2935ca4d で tool/make-snapthot で noarch-fake.rb というファイルを作成するようにしたことの対応のようです。
