@@ -1,0 +1,1 @@
+configure で MJIT のサポート外とするプラットフォームに Solaris を追加しています。
