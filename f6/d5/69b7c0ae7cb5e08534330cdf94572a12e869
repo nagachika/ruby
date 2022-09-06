@@ -1,0 +1,1 @@
+MJIT で mjit worker のために fork する時に rb_fork() を直接つかわずに rb_mjit_fork() という関数を定義してこれを使うようにして disable_child_handler_before_fork() や before_fork_ruby() などの fork 前後に必要な処理の呼び出しを追加しています。
