@@ -1,0 +1,1 @@
+68a092a4691efc8aba9a8ae7b27c2ad51c840bf9、1420333455ba335f46887ee7a06c4ee95faa37ad の template/fake.rb.in の変更や 85a483169f8381bec08ff2c9a9fc66167fc8a84a の tool/make-snapshot の再々修正。というかデバッグのため tool/make-snapshot で cross.rb の内容を警告メッセージにダンプするようにしています。
