@@ -1,0 +1,1 @@
+3767c6a90d8970f9b39e9ed116a7b9bbac3f9f26 および 967fe334bb7f503788816df475970b8b0c3ffb3e の再修正で MJIT の実装で 64bit 環境かどうかの判定を RUBY_PLATFORM でルールベースで判定するのではなくて fiddle を使って直接的に判定するようにしています。
