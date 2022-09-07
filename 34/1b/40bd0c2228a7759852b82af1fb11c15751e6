@@ -1,0 +1,1 @@
+MJIT の C 実装の関数で RubyVM::MJIT::Compiler や RubyVM::MJIT::C などの定数の値を毎回 rb_const_get() しているのを mjit_init() 内で取得した結果をグローバル変数に格納してこれを使いまわすようにしています。
