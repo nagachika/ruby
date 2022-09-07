@@ -1,0 +1,1 @@
+bundler のテストで default gems の syntax_suggest の追加に対応しています。
