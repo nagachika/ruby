@@ -1,0 +1,1 @@
+MJIT で RubyVM::MIT::Compiler に compile という特異メソッドを定義した場合に JIT コンパイルの処理をこのメソッドの実装に委譲するようにしています。
