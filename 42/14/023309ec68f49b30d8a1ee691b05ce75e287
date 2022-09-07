@@ -1,0 +1,1 @@
+5b3bd91fcba7224e9ece54c862dc96461cf4bf79 および b726c06e7eeafff52e368179dbe79a11b1aff975 で MJIT のオプション情報を保持する構造体 struct mjit_options にメンバーを追加したので MJIT の ruby 実装からの C の binding のためのスクリプト lib/mjit/c_32.rb および lib/mjit/c_64.rb をこれに追随させています。 lib/mjit/c_32.rb のほうのメンバー名が1つ typo してますね。
