@@ -1,0 +1,1 @@
+bundler のテストで Windows 環境で default gems の fiddle の不具合回避のために入れてたコードが不要になったとのことで削除しています。
