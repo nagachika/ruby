@@ -1,0 +1,1 @@
+bootstraptest/test_io.rb でも FreeBSD でランダムに失敗するものをスキップするようにしています。
