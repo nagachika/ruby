@@ -1,0 +1,1 @@
+コマンドラインオプション --mjit=pause を追加して pre-compiled header の生成などの MJIT の起動時の準備を遅延させることができるようにしています。
