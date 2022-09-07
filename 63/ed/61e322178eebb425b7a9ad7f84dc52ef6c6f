@@ -1,0 +1,1 @@
+mjit_init() の先頭で RubyVM::MJIT::Compiler という定数が定義されているかチェックして、未定義だったら MJIT 無効化するようにしています。
