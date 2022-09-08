@@ -1,0 +1,1 @@
+b726c06e7eeafff52e368179dbe79a11b1aff975 で MJIT のコンパイル処理をフックするために定義するクラスメソッドとして RubyVM::MJIT::Compiler.compile をチェックするようにしてましたが、RubyVM::MJIT.compile をチェックするように変更しています。見逃してましたけどこの近くのコメントをみると RubyVM::MJIT.compile って書いてありましたね。
