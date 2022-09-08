@@ -1,0 +1,1 @@
+configure 時に cross compiling する時には BASERUBY が必須なのでなかったら明示的にエラーにするようにしています。
