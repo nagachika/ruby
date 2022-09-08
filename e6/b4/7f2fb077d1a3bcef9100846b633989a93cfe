@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストの一部をカレンダーの種類についての考慮の修正で実行除外する必要がなくなったので test/excludes/Psych/TestDateTime.rb を削除しています。
