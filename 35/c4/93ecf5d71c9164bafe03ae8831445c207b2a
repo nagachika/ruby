@@ -1,0 +1,1 @@
+4d469472e2fda05cbdef98ce2a1fe945f2355f51 で tool/make-snapshot で cross compiling 時の cross.rb の内容を警告でダンプするようにしていたのを --verbose を指定している時だけ出力するようにしています。
