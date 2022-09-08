@@ -1,0 +1,1 @@
+MJIT の ruby 実装 mjit_compiler.rb のデバッグ用のメソッドを削除しています。そのかわり(?) RubyVM::MJIT::Compiler.rb_iseqw_to_iseq という ISeq を C の binding に変換するメソッドを追加しています。
