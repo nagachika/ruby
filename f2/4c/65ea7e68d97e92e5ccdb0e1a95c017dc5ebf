@@ -1,0 +1,1 @@
+b726c06e7eeafff52e368179dbe79a11b1aff975 で RubyVM::MJIT::Compiler.compile メソッドを定義した時に MJIT の JIT コンパイルの挙動をフックできるようにした時に check_unit_queue() の処理をスキップさせるよう考慮が必要だったみたいなのでこの関数の先頭に分岐を追加しています。
