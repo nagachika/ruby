@@ -1,0 +1,1 @@
+MJIT の実装で mjit_add_iseq_to_process() の先頭で b726c06e7eeafff52e368179dbe79a11b1aff975 で追加した --mjit=pause を指定して precompiled header の作成などを遅延した時の考慮を追加しています。
