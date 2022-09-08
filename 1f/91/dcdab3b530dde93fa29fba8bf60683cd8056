@@ -1,0 +1,1 @@
+6a43245e6cda89eddd105f5a6e0182a7229657af で enc.mk 作成のために使うようにしてた変数 BOOTSTRAPRUBY_COMMAND の定義を common.mk に移動して、このコマンドで起動する ruby に渡すオプション(-r./xxx-fake)の変数の定義を template/Makefile.in や win32/Makefile.sub に分割するようにしています。また BOOTSTRAPRUBY は BASERUBY を使うようにしてたのをなければ miniruby を使うようにしています。あれ、元からそうじゃなかったのか。
