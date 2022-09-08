@@ -1,0 +1,1 @@
+同じく b726c06e7eeafff52e368179dbe79a11b1aff975 で追加した --mjit=pause による MJIT の準備の遅延化に追随した対応。
