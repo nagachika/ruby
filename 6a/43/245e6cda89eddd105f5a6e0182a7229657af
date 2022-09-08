@@ -1,0 +1,1 @@
+common.mk の enc.mk の生成ルールで enc/make_encmake.rb を実行するために fake.rb を利用するように書いてたのを $(BOOTSTRAPRUBY_COMMAND) (≒BASERUBY) を利用するようにしています。
