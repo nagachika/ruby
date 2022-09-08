@@ -1,0 +1,1 @@
+MJIT を有効にしてビルドしている時に thread.c に #include <sys/wait.h> を追加しています。 FreeBSD で必要だったとのこと。
