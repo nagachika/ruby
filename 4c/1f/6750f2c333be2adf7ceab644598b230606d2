@@ -1,0 +1,1 @@
+rubygems の gem info コマンドの --version オプション指定時の不具合修正。
