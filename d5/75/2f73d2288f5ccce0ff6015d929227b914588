@@ -1,0 +1,1 @@
+RubyVM::MJIT::Compiler.rb_vm_insn_encode というクラスメソッドを追加して VM 命令のアドレスを得ることができるようにしています。デバッグ用途のメソッドみたいです。
