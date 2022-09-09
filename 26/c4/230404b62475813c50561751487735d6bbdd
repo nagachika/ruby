@@ -1,0 +1,1 @@
+win32/setup.mak で BASERUBY の実行チェックする時に --disable=gems オプションをつけるようにしています。
