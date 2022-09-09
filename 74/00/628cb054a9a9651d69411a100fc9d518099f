@@ -1,0 +1,1 @@
+qsort_r(3) が利用可能な時にはそっちを使うので qsort_s(3) の wrapper である ruby_qsort() の定義をしないように preprocessor 分岐を追加しています。 [ruby-core:109845] [Bug #18997]
