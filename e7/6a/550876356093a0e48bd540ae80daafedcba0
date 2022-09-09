@@ -1,0 +1,1 @@
+win32/mkexports.rb で Cygwin や MSys 環境でのシンボル名の変換の時に行末の CR を削る必要があったみたいで String#chomp! の呼び出しを追加しています。
