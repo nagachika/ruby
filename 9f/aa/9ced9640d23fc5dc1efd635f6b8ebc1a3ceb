@@ -1,0 +1,1 @@
+ruby 実装による組み込みメソッドの ruby スクリプト内で require と require_relative をサポートして、コンパイルした ISeq を prelude.c に埋め込む時に先に指定のライブラリの .rbinc を #include するソースを吐き出すようにしています。
