@@ -1,0 +1,1 @@
+tool/ln_sr.rb で Windows 環境では symlink の作成に強い権限が必要なので Errno::EACCES が発生することがあるのでこれを無視するように rescue の対象に追加しています。
