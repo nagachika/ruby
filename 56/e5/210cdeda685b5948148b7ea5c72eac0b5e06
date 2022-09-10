@@ -1,0 +1,1 @@
+MJIT 用に libclang を使った C の binding を生成する tool/mjit/bindgen.rb で C のソースコードをパースしてマクロの展開をするシンプルな処理をもう少し複雑なマクロに対応するため専用のクラスを導入して C の部分的なパーサー? とその結果の AST から ruby 実装への変換用のクラスを実装しています。 https://github.com/ruby/ruby/pull/6343
