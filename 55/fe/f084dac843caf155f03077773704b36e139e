@@ -1,0 +1,1 @@
+Windows 環境で ftruncate(3) のかわりに chsize() という API を利用するコードがあったけどこれは使われなくなっていたとのことで preprocessor 分岐と不要になったコードを削除しています。
