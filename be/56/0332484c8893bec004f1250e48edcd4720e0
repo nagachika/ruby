@@ -1,0 +1,1 @@
+template/prelude.c.tmpl で各種 prelude.rb を C のソースコード内に埋め込む時にコメントを処理する正規表現を変更しています。 rdoc 用コメントの対応のためみたいです。
