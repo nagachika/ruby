@@ -1,0 +1,1 @@
+rb_str_concat_literals() という文字列リテラルの連結に使う関数で C の文字列バッファと Encoding と coderange を指定して連結する rb_enc_cr_str_buf_cat() という関数を使っていたのを String オブジェクトの連結する rb_str_buf_append() を呼び出すようにしています。 rb_str_buf_append() はその中で receiver の String オブジェクトの Encoding が ASCII_8BIT や UTF-8 だった時にショートカットがあってこちらを呼ぶほうが高速になるようです。
