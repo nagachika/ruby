@@ -1,0 +1,1 @@
+YJIT の Rust 実装で機械語の mov 命令を減らす最適化を行なっているようです。 https://github.com/ruby/ruby/pull/6342
