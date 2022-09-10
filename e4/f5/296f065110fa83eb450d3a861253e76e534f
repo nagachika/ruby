@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のために libffi を、拡張ライブラリ psych のために libyaml をパッケージに同梱するためにダウンロードしてパッチを当てる指示をするファイル ext/fiddle/extlibs と ext/psych/extlibs を削除しています。3.2 からは外部ライブラリの同梱はやめると。
