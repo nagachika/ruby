@@ -1,0 +1,1 @@
+Struct#new の rdoc 用コメントにキーワード引数 keyword_init: true を指定した時に作成された Class からインスタンス作る時の引数の指定についての記述を変更しています。
