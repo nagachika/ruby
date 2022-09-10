@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_objtostring() という関数で recv 引数が既に T_STRING 型オブジェクトだったらそれを返すのをメソッドの探索の前にして不要な処理をスキップするようにしています。
