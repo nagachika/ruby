@@ -1,0 +1,1 @@
+ruby のテスト用のライブラリ test/unit で Warning[:deprecated] = true をセットして deprecated 警告が常に出力されるようにしています。また環境変数 BACKTRACE_FOR_DEPRECATION_WARNINGS が設定されていたらさらに Warning.warn を再定義してバックトレースを標準エラー出力に出力するようにしています。
