@@ -1,0 +1,1 @@
+YJIT の x86_64 向けの機械語生成の冗長な命令を削る最適化をしているようです。 https://github.com/ruby/ruby/pull/6348
