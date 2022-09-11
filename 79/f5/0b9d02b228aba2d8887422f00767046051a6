@@ -1,0 +1,1 @@
+文字列オブジェクトの coderange が ENC_CODERANGE_BROKEN になっていることを判定するマクロ is_broken_string() があるのに直接比較しているところがあったので is_broken_string() を利用するようにリファクタリングしています。
