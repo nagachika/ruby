@@ -1,0 +1,1 @@
+MJIT が worker 用の子プロセスを fork するための関数 rb_mjit_fork() で rb_thread_atfork() を呼び出して他の Thread を停止するようにしています。また MJIT 有効時の割り込み処理 rb_threadptr_execute_interrupts() で子プロセスの終了処理をするのを main Ractor だけにするように修正しています。
