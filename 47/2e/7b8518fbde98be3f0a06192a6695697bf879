@@ -1,0 +1,1 @@
+MJIT の C binding で値のやりとりのための Array#pack に渡す指示子に 106744107b485a371ed788fe590c6ce778de16df で修正していた拡張ライブラリ fiddle の Fiddle::PackInfo::PACK_MAP を独自に修正して使っていたのを直接利用するようにしています。
