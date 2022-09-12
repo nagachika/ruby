@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow でテスト時の make の -j オプションを渡さないようにしています。
