@@ -1,0 +1,1 @@
+Encoding#replicate メソッドで deprecated 警告を出力するようにしています。3.3 からこのメソッドは削除する予定とのこと。 [ruby-core:109371] [Feature #18949]
