@@ -1,0 +1,1 @@
+b8c376cb9d91854fd40f6e06f07773404899b54f (r45402) という 2014年のかなり昔の defs/gmake.mk でコンパイルオプションに -O0 が指定されてた時に XCFLAGS から  -D_FORTIFY_SOURCE を削るようにしてた変更を revert しています。昔は最適化を off にした時に -D_FORTIFY_SOURCE が指定できなかったけど今は大丈夫になったみたいです。
