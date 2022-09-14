@@ -1,0 +1,1 @@
+6525b6f760ccd9612c9546b0313ab1c7e4af5e66 の UTF_16, UTF_32 の dummy encoding のエンディアン自動検出の廃止について NEWS に追記しています。 [ruby-core:109371] [Feature #18949]
