@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向けの workflow の make all のタイムアウトを 20分から 30分に延長しています。
