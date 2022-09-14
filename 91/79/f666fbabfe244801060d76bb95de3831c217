@@ -1,0 +1,1 @@
+.github/auto_request_review.yml というファイルを追加して特定のファイルの変更を含む pull request に自動的に reviewers を設定するようにしているようです。 YJIT 関連の変更に yjit という team を reviewers にするために追加しているみたいです。このためと思われる GitHub Actions の workflow 設定も追加されているので GitHub Actions によって設定するようにしているんだと思います。
