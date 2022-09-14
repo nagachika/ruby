@@ -1,0 +1,1 @@
+9179f666fbabfe244801060d76bb95de3831c217 で追加した pull request の reviewers 追加のための GitHub Actions の workflow でトリガーとなる pull request の状態として synchronized というイベントは対象から外しています。
