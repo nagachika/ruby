@@ -1,0 +1,1 @@
+configure で macOS 環境で -undefined dynamic_lookup というオプションを DLDFLAGS に追加しようとするのをやめています。もう使われなくなったオプションみたいです。
