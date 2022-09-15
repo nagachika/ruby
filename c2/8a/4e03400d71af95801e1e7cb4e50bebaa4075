@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb および tool/lib/vcs.rb でコミットログの Fixes/Fixed に続く #nnn を GitHub の pull request または issue のリンクに変換する処理の正規表現を変更しています。おそらくマッチする内容は同じ?
