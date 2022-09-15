@@ -1,0 +1,1 @@
+cf52a2c9ba0e2add78f50c32dfadda8e7808d2e9 で追加された .github/CODEOWNERS ファイルを削除しています。昨日の 9179f666fbabfe244801060d76bb95de3831c217 で GitHub Actions を使って自動 reviewers 設定するようにしたからかな。 https://github.com/ruby/ruby/pull/6365
