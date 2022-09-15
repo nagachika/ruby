@@ -1,0 +1,1 @@
+make test-bundler などで ruby 起動する時に -r./$(arch)-fake を渡して fake.rb を利用するようにしています。
