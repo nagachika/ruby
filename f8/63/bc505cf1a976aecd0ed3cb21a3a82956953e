@@ -1,0 +1,1 @@
+irb のヒストリファイルの保存で Kernel#open を使ってたのを File.open を使うようにして、Encoding の指定を mode 引数の文字列じゃなく encoding キーワード引数で指定するようにしています。 LC_MESSAGES の encoding が nil の時に不正な mode になってしまってエラーになるのを避けるため。
