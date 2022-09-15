@@ -1,0 +1,1 @@
+configure の --enable-rpath フラグと --with-opt-dir の処理を変更しています。「一度OPT_DIRからLDFLAGSとかに追加して、その後でrpathのフラグを選択してから改めてLDFLAGSとかを書き換えてたのを、rpath選択->OPT_DIR処理に」 とのこと。 https://github.com/ruby/ruby/pull/6367
