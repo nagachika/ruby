@@ -1,0 +1,1 @@
+common.mk の make test-buddler などで make の並列実行のための fd を伝播させるために環境変数 MFLAGS を設定して ruby を起動するようにしています。
