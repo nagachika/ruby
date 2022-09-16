@@ -1,0 +1,1 @@
+parse.y の kwd_append() 関数内の処理を opt_arg_append() という関数に委譲するようにリファクタリング。
