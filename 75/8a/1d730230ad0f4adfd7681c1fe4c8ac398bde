@@ -1,0 +1,1 @@
+YJI はこれまで *args による配列を展開した引数渡しがサポートされていなかったみたいでその対応を追加しています。 https://github.com/ruby/ruby/pull/6341
