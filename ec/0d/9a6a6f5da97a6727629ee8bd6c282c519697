@@ -1,0 +1,1 @@
+bundler のテスト用の lockfile の PLATFORMS の指定に arm64-darwin-22 というのを追加しています。最新の macOS でのテストのためとのこと。
