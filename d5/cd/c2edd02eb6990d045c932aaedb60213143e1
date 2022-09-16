@@ -1,0 +1,1 @@
+Travis-CI での arm 版のビルド時に事前にインストールするサードパーティのライブラリに libyaml-dev:armhf を追加しています。
