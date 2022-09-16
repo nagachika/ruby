@@ -1,0 +1,1 @@
+YJIT で respond_to? メソッドの呼び出しを専用の関数呼び出しに展開するように対応を追加しています。 https://github.com/ruby/ruby/pull/6363
