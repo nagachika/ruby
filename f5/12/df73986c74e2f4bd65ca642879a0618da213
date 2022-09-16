@@ -1,0 +1,1 @@
+configure に --with-gmp-dir オプションを追加して OPT_DIR 変数にセットするようにしています。 OPT_DIR を上書きしちゃっていいのかな? と思ったけど --with-opr-dir の前に書いてあるから --with-opt-dir が指定されたらそっちは追加するようになってるので大丈夫なのか。 また --without-gmp オプションが指定されたら --with-gmp-dir の指定も無効にするようにしています。 https://github.com/ruby/ruby/pull/6366
