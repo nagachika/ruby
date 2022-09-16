@@ -1,0 +1,1 @@
+ec0d9a6a6f5da97a6727629ee8bd6c282c519697 に続いて bundler のテスト用の lockfile の PLATFORMS に x86_64-darwin-21 を追加しています。あれ、arm と x86_64 でバージョン番号が違う?
