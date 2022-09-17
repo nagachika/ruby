@@ -1,0 +1,1 @@
+make test-bundler の依存関係に $(arch)-fake.rb を追加しています。2e324b645e16e67c14de80ea34b1d61165045f22 で test-bundler で fakr.rb を経由するようにしたので依存関係の追加が必要になったためだと思います。
