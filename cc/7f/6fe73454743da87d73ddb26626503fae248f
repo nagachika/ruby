@@ -1,0 +1,1 @@
+YIT の icache (たぶん CPU の機械語命令のキャッシュ)のクリアをする rb_yjit_icache_invalidate() という関数は aarch64 アーキテクチャ向けではビルド時にエラーになるようにしています。 https://github.com/ruby/ruby/pull/6380
