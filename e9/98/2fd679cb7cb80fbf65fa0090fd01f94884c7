@@ -1,0 +1,1 @@
+common.mk の UNICODE_EMOJI_VERSION 変数を決め打ちで書いてたのを UNICODE_VERSION を make の Substitution References という機能で分解して取り出すようにしています。
