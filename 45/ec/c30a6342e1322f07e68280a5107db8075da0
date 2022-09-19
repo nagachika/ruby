@@ -1,0 +1,1 @@
+0e816e6d3022892da438940b09c4d4b49ceb670f および a988fe0b3e4cd5a3955706affdc1f498ff9b5d77 で移動した lib/mjit/instruction.rb の自動生成のルールを template/Makefile.in から common.mk に移動しています。Windows 環境では生成する必要がないので template/Makefile.in に置いてたみたいですがメンテナンス性のために common.mk に移動するとのこと。
