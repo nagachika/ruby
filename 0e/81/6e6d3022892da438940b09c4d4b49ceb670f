@@ -1,0 +1,1 @@
+ruby 実装による組み込みメソッド定義の機構を利用していた mjit_instruction.rb を lib/mjit/instruction.rb という標準添付ライブラリとして生成するように変更しています。もともと C の関数呼び出しなどはなくて純粋な ruby スクリプトを自動生成していたみたいです。しかし組み込みメソッド定義している mjit_compiler.rb から require しているので 9faa9ced9640d23fc5dc1efd635f6b8ebc1a3ceb で prelude や組み込みメソッド定義の .rbinc から require されることで結局起動時に組込まれるようになっているようです。
