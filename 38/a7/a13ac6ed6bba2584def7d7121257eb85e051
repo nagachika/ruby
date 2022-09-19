@@ -1,0 +1,1 @@
+tool/make-snapshot で version.h の RUBY_RELEASE_{YEAR,MONTH,DAY} 等のマクロ定義を最新のコミットの CommitDate から生成するようにしています。git ユーザーによる毎日の version.h の更新を不要にするためみたいです。 https://github.com/ruby/ruby/pull/6382
