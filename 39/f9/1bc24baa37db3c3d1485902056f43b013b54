@@ -1,0 +1,1 @@
+common.mk に GNU make でない時に revision.h を空ファイルで生成するルールがあったのを削除して常に tool/file2lastrev.rb で生成するようにしています。
