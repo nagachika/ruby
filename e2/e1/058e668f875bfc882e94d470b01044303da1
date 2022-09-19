@@ -1,0 +1,1 @@
+45ecc30a6342e1322f07e68280a5107db8075da0 の続きで srcs の依存関係に lib/mjit/instruction.rb を追加しています。パッケージ生成時に生成させるため。
