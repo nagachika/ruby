@@ -1,0 +1,1 @@
+38a7a13ac6ed6bba2584def7d7121257eb85e051 で導入した version.h の RELEASE_DATE 定数生成のためのメソッドで FreeBSD の CI サーバーで git コマンドがちゃんと動かないとのことでエラー時に現在時刻を利用するようにしています。
