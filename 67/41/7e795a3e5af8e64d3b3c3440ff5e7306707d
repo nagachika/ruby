@@ -1,0 +1,1 @@
+39f91bc24baa37db3c3d1485902056f43b013b54 のさらに続きで revision.h.tmp の生成ルールを変数 HAVE_BASERUBY によって変えるようにして、BASERUBY がない環境では空ファイル生成するように変更しています。
