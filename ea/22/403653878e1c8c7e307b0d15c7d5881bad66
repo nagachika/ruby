@@ -1,0 +1,1 @@
+common.mk の Unicode.org からのデータダウンロード関係の変数から tool/downloader.rb を実行するコマンド部分を UNICODE_DOWNLOADER という変数に切り出して再利用するリファクタリング。
