@@ -1,0 +1,1 @@
+bootstraptest/runner.rb で標準エラー出力にメッセージを出力して Kernel#exit でエラー終了する処理を Kernel#abort の利用に変更しています。またエラーメッセージ内のオプション名が古い(?)ので変更しています。
