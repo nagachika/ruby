@@ -1,0 +1,1 @@
+doc/yjit/yjit.md に記述していたサンプルの configure のオプションが --disable--install-rdoc が重複していたので1つ削っています。 https://github.com/ruby/ruby/pull/6400
