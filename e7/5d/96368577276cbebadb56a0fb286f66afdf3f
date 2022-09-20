@@ -1,0 +1,1 @@
+YJIT の splat 引数対応で ruby2_keywords フラグつきの Hash への対応の漏れを修正しています。 https://github.com/ruby/ruby/pull/6395
