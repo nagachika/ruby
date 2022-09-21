@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::Parser#parse の引数解析部分を ruby 実装にして処理の本体は Psych::Parser#_parse メソッドに C による実装を定義してこれを呼び出すように変更しています。
