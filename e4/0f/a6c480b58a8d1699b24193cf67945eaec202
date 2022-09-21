@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Addrinfo#ipv6_linklocal? および Addrinfo#ipv6_sitelocal? の rdoc 用コメントのサンプルとして挙げられていたアドレスが間違っていたのを修正しています。 https://github.com/ruby/ruby/pull/6372
