@@ -1,0 +1,1 @@
+GitHub Actions の YJIT 用の workflow に --yjit-stats オプションをつけてベンチマークを実行するステップを追加しています。 https://github.com/ruby/ruby/pull/6403
