@@ -1,0 +1,1 @@
+file.c の define_filetest_function() という static 関数を関数マクロによる定義に変更しています。コミットログによると ANYARGS で任意の個数の引数を指定するのを避けるためみたいです。
