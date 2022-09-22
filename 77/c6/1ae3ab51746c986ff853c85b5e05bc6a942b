@@ -1,0 +1,1 @@
+vm_eval.c の cc_new() で vm_ci_new() のポインタの引数に false を渡していたのを NULL に修正しています。
