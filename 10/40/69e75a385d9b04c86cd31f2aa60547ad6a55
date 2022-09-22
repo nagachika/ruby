@@ -1,0 +1,1 @@
+error.c の syserr_initialize() での不要な prototype 宣言を削除しています。おそらく clang 15 で警告が出てたのでしょう。
