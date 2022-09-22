@@ -1,0 +1,1 @@
+make に bmake というコマンドを利用する時の YJIT の Rust 実装をビルドの対応をしているようです。 $(YJIT_LIBS) の依存関係? かなにかで GNU make に依存した記法を使ってたみたいで他の make の実装でも動くように代替のルールを yjit/not_gmake.mk に書いておいて必要に応じて include する Makefile を生成するようにしています。
