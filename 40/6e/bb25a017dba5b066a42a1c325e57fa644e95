@@ -1,0 +1,1 @@
+ractor.c の obj_refer_only_shareables_p_i() で警告が出たとのことでポインタのインクリメントに dereference の "*" を追加していますが、うーん? これは多分 (*pcnt)++ にしないといけないんじゃないかな?
