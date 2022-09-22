@@ -1,0 +1,1 @@
+rb_f_notimplement() および rb_f_notimplement_internal() を関数ポインタとして参照しているところで明示的に ANYARGS を受け取る関数としてキャストするようにしています。
