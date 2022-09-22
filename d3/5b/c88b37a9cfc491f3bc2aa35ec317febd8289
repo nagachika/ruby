@@ -1,0 +1,1 @@
+拡張ライブラリ socket で C の定数 SO_INCOMING_CPU と SO_INCOMING_NAPI_ID も ruby の定数に取り込むように追加しています。Linux で存在する(した?)定数みたいです。
