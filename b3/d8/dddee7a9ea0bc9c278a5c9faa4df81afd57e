@@ -1,0 +1,1 @@
+Continuation のために machine stack を退避する cont_save_machine_stack() に ASAN のための unpoison の呼び出しを追加しています。
