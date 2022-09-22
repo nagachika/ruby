@@ -1,0 +1,1 @@
+Process.kill の rdoc 用コメントの call-seq の可変長引数の書きかたを修正。
