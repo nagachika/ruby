@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションを試す workflow で利用するデフォルトのコンパイラの clang 14 を clang 15 に更新しています。また clang-16 でのビルドも追加しています。
