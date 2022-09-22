@@ -1,0 +1,1 @@
+mspec の対象のファイルを load するためのユーティリティメソッドで File.expand_path が環境変数 HOME がなくて ~ が展開できない時に ArgumentError が発生するのを無視するように対応しています。
