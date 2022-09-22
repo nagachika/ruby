@@ -1,0 +1,1 @@
+拡張ライブラリ socket で C の定数 SO_USER_COOKIE も ruby の定数に取り込むように追加しています。
