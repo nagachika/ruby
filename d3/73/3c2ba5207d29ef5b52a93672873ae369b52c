@@ -1,0 +1,1 @@
+YJIT の --yjit-stats オプションの処理で 5883bc7c0791de2ce5e8b22175aef07705f0c618 の追加の再修正をしています。 https://github.com/ruby/ruby/pull/6409
