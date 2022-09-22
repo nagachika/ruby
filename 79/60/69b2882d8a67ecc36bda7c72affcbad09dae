@@ -1,0 +1,1 @@
+Process.{set,get}rlimit に使う定数に Process::RLIMIT_NPTS というのを(C の定数が定義されていたら)追加しています。
