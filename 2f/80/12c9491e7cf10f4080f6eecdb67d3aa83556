@@ -1,0 +1,1 @@
+include/ruby/internal/anyargs.h で引数の数に応じて関数を用意しているところで rb_f_notimplement() を使った定義をする時に一旦 xxxx_notimpl() という関数を経由して呼び出すようにしています。これも ANYARGS を使わないようにするためみたいです。
