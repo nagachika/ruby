@@ -1,0 +1,1 @@
+同じく拡張ライブラリ socket で C の定数 TCP_CONNECTION_INFO と TCP_KEEPALIVE の対応を追加しています。 TCP_KEEPALIVE がまだなかったというのは意外でした。
