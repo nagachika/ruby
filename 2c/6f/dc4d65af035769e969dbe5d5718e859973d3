@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 用の workflow の設定の matrix の書きかたを修正してジョブ名がわかりやすく重複した処理を省くようにしているようです。 https://github.com/ruby/ruby/pull/6413
