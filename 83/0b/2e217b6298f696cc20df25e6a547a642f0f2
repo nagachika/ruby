@@ -1,0 +1,1 @@
+bundler の bundle gem で gem 生成する時の GitLab CI 用の設定ファイルのテンプレートに default というキーを最初につけるように修正しています。
