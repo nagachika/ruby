@@ -1,0 +1,1 @@
+doc/examples/files.rdoc と doc/io_streams.rdoc というドキュメントのファイルを追記しています。また File クラスの rdoc 用コメントに大量に追記しています。 https://github.com/ruby/ruby/pull/6383
