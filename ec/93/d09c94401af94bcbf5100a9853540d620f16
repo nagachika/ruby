@@ -1,0 +1,1 @@
+同じく MJIT の C binding に rb_execution_context_t 型の対応を追加しています。
