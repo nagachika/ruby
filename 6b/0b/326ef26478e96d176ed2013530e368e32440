@@ -1,0 +1,1 @@
+796069b2882d8a67ecc36bda7c72affcbad09dae の Process.{set,get}rlimit のための定数 Process::RLIMIT_NPTS の追加に追随して rdoc 用のコメントの説明の追加と rlimit_resource_name2int という名前と整数の変換の処理の対応を追加しています。
