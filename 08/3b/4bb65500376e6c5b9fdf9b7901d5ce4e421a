@@ -1,0 +1,1 @@
+MJIT の C binding に rb_control_frame_t 型の対応を追加しています。
