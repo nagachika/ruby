@@ -1,0 +1,1 @@
+NEWS に Process::RLIMIT_NPTS と拡張ライブラリ socket の Socket に TCP_KEEPALIVE など昨日追加された定数群についての記述を追加しています。
