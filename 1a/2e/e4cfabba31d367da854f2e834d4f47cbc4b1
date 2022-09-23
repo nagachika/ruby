@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版での make test-all と make test-spec の順序を逆にしています。make test-all でなにかゴミが残っててそのせいで rubyspec が失敗しているんじゃないかという推測で変更してみているみたいです。
