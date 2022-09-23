@@ -1,0 +1,1 @@
+tool/ruby_vm/helpers/dumper.rb という VM 用のコード生成のツールの一部でカレントディレクトリを Pathname#expand_path で絶対パス化するようにしています。
