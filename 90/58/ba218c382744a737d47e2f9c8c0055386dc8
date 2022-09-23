@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 用 workflow で make check で rubygems の一部のテストを実行除外するようにしていたのをやめています。
