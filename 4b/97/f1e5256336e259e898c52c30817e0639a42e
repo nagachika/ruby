@@ -1,0 +1,1 @@
+YJIT の Rust 実装で control frame を push する処理を専用の型を導入してメソッド定義して共有するようにリファクタリングしています。 https://github.com/ruby/ruby/pull/6412
