@@ -1,0 +1,1 @@
+configure で YJIT のためのチェックをしている時に OpenBSD では LDFLAGS に -lpthread -lc++abi オプションを追加するようにしています。 YJIT で利用する _Unwind_xxx という関数群のために必要とのこと。
