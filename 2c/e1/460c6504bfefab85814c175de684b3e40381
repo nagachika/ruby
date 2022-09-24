@@ -1,0 +1,1 @@
+tool/mjit/bindgen.rb で生成する構造体型に対応したメソッドでサイズをマジックナンバーで mjit_c.rb に埋め込むのをやめて Primitive.cexpr!() で取得するようにしています。
