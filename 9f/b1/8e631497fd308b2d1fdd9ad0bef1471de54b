@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#editing_mode でインスタンス変数 @waiting_operator_vi_arg が nil の時の対応を追加しています。
