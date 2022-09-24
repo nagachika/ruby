@@ -1,0 +1,1 @@
+00c441ce7ac76dedd272acf9a9daec59d9d5d908 の MJIT 用の C Binding で定数に対応したメソッド定義を ruby 実装の mjit_c.rb に移動した時に 1行メソッド定義の構文を使っていたのを普通の def ... end 文による定義に変更しています。BASERUBY で動く必要があるからとのこと。
