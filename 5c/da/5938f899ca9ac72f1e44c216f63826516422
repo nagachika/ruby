@@ -1,0 +1,1 @@
+さらに MJIT 用の C Binding の一部を mjit_c.rb による実装に移動しています。
