@@ -1,0 +1,1 @@
+同じく f2bea691cd12150a526ddc4be95c5396f07920ba で追加した ruby 実装のテンプレート tool/ruby_vm/views/mjit_c.rb.erb に mjit_compiler.rb から実装を移動しています。
