@@ -1,0 +1,1 @@
+f2bea691cd12150a526ddc4be95c5396f07920ba で追加したテンプレートファイル tool/ruby_vm/views/mjit_c.rb.erb 自体も tool/mjit/bindgen.rb で生成するようにしています。
