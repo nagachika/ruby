@@ -1,0 +1,1 @@
+MJIT 用の C binding のための定数 RubyVM::MJIT::C を mjit_c.rb という ruby 実装で定義するようにして、このファイルは tool/ruby_vm/views/mjit_c.rb.erb のテンプレートから生成させるようにしています。テンプレートといっても展開する部分はないので mjit_c.rb を直接追加しても良さそうですが、これから拡張する予定なのかも。
