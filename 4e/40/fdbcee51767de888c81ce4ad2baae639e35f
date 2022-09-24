@@ -1,0 +1,1 @@
+YJIT の Rust 実装の guard_two_fixnums() という関数でチェックが失敗した時に JIT コード実行をあきらめるのを jit_chain_guard() という関数呼び出しに変更しています。この関数はどうも一定回数まで再度コンパイルを試みる処理へジャンプする機械語命令を生成するものみたいです。 https://github.com/ruby/ruby/pull/6422
