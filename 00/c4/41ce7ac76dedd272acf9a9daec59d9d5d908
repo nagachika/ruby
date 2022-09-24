@@ -1,0 +1,1 @@
+やはり f2bea691cd12150a526ddc4be95c5396f07920ba で追加した ruby 実装のテンプレート tool/ruby_vm/views/mjit_c.rb.erb に lib/mjit/c_{32,64}.rb のいくつかの定数に対応したメソッド定義を移動して ruby 実装による Primitive.cexpr! を経由した C の定数参照を利用するようにしています。
