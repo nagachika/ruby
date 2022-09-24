@@ -1,0 +1,1 @@
+tool/mjit/bindgen.rb で環境変数 BUNDLE_GEMFILE の設定をして require 'bundler/setup' することで常に bundler の影響下でこのツールを動かすようにしています。
