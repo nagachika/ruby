@@ -1,0 +1,1 @@
+tool/mjit/bindgen.rb で生成する MJIT 用 C binding で基本的な C の型に対応したメソッド群を生成するようにしています。
