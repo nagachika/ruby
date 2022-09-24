@@ -1,0 +1,1 @@
+mjit_c.rb で他にもオフセット? などがマジックナンバーになっていたのを Primitive.cexpr!() を使って取得するように生成するよう tool/mjit/bindgen.rb を修正しています。
