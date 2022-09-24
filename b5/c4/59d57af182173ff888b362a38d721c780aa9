@@ -1,0 +1,1 @@
+Object#freeze を大量に呼ぶベンチマークを benchmark/vm_freezeobj.yml に追加しています。
