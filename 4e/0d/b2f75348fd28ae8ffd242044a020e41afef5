@@ -1,0 +1,1 @@
+tool/ruby_vm/views/mjit_c.rb.erb はやっぱりテンプレートである必要なかったとのことで mjit_c.rb を直接生成するようにしてリポジトリに追加しています。
