@@ -1,0 +1,1 @@
+ドキュメントファイル doc/io_streams.rdoc のメソッド名の表記にクラス名を追加する修正。 https://github.com/ruby/ruby/pull/6420
