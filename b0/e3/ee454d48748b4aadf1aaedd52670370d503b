@@ -1,0 +1,1 @@
+mjit_c.rb を変換した mjit_c.rbinc の #include 時に警告抑制のため #pragma を利用して一時的に -Wtype-limits の警告を無効化するようにしています。
