@@ -1,0 +1,1 @@
+YJIT のオプション --yjit-stats が利用可能かどうかを configure の時点で利用可能なプラットフォームかどうかの判定をして可能なら YJIT のビルド時に --features stats オプションを付与するようにしています。また Rust の 1.60.0 の機能を使ってしまっていたところがあったみたいでそれを避けるようにしています。 https://github.com/ruby/ruby/pull/6410
