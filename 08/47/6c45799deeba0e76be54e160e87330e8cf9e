@@ -1,0 +1,1 @@
+b0e3ee454d48748b4aadf1aaedd52670370d503b の続きで局所的な警告抑制のための RBIMPL_WARNING_PUSH()/RBIMPL_WARNING_POP()/RBIMPL_WARNING_IGNORED() などのマクロはセミコロンが不要なのにつけてたので削っています。
