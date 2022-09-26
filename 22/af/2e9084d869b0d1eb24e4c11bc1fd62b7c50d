@@ -1,0 +1,1 @@
+75cf29f60d87b298edfd75611bfe272a92289cee の続きで構造体 rb_iseq_location_t のメンバーの first_lineno も型を VALUE から int に変更しています。また rb_binding_t の first_lineno は unsigned short だったのを int に変更しています。これはなんか、short であることに理由があったような気がぼんやりするけど、大丈夫かな。
