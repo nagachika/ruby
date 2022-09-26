@@ -1,0 +1,1 @@
+rb_iseq_new_with_opt() や rb_iseq_new_with_callback() などの関数の引数 first_lineno の型を VALUE から int に変更しています。
