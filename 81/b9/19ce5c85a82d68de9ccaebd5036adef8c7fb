@@ -1,0 +1,1 @@
+9434a7333c2a23c680a977331a60ca7c502c1ac0 の eval 系メソッドで実行するスクリプト内の coverage のサポートについて NEWS に追記しています。 [ruby-core:109937] [Feature #19008]
