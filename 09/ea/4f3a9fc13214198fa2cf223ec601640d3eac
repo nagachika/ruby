@@ -1,0 +1,1 @@
+iseq.c の rb_iseq_new_top() と rb_iseq_new_eval() から共通の初期化部分を iseq_setup_coverage() という関数に切り出すリファクタリング。
