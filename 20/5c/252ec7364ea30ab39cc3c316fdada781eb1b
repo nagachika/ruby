@@ -1,0 +1,1 @@
+Method#call の実装 rb_method_call_pass_called_kw() でブロック引数を Proc オブジェクトに変換していたのをまったく同じ内容の rb_method_call_kw() に委譲するようにリファクタリングしています。
