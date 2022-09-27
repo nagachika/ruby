@@ -1,0 +1,1 @@
+IO::Buffer の read/write を read(2) や write(2) を直接呼ばず rb_thread_io_blocking_region() を利用して GVL を開放して呼び出すようにしています。あれ、今まで GVL 開放してなかったのか?  https://github.com/ruby/ruby/pull/6438
