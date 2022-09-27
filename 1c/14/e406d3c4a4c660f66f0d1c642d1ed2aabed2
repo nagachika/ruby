@@ -1,0 +1,1 @@
+include/ruby/io/buffer.h の二重 #include を防ぐための guard 用のマクロ名が RUBY_IO_BUFFER_T となってたのを慣習にならって RUBY_IO_BUFFER_H に修正しています。
