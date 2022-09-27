@@ -1,0 +1,1 @@
+fbaac837cfba23a9d34dc7ee144d7940248222a2 の代入記号つきメソッドの命令列へのコンパイル時の最適化で safe-guard 演算子と組み合わせると VM スタックの consistency check がエラーになる場合があったようで pop 命令前後の LABEL の生成の制御を修正しています。  [ruby-core:110054] [Bug #19021]
