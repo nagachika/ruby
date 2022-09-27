@@ -1,0 +1,1 @@
+IO::Buffer に #get_values, #each, #values, #each_byte, #set_values などの新規メソッドとクラスメソッド IO::Buffer.size_of を追加しています。 https://github.com/ruby/ruby/pull/6434
