@@ -1,0 +1,1 @@
+dc7d929e542a3372113f7864b26384ceab596197 の変更で Makefile を生成する前に revision.h が必要になったので configure 時に tool/file2lastrev.rb で revision.h 生成するようにしています。
