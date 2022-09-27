@@ -1,0 +1,1 @@
+38a7a13ac6ed6bba2584def7d7121257eb85e051 の RUBY_RELEASE_DATE を tool/make-snapshot でコミットの CommitDate から生成するようにした変更の続き(?)で configure 時に version.h がなければ revision.h RUBY_RELEASE_XXX のマクロ定数から変数を抽出するようにしています。
