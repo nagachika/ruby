@@ -1,0 +1,1 @@
+9a8f6e392fbd9c145566ae18fa2128ef96369430 で String#b の実装で coderange の再設定をするようにしたところで元の文字列の Encoding が ASCII-compatible でないものだった場合は coderange の変更をしないようにしています。これはなぜだろう……。
