@@ -1,0 +1,1 @@
+String オブジェクトの部分文字列を作る str_substr() や str_byte_substr() といった関数でバッファの共有可能だった時に rb_str_new_frozen() で新たに freeze した文字列オブジェクトを作ってそれを str_new_shared() に渡していましたが、str_new_shared() の内部で必要に応じて freeze 文字列を作るようになっているのでこれをやめて不要な中間オブジェクトの生成を抑制するようにしています。
