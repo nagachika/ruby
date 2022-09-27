@@ -1,0 +1,1 @@
+parse.y で警告抑制のために? #include "parse.h" の前に RBIMPL_WARNING_PUSH()/RBIMPL_WARNING_IGNORED()/RBIMPL_WARNING_POP() で局所的に -Wpsabi の警告フラグを無効化している(コメントにも書いてあるけど RBIMPL_WARNING_POP() で抑制は解除した後で #include しているけど、なぜかこれで効くらしい……)のが clang ではまた別の警告になるそうで __clang__ マクロが定義されていたらこのマクロ群の利用をやめるようにしています。
