@@ -1,0 +1,1 @@
+string.c の rb_str_subseq() と str_substr()、str_byte_substr() から共通部分を str_subseq() という関数に切り出すリファクタリング。
