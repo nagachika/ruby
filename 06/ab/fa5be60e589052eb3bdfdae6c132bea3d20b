@@ -1,0 +1,1 @@
+インスタンス変数管理に Object Shapes を実装した 9ddfd2ca004d1952be79cf1b84c52c79a55978f4 およびそのタブの展開の 830b5b5c351c5c6efa5ad461ae4ec5085e5f0275 を revert しています。 RGenGC 用の Write Barrier の不足があって異常終了することがあったみたいです。
