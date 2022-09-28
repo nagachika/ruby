@@ -1,0 +1,1 @@
+標準添付ライブラリの syntax_sggest の upstream を  https://github.com/zombocom/syntax_suggest から https://github.com/ruby/syntax_suggest に移動したとのことでコメントのリンクや gemspec の spec.homepage などの URL を更新しています。tool/sync_default_gems.rb は……と思ったらこちらはもう ruby/syntax_suggest になってました。
