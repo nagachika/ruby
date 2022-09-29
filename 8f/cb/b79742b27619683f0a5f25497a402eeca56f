@@ -1,0 +1,1 @@
+configure で YJIT の --yjit-stats オプションの利用可否の判定を inline assembler で判定していたのを廃止しているみたいです。 28433e9aa0c765c9d20bc6397439a1b12e66bcbd の対応で不要になった? https://github.com/ruby/ruby/pull/6457
