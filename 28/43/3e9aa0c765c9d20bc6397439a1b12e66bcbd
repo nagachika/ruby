@@ -1,0 +1,1 @@
+YJIT の aarch64 アーキテクチャ向けの JIT コンパイル時に LDADDAL という命令を利用していたのが Graviton 1 では利用できない命令だったとのことで LDAXR と STLXR という排他的 load/store の命令っぽいものを利用するようにしているようです。 https://github.com/ruby/ruby/pull/6455
