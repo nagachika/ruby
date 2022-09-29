@@ -1,0 +1,1 @@
+b7577b4d9e0fd92522fc30e10fe712e245adee8c で rubyspec の Time.new のテストでタイムゾーンに Europe/Amsterdam を利用したテストはコメントアウトしていたのを revert しています。tzdata のパッケージのほうの間違い? だったみたいでそれが修正されたとのこと。
