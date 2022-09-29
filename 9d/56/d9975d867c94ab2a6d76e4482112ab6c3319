@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout でプロセス内で共通になった監視用 Thread の作成時に ThreadGroup::Default の ThreadGroup に所属させるようにしています。Timeout.timeout を呼び出した元の Thread が特別な ThreadGroup に所属しているとそこに追加されてしまうので誤って殺されたりする可能性があったため。 [ruby-core:110053] [Bug #19020]
