@@ -1,0 +1,1 @@
+さらに拡張ライブラリ coverage に Coverage.supported? というメソッドを追加して Symbol を渡して利用可能なモードか判定するようにしているようです。今は :lines, :branches, :methods, :eval の 4つが利用可能。 [ruby-core:110119] [Bug #19026]
