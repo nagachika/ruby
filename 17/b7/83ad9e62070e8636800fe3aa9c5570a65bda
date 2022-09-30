@@ -1,0 +1,1 @@
+1cbf0fd86356ccbac5556ab0f63ea8a4b08fd24d の続きで rubygems でリダイレクトのレスポンスの時のエラーメッセージに redirect 先の URL 全体を埋め込むように修正しています。
