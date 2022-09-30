@@ -1,0 +1,1 @@
+9ddfd2ca004d1952be79cf1b84c52c79a55978f4 のインスタンス変数管理に Object Shapes というテクニックを使った実装を取り込む変更のリトライ。 [ruby-core:108522] [Feature #18776]
