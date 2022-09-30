@@ -1,0 +1,1 @@
+bootstraptest/runner.rb の実行時に make の job server による並列度の伝播をするようにしているみたいです。
