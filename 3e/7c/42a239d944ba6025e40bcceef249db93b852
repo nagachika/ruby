@@ -1,0 +1,1 @@
+d594a5a8bd0756f65c078fcf5ce0098250cba141 で導入した Object Shapes のためのクラス RubyVM::Shape の mark 用関数は不要だったので削除しています。
