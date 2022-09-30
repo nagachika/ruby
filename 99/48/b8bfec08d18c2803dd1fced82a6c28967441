@@ -1,0 +1,1 @@
+rubyspec の socket のテストで Solaris で通らない spec を platform_is_not で guard しておくようにしています。
