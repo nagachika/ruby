@@ -1,0 +1,1 @@
+rubygems のテストでなぜか一部の assertion を ensure 節に書いてたところがあったのですが間違いだったみたいで ensure を削除しています。
