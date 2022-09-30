@@ -1,0 +1,1 @@
+rubygems で bundler を利用したテストのための bundler の gemspec ファイルを配置するディレクトリを Gem.dir 配下に置いて stub で騙さないようにしているみたいです。
