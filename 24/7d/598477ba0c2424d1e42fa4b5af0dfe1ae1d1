@@ -1,0 +1,1 @@
+tool/rbinstall.rb で misc/lldb_cruby.py もインストールしてるところを f1ccfa0c2c200c9443fbfc3f1ac3acbdd3e35559 のあたりで複数のファイルに分割したのに対応して全ファイルをインストールするように対応しています。
