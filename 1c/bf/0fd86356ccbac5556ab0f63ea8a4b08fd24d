@@ -1,0 +1,1 @@
+rubygems で RubyGems.org のレスポンスを処理する時に Net::HTTPPermanentRedirect と Net::HTTPRedirection などのリダイレクトのレスポンスがあった時の対応を追加しています。
