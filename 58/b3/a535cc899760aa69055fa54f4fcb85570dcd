@@ -1,0 +1,1 @@
+tool/lib/vcs.rb の VCS::SVN.short_revision の定義を VCS.short_revision に移動しています。
