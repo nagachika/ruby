@@ -1,0 +1,1 @@
+GC.compact で Array オブジェクトを移動する時に Variable Width Allocation によって拡張された slot 内にバッファを埋め込む場合に元の配列が transient array で確保されていた場合に RARRAY_PTR() が GC をトリガーしてしまう可能性があるとのことで rb_ary_make_embedded() 内でRARRAY_PTR() を利用しないように実装しなおしています。 [ruby-core:110136] [Bug #19029]
