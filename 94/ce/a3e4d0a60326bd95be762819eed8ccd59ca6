@@ -1,0 +1,1 @@
+5473c1064d5e82d706b554f2fe5a5b41900f6b14 などの変更で Method#super_method と UnboundMethod#super_method の挙動が変化してしまっていたのを修正しています。
