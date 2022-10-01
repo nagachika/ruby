@@ -1,0 +1,1 @@
+{Method,UnboundMethod}#owner の再修正。継承したメソッドに対して alias や private などの可視性の変更だけした method entry   の扱いを修正しているようです。まあしかしどの仕様が正解なのかよくわからないですね。 [ruby-core:108235] [Bug #18729]
