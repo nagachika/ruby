@@ -1,0 +1,1 @@
+error.c で定義している with_warning_string() というマクロの内容を with_warning_string_from() というマクロに切り出してそれを呼ぶようにリファクタリングしています。 with_warning_string_from() では va_start() に渡す引数名を別途指定できるようにしています。将来的に使う予定なのかなぁ。
