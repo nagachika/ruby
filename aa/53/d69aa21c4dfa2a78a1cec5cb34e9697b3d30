@@ -1,0 +1,1 @@
+rubyspec に {Method,UnboundMethod}#owner の継承したメソッドについてのテストを追加しています。
