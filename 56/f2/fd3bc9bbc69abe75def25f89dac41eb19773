@@ -1,0 +1,1 @@
+Struct および Data の initialize メソッドの実装で引数チェックして ArgumentError 例外を発生させる時に rb_error_arity() という専用の関数があったのでそれを利用るようにリファクタリングしています。
