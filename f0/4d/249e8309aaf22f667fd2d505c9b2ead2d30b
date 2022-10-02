@@ -1,0 +1,1 @@
+さらに bundler の platform 判定で Linux の eabihf という suffix がついているものの対応を追加。
