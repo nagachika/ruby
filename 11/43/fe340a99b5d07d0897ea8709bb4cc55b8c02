@@ -1,0 +1,1 @@
+9a6803c90b817f70389cae10d60b50ad752da48f の Object Shape の revert の際に YJIT の Rust 実装部分で変数名を誤って戻してしまっていたところがあったので修正しています。
