@@ -1,0 +1,1 @@
+68bc9e2e97d12f80df0d113e284864e225f771c2 の Object Shapes の変更の vm_getivar() 内の VM_ASSERT() の条件に rb_ractor_shareable_p() に渡す前にオブジェクトが T_OBJECT 型であることを確認するようにしています。
