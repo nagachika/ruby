@@ -1,0 +1,1 @@
+Object Shapes の対応で freeze したオブジェクトの Object#inspect の表示が間違っていたのを修正しています。
