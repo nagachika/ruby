@@ -1,0 +1,1 @@
+同じく 9a6803c90b817f70389cae10d60b50ad752da48f の Object Shapes の revert の影響で YJIT の Rust 実装が壊れたところを修正しているそうです。
