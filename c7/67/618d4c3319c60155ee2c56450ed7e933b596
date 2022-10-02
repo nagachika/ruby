@@ -1,0 +1,1 @@
+ad651925e365ca18645f05b5e9b2eca9cd5721bc の Data クラス追加で Data.members というメソッドを定義していたところはコメントアウトしています。 rdoc のドキュメント化させるためだけに rb_define_method() は書いておくけど実際のメソッドは Data.define で子クラスを作った時にそのクラスに定義しているので Data 自体に Data.members を定義する必要はないため。
