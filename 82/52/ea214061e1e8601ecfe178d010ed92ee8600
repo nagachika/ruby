@@ -1,0 +1,1 @@
+bundler の platform 判定に Linux の eabi という suffix がついてる場合の対応を追加しています。
