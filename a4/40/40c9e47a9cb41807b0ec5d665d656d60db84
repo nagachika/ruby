@@ -1,0 +1,1 @@
+rubygems の Gem::Platform#=== と Gem::Platform#normalized_linux_version のコメントに bundler にも関連メソッドがあるので消すためにはそっちも対処が必要と注意書きを追加しています。
