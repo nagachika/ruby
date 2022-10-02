@@ -1,0 +1,1 @@
+vm_insnhelper.c に VM_ASSERT() などで条件つきで rb_ractor_shareable_p() を呼ぶところがいくつかあるので ractor_object_incidental_shareable_p() や ractor_incidental_shareable_p() といったマクロに切り出すリファクタリング。
