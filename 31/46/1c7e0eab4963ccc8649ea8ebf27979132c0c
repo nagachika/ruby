@@ -1,0 +1,1 @@
+YJIT の Rust 実装部分に clippy という Rust の linter で指摘された修正を適用しているようです。 https://github.com/ruby/ruby/pull/6476
