@@ -1,0 +1,1 @@
+bundler の platform 判定で Linux の判定部分をメソッドに切り出すリファクタリング。
