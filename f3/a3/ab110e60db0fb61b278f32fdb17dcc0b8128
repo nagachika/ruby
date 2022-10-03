@@ -1,0 +1,1 @@
+configure で pkg-config の存在チェックしているところを AC_CHECK_TOOL という autoconf 組み込みの? コマンドを利用するように変更しています。 [ruby-core:98490] [Bug #16909]
