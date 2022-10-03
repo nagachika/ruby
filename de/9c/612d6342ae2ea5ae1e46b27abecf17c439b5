@@ -1,0 +1,1 @@
+7f1ca666424849134990d022266bcd4d6636465f に対応して mkmf.rb のテストで RbConfig::CONFIG["PKG_CONFIG"] を設定して実行するようにしています。
