@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL でのチェック対象から syntax_suggest を外していたのをやめています。CodeQL のほうで遅いのを修正してもらえたそうです。
