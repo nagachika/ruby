@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の pkg_config メソッドで pkg-config コマンド名がオプションで指定されてない時に RbConfig::CONFIG["PKG_CONFIG"] の設定を利用するようにしています。
