@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::RubyLexer の冗長な safe guard operator 利用や Enumerable#each_with_object を活用するリファクタリングなど。
