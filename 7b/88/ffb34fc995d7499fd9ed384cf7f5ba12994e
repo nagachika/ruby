@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の completion の実装で候補を得るために Kernel#eval を利用していたところは Refinements を使って Binding にメソッドを追加してそれを利用するようにリファクタリングしています。eval は使うけど eval("self") で Binding オブジェクトを取得するためだけに使ってあとは UnboundMethod#bind と #call を使ってメソッドや変数のリストを取得するようにしています。
