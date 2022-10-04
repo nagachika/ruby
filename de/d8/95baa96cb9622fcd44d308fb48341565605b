@@ -1,0 +1,1 @@
+拡張ライブラリ pty で IO クラスの rdoc 用コメントを追加していたのを IO#expect の rdoc 用コメントに移動しています。また File の rdoc 用コメント内のセクションの名前を変更しています。 https://github.com/ruby/ruby/pull/6458
