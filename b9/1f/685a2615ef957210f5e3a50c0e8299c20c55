@@ -1,0 +1,1 @@
+Method クラスの構造体の mark 関数と compact 関数で新規追加された struct METHOD::owner メンバーへの対応が抜けていたのを修正しています。 [ruby-core:108235] [Bug #18729]
