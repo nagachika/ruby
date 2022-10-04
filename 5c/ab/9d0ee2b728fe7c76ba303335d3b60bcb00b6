@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::RubyLex の古い ruby で Ripper::EXPR_BEG が未定義な時のための分岐を削除しています。
