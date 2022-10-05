@@ -1,0 +1,1 @@
+Data.define などで生成される Class のインスタンスに new や members などのクラスメソッドを追加するのに rb_define_singleton_method() を使っていたのを rb_singleton_class() で特異クラスを作ってそれに対して rb_define_method() るようにしています。また define メソッドは Data から作った子クラスでは undef するようにしています。
