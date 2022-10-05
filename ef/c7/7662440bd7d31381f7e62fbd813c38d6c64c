@@ -1,0 +1,1 @@
+YJIT の arm64 環境向けの機械語生成で cmp 命令のオペランドを bit 幅に応じたマスクする処理を追加するようにしているっぽいです。 https://github.com/ruby/ruby/pull/6484
