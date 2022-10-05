@@ -1,0 +1,1 @@
+b6b9a6190def53aa53ac816a51034fa1c96ed70b で macOS 環境で utimensat(2) というシステムコールの利用可能性を実行時に weak 参照の utimensat の symbol 解決の結果をみて判定していたのは configure 時のチェックの結果 HAVE_UTIMENSAT が偽の時には実施しないようにしています。macOS 10.12.6 では utimensat(2) が未定義になったためビルドエラーになるようになったそうです。 [ruby-core:110165] [Bug #19034]
