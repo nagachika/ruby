@@ -1,0 +1,1 @@
+bundler のテストの rspec の設定で max_formatted_output_length というのを 1000 に指定しています。差分を表示する時に行数が多すぎて閲覧できなくなることがあるみたいでその対策みたいです。 https://rspec.info/documentation/3.8/rspec-expectations/RSpec/Expectations/Configuration.html#max_formatted_output_length=-instance_method
