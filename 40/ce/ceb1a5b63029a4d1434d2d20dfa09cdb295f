@@ -1,0 +1,1 @@
+GCC 12 のメモリ管理についての警告 -Wuse-after-free による警告が realloc(3) の利用時に誤検出することがあるとのことでなぜかよくわかりませんが RB_GNUC_EXTENSION_BLOCK() というマクロ経由にすることで警告抑制しています。 [ruby-core:110133] [Bug #19028]
