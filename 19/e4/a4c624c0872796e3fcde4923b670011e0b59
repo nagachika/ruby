@@ -1,0 +1,1 @@
+irb で IRB::ReidlineInputMethod というクラスのクラス名を IRB::RelineInputMethod に改名しています。
