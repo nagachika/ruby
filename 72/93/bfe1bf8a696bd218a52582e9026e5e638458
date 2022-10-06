@@ -1,0 +1,1 @@
+YJIT でブロック渡しで Module#define_method で定義されたメソッドの呼び出しの JIT コンパイル対応が追加されているようです。 https://github.com/ruby/ruby/pull/6489
