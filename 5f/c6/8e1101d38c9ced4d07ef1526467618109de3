@@ -1,0 +1,1 @@
+doc/contributing/documentation_guide.md に table タグなどの HTML を rdoc 用コメント内に埋め込むのはやめましょうみたいなことが書かれてます。 https://github.com/ruby/ruby/pull/6485
