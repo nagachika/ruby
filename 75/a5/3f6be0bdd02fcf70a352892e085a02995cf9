@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Markup::ToHtml#accept_table でテーブルのセル内に埋め込む文字列を CGI.escapeHTML していましたがマークアップを有効にするため to_html を通すように変更しています。
