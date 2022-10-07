@@ -1,0 +1,1 @@
+cdbaac3f4b6349907fe744f5eafab982b45e53e2 の open-uri のオプション追加に対応したテストに TLS の validation を OpenSSL::SSL::VERIFY_NONE にした時のテストケースを追加しています。 https://github.com/ruby/open-uri/pull/7
