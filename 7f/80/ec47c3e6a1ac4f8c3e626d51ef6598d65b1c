@@ -1,0 +1,1 @@
+d15b38d944c27cb627741206d8adf285153a4df2 および cc5313ceab756887e5dcddcb3b293a842a01fbac の追加修正で open-uri のテストで skip ではなく omit を利用するようにしています。
