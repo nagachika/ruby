@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の OpenURI.open_http に :ssl_version というオプションを追加して SSL/TLS のバージョン指定ができるようにしています。 https://github.com/ruby/open-uri/pull/7
