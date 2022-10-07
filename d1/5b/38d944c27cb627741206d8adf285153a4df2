@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の正規表現を格納する定数を OpenURI::Meta という Module の下に定義していたのを OpenURI 配下に移動しています。この OpenURI::Meta は extend して使う Module だったので余計な定数を対象のインスタンスに追加してしまって定数キャッシュの invalidate を起こしてたとのこと。
