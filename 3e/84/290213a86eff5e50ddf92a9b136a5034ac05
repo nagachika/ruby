@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の不要な require "abbrev" の削除。
