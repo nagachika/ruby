@@ -1,0 +1,1 @@
+インスタンス変数のテーブル generic_iv_tbl のサイズを増やす時に GC がトリガーされ、さらに GC.auto_compact が有効になっていた場合 compaction が走るため tab->entries のポインタが更新される可能性があるのでその前に参照していた不正なポインタを利用してしまう不具合が発生していたようです。st.c の rebuild_table() でサイズの調整後に tab->entries を参照するように修正しています。 [ruby-core:110187] [Bug #19038]
