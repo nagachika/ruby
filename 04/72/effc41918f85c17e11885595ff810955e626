@@ -1,0 +1,1 @@
+YIT の Rust 実装にコンパイル対象の ISeq が cfp からと pc からの判定で食い違ってないかチェックする assert を追加しています。 https://github.com/ruby/ruby/pull/6505
