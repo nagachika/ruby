@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の 255e617bc38f714c943c932e7df2b709313fd6bf に対応して 6d01b66764b6dd3fc61c297bd1ec973f8ea686aa のテストで ObjectSpace.each_object で Fiddle::Closure がなくなってることを確認していたところはオブジェクトのインスタンス自体はあっても free されていれば良いというふうにしています。
