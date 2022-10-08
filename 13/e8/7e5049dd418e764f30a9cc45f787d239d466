@@ -1,0 +1,1 @@
+Data クラスの rdoc 用コメントで Data.new のかわりに Data.define を使うように修正しています。
