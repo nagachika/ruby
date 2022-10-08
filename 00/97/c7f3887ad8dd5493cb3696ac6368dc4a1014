@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に Fiddle::Handle.sym_defined? というメソッドを新規追加して例外を rescue せずに symbol が存在するかをチェックできるようにしています。
