@@ -1,0 +1,1 @@
+同じく拡張ライブラリ psych の extconf.rb で libyaml の同梱をやめたので libyaml を探す処理を削っています。
