@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の extconf.rb で --bundled-libffi オプションを削除してかわりに --libffi-source-dir を追加して libffi の探索処理を変更しています。 libffi の同梱をやめたのに追随して。
