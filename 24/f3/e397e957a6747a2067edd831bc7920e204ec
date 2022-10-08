@@ -1,0 +1,1 @@
+拡張ライブラリ coverage の eval 対応で 9dd902b83186ad6f9d0a553da2ca114bac6ab7b5 で Coverage.setup でモードを指定できるようにしたけど eval 系での coverage  on/off が制御できてなかったみたいなのを修正して、rubyspec にテストを追加しています。なぜ test/ ではなく rubyspec に追加? https://github.com/ruby/ruby/pull/6499 [ruby-core:110119] [Bug #19026]
