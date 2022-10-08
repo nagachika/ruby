@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri でレスポンスの HTTP status の 308 Permanent Redirect への対応を追加しています。
