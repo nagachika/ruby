@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の型を表す定数群 Fiddle::TYPE_XXX を Fiddle::Types::XXX に移動しています。文字数はあんまり変わらないですが inclue Fiddle::Types すると XXX だけで参照できるので短く書けて便利ということみたいです。元の Fiddle::TYPE_XXX も Module#const_set で同じ値を保持し続けています。
