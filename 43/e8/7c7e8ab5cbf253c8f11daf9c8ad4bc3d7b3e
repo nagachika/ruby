@@ -1,0 +1,1 @@
+YJIT の arm64 アーキテクチャでの機械語生成の不具合修正をしているようです。 https://github.com/ruby/ruby/pull/6503
