@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で libyaml の同梱をやめたので --bundled-libyaml オプションの対応を削除しています。
