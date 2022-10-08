@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Closure.new で例外発生時に free しておくように rb_ensure() を利用するようにしています。
