@@ -1,0 +1,1 @@
+e4f91bbdbaa6ab3125f24967414ac5300bb244f5 の IO#timeout= の導入に対応して拡張ライブラリ openssl で rb_io_timeout() が定義されていたら rb_io_maybe_wait_{readable,writable}() の第3引数に Qundef を渡すようにするため関数を導入していたのを include/ruby/io.h で RUBY_IO_TIMEOUT_DEFAULT というマクロを用意しておくようにして、openssl 側は未定義ならこれを Qnil に定義することで古い ruby との互換性対応を取るようにしています。 https://github.com/ruby/ruby/pull/6507
