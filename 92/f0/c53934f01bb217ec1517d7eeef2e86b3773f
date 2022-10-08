@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストで dfca6a879935b5999a56c2a220d4f2595c16d4d4 で power_assert をやめてかわりに使った assert_true, assert_false も ruby リポジトリでは使用できなかったとのことでただの assert に変更しています。
