@@ -1,0 +1,2 @@
+拡張ライブラリ fiddle に Fiddle::Closure.create と Fidle::Closure.free というメソッドを追加しています。その名の通りで明示的にオブジェクトが wrap している構造体内を明示的に開放することができるようにしています。 https://github.com/ruby/fiddle/issues/102#issuecomment-1241763091
+コミットログの一部が 6d01b66764b6dd3fc61c297bd1ec973f8ea686aa と同じなのであそこで追加されたメソッドはこの変更にも関連しているのかも。 fork 時に Fiddle::Closure が確保されていると SELinux でエラーになるとのことでそれを回避するために強制的に開放できるようにしているみたいです。
