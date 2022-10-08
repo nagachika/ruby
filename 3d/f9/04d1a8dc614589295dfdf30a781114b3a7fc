@@ -1,0 +1,1 @@
+RGenGC のためのテスト? test_thrashing_for_young_objects が CI で失敗しているとのことでデバッグのためにメッセージを追加しています。
