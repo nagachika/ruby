@@ -1,0 +1,1 @@
+さらに拡張ライブラリ fiddle のテスト test/fiddle/test_function.rb でも Fiddle::Closure.create でブロック指定で局所的に使うようにして、teardown で Fiddle::Closure が全て free されているかチェックするようにしています。
