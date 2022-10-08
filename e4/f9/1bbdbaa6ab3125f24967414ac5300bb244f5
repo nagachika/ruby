@@ -1,0 +1,1 @@
+IO#timeout= というメソッドを追加して IO オブジェクトに timeout の値を設定することができるようにして、任意の block するメソッドで指定の秒数で結果がかえってこなかったら IO::TimeoutError 例外が発生するようにしています。これは大きな変更ですね。 https://github.com/ruby/ruby/pull/5653
