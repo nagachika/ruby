@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストで Fiddle::Closure の leak を修正しているようです。 teardown で GC.start して ObjectSpace.each_object で 1つもなくなったのをチェックするってしていますが、GC は保守的なのでこれ失敗する可能性があるのでは。 https://github.com/ruby/fiddle/issues/102#issuecomment-1241763091
