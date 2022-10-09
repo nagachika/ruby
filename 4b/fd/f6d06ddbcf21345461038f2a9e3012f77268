@@ -1,0 +1,1 @@
+fbbdbdd8911ffb24d98bb71c7c33d24609ce7dfe の続きで NODE_ERROR というタイプの NODE を追加して SyntaxError 時の AST 生成でエラー箇所を極力ノードの葉に近いところで検出できるようにしているみたいです。元々は bison の error ルールが stmts や top_stmts のところにあったのを stmt (文)のレベルにアクションを置くようにしています。不完全なスクリプトをパースした時にエラーになった箇所の先を正しく解釈した AST が作れるようにするためかなと思います。 [ruby-core:109977] [Feature #19013]
