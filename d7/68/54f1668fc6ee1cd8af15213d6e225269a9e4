@@ -1,0 +1,1 @@
+定数の inline cache の粒度を細かく制御するようにした変更について NEWS に追記しています。内部的な実装の変更ですが RubyVM.stat(:global_constant_state) がなくなるという非互換もあるので追記しているみたいです。 [ruby-core:107603] [Feature #18589]
