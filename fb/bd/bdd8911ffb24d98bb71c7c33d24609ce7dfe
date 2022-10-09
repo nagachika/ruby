@@ -1,0 +1,1 @@
+Language Server などエディタや IDE でのサポートのために不完全な ruby スクリプト片でもエラーにならずにパースして構築途中の AST を返せるパーサーが欲しいという動機があるみたいで、RubyVM::AbstractSyntaxTree.parse に error_tolerant というキーワード引数を追加してこれに true が指定されたら SyntaxError になるようなスクリプトが渡されてもエラーにせず Node を返せるようにしています。 [ruby-core:109977] [Feature #19013]
