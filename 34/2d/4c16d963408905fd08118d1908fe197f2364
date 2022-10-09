@@ -1,0 +1,1 @@
+fbbdbdd8911ffb24d98bb71c7c33d24609ce7dfe の続きで RubyVM::AbstractSyntaxTree.parse では end に対応する式のトークンの位置を記録しておいて、ちゃんと閉じられなかった時に末尾にダミーの end トークンを発生させておくようにしています。メンバー名や関数名の localtions は locations の typo でしょうか?(検索しようとしてどうしてもヒットしなくて気がついた) [ruby-core:109977] [Feature #19013]
