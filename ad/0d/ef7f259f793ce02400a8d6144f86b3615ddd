@@ -1,0 +1,1 @@
+3df904d1a8dc614589295dfdf30a781114b3a7fc でデバッグのためのメッセージ追加していたテスト test_thrashing_for_young_objects でさらにデバッグメッセージに GC.stat_heap の前後での値を追加しています。
