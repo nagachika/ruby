@@ -1,0 +1,1 @@
+fbbdbdd8911ffb24d98bb71c7c33d24609ce7dfe および 4bfdf6d06ddbcf21345461038f2a9e3012f77268 の続きで parse.y の expr_value のルールにも error を追加しています。条件部のない if などで必要だったとのこと。 [ruby-core:109977] [Feature #19013]
