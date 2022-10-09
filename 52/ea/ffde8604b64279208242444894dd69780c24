@@ -1,0 +1,1 @@
+fbbdbdd8911ffb24d98bb71c7c33d24609ce7dfe の続きでコマンドラインオプションの --dump の yydebug, parsetree, parsetree_with_comment などに "+error_tolerant" をつけることでこれらのオプションが出力するパーサーの情報や AST の情報もスクリプトに文法エラーがあっても出るところまで出すようにしているようです。 [ruby-core:109977] [Feature #19013]
