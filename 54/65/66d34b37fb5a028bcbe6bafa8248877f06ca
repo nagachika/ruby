@@ -1,0 +1,1 @@
+fbbdbdd8911ffb24d98bb71c7c33d24609ce7dfe の RubyVM::AbstractSyntaxTree.parse にキーワード引数 error_tolerant: true を渡して SyntaxError の発生を抑制した時でも ec->errinfo が設定されていたため $! には例外が漏れていたので error_tolerant: true の時は errinfo の設定も抑制するように修正しています。
