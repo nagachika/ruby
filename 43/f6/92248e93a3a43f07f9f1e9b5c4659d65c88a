@@ -1,0 +1,1 @@
+fbbdbdd8911ffb24d98bb71c7c33d24609ce7dfe 以降の RubyVM::AbstrctSyntaxTree.parse のテストで AST の内容の確認のために PP を利用していたのが端末のサイズに依存していたということで PP.pp に明示的に端末幅を指定する引数を渡すようにしています。
