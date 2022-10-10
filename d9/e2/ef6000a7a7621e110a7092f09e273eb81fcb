@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntxTree.parse の error_tolerant キーワード引数対応のテストのチェック方法を assert_error_tolerant という専用の assertion メソッドとして切り出すリファクタリング。
