@@ -1,0 +1,1 @@
+3df904d1a8dc614589295dfdf30a781114b3a7fc や ad0def7f259f793ce02400a8d6144f86b3615ddd でデバッグ用のメッセージを仕込んでいた RGenGC のテスト test_thrashing_for_young_objects で fork した子プロセスで最初に大量のオブジェクトを生成して heap を増やしておくようにしています。
