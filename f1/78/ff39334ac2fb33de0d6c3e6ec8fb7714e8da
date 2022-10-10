@@ -1,0 +1,1 @@
+52eaffde8604b64279208242444894dd69780c24 でコマンドラインオプション --dump の yydebug, parsetree, parsetree_with_comment などに +error_tolerant で error tolerant なパースを行う指定に対応しましたが、--dump の引数は前方一致で省略できるのでその場合でもオプションが有効になるように対応しているようです。
