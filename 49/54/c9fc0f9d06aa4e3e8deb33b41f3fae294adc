@@ -1,0 +1,1 @@
+MatchData に deconstruct と deconstruct_keys メソッドを追加して名前つきグルーピングでマッチした部分の抽出を Hash でできるようにしています。確か pattern match でものこメソッドを利用するので pattern match に MatchData を利用できるようになるということですね。 https://github.com/ruby/ruby/pull/6216 [ruby-core:108802] [Feature #18821]
