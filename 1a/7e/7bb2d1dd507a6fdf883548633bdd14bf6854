@@ -1,0 +1,1 @@
+rb_eql() の戻り値として Qtrue/Qfalse を使っていたのを C の真偽値(TRUE/FALSE)を利用するようにしています。Qfalse は C の偽なのでほとんど同じ意味だと思いますが Doxygen 用コメントでも戻り値が RUBY_Qtrue/RUBY_Qfalse と明記されていたのに戻り値の型が int だったので C の型にあわせたみたいです。
