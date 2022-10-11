@@ -1,0 +1,1 @@
+error.c の rb_warn_deprecated() および rb_warn_deprecated_to_remove() でマクロ with_warning_string_from() を利用するようにリファクタリングしています。
