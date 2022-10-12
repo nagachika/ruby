@@ -1,0 +1,1 @@
+IO#read_nonblock や IO#write_nonblok で fcntl(2) で nonblok フラグを設定するのに rb_io_set_nonblock() という関数を利用していてエラー時に SystemCallError 例外が発生するようにしていたのを rb_fd_set_nonblock() を直接呼んでエラーを無視するようにしています。いいのかなそれは。 https://github.com/ruby/ruby/pull/6524
