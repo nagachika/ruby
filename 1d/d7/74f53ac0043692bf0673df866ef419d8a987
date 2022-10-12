@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の gemspec ファイルの spec.files から除外するファイルの正規表現に Rakefile や Gemfile や .git ディレクトリなどを追加しています。
