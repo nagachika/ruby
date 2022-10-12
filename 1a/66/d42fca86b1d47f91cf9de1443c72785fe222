@@ -1,0 +1,1 @@
+Time#ctime の rdoc 用コメントのリンクに docs.ruby-lang.org のサイトへの絶対 URL を使ってたのを相対パスで strftime_formatting.rdoc へのリンクに変更しています。
