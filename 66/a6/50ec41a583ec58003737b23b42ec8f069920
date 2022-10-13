@@ -1,0 +1,1 @@
+ed01bacf2778a5e3bd813ded5f01d7ccc85b289d の変更で libyaml の関数 yaml_get_version() がみつからなかった時の例外発生のための Kernel#abort 漏れてたのを修正。
