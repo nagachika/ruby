@@ -1,0 +1,1 @@
+non-blocking Fiber のテスト用の Scheduler の実装のよっとしたリファクタリング。 https://github.com/ruby/ruby/pull/6527
