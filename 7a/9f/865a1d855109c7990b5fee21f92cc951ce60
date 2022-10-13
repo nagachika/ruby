@@ -1,0 +1,1 @@
+ad63b668e22e21c352b852f3119ae98a7acf99f1 の Object Shapes のリトライで vm_getivar() で初期化されない struct rb_callcache を参照してしまっていたという不具合を修正しています。
