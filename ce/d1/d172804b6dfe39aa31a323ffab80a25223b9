@@ -1,0 +1,1 @@
+IO:Buffer の read/write などのメソッドの length 引数を省略可能にしさらに offset 引数を追加したりしています。 また non-blocking fiber の実装もついでに? ちょっと弄ってるみたいですが……。 https://github.com/ruby/ruby/pull/6525
