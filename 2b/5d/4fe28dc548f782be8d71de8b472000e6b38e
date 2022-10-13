@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に df588440ee01e91d87cb815ff85dd6c785dc7827 で実装した rdoc 用コメント内の絶対URLを rdoc-ref に書きなおす変更だけを適用するサブコマンド rdoc-ref を追加しています。動作確認のためとのこと。
