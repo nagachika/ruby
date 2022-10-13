@@ -1,0 +1,1 @@
+YJIT で Object#__send__ によるメソッド呼び出しの時の send 命令(VM 命令)に対応した JIT コンパイル時に通常のメソッド呼び出しと同様の扱いができるようにする最適化を行なっているようです。 https://github.com/ruby/ruby/pull/6488
