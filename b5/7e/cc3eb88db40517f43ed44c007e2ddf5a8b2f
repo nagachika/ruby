@@ -1,0 +1,1 @@
+df588440ee01e91d87cb815ff85dd6c785dc7827 の tool/sync_default_gems.rb による rdoc 用コメント内の URL を rdoc-ref による参照に書き換える実装で https://docs.ruby-lang.org/ のパスに "/doc/" が含まれるケースにも対応するようにしています。
