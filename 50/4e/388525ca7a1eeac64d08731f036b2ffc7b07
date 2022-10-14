@@ -1,0 +1,1 @@
+Method/UnbundMethod のテストでメソッド再定義の警告が出るところで Module#remove_methd で再定義しようとしたメソッドを一度削除しておくようにしています。
