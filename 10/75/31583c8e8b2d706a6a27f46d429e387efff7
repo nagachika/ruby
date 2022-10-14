@@ -1,0 +1,1 @@
+913979bede2a1b79109fa2072352882560d55fe0 の Object Shapes の race condition のために shape_id と index を 1つの構造体メンバーに埋め込んだものから shape_id で探す時に shape_id_t が unsigned の型なのに NUM2INT() で signed な整数に変換してたのを修正しています。
