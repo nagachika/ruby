@@ -1,0 +1,1 @@
+rubyspec の Process.times のテストで Intel C Compiler でビルドするとなぜか通らないというテストを RbConfig::CONFIG['CC'] をチェックして実行除外するようにしています。
