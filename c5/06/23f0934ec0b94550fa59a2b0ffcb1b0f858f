@@ -1,0 +1,1 @@
+しかし 751ffb276f658518c6fe06461a9d3d1c136c7d5d の tool/ruby_vm/helpers/dumper.rb の変更は FreeBSD 以外でのビルドで逆にエラー置きたみたいで revert しています。
