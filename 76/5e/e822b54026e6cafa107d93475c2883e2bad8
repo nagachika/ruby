@@ -1,0 +1,1 @@
+e696ec67ac7bd14ff8436f9ee7724c17c5bf6689 で追加した Fiber.blocking メソッドのテストで Fiber#resume の呼び出しが漏れていて中身が実行されていなかったのを修正しています。 https://github.com/ruby/ruby/pull/6539
