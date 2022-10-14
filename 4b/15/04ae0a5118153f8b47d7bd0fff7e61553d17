@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で schema のない IPv6 のアドレス? の url を URI.parse した時の修正をしています。
