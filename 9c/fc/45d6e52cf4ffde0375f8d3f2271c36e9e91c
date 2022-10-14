@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.parse の error_tolerant キーワード引数のテストで警告が出るところを抑制するため一時的に $VERBOSE = false にセットしておくようにしています。
