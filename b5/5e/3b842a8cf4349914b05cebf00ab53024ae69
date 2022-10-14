@@ -1,0 +1,1 @@
+7a9f865a1d855109c7990b5fee21f92cc951ce60 で Object Shapes の inline cache が markable でない時の不具合修正したやつの再修正というか違うアプローチでの修正で初期化されない vm_cc_markable(cc) が偽の時にも inline cache のインデックスの初期化をするようにしています。そのかわり vm_cc_attr_index_set() で vm_cc_markable(cc) が偽の時には INVALID_SHAPE_ID をセットしておくようにしています。
