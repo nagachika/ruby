@@ -1,0 +1,1 @@
+tool/ruby_vm/helpers/dumper.rb で VM まわりのソースコードを生成するテンプレートを探す処理でフィル名の File.base_name を使うようにしています。コミットログによると FreeBSD でビルドに問題があったみたいです。
