@@ -1,0 +1,1 @@
+Cirrus Ci の設定ファイル .cirrus.yml で $CIRRUS_ENV という環境変数で指定されるファイルに書き込んだ変数代入はその後のアクション実行時の環境変数に反映されるようなのでコマンドラインで書いてた RUST_BACKTRACE という環境変数の指定をこのファイルへの書き込みに変更しています。 https://github.com/ruby/ruby/pull/6526
