@@ -1,0 +1,1 @@
+Object Shapes のデバッグのための RubyVM::Shape というクラスは VM_CHECK_MODE が 1以上に指定されてビルドされた時だけ定義されるようにしています。
