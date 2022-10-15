@@ -1,0 +1,1 @@
+YJIT  の Rust 実装の clippy による lint の指摘の対応をしているようです。 https://github.com/ruby/ruby/pull/6543
