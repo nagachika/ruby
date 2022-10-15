@@ -1,0 +1,1 @@
+class.c の ins_methods_undef_i() の内容を ins_methods_type_i() に委譲するようにリファクタリングしています。
