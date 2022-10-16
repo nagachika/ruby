@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow から MINGW64 でのビルドを削っています。 https://github.com/ruby/ruby/pull/6545
