@@ -1,0 +1,1 @@
+rb_obj_ensure_iv_index_mapping() という関数が internal/variable.h で宣言されていて YJIT 向けの binding も用意されていたけど不要だったようなので削除して static 関数に変更しています。
