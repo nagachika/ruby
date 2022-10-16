@@ -1,0 +1,1 @@
+non-blocking Fiber のための Scheduler のインターフェースについて rdoc 用コメントを書くためのダミーのクラス(Fiber::Scheduler)定義を include/ruby/fiber/scheduler.h に書いてたのを削除して scheduler.c の対応する関数に rdoc の Document-method: タグを利用して明示的にクラス名メソッド名を指定してドキュメントを書くように変更しています。なんかついでに cont.c の rb_fiber_s_schedule_kw() もちょっと変更されているけど scheduler.c に新規追加した関数に委譲するようになっていて内容はほぼ同じなのでついでのリファクタリングみたいですね。
