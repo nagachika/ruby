@@ -1,0 +1,1 @@
+YJIT の Rust 実装の修正。詳細わかりませんが JIT コンパイルできなかった時の ISeq に関連して余計なリソースを作ってたのを抑制しているみたいです。 https://github.com/ruby/ruby/pull/6549
