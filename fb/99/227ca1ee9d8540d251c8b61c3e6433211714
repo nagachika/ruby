@@ -1,0 +1,1 @@
+YIJT の Rust 実装の部分で linter の slippy による指摘の対応。 https://github.com/ruby/ruby/pull/6547
