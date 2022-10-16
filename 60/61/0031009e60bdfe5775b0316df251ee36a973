@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate でメソッド再定義の警告を抑制するため Module#alias_method で可視性変更前に同名メソッドへの alias を作るようにしています。継承しているメソッドへの alias を作るということかなぁ。なんだか hacky ですね。 https://github.com/ruby/delegate/pull/13 [ruby-core:110250] [Bug #19047]
