@@ -1,0 +1,1 @@
+IO#timeout= のテストで close 漏れしていたのを修正しています。 https://github.com/ruby/ruby/pull/6560
