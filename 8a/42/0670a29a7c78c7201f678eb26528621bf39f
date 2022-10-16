@@ -1,0 +1,1 @@
+non-blocking Fiber のための Scheduler のインターフェースとして io_select というメソッドを追加して IO.select の実行時に Thread に Scheduler 設定されていたら io_select メソッドに委譲するようにしています。 https://github.com/ruby/ruby/pull/6559 [ruby-core:110305] [Feature #19060]
