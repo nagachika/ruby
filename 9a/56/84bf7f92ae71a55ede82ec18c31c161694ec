@@ -1,0 +1,1 @@
+bootstraptest に複数 Ractor 利用時のインスタンス変数の race condition についてのテストを追加しています。おそらく 913979bede2a1b79109fa2072352882560d55fe0 の Object Shapes の修正に対応するテストじゃないかと思います。
