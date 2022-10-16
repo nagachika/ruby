@@ -1,0 +1,1 @@
+IO#dup 時に IO#timeout= で設定したタイムアウト値もコピーするようにしています。 https://github.com/ruby/ruby/pull/6546
