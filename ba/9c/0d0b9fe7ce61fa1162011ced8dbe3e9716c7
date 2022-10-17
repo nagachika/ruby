@@ -1,0 +1,1 @@
+GitHub Actions で bundled gems の新しいバージョンのリリースを監視する workflow のトリガーに workflow_dispatch を追加して手動で実行できるようにしています。
