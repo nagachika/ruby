@@ -1,0 +1,1 @@
+doc/packed_data.rdoc というドキュメント用のファイルを追加して Array#pack と String#unpack に関連したドキュメントを追加ています。 pack/unpack の指示子についてのドキュメント以前もどこかにまとめてなかったっけ……。 https://github.com/ruby/ruby/pull/6520
