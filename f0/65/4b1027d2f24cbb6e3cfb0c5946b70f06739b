@@ -1,0 +1,1 @@
+Object Shapes の導入によりオブジェクトのインスタンス変数の数を得る時に ROBJECT_NUMIV() ではなく rb_shape_get_shape_by_id() を使う ROBJECT_IV_COUNT() という関数を導入してこれを利用するようにしています。詳細よくわかってませんがこれにより不要になるチェックが省けるみたいです。
