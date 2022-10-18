@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で ruby 3.2 で追加される予定の IO#timeout に対応した C API の変更に追随しています。
