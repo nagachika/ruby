@@ -1,0 +1,1 @@
+GitHub Actions の .github/workflows/auto_request_review.yml という workflow で利用している necojackarc/auto-request-review というアクションのバージョンを更新しています。これも dependabot による更新です。
