@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL によるチェックは dependabot による Pull Request のコミットでは実施しないようにしています。
