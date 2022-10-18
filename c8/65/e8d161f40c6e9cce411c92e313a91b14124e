@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の  OpenSSL::HMAC#dup のテストを pending にしていたのを削っています。 OpenSSL 3 を使うようになって修正されたとのこと。
