@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey#to_der で public key の情報がない時に例外を発生させるようにしています。
