@@ -1,0 +1,1 @@
+AppVeyor の設定ファイル .appveyor.yml で利用する VS を古いバージョンだけに絞っています。 https://github.com/ruby/ruby/pull/6561
