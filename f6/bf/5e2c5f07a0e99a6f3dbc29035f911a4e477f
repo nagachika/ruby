@@ -1,0 +1,1 @@
+b584c106d9f432431094136be67f11853bd3eb9c と同じ random.c の fill_random_bytes_syscall() で macOS で利用する関数を切り分ける preprocessor の処理をリファクタリングしています。 USE_COMMON_RANDOM というマクロを -D で指定したらそれが影響するようにしているようです。
