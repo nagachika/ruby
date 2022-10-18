@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL::SSL::SSLContext#keylog_cb= で SSL_CTX_set_keylog_callback() に登録するコールバックを指定できるようにしています。OpenSSL のデバッグ用の機能みたいです。
