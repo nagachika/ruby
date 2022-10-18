@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DSA.generate で生成する鍵の dsa_paramgen_q_bits というパラメーターを調節するようにしています。
