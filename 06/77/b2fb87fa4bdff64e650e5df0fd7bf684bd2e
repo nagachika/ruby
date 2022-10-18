@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey.read で新しいフォーマットに対応? しているようです。 openssl ecparam -genkey コマンドでの出力を読み込めるように対応してるそうです。
