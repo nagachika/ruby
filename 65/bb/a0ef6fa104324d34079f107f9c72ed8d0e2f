@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL に EVP_PKEY_new_raw_private_key() という関数が利用可能だったら EVP_PKEY_new_mac_key() のかわりにこれを利用するようにしています。 OpenSSL 3.0.x で EVP_PKEY_new_mac_key() に不具合があるとのことでそれを避けるためのようです。
