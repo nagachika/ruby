@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で rb_ary_hidden_new() という C API を利用していましたがこれは efb91ff19b739b759f40af2673f942e80d212857 で今年改名された関数なので古い ruby の対応のため古い別名の rb_ary_tmp_new() のほうを利用するようにしています。
