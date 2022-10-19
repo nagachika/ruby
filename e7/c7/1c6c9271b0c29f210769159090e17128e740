@@ -1,0 +1,1 @@
+MJIT 用に作ってあった JIT の Fiber 対応のための関数群を YJIT でも利用できるように関数や構造体の名前を mjit_cont -> jit_cont と改名して YJIT 用に export しています。 https://github.com/ruby/ruby/pull/6556
