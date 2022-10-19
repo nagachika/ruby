@@ -1,0 +1,1 @@
+YJIT の C 側の実装で mprotect(2) を呼ぶ時にメモリ領域のサイズが 0 だとエラーになることがあるみたいなのでそのような時は呼ばないようにしています。 https://github.com/ruby/ruby/pull/6563
