@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle.dlopen で Linux でエラーメッセージから指定されたファイルがリンカスクリプトである可能性があった場合にはその内容を読んで開くべきライブラリのファイルパスを抽出して改めてそれを Fiddle.dlopen するようにしています。 https://github.com/ruby/fiddle/pull/107
