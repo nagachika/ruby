@@ -1,0 +1,1 @@
+ということで拡張ライブラリ openssl で e037731c9f840b0c74eb68a808a109fdef3c6d5e でマクロ経由の関数定義にした ossl_bn_mod_inverse() の rdoc 用コメントにも Document-method: タグを追加しています。
