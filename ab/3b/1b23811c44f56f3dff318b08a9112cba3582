@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems のコミットログを変換する時の issue や pull request の参照の記法の想定を少し緩めているようです。
