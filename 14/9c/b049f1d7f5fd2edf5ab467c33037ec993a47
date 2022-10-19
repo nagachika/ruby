@@ -1,0 +1,1 @@
+ということで拡張ライブラリ openssl で e037731c9f840b0c74eb68a808a109fdef3c6d5e で追加した BIGNUM_2cr() マクロを使って ossl_bn_mod_sqrt() という関数を定義して OpenSSL::BN#mod_sqrt メソッドを追加しています。うーんでもこれ rdoc がメソッド名とその実装している関数を関連付けることができないのでは、と思ったけど Document-method: タグを明示することでそれを防いでいます。
