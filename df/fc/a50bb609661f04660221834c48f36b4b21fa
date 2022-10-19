@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Closure の struct RBasic::flags に RUBY_TYPED_FREE_IMMEDIATELY ビットフラグを立てるようにしています。確かこれは GC で回収される時に finalizer を待たずにすぐメモリ領域を開放するようにする指定かな?
