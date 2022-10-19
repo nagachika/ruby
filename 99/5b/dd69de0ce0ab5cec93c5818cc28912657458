@@ -1,0 +1,1 @@
+AppVeyor の設定ファイル .appveyor.yml でサードパーティーライブラリを vcpkg でインストールする時に --x-use-aria2 というオプションを追加しています。エラー時のリトライについてのオプションみたいです。aria2c というのがそもそもダウンローダーのコマンド名? みたいですね。 https://github.com/ruby/ruby/pull/6574
