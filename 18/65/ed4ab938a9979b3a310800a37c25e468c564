@@ -1,0 +1,1 @@
+AppVeyor の設定ファイル .appveyor.yml の Visual Studio のバージョンについての記述を修正しています。コミットログによると slack 通知での表示のための修正のようです。
