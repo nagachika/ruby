@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプション --yjit-dump-disasm を追加して YJIT の生成するアセンブラの内容をファイルにダンプできるようにしているようです。 https://github.com/ruby/ruby/pull/6552
