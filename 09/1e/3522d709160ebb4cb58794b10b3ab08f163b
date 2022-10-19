@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle でも新しい C API rb_ary_hidden_new() を利用していたところを古い ruby のサポートのため rb_ary_tmp_new() という以前の名前で利用するように変更しています。
