@@ -1,0 +1,1 @@
+6bd72a6406bedce6267b9737b38b9f1b89cf6a51 の stringio の rdoc 用コメントの変更で絶対URLでのリンクになってたところを rdoc-ref によるリンクに修正しています。
