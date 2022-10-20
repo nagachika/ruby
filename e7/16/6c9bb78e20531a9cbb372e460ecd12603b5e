@@ -1,0 +1,1 @@
+ISeq の子要素について処理するためのコールバック関数のための型 rb_iseq_callback() に第2引数を追加しています。また YJIT の Rus 実装から Rust の closure をコールバック関数として渡せるように対応しています。 https://github.com/ruby/ruby/pull/6575
