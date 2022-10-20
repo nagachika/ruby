@@ -1,0 +1,1 @@
+Fiber 用の coroutine の ppc/ppc64 アーキテクチャ向けの実装のレジスタの退避の順番を変更しているみたいです。どうやら不具合修正も含んでいるみたいですが詳細はよくわかってないです。また configure で ppc-darwin プラットフォームの対応というのを地下しています。今サポートされている PowerPC macOS ってどういう環境なんだろう。 pull request みると gcc でのビルドみたいなので gcc の新しいバージョンでのサポートのためかもしれないです。 https://github.com/ruby/ruby/pull/5975
