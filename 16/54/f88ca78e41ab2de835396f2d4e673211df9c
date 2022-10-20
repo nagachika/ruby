@@ -1,0 +1,1 @@
+df588440ee01e91d87cb815ff85dd6c785dc7827 で tool/sync_default_gems.rb で default gems を同期する時に rdoc 用コメントの絶対URL を rdoc-ref を使ったリンクに置換するようにした時の git commit --amend でコミットを上書きするコマンド実行に --all というオプションを追加しています。
