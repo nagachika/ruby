@@ -1,0 +1,1 @@
+IO::Buffer で mmap(2) のフラグに MAP_SHARED を渡すことで複数のプロセスで共有メモリによるバッファを使うためのフラグ IO::Buffer::SHARED を追加して、バッファが共有されている可能性があるかチェックする IO::Buffer#shared? というメソッドも追加しています。なんかもはや IO は関係なくなってきているような気もしますが mmap(2) の wrapper として使えるのは便利そうですね。 https://github.com/ruby/ruby/pull/6580
