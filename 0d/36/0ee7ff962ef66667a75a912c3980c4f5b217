@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプションの --yjit-dump-disasm の出力をみやすくするために不要な出力の抑制をしているみたいです。 https://github.com/ruby/ruby/pull/6592
