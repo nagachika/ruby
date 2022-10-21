@@ -1,0 +1,1 @@
+インスタンス変数管理の Object Shapes で Object や Class/Moule 以外のクラスのインスタンスの freeze 時の処理に問題があったのを修正しているみたいです。
