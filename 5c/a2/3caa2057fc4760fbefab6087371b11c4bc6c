@@ -1,0 +1,1 @@
+YJIT のための --features オプションの asm_comments というのは disasm 利用時には常にコメントも有効にすることにして削除しています。 https://github.com/ruby/ruby/pull/6591
