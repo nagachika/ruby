@@ -1,0 +1,1 @@
+MJIT や YJIT の統計情報のカウンタのための実装で RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() を利用して複数 Ractor 間の排他処理をしていたのを専用の rb_nativethread_lock_t 変数を static 変数として持ってこれで排他するようにしています。プロセス終了時に既に VM のリソース開放後に呼ばれて異常終了する可能性があったみたいです。
