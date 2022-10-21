@@ -1,0 +1,1 @@
+86096a91d55f72620e0f8ca8634da5fa342dc35b の rubygems のテストと同様に bundler のテストでも git submodule のエラーが起きていたので git config で設定をしておくことで回避するようにしています。
