@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプション --yjit-dump-iseq-disasm でも表示をきれいにするための変更をしているようです。 0d360ee7ff962ef66667a75a912c3980c4f5b217 と同様の変更とのこと。 https://github.com/ruby/ruby/pull/6596
