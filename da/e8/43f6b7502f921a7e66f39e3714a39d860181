@@ -1,0 +1,1 @@
+rubygems のテストで git の不具合修正の影響で git submodule が失敗することがあるので git config で protocol.file.allow=always という設定をしておくように対応しています。
