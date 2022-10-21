@@ -1,0 +1,1 @@
+Kernel#require や Kernel#load のようにスクリプトを読み込むメソッドや RubyVM::InstructionSequence の compile_file によるスクリプトのコンパイルやバイナリフォーマットからの読み込み時にダミーの control frame を VM スタックに積んでおくようにしています。チケットをみると ObjectSpace によるオブジェクト確保のプロファイリングの時に parser のための処理などが区別がつかないのでその対策のためとのこと。 [ruby-core:107389] [Feature #18559]
