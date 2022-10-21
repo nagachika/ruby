@@ -1,0 +1,1 @@
+include/ruby/internal/special_consts.h の定数 RUBY_SYMBOL_FLAG のビット列を説明するコメントで任意のビットのところに 0 が書かれてしまってたのを修正。
