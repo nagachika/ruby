@@ -1,0 +1,1 @@
+開始点の省略された beginless range に対して Range#size を呼ぶと常に Float::INFINITY が返されていたのを終点が数値の時だけにしてそれ以外では nil を返すように変更しています。 [ruby-core:109770] [Bug #18983]
