@@ -1,0 +1,1 @@
+gc.c の rb_gc_writebarrier() で引数が special constant (Qnil, Qfalse や flonum などの即値)の時に rb_bug() で異常終了させるのを RGENGC_CHECK_MODE を真に定義してビルドした時だけにしていたのを常にチェックするようにしています。
