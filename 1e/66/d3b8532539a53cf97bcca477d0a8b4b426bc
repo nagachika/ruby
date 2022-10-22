@@ -1,0 +1,1 @@
+.appveyor.yml と .cirrus.yml でも GitHub Actions と同様に bundler のドキュメント系のファイルのみの変更を無視する設定を追加しています。
