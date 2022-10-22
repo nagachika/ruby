@@ -1,0 +1,1 @@
+YJIT で f55212bce939f736559709a8cd16c409772389c8 での Qnil, Qunef, Qtrue のビットパターン変更に追随したついでに? 即値の判定に enum 型の ruby_special_consts を import して利用するようにしています。
