@@ -1,0 +1,1 @@
+9a0a165a5d6d0bc4ed18cb92d05593796f703359 の RGENGC_CHECK_MODE が 0 でも rb_gc_writebarrier() での引数の即値チェックをするようにしていたのをまた RGENGC_CHECK_MODE が 0以外の時だけチェックするように戻しています。どうやらこの変更は 39f7eddec4c55711d56f05b085992a83bf23159e で修正した YJIT の不具合修正のデバッグのために行なってたみたいです。
