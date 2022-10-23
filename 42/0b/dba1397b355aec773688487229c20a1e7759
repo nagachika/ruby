@@ -1,0 +1,1 @@
+rubygems で Kernel#warn にキーワード引数を渡すかどうか判定するのに JRuby かどうかをチェックしていたところ、最新版の JRuby ではキーワード引数に対応したみたいで RUBY_VERSION の判定も条件に追加して最新の JRuby ならキーワード引数も渡すようにしています。なぜか一緒に doc/io_streams.rdoc のリンクの絶対 URL が rdoc-ref に直されているけどこれは tool/sync_default_gems.rb による同期時に自動的に変換されたのかな。rubygems のファイルの一部ではないと思うけど。
