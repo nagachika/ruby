@@ -1,0 +1,1 @@
+Object#dup の実装の一部である object.c の init_copy() でインスタンス変数管理のための Object Shapes の情報 rb_shape_t をセットするのを rb_obj_copy_ivar() でインスタンス変数の内容をコピーした後に移動しています。GC でインスタンス変数テーブルを mark する時に Object Shapes による情報を利用しているので先にセットしてしまうとまだ確保してない領域に対して mark してしまう可能性があったようです。
