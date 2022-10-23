@@ -1,0 +1,1 @@
+構造体 rb_shape_t のメンバー iv_count を next_iv_index に改名しています。
