@@ -1,0 +1,1 @@
+hash.c の hash_foreach_iter() と hash_ar_foreach_iter() からコールバック関数の戻り値をチェックする部分を hash_iter_status_check() という関数に切り出して再利用するリファクタリング。
