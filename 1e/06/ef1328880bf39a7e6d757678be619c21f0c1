@@ -1,0 +1,1 @@
+re.c の rb_memsearch_wchar() と rb_memsearch_qchar() から文字のサイズ部分の差異だけ引数に切り出した rb_memsearch_with_char_size() という関数を切り出すリファクタリング。
