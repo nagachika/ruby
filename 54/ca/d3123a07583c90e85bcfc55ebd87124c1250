@@ -1,0 +1,1 @@
+Complex.polar で引数に Complex をひとつだけ渡した時に実数部(real)の成分のみ存在していことはチェックしつつ nucomp_s_new_internal() でそのまま使ってしまっていたので結果の Complex の実数部が Complex になってしまっていたのを修正しています。 [ruby-core:109879] [Bug #19004]
