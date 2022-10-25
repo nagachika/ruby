@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb で gems/bundled_gems の自動更新するためにパースする時に commit hash の記述が削除された時にエラーになってたのを修正しています。
