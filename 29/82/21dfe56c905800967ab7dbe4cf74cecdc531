@@ -1,0 +1,1 @@
+variable.c の rb_ivar_defined() で Qtrue/Qfalse を返すために分岐しているところを RBOOL() マクロの利用におきかえるリファクタリング。
