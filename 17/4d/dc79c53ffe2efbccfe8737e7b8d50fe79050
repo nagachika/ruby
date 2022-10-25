@@ -1,0 +1,1 @@
+rubyspec の File.atime と File.mtime の一部のテストを Travis-CI では実行除外するようにしています。
