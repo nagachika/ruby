@@ -1,0 +1,1 @@
+Regexp.timeout= と Regexp#initialize の実装から引数のチェックまわりを set_timeout() という関数に切り出すリファクタリング。
