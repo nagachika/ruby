@@ -1,0 +1,1 @@
+ext/extmk.rb の bundled gems のビルドの依存関係管理のための timestamp ファイルのファイルパスに $(gem_platform) や $(ruby_version) の変数の展開結果をディレクトリ構造に追加して rubygems の platform や ABI バージョンなどが異なる場合に別のファイルを利用するようにしています。
