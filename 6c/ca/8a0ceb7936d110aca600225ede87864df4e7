@@ -1,0 +1,1 @@
+8873c420d34d4573a153dd0d107a0ada099f4d26 で tool/update-bundled_gems.rb で gems/bundled_gems の自動更新する時に commit hash が消された時の対応で行末の空白が残るようになってたみたいなので削るようにしています。
