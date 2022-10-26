@@ -1,0 +1,1 @@
+おそらく Object Shapes の導入により struct rb_iv_index_tbl_entry という構造体が不要になったので定義を削除して、MJIT 用の binding からも削除しています。
