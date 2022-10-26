@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の Dir.tmpdir の実装で Enumerable#find を利用するリファクタリング。
