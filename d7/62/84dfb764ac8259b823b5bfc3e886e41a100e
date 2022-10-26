@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream からの同期時に conflict を無視するファイルの判定時に新規追加のファイルを含めるようにしているようです。
