@@ -1,0 +1,1 @@
+192bc725290ca4b271bff2bae6123d84c25f7173 で追加した RB_NIL_OR_UNDEF_P() という inlilne 関数の定義に使っている RBIMPL_ATTR_CONSTEXPR() に渡しているバージョンを CXX11 から CXX14 に更新しています。
