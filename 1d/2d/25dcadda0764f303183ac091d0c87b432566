@@ -1,0 +1,1 @@
+regenc.c や regparse.c で潜在的なバッファーオーバーランを防ぐために ONIGENC_MBC_ENC_LEN() の実装を変更しています。
