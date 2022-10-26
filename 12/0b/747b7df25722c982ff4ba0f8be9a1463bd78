@@ -1,0 +1,1 @@
+YJIT の初期化処理を後のほうにずらしているようです。 pull request の説明をみるに prelude.rb の内容も JIT するのは不要な部分が多いので prelude の読み込み後に YJIT を有効化しようとしているようです。 https://github.com/ruby/ruby/pull/6597
