@@ -1,0 +1,1 @@
+GitHub Actions の workflow の Slack 通知のためのアクションを ruby/action-slack と ruby organization の配下のリポジトリを使うようにしています。
