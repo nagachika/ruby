@@ -1,0 +1,1 @@
+YJIT の JIT コンパイル結果のコードを GC できるようにしているようです。この code_gc はおそらく Ruby 本体の GC とは独立していて、コード用のメモリ確保に失敗した時に未使用のコードを mark&sweep で回収しているようです。 https://github.com/ruby/ruby/pull/6406
