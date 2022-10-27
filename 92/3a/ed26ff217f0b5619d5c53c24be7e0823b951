@@ -1,0 +1,1 @@
+GitHub Actions の workflow に .github/workflows/cirrus-notify.yml というのを追加しています。名前からして Cirrus CI の通知っぽいですけど Cirrus CI には通知の仕組みがなくて GitHub Actions を利用して通知してねというのが公式の方法みたいです。すごいな。
