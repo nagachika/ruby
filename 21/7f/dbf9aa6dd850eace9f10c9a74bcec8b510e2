@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の url_encode とうメソッドで独自実装していたのを CGI.escapeURIComponent を利用するようにしています。このため gemspec ファイルで cgi への依存を 0.3.3 以上を要求するようにしています。ついでに? required_ruby_version も 2.7以降の設定を追加しています。
