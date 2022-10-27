@@ -1,0 +1,1 @@
+win32/dir.h で #include するヘッダファイルの esent.h を basetsd.h に変更しています。
