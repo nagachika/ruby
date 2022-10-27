@@ -1,0 +1,1 @@
+Ractor.new で experimental の警告メッセージを出すのを ruby 実装の箇所に移動しています。警告の出力箇所として "<internal:ractor>" のようなファイル名が使われてしまうため。  [ruby-core:110499] [Bug #19081]
