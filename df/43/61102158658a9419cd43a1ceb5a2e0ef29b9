@@ -1,0 +1,1 @@
+923aed26ff217f0b5619d5c53c24be7e0823b951 で追加した Cirrus CI の通知のための GitHub Actions の workflow のトリガーの条件を追加して skip された時の通知を抑制しています。
