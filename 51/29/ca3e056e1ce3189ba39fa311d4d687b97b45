@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の lib/rdoc/ri/driver.rb のトップレベルで readline を require していたのを RDoc::RI::Driver#interactive メソッド内で必要になった時点で require するように遅延しています。
