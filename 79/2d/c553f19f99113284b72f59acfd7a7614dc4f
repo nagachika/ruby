@@ -1,0 +1,1 @@
+Cirrus CI および GitHub Actions の YJIT を有効にしたテストで --yjit-verify-ctx というコマンドラインオプションを追加しています。 https://github.com/ruby/ruby/pull/6639
