@@ -1,0 +1,1 @@
+NEWS に YJIT のメモリ管理まわりの変更について追記しています。 https://github.com/ruby/ruby/pull/6636
