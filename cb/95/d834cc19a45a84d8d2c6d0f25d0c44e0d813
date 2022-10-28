@@ -1,0 +1,1 @@
+40f8a781a39042cdccd641fef6e10cb2c8d98c41 で削除した irb のテストで rdoc が require できない環境を模倣するヘルパーメソッドを test/irb/test_helper.rb に復活させています。
