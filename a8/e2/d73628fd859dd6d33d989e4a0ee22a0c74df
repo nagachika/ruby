@@ -1,0 +1,1 @@
+Cirrus CI の失敗時の通知のための GitHub Actions の workflow で通知メッセージに埋め込む URL を GitHub の action のものから Cirrus CI のページにリダイレクト? される URL になるように対応しています。
