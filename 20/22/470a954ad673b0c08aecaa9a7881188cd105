@@ -1,0 +1,1 @@
+d889e810f3d9061fdab5a21470bf32d078d2b06a の irb のテストで警告抑制のため Kernel#load の呼び出しを EnvUtil.suppress_warning のブロックでかこむようにしています。
