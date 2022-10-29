@@ -1,0 +1,1 @@
+doc/yjit/yjit.md および doc/contributing/building_ruby.md に YJIT の制限事項の更新やビルドに必要な rustc のバージョンの記述の追加など ruby 本体の開発者向けのドキュメントの整理をしています。 https://github.com/ruby/ruby/pull/6641
