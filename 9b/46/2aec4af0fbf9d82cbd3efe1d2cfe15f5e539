@@ -1,0 +1,1 @@
+75cf29f60d87b298edfd75611bfe272a92289cee で rb_iseq_new_with_opt() や rb_iseq_new_with_callback() などの関数の引数 first_lineno の型を変更したのに template/prelude.c.tmpl のテンプレートで追随が漏れてたので修正しています。
