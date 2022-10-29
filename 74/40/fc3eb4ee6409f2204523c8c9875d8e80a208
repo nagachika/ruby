@@ -1,0 +1,1 @@
+b260c1e8c8a2b6c4cef944e3247ca743079478df で irb のテストから不要ということで削除してた IRB.conf[:VERBOSE] = false の設定を復活させています。 CI で(VERBOSE=true にして流すから)警告が出ていたようです。
