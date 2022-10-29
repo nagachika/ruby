@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream からコミットを同期する時コミットログに upstream の commit への URL を埋め込むのがコミットログの本文がない時には動いてなかったのでその時も URL のみ本文に追加するようにしています。
