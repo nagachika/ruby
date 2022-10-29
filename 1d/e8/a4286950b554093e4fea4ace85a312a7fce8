@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream からのコミットの取り込み時のコミットログの整形で不要な空行が入るのを防ぐようにしているようです。
