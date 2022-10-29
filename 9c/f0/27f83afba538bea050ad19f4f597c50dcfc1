@@ -1,0 +1,1 @@
+YJIT の opt_aref VM 命令のコンパイル時に receiver のクラスをチェックするのに専用の関数を利用するようにしています。 https://github.com/ruby/ruby/pull/6643
