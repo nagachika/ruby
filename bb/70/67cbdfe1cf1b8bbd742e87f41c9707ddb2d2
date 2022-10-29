@@ -1,0 +1,1 @@
+また別の irb のテストで TruffleRuby の場合に警告の抑制のため環境変数 TRUFFLERUBYOPT に --log.level=SEVERE を追加するようにしています。
