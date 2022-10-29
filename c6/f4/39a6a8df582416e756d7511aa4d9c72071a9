@@ -1,0 +1,1 @@
+Numeric#real, #imaginary, #conjugate, #numerator, #denominator などのメソッドを ruby 実装に移行しています。高速化のためみたいです。特に引数処理はないけど JIT が有効な場合にインライン化されるとかかな? https://github.com/ruby/ruby/pull/6638 [ruby-core:110516] [Feature #19085]
