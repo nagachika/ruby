@@ -1,0 +1,1 @@
+irb の組み込みコマンドのテストで IRB.conf[:VERBOSE] と IRB.conf[:MAIN_CONTEXT] を設定していたところが不要とのことで削除しています。
