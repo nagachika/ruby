@@ -1,0 +1,1 @@
+configure で XCFLAGS に -D_FORTIFY_SOURCE オプションを追加するのを試す時に -U_FORTIFY_SOURCE というオプションも同時に追加するようにしています。再定義の警告抑制のためとのこと。 $optflags に追加するほうでは不要なのかな?
