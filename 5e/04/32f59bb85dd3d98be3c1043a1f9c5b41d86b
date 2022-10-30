@@ -1,0 +1,1 @@
+gc.c の try_move() 内で struct heap_page::freelist にアクセスする時に asan_unlock_freelist()/asan_lock_freelist() で一時的に ASAN によるチェックを除外しておくようにしています。
