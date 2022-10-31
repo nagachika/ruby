@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse のテストに OptionParser#load のテストを追加しています。
