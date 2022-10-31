@@ -1,0 +1,1 @@
+4dac53f0a48920f80ccaa4de151631659ab1d2ba で追加した標準添付ライブラリ optparse のテストで定義している assert_load という assertion メソッドで OptionParser#load の into キーワード引数を使った処理の確認も追加しています。
