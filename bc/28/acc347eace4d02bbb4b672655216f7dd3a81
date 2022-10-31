@@ -1,0 +1,1 @@
+拡張ライブラリ digest の extconf.rb 用のメソッド digest_conf で --common-digest オプションが指定されなくてもデフォルトで CommonCrypto/CommonDigest.h を利用するようにしています。
