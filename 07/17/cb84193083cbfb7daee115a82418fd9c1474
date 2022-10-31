@@ -1,0 +1,1 @@
+configure で MinGW 環境ではコンパイラオプション -fstack-protector-strong または -fstack-protector をデフォルトで無効にしていたのを利用可能ならつけるようにしています。また GitHub Actions の MinGW 環境の workflow で明示的に CFLAGS と LDFLAGS に -fstack-protector-strong を追加してたのがこれにより不要になるのでやめています。
