@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の OptionParser#load に into キーワード引数を追加して OptionParser#parse にそれを渡すようにしています。
