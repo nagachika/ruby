@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.node_id_for_backtrace_location というメソッドを新規追加して Exception#backtrace_locations などで得られる Thread::Backtrace::Location から対応する AST の id を取得できるようにしています。 error_highlight で ERB のテンプレートなど eval 系のメソッド内の位置情報を取得するためみたいです。
