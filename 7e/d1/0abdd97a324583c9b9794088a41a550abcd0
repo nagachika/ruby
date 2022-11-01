@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の ext/bigdecimal/missing.h でマクロ HAVE___ASSUME を定義する時に定義内容が空だったのを 1 に定義するように修正しています。 HAVE_XXX マクロは真偽値として扱うため。
