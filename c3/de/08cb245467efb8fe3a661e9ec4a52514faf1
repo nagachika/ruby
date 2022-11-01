@@ -1,0 +1,1 @@
+cont.c の root_fiber_alloc() 内の VM_ASSERT() の式に FIBER_RESUMED_P() マクロを利用するようにリファクタリング。
