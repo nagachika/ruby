@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の ErrorHighlight.spot で引数に RubyVM::AbstractSyntaxTree::Node のインスタンスが渡された時にエラーになってのを修正しています。修正そのものじゃなくテストのほうに 3391c51effcd61f9a718adf59740661d99f57b5b で追加された RubyVM::AbstractSyntaxTree.node_id_for_backtrace_location が利用されています。
