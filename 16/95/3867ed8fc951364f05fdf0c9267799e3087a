@@ -1,0 +1,1 @@
+non-blocking Fiber のテストで Socket.getnameinfo で名前解決する時のフラグに Socket::NI_NUMERICHOST を追加して IP アドレスを返す(というか許容する?)ようにしています。このテストでは実際の解決は Scheduler の実装で stub しているのでダミーの IP アドレスを返していて環境によってはそれがエラーになるようです。 https://github.com/ruby/ruby/pull/6652 [ruby-core:106386] [Bug #18380]
