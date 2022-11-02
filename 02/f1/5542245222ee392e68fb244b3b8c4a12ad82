@@ -1,0 +1,1 @@
+T_CLASS と T_MODULE 型のオブジェクトでのインスタンス変数管理に Object Shapes を利用するようにしています。T_CLASS/T_MODULE は名前の管理などに内部的なインスタンス変数を利用していますがこれらの管理も移行しているようです。このへん複雑なのでなにか壊れないか心配だなぁ。 https://github.com/ruby/ruby/pull/6637
