@@ -1,0 +1,1 @@
+tool/generic_erb.rb から色付けしながら出力する部分を tool/lib/output.rb に切り出してクラスとして定義するリファクタリング。
