@@ -1,0 +1,1 @@
+YJIT のデフォルトで JIT コンパイル結果のために確保するメモリ領域のサイズを 256M から 128M に縮小しています。 https://github.com/ruby/ruby/pull/6649
