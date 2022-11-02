@@ -1,0 +1,1 @@
+tool/lib/vpath.rb のコマンドラインオプションの処理の OptionParser#on で引数の記述に空白を含めてしまっていたのを修正しています。
