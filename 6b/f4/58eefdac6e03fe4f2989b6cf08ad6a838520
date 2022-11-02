@@ -1,0 +1,1 @@
+tool/file2lastrev.rb でも a2e7b11f2ae13f96171cb8a5aa6ae3cc75f6f083 で切り出した tool/lib/output.rb の Output クラスを使いまわすようにリファクタリングしています。これにより色付け関連のコマンドラインオプションにも対応できるようになっています。
