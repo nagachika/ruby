@@ -1,0 +1,1 @@
+00d5b7ce7c2e72170b7f563b9de0e7ac4bc8f772 で tool/lib/vcs.rb の git config の safe.directory の設定を取得して定数に設定する処理の ensure 節でデバッグ出力のために代入前の定数を参照してしまっていたのを修正しています。
