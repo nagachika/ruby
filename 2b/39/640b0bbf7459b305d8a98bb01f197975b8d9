@@ -1,0 +1,1 @@
+YJIT のコード領域の GC を明示的にトリガーするための RubyVM::YJIT.code_gc というメソッドを追加してテストなどでこれを利用するようにています。 https://github.com/ruby/ruby/pull/6644
