@@ -1,0 +1,1 @@
+tool/lib/output.rb の Output#write メソッドに overwrite キーワード引数を追加して tool/file2lastrev.rb から revision.h を出力する時に更新チェックのために内容を読み込んだファイル自体の上書きをするようにしているようです。 outpath と @path の違いがよくわかりませんが VPath でソースディレクトリとビルドディレクトリを切り替えてる時にソースディレクトリのほうを上書きしなくなってたのを修正しているのかな?
