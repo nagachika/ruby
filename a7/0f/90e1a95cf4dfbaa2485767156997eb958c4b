@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Context の初期化に Context::new() というメソッドを定義して使っていたのを Context::default() を使うように変更しています。
