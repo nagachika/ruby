@@ -1,0 +1,1 @@
+common.mk の revision.h のルールを revision.tmp を作ってそこからコピーするようにしてたのを file2lastrev.rb に --timestamp オプションを渡してツール内で更新の必要性を判定させるようにしているようです。
