@@ -1,0 +1,1 @@
+YJIT の Rust 実装の中間表現で想定外の状態になった時のデバッグのためにレジスタの状態を出力する処理を追加しています。 https://github.com/ruby/ruby/pull/6651
