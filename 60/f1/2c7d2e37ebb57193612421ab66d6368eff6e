@@ -1,0 +1,1 @@
+template/Makefile.in の Makefile 自身の更新ルールの依存関係の $(srcdir)/revision.h を $(REVISION_H) に変更しています。ソースディレクトリ以外でのビルド時に依存関係の循環が起きてしまっていたようです。
