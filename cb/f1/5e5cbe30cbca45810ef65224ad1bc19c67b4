@@ -1,0 +1,1 @@
+YJIT の Rust 実装にデバッグ用の assertion を追加しています。
