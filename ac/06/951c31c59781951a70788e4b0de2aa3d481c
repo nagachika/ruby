@@ -1,0 +1,1 @@
+6bf458eefdac6e03fe4f2989b6cf08ad6a838520 の続きで tool/file2lastrev.rb で a2e7b11f2ae13f96171cb8a5aa6ae3cc75f6f083 で切り出した tool/lib/output.rb の Output クラスによるコマンドラインオプションを追加する位置を移動して、さらに --srcdir オプション指定時に tool/lib/vpath.rb の VPath にも反映させるようにしています。
