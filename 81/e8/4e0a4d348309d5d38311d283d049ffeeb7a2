@@ -1,0 +1,1 @@
+YJIT で invokeblock 命令の JIT コンパイルのサポートを追加しています。 invokeblock のサポート以前追加してたような気がしましたが getblockparamproxy とかと混同してたかも。要するに yield の JIT コンパイル対応ですね。 https://github.com/ruby/ruby/pull/6640
