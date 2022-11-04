@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグ用の定数 ELTS_SHARED を利用していたところをそのオブジェクトの型にあわせた定数 RARRAY_SHARED_FLAG や STR_SHARED を使うようにリファクタリングしています。
