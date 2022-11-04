@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL によるチェックを実施する workflow を push ごとに実行するのをやめて 1日 1回のスケジュール実行のみにしています。
