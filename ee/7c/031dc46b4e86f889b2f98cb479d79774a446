@@ -1,0 +1,1 @@
+YJIT で mmap(2) でメモリ領域確保しようとしてエラーが発生した時に errno が ENOMEM つまり物理メモリ不足だった場合は rb_bug() で異常終了するのはやめて exit(3) で即座にプロセス終了するようにしています。 https://github.com/ruby/ruby/pull/6659
