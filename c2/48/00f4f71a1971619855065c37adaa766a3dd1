@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルの spec.required_ruby_version の設定を JRuby 環境の時には省くようにしています。
