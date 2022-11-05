@@ -1,0 +1,1 @@
+b6d7e98f2540500f072c5cc0f136cae69f80055c での tool/sync_default_gems.rb の commit url を Co-Author-By の前に入れるための置換時に前の行の有無を判定するためのグループのインデックスが間違ってたのを修正。
