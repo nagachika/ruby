@@ -1,0 +1,1 @@
+dc5d06e9b145f7d5f8c5f7c3757b43f2d68833fd で移植してきた標準添付ライブラリ erb の拡張ライブラリによる escape_html の実装で引数を to_s メソッドを rb_funcall() で呼び出して変換していたのを rb_convert_type() で必要に応じて呼ぶように最適化しています。 [ruby-core:110603] [Feature #19102]
