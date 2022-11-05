@@ -1,0 +1,1 @@
+string.c の str_alloc() という関数の定義を削除して 2箇所の呼び元にそれぞれインラインで展開して、str_alloc_heap() で返す文字列オブジェクトは flags に STR_NOEMBED を立てて返すようにして、str_alloc_heap() の呼び元であらためて立ててたのをやめるようにしています。
