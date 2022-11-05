@@ -1,0 +1,1 @@
+irb の IRB::RubyLex のテストで irb/ruby-lex のみ require していたのを irb 全体を require するように変更しています。
