@@ -1,0 +1,1 @@
+Fiber のマシンスタック領域のメモリ解放の実装で madvise(2) の引数になにを使うかを preprocessor で分岐してるところで、まず WASI 版では madvise() が未サポートなので呼び出さないようにして、また POSIX_MADV_DONTNEED という定数マクロがあればそれを優先していたのを最後に回して各プラットフォームの独自の定数のほうを使うようにしています。 https://github.com/ruby/ruby/pull/6671 [ruby-core:110594] [Bug #19101]
