@@ -1,0 +1,1 @@
+irb のテストに Gem::Version によるバージョンの比較のために必要だったみたいで require "rubygems" を追加しています。
