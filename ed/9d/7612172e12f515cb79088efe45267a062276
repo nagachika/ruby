@@ -1,0 +1,1 @@
+tool/mkconfig.rb で変数などを展開する処理で $(target_cpu)、$(target)、$(host_os)、$(host_cpu) などの変数名に対応するようにしています。
