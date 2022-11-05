@@ -1,0 +1,1 @@
+YJIT の実行コード用のメモリ領域の GC の起動回数のカウンタを --yjit-stats をつけなくても利用できるようにしています。 https://github.com/ruby/ruby/pull/6665
