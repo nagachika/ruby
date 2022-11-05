@@ -1,0 +1,1 @@
+拡張ライブラリ socket の extconf.rb で mkmf.rb の checking_for メソッドを利用してメッセージを強化しています。また macOS で netinet6/in6.h がない? ので netinet/in.h というヘッダから内容を一部変更して作成するという処理(こんなことしてたのか)のが netinbet/in.h が /usr/include/ からなくなっているバージョンがあるみたいで clang -include コマンドを利用して実体のファイルパスを探して読み込むように対応しています。
