@@ -1,0 +1,1 @@
+YJIT の Rust 実装のメソッド呼び出しのコンパイルで使っていた不要な型 CapturedSelfOpnd を削除しています。 https://github.com/ruby/ruby/pull/6661
