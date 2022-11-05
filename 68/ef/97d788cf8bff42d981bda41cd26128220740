@@ -1,0 +1,1 @@
+YJIT の Rust 実装でメモリ書き込み時のカーソルの更新処理が YJIT 用 GC の導入により不具合が発生していたようなので修正しています。 https://github.com/ruby/ruby/pull/6664
