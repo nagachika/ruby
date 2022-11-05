@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream からコミットを cherry-pick してくる時に元のコミットの GitHub の URL を埋め込むのを Co-Author-By の記述の前にするための正規表現の前方先読みがログ本文がない時に空振りすることがあったみたいなので前に入れるため正規表現を修正しています。
