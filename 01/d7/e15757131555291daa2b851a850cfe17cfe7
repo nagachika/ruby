@@ -1,0 +1,1 @@
+YJIT の統計情報を出力する --yjit-stats の出力項目に side_exit_count を追加しています。脱最適化というか JIT コンパイルしたコードから抜けて通常のメソッド呼び出しとかに fallback した回数かな。 https://github.com/ruby/ruby/pull/6666
