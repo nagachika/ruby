@@ -1,0 +1,1 @@
+irb のテストの警告抑制のため IRB.conf[:VERBOSE] = false を追加しています。
