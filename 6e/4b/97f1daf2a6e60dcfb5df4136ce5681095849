@@ -1,0 +1,1 @@
+Object Shapes によるインスタンス変数管理の関連で struct rb_classext_t::max_iv_count を更新する処理を obj_free() で実際に slot を解放する時に実行していたのを gc_mark_children() で行うよう移動しています。そもそも free する時に更新してたのはなぜなんだろう。
