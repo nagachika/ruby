@@ -1,0 +1,1 @@
+benchmark/ の CGI.escapeHTML のベンチマークの整理と ERb::Util.escape_html のベンチマークの追加。
