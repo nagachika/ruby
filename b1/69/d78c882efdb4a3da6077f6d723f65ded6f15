@@ -1,0 +1,1 @@
+dc5d06e9b145f7d5f8c5f7c3757b43f2d68833fd で導入した標準添付ライブラリ erb の escape_html の実装の拡張ライブラリの実装を Module#prepend を使って ERb::Util.html_escape のオリジナルの実装を上書きしてたのをやめて、拡張ライブラリのメソッド定義時に直接 ERb::Util.html_escape の実装を上書き定義するようにしています。
