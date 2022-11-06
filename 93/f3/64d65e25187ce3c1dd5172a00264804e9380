@@ -1,0 +1,1 @@
+76a6c5d6d16cd0e55df15d66d53c6d7a9614f3d6 の続きで UnboundMethod#bind で引数のオブジェクトのクラスをチェックする時に RTEST() マクロを利用するように修正しています。
