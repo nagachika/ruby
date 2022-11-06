@@ -1,0 +1,1 @@
+UnboundMethod#bind で UnboundMethod から Method に変換する時に 引数のオブジェクトのクラスについての冗長なチェックがあったのを削除しています。
