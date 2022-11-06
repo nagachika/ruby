@@ -1,0 +1,1 @@
+YJIT の Rust 実装のために利用する rustc のチェックを configure に追加して rustc の対象バージョン以上のものが利用可能で OS や CPU アーキテクチャがサポート対象ならばデフォルトで YJIT が有効になるようビルドされるようにしています。 https://github.com/ruby/ruby/pull/6662
