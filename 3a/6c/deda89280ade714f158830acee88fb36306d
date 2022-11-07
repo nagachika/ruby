@@ -1,0 +1,2 @@
+WASI 環境での Fiber のマシンスタック用領域の GC mark が不正になることがあったみたいで rb_wasm_scan_stack() という関数(正確には関数マクロ)で mark すべき領域を取得していたのを削除して、native_thread_init_stack() でマシンスタックの底のアドレスを記録して mark_current_machine_context() ではその時点のスタックポインタを取得してそれでマシンスタック領域を得るようにしています。対象の Fiber を実行中じゃないと正確なスタックポインタが得られないのでは……と思いましたがこの関数 mark_current_machine_context() は GC 実行中の現在の rb_context_t のマシンスタックやレジスタ上を mark するための関数なのでこれで問題ないのでした。
+rb_wasm_scan_stack() という関数は削除されていますが wasm/tests/machine_test.c  というファイルに参照が残っているので make test-wasm でビルドエラーにならないかな。
