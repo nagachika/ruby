@@ -1,0 +1,1 @@
+configure の cross compile 時の Rust のコマンドを指定する変数 RUSTC に --target オプションの指定を追加しています。common.mk の変更部分で showflags で表示する変数名が RUST になってますけどこれは RUSTC の間違いじゃないかな?
