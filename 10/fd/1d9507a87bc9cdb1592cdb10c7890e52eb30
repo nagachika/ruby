@@ -1,0 +1,1 @@
+configure の --enable-yjit オプション指定時の rustc のチェックでコマンド名に $RUSTC 変数を参照するように修正しています。
