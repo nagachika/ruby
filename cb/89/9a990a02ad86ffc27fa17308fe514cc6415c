@@ -1,0 +1,1 @@
+1454f8f219890b8134f68e868d8cb1d0a9d2aa20 の続きで cross compile 時はそもそも YJIT を無効にするようにしています。
