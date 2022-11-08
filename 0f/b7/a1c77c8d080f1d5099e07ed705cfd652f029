@@ -1,0 +1,1 @@
+rubygems と bundler の platform の対応から hpux を削除しています。
