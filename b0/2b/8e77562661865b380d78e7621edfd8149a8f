@@ -1,0 +1,1 @@
+12883f8fa6222324880e2b0f161f8c6d6cf365c7 以降の tool/lib/test/unit.rb の新しい GNU Make の --jobserver-fds の fifo 引数対応と同様の修正を bootstraptest/runner.rb、spec/default.mspec、spec/ruby/optional/capi/spec_helper.rb などの他のテストの実行時のコードにも適用しています。
