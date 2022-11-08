@@ -1,0 +1,1 @@
+configure で rustc が利用可能で CPU アーキテクチャが YJIT でサポートされている環境でも --disable-jit-support を指定した時には YJIT を無効にしてビルドできるようにしているみたいです。
