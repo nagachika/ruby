@@ -1,0 +1,1 @@
+b02b8e77562661865b380d78e7621edfd8149a8f の変更のうち spec/default.mspec と spec/ruby/optional/capi/spec_helper.rb の rubyspec に関わるものは revert しています。
