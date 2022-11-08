@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb で新しい GNU make の jobserver の実装に対応するため --jobserver-fds の引数の fifo:xxx という値に対応するようにしています。
