@@ -1,0 +1,1 @@
+12883f8fa6222324880e2b0f161f8c6d6cf365c7 の続きで tool/lib/test/unit.rb の --jobserver-fds の fifo で指定されたファイルパスを開く時に autoclose: false を指定していましたがこれは fd を直接指定された時に IO.for_fd で開いた IO の GC 時に閉じてしまわないためなので fifo の時は不要とのことで削除しています。
