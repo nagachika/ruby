@@ -1,0 +1,1 @@
+Thread::Mutex#lock や Thread::Mutex#sleep の実装で通常の Fiber (non-blocking Fiber 用の Scheduler が設定されていない時)に同一の Thread 上の別々の Fiber が同一の Mutex のロック取得しようとしていた時の dead lock 検出が漏れていたのを修正しています。これって昔からかな。 https://github.com/ruby/ruby/pull/6680 [ruby-core:110626] [Bug #19105]
