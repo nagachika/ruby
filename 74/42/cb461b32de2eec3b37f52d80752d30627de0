@@ -1,0 +1,2 @@
+YJIT の Rust 実装でのコード領域の GC のための処理のタイミングを少し後のほうにずらしています。よくわかりませんが Ruby 本体のほうの API を使うことで GC が発生しうる処理があってその後に実施しないといけなかったということみたいです。どの関数だろう。 rb_yjit_tracing_invalidate_all() かなぁ。 https://github.com/ruby/ruby/pull/6676
+なおコメントに typo がありそうです(VirtuamMem → VirtualMem)。
