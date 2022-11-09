@@ -1,0 +1,1 @@
+拡張ライブラリ coverage で branch coverage の集計を有効にしているとブロックから break で抜ける時などの throw 命令が LocalJumpError の判定のためにチェックしている ISeq の命令列のパターンが崩れてしまって誤って LocalJumpError が発生してしまうという不具合の修正のため compile_iter() でブロックを命令列にコンパイルする時にジャンプ用のラベルを挿入する位置を調整する処理を追加しています。 [ruby-core:109822] [Bug #18991]
