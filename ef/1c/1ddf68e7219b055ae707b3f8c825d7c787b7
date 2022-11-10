@@ -1,0 +1,1 @@
+拡張ライブラリ socket の rsock_ipaddr() で sprintf(3) と rb_str_new2() を組み合わせて使ってたのを rb_sprintf でまとめて文字列オブジェクト化するようにしています。
