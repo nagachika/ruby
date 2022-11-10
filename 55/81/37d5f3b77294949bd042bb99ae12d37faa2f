@@ -1,0 +1,1 @@
+include/ruby/random.h の Doxygen 用? コメントのサンプルコードの変数宣言の型が抜けてたのを修正しています。
