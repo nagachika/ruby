@@ -1,0 +1,1 @@
+bundler で RUBY_PLATFORM が universal を含んでいる時に rubygems の Gem::Specification#extensions_dir を再定義して実際のアーキテクチャ名を含めるファイルパスにするようにしています。
