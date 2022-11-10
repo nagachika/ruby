@@ -1,0 +1,1 @@
+RubyVM::YJIT の ruby 実装の yjit.rb で YJIT の統計情報を返す RubyVM::YJIT.runtime_stats の項目を増やしています。  https://github.com/ruby/ruby/pull/6685
