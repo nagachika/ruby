@@ -1,0 +1,1 @@
+configure で rustc コマンドのバージョンチェックのための実行の余計なメッセージを抑制するためのリダイレクト追加と、結果のメッセージ出力を追加しています。 https://github.com/ruby/ruby/pull/6693
