@@ -1,0 +1,1 @@
+YJIT で Module#define_method に Proc オブジェクト(ブロック)を渡して定義されたメソッドの呼び出し? を rb_vm_invoke_proc() を直接呼び出すように最適化しているみたいです。なんか違うような気もするけど。ただのブロック呼び出しかも。 https://github.com/ruby/ruby/pull/6691
