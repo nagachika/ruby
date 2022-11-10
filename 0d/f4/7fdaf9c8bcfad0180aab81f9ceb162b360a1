@@ -1,0 +1,1 @@
+2244d5084e32fea801bff1060ef528769bebaa36 の続きで bundler で再定義する Gem::Specification#extensions_dir の条件に RUBY_PLATFORM だけでなく CROSS_COMPILING もみるようにしています。 CROSS_COMPILING っていう定数が定義されるんだっけ? と思いましたが fake.rb で定義されるものみたいなので extconf.rb などで参照しているところはあるけどここでも参照できるのかな?
