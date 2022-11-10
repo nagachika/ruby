@@ -1,0 +1,1 @@
+configure の YJIT を有効化するかどうかの判定の処理を修正&リファクタリングしています。 https://github.com/ruby/ruby/pull/6684
