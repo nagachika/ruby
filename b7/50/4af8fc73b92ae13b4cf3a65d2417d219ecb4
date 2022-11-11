@@ -1,0 +1,1 @@
+bison の必要バージョンの更新に伴い古い bison をサポートするために parse.y を置換する tool/pure_parser.rb を削除しています。そういえばこんなのあったなぁ。 a064e46762ec0bfd40e6a04242d9e62fdd21e1f0 での導入ですね。
