@@ -1,0 +1,1 @@
+YJIT 用のオプション --yjit-stats を指定した時に自動的に --yjit-exit-locations の指定した時のファイルへのダンプも有効になるようにしています。 https://github.com/ruby/ruby/pull/6703
