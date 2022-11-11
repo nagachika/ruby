@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md の ruby のビルドに必要な環境の bison の必要バージョンを更新しています。 [ruby-core:110383] [Feature #19068]
