@@ -1,0 +1,1 @@
+881bf9a0b8b52c05a5917b95d988ae4b9a391a47 からの一連の正規表現マッチのキャッシュによる最適化の実装続き。 https://github.com/ruby/ruby/pull/6486 [ruby-core:110621] [Feature #19104] 1e6673d6bbd2adbf555d82c7c0906ceb148ed6ee のリファクタリングを revert しています。
