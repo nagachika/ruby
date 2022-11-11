@@ -1,0 +1,1 @@
+doc/io_streams.rdoc に分離してた IO のドキュメントを削除して IO クラスの rdoc 用コメント内のセクションとして展開しているようです。 https://github.com/ruby/ruby/pull/6669
