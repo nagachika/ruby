@@ -1,0 +1,1 @@
+b7e8876704648cee6866591ac1aca7a54faff742 で rb_random_interface_t の変更のためにテスト用の拡張ライブラリに追加した RB_RANDOM_DEFINE_INIT_INT32_FUNC の呼び出しにセミコロンがついていたのがビルドエラーになってたみたいなので修正しています。
