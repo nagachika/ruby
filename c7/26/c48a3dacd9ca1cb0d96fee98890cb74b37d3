@@ -1,0 +1,1 @@
+5246f4027ec574e77809845e1b1f7822cc2a5cef の変更で struct RObject の メンバーが不要になったそうで削除しています。かわりに rb_shape_t::capacity を利用しています。
