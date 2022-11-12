@@ -1,0 +1,1 @@
+YJIT 用のオプション --yjit-stats はデフォルトでは利用できないようにビルドされるようになっていたみたいで、常に利用可能なようにしています。 https://github.com/ruby/ruby/pull/6694
