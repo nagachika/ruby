@@ -1,0 +1,1 @@
+TracePoint を利用する時に VM 命令が trace 有効版に変化するので YJIT のコンパイル済みコードを破棄する処理が過剰に保守的に判定されていたので必要な時だけ行なわれるように条件を絞っています。 https://github.com/ruby/ruby/pull/6695
