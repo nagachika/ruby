@@ -1,0 +1,1 @@
+rubygems で環境変数 BUNDLER_SETUP が設定されていたらそれを require するようにしています。そして bundle exec でコマンド実行する時に環境変数 BUNDLER_SETUP に bundler/setup を設定しています。 なんらかの gem のロード前に bundler のセットアップをしておくようにするためみたいです。 [ruby-core:110529] [Feature #19089]
