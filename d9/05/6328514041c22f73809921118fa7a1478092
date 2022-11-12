@@ -1,0 +1,1 @@
+configure のオプションに --enable-yjit=stats が渡された時に YJIT_STATS マクロを 1 に定義するようにしています。 https://github.com/ruby/ruby/pull/6710
