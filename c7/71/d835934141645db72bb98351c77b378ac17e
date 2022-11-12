@@ -1,0 +1,1 @@
+configure の --with-static-linked-ext オプションの処理の位置を前のほうに移動して macOS の --bundle_loader オプション利用チェックの前に EXTSTATIC 変数を設定しておくようにしています。
