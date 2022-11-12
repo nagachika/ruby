@@ -1,0 +1,1 @@
+Object Shapes の実装で rb_shape_get_parent() という関数を切り出して再利用するリファクタリング。
