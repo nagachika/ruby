@@ -1,0 +1,1 @@
+インスタンス変数の管理の Object Shapes の実装の変更で rb_shape_t 構造体のメンバーに capacity と size_pool_index を追加して Variable Width Allocation の slot サイズの違う heap のオブジェクトを別の Shape として扱うようにしている? みたいです。
