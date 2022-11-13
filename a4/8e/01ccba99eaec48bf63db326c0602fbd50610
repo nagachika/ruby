@@ -1,0 +1,1 @@
+4d9ada223bf7d57a62e94b0a2082cc92ba5b7813 の続きで net/http の rdoc 用コメントのクラス名 HTTPRedirection を Net::HTTPRedirection とフルパスで表記するように修正しています。
