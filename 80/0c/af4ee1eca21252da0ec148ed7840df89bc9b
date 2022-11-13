@@ -1,0 +1,1 @@
+a0fcbce415fc045ff16eb74946a40774c0d39ac5 で追加した Scorecard の GitHub Actions workflow で token の指定をコメントアウトしていたのを修正しています。
