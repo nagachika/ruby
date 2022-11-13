@@ -1,0 +1,1 @@
+a0fcbce415fc045ff16eb74946a40774c0d39ac5 で追加した GitHub Actions で Scorecards のチェックを行う workflow を master のみで実施するように設定していたのをはずして全ての(といってもこの workflow を持ってる)ブランチで実行するようにしています。
