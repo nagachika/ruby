@@ -1,0 +1,1 @@
+同じく拡張ライブラリ bigdecimal の GetVpValue() という関数も inline 関数に変更しています。
