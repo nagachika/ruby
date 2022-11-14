@@ -1,0 +1,1 @@
+同じく拡張ライブラリ bigdecimal の check_rounding_mode() という関数で不正な丸めモードの Symbol や String が指定された時の処理の不要な分岐を削除しています。
