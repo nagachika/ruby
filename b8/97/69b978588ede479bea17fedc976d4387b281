@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の BigDecimal#n_significant_digits の rdoc 用コメントのサンプルで呼び出すメソッド名が scale や precision に間違えられてたのを修正しています。
