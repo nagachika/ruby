@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の check_rounding_mode() という関数で丸めモードの Symbol から内部の定数への変換を if 分でやってたのを配列の線形探索に置き換えています。
