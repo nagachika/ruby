@@ -1,0 +1,1 @@
+c0735d1d72aeeed777a233831c6a5208edadc2dc における rubyspec の拡張ライブラリ bigdecimal のテストの追随が全バージョンで同じ変更になってたため古い ruby では逆に失敗してしまう状態だったので ruby_version_is による guard を追加しています。
