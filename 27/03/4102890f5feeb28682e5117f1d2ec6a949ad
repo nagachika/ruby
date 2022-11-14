@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の GetPrecisionInt() という関数を check_int_precision() と改名して VALUE の幅に応じて整数オブジェクトの変換に NUM2LONG() や NUM2LL() など適切なマクロを利用するようにしています。
