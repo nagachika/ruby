@@ -1,0 +1,1 @@
+80bab6c8eddbb225c88155f2eb456a4d937294c7 と同様に MJIT の ruby 実装から C の Object Shapes のビットフラグの定数マクロにアクセスするための binding も tool/mjit/bindgen.rb で生成するように書きかえています。
