@@ -1,0 +1,1 @@
+YJIT の Rust 実装の gen_branch() という関数の未使用の引数を削除しています。 https://github.com/ruby/ruby/pull/6714
