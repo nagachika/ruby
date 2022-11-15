@@ -1,0 +1,1 @@
+GitHub Actions の workflow .github/workflows/scorecards.yml で利用している actions/upload-artifact というアクションのバージョンを更新しています。
