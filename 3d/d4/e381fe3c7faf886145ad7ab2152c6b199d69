@@ -1,0 +1,1 @@
+vm.c の jit_exec() で MJIT と YJIT どちらが有効になってるかで preprocessor 分岐していたのをやめています。 https://github.com/ruby/ruby/pull/6722
