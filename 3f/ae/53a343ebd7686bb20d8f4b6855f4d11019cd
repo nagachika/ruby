@@ -1,0 +1,1 @@
+revision.h の再生成のためのルールで tarball のパッケージからビルドする時に BASERUBY がないとビルドエラーになっていたのを修正しています。 no_baseruby が yes の時にソースディレクトリやビルドディレクトリの revision.h のターゲットに余計な文字を付加して無効なターゲットにして、単に touch で revision.h を更新するほうにしているようです。 [ruby-core:110722] [Bug #19127]
