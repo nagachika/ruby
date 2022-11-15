@@ -1,0 +1,1 @@
+mjit.h の mjit_func_t という関数ポインタの型を jit_func_t に改名しています。
