@@ -1,0 +1,1 @@
+YJIT の Rust 実装で stats_alloc というパッケージを利用して、メモリ使用の統計情報を --yjit-stats の出力に含めるようにしているようです。 https://github.com/ruby/ruby/pull/6712
