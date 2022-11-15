@@ -1,0 +1,1 @@
+common.mk、defs/gmake.mk、template/GNUmakefile.in で make check などのテスト用のターゲットでその中のターゲットを GNU Make の時だけ? .WAIT というダミーのターゲットで区切るようにしています。並列テストに関連した hack のようですがよくわからず。
