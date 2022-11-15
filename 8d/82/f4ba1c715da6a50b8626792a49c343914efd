@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal に 802dce4acd97234bef88fe4bbb98db5ab90c45d9 で追加していた BigDecimal の 0 や 1 のオブジェクトを生成する特別な関数 rbd_allocate_struct_zero() や rbd_allocate_struct_one() に limit_precision という引数を追加して、さらに NewZero()/NewOne()/NewZeroLimited()/NewOneLimited()/NewZeroNolimit()/NewOneNolimit() といった wrapper マクロ定義も追加しています。
