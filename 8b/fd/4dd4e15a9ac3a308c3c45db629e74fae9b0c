@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の TypeError, ArgumentError を Module#extend で拡張するのを Exception#detailed_message が実装されている時だけ実行するようにしています。古い ruby の対応のため。
