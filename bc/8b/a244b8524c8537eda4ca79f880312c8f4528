@@ -1,0 +1,1 @@
+2b8191bdad7545b71f270d2b25a34cd2b3afa02f で TracePoint を利用した時の trace 版命令への変換による YJIT のコンパイル済みコードの破棄の条件を絞った変更で、TracePoint の disable/enable を呼び出した時にもチェックが必要だったのに対応しているみたいです。 https://github.com/ruby/ruby/pull/6719
