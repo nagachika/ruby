@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight のテストでも 8bfd4dd4e15a9ac3a308c3c45db629e74fae9b0c の変更に追随して ErrorHighlight::CoreExt が追加されていない例外クラスを使ったテストは skip するようにしています。
