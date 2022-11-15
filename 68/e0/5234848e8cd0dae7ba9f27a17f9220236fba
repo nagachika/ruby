@@ -1,0 +1,1 @@
+未使用になっていた MJIT 用の debug counters の定義や increment する処理を削除しています。
