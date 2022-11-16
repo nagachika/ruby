@@ -1,0 +1,1 @@
+MJIT と YJIT  で USE_RVARGC というマクロを参照できるようにそれぞれ ruby や Rust に expose していたのを消しています。
