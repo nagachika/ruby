@@ -1,0 +1,1 @@
+shape.c の未使用になってた関数 rb_shape_transition_shape() を削除しています。
