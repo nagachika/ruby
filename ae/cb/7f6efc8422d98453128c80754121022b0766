@@ -1,0 +1,1 @@
+同じく irb の config の設定に USE_RELINE が指定された時にも警告で USE_MULTILINE を使うようにメッセージを出力しています。
