@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で古い ReidlineInputMethod というクラス名を使っているところが残っていたのを RelineInputMethod に変更しています。
