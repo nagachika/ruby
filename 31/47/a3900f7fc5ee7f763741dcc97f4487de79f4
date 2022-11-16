@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal に追加した rbd_allocate_struct_{zero,one}_*() などの inline 関数が未使用のため警告が出ていたのを抑制するため MAYBE_UNUSED() マクロによる宣言を追加しています。
