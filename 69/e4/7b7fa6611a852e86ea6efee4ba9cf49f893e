@@ -1,0 +1,1 @@
+MJIT の ruby 実装のための binding で ROBJECT_EMBED_LEN_MAX という定数の対応を削除しています。
