@@ -1,0 +1,1 @@
+GitHub Actions で dependabot に GitHub Actions の workflow 内の actions のバージョン更新をさせているところで necojackarc/auto-request-review という action の更新を対象から外していたのをやめています。末尾のコメントが更新されないので除外していたけど dependabot が対応したらしいのでそれを試してみるみたいです。
