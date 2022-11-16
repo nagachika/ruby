@@ -1,0 +1,1 @@
+common.mk の make clean-local ターゲットで yjit/target というディレクトリも削除するようにしています。
