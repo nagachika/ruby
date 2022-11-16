@@ -1,0 +1,1 @@
+irb のテスト用に test/irb/helper.rb で IRB::InputMethod の空のクラスを定義しておくようにしています。1eae15142f0fd9e5285e3d685bb1448f0f441b1c で TestInputMethod の定義を移動した時に irb が require されずに呼ばれる可能性が出てきたためだと思われます。
