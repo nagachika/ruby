@@ -1,0 +1,1 @@
+MJIT 用のオプション --mjit-min-calls を --mjit-call-threshold に改名しています。 https://github.com/ruby/ruby/pull/6731
