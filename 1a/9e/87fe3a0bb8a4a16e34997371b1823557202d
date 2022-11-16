@@ -1,0 +1,1 @@
+MJIT の ruby 実装のための C binding で構造体 rb_method_definition_struct の type フィールドの型を rb_method_type_t として扱っていたのを実体に合わせて BitField クラスで扱うようにしています。また BitField クラスが幅 1 のビットフィールドにしか対応していなかったので複数ビットにも対応して整数(ビットパターン)を返すようにしています。
