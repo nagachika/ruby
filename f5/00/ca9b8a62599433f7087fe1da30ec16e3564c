@@ -1,0 +1,1 @@
+MJIT のコンパイル処理のメインの lib/mjit/compiler.rb で NotImplementedError を補足するために rescue に Exception を明示して全ての例外を補足するようにしています。
