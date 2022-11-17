@@ -1,0 +1,1 @@
+Symbol#to_sym と Symbol#intern という self を返すだけのメソッドを ruby 実装に移動しています。おそらく JIT コンパイルした時に inline 最適化が効くように。なお従来は to_sym と intern は同じ C 関数を実体に持つ別の method entry でしたが intern を to_sym の alias として定義するように変更しています。 https://github.com/ruby/ruby/pull/6683
