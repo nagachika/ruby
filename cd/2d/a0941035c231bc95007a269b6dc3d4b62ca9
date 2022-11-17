@@ -1,0 +1,1 @@
+lib/mjit/c_pointer.rb で BitField#*  の実装で if 文の分岐内の共通部分を if の前に括り出すリファクタリング。
