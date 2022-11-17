@@ -1,0 +1,1 @@
+YJIT のメソッド再定義時の JIT コンパイルしたコードの破棄を行う処理の実装をリファクタリング? しているようです。 https://github.com/ruby/ruby/pull/6734
