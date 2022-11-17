@@ -1,0 +1,1 @@
+YJIT の x86_64 アーキテクチャで VALUE が 32bit の環境? でも 64bit 整数としてオペランドに埋め込むようにしているみたいです。よくわかりませんが code GC のため? https://github.com/ruby/ruby/pull/6733
