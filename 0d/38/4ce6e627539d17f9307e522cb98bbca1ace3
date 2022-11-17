@@ -1,0 +1,1 @@
+YJIT の --yjit-stats の統計情報に JIT コンパイルしたコード領域に使ったメモリ量の項目を追加しています。 https://github.com/ruby/ruby/pull/6736
