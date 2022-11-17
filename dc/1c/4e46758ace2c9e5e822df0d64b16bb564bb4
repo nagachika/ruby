@@ -1,0 +1,1 @@
+ext/extmk.rb で生成する Makefile の clean ターゲットに exts.mk と拡張ライブラリのビルド用のディレクトリ? の削除も追加しています。
