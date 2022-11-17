@@ -1,0 +1,1 @@
+tool/update-deps で revision.h を VPATH 経由のファイルパス解決する対象にして common.mk の依存関係を更新しています。
