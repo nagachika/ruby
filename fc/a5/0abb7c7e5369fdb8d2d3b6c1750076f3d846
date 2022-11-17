@@ -1,0 +1,1 @@
+MJIT 用の C binding のコード生成をする make mjit-bindgen で $(XRUBY) を利用して実行するようにしていたのを BASERUBY を利用するように変更しています。 mjit-bindgen はパッケージ作成時に行なう(tarball には成果物が入る)んでしたっけ? https://github.com/ruby/ruby/pull/6740
