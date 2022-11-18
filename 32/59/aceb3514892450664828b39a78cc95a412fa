@@ -1,0 +1,1 @@
+YJIT の Rust 実装の BlockId と CodePtr という構造体に repr(packed) を指定してメモリレイアウトを詰めるようにしています。 https://github.com/ruby/ruby/pull/6748
