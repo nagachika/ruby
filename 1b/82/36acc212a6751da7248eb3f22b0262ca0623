@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で出力する統計情報に compiled_branch_count という項目を追加しています。 https://github.com/ruby/ruby/pull/6746
