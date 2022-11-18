@@ -1,0 +1,1 @@
+tool/update-deps で ruby 実装の組み込みメソッドを取り込むための依存関係が .rbinc と .rb と両方になっていたのを .rbinc ファイルのみ出力するようにして、common.mk の依存関係を再生成しています。
