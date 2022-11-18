@@ -1,0 +1,1 @@
+Windows 環境で readlink(2) のエミュレーションのための独自実装を持っていたのを削除して file.c の標準の rb_readlink() (readlink(2) を呼ぶ)を利用するように変更しています。 Encoding の関係で独自実装が必要だったけど 3.0 以降では Windows 環境でのデフォルトの Encoding を UTF-8 に変更したためもう独自実装が不要になったということみたいです。 https://github.com/ruby/ruby/pull/6745
