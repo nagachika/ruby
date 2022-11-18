@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の ruby 2.5 をサポートするための処理を削除して gemspec の require_ruby_version も更新しています。
