@@ -1,0 +1,1 @@
+YJIT の Rust 実装で C の rb_callable_method_entry_t という構造体を wrap した CmeDependency という構造体を定義していたのをやめて直接型として定義した CmePtr を利用するようにリファクタリングしています。 https://github.com/ruby/ruby/pull/6747
