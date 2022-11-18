@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Vec の shrink_to_fit() を呼び出してサイズを切り詰める処理を追加しています。 https://github.com/ruby/ruby/pull/6749
