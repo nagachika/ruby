@@ -1,0 +1,1 @@
+ruby -v で出力する RUBY_DESCRIPTION の内容に YJIT のビルド時のオプションについても出力するようにしています。 https://github.com/ruby/ruby/pull/6738
