@@ -1,0 +1,1 @@
+tool/generic_erb.rb の未使用変数の警告抑制のため ERB#result のかわりに ERB#result_with_hash を利用して erb に渡す変数を Binding 経由で暗黙のうちに渡すのではなく明示的に指定するようにしています。
