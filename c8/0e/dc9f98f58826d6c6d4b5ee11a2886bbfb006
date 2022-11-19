@@ -1,0 +1,1 @@
+YJIT の --yjit-stats の出力項目に object_shape_count というのを追加しています。Object Shapes で管理している全オブジェクトの shape (インスタンス変数の集合)の種類の数のようです。 https://github.com/ruby/ruby/pull/6754
