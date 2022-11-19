@@ -1,0 +1,1 @@
+Windows 環境での拡張ライブラリ socket の UNIXSocket の対応を追加しています。 Windows なのに UNIX socket 使えるの? と思いましたが普通に socket(2) に AF_UNIX を渡す実装をしてるので最近の Windows だとサポートされているみたいですね。 [ruby-core:110800] [Feature #19135]
