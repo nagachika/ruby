@@ -1,0 +1,1 @@
+YJIT の C 実装のメソッド起動でまれに不正アクセスが起きる可能性があった不具合を修正しています。  https://github.com/ruby/ruby/pull/6752
