@@ -1,0 +1,1 @@
+ea8a7287e2b96b9c24e5e89fe863e5bfa60bfdda で追加した Windows 版での UNIXSocket のテストで未使用変数の警告を抑制するため不要な代入を削除しています。
