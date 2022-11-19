@@ -1,0 +1,1 @@
+inline 関数 RB_SPECIAL_CONST_P() 内で RB_TEST() を利用しているのをやめて RUBY_Qfalse との比較に戻して(?)います。 RB_TEST() は Qnil との比較も含んでいるので冗長なので結果は変わらないけどチェック内容を明確にするためとのこと。  https://github.com/ruby/ruby/pull/6759
