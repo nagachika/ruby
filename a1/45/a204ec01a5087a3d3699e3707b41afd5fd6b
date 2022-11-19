@@ -1,0 +1,1 @@
+Time.new の rdoc 用コメントの秒の指定に Float や Rational を渡すこともとできることを追記しています。
