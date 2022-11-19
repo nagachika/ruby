@@ -1,0 +1,1 @@
+正規表現エンジンの init_cache_index_table() という関数で OP_CCLASS_MB という命令(Onigmoは正規表現の処理のためのVMが存在しているのでそのVMの命令?)の対応が抜けていたのを修正。
