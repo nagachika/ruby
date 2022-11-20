@@ -1,0 +1,1 @@
+10788166e7e568fdcd0b748e8d5dab442dcdc7ef の Object Shapes の T_OBJECT 型オブジェクトの特別扱いに追随して rb_obj_copy_ivar() の RUBY_ASSERT() によるチェックを更新しています。
