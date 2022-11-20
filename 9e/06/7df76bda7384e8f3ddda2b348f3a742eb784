@@ -1,0 +1,1 @@
+Object Shapes の実装の YJIT に export するための rb_shape_flags_mask() という関数を削除してかわりに rb_shape_id_num_bits() を定義し 6582f34831cc665b2adcf7d475aceb9b918badb6 で改名した定数マクロ SHAPE_ID_NUM_BITS の値を返すようにし、YJIT で shape id を比較する時にこれを利用してレジスタを使わずに比較できるよう機械語を生成するように工夫しているようです。
