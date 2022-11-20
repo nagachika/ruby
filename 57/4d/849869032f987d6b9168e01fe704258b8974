@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb から minitest のテスト実行時に skip するテストの指定をしていたのを削除しています。 https://github.com/seattlerb/minitest/pull/880
