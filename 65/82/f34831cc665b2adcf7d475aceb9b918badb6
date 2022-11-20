@@ -1,0 +1,1 @@
+Object Shapes 実装の定数マクロ SHAPE_BITS を SHAPE_ID_NUM_BITS と改名しています。
