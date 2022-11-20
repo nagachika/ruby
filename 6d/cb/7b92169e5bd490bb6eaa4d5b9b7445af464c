@@ -1,0 +1,1 @@
+YJIT の Rust 実装で assertion で異常終了させる時のメッセージの改善。 https://github.com/ruby/ruby/pull/6769
