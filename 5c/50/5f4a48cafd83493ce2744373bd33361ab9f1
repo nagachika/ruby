@@ -1,0 +1,1 @@
+load.c の search_required() 内の goto に使うラベル名を改名しています。
