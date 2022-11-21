@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の rdoc 用コメントのサンプルコードの前提についての記述を doc/net-http/examples.rdoc という別のファイルに分離しています。
