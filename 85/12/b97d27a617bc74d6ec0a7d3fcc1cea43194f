@@ -1,0 +1,1 @@
+irb のテストのヘルパーメソッドで envutil.rb の require を追加しています。
