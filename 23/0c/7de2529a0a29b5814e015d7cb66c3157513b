@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream からの cherry-pick 時に差分内の rdoc 用コメントの https://docs.ruby-lang.org/en/ 配下へのリンクを rdoc-ref による相対リンクに置換する処理で git cherry-pick でコミットした状態だと git status で変更のあったファイルの一覧が取れないので一旦 git reset してコミットしてない状態に戻してから置換処理を実施して、あらためて cherry-pick 後の commit hash に戻してから追加の変更があった時だけ git commit --amend で変更の追加をするようにしています。これまでこの rdoc 用コメントの置換がされない状態だったと思われます。
