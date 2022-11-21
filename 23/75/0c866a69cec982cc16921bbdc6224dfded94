@@ -1,0 +1,1 @@
+irb の rdoc 用コメントで補完を有効にする方法として irbrc ファイルで require "irb/completion" を書くという方法が書かれてたのはデフォルトで有効になったので逆に無効にするために IRB.conf[:USE_AUTOCOMPLETE] を設定するという方法を記述しています。
