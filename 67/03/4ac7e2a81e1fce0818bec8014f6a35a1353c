@@ -1,0 +1,1 @@
+irb のテストの test/irb/helper.rb で require_relative "../lib/helper" するようにしていますがおそらくこれは upstream でのテスト時のためで ruby 同梱状態でのテストでは LoadError になるので捕捉して無視するようにしています。
