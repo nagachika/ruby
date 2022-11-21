@@ -1,0 +1,1 @@
+common.mk の test-spec-precheck の依存関係に fake.rb を追加しています。 rubyspec のテストに fake.rb に依存しているものがあるため。
