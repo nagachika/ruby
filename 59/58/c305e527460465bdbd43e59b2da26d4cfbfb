@@ -1,0 +1,1 @@
+irb の rdoc 用コメントと README.md に irb のコマンド一覧の記述を追加しています。 README.md のほうは irb の README への追記が sync 時に誤ってマージされちゃったのかな?
