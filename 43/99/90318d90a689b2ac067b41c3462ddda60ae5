@@ -1,0 +1,1 @@
+win32/win32.c の rtc_error_handler() という関数定義の MinGW での警告抑制のため RBIMPL_ATTR_NONNULL() と RBIMPL_ATTR_FORMAT() マクロによる修飾を追加しています。
