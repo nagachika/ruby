@@ -1,0 +1,1 @@
+166598a6eb0108d41874fd3dbe4d2c2af8cfea71 で common.mk に追加した outdate-bundled-gems ターゲットのコマンドで ruby スクリプトに渡す -e オプションでのスクリプトにダブルクオートを使ってたのをシングルクオートを使うようにしています。 nmake (というか Windows のシェル?)対応のため。
