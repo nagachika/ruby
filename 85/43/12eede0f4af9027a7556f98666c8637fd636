@@ -1,0 +1,1 @@
+parse.y で struct parser_params::delayed::token の存在チェックに has_delayed_token() というマクロを利用していないところがあったので利用するようにリファクタリングしています。
