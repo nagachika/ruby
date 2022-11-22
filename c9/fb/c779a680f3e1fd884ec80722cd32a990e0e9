@@ -1,0 +1,1 @@
+irb に debug.gem のデバッガ機能を利用するための組み込みコマンド break, next, step, continue, backtrace 等々を追加しています。 ba3b40a9aeb752d1b3e4c87748c977bfd3cf6f2c で debug コマンドで対応したのと同様に Gemfile に debug.gem が書かれてなくても自動的に bundled gem のぶんを読み込めるようにしてあるようです。
