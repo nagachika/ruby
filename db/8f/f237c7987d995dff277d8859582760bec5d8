@@ -1,0 +1,1 @@
+d8601621edcf29e3323b90dcf04b774edd9fb45e の RubyVM::AbstractSyntaxTree.parse_file のキーワード引数 keep_tokens 追加についての NEWS エントリのチケット番号をリンクにするための footnote の追加。 [ruby-core:110418] [Feature #19070]
