@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の OptionParser#load でファイルを読み込むのに IO.readlines を使ってたのを File.readlines に変更しています。
