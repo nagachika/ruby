@@ -1,0 +1,1 @@
+common.mk に make outdate-bundled-gems というターゲットを追加して .bundle/gems/ と .bundle/specifications/ のディレクトリや gemspec ファイルの対応する .gem パッケージファイルのないもの(古いもの?)を削除するようにしています。
