@@ -1,0 +1,1 @@
+rb_ec_cleanup() および error_handle() という関数の第2引数の型を int から enum ruby_tag_type に変更しています。
