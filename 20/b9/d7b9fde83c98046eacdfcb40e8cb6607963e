@@ -1,0 +1,1 @@
+pack.c の定数 UNPACK_ARRAY、UNPACK_BLOCK、UNPACK_1 などを定数マクロから enum による定義に変更するリファクタリング。
