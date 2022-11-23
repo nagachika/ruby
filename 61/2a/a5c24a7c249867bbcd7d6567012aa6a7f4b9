@@ -1,0 +1,1 @@
+mkmf.rb や ext/extmk.rb 各種 extconf.rb や tool/ の下のスクリプト群でも Kernel#open を使っていて引数がファイルとわかっているものは File.open を利用するようにしています。
