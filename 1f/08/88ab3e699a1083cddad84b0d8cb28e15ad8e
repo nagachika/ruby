@@ -1,0 +1,1 @@
+Object Shapes で generic_ivar_set() でインスタンス変数を追加する時に shape の情報を更新する時に冗長な探索の繰り返しをしないように get_next_shape_internal() 内で rb_shape_lookup_id() を呼び出していたのを消して generic_ivar_set() 内で最初に変更後の shape を探しておくようにしています。
