@@ -1,0 +1,1 @@
+rubyspec の C API のテスト用の拡張ライブラリコンパイルのために RbConfig::CONFIG['libdirname'] を参照するところで古い ruby のために fetch を使って設定されてない時にデフォルト値として "libdir" を利用するようにしています。mswin ではこの項目は設定されないためとのこと。
