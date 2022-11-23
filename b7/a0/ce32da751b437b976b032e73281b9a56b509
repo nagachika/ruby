@@ -1,0 +1,1 @@
+701dfe4eb741628213e4d701c13ad6d76904ac4f と 5b959e238e5b7c18d6a1a5f5d9b4b2063de628fe のさらに追加修正で process_options() でドップレベルのスクリプト実行のために rb_parser_set_context() の第3引数に常に TRUE を渡していたのをファイル指定でスクリプト実行する時には FALSE を渡して SyntaxError を発生させて syntax_suggest が有効になるようにしています。 [ruby-core:109995] [Bug #19016]
