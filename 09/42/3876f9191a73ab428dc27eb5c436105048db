@@ -1,0 +1,1 @@
+Object Shapes の実装で shape_id を埋め込むための flags のビット数をデバッグビルド時に 16 bits に制限していたのを shape_t の型に応じて 32bits 使えるようにしています。 5f95228c76e6f6994eb4149217fe3e38f9ff8a27 の変更もこれに絡んでたみたいですがデバッグビルド時に _ractor_belonging_id を flags から RVALUE 内に埋め込むようにしたので flags の余裕ができたので 32bit 使えるようになったということみたいです。なるほどそれが目的だったのか。
