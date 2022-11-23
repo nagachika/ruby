@@ -1,0 +1,1 @@
+インスタンス変数設定する obj_ivar_set() と vm_setivar_slowpath() という関数は似たようなことをしているけど微妙に異なっているので obj_ivar_set() を rb_obj_ivar_set() と改名して vm_setivar_slowpath() からもこの関数を再利用するようにリファクタリングしています。
