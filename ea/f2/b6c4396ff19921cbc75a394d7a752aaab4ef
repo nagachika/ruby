@@ -1,0 +1,1 @@
+pattern match の Hash パターンに Time オブジェクトを利用できるようにするため Time#deconstruct_keys メソッドの定義を追加しています。 :year, :month, :day などの項目ごとの値に分解した Hash を返すようです。 [ruby-core:110422] [Feature #19071]
