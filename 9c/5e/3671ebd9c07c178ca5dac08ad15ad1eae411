@@ -1,0 +1,1 @@
+T_CLASS 型のオブジェクト(つまりクラス)に initialize メソッドを定義する時に initialize 内で初期化するインスタンス変数を ISeq を解析することで推測して struct rb_classext_t::max_iv_count にセットしておくことでそのクラスのインスタンスが持つインスタンス変数の数を事前に推定しておくことで後で拡張の必要を減らす最適化。 https://github.com/ruby/ruby/pull/6788
