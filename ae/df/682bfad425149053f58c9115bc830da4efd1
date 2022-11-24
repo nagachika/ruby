@@ -1,0 +1,1 @@
+9c5e3671ebd9c07c178ca5dac08ad15ad1eae411 でクラスの initialize メソッド定義時にインスタンス変数の数を推定する処理を実装した関数 rb_estimate_iv_count() で関数内で確保した struct rb_id_table をの解放が漏れていてメモリリークしていたので修正しています。
