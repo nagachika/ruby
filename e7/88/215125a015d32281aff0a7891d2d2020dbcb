@@ -1,0 +1,1 @@
+RubyVM.stat が返す項目に :next_shape_id を追加して Object Shapes で管理している shape 数を取れるようにしています。
