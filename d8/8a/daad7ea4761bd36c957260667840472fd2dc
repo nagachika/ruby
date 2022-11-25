@@ -1,0 +1,1 @@
+YJIT の Rust 実装で VirtualMem の開始アドレス region_start に渡すポインタに std::ptr::NonNull を利用するようにしています。名前的に null でないことを保証するということなんでしょうね。 https://github.com/ruby/ruby/pull/6792
