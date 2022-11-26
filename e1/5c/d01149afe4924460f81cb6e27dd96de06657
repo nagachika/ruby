@@ -1,0 +1,1 @@
+GitHub Actions の workflow で使う actions/checkout と actions/cache などのアクションのバージョン指定をタグ名でなく commit hash での指定に変更しています。 StepSecurity というサービス? の bot による変更みたいですね。
