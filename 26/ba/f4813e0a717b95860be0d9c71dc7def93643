@@ -1,0 +1,1 @@
+NEWS に c6330cd32b7d02b4603080a2c53d64be9e05773c での FileUtils#ln_sr と FileUtiulr#ln_s への relative キーワード引数の追加について追記しています。 [ruby-core:109241] [Feature #18925]
