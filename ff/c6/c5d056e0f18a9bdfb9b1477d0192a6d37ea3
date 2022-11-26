@@ -1,0 +1,1 @@
+Enumerator::Lazy#take に 0 を渡した時にその後に chain したメソッドによっては誤って最初の要素が yield されてしまっていた不具合を修正しています。 Enumerator::Lazy#take の実装のコールバックに size が 0 でないかをチェックする処理を挿入しています。 [ruby-core:109636] [Bug #18971]
