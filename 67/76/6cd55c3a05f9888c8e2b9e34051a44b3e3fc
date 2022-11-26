@@ -1,0 +1,1 @@
+dubugger のための拡張ライブラリから利用するための C API rb_debug_inspector_frame_depth() と rb_debug_inspector_current_depth() を追加しています。 https://github.com/ruby/ruby/pull/6805
