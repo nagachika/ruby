@@ -1,0 +1,1 @@
+文字列などを要素とする beginless range の Range#include? の判定で文字列用の考慮がされていなくて誤った判定になっていたのを修正しています。 [ruby-core:107547] [Bug #18580]
