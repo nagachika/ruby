@@ -1,0 +1,1 @@
+String#rstrip と String#lstrip で Encoding に対して不正なバイト列を含む文字列があった時に #lstrip は ArgumentError を発生させるのに #rstrip は空白で囲まれていた場合に無視して削っていたのを修正して例外を発生させるようにしています。 また発生させる例外を Encoding::CompatibilityError に変更しています。けどこれ String#rstrip だけ例外クラスを変更していて #lstrip は ArgumentError を発生するままみたいですね。 [ruby-core:109264] [Bug #18931]
