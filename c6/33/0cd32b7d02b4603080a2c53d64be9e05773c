@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils にディレクトリ内のファイルの symbolic link を作成する FileUtils#ln_sr を追加しています。また FileUtils#ln_s にキーワード引数 relative を追加して dest をディレクトリ名としてそれに src の basename を追加した名前で symbolic link を作ることができるようにしています。 [ruby-core:109241] [Feature #18925]
