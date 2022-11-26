@@ -1,0 +1,1 @@
+標準添付ライブラリ erb に dc5d06e9b145f7d5f8c5f7c3757b43f2d68833fd で追加した escape 用の拡張ライブラリを erb.so から erb/escape.so という名前に変更(移動)しています。
