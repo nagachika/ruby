@@ -1,0 +1,1 @@
+同じく eval_error.c の rb_ec_error_print_detailed() で引数に volatile 修飾子をつけていたのは効果がないとのことで volatile 修飾子つきのローカル変数に引数を代入して利用するように変更しています。 [ruby-core:110873] [Bug #19145]
