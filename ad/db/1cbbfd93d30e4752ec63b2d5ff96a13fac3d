@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の拡張ライブラリで定義するメソッドを ERB::Util#html_escape を module_function として定義するようにしています。いずれにせよ後で lib/erb/util.rb で module_function で修飾されてましたが拡張ライブラリだけを直接 require しても module_function になるよう rb_define_module_function() で定義するように変更しています。
