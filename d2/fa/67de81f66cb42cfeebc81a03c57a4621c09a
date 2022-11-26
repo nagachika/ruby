@@ -1,0 +1,1 @@
+YJIT の実装内の InsnOpnd を YARVOpnd と改名して VM (YARV) のほうの命令のオペランドを表していることがより明確になるようにしています。 https://github.com/ruby/ruby/pull/6801
