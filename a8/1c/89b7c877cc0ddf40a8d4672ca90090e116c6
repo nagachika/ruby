@@ -1,0 +1,1 @@
+configure 時に YJIT のための rustc の存在とバージョン要求のチェックをする時に target_arch の指定も含めてチェックするようにしています。rust のツールチェインと ruby のビルド時のターゲットとしているアーキテクチャが食い違っている時に明示的なエラーを出すため。 https://github.com/ruby/ruby/pull/6804 [ruby-dev:51204] [Bug #19146]
