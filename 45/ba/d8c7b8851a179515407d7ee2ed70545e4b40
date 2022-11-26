@@ -1,0 +1,1 @@
+eval.c の rb_ec_cleanup() 内の変数 mode0、mode1 の定義に volatile 修飾子を追加しています。 EC_EXEC_TAG() で setjmp()/longjmp() で大域脱出してくる可能性があるブロックなので必要なのだと思います。
