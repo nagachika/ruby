@@ -1,0 +1,1 @@
+標準添付ライブラリ erb のファイル構成を変更して lib/erb.rb から lib/erb/compiler.rb, lib/erb/def_method.rb, lib/erb/util.rb などクラス/モジュール定義を分割しています。
