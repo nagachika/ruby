@@ -1,0 +1,1 @@
+NEWS に RubyVM::AbstractSyntaxTree.parse などの error_tolerant キーワード引数の利用サンプルを追記しています。
