@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems の更新をチェックする workflow .github/workflows/bundled_gems.yml で NEWS 内のバージョンリストの記法の変更に追随する正規表現の変更。
