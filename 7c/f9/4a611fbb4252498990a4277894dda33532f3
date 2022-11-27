@@ -1,0 +1,1 @@
+GitHub Actions の workflow .github/workflows/check_misc.yml のほうでも 6bd86bb2afdce52dc6563d444cf488307767b9d3 と同様の NEWS の整形の変更に追随する変更をしています。なるほど 6bd86bb2afdce52dc6563d444cf488307767b9d3 の変更のせいじゃなくて d0bb24c497ceae01cc7b7698365982303e3ea24d における NEWS の空行追加に対する対応が漏れていたのが原因だったみたいですね。
