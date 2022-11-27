@@ -1,0 +1,1 @@
+MJIT の setinstancevariable 命令に対応する C のコード生成部分の Object Shapes に関する最適化パスが railsbench で異常終了するとのことでひとまず削除しているようです。
