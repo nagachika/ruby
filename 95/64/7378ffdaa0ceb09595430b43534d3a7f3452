@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream からのマージの時にコミットログを変換する時の issue/pull request の番号の参照を変換する時にサポートする記法に close #nnn のような書きかたも追加しています。
