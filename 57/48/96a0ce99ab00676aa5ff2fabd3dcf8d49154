@@ -1,0 +1,1 @@
+標準添付ライブラリ erb で拡張ライブラリによる html_escape メソッドの定義を ERB::Util から ERB::Escape というモジュールに定義するように変更して ERB::Util には lib/erb/util.rb でこのモジュールを include するように変更しています。
