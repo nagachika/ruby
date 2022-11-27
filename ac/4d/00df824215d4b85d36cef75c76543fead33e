@@ -1,0 +1,1 @@
+MJIT 用のコマンドラインオプション --mjit-max-cache のデフォルト値の定数 DEFAULT_MAX_CACHE_SIZE を 10000 から 100 に減らしています。
