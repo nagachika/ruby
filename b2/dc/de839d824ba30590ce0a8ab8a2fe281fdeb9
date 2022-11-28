@@ -1,0 +1,1 @@
+MJIT の ruby 実装の mjit_compiler.rb を mjit.rb に一体化しています。
