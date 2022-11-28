@@ -1,0 +1,1 @@
+標準添付ライブラリ erb で拡張ライブラリによる html_escape を使わない条件として JRuby だけでなく Truffleruby も含めるようにしています。
