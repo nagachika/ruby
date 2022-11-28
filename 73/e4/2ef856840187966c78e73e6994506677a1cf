@@ -1,0 +1,1 @@
+lib/mjit/compiler.rb の RubyVM::MJIT::Compiler.compile_insn_entry の rescue 節を削除しています。呼び元のほうで rescue しているから不要とのこと。
