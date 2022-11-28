@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテストで 571d21fd4a2e877f49b4ff918832bda9a5e8f91c で String#rstrip で不正なバイト列に対して発生させる例外を Encoding::CompatibilityError に変更したのに追随した変更をしていましたが古い ruby では ArgumentError が発生するのでバージョンで分岐するようにしています。default gems になっているので gem としてのテスト時には古い ruby で実行することもあるので。
