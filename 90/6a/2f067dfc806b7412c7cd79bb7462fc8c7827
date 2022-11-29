@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で 5a171ee4c05c0ed20ac4b4632e54b23717d5fe16 で Module 化したので FileUtils の extend も追加しています。
