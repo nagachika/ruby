@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の全体をモジュールとして定義して  tool/test/test_sync_default_gems.rb にこのツールのコミットログの変換まわりのテストを追加しています。
