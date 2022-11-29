@@ -1,0 +1,1 @@
+MJIT の invokebuiltin、opt_invokebuiltin_delegate、opt_invokebuiltin_delegate_leave 命令の実装で共通部分を括り出すリファクタリング。
