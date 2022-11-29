@@ -1,0 +1,1 @@
+Regexp#initialize の timeout のテストで CI で失敗することがあるのでタイムアウトをのばしています。
