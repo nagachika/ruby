@@ -1,0 +1,1 @@
+lib/mjit/compiler.rb のコメントの削除や Module#private の呼び出し位置の変更など。
