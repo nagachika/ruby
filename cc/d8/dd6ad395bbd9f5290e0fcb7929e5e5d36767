@@ -1,0 +1,1 @@
+MJIT の ruby 実装部分の RubyVM::MJIT::Compiler を Module から Class にしています。 Solargraph という ruby の Language Server Protocol の実装でうまく認識されるようにするためだそうです。
