@@ -1,0 +1,1 @@
+GitHub Actions の MJIT のテストのための workflow でコマンドラインオプションに --mjit と --mjit-wait とどちらかを付けたテストを流していたのを --mjit-wait のほうだけ流すようにしています。
