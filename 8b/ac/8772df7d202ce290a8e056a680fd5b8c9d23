@@ -1,0 +1,1 @@
+GitHub Actions の workflow に permissions の設定を追加しています。 595f3063f01ce25122b6d1ae452720b0ec58e86d で StepSecurity がしたのと同様の変更ですが一部の workflow しか変更してくれなかったようなので残りも手動で追加したみたいです。
