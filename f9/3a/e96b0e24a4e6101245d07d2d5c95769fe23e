@@ -1,0 +1,1 @@
+GitHub Actions の MJIT のテストのための workflow で make test-all の実行するアクションをコメントアウトしています。
