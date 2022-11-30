@@ -1,0 +1,1 @@
+aacaa2ec5e13d7d678b58208bf3d6c0551f251cd の続きで outdate-bundled-gems に依存するのを extract-gems から prepare-gems に変更しています。また defs/gmake.mk で make の関数定義? を利用したリファクタリングをしているようです。GNU make にはこんな機能があるのか。
