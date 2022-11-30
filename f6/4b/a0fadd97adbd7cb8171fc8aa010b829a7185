@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest で "Syntax OK" というメッセージを出力する箇所を SyntaxSuggest::Cli クラスのメソッドに移動しています。誤って文法エラーのあるスクリプトに対してもメッセージが出てしまうケースがあったみたいです。 https://github.com/ruby/syntax_suggest/pull/157
