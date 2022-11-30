@@ -1,0 +1,1 @@
+node.h の構造体 struct rb_args_info の ruby2_keywords という bit field がもう実効的な利用をされていなかったので削除しています。
