@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse でエラー時に例外発生するかわりに Kernel#throw による大域脱出をするように指定する raise_unknown オプションを追加しています。
