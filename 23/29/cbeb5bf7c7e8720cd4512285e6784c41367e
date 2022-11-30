@@ -1,0 +1,1 @@
+MJIT で対象の ISeq に getinstancevariable や setinstancevariable が存在するか(インスタンス変数へのアクセスがあるか)を検出して inline cache の更新時に再コンパイルするための処理を FL_EXIVAR というフラグが立っている T_OBJECT 以外の型のオブジェクトについても T_OBJECT についてと同様の処理にして専用の構造体メンバーをひとつ削除しています。差分の 2つめの goto のラベルは exivar_cancel に変更しなくてもいいのかな?
