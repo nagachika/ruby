@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.parse のテストで m(...) のように委譲用の引数受け取りをするメソッド定義を parse した結果の RubyVM::AbstractSyntaxTree::Node の AST に "*", "**", "&" などの無名引数用のノードが含まれてることを確認するテストを追加しています。
