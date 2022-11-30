@@ -1,0 +1,1 @@
+common.mk に update-src というターゲットでビルドディレクトリやソースディレクトリの revision.h を削除して空の revision.h をソースディレクトリに作成するようにしています。
