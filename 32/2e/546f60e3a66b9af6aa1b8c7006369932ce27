@@ -1,0 +1,1 @@
+mjit_c.h の構造体 struct compile_status のメンバー max_ivar_index というのももう不要になっていたので削除しています。
