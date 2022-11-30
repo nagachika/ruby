@@ -1,0 +1,1 @@
+8e18761da1932df88bfb6505acbda4740e1b2930 で revert された MJIT の Solargraph という LSP ツール対応のリファクタリングのリトライ。 CI の失敗は変更したクラスの GC mark 漏れだったようでそこを修正しています。 https://github.com/ruby/ruby/pull/6827
