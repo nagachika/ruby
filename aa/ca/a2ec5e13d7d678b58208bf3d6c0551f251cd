@@ -1,0 +1,1 @@
+166598a6eb0108d41874fd3dbe4d2c2af8cfea71 で追加した make outdate-bundled-gems というターゲットの処理を修正して MFLAGS をみて dry-run に対応したり削除する条件をもっと細かくチェックするようにしたうえで make extract-gems した時に自動的に古い bundled gems の展開ディレクトリ削除を実施するようにしています。
