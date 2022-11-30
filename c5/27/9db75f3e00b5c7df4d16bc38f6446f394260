@@ -1,0 +1,1 @@
+irb の組み込みコマンド debug で debug.gem を Gemfile に debug が書かれてなくてもロードするための処理に debug の拡張ライブラリのパスも $LOAD_PATH に追加するようにしています。
