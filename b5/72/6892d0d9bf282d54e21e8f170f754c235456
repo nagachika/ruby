@@ -1,0 +1,1 @@
+bundled gems の rbs の gems/bundled_gems の指定に commit hash を追加しています。 4fc668a4f3b9b67cc7566096ab55cab34c67c158 の変更に追随するために rbs の更新が必要だったようです。 [ruby-dev:51203] [Feature #19134]
