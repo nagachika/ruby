@@ -1,0 +1,1 @@
+common.mk の outdate-bundled-gems のコマンド部分が長くなってたので tool/outdate-bundled-gems.rb というスクリプトに切り出しています。
