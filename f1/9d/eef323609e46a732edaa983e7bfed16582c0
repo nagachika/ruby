@@ -1,0 +1,1 @@
+mjit_compiler.c の C で実装していた builtin_compile() や has_cache_for_send() といった関数を定義して Primitive を拡張していた(?)のを mjit_c.rb で Primitive を利用した ruby 実装に移植しています。
