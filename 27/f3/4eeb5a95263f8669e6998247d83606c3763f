@@ -1,0 +1,1 @@
+MJIT の ruby 実装で Primitive を使って C の関数呼び出しを埋め込む時に Primitive.cexpr! でなく Primitive.cstmt! を使って必要な関数の extern 宣言も局所的に含めるようにして mjit_compiler.c でそのための extern 宣言していたのを削除しています。
