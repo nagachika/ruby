@@ -1,0 +1,1 @@
+mjit.c にグローバル変数 rb_cMJITIseqPtr というのを宣言して mjit_compile() でコンパイル対象として渡された rb_iseq_t * のポインタを wrap した RubyVM::MJIT の C の型に対応したクラスのインスタンスを格納しておいてこれを rb_gc_register_mark_object() で GC の mark 対象にして解放されないように保護しています。wrap したオブジェクトを作るのは以前から行なわれていましたが毎回 rb_iseq_t 型に対応するクラスを rb_funcall() で取得していたのを起動時に 1回行なって使いまわすように最適化しています。
