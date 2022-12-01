@@ -1,0 +1,1 @@
+YJIT の実装で割り込みチェックのコード生成部分で rb_execute_context_t::interrupt_flag と interrupt_mask をビットマスクをかけてチェックしていたのをやめて interrept_flag のみみるようにしています。 https://github.com/ruby/ruby/pull/6825
