@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL のチェックを実行する workflow に workflow_dispatch 設定を追加して手動で起動できるようにしています。
