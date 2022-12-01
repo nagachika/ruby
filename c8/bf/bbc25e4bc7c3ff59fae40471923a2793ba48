@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp の rdoc 用コメントから実際には機能していない resolve_timeout のオプションの記述を削除しています。 [ruby-core:99766] [Feature #17134]
