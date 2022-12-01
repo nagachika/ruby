@@ -1,0 +1,1 @@
+NEWS に Exception#detailed_message の追加と捕捉されない例外での扱いについて追記しています。 [Feature #18564]
