@@ -1,0 +1,1 @@
+mjit_compiler.c を mjit_c.c にファイル名変更しています。昨日もあったような気がしたけど昨日のはヘッダーファイル(mjit_compiler.h → mjit_c.h) でしたね。 acb76663ba20241e7c2552aafae8b1d883520b9a ついでに(?) mjit_compile() 関数の定義を mjit.c に移動しています。
