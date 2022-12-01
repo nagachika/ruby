@@ -1,0 +1,1 @@
+irb の IRB::ExtendCommand::Ls#execute の戻り値を nil に変更しています。
