@@ -1,0 +1,1 @@
+tool/ruby_vm/views/mjit_compile_attr.inc.erb を tool/ruby_vm/views/mjit_sp_inc.inc.erb に改名しこのテンプレートから生成される .inc ファイルも同様に改名しています。
