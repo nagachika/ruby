@@ -1,0 +1,1 @@
+Array#pack や String#unpack に渡される指示子の文字列は ASCII 互換な Encoding でなかったら Encoding::CompatibilityError 例外を発生させるようにしています。 [ruby-core:110636] [Bug #19108]
