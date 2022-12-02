@@ -1,0 +1,1 @@
+4b9d10b8330b5072993f2c32eaf701c5c1aa7e55 の追加修正で superclass が 0(Qfalse) または Qnil というのは RTEST() マクロに置き換えることができるので置換しています。 https://github.com/ruby/ruby/pull/6832
