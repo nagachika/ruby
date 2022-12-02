@@ -1,0 +1,1 @@
+YJIT の Integer#== と Integer#===  メソッドのコンパイルに専用のコード生成の実装を追加して最適化しています。両辺 Fixnum だった時に即値なので直接機械語での比較をするようにしているようです。 https://github.com/ruby/ruby/pull/6838
