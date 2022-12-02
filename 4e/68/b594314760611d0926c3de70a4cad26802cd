@@ -1,0 +1,1 @@
+例外クラス SyntaxError に SyntaxError#path メソッドを追加して構文エラーが発生したスクリプトのファイル名を返すようにしています。 [ruby-core:110828] [Feature #19138]
