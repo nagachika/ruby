@@ -1,0 +1,1 @@
+Thread local storage の Fiber 版みたいなのを追加しています。なんか結構昔に追加していたような気がしたけど過去に何度かチケットが作成されて提案はあったもののまだ入ってなかったようです。実装としては rb_execution_context_t のメンバーに VALUE 型の storage メンバが追加されて Fiber ごとの ec からこれに Hash オブジェクトを入れて利用するようです。割とシンプルな方法ですね。 https://github.com/ruby/ruby/pull/6612 [ruby-core:110481] [Feature #19078]
