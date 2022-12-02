@@ -1,0 +1,1 @@
+Struct や Data のインスタンス変数参照の実装 struct_ivar_get() で親クラスを辿った時に Qnil がかえってくるケースを許容するように条件を追加しています。 RCLASS_SUPER() マクロではなく rb_class_superclass() という関数を利用するようになっていてこれは Qnil を返すケースがあるみたいです。実際どんな時かなと思ってみてみたんですが BasicObject の時くらいしかわかりませんでいした。実際に発生することあるのかな。GitHub をみると Marshal.load から不正な? オブジェクトがロードされた時みたいですね。 https://github.com/ruby/ruby/pull/6832
