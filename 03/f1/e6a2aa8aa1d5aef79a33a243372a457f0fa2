@@ -1,0 +1,1 @@
+YJIT の Rust 実装で IseqPayload::pages をクリアする時に HashSet::clear() を利用していましたがこのメソッドではバッファを切り詰めて解放してくれないので新しい HashSet を生成して再代入するように変更しています。
