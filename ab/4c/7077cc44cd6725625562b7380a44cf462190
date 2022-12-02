@@ -1,0 +1,1 @@
+String#scan が内部で生成する MatchData オブジェクトが RMATCH(obj)->str が Qfalse という不正というか不完全な状態になっていて、通常これは ruby スクリプトからは触れないのですが ObjectSpace.each_object で全オブジェクトを検索した時に異常終了(SEGV)してしまっていたので rb_obj_hide() を呼んで klass を 0 にして内部オブジェクトとしてマークして ObjectSpace からも見せないようにしています。 [ruby-core:111054] [Bug #19159]
