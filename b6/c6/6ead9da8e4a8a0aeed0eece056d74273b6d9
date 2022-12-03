@@ -1,0 +1,1 @@
+8abf9e6ad0390e384ab47243ed4ece62a4d9cea0 で分離した irb の debug コマンドのテストで ruby コマンドを EnvUtil.rubybin を利用するなど細かな修正をしています。
