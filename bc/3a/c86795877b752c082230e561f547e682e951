@@ -1,0 +1,1 @@
+rubygems のトップレベルで環境変数 BUNDLER_SETUP が設定されていたらそれを require するようにしていたのを Bundler モジュールがまだ定義されていない時だけ実行するようにしています。 --disable-gems オプションをつけて起動しわ時に "circular require"  という警告が出てしまうのを避けるためだそうです。
