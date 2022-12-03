@@ -1,0 +1,1 @@
+YJIT の ARM 向けコード生成で STUR 命令のビット幅の指定の引数を間違えていたのを修正しています。 https://github.com/ruby/ruby/pull/6848
