@@ -1,0 +1,1 @@
+Thread と Kernel#fork を組み合わせて使った時のテストで Thread の終了待ちが漏れていたので Thread#join の呼び出しを追加しています。
