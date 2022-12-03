@@ -1,0 +1,1 @@
+Marshal.load から読み込んだ Data のインスタンスも freeze するようにしています。といっても Marshal.load の実装の変更ではなくて Struct と共有している rb_struct_initialize() でクラスが Data の時だけ freeze するという処理を追加しています。 [ruby-dev:52007] [Feature #19163]
