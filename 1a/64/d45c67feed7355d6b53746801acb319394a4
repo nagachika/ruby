@@ -1,0 +1,1 @@
+rb_is_usascii_enc()、rb_is_ascii8bit_enc()、rb_is_locale_enc といった Encoding のチェックマクロを追加しています。
