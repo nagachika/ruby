@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#raw, IO#raw!, IO#getch などのキーワード引数の min, intr, time などを最後の引数の Hash として扱って Symbol をキーとして参照していたのを rb_get_kwargs() を利用してキーワード引数として処理するように変更しています。
