@@ -1,0 +1,1 @@
+struct rb_iseq_constant_body の mark_bits メンバーの位置を移動してよりメモリを省略したレイアウトにできるようにしています。
