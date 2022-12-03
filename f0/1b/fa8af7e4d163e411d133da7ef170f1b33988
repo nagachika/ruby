@@ -1,0 +1,1 @@
+7e3b42d008de3c69c9e6bc1d127f28d91c0e88a9 のさらに続きで irb の debug コマンドのテストが GitHub Actions だけでなく RubyCI でも失敗するので逆に ruby/irb 上の GitHub Actions でのみ実行されるようにしています。
