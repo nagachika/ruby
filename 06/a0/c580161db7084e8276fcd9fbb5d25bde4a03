@@ -1,0 +1,1 @@
+YJIT の ARM 版の実装でのレジスタへ 32 bit または 16 bit だけのロードをする命令の生成で不具合があったみたいで修正しているようです。 https://github.com/ruby/ruby/pull/6840
