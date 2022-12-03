@@ -1,0 +1,1 @@
+Module#remove_method で freeze したインスタンスを持つ Class/Module からメソッド削除しようとしたり Module#prepend で freeze した Module を prepend した Class/Module からメソッド削除しようとすると誤って FrozenError が発生してしまうという不具合を修正しています。RCLASS_ORIGIN() で Module#prepend されているクラスに辿る前に freeze チェックをするようにしています。後者の現象はわかるんですがこれでインスタンスの freeze の影響を受けるのは不思議ですね。 [ruby-core:111116] [Bug #19164] [ruby-core:111131] [Bug #19166]
