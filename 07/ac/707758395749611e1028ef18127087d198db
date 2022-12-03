@@ -1,0 +1,1 @@
+MJIT のための C の binding を生成する tool/mjit/bindgen.rb で Kernel#gemfile メソッドに明示的な引数 true を渡すように変更しています。コミットログによると bundle install を実行した時と同様の出力を行うためみたいです。
