@@ -1,0 +1,1 @@
+rb_fiber_new_storage() という関数の Doxygen 用コメントの storage 引数の説明が抜けていたのを追記しています。 https://github.com/ruby/ruby/pull/6849
