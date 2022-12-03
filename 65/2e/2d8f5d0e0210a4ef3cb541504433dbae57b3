@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の SyntaxError の detailed_message メソッドを再定義しているところでファイル名を切り出すのに PathnameFromMessage というモジュールを利用していたのが SyntaxError#path で不要になったので実装をおきかえています。 path は追加されたばかりだけど syntax_suggest は 3.2 以降しかサポートしないのかな。
