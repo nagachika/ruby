@@ -1,0 +1,1 @@
+Kernel#Complex() で文字列から Complex に変換する時に桁区切りの "_" が連続しているのは ArgumentError を発生させるようにしています。 [ruby-core:110523] [Bug #19087]
