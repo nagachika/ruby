@@ -1,0 +1,1 @@
+Object Shapes のデバッグ用のマクロ SHAPE_DEBUG の定義を導入して VM_CHECK_MODE を使ってたところを一部このマクロでの分岐に置き換えています。
