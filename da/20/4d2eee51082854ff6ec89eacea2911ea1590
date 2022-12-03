@@ -1,0 +1,1 @@
+Class の作成時に rb_classext_t::max_iv_count の値を親クラスから継承するようにしています。
