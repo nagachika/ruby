@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の 652e2d8f5d0e0210a4ef3cb541504433dbae57b3 の変更の続きでやはり path メソッドが呼べない古い ruby にも対応するため respond_to? でチェックして fallback 実装として元の実装を復活させています。
