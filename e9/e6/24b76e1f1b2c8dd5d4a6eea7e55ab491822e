@@ -1,0 +1,1 @@
+GitHub Actions の YJIT のテスト用の workflow で rustc が利用可能なら自動的に YJIT 有効になったので configure に --enable-yjit オプションを渡すのをやめています。 https://github.com/ruby/ruby/pull/6854
