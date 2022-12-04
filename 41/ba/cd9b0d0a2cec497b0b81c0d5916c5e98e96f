@@ -1,0 +1,1 @@
+17f9bcd7d77c0d9fdd4be605f0791f3f03fd6caf で YJIT の setinstancevariable のコンパイルのために一度追加された shape.c の rb_shape_flag_shift() と rb_shape_flag_mask() という関数が be40af284a03d09e0197daed1c26f098c92d7d2d の変更により不要になったので関数定義自体削除しています。
