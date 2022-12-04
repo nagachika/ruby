@@ -1,0 +1,1 @@
+rubygems の Gem.write_binary というユーティリティメソッドで disk full により Errno::ENOSPC が発生した場合中途半端なファイルが残るのを防ぐために File.delete で削除するようにしています。
