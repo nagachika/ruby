@@ -1,0 +1,1 @@
+17f9bcd7d77c0d9fdd4be605f0791f3f03fd6caf からの続きで setinstawncevariable 命令のコンパイルの実装でビットフラグのクリアのための機械語の生成を命令数を減らす最適化。
