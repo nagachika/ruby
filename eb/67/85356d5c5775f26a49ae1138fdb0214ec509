@@ -1,0 +1,1 @@
+configure に bash でないと動かない変数展開の記法が使われていたので使わないように修正しています。また .github/workflows/check_misc.yml に configure.ac にこの変数展開の記法を使ってないかのチェックを追加しています。
