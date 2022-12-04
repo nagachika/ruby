@@ -1,0 +1,1 @@
+eb6785356d5c5775f26a49ae1138fdb0214ec509 の configure.ac の bash 固有の変数展開を避ける変更で target_alias 変数の置換のミスを修正。
