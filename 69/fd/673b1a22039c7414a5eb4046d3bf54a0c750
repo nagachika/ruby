@@ -1,0 +1,1 @@
+irb の debug コマンドのテストを ruby 本体でのテストで skip するのに GitHub Actions の環境変数をみていたのを irb.gemspec のファイルの位置によるチェックに変更しています。また truffleruby でのテストの skip を setup に移動してまとめて skip するようにしています。
