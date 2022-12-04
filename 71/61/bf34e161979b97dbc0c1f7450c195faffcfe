@@ -1,0 +1,1 @@
+標準添付ライブラリ irb のテストの helper.rb に require "pathname" を追加しています。
