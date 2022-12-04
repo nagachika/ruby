@@ -1,0 +1,1 @@
+Module#instance_method で UnboundMethod を取得した場合それはどの receiver の Module/Class から取得されたかは関係なくメソッドが定義されている Class/Module のメソッドとして取り出されますが、不要に receiver の情報も保存されていて inspect メソッドで文字列化した時や "==" で比較した時に receiver に依存していたという不具合を修正しています。 [ruby-core:108659] [Feature #18798]
