@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストで Travis-CI の arm64 でのみ実行除外していたテストを常に実行除外するようにしています。
