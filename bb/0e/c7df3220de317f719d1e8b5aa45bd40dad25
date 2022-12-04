@@ -1,0 +1,1 @@
+non-blocking fiber のための Scheduler のインターフェースのテストで Thread の leak があったので終了待ちするようにしています。
