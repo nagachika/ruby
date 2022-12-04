@@ -1,0 +1,1 @@
+17f9bcd7d77c0d9fdd4be605f0791f3f03fd6caf からの YJIT の setinstancevariable 命令の実装の続きで be40af284a03d09e0197daed1c26f098c92d7d2d で shape_id の更新のための命令に余計なのがあった? のを削除しています。
