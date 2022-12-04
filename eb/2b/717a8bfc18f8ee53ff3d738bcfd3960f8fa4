@@ -1,0 +1,1 @@
+YJIT で switch 文の分岐をいれかえる最適化を === メソッドの再定義がされていたら抑制するようにしています。 https://github.com/ruby/ruby/pull/6846
