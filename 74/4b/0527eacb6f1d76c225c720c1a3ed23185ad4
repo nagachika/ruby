@@ -1,0 +1,1 @@
+17f9bcd7d77c0d9fdd4be605f0791f3f03fd6caf からの続きで YJIT での setinstancevariable 命令のコンパイル時に receiver が freeze されていたら例外発生するはずなので JIT コンパイルをキャンセルするようにしています。
