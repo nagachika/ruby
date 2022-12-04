@@ -1,0 +1,1 @@
+これもおそらく 17f9bcd7d77c0d9fdd4be605f0791f3f03fd6caf からの YJIT の setinstancevariable 命令のコンパイルの変更の続きで flags に埋め込まれている shape_id のオフセットの bit 数を得る処理を関数に括り出すリファクタリング。
