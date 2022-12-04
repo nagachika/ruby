@@ -1,0 +1,1 @@
+YJIT の VM 命令 setinstancevariable のコンパイル時に T_OBJECT 型のオブジェクトの場合に rb_vm_setinstancevariable() の呼び出しにまかせずに独自に機械語を生成してインスタンス変数をセットする実装を追加しています。
