@@ -1,0 +1,1 @@
+17f9bcd7d77c0d9fdd4be605f0791f3f03fd6caf からの続きで setinstancevariable 命令のコンパイル時にコンパイル時点で設定する値が絶対に即値だと解析できていたら RGenGC のための Write Barrier の処理のコードをそもそも生成しないようにしているみたいです。
