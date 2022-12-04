@@ -1,0 +1,1 @@
+もうひとつ bootstraptest の Ractor のテストを YJIT が有効な時には実行除外するようにしています。
