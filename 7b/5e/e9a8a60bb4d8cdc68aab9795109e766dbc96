@@ -1,0 +1,1 @@
+17f9bcd7d77c0d9fdd4be605f0791f3f03fd6caf の続きで YJIT の setinstancevariable 命令のコンパイル時にセットする値が即値の場合に RGenGC のための Write Barrier の呼び出しをスキップするようにしています。最適化のため、というか即値を渡すと rb_bug() で異常終了するみたいですね。
