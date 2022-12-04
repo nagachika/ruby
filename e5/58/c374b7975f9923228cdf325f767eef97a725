@@ -1,0 +1,1 @@
+tool/downloader.rb でキャッシュディレクトリが Pathname#relative_path_from で相対パス化に失敗した時に expand_path して絶対パス化してから相対パス作成をリトライするようにしています。
