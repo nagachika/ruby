@@ -1,0 +1,1 @@
+iseq_clear_ic_references() という関数で struct rb_iseq_constant_body の is_entries が空だった時にすぐ return するようにしています。 ISeq への compile 時のエラーでそのような iseq の構造体が作られた時に SEGV してしまう恐れがあったのでその対策みたいです。 [ruby-core:111155] [Bug #19173]
