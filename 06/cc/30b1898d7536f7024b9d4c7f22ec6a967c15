@@ -1,0 +1,1 @@
+.gitignore に /yjit_exit_locations.dump というファイルを追加しています。 YJIT のデバッグ用の出力ファイルみたいですね。
