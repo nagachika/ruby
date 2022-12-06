@@ -1,0 +1,1 @@
+sample/mine.rb というサンプルプログラムで stty コマンドを Kernel#system で呼び出していたところを拡張ライブラリ io/console を利用するように書きかえています。
