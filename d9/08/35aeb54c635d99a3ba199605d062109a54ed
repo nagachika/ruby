@@ -1,0 +1,1 @@
+dba61f487cd7c1555f1187a2e2846506c1b143be と同様に rb_iseq_memsize() で struct rb_iseq_constant_body の is_entries が空なのを許容するようにしています。 RGENGC_CHECK_MODE=2 でビルドされてる時だけ通って異常終了するので見逃されてたようです。
