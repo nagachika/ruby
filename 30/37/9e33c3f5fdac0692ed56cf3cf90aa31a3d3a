@@ -1,0 +1,1 @@
+common.mk で拡張ライブラリの depend ファイルを sed で置換するコマンドは Windows の nmake で実行する時にうまく動かない? みたいなので CAT_DEPEND という変数で sed コマンドを実行するようにして win32/Makefile.sub ではこれを type コマンドにして置換はあきらめるようにしているようです。
