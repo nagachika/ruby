@@ -1,0 +1,1 @@
+2649055c98fe2b221c50866c3d75e7dccbeddadc の再修正で new_args_forward_call() で生成する NODE の末尾のノードの位置情報は "..." の位置にするように? 元に戻しています。 RubyVM::AbstractSyntaxTree のテストがこけてたみたいです。
