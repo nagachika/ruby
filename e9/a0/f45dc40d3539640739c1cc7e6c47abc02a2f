@@ -1,0 +1,1 @@
+common.mk の rbconfig.rb ターゲットの依存関係に common.mk 自身を追加しています。どういう時に依存があるんだろう……と思ったら Unicode のバージョンは common.mk の変数に定義されていてそこから make で Unicode のデータファイルのダウンロードをしてヘッダファイル群などを更新すると共に rbconfig.rb の "UNICODE_VERSION" などの項目も変更されるからでした。なるほど。 [ruby-core:111203] [Bug #19180]
