@@ -1,0 +1,1 @@
+test/ruby/enc/test_emoji_breaks.rb の Unicode のデータファイルを読み込む時のバージョンチェックの処理に Emoji version のチェックも追加しています。
