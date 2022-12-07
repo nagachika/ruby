@@ -1,0 +1,1 @@
+Unicode 14 の文字のプロパティのマップを定義した enc/unicode/14.0.0/name2ctype.h の間違いがあった(Unicode.org のほうで変更があった?)ようで修正しています。 https://github.com/ruby/ruby/pull/6451 [ruby-core:109930] [Bug #19007]
