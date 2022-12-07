@@ -1,0 +1,1 @@
+GitHub Actions で pull request の reviewer を自動でアサインするための workflow を fork したリポジトリでは動かないように条件を追加しています。
