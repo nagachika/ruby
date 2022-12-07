@@ -1,0 +1,1 @@
+NEWS に 59e389af2893c0fcf8b2cfa008c9a16825bf56ff の変更の影響で UnboundMethod の #inspect や #=== の挙動が変化したことについて追記しています。 [ruby-core:108659] [Feature #18798]
