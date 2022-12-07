@@ -1,0 +1,1 @@
+irb の設定 IRB.conf[USE_AUTOCOMPLETE] に環境変数 IRB_USE_AUTOCOMPLETE が反映されるようにしています。 "false" を設定すると false に、それ以外または環境変数の設定がない時は従来のデフォルトの true になるようです。
