@@ -1,0 +1,1 @@
+rubyspec の RbConfig のテストで "UNICODE_VERSION" と "UNICODE_EMOJI_VERSION" の ruby 3.2 でのテストを書き換えています。
