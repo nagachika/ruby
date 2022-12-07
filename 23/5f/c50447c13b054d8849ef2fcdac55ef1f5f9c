@@ -1,0 +1,1 @@
+YJIT の内部パラメーターのコード領域のページサイズをオプション --yjit-code-page-size を削除して固定の定数を使うようにしています。 https://github.com/ruby/ruby/pull/6865
