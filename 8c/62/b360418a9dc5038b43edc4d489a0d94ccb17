@@ -1,0 +1,1 @@
+GitHub Actions の Cirrus CI からの通知に使うための workflow で利用している octokit/request-action というアクションのバージョンを更新しています。
