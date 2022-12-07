@@ -1,0 +1,1 @@
+.gitignore に /bin/goruby と /bin/ruby を追加しています。また *.so.* も追加しています。 [ruby-core:111208] [Feature #19183]
