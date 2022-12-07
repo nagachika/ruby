@@ -1,0 +1,1 @@
+Object Shapes のための定数 SHAPE_ID_NUM_BITS を YJIT の Rust 実装からアクセスするために rb_shape_id_num_bits() という関数を定義してこれを経由して取得させていたのを直接定数を export するようにしています。 https://github.com/ruby/ruby/pull/6863
