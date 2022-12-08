@@ -1,0 +1,1 @@
+NEWS に String#dedup の追加、Thread#each_caller_location の追加、Thread::Queue や Thread::SizedQueue の pop などに timoeut キーワード引数が追加されたことについての記述が漏れていたので追記しています。また NEWS のチケット参照をリンクにするための footnote を自動で追加するためのスクリプトを tool/update-NEWS-refs.rb に追加してこれにより footnote も追記されています。
