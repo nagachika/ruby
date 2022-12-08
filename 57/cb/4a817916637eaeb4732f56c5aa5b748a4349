@@ -1,0 +1,1 @@
+MJIT のための debug counter 群を削除しています。MJIT 専用のはほぼ全て消してそうですね。
