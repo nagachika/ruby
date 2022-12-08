@@ -1,0 +1,1 @@
+オブジェクトの比較で両辺が即値の Fixnum や Float のようなオブジェクトだった時に最適化したショートカット処理をするための判定マクロの CMP_OPTIMIZABLE() の定義を変更して c43951e60eed0b01f464cd25441b81751d2d5087 で切り出した enum ruby_basic_operators の定数に BOP_CMP を追加してこれを利用してメソッド再定義を検出する定義に変更しています。定義のヘッダファイルを切り出したのはこのために BOP_CMP の定義をあちこちで使うためだったみたいです。 https://github.com/ruby/ruby/pull/6851
