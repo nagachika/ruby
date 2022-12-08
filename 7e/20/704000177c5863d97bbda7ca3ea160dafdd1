@@ -1,0 +1,1 @@
+MJIT の統計情報のためのカウンターのうち mjit_add_iseq_to_process と mjit_unload_units というのを削除しています。これにより mjit_add_iseq_to_process() の最後の引数が不要になったようなので削除されています。
