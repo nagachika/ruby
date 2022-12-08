@@ -1,0 +1,1 @@
+MJIT の enum rb_mjit_iseq_func の名前を enum rb_mjit_func_state に改名して中の定数も MJIT_ を prefix に持つように全体的に改名しています。
