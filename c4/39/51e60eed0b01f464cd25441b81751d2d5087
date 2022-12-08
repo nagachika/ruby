@@ -1,0 +1,1 @@
+enum ruby_basic_operators 型の定数の宣言を vm_core.h から internal/basic_operators.h という新しいヘッダファイルに切り出しています。また構造体 rb_vm_t の redefined_flag というメンバーを削除してこれを vm.c 内で定義したグローバル変数にしています。これは VM がプロセス内に 1つしか持てないということになりそうだけど、既にグローバルなテーブルに依存しているのでいまさらということみたいですね。
