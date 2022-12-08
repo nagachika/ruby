@@ -1,0 +1,1 @@
+MJIT の mjit_wait() の引数を struct rb_iseq_constant_body * から struct rb_mjit_unit * に変更して rb_mjit_wait_call() という wrapper 関数を不要なものにしています。ちょっとよくわかりませんでしたがこれも worker thread をなくしたために状態管理が簡易になった影響かな。
