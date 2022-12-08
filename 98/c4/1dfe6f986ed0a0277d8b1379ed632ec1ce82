@@ -1,0 +1,1 @@
+MJIT でコンパイルした結果を管理するための構造体 struct rb_mjit_unit の確保に calloc(3) を利用していたのがもう MJIT の worker は ruby 実装になったので GC が発生する処理を使っても良くなっているので ZALLOC_N() マクロを利用するようにしています。
