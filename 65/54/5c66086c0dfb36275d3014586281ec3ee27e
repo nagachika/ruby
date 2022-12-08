@@ -1,0 +1,1 @@
+17d45feeb6291c407e00b20a7f16ac472c7b1ef9 で追加した mjit_notify_waitpid() の VM_ASSERT() によるチェックに --mjit-wait オプションの指定があるかどうかの条件を追加しています。
