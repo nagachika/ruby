@@ -1,0 +1,1 @@
+mjit.c の check_unit_queue() に VM_ASSERT() で unit->compact_p が NULL であることをチェックするようにしています。
