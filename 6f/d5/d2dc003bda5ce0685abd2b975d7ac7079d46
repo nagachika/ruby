@@ -1,0 +1,1 @@
+File#path メソッドを IO#path と親クラスで定義するようにして、さらに IO.new にキーワード引数 path を追加しています。path のない IO もあると思うけどまあ Matz の approval があるので良いのでしょう。 これも [NEWS] に追記が必要そう。 https://github.com/ruby/ruby/pull/6867 [Feature #19036]
