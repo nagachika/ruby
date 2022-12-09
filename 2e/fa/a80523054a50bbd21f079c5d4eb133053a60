@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で cgi の同期時に lib/cgi/escape.jar というファイルは削除するようにしています。
