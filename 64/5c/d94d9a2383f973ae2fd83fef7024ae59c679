@@ -1,0 +1,1 @@
+debug_counter.c の debug counters の名前一覧の変数 debug_counter_names を export するようにして rb_debug_counter_names と改名し RubyVM.stat の返す Hash に項目追加するようにしています。 [NEWS] に追記したほうが良さそう。 https://github.com/ruby/ruby/pull/6086
