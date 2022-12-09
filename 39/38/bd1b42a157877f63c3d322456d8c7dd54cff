@@ -1,0 +1,1 @@
+構造体 struct rb_mjit_unit に Windows 環境では so_file メンバーを追加していたのがもう MinGW サポートを停止して未使用になっていたので削除しています。
