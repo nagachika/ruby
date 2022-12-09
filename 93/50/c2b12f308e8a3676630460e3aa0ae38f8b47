@@ -1,0 +1,1 @@
+コマンドラインオプションの --yjit-xxx が YJIT が有効化されていないビルド時に指定された時の警告に rustc のインストールを促す文言を追加。 https://github.com/ruby/ruby/pull/6873
