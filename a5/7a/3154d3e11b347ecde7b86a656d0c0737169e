@@ -1,0 +1,1 @@
+rubygems の Gem::Platform.match というメソッドを使っていたところを Gem::Platform.match_spec? を使うよう変更しています。 Gem::Platform.match は deprecated とのこと。
