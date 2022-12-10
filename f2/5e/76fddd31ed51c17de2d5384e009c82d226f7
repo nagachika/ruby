@@ -1,0 +1,1 @@
+8893913ae6da33662201d0a0e6ba2d37f50630ca で YJIT 有効時にも定義するようにした構造体 struct rb_iseq_constant_body のメンバー jit_func や total_calls のコメントを整形し、改名した mjit_unit にもコメントを追加しています。
