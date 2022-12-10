@@ -1,0 +1,1 @@
+拡張ライブラリ date の gemspec ファイルに JRuby 向けの分岐を追加して spec.files や spec.extensions の設定をしないようにしています。
