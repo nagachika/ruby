@@ -1,0 +1,1 @@
+YJIT の Rust 実装の Context 構造体の Copy trait を削除して明示的な clone() の呼び出しを書くようにしています。 https://github.com/ruby/ruby/pull/6889
