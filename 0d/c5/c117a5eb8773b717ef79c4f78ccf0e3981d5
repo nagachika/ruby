@@ -1,0 +1,1 @@
+MJIT の構造体 struct rb_mjit_unit のメンバー compact_p を削除してかわりに type というメンバーを追加、create_unit() の引数を rb_iseq_t * から struct rb_mjit_unit の type の定数に変更して NULL を渡した時に struct rb_mjit_unit::compact_p フラグを立てるという制御をしていたのを type を指定して作成するように変更しています。従来の iseq を設定した rb_mjit_unit を作るのにはそのための関数 create_iseq_unit() を追加してここで設定するようにしています。他の type を追加したくなったのでそのための変更とのこと。
