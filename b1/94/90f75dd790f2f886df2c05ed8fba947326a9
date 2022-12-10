@@ -1,0 +1,1 @@
+test/runner.rb でテスト実行時の GEM_HOME、GEM_PATH を設定して展開した bundled gems をテスト中に参照できるようにしているようです。
