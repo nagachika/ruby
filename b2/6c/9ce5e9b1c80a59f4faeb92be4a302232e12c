@@ -1,0 +1,1 @@
+YJIT で VM の命令 opt_newarray の JIT コンパイル対応を追加しています。 rb_vm_opt_newarray_min() 関数を呼ぶコードを生成しているような感じですね。 https://github.com/ruby/ruby/pull/6888
