@@ -1,0 +1,1 @@
+yjit/yjit.mk の make のターゲット check-yjit-bindings を削除しています。2ae26554de200adc0d557776e2d2c3eb91c6ec90 で hint を追加した GitHub Actions でのテストも yjit-bindgen に変更しています。
