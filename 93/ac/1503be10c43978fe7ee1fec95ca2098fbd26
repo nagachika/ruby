@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest のテストで ruby 本体内でテストするために spec_helper.rb の lib_dir というメソッド内で分岐して lib/ ディレクトリの相対パスを切り換えるようにしています。
