@@ -1,0 +1,1 @@
+mjit.c の未使用になっていた rb_nativethread_cond_t の変数群を削除しています。
