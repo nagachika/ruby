@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に upstream から 1.1.1 をマージ。 Fiddle の定数に C の同名の定数の数値を得る Fiddle::Qtrue, Fiddle::Qfalse, Fiddle::Qnil, Fiddle::Qundef が追加されています。これも [NEWS] が必要かな。
