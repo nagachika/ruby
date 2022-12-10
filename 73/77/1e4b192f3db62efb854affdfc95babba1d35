@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all に shapes というキーワード引数を追加して Object Shapes の情報もダンプできるようにしています。さらに Shapes の情報をダンプする専用のメソッド ObjectSpace.dump_shapes も新規追加しています。 [NEWS] への追記が必要そうですね。というかこのレベルの変更をチケットなしで入れるのはいいのか? https://github.com/ruby/ruby/pull/6868
