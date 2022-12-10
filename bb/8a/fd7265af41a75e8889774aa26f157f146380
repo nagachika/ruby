@@ -1,0 +1,1 @@
+あるオブジェクトの特異クラスに Module#prepend を利用していた時に元のオブジェクトを freeze すると通常は特異クラスも freeze されるところが prepend による T_ICLASS が影響して freeze されなくなっていたという不具合を修正しています。 [ruby-core:111138] [Bug #19169]
