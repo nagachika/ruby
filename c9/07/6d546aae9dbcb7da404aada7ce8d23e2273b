@@ -1,0 +1,1 @@
+irb の組み込みコマンド irb_help の別名に show_doc を追加しています。 https://github.com/ruby/irb/pull/475
