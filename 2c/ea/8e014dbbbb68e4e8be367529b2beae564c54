@@ -1,0 +1,1 @@
+mjit.c の内部的なクラスを保持する static 変数 rb_cMJITCompiler と rb_cMJITIseqPtr を rb_gc_register_mark_object() で mark 時の root として登録していたのを mjit_mark() 関数内で mark するように変更しています。 mjit_mark() は rb_vm_mark() から呼ばれていて、実質常に呼ばれるのでまあ効果としては同じと思ってよさそう。
