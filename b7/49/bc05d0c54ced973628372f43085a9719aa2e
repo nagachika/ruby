@@ -1,0 +1,1 @@
+99cad3fccdb9e7a66ff4c8231d43dafa336b2687 で標準添付ライブラリ rdoc の rd 記法の parser 部分で一部コメントアウトしていたのとその後の f0c9d2a0c801569725459420acefc8d983bbf307 の修正 を revert しています。コミットログ(Use Tempfile)との関係がよくわからないですが……。
