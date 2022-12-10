@@ -1,0 +1,1 @@
+GitHub Actions の YJIT のテストの workflow の check-yjit-bindings というテストの step に hint: という設定を追加しています。エラー時に表示されるメッセージとかかな?
