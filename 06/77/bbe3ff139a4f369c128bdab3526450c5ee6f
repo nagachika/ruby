@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の SyntaxError#path がない環境をサポートするための workaround まわりを変更しています。
