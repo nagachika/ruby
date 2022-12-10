@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に upstream から 3.0.5 をマージしています。 StringScanner#named_captures という新規メソッド追加があるみたいですね。これも [NEWS] に追記が必要そう。
