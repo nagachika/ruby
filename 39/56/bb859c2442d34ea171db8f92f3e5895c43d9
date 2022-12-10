@@ -1,0 +1,1 @@
+irb の組み込みコマンドに show_cmds というのを追加して組み込みコマンドの一覧を表示できるようにしているようです。 これも [NEWS] に追記が必要そう。 https://github.com/ruby/irb/pull/463
