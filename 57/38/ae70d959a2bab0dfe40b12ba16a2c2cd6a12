@@ -1,0 +1,1 @@
+関数 rb_gc_mark_locations() の Doxygen 用コメントに引数の start と end がそれぞれ始点は範囲に含み終点は含まないというのを明記しています。
