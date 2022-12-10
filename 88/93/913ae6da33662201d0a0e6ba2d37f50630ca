@@ -1,0 +1,1 @@
+構造体 struct rb_iseq_constant_body の jit_unit メンバーの名前を mjit_unit と変更して、MJIT 専用の項目であることがわかりうやすいようにしています。逆に jit_func と total_calls という項目は YJIT でも使うので USE_MJIT が偽で USE_YJIT が有効な時にも定義するようにしています。
