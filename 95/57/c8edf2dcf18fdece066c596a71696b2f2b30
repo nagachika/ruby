@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol の BufferedIO の initialize でインスタンス変数 @rbuf_empty を初期化しておくようにしています。
