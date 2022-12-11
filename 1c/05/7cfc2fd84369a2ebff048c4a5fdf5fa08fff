@@ -1,0 +1,1 @@
+yjit.rb の --yjit-stats で出力する統計情報の最後の JIT から抜けた理由の Top 20 を出力するときに 0件だったものは除外するようにしています。 https://github.com/ruby/ruby/pull/6892
