@@ -1,0 +1,1 @@
+rubyspec の 6fd5d2dc003bda5ce0685abd2b975d7ac7079d46 で追加した IO#path のテストで一時ファイルの消し忘れがあったのを修正しています。
