@@ -1,0 +1,1 @@
+Fiber local storage の実装の Fiber#storage= で nil が渡されるのを許容するようにしています。また freeze された Hash が渡されたらセット時点で例外を発生させるようにしています。 また rubyspec に Fiber local storage のテストを追加しています。 https://github.com/ruby/ruby/pull/6896
