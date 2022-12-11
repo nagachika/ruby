@@ -1,0 +1,1 @@
+irb の debugger 用組み込みコマンド step で irb の stack frame から抜けるためにまず next コマンドを実行してから step の処理をしていたのを debugger 利用時に irb のファイルの stack frame を常にスキップするようにしています。
