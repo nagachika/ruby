@@ -1,0 +1,1 @@
+Object#inspect でインスタンス変数の内容を再帰的に文字列化する時に値を rb_str_catf() のフォーマット指示子 PRIsVALUE で埋め込んでいたのを rb_inspect() を呼び出してその結果を利用するようにしています。インスタンス変数に NilClass, TrueClass, FalseClass などのクラスが入っていた時の表示のためとのこと。 https://github.com/ruby/ruby/pull/6872 [ruby-core:111135] [Bug #19167]
