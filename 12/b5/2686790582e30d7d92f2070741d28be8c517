@@ -1,0 +1,1 @@
+メモリ管理の構造体  struct heap_page の未使用になっていたメンバー pinned_slots を削除しています。
