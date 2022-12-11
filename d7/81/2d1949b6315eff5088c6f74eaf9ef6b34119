@@ -1,0 +1,1 @@
+73771e4b192f3db62efb854affdfc95babba1d35 で追加された拡張ライブラリ objspace の ObjectSpace.dump_shapes などでの Object Shapes の出力に capacity の項目を追加しています。
