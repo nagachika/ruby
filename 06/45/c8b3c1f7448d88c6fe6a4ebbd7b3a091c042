@@ -1,0 +1,1 @@
+bcd8b2f00aef8fdaa54f1d76ca841ae8d10e5e0f で追加した NEWS のチケット参照用 footnote の追加のための tool/update-NEWS-refs.rb に URL のほうのチケット番号にも # がついてしまう不具合があったので修正して再生成しています。
