@@ -1,0 +1,1 @@
+YJIT で VM 命令の getconstqant の JIT 対応のため rb_vm_get_ev_const() という関数を追加して生成したコードからこの関数呼び出しするようにしています。 https://github.com/ruby/ruby/pull/6884
