@@ -1,0 +1,1 @@
+win32/setup.mak にあった HAVE_BASERUBY の変数定義を win32/Makefile.sub に移動しています。判定方法も微妙に順番などが変化している気がしますがたぶん内容はほぼ同じ?
