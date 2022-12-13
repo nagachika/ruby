@@ -1,0 +1,1 @@
+bundler で git コマンドを探す時に拡張子 .exe をつけるかどうかを RbConfig::CONFIG["EXEEXT"] を利用して判定するようにしています。
