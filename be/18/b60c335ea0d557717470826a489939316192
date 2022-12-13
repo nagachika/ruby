@@ -1,0 +1,1 @@
+1d2d25dcadda0764f303183ac091d0c87b432566 で regenc.c や regparse.c でのバッファーオーバーランを防ぐために ONIGENC_MBC_ENC_LEN() の実装を変更した続きで enclen() の引数の p と e の位置関係のチェックを追加しています。
