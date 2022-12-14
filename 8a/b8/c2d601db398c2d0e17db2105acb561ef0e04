@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL::KDF.hkdf メソッドの定義を OpenSSL のバージョンをみて定義していたのを LibreSSL でも 3.6 以降利用可能になったようで preprocessor の分岐条件に追加しています。
