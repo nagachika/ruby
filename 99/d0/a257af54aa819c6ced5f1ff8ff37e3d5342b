@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の rdoc 用コメントの 2be03fb5b0fc6ba18cf9842f410f3853e0369600 の再修正というか revert で、やっぱり rdoc は preprocessor の分岐はみないので1つにして、さらに #if の前にコメントがあってもいいみたいなので元に戻しています。いや、でも https://github.com/ruby/openssl/pull/559 によると #if の前にコメントだとドキュメント生成されてなかったみたいだから #if の中に入れるのは必要なんじゃないでしょうか。
