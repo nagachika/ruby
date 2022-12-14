@@ -1,0 +1,1 @@
+pattern match の ^() という記法で閉じかっこの前に改行があると SyntaxError になっていたのを許容するように修正しています。 [ruby-core:111262] [Bug #19195]
