@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の EVP_DigestSign() や EVP_DigestVerify() が利用できるか OpenSSL のバージョンをみて preprocessor で分岐しているところで LibreSSL でも 3.4 以降で利用可能になったみたいで条件に LibreSSL のバージョンチェックも追加しています。
