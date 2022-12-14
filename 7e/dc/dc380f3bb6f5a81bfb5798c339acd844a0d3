@@ -1,0 +1,1 @@
+tool/file2lastrev.rb で revision.h を生成する時に .git/ ディレクトリがないリポジトリでない環境(tar パッケージからのビルド)時に revision.h を再生成しないようにしています。 https://github.com/ruby/ruby/pull/6915
