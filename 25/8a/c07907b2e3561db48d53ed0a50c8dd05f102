@@ -1,0 +1,1 @@
+YJIT の Rust 実装のビルド時にデバッグ情報を含めるように yjit/Cargo.toml の設定追加や rust のオプション -g を渡すようにしています。 なぜかついでに e0a4205eb785f266fdf08f409c2f112f5dfcb229 の Cirrus CI で [DOC] をコミットログに含む変更をビルドしないようにした変更を revert しています。 https://github.com/ruby/ruby/pull/6910
