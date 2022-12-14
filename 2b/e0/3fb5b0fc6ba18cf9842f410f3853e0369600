@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の定数 OpenSSL::OPENSSL_LIBRARY_VERSION の定義の preprocessor 分岐の中に rdoc 用コメントを移動してドキュメント生成されるようにしています。 #else のほうにも rdoc 用コメントが追加されていますが rdoc って preprocessor の条件分岐は認識するんだっけ?
