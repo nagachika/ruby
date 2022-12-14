@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の extconf.rb の OpenSSL 3.0 での警告抑制のためのオプション制御を削除しています。
