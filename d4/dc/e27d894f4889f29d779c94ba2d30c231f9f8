@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Cipher#update の第1引数の文字列が空文字列だと ArgumentError 例外を発生させていたのを許容するようにしています。
