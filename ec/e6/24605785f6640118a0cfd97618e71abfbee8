@@ -1,0 +1,1 @@
+YJIT で VM 命令の opt-newarray_max の JIT コンパイル対応を追加しています。 vm_opt_newarray_max() を wrap した expose 用の rb_vm_opt_newarray_max() という関数を定義してこれを呼び出すシンプルな実装にしています。 https://github.com/ruby/ruby/pull/6893
