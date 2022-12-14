@@ -1,0 +1,1 @@
+YJIT を [experimental] としているところを消しています。 YJIT は production ready に。 https://github.com/ruby/ruby/pull/6909
