@@ -1,0 +1,1 @@
+outdate-bundled-gems.rb で gemspec ファイルの存在チェックをする時に拡張ライブラリを含む gem の時のために探すパスを追加しています。rbs や debug が余計に消されてしまっていたようです。
