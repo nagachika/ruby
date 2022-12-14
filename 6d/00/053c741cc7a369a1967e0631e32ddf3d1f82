@@ -1,0 +1,1 @@
+bundler のテストで配列のチェックをするのに sort してから eq を使ってたのを match_array という matcher を利用するようにリファクタリングしています。
