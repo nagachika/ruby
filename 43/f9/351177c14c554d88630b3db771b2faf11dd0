@@ -1,0 +1,1 @@
+internal/basic_operators.h の BASIC_OP_UNREDEFINED_P() の定義で LIKELY() の引数を間違っていたのを修正しています。 ==0 の比較まで含めるべきなのに比較の左辺だけ LIKELY() の引数にしてしまっていた。
