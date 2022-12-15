@@ -1,0 +1,1 @@
+tool/outdate-bundled-gems.rb で古い bundled gems のファイル削除時にバージョン番号のディレクトリ名をチェックするのを String#start_with? で前方一致で判定するように変更しています。 configure 時の --enable-shared つきの場合ディレクトリ名に -static が付くので消されない場合があったようです。 https://github.com/ruby/ruby/pull/6924
