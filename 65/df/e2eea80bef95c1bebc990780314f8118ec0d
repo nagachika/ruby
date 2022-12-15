@@ -1,0 +1,1 @@
+yjit/yjit.mk の yjit-bindgen というターゲットの shell の if コマンドの先頭に $(Q) をつけて出力をデフォルトで抑制するようにしています。
