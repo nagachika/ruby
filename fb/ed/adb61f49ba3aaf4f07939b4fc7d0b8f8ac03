@@ -1,0 +1,1 @@
+Regexp.linear_time? というクラスメソッドを新規追加して、引数に渡した Regexp オブジェクトが [Feature #19104] で追加したメモ化による最適化で高速にマッチできるものかどうかを判定できるようにしています。 これも [NEWS] に追記が必要そうですね。 https://github.com/ruby/ruby/pull/6901[ruby-dev:52014] [Feature #19194]
