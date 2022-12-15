@@ -1,0 +1,1 @@
+2d5b723b2f69dda8c7cf0de69c25e16a1818b88c の再修正で tool/outdate-bundled-gems.rb で start_with? でチェックするかわりに明示的に "-static" のような "-" + suffix を削って比較するようにしています。 RbConfig::CONFIG['ruby_version'] には ABI version が付与されることがあって start_with? だとそれが完全に一致してなくてもマッチしてしまう可能性があったので。
