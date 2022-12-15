@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の default gems 一括更新に syntax_suggest の commit hash を固定する特別処理をおそらく一時的に追加しています。
