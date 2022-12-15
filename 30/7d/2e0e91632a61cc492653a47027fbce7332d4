@@ -1,0 +1,1 @@
+bootstraptest/test_ractor.rb の Ractor のテストで YJIT が有効だと失敗することがあるものを YJIT  有効な状態ではスキップするようにしています。
