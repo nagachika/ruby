@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の AutoIndent#initialize で IRB::RubyLex#set_input にキーワード引数 context を渡すようにしています。また context オブジェクトが local_variables メソッドを受け付けるようにしています。
