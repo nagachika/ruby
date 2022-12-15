@@ -1,0 +1,1 @@
+拡張ライブラリ socket で require "io/wait" しているところを IO#wait_readable メソッドが定義されていない時だけにするよう後置 unless の条件を追加しています。 https://github.com/ruby/ruby/pull/6922
