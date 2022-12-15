@@ -1,0 +1,1 @@
+YJIT の実行コードを保持するメモリ領域のデフォルトサイズを 128MiB から 64MiB に変更しています。 https://github.com/ruby/ruby/pull/6912
