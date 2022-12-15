@@ -1,0 +1,1 @@
+gc.c の gc_compact_destination_pool() の switch 文のインデント修正のみ。
