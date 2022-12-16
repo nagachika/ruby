@@ -1,0 +1,1 @@
+NEWS にオブジェクトの複数 slot を割り当ててバッファなどを埋め込みやすくする Variable Width Allocation がデフォルトで有効になったことを追記しています。 [Feature #18239]
