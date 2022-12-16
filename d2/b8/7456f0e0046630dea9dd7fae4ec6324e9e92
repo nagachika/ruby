@@ -1,0 +1,1 @@
+標準添付 net/http の Net::HTTPHeader の rdoc 用コメントで call-seq のタグの書きかたが間違ってたのを修正したりマークアップを修正したり。
