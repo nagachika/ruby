@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で拡張ライブラリビルド時に使う pkg-config コマンドを RbConfig::CONFIG["PKG_CONFIG"] から得るようにしていたので、ruby 本体のビルド時の環境に pkg-config がないとそれを別の環境にインストールした時にそこに pkg-config があっても利用できないのを修正しています。なるほどなぁ……。 [ruby-core:111225] [Bug #19189]
