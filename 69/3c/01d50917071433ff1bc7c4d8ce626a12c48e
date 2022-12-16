@@ -1,0 +1,1 @@
+YJIT の Rust 実装の gen_setinstancevariable() で jit_prepare_routine_call() を不要に 2度読んでたので 1つ消しています。
