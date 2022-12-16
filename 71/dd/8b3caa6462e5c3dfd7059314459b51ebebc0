@@ -1,0 +1,1 @@
+74995162fc5d530e1a7a91b9f5c11a3b270f7f5f で拡張ライブラリ socket に含まれる ext/socket/lib/socket.rb の require "io/wait" を条件つきにした変更の再修正で Module#public_instgance_methods でメソッド一覧取り出してたのを Module#method_defined? で直接判定するように変更しています。
