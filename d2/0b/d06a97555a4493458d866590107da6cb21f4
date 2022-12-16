@@ -1,0 +1,1 @@
+74995162fc5d530e1a7a91b9f5c11a3b270f7f5f および 71dd8b3caa6462e5c3dfd7059314459b51ebebc0 で拡張ライブラリ socket の require "io/wait" を条件つきにしたところを後置 unless でなく通常の unless 文で複数行で書くよう整形しています。 io/wait のテストで require "io/wait" していたのは不要になったので削除しています。 https://github.com/ruby/ruby/pull/6932
