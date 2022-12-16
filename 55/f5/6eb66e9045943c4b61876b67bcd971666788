@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の各種ステータスコードに対応する response のクラスに rdoc 用コメントを追加しています。うーん、全ステータスに Wikipedia のリンクいるかな……。 https://github.com/ruby/net-http/pull/91
