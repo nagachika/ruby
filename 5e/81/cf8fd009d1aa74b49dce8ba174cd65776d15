@@ -1,0 +1,1 @@
+と、思ったけど bfc66e07b7e0134dfa2041c311dc56941fe1caf0 の compaction 時の shape id 付けなおしのリファクタリングで不要な条件を消して GC_ASSERT() によるチェックに置き換えているのですが、gc_compact_move() での gc_is_moveable_obj() の追加も assertion に置き換えられているので、bfc66e07b7e0134dfa2041c311dc56941fe1caf0  のリトライでの修正は不具合修正のためではなくて、おそらく c1ab6ddc9a6fa228caa5d26b118b54855051279c での too complex shape の導入自体が不具合修正のためだったのではないかと思われます。
