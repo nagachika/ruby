@@ -1,0 +1,1 @@
+irb のテストで Kernel#open を使っていたところを File.open を使うように変更しています。
