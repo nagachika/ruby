@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace._dump で表示するオブジェクトの情報に c1ab6ddc9a6fa228caa5d26b118b54855051279c で追加した too complex shape の情報も表示するようにしています。
