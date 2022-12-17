@@ -1,0 +1,1 @@
+と思ったら 9c54466e299aa91af225bc2d92a3d7755730948f の comp@action 時の shape id の変更は revert されていました。(Shopify 社内の) CI でエラーが発生したとのこと。
