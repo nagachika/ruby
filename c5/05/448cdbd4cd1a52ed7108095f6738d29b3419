@@ -1,0 +1,1 @@
+SIZE_POOL_COUNT というマクロの定義を shape.h から internal/gc.h に移動しています。
