@@ -1,0 +1,1 @@
+GitHub Actions の workflow .github/workflows/bundled_gems.yml と .github/workflows/wasm.yml に Slack 通知の設定を追加しています。
