@@ -1,0 +1,1 @@
+YJIT の Object#send で call メソッドを起動した時の control frame の調節漏れを修正しています。
