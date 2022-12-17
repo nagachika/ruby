@@ -1,0 +1,1 @@
+03927b565b9b6c8578c6a1c6f8e17e72ef82a05e で tool/sync_default_gems.rb の同期時の syntax_suggest の commit hash を固定していた特別扱いの処理を削除しています。
