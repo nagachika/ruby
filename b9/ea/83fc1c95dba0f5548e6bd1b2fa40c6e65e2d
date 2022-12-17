@@ -1,0 +1,1 @@
+NEWS に WASI 版サポートの追加と正規表現のメモ化による最適化の実装、Regexp.linear_time? の追加について追記しています。また tool/update-NEWS-refs.rb で NEWS の footer を切り出す正規表現で URL の末尾に # で始まる fragment が付いているのも許容するようにしています。
