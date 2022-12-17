@@ -1,0 +1,1 @@
+GC.compact と Object Shapes の実装の組合せの不具合修正。 compaction で Variable Width Allocation のスロット数(幅)の異なる heap 間をオブジェクトが移動する場合に Object Shapes の shape 情報を変更する必要があったので、shape 情報の再設定と移動元に埋めておく struct RMoved に original_shape_id メンバーを追加して変更前の shape id を保存しておくようにしています。これの使い道がよくわからないけど移動元に埋めておいたオブジェクトの開放時に shape id が必要だからかな?
