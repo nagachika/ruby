@@ -1,0 +1,1 @@
+9c54466e299aa91af225bc2d92a3d7755730948f の compaction 時の移動前後で Object Shapes の shape id が変化する場合の対応のリトライ。 gc_compact_move() 時に移動可能なオブジェクトかどうかの判定が漏れてたのを修正しているのと、前回のコミット後に入った too complex shape の機構の対応追加が違いみたいです。
