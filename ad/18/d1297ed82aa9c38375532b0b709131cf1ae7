@@ -1,0 +1,1 @@
+1a73a6cdd2068b815430b775fe25186dab693faa で導入した Enumerator::Product の initialize で任意のキーワード引数を渡されたら例外を発生させるようにしています。また Enumerator.product も同様にキーワード引数を拒否するようにしています。将来使うかもしれないので明示的に受け付けないようにしておくということだそうです。 [ruby-core:108198] [Feature #18685]
