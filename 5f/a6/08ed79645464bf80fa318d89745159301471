@@ -1,0 +1,1 @@
+YJIT のコード領域の GC の実装の不具合修正。 https://github.com/ruby/ruby/pull/6937 [ruby-core:111281] [Bug #19234]
