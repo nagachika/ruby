@@ -1,0 +1,1 @@
+8c272f44816f098c1e057c72a47451efc8cd1739 の続き。 NEWS に Time.new の機能追加について追記しています。 precision キーワード引数についても追記したほうが良さそう。 [ruby-core:104552] [Feature #18033]
