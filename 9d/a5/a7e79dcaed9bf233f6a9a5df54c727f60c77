@@ -1,0 +1,1 @@
+non-blocking fiber のテストで Threads::Queue#pop の timeout を使うテストを追加しています。 https://github.com/ruby/ruby/pull/6953
