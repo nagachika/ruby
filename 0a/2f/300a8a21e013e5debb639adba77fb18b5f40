@@ -1,0 +1,1 @@
+8c272f44816f098c1e057c72a47451efc8cd1739 の続き。 Time.new の実装で 9 と決め打ちにしてた受付ける数値の桁数を TIME_SCALE という定数の桁数を計算して TIME_SCALE_NUMDIGITS という static 変数に格納して利用するようにリファクタリングしています。 [ruby-core:104552] [Feature #18033]
