@@ -1,0 +1,1 @@
+configure.ac の AC_CHECK_TOOL() で pkg-config の存在チェックするところで一時的に ac_tool_warned 変数を no に設定しておくようにしています。 cross compiling 時の警告抑制のためとのこと。
