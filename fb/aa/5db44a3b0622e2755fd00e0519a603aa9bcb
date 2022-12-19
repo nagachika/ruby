@@ -1,0 +1,1 @@
+Hash#default メソッドの実装でメソッドの再定義を検出するのに enum ruby_basic_operators に BOP_DEFAULT を追加して BASIC_OP_UNREDEFINED_P() を利用するようにしています。また default という Symbol の ID を組み込みで初期化するようにしています。おそらく YJIT での最適化のため。
