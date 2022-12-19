@@ -1,0 +1,1 @@
+fbaa5db44a3b0622e2755fd00e0519a603aa9bcb で追加した rb_hash_default_value() で struct RBasic::flags のチェックに FL_TEST() を使っていたのを FL_TEST_RAW() を利用してオブジェクトの型のチェックを省略しています。
