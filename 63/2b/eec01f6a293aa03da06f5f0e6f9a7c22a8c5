@@ -1,0 +1,1 @@
+lib/mjit/c_pointer.rb で String#unpack のかわりに unpack1 を利用するようにしています。また Enumerable#sum にブロック渡しをする呼びかたを利用するようにリファクタリングしています。 https://github.com/ruby/ruby/pull/6955
