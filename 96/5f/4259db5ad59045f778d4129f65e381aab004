@@ -1,0 +1,1 @@
+2ccf6e539458ef5c9f7a2d68163089d1d38e47f7 で objspace_malloc_fixup() に objspace_xmalloc0() と objspace_xcalloc() に追加していた GC 中に呼ばれた時の警告と rb_bug() 呼び出しを objspace_xmalloc0() と objspace_xcalloc() に移動しています。
