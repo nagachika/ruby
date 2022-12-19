@@ -1,0 +1,1 @@
+configure で cross compile 時に miniruby がビルドされないようになっていたのを macOS の時は特別に PREP 変数に fake.rb に加えて miniruby をセットするようにしています。拡張ライブラリのビルド時に miniruby が必要だったとのこと。Xcode 14 対応のための処理のところで使うようになったからかな?  だとすると backport が必要かもしれない。 [Bug #19239]
