@@ -1,0 +1,1 @@
+NEWS に irb の組み込みコマンド追加、net/protocol のパフォーマンス改善、pathname のメソッド追加、cgi の Cookie の扱いの変更などについて追記しています。
