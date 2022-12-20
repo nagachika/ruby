@@ -1,0 +1,1 @@
+6229c02d6b895eda8c73efa8a41c73692d133a65 の RubyVM.stat 項目の NEWS への追加を revert しています。 debug counter はデバッグ用にビルドしないと現れないため。
