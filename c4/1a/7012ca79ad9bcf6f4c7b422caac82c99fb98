@@ -1,0 +1,1 @@
+thread_pthread.h で ruby_current_ec_key という変数を宣言する時にコンパイラがサポートしている thread local storage に割当てることを指定する指示子が使えたらそれを使って宣言するようにしていたところの preprocessor 分岐の順序を変更して RB_THREAD_LOCAL_SPECIFIER_IS_UNSUPPORTED という configure でチェックして定義するマクロで指示子が使えるか最初に判定するようにしています。 native_tls_get() や native_tls_set() の定義が不要なときにされないようにしているのかな。
