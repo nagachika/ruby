@@ -1,0 +1,1 @@
+bundler の bundle lock サブコマンドに --bundler オプションを追加しています。 Gemfile.lock に記述する bundler 自体の依存バージョンの更新をコマンドからできるようにしているようです。
