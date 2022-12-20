@@ -1,0 +1,1 @@
+Fiber 用の cont.c の cont_restore_1() という関数で Windows の SEH という機構に対応するための setjmp() して Frame という情報を抜き取る処理を _M_AMD64 というマクロが定義されている時だけ実施していましたが、__MINGW64__ が定義されていたら実施しないように preprocessor 分岐に条件を追加しています。MinGW で callcc のテストが SEGV するのでこれで直らないかなということみたいです。チケット自体はかなり昔からあるものみたいですけど。 https://github.com/ruby/ruby/pull/6957 [ruby-core:79983] [Bug #13298]
