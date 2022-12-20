@@ -1,0 +1,1 @@
+time.c のデバッグ用の関数 debug_report_guessrange() で利用している変数の型を unsigned_time_t から time_t に変更しています。というか unsigned_time_t という型自体の利用をやめようとしているみたいですね(実際これでもう利用している箇所はなくなったみたいです)。
