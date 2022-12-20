@@ -1,0 +1,1 @@
+tool/update-NEWS-refs.rb で NEWS のチケット参照のリンクのための footnote を更新する時に bugs.ruby-lang.org 以外の URL のための参照があった時もエラーにならないよう対応しています。
