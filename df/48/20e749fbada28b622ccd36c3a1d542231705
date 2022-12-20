@@ -1,0 +1,1 @@
+NEWS に IO.new の path キーワード引数追加と IO#path メソッドの追加(File#path からの移動)について追記しています。
