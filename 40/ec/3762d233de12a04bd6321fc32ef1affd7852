@@ -1,0 +1,1 @@
+NEWS に拡張ライブラリ date の Date#deconstruct_keys と DateTime#deconstruct_keys の追加について追記しています。
