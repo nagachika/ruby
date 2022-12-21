@@ -1,0 +1,1 @@
+bundler の bundle outdated の --parseable オプションの出力を修正しているようです。
