@@ -1,0 +1,1 @@
+コマンドラインオプション --help で出力するオプションの説明の --yjit-stats を YJIT_STATS マクロが未定義でも表示するようにしています。 https://github.com/ruby/ruby/pull/6946
