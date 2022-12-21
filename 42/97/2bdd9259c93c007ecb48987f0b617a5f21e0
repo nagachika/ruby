@@ -1,0 +1,1 @@
+bundler のテストで Bundler::GemVersionPromoter#filter_dep_specs のテストをしていたところを Bundler::GemVertionPromoter#sort_versions のテストに書きかえています。
