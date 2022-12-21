@@ -1,0 +1,1 @@
+tool/expand-config.rb で RbConfig::CONFIG["RUBY_RELEASE_DATE"] を設定するため version.h を読んでいたところで revision.h も検索対象に追加しています。
