@@ -1,0 +1,1 @@
+template/Makefile.in の clean-local のコマンドで find コマンドの引数にかっこが必要だったところが漏れていたのを修正。
