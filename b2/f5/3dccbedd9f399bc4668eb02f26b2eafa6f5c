@@ -1,0 +1,1 @@
+yjit.rb で Array#sum を一度 Enumerable#map で変換してから呼んでたのを sum 自体がブロックを受け付けるのでブロック付き呼び出しするようにリファクタリングしています。 https://github.com/ruby/ruby/pull/6954
