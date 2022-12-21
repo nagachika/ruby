@@ -1,0 +1,1 @@
+gc.c の gc_ref_update_object() で Variable Width Allocation で複数の slot を利用してインスタンス変数を埋め込む時の対応でコピーするバッファサイズが間違っていた不具合を修正しています。
