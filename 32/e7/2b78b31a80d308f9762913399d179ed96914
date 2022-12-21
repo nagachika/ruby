@@ -1,0 +1,1 @@
+bundler のテストに bundle lock --update の --pre オプションのテストを追加しています。
