@@ -1,0 +1,1 @@
+bundler の実装で Enumerable#all? を利用するようにリファクタリング。
