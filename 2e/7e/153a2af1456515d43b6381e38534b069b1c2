@@ -1,0 +1,1 @@
+rescue 節の中で再度別の例外を raise した時などに Exception#cause で元の例外オブジェクトを参照できるように保持する機構がありますが、不正なバイナリを作って Marshal.load で循環している Exception#cause を構築できてしまっていたので load 時に循環をチェックして例外発生させるようにしています。 [ruby-core:111332] [Bug #19242]
