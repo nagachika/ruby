@@ -1,0 +1,1 @@
+e7bffe0c4b8bebabc89e7440efffa43ee3e1123e で configure で cross compiling で対象のプラットフォームが macOS の時に変数 PREP に fake.rb だけでなく miniruby も追加した変更の続きで、--enable-shared が指定されなかった時(--disable-shared が指定された時?)のみ追加するようにしています。より厳密に miniruby が必要な条件に絞るようにしているみたいです。 [Bug #19239]
