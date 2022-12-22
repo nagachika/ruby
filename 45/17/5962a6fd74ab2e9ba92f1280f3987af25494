@@ -1,0 +1,1 @@
+0436f1e15a8e79ffef5ea412ac1312cbf9f063e6 で導入された Fiber local storage の実装で Fiber#new の storage キーワード引数に false を渡すと親 Fiber の storage を引き継ぐという仕様を削除しています。そんな仕様あったのか、見落していた。 https://bugs.ruby-lang.org/issues/19078#note-30 [Feature #19078]
