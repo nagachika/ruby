@@ -1,0 +1,1 @@
+irb の組み込みコマンド debug で bundled gems の debug.gem を Gemfile.lock に記述がなくても読み込むためのハックで拡張ライブラリの拡張子を RbConfig::CONFIG['DLEXT'] を考慮するようにしています。
