@@ -1,0 +1,1 @@
+win32/Makefile.sub にビルドディレクトリがソースディレクトリと異なっていて BASERUBY を利用可能な時の revision.h の依存関係を追加しています。 nmake で VPATH が期待したように動かない問題の対策だそうです。
