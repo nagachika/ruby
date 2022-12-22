@@ -1,0 +1,1 @@
+GC の Variable Width Allocation の対応で major GC が頻繁に発生してしまう可能性があったようなので slot のサイズ毎の heap のページ数の拡張の条件を調節しています。
