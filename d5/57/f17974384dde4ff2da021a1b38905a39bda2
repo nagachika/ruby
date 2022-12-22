@@ -1,0 +1,1 @@
+Fiber local storage の Fiber#storage= を実行した時に experimental カテゴリの警告を出力するようにしています。 [Feature #19078]
