@@ -1,0 +1,1 @@
+WASI プラットフォーム対応のための configure 用のマクロ定義 tool/m4/ruby_wasm_tools.m4 で環境変数 WASI_SDK_PATH がセットされてない時に無視せず configure 時のエラーにするようにしています。また CC/LD/AR/RANLIB などの変数に WASI_SDK_PATH を追加する時に既存の変数があったらそれも加味するようにしています。
