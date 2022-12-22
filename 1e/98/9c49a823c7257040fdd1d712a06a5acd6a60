@@ -1,0 +1,1 @@
+MJIT の ruby 実装による MJIT::Compiler#cast_offset メソッドの実装で文字列を組み立てて String#to_s で変換してビット表現を作っていたのをシフト演算子で処理するようリファクタリングしています。 https://github.com/ruby/ruby/pull/6967
