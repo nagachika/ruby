@@ -1,0 +1,1 @@
+doc/packed_data.rdoc に Array#pack で指示子のバイト幅からあふれた数値を pack した時に上位ビットは特に警告なく無視されることについて追記しています。 [ruby-core:111339] [Feature #19245]
