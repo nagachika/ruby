@@ -1,0 +1,1 @@
+Enumerator.product にブロック渡しで呼び出した時の戻り値を作成した Enumerator::Product でなく nil にしています。
