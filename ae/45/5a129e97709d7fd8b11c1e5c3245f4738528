@@ -1,0 +1,1 @@
+TracePoint.allow_reentry メソッドの rdoc 用コメントにサンプルコードを追記して call-seq もブロックを受け付けるように書いてなかったので修正しています。
