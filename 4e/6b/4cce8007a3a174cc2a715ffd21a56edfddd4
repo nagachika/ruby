@@ -1,0 +1,1 @@
+NEW の Data のエントリのサンプルコードに 99cee85775bc5656b942bf4e1b0568a8f40addcd で追加した Data#with を使う例を追記しています。 [ruby-core:109850] [Feature #19000]
