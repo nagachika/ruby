@@ -1,0 +1,1 @@
+String#match や String#match? の rdoc 用コメントの typo 修正。
