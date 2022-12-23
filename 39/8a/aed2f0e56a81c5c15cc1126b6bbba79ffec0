@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の upstream からのコミットの cherry-pick 時のコミットログの整形で Co-authored-by の記述を行頭にあるものだけ抜き出すようにしています。また余分な改行を削っています。
