@@ -1,0 +1,1 @@
+MJIT の組み込みクラスの ruby 実装のファイル群を lib/mjit/ から lib/ruby_vm/mjit/ 配下に移動しています。 https://github.com/ruby/ruby/pull/6989 [ruby-core:111369] [Misc #19250]
