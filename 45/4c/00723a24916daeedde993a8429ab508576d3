@@ -1,0 +1,1 @@
+Regexp.linear_time? の実装を Regexp.new の引数処理の部分と共有させるリファクタリング。
