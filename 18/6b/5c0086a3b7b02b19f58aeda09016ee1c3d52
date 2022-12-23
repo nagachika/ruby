@@ -1,0 +1,1 @@
+89a66f20d8701f30f3d9952ae62a02fdefcd166b で gems/bundled_gems の power_assert の更新が revert されてしまっていたのでそれを revert して再度 2.0.3 に更新しています。
