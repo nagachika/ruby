@@ -1,0 +1,1 @@
+NEWS の Module#include した時に取り込まれる定数が class/module 文で衝突している時の挙動の変更についてのエントリの英文を修正しています。 [Feature #18832]
