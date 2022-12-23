@@ -1,0 +1,1 @@
+TracePoint の ccall や c_return の event type でのコールバックには TracePoint#binding が常に nil を返すように変更しています。
