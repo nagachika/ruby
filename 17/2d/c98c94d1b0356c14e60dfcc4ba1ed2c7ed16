@@ -1,0 +1,1 @@
+86f0128efe687a9db2756c9902b4a28f26981b1b と同じく標準添付ライブラリ net/http の HTTP Response のステータスコード別のクラスの rdoc 用コメントに参照 URL を RFC や Mozilla のサイトを追加。
