@@ -1,0 +1,1 @@
+tool/update-NEWS-refs.rb で NEWS のリンク用の footer の URL 部分のインデントを揃えるようにしています。
