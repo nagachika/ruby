@@ -1,0 +1,1 @@
+99cee85775bc5656b942bf4e1b0568a8f40addcd と 4e6b4cce8007a3a174cc2a715ffd21a56edfddd4 の続きで 4e6b4cce8007a3a174cc2a715ffd21a56edfddd4 で追加した NEWS のサンプルの行の順序を入れ替えて with の結果は receiver を変更しないことが明確になるようにしています。 [ruby-core:109850] [Feature #19000]
