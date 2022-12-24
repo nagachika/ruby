@@ -1,0 +1,1 @@
+gems/bundled_gems の更新をチェックする GitHub Actions の workflow .github/workflows/bundled_gems.yml で NEWS のフォーマット変更? のための対応を追加しているようです。
