@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で SSL_get0_next_proto_negotiated() などの関数が利用できるかどうかの判定に OPENSSL_NO_NEXTPROTONEG という非定型のマクロを使っていたのを OSSL_USE_NEXTPROTONEG というマクロに変更しています。
