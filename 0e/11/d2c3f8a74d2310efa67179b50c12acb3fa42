@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey.check_key メソッドで誤って private 鍵が渡された時に例外を発生させるようにしています。 OpenSSL 3 で関数内でのチェックが省かれたので呼び出し前に openssl の実装側でチェックするようにしたようです。
