@@ -1,0 +1,1 @@
+make check で make test-syntax-suggest も実施するようにしています。
