@@ -1,0 +1,1 @@
+MJIT のテストで中間ファイルの削除のため tmpdir による一時ディレクトリを利用するようにしています。 https://github.com/ruby/ruby/pull/6994
