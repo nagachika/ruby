@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の extconf.rb でコンパイルオプションに -DOPENSSL_SUPPRESS_DEPRECATED を追加して OpenSSL 3 での deprecation warning を抑制するようにしています。
