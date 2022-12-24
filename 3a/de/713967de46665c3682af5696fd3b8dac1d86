@@ -1,0 +1,1 @@
+さらに拡張ライブラリ racc のバージョンを 1.6.2 に更新しています。 racc は C のマクロ RACC_VERSION と ruby の定数 Racc::VERSION の両方が別々に定義されてるんですね。
