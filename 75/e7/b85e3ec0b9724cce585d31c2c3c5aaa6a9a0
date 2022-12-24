@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで OpenSSL::PKey.generate_parameters が OpenSSL 3.0.5 以前でコールバックを呼んでくれない不具合があるそうなのでテストをスキップするようにしています。
