@@ -1,0 +1,1 @@
+d2cd903c85f38f42c6aefc6d97a1558f74d8d9db で拡張ライブラリ openssl も 3.1.0 に更新後の const の追加は revert しています。
