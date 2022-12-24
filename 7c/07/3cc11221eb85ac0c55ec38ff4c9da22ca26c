@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::ASN1::ObjectId のテストで OpenSSL::ASN1::ASN1Error 例外を捕捉してスキップしていたのをやめています。
