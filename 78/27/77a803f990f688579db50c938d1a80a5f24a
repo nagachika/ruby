@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の socket が利用可能な時だけ OpenSSL::SSL::Socket が定義されるように修正しています。また ruby スクリプトによる実装で defined?(OpenSSL::SSL) で拡張ライブラリ部分が利用可能な時だけ Module/Class 定義するように分岐を追加しています。
