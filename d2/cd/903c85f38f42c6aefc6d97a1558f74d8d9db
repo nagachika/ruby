@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の ossl_ec_key_check_key() 内の変数に const を追加。警告抑制のため?
