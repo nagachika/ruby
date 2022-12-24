@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで defined? で OpenSSL の定義をチェックしていたところを OpenSSL::SSL をチェックするように変更しています。拡張ライブラリ部分がなくても OpenSSL は定義されるのかも。
