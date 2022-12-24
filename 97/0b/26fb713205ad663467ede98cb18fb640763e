@@ -1,0 +1,1 @@
+NEWS の C API の変更のセクションに rb_debug_inspector_current_depth() と rb_debug_inspector_frame_depth() という C API の新規追加について追記しています。
