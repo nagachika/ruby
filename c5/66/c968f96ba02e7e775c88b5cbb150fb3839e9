@@ -1,0 +1,1 @@
+shape.c の RubyVM::Shape のメソッドの rdoc によるドキュメント生成を抑制するため :nodoc: タグを追加しています。
