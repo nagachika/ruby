@@ -1,0 +1,1 @@
+Array オブジェクトのメモリサイズを返す rb_ary_size_as_embedded() でメインの構造体のサイズを得る sizeof に誤って struct RString を渡していたので修正しています。結果はたぶん同じだと思いますが。
