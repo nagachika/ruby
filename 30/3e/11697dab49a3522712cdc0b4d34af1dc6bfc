@@ -1,0 +1,1 @@
+addr2line.c の DWARF フォーマットの読み込みで .debug_str_offsets と .debug_addr というセクションの情報にも対応するようにしています。 clang が利用しているとのこと。
