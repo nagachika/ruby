@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストで RubyCI の zlinux の環境での失敗のデバッグのため assertion の出力を追加しています。
