@@ -1,0 +1,1 @@
+NEWS の MJIT の実装の変更についてのエントリで MJIT の ruby 実装ファイルについて "standard library" と表現していたのをやめています。
