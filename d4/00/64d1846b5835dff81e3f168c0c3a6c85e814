@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルの spec.email の fa64889abbad727d31bb927604d87679825dcd37 での変更を revert しています。erb のバージョン更新後の変更だったので ruby のリリース前に erb.gem と内容を揃えておくため。
