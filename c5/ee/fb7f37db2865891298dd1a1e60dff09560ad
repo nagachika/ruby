@@ -1,0 +1,1 @@
+configure で macOS の時にリンカオプションに -bundle_loader を付けるのを --disable-shared の時だけにしていたのを常に -buindle_loader をつけて、一緒に -Wl,-flat_namespace も指定して flat namespace を利用するようにしています。拡張ライブラリの symbol 解決で ruby 本体と拡張ライブラリで --{enable,disable}-shared が異なると -bundle_loader の有無が変化して? symbol がみつからないというので load がエラーになってしまうのでその対策みたいです。
