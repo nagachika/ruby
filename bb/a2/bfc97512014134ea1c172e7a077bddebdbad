@@ -1,0 +1,1 @@
+doc/encodings.rdoc の String#encode の universal_newline キーワード引数の記述を修正してサンプルに単独の "\r" の変換も含んでいます。
