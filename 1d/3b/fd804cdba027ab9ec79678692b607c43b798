@@ -1,0 +1,1 @@
+shape.h で JIT 用に export していた関数のうち不要なものを export 対象からはずすようにしています。 https://github.com/ruby/ruby/pull/7007
