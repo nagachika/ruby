@@ -1,0 +1,1 @@
+c5eefb7f37db2865891298dd1a1e60dff09560ad で configure で macOS の時にリンカオプションに -flat_namespace を追加したのを revert しています。 C 拡張ライブラリが他のライブラリと衝突する C の関数名などの symbol を持っていた時にエラーになってしまうという副作用があったため。この変更は --enable-shared と --disable-shared の指定が異なる ruby 本体と拡張ライブラリでうまくロードできないという問題の解決のためだったので、symbol の衝突のほうが影響が広範に渡るという判断でしょう。
