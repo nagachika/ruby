@@ -1,0 +1,1 @@
+cae53842735237ccf71a13873fd0d1ae7f165582 で make check に test-syntax-suggest の実行も追加したものを test-syntax-suggest-prepare を test-syntax-suggest の前に実行するようにしています。
