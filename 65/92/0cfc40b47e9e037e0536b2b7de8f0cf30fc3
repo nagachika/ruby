@@ -1,0 +1,1 @@
+addr2line.c の backtrace のアドレス取得時に Apple Silicon 版の時に下位 47bits だけ取得するようビットマスクをかけるようにしています。上位には authentication bits というのがあって実際のアドレスの数値と違ってしまってたようです。
