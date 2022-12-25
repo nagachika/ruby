@@ -1,0 +1,1 @@
+SyntaxError や LoadError の path メソッドを rb_attr() で定義する時に rdoc によるドキュメント化でプロパティ名に変数名がそのまま使われるみたいなので path という変数を定義してそれに idPath を代入してから渡すようにしています。
