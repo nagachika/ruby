@@ -1,0 +1,1 @@
+メソッド定義の実体(C の関数)は Method#== と同じものを使っている UnboundMethod#== メソッドの rdoc 用コメントを Method#== とは別にドキュメント化するために、unbound_method_eq というマクロを定義してこのマクロ定義のところに UnboundMethod#== の rdoc 用コメントを付けるようにしています。なるほど。
