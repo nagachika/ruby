@@ -1,0 +1,1 @@
+65920cfc40b47e9e037e0536b2b7de8f0cf30fc3 の addr2line.c で Apple Silicon でのアドレスの上位ビットを消す変更を revert して vm_dump.c の backtrace() 関数内の signal trampoline の処理のほうに ARM64 用の時の preprocessor 分岐を追加して、アドレスの上位ビットクリアもここに追加しています。 https://github.com/ruby/ruby/pull/7015
