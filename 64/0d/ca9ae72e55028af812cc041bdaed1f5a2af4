@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.parse の rdoc 用コメントの call-seq にキーワード引数の記述が抜けてたので追加。また説明も追記しています。
