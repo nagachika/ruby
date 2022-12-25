@@ -1,0 +1,1 @@
+non-blocking fiber 用の Scheduler のインターフェースの rdoc 用コメントをドキュメント化するためのダミーの rb_define_method() に #io_write, #io_pread, #io_pwrite, #io_select などのメソッド定義と rdoc 用コメント自体が抜けてたのを追加。また IO::Buffer にもいくつかのメソッドの rdoc 用コメントを追加しています。 https://github.com/ruby/ruby/pull/7016
