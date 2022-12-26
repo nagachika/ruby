@@ -1,0 +1,1 @@
+tool/lib/envutil.rb で macOS で異常終了時に生成される crash report のファイルパスの探索を変更しています。新しい macOS で拡張子が変化したみたいです。
