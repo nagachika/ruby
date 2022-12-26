@@ -1,0 +1,1 @@
+common.mk の make clean 時に削除するディレクトリに yjit/ も追加しています。
