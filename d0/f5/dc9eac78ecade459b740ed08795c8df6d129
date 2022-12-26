@@ -1,0 +1,1 @@
+Windows 環境で Dir.home を決めるために参照する環境変数の優先順位を HOMEDRIVE や HOMEPATH の前に USERPROFILE を利用するように変更しています。
