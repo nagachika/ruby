@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の racc の同期時に lib/racc/parser-text.rb というファイルは upstream で生成が必要なので rake コマンドで生成しておくようにしています。
