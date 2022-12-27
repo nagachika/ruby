@@ -1,0 +1,1 @@
+doc/extension.rdoc のセクションが全単語を capitalize していたので先頭の単語だけ大文字に変更しています。
