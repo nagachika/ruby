@@ -1,0 +1,1 @@
+parse.y の enum lex_state_bits のコメントに "&." 演算子についての記述が抜けてたのを追記。
