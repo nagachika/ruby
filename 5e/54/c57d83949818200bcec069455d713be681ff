@@ -1,0 +1,1 @@
+標準添付ライブラリ monitor の ext/monitor/lib/monitor.rb の MonitorMixin モジュールのための rdoc 用コメントが module 文とのあいだに require がはさまってドキュメント生成されてなかったので require を移動しています。またいくつか余分な空白を消しています。
