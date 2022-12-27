@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の HTTPResponse のステータスコード毎のクラスの rdoc 用コメントに Mozilla のサイトや RFC のリンクを追記しています。
