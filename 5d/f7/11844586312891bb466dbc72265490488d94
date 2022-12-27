@@ -1,0 +1,1 @@
+rubyspec のビットシフトのテストで極端に大きな値を使うとメモリを大量に使うので RB_BUG_INSTEAD_OF_RB_MEMERROR というマクロを定義してビルドした時しか実行しないようにしています。この判定のためこのマクロが 0以外に定義された時は GC::INTERNAL_CONSTANTS という Hash の :RB_BUG_INSTEAD_OF_RB_MEMERROR というキーを追加するようにしています。
