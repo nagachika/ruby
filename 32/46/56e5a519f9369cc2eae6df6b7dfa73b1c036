@@ -1,0 +1,1 @@
+make matz というターゲットを追加しています。 include/ruby/version.h の RUBY_API_VERSION_MINOR を 1つインクリメントするためのターゲットみたいです。もう今年のは Matz が上げちゃいましたけどね。来年までにヘッダファイル名が変わって動かなくなったりして。
