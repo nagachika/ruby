@@ -1,0 +1,1 @@
+35aba09e7f0d6b643c6446f44acdec654519ca64 と同様に標準添付ライブラリ net/http の HTTPResponse のステータスコード毎のクラスの rdoc 用コメントに Mozilla のサイトや RFC のリンクを追記しています。
