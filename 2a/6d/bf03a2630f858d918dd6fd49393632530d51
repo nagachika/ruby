@@ -1,0 +1,1 @@
+include/ruby/version.h の RUBY_API_VERSION_MINOR を 3 に更新しています。 3.3.0 の開発が開始されました。
