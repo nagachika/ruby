@@ -1,0 +1,1 @@
+configure での coroutine 実装の選択に OpenBSD の arm64 アーキテクチャの対応を追加しています。
