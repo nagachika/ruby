@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の ARGV.getopts や OptionParser#getopts メソッドに symbolize_names というキーワード引数を追加して結果の Hash のキーを Symbol に変換しておくようにしています。
