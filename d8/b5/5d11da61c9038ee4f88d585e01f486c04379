@@ -1,0 +1,1 @@
+minor version が更新されたので include/ruby/internal/abi.h の RUBY_ABI_VERSION マクロを 0 にリセットしています。
