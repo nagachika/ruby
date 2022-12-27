@@ -1,0 +1,1 @@
+doc/extension.rdoc と doc/extension.ja.rdoc に Data という単語を使っているところが Struct の freeze 版として別の意味のクラス名になっていてクロスリファレンスになってしまうので別の文言を使うようにしています。
