@@ -1,0 +1,1 @@
+Kernel#loop メソッドを C の関数による定義から ruby による実装に変更しています。 kernel.rb の組み込みメソッド定義のファイルで定義していますがブロックの有無のチェックに Primitive を使っている以外は完全に pure ruby な実装ですね。 https://github.com/ruby/ruby/pull/6983
