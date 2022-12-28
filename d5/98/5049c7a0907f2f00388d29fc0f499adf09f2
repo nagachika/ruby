@@ -1,0 +1,1 @@
+irb の組み込みコマンド help のテストの一部を削除して、ruby のパース関係のテストを追加しています。コミットログをみると tool/sync_default_gems.rb での irb の同期がうまくいかないみたいなことが書かれているので upstream の master と改めて同期したということかも。
