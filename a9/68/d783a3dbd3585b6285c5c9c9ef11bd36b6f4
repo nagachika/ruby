@@ -1,0 +1,1 @@
+irb の色付けについてのテストで IRB.conf[:USE_COLORIZE] を一時的に true に設定するよう setup/teardown に処理を追加しています。
