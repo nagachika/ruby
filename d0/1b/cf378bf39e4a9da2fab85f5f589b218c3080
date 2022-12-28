@@ -1,0 +1,1 @@
+148eb05ec138acec8f1b527a81ec498811bc311d で irb のテストで削った IRB.conf の設定のうち IRB.conf[:VERBOSE] のほうは復活させています。
