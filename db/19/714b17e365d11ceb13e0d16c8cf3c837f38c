@@ -1,0 +1,1 @@
+get_loaded_features_index() や rb_provide_feature() で feature 名の文字列を rb_fstring() に渡す前に rb_str_freeze() を呼んでいたのが不要なのでやめています。
