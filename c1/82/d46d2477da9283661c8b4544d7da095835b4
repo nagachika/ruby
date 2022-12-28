@@ -1,0 +1,1 @@
+tool/lib/colorize.rb で色つけするかどうかの判定に環境変数 NO_COLOR を参照するようにしています。
