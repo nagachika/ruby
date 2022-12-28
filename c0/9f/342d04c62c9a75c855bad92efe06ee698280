@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB.rc_file_generators でカレントディレクトリの .config/irb/irbrc を作ろうとしてしまう? のがホームディレクトリの ~/.config/irb/irbrc の間違いだったみたいなので修正しています。
