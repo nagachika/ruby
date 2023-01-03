@@ -1,0 +1,1 @@
+IO#set_encoding で external encoding に ASCII-8BIT を指定した時には internal encoding の指定によらず IO#internal_encoding が nil に設定されて、その IO から読み込んだ文字列が ASCII-8BIT になるようにしています。元々文字列で "ascii-8bit:utf-8" のような指定をした時はそのような挙動になっていたそうです。default internal が明示的に指定されているのにもかかわらず変換されないというのはこれでいいのかな? というのは疑問ですが……。 [ruby-core:109152] [Bug #18899]
