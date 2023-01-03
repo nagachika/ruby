@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPHeader#set_form_data の rdoc 用コメントのサンプルの強化などをしています。
