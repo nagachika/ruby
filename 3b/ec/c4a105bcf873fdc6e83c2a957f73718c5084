@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper::Lexer#scan で SyntaxError の発生するようなスクリプト片を読ませた時に不正なメモリアクセスをする可能性があった不具合を修正しています。 [ruby-core:111556] [Bug #19291]
