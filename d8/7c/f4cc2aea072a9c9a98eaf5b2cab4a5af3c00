@@ -1,0 +1,1 @@
+NEWS の bundled gems のバージョンリストに miniteset のバージョンが追記されているのですが、minitest のエントリが重複しているので自動更新の不具合っぽいですね。
