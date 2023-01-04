@@ -1,0 +1,1 @@
+f6620037ba1477d2c337d7b511f094d6d0fbb69c で lib/mjit/instruction.rb が誤って復活していたのを削除しています。 [ruby-core:111573] [Bug #19298]
