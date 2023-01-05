@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の JRuby の時の win32api を require する時に feature 名を大文字小文字を区別して "Win32API" と記述するようにしています。JRuby の新しいバージョンでは require 時に大文字小文字を区別するようになっているそうです。
