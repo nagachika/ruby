@@ -1,0 +1,1 @@
+InitVM_Object() の doxygen 用のコメント? を削除して Init_class_hierarchy() の前に移動しています。コメント内容の処理の実体が Init_class_hierarchy() に切り出されてたのでそれにあわせているようです。
