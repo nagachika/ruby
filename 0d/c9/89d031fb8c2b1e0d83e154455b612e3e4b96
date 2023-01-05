@@ -1,0 +1,1 @@
+GC.verify_compaction_references のテストでチェック対象の項目の値が nil の場合の対応を追加しています。
