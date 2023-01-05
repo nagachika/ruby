@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI.encode_www_form_component と URI.encode_www_form の rdoc 用コメントにサンプルと説明を追加しています。
