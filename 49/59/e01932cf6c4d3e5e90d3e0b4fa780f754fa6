@@ -1,0 +1,1 @@
+common.mk の prepare-gems の依存関係から outdate-bundled-gems を削除して、古い bundled gems の展開したディレクトリ群の削除を抑制するようにしています。 rbs.gem と debug.gem の拡張ライブラリを意図せず消してしまって make install 時に必要な拡張ライブラリが入らなくなってしまうという現象が起きていたようです。 [ruby-core:111456] [Bug #19271]
