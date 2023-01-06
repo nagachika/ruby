@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の Test::Unit::CoreAssertions#separated_runner で Test::Unit::AutoRunner.need_auto_run= に false をセットするようにしています。拡張ライブラリ openssl の upstream での変更の取り込みみたいです。
