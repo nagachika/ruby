@@ -1,0 +1,1 @@
+1f2fef1f9ac03fb01a3150f953e2194e58e437ea の続きで Test::Unit::CoreAssertions#separate_runner の auto run を抑制するのに  Test::Unit::Runner 利用時の対応を追加しています。 ruby 本体でのテスト時の対応と思われます。
