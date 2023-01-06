@@ -1,0 +1,1 @@
+TracePoint の c_call イベントへのフック内で alias 経由のメソッド呼び出しによるフックで TracePoint#parameters を呼んだ時に異常終了する可能性があった不具合の修正。alias 先のメソッドが remove_method で削除されていた時に起きるとのこと。 [ruby-core:111610] [Bug #19305]
