@@ -1,0 +1,1 @@
+拡張ライブラリ objspace のオブジェクトの確保と解放をトレースする ObjectSpace.trace_object_allocations_start で TracePoint に登録するコールバックで一時的に GC.disable 相当の関数(rb_gc_disable_no_rest())を呼んで GC を無効化するようにしています。 st_table の操作時に再帰的に GC が発生すると異常終了してしまう可能性があったため。
