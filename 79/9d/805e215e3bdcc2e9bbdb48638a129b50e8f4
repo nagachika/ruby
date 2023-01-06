@@ -1,0 +1,1 @@
+87c17a141dc4491abf5282d164f2cba13ade18c4 の続きで bundler の bundle open のオプション --path に値が指定されなかった時に例外を発生させるようにしています。
