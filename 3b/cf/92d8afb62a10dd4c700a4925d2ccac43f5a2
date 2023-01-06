@@ -1,0 +1,1 @@
+gc.c の COULD_MALLOC_REGION_START() と COULD_MALLOC_REGION_END() というマクロで during_gc 変数を一時的に false にするのをやめています。かわりに malloc_during_gc_p() で objspace->flags.dont_gc の値をチェックに追加しています。GC.disable している時は GC 中でも malloc() を呼んで良いとしているみたいです。これってなんでこういうことしてるんだっけ、と思いましたが COULD_MALLOC_REGION_START() は gc_move() で使われているので compaction 対応の時に必要だったからですね。
