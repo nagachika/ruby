@@ -1,0 +1,1 @@
+Object Shapes の実装の get_next_shape_internal() と rb_shape_traverse_from_new_root() の出力用引数にキャストつきで型の異なる変数のアドレスを取得して渡す呼びかたをしていたのをやめるよう修正しています。 [ruby-core:111361] [Bug #19248]
