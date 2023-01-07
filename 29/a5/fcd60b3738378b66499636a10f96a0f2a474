@@ -1,0 +1,1 @@
+pack.c の unknown_directive() の定義に RBIMPL_ATTR_NORETURN() マクロでコンパイラがサポートすれば処理が戻らない関数であることを指定するようにしています。
