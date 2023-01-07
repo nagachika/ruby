@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で RbConfig::CONFIG["configure_args"] や環境変数 CONFIGURE_ARGS を読み込む時に標準添付ライブラリ shellwords の shellsplit を使ってオプションを分割する処理を書くようにリファクタリング? しています。
