@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で T_OBJECT 型オブジェクトの時にインスタンス変数を slot 内に埋め込んでいる場合に "embedded: true" という行を出力するようにしています。
