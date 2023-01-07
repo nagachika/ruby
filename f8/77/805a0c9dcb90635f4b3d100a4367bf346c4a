@@ -1,0 +1,1 @@
+拡張ライブラリ psych の gemspe ファイルに s.metadata['msys2_mingw_dependencies'] というのを設定しています。Windows 版の Msys2 でビルドする環境の時に必要な third party ライブラリを指定することができるみたいです。なにか外部のツールとかプラグインがこれを参照するのかな?
