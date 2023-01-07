@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.node_id_for_backtrace_location メソッドの引数は Thread::Backtrace::Location のインスタンスを期待しているのですがそうでないオブジェクトを渡すと異常終了する可能性があったので明示的にチェックして TypeError 例外を発生させるようにしています。 [ruby-core:111435] [Bug #19262]
