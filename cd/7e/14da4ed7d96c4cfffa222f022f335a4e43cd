@@ -1,0 +1,1 @@
+GitHub Actions の macOS 用 workflow で configure に渡すオプションを事前に環境変数 CONFIGURE_ARGS にセットしておくようにしています。
