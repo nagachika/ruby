@@ -1,0 +1,1 @@
+GitHub Actions の pull request の reviewer をセットするための workflow で yjit/src/cruby_bindings.inc.rs の変更は reviewer 設定対象から外します。 https://github.com/ruby/ruby/pull/7004
