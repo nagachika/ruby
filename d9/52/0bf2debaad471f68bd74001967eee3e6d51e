@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md の openssl などの拡張ライブラリのビルドのための外部ライブラリの configure のオプションでの指定についての記述を環境変数 CONFIGURE_ARGS に設定する手順に変更しています。
