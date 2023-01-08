@@ -1,0 +1,1 @@
+parse.y の parser_has_token() という関数で rb_bug() で異常終了する時のメッセージに変数を埋め込む指示子に PRIdPTRDIFF マクロを利用するようにしています。
