@@ -1,0 +1,1 @@
+よくわかりませんが YJIT で Instruction Sequence からコードの位置情報を取り出す処理を修正しているようです。 https://github.com/ruby/ruby/pull/7074
