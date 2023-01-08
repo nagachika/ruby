@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.parse に __END__ トークンを含むスクリプトを渡すと異常終了するという不具合を修正しています。 parser_yylex() で __END__ に対して 0 を返さないといけないところを -1 を return しているところがあったようです。また 0 というマジックナンバーを書いてたところに END_OF_INPUT という定数マクロを利用するようにしています。 https://github.com/ruby/ruby/pull/7077 [ruby-core:111658] [Bug #19312]
