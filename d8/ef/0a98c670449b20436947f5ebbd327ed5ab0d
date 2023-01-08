@@ -1,0 +1,1 @@
+String#capitalize など大文字小文字の変換をするメソッド利用する rb_str_casemap() で変数の RB_GC_GUARD() による保護が足りていなくて GC mark 漏れする可能性があった不具合を修正しています。 [ruby-core:111699] [Bug #19319]
