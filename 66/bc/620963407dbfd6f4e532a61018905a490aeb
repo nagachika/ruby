@@ -1,0 +1,1 @@
+shape.h から未使用(未定義?)の関数 rb_shape_flags_mask() の宣言を削除。
