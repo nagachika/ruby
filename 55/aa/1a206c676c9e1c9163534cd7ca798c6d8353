@@ -1,0 +1,1 @@
+rubygems の Kernel#require の上書き定義で LoadError 発生時の処理に LoadError#path の値をチェックして直接 require しようとしたファイルの LoadError かどうか確認するようにしています。不要なリトライ時のロック取得を抑制するため。
