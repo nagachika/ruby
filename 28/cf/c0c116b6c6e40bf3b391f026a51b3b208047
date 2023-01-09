@@ -1,0 +1,1 @@
+897cf122bf491ecf00d6374d944654bc85f8ed0f で変更している rubyspec の Integer#<< や Integer#>> のテストで NoMemoryError が実際に発生することはないので期待する例外を RangeError のみとしてチェックするように書き直しています。
