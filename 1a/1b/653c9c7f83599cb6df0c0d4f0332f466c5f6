@@ -1,0 +1,1 @@
+rubygems の Kernel#require を上書きする処理でドキュメント化を抑制するための rdoc の tag を追加したりしています。
