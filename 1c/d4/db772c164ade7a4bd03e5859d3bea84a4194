@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の同期処理で rubygems の同期時に bundler のテストが含まれる可能性がある? みたいでそれは巻き戻すようにしています。
