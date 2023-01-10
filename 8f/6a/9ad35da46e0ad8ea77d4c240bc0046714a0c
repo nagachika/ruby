@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境およびいろんなコンパイラオプションを試す workflow で UPDATE_UNICODE を設定するのが残ってたのを削除しています。もう不要になっているため。
