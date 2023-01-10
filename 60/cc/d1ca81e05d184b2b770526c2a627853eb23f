@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で bundler の同期時に除外する LICENSE や COPYING などのライセンス記述系のファイルがいっぱいあったのをリストアップして書いていたのを Dir.glob でパターンマッチで書くように変更しています。
