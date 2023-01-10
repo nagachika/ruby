@@ -1,0 +1,1 @@
+拡張ライブラリ psych の gemspec ファイルに f877805a0c9dcb90635f4b3d100a4367bf346c4a で追加した specmetadata['msys2_mingw_dependencies'] の設定から libyaml-devel を削除しています。 libyaml-devel というパッケージはなかったとのこと。
