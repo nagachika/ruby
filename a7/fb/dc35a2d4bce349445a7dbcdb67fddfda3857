@@ -1,0 +1,1 @@
+YJIT の Rust 実装で JIT 生成したコードの disasm のダンプ時に余計なコメントを削除するようにしているようです。 https://github.com/ruby/ruby/pull/7083
