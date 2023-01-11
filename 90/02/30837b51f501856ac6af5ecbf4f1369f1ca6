@@ -1,0 +1,1 @@
+60ccd1ca81e05d184b2b770526c2a627853eb23f で tool/sync_default_gems.rb の bundler の同期処理でライセンス関係のファイルを Dir.glob のパターンで指定するように変更していた時に bundler とすべきところを bundle にしていたのを修正しています。
