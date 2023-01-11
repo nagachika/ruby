@@ -1,0 +1,1 @@
+.gdbinit の set logging のパラメーターを on から enabled に修正しています。 deprecation warning が出ていたとのことで。
