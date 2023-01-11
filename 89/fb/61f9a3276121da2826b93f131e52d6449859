@@ -1,0 +1,1 @@
+LEGAL に bundler に同梱されている lib/bundler/vendor/pub_grub についてのライセンス表記を追加しています。逆に lib/bundler/vendor/molinillo はなくなったので LEGAL からファイルパスの参照を消しています。
