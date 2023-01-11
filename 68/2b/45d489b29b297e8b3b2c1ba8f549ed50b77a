@@ -1,0 +1,1 @@
+GC.compact のテストに compaction で移動した T_OBJECT 型のオブジェクトがインスタンス変数を slot に埋め込みされる挙動について ObjectSpace.dump を利用して確認するテストを追加しています。実装に依存しそうなテストですね(JRuby とかでは動かなさそう)。
