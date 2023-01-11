@@ -1,0 +1,1 @@
+str_duplicate_setup() という String オブジェクトの複製の関数でバッファを共有した場合に共有元のオブジェクトの struct RBasic::flags に STR_SHARED_ROOT フラグを立てるのが漏れてたのを修正しています。
