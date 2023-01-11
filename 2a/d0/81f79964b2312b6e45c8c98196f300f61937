@@ -1,0 +1,1 @@
+他にも GC.compact のテストで ObjectSpace.dump を使った slot への埋め込みの有無を確認するテストを追加しています。
