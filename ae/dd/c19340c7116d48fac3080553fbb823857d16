@@ -1,0 +1,1 @@
+YJIT の Rust 実装で ruby 実装のメソッドから C の関数を呼び出す時の処理漏れで異常終了することがあった不具合の修正。 sp の更新が遅れていたためマシンスタックの GC mark 漏れが発生していたみたいです。 https://github.com/ruby/ruby/pull/7090 [ruby-core:111693] [Bug #19316]
