@@ -1,0 +1,1 @@
+拡張ライブラリ psycn の ext/psych/lib/psych/class_loader.rb や ext/psych/lib/psych/tree_builder.rb で Module#class_eval に文字列を渡してメソッド定義する時にファイル名と行番号の引数を渡して位置情報が取れるようにしています。
