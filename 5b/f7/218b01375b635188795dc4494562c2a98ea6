@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Array のオブジェクトとそれ以外の T_ARRAY 型のオブジェクト(Array のサブクラスのインスタンス)とを区別することで不要な処理を省略する最適化をしているみたいです。 https://github.com/ruby/ruby/pull/7091
