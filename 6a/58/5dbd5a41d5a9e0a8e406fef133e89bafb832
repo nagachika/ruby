@@ -1,0 +1,1 @@
+YJIT の Rust 実装でビルド時の警告抑制のため関数の定義を条件コンパイルするようにしています。 https://github.com/ruby/ruby/pull/7092
