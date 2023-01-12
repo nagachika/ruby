@@ -1,0 +1,1 @@
+array.c の ARY_SET_SHARED() という関数マクロは rb_ary_set_shared() でほぼ同様の処理をしていたのでこの関数を利用するようにしてマクロ定義を削除しています。ただしマクロで行なっていた RB_OBJ_WRITE() による RGenGC のための write barrier の挿入を関数のほうに追加(というかマクロ呼び出しと置き換え)しています。
