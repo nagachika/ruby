@@ -1,0 +1,1 @@
+common.mk の make test-syntax-suggest および make test-bundler など rspec を利用してテストするものでプログレス出力にモンキーパッチをあてる spec/lib/formatter_overrides.rb というファイルを追加してこれを rspec の --require オプションで読み込ませるようにしています。 pending の出力? を抑制するため。
