@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI のキーバインディングに Delete キーを表す "kdch1" の対応を追加しています。また Reline::ANSI.set_default_key_bindings メソッドにキーワード引数 allow_terminfo を追加して Reline::Terminfo の機能を使ってキーバインディングを設定するかどうかを引数で制御できるようにしています。テストで強制的に terminfo を利用させるようにするためみたいですね。
