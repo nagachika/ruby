@@ -1,0 +1,1 @@
+make test-bundler-prepare で bundle install 相当のコマンド実行する時に --quiet オプションを渡してメッセージを抑制するようにしています。
