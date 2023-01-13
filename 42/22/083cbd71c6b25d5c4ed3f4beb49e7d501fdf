@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで teardown で Reline#test_mode を呼び出して状態を復帰させる後始末を追加しています。
