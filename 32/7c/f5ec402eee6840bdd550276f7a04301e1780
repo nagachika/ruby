@@ -1,0 +1,1 @@
+tool/rbs_skip_tests で bundled gems の rbs のテストで 6abe20e87b74a5a672dc59f72fa1f550ceab430c の Encoding#replicate 削除で失敗してしまうテストを skip するようにしています。
