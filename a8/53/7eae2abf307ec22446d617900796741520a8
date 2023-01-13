@@ -1,0 +1,1 @@
+標準添付ライブラリ mutex_m で alias を定義するためだけに module_eval を利用していたのを Module#alias_method メソッドを利用するようにリファクタリングしています。
