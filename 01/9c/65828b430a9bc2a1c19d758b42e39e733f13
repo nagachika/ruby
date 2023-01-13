@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::RubyLex#check_state や #process_continue, #check_code_block などの tokens という引数を省略可能にしていたのが不要だったみたいで必須の引数に変更しています。
