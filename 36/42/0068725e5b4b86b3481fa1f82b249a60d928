@@ -1,0 +1,1 @@
+YJIT の JIT コードの disasm 出力時のコメントを追加しています。 https://github.com/ruby/ruby/pull/7105
