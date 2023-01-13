@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs の指定に commit hash を追加しています。テストのメッセージの量を減らすための変更を取り込むためみたいです。 https://github.com/ruby/rbs/pull/1207
