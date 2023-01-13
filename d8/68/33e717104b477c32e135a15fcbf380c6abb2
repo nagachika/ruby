@@ -1,0 +1,1 @@
+構造体 rb_classext_t の variation_count メンバーの型を uint32_t から unsigned char に変更しています。Object Shapes の variation の数の上限は 8bit でおさまるので小さくしたそうです。
