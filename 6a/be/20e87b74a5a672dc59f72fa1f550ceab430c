@@ -1,0 +1,1 @@
+Encoding#replicate メソッドを削除して dummy encoding を自由に作れないようにしています。
