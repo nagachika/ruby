@@ -1,0 +1,1 @@
+4222083cbd71c6b25d5c4ed3f4beb49e7d501fdf の標準添付ライブラリ reline の teardown の処理追加を revert して teardown から元々呼んでた test_reset メソッドのほうに同様の処理を書くようにリファクタリングしています。
