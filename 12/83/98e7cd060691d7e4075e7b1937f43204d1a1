@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の lib/irb/lc/ja/error.rb に script encoding を指定するマジックコメントが残ってたのを削除しています。デフォルトが UTF-8 になったので不要になっているので。
