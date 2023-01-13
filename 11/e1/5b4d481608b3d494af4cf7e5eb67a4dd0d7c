@@ -1,0 +1,1 @@
+標準添付ライブラリ racc の生成する ruby スクリプトに Ractor.make_shareable の呼び出しを追加して複数 Ractor 対応するようにしているようです。
