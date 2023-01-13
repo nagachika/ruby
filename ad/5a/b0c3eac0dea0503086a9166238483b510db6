@@ -1,0 +1,1 @@
+vm_call_method_each_type() 内で struct rb_callcache の flags メンバーへの代入で不要な INVALID_SHAPE_ID の埋め込みを削除しています。 T_IMEMO 型オブジェクトなので不要ということかな。
