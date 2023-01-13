@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の lib/reline/unicode/east_asian_width.rb で保持している Unicode テーブルを Unicode 15.0.0 に対応するよう更新しています。
