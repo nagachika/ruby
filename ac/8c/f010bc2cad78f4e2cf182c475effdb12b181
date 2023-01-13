@@ -1,0 +1,1 @@
+variable.c の Class/Module の名前を取得する関数 classname() で RCLASS_EXT() の NULL チェックをしていた if 文を削除しています。NULL はありえないからとのこと。
