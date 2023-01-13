@@ -1,0 +1,1 @@
+hash.c 内の hash_stlike_lookup() という関数で関数ポインタで保持している st_table::type::hash の関数が 3種類のいずれかであることを確認する RUBY_ASSERT() を追加しています。コミットログを読んだ感じだとドキュメントとしてここで hash メンバーが持つ関数はこの 3つだけだぞ、というのを明示するためという意図みたいです。 https://github.com/ruby/ruby/pull/7107
