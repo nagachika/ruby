@@ -1,0 +1,1 @@
+GitHub Actions の workflow .github/workflows/baseruby.yml と .github/workflows/spec_guards.yml の対象の ruby バージョンに 3.2 を追加しています。
