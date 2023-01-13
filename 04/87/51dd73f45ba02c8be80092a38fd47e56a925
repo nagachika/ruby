@@ -1,0 +1,1 @@
+bcdc058e50674aedb180eea91e0fdb15bcf529db に続いて標準添付ライブラリ racc の別の箇所でも class_eval にファイル名と行番号を渡すようにしています。
