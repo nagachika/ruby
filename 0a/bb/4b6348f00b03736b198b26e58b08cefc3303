@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor で check_multiline_prompt メソッドに色付けのための? エスケープシーケンスを含んだ文字列でなく元の文字列を渡すようにしています。
