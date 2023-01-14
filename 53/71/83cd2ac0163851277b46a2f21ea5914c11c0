@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_ccs_create() という関数で RGenGC のための Write Barrier が不足していたのを追加しています。このために callcache のテーブル cc_tbl と mid を引数に追加して呼び元であとで呼んでいた rb_id_table_insert() の呼び出しをこの関数内に移動しています。
