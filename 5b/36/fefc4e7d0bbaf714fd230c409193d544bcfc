@@ -1,0 +1,1 @@
+File.atime, mtime, ctime などのメソッドのテストで File.stat で chardev? が新の時だけ呼ぶようにしています。 /dev/null について呼ぶとエラーになる場合があったみたいです。
