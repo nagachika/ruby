@@ -1,0 +1,1 @@
+vm_backtrace.c の rb_profile_frames() の先頭で引数の cfp の NULL チェックを追加しています。 Thread 作成直後でまだ cfp が用意されていないタイミングで呼ばれる可能性があるのでその場合異常終了していたのでその修正みたいです。
