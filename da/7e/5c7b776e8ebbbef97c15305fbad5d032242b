@@ -1,0 +1,1 @@
+yjit.rb の RubyVM::YJIT.insns_compiled メソッドの定義で RubyVM::YJIT.enabled? でチェックするのをメソッドの先頭に移動して無効化時に不要な処理をスキップするようにしています。 https://github.com/ruby/ruby/pull/7112
