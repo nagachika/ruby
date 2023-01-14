@@ -1,0 +1,1 @@
+537183cd2ac0163851277b46a2f21ea5914c11c0 の RGenGC 用の WriteBarrier 追加の変更で VM_CHECK_MODE が 0 の時に未使用変数の警告が出るようになっていたので、preprocessor 分岐を追加して必要な箇所でのみ変数宣言するようにしています。
