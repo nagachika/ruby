@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で eval で動的に定義するメソッド内で require_relative を receiver なしで起動していたのを Kernel.require_relative と Kernel モジュールの特異メソッドとして呼ぶようにしています。またクラスメソッドの呼び出しのための ExtendCommand モジュールを ::IRB::ExtendCommand とフルパスで参照するようにしています。main が freeze されていた時にうまく動かなかったのでその対策だそうです。
