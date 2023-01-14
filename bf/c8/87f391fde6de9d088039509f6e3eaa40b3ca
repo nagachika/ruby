@@ -1,0 +1,1 @@
+string.c に str_enc_copy_direct() という static 関数を追加して各種メソッドの実装の関数から str_enc_copy() のかわりにこちらを利用するようにしています。高速化のため Encoding の index が flags に埋め込み可能な範囲なら ENCODING_SET_INLINED() だけ呼んで flags へのセットだけ行うようにして不要なチェックを省くようにしているようです。
