@@ -1,0 +1,1 @@
+GitHub Actions と Cirrus の YJIT のテスト用の workflow で Rust 実装の linter clippy というのを実施するステップを追加しています。でおそらくこれで指摘された部分の修正も同時に含んでいるようです。 https://github.com/ruby/ruby/pull/7093
