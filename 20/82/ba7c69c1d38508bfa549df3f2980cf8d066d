@@ -1,0 +1,1 @@
+拡張ライブラリ psych の gemspec の JRuby 版の時の spec.files から ext/java/org/jruby/ext/psych/PsychYamlTree.java というファイルのエントリを削除しています。
