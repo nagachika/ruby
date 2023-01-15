@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::RubyLex#initialize に context を引数として追加してこのクラスの各種メソッドで context キーワード引数で個別に渡していたのをインスタンス変数に格納しておいた context を参照するように変更しています。
