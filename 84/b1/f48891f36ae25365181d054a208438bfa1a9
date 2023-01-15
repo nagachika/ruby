@@ -1,0 +1,1 @@
+YJIT の Rust 実装で VALUE 型のビット数を毎回 8 * SIZE_OF_VALUE で計算していたのを VALUE_BITS という定数を定義して参照するようにリファクタリングしています。
