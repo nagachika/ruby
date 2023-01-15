@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで IRB::RubyLex を継承したクラスを定義していたところがあったので 019c65828b430a9bc2a1c19d758b42e39e733f13 や cb9b885e78bb87195d483df1afedf58d0bb81e41 での IRB::RubyLex の実装の変更に追随させています。
