@@ -1,0 +1,1 @@
+rb_str_concat_literals() という関数で concat 結果の文字列サイズが小さかったら rb_str_resurrect() で先頭の文字列に埋め込むようにしていた最適化をやめています。 Variable Width Allocation で文字列オブジェクトの slot に埋め込めるサイズが可変になったので不要になったとのことで。
