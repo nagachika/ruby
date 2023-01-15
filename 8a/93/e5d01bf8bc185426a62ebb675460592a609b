@@ -1,0 +1,1 @@
+rb_str_concat_literals() でも bfc887f391fde6de9d088039509f6e3eaa40b3ca で導入された str_enc_copy_direct() を利用するようにして不要なチェックを省いています。
