@@ -1,0 +1,1 @@
+GitHub Actions で default gems や bundled gems のバージョンの更新を検出して NEWS のバージョンリストを更新する処理を tool/update-NEWS-gemlist.rb という専用のツールに切り出しています。
