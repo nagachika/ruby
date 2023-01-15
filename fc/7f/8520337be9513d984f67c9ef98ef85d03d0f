@@ -1,0 +1,1 @@
+3ecffae8e81b8c508b4b964643a1468718452054 で追加した tool/update-NEWS-gemlist.rb で bundled gems になった gem を NEWS に追記するのも自動的に行なわれるようにしています。
