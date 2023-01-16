@@ -1,0 +1,1 @@
+1ddeb7473d231fa68bd972442937e9fb5c994cb5 で common.mk に追加した uncommon.mk と $(MKFILES) の $(REVISION_H) への依存関係をコメントアウトしています。 "infinite rebuilding" が起きるからとのことなのでなぜかこの依存関係を追加すると余計なビルドが実行されてしまうようです。
