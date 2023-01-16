@@ -1,0 +1,1 @@
+Integer#reminder や Numeric#reminder で引数が数値でなかった時に coerce メソッドで変換する数値系メソッドのお作法が未実装だったので coerce の呼び出しを追加しています。 https://github.com/ruby/ruby/pull/7120 [ruby-core:111798] [Bug #19335]
