@@ -1,0 +1,1 @@
+template/Makefile.in の $(MKFILES) の依存関係に $(REVISION_H) をつけていたのを common.mk に移動しています。また uncommon.mk にも直接 $(REVISION_H) への依存関係を追加しています。コミットログをみると template/Makefile.in から生成される Makefile の部分ではまだ REVISION_H 変数が定義されていないのでうまく依存関係がつけられてなかったみたいです。
