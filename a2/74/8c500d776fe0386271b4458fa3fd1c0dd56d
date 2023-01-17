@@ -1,0 +1,1 @@
+11f28f3268f9234b6310bc659de7e46dfc5c0706 で doc/string/encode.rdoc の String#encode に追記した同じ Encoding に変換する時に処理しないという記述に、キーワード引数 invalid に :replace を渡さなかった時に限ると条件を追記しています。
