@@ -1,0 +1,1 @@
+468ce1488d26ffc92c940324794dc9257f72b5d2 で移動した doc/string/encode.rdoc に String#encode で同じ Encoding への変換はなにもしないので不正なバイトのチェックもしないということを追記しています。
