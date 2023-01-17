@@ -1,0 +1,1 @@
+String#encode の rdoc 用コメントを doc/transcode.rdoc という専用のファイルに別に出していたのを transcode.c のメソッド定義関数の前に戻して、同様の内容を doc/string/encode.rdoc に移動してこれを include するようにしています。
