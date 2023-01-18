@@ -1,0 +1,1 @@
+common.mk で simplecov を利用するために clone する GitHub のリポジトリの組織を変更しています。
