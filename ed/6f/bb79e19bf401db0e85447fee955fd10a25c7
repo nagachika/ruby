@@ -1,0 +1,1 @@
+常に freeze 状態にされている即値のオブジェクトの Object#instance_eval 内でインスタンス変数への代入を行なうと異常終了していたので FrozenError 例外を発生させるように修正しています。 [ruby-core:111811] [Bug #19339]
