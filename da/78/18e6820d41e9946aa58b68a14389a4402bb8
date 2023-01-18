@@ -1,0 +1,1 @@
+make help の出力に make test-syntax-suggest ターゲットについて追記しています。
