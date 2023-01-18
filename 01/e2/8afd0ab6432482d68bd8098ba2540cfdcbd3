@@ -1,0 +1,1 @@
+make help の出力の make check の内容に test-syntax-suggest も含むようになったことを追加しています。
