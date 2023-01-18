@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で libyaml のビルドのための configure に渡す --host オプションで macOS で arm64-apple-darwin22 のような名前のアーキテクチャ名の部分を arm64 から arm に変更するようにしています。libyaml の configure がこの名前はうまく認識してくれないみたいです。
