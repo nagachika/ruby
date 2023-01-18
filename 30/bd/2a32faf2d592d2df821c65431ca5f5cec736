@@ -1,0 +1,1 @@
+Regexp.new の rdoc 用コメントに第2引数 options に想定外の値が渡された時に case-insensitive な正規表現としてコンパイルされることを追記しています。え、そうなんだ。 https://github.com/ruby/ruby/pull/7130
