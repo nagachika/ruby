@@ -1,0 +1,1 @@
+Comparable#clamp の引数の min と max の大小関係がおかしい時の ArgumentError 例外のメッセージを変更しています。英文の添削みたいですね。
