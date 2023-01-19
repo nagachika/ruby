@@ -1,0 +1,1 @@
+テストの coverage を取るための simplecov を GitHub のリポジトリを直接 clone して使っていたのを rubygems.org から gem パッケージをとってきてインストールしたものを使うように変更しています。
