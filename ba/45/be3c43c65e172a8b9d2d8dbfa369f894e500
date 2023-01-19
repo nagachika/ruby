@@ -1,0 +1,1 @@
+6698b580ddad8cfa8c5c86df9328472820d3ee6a で並列テストのための Test::Unit::Parallel#_run_suite の後始末で Gem.clear_paths を呼ぶようにしたのを revert しています。 bundled gems のテスト? で警告が出るようになってたそうです。
