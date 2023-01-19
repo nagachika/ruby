@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のバイナリフォーマットからのロード時に割り込みチェックのポイントがあると debug.gem で ObjectSpace.each_iseq で ISeq を辿っている時にエラーになることがあるそうで、vm_insnhelper.c の rb_vm_pop_frame() のかわりに RUBY_VM_CHECK_INTS() を呼ばないバージョンの rb_vm_pop_frame_no_int() という関数を定義してこれを利用するようにしています。 [ruby-core:111849] [Bug #19348]
