@@ -1,0 +1,1 @@
+18d8333c30ff84252231524e10f5a45b795e90b3 の追加変更で make update-coverage でインストールする simplecov.gem のバージョンを 0.20.0 に固定するようにしています。
