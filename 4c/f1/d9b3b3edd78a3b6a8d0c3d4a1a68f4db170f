@@ -1,0 +1,1 @@
+YJIT のテスト用の GitHub Actions の workflow で環境変数 RUST_BACKTRACE=1 を設定しておくようにしています。 https://github.com/ruby/ruby/pull/7152
