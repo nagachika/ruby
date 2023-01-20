@@ -1,0 +1,1 @@
+RGenGC 用の Write Barrier のためのマクロ RB_OBJ_WRITE() が include/ruby/internal/rgengc.h で定義されているのに重複して internal/gc.h でも定義されていたとのことでこちらの定義を削除しています。
