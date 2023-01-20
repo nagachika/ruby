@@ -1,0 +1,1 @@
+String#byuteslice で引数に渡された文字列オブジェクトを返していたのを receiver を返すように戻り値を変更しています。 [ruby-core:111674] [Feature #19314]
