@@ -1,0 +1,1 @@
+YJIT で String#empty? メソッドに対して専用の機械語を生成するようにしています。 https://github.com/ruby/ruby/pull/7148
