@@ -1,0 +1,1 @@
+拡張ライブラリ coverage のテストで Kernel#eval 内の coverage を取るテストに使うスクリプトを変更して分岐などを追加しています。 https://github.com/ruby/ruby/pull/7041
