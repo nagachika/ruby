@@ -1,0 +1,1 @@
+YJIT が生成した x86 版のコードの関数呼び出しの命令の種類ごとのカウンタを追加して --yjit-stats で出力するようにしています。 https://github.com/ruby/ruby/pull/7142
