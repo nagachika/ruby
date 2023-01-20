@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の dialog の表示処理でスクロールバーの表示が化ける? ことがあった不具合の修正。
