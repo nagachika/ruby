@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md の BASERUBY のバージョンのところに Ubuntu の最新の LTS バージョンのパッケージで入る ruby のバージョンに追随して必要バージョンの想定を上げていくよという方針を追記しています。 [ruby-core:97355] [Misc #16671]
