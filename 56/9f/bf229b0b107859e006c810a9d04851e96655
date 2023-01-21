@@ -1,0 +1,1 @@
+GNU Make の時に make up ターゲット実行後に make after-update も実行するようにしています。
