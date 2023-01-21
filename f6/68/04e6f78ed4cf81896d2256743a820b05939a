@@ -1,0 +1,1 @@
+クラス変数の代入時に Module/Class が freeze されてないかのチェックを追加しています。 [ruby-core:111813] [Bug #19341]
