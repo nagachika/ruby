@@ -1,0 +1,1 @@
+gc.c に rb_gc_mark_and_move() という rb_gc_mark() と rb_gc_location() をあわせたような関数を追加して rb_gc_mark_movable() の代替に使うようにしています。ソースの読みやすさのためというのが主眼みたいです。
