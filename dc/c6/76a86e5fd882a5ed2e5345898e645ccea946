@@ -1,0 +1,1 @@
+ISeq の参照を GC.compact による移動に追随させる関数 rb_iseq_update_references() で iseq->body->call_data の struct rb_call_data#ci メンバーの内容をチェックしているところで vm_ci_markable() を呼んだりしている箇所で NULL かそうでないかだけで充分だったみたいなのでチェックを緩和しています。
