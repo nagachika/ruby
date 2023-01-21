@@ -1,0 +1,1 @@
+41bf2354e30fc585a61528560c291fd8ee77d107 で gc.c の改名して mark と compaction のための参照移動の処理をまとめた rb_iseq_mark_and_update() の読みやすたのためのリファクタリング。
