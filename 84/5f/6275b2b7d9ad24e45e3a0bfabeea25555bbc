@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md で OpenSSL/LibreSSL、zlib、libyaml については optional ではなくて必須条件のところに移動しています。
