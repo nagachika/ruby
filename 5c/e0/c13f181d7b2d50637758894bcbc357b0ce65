@@ -1,0 +1,1 @@
+詳細わかりませんが YJIT の Rust 実装の分岐の管理の構造を変更しているみたいです。 https://github.com/ruby/ruby/pull/7151
