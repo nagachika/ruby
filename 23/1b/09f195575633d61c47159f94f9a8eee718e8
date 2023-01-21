@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md の依存パッケージなどの OpenSSL と libyaml のバージョンの指定を追記しています。
