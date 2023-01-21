@@ -1,0 +1,1 @@
+rubygems のテストに不要な Kernel#puts の呼び出しが残ってたのを削除しています。ついでに assert のかわりに assert_predicate を使ってエラー時のメッセージを改善しています。
