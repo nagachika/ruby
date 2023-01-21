@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md に BASERUBY の必要バージョンとして 2.7以降と書かれてましたが 2.2 以降に修正しています。
