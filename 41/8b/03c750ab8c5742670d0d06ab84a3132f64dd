@@ -1,0 +1,1 @@
+意図しない関数名や変数名などのシンボルの公開をチェックする leaked-globals で typedef ではじまるシンボルは無視するようにしています。また nm コマンドに渡す -Pgp オプションはツール内に直書きせず template/Makefile.in の leaked-globals ターゲットのコマンドで指定しておくようにしています。
