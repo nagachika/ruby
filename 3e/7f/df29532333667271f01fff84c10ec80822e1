@@ -1,0 +1,1 @@
+doc/windows.md というドキュメントファイルを追加しています。 Windows 環境(mingw)でのビルド方法について簡単にまとめているようです。 https://github.com/ruby/ruby/pull/6956
