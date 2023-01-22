@@ -1,0 +1,1 @@
+YJIT の Rust 実装で ISeq の構造体の GC.comact による移動の影響か BorrowError が発生していたとのことで rb_yjit_iseq_update_references() の途中で borrow() を再度呼ぶようにしています。 https://github.com/ruby/ruby/pull/7164
