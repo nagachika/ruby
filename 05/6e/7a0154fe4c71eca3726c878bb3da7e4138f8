@@ -1,0 +1,1 @@
+rb_iseq_t やその配下の struct iseq_compile_data_storage や rb_hook_list_t 構造体の mark 関数で GC.compact による移動をサポートするように pin down をやめています。
