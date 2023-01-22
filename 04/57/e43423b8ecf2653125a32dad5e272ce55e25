@@ -1,0 +1,1 @@
+thread.c の struct thgroup 構造体のメンバー group がもう不要になっていたとのことで削除しています。
