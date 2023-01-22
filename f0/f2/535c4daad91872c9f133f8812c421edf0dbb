@@ -1,0 +1,1 @@
+Thread::Queue や Thread::SizedQueue の実装で alignment のとれてないメンバーへのアクセスのために利用する queue_list() や szqueue_list() というマクロ定義を追加してこれを利用するようにリファクタリングしています。
