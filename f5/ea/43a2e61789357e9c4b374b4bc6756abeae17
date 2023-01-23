@@ -1,0 +1,1 @@
+2c93c554019ebdc394d3c51c6d925620d3005f84 の修正とも関連して coverage のテストを test-all と rubyspec に追加しています。 https://github.com/ruby/ruby/pull/7171  [ruby-core:111950] [Bug #19360]
