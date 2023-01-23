@@ -1,0 +1,1 @@
+iseq.c の rb_iseq_new_top() から現在 coverage 情報がセットアップ済みかチェックしてまだなら iseq_setup_coverage() を呼んでおく処理を iseq_new_setup_coverage() という関数に切り出して rb_iseq_new_main() から呼ぶようにしています。コマンドラインオプションの -r でロードしたスクリプトから coverage を有効にした時にうまくトップレベルのスクリプトの coverage が取れないという不具合の修正のようです。 https://github.com/ruby/ruby/pull/7169 [ruby-core:111950] [Bug #19360]
