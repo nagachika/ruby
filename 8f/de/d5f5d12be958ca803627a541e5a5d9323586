@@ -1,0 +1,1 @@
+拡張ライブラリ psych の YAML.safe_dump の permitted_classes が Symbol を含む時に任意の Symbol を受付けるようにしている? みたいです。変更内容をみると permitted_symbols キーワード引数のチェックのところで permitted_classes も考慮するようにしているのが主な変更? もうひとつの変更はあってもなくても変わらないような気がする。
