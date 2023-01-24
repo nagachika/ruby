@@ -1,0 +1,1 @@
+common.mk の update-coverage ターゲットの依存関係に main を追加しています。
