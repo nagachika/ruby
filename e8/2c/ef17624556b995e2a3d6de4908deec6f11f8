@@ -1,0 +1,1 @@
+parse.y の static 関数 tokenize_ident() から未使用の引数 last_state を削除しています。
