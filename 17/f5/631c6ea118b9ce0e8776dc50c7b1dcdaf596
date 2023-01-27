@@ -1,0 +1,1 @@
+make extract-gems で gems/bundled_gems に commit hash やタグの指定が記述されていた時にリポジトリから clone してきたソースコードから gem をビルドするようにしています。これって make install した時もバージョンで指定したパッケージを rubygems.org からとってくるかわりにビルドしたものを install することになるのかな? [ruby-core:111812] [Bug #19340]
