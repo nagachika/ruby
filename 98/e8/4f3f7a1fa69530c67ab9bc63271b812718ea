@@ -1,0 +1,1 @@
+make test-all のテスト時の coverage を取るための tool/test-coverage.rb で除外するファイルパスに tool/lib や lib/bundler/vendor などを追加しています。
