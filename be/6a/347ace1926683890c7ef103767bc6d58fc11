@@ -1,0 +1,1 @@
+17f5631c6ea118b9ce0e8776dc50c7b1dcdaf596 などの続きで defs/gmake.mk で gems/bundled_gems の commit hash やタグの指定をとりだす処理? に渡すファイル名が間違っていたのを修正しているみたいです。Makefile の難しい機能を使ってるっぽい。
