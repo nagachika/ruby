@@ -1,0 +1,1 @@
+6608d47bed660a3f5ea4c10ac6410747152db546 に対応して tool/test-coverage.rb で coverage 測定除外するディレクトリとして spec も追加しています。
