@@ -1,0 +1,1 @@
+configure で BASERUBY にオプションを追加するのに RUBY_APPEND_OPTION というコマンドを利用して重複したオプション追加を抑制するようにしています。
