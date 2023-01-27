@@ -1,0 +1,1 @@
+make test-spec つまり rubyspec でも環境変数 COVERAGE が設定されたら coverage 測定するようにしています。
