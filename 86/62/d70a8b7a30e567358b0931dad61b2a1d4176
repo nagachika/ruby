@@ -1,0 +1,1 @@
+98e84f3f7a1fa69530c67ab9bc63271b812718ea に続いて tool/test-coverage.rb で coverage 測定除外するファイルに lib/rubygems/ の配下の vendoring されている gem のディレクトリを追加しています。
