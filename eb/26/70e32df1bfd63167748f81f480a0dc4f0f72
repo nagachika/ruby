@@ -1,0 +1,1 @@
+e25c173c97e1e0e538aeb85734cabcbb59cd11ab で標準添付ライブラリ reline から win32api を require する時の feature 名を大文字小文字を区別するように変更したのを revert しています。 JRuby のためとのことでしたが JRuby 側で修正されたのかな?
