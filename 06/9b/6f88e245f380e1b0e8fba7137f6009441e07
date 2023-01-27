@@ -1,0 +1,1 @@
+さらに tool/test-coverage.rb の coverage 測定除外するディレクトリの指定を tool/ 配下全て無視するように追加しています。
