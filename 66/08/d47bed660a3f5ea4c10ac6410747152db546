@@ -1,0 +1,1 @@
+make test-syntax-suggest でも環境変数 COVERAGE の指定で coverage 測定できるようにしています。
