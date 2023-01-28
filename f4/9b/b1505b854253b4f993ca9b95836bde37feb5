@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のヘッダファイル ext/fiddle/fiddle.h に ALIGN_OF() マクロを _Alignof() を利用して定義するようにしています。ただし古い GCC には不具合があるそうなのでその場合のために offsetof() を使った定義も preprocessor 分岐して残しています。 https://github.com/ruby/fiddle/pull/120
