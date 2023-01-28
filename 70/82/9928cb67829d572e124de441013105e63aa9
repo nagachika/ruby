@@ -1,0 +1,1 @@
+rubygems の Gem::List というクラスを deprecate 定数として、rdoc によるドキュメントも抑制するように :nodoc: タグを追加しています。削除予定みたいです。
