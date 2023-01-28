@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで upstream リポジトリ内でのテストのために envutil への依存をやめて core_assertions の require を追加しています。
