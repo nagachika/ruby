@@ -1,0 +1,1 @@
+Coverage 情報のセットアップのための iseq_new_setup_coverage() から iseq_setup_coverage() を呼ぶ時に line_offset 引数をちゃんと伝播させるようにしています。まあただ今の呼び元は常に 0 なので現状では実質的な変更はないみたいです。 https://github.com/ruby/ruby/pull/7177
