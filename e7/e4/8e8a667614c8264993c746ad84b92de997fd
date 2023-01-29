@@ -1,0 +1,1 @@
+configure で objcopy コマンドに相当するコマンドを変数 OBJCOPY に設定するための AC_CHECK_TOOLS() でみつからなかった時に ":" をセットしておくようにしています。これも YJIT で OBJCOPY 変数が必要だからとのこと。 [ruby-core:111402] [Bug #19255]
