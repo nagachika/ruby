@@ -1,0 +1,1 @@
+YJIT の Rust 実装で 1箇所からしか呼ばれてなかった関数を削除してインラインに展開するリファクタリング。 https://github.com/ruby/ruby/pull/7198
