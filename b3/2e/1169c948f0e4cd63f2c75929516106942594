@@ -1,0 +1,1 @@
+YJIT で省略可能引数を持つメソッドに *x のように splat 引数を渡したメソッドの呼び出しをした時の YJIT 対応追加しているようです。 https://github.com/ruby/ruby/pull/7166
