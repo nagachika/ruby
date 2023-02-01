@@ -1,0 +1,1 @@
+6d1077974f39f216c80217f4957f089f3aa2094f の再修正。GitHub Actions の Ubuntu 環境の workflow の matrix の書きかたを一部元に戻しています。 https://github.com/ruby/ruby/pull/7207
