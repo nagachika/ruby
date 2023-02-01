@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテスト test/psych/test_yaml.rb の空白の除去。YAML 1.2 対応のためみたいです。
