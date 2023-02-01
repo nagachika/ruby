@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Config#editing_mode_is? メソッドで rest 引数について respond_to? でチェックしているところがあったけど rest 引数は必ず Array なので不要としてチェックと分岐を削っています。
