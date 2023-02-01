@@ -1,0 +1,1 @@
+file.c の preprocessor の directive の #endif や #else などにどの分岐に対応したものかわかりやすくするように条件をコメントで追記しています。
