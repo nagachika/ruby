@@ -1,0 +1,1 @@
+拡張ライブラリ socket の extconf.rb でマクロ RSTRING_SOCKLEN の定義をオプションで追加するようにするのに socklen_t の型のサイズが long 以上かどうかで判定していたのを checking_for() で既にマクロ定義があるかをチェックしてから定義するように変更しています。
