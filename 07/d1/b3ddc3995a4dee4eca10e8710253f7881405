@@ -1,0 +1,1 @@
+YJIT で Object#send でメソッド呼び出しされた時のスタックの調整の処理を b32e1169c948f0e4cd63f2c75929516106942594 の splat 引数渡し対応の処理の後に移動しています。また --yjit-stats で出力するカウンタの send_args_splat_optimized を削除してかわりに send_args_splat_opt_call というカウンタを追加しています。 https://github.com/ruby/ruby/pull/7167
