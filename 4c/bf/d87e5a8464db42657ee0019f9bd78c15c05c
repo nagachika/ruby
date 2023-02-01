@@ -1,0 +1,1 @@
+rubygems による Kernel#require の上書きの挙動を抑制して本来の Kernel#require を呼び出すモードにできるようにするためGem.discover_gems_on_require= を追加して false にすると rubygems の実装はスキップするようにしています。 bundler のテストでこのためにややこしい実装をしているのを簡便にするためとのこと。
