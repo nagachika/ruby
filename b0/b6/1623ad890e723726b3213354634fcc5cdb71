@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb で redmine でチケット検索する時の Backport フィールドの内容にクオートが必要になってたのに追随しています。
