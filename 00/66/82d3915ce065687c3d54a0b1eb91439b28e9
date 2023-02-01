@@ -1,0 +1,1 @@
+465bd972ec2149be000dad9125bb8f4ab6762699 で  Integer#abs の rdoc 用コメントを .rb ファイルに移動した時にコメントアウトした状態で残してた Integer#magnitude の実装を消しています。
