@@ -1,0 +1,1 @@
+tool/mkconfig.rb で rbconfig.rb を生成する時に macOS では CONFIG["SDKROOT"] の設定を環境変数 SDKROOT や xcrun コマンドで得た sdk path を元に設定するようにしていたのを、configure 時の --prefix が /System/ の配下だった時だけにするようにしています。
