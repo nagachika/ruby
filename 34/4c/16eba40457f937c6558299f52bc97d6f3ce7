@@ -1,0 +1,1 @@
+Integer.try_convert の rdoc 用コメントを numeric.rb ファイルから numeric.c の C の実装の前に移動しています。
