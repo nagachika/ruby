@@ -1,0 +1,1 @@
+同じく rb_hash_st_table() も削除して RHASH_ST_TABLE() におきかえています。
