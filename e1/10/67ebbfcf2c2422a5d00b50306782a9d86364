@@ -1,0 +1,1 @@
+YJIT の Rust 実装の BorrowMutError の修正。 https://github.com/ruby/ruby/pull/7212
