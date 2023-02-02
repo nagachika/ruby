@@ -1,0 +1,1 @@
+GitHub Actions で pull request の reviewer を自動的に設定するための workflow .github/auto_request_review.yml で last_files_match_only というオプションを設定していたのがうまく機能しないとのことでコメントアウトしています。
