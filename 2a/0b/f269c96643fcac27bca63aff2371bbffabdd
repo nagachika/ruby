@@ -1,0 +1,1 @@
+YJIT で Kernel#block_given? メソッドの呼び出しをメソッド呼び出しせず VM スタックを直接チェックする実装を生成するようにしています。  https://github.com/ruby/ruby/pull/7202
