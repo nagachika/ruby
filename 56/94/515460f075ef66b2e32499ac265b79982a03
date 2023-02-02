@@ -1,0 +1,1 @@
+make help の make test-bundled-gems の説明に環境変数 BUNDLED_GEMS の指定について追記しています。
