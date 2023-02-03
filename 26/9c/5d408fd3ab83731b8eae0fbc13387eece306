@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb の done コマンドで引数にチケット番号を渡さずに commit hash だけ指定した時のために空白の有無を問わないようにしています。 done に引数指定できたんだ。
