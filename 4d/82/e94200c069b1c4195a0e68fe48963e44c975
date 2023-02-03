@@ -1,0 +1,1 @@
+.gitignore に ripper.tmp.y を追加。また rb_mjit_header.h.new も無視するため rb_mjit_header.h の末尾に任意の文字列をついたものも無視するようにしています。
