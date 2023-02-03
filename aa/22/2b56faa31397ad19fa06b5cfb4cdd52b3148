@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal で BigDecimal のインスタンスは RGenGC 用の Write Barrier で保護されていることを示す RUBY_TYPED_WB_PROTECTED フラグを立てて generation の管理されるようにしています。
