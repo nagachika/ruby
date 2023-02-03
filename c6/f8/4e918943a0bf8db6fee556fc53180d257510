@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の free 関数が struct weakmap 自体のポインタの解放をしていなかったためメモリリークしていた不具合を修正しています。 [ruby-core:112172] [Bug #19398]
