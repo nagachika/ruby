@@ -1,0 +1,1 @@
+hash.c の hash_copy() で else if 節の条件は不要なのでただの else に変更しています。
