@@ -1,0 +1,1 @@
+YJIT の Rust 実装のビルド時に disasm が有効にされてた時の出力にコード生成の元になった呼び出しメソッド名などを含めるようにしているみたいです。 https://github.com/ruby/ruby/pull/7231
