@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の rdoc 用コメント用に doc/net-http/ にファイルを置いて :include: で rdoc 用コメント内に埋め込むようにしています。
