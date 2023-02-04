@@ -1,0 +1,1 @@
+Array のオブジェクトを共有化する時に RARRAY_PTR() のかわりに RARRAY_CONST_PTR() を利用するようにして RGenGC の WB unprotected (shady object) になるのを避けるようにしています。
