@@ -1,0 +1,1 @@
+rubygems の tar を読む Gem::Package::TarReader::Entry#read と #read_partial メソッドで読み込みバイトの指定が 0以下の時の挙動を IO と合わせるように修正しています。
