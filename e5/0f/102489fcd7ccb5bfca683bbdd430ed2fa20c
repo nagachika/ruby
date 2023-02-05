@@ -1,0 +1,1 @@
+GitHub Actions の annocheck を使ったチェックのアクションで最適化フラグ -O2 は optflags 変数経由で渡すようにしています。また annocheck のオプションに --skip-gaps というのを追加しています。
