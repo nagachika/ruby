@@ -1,0 +1,1 @@
+YJIT でブロックを呼び出す invokeblock 命令の実装で ifunc によるブロックの実装の時は JIT 化に対応していなかったのを対応するようにしているようです。 ifunc というのは確か Symbol から生成した(ary.map(&:to_i) みたいに)メソッド呼び出しになるブロックのことだったかな。 https://github.com/ruby/ruby/pull/7233
