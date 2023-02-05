@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の標準の rake タスクに rdoc:coverage および rdoc_dev:coverage を追加しています。 -C オプションを追加して rdoc コマンドを実行するみたいですね。
