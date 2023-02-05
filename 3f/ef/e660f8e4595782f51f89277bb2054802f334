@@ -1,0 +1,1 @@
+Struct.new の rdoc 用コメントの call-seq のキーワード引数 keyword_init のデフォルト値が古くなってたので修正しています。 https://github.com/ruby/ruby/pull/7246
