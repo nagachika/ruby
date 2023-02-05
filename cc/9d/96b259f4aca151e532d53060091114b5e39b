@@ -1,0 +1,1 @@
+Struct からクラスを生成する時の処理で st_table を直接扱わず rb_hash_xxx() と Hash オブジェクトを操作する関数を利用することで Struct のインスタンス(クラス)を WB-unprotected にしないようにしています。
