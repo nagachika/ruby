@@ -1,0 +1,1 @@
+File::Stat クラスのインスタンスの flags に RUBY_TYPED_WB_PROTECTED を追加して RGenGC 用の WB-protected なオブジェクトになるようにしています。
