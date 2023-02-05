@@ -1,0 +1,1 @@
+Backtrace::Location のインスタンスも flags に RUBY_TYPED_WB_PROTECTED を立てて WB-protected になるようにしています。またこのためにインスタンス生成時の構造体メンバーのセットに RB_OBJ_WRITE() を使うように修正しています。
