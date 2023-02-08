@@ -1,0 +1,1 @@
+T_DATA 型オブジェクトに mark 関数が登録されていない、つまり Write Barrier で追跡されない(かもしれない) VALUE への参照がない場合に RGenGC の WB-protected にするようにしています。
