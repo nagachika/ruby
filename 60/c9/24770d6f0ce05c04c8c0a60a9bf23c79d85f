@@ -1,0 +1,1 @@
+Encoding のインスタンスの flags に RUBY_TYPED_WB_PROTECTED を立てて RGenGC の WB-protected にしています。
