@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の rake タスクの追加処理で rdoc:coverage などのタスクの実行時に RDoc::RDoc#document の実行してなかったので追加しています。
