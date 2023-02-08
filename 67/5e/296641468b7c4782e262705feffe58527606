@@ -1,0 +1,1 @@
+template/Makefile.in に .DELETE_ON_ERROR という疑似ターゲットを追加しています。ビルド失敗時にターゲットを削除するように指定するものみたいです。
