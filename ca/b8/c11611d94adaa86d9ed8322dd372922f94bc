@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する gemspec ファイルの spec.files を git ls-files から作る時の .gemspec ファイル自身の判定をフルパスでするようにしています。
