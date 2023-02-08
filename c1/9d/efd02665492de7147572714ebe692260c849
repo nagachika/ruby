@@ -1,0 +1,1 @@
+fa49651e05a06512e18ccb2f54a7198c9ff579de の複数 Thread からの require による誤った警告の修正を revert しています。
