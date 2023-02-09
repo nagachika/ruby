@@ -1,0 +1,1 @@
+doc/distribution.md にパッケージからのビルドについてのセクションを追加して contributing/building_ruby.md のほうを参照するようにしています。というか doc/distribution.md が何のための/誰のためのドキュメントなのかよくわからないですね。
