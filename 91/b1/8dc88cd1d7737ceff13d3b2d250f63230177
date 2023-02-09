@@ -1,0 +1,1 @@
+Backtrace オブジェクトの構造体メンバーの参照更新時に RB_OBJ_WRITTEN() を付けるようにして WB-protected にしています。
