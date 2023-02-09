@@ -1,0 +1,1 @@
+GC というか ObjectSpace の管理をチューニングする環境変数に RUBY_GC_HEAP_INIT_SIZE_###_SLOTS のようなのを追加して、slot サイズごとの HEAP の slot 数を個別に指定できるようにしています。
