@@ -1,0 +1,1 @@
+6eae8e5f514db716e52ad06a2ac97e2cc3910d83 で 6e4c242130965de1cf00703c99f8821b0bd19e5b の T_DATA 型オブジェクトを WB-protected にしたのを revert したのを再度 revert して入れなおしています。うーん、どうしたんだろ。
