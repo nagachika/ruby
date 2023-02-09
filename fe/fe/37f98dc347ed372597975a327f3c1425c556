@@ -1,0 +1,1 @@
+899ea35035c5bfb78fcdbc9fbfaafba24aee49c1 の続きで include/ruby/io.h で追加した RBIMPL_ATTR_PACKED_STRUCT_UNALIGNED_BEGIN()/RBIMPL_ATTR_PACKED_STRUCT_UNALIGNED_END() を PACKED_STRUCT_UNALIGNED() のかわりに利用するようにしています。なるほどまだ使う場所を書き換えてなかっただけか。
