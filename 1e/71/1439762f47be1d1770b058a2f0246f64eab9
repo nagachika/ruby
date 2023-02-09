@@ -1,0 +1,1 @@
+GC のチューニングに使う環境変数 RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR を使ったテストで設定値を変更して影響が出やすいようにしています。
