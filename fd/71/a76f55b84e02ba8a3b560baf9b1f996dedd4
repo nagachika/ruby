@@ -1,0 +1,1 @@
+bundler の Gemfile に記述する ruby_version の対応に 3.2 と 3.3 を追加しています。
