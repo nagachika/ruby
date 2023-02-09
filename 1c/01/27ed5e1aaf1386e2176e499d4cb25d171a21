@@ -1,0 +1,1 @@
+Time オブジェクトを WB-protected にしています。 Time ってまだ shady (WB-unprotected) だったんだ!?
