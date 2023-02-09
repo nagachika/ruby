@@ -1,0 +1,1 @@
+8ce2fb9bbbaea14737c84385b1573f743a30f773 の続きで rubyspec のテストで子 Thread の処理が block するまで待つのに Thread#wakeup を呼んでたのを Thread.pass で処理を別 Thread に明け渡す方法に変更しています。 [ruby-core:112220] [Bug #19415]
