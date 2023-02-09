@@ -1,0 +1,1 @@
+UnboundMethod および Method オブジェクトも GC.compact での移動に対応する compact 関数を rb_gc_mark_and_move() を利用した mark 関数と共通の処理にするようにしています。
