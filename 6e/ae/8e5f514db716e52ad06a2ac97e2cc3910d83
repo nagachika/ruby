@@ -1,0 +1,1 @@
+6e4c242130965de1cf00703c99f8821b0bd19e5b で T_DATA 型オブジェクトを mark 関数がないものは WB-protected にするようにしたのを revert しています。
