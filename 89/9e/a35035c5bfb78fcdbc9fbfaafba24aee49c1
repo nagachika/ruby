@@ -1,0 +1,1 @@
+include/ruby/internal/attr/packed_struct.h というヘッダファイルを追加して PACKED_STRUCT() というマクロを RBIMPL_ATTR_PACKED_STRUCT_BEGIN()/RBIMPL_ATTR_PACKED_STRUCT_END() というマクロのペアを利用するようにしています。主に使ってるのは configure とか win32/Makefile.sub でコンパイラの挙動チェックする箇所かな。
