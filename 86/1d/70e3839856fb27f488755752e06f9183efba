@@ -1,0 +1,1 @@
+rb_iseq_mark_and_update() および rb_iseq_mark_and_update_insn_storage() という関数名をそれぞれ rb_iseq_mark_and_move() と rb_iseq_mark_and_move_insn_storage() と改名しています。
