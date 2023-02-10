@@ -1,0 +1,1 @@
+bundler が不正な Gemfile.lock を処理しようとした時に Thread 間の deadlock 検出を起こしてエラー終了するという不具合を修正しているようです。
