@@ -1,0 +1,1 @@
+5991af204c2b27d7d5343177e6ad247d5954a6c0 で追加した tool/gen-github-release.rb でチケット参照と pull request の参照両方あった場合にはチケット参照のほうだけ表示するようにしています。
