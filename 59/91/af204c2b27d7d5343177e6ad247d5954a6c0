@@ -1,0 +1,1 @@
+tool/gen-github-release.rb というリリースの処理に使うためのツールを追加しています。リリースブランチの各コミットの GitHub から取得したコミットログから Redmine のチケットのタイトルや GitHub の pull requests のタイトルをとってきて差分として出力するようにしているようです。
