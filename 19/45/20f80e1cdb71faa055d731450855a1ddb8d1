@@ -1,0 +1,1 @@
+標準添付ライブラリ logger に Logger#with_level というメソッドを追加しています。このメソッドに渡したブロック内でのみデフォルトのログレベルを変更するというものみたいです。 Fiber をキーとした Hash で実装されています。 Fiber local storage
