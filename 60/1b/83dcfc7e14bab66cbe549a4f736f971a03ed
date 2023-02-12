@@ -1,0 +1,1 @@
+string.c で単に rb_str_update() の別名として rb_str_splice() を呼べるようにマクロ定義していたのを消して、呼び元で rb_str_update() を呼ぶように変更しています。
