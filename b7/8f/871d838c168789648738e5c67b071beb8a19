@@ -1,0 +1,1 @@
+YJIT でコードを生成するメモリのページをシステムのメモリページサイズに合わせるようにしているようです。 arm64 環境の Linux でのエラーの対策みたいです。 https://github.com/ruby/ruby/pull/7267 [ruby-core:112179] [Bug #19400]
