@@ -1,0 +1,1 @@
+ruby-runner.c で定義していたマクロ STRINGIZE() は include/ruby/internal/config.h で既に定義されていたので削除しています。
