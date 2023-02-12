@@ -1,0 +1,1 @@
+YJIT の --yjit--stats でのカウンター類の数値の出力時に String#% で整形していたのを整形用のメソッドを追加して 3桁ごとのカンマを入れて表示するようにしています。 https://github.com/ruby/ruby/pull/7281
