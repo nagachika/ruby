@@ -1,0 +1,1 @@
+5991af204c2b27d7d5343177e6ad247d5954a6c0 で追加したリリースノートのためにコミットログからチケットや pull request のタイトルを抽出するツール tool/gen-github-release.rb で GitHub の release を作成する機能を追加しています。
