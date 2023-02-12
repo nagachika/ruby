@@ -1,0 +1,1 @@
+rb_str_update() から呼ばれてる rb_str_splice_0() と rb_str_splice_1() という関数の名称も呼び元にあわせて rb_str_update_0() と rb_str_update_1() と改名しています。
