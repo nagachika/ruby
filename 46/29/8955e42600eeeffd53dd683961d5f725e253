@@ -1,0 +1,1 @@
+MatchdData オブジェクト(T_MATCH 型のオブジェクト)の更新処理に RGenGC の Write Barrier を挿入して WB-protected にしています。
