@@ -1,0 +1,1 @@
+YJIT で Array#empty? メソッドの呼び出しをメソッドを呼ばずに配列サイズを直接調べるコードを生成するように最適化しています。 https://github.com/ruby/ruby/pull/7242
