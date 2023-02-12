@@ -1,0 +1,1 @@
+doc/maintainers.rdoc を doc/maintainers.md に移動してマークアップを Markdown に変更しています。 https://github.com/ruby/ruby/pull/7291
