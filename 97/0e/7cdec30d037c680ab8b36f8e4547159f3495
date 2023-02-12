@@ -1,0 +1,1 @@
+irb のテストの TruffleRuby 向けの分岐や skip をいくつか削除しています。
