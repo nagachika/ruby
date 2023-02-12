@@ -1,0 +1,1 @@
+YJIT の invokesuper 命令のサポートでブロック内での呼び出し時のサポートを追加しています。 https://github.com/ruby/ruby/pull/7264
