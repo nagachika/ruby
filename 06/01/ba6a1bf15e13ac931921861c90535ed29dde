@@ -1,0 +1,1 @@
+YJIT で JIT コンパイルをキャンセルする原因のひとつの send_klass_megamorphic というのにカウンターを追加して --yjit-stats で統計情報を調査できるようにしています。 https://github.com/ruby/ruby/pull/7274
