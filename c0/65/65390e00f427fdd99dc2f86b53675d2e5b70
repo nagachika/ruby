@@ -1,0 +1,1 @@
+doc/maintainers.md から標準添付から外された(そして同じ名前で bundled gems に追加されている) debug.rb についてのエントリを削除しています。
