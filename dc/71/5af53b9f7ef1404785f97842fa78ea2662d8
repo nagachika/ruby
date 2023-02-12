@@ -1,0 +1,1 @@
+misc/.vscode/launch.json の ruby 実行する時のデフォルトの引数に test.rb を渡してこのファイルを実行させるようにしています。
