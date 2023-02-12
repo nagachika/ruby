@@ -1,0 +1,1 @@
+ヘッダファイル gc.h の内容を internal/gc.h に移動(マージ)しています。 [ruby-core:112287] [Feature #19425]
