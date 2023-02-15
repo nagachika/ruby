@@ -1,0 +1,1 @@
+ISeq のバイナリフォーマットへの出力時に内部的に利用される T_TYPEDDATA 型オブジェクトが RGenGC の WB-protected にマークされてましたが、実際には Write Barrier が足りないところがあるそうでフラグを落としています。 [ruby-core:112237] [Bug #19419]
