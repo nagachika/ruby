@@ -1,0 +1,1 @@
+数値を10進数表記する時の必要な文字数を得るためのマクロ DECIMAL_SIZE_OF_BYTES() と DECIMAL_SIZE_OF() を追加するリファクタリング。
