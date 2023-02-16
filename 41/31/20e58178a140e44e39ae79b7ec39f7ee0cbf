@@ -1,0 +1,1 @@
+configure で macOS でも Windows 系の OS と同じく OBJCOPY コマンドを ":" にして利用しないようにしています。昨日の ef9efcf0bf699f772fcc2e70f96f7db840e03fc0 の続きっぽいですが macOS の LLVM の objcopy が期待したように動いてくれないみたいです。
