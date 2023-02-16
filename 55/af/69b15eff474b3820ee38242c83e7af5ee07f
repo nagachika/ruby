@@ -1,0 +1,1 @@
+YJIT でインスタンス変数参照するオブジェクトが Object Shapes で管理されない複雑なインスタンス変数のパターンや変数の数を持つ場合に JIT コード実行をあきらめてたのを rb_ivar_get() 関数呼び出しのコードに回すようにしています。 https://github.com/ruby/ruby/pull/7298
