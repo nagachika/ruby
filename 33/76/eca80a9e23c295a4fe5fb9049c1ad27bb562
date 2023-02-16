@@ -1,0 +1,1 @@
+file.c の rb_file_load_ok() という関数で file descriptor の open に失敗した時に一度 rb_gc_for_fd() を呼び出して GC で fd の回収(close)してリトライするようにしています。
