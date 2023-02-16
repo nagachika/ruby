@@ -1,0 +1,1 @@
+Ractor の実装の ractor_queue_deq() および ractor_queue_enq() 関数の不要な引数を削っています。
