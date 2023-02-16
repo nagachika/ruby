@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトで rb_classext_t の構造体が埋め込まれているかどうかの判定に SIZE_POOL_COUNT を使っていたのをより直接的な RCLASS_EXT_EMBEDDED というマクロをチェックするように変更しています。
