@@ -1,0 +1,1 @@
+YJIT の --yjit-stats オプション指定時のカウンターの表示の整形。 https://github.com/ruby/ruby/pull/7302
