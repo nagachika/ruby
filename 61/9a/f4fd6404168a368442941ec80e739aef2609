@@ -1,0 +1,1 @@
+doc/syntax/assignment.rdoc に右辺に splat 式(っていうのか?)を書いた代入の例を追記しています。 https://github.com/ruby/ruby/pull/7098
