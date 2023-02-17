@@ -1,0 +1,1 @@
+debug_counter.h のインスタンス変数の操作に関するカウンタに ivar_set_obj_hit や ivar_get_obj_miss などインラインキャッシュに関するカウンタを追加し、いくつかのカウンタは改名しています。
