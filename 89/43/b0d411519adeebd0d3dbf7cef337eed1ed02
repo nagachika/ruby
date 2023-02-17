@@ -1,0 +1,1 @@
+YJIT に Kernel#is_a? メソッドと Kernel#instance_of? メソッドを専用の実行コードにコンパイルする最適化を追加しています。 https://github.com/ruby/ruby/pull/7297
