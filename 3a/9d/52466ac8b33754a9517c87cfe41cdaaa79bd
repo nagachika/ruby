@@ -1,0 +1,1 @@
+irb の help メッセージの --multiline のほうが default になったのに記述が追随していなかったので修正しています。 https://github.com/ruby/irb/pull/506
