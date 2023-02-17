@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout でタイマー監視のためにプロセスに 1つだけ起動する Thread を ThreadGroup::Default というデフォルトの ThreadGroup に移動するという処理があったのですが、作成元の Thread が所属する ThreadGroup が enclose されていると移動ができなくてエラーが発生するので、ThreadGroup#encosed? でチェックしてその時はあきらめて移動しないようにしています。うーんなるほど。
