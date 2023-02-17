@@ -1,0 +1,1 @@
+0b4b2cd1ee161f2875375181e0978d7757e25c8a の Object Shapes のインスタンス変数削除の時の処理の再修正で T_MODULE/T_CLASS の時だけ強制的に新たな shape を作る(too complex にしない)ようにしていたのを T_OBJECT 以外の型の時に適用するようにしています。
