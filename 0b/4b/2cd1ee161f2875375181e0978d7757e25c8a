@@ -1,0 +1,1 @@
+Object Shapes でインスタンス変数の削除時のために新しい shape を作る時に対象のオブジェクトが T_MODULE/T_CLASS 型の場合は too complex shape で Object Shapes による管理外にしてしまわないようにしています。なんでだっけ。
