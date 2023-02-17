@@ -1,0 +1,1 @@
+GitHub Actions の .github/workflows/dependabot_automerge.yml という workflow 設定を追加して、dependabot による pull request は CI が成功したら自動的にマージするようにしています。また dependabot による更新を毎月にしていたのを毎日実施にしています。
