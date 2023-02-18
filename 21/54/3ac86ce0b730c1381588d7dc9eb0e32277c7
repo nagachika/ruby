@@ -1,0 +1,1 @@
+マクロ GC_ENABLE_INCREMENTAL_MARK が定義されていた時だけ定義されていた関数 heap_move_pooled_pages_to_free_pages() を常に定義するようにして、関数の中身を空にするようにしています。 incremental mark を無効にしてビルドすると関数がみつからなくてビルドエラーになってたみたいです。
