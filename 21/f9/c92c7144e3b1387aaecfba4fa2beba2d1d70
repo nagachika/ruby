@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で YJIT が ISeq ごとに作る? context というリソースの数についてのカウンタを追加しているみたいです。 https://github.com/ruby/ruby/pull/7327
