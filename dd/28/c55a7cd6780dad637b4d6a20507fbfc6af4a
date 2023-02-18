@@ -1,0 +1,1 @@
+ブロックを渡さずに Numeric#step を呼んで生成した Enumerator が SEGV を引きおこすことがあった不具合を修正しています。 [ruby-core:112459] [Bug #19445]
