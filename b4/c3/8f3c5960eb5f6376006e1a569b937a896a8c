@@ -1,0 +1,1 @@
+YJIT で *args のように可変長の引数を配列で受け取るメソッド定義のメソッドへの対応を追加しているようです。 https://github.com/ruby/ruby/pull/7311
