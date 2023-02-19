@@ -1,0 +1,1 @@
+RGenGC の Write Barrier で保護されていない WB-unprotected に設定されたオブジェクトの発生箇所をログ取りするため機能を有効にするマクロ USE_RGENGC_LOGGING_WB_UNPROTECT が機能しない状態だったので削除しています。
