@@ -1,0 +1,1 @@
+doc/standard_library.rdoc に記述されていた Bundle.clean_env は deprecated になっているとのことで unbundled_env に書きかえています。
