@@ -1,0 +1,1 @@
+YJIT の生成コードでインスタンス変数の参照をする時に YJIT の context? がネストできるレベルが最高の時には専用コードで処理できないので rb_ivar_get() 関数を呼ぶ処理に fallback するようにしています。 https://github.com/ruby/ruby/pull/7334
