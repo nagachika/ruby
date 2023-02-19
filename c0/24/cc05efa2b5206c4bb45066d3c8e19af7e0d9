@@ -1,0 +1,1 @@
+YJIT の Rust 実装の関数名で jit_xxx() と prefix のついているもので実際に JIT コード生成しているものでないやつの prefix を取るように改名しているようです。たぶん可読性のため? https://github.com/ruby/ruby/pull/7336
