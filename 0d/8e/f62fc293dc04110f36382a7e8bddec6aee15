@@ -1,0 +1,1 @@
+36e3d46d35b6a904533e58809369054b135c33d7 の拡張ライブラリ bigdecimal の修正で rubyspec のテストが失敗するようになったので 3.2 以前でのみ実行するように ruby_version_is での guard を追加しています。
