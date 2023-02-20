@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean のテストで NameError を Marshal.load する時のテストで例外メッセージのチェックに正規表現を使って receiver のオブジェクトの表示の揺れを許容するようにしています。 [ruby-core:105909] [Feature #18285]
