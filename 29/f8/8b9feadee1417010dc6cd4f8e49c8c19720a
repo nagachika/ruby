@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight のテストでも NameError のエラーメッセージで receiver の表示を変更する予定? のに対応する変更を加えています。 https://github.com/ruby/ruby/pull/6950 [ruby-core:105909] [Feature #18285]
