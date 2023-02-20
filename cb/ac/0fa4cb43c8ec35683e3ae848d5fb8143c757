@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::Workspace#evaluate の第1引数の context が未使用とのことで削除しています。
