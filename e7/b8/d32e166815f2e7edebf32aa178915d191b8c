@@ -1,0 +1,1 @@
+NoMethodError 例外の発生時の例外メッセージに埋め込む receiver の表示をそのオブジェクトがクラス/モジュールや特異クラスかその他のオブジェクトかによって prefix をつけて inspect 結果を常に埋め込んでたのをやめています。 default gems や bundled gems のテストの最近の変更はこの変更による影響を吸収するためみたいですね。 [ruby-core:105909] [Feature #18285]
