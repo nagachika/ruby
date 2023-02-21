@@ -1,0 +1,1 @@
+defs/gmake.mk の .gem パッケージファイル作成のルールで BundledGem.build を呼び出す時に validation: false オプションをつけるようにしています。依存関係についての警告のせいで bundled gems のテストが通らなかったみたいです。
