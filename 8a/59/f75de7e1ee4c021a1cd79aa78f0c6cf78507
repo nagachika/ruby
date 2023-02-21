@@ -1,0 +1,1 @@
+gems/bundled_gems の minitest と debug に commit hash の指定を追加してテストで利用するバージョンを開発版にしています。 NameError 例外のメッセージ変更のための対応みたいです。 [ruby-core:105909] [Feature #18285]
