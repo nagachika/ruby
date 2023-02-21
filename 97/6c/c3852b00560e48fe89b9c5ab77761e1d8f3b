@@ -1,0 +1,1 @@
+Enumerable#to_a と Enumerable#to_h の rdoc 用コメントの call-seq に引数が記述されていなかったのを修正しています。
