@@ -1,0 +1,1 @@
+e7b8d32e166815f2e7edebf32aa178915d191b8c の NoMethodError のエラーメッセージ内の receiver の表示の変更で特異クラスの時に "extended object" という prefix をつけていたのはやめて rb_any_to_s() で receiver 自体を文字列化したものを埋め込むようにして、通常のオブジェクトの時の prefix を "object" から "an instance of" に変更しています。 [ruby-core:105909] [Feature #18285]
