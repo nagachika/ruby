@@ -1,0 +1,1 @@
+tool/lib/bundled_gem.rb で一時的に? gem が minitest の時に .gemspec ファイルを生成する処理を追加しています。mninitest が gemspec ファイル生成のために hoe を利用していてその依存を追加したくないからみたいです。
