@@ -1,0 +1,1 @@
+e7b8d32e166815f2e7edebf32aa178915d191b8c の NoMethodError の例外メッセージの変更の関連でトップレベルの時に receiver を "main" と表記するようにしています。 [ruby-core:105909] [Feature #18285]
