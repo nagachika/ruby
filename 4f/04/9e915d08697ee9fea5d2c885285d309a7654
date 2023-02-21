@@ -1,0 +1,1 @@
+IO#timeout= メソッドの rdoc 用コメントにタイムアウト時に発生する IO::TimeoutError 例外クラスについての言及を追加しています。
