@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace#dump_xxx 系メソッドの rdoc 用コメントの call-seq を削って引数の説明を書きなおしています。 call-seq を削っちゃうとぱっとみ使いかたがわかりにくくならないかな。
