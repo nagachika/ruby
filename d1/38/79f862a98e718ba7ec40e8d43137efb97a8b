@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal のバージョンを gemspec ファイルに直接書いていたのを ext/bigdecimal/bigdecimal.c にマクロ定義して gemspec はそこから切り出すようにしています。 extconf.rb が gemspec ファイルを読まないといけないという依存関係がビルドプロセス的に好ましくなかったということみたいです。
