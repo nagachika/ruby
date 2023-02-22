@@ -1,0 +1,1 @@
+拡張ライブラリ strscan のテストでテストメソッドを StringScannerTests というモジュールに定義して TestStringScanner と TestStringScannerFixedAnchor と StringScanner.new のキーワード引数 fixed_anchor の指定の違う 2つのテストクラスで同じテストを実施するようにしています。 TestStringScannerFixedAnchor は元々定義されていましたが少ししかテストメソッドがなかったので網羅性を上げるようにしているようです。
