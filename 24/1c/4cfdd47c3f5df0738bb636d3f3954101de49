@@ -1,0 +1,1 @@
+0a9efe8701c43f80ad8b23d89d6b34d13d9d9ade の続きで bundled gems の minitest のビルドのためのダミーの .gemspec ファイル生成の特別処理を tool/lib/bundled_gem.rb 内でメソッドとして切り出して defs/gmake.mk に .gemspec ファイルの生成ルールを作ってそこから BASERUBY を起動してメソッドを呼ぶようにしています。
