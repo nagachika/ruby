@@ -1,0 +1,1 @@
+YJIT で setinstancevariable 命令によるインスタンス変数のセットでインスタンス変数の数が多いなどで rb_vm_setinstancevariable() 関数の呼び出しに fallback する条件に ctx.get_chain_depth() が上限に達してたというのも追加しています。JIT コード利用自体をあきらめるよりはこっちのほうが速いってことかな。
