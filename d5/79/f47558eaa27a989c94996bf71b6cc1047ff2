@@ -1,0 +1,1 @@
+Object Shapes で管理するインスタンス変数の数の上限を 50 から 80 に引き上げています。 https://github.com/ruby/ruby/pull/7344
