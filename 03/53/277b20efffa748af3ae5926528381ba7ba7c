@@ -1,0 +1,1 @@
+YJIT の生成する命令で冗長で不要だった分岐を削除しています。 https://github.com/ruby/ruby/pull/7350
