@@ -1,0 +1,1 @@
+YJIT で Module#=== メソッドの呼び出しを専用の命令を生成する最適化を追加しています。 https://github.com/ruby/ruby/pull/7351
