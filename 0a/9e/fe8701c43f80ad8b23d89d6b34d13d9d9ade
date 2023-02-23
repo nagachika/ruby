@@ -1,0 +1,1 @@
+defs/gmake.mk の bundled gems のビルドのための? 依存関係管理のためのタイムスタンプの依存関係の書きかたをなにやら変更しています。 clone したリポジトリの .git/ ディレクトリを .gemspec ファイルのかわりに使っているようです。 minitest がリポジトリ内に minitest.gemspec がコミットされていないためとのこと。
