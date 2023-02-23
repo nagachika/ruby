@@ -1,0 +1,1 @@
+289080e4d86c70f8231a74a78892b2db65a86e9a で make extract-gems 時に dummy の .gemspec ファイルの生成する clone-bundled-gems-src への依存関係をつけていたのを GIT コマンドが利用可能な時だけにするようにしています。
