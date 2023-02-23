@@ -1,0 +1,1 @@
+tool/lib/bundled_gem.rb の gem パッケージビルド時の処理に Gem::Package.build を使ってたのを Gem::Package#build を利用するようにしています。 BASERUBY が古い ruby の場合に Gem::Package.build がない可能性があるみたいです。
