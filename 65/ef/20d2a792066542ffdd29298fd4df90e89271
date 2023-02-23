@@ -1,0 +1,1 @@
+Fiber のための coroutine の実装に LoongArch という CPU アーキテクチャのための実装を追加しています。聞きなれないチップ名ですね。 https://github.com/ruby/ruby/pull/7343
