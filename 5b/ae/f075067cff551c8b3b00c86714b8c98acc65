@@ -1,0 +1,1 @@
+YJIT の Rust 実装でメソッドの不要な引数を削除しています。 https://github.com/ruby/ruby/pull/7348
