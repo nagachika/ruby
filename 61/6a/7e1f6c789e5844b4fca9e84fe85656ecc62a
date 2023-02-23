@@ -1,0 +1,1 @@
+cbe14cc8e6ff7da4ec6d2a3ea9de139cb6dcedbf で追加した rubygems の gem exec サブコマンドのテストで teardown 時に Gem.configuration を nil でクリアするようにしています。
