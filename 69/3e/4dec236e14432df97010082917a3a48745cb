@@ -1,0 +1,1 @@
+.appveyor.yml のビルド時に HAVE_GIT=no をセットすることで dummy の gemspec 生成の処理を抑制しようとしているようです。
