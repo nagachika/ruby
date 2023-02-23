@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ bigdecima についてのテストで ruby_version で guard していたのを BigDecimal::VERSION を使って bigdecimal のバージョンでテスト実施有無を分けるようにしています。
