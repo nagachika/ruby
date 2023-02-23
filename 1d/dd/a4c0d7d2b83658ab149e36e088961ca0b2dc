@@ -1,0 +1,1 @@
+拡張ライブラリ readline のテストのために test/lib/core_assertions.rb や test/lib/envutil.rb といったユーティリティファイルを追加しています。これ多分どこかに重複して存在しているはずなので、後で整理されると思います。
