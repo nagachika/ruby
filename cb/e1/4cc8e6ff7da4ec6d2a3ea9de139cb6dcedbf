@@ -1,0 +1,1 @@
+rubygems に gem exec というサブコマンドを追加してその gem の executable に含まれるコマンドを実行できるようにしているようです。
