@@ -1,0 +1,1 @@
+0a9efe8701c43f80ad8b23d89d6b34d13d9d9ade や 241c4cfdd47c3f5df0738bb636d3f3954101de49 のさらに続きで minitest のように .gemspec ファイルのない bundled gems のリポジトリからのビルド時の処理を common.mk の clone-bundled-gems-src というターゲットで実行するようにして make extract-gems 時に実行させるようにしています。
