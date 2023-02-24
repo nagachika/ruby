@@ -1,0 +1,1 @@
+bundler の Bundler.load_marshal を private メソッドに変更しています。
