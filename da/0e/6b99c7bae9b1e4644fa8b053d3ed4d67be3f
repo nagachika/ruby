@@ -1,0 +1,1 @@
+vm_dump.c の dump_machine_register() マクロ定義を移動して HAVE_PRINT_MACHINE_REGISTERS というマクロで print_machine_register() という関数の定義の有無を preprocessor 分岐していたのを dump_machine_register() が定義されているかどうかで直接分岐するようにリファクタリングしています。
