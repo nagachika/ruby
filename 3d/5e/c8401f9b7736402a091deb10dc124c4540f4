@@ -1,0 +1,1 @@
+bundler で Marshal.load で gem の情報をロードする時に許可するクラスとして Gem::Version を追加しています。
