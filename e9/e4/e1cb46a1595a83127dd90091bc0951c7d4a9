@@ -1,0 +1,1 @@
+YJIT の Rust 実装で VM スタック上の値を機械語命令のオペランドとして渡すための指定を構造体(っていうのかな)として定義しています。 https://github.com/ruby/ruby/pull/7352
