@@ -1,0 +1,1 @@
+rubygems の gem exec サブコマンドのテストで JRuby で skip するようにしたテストを Windows 環境でも skip するようにしています。
