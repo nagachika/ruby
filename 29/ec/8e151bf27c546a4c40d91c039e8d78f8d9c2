@@ -1,0 +1,1 @@
+RGenGC のデバッグ用のマクロ RGENGC_CHECK_MODE を 2以上に指定した時の gc_verify_internal_consistency() の呼び出しを gc_exit() から gc_sweep_finish() に移動して頻度を落としているようです。速度のため。
