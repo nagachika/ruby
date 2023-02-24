@@ -1,0 +1,1 @@
+misc/lldb_rb/ の lldb 向けの python スクリプトに print_flags というコマンドを追加しているようです。 struct RBasic::flags のビットフラグ用の定数名を表示するもの。 https://github.com/ruby/ruby/pull/7358
