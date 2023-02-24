@@ -1,0 +1,1 @@
+bundler のテストに Bundler.load_marshal のテストを追加しています。
