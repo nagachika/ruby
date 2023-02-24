@@ -1,0 +1,1 @@
+IO::Buffer#read と IO::Buffer#write メソッドの第2引数 length が rb_check_arity() のチェックでは必須なのに省略可能であるかのような余分なチェックがあったのを消しています。また IO::Buffer#read の rdoc 用コメントの call-seq でも省略可能と記述されていたので修正しています。 https://github.com/ruby/ruby/pull/7362 [ruby-core:112541] [Bug #19459]
