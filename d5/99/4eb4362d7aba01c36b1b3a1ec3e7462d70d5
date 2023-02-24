@@ -1,0 +1,1 @@
+3d5ec8401f9b7736402a091deb10dc124c4540f4 に続いて bundler で Marshal.load で読み込む時に許可するクラスに Gem::Specification を追加しています。
