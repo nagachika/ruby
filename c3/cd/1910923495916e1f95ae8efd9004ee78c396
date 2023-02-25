@@ -1,0 +1,1 @@
+yjit/yjit.mk に yjit-smoke-test というターゲットを追加して cargo test を含む YJIT に関連するテストだけ実行するようにしています。
