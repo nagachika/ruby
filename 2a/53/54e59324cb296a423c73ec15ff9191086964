@@ -1,0 +1,1 @@
+ObjectSpace::WeakKeyMap というクラスを組み込みで追加しています。 ObjectSpace::WeakMap と違ってキーが eql? による同値チェックで判定されるものという感じみたいです。 [ruby-core:107190] [Feature #18498]
