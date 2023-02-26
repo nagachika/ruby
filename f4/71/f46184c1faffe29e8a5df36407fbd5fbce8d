@@ -1,0 +1,1 @@
+YJIT の Rust 実装で TypeDiff という enum 型を導入するリファクタリング。 https://github.com/ruby/ruby/pull/7370
