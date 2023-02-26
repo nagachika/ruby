@@ -1,0 +1,1 @@
+VM 用のコード生成用のライブラリ tool/ruby_vm/models/c_expr.rb の RubyVM::CExpr#inspect メソッドで行番号が得られない時の対応を追加しています。
