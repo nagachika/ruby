@@ -1,0 +1,1 @@
+YJIT の Rust 実装で利用している TempMapping というクラス(っていうのかな)の実装を少し変更しているようです。リファクタリング的な変更? https://github.com/ruby/ruby/pull/7368
