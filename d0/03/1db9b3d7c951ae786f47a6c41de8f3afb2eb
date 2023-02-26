@@ -1,0 +1,1 @@
+57bc3f2f462df8e945ddfa5f9a8de45c1b0f0a86 で追加した IO::Buffer.string メソッドの実装で NUM2SIZET() マクロを利用していたのを RB_NUM2LONG() を利用するように変更しています。 https://github.com/ruby/ruby/pull/7379
