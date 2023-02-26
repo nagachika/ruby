@@ -1,0 +1,1 @@
+Fiber local storage に値として nil を代入した時にキーを削除するようにしています。また Fiber.[] で参照するだけの時に不要にストレージ用の Hash オブジェクトを生成することがあったのを抑制するようにしています。 https://github.com/ruby/ruby/pull/7378
