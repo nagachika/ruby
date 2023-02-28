@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Windows 版で libffi を探索するスクリプト? で IO.binread を利用していたのを File.binread を利用するように修正しています。
