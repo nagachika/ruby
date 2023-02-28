@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による解析をする workflow から別ファイルの設定を読み込んでたのを workflow 設定自体のなかに書くようにしています。
