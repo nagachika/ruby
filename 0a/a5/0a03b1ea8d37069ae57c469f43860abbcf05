@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で評価した値を表示する時に inspect を呼べなかった場合に Kernel#inspect メソッドを UnboundMethod として取っておいてそれを bind して呼ぶという fallback を試すようにしています。
