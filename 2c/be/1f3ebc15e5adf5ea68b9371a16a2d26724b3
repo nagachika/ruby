@@ -1,0 +1,1 @@
+GitHub Actions の workflow でアクションのバージョンの指定をタグで行なっていたものを commit hash で指定するようにしています。
