@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の rd の parser や ruby 本体のいくつかのテストで IO.readlines を利用していたところを File.readlines を利用するように修正しています。 CodeQL で検出されたのかな?
