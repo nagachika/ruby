@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による解析の workflow で matrix を使って C と Ruby の言語ごとのチェックを別々に実施するようにしています。
