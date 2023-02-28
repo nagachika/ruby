@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL の解析を行う workflow で一部のテストや rubyspec では Kernel#open や IO のメソッドをあえて使う必要がある場合があるのでそれらを除外するように指定を追加しています。
