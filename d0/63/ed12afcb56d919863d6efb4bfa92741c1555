@@ -1,0 +1,1 @@
+同じく拡張ライブラリ fiddle の Windows 向けビルドプロセスのためのスクリプトで IO.binwrite のかわりに File.binwrite を利用するように修正しています。
