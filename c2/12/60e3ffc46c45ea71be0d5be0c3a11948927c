@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による解析の workflow の push による起動は master ブランチのみ対象にするようにしています。
