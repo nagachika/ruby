@@ -1,0 +1,1 @@
+include/ruby/internal/newobj.h と include/ruby/internal/fl_type.h の inline 関数で未使用の引数の警告除去のため (void) のキャストを追加しています。
