@@ -1,0 +1,1 @@
+test/excludes/TestArraySubclass.rb を追加して test_shared_marking というテストメソッドを実行除外するようにしています。
