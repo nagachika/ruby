@@ -1,0 +1,1 @@
+rubyspec の IO.read の encoding オプションのテストが master ブランチで失敗するため ruby_version_is による guard を追加しています。
