@@ -1,0 +1,1 @@
+GitHub Actions の Scorecards というサプライチェーンアタックのチェックのツール? の実施 workflow で master ブランチへの push で毎回実施していたのを cron による定期実行のみにしています。
