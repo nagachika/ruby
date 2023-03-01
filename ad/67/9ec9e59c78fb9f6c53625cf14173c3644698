@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による解析の workflow で検出結果の一部を無視するファイルのパターンに bundler に vendoring されているライブラリの一部を追加しています。
