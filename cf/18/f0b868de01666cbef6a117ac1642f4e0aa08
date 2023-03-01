@@ -1,0 +1,1 @@
+Module#autoload のロード時の処理のために内部的に利用されるオブジェクトにも RB_OBJ_WRITE() の利用を追加して RGenGC の WB-protected なオブジェクトにしています。
