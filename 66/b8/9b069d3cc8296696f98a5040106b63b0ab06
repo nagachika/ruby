@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による解析の結果を無視するパターンに ad679ec9e59c78fb9f6c53625cf14173c3644698 と同様に uri の一部と rubyspec のテストの一部を追加しています。
