@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の内部バッファの String オブジェクトへの参照の変更を RB_OBJ_WRITE() を利用するようにして StringIO オブジェクトを RGenGC の WB-protected にしています。
