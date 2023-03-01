@@ -1,0 +1,1 @@
+同じく GitHub Actions の Scorecards によるチェックの workflow で結果の .sarif という拡張子のファイルを artifact としてアップロードしていたのをやめています。
