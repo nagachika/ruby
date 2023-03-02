@@ -1,0 +1,1 @@
+デバッグ用の環境変数 RUBY_DEBUG をみて詳細なログを出力する機能を有効にする preprocessor 分岐でチェックするマクロを RUBY_DEBUG_ENV にしていたのを USE_RUBY_DEBUG_LOG の値もチェックしてどちらか一方だけで有効になるようにしています。
