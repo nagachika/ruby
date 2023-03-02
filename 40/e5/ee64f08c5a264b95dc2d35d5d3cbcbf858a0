@@ -1,0 +1,1 @@
+Module#autoload の管理のための内部的なオブジェクトの実装を st_table を直接参照せず VALUE 経由で参照するようにして RB_OBJ_WRITTEN() をつけて RGenGC の WB-protected なオブジェクトにしています。
