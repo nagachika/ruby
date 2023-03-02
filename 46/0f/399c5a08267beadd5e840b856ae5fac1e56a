@@ -1,0 +1,1 @@
+include/ruby/internal/rgengc.h の内容を include/ruby/internal/gc.h にマージしています。しかし include/ruby/internal/rgengc.h ファイル自体はここでは削除していません。
