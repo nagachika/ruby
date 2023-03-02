@@ -1,0 +1,1 @@
+YJIT の --yjit-stats オプションで表示する統計情報に defer_empty_count というカウンタを追加しています。
