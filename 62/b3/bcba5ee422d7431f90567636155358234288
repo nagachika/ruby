@@ -1,0 +1,1 @@
+bundler で Gemfile.lock に記述されてた依存関係に実際の gemspec の依存関係が漏れてた時の fallback 処理を追加してエラーになるのを避けるようにしているようです。
