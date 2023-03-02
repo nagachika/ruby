@@ -1,0 +1,1 @@
+460f399c5a08267beadd5e840b856ae5fac1e56a に追随して common.mk や各種 depend ファイルの依存関係を再生成しています。 また include/ruby/internal/rgengc.h ファイルはここで削除されています。
