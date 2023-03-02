@@ -1,0 +1,1 @@
+YJIT の Rust 実装の変更。詳細はよく読めてません。 pull request をみると生成するコードサイズの削減のための変更みたいです。 https://github.com/ruby/ruby/pull/7401
