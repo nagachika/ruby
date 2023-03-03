@@ -1,0 +1,1 @@
+bundler で Gemfile.lock の情報が不完全だった時に Gemfile.lock を作りなおすようにしているそうです。差分をみてもわかりませんが……。
