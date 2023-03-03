@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のテストに使うバージョンの commit hash を更新して、a80906a7147c6e67e5f6c15c2e414126b019b8d6 で GitHub Actions で rbs のテストのエラー無視するようにしていたのを revert しています。 また tool/test-bundled-gems.rb で rbs のテスト実行時に SKIP_RBS_VALIDATION=true という環境変数を渡すようにしています。 https://github.com/ruby/ruby/pull/7415
