@@ -1,0 +1,1 @@
+YJIT の生成するコードサイズを小さくするための変更。 https://github.com/ruby/ruby/pull/7409
