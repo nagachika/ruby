@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu でのテストで bundled gems の rbs のテストをエラーを許容するようにしています。
