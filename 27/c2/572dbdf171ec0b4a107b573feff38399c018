@@ -1,0 +1,1 @@
+YJIT でスタック(たぶん VM スタック?)のサイズと ISeq のエンコード後サイズの上限を定めるようにしてそれらの変数を 1byte/2bytes で表現可能なようにしています。 https://github.com/ruby/ruby/pull/7412
