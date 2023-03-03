@@ -1,0 +1,1 @@
+Ractor 間のメッセージの送受信時の排他処理を mutex lock を使った方法から RUBY_ATOMIC_CAS() を使った実装に書きかえています。 Ractor::Selector というクラスも導入されていて複数の Ractor のイベントを select() のように待つ処理を ruby で書きやすくしています。
