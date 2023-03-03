@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の gemspec ファイルの spec.metadata の書きかたを Hash リテラルとして書くようにしています。
