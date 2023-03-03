@@ -1,0 +1,1 @@
+gems/bundled_gems でテストに使う rbs のバージョンを commit hash で指定するようにしています。 https://github.com/ruby/ruby/pull/7411
