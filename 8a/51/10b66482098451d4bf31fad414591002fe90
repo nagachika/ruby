@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の gemspec ファイルの spec.metadata の項目に bug_tracker_uri と changelog_uri を追加しています。
