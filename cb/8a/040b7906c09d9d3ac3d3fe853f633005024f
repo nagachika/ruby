@@ -1,0 +1,1 @@
+YJIT で C 実装のメソッドへの splat 引数に空配列を渡した呼びかたをサポートするようにしているそうです。 https://github.com/ruby/ruby/pull/7413
