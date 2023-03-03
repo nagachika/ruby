@@ -1,0 +1,1 @@
+ext/extmk.rb と template/exts.mk.tmpl で拡張ライブラリのための Makefile の生成? で MESSAGE_BEGIN/MESSAGE_END というマクロでヒアドキュメントみたいに複数行の出力を書けるようにして?  echo コマンドを各行で書いてたのをやめるようにしているようです。
