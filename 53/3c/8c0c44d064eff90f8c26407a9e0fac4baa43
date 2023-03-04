@@ -1,0 +1,1 @@
+fac92cd05077e5f6ff9d955cc834df23b0f6a72b で実施するようにした Ractor のテストとはまた別の bootstraptest/test_ractor.rb のテストを YJIT 有効時に skip するようにしています。
