@@ -1,0 +1,1 @@
+79ede4ae9911fdb180406b1a8adc7ee02e187a50 の bundler で windows? メソッドへの alias にしていたところで alias 文でなく Module#alias_method メソッドを使って alias 定義するようにしています。
