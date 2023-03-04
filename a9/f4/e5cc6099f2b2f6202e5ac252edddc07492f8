@@ -1,0 +1,1 @@
+コマンドラインオプション --help で表示されるメッセージの --yjit-call-threshold のデフォルト値の表示を更新しています。 https://github.com/ruby/ruby/pull/7424
