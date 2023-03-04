@@ -1,0 +1,1 @@
+tool/test/runner.rb でデフォルトの実行ディレクトリを File.expand_path でカレントディレクトリの親ディレクトリを得るようにしていたのを File.realdirpath を利用するようにして symbolic link を辿って実際のパスにするようにしています。 irb の require の補完のテストで失敗することがあったようです。
