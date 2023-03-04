@@ -1,0 +1,1 @@
+bundler の Windows 系プラットフォームを検出する CurrentRuby の mswin?, mswin64?, mingw?, x64_mingw? などのメソッドを deprecated にして wndows? メソッドへの alias として定義するようにしています。
