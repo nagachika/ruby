@@ -1,0 +1,1 @@
+a4421bd73c286253311c2cdf8c78ed258f8cff44 で導入した Ractor::Selector の Ractor::Selector#empty? の不具合修正。
