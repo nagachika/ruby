@@ -1,0 +1,1 @@
+27c2572dbdf171ec0b4a107b573feff38399c018 で YJIT が VM スタックサイズや ISeq のエンコードサイズの上限を設けてましたが、それに伴なって YJIT の実装で sp やスタック上の offset の変数のサイズを 8 bytes に縮小しています。 https://github.com/ruby/ruby/pull/7426
