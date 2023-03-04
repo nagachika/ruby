@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する gemspec ファイルの spec.files のために除外するファイルのパターンを正規表現でマッチしていたのを String#start_with? を利用するようにしています。
