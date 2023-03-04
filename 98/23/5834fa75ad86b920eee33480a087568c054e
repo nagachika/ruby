@@ -1,0 +1,1 @@
+GitHub Actions の .github/workflows/compilers.yml で autogen.sh の実行が失敗することがあるみたいでデバッグのために autogen.sh がみつからない時に ls -ls の結果を表示するようにしています。
