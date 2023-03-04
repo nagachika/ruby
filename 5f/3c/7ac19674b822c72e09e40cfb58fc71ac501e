@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトで gems.rb を Gemfile のかわりに使う場合(そんな指定あるんだ) lockfile を gems.locked にするように修正しています。
