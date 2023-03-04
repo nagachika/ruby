@@ -1,0 +1,1 @@
+9792d9e40f790e6deb18ead56a8befc9d5c4bc51 で bootstraptest/test_ractor.rb の Ractor のテストの一部を YJIT 有効時に skip していたのを revert して再度テスト実施するようにしています。
