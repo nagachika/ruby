@@ -1,0 +1,1 @@
+rb_str_modify_expand() の最後に ENC_CODERANGE_CLEAR() を追加して文字列の coderange 情報をクリアするようにしています。 b0b9f7201acab05c2a3ad92c3043a1f01df3e17f での不具合修正とのこと。 [ruby-core:112630] [Bug #19468]
