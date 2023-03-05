@@ -1,0 +1,1 @@
+YJIT の Rust 実装に aarch64 向けの実装のみで使う関数の定義に cfg マクロをつけて必要な時だけコンパイルされるようにしています。 https://github.com/ruby/ruby/pull/7428
