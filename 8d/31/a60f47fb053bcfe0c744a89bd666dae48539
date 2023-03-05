@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストで YJIT が有効になっているかどうかの判定に環境変数 RUBY_YJIT_ENABLE か RUN_OPTS をチェックしていたのを RubyVM::YJIT.enabled? メソッドでチェックするように変更しています。
