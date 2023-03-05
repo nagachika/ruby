@@ -1,0 +1,1 @@
+直前の 8d31a60f47fb053bcfe0c744a89bd666dae48539 の bootstraptest で YJIT が有効になっているかどうかの判定の変更をとりやめて、かわりに BT.ruby.include?('yjit') というチェックを条件に追加しています。BT っていうのは bootstraptest/runner.rb で定義されてる btest の test runner のクラスみたいですね。
