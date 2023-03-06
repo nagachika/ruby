@@ -1,0 +1,1 @@
+gems/bundled_gems の minitest のバージョンを 5.18.0 に更新しています。がテストに利用する commit hash はそのままですね。
