@@ -1,0 +1,1 @@
+a3abe3fd6d59a3624a193028a0d3b6b9e90b0260 および 17ef1c8164ea37574d928e9487232f27b5a5998d の続きで gems/bundled_gems の minitest のバージョンはふたたび 5.18.0 に更新したうえでテストに使う commit hash の指定を削除しています。
