@@ -1,0 +1,1 @@
+75829f4d37d31658aeebd9799b513e35fea805e0 の続きで rubygems の Gem::Specification#has_conflict? の ArgumentError 例外のメッセージにさらにデバッグ用の情報を追加しています。
