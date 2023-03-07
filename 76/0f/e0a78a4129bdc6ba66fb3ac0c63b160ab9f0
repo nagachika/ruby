@@ -1,0 +1,1 @@
+5d35b4b0e1e511981db062f7c8f803931d06e1cb の続きで f5b6b3dba7b32dcd1f15c150dd78dce6c0d92b1e で分離した GitHub Actions の annocheck 用の workflow では make test-spec も実施しないようにコメントアウトしています。
