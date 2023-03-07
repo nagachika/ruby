@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#has_conflict? で ArgumentError 例外が発生した時にエラーメッセージに gem 名とバージョンを追加するようにしています。
