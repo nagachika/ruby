@@ -1,0 +1,1 @@
+f5b6b3dba7b32dcd1f15c150dd78dce6c0d92b1e で分離した GitHub Actions の annocheck 用の workflow では make test-all の実施はしないようにコメントアウトしています。
