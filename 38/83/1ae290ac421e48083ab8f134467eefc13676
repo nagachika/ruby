@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb で bundled gems の upstream の URL を更新するのは環境変数 UPDATE_BUNDLED_GEMS_ALL が設定されている時だけにしています。なるほど gemspec の spec.metadata["source_code_uri"] または spec.homepage から引っぱってくるようになっていたようです。
