@@ -1,0 +1,1 @@
+gems/bundled_gems の minitest の upstream を https://github.com/seattlerb/minitest から https://github.com/minitest/minitest に変更しています。
