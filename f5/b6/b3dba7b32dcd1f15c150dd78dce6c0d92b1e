@@ -1,0 +1,1 @@
+GitHub Actions の workflow .github/workflows/compilers.yml に同居させていた annocheck というツールによるチェック実施を専用の workflow に分離しています。 https://github.com/ruby/ruby/pull/7450
