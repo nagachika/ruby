@@ -1,0 +1,1 @@
+MJIT の C Binding 用のクラス RubyVM::MJIT::CPointer に to_i メソッドを追加してポインタのアドレスを正数として取り出すようにしています。 https://github.com/ruby/ruby/pull/7446
