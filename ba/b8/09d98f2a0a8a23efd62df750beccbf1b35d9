@@ -1,0 +1,1 @@
+rubygems に Gem::Specification.find_by_full_name というメソッドを追加。 gem 名とバージョンを組み合わせた名前にマッチする spec を検索する機能みたいです。
