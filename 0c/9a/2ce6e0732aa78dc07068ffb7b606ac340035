@@ -1,0 +1,1 @@
+rubygems で bab809d98f2a0a8a23efd62df750beccbf1b35d9 で導入した Gem::Specification.find_by_full_name を使って拡張ライブラリのビルドの処理を default gem の時にスキップするようにしているみたいです。
