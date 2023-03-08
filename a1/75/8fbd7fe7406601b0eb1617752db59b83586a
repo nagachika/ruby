@@ -1,0 +1,1 @@
+objspace_xmalloc0() および objspace_xrealloc() で GC 中にメモリ確保が呼ばれたら警告を出力する処理が両方に書かれてたのを check_malloc_not_in_gc() という関数に切り出して共通化し、また RGENGC_CHECK_MODE か RUBY_DEBUG マクロが定義されていた時だけ rb_bug() で異常終了するようにしていたのを常に異常終了するように変更しています。
