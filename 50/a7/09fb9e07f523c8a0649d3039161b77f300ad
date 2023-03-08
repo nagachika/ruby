@@ -1,0 +1,1 @@
+233ddfac541749a0da80ea27913dc1ef4ea700bb で export をやめた 一部の関数は拡張ライブラリで必要だったため RUBY_FUNC_EXPORTED による export の指定を追加しています。
