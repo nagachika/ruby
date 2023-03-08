@@ -1,0 +1,1 @@
+rubygems で GitHub などから clone してきたリポジトリのデフォルトブランチ名を master と仮定せず単に HEAD で参照するようにしています。
