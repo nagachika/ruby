@@ -1,0 +1,1 @@
+コマンドラインオプションの --yjit-stats や --mjit-stats の対応で MJIT_STATS と YJIT_STATS 両方が真の時の対応を追加しています。
