@@ -1,0 +1,1 @@
+bundler の require "bundler/setup" でエラー時に bundle install を促すメッセージに必要に応じて --gemfile オプションの指定も表示するようにしています。
