@@ -1,0 +1,1 @@
+Thread::Mutex のロック解放の non-blocking Fiber 対応の実装部分に race condition を起こす可能性のある不具合があったようで修正しています。 https://github.com/ruby/ruby/pull/7460 [ruby-core:112706] [Bug #19480]
