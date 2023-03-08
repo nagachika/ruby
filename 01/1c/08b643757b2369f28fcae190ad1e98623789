@@ -1,0 +1,1 @@
+tool/ruby_vm/views/mjit_sp_inc.inc.erb というテンプレートファイルも MJIT の再実装により不要になったようで削除しています。
