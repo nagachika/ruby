@@ -1,0 +1,1 @@
+Thread の終了時に RB_INTERNAL_THREAD_HOOK() でフックを起動するのを thread_start_func_1() の末尾に置いていたのを thread_start_func_2() から呼ばれる thread_sched_to_dead() という関数内で Thread の終了を指示するタイミングに移動しています。
