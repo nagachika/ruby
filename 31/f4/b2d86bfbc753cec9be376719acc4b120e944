@@ -1,0 +1,1 @@
+昨日の MJIT の再実装で不要になった MJIT 用の precompiled header の common.mk などのビルドプロセスでの対応を削除しています。 https://github.com/ruby/ruby/pull/7458
