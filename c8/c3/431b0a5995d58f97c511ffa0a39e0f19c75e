@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の gemspec ファイルでバージョン番号を取得する処理で File.foreach に mode 引数を追加して非 ASCII 文字があっても呼べるように対応しています。
