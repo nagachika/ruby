@@ -1,0 +1,1 @@
+c25738762ab56bfd2edb4fedb5fc6bed88c03d61 の gems/bundled_gems のバージョンと実際に clone してきたリポジトリの gemspec のバージョンのチェックのメッセージを強化しています。また tool/lib/bundled_gem.rb で実際にビルドする時の同様のチェック時のメッセージも情報を追加しています。
