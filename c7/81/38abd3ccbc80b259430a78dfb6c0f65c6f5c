@@ -1,0 +1,1 @@
+gc.c の obj_free() から T_DATA 型オブジェクトのための処理を rb_data_free() に切り出しています。
