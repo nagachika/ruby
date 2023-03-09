@@ -1,0 +1,1 @@
+YJIT dのメソッド呼び出しの引数に配列を splat して渡す時のサポートを強化しているようです。 https://github.com/ruby/ruby/pull/7422
