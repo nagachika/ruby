@@ -1,0 +1,1 @@
+YJIT の Rust 実装の SEND_MAX_DEPTH という定数を 5 から 10 に増やしています。メソッド呼び出しの処理を再帰的に処理する深さの上限だったかな。 https://github.com/ruby/ruby/pull/7452
