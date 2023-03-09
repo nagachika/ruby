@@ -1,0 +1,1 @@
+defs/gmake.mk の bundled gems のための gemspec ファイルを生成するターゲットに timestamp ファイルの依存関係を追加しています。コミットログによると gemspec 生成前に指定の branch/tag や commit hash を checkout する処理を走らせるためみたいです。
