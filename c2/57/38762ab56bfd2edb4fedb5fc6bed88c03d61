@@ -1,0 +1,1 @@
+tool/fetch-bundled_gems.rb で gems/bundled_gems に commit hash やタグ名の指定があった時のリポジトリから clone する処理で gemspec ファイルから読んだバージョンと gems/bundled_gems に書いてあるバージョンが食い違ってないかのチェックを追加しています。
