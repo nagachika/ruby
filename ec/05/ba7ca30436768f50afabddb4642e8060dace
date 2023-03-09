@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向けの workflow で make test のタイムアウトを延ばしています。
