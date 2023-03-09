@@ -1,0 +1,1 @@
+tool/ytab.sed で yyval_default および yyloc_default という変数に const 修飾子を追加するようにパターンを追加しています。
