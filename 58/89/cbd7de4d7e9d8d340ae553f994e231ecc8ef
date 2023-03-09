@@ -1,0 +1,1 @@
+compile.c の ISeq のバイナリフォーマットの dump/load のための static 変数テーブルに const 修飾子を追加しています。
