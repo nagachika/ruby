@@ -1,0 +1,1 @@
+c25738762ab56bfd2edb4fedb5fc6bed88c03d61 の bundled gems のバージョンチェックで Gem::Version を利用するために require "rubygems" を追加しています。
