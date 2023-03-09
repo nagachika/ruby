@@ -1,0 +1,1 @@
+rubygems の Gem::Version#marshal_dump でバージョンを表す文字列を不要に dup していたのをやめています。
