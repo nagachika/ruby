@@ -1,0 +1,1 @@
+configure で thread local storage のコンパイラによるサポートをチェックする処理の位置を移動しています。 RedHat Enterprise でのビルドのエラーの対応みたいです。 [ruby-core:111075] [Bug #19161]
