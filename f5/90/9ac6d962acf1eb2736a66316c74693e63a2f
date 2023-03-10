@@ -1,0 +1,1 @@
+RJIT 用の関数や変数で rjit_ という prefix のものを export していたのを rb_rjit_ という prefix に改名しています。
