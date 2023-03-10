@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations のコールバックのブロック内で Class を生成すると異常終了することがあった不具合を修正。オブジェクトの生成時に slot をクリアするのに newobj_fill() を使っていましたがこれは struct RVALUE 1つぶんの範囲しかクリアしないので複数まとめて確保する heap では初期化漏れする部分があったのでそのためみたいです。初期化する範囲を heap の slot サイズに合わせる newobj_zero_slot() という関数を追加してこれで再初期化するようにしています。 [ruby-core:112721] [Bug #19482]
