@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#missing_extensions? というメソッドで拡張ライブラリっぽいファイルがロードパス内にあったら false を返すようにする処理を追加しています。
