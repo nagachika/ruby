@@ -1,0 +1,1 @@
+1658e7d96696a656d9bd0a0c84c82cde86914ba2 の続きで SIGCHLD のシグナルハンドラの特別扱いも不要になったため削除しています。 https://github.com/ruby/ruby/pull/7482
