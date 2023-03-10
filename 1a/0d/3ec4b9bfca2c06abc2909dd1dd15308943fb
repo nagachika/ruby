@@ -1,0 +1,1 @@
+RJIT 用の関数で公開が不要だったものは rb_rjit_ の prefix を rjit_ に戻して static 関数にしています。
