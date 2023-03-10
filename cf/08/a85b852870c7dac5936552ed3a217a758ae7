@@ -1,0 +1,1 @@
+rubygems のテストで IO の close 漏れを修正しています。
