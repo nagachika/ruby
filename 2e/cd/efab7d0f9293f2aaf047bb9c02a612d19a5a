@@ -1,0 +1,1 @@
+test/ruby/test_default_gems.rb で git コマンドが利用できない時に skip していたテストを git rev-parse を実行するのをソースディレクトリに移動して実行するように修正しています。
