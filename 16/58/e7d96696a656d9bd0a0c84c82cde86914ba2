@@ -1,0 +1,1 @@
+SIGCHLD で子プロセスの終了を検出する処理を削除しています。これって signal thread の削除と MJIT が worker プロセスを持ってた時代のあれこれですごく複雑になってたんだったと思いますが、もう不要になったってことかな。 https://github.com/ruby/ruby/pull/7476
