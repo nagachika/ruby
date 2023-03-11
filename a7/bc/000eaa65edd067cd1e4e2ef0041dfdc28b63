@@ -1,0 +1,1 @@
+Thread::Queue と Thread::SizedQueue に allocate を呼んでインスタンスを作っても使えないというテストを追加しています。
