@@ -1,0 +1,1 @@
+Object Shapes によるインスタンス変数の管理で T_MODULE/T_CLASS 型オブジェクトはインスタンス数が多くても shapes の情報で管理するようにしていましたが、Module/Class でもインスタンス数がとても多い時は st_table による普通の管理に fallback するように変更しているようです。
