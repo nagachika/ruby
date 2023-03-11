@@ -1,0 +1,1 @@
+Kernel#sleep は無引数で呼ぶと制限なく sleep しますが、明示的に nil を引数に渡した場合にも無制限 sleep するように引数の扱いを変更しています。 https://github.com/ruby/ruby/pull/7484
