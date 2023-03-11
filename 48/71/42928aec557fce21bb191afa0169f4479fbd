@@ -1,0 +1,1 @@
+YJIT の Rust 実装の Assembler の x86_merge() というメソッドを削除して同様の最適化を x86_split() に移動しているみたいです。 https://github.com/ruby/ruby/pull/7487
