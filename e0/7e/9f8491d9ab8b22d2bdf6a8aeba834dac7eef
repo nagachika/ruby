@@ -1,0 +1,1 @@
+cont.c の jit_cont_free() の最初に引数の cont が NULL だった時のチェックを追加しています。
