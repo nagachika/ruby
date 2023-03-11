@@ -1,0 +1,1 @@
+rubygems の gem pristine サブコマンドに --only-missing-extensions というオプションを追加して、ビルドされていない拡張ライブラリのチェック? のみ実施させるようにしています。
