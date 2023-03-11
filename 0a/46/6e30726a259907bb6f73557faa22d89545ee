@@ -1,0 +1,1 @@
+Thread::Queue や Thread::ConditionVariable のテストで不安定でたまに失敗するものを削除しています。
