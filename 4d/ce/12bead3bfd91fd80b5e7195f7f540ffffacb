@@ -1,0 +1,1 @@
+process.c の不要な関数の前方宣言を削除しています。 https://github.com/ruby/ruby/pull/7497
