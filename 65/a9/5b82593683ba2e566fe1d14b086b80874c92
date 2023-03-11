@@ -1,0 +1,1 @@
+YJIT の Rust 実装で T_STRING 型のオブジェクトかどうかをチェックするコードを生成する guard_object_is_string() という関数でチェック内容を増やして、また文字列ではなかった時に upgrade_opnd_type() という関数を呼ぶようにしています。この関数がなにをしているのかはよくわかりませんでしたが to_s で変換するとかではなさそう? https://github.com/ruby/ruby/pull/7489
