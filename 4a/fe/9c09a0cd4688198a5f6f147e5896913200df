@@ -1,0 +1,1 @@
+RJIT から利用する C の関数 imemo_type() のかわりに imemo_type_p() を利用するようにしています。よくわかりませんが imemo_type() を利用していて SEGV することがあったとのこと。
