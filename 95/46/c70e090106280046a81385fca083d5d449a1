@@ -1,0 +1,1 @@
+intgernal/gc.h の不要な構造体 struct rb_thread_struct の前方宣言を削除しています。
