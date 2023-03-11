@@ -1,0 +1,1 @@
+4667a3a665c40d9ea7f2be6417d1537deb208c52 で導入された VM 命令 defined_ivar を definedivar と改名しています。そういう命名規則があったみたいですね。おそらく副作用だと思いますが yjit/src/codegen.rs のコメントの非ASCII文字が文字化けを起こしてしまっているようです。
