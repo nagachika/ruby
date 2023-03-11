@@ -1,0 +1,1 @@
+15739c66b713a695b0dfc1e4c1bf01b7d2a04426 で gem prinstine のオプション --only-missing-extensions を追加した時に不要なフラグのセットが混じっていたのを削除しています。
