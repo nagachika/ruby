@@ -1,0 +1,1 @@
+gc.c から WeakMap と WeakKeyMap の実装を weakmap.c というファイルに切り出しています。
