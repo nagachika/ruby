@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装でメソッドの属性を指定する Primitive.attr! メソッドの引数を Symbol を受付けるように変更して、ruby 実装のほうも引数を Symbol に変更しています。 https://github.com/ruby/ruby/pull/7501
