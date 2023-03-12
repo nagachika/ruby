@@ -1,0 +1,1 @@
+gc.c の gc_marks_finish() で is_full_marking() が真の時に RGenGC のためのしきい値を更新する処理が後のほうにもあって重複していたので削除しています。
