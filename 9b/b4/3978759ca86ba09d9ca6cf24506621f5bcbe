@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap と ObjectSpace::WeakKeyMap を RGenGC の WB-protected なオブジェクトにしています。
