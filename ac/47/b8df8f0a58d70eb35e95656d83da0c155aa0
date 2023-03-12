@@ -1,0 +1,1 @@
+GitHub Actions や AppVeyor で BASERUBY としてテストする対象を ruby 2.5 に引き上げています。コミットログによると本当は 2.7 まで上げたいのだけど CI に使っている環境で 2.7 のない環境があるなどの理由で今は 2.5 までにしているようです。 https://github.com/ruby/ruby/pull/7504 [ruby-core:97355] [Misc #16671]
