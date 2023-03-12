@@ -1,0 +1,1 @@
+tool/ruby_vm/views/lib/ruby_vm/rjit/instruction.rb.erb で生成するコードから VM 命令の属性情報をオブジェクトに持たせる部分が不要になってたみたいで削っています。
