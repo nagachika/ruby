@@ -1,0 +1,1 @@
+a6de8b0d2dea18b03374d27901f31be407523baa に続いて YJIT の Rust 実装の SEND_MAX_DEPTH という定数をさらに 20 にまで増やしています。 https://github.com/ruby/ruby/pull/7469
