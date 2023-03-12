@@ -1,0 +1,1 @@
+rubygems のテストに cb3f1f6de8bd2e128168fde43aa28c2441818469 で追加した Gem::Specification#missing_extensions? メソッドのテストを追加しています。 https://github.com/rubygems/rubygems/pull/6444
