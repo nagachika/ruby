@@ -1,0 +1,1 @@
+RJIT 用の RubyVM::RJIT::Assembler クラスの修正とテストの追加。
