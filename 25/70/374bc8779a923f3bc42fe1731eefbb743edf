@@ -1,0 +1,1 @@
+GitHub Actions で利用している ruby/action-slack アクションのバージョンを更新しています。たまに dependabot による更新は更新漏れがあるようなのでそれを追加で更新しているみたいです。 https://github.com/ruby/ruby/pull/7505
