@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で定義されているテスト用の assertion メソッドで assert_join_threads で Exception#full_message が未定義の場合の考慮の追加と assert_no_memory_leak で MJIT が有効な時に skip する処理を追加。RubyVM::MJIT を使っているので master だと RUbyVM::RJIT が定義されていないかのチェックも必要? それとも RJIT だと問題がないのかも。 tool/lib/core_assertions.rb は default gems のテストでも利用されるため古い ruby でも動く必要があるため。
