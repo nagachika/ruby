@@ -1,0 +1,1 @@
+RJIT で Object Shapes の情報を取得するメソッドで整数の変換に利用するマクロを PTR2NUM() から SIZET2NUM() に修正しています。
