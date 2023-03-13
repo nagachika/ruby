@@ -1,0 +1,1 @@
+GitHub Actions で使う ruby/action-slack アクションのバージョンを 3.1.0 および 3.1.1 に更新したのを revert して 3.0.0 に戻しています。
