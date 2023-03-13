@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境の workflow でデバッグ用にテスト実行時に -v --tty=no オプションをつけるようにしています。
