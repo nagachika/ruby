@@ -1,0 +1,1 @@
+RubyVM::RJIT::Assembler の実装で pattern match のパターンとして Symbol クラスを使っていたのを Proc オブジェクトを作ってこれを使うようにしています。なるほどこうすると Proc オブジェクトが真を返す時にマッチするから後置 if でのチェックを Proc の中に入れられるということか。
