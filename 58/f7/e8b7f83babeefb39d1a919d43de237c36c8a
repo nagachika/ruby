@@ -1,0 +1,1 @@
+RJIT 用の C Binding の生成するツール tool/rjit/bindgen.rb でいくつかの C の関数の wrapper を Promitive.cexpr! を使った ruby 実装を自動生成するようにしています。
