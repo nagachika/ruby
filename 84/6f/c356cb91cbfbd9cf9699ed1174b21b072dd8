@@ -1,0 +1,1 @@
+RJIT 用のコード生成に pattern match 文法を利用するようにしています。ということは BASERUBY が pattern match が使えるバージョンが必要になるってことかな。
