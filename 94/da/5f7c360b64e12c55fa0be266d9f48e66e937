@@ -1,0 +1,1 @@
+0c0c88d383a09fef18d8cf8a1457d1649a2cbd46 の続きで組み込みメソッドの ruby 実装で使う Primitive.attr! の inline 属性を leaf 属性に改名しています。そういえば昔は leaf っていう名前だったような気も。
