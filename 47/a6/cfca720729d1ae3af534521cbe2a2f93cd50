@@ -1,0 +1,1 @@
+RJIT 用の C binding で C の定数を ruby の Integer に変換するのに使うマクロを修正しています。主に UINT2NUM() を SIZET2NUM() に変更するのと INT2NUM() を LONG2NUM() に変更しています。
