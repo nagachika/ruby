@@ -1,0 +1,1 @@
+テスト用に RJIT や YJIT がサポートされているかどうか判定する処理を test/lib/jit_support.rb にまとめています。
