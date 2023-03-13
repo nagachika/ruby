@@ -1,0 +1,1 @@
+RubyVM::RJIT::Assembler で Array クラスを直接参照していたのを QwordPtr という定数を使うようにしています。 QwordPtr には Array を代入しているので実態は同じですが意味を明確にするためみたいです。
