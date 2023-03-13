@@ -1,0 +1,1 @@
+RJIT の RubyVM::RJIT::Assembler の定義で case 文の else 節を削除して NotImplementedError を raise しなおしていたのを pattern match の NoMatchingPatternError 例外をそのまま上げるようにしています。
