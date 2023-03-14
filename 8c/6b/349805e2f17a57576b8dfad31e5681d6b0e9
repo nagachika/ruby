@@ -1,0 +1,1 @@
+rubygems の Gem.datadir メソッドは不要になっていたようで削除しています。
