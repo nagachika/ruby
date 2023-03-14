@@ -1,0 +1,1 @@
+common.mk に make btest-bruby というターゲットを追加して BASERUBY を利用して btest を実施するようにしています。 miniruby で RJIT  が動かないため RJIT を有効にして make btest ができないため RJIT を使って btest を実施するためのターゲットみたいです。
