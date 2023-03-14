@@ -1,0 +1,1 @@
+正規表現マッチで memo 化による最適化の不具合修正。 https://github.com/ruby/ruby/pull/7457 [ruby-core:112683] [Bug #19476]
