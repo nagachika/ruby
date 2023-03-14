@@ -1,0 +1,1 @@
+RubyVM::RJIT::ExitCompiler の initialize で freeze するようにしています。本当は RubyVM::RJIT::InsnCompiler を freeze したかったけどあきらめてこちらだけ freeze するということみたいです。
