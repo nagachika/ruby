@@ -1,0 +1,1 @@
+1095baed34dca15b9d8c6c54ea2f89bbaf67fb52 で標準添付ライブラリ irb で Kernel#is_a? メソッドを UnboundMethod として取り出しておいて使ってたのをやめて Module#=== を使った判定に変更しています。
