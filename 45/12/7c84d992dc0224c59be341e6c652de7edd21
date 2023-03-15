@@ -1,0 +1,1 @@
+YJIT で可変長引数(rest 引数)を受け付けるメソッドに配列を展開して渡す呼びかたをした時の JIT サポートの拡張。 https://github.com/ruby/ruby/pull/7499
