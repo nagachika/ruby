@@ -1,0 +1,1 @@
+gc.c で PowerPC アーキテクチャでプロファイルのためのクロックを得るのに __builtin_ppc_get_timebase() という関数を使う実装を clang でビルド時にもサポートするようにしています。
