@@ -1,0 +1,1 @@
+irb でオブジェクトの inspect 結果を表示するために Kernel#is_a? や Kernel#respond_to?, Kernel#inspect メソッドを Object.instance_method メソッドで UnboundMethod として取り出しておいてこれを bind して call するという方法で再定義されていたり BasicObject に対しても呼べるようにしています。
