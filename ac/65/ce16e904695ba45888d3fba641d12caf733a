@@ -1,0 +1,1 @@
+1658e7d96696a656d9bd0a0c84c82cde86914ba2, 4dce12bead3bfd91fd80b5e7195f7f540ffffacb, 44a0711eab7fbc71ac2c8ff489d8c53e97a8fe75 などの CHGSHLD の特別扱いをやめた変更を revert しています。 CI でエラーが発生してしまったとのこと。うーむ、残念。 https://github.com/ruby/ruby/pull/7517
