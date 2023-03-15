@@ -1,0 +1,1 @@
+YJIT の x86_64 アーキテクチャ向けの add/sub/and/or/xor などの命令の後に mov 命令がある時にオペランドの指定を変更して 1命令にまとめる最適化を追加しています。 https://github.com/ruby/ruby/pull/7492
