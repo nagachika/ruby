@@ -1,0 +1,1 @@
+NilClass#to_c や NilClass#inspect など nil のメソッドの rdoc 用コメントのサンプルを追加しています。 https://github.com/ruby/ruby/pull/7500
