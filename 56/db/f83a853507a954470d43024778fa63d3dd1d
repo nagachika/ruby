@@ -1,0 +1,1 @@
+ed269c81aa68ba87e9da2fe4c0c2227ea0689eca で lib/ruby_vm/rjit/insn_compiler.rb に invokeblock 命令にカウンタのためのダミー実装を追加した時の未使用変数の警告抑制のため変数名の先頭に "_" を追加しています。
