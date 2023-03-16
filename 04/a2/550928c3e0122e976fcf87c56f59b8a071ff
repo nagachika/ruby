@@ -1,0 +1,1 @@
+55a0fbfaf855da513e7c8e1234e9edfd51693efa で bundler の拡張のほうに移動した Gem::Specification#missing_extensions? の実装で探索するディレクトリの参照方法を raw_require_paths というメソッド? のほうを利用するように変更しています。よくわからないけど bundler での実装ではこれが使えるということかな。
