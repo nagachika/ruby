@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap が GC.compact した時に参照の移動対応が漏れていて異常終了する可能性があった不具合を修正しています。 rb_gc_update_tbl_refs() で st_table の参照更新をしようとしていましたが WeakMap の実装は st_table の値のところが VALUE の配列へのポインタとしてちょっと別の構造にしているので特別対応した実装が必要でした。 [ruby-core:112871] [Bug #19529]
