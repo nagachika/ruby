@@ -1,0 +1,1 @@
+昨日 ac65ce16e904695ba45888d3fba641d12caf733a で revert した SIGCHLD の特別扱いをやめる変更のリトライ。Process.waitpid 系の実装の対応部分のみかな。 https://github.com/ruby/ruby/pull/7527
