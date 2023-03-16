@@ -1,0 +1,1 @@
+rubygems の Gem::Security.create_digest というメソッド定義を OpenSSL::Digest が定義されているかどうかで分岐していたのがもう不要とのことで常に OpenSSL::Digest を利用するように変更しています。
