@@ -1,0 +1,1 @@
+548086b34e3dd125edabf5dc1e46b891fad3ea9c の ObjectSpace::WeakMap の GC.compact 対応の不具合修正の再修正。 st_table の値の扱いを間違えていたのを修正。 [ruby-core:112871] [Bug #19529]
