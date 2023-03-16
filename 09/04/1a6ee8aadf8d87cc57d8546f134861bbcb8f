@@ -1,0 +1,1 @@
+7ce4b716bdb5bcfc8b30ffcd034ce7aded1f72b9 で追加した default gems のテストでも使うための assertion メソッド assert_linear_performance に rehearsal キーワード引数を追加して最初にかかる時間を測定するのに繰り返す回数を別途指定できるようにしています。
