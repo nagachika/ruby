@@ -1,0 +1,1 @@
+bundler のテストで拡張ライブラリ digest を利用していたところを openssl の OpenSSL::Digest をかわりに利用するように変更しています。
