@@ -1,0 +1,1 @@
+e87d0882910001ef3b0c2ccd43bf00cee8c34a0c の変更で f(*args, **kw) のようなメソッド呼び出しでのオブジェクト生成を抑制する変更で keyword rest 引数を渡してメソッド呼び出しした時にメソッド内で参照できる keyword rest 引数の Hash オブジェクトが呼び元で渡した Hash オブジェクトと同一のインスタンスになってしまっていたので、dup を促すフラグを立てておく処理を追加しています。 https://github.com/ruby/ruby/pull/7507 [ruby-core:112854] [Bug #19526]
