@@ -1,0 +1,1 @@
+YJIT に VM 命令 throw による大域脱出の JIT コンパイル対応を追加しているようです。 https://github.com/ruby/ruby/pull/7491
