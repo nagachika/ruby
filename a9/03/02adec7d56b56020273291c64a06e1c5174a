@@ -1,0 +1,1 @@
+rubygems のテストで OpenSSL::Digest モジュールを OpenSSL を省略して Digest で参照していたのをフルパスで参照するように修正しています。
