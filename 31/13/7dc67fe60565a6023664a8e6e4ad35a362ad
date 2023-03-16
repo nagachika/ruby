@@ -1,0 +1,1 @@
+55a0fbfaf855da513e7c8e1234e9edfd51693efa で bundler の拡張のほうに移動した Gem::Specification#missing_extensions? の実装の文字列リテラルのクオートをダブルクオートに変更。また rubygems のほうのテストに missing_extentions? の拡張部分のテストが残っていたので削除しています。
