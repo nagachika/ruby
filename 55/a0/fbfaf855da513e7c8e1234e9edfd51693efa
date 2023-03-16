@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#missing_extensions? に追加していた拡張ライブラリのファイルを探す処理を bundler による Gem::Specification の拡張をしている部分に移動しています。
