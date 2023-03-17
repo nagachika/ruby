@@ -1,0 +1,1 @@
+YJIT の Rust 実装の中間表現の load_into という命令? の実装で不要な時に命令を省略する最適化を追加しているようです。 https://github.com/ruby/ruby/pull/7537
