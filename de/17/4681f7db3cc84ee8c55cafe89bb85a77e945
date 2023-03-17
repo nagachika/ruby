@@ -1,0 +1,1 @@
+YJIT の実装で GC のための(この GC は YJIT のコード領域の GC じゃなくて ruby 本体のほうの GC かな、たぶん) mark 処理時に VM のロック取得していることを確認する assertion を追加しています。
