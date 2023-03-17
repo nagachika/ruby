@@ -1,0 +1,1 @@
+関数マクロ RB_GC_SAVE_MACHINE_CONTEXT() の定義を internal/gc.h から vm_core.h に移動しています。
