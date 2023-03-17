@@ -1,0 +1,1 @@
+70ba3102129dbaf6c943d1ed042103e0238842f4 の Primitive.attribute! メソッドの引数に :no_gc という属性を追加した変更で Kernel#class メソッドの実装に no_gc 属性を追加していたのをやめています。 Cirrus CI でのエラーの対応のためみたいです。 rb_obj_class() の呼び出しをするだけなので実際 GC 起動することはなさそうですが。
