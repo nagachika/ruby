@@ -1,0 +1,1 @@
+5791aa6263f730e3b2c8d4a4fb7a054539cf6135 で移動して 60b8c7d9fd2e2cb82dae7189a66335b3bec9005f で改名した関数マクロ RB_VM_SAVE_MACHINE_CONTEXT() の定義をさらに internal/thread.h に移動しています。
