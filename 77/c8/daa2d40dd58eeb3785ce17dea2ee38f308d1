@@ -1,0 +1,1 @@
+YJIT の Rust 実装の JITState の ec を必須にする変更。 https://github.com/ruby/ruby/pull/7520
