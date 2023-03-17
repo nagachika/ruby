@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストでメッセージが少し変化してしまったために失敗するようになったテストの修正。リンクする OpenSSL のバージョンの更新で変化してしまったようです。 https://github.com/ruby/openssl/issues/606
