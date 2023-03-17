@@ -1,0 +1,1 @@
+b3a271665b6d45fe21e775e1c523a040caa509a9 の続きで GC_ENABLE_INCREMENTAL_MARK というマクロも削除して常に有効になるようにしています。 [ruby-core:112446] [Feature #19442]
