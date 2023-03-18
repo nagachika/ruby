@@ -1,0 +1,1 @@
+d454a590ccdcf50d681aeb0aacfe2a0e424481b1 の続きで RubyVM::RJIT::Instruction の opes を operands に改名しています。やっぱりオペランドの情報だったみたいですね。
