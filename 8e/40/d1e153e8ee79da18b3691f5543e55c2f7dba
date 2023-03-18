@@ -1,0 +1,1 @@
+rubygems の gem environment サブコマンドで表示する RUBY_PATCHLEVEL 定数の有無のチェックを削除しています。もうそんな古い ruby はサポートしていないので。
