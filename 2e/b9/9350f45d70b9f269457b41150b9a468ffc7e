@@ -1,0 +1,1 @@
+lib/rubygems/command.rb にコメントで rubocop:disable というのをつけて rubocop の警告抑制したいたのが冗長? とのことで削除しています。
