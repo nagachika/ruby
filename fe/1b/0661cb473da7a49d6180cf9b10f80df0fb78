@@ -1,0 +1,1 @@
+rubygems の Gem.ruby_version でも RUBY_PATCHLEVEL 定数の有無のチェックを削除しています。
