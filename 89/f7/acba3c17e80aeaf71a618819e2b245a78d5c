@@ -1,0 +1,1 @@
+364364c3bd1067f37e4ce4e275b2c8c97984588f と同様に rubygems のテストでもバイト列を uint8 の配列とみなして和を取る処理に String#unpack を使ってたのを String#bytes を使うように書き換えています。
