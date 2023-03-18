@@ -1,0 +1,1 @@
+37c2e903e89b9e2d7f1dc771da4143d9f041ef8f に対応して? rubygems のテストで Gem::TestCase を継承したテストクラスで明示的に setup/teardown を空っぽに定義して親クラスの setup/teardown の実行を抑制するようにしています。
