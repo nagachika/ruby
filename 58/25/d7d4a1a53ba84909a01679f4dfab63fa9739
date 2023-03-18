@@ -1,0 +1,1 @@
+YJIT でメソッド呼び出しの引数の渡しかたによって JIT コードをあきらめるための分岐をひとつ削っています。 https://github.com/ruby/ruby/pull/7546
