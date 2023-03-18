@@ -1,0 +1,1 @@
+9947574b9cad74fbf04fa44d49647c591590c511 の追加修正で JIT が有効でない場合の preprocessor 分岐で jit_func_t を rb_jit_func_t に変更し漏れていたのを修正しています。
