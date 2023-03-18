@@ -1,0 +1,1 @@
+rubygems が上書きしている Kernel#require メソッドで RUBYGEMS_ACTIVATION_MONITOR という Monitor での排他処理が以上な状態になった時のデバッグのために追加していた ensure 節を削除しています。起きなくなったからかと思ったけど、起きるけど警告や例外が邪魔ということみたいです。それはいいのかな。
