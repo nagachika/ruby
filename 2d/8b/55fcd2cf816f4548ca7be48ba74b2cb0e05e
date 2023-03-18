@@ -1,0 +1,1 @@
+bundler のテストの lockfile_platforms_for という helper を削除して lockfile_platforms を直接呼ぶように展開しています。
