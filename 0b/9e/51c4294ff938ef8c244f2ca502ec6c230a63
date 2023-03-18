@@ -1,0 +1,1 @@
+bundler の依存関係解決時に force_ruby_platform という指定があった時に platform を考慮した処理をスキップするようにしているようです。コミットログをみる感じだと TruffleRuby 向けの対応?
