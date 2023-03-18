@@ -1,0 +1,1 @@
+rubygems の Gem::Package::TarHeader#calculate_checksum メソッドでバイト列を uint8 の配列とみなして和を取る計算に String#unpack を使ってたのを String#bytes を使うように変更しています。
