@@ -1,0 +1,1 @@
+rubygems のテストに Gem::Specification.all_names の内容をチェックするための helper メソッドを導入しています。
