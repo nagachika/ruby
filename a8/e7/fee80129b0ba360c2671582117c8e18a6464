@@ -1,0 +1,1 @@
+cae4342dd559e34c1ce6219593f77f0ad80286da で正規表現マッチの計算量のテストのための assert_linear_performance メソッドの引数の受け取りかたを変更していたのを revert しています。
