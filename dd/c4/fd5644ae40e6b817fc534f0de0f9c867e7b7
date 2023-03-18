@@ -1,0 +1,1 @@
+bundler に Bundler::URINormalizer という Module を追加して URL の末尾に "/" を追加する処理をまとめています。
