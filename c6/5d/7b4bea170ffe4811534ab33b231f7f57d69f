@@ -1,0 +1,1 @@
+bundler で git リポジトリで gem を指定した時の bundle lock --update で更新する処理で git clone するコマンドに --branch オプションをつけないようにする変更。
