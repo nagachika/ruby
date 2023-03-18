@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の finalizer 処理で realloc() するバッファサイズが 1つぶん多かったのを修正しています。多いぶんには異常終了したりはしないでしょうけど。
