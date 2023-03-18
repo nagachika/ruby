@@ -1,0 +1,1 @@
+RubyVM::RJIT::Instruction に opes というプロパティを追加しています。オペランドの情報かな?
