@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で出力する統計情報に分岐の命令についての項目を追加しています。 https://github.com/ruby/ruby/pull/7544
