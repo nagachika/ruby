@@ -1,0 +1,1 @@
+8e40d1e153e8ee79da18b3691f5543e55c2f7dba と同様に bundler の bundle env サブコマンドでも RUBY_PATCHLEVEL 定数の有無のチェックを削除しています。
