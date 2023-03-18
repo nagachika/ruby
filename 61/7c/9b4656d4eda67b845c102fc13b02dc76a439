@@ -1,0 +1,1 @@
+d454a590ccdcf50d681aeb0aacfe2a0e424481b1 および 8dbddd5bf8a2f36b0cd32d97f7f7fa383bbc5b64 の続きで tool/ruby_vm/ 配下のテンプレートなどで VM 命令のオペランド情報についての名前も opes から operands に改名しています。
