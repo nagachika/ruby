@@ -1,0 +1,1 @@
+bundler のテストで specific_local_platform という helper メソッドも削除して呼び元で local_platform を呼ぶように展開しています。
