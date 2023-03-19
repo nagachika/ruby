@@ -1,0 +1,1 @@
+YJIT 用オプション --yjit-global-constant-state のサポートを削除しています。 https://github.com/ruby/ruby/pull/7559
