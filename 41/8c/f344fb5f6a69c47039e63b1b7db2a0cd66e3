@@ -1,0 +1,1 @@
+irb のテストのメソッドの再定義回避のための alias するメソッド名の改名や yamatanoorochi.gem を使うテストで require できなかった時の toplevel return のための rescue 節を require の直後になるようにする変更など。
