@@ -1,0 +1,1 @@
+YJIT の --yjit-stats オプションで JIT コードを使わなかった理由のカウンタを表示する処理で中間オブジェクト生成を抑制する最適化。 https://github.com/ruby/ruby/pull/7547
