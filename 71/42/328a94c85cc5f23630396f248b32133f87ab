@@ -1,0 +1,1 @@
+拡張ライブラリなどで T_TYPEDDATA 型のオブジェクトのクラスを定義する時に適切な mark/free/compact などの関数を実装させるかわりに定義にマクロを使って構造体内の VALUE 型のメンバーの位置を配列で持たせてそれをみて処理する gc_mark_from_offset() や gc_ref_update_from_offset() という関数を導入して、rb_data_type_t::flags に RUBY_TYPED_DECL_MARKING フラグが立ってたらこれを利用するようにしています。なるほどなー。普及するかな。 [ruby-core:112200] [Feature #19406]
