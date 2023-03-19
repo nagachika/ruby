@@ -1,0 +1,1 @@
+bootstraptest/test_load.rb のテストで RJIT が有効な時に失敗することがあるテストを skip するようにしています。
