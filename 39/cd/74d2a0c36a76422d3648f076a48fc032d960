@@ -1,0 +1,1 @@
+configure のオプション --enable-rjit=dev が指定された時にマクロ RUBY_DEBUG=1 を定義していたのを RJIT_STATS=1 を定義するように変更しています。
