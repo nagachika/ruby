@@ -1,0 +1,1 @@
+gc.c の gc_is_moveable_obj() で finalizer が設定されているフラグが立っていた時に finalizer_table テーブルに登録済みであることのチェックを GC_ASSERT() にして通常時はチェックしないようにしています。
