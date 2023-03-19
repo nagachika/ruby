@@ -1,0 +1,1 @@
+7142328a94c85cc5f23630396f248b32133f87ab で導入した mark/compact 用の処理を構造体の VALUE 型メンバーをマクロで宣言する手法について doc/extension.rdoc に追記しています。
