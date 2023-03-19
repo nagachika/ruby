@@ -1,0 +1,1 @@
+YJIT の VM 命令からコード生成する時に VM スタックに push する値の型情報を一部詳しくしています。 https://github.com/ruby/ruby/pull/7555
