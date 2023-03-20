@@ -1,0 +1,1 @@
+rjit_c.rb で RubyVM::RJIT::C.obj_is_kind_of メソッドの定義が重複していたのでひとつ削除しています。
