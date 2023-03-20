@@ -1,0 +1,1 @@
+RJIT 用の構造体 struct rjit_options を struct rb_rjit_options と改名しています。
