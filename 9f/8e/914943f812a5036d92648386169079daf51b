@@ -1,0 +1,1 @@
+RJIT で VM 命令 checkkeyword の JIT コンパイル対応を追加。
