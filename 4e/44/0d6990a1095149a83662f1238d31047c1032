@@ -1,0 +1,1 @@
+doc/rjit/rjit.md を doc/rjit/README.md とファイル名を変更し、GitHub Actions の RJIT のテスト用の workflow で disasm のために libcapstone-dev をインストールしておくようにしています。
