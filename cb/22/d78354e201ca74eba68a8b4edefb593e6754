@@ -1,0 +1,1 @@
+freeze したオブジェクトが Variable Width Allocation による slot サイズの変化したうえで別の slot サイズの heap への移動をした場合に freeze 状態が保存されていないという不具合を修正しています。 移動時のフラグの問題じゃなくて Object Shapes の情報を探索する時の不具合だったみたいですね。 [ruby-core:112930] [Bug #19536]
