@@ -1,0 +1,1 @@
+RJIT の C Binding で USE_RVARGC=0 でビルドした時のために struct RString の embed フィールドの情報は無視するようにしています。
