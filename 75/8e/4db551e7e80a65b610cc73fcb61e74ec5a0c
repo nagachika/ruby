@@ -1,0 +1,1 @@
+1db8951d3a8be6a756c9d3d3b87231997b301985 で導入された Process.pid の値のキャッシュのための static 変数 が T_BIGNUM になる可能性がありそうだったら rb_gc_register_address() で GC の mark 対象として登録しておくようにしています。
