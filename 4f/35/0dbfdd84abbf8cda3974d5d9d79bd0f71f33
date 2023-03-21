@@ -1,0 +1,1 @@
+lib/ruby_vm/rjit/insn_compiler.rb で代入しても使用していない変数を削除。
