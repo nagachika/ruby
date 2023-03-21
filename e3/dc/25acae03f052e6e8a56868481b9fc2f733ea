@@ -1,0 +1,1 @@
+2d8ecfcc9a1cf65104bd0f61542a969dc3bd2317 および 7aeb9e20b90bf16d25fcc76c619bf971f4c47ec5 の続きで RJIT による VM 命令 invokeblock のコンパイルの対応修正。ブロックに渡す引数が対応できるかどうかのチェックを追加しているようです。
