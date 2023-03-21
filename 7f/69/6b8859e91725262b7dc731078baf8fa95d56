@@ -1,0 +1,1 @@
+bootstraptest/runner.rb の警告抑制のため未使用だった rescue 節の例外オブジェクトの変数への束縛を削除しています。
