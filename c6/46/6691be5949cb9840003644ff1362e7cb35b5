@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境でのテスト実行時に RUBYOPT=-w を指定して警告メッセージ出力するようにしています。
