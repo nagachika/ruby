@@ -1,0 +1,1 @@
+ractor.c の ractor_try_yield() や ractor_basket_prepare_contents の引数に volatile 修飾子を追加しています。 GCC の "clobbered nby 'longjmp' or 'vfork'" 警告抑制のため。
