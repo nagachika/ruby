@@ -1,0 +1,1 @@
+c6466691be5949cb9840003644ff1362e7cb35b5 の再修正で test-bundler と test-bundled-gems では -w オプションをつけないように修正しています。
