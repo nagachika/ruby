@@ -1,0 +1,1 @@
+RJIT で VM 命令 invokeblock で ISeq によるブロックの起動の対応を追加。
