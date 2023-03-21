@@ -1,0 +1,1 @@
+2d8ecfcc9a1cf65104bd0f61542a969dc3bd2317 の追加修正で RJIT による invokeblock 命令の ISeq によるブロック起動を一時的に無効に戻しています。 btest でエラーが発生しているとのこと。
