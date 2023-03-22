@@ -1,0 +1,1 @@
+dln.c の dln_open() で libruby のバージョン不一致のチェックをしているところで libruby_name という変数を ALLOCA() で確保したメモリ領域にすりかえるようにしています。 dlclose() 呼び出し時に libruby_name の指す領域が解放される可能性があるので退避するため。
