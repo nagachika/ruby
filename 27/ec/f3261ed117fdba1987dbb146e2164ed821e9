@@ -1,0 +1,1 @@
+doc/yjit/yjit.md の YJIT に関連するテストに make yjit-smoke-test についての記述を追加しています。
