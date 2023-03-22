@@ -1,0 +1,1 @@
+RJIT の VM 命令 invokesuper のコンパイル時に RCLASS_ORIGIN() を利用するようにしています。 Module#prepend 対応かな。
