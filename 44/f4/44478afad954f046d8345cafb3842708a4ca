@@ -1,0 +1,1 @@
+YJIT の Rust 実装で VM 命令 toregexp の実行後の VM スタックに追加する値の型の指定を変更しています。 https://github.com/ruby/ruby/pull/7562
