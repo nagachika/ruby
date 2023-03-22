@@ -1,0 +1,1 @@
+configure と yjit/Cargo.toml で YJIT のビルドオプションの --yjit=dev_nodebug で --yjit-stats オプションは有効になるようにしているようです。 https://github.com/ruby/ruby/pull/7570
