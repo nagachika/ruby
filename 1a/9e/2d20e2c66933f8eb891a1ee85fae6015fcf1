@@ -1,0 +1,1 @@
+Object Shapes で rb_shape_t のエントリを新規作成する時に rb_shape_t::edges メンバーを NULL で初期化しておくようにしています。ついでに rb_shape_t の配列を確保する時のサイズの指定するマクロを SHAPE_BITMAP_SIZE で word 数で指定していたのを SHAPE_BUFFER_SIZE としてバイト数を定義しておくように変更しています。また MAX_SHAPE_ID を SHAPE_BUFFER_SIZE で定義するようにしています。 MAX_SHAPE_ID  はバイト単位のサイズと同じでいいんだろうか? sizeof(rb_shape_t) がいくつ入るかじゃないのかな?
