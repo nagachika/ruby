@@ -1,0 +1,1 @@
+処理時間がデータ量に比例することを確認する assertion メソッド assert_linear_performance で Enumerable#filter_map を利用していたのを map に変更しています。 filter_map が古い ruby で使えないため。
