@@ -1,0 +1,1 @@
+rubygems のテストのヘルパーメソッドで定数 RUBY_ENGINE_VERSION を defined? で存在チェックしていたのももう不要として削除しています。
