@@ -1,0 +1,1 @@
+rb_shape_alloc_with_size_pool_index() を削除して rb_shape_alloc() と統合するリファクタリング。
