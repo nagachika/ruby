@@ -1,0 +1,1 @@
+Object Shapes の実装で rb_shape_t::edges の管理用の rb_id_table の確保を遅延して必要になるまでテーブルを生成しないようにしてメモリ使用量を節約しています。
