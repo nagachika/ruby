@@ -1,0 +1,1 @@
+5d0a1ffafa61da04dbda38a5cb5565bcb8032a78 の YJIT での rest 引数とブロック引数を持つメソッドの呼び出しサポート追加を revert しています。ベンチマークでエラーが発生したとのこと。 https://github.com/ruby/ruby/pull/7557
