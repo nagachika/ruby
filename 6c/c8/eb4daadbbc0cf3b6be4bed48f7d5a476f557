@@ -1,0 +1,1 @@
+file.c の rb_stat_wr() や rb_stat_ww() といった関数が S_IROTH や S_IWOTH という定数マクロが未定義の時に return 文のない関数になってしまっていたのを修正しています。
