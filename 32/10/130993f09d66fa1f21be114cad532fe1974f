@@ -1,0 +1,1 @@
+758e4db551e7e80a65b610cc73fcb61e74ec5a0c で Process.pid のキャッシュのための static 変数を GC から保護するための mark が必要か判定するために追加した処理で process.c で rb_pid_t の型のサイズによって警告が出る環境があるため RBIMPL_WARNING_IGNORED() マクロを利用してい局所的に -Wtype-limits の警告オプションを off にするようにしています。
