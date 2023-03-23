@@ -1,0 +1,1 @@
+default gems で利用する assert_linear_performance という計算量がデータサイズに対して線形になってることを確認する assertion メソッドでタイムアウト時間を計算する時に初期値を考慮するようにしています。
