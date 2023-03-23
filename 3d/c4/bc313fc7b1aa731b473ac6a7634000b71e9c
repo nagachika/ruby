@@ -1,0 +1,1 @@
+rubyegms のテストなどで RUBY_REVISION 定数を defined? で存在チェックしていたのをやめています。
