@@ -1,0 +1,1 @@
+rubyspec の File#utime のテストが Amazon Linux 2023 で失敗してたようなので許容する year の結果に新しい定数を追加しています。
