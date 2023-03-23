@@ -1,0 +1,1 @@
+shape.c の rb_shape_alloc()、rb_shape_alloc_with_size_pool_index()、rb_shape_alloc_with_parent_id() といった rb_shape_t を確保する関数を static 関数に変更しています。
