@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する bin/console のコメントアウトされている pry を利用したコードを削除しています。
