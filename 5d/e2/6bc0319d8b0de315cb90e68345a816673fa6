@@ -1,0 +1,1 @@
+YJIT で通常の引数に配列を splat して渡す呼びかたをする時の処理の修正。 https://github.com/ruby/ruby/pull/7575
