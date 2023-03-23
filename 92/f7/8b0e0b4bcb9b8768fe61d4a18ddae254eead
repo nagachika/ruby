@@ -1,0 +1,1 @@
+rubygems のテストのヘルパーメソッドで RUBY_PATCHLEVEL 定数を Object#remove_const で削除するのを defined? でチェックしてからしていたのをやめています。これはなぜだろう。
