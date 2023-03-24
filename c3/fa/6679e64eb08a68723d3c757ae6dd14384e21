@@ -1,0 +1,1 @@
+164dc580084b10d46f1c44de5c36d907b0f6a385 と同様だと思いますが bundler で例外メッセージから bundle install に --full-index オプションをつけることを suggest していた部分を削除ちえいます。
