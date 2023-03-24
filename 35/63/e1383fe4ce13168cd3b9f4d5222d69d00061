@@ -1,0 +1,1 @@
+1db8951d3a8be6a756c9d3d3b87231997b301985 の Process.pid のキャッシュするようにした実装でキャッシュをクリアするのを rb_process_atfork() という関数を追加していたのを既存の関数 after_fork_ruby() に pid を渡してこの中でクリアするように変更しています。よくわかってませんが timer thread での fork の検出にも同じロジックを使いまわすようにしているようです。 [ruby-core:112457] [Feature #19443]
