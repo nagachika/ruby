@@ -1,0 +1,1 @@
+compile.c の compile_builtin_mandatory_only_method() で rb_vm_t::builtin_inline_index を一時退避して復旧させていたのをやめています。 f29c9d6d36ebeb3e768a514cbfa00cd2ab35fcbc で if/unless 文などで決して通らないとわかっている部分はコンパイルしなくなったために不要になったとのこと。
