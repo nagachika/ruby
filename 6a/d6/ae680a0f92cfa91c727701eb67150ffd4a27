@@ -1,0 +1,1 @@
+rubygems の gem exec コマンドのテストを ruby のリポジトリ内では skip するようにしています。
