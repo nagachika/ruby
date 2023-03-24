@@ -1,0 +1,1 @@
+rubygems の  Gem::Ext::RakeBuilder.build でコマンドラインオプション -I でのロードパス指定が不要な時に省略するよう変更しています。
