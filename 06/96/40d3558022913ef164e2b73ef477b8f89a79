@@ -1,0 +1,1 @@
+rubygems の tar アーカイブを読む Gem::Package::TarHeader のチェックサム確認で不要な整数化と中間配列生成をなくす最適化。 String#sum なんてあったっけ?
