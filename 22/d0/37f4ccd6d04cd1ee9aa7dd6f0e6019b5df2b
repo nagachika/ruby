@@ -1,0 +1,1 @@
+f8ecf145cee5a2af4cf48a2c0b6bf600886b8b96 と e46d473396401f8f320b4a5b8f638630ab42fa4c の rubygems の修正で共通した処理をメソッドに切り出すリファクタリング。
