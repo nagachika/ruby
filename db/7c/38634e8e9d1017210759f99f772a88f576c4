@@ -1,0 +1,1 @@
+assert_linear_performance の実装で Timeout.timeout を使う時に明示的に Timeout::Error 例外を投げるように指定しています。
