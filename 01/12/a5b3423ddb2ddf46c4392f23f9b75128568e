@@ -1,0 +1,1 @@
+Array#first と Array#last を ruby 実装するようにしています。
