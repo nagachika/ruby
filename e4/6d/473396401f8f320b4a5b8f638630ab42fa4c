@@ -1,0 +1,1 @@
+同じく rubygems の Gem::Ext::ExtConfBuilder.build でも -I オプションによるロードパス指定が不要なときに付けないように修正しています。
