@@ -1,0 +1,1 @@
+c3fa6679e64eb08a68723d3c757ae6dd14384e21 と同様に bundler のエラーメッセージから --full-index をつけることを suggest しているところを削除しています。
