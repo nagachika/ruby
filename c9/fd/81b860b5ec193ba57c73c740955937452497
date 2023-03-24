@@ -1,0 +1,1 @@
+ISeq へのコンパイル時の peephole optimization で VM 命令 opt_invokebuiltin_delegate_leave を利用するようにした時に不要な場合(引数がない時?)に VM スタックのフレームを積むのを省略する最適化。
