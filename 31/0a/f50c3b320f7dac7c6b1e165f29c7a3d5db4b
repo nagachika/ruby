@@ -1,0 +1,1 @@
+標準添付ライブラリ time の .gemspec ファイルで spec.required_ruby_version のバージョンを 2.4.0 以降に引き上げています。
