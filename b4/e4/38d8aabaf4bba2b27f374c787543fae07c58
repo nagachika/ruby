@@ -1,0 +1,1 @@
+YJIT で rb_str_concat() 関数を呼び出すための前処理で gen_save_sp() だけしていたのを jit_prepare_routine_call() を呼ぶように修正しています。 pc の退避も必要だったようです。 https://github.com/ruby/ruby/pull/7586 [ruby-core:112723] [Bug #19483]
