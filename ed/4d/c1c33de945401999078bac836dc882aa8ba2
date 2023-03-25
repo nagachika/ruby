@@ -1,0 +1,1 @@
+configure で --enable-multiarch 指定時に ENABLE_MULTIARCH というマクロを定義するようにしています。 31f4b2d86bfbc753cec9be376719acc4b120e944 で MJIT の compiled header の利用を削除した時にあやまって必要な部分も消しちゃったのを復活させているようです。
