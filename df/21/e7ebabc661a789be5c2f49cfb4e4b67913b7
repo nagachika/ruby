@@ -1,0 +1,1 @@
+tool/sync_test_lib.rb という default gems に tool/lib/core_assertions.rb のようなテスト用のライブラリをコピーしてコミットするためのスクリプトを追加しています。
