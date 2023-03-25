@@ -1,0 +1,1 @@
+YJIT の definedivar 命令のコンパイル時に Object Shapes の rb_shape_t の情報を利用するコードを生成するようにしています。 https://github.com/ruby/ruby/pull/7579
