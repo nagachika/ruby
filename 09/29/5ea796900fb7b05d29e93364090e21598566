@@ -1,0 +1,1 @@
+IO::Buffer#resize でサイズに 0 が指定された時に内部のバッファを解放するようにしています。 realloc() に 0 を渡した時の挙動が環境によって異なるのでそれを避けるためとのこと。 https://github.com/ruby/ruby/pull/7569
