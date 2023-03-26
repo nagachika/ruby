@@ -1,0 +1,1 @@
+d3197def882b47e7c57cdddfe8d62f62fef9d3f7 と 1b13db25d8ed0f328acc4e86668f8ad7deae7221 のさらに続きで Hash#compact の実装で Hash が空の時に compare_by_identity フラグを引き継ぐように変更しています。 [ruby-core:110663] [Bug #19113]
