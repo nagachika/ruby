@@ -1,0 +1,1 @@
+Hash[] で compare_by_identity で同一性でキーを評価する Hash から新たな Hash を作成する時にそれが空だとその compare_by_identity フラグを引き継いでいなかったので、一貫性のため引き継ぐように変更しています。 [ruby-core:110663] [Bug #19113]
