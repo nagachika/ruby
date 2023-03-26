@@ -1,0 +1,1 @@
+YJIT の rest 引数とブロック引数を受け取るメソッドの呼び出しのサポートのリトライ。 https://github.com/ruby/ruby/pull/7584
