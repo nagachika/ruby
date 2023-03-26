@@ -1,0 +1,1 @@
+rubygems のテストで GitHub Actions での mswin の時だけ skip するようにしていたテストの skip 条件を mswin 環境で ruby のリポジトリ内でのテストの場合にのみ skip するように変更しています。また mswin 環境であることの確認にヘルパーメソッドを利用するようにしています。
