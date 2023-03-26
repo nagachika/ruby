@@ -1,0 +1,1 @@
+YJIT 用の関数 rb_c_method_tracing_currently_enabled() の引数に const 修飾子を追加しています。 Rust から呼ぶ際にこれで mut をつけたキャストが不要になるみたいです。 https://github.com/ruby/ruby/pull/7591
