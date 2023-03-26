@@ -1,0 +1,1 @@
+836e9a192ba4fdc56a2d3d94f5840869f77fd3bf で追加した Dir.for_fd の rdoc 用コメントの call-seq でメソッド名が Dir.fdopendir になっていたのを修正。
