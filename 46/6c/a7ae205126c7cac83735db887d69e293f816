@@ -1,0 +1,1 @@
+Dir.fchdir メソッドを新規追加して file descriptor の整数を元にしてその fd が示すディレクトリに移動するという fchdir(2) システムコールを呼べるようにしています。 [ruby-core:111842] [Feature #19347]
