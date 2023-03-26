@@ -1,0 +1,1 @@
+non-blocking Fiber のためのインターフェースの関数群 rb_fiber_scheduler_io_xxxx() の引数 length や offset に誤って off_t や size_t の変数をそのまま渡せばいいところを VALUE 型に変換してしまっていたところを修正しています。これよく動いてたな。というかあんまり使われてなかったのか。 https://github.com/ruby/ruby/pull/7593
