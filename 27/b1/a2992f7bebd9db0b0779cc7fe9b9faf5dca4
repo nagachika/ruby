@@ -1,0 +1,1 @@
+Object Shapes の SHAPE_BUFFER_SIZE の定義を shape_id_t の型の定義にあわせて変更するようにしています。shape_id_t が 16bits の時に SHAPE_BUFFER_SIZE が大きすぎて問題があったようです。
