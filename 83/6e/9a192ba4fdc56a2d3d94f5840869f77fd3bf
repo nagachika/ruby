@@ -1,0 +1,1 @@
+466ca7ae205126c7cac83735db887d69e293f816 からの続きで Dir.for_fd というクラスメソッドを新規追加して file descriptor の整数を元にその fd が指すディレクトリを表現する Dir オブジェクトを返すようにしています。 [ruby-core:111842] [Feature #19347]
