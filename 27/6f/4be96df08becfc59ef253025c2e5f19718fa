@@ -1,0 +1,1 @@
+bundler の bundle gem で拡張ライブラリを含む gem を作成した時に extconf.rb で $CFLAGS に -fvisibility=hidden を追加するようにしています。関数名などのシンボルの衝突をさけるため不要なシンボルは公開しないようにするのをデフォルトにするため。
