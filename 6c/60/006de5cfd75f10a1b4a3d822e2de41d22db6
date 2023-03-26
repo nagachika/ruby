@@ -1,0 +1,1 @@
+IO.read メソッドの省略可能な第3引数 offset に負の数を渡した時にチェックをしていなくて実際に seek をしてしまって Errno::EINVAL が発生していたのを ArgumentError 例外を発生させるように変更しています。 [ruby-core:112051] [Bug #19380]
