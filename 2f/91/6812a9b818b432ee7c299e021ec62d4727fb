@@ -1,0 +1,1 @@
+Time の Europe/Lisbon のタイムゾーンで year に極端に大きな負の値を渡した時のテストが macOS で失敗しはじめたので skip するようにしています。
