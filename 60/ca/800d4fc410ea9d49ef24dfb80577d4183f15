@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Unicode.split_by_width で色付けのためのエスケープシーケンスを考慮する処理をするように修正しているようです。 https://github.com/ruby/reline/pull/490
