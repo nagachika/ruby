@@ -1,0 +1,1 @@
+bundler の bundle gem で拡張ライブラリを含む gem を作成する時に生成される extconf.rb で $CFLAGS にオプションを追加するのに直接配列をいじらず append_cflags メソッドを利用するようにしています。
