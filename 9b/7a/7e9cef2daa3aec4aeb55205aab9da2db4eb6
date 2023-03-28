@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#taint と Pathname#untaint メソッドを deprecated 警告の予告どおり削除しています。
