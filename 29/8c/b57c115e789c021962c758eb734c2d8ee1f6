@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のテストに使う commit hash の指定を更新しています。Pathname のメソッド削除の対応を入れたみたいです。 https://github.com/ruby/ruby/pull/7596
