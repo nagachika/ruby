@@ -1,0 +1,1 @@
+bundler の Bundler::Plugin::Installer というクラスで install する時に一時的に deployment や frozen といったオプションをオフにして挙動させるようにしています。
