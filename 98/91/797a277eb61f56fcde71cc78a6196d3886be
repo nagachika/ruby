@@ -1,0 +1,1 @@
+tool/merger.rb で安定版ブランチへのマージ時に git apply のオプション --3way をつけるようにしています。
