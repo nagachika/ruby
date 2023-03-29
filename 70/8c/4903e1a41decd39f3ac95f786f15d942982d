@@ -1,0 +1,1 @@
+tool/rbs_skip_tests に bundled gems の rbs のテストの Pathname#taint, #untaint についてのテストが 9b7a7e9cef2daa3aec4aeb55205aab9da2db4eb6 でメソッド削除されたのでスキップするように指定を追加しています。
