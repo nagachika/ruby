@@ -1,0 +1,1 @@
+bundler の Bundler::GemVersionPromoter#sort_dep_specs というメソッドで gem の pre つきのバージョン? を使うかどうかの判定を変更しているようです。
