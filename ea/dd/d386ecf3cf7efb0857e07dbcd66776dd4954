@@ -1,0 +1,1 @@
+bundler の依存関係解決の処理 Bundler::Definition#additional_base_requirements_for_resolve の変更。内容はよくわかりませんが。
