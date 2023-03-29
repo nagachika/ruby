@@ -1,0 +1,1 @@
+bundler の Bundler::GemVersionPromoter クラスのテストのリファクタリング+α? ヘルパーメソッドなどの切り出しの他にテストの追加もあるみたいです。
