@@ -1,0 +1,1 @@
+Variable Width Allocation で slot サイズをいくつまで作るかという定数 SIZE_POOL_COUNT をコンパイル時にオプションなどで指定したらそれを利用するようにしています。
