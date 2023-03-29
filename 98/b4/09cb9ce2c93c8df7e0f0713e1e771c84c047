@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で git filter-branch コマンドを実行するために環境変数 FILTER_BRANCH_SQUELCH_WARNING をセットするのにスクリプトで親プロセスである ruby 自体の環境変数にセットして起動していたのを IO.popen の第1引数で指定して子プロセスだけにセットするようにしています。
