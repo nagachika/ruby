@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream のコミットを指定して同期する処理で test/lib/ や tool/ のファイルが upstream にもある場合に誤って ruby リポジトリのファイルが変更されてしまうのを防ぐためにチェックして、それらのファイルのみの変更の場合はそのコミットは skip して、そうでなかったらエラーとして reject するようにしています。
