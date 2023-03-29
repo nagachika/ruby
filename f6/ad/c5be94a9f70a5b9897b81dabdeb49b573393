@@ -1,0 +1,1 @@
+テストで各種リソースがテストメソッドで leak していないかチェックする tool/lib/leakchecker.rb で環境変数の変更の復旧漏れをチェックする時に除外するため Bundler::EnvironmentPreserver::BUNDLER_PREFIX を参照しているところで Bundler が未定義の場合を考慮して defined? でのチェックを追加しています。
