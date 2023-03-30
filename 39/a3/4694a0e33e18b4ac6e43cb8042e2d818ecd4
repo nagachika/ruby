@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプションに --yjit-pause を追加して YJIT を一時無効にして起動できるようにしています。これに呼応して RubyVM::YJIT.resume というメソッドも追加してこれで YJIT 機能を有効にできるようにしています。 https://github.com/ruby/ruby/pull/7609
