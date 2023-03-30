@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Unicode.take_range メソッドの省略可能な第4引数 encoding を削除して常に第1引数 str の Encoding を利用するようにしています。
