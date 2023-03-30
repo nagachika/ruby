@@ -1,0 +1,1 @@
+46132e78b7438389bf49a860a0cd8957f685dcb3 で tool/rbs_skip_tests に rbs のテストから pathname のメソッドのテストを skip 対象に追加していたのをテストに使う rbs の commit hash 更新したので revert して削除しています。
