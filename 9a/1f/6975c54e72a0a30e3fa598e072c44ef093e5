@@ -1,0 +1,1 @@
+RJIT の各種 VM 命令をコンパイルする処理の ruby 部分で利用している Struct の RubyVM::RJIT::InsnCompiler::CallingInfo に send_shift と block_handler というメンバーを追加して呼び元で別途変数をとりまわしていたのを不要にしたりしています。
