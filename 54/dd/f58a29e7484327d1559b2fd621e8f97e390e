@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で環境変数の YACC に win_bison を設定していたのが a807fa6f9b3a1dab9275df4e197b4c9f581253ef でパッケージマネージャを scoop に変更したため不要になったようで削除しています。
