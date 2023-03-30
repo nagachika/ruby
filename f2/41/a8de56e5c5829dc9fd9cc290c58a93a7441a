@@ -1,0 +1,1 @@
+9c687c65ee177f0bb160dbcb090bfcc5f59620f1 で追加した URI() のパースの処理時間のテストで assert_linear_performance に rehearsal キーワード引数を渡してウォームアップを増やしています。
