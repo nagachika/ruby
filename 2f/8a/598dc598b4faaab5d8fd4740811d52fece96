@@ -1,0 +1,1 @@
+YJIT の Context の扱いについての変更ですが YJIT の実装のルールの理解が必要そうでよくわからず。 https://github.com/ruby/ruby/pull/7610
