@@ -1,0 +1,1 @@
+Variable Width Allocation を無効にしてビルドした時に T_CLASS 型オブジェクトの解放時に環境によってメモリリークがあったのを修正しています。 USE_RVARGC マクロで free の必要性を判定していましたが RCLASS_EXT_EMBEDDED でより直接的に rb_classext_t が埋め込みかどうか判定するように修正しています。32bit のシステムでメモリリークしていたみたいです。 [ruby-core:113026] [Bug #19550]
