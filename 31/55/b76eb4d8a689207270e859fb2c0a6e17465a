@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で scoop によるパッケージインストールのため環境変数 PATH へパスを追加しています。
