@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow でコメントアウトされていた -DUSE_RUBY_DEBUG_LOG=1 でマクロ定義を追加してテストする条件を有効にしています。
