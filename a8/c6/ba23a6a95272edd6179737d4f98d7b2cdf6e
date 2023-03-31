@@ -1,0 +1,1 @@
+YJIT の rest 引数とキーワード引数を持つように宣言されたメソッドの呼び出しのサポートを追加しています。 https://github.com/ruby/ruby/pull/7608
