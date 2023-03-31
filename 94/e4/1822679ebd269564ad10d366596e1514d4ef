@@ -1,0 +1,1 @@
+ractor_lock() での USE_RUBY_DEBUG_LOG 有効化時の出力ログで現在の Ractor 情報取得のための判定で NULL の参照が起きる可能性があったのを回避するようにしています。
