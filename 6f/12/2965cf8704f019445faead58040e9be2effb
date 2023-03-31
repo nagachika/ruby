@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.parse の keep_tokens キーワードオプションに true を指定した時にバックスラッシュのトークンが含まれていた時に異常終了してしまっていたのを修正しています。 parser_token2id() でトークンへの対応漏れがあったみたいです。 [ruby-core:113016] [Bug #19547]
