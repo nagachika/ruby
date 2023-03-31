@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor::Dialog クラスのインスタンス変数 @scrollbar_pos を削除してローカル変数で取り回すようにリファクタリングしています。
