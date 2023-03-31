@@ -1,0 +1,1 @@
+rb_ractor_thread_list() という C API で引数に rb_ractor_t のポインタを受け取っていたのを削除して常に GET_RACTOR() で取得した現在の Ractor に対して処理するようにすることで RACTOR_LOCK()/RACTOR_UNLOCK() による排他を不要にしています。唯一の呼び元が GET_RACTOR() を渡していたので。
