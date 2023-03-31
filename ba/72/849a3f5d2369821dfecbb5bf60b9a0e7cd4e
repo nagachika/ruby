@@ -1,0 +1,1 @@
+rb_threadptr_interrupt_common() と rb_threadptr_interrupt() に RUBY_DEBUG_LOG() で USE_RUBY_DEBUG_LOG 有効化時に出力するログを追加しています。
