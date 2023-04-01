@@ -1,0 +1,1 @@
+rb_ractor_thread_switch() 内に RUBY_DEBUG_LOG() によるデバッグログ出力を追加しています。
