@@ -1,0 +1,1 @@
+rb_thread_t 構造体の locking_native_thread という bit field メンバーを has_dedicated_nt と改名しています。
