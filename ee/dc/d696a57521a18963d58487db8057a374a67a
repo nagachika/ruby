@@ -1,0 +1,1 @@
+d8b8294c28a09278de357c26b291abf1b9f3cc5d でヘッダ名が Symbol の場合があるので文字列化してから String#bytesize を呼ぶように再修正しています。
