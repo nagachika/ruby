@@ -1,0 +1,1 @@
+misc/gdb.py の gdb の cfp コマンドでさらに control frame 内の VALUE の値も表示するようにしています。
