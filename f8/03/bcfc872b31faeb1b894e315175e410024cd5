@@ -1,0 +1,1 @@
+thread_sched_to_waiting() および thread_sched_to_waiting_common() という関数に rb_thread_t のポインタを引数に追加しています。しかし最終的に渡された thread_sched_to_waiting_common() ではこの引数を使ってなくて、将来の拡張のためとのこと。
