@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストで File.read を利用していたところを File.binread に変更しています。
