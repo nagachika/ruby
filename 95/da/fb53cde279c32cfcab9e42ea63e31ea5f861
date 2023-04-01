@@ -1,0 +1,1 @@
+ractor_core.h の rb_ractor_set_current_ec_() 内の VM_ASSERT() によるチェックで rb_execution_context_t のポインタ ec が NULL なのを許容するように条件を修正しています。
