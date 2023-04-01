@@ -1,0 +1,1 @@
+.gdbinit の rp コマンドで T_OBJECT 型のオブジェクトでインスタンス変数が slot 内に埋め込まれている時のサイズを Object Shapes の実装に対応して変更しています。
