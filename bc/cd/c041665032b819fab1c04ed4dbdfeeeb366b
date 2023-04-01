@@ -1,0 +1,1 @@
+f6adc5be94a9f70a5b9897b81dabdeb49b573393 で tool/lib/leakchecker.rb 内で環境変数のリークチェックのために除外する環境変数を判定するために Bundler::EnvironmentPreserver::BUNDLER_PREFIX 定数を参照する前に defined? でチェックしていたのがループ内だったので、ループの前に defined? でのチェックを出して結果を変数にいれて使いまわすようにしています。
