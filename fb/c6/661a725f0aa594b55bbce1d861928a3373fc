@@ -1,0 +1,1 @@
+83667008b925c32b3ab70fb6ec70f7398e960d1e で GitHub Actions で RUBY_DEBUG_LOG の出力先を /dev/null に指定するようにしたのを revert しています。
