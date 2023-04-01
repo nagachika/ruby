@@ -1,0 +1,1 @@
+GitHub Actions でコンパイラオプション -DUSE_RUBY_DEBUG_LOG=1 をつけてビルドしてみるテストで出力先を指定する環境変数 RUBY_DEBUG_LOG を /dev/null にしておくようにしています。大量のログが出るのでそれがディスクフルになってしまわないように。
