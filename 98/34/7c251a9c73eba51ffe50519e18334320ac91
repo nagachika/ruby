@@ -1,0 +1,1 @@
+misc/gdb.py で追加した gdb の独自コマンド cfp の機能を拡張して control frame の env 情報やフラグの情報などを表示するようにしています。
