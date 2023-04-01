@@ -1,0 +1,1 @@
+USE_RUBY_DEBUG_LOG マクロを有効にしてビルドした時に出力される RUBY_DEBUG_LOG() でのログに native thread を識別する通し番号? を表示するようにしています。
