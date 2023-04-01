@@ -1,0 +1,1 @@
+YJIT で JIT コードの利用をあきらめる処理の位置を変更しようとしているようです。 https://github.com/ruby/ruby/pull/7612
