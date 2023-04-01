@@ -1,0 +1,1 @@
+parse.y のパターンマッチの処理 ripper 用の実装の共通部分を ripper_new_yylval2() という関数に切り出して add_mark_object() を呼んで作る NODE を NODE_RIPPER2 というノードに変更しています。 GC のために mark するために add_mark_object() を呼んでいるのに NODE から mark されるタイプの NODE を使っていたので両方から mark される可能性があって RGenGC の処理で問題があったようです。
