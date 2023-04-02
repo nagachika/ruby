@@ -1,0 +1,1 @@
+thread.c の thread_join_sleep() で待ち時間が指定されてなかった時の処理を sleep_forever() を呼び出すように変更しています。コミットログをみるとリファクタリングのようですが sleep_forever() は rb_thread_t::status の状態をみてループする処理もあるのでもしかするとよりしっかり眠るようになってるのかも。
