@@ -1,0 +1,1 @@
+bdbf663cef31e2194bf87ae5c11dfe5525316ca8 で bundled gems の typeprof のテスト実行のエラーを無視したのを revert して gems/bundled_gems の typeprof のテストに使う commit hash の指定を追加しています。
