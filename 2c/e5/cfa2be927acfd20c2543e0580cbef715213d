@@ -1,0 +1,1 @@
+RJIT の String#concat メソッドの専用の実装で stack pointer だけ保存していたのを pc も保存しておくようにしています。GC からの保護のため?
