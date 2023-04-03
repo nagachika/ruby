@@ -1,0 +1,1 @@
+GitHub Actions の make test-bundled-gems で typeprof のテストのエラーを無視するようにしています。 おそらく df1b007fbd64363067539ff7e89aff6368d605ab の削除の影響で失敗しはじめたようなので修正するまで止めておくようにしています。
