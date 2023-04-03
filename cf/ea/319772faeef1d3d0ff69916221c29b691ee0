@@ -1,0 +1,1 @@
+0973b93e495bd39da5032747fbc5051bb226c1a9 で追加した RJIT の実装のメソッド jit_call_iseq に jit_call_iseq_setup から移行しています。
