@@ -1,0 +1,1 @@
+vm_callinfo.h の enum vm_call_flag_bits のコメントを行コメントに変更し、一部コメントを追加しています。
