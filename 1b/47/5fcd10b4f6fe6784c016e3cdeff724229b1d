@@ -1,0 +1,1 @@
+array.c で RJIT から呼ぶために rb_ary_unshift_m() を wrap しただけの rb_yjit_rb_ary_unshift_m() という関数を定義していましたが、これを削除して rb_ary_unshift_m() 自体の static 修飾子を削除しています。
