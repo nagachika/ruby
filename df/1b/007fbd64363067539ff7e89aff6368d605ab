@@ -1,0 +1,1 @@
+enum vm_call_flag_bits の定数 VM_CALL_BLOCKISEQ_bit はもう未使用になっていたので削除しています。
