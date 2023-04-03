@@ -1,0 +1,1 @@
+RJIT のメソッド呼び出しの処理を移行した jit_call_iseq メソッドで control stack frame の pop のタイミングを変更しています。一貫性やコードの理解しやすさのため?
