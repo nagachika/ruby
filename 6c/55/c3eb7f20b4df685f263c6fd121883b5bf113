@@ -1,0 +1,1 @@
+rjit_c.c の rjit_rb_ary_subseq_length() という関数に static 修飾子を追加しています。
