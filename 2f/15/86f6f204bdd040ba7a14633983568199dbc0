@@ -1,0 +1,1 @@
+テスト時に make leaked-globals も自動で実行するようにして GitHub Actions や CirrusCI で明示的に実行するアクションを追加していたのを削除しています。
