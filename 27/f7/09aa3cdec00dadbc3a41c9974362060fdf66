@@ -1,0 +1,1 @@
+標準添付ライブラリ yaml の YAML::VERSION については YAML は Psych の別名なので Psych::VERSION と衝突してしまうため YAML::LOADER_VERSION と改名して gemspec で切り出す定数名も変更しています。
