@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の未使用になってたコードの削除をしているようです。 https://github.com/ruby/irb/pull/554
