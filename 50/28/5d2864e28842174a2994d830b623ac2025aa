@@ -1,0 +1,1 @@
+d546f8c5183d583b2455ef005b9276a22bab3b65 の続きで RubyVM::RJIT::Context#stack_swap で型情報も入れ替えるよう対応を追加しています。
