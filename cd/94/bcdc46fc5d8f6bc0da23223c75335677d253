@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で RUBY_ENGINE をみて CRuby でのみ対応していたコマンドのチェックをはずして JRuby や TruffleRuby でも動作させるようにしています。
