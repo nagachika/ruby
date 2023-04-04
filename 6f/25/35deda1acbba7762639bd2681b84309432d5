@@ -1,0 +1,1 @@
+lib/ruby_vm/rjit/insn_compiler.rb で RJIT の C binding 用の定数の参照に "C::" の名前空間を明示するように修正しています。
