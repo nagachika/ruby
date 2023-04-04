@@ -1,0 +1,1 @@
+RJIT のコンパイラ実装で jit_search_super_method メソッドを呼び元に展開するリファクタリング。
