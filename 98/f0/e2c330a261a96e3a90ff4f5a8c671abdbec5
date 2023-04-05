@@ -1,0 +1,1 @@
+2c560b976ed86730dfa305266fcc69033f6790cc の再修正で RJIT の C binding の C::SPECIAL_CONST_P に渡していた引数は元に戻して機械語生成の時に変換するようにしています。
