@@ -1,0 +1,1 @@
+Msys2 で Rust の実装に不具合があるみたいで rubygems の Rust 実装の拡張ライブラリを利用するテストを MinGW 環境では skip するようにしています。
