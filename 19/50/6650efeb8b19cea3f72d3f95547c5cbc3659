@@ -1,0 +1,1 @@
+RJIT のコンパイラで RubyVM::RJIT::Context の型情報を確認する --rjit-verify-ctx というオプションを追加しています。
