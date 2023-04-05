@@ -1,0 +1,1 @@
+Process.pid のキャッシュの実装で Kernel#fork が未実装の環境(Windows)ではクリアするタイミングがないので clear_pid_cache() 関数の定義を HAVE_WORKING_FORK と HAVE_DAEMON のマクロをチェックする preprocessor 分岐内に入れて未使用関数の警告抑制しています。
