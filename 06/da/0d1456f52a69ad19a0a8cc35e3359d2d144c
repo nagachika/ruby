@@ -1,0 +1,1 @@
+rubygems で rubycop の警告対応のため if と論理否定のかわりに unless を使うように変更しています。
