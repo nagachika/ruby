@@ -1,0 +1,1 @@
+rubygems のテスト用の helper で Gem::TestCase#.win_platform? を定義していたのも削除して Gem.win_platform? を直接呼ぶようにしています。
