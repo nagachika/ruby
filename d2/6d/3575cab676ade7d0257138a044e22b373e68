@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で計測する情報にコードブロックごとの平均バリエーション数の情報を追加しています。 https://github.com/ruby/ruby/pull/7653
