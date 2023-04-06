@@ -1,0 +1,1 @@
+Variable Width Allocation の有効無効を切り換えるマクロ USE_RVARGC はもう不要ということで削除して常に有効にしています。 https://github.com/ruby/ruby/pull/7655 [ruby-core:113114] [Feature #19579]
