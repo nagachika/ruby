@@ -1,0 +1,1 @@
+make ejit-smoke-test というターゲットで test/ruby/test_yjit.rb の実行を追加しています。 https://github.com/ruby/ruby/pull/7651
