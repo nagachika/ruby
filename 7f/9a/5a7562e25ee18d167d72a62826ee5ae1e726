@@ -1,0 +1,1 @@
+rubygems のテスト用 helper の Gem::TestCase#.process_based_port メソッドはもう未使用だったので削除しています。
