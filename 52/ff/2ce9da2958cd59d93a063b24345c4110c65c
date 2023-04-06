@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#key_delete で vi mode と emacs mode で少し挙動を変更しています。また emacs mode の時の処理 em_delete で Delete キーが押されたのか Ctrl-D なのかを判定してさらに挙動を分けるようにしています。 https://github.com/ruby/ruby/pull/504
