@@ -1,0 +1,1 @@
+GitHub Actions の YJIT を使ったテストで default gems の  syntax_suggest のテストのタイムアウトを延ばすため環境変数の指定を追加しています。
