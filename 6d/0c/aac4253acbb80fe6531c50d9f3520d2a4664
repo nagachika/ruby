@@ -1,0 +1,1 @@
+rubygems のテスト用 helper の Gem::TestCase.make_command メソッドを削除して唯一の呼び元の Gem::TestCase#make_command 内に展開しています。
