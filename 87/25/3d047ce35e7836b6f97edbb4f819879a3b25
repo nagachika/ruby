@@ -1,0 +1,1 @@
+ba6ccd871442f55080bffd53e33678c0726787d2 の Process.warmup で実行される処理内で Transient Heap の mark 処理完了の状態に遷移させるのと、オブジェクトの old への promote 中に GC が発生しないようにする処理を追加しています。
