@@ -1,0 +1,1 @@
+rubygems のテストのための helper で java_platform? というメソッドを定義していましたが削除して Gem.java_platform? を直接呼ぶように変更しています。
