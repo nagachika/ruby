@@ -1,0 +1,1 @@
+RVARGC_NEWOBJ_OF() とか RB_RVARGC_EC_NEWOBJ_OF() といった NEWOBJ_OF() マクロのバリエーションを廃止して、NEWOBJ_OF() マクロの引数を追加しています。このへんのマクロは公開 API になってないかなと思ったけど internal/gc.h での定義なので非公開みたいですね。 [ruby-core:112671] [Feature #19474]
