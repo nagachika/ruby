@@ -1,0 +1,1 @@
+rb_vm_t のメンバー shape_list、root_shape、next_shape_id を削除して rb_shape_tree_t という構造体に切り出し、これをグローバル変数で保持しておくようにしているようです。この変数 static を付けなくていいのかな。と思ったけど extern している? YJIT から使うためかなぁ。ううむ、これはいいのだろうか。
