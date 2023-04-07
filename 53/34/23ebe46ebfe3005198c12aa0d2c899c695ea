@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_linear_performance で処理時間の測定を可能なら Process::CLOCK_THREAD_CPUTIME_ID や Process::CLOCK_PROCESS_CPUTIME_ID など実際の CPU 利用時間で測定するようにして環境の影響を受けにくいようにしています。
