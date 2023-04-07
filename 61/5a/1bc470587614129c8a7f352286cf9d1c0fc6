@@ -1,0 +1,1 @@
+YJIT の統計情報としてコード領域に利用したメモリ領域の合計を保持するようにしているようです。 https://github.com/ruby/ruby/pull/7658
