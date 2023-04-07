@@ -1,0 +1,1 @@
+d2eef4b7867578df302cfa9d7c97eebbef8d9ee4 で syntax_suggest の同期で意図せず bin/rake と bin/rspec が追加されてしまったのを revert しています。
