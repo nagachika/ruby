@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_linear_performance のタイムアウト値の計算方法を変更しています。
