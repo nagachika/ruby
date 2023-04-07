@@ -1,0 +1,1 @@
+YJIT に Integer の Integer#*、 Integer#/、Integer#[] などのメソッドの Fixnum 版の時の実装を直接生成するようにする最適化を追加しています。 https://github.com/ruby/ruby/pull/7665
