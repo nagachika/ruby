@@ -1,0 +1,1 @@
+syntax_suggest の upstream の bin/ 配下のファイル追加がこっちに同期されてしまったみたいで bin/rake と bin/rspec が追加されています。
