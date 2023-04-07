@@ -1,0 +1,1 @@
+rubygems の Gem::Installer#write_default_spec の rdoc 用コメント? の説明を追記しています。
