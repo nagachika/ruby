@@ -1,0 +1,1 @@
+doc/contributing/glossary.md に BIN という語彙について追記しています。 Basic Instruction Name とのことで VM 命令の名前のことらしい。 https://github.com/ruby/ruby/pull/7667
