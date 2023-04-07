@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_linear_performance の使用時間測定の処理を Proc オブジェクトとして切り出しています。
