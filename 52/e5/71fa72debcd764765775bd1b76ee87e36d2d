@@ -1,0 +1,1 @@
+ruby_xfree() をプロセス終了時の vm_destruct() の実行後に呼ぶと異常終了してしまうので対策として VM がもう破棄されていたら ruby_mimfree() を使うように fallback を追加しています。 [ruby-core:113129] [Bug #19580]
