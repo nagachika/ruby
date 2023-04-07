@@ -1,0 +1,1 @@
+newobj_of_cr() を newobj_of() と改名して元の newobj_of() は削除しています。cr って何だっけ? と思ったけど Ractor 毎の arena の指定のための rb_ractor_t を受け取るかどうかの違いで、常に渡すようにしているようです。
