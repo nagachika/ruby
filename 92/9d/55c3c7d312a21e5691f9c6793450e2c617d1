@@ -1,0 +1,1 @@
+9e678cdbd054f78576a8f21b3f97cccc395ade22 の YJIT の Rust 実装の警告抑制のための unsafe ブロックの削除を revert しています。
