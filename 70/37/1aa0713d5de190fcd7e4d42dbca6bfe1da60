@@ -1,0 +1,1 @@
+588dd44d418d56dce3f2a388c4021d11f9aa4324 で syntax_suggest の同期で意図せず lib/bundler/templates/newgem/rspec.tt が更新されてしまっていたのを revert しています。
