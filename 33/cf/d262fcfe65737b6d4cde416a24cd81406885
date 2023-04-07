@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の SyntaxSuggest.record_dir というメソッドでディレクトリを作成する時に latest という symbolic link も作るようですがこれを上書きする時に削除してから FileUtils.ln_sf を呼ぶようにしています。
