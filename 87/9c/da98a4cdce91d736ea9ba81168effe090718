@@ -1,0 +1,1 @@
+vm_core.h で #include "shape.h" していたのをやめて、依存していたマクロ定義などを vm_core.h に移動しています。他の必要なヘッダに #include "shape.h" を追加しています。
