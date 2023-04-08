@@ -1,0 +1,1 @@
+5f8ebcada099351acbc22db264e7cd3773c2bdc4 と同様に io.c や rubyspec の C API テスト用拡張ライブラリでも rb_gc_register_address() や rb_global_variable() といった GC mark 用にポインタを登録する関数を呼んだ後でその変数に値を代入するようにしています。 [ruby-core:113153] [Bug #19584]
