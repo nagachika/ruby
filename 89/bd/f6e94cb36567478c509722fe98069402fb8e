@@ -1,0 +1,1 @@
+b7717fc390ce47c8ef24d2ed9fe25f188f28f60f で YJIT に導入した stack caching の最適化を arm64 アーキテクチャでも有効にしているようです。てっきり両方サポートしているのだと思ったけど x86_64 だけだったみたいですね。 https://github.com/ruby/ruby/pull/7659
