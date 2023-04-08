@@ -1,0 +1,1 @@
+GC.compact を使った ObjectSpace::WeakMap のテストを GC.compact がサポートされていない環境では skip するようにしています。
