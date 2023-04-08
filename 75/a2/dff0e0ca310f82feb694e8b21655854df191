@@ -1,0 +1,1 @@
+5f8ebcada099351acbc22db264e7cd3773c2bdc4 や e13575bb7938e9e5b6a79bfca1b3793123f479da と同様に拡張ライブラリ openssl でも rb_global_variable() を呼んだ後にそこでアドレスを登録した変数に値を代入するようにしています。
