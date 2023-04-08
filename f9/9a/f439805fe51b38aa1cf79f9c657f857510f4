@@ -1,0 +1,1 @@
+コンパイラによる thread local storage のための変数の修飾子が使えるかどうかの判定を __STDC_VERSION__ をみて判定していたのを configure で実際に試すようにしています。古い GCC で -std=gnu11 をつけると __STDC_VERSION__ は 201112 以上なのに _Thread_local はサポートされないという場合があって、RHEL でビルドできないことがあったようです。 [ruby-core:111075] [Bug #19161]
