@@ -1,0 +1,1 @@
+rubygems で String#% を使ってたところを Kernel#format を使うように書き換えています。rubocop の警告抑制のため。
