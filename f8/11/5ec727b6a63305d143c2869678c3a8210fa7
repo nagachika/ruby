@@ -1,0 +1,1 @@
+irb のヒアドキュメントの文法解析をするテストで ripper の不具合を回避するための入力の変更をしています。 https://github.com/ruby/irb/pull/558
