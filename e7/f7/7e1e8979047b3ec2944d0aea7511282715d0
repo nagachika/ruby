@@ -1,0 +1,1 @@
+irb の IRB::ExtendCommandBundle.def_extend_command というメソッドの引数 load_file が省略可能だったのを必須引数にして load_file が nil だった時の分岐はもう不要とのことで削除しています。コミットログと内容に若干乖離がありそうな気がするけど、古い ruby 向けのサポートのためのコード削除かな? https://github.com/ruby/irb/pull/559
