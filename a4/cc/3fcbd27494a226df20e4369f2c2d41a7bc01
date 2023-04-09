@@ -1,0 +1,1 @@
+defs/gmake.mk で Universal Binaruy 用に -arch オプションの書き換えをしているところの foreach コマンドで $(arch_flags) を参照していたところを $(ARCH_FLAG) から切り出すように変更しています。ビルドプロセスむずい。
