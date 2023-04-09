@@ -1,0 +1,1 @@
+rb_sym_to_proc() を RJIT から呼べるように C binding を追加しています。
