@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv のプロトコルで SRV というレコード内でドメイン名をインデックスを使って送信する圧縮を使わないようにしています。プロトコルの規約違反になってたみたいですね。 https://datatracker.ietf.org/doc/rfc2782/ https://github.com/ruby/resolv/issues/29
