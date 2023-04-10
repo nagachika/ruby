@@ -1,0 +1,1 @@
+拡張ライブラリ bigdecimal の Kernel#BigDecimal() の rdoc 用コメントのキーワード引数 exception についての記述の間違いを修正しています。
