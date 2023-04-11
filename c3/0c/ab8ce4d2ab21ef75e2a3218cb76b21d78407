@@ -1,0 +1,1 @@
+Exception#detailed_message で例外メッセージの色づけなどをする時にメッセージの Encoding を考慮するように修正しています。 [ruby-core:113087] [Bug #19570]
