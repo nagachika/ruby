@@ -1,0 +1,1 @@
+c30cab8ce4d2ab21ef75e2a3218cb76b21d78407 の続きで Exception#detailed_message の実装で使うマクロの write_warn2() という文字列サイズの指定つきのマクロが不要な引数の C の文字列リテラルのものは write_warn() というマクロのほうを使うようにリファクタリングしています。
