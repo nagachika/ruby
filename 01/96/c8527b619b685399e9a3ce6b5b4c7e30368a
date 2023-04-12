@@ -1,0 +1,1 @@
+bundler のテストの spec/bundler/support/api_request_limit_hax.rb というファイルを削除しています。
