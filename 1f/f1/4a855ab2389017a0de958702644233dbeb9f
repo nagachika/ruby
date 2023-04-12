@@ -1,0 +1,1 @@
+89bdf6e94cb36567478c509722fe98069402fb8e の YJIT による stack caching 最適化の arm64 アーキテクチャ対応で異常終了が起きるようになっていた不具合修正。YJIT のメソッド呼び出し時の処理の漏れを修正しているようです。 https://github.com/ruby/ruby/pull/7685 [ruby-core:113162] [Bug #19586]
