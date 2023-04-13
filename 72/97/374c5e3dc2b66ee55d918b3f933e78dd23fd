@@ -1,0 +1,1 @@
+YJIT のコード領域のためのメモリ管理で alignment のための padding を環境によって小さくするようにしているようです。 https://github.com/ruby/ruby/pull/7671
