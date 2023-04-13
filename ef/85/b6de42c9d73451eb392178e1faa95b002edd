@@ -1,0 +1,1 @@
+rubygems で RubyGems.org へのリクエストヘッダに Access-Control-Allow-xxx ヘッダを追加するようにしているようです。
