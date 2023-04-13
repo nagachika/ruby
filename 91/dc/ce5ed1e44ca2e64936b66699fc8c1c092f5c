@@ -1,0 +1,1 @@
+構造体 rb_classext_t のメンバー max_iv_count の型を uint32_t から attr_index_t という専用の型に変更しています。
