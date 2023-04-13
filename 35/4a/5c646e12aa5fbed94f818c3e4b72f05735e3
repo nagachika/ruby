@@ -1,0 +1,1 @@
+さらに rubygems に WebAuthn 対応のための例外クラス Gem::WebauthnVerificationError を追加しています。
