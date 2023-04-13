@@ -1,0 +1,1 @@
+regexec.c の find_cache_index_table() という関数からテーブルの検索部分を bsearch_cache_index() という関数に切り出すリファクタリング。
