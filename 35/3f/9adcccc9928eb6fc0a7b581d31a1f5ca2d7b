@@ -1,0 +1,1 @@
+rubygems のテストに gem コマンドでの WebAuthn での otp 入力するテストを追加しています。
