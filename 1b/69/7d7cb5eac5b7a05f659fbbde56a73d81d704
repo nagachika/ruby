@@ -1,0 +1,1 @@
+同じく regexec.c の find_cache_index_table() や reset_match_cache() という関数の引数に const 修飾子を追加しています。
