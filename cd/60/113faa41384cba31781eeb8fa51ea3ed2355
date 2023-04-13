@@ -1,0 +1,1 @@
+b6e860ba1bae04a1ce269a40ef4731fe52855a16 で rubygems の WebAuthn 対応の otp 取得処理がダミーのままになってたのを修正ちえいます。
