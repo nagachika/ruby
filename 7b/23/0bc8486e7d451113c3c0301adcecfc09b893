@@ -1,0 +1,1 @@
+object.c に struct RBasic::flags のビットフラグの使われかたについてのコメントを追加しています。
