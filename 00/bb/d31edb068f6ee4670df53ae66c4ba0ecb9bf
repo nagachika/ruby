@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Context を引数でとり回していたのを Assember 構造体のメンバーとして持たせるように変更しています。 https://github.com/ruby/ruby/pull/7691
