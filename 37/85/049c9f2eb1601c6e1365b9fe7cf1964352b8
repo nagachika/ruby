@@ -1,0 +1,1 @@
+template/ruby.pc.in で ruby のバージョンを参照する変数名を ruby_version から RUBY_PROGRAM_VERSION に変更しています。
