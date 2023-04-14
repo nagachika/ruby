@@ -1,0 +1,1 @@
+rjit_c.c 内の rb_rjit_entry_stub_hit() 関数の宣言の引数の間違いを修正。
