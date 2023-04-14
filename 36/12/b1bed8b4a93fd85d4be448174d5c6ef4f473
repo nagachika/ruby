@@ -1,0 +1,1 @@
+Process.clock_gettime および Process.clock_getres でシステムエラー発生時に引数に渡した clock の指定を例外メッセージに含めるようにしています。 [ruby-core:113189] [Feature #19590]
