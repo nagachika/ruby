@@ -1,0 +1,1 @@
+標準添付ライブラリ prettyprint のバージョンを PrettyPrint::VERSION という定数で定義するようにして gemspec ファイルではファイルから文字列操作で切り出して利用するようにしています。 あれ、prettyprint ってただの pp の別名じゃなかったのか。
