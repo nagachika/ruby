@@ -1,0 +1,1 @@
+警告のカテゴリに performance というのを追加しています。 そして Object Shapes で shapes のバリエーションが多すぎて st_table 管理に fallback する時の警告をこの performance wanring で警告メッセージ出力するようにしています。 [ruby-core:112933] [Feature #19538]
