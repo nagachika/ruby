@@ -1,0 +1,1 @@
+make yjit-smoke-test で cargo コマンドによるテスト実行時に指定する rust のバージョンを直書きしていたのを変数にしています。
