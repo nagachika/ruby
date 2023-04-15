@@ -1,0 +1,1 @@
+rubyspec に ObjectSpace::WeakKeyMap についてのテストを追加しています。 [ruby-core:107190] [Feature #18498]
