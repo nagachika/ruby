@@ -1,0 +1,1 @@
+common.mk の先頭に nmake や bsdmake も考慮する必要があるとコメントを追加しています。
