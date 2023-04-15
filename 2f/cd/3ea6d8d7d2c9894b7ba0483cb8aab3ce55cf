@@ -1,0 +1,1 @@
+YJIT の Rust 実装で構造体メンバーの stack_opnd を Context から Assembler 直下に移動しています。 https://github.com/ruby/ruby/pull/7700
