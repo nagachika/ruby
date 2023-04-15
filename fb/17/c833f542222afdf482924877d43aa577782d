@@ -1,0 +1,1 @@
+1a149aab776aa6741628eb35482eff1ded197fd2 で切り出した Range の開始/終了オブジェクトのチェック関数 range_include_fallback() に引数を追加して、nil..nil のような開始も終了も指定のない Range が任意のオブジェクトを include? していると判定するようにしています。 [ruby-core:112922] [Bug #19533]
