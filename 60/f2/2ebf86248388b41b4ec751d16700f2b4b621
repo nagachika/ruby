@@ -1,0 +1,1 @@
+fb17c833f542222afdf482924877d43aa577782d で修正した nil..nil の Range の挙動についてのテストを rubyspec に追加しています。 [ruby-core:112922] [Bug #19533]
