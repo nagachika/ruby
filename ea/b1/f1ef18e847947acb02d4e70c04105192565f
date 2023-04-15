@@ -1,0 +1,1 @@
+tool/enc-unicode.rb で diff コマンドを利用する時に diffutils 3.8 というバージョンには不具合があるみたいで、それを避けるために実際にコマンド実行して動作を確認して --old-group-format/--new-group-format/--changed-group-format などのオプションを追加するようにしているようです。
