@@ -1,0 +1,1 @@
+ruby をアプリケーションに組み込んで使っているようなケースで rb_provide() で feature を追加するようなことをしている時の $LOADED_FEATURES の処理が遅くなっているという問題があったようで、その対策として rb_vm_t 構造体に loaded_features_realpath_map という内部的な Hash オブジェクトを保持して rb_check_realpath() の結果をキャッシュするようにしているようです。 [ruby-core:111342] [Bug #19246]
