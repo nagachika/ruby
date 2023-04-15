@@ -1,0 +1,1 @@
+YJIT のコマンドラインオプション --yjit-trace-exits と --yjit-trace-exits-sample-rate を追加して統計情報をサンプリングによって間引くことができるようにしているようです。 https://github.com/ruby/ruby/pull/7693
