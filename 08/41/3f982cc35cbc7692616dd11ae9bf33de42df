@@ -1,0 +1,1 @@
+YJIT に省略可能引数と rest 引数を持つメソッドへ配列を splat して渡す呼び方をしている場合のサポート追加。 https://github.com/ruby/ruby/pull/7698
