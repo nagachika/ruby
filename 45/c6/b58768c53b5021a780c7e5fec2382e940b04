@@ -1,0 +1,1 @@
+YJIT の side exit 用のカウンタの一部はカウンタがなかったのを全ての side exit の理由のカウンタを追加しています。 https://github.com/ruby/ruby/pull/7720
