@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline.add_dialog_proc メソッドの第2引数に登録する Proc オブジェクトを渡すかわりに nil を渡した時に ArgumentError ではなく登録済みのコールバックを削除する挙動をするように変更しています。 https://github.com/ruby/reline/pull/532
