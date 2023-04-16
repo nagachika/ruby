@@ -1,0 +1,1 @@
+YJIT の Rust 実装で side exit のコード生成する処理を切り出すリファクタリング? https://github.com/ruby/ruby/pull/7712
