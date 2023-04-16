@@ -1,0 +1,1 @@
+YJIT の Rust 実装の enum CodegenStatus から CantCompile を削除してかわりに None で表現するように変更しています。 https://github.com/ruby/ruby/pull/7717
