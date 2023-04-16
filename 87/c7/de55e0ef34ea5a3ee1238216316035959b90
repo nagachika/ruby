@@ -1,0 +1,1 @@
+bootstraptest の YJIT のテストが RJIT 有効時に通らないとのことで実行除外するようにしています。
