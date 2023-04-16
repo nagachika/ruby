@@ -1,0 +1,1 @@
+rb_objspace_each_objects() 関数のコメントのサンプルコードで rb_objspace_internal_object_p() を利用するように記述を修正しています。
