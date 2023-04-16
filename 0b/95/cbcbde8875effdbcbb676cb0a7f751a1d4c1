@@ -1,0 +1,1 @@
+31e67a476f2262e01a0829e8ab5e6d8a97e0724e の YJIT の setinstancevariable 命令の修正で jit_prepare_routine_call() の呼び出し後の asm.spill_temps() が冗長になっていたのでこちらは削っています。 [ruby-core:113260] [Bug #19601]
