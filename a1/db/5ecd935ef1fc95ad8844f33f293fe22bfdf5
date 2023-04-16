@@ -1,0 +1,1 @@
+rubyspec に ObjectSpace::WeakKeyMap のテストを追加しています(リトライ)。 また WeakKeyMap#[]= のキーに Float が渡された時も ArgumentError 例外を発生させるようにしています。 flonum で即値だからかな。 [ruby-core:107190] [Feature #18498]
