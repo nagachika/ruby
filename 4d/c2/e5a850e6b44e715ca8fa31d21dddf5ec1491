@@ -1,0 +1,1 @@
+doc/packed_data.rdoc の Array#pack や String#unpack の指示子の "C" の説明が符号つきになってたので符号なしに修正しています。
