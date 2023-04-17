@@ -1,0 +1,1 @@
+pattern matching のテストで DidYouMean.formatter を使う前に defined?(DidYouMean) でモジュールの定義があるかチェックしていたところで DidYouMean::VERSION のみが定義されていて本体が require されていない状態になることがあったようで DidYouMean.formatter= の呼び出しまでで defined? でチェックするようにしています。
