@@ -1,0 +1,1 @@
+regint.h で定義されている PLATFORM_GET_INC() というマクロで環境と呼び元の引数の型によっては誤ったメモリ位置を読み取ってしまう可能性があったので PLATFORM_GET_INC_ARGUMENTS_ASSERT() というマクロで不正な条件になったらコンパイルエラーになるようにしています。 [ruby-core:113266] [Bug #19602]
