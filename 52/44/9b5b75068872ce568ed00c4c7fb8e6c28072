@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap#delete と ObjectSpace::WeakKeyMap#delete メソッドを新規追加しています。 [ruby-core:113051] [Feature #19561]
