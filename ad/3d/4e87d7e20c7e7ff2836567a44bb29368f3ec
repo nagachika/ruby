@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトの struct RBasic::flags にセットしていた RCLASS_CLONED というビットフラグを構造体 rb_classext_t に cloned というメンバーを追加してこちらを利用するように移動しています。ついでに permanent_classpath という bool 型のメンバーと一緒に bit field として定義するようにしています。なので構造体サイズは増えてないはず?
