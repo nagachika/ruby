@@ -1,0 +1,1 @@
+Variable Width Allocation を用いて T_CLASS 型オブジェクトで rb_classext_t を埋め込むのを 32bit 環境ではあきらめていたのを 24b137336b71f77bf9ae9c532c0a5520709f73e8 でメンバーを減らしたので埋め込めるようになったようで常に埋め込むようにしているようです。
