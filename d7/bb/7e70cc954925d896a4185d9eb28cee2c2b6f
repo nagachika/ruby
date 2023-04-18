@@ -1,0 +1,1 @@
+R_MODULE 型の flags のための RMODULE_ALLOCATED_BUT_NOT_INITIALIZED というフラグの定義を RUBY_FL_USER5 から RUBY_FL_USER1 にビット位置を変更しています。ad3d4e87d7e20c7e7ff2836567a44bb29368f3ec で RCLASS_CLONED をなくしたのでできた空きを利用するように変更したみたいです。
