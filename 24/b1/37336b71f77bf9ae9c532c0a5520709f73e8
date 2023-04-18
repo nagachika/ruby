@@ -1,0 +1,1 @@
+今度は逆に構造体 rb_classext_t のメンバー shape_id を struct RBasic::flags に埋め込むのを環境によってはあきらめていたのを常に埋め込むように変更しています。
