@@ -1,0 +1,1 @@
+rubygems のテスト用のライブラリである Gem::MockGemUi の定義を lib//rubygems/mock_gem_ui.rb から test/rubygems/mock_gem_ui.rb に移動しています。
