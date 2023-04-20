@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの続きで再修正。 require "bundler/yaml_serializer" が抜けていたところがあったので追加しています。
