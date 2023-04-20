@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの続きで fd981ebf4c9661bb3ce243477a18fdb5413dde4e で Bundler::YAMLSrializer を使った時に値の Symbol 対応した時に先頭の ":" まで名前に含めてしまってたのを修正しています。
