@@ -1,0 +1,1 @@
+lib/rubygems/gemcutter_utilities.rb に Gem.load_yaml を追加しています。 6f50ecfe664924c086879273a29a2ecea9e51683 で別のファイルで Gem.load_yaml を消したのでそちらに依存してたところがあったみたいです。
