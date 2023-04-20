@@ -1,0 +1,1 @@
+定数参照で定数がみつからなかった時の rb_mod_const_missing() で NameError 例外を発生させる際に ec->private_const_reference を 0 クリアするように修正しています。ごく稀に異常終了する可能性があったようです。
