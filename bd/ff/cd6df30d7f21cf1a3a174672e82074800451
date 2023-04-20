@@ -1,0 +1,1 @@
+c5fc1ce975ecdf1c6818714e47579c5d3531c4ca で追加した VM 命令 opt_newarray_send の RJIT 対応も追加しています。
