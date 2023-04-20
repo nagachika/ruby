@@ -1,0 +1,1 @@
+2014dc5e3aef50eb59b05138af8f0f72935c4f58 の続きで Bundler::YAMLSerializer で Hash の値の Symbol にも対応するようにしています。
