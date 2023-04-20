@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの一連の変更の続き。 Bundler::YAMLSerializer の変更の 7e537e96131fd5f244544d3b07a362a2938ad1a2 は revert して 364c2fea345a2b0cc5f1d975e1b55c7f542a7936 の特殊な処理は呼び元の lib/rubygems/config_file.rb で行うように移動しています。
