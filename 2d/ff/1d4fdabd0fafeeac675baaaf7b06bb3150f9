@@ -1,0 +1,1 @@
+YJIT の trace のためのサンプリング時に VM スタックサイズの算出が間違っていたのを修正しているようです。 https://github.com/ruby/ruby/pull/7728
