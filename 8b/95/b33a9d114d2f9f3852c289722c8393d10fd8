@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの一連の変更の続き。 644d7df021e17c70932da3173ec309ae1c8063d5 で追加した Gem::ConfigFile.load_with_rubygems_config_hash で YAML を load した結果が Hash でない時の分岐を削除しています。
