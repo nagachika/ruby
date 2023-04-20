@@ -1,0 +1,1 @@
+正規表現のマッチ結果から名前つきの capture 結果を取得する MatchData#named_captures にキーワード引数 symbolize_names を追加してキーを Symbol にした Hash を返せるようにしています。 https://github.com/ruby/ruby/pull/6952
