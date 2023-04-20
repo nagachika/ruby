@@ -1,0 +1,1 @@
+shape.c の rb_shape_traverse_from_new_root() で次の rb_shape_t がテーブル内にみつからなかった時に NULL を返すように修正しています。
