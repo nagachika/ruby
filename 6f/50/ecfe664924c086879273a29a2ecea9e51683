@@ -1,0 +1,1 @@
+rubygems で Gem.load_yaml のかわりに Bundler::YAMLSerializer というのを使うようにしています。 psych でなくて pure ruby の YAML ライブラリが bundler に同梱? されててそれを使うようにしているようです。
