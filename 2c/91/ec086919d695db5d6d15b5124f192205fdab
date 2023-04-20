@@ -1,0 +1,1 @@
+さらに 2014dc5e3aef50eb59b05138af8f0f72935c4f58 からの続きで Bundler::YAMLSerializer で空文字列を nil に decode するようにしています。
