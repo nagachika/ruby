@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの一連の変更の続き。 rubygems 向けの特別処理は convert_rubygems_config_hash という専用のメソッドに切り出してこれを lib/rubygems/gemcutter_utilities.rb や test/rubygems/helper.rb から呼び出すようにリファクタリングしています。
