@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 で rubygems でも使うようにした bundler 配下の Bundler::YAMLSerializer で Hash のキーが Symbol の場合に対応するようにしています。また整数と真偽値の decode 処理も追加しています。
