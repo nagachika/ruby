@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの一連の変更の続き。 lib/rubygems/config_file.rb で Bundler::YAMLSerializer を利用してさらに rubygems 向けの変換を行う一連の処理を Gem::ConfigFile.dump_with_rubygems_yaml というクラスメソッドに切り出しています。
