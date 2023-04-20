@@ -1,0 +1,1 @@
+038c6e773f1140485840e0789e275e0cdf880f0a で一旦 lib/rubygems/gemcutter_utilities.rb に追加した Gem.load_yaml を削除して他と同じように Bundler::YAMLSerializer を利用するように変更しています。
