@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの一連の変更の続き。 rubygems のテストで使う load_yaml_file メソッドで Psych を利用していたのを Bundler::YAMLSerializer を利用するように変更しています。
