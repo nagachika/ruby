@@ -1,0 +1,1 @@
+6f50ecfe664924c086879273a29a2ecea9e51683 からの一連の変更の続き。 Bundler::YAMLSerializer でキーが URL の時の特別処理をやっぱり lib/bundler/yaml_serializer.rb に移動して Bundler::YAMLSerializer.load にキーワード引数 is_rubygems を追加してこの指定で変換する挙動を on/off するようにしています。
