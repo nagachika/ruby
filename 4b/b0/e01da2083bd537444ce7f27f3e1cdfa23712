@@ -1,0 +1,1 @@
+rubygems に移植した Gem::YAMLSerializer.load_file にキーに ":" を含む Hash をロードした時に警告を出力する処理を追加しています。
