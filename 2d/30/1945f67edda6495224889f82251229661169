@@ -1,0 +1,1 @@
+GitHub Actions で bundled gems のバージョンチェックなどしている workflow で workflow 全体で master ブランチでのみ実行するようにしていたのをやめて、bundled gems のバージョンチェックなどの個別の action の部分でブランチチェックするように変更しています。
