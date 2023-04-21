@@ -1,0 +1,1 @@
+4bb0e01da2083bd537444ce7f27f3e1cdfa23712 の続きで Gem::YAMLSerializer.load_file でロードした Hash のキーをチェックする時に URL の場合は許容するように ":" の存在チェック前に除外するようにしています。
