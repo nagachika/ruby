@@ -1,0 +1,1 @@
+YJIT の arm64 環境での機械語命令生成の実装の peephole 最適化。 https://github.com/ruby/ruby/pull/7747
