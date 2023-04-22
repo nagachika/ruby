@@ -1,0 +1,1 @@
+YJIT の VM 命令 invokesuper のコンパイル時の method entry のチェックが現在の実装ではもう不要とのことで削除しています。
