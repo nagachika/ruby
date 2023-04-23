@@ -1,0 +1,2 @@
+VM 命令の opt_call_c_function という命令がもう使われなくなっていたので削除しています。 e544a3a23cb80460d77dcb145ad1ff84f77524c0 で既に OPT_SUPPORT_CALL_C_FUNCTION というマクロを真に定義してビルドしないと定義されない状態にはなっていたので実質もうだいぶ前から削除されたような状態だったみたいです。 https://github.com/ruby/ruby/pull/7750
+と OPT_SUPPORT_CALL_C_FUNCTION で grep してみて vm_opts.h にデフォルトを 0 に定義するのが残ってました。
