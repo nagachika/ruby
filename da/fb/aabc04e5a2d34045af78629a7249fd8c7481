@@ -1,0 +1,1 @@
+4cff7a92b8c97bb86dc1027b674a688f5182e302 および c5529aa5fc9cad4334bcb8ba36b96a9ea09c54e6 のさらに続きで rubyspec の Process.times のテストで実行除外するかどうかの判定でも Process.clock_gettime の精度をチェックするようにしています。
