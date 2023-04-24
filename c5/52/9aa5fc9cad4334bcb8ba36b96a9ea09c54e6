@@ -1,0 +1,1 @@
+4cff7a92b8c97bb86dc1027b674a688f5182e302 の続きで rubyspec の Process.times の精度をチェックするテストを Windows 以外のプラットフォームで実施するようにしていましたが Process.clock_gettime に :GETRUSAGE_BASED_CLOCK_PROCESS_CPUTIME_ID を受付けているかどうかで実行除外の判定をするようにしています。
