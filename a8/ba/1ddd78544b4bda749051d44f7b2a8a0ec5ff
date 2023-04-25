@@ -1,0 +1,1 @@
+正規表現リテラル内のコメント部分に非 ASCII 文字を含めた時の Regexp#encoding が US-ASCII のままになってしまう不具合を修正しています。 [ruby-core:112533] [Bug #19455]
