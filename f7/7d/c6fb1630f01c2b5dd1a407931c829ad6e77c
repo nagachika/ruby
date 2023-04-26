@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest のテストの helper で or のかわりに || を使うようにしています。 standardrb という rubocop みたいな linter による指示の適用みたいです。
