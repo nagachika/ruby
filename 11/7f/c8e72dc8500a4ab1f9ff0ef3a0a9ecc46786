@@ -1,0 +1,1 @@
+拡張ライブラリ syslog のバージョンを ext/syslog/syslog.c に定数マクロとして定義して gemspec ファイルではそのファイルから切り出して参照するようにしています。また Syslog::VERSION という ruby レベルの定数も定義するようにしています。
