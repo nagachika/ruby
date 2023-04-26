@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#set_signal_handlers のシグナルハンドラ登録時に SIGTSTP のハンドラを登録していたのをやめています。
