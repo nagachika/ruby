@@ -1,0 +1,1 @@
+common.mk の make test-syntax-suggest-prepare のコマンドでコメントアウトされてる部分を削除しています。
