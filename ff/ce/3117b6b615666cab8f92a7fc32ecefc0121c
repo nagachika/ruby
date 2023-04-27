@@ -1,0 +1,1 @@
+ractor.c の rb_ractor_terminate_all() に RUBY_DEBUG_LOG() マクロによるデバッグ出力で Ractor 数を出力するようにしています。
