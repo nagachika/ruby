@@ -1,0 +1,1 @@
+rubyhspec の require のテストで "-fake" で終わる feature 名が $LOADED_FEATURES に入ってた時に問題があったみたいで削るようにしています。
