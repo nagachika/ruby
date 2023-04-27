@@ -1,0 +1,1 @@
+bundled gems の upstream reopsitory からテスト対象の revision (commit hash) をチェックアウトする処理を gemspec ファイルのチェックする前に移動しています。 gems/bundled_gems に書かれてるバージョンと gemspec ファイルのバージョンとが食い違ってエラーになってしまうのを避けるためとのこと。
