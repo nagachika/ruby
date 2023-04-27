@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::Locale#initialize で encoding が不正になる不具合を修正しています。
