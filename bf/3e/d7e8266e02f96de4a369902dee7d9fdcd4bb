@@ -1,0 +1,1 @@
+標準添付ライブラリ pp のテストで古い ruby 向けに UnboundMethod#bind_call メソッドの代替実装していたところを修正しています。
