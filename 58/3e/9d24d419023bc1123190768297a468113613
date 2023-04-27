@@ -1,0 +1,1 @@
+99c6d19e502b5fdadbd367ae4b6bb3fab850fddc からの続きで Symbol#to_proc でメソッド呼び出しする Proc オブジェクトを作って呼び出す時の引数の処理でも keyword splat の有無で処理を分岐して不要な処理をスキップする最適化を行なっているようです。
