@@ -1,0 +1,1 @@
+99c6d19e502b5fdadbd367ae4b6bb3fab850fddc からの続きで Object#send によるメソッド呼び出し時の引数の処理を呼び出し時の keyword splat の有無で分岐して不要な処理をスキップするようにする最適化をしているようです。
