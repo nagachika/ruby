@@ -1,0 +1,1 @@
+ruby インタプリタ自体の開発時のデバッグ出力の関数 ruby_debug_log() で rb_execution_context_t が NULL だった時に許容するようにしています。
