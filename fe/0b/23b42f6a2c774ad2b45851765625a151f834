@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の lib/irb/lc/ja/encoding_aliases.rb というファイルを削除して、クラス変数として定義していた Hash オブジェクトを IRB::Locale::LEGACY_ENCODING_ALIAS_MAP という定数に定義するように変更しています。
