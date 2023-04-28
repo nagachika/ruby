@@ -1,0 +1,1 @@
+Marshal.load のキーワード引数 freeze に true が指定された時に marshal_dump/marshal_load メソッドで処理をカスタマイズしている場合のロードされたオブジェクトも freeze しておくようにしています。 [ruby-core:112304] [Bug #19427]
