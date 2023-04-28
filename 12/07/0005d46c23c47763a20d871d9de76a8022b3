@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow に ext/Setup で拡張ライブラリ etc を静的リンクするように指定してビルドするテストを追加しています。
