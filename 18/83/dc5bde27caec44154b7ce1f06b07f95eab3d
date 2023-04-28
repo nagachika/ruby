@@ -1,0 +1,1 @@
+defined? の実装 vm_defined() 関数で引数が super の時にメソッド定義の親クラスを辿るところで NULL の可能性を考慮するようにしています。 BasicObject のインスタンスにメソッドを追加してそこで defined?(super) を使うと異常終了する問題があったみたいです。
