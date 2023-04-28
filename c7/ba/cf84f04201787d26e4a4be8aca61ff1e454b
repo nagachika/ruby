@@ -1,0 +1,1 @@
+while true && true; end という文を書くと ISeq へのコンパイル時点でハングアップするという不具合を修正しています。 命令列の peephole optimization する処理で無限ループ状態に陥っていたみたいです。 [ruby-core:113308] [Bug #19611]
