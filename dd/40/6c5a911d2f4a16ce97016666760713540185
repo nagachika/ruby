@@ -1,0 +1,1 @@
+addr2line.c の DWARF フォーマット対応で DW_FORM_GNU_ref_alt と DW_FORM_GNU_strp_alt というレコードの種類の対応を追加しています。実際に使うことはないけど正しく読み飛ばすためみたいです。
