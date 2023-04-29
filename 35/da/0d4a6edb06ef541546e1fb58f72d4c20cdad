@@ -1,0 +1,1 @@
+tool/test/test_sync_default_gems.rb で git コマンドが古い時に git init サブコマンドの -b オプションが使えないということで git config で init.defaultBranch を設定する方法に変更しています。
