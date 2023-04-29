@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::Locale#load メソッドの実装で Kernel.load を直接呼ぶようにして IRB::MagicFile クラスの利用を削除しています。 a58cae77f77d220f44d0d16f2dbf4770ac64bd1e と同様の変更みたいですね。
