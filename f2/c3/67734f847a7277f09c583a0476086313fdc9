@@ -1,0 +1,1 @@
+configure の RJIT 用のオプションに --enable-rjit=disasm を追加してこれが指定された時は libcapstone をリンクするようにしています。
