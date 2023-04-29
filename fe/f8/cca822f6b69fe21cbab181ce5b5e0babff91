@@ -1,0 +1,1 @@
+rb_ivar_delete() という関数(名前に反して現状だと定数の autoload 対応やクラス変数に関連して使われているっぽい)で引数 obj が T_OBJECT 型だった時の処理が switch 文の default 節とまったく同じだったので case を削除しています。
