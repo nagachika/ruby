@@ -1,0 +1,1 @@
+tool/sync_test_lib.rb で default gems の upstream を更新する時のコミットログに改行を含めるよう変更しています。
