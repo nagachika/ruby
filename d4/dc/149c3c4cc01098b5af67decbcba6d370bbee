@@ -1,0 +1,1 @@
+lib/ruby_vm/rjit/assembler.rb のコメントに書かれている Intel のマニュアルのリンクが古くなっていたようで修正しています。
