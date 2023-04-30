@@ -1,0 +1,1 @@
+default gems のテストで 共通のテストライブラリを利用するために tool/lib/helper.rb というファイルを追加しています。
