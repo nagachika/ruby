@@ -1,0 +1,1 @@
+default gems のテストで使うためのライブラリ tool/lib/core_assertions.rb で Process.clock_gettime の引数に Symbol を渡せない古い ruby での実行のために定数から数値を取得して呼ぶ方法も試すようにしています。
