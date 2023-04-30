@@ -1,0 +1,1 @@
+同じく default gems でのテストのために tool/rakelib/sync_tool.rake という rake タスクを記述したファイルを追加して、同期をとるための tool/sync_test_lib.rb でも .rake ファイルの対応を追加しています。
