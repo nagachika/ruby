@@ -1,0 +1,1 @@
+コミットログによると default gems の rdoc の upstream からの更新みたいですが rakelib/sync_tool.rake や test/lib/ の配下のファイルなので誤って余計なコミットがマージされたっぽいです。
