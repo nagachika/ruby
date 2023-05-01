@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の call-seq を切り出す正規表現も効率良いマッチをするように改善しています。 https://github.com/ruby/rdoc/pull/995
