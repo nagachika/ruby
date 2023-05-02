@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/util/licenses.rb で正規表現マッチに Regexp#match を使っていたところを Regexp#match? を利用するように変更しています。
