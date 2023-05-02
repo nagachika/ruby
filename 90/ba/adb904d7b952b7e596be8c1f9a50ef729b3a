@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の bundler の同期時に spec/bundler/support/artifice/used_cassettes.txt というファイルも無視するファイル群に追加しています。
