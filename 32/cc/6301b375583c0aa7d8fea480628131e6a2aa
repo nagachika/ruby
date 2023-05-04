@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc でトップレベルの refinements を利用して MatchData#match_length メソッドを生やしていたのをRDoc::Markup::AttributeManager クラスの定義内に移動しています。このクラスの rdoc 用コメントがクラス定義じゃなくて MatchData#match_length メソッド定義のほうに取られてたのでその修正みたいです。
