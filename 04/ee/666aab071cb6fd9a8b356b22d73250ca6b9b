@@ -1,0 +1,1 @@
+インスタンス変数の管理のための Object Shapes で shapes が複雑すぎて st_table による管理に fallback する時の performance カテゴリの警告を $VERBOSE の値に寄らずカテゴリが有効化されてたら出力するようにしています。 [ruby-core:112933] [Feature #19538]
