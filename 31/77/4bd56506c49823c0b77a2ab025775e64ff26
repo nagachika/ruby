@@ -1,0 +1,1 @@
+tool/sync_test_lib.rb で upstream のリポジトリの Rakefile を読み込んで :sync_tool というタスクをがあったらそれを消して Rakefile を上書きしてから同期しておくようにしています。
