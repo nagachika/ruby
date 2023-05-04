@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#initialize_copy の実装である strio_copy() で RGenGC のための Write Barrier が不足していたのを修正しています。最近の変更によるものではなさそうなので backport が必要そうですね。
