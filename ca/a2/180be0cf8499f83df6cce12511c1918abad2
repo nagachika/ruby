@@ -1,0 +1,1 @@
+test/ruby/test_default_gems.rb で gemspec ファイルをロードする時に git ls-files の実行が /dev/null の参照を含んでて Windows 環境でファイルがみつからないというエラーになるのでコマンド部分を削ってから eval するように変更しています。
