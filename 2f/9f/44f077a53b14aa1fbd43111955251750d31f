@@ -1,0 +1,1 @@
+gc.c の関数で rb_vm_t::objspace にアクセスする時に VM のセットアップが完了していなくて GET_VM() がまだ NULL を返す時に処理をスキップするようにしています。 [ruby-core:113386] [Feature #19627]
