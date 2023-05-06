@@ -1,0 +1,1 @@
+default gems の gemspec ファイルのチェックをするテストで Dir.glob で gemspec ファイル一覧を取り出してたところを all_assertions_foreach という default gems テスト用の assertion メソッドも利用して失敗した gemspec のリストも表示するようにしています。
