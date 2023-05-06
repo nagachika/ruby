@@ -1,0 +1,1 @@
+各種 default gems の gemspec ファイルで spec.files の取得のために git ls-files サブコマンドを利用しているところで /dev/null へのリダイレクトを決め打ちで書いてたところを ruby の IO::NULL 定数を参照するようにして Windows 環境下での警告を修正しています。
