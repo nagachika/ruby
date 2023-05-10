@@ -1,0 +1,1 @@
+Array#& や Array#intersection, Array#intersect? メソッドの rdoc 用コメントに配列の要素の比較は eql? で行なわれ、hash メソッドが正しく(同値の要素は同じ hash 値になるように)実装されている必要がある旨追記しています。 [ruby-core:113376] [Bug #19622]
