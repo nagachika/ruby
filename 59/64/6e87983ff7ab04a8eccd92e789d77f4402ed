@@ -1,0 +1,1 @@
+tool/lib/bundled_gem.rb で bundled gems の gem パッケージを展開する処理のエラー時に gems/ ディレクトリ配下の .gem パッケージ(コメントによると gems/bundled_gems に commit hash 指定があった時に upstream のリポジトリからビルドしたバージョンらしい)でリトライするようにしています。
