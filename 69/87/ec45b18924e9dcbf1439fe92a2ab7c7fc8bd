@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の要求する ruby バージョンを 2.7.0 以降に引き上げて C API の rb_io_extract_modeenc() の代替実装を削除しています。
