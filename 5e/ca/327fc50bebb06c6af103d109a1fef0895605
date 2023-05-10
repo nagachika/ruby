@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のダイアログの再描画時に表示が崩れることがあった不具合を修正しています。 https://github.com/ruby/reline/pull/524
