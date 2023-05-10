@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#runtime_dependencies で runtime_dependencies というメソッドを利用するようにリファクタリングしています。
