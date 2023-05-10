@@ -1,0 +1,1 @@
+tool/fetch-bundled_gems.rb および tool/lib/bundled_gem.rb で bundled gems の upstream からリポジトリを clone してきた時の gemspec ファイルのバージョンチェックを削除しています。リリースパッケージを作成する時にチェックすればいいのでその時の GitHub Actions のワークフローにチェックを移動するとのこと。
