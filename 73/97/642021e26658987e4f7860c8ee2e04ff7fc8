@@ -1,0 +1,1 @@
+gems/bundled_gems で debug のテストに使う commit hash の指定を削除しています。
