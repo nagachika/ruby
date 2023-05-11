@@ -1,0 +1,1 @@
+YJIT の統計情報出力時にゼロ除算が発生する可能性があった不具合を修正しています。 https://github.com/ruby/ruby/pull/7793
