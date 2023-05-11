@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から拡張ライブラリ readline の同期のための処理を削除しています。
