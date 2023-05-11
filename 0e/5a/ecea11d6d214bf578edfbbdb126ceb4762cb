@@ -1,0 +1,1 @@
+Array#first と Array#last の rdoc 用コメントを C 実装の前でなくて ruby 実装のメソッド定義の前に移動しています。
