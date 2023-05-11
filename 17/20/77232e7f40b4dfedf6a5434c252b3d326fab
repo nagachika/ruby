@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md、doc/windows.md、doc/yjit/yjit.md のビルド時の依存ライブラリの記述から Readline および Editline の記述を削除しています。そうかついに libreadline の依存がなくなったのか。
