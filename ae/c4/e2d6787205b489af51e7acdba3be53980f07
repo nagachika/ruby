@@ -1,0 +1,1 @@
+doc/maintainers.md から readline.rb (pure ruby 版 readline) のエントリも 1つ削除しています。重複してエントリがあったみたいです。
