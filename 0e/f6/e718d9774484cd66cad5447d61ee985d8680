@@ -1,0 +1,1 @@
+bundler で Marshal による serialize したバイナリデータからのロード時に特定のクラスのオブジェクトのみ許可するための Proc オブジェクトを保持するための Module を lib/bundler/safe_marshal.rb に切り出して許可するクラスをいくつか追加しています。 https://github.com/rubygems/rubygems/pull/6655
