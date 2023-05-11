@@ -1,0 +1,1 @@
+doc/maintainers.md、doc/standard_library.rdoc、test/test_extlibs.rb から拡張ライブラリ readline に関するエントリを削除しています。
