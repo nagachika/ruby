@@ -1,0 +1,1 @@
+dir.c の nogvl_dir_empty_p() という C API で errno を上書きしてエラー時に戻り値に Qundef を返していたところを errno を Integer にしたものを返すようにしています。
