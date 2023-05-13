@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラ/コンパイルオプションを試す workflow から古い GCC や Clang のバージョンを削っています。 [ruby-core:111899] [Bug #19353]
