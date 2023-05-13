@@ -1,0 +1,1 @@
+e3385f87831f036eaba96558cb4d83c8d5c43901 の続きで rb_sys_fail_str() と rb_sprintf() を組み合わせた rb_sys_fail_sprintf() というマクロも追加して利用するようにリファクタリングしています。
