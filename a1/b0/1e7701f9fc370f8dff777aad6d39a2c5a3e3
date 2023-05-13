@@ -1,0 +1,2 @@
+parse.y をビルドするのに bison ではなくて Lrama という独自のパーサジェネレーターを利用するようにしています。 Lrama ってなにかと思ったら(おそらく)このために独自に開発した pure ruby のパーサジェネレーターみたいですね。すごい!! https://github.com/yui-knk/lrama
+lrama は tool/lrama/ 配下に同梱させているようです。 [ruby-core:113450] [Feature #19637]
