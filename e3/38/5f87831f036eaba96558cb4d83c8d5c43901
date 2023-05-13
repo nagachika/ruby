@@ -1,0 +1,1 @@
+rb_sys_fail()、rb_sys_fail_str()、rb_sys_fail_path() などの SystemCallError 例外(Errno::EXXX 系の例外)を発生させる C API を関数から関数マクロとして定義して、errno 変数をリセットさせないようにしています。 GC 発生時に意図せず errno がクリアされて本来の例外が作れなかったりする場合があったようです。 [ruby-core:113449] [Bug #19635]
