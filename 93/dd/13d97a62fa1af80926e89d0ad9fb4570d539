@@ -1,0 +1,1 @@
+regexec.c のコンパイル時の警告除去のため stack_type_str() の戻り値の型から const 修飾子を削除しています。 https://github.com/ruby/ruby/pull/7803
