@@ -1,0 +1,1 @@
+WASI 実装のための setjmp の代替実装でデバッグログ出力をするための RB_WASM_DEBUG_LOG() というマクロで fprintf(3) を利用していたのを __wasi_fd_write() という API を利用するように書き換えています。 asyncify というツール? を利用した時に問題があったようです。
