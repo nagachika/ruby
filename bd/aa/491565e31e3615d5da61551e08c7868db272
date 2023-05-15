@@ -1,0 +1,1 @@
+parse.y の YY_LOCATION_PRINT() マクロに引数を追加して Lrama で追加の引数を処理できるようにしています。また拡張ライブラリ ripper のビルド時に tool/ytab.sed を使って処理結果の yydebug 関係のコードを置換していたのをやめて tool/ytab.sed は不要になったので削除しています。
