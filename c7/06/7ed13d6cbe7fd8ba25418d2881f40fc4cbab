@@ -1,0 +1,1 @@
+signal.c で rb_sys_fail_str() の参照のために internal/error.h の #include を追加しています。また common.mk の依存関係も再生成しています。
