@@ -1,0 +1,1 @@
+ab7bb38aca0d2b5c2b81142a8e67fbff0f1a4a8a の続きで Signal.trap で SIGCHLD にシグナルハンドラを登録する時に利用するハンドラ関数を通常の関数を利用するように指定を追加しています。 https://github.com/ruby/ruby/pull/7819
