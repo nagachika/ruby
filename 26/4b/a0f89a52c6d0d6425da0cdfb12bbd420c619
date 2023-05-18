@@ -1,0 +1,1 @@
+irb の組み込みコマンド debug のテストで起動するプロセスに環境変数 RUBY_DEBUG_NO_RELINE=true を渡していたのをやめて irbrc ファイルで Reline::GeneralIO を利用させるように定数の上書きをさせるようにしています。よくわかりませんがエスケープシーケンスが出力されないようにするためみたいです。 https://github.com/ruby/irb/pull/582
