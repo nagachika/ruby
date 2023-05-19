@@ -1,0 +1,1 @@
+irb の組み込みコマンド help の後継コマンド show_doc を追加して help コマンドでは deprecated の警告を出すようにしています。 https://github.com/ruby/irb/pull/567
