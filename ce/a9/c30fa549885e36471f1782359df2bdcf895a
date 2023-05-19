@@ -1,0 +1,1 @@
+0938964ba1af3924cf969fb809fc3598892bc20d の続きで Hash の実装で st_table を埋め込んだ時のサイズの調節のため struct RHash の ar_hint という union 型メンバーを構造体 ar_table の中に移動しています。あれこれここに移動でいいのかな。
