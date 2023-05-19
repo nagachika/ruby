@@ -1,0 +1,1 @@
+5199f2aaf9527c97e6ec371e19748d0c2ac7a70e に続いて Hash のデータを st_table で管理しているケースでも struct st_table の構造体を Variable Width Allocation を使って slot 内に埋め込むようにしているようです。ここまでするのか。 https://github.com/ruby/ruby/pull/7742
