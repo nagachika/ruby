@@ -1,0 +1,1 @@
+Hash の要素数が少ない時に配列で管理する ar_table の実装を VWA (Variable Width Allocation) によるオブジェクトの slot を struct RVALUE の複数の配列をまとめて確保する機能に対応させて少し大きめの Hash でも ar_table 実装にできるようにしているようです。どうやらこれに伴ない Transient Heap による若いオブジェクトのためのメモリ領域を一時的に揮発性のヒープに確保する実装の Hash での利用をやめている? みたいです。 https://github.com/ruby/ruby/pull/7742
