@@ -1,0 +1,1 @@
+irb の rdoc のドキュメント表示のダイアログのための Proc オブジェクト内の処理で Alt+d キーを押すと表示するところを macOS  では Option+d と表示するように RUBY_PLATFORM をみて変更するようにしています。 https://github.com/ruby/irb/pull/584
