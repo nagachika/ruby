@@ -1,0 +1,1 @@
+irb の IRB::RubyLex に configure_io というメソッドを追加して set_input や set_auto_indent の処理をまとめるよう変更しています。 https://github.com/ruby/irb/pull/583
