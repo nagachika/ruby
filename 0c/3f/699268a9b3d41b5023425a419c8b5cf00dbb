@@ -1,0 +1,1 @@
+variable.c の rb_gc_mark_global_tbl() と rb_gc_update_global_tbl() の処理が似てるので gc_mark_table() というマクロに切り出しています。
