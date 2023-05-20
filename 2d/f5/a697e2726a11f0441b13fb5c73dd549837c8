@@ -1,0 +1,1 @@
+Fiber#kill メソッドを追加して他の Fiber/Thread から Fiber の実行を停止できるようにしています。といっても別の Fiber からだとその時点で対象の Fiber は動いてないので Fiber#resume した時点で停止するということみたいです。そして例外が発生するのではなくて特殊な fatal の tag で大域脱出で抜けるみたいですね。 https://github.com/ruby/ruby/pull/7823
