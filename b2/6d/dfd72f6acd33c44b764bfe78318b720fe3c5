@@ -1,0 +1,1 @@
+678d41bc51fe31834eec0b653ba0e47de5420aa0 の openssl の FIPS モード対応の再修正で preprocessor 分岐でマクロをそのままチェックしていたのを defined() で定義の有無のチェックをするように変更しています。
