@@ -1,0 +1,1 @@
+YJIT の Cargo.toml ファイルで dev_nodebug profile でのビルド時に debug フラグをオフにしていたのをやめています。 https://github.com/ruby/ruby/pull/7822
