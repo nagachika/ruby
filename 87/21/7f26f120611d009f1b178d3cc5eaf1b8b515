@@ -1,0 +1,1 @@
+Enumerable#sort_by の実装に各要素についてブロックを評価した結果が全て Integer や Float だけだった時に比較に関数ポインタを利用する qsort_r(3) を利用するより直接 qsort を実装したほうが速いからということで最適化パスを追加しています。ふーむ、かなりコード量が増えてるけど sort はともかく sort_by だと確かにブロックから数値を返すことは多い……かも? https://github.com/ruby/ruby/pull/7805 [Feature #19643]
