@@ -1,0 +1,1 @@
+6d9875ccbf78ca354e63f05a4e37ab1e2c14a9ac の続き? で irb のテストで IRB::RubyLex#configure_io に渡したオブジェクトの dynamic_prompt メソッドが実行されたことを確認する assertion を追加しています。
