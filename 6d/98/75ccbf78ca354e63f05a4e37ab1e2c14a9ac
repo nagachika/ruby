@@ -1,0 +1,1 @@
+irb のテストで IRB::RubyLex#configure_io を利用するように変更しています。
