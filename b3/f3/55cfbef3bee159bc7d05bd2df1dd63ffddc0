@@ -1,0 +1,1 @@
+Process.spawn でファイルパスのサイズ上限をチェックする assertion メソッドで Process.spawn のオプション :rlimit_nproc の指定を OpenBSD で小さくするようにしています。テストの実行時間の短縮のためとのこと。
