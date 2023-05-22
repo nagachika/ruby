@@ -1,0 +1,1 @@
+Object Shapes でインスタンス変数の数が多い時の fallback のテストが YJIT/RJIT と関係なく失敗することがあるみたいなので常に skip するように変更しています。
