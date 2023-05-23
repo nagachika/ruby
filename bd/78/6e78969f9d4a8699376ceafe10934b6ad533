@@ -1,0 +1,1 @@
+IO::Buffer の新規作成する io_buffer_for_make_instance() という関数の引数に flags を追加して、呼び元から RB_IO_BUFFER_READONLY を明示的に指定できるようにしています。また RB_IO_BUFFER_READONLY フラグがない時に rb_str_modify() を呼んで文字列オブジェクトを複製するようにしています。共有文字列を実体として持つ IO::Buffer が元の文字列を破壊的に変更してしまう不具合の修正のようです。 https://github.com/ruby/ruby/pull/7837 [ruby-core:110514] [Bug #19084]
