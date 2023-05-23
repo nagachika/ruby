@@ -1,0 +1,1 @@
+inline 関数 rb_fork() の定義を internal/process.h から process.c に移動しています。
