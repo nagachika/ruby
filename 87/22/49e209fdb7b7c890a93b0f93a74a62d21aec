@@ -1,0 +1,1 @@
+Thread::Queue のテストで Thread 間の通信のための pipe が leak していたので修正しています。 https://github.com/ruby/ruby/pull/7820
