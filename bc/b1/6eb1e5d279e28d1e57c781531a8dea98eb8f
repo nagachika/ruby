@@ -1,0 +1,1 @@
+IO::Buffer の実装の引数や変数名で data としていたところを buffer とデータの内容がわかりやすいように改名しています。 https://github.com/ruby/ruby/pull/7836
