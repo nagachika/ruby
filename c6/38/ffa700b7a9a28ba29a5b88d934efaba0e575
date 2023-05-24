@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest で end の閉じ忘れに対して期待と異なる suggest をする不具合の修正をしているようです。 https://github.com/ruby/syntax_suggest/issues/187
