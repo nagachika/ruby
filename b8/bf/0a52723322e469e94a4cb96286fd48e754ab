@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest のコード探索のタイムアウト時のメッセージで DEBUG=1 を指定することを示唆していたのを  SYNTAX_SUGGEST_DEBUG=1 を指定するように変更しています。
