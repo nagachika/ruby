@@ -1,0 +1,1 @@
+doc/yjit/yjit.md に YJIT の --yjit-stats オプションを有効にしてビルドする方法や stats の出力される項目の説明の追加などを行なっています。
