@@ -1,0 +1,1 @@
+bbbec4b87c1e66909f5bee9acd3e460b8c1ad663 で Thread::Queue のテストのタイムアウトの秒数に EnvUtil.apply_timeout_scale で環境変数によるスケーリングをかけていたのが assert_normal_exit が中で行うのと重複していたのでとのこと。 https://github.com/ruby/ruby/pull/7838
