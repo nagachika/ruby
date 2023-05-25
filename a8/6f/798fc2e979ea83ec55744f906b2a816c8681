@@ -1,0 +1,1 @@
+Hash#replace で内部実装が ar (配列による実装)の Hash で st_table による Hash を上書きしようとした時に異常終了するようになってしまっていたので修正しています。おそらく 5199f2aaf9527c97e6ec371e19748d0c2ac7a70e や 0938964ba1af3924cf969fb809fc3598892bc20d のあたりで Hash の Variable Width Allocation 対応のために ar_table/st_table の実装の変更をした影響で要素数が多い Hash でも ar_table 実装になるケースが出てきて従来は想定していなかった st_table -> ar_table という replace のパターンが生じていたのに対応してなかったということだと思われます。
