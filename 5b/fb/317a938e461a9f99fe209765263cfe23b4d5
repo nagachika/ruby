@@ -1,0 +1,1 @@
+標準添付ライブラリ benchmark の gemspec ファイルで version.rb を require していたのをやめてファイルを文字列処理して切り出すように変更しています。
