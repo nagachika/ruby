@@ -1,0 +1,1 @@
+98637d421dbe8bcf86cc2effae5e26bb96a6a4da で ruby_node_name() という関数の定義を node.c に移動するとともに rb_node_name() と改名していましたが元の ruby_node_name() に戻しています。公開関数なのでルールに従って rb_ の prefix にしたけど互換性のためにとのこと。
