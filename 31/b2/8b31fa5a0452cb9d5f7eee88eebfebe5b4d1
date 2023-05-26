@@ -1,0 +1,1 @@
+標準添付ライブラリ csv のテストで利用するパースエラー時のための assertion メソッド assert_parse_errors_out で YJIT と RJIT/MJIT が有効な時にタイムアウト値を調整するようにしています。
