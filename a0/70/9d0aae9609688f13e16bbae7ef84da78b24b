@@ -1,0 +1,1 @@
+標準添付ライブラリ csv で古い ruby のサポートのためのファイルが不要なっていたものを削除しています。 https://github.com/ruby/csv/pull/250
