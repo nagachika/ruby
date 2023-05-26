@@ -1,0 +1,1 @@
+5bfb317a938e461a9f99fe209765263cfe23b4d5 の続きで標準添付ライブラリ benchmark の gemspec ファイルも lib/benchmark/ 配下から lib/ 直下に移動しています。
