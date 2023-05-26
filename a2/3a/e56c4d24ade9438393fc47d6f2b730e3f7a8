@@ -1,0 +1,1 @@
+RGenGC の uncollectible_wb_unprotected_objects_limit というパラメーターを環境変数 RUBY_GC_HEAP_REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO で指定できるようにしています。 Major GC の頻度を減らすことでパフォーマンス改善するようなチューニングをできるようにするためのようです。 [ruby-core:113088] [Feature #19571]
