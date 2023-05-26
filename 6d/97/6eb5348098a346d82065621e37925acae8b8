@@ -1,0 +1,1 @@
+Windows 環境での read()/write()/pread()/pwrite() の代替実装の関数名を整理しているようにみえますが、コミットログをみると blocking region まわりの修正らしい。差分だけみるとよくわからないのですが。 https://github.com/ruby/ruby/pull/7848
