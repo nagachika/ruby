@@ -1,0 +1,1 @@
+と、思ったら 73c56e06c429ca713d3b612437d2087314a1062f は revert されています。 to_a を使っても読み込み状態は保持されてたみたいです。 https://github.com/ruby/csv/pull/260
