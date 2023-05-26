@@ -1,0 +1,1 @@
+標準添付ライブラリ csv の CSV#read で最初に CSV#to_a で配列に変換していたのを parser_enumerator で Enumerator を生成して要素を順に取り出すループを改めて書くようにしています。 最適化のためかなと思ったら CSV#shift などで行を読んだ時にそれを無視して再度先頭から読んでしまうのを避けるためみたいです。 https://github.com/ruby/csv/pull/258
