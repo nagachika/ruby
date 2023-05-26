@@ -1,0 +1,1 @@
+delegate、getoptlong、observer、ostruct、pstore、singleton、timeout、weakref などの標準添付ライブラリの gemspec ファイルをそれぞれの lib/xxx/ のディレクトリ配下から lib/ 直下に移動しています。
