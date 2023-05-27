@@ -1,0 +1,1 @@
+IO#close などで file descriptor を close(2) しようとした時にその fd が別の Thread で利用中の場合にそれを待つという機構がビジーループになる可能性があった不具合を修正しているようです。これも主に FreeBSD でみられる現象だったようです。なんかこれ性能のためにわざと conditional variable を使わなかったんだったような気もちょっとしますがどうだったかな。 svn 時代の r57224 のあたりの変更だと思いますが。 https://github.com/ruby/ruby/pull/7865 [ruby-core:113520] [Bug #19680]
