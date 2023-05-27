@@ -1,0 +1,1 @@
+構造体 struct rb_thread_cond_struct の宣言を thread_win32.h からプラットフォーム非依存の include/ruby/thread_native.h に移動しています。
