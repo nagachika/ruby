@@ -1,0 +1,1 @@
+rubygems で gem install で rubygems 自体の plugin をインストールした時にその場ですぐロードして続くサブコマンドの処理ですぐにその plugin の機能が有効になるようにしているようです。
