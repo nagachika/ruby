@@ -1,0 +1,1 @@
+RGenGC で旧世代(old)のオブジェクトから参照されている WB-protected なオブジェクトを mark 時に即座に old に昇格させずに、何度か minor GC を生き残った時にはじめて昇格させるようにしているようです。 Shopify のアプリでパフォーマンスの改善がみられたとのこと。 struct heap_page のメンバーに remembered_bits を追加して marking_bits とは別に old からの参照があった時のフラグを管理してこちらを promote 時に利用するようにしているようです。がどこで promote するまでの回数を制御しているんだろう? https://github.com/ruby/ruby/pull/7821 [ruby-core:113513] [Feature #19678]
