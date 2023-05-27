@@ -1,0 +1,1 @@
+non-blocking Fiber で利用する Scheduler の利用時にビジーループに陥る場合がある不具合を修正しています。とても長いコミットログを読むと FreeBSD で特有な現象だったみたいです。 https://github.com/ruby/ruby/pull/7864 [ruby-core:113520] [Bug #19680]
