@@ -1,0 +1,1 @@
+doc/syntax/control_expressions.rdoc に Kernel#throw と Kernel#catch についてのセクションを追加しています。これらは Kernel のメソッドだけどほぼ構文みたいなものなのでとのこと。確かにほぼ予約語みたいな気持ちになりますね。
