@@ -1,0 +1,1 @@
+Hash オブジェクトが Variable Width Allocation に対応した結果 transient heap は使わなくなったので transient_heap.c の rb_transient_heap_alloc() 内で渡されたオブジェクトの型をチェックしている TH_ASSERT() から T_HASH 型は削っています。
