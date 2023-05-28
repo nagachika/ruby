@@ -1,0 +1,1 @@
+IO の実装で pread()/pwrite() が未実装の時のための preprocessor 分岐を消しています。また IO::Buffer の pread/pwrite の実装で offset を考慮するタイミングを変更しているようです。たぶん可読性のための変更かな。 https://github.com/ruby/ruby/pull/7860
