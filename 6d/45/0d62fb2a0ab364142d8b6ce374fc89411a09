@@ -1,0 +1,1 @@
+doc/contributing/testing_ruby.md で make test-all で TESTS 変数に渡すオプションのサンプルを修正しています。また TESTS=--help を指定してヘルプメッセージを表示する例も追加しています。
