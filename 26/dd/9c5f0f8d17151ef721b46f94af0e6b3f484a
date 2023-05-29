@@ -1,0 +1,1 @@
+拡張ライブラリ io/nonblock でも IO オブジェクトから fd を取得するのに C API rb_io_descriptor() を利用するように変更しています。
