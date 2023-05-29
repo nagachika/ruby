@@ -1,0 +1,1 @@
+26dd9c5f0f8d17151ef721b46f94af0e6b3f484a のリトライで拡張ライブラリ io/nonblock で IO オブジェクトから fd を得るのに C API の rb_io_descriptor() を利用するように変更しています。
