@@ -1,0 +1,1 @@
+拡張ライブラリ etc で IO オブジェクトから file descriptor を得るのに rb_io_descriptor() という C API を利用する(未定義の時には代替実装を用意)ように変更しています。全体的な流れとして rb_io_t の構造体を遮蔽しようという変更の予定があってその準備みたいです。 https://github.com/ruby/etc/pull/26
