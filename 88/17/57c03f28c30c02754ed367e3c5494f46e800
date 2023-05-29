@@ -1,0 +1,1 @@
+同じく拡張ライブラリ io/wait でも fd を得るのに rb_io_descriptor() を利用するように変更しています。 https://github.com/ruby/io-wait/pull/25
