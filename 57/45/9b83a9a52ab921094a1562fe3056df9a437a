@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で拡張ライブラリのビルド時の make に V=1 を渡せるように extconf.rb のオプション --with-verbose というのを追加して対応するようにしています。この場合生成する Makefile 自体に V=1 の設定が書かれるようです。 ﻿﻿﻿https://github.com/ruby/ruby/pull/7863 [ruby-core:113662] [Bug #19695]
