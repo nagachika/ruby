@@ -1,0 +1,1 @@
+拡張ライブラリ openssl でも構造体 rb_io_t の内容に直接アクセスせず C API の rb_io_descriptor() を利用するようにしています。
