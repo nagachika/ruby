@@ -1,0 +1,1 @@
+構造体 rb_io_t の内容にあたる構造体の型などを公開ヘッダ include/ruby/io.h から internal/io.h に移動して、拡張ライブラリから参照されないようにしています。また C API に rb_io_closed_p() などを追加しています。これ隠すのは次のバージョンでやるくらいの感じかと思ったらすぐにやるんだ。互換性の考慮は大丈夫なのかな。 https://github.com/ruby/ruby/pull/6511 [ruby-core:110300] [Feature #19057]
