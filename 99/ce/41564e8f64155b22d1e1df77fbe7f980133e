@@ -1,0 +1,1 @@
+rubyspec の Time.new のテストで ruby のバージョンでの分岐を spec 内でしていたのを ruby_version_is による guard を使った書き方に修正しています。
