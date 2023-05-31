@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で構造体 rb_io_t の内容に直接アクセスするのをやめて rb_io_descriptor() などの API を利用するようにしています。 https://github.com/ruby/io-console/pull/43
