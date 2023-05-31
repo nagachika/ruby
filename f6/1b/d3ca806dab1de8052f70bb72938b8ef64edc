@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI.escape_html のための拡張ライブラリ部分をビルドするための extconf.rb に TruffleRuby のための分岐を追加しています。
