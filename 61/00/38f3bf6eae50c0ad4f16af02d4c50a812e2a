@@ -1,0 +1,1 @@
+00d6674636839329f54cad6daf5e5ca16cc3911e で拡張ライブラリ etc で file descriptor を得るための rb_io_descriptor() が定義されていない古い ruby 向けのビルド時の代替実装を直接 rb_io_descriptor() という関数を定義していたのを別の名前で定義してマクロですりかえるようにしています。
