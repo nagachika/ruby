@@ -1,0 +1,1 @@
+610038f3bf6eae50c0ad4f16af02d4c50a812e2a の etc の修正と同様に拡張ライブラリ io/nonblock でも C API の rb_io_descriptor() の古い ruby 向けの代替実装を直接同じ名前の関数を定義していたのをやめてマクロですりかえるようにしています。
