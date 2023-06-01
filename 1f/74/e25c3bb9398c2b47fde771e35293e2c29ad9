@@ -1,0 +1,1 @@
+YJIT の Rust 実装で rb_bug() で異常終了させる時に環境変数 RUST_BACKTRACE をセットするようにしています。 Rust のほうのバックトレースを出力するためのものみたいですね。 https://github.com/ruby/ruby/pull/7869
