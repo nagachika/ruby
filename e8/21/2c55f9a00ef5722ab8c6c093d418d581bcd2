@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の fstring が WB-protected になってることを確認するためのテストで確実性のため full GC を4回回しておくようにしています。なんで 4回? と思ったら e87f6c899e55f4d9452ce4d75cf2a725ae736aff の変更で RGenGC の old に昇格するのに 3回 mark されないといけなくなったのでその変更への対応のためですね。
