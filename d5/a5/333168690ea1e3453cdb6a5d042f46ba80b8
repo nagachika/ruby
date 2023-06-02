@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で構造体 rb_io_enc_t の型を参照するのに struct rb_io_enc_t という本名(っていうのかな)のほうを使っていたところを修正しています。 https://github.com/ruby/stringio/pull/54
