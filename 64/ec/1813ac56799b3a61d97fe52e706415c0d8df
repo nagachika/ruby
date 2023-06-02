@@ -1,0 +1,1 @@
+35da41b29bf0a1a8fd2cd7e1d7fcb036ca8c2c7c で revert された拡張ライブラリ io/console の構造体 rb_io_t のメンバーを直接参照しないようにする変更のリトライ。やっぱり非互換が含まれていたようなのでそれを削って rb_io_t の内容を使うのに C API を利用するようにする変更に絞っているようです。 https://github.com/ruby/ruby/pull/7882
