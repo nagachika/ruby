@@ -1,0 +1,1 @@
+GitHub Actions の古い ruby で rubyspec を実行する workflow で 2.7 を対象から外して、かわりに 3.0 を追加(というか 3.0 は追加忘れてた?)しています。
