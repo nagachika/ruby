@@ -1,0 +1,1 @@
+Hash の Variable Width Allocation 対応に関連した GC のテストでデバッグのためにエラー時のメッセージに GC.stat の :read_barrier_faults の変化を含めるようにしています。
