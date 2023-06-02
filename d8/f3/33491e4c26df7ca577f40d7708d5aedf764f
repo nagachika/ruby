@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の gemspec ファイルの spec.executables で spec.files の exe ディレクトリ配下のファイルを使うようにしていましたが結果空っぽになってしまってたようなので決め打ちで書くように変更しています。
