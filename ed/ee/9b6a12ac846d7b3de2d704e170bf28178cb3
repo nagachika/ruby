@@ -1,0 +1,1 @@
+IO の close を呼んだ時にその IO を読み込み中の Thread があったらそれが読み終わるまで待つための機構で直接 rb_nativethread_lock_t や rb_nativethread_cond_t を使った排他処理をせず Thread::Mutex や Thread::ConditionalVariable のオブジェクトを VALUE 型の変数で参照して利用するようにしています。元の実装にはシグナルの喪失によってデッドロックに陥る可能性があったみたいです。 https://github.com/ruby/ruby/pull/7884
