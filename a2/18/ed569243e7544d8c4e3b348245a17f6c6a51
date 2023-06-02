@@ -1,0 +1,1 @@
+18e55fc1e1ec20e8f3166e3059e76c885fc9f8f2 のやりなおしで構造体 rb_io_t を今隠すのまではやらず、利用箇所で直接構造体を触らずに C API を利用するようにする部分だけ再適用しているようです。 https://github.com/ruby/ruby/pull/7880
