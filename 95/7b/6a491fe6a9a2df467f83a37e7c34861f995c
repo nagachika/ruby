@@ -1,0 +1,1 @@
+rubyspec の C API テスト用の拡張ライブラリで C API の rb_io_descriptor() を利用するところで利用バージョンを絞る preprocessor 分岐のバージョン番号が間違ってたのを修正。
