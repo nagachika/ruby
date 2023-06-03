@@ -1,0 +1,1 @@
+構造体 rb_io_t の構造体タグである struct rb_io_t のほうを rb_io にして "_t" という suffix を削っています。また  struct rb_io_enc_t は struct rb_io_encoding に改名しています。うーん、まあタグのほうを使うことはあまりないとは思うし気持ちはわかるけど、一応公開されているシンボル、とは違うけど名前だしどうかなぁ……。 https://github.com/ruby/ruby/pull/7886
