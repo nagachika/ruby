@@ -1,0 +1,1 @@
+RubyVM::YJIT.stats_string というメソッドを追加して YJIT の統計情報を文字列として取得できるようにしています。 https://github.com/ruby/ruby/pull/7857
