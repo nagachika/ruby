@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の extconf.rb で生成する Makefile に BISON 変数の設定を埋め込む必要がなくなったので関連コードを削除しています。
