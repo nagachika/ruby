@@ -1,0 +1,1 @@
+同じく string.c の str_buf_cat4() で str_capacity() を利用するようにして文字列バッファが slot に埋め込まれているかどうかの分岐を消しています。
