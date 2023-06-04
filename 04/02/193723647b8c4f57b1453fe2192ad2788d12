@@ -1,1 +1,1 @@
-non-blocking Fiber のための Scheduler を設定している Thread 内で Thread#join にタイムアウトを引数に渡した時にタイムアウトが効いてなかった不具合を修正しています。 https://github.com/ruby/ruby/pull/7903
+non-blocking Fiber のための Scheduler を設定している Thread 内で Thread#join にタイムアウトを引数に渡した時にタイムアウトが効いてなかった不具合を修正しています。 https://github.com/ruby/ruby/pull/7903 [ruby-core:113745] [Bug #19709]
