@@ -1,0 +1,1 @@
+標準添付ライブラリ irb のテストで envutil の require を test/irb/helper.rb の先頭にまとめています。
