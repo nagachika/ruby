@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で拡張ライブラリ fiddle を利用して libcurses を利用するところで RUBY_VERSION で分岐していたのを削除して Fiddle::TYPE_VARIADIC の定数の存在チェックだけにしています。
