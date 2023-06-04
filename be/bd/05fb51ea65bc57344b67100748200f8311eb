@@ -1,0 +1,1 @@
+標準添付ライブラリ singleton で Singleton.__init__ というクラスメソッドで Singleton モジュールを include した時の処理をまとめていたのを呼び元に展開し、Singleton を include したクラスが clone で複製された時も Singleton.__init__ を呼ぶかわりにそのクラスにも Singleton を include するようにしています。 Class#clone ってそのクラスの ancestors もコピーするから再度 include した状態になるからごく僅かながら非互換があるような気がするけど実害はないかな。
