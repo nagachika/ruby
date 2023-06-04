@@ -1,0 +1,1 @@
+GC.latest_gc_info のテストで Major GC が行なわれるまでループする処理で GC.stat(:major_gc_count) で Major GC の回数をみていたのをやめて GC.latest_gc_info(:need_major_by) 最後の GC が Major GC の状態になるまでループするようにしています。Major GC が行なわれたけどその後 Minor GC も走ったというレアケースで失敗したのかな?
