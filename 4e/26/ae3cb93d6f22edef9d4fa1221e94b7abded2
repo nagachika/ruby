@@ -1,0 +1,1 @@
+YJIT の Rust 実装で stats の実装のテストのための条件コンパイルを if でなく #[cfg()] を利用するように修正しています。 https://github.com/ruby/ruby/pull/7899
