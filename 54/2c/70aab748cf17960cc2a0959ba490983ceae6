@@ -1,0 +1,1 @@
+3a4302c742622dda9fbaeeb90fd42364badc423d で revert された標準添付ライブラリ singleton の bebd05fb51ea65bc57344b67100748200f8311eb の変更をリトライしています。というか方針自体変わってて Singleton#instance の書きかたをワンライナーっぽくリファクタリングしています。
