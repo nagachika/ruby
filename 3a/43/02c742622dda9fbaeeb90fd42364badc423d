@@ -1,0 +1,1 @@
+bebd05fb51ea65bc57344b67100748200f8311eb の標準添付ライブラリ singleton のクラスを clone した時の実装の変更を revert しています。僅かながら非互換が、って書いてたけどそれが Rails のテストで影響を受けてたらしいです。僅かじゃなかった。 https://github.com/ruby/singleton/pull/7
