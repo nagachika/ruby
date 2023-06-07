@@ -1,0 +1,1 @@
+bundler で bundler を require するのに require_relative を使ったり require を使ったりしていたのを $LOAD_PATH にパスを追加することで常に require を使うようにしているみたいです。二重に load する可能性があったのを修正しているみたです。
