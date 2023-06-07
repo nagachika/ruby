@@ -1,0 +1,1 @@
+bundler の bundle config で development=true が設定されている時に --path vendor/bundle が指定されたものとして挙動するのが --path が明示的に指定されても効いてしまうのを修正しているようです。
