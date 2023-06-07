@@ -1,0 +1,1 @@
+string.c の struct RString の flags のビットフラグの使いかたについてのコメントに RSTRING_EMBED_LEN の言及が残ってたので削除しています。
