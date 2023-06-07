@@ -1,0 +1,1 @@
+Struct の作るクラスのインスタンスを Variable Width Allocation で要素を slot 内に保持できるように対応しています。 https://github.com/ruby/ruby/pull/7871
