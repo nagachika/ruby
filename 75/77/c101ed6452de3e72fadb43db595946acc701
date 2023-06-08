@@ -1,0 +1,1 @@
+T_STRING 型オブジェクトで文字列のバッファを slot に埋め込んでる場合とヒープ上にメモリ確保している場合で文字列長を管理する構造体メンバを共用体 struct RString::as の中に入れてたのを struct RString::len に括り出しています。サイズも同じで分けている必要がなかったので。これにより RSTRING_EMBED_LEN() というマクロも不要になったので削除しています。 https://github.com/ruby/ruby/pull/7908
