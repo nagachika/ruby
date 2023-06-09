@@ -1,0 +1,1 @@
+標準添付ライブラリ racc のバージョンを 1.7.0 に更新しています。なお lib/racc/info.rb のほうの Racc::VERSION を更新していて 8206a821408cad106f96bd0da1fd517e1581b147 で lib/racc/parser-text.rb に追加したほうは更新していないんだけどこれはどうなるんだろう?
