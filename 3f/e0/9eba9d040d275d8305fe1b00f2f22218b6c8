@@ -1,0 +1,1 @@
+公開ヘッダ include/ruby/io.h で定義している構造体 rb_io_t の全メンバーの宣言に RBIMPL_ATTR_DEPRECATED() をつけてメンバーを直接参照する拡張ライブラリに警告を出すようにしています。で internal/io.h には内部用に警告なしの rb_io_t を宣言していて include/ruby/io.h では HAVE_RB_IO_T が定義済み(internal/io.h が include 済み)だったら定義しないようにして内部での利用時には警告が出ないようにしているようです。 https://github.com/ruby/ruby/pull/7916 [ruby-core:110300] [Feature #19057]
