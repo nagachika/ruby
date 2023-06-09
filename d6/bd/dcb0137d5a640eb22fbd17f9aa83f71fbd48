@@ -1,0 +1,1 @@
+拡張ライブラリを静的にリンクする時のための設定ファイル? の ext/Setup.atheos と ext/Setup.nt から racc/cparse のエントリをコメントアウトしています。
