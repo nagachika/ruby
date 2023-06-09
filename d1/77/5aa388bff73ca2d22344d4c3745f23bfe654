@@ -1,0 +1,1 @@
+標準添付ライブラリ racc を標準添付から外して gems/bundled_gems に追加しています。 default gems から bundled gems に変更になったみたいです。
