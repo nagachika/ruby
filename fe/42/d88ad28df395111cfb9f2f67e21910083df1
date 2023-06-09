@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で LTO 関係のオプションを試す時の gcc/clang のバージョンを更新して -Werror=lto-type-mismatch というオプションも追加しています。
