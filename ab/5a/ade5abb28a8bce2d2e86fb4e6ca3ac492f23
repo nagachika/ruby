@@ -1,0 +1,1 @@
+racc の bundled gems 化に伴なって libexec/racc が残っていたのを削除しています。
