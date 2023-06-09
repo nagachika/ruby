@@ -1,0 +1,1 @@
+common.mk の make test-bundled-gems の実行前にインストールすべき gem のリストに rake-compiler を追加しています。 racc の bundled gems 化に伴なって必要になったのだと思います。
