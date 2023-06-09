@@ -1,0 +1,1 @@
+a84f2fe8d176a8fa57aa559022a862d568c54e98 で追加された標準添付ライブラリ racc のサンプルコードに対するテスト test/racc/test_sample.rb は削除しています。 ruby 本体にマージする時に sample/ は省いているので。
