@@ -1,0 +1,1 @@
+Hash オブジェクトの Variable Width Allocation に伴なって Transient Heap の利用をやめたので不要になった flags のビットフラグの定数マクロ RHASH_TRANSIENT_FLAG を削除しています。
