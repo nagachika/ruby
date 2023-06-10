@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する gemspec ファイル内で spec.files に git ls-files から除外するファイルに Gemfile を追加しています。
