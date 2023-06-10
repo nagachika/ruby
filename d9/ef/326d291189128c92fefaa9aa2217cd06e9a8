@@ -1,0 +1,1 @@
+hash.c に T_HASH 型オブジェクトの時の struct RBasic::flags のビットフラグの利用用途の説明のコメントを追加しています。
