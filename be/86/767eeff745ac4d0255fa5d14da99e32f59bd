@@ -1,0 +1,1 @@
+Fiber.blocking の実装でブロックを呼び出すための fiber_blocking_yield() という関数内で VM_ASSERT() で rb_fiber_t::blocking が既に非0 でないことをチェックするようにしています。 https://github.com/ruby/ruby/pull/7926
