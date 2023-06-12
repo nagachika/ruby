@@ -1,0 +1,1 @@
+irb の fork という組み込みコマンド? の実装が残っていたのを削除しています。 https://github.com/ruby/irb/pull/600
