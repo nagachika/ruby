@@ -1,0 +1,1 @@
+b481b673d753339204290d7582dbb91a6e14447a で拡張ライブラリ ripper の不足していた依存関係を ext/ripper/depend に追加しています。 [ruby-core:113800] [Feature #19719]
