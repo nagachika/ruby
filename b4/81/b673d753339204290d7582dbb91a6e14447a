@@ -1,0 +1,1 @@
+ruby の文法の parser を ruby や C/C++ から利用できるように独立したコンポーネントとして切り出せるようにしようという Universal Parser という構想の元に UNIVERSAL_PARSER というマクロが定義されていた時に ruby_parser.c というソースコードに実装した parser を parse.y から利用するようにしているようです。実装の詳細はみていませんがかなり大掛かりな変更ですね。とりあえず UNIVERSAL_PARSER はデフォルトで定義されないようなのでまだコンパイル時のオプションで指定しないかぎり利用されない状態みたいです。 [ruby-core:113800] [Feature #19719]
