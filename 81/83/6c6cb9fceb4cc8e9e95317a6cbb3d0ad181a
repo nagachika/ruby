@@ -1,0 +1,1 @@
+b481b673d753339204290d7582dbb91a6e14447a で export すべき関数のシンボルの指定の追加や RIPPER 向けの preprocessor 分岐の修正など。拡張ライブラリ ripper を static link する時にエラーになってたみたいです。 [ruby-core:113800] [Feature #19719]
