@@ -1,0 +1,1 @@
+common.mk の make test-bundled-gems の prepare ターゲットで依存 gem をインストールする処理で pry.gem のインストールが不要になったみたいで削除しています。
