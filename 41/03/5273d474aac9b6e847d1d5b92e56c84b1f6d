@@ -1,0 +1,1 @@
+include/ruby/internal/intern/struct.h の Doxygen 用コメントで可変長引数の終端を示すポインタの値を zero と記載していたのを NULL と変更しています。
