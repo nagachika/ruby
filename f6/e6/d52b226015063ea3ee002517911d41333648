@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で bundled gems のテスト実行する時に rbs のテストで Prime_test.rb というテストファイルを実行しないようにファイル削除する処理を追加しています。
