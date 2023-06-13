@@ -1,0 +1,1 @@
+同じく common.mk の test-bundled-gems の準備のターゲットで依存 gem インストール時に yard と packnga のインストールを削除。また tool/test-bundled-gems.rb で test-unit のテスト時に rake を利用せず直接 test/run-test.rb を実行するようにしています。
