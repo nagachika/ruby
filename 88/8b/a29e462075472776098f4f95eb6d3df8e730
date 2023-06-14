@@ -1,0 +1,1 @@
+YJIT の Rust 実装で C の引数のレジスタへの割当ての処理を変更していますがすぐに revert されています。 https://github.com/ruby/ruby/pull/7918
