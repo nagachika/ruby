@@ -1,0 +1,1 @@
+T_HASH 型オブジェクトが Variable Width Allocation 対応した時に Transient Heap の利用をやめたので hash.c で不要になったヘッダの #include を削除しています。また RHASH_AR_TABLE_P() マクロのコメントの解説を修正しています。
