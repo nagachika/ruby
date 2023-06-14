@@ -1,0 +1,1 @@
+888ba29e462075472776098f4f95eb6d3df8e730 の YJIT の変更で CI がエラーになったとのことで一旦 revert しています。 https://github.com/ruby/ruby/pull/7918
