@@ -1,0 +1,1 @@
+common.mk の make test-bundled-gems の事前準備時にインストールしておく gem から bundler、test-unit、rake など bundled gems と重複するものを削っています。
