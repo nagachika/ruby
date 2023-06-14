@@ -1,0 +1,1 @@
+e5cf6b6dbe7b571f83f7ef0f0c200f0a3c76bcea の続きで make test-bundled-gems の準備用のターゲットでインストールする gem から rexml も削っています。
