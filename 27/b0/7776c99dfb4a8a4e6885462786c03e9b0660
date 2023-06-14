@@ -1,0 +1,1 @@
+rubygems の拡張部分で標準添付ライブラリ shellwords を require するのを lib/rubygems/shellwords.rb というファイルで Module#autoload で Shellwords 定数の参照時に遅延ロードするようにして、参照しようとしているメソッド内で require してたのをやめています。ふーんとは思うけど従来の遅延 require でも別に悪くはないというか、Module#autoload に一抹の deadlock の不安を感じる民としては元のままで良いのではという気がしてしまいますね。
