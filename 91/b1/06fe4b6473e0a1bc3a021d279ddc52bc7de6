@@ -1,0 +1,1 @@
+irb のテストでテストクラス名が prefix に Test を持つようになってたのを XxxTest のように suffix に持つように改名しています。 https://github.com/ruby/irb/pull/603
