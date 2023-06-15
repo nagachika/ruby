@@ -1,0 +1,1 @@
+String#byteslice によるメモリ確保の挙動を確認するために ObjectSpace.trace_object_allocations を利用して確保されたオブジェクト数を確認するテストを追加しています。実装にかなり依存するので JRuby など別実装で動かなそうだしここまでテストで書くべきなのかなという気はしますけど。 https://github.com/ruby/ruby/pull/1909 [ruby-core:87845] [Bug #14900]
