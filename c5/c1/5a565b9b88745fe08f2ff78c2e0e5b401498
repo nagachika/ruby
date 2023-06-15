@@ -1,0 +1,1 @@
+tool/dummy-rake-compiler/rake/extensiontask.rb を gems/lib/rake/extensiontask.rb という位置に移動しています。
