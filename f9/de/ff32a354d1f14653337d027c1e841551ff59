@@ -1,0 +1,1 @@
+f9deff32a354d1f14653337d027c1e841551ff59 で移動した gems/lib/rake/extensiontask.rb で定義している rake タスクの compile のダミー実装で引数のメッセージ出力を追加しています。
