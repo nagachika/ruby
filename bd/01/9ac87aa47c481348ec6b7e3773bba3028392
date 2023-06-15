@@ -1,0 +1,1 @@
+bundled gems の racc のバージョンを 1.7.1 に更新しています。またこれにより rake-compiler の依存がなくなったようなので common.mk の make test-bundled-gems の事前準備でインストールする gems から rake-compiler も削除しています。
