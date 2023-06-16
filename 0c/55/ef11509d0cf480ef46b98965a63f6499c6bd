@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で Enumerable#map してから flatten してたのを Enumerable#flat_map を利用するようにリファクタリングしています。
