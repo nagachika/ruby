@@ -1,0 +1,1 @@
+Cirrus CI の設定 .cirrus.yml で master ブランチ以外では auto_cancellation という設定を追加しています。追加 push された時に前の実行中のジョブをキャンセルするという設定だそうです。
