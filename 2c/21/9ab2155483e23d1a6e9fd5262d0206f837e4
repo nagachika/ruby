@@ -1,0 +1,1 @@
+bundler のテストで利用する gemfile を選ぶ時に RUBY_VERSION をみて分岐するようにしています。 rubocop の最新版が 2.6 で動かないためとのこと。
