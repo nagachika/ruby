@@ -1,0 +1,1 @@
+rubygems のテストで rubocop の警告抑制のためのコメントによる annotation が不要になってたとのことで削除しています。
