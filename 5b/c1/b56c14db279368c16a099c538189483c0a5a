@@ -1,0 +1,1 @@
+bundler で Enumerable#map と #flatten をメソッドチェインしているところを Enumerable#flat_map を利用するようにしています。 rubocop による指摘みたいです。
