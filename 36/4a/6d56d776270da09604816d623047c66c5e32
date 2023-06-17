@@ -1,0 +1,1 @@
+irb の ruby スクリプト片を解析するための IRB::RubyLex の機能の一部を lib/irb/nesting_parser.rb という別ファイルに切り出して IRB::NestingParser というモジュールに分離しています。将来の拡張のためのリファクタリングですが不具合修正も含んでいているそうです。 https://github.com/ruby/irb/pull/500
