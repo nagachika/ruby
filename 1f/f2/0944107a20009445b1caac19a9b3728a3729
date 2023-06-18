@@ -1,0 +1,1 @@
+同じく Universal Parser の実装 parser_st.c で MEMCPY() マクロ定義で利用する nonempty_memcpy() 関数を関数ポインタテーブルから参照して使ってたのを独自に inline 関数を定義して利用するようにしています。
