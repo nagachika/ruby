@@ -1,0 +1,1 @@
+parse.y の struct parser_params 構造体でコンパイルオプションを Hash オブジェクトとして VALUE 型のメンバーで保持していたのを frozen_string_literal と coverage_enabled というビットフィールドのメンバーとして個別に持つように変更しています。CRuby のオブジェクトへの依存を減らすためとのことで、Universal Parser との相性のための変更かな。
