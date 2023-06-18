@@ -1,0 +1,1 @@
+st.c の preprocessor 分岐していたところで NOT_RUBY マクロをチェックしていたところを RUBY マクロをみるようにしています。
