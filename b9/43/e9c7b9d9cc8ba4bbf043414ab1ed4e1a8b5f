@@ -1,0 +1,1 @@
+include/ruby/internal/event.h に stdint.h の #include を追加しています。ビルドエラーの修正のようです。 [ruby-core:113908] [Bug #19732]
