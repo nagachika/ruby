@@ -1,0 +1,1 @@
+b481b673d753339204290d7582dbb91a6e14447a で Universal Parser 導入時に追加した parser_st.c で st_table 用の関数名と同じマクロを定義しているところで #define 前に #undef しておいて再定義の警告を抑制するようにしています。
