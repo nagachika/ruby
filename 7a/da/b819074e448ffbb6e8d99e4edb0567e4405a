@@ -1,0 +1,1 @@
+コマンドラインオプション --dump=parsetree で AST をダンプする時の NODE_EVSTR 型のノードの表示を修正しています。
