@@ -1,0 +1,1 @@
+19c62b400d3458c4525f174515bcb616af7dfdfe で parse.y の構造体 struct parser_params のビットフィールドのメンバーにした frozen_string_literal と coverage_enabled の型を明示的に signed int にしています。ビットフィールドで signed っていうのはめずらしいような。 SunC でのビルドのエラーを修正しているそうです。
