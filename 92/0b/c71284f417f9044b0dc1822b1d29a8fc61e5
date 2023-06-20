@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストでは OpenSSL.fips_mode = false をセットして FIPS モードを無効化してテストするようにしていたのを消しています。
