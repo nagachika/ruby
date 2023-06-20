@@ -1,0 +1,1 @@
+template/configure-ext.mk.tmpl というファイルで拡張ライブラリの並列ビルド対応のための Makefile の設定を作ってるところで --jobserver-auth オプションを子 make に渡さないように除外する処理を追加しています。
