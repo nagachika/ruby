@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で定義している T_TYPEDDATA 型クラスの struct RBasic::flags に全般的に RUBY_TYPED_WB_PROTECTED を追加して RGenGC の WB-protected にするようにしています。
