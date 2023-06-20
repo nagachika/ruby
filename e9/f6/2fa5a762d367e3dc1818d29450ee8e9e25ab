@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::Provider というクラスを追加しています。これはなんだろう。 OpenSSL::Provider.load というクラスメソッドで文字列による指定で OpenSSL::Provider のインスタンスを返すもので、OSSL_PROVIDER_load() という関数の wrapper となっています。検索してみると "default" とか "legacy" とかの名前を指定して呼ぶみたいで、FIPS のように OpenSSL の動作モードの指定とかをする機能なのかな?
