@@ -1,0 +1,1 @@
+rubygems のテスト用のユーティリティの Gem::MockBrowser.post というメソッドで content-type ヘッダの指定をするようにしています。警告抑制のためとのこと。
