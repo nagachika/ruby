@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で OPENSSL_MODULES という環境変数で vcpkg でインストールした OpenSSL を明示的に指定するようにしています。 OpenSSL の provider の設定の不具合の対応とのこと。 https://github.com/ruby/openssl/pull/635#issuecomment-1596833720
