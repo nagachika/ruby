@@ -1,0 +1,1 @@
+doc/standard_library.rdoc で racc を default gems のセクションから bundled gems へ移動しています。また doc/maintainers.md でも racc のメンテナのエントリを削除しています。
