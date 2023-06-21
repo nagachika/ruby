@@ -1,0 +1,1 @@
+marshal.c の r_move_ivar() という関数をコールバック関数として渡して rb_ivar_foreach() を呼んでたのは r_copy_ivar() でコピーを生成するようにして r_move_ivar() の関数定義は削除しています。
