@@ -1,0 +1,1 @@
+インスタンス変数の管理の Object Shapes による実装で変数を舐めるイテレータの iterate_over_shapes_with_callback() でコールバック関数が ST_STOP を返した時に無視してしまっていたのでちゃんと処理を止めるようにしています。
