@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグ用の定数マクロから tainted と untrusted についての定義を削除しています。 https://github.com/ruby/ruby/pull/7958
