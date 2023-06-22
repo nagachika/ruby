@@ -1,0 +1,1 @@
+irb の IRB::RubyLex の auto indent 機能の強化と不具合修正。 pull request の動画に新機能の詳細が貼られてました。 https://github.com/ruby/irb/pull/515
