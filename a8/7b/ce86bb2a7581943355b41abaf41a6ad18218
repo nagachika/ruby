@@ -1,0 +1,1 @@
+Module#set_temporary_name という新規メソッド追加をしています。Module/Class は定数への代入時に名前が決定されますが、定数に代入することなく名前をつけることができるようにしています。なんのために? と思ったのですが inspect メソッドで表示する時や inspect の結果が利用される NameError 発生時のメッセージなどに意味のある名前を表示させるためということみたいです。 https://github.com/ruby/ruby/pull/7483 [ruby-core:112773] [Feature #19521]
