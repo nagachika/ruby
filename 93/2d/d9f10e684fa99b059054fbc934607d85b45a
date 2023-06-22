@@ -1,0 +1,1 @@
+正規表現まわりのドキュメントを書き直してファイル構成も doc/regexp/unicode_properties.rdoc というファイルを追加しています。 https://github.com/ruby/ruby/pull/7923
