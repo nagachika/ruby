@@ -1,0 +1,1 @@
+yarp/yarp_init.c の Init_YARP() 関数の定義で無引数に明示的に void を書くようにスタイルを修正しています。 [ruby-core:113958] [Feature #19741]
