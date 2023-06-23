@@ -1,0 +1,1 @@
+GitHub Actions の pull request の reviewer を自動設定するための workflow で GitHub Actions の YJIT テスト用の workflow 設定は YJIT チームの review 対象からはずしています。
