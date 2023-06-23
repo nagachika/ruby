@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に yarp というライブラリの標準添付ライブラリへの同期処理を追加しています。標準添付ライブラリに追加されるみたいですね。 [ruby-core:113958] [Feature #19741]
