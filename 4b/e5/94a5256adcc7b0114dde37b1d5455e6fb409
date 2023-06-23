@@ -1,0 +1,1 @@
+Cirrus CI の結果の通知のために使われている GitHub Actions の workflow で結果が neutral という状態? だった時も Slack 通知しない条件に含めています。
