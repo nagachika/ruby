@@ -1,0 +1,1 @@
+rubygems のテストで assert_equal の引数の expected と result の順序が逆になってたところを修正しています。
