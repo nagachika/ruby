@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で yarp の upstream からの同期の時に使うブランチ名に main を指定しています。 [ruby-core:113958] [Feature #19741]
