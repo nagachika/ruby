@@ -1,0 +1,1 @@
+585dbccb5142911be03afe2979e2d3ca65b19674 の再修正で yarp のテストで AST をダンプする時に String#b で ASCII-8BIT にそろえてたのをやめて Encoding を保持しておくようにしているようです。 [ruby-core:113958] [Feature #19741]
