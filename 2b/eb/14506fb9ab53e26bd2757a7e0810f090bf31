@@ -1,0 +1,1 @@
+2dfbe91cad2ebc6aa1a925b1b77b7af07fec1403 の iterate_over_shapes_with_callback() の変更で switch 文の default 節がなくてコンパイラによる警告が出てたみたいなのでその抑制のため default 節を追加しています。
