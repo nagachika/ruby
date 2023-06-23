@@ -1,0 +1,1 @@
+yarp のテストで AST を表示する時に String#b で ASCII-8BIT にしてダンプするようにしています。 [ruby-core:113958] [Feature #19741]
