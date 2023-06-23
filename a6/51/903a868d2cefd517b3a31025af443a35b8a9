@@ -1,0 +1,1 @@
+rubygems のテストでただの assert を使っていたところを assert_predicate を使ってエラー時により良いメッセージになるようにしています。
