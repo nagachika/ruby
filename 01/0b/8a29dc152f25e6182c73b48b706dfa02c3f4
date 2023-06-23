@@ -1,0 +1,1 @@
+51ff9cd7473afcdb45ad49dcd292bb6818057509 で yarp の一部のテストを skip していたエラーの原因がわかったみたいでテスト時に Encoding.default_external を UTF-8 に設定しておくようにしています。 [ruby-core:113958] [Feature #19741]
