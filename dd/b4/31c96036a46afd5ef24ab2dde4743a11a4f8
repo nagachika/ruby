@@ -1,0 +1,1 @@
+yarp の拡張ライブラリで fd の close() 漏れがあったのを修正しています。 [ruby-core:113958] [Feature #19741]
