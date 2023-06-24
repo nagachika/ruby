@@ -1,0 +1,1 @@
+Hash オブジェクトが Variable Width Allocation 対応した時に異なる slot サイズのヒープ間を移動することを確認するテストが Sparc Solaris で失敗するとのことで skip するようにしています。
