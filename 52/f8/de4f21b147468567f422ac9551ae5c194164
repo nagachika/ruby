@@ -1,0 +1,1 @@
+hash.c で T_HASH 型オブジェクトの Variable Width Allocation 対応により不要になった関数やマクロの定義を削除しています。
