@@ -1,0 +1,1 @@
+hash.c の RHASH_AR_TABLE() と RHASH_ST_TABLE() という inline 関数に RBIMPL_ATTR_RETURNS_NONNULL() をつけて NULL を返すことがないということをコンパイラに教えるようにしています。これに合わせて戻り値で分岐していたところの不要な分岐も削除しています。
