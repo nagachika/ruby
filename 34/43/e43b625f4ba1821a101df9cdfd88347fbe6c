@@ -1,0 +1,1 @@
+Universal Parser の実装にコピーしている st_table の関数から st_functions_t 型の余分な引数を削っています。
