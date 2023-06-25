@@ -1,0 +1,1 @@
+rb_hash_resurrect() という関数を RJIT からの利用のための binding に追加しています。
