@@ -1,0 +1,1 @@
+README.md、README.ja.md、doc/contributing/building_ruby.md などのドキュメントファイルの相対パスによるリンクを URL によるリンクに変更しています。うーん? 相対パスなのは別にかまわないような気がしますが。
