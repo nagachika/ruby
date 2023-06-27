@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::RFC3986_Parser で不要な文字列リテラルへの freeze メソッド呼び出しの追加を削除しています。先頭に magic comment の frozen_string_literal: true がついているので既に fstring 化されているということですね。
