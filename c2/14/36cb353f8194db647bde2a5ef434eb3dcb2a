@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の ログイン情報/host部/port部の解析のための正規表現で host 部を空白にできないケースの対応を修正しています。 https://github.com/ruby/uri/issues/83
