@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Pointer の生成時に RGenGC 用の Write Barrier を追加して Fiddle::Pointer を RGenGC の WB-protected なクラスにしています。 https://github.com/ruby/fiddle/pull/127
