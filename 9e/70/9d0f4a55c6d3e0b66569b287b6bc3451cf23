@@ -1,0 +1,1 @@
+String#index のテストで assert_equal や assert_nil を利用していたところを assert_index というこのファイルで独自に定義している assertion メソッドを利用するようにしています。
