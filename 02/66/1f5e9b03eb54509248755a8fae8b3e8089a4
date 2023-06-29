@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の関数を起動する時に C の型を指定する整数のかわりに文字列で渡すのも受付けるよう機能を追加しています。 https://github.com/ruby/fiddle/issues/96
