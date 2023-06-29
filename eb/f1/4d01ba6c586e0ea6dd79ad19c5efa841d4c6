@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の C のヘッダ解析時に int long みたいに修飾子としての long に対応するようにしているようです。テストみてて思ったのですが long int みたいに前につけるのをよく見る気がしますが int signed long みたいに後ろにつけるのもいいんですね。 https://github.com/ruby/fiddle/issues/100
