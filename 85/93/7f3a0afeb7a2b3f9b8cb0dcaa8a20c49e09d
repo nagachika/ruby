@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に任意のアドレスのメモリを読み書きするためのクラスメソッド Fiddle::Pointer.read と Fiddle::Pointer.write を追加しています。 Fiddle::Pointer クラスのオブジェクトの生成をせずに使えるというのがミソみたいです。 https://github.com/ruby/fiddle/pull/123
