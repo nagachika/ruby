@@ -1,0 +1,1 @@
+ebf14d01ba6c586e0ea6dd79ad19c5efa841d4c6 の拡張ライブラリ fiddle の C の解析の long の対応と同じく short 修飾子もつける位置のサポートを強化しています。
