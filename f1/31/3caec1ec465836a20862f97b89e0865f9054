@@ -1,0 +1,1 @@
+135d5fa36c29d98b999ab8128222d361a2e96779 と同様に拡張ライブラリ fiddle の Fiddle::Closure, Fiddle::Function, Fiddle::Handle などのクラスも RGenGC の WB-protected にしています。これらは Write Barrier の追加はいらなかったみたいです。
