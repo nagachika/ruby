@@ -1,0 +1,1 @@
+re.c で定義している rb_match_nth_defined() という C API (一応 internal ということにはなっている)を削除して、唯一利用していた variable.c の rb_f_global_variables() からは rb_reg_nth_defined() という API を代替として利用するようにしています。
