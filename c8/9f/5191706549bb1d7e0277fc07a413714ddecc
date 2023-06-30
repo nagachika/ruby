@@ -1,0 +1,1 @@
+拡張ライブラリ ripper に追加されているソースファイルなどの依存関係の指定を ext/ripper/depend と common.mk に追加しています。
