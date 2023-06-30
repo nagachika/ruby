@@ -1,0 +1,1 @@
+GitHub Actions の workflow の Slack 通知のアクションを各 workflow に書いてたのを .github/actions/slack/action.yml というファイルに切り出してこれを使いまわすようにしています。
