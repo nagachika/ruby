@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper の開放時の構造体 struct ripper の解放漏れを修正しています。
