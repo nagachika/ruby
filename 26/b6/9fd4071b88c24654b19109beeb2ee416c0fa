@@ -1,0 +1,1 @@
+yarp/unescape.c の文字が ASCII の範囲の表示可能な文字かどうか確認する char_is_ascii_printable() という関数で用意している ascii_printable_chars という配列の添字に範囲チェックなしで引数を利用していたので範囲チェックを追加しています。
