@@ -1,0 +1,1 @@
+GitHub Actions の workflow でサードパーティーのライブラリなどの依存物をインストールする処理を Ubuntu 環境用に apt-get を呼ぶ処理を .github/actions/setup/ubuntu/action.yml としてアクションとして切り出しています。
