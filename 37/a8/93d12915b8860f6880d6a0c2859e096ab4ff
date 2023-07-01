@@ -1,0 +1,1 @@
+34bf2d508585799fc6fd272750a1c053f38e06cf で切り出した GitHub Actions で homebrew で依存ライブラリをインストールする action で brew コマンドに --quiet オプションを追加してメッセージ抑制しています。
