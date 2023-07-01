@@ -1,0 +1,1 @@
+hash.c の hash_copy() でコピー元と先の Hash オブジェクトが ar_table か st_table かの組合せを網羅的にサポートするようにして、そのための処理をしていた rb_hash_replace() の処理をこちらに集約して rb_hash_replace() からは hash_copy() を呼ぶようにしています。
