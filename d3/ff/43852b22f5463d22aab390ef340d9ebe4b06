@@ -1,0 +1,1 @@
+Hash#replace でも receiver が Variable Width Allocation で slot 内に st_table が埋め込めていない場合のメモリリークがあったのを修正しています。
