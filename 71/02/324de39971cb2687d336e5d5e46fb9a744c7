@@ -1,0 +1,1 @@
+48e646fd96a834709fdfdddf08b1ac7dd188d50f で切り出した GitHub Actions の slack 通知のアクションの設定で YAML として不正になってた? ところがあったみたいで修正しています。
