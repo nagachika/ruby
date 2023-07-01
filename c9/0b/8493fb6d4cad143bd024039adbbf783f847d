@@ -1,0 +1,1 @@
+GitHub Actions の annocheck によるチェックの workflow で不要な if: による実行条件チェックを削除しています。
