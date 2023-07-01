@@ -1,0 +1,1 @@
+df2b3a29987e9353596af76ed77f35d7366d654e で書き換えた hash_copy() で st_copy() を呼んでいたのを st_replace() に置き換えて Variable Width Allocation で slot に埋め込まれる場合に st_table の構造体がメモリリークしていたのを修正しています。
