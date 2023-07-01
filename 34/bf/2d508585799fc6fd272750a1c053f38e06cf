@@ -1,0 +1,1 @@
+GitHub Actions の macOS 環境向けの homebrew での依存ライブラリインストールも専用の独自 action として切り出しています。
