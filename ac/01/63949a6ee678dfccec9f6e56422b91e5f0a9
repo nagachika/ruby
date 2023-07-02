@@ -1,0 +1,1 @@
+symbol.c で参照していた USE_SYMBOL_GC というマクロも preprocessor 分岐に使うのではなくて定数マクロとして定義して通常の if 文で参照するようにしています。
