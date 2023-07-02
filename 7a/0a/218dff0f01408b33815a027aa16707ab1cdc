@@ -1,0 +1,1 @@
+同じく GitHub Actions のいろんなコンパイラオプションを試す workflow で -DDEBUG_INTEGER_PACK をつけてビルドする設定をコメントアウトしています。そして実際に bignum.c で DEBUG_INTEGER_PACK で preprocessor 分岐していたところを static 変数による分岐にしてその変数の初期化のとろこを preprocessor で分岐するようにしています。また DEBUG_INTEGER_PACK の未指定時には RUBY_DEBUG を参照するようにしています。
