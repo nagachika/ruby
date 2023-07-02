@@ -1,0 +1,1 @@
+gc.c で参照されている GC_DEBUG_STRESS_TO_CLASS という定数マクロを RUBY_DEBUG でデフォルト値を設定するようにしています。またここでも GitHub Actions のいろんなコンパイラオプションを試す workflow の -DGC_DEBUG_STRESS_TO_CLASS を指定する設定をコメントアウトしています。
