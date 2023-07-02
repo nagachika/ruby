@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で -DDEBUG_FIND_TIME_NUMGUESS というマクロ定義を追加するオプションをつけたビルドをコメントアウトして無効にしています。
