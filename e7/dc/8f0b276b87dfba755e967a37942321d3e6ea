@@ -1,0 +1,1 @@
+SYMBOL_DEBUG というマクロも preprocessor 分岐に使うのではなく通常の if 文の条件として参照するように変更しています。
