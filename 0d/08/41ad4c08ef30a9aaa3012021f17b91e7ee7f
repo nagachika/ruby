@@ -1,0 +1,1 @@
+USE_LAZY_LOAD というマクロも preprocessor 分岐で使わず通常の if 文で参照するようにしています。また GitHub Actions の -DUSE_LAZY_LOAD オプションをつけてビルドする設定をコメントアウトしています。
