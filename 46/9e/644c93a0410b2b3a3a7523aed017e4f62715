@@ -1,0 +1,1 @@
+vm_callinfo.h で参照している USE_EMBED_CI というマクロも preprocessor 分岐でなく定数マクロを if 文で参照するようにしています。また GitHub Actions の workflow での -DUSE_EMBED_CI=0 の指定をする設定をコメントアウトしています。
