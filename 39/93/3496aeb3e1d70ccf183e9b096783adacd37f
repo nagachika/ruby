@@ -1,0 +1,1 @@
+ractor.c の USE_TRANSIENT_HEAP が定義されている時の関数の prototype 宣言が重複していたとのことで削除しています。
