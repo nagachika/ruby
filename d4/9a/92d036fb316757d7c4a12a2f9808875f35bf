@@ -1,0 +1,1 @@
+docs/fuzzing.md というドキュメントを追加しています。 yarp のリポジトリからのマージみたいです。あと doc/encodings.rdoc のリンクが https://docs.ruby-lang.org のサイトへの絶対 URL になってたのを rdoc-ref を使うように戻しています。これは yarp からのマージとは関係なさそうだけど巻き戻り?
