@@ -1,0 +1,1 @@
+common.mk に srcs-doc というターゲットを追加して doc/regexp/unicode_properties.rdoc というファイルを template/unicode_properties.rdoc.tmpl というテンプレートファイルから生成するようにしています。 [ruby-core:113895] [Bug #19728]
