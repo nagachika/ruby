@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.parse_caller という privagte なクラスメソッドが未使用になってたので定義ごと削除しています。
