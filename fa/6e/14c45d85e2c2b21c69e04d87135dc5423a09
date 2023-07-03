@@ -1,0 +1,1 @@
+08b3fb11524e6cde453476f24ac80fd60457dfef で導入された common.mk の doc/regexp/unicode_properties.rdoc のターゲットが ALWAYS_UPDATE_UNICODE が新の時だけ再生成されるようにしています。データファイルの再ダウンロードを抑制するためみたいです。
