@@ -1,0 +1,1 @@
+st.c のいくつかの関数定義でコンパイラの attribute の __no_sanitize__() に unsigned-integer-overflow というのを指定していたのを undefined に変更しています。 unsigned-integer-overflow という attribute が存在しなくなってたのかな?
