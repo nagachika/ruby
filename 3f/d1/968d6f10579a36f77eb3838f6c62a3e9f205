@@ -1,0 +1,1 @@
+parse.y の script_lines_defined() と script_lines_get() から共通部分を script_lines() という関数に切り出すリファクタリング。
