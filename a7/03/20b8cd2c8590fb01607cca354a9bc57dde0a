@@ -1,0 +1,1 @@
+174dbe33cc183e48897e8819ad694b0b44642a9f は revert してかわりに parser_st.c に gcc のバージョンが新しい時に独自に NO_SANITIZE() マクロの上書き定義を導入しています。本来の定義でも COMPILER_WARNING_PUSH()/POP() で -Wattributes の警告抑制は入れてるみたいですけどこちらでは _Pragma() マクロを使って警告の局所的抑制をするようにしています。
