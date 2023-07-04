@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout のテストに Timeout.timeout ブロック内の実行が呼び元と同じ Thread/Fiber で行なわれることを確認するテストを追加しています。 https://github.com/ruby/timeout/pull/34
