@@ -1,0 +1,1 @@
+Cirrus-CI の設定で nightly ビルドの設定で CIRRUS_CRON 変数が nightly の時だけ実行するようにしてたのを空でなければ実行するようにしています。
