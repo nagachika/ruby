@@ -1,0 +1,1 @@
+Cirrus-CI の設定で Rust のビルドのための .cargo/env の読み込みコマンドを INIT_ENV という変数に設定して各所でコマンド実行の最初に実行させてたのを set_env_script の中に移動しています。
