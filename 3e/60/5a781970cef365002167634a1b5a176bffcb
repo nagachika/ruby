@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir で Dir.mktmpdir がクラス変数を利用していたのが複数 Ractor が利用されていた場合に main Ractor 以外でアクセスできなくて使えなくなるので、private 定数を利用するように書き換えています。また乱数の利用も Kernel#rand を使わず Random.urandom を利用するようにしています。 [ruby-core:109284] [Bug #18933]
