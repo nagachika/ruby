@@ -1,0 +1,1 @@
+irb の history ファイルの保存処理を lib/irb/ext/save-history.rb から lib/irb/history.rb に移動して irb の拡張機能ではなく組み込み機能に格上げしています。 https://github.com/ruby/irb/pull/613
