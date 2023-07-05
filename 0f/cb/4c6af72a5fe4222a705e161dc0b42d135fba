@@ -1,0 +1,1 @@
+bundler で Gemfile.lock の platform の指定の path: 指定した gem の参照ファイルパスが変更になった時の扱いを修正しているようです。
