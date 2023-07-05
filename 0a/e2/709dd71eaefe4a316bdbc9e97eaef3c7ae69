@@ -1,0 +1,1 @@
+bundler で bundle config frozen true に設定されている時に Gemfile の内容を書き換えてた時のエラーメッセージで Gemfile 内の gem の指定の記述に相当するものを表示するようにしているようです。
