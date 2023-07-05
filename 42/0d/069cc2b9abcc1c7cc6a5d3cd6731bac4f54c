@@ -1,0 +1,1 @@
+GitHub Actions の git リポジトリからの clone や autogen.sh の実行などビルドプロセスの準備段階を独自アクションとして .github/actions/setup/directories/action.yml に切り出しています。
