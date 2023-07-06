@@ -1,0 +1,1 @@
+YJIT の load 命令のオペランドのパターンマッチで Opnd::Reg を使っていたところに Opnd::InsnOut を使うように変更しています。  https://github.com/ruby/ruby/pull/8021
