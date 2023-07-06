@@ -1,0 +1,1 @@
+YJIT および RJIT のブロックパラメーターの splat の扱いの不具合を修正しています。仕様がむずかしすぎてなにが正解なのかわからないですねこのへん。 https://github.com/ruby/ruby/pull/8006
