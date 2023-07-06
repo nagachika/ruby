@@ -1,0 +1,1 @@
+irb の組み込みコマンド show_cmds の実装で Enumerable#max のブロック渡しで文字列長の最大のものの長さを返してたのを Enumerable#map で length に変換してから単に Enumerable#max を呼ぶようにシンプルにしています https://github.com/ruby/irb/pull/628
