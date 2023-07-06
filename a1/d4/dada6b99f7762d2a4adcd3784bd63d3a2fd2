@@ -1,0 +1,1 @@
+888ba29e462075472776098f4f95eb6d3df8e730 の YJIT での C の引数のレジスタへの割当て処理の修正を 78ca085785460de46bfc4851a898d525c1698ef8 で一旦 revert していたものをリトライしています。差分をみると一カ所 live_ranges → shifted_live_ranges の修正漏れをしていたのを追加してテストも追加しているようです。 https://github.com/ruby/ruby/pull/8018
