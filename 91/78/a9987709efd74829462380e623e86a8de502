@@ -1,0 +1,1 @@
+include/ruby/internal/gc.h のマクロ USE_RINCGC の定義を削除しています。もう参照されていないので。
