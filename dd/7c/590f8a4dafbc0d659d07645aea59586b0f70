@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で -DUSE_FLONUM=0 をつけたビルドをする時に YJIT を無効化しておくようにしています。 YJIT は Float が flonum で実装されていない場合をサポートしていないみたいです。
