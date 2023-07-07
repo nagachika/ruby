@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::IOGate 定数に格納するモジュールを環境変数に応じて変更する処理を readline/readmultiline などのメソッドに差し込んで、起動後でも環境変数の変更で動的に切り替えできるようにしています。 https://github.com/ruby/reline/pull/560
