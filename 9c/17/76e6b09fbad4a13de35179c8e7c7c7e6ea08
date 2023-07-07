@@ -1,0 +1,1 @@
+YJIT の利用メモリサイズを指定するコマンドラインオプション --yjit-exec-mem-size のデフォルト値を 64MB から 128MB に引き上げています。 https://github.com/ruby/ruby/pull/8031
