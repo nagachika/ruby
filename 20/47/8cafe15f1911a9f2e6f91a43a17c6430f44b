@@ -1,0 +1,1 @@
+GitHub Actions の annocheck 用の workflow で環境変数に設定しているもののうち 1箇所でしか参照していないものを展開して変数から消しています。
