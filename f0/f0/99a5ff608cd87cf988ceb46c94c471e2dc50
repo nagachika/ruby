@@ -1,0 +1,1 @@
+Cirrus-CI のビルド時に rust の clippy という linter の有効化をやめています。Cirrus の環境では権限不足でうまく動かないとのこと。
