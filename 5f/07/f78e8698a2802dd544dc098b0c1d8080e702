@@ -1,0 +1,1 @@
+10f59dcbcd21807887ea0ebb1d0732f0fa32d416 に対応して BigDecimal#to_s の rdoc 用コメントのサンプルも修正しています。
