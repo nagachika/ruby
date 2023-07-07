@@ -1,0 +1,1 @@
+同じくいろんなコンパイラオプションを試す GitHub Actions の workflow で古い clang で YJIT を無効化するようにしています。
