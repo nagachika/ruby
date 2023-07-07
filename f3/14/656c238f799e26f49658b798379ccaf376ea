@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ bigdecimal の BigDecimal#to_s の仕様変更で動かなくなった spec を 3.2 以前でのみ実行するように ruby_version_is による guard を追加しています。
