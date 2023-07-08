@@ -1,0 +1,1 @@
+YJIT でコンパイルしたコードから C の関数呼び出しする命令を生成する Assembler.ccall() という関数(メソッド?) 内でレジスタの退避を行う spill_temps() を呼ぶようにして呼び元で呼ばなくて良いようにしています。 https://github.com/ruby/ruby/pull/7920
