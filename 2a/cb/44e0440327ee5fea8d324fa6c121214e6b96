@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で報告する統計情報に compiled_iseq_entry というカウンタを追加しています。言葉どおりいくつの ISeq をコンパイルしたか(メソッド数かブロックごとの ISeq も含めてかな?)のカウンタのようです。 https://github.com/ruby/ruby/pull/8032
