@@ -1,0 +1,1 @@
+rubyspec の Module#set_temporary_name メソッドのテストを専用のファイルに分離しています。
