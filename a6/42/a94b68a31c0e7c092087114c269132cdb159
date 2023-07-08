@@ -1,0 +1,1 @@
+75f8781c08da421d6bcfb2c3c8b7b74efea3bec2 で configure で objcopy が YJIT のために使えないバージョンだった時に自動的に YJIT を無効化していたのを revert しています。 macOS で YJIT が無効になってしまってたみたいです。
