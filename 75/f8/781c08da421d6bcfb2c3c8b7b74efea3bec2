@@ -1,0 +1,1 @@
+GitHub Actions で古い clang を使う時に YJIT を無効化するよう configure のオプションをつけるようにしていましたが、configure のほうで objcopy が使えないものだった場合に自動的に YJIT を無効化するようにして明示的なオプションはつけないように GitHub Actions のほうは戻しています。
