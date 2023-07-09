@@ -1,0 +1,1 @@
+make leaked-globals ターゲットでチェック対象のファイルに SOEXT という変数と LIBRUBY_SO という変数のファイルも追加するようにしています。 --enable-shared でビルドされている時に libruby.so を対象に追加しているようです。
