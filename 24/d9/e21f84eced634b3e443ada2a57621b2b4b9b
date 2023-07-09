@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::IOGate という定数を直接参照しているところで各 Class/Module に io_gate というメソッドを定義してそこから参照させるようにリファクタリングしています。 https://github.com/ruby/reline/pull/566
