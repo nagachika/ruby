@@ -1,0 +1,1 @@
+yarp の拡張ライブラリに yp_location_for_node() という C API を追加して yp_node_t 構造体からコード位置を取得できるようにしています。
