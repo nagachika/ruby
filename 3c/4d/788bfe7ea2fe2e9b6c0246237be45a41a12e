@@ -1,0 +1,1 @@
+macOS 版で ruby_current_ec や RUBY_DEBUG マクロの排他処理用の変数 ruby_nt_serial などのシンボルを export していたのを止めています。
