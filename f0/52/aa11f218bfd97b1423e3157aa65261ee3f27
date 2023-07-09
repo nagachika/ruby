@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版ビルドの workflow の matrix に configure に --enable-shared を指定するケースを追加しています。
