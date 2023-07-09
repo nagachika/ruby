@@ -1,0 +1,1 @@
+yarp の YARP.newlines メソッドを lib/yarp.rb で ruby 実装として再実装しています。
