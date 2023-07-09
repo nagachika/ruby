@@ -1,0 +1,1 @@
+ruby_parser.c の universal parser で isascii() の実装を構造体 rb_parser_config_t のメンバーの関数ポインタで指定してたのを削除して parse.y に rb_isascii() と同じ実装の parse_isascii() と定義してそこで ISASCII() マクロの定義をしています。しかし universal_parser.c に ISASCII() の定義は残っててそちらは構造体の関数ポインタ経由になってそうだけどいいのかな?
