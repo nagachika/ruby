@@ -1,0 +1,1 @@
+misc/lldb_rb/ の lldb 向けのコマンド実装で __init__ メソッドでも呼んでいる初期化処理を __call__ でメソッド呼び出し時にも再度呼ぶようにしています。これはなぜだろう。 https://github.com/ruby/ruby/pull/8041
