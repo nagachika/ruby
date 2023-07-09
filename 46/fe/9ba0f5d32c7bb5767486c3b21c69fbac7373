@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の configure 用の引数のための環境変数をセットする処理を独自 action の定義のほうに移動しています。
