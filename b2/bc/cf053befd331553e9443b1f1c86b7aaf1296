@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の extconf.rb で distclean ターゲットで削除するファイルリストに ripper.h を追加しています。
