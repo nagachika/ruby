@@ -1,0 +1,1 @@
+String#index と String#rindex で Encoding についての例外発生時のメッセージが違ってたとのことで String#index のほうの例外メッセージを詳しくして揃えるようにしています。 [ruby-core:114119] [Bug #19763]
