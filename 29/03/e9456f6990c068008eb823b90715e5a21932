@@ -1,0 +1,1 @@
+universal_parser.c の ISASCII() の定義を削除しています。 8b2a0ec8df6a09361fd835b792a5d200bc0e66af で構造体 rb_parser_config_t のメンバー isascii を削除したのでこちらの定義は無効になっていたので。やはり消し漏れだったみたいですね。 https://github.com/ruby/ruby/pull/8029
