@@ -1,0 +1,1 @@
+irb の IRB::RelineInputMethod クラスに Reline を include していたのをやめてメソッドや定数の参照を Reline.xxx や Reline::Xxxx のように名前空間のフルパスで参照するようにリファクタリングしています。 https://github.com/ruby/irb/pull/633
