@@ -1,0 +1,1 @@
+8b2a0ec8df6a09361fd835b792a5d200bc0e66af の ISASCII() の定義を parse.y に移動したのと同様に universal parser で構造体 rb_parser_config_t の関数ポインタのメンバーとして持たせていた isxxxx を削除して parse.y に ISXXX() マクロ定義を移動しています。
