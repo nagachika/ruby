@@ -1,0 +1,1 @@
+ractor.c の rb_ractor_make_shareable_copy() で rb_ractor_make_shareable() とほぼ同じ処理があったので委譲するようにリファクタリングしています。
