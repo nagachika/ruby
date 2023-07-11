@@ -1,0 +1,1 @@
+3cfcd3d1663169ad68e22e5efef35f8057173993 で common.mk の ripper_srcs というターゲットに .NOTPARALLEL という疑似ターゲットを使って並列実行を抑制していたのをやめて defs/gmake.mk で DOT_WAIT 変数を RIPPER_SRCS 変数の先頭に付加するようにしています。.NOTPARALLEL が古い make で期待したように動かなかったとのこと。
