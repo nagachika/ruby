@@ -1,0 +1,1 @@
+c8d0470bb0888bcb6719ba536e5f3f6a8b6551bb と同様に bundler で /dev/null や NUL を Windows 環境かどうかで分岐して書いてたところを File::NULL を参照するようにリファクタリングしています。
