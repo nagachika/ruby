@@ -1,0 +1,1 @@
+bootstraptest の大量に Thread を作成するテストが RJIT でたまに失敗するそうで RJIT が有効な時には skip するようにしています。
