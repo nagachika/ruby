@@ -1,0 +1,1 @@
+YJIT/RJIT での COLLECT_USAGE_INSN()/COLLECT_USAGE_OPERAND()/COLLECT_USAGE_REGISTER() などのマクロ定義の preprocessor 分岐を減らすリファクタリング。
