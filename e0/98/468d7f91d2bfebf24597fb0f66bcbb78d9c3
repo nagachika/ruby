@@ -1,0 +1,1 @@
+GitHub Actions の workflow で pull request のタイトル部分に [DOC] が入っている場合もテスト実行をスキップするようにしています。
