@@ -1,0 +1,1 @@
+2fa77fb82d14deb8c2fa2064305c9a7f0ae63057 の続きで拡張ライブラリ etc の extconf.rb で constdefs.h が存在しない時だけ生成するようにしています。
