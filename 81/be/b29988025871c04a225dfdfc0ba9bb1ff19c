@@ -1,0 +1,1 @@
+irb のダイアログ表示用の Proc オブジェクト内で Reline のメソッドの receiver を誤ってつけていたのを修正しています。エラーが発生していたみたいですね。 https://github.com/ruby/irb/pull/638
