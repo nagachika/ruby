@@ -1,0 +1,1 @@
+拡張ライブラリ etc の extconf.rb で mkconstants.rb を実行するために RbConfig.ruby で ruby コマンドを得てるところで RbConfig.ruby に空白が含まれている場合の対応。 https://github.com/ruby/etc/pull/22
