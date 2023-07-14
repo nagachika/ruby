@@ -1,0 +1,1 @@
+Range#bsearch のテストで BigDecimal を利用している部分は拡張ライブラリ bigdecimal のテストのほうに移動していさう。
