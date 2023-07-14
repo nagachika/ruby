@@ -1,0 +1,1 @@
+拡張ライブラリ etc の efd8ea366b31e7874c21a2e667ddeb69f2cddd7e の変更のうち getlogin(3) の prototype 宣言を移動した部分を revert しています。 MinGW では unistd.h 内で getlogin() が宣言されておらず独自代替実装があるとのこと。
