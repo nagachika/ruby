@@ -1,0 +1,1 @@
+Data.define に相当する C API の rb_data_define() という関数を追加しています。 [ruby-core:114088] [Feature #19757]
