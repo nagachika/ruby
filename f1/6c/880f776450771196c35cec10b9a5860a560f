@@ -1,0 +1,1 @@
+bundler の bundle config set で version という項目を設定できるようにしているようです。 bundler 自身のバージョンの指定ってことみたいですね。
