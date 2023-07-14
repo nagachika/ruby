@@ -1,0 +1,1 @@
+non-blocking Fiber 利用時の Thread#join のテストで Thread の leak を修正しています。
