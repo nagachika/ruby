@@ -1,0 +1,1 @@
+配列のバッファ領域を直接参照コード上の範囲を指定するための rb_array_ptr_use_start()/rb_array_ptr_use_end() という C API を削除しています。 Transient Heap の廃止により不要になったためみたいですね。
