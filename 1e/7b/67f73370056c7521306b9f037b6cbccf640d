@@ -1,0 +1,1 @@
+短命なオブジェクトのためのメモリ管理のしくみ Transient Heap の機構を完全に削除しています。 Variable Width Allocation により slot 内に埋め込めるデータが増えたので使わなくなったため。 [ruby-core:113899] [Feature #19730]
