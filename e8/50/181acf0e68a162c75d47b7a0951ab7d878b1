@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs に commit hash の指定を追加しています。 CI のエラー対応のため。
