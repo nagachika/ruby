@@ -1,0 +1,1 @@
+同じく RARRAY_CONST_PTR_TRANSIENT() というマクロを削除して代替として RARRAY_CONST_PTR() を利用するようにしています。
