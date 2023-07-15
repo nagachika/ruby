@@ -1,0 +1,1 @@
+missing/dtoa.c の dtoa(3) の代替実装にヘッダの #include を追加し、xmalloc/xfree を利用していたところを malloc/free の標準ライブラリ関数を利用するようにしています。単体でコンパイルできるようにするためとのこと。
