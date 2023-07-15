@@ -1,0 +1,1 @@
+util.c で qsort(3) の利用時に使うヘッダの #include を必要な時だけにするよう preprocessor 分岐を追加しています。
