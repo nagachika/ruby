@@ -1,0 +1,1 @@
+array.c の ary_heap_alloc() という関数の第1引数の Array オブジェクトがもう不要になっていたので削除しています。これも Transient Heap 削除によって使われなくなったためみたいです。
