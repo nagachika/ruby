@@ -1,0 +1,1 @@
+YJIT で YJIT_STATS というマクロが真の時だけ集計していた ratio_in_yjit という項目を YJIT が有効にビルドされた時は常に作るようにしています。 https://github.com/ruby/ruby/pull/8064
