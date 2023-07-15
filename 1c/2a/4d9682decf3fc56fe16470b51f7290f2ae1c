@@ -1,0 +1,1 @@
+コマンドラインオプションの情報を格納する構造体 ruby_cmdline_options_t の sflag と xflag というメンバーに bit field を使って構造体サイズを小さくしています。
