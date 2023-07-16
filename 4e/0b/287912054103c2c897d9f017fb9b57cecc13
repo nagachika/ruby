@@ -1,0 +1,1 @@
+RGENGC_OLD_NEWOBJ_CHECK という RGenGC のデバッグ用と思われるマクロを削除して対応する処理も削除しています。
