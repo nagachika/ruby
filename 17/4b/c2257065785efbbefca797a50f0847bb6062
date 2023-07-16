@@ -1,0 +1,1 @@
+irb の history 保存/読み込みの処理が IRB::HistorySavingAbility を include しているクラスに HISTORY という定数がないと処理をスキップするようになっていたので Reline::RelineInputMethod::HISTORY という定数を Reline::HISTORY の別名として定義しておくようにしています。また定数の存在チェックは削除しています(エラーを起こしたほうが気がつきやすいから?)。 https://github.com/ruby/irb/pull/642
