@@ -1,0 +1,1 @@
+parse.y で STRCASECMP()/STRNCASECMP() のマクロ定義に st_locale_insensitive_strcasecmp()/st_locale_insensitive_strncasecmp() といった関数を利用していたのを parser_st.c で定義した類似の関数 rb_parser_st_locale_insensitive_strcasecmp()/rb_parser_st_locale_insensitive_strncasecmp() を利用するようにリファクタリングしています。
