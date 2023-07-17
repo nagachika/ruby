@@ -1,0 +1,1 @@
+拡張ライブラリ ripper のソースコード生成テンプレートの ext/ripper/ripper_init.c.tmpl で ripper_parser_mark()/ripper_parser_free()/ripper_parser_memsize() の呼び出し時に引数に渡すポインタの NULL チェックをするようにしています。
