@@ -1,0 +1,1 @@
+コマンドラインオプション --backtrace-limit を RUBYOPT 環境変数では指定できないようにされていたのを許容するように変更しています。 https://bugs.ruby-lang.org/issues/8661#note-27
