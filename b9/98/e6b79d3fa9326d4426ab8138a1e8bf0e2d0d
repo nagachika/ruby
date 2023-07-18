@@ -1,0 +1,1 @@
+fa30b99c34291cde7b17cc709552bc5681729a12 で追加した Process.warmup のテストを assert_separately を利用して子プロセス内で実行するようにしています。
