@@ -1,0 +1,1 @@
+signal.c で定義していた posix_signal() を ruby_posix_signal() と改名しています。
