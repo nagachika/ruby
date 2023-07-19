@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで BigDecimal を利用しているテストメソッドを defined?(BigDecimal) でチェックして定義するようにして、bigdecimal が読み込まれていない時でも失敗しないようにしています。
