@@ -1,0 +1,1 @@
+fa30b99c34291cde7b17cc709552bc5681729a12 で追加した Process.warmup のテストで b998e6b79d3fa9326d4426ab8138a1e8bf0e2d0d で子プロセスで実行するようにしたので test/ruby/test_process.rb のルートで require "objspace" する必要はなくなったので削除しています。
