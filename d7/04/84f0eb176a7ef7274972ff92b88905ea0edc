@@ -1,0 +1,1 @@
+YJIT の JIT コンパイル済みの ISeq を再度コンパイルしないようにする分岐や JIT コンパイル対象にするかどうかの判定の関数を vm.c の C 関数に切り出すリファクタリング。 https://github.com/ruby/ruby/pull/8078
