@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで IO の leak の修正のため close を追加しています。 https://github.com/ruby/reline/pull/573
