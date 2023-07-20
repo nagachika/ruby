@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で自動インデントのための Proc オブジェクトに Ctrl-D 入力時に nil を含む配列が渡されるのでそれでエラーにならないように呼び元で抑制するように対応しています。 https://github.com/ruby/reline/pull/571
