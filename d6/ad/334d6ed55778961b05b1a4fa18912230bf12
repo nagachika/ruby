@@ -1,0 +1,1 @@
+irb のテストに assert_rows_with_correct_indents という専用の assertion メソッドを導入してテストをリファクタリングしています。
