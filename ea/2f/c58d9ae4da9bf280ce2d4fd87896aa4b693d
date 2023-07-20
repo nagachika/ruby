@@ -1,0 +1,1 @@
+gems/bundled_gems の更新をチェックする GitHub Actions の workflow で独自アクションのファイルパスの typo を修正。
