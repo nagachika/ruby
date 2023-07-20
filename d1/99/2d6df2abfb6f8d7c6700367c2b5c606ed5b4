@@ -1,0 +1,1 @@
+signal.c の check_reserved_signal_() で ASAN/MSAN などの sanitizer が有効な時や Valgrind の memcheck に対応してビルドされている場合には異常終了前にシグナルハンドラをデフォルトに戻しておくようにしています。シグナルハンドラの無限再入状態になってしまうのを避けるためみたいです。
