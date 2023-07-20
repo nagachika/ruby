@@ -1,0 +1,1 @@
+irb の gemspec ファイルに dependency として rdoc を追加しています。また rdoc 用コメントで絶対 docs.ruby-lang.org への絶対 URL でリンクされていたものを相対パスでのリンクに修正しています。 https://github.com/ruby/irb/pull/648
