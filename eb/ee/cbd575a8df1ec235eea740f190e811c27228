@@ -1,0 +1,1 @@
+signal.c の check_reserved_signal_() 内の struct iov の配列の処理にマクロを使うリファクタリング。
