@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の矢印キーや Home/End キーの key bindings の定義が端末の種類によって有効になっていなかった? のを修正しているようです。 https://github.com/ruby/reline/pull/569
