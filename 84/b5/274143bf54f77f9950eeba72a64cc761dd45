@@ -1,0 +1,1 @@
+yarp を upstream から同期しています。しかし今基本的には yarp は利用していないと思うんだけどなんで同梱することになったんだろう。 https://github.com/ruby/ruby/pull/8098
