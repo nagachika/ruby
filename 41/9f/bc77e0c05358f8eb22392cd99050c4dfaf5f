@@ -1,0 +1,1 @@
+rubygems の Gem::Specification._load で YAML 定数が未定義だったら Module#const_set で定数セットするのをそのまま残さずにメソッドの最後に ensure 節で削除しておくようにしています。 multi thread で別の Thread で require "yaml" してたら……とか考えるとちょっともやっとしますが、そもそもここで YAML 未定義で通ることはそんなにないのではという気がするので気にしないことに。
