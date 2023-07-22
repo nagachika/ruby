@@ -1,0 +1,1 @@
+yarp を upstream から同期しています。また yarp の gemspec ファイルも lib/yarp/yarp.gemspec にコピーするようにしています。 https://github.com/ruby/ruby/pull/8101
