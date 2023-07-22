@@ -1,0 +1,1 @@
+rubygems の Gem::StreamUI#choose_from_list で引数に渡された list の範囲外の入力がされた時の対応を追加しています。
