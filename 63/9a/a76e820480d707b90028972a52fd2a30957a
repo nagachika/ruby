@@ -1,0 +1,1 @@
+T_MATCH 型オブジェクトの構造体 struct RMatch から rmatch というメンバーを削除して struct rmatch は Variable Width Allocation 対応して slot 内に埋め込むようにしています。 https://github.com/ruby/ruby/pull/8097
