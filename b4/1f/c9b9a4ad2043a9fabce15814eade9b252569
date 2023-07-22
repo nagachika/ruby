@@ -1,0 +1,1 @@
+YJIT の統計情報の exec_instruction という命令数をカウントする項目のカウントが漏れる場合があったのを修正しています。 https://github.com/ruby/ruby/pull/8038
