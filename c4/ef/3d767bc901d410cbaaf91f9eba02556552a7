@@ -1,0 +1,1 @@
+YJIT の統計情報の exec_instruction という項目を yjit_insns_count と変更しています。 https://github.com/ruby/ruby/pull/8102
