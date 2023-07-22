@@ -1,0 +1,1 @@
+T_MODULE/T_CLASS 型オブジェクトのクラス変数用テーブルの mark 関数で cref の mark 時に GC.compact で移動できない pin down つきの mark をしていたのをやめています。
