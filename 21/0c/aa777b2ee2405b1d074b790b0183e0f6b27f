@@ -1,0 +1,1 @@
+Dir.glob の rdoc 用コメントの flag についての説明を追記。 https://github.com/ruby/ruby/pull/8088
