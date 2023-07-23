@@ -1,0 +1,1 @@
+darray.h の rb_darray_back()/rb_darray_remove_unordered()/rb_darray_for() といったマクロを未使用ということで削除しています。というか darray.h ってなんだっけ、と思ったら YJIT のマージの時に入ったヘッダでした。dynamic array の略で darray らしい。
