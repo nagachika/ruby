@@ -1,0 +1,1 @@
+tool/merger.rb でバックポート用のコミットを指定するのに GitHub や bugs.ruby-lang.org の git のコミットの URL をそのまま書くこともできるように対応しています。チケットや ruby trunk changes からのリンクをそのまま貼れると若干手間が省けるので。完全に自分用ですね。
