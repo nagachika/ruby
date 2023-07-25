@@ -1,0 +1,1 @@
+bundler のテストの不要な Module#include の削除。
