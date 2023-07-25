@@ -1,0 +1,1 @@
+bundler の bundle config で設定するデフォルトの bundler のバージョンの指定方法の書きかたを local → lockfile、global → system と変更しています。
