@@ -1,0 +1,1 @@
+File::Constants::Xxxx の定数群の rdoc 用コメントをそれぞれの定数を定義する rb_define_const() のところに簡単に書いてたのを File::Constants モジュールの rdoc のところにまとめて書くように変更しています。 https://github.com/ruby/ruby/pull/8103
