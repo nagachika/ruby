@@ -1,0 +1,1 @@
+Module#class_eval や Binding#eval のバックトレースでのファイル位置を呼び元の位置を含めるようにしています。なるほどこれはわかりやすくなる。 [ruby-core:114074] [Feature #19755]
