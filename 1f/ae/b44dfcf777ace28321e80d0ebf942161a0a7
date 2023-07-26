@@ -1,0 +1,1 @@
+include/ruby/io/buffer.h で __BYTE_ORDER__ や REG_DWORD といったマクロの値をチェックする preprocessor 分岐でそもそもこれらのマクロが定義されているかのチェックも追加しています。
