@@ -1,0 +1,1 @@
+bundler の再定義する require で net-http.gem が net/http のように gem 名と require する feature 名をメッセージでちゃんと出し分けるようにしています。
