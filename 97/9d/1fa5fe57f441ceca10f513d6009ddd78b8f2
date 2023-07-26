@@ -1,0 +1,1 @@
+bundler の再定義する require で警告する対象の gem のリストの定数の定義を lib/bundler/rubygems_ext.rb から削除して bundled_gems というところに追い出しているみたいです。がそのファイルがコミット漏れしてそう。
