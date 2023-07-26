@@ -1,0 +1,1 @@
+YJIT で send 系の VM 命令で JIT から抜けずに直接 vm_exec() の呼び出しをするように最適化しているようです。 https://github.com/ruby/ruby/pull/8106
