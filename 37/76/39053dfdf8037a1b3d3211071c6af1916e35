@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.scroll_down で端末のスクロールのためにエスケープシーケンスを利用していたのをシンプルに改行コード出力するように変更しています。 https://github.com/ruby/reline/pull/577
