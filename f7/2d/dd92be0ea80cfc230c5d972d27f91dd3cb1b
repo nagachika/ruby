@@ -1,0 +1,1 @@
+bundler の man ページや File の定数の rdoc 用コメントの変更。これコミットログは bundler についてしか書いてないので Dir/File のほうはコミットミス?
