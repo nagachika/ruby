@@ -1,0 +1,1 @@
+bundler の require の再定義で Kernel の特異メソッドの上書きのために特異クラスを取り出すのに class << の構文を利用していたのを Module#singleton_class メソッドを利用するようにしています。
