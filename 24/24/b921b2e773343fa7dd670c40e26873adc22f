@@ -1,0 +1,1 @@
+bundler で require 時に警告を出す gem のリストを Gem::BUNDLED_GEMS という定数として定義するように切り出しています。
