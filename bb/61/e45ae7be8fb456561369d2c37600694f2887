@@ -1,0 +1,1 @@
+さらに bundler での require の再定義で Kernel#require を再定義する時に private メソッドとして定義するようにしています。
