@@ -1,0 +1,1 @@
+bundler で require を再定義する時に redefine_method という専用のメソッド? を利用していたのを Module#alias_method と Module#define_method を利用するように変更しています。
