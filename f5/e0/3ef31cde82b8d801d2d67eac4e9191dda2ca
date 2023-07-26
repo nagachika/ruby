@@ -1,0 +1,1 @@
+bundler で default gems のいくつかが Gemfile に書かれてない状態で require された時に警告を出すようにしています。今は default gems ですが bundled gems に追い出そうとしているのでその準備のためみたいですね。
