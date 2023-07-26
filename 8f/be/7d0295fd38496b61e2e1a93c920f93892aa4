@@ -1,0 +1,1 @@
+bundler の再定義する require で一部の元 default gems で警告を出すのが既に require 済みでも再度 require する都度出てたので抑制するようにしています。
