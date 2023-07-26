@@ -1,0 +1,1 @@
+rubygems の再定義する require で Monitor#synchronize を利用するようにしています。
