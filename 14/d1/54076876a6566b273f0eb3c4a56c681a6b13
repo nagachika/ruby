@@ -1,0 +1,1 @@
+include/ruby/internal/core/rstring.h の RSTRING_PTR() および RSTRING_END() で文字列バッファのポインタの NULL チェックを RUBY_DEBUG マクロが真に定義されている時だけにするようにしています。
