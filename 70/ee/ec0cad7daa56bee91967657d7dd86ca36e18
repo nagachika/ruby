@@ -1,0 +1,1 @@
+rubygems の再定義 require で Enumerable#each のブロック内で break するかわりに Enumerable#find を使うようリファクタリング。
