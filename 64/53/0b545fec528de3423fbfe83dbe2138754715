@@ -1,0 +1,1 @@
+fc5dbea4c3aca71b97db22b47b934454705ceed8 の続きで bundler の再定義する require の警告を出す対象に過去に default gems から bundled gems に移動した gem も追加しています。
