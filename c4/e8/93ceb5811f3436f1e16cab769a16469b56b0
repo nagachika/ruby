@@ -1,0 +1,1 @@
+vm.c の invoke_iseq_block_from_c() で VM_ARGC_STACK_MAX というマクロの値についての分岐を preprocessor 分岐でしていたのを通常の if 文の条件のなかに混ぜこむようにしています。
