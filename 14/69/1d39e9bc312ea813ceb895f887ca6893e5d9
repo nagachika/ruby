@@ -1,0 +1,1 @@
+b106cf2eef574535fa2a069493235b00d679d20a で GitHub Actions の専用アクションで .downloaded-cache ディレクトリを掘るようにしてたのを revert しています。これをしても問題のエラーが直らなかったみたいです。
