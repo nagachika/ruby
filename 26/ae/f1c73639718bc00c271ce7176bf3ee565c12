@@ -1,0 +1,1 @@
+parse.y で lex_eol_p() や lex_eol_ptr_p() などのマクロを利用するようにリファクタリング。
