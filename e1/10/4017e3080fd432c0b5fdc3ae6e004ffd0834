@@ -1,0 +1,1 @@
+YJIT 有効化時に VM 命令の末尾再帰最適化を有効にした時の stack consistency error の修正、というコミットログで pull request のほうをみると vm_exec.h の JIT_EXEC() マクロの修正もあるのですがこのコミットにはテストの追加だけになってしまっているようですね。と、思ったら cef60e93e6db859b47c818f745be809feb04ae48 の YJIT のメソッド呼び出しの最適化の時にこの修正も入っていたみたいです。 https://github.com/ruby/ruby/pull/8107 [ruby-core:114258] [Bug #19781]
