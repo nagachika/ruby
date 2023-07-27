@@ -1,0 +1,1 @@
+979d1fa5fe57f441ceca10f513d6009ddd78b8f2 でコミット漏れしていた bundler で再定義する require で Gemfile や依存関係に明記されてなかったら警告出力する対象の gem リストのファイル lib/bundled_gems.rb を追加しています。
