@@ -1,0 +1,1 @@
+nil, true, false などの一部の即値のオブジェクトに対して特異メソッドを定義するとこれらのオブジェクトは特異クラスを持たないのでそのクラスである NilClass/TrueClass/FalseClass にメソッドが追加されるのですが、これらのクラスに対する Object#singleton_method がこの特異メソッドを返してしまっていたので NameError を発生させるようにしています。 singleton_methods が空配列を返すのでそれとつじつまをあわせるため。 [Bug #11064]
