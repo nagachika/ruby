@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor に alias として kill_word と backward_kill_word というメソッドを追加してこのキーバインディングをサポートするようにしています。 https://github.com/ruby/reline/issues/558 https://github.com/ruby/reline/pull/570
