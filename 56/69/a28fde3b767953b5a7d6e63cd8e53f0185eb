@@ -1,0 +1,1 @@
+YJIT で機械語命令の jg (jump if greater かな?) の生成処理がまだなかったので追加して、これを利用する Integer#<< メソッド呼び出しの最適化を導入、しているかとみせかけてコメントアウトされているっぽいですね。 https://github.com/ruby/ruby/pull/8130
