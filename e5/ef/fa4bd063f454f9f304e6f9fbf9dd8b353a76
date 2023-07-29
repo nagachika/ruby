@@ -1,0 +1,1 @@
+YJIT のメソッド呼び出しで receiver のクラスが多彩で実行コードに納まりきらなかった時の fallback 処理を cef60e93e6db859b47c818f745be809feb04ae48 で導入した dynamic dispatch を利用するように変更しているようです。 https://github.com/ruby/ruby/pull/8125
