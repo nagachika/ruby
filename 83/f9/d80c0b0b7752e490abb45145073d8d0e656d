@@ -1,0 +1,1 @@
+tool/downloader.rb でダウンロード先のファイルが symbolic link でなおかつ指す先のファイルが存在しなくなってた場合にその symbolic link を削除しておくようにしています。 GitHub Actions で cache を利用している場合に symbolic link で共有されていて、タイミングによって指す先が存在していない状態がみえることがあるとかでエラーになることがあるのでその対策みたいです。
