@@ -1,0 +1,1 @@
+vm_opts.h の OPT_SUPPORT_CALL_C_FUNCTION というマクロがもう参照されているところがなくなってたので削除しています。
