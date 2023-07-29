@@ -1,0 +1,1 @@
+regcomp.c の onig_new() で正規表現エンジンの regex_t の生成の処理を同様の処理をしている onig_new_without_alloc() を利用するように変リファクタリングしています。
