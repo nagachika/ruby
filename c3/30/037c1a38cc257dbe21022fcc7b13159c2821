@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトで call cache 用に使われているものの mark 関数で struct rb_callcache::cme_ メンバーを mark しないようにしています。この call cache から mark されてしまうと cache が残っているかぎり Class が削除されず、結果 cache が invalidate されないので Class がメモリリークしてしまうという問題があったようです。コミットの author をみると変な(?) アドレスになってますが committer をみる限りささださんのコミットみたいです。 [ruby-core:112399] [Bug #19436]
