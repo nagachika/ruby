@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で bundler の同期を取る時の処理で .rb.lock ファイルはコピーしないようにしています。
