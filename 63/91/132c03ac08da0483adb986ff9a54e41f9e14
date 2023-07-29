@@ -1,0 +1,1 @@
+c330037c1a38cc257dbe21022fcc7b13159c2821 と直接は関係ないですが struct RBasic::flags のビットフラグの定数マクロ VM_CALLCACH_{IVAR,BF} の typo を修正(CALLCACH → CALLCACHE)。
