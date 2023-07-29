@@ -1,0 +1,1 @@
+YJIT の統計情報にインスタンス変数のセット時に Object Shapes のバリエーションが多すぎて st_table 利用に fallback した時のカウンタ setivar_too_complex を追加しています。 https://github.com/ruby/ruby/pull/8131
