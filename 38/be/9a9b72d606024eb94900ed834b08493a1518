@@ -1,0 +1,1 @@
+Ruby の VM の最適化手法の一種で現在デフォルトでは無効にされている stack caching の実装削除して、これを有効にするための OPT_STACK_CACHING マクロのサポートも削除しています。 https://github.com/ruby/ruby/pull/8132
