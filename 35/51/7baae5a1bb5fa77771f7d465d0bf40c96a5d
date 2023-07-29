@@ -1,0 +1,1 @@
+989f3add62f45d6bf0250810c3c14e2bf22ddb78 に追随して bundler で参照している require 時の警告対象の gem の定数名を変更しています。
