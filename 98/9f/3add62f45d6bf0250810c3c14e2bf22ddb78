@@ -1,0 +1,1 @@
+lib/bundled_gems.rb の bundler の再定義する require で警告を出力する元 default gems の gem の管理する定数を Gem::BUNDLED_GEMS::SINCE と改名して、またネストしたファイルの require も検出して警告するようにしているようです。で gem_prelude.rb から bundled_gems.rb を require しているんですが、これはなぜだろう。
