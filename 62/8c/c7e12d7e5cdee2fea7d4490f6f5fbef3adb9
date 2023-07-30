@@ -1,0 +1,1 @@
+b0f44cfa5da53b90817732cb25b4d3a1cddecb89 の git が古い時の対策のやりなおしで HOME 環境変数も上書きしておくことで古い git でも ~/.gitconfig の上書きを防ぐようにしています。
