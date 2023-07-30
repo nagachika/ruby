@@ -1,0 +1,1 @@
+b0f44cfa5da53b90817732cb25b4d3a1cddecb89 で tool/sync_default_gems.rb のテスト実行時に git のバージョンをチェックしてたのを revert しています。
