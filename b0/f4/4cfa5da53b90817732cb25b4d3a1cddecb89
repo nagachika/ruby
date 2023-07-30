@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb についてのテストで git コマンドを実行するところで git が古いと .gitconfig を指定する GIT_CONFIG_GLOBAL 環境変数に対応していなくて実際に ~/.gitconfig を変更してしまうので skip するようにしています。テスト実行で環境が壊れるため。なるほど昨日ささださんのコミットが Ruby ユーザーになってたのはこのためか。
