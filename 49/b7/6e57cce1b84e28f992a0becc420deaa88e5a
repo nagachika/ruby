@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow に SHARABLE_MIDDLE_SUBSTRING マクロを指定した時のビルドを追加しています。
