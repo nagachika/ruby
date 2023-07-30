@@ -1,0 +1,1 @@
+bcf823fddbe38e0503805a7ba6ded53c1bc1e19d の rubygems の WebAuthn 対応の実装の Thread のフラグ設定方法の変更を revert しています。Thread のクラスメソッドは current thread のみ変更するのではなく全 Thread に設定することになるので。
