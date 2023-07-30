@@ -1,0 +1,1 @@
+rubygems の WebAuthn 対応の実装でレスポンスの content-type ヘッダに charset=utf-8 の指定を追加しています。
