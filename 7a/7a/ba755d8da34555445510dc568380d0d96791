@@ -1,0 +1,1 @@
+c330037c1a38cc257dbe21022fcc7b13159c2821、6391132c03ac08da0483adb986ff9a54e41f9e14 および 6dc15cc8895b28800d5c187929d846ac4eb7cd3f からのさらに追加修正で T_IMEMO 型オブジェクトの GC.compact による参照の移動処理中の callcache の無効化処理で T_MOVED になっている時の対応を追加しています。T_MOVED の時に誤って無効化してしまうことがあったため。
