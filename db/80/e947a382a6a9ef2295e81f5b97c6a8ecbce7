@@ -1,0 +1,1 @@
+023d0f662b4487c2bd6636c4fcf1e223ef4c8b30 からの続きで rubygems の WebAuthn 対応で起動する Thread に abort_on_exception や report_on_exception フラグを立てるのに Thread の外からインスタンスメソッドでセットするのではなく Thread 内で Thread のクラスメソッドを使うようにしてレースコンディションを防いでいます。
