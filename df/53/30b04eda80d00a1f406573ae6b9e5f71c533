@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で文字列が ruby スクリプトとして parse 可能かのチェックに Kernel#eval を利用して BEGIN 節のブロック内で return することで実際に実行はさせないということをしていたのを BEGIN 節内で kernel#throw で抜ける方法に変更しています。 BEGIN 節内の return がちょっと前修正されてたのでその関連ですね。
