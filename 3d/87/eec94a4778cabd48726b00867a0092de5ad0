@@ -1,0 +1,1 @@
+rubyspec に Kernel#eval に BEGIN 節内に return を書いた文字列を渡した時のテストを追加しています。
