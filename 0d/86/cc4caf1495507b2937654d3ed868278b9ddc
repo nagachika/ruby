@@ -1,0 +1,1 @@
+bundler で再定義した require で元 default gems の gem について警告を出す時に渡された引数を文字列に変換するのに to_s を呼ぶかわりに File.path メソッドで文字列化するようにしています。to_path を呼んだほうがいいのでは、とは思ってましたが File.path というメソッドもありましたね。
