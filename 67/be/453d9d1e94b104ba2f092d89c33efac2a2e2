@@ -1,0 +1,1 @@
+db80e947a382a6a9ef2295e81f5b97c6a8ecbce7 で rubygems の WebAuthn 対応のために Thread を起動した時に abort_on_exception/report_on_exception を true にするのを対象の Thread 内で実施するようにしたのが global な変更をしていまっていたので revert されてましたが、対象の Thread 内で Thread.current でその Thread にだけフラグをセットする実装に修正してリトライしています。
