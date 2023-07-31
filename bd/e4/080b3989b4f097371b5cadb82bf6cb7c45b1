@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Context 型に Copy trait をつけていたのをやめて SideExitContext に明示的にコピーを作るメソッドを実装するリファクタリング。 https://github.com/ruby/ruby/pull/8138
