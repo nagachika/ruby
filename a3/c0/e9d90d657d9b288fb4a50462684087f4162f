@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトのテンプレートの Rust 製拡張ライブラリを含む時の Cargo.toml や src/lib.rs で利用する magnus というプロジェクトのバージョンを更新しています。
