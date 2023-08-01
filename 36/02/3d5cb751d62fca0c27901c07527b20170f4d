@@ -1,0 +1,1 @@
+c330037c1a38cc257dbe21022fcc7b13159c2821 からの callcache のメモリリーク修正の一連の変更の続きで callcache の mark をやめた変更の再修正で、super によるメソッド呼び出しのための callcache の場合はやっぱり cme_ の mark が必要だったので条件つきで復活させています。むずかしい。
