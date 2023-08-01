@@ -1,0 +1,1 @@
+Refinements によるメソッドの呼び出し時に inline cache が効くように最適化しています。 [ruby-core:107490] [Bug #18572]
