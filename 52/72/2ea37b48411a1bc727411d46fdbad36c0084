@@ -1,0 +1,1 @@
+defs/gmake.mk で bundled gems 用の timestamp ファイルのファイル名パターンを bundled-gem-revision という変数に定義するリファクタリング?
