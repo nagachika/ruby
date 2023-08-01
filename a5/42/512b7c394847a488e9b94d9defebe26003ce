@@ -1,0 +1,1 @@
+54198c7b97d3d353f7ac233e0360034b6e7b6cb6 で追加された Refinement#refined_class という Refinements 用の Module が using で再定義している Class を返すメソッドを Refinement#target と改名して、元の refined_class は deprecated として呼ぶと警告出力するようにしています。 [ruby-core:113779] [Feature #19714]
