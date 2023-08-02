@@ -1,0 +1,1 @@
+a542512b7c394847a488e9b94d9defebe26003ce で Refinment#refined_class が deprecated 警告を出すようになったのでテストで警告が出ることを確認するように変更しています。
