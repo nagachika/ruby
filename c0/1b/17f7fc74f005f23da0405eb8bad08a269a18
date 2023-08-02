@@ -1,0 +1,1 @@
+b98838b65cbf8fa2d228f9e0249414cba4e3197d の heap の初期 slot 数の設定を slot サイズ別にする変更の続きで、環境変数 RUBY_GC_HEAP_INIT_SLOTS が指定されてない時のデフォルト値を修正しています。
