@@ -1,0 +1,1 @@
+irb の組み込みコマンド show_source から find_source というメソッドを IRB::SourceFinder というクラスに分離して組み込みコマンド edit の実装で ShowSource クラスを参照していたのをこの専用のクラスを利用するようにしています。
