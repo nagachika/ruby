@@ -1,0 +1,1 @@
+bundler の require を再定義する時に Kernel の特異メソッドの require を参照する時に class << 構文を使ってたのを Module#singleton_class を使うようにしています。
