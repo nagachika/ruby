@@ -1,0 +1,1 @@
+構造体 ruby_gc_params_t の heap の最初の slot 数の設定を Variable Width Allocation による slot サイズごとに設定できるようにして、それを指定する環境変数も RUBY_GC_HEAP_INIT_SLOTS から RUBY_GC_HEAP_INIT_SIZE_#_SLOTS でスロットサイズごとに指定できるようにしています(元の環境変数も有効で全てのスロットサイズをまとめて設定する)。
