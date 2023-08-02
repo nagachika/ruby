@@ -1,0 +1,1 @@
+parse.y の obj::meth のように "::" を使ったメソッド呼び出し時に ripper 用のアクションで ID2VAL(idCOLON2) で "::" を Symbol 化したオブジェクトを返していたのを規則部の tCOLON2 のノード? そのものを渡すように修正しています。Ripper#parse などでトークンとして取得できてなかったのを修正。 [ruby-core:114310] [Bug #19788]
