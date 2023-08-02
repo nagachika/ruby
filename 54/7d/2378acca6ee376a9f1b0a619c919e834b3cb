@@ -1,0 +1,1 @@
+GC.compact のテストで assertion の書きかたを修正しています。
