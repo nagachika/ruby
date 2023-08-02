@@ -1,0 +1,1 @@
+YJIT の macOS 上でのバックトレース取得時に Rust の出力する DWARF のフォーマットの扱いの問題で異常終了していたのを修正しているようです。 https://github.com/ruby/ruby/pull/8146 [ruby-core:114315] [Bug #19789]
