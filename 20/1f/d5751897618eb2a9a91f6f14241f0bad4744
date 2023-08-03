@@ -1,0 +1,1 @@
+irb でもう使っていない IRB.default_src_encoding というメソッドを定義していた lib/irb/src_encoding.rb というファイルを削除しています。
