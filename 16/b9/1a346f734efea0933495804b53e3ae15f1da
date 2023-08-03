@@ -1,0 +1,1 @@
+YJIT によるインスタンス変数の代入時の処理で Object Shapes による管理できる shape の上限に逹っした時の fallback 処理を JIT  コードで実装して side exit しないようにしているようです。 https://github.com/ruby/ruby/pull/8152
