@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で patch.exe コマンドのパスを調べる処理を汎用の step として追加しています。
