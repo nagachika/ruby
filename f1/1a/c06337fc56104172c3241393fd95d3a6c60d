@@ -1,0 +1,1 @@
+irb の組み込みコマンドにはカテゴリというのがあるようですが(そうだっけ)一部のコマンド(chws, pushws, popws)のカテゴリを Workspace に変更しています。 https://github.com/ruby/irb/pull/661
