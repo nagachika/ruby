@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#pread メソッドを新規追加しています。 NEWS への追記が必要ですね。あとチケットがみつからないけどこれ議論はしたんだろうか(入るのは問題ないとは思うけど)。 https://github.com/ruby/ruby/pull/56
