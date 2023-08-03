@@ -1,0 +1,1 @@
+YJIT のビルドのための make yjit-bindgen ターゲットで yjit/src/cruby_bindings.inc.rs に変化があるかどうかチェックするところで差分があってもエラーにはしないようにしています。ただし GitHub Actions の YJIT 有効にした workflow では環境変数でオプション追加してエラーになるようにチェックしています。 https://github.com/ruby/ruby/pull/8156
