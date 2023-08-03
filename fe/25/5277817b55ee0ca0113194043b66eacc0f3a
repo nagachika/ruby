@@ -1,0 +1,1 @@
+同じく 15e8cf7ad95f5ea9ec95783e85a9ac5943f020f4 の続きで拡張ライブラリ fiddle のまた別のソースファイルで stdbool.h という標準ヘッダの #include を追加しています。
