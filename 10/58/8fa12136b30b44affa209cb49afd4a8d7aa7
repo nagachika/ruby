@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のヘッダファイルで #if HAVE_LONG_LONG で preprocessor の分岐していたのを #ifdef を使うように修正しています。
