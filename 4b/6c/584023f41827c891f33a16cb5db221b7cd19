@@ -1,0 +1,1 @@
+assert_separately を利用しているテストで呼び元で --disable-gems を指定しているところを削除しています。 assert_separately 自身が --disable-gems をオプションに追加するので呼び元で指定する必要はなかったので。
