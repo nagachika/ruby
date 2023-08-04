@@ -1,0 +1,1 @@
+hash.c の RHASH_AR_TABLE_BOUND() という ar 実装の時の Hash の埋め込みテーブルのサイズを取り出すマクロを inline 関数の変更して、結果が RHASH_AR_TABLE_MAX_SIZE を越えないことを確認する HASH_ASSERT() による assertion を追加しています。
