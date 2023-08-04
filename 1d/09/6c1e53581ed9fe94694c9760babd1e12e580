@@ -1,0 +1,1 @@
+スクリプトのトップレベルで require した時に積まれるダミーの control frame がある状態で require の処理中に Object#method_missing が再定義されていてそこで例外発生した場合? に SEGV する不具合があったのを修正しています。例外作成時にその時点の iseq を取得する処理で dummy frame に対応するようにしています。 [ruby-core:114328] [Bug #19793]
