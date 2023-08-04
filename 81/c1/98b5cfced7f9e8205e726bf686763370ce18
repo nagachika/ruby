@@ -1,0 +1,1 @@
+YJIT で JIT したコードの利用をあきらめる side exit のメソッド起動時のカウンタ群の改名。 https://github.com/ruby/ruby/pull/8159
