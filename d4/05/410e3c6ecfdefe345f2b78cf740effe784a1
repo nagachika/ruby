@@ -1,0 +1,1 @@
+YJIT のために定義されていた定数マクロ ROBJECT_OFFSET_AS_XXX 類を yjit.c で enum として定義して Rust 実装から import するようにしています。 https://github.com/ruby/ruby/pull/8157
