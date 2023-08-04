@@ -1,0 +1,1 @@
+addr2line.c の debug_info_reader_read_addr_value() というマクロでデバッグ情報の解析に失敗した時のエラー処理を追加しています。
