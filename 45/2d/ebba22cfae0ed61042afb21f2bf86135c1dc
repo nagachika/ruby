@@ -1,0 +1,1 @@
+YJIT の JIT コンパイルしたコードの disasm を表示する時のコントロールシーケンスによる色付けを修正しています。 https://github.com/ruby/ruby/pull/8158
