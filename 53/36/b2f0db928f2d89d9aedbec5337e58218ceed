@@ -1,0 +1,1 @@
+cont.c の rb_fiber_start() で EC_PUSH_TAG()/EC_POP_TAG() のセクションの前後をまたいで初期化と利用をしていたローカル変数の初期化を EC_POP_TAG() の後に移動しています。longjmp() による clobber の警告抑制のためかな。
