@@ -1,0 +1,1 @@
+irb の組み込みコマンドのうち sub irb を起動する系のコマンド(irb, fg, jobs, kill)を deprecated にしています。
