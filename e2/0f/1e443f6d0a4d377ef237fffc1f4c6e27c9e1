@@ -1,0 +1,1 @@
+YJIT のインスタンス変数代入の処理時に T_OBJECT 型以外のオブジェクトで Object Shapes の shape 数制限を越えてた時の処理を YJIT が生成するコードで対応していたのを迂回するようにしています。 https://github.com/ruby/ruby/pull/8160
