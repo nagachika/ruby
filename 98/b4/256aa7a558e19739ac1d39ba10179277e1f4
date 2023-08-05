@@ -1,0 +1,1 @@
+3b88a0bee841aee77bee306d9d34e587561515cf の配列を展開して代入する処理の YJIT での不具合修正が fd782dcd1e52326d81c5a776acfff362609df2f7 で revert されていたもののリトライ。今回は bootstraptest/test_yjit.rb に ruby スクリプトレベルのテストも追加されているのでやはり配列を展開して代入する時に配列サイズより左辺の代入先のほうが多かった時の問題だとわかります。 https://github.com/ruby/ruby/pull/8161
