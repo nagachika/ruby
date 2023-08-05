@@ -1,0 +1,1 @@
+gc_mode_transition の gc_mode_transition() の不要な前方宣言を削除しています。
