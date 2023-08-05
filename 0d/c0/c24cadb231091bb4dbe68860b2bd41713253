@@ -1,0 +1,1 @@
+8ecd300e1e51f9e56bf22a8c4fb64ef475612914 で irb のテストをリファクタリングした時にテストクラスの親クラスとして導入した IntegrationTestCase というクラスに TestCase を継承させるのを忘れていたのを修正しています。 https://github.com/ruby/irb/pull/667
