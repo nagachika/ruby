@@ -1,0 +1,1 @@
+YJIT で x86_64 版のときに使える jb 命令(数値が指定より小さかった時の条件つきジャンプ命令)の対応を追加しています。 arm64 では使おうとした場合 side exit するようです。 https://github.com/ruby/ruby/pull/8168
