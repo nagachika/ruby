@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で bundler の再定義する require で警告を出す対象の gem を検出する処理で一部のネストしたファイルを require している時に true でなくその対象の gem 名を返すように修正しています。
