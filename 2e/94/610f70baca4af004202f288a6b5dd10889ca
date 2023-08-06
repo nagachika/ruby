@@ -1,0 +1,1 @@
+e80752f9bbc5228dba3066cd95a81e2e496bd9d7 の WASM/WASI 版の変更を revert しています。WASM 版では YJIT や RJIT は常に無効なので jit_exec() は Qundef を返すように定義されるので最適化で消されるとのこと。
