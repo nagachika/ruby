@@ -1,0 +1,1 @@
+universal parser の構造体 rb_parser_config_t のメンバー rb_int2big が未使用とのことで削除しています。
