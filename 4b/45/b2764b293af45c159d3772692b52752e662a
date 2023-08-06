@@ -1,0 +1,1 @@
+GC.compact の後処理で VM スタックとマシンスタック上のオブジェクトで T_MOVED になっているものについて invalidate_moved_page() を呼ぶ処理は不要とのことで削除しています。
