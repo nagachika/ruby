@@ -1,0 +1,1 @@
+bundler の再定義した require で警告を出す対象の gem の管理をする lib/bundled_gems.rb で出力する警告でいつから bundled gems になるかによって少しメッセージを変更するようにしています。
