@@ -1,0 +1,1 @@
+irb のテストで子プロセス起動時に渡す環境変数の管理方法を変更しています。 https://github.com/ruby/irb/pull/668
