@@ -1,0 +1,1 @@
+よくわからないのですが YJIT の VM 命令 expandarray の最適化? みたいです。 https://github.com/ruby/ruby/pull/8169
