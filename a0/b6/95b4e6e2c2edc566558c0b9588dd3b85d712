@@ -1,0 +1,1 @@
+bundler の require の再定義のための lib/bundler/rubygems_integration.rb でも同様に将来 bundled gems 化がいつ行なわれるかによってメッセージを変更するようにしています。
