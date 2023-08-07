@@ -1,0 +1,1 @@
+e80752f9bbc5228dba3066cd95a81e2e496bd9d7 のリトライの e176f84138ff4fc5f7442cc969a281aeb714e7bd のさらに再変更で WASM/WASI 環境で jit_exec() をマクロとして定義して Qundef を返させるようにしています。
