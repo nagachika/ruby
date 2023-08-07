@@ -1,0 +1,1 @@
+gc.c の GC_CAN_COMPILE_COMPACTION というマクロ定義を前のほうに移動して heap_add_pages() と invalidate_moved_plane() という関数の定義もこのマクロが真のときだけ定義するようにしています。未使用関数の警告抑制のためかな。
