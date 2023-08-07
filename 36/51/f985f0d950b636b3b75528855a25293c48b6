@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems のリポジトリからの同期時にトップレベル直下にコピーしないようにしています。
