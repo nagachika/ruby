@@ -1,0 +1,1 @@
+eval_intern.h の EC_EXEC_TAG() マクロで ruby_setjmp() の戻り値について UNLIKELY() マクロを追加して最適化へのヒントを与えています。また rb_ec_tag_state() と rb_ec_tag_jump() で enum ruby_tag_type の引数に意味のある値が渡されていることを確認する RBIMPL_ASSUME() や RUBY_ASSERT() を追加しています。
