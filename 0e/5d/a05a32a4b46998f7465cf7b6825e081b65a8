@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で yarp の upstream からの同期の時に yarp/enc/ の配下のファイル名の先頭に "yp_" を追加していたところで元々 "yp_" がついていた場合は追加しないようにしています。
