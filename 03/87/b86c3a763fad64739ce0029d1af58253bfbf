@@ -1,0 +1,1 @@
+irb の未使用のメソッドの削除。 https://github.com/ruby/irb/pull/635
