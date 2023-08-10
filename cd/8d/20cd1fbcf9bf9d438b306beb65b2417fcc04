@@ -1,0 +1,1 @@
+詳細読めてませんが YJIT で例外処理(rescue/ensure 節?)の JIT コンパイル対応を追加しているみたいです。今までは対応してなかったのか。追加されているテストをみると rescue 節ではなくて break/next などのブロックからの脱出する制御文を含むメソッドの対応かも? https://github.com/ruby/ruby/pull/8171
