@@ -1,0 +1,1 @@
+gc.c の rgengc_remembered() と rgengc_remembered_sweep() という static 関数を削除してかわりに RVALUE_REMEMBERED() という関数を直接利用するように変更しています。
