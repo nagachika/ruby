@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版で HomeBrew の brew upgrade の実行を削除しています。最新版でうまくビルドが通らなくなっているため。また brew upgrade する必要ないんじゃない? ということもあるようです。 https://github.com/ruby/ruby/pull/8189
