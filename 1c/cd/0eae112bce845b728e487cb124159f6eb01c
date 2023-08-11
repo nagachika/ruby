@@ -1,0 +1,1 @@
+YJIT で respond_to? でメソッド名が呼ぶ度に異なる時に side-exit していたのを jit_chain_guard() を呼んで複数の候補を受付けるようにしています。 https://github.com/ruby/ruby/pull/8196
