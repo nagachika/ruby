@@ -1,0 +1,1 @@
+YJIT の統計情報のカウンタに定数のキャッシュ解決に関する項目を追加しています。 https://github.com/ruby/ruby/pull/8187
