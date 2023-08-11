@@ -1,0 +1,1 @@
+5bc8fceca8d47ed1ef9c603c6531a408de36b60c の再修正。構造体 struct vtable のリストを辿って解放するようにしています。 [ruby-core:114379] [Bug #19836]
