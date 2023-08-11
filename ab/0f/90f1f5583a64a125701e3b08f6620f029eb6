@@ -1,0 +1,1 @@
+irb で組み込みコマンド irb で sub-irb を起動した時にヒストリ保存の処理が重複するのを防ぐように修正しています。 https://github.com/ruby/irb/pull/652
