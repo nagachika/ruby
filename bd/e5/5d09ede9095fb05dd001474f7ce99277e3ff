@@ -1,0 +1,1 @@
+common.mk の make test-syntax-suggest ターゲットの依存関係の $(PREPARE_SYNTAX_SUGGEST) の前に "yes-" という prefix をつけてたのをやめて変数の宣言自体のほうに $(TEST_RUNNABLE)- の prefix を入れておくようにしています。 make 実行時に PREPARE_SYNTAX_SUGGEST 変数を指定することで prepare の実行を抑制できるようにするため?
