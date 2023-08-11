@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で表示する統計情報のカウンタ send_iseq_has_rest_and_send を send_iseq_has_rest_and_splat に改名しています。 https://github.com/ruby/ruby/pull/8186
