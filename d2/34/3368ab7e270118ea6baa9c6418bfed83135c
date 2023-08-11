@@ -1,0 +1,1 @@
+Kernel#open のパスの先頭に "|" を渡して popen 相当の挙動をする処理を deprecated にして警告を出力しています。 4.0 からは削除する予定みたいです。 [ruby-core:113407] [Feature #19630]
