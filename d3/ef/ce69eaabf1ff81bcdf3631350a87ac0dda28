@@ -1,0 +1,1 @@
+YJIT の統計情報のカウンタに throw/break/retry/return などの制御文のカウンタを追加しています。 https://github.com/ruby/ruby/pull/8188
