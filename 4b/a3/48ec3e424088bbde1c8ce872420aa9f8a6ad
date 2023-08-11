@@ -1,0 +1,1 @@
+bde55d09ede9095fb05dd001474f7ce99277e3ff の続きで common.mk の make test-syntax-suggest の実行時に rspec のオプションに --require rspec/expectations を追加するようにしています。最近の変更で明示的に指定しないとうまくロードされなくなってしまっていたみたいなので応急処置的な対応みたいです。
