@@ -1,0 +1,1 @@
+ab0f90f1f5583a64a125701e3b08f6620f029eb6 で追加した irb のテストを ruby 本体でのテスト時には skip するようにしています。 https://github.com/ruby/irb/pull/675
