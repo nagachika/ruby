@@ -1,0 +1,1 @@
+YJIT で VM 命令 invokesuper や invokeblock で起動する method entry の候補が複数あってもすぐにあきらめずに chain して対応するようにしています。 https://github.com/ruby/ruby/pull/8197
