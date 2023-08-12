@@ -1,0 +1,1 @@
+Universal Parser の構造体 rb_parser_config_t のメンバー rb_fix2int と rb_rational_raw というのを削除しています。
