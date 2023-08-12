@@ -1,0 +1,1 @@
+YJIT の中間表現に mul 命令を追加しているようです。 https://github.com/ruby/ruby/pull/8195
