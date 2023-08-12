@@ -1,0 +1,1 @@
+5397fc315a1c203cf9978d100db08680dcc0bb57 や 8fbb79f49ec94d48b5ef29bf53b12cbcd24c4bb6 のさらに続き? で make test-bundler-parallel の実行時のみ準備を行うようにしているようです。
