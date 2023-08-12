@@ -1,0 +1,1 @@
+GitHub Actions の YJIT のテストを実施する workflow で make に変数 YJIT_BINDGEN_DIFF_OPTS の指定を渡すようにしています。
