@@ -1,0 +1,1 @@
+make test-syntax-suggest や make leaked-globals で GitHub Actions で表示を折り畳むためにコマンドに $(ACTIONS_GROUP) と $(ACTIONS_ENDGROUP) を追加しています。
