@@ -1,0 +1,1 @@
+5397fc315a1c203cf9978d100db08680dcc0bb57 の再修正で common.mk の make check の依存関係に $(PREPARE_SYNTAX_SUGGEST) を再度追加して(ただし $(TEST_RUNNABLE)- の展開による yes-/no- は削っている)、defs/gmake.mk でテスト系のターゲットの実行順序を整理するところで prefix に no- がついているターゲットは削除するように? しています。
