@@ -1,0 +1,1 @@
+yjit/src/cruby_bindings.inc.rs の関数 rb_yjit_set_exception_return() のシグネチャを修正しています。
