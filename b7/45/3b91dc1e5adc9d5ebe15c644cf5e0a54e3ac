@@ -1,0 +1,1 @@
+template/Makefile.in で ruby や miniruby のビルド時の $(CC) の引数に $(LIBS) を渡していたのを削除しています。 $(MAINLIBS) に含まれているので冗長とのこと。 [ruby-core:114345] [Bug #19831]
