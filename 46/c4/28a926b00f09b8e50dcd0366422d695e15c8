@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow と AppVeyor でのテスト実行時のオプションから -v や -V -fspec などを削っています。出力を減らすためみたいです。
