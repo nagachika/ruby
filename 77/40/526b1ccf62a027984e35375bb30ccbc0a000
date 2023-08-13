@@ -1,0 +1,1 @@
+構造体 rb_control_frame_t のメンバーのレイアウトを変更して jit_return と bp_check の順序を入れ替えています。 VM_DEBUG_BP_CHECK マクロの有無で jit_return のオフセットが変わってまぎらわしいのでということみたいです。
