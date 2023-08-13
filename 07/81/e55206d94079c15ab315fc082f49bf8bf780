@@ -1,0 +1,1 @@
+irb の構文解析のノード種別を判定するための定数を lib/irb.rb から lib/irb/ruby-lex.rb に移動しています。 https://github.com/ruby/irb/pull/670
