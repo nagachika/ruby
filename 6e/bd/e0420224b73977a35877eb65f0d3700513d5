@@ -1,0 +1,1 @@
+spec/README.md で make test-spec にオプションを渡すための変数名が MSPECOPT と書かれてたのが古かったみたいで SPECOPTS に修正しています。 doc/contributing/testing_ruby.md にも同様の変数名が書かれていたので修正しています。
