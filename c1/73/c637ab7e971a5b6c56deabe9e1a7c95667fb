@@ -1,0 +1,1 @@
+irb のテストで ruby 本体でのテスト時に skip する処理をヘルパーメソッドに移動しています。 https://github.com/ruby/irb/pull/677
