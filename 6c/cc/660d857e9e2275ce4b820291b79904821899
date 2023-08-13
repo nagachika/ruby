@@ -1,0 +1,1 @@
+Array の rdoc 用コメントでクラス名をエスケープして cross reference 生成するのを抑制していたのをやめています。 https://github.com/ruby/ruby/pull/8207
