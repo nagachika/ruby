@@ -1,0 +1,1 @@
+Travis-CI での make test-spec 実行時も -ff オプションを渡すのを削っています。 b377793b6e445ab007e14b51e38260e8613ce843 で追加した DottedFormatter が利用されるようにするためみたいです。
