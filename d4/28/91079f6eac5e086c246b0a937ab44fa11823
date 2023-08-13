@@ -1,0 +1,1 @@
+irb の構文解析時に不要な空白を削る処理を不要としてなくしています。 https://github.com/ruby/irb/pull/678
