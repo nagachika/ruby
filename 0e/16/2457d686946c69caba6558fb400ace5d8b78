@@ -1,0 +1,1 @@
+同じく String の rdoc 用コメントでもクラス名の cross reference にならないようエスケープしていたのを消しています。 https://github.com/ruby/ruby/pull/8208
