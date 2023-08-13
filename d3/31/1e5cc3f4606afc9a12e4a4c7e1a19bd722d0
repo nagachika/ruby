@@ -1,0 +1,1 @@
+irb の IRB::Color モジュールに BLACK と WHITE の定数を追加しています。 https://github.com/ruby/irb/pull/676
