@@ -1,0 +1,1 @@
+YJIT で VM 命令 expandarray 命令の型の違いに対応する数の上限を 2 から 4 に増やしています。 https://github.com/ruby/ruby/pull/8205
