@@ -1,0 +1,1 @@
+irb の IRB::ReadlineInputMethod および IRB::RelineInputMethod の親クラスを IRB::InputMethod からその子クラスの IRB::StdioInputMethod に変更しています。一部重複したメソッド定義をこのクラスからの継承にまかせて削除しています。   https://github.com/ruby/irb/pull/671
