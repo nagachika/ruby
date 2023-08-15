@@ -1,0 +1,1 @@
+irb の debug.gem のサポートを強化しています。 IRB::Debug モジュールを追加して Thread 管理まわりを協調するようにしているそうです。 https://github.com/ruby/irb/pull/575
