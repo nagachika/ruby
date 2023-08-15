@@ -1,0 +1,1 @@
+irb の configure_io メソッドを IRB::RubyLex から IRB::Irb へ移動するリファクタリング。 https://github.com/ruby/irb/pull/681
