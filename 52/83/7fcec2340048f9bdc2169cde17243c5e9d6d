@@ -1,0 +1,1 @@
+tracepoint.rb の TracecPoint クラスの rdoc 用コメントのための Document-class: は不要なので削除しています。
