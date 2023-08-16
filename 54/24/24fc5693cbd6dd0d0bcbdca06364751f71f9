@@ -1,0 +1,1 @@
+test/lib/!Nothing_to_test.rb というファイルを追加しています。よくわかりませんが RubyCI 用のビルド&テストツール chkbuild で必要になるとのこと。
