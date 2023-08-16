@@ -1,0 +1,1 @@
+YJIT の Kernel#instance_of? メソッドの専用処理でクラスが不一致の時に side exit してたのを複数の候補に対応するように jit_chain_guard() の呼び出しに変更しています。 https://github.com/ruby/ruby/pull/8209
