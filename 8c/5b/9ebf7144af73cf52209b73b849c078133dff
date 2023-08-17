@@ -1,0 +1,1 @@
+rdoc 用コメントでクラス名のエスケープを削除しています。 https://github.com/ruby/ruby/pull/8221
