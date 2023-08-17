@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::OPENSSL_VERSION_NUMBER と OpenSSL::LIBRESSL_VERSION_NUMBER の rdoc 用コメントの強化と追加。
