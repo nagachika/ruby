@@ -1,0 +1,1 @@
+GC の rdoc 用コメントの不要な cross reference 抑制や GC::INTERNAL_CONSTANTS の説明の追記。
