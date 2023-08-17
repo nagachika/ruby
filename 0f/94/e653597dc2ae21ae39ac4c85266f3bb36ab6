@@ -1,0 +1,1 @@
+GC.stat_heap の返す Hash に項目 :force_incremental_marking_finish_count というのを追加して対象の heap に空 page がない時のカウンタを返すようにしています。
