@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで OpenSSL::OPENSSL_VERSION_NUMBER 定数を参照してリンクしている OpenSSL のバージョンで分岐していたところを専用の openssl? メソッドを利用するようにリファクタリングしています。
