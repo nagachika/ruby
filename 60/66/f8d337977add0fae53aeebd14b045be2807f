@@ -1,0 +1,1 @@
+GitHub Actions のセットアップ用の独自 action の実装でタイムスタンプファイル .rbconfig.time の作成のファイル名を typo していたのを修正しています。
