@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL::SSL::SSLContext#setup の実行時に証明書ファイルの特定に失敗した時に警告を出すだけだったのを例外を発生させるようにしています。 https://github.com/ruby/openssl/issues/649
