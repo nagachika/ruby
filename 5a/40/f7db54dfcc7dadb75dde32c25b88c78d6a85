@@ -1,0 +1,1 @@
+irb の構文解析に関する処理の一部を IRB::Statement クラスに分離するリファクタリング。 https://github.com/ruby/irb/pull/682
