@@ -1,0 +1,1 @@
+GC.stat_heap の rdoc 用コメントの memory pool という語彙を heap と改名しています。
