@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPHeader#content_type でメソッド呼び出しの繰り返しを防ぐため結果をローカル変数に入れる最適化。
