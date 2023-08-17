@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の lib/net/http/header.rb の magic comment frozen_string_literal を false から true に変更しています。
