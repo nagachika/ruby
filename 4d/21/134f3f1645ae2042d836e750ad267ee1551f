@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の残りのファイルも magic comment frozen_string_literal を false から true に変更しています。
