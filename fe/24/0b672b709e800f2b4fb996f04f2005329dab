@@ -1,0 +1,1 @@
+bundler の例外クラス Bundler::Fetcher::AuthenticationForbiddenError というのを追加してインデックス作成時の HTTP ステータスの 403 Forbidden に対応するようにしているようです。
