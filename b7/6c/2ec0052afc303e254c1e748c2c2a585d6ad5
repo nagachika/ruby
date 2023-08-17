@@ -1,0 +1,1 @@
+GitHub Actions の表示の畳み対応で [group]/[endgroup] を使ってたのを ::group::/::endgroup:: という記法を使うようにしています。
