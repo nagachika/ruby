@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の lib/net/http/generic_request.rb の magic comment frozen_string_literal を false から true に変更しています。一部破壊的変更が必要な文字列は String.new で作るようにしています。
