@@ -1,0 +1,2 @@
+yarp の upstream の変更のマージ。以降 yarp の upstream の変更の cherry-pick と思われる変更が続きますが内容には触れず "yarp の変更" とだけ記述します。
+ちなみにこのコミットの変更はコミットログによると拡張ライブラリの位置の変更だそうですが ruby 本体には lib/yarp.rb での require の変更だけが入ってて extconf.rb の変更などは入ってないので不足してそう。
