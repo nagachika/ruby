@@ -1,0 +1,1 @@
+ObjectSpace.trace_object_allocations_start とかおそらく TracePoint でも? スクリプトの行番号が誤って前のトークンのものになる場合がある不具合の修正として、VM 命令の leaf という属性を持つものの場合 pc をインクリメントしないという最適化をしていたのをやめているようです。 https://github.com/ruby/ruby/pull/8232 [ruby-core:112534] [Bug #19456]
