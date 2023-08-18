@@ -1,0 +1,1 @@
+template/Makefile.in で $(PROGRAM) (つまり ruby) のビルド時のコンパイラオプションに $(MAINLIBS) を指定してたのを削除しています。 $(MAINLIBS) は $(LIBRUBYARG) に含まれているので重複した指定になっていたため。 b7453b91dc1e5adc9d5ebe15c644cf5e0a54e3ac の続きというか追加修正みたいです。 [ruby-core:114345] [Bug #19831]
