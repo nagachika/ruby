@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の default gems の upstream からの同期処理で yarp の同期時に不要なファイルを消す処理を強化しているようです。 ただどうも 83718b6bb299c483e60a638ccce98bc8ae1665a1 で set のテストの同期を修正した変更の revert も一緒にコミットされてしまっているようです。
