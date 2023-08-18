@@ -1,0 +1,1 @@
+c5dad5f1d74e4d1acbae943e00a9465a7c921fa5 の yarp 向けの tool/sync_default_gems.rb の変更で標準添付ライブラリ set のテストの同期処理の変更が revert されてしまっていたのを元に戻しています。
