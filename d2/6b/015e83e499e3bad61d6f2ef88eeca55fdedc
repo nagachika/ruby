@@ -1,0 +1,1 @@
+b7453b91dc1e5adc9d5ebe15c644cf5e0a54e3ac および 5bb946228550c7f171c27725860b153a675404f3 のさらに続きで configure で darwin (macOS) の時に --enable-shared 指定されてたら EXTDLDFLAGS に '$(LIBRUBYARG_SHARED)' を指定していたのもやめています。  $(LIBS) の参照だけで充分なのでこれも重複してたのを省くためみたいです。  [ruby-core:114345] [Bug #19831]
