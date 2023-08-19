@@ -1,0 +1,1 @@
+52506cbf516da1a606fad6a6779ab6136c4f353b と同様に rb_objspace_t::total_freed_objects という構造体メンバを rb_size_pool_t::total_freed_objects に移動して slot サイズ別の heap ごとにカウンタを持つようにして、GC.stat_heap に :total_freed_objects という項目を追加しています。
