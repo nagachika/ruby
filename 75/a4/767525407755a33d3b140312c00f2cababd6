@@ -1,0 +1,1 @@
+bundler で Gemfile の ruby のバージョン指定に .ruby-version ファイル を指定するオプションの対応を追加しています。
