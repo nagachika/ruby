@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の yarp の更新時に無視するファイルのパターンの正規表現から .gitignore と .github/ のぶんは .git.* で吸収されるので削除しています。
