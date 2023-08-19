@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の実装で入力の末尾の改行コードを削除する処理で String#chomp! メソッドを rb_funcall() で呼んでたところで引数に $/ の値(rb_default_rs) を明示的に渡すようにしています。
