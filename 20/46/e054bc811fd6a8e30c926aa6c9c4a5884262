@@ -1,0 +1,1 @@
+common.mk の yarp の自動生成ファイルのルールなどのところで {$(VPATH)} を利用するようにしています。 Windows の nmake のためかと思ったら OpenBSD 向けだそうです。
