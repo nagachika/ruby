@@ -1,0 +1,1 @@
+YJIT の VM 命令 setlocal での side exit 抑制のために複数のクラス候補に対応する対応を追加。 https://github.com/ruby/ruby/pull/8227
