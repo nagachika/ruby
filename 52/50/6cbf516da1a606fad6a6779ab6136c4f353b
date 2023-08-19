@@ -1,0 +1,1 @@
+rb_objspace_t::total_allocated_objects という構造体メンバーを rb_size_pool_t::total_allocated_objects に移動しています。 Variable Width Allocation による slot サイズの異なる heap 毎にカウントして必要な時に総和を取るようにしています。これに伴ない GC.stat_heap の返す Hash に total_allocated_objects という項目を追加しています。
