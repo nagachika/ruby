@@ -1,0 +1,1 @@
+rubygems のパッケージファイルの解析処理で意図せず EOF があった時に Gem::Package::FormatError 例外を発生させて不正なパッケージとして検出できるようにしています。これまで使ってた UnexpectedEOF という例外クラスは削除しています。
