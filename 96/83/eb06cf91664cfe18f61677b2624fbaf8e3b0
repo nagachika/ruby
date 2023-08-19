@@ -1,0 +1,1 @@
+YJIT の respond_to? の実装で rb_f_notimplement() 関数によってメソッド定義されているメソッドの場合に false を返すようにする対応を追加しています。
