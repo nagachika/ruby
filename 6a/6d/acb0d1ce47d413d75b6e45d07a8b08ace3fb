@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の upstream からの cherry-pick 処理での conflict 解消の処理に yarp 向けの新規ファイル追加時のセクションを追加しています。
