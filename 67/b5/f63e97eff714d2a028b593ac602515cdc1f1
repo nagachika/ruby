@@ -1,0 +1,1 @@
+yarp のソースコードのうち自動生成するものはコミットせずに common.mk に生成するルールを対あしています。 https://github.com/ruby/ruby/pull/8228
