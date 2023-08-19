@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で IO#getpass メソッドが定義できるかどうか ENABLE_IO_GETPASS というマクロで分岐していたのを消して常に定義するようにしています。
