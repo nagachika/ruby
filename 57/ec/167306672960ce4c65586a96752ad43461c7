@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の yarp の同期時に無視するファイルのパターンに rust/ ディレクトリ配下のファイルを追加しています。
