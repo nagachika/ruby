@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で yarp の yharp/enc/ 配下のファイルに yp_ という prefix を追加する処理を書いてたのが不要になったみたいで削除しています。
