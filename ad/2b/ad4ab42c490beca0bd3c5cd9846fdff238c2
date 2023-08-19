@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream から cherry-pick する処理で rubygems の場合に自動的に conflict 解消を試す処理を conflict がない時に通らないようにしています。
