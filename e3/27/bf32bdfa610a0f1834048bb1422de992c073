@@ -1,0 +1,1 @@
+win32/Makefile.sub にも yarp の自動生成されるファイル群のためのルールを追加しています。 https://github.com/ruby/ruby/pull/8244
