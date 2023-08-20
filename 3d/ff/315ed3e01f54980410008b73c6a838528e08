@@ -1,0 +1,1 @@
+YJIT の --yjit-stats オプションの指定時に引数を受付けて false が指定されると side-exit の場所のファイルへのダンプのみ実施して統計情報の出力はしないようにしています。 https://github.com/ruby/ruby/pull/8251
