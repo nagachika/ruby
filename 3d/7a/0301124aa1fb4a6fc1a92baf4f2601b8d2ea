@@ -1,0 +1,1 @@
+bundler の Gemfile の ruby メソッドに追加した file オプションのファイルパスを絶対パスに解決するようにしています。 https://github.com/rubygems/rubygems/issues/6742
