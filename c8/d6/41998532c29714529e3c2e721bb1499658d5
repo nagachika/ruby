@@ -1,0 +1,1 @@
+array.c の ary_make_partial() で if 文の分岐内でそれぞれ return してたのを if 文の後でまとめて return するようにリファクタリングしています。
