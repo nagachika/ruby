@@ -1,0 +1,1 @@
+rb_fstring() で struct RBasic::flags の STR_NOEMBED のビットフラグ有無をチェックしてたところでその前で STR_EMBED_P() でチェックして return しているので不要というか常に負になってしまっていたので STR_SHARED_ROOT についてだけチェックしています。
