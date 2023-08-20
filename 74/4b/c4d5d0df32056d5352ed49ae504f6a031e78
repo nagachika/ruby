@@ -1,0 +1,1 @@
+rubygems の gem の specification で license の項目が nil なのを許容するようにしています。
