@@ -1,0 +1,1 @@
+bundler の BUndler::Settings#local_overrides で正規表現によるマッチのかわりに String#start_with? を使うようにしています。
