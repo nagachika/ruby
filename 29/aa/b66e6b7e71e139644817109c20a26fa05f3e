@@ -1,0 +1,1 @@
+bundler の Bundler::Settings#converted_value で引数の key を先に to_s で文字列化しておくようにしています。
