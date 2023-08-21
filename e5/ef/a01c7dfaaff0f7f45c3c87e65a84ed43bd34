@@ -1,0 +1,1 @@
+921c2bba4e4f0bb89d9ff354c05a176174586064 の bundler の Bundler::Settings#initialize で ENV.to_hn の結果を破壊的メソッド利用するようにした時についでに正規表現のかわりに String#start_with? を使うようにしていましたが、そのため従来は弾けていた "BUNDLE_" のみという変数名が通ってしまっていたのであらためて削るようにしています。
