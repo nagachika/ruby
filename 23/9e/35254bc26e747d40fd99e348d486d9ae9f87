@@ -1,0 +1,1 @@
+bundler の Bundler::Settings#to_bool で case 文の when 節に正規表現を置いてたのを引数が String 型かどうかを先に when 節で確認してその時だけ正規表現マッチを試すように最適化しています。不要な MatchData オブジェクトの生成を抑制するため。
