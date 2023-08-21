@@ -1,0 +1,1 @@
+rubygems のテストで assert_raises を利用していたところを assert_raise に変更しています。
