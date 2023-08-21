@@ -1,0 +1,1 @@
+Marshal.dump の実装で利用している構造体 struct dump_arg の num_entries の型を unsigned long から st_index_t に修正しています。
