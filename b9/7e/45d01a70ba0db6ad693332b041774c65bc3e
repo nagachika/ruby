@@ -1,0 +1,1 @@
+同じく bundler の Bundler::Settings#all の実装で map のかわりに破壊的変更する map! を利用することで中間オブジェクト生成を抑制しています。
