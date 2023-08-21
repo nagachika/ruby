@@ -1,0 +1,1 @@
+bundler で ENV.to_h の結果に #select のかわりに #select! を呼んで不要な中間オブジェクトの生成を抑制しています。
