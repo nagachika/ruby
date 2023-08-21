@@ -1,0 +1,1 @@
+同じく bundler の Bundler::Settings#all でも Array#| のかわりに Array#union を使うことで中間オブジェクトの生成を抑制しています。
