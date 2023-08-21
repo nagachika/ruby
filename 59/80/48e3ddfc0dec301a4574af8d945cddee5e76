@@ -1,0 +1,1 @@
+e921efa476dc24246dcb40452fa1e9c02e75675d と同様に bundler の Bundler::Settings#is_string でも to_s メソッドの呼び出し結果をローカル変数に格納して複数の呼び出しを抑制しています。
