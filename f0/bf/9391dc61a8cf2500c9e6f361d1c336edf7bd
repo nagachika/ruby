@@ -1,0 +1,1 @@
+7cb6cbee953b8cf020e4e337bdbadd426460c71f で bundler の Bundler::Settings#local_overrides の実装で正規表現のかわりに String#start_with? を使うようにしましたがその後特殊変数 $' を利用しているところがあったのでそこも修正しています。
