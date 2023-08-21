@@ -1,0 +1,1 @@
+bundler の Bundler::Settings#is_bool の実装で同じオブジェクトに to_s を2回呼んでたのをローカル変数に格納しておくようにしています。
