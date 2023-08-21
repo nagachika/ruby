@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で入力待ちのタイムアウトをするのに標準添付ライブラリ timeout の Timeout.timeout を利用していたのをやめて io/console の IO#getc の引数でタイムアウト指定をする機能を利用するように変更しています。irb の debug.gem 統合の時に Thread を利用していると問題があるので Thread を利用する timeout の実装を避けるようにしたみたいです。 https://github.com/ruby/reline/pull/580
