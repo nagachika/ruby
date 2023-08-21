@@ -1,0 +1,1 @@
+bundler の Bundler::Settings.key_for で文字列の破壊的メソッドを利用することで中間オブジェクトの生成を抑制しています。
