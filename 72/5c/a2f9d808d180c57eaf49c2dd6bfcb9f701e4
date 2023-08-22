@@ -1,0 +1,1 @@
+irb の組み込みコマンド edit で開くエディターを指定する環境変数に EDITOR に加えて VISUAL という環境変数も参照するようにしています。というか VISUAL のほうが優先されるのですがこれって今時の標準なのかな。 https://github.com/ruby/irb/pull/686
