@@ -1,0 +1,1 @@
+7c226291d344c29236d51c604f885af05e7f1add で標準添付ライブラリ reline の timeout 依存をなくして io/console の IO#getc の引数を利用するようにした時のタイムアウト値の計算が Integer#/ で整数の除算になってたのを fdiv を利用して Float にするようにしています。 https://github.com/ruby/reline/pull/583
