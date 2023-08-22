@@ -1,0 +1,1 @@
+rubygems のテストで Gem::Package#verify の警告メッセージの内容のチェックも追加しています。
