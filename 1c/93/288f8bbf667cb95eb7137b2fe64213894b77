@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で bundler が再定義する require で Gemfile への追加を警告する対象の gem に bigdecimal を追加しています。 [ruby-core:114433] [Bug #19843]
