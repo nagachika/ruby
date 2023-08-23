@@ -1,0 +1,1 @@
+irb で debug 利用時に IRB::Context の irb_name という属性を設定する時に上書きするのでなく元の名前の後に ":dbg" を追加するようにしているみたいです。 irb_name という設定を知らなかった。 https://github.com/ruby/irb/pull/688
