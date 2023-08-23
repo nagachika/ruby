@@ -1,0 +1,1 @@
+variable.c の obj_ivar_heap_alloc() と obj_ivar_heap_realloc() という static 関数を削除して呼び元にその処理を展開しています。
