@@ -1,0 +1,1 @@
+コマンドラインオプション --dump=parsetree_with_comment で NODE_HASH を出力する時のコメントの表記の修正。
