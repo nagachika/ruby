@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で cherry-pick する時に conflict を解消したら変更が空になった場合その commit はスキップするようにしています。
