@@ -1,0 +1,1 @@
+yarp のテスト用の snapshots ディレクトリが test/ 直下に入ってしまったので test/yarp/ の下に移動しています。
