@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の .rb ファイルのいくつかに frozen_string_literal magic comment を追加しています。 https://github.com/ruby/erb/pull/49
