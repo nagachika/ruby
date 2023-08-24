@@ -1,0 +1,1 @@
+さらに tool/lib/output.rb の --color オプションに引数を受付けるようにして always, never, auto (出力が端末かどうか判定する)などの指定もできるようにしています。
