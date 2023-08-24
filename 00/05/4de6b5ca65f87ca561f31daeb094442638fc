@@ -1,0 +1,1 @@
+AST の NODE_GASGN と NODE_GVAR タイプのノードで 3つめの leaf の nd_entry という名前を使うのをやめて nd_vid を利用するようにしています。
