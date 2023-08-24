@@ -1,0 +1,1 @@
+common.mk の yarp 関係のファイルの依存関係の記述を $(srcdir) からのパスで指定するようにしています。ソースディレクトリ以外でのビルドの対応のためかな。 https://github.com/ruby/ruby/pull/8266
