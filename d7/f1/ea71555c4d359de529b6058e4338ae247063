@@ -1,0 +1,1 @@
+rubyspec の Thread 内での IO#write のテストを quarantine! のブロックで括って skip させるように? しています。
