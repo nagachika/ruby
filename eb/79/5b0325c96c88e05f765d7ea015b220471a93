@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で yarp の同期時に無視するファイルのパターンをその他の gem のものと重複しないものだけ定数に書いてあとでマージ(Regexp.union)するようにしています。
