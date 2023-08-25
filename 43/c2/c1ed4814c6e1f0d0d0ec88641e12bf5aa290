@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri を利用している時に URI.open の最後の引数に Hash オブジェクトを渡した時の不具合修正。互換性のため URI.open メソッドを ruby2_keywords で指定しておくようにしています。 [ruby-core:111309] [Bug #19238]
