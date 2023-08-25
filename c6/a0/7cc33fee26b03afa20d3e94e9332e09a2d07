@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で yarp の同期時に無視するファイルのパターンの正規表現からその他の gem のための正規表現に Gemfile.lock と bin/ ディレクトリの配下のファイルを移動しています。
