@@ -1,0 +1,1 @@
+YJIT のコード生成時の型推論処理の不具合修正。 https://github.com/ruby/ruby/pull/8264
