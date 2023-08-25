@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream の repository を指定する URL を https スキーマのものを利用するように変更しています。
