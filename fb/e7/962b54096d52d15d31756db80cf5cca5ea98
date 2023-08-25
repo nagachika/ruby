@@ -1,0 +1,1 @@
+43c2c1ed4814c6e1f0d0d0ec88641e12bf5aa290 で標準添付ライブラリ open-uri に追加したテストで fd の leak を修正するため close する後処理する ensure 節を追加しています。
