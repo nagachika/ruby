@@ -1,0 +1,1 @@
+Array#* メソッドのテストでメモリ不足の時に ArgumentError が発生することがあるので捕捉して NoMemoryError にすりかえるようにしています。まあわかるけどそれが仕様なら許容する例外に ArgumentError を追加するほうがいいような気も。 [ruby-core:76063] [Bug #12500]
