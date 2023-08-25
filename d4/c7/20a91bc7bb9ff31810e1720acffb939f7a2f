@@ -1,0 +1,1 @@
+Fiber#[] の fiber local storage で dynamic symbol によるキーに対応するように修正しています。 https://github.com/ruby/ruby/pull/8273
