@@ -1,0 +1,1 @@
+Process.clock_gettime, Process.clock_getres の実装で環境によって未使用になる変数の宣言に preprocessor 分岐をつけて未使用変数の警告を抑制しています。
