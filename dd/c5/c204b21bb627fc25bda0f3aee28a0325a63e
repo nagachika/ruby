@@ -1,0 +1,1 @@
+rubyparser.h から #include "parser_value.h" を preprocessor で本体では含めないようにしています。
