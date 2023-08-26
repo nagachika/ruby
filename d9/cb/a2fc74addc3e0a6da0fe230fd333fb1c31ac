@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の C ファイルに #include "internal/imemo.h" を追加しています。
