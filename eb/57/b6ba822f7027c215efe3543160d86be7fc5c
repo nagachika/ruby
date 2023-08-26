@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラでのビルドを試す workflow に clang 18 でのビルドを追加しています。またデフォルトを clang 17 に更新しています。
