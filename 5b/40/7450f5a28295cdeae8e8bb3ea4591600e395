@@ -1,0 +1,1 @@
+GitHub Actions のテスト実行 dependabot による push イベントでは実行しないようにしています。pull request が作られるはずなのでそっちで実行されるので。
