@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の yarp の同期時に無視するファイルのパターンに fuzz/ ディレクトリの配下を追加しています。
