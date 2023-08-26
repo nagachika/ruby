@@ -1,0 +1,1 @@
+bundler の上書きする require で警告出力する時に require しているのが gem の中だったらその gem の依存関係に追加することも suggest するようにしています。 [ruby-core:114479] [Feature #19846]
