@@ -1,0 +1,1 @@
+universal_parser.c で struct rb_imemo_tmpbuf_struct の定義が重複していたので imemo.h が #include 済みだったら消すようにしています。
