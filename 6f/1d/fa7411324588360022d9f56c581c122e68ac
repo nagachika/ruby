@@ -1,0 +1,1 @@
+common.mk の srcs から yarp の自動生成ファイルへの依存関係を追加しています。前もこれ一度追加されてましたね。 https://github.com/ruby/ruby/pull/8285
