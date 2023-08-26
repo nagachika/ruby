@@ -1,0 +1,1 @@
+vm.c の vm_exec_handle_exception() のリファクタリング。 変数 cfp に const 修飾子を追加しています。
