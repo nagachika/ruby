@@ -1,0 +1,1 @@
+irb の RubyLex クラスを IRB::RubyLex にネストさせています。 https://github.com/ruby/irb/pull/692
