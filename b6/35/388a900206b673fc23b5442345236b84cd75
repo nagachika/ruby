@@ -1,0 +1,1 @@
+MUL_OVERFLOW_LONG_LONG_P() マクロの定義をする時に __builtin_mul_overflow() が long long 型をサポートしているかどうか configure でチェックしておくようにしています。 [Bug #17646]
