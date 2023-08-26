@@ -1,0 +1,1 @@
+bundler の上書きする require で警告を出す(元) default gems で bigdecimal を拡張子つきで require しても警告するようにしています。
