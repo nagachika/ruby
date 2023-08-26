@@ -1,0 +1,1 @@
+AST と ISeq に対象のスクリプトの行の内容を保持させる RubyVM.keep_script_lines の処理のリファクタリング?
