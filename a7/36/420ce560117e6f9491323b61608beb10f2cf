@@ -1,0 +1,1 @@
+fa327472caaa66a05ea0dcac2dd6cf58e30025e3 の続きで rubyparser.h で構造体の snprintf メンバーのために #undef でマクロ定義を消しておいたのを後で復活させるようにしています。 include/ruby/subst.h を変更したりファイル名を変更したらここも変更しないといけないですね。
