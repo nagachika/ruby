@@ -1,0 +1,1 @@
+Fiber 用の coroutine 実装の amd64 アークテクチャ向けの実装でレジスタの退避/復帰に pushhq/popq を利用していたのを movq 命令を利用するように変更しています。性能のためみたいです。 https://github.com/ruby/ruby/pull/8284
