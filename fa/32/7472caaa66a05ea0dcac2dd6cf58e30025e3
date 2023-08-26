@@ -1,0 +1,1 @@
+rubyparser.h の構造体 rb_parser_config_t の定義で snprintf メンバーの宣言の前に #undef snprintf を追加しています。 include/ruby/subst.h で別名に #define されているのでその影響をなくすため。
