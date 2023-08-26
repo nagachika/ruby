@@ -1,0 +1,1 @@
+Process.exit, Process.abort などのメソッドの rdoc 用コメントを強化しています。 https://github.com/ruby/ruby/pull/8282
