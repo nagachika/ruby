@@ -1,0 +1,1 @@
+clang 17 で -std=c2x オプションを追加した時に警告が出てたみたいで RBIMPL_HAS_C_ATTRIBUTE() の定義時にチェックを追加しています。
