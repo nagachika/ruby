@@ -1,0 +1,1 @@
+GitHub Actions の check_misc.yml で事前準備のアクションで make up を実行するようにしています。
