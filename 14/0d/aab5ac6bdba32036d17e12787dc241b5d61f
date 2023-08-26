@@ -1,0 +1,1 @@
+rubyparser.h に #include <stdarg.h> を追加しています。
