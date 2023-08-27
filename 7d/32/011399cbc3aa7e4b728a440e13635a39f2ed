@@ -1,0 +1,1 @@
+70272ca65c59f787e48c219c8946b22ce310fef0 の bundler の再定義する require での bigdecimal の警告出力についての変更でエラーが起きてたのを修正しています。 [ruby-core:114539] [Bug #19852]
