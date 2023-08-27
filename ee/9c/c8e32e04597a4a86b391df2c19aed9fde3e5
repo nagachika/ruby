@@ -1,0 +1,1 @@
+bfb395c620b811b4b3cb7d535d58721268af285d で追加した rb_gc_mark_weak() を使って ObjectSpace::WeakMap を実装するようにしています。WeakMap の現在の実装でなにか問題があったのかというとそういうわけでもなくてパフォーマンスと compaction のサポートの強化のためということみたいです。まあ確かにこれほど GC と深く関連する実装が WeakMap/WeakKeyMap というモジュールに独自に存在するよりは gc.c にあるほうが自然というのはそうかも。
