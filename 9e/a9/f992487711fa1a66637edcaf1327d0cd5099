@@ -1,0 +1,1 @@
+b98838b65cbf8fa2d228f9e0249414cba4e3197d で Variable Width Allocation による slot サイズ別の heap 毎に slot 数の初期値を指定する環境変数 RUBY_GC_HEAP_INIT_SIZE_#_SLOTS を導入したので、従来の RUBY_GC_HEAP_INIT_SLOTS の指定は無視して警告を出力するようにしています。これいきなり無効にしていいのかな? せめて 3.3 で警告出しつつ全サイズの初期値として利用するようにしておいてその次で削除としないと deprecation のポリシーに反するような。 https://github.com/ruby/ruby/pull/8147 [ruby-core:114290] [Feature #19785]
