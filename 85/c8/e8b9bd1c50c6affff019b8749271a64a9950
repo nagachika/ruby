@@ -1,0 +1,1 @@
+common.mk の yarp/yarp.o への依存関係の yarp/version.h のパスの指定に {$(VPATH)} を利用するように修正。
