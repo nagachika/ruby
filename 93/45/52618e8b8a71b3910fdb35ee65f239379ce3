@@ -1,0 +1,1 @@
+yarp の f603497105bd41c1863490a557ff105bf7e17830 の gemspec ファイルから version.rb を require するパスの指定を upstream と ruby 本体の時とで変更する分岐を追加。
