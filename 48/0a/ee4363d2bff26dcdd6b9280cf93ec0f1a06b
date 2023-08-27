@@ -1,0 +1,1 @@
+debug_counter.h の debug 用カウンタの項目に未定義のまま利用されていたものがあったので追加しています。 https://github.com/ruby/ruby/pull/8297
