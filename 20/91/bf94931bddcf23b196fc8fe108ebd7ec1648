@@ -1,0 +1,1 @@
+GC.latest_gc_info の返す統計情報に bfb395c620b811b4b3cb7d535d58721268af285d で追加した weak reference 関連の項目 :weak_references_count と :retained_weak_references_count を追加しています。 [ruby-core:114274] [Feature #19783]
