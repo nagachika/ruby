@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md にデバッグ用に ruby をビルドする時の configure のオプションの指定の推奨について追記しています。 --enable-debug-env オプションは知らなかったなあ。 https://github.com/ruby/ruby/pull/8290
