@@ -1,0 +1,1 @@
+ee9cc8e32e04597a4a86b391df2c19aed9fde3e5 に続いて ObjectSpace::WeakKeyMap の実装も rb_gc_mark_weak() を利用するように変更しています。
