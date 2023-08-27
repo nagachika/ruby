@@ -1,0 +1,1 @@
+String#start_with? や String#delete_prefix がその文字列の Encoding 上での 1文字に満たないバイト列にもマッチしてしまう挙動を不具合として修正しています。なるほどなぁ。バイト列としてチェックしたい時は明示的に receiver を ASCII-8BIT にしておけってことですね。 [ruby-core:114276] [Bug #19784]
