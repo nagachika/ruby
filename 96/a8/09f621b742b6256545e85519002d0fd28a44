@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで利用している test_helper.rb の require に require_relative を利用するようにしています。 yarp の同名のファイルと衝突しているのでそれを避けるためとのこと。
