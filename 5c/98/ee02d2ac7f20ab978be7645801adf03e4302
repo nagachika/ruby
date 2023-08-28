@@ -1,0 +1,1 @@
+configure で $ac_cv_func_memset_s および $ac_cv_func_qsort_s という変数をチェックして yes だったら __STDC_WANT_LIB_EXT1__ というマクロを 1 に定義するようにしていたのを消して util.c で未定義なら定義するようにしています。ログを漁ると memset_s(3) を利用するために必要なマクロみたいです。
