@@ -1,0 +1,1 @@
+irb のトップレベルの RubyLex の参照に警告を出力するようになったのを確認するテストで assert_in_out_err を利用して子プロセスでテストするように修正しています。 https://github.com/ruby/irb/pull/695
