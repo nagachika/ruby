@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL の ossl_pkey_read_generic() という API の不具合を回避するための workaround を追加しています。
