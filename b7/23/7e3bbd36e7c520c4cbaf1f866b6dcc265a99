@@ -1,0 +1,1 @@
+Process.warmup メソッドで slot がひとつも利用されていない page を tomb_heap に移動して回収させるようにしています。 https://github.com/ruby/ruby/pull/8257
