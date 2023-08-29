@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の default gems のリポジトリを管理している Hash の定数の gem 名の並べ替え。
