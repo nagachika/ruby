@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb のリポジトリ名のテーブルに racc を追加しています。racc は bundled gems だけど。
