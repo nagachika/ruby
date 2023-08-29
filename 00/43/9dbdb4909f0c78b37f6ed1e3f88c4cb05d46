@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream のリポジトリ名を管理する Hash の gem 名のキーを Symbol から文字列に変更しています。
