@@ -1,0 +1,1 @@
+missing/explicit_bzero.c で memset_s(3) のために #include <string.h> していたのがその分岐の外と重複していたのを削除しています。
