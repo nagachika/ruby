@@ -1,0 +1,1 @@
+common.mk の yarp の自動生成ファイルに関する変数 YARP_SRCDIR を導入するリファクタリングと、依存関係に yarp/config.yml を追加。
