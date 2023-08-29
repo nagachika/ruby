@@ -1,0 +1,1 @@
+94275d96a86a411d632d1746a8c017bc7939a972 と f5da7c379bc287a1e19200358c917ddc5628351e の tool/sync_default_gems.rb での racc 同期のサポートを revert しています。
