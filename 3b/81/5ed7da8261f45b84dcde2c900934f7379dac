@@ -1,0 +1,1 @@
+yarp にソースファイルを追加して tool/sync_default_gems.rb にも対応を追加しています。また yarp から利用するために RubyVM::InstructionSequence.compile_yarp というメソッドを追加しています。このため compile.c や iseq.c から yarp/yarp.h を #include するようにしています。yarp の拡張ライブラリだと思ってた部分って本体に組込まれるのかな。 https://github.com/ruby/ruby/pull/8042
