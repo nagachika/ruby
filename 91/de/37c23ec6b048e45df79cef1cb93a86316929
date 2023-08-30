@@ -1,0 +1,1 @@
+EnvUtil の assert_in_out_err を使ったテストでコマンドラインオプションに明示的に --disable-gems を追加していたところをオプションを削っています。 assert_in_out_err は自動で --disable-gems を追加するので不要だったので。
