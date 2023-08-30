@@ -1,0 +1,1 @@
+NEWS に bundler の再定義する require で一部の default gems (元 default gems 含む)の require に警告を出すことについての追記。 [Feature #19351] [Feature #19776] [Feature #19843]
