@@ -1,0 +1,1 @@
+irb の IRB::Context#prompt_n, #prompt_n= を deprecated にして警告メッセージ出力するようにしています。
