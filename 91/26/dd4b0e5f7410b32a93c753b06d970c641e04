@@ -1,0 +1,1 @@
+GitHub Actions の独自のアクションでセットアップするアクションで make up の実行のために Makefile をテンプレートから作成する処理を Makefile と GNUmakefile をそれぞれ作成するようにしています。コミットログの内容と微妙にマッチしてない気がするけど。
