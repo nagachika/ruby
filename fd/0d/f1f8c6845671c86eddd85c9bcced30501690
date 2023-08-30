@@ -1,0 +1,1 @@
+GC で不要に heap のページ確保をしてしまう可能性があった不具合を修正しているようです。 https://github.com/ruby/ruby/pull/8310
