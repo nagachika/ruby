@@ -1,0 +1,1 @@
+拡張ライブラリ stringio のテストに StringIO::VERSION の型をチェックするテストメソッドを追加しています。 JRuby 向けのテストとのこと。
