@@ -1,0 +1,1 @@
+標準添付ライブラリ random の Random#alphanumeric メソッドにキーワード引数 chars を追加してそこで指定された文字のみ利用するようにしています。指定は文字の配列で行なうようです。 [ruby-core:105361] [Feature #18183]
