@@ -1,0 +1,1 @@
+Process.waitpid や Kernel#system で Process::Status オブジェクトの型チェックを TypedData の型までチェックするように厳密にしています。 https://github.com/ruby/ruby/pull/8315
