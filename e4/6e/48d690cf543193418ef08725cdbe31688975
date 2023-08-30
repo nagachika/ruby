@@ -1,0 +1,1 @@
+process.c の rb_process_status_waitv() を static 変数に変更してかわりに(?) rb_process_status_wait の宣言を include/ruby/internal/intern/process.h に追加しています。
