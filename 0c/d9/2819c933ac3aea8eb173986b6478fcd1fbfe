@@ -1,0 +1,1 @@
+irb のプロンプトを指定する設定の項目から :PROMPT_N というのを削除しています。 https://github.com/ruby/irb/pull/685
