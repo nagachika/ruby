@@ -1,0 +1,1 @@
+RJIT でも 23c83d172c1e68a35e80548ea7efb64cc1c063b5 の YJIT の修正と同じく T_ARRAY/T_STRING 型オブジェクトの型の扱いを変更しているようです。
