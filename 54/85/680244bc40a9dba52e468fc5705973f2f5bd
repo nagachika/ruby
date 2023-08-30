@@ -1,0 +1,1 @@
+定数 GC::INTERNAL_CONSTANTS の Hash のキーに :RVALUE_OLD_AGE というのを追加しています。
