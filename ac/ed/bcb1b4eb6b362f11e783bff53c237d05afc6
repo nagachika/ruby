@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で rdoc 用コメントの内容のリンクを編集する処理で git status のオプションの "--" が抜けてたのを修正しています。
