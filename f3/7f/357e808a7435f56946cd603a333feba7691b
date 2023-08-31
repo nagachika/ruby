@@ -1,0 +1,1 @@
+irb の debug.gem 連係時の組み込みコマンド show_cmds の出力に debug 関連のコマンドのヘルプも追加しています。 https://github.com/ruby/irb/pull/693
