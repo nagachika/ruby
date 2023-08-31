@@ -1,0 +1,1 @@
+bundler のコマンドラインオプション bundle update --redownload を指定した時に --force も指定したのと同様の挙動をするようにしています。
