@@ -1,0 +1,1 @@
+irb の debug.gem 連係の IRB::Debug.binding_irb? というメソッドを削除しています。 https://github.com/ruby/irb/pull/697
