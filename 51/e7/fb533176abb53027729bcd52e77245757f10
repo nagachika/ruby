@@ -1,0 +1,1 @@
+irb の自動インデントの不具合修正。 https://github.com/ruby/irb/pull/524 https://github.com/ruby/irb/pull/696
