@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の lib/reline/unicode/east_asian_width.rb に UNICODE_VERSION という定数への代入をコメントアウトされた状態で追加しています。なんか一度追加してコメントアウトしたものが upstrem からマージされたみたいですね。 https://github.com/ruby/reline/pull/586
