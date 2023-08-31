@@ -1,0 +1,1 @@
+bundler の Bundler::Settings でインスタンス変数へのキャッシュを使う最適化。
