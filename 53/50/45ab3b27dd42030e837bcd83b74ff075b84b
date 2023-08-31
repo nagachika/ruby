@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile_yarp で yarp 用の NODE のコンパイル時の context をひきまわせるようにする拡張。 https://github.com/ruby/ruby/pull/8311
