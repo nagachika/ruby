@@ -1,0 +1,1 @@
+yarp の node からの ISeq へのコンパイルのための C API を追加して yarp から利用するようにしているようです。 https://github.com/ruby/ruby/pull/8322
