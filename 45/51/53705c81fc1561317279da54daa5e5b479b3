@@ -1,0 +1,1 @@
+yarp のテストに RubyVM::InstructionSequence.compile_yarp のテストを追加しています。
