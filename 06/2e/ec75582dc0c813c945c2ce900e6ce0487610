@@ -1,0 +1,1 @@
+irb の複数行編集時の自動インデントのテストメソッドを追加。 ttps://github.com/ruby/irb/pull/699
