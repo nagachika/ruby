@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で transform_keys に渡すブロックを Symbol に & をつけてブロック化する記法を利用するようリファクタリング。
