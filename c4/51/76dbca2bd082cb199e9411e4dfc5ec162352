@@ -1,0 +1,1 @@
+Kernel#Integer() で第2引数に基数を渡す時にその第2引数を rb_check_to_int() で変換していたのを単に NUM2INT() で変換するようにしています。ついでに Kernel#Integer() を ruby 実装するようにしています(ほぼ C の関数を Primitiv 経由で呼ぶだけですが)。 rb_check_to_int() でも to_int で変換しますがその後でさらに NUM2INT() を呼ぶので to_int メソッドが Integer を返さずたとえば String だった時にそのまま再度整数に変換されて通ることがあるので、それは TypeError 例外にするというためみたいです。なるほど……。 [ruby-core:111857] [Bug #19349]
