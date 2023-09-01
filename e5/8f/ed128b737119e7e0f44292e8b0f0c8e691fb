@@ -1,0 +1,1 @@
+YJIT の Rust 実装で構造体のサイズを縮小するリファクタリング。 https://github.com/ruby/ruby/pull/8321
