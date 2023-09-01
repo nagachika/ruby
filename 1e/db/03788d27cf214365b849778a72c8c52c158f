@@ -1,0 +1,1 @@
+GitHub Actions の RJIT を有効にしたビルドで make test-all 時にオプションに -q を渡すようにしています。
