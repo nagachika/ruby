@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の主に conflict 解消や無視するファイルパターンの利用あたりのリファクタリング。
