@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の bundler(rubygems) の無視するファイルパターンの bundler/spec/support/artifice/vcr_cassettes を削除しています。
