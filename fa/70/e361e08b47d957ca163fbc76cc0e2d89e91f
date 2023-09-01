@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL によるチェックを実施する workflow で利用するリソースの RAM を増やすように設定しています。
