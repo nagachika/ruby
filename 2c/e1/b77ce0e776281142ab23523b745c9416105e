@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の一部のコマンド起動時に出力を File::NULL にリダイレクトして捨てるようにしています。
