@@ -1,0 +1,1 @@
+Object Space の heap の Variable Width Allocation による slot サイズ別の初期サイズを指定する環境変数を RUBY_GC_HEAP_INIT_SIZE_#_SLOTS から RUBY_GC_HEAP_#_INIT_SLOTS に変更し、さらに数字部分を slot のバイトサイズ(40, 80, 160...) ではなくインデックス(0, 1, 2, 3, 4) を使うように変更しています。
