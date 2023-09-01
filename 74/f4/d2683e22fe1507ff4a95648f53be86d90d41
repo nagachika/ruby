@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で yarp の同期時に yarp/template/java/ の配下のファイルは削除するようにしています。
