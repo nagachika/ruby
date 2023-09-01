@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の無視するファイルパターンの yarp 向けの特別処理も不要になったみたいで削除しています。
