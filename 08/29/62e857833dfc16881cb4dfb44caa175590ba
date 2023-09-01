@@ -1,0 +1,1 @@
+tool/runruby.rb で FreeBSD では環境変数 LD_BIND_NOW=yes を設定して起動するようにしています。 FreeBSD では multi thread からの fork でハングアップする不具合があるそうでその対策のためだそうです。
