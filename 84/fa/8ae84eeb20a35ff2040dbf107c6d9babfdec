@@ -1,0 +1,1 @@
+Process.spawn の rdoc 用コメントの手直し。なんかむしろサンプルが減ってたり引数の説明の一覧性が下がってるような気もするけど。 https://github.com/ruby/ruby/pull/8342
