@@ -1,0 +1,1 @@
+gc.c の gc_mark_values() を削除して gc_mark_imemo() から利用していたところは rb_gc_mark_values() で代替しています。
