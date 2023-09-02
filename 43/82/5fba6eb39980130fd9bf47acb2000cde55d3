@@ -1,0 +1,1 @@
+YJIT で VM 命令 getblockparamproxy で Symbol に & をつけて obj.each(&:meth) みたいにメソッド呼び出しをブロックとして渡した時のブロックの対応を最適化? しているようです。
