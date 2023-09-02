@@ -1,0 +1,1 @@
+拡張ライブラリ socket の UNIXSocket のテストで空文字列を send するのをやめています。 OpenBSD と Solaris では空の sendmsg は無視されるので挙動が違うそうでそれでテストが失敗するのを避けるためみたいです。
