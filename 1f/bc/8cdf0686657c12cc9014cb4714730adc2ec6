@@ -1,0 +1,1 @@
+iseq.c の rb_iseq_new_with_opt() で構造体 rb_compile_option_t の引数の不要なコピーを抑制するようにリファクタリングしています。
