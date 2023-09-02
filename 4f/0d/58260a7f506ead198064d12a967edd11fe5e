@@ -1,0 +1,1 @@
+ObjectSpace の Variable Width Allocation による slot サイズ別の heap の初期サイズ計算でメモリアライメントによる無駄や整数の除算による細かな誤差で小さめに計算していたのを修正しているようです。
