@@ -1,0 +1,1 @@
+rb_gc_mark_values() という関数に渡した引数の配列の VALUE の mark に gc_mark_and_pin() を呼んでたのを gc_mark() に変えて pindown しないようにしています。呼ばれてる箇所では pindown 不要だったので、とのことだけど static な関数ではないので微妙感も。 internal/gc.h での宣言なので外部の拡張ライブラリから使うことは想定してないと思いますが。
