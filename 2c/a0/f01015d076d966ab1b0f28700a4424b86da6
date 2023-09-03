@@ -1,0 +1,1 @@
+String#start_with? と String#delete_prefix のテストに prefix 以降の部分に不正なバイト列があった時の assertion を追加しています。
