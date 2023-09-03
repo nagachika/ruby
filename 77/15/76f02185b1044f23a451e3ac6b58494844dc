@@ -1,0 +1,1 @@
+bfb395c620b811b4b3cb7d535d58721268af285d で実装した rb_gc_mark_weak() の中で RGenGC の old 世代のオブジェクトの場合 minor GC の途中では weak reference への登録する必要がないとのことでスキップするようにしています。
