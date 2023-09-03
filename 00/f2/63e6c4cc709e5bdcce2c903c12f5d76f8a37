@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の同期時に無視するファイルを削除するために git checkout で元に戻す前に git rm するコマンドが消えてたので復活させています。
