@@ -1,0 +1,1 @@
+gc.c の gc_continue() で incremental marking を続ける条件に free_pages がないことが入っていたので常に継続されなくなってた? のを条件から削除しています。
