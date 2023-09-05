@@ -1,0 +1,1 @@
+Process.clock_gettime と Process.clock_getres の rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/8363
