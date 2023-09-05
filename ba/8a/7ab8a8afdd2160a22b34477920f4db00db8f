@@ -1,0 +1,1 @@
+Kernel#set_trace_func の rdoc 用コメントのコールバックに渡される引数の説明を追記しています。
