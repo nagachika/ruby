@@ -1,0 +1,1 @@
+予約語 in による一行 pattern matching のテストで experimental の警告を抑制するため Warning[:exmerimental] = false していたのがもう不要なので削除しています。
