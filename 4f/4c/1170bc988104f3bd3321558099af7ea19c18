@@ -1,0 +1,2 @@
+7e0f5df2f99693267d61636d23da47f79924e9d5 の eval 系メソッドを使った時の line coverage のリセットをやめる変更を revert しています。
+https://bugs.ruby-lang.org/issues/19857#note-7 [ruby-core:114590] [Bug #19857]
