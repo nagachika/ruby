@@ -1,0 +1,1 @@
+Process.warmup のテストがときどき失敗するみたいなのでそのデバッグのために GC.stat を assertion メッセージに埋め込んでいます。
