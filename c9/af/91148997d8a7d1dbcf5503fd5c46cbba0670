@@ -1,0 +1,1 @@
+Process.kill の rdoc 用コメントに各シグナルの説明なども追加するなどの追記/書き換えをしています。 https://github.com/ruby/ruby/pull/8366
