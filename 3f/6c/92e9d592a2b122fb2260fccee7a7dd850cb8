@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で C 実装のメソッドのドキュメントの call-seq に引数の記述がなかった時? に生成する html の method-description class のセクションを省くようにしているそうです。
