@@ -1,0 +1,1 @@
+配列の一部を上書きする rb_ary_splice() で常に receiver の配列を RGenGC 用の WB-unprotected なオブジェクトにしてしまっていたのをバッファ内での MEMMOVE() をするだけのケースでは不要なので WB-unprotected にしないように最適化しています。
