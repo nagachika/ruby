@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストの test/openssl/utils.rb から core_assertions を require するのに require_relative でなく require を利用するように修正しています。
