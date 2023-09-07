@@ -1,0 +1,1 @@
+yarp/defines.h の snprintf をマクロ定義する条件を snprintf が未定義の時だけにしています。
