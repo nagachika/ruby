@@ -1,0 +1,1 @@
+Process.kill の rdoc 用コメントのシグナルのリストを消しています。 https://github.com/ruby/ruby/pull/8370
