@@ -1,0 +1,1 @@
+構造体 struct heap_page の flags メンバー内のメンバー名に RGenGC の WB-unprotected なオブジェクトを指す shady という名称を含む has_uncollectible_shady_objects というのがまだ残ってたので has_uncollectible_wb_unprotected_objects に改名しています。
