@@ -1,0 +1,1 @@
+拡張ライブラリ openssl でコンパイル時に OSSL_DEBUG マクロを定義した時にデバッグ用のメソッド群 OpenSSL.mem_check_start/OpenSSL.print_mem_leaks を定義するようにしていたのを削除しています。
