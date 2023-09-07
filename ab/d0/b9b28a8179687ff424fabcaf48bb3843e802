@@ -1,0 +1,1 @@
+configure でコンパイラの警告をエラーにするオプションのチェックから -Werror=misleading-indentation ははずして、別途 -save-temps というオプションの指定があるかどうかチェックしてついてたら外すようにしています。
