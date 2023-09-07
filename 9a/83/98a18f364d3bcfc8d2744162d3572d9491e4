@@ -1,0 +1,1 @@
+rb_gc_remove_weak() という関数を追加して WeakMap の実装からエントリ削除する時に key と value の参照を削除するようにしています。 rb_gc_mark_weak() を使った実装にした時に use-after-free の異常終了が起きる可能性があったみたいです。
