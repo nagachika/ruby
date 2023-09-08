@@ -1,0 +1,1 @@
+bundler の Source::Rubygems#fetch_names で常に同じ値なので不要だった引数を削除しています。
