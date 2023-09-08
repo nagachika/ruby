@@ -1,0 +1,1 @@
+yarp のテストで assert_raises のかわりに assert_raise を利用するようにしています。
