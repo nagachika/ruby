@@ -1,0 +1,1 @@
+Process.warmup のテストでたまに失敗するのを抑制するため GC.disable を呼ぶようにしています。
