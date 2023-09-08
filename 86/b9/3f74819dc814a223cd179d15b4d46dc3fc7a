@@ -1,0 +1,1 @@
+bundler の Bundler::Index の実装の最適化。
