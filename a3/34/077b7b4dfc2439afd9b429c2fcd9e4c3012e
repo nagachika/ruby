@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で出力する統計情報のうち一部はオプションの指定がなくても RubyVM::YJIT.runtime_stats  で取得できるようにしています。 https://github.com/ruby/ruby/pull/8379
