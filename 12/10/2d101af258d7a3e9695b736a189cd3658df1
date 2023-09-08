@@ -1,0 +1,1 @@
+WeakMap の実装で st_insert() を呼ぶ時に rb_gc_disable_no_rest() を呼び出して GC 実行中に呼ばれた時に異常終了するのを抑制しています。
