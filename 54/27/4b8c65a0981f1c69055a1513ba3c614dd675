@@ -1,0 +1,1 @@
+Process::Status のメソッドの rdoc 用コメントにサンプルを追加したり消したりしています。 https://github.com/ruby/ruby/pull/8386
