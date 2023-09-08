@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Rubygems#cached_specs の不要な分岐を削除しています。
