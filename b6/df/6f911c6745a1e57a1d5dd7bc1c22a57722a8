@@ -1,0 +1,1 @@
+addr2line.c の addr_header_init() および rnglists_header_init() の戻り値の true/false が反転していたところを修正しています。
