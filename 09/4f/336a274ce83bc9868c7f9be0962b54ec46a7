@@ -1,0 +1,1 @@
+構造体 rb_objspace_t の flags.has_hook という bit field を flags.has_newobj_hook と改名して rb_objspace_t::hook_events の全体ではなく RUBY_INTERNAL_EVENT_NEWOBJ ビットフラグのみチェックするフラグとしています。 newobj_of0() で不要なイベントフックのフラグに対しても slowpath に入るのを抑制するためみたいです。
