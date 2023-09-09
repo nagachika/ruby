@@ -1,0 +1,1 @@
+Thread.handle_interrupt の実装で引数に渡された Hash が既に freeze されていて ID で同値性判定するように設定されていたら不要なコピーを抑制するようにしています。
