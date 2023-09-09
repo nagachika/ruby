@@ -1,0 +1,1 @@
+YJIT の Rust 実装で String#bytesize メソッドの専用処理で rb_str_bytesize() の関数呼び出しをしていたところを処理をインライン展開する最適化。 https://github.com/ruby/ruby/pull/8389
