@@ -1,0 +1,1 @@
+include/ruby/thread.h の RUBY_INTERNAL_THREAD_EVENT_XXX 系の定数マクロの doxygen 用コメントの説明を追記しています。
