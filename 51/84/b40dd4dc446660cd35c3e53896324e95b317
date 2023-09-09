@@ -1,0 +1,1 @@
+thread_sync.c の do_mutex_lock() から一部の処理を do_mutex_lock_check_interrupts() という関数に切り出すリファクタリング。処理の内容はまったく変わってないのですが ppc64le でのコンパイラの不具合のせいでエラーになってるんじゃないかという疑惑のために関数分離しているみたいです。 https://github.com/ruby/ruby/pull/8393
