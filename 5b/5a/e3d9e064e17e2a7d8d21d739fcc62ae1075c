@@ -1,0 +1,1 @@
+組み込みメソッド Integer#times メソッドの実装を ruby 実装に移植しています。 https://github.com/ruby/ruby/pull/8388
