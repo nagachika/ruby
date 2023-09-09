@@ -1,0 +1,1 @@
+GitHub Actions の workflow で利用している actions/cache アクションのバージョンを更新しています。なぜか Windows 版でだけ更新されているな、と思ったら他は .github/actions/setup の専用のアクション経由で利用されるからですね。専用アクション内のアクションは dependabot の更新対象にはならないのかな?
