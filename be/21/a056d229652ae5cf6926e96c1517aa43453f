@@ -1,0 +1,1 @@
+5184b40dd4dc446660cd35c3e53896324e95b317 の thread_sync.c の関数への切り出しのリファクタリングを revert して Travis-CI で ppc64le-linux および s390x-linux で gcc-10 を利用しないようにしています。リファクタリングでは結局直ってなかったのか、いずれにせよコンパイラの問題という判断で gcc のバージョンを古くして対応しているようです。 https://github.com/ruby/ruby/pull/8394
