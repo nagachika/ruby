@@ -1,0 +1,1 @@
+Thread.handle_interrupt の実装で引数の Hash の key に Exception を渡したケースの最適化をしているようです。このケースそんなにメジャーなのかな?
