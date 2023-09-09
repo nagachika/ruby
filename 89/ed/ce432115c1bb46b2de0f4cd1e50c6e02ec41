@@ -1,0 +1,1 @@
+YJIT でインスタンス変数の set/get での receiver の型の候補の対応する数を 10 から 8 に少し減らしています。 https://github.com/ruby/ruby/pull/8398
