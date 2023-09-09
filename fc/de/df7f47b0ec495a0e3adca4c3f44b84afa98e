@@ -1,0 +1,1 @@
+YJIT の send 命令の receiver の型の候補の許容する数を増やしています。 https://github.com/ruby/ruby/pull/8390
