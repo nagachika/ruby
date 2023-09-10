@@ -1,0 +1,1 @@
+yarp の修正。ソースディレクトリ直下に test_code.rb というファイルが追加されてしまっていますがこれはミスっぽいですね。 https://github.com/ruby/ruby/pull/8404
