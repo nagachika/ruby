@@ -1,0 +1,1 @@
+GC.latest_gc_info の weak reference に関する項目のテストで Integer#times でループを回していたところを Integer#times にブロックを渡さずに Enumerator を作ってから each と with_index でループを回しています。これ機能的には意味がないんですけど Integer#times が 5b5ae3d9e064e17e2a7d8d21d739fcc62ae1075c で ruby 実装になったために machine stack を積まなくなったために残っている参照を消すためにわざと stack frame を積むためにやっているみたいです。なるほどー。コメント書いておいたほうが良いですね。
