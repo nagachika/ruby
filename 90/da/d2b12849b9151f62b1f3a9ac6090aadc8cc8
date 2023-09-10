@@ -1,0 +1,1 @@
+rb_memory_view_item_component_t 構造体の native_size_p と little_endian_p というメンバーに bit field を使って 1 bit 割当ててたのを bool 型に変更しています。 ffi からの利用が難しいためとのこと。
