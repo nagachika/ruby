@@ -1,0 +1,1 @@
+Warning[] の rdoc 用コメントの deprecation warning の例のところから Kernel#proc, #lambda にブロックを渡さない呼び出しを削っています。警告でなくエラーになっているので。
