@@ -1,0 +1,1 @@
+compile.c の多重代入の最適化コンパイルする compile_massign_opt() の switch 文で不要な分岐があったので fall through にまかせるよう書きかえています。
