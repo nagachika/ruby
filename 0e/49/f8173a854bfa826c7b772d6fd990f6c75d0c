@@ -1,0 +1,1 @@
+Fiber::Scheduler#io_read と #io_write の rdoc 用コメントの call-seq に第4引数 offset が書かれていなかったので追記しています。
