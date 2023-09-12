@@ -1,0 +1,1 @@
+common.mk の make ChangeLog ターゲットでの tools/lib/vcs.rb の利用時の ruby スニペットでメソッドの不要な引数を省略するようにしています。
