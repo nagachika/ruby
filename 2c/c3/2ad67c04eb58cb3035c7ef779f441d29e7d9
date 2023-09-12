@@ -1,0 +1,1 @@
+defs/gmake.mk の make commit ターゲットでターゲットの処理順の整理と子 make に渡す変数を追加しています。
