@@ -1,0 +1,1 @@
+parse.y でトークンの型として k_class と k_module というのを定義して ripper で class 文や module 文のアクション文でのキャスト(っていうのか?)を不要にしています。
