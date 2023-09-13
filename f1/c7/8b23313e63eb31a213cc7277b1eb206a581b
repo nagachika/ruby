@@ -1,0 +1,1 @@
+default gems のテストで使うための assert_linear_performance で時間の計測に使うための Process.clock_gettime で指定するクロックの id を決めるところでブロックパラメーターが外の変数名と同じで警告が出てたので名前を変えて警告抑制しています。
