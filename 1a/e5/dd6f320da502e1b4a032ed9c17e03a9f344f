@@ -1,0 +1,1 @@
+parse.y の NODE_NEW_TEMPORAL() というマクロ名を NODE_NEW_INTERNAL() に改名しています。
