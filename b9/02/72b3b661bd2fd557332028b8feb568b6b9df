@@ -1,0 +1,1 @@
+gc.c で定数マクロの typo を修正して GC_INCREMENTAL_SWEEP_POOL_SLOT_COUNT としています。
