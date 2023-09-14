@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で集計する統計情報のカウンタに compile_time_ms (内部的には nsec で収集しておいて表示時に msec の実数表示に変換している)を追加しています。 https://github.com/ruby/ruby/pull/8417
