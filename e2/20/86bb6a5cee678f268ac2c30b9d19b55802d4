@@ -1,0 +1,1 @@
+common.mk の ripper_srcs ターゲットに .NOTPARALLEL をつけて並列で実行されないようにしているようです。
