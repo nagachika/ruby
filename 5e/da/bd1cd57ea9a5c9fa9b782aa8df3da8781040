@@ -1,0 +1,1 @@
+Process::Status の rdoc 用コメントの詳細すぎる記述を削っています。 https://github.com/ruby/ruby/pull/8416
