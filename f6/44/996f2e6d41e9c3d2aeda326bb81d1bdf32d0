@@ -1,0 +1,1 @@
+GitHub Actions の YJIT を有効にする workflow で make test-spec 実行時に MSPECOPT=--debug を渡すようにしています。
