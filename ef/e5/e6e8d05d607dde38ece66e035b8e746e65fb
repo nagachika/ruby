@@ -1,0 +1,1 @@
+Process::Status#& や Process::Status#>> メソッドで整数のビット演算のようにふるまう時に引数(右辺値)に負の数が渡されたら ArgumentError 例外を発生させるようにしています。 [ruby-core:114668] [Bug #19868]
