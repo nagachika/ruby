@@ -1,0 +1,1 @@
+YJIT でコード生成するメモリ領域の利用サイズ管理の不具合修正。 https://github.com/ruby/ruby/pull/8433
