@@ -1,0 +1,1 @@
+IO::Buffer#get_string や IO::Buffer#clear で引数の offset が負の数だった時に例外を発生させるようにしています。 https://github.com/ruby/ruby/pull/8427
