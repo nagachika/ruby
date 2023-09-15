@@ -1,0 +1,1 @@
+0ae7f2d1ac354cd92d513f934aede0cabd6dbc9f で導入した YJIT の統計情報のカウンタ compile_time_ns を --yjit-stats の指定がなくてもカウントする項目に追加しています。 https://github.com/ruby/ruby/pull/8425
