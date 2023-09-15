@@ -1,0 +1,1 @@
+b6de0a6c69a4857ca4347f65d7c9a5cb6e52c5bd に続いて Process::Status の & と >> メソッドを deprecated にして警告を出力するようにしています。 [ruby-core:114668] [Bug #19868]
