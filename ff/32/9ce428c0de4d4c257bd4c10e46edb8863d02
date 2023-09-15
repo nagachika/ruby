@@ -1,0 +1,1 @@
+YJIT のプロファイル情報の yjit_alloc_size というのをコンパイル時に有効に指定しなくても常に有効になるようにしています。 https://github.com/ruby/ruby/pull/8426
