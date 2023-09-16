@@ -1,0 +1,1 @@
+configure のオプション --with-opt-dir の処理時に -I オプションの追加を CPPFLAGS 変数にセットしていたのを INCFLAGS を更新するように変更しています。どっちでもよさそうに思えるけどチケットをみると rbconfig.rb の RbConfig::CONFIG の設定に影響していて拡張ライブラリのビルド時にエラーになることがあったみたいです。 [ruby-core:114250] [Bug #19778]
