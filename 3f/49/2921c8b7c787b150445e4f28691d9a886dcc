@@ -1,0 +1,1 @@
+parse.y の reg_named_capture_assign_iter() という関数でほぼ rb_reg_named_capture_assign_iter_impl() という関数に内容を委譲するようにリファクタリングしています。
