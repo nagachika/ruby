@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Assembler の new_with_label_names メソッドで配列の初期化時にサイズを指定してあらかじめ確保しておくようにしているようです。 https://github.com/ruby/ruby/pull/8437
