@@ -1,0 +1,1 @@
+Thread#native_thread_id の実装でシステムコールの呼び出しを抑制するために結果をキャッシュしていたのが、fork することで変化する環境があるというのに対応していなかったので thread_sched_atfork() の中で fork 後に再取得するようにしています。 https://github.com/ruby/ruby/pull/8418 [ruby-core:114681] [Bug #19873]
