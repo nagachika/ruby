@@ -1,0 +1,1 @@
+YJIT の実装の yjit/src/codegen.rs というファイルの先頭に BOM がついていたのを削ったみたいです。
