@@ -1,0 +1,1 @@
+YJIT の Rust 実装で disasm 出力用の処理を不要な時にスキップするようにしているみたいです。 https://github.com/ruby/ruby/pull/8441
