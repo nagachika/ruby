@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境向け workflow で OpenSSL のライブラリを使わないようにするために rename する処理を vs2019 では行なわないようにしています。ファイルがなくなったみたいです。
