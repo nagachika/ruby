@@ -1,0 +1,1 @@
+YJIT の Rust 実装で JIT コンパイル時に不要な配列の確保を抑制する最適化をしているようです。 https://github.com/ruby/ruby/pull/8446
