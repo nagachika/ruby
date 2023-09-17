@@ -1,0 +1,1 @@
+efe2822708d62bfe3ba858da526e6ef7d4724959 の malloc_trim(3) の呼び出し追加に関連して gc.c の malloc 用のヘッダを #include するための preprocessor 分岐に HAVE_MALLOC_TRIM のチェックを追加しています。 WASM 向けのビルドがエラーになってたみたいです。
