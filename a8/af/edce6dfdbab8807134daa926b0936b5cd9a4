@@ -1,0 +1,1 @@
+irb の history ファイルの保存処理で並列実行対応のため HISTORY のコピーを作ってから保存処理するようにしているようです。 https://github.com/ruby/irb/pull/651
