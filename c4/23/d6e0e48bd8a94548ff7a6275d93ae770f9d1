@@ -1,0 +1,1 @@
+bundler の Bundler::Setting でキーのキャッシュをするように最適化しています。
