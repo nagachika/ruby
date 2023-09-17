@@ -1,0 +1,1 @@
+efe2822708d62bfe3ba858da526e6ef7d4724959 の Process.warmup の実装から malloc_trim() の呼び出しを追加した対応の続きで malloc_trim() が利用可能な時にも malloc.h を #include するように修正しています。 emscripten 向けの修正とのこと。
