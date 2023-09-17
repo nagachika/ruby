@@ -1,0 +1,1 @@
+e9b503f1bb9692eda1d1f55f62c19d861b88a0d5 で追加した Range#overlap? メソッドの実装は Range#cover? メソッドの実装を利用するシンプルな実装になっていましたが展開して独自にロジックを実装するようにしています。高速化のためみたいです。[追記]空の Range の時の不具合修正も含まれているそうでした。[/追記] https://github.com/ruby/ruby/pull/8242 [ruby-core:114399] [Feature #19839]
