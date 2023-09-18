@@ -1,0 +1,1 @@
+parse.y の new_op_assign() で不要な分岐を削除しているようです。
