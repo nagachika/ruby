@@ -1,0 +1,1 @@
+209d5f8482d13a798f3ffd2faa6cbddb0f5b6724 の続きで malloc_trim(3) の呼び出し追加による emscripten 環境向けビルドの修正。 emscripten 環境では emscripten/emmalloc.h というヘッダファイルを #include するようにしています。
