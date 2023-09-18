@@ -1,0 +1,1 @@
+Range#=== や Range#cover? で範囲内かどうかのチェックをするメソッドで beginless/endless の Range オブジェクトの時にエラーになっていた不具合を修正しています。 [ruby-core:114641] [Bug #19864]
