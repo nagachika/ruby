@@ -1,0 +1,1 @@
+irb のテストの helper で環境変数 HOME と XDG_CONFIG_HOME を一時ディレクトリに設定しておくようにして irbrc の影響を受けないようにしています。 https://github.com/ruby/irb/pull/714
