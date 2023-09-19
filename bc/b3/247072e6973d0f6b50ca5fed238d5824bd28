@@ -1,0 +1,1 @@
+fe0225ff4d5af8b1f54009727b39d0d9b821eea3 の続きで common.mk で INCFLAGS 変数に configure の引数による $(incflags) の指定も含めるようにしています。 [ruby-core:114250] [Bug #19778]
