@@ -1,0 +1,1 @@
+4634405f7c7a7e0b5490ed3de35c12aad9c91bf5 で rb_mRubyVMFrozenCore に確保するようにしたクラスの class path を rb_gc_register_mark_object() で GC mark の root として登録するようにしています。 [ruby-core:105692] [Bug #18257]
