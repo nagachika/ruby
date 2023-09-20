@@ -1,0 +1,1 @@
+813a5f4fc46a24ca1695d23c159250b9e1080ac7 で  CRuby の VM が内部的に利用するメソッドなどを定義しておくための VM FrozenCore を T_IMEMO 型のオブジェクトとして生成するように変更していたのを revert して rb_mRubyVMFrozenCore にクラスとして生成するようにしています。 [ruby-core:105692] [Bug #18257]
