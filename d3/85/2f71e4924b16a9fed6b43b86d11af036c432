@@ -1,0 +1,1 @@
+GC の compaction の検証関数 gc_verify_compaction_references() で heap をソートする関数で比較関数を引数で指定できるようにリファクタリングしています。この後の変更で比較関数を変更可能にするためみたいです。
