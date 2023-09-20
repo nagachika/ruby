@@ -1,0 +1,1 @@
+bundler で bundle gem で生成するプロジェクトの GitHub Actions 用のテンプレートで利用する actions/checkout アクションのバージョンを更新しています。
