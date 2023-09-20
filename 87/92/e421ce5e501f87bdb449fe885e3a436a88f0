@@ -1,0 +1,1 @@
+d3852f71e4924b16a9fed6b43b86d11af036c432 からの続きで gc.c の構造体 struct heap_page に pinned_slots メンバーを追加して compaction で移動しないよう pinned された slot の数を管理して、compact 時に pinned されたオブジェクトが多い page から移動先に使うようにすることで効率良く compaction することを目論んでいるようです。
