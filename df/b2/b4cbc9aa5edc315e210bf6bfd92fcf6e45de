@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom に SecureRandom.uuid_v7 メソッドを新規追加しています。 https://github.com/ruby/ruby/pull/7953 [ruby-core:113926] [Bug #19735]
