@@ -1,0 +1,1 @@
+標準添付ライブラリ base64 の gemspec ファイルの required_ruby_version を 2.4 以降に引き上げています。
