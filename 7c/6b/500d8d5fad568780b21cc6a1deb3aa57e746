@@ -1,0 +1,1 @@
+d182d83ce929cd322f4a6fd134cd31be950eca77 からの続き。 bundler での Marshal.load の仕様(挙動)変更への対応を呼び元のほうで吸収しているようです。
