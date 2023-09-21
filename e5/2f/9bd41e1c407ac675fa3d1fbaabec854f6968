@@ -1,0 +1,1 @@
+d182d83ce929cd322f4a6fd134cd31be950eca77 からの続き。 bundler で Gem::SafeMarshal.safe_load のエラーを捕捉して適切な例外を投げ直すようにしています。
