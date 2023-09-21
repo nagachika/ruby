@@ -1,0 +1,1 @@
+d182d83ce929cd322f4a6fd134cd31be950eca77 からの続き。 Gem::SafeMarshal で bundler 由来の Symbol などを許可リストに追加しています。
