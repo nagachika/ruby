@@ -1,0 +1,1 @@
+d182d83ce929cd322f4a6fd134cd31be950eca77 からの続き。 Gem::SafeMarshal のテストの一部を JRuby や TruffleRuby で skip するようにしています。
