@@ -1,0 +1,1 @@
+vm_method.c の Init_Method() という関数は空になっていたので削除しています。
