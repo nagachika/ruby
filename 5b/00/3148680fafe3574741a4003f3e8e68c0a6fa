@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems 同期時に ext/ 配下の拡張子 .java のファイルを無視するようにしています。
