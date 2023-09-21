@@ -1,0 +1,1 @@
+vm_method.c の callable_method_entry_refeinements0() という static 関数の関数名が typo してたので callable_method_entry_refinements0() に改名しています。
