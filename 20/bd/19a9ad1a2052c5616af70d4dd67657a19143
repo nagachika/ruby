@@ -1,0 +1,1 @@
+Makefile の YARP_BUILD_DIR という変数の定義を template/Makefile.in および win32/Makefile.sub から common.mk に移動して相対パスでの定義にしています。
