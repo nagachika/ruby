@@ -1,0 +1,1 @@
+ビルドプロセスの ripper_srcs というターゲットの並列化の抑制で .NOTPARALLEL という疑似ターゲットを使っていたのが新しい GNU Make でないと動かないみたいで common.mk での記述から defs/gmake.mk に移動しています。
