@@ -1,0 +1,1 @@
+NEWS で MJIT の削除について追記しています。また configure のオプションの --disable-jit-support を指定する GitHub Actions でのビルドを削除しています。
