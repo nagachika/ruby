@@ -1,0 +1,1 @@
+tool/make-snapshot で clean.create という特異メソッドでブロックを受け取るようにして File.open に委譲するようにリファクタリングしています。
