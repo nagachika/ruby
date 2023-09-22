@@ -1,0 +1,1 @@
+GitHub Actions の各種 workflow で slack 通知のアクションを GitHub の ruby 組織のリポジトリ内への push の時だけ実行しようとするようにしています。
