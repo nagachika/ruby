@@ -1,0 +1,1 @@
+Range#bsearch で Fixnum の範囲に納まる beginless/endless range の場合にさらに直接ループする実装で最適化しています。
