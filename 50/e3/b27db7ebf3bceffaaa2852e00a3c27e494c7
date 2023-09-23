@@ -1,0 +1,1 @@
+拡張ライブラリ zlib のテストで TruffleRuby 向けの一部テストの skip を追加しています。
