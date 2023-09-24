@@ -1,0 +1,1 @@
+GitHub Actions の YJIT を有効化した workflow で make test-bundled-gems で rbs のエラーを無視させるために環境変数 TEST_BUNDLED_GEMS_ALLOW_FAILURES の設定を追加しています。
