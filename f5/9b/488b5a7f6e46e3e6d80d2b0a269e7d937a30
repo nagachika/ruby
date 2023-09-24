@@ -1,0 +1,1 @@
+irb の組み込みコマンド show_source の出力をページャーコマンド経由で出力するようにしています。 https://github.com/ruby/irb/pull/719
