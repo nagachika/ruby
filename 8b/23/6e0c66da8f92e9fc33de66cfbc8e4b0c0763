@@ -1,0 +1,1 @@
+Refinements でメソッドの再定義をすると method entry がメモリリークしていた不具合を修正しています。構造体 rb_method_definition_t の alias_count は reference_count と改名しています。 [ruby-core:114847] [Bug #19896]
