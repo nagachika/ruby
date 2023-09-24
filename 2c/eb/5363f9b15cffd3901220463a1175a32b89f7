@@ -1,0 +1,1 @@
+method.h の構造体 rb_method_definition_t のメンバー body のオフセットに関する STATIC_ASSERT() のチェックを緩めています。 m68k アーキテクチャでのビルドのエラー対策のため。
