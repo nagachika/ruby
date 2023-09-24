@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr の IPAddr#include? で中間オブジェクトの Range の生成をやめてアドレス範囲の begin と end を直接比較するように最適化しています。
