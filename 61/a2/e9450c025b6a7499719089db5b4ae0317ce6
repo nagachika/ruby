@@ -1,0 +1,1 @@
+Hash#rehash の st_table ベース実装の時のメモリリークを修正。関数名に hash_ の prefix を追加するリファクタリングが一緒に入ってますが基本的に hash_st_free_and_clear_table() の呼び出しが抜けてて古い st_table を解放していないところがあったみたいです。いつからだろう。
