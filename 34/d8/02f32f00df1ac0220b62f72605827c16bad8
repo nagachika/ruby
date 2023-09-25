@@ -1,0 +1,1 @@
+parse.y の拡張ライブラリ ripper 向けの関数定義 new_args_tail() を ripper_new_yylval2() に委譲するように書きかえています。
