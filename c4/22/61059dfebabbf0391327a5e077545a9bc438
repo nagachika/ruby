@@ -1,0 +1,1 @@
+Module#clone を呼び出してモジュール/クラスの複製を作った時に rb_id_table の解放処理が漏れていてメモリリークしていたのを修正しています。 https://github.com/ruby/ruby/pull/8503 [ruby-core:114889] [Bug #19901]
