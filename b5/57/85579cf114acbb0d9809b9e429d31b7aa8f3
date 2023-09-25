@@ -1,1 +1,1 @@
-parse.y で defined? の引数内であることを struct lex_context のメンバーで管理するために bison のルール部にコードブロックを書く記法で書いてたのを begin_defined というそのためだけのノードを追加してここでセットするようにして、アクション部で in_defined フラグを落とすところで元の値に復元させるようにしています。 defined? がネストした時に但しく parse できるようにするため。
+parse.y で defined? の引数内であることを struct lex_context のメンバーで管理するために bison のルール部にコードブロックを書く記法で書いてたのを begin_defined というそのためだけのノードを追加してここでセットするようにして、アクション部で in_defined フラグを落とすところで元の値に復元させるようにしています。 defined? がネストした時に正しく parse できるようにするため。
