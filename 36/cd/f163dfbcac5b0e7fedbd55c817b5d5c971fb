@@ -1,0 +1,1 @@
+61a2e9450c025b6a7499719089db5b4ae0317ce6 の再修正で hash_st_free_and_clear_table() から st_table 構造体自体を 0 クリアする処理を除いたメモリ解放だけする処理を hash_st_free() として切り出して Hash#rehash の実装からはこちらを利用するようにしています。
