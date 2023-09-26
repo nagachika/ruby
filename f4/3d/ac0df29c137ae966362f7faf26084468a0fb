@@ -1,0 +1,1 @@
+gc.c の obj_free() の T_HASH 型オブジェクトの時の処理からメモリ解放部分を 36cdf163dfbcac5b0e7fedbd55c817b5d5c971fb で切り出した hash_st_free() を呼ぶために rb_hash_free() という wrapper 関数を導入しています。
