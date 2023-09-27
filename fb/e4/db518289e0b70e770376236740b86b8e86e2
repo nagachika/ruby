@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の ext/ripper/tools/dsl.rb というツールで parse.y の ripper 向けアクション部の新しい記法をサポートするように機能拡張しています。
