@@ -1,0 +1,1 @@
+Time#strftime に渡した文字列がマルチバイト文字列を含んでいても String#ascii_only? が true になってしまう不具合を修正しています。 rb_str_modify_expand() とかで文字列バッファを拡張して別の文字列バッファからコピーした時に coderange を再計算させるようにしています。 [ruby-dev:52045] [Bug #19902]
