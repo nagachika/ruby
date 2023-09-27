@@ -1,0 +1,1 @@
+85984a53e87dfbccb52aba952367fddea4a77870 の下準備に続いて環境変数 RUBY_BUGREPORT_PATH でファイルパス(pid や時刻などの埋め込み指定のサポートあり)を指定すると rb_bug() などの出力をそこにする機能を追加しています。 [ruby-core:114319] [Feature #19790]
