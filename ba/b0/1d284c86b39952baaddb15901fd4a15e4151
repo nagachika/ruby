@@ -1,0 +1,1 @@
+rb_bug() の出力ファイルを指定する環境変数 RUBY_BUGREPORT_PATH を RUBY_CRASH_REPORT に改名しています。 [ruby-core:114319] [Feature #19790]
