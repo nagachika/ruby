@@ -1,0 +1,1 @@
+ruby の man ページに環境変数 RUBY_BUGREPORT_PATH についての説明を追加しています。 [ruby-core:114319] [Feature #19790]
