@@ -1,0 +1,1 @@
+85984a53e87dfbccb52aba952367fddea4a77870 の rb_bug() でのダンプ出力中のエラー処理のための変更で vm_dump.c の rb_print_backtrace() のラベルが抜けてたのを修正しています。
