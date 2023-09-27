@@ -1,0 +1,1 @@
+拡張ライブラリ zlib のテストで assert_separately を利用して Zlib.gzip のテストを子プロセスを起動してテストするようにしています。
