@@ -1,0 +1,1 @@
+win32/win32.c の w32_aspawn_flags() という関数を w32_spawn_process() と改名して引数を追加し、標準入出力と標準エラー出力を差し替えできるようにしているようです。 [ruby-core:114319] [Feature #19790]
