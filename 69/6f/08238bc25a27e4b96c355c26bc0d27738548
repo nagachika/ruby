@@ -1,0 +1,1 @@
+ruby の man ページに 7e2775b057d19d5ed06877c3b02299e3b5d2beb7 で追加した RUBY_BUGREPORT_PATH の先頭が "|" の時にコマンド実行する仕様について追記しています。 [ruby-core:114319] [Feature #19790]
