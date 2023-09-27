@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Unicode 15.1.0 に対応して East Asian Width の対応のためのテーブルを更新しています。 https://github.com/ruby/reline/pull/591
