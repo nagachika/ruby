@@ -1,0 +1,1 @@
+parse.y に begin_definition() というマクロを切り出すリファクタリング。
