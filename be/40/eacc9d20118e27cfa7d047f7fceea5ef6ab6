@@ -1,0 +1,1 @@
+error.c の 89b3c111ff0b846d9ded0cff3ca08cb566c6cc25 で追加した open_report_path() から置換部分を expand_report_argument() という関数に切り出しています。 [ruby-core:114319] [Feature #19790]
