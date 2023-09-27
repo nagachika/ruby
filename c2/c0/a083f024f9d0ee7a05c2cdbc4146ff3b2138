@@ -1,0 +1,1 @@
+irb の組み込みコマンド show_source のテストでページャーコマンドが起動されないように STDIN.tty? が false になるようにしています。 https://github.com/ruby/irb/pull/720
