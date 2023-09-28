@@ -1,0 +1,1 @@
+bundler の Gemfile で git リポジトリの commit hash での指定の解析の修正。
