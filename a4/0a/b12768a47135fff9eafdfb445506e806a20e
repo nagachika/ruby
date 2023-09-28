@@ -1,0 +1,1 @@
+Kernel#system などの rdoc 用コメントの一部を Process モジュールの rdoc 用コメントに移動するなどの変更。
