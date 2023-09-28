@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の設定ファイルの $include で別ファイルを読み込む処理でファイルパスを File.expand_path で展開するようにしています。 https://github.com/ruby/reline/pull/592
