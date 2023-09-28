@@ -1,0 +1,1 @@
+構造体 rb_iseq_t の解放処理 rb_iseq_free() で解放漏れがあったのを修正しています。 [ruby-core:114897] [Bug #19903]
