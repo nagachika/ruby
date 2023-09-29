@@ -1,0 +1,1 @@
+compile.c の rb_iseq_compile_prism_node() で prism 側の変更への追随。
