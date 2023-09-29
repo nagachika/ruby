@@ -1,0 +1,1 @@
+Thread::Queue や Thread::SizedQueue が freeze しても push/pop などができてしまう、というチケットに対してそもそも freeze を受付けないようにしています。 TypeError 例外を発生させるようです。 [ruby-core:99903] [Bug #17146]
