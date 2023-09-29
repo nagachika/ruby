@@ -1,0 +1,1 @@
+gems/bundled_gems の net-smtp のバージョンを 0.4.0 に更新しています。また NEWS の bundled gems のバージョンリストにも net-smtp を追記して、b72e320733c21c4309b8831a1a48d315f2b549d0 の rbs のバージョン更新にも追随しています。
