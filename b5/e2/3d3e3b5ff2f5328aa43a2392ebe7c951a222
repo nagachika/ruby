@@ -1,0 +1,1 @@
+parse.y で keyword_yield というノードを k_yield というノードで wrap して yield を書けない場所に書かれてたら実行時エラーではなく SyntaxError にするようにしています。
