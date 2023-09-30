@@ -1,0 +1,1 @@
+NEWS に ocket#recv Socket#recv_nonblock で socket が shutdown されていた時の戻り値の変更について追記しています。 [ruby-core:109961] [Bug #19012]
