@@ -1,0 +1,1 @@
+rb_warning() などの警告出力系の C の関数の Doxygen 用コメントの修正。
