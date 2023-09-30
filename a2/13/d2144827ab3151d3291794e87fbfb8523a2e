@@ -1,0 +1,1 @@
+prism/ 配下の prism_compiler.c や prism_init.c といったソースコードをトップレベルに移動しています。そうなんだ。
