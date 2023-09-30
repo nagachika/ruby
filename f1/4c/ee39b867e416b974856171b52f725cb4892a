@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct の利用時に performance カテゴリの警告で OpenStruct の利用を非推奨とする警告メッセージを出力するようにしています。Data で代替しろということなんでしょうけどその suggestion はないんですね。 OpenStruct.new するたびに出力されるので performance カテゴリを有効にするとめっちゃ出そうですね。 https://github.com/ruby/ostruct/pull/56
