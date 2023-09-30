@@ -1,0 +1,1 @@
+NODE の構造体 rb_node_op_asgn2_t と rb_node_op_asgn22_t を統合して rb_node_op_asgn2_t で両方表現するようにリファクタリングしています。
