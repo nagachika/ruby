@@ -1,0 +1,1 @@
+retry 文を SyntaxError にする時の判定のミスを修正しています。
