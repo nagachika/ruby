@@ -1,0 +1,1 @@
+rb_bug() などで出力する crash report ファイルを確認するテストで使う assert_crash_report という assertion メソッドで期待する出力の "-e" を指定のコマンド名に置換する処理の正規表現をより厳密にしています。
