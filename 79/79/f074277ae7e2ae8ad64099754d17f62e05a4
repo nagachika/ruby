@@ -1,0 +1,1 @@
+rb_node_def_temp_t という構造体の宣言を rubyparser.h から parse.y に移動して、さらにメンバーの nd_cval という VALUE 型のメンバーで保持していた YYSTYPE の情報を struct lex_context を直接参照するようにしています。
