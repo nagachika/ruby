@@ -1,0 +1,1 @@
+YJIT で整数のかけ算の最適化でオーバーフロー時の脱最適化の考慮を追加しているみたいです。 https://github.com/ruby/ruby/pull/8554
