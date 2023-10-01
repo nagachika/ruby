@@ -1,0 +1,1 @@
+parser で使う AST の node のメモリ管理に使う node_buffer_list_t 構造体の解放処理せのメモリリークを修正しています。
