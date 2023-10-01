@@ -1,0 +1,1 @@
+parse.y の構造体 struct parser_params から tokline というメンバーを削除してかわりに処理中のトークンの位置情報を利用するように変更しています。
