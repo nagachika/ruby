@@ -1,0 +1,1 @@
+parse.y の ruby/internal/config.h の #include を UNIVERSAL_PARSER マクロでの分岐の外に出しています。
