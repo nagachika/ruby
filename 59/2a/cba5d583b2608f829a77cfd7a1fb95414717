@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で報告する side exit の理由を出力する VM 命令の種類を増やしています。 https://github.com/ruby/ruby/pull/8541
