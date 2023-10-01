@@ -1,0 +1,1 @@
+Travis-CI の設定で s390x-linux でのビルド時に Ubuntu の Jammy を指定して環境変数 DFLTCC=0 を指定するようにしています。 https://github.com/ruby/ruby/pull/8401
