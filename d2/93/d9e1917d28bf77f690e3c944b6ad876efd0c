@@ -1,0 +1,1 @@
+AST の node の構造体 rb_node_aryptn_t および rb_node_fndptn_t のメンバーに構造体を埋め込んでいたのを展開して直接 NODE* のメンバーを持つようにリファクタリングしています。
