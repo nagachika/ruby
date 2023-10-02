@@ -1,0 +1,1 @@
+AST のキーワード引数に関連するノードの構造体 rb_node_opt_arg_t および rb_node_kw_arg_t で linked list を構成するためのポインタに struct RNode を使っていたのをそれぞれタイプごとの構造体を利用するようにリファクタリングしています。
