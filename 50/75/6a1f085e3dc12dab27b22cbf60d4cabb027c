@@ -1,0 +1,1 @@
+parse.y でブロックパラメーターの node にまだ NODE を使っていたところを rb_node_block_pass_t 構造体を利用するようにしています。
