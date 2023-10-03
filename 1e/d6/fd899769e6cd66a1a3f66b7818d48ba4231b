@@ -1,0 +1,1 @@
+compile.c の private_recv_p() で nd_type_p() に渡す前に NODE のポインタの NULL チェックを追加しています。
