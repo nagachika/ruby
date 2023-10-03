@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile の rdoc 用コメントに File オブジェクトも渡せることを明記しています。
