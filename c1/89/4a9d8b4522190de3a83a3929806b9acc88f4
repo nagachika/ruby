@@ -1,0 +1,1 @@
+parse.y でまだ NODE を使っていたところで専用の構造体 rb_node_fcall_t を利用するようにしています。
