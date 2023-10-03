@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する新規プロジェクトの Rakefile に拡張ライブラリを含む gem のための Rake::ExtensionTask.new に Gem::Specification を渡すようにしています。
