@@ -1,0 +1,1 @@
+fdc329ea6f5bce922e95645a0c2118cfd3e1cdea と同様に compile.c で引数や receiver を表現する NODE へアクセスするための関数群 get_nd_recv()、get_nd_mid()、get_nd_args() などを導入するリファクタリング。
