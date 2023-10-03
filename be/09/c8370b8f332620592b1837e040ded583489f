@@ -1,0 +1,1 @@
+tool/enc-unicode.rb で flip-flop 文法を利用するように条件分岐を書きかえています。ついでに文字列のマッチに正規表現を使ってたのを String#start_with? を使うようにしています。
