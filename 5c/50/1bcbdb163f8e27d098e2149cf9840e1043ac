@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストに Psych で扱える YAML の文字数に上限を設定できる場合(JRuby で snakeyaml を利用している場合そうらしい) Psych::Parser.code_point_limit のテストを追加しています。
