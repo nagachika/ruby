@@ -1,0 +1,1 @@
+Process.times の rdoc 用コメントに精度はプラットフォーム依存だという記載を追加して 8be9138de2f9c6ce418f43ee55f5e6bce645bc28 で変更していた rubyspec のテストを削除しています。
