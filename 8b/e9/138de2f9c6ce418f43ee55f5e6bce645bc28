@@ -1,0 +1,1 @@
+rubyspec の Process.clock_gettime の精度を確認するテストで第2引数に :nanosecond を渡して整数で計算するようにしています。
