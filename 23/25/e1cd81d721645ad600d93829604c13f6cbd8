@@ -1,0 +1,1 @@
+標準添付ライブラリ csv で Encoding が不正だった時のエラーを CSV::InvalidEncodingError に変更しています。 https://github.com/ruby/csv/pull/287
