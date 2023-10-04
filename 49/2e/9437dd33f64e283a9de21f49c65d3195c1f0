@@ -1,0 +1,1 @@
+YJIT のテストの一部に YJIT の stats の exits 数のチェックを追加しています。 https://github.com/ruby/ruby/pull/8579
