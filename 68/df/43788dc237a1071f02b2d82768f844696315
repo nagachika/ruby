@@ -1,0 +1,1 @@
+version.h の RUBY_PATCHLEVEL_STR マクロの定義に RUBY_PATCHLEVEL_NAME というマクロが定義されていたらそれを使うようにしています。コンパイル時のオプションでビルド時に指定した patchlevel を使えるようにしたいということみたいです。 https://github.com/ruby/ruby/pull/8578
