@@ -1,0 +1,1 @@
+rubyspec の bigdecimal のテストで 3.3 (つまり master)で実行しないようにしていたテストの guard を外しています。
