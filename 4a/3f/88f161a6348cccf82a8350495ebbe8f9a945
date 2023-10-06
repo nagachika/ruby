@@ -1,0 +1,1 @@
+parse.y の const_decl_path() 内の NODE のキャスト用マクロを間違えて利用していたところを修正。
