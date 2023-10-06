@@ -1,0 +1,1 @@
+compile.c で NODE_COLON2 および NODE_COLON3 型の NODE のキャストを正確に行うための関数を導入しています。
