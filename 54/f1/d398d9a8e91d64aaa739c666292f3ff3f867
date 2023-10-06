@@ -1,0 +1,1 @@
+internal/bits.h の rb_popcount32() と rb_popcount64() のコンパイラの builtin 関数がない時の代替実装でのビットマスクを修正しています。
