@@ -1,0 +1,1 @@
+NODE_DEF_TEMP という AST の node の種類の enum の定義を parse.y のなかに閉じこめるよう移動しています。
