@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPResponse で @body が nil の時のエラー抑制。
