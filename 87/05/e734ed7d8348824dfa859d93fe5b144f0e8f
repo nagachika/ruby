@@ -1,0 +1,1 @@
+tool/rjit/bindgen.rb にデバッグ用と思われる binding.irb が残っていたので削除しています。
