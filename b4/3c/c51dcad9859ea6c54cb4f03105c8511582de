@@ -1,0 +1,1 @@
+irb の IRB::RubyLex が IRB::Context をインスタンス変数に持たず、ローカル変数名などが必要なところでは逐次メソッドの引数で渡すようにリファクタリングしています。 https://github.com/ruby/irb/pull/684
