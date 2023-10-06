@@ -1,0 +1,1 @@
+AST の node の break/next/return 文に対応する node を正しく区別するようにしています。
