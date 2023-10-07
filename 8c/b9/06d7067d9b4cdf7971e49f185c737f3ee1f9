@@ -1,0 +1,1 @@
+fd22d5debba8a2ed97de8f015aea1f120e5dc80d の yjit/yjit.mk の変更の再修正で ifneq による分岐の条件を反転しています。
