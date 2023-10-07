@@ -1,0 +1,1 @@
+Array#pack、String#unpack の実装で指示子のリストの定義で endstr というのが natstr と変化ない時はマクロで同一の変数を使いまわすようにしています。
