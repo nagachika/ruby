@@ -1,0 +1,1 @@
+Array#pack のテストで指示子の j/J のテストでポインタのサイズを RbConfig::SIZEOF['uintptr_t'] を使って判定するように変更しています。
