@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで assert_match で正規表現でマッチさせていたのを assert_include で String#include? での判定に変更しています。
