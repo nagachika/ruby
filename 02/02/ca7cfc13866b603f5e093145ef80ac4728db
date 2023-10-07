@@ -1,0 +1,1 @@
+test/ruby/test_pack.rb 内の rbconfig.rb の require をファイル先頭に移動しています。
