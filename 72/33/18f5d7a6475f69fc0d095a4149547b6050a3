@@ -1,0 +1,1 @@
+95ced6d8d2b6639f3e29fe3d2de6e326d0a62718 と同じく拡張ライブラリ openssl のテストで assert_match のかわりに assert_include を使うように変更しています。
