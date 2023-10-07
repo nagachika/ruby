@@ -1,0 +1,1 @@
+07a7c4bdaf27b80a8d791032986539d5188804c6 での YJIT の Rust 実装の関数削除に対応して yjit/src/cruby_bindings.inc.rs からも宣言を削除しています。
