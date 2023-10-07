@@ -1,0 +1,1 @@
+YJIT 用の Makefile の yjit/yjit.mk で libyjit.o の作成に ld と objcopy を利用する環境に BSD 系 OS を追加しています。 https://github.com/ruby/ruby/pull/8591
