@@ -1,0 +1,1 @@
+YJIT の Rust 実装の Context 構造体の local_types というメンバーの型を u32 に変更してサイズを削減しています。 https://github.com/ruby/ruby/pull/8597
