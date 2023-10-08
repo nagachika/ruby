@@ -1,0 +1,1 @@
+AST の NODE_REQUIRED_KEYWORD 型の NODE の判定をする NODE_REQUIRED_KEYWORD_P() というマクロに渡す node を親の node から nd_value メンバーを辿ったものを渡すようにしてマクロ内で辿るのをやめています。
