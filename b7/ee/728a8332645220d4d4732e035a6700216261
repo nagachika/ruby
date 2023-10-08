@@ -1,0 +1,1 @@
+parse.y で nd_value や nd_vid といった node 用の構造体のメンバーにアクセスする時に型に応じて適切なキャストつきでアクセスするようにするためのヘルパー関数 get_nd_value()、set_nd_value()、get_nd_vid() を導入するリファクタリング。
