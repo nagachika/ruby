@@ -1,0 +1,1 @@
+parse.y で AST の NODE_MASGN 型の node に NODE 型がまだ利用されていたところを専用の構造体型 rb_node_masgn_t を利用するようにリファクタリングしています。
