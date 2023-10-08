@@ -1,0 +1,1 @@
+doc/packed_data.rdoc の Array#pack/String#unpack の指示子についてのドキュメントの環境によってサイズが異なるものについての記述を強化しています。
