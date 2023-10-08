@@ -1,0 +1,1 @@
+ast.c の node_children() で代入関係の node NODE_{DASGN,IASGN,CVASGN,GASGN} をまとめて処理していたのを分岐して適切なキャストをするようにしています。
