@@ -1,0 +1,1 @@
+ast.c の node_children() で NODE_?VAR 系の NODE や NODE_CONST の処理をまとめてたのを分岐して個別の構造体のキャストをちゃんと分けるようにしています。
