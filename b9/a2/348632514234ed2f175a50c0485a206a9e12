@@ -1,0 +1,1 @@
+parse.y で ruby_node_name() への依存をやめて parse.y 内部に独自に parser_node_name() という関数を定義するようにしています。parse.y 内部でのみ利用する NODE のタイプがあるのでその対応のためみたいです。
