@@ -1,0 +1,1 @@
+AST の node の種類 NODE_DEFN と NODE_DEFS の作成時に NEW_DEFN() や NEW_DEFS() といったマクロで生成するのをやめて確保済みの NODE を再利用? するようにしているようです。ID の番号の変化で typeprof のテストが失敗していたのを修正するためみたいです。
