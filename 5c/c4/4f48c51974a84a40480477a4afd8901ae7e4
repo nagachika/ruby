@@ -1,0 +1,1 @@
+Object Shapes の実装で使う rb_shape_transition_shape_capa という関数の引数 new_capacity を削除して自動で現在の capa を 2倍に設定するようにしています。
