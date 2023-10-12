@@ -1,0 +1,1 @@
+doc/yjit/yjit.md で C 実装のメソッドの例として Integer#times が書かれてましたが現在は ruby 実装になっているので Array#each に変更しています。
