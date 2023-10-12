@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプション --yjit-trace-exits が configure でビルド時のオプション指定なしでも使えるようにしています。 https://github.com/ruby/ruby/pull/8619
