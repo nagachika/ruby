@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストでメソッドの再定義の警告抑制のために Module#remove_method を呼ぶのを send を使って呼ぶようにしています。古い ruby で remove_method が private なのでその対応のため。
