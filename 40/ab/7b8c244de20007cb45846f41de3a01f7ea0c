@@ -1,0 +1,1 @@
+Module#autoload のテストのひとつが macOS の High Sierra で失敗するとのことで target_os を調べて skip するようにしています。
