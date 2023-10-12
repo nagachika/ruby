@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで Module#define_method を呼ぶところも send メソッド経由にしています。これも古い ruby での実行のためみたいです。
