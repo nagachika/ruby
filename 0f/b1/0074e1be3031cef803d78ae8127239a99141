@@ -1,0 +1,1 @@
+defs/gmake.mk の bundled gems の更新処理のためのアクションで git コマンドの実行を git rev-parse の結果が意図した commit hash になってなかったら抑制するようにしています。カレントディレクトリが書き込み不可の時のエラー回避のためみたいです。
