@@ -1,0 +1,1 @@
+構造体 NODE のビットフラグ flags で NODE_FL_NEWLINE というフラグの検査/操作をする処理を rubyparser.h でマクロとして定義してこれを利用するようにしています。
