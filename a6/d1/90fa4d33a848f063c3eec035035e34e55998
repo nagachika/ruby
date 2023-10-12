@@ -1,0 +1,1 @@
+doc/yjit/yjit.md でビルド方法のサンプルで make install を -j オプションをつけて実行しないようにしています。
