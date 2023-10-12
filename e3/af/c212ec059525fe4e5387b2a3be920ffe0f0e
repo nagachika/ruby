@@ -1,0 +1,1 @@
+Object Shapes の実装の attr_index_t という型を uint8_t に小さくしています。
