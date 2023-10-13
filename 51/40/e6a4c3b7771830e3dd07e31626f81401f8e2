@@ -1,0 +1,1 @@
+irb の exit コマンドの実装で irb_context が nil の場合を許容するように修正しています。
