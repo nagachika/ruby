@@ -1,0 +1,1 @@
+tool/leaked-globals で C の symbol の leak チェックの無視するリストに _init と _fini というのを追加しています。 FreeBSD で誤検出していたみたいです。
