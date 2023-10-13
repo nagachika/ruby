@@ -1,0 +1,1 @@
+irb の補完処理の実装に使うクラス名の変更やコードの構成を変更するリファクタリング。 https://github.com/ruby/irb/pull/707
