@@ -1,0 +1,1 @@
+GitHub Actions の macOS 向けの workflow の matrix で macos-11 と macos-12 のそれぞれで configure 時の --enable-shared の有無をビルドしていたのを macos-11 と macos-12+オプション--enable-shared 付きと 2パターンに減らしています。
