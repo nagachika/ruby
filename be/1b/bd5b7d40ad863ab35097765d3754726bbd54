@@ -1,0 +1,1 @@
+詳細は読めてませんが Thread に対して 1:1 で native thread を割当てるのではなく複数の native thread を使いまわす M:N Thread の実装をマージしています。コミットログによると複数 Ractor を利用していなければ main Ractor 内ではこれまで通りの 1:1 の Thread 戦略が維持されるみたいです。 [ruby-core:114422] [Bug #19842]
