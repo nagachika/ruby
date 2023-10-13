@@ -1,0 +1,1 @@
+rubygems の gem install? で環境変数 GEM_HOME で指定されているディレクトリに書き込み不可な時に警告メッセージを出しつつ user install に fallback するようにしています。
