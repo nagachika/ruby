@@ -1,0 +1,1 @@
+thread_pthread.c の ruby_ppoll() 関数が未使用の警告が出ることがあるので preprocessor 分岐を修正しています。 be1bbd5b7d40ad863ab35097765d3754726bbd54 の M:N Thread の変更後の対応かな?
