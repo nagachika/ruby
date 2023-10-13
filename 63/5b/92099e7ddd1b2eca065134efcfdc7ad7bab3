@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all が super() の呼び出しをもつメソッドがあると異常終了していた? のを修正しているようです。これって backport 必要なやつだろうか?
