@@ -1,0 +1,1 @@
+rubygems の 7aebe2a52bac2a925c475c511640ad13a7d20490 の変更への追随で Gem::Installer で --user-install の指定がないけど fallback した時の処理の分岐を整理しています。
