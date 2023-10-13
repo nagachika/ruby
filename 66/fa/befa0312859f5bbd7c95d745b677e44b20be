@@ -1,0 +1,1 @@
+Range#reverse_each の実装を Enumerable#reverse_each とは別に独自に追加しています。性能のためとのこと。整数の時の特別扱いの実装も追加されています。
