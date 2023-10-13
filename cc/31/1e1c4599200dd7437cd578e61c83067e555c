@@ -1,0 +1,1 @@
+irb の debug コマンド利用時の multi thread 対応の修正のようです。 https://github.com/ruby/irb/pull/725
