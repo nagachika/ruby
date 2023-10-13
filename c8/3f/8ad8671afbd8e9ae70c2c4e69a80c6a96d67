@@ -1,0 +1,1 @@
+7aebe2a52bac2a925c475c511640ad13a7d20490 からの rubygems の修正の続き。環境変数 GEM_HOME の指定を得る Gem::PathSupport#home の実装を fallback に対応しています。
