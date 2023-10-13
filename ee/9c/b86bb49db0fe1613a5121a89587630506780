@@ -1,0 +1,1 @@
+rubygems の Gem::PathSupport のメソッド切り出しのリファクタリング。
