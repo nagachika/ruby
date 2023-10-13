@@ -1,0 +1,1 @@
+635b92099e7ddd1b2eca065134efcfdc7ad7bab3 の続きで拡張ライブラリ objspace の ObjectSpace.dump_all などで文字列のクオートのための処理を書きかえています。
