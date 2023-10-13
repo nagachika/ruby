@@ -1,0 +1,1 @@
+configure で macOS (darwin) では --enable-shared をデフォルトで on にするようにしています。 --enable-shared って全般的にデフォルトで on じゃなかったのか。 [ruby-core:112262] [Feature #19422]
