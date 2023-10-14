@@ -1,0 +1,1 @@
+bundler の require 実装で gem 名からファイル名にするため "/" を "-" に置き換える処理を Gem::BUNDLED_GEMS.warning? の実装内に移動するリファクタリング。
