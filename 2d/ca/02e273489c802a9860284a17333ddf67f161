@@ -1,0 +1,1 @@
+thread_pthread.c で M:N Thread を有効にするかどうかの判定部分でコンパイル時に USE_MN_THREADS が偽だった時には常に無効にするようにしています。
