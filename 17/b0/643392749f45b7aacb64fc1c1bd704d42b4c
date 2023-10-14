@@ -1,0 +1,1 @@
+parse.y で次の文字を取得するのに構造体 struct parser_params のメンバーを直接参照せずに peekc() などのマクロを利用するようにしています。適切なキャストを含めて unsigned char で取得するため。 [ruby-core:115023] [Bug #19924]
