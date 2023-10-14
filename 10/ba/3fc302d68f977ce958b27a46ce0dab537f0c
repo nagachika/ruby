@@ -1,0 +1,1 @@
+thread_pthread_mn.c でメモリページのサイズを決め打ちで定義していたところを sysconf(2) を使って取得するようにしています。 sysconf() は configure で存在チェックしているので HAVE_SYSCONF で分岐したほうが良いような気もするけど。
