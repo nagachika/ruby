@@ -1,0 +1,1 @@
+bundler で上書きする require で default gems の require に対して警告を出す実装で Gem::BUNDLED_GEMS.warning? というメソッドを再利用するようにリファクタリングしています。
