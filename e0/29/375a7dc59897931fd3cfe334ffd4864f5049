@@ -1,0 +1,1 @@
+irb で行番号の管理を IRB::RubyLex でしていたのを IRB::Irb のほうで管理するようにリファクタリングしています。 https://github.com/ruby/irb/pull/701
