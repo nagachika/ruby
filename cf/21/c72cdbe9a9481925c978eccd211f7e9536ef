@@ -1,0 +1,1 @@
+irb で IRB::ExtendCommandBundle で irb_context が nil の時にエラーになっていたのを修正しています。 https://github.com/ruby/irb/pull/728
