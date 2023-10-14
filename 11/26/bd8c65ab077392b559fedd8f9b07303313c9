@@ -1,0 +1,1 @@
+irb の補完処理で nil を返すべきときに誤って空配列を返して誤動作していたことがあったのを修正しています。 https://github.com/ruby/irb/pull/726
