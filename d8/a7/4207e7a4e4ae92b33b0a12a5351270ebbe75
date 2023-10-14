@@ -1,0 +1,1 @@
+thread_pthread_mn.c で __uint32_t という型を使っていたところを uint32_t に変更しています。
