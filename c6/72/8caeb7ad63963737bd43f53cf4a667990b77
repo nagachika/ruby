@@ -1,0 +1,1 @@
+bundler 利用時の (元) default gems の require 時の警告で gem 名の埋め込みのために参照する変数の間違いを修正。
