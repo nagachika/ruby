@@ -1,0 +1,1 @@
+GitHub Actions の macOS 上で YJIT を有効にしたバージョンの workflow を追加しています。また通常の macOS 版の workflow に os: macos-arm-oss という環境でのテストも追加しています。  macOS の ARM アーキテクチャ用の環境が GitHub Actions に追加されたみたいですね。  https://github.com/ruby/ruby/pull/8633
