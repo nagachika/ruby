@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で警告を出力する処理を Gem.find_unresolved_default_spec を再定義することで埋め込んでたのを LoadError#message を再定義してそこで警告出力するようにしています。 bundler 経由でなくても LoadError が(既に bundled 化 or 削除された元 default gems のライブラリについて?)発生した場合に警告が出力されるようにしています。
