@@ -1,0 +1,1 @@
+M:N Thread 対応の追加修正で thread_cleanup_func() の最後に native_thread_destroy() を呼んでいたのを rb_threadptr_sched_free() の呼び出しまで遅延するようにしています。
