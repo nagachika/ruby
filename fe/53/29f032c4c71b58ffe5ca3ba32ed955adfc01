@@ -1,0 +1,1 @@
+lib/bundled_gems.rb の LoadError#message の再定義の実装で定数 Bundler が未定義の場合のみ警告出力するようにしています。
