@@ -1,0 +1,1 @@
+lib/bundled_gems.rb での警告に bundler 未使用の状態の場合の suggest (gem install しろというもの)も追加しています。
