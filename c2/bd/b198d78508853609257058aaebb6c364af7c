@@ -1,0 +1,1 @@
+bundler で上書きする require の実装で inline Gemfile というモード? の対応をしていた分岐を削除しています。
