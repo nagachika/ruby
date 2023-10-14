@@ -1,0 +1,1 @@
+YJIT の ISeq を JIT コンパイルするかどうかの判定の処理を Rust 実装から C 実装のほうへ移植しているようです。パフォーマンスのためとのこと。 https://github.com/ruby/ruby/pull/8628
