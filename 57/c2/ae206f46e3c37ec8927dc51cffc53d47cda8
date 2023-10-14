@@ -1,0 +1,1 @@
+bundler の再定義する require での警告出力で利用している gem からの require だった時にその gem の作者に連絡するようにというメッセージを追加していた処理も Gem::BUNDLED_GEMS の実装のほうに移動しています。
