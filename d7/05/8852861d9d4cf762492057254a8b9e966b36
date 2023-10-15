@@ -1,0 +1,1 @@
+コマンドラインオプションに --dump=prism を追加して prism による AST を出力するようにしているようです。 https://github.com/ruby/ruby/pull/8643
