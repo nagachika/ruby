@@ -1,0 +1,1 @@
+parser で利用する構造体 rb_strterm_t を T_IMEMO 型オブジェクトで wrap して保持していたのをやめて直接構造体を扱うようにして構造体 rb_parser_config_t の不要になったメンバーを削除しています。
