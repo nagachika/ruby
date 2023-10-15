@@ -1,0 +1,1 @@
+GitHub Actions の workflow .github/workflows/check_misc.yml での checkout 時に matzbot 用の GitHub token を利用するようにしています。
