@@ -1,0 +1,1 @@
+VM 命令 opt_getconstant_path の実装を rb_vm_opt_getconstant_path() という関数に切り出して YJIT からこの関数を利用するようにしています。 Module#const_missing を呼ぶ場合の対応のためみたいです。 https://github.com/ruby/ruby/pull/8623
