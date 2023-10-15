@@ -1,0 +1,1 @@
+M:N Thread の有効化を emscripten や Fiber 用の coroutine 実装に pthread を使っている環境、thread id が整数でない環境、epoll(2) が利用できない環境などで抑制するようにしています。
