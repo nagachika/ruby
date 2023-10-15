@@ -1,0 +1,1 @@
+GitHub Actions の専用 action でのリポジトリの checkout 時に matzbot の GitHub token を利用するようにしています。
