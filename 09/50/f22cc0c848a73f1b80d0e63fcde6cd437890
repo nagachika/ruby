@@ -1,0 +1,1 @@
+GitHub Actions の専用 action に matzbot の GitHub token を secret から取得するのをやめて変数参照するようにしています。
