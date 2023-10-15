@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL によるチェックをする workflow で github/codeql-action アクションの実行がしばしばメモリ不足でエラーになるのでエラーを無視させるようにしています。
