@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で macos-arm-oss という ARM 版の OS での実行は ruby/ruby のリポジトリでのみ実行するようにしています。
