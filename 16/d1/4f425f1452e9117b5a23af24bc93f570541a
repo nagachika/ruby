@@ -1,0 +1,1 @@
+GitHub Actions で checkout に matzbot の GitHub token を利用するのは ruby/ruby リポジトリでないと secret が存在しないので他の環境では通常の secrets.GITHUB_TOKEN を使うようにしています。
