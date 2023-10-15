@@ -1,0 +1,1 @@
+d7f8c1ee9d226bb1c2049d862127e0ba43b3b755 もやはり revert して GitHub Actions の専用 action .github/actions/setup/directories で checkout を抑制できるようにパラメーターを追加して .github/workflows/check_misc.yml からは重複した checkout をしないようにしています。
