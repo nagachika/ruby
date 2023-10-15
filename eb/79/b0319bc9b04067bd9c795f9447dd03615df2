@@ -1,0 +1,1 @@
+M:N Thread の実装の thread_sched_setup_running_threads() で RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で一度 VM 全体のロックを取って memory barrier を構築していたところで dead lock になる場合があったのでその前後で thread_sched_unlock()/thread_sched_lock() で M:N Thread の scheduler 用の lock? を解放しておくようにしています。
