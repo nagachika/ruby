@@ -1,0 +1,1 @@
+構造体 rb_parser_config_t に hash_delete というメンバーを追加して rb_hash_delete() の呼び出しを関数ポインタ経由にするようにしています。
