@@ -1,0 +1,1 @@
+GitHub Actions の workflow の細かなチェックや YJIT 有効化バージョンでの Rust の lint 実行などをドキュメントのみの変更の時にスキップするようにしています。
