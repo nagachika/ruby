@@ -1,0 +1,1 @@
+bundler の bundle lock の実装で冗長な Bundler.definition の呼び出しを削っています。
