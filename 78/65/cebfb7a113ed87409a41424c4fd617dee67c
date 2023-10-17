@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI.escapeURIComponent, CGI.unescapeURIComponent の rdoc 用コメントのサンプルコードのメソッド名が古いままだったので修正しています。
