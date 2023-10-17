@@ -1,0 +1,1 @@
+rubygems のテストで Gem::Installer#install で権限がない時の例外として Errno::EACCES を許容していたのを削除しています。
