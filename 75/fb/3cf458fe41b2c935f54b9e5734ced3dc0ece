@@ -1,0 +1,1 @@
+4e5c505bad2a2c6c62992a74b503d7213fbc2b93 で追加した irb のテストの setup/teardown に encoding 設定の復旧のための処理を追加しています。 https://github.com/ruby/irb/pull/732
