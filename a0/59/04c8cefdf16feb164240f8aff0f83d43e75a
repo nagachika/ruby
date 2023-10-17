@@ -1,0 +1,1 @@
+bundler の bundle lock の実装で Bundler.settings に freeze: true が設定されていても局所的に無視して更新を実施するようにしているようです。
