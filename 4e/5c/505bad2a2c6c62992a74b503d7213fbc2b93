@@ -1,0 +1,1 @@
+irb の補完処理の変更で削除されたモジュール IRB::InputCompletor を復活? させています。互換性のためとのこと。 https://github.com/ruby/irb/pull/730
