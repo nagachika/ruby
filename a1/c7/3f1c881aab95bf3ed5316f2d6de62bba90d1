@@ -1,0 +1,1 @@
+bundler のクラスメソッド Bundler.local_platform の呼び出しを reciever なしの呼びかたに変更しています。
