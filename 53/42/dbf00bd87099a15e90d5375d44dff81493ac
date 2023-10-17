@@ -1,0 +1,1 @@
+parse.y で NODE を RNODE_LIST として扱う箇所で NODE の種類をチェックするようにしています。
