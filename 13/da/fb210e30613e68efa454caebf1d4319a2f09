@@ -1,0 +1,1 @@
+doc/contributing/testing_ruby.md の make check の説明のテスト対象が少し古くなっていたので修正しています。
