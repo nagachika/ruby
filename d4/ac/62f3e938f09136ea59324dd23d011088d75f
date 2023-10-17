@@ -1,0 +1,1 @@
+cc5a916fa3571e64ac2cb2c76b541deac7be276d の再修正。GitHub Actions の workflow の必要なコマンドのリストを変数に切り出すリファクタリング。
