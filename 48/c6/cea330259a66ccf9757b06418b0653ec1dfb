@@ -1,0 +1,1 @@
+YJIT の統計情報のためのカウンタをインクリメントする Rust 実装で --yjit-stats 指定がない時にスキップしていたのをやめています。 https://github.com/ruby/ruby/pull/8654
