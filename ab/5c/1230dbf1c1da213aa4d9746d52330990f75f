@@ -1,0 +1,1 @@
+GitHub Actions の YJIT を有効にした macOS 環境の workflow でテスト結果を集約する result ジョブの実行は macOS を使う必要ないので Ubuntu を利用するようにしています。 macos-arm-oss というのは ruby/ruby の Actions じゃないと使えないそうなので fork したリポジトリでも結果の集約は動くようにするため。
