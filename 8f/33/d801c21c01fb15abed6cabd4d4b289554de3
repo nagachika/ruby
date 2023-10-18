@@ -1,0 +1,1 @@
+ab5c1230dbf1c1da213aa4d9746d52330990f75f の GitHub Actions の YJIT を有効化した macOS 版の workflow で macos-arm-oss を利用するために result ステップ自体を ruby/ruby のリポジトリでのみ実行するように if: を追加しています。
