@@ -1,0 +1,1 @@
+common.mk の yes-test-all-precheck というターゲットから一部の依存関係を test-precheck というターゲットに切り出しています。 テスト時の不要な再ビルドを抑制するためみたいです。
