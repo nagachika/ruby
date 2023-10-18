@@ -1,0 +1,1 @@
+common.mk の parse.y のビルド時に bison への -d オプションを削っています。
