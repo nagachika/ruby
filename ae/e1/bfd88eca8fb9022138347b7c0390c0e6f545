@@ -1,0 +1,1 @@
+configure の --enable-shared の処理に変数 rb_cv_symbols_in_emptylib が空だと set コマンドが無引数で実行されて意図しない挙動になるので dummy というダミーの引数つきで実行してから後で shift で dummy を消す? ようにしています。
