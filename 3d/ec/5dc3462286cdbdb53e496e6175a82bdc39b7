@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテストで openssl でリンクしているのが LibreSSL の新しめのバージョンの場合に Net::HTTP#ssl_version= で TLS v1 を設定していたのを TLS v1.2 に更新しています。コメントと実際の設定が食い違ってた模様。
