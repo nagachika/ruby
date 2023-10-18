@@ -1,0 +1,1 @@
+irb の補完処理のテストの setup で IRB.conf[:VERBOSE] = false を設定して警告を抑制するようにしています。
