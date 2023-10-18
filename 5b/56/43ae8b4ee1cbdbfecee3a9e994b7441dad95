@@ -1,0 +1,1 @@
+GitHub Actions の workflow の YJIT を有効化した Ubuntu 環境で make test-all に --repeat-count=2 オプションを渡して実行するステップを削除しています。 https://github.com/ruby/ruby/pull/8669
