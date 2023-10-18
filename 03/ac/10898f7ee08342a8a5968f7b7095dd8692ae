@@ -1,0 +1,1 @@
+common.mk の program/wprogram のターゲットの依存関係で showflags と $(PROGRAM)/$(WPROGRAM) のあいだに $(DOT_WAIT) を追加しています。 並列実行時に showflags の実行が完了するまでビルドをしないようにしてメッセージが混ざるのを防ぐためみたいです。
