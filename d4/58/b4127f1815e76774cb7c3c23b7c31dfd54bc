@@ -1,0 +1,1 @@
+YJIT の統計情報のカウンタに 2つ新規にカウンタを追加してメソッド呼び出しが method entry がみつからなかったり private メソッドを receiver つきで呼んだなどの失敗の回数が取れるようにしています。 https://github.com/ruby/ruby/pull/8681
