@@ -1,0 +1,1 @@
+rubygems の gem uninstall で同じ gem の複数のバージョンを同時に指定できるように拡張しています。
