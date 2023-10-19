@@ -1,0 +1,1 @@
+YJIT のテスト用のスクリプトで子プロセスを起動する EnvUtil.invoke_ruby を利用するヘルパーメソッドを追加して起動する ruby コマンドの指定を RbConfig.ruby に固定するようにしています。 https://github.com/ruby/ruby/pull/8689
