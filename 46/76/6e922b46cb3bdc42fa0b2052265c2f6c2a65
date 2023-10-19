@@ -1,0 +1,1 @@
+3b690b726df82f399023b26fdb7530fb9009acf5 の続きで lib/bundled_gems.rb の require で警告出力するかどうかの判定で gem 名の判定のために require に渡された feature 名から拡張ライブラリの時の拡張子を削るようにしています。
