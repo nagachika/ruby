@@ -1,0 +1,1 @@
+テスト用のライブラリ envutil.rb の EnvUtil.rubybin メソッドで RbConfig.ruby を利用する優先度を上げています。 https://github.com/ruby/ruby/pull/8691
