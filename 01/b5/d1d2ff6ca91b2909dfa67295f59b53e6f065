@@ -1,0 +1,1 @@
+GitHub Actions の YJIT を有効化した macOS 環境の workflow で cargo test の実行 job を追加して、これにより Cirrius CI の設定は削除しています。 https://github.com/ruby/ruby/pull/8679
