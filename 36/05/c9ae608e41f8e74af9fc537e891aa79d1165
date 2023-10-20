@@ -1,0 +1,1 @@
+bundler の再定義する require での警告出力のために lib/bundled_gems.rb を利用するかどうかを defined? で判定しているところで不要な定数をみていたのを修正しています。
