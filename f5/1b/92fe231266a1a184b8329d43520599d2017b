@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプション --yjit-perf を追加して Linux の perf によるプロファイリング対応を追加しているようです。 https://github.com/ruby/ruby/pull/8697
