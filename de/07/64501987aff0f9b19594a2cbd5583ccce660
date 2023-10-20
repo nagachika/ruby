@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の DRb::DRbSSLSocket::SSLConfig の設定項目に :SSLMinVersion/:SSLMaxVersion を追加して TLS のバージョンの範囲の指定をできるようにしています。
