@@ -1,0 +1,1 @@
+tool/update-NEWS-gemlist.rb というツールの shebang で直接 ruby のパスを書かずに /usr/bin/env を経由して起動するようにしています。古い(?)システムの ruby を使うのを避けるため。
