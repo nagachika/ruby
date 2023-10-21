@@ -1,0 +1,1 @@
+require で警告する gem のリストを管理している lib/bundled_gems.rb で定数内のエントリを名前順に並べかえています。
