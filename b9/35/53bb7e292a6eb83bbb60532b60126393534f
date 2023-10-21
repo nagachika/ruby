@@ -1,0 +1,1 @@
+Cirrus CI の利用をやめたのでその通知のためにあった GitHub Actions の workflow .github/workflows/cirrus-notify.yml を削除しています。
