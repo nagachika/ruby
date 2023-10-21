@@ -1,0 +1,1 @@
+a9d7525fb420e721da38c0959dcc8980cd0cf38e の続きで rb_jit_cont_init() の呼び出しをさらに早めに Init_BareVM() 内で Thread の機構の初期化前に実行するようにしています。
