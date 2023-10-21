@@ -1,0 +1,1 @@
+NEWS に 6beb09c2c99a2575027bdbc60a6fbb099416f74d で追加した RubyVM::YJIT.enable メソッドの追加や --yjit-perf オプションの追加について追記しています。
