@@ -1,0 +1,1 @@
+RubyVM::YJIT.enable メソッドを新規追加して YJIT を動的に有効化できるようにしています。 https://github.com/ruby/ruby/pull/8705
