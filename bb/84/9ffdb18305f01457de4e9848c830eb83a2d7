@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で do...end のブロック内の rescue/else 節を直接書く記法をやめて begin 節を書くようにしています。これは default gems でも共有するためのライブラリなので古い ruby でも実行できる必要があるため。
