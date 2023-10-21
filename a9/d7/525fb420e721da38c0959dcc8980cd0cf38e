@@ -1,0 +1,1 @@
+YJIT/RJIT 有効化時の Fiber 用の coroutine 実装の初期化を行う rb_jit_cont_init() の呼び出しを rb_threadptr_root_fiber_setup() から Init_Cont() に移動してプロセス起動時に 1回だけ実行するようにしています。 Init_Cont() は Ractor 毎に呼ばれてしまっていたため。
