@@ -1,0 +1,1 @@
+bundler で Gem::RemoteFetcher のインスタンスを得るメソッドで毎回新規にインスタンスを作らず Gem::RemoteFetcher.fetcher を使うようにしています。
