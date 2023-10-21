@@ -1,0 +1,1 @@
+require で警告する gem を管理する lib/bundled_gems.rb に racc を追加しています。
