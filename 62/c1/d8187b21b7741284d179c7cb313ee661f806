@@ -1,0 +1,1 @@
+6beb09c2c99a2575027bdbc60a6fbb099416f74d の RubyVM::YJIT.enable メソッド追加時の変更のうち jit_compile() 内でローカル変数へのキャッシュをやめた部分を revert しています。ローカル変数に入れておいたほうが高速になっていたとのこと。 https://github.com/ruby/ruby/pull/8705
