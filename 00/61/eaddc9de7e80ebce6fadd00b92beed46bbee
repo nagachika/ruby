@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md に configure の -C オプションでキャッシュが使えるという便利情報を追記しています。知らなかったこれ。
