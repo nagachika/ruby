@@ -1,0 +1,1 @@
+コマンドラインオプション --yjit-disable が指定されていた場合 --yjit-stats が指定されていても統計情報の出力を抑制するようにしています。 https://github.com/ruby/ruby/pull/8727
