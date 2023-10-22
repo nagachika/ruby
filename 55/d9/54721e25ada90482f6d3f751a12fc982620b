@@ -1,0 +1,1 @@
+IO::Buffer.map で引数に File やそれに類するオブジェクトでないものが渡された時に明示的にチェックして TypeError を発生させるように修正しています。 https://github.com/ruby/ruby/pull/8728
