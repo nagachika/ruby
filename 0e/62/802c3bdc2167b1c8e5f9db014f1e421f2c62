@@ -1,0 +1,1 @@
+IO::Buffer.for のテストで引数に渡された文字列を lock して破壊的変更を抑制する挙動についてテストする部分を別のテストメソッドに分離しています。 JRuby など別の実装では skip したいため。 https://github.com/ruby/ruby/pull/8729
