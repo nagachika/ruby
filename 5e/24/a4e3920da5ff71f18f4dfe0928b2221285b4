@@ -1,0 +1,1 @@
+configure の macOS などでの universal binary のビルド時のための universal_archnames という変数の設定で不要な空白が付くのを防ぐように変数展開を修正しています。
