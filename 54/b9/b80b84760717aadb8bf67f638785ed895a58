@@ -1,0 +1,1 @@
+昨日の 665b4c5b2a31078d7db0173ad60daad0b463c1fd 以降の続きで tool/fake.rb で RUBYLIB などの環境変数から重複したパスを削除する処理で File.realpath を利用して symbolic link を解決したパスを利用するようにしています。 [ruby-core:115117] [Bug #19967]
