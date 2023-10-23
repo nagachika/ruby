@@ -1,0 +1,1 @@
+拡張ライブラリ io/console に固有の .document ファイルを追加して ext/.document に記述していたのを削除しています。
