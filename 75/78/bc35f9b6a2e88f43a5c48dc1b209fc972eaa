@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で Windows 版と termios を利用する版の実装を関数の定義まるごと preprocessor 分岐で分けていたのを、関数の定義は 1箇所にしてその中で preprocessor 分岐させるようにしています。 rdoc でドキュメント生成した時に show source でコメントがついているほうの(termios 版?)の関数だけ表示される状態だったので両方の実装が現れるようにするためみたいです。
