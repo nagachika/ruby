@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で rbs のテストで skip するファイルを指定する配列に今度は test/stdlib/RbConfig_test.rb を追加しています。
