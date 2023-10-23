@@ -1,0 +1,1 @@
+rubygems の Gem::NameTuple というクラスで引数の platform に Gem::Platform のインスタンスと文字列を等価に扱うようにしているみたいです。
