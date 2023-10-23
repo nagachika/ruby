@@ -1,0 +1,1 @@
+Hash クラスの rdoc 用コメント内での独自のクラスの hash メソッドの実装の例を primitive なクラスの hash メソッドを利用する(Array#hash などに委譲する)方法に変更しています。
