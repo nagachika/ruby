@@ -1,0 +1,1 @@
+doc/syntax/modules_and_classes.rdoc の open Class の場合の class 文の注意事項として継承クラスを書かないことができることを追記しています。
