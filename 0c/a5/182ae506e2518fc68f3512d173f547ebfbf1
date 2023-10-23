@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で rbs のテストで skip するファイルを指定する配列から test/stdlib/Prime_test.rb を削除しています。
