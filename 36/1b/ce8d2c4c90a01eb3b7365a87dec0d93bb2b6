@@ -1,0 +1,1 @@
+昨日の 665b4c5b2a31078d7db0173ad60daad0b463c1fd からのさらに続きで File.realpath が例外を発生した時は無視するようにしています。 [ruby-core:115117] [Bug #19967]
