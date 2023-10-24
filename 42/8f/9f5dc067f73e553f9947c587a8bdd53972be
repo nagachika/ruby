@@ -1,0 +1,1 @@
+parse.y の push_pvtbl() と push_pktbl() という関数を削除して対応する node を定義してそれを利用するようにしています。
