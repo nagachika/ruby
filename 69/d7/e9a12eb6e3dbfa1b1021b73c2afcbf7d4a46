@@ -1,0 +1,1 @@
+ad08674d8dc17c4ca031ce20760c4a4779c83e27 の続きで bundler の checksums の機能追加の再実装。コミットログによると checksum の確認に server から受け取ったものを使うとあるけどそれで確認になるんだろうか。
