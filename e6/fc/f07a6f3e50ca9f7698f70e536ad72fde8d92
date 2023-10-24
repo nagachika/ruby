@@ -1,0 +1,1 @@
+common.mk の parse.y から parse.c を作るための bison (lrama) コマンド実行時の -h オプションを -H オプションに変更しています。 https://github.com/ruby/lrama/pull/139
