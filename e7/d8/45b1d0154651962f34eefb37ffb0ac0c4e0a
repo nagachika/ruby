@@ -1,0 +1,1 @@
+bundler で利用中の ruby のバージョンを得るのに Gem.ruby_version を使ってたところを Bundler::RubyVersion.system.gem_version に変更しています。
