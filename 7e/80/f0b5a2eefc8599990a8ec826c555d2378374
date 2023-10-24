@@ -1,0 +1,1 @@
+3b05238289b973af3d5ff73d750ba243c0c2fa3f の続きで parse.y の pattern match 用の => や in をさらにトークンを含まない node に分離しています。
