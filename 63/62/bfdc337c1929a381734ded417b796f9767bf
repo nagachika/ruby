@@ -1,0 +1,1 @@
+bundler の Bundler::Index#== メソッドを Bundler::Index#subset? に改名しています。
