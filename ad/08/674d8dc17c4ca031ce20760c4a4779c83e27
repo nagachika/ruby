@@ -1,0 +1,1 @@
+bundler で Gemfile.lock に CHECKSUMS セクションを出力するようにしています。
