@@ -1,0 +1,1 @@
+拡張ライブラリ socket の rb_getaddrinfo() の rb_nativethread_lock_lock()/rb_nativethread_lock_unlock() で囲った部分をブロックにしてインデントを追加しています。
