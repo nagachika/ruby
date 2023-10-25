@@ -1,0 +1,1 @@
+GitHub Actions の行末の空白をチェックする job で対象を .yml ファイルに拡張しています。これで検出されたと思われる benchmark/so_count_words.yml の行末の空白を除去しています。ついでに benchmark/so_count_words.yml のコード部分も Kernel#open のかわりに File.open や File.write を使うようにリファクタリングしています。
