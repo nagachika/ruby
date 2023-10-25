@@ -1,0 +1,1 @@
+3dc311bdc8badb680267f5a10e0c467ddd9dfe4c の続きで拡張ライブラリ socket で getaddrinfo() を pthread を利用した割り込み可能な実装にする条件として MinGW は除外するようにしています。 [ruby-core:115104] [Feature #19965]
