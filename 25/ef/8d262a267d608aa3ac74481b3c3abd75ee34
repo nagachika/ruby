@@ -1,0 +1,1 @@
+拡張ライブラリ socket で getaddrinfo() の実装を切り替えるマクロに GETADDRINFO_EMU のかわりに GETADDRINFO_IMPL というのを定義してこちらで分岐するようにしています。
