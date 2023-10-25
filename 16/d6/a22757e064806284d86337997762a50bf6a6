@@ -1,0 +1,1 @@
+3dc311bdc8badb680267f5a10e0c467ddd9dfe4c の続きで拡張ライブラリ socket で rb_getnameinfo() も実体を別の pthread に分離して割り込み可能にしています。 [ruby-core:115104] [Feature #19965]
