@@ -1,0 +1,1 @@
+拡張ライブラリ socket で getaddrinfo(3) を呼び出す処理を rb_getaddrinfo() という関数に切り出すリファクタリング。
