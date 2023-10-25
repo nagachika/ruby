@@ -1,0 +1,1 @@
+3dc311bdc8badb680267f5a10e0c467ddd9dfe4c の続きで rb_getaddrinfo() の割り込み可能にする実装でメモリ確保に失敗した時の戻り値を ENOMEM から EAI_MEMORY に変更し、割り込みによるエラーを EAGAIN から EAI_AGAIN に変更しています。
