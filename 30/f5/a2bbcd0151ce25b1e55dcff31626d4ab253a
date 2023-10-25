@@ -1,0 +1,1 @@
+拡張ライブラリ io/nonblock の IO#nonblock? および IO#nonblock= メソッドを ruby 本体に存在する時には定義しないようにしています。
