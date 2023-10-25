@@ -1,0 +1,1 @@
+25ef8d262a267d608aa3ac74481b3c3abd75ee34 の続きで拡張ライブラリ socket の getaddrinfo() の実装を切り替える preprocessor 分岐をまとめています。
