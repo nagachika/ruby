@@ -1,0 +1,1 @@
+rubygems で .gem ファイルが tar フォーマットでない時の例外クラスを Gem::Package::TarInvalidError にするようにしています。
