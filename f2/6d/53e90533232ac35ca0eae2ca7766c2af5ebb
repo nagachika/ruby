@@ -1,0 +1,1 @@
+拡張ライブラリ socket の UNIXSocket による fd passing のテストで send_io を実行する回数を減らしています。 Errno::ETOOMANYREFS は fd passing による fd の送信途中の複製の数の上限にひっかかったものなので、送信回数を減らしています。
