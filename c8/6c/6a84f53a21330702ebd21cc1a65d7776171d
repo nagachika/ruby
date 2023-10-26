@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のテストに使う commit hash を更新して、skip していたテストファイルの指定を削除しています。 [ruby-core:115124] [Bug #19968]
