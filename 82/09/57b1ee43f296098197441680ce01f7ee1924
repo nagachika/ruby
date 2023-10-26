@@ -1,0 +1,1 @@
+rubyparser.h から RNODE_OP_ASGN22() というマクロの定義を削除しています。
