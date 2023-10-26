@@ -1,0 +1,1 @@
+Comparable#clamp の rdoc 用コメントに引数の min, max に nil を渡した時の挙動について追記しています。
