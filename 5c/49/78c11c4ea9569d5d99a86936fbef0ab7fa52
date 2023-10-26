@@ -1,0 +1,1 @@
+rubygems や bundler の専用の YAML の eocoder で空配列の対応を追加しています。
