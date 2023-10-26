@@ -1,0 +1,1 @@
+拡張ライブラリ socket の UNIX ソケットによる fd passing のテストで Errno::ETOOMANYREFS という例外が発生した時にテストを skip させるようにしています。 arm64-neoverse-n1 というアーキテクチャの環境でエラーが発生していたようです。
