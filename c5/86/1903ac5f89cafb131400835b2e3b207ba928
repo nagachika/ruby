@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する gem で利用する CI 用サービスの種類に応じた設定ファイルを spec.files で無視するリストに追加するようにしています。
