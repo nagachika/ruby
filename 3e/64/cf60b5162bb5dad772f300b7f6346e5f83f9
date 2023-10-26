@@ -1,0 +1,1 @@
+Enumerator を freeze した時に next や feed、rewind などの iterator の位置を変更したりブロックの評価値を変えるようなメソッドを FrozenError を発生させるようにチェックを追加しています。 peek は良いような気もちょっとしたけど、背後の Enumerable の each のブロックを呼んでしまうのでやはり破壊的な変更ということになるのかな。 https://github.com/ruby/ruby/pull/7791 [ruby-core:113420] [Bug #19632]
