@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems の更新チェックの処理で誤って更新日が gems/bundled_gems にも追加されてしまっていたのを修正?
