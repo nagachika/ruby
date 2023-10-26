@@ -1,0 +1,1 @@
+Object Shapes の実装でユーティリティ関数を使いまわすリファクタリングと、get_next_shape_internal() で NULL を返すことがないようにする変更。
