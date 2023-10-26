@@ -1,0 +1,1 @@
+vm_insnhelper.c で事前に定義済みの Symbol の ID をその場で rb_intern() せずに idInitialize などの定数を参照するように修正しています。
