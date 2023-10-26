@@ -1,0 +1,1 @@
+Object Shapes 関連の定数 RubyVM::Shape::SHAPE_MAX_NUM_IVS を削除しています。
