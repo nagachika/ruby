@@ -1,0 +1,1 @@
+84e4453436c3549b4fda6014cdd5fcc9e0b80755 で導入した赤黒木の実装の redblack_cache_ancestors() に mmap() が利用できない時の代替実装を追加しています。
