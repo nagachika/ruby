@@ -1,0 +1,1 @@
+3dc311bdc8badb680267f5a10e0c467ddd9dfe4c の拡張ライブラリ socket で getaddrinfo を割り込み可能にするための pthread を使った実装で pthread_setaffinity_np(3) を使うと s390x-linux で異常終了してしまうとのことでアーキテクチャが s390x の時に pthread_setaffinity_np() を使った最適化を行なわないようにしています。
