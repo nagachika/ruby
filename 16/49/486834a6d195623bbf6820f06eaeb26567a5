@@ -1,0 +1,1 @@
+5461bc18f88f7f335f6456774498efd386c3012f で拡張ライブラリ socket の fd passing のテストの skip の追加で例外を捕捉すべき UNIXSocket#send_io の呼び出し箇所が間違ってたみたいで別のところに rescue 節を追加してそちらで Errno::ETOOMANYREFS の例外が発生した時に skip するようにしています。
