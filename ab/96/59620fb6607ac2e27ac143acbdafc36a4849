@@ -1,0 +1,1 @@
+4259d5b5aefd58d0bf86ad20122beee53533ff59 で誤って test/rubygems 配下に追加された rustfmt.toml を削除しています。
