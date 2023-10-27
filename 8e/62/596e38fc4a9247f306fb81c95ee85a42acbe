@@ -1,0 +1,1 @@
+Object Shapes の実装の SHAPE_BUFFER_SIZE や MAX_SHAPE_ID といった定数マクロの定義を shape.h から shape.c に移動しています。
