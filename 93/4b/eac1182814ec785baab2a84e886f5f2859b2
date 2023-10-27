@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb の latest_date= の日付を出力する先を標準出力にするか標準エラー出力にするかを -i オプションの指定の有無で切り換えるようにしています。
