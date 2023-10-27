@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の extconf.rb で crc32_z() や adler32_z() という関数の存在チェックを追加して preprocessor 分岐を修正しています。 Cloudflare による zlib の fork 版というのがあるそうでそこではこれらの関数が未定義なので明示的にチェックするようにしています。
