@@ -1,0 +1,1 @@
+parse.y の read_escape() という関数から未使用の encp という引数を削除しています。
