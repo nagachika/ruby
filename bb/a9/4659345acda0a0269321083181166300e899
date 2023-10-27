@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems の更新を検出してコミットするジョブでリポジトリへのアクセスを mazbot のトークンを利用するようにしています。
