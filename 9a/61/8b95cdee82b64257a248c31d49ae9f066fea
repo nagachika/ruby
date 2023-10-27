@@ -1,0 +1,1 @@
+Windows 環境での Dir.home の決定に環境変数 USERPROFILE を HOME の次に優先させるように優先度を上げています。 [ruby-core:111334] [Feature #19244]
