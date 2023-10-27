@@ -1,0 +1,1 @@
+と、思ったら feb1427ad8f3d6448d9f8d0c7009dfdf711b7f48 で GitHub Actions の workflow を追加したのは ruby/prism からのマージのミスだったみたいで削除しています。 また tool/sync_default_gems.rb で同期処理時に prism/templates/javascript/ を削除するようにしています。
