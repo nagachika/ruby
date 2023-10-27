@@ -1,0 +1,1 @@
+標準添付ライブラリ uri/generic の URI::Generic の to_str を to_s の alias として追加しています。
