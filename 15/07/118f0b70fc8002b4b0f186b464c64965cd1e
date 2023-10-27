@@ -1,0 +1,1 @@
+Proc#clone や Proc#dup でそれぞれ #initialize_clone, #initialize_dup メソッドを呼んでいなかったので呼ぶようにしています。 [ruby-core:111953] [Feature #19362]
