@@ -1,0 +1,1 @@
+ac4d687656b0350879ea2e033d2f13d1765a7ce3 の拡張ライブラリ zlib の extconf.rb での crc32_z()、adler32_z() の関数の存在チェックの追加にさらに z_size_t という型の宣言もチェックするようにしています。 zlib の Android 向けの NDK で関数の宣言がないのに crc32_z や adler32_z といったシンボルが存在していて誤検出(?)することがあったようです。 https://github.com/ruby/zlib/pull/69
