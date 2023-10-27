@@ -1,0 +1,1 @@
+rubygems の Gem::Platform.local メソッドの定義で RbConfig::CONFIG["arch"] をチェックする処理をインスタンス変数のキャッシュが効いている時に省略するようにしています。
