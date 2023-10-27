@@ -1,0 +1,1 @@
+GitHub Actions の WASM 向けの workflow で configure 時のオプション --with-ext に bigdecimal,ripper,monitor,stringio,pathname を指定するようにしています。テストで利用したいためとのこと。
