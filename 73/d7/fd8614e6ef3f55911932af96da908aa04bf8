@@ -1,0 +1,1 @@
+rubyspec の Dir.home のテストの Windows 環境向けのテストでコメントアウトされていた assertion を復活させています。 d0f5dc9eac78ecade459b740ed08795c8df6d129 で Windows での Dir.home の決定のために参照する環境変数の優先順位を変更した時に追加されたものがなぜか後でコメントアウトされていたようです。 [Bug #19244]
