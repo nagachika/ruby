@@ -1,0 +1,1 @@
+prism_compile.h というヘッダファイルを追加して pm_scope_node_t 構造体を ruby 本体での定義に移動しています。
