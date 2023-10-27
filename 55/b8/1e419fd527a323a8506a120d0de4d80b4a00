@@ -1,0 +1,1 @@
+コマンドラインオプション --dump=prism_parsetree の実装で prism の拡張ライブラリの pm_prettyprint() という関数を利用するようにしています。
