@@ -1,0 +1,1 @@
+nonblocking Fiber のテストで Thread の終了待ちで固まることがあったので Thread#kill で停止させる処理も追加しています。 Thread#kill した時はテスト失敗になるようにしているので止まるのが正しいわけではないけどそのままだとテストが終わらなくなってしまうため。 https://github.com/ruby/ruby/pull/8791
