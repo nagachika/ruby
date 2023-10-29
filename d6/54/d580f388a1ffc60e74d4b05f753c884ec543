@@ -1,0 +1,1 @@
+db3b814cb0ff6ffe83fe0c4f66cd6ce8951c3ca7 で GC.stats のテストのエラー時のメッセージにデバッグ用に GC.stat 自体を渡していたのを revert しています。
