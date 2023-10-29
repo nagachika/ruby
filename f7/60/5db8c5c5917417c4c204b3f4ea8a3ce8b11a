@@ -1,0 +1,1 @@
+gems/bundled_gems の rake のバージョンを 13.1.0 に更新しています。また NEWS の bundled gems のバージョンリストに rake も追記しています。
