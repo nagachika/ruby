@@ -1,0 +1,1 @@
+Object Shapes の get_next_shape_internal() という関数で条件分岐を整理しています。コミットログをみる限り単なるリファクタリングというのではなく不具合修正みたいですが RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で保護する critical section も広められているので race condition の修正かな?
