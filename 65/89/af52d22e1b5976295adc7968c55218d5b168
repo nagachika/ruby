@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb の a6a67b0524ec3f8da96143cdf5094b5eaf7d820d や 934beac1182814ec785baab2a84e886f5f2859b2 の続きですが latest_date=xxx の出力先の切り替えの判定を END のブロックから外に出して BEGIN のブロックとトップレベルとに移動し ARGF.file のチェックも追加しています。引数に "-" を渡された時の考慮かなぁ。
