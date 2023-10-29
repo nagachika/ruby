@@ -1,0 +1,1 @@
+95cc0f946eb641be8dea4b7118598be77d993183 で Travis-CI の s390x-linux の環境でのテストをコメントアウトしていたのを revert しています。 Travis-CI の環境が復旧したみたいです。 https://github.com/ruby/ruby/pull/8792
