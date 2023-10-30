@@ -1,0 +1,1 @@
+Encoding の変換のテストで専用の assertion メソッドを導入して利用するようにリファクタリングしています。また既存の check_both_ways/check_both_ways2 というメソッドも assert_ で始まるメソッドに定義しなおしています。けど alias で古いメソッド名も残しているので呼び出し元はそのまま。
