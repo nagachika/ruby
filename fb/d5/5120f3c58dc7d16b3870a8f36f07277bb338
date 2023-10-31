@@ -1,0 +1,1 @@
+M:N Thread の実装の nt_therad_stack_size() で計算の途中で int 型の変数がまざってたので size_t にキャストして計算するように修正しています。
