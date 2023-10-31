@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP.new の引数に proxy の指定と同時に第7引数の p_no_proxy を渡すテストで proxy のドメインに proxy.example というのを使ってたのを proxy.com に変更しています。接続先のアドレスも hostname.example となってて、これだと p_no_proxy の指定がどっちにマッチした結果なのかがわからないのでそれをはっきりさせるためということみたいです。
