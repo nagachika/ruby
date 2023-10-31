@@ -1,0 +1,1 @@
+標準添付ライブラリ yaml で YAML モジュールの YAML.unsafe_load メソッドの呼び出しを respond_to? で呼べるか確認するようにしています。古い psych との併用時の対応のため。
