@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 版 workflow に configure 時に明示的に --disable-yjit を指定するビルドでのテストを追加しています。
