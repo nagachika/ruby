@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で prism の同期時に prism/templates/rbi と prism/templates/sig というテンプレートファイル群を削除するようにしています。
