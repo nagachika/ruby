@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ openssl のテストで OpenSSL::KDF.scrypt に関するテストを OpenSSL::KDF.scrypt が定義されている時だけ宣言するようにしています。
