@@ -1,0 +1,1 @@
+Travis-CI の設定でコンパイラの最適化オプションの -O1 の追加を arm32-linux 環境の時だけつけるようにしています。 https://bugs.ruby-lang.org/issues/19981
