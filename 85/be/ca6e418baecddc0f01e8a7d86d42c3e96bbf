@@ -1,0 +1,1 @@
+irb のテストで補完で表示する rdoc のドキュメントの対象を String から IRB に変更しています。また古い ruby でテストを skip していたのをやめています。 https://github.com/ruby/irb/pull/743
