@@ -1,0 +1,1 @@
+新規 C API rb_profile_thread_frames() というのを追加しています。 rb_profile_frames() に対して対象の Thread オブジェクトを指定する引数を明示的に受け取るバージョンということみたいです。 [ruby-core:66863] [Feature #10602]
