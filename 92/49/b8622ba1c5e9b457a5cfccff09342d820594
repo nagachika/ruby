@@ -1,0 +1,1 @@
+prism の更新。 compile.c の rb_iseq_compile_prism_node() の対応も含んでいます。
