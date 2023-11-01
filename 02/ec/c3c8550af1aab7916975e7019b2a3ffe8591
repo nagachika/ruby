@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ openssl の OpenSSL::KDF.pbkdf2_hmac のテストの一部が間違ってるみたいで一時的にコメントアウトしています。
