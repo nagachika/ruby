@@ -1,0 +1,1 @@
+rubyspec の openssl のテストで OpenSSL::KDF.scrypt のテスト全体を OpenSSL::OPENSSL_VERSION_NUMBER のチェックによる guard で括っています。
