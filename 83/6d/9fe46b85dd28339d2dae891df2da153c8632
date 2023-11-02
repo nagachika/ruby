@@ -1,0 +1,1 @@
+bundler の Bundler::Plugin.loaded? というメソッドを新規追加して、Bundler::Plugin.load_plugin で重複した load をしないようにしています。 ついでに plugin の管理に配列ではなく Set を利用するようにしています。
