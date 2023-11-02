@@ -1,0 +1,1 @@
+bundler の plugin の uninstall 時にキャッシュしている gem も削除するようにしています。
