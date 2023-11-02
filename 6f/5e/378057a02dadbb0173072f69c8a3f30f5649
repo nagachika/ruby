@@ -1,0 +1,1 @@
+ac7f913ca3af970225c9cc93b92eb5c403894180 のさらに続きで generic_ivar_set() で Object Shapes で管理できない多数のインスタンス変数を持つオブジェクトの時の分岐をさらにひとつ前にも追加しています。 ac7f913ca3af970225c9cc93b92eb5c403894180 での分岐は shape->type のチェックで、こちらは rb_shape_obj_too_complex() でのチェックで、rb_shape_get_shape_id() をみるか rb_shape_t::type をみるかの違いみたいですが複雑ですね。
