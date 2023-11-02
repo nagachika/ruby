@@ -1,0 +1,1 @@
+4aacc559d99988f395eced3534c7a6938bd356c8 の続きで Object Shapes で管理できない多数のインスタンス変数を持つオブジェクトの  generic_ivar_set() での fallthrough 実装を追加しています。
