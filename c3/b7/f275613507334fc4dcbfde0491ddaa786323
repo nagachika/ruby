@@ -1,0 +1,1 @@
+8889992b75f85c8080fc09c7a3a1cb6123a098c1 の続きで Object#remove_instance_variable を Object Shapes の rb_shape_obj_too_complex() が真の時の対応の追加を、8889992b75f85c8080fc09c7a3a1cb6123a098c1 では T_MODULE と T_CLASS 型のオブジェクトの時に追加していたので今度は T_OBJECT/T_MODULE/T_CLASS 以外のその他の型のオブジェクトの時の対応を追加しています。 T_OBJECT の時はもともと対応済み。
