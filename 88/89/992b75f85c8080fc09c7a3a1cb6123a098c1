@@ -1,0 +1,1 @@
+Object#remove_instance_variable の実装で Object Shapes の rb_shape_obj_too_complex() が真の時の実装が漏れていたのを修正しています。
