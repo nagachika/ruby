@@ -1,0 +1,1 @@
+misc/lldb_rb/utilss.py のオブジェクトの表示せ T_HASH 型オブジェクトの st_table または ar_table の内容も表示するようにしています。
