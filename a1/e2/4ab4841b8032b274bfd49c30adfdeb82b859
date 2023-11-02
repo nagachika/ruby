@@ -1,0 +1,1 @@
+836d9fe46b85dd28339d2dae891df2da153c8632 で bundler の plugin 管理に使うのを配列から Set に変えた部分を revert しています。 set への依存ができてしまうのでとのこと。load_plugin で重複した load をしないようになったので配列のままでも問題なかった模様。
