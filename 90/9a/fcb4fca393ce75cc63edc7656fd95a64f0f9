@@ -1,0 +1,1 @@
+8889992b75f85c8080fc09c7a3a1cb6123a098c1 以降の変更の続きで bdf8ce807ffe8e4bfd2947aba809855857b958ed で追加した Object#remove_class_variable のテストを 60e207b47f377b04d11df9a9dbb0548a578c2776 と同様にループ内でクラス変数を追加する都度別の Class を作るようにしています。
