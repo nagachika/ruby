@@ -1,0 +1,1 @@
+8889992b75f85c8080fc09c7a3a1cb6123a098c1 以降の変更の続きで remove_instance_variable の実装の rb_obj_remove_instance_variable() からその処理の大部分を rb_ivar_delete() に委譲するようにしてそちらに Object Shapes の管理から外れる too complex になった時の対応を追加しています。コミットログとテストをみるとここを修正することで結果的に Object#remove_class_variable の同様の不具合修正にもなっているようです。
