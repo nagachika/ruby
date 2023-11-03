@@ -1,0 +1,1 @@
+8889992b75f85c8080fc09c7a3a1cb6123a098c1 以降の変更の続きで Object#remove_instance_variable で Object Shapes の管理外の時の処理で st_delete() が空振りだった時の対応を追加しています。
