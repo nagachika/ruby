@@ -1,0 +1,1 @@
+include/ruby/ruby.h の FilePathStringValue() マクロの Doxygen 用? コメントの説明が古くなっていた? みたいなので修正しています。
