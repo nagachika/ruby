@@ -1,0 +1,1 @@
+thread_pthread.c の no_pthread_threadid_np という変数の初期化を MAC_OS_X_VERSION_MAX_ALLOWED というマクロをチェックして preprocessor 分岐していたところで MAC_OS_X_VERSION_10_6 というマクロの存在チェックが削られていたので修正しています。古い macOS でのビルドがエラーになっていたようです。
