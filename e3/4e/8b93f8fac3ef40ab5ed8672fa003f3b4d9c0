@@ -1,0 +1,1 @@
+require での警告する gem の管理をしている lib/bundled_gems.rb での警告出力有無の判定をするメソッドで引数を File.path で文字列に変換しておくようにしています。Pathname オブジェクトが渡された時のサポートのため。
