@@ -1,0 +1,1 @@
+8889992b75f85c8080fc09c7a3a1cb6123a098c1 以降の変更の続きで Object#remove_instance_variable で T_OBJECT 型の時の処理で rb_st_lookup() → rb_st_delete() と呼んでいたのは冗長なので他の型の時と同様 rb_st_delete() だけ呼ぶように書き直しています。
