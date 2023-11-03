@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で統計情報のカウンタなどの数値を表示する処理で数値を 3桁ごとに "," を入れるための処理で不要な to_a の呼び出しを消しています。 https://github.com/ruby/ruby/pull/8815
