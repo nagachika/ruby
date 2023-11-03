@@ -1,0 +1,1 @@
+Object Shapes で Object#remove_instance_variable などでインスタンス変数削除した時の処理で不要に get_next_shape_internal() を呼び出すパスがあったのを修正しています。
