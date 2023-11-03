@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で bundler 経由での require の警告メッセージのための gem 名を認識するために caller_location で遡るスタックトレースの数を修正しています。
