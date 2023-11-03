@@ -1,0 +1,1 @@
+ast.c の rb_ast_parse_file() で引数に FilePathValue() を呼び出して文字列化するのが冗長だったので削除しています。ここから呼んでいる rb_file_open_str() の中でも同じ変換をしているため。
