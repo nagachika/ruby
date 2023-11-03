@@ -1,0 +1,1 @@
+8889992b75f85c8080fc09c7a3a1cb6123a098c1 以降の変更の続きで Object#remove_instance_variable の実装 rb_obj_remove_instance_variable() の型による分岐の switch 文内の共通部分を外に出して変化する部分だけ switch 文を使うようにリファクタリングしています。
