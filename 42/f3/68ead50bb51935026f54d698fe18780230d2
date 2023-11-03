@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で bundler 経由での require の警告メッセージのため require 元の gem 名が抽出できなかった時に呼び元の gem の作者への連絡を促すメッセージは省略するようにしています。
