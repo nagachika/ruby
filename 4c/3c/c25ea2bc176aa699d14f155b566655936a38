@@ -1,0 +1,1 @@
+Object Shapes の実装の T_MODULE/T_CLASS 型オブジェクトのインスタンス変数のセットでの capacity を越えた時の too complex に遷移させる? ような対応を追加しているようです。
