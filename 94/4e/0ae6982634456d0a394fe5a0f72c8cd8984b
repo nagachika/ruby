@@ -1,0 +1,1 @@
+6f5e378057a02dadbb0173072f69c8a3f30f5649 で generic_ivar_set() で Object Shapes の too complex のチェックを rb_shape_obj_too_complex() によるものを shape->type == SHAPE_OBJ_TOO_COMPLEX によるものと別に追加していたのですが、これは冗長だったらしき rb_shape_obj_too_complex() のチェックのほうを削除しています。なにか別の状況のチェックなのかと思ったけどそうじゃなかったのか。
