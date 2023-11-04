@@ -1,0 +1,1 @@
+regparse.c に onig_names_copy()、onig_renumber_name_table() といった関数を追加して USE_ST_LIBRARY というマクロが偽の時に st_table に依存しない実装を保つようにしています。
