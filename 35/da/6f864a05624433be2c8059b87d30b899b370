@@ -1,0 +1,1 @@
+インスタンス変数の有無をチェックする関数 rb_ivar_defined() で T_OBJECT 型オブジェクト以外の時の too complex 時に参照するべき st_table を修正しています。
