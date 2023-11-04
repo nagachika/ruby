@@ -1,0 +1,1 @@
+C API のテストで Thread の leak 修正のため ensure 節での Thread#join を追加しています。
