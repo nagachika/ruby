@@ -1,0 +1,1 @@
+Object Shapes の実装の enum shape_type から SHAPE_INITIAL_CAPACITY というのを削除して最初に作成する rb_shape_t の type を SHAPE_ROOT で capa=0 で作成するようにしています。
