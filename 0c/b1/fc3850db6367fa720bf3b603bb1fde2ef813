@@ -1,0 +1,1 @@
+vm_getivar() でインスタンス変数の取得する時の Object Shapes の管理外(too complex)で st_table から取得する時の参照するテーブルの T_CLASS/T_MODULE 型オブジェクトの時の対応を追加しています。
