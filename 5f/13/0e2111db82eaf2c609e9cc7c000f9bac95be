@@ -1,0 +1,1 @@
+rb_copy_generic_ivar() のコピーしたオブジェクトの struct gen_ivtbl の配列への書き込み時の RGenGC 用の Write Barrier のための RB_OBJ_WRITTEN() に渡す書き込みポインタが間違っていたのを修正しています。
