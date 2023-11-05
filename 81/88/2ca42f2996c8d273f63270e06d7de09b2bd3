@@ -1,0 +1,1 @@
+1321df773b6316d2e88dfcada7844e00762d5a94 の続き? で generic_ivar_set() で RGenGC 用の Write Barrier のために RB_OBJ_WRITTEN() を使ってたところを RB_OBJ_WRITE() を利用するようにリファクタリングしています。
