@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb で gems/bundled_gems の自動更新をする時に検出したバージョンが現在の記述より古いバージョンだった時には更新しないようにしているようです。
