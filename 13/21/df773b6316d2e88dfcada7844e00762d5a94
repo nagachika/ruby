@@ -1,0 +1,2 @@
+インスタンス変数セット時に既に同じインスタンス変数が存在していて Object Shape の管理が too complex になっている時に struct gen_ivtbl のサイズを Object Shapes の実装の rb_shape_t::capasity にあわせて resize するようにしているみたいです。 昨日の 4c3cc25ea2bc176aa699d14f155b566655936a38 の変更と同じような内容みたいですが昨日のコメントが間違ってたかも。
+generic_ivar_set() の実装をみてると最初に shape->type == SHAPE_OBJ_TOO_COMPLEX でチェックして早期 return をしていて、その後 shape の再代入しない状態でまた shape->type == SHAPE_OBJ_TOO_COMPLEX のチェックをしている行があるのですが、これ next_shape の間違いだったりしないかなぁ?
