@@ -1,0 +1,1 @@
+Fiber 用の coroutine の assembler 用のコードや prism のソースコード内の非 ASCII 文字を置換しています。また prism/templates/template.rb で自動生成するファイルも \x## の記法に置換するようにしています。
