@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ openssl の OpenSSL::KDF.scrypt のテストで OpenSSL のバージョンのチェックで skip するようにしていたのを respond_to? で OpenSSL::KDF.scrypt メソッドがあるかどうかで判定するように変更しています。
