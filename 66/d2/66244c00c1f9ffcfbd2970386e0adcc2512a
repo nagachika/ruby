@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP::Revision 定数の削除。Subversion で管理していたころの自動的に展開される文字列から revision を抽出してセットしていた定数です。
