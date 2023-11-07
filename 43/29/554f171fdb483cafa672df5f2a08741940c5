@@ -1,0 +1,1 @@
+require で LoadError が発生した時に例外メッセージに埋め込む feature 名は require の引数に渡されたのが Pathname など to_path で変換して使うオブジェクトだった時にそのまま利用しようとして TypeError が発生してしまっていたのでエラー時にも同じように to_path で変換して利用するようにしています。 [ruby-core:115227] [Bug #19985]
