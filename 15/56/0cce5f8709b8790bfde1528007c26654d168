@@ -1,0 +1,1 @@
+de82439215dd2770ef9a3a2cf5798bdadb788533 で Socket.getaddrinfo の割り込み可能にする実装で s390x で pthread_setaffinity_np() の利用をやめる preprocessor 分岐を入れてたのを revert しています。
