@@ -1,0 +1,1 @@
+NEWS の bundler 経由で require した時に Gemfile に書かれていなかったら警告する gem の対象として racc を追記しています。
