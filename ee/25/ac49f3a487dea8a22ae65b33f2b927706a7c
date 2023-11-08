@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md の doc/windows.md へのリンクが絶対 URL になっていたので相対パスにしています。
