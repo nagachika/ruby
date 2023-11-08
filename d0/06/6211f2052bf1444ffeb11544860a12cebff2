@@ -1,0 +1,1 @@
+Socket.getaddinfo を割り込み可能にするために pthread を利用する実装で pthread_setaffinity_np() を呼ぶ前に pthread_detach() を呼んでたのを後に移動しています。detach したらすぐに終了してしまってその後で pthread_setaffinity_np() を呼んでしまうという race condition がありえたようです。 [ruby-core:115104] [Feature #19965]
