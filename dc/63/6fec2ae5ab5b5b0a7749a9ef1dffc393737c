@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.getaqddrinfo を割り込み可能にする実装で最適化のために pthread_setaffinity_np() を使っていたところを pthread_attr_setaffinity_np() を使って作成する pthread の attr に渡すように変更しています。 [ruby-core:115104] [Feature #19965]
