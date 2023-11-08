@@ -1,0 +1,1 @@
+拡張ライブラリ cgi の CGI.escapeURIComponent や CGI.unescapeURIComponent の alias として snake case の escape_uri_component/unescape_uri_component を追加しています。確かに古いライブラリのせいもあってこのへんだけ通常のメソッドの命名規則から外れてるんですよね。escapeHTML とかは snake case 追加されてたっけ? と思ったけど既にあるみたいですね。 [ruby-core:108822] [Feature #18822]
