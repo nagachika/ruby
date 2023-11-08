@@ -1,0 +1,1 @@
+標準添付ライブラリ drb の lib/drb/drb.rb に drb/version.rb のための require_relative を追加しています。
