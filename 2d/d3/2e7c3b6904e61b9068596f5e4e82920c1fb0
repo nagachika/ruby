@@ -1,0 +1,1 @@
+16403f41abcbaccf32484d10575d3542dbb3247e の続きで reline のテストの修正をしていますが、GitHub Actions の workflow の追加は同期ミスっぽい気がしますね。 https://github.com/ruby/reline/pull/600
