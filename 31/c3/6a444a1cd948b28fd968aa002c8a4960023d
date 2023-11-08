@@ -1,0 +1,1 @@
+rubyspec の 07df8a5d5ee725eee00632717ea4deead5fc783b で削除した English の $IGNORECASE のテストを 3.3 以降テストしないように guard を追加しています。
