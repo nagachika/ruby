@@ -1,0 +1,1 @@
+c747c67533ef901d10ef054d2f57a0b90702c7f9 で追加した general_ivar_set() を T_MODULE/T_CLASS 型オブジェクトのインスタンス変数セットのための関数 rb_class_ivar_set() で利用するようにしています。
