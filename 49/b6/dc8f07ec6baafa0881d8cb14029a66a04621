@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.getaddrinfo を割り込み可能にする実装で pthread_attr_setaffinity_np() に渡す引数の cpuset をセットする時に CPU コア数が大きい場合は cpu_set_t のビットフラグからあふれる可能性があるので呼び出しをやめるようにしています。 [ruby-core:115104] [Feature #19965]
