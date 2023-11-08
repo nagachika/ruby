@@ -1,0 +1,1 @@
+variable.c に general_ivar_set() という static 関数を追加して Object Shapes の too complex 対応つきのインスタンス変数セットの実装をしていますが、まだ利用しているところはないです。
