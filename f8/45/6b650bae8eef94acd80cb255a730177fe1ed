@@ -1,0 +1,1 @@
+macOS でのコンパイル時の警告を抑制するための wrapper スクリプト tool/darwin-cc に "ignoring duplicate libraries" という警告も抑制対象に追加しています。
