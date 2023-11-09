@@ -1,0 +1,1 @@
+vm_eval.c の rb_yield_refine_block() でも GCC 13 での警告抑制のためダミーの変数代入を追加しています。
