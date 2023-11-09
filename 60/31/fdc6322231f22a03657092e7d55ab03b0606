@@ -1,1 +1,1 @@
-configure で LIBS や LDFLAGS を設定する処理の darwin のセクションで dsymutils コマンドのために使うコマンド名にも tool/darwin-cc をかませるようにしている? みたいです。
+configure で LIBS や LDFLAGS を設定する処理の darwin のセクションで dsymutils コマンドの名前を CC_NO_WRAPPER という tool/darwin-cc が不要な CC のファイル名を元にして警告の出ない dsymutils を探すようにしているみたいです。
