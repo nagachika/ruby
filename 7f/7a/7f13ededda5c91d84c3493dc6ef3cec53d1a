@@ -1,0 +1,1 @@
+bundler による rubygems の installer の拡張 Bundler::RubyGemsGemInstaller で pre_install_checks メソッドを再定義して Gem::FilePermissionError という例外は無視するようにしています。
