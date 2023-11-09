@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#gets などの行指向のメソッドで改行コードの文字列を rb_rs からバッファの Encoding にあわせて変換しておくように修正しています。UTF-16 などの非 ASCII 互換な文字エンコーディングでうまく処理できなくなっていたようです。 https://github.com/ruby/stringio/pull/69
