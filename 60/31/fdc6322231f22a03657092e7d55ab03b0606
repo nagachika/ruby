@@ -1,0 +1,1 @@
+configure で LIBS や LDFLAGS を設定する処理の darwin のセクションで dsymutils コマンドのために使うコマンド名にも tool/darwin-cc をかませるようにしている? みたいです。
