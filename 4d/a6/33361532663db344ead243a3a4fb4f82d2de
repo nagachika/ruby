@@ -1,0 +1,1 @@
+internal/ruby_parser.h の rb_parser_new() と rb_parser_compile_string_path() という関数の宣言を外部に公開するシンボルのセクションに移動しています。
