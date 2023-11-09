@@ -1,1 +1,1 @@
-rb_fstring() が返す文字列オブジェクトの struct RBasic::flags に STR_NOFREE フラグを立てて GC 時にバッファを解放しないようにしています。これまで問題になってなかったの意外な気がしますがたいていの場合はこれより前の条件で return しているからかな。
+rb_fstring() で文字列のバッファサイズを実際の文字列長に合わせて resize する処理を struct RBasic::flags に STR_NOFREE フラグが立ってた場合は静的な領域なので resize 不可なのでスキップするようにしています。
