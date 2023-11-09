@@ -1,0 +1,1 @@
+bundler の Bundler::GemInstaller#install_from_spec で Bundler::APIResponseInvalidDependenciesError という例外を捕捉していたのを削っています。たぶん Bundler::BundlerError を継承しているので冗長だったということではないかと思います。
