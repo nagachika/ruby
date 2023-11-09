@@ -1,0 +1,1 @@
+rubygems の gem install で --install-dir と --user-install というコマンドラインオプションを両方指定したらエラーにしていたのを許容するようにしています。
