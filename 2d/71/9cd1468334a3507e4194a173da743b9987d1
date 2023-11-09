@@ -1,0 +1,1 @@
+rubygems の Gem::Installer#install の実装で Zlib::GzipFile::Error という zlib の例外を捕捉して Gem::InstallError を投げなおすようにしていたのを削っています。
