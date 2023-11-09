@@ -1,0 +1,1 @@
+irb の e34401046566ad1938b1eec654a6bf69b1319102 で導入した新しい補完処理の実装のテストを環境変数 WITH_TYPE_COMPLETION_TEST がセットされている時だけ実行するようにしています。  https://github.com/ruby/irb/pull/748
