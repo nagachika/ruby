@@ -1,0 +1,1 @@
+bundler で git fetch コマンドを使って特定の commit hash をチェックアウトする? 処理で古い git コマンドの対応のために uploadpack.allowAnySHA1InWant という設定を使うようにしています。なんだろこれ。
