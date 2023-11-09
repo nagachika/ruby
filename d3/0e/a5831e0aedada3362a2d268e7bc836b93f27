@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストの test/openssl/fixtures/ssl/openssl_fips.cnf.tmpl という不要なファイルを削除しています。
