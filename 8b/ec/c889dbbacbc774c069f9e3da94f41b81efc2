@@ -1,0 +1,1 @@
+C API RARRAY_AREF() で GCC 13 での警告抑制のため RBIMPL_WARNING_IGNORED() で局所的にコンパイラの警告抑制するようにしています。
