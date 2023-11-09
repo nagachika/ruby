@@ -1,0 +1,1 @@
+YJIT のインスタンス変数セットのコード生成の処理で Object Shapes の too complex 時の対応を追加しているようです。https://github.com/ruby/ruby/pull/8857
