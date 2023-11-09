@@ -1,0 +1,1 @@
+rubygems の Gem::Installer の :user_install と :install_dir の指定のある時のテストを追加しています。
