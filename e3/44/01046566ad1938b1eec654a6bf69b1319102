@@ -1,0 +1,1 @@
+詳細は読んでいませんが irb の補完処理に prism による AST 取得と rbs による型情報を元にした補完処理を実装しているようです。 https://github.com/ruby/irb/pull/708
