@@ -1,0 +1,1 @@
+392238e3fd76beb923de1ba3f8d8d6bd28c7030e で導入した T_TYPEDDATA 型オブジェクトで Variable Width Allocation による拡張 slot を利用してデータを slot 内に埋め込むのを Time クラスで利用するようにしています。
