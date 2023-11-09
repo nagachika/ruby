@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle で C の真偽値を ruby で true/false として取り出せるように TYPE_BOOL というタイプを追加しています。 https://github.com/ruby/fiddle/pull/130
