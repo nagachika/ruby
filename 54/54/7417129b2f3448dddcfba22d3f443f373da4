@@ -1,0 +1,1 @@
+rubygems のテストのヘルパーメソッドに extension_in_lib というのを追加するリファクタリング。
