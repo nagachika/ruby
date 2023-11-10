@@ -1,0 +1,1 @@
+22939382a897af32d9899fafedd5be807b0d555b の ruby 定義による組み込みメソッドを ISeq のバイナリフォーマットで埋め込むために builtin_binary.inc を生成する時に sha256sum でチェックサムを作って表示するように common.mk にアクションを追加しています。 [ruby-core:105920] [Bug #18286]
