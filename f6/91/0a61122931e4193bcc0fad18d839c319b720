@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_t::type のタイプの定数の SHAPE_CAPACITY_CHANGE というのを削除しています。元の実装がよくわかってませんが最近の capacity transition という変更による動的な capacity 変更の実装により rb_shape_t のノードで表現する必要がなくなったみたいです。
