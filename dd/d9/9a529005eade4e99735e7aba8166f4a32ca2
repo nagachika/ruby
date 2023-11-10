@@ -1,0 +1,1 @@
+ddcfc9feabf22ed6cc1071e65948a1d512a906fe の標準添付ライブラリ tempfile の変更で Tempfile.open の最後にメソッド呼び出しを追加したせいで戻り値が変化してしまっていたのを修正しています。
