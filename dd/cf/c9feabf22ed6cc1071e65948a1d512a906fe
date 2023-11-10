@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の Tempfile#dup や #clone での複製時のため initialize_dup や initialize_clone メソッドを追加して、また open メソッドで finalizer への登録をリセットして再入できるようにしています。 Tempfile を dup/clone するとか危険そうであんまりやりたくない香りがしますが実際従来の実装では問題があったようですね。 [ruby-core:112445] [Bug #19441]
