@@ -1,0 +1,1 @@
+bundler で rubygems の Gem::BasicSpecification というクラスで extensions_dir メソッドを定義するように変更されたのに追随するため bundler で再定義するクラス名も変更しています。
