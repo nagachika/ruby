@@ -1,0 +1,1 @@
+irb のコマンドラインオプションに --regexp-completor と --type-completor というのを追加して e34401046566ad1938b1eec654a6bf69b1319102 で導入した rbs を利用した型ベースの補完処理を起動時に有効にすることができるようにしています。 https://github.com/ruby/irb/pull/754
