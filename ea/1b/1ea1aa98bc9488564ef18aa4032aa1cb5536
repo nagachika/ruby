@@ -1,0 +1,1 @@
+String#force_encoding で Encoding の紐付けした時に元々の Encoding と変化しない時でも coderange の状態はクリアされてしまい続く処理で速度的なデメリットを被る可能性があるので、変化しない時はなにもしないようにして、さらに Encoding が変化しても 元々の coderange が ENC_CODERANGE_7BIT で Encoding も ASCII compatible な場合は変更する必要がないのでそのまま coderange の clear はスキップするようにしています。
