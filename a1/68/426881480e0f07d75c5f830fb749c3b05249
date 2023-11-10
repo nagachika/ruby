@@ -1,0 +1,1 @@
+rubygems のテストで 54547417129b2f3448dddcfba22d3f443f373da4 で導入したヘルパーメソッド extension_in_lib を利用して Gem.install_extension_in_lib の戻り値を stub 化して実行することで環境によるエラー? を回避するようにしているようです。
