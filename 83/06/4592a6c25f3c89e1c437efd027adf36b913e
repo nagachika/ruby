@@ -1,1 +1,1 @@
-拡張ライブラリ io/console の gemspec ファイルの spec.files に lib/ffi/io/console/version.rb というファイルを追加しています。 upstram のリポジトリにはすでにこのファイルないみたいなので io-console 自体のバージョンなのかどうかはわかりませんが、現状では io-console.gem のバージョンはまだ gemspec ファイルに書くようになっているみたいです。
+拡張ライブラリ io/console の gemspec ファイルの spec.files に lib/ffi/io/console/version.rb というファイルを追加しています。 upstram のリポジトリにはすでにこのファイルないみたいなので io-console 自体のバージョンなのかどうかはわかりませんが、現状では io-console.gem のバージョンはまだ gemspec ファイルに書くようになっているみたいです。[追記]lib/ffi/io/console/version.rb は io-console.gem のビルド時に rake タスクで作成されるファイルだそうです。[/追記]
