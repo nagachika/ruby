@@ -1,0 +1,1 @@
+M:N Threads の導入と有効にするための環境変数 RUBY_MN_THREADS について NEWS に追記しています。 [ruby-core:114422] [Feature #19842]
