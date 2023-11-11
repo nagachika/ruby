@@ -1,0 +1,1 @@
+doc/regexp.rdoc の正規表現ドキュメントに Optimization というセクションを追加してメモ化による最適化についての紹介とそれが効くようなパターンの説明などを追記しています。なお一番大事なのは "However, an untrusted source may not be safe" ってところで任意入力を Regexp にコンパイルするのはやめましょうということですね。 https://github.com/ruby/ruby/pull/8849
