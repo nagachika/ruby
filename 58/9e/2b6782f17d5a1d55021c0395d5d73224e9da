@@ -1,0 +1,1 @@
+irb にWITH_TYPE_COMPLETION_TEST という環境変数をセットしないと e34401046566ad1938b1eec654a6bf69b1319102 で導入した rbs に依存した補完処理のテストをスキップするようにしておいたのを revert しています。 https://github.com/ruby/irb/pull/748 https://github.com/ruby/irb/pull/755
