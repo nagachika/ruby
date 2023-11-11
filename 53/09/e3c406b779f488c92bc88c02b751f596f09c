@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の gemspec ファイルの spec.file のライブラリの lib/io/console/ffi/ から lib/ffi/io/console/ へと変更しています。 upstream ではファイルの配置を変更したのかな。 ruby 本体にはコピーされないファイル群みたいです。
