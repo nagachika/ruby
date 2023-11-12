@@ -1,0 +1,1 @@
+NEWS の YJIT の code GC をデフォルトで無効にしたことの記述の説明の追加や英語のいいまわしの修正をしています。 https://github.com/ruby/ruby/pull/8865
