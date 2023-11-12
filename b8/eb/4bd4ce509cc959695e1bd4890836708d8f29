@@ -1,0 +1,1 @@
+38fe710e08db3d93b6225f9c41c18c672e602d7f の続きで YJIT の Rust 実装で Assembler.compile のエラー時の処理が漏れていたところを修正。
