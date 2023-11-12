@@ -1,0 +1,1 @@
+Thread::Backtrace のオブジェクトも TypedData の slot 埋め込みを利用するようにしています。
