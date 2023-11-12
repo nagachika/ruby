@@ -1,0 +1,1 @@
+Backtrace::Location クラスのインスタンスの実装で T_TYPEDDATA 型の構造体を slot 内に埋め込むように指定しています。
