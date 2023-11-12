@@ -1,0 +1,1 @@
+ObjectSpace.memsize_of の実装で T_MODULE/T_CLASS/T_ICLASS 型オブジェクトの処理で RCLASS_EXT() の結果が NULL かどうかでの分岐がありましたが、現在はここが NULL になることはないそうなので条件を削っています。
