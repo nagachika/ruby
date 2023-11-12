@@ -1,0 +1,1 @@
+f6910a61122931e4193bcc0fad18d839c319b720 で Object Shapes の rb_shape_t::type のタイプの定数の SHAPE_CAPACITY_CHANGE というのを削除していたのを revert しています。Shopify 社内でのテストで異常終了が発生していたとのこと。
