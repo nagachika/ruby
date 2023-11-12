@@ -1,0 +1,1 @@
+YJIT の Rust 実装の linter (clippy) による指摘の適用みたいです。不要な clone() の呼び出しを消しているようですね。
