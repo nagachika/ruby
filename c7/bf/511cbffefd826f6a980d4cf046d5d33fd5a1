@@ -1,0 +1,1 @@
+bundler の gemspec ファイルの spec.required_rubygems_version を 3.2.3 以降に引き上げています。
