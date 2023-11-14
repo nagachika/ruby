@@ -1,0 +1,1 @@
+Thread のライフサイクルのイベントのコールバック関数を呼び出すための rb_thread_execute_hooks() という関数で未使用だった rb_internal_thread_event_data_t という型の引数に Thread オブジェクトの VALUE を渡すようにしてイベント発生元の Thread を明示的に渡すようにしています。コミットログによると M:N Thread の導入により rb_nativethread_self() などで native thread から Thread が 1:1 対応しなくなるのでコールバック関数側にどの Thread のイベントなのか知らせる必要ができたということみたいです。
