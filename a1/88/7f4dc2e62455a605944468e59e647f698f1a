@@ -1,0 +1,1 @@
+9a62fd3cbae2ebb60e2f9cad782af1ad18db4319 の ObjectSpace.dump_all の同時実行対応を revert しています。 9ca41e999159096cb0872b4babbb94bf5d1af4ce の修正も関係しているのかな?
