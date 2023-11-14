@@ -1,0 +1,1 @@
+objspace_reachable_objects_from_root() という関数で RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で VM 全体のロックを取るようにしています。 multi Ractor 対応かなと思いましたが後で f1b95095d6635567cc5820b3eb40d9618faa73ed で revert されていました。
