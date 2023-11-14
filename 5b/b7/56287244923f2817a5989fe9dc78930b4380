@@ -1,0 +1,1 @@
+rubygems のテストで Gem のインスタンス変数 @default_specifications_dir の設定を変更しています。よくわかりませんが環境依存のテストのエラー対策のためみたいです。
