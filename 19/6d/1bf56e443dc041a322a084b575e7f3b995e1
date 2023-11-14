@@ -1,0 +1,1 @@
+bundler の Bundler::LazySpecification の生成時に new メソッドの引数で source を渡すようリファクタリングしています。
