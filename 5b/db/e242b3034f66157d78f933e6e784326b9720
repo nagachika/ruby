@@ -1,0 +1,1 @@
+bundler で gem の development dependency が Gemfile で上書きされている時? の警告出力を追加しているようです。
