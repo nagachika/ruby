@@ -1,0 +1,1 @@
+rubygems で文字列リテラルに前置の "+" をつけて fstring 化していたのをやめています。magic comment の frozen_string_literal: true がついているので不要ということかな。
