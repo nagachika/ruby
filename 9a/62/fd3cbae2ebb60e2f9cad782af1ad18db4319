@@ -1,0 +1,1 @@
+ObjectSpace.dump_all を複数の Ractor で? 呼び出すと異常終了することがあったということで reachable_objects_from_callback() で rb_ractor_t::mfd の値を保存しておいて復旧させるようにしています。しかし後で a1887f4dc2e62455a605944468e59e647f698f1a で revert されていました。
