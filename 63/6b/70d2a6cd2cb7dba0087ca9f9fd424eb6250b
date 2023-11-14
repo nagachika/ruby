@@ -1,0 +1,1 @@
+bundler の Bundler::LazySpecification で required_ruby_version と required_rubygems_version という属性も追加しています。
