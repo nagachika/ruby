@@ -1,0 +1,1 @@
+doc/timezones.rdoc の Time.new の引数に渡す timezone を指定するオブジェクトに関する説明を修正しています。
