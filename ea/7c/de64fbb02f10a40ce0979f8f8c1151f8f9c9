@@ -1,0 +1,1 @@
+bundler の Bundler::LazySpecification の dependencies という属性を代入可能にしています。
