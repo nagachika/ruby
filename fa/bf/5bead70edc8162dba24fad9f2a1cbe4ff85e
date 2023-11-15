@@ -1,0 +1,1 @@
+Object Shapes でインスタンス変数の削除時の rb_shape_t::capacity の上書きを抑制しています。
