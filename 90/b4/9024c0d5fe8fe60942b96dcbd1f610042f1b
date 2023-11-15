@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の端末出力の色付けなどを担当する Reline::Face で 256 color モードを追加して truecolor が使えない時に代替するようにしています。 https://github.com/ruby/reline/pull/604
