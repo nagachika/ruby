@@ -1,0 +1,1 @@
+Dir.exist? の rdoc 用コメントに File.directory? への言及を追加しています。
