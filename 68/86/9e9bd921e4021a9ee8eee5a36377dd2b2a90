@@ -1,0 +1,1 @@
+5f3fb4f4e397735783743fe52a7899b614bece20 で revert された f6910a61122931e4193bcc0fad18d839c319b720 の Object Shapes の rb_shape_t::type のタイプの定数の SHAPE_CAPACITY_CHANGE を削除するのをリトライしています。拡張ライブラリ objspace での消し忘れと variable.c の RUBY_ASSERT() マクロでの対応漏れが追加されています。
