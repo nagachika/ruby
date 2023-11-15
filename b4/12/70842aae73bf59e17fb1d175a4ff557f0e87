@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace._dump_object で T_IMEMO 型オブジェクトの callcache の時の表示を追加しています。また dump_append_ref() という関数を dump_append_ptr() という関数名に改名して dump_append_ref() はそちらに委譲する関数として定義しなおしています。これはうっかり混ざっただけ?
