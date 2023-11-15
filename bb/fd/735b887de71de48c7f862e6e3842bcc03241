@@ -1,0 +1,1 @@
+rubygems でファイルの shebang を検出する処理で TruffleRuby でも shebang を読み飛ばすようにしています。
