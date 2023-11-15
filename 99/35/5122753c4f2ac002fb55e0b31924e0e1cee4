@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の TIDYLINK という rdoc のリンク記法のラベルを {} で囲む記法に余分な { があるとリンク生成されない不具合修正しています。 https://github.com/ruby/rdoc/pull/1015
