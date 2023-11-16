@@ -1,0 +1,1 @@
+make test-all で rubygems のための環境変数をクリアするなどの環境を整える処理を tool/test/init.rb というファイルに分離して tool/test/runner.rb や tool/lib/test/unit/parallel.rb から require するようにしています。並列テスト時に worker でも同様の初期化が行なわれるようにするためみたいです。
