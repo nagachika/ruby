@@ -1,0 +1,1 @@
+Thread#set_trace_func のテストで別のテストでのイベントが混じらないようにコールバックでファイル名をチェックするようにしています。 https://github.com/ruby/ruby/pull/8916
