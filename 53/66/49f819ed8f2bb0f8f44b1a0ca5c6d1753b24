@@ -1,0 +1,1 @@
+da2c2931a602da22bc1fd10dc41f5c3a117bf502 や e1978a905a32af2d48b6e9efb6d0fe1656fddc5b のさらに再修正で irb の型による補完処理のテストでそもそも require "irb/version" して IRB::VERSION が定義されるようにしています。 https://github.com/ruby/ruby/pull/8925
