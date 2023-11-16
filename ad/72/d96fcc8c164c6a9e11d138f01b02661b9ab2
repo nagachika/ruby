@@ -1,0 +1,1 @@
+iseq.c の local_var_name() 内で ID に対応する名前にエスケープが必要かどうかの判定に rb_str_symname_p() を使ってたのを rb_is_local_id() で ID を元に判定するようにしています。
