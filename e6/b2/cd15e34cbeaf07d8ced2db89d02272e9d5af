@@ -1,0 +1,1 @@
+make test-bundled-gems で rbs のテストの skip するテストメソッドを指定する tool/rbs_skip_tests に指定を追加しているのと typo があったのを修正しています。
