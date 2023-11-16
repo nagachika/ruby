@@ -1,0 +1,1 @@
+bc84334af7e6100f0ede678704f5b80fcaabc0c9 で誤って追加された bin/dot を削除しています。また test/prism/errors_test.rb の一部のテストも削除していますがこれはいいのかな。
