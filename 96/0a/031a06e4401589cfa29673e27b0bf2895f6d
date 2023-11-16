@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_setivar_slowpath() で Object Shapes の shape がみつからなかった時の rb_bug() での異常終了時のメッセージをよりわかりやすくしています。
