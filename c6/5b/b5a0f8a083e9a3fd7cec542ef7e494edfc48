@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で既に bundled gems になっている元 default gems についても警告出力の対象になるようにしています。
