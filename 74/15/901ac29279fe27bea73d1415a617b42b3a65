@@ -1,0 +1,1 @@
+bundler による rubygems の機能を再定義するためのモジュール Bundler::RubygemsIntegration の replace_entrypoints で lib/bundled_gems.rb を読み込んでるかどうか(ruby が 3.3 かどうか?)の分岐で reverse_rubygems_kernel_mixin の呼び出しも変えていましたがこれは常に呼び出すように修正しています。
