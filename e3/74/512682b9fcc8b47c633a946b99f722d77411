@@ -1,0 +1,1 @@
+rdoc の 8d160b9350b35ece2bac1669d8aa513622ca2a5b での String#join の引数削除を revert しています。 ruby 2.6 まではまだ $, の上書きで String#join のデフォルトの delimiter を変更する可能性があったので明示的に引数を指定することに意味があったようです。なるほどー。
