@@ -1,0 +1,1 @@
+Object Shapes の実装の rb_evict_ivars_to_hash() という関数の第2引数に rb_shape_t のポインタを渡していたのは削除して st_table のバッファサイズを rb_ivar_count() で obj から得るように変更しています。おそらくより厳密に必要なサイズで作るようにしているんだと思います。
