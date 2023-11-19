@@ -1,0 +1,1 @@
+vm_method.c の check_overloaded_cme() という関数で処理中に GC.compact が発生すると異常終了する可能性があった不具合を修正しています。 rb_method_entry_t のメモリ確保時に GC が発生しその時に compaction も発生するとその直前にコピーしていた値が不正なものになる可能性があったのでメモリ確保後のコピーにし、ついでに RB_OBJ_WRITE() を利用して RGenGC 用の Write Barrier も追加しています。
