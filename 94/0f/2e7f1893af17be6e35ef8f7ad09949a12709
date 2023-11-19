@@ -1,0 +1,1 @@
+gc.c でオブジェクトの確保時に要求するサイズごとに Variable Width Allocation による slot サイズ別の heap のうちどこに確保すべきかを判定する size_pool_idx_for_size() で上限を越えてた時の rb_bug() のメッセージにデバッグ用に渡されたサイズや計算結果を埋め込むようにしています。
