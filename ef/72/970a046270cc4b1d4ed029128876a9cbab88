@@ -1,0 +1,1 @@
+File.directory? の rdoc 用コメントの余分なタグを削除しています。
