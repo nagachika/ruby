@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow でテスト実行時の shell を cmd にして chcp.com の呼び出しを削除しています。
