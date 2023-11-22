@@ -1,0 +1,1 @@
+Enumerator のインスタンスも TypedData の Variable Width Allocation の拡張した slot に埋め込む機構を利用するようにしています。
