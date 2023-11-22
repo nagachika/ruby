@@ -1,0 +1,1 @@
+オブジェクトのインスタンス変数をイテレートする gen_ivar_each() という関数で Object Shapes の too complex 時の不具合修正。
