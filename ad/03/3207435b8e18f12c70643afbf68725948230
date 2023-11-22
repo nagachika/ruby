@@ -1,0 +1,1 @@
+TypedData 型のオブジェクトの Variable Width Allocation による拡張した slot 内に埋め込む実装で可変長部分の mark 処理のために gc_mark_from_offset() と gc_ref_update_from_offset() という関数を追加していたのをインラインで展開するようにリファクタリングしています。
