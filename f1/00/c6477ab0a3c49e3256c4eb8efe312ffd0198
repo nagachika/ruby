@@ -1,0 +1,1 @@
+9694445051c4192c8f659529133acab253bd0bc3 で macOS で configure の --enable-shared をデフォルトで on にしたのを revert しています。なぜかリリースパッケージでのテストでエラーになってしまうそうです。 [ruby-core:115386] [Bug #20004]
