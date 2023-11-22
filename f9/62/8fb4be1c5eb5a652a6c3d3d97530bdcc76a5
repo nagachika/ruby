@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプション --yjit-max-versions を --help の出力や doc/yjit/yjit.md のドキュメントから消しています。 https://github.com/ruby/ruby/pull/8962
