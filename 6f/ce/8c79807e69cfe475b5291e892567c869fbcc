@@ -1,0 +1,1 @@
+GC.compact 時に T_MODULE/T_CLASS 型オブジェクトでインスタンス変数の管理が Object Shapes の too complex になっている場合にインスタンス変数の指す先の追跡を skip するようにしています。
