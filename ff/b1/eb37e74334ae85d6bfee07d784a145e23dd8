@@ -1,0 +1,1 @@
+Method クラスのオブジェクトも構造体を Variable Width Allocation の slot へ埋め込むようにしています。
