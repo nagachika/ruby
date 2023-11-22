@@ -1,0 +1,1 @@
+YJIT でコンパイルした機械語の disasm をダンプする機能で出力先ファイル名の表示する先を標準エラー出力に変更しているようです。 https://github.com/ruby/ruby/pull/8967
