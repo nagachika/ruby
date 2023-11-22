@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile_file_prism というメソッドを追加して prism の AST にコンパイルする機能を追加しています。
