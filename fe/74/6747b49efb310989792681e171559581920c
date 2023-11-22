@@ -1,0 +1,1 @@
+"class << (return); end" というような構文を SyntaxError にするように修正(?)しています。
