@@ -1,0 +1,1 @@
+compile.c の struct pinned_list という構造体でオブジェクトの VALUE の配列をポインタとして持っていたのを末尾の可変長配列として持つようにしています。 malloc の回数を減らすため。
