@@ -1,0 +1,1 @@
+AST の NODE がオブジェクトとして管理されなくなったので拡張ライブラリ objspace の ObjectSpace.count_nodes の実装を空にして空の Hash を返すようにしています。
