@@ -1,0 +1,1 @@
+構造体 rb_backtrace_t に rb_backtrace_location_t をポインタとして持たせていたのを構造体内の末尾に可変長配列として埋め込むようにしています。
