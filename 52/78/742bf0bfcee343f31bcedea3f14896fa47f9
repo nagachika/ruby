@@ -1,0 +1,1 @@
+marshal.c の内部的に使うための構造体を wrap する T_DATA 型オブジェクトの load_arg および dump_arg というやつを Variable Width Allocation の slot 内に埋め込んでヒープからメモリを確保しないようにする機構を利用するようにしています。また memsize_of によるメモリ使用量の算出にポインタの先の領域が計算されていなかったのでそれも含めるようにしています。
