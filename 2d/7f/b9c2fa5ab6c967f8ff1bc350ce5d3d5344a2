@@ -1,0 +1,1 @@
+Object Shapes のデバッグ用ビルドで生やすメソッドに RubyVM::Shapes.exhaust_shapes というのを追加して Object Shapes のテストでこれを利用して大量のインスタンス変数をセットするのを速く実行できるようにしています。テストの高速化のためだけのメソッド。
