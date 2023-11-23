@@ -1,0 +1,1 @@
+variable.c の rb_ivar_count() という関数内で T_OBJECT や T_MODULE/T_CLASS 型オブジェクトの時の処理を ROBJECT_IV_COUNT() や RCLASS_IV_COUNT() といった inline 関数に委譲するリファクタリング。実際には処理は違っていますが元の実装で配列内の要素が Qundef のものを除外するという処理は不要なのでこれらの関数の利用で問題ないとのこと。
