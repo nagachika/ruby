@@ -1,0 +1,1 @@
+04eb40b633397d03e4cbce41418626f4fabdcb02 で追加した complex.c の関数 complex_pow_for_special_angle() の未初期化変数の警告抑制のため初期化子を追加しています。
