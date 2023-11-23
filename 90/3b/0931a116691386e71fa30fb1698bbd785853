@@ -1,0 +1,1 @@
+NameError 例外クラスの内部的に保持している name, receiver などの情報を Variable Width Allocation による拡張 slot への埋め込みを使って保持するように変更しています。
