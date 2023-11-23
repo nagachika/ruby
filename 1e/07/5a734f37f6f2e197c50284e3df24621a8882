@@ -1,0 +1,1 @@
+Enumerator 関連の実装で内部的に利用されるクラスを Variable Width Allocation による拡張 slot への埋め込みを利用するようにしています。
