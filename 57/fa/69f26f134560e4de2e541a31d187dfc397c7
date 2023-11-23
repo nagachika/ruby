@@ -1,0 +1,1 @@
+bundler で Gemfile.lock に記述される PLATFORM の判定を逆順にしています。なぜかこれで不具合修正になっているみたいです。
