@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all などで T_IMEMO 型オブジェクトで callcache 用の imemo オブジェクトの時の ID を文字列化できなかった時の対応を追加しています。
