@@ -1,0 +1,1 @@
+Process::Status クラスのオブジェクトを Variable Width Allocation による拡張 slot への埋め込みを有効にしています。
