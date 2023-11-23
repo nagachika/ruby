@@ -1,0 +1,1 @@
+同じく Enumerator 関連の内部的に利用するクラスの TypedData の free 関数の設定でわざわざ RUBY_TYPED_DEFAULT_FREE に別名を #define でマクロ定義して渡していたのを直接 RUBY_TYPED_DEFAULT_FREE を指定するようにしています。
