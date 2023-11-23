@@ -1,0 +1,1 @@
+WeakKeyMap クラスも Variable Width Allocation による拡張 slot への埋め込みを利用するようにしています。
