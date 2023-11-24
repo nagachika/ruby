@@ -1,0 +1,1 @@
+WASM/WASI 版での rb_vm_tag_jmpbuf_init() および rb_vm_tag_jmpbuf_deinit() という inline 関数で malloc(3)/free(3) が直接使われてたのを ruby_xmalloc()/ruby_xfree() を呼ぶように変更しています。これらの関数は例外が発生しても問題ないので ruby 用の関数を使うとのこと。
