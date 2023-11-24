@@ -1,0 +1,1 @@
+GitHub Actions の WASM/WASI 版でビルドした ruby を artifact として保存する step を追加しています。
