@@ -1,0 +1,1 @@
+同じく GitHub Actions の WASM/WASI 版の workflow で利用する binaryen のバージョンを 113 に更新しています。
