@@ -1,0 +1,1 @@
+WASM/WASI 版での longjmp() の実装内で tmp_longjmp_buf のために malloc(3) を使ってメモリを確保していたのをやめてマシンスタック上の領域を利用するようにしています。
