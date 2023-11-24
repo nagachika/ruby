@@ -1,0 +1,1 @@
+同じく GitHub Actions の WASM/WASI 版の workflow で利用する wasmtime のバージョンを v15.0.0 に更新しています。
