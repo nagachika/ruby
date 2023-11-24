@@ -1,0 +1,1 @@
+irb の型による補完処理で警告抑制や例外処理で Exception クラス全体を rescue するようにする変更。 https://github.com/ruby/irb/pull/777
