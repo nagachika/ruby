@@ -1,0 +1,1 @@
+WASI/WASI 版での main 処理のためのループを実装している rb_wasm_rt_start() という関数で rb_asyncify_unwind_buf という変数が NULL の時にループを抜けるようにしています。 rb_asyncify_unwind_buf というのは ruby 本体部分では定義されてないので Asyncify のランタイムで使われている変数だと思われます。不正なメモリアクセスを避けるための修正とのこと。 https://github.com/ruby/ruby.wasm/commit/bc46b12b127e4b6625a100f373504ed5ea45ae66 https://github.com/ruby/ruby/pull/9007
