@@ -1,0 +1,1 @@
+File::Stat クラスを Variable Width Allocation による拡張 slot への埋め込み対応するようにしています。
