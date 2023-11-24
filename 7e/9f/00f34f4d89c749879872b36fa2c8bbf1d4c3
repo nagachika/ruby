@@ -1,0 +1,1 @@
+GitHub Actions の WASM/WASI 版の workflow でまずネイティブの ruby を BASERUBY 用にビルドして configure 時に --baseruby で指定するようにしています。システムに入っている ruby ではなくてコンパイルする対象と同じバージョンの ruby を BASERUBY に使いたいためみたいです。WASM に限らずリポジトリからのクロスコンパイル時に要求されることみたいですね。 https://github.com/ruby/ruby/wiki/Developer-How-To#prerequisite
