@@ -1,0 +1,1 @@
+YJIT の arm64 アーキテクチャ版での中間表現の MOV 命令を実際の機械語に分割する時の方法を修正しています。 テストをみた感じ Object Shapes の too complex への fallback 処理時に異常終了していた? https://github.com/ruby/ruby/pull/9014
