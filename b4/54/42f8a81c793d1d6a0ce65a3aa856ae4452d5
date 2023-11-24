@@ -1,0 +1,1 @@
+common.mk で prism の Encoding::CP949 対応のソースコードへの依存関係を追加しています。
