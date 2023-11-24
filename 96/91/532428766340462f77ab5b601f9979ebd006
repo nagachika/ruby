@@ -1,0 +1,1 @@
+Array#flatten の実装で内部的に一時的に st_table を保持するために TypedData 型のクラスを定義していたのをやめて Hash オブジェクトを作って klass を NULL にして内部オブジェクトにして使うように変更しています。
