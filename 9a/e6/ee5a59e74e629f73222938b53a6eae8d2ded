@@ -1,0 +1,1 @@
+Process.spawn などの引数の処理のために内部的に定義しているクラスで Variable Width Allocation の拡張 slot への埋め込み対応をしています。
