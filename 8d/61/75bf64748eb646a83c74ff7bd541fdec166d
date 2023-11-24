@@ -1,0 +1,1 @@
+irb の型による補完処理の実装で依存する prism のバージョンを更新しています。 https://github.com/ruby/irb/pull/778
