@@ -1,0 +1,1 @@
+Travis-CI の設定から s390x-linux のビルド設定自体をコメントアウトしています。現在 Travis-CI の障害? で s390x での CI が開始しない状態みたいです。 https://bugs.ruby-lang.org/issues/20013
