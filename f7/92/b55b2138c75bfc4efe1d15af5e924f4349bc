@@ -1,0 +1,1 @@
+rubygems の実装で String#split + #each を使ってたのを String#each_line を使って不要な配列の生成を抑制するようにしています。
