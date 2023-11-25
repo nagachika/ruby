@@ -1,0 +1,1 @@
+c424d15cb95f0f5a0db711974f7c76928c9633b1 の続きで bundle outdated の出力時に require "json" を追加しています。
