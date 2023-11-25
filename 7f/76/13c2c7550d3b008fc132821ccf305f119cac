@@ -1,0 +1,1 @@
+Object Shapes で T_OBJECT/T_CLASS/T_MODULE 以外のオブジェクトを too complex でインスタンス変数を st_table 管理に移行させる処理の途中で GC が発生して compaction が起きると異常終了する可能性があったのでその修正。
