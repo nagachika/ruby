@@ -1,0 +1,1 @@
+Object Shapes で too complex になっているオブジェクトのインスタンス変数の管理をしている Hash を GC.compact で移動可能にするようにしています。
