@@ -1,0 +1,1 @@
+YJIT の Rust 実装の修正ですがよくわからず。 pull request をみると異常終了することがあったのを修正しているみたいです。 https://github.com/ruby/ruby/pull/9015
