@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で候補のアドレスへの UDPSocket を開く時に捕捉する例外に Errno::EPROTONOSUPPORT を追加しています。 [ruby-core:115060] [Bug #19928]
