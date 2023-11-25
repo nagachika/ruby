@@ -1,0 +1,1 @@
+gc.c の gc_update_tbl_refs() という関数を gc_ref_update_table_values_only() と改名しています。コミットログをみると Object Shapes の too complex の時の mark 処理の修正をしているってあるような気がするけどそのような変更は含まれていないような。
