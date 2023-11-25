@@ -1,0 +1,1 @@
+YJIT の x86_64 版での CodeBlock.jmp_ptr_bytes() で返すサイズを修正しています。 https://github.com/ruby/ruby/pull/9016
