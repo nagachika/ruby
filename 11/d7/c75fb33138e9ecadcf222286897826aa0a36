@@ -1,0 +1,1 @@
+irb の例外処理で例外処理自体も Exception を rescue して例外処理中の例外によるエラー終了を避けるようにしています。 https://github.com/ruby/irb/pull/780
