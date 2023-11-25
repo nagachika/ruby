@@ -1,0 +1,1 @@
+デバッガでのオブジェクトの情報のダンプのための関数 rb_raw_obj_info_buitin_type() で T_OBJECT 型のオブジェクトで Object Shapes による管理をあきらめて st_table でインスタンス変数を管理している状態の時の表示対応を追加しています。
