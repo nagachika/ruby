@@ -1,0 +1,1 @@
+784fdecc4c9f6ba9a8fc872518872ed6bdbc6670 の arm64 版 Windows サポートでの configure.ac の変更で windres というコマンドの実行を Windows 環境の時だけにするように修正しています。
