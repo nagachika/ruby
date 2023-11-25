@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv に RFC 9461 で追加されている dohpath SvcParam という仕様のサポートを追加しています。 https://github.com/ruby/resolv/pull/33
