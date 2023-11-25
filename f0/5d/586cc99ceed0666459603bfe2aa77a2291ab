@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で出力する統計情報のカウンタに num_send_cfunc と num_send_cfunc_inline というのを追加して num_send_known_cfunc から分離しています。 https://github.com/ruby/ruby/pull/9022
