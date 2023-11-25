@@ -1,0 +1,1 @@
+Object Shapes のテストに 7f7613c2c7550d3b008fc132821ccf305f119cac に対応するテストを追加。 GC.stress=true と GC.auto_compact=true をセットして常に GC と GC.compact が走るようにしています。
