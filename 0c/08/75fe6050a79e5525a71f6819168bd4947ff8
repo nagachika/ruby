@@ -1,0 +1,1 @@
+doc/timezones.rdoc に Time.new などが find_timezone というクラスメソッドが定義されていたらそれを呼び出すという挙動について追記しています。
