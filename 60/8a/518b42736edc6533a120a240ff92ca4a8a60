@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv に SVCB と HTTPS という RFC 9460 で追加されるレコードの仕様のサポートを追加しています。 https://github.com/ruby/resolv/pull/32
