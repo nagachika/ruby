@@ -1,0 +1,1 @@
+irb の yamatanooroti.gem を使ったテストで仮想端末のサイズを変更して結果の確認方法で余分な文字を許容するようにしています。たまに失敗するテスト対策とのこと。 https://github.com/ruby/irb/pull/786
