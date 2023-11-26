@@ -1,0 +1,1 @@
+Object Shapes のテストでテスト用にビルドされた時に追加される RubyVM::Shape.exhaust_shapes というメソッドを利用するように書きかえています。
