@@ -1,0 +1,1 @@
+gc_abort() という関数を追加して進行中の incremental marking や lazy sweep などの GC の処理をとりやめて、さらなる GC の実行を抑制するようにして rb_objspace_call_finalizer() からこれを呼ぶことでプロセス終了時には GC のために時間を使わないようにして終了処理を高速化しています。なるほどこれはおもしろい発想。
