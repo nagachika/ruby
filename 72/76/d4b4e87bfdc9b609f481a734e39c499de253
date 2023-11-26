@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で Resolv::DNS.new のオプションに :raise_timeout_errors というのを追加して DNS への接続がタイムアウトした時に例外を発生させるようにしています。 [ruby-core:105161] [Bug #18151]
