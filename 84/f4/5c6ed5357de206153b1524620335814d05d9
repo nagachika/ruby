@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL によるチェックの workflow でいくつかの step に continue-on-error: true の設定を追加してエラー時に続きも実行させるようにしています。
