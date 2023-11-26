@@ -1,0 +1,1 @@
+T_OBJECT/T_MODULE/T_CLASS 以外のオブジェクトのインスタンス変数の GC mark 処理の compaction 対応の不具合修正のようです。
