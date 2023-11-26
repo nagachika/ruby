@@ -1,0 +1,1 @@
+gc_mark_imemo() 内で callcache の mark が必要かどうかの判定に refinements 経由の callcache かどうかの判定を追加しています。 mark 漏れによる異常終了の不具合修正。 [ruby-core:115307] [Bug #19994]
