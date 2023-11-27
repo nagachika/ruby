@@ -1,0 +1,1 @@
+de37b780508d4ced5837f39446d3c8c93ef9ec7c で拡張ライブラリ openssl のテストを MinGW で skip するようにしていたのを OpenSSL のバージョンで条件判定するように修正しています。
