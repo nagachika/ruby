@@ -1,0 +1,1 @@
+C API でオブジェクトで wrap している構造体内の各メンバーを GC の mark 対象とするためのヘルパーマクロの RUBY_REFERENCES_START()/RUBY_REFERENCES_END の RUBY_REFERENCES_START() で暗黙に定義する変数の修飾子に const を追加しています。 これ最近導入されたような、と思ってみたら 7142328a94c85cc5f23630396f248b32133f87ab なのでやはり今年追加されたものでもう忘れかけてた。
