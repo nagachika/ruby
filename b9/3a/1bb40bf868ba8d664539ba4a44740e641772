@@ -1,0 +1,1 @@
+Object Shapes のデバッグのため rb_shape_get_iv_index() から主な処理内容を shape_get_iv_index() に切り出して RUBY_DEBUG が真に定義されているデバッグモードの時に RUBY_ASSERT() での検証を追加しています。
