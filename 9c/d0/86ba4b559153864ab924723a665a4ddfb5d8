@@ -1,0 +1,1 @@
+irb のコマンドラインオプションに --no-pager を追加して長い出力の表示にページャーコマンドを使う機能を抑制できるようにしています。 irbrc で IRB.conf[:USE_PAGER] に false を設定することでも設定できるようにしています。 https://github.com/ruby/irb/pull/783
