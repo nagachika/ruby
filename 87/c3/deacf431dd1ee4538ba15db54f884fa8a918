@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv.new にキーワード引数 use_ipv6 を追加して強制的に IPv6 のアドレスを返して IPv4 に fallback しないようにしています。 [ruby-core:88010] [Feature #14922]
