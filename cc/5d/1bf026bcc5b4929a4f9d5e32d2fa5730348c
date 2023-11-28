@@ -1,0 +1,1 @@
+irb の組み込みコマンド help でコマンドの alias を表示するようにしています。 https://github.com/ruby/irb/pull/788
