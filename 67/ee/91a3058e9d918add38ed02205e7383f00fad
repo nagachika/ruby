@@ -1,0 +1,1 @@
+拡張ライブラリ psych の ruby 定義メソッドで String#split+#each が使われてたところを String#each_char を利用するように最適化しています。
