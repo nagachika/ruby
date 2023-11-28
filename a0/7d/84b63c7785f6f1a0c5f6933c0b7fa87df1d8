@@ -1,0 +1,1 @@
+irb の debug.gem 連係機能でデバッガのコマンドの入力時に hint を出す機能で入力後に hint が残ってしまうのを修正しています。 https://github.com/ruby/irb/pull/789
