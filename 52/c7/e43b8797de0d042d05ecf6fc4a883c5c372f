@@ -1,0 +1,1 @@
+bundler の man ページを更新して bundle install の --prefer-local オプションを追記しています。
