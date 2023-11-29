@@ -1,0 +1,1 @@
+YJIT の --yjit-stats オプションによる統計情報に C 実装のメソッドのメソッド名のランキングを表示するようにしています。 https://github.com/ruby/ruby/pull/9047
