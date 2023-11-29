@@ -1,0 +1,1 @@
+Range#reverse_each が endless range に対して呼ばれた場合 TypeError 例外を発生させるようにしています。
