@@ -1,0 +1,1 @@
+Object Shapes の実装で使っている赤黒木に RUBY_DEBUG を真にしてビルドされたデバッグ用ビルドの時に RUBY_ASSERT() による assertion を追加しています。
