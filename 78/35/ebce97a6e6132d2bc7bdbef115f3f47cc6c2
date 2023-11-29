@@ -1,0 +1,1 @@
+gc_start() で compaction 中の状態をセットするタイミングを full GC を実施するかの判定の後にして、full mark 実施する時だけ compaction 実行中の状態をセットするように修正しています。
