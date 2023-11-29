@@ -1,0 +1,1 @@
+gc_start() で GC.stress=true が設定されている時に incremental marking を抑制するようにしています。GC.stress が設定されているということは GC が走るタイミングで Object Space の全ての slot が mark されて不要なものが回収されることが期待されているので incremental marking が有効になるとちゃんと mark しきれなくてテストにならないので。
