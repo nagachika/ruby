@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の extconf.rb で CRuby 以外では Makefile をダミーのものにしてビルドしないようにしています。 https://github.com/ruby/openssl/issues/699
