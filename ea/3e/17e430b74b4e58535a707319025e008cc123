@@ -1,0 +1,1 @@
+7f50c705742dd92509ae9fc3003eb7561baa7e8a で追加した --yjit-stats で出力する C 実装のメソッドの呼び出しランキングの生成の不具合修正。 https://github.com/ruby/ruby/pull/9056
