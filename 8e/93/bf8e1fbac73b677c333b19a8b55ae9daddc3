@@ -1,0 +1,1 @@
+Integer#fdiv の実装で receiver が Fixnum の時に double の精度で誤差が大きくなるような数で除算される時には receiver も引数も Bignum に変換してから除算計算するようにしています。誤差を小さくするため。 [ruby-core:99239] [Bug #17037]
