@@ -1,0 +1,1 @@
+YJIT のコード生成の実装に assertion を追加しているようです。 https://github.com/ruby/ruby/pull/9048
