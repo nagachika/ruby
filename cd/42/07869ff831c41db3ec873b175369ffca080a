@@ -1,0 +1,1 @@
+メソッドの callcache の invalidate が Refinements を経由した呼び出しのキャッシュの場合? に正しくクリアされなくなっていた不具合を修正しています。あわせて Refinements によるメソッド呼び出しの時の rb_method_entry_t の複製時にそこから参照されている orig_me の method entry も複製するようにしています。いやー難しいな。
