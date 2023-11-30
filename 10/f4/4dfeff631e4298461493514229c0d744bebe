@@ -1,0 +1,1 @@
+6eb5a9cf8f99b64d97d26b41011c03b846317d3e の再修正で Object Shapes の too complex 状態のオブジェクトの複数 Ractor 対応の修正をもっとシンプルにしています。またテストを追加しています。
