@@ -1,0 +1,1 @@
+Array#assoc は配列の要素に対して to_ary を呼ぶ暗黙の変換を行うのに Array#rassoc は呼んでなかったので Array#rassoc でも暗黙の変換を行うように対応しています。 [ruby-core:115355] [Bug #20003]
