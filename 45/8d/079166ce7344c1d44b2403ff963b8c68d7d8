@@ -1,0 +1,1 @@
+NEWS に endless range の Range#reverse_each が TypeError を発生させることを追記しています。 [ruby-core:107299] [Feature #18551]
