@@ -1,0 +1,1 @@
+method entry の構造体の mark 処理で Refinements による複製された? method entry の時に未使用のメンバーの mark を削っています。
