@@ -1,0 +1,1 @@
+23a7714343b372234972ef0dacf774d07fe65ced の続きでテスト用の Thread のライフサイクルについてのコールバックの呼び出しの実装を修正しています。 23a7714343b372234972ef0dacf774d07fe65ced の変更はこのチケットに関連した変更だったのかな。 https://github.com/ruby/ruby/pull/9029 [ruby-core:115465] [Bug #20019]
