@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する Rust 製拡張ライブラリのための Cargo.toml のテンプレートの magnus というパッケージの依存バージョンを更新しています。
