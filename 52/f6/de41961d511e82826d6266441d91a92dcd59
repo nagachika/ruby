@@ -1,0 +1,1 @@
+拡張ライブラリ socket で SocketError 例外のかわりに e9050270d7d8b1bc6be2c1352772b906031adc6e で追加した Socket::ResolutionError を発生させるようにしています。発生時にエラー内容の整数(errno?)をセットするようにしています。 Socket::ResolutionError は SocketError を継承しているので SocketError を rescue しているこれまでのコードもそのままで動くと思います。
