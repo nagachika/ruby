@@ -1,0 +1,1 @@
+TypedData 型オブジェクトで構造体の mark すべきメンバーを列挙するためのマクロ REFS_LIST_PTR() や REF_EDGE() に RUBY_ の prefix を追加して RUBY_REFS_LIST_PTR()、RUBY_REF_EDGE() にそれぞれ改名しています。
