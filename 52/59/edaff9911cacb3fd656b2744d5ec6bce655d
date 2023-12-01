@@ -1,0 +1,1 @@
+NEWS に ObjectSpace::WeakMap#delete メソッドの新規追加と環境変数 RUBY_CRASH_REPORT による異常終了時の crash report の出力先指定の機能について追記しています。 [Feature #19561] [Feature #19790]
