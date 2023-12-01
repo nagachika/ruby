@@ -1,0 +1,1 @@
+NEWS に Kernel#open や URI.open, IO.read などで先頭に "|" を書くことでコマンド実行する機能を deprecated にしたことについて追記しています。 [ruby-core:113407] [Feature #19630]
