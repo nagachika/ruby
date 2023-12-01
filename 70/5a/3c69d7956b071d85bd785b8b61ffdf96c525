@@ -1,0 +1,1 @@
+Enumerator や Enumerator::Lazy の実装で内部的に使う proc_entry というクラスのオブジェクトのタイプに RUBY_TYPED_FREE_IMMEDIATELY ビットフラグを追加して回収時に即座に free 関数を呼ぶようにしています。
