@@ -1,0 +1,1 @@
+Enumerator や Enumerator::Lazy の実装で内部的に使う proc_entry というクラスの実装に RGenGC 用の Write Barrier を追加して WB-protected にマークしています。
