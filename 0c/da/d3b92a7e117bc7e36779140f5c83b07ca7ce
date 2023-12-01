@@ -1,0 +1,1 @@
+TypedData の mark 処理の実装のためのマクロ RUBY_REFERENCES_START/RUBY_REFERENCES_END を RUBY_REFERENCES() という単一のマクロで初期化子の代入のように書けるように変更しています。
