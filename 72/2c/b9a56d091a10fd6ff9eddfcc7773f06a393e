@@ -1,0 +1,1 @@
+拡張ライブラリ socket の 52f6de41961d511e82826d6266441d91a92dcd59 で追加したテストが FreeBSD で通らないとのことで RUBY_PLATFORM をみて skip するようにしています。
