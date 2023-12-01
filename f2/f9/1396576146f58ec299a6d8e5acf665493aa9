@@ -1,0 +1,1 @@
+NEWS の環境変数 RUBY_GC_HEAP_INIT_SLOTS の廃止と RUBY_GC_HEAP_%d_INIT_SLOTS の追加についての記述を Compatibility issues のセクションに移動しています。 [Feature #19785]
