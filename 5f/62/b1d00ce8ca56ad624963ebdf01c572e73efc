@@ -1,0 +1,1 @@
+拡張ライブラリで 52f6de41961d511e82826d6266441d91a92dcd59 で発生する例外クラスを変更した rsock_raise_socket_error() という関数を rsock_raise_resolution_error() に改名しています。
