@@ -1,0 +1,1 @@
+irb の prism と rbs を利用した型ベースの補完処理の実装を削除して repl_type_completor という gem に切り出したものを利用するようにしています。 https://github.com/ruby/irb/pull/772
