@@ -1,0 +1,1 @@
+common.mk に prism の Encoding 関連の追加ソースファイルへの依存関係追加。
