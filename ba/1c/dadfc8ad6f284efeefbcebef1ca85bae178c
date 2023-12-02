@@ -1,0 +1,1 @@
+YJIT のプログラム領域の独自の GC で不正なメモリの参照状態になり異常終了してしまう可能性があったとのことで YJIT で大域脱出? する時に  cfp->jit_return という構造体メンバーの内容を leave_exit にクリアしておくようにしているようです。 https://github.com/ruby/ruby/pull/9086
