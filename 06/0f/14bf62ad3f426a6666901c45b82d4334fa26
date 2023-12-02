@@ -1,0 +1,1 @@
+doc/_regexp.rdoc の正規表現の文字クラスの [[:word:]] や \p{Word} について、Unicode の Number ではなく Decimal Number というカテゴリにマッチするというふうに記述を修正しています。 [ruby-core:112223] [Bug #19417]
