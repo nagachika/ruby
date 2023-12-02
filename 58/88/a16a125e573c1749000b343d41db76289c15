@@ -1,0 +1,1 @@
+YJIT のテストで RubyVM::YJIT.runtime_stats の項目名の改名の追随漏れを修正。
