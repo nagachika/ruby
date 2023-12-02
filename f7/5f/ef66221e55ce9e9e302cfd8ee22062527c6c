@@ -1,0 +1,1 @@
+NEWS に Thread::Queue, Thread::SizedQueue の freeze メソッドの挙動変更について追記しています。
