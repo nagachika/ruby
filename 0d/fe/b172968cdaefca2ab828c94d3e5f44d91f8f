@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON への文字列のエンコード時に Unicode の U+2028 LINE SEPARATOR と U+2029 PARAGRAPH SEPARATOR という文字を "\U####" のようなエンコードをするようにしています。これにあわせて JSON.generate に script_safe というオプションを追加してこれが true の時に前述のエンコードを行うようにしています。デフォルトはどっちだろう。false っぽいけど。 https://github.com/flori/json/pull/525
