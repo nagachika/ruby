@@ -1,0 +1,1 @@
+YJIT で Array#length, Array#size メソッドの呼び出しでメソッド呼び出しを使わず直接インラインで処理を生成する最適化を追加しています。 https://github.com/ruby/ruby/pull/9085
