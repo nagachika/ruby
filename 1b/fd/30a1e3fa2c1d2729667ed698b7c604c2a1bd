@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket::ResolutionError 例外についてのテストが FreeBSD で失敗していた件の対処として許容する error に Socket::EAI_FAIL を追加しています。またテストに使うドメイン名として example.com を使うようにしています。
