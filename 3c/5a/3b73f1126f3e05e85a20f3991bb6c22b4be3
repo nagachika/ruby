@@ -1,0 +1,1 @@
+NEWS に RGenGC 関連の改善や組み込みクラスの Variable Width Allocation を利用した slot への埋め込み対応について追記しています。
