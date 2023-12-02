@@ -1,0 +1,1 @@
+rubygems の gem install や gem update での user install に fallback する時の警告出力の条件を修正しています。
