@@ -1,0 +1,1 @@
+YJIT の実装でメソッド呼び出し時のコードで rb_execution_context_t::cfp の更新をその cfp->jit_return の設定の後で行うようにしています。タイミングで stackprof でプロファイルをしている時に不正な状態がみえてしまうことがあったみたいです。 https://github.com/ruby/ruby/pull/9072
