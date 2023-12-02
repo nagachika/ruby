@@ -1,0 +1,1 @@
+854e6559b6dcda9dcbd6687aef1a3ac0c0c90cac で拡張ライブラリ json のテストで helper の require を追加したのを LoadError を捕捉して無視するようにしています。 ruby のリポジトリ内では不要な require なので。
