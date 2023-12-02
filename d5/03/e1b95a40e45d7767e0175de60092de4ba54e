@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper.tokenize に '"\\C-あ"' のように \C- に続いて不正な文字を渡すと無視されてしまうので SyntaxError にするようにしています。正確にはその場で SyntaxError にはしないけどマルチバイト文字が読み飛ばされずに残るのでそれを読んだ時点で改めて SyntaxError になるということかな。 [ruby-core:115549] [Bug #20030]
