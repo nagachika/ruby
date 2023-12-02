@@ -1,0 +1,1 @@
+Object Shapes の赤黒木の実装にデバッグのためさらに RUBY_ASSERT() による assertion を追加しています。
