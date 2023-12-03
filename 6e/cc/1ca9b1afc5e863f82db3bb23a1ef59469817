@@ -1,0 +1,1 @@
+ARGF.readlines、ARGF.to_a の rdoc 用コメントの call-seq にキーワード引数 chomp についての記述を追加しています。
