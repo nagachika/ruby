@@ -1,0 +1,1 @@
+bundler で deprecated の警告メッセージを出す major_deprecation というメソッドに removed_message というキーワード引数を追加して警告に出すメッセージとは別に例外のメッセージを指定できるようにしています。
