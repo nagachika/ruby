@@ -1,0 +1,1 @@
+parse.y の parser_peek_variable_name() や heredoc_identifier() の戻り値を受け取る変数の型を int から適切な enum 型に変更しています。
