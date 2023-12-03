@@ -1,0 +1,1 @@
+gc.c の gc_update_object_references() 内の未使用になってたローカル変数を削除しています。
