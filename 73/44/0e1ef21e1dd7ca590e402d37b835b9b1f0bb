@@ -1,0 +1,1 @@
+079dfa1812e0f23a74c86e271245504b069b4c17 で bundler の major_deprecation メソッドに追加した removed_message 引数を利用するようにしています。
