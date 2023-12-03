@@ -1,0 +1,1 @@
+irb のヒストリの保存時に String#scrub を呼んで不正なバイト列を削るようにしています。 https://github.com/ruby/irb/pull/795
