@@ -1,0 +1,1 @@
+VM 命令の expandarray の実装で関数 vm_expandarray() にスタックポインタだけ渡してたのを struct rb_control_frame_struct を渡して cfp->sp を直接利用するようにしています。これまでは vm_expandarray() の内部のローカル変数 base でスタックポインタの伸張を管理していてそのあいだに GC が発生すると積んでいたオブジェクトの mark 漏れが発生する可能性があったため。
