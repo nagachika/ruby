@@ -1,0 +1,1 @@
+デバッグ用の Thread のライフサイクルのイベントフックを複数 Ractor 利用時や M:N Thread で user-thread が切り替わるタイミングでの呼び出しを追加しています。 [ruby-core:115465] [Bug #20019]
