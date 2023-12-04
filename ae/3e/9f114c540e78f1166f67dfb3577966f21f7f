@@ -1,0 +1,1 @@
+doc/timezones.rdoc を doc/_timezones.rdoc とファイル名を変更して Time クラスの rdoc 用コメント内で :include: タグによって取り込むようにしています。
