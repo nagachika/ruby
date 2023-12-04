@@ -1,0 +1,1 @@
+RJIT の ruby 実装で引数の nil を許容するようにチェックを追加しています。 https://github.com/ruby/ruby/pull/9105
