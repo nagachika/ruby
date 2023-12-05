@@ -1,0 +1,1 @@
+ruby-runner.c に Windows 環境ではビルドエラーにするように #error pragma を追加しています。
