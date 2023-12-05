@@ -1,0 +1,1 @@
+ad54fbf281ca1935e79f4df1460b0106ba76761e で Ractor および M:N Thread の実装にデバッグ用の Thread のライフサイクルのイベントフックの呼び出しを追加していたのを revert しています。 https://github.com/ruby/ruby/pull/9108 [ruby-core:115465] [Bug #20019] [Bug #20037]
