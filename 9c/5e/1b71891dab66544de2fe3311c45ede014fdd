@@ -1,0 +1,1 @@
+Variable With Allocation でサイズに対応して利用すべき heap を特定する関数で要求サイズが過大だった時の rb_bug() のメッセージのフォーマット指示子で PRIuSIZE マクロを利用するようにしています。
