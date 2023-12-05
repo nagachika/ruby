@@ -1,0 +1,1 @@
+irb の組み込みコマンド history のテスト時にページャーコマンド利用を抑制する設定をしています。 https://github.com/ruby/irb/pull/799
