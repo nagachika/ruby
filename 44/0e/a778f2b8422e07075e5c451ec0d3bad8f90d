@@ -1,0 +1,1 @@
+a399c1f26d34b2ba3a4787f2206c59faa2ea97da に対応して tool/sync_default_gems.rb の json の同期処理から VERSION ファイルのコピーを削っています。
