@@ -1,0 +1,1 @@
+さらに a22ed8943859963c67533bb0edc13a27bfdac00c、e6b35e8a6d70892037503d74cec2657b2b8bd116 の続きで拡張ライブラリ json の JSON.dump の引数の処理を再修正しています。 https://github.com/flori/json/issues/553
