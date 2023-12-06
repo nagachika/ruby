@@ -1,0 +1,1 @@
+詳細わかりませんが YJIT の生成するコードで GC compaction の対応に問題があったのを修正しているようです。  https://github.com/ruby/ruby/pull/9104
