@@ -1,0 +1,1 @@
+拡張ライブラリ json の gemspec ファイルや .rb スクリプトの magic comment の script encoding の指定を削除しています。デフォルトの script encoding が UTF-8 になっていて不要なので。
