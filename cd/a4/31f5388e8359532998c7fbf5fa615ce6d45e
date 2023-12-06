@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::TokenStream モジュールの NoMethodError になる不具合の修正。
