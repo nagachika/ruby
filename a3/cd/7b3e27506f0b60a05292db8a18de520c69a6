@@ -1,0 +1,1 @@
+bundler の独自の YAML の load メソッドで String#split に直接ブロックを渡して中間オブジェクトの生成を抑制しています。
