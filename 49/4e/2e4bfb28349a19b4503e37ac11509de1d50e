@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の Tempfile#to_s と inspect への alias として追加しています。
