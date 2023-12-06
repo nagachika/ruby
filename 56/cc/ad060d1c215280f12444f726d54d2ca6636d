@@ -1,0 +1,1 @@
+cda431f5388e8359532998c7fbf5fa615ce6d45e の標準添付ライブラリ rdoc の追加修正。 (var or return "").meth.chain という感じで式の中で return するのはちょっと hacky すぎて目が滑る気も。
