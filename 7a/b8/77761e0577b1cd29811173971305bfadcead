@@ -1,0 +1,1 @@
+rubygems の gem install の処理で書き込み権限のチェックをかわりに書き込みが Errno::EACCES を発生させるかをみるように変更しています。
