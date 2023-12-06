@@ -1,0 +1,1 @@
+Object Shapes のための赤黒木の実装で redblack_id_t に常に 32bit の型を利用するようにしています。
