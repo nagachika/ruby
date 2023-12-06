@@ -1,0 +1,1 @@
+variable.c の rb_obj_copy_ivs_to_hash_table_i() という関数を static 関数にしています。
