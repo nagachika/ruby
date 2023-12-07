@@ -1,0 +1,1 @@
+コマンドラインオプションの --prism の指定または環境変数 RUBY_PRISM の設定で parser に prism を利用するようにしています。が後で revert されています。 https://github.com/ruby/ruby/pull/9115
