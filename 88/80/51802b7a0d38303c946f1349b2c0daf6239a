@@ -1,0 +1,1 @@
+NEWS に Fiber#kill メソッドの新規追加について追記しています。 https://github.com/ruby/ruby/pull/9134 [Bug #595]
