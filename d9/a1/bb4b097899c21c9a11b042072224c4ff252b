@@ -1,0 +1,1 @@
+bundler で String#unpack を利用していたところで String#unpack1 を利用して不要な中間オブジェクトの生成を抑制しています。
