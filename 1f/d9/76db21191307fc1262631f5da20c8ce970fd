@@ -1,0 +1,1 @@
+NEWS の require で default gems や元 default gems に対して警告を出力する変更についての記述に追記しています。
