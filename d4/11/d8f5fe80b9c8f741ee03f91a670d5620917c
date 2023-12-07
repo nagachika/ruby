@@ -1,0 +1,1 @@
+bundler で ruby 本体に含まれる lib/bundled_gems.rb の require を試行するようにしています。 bundle exec ruby ... での実行時にも require での警告を有効にするため? https://github.com/rubygems/rubygems/pull/7224 [ruby-core:114785] [Bug #19886]
