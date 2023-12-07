@@ -1,0 +1,1 @@
+Proc#binding の実装で VM のスタックの底にある env をコピーする env_clone() という関数で compaction 対応のためメモリのコピーのタイミングを変更しています。
