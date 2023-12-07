@@ -1,0 +1,1 @@
+Module#set_temporary_name メソッドの rdoc 用コメントのサンプルでの結果の表示が間違っていたのを修正しています。そういえばこんなメソッド追加されてたなあ。 https://github.com/ruby/ruby/pull/9135
