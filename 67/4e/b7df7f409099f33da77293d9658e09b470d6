@@ -1,0 +1,1 @@
+ed25f0bd5a4fb936eddde080b90446e7d55afb2d の続きで env_clone() でさらに compaction 対応のためにスタックへの値の格納のタイミングの変更とついでに(?) RGenGC のための Write Barrier 利用を追加しています。
