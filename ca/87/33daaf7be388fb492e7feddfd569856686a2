@@ -1,0 +1,1 @@
+File#birthtime の rdoc 用コメントを HAVE_STAT_BIRTHTIME のマクロをチェックする preprocessor 分岐の中に移動しています。また File#size の rdoc 用コメントがメソッド定義に使う関数の前じゃないところにあったのも移動しています。
