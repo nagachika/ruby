@@ -1,0 +1,1 @@
+irb で長い出力に対してページャーコマンドを起動する処理を環境変数 TERM=dump の時に抑制するようにしています。 https://github.com/ruby/irb/pull/800
