@@ -1,0 +1,1 @@
+rubygems のテストで rubygems.org などへのアクセスをするテスト時の Net::OpenTimeout 例外も skip 対象に追加しています。
