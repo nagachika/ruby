@@ -1,0 +1,1 @@
+IO::Buffer.new の利用時の experimental 警告の出力を削除しています。 https://github.com/ruby/ruby/pull/9131
