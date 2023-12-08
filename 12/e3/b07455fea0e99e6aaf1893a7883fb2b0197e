@@ -1,0 +1,1 @@
+Object Shapes の実装でインスタンス変数を Object#remove_instance_variable で削除した時に再度 slot へのインスタンス変数の埋め込みが可能になったら埋め込むようにしているようです。
