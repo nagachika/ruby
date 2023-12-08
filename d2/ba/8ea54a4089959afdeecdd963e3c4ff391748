@@ -1,0 +1,1 @@
+拡張ライブラリ socket で getaddrinfo(3) の呼び出しのフラグに AI_ADDRCONFIG を立てるようにしています。チケットのほうをみると glibc の不具合で名前解決が遅くなる可能性があるのを回避するためとのこと。 https://github.com/ruby/ruby/pull/7295 [ruby-core:110870] [Bug #19144]
