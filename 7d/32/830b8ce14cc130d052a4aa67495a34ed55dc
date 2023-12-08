@@ -1,0 +1,1 @@
+rubygems の gem install の --build-root オプションを --user-install と併用できない(自動的に user install をオフにする)ように変更しています。
