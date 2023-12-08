@@ -1,0 +1,1 @@
+d97479f9c966bd2c9d52c8be28aca9431760c610 に続いて標準添付ライブラリ open-uri の URI.open のオプション :max_redirects のデフォルト値を 64 にしています。また上限に達した時の発生させる例外を OpenURI::TooManyRedirects という専用の例外クラスにしています。
