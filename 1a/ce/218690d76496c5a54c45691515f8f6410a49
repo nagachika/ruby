@@ -1,0 +1,1 @@
+NEWS に 1fd976db21191307fc1262631f5da20c8ce970fd で bundle exec ruby で起動している時に default gems の require の警告が効かないと注意書きを追記したのが d411d8f5fe80b9c8f741ee03f91a670d5620917c で修正されたので削っています。
