@@ -1,0 +1,1 @@
+rubygems で b1b78c4f9ff0ff3a2570980b0012893eb03fc597 で導入した Gem::CIDetector を利用して CI サービスの判定をするようにリファクタリングしています。
