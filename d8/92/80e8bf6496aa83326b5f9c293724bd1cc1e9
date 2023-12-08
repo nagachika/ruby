@@ -1,0 +1,1 @@
+Regexp オブジェクトの複製処理時に struct RBasic::flags の KCODE_FIXED と REG_ENCODING_NONE という文字コードに関するフラグ? をコピーするようにしています。マルチバイト文字を含む正規表現オブジェクトを元に Regexp.new で複製を作った時に正常にマッチしなくなる不具合があったようです。 [ruby-core:115588] [Bug #20039]
