@@ -1,0 +1,1 @@
+YJIT のレジスタ割当ての上限判定の不具合修正。 https://github.com/ruby/ruby/pull/9143
