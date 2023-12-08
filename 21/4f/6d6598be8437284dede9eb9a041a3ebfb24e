@@ -1,0 +1,1 @@
+bundler の lib/bundler/rubygems_integration.rb から Kernel#require を再定義する際のメソッドの差し替えの処理を lib/bundled_gems.rb に移動しています。差し替え自体 ::Gem::BUNDLED_GEMS が定義されている(つまり lib/bundled_gems.rb が読み込めてる)時の実行なので安全に移動できるようです。
