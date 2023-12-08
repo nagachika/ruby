@@ -1,0 +1,1 @@
+YJIT の Rust 実装でメソッド assertion を追加しています。 compaction 対応漏れの不具合を早期に発見するためみたいです。
