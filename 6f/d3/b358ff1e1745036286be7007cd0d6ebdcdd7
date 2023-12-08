@@ -1,0 +1,1 @@
+bundler にも b1b78c4f9ff0ff3a2570980b0012893eb03fc597 と同様に Bundler::CIDetector というモジュールを追加しています。
