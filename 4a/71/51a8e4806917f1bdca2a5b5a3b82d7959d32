@@ -1,0 +1,1 @@
+Object Shapes のための赤黒木の実装の RUBY_ASSERT() による assertion を if 分の分岐の外に出して共通化しています。
