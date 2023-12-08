@@ -1,0 +1,1 @@
+GC::Profiler.raw_data の実装で gc_info_decode() に objspace に NULL を渡していて SEGV していたのを修正しています。これメソッド呼ぶと確定で SEGV なのでよくすり抜けてたな。と思いましたが raw_data の実装自体は 2014年から変わりないですが呼ばれている gc_info_decode() のほうが今年 2091bf94931bddcf23b196fc8fe108ebd7ec1648 で objspace に常に依存するようになったのでそこで degrade したようです。なるほどそれでは SEGV は一応 3.3 からですね(3.2 以前でも潜在的な問題ではありますが)。 https://github.com/ruby/ruby/pull/9122
