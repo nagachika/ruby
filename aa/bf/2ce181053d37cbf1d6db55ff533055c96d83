@@ -1,0 +1,1 @@
+rubygems で標準入出力、標準エラー出力を定数 STDIN/STDOUT/STDERR を参照していたのを特殊なグローバル変数 $stdout/$stdout/$stderr を利用するように変更しています。
