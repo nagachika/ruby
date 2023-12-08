@@ -1,0 +1,1 @@
+rubygems の実装に Gem::CIDetector という Module を追加しています。このコミットでは利用いている箇所はまだないですが各種 CI 用のサービス(GitHub Actions や Travis-CI など)での実行を検出する環境変数での判定をまとめたものみたいですね。
