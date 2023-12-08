@@ -1,0 +1,1 @@
+5458252bb0edcd498e6bd4bea57fd7500bacd54c の続きで parse.y 内で deprecated 警告の出力のために UNIVERSAL_PARSER が定義されている時に rb_warn_deprecated() マクロの定義を追加しています。
