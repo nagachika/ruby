@@ -1,0 +1,1 @@
+NEWS の Socket.getaddrinfo が割り込み可能になった変更について Implementation improvements のセクションから Implementation improvements のセクションに移動しています。
