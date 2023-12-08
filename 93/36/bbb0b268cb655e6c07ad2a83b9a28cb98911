@@ -1,0 +1,1 @@
+そして bundler でも CI の判定を 6fd3b358ff1e1745036286be7007cd0d6ebdcdd7 で導入した Bundler::CIDetector を利用するようにリファクタリングしています。
