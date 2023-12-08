@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の URI.open のオプションに :max_redirects を追加して redirect を辿る回数の上限を指定できるようにしています。
