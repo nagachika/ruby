@@ -1,0 +1,1 @@
+rubygems の環境変数 GEM_HOME がない時の fallback の挙動の実装をリファクタリング? しています。
