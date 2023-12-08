@@ -1,0 +1,1 @@
+d2ba8ea54a4089959afdeecdd963e3c4ff391748 で追加した拡張ライブラリ socket のテストを Process.fork がない環境(Windows) では skip するようにしていましたが現状常に skip するようにしています。テストがあまりに複雑なのでとのこと。 [ruby-core:110870] [Bug #19144]
