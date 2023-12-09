@@ -1,0 +1,1 @@
+bundler の bundle gem によるプロジェクト作成時の Rakefile のテンプレートでテスト用のタスクに Rake::TestTask を使ってたのを minitest の Minitest::TestTask.create を利用するように変更しています。
