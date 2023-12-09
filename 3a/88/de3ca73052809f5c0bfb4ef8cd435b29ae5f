@@ -1,0 +1,1 @@
+スクリプトのトップレベルの return が可能になったのに eval 内での return が LocalJumpError になっていたので同じように実行できるよう対応しています。 [ruby-core:114251] [Bug #19779]
