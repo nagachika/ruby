@@ -1,0 +1,1 @@
+hash_st_free() で ruby_xmalloc() で確保した領域の解放にただの free(3) を使っていたところを xfree() を利用するように修正しています。
