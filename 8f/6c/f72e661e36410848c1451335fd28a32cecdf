@@ -1,0 +1,1 @@
+64e985333f4fa7e4ba06454ef50c41e56a22768d の続きで lib/bundled_gems.rb でそもそも bigdecimal/math みたいなネストしたパスの require 時は警告対象にしないようにしています。
