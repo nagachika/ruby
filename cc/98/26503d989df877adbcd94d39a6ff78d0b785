@@ -1,0 +1,1 @@
+8f6cf72e661e36410848c1451335fd28a32cecdf で bigdecimal/math のように default gems のネストしたパスの require を警告対象から外したのを revert しています。
