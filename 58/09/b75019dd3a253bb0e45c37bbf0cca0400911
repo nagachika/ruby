@@ -1,0 +1,1 @@
+irb の debug.gem との連係のコマンドの警告メッセージでコマンド名が決め打ちになっていたのを修正。 https://github.com/ruby/irb/pull/806
