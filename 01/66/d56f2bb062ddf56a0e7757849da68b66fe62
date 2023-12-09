@@ -1,0 +1,1 @@
+bundler による rubygems の拡張の Gem::NameTupple#lock_name でインスタンス変数にキャッシュをするのをやめています。呼び元のほうで memo 化されているので不要ということみたいです。
