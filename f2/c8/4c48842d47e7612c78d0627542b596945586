@@ -1,0 +1,1 @@
+4817166e54ad98f9b3e9d06e9e8c7ccff992a957 で rubygems の gem generate_index を外部の gem に分離した対応で bundler のテスト用の tool/bundler/test_gems.rb に rubygems-generate_index への依存関係を追加しています。また compact_index の依存バージョンも更新しています。
