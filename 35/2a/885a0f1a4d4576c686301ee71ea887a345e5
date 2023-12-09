@@ -1,0 +1,1 @@
+Thread のライフサイクルイベントのコールバックを登録する C API の利用時に使うための拡張ライブラリから使える thread local storage を作る rb_internal_thread_specific_key_create()、rb_internal_thread_specific_set()、rb_internal_thread_specific_get() などの C API を追加しています。
