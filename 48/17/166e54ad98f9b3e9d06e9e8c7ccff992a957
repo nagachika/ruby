@@ -1,0 +1,1 @@
+rubygems の gem generate_index サブコマンドの実装を専用の gem に切り出しているようです。
