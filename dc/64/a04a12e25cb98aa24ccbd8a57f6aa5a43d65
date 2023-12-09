@@ -1,0 +1,1 @@
+33b92c2d6bcba16382cbb33159b8ce7e4d9802de で rubygems の Gem::RemoteFetcher::FetchError 例外のメッセージにサーバーからのレスポンスボディも追加したのを revert しています。
