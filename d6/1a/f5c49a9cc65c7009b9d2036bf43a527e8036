@@ -1,0 +1,1 @@
+require で対象の default gems について警告を出力するための lib/bundled_gems.rb で LoadError のエラーメッセージに追加するところで net/http みたいな feature 名を net-http のように gem 名に変更してから警告追加のチェックに使うように修正しています。
