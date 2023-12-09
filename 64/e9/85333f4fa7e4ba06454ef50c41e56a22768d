@@ -1,0 +1,1 @@
+さらに lib/bundled_gems.rb で警告メッセージに bigdecimal/math のようにネストしたファイルの require 時のメッセージが自然になるように修正しています。
