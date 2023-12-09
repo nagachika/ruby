@@ -1,0 +1,1 @@
+rubygems と bundler でメソッド引数に :key => value みたいな Hash の記法を書いてたのを key: value のようなキーワード引数の記法を使うようにしています。
