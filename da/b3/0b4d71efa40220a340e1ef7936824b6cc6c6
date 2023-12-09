@@ -1,0 +1,1 @@
+bundler のテスト用の gemfile である tool/bundler/dev_gems.rb の doc グループでの依存関係を ronn から nronn に変更しています。
