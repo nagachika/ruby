@@ -1,0 +1,1 @@
+include/ruby/ruby.h の rb_errno()、rb_errno_set()、rb_errno_ptr() などの errno 関係の関数に Doxygen 用のコメントを追記しています。
