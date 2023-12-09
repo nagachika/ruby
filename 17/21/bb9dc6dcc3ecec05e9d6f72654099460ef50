@@ -1,0 +1,1 @@
+test_reachable_objects_during_iteration という拡張ライブラリ objspace のテストが mswin 環境でよく失敗するとのことで skip するようにしています。
