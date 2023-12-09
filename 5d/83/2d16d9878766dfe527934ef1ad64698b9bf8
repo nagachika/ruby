@@ -1,0 +1,1 @@
+objspace_each_pages() という C API を追加しています。objspace_each_objects() と同様に objspace の page についてコールバック関数を呼ぶ関数で、実装の共通部分は objspace_each_exec() という関数に切り出しています。 objspace_each_objects()  との違いはコールバック関数の引数が struct heap_page 構造体をそのまま渡すという点みたいです。 [ruby-core:115484] [Bug #20022]
