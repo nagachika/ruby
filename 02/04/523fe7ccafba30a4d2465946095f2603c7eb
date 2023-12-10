@@ -1,0 +1,1 @@
+Fiber#kill の rdoc 用コメントに追記しています。また NEWS の Fiber#kill の項目に Thread#kill の類似についての記述は削除しています。
