@@ -1,0 +1,1 @@
+template/GNUmakefile.in で DOT_WAIT 変数を定義するのを Makefile を include する前に移動しています。 Makefile 内で DOT_WAIT を利用するため。
