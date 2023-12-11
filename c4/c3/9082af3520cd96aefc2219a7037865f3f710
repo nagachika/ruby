@@ -1,0 +1,1 @@
+f8effa209adb3ce050c100ffaffe6f3cc1508185 で追加された C API rb_postponed_job_preregister() に第1引数に flags というのを追加しています。未使用ですが将来の拡張のためとのこと。 [ruby-core:115286] [Bug #19991]
