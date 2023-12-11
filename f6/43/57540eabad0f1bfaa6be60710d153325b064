@@ -1,0 +1,1 @@
+a950f230788d51e13d16596e37cb77e4cc6e2311 の続きで super(**kw, &blk) のような super の呼び出しでも kw の to_hash での変換のほうが先に行われるように splatkw 命令を挿入しています。
