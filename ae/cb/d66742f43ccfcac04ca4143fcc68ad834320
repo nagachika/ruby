@@ -1,0 +1,1 @@
+include/ruby/atomic.h に RUBY_ATOMIC_LOAD()、RUBY_ATOMIC_PTR_LOAD() といった rb_atomic_t や void* の取得のマクロとその実装の inline 関数を追加しています。 [ruby-core:115307] [Bug #19994]
