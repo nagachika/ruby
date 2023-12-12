@@ -1,0 +1,1 @@
+rubygems の gem の拡張ライブラリのビルド時の make コマンドの実行に Open3.capture2e のかわりに Open3.popen2e を使ってコマンドからの出力を保存しつつ --verbose の指定時には最後にまとめてではなく逐次出力するようにしています。
