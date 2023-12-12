@@ -1,0 +1,1 @@
+complex.c で文字列の終端の NUL 文字があるかをチェックする処理や終端文字を埋める処理を StringValueCStr() や rb_str_fill_terminator() などの C API を利用するようにリファクタリングしています。
