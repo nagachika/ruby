@@ -1,0 +1,1 @@
+0ec88b54f34ee0b0197f963ad6a98a2390a91de7 および 0653fb026cd2203158b7af1e8b9608911dce2860 の続きで FileUtils.touch の呼び出しに  SharedHelpers.filesystem_access というヘルパーメソッドを利用するようにしています。
