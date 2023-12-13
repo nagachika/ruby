@@ -1,0 +1,1 @@
+bootstraptest/ の YJIT のテストで 9cb0ad863c0781062388fe1bb2a5d279dc29e734 で追加したテストを RJIT が有効な時に skip するようにしています。
