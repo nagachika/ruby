@@ -1,0 +1,1 @@
+プロセス起動時の Init_signal() の呼び出しの順序を Init_Thread() のあとまで遅らせています。 rb_thread_t::pending_interrupt_queue の準備が必要なためみたい。 https://github.com/ruby/ruby/pull/9196
