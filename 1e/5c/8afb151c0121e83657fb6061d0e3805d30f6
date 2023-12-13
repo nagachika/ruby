@@ -1,0 +1,1 @@
+0ec88b54f34ee0b0197f963ad6a98a2390a91de7 からの bundler の lockfile の更新時刻変更の一連の変更の続きで bundle config set frozen されている時には更新しないようにしています。
