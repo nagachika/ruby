@@ -1,0 +1,1 @@
+Kernel#Complex() や Complex#real, #imag の rdoc 用コメントを整形しています。 https://github.com/ruby/ruby/pull/9185
