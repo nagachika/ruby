@@ -1,0 +1,1 @@
+test/ruby/test_syntax.rb でテストで定義したメソッドを Module#remove_method で削除しておくようにしています。
