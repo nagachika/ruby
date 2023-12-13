@@ -1,0 +1,1 @@
+d2ba8ea54a4089959afdeecdd963e3c4ff391748 の拡張ライブラリ socket で getaddrinfo(3) の呼び出しのフラグに AI_ADDRCONFIG を立てる変更で UDPSocket のほうの変更部分は revert しています。テストで問題が発覚したようです。 [ruby-core:110870] [Bug #19144] [ruby-core:115647] [Bug #20048]
