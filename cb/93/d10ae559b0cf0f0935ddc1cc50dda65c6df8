@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom の Random.uuid_v7 の rdoc 用コメントの再現性についての注意書きの記述を少し変更しています。
