@@ -1,0 +1,1 @@
+bundler のテストで使う gemfile の tilt への依存関係を削除しています。
