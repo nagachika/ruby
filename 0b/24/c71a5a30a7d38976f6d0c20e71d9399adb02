@@ -1,0 +1,1 @@
+bundler の rubygems の再定義するメソッドで lib/bundled_gems.rb からロードできたかどうかでの分岐の書きかたを変更しています。
