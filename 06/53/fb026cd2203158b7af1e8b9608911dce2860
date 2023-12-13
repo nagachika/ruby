@@ -1,0 +1,1 @@
+0ec88b54f34ee0b0197f963ad6a98a2390a91de7 の bundler の bundle lock での lockfile の FileUtils.touch していたのをやめて Bundler::Definition#lock で必要に応じて touch するように変更しています。
