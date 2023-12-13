@@ -1,0 +1,1 @@
+YJIT の --yjit-stats の統計情報の項目の guard_send_iseq_has_rest_and_splat_not_equal を guard_send_iseq_has_rest_and_splat_too_few に変更しています。
