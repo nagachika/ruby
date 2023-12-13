@@ -1,0 +1,1 @@
+bundler で古い rubygems の対応のために? Gem::NameTuple の #initlialize メソッドを上書きするようにしています。
