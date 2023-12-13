@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom に一部のメソッドの rdoc によるドキュメンテーションを抑制するための :stopdoc/:startdoc のタグの指定を追加。
