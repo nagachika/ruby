@@ -1,0 +1,1 @@
+bundler のテストで使うダミーの(?)依存関係の default gems の stringio のバージョンを更新しています。
