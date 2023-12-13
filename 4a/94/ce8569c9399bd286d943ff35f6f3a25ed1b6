@@ -1,0 +1,1 @@
+Kernel#require の rdoc 用コメントに拡張ライブラリの拡張子の扱いについての記述を変更しています。 https://github.com/ruby/ruby/pull/9180
