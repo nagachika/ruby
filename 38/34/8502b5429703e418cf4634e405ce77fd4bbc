@@ -1,0 +1,1 @@
+4a94ce8569c9399bd286d943ff35f6f3a25ed1b6 の Kernel#require の rdoc 用コメントの変更で例として上げる OS と拡張子を Windows → macOS、.dll → .bundle と変更しています。現在は Windows でも拡張ライブラリの拡張子は .so なので。
