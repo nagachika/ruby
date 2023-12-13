@@ -1,0 +1,1 @@
+bundler が Gem::Specification#missing_extensions? を再定義していたのをやめています。
