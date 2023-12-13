@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#version= での required_rubygems_version の自動設定の処理を削っています。
