@@ -1,0 +1,1 @@
+test/ruby/test_parse.rb でも局所的に $VERBOSE を設定して警告抑制するようにしています。
