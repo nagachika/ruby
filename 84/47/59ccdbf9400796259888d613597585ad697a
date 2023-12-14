@@ -1,0 +1,1 @@
+bundler のテストに Gemfile に timeout が記述されている時に rubygems に vendoring されている timeout を読み込んでしまってないかのテストを追加しているみたいです。
