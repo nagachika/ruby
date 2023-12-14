@@ -1,0 +1,1 @@
+bundler の bundle info サブコマンドの実装の処理を Bundler::CLI::Common に一部移動するリファクタリング。
