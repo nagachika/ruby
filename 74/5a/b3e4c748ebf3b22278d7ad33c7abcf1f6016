@@ -1,0 +1,1 @@
+irb の組み込みコマンド measure にブロックを受け付けていたのをやめて警告を出力するようにしています。 https://github.com/ruby/irb/pull/813
