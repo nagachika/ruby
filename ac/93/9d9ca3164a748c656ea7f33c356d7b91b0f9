@@ -1,0 +1,1 @@
+bundler の default gems が Gemfile に記述されていた時に標準添付ライブラリとしての default gems を利用しないようにしているようです。
