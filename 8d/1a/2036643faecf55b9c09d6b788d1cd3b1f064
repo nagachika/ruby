@@ -1,0 +1,1 @@
+bundler で require "rubygems/request" の呼び出しを必要になるまで遅延させるようにしています。
