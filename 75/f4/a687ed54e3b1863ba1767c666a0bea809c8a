@@ -1,0 +1,1 @@
+configure で --enable=rjit オプションの処理時に誤って YJIT_TARGET_OK 変数を参照していたのを RJIT_TARGET_OK に修正しています。 https://github.com/ruby/ruby/pull/8222
