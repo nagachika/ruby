@@ -1,0 +1,1 @@
+proc.c の未使用になっていたマクロ NO_CLOBBERED() や UPDATE_TYPED_REFERENCE()、UPDATE_REFERENCE() を削除。
