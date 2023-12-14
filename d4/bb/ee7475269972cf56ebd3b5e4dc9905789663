@@ -1,0 +1,1 @@
+YJIT のメソッド呼び出しの引数処理で VM スタック上の型チェックの不具合を修正。 https://github.com/ruby/ruby/pull/9212
