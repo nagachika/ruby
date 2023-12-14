@@ -1,0 +1,1 @@
+bundler で Gemfile の ruby version の指定を .ruby-version ファイルから読ませる指定の時の .ruby-version ファイルを Gemfile と同じディレクトリのものを使うようにしています。
