@@ -1,0 +1,1 @@
+bundler で古い rubygems の対応? で Gem::Requirement を再定義していたのを削っています。 https://github.com/ruby/ruby/pull/9206
