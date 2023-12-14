@@ -1,0 +1,1 @@
+default gems の require に対する警告のための lib/bundled_gems.rb で caller_locations から require 元の gem を特定する時のバックトレースの取得数が不要に大きかったので修正しています。
