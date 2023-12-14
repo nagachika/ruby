@@ -1,0 +1,1 @@
+33cf8f640bab35c463186ef0856689c22559fbeb と同様に ObjectSpace::WeakKeyMap も compaction の処理時に table が NULL の場合を考慮するようにしています。
