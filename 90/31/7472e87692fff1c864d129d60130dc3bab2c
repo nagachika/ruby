@@ -1,0 +1,1 @@
+bundler でも rubygems に vendoring した net-http を(あれば)利用するようにしています。
