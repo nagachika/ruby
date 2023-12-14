@@ -1,0 +1,1 @@
+rubyspc で rubygems が vendoring した net-http を利用するようになったために例外クラスが変化したのに対応するようにしています。
