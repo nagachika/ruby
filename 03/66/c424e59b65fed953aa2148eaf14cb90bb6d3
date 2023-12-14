@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境の workflow で configure に cppflags=-DUNIVERSAL_PARSER の指定を追加したビルドは別の workflow でカバーされていて冗長だったので削除しています。
