@@ -1,0 +1,1 @@
+irb の rdoc 用コメントの手直しで追加されたもののうち deprecated なものやまだ作成中のものについての部分を削除。 https://github.com/ruby/irb/pull/811
