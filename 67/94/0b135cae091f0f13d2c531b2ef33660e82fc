@@ -1,0 +1,1 @@
+bundler のテストで使う gemfile での rake の依存バージョンを更新しています。
