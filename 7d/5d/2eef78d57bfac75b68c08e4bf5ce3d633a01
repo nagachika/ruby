@@ -1,0 +1,1 @@
+bundler のテストのヘルバーで support/hax.rb というヘルバーのファイルを環境変数 BUNDLER_IGNORE_DEFAULT_GEM が設定されていたらまず最初に require させるように順番を制御しています。
