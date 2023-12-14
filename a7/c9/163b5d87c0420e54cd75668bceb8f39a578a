@@ -1,0 +1,1 @@
+さらに rubygems に default gems の timeout も vendoring するようにしています。
