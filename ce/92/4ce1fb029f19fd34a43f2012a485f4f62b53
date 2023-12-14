@@ -1,0 +1,1 @@
+rubygems の中に net-http と net-protocol を vendoring するようにしています。すごいな。しかし net-http とか比較的よく security fix の出る gem だけど大丈夫かな。
