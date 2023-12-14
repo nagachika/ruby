@@ -1,0 +1,1 @@
+GitHub Actions の workflows で TESTS=--repeat-count=2 を渡して make test-all するジョブを Ubuntu 環境から macOS 環境の workflow へ移動しています。 https://github.com/ruby/ruby/pull/9208
