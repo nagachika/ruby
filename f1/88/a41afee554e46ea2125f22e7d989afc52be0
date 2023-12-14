@@ -1,0 +1,1 @@
+さらに bundler でも rubygems に vendoring した timeout を(あれば)利用するようにしています。
