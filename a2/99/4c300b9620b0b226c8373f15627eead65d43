@@ -1,0 +1,1 @@
+NEWS に新規追加された C API rb_postponed_job_register() や rb_postponed_job_trigger() への postponed job の仕様変更について追記しています。 [ruby-core:115684] [Feature #20057]
