@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の compaction 時の処理で struct weakmap::table メンバーが NULL の時の対応を追加しています。完全に初期化されていない状態で呼ばれる可能性があったのでその時に異常終了しないようにするため。
