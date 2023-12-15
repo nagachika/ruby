@@ -1,0 +1,1 @@
+4e6861d3376eb7857d2b0a947c97b6fec8e5bf37 の lib/bundled_gems.rb の require で警告する default gems の検出の再修正で演算子の優先度のため明示的なかっこを追加しています。 [ruby-core:115710] [Bug #20060]
