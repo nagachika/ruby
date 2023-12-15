@@ -1,0 +1,1 @@
+gc.c の try_move() で struct heap_page::freelist を更新する時に asan_unlock_freelist()/asan_lock_freelist() で一時的に ASAN の unpoisoning していなかったのを修正しています。
