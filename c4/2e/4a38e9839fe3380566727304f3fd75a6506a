@@ -1,0 +1,1 @@
+シンボリックリンクを作成するツール tool/ln_sr.rb で String#chomp! を誤って呼んでたところを String#sub! に修正しています。
