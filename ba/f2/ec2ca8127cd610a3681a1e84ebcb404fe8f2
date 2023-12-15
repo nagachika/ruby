@@ -1,0 +1,1 @@
+rubygems と bundler で正規表現のマッチに Regexp#=~ のかわりに Regexp#match? を使ったり String#include や String#start_with? などそもそも正規表現を使わない方法に変更する最適化。
