@@ -1,0 +1,1 @@
+rubygems で gemspec ファイルの spec.metadata の複数の URL に同じ URL を書いていると警告するようにしているようです。えーだめなんだそれ。
