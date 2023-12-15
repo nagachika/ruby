@@ -1,0 +1,1 @@
+dln.c の dln_sym() を外から呼べるように wrap した dln_symbol() という関数を定義しています。handle 引数に NULL を渡すとこの関数内で dlopen(3) もするようにしています。
