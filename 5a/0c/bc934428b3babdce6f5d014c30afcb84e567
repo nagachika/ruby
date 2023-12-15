@@ -1,0 +1,1 @@
+8b0c62696203daba815fa4e6d1c08dc143b3cc04 の追加修正で lib/bundled_gems.rb で bootsnap 経由かどうかの判定に使うバックトレースの範囲を広げています。
