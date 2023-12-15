@@ -1,0 +1,1 @@
+require で default gems に警告を出す lib/bundled_gems.rb で bootsnap 経由の時には feature 名を書き換えられてしまって誤った警告が出ることがあるので caller_locations をみて bootsnap 経由の時は警告抑制するようにしています。
