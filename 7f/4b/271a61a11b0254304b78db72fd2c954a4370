@@ -1,0 +1,1 @@
+bundler の Bundler::Checksum::Store というクラスで Hash に保存する時のキーを Gem::NameTuple から lock_name という文字列に変更しています。別途報告がありましたが NameTuple の hash メソッドの呼び出しで異常終了する不具合があってその回避のためとのこと。 [Bug #20050]
