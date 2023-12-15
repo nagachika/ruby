@@ -1,0 +1,1 @@
+RJIT で arm64 プラットフォームはサポートしていないので警告を出力してコード生成を抑制するようにしています。 https://github.com/ruby/ruby/pull/9221
