@@ -1,0 +1,1 @@
+rubygems に vendoring された net-protocol, resolv, timeout のライセンスファイルを追加しています。先日 net-http のは削除されてたけど vendoring されているぶんは別途必要ってことかな。
