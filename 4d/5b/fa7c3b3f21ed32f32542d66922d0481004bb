@@ -1,0 +1,1 @@
+1e5c4026d5c75e6867f6e97de0aeaea55e62d26b からの続きで tool/m4/ruby_default_arch.m4 の ARCH_FLAG の設定で x64 という target_cpu の時の対応を追加しています。
