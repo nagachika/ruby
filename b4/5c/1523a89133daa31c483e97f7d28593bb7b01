@@ -1,0 +1,1 @@
+bundler の Bundler::CLI::Common.default_gem_spec の不要になった古い rubygems 用の? 分岐を削除。
