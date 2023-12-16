@@ -1,0 +1,1 @@
+Complex#fdiv、Complex#**、Complex#==、Complex#<=> などの rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/9231
