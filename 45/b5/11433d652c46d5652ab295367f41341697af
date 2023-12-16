@@ -1,0 +1,1 @@
+bundler の binstab コマンドの実行時のエラーで出る suggestion のメッセージで実行する bundle コマンドをフルパスのものにするようにしています。
