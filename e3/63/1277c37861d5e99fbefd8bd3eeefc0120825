@@ -1,0 +1,1 @@
+rubygems に vendoring された timeout, net-protocol, resolv の LICENSE.txt ファイルを再度削除しています。
