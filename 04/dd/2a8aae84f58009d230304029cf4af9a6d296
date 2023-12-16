@@ -1,0 +1,1 @@
+bundler の古い rubygems のための monkey patch を削除しています。
