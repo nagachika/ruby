@@ -1,0 +1,1 @@
+GitHub Actions の pull request に自動で reviewers をつけるための workflow で master ブランチ向けの pull request の時だけ動くようにしています。
