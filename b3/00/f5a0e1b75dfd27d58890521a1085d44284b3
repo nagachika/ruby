@@ -1,0 +1,1 @@
+ac939d9ca3164a748c656ea7f33c356d7b91b0f9 の bundler の default gems で Gemfile や依存関係に明示されてたら標準添付ライブラリのを使わないようにするという変更を revert しています。
