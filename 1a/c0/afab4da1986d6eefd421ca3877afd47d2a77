@@ -1,0 +1,1 @@
+致命的なシグナルを受信して rb_bug_for_fatal_signal() で異常終了する時にそのシグナルの処理を ruby_default_signal() を呼び出して実行するようにしています。
