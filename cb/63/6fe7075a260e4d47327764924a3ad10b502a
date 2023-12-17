@@ -1,0 +1,1 @@
+標準添付ライブラリ readline.rb で拡張ライブラリを require する時の拡張子を .so 決め打ちにしてたのを RbConfig::CONFIG["DLEXT"] を参照するようにしています。
