@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストを tool/test_for_warn_bundled_gems/ に追加しています。
