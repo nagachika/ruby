@@ -1,0 +1,1 @@
+bundler に vendoring している tsort にもドキュメント化を抑制するために .document ファイルを追加しています。
