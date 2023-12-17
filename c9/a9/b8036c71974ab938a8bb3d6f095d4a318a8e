@@ -1,0 +1,1 @@
+Ractor::Selector というクラスを削除して内部的クラスにしています。 bootstraptest の Ractor::Selector を使うテストを skip しています。
