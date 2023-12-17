@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream からのマージの時の conflict 解消で upstream で削除されたファイルについてはそのまま削除するようにしています。
