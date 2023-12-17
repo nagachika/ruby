@@ -1,0 +1,1 @@
+Complex#abs, #magnitude, #arg などのメソッドの rdoc 用コメントを書きなおしています。 https://github.com/ruby/ruby/pull/9243
