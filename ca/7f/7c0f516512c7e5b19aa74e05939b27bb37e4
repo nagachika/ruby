@@ -1,0 +1,1 @@
+bundler や rubygems に vendoring されているライブラリについては rdoc でドキュメント化されないように .document ファイルを追加して対象を空にしています。また tool/bundler/ に bundler に vendoring されているライブラリの依存関係を記述した gemfile と lockfile を追加しています。
