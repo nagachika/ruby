@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストのためのファイルで Bootsnap.setup に渡す引数を削ってデフォルト値にまかせるように? しています。
