@@ -1,0 +1,1 @@
+rb_thread_t::ractor のメモリ領域をプロセス終了時に xfree() で解放していたのを rb_objspace_free_objects() で通常のオブジェクト解放処理で行うようにしています。環境変数 RUBY_FREE_ON_EXIT=1 をつけて起動した時の終了時のメモリ解放をする時にだけ影響ある変更みたいです。
