@@ -1,0 +1,1 @@
+bundler で mkdir_p というメソッドを呼ぶ時に SharedHelpers.filesystem_access というヘルパーのブロックで包んでたのをやめています。
