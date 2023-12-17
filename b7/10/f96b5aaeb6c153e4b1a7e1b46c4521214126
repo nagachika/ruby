@@ -1,0 +1,1 @@
+String#hash に Encoding の情報を加味する時に空文字列だったら Encoding によって hash 値が変化しないように無視するようにしています。 [ruby-core:115760] [Bug #20068]
