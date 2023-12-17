@@ -1,0 +1,1 @@
+bundler の Bundler::Checksum::Store で Mutex による排他処理を追加しています。
