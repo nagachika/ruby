@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で bigdecimal/util のようにネストした位置のファイルの require 時の警告は抑制するようにしています。
