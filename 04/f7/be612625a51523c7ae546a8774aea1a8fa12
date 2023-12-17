@@ -1,0 +1,1 @@
+e51f9e9f75cc1dde9234836fa92077d71b3c5141 で追加した C API rb_ext_resolve_symbol() のテストで拡張ライブラリを読み込むと戻すことができないので assert_separately を使って子プロセスで実行させるようにしています。
