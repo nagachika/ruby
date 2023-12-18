@@ -1,0 +1,1 @@
+ext/socket/mkconstants.rb でデフォルト値やコメントが記述されていない定数の行に追記しています。
