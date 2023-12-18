@@ -1,0 +1,1 @@
+common.mk の ext/socket/constdefs.c の依存関係に ext/socket/mkconstants.rb を追加しています。
