@@ -1,0 +1,1 @@
+拡張ライブラリ socket の XxxSocket#recv_nonblock の rdoc 用コメントにメッセージが受信されなかった時に空文字列でなく nil を返すように記述を変更しています。確かこれ今年? 変更したんですよね。 https://github.com/ruby/ruby/pull/6407 [ruby-core:109961] [Bug #19012]
