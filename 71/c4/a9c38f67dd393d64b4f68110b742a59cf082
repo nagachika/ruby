@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Addrinfo の rb_define_class() と rdoc 用のコメントとのあいだに別の処理が入ってドキュメント化がミスっていたので修正しています。
