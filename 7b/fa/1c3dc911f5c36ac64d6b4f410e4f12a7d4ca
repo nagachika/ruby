@@ -1,0 +1,1 @@
+昨日の ext/socket/mkconstants.rb の cbda94edd80b0f664eda927f9ce9405b2074633a でのコメントがない時のデフォルトを ":nodoc:"  にする変更を revert しています。 rb_define_const() の前のコメントでは :nodoc: タグが思ったように効いてなかったみたいです。
