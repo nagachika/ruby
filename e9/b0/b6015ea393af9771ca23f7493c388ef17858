@@ -1,0 +1,1 @@
+IO::READABLE, IO::WRITABLE, IO::PRIORITY などの定数の rdoc 用コメントを追加しています。
