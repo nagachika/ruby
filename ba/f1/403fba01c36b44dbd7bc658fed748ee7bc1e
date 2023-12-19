@@ -1,0 +1,1 @@
+拡張ライブラリ pty の PTY.getpty の定義を rb_define_module_function() でしている行の前の :nodoc: タグは効かないので preprocessor 分岐をしてビルドされない位置で rb_define_alias() で PTY.spawn の alias として定義している態で rdoc 用のコメントを追加しています。
