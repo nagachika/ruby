@@ -1,0 +1,1 @@
+GC.garbage_collect や ObjectSpace.garbage_collect の rdoc 用コメントを追加しています。
