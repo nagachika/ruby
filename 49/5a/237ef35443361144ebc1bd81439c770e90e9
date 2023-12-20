@@ -1,0 +1,1 @@
+NEWS の YJIT の --yjit-stats で表示される項目についての記述に yjit_alloc_size を追記しています。
