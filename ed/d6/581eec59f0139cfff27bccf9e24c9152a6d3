@@ -1,0 +1,1 @@
+eb872d17524f299bdd023f005da38ffcddffa90a の追加で rjit_c.c で rb_vm_insns_count 変数の宣言を追加しています。
