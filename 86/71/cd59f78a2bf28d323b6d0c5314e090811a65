@@ -1,0 +1,1 @@
+edd6581eec59f0139cfff27bccf9e24c9152a6d3 の修正で rb_vm_insns_count の型を size_t から uint64_t に変更しています。
