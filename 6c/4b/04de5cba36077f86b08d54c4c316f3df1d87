@@ -1,0 +1,1 @@
+rb_thread_sched 構造体の初期化時に lock_owner メンバーの初期化を追加しています。
