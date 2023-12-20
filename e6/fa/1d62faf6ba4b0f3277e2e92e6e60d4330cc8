@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::Visitors::YAMLTree でオブジェクトの管理のための Hash に Hash#compare_by_identity を利用するようにしています。これにより Object#object_id を呼ぶのを抑制しています。
