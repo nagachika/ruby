@@ -1,0 +1,1 @@
+finalizer の実行後に cfp->sp を元に戻すようにしています。finalizer 用のメソッドの呼び出しが例外を発生させた時に SEGV することがあったようです。 [ruby-core:115594] [Bug #20042]
