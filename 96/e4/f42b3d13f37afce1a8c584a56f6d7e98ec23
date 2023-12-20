@@ -1,0 +1,1 @@
+eb872d17524f299bdd023f005da38ffcddffa90a の追加修正で変数 rb_vm_insns_count の定義を USE_YJIT の時のみしていたのを USE_RJIT もチェックするようにして RJIT のみ有効化したビルドもできるようにしています。
