@@ -1,0 +1,1 @@
+シグナルハンドラの ruby_default_signal() で例外発生する時に sgimask のリセットをするようにしています。SIGSEGV を自分自身に送信した時などに SEGV ではなく Aborted で終了してしまってたらしい。
