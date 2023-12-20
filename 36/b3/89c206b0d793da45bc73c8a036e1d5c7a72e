@@ -1,0 +1,1 @@
+dln.c で ABI のチェックのための dln_incompatible_func() で dladdr() の呼び出しを HAVE_DLADDR が真の時だけ行うように修正しています。 WASI 環境の対応のためみたいです。
