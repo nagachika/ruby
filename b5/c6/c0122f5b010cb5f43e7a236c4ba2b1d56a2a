@@ -1,0 +1,1 @@
+Hash#compare_by_identity で元の Hash が空の時に st_table のメモリを確保しないようにしています。
