@@ -1,0 +1,1 @@
+Hash#compare_by_identity で空の Hash の時に配列実装(ar_table) から st_table 実装への切り替えをするようにしています。
