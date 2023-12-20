@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで Object#object_id についての assert_equal で同一性をチェックしていたのを assert_same を利用するようにしています。
