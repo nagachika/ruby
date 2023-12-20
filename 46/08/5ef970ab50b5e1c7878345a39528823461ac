@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で rdoc によるドキュメント化を抑制するための :stopdoc: を追加しています。
