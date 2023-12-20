@@ -1,0 +1,1 @@
+3c471149910d79745b50389c436f0ed2973e0d91 で reset_sigmask() の呼び出しを追加した時の preprocessor 分岐の条件を USE_SIGALTSTACK または _WIN32 の定義をチェックするように修正しています。これも Emscripten 向けみたいですね。
