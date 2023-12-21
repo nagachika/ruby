@@ -1,0 +1,1 @@
+RubyVM::YJIT.enable メソッドで起動後に YJIT を有効にする時にキーワード引数に stats を追加して --yjit-stats を指定したのと同様の挙動も指定できるようにしています。 https://github.com/ruby/ruby/pull/9297
