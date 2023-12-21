@@ -1,0 +1,1 @@
+5bb946228550c7f171c27725860b153a675404f3 で template/Makefile.in で $(PROGRAM) の依存関係から冗長な $(MAINLIBS) を削ったのを revert しています。 configure に --enable-shared と --with-jemalloc を指定した時に参照順の問題で不正なアドレス参照になって異常終了してしまうことがあったそうです。 [Bug #19831] [ruby-core:115779] [Bug #20072]
