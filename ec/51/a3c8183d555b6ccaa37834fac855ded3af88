@@ -1,0 +1,1 @@
+internal/thread.h に rb_thread_io_blocking_call() という関数の prototype 宣言を追加しています。
