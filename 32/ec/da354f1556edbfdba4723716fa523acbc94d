@@ -1,0 +1,1 @@
+デバッグ用に RGENGC_CHECK_MODE マクロを定義してビルドした時に GC.auto_compact= に :empty という Symbol を指定して compaction 時に処理する page の順序を逆にして極力移動を起こしやすいようにしています。テストで不具合を踏みやすくするため。
