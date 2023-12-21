@@ -1,0 +1,1 @@
+IO::Buffer の実装で struct rb_io_buffer 構造体を Variable Width Allocation による拡張 slot に埋め込むようにしています。
