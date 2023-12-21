@@ -1,0 +1,1 @@
+複数 Ractor 間のオブジェクトの転送時に Object Shapes の shape ID をリセットするようにしています。Object Shapes の管理って Ractor 間で分離されてるんですね。Object Shapes の rb_shape_tree_ptr ってグローバル変数だから Ractor 間でも共有されるかと思ってたけどそうじゃないのかな。 [ruby-core:114992] [Bug #19917]
