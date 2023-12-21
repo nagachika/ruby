@@ -1,0 +1,1 @@
+doc/syntax/calling_methods.rdoc から 3.0 より前の古い ruby での splat 渡しでの最後の Hash の引数をキーワード引数に変換する挙動についての記述を削除しています。歴史的経緯でもあるから "This behavior will be removed in Ruby 3.0." のところだけ変えて残しててもいいような気もするけど。
