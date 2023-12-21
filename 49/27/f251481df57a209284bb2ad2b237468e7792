@@ -1,0 +1,1 @@
+M:N Thread の実装で native thread のマシンスタックのために mmap() でメモリ確保する時のフラグに MAP_STACK を追加するのを FreeBSD では行なわないようにしています。
