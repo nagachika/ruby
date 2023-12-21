@@ -1,0 +1,1 @@
+Module の複製や Module#include で T_ICLASS 型のオブジェクト(IClass)を作る時に struct RClass::m_tbl への代入をオブジェクトの確保後に GC が走る前に実施するように処理の順序を移動しています。 m_tbl をセットする前に GC が発生してしまうと RGenGC による Write Barrier が効かなくて異常終了に繋がる可能性があったようです。
