@@ -1,0 +1,1 @@
+Complex#to_s や Complex#inspect の rdoc 用コメントを手直し。
