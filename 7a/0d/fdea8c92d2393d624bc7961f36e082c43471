@@ -1,0 +1,1 @@
+io.c で IO 待ちの関数呼び出しのために rb_thread_io_blocking_region() を呼んでいたところを rb_thread_io_blocking_call() を直接呼んで適切な events フラグを指定するように修正しています。 https://github.com/ruby/ruby/pull/9178#issuecomment-1858711533
