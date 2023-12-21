@@ -1,0 +1,1 @@
+tool/missing-baseruby.bat というファイルを追加して configure で BASERUBY の指定が必要な時の警告出力をこのスクリプトで行うようにしています。  BASERUBY に echo コマンドを代入して警告主力するようにしていましたがこの中に ";" があるのが OpenBSD の make? shell? でうまく扱えなかったそうでこのようにしているようです。 [ruby-core:113572] [Bug #19683]
