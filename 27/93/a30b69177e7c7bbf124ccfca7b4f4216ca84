@@ -1,0 +1,1 @@
+irb で irbrc ファイルのロード時のエラーをただの print で出力していたのを Kernel#warn を使って警告メッセージとして出力し、バックトレースの出力はなくしています。また Kernel#load 前にファイルの存在チェックをするようにしています。 https://github.com/ruby/irb/pull/817
