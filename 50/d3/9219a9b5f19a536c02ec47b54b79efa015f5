@@ -1,0 +1,1 @@
+compaction 時の参照の移動への追随の処理で T_ICLASS 型オブジェクトの実装で RICLASS_OWNS_M_TBL_P() というマクロを利用するようにリファクタリングしています。
