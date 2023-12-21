@@ -1,0 +1,1 @@
+irb のドキュメントを doc/irb/indexes.rdoc から doc/irb/indexes.md に移動して Markdown によるマークアップに変更しています。 https://github.com/ruby/irb/pull/812
