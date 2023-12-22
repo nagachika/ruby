@@ -1,0 +1,1 @@
+NEWS の require 時の default gems への警告についての記述に bootsnap を利用している時はうまく制御できないので抑制される旨追記しています。
