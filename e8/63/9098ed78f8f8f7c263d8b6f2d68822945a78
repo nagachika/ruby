@@ -1,0 +1,1 @@
+(nil..nil) という Range オブジェクトの Range#=== が TypeError を発生させることがあるのを修正。 Range#cover? の挙動と合わせたとのこと。パッチをみると range_string_cover_internal() という関数の定義と呼び出しをまるっと消していますね。なんか意図的だったような気もしなくもない実装ですが。 [ruby-core:115188] [Bug #19977]
