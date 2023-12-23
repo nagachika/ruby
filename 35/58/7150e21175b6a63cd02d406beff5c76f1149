@@ -1,0 +1,1 @@
+d9e5564ccd0e460b7685b786d21cf386b229e2a9 の続きで coroutine 実装の arm64 版で PAC のかわりに BTI という拡張機能? が可能なら利用するようにしています。 [ruby-core:115547] [Bug #20029]
