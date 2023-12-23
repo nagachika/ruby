@@ -1,0 +1,1 @@
+RJIT で VM 命令の opt_case_dispatch で case 文の when 節の値を VALUE の値に変換するのが漏れていたのを修正しています。
