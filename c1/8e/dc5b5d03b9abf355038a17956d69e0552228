@@ -1,0 +1,1 @@
+rb_iseq_free() で rb_iseq_t の開放時に YJIT 用のカウンタ rb_yjit_live_iseq_count をデクリメントしてるところで struct RBasic::flags をチェックして不要な時にデクリメントをスキップさせるようにしています。
