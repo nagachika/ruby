@@ -1,0 +1,1 @@
+d9e5564ccd0e460b7685b786d21cf386b229e2a9 および 35587150e21175b6a63cd02d406beff5c76f1149 の続きで coroutine 実装の arm64 版で PAC/BTI 利用時のための note section を追加しています。 [ruby-core:115547] [Bug #20029]
