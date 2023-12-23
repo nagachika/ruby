@@ -1,0 +1,1 @@
+lib/ruby_vm/rjit/insn_compiler.rb に magic comment frozen_string_literal: true を追加しています。
