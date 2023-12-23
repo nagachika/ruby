@@ -1,0 +1,1 @@
+RJIT 用のコマンドラインオプション --rjit の pause/resume を disable/enable と改名して、対応する構造体メンバーやメソッド名も変更しています。
