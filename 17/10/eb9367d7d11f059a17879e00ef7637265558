@@ -1,0 +1,1 @@
+NEWS やドキュメントの rb_postponed_job_register_onc() を rb_postponed_job_register_once() と typo していたのを修正。
