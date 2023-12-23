@@ -1,0 +1,1 @@
+Fiber 用の coroutine 実装の arm64 版で冗長な処理を削る最適化。 [ruby-core:115547] [Bug #20029]
