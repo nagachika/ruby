@@ -1,0 +1,1 @@
+rjit.c の WITH_RJIT_ISOLATED() というマクロで引数の文の評価中に rb_vm_insns_count が変更されたら元に戻すようにしています。
