@@ -1,0 +1,1 @@
+M:N Thread を有効にすると rb_profile_frames() が異常終了していたとのことで rb_current_execution_context() の NULL チェックを追加しています。 [ruby-core:115459] [Bug #20017]
