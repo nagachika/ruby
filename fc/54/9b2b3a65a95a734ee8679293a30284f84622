@@ -1,0 +1,1 @@
+NEWS に Thread::Queue#freeze の仕様変更や Time.new の変更の追記とマークアップの修正など。 https://github.com/ruby/ruby/pull/9308
