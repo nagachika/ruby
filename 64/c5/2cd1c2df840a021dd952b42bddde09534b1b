@@ -1,0 +1,1 @@
+コマンドラインオプションに RJIT 用の --rjit=trace を追加して TracePoint によるトレースをオプションで有効化できるようにしています。効果としては --rjit=trace-exits と同じなのかな?
