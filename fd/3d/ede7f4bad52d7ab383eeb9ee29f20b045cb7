@@ -1,0 +1,1 @@
+dc7785e16ba54039d7341bba570ff551f146cf62 の rubyspec の Set::VERSION での guard ですが古い set のバージョンではそもそも Set::VERSION 定数によるバージョンの導入がされていないので defined? でのチェックをして set のバージョンを取得しておくようにしています。
