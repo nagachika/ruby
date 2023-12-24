@@ -1,0 +1,1 @@
+環境変数 RUBY_FREE_AT_EXIT が設定されていてプロセス終了時にメモリ解放をする時の rb_free_default_rand_key() の呼び出しのタイミングを Ractor の解放後にずらしています。Ractor の解放時に Ractor 毎の local storage の key として必要な変数なのでその後まで残しておく必要があったとのこと。
