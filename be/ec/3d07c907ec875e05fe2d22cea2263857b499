@@ -1,0 +1,1 @@
+IO#readpartial, IO#read_nonblock などの実装から呼ばれる関数 io_read_memory_call() で rb_thread_io_blocking_call() を呼ぶ時の events 引数に RB_WAITFD_IN を渡していたのを 0 にするようにしています。これを渡すとブロックしてしまってメソッド実装の意図と異なるからかと思われます。
