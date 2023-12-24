@@ -1,0 +1,1 @@
+M:N Thread の実装で通常の Fiber (blocking Fiber、Scheduler による自動切り替えのない従来の Fiber)での実行の時のみ IO 待ちやタイムアウト待ちの処理を行なうようにしています。M:N Thread と nonblocking Fiber を併用した時には Fiber の Scheduler のほうが IO 待ちによる切り替えを先に(?)処理するということですね。
