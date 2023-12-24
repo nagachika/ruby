@@ -1,0 +1,1 @@
+common.mk の exe/ruby の依存関係にタイムスタンプファイルを追加して、また .extout/${arch}/ のサブディレクトリの下に rbconfig.rb への symbolic link をはるようにしています。 rubygems を読み込むのに失敗するためとのこと。
