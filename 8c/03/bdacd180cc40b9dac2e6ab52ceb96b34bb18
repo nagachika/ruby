@@ -1,0 +1,1 @@
+common.mk で make test-all の実施前の依存関係として定義されている yes-test-all-precheck を直接依存せずに PRECHECK_TEST_ALL という変数経由で参照するようにして変数指定で制御できるように? しています。
