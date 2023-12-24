@@ -1,0 +1,1 @@
+timer_thread_set_timeout() という関数でタイムアウト値を RB_HRTIME_PER_MSEC 単位にまるめる処理で切り捨てになっていたのを切り上げになるよう修正しています。これも M:N Thread 関係かな?
