@@ -1,0 +1,1 @@
+RJIT 用の WITH_RJIT_ISOLATED_USING_PC() というマクロで評価される文の前後で rb_errinfo() を保護して例外コンテキストを元に戻すようにしています。
