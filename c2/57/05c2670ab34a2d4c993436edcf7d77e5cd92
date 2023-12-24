@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb にあった RJIT 対応のためのモジュール? RJITFirst を削除しています。テストの方法を変更して不要になっていたみたい。
