@@ -1,0 +1,1 @@
+Complex#to_i や Complex#to_f, Complex#to_r などの rdoc 用コメントを書きなおしています。 https://github.com/ruby/ruby/pull/9307
