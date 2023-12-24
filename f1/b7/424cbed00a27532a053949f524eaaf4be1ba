@@ -1,0 +1,1 @@
+環境変数 RUBY_FREE_AT_EXIT を指定してプロセス終了時に全メモリ解放する時の処理で fork 後のプロセスだと VM スタックの領域の解放が不要ということで削って(分岐して)いるのと rb_threadptr_root_fiber_release() 内で rb_execution_context_t を参照した時の NULL チェックを追加しています。
