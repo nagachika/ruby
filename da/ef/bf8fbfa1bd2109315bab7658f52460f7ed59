@@ -1,0 +1,1 @@
+native thread (pthread) の起動時の関数でマシンスタックの初期化を cygwin で行なわないように preprocessor 分岐していたのが不要みたいで削除しています。
