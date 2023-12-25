@@ -1,0 +1,1 @@
+a2ebf9cc63f0805bc7dd9a92e66bf589a869447e で導入した M:N Thread の実装で kqueue のイベント/fd の重複チェックする kqueue_already_registered() の呼び出しを timer_th.waiting_lock のロック取得後に行なうように修正しています。
