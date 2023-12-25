@@ -1,0 +1,1 @@
+M:N Thread のための thread_io_wait_events() でデバッグのための VM_ASSERT() の条件を緩めています。
