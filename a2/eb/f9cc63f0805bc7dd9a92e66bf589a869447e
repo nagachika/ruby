@@ -1,0 +1,1 @@
+M:N Thread のための kqueue() を使った実装で epoll_ctl() で既に同じ fd が登録済みの時に発生する errno=EEXIST のエラーを模倣するため timer_th.waiting のリスト内をチェックする kqueue_already_registered() という関数を導入して事前にチェックするようにしています。
