@@ -1,0 +1,1 @@
+thread_pthread.h での rb_current_ec() の宣言に NOINLINE() マクロを利用して inline 化を抑制するようにしています。
