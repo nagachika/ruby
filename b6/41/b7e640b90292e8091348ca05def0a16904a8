@@ -1,0 +1,1 @@
+rubyspec の C API のテストのための拡張ライブラリの部分で RBIMPL_WARNING_{PUSH,POP}() などの ruby 本体で使ってる警告抑制のためのマクロの利用をやめて spec/ruby/optional/capi/ext/rubyspec.h でコンパイラ毎の警告抑制のための #pragma の記述をまとめて全体的にかけるように? しています。
