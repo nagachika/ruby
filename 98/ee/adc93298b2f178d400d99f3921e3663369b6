@@ -1,0 +1,1 @@
+Matz による include/ruby/version.h の RUBY_API_VERSION_MINOR を更新するコミットです。 3.4 系の開発がはじまりました。
