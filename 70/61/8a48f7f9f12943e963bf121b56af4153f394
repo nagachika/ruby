@@ -1,0 +1,1 @@
+gc_mark_children() や gc_update_object_references() で for ループの条件部にループ変数ではなくてそこに代入する offset_list という配列の要素を直接参照してたのを代入した変数をみるように修正しています。これって offset = *offset_list++ で更新しているから初期値が offset = *offset_list なので先頭の要素だけ 2回評価することになるんじゃないっけ?
