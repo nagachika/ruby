@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の rdoc 用コメントで :stopdoc: でドキュメント抑制したところにドキュメントっぽいコメントが書いてあったのを削除しています。 https://github.com/ruby/irb/pull/819
