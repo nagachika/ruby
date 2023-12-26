@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の C 言語のソースの解析で rb_file_const() と rb_curses_define_const() による定数の定義へのサポートを追加しているようです。 https://github.com/ruby/rdoc/issues/1067
