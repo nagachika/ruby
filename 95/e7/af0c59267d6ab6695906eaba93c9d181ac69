@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::Visitors::YAMLTree::Registrar の未使用のインスタンス変数の削除。
