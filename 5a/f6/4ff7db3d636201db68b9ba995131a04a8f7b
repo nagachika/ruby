@@ -1,0 +1,1 @@
+Enumerator の各種 each 系メソッドで利用している enumerator_block_call() で引数を格納した配列オブジェクトの VALUE を変数に代入して RB_GC_GUARD() で保護するようにしています。 compaction による異常終了の修正。
