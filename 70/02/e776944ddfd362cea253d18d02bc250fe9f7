@@ -1,0 +1,1 @@
+Symbol#inspect の実装で Symbol の元となる文字列オブジェクトの GC からの保護のため変数に入れて RB_GC_GUARD() で修正しています。
