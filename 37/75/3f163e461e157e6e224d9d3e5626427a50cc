@@ -1,0 +1,1 @@
+IO::Buffer.map のフラグに IO::Buffer::PRIVATE のビットが立ってた時の Windows 環境でのメモリ保護設定の修正や、flags のビットフラグの操作用の関数の導入など。また non-blocking Fiber 用の Scheduler についての rb_fiber_scheduler_set() の Doxygen 用コメントの修正もなぜか一緒に入ってます。なんかリリース直前にドキュメントと本体の修正混ぜてごちゃっと入れるのはよくないですね。 https://github.com/ruby/ruby/pull/9329
