@@ -1,0 +1,1 @@
+rb_obj_setup() という C API で RGenGC 用の struct RBasic::flags の RUBY_FL_PROMOTED ビットフラグはコピーしないようにしています。 rb_obj_setup() は内部的には Method、Proc、Binding などの clone の実装でのみ利用されているみたいです。
