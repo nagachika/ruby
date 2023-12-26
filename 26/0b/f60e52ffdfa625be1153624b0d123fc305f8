@@ -1,0 +1,1 @@
+IO::Buffer.map で mmap していた場合の IO::Buffer オブジェクトの解放時に munmap() 相当の処理をするようにしています。この状態を管理するために flags のビットフラグに RB_IO_BUFFER_FILE という定数を追加しています。 https://github.com/ruby/ruby/pull/9340
