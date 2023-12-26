@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の gemspec ファイルに spec.metadata["changelog_uri"] の項目を追加しています。
