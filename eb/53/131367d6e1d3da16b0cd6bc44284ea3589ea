@@ -1,0 +1,1 @@
+標準添付ライブラリ  ipaddr の IPAddr.ntop の引数に ASCII-8BIT 以外の文字列が渡された場合に例外を発生させるようにしています。 https://github.com/ruby/ipaddr/issues/56
