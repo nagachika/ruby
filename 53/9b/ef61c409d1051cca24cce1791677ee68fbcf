@@ -1,0 +1,1 @@
+GitHub Actions の workflow の spec_guards で pull request などで spec/ 配下を無視するファイルとして指定してしまっていたので対象のパスになるよう修正しています。
