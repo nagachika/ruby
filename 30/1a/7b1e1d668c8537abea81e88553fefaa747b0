@@ -1,0 +1,1 @@
+GitHub Actions に .github/workflows/pr-playground.yml という新しい workflow を追加して pull request の label に Playground というのを付けておくとそのブランチの WASI 版のビルド結果をブラウザで試すための playground の環境をデプロイして? その URL を Actions のログに出力するようにしています。これはすごい。
