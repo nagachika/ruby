@@ -1,0 +1,1 @@
+GitHub Actions や AppVeyor の CI の設定で AppVeyor などの CI 設定ファイルの変更の時は GitHub Actions は動かないように、逆に GitHub Actions の設定の変更のみの時は AppVeyor は動かないように skip 対象のファイルに追加しています。
