@@ -1,0 +1,1 @@
+GitHub Actions の workflow の baseruby のバージョンを変更する workflow や rubyspec の実行するバージョンをチェックする workflows で 3.3 を対象に追加しています。
