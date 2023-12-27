@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 3.4.1 に更新しています。またこのトリガーで NEWS の bundled gems の新バージョンリストの更新が走って net-imap, rbs, typeprof, debug の項目を追加しています。
