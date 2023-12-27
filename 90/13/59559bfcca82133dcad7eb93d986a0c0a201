@@ -1,0 +1,1 @@
+Complex の各種メソッドの rdoc 用コメントのサンプルで Kernel#Complex() ではなく Complex.rect というメソッドを利用するようにしています。このメソッド知らなかったな。
