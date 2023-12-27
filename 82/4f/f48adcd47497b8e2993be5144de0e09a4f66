@@ -1,0 +1,1 @@
+rb_st_replace() と rb_st_init_existing_table_with_size() という st_table 関係の関数の宣言を internal/st.h というヘッダファイルに切り出しています。またこのヘッダでそれぞれ prefix の rb_ を削った st_replace() というマクロ定義を追加しています。外からみえるシンボルになっているから本体の名前は変更できないということかな?
