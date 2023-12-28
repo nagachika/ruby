@@ -1,0 +1,1 @@
+NEW_BLOCK() の内部で rb_node_block_t::nd_end メンバーにその node 自身を代入するようにして呼び元でセットしていたのをやめています。
