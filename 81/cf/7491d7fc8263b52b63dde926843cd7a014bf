@@ -1,0 +1,1 @@
+ruby --dump=parsetree 時の AST のノード出力の処理で NODE_SELF の出力にノードの nd_state の情報を表示するようにしています。
