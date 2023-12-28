@@ -1,0 +1,1 @@
+bundled gems の gem ファイルを取得する tool/fetch-bundled_gems.rb で git fetch サブコマンドに --all オプションを追加しています。
