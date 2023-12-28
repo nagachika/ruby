@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb のテストで git がエディタを開くとテストが止まってしまうのでそれを抑制するための環境変数 GIT_EDITOR を明示的に "false" を指定するようにしています。 git の --no-edit オプションはつけているけど古い git コマンドではそれでもエディタが開かれることがあるみたいです。 https://github.com/ruby/ruby/pull/9365
