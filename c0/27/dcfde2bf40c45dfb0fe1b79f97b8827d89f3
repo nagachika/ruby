@@ -1,0 +1,1 @@
+拡張ライブラリ etc の ext/etc/mkconstants.rb で生成する定数定義のコードに rdoc 用コメントを埋め込むようにしています。
