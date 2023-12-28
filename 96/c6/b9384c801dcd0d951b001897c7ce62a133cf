@@ -1,0 +1,1 @@
+bf2532f039887fdd6fa409a34db34fd9b8bcab01 で etc の同期時に誤って追加された lib/io.rb を削除しています。
