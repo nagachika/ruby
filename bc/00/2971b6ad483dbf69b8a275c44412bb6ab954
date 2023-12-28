@@ -1,0 +1,1 @@
+parse.y で () でくくられた式に begin 節と同様に NODE_BEGIN を利用していたところを NODE_BLOCK を利用するようにしています。 NODE_BEGIN を削る最適化(?)処理の影響で後置 while が正しく動かなくなっていた不具合の修正のようです。 https://github.com/ruby/ruby/pull/9373 [ruby-core:115923] [Bug #20094]
