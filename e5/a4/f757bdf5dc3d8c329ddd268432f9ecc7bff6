@@ -1,0 +1,1 @@
+IO::Buffer.map の Windows 版の実装で開放時の CloseHandle() での unmap 相当の処理のエラー発生時のエラー内容を標準エラー出力に直接 fprintf(3) で出力するようにしています。デバッグ用かな? https://github.com/ruby/ruby/pull/9358
