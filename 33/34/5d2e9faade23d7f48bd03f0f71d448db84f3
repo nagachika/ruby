@@ -1,0 +1,1 @@
+parse.y の %printer pragma の ripper 向けの出力処理の対象に node_masgn、node_def_temp、node_exits などの新しいノード種別を追加しています。
