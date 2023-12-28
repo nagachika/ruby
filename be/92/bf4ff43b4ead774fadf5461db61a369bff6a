@@ -1,0 +1,1 @@
+doc/syntax/control_expressions.rdoc の "==" や "===" メソッドのマークアップを明示的な HTML タグを利用するようにしています。
