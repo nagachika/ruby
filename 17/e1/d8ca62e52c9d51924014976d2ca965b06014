@@ -1,0 +1,1 @@
+Complex の rdoc 用コメントのサンプルコードで Kernel#Complex() のかわりに Complex.rect を使うようにしています。
