@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の fileutils の require に Module#autoload を利用していたのを、必要になる Pathname#mkpath メソッドの中で遅延して require するようにしています。既に Pathname#rmtree でも遅延 require していたのでそれに揃えています。
