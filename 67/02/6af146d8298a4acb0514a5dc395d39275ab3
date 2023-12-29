@@ -1,0 +1,1 @@
+同じく tool/lib/vcs.rb のコミットログから ChangeLog を生成する処理で git log コマンド実行時にコミットログに "[ci skip]" や "[skip ci]" という文字列が含まれているものは除外するようにしています。
