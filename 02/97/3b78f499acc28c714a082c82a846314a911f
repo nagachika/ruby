@@ -1,0 +1,1 @@
+arm64 版の coroutine 実装のアセンブラのビルド時のために configure で -mbranch-protection オプションを追加する時に ASFLAGS にも追加するようにしています。 d9e5564ccd0e460b7685b786d21cf386b229e2a9 [Bug #20029] の PAC/BTI 対応の影響で macOS の M1/M2 版で Fiber 利用時に異常終了が発生するようになっていたようです。  [ruby-core:115892] [Bug #20085]
