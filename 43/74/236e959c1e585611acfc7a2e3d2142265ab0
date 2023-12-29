@@ -1,0 +1,1 @@
+Universal Parser 対応で構造体 rb_parser_config_t に errno_ptr メンバーを追加して rb_errno_ptr() を wrap した rb_errno_ptr2() という関数の関数ポインタを渡すようにしています。
