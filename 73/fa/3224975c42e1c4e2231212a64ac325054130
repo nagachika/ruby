@@ -1,0 +1,1 @@
+Universal Parser の対応のため構造体 rb_parser_config_t に ary_modify メンバーを追加して rb_ary_modify() の関数ポインタを渡すようにしています。
