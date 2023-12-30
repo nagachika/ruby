@@ -1,0 +1,1 @@
+bc3b9356b2c885b1ea268330afcf20e1ab3a4704 で標準添付ライブラリ reline の lib/reline/kill_ring.rb のファイルの mode が変化してしまってたようで戻しているみたいです。 https://github.com/ruby/reline/pull/623
