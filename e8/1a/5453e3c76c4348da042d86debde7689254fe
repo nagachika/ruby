@@ -1,0 +1,1 @@
+GitHub Actions の WASI/WASM 版と GitHub pages の playground を生成する workflow で github-pr-info.txt というファイルの確認をするファイルパスをフルパス(?)にしています。よくわかりませんが pull request に playground ラベルを付けるのを pull request を作った後にしても WASI 版のビルドの完了前なら playground を作れるようにするため?
