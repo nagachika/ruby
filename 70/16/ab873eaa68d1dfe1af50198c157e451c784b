@@ -1,0 +1,1 @@
+拡張ライブラリ ripper 用のソースコード生成用のツール ext/ripper/tools/generate.rb で eventids2table.c の生成時に RIPPER_EVENTIDS2_TABLE_SIZE というマクロを吐き出すようにして ext/ripper/eventids2.c 内で C のソース上の ripper_scanner_ids の要素数と Hash にセットする要素数が一致していることを STATIC_ASSERT でチェックするようにしています。
