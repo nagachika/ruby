@@ -1,0 +1,1 @@
+thread_profile_frames() という C API で start という引数に 1以上の値を渡していくつか frame をスキップするよう指定された時にループ変数の更新が漏れていた不具合を修正しています。 [ruby-core:86147] [Bug #14607]
