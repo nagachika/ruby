@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom の Random::Formatter の uuid メソッドで String#unpack の利用するかわりに文字列オブジェクトの String#getbyte, String#setbyte を利用して直接バイト列を変更してから String#unpack で指示子 "H" を使って16進数表記で切り出した後 join するようにしています。性能のためとのこと。
