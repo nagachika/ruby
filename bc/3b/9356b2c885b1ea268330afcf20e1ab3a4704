@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::KillRing::RingPoint というクラスの #== メソッドで object_id を取得して比較してたのを Object#equal? メソッドを利用するようにしています。 https://github.com/ruby/reline/pull/617
