@@ -1,0 +1,1 @@
+compile.c の static_literal_value() で node の種類で分岐する switch 文で default で暗黙に NODE_LIT 型である前提でコードを書いていたのを明示的に case を書いて default 節では期待していない node の種類の場合 rb_bug() で明示的に異常終了させるようにしています。
