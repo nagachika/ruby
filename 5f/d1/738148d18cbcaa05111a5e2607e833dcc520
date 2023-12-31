@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom の gemspec ファイルの spec.files の指定で git ls-files から除外するファイルを増やしています。
