@@ -1,0 +1,1 @@
+Process.warmup によるメモリ解放の効果を GC.stat_heap で確認するテストがたまに失敗するそうでそのデバッグのために assertion に情報を追加しています。
