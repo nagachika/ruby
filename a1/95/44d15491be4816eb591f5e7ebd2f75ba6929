@@ -1,0 +1,1 @@
+doc/extension.ja.rdoc で markdown の `` での code 指定していたところがあったので明示的な HTML タグを書くように修正しています。
