@@ -1,0 +1,1 @@
+irb の yamatanooroti.gem を使った仮想端末でのテストの teardown で RELINE_TEST_PROMPT という環境変数を消す処理があったのを削除しています。 reline のテストからのコピペで消し忘れかな? https://github.com/ruby/irb/pull/827
