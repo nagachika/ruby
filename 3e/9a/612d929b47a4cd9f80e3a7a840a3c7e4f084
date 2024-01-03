@@ -1,0 +1,1 @@
+Process.wait2 の rdoc 用コメントでの Process.waitpid2 が alias だという記述でメソッド名を間違えていたのを修正しています。 https://github.com/ruby/ruby/pull/9401
