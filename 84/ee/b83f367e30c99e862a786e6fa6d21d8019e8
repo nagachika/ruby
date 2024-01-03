@@ -1,0 +1,1 @@
+doc/extension.rdoc および doc/extension.ja.rdoc で rdoc の :enddoc: タグを利用していたところを :stopdoc: に修正しています。:enddoc: は再開ができない模様。
