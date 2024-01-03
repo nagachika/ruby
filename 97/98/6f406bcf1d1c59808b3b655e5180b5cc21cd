@@ -1,0 +1,1 @@
+lldb 用のスクリプト misc/lldb_rb/utils.py でも 1ade170a6cac402d362d90bbf12e566d6a4f9ba1 で追加した AST の NODE_LINE のノード種別への対応を追加しています。
