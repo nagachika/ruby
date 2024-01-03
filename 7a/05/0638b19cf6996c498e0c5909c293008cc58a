@@ -1,0 +1,1 @@
+1ade170a6cac402d362d90bbf12e566d6a4f9ba1 の特殊変数 __LINE__ に対応する AST の node の種別 NODE_LINE 追加と同様に __FILE__ に対応する node の種別 NODE_FILE を新規追加しています。
