@@ -1,0 +1,1 @@
+irb の --noautocomplete オプション指定時のタブ補完でのドキュメントの参照時の名前空間を得る処理でインスタンス変数 @completion_params の配列内の要素の順序の解釈を間違えていたのを修正しています。ついでに一部 Proc を使っていたのをメソッドに切り出しています。 https://github.com/ruby/irb/pull/826
