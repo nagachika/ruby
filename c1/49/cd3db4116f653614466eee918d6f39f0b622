@@ -1,0 +1,1 @@
+gems/bundled_gems の net-ftp, net-imap, net-smtp にテスト用のコミットの commit hash の指定を追加しています。 d3933fc753187a055a4904af82f5f3794c88c416 による証明書の更新を反映させるためのものみたいです。 https://github.com/ruby/ruby/pull/9403
