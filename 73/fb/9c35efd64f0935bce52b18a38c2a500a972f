@@ -1,0 +1,1 @@
+8916b81bf434fc50bb9ce912a3dd468d784ca737 で拡張ライブラリ io/console のバージョンの定数 IO::ConsoleMode::VERSION の定義で STRINGIZE() というマクロを利用していたのが不要になったので削っています。
