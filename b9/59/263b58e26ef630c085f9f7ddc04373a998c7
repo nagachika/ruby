@@ -1,0 +1,1 @@
+Exception#detailed_message の実装で最適化による mark 漏れで GC で回収されてしまうのを防ぐための RB_GC_GUARD() の追加。
