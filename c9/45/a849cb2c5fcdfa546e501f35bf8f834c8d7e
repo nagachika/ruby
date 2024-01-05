@@ -1,0 +1,1 @@
+make test-all のテスト時に test/rubygems/test_gem_package_task.rb をファイルごと skip するように --exclude オプションを追加しています。bundled gems の rake に依存したテストでこの test-all 時には読み込まれないのでテストが失敗するみたいです。
