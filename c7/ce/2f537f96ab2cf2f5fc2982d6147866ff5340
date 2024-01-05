@@ -1,0 +1,1 @@
+Encoding.default_internal= で default internal のエンコーディングを変更する処理でエンコーディング名の文字列を管理している st_table に既に格納されていた文字列の解放をしていなくてメモリリークしていたのを修正しています。
