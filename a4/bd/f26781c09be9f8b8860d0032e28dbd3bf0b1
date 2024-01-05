@@ -1,0 +1,1 @@
+gems/bundled_gems の net-smtp のテストに使う commit hash の指定を更新しています。 gemspec ファイルの? バージョン検出の修正をしたとのこと。
