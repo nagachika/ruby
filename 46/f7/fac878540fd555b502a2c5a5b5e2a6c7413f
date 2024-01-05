@@ -1,0 +1,1 @@
+プロセスの終了時の ruby_vm_destruct() で rb_thread_t::nt をメモリ解放するようにしています。
