@@ -1,0 +1,1 @@
+Hash#select, Hash#select, Hash#transform_values などで内部的に compare_by_identity にした Hash のコピーを作成する時に receiver の Hash が既に Hash#hash_dup_with_compare_by_id でキーを同一性で扱うようになってた場合にメモリリークが発生していたのを修正しています。 [ruby-core:115999] [Bug #20145]
