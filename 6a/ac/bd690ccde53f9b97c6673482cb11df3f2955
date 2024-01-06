@@ -1,0 +1,1 @@
+拡張ライブラリ socket で getaddrinfo(3) を呼ぶ時に割り込みできるようにするために pthread を生成する時に pthread_attr_destroy() で pthread_attr_t の破棄を呼ぶようにしています。環境によっては(?)メモリリークしていたようです。 [ruby-core:116015] [bug #20149]
