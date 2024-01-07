@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http でストリーミングで結果を chunk 毎にブロック呼び出しする時にネットワークエラーでリトライした場合に同じ chunk で複数回のブロック起動をする可能性があった不具合を修正しています。 https://github.com/ruby/net-http/pull/86 https://github.com/ruby/net-http/pull/87 [Bug #11526]
