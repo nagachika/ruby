@@ -1,0 +1,1 @@
+RubyVM::YJIT.enable で起動後に YJIT を有効化した場合に --yjit-stats オプションで統計情報の収集と表示の機能にも対応するようにしているみたいです。 https://github.com/ruby/ruby/pull/9415
