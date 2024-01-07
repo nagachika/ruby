@@ -1,0 +1,1 @@
+ruby_debug_print_node() の別名として ruby_debug_print_n() という関数を追加しています。デバッガから使うための関数なのかな?
