@@ -1,0 +1,1 @@
+GC.measure_total_time のためのテストを追加しています。 [ruby-core:116045] [Bug #20157]
