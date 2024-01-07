@@ -1,0 +1,1 @@
+0c990994c7c61cab57c3fbbcf2d1ccb213dc8cdd で追加した ruby_debug_print_n() や元からあった ruby_debug_print_v() という関数のprototype 宣言を vm_debug.h に追加しています。
