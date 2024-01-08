@@ -1,0 +1,1 @@
+doc/extension.rdoc および doc/extension.ja.rdoc の :stopdoc:/:startdoc: タグによる一時的なドキュメント化抑制を "--" と "++" という行によるマークアップ? に置き換えています。
