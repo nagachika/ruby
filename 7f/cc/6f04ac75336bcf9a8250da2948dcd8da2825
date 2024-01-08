@@ -1,0 +1,1 @@
+さらに標準添付ライブラリ rdoc で ruby スクリプトの class/module 文でネストしたスコープが導入された時にその外の private/protected などの影響をリセットして public な状態に戻して解釈するように修正しています。
