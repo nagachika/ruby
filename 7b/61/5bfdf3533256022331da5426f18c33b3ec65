@@ -1,0 +1,1 @@
+Float クラスの rdoc 用コメントの継承元の言及箇所に Enumerable の include について追記しています。って Float って Enumerable を include してたっけ!?
