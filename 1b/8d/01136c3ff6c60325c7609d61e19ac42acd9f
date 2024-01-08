@@ -1,0 +1,1 @@
+AST の node の種別の NODE_LITERAL で表現していたリテラルのうち数値系のものに NODE_{INTEGER, FLOAT, RATIONAL, IMAGINARY} といった種類毎の専用の node を追加しています。 COMPLEX じゃないんだなと思ったけど 1+2i は全体でリテラルじゃなくって 2i だけがリテラルで Integer#+ メソッドが呼ばれるので IMAGINARY だけでいいんだな。
