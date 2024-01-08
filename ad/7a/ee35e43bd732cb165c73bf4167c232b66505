@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t から parse.y から削った処理のため未使用になった数値系オブジェクトの操作用の関数ポインタのメンバーを削除しています。なるほど数値リテラル用の node を導入した結果 parse.y から ruby 本体の API の依存が減らせたわけですね。
