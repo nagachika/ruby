@@ -1,0 +1,1 @@
+と思ったら 7b615bfdf3533256022331da5426f18c33b3ec65 の続きで Float クラスの rdoc 用コメントで include しているモジュールの言及での Enumerable を Comparable に修正しています。
