@@ -1,0 +1,1 @@
+irb の gemspec ファイルで依存する reline のバージョンを 0.4.2 以上に更新しています。 https://github.com/ruby/irb/pull/834
