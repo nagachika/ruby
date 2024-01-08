@@ -1,0 +1,1 @@
+Integer クラスの rdoc 用コメントでも継承元クラスのほかに include しているモジュールとして Comparable についての言及を追加しています。
