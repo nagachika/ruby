@@ -1,0 +1,1 @@
+parse.y の %printer の pragma (っていうのかな?) で 1ade170a6cac402d362d90bbf12e566d6a4f9ba1、7a050638b19cf6996c498e0c5909c293008cc58a や 1b8d01136c3ff6c60325c7609d61e19ac42acd9f で導入した NODE_LINE, NODE_FILE や数値系のリテラル用の node 種別のための表示処理を実装しています。
