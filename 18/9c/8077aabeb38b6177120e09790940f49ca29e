@@ -1,0 +1,1 @@
+52449b5b75068872ce568ed00c4c7fb8e6c28072 で ObjectSpace::WeakMap#delete と ObjectSpace::WeakKeyMap#delete メソッド追加時に追加したテストのテストメソッドにメモリリークのチェックをしていることを名前に含めるようにしています。
