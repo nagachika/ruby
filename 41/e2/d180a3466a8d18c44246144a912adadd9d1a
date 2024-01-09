@@ -1,0 +1,1 @@
+parse.y で Hash リテラルのキーが文字列リテラルの時にそのキーの node を NODE_STR から NODE_STR 変換するという最適化? をしていたのをやめています。parse.y からの ruby コアの依存を減らす一環かな?
