@@ -1,0 +1,1 @@
+b3d612804946e841e47d14e09b6839224a79c1a4 の続きで String#grapheme_cluster の実装で正規表現用の構造体 BBuf のメモリ解放が漏れていたのを修正しています。 [ruby-core:116073] [Bug #20161]
