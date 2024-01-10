@@ -1,0 +1,1 @@
+parse.y で node_numeric_str_cmp() という関数を独自に定義して使っていたのを strcmp() を使うようにしています。
