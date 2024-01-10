@@ -1,0 +1,1 @@
+parse.y の node_cdhash_cmp() という関数内の if 文を switch 文に書きなおすリファクタリング。
