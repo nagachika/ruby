@@ -1,0 +1,1 @@
+irb の組み込みコマンド show_source などでメソッドから ruby のコード位置を探索する IRB::SourceFinder で対象のファイルがバイナリフォーマットだった時に無視する対応を追加しています。 https://github.com/ruby/irb/pull/836
