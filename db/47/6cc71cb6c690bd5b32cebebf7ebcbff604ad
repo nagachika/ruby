@@ -1,0 +1,1 @@
+Symbol リテラルのために専用の AST の node 種別 NODE_SYM を追加して NODE_LIT から分離しています。数値系に続いて Symbol もですね。
