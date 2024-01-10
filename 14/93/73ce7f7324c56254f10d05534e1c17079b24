@@ -1,0 +1,1 @@
+require で default gems に警告を出すための lib/bundled_gems.rb  で racc が bundled になった ruby バージョンの記述が誤っていたので修正しています。
