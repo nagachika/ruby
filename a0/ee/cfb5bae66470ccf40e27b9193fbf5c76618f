@@ -1,0 +1,1 @@
+YJIT の Integer#<< メソッドのインライン化の最適化で右辺値の値が変化した時の脱最適化の対応を追加しているようです。 https://github.com/ruby/ruby/pull/9426
