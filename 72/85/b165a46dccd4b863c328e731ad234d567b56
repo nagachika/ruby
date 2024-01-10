@@ -1,0 +1,1 @@
+tool/outdate-bundled-gems.rb に 963131a2d90ac72eaad8c1c91fe8abfa186391e8 で追加したコマンドラインオプション --gem-platform と --ruby-version を省略可能にしています。
