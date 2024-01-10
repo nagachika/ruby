@@ -1,0 +1,1 @@
+tool/outdate-bundled-gems.rb の実行時に --ruby-platform と --ruby-version というオプションを渡すように make outdate-bundled-gems のコマンドを変更してツールで RbConfog::CONFIG を参照していたのをやめています。実行している ruby のバージョンに依存してしまうためかな。
