@@ -1,0 +1,1 @@
+M:N Thread の導入時に rb_thread_wait_for_single_fd() 関数を M:N Thread が無効なメイン Racotor から利用時に挙動の変化があったみたいでそれを修正しているようです。
