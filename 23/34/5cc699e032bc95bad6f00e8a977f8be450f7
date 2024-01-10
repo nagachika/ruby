@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境向け workflow に 2015 によるビルドを追加しています。 https://github.com/ruby/ruby/pull/9452 [ruby-core:115208] [Feature #19982]
