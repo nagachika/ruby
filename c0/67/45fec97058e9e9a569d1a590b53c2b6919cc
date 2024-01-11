@@ -1,0 +1,1 @@
+Array#zip の rdoc 用コメントに引数が Range など Enumerable なオブジェクトの場合もサポートすることを追記しています。
