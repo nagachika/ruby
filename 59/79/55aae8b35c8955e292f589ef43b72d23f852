@@ -1,0 +1,1 @@
+正規表現のメモ化による最適化の不具合修正のようです。 https://github.com/ruby/ruby/pull/9459
