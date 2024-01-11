@@ -1,0 +1,1 @@
+parse.y の node_cdhash_hash() で戻り値の型が VALUE 型になってたところを st_index_t にキャストするようにしています。
