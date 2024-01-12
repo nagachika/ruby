@@ -1,0 +1,1 @@
+Object Shapes によるインスタンス変数管理でインスタンス変数アクセスのパターンが増えて too complex になってるオブジェクトの dup で複製する時に st_table が解放されず leak していたのを修正しています。 [ruby-core:116078] [Bug #20162]
