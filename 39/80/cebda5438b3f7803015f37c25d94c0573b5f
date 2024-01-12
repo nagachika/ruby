@@ -1,0 +1,1 @@
+rubygems の gem update --system で実行している ruby のバージョンに依存して更新するバージョンの制約を設けるようにしてるようです▽
