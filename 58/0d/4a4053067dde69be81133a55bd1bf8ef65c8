@@ -1,0 +1,1 @@
+bundler のテストで git status --porcelain コマンド実行の結果を capture しようとしてエラーになった時のデバッグ用? に再度 git status --porcelain コマンド実行してたのを git diff を実行するようにしています。
