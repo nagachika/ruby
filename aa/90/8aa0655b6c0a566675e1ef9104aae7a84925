@@ -1,0 +1,1 @@
+rubygems の gem update 時に内部的に自動的に追加する? --previous-version というオプションを古い rubygems 対応で分岐していたのを削除しています。
