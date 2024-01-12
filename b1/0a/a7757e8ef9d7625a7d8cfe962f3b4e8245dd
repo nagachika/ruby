@@ -1,0 +1,1 @@
+変更点のリストを表示する tool/gen-github-release.rb で --no-dry-run オプションを指定して実際に GitHub の release のエントリを作成する時に Octkit での release 作成のメソッドに make_latest: false を渡すようにしています。GitHub 上の release リソースに latest タグをつけるのを抑制するためみたいです。
