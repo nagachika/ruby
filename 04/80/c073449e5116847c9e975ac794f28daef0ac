@@ -1,0 +1,1 @@
+GitHub Actions の check_misc という workflow で f730a5a31d7d072f752e9bf41e8b285305933328 で追加したフォーマット文字列の修飾子のチェックのための step を削除しています。VC2013 のサポートが切れたためとのこと。
