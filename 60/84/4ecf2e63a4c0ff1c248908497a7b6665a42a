@@ -1,0 +1,1 @@
+76a8c963c7ad975b7bbfc1c4979bf7a2de15af27 で追加した複数 Thread からの Process.waitpid のテストでメソッドの引数が -1 のところは明示的にかっこをつけて $VERBOSE=true 時の警告を抑制しています。
