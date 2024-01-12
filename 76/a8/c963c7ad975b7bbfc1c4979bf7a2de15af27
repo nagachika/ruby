@@ -1,0 +1,1 @@
+Process.waitpid を複数の Thread から同時に呼んだ時のテストを追加しています。 [ruby-core:112091] [Bug #19387]
