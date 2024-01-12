@@ -1,0 +1,1 @@
+rubygems の spec ファイルの cache ディレクトリを決定するロジックの修正。
