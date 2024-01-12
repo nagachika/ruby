@@ -1,0 +1,1 @@
+GitHub Actions の workflows に prism を利用して make btest を実行する workflow を追加しています。また tool/prism_btests というファイルを追加して実行対象のテストファイルを列挙するようにしています。
