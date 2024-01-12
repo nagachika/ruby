@@ -1,0 +1,1 @@
+rubygems のテスト用の helper? で不要な _synchronize メソッドを削除しています。
