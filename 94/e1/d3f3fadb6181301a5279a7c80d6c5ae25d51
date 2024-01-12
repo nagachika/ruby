@@ -1,0 +1,1 @@
+bundler の Bundler::LazySpecification というクラスに Bundler::MatchMetadata の include を追加しています。
