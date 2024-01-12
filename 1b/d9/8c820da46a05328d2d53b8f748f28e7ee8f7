@@ -1,0 +1,1 @@
+拡張ライブラリ socket で geftaddrinfo(3) を呼ぶ時に割り込み可能にするために pthread を利用する実装で性能のために pthread_attr_setaffinity_np() を利用して CPU の割当ての制御を行なっていたのをやめています。 仮想環境などで sched_getcpu() がおかしな値を返すことがあったり、性能への影響もあまりなかったからとのこと。 [ruby-core:116129] [Bug #20172]
