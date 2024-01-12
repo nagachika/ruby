@@ -1,0 +1,1 @@
+ad3db6711c4aa48c82f4091342aab7394ee45736 の dependabot の対象に .github/actions も含めるためのリトライ。GitHub Actions の dependabot 用の workflow 個別にサブディレクトリを指定するジョブを明示的に書くようにしています。
