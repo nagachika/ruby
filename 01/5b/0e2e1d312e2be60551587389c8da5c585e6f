@@ -1,0 +1,1 @@
+YJIT のために rb_yjit_fix_mul_fix() という関数を export していましたが未使用だったので削除しています。
