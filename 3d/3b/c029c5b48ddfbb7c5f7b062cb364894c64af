@@ -1,0 +1,1 @@
+parse.y の parser_set_encode() で magic comment の encoding 指定に internal/external/locale/filesystem などの指定がされた時にエラーにするようにしています。
