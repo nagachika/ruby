@@ -1,0 +1,1 @@
+rubocop による冗長な明示的 return の除去の適用。
