@@ -1,0 +1,1 @@
+rubygems で rubocop による正規表現のかわりに String#include? を利用するようにする指示を適用。
