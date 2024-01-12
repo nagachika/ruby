@@ -1,0 +1,1 @@
+rubygems の gem update --system の実行時に "Updating rubygems-update" のメッセージが出力されるのを抑制しています。
