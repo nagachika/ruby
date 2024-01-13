@@ -1,0 +1,1 @@
+iseq.c の prism 用の AST をコンパイルする関数で parse error 時の例外発生のエラー処理を追加しています。
