@@ -1,0 +1,1 @@
+tool/gen-github-release.rb で GitHub の release を作成する時にバージョンに rc や preview という文字列が含まれていた時に prerelease フラグをつけるようにしています。
