@@ -1,0 +1,1 @@
+標準添付ライブラリ pp のテストの一部の assertion を TruffleRuby でスキップするようにしています。
