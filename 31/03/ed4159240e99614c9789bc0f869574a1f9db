@@ -1,0 +1,1 @@
+rubyspec で外部コマンドの sleep を利用しているところを Windows 環境では timeout というコマンドを利用するようにしています。
