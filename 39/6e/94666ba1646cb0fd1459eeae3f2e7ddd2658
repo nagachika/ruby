@@ -1,0 +1,1 @@
+というわけで ASAN 対応のコミット 4ba8f0dc993953d3ddda6328e3ef17a2fc2cbde5 を revert しています。 [ruby-core:115346] [Bug #20001]
