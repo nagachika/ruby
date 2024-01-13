@@ -1,0 +1,1 @@
+rubyspec の require のテストでロード済みの拡張ライブラリから無視すべきものに Encoding 用の windows_31j を追加しています。
