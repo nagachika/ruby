@@ -1,0 +1,1 @@
+リリースノートを生成するツール tool/gen-github-release.rb で GitHub の release も作成する処理でタグ名の "v" を削るための String#gsub で全ての "v" を削るようになってたので先頭についているものだけ削るようにしています。
