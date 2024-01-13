@@ -1,0 +1,1 @@
+標準添付ライブラリ pp の Data#pretty_print の定義で members メソッドの呼び出しを Data クラスに直接呼ぶのではなくてインスタンスのクラスを Object#class で取得してそれに対して呼ぶように修正しています。
