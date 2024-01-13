@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で Data#pretty_print メソッドを追加するのを古い ruby で抑制するために RUBY_VERSION でバージョンで判定していたのを defined? で Data.define メソッドの有無で判定するようにしています。
