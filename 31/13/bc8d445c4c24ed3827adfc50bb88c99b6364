@@ -1,0 +1,1 @@
+rubyspec の外部コマンド stat を利用しているところが Windows では利用できないので例外を捕捉して skip するようにしています。platform_is で guard していないのは実行できる環境(msys とかで?)もあるからかな。
