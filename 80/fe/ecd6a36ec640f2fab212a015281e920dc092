@@ -1,0 +1,1 @@
+rubyspec で外部コマンドの cat を利用しているところを Windows 環境では rem を使ったり platform 指定で guard を入れたりして避けるようにしています。
