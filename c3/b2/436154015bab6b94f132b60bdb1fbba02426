@@ -1,0 +1,1 @@
+parse.y の set_yylval_literal() というマクロは未使用になっていたので削除しています。
