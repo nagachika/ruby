@@ -1,0 +1,1 @@
+Universal Parser 用構造体 rb_parser_config_t のメンバー counter を削除しています。参照カウンタとして利用していたみたいですが管理が不要になったため。
