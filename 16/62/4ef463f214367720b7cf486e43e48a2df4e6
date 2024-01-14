@@ -1,0 +1,1 @@
+YJIT の VM 命令 expandarray の実装で対象のオブジェクトが Array じゃなかった時に to_ary メソッドで変換を試みる対応を追加しているようです。 https://github.com/ruby/ruby/pull/9495
