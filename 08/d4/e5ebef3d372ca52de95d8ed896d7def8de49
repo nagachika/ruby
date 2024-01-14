@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SocketForwarder モジュールに local_address、remote_address や close_on_exec=、wait などの IO を模倣するための(?)メソッドを追加しています。
