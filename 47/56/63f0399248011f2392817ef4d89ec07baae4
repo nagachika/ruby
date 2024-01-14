@@ -1,0 +1,1 @@
+prism 用の AST から ISeq へのコンパイルの処理の効率化。 https://github.com/ruby/prism/issues/2152
