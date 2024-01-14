@@ -1,0 +1,1 @@
+1b8d01136c3ff6c60325c7609d61e19ac42acd9f で AST に数値系リテラルの専用の node 種別を導入した時に compile_negative_numeric() で未知のタイプのオブジェクトだった時の rb_bug() での異常終了が削られていたので復活させています。
