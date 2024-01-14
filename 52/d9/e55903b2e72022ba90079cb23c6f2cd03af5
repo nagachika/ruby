@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t のメモリ領域を malloc() でヒープに確保するのをやめてグローバル変数として(.data? .bbs?)領域に確保するようにしています。
