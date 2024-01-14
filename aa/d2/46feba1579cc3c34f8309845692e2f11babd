@@ -1,0 +1,1 @@
+$SAFE に関する処理を削除した時に deprecated にしていた SafeStringValue() というマクロを利用しているところを StringValue() を使うよう変更しています。
