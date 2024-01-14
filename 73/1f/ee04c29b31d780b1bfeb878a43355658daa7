@@ -1,0 +1,1 @@
+ruby_parser.c で OBJ_BUILTIN_TYPE() のかわりに BUILTIN_TYPE() マクロを利用するようにしています。冗長な条件チェックを省くため。
