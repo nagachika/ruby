@@ -1,0 +1,1 @@
+ruby_parser.c の compile_xxxxx_literal() といった関数名を xxxx_literal() のように compile_ の prefix を削るように改名しています。
