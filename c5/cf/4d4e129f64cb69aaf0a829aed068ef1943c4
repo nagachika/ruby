@@ -1,0 +1,1 @@
+IO::Buffer にサイズを 0 で作成しても例外にせず許容するように仕様変更しています。 https://github.com/ruby/ruby/pull/9532 [ruby-core:108697] [Bug #18805] [ruby-core:112947] [Bug #19542]
