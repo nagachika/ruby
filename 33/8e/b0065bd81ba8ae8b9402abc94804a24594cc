@@ -1,0 +1,1 @@
+拡張ライブラリ strscan で String#scan に渡された正規表現でマッチしない場合のある部分に capture の指定があった時にそこに対応する結果に空文字列ではなくて nil を返すようにしています。 https://github.com/ruby/strscan/issues/70 https://github.com/ruby/strscan/pull/72
