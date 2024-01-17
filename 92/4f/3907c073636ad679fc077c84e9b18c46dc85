@@ -1,0 +1,1 @@
+GitHub Actions の rubyspec を各バージョンの ruby で実行するテストで 3.3 での実行を復活させています。
