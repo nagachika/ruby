@@ -1,0 +1,1 @@
+rubyspec の実行時に各種リソースの leak check を有効にするため common.mk で CHECK_LEAKS 変数に true をセットするようにしています。
