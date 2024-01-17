@@ -1,0 +1,1 @@
+sample/net-imap.rb に bundled gems になっていた net-imap のサンプルが残ってたのを削除しています。
