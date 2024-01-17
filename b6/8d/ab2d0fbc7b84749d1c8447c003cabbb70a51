@@ -1,0 +1,1 @@
+標準添付ライブラリ getoptlong も削除して bundled gems に変更しています。
