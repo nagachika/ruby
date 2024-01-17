@@ -1,0 +1,1 @@
+標準添付ライブラリ pp の Range#pretty_print で begin-less の時の対応を追加しています。
