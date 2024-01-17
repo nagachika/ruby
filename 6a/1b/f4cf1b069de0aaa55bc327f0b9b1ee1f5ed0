@@ -1,0 +1,1 @@
+YJIT で String#size と String#length をインライン化する最適化を追加しています。 https://github.com/ruby/ruby/pull/9543
