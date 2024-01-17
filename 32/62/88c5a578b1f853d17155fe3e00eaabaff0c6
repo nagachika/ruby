@@ -1,0 +1,1 @@
+getoptlong の bundled gems への変更に対応して doc/maintainers.md と doc/standard_library.rdoc の記述セクションを移動しています。
