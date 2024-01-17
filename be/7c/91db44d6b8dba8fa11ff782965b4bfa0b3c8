@@ -1,0 +1,1 @@
+rubyspec の標準添付ライブラリ shellwords のテストでトップレベルで include Shellwords していたのをやめて receiver を明示してメソッド呼び出しするようにしています。
