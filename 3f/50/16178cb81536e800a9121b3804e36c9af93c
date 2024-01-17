@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から標準添付からはずれた getoptlong のエントリを削除しています。
