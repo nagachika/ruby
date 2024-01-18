@@ -1,0 +1,1 @@
+リポジトリからのビルド時に利用する BASERUBY の最低バージョンを 2.7.0 に引き上げています。 https://github.com/ruby/ruby/pull/9566 [ruby-core:97355] [Misc #16671]
