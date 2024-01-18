@@ -1,0 +1,1 @@
+spec/ruby/default.mspec の先頭行にファイルフォーマットを指定する editor 用の modeline のコメントを追加しています。
