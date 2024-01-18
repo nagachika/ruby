@@ -1,0 +1,1 @@
+コマンドラインオプションの引数の処理をするマクロで引数がない時の off-by-one エラーを修正しています。 https://github.com/ruby/ruby/pull/9562
