@@ -1,0 +1,1 @@
+String#<< で receiver の文字列の coderange がもともと ENC_CODERANGE_BROKEN だった時に ENC_CODERANGE_UNKNOWN にリセット(?)するようにしています。内容によっては valid_encoding? が true になるようなバイト列になることもあるからということみたいです。
