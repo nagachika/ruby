@@ -1,0 +1,1 @@
+拡張ライブラリ psych の gemspec ファイルに s.metadata['changelog_uri'] のエントリを追加しています。
