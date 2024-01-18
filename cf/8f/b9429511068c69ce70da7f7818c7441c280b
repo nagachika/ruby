@@ -1,0 +1,1 @@
+GitHub Actions で rubyspec のために環境変数 CHECK_LEAKS を設定していたのはデフォルトでセットされるようになったので不要になり削除しています。
