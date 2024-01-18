@@ -1,0 +1,1 @@
+拡張ライブラリ psych で YAML に変換時に文字列の 1文字だけの "Y" や "N" も明示的にクオートするようにしています。真偽値として parse されてしまう可能性があるため。 https://github.com/ruby/psych/pull/443
