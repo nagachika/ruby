@@ -1,0 +1,1 @@
+26cf40aaa08e74bfcfd1f4ee75a7c19c6efbac06 で rubyspec 実行時のために変数 CHECK_LEAKS を設定するようにしていましたが revert してかわりに spec/default.mspec で明示的に環境変数の CHECK_LEAKS に設定するようにしています。 common.mk で設定した変数は template/Makefile.in で .NOEXPORT が指定されているため環境変数として伝播しなかったみたいです。
