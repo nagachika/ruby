@@ -1,0 +1,1 @@
+rubyspec で base64 のテストを 3.3 以前でのみ動くように version による guard を追加しています。
