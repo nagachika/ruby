@@ -1,0 +1,1 @@
+tool/missing-baseruby.bat の リポジトリのソースツリーからビルド時に BASERUBY がなかった時のエラーメッセージに BASERUBY の最低要求バージョンが 2.7 であることを出力するようにしています。
