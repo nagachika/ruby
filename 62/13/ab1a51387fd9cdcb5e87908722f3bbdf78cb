@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext::DEFAULT_PARAMS の :min_version の項目を OpenSSL::SSL::TLS1_VERSION に設定するのはリンクしている外部ライブラリの OpenSSL のバージョンが 1.1.0 以上の時だけになるようにしています。 RedHat 系でのエラーの修正のためみたいです。
