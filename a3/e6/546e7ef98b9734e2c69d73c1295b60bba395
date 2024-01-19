@@ -1,0 +1,1 @@
+tool/missing-baseruby.bat で警告メッセージを出力する時に標準エラー出力に出すようにしています。
