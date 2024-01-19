@@ -1,0 +1,1 @@
+他にも rubyspec で Integer#coerce などの coerce のテストが bigdecimal の削除の影響を受けるため ruby version による guard で 3.3 以前でのみ実行するようにしています。
