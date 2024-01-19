@@ -1,0 +1,1 @@
+gems/bundled_gems でテストに利用する bigdecimal の commit hash の指定を追加しています。
