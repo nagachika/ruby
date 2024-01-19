@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で 6283ae8d369bd2f8a022bb69bc5b742c58529dec での StringIO オブジェクトへの書き込み時の coderange の調節を revert して単に内部で保持している String オブジェクトに rb_str_modify() を呼ぶようにしています。 https://github.com/ruby/stringio/pull/77
