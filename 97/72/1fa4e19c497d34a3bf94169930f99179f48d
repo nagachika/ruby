@@ -1,0 +1,1 @@
+さらに tool/missing-baseruby.bat を修正。関数名を変更しています。関数名に ":" を含めていたのが古い環境でだめだったらしい。というか今気がつきましたけど tool/missing-baseruby.bat って拡張子は bat ファイルだけど内容は UNIX の shell でも動くようにしてある polyglot スクリプトですね。
