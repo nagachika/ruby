@@ -1,0 +1,1 @@
+bigdecimal の bundled gems への変更により doc/maintainers.md と doc/standard_library.rdoc の記述のセクションも移動しています。
