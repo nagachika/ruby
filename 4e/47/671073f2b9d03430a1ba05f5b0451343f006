@@ -1,0 +1,1 @@
+rubygems の require のテストに default gems と同名のファイルを含む gem があった時に default gems のほうが優先してロードされることを確認するテストを追加しています。
