@@ -1,0 +1,1 @@
+db44088c2a92040879386aa5f268db4c858e4e5b の rubygems の再定義する Kernel#require の循環依存時の修正を revert しています。 CI でエラーがあった模様。
