@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の upstream からの同期処理から resolv-replace の対応を削除しています。
