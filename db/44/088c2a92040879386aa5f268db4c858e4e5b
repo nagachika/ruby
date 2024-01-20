@@ -1,0 +1,1 @@
+rubygems の require の再定義の実装で default gems の require から循環依存があった時の対応を追加しています。
