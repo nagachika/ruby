@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で bundled gems になった resolv-replace のテストはスキップするようにしているようです。
