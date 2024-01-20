@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の同期処理の rinda 対応を削除しています。
