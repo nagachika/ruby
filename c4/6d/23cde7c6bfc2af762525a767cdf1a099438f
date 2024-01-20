@@ -1,0 +1,1 @@
+make test-bundled-gems の事前準備で gem install する gem のリストに drb, ipaddr, forwardable, ruby_keyword2 を追加しています。たぶん rinda のため。
