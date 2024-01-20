@@ -1,0 +1,1 @@
+807714447ef02c77bb0e17fe27d96ee2692264f8 からの続きで ASAN/MSAN を有効にしてビルドした時だけ利用するヘッダやマクロの定義の判定のための RUBY_ASAN_ENABLED は RUBY_MSAN_ENABLED というマクロを導入しています。 [ruby-core:115346] [Bug #20001]
