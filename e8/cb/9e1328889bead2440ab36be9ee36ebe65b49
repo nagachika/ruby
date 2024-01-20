@@ -1,0 +1,1 @@
+gems/bundled_gems と NEWS の minitest のバージョンを 5.21.2 に更新しています。 また bundled gems に移行した gem リストに observer を追加しています。
