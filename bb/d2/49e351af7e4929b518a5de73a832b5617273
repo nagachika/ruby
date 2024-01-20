@@ -1,0 +1,1 @@
+YJIT が yield 文に対して Hash を keyword splat して渡す記法を使った時に正しくキーワード引数として扱えてなかった不具合を修正しています。 [ruby-core:116311] [Bug #20192]
