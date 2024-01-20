@@ -1,0 +1,1 @@
+rubyspec の observer のテストを 3.3 以前でのみ実行するように guard を追加しています。
