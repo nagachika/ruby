@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.dump, Psych.save_dump にキーワード引数(正確には Hash によるオプション引数) stringify_names を追加して、Hash のキーが Symbol の時に文字列として出力するよう指定できるようにしています。
