@@ -1,0 +1,1 @@
+rubyspec の abbrev のテストを 3.3 以前でのみ動くように guard を追加しています。
