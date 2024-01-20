@@ -1,0 +1,1 @@
+4ba8f0dc993953d3ddda6328e3ef17a2fc2cbde5 あたりからの ASAN を有効にしてビルドした時のための変更のリトライ。 native thread の起動時に machine stack の開始位置を引数として取り回すようにして GC の mark のための machine stack の範囲が不足していた不具合を修正するためのようです。 [ruby-core:115346] [Bug #20001]
