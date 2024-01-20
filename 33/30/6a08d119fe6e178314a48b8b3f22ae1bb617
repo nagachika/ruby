@@ -1,0 +1,1 @@
+よくわかってませんが YJIT のコード生成の遅延時に chain_depth というカウンタを増やさないようにしているそうです。 https://github.com/ruby/ruby/pull/9597
