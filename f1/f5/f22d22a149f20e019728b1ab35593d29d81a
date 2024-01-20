@@ -1,0 +1,1 @@
+rubygems が再定義する Kernel#require の実装で default gems を require しようとした時の処理の不具合修正のようです。
