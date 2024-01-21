@@ -1,0 +1,1 @@
+compile.c の iseq_set_exception_table() 内に struct iseq_catch_table_entry::sp がアンダーフローしないかチェックする RUBY_ASSERT() での assertion を追加しています。
