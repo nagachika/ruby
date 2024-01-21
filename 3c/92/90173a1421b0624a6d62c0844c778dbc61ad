@@ -1,0 +1,1 @@
+YJIT で defined?(yield) でブロックの有無をチェックする構文に専用のコードを生成する最適化。 https://github.com/ruby/ruby/pull/9599
