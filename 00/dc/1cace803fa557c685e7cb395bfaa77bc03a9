@@ -1,0 +1,1 @@
+04cf66765a8a9d48baea6d9aee266dc9aa21df27 で revert されていた rubygems が再定義する require の db44088c2a92040879386aa5f268db4c858e4e5b での修正を再度適用しています。
