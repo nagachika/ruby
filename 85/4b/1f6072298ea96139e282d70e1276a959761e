@@ -1,0 +1,1 @@
+doc/maintainers.md と doc/standard_library.rdoc の drb の項目を bundled gems への移動にあわせてセクション移動しています。
