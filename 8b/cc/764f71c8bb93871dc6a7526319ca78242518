@@ -1,0 +1,1 @@
+doc/maintainers.md と doc/standard_library.rdoc の syslog についてのエントリを bundled gems への変更に伴いセクションを移動しています。
