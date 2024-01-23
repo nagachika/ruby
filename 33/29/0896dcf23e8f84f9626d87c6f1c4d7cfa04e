@@ -1,0 +1,1 @@
+mspec の各種リソースの leak をチェックする leackchecker.rb の実装で拡張ライブラリ fiddle を利用して __nss_configure_lookup() という関数を呼んで nss の設定をいじって名前解決を常に files で行なうように設定するようにしています。 https://github.com/ruby/mspec/pull/62
