@@ -1,0 +1,1 @@
+rubygems の再定義する require のテストで net-http を require してしまうので $LOADED_FEATURE のグローバルな状態を変更してしまうのが CI のエラーに繋がってたとのことで利用する gem 名を my-http に変更しています。
