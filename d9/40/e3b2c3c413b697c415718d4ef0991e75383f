@@ -1,0 +1,1 @@
+127b19ab561b5365884b465d50356a1e4019713c の変更により ruby 実装での Primitive.cexpr! を 1行に 2つ以上書けなくなったので rjit_c.rb で 1行に 2つ書いてたのを 2行に分けるように tool/rjit/bindgen.rb を修正しています。
