@@ -1,0 +1,1 @@
+gems/lib/envutil.rb というファイルを追加して tool/lib/envutil.rb を require_relative で読み込むようにしています。 default gems のテスト時のためかな。
