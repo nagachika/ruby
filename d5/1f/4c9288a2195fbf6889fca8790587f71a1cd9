@@ -1,0 +1,1 @@
+54552b89e73fc616ba47c1c87d33625af99cbce9 で revert されていた f1f5f22d22a149f20e019728b1ab35593d29d81a の rubygems の再定義する require での default gem の扱いの修正を再度適用しています。
