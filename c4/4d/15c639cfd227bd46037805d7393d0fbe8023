@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から drb の同期処理の対応を削除しています。
