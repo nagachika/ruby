@@ -1,0 +1,1 @@
+doc/command_injection.rdoc の外部コマンドを実行するメソッドリストに Kernel#exec と Kernel#system を追記しています。
