@@ -1,0 +1,1 @@
+GitHub Actions の dependabot の設定で yjit/ 配下の Cargo.toml はチェックしないように除外する設定を追加しています。
