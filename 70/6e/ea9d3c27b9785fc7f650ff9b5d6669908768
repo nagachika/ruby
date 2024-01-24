@@ -1,0 +1,1 @@
+irb の require の補完のテストで csv のかわりに coverage を使うようにしてたのをまた rubygems を利用するように再変更しています。
