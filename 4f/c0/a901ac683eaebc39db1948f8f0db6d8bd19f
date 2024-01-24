@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で ruby/setup-ruby アクションを利用するようにして PATH 変数の設定を不要にしているようです。 https://github.com/ruby/ruby/pull/9645
