@@ -1,0 +1,1 @@
+YJIT の yjit/bindgen/Cargo.lock で shlex というパッケージのバージョンを更新しています。 https://github.com/ruby/ruby/pull/9652
