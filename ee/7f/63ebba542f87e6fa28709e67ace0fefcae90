@@ -1,0 +1,1 @@
+parse.y で struct parser_params で保持する lastline と nextline という情報を文字列オブジェクトを VALUE 値で持ってたのを専用の rb_parser_string_t という型で保持するようにしています。 ruby コアの実装への依存を減らすための変更の一環のようです。
