@@ -1,0 +1,1 @@
+YJIT と rubygems の Rust の shlex パッケージの更新を revert しています。
