@@ -1,0 +1,1 @@
+yjit/ 配下の Cargo.toml で capstone というパッケージのバージョンの指定を更新しています。 https://github.com/ruby/ruby/pull/9653
