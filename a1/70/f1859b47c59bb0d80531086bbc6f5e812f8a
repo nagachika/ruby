@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で標準添付からはずれた syslog の同期処理を削除しています。
