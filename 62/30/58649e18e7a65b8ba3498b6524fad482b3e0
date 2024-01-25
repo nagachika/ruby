@@ -1,0 +1,1 @@
+Kernel#exec, Kernel#system, Kernel#spawn などの rdoc 用コメントからシェルを経由するかどうかについての記述を Process モジュールの rdoc 用コメントにセクションを設けてそこへのリンクを貼るようにしています。
