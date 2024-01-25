@@ -1,0 +1,1 @@
+Array#each を ruby 実装にしています。 ブロック起動中に配列のバッファが移動したりサイズが変化したりといった問題はどうかと思いましたがそれを考慮して毎回サイズチェックやバッファの参照をしなおす C の関数を定義してそれを Primitive.cexpr! で呼ぶようにできています。 また :inline_block のフラグもつけているので 27c1dd8634d34bfe3592151d66b410f28ca749ce との合わせ技で Array#each が YJIT で相当速くなりそうですね。 debug.gem が影響を受けるのか gems/bundled_gems で debug.gem のテストに使う commit hash の指定を追加しています。 https://github.com/ruby/ruby/pull/9533
