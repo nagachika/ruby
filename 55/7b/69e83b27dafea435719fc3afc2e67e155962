@@ -1,0 +1,1 @@
+bootstraptest の YJIT のテストが prism 利用時に失敗するとのことで skip するようにしています。
