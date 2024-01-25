@@ -1,0 +1,1 @@
+01f9766aa05182a7bbdc914a5dcd8a36ebade861 での rubygems で File.umask を考慮する変更を revert しています。
