@@ -1,0 +1,1 @@
+Fiber のテストで Proceses.spawn や Kernel#system で外部コマンドを実行させるために true コマンドを使っていたのが Windows ではそんなコマンドがなくて(?)うまくいかないみたいでかわりに "exit 0" を使うようにしています。
