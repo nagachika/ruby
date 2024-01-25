@@ -1,0 +1,1 @@
+いくつかの ruby 実装の組み込みメソッドでブロックを受け取るもの(Kernel#loop, Integer#times, Kernel#tap, Kernel#then など)に Primitive.attr! で :inline_block というフラグをつけて、これらが YJIT でコード生成時にブロックの起動までインライン展開する最適化を行うようにしています。 https://github.com/ruby/ruby/pull/9622
