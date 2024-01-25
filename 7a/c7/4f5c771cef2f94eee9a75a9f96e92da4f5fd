@@ -1,0 +1,1 @@
+557b69e83b27dafea435719fc3afc2e67e155962 の prism 利用時に YJIT のテストを skip していた変更を revert しています。
