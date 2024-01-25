@@ -1,0 +1,1 @@
+772afa00b5109f55c1d8359c688aca4063818549 で Travis-CI でのみ rubygems の一部のテストを skip してたのを revert しています。
