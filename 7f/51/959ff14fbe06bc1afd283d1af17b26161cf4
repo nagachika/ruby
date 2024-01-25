@@ -1,0 +1,1 @@
+YJIT を使っていると ArgumentError を発生させるべきところ TypeError が発生してしまう引数の渡しかたがあったという不具合を修正しています。 [ruby-core:116374] [Bug #20204]
