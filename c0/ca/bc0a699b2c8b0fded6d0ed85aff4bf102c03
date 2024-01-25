@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.disasm でメソッドにつけられた attr を表示するようにしています。 https://github.com/ruby/ruby/pull/9667
