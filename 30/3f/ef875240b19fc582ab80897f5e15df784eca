@@ -1,0 +1,1 @@
+doc/yjit/yjit.md の --yjit-exec-mem-size オプションのデフォルト値について 1702528258c2b2a87dcf5673a80d999de35d0b71 に追随して変更しています。 https://github.com/ruby/ruby/pull/9687
