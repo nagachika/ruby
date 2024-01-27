@@ -1,0 +1,1 @@
+YJIT で特異クラスを持つオブジェクトについてメソッドキャッシュを誤って保存してしまうのを修正しているようです。 https://github.com/Shopify/ruby/issues/552 [ruby-core:116431] [Bug #20209]
