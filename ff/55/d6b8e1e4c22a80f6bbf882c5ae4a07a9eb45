@@ -1,0 +1,1 @@
+parse.y の comment_at_top() という magic comment を検出する関数で struct parser_params::token_seen というメンバーを参照することで処理を簡略化しています。行にトークンがあるかどうかの判定に使えるみたい?
