@@ -1,0 +1,1 @@
+YJIT の --yjit-exec-mem-size オプションで指定できる実行コード用のメモリ領域のサイズのデフォルト値を 64MB から 48MB に変更しています。 https://github.com/ruby/ruby/pull/9685
