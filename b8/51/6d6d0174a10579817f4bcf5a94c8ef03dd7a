@@ -1,0 +1,1 @@
+VM 命令 pushtoarray という newarray + concatarray の働きをする命令を新規追加しています。不要な中間配列の生成を抑制するため。
