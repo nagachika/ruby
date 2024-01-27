@@ -1,0 +1,1 @@
+Travis-CI 上の s390x でのテスト時に prism についてのテストを除外するようにしています。 https://github.com/ruby/ruby/pull/9694
