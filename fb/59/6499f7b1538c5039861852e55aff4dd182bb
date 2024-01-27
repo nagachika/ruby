@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で bundled gems のテストの rbs と typeprof のエラーを無視するようにしています。
