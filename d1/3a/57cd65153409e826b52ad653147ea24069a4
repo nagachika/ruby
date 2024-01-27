@@ -1,0 +1,1 @@
+Kernel#exec の引数にマルチバイト文字列を含める時の Encoding を locale Encoding にするために Encoding.find("locale") を使っていたのを Encoding.local_charmap メソッドを利用するようにしています。
