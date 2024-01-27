@@ -1,0 +1,1 @@
+irb の require で feature 名を補完する処理のテストで使う feature 名を rubygems にしていたのを irb に変更しています。なるほど irb のテストなら irb があるのは確実(?)。 というかコミットログによると OpenBSD でのみ(?) rubygems_plugin という名前を補完候補に出してしまってエラーになってたみたいです。
