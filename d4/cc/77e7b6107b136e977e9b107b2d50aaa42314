@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で表示する統計情報に invokebuiltin_too_many_args というのを追加して ruby 実装の組み込みメソッドのコンパイルをあきらめた時? のカウンタを表示するようにしています。 https://github.com/ruby/ruby/pull/9696
