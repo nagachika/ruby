@@ -1,0 +1,1 @@
+YJIT の Integer#>> の最適化実装で JIT をあきらめる条件を修正しています。 https://github.com/ruby/ruby/pull/9684
