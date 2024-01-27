@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 3.4.3 に更新し、テストのエラーを無視したり skip させたりしていたのを戻しています。 https://github.com/ruby/ruby/pull/9702
