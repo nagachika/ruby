@@ -1,0 +1,1 @@
+キーワード引数を Hash から splat するメソッド呼び出しをした時にその Hash が破壊的に変更されうるかどうかを指示する struct rb_callinfo::flags のビットフラグ VM_CALL_KW_SPLAT_MUT の設定が無引数の super を使った時に間違っていたのを修正しているようです。
