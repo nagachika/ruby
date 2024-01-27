@@ -1,0 +1,1 @@
+rb_thread_call_without_gvl() の呼び出しを wrap したマクロ IO_WITHOUT_GVL() や IO_WITHOUT_GVL_INT() を定義して利用するようにリファクタリングしています。
