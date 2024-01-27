@@ -1,0 +1,1 @@
+Encoding の拡張ライブラリの自動 load に関するテストで利用する Encoding を Windows_31J から CESU_8 に変更しています。 Windows_31J は mswin の環境で事前に load されてしまう可能性があるため。
