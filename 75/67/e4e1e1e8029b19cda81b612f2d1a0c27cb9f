@@ -1,0 +1,1 @@
+YJIT でキーワード引数とブロック引数の処理順序を制御するため a950f230788d51e13d16596e37cb77e4cc6e2311 で追加された VM 命令 splatkw の対応を追加しています。 https://github.com/ruby/ruby/pull/9711
