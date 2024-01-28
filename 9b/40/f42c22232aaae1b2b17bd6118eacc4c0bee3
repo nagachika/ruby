@@ -1,0 +1,1 @@
+予約語 __ENCODING__ に対応する AST のノードに NODE_LIT を利用していたのを専用の NODE_ENCODING というタイプを導入しています。
