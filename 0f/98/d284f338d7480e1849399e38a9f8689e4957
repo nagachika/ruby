@@ -1,0 +1,1 @@
+AST の ensure に対応するノードの型 rb_node_ensure_t のメンバーから nd_resq が未使用のため削除しています。
