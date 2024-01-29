@@ -1,0 +1,1 @@
+VM 命令列へのコンパイル時の peephole optimization から expandarray + splatarray の命令の並びの時の splatarray を消す最適化をやめています。 expandarray 命令は実行の結果値スタックのトップに配列を置くとはかぎらないので。どうやら元々あった(潜在的な?)不具合みたいです。
