@@ -1,0 +1,1 @@
+3dde9c1b436e2e03da70306f7e5d08d85c9d3ab0 で漏れていた GitHub Actions の macOS 上の YJIT を有効にした workflow でエラーを無視するための設定を追加しています。
