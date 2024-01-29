@@ -1,0 +1,1 @@
+配列リテラル内に [*a] のように配列を展開する記法を使っていた時の命令列へのコンパイルで concattoarray 命令を利用して中間オブジェクトの確保を抑制する最適化をしています。また peephole optimization で duparray + concattoarray の並びだった時も duparray をただの putobject にして余計な配列オブジェクトの生成を抑制する最適化を追加しています。
