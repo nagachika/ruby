@@ -1,0 +1,1 @@
+bundle gem で生成する Gemfile のデフォルトの required_ruby_version を 2.6.0 から 3.0.0 にまで上げています。
