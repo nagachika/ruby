@@ -1,0 +1,1 @@
+AST 用の構造体 rb_node_resbody_t のメンバー nd_head を nd_next に改名しています。またメモリ上のレイアウトを変更しています。
