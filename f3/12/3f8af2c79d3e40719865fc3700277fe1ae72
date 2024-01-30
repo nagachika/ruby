@@ -1,0 +1,1 @@
+bundler からも rubygems に vendoring されている uri.gem の Gem::URI を利用するようにしています。
