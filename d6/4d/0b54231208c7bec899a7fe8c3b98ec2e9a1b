@@ -1,0 +1,1 @@
+rubygems 内に uri.gem を vendoring するようにして内部ではこの Gem::URI を利用するようにしています。
