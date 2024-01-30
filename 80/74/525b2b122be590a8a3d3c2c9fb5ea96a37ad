@@ -1,0 +1,1 @@
+拡張ライブラリ win32ole でトップレベルに OLEProperty というクラスを直接定義していたのを WIN32OLE::Property と名前空間をネストさせたところに定義するようにしています。内部的なクラスなので古い名前は残さず、win32ole 内での参照のために WIN32OLE::VariantType::OLEProperty という別名を定義しているようです。
