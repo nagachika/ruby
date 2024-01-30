@@ -1,0 +1,1 @@
+拡張ライブラリ win32ole の WIN32OLERuntimeError および WIN32OLEQueryInterfaceError という例外クラスを WIN32OLE::RuntimeError や WIN32OLE::QueryInterfaceError のように名前空間にネストした定数名を使うようにしています。これも古い名前の定数も別名として残しています。
