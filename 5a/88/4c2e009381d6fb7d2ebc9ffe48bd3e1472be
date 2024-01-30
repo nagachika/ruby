@@ -1,0 +1,1 @@
+bundler のテストに rubygems への vendoring した uri を使ってることを確認するテストを追加しています。
