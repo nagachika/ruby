@@ -1,0 +1,1 @@
+rubygems に vendoring されている timeoujt のディレクトリ構造を lib/rubygems/timeout/ から lib/rubygems/vendor/timeout/ 配下に移動しています。
