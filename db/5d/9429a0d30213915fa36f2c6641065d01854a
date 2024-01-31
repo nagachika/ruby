@@ -1,0 +1,1 @@
+b0711b1cf152afad0a480ee2f9bedd142a0d24ac の YJIT 利用時の末尾再帰最適化の修正の追加修正。 JIT_EXEC() マクロから不要になった RESTORE_REGS() を削除しています。
