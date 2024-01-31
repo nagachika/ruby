@@ -1,0 +1,1 @@
+正規表現の先読み/後読みを利用した時に異常終了する可能性があった不具合の修正。 https://github.com/ruby/ruby/pull/9738 [ruby-core:116395] [Bug #20207] [ruby-core:116450] [Bug #20212]
