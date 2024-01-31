@@ -1,0 +1,1 @@
+rubygems で RubyGems.org へログインする時の API の scope の選択で show_dashborad というのを選択すると他の選択肢を出さないようにしています。
