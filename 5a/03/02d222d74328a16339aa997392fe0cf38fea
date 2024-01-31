@@ -1,0 +1,1 @@
+rubygems に vendoring されている resolv のディレクトリ構造を lib/rubygems/resolv/ から lib/rubygems/vendor/resolv/ 配下に移動しています。
