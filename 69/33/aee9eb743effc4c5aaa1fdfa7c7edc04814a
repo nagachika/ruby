@@ -1,0 +1,1 @@
+rubygems に vendoring されている net-protocol のディレクトリ構造を lib/rubygems/ 直下から lib/rubygems/vendor/ の下に移動しています。
