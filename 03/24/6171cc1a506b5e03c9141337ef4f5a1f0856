@@ -1,0 +1,1 @@
+rubygems に vendoring されている molinillo のディレクトリ構造を lib/rubygems/resolver/molinillo/ から lib/rubygems/vendor/molinillo/ 配下に移動しています。
