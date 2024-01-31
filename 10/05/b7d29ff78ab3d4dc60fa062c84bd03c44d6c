@@ -1,0 +1,1 @@
+e0f4c4e410a0e4c6cda67e9000696c8f1f01d8aa で GitHub Actions の YJIT を有効にした時の workflow でエラーを無視するようにしたのを revert しています。
