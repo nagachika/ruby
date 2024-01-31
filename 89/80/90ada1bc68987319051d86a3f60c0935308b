@@ -1,0 +1,1 @@
+rubygems に vendoring されている optparse のディレクトリ構造を lib/rubygems/optparse/ から lib/rubygems/vendor/optparse/ 配下に移動しています。
