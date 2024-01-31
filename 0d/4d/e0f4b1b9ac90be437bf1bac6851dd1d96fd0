@@ -1,0 +1,1 @@
+WASM/WASI 用の coroutine の実装(asyncify 版)でスタックポインタを 16 bytes のアライメントを取るようにしています。
