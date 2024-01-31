@@ -1,0 +1,1 @@
+rubygems に vendoring されている tsort のディレクトリ構造を lib/rubygems/tsort/ から lib/rubygems/vendor/tsort/ 配下に移動しています。
