@@ -1,0 +1,1 @@
+rubygems に vendoring されている net-http のディレクトリ構造を lib/rubygems/net-http/ から lib/rubygems/vendor/net-http/ 配下に移動しています。
