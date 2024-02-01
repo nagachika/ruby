@@ -1,0 +1,1 @@
+NEWS に Array#each が ruby 実装になったことを追記しています。 [ruby-core:116503] [Bug #20227]
