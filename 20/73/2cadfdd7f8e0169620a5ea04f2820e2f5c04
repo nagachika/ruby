@@ -1,0 +1,1 @@
+332e0db675cd35b60ea82acbc0710d9062c0c92a で関数 compile_array() に追加した引数 first_chunk の型を int から bool に変更しています。
