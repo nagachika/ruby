@@ -1,0 +1,1 @@
+よくかりませんが tool/lib/test/unit.rb に --launchable-test-reports というオプションの対応を追加して、JSON フォーマットでテスト結果を書き出すようにしているみたいです。 launchable というサービスで利用するためのものみたいですね。 https://github.com/ruby/ruby/pull/9757
