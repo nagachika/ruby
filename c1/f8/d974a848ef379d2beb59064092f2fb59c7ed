@@ -1,0 +1,1 @@
+YJIT の VM 命令 splatkw のコンパイル時にオペランドが Hash の直接のインスタンスでなくても T_HASH 型であれば対応するようにしているみたいです。 https://github.com/ruby/ruby/pull/9764
