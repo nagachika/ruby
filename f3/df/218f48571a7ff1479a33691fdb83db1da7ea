@@ -1,0 +1,1 @@
+ruby_parser.c に rb_node_const_decl_val() というユーティリティ関数を導入して parse.y から利用するリファクタリング。これにより Universal Parser 用の構造体から rb_ary_join() と rb_ary_reverse() への関数ポインタを渡す依存を消しているようです。しかし ruby_parser.c からは依存しているので、結局 rb_node_const_decl_val() の API を実装したい人には欲しくなるんじゃなかろうか。
