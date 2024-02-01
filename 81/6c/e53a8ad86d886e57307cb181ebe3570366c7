@@ -1,0 +1,1 @@
+7ded31d36dc78c1495b03a45ec1a3235fdd81f1e で Travis-CI での s390x-linux でのビルドをコメントアウトしていたのを revert しています。障害が復旧したようです。
