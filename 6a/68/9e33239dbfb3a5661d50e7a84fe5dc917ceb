@@ -1,0 +1,1 @@
+irb の Encoding に関するテストで TruffleRuby で prism の対応が必要なため skip するようにしています。 https://github.com/ruby/irb/pull/854 https://github.com/ruby/prism/issues/2129
