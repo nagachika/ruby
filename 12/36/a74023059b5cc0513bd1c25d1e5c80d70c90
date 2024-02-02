@@ -1,0 +1,1 @@
+irb で IRB.setup での初期化処理を子 irb では省略する最適化。 https://github.com/ruby/irb/pull/850
