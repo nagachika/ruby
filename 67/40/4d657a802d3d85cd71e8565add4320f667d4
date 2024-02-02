@@ -1,0 +1,1 @@
+拡張ライブラリ socket の abf192eb16ea845ac11743a32bd2f3e2d234488b で常に skip するようにしていた d2ba8ea54a4089959afdeecdd963e3c4ff391748 のテストをやはり Windows (Process.fork がない環境)でのみ skip するように戻しています。
