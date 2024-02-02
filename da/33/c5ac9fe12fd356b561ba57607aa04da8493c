@@ -1,0 +1,1 @@
+d2ba8ea54a4089959afdeecdd963e3c4ff391748 の拡張ライブラリ socket で getaddrinfo(3) の呼び出しのフラグに AI_ADDRCONFIG を立てるようにした変更も revert しています。
