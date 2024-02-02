@@ -1,0 +1,1 @@
+cc9bbbdd80f04fd924be3d6e6302e1a6c57283e2 の続きでまだ jit_prepare_routine_call() という関数名が残ってたところがあったので jit_prepare_non_leaf_call() に変更しています。
