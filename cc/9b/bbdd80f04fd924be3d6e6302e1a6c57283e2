@@ -1,0 +1,1 @@
+YJIT で jit_prepare_routine_call() という関数を jit_prepare_non_leaf_call() と改名してその処理の一部を jit_prepare_call_with_gc() という関数に切り出すリファクタリングと、多くの場合で jit_prepare_routine_call() のかわりに jit_prepare_call_with_gc() を呼んで不要な処理を省略するように変更しています。 https://github.com/ruby/ruby/pull/9775
