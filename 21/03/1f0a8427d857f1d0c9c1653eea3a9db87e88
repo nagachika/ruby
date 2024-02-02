@@ -1,0 +1,1 @@
+09427f51a23724fa8ee04ecb94d306add917d0b0 で追加した YJIT の Float の四則演算メソッドの実装で jit_prepare_non_leaf_call() のかわりに jit_prepare_call_with_gc() を呼ぶように最適化しています。
