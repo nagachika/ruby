@@ -1,0 +1,1 @@
+io_binwrite_string() で io_binwrite_string_internal() が書き込んだバイト数に 0 を返した時に不要に errno に EWOULDBLOCK をセットして IO 待ちにしていたのをすぐにリトライするようにしています。 https://github.com/ruby/ruby/pull/9792 [ruby-core:116534] [Bug #20231]
