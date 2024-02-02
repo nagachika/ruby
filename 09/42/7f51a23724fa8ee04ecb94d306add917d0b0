@@ -1,0 +1,1 @@
+YJIT で Float の四則演算のメソッド +, -, *, / に対して専用のコード生成をするように最適化しています。 https://github.com/ruby/ruby/pull/9774
