@@ -1,0 +1,1 @@
+Symbol#to_s と Symbol#id2name を ruby 実装にして leaf 属性でマークして JIT で最適化されるようにしています。 https://github.com/ruby/ruby/pull/9769
