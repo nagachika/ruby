@@ -1,0 +1,1 @@
+internal/imemo.h の IMEMO_TYPE_P() マクロの定義で引数の展開部分にかっこをつけるように修正しています。
