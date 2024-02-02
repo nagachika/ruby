@@ -1,0 +1,1 @@
+rubygems のテストで webrick の WEBrick::Utils::TimeoutHandler という定数を参照するのに不要に代入をして defined? で存在チェックしていたのをやめています。
