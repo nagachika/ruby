@@ -1,0 +1,1 @@
+Kernel#test メソッドの rdoc 用コメントの引数 cmd の説明のテーブルなどを整形しています。マークアップに markdown を使うように指定を追加しています。 https://github.com/ruby/ruby/pull/9751
