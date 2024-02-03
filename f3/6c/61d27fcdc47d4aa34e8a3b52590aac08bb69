@@ -1,0 +1,1 @@
+irb の履歴保存機能で履歴件数を保持するインスタンス変数が未定義の時に代入されなくなっていたのを修正しています。 https://github.com/ruby/debug/issues/1064 https://github.com/ruby/irb/pull/853
