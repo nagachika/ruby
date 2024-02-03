@@ -1,0 +1,1 @@
+tool/leaked-globals で missing/ 配下の対象とするファイルから除外するパターンの対応を追加しているようです。
