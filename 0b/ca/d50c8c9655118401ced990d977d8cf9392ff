@@ -1,0 +1,1 @@
+rubygems の RubyGems.org へのログイン時のアカウントの識別子の変数を email から identifier に改名しています。メールアドレスに限らずアカウント名の場合もあるので。
