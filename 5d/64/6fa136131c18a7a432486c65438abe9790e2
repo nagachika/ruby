@@ -1,0 +1,1 @@
+aa780a678e98599fdd9011760dabe17f9e26826c で irb で Pathname を利用するようになっていたので require を追加しています。
