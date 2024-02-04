@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#initialize_copy も追加してインスタンス変数の @required_ruby_version、@required_rubygems_version を複製するようにしています。
