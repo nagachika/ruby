@@ -1,0 +1,1 @@
+rubygems の Gem::Requirement#initialize_copy を追加してインスタンス変数 @requirements の内容も複製するようにして意図せず破壊的変更が伝播してしまわないようにしています。
