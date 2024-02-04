@@ -1,0 +1,1 @@
+common.mk の test-precheck ターゲットの依存で encodings の拡張ライブラリが静的リンクされる場合に対応するようにしています。
