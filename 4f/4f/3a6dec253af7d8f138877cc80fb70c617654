@@ -1,0 +1,1 @@
+ObjectSpace の全 slot に対してコールバック関数を呼ぶ objspace_each_objects_try() で ASAN 対応のため __asan_region_is_poisoned() を呼んでいたのを削除しています。 page 内の 1つでも poisoned だとコールバックを skip してしまうので意図した挙動ではないということみたいです。各コールバックでチェックしているのかな。 [ruby-core:116466] [Bug #20220]
