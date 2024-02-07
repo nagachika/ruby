@@ -1,0 +1,1 @@
+M:N Thread を利用している時にスタック領域を ASAN に伝えるために __sanitizer_start_switch_fiber() という関数の呼び出しを coroutine の切り替え前後に呼ぶように追加しています。 [ruby-core:116466] [Bug #20220]
