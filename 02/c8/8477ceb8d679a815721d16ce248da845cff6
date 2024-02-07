@@ -1,0 +1,1 @@
+Wasm 版の configure のためのマクロ tool/m4/ruby_wasm_tools.m4 で objcopy に WASI SDK 用の llvm-objcopy コマンドを使うように OBJCOPY 変数の指定を追加しています。
