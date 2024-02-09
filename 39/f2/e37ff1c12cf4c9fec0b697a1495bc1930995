@@ -1,0 +1,1 @@
+拡張ライブラリ strscan のテストに別の文字列の部分文字列としてバッファを共有している文字列を渡した時のテストを追加しています。 JRuby 版での不具合の修正に対応したテストみたいですね。 https://github.com/ruby/strscan/issues/86 https://github.com/ruby/strscan/pull/87
