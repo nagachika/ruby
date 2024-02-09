@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の gemspec ファイルに spec.metadata["changelog_uri"] のメタデータ設定を追加しています。 https://github.com/ruby/fiddle/pull/138
