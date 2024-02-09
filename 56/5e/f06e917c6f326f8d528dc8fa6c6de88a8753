@@ -1,0 +1,1 @@
+tool/leaked-globals で無視する C の symbol に "__odr_asan_" という prefix ではじまるものを追加しています。 [ruby-core:116473] [Bug #20221]
