@@ -1,0 +1,1 @@
+bundler の vendoring されている pub_grup という gem 内に明示的な require を追加しています。
