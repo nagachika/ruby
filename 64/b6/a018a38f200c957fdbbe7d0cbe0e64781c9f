@@ -1,0 +1,1 @@
+1b7376423d3bf79ba37856eae8f45d59ecc9c170 で拡張ライブラリ openssl のテストの skip を外部ライブラリ OpenSSL のバージョンで判定するようにしていましたが teeny が上がった結果 skip 条件から漏れる環境ができたので条件を緩めています。 https://github.com/ruby/ruby/pull/9824
