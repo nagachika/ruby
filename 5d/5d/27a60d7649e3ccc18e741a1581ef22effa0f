@@ -1,0 +1,1 @@
+GitHub Actions のオリジナルの action の実装で macOS 版で brew を使って外部アプリケーションをインストールする時に readline はもう不要なので削除しています。
