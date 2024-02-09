@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL でのチェックの workflow で ruby 版のチェックのほうをメモリ使用量を大きくしていたのが不要になったようで削除しています。
