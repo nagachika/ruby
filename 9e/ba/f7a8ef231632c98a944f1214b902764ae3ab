@@ -1,0 +1,1 @@
+引き続き GitHub Actions の CodeQL での静的チェックを行う workflow で GitHub の ruby/ruby のリポジトリでのみ実行するようにして fork したリポジトリでは動かないようにしています。
