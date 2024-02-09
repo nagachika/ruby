@@ -1,0 +1,1 @@
+bundler の deprecated の警告出力に Kernel#warn を直接呼んでたのを専用のメソッド Bundler::SharedHelpers.major_deprecation を利用するようにしています。
