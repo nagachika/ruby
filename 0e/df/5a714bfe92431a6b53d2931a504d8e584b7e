@@ -1,0 +1,1 @@
+rubygems の Gem::Dependency#to_spec で他に選択肢がなかった場合に prerelease バージョンを返すようにしています。
