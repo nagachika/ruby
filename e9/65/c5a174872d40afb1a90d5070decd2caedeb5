@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL での静的チェックを行う workflow で C(cpp) と ruby のチェックを行うジョブを分離して cpp のほうは Ubuntu を使うように戻しています。
