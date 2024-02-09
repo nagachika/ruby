@@ -1,0 +1,1 @@
+GitHub Actions の prism を使う workflow で make test-all の実行ジョブも追加しています。またこのジョブでスキップするためのテストを指定するための test/.excludes-prism/ というディレクトリを追加して除外ファイル指定を追加しています。
