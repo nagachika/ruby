@@ -1,0 +1,1 @@
+YJIT の --yjit-trace-exits オプションに引数を渡して特定の exit のカウンタを指定できるようにしているようです。 https://github.com/ruby/ruby/pull/9890
