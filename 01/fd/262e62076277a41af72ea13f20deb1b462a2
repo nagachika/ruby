@@ -1,0 +1,1 @@
+sym_check_asciionly() という関数に引数 fake_str を追加して渡した文字列オブジェクトが fake string だった時に coderange のチェックの例外メッセージの生成前に文字列オブジェクトを新規生成するようにしています。 GC が発生した時に不正な cfp の mark のため異常終了が発生する可能性があったようです。 [ruby-core:116622] [Bug #20245]
