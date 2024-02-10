@@ -1,0 +1,1 @@
+YJIT の Rust 実装で VM 命令のコンパイル時に一部 jit_prepare_non_leaf_call() ではなく jit_prepare_call_with_gc() を呼ぶようにしています。不要な処理を削るためみたいです。 https://github.com/ruby/ruby/pull/9874
