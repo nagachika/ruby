@@ -1,0 +1,1 @@
+GitHub Actions の workflows で paths-ignore の指定を削除しています。無効なところに書かれていたみたいです。
