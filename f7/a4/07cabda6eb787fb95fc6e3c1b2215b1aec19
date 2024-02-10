@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse で OptionParser#on で省略を許さない require_exact というオプションを指定した時に --no-xxx のように否定形のオプションも使えるように修正しています。
