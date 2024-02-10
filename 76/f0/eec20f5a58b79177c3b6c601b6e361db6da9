@@ -1,0 +1,1 @@
+benchmark/realpath.yml というベンチマークスクリプトで一時ファイルが残るのを防ぐため teardonw でファイル削除するようにしています。
