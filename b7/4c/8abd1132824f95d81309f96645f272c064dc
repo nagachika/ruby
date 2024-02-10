@@ -1,0 +1,1 @@
+YJIT に Hash#empty? メソッドの最適化実装を追加しています。 https://github.com/ruby/ruby/pull/9875
