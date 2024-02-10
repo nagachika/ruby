@@ -1,0 +1,1 @@
+YJIT の Rust 実装で整数型を変更して不要なキャストを削除しているようです。 https://github.com/ruby/ruby/pull/9893
