@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse でコールバックの Proc に lambda 型の Proc オブジェクトが渡された時に対応するようにしているみたいです。 lambda の Proc は必須の引数を渡さずに呼ぶと普通のメソッドのように ArgumentError を発生させてしまうので wrapper メソッドを作って呼ぶ Proc の Proc#lambda? が真だったら引数の数を調節して呼ぶようにしているようです。 大変そう。
