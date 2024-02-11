@@ -1,0 +1,1 @@
+parse.y の rb_parser_coderange_scan() で rb_parser_search_nonascii() の戻り値をチェックするために参照する変数名を間違えていた不具合を修正。
