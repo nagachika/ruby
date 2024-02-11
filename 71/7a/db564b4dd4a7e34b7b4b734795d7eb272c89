@@ -1,0 +1,1 @@
+case 文の分岐の最適化命令 opt_case_dispatch 命令の YJIT での最適化実装で型の候補が多すぎる時にすぐにあきらめないようにしているようです。また最終的に chain_depth が上限に達して諦める時のための --yjit-stats で表示するカウンタを追加しています。 https://github.com/ruby/ruby/pull/9894
