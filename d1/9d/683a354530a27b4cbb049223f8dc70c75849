@@ -1,0 +1,1 @@
+rb_obj_setup() という関数で引数の obj の struct RBasic::flags のビットフラグに設定する時に type の指定にあっても無視するビットフラグに RUBY_FL_SEEN_OBJ_ID というのを追加しています。 Proc オブジェクトの複製をした時に object_id の採番の状態が複製されてしまって異常終了になる可能性があったようです。 [ruby-core:116643] [Bug #20250]
