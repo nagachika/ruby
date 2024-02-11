@@ -1,0 +1,1 @@
+vm_eval.c の eval_make_iseq() という static 関数で未使用だった第3引数を削除しています。
