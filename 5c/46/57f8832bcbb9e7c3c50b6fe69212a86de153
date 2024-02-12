@@ -1,0 +1,1 @@
+429eeb09f25bd1bd3f64f70c6ef409bedd3c6c1f で導入した irb の組み込みコマンド exit! の実装を変更してシンプルにしています。またテストも専用のファイルに分離したりしています。 https://github.com/ruby/irb/pull/867
