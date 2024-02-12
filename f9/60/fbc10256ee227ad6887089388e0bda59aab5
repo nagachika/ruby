@@ -1,0 +1,1 @@
+f7a407cabda6eb787fb95fc6e3c1b2215b1aec19 で標準添付ライブラリ optparse の require_exact というオプションでロングオプション名の部分一致を受付けないように指定した時の --no-xxx のような否定形オプションの対応の変更で --help でヘルプメッセージを出力する時の表示が変わってしまっていたとのことで再修正しています。 https://github.com/ruby/optparse/pull/60 [ruby-core:116655] [Bug #20252]
