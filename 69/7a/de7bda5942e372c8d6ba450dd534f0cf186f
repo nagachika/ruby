@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md に ASAN を有効にしてビルドする方法について追記/更新しています。 [ruby-core:116634] [Bug #20248]
