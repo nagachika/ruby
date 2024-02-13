@@ -1,0 +1,1 @@
+90a746d246d51d105d7f3e0d1c2ddf7994dd2d4b の再修正で common.mk の test-spec-precheck の依存関係に追加した extract-gems を prepare-gems に変更しています。
