@@ -1,0 +1,1 @@
+1d467f2255112f9e712d5d9aa6f2cd0a102fb56e で導入された ASAN 有効化時のオプションを伝える関数 __asan_default_options() の定義の C のスタイルを修正しています。
