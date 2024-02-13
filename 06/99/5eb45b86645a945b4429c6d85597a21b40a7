@@ -1,0 +1,1 @@
+429eeb09f25bd1bd3f64f70c6ef409bedd3c6c1f で導入された irb の組み込みコマンド exit! の実装で警告抑制のために main.exit! の上書き定義をしておく? ようにしています。 https://github.com/ruby/irb/pull/868
