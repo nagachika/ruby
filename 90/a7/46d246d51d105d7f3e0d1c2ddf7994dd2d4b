@@ -1,0 +1,1 @@
+common.mk の test-spec-precheck ターゲットの依存関係に extract-gems を追加しています。 rubyspec の実行に bundled gems が必要になったからでしょうか。
