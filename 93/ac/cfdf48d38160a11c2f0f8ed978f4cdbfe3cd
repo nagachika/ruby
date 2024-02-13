@@ -1,0 +1,1 @@
+9b40f42c22232aaae1b2b17bd6118eacc4c0bee3 で予約語 __ENCODING__ に対応する AST の node の型に NODE_ENCODING を導入した時の対応の修正で --dump=parsetree で AST を dump する時の処理で rb_bug() で異常終了するようになっていたのを修正しています。
