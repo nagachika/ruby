@@ -1,0 +1,1 @@
+42130a64f02294dc8025af3a51bda518c67ab33d の Fiber 用 coroutine の実装の copy というのを pthread 版に名前を変更したのに Windows 版の win32/Makefile.sub で追随していなかったのを修正しています。
