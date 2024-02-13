@@ -1,0 +1,1 @@
+win32/Makefile.sub で生成する config.h の SIZEOF_XXX のマクロ定義で判定に使う変数を $(ARCH) から $(TARGET_OS) に変更しています。
