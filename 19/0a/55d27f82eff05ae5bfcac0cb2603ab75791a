@@ -1,0 +1,1 @@
+新規オブジェクト作成時の関数 newobj_alloc() の引数で rb_ractor_t を受け取っていたのを Ractor 毎のオブジェクトの slot のキャッシュの構造体 rb_ractor_newobj_cache_t を直接渡すようにリファクタリング? しています。
