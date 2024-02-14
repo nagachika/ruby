@@ -1,0 +1,1 @@
+complex.c で素の assert() を利用しているところを RUBY_ASSERT() マクロを利用するようにしています。
