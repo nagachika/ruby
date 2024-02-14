@@ -1,0 +1,1 @@
+clone や dup の実装を Proc, Method, UnboundMethod などでは独自に実装していたのを Object の実装と似たようにするため proc.c の専用の CLONESETUP() という関数の利用をやめて rb_obj_clone_setup()/rb_obj_dup_setup() を利用するように変更しています。とはいえ独自のメソッドの定義自体はしています。一貫性のためとのことですが、互換性の問題がないか心配ですね。 [ruby-core:116643] [Bug #20250] [ruby-core:116656] [Bug #20253]
