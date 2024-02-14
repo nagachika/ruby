@@ -1,0 +1,1 @@
+yjit.rb で不要な Enumerable のメソッド呼び出しを減らす最適化と rdoc 用の :nodoc: タグコメントの追加。 https://github.com/ruby/ruby/pull/9912
