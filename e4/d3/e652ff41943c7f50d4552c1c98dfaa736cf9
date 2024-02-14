@@ -1,0 +1,1 @@
+YJIT で使うために vm_method.c の check_overloaded_cme() という関数名を rb_check_overloaded_cme() と改名して export し、method entry の取得時に利用するようにして引数の違いにより最適化できる時の対応を追加しています。 https://github.com/ruby/ruby/pull/9913
