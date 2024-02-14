@@ -1,0 +1,1 @@
+parse.y で rb_str_hash() を利用していたところを rb_parser_str_hash() という関数を追加してこれを呼ぶようにして CRuby 本体への依存を減らすようにしています。
