@@ -1,0 +1,1 @@
+yjit.rb の rdoc 用のタグコメント :stopdoc: を class 文から改行したところに書くようにしています。 :nodoc: と違って :stopdoc: は文単位には使えない模様。 https://github.com/ruby/ruby/pull/9916
