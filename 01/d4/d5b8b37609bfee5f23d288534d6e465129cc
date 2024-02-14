@@ -1,0 +1,1 @@
+GitHub Actions の MinGW  版の workflow で無視すべきファイルのパターンから重複していたものを削っています。
