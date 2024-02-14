@@ -1,0 +1,1 @@
+irb の組み込みコマンド show_source で RubyVM.keep_script_lines が使える時はこれを利用して ASN のノードに保存されている行の内容を利用するようにするほか重複した処理を避ける最適化などが行なわれています。 https://github.com/ruby/irb/pull/862
