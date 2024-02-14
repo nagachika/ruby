@@ -1,0 +1,1 @@
+Windows 版の GitHub Actions の workflow で make test-spec の実行前に make install するようにしています。
