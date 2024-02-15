@@ -1,0 +1,1 @@
+irb の show_source などの組み込みコマンドでソースファイルを探索する処理のリファクタリング。 https://github.com/ruby/irb/pull/870
