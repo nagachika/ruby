@@ -1,0 +1,1 @@
+c35fea8509551aefe257986c937ea7147f436bdf で追加した YJIT の String#byteslice の専用の実装で戻り値の型が String とは限らないので型情報の修正をしています。
