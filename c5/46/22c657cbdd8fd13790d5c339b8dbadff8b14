@@ -1,0 +1,1 @@
+thread_pthread_mn.c の警告抑制のための明示的なキャスト追加。
