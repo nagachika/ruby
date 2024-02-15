@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で ビルド前に make extract-gems を実行するようにしています。
