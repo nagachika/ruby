@@ -1,0 +1,1 @@
+YJIT で String#byteslice に引数が 2つ渡された時の専用の実装を追加する最適化。 https://github.com/ruby/ruby/pull/9939
