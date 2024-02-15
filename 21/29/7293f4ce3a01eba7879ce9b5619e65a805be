@@ -1,0 +1,1 @@
+Hash の rdoc 用コメントの Hash をバックスラッシュによるエスケープでリンク化抑制していたのを +Hash+ とマークアップする方法に変更しています。 https://github.com/ruby/ruby/pull/9944
