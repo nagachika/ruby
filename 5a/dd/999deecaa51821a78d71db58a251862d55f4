@@ -1,0 +1,1 @@
+gc.c の gc_mark_children() 内に T_SYMBOL 型のマーク処理で fstr メンバーはわざと mark していないことをコメントとして追記しています。
