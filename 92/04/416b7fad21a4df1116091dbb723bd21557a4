@@ -1,0 +1,1 @@
+d4a6c6521aa1a5208939a2cd981a13ca01a07d2a で GitHub Actions の Windows 版 workflow で make test-spec 前に make install してたのを revert しています。効果なかったのかな。
