@@ -1,0 +1,1 @@
+irb の show_source で定数を指定した時の不具合修正。 https://github.com/ruby/irb/pull/869
