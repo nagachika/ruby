@@ -1,0 +1,1 @@
+common.mk に test-bundled-gems-spec というターゲットを追加して rubyspec のうち bundled gems についてのテストを実行することができるようにしています。
