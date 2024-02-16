@@ -1,0 +1,1 @@
+spec/ruby の bundled gems になった標準添付ライブラリのテストを ruby の version による guard で実行除外していたのをやめています。これも 76d322b5d2566162cdcb926a80be8f596a50f107 で実行対象から外したためでしょう。
