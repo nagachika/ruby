@@ -1,0 +1,1 @@
+rdoc 用コメント全体でクラス名のリンク抑制のため +xxx+ でマークアップするようにしています。 https://github.com/ruby/ruby/pull/9955
