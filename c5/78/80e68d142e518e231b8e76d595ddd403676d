@@ -1,0 +1,1 @@
+parse.y の ruby_show_error_line() という関数を static 関数から export する関数にして Encoding の設定時のエラーの例外に位置情報を含めるようにしています。
