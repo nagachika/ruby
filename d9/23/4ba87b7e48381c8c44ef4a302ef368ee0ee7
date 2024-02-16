@@ -1,0 +1,1 @@
+おそらく 25d74b9527cd525042ad0b612b794fa331d3a318 の例外メッセージの変更の影響で bundled gems のテストで失敗するものがあるので GitHub Actions でエラーを無視する bundled gems の指定に minitest, test-unit, debug, bigdecimal, drb を追加しています。
