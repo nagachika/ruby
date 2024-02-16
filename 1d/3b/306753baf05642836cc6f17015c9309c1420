@@ -1,0 +1,1 @@
+rb_class_instance_allocate_internal() と rb_class_allocate_instance() という関数の定義を gc.c から object.c に移動しています。
