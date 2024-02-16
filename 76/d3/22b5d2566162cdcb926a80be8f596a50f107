@@ -1,0 +1,1 @@
+spec/default.mspec で spec/ruby のテストのうち gems/bundled_gems に記述されている bundled gems のライブラリについてのテストは make test-spec で実行除外するようにしています。
