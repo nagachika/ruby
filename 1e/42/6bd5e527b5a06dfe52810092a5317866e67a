@@ -1,0 +1,1 @@
+make bundled-gems-spec の実行対象から net-ftp は外しています。
