@@ -1,0 +1,1 @@
+YJIT 用のコマンドラインオプション --yjit-perf=codegen を追加してコンパイル処理自体のプロファイルを取れるようにしているようです。 https://github.com/ruby/ruby/pull/9957
