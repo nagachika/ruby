@@ -1,0 +1,1 @@
+gc.c の cc_table_free() という関数から不要な引数 alive を削除しています。
