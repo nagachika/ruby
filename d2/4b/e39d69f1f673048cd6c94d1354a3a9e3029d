@@ -1,0 +1,1 @@
+spec/ruby のテスト実行中のリソースの leak check を制御する環境変数 CHECK_LEAKS に追加して CHECK_CONSTANT_LEAKS という環境変数で定数の leak check のみ独立して有効にできるようにしています。 https://github.com/ruby/ruby/pull/9548
