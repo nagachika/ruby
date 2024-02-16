@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Context.sp_opnd() という関数の引数の型を変更して呼び元での不要なキャストを減らすようにしています。 https://github.com/ruby/ruby/pull/9968
