@@ -1,0 +1,1 @@
+weakmap.c に #include "ruby/st.h" が 2行重複して書かれてたので1つ消しています。
