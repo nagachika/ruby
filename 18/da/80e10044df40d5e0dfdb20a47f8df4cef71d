@@ -1,0 +1,1 @@
+rubyspec の net-ftp のテストで新しい ruby で失敗するものがあったので ruby_version_is で 3.0 以前でのみ実行するようにしています。
