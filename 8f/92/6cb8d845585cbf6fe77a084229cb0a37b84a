@@ -1,0 +1,1 @@
+common.mk の test-spec-precheck の依存関係から prepare-gems を削除しています。 76d322b5d2566162cdcb926a80be8f596a50f107 で make test-spec で bundled gems のテストは実行しなくなったため。
