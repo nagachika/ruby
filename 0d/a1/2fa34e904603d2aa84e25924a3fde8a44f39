@@ -1,0 +1,1 @@
+common.mk の make test-bundled-gems-prepare でインストールする gem のリストに singleton を追加しています。 prime.gem が依存しているとのこと。
