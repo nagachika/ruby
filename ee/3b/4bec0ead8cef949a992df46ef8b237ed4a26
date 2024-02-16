@@ -1,0 +1,1 @@
+YJIT で Kernel#send メソッドの JIT コンパイル可能かどうかのチェックを変更しています。コミットログによると dynamic synboml をメソッド名の指定に使った時にコンパイルできるようにするみたいです。 https://github.com/ruby/ruby/pull/9956
