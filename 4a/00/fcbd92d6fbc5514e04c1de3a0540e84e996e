@@ -1,0 +1,1 @@
+spec/ruby の bundled gems の net-xxx のテストのディレクトリ構成を spec/ruby/library/net/xxx/ の配下にしていたのを spec/ruby/library/net-xxx/ の配下になるように変更しています。
