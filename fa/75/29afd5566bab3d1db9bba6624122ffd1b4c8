@@ -1,0 +1,1 @@
+spec/ruby のテストのうち bigdecimal によって組み込みクラスの Integer や Rational などのメソッドが拡張される部分のテストをそれらのクラスの spec ではなくて spec/ruby/library/bigdecimal/ の配下に移動して bundled gems のテストの一部として扱われるようにしています。
