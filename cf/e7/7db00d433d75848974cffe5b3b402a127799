@@ -1,0 +1,1 @@
+YJIT で VM 命令の setinstancevariable のコンパイル時の関数呼び出しのためのレジスタ退避を必要な時だけに限定する最適化。
