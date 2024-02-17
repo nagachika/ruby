@@ -1,0 +1,1 @@
+spec/bundler/support/builders.rb で Dir.mkdir でディレクトリ作成するのをディレクトリが存在しない時だけにしています。既に存在しているとエラーになるので。
