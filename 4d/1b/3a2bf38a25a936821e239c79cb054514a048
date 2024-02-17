@@ -1,0 +1,1 @@
+string.c の STR_SET_EMBED() マクロで struct RBasic::flags からクリアするビットフラグに STR_SHARED を追加しています。
