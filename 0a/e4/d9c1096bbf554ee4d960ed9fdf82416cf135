@@ -1,0 +1,1 @@
+GitHub Actions の annocheck によるセキュリティチェックの実行をいろんなコンパイラオプションを試す workflow でも実行していたのをやめて、逆に annocheck 用の workflow で make test,  make test-tool を実行していたのをやめています。 https://github.com/ruby/ruby/pull/9990
