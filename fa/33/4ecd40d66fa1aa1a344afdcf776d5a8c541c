@@ -1,0 +1,1 @@
+bundler の Bundler::Dsl#eval_gemfile で instance_eval する時にファイル名の指定として渡す Gemfile のファイルパスをフルパスに変更しています。
