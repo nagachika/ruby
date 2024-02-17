@@ -1,0 +1,1 @@
+spec/bundled_gems.mspec で make test-bundled-gems-spec で net-ftp のテストを除外してたのを戻しています。
