@@ -1,0 +1,1 @@
+tool/rbinstall.rb で参照する .gemspecfile の優先順位をダウンロードして展開した gem パッケージの内容のほうを先にみるようにしています。
