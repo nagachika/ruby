@@ -1,0 +1,1 @@
+common.mk の make test-bundled-gems-prepare でインストールする gem に ipaddr, forwardable, singleton, ruby2_keywords などを追加していたのを消しています。
