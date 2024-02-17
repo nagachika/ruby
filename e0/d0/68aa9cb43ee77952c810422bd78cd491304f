@@ -1,0 +1,1 @@
+さらにコマンドラインオプションを処理する process_options() から特殊変数を操作する処理を process_options_global_setup() という関数に切り出すリファクタリング。
