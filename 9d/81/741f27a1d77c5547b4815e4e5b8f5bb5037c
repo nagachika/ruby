@@ -1,0 +1,1 @@
+YJIT の VM 命令 setinstancevariable のコンパイル時に値スタックからオペランドを pop するのを関数末尾に統合しています。
