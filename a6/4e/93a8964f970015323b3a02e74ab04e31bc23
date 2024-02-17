@@ -1,0 +1,1 @@
+ruby.c の prism 用の関数で rb_funcall() でメソッド呼び出しする際にメソッド名を rb_intern() で ID 化していたのを rb_intern_const() に修正しています。
