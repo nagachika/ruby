@@ -1,0 +1,1 @@
+Travis-CI の設定で make test-spec の実行に tool/travis_wait.sh を wrapper として使いタイムアウトに対処するようにしています。
