@@ -1,0 +1,1 @@
+rb_ast_t からの参照を GC.compact で移動できるように rb_ast_update_references() で参照の更新に対応しています。
