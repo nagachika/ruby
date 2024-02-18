@@ -1,0 +1,1 @@
+gc.c の rb_iseq_mark_and_move() の prototype 宣言の引数名の typo 修正。
