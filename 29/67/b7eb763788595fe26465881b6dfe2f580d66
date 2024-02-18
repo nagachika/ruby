@@ -1,0 +1,1 @@
+compile.c の iseq_insert_nop_between_end_and_cont() に例外処理用の一時配列の変数を RB_GC_GUARD() で保護して mark 漏れしないようにしています。
