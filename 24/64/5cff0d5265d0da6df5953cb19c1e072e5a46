@@ -1,0 +1,1 @@
+gc.c の push_mark_stack() で不要な変数代入を削除しています。
