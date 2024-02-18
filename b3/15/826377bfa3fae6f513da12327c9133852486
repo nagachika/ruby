@@ -1,0 +1,1 @@
+irb の debug.gem との連係でなにも入力して改行した時に前のコマンドを繰り返す挙動を実装しているようです。 https://github.com/ruby/irb/pull/856
