@@ -1,0 +1,1 @@
+tool/mkrunnable.rb からファイル操作に関するモジュールやメソッドの定義を tool/lib/path.rb という別ファイルの Path モジュールとして切り出しています。
