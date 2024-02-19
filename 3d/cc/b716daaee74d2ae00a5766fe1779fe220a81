@@ -1,0 +1,1 @@
+ブロックを受け取る組み込みメソッドで ruby 実装になっているもののうち block_given? を使っているものは defined?(yield) を使うようにしています。また Enumerator を返すメソッドでは to_enum メソッドを使うかわりに Primitive.cexpr! で C の実装の SIZED_ENUMERATOR() マクロを利用するように変更しています。メソッド呼び出しはメソッドが再定義されている可能性があるためとのこと。なるほど。
