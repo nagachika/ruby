@@ -1,0 +1,1 @@
+87c4c6c0823b3eabe34c42860388e3cbdd634cc3 の続きで tool/rbinstall.rb で pkg-config 用のファイルへの symbolic link を従来の位置に作るようにしているようです。
