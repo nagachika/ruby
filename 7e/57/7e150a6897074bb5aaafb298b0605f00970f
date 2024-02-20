@@ -1,0 +1,1 @@
+irb の debug 統合でバックトレースのメソッド名にクラス名も含まれるようになったのに対応する修正。 https://github.com/ruby/irb/pull/876
