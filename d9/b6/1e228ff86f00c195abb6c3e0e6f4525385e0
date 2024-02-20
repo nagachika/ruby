@@ -1,0 +1,1 @@
+irb のテストに fcc55dc2261b4c61da711c10a5476d05d4391eca で SyntaxError を発生させるようにした不正なバイト列の Symbol を parse した時のテストを一時的に skip しています。
