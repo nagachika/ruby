@@ -1,0 +1,1 @@
+bundler のテストでディレクトリ作成のために存在チェックしたうえで Dir.mkdir してたのを FileUtils.mkdir_p を利用するように変更しています。
