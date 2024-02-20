@@ -1,0 +1,1 @@
+gems/bundled_gems で minitest, test-unit, bigdecimal, drb にテストに使う commit hash の指定を追加しています。 https://github.com/ruby/drb/pull/25 https://github.com/minitest/minitest/pull/987 https://github.com/test-unit/test-unit/pull/237 https://github.com/ruby/bigdecimal/pull/286
