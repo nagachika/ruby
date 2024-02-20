@@ -1,0 +1,1 @@
+irb のテストで明示的に require "rubygems" するのを test/irb/helper.rb に集約しています。
