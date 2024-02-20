@@ -1,0 +1,1 @@
+fcc55dc2261b4c61da711c10a5476d05d4391eca で parse.y から使うために導入した rb_str_valid_encoding_p() はやっぱり削除して rb_parser_enc_str_coderange() を使うように変更しています。これも parse.y からの依存を減らすためですね。 [ruby-core:116838] [Bug #20280]
