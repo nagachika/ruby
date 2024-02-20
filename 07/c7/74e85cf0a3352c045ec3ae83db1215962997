@@ -1,0 +1,1 @@
+irb の組み込みコマンド help に引数を追加して指定されたコマンドのヘルプを表示するようにしています。 https://github.com/ruby/irb/pull/877
