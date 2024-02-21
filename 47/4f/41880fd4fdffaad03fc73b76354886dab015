@@ -1,0 +1,1 @@
+parse.y に未使用関数の警告除去のため UNIVERSAL_PARSER マクロでの preprocessor 分岐を追加しています。
