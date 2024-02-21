@@ -1,0 +1,1 @@
+rubygems のテストに Gem.configuration.install_extension_in_lib の設定ファイルからのセットについてのテストを追加しています。
