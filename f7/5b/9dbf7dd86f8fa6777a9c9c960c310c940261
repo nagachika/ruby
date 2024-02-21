@@ -1,0 +1,1 @@
+94dd4dc3b2da1828b71bdf716918d2b789486651 で削除した Gem.install_extension_in_lib メソッドを互換性のために復活させています。
