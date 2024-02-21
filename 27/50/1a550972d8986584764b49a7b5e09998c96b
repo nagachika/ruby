@@ -1,0 +1,1 @@
+rubygems のテストで Gem.configuration.install_extension_in_lib を変更する場合に後で元の設定に戻すようにしています。
