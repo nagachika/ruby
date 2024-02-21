@@ -1,0 +1,1 @@
+parse.y に 20dbc7a5f4098ec7612192c2b65bdc970eab6055 で skip したテストのための workaround を入れています。 https://github.com/ruby/ruby/pull/9923
