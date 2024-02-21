@@ -1,0 +1,1 @@
+94dd4dc3b2da1828b71bdf716918d2b789486651 とは逆に rubygems の設定 Gem.configuration.install_extension_in_lib のデフォルト値を true に変更しています。あれ。
