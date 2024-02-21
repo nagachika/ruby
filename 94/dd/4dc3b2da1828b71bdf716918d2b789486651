@@ -1,0 +1,1 @@
+83148f83420a66ceaacb1f24bfcdc51516f5e0d7 で導入した rubygems の設定の install_extension_in_lib のデフォルト値を false にしています。望ましくない挙動をデフォルトで off にしたいということみたいです。
