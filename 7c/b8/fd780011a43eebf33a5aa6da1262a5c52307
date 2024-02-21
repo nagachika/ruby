@@ -1,0 +1,1 @@
+parse.y から ripper 向けの ripper_validate_object() という関数の定義を ext/ripper/ripper_init.c.tmpl に移動しています。
