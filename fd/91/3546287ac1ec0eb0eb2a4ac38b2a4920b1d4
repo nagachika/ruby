@@ -1,0 +1,1 @@
+template/exts.mk.tmpl に EXTOBJS に複数のエントリがあった時の処理に理由をコメントとして追記しています。
