@@ -1,0 +1,1 @@
+prism を parser として使うテストで Encoding.locale が UTF-8 じゃない時に通らないものをチェックして実行しないようにしています。
