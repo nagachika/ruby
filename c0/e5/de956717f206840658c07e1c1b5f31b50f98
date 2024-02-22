@@ -1,0 +1,1 @@
+tool/missing-baseruby.bat で BASERUBY として要求する最低バージョンのメッセージを 2.7.0 から 3.0.0 に更新しています。
