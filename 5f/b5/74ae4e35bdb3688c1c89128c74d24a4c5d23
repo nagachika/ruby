@@ -1,0 +1,1 @@
+parse.y の Hash リテラルの重複したキーの警告のための処理で NODE_LIT ノードを考慮する必要がなくなったそうなので実装をシンプルに作りなおしています。 NODE_LIT はまだあるけど magic comment の shareable_constant_value でだけ使われるとのこと。
