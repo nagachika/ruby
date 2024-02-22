@@ -1,0 +1,1 @@
+TracePoint の Thread が終了する時のイベント :thread_end の発火が例外で終了した時に行なわれていなかったのを修正しています。 https://github.com/ruby/ruby/pull/10039 [ruby-core:116890] [Bug #20286]
