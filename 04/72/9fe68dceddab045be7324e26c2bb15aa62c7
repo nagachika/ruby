@@ -1,0 +1,1 @@
+78d9fe69479d32214a52ad7291c3973f1b6b7f6f の追加修正? で non-blocking Fiber 用の scheduler のセットをする rb_fiber_scheduler_set() で既存の scheduler を終了させる処理中の例外を捕捉する rb_ensure() を追加しています。 https://github.com/ruby/ruby/pull/10042 [ruby-core:116890] [Bug #20286]
