@@ -1,0 +1,1 @@
+rb_method_entry_t および T_IMEMO 型オブジェクトの GC の mark 処理で GC.compact による参照の更新対応の実装を rb_gc_mark_and_move() という関数を使いまわすようにしているそうです。処理の共通かな?
