@@ -1,0 +1,1 @@
+テスト用の tool/lib/test/unit の Test::Unit::TestCase の __name__ の alias として method_name というメソッドを生やしています。 test-unit.gem との互換性のためとのこと。
