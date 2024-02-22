@@ -1,0 +1,1 @@
+c8fb4f308bc24c75c2713129a0972ffcd8742b3f の再修正で Hash の値が nil のものを消すのに dup+delete_if を使ってたのを Hash#compact を使うように変更しています。Hash#compact ってキーじゃなくて値のほうが nil の要素を消すのか。
