@@ -1,0 +1,1 @@
+M:N Threads が有効な時に native thread を現在の Thread で専有するための? C API rb_thread_lock_native_thread() を追加しています。 https://github.com/ruby/ruby/pull/10031
