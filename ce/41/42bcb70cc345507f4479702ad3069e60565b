@@ -1,0 +1,1 @@
+YJIT の VM 命令 concatstrings の実装で rb_str_concat_literals() を呼ぶために leaf 用の準備をしていたけど leaf ではなかったので jit_prepare_call_with_gc() のほうを呼ぶほうにしています。 https://github.com/ruby/ruby/pull/10035
