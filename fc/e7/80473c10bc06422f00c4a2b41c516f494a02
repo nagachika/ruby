@@ -1,0 +1,1 @@
+doc/command_line/field_processing.md というドキュメントファイルを追加しています。コマンドラインオプションのうち行指向フィルタとして挙動する特別なやつらの説明みたいですね。 https://github.com/ruby/ruby/pull/10008
