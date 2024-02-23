@@ -1,0 +1,1 @@
+GitHub Actions の workflow でテストを skip させるための TESTS 変数の加工の処理を別の step として切り出しています。
