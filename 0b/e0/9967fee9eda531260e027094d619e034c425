@@ -1,0 +1,1 @@
+YJIT の String#byteslice の実装でスタックから値を取り出すタイミングを jit_prepare_call_with_gc() の後に修正しています。 https://github.com/ruby/ruby/pull/10060
