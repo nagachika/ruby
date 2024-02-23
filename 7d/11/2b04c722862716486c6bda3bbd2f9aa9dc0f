@@ -1,0 +1,1 @@
+parse.y の Hash リテラルのキーの重複チェックのための st_table の hash 関数 literal_hash() で node のタイプが NODE_ENCODING の時の戻り値に VALUE の値を使うのではなく rb_encoding のポインタそのままを使うようにしています。
