@@ -1,0 +1,1 @@
+SAVE_ROOT_JMPBUF() というマクロはなにも機能しなくなっていたので削除して引数をそのまま展開して書くようにしています。 https://github.com/ruby/ruby/pull/10066
