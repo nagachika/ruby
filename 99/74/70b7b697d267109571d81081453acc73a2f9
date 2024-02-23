@@ -1,0 +1,1 @@
+5dcc7a03267216feaa587017ef5d6d075b62f75b の追加変更で rubygems の Gem::SafeYAML の aliases 引数の設定を変更するメソッドしか追加してなかったので現在値をチェックする Gem::SafeYAML.aliases_enabled? を追加しています。
