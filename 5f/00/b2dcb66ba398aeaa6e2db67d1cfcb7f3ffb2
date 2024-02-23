@@ -1,0 +1,1 @@
+VM_CHECK_MODE が指定されているデバッグ用のビルドで vm_check_canary() というマクロで表示する VM の情報の VM 命令の位置情報の不具合修正。 https://github.com/ruby/ruby/pull/10062
