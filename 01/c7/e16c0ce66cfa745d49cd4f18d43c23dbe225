@@ -1,0 +1,1 @@
+miniruby のビルド時に dmyext.c を利用しないようにして miniinit.c 内に Init_ext() 関数を定義するようにしています。また dmyenc.c の先頭に追加したコメントに miniruby、static link しているかどうかでの説明を分けてより詳しく書いています。
