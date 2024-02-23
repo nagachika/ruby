@@ -1,0 +1,1 @@
+YJIT の C の関数呼び出し時の退避処理などのリファクタリング? https://github.com/ruby/ruby/pull/10033
