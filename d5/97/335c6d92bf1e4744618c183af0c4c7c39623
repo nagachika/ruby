@@ -1,0 +1,1 @@
+eval.c の rb_ec_exec_node() で 6a0b05f413931cf24c149c29cc317d2b9c623885 の SAVE_ROOT_JMPBUF() の削除で未使用になっていた変数の宣言を削除しています。
