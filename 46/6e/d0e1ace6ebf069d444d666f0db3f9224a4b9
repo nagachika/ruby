@@ -1,0 +1,1 @@
+rubygems の独自の YAML 実装 Gem::SafeYAML の 5dcc7a03267216feaa587017ef5d6d075b62f75b で aliases 引数を設定可能にした変更に対応するテストを追加しています。
