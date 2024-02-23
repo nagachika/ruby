@@ -1,0 +1,1 @@
+拡張ライブラリ zliv の Zlib::GzipFile#eof? でたまたまバッファの終端とファイル全体の終端が一致した時に true を返しそこねていたのを修正しています。 https://github.com/ruby/zlib/issues/56
