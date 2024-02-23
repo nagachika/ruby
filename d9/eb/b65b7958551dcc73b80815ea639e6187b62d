@@ -1,0 +1,1 @@
+標準添付ライブラリ pp のテストに  RubyVM::AbstractSyntaxTree::Node の表示のテストがあったのが AST の内部構造の変更でエラーになってたので RUBY_VERSION で分岐するようにしています。
