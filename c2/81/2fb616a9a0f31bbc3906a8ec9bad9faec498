@@ -1,0 +1,1 @@
+rubygems の専用の YAML 実装で Psych.safe_load に渡す aliases の引数の値をわざわざ private な定数を定義してそれを使うようにしています。なんでだろ。
