@@ -1,0 +1,1 @@
+c2812fb616a9a0f31bbc3906a8ec9bad9faec498 の再修正で rubygems の YAML 実装の Psych.safe_load に渡す aliases 引数の値を定数ではなくモジュールのインスタンス変数にして、特異メソッドで設定可能にしています。
