@@ -1,0 +1,1 @@
+YJIT で attr_writer の実装に setinstancevariable 命令の実装を再利用して最適化しているようです。 https://github.com/ruby/ruby/pull/9986
