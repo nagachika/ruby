@@ -1,0 +1,1 @@
+tool/lib/envutil.rb の EnvUtil.capture_global_values で警告の設定をバックアップする時に対象のカテゴリに performance を追加しています。
