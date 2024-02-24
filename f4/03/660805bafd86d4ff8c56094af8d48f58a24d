@@ -1,0 +1,1 @@
+cdca94208f18b0921340906a1cb43f88737539e2 の続きで GitHub Actions の macOS で YJIT を使った時のテストで macos-arm-oss が使えない時に macos-14 に fallback する箇所を増やしています。
