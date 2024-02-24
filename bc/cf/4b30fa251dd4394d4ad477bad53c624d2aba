@@ -1,0 +1,1 @@
+s390x アーキテクチャで GC.compact 関係のテストが動かないとのことで skip するようにしています。 https://github.com/ruby/ruby/pull/10073
