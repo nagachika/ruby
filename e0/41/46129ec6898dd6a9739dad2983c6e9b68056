@@ -1,0 +1,1 @@
+String#initialize のキーワード引数 capacity に 0以下の数値を渡すと異常終了する不具合を修正しています。 [ruby-core:116908] [Bug #20292]
