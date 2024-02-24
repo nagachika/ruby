@@ -1,0 +1,1 @@
+irb で IRB::NotImplementedError を定義していたのをやめてトップレベルの NotImplementedError を利用するように変更しています。 https://github.com/ruby/irb/pull/878
