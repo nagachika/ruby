@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版や CodeQL によるチェックなどを行う workflow で macos-arm-oss が使えない環境(リポジトリというか GitHub の組織で使えるかどうかが変わるみたい)で macos-14 を利用するようにしています。 https://github.com/ruby/ruby/pull/10074
