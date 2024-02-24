@@ -1,0 +1,1 @@
+complex.c の未初期化変数の警告抑制のため else 節の代入を追加しています。 https://github.com/ruby/ruby/pull/10075
