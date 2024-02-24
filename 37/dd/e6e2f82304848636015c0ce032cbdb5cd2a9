@@ -1,0 +1,1 @@
+irb で IRB::Context にメソッドを追加するのに lib/irb/command.rb でメタプログラミングしていたけど 2つしか追加するメソッドがないのでやめて直接 lib/irb/context.rb で定義するように変更しています。 https://github.com/ruby/irb/pull/882
