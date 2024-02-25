@@ -1,0 +1,1 @@
+YJIT から C の関数を呼ぶ時に不要なら control frame を push しなくてすむように最適化しているようです。そして String#setbyte メソッドに専用の実装を用意してこの最適化を利用しているみたいです。 https://github.com/ruby/ruby/pull/10080
