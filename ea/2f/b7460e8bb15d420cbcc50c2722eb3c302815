@@ -1,0 +1,1 @@
+irb の不要になった空の if 文を削除しています。 https://github.com/ruby/irb/pull/885
