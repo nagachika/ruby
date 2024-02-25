@@ -1,0 +1,1 @@
+YJIY の Rust 実装内 branch_stub_hit_body() の cfp->iseq の確認をする assert の位置をそれを利用する文の前に移動しています。
