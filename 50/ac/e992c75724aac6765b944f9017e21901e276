@@ -1,0 +1,1 @@
+def のあとの特異メソッド定義時の receiver を書くところに begin 節を持つ文を書くと SEGV していた不具合修正。 [ruby-core:116559] [Bug #20234]
