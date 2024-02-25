@@ -1,0 +1,1 @@
+string.c の rb_fstring() を export していたのをやめて rubyspec でのテストやテスト用拡張ライブラリでかわりに rb_str_to_interned_str() を利用するようにしています。
