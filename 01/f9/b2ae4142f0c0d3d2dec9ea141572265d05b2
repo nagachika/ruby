@@ -1,0 +1,1 @@
+parse.y で rb_fstring() に依存していたところを Universal Parser の構造体で rb_str_to_interned_str() という関数を受け取るようにしてこちらを使うようにしています。
