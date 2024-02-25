@@ -1,0 +1,1 @@
+同じく拡張ライブラリ socket の定数定義リストに Socket::IPV6_MTU_DISCOVER を追加しています。 [ruby-core:116676] [Bug #20258]
