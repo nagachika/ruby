@@ -1,0 +1,1 @@
+doc/command_line/environment.md というドキュメントファイルを追加して -e や -C、-r などの一部のオプションについての説明を書いてます。 https://github.com/ruby/ruby/pull/10059
