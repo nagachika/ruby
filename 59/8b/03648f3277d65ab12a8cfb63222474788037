@@ -1,0 +1,1 @@
+標準添付ライブラリ irb でまだ magic comment の frozen_string_literal: false だったファイルを対応して true に変更しています。 https://github.com/ruby/irb/pull/883
