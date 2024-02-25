@@ -1,0 +1,1 @@
+拡張ライブラリ coverage() の関数 rb_coverage_peek_result() で Hash の要素についてループするのに st_foreach() のかわりに rb_hash_foreach() を呼ぶように変更しています。
