@@ -1,0 +1,1 @@
+6bd3e8fbb2b0645f535858b3bd3bcb7242a6a438 と同様に拡張ライブラリ objspace でも st_foreach() のかわりに rb_hash_foreach() を利用するようにしています。
