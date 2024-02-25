@@ -1,0 +1,1 @@
+不要に export していた関数の定義の RUBY_FUNC_EXPORTED マクロを削除しています。
