@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の gemspec ファイルで spec.files のために git ls-files を実行するのにバッククオートを使っていたのを IO.popen を利用するように変更しています。
