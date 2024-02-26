@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の gemspec ファイルで spec.files を git ls-files を得る処理を __dir__ を使ったり正規表現のかわりに String#start_with? を使ったりと変更しています。 bundler の bundle gem で生成する時のテンプレートに倣っているそうです。
