@@ -1,0 +1,1 @@
+eb661364afbeabf6a1d0ab30b01efebb826ff6bf で追加した .mailmap ファイルを tar パッケージ作成時に含めないように tool/lib/vcs.rb の export 時の除外ファイルに追加しています。
