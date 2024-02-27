@@ -1,0 +1,1 @@
+38e3ad267569f38336458d461791b4a1cd79b5d1 の続きで標準添付ライブラリ tempfile の gemspec ファイルの spec.files の取得でバッククオートのかわりに IO.popen を利用するように変更しています。
