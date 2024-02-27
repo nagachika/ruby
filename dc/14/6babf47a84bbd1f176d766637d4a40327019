@@ -1,0 +1,1 @@
+Kernel#Complex() にキーワード引数 exception: false を渡して例外を発生せず nil を返すようにした時に rb_thread_t::errinfo がクリアされずに残ってたので後で意図しない例外が発生してしまうことがあったのを修正しています。 [ruby-core:116930] [Bug #20296]
