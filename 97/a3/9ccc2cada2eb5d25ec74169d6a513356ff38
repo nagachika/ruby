@@ -1,1 +1,1 @@
-dln.c の init_funcname() をマクロに変更して build_funcname() と改名しさらにその内容を concat_funcname() という関数に切り出すリファクタリング。
+dln.c の init_funcname() を build_funcname() と改名しさらにその内容を concat_funcname() という関数に切り出すリファクタリング。
