@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に StringScanner#scan_byte と StringScanner#peek_byte というメソッドを新規追加しています。 名前の通り 1 byte だけ読む、またはカーソルを進めず次の 1 byte だけみて Integer で返すというメソッドです。 https://github.com/ruby/strscan/pull/89
