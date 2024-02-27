@@ -1,0 +1,1 @@
+GitHub Actions の workflow の Launchable 対応のための step を .github/actions/launchable/ 配下に独自のアクション定義として切り出しています。
