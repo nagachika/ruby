@@ -1,0 +1,1 @@
+コミットログをみると f23d5028059078a346efc977287b669d494a5a3f で導入した Kernel#Complex() のテストのための assertion メソッドの小さな変更みたいですが、一緒に 9ec342e07df6aa5e2c2e9003517753a2f1b508fd の Happy Eyeballs の変更が revert されてしまっています。
