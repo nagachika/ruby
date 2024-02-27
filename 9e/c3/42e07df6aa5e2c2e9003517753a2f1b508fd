@@ -1,0 +1,1 @@
+拡張ライブラリ socket に Happy Eyeballs という IPv4/IPv6 の接続を同時に試して高速化するという仕様([RFC 8305](https://datatracker.ietf.org/doc/html/rfc8305))を実装しています。デフォルトで有効になっていますが Socket.tcp_fast_fallback= で設定をグローバルに切り替えられるようです。 https://github.com/ruby/ruby/pull/9374 [ruby-core:115985] [Feature #20108]
