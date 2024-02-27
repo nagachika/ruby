@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の gemspec ファイルの spec.files を git ls-files から得るところを bundler の bundle gem で新規作成する時の最近のテンプレにそうように変更しています。これ昨日の tmpdir の時も思ったけど bundler のテンプレートの変更に追随する必要あるのかな?
