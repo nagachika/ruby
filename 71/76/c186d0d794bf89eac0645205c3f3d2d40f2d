@@ -1,0 +1,1 @@
+rubygems のテストで拡張ライブラリ fiddle を利用しているもので Fille::Handle の close 漏れしているテストメソッドがあったので ensure 節を追加して close するようにしています。
