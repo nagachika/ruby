@@ -1,0 +1,1 @@
+dc146babf47a84bbd1f176d766637d4a40327019 で修正した Kernel::Complex() のテストを専用の assertion メソッドを導入して書き直しています。 [ruby-core:116930] [Bug #20296]
