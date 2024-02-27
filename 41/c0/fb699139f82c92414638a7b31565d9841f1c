@@ -1,1 +1,1 @@
-標準添付ライブラリ optparse の OptionParser#parse や #order のキーワード引数に exact を追加して OptionParser#require_exact= の設定をオプション毎に切り替えできるようにしています。
+標準添付ライブラリ optparse の OptionParser#parse や #order のキーワード引数に exact を追加して OptionParser#require_exact= の設定を parse 時に切り替えできるようにしています。
