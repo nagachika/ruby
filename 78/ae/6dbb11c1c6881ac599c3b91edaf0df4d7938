@@ -1,0 +1,1 @@
+gc.c の rb_objspace_marked_object_p() という関数を削除して gc_move() から呼んでたところは RVALUE_MARKED() で代替するようにしています。
