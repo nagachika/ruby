@@ -1,0 +1,1 @@
+Refinements で同じ Module に対して複数の Module#using でメソッドの上書きを適用することができなくなっていた不具合を修正しています。 [ruby-core:116946] [Bug #20302]
