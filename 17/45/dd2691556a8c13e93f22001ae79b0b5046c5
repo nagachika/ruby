@@ -1,0 +1,1 @@
+.git-blame-ignore-revs に git blame で無視する commit として a0f7de814ae5c299d6ce99bed5fb308a05d50ba0 と d4e24021d39e1f80f0055b55d91f8d5f22e15084 を追加しています。 Happy Eyeballs の追加を誤って revert してしまったやつですね。
