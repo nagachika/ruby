@@ -1,0 +1,1 @@
+parse.y の rb_parser_warn_duplicate_keys() 内の変数 literal_type に Universal Parser 用でない時だけ static const 修飾子を追加するようにしています。
