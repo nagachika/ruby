@@ -1,0 +1,1 @@
+rubygems に vendoring している標準添付ライブラリの default gems のファイル名を vendored_ という prefix をつけるようにしています。ファイル名のみでクラス名などはそのままです。
