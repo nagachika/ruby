@@ -1,0 +1,1 @@
+gc.c の rb_objspace_data_type_memsize() という関数を static 関数に変更しています。
