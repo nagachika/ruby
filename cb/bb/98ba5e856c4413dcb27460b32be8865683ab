@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の gemspec ファイルで spec.files を取得するために git ls-files を実行する IO.popen に exception: false を渡して git コマンドが実行できない環境でもエラーにはならないようにしています。
