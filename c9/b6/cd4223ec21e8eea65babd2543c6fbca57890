@@ -1,0 +1,1 @@
+gc.c から未使用になった関数 rb_objspace_each_objects_without_setup() を削除しています。
