@@ -1,0 +1,1 @@
+bundler から rubygems の vendoring されている net/http や timeout を利用する時に古い rubygems と一緒に使った時のために vendoring_ の prefix つきで require できなかった時の fallback 処理を追加しています。
