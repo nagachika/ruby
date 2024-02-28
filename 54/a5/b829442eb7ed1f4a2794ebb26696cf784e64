@@ -1,0 +1,1 @@
+Complex#to_r で虚数部が浮動小数点数(Float)の時は 0.0 であっても例外発生させていたのを 0.0 ならば無視して実数部のみを処理して Rational に変換するように対応しています。 https://github.com/ruby/ruby/pull/9581 [ruby-core:38886] [Bug #5179]
