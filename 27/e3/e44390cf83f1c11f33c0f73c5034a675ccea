@@ -1,0 +1,1 @@
+83e676e5f9049168047c36d1bbd75ac342e6fed6 の関連で struct RBasic::flags のビットフラグ FL_SEEN_OBJ_ID と FL_FINALIZE を混ぜたものを ZOMBIE_OBJ_KEPT_FLAGS という定数マクロに切り出すリファクタリング……かと思いましたが verify_internal_consistency_i() でチェック時にもこのマクロを利用するようにして GC_ASSERT() でひっかかるのを修正しているようです。
