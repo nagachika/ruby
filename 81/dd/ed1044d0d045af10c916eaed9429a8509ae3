@@ -1,0 +1,1 @@
+rubygems に vendoring されている net-http と timeout で同じファイルの重複 load を避けるための条件分岐を追加しています。
