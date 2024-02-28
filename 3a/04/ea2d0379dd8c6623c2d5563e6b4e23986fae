@@ -1,0 +1,1 @@
+String#grapheme_clusters で Encoding に対して不正なバイト列を持つ文字列の不具合修正ですが、修正箇所としては regexec.c の正規表現の処理のところで必要に応じて onigenc_mbclen_approximate() に fallback するようにしています。 [ruby-core:116960] [Bug #20305]
