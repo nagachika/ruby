@@ -1,0 +1,1 @@
+ObjectSpace.define_finalizer で finalizer が設定されているオブジェクトは struct RBasic::flags にビットフラグの FL_FINALIZE が立てられるので、オブジェクトの回収時の finalizer 実行の処理時にこのビットフラグをチェックして不要な時に st_table の検索をスキップするように多少最適化しています。
