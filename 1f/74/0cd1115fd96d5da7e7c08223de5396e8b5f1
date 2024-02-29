@@ -1,0 +1,1 @@
+gc.c の inline 関数 is_swept_object() を削除して呼び元にその処理を展開して書くようにしています。名前が misleading なのでとのこと。
