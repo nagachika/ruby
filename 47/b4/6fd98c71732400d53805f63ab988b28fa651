@@ -1,0 +1,1 @@
+95e55e9ae4a446a62db21e2ea91c54d20fbdcbdc の続きで default gems の gemspec ファイルのチェックで IO.popen の場合は呼べないコマンドでエラーになると例外発生するので無視するためダミーの echo コマンドを埋め込むようにしています。
