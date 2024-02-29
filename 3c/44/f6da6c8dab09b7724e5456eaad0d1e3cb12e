@@ -1,0 +1,1 @@
+gc.c の is_garbage_object() という関数も if 文の分岐を条件の式を直接 return するようにリファクタリングしています。
