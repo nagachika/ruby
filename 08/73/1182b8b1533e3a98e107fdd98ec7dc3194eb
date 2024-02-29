@@ -1,0 +1,1 @@
+gc.c の is_garbage_object() も戻り値の型を int から bool に変更しています。
