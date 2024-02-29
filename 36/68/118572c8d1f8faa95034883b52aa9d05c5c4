@@ -1,0 +1,1 @@
+doc/yjit/yjit.md から YJIT の効果を得るには while を使うほうがいいよという記述は Array#each の実装が ruby になって YJIT で高速化の恩恵を得られるようになったので削除しています。 https://github.com/ruby/ruby/pull/10119
