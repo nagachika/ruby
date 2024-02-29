@@ -1,0 +1,1 @@
+rb_special_const_p() を直接呼んでいるところを RB_SPECIAL_CONST_P() マクロを使うようにしています。
