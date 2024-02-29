@@ -1,0 +1,1 @@
+tool/rbinstall.rb で default gems の gemspec ファイルで spec.files のために IO.popen で git ls-files コマンドを実行する方法で書かれている時にも文字列置換の対象になるように追随しています。 default gems のために ruby 本体では gemspec を書き換えて使うみたいなことをそういえばしてたんでしたね。
