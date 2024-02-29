@@ -1,0 +1,1 @@
+imemo.c の moved_or_living_object_strictly_p() という関数で rb_gc_is_ptr_to_obj() によるチェックを条件から削除しています。
