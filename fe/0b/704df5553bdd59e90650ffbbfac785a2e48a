@@ -1,0 +1,1 @@
+ASAN が有効かどうか判定するためにテスト用の拡張ライブラリを追加して Test::ASAN.enabled? でチェックできるようにしています。そして assert_no_memory_leak という assertion メソッドで ASAN が有効化されている時には skip するようにしています。 [ruby-core:116815] [Bug #20274]
