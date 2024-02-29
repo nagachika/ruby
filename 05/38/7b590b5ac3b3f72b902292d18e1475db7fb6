@@ -1,0 +1,1 @@
+95e55e9ae4a446a62db21e2ea91c54d20fbdcbdc からの続きで default gems の gemspec ファイルをチェックするテストで不要なコマンド実行を削除するための正規表現を再修正しています。
