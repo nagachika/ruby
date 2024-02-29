@@ -1,0 +1,1 @@
+gc.c の is_live_object() で if 文のかわりに条件をそのまま return するリファクタリング。
