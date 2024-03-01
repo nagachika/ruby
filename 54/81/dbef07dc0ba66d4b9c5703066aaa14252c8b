@@ -1,0 +1,1 @@
+gc.c の rb_define_finalizer_no_check() という関数が外から使われてないので static 関数に変更しています。
