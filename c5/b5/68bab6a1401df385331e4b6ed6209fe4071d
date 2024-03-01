@@ -1,0 +1,1 @@
+pull request に自動的に reviewer をセットするのに GitHub Actions で necojackarc/auto-request-review というアクションを利用していたのを .github/CODEOWNERS というファイルを置く標準機能を利用するようにしています。 https://github.com/ruby/ruby/pull/10133
