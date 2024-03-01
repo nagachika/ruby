@@ -1,0 +1,1 @@
+48f433fd408f5f493aa0ac4638ee9ab773b8d10c に続いて GC.verify_internal_consistency でのチェック内容に struct RBasic::flags に FL_FINALIZE のビットが立っているにもかかわらず finalizer 用の st_table に対応する要素が存在しないという異常も検出するようにしています。
