@@ -1,0 +1,1 @@
+gc.c の GC.verify_internal_consistency というデバッグ用のメソッド実装で T_ZOMBIE フラグのチェックに異常があった時に GC_ASSERT() で異常終了していたのを標準エラー出力にメッセージを出力だけして処理を続行するようにしています。
