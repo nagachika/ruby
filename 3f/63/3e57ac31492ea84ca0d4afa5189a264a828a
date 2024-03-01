@@ -1,0 +1,1 @@
+configure で WASI 版の時に POSTLINK で実行する wasmopt コマンドに --pass-arg=asyncify-ignore-imports というオプションを渡していたのを削っています。
