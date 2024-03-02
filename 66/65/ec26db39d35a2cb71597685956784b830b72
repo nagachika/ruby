@@ -1,0 +1,1 @@
+gc.c の gc_mark_stack_values() で mark する前に is_markable_object() を呼んでいたのが冗長だったようで削除しています。
