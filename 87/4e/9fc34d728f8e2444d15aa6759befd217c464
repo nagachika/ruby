@@ -1,0 +1,1 @@
+rubygems の再定義する require での警告のための tool/lib/bundled_gem.rb で drb.gem の依存関係のために考慮していたテスト時の ruby2_keywords の対応を削除しています。
