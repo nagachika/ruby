@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で DNS の CAA レコードへの対応を追加しています。 https://github.com/ruby/ruby/pull/1732 [ruby-core:83602] [Feature #14066]
