@@ -1,0 +1,1 @@
+gc.c の gc_mark_stack_values() という static 関数を削除して唯一の呼び元に処理を展開しています。
