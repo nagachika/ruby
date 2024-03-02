@@ -1,0 +1,1 @@
+rubyspec に Kernel#system で shell 経由する時のテストを追加しています。
