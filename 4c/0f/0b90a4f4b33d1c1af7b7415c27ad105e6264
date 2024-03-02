@@ -1,0 +1,1 @@
+gc.c の rb_gc_copy_finalizer() という関数でも finalizer の設定されているオブジェクトの struct RBasic::flags の FL_FINALIZE フラグが立っているのに finalizer_table という st_table にエントリがない時に rb_bug() で異常終了させるようにしています。
