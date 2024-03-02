@@ -1,0 +1,1 @@
+finalizer の設定されているオブジェクトの struct RBasic::flags の FL_FINALIZE ビットフラグをクリアするのを run_finalizer() 実行前に変更しています。 GC.verify_internal_consistency で FL_FINALIZE フラグのチェックもするようになったので finalizer 実行中に GC が発生して別スレッドに処理が切り替わった時に検出されないようにするためだと思われます。
