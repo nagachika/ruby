@@ -1,0 +1,1 @@
+rb_define_module_under() や rb_define_class_under() などの C API の Doxygen 用コメントに GC で回収されない旨の記述を追加しています。
