@@ -1,0 +1,1 @@
+gc.c から each_machine_stack_value() という static 関数を削除して唯一の呼び元に処理を展開しています。
