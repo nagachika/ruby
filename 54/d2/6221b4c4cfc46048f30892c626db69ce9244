@@ -1,0 +1,1 @@
+Travis-CI の設定で ppc64le-linux と s390x-linux の環境を allow_failure に再度追加しています。Travis-CI の環境が不安定で動かないことがあるためとのこと。
