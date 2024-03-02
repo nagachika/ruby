@@ -1,0 +1,1 @@
+io.c の rb_sys_fail_on_write() をマクロで定義していたのを static 関数として定義しなおしています。
