@@ -1,0 +1,1 @@
+File#chmod の実装に rb_thread_io_blocking_region() を利用して chmod(2)/fchmod(2) がブロックしても処理が固まらないようにしています。NFS の時とかにブロックする可能性があるのかな。
