@@ -1,0 +1,1 @@
+Hash のメソッド群から hash メソッドを呼ぶ時の関数 obj_any_hash() から呼ぶメソッドが Kernel#hash のものだった時にメソッド呼び出しの処理をスキップして直接 rb_obj_hash() 関数を呼ぶように最適化しています。 https://github.com/ruby/ruby/pull/10160
