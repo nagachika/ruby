@@ -1,0 +1,1 @@
+70de3b170bc87aa8ea924602dcea3bb58b4fe439 での obj_any_hash() の最適化で呼ぼうとしているのが Kernel#hash かどうかの判定を変更して、実装が rb_obj_hash() 関数であれば直接呼んでそうでなくても Kernel に実装されたメソッドを呼ぼうとしていたら rb_vm_call0() でメソッド起動するようにしています。 rb_exec_recursive_outer_mid() による再帰チェックは省いてもいいということかな。
