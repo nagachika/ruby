@@ -1,0 +1,1 @@
+gc.c の rb_obj_rgengc_writebarrier_protected_p() という関数が未使用になっていたので削除しています。
