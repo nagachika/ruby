@@ -1,0 +1,1 @@
+YJIT の VM 命令 opt_invokebuiltin_delegate を使ったメソッドかどうかの判定を修正して inline 化による最適化が効くようにしているようです。 https://github.com/ruby/ruby/pull/10152
