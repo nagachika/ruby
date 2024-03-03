@@ -1,0 +1,1 @@
+gc.c の is_markable_object() という関数で check_rvalue_consistency() という関数を呼んでたのを削っています。
