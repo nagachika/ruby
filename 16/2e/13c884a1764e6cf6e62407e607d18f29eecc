@@ -1,0 +1,1 @@
+imemo.c の vm_ccs_free() で struct rb_callcache のポインタを rb_gc_is_ptr_to_obj() で ObjectSpace の heap 内にあるかどうかチェックしていましたがこれは不要とのことで、かわりに rb_objspace_markable_object_p() で即値オブジェクトや回収済みの slot でないかのチェックをするようにしています。どっちかというとより厳しいチェックになってる気がするけど heap 内かどうかのチェックは処理時間がかかるからかなぁ。
