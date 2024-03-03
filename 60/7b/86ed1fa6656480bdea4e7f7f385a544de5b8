@@ -1,0 +1,1 @@
+同じく RJIT の C binding の  rb_cfunc_t 型の情報を型として扱うように tool/rjit/bindgen.rb に追加して rjit_c.rb を再生成しています。
