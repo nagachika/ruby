@@ -1,0 +1,1 @@
+YJIT と RJIT のための C binding を再生成して rb_cfunc_t という型を取り込むようにしています。 61fbd29e14c0bd06ca4c063ff34332b272874a13 の変更のためですね。
