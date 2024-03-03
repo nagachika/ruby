@@ -1,0 +1,1 @@
+irb の IRBH::Context のメソッドの改名や削除などのリファクタリング。 https://github.com/ruby/irb/pull/888
