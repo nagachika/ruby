@@ -1,0 +1,1 @@
+tool/ 配下のスクリプトや enc/make_encmake.rb や ext/socket/mkconstants.rb といったソース生成するために erb を利用する処理で古い erb のバージョンのサポートのため ERB#initialize のキーワード引数が存在するかどうか確認して分岐しているのを削除したり ERB.new の第2引数に nil を渡してたのをやめています。
