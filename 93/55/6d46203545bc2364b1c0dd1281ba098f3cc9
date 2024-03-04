@@ -1,0 +1,1 @@
+e9a7801a938a6e4e0d071dec05e1ecdb99606bbf の続きで拡張ライブラリ etc のコード生成スクリプト ext/etc/mkconstants.rb でも古い erb のサポートのための分岐などを削除しています。
