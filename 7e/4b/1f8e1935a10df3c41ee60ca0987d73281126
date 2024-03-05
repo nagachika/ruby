@@ -1,0 +1,1 @@
+rb_enc_interned_str() という C API  の引数 enc に NULL を渡すと異常終了するので NULL チェックするようにしています。 [ruby-core:117037] [Bug #20322]
