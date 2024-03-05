@@ -1,0 +1,1 @@
+Encoding の拡張ライブラリビルドのための Makefile 生成するツール enc/make_encmake.rb で rbconfig.rb の設定のうち Makefile に伝播させたくない変数として CFLAGS を指定してこれは enc/Makefile.in の変換時に展開させないようにしています。
