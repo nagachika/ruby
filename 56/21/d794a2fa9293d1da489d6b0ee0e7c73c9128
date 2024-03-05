@@ -1,0 +1,1 @@
+ASAN を有効にしてビルドした時に Kernel#callcc を未実装に指定して NotImplementedError が発生するようにしています。 [ruby-core:116814] [Bug #20273]
