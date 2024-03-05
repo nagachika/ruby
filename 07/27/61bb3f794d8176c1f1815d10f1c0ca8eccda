@@ -1,0 +1,1 @@
+enc/Makefile.in でも POSTLINK 変数を伝播させるようにしています。
