@@ -1,0 +1,1 @@
+bundler のテストでディレクトリを含む Dir.glob の結果の削除に FileUtils.rm を使ってたのを FileUtils.rm_rf に修正しています。
