@@ -1,0 +1,1 @@
+71d511615b8dac459d6f88f5896b9859f99c999e の mkmf.rb で生成する Makefile で POSTLINK 変数を伝播させてたのを revert しています。
