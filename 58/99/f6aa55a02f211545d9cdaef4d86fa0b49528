@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のバイナリフォーマットへの dump/load 時に内部的なローカル変数の情報が抜け落ちていたのを修正しています。 [ruby-core:115181] [Bug #19975]
