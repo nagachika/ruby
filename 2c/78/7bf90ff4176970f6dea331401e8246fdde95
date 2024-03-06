@@ -1,0 +1,1 @@
+defs/gmake.mk の rubyspec の C API テスト用拡張ライブラリをビルドするためのルールで $(POSTLINK) の実行を追加しています。
