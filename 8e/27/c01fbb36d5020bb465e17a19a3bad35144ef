@@ -1,0 +1,1 @@
+0ae0a0c1c3bb01d118c5a924d731a2b3e9774105 で revert された mkmf.rb で生成する Makefile での POSTLINK 変数の伝播を再適用しています。 b582e5a6e99c3e88076fc8eea794d0b3a23e8740 の修正で問題が解決したみたいです。
