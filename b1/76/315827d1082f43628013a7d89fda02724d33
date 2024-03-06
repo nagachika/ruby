@@ -1,0 +1,1 @@
+Range#overlap? の実装で endless range や beginless range の時に文字列と数値など要素の比較ができない Range 同士の時にも true を返してしまっていたので要素が比較可能かどうかのチェックを追加しています。 [ruby-core:117047] [Bug #20324]
