@@ -1,0 +1,1 @@
+ObjectSpace.reachable_objects_from の rdoc 用コメントの意味が文章が逆転してたので修正。 https://github.com/ruby/ruby/pull/10172
