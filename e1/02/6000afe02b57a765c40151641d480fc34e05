@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトの gemspec ファイルのテンプレートで spec.files を設定するため git ls-files コマンドを実行するのにバッククオートを使ってたのを IO.popen を使うように変更しています。いくつかの default gems の gemspec ファイルで行なってたのと同じ変更ですね。
