@@ -1,0 +1,1 @@
+GitHub Actions の macOS 向け workflow で make test-bundler-parallel の実行を追加しています。
