@@ -1,0 +1,1 @@
+97d32bb2fcc6d53ec17c96ea6d826f1f7698aa29 で irb の履歴のテストで一時ディレクトリを HOME に設定してたやつを teardown で明示的に削除するようにしています。 Dir.mktmpdir で作ってるのでいずれ消えると思いますが leak check にひっかからないようにするためかな。 https://github.com/ruby/irb/pull/894
