@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトの struct RBasic::flags のビットフラグの説明をしているコメントに RUBY_FL_SINGLETON について追記しています。
