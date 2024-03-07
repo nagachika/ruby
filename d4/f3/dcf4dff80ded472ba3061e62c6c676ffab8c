@@ -1,0 +1,1 @@
+組み込みクラスやモジュールを GC から保護するために参照の root に追加する関数 rb_vm_add_root_module() で rb_vm_t::defined_module_hash という st_table に登録していたのを rb_vm_register_global_object() という関数で rb_vm_t::mark_object_ary という Array オブジェクトで管理する方法に移行しています。コミットログによると起動時のメモリ消費を抑えることができるとのこと。
