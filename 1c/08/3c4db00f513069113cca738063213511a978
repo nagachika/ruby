@@ -1,0 +1,1 @@
+make clean-runnable で exe/ ディレクトリやアーキテクチャ毎のディレクトリに作られる rbconfig.rb ファイルも削除するようにしています。
