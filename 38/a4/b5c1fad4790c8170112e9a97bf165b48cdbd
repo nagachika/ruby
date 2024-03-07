@@ -1,0 +1,1 @@
+YJIT で String#getbyte メソッドの実装で rb_str_getbyte() 関数の呼び出しをしていたのを直接同じ処理をする命令を生成するように最適化しています。 https://github.com/ruby/ruby/pull/10188
