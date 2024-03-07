@@ -1,0 +1,1 @@
+include/ruby/io.h から rb_io_t 構造体の定義を削除しています。たしか以前計画されてて一度断念されたものですがもう大丈夫になったのかな。 https://github.com/ruby/ruby/pull/9568 [ruby-core:110300] [Feature #19057]
