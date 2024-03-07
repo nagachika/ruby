@@ -1,0 +1,1 @@
+拡張ライブラリの Makefile を生成する ext/extmk.rb で make clean-local で実行する rmdir コマンドのオプションに -p を追加して指定したパスを親まで全て消すようにしています。
