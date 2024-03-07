@@ -1,0 +1,1 @@
+コマンドラインオプションについての doc/command_line/field_processing.md というドキュメントを削除して  doc/ruby/options.md にコマンドラインオプションについてのドキュメントを新設しつつ、--dump オプションについてのドキュメントは doc/ruby/option_dump.md に独立して追加しています。 https://github.com/ruby/ruby/pull/10138
