@@ -1,0 +1,1 @@
+標準添付ライブラリ time の gemspec ファイルの spec.files の設定で git ls-files の結果から除外するファイルのリストを増やしています。
