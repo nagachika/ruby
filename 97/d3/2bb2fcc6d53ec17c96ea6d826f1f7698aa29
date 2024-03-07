@@ -1,0 +1,1 @@
+irb のテスト時に履歴用の ~/.irb_history ファイルを残してしまうことがあったみたいでより全般的に環境変数 HOME の一時的な変更や Encoding.default_external の設定を setup/teardown で行うようにしています。 https://github.com/ruby/irb/pull/893
