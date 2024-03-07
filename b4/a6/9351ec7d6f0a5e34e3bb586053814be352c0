@@ -1,0 +1,1 @@
+T_CLASS 型オブジェクトの struct RBasic::flags のビットフラグ T_CLASS のビット位置を FL_USER1 を使うように移動しています。これに伴ない FL_SINGLETON フラグのチェック時にはオブジェクトの型をチェックして T_MODULE でないことも確認する必要ができたのでそれらをまとめた RCLASS_SINGLETON_P() というマクロを定義して各所でこれを使うようにしています。
