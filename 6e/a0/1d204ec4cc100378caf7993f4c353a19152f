@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のバイナリフォーマットへのダンプ時に内部的なローカル変数のインデックスを Fixnum 以外の場合にも対応するようにしています。 5899f6aa55a02f211545d9cdaef4d86fa0b49528 の再修正。 [ruby-core:115181] [Bug #19975]
