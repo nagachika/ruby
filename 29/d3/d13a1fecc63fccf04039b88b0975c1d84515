@@ -1,0 +1,1 @@
+rubyspec の Binding#irb のテストで余計な irbrc ファイルを読まないようにするため HOME, IRBRC, XDG_CONFIG_HOME などの環境変数を全て消して子プロセスを起動するようにしています。
