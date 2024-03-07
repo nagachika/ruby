@@ -1,0 +1,1 @@
+Travis-CI の arm64-linux と arm32-linux でのテストを allow_failures に追加しています。Travis-CI のスケジュールメンテナンスが告知されたのでその間のエラーを許容するためとのこと。 https://bugs.ruby-lang.org/issues/20013#note-28
