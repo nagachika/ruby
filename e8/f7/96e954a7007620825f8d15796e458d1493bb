@@ -1,0 +1,1 @@
+irb の gemspec ファイルで rdoc への依存関係でバージョンを 4.0.0 以降に限定しています。 https://github.com/ruby/irb/pull/897
