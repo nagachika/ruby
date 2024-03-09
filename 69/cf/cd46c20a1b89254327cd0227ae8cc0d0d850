@@ -1,0 +1,1 @@
+template/GNUmakefile.in で GNUmakefile ターゲットの依存関係の記述が重複していたのを削っています。
