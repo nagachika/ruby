@@ -1,0 +1,1 @@
+Refinements で再定義するメソッドに inline cache を実装した副作用でキャッシュクリア漏れがあって using した後で Module のメソッドを再定義した時に伝播しない不具合を修正しています。  https://github.com/ruby/ruby/pull/10037 [ruby-core:116888] [Bug #20285]
