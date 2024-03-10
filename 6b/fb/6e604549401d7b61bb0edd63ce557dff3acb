@@ -1,0 +1,1 @@
+tool/rbuninstall.rb で Gem::Installer を継承した GemInstaller というクラスを定義してさらにこれを継承して UnpackedInstaller というクラスを定義していたのを GemInstaller を削除して直接 Gem::Installer を継承するようにしています。
