@@ -1,0 +1,1 @@
+RUBY_MARK_UNLESS_NULL() と RUBY_MARK_MOVABLE_UNLESS_NULL() いうマクロを削除してかわりに rb_gc_mark() と rb_gc_mark_movable() を直接呼ぶようにしています。 RTEST() でのチェックを含めるマクロですが関数本体のほうでも markable かのチェックが入っているので不要になっていたようです。
