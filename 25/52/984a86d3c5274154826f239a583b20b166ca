@@ -1,0 +1,1 @@
+GitHub Actions の workflows でビルドをスキップする条件として [DOC] がタイトルについてたらというのがありますが "Documentation" というのが入っててもスキップするようにしています。
