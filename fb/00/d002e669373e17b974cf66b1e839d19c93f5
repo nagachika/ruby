@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で拡張ライブラリを静的リンクする時の ext/Setup の後始末を追加しています。
