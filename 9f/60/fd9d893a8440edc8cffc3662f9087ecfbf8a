@@ -1,0 +1,1 @@
+template/exts.mk.tmpl で生成する Makefile で rmdir でディレクトリ削除する時のエコーバックを抑制するようにしています。
