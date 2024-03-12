@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の markdown によるマークアップで定義つきリストの見出し部分にマークアップが書けるように文法解釈を拡張しています。 PHP Markdown Extra という拡張仕様を取り込んでいるみたいです。 https://michelf.ca/projects/php-markdown/extra/#def-list
