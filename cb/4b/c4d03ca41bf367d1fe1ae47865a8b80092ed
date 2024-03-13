@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu で YJIT を有効にする workflow でテスト時に TESTS 環境変数を渡すようにしています。
