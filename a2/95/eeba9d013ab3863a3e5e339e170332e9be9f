@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の YJIT を有効にした workflow でテスト時に RUN_OPTS 環境変数を渡すようにしています。
