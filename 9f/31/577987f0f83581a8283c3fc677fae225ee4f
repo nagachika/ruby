@@ -1,0 +1,1 @@
+gc.c の rb_copy_wb_protected_attribute() という C API の実装を rb_gc_writebarrier_unprotect() に委譲するようにリファクタリングしています。
