@@ -1,0 +1,1 @@
+gc.c の未使用になっていた rb_obj_rgengc_promoted_p() という関数を削除しています。
