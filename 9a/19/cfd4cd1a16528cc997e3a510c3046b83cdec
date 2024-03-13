@@ -1,0 +1,1 @@
+Universal Parser の対応のため? parse.y で配列オブジェクトを VALUE 値で参照していたものを専用の rb_parser_ary_t という構造体による実装を利用するようにしています。 parse.y で CRuby 本体の実装に依存しないようにする変更の一環。
