@@ -1,0 +1,1 @@
+GitHub Actions の Launchable のための専用の action で launchable verify コマンドのエラーステータスを無視するようにしています。
