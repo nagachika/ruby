@@ -1,0 +1,1 @@
+parse.y の未使用の関数 rb_parser_ary_new() を削除しています。
