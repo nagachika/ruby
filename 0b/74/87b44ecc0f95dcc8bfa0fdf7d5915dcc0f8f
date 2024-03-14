@@ -1,0 +1,1 @@
+拡張ライブラリ stringio のテストで大きすぎる offset を StringIO#pos= で設定するテストで JRuby の実装では書き込みした時ではなく pos を設定した時点で例外が発生すると少し挙動が異なるのでどちらの例外も捕捉するように assert_raise のブロックの範囲を広げています。 https://github.com/ruby/stringio/pull/85
