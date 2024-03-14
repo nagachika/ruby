@@ -1,0 +1,1 @@
+Symbol#inspect の GC 関連のテスト test_inspect_under_gc_compact_stress を YJIT が有効な時は skip するようにしています。
