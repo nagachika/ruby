@@ -1,0 +1,1 @@
+GitHub Actions で Launchable のための処理が失敗した時に workflow 自体はエラーにならないように continue-on-error: true を追加しています。
