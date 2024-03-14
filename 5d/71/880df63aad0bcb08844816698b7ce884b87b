@@ -1,0 +1,1 @@
+win32/Makefile.sub でコンパイラが VS2013 以降の場合、リンカ用のフラグに -manifest:embed,ID=2 を追加するようにしています。
