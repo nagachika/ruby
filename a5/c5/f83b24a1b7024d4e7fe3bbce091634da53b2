@@ -1,0 +1,1 @@
+Module#const_source_location が autoload で読み込まれるスクリプト内で定義される Module の場合 autoload で読み込まれたスクリプト内からでも Module#const_source_location で autoload の設定している箇所が返されるようにしているようです。 [ruby-core:116223] [Bug #20188]
