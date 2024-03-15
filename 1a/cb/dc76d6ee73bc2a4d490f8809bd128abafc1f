@@ -1,0 +1,1 @@
+rubygems の再定義する require での default gems の require での警告のための lib/bundled_gems.rb で ostruct を対象に追加しています。
