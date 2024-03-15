@@ -1,0 +1,1 @@
+shape.c の size_pool_edge_names という static 変数が用途がなくなっていたので削除しています。
