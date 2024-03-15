@@ -1,0 +1,1 @@
+拡張ライブラリ fcntl の rdoc 用コメントから不要な Document-const: タグの指定を削除しています。
