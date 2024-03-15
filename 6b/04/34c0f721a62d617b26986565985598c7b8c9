@@ -1,0 +1,1 @@
+6ad347a1055902abfd5a7f5233dd8d18e1f1360b からの続きで Object Shapes の rb_shape_t を Variable Width Allocation の slot サイズごとに作らないようにしているようです。やはり Object Shapes で Variable Width Allocation の slot サイズについて関係があったみたいですね。
