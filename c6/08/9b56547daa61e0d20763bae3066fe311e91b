@@ -1,0 +1,1 @@
+Object Shapes の実装で rb_shape_alloc_new_child() という関数に T_OBJECT 型の rb_shape_t に対して rb_bug() で異常終了させるようにしています。
