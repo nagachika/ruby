@@ -1,0 +1,1 @@
+e394f5539e036efabf46346fbb9699777cc1f2d3 の続きで拡張ライブラリ fcntl の gemspec ファイルの spec.extra_rdoc_files に .document と .rdoc_options を追加しています。
