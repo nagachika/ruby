@@ -1,0 +1,1 @@
+hash.c で RHASH_STRING_KEY_P() という RHASH_IDENTHASH_P() に加えて指定された key が文字列オブジェクトかどうか判定するマクロを切り出すリファクタリング。
