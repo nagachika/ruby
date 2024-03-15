@@ -1,0 +1,1 @@
+Warning.categories というメソッドを追加して現在 Warning[] でサポートしているカテゴリ名の Symbol のリストを返すようにしています。 [ruby-core:116909] [Feature #20293]
