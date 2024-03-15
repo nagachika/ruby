@@ -1,0 +1,1 @@
+Hash#compare_by_identity で ident 化した Hash への Hash#update の呼び出しでキーの文字列オブジェクトが複製されてしまって同一性が維持されなくなっていた不具合を修正しています。 [ruby-core:116965] [Bug #20307]
