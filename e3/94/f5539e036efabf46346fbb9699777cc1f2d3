@@ -1,0 +1,1 @@
+拡張ライブラリ fcntl の gemspec ファイルに spec.extra_rdoc_files という設定を追加して LICENSE.txt と README.md を指定しています。
