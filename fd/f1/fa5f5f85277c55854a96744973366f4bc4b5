@@ -1,0 +1,1 @@
+1acbdc76d6ee73bc2a4d490f8809bd128abafc1f を revert しています。 ostruct の標準添付からの削除には rake からの依存を解消する必要があるとのこと。
