@@ -1,0 +1,1 @@
+Exception#set_backtrace で例外のバックトレースを設定するのに文字列の配列だけでなく Exception#backtrace_locations で取得できる Thread::Backtrace::Location の配列を設定することもできるようにしています。なるほど。 [ruby-core:81102] [Feature #13557]
