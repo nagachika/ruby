@@ -1,0 +1,1 @@
+YJIT で C 実装のメソッドへの rest 引数の最後に Hash オブジェクトの ruby2_keywords フラグの考慮が漏れていたのを修正しています。 https://github.com/ruby/ruby/pull/10226
