@@ -1,0 +1,1 @@
+3896f9940e7f663dd4db8162c071d72e2539addf に追随して YJIT のための C binding で OBJ_TOO_COMPLEX_SHAPE_ID の変更を yjit/src/cruby_bindings.inc.rs に反映させています。
