@@ -1,0 +1,1 @@
+久々に Object Shapes 関係の変更で slot のサイズごとの object space の heap のサイズ? の管理テーブルの構造を変更しているようです。shape id と Variable Width Allocation の heap に関係があるんだっけ。
