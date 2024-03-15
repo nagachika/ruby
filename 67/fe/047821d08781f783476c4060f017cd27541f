@@ -1,0 +1,1 @@
+Dir#chdir のネスト検出のための static 変数 chdir_lock の thread メンバーを GC mark の root として rb_gc_register_address() で登録するように修正しています。 [ruby-core:116621] [Feature #20244]
