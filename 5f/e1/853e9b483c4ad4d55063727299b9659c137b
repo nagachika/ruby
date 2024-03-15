@@ -1,0 +1,1 @@
+拡張ライブラリ fcntl で O_ACCMODE というマクロが未定義の時に自身の定義をして Fcntl::O_ACCMODE 定数の定義の preprocessor 分岐をシンプルにしています。
