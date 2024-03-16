@@ -1,0 +1,1 @@
+make outdate-bundled-gems のためのツール tool/outdate-bundled-gems.rb で --help オプションを受付けてヘルプメッセージ出力するようにしています。 optionparser を使ってるわけじゃなくて自分自身を File.foreach で読んでコメントを切り抜いて表示するという簡易な実装です。
