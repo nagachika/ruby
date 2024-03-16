@@ -1,0 +1,1 @@
+NEWS に 8e1831406ffd385213f67baba0d1fe6d44e9e0ea と ff51dc56540c3ba574a4b3f606bafd57788f620f の RB_NEWOBJ() と RB_NEWOBJ_OF() の削除について追記しています。 [ruby-core:116760] [Feature #20265]
