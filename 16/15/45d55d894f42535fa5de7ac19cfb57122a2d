@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で文字列リテラルに String#+@ をつけて frozen_string_literals が true になっても動くようにしています。実際に magic comment はつけてないですけどデフォルトを frozen_string_literals: true にしようというチケットがあるのでその準備ということみたいです。 [ruby-core:116382] [Feature #20205]
