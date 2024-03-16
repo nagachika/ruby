@@ -1,0 +1,1 @@
+irb の補完処理の Class#name の呼び出しで例外が発生した時に捕捉する修正。 https://github.com/ruby/irb/pull/899
