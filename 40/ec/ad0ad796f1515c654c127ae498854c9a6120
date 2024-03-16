@@ -1,0 +1,1 @@
+rubyparser.h の警告除去のため RUBYPARSER_ATTRIBUTE_FORMAT() というマクロを追加してコンパイラの __attribute__() でフォーマット文字列の指定つきの関数宣言をするようにしています。
