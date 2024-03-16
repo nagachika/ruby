@@ -1,0 +1,1 @@
+4559a161af5cc57c129e3b2806ae7c0cd989b8b7 の再修正で rb_vm_t に追加したメンバー名を gloabl_object_list から global_object_list に修正しています。
