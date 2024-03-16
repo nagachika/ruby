@@ -1,0 +1,1 @@
+variable.c の rb_tmp_class_path() で if ... else の分岐の if のブロックで return しているので else 節を削って if 文の外に出すリファクタリング。
