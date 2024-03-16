@@ -1,0 +1,1 @@
+misc/yjit_perf.py という YJIT のプロファイリング用のスクリプトで perf の python 拡張に依存しないようにしている? みたいです。 https://github.com/ruby/ruby/pull/10246
