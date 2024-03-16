@@ -1,0 +1,1 @@
+remove_instance_variable や Module#set_temporary_name などの rdoc 用コメントの英文修正。
