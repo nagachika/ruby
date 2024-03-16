@@ -1,0 +1,1 @@
+特殊変数 $; への代入の deprecated warning のテストを追加しています。
