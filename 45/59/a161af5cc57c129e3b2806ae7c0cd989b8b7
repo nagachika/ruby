@@ -1,0 +1,1 @@
+GC の root となる rb_objspace_t::global_list というリスト構造体を rb_vm_t::gloabl_object_list に移動しています。 mark_object_ary は rb_vm_t に所属しているのでそれにあわせるためとのこと。
