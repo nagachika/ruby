@@ -1,0 +1,1 @@
+同じく RB_NEWOBJ_OF() マクロと rb_newobj_of() 関数の定義を削除しています。 [ruby-core:116760] [Feature #20265]
