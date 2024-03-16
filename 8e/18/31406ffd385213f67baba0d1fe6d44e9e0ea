@@ -1,0 +1,1 @@
+互換性のために残してあった gc.c の RB_NEWOJ() マクロと rb_newobj() 関数の定義を削除しています。 [ruby-core:116760] [Feature #20265]
