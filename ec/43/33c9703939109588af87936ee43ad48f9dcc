@@ -1,0 +1,1 @@
+doc/syntax/exceptions.rdoc に ensure 節の評価値は(明示的に return しないかぎり)ブロックやメソッドの評価値(戻り値)にならない旨追記しています。
