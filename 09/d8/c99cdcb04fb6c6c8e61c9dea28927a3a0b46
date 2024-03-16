@@ -1,0 +1,1 @@
+bootstraptest/、 test/、 tool/ 配下のスクリプト群で frozen_string_literals: true がデフォルトになっても動くように dup や String#+@ を追加しています。
