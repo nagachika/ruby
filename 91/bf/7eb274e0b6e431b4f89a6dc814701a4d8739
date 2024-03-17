@@ -1,0 +1,1 @@
+[Feature #20205] の frozen_string_literals: true をデフォルトにする布石として frozen_string_literals の値を真偽値で保持するのではなく指定がない場合も区別できるようにしています。警告を出したりするつもりなのかな。
