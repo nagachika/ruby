@@ -1,0 +1,1 @@
+9e470ebdcd59bc2655d78a61e2a8e8bf6a4e0521 の続きで template/encdb.h.tmpl と template/transdb.h.tmpl でファイルのマッチに Dir.open+grep を使っていたのを Dir.glob を使うようにして Kernel#open のかわりに File.open を使うように変更。また flip-flop を使っていたのを展開して使うのをやめています。
