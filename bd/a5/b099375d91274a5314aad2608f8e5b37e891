@@ -1,0 +1,1 @@
+よく読めてませんが irb で history ファイルのファイルパスを決めるロジックを修正しているようです。 https://github.com/ruby/irb/pull/901
