@@ -1,0 +1,1 @@
+ext/ripper/tools/preproc.rb で parse.y の変更によりもう不要になった部分を削除しています。
