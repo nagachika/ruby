@@ -1,0 +1,1 @@
+make test-all のテストおよび rubyspec で Kernel#open と IO#read を使ってたところを File.binread を使うようにリファクタリングしています。
