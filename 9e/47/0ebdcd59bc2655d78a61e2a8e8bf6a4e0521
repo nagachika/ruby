@@ -1,0 +1,1 @@
+301fa452f7a9cdea922103e9c50d85a2d5652d0d とだいぶ前ですが ripper や template/encdb.h.tmpl や template/transdb.h.tmpl などのコード生成テンプレートで flip-flop 文法を利用していたのをやめていたのを revert しています。たしか flip-flop の文法を廃止してなにか別のことに使おうという予定だったんだっけ?
