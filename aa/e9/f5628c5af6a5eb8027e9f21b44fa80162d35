@@ -1,0 +1,1 @@
+d4a53b465a6f77765e29f019d6ea4e6508c39f17 と同様に一カ所テストで Kernel#open と IO#read を使ってたところを File.binread におきかえています。
