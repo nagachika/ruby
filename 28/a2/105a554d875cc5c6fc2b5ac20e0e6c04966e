@@ -1,0 +1,1 @@
+rb_longjmp() の引数や EC_EXEC_TAG() の戻り値の型を int から enum ruby_tag_type という enum 型に変更しています。
