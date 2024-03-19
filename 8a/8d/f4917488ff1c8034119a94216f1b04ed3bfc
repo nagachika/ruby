@@ -1,0 +1,1 @@
+315bde5a0f95562f58405a43456ec6715ef20d32 で Exception#set_backtrace に Thread::Backtrace::Location の配列も受付けるようにした変更について NEWS や rdoc 用コメントに追記/更新しています。 [ruby-core:81102] [Feature #13557]
