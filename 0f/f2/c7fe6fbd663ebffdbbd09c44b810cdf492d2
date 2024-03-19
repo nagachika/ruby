@@ -1,0 +1,1 @@
+Integer.sqrt の実装の初期値の探索を最適化しています。大きな整数についてかなり高速化になるようです。 https://github.com/ruby/ruby/pull/10274
