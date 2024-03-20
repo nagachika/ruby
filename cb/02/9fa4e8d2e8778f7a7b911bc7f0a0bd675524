@@ -1,0 +1,1 @@
+bundler の bundle plugin install サブコマンド(サブサブコマンド?)のオプション --local-git を deprecated としています。 --git オプションと同じ働きだったとのこと。
