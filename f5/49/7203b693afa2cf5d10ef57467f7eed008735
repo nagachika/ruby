@@ -1,0 +1,1 @@
+tool/fetch-bundled_gems.rb でメッセージ出力に tool/lib/colorize.rb を利用して色付けをするようにしています。
