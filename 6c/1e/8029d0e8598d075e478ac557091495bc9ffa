@@ -1,0 +1,1 @@
+標準添付ライブラリ did_you_mean のメッセージ生成のために inspect メソッドを利用していたところを to_s を利用するように変更しています。性能のためとのこと。 https://github.com/ruby/did_you_mean/pull/100
