@@ -1,0 +1,1 @@
+rubygems に vendoring されている net/http の rdoc 用コメント内のリンクを絶対 URL から rdoc-ref によるクロスリファレンスに修正しています。
