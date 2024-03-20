@@ -1,0 +1,1 @@
+internal/gc.h の rb_gc_obj_slot_size() の宣言が重複していたので片方を削除しています。
