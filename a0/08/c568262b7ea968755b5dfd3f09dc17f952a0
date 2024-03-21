@@ -1,0 +1,1 @@
+12be40ae6be78ac41e8e3f3c313cc6f63e7fa6c4 で導入された chilled string のテストで deprecated カテゴリの警告を抑制するため一時的に Warning[:deprecated] = false を設定するようにしています。
