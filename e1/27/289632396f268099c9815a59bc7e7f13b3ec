@@ -1,0 +1,1 @@
+BasicObject の rdoc 用コメント内で respond_to_missing? メソッドの再定義におけるサンプルコードで BasicObject を親クラスとして持つクラスの respond_to_missing? で super を呼んでいたけど BasicObject には未定義なので削っています。 [ruby-core:116837] [Bug #20279]
