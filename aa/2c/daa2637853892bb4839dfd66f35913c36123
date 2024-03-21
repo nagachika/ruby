@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor::RenderedScreen の lines というプロパティの初期値を nil から空配列に変更しています。 https://github.com/ruby/reline/pull/650
