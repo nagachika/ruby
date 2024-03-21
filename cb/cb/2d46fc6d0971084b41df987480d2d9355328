@@ -1,0 +1,1 @@
+Doxygen 用コメントの引数のマークアップ方法が一貫していなかったので修正しています。 https://github.com/ruby/ruby/pull/10285
