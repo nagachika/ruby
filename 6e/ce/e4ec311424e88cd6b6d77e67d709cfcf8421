@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の extconf.rb の TruffleRuby 向けの分岐を削除しています。TruffleRuby 側の修正により不要になったみたいです。 https://github.com/oracle/truffleruby/issues/3170
