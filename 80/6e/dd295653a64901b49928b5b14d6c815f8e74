@@ -1,0 +1,1 @@
+9a6a6b4ba68d8f2bed4b8d57aca42d5b609dfb11 と同様に gc.c のコールバック関数 heap_check_moved_i() でも rb_objspace を直接参照していたのを引数経由で受け取るようにしています。
