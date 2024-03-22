@@ -1,0 +1,1 @@
+Universal Parser を有効にしている時(?) に拡張ライブラリ ripper で struct parser_params 構造体のサイズが異なる(大きくなる)のにメモリ確保が対応していなくて異常終了する可能性があったみたいで、その修正のため rb_ripper_parser_params_allocate() という関数を新規追加して ripper からは rb_parser_params_allocate() のかわりにこれを使って構造体のメモリ領域を確保するようにしています。
