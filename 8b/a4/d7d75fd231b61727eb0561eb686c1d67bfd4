@@ -1,0 +1,1 @@
+parse.y の magic comment shareable_constant_value: literal の処理の関数の引数の型に問題があって異常終了することがあったのを修正しているようです。 [Bug #20339] [Bug #20341]
