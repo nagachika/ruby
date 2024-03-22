@@ -1,0 +1,1 @@
+gc.c の rb_aligned_malloc() という関数が他のソースファイルで未使用だったので static 関数に変更しています。
