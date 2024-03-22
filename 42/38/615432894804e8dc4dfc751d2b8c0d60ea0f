@@ -1,0 +1,1 @@
+YJIT の Rust 実装のブロック引数用の型? を導入しているようです。 https://github.com/ruby/ruby/pull/10287
