@@ -1,0 +1,1 @@
+3d353afeb0ecaf1e64c8fa8f58622bebebfca352 の標準添付ライブラリ rdoc で Marshal.load へのフィルタとして使う Proc オブジェクトでクラス名をチェックする時のメソッド名が String#start_with? の "?" が不足していたので修正しています。
