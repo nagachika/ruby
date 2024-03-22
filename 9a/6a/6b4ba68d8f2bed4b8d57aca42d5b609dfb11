@@ -1,0 +1,1 @@
+gc.c の objspace_reachable_objects_from_root() に渡すためのコールバック関数 root_obj_check_moved_i() 内でグローバル変数の rb_objspace を直接参照していたのを引数のユーザーデータ経由で受け取るようにしています。呼び元で渡しているものも結局 &rb_objspace なので結果は同じですがなにかの布石かな?
