@@ -1,0 +1,1 @@
+構造体 struct rb_io の定義を include/ruby/io.h から削除していたのを revert しています。いくつかの gem が依存していたため。 https://github.com/ruby/ruby/pull/9568 https://github.com/ruby/ruby/pull/10283 [ruby-core:110300] [Bug #19057]
