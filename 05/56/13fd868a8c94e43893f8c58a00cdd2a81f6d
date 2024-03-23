@@ -1,0 +1,1 @@
+Time のタイムゾーン計算する時に wideval_t の値を split_second() を呼んでいましたがこの関数の第3引数は VALUE* 型なのに wideval_t * を渡していたのでその中身の wdivmod() を直接呼ぶように修正しています。
