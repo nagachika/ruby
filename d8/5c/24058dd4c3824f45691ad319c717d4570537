@@ -1,0 +1,1 @@
+irb の rdoc 用コメントから irbrc を読み込む優先順序の記述内の .config/irb/irbrc という行を削除しています。 https://github.com/ruby/irb/issues/904 https://github.com/ruby/irb/pull/906
