@@ -1,0 +1,1 @@
+thread.c の consume_communication_pipe() や rb_thread_sched_destroy()、th_has_dedicated_nt()、waitfd_to_waiting_flag() といった関数の宣言に MAYBE_UNUSED() をつけて未使用の時の警告を抑制するようにしています。 THREAD_MODEL=none にしてビルドした時に利用されないのでその時のためみたいです。
