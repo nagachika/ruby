@@ -1,0 +1,1 @@
+NEWS の frozen_string_literal の指定がない時の chilled string の deprecated 警告の追加についてのエントリのチケット参照がリンクになるようにしています。 [Feature #20205]
