@@ -1,0 +1,1 @@
+ext/extmk.rb で --with/--without オプションに default gems の gem 名を指定できるようにしているようです。
