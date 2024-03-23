@@ -1,0 +1,1 @@
+NEWS の Exception#set_backtrace の引数に受付けるオブジェクトの拡張についてのエントリのチケット参照がリンクになるようにしています。 [Feature #13557]
