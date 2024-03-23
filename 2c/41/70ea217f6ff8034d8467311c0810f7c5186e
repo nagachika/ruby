@@ -1,0 +1,1 @@
+GitHub Actions の Wasm/WASI 版での configure 時に --with-ext オプションから bigdecimal と fiber、gdbm、nkf、racc/cparse などを削除しています。 bundled gems になっているものや既に bundled gems でもないものの拡張ライブラリを static link しようとしているけどこれは未サポートなので。
