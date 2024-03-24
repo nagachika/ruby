@@ -1,0 +1,1 @@
+YJIT の Rust コードをビルドするための rustc や cargo コマンドの実行する Makefile のコマンドの先頭に "+" をつけて make の jobserver のための fd を継承させるようにしています。
