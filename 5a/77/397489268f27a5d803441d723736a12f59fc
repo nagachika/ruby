@@ -1,0 +1,1 @@
+c505bb0ca0fd61c7ae931d26451f11122a2644e9 の再修正で tool/rbinstall.rb で gemspec ファイルを書き換える時に IO.popen の結果からメソッドチェインしていてもエラーにならないようにするところで false && itself を埋め込んでたのはその前の配列と "|| itself" で繋げることで itself 以降は評価されないようにする方法に変更しています。また test/ruby/test_default_gems.rb のテストでこの IO.popen の書き換えをテストしているところがあったのでこれも追随させています。
