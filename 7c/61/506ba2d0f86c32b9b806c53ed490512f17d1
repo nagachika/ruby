@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL によるチェックの workflow でリポジトリが ruby/ruby でない時に macos-14 を指定していたのを ubuntu-latest に変更しています。
