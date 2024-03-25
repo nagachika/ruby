@@ -1,0 +1,1 @@
+拡張ライブラリ win32ole の gemspec ファイルの spec.files を求めるための git ls-files の呼び出しでの除外ファイルパターンの再修正。
