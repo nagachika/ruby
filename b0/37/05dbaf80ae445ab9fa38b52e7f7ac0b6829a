@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストに使う専用の assertion メソッドで必ず対に使ってたものを 1つにまとめるリファクタリング。 https://github.com/ruby/reline/pull/645
