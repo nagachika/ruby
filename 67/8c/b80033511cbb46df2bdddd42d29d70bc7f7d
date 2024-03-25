@@ -1,0 +1,1 @@
+C API のテスト用の拡張ライブラリ ext/-test-/fatal/rb_fatal.c から Bug モジュールの定義部分を ext/-test-/fatal/init.c というファイルに分割して ext/-test-/auto_ext.rb を利用できるようにしています。
