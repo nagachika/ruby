@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストで文字列リテラルに String#@+ をつけています。frozen_string_literal: true がデフォルトになった時の対応のため。 https://github.com/ruby/reline/pull/662
