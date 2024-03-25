@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の端末の色付けをリセットするためのシークエンス出力を Reline::ANSI::RESET_COLOR や Reline::GeneralIO::RESET_COLOR という定数に定義して Reline::GeneralIO を利用している時に不要な出力をしていたのを修正しているようです。 https://github.com/ruby/reline/pull/661
