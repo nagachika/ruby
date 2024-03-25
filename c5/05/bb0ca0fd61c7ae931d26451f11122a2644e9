@@ -1,0 +1,1 @@
+tool/rbinstall.rb で gemspec ファイルの IO.popen による git ls-files の実行部分を削る処理で IO.popen の結果からメソッドチェインしていても動くようにしているようです。 false && itself を後に添えてるので、メソッドチェインしている部分は実行させないようにしているということでしょうか。
