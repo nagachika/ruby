@@ -1,0 +1,1 @@
+ということで e720a6b48582900efd1bd326210644b2fc0f2c5d で revert されてしまった lib/bundled_gems.rb の修正やそのテストを戻しています。
