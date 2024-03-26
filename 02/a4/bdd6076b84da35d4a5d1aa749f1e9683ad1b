@@ -1,0 +1,1 @@
+tool/test_for_warn_bundled_gems/test.sh で各テストのあいだに改行の出力を追加しています。
