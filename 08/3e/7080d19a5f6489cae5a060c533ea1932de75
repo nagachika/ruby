@@ -1,0 +1,1 @@
+tool/rbinstall.rb の 2b703eed46237d28ca71f3ed24f77bf53cf81720 の再修正で拡張ライブラリ default gems の Makefile の target_prefix という変数の指定を考慮するようにしているようです。
