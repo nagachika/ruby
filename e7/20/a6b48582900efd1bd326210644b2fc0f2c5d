@@ -1,0 +1,1 @@
+たぶん misc/lldb_rb/utils.py で lldb のコマンドで String オブジェクトの Chilled String の表示対応をしようとしたのだと思いますが、直近の lib/bundled_gems.rb やそのテストの変更の revert が一緒に入ってしまっています。
