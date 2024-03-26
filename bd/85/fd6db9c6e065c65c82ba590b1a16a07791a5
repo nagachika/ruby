@@ -1,0 +1,1 @@
+tool/rbinstall.rb で拡張ライブラリの Makefile 内に TARGET がなかった時のエラー対策。クロスコンパイルの時に発生しうるみたいです。
