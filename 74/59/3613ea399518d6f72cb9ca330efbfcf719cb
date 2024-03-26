@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で端末を指定する環境変数が TERM=dumb の時にダイアログウィンドウの描画を抑制するようにしているようです。 https://github.com/ruby/reline/pull/663
