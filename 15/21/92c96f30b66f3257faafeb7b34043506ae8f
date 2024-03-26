@@ -1,0 +1,1 @@
+tool/rbinstall.rb で Gem::Specification.load を使ってたところをこのスクリプトで独自に実装している load_gemspec メソッドを利用するようにしています。 spec.files のために git ls-files コマンドを実行しているところを削る処理をしないといけないので。
