@@ -1,0 +1,1 @@
+rubygems で定数名の typo を修正した時に互換性のために残していた古い名前 Gem::UnsatisfiableDepedencyError を削除しています。
