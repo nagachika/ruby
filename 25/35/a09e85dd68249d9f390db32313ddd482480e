@@ -1,0 +1,1 @@
+48d3bdddbaeabed5fb6a97bfbe65e250d1383a9c の続きで ASAN を有効にしてビルドした時の rb_execution_context_t の mark 処理中に rb_objspace_t::marking_machine_context_ec をセットしておくようにしています。コミットログによると current thread の context のみ mark 処理するようにするためみたいです。 [ruby-core:116987] [Bug #20310]
