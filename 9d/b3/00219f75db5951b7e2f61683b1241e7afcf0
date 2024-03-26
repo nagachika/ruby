@@ -1,0 +1,1 @@
+rubygems の上書きする require での default gems/bundled gems の警告出力のテストのための tool/test_for_warn_bundled_gems/ に zeitwerk を利用している状態でのテストを追加しています。
