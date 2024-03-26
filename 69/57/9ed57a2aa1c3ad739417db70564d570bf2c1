@@ -1,0 +1,1 @@
+ASAN を有効にした時の machine stack のすりかえ処理を Fiber 利用時にも対応するようにしています。 [ruby-core:116987] [Bug #20310]
