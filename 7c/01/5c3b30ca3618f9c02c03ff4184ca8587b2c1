@@ -1,0 +1,1 @@
+template/Doxyfile.tmpl から RJIT 関連の未使用のマクロの指定を削除しています。
