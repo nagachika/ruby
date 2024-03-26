@@ -1,0 +1,1 @@
+irb のテストで標準添付ライブラリ reline の変更に追随するための修正。 https://github.com/ruby/irb/pull/908
