@@ -1,0 +1,1 @@
+tool/rbinstall.rb で拡張ライブラリの default gems のインストールするファイルの探索を修正しているようです。
