@@ -1,0 +1,1 @@
+lib/bundled_gems.rb の bootsnap と zeitwerk 対応でバックトレースの除外条件を bootsnap または zeitwerk が含まれているかという決め打ちにしてたのを "require" というメソッド名以外のものをみつけた時にそのフレームを使うというふうに普遍的な判定方法に修正しています。
