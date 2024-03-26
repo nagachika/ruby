@@ -1,0 +1,1 @@
+irb でタブ補完で rdoc のドキュメントを表示するための RDoc::RI::Driver のインスタンスを毎回生成してるのをインスタンス変数で cache して使いまわすようにしています。 https://github.com/ruby/irb/pull/911
