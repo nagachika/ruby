@@ -1,0 +1,1 @@
+d6e9367edb940ea26a51e56b2be1032a97eea4c2 の続き。 lib/bundled_gems.rb で Bootsnap 利用時に require するファイルパスに prefix を追加する変化に対応するようにしています。
