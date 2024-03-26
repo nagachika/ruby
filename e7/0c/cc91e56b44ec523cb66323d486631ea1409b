@@ -1,0 +1,1 @@
+gems/bundled_gems の minitest と power_assert のテストに使う commit hash の指定を更新しています。 chilled string が入ったことに対する対応が行なわれたみたいです。
