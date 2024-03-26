@@ -1,0 +1,1 @@
+magic comment の frozen_string_literals が未指定の時の文字列リテラルの chilled string が文字列バッファの部分文字列の共有に使えるという誤判定をしてしまっていた不具合を修正しています。 FL_FREEZE と STR_CHILLED のビットフラグが両方立ってる状態ってありえたのかな? [ruby-core:117302] [Bug #20389]
