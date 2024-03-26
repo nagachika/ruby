@@ -1,0 +1,1 @@
+61da90c1b8d5c9a62d429ef66f000117eca675b3 あたりで ASAN を有効にした時の machine stack のすりかえ? の対応のための構造体メンバー rb_thread_t::asan_fake_stack_handle を rb_execution_context_t::asan_fake_stack_handle に移動しています。Fiber ごとに持つ必要があったため。 [ruby-core:116987] [Bug #20310]
