@@ -1,0 +1,1 @@
+tool/rbinstall.rb でソースツリー以外のディレクトリでのビルド時の拡張ライブラリを含む default gems のビルドのための Makefile のファイルパス探索の修正。
