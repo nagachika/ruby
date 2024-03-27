@@ -1,0 +1,1 @@
+YJIT の Rust 実装で receiver が String/Array/Hash の時のコード生成で特異クラスがない時に Context を使いまわす? 最適化を行なっています。後から特異クラスが定義された時のため Rust 実装に C に export する関数 rb_yjit_invalidate_no_singleton_class() というのを追加して、特異クラスが生成される時にこれを C 実装側から呼んで、この最適化をクリアするようにしているようです。 https://github.com/ruby/ruby/pull/10323
