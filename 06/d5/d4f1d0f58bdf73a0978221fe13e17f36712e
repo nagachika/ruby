@@ -1,0 +1,1 @@
+rubygems の Gem::Resolver::SpecSpecification に hash メソッドの定義を追加しています。依存関係解決時に Hash のキーとしてうまく比較されなくて不具合があったようです。
