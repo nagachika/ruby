@@ -1,0 +1,1 @@
+rubygems のテストのヘルパーメソッド vendor_gem にブロックを受け取って save_gemspec にそのまま委譲するようにしています。
