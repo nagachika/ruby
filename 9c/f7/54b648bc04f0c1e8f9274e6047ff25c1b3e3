@@ -1,0 +1,1 @@
+コマンドラインオプション --debug=gc_stress の指定を構造体 ruby_gc_params_t のメンバーに保存してたのは Init_gc_stress() の呼び出しより後で効いてなかったので ruby_env_debug_option() 内で直接 objspace->flags.gc_stressful を設定するように修正しています。
