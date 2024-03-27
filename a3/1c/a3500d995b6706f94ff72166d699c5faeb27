@@ -1,0 +1,1 @@
+ISeq のための T_IMEMO 型オブジェクトを GC.compact で移動できるようにしています。
