@@ -1,0 +1,1 @@
+tool/downloader.rb で bundled gems のダウンロード時にバージョンが ".pre" つきの時にはダウンロードが HTTP ステータス 400系(403 Forbidden や 404 Not Found)で失敗しても無視するようにしています。
