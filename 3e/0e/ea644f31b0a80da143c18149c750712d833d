@@ -1,0 +1,1 @@
+Thread::Backtrace クラスの flags から RUBY_TYPED_EMBEDDABLE を消して T_TYPEDDATA 型オブジェクトの Variable Width Allocation による拡張 slot への埋め込みを無効にしています。 4bdb79618b33422551e96723827e50ab20e9abb1 で移動可能にした影響かな?
