@@ -1,0 +1,1 @@
+a31ca3500d995b6706f94ff72166d699c5faeb27 で RubyVM::InstructionSequence を GC.compact で移動可能にした変更を revert しています。 0c114dfcc79cb4690705ec88ebf9147e5c03702d のチェック追加をみるになにか漏れがあって移動に追随できなくて不正な参照ができる可能性があったみたいですね。
