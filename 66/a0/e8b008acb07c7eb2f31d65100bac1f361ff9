@@ -1,0 +1,1 @@
+25d74b9527cd525042ad0b612b794fa331d3a318 の例外メッセージの変更の影響で bundled gems のテストで失敗するものを GitHub Actions でエラー無視させてた d9234ba87b7e48381c8c44ef4a302ef368ee0ee7 を revert しています。
