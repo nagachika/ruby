@@ -1,0 +1,1 @@
+Thread::Backtrace::Location クラスのオブジェクトを GC.compact で移動できるオブジェクトにしています。
