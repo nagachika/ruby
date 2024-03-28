@@ -1,0 +1,1 @@
+Kernel#fork 時に rb_threadptr_pending_interrupt_clear() を親プロセスでも呼び出してブロックしていたシグナルなどの割り込みを消していたのをやめています。子プロセスでは呼ばないでいいのかな? https://github.com/ruby/ruby/pull/10365
