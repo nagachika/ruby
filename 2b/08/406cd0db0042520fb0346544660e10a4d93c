@@ -1,0 +1,1 @@
+文字列オブジェクトが chilled string かどうか判定する C API rb_str_chilled_p() を追加しています。 [ruby-core:117302] [Bug #20389] [ruby-core:116382] [Feature #20205]
