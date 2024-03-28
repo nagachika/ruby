@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence の生成の関数 iseqw_new() で渡された構造体の rb_iseq_t::wrapper メンバーが存在していた場合にそれが同じく ISeq 用の T_TYPEDDATA であるかどうかを確認するようにしています。
