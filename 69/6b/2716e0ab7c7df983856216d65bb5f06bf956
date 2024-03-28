@@ -1,0 +1,1 @@
+recursive_check() という thread.c の static 関数の戻り値の型を VALUE から C の bool に変更しています。
