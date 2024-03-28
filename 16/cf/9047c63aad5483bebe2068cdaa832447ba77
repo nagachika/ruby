@@ -1,0 +1,1 @@
+関数 rb_exec_recursive_paired_outer() と exec_recursive() のコメントでも同様に Qtrue を true に変更する修正。
