@@ -1,0 +1,1 @@
+gc.c の rb_copy_wb_protected_attribute() という関数を rb_gc_copy_attributes() に解明して、rb_gc_copy_finalizer() の呼び出しもその関数内に追加しています。唯一の呼び元の init_copy() では別途 rb_gc_copy_finalizer() を呼んでいたのでリファクタリング。
