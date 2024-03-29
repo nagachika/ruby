@@ -1,0 +1,1 @@
+gc_move() で objspace->obj_to_id_tbl の st_table を検索する前にそのオブジェクトの struct RBasic::flags に FL_SEEN_OBJ_ID フラグが付いてないかチェックしてスキップする最適化。
