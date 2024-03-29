@@ -1,0 +1,1 @@
+Process.warmup でアプリケーションの初期化処理が完了する時に heap のオブジェクトの処理をする時に asan_unpoisoning_object() マクロを利用して ASAN 有効化時の不要な検出を抑制するようにしています。
