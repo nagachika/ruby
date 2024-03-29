@@ -1,0 +1,1 @@
+4566843b3e9daf68984e8b051c7b11023099e788 の再修正。 gc_move() での objspace->obj_to_id_tbl の検索を st_lookup() してから st_delete() で削除するという処理をしていたのを st_delete() を直接呼んで戻り値をチェックするようにしています。
