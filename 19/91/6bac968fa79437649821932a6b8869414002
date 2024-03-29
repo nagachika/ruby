@@ -1,0 +1,1 @@
+9ad175c1ee7137321310c4e87d8ce952b95abc8f、1d99fe430aff34a90544d23edbd707f6f240dafe、f14e52c8c45f1288537ff38c153096d095b5ad20 などの修正で環境変数 RUBY_DEBUG=gc_stress を設定して起動時に GC.stress=true にするテストの skip を revert しています。
