@@ -1,0 +1,1 @@
+同じく rlimit 系のテストで core dump のサイズの指定のためのテストで子プロセスを起動する時に環境変数  ASAN_OPTIONS に disable_coredump=0 を指定するようにしています。
