@@ -1,0 +1,1 @@
+テスト用の Test::Unit 自体のテストでのタイムアウトの秒数に RUBY_TEST_TIMEOUT_SCALE によるスケーリングが効くようにしています。
