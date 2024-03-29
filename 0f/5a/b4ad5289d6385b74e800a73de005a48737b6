@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で 2b08406cd0db0042520fb0346544660e10a4d93c で追加した C API rb_str_chilled_p() を利用して渡されたバッファが chilled string だった時に rb_str_modify() で複製するようにしています。 [ruby-core:117305] [Feature #20390]
