@@ -1,0 +1,1 @@
+コマンドラインオプション --debug=gc_stress で起動処理中の GC.stress=true 状態にする処理で objspace の初期化前に objspace->flags の設定の予約をするため専用の static 変数を導入するように修正しています。
