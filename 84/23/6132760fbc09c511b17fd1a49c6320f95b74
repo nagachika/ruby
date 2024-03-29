@@ -1,0 +1,1 @@
+GitHub Actions の macOS 環境版の workflow で ruby/ruby のリポジトリの時は macos-arm-oss を使うようにしています。
