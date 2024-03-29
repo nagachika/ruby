@@ -1,0 +1,1 @@
+Init_Numeric() で各数字の fstring を生成しておくところであとでまとめて rb_vm_register_global_object() で mark の root に登録していたので途中で fstring 生成時に GC が発生すると回収されてしまう可能性があったので 1つずつ生成してすぐに登録するようにマクロを定義して修正しています。
