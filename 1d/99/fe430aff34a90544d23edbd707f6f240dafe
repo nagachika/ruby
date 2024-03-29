@@ -1,0 +1,1 @@
+VM の内部的な処理をメソッドとして呼び出すためのオブジェクト FrozenCore の classpath の rb_vm_register_global_object() での GC の root 登録を確保してすぐ後に移動しています。これも登録前に GC が発生する可能性があったようです。
