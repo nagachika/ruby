@@ -1,0 +1,1 @@
+common.mk の make clean-runnable で削除対象に $(EXTOUT)/common/$(arch) を追加しています。
