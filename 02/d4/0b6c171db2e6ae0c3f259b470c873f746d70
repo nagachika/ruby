@@ -1,0 +1,1 @@
+thread_pthread.c の USE_UBF_LIST マクロ定義を抑制する条件から __CYGWIN__ マクロの存在チェックを削っています。
