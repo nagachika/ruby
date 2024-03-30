@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ stringio のテストで文字列リテラルに String#@+ をつけて chilled string の警告避けをしています。
