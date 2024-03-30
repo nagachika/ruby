@@ -1,0 +1,1 @@
+GC.compact でのオブジェクトへの参照の対応処理 gc_update_object_references() で Symbol の時の dynamic symbol かどうかのチェックが冗長とのことで削っています。
