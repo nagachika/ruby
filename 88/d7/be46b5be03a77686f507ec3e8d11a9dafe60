@@ -1,0 +1,1 @@
+rubygems の gem rebuild サブコマンドの実装で File.read のかわりに Gem.read_binary を使うなどのリファクタリング。
