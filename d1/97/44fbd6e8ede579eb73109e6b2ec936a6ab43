@@ -1,0 +1,1 @@
+rubygems の gem rebuild サブコマンドの実装の find_gemspec というメソッドを Gem::GemspecHelpers モジュールに切り出すリファクタリング。
