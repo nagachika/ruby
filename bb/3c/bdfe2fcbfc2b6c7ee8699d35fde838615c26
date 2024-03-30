@@ -1,0 +1,1 @@
+YJIT の --yjit-stats オプション指定時の統計情報のカウンタに iseq_alloc_count を追加しています。 https://github.com/ruby/ruby/pull/10398
