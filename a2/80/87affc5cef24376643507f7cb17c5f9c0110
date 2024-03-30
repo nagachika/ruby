@@ -1,0 +1,1 @@
+e5def27fbfaca4f08ff3a9bcf4c27742371a1da9 で追加の rubygems の gem rebuild サブコマンドに --diff オプションを追加して、diffoscope というコマンドを使って結果のパッケージファイルの比較をするようにしています。
