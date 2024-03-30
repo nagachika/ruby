@@ -1,0 +1,1 @@
+rubygems の Gem::Package::FormatError.new に File でなく文字列を渡しても対応するように修正しています。
