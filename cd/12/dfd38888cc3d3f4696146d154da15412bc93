@@ -1,0 +1,1 @@
+e5def27fbfaca4f08ff3a9bcf4c27742371a1da9 の rubygems の gem rebuild サブコマンドの実装で File オブジェクトの close 漏れを修正しています。
