@@ -1,0 +1,1 @@
+rubygems の gem rebuild サブコマンドで古いパッケージのビルドに使った rubygems のバージョンをチェックするようにしています。
