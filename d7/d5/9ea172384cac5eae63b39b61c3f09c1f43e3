@@ -1,0 +1,1 @@
+bundler のテストに bundle update での Gemfile.lock の生成についてのテストを追加しています。
