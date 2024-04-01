@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md に ASAN を有効にしてテストを実行する方法について追記しています。
