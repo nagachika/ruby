@@ -1,0 +1,1 @@
+f697d3242feeb18dae3b9f5e9addebb11e5442ff の続きで tool/missing-baseruby.bat という複数の言語(bat ファイルや shell)として記述されているスクリプトに ruby として動作するための記述も追加して  win32/Makefile.sub で BASERUBY を探す時にもこの実装を利用して tool/missing-baseruby.bat で探すようにしています。
