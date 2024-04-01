@@ -1,0 +1,1 @@
+configure で BASERUBY のバージョンのチェックでのバージョン番号を tool/missing-baseruby.bat から抽出するようにしてバージョンの記述箇所をまとめるようにしているようです。
