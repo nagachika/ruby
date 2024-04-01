@@ -1,0 +1,1 @@
+Array#sample や RubyVM::InstructionSequence.load や文字列の連結処理などで中間オブジェクトをコンパイラの最適化による GC の mark 漏れから保護するための RB_GC_GUARD() を追加しています。 [ruby-core:117380] [Bug #20402]
