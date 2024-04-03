@@ -1,0 +1,1 @@
+rubygems の再定義する require で警告する対象の gem に ostruct を 3.5 以降で警告するよう追加しています。
