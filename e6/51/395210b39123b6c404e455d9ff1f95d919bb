@@ -1,0 +1,1 @@
+rubygems で上書きする require で default gems などに警告を出すための lib/bundled_gems.rb で pstore も 3.5 から警告を出力するようにしています。
