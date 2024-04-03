@@ -1,0 +1,1 @@
+internal/parse.h で定義している構造体 rb_strterm_t のメンバー flags を削除して bool 型の heredoc をかわりに追加しています。 T_IMEMO 型オブジェクトではなくなったため VALUE 型のメンバーを消すためのようです。
