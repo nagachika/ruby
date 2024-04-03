@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor::MenuInfo を Struct のインスタンスから class 文で宣言する通常のクラスにして表示の整形処理を実装しています。 https://github.com/ruby/reline/pull/613
