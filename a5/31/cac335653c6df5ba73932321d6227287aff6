@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の補完処理のための Proc オブジェクトの実装などのリファクタリング。 https://github.com/ruby/reline/pull/647
