@@ -1,0 +1,1 @@
+rubygems の再定義する require で default gems や bundled gems に警告を出力する lib/bundled_gems.rb で bundled gems の開発用のリポジトリ内での require 時の警告を抑制するための対応のようです。
