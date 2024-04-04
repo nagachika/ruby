@@ -1,0 +1,1 @@
+YJIT の arm64 向けの機械語生成で不要なレジスタ利用を抑制する細かな最適化を行なっています。 https://github.com/ruby/ruby/pull/10402
