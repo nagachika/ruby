@@ -1,0 +1,1 @@
+rb_darray_make_without_gc()、rb_darray_append_without_gc() といった darray の _without_gc の suffix つきの API を削除しています。そもそも darray ってなんだっけ。なんにせよ _without_gc はメモリ確保に失敗した時に rb_bug() ですぐに異常終了して GC を起動しないことを保証する関数ですが、かわりに DURING_GC_COULD_MALLOC_REGION_{START,END}() マクロを使って一時的に GC を無効化するようにしています。
