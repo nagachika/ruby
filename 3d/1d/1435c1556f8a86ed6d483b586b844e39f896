@@ -1,0 +1,1 @@
+test/unit の Launchable 向けのテストの情報を JSON でダンプする処理の実装のリファクタリング。
