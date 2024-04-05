@@ -1,0 +1,1 @@
+ast.c から rb_script_lines_for() という関数の実装を ruby_parser.c に移動しています。 RubyVM::AbstractSyntaxTree.of の実装からも呼んでいましたがこれは不要ということで呼び出しを削っています。
