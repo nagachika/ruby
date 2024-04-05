@@ -1,0 +1,1 @@
+doc/yjit/yjit.md の YJIT を使う時のパフォーマンスのための実装方針についての記述を更新しています。 https://github.com/ruby/ruby/pull/10445
