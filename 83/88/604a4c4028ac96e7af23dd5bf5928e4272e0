@@ -1,0 +1,1 @@
+GitHub Actions での pull request の自動 reviewer 設定をやめて .github/CODEOWNERS ファイルを置くようにしていたのをまた revert して necojackarc/auto-request-review アクションの利用に戻しています。
