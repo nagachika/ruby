@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence を GC.compact で移動可能にした変更を revert していた 16c18eafb579cf2263c7e0057c4c81358fe62075 を revert して、つまり再度移動可能にしています。 iseqw_new() の rb_check_typeddata() の戻り値の扱いに修正がありそう。
