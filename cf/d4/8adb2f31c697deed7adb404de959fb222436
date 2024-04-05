@@ -1,0 +1,1 @@
+Universal Parser 用の rb_parser_config_t 構造体の関数ポインタのメンバー ractor_make_shareable が不要になっていたので削除しています。
