@@ -1,0 +1,1 @@
+Ractor のための magic comment shareable_constant_value の処理を parse.y から compile.c に移動しています。 parse.y の CRuby 依存を減らすための一環でしょう。
