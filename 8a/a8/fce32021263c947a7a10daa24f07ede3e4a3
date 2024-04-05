@@ -1,0 +1,1 @@
+compile.c の compile_shareable_constant_value() で switch 文の default 節を追加して rb_bug() で異常終了するようにしています。警告抑制のため。
