@@ -1,0 +1,1 @@
+YJIT のスタックからオペランドの情報を取得する Context.sp_opnd メソッドの引数をバイト数から VALUE 型の slot 数での指定にリファクタリングしています。 https://github.com/ruby/ruby/pull/10442
