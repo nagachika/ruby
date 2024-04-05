@@ -1,0 +1,1 @@
+Object#method_missing を public にしてから require した時の GC のテスト? で子プロセスのタイムアウトを設定しています。
