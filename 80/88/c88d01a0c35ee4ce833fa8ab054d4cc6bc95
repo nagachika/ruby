@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の割り込みで端末モードを戻すのに失敗することがあった不具合を修正。 https://github.com/ruby/reline/pull/646
