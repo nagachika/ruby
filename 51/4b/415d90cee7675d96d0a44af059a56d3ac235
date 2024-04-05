@@ -1,0 +1,1 @@
+拡張ライブラリ json の json/generic_object.rb で require "ostruct" が LoadError を発生させた時に独自に警告メッセージを出力するようにしています。
