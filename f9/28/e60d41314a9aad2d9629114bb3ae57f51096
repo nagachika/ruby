@@ -1,0 +1,1 @@
+signal.c の CHECK_STACK_OVERFLOW() マクロで siginfo_t::si_code をチェックしてシグナルの送信元がカーネルからかどうか確認してから stack overflow のチェックに入るようにしています。
