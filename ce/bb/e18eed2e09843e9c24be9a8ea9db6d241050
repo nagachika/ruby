@@ -1,0 +1,1 @@
+node.c の rb_ast_node_type_change() という assertion するための関数は既に常に異常終了しないようになっていて不要だったので削除しています。
