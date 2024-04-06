@@ -1,0 +1,1 @@
+NODE の NODE_ARGS_AUX 型のための構造体 rb_node_args_aux_t のメンバー nd_plen の型を long から int に変更しています。参照するたびに rb_long2int() で変換していたので元から int にする変更。
