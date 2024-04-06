@@ -1,0 +1,1 @@
+トップレベルでの public/private/protected や ruby2_keywords が Kernel#load の第2引数に true を渡して無名 Module 内で実行するスクリプトではエラーになっていた不具合を修正しています。 [ruby-core:117200] [Bug #20342]
