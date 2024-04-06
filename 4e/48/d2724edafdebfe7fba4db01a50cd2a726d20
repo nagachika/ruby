@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の readline の呼び出しを Mutex で排他処理するようにしています。 https://github.com/ruby/reline/pull/669
