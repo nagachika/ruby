@@ -1,0 +1,1 @@
+gc.c の rb_objspace_alloc() と Init_heap() の内容を1つの関数にマージして Init_BareVM() から呼び出すようにリファクタリングしています。
