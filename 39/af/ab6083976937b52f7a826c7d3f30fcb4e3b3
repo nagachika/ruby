@@ -1,0 +1,1 @@
+node.c から Universal Parser 向けの未使用になってたマクロ定義を削除しています。
