@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor#finalize を呼ぶために全例外を rescue していたのを ensure 節にまとめています。 https://github.com/ruby/reline/pull/668
