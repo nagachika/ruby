@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のカーソル表示の制御処理で端末情報が terminfo のデータベースから得られない時に例外発生させないで処理をスキップさせるようにしているようです。 https://github.com/ruby/reline/issues/447 https://github.com/ruby/reline/issues/543 https://github.com/ruby/reline/pull/673
