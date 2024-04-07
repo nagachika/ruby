@@ -1,0 +1,1 @@
+symbol.c の get_id_serial_entry() でもデバッグのためか引数の enum id_entry_type の値に対応して期待した戻り値のオブジェクトタイプになっているかのチェックをする RUBY_ASSERT() を追加しています。
