@@ -1,0 +1,1 @@
+gc.c の objspace_each_pages() という関数は GC_CAN_COMPILE_COMPACTION マクロが定義されている時だけコンパイルするように preprocessor 分岐を追加しています。
