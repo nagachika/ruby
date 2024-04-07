@@ -1,0 +1,1 @@
+46ebc48e62e80426da78cdec6d2fbcf267b0ddcf と同様のデバッグ用のメソッド GC.remove_stress_to_class の rdoc 用コメントに :nodoc: タグを追加してドキュメント生成を抑制しています。
