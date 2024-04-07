@@ -1,0 +1,1 @@
+deprecated にしていた rb_gc_force_recycle() という C API を削除しています。
