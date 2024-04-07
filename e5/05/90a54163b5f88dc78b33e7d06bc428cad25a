@@ -1,0 +1,1 @@
+Symbol#inspect の実装で戻り値が T_STRING 型オブジェクトになっていることをチェックする RUBY_ASSERT() を追加しています。
