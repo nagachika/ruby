@@ -1,0 +1,1 @@
+7767db237935135e14cb0f9ca70aa3a8dea03faa で parse.y の WANR_IVAL() マクロが未使用になったので定義を削除しています。
