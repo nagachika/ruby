@@ -1,0 +1,1 @@
+dfa0897de89251a631a67460b941cd24a14c9b55 で internal/parser.h の変更が意図せず revert されてしまったので全体をまとめて revert しています。元の変更もあらためて後で入れなおすということみたいです。 https://github.com/ruby/ruby/pull/10478 https://github.com/ruby/ruby/pull/10480
