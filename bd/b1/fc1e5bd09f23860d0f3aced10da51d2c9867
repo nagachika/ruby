@@ -1,0 +1,1 @@
+non-blocking Fiber のテストのための Scheduler の実装で Fiber#resume でなく Fiber#transfer を利用するように変更しています。 https://github.com/ruby/ruby/pull/10479
