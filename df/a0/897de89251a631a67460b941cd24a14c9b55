@@ -1,0 +1,2 @@
+rb_fiber_new() で Fiber 作成時のデフォルトを non-blocking Fiber を作るように変更しています。コミットログによると Enumerator のためみたいで、確かにこの関数を呼ぶのは Enumerator の作成時だけみたいです。関数名からすると意外。 https://github.com/ruby/ruby/pull/10478
+しかしなぜか 6bfabd076b99bd47ee10277b8de24aaa791be69b の internal/parse.h の変更がいっしょに巻き戻ってしまっているようです。
