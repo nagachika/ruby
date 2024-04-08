@@ -1,0 +1,1 @@
+コマンドラインオプションの --dump の insns_without_opt や parsetree_with_comment のような他のオプションに suffix をつけたものを parsetree+with_comment のように "+" で連結するように変更? しています。 [ruby-core:117088] [Feature #20329]
