@@ -1,0 +1,1 @@
+parse.y の RIPPER マクロでの preprocessor 分岐で case 文の when 節の重複警告関係の処理を除外するようにしていたのをやめています。また rb_parser_check_literal_when() という関数は check_literal_when() に解明して static 関数にしています。 ripper から呼ぶ必要がなくなったということかな。
