@@ -1,0 +1,1 @@
+ruby.c の push_include() という関数を削除して呼び元の push_include_cygwin() に展開しています。
