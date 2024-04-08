@@ -1,0 +1,1 @@
+02f5e627a49c28beb421c869e4e1d4525d59d8ac で Universal Parser 用の構造体の関数ポインタのメンバー num2int が不要になったようなので削除しています。
