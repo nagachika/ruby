@@ -1,0 +1,1 @@
+0d93fd0f69cf6b8f60d76948b2e7d1144c1cd843 の続きのリファクタリングで ruby.c の push_include() という関数を唯一の呼び元の ruby_push_include() に展開しています。
