@@ -1,0 +1,1 @@
+struct RString 構造体のコメントのフラグの説明に chilled string 用のビットフラグ STR_CHILLED の項目を追記しています。 [ruby-core:116382] [Feature #20205]
