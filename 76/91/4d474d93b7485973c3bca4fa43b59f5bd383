@@ -1,0 +1,1 @@
+rubygems の再定義する require での default gems/bundled gems の警告のための lib/bundled_gems.rb で呼び元の特定のために caller_locations を呼び出してバックトレースを検索する処理で nil が返ってきた時の対応を追加しています。 -r オプションで暗黙的に require した場合に発生しうるみたいです。
