@@ -1,0 +1,1 @@
+余分な変更が混ざってしまったため一度 revert した dfa0897de89251a631a67460b941cd24a14c9b55 の Enumerator 用の Fiber の作成時に non-blocking Fiber にする変更を再度入れています。 https://github.com/ruby/ruby/pull/10481
