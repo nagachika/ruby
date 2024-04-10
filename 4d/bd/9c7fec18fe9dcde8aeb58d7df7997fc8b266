@@ -1,0 +1,1 @@
+Universal Parser のための構造体 rb_parser_config_t の関数ポインタのメンバー ary_new2 が未使用になっていたので削除しています。
