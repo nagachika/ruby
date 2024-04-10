@@ -1,0 +1,1 @@
+bundled gems のバージョンの更新を監視して gems/bundled_gems や NEWS を更新するための GitHub Actions の workflow で bundler のテストの rake バージョンも更新するため spec/bundler/support/builders.rb を編集するようにしています。
