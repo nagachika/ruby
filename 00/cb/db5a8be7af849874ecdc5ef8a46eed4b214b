@@ -1,0 +1,1 @@
+GitHub Actions でコミットログに "Documentation" が含まれていた時にビルドを skip していたのを "Document" だけでも skip するようにしています。
