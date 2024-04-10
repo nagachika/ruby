@@ -1,0 +1,1 @@
+bootstraptest/runner.rb で String#match のかわりに String#[] を利用するように変更しています。1.8 というかなり古いバージョンとの互換性のためだったみたいです。
