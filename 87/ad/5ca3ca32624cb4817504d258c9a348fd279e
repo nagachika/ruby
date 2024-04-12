@@ -1,0 +1,1 @@
+Universal Parser のための構造体 rb_parser_config_t のメンバー qundef を削除しています。 39be11a17a221387b7eedd455114d6e87088ac60 の修正により未使用になったようです。
