@@ -1,0 +1,1 @@
+ruby_parser.c の rb_str_new_parser_string() という関数で文字列オブジェクトを作る時に rb_enc_str_new() で新規オブジェクトを作るのではなく rb_enc_interned_str() で最初から fstring を返すようにして、作ったオブジェクトを呼び元ですぐ rb_fstring() に渡していたのをやめています。freeze されてない文字列が必要だった場合のためにかわりに rb_str_new_mutable_parser_string() という関数を追加しています。不要な中間オブジェクトの確保を減らすためと思われます。
