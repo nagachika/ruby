@@ -1,0 +1,1 @@
+universal_parser.c の重複していた st_init_table_with_size マクロ定義を削除しています。
