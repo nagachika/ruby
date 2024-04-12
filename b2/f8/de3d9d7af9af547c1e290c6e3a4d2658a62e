@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境の workflow で os の指定のデフォルト値に ubuntu-22.04 の指定を追加しています。
