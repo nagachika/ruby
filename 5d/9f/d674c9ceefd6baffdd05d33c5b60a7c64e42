@@ -1,0 +1,1 @@
+inline 関数 rb_gc_force_recycle() を空の関数として復活させて、RBIMPL_ATTR_DEPRECATED() を使って deprecated 警告を出すようにしています。
