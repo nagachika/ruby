@@ -1,0 +1,1 @@
+6a505d1b59cf326a8e004fc06e02f30222b17f3f の irb の組み込みコマンドの実装方針変更で debug.gem 統合用の各コマンドの execute メソッド内で個別に rstrip を呼んでたのを親クラスで呼ぶように統合しています。 https://github.com/ruby/irb/pull/918
