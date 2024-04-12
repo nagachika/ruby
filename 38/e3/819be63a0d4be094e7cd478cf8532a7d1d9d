@@ -1,0 +1,1 @@
+6a505d1b59cf326a8e004fc06e02f30222b17f3f の irb の組み込みコマンドの実装方針変更で debug.gem との連係のコマンド実行時に環境変数 RUBY_DEBUG_TEST_UI=terminal が設定されていた時に標準出力への表示を追加しています。ちょっとよくわからないですが multi Thread 対応の関係で出力するタイミングが取れないテスト用のメッセージをここで出すようにしているみたいです。 https://github.com/ruby/irb/pull/919
