@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.parse がブロックパラメーターのうち ";" で区切られた block local variables に対して警告を出力してしまっていたのを修正しています。 [ruby-core:117477] [Bug #20417]
