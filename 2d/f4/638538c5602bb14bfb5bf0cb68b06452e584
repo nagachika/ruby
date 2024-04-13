@@ -1,0 +1,1 @@
+template/Makefile.in で拡張ライブラリの clean 処理のターゲット .bundle/*clean.sub たちの依存関係から ext/*.mk を消しています。
