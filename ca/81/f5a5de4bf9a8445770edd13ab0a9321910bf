@@ -1,0 +1,1 @@
+template/Makefile.in にターゲット .bundle/realclean を追加して bundled gems のインストール時の lock ファイルを削除させるようにしています。
