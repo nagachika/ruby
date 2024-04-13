@@ -1,0 +1,1 @@
+6a505d1b59cf326a8e004fc06e02f30222b17f3f の irb の組み込みコマンドの実装方針変更で IRB::Context#evaluate の呼び元でやってたコマンドかどうかによる分岐を IRB::Context#evaluate 内に移動するリファクタリング。 https://github.com/ruby/irb/pull/920
