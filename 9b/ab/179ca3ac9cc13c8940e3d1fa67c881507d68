@@ -1,0 +1,1 @@
+edec690e0331b5aa851b3a7c9872b2bf92f3cb21 の続きで gc.c の rb_find_object_id() で flonum とそれ以外の即値オブジェクトで分岐後の処理が同じなので分岐をシンプルにしています。
