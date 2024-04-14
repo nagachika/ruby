@@ -1,0 +1,1 @@
+bundler の bundle add サブコマンドにワイルドカードの展開による gemspec の探索を指定する --glob オプションを追加しています。
