@@ -1,0 +1,1 @@
+parse.y の struct parser_params::delayed::token の型を VALUE から rb_parser_string_t* に変更して VALUE 依存を減らしています。
