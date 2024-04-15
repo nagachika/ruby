@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の補完時の選択カーソル移動の修正のようです。 https://github.com/ruby/reline/pull/675 https://github.com/ruby/reline/pull/677
