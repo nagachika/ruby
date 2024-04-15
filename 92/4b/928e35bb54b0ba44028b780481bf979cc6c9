@@ -1,0 +1,1 @@
+Universal Parser 用構造体 rb_parser_config_t の関数ポインタのメンバー str_buf_new、str_buf_cat、enc_str_buf_cat、str_buf_append などを削除しています。
