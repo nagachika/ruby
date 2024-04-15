@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の未使用の関数の prototype 宣言 ripper_get_value() と ripper_get_id() を削除しています。
