@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の vi mode, emacs mode のキーバインディングの不要なもの(重複しているもの)を削除しているようです。 https://github.com/ruby/reline/pull/678
