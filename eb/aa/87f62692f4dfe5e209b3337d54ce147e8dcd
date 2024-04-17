@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t の未使用になった関数ポインタのメンバー ary_modify、default_rs、enc_associate_index、obj_write、gc_mark_and_move などを削除しています。
