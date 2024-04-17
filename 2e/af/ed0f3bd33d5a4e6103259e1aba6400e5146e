@@ -1,0 +1,1 @@
+YJIT の arm64 アーキテクチャ向けの命令生成で VM の最適化命令 opt_and, opt_or などで不要なレジスタ利用を抑制する最適化。 https://github.com/ruby/ruby/pull/10509
