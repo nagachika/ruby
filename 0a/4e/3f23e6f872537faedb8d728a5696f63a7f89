@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の emacs モードでの未実装の key binding の削除。 https://github.com/ruby/reline/pull/680
