@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 環境の workflow に --with-shared-gc つきでビルドしてテストするジョブを追加しています。 [ruby-core:117263] [Feature #20351]
