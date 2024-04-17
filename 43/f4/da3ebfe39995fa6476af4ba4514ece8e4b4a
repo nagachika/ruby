@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の vi mode でのカーソル移動の不具合修正のようです。 https://github.com/ruby/reline/pull/679
