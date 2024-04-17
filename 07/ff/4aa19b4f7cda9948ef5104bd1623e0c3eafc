@@ -1,0 +1,1 @@
+bb1c3418d0fd3235c678ad68f7b45d32f8183a3f で修正していた String#@- のテストで assert のメッセージにデバッグ用に ObjectSpace.dump によるダンブを追加しています。
