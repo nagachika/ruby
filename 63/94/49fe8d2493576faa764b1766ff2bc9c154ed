@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor にキーバインディングのモードを変更するためのメソッド #emacs_editing_mode と #vi_editing_mode を追加しています。 https://github.com/ruby/reline/pull/681
