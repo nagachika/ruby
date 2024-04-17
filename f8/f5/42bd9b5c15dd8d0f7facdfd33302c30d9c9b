@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の extconf.rb で rb_file_s_birthtime() という C API の存在チェックをしていたのがもうサポート対象のバージョンでは全て存在するのでチェックをやめています。
