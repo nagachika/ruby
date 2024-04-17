@@ -1,0 +1,1 @@
+Enumerator.product が返す Enumerator が引数の一部の Enumerator が size=0 であるため 0 であることが自明な場合はすぐに 0 を返すようにしています。 [ruby-core:117056] [Bug #20325]
