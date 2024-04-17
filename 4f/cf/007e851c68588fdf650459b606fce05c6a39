@@ -1,0 +1,1 @@
+NEWS に Range#size が #each が TypeError を返すような開始/終了の要素の時に TypeError を返すようにした変更について追記しています。 [Misc #18984]
