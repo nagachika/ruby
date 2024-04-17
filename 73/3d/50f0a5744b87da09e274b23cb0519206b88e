@@ -1,0 +1,1 @@
+darray.h から internal/gc.h の #include を削除していくつかメモリ管理用の関数を xcalloc()/xfree()/xrealloc() で代用するようにしています。
