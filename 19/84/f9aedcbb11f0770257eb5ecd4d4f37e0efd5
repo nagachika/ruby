@@ -1,0 +1,1 @@
+Kernel#autoload? の rdoc 用コメントに呼び元の cref の継承関係に影響されることを明記しています。
