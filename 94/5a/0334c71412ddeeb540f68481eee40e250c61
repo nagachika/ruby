@@ -1,0 +1,1 @@
+cc37c89c2f4253a6f39a36ad610d0ba89c4257e8 で make 時には docs を生成せず make install 時にするようにしたので doc/contributing/building_ruby.md でインストール時のステップとして make と make install を分離するようにしています。
