@@ -1,0 +1,1 @@
+RB_OBJ_FREEZE_RAW() およびその wrapper macro の OBJ_FREEZE_RAW() の利用している箇所をそれぞれ RB_OBJ_FREEZE()/OBJ_FREEZE() を利用するように変更しています。 Object Shapes の対応のための処理が _RAW 版では抜けているので潜在的な不具合がありそうなので予防的修正をしているそうです。
