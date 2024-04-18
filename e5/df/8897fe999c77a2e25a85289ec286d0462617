@@ -1,0 +1,1 @@
+gc.c の gc_sweep_page() で GET_THREAD() が NULL かどうかチェックして finalizer の登録処理を読んでたのを分岐を消しています。
