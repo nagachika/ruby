@@ -1,0 +1,1 @@
+make all の依存関係から docs を削除して通常の make 時に docs の生成を抑制するようにしています。make install 時には生成される模様。 [ruby-core:117225] [Feature #20347]
