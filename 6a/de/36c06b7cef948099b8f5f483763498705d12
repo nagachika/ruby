@@ -1,0 +1,1 @@
+Fiber#raise が Fiber#resume の呼び元の Fiber にも例外を伝播させるようにしているようです。ふーむ? それでいいのかなと思ったけどチケットもあって Matz の approval を得ているのでそういうもののようです。 https://github.com/ruby/ruby/pull/10482 [ruby-core:117458] [Bug #20414]
