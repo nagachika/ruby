@@ -1,0 +1,1 @@
+オブジェクトを freeze する RB_OBJ_FREEZE_RAW() の実装を rb_obj_freeze_inline() に委譲するようにして RB_OBJ_FREEZE_RAW() でやっていた Chilled String 用の対応を rb_obj_freeze_inline() に移動しています。 rb_obj_freeze_inline() で行なっていた Object Shapes のための shape の再設定が必要だったのでその不具合修正も含めて同じ処理を使いまわすようにしたようです。
