@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_a で 9180e33ca3a5886fec3f9e0a2f48072b55914e65 でブロックを使わないメソッドへのブロック渡しの警告のために導入したメソッドの use_block フラグを結果に含めるようにしています。
