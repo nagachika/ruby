@@ -1,0 +1,1 @@
+f9f301800199e7b5b9a6e92cf726cd0214d417a4 で追加した RubyVM::InstructionSequence#to_a のテストを prism 利用時にはまだ ISeq がフラグに対応していないので? skip するようにしています。
