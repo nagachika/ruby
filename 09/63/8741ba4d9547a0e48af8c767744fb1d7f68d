@@ -1,0 +1,1 @@
+ブロックを受け取る Thread.each_caller_location メソッドに Kernel#caller_locations などと同様に取得するフレームの範囲を指示する引数を受付けるようにしています。 [ruby-core:117147] [Feature #20335]
