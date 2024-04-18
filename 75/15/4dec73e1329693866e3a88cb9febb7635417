@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#read に読み込み先のバッファを引数で渡した場合にその文字列の Encoding が ASCII-8BIT に変更されてしまうという不具合? を修正しています。しかしこれは不具合なのかな? https://github.com/ruby/stringio/pull/95 [ruby-core:117478] [Bug #20418]
