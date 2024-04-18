@@ -1,0 +1,1 @@
+YJIT の send 命令のコンパイル時に send 系関数の呼び出しが成功した後に次の VM 命令のコンパイル結果への明示的な jump 命令を生成するようにしているみたいです。 pull request をみるとローカル変数の共有についての最適化の下準備っぽいです。 https://github.com/ruby/ruby/pull/10539
