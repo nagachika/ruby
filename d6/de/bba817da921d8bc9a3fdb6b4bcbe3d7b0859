@@ -1,0 +1,1 @@
+gc.c の gc_is_moveable_obj() でここに渡される T_SYMBOL 型のオブジェクトは全て dynamic symbol のはずなので DYNAMIC_SYM_P() でのチェックは冗長ということで削除しています。
