@@ -1,0 +1,1 @@
+09638741ba4d9547a0e48af8c767744fb1d7f68d の Thread.each_caller_location の変更で意図せず rubyspec の変更が入ってしまっていた部分を revert しています。
