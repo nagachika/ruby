@@ -1,0 +1,1 @@
+bundler の Gemfile.lock に記述する platform から local platform というのは除くようにしています。bundle を実行する環境の arch が追加されちゃうのがなくなるのかな?
