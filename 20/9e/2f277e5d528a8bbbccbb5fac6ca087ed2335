@@ -1,0 +1,1 @@
+gc.c の gc_is_moveable_obj() で即値である T_NIL 型オブジェクトというか VALUE の値を受付けないようにしています。
