@@ -1,0 +1,1 @@
+GitHub Actions の YJIT を有効にした Ubuntu 環境の workflow でテスト全体のタイムアウトを 60分から 90分に伸ばしています。
