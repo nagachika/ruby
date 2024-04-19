@@ -1,0 +1,1 @@
+bundled gems のテストのための tool/bundler/dev_gems.rb の turbo_tests の依存バージョンを 2.2.0 に更新しています。
