@@ -1,0 +1,1 @@
+gc.c の gc_enter() で RGenGC のデバッグ用ビルド時の gc_verify_internal_consistency() の呼び出しの条件に dont_gc フラグが立ってないことを追加しています。finalizer の処理中に一時的に GC を無効にしているために GC 無効状態でこの関数が呼ばれるパスがありえたとのこと。
