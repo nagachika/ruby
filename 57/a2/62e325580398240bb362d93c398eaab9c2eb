@@ -1,0 +1,1 @@
+irb の出力の色付けのテストで TAB (\t)が空白 2つ? に escape されるケースのための対応を追加しています。 https://github.com/ruby/irb/pull/924
