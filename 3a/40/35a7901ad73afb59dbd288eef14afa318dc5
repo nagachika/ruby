@@ -1,0 +1,1 @@
+gc.c に rb_objspace_t::rgengc.need_major_gc へのアクセスのショートカットをするマクロ gc_needs_major_flags というのを追加しています。
