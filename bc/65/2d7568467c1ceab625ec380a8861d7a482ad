@@ -1,0 +1,1 @@
+コミットログをみると bundler の source が rubygems.org 以外の時に user, password を URL に埋め込んだものを Gemfile.lock に書いてしまわないようにするための変更が主体のようです。しかし bundler の man ページの更新が混じってしまっているようです。
