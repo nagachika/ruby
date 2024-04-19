@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の複数行編集まわりの処理のための分岐を Reline::LineEditor 内に取り込むリファクタリング。 https://github.com/ruby/reline/pull/653
