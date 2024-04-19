@@ -1,0 +1,1 @@
+common.mk に lib/prism/reflection.rb のためのターゲットを追加しています。
