@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr に x.x.x.x/y (IPv4 の場合)のような mask 範囲つきの表示を返す IPAddr#cidr メソッドを新規追加しています。
