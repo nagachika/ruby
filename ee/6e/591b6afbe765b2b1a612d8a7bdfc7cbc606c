@@ -1,0 +1,1 @@
+object_id の通し番号を管理する rb_objspace_t::next_object_id メンバーの型を VALUE から unsigned long long に変更して各所で Integer との変換をしていたのをやめています。 最低でもおよそ 10**17 もあるからオーバーフローしないやろ、とのこと。
