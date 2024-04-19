@@ -1,0 +1,1 @@
+NEWS のチケットの参照のための footnote の生成のための tool/update-NEWS-refs.rb で bugs.ruby-lang.org のチケットの種別の Misc にも対応するようにしています。
