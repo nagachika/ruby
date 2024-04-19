@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の未使用のローカル変数の削除。 https://github.com/ruby/reline/pull/684
