@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::Command::Base から一部のメソッドを別の IRB::Command::RubyArgsExtractor というモジュールに分離して利用する組み込みコマンド実装のクラスで include するようにリファクタリングしています。 https://github.com/ruby/irb/pull/922
