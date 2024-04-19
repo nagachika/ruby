@@ -1,0 +1,1 @@
+標準添付ライブラリ irb のプロンプト表示で使える指示子についての rdoc 用コメントの %NNi と %NNn の説明をより詳細にしています。 https://github.com/ruby/irb/pull/926
