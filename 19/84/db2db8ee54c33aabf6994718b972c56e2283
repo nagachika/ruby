@@ -1,0 +1,1 @@
+enc/make_encmake.rb のファイル生成に tool/lib/output.rb の Output クラスを利用するようにしています。
