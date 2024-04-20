@@ -1,0 +1,1 @@
+gc.c の rb_size_pool_slot_size() という関数を削除して gc.c 内からは static 版の size_pool_slot_size() を呼ぶように修正しています。
