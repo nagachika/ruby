@@ -1,0 +1,1 @@
+bundler のテスト用の tool/bundler/dev_gems.rb で turbo_tests の依存バージョンの指定を "~> 2.2.3" に再度変更しています。
