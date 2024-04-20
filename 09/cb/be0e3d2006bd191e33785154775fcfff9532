@@ -1,0 +1,1 @@
+よくわかりませんが bundler の plugin のロードタイミングを変更して Bundler.require した時にも効くようにしているようです。
