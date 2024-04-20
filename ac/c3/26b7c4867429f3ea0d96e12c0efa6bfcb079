@@ -1,0 +1,1 @@
+09cbbe0e3d2006bd191e33785154775fcfff9532 の bundler の plugin の読み込み処理の再修正で Bundler.load_plugins の呼び出し時の不要な receiver の明記を削除しています。
