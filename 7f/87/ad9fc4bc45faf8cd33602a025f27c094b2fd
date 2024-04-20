@@ -1,0 +1,1 @@
+include/ruby/io/buffer.h で CPU の endian の判定を独自に書いてたのを configure で検出した結果の WORDS_BIGENDIAN マクロを利用するようにしています。 https://github.com/ruby/ruby/pull/10572
