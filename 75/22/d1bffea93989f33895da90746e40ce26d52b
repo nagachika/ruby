@@ -1,0 +1,1 @@
+09cbbe0e3d2006bd191e33785154775fcfff9532 の bundler の変更の再修正で Bundler.require に plugin のフック呼び出しを追加した結果戻り値が変化してしまっていたのを修正しています。
