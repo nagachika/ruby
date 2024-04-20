@@ -1,0 +1,1 @@
+あちこちのコメントやメッセージで冠詞や助詞が重複していた typo を修正。しかし rubyspec とか syntax_suggest は upstream を修正しないと巻き戻りそう。 https://github.com/ruby/ruby/pull/10573
