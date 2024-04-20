@@ -1,0 +1,1 @@
+struct rb_callcache をクラスのリストに追加する vm_ccs_push() という関数で struct rb_callinfo の引数が GC markable かチェックしていましたがこの条件は不要なので削除しています。
