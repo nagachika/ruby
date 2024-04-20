@@ -1,0 +1,1 @@
+YJIT の Array#<< メソッドを関数呼び出しに展開する最適化で non leaf として stack pointer の対比をしていなくて例外発生時に異常終了する可能性があったのを修正しています。 https://github.com/ruby/ruby/pull/10568
