@@ -1,0 +1,1 @@
+make build-ext ターゲットの make コマンドに UPDATE_LIBRARIES という変数を渡していたのがもう未参照になってたので削除しています。
