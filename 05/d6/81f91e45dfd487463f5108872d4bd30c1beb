@@ -1,0 +1,1 @@
+tool/lib/output.rb で定義している Output クラスの initialize メソッドにインスタンス変数の初期値を変更するためのキーワード引数を追加しています。
