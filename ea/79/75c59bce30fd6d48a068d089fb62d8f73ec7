@@ -1,0 +1,1 @@
+include/ruby/internal/encoding/encoding.h に ruby/internal/encoding/coderange.h の #include を追加しています。
