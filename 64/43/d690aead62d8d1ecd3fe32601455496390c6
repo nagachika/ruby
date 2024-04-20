@@ -1,0 +1,1 @@
+cc_is_active() という関数で struct rb_callcache が空っぽの時に不要な処理をスキップするようにしています。
