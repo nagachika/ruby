@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の補完処理に show_all_if_ambiguou という設定がされていた時の挙動を修正しています。 https://github.com/ruby/reline/pull/683
