@@ -1,0 +1,1 @@
+parse.y に Universal Parser 用の rb_ruby_parser_allocate() と rb_ruby_parser_new() の定義を追加しています。
