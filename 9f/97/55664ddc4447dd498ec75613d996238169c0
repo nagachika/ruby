@@ -1,0 +1,1 @@
+cd95f6b87fbe15712406054a31b8411ae82180f6 での tool/lib/_tmpdir.rb での一時ディレクトリの残りファイル出力で色付けのためにファイルが symbolic link かどうか確認するかのメソッドが link? になってたので symlink? に修正しています。
