@@ -1,0 +1,1 @@
+4cc58ea0b865f2fd20f1e881ddbd4c4fab0b072c での YJIT のローカル変数の最適化を revert しています。CI でタイムアウトすることが多かったとのこと。 https://github.com/ruby/ruby/pull/10584
