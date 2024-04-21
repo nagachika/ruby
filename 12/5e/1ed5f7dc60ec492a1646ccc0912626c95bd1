@@ -1,0 +1,1 @@
+irb で組み込みコマンドの実装がメソッドとして実現されていた時に exit/exit! で throw :IRB_EXIT した時に UncaughtThrowError 例外を捕捉していたのが不要になったので削除しています。 https://github.com/ruby/irb/pull/923
