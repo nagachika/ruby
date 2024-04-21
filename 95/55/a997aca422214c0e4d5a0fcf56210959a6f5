@@ -1,0 +1,1 @@
+ISeq のバイナリフォーマットからのロードに使う関数 ibf_load_setup() で引数の str を T_STRING 型オブジェクトに限定するよう StringValue() の呼び出しを追加しています。
