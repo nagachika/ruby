@@ -1,0 +1,1 @@
+tool/rubyspec_temp.rb を tool/lib/_tmpdir.rb というファイル名に移動して make test-all でも利用するようにしています。
