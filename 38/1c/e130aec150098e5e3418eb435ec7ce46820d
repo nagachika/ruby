@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t の関数ポインタのメンバー array_len と array_aref および Qtrue を参照するための qtrue というメンバーを削除しています。
