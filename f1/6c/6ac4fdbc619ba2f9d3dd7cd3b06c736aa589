@@ -1,0 +1,1 @@
+irb の組み込みコマンドの実装で IRB::ExtendCommandBundle というモジュールを IRB::Command に改名してクラスメソッド IRB::ExtendCommandBundle.def_extend_command の定義のみ ExtendCommandBundle モジュールに残しています。モジュール名と内容を一致させるためのリファクタリングかと思われます。 https://github.com/ruby/irb/pull/925
