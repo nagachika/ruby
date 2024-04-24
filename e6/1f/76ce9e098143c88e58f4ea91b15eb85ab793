@@ -1,0 +1,1 @@
+33929ef995522f3e1898088dda52eec582ddd266 により不要になった rb_parser_config_t のメンバー enc_from_encoding を削除しています。
