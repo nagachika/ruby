@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t の関数ポインタのメンバー str_subseq、str_new_frozen、filesystem_str_new_cstr、io_gets_internal などを削除しています。
