@@ -1,0 +1,1 @@
+YJIT での String#setbyte の不具合修正のためみたいですが修正箇所は object.c の rb_to_integer_with_id_exception() という関数で cfp のバックアップとエラー時の復旧を行うようにしています。
