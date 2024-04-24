@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t から不要な関数ポインタのメンバー enc_compatible を削除しています。
