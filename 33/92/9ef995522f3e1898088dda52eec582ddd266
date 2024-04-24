@@ -1,0 +1,1 @@
+parse.y から rb_enc_from_encoding() の呼び出しを ruby_parser.c に追い出しています。
