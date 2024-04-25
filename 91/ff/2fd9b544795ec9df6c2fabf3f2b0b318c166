@@ -1,0 +1,1 @@
+C API のテスト用の拡張ライブラリで Windows 環境では関数の export に RUBY_EXTERN ではなく RUBY_FUNC_EXPORTED の修飾子を利用しないと dllimport() の警告が出ていたので変更しています。
