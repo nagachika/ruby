@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md にビルドの高速化のために docs の生成を抑制する configure のオプションが Tips として書かれていたのが make docs の依存関係の変更で不要になったので削除しています。
