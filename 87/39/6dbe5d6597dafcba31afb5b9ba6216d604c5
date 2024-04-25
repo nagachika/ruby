@@ -1,0 +1,1 @@
+YJIT で skip するようにしていた GC.compact のテストを RJIT が有効な時も skip するようにしています。
