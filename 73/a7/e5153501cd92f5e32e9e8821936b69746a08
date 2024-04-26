@@ -1,0 +1,1 @@
+853c0b1a776ba67cd20741f631788d8556c854eb および 2cc59c1b3167da6a554c37cf66b3b95633b6ec9f の続きで gccct_method_search() に括り出した struct rb_callinfo を取得する処理を scope_to_ci() という関数に切り出して他のメソッド探索の関数と共有するようにしています。
