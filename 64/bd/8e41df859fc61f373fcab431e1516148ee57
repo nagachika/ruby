@@ -1,0 +1,1 @@
+parse.y の string_literal_head() の戻り値がポインタ型なのに return false しているところがあったので NULL に修正しています。
