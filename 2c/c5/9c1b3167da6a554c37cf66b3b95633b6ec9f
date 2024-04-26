@@ -1,0 +1,1 @@
+853c0b1a776ba67cd20741f631788d8556c854eb の続きで gccct_method_search_slowpath() の引数に struct rb_callinfo を直接渡してスタックから取得する処理を呼び元に釣り出しています。
