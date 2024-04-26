@@ -1,0 +1,1 @@
+一度 revert された irb の IRB::HelperMethod::Base の singleton 化の再適用。 https://github.com/ruby/irb/pull/931
