@@ -1,0 +1,1 @@
+rubygems の再定義する require で bundled gems や default gems についての警告を出力するための lib/bundled_gems.rb で Bootsnap を利用している時に LOADED_FEATURES に含まれるディレクトリパスが gem 判定の誤検出に繋がってたみたいでそれを削る処理を追加しています。 [ruby-core:117674] [Bug #20450]
