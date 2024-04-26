@@ -1,0 +1,1 @@
+287137651078d540a14dfbe78dd99b277f3ac4d2 と同様に bundler で環境変数を Hash に変換する時に Windows での workaround をしていた分岐を削除しています。
