@@ -1,0 +1,1 @@
+vm_eval.c のメソッド探索の gccct_method_search_slowpath() という関数から cc_new() を呼んで struct rb_callcache を生成していたのを vm_search_method_slowpath0() の処理を再利用するようにリファクタリングしています。
