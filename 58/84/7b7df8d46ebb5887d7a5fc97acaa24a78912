@@ -1,0 +1,1 @@
+prism の新しい自動生成するソースファイル lib/prism/inspect_visitor.rb を生成するルールを common.mk に追加しています。
