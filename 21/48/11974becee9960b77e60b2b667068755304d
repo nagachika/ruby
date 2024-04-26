@@ -1,0 +1,1 @@
+ruby_mimalloc() の calloc 版である ruby_mimcalloc() という関数を導入して ruby_mimalloc()+MEMZERO() を使ってたところで利用するようリファクタリングしています。
