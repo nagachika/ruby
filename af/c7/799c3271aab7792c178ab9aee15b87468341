@@ -1,0 +1,1 @@
+YJIT に Class#superclass メソッドの呼び出しを rb_class_superclass() 関数の直接の呼び出しに展開する最適化を追加しています。 https://github.com/ruby/ruby/pull/10613
