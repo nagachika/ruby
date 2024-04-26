@@ -1,0 +1,1 @@
+irb の IRB::HelperMethod::Base というクラスに Singleton を include してインスタンスを1つだけ使いまわすようにしています。
