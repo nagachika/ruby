@@ -1,0 +1,1 @@
+Object Shapes の Init_default_shapes() での初期化処理でメモリ確保に ruby_mimcalloc() を利用していたのを既に GC が有効になっているタイミングなので xcalloc() を利用するようにしています。
