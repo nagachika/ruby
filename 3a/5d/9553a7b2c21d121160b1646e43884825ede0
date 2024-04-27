@@ -1,0 +1,1 @@
+d292a9b98ce03c76dbe13138d20b9fbf613cc02d で追加したテストで Regexp.timeout= でグローバルにタイムアウト設定していたので assert_separately を使って子プロセスを起動していたのをやめて Regexp.new で個別に timeout 指定するようにしています。 [ruby-core:117697] [Bug #20453]
