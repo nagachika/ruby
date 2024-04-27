@@ -1,0 +1,1 @@
+正規表現のマッチ処理で timeout の指定を超えたため Regexp::TimeoutError を発生させる時に不正な free(3) の呼び出しをして異常終了する可能性があった不具合を修正しています。 https://github.com/ruby/ruby/pull/10630 [ruby-core:117697] [Bug #20453]
