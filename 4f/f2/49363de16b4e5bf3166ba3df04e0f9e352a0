@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の設定ファイル inputrc での $if directive? がネストした時の不具合修正のようです。そんな機能あったんだ。 https://github.com/ruby/reline/pull/689
