@@ -1,0 +1,1 @@
+doc/extension.rdoc および doc/extension.ja.rdoc に TypedData_Wrap_Struct() マクロが例外を発生しうるので解放するべきリソースがあった場合 rb_ensure() を使う必要があることを追記しています。
