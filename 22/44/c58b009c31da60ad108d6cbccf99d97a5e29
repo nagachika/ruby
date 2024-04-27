@@ -1,0 +1,1 @@
+構造体 rb_ast_t から VALUE 型のメンバー flags を削除しています。 rb_ast_t はもう T_IMEMO 型オブジェクトの一種ではなくなったので VALUE への依存をなくしているようです。逆に ast.c の構造体 struct ASTNodeData では rb_ast_t を直接参照せずに VALUE 型のメンバー vast でオブジェクトとして wrap された値を持つようにしています。
