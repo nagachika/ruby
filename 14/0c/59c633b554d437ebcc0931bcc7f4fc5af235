@@ -1,0 +1,1 @@
+parse.y から rb_parser_aset_script_lines_for() の呼び出しを削って ruby_parser.c に移動しています。
