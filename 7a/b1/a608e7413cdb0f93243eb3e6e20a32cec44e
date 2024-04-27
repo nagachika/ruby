@@ -1,0 +1,1 @@
+一度 revert された 4cc58ea0b865f2fd20f1e881ddbd4c4fab0b072c での YJIT のローカル変数の最適化の再挑戦。 rb_yjit_iseq_free() の引数の変更の差分が増えていますね。 https://github.com/ruby/ruby/pull/10607
