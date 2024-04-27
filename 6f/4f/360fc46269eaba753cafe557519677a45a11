@@ -1,0 +1,1 @@
+bundler で require "bundler/setup" することで bundler を有効にした時に auto_install という設定による挙動が有効になるようにしているようです
