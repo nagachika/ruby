@@ -1,0 +1,1 @@
+prism 向けの変更のようですが iseq.c の coverage のための位置情報を iseq_setup_coverage() や iseq_new_setup_coverage() 内で rb_ast_t から取得してたのを引数で渡すようにリファクタリングしています。
