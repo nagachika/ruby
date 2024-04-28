@@ -1,0 +1,1 @@
+444553b528a54a97e539de212ffc4c6466a6db20 で GitHub Actions の YJIT 有効にしたテストで引数に -v を渡すようにしてたのを revert して -q に戻しています。
