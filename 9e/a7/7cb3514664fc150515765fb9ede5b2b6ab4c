@@ -1,0 +1,1 @@
+55a402bb759597487905a94d5b1bbff4a672499c の rb_ast_body_t のメンバー追加時に rb_binding_add_dynavars() で追加していた不要な代入処理を削除しています。
