@@ -1,0 +1,1 @@
+irb で組み込みコマンドを登録するために IRB::Command.register メソッドに渡す名前を文字列でも受付けて Symbol に変換して登録するようにしています。 https://github.com/ruby/irb/pull/932
