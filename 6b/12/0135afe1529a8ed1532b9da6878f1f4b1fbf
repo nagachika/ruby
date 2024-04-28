@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Request#version のテストでサポートされない環境がある version の指定をするテストケースを削除しています。OpenSSL 3.3 でチェックが厳しくなって? エラーになるみたいです。
