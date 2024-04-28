@@ -1,0 +1,1 @@
+環境変数 RUBY_GC_LIBRARY_PATH で共有ライブラリを指定して GC の実装をすりかえる機能を miniruby でも有効にしているようです。
