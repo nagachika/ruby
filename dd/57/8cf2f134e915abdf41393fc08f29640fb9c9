@@ -1,0 +1,1 @@
+Numeric#nonzero? の rdoc 用コメントに #zero? メソッドへの参照を追記しています。
