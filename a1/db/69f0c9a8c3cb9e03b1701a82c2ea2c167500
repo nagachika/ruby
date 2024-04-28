@@ -1,0 +1,1 @@
+bootstraptest の YJIT 有効時にたまに失敗する Ractor のテストをスキップするようにしています。
