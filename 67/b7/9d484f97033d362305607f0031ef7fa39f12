@@ -1,0 +1,1 @@
+拡張ライブラリ win32 で force_encoding("ASCII-8BIT") を使ってたところを String#b メソッドを利用するようにしています。 #b は dup も含むので文字列リテラルの fstring 化の対応という意味があるみたいです。
