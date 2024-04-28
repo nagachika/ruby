@@ -1,0 +1,1 @@
+構造体 rb_ast_body_t に line_count というメンバーを追加して VALUE (Fixnum)依存を消すようにしているようです。
