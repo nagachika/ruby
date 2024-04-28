@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow の VM の最適化の一種を指定する OPT_THREADED_CODE に 3 を指定していたのを消して 0 を追加しています。
