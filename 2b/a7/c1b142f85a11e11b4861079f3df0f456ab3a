@@ -1,0 +1,1 @@
+YJIT の Rust 実装の rb_yjit_root_mark() という関数の引数の型の指定を修正しています。
