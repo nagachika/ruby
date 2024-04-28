@@ -1,0 +1,1 @@
+yjit.c の rb_assert_iseq_handle() 内で rb_objspace_markable_object_p() が真を返すことをチェックする RUBY_ASSERT_ALWAYS() を削除しています。compaction が行なわれるとひっかかる可能性があった?
