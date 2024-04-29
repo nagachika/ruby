@@ -1,0 +1,1 @@
+stdckdint.h という標準ライブラリヘッダの存在チェックをして使えたら ckd_add()、ckd_sub()、ckd_mul() などの関数 overflow を考慮した演算関数を利用するようにしています。
