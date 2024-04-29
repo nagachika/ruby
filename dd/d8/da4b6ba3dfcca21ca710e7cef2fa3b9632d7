@@ -1,0 +1,1 @@
+構造体 struct node_buffer_struct の Universal Parser 用の config メンバーをその親の構造体 rb_ast_t のメンバーに引き上げるリファクタリング。 rb_ast_t が T_IMEMO 型オブジェクトでなくなったので構造体サイズの制約がなくなったため。
