@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t から関数ポインタのメンバー ast_new を削除して、config->calloc を利用するようにしています。
