@@ -1,0 +1,1 @@
+bb5a53820703f5e1af886a0c5ca7178aa976be29 で追加した include/ruby/internal/stdckdint.h で警告抑制のために RBIMPL_CAST() によるキャストを追加しています。
