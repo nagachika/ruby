@@ -1,0 +1,1 @@
+rubygems でスクリプトの循環参照した require の警告避けのため require を一部削除しています。
