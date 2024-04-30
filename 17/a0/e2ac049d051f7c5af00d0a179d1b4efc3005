@@ -1,0 +1,1 @@
+bb5a53820703f5e1af886a0c5ca7178aa976be29 で stdckdint.h の利用のため追加したヘッダファイル include/ruby/internal/stdckdint.h に C++ でのビルド用に RBIMPL_HAVE_STDCKDINT_H を undef する preprocessor 分岐を追加しています。 C++ では stdckhint.h の機能が使えないとのこと。
