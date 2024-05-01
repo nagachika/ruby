@@ -1,0 +1,1 @@
+YJIT の Rust 実装で VM のキャッシュの invalidate のための処理で VM のロック取得するように修正しています。
