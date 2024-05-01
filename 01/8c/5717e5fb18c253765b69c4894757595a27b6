@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の inputrc からの読み込みで $if の条件に mode=vi/emacs のようにモードのチェックが書けるようにしています。 https://github.com/ruby/reline/pull/687
