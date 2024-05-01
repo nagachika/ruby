@@ -1,0 +1,1 @@
+GitHub Actions の YJIT を有効にしたビルドの workflows で rubyspec の実行時に -T オプションを渡すようにしています。その他のオプションを ruby プロセスに渡すために必要だったとのこと。 https://github.com/ruby/ruby/pull/10599
