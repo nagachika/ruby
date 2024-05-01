@@ -1,0 +1,1 @@
+node.c から不要な #include "internal/parse.h" を削除しています。
