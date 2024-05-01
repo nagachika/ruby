@@ -1,0 +1,1 @@
+845f2db1360032a0506c5d5a8570f5c73a2588a3 と同様に FalseClass#=== メソッドも YJIT でインライン化する最適化。 https://github.com/ruby/ruby/pull/10679
