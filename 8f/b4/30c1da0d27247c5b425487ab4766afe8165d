@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の sub irb 実行後に IRB::Config[:MAIN_CONTEXT] を復旧させるように修正しています。 https://github.com/ruby/irb/pull/937
