@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の IO#pread での読み込み時の IOError 例外の捕捉を追加しています。 Ctrl-D などで EOF を送出した時にその前の内容が読まれない不具合を修正しているようです。 https://github.com/ruby/reline/pull/671
