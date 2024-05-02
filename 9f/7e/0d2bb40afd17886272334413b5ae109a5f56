@@ -1,0 +1,1 @@
+parse.y のメソッド引数の定義のところの opt_args_tail や opt_block_args_tail というルールを Lrama の拡張の %rule という記法を使って定義した opt_args_tail() というパラメーターつきルールを使ってまとめるようにしています。
