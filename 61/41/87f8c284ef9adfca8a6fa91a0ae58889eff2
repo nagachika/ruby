@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で補完処理でダイアログ表示をする時に折り返しが発生した時の表示の乱れを修正しています。 https://github.com/ruby/reline/pull/692
