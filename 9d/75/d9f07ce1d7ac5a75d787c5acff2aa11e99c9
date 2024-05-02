@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::Cipher#name メソッドの rdoc 用コメントの説明を少し修正しています。
