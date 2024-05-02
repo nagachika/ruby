@@ -1,0 +1,1 @@
+RubyVM::YJIT.disasm メソッドで YJIT が有効ではない時やビルド時の configuration で rb_yjit_disasm_iseq() が値を返さない時などに適当な警告メッセージを表示してエラーを起こさないようにする対応を追加しています。 https://github.com/ruby/ruby/pull/10688
