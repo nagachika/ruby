@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::Digest.digests というメソッドを追加してサポートされている digest のアルゴリズムのリストを文字列の配列で返すようにしています。
