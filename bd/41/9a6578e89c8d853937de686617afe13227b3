@@ -1,0 +1,1 @@
+gc.c のプロファイリングのために時間計測に使う tick_t の型を決める TICK_TYPE というマクロでの preprocess 分岐を消して常に unsigned long long を利用するようにしています。
