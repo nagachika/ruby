@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket に #close_read と #close_write メソッドを追加してソケットの読み込み端と書き込み端をそれぞれ独立して close する処理に対応しています。しかし TLS のソケットは暗号化通信路の確立のために読むだけでも書き込みする通信が必要な場合があるので close_read は空のメソッドになっています。
