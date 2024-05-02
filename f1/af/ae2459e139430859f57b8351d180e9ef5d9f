@@ -1,0 +1,1 @@
+1699772ac4e62d783aab6e820f978c04a215a612 で追加した拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#close_{read,write} の rdoc 用コメントを追加しています。
