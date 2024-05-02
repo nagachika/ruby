@@ -1,0 +1,1 @@
+d950609ec709c7c4dc48603b9b2d88f840a520fb で追加した rubygems の TruffleRuby 向けの copy_stream の代替実装追加の条件に RUBY_ENGINE_VERSION のチェックを削っています。
