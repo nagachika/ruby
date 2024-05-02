@@ -1,0 +1,1 @@
+同じく parse.y で Lrama の拡張機能を使って f_kwarg() というパラメーターつきルールを導入して f_kwarg と f_block_kwarg を置き換えています。
