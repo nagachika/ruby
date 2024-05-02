@@ -1,0 +1,1 @@
+プロセス終了時の構造体 rb_vm_t の解放時に unused_block_warning_table の解放が漏れていたのを修正しています。
