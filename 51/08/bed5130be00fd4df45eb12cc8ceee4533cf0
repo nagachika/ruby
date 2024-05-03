@@ -1,0 +1,1 @@
+e3bfd25bd2202a172d7709e9a2f7b65b523a132d の ruby_parser.c で TypedData_Wrap_Struct() を使うように変更したのを revert しています。やっぱり TypedData_Wrap_Struct() はよくなかったみたいです。
