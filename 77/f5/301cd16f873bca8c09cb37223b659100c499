@@ -1,0 +1,1 @@
+irb の IRB::Color.colorable? メソッドが nil を返すことがあったので常に true or false を返すようにしています。 https://github.com/ruby/irb/pull/940
