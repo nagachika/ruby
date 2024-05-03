@@ -1,0 +1,1 @@
+5108bed5130be00fd4df45eb12cc8ceee4533cf0 で revert された e3bfd25bd2202a172d7709e9a2f7b65b523a132d のリトライ。 ruby_parser.c の rb_ruby_ast_new() で TypedData_Make_Struct() を利用するようにして ast_alloc() ではポインタを指定せずに(NULL を指定して) TypedData_Wrap_Struct() を利用するように再修正しています。
