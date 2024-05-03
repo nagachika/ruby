@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の色付けをした時のプロンプトの表示サイズ計算の不具合修正。 https://github.com/ruby/reline/pull/695
