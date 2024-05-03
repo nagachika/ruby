@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::Config.test_mode が真の時に readline を呼ぶ都度設定ファイルを読んでしまうので一度読んだら抑制するようにしています。 https://github.com/ruby/reline/pull/694
