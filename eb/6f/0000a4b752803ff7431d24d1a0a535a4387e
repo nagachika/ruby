@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Cipher#update でバッファオーバーランの修正。 https://github.com/ruby/openssl/pull/717 [ruby-core:116575] [Bug #20236]
