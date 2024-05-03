@@ -1,0 +1,1 @@
+YJIT 利用時にStruct で生成したクラスのインスタンスのメソッド呼び出しが TracePoint のイベントフックに反応しない不具合を修正しています。 https://github.com/ruby/ruby/pull/10690
