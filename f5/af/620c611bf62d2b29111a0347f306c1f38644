@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で i2d_ASN1_TYPE() という OpenSSL の API 呼び出し時のエラーチェックを追加しています。
