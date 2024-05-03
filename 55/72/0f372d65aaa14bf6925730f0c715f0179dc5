@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKCS7.read_smime でもデータが不正だった時のチェックを追加しています。
