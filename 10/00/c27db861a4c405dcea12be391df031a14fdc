@@ -1,0 +1,1 @@
+irb に IRB.conf[:BACKTRACE_FILTER] という設定項目で Proc オブジェクトを登録して例外表示のバックトレースのフィルタのカスタマイズができるようにしています。 https://github.com/ruby/irb/pull/917
