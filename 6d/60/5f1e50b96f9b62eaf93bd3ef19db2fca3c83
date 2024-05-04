@@ -1,0 +1,1 @@
+構造体 struct RVALUE の定義からデバッグ用のビルド時のときだけ追加される領域を struct rvalue_overhead という別の構造体として切り出して slot サイズを返すマクロ BASE_SLOT_SIZE などで可算するようにしています。
