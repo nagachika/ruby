@@ -1,0 +1,1 @@
+parse.y にパラメーターつきルール f_optarg() を追加して f_optarg や f_block_optarg をおきかえています。
