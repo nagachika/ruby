@@ -1,0 +1,1 @@
+fdf88a2c10bd0dc11d1033c2281d764dfdaa00de で標準添付ライブラリ reline の設定ファイルの重複読み込みを抑制する変更でキーバインディングがリセットされてしまう不具合があったのを修正しています。 https://github.com/ruby/reline/pull/697
