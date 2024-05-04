@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の Win32::Registry で safe navigator 演算子を利用するリファクタリング。
