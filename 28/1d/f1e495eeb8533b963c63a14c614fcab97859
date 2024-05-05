@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#mark_version メソッドを削除しています。 gem rebuild サブコマンドで gem をリリースした時の rubygems と異なるバージョンの rubygems で rebuild してもエラーではなく警告に留めるようにしているようです。
