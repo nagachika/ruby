@@ -1,0 +1,1 @@
+irb の組み込みコマンドの定義に使うベースクラスの #category および #description に未定義だった時のデフォルトのテキストを返すようにしています。 https://github.com/ruby/irb/pull/947
