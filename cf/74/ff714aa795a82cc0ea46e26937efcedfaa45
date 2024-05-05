@@ -1,0 +1,1 @@
+parse.y および ripper の lexer の読み込み用関数群で文字列を VALUE で返していたのを rb_parser_string_t 型で返すように変更しています。
