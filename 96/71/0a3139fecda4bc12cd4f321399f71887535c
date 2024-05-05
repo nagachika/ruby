@@ -1,0 +1,1 @@
+032070d793a0289931b6f15eb9ba25e9c492c1f7 で IRB::StdioInputMethod#gets で互換性のため? に puts を呼び出していたのを標準出力が端末の時だけにしています。 https://github.com/ruby/irb/pull/949
