@@ -1,0 +1,1 @@
+irb で Binding#irb で起動された irb かどうかを判定するためのインスタンス変数を IRB::Irb に追加してこれまで caller でバックトレースをみて判定していたのを軽量化しています。 https://github.com/ruby/irb/pull/947
