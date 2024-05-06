@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Config::VARIABLE_NAMES 定数の配列から未定義の設定ファイルでの変数名を削除しています。 https://github.com/ruby/reline/pull/699
