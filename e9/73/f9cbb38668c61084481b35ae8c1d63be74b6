@@ -1,0 +1,1 @@
+irb の組み込みコマンドの conf のヘルプメッセージを少し変更しています。 https://github.com/ruby/irb/pull/950
