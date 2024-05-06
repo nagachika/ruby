@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Ctrl-i, Ctrl-p, Ctrl-n などの補完候補選択の処理を Reline::LineEditor#input_key 内に直接書いてたのをキーバインディングとして定義するようにリファクタリング? しています。 https://github.com/ruby/reline/pull/698
