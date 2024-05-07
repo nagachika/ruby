@@ -1,0 +1,1 @@
+Enumerable#inject の rdoc 用コメントを全面的に書き直しています。 https://github.com/ruby/ruby/pull/10009
