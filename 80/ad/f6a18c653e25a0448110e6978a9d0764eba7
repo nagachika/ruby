@@ -1,0 +1,1 @@
+rubygems の platform の指定として wasm32-wasi のような指定を受付けるようにしています。WASM/WASI で rubygems で動的な load が使えるのかな。
