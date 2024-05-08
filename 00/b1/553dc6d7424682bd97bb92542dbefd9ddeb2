@@ -1,0 +1,1 @@
+rubygems のテストで Windows での ENV.replace の不具合対策のための workaround がもう不要とのことで削除しています。
