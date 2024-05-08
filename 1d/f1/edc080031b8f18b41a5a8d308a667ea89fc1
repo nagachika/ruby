@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で出力するカウンタに invalidate_ep_escape というのを追加しています。 https://github.com/ruby/ruby/pull/10722
