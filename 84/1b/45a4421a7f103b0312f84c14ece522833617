@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::PKCS7#to_text と OpenSSL::Timestamp::Response#to_test、OpenSSL::Timestamp::Request#to_text、OpenSSL::Timestamp::TokenInfo#to_text メソッドを新規追加しています。
