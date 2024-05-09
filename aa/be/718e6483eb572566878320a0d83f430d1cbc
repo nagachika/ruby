@@ -1,0 +1,1 @@
+テスト用の test/unit の Test::Unit::Runner#location の実装を Test::Unit.location という特異メソッドに切り出してバックトレースからのソースファイル上の位置を取り出す判定条件にバックトレースのメソッド名にクラス名が追加されたのに対応して Test::Unit::Assertion および Test::Unit::CoreAssertion  クラスが含まれていても対応するようにしています。
