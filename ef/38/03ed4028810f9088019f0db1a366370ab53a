@@ -1,0 +1,1 @@
+Thread の切り替え時に native thread を起こす ubf_wakeup_thread() でシグナル送信のための pthread_kill() の戻り値をチェックしてエラー時に rb_bug() で異常終了していたのをやめています。 MaNy Threads 導入時に追加されたチェックだけど対象の native thread が既に存在しなくなっているというケースが(おそらく MaNy は未使用の状態で?)あったとのこと。
