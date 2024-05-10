@@ -1,0 +1,1 @@
+rubygems が再定義する require で default gems や bundled gems に警告を出すための lib/bundled_gems.rb で rdoc を対象に追加しています。3.5 から bundled gems に移動する予定みたいです。
