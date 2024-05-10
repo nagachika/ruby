@@ -1,0 +1,1 @@
+IO::Buffer の解放処理時の Widows 版実装で CloseHandle() のエラーで出力するメッセージのフォーマット指示子の修正。
