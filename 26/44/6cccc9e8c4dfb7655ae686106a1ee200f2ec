@@ -1,0 +1,1 @@
+標準添付ライブラリ reline でエスケープシークエンスを含む文字列のペースト? の高速化をしているようです。 https://github.com/ruby/reline/pull/655
