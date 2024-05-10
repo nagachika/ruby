@@ -1,0 +1,1 @@
+defs/gmake.mk で revision.h を更新する条件の変更をしているみたいですが後に e9378788837f7d053df4339ac0a0ea1d683502a4 で revert されています。
