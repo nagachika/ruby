@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest のテストを実行する make test-syntax-suggest ターゲットの定義を common.mk から template/Makefile.in に移動しています。 Windows 環境でうまくテストが通らないためみたいです。
