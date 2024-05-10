@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump のテストで Symbol を渡す時に使う Symbol の名前を :foo から名前の被らない独自なものに変更しています。既に他のところで dynamic symbol として作られていると結果が変わってしまうため。
