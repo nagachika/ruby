@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md で ASAN を有効にする時に使うべきコンパイラについての記述を更新しています。Clang 18 がリリースされて ASAN に利用可能になったようです。
