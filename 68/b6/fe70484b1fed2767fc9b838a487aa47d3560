@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の初期化時に端末サイズを得るのに Reline::IOGate.get_screen_size を呼んでいたのをやめて [0, 0] で仮に初期化しておいて reset メソッドで改めて実際の端末サイズを検出するのにまかせるようにしています。 require "reline" するだけでこのメソッドが呼ばれてしまうのを抑制するためとのこと。 https://github.com/ruby/reline/pull/703
