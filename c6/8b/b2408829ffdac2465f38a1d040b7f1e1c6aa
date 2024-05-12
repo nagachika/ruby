@@ -1,0 +1,1 @@
+irb の設定ファイルの読み込み時に値のクラスのチェックなどを強化しています。 https://github.com/ruby/irb/pull/953
