@@ -1,0 +1,1 @@
+irb の IRB::RubyLex で SyntaxError の内容をエラーメッセージで判定している部分の正規表現の条件を緩めています。おそらく prism で例外メッセージが少し変化しているのを許容するようにしているのではないかと。 https://github.com/ruby/irb/pull/954
