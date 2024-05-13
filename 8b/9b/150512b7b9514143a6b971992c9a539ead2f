@@ -1,0 +1,1 @@
+Marshal.load で既存の Module/Class のインスタンス変数が上書きできないように例外を発生させるようにしています。 [ruby-core:117831] [Bug #20481]
