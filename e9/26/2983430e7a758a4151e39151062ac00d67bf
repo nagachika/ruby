@@ -1,0 +1,1 @@
+bundler の rubygems 拡張のための lib/bundler/rubygems_ext.rb でトップレベルで require していたいくつかのファイルを module/class 文の中やメソッド内での require に移動しています。メソッド内は遅延されるのでともかく class/module 文の中に入れるのは遅延する意味はほとんどないと思うのですが、どこで必要としての require か明確にするためってことですかねぇ。
