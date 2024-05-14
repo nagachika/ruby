@@ -1,0 +1,1 @@
+rubygems の Gem::Uninstaller#remove_plugin のテストを強化しています。
