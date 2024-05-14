@@ -1,0 +1,1 @@
+bundler で require のかわりに Module#autoload を利用して require を遅延するようにしています。 bundler での rubygems の拡張の影響が require に反映されるようにするためみたいです。
