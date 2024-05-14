@@ -1,0 +1,1 @@
+Universal Parser 用に parser_encoding という型を const void としてマクロで定義しています。警告抑制のためとのこと。
