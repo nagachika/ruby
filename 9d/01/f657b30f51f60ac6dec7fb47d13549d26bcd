@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に emacs mode で ctrl-_ による undo コマンドのサポートを追加しています。 https://github.com/ruby/reline/pull/701
