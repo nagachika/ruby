@@ -1,0 +1,1 @@
+rubygems で拡張ライブラリ pathname に依存していた部分を File.expand_path を利用するようにして不要な require を消しています。
