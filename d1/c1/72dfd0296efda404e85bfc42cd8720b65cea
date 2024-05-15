@@ -1,0 +1,1 @@
+bundler による rubygems の拡張で追加する Gem::BetterPermissionError 例外で Bundler::SharedHelpers のメソッドに依存しているのをやめて不要な require を消しています。
