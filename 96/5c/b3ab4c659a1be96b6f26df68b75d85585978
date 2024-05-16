@@ -1,0 +1,1 @@
+bd8423616947738d2efb3602791db91587b822bb で切り出した rubygems の Gem::SpecificationRecord クラスにユーティリティメソッドを追加して plugin の uninstall 処理の削除対象のディレクトリ特定の不具合修正をしているようです。
