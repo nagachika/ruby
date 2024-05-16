@@ -1,0 +1,1 @@
+rubygems の Gem::Specification の実装から spec を表現するクラスを Gem::SpecificationRecord というクラスに切り出して一部の処理をそこに移植しています。
