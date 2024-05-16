@@ -1,0 +1,1 @@
+rubygems の Gem::Specification.all= メソッドの rdoc 用コマンドの説明を削って1行のシンプルな記述に変更しています。
