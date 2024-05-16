@@ -1,0 +1,1 @@
+rubygems の Gem::Specification.find_active_stub_by_path の rdoc 用コメントを追加しています。
