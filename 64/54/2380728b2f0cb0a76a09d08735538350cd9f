@@ -1,0 +1,1 @@
+rubygems の Gem.clear_paths のテストでチェックをクラス変数を直接 Module#class_variable_get で取り出してたのをやめて環境変数を設定して Gem.dir や Gem.path の返す値をチェックする方法に修正しています。
