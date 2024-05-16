@@ -1,0 +1,1 @@
+rubygems の Gem::Specification の特異メソッド内で Gem::Specification の特異メソッドを呼ぶのに receiver を明示していたのをやめています。
