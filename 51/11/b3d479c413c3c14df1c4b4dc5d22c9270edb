@@ -1,0 +1,1 @@
+rubygems の Gem::Uninstaller で Gem.user_dir が symbolic link の時にその向き先のパスを考慮するようにしてるようです。
