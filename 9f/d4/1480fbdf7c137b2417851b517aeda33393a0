@@ -1,0 +1,1 @@
+4db76d198b4a152c416d657e97959ade3e50a185 で追加した Gem.freebsd_platform? メソッドを bundler で利用するようにしています。
