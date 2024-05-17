@@ -1,0 +1,1 @@
+rubygems に FreeBSD 向けにビルドされているかどうかの判定をするメソッド Gem.freebsd_platform? を追加しています。
