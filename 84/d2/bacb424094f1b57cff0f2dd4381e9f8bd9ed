@@ -1,0 +1,1 @@
+irb の IRB::RubyLex で SyntaxError 発生時の例外メッセージをみて処理をしているところでより深刻な(復旧不可能な)エラーから先に処理するように順序を調整しています。 https://github.com/ruby/irb/pull/956
