@@ -1,0 +1,1 @@
+misc/lldb_rb/ の lldb での rp コマンドで NODE を出力する時の内部構造の変更への追随。
