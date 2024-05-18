@@ -1,0 +1,1 @@
+gems/bundled_gems の rexml のバージョンを 3.2.6 に戻しています。同じく bundled gems の rss の make test-bundled-gems でのテストでうまく動かなかったみたいです。
