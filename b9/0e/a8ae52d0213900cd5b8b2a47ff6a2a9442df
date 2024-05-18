@@ -1,0 +1,1 @@
+標準添付ライブラリ find の gemspec ファイルの spec.bindir と spec.executables を削除しています。
