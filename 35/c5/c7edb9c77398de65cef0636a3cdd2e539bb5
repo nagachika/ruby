@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#find_all_by_name に Gem::Dependency#matching_specs の内容を移植するリファクタリング。
