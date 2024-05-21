@@ -1,0 +1,1 @@
+bundled gems のテストのための tool/lib/bundled_gem.rb で rexml のテストのために依存関係として strscan を追加しています。
