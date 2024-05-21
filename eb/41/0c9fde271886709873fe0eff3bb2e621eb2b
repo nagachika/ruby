@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight のテストで明示的な did_you_mean の require を追加しています。
