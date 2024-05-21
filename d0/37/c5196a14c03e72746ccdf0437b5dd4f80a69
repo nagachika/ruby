@@ -1,0 +1,1 @@
+rb_thread_io_blocking_call() で setjmp()/longjmp() による clobbered variable の警告のために rb_thread_t の変数の再代入を追加しています。また wait_retryable() や do_select() では引数や変数に volatile 修飾子を追加しています。 7afc16aa48beb093b06eb978bc430f90dd771690 の変更以降出るようになった警告の抑制のためみたいです。 [ruby-core:117905] [Bug #20493]
