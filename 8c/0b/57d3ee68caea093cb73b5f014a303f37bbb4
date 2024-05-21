@@ -1,0 +1,1 @@
+rb_enc_compile_warning() および rb_enc_compile_warn() の宣言を internal/error.h に追加しています。
