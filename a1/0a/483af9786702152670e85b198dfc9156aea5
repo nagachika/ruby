@@ -1,0 +1,1 @@
+rubygems のテストで net-http が vendoring されるようになったので捕捉する例外として Net::OpenTimeout を指定していたのを Gem::Net::OpenTimeout に変更しています。
