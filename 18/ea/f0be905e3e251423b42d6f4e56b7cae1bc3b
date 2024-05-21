@@ -1,0 +1,1 @@
+Bignum の実装のために利用する libgmp の検索のための gmp.h を AC_CHECK_HEADERS() で検索していたのが configure の  --with-gmp-dir で指定したディレクトリを探索しないみたいで専用の RUBY_CHECK_HEADER というマクロを定義して CPPFLAGS をすりかえて AC_CHECK_HEADER() を呼び出すようにしています。 [ruby-core:117918] [Bug #20494]
