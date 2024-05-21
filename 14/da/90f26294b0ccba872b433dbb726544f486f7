@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版で homebrew でインストールした libgmp にリンクするために --with-gmp-dir オプションの指定が configure のオプションとして渡されてなかったのを修正しています。
