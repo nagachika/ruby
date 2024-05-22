@@ -1,0 +1,1 @@
+parse.y の ripper 用の関数 ripper_assignable() も削除して assignable() の中に処理を移動しています。
