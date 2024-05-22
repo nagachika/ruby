@@ -1,0 +1,1 @@
+parse.y の after_reduce() と after_pop_stack() というフック関数の ripper 用の定義で先に rb_ary_pop() で配列の末尾要素を取り出してデバッグ用メッセージ出力時の rb_ary_entry() での末尾要素の参照のかわりにも使いまわすようにリファクタリングしています。
