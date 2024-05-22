@@ -1,0 +1,1 @@
+parse.y の単項演算子の "-" の ripper 用のアクション用のコメントで次の 2d92a4afba36034f3d92ab75dfae4dbf5a445c7e で拡張される ripper 用の DSL の記法を利用するようにしています。
