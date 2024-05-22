@@ -1,0 +1,1 @@
+ripper 用の DSL 定義 ext/ripper/tools/dsl.rb で Refinements を使って Array#to_s を上書きして ripper 用 DSL で配列を書くと rb_ary_new_from_args() の呼び出しに展開されるようにしています。また parse.y でこの記法を利用するようにリファクタリングしています。
