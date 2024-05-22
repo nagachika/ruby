@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で sysctl で core dump が出力されるようにカーネルパラメーターを設定しています。
