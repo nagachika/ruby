@@ -1,0 +1,1 @@
+parse.y で ripper 用の ripper_const_decl() という関数定義を削除して const_decl() に委譲するようにしています。
