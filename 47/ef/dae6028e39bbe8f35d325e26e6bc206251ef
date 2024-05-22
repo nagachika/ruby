@@ -1,0 +1,1 @@
+ripper 用の DSL 用の ext/ripper/tools/dsl.rb でインデントを保持したままコード生成するようにしているようです。
