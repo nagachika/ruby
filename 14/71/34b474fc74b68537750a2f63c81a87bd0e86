@@ -1,0 +1,1 @@
+拡張ライブラリ ripper で rb_ripper_none というグローバル変数を削除して、parse.y で空の "()" と none を区別するように? しています。
