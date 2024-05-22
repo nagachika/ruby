@@ -1,0 +1,1 @@
+parse.y の var_ref ルールの ripper 用アクションで DSL を利用するように書きなおしています。
