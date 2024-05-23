@@ -1,0 +1,1 @@
+bundler で git リポジトリからソース取得する時に "dumb http transport does not support shallow capabilities" というエラーがかえってきた時に git clone の --depth オプションを削ってリトライするようにしています。
