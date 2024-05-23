@@ -1,0 +1,1 @@
+ec9de0c4717b2942edba560b510a170f812a2f2c の再修正で bundler の git clone のエラーでメッセージをチェックせずに --depth オプションを削るようにしています。
