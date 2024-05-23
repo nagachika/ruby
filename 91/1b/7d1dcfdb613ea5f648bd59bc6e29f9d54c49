@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::ANSI.get_screen_size で IO#winsize の捕捉する例外に Errno::ENODEV を追加しています。 https://github.com/ruby/reline/pull/702
