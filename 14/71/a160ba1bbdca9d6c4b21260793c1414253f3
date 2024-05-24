@@ -1,0 +1,1 @@
+parse.y の rb_str_to_parser_string() で引数の str から rb_parser_string_t 型の値を作るところで GC から保護するために RB_GC_GUARD() を追加しています。
