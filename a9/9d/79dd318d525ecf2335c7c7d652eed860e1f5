@@ -1,0 +1,1 @@
+140512d2225e6fd046ba1bdbcd1a27450f55c233 とかなり昔に begin 節に rescue がないのに else 節があった時を SyntaxError にした時に不要になっていた parse.y の分岐を削除しています。
