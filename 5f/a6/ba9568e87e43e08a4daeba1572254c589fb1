@@ -1,0 +1,1 @@
+メモリ確保に jemalloc を利用するようにビルドする時に jemalloc が --with-opt-dir で指定されたパスにインストールされたものが検出されないというビルドプロセスの不具合を修正しています。 jemalloc 検索時の CPPFLAGS に INCFLAGS を追加して AC_CHECK_HEADER() を呼ぶようにしています。 [ruby-core:117957] [Bug #20500]
