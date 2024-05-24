@@ -1,0 +1,1 @@
+5fa6ba9568e87e43e08a4daeba1572254c589fb1 の続き? win32/Makefile.sub でも incflags という変数を定義するようにしています。 [ruby-core:117957] [Bug #20500]
