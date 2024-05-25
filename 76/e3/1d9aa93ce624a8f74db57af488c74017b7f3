@@ -1,0 +1,1 @@
+bundler の Bundler::CompactIndexClient の実装から削除予定だった md5 の etag 関連の実装を削除しています。
