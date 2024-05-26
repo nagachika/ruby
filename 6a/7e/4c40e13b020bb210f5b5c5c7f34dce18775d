@@ -1,0 +1,1 @@
+3832a1bda831da2074a3a5f8aa89c10244ae9316 からの続きで bundler の cache の gem を考慮する分岐に --force オプションの指定と Bundler.settings[:inline] を条件に入れていたのをやめています。
