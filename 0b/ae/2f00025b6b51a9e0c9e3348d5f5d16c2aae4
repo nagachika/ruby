@@ -1,0 +1,1 @@
+IO#initialize の引数処理を修正して 2 つの positional argument とキーワード引数を渡した時に ArgumentError になる不具合を修正しています。第1引数に fd の整数を渡した時の処理を整理して rb_scan_args() の呼び出しをまとめています。 [ruby-core:118015] [Bug #20510]
