@@ -1,0 +1,1 @@
+bundler で lockfile がない時のデバッグメッセージの改善。
