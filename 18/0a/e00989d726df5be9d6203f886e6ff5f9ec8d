@@ -1,0 +1,1 @@
+bundler の bundle gem サブコマンドのテストで global_config を使って各種ツール類の設定の生成をデフォルトで off にしておくようにしています。また不要だった spec への :readline タグの付与をやめています。
