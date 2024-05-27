@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の inputrc の設定ファイル読み込み時に空白を含む値を許容するようにしています。 https://github.com/ruby/reline/issues/657 https://github.com/ruby/reline/pull/705
