@@ -1,0 +1,1 @@
+compile.c での VM 命令列に対するコンパイル時の最適化で putstring 命令をみているところで putchilledstring も同様に扱うようにしています。
