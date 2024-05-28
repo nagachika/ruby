@@ -1,0 +1,1 @@
+SyntaxError にファイルパスを指定して生成する rb_syntax_error_append() で元からの path と異なる path を指定した時の ArgumentError 例外メッセージを詳しくしています。
