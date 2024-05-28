@@ -1,0 +1,1 @@
+macOS 版の GitHub Actions の workflow で core dump した時の core ファイルを出力するディレクトリのパーミッションを修正し ulimit -c で core ファイルのサイズ制限をなくしています。うまく core ファイルが取れなかったみたいですね。
