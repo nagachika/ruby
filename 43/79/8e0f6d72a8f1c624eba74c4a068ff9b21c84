@@ -1,0 +1,1 @@
+misc/lldb_rb/utils.py の lldb での rp でのオブジェクトダンプで T_STRING 型オブジェクトの coderange の情報も出力するようにしています。
