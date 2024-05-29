@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に redo コマンドを追加して emacs mode で利用できるようにしています。 https://github.com/ruby/reline/pull/707
