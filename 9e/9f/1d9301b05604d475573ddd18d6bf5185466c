@@ -1,0 +1,1 @@
+短い文字列で object space の heap 内の slot にバッファを埋め込む場合にさらに余白があった場合に hash 値をその余白に埋め込むことで hash 計算の繰り返しを抑制するという最適化を追加しています。Variable Width Allocation で slot の拡張もあるので Hash のキーに使われる文字列くらいの長さだとたいてい納まって効きそう。 [ruby-core:117469] [Feature #20415]
