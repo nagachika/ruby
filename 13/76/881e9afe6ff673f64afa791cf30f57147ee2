@@ -1,0 +1,1 @@
+frozen_string_literals のデフォルト true に向けて警告出力のための導入した Chilled String の扱いを緩めて frozen? などで判定した時に false を返すようにしています。 [ruby-core:116382] [Feature #20205]
