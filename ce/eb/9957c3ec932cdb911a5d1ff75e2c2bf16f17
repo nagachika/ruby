@@ -1,0 +1,1 @@
+1b8ba1551b26fac906998e34fd2af3f82b433469 の続きで include/ruby/internal/value_type.h にもう一カ所 -Wconversion による警告抑制のための RBIMPL_CAST() を追加しています。 [ruby-core:118007] [Feature #20507]
