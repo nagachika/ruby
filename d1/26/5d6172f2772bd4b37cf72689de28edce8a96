@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/merger.rb の help メッセージで commit の指定のサンプルが Subversion 時代の revision から commit hash になったのでアルファベットも混ぜた表示に変更したりしています。
