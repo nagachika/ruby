@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/redmine-backporter.rb で String#color がキーワード引数分離の影響で動かない呼びかたがあったため省略可能引数を追加しています。
