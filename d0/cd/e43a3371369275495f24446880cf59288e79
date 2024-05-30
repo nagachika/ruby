@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/redmine-backporter.rb の backport コマンドで merger.rb のコマンドを出力する時の空白を除去しています。
