@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/redmine-backporter.rb の ls コマンドで Closed のチケット数を表示し Closed のチケットをリスト上強調表示するようにしています。
