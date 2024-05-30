@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu での YJIT を有効にしたテスト用 workflow で ruby/setup-ruby アクションの実施を独自アクションの .github/actions/setup/directories の前に移動しています。 .github/actions/setup/directories で 3.0 以降の ruby が必要なため。
