@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/redmine-backporter.rb の b0ebad51e504a1182f29026be755b2e7a8756080 の続きでコミットログに複数の backport した commit hash があった時に done コマンドで投稿するコメントでそれぞれに "commit:" の prefix をつけるようにしています。
