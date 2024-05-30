@@ -1,0 +1,1 @@
+よくわかりませんが configure で macOS での ld が Apple 製のものかどうか確認して警告抑制のため warnflags を追加するためのメッセージの検査から "warning: .debug_macinfo" と "note: while processing" という行のチェックをなくしています。
