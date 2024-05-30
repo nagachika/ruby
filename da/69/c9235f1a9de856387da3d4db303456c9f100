@@ -1,0 +1,1 @@
+thread.c と load.c の EC_EXEC_TAG() の利用箇所で "variables might be clobbered" の警告避けのため volatile 変数への代入や参照する変数の変更などをしています。
