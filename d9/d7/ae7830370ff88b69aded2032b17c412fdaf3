@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/merger.rb で backport 用のパッチを当てて conflict が発生しなかった時に確認用のプロンプトを出力せずに commit するようにしています。
