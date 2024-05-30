@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/redmine-backporter.rb で readline を利用していたのをやめて reline でおきかえています。
