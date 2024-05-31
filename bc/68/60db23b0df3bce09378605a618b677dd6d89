@@ -1,0 +1,1 @@
+4839493f3f3419ee2be88b6160d9c3c71fbd02e2 の続きで標準添付ライブラリ net/http のヘッダ名の capitalize のメソッドで文字列リテラルに .freeze をつけるようにしています。このファイルには frozen_string_literal: true の magic comment がついてるので冗長なんですけどね……。
