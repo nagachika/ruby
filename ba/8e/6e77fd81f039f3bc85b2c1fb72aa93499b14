@@ -1,0 +1,1 @@
+a3edc4abc574b04bcacfae2af188cce7d27bfcf1 の rubygems の gem pristine の修正を revert しています。 Windows 環境でのテスト失敗のため。
