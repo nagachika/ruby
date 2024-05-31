@@ -1,0 +1,1 @@
+メンテナンス用ツール tool/redmine-backporter.rb でチケットに参照されているコミットを commit hash の辞書順で表示していたのを git show コマンドを使って時系列順にして表示するようにしています。
