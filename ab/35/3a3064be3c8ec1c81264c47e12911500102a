@@ -1,0 +1,1 @@
+632115c11ec356d5abd65a0db2a21358c87d99bb の spec/default.mspec の変更の再修正で環境変数 COLUMNS が設定されてない時のエラーを回避しています。
