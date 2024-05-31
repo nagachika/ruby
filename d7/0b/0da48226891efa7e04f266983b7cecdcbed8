@@ -1,0 +1,1 @@
+1fa93fb9488a32018101689fd727965fd5874eb5 の拡張ライブラリ strscan の rdoc 用コメントのファイルの相対パス修正を revert。その元の 974ed1408c516d1e8f992f0b304e2de6f8bd5c1f も revert するためみたいです。
