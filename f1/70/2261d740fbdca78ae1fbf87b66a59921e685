@@ -1,0 +1,1 @@
+メンテンス用ツール tool/redmine-backporter.rb の frozen_string_literals 対応のため文字列の非破壊的メソッドを利用するように変更しています。
