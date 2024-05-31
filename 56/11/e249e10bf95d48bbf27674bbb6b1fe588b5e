@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の拡張ライブラリ strscan の同期処理にドキュメント用のファイルの doc/strscan への移動の処理を追加しています。
