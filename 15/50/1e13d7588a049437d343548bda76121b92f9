@@ -1,0 +1,1 @@
+拡張ライブラリ stringio 内の chilled string 対応を revert しています。おそらく 1376881e9afe6ff673f64afa791cf30f57147ee2 の仕様変更で freeze 扱いにならなくなったため不要になった対応を消していると思われます。 https://github.com/ruby/stringio/pull/94 [ruby-core:116382] [Feature #20205]
