@@ -1,0 +1,1 @@
+configure の --with-gmp オプションを指定したビルドのの時に Integer::GMP_VERSION が定義されていることを確認するテストを追加して実際に libgmp とリンクされていることが GitHub Actions で確認されるようにしています。 https://github.com/ruby/ruby/pull/10875 [ruby-core:118110] [Bug #20515]
