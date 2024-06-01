@@ -1,0 +1,1 @@
+configure の --with-gmp の対応で追加した tool/m4/ruby_check_header.m4 に typo があったのを修正しています。 https://github.com/ruby/ruby/pull/10876 [ruby-core:118110] [Bug #20515]
