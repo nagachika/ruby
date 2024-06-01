@@ -1,0 +1,1 @@
+rubygems の Gem::Specification._resort! で platform による priority が一致している時に base_dir を基準にしてソートするようにしています。コメントをみると安定ソートにするためみたいです。
