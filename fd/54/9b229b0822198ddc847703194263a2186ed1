@@ -1,0 +1,1 @@
+22e4eeda6561693367fc7a00b92b90f46b09cabd で追加した libgmp とリンクした時のテストで定数 Integer::GMP_VERSION の確認に defined? を使ってましたが defined? は真偽値でなく "constants" みたいに文法要素の名前みたいな文字列を返すので修正しています。 https://github.com/ruby/ruby/pull/10880 [ruby-core:118110] [Bug #20515]
