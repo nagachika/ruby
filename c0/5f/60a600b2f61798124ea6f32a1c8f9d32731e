@@ -1,0 +1,1 @@
+thread.c の rb_nogvl() で clobbered variable の警告抑制のため BLOCKING_REGION() の前後で vm を volatile 変数にバックアップして復旧する処理を追加しています。
