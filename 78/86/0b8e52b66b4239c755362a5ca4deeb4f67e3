@@ -1,0 +1,1 @@
+bundler の gem 取得のリクエストを slotlling する処理のリファクタリング。
