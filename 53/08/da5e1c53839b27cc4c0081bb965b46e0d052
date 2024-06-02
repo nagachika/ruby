@@ -1,0 +1,1 @@
+configure.ac で tool/m4/ の配下の .m4 ファイルを include するのに m4_include を直接使わずに RUBY_M4_INCLUDED() というマクロを定義して Makefile の configure の依存関係に .m4 ファイルを記述するようにしています。
