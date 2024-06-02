@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の YJIT 有効化した workflow で syntax_suggest のテストのタイムアウトを伸ばしています。
