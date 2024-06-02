@@ -1,0 +1,1 @@
+rubygems で gem uninstall で gem の複数のバージョンがインストールされている時の処理の修正。
