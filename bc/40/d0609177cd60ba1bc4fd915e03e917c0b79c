@@ -1,0 +1,1 @@
+bundler の Bundler::CompactIndexClient の実装を効率化のため変更しています。メモリ使用量を減らす最適化のようです。
