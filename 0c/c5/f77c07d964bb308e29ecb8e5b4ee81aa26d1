@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t の関数ポインタのメンバー string_value_cstr を削除しています。
