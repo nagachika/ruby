@@ -1,0 +1,1 @@
+クラスの定義に Data_Wrap_Struct() を利用していたところを rb_data_type_t による型定義をして TypedData_Wrap_Struct() を利用するように変更しています。 https://github.com/ruby/ruby/pull/10872
