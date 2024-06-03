@@ -1,0 +1,1 @@
+cedc7737b6a614de1ee2aaa8d66bbca217d9fa8f の続きで parse.y で正規表現のノードを一旦 rb_node_dregx_t 型の変数に格納するようにしています。デバッガで確認しやすくするためみたいです。
