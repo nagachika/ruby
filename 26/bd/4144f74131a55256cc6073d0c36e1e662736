@@ -1,0 +1,1 @@
+make nightly と yesterday という、(JST での?)前日いっぱいまでの commit まで巻き戻してからビルドして install するターゲットを追加しています。
