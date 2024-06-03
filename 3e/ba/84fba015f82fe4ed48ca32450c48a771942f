@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md に GNUE make のバージョン 3 には並行実行についての不具合(機能不足?)があるので 4 以降を使うことを推奨する旨追記しています。
