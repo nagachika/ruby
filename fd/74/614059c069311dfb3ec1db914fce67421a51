@@ -1,0 +1,1 @@
+parse.y の独自の配列構造体 rb_parser_ary_t の解放をする rb_parser_ary_free() 関数で各要素の解放用のコールバック関数のための関数ポインタの変数を用意してそこへキャストして代入していたのをやめて直接 rb_parser_ast_token_free() を呼ぶようにしています。
