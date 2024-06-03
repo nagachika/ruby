@@ -1,0 +1,1 @@
+gc.c の newobj_alloc() で slot の確保に失敗した時に異常終了させていたのを NoMemoryError 例外を発生させるように修正しています。環境変数 RUBY_THREAD_VM_STACK_SIZE を非常に大きくした時に異常終了してしまってたのでその対策のため。
