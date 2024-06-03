@@ -1,0 +1,1 @@
+AST のノードの rb_node_dstr_t 構造体の共用体に nd_cflag という項目を追加して rb_node_dregx_t という別の構造体を用意していたものを同じ構造体を使いまわして表現するようにしています。また node の構造体の型を示すのに struct RNode_XXX ではなく typedef した rb_node_xxx のほうを利用するようにしています。
