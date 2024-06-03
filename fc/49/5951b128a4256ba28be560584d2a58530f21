@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile の Tempfile クラスの rdoc 用コメントにキーワード引数 anonymous についてと Tempfile.create の利用を推奨する旨の記述を追加しています。
