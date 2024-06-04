@@ -1,0 +1,1 @@
+拡張ライブラリ socket の名前解決を別 pthread で実行するための pthread_create(3) がエラーを返した時に rb_getaddrinfo() や rb_getnameinfo() から返す値を EAI_AGAIN から EAI_SYSTEM に変更しています。 EAI_AGAIN のエラーが CI で発生するのだけど実際に getaddrinfo(3) がエラーを返したのかなんらかの理由で pthread の作成に失敗したのか区別がつかないのでその調査のためみたいです。
