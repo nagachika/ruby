@@ -1,0 +1,1 @@
+IO.select の rdoc 用コメントの timeout 引数に整数を受け付けると書かれていたのを Numeric として Float なども受付けることを明記しています。
