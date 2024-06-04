@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md の 3eba84fba015f82fe4ed48ca32450c48a771942f で追記した GNU make 4以降を推奨する注意書きに footnote を利用するようにしています。
