@@ -1,0 +1,1 @@
+GitHub Actions の RJIT のテスト用 workflow でテスト時のオプション -v を渡す指定を削除しています。
