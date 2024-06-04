@@ -1,0 +1,1 @@
+debug_counter.h で自分自身を include する時に #include に __FILE__ マクロを指定していたのを debug_counter.h と決め打ちのファイル名を書くようにしています。なぜだろ。
