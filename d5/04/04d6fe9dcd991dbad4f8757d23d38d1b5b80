@@ -1,0 +1,1 @@
+5611e249e10bf95d48bbf27674bbb6b1fe588b5e の tool/sync_default_gems.rb での strscan の同期処理でドキュメントだけのファイルを doc/strscan に移動するようにした変更を revert しています。
