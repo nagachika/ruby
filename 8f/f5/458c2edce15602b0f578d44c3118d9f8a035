@@ -1,0 +1,1 @@
+require で警告を出力するための lib/bundled_gems.rb で EXACT という定数のエントリのうち SINCE と重複しているものは削って SINCE と同時にチェックするようにしています。
