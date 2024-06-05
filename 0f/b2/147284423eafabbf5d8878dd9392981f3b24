@@ -1,0 +1,1 @@
+ruby の man にさらに環境変数 RUBY_IO_BUFFER_DEFAULT_SIZE について追記しています。
