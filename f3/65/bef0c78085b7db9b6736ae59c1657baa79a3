@@ -1,0 +1,1 @@
+require で警告を出力するための lib/bundled_gems.rb で拡張ライブラリの win32ole について bundled gems への変更に先立ち 3.5 以降警告を出力するようにしています。
