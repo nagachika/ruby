@@ -1,0 +1,1 @@
+同じく T_IMEMO の GC 処理の関数 rb_imemo_mark_and_move() でも同じ値の代入を抑制するようにしています。
