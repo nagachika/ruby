@@ -1,0 +1,1 @@
+ruby の man の環境変数 RUBY_GC_HEAP_%d_INIT_SLOTS の説明に環境変数の数字部分は 0-4 の範囲があると追記しています。
