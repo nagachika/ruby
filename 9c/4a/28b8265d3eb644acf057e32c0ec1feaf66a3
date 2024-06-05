@@ -1,0 +1,1 @@
+拡張ライブラリ json の TruffleRuby 向けの pure ruby 実装の generator を利用するように extconf.rb に分岐を追加しています。
