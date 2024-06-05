@@ -1,0 +1,1 @@
+a8f5284045e3aba1b45691142e5c01bf1d24d519 で一時的に skip した bundler のテストを戻しています。 6e84ac2359c8fc8cb686ef4644b9cae26cd5ab9e で reline の変更を revert したことで直ったためみたいです。
