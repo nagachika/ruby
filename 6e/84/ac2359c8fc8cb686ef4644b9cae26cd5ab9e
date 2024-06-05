@@ -1,0 +1,1 @@
+ba01d15cf5db96933905d669c68f5cc0cd6910b8 の reline の出力まわりの変更を revert しています。 CI で bundler のテストが失敗しはじめたためとのこと。
