@@ -1,0 +1,1 @@
+ruby の man の環境変数 RUBY_GC_HEAP_INIT_SLOTS について書かれていたところを現在の実装に合わせて RUBY_GC_HEAP_%d_INIT_SLOTS と slot サイズの異なる heap ごとの設定になったことについて追記しています。
