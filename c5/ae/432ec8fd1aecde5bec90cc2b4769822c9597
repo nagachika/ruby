@@ -1,0 +1,1 @@
+拡張ライブラリ json の古い ruby 向けの preprocessor 分岐を削除しています。また rb_gc_mark_maybe() の利用を rb_gc_mark() に改めています。
