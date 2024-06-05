@@ -1,0 +1,1 @@
+irb の IRB::InputMethod の rdoc のドキュメント表示のためのダイアログの Proc オブジェクトのブロックで Alt-d の入力を検出するためのキーコードとして Reline::Key.new を利用していたところを削除しています。 https://github.com/ruby/irb/pull/963
