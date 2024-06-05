@@ -1,0 +1,1 @@
+ISeq のオブジェクトの GC の mark 処理 rb_iseq_mark_and_move() で struct rb_iseq_constant_body::call_data の要素に元から empty cc が入っていた時に再度 rb_vm_empty_cc() を代入していたのをやめています。 rb_vm_empty_cc() はグローバル変数へのポインタを返すので同じ値が代入されるだけですが、不要な書きこみで Copy-on-Write でメモリページの複製が起きるのでそれを抑制するためとのこと。正直ここを対処して本当に意味があるほど効くのかなという気もしますが。
