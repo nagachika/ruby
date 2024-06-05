@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の端末入出力の環境ごとの実装を切りかえるのに使う Reline::IOGate という定数を動的に remove_const して再代入していたのをやめています。 multi Thread で問題になりそう……と思ったら後で revert されているようです。 https://github.com/ruby/reline/pull/659
