@@ -1,0 +1,1 @@
+ruby の man にさらに環境変数 RUBY_SHARED_FIBER_POOL_FREE_STACKS について追記しています。
