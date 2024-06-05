@@ -1,0 +1,1 @@
+vm_insnhelper.c のメソッド探索の vm_search_method_slowpath0() という関数で debug counter を有効にしてビルドしている場合の callcache のキャッシュミスの判定の不具合で異常終了することがあったのを修正しています。
