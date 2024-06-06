@@ -1,0 +1,1 @@
+require の警告出力のための lib/bundled_gems.rb に fiddle を 3.5 以降警告出力する対象に追加しています。
