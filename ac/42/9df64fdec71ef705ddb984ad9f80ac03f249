@@ -1,0 +1,1 @@
+tool/leaked-globals で許容する symbol リストに __retguard_ という prefix を持つものを追加しています。 OpenBSD で ASAN 有効化時に利用されるものみたいです。
