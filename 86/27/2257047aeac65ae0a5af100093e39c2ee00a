@@ -1,0 +1,1 @@
+defs/known_errors.def の errno に対応するメッセージの追加、修正を行っています。 https://github.com/ruby/ruby/pull/10897
