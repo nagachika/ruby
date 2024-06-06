@@ -1,0 +1,1 @@
+f7b53a75b648e7156f49c1d5c266e2d85f159fc6 で追加した YJIT のテストで時間がかかりすぎないように子プロセスを起動しないようにしています。また f7b53a75b648e7156f49c1d5c266e2d85f159fc6 と同じく RJIT でも警告出力を抑制した rb_shape_get_next_no_warnings() を利用するようにしています。 [ruby-core:118170] [Bug #20522]
