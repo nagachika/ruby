@@ -1,0 +1,1 @@
+YJIT で "<<" メソッドの最適化命令の利用があった場合にその次に getconstant 命令があった時に不具合があって JIT が行われなくなってしまってたのを修正しています。 https://github.com/ruby/ruby/pull/10903
