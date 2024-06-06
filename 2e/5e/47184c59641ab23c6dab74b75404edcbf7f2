@@ -1,0 +1,1 @@
+同じく GitHub Actions の Windows 版 workflow で vcpkg でインストールするパッケージに gmp を追加しています。
