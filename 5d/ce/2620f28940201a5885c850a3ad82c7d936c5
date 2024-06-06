@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg でインストールするパッケージからもう利用しなくなった readline を削除しています。
