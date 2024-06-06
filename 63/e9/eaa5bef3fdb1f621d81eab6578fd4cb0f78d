@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKCS12.create の誤った引数のチェックを強化しています。
