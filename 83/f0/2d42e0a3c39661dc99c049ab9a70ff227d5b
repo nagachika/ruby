@@ -1,0 +1,1 @@
+065190a973c9534b93e3ff99b789bcc945032dfd および f8e3dd4ec1afab4cd056029982229f3bbea006da の続きで Windows 版での libgmp 利用可否の判定時にみつからなかった時に Makefile に USE_GMP 変数に no を代入するのを書き出すのではなくなにも書かないようにしています。 #ifndef で判定してる場合を考慮してってことかな。 [ruby-core:118173] [Bug #20524]
