@@ -1,0 +1,1 @@
+Windows 版で vcpkg でパッケージインストールする時の設定ファイル vcpkg.json を更新して利用する vcpkg のバージョン? の指定を更新しています。 [ruby-core:118172] [Misc #20523]
