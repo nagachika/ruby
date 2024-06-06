@@ -1,0 +1,1 @@
+bignum.c および rational.c で gmp.h を #include する時の Windows 版での警告抑制のための pragma を追加しています。 [ruby-core:118173] [Bug #20524]
