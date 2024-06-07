@@ -1,0 +1,1 @@
+parse.y の rb_ruby_parser_free() で構造体 struct parser_params の lex.strterm のメモリ解放が漏れていたのを修正しています。 [ruby-core:118154] [Bug #20521]
