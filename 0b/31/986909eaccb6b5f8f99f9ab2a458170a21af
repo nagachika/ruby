@@ -1,0 +1,1 @@
+SystemCallError を継承した例外の定数を配下にもつ Errno モジュールの rdoc 用コメントの説明を更新しています。 https://github.com/ruby/ruby/pull/10913
