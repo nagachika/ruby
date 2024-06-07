@@ -1,0 +1,1 @@
+ba72cfa6616d377ceb62d94f10157097349634e5 の gems/bundled_gems の rbs のバージョン更新を revert しています。 rbs の拡張ライブラリビルドのエラーがあったみたいです。
