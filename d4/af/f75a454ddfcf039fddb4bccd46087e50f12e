@@ -1,0 +1,1 @@
+標準添付ライブラリ logger の rotation の期間の指定に文字列のかわりに Symbol を渡すことができるようにしています。 https://github.com/ruby/logger/issues/46
