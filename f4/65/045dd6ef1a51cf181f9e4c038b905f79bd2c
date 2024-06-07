@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor のインスタンス変数 @first_char を廃止してかわりに buffer_empty? というメソッドを導入して直接バッファをチェックするように変更しています。 https://github.com/ruby/reline/pull/717
