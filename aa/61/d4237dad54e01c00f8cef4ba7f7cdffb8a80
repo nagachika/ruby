@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の 3822ca9884e38bae0def0dc440df080ad16069ad で追加されてた組み込みコマンド disable_irb というのが最近の変更でうっかりコマンドとして登録されなくなってしまっていたのを修正しています。 Binding#irb を再定義して停止しないようにするやつですね。 https://github.com/ruby/irb/pull/964
