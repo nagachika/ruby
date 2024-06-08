@@ -1,0 +1,1 @@
+random.c でプロセス初期化時の Init_RandomSeedCore() では /dev/urandom などから乱数シードを引き出すのはせずタイマーや pid から生成するようにしています。
