@@ -1,0 +1,1 @@
+bundler の設定ファイルの処理で互換性のための処理を YAML の独自実装から Bundler::Settings 内に移動しています。
