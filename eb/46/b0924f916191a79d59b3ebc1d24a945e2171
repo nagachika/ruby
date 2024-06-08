@@ -1,0 +1,1 @@
+bundler のテスト用の RequirementChecker というクラスの inspect メソッドの返す文字列の余計な文字列を削っています。
