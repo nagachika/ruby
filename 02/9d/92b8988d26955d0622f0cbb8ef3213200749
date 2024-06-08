@@ -1,0 +1,1 @@
+configure で linux-{arm64,aarch64} 環境で __builtin_setjmp() を利用しないようにしています。 [ruby-core:85597] [Bug #14480]
