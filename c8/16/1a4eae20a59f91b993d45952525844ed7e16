@@ -1,0 +1,1 @@
+bundler のテストで Pathname に autoload を設定するのをトップレベルに移動しています。
