@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で core ファイルのアップロードのための step は master ブランチでのみ実行するようにしています。
