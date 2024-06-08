@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で ulimit -c unlimited の呼び出しする step を修正しています。
