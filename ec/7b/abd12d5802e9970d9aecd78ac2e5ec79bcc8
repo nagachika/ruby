@@ -1,0 +1,1 @@
+テスト用の拡張ライブラリで Data_Wrap_Struct() を利用していたところがあったので [Feature #19998] での警告出力のために TypedData_Wrap_Struct() を利用するよう移行しています。
