@@ -1,0 +1,1 @@
+5f6a4ed5074eda4b4b1bd2d6dd29aaf3b8ef879d の続きで Data_Wrap_Struct() を利用している拡張ライブラリを使ったテストを除外するのにトップレベル return を利用していたのを本体全体を ruby_version_is のブロック内に囲むように変更しています。
