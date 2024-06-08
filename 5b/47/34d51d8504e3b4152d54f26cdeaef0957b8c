@@ -1,0 +1,1 @@
+random.c で Windows 環境で HCRYPTPROV という型を利用した実装で内部的にこれを wrap するオブジェクトをTypedData_Wrap_Struct() を使って定義するようにしています。警告 Data_Wrap_Struct() の警告を抑制するためかな。
