@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の gemspec ファイルの spec.files の LICENSE.txt を COPYING に修正しています。upstream では実際のファイルの改名もしているみたいですが ruby 本体のほうには含まれていません。
