@@ -1,0 +1,1 @@
+拡張ライブラリ digest の Digest::Base クラスの rdoc 用コメントのサンプルで Data_Wrap_Struct() を利用しているところをバージョン間の差異を吸収した rb_digest_make_metadata() を利用するようにしています。
