@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で SEGV 時の core ファイルのアップロードの step を削除しています。
