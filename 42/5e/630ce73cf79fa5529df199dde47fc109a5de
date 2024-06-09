@@ -1,0 +1,1 @@
+詳細わかりませんが YJIT の Rust 実装の Context というオブジェクトの実装方法を大きく変更しているようです。 https://github.com/ruby/ruby/pull/10888
