@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で AST から位置情報を取り出す処理の prism による AST 対応を追加しています。
