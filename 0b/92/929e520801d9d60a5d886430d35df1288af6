@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::X509::Certificate#tbs_bytes という i2d_re_X509_tbs() という関数を wrap するメソッドを新規追加しています。 https://github.com/ruby/openssl/issues/519
