@@ -1,0 +1,1 @@
+YJIT の Rust 実装の Context の cache を導入しているようです。 https://github.com/ruby/ruby/pull/10938
