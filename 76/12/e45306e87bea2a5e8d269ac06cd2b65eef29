@@ -1,0 +1,1 @@
+parse.y のエラー処理の本体と ripper との共有するため formal_argument_error() という関数を導入しています。この関数の戻り値が VALUE なので parse.y から VALUE をなくそうとしている活動により rb_parser_string_t に変更されそう。
