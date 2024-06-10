@@ -1,0 +1,1 @@
+拡張ライブラリ digest の 0619312bb53cb64dedbfbf30eafd3a708b72588e で追加した rb_digest_wrap_metadata() という関数を export するようにしています。
