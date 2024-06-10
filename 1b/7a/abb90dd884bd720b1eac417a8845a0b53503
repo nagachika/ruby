@@ -1,0 +1,1 @@
+6ea9cd49099b83aebbab9463e3432cb03a4b6ba4 で拡張ライブラリ digest に追加した ext/digest/digest.def というファイルを削除しています。古い ruby でのビルド対策みたいですけど、このファイルそもそもなんだろう?
