@@ -1,0 +1,1 @@
+Windows 環境で RUBY_FUNC_EXPORTED というマクロの定義に extern __declspec(dllexport) という修飾子? を利用するようにしています。
