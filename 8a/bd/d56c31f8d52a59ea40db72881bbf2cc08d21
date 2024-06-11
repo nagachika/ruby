@@ -1,0 +1,1 @@
+C API のテスト用の拡張ライブラリの .def という拡張子のファイルを削除しています。Windows でのシンボルの export などを指定するファイルみたいですが 906a86e4de71061dca0558a6bd6e0b355776dfb1 で RUBY_FUNC_EXPORTED というマクロで Windows 対応も追加したのでそれで不要になったみたいです。
