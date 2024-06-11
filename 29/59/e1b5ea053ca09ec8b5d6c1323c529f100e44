@@ -1,0 +1,1 @@
+標準添付ライブラリ irb のテストでバックトレースのフィルタリングのテストクラスで RUBYOPT 環境変数を一時的に上書きする setup を追加しています。 https://github.com/ruby/irb/pull/966
