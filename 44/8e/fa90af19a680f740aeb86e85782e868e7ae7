@@ -1,0 +1,1 @@
+bootstraptest/runner.rb で make btest でもタイムアウトの値を環境変数 RUBY_TEST_TIMEOUT_SCALE や RUBY_TEST_SUBPROCESS_TIMEOUT_SCALE に従って調節させるようにしています。
