@@ -1,0 +1,1 @@
+rubyspec の RUBY_DESCRIPTION 定数についてのテストを RUBY_ENGINE が ruby 以外か RbConfig::TOPDIR が設定されている時? に実行除外するようにしています。コミットログによると YJIT が有効な時に skip しようとしてるみたいですけどそれにしては guard の条件がよくわからないですね。
