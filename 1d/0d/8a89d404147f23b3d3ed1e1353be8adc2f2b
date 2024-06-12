@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::Terminfo が利用できない時 fallback として delete などのキーに対応する エスケープシーケンスを決め打ちで持つようにしています。 https://github.com/ruby/reline/pull/722
