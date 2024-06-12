@@ -1,0 +1,1 @@
+Symbol#inspect の GC 関連の不具合のためのテストを YJIT/RJIT が有効な時に skip していたのを削っています。 1471a160ba1bbdca9d6c4b21260793c1414253f3 が修正になったみたいです。
