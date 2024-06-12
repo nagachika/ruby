@@ -1,0 +1,1 @@
+rubyspec のドライバの mspec で一時ディレクトリを作成する helper で一時ディレクトリの作成時に umask で world-writable にならないよう other の write 権限を落とすようにしています。また元々対象のディレクトリが存在した場合も権限をチェックして world-writable だったら例外を発生させて中断させるようにしています。
