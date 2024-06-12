@@ -1,0 +1,1 @@
+configure でコンパイラオプションの -fstack-protector や -mbranch-protection、-D_FORTIFY_SOURCE などのオプションを格納する $hardenflags という変数を導入してこれを $cflags に追加するようにして、$XCFLAGS にこれらのオプションを追加していたのをやめています。 configure 時に明示的に CFLAGS などの変数でオプションを指定した時にオプション検出のためのコンパイルにも含まれてしまってうまく設定されないという問題を回避するためみたいです。 [ruby-core:116039] [Bug #20154] [ruby-core:118150] [Bug #20520]
