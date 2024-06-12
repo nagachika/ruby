@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo の定義のために fiddle を require する時の警告を抑制するため一時的に $VERBOSE を nil にセットするようにしています。fiddle の bundled gems 化のために警告を出すようにしたからですね。 https://github.com/ruby/reline/pull/721
