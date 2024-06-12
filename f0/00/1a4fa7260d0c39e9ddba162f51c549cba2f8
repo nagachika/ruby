@@ -1,0 +1,1 @@
+magic comment の shareable_constant_value が指定されていてリテラルを Ractor 間で共有できるオブジェクトにするため特殊なメソッドを呼ぶための VM が内部的に使う rb_mRubyVMFrozenCore が ISeq 内に埋め込まれていたので、ISeq のバイナリフォーマットへの読み書き時にうまく処理されなかったので VM_SPECIAL_OBJECT_VMCORE という整数の定数を埋め込むように修正しています。 [ruby-core:118268] [Bug #20569]
