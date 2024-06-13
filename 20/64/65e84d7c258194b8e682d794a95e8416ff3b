@@ -1,0 +1,1 @@
+parse.y の dispatch_heredoc_end() という関数の定義を本体と ripper 用とで関数ごと分けていたのを関数内の preprocessor 分岐で最小限の分離にして共通部分を共有するようにしています。
