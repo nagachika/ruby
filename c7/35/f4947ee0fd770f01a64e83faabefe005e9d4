@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Certificate#sign の引数の digest に nil を渡すのを受付けるようにしています。 鍵の種類によって OpenSSL の X509_sign() に NULL を渡すことができるのでそれを指定できるようにしているようです。 https://github.com/ruby/openssl/pull/761
