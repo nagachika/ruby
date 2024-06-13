@@ -1,0 +1,1 @@
+YJIT の統計情報の num_contexts_encoded というカウンターを --yjit-stats を指定しなくてもインクリメントするカウンタの仲間入りさせています。
