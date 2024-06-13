@@ -1,0 +1,1 @@
+6086bae5c85cc297003012afc9cf5966fc75746a の mspec での一時ディレクトリ作成時の File.umask のチェックを Windows 環境では行わないようにしています。
