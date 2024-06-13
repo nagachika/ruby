@@ -1,0 +1,1 @@
+.gdbinit で misc/gdb.py を読み込むための source コマンドに -s オプションをつけるようにしています。
