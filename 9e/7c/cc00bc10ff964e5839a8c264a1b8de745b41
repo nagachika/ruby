@@ -1,0 +1,1 @@
+bundler のテストで prism parser 利用時にエラーメッセージが変わることに対応するように assertion を修正しています。
