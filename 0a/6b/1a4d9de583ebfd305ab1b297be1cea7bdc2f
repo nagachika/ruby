@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb で commit hash に commit: の prefix をつけるための判定に先頭 8文字だけの commit hash にも対応するようにしています。
