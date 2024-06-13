@@ -1,0 +1,1 @@
+irb のテストで IRB モジュールの @existing_rc_name_generators というインスタンス変数をリセットする処理を setup から teardown での後始末に移動しています。 https://github.com/ruby/irb/pull/968
