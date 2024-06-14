@@ -1,0 +1,1 @@
+bundler の Bundler::CompactIndexClient#info で変数名の typo をしていた不具合を修正。
