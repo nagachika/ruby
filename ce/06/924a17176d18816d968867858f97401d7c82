@@ -1,0 +1,1 @@
+YJIT の --yjit-stats で出力する統計情報に Rust 実装の Context の cache hit の回数を出すようにしています。 https://github.com/ruby/ruby/pull/10979
