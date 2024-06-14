@@ -1,0 +1,1 @@
+e4385baaa2bfe4c0a6540f4c996df4ccff71cdca の続きでもう一カ所 gc_move() から inline 関数の RVALUE_MARKED() を呼ばずに同様の内容を直接展開して check_rvalue_consistency() の再帰呼び出しを避けるようにしています。
