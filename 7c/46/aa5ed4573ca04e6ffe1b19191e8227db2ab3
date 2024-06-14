@@ -1,0 +1,1 @@
+32683aa18db667ac740bc562eca5989640ae1612 のプロセス終了時の解放処理で Array と Symbol の利用をやめて Array と Symbol の解放処理の遅延をしていたのをやめた影響で環境変数 RUBY_FREE_AT_EXIT を指定してプロセス終了時に徹底したメモリ解放をするモードにすると異常終了していたそうで、Symbol が dynamic string だった時に参照している fstring への参照を消すようにしています。 [Bug #20577]
