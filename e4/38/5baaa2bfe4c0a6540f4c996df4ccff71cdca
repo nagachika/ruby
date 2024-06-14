@@ -1,0 +1,1 @@
+96974c6c0de7471a7bb852efc512680371e97972 の gc.c のリファクタリングで bitmap の参照をする RVALUE_XXXX_BITMAP() 系のマクロ定義を削除していたのをやめてやはりマクロ経由で bitmap 参照するようにしています。また check_rvalue_consistency() から呼ぶ check_rvalue_consistency_force() が inline 関数の RVALUE_XXX() 群を呼んでいるためそこからまた check_rvalue_consistency() が再帰的に呼ばれてしまっていたのでここでマクロを利用するようにしています。
