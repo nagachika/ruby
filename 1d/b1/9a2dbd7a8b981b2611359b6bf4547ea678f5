@@ -1,0 +1,1 @@
+Variable Width Allocation による slot サイズごとの heap のサイズの設定のタイミングを早めに移動して ccan_list の初期化のループにまとめています。
