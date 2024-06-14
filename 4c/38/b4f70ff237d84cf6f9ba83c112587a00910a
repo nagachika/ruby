@@ -1,0 +1,1 @@
+gc.c で RVALUE_WB_UNPROTECTED() という inline 関数を利用するようにしています。
