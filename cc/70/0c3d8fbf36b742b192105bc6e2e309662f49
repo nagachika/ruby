@@ -1,0 +1,1 @@
+gc.c で RVALUE_MARKING() という inline 関数を利用するようにしています。
