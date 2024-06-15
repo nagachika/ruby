@@ -1,0 +1,1 @@
+同じく bootstraptest の YJIT のテストで GC.compact が未実装の環境での skip を追加しています。
