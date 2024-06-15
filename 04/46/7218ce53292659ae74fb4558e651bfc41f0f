@@ -1,0 +1,1 @@
+9c7374b0e6cbfb00e4f71d0b2eddba128ba452f7 の rb_str_resize() 変更に対応する拡張ライブラリを使った C API のテストを追加しています。
