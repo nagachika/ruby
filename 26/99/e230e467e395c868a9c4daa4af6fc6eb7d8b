@@ -1,0 +1,1 @@
+RBIMPL_ASSERT_TYPE() というマクロの定義が RUBY_DEBUG が真でデバッグ用ビルドの時に Check_Type を使って例外を発生させて、通常ビルド時に RBIMPL_ASSERT_OR_ASSUME() で異常終了させるようになっていたのを常に RBIMPL_ASSERT_OR_ASSUME() を利用するようにしています。デバッグモードでの調査のためには異常終了させるほうが良かったみたいです。
