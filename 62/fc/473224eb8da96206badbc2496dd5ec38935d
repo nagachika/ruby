@@ -1,0 +1,1 @@
+rubygems の gem uninstall 時に default gem の実行ファイルを消してしまわないように修正しているようです。
