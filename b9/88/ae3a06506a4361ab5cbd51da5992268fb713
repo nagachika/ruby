@@ -1,0 +1,1 @@
+RJIT の and/or 演算に対して生成する命令の対応が不足していたのを修正しています。 https://github.com/ruby/ruby/pull/10856
