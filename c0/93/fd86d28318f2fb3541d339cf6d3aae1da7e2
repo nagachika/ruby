@@ -1,0 +1,1 @@
+bootstraptest の YJIT のテストで assert_equal に渡す snippet 内で return を書いてしまっていたのを skip に修正しています。
