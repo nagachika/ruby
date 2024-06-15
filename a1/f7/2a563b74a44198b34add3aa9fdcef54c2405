@@ -1,0 +1,1 @@
+拡張ライブラリ ripper で Ripper.tokenize した時に改行後の空白が token 化されないことがあるのを修正しています。 [ruby-core:118315] [Bug #20579]
