@@ -1,0 +1,1 @@
+文字列のサイズを変更する rb_str_resize() という関数で UTF-16 や UTF-32 などの非 ASCII-compatible な Encoding (というか終端文字のサイズがマルチバイトな Encoding) では coderange をクリアするようにしています。
