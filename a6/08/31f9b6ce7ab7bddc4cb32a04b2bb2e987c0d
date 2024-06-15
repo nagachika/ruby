@@ -1,0 +1,1 @@
+Fiber 用の coroutine の amd64 アーキテクチャ向けの Context.S のソースコードで OpenBSD の時に _CET_ENDBR というマクロを利用するようにしています。これを使わないと OpenBSD では不正な命令で SIGILL シグナルが発生してしまうようです。
