@@ -1,0 +1,1 @@
+ext/extmk.rb で rubygems の Gem::Platform のみ読み込むところで Gem.target_rbconfig の定義も追加しておくようにしています。
