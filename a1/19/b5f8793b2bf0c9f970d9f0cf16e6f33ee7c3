@@ -1,0 +1,1 @@
+27e13fbc58b02bc027de9c51c8963f57276ac7c1 と同様に String#<< の実装に引数が Integer で Encoding が US-ASCII の時にも高速化のための実装で対応するようにしています。 https://github.com/ruby/ruby/pull/10968
