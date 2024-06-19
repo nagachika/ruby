@@ -1,0 +1,1 @@
+String#<< の実装で引数が Integer で receiver の Encoding が ASCII-8BIT の時に高速化のための実装を追加してそちらに分岐するようにしています。 https://github.com/ruby/ruby/pull/10968
