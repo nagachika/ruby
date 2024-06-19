@@ -1,0 +1,1 @@
+rubygems の gem install 時に参照する rbconfig.rb を指定するためのオプション --target-rbconfig を追加しています。クロスコンパイル時の拡張ライブラリを含む gem のビルドのため、というか WASI 環境で gem install を事前にできるようにするための機能追加かなと思います。
