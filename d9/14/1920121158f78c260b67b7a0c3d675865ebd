@@ -1,0 +1,1 @@
+3e4b694565f8459c95283f6ec6aed52ad38cc57a の bundler の --target-rbconfig オプションの対応でオプション名の Hash のキーを Symbol にしないといけないのに文字列で参照していたところを修正しています。
