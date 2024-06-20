@@ -1,0 +1,1 @@
+cdf33ed5f37f9649c482c3ba1d245f0d80ac01ce の変更によりメソッド呼び出しの引数処理によるオブジェクトの確保する数が変化したのでそれをチェックしているテストを追随させています。 https://github.com/ruby/ruby/pull/10510 [ruby-core:117498] [Feature #20425]
