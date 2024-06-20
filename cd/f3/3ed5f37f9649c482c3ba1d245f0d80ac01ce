@@ -1,0 +1,1 @@
+詳細みてませんがメソッドの引数を m(...) の記法を使って委譲する時の callinfo の flags に VM_CALL_FORWARDING というビットフラグを追加して VM 値スタックの不要なコピーを抑制してオブジェクト生成を減らすようにする最適化のようです。 https://github.com/ruby/ruby/pull/10510 [ruby-core:117498] [Feature #20425]
