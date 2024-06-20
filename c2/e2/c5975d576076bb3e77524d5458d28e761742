@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の vi mode での dhp および yhp というコマンドの処理の不具合修正。 https://github.com/ruby/reline/pull/726
