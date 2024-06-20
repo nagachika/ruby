@@ -1,0 +1,1 @@
+bundler のテストで Rack::Utils.byte_ranges を呼んでたところを Rack::Utils.get_byte_ranges に変更しています。
