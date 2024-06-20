@@ -1,0 +1,1 @@
+IO#close の rdoc 用コメントに既に close された IO を close してもエラーにならないことを明記しています。
