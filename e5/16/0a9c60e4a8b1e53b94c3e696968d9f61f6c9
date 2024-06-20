@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトの call cache の時の mark 処理の mark 漏れを修正しています。 https://github.com/ruby/ruby/pull/10510 [ruby-core:117498] [Feature #20425]
