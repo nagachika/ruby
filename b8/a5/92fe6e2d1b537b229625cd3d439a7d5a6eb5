@@ -1,0 +1,1 @@
+bundler の bundle fund サブコマンドで Gemfile で通常利用しない group の(?) gem も含めるようにしています。 https://github.com/rubygems/rubygems/pull/7757
