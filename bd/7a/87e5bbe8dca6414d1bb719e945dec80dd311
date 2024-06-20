@@ -1,0 +1,1 @@
+cdf33ed5f37f9649c482c3ba1d245f0d80ac01ce からの続きで vm_call_iseq_forwardable() という関数を追加して vm_callee_setup_arg() で VM スタックを積む処理の fast path を追加しています。 https://github.com/ruby/ruby/pull/10510 [ruby-core:117498] [Feature #20425]
