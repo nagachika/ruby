@@ -1,0 +1,1 @@
+cdf33ed5f37f9649c482c3ba1d245f0d80ac01ce からの続きで VM 命令の sendforward と invokesuperforward というのを追加して引数を委譲したメソッド呼び出し専用の命令を使うようにしています。 https://github.com/ruby/ruby/pull/10510 [ruby-core:117498] [Feature #20425]
