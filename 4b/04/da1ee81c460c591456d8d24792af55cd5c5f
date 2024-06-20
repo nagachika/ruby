@@ -1,0 +1,1 @@
+メソッド呼び出しの委譲する時の引数処理のリファクタリング。 https://github.com/ruby/ruby/pull/10510 [ruby-core:117498] [Feature #20425]
