@@ -1,0 +1,1 @@
+gems/bundled_gems の rexml, net-imap のバージョンをそれぞれ 3.3.0 と 0.4.13 に更新しています。また NEWS の bundled gems のバージョンリストの rexml, net-imap, net-ftp あと rbs のバージョンも更新しています。
