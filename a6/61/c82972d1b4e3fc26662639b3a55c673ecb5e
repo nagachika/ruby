@@ -1,0 +1,1 @@
+cc97a270080d2c6eb9dbdd2b9793ab549b6bb44d で追加した VM 命令の実装で不要な変数を除去しています。 https://github.com/ruby/ruby/pull/10510 [ruby-core:117498] [Feature #20425]
