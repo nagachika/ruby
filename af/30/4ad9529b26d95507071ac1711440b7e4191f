@@ -1,0 +1,1 @@
+bundler の bc40d0609177cd60ba1bc4fd915e03e917c0b79c あたりでの Bundler::CompactIndexClient の最適化を一部 revert しています。メモリ効率のための最適化だったけど遅くなってしまったのでとのこと。
