@@ -1,0 +1,1 @@
+bundler で Gemfile.lock の remote にパスワードなどを含む url を埋め込まないようにする修正の追加修正のようです。
