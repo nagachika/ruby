@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で test-all 実行時に環境変数 RUBY_TEST_TIMEOUT_SCALE に 3 を指定して各テスト内でのタイムアウトを長めに取るようにしています。
