@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom の rdoc 用コメントで UUID についての RFC のリンクを RFC4122 から RFC9562 のものに更新しています。また一部 www.ietf.org へのリンクを使っていたものを www.rfc-editor.org に変更しています。
