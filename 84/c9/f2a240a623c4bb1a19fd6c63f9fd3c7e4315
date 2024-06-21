@@ -1,0 +1,1 @@
+rubygems の bundler のバージョンを判定するのにコマンド名が bundle でも bundler でも対応できるようにしています。
