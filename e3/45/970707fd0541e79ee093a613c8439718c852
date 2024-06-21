@@ -1,0 +1,1 @@
+57e15074fe90e78afc9eadd8287f777d83a8ce6d で rubygems のテストで TruffleRuby 向けに RbConfig::CONFIG をリセットする処理のコード生成を対応していたところが 321ed86e93a34833bd869c6bc3f52d84b8ecce35 で修正されて不要になったとのことで revert しています。
