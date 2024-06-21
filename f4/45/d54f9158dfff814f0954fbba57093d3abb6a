@@ -1,0 +1,1 @@
+bundler のテストで Spec::Helpers::TimeoutExceeded という例外クラスの定数を Spec::Subprocess::TimeoutExceeded に移動しています。
