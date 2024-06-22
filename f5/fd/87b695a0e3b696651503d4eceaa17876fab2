@@ -1,0 +1,1 @@
+gc.c の ruby_external_gc_init() という関数が他のソースファイルで使われてないので static 関数にしています。
