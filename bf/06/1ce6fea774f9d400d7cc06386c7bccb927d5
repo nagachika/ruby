@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で vcpkg のパッケージのキャッシュを actions/cache アクションを使って作っていたのを actions/github-script を利用するように変更しています。
