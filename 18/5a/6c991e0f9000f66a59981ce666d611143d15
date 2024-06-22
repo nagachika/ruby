@@ -1,0 +1,1 @@
+rubygems の Windows 環境でインストール時にコマンドに対応した bat ファイルに出力するコマンドの内容をシンプルにしています。古い環境のサポートのためのなんやかんやを消しているみたいなのと、ruby.exe のパスの prefix に ~dp0 というのを追加しています。 https://github.com/rubygems/rubygems/pull/6483
