@@ -1,0 +1,1 @@
+include/ruby/assert.h でマクロ RBIMPL_ASSERT_OR_ASSUME の定義を RUBY_ASSERT_ALWAYS を使って行なっていたところが引数をそのまま渡すだけなので関数マクロとしてでなくただのマクロとして名前を置換するような定義に変更しています。
