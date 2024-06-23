@@ -1,0 +1,1 @@
+拡張ライブラリ socket で getaddrinfo(3), getnameinfo(3) の呼び出し時にシグナルで割り込みがあった時に SystemCallError 例外を発生させずにリトライするようにしています。
