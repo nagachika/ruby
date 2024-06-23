@@ -1,0 +1,1 @@
+configure で --enable-shared オプションを処理するのを Windows 環境(共有ライブラリの拡張子が .dll の環境)では除外するようにしています。win32/mkexports.rb で処理しているので不要とのこと。
