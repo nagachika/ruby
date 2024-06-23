@@ -1,0 +1,1 @@
+cab0d03037d8bc2fce19d1ba2d709f1436890f01 のさらに再修正で configure の cross compiling 時の miniruby の代替のコマンドラインに ac_abs_builddir という変数を使うようにしてましたがこの変数が空の時にエラーになるのでその対処をしています。
