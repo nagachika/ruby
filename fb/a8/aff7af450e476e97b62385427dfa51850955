@@ -1,0 +1,1 @@
+拡張ライブラリ socket の構造体 struct rb_addrinfo の解放処理で NULL チェックが不足していて異常終了する可能性があった不具合を修正しています。 [ruby-core:118373] [Bug #20592]
