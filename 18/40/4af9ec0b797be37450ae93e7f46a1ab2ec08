@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの macOS 版の環境セットアップで homebrew でインストールする OpenSSL のバージョンを 3系に更新しています。
