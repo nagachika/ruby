@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg でインストールするパッケージの指定をコマンドラインで直接指定するのではなく manifest ファイル(vcpkg.json?)を利用するようにしています。
