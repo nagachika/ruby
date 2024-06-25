@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で configure 時の --with-opt-dir の指定を絶対パスにしています。
