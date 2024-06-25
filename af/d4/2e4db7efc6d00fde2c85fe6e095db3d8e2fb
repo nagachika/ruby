@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの Launchable の設定のアクションで環境変数 PATH を直接書き換えようとしていたのを GITHUB_PATH という変数を更新するようにしています。
