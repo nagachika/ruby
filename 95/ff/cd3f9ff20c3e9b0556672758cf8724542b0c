@@ -1,0 +1,1 @@
+コマンドラインオプションの --debug-frozen-string-literal を指定した時に意図せず frozen_string_literal の警告抑制されてしまっていたのを修正しています。 [ruby-core:116382] [Feature #20205]
