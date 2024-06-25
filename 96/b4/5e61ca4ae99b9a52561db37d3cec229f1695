@@ -1,0 +1,1 @@
+File.stat の mtime/ctime/atime などのテストで誤差で失敗した時のリトライを追加しています。
