@@ -1,0 +1,1 @@
+eval_jump.c の rb_ec_exec_end_proc() という関数で大域脱出の検出時に EC_TMPPOP_TAG()/EC_REPUSH_TAG() というマクロを利用して一時的に TAG を復旧してエラー処理してから goto でリトライしていたのを、ちゃんと EC_POP_TAG() してからエラー処理するようにしています。また goto を使わずループでリトライを書くようにしています。 ASAN 利用時に EC_TMPPOP_TAG()/EC_REPUSH_TAG() がうまく動かなかったとのこと。
