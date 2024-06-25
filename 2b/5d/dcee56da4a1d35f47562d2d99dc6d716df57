@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で OPENSSL_MODULES という環境変数を指定していたのが不要になったみたいで削除しています。
