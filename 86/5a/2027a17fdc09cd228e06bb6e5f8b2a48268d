@@ -1,0 +1,1 @@
+拡張ライブラリ date のソースコードで 7aafd3ed0e26c292834a628bf6d1335706f90a50 で参照するようになった strncasecmp() をマクロ定義で STRNCASECMP() という locale に影響されない関数にすりかえるようにしています。
