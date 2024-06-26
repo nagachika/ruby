@@ -1,0 +1,1 @@
+rubyspec の TracePoint のテストで 250fc1223c4dc293f8759ddedce9cba7841f1474 でメソッド末尾の return 文に対応するノードの保持の変更のためのテストで TracePint#inspect の結果の行番号の部分に許容する表示を緩めています。
