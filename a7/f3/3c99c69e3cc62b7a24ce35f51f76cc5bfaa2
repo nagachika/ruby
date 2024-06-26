@@ -1,0 +1,1 @@
+set_trace_func のテストが prism 利用時にエラーになるとのことで skip するようにしています。
