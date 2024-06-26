@@ -1,0 +1,1 @@
+そして拡張ライブラリ io/console でも同じように gperf の生成するコードで strcasecmp() のかわりに STRCASECMP() を利用して locale に影響されない比較関数を使うようにしています。
