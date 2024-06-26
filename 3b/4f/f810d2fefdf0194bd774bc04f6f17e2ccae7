@@ -1,0 +1,1 @@
+a7f33c99c69e3cc62b7a24ce35f51f76cc5bfaa2 で prism 利用時に skip するようにしたテストを pend を個別に書くのではなく test/.excludes-prism/TestSetTraceFunc.rb に追加するようにしています。
