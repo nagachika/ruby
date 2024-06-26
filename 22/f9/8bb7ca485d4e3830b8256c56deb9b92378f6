@@ -1,0 +1,1 @@
+rubyparser.h のマクロ群 nd_fl_newline()/nd_set_fl_newline()/nd_unset_fl_newline() などの定義に誤った演算子の連結をしないよう全体をかこむかっこを追加しています。
