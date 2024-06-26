@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で SIGCONT を受信した時にウィンドウサイズ変更時の再描画を行うようにしています。 https://github.com/ruby/reline/pull/727
