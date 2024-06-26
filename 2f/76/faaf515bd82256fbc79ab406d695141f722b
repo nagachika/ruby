@@ -1,0 +1,1 @@
+win32/Makefile.sub に Windows 版専用のターゲット install-vcpkg と update-vcpkg を追加しています。
