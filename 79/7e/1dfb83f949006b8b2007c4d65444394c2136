@@ -1,0 +1,1 @@
+2f76faaf515bd82256fbc79ab406d695141f722b で追加した win32/Makefile.sub の install-vcpkg ターゲットでインストールした DLL ファイルのリンクを貼るようにしています。また GitHub Actions の Windows 版 workflow で vcpkg install を直接呼ばずに make install-vcpkg を実行するようにしています。もともとリンクを貼る処理は GitHub Actions のほうで行なっていた workaround? みたいですね。
