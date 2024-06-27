@@ -1,0 +1,1 @@
+gems/bundled_gems でテストに使う rbs の commit hash の指定を追加しています。 https://github.com/ruby/ruby/pull/11060
