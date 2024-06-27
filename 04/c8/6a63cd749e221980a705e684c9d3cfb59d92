@@ -1,0 +1,1 @@
+拡張ライブラリ date の生成ヘッダ ext/date/zonetab.h の変数 gperf_downcase の const 修飾子を外しています。
