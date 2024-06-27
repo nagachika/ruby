@@ -1,0 +1,1 @@
+bundler の bundle gem サブコマンドに --no-test --no-ci --no-linter といったオプションを追加しています。
