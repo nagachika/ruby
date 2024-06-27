@@ -1,0 +1,1 @@
+doc/windows.md のビルド手順に 2f76faaf515bd82256fbc79ab406d695141f722b や d70057d4b5a1332d99bcdffb41e7333ac3ff26c0 あたりで追加した make のターゲットを利用したものに書きかえています。
