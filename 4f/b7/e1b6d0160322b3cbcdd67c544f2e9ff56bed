@@ -1,0 +1,1 @@
+ruby_parser.h の enum rb_parser_ary_data_type 型の最初の値に明示的な初期化子を追加して 1 から採番するようにして、parser_ary_new_capa() の初期化時に 0 で初期化するようにしています。けどこれ enum rb_parser_ary_data_type 型のメンバーにそのリストにない値を代入するのってコンパイラによる警告が出たりしないのかな。enum 型のほうに明示的に PARSER_ARY_DATA_UNUSED = 0 みたいな名前をつけないといけないのでは。
