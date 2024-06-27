@@ -1,0 +1,1 @@
+2f76faaf515bd82256fbc79ab406d695141f722b と 797e1dfb83f949006b8b2007c4d65444394c2136 のさらに続きで DLL のリンクを貼る処理をさらに make prepare-vcpkg というターゲットに分離して、GitHub Actions の Windows 版 workflows で make install-vcpkg を利用していたのをやめています。 パッケージのインストールをしないと nmake が実行できなかったので vcpkg によるパッケージインストールを make のターゲットで実行することはできなかったとのこと。なるほど。
