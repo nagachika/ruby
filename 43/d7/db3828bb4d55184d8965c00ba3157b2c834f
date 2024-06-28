@@ -1,0 +1,1 @@
+Exception など例外クラスの rdoc 用コメントの追記や doc/exceptions.md に rescue 内での $! や $@ の役割についてのセクションの追加などをしています。 https://github.com/ruby/ruby/pull/11008
