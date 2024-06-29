@@ -1,0 +1,1 @@
+bundler の rubygems の installer を上書きする Bundler::RubygemsGemInstaller で ensure_writable_dir メソッドを再定義して権限関係の例外 Gem::FilePermissionError を無視させるようにしています。
