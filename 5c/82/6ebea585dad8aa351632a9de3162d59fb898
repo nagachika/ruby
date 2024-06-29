@@ -1,0 +1,1 @@
+091a6ea8c1005f5bfc24839da3da0e37251b15d1 で切り出した rubygems の Gem.open_file_with_flock の実装の位置を移動しています。コミットログによると binstub から呼ばれないように? ということみたいですがよくわからず。
