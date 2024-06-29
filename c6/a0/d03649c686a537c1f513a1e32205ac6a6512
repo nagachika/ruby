@@ -1,0 +1,1 @@
+Encoding の Encoding#names が返す Encoding 名の fstring が解放されるバッファを参照してしまう可能性があった不具合を修正しています。 [ruby-core:118391] [Bug #20595]
