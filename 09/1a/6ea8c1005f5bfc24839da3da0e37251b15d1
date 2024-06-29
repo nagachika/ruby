@@ -1,0 +1,1 @@
+rubygems の Gem.open_file で File#flock を使うかどうかの分岐部分を open_file_with_flock と open_file_without_flock という別のメソッドに切り出すリファクタリング。
