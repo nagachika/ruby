@@ -1,0 +1,1 @@
+bundler で rubygems の installer の挙動を上書きする Bundler::RubyGemsGemInstaller の pre_install_checks というメソッドを再定義するのを rubygems のバージョンをチェックして必要な時だけにしています。
