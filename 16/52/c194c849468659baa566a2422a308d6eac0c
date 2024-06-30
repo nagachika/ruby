@@ -1,0 +1,1 @@
+new_callinfo() で引数 kw_arg のチェックが冗長になってたのを修正しています。 また enum vm_call_flag_bits の VM_CALL_ARGS_SIMPLE_bit のコメントを修正しています。 https://github.com/ruby/ruby/pull/11067
