@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow の Slack 通知時に matrix に OS 名の指定がない時の対応を追加しています。
