@@ -1,0 +1,1 @@
+iseq.c の rb_iseq_new_with_opt() 内で引数の ast_value のコンパイラ最適化による GC mark 漏れを防ぐための RB_GC_GUARD() を追加しています。
