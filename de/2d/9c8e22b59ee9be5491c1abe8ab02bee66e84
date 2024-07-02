@@ -1,0 +1,1 @@
+irb で組み込みコマンドと同じ名前のローカル変数を扱えるようにしています。 https://github.com/ruby/irb/pull/961
