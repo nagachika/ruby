@@ -1,0 +1,1 @@
+win32/setup.mak で verconf.mk という Makefile を生成する時にコンパイラというか preprocessor を利用するにあたり RUBY_RELEASE_{YEAR,MONTH,DAY} などのマクロ定義が version.h で定義されてなかった時の代替定義をしておくようにしています。
