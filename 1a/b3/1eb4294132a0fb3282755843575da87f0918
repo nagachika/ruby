@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストで EnvUtil を利用しているテストメソッドで明示的な require "envutil" を追加しています。 https://github.com/ruby/fiddle/pull/141
