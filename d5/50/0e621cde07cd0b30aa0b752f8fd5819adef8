@@ -1,0 +1,1 @@
+rubygems の add_runtime_dependency をもともと alias だった add_dependency に改名して add_runtime_dependency のほうを alias にしています。
