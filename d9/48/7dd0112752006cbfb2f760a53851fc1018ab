@@ -1,0 +1,1 @@
+thread.c の rb_thread_io_blocking_call() でローカル変数 th の宣言に volatile 修飾子を付加しています。 不具合修正じゃなくて高速化のためみたいです。 volatile を付けたほうが速いのか。  https://github.com/ruby/ruby/pull/11087
