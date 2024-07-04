@@ -1,0 +1,1 @@
+標準添付ライブラリ shellwords の Shellwords::VERSION 定数用に rdoc 用コメントを追加しています。 rdoc -C による網羅チェックの対応のためと思われます。
