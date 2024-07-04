@@ -1,0 +1,1 @@
+bundler の bundle lock のテストで使う lockfile の remote や source を変更しています。
