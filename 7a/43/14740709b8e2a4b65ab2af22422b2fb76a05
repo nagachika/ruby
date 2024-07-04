@@ -1,0 +1,1 @@
+標準添付ライブラリ shellwords の gemspec ファイルで spec.files から除外するファイルリストを増やしています。
