@@ -1,0 +1,1 @@
+bundler の lockfile での platform への自動的な追加をやめる変更で明示的に bundle lock で追加した platform は消えないように対処しているようです。
