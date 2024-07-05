@@ -1,0 +1,1 @@
+a60831f9b6ce7ab7bddc4cb32a04b2bb2e987c0d で導入した Fiber 用の coroutine 実装の amd64 版で cet.h というヘッダを利用するところを defined(__OpenBSD__) で判定していたのを defined(__CET__) で判定するよう変更しています。 https://github.com/ruby/ruby/pull/11081
