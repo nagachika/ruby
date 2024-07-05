@@ -1,0 +1,1 @@
+gc.c の未使用な関数 gc_raw_obj_info_basic() を削除しています。
