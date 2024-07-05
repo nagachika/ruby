@@ -1,0 +1,1 @@
+組み込みメソッド Integer#downto の実装を ruby 実装にして Enumerator を返す必要がある時だけ Primitive.cexpr! を使って C 実装を利用するようにしています。
