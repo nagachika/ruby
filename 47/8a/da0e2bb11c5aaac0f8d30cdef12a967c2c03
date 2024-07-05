@@ -1,0 +1,1 @@
+rubygems のローカルの https サーバーを使うテストでダミーサーバーの実装で例外の捕捉を OpenSSL::SSL::SSLServer#accept の呼び出し部分にかかるように rescue 節を移動しています。しかし Thread 内の rescue はそれはそれでいるんじゃないかな。
