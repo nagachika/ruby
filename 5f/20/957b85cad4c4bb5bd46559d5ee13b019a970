@@ -1,0 +1,1 @@
+ruby_load_external_gc_from_argv() の宣言を main.c から internal/gc.h に移動しています。 [ruby-core:117765] [Feature #20470]
