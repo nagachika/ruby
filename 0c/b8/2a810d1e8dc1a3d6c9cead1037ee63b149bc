@@ -1,0 +1,1 @@
+rubygems のテストでローカルの https サーバーを使うテストで webrick を利用していたのを拡張ライブラリ socket や openssl の TCPServer や OpenSSL::SSL::SSLServer を直接使う実装に置き換えています。
