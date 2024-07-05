@@ -1,0 +1,1 @@
+同じく rubygems のテストで f6aa774a14a4170ade49101e7bcc213338a61a5f で分離したローカルのサーバーを remote とするテストをさらにそれが http か https かで分離しています。
