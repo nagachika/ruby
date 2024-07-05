@@ -1,0 +1,1 @@
+GitHub Actions の workflows で ae8ef065809cd96fbfc6855e6c21a3f2d0ca8e71 の変更による GC の共有ライブラリ化を利用したビルドのジョブを追加しています。 [ruby-core:117765] [Feature #20470]
