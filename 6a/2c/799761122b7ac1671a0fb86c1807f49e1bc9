@@ -1,0 +1,1 @@
+0cb82a810d1e8dc1a3d6c9cead1037ee63b149bc と同様にrubygems のテストでローカルの http サーバーを使うテストで webrick を利用していたのを拡張ライブラリ socket の TCPServer を利用するように書き換えています。
