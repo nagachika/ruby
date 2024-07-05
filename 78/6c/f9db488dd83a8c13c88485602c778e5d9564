@@ -1,0 +1,1 @@
+d25b74b32cbce4fcaed503f124fa8e7d721f18bf の変更に伴ない不要になった RUBY_ASSERT() による assertion を削除しています。 [Feature #20589]
