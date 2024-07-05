@@ -1,0 +1,1 @@
+f4b313f7338f5fbe37f73aae29f70aeb474f7f5b の Integer#downto の ruby 実装への変更時に戻り値が nil になってしまっていたのを self を返すよう修正しています。
