@@ -1,0 +1,1 @@
+rubygems と bundler のテストで作る gemspec の add_runtime_dependency を add_dependency に変更しています。
