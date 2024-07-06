@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow で利用する os の指定から macos-arm-oss の指定を消して常に macos-14 を利用するように更新しています。また CodeQL によるチェックの workflow で利用する OS も macos-arm-oss から常に ubuntu-latest を利用するようにしています。GitHub のプラン変更に伴ない使えなくなった模様。
