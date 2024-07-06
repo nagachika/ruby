@@ -1,0 +1,1 @@
+bundler の platform の判定で arm と armv (32bit 版?)とを区別するようにしているようです。
