@@ -1,0 +1,1 @@
+環境変数 RUBY_FREE_AT_EXIT を指定してプロセス終了時の完全なメモリ解放のために呼ばれる gc_impl.c の rb_gc_impl_shutdown_free_objects() に ASAN を有効にした時の検出を抑制するための asan_unpoisoning_object() の呼び出しを追加しています。
