@@ -1,0 +1,1 @@
+複数 Ractor 利用時の VM 全体のロックのために rb_ractor_sched_barrier_join() を呼ぶ前に実行中の rb_execution_context_t にレジスタやスタックポインタなどを退避しておくようにしています。GC による mark 対象になるようにするためみたいです。また複数 Ractor でロックの取り合いがあった時に誤って critical section に入らないように? ractor.sched.barrier_waiting のチェックを while を使って起床後にも barrier に入れるかどうか再チェックするようにしています。
