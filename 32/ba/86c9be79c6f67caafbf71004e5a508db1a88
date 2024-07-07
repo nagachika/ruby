@@ -1,0 +1,1 @@
+irb の組み込みコマンド help の引数の補完処理で組み込みコマンドを補完するようにしています。 https://github.com/ruby/irb/pull/973
