@@ -1,0 +1,1 @@
+Makefile で Fiber 用 coroutine の実装のアセンブラで書かれたソースをコンパイルする時のオプションとして別途 ASFLAGS という変数を使っていたのをやめて CFLAGS などの変数を流用するようにしています。 [ruby-core:118415] [Bug #20601]
