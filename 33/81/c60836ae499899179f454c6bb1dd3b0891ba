@@ -1,0 +1,1 @@
+template/Makefile.in で probes.o ターゲットのコマンドで環境変数 CFLAGS に Makefile の変数 CFLAGS/XCFLAGS/CPPFLAGS などを展開したものをセットして dtrace コマンドを呼ぶようにしています。dtrace はオブジェクトファイルを作るのにそこからさらに gcc などコンパイラを起動するそうでそこに本体と同じオプションを伝播させるためとのこと。 [ruby-core:104774] [Bug #18061]
