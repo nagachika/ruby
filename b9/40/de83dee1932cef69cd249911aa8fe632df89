@@ -1,0 +1,1 @@
+b18701a7ae0a71c339906ef0db4910fb43645b45 の続きで Fiber 用 Coroutine の実装で ARM アーキテクチャのセキュリティ関係の機能の PAC や BTI を利用する判定を configure でしていたのをやめて coroutine/arm64/Context.S で直接 __ARM_FEATURE_PAC_DEFAULT や __ARM_FEATURE_BTI_DEFAULT などのコンパイラが提供するマクロで分岐するようにしています。 [ruby-core:118415] [Bug #20601]
