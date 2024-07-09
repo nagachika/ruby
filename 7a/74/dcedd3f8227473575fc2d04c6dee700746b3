@@ -1,0 +1,1 @@
+拡張ライブラリ open-uri の webrick を利用したテストで webrick の利用をやめて TCPServer を直接使うように書き換えています。
