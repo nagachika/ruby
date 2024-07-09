@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の ftp のダミーサーバーを使ったテストに require "socket" を追加しています。
