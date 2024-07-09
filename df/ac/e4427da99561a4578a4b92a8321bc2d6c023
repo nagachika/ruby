@@ -1,0 +1,1 @@
+3381c60836ae499899179f454c6bb1dd3b0891ba の続きで template/Makefile.in の probe.o 生成のコマンドで dtrace 実行時に渡す環境変数に CC も追加しています。
