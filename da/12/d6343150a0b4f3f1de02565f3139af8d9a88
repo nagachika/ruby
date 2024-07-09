@@ -1,0 +1,1 @@
+rubygems の flock を利用するためのヘルパーメソッドで Errno::ENOLCK 例外を捕捉する範囲を狭めています。
