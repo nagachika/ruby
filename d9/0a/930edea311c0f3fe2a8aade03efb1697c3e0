@@ -1,0 +1,1 @@
+rubygems で binstub ファイルを書き出す時に flock による排他を使うようにしているようです。
