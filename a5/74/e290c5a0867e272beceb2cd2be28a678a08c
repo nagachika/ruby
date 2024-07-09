@@ -1,0 +1,1 @@
+拡張ライブラリ open-uri のテストで 7a74dcedd3f8227473575fc2d04c6dee700746b3 で実装した TCPServer を利用した簡易ダミーサーバーの実装を test/open-uri/utils.rb に切り出しています。
