@@ -1,0 +1,1 @@
+拡張ライブラリ open-uri のテストで b782906400bd0e8f9c8bfe89666bd31870f220e7 で残っていた webrick を使った https のテストを OpenSSL::SSL::SSLServer を利用したダミーサーバーの機能を拡張して置き換えるようにしています。
