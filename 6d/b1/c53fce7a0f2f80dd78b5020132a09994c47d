@@ -1,0 +1,1 @@
+rubygems で標準添付ライブラリ fileutils に依存していたけど不要なところを直接 File.chmod を利用するようにしています。
