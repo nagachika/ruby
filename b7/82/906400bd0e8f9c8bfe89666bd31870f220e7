@@ -1,0 +1,1 @@
+拡張ライブラリ open-uri のテストで HTTPS のテストでも OpenSSL::SSL::SSLServer を利用したダミーサーバーを実装して利用するようにしています。ただまだ webrick を使った https のテストも一部? 残っているようです。
