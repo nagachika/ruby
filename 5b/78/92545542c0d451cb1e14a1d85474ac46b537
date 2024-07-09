@@ -1,0 +1,1 @@
+GitHub Actions で make btest にも Launchable によるテスト結果の集約が行なわれるように対応しています。
