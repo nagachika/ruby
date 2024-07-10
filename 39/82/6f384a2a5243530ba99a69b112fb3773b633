@@ -1,0 +1,1 @@
+d90a930edea311c0f3fe2a8aade03efb1697c3e0 や e4825a5194af822104ec9fcac00004a2bad30f18 の rubygems での binstub ファイル出力の flock による排他処理まわりの変更を bundler の rubygems 拡張で古い rubygems との併用時にも再定義して修正が反映されるようにしています。
