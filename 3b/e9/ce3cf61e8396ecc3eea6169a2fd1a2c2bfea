@@ -1,0 +1,1 @@
+YJIT の --yjit-dump-disasm 指定時の disasm 出力が開発用のビルドでなくても使えるようにしているそうです。
