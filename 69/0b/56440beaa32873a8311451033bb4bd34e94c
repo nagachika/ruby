@@ -1,0 +1,1 @@
+bootstraptest で Kernel#open を使ってファイル出力しているところが残っていたので File.write や IO.popen を利用するように移行しています。
