@@ -1,0 +1,1 @@
+gc_impl.c の rb_gc_impl_verify_internal_consistency() を static 化に追随して gc_verify_internal_consistency() と改名しています。
