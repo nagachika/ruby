@@ -1,0 +1,1 @@
+1f15149e98796800f229f1bea7770d253fab5532 と同様に gc_impl.c 内で非公開 API の rb_source_location_cstr() に依存していたところがあったので rb_gc_impl_source_location_cstr() という代替実装を gc_impl.c 内にコピーしてこれを使うようにしています。
