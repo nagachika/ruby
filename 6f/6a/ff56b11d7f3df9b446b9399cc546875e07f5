@@ -1,0 +1,1 @@
+配列のバッファの共有時に呼ばれる ary_make_shared() で freeze されている Array の時に capa を現在の値に合わせて切り詰める処理が呼ばれていたのをやめています。 先日の d25b74b32cbce4fcaed503f124fa8e7d721f18bf の続きかな?
