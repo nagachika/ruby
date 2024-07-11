@@ -1,0 +1,1 @@
+configure で使う m4 マクロの定義 tool/m4/ruby_shared_gc.m4 でメッセージの修正。
