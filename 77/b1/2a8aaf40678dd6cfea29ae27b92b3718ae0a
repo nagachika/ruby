@@ -1,0 +1,1 @@
+c49eda91bf9139b33d01584bb1524e2ac3278101 で rb_gc_impl_source_location_cstr() の定義をするのに #ifdef GC_DEBUG を使ってたのを #if GC_DEBUG に修正しています。
