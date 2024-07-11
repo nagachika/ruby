@@ -1,0 +1,1 @@
+gc_impl.c で非公開の API である rb_gc_obj_slot_size() に依存しているところがあったので gc_impl.c 内の実装である rb_gc_impl_obj_slot_size() を利用するように修正しています。
