@@ -1,0 +1,1 @@
+bundler の依存関係解決処理で Resolver::Candidate のインスタンス作成時にキーワード引数 priority 渡して platform 指定の spec の優先度を調節しています。
