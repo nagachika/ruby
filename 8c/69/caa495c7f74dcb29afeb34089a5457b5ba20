@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の test/net/http/test_https.rb に行末の改行がなかったので付加しています。
