@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP.default_configuration= というメソッドを新規追加して、新たに Net::HTTP#start する時のオプションのデフォルト値を変更できるようにしています。おお、これは欲しかったもの。open_timeout とかを変更しようと思うと Net::HTTP.new してオプション設定して start したりしないといけなくて、せっかくのショートカットメソッド類が使えなかったんですよね。
