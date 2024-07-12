@@ -1,0 +1,1 @@
+182822683f86c8f8d63b05765addf5a04d112aa2 で新 API rb_block_call2() を使って Enumerable のいくつかのメソッドでブロック呼び出し時の中間オブジェクト確保を抑制しようとしたのが異常終了が発生する可能性があったので rb_block_pair_yield_optimizable() という関数でブロックパラメーター数をチェックして RB_BLOCK_NO_USE_PACKED_ARGS フラグを渡すかどうかの判定をするようにしています。
