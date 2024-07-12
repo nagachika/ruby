@@ -1,0 +1,1 @@
+IBM864 という文字列の Encoding で変換テーブルのデータが抜けていた? のを修正しているようです。 https://github.com/ruby/ruby/pull/10518
