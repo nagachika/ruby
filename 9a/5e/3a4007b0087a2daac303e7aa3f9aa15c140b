@@ -1,0 +1,1 @@
+標準添付ライブラリのテストのために tool/lib/webrick/ に webrick を vendoring していたのを削除しています。 net/http の webrick 依存をなくしたので不要になったみたいです。
