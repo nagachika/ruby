@@ -1,0 +1,1 @@
+GitHub Actions の GC の実装を共有ライブラリ化するビルドを試す workflow で configure の --with-shared-gc オプションで指定するディレクトリを絶対パスで指定するようにしています。
