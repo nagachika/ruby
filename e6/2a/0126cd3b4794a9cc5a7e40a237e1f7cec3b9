@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri で open のキーワード引数で max_redirects が指定されてなかった時にグローバルなデフォルト値 OpenURI::Options の値を利用するようにしています。
