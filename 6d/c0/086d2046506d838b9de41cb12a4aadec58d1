@@ -1,0 +1,1 @@
+rubygems の設定ファイルの YAML で Hash のキーが Symbol でも文字列でも対応するようにしています。
