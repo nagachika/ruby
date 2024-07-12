@@ -1,0 +1,1 @@
+標準添付ライブラリ open-uri の URI.open の rdoc 用コメントにキーワード引数(正確には最後の Hash 引数で渡すオプション) max_redirects について追記しています。
