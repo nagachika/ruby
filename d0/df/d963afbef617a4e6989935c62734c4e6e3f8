@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションを試す workflows で GC の実装を共有ライブラリ化するビルドをしていたのを削っています。 Ubuntu 環境向けの workflows で既にやっていたのでということみたいです。
