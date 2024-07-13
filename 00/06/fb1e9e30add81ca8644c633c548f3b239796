@@ -1,0 +1,1 @@
+aa473489a2ff5e5ed6d3536466e6108539c97a8b で prism の更新時に誤って tool/bundler/rubocop_gems.rb の更新がコミットされてしまっていたので元に戻しています。
