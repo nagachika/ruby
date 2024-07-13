@@ -1,0 +1,1 @@
+doc/yjit/yjit_hacking.md という YJIT の内部についてのドキュメントを削除しています。内容が古くなって不正確になっていた模様。 https://github.com/ruby/ruby/pull/11153
