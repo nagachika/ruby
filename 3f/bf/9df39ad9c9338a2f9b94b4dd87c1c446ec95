@@ -1,0 +1,1 @@
+YJIT の JIT コンパイル時の Context のキャッシュサイズをさらに拡張しています。 https://github.com/ruby/ruby/pull/11140
