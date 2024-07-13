@@ -1,0 +1,1 @@
+07a5e55f1126695457353cde5f7aeceec6cff07a [Feature #14857] で導入された USE_GC_MALLOC_OBJ_INFO_DETAILS というマクロを非0 にしてビルドすると ruby_xmalloc() や ruby_free() などでメモリ確保の統計情報を収集して終了時に出力するという機能が GC 実装の切り替え可能化に伴なって不可能になるということで削除しています。
