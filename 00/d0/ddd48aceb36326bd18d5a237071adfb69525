@@ -1,0 +1,1 @@
+gc.c の GC 実装に期待する関数群の prototype 宣言を gc/gc_impl.h というヘッダファイルに分離しています。
