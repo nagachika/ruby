@@ -1,0 +1,1 @@
+f543c68e1ce4abaafd535a4917129e55f89ae8f7 で追加した GC.config の実装で rb_sym2str() と rb_str_to_cstr() に依存していたところを公開 API の rb_intern() を利用するように修正しています。 [ruby-core:117644] [Feature #20443]
