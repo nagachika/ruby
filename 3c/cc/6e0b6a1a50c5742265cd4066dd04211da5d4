@@ -1,0 +1,1 @@
+GC モジュールの rdoc 用コメントに f543c68e1ce4abaafd535a4917129e55f89ae8f7 で追加した GC.config について追記しています。 [ruby-core:117644] [Feature #20443]
