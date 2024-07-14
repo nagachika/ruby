@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の行の途中で入力が途切れていた時のプロンプトの表示の不具合修正。 https://github.com/ruby/reline/pull/730
