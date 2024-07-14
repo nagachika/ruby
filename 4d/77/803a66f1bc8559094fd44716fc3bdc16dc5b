@@ -1,0 +1,1 @@
+f543c68e1ce4abaafd535a4917129e55f89ae8f7 の続きで GC.config のキーワードの full_mark は rgengc_allow_full_mark に改名しています。 [ruby-core:117644] [Feature #20443]
