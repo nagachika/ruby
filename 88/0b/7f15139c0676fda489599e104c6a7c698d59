@@ -1,0 +1,1 @@
+Windows 環境で外部ライブラリのインストールに vcpkg を使う時の --triplet というオプションの有無を GitHub Actions の Windows 版 workflows で書いてたのを win32/Makefile.sub の {update,install,prepare}-vcpkg といったターゲットのほうで環境に応じたオプションをつけるようにしています。
