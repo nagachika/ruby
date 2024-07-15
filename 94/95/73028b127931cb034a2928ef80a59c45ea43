@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflows でシステムにインストールされている OpenSSL をリンクしないように改名していたのがもう不要とのことで削除しています。
