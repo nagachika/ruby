@@ -1,0 +1,1 @@
+vm_insnhelper.c で atomic_signal_fence() の利用可否をチェックするのに HAVE_DECL_ATOMIC_SIGNAL_FENCE というマクロの定義有無だけチェックしていて真偽値をチェックしていなかったため利用できないのに呼ぼうとしてビルドエラーになっていたのを修正しています。 [ruby-dev:52096] [Bug #20633]
