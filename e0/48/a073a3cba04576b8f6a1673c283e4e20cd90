@@ -1,0 +1,1 @@
+正規表現のマッチ結果を表現する MatchData クラスに MatchData#bytebegin と MatchData#byteend という文字単位ではなくバイト単位でのマッチ位置のオフセットを返すメソッドを新規追加しています。 [ruby-core:118299] [Feature #20576]
