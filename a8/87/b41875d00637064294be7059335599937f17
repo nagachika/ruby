@@ -1,0 +1,1 @@
+gc/default.c で RGENGC_PROFILE というマクロが 2以上の時に参照されている type_name() という関数がなくなっていたので修正しています。
