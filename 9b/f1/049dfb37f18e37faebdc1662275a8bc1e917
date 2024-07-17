@@ -1,0 +1,1 @@
+RbConfig::LIMITS や RbConfig::SIZEOF といった定数の rdoc 用コメントの認識を阻害しないように rb_define_const() の引数のところで rb_define_module() も同時に書いてたのを一旦変数に受け取るようにスタイルを修正しています。
