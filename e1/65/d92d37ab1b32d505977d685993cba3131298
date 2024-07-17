@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で内部で ripper の Ripper::Filter を継承した RDoc::Parser::RipperStateLex::InnerStateLex というクラスを定義して古い ripper のサポートのため? 独自実装を持っていたのを削除しています。もう現在サポートされている ruby に添付されている ripper であれば不要になったということみたいです。 https://github.com/ruby/rdoc/pull/1118
