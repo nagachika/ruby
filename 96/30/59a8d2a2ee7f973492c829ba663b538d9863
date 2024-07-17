@@ -1,0 +1,1 @@
+gc/default.c で RGENGC_PROFILE マクロが 1以上の時のコンパイルエラーを修正しています。
