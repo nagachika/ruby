@@ -1,0 +1,1 @@
+gc/default.c から未使用の ruby_initial_gc_stress_ptr というグローバル変数の定義を削除しています。
