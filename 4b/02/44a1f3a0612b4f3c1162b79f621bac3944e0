@@ -1,0 +1,1 @@
+gc/gc_impl.h の多重 include を防ぐ guard 用のマクロの名前を GC_GC_IMPL_H に変更しています。
