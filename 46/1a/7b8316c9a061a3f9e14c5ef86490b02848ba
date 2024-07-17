@@ -1,0 +1,1 @@
+gc.c 内で GC の実装の関数群の prototype 宣言していたのを gc/gc.h に移動しています。
