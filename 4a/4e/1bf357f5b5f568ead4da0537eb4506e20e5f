@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で IRB の特異メソッドの定義に receiver を指定した def IRB.xxx のような宣言を使ってたのを class << self で特異クラス用の class 文を開いて定義するスタイルに変更しています。 https://github.com/ruby/irb/pull/981
