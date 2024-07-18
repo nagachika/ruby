@@ -1,0 +1,1 @@
+gc/default.c で db3472d84c0e348fd0774a122281b0d7e5bf6352 で make shared-gc の時に渡すようにしたマクロ定義 BUILDING_SHARED_GC を使って probe.h の利用を共有ライブラリとしてビルドする時にはやめるようにしています。
