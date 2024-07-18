@@ -1,0 +1,1 @@
+common.mk の make shared-gc ターゲットで GC 実装の共有ライブラリをビルドする時に -DBUILDING_SHARED_GC オプションを渡すようにしています。また -I. を削っています。
