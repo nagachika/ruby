@@ -1,0 +1,1 @@
+Ractor の解放処理時に rb_gc_ractor_cache_free() の呼び漏れがあったメモリリークを修正しています。
