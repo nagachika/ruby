@@ -1,0 +1,1 @@
+Range クラスの rdoc 用コメントに beginless range を Array#[] の引数に使った時のサンプルを追記しています。
