@@ -1,0 +1,1 @@
+bundler の bundle lock --add-platform の不具合修正。
