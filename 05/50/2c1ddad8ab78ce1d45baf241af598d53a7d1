@@ -1,0 +1,1 @@
+dabb6c49aa561ba8a222e8b9baf2cbf2e1a1608d の続きで GVL 解放して getattrlist()/fgetattrlist() を呼ぶための処理の構造体の初期化を初期化子を使うマクロとして切り出しています。
