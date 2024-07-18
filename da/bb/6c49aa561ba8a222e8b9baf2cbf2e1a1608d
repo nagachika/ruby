@@ -1,0 +1,1 @@
+dir.c の getattrlist(2) および fgetattrlist(2) の呼び出し時に GVL を解放するようにしています。 [ruby-core:118347] [Bug #20587]
