@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの Launchable 用のアクションで python のパスを通すための処理の処理を macOS でのみ実行するようにしています。
