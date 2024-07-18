@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http や open-uri、rubygems のテストでダミーサーバーを閉じる前に少し sleep を追加しています。
