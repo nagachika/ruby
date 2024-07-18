@@ -1,0 +1,1 @@
+2a12e4ffec99f1e7e83b3b2bdfbec1ace2b1202f の rubygems のテストの変更で rubocop の指示に従って正規表現マッチに =~ でなく Regexp#match? を利用するようにしています。
