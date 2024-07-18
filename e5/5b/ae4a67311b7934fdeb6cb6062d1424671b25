@@ -1,0 +1,1 @@
+同じく rubygems のテスト用のダミーサーバーの TCPServer の close 漏れを修正しています。
