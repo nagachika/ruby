@@ -1,0 +1,1 @@
+bundler で古い rubygems の Gem::Specification#flatten_require_paths というメソッドが定義されている時(古い rubygems と使っている時)のサポートを追加しています。
