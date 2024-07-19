@@ -1,0 +1,1 @@
+rb_obj_freeze_inline() の Doxygen 用コメントを定義のほうではなく prototype 宣言の前に移動しています。また例外の発生について追記しています。 [ruby-core:108522] [Feature #18776]
