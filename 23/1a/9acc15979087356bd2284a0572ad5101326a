@@ -1,0 +1,1 @@
+parse.y の rb_parser_ary_free() で構造体 rb_parser_ary_t の data メンバーの領域の解放が漏れていたのを修正しています。
