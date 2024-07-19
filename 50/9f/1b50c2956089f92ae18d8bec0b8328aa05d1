@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 用アクションの python の PATH を通すための step 実行の条件を追加しています。
