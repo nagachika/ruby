@@ -1,0 +1,1 @@
+file.c でコンパイラの availability という attribute が使えるかどうかの環境の判定の preprocessor 分岐の条件を修正しています。
