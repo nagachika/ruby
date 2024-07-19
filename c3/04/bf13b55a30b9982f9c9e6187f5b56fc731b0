@@ -1,0 +1,1 @@
+標準添付ライブラリ irb のテストで環境変数 XDG_CONFIG_HOME を消して実行するようにして意図しない irbrc の読み込みを避けるようにしています。 https://github.com/ruby/irb/pull/982
