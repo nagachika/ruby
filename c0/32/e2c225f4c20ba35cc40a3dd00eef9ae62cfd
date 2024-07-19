@@ -1,0 +1,1 @@
+bundler で Kernel#caller メソッドを利用していたところを Kernel#caller_locations を利用するようにリファクタリングしています。
