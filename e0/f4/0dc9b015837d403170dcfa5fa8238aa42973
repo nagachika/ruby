@@ -1,0 +1,1 @@
+rubyspec の標準添付ライブラリ uri のテストで URI::DEFAULT_PARSE が URI::RFC3986_Parser になっている場合の分岐を追加しています。
