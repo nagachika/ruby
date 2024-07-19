@@ -1,0 +1,1 @@
+250fc1223c4dc293f8759ddedce9cba7841f1474 の return 文に対応するノードを AST から消さないようにした変更の prism 対応。 [ruby-core:117714] [Bug #20457]
