@@ -1,0 +1,1 @@
+rb_ary_freeze() の Doxygen 用コメントを追記しています。 [ruby-core:118365] [Feature #20589]
