@@ -1,0 +1,1 @@
+rb_gc_impl_object_id() で objspace->obj_to_id_tbl および objspace->id_to_obj_tbl の st_table への追加時に一時的に GC を無効化していたのをやめています。
