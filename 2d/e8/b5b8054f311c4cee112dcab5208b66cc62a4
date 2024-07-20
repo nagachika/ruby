@@ -1,0 +1,1 @@
+YJIT の Rust 実装で f05ad373d84909da7541bd6d6ace38b48eaf24a1 でデバッグのため追加した assertion を削除してコード生成での分岐を修正しているようです。 https://github.com/ruby/ruby/pull/11198
