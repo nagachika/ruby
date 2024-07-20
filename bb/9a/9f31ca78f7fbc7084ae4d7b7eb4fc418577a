@@ -1,0 +1,1 @@
+bundler のテストで bundle lock 実行する時に不要な artifice オプションの指定を削っています。
