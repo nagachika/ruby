@@ -1,0 +1,1 @@
+ISeq へのコンパイル時の peephole optimization で splatarray 命令のフラグを制御する変更が、おそらく 3de20efc308cccc38bf9dacfffca6c626d039a06 の変更で? 不要になったみたいで削除しています。
