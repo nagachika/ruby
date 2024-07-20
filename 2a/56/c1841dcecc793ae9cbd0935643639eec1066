@@ -1,0 +1,1 @@
+6452cf5cb51758066a8db897bebfbca97b230be7 で互換性のために追加した URI::RFC3986_Parser#extract でブロックを受け付けるようにしています。
