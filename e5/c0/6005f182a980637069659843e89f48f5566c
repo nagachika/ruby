@@ -1,0 +1,1 @@
+bundler のテストで依存している  mustermann という gem が URI::RFC2396_PARSER の実装に依存しているということで一時的に URI.parser= で URI のデフォルト parser を切り替えるようにしています。
