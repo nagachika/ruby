@@ -1,0 +1,1 @@
+ruby -v オプション指定時の description に parser に prism を利用していた時に +PRISM を追記するようにしています。
