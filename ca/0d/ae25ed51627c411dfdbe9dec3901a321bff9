@@ -1,0 +1,1 @@
+M:N Thread の実装の nt_free_stack() という関数で madvise(2) を利用する時の preprocessor 分岐をまるごと nt_madvise_free_or_dontneed() という関数に切り出しています。また madvise(2) がエラーを返した時に rb_bug() で異常終了させていたのをやめています。 [ruby-core:118581] [Bug #20632]
