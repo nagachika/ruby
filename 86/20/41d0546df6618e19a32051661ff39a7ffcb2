@@ -1,0 +1,1 @@
+標準添付ライブラリ uri のテストメソッド test_parse を test_parse_rfc2396_parser に改名して明示的に URI::RFC2396_PARSER を利用するように URI.parser= の呼び出しを追加しています。
