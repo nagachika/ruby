@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_define_finalizer() でオブジェクトの struct RBasic::klass に 0 をセットして内部オブジェクト化するのを直接処理していたのを rb_obj_hide() という C API を利用するようにしています。
