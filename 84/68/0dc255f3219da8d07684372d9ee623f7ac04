@@ -1,0 +1,1 @@
+6be539aab5b8fd66685e6079afc6ca83c89fcbd6 の続きで NODE_UNDEF に undef 文の位置情報をセットする処理が漏れてたのを修正しています。
