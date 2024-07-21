@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::ScalarScanner#tokenize でループ内の頻繁に呼ばれる位置で require を遅延して呼んでたのがパフォーマンスに影響があったようで Date に対して autoload を設定するようにしています。
