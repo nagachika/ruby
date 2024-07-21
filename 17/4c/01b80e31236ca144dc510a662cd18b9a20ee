@@ -1,0 +1,1 @@
+Array#each, #map, #select などの ruby 実装のメソッドで Primitive.attr! :use_block でブロックを受け付けるフラグを立てていたのを削っています。 メソッド本体で yield を呼んでいれば明示的な宣言は不要とのこと。 https://github.com/ruby/ruby/pull/11203
