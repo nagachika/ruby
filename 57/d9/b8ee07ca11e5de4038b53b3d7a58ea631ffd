@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_define_finalizer() で引数の obj が freeze されていないことをチェックする GC_ASSERT() を追加しています。
