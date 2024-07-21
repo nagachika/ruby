@@ -1,0 +1,1 @@
+rb_define_finalizer() の戻り値を GC 実装の rb_gc_impl_define_finalizer() の期待する形に合わせて2要素の配列に詰めて返すようにしています。
