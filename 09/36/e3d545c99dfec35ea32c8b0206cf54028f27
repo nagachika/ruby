@@ -1,0 +1,1 @@
+ObjectSpace.define_finalizer の実装 define_final() を rb_define_finalizer() に委譲するようにリファクタリングしています。
