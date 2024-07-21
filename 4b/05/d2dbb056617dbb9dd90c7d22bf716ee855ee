@@ -1,0 +1,1 @@
+GC の実装の undefine_finalizer という関数の戻り値を VALUE から void に変更しています。
