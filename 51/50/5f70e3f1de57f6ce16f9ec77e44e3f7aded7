@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_undefine_finalizer() で obj の freeze してないかのチェックをしていたのを呼び元の gc.c の undefine_final() のほうでチェックするように規約を変更しています。
