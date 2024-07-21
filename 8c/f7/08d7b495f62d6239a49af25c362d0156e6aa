@@ -1,0 +1,1 @@
+chilled string の導入の影響で? rb_check_frozen() が inline 化されなくなってしまったのでその内容を include/ruby/internal/intern/error.h で rb_check_frozen_inline() という inline 関数として定義して、ここで CHILLED_STRING_P() というマクロを使っていたのを展開してベタ書きしておくようにしています。こうしないと inline 化されないのなんでだろう。
