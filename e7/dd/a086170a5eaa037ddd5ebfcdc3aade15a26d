@@ -1,0 +1,1 @@
+Enumerator::Lazy#zip がブロックにパラメーターを渡す時に複数のブロックパラメーターとしてではなく配列に詰めた状態で渡すようにしています。これは Enumerator#zip の挙動に合わせたものとのこと。 https://github.com/ruby/ruby/pull/11212 [ruby-core:118529] [Bug #20623]
