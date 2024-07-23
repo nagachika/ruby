@@ -1,0 +1,1 @@
+rubygems の再定義する require で default gems/bundled gems についての警告を出力するための lib/bundled_gems.rb で警告の有無をチェックする gem 名でシンプルに SINCE に存在するかというチェックをさきにして大半のケースを軽い処理ですませるようにしています。 gem 名が net-http のように "-" で連結されていて require 時に require "net/http" のようになるケースは basename で判定するようにしています。 ad-hoc ですが require が遅くなってしまっていたのでその対処のようです。[ruby-core:118637] [Bug #20641]
