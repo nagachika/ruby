@@ -1,0 +1,1 @@
+f23485a8d693cb69fd7b84c1ab93cb4198ecfe4a で導入した RubyVM::AbstractSyntaxTree::Node#locations で NODE_UNLESS ノードの時に unless, then, end のそれぞれの位置情報を含む配列を返すようにしています。 [ruby-core:118531] [Feature #20624]
