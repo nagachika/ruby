@@ -1,0 +1,1 @@
+AST のノードを表現するオブジェクト RubyVM::AbstractSyntaxTree::Node の位置情報に複数の位置が持てるようにして RubyVM::AbstractSyntaxTree::Node#locations メソッドとその戻り値に使う RubyVM::AbstractSyntaxTree::Location クラスを新規追加し、配列で Location を返すようにしています。 [ruby-core:118531] [Feature #20624]
