@@ -1,0 +1,1 @@
+gc.c の newobj_of() で GET_RACTOR() マクロで現在のコンテキストの Ractor を取得していましたが、引数で rb_ractor_t を受け取っていたのでこれを参照するようにしています。
