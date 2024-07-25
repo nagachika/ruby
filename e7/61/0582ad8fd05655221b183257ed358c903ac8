@@ -1,0 +1,1 @@
+bundler の bundle exe gem uninstall した時の不具合修正とのことで引数が配列と限らない場合に Kernel#Array() で配列に変換する処理を追加しています。
