@@ -1,0 +1,1 @@
+class << A; end のような特異クラスのコンテキストの class 文の中で return を書くのを SyntaxError にするようにしています。 [ruby-core:118670] [Bug #20647]
