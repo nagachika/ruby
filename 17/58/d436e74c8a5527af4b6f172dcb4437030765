@@ -1,0 +1,1 @@
+bundler のテストで simulate_platform というメソッドでブロックを渡す使いかたを徹底するようにしています。
