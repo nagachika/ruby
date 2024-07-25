@@ -1,0 +1,1 @@
+parse.y の parser_set_encode() で file encoding に非 ASCII-compatible な Encoding の設定がされる場合に AST の解放漏れがあってメモリリークしていた不具合を修正しています。
