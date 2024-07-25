@@ -1,0 +1,1 @@
+bundler の Bundler::Source::Git#set_paths! というメソッドの内容をさらに #set_cache_path! と #set_install_path! という 2つのメソッドに分割しています。
