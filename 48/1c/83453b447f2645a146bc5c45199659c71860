@@ -1,0 +1,1 @@
+bundler 3 からは checksum の lockfile への記述をデフォルトの挙動にしているっぽいです。
