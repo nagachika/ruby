@@ -1,0 +1,1 @@
+12e6cf77efae6804063dbebe84e4080ca78958e7 からの続きで mspec で整数の Fixnum で表現される範囲を計算するのに RbConfig::LIMITS を利用するようにしています。
