@@ -1,0 +1,1 @@
+rubyspec の Integer#round のテストで wordsize による guard をしていたのを fbb981b9f819d24c4e11132c02ec02401eabcc5e で修正した min_long というヘルパーメソッドを利用して適切な引数でテストするようにしています。
