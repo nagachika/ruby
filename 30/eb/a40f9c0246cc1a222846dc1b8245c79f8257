@@ -1,0 +1,1 @@
+rubygems の Gem::Requirement#to_yaml_properties と Gem::Version#to_yaml_properties というメソッドの定義を削除しています。sych の古い実装でコールバックとして使われるメソッドだったみたいでもう不要なようです。
