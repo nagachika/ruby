@@ -1,0 +1,1 @@
+コマンドラインオプション --dump=parsetree で AST をダンプする時に NODE_BLOCK_PASS と NODE_ARGS の出力に forwarding フラグの情報を追加しています。
