@@ -1,0 +1,1 @@
+rubyspec および mspec で利用中のアーキテクチャでの整数のバイト幅についての guard の wordsize というのを使っていたのを c_long_size ともう少し具体的な名前にして RbConfig::SIZEOF を使ってより正確に判定するようにしています。
