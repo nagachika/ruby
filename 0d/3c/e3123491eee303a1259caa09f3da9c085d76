@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL::X509::Store#time= メソッドでもインスタンス変数をセットしていたのを直接 C の構造体を利用して X509_VERIFY_PARAM_set_time() という API を呼ぶように変更しています。 https://github.com/ruby/openssl/pull/770
