@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow でテストのタイムアウト関連の時間を調節する環境変数 RUBY_TEST_TIMEOUT_SCALE の値を大きくしています。 macOS 版の環境がとても遅いみたいです。
