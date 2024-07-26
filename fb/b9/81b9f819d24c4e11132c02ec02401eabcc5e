@@ -1,0 +1,1 @@
+12e6cf77efae6804063dbebe84e4080ca78958e7 と同様に rubyspec で long の最大値/最小値を計算していたのを Array#pack の "l!" を使ってバイト数を検出するようにしています。
