@@ -1,0 +1,1 @@
+拡張ライブラリ ripper が SyntaxError になる構文で一部のものが Ripper.tokenize で nil に対する NoMethodError でエラーになってしまうことがあったので nil 対応を追加しています。 [ruby-core:118676] [Bug #20649]
