@@ -1,0 +1,1 @@
+File#stat のテストでファイル操作した時刻を推定するための処理を処理の前後で Process.clock_gettime を呼んで中間時刻を算出する measure_time というヘルパーメソッドを導入しています。
