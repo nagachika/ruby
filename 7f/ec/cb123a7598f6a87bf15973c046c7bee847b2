@@ -1,0 +1,1 @@
+bundler のテストで rake.gem を探すディレクトリの対象の絞りこみに Bundler.ruby_scope というディレクトリ名を追加しています。
