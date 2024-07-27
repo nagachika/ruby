@@ -1,0 +1,1 @@
+rubyparser.h から rb_node_values_t という構造体の宣言を削除しています。a5cc6341c0688c346f70098652b2375c03df40aa から未使用になってたとのこと。
