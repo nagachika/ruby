@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテスト用の TestNetHTTPUtils::NullWriter というログを捨てるためのクラスを削除しています。
