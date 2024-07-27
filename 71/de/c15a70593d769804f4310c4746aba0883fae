@@ -1,0 +1,1 @@
+bundler の bundle check サブコマンドで git の操作のエラーを rescue 対象に追加しています。
