@@ -1,0 +1,1 @@
+gc/default.c の条件分岐に RB_LIKELY() や RB_UNLIKELY() といったコンパイラへのヒントになるマクロを追加しています。
