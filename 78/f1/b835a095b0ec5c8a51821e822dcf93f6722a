@@ -1,0 +1,1 @@
+Float#floor と Numeric#ceil の rdoc 用コメントのマークアップを markdown に変更しサンプルを追記しています。
