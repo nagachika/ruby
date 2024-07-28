@@ -1,0 +1,1 @@
+78f1b835a095b0ec5c8a51821e822dcf93f6722a の Float#floor の rdoc の変更で追加した例を一部削除して、Numeric#floor の rdoc 用コメントも変更しています。
