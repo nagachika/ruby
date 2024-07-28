@@ -1,0 +1,1 @@
+gc/default.c の未使用の関数 rb_gc_impl_get_finalizers() を削除しています。
