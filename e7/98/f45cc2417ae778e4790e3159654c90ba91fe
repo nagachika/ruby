@@ -1,0 +1,1 @@
+GC 実装の共有ライブラリ化まわりの configure 用の m4 マクロを定義している tool/m4/ruby_shared_gc.m4 で --with-shared-gc によるディレクトリ指定がない場合にエラーにするようにしています。
