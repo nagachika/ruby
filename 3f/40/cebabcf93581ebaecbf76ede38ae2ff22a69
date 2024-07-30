@@ -1,0 +1,1 @@
+コマンドラインオプション --dump=parsetree で AST をダンプする時に defined? に対応する AST のノード NODE_DEFINED の表示を修正しています。
