@@ -1,0 +1,1 @@
+ac5ac48a361d3fa91a118b59740a2a9b63ddd90e の revert で削除された関数に対応した RJIT 用の binding を削除しています。 [ruby-core:118706] [Bug #20655]
