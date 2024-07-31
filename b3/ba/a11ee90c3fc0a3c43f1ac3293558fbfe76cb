@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp の Happy Eyeballs version 2 (RFC8305) の実装で IO の多重化などの不具合? を修正する改善パッチを追加しています。 https://github.com/ruby/ruby/pull/11187 [ruby-core:118660] [Feature #20646]
