@@ -1,0 +1,1 @@
+C API の rb_ensure() で ensure 節相当の処理を設定して呼び出した中で require したスクリプトで作成された Continuation の #call メソッドが呼ばれると ensure 節のコールバックが呼ばれてしまう、という不具合があるらしく、とりあえず対応するテストを追加しています。 [ruby-core:118706] [Bug #20655]
