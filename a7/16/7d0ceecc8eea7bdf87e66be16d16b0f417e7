@@ -1,0 +1,1 @@
+3af2a7fbe12e11bac7b26bd991d3d02349f47295 と同様に Integer#ceil や Float#ceil の引数に負の桁数の指定をした時の結果が Bignum の範囲になると不正な結果になる不具合を修正しています。 [ruby-core:118699] [Bug #20654]
