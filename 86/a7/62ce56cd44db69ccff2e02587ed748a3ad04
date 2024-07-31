@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo.setupterm で fiddle を利用したメモリ確保時に解放方法を指定しています。指定しないと解放されないようでメモリリークしていたようです。 https://github.com/ruby/reline/pull/733
