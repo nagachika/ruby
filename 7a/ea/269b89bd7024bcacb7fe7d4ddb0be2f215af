@@ -1,0 +1,1 @@
+同じく古い Windows のサポートを終了して win32/win32.c で GetSystemTimePreciseAsFileTime() の代替の実装を作っていたのを削除しています。 [ruby-core:118237] [Feature #20563]
