@@ -1,0 +1,1 @@
+vm_callinfo.h の inline 関数 vm_cc_new() で call cache に Object Shapes の shape_id を初期化する処理は代入記号つきメソッドの呼び出し時のみにするようにしています。
