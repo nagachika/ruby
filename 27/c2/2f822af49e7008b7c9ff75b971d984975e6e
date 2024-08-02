@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::Parser.for メソッドの第2引数 file_name が未使用だったため引数自体を削除しています。 https://github.com/ruby/rdoc/pull/1135
