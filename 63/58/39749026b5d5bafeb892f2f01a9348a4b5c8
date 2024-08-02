@@ -1,0 +1,1 @@
+parse.y の rb_ruby_parser_free() で作りかけの AST? の解放漏れがあり ripper を使って compile_error のコールバックを実装してた時にメモリリークしていた不具合を修正しています。
