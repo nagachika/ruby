@@ -1,0 +1,1 @@
+346bb6c08b31f463ab3633629220d483cb564855 で追加した GitHub Actions の workflow で変数 github.ref のタグ名からバージョン文字列を得る処理で refs/tags の prefix を削るようにしています。
