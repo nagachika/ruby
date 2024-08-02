@@ -1,0 +1,1 @@
+GitHub Actions の prism を利用する workflow で bundler のテストのタイムアウトを伸ばしています。
