@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で ruby スクリプトの parser に prism を利用した実装を追加して、環境変数 RDOC_USE_PRISM_PARSER が設定されていたらこちらを利用するようにしているようです。 https://github.com/ruby/rdoc/pull/1144
