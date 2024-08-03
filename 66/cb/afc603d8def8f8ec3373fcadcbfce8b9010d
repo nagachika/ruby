@@ -1,0 +1,1 @@
+parse.y のグルーバル変数と識別子(定数やローカル変数やメソッド)を parse する処理で TOK_INTERN()+set_yylval_name() を使っていたのを同じ処理をする tokenize_ident() という static 関数を利用するようにリファクタリングしています。
