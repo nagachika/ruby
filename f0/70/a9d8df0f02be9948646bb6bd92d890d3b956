@@ -1,0 +1,1 @@
+f2b76223301116fc4643800313b931ff62a8196f で追加した GitHub Actions の release 処理用 workflow で all-ruby という全バージョンの ruby で指定のスクリプトを実行して結果を比較するツールにバージョンを追加する workflow を起動するようにしています。
