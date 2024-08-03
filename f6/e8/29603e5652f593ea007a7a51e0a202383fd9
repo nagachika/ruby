@@ -1,0 +1,1 @@
+gc/default.c で未使用になってたマクロ RVALUE_PAGE_MARKED() の定義を削除しています。
