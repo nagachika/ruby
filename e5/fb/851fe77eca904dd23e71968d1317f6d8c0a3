@@ -1,0 +1,1 @@
+vm_insnhelper.c の invoke_bmethod() というメソッドの prototype 宣言がこのファイル内で使われていなかったので削除しています。
