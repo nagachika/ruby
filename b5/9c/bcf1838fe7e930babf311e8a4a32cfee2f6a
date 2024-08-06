@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で標準添付ライブラリ resolv の同期処理で空っぽになってた Windows 向けのライブラリのディレクトリを削除するようにしています。
