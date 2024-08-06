@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI.split, URI.parse, URI.join などの特異メソッドで呼び出す parser として URI::RFC3986_PARSER が明示されていたのを URI::DEFAULT_PARSER に変更しています。今は少し前に変更されて DEFAULT_PARSER が RFC3986_PARSER なので同じことですが、以前からこれらのメソッドでは RFC3986_PARSER を使っていたようですね。
