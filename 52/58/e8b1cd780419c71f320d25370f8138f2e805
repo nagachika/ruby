@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で警告メッセージの出力に receiver なしの warn メソッド呼び出しをしていたのを Kernel.warn と明示するようにしています。require が呼ばれる場所に別の warn メソッドが定義されているとそれが呼ばれてしまうためとのこと。Module#define_method にブロック渡しで require メソッドの上書きを定義しているけどそれでも呼び元が関係するのかな?
