@@ -1,0 +1,1 @@
+test/uinit で並列テスト時に各 worker がタイムアウトした時にどこで止まっていたのか Thread#backtrace を取得して表示するようにしています。
