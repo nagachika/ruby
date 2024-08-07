@@ -1,0 +1,1 @@
+30be7fb85ddcb59b531f22b7627e77624ef05c4e からの test/unit の並列テスト時の worker の timeout のデフォルト値を伸ばしていたのを 3分に戻しています。
