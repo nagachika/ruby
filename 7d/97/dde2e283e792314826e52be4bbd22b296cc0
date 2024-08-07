@@ -1,0 +1,1 @@
+bundler の Bundler::Definition の sources という attr_reader で定義されるメソッドを private にするのに個別に Module#privete を呼んでたのを無引数の private の後で attr_reader を使うように変更しています。
