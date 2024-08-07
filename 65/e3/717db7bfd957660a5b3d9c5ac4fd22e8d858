@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DSA のテストで FIPS モードが有効な時は DSA は使えないのでクラスメソッド全体を setup メソッド内で skip するようにしています。
