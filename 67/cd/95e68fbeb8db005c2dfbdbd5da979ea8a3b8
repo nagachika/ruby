@@ -1,0 +1,1 @@
+GitHub Actions の release 作業用の workflow で dc50d3590ff00bdd3578f922e909e7f701243366 で追加したステップの実行のため ruby 3.3.4 をセットアップするようにしています。
