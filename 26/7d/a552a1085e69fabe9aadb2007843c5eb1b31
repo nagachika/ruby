@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で URI.const_missing メソッドを追加して未定義の定数参照があった時に URI::RFC2396_PARSER.regexp の参照に fallback するようにしています。
