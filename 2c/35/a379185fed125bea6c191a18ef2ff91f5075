@@ -1,0 +1,1 @@
+062f85e141e4fb806b5d4b6dbf6a8cb1f3ce682d の test/unit でタイムアウト時のバックトレース出力の追加で標準エラー出力を $STDERR と書いてたのを STDERR に修正しています。
