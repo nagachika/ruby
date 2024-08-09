@@ -1,0 +1,1 @@
+7594a292b19cb3bde971da294930f6bb2b4e4bc1 で lib/bundled/gems.rb で警告の uplevel を算出するメソッドの修正。
