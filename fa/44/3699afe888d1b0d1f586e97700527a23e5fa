@@ -1,0 +1,1 @@
+09638741ba4d9547a0e48af8c767744fb1d7f68d の Thread.each_caller_location にバックトレースの範囲を指定する引数を追加した変更で一緒に lib/bundled_gems.rb の利用箇所の変更も含まれていたのを revert しています。
