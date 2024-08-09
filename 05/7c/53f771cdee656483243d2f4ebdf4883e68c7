@@ -1,0 +1,1 @@
+vm.c の rb_vm_invoke_bmethod() という関数を static 関数にして vm*.c 内では vm_invoke_bmethod() を直接呼ぶようにしています。
