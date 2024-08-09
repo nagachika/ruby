@@ -1,0 +1,1 @@
+gcc 11 での関数の inline 化の最適化の挙動にあわせるため? invoke_block_from_c_bh() や vm_call_cfunc_with_frame_() といった関数の inline 修飾子を削りかわりに invoke_bmethod() に inline 修飾子をつけるようにしています。また invoke_block() や invoke_bmethod() 内でイベントループを回す vm_exec() を呼んでいたのを呼び元の invoke_iseq_block_from_c() で呼ぶように変更しています。
