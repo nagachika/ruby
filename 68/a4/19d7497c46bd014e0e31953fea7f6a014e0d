@@ -1,0 +1,1 @@
+vm_eval.c の rb_check_funcall_with_hook() という関数が未使用になっていたので削除しています。
