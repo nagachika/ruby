@@ -1,0 +1,1 @@
+rubygems の再定義する require の default gems の警告出力のための lib/bundled_gems.rb のテストに bootsnap 経由の require の時のテストを追加しています。
