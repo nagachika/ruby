@@ -1,0 +1,1 @@
+c3becc3ba6c584fbeabd5182e304e61529235fe6 の標準添付ライブラリ uri の URI::RFC3986_PARSER の特異メソッドの一部に警告出力を追加したのを revert しています。
