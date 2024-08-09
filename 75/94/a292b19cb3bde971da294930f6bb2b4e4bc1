@@ -1,0 +1,1 @@
+require の警告出力のための lib/bundled_gems.rb で Kernel#warn の uplevel でバックトレースを遡ってメソッド名を取得する数をバックトレースをみて決定するためのメソッドを導入しています。require の再定義などによって uplevel が変化するので実際のバックトレースをみて決める必要があるため。
