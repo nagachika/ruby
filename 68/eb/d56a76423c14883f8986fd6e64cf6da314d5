@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::Generic.build にて URI::DEFAULT_PARSER 経由で escape メソッドを呼んでいたのを明示的に URI::RFC2396_PARSER を指定するようにしています。c3becc3ba6c584fbeabd5182e304e61529235fe6 で URI::RFC3986_PARSER のほうは警告を出力するようにしたのでその対応のためですね。
