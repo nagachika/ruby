@@ -1,0 +1,1 @@
+configure に --enable-shared を指定してビルドした時に sannocheck を利用した静的解析の対象を libruby.so にするようにしています。
