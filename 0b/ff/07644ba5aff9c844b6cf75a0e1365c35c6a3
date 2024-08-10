@@ -1,0 +1,1 @@
+YJIT が内部的に利用するオブジェクトを GC から保護するために yjit_root というクラス名の root 用のオブジェクトを定義して使っていたのをやめて gc.c で YJIT 用の root からの mark を追加して公式にサポートするようにしています。 https://github.com/ruby/ruby/pull/11343
