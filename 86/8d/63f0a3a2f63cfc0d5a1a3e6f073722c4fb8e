@@ -1,0 +1,1 @@
+プロセス終了時の finalizer の実行時に GC が走って異常終了することがあったとのことで gc/default.c の rb_gc_impl_shutdown_call_finalizer() で incremental GC を無効化するフラグを立てるのを再入時に早期 return する前に実行するようにしています。
