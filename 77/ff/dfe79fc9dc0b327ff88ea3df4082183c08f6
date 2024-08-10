@@ -1,0 +1,1 @@
+YJIT の --yjit-trace-exits=counter オプション指定時に統計情報のカウンタのインクリメント処理に rb_yjit_record_exit_stack() の呼び出しを追加しています。よくわかってないけど最適化の調査のために特定の理由での side exit のトレースを取りやすくするためみたいです。 https://github.com/ruby/ruby/pull/11347
