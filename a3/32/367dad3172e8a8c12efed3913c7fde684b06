@@ -1,0 +1,1 @@
+文字列の操作でバイト単位の操作が可能かどうかのチェックをする single_byte_optimizable() で最初に Encoding をチェックして ASCII-8BIT や US-ASCII だったら即 true を返し、UTF-8 なら coderange をチェックして ASCII-compatible かどうかチェックするショートカットを追加しています。
