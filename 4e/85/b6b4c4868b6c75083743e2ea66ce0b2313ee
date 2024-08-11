@@ -1,0 +1,1 @@
+String#bytesplice の実装で Encoding の設定をするところで引数に渡された文字列と Encoding が一致している時に不要な処理をスキップする最適化を追加しています。
