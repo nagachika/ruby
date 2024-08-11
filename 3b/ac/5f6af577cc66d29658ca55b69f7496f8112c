@@ -1,0 +1,1 @@
+string.c の str_ensure_byte_pos() で a332367dad3172e8a8c12efed3913c7fde684b06 で最適化した single_byte_optimizable() を呼び出して不要なチェックをスキップするように最適化しています。
