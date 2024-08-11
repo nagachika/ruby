@@ -1,0 +1,1 @@
+magic comment shareable_constant_value についてのテストを追加しています。3.3 系でのみ存在する不具合に対応したテストみたいです。 [ruby-core:118797] [Bug #20668]
