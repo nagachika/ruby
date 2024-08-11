@@ -1,0 +1,1 @@
+Object Space の slot ではなく主にマシンスタック上のの変数を Array オブジェクトのように初期化する rb_setup_fake_ary() で引数 freeze を削除して不要な分岐をなくし、さらに struct RBasic::flags のビットフラグをプロセス起動時に一度計算しておいてそれを使いまわすようにする最適化。ずいぶん細かな最適化ですね。Array#pack の最適化になるんだと思います。
