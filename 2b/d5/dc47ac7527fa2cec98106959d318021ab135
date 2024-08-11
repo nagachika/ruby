@@ -1,0 +1,1 @@
+string.c の str_capacity() で FL_TEST() のかわりに FL_ANY_RAW() マクロを利用するようにしています。不要な即値チェックを省くという最適化のようです。
