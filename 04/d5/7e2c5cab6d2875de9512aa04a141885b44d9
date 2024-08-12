@@ -1,0 +1,1 @@
+gc/default.c の dont_gc_set() や gc_config_full_mark_set() でなぜか無駄に引数を 2回評価するように展開していたのを 1回だけ評価するようにしています。
