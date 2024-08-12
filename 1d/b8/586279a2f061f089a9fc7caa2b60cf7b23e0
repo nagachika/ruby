@@ -1,0 +1,1 @@
+C API テスト用の拡張ライブラリの extconf.rb ext/-test-/public_header_warnings/extconf.rb でエラー時に mkmf.log をダンプするようにしています。
