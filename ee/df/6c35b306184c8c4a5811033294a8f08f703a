@@ -1,0 +1,1 @@
+00176cd40fe9f385231e9c20b956fc4a84d240b9 の Windows 版での configure での arch 変数の設定の変更の一部を revert しています。 rubygems がこの表示に依存していて変更すると問題があった模様。
