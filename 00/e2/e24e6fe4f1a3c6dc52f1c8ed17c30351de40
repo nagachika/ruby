@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 用の独自アクションで対象のテストの make ターゲットに make test を追加しています。
