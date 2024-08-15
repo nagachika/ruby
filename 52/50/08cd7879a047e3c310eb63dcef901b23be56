@@ -1,0 +1,1 @@
+VM 命令の newarraykwsplat というのが pushtoarraykwsplat 命令の導入により不要になったので削除しています。
