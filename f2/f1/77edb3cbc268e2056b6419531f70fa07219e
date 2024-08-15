@@ -1,0 +1,1 @@
+irb で ruby のロゴを出力する easter egg コマンドで表示するロゴをよりきれいに描画できるように Unicode が表示可能な時のデータを追加しています。 https://github.com/ruby/irb/pull/987
