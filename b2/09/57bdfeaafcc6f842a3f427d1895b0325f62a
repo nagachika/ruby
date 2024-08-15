@@ -1,0 +1,1 @@
+4be9b72fbb44e7754337f4957f2c7bfe3cd41891 で導入した標準添付ライブラリ resolv のテストで Windows でのエラーを抑制するため EACCES エラーでリトライするヘルパーメソッドを利用するようにし、bind() のリトライ回数を増やしています。 https://github.com/ruby/resolv/pull/58
