@@ -1,0 +1,1 @@
+本体のテスト用の assertion で処理時間がデータ量に対して線形で増えることを確認する assert_linear_performance でチェックのためのタイムアウトの増加の基数の決定を変更して急激に増えすぎないようにしています。 https://github.com/ruby/ruby/pull/11369
