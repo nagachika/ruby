@@ -1,0 +1,1 @@
+868d63f0a3a2f63cfc0d5a1a3e6f073722c4fb8e の続き? でプロセス終了時の finalizer 実行中の GC で異常終了するのを修正するため rb_gc_run_obj_finalizer() の呼び出しタイミングを対象のオブジェクトを finalizer_table から削除する前に早めています。
