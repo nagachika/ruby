@@ -1,0 +1,1 @@
+shape.c の関数マクロ TAG_SINGLE_CHILD()、SINGLE_CHILD_P()、SINGLE_CHILD() などで引数の評価時にかっこをつけるようにしています。
