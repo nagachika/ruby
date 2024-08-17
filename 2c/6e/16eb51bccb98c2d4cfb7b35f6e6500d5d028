@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_object_id() で st_data_t を明示的に VALUE にキャストして使うようにしています。
