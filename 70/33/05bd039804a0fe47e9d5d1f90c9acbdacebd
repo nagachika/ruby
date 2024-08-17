@@ -1,0 +1,1 @@
+configure での MinGW 版の libruby.so の名前の決定について target_cpu を名前に含めるかどうかを target_cpu や rb_cv_msvcrt の値をみて分岐するようにしています。
