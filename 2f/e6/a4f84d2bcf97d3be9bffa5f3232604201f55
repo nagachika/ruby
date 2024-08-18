@@ -1,0 +1,1 @@
+TracePoint の event を指定した時にそのイベントに対応しない target を TracePoint#enable に渡すと VM_ASSERT() にひっかかって異常終了する不具合を修正しています。
