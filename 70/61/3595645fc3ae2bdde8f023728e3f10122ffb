@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトの README.md のテンプレートのコマンドの実行例を Markdown の code ブロック用の記法を利用するようにしています。
