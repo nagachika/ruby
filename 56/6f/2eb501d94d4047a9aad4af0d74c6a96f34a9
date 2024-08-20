@@ -1,0 +1,1 @@
+process.c の rb_fork_ruby() の処理の一部を rb_fork_ruby2() という関数に切り出していたのを展開してインライン化しています。
