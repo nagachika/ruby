@@ -1,0 +1,1 @@
+rubyparser.h でまったく同じ構造体を別々に宣言して typedef していたのをまとめて typedef するようにしています。typedef って名前を複数つけられるんだ。
