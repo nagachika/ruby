@@ -1,0 +1,1 @@
+gc/default.c の GC_ASSERT() での GC.disable のフラグチェックで異常終了することがあったので条件を修正しています。RGenGC とか incremental mark とか lazy sweep とか GC も性能のためにかなり複雑になっててさらに細かく制御できるようになってるので組合せでおかしなことが起きることはまあありそう。
