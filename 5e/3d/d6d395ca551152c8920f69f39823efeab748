@@ -1,0 +1,1 @@
+macOS での rb_bug() での異常終了時の出力のチェックをするテストのタイムアウトを伸ばしていたのを再度みじかくしています。 https://github.com/ruby/ruby/pull/11412
