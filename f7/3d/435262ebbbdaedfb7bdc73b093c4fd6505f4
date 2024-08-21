@@ -1,0 +1,1 @@
+compile.c で if/unless 文の命令列へのコンパイル時に compile_branch_condition() の呼び出し結果のチェックが漏れていたのを修正しています。
