@@ -1,0 +1,1 @@
+configure で BASERUBY の設定時に erb, fileutils, tempfile などの標準添付ライブラリが使えることを確認するようにしています。 Debian などのシステムに入ってる ruby で標準添付ライブラリがパッケージとして分けられてて使えない場合というのがあるみたいで、そういう時にその ruby を BASERUBY にするとビルドに失敗するので。 [ruby-core:118906] [Bug #20687]
