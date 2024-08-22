@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で require で bundled gems/default gems の警告出力のために require している元を得るために uplevel を計算するメソッドで require メソッドがバックトレースにみつからなかった時? の対応を追加してるようです。
