@@ -1,0 +1,1 @@
+41b427a2648ed2e049952450c698be917e0bb125 の続きで標準添付ライブラリ tempfile で一時ファイルを finalizer で close と削除を行うために作ってた @finalizer_obj はやめて、Tempfile オブジェクトを dup した時に File オブジェクトも複製されるのでそれらも close されるようにするため FinalizerManager という内部的クラスを導入しています。
