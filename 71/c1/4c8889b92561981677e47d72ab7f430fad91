@@ -1,0 +1,1 @@
+5fedf1c3ac4d92f0877759b16aec932541e85075 と同様に lib/bundled_gems.rb の警告の出力時の uplevel の計算のためのメソッドで bundle コマンドを検出したら 0 を返して Kernel.warn の uplevel を渡さないようにしています。
