@@ -1,0 +1,1 @@
+mspec とテストのリソースの leak を検出する tool/lib/leakchecker.rb で a68331e7036d7ab433778bf65eb854aabd5009c4 で削除した tempfile の内部的クラス Tempfile::Remover の挙動を変更するための依存があったので Tempfile そのものを参照するように修正しています。
