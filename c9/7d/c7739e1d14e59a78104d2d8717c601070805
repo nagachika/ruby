@@ -1,0 +1,1 @@
+require で bundled gems/default gems の警告を出力するための lib/bundled_gems.rb で uplevel の計算結果がおかしかったら Kernel.warn の uplevel キーワード引数を渡さないようにしています。
