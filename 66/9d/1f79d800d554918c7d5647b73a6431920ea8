@@ -1,0 +1,1 @@
+bundler で git repository を source とする時の相対パスによる指定をサポートするようにしているようです。
