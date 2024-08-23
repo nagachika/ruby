@@ -1,0 +1,1 @@
+rubygems の gem uninstall で default gems のバージョンを指定した実行した時の不具合修正。
