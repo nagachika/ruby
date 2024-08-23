@@ -1,0 +1,1 @@
+bundler の bundle install の --prefer-local というオプションを指定した時の仕様を改善しています。
