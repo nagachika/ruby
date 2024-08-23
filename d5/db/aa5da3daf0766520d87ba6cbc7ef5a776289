@@ -1,0 +1,1 @@
+weakmap.c の st_foreach() で使う構造体 struct wmap_foreach_data の不要なメンバーを削除しています。
