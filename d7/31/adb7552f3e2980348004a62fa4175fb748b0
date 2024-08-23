@@ -1,0 +1,1 @@
+GitHub Actions で dependabot による pull request を検出するのに github.actor をチェックしていたのを github.event.pull_request.user.login をみるように変更しています。
