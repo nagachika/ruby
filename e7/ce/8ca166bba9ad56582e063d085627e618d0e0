@@ -1,0 +1,1 @@
+0846bcbdf839106706f7332add7ee7be4cee7020 の変更で(というかその前から?) .github/workflows/scorecards.yml で github/codeql-action/upload-sari アクションにコメントで書かれてたバージョン番号が他の箇所とそろってなかったのを修正しています。
