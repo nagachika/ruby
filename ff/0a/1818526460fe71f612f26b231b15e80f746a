@@ -1,0 +1,1 @@
+Fiber 用の coroutine 実装の Arm64 版 coroutine/arm64/Context.S で PAC が有効かどうかのチェックのためのマクロ名を間違えていたのを修正しています。
