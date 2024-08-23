@@ -1,0 +1,1 @@
+win32/Makefile.sub で Windows 版での config.h 生成時に BASERUBY の検出のため tool/missing-baseruby.bat を実行する時に in-place build 時にカレントディレクトリの ruby.exe を使ってしまわないように tool/ の下に移動してからコマンド実行するようにしています。 Windows では PATH 環境変数によらずカレントディレクトリのコマンドが優先的に実行されてしまうからとのこと。 [ruby-core:118906] [Bug #20687]
