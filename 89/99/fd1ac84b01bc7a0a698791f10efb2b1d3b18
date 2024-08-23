@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で result というジョブを追加して単に exit 1 を実行するようにしています。 GitHub での automerge のために必要とのこと。
