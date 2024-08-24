@@ -1,0 +1,1 @@
+bundler の bundle install で設定に deployment=true または frozen=true があった時のエラーメッセージにどの設定がエラーを引き起こしているかを示すメッセージを追加しています。
