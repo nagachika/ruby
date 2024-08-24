@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の st_foreach() に渡すコールバック関数内で不要になったエントリをすぐに free していたのが use-after-free の異常終了になる不具合があったので構造体 struct wmap_foreach_data にメンバーを追加してここに参照を残しておいて後で free するようにしています。 [ruby-core:118910] [Bug #20688]
