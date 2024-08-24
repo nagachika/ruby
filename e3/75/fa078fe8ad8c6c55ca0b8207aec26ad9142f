@@ -1,0 +1,1 @@
+9a9e74389c08e8cb4421da88eae26c28f50e7820 で導入した ObjectSpace::WeakMap の内部で使う構造体 struct weakmap_entry を利用するように wmap_foreach() の実装もリファクタリングしています。
