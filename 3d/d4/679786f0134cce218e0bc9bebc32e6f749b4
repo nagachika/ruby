@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の compaction 用関数でも wmap_foreash() を利用するようにリファクタリングしています。
