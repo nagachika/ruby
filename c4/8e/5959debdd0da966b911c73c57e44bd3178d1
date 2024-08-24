@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle で Windows 版向けのパッチが不要になったので gemspec ファイルの spec.files から削除しています。 https://github.com/ruby/fiddle/pull/143
