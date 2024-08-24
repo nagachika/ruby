@@ -1,0 +1,1 @@
+df9a6aa94330cbf414afcd957d1b87defc67e1c5 と同様に ObjectSpace::WeakKeyMap でも use-after-free で異常終了する不具合を修正しています。 [ruby-core:118910] [Bug #20688]
