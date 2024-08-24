@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の mark 関数の実装で wmap_foreach() を流用するようにリファクタリングしています。
