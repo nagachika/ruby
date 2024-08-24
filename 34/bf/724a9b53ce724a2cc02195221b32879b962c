@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap の free 関数の実装に専用の関数を定義していたのを汎用的な ruby_sized_xfree() を利用するようにリファクタリングしています。
