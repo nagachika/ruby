@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の生成する HTML のテンプレートと CSS の modernize とのこと。ちらっとみた感じ CSS で要素の指定に class 名を使わないのが modern なのかな。 https://github.com/ruby/rdoc/pull/1157
