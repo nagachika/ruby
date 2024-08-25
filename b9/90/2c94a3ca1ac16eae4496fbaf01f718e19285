@@ -1,0 +1,1 @@
+doc/contributing/documentation_guide.md にブロック渡しを省略した時に Enumerator を返すメソッドの rdoc の call-seq の書きかたについて追記しています。
