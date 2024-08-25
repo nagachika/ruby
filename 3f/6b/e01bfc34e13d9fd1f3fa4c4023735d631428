@@ -1,0 +1,1 @@
+Object#__id__ で同一性のための ID を得る時に struct RBasic::flags の FL_SEEN_OBJ_ID という __id__ が採番済みかどうかのフラグのチェックを先にしてから st_lookup() を行うように最適化しています。
