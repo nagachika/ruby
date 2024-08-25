@@ -1,0 +1,1 @@
+ObjectSpace::WeakKeyMap#clear で解放後のメモリを触る use-after-free が起きうる不具合を修正しています。 [ruby-core:118927] [Bug #20691]
