@@ -1,0 +1,1 @@
+式の値がどこにも使われていない時に出す "useless use of xxx in void context" の警告が ensure 節の最後の式について出なかったのを出すようにしています。ensure 節の最後の値は捨てられるため。 [ruby-core:118866] [Bug #20680]
