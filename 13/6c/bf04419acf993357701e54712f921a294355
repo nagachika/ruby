@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile で利用している ruby が 3.2 よりも古いもので O_TMPFILE の利用による File 作成ができない場合の fallback 実装を追加して古い ruby でも Tempfile.create の anonymous: true をサポートするようにしています。インスタンス変数 @path を追加する Module を定義して File のインスタンスにこの Module を extend して @path の値を設定するようにしていて若干メモリ圧迫があるので新しい ruby を使いましょう。
