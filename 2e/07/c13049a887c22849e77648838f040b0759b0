@@ -1,0 +1,1 @@
+rubyparser.h から既に定義が削除されている関数 rb_parser_string_length()、rb_parser_string_pointer() の宣言を削除しています。
