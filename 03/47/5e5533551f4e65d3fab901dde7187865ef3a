@@ -1,0 +1,1 @@
+bundler のテストで git リポジトリを source とするテストで git init コマンドの実行を追加しています。
