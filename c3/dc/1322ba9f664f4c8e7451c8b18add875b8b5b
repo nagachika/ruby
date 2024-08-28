@@ -1,0 +1,1 @@
+構造体 rb_objspace_t::heap_pages 内の final_slots というメンバーを構造体 rb_size_pool_t 内に移動して slot サイズごとの heap のほうに移動しています。機能的な変化はないと思います。
