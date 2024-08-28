@@ -1,0 +1,1 @@
+80d457b4b4357d3b6a44abd0ceb67e7657bc657a の変更で newobj_alloc() に追加した GC_ASSERT() による利用 slot 数のカウンタのチェックを複数 Ractor 利用時には抑制するようにしています。複数 Ractor 利用時には race condition により slot 数のカウンタは不正確になりうるとのこと。
