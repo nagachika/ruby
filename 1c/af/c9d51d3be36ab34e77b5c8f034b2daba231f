@@ -1,0 +1,1 @@
+構造体 rb_objspace_t のメンバー multi_ractor_p を削除してかわりに rb_gc_multi_ractor_p() を毎回呼ぶようにしています。
