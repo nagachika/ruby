@@ -1,0 +1,1 @@
+Universal Parser 用のヘッダの構造体 rb_parser_config_t のメンバー enc_coderange_broken はもう未使用になっているので削除しています。
