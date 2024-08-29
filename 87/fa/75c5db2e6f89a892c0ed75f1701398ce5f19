@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の組み込みコマンドの parse 用の処理メソッドを IRB::Irb から IRB::Context に移動しています。 https://github.com/ruby/irb/pull/993
