@@ -1,0 +1,1 @@
+YJIT で生成する実行コードでメソッドの引数渡しにレジスタを利用するようにしているようです。 https://github.com/ruby/ruby/pull/11280
