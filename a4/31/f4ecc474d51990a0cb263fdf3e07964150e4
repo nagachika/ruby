@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で設定ファイルでの設定できる変数のうちなんの効果もなかった bell-style、comment-begin、completion-query-items などを削除しています。 https://github.com/ruby/reline/pull/739
