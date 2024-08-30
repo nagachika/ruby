@@ -1,0 +1,1 @@
+rb_io_fdopen() の Doxygen 用コメントの戻り値のところに autoclose flag が立てられることを追記しています。
