@@ -1,0 +1,1 @@
+rubygems の Gem::Specification のテストでも require "benchmark" していたのを実際に利用しているメソッド内に移動して LoadError を捕捉して skip するようにしています。
