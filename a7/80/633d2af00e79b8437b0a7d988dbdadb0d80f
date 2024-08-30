@@ -1,0 +1,1 @@
+rubygems の require のテストで default gems の代表として? benchmark を使っていたのを erb を利用するように変更しています。benchmark は bundled gems に移行する予定があるため。
