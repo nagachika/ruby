@@ -1,0 +1,1 @@
+prism 利用時の shebang のオプションによる source encoding, default external encoding, default internal encoding の設定を対応しています。
