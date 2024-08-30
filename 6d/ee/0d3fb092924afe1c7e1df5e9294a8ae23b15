@@ -1,0 +1,1 @@
+bundler の bundle lock --add-platform で PLATFORM に追記する時に検出結果が不明な platform だった時に警告にせずエラーにするようにしています。
