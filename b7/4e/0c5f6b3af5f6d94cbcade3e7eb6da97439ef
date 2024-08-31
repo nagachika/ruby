@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の文字の表示幅の計算処理の高速化。 https://github.com/ruby/reline/pull/632
