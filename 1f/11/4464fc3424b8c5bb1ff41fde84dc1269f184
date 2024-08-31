@@ -1,0 +1,1 @@
+c162da69e7b56f4e5304c0694613ce0a51ef70e8 と同様に gc.c の each_stack_location() でもコールバック関数のユーザーデータの引数名を objspace から data に変更してまた each_stack_location() の引数の順序を変更しています。
