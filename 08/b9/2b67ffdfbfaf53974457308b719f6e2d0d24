@@ -1,0 +1,1 @@
+bundler で git リポジトリを source としている時の同値判定から version を取り除いています。
