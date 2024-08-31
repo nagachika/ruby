@@ -1,0 +1,1 @@
+Refinements のテストで定数の定義を消すのに undef 文を利用していたのを Module#remove_const メソッドを利用するように変更しています。undef ではテストの意図と合わないということで、undef と remove_const では挙動が異なるのかな。undef なんてしばらく使ってないので忘れてしまった。
