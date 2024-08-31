@@ -1,0 +1,1 @@
+bundler の bundle outdated サブコマンドで --parseable オプションをつけた時の progress 表示を標準エラー出力に出すようにしています。
