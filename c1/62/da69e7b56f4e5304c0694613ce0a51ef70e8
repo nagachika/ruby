@@ -1,0 +1,1 @@
+GC の mark 処理などのために VALUE 値(かもしれない場所)ごとのコールバック関数を受け付ける each_location() 関数のコールバック関数の引数の名前を objspace から data に変更し、each_location() の引数の順序を変更しています。実際には rb_objspace_t のポインタを渡してない場合もあったので。
