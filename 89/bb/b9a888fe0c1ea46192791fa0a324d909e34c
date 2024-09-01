@@ -1,0 +1,1 @@
+ca7b3d467d8ea2c86fb1fadc5c5eae28db54639c の gc.c の each_stack_location() を each_location_ptr() に置き換えた時に余分な引数を渡してしまっていたのを修正しています。
