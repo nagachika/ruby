@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の 4a1ea9b63ae24918e7aaddcb41de5dbe0f500d7f の変更に古い TruffleRuby 向けの対応をする preprocessor 分岐を追加しています。
