@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に rubygems.org の API を利用して gemspec ファイルのバージョンが rubygems.org でリリース済みの最新版と一致してない時にメッセージ出力するようにしています。
