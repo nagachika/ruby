@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow で ~/.dotnet や /Library/Android など不要な他の言語や環境向けの SDK を削除するようにしています。 Disk full で失敗することがあって、これらの SDK が容量を大きくくってるので空きを作るための削除とのこと。
