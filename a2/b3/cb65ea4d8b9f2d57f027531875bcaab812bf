@@ -1,0 +1,1 @@
+標準添付ライブラリ reline に Reline::Config#reload メソッドを追加して、設定を一度クリアしてから初期化ファイルを再読み込みできるようにしています。 https://github.com/ruby/reline/pull/740
