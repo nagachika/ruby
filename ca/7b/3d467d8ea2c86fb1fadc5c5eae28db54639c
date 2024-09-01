@@ -1,0 +1,1 @@
+gc.c の each_stack_location() というマシンスタックを mark するための関数を gc_mark_locations() を一般化して each_location_ptr() と改名した関数を利用するようにリファクタリングしています。
