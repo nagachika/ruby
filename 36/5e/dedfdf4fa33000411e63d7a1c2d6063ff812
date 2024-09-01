@@ -1,0 +1,1 @@
+拡張ライブラリ io/console を Multi Ractor Safe としてマークするように Init 関数で RB_EXT_RACTOR_SAFE(true) を呼び出すようにしています。
