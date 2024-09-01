@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の複数 Ractor 対応のため IO オブジェクトを内部的定数に格納していたのを Ractor local storage を利用して保存するように変更しています。
