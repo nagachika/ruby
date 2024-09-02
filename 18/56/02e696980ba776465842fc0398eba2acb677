@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で io_open_descriptor_fallback() という関数内での rb_update_max_fd() の呼び出しを配列の初期化子で対象の descriptor を参照する直前に移動しています。古い ruby バージョンのサポートのためということだけど、これはどういうことだろう?
