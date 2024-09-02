@@ -1,0 +1,1 @@
+rubygems の Gem::Specification._load メソッド内でインスタンス変数の @licenses をロードするところが古い @license のままだったので Marshal.load で正しく復旧できてなかったのを修正しています。
