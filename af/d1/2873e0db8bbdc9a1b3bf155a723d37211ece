@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の depend ファイルに ruby/ratctor.h への依存関係を追加しています。
