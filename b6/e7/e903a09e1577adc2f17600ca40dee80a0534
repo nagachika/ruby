@@ -1,0 +1,1 @@
+安定版メンテナンス用のツール tool/redmine-backporter.rb の done コマンドでコメントを残す時に複数のコミットが同時に backport されていた時の commit: のヘッダをつける整形の対応を追加しています。
