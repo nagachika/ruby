@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で path_ignore を使ってドキュメントの変更のみの時に pull request に対してテストを実施しないようにしていたのを削除しています。マージのために Windows の workflow の結果も必須にしたのでこれによりマージできなくなってしまうということがあったようです。
