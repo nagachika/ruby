@@ -1,0 +1,1 @@
+予約語の undef に対応する AST の NODE_UNDEF (構造体 rb_node_undef_t) に位置情報を含めるようにしています。
