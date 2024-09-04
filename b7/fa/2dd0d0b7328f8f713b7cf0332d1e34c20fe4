@@ -1,0 +1,1 @@
+rb_enc_str_asciionly_p() という C API で文字列オブジェクトの  coderange で判定が可能であれば Encoding の取得はスキップする最適化を追加しています。拡張ライブラリ json でのプロファイリングの結果 JSON.dump 時にここが重いのがわかったのでその最適化のためとのこと。
