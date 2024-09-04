@@ -1,0 +1,1 @@
+GitHub Actions のリリース作業用 workflow で ruby-build の更新用の GitHub Actions を起動するための step で必要な payload が欠けていたのを追加しています。
