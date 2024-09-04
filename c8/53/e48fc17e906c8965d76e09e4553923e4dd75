@@ -1,0 +1,1 @@
+3d83df2b963476df91d22199e589955ed08d4af6 の続きでそもそも Travis-CI 用の設定ファイル .travis.yml 自体を削除して Travis-CI の開始しないようにしています。
