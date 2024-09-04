@@ -1,0 +1,1 @@
+rubygems の Gem.read_binary および Gem.write_binary メソッドの実装に File.binread, File.binwrite を利用するようにしています。
