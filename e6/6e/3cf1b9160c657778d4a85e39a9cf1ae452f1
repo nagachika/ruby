@@ -1,0 +1,1 @@
+rubygems で vendoring している resolve および securerandom で require のかわりに require_relative を利用するようにしています。
