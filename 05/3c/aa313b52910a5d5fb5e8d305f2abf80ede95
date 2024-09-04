@@ -1,0 +1,1 @@
+rubygems で securerandom を vendoring するようにしています。
