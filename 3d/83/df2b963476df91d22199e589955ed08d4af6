@@ -1,0 +1,1 @@
+Travis-CI の設定で今ジョブが開始しないという不具合が起きているようで一時的に arm64-linux と arm32-linux も allow_failures に追加してエラーを無視させるようにしています。
