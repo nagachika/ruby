@@ -1,0 +1,1 @@
+20c3401543a92c3f310a03c4d2e664c463e390ef の再修正で GitHub Actions で環境変数から AWS の access key が得られる時に自動でオプションを抑制するよう tool/release.sh を変更しています。
