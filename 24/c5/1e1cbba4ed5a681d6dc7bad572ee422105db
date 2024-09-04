@@ -1,0 +1,1 @@
+rubygems に vendoring している net-http と optparse で require の一部を require_relative を利用するように変更しています。
