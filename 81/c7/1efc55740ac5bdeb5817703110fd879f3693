@@ -1,0 +1,1 @@
+bundler にも securerandom を vendoring しています。
