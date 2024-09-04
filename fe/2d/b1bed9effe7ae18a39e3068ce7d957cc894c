@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Windows 版の Win32API の呼び出しにユーティリティメソッドを導入して端末に対する呼び出しが失敗した時に標準出力の handler に fallback するようにしています。 https://github.com/ruby/reline/pull/734
