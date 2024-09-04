@@ -1,0 +1,1 @@
+String#rindex が macOS で遅いそうで、memrchr(3) がない時に代替実装を定義して使うようにしています。
