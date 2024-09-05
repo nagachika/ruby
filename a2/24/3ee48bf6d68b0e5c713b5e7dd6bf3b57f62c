@@ -1,0 +1,1 @@
+予約語 alias に対応する AST のノード NODE_ALIS/構造体 rb_node_alias_t にも位置情報を持たせるようにしています。
