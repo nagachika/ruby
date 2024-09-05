@@ -1,0 +1,1 @@
+rubygems の Gem::Source の配下のクラス群の #pretty_print 時のネストのさせかたを変更している? みたいです。
