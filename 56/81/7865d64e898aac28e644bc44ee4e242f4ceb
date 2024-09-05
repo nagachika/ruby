@@ -1,0 +1,1 @@
+rubygems で不要な stringio の require を削除しています。 https://github.com/rubygems/rubygems/pull/7996
