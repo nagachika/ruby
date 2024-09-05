@@ -1,0 +1,1 @@
+gc.c の 3c63a01295b4219743b3d3e883fd4a4a616960a6 で切り出した RB_GC_MARK_OR_TRAVERSE() マクロ内で rb_gc_impl_garbage_object_p() による slot が生きてるかのチェックも追加しています。
