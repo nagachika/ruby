@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で Reline::Config の設定再読み込みのための reset_variables で初期化するインスタンス変数の追加と、対応するテストを追加しています。 https://github.com/ruby/reline/pull/741
