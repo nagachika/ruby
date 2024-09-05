@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の easter egg でロゴを表示する時に端末制御のために? rdoc を require していたのをやめて Pager クラスを利用するようにしています。 https://github.com/ruby/irb/pull/998
