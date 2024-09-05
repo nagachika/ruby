@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_garbage_object_p() で ASAN のための asan_unpoisoning_object() の利用を追加しています。
