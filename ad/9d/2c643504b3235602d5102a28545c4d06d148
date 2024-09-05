@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline.insert_text を使った時に余分な prompt の表示がされるという不具合の修正のようです。 https://github.com/ruby/reline/pull/742 [ruby-core:119022] [Bug #20711]
