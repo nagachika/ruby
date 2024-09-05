@@ -1,0 +1,1 @@
+拡張ライブラリ socket のテストで TCPSocket.new の connect_timeout でタイムアウトした時の例外として Errno::EACCES を候補に追加しています。そもそもソケット接続が許可されていないような環境で失敗することがあったとのこと。
