@@ -1,0 +1,1 @@
+GitHub Actions のリリース作業用の workflow で ruby-build の workflow を起動するための payload の openssl_version の指定を変更しています。
