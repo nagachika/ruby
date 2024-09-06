@@ -1,0 +1,1 @@
+a99707cd9c6a1d53cf8ebc883dc210219bd67a28 と同様に Hash リテラルを freeze する時に dedup するための最適化命令 opt_hash_freeze を導入しています。 [ruby-core:118891] [Feature #20684]
