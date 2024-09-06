@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor の render_differential メソッドから render というメソッドを切り出して再描画のための処理を独立させるリファクタリング。 https://github.com/ruby/reline/pull/731
