@@ -1,0 +1,1 @@
+少し前に拡張ライブラリ socket で getnameinfo()/getaddrinfo() などを別の native thread で呼んで割り込み可能にした変更で、この thread が動いている時に fork(2) を呼び出すとその thread が止まってしまい、子プロセスで mutex が解放されないままになってしまうという問題があったようで、rb_thread_prevent_fork() という関数を導入してこの関数経由で読んだ関数はロックを取得してその処理が行なわれているあいだは fork(2) を呼ばないようにしています。 [ruby-core:118368] [Feature #20590]
