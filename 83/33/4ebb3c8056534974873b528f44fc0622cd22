@@ -1,0 +1,1 @@
+bundler の git リポジトリを source にした時の gemspec ファイルの読み込みに bundle config の local 設定による影響を受けないようにしているようです。
