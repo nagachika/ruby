@@ -1,0 +1,1 @@
+freeze された空の Array オブジェクトを保持しておいて peephole optimization 時に [].freeze のような空の配列を freeze するような命令の時に専用の opt_ary_freeze という命令を導入してこの命令でこの空の配列を常に返すように dedup する最適化と、 duparray で配列を複製してすぐ freeze メソッドを呼ぶ命令列があった時に duparray のオペランドの配列をそのまま返すよう opt_ary_freeze 命令にする最適化を加えています。そんなに効くのかなぁ。 [ruby-core:118891] [Feature #20684]
