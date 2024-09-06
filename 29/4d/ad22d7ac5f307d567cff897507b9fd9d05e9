@@ -1,0 +1,1 @@
+a3f589640fd443deea230c27efd6bdfc92f5817f からの続きでさらに Time#strftime の最適化として、Time#strftime の実装から使っている ruby_vsprintf0() で文字列の coderange を再度判定する処理が思いので、strftime の実装では一時的に ENC_CODERANGE_CLEAR() で coderange を RUBY_ENC_CODERANGE_UNKNOWN にリセットして、UNKNOWN の時は再判定処理をスキップするようにしています。うーん ruby_vsprintf0() の結果の coderange が設定されていることを前提にしているところがあったりはしないかな。
