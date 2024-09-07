@@ -1,0 +1,1 @@
+拡張ライブラリ digest/md5 で一時的に警告のコンパイラオプション -Wdeprecated-declarations を無効化する #pragma を書いてたところで clang のみ対応していたものを gcc にも対応するようにしています。
