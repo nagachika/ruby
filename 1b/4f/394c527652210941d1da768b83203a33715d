@@ -1,0 +1,1 @@
+69d0e690bb632c0f67d8bb55988e91f61aff68f8 の続きで prelude.rb で force_require というメソッドを定義していたのを Gem::Specification#activate するところまでの force_activate というメソッドに変更して、呼び元で require するようにしています。gem 名と require する時の feature 名が必ずしも一致しないため。
