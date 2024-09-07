@@ -1,0 +1,1 @@
+prelude.rb での Binding#irb の定義で require "irb" が LoadError になった時に Bundler の lockfile の指定を無視して gem を activate して require するようにしているようです。 irb を bundled gems にした時の対応のためですね。
