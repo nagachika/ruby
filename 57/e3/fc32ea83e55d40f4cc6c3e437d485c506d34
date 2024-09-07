@@ -1,0 +1,1 @@
+標準添付ライブラリ time で追加される Time#xmlschema を Time の組み込みメソッドにしています。パフォーマンスのためみたいです。 [ruby-core:118994] [Feature #20707]
