@@ -1,0 +1,1 @@
+require で default gems に警告をする lib/bundled_gems.rb で benchmark も 3.5 から警告を出力するようにしています。 https://github.com/ruby/ruby/pull/11492
