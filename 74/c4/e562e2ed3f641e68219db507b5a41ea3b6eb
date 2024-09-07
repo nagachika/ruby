@@ -1,0 +1,1 @@
+69d0e690bb632c0f67d8bb55988e91f61aff68f8 および 1b4f394c527652210941d1da768b83203a33715d の続きで prelude.rb で Binding#irb の定義で force_activate に失敗した時に警告を出力するようにしています。
