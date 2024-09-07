@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストの helper メソッドで String の破壊的メソッドを使っていたのを chilled string による警告抑制のため非破壊的メソッドを使うように置換しています。 https://github.com/ruby/reline/pull/744
