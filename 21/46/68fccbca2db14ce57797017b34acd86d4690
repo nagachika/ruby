@@ -1,0 +1,1 @@
+57e3fc32ea83e55d40f4cc6c3e437d485c506d34 の Time#xmlschema の組み込みメソッド化で offset が負の時の対応を追加しています。 [ruby-core:118994] [Feature #20707]
