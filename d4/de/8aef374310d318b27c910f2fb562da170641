@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の gemspec ファイルの spec.files の項目で code_object/ というサイディレクトリ内のファイルのファイルパスに code_object/ が含まれてなかったのを修正しています。ファイルパスの変更時に gemspec ファイルが追随していなかったようです。 https://github.com/ruby/rdoc/pull/1170
