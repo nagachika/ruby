@@ -1,0 +1,1 @@
+rubygems の require で default gems に警告を出力するための lib/bundled_gems.rb で irb と reline を 3.5 から警告の対象にしています。これらも bundled gems になるんですね。
