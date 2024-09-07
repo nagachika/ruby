@@ -1,0 +1,1 @@
+Hash の fetch_values と同様に複数のインデックスを引数に受けとって対応する要素を返す Array#fetch_values というメソッドを新規追加しています。インデックスが配列サイズ以上だった時にブロックでデフォルト値を返すことができるようにしています。実装は ruby 実装でシンプルに Array#map!+Array#fetch ですね。 [ruby-core:118969] [Feature #20702]
