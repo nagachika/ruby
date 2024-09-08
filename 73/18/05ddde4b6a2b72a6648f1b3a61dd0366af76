@@ -1,0 +1,1 @@
+2865148a5aeb067ab8e1373a12c2f16de8cca0c9 で revert した 6a746e1bc902d4245aac58db4e9ffc2f72d79629 のやりなおしで、arm64 の時の configure に libunwind の不具合をチェックして問題がなければ使うようにしています。
