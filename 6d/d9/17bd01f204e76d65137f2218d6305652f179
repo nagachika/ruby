@@ -1,0 +1,1 @@
+5afee4d79599e5aad366a788b0c84e68594e6d34 の続きで rubygems で lock ファイルを開く時の flags に IO::SHARE_DELETE フラグを立てる時に定数が定義されているかどうかをチェックするようにしています。 TruffleRuby でサポートしていなかったようです。
