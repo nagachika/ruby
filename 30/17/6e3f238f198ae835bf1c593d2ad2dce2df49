@@ -1,0 +1,1 @@
+5afee4d79599e5aad366a788b0c84e68594e6d34 の続きで lock ファイルを削除するのに File.unlink ではなく FileUtils.rm_f を利用するようにしています。
