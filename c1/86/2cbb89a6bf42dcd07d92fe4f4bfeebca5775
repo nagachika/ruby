@@ -1,0 +1,1 @@
+Kernel#Float() の引数に非 ASCII-compatible な Encoding の文字列を渡した時に Encoding::CompatibilityError 例外を発生させるようにしています。 [ruby-core:119095] [Bug #20719]
