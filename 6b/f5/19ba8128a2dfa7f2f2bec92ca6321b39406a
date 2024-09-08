@@ -1,0 +1,1 @@
+darray.h の rb_darray_append() マクロの定義を rb_darray_append_impl() を経由するようにしていたのを直接本体を定義するようにしています。
