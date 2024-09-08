@@ -1,0 +1,1 @@
+Kernel#Float() の例外メッセージで渡した文字列の Encoding を考慮するよう PRIsVALUE を使って埋め込むようにしています。
