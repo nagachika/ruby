@@ -1,0 +1,1 @@
+6a746e1bc902d4245aac58db4e9ffc2f72d79629 で configure 時間に Fiber 用 Coroutine のために PAC という機能が使えるかどうかチェックする対象のアーキテクチャに arm64 を追加していたのを revert しています。 macOS で C のバックトレースの取得に問題があったそうです。
