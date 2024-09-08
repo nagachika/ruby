@@ -1,0 +1,1 @@
+rubygems の binstub ファイル出力時に flock つきで .lock 拡張子のファイルを作成した時に最後に削除するようにしています。かわりにファイルを作成する時の flags に IO::SHARE_DELETE というのを渡すようにしています。
