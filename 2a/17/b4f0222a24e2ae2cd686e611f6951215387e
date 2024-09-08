@@ -1,0 +1,1 @@
+rubygems の Gem::SpecificGemNotFoundException という例外クラスの定数を deprecated にしています。
