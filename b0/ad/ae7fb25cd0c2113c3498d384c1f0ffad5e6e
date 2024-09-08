@@ -1,0 +1,1 @@
+rubygems で rubygems.org などの remote の URI を組み立てる時に余分な "./" を含んでたのを削っています。
