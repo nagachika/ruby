@@ -1,0 +1,1 @@
+Thread の rdoc 用コメントに Thread.handle_interrupt で標準添付ライブラリ timeout の Timeout::Error による割り込みを抑制する例について書かれていたセクションの内容が不正確になっていたので削除しています。
