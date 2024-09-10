@@ -1,0 +1,1 @@
+ruby 実装の組み込みメソッドの実装を読み込む処理の miniruby 用の実装を mini_builtin.c から miniinit.c に移動しています。
