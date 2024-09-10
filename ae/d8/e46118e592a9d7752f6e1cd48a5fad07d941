@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.load, Psych.safe_load, Psych.load_file などのメソッドの rdoc 用コメントに空文字列などを読ませた時のデフォルト値が false と書かれてたのを nil に修正しています。
