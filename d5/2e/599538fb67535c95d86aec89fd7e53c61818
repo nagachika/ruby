@@ -1,0 +1,1 @@
+parse.y で AST の予約語 when に対応する node 種類 NODE_WHEN の構造体 rb_node_when_t にも when と then の位置情報を持たせるようにしています。
