@@ -1,0 +1,1 @@
+Universal Parser のサポートと prism を parser として利用する時に prelude.rb を parse しようとすると必要な関数がないと言われて goruby がビルドできないという状況になっていたみたいで、prelude.rb のかわりに ruby スクリプトを ISeq にコンパイルして binary format にダンプしたものを埋め込んだ C のソースコードを生成して、これを利用することで起動時に parser の依存をなくすようにしているようです。
