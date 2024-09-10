@@ -1,0 +1,1 @@
+make distclean で ecb58a8d08bb3b53326319fb5b7ba3ed26fcac2b で ISeq を binary format にダンプしたファイルの拡張子 .rbbin のファイルも削除するようにしています。
