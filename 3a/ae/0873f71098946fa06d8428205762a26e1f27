@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションなどを試す workflow で clang の -flto=auto オプションを試す時の clang のバージョンを 16 から 18 に更新しています。
