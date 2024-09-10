@@ -1,0 +1,1 @@
+おそらく 72e80c8f29c7da37039e16f403814aa7fedc7754 の変更で rubygems の gem exec サブコマンド実行の実装で GEM_HOME と GEM_PATH を保存しておいて元に戻すという処理が不要になったので削除しています。
