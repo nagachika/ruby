@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションなどを試す workflow で make test-all の時の対象のテストを matrix で指定できるようにして、configure の --with-gmp オプションをつけてビルドする時にテストは ruby/test_bignum.rb のみを実施するようにしています。
