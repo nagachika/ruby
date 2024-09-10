@@ -1,0 +1,1 @@
+標準添付ライブラリ benchmark の gemspec ファイルに required_ruby_version を 2.1.0 以降にする設定を追加しています。
