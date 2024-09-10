@@ -1,0 +1,1 @@
+rubygems で gem exec で実行するコマンドで ${GEM_HOME}/gem_exec/ というサブディレクトリの下に GEM_HOME を変更するようになっていたのを元の GEM_HOME をそのまま利用するようにしています。
