@@ -1,0 +1,1 @@
+拡張ライブラリ win32/resolv の extconf.rb で libiphlpapi が検出できなかった時に空のダミーの Makefile を生成するようにしています。また標準添付ライブラリ resolv の gemspec の spec.files に ext/win32/resolv/extconf.rb を追加しています。
