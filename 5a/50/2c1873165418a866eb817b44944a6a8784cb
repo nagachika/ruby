@@ -1,0 +1,1 @@
+GC.stat の返す Hash のキーに :heap_empty_pages と :heap_allocatable_slots というのを追加しています。また GC.stat のテストをこのキーの追加以外にもいろいろ変更しているようです。テストの安定化かな?
