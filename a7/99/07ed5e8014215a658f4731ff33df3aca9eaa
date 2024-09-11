@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の Dir.mktmpdir の第2引数に明示的に空文字列を渡した時に ArgumentError 例外を発生させるようにしています。
