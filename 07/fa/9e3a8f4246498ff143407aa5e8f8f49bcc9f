@@ -1,0 +1,1 @@
+lib/bundler/inline.rb の不要なチェックの削除。
