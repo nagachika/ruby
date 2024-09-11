@@ -1,0 +1,1 @@
+b66d6e48c8832edebcf7e6d667d10702ddbce42c に続いて gc/default.c で rb_objspace_t::heap_pages::allocated_pages の利用をやめて rb_darray_size() で darray のサイズを得るように変更しています。
