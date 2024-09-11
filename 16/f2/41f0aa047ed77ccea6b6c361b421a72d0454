@@ -1,0 +1,1 @@
+String#append_as_bytes というメソッドを追加して receiver の文字列の Encoding を保持したままバイト列を追加することができるようにしています。 Encoding のチェックや変換をスキップするのでバイナリの連結などを高速に行うためということみたいです。またこのメソッドは Integer を渡すこともできて String#setbyte と同様に 1 byte の追加をするようです。 [ruby-core:118388] [Feature #20594]
