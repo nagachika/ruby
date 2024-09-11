@@ -1,0 +1,1 @@
+bundler の lib/bundler/inline.rb の gemfile メソッドで重複した依存関係の削除するチェックを追加しています。
