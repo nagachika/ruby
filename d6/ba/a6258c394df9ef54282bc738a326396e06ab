@@ -1,0 +1,1 @@
+bundler で inline mode (lockfile がない場合?)時の Bundler::Definition#write_lock メソッドでスキップするための対応を変更して lib/bundler/inline.rb での不要なメソッド再定義をしないようにしています。
