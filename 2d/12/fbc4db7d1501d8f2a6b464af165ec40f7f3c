@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb にテスト時にプラットフォームごとに skip するなどのために RUBY_PLATFORM などでチェックするヘルパーメソッド群を追加して、これを利用するようにしています。
