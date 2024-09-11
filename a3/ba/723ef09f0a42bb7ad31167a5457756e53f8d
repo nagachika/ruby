@@ -1,0 +1,1 @@
+spec/default.mspec 内で定数 COUNT_WIDTH の再定義の警告抑制のため defined? によるチェックを追加しています。
