@@ -1,0 +1,1 @@
+gc/default.c の pages の実装を自前の linked list から darray を利用するようにリファクタリングしているようです。
