@@ -1,0 +1,1 @@
+bundler の依存関係解決で Gem::Specification の同一性チェックの時に base_dir も比較するようにしています。実際には install されていない gem が誤って install 済みと判定されてしまって install に失敗する現象の対策? みたいです。
