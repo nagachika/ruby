@@ -1,0 +1,1 @@
+よくわかりませんが template/exts.mk.tmpl で拡張ライブラリの Makefile で clean 系のターゲットの挙動を修正するために変更しているようです。
