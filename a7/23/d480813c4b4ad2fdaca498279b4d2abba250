@@ -1,0 +1,1 @@
+Array#delete の rdoc 用コメントで delete -> remove と wording を変更しています。
