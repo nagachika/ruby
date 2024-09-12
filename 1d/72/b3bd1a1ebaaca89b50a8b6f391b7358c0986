@@ -1,0 +1,1 @@
+bundler の Bundler::Dsl#eval_gemfile で Exception 全体を rescue していたところを StandardError, ScriptError だけ rescue するように修正しています。
