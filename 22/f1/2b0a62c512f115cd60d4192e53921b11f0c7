@@ -1,0 +1,1 @@
+T_CLASS/T_MODULE/T_ICLASS 型オブジェクトの callcache のテーブルの mark 処理で rb_id_table_foreach() のかわりに key を使わない rb_id_table_foreach_values() を利用するようにしています。key が不要ならこのほうが効率的らしい。
