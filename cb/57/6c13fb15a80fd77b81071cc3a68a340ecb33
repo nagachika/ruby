@@ -1,0 +1,1 @@
+template/Makefile.in の {,dist,real}clean で bundled gems の拡張ライブラリの掃除するための依存関係を修正しているようです。
