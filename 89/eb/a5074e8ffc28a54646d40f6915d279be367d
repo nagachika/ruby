@@ -1,0 +1,1 @@
+bundler の Bundler::Dsl#eval_gemfile での例外の rescue をもっと細かく例外クラスで分けてメッセージを変更するようにしています。また特に意図していない StandardError の一般的な例外は発生箇所が評価中の Gemfile でなければ Bundler::Dsl::DSLError に置き換えずそのまま再 raise するようにしています。
