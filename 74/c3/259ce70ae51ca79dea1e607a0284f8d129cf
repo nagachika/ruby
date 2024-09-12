@@ -1,0 +1,1 @@
+autoload のテストの [Bug #13526] に対応したテストを macOS  の High Sierra では skip するようにしていたのを削除しています。既に High Sierra が EOL になってテスト実行しなくなったので。
