@@ -1,0 +1,1 @@
+70c66137817d4d4e56e60aaefb841237912e4b43 からの続きで bundler の環境設定時の Bundler::GemNotFound 例外の捕捉を追加しています。
