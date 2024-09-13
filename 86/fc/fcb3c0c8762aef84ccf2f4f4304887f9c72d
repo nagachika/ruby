@@ -1,0 +1,1 @@
+ee064d1cb2a7a4e2c4e9eecc3f64055c4e6a6801 の再修正で Bundler.ui や Bundler::Definition.no_lock を復帰させるための ensure 節で確実にバックアップが取られているように begin 節を導入して復帰対象のコード行数を狭めています。
