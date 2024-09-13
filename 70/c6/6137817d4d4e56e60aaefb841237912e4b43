@@ -1,0 +1,1 @@
+prelude.rb で Binding#irb のメソッド内で bundler 経由で実行時にも Gemfile に含まれない irb を利用するための方法として Bundler::Dsl#gem を直接利用して bundler の環境を一時的に? 構築するようにしています。
