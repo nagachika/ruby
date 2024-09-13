@@ -1,0 +1,1 @@
+70c66137817d4d4e56e60aaefb841237912e4b43 からの続きで、Bundler.ui を Bundler::UI::Shell に置き換えるのと Bundler::Definition.no_lock に true をセットするのを後で元の値に復帰するようにしています。
