@@ -1,0 +1,1 @@
+70c66137817d4d4e56e60aaefb841237912e4b43 の続きで prelude.rb で irb を利用するための force_activate メソッドで bundler/inline を利用中をサポートするための分岐を追加しています。
