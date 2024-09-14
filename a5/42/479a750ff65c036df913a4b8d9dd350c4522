@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の IRB::Context::KEYWORD_ALIASES という定数を削除して利用していたところでは展開して直接キーワードを書くようにしています。 https://github.com/ruby/irb/pull/1004
