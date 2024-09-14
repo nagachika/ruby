@@ -1,0 +1,1 @@
+rb_vm_ci_free() 内で RB_VM_LOCK_ENTER()/RB_VM_LOCK_LEAVE() で VM のロック取得していたのを削除しています。この関数を呼ぶ時に既にロック取得しているはずなので。
