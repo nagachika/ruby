@@ -1,0 +1,1 @@
+require 時の default gems の警告を出力するための lib/bundled_gems.rb で irb から reline を require した時には冗長なので警告を抑制するように特別扱いする処理を追加しています。
