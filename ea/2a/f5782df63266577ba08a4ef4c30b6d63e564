@@ -1,0 +1,1 @@
+デフォルトの parser を prism 版を利用するようにしています。 typeprof のテストが通らないので一時的に GitHub Actions ではエラーを無視させるようにしています。 [ruby-core:118243] [Feature #20564]
