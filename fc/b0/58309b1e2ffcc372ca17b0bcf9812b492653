@@ -1,0 +1,1 @@
+テスト用の独自 assertion の compare_version を version_match? と名前を変えて Range オブジェクトで major バージョンの範囲を指定することができるようにしています。
