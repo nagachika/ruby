@@ -1,0 +1,1 @@
+bundled gems のダウンロード時にダミーの gemspec を作る処理でバージョン番号を切り出すのに lib/xxx.rb に VERSION 定数の定義がなかった時に lib/xxx/version.rb も読むようにしています。typeprof の対応のためかな。
