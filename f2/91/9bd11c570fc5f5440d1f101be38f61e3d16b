@@ -1,0 +1,1 @@
+readdir(), telldir(), closedir() などのディレクトリ操作のシステムコールのエラーチェックを追加しています。 [ruby-core:118346] [Bug #20586]
