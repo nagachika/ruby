@@ -1,0 +1,1 @@
+ad761ad2d0a63270fbd243a477dc962446a5116e で導入した getpwnam_r() の GVL 解放のための構造体の login メンバーに const 修飾子を追加しています。
