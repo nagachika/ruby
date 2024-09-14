@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_mark_weak() の即値チェックを呼び元の本体側 gc.c の rb_gc_mark_weak() のほうに引き上げています。
