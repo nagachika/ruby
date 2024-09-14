@@ -1,0 +1,1 @@
+gc.c の rb_gc_mark_weak() に rb_gc_impl_during_gc_p() のチェックを釣り上げて、vm->gc.mark_func_data の存在の有無により GC 中かどうかの判定をするように変更しています。なんか GC の実装の切り出しの部分の責任範囲の理解がとても難しそう。
