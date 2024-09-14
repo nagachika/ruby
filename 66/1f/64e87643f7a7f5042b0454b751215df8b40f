@@ -1,0 +1,1 @@
+gc.c の RB_GC_MARK_OR_TRAVERSE() で展開するコードブロックで objspace を自動変数に格納して使いまわすようにしています。
