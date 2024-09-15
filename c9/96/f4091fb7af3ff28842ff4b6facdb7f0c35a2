@@ -1,0 +1,1 @@
+thread.c の rb_gc_set_stack_end() で警告抑制するため局所的に -Wdangling-pointer のオプションを無効化する #pragma を挿入するマクロ COMPILER_WARNING_IGNORED() を追加しています。
