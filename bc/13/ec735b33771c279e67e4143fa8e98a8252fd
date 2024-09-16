@@ -1,0 +1,1 @@
+prism 利用時の RubyVM::InstructionSequence のテストで compile させるスクリプトに未使用の変数があった時の警告の抑制のため変数名の prefix に "_" をつけるようにしています。
