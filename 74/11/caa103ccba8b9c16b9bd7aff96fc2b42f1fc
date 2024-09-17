@@ -1,0 +1,1 @@
+bundler で Gem.open_file_with_flock を定義(代替定義?)する時の定義を 5afee4d79599e5aad366a788b0c84e68594e6d34 あたりで変更した rubygems の定義に追随してフラグの渡しかたなどを変更しています。
