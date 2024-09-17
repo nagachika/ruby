@@ -1,0 +1,1 @@
+5afee4d79599e5aad366a788b0c84e68594e6d34 以降の rubygems の Gem.open_file_with_flock の変更の続きで Gem.open_file_with_lock という wrapper メソッドを追加してこちらでは最後に .lock ファイルを削除するようにしています。
