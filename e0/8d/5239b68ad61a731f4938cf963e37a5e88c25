@@ -1,0 +1,1 @@
+non-blocking Fiber の Scheduler 利用時に IO#close が別の Thread での read が終わるのを待つ処理がうまく協調できていなかったので Fiber 間での close 時の IO 待ちの対応も実装しています。 [ruby-core:119124] [Bug #20723]
