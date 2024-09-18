@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntax のテストで警告抑制のため一時的に $VERBOSE を false に設定したりするようにしています。
