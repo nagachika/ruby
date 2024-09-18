@@ -1,0 +1,1 @@
+bundler の gem の cache の判定に不要な default gems 向けの分岐を削除しています。
