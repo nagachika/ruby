@@ -1,0 +1,1 @@
+bundler のテストで default gems の扱いについてのテストで json を利用していたのを delegate を使うように変更しています。json から利用している ostruct の require で警告が出るようになったのでその回避のため?
