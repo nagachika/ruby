@@ -1,0 +1,1 @@
+bundler の Bundler::Installer の実装で 1箇所だけで呼ばれてた private メソッドを削除して呼び元に展開するようにしています。
