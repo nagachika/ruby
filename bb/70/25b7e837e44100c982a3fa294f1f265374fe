@@ -1,0 +1,1 @@
+prelude.rb での Binding#irb の定義で require "irb" に失敗した時にのみ force_activate を実行するようにしています。
