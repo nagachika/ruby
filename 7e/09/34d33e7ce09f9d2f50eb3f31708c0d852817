@@ -1,0 +1,1 @@
+bundler の Bundler::Installer の実装で options のオプション指定を参照する時のキーに Symbol を利用するように変更(修正?)しています。
