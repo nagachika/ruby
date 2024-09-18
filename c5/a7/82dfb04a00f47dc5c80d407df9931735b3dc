@@ -1,0 +1,1 @@
+gc/default.c の ASAN 向けの対応の追加。
