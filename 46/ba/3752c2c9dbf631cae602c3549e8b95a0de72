@@ -1,0 +1,1 @@
+gc/default.c の ASAN 用の asan_unpoisoning_object() マクロのブロック内から直接 return してしまっていたのでフラグを設定してブロックを抜けたあとで return するように修正しています。
