@@ -1,0 +1,1 @@
+Process.daemon のテストで macOS 15 で skip していたものを skip をやめています。macOS か Xcode の更新により通るようになったみたいです。
