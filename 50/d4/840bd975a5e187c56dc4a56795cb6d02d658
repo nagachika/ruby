@@ -1,0 +1,1 @@
+gc/default.c で GC_CAN_COMPILE_COMPACTION マクロが真の時だけ利用される関数の定義を preprocessor 分岐内に移動して未使用の関数定義の警告を抑制するようにしています。
