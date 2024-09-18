@@ -1,0 +1,1 @@
+internal/string.h で rb_str_make_embedded() などいくつかの関数を RUBY_SYMBOL_EXPORT_BEGIN...RUBY_SYMBOL_EXPORT_END のセクションから外に出して export しないようにしています。
