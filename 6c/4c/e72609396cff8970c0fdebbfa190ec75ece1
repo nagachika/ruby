@@ -1,0 +1,1 @@
+irb でメソッドの定義されている位置を得るのに RubyVM::AbstractSyntaxTree#source を使っていたのを #script_lines を利用するように変更しています。prism 対応のためみたいです。 https://github.com/ruby/irb/pull/1005
