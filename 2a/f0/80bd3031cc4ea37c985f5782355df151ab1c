@@ -1,0 +1,1 @@
+GC の実装に要求する get_profile_total_time 関数の戻り値も VALUE から unsigned long long に変更しています。
