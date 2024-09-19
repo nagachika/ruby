@@ -1,0 +1,1 @@
+2af080bd3031cc4ea37c985f5782355df151ab1c で戻り値の型を変更した GC の実装に要求する関数ポインタの名称と実際の gc/default.c の具体的な関数名を get_profile_total_time/rb_gc_impl_get_profile_total_time から get_total_time/rb_gc_impl_get_total_time に変更しています。
