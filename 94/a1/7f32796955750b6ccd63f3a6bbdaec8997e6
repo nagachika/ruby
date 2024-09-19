@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で VC を利用するための環境変数などのセットアップで使う vcvars64.bat という bat ファイルの探索に vswhere.exe というプログラムを利用するようにしています。
