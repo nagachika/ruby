@@ -1,0 +1,1 @@
+YJIT の統計情報を得る RubyVM::YJIT.runtime_stats メソッドに引数に Symbol を指定して対象の情報のみ返すこともできるようにしています。 https://github.com/ruby/ruby/pull/11536
