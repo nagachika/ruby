@@ -1,0 +1,1 @@
+Kernel#fork や Process.daemon で fork(2) を実行する関数 rb_fork_ruby() で、FreeBSD でのみ子プロセスでは fork() 後の rb_thread_release_fork_lock() の呼び出しを抑制するようにしています。 FreeBSD では fork 後に子プロセスで pthread_rwlock_t のロックが解放された状態になっているみたいです。
