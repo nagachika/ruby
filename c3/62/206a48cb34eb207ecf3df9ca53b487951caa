@@ -1,0 +1,1 @@
+configure で Fiber 用 coroutine の実装を選択する時に powerpc64le-freebsd というアーキテクチャへの対応を追加しています。
