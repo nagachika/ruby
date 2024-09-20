@@ -1,0 +1,1 @@
+c362206a48cb34eb207ecf3df9ca53b487951caa の続きで configure で Fiber 用 coroutine の実装を選択する時に powerpc64-freebsd アーキテクチャへの対応も追加しています。
