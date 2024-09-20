@@ -1,0 +1,1 @@
+"break if false" のようなスクリプトは break 適切なコンテキスト内にないので SyntaxError になりますが、parser として prism を利用していると Kernel#eval に文字列として渡した場合にエラーにならないので、統一して SyntaxError を発生させるようにしています。 [ruby-core:118398] [Bug #20597]
