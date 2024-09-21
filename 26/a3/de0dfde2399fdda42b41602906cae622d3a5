@@ -1,0 +1,1 @@
+win32/Makefile.sub で VS 2013 以降は isinf() が使えるそうで、生成する config.h で条件を判定して HAVE_ISINF マクロを定義するようにしています。
