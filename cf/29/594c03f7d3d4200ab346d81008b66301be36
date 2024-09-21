@@ -1,0 +1,1 @@
+bundler の bundle install に --local オプションが指定された時に lockfile で指定されているバージョンの bundler のインストールを抑制するようにしているようです。
