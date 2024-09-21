@@ -1,0 +1,1 @@
+compile.c の iseq_build_kw() で RB_OBJ_WRITE() が漏れていたのを修正しています。
