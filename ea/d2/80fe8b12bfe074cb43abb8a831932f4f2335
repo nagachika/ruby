@@ -1,0 +1,1 @@
+compile.c で SPECIAL_CONST_P() と RB_OBJ_WRITTEN() を利用していたところを RB_OBJ_WRITE() を利用するようリファクタリングしています。
