@@ -1,0 +1,1 @@
+Module が prepend された Module を Class や Module に include/prepend した時のメソッドキャッシュの不具合で不正なメソッド呼び出しが行なわれることがあった不具合を修正しています。 [ruby-core:119074] [Bug #20716]
