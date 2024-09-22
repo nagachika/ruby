@@ -1,0 +1,1 @@
+デフォルトの parser を変更した時に追加した GitHub Actions の設定 .github/workflows/parsey.yml の ignore の設定や環境セットアップの設定を他の workflows に合わせて調整しています。
