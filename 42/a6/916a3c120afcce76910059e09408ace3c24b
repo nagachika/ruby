@@ -1,0 +1,1 @@
+bundler のテストで gemspec の Gem::Specification#required_ruby_version の設定がないと警告が出る? らしくテストで使う Gem::Specification に設定を追加しています。
