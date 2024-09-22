@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッドで File.chmod のかわりに FileUtils.chmod を利用するようにしています。File.chmod は数値を指定する必要があるのに mode string を渡していたのでちゃんと設定できていなかったようです。
