@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_mark() という関数の前方 prototype 宣言を削除しています。
