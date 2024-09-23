@@ -1,0 +1,1 @@
+parse.y 内の関数 rb_ruby_ripper_dedent_string() で受け取る文字列を VALUE 型オブジェクトから rb_parser_string_t に変更し、static 関数の dedent_string() に委譲するようにしています。これにより parser から ruby 本体の rb_str_modify() や rb_str_set_len() への依存がなくなるため Universal Parser 用の rb_parser_config_t の関数ポインタも削除しています。
