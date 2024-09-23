@@ -1,0 +1,1 @@
+Complex#inspect や Complex#to_s で再帰的に実部の数値に対して inspect/to_s を呼んだ結果の文字列オブジェクトを破壊的に変更しているため、frozen string を返すような実装が実部に使われているとエラーになる不具合を修正しています。 [ruby-core:117161] [Bug #20337]
