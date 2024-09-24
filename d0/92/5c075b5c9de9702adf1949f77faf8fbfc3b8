@@ -1,0 +1,1 @@
+bundler で git リポジトリを source とする時に cache ディレクトリに refs/ というサブディレクトリを事前に掘っておくようにしています。git リポジトリとして認識されるようにしているみたいです。 https://github.com/rubygems/rubygems/issues/8046
