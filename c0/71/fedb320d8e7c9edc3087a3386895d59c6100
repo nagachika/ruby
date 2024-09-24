@@ -1,0 +1,1 @@
+bundler の bundle outdated の --group オプションを指定したときの出力を修正。
