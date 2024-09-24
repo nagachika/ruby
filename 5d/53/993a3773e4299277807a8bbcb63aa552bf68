@@ -1,0 +1,1 @@
+bundler の Bundler::SelfManager というクラスで bundler 自身のバージョンを指定のものに変えて実行するかどうかの判定に Bundler.settings[:version] の考慮を優先させるようにしています。コミットログによると開発中の x.y.z.dev のバージョンの指定の時に切り替えないようにするためみたいです。
