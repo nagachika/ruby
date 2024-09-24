@@ -1,0 +1,1 @@
+ASAN 利用時の誤検出抑制のための asan_unpoisoning_object() の定義を gc/default.c 内から internal/sanitizers.h に移動して、 struct heap_page::freelist の NULL チェックのところでもこれを利用するようにしています。
