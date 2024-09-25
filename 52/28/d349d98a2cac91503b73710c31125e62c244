@@ -1,0 +1,1 @@
+rubygems の Gem::BasicSpecification#gem_dir を #full_gem_path の alias としていたのを cache つきの wrapper メソッドとして定義するように従来の実装に戻しています。
