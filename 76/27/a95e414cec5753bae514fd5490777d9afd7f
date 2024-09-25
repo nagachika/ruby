@@ -1,0 +1,1 @@
+hash.c で古い(Vista 以前の) Windows 環境のための preprocessor 分岐を削除しています。
