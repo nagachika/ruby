@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_writebarrier() に GC_ASSERT() で渡された VALUE が T_NONE/T_MOVED/T_ZONBIE など生きてない slot になってないことを確認する assertion を追加しています。
