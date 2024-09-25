@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で Get-Volume というコマンド? の出力を表示させるように step を追加しています。
