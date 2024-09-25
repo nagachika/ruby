@@ -1,0 +1,1 @@
+Enumerator#initialize_copy の実装で struct enumerator 構造体の ID 型のメンバーのコピー時に RGenGC 用の write barrier を使ってたのをやめています。 VALUE ではないので不要に write barrier を張ってたようです。
