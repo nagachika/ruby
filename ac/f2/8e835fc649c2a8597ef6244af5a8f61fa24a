@@ -1,0 +1,1 @@
+Windows 環境で ENV の実装に SetEnvironmentVariable() のかわりにマルチバイト文字列を正しく扱うため SetEnvironmentVariableW() を呼ぶようにしています。
