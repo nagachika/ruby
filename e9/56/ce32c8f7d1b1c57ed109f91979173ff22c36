@@ -1,0 +1,1 @@
+c51d8ff458e00b34e03b1fd5ac9bb0665c5a516a の続きで fallthrough した default 節の UNREACHABLE と RUBY_ASSERT() でチェックしていたところをより強力に通常のビルドでも rb_bug() で異常終了させるようにしています。
