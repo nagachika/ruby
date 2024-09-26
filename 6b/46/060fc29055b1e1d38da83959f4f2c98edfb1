@@ -1,0 +1,1 @@
+doc/syntax.rdoc と doc/syntax/control_expressions.rdoc のドキュメント pattern match についての記述から experimental というのを除いています。
