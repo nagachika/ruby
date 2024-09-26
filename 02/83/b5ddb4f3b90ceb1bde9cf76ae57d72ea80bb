@@ -1,0 +1,1 @@
+tool/mk_builtin_loader.rb で Warning#warn を上書きするような Module を追加して、警告の出力数が取れるようにしてビルド時に検出するようにしています。
