@@ -1,0 +1,1 @@
+irb のテストで IRB::Locale に渡す locale の指定の "C" から "en_US.ASCII" に変更しています。 https://github.com/ruby/irb/pull/1008
