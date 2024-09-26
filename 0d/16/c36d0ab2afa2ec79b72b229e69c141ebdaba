@@ -1,0 +1,1 @@
+拡張ライブラリ win32ole の Encoding.find が Windows 環境で? 失敗するという問題の対応で rescue して Encoding::UTF_8 をデフォルトとして使うようにしています。 [ruby-core:82429] [Bug #13831]
