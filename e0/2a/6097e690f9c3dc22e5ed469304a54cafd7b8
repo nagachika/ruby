@@ -1,0 +1,1 @@
+compile.c の add_adjust_info() に struct iseq_insn_info_entry::node_id の初期化を追加しています。 valgrind による誤検出? の抑制のためみたいです。
