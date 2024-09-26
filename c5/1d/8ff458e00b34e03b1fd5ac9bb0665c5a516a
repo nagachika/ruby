@@ -1,0 +1,1 @@
+String#append_as_bytes の実装で switch 文の break 漏れで default 節に fallthrough したところに UNREACHABLE マクロが置いてあったので break を追加しています。
