@@ -1,0 +1,1 @@
+bundler の require "bundler/inline" 利用時の Gemfile.lock の更新を抑制する変更。
