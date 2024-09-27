@@ -1,0 +1,1 @@
+YJIT の Rust 実装で Context から整数への変換時の cache というのはあったのを逆向きの整数から対応する Context への変換の cache というのも実装しているようです。 https://github.com/ruby/ruby/pull/11680
