@@ -1,0 +1,1 @@
+vm_objtostring() に ASAN 利用時のデバッグ用の rb_bug() での異常終了させる分岐を追加しています。
