@@ -1,0 +1,1 @@
+file.c に macOS 向けの複数の関数の共通の処理を mutable_CFString_new() という関数に切り出すリファクタリング。
