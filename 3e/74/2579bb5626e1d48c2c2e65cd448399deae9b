@@ -1,0 +1,1 @@
+parse.y で不要になっていた rb_str_cat() に対応する Universal Parser 用構造体の rb_parser_config_t::str_cat メンバーを削除しています。
