@@ -1,0 +1,1 @@
+52bb90f92d9ebc8c06d1adf364b0e55c746c46b2 の GitHub Actions の compilers workflow の並列度を落とす変更で dependabot の作った pull request であることを判定するのに参照するパラメーターを github.event.pull_request.user.login に修正しています。
