@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの setup/directories で $PATH に含まれるパスの書き込み権限を落とす処理でパスが実際には存在しない場合の対応を追加しています。
