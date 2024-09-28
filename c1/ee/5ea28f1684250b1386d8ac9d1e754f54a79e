@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテスト用のスクリプトで require "bundler/inline" したあとで Bundler という定数は削除しておくようにしています。ふーむ、なんでだろ。
