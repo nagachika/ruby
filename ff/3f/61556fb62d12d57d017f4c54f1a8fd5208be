@@ -1,0 +1,1 @@
+rubygems の require で default gems や bundled gems に警告を出力するための lib/bundled_gems.rb で a70adce1ce5fae8eaae385214ac0d2e7d17c1103 で require に失敗した時は警告を出さないようにしていましたが、この挙動は元に戻して fiddle の時だけ require 失敗時の警告を抑制するようにしています。
