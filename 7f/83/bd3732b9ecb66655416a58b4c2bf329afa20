@@ -1,0 +1,1 @@
+parse.y から is_ascii_string() という CRuby 本体の関数への依存を排除して Universal Parser のための構造体 rb_parser_config_t のメンバー is_ascii_string も削除しています。
