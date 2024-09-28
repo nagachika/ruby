@@ -1,0 +1,1 @@
+rubygems の require で default gems や bundled gems について警告を出力するための lib/bundled_gems.rb で Kernel.no_warning_require (オリジナルの require) を呼ぶのを警告出力の有無を決める分岐の前にしています。 require 自体が成功しなかったら警告を出さないようにするため。
