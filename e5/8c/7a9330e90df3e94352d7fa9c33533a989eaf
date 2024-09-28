@@ -1,0 +1,1 @@
+52bb90f92d9ebc8c06d1adf364b0e55c746c46b2 で GitHub Actions の compilers workflow の並列度を下げる変更で導入した shell script で環境変数 INPUT_CHECK で実行対象のテストの指定ができるようにしています。 https://github.com/ruby/ruby/pull/11574
