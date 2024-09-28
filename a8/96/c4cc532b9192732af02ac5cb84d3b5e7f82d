@@ -1,0 +1,1 @@
+52bb90f92d9ebc8c06d1adf364b0e55c746c46b2 で GitHub Actions の compilers workflow の並列度を落とす変更で -DRGENGC_FORCE_MAJOR_GC を指定してビルドするテストをコメントアウトしています。元からコメントアウトされていたものが変更時に復活されていたようです。
