@@ -1,0 +1,1 @@
+compile.c の decl_branch_base() と add_trace_branch_coverage() 内の類似の処理を setup_branch() という関数に切り出すリファクタリング。
