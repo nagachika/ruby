@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree モジュールの rdoc 用コメントに AST の互換性についてのチケットの参照を書いてたのを消して、また parser.gem への言及は prism.gem に変更しています。
