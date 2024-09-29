@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc でドキュメント生成時に標準エラー出力に出すメッセージに生成する index.html のパスを表示するようにしています。 https://github.com/ruby/rdoc/pull/1165
