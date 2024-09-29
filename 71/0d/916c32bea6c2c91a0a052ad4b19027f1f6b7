@@ -1,0 +1,1 @@
+parse.y で rb_parser_str_buf_cat() の呼び出しの引数を省略するための wrapper マクロ parser_str_cat() と parser_str_cat_cstr() を追加しています。
