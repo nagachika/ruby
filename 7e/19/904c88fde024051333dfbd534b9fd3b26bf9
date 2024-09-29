@@ -1,0 +1,1 @@
+parse.y から RSTRING_END() への依存関係を削除して自前で RSTRING_LEN() と RSTRING_PTR() から計算するようにしています。 RSTRING_END() ってマクロじゃないのかなと思ったら同名の inline 関数に展開していて、rb_parser_config_t のメンバー rstring_end 経由で渡されていたようなのでこれも削除しています。
