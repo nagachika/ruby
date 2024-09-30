@@ -1,0 +1,1 @@
+pack.c の pack_pack() pack_unpack_internal() という関数から指示子の修飾子を検出する部分を pack_modifiers() という関数に切り出して共有するリファクタリング。
