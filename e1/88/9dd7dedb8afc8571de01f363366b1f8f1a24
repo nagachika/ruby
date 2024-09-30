@@ -1,0 +1,1 @@
+thread_pthread.c の rb_threadptr_sched_free() 内で VM_ASSERT() マクロの中で代入をしていたのを外に出しています。というか、この assertion は NULL を代入してその結果が NULL であることをチェックしていて意味がないですね。
