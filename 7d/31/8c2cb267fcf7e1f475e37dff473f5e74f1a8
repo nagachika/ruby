@@ -1,0 +1,1 @@
+bundler の Bundler::StubSpecification の activated メソッドを activated? メソッドに改名しています。 https://github.com/rubygems/rubygems/pull/8068
