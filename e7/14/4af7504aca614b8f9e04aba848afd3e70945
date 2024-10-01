@@ -1,0 +1,1 @@
+doc/packed_data.rdoc の Array#pack の指示子の修飾子 "@" や "X", "x" についての説明にエラーになる例も加えて詳しくしています。
