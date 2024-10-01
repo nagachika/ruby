@@ -1,0 +1,1 @@
+ext/win32/lib/win32/sspi.rb の Win32::SSPI::SSPIResult#== メソッドで右辺値が Symbol の時の対応を追加しています。
