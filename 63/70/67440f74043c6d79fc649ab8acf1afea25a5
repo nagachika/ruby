@@ -1,0 +1,1 @@
+IO::Buffer#slice で元の IO::Buffer の RB_IO_BUFFER_READONLY のフラグを伝播させるように修正しています。 [ruby-core:119248] [Bug #20752]
