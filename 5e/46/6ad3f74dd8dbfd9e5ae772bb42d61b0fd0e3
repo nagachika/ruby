@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションを試す workflow で -DENABLE_PATH_CHECK をつけてビルドするテストを削っています。 Windows でのみ意味のあるマクロで Ubuntu では定義してもなんの影響もないマクロで意味がないので。
