@@ -1,0 +1,1 @@
+ext/win32/lib/win32/sspi.rb の定数名の typo 修正。
