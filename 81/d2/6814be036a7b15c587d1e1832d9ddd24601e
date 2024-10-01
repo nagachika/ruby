@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストで rss を利用していたところを 8cd36a6dab170f4127c58c07b1a388dd3813fb7a で警告をやめたのでかわりに csv を使うようにしています。
