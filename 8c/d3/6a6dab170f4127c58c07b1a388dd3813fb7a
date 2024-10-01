@@ -1,0 +1,1 @@
+require の警告出力を管理する lib/bundled_gems.rb で 3.0 から bundled gems に移動済みの rexml, rss, webrick については警告をやめるようにしています。
