@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の ext/win32/lib/win32/sspi.rb に Fixnum クラスの参照が残ってたので Integer に修正しています。
