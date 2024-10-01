@@ -1,0 +1,1 @@
+bundler の git リポジトリを source にする時の git checkout をする前の cache ディレクトリの削除をする時のチェック方法を修正しています。
