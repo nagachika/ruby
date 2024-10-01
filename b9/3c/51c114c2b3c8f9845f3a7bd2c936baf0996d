@@ -1,0 +1,1 @@
+MacPorts のパッチを取り込んだ 8350b48cfa7d344d9e2dc9748c26607c1b89d7df で free(3) を呼び出す部分の preprocessor 分岐の条件が逆転していてメモリリークしていたのを修正。 [ruby-core:119356] [Bug #20773]
