@@ -1,0 +1,1 @@
+ext/win32/lib/win32/sspi.rb で String#unpack1 を利用するようにするリファクタリング。
