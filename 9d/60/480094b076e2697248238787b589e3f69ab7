@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションなどを試す workflow で configure に --with-shared-gc オプションを指定するテストを削っています。 Ubuntu 向け workflow のほうで既に実行済みとのこと。
