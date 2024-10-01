@@ -1,0 +1,1 @@
+rubygems の Gem::Specification.reset で出力する警告で gem 名の重複を除外するようにしています。
