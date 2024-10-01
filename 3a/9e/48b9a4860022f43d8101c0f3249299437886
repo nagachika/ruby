@@ -1,0 +1,1 @@
+rubygems の require での警告出力のための lib/bundled_gems.rb で fiddle については require が失敗した時に警告を抑制するようにしたのをより厳密に require が LoadError を発生させた時に限るようにしています。
