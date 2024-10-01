@@ -1,0 +1,1 @@
+ext/win32/lib/win32/sspi.rb で文字列の prefix をチェックするのに String#include? を使ってたのを String#start_with? を利用するように修正しています。
