@@ -1,0 +1,1 @@
+標準添付ライブラリ singleton の特異メソッドの実装を Module に切り出して include するようにしています。複数 Ractor 対応のためみたいです。
