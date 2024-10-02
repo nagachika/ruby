@@ -1,0 +1,1 @@
+標準添付ライブラリ singleton で古いバージョンの対応のため Module#undef_method の呼び出しに Object#send メソッドを利用するようにしています。
