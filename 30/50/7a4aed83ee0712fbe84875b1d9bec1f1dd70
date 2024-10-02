@@ -1,0 +1,1 @@
+GC のイベントフックの RUBY_INTERNAL_EVENT_FREEOBJ のコールバック呼び出しの責務を本体の rb_gc_obj_free() から個別の GC 実装の関数 gc_sweep_page 内の slot 毎に呼ぶようにしています。うーん一貫した動作のためにはできるだけ本体で呼んだほうがよさそうだけどなぜだろう。
