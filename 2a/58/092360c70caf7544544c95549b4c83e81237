@@ -1,0 +1,1 @@
+gc/default.c の static 関数 objspace_available_slots() の前方 prototype 宣言が不要になってたので削除しています。
