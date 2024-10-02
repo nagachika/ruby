@@ -1,0 +1,1 @@
+d109c7c620a9f426b9aa60f9ff3a227fd9794933 の続きというかやりなおしで rubyspec で無視させる定数の指定を spec/ruby/default.mspec から spec/ruby/.mspec.constants への追記に変更しています。
