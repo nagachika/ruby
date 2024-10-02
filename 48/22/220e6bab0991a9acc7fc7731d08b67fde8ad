@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションなどを試す compilers workflow で rubyspec にテスト対象のテスト指定できるようにして configure の --with-gmp オプション利用時のテストで rubyspec の spec/ruby/core/integer のみ実行させるようにしています。
