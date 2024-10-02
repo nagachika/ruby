@@ -1,0 +1,1 @@
+標準添付ライブラリ singleton の 136b30b414b3fcaddf0505d5a72fed8b08b2da3c で複数 Ractor のために導入したモジュールの定義を Ractor クラスが定義されている時だけ定義するようにしています。
