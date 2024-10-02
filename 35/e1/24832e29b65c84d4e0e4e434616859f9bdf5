@@ -1,0 +1,1 @@
+IO::Buffer.for のブロック内で生成された IO::Buffer に対して IO::Buffer#transfer を使うと freeze されている文字列を IO::Buffer 経由で変更できてしまうという不具合を修正しています。そもそも IO::Buffer#transfer ってなんだっけ? 新しい IO::Buffer を作って中身のバッファの文字列をそちらに移動してしまうというものかな。 [ruby-core:119257] [Bug #20755]
