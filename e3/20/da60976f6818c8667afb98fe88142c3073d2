@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の history ファイルの読み書き時に UTF-8 で表現できないバイト列を置換しておくようにしているようです。 https://github.com/ruby/reline/pull/751
