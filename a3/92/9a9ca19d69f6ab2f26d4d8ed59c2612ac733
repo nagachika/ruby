@@ -1,0 +1,1 @@
+bundler の Bundler.unbundled_env で削除する環境変数に BUNDLER_SETUP というのも追加しています。
