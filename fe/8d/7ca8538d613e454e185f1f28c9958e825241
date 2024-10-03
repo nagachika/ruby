@@ -1,0 +1,1 @@
+Float#magnutude の実装も削除して Float#abs への alias として定義するようにしています。
