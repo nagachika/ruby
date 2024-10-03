@@ -1,0 +1,1 @@
+rubygems のテストでコマンド実行中の Ctrl-C による Interrupt 例外での割り込みをエミュレートするためのコマンド実装を Kernel#load で読み込んであとで remove_const してたのを専用のファイルに切り出しています。必要に応じて autoload させるってことかなぁ?
