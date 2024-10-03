@@ -1,0 +1,1 @@
+利用する parser 実装を RB_DEFAULT_PARSER というマクロの値で定義していたのを ruby_default_parser_enum という enum 型を宣言して version.c の static 変数で値を保持するようにしてその参照/設定用の関数 rb_ruby_default_parser()、rb_ruby_default_parser_set() などを定義しています。
