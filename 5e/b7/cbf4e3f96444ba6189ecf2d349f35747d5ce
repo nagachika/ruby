@@ -1,0 +1,1 @@
+ruby で定義されていた組み込みメソッドの Kernel#yield_self の定義を削除して Kernel#then への alias として定義するように変更しています。
