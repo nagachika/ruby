@@ -1,0 +1,1 @@
+version.c でコマンドラインオプションの -v で表示する description を snprintf(3) で組み立てるのをオプション(JIT の有無や種類、M:N Thread の有無、parser の種類など)ごとに strlcpy(3) で追記していくようにしています。
