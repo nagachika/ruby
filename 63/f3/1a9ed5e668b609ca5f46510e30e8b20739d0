@@ -1,0 +1,1 @@
+標準添付ライブラリ singleton の Singleton::SingletonClassMethods#instance でのインスタンス変数への代入が冗長だったのを修正しています。
