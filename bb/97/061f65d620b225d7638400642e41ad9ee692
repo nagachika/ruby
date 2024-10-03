@@ -1,0 +1,1 @@
+rbs のバージョン更新に合わせて tool/rbs_skip_tests で rbs の skip するテストを追加しています。
