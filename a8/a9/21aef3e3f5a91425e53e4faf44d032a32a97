@@ -1,0 +1,1 @@
+irb の debugger モードで参照すべき Binding の取得方法を修正しています。 https://github.com/ruby/irb/pull/1007
