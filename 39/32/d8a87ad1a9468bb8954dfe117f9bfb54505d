@@ -1,0 +1,1 @@
+gc/default.c の実装で static 関数 heap_eden_total_slots() を削除してかわりに objspace_available_slots() を利用するようにしています。
