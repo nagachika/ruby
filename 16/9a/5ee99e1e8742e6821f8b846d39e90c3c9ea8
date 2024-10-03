@@ -1,0 +1,1 @@
+parse.y で Lrama の user defined inline rule という機能を利用して共通のルールを括り出すようにしています。
