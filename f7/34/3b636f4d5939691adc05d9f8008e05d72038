@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で Hash の pretty_print の表記を a8a059125314a411eaf879a9fbfdc68d6c01a667 での Hash#inspect の表記の変更に追随させています。 pp 自体のバージョンではなくて RUBY_VERSION をみて ruby 本体のバージョンによって挙動を変えるというようにしています。 [ruby-core:117564] [Bug #20433]
