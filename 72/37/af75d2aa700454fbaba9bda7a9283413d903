@@ -1,0 +1,1 @@
+test 配下のテストも a8a059125314a411eaf879a9fbfdc68d6c01a667 での Hash#inspect の表記の変更に追随させています。 [ruby-core:117564] [Bug #20433]
