@@ -1,0 +1,1 @@
+4e219d8f7d3e76cf60e747dc16deb3452f297442 で RUBY_DESCRIPTION の組み立てを変更した時に文字列追加する時にバッファサイズチェックの assertion を追加しています。
