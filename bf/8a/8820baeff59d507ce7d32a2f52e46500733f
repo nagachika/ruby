@@ -1,0 +1,1 @@
+RGENGC_CHECK_MODE の指定がない時のデフォルト値の定義が gc.c と gc/default.c に分散していたので gc/gc.h に移動して共通化しています。
