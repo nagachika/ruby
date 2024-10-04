@@ -1,0 +1,1 @@
+gc/default.c の RGENGC_CHECK_MODE が 4以上の時にビルドエラーになってたのを修正しています。
