@@ -1,0 +1,1 @@
+fake.rb で RUBY_DESCRIPTION の JIT の種類や M:N Thread の有無などのオプション情報を切り出して定数に設定するようにしてるようです。
