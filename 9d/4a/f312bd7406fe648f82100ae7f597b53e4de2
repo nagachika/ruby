@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Windows#matches? というメソッドを #match? と改名しています。 https://github.com/ruby/reline/pull/753
