@@ -1,0 +1,1 @@
+IO::Buffer の rdoc 用コメントのサンプルコードなどで inspect の結果が変化したのに追随させています。 https://github.com/ruby/ruby/pull/11737
