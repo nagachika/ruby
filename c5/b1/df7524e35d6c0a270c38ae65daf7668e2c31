@@ -1,0 +1,1 @@
+bundled gems の rbs のテストの skip を指定する tool/rbs_skip_tests にテストメソッド指定を追加しています。
