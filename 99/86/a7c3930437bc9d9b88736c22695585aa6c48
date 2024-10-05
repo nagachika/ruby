@@ -1,0 +1,1 @@
+Object#singleton_methods はそのオブジェクトの特異クラス(あれば)のインスタンスメソッドを返しますが、特異クラスに include/prepend された Module のインスタンスメソッドも返せるようにしています。 [ruby-core:118514] [Bug #20620]
