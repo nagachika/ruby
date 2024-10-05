@@ -1,0 +1,1 @@
+configure で --enable-rpath を指定した時の LIBRUBY_RPATHFLAGS 変数の組立てでオプションが繋がってしまっていたので空白を追加するように修正しています。 [ruby-core:119444] [Bug #20783]
