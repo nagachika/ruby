@@ -1,0 +1,1 @@
+IO::Buffer#read の offset の指定ありの時のテストを追加しています。 https://github.com/ruby/ruby/pull/11779
