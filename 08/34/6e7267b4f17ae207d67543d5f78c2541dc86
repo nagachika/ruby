@@ -1,0 +1,1 @@
+拡張ライブラリ pathname に Pathname.mktmpdir という特異メソッドを追加しています。なぜ pathname に? と思うのですが要するにブロックつきで呼び出した時にブロックに渡される path 名を Pathname オブジェクトにしたい、ということみたいです。実装は tmpdir に委譲。実行時に require "tmpdir" します。
