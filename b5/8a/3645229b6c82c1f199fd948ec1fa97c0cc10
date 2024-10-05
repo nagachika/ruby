@@ -1,0 +1,1 @@
+GC のデフォルト実装 gc/default.c で構造体 rb_size_pool_t に rb_heap_t 型の eden_heap のメンバーを展開して直接メンバーとして持つようにしています。あれ、今 heap って eden しかなくなってるのか。
