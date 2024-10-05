@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc でテーブルの記法の生成時の幅の計算が間違っていた不具合修正。 https://github.com/ruby/rdoc/pull/1184
