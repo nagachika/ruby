@@ -1,0 +1,1 @@
+拡張ライブラリ pathname の Pathname#mkpath が nil を返していたのを self を返すようにしています。
