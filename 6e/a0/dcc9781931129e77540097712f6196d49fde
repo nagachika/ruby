@@ -1,0 +1,1 @@
+process.c で構造体 rb_io_t を使うところは rb_io_t が opaque になる場合を想定して internal/io.h を #include して struct rb_io として使うようにしています。 https://github.com/ruby/ruby/pull/11793
