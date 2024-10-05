@@ -1,0 +1,1 @@
+rubyspec の C API のテスト用の拡張ライブラリで rb_io_wait_readable()/rb_io_wait_writable() のかわりに rb_io_maybe_wait_readable()/rb_io_maybe_wait_writable() を利用するようにして IO 待ちのタイムアウトに rb_wait_for_single_fd() のかわりに rb_io_wait() を使うようにしています。 https://github.com/ruby/ruby/pull/11792
