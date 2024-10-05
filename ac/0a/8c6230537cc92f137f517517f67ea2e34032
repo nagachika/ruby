@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Yamatanooroti を使ったテストで close を呼ぶタイミングを後にずらしています。テストの高速化のためとのこと。 https://github.com/ruby/reline/pull/747
