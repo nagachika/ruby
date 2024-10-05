@@ -1,0 +1,1 @@
+IO 関係の C API rb_io_maybe_wait_readable() や rb_io_maybe_wait_writable() でタイムアウト時に戻り値で通知するのではなく IO::TimeoutError 例外を発生させるようにしています。 https://github.com/ruby/ruby/pull/9531
