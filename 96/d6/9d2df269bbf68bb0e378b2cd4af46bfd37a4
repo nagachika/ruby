@@ -1,0 +1,1 @@
+rb_io_maybe_wait() という C API の Doxygen 用コメントにタイムアウト時の挙動について明記するようにしています。 https://github.com/ruby/ruby/pull/9527
