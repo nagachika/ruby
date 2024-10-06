@@ -1,0 +1,1 @@
+parse.y の rb_parser_enc_compatible_latter() をその呼び元の rb_parser_enc_compatible() にインラインで展開しています。
