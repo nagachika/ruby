@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile の parseer として parse.y 実装を指定する compile_parsey というクラスメソッドを新規追加しています。と、思ったのですがコミットログをみると prism_compile.c の pm_compile_array_node() の off-by-one の不具合修正がメインみたいで、どうも誤ってコミットが混ざってしまってそうな気がします。
