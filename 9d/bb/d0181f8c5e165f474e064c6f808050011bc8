@@ -1,0 +1,1 @@
+parse.y で非 ASCII-compatible な Encoding の文字列への対応をしていたところで、スクリプト内の文字列は必ず ASCII-compatible であるという制約がある? から不要とのことで削っています。
