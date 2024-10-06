@@ -1,0 +1,1 @@
+GC のオブジェクトのインスタンス変数の mark 処理をする rb_mark_generic_ivar() において rb_gen_ivtbl_get() という関数を利用していたところをその内容の st_lookup() の呼び出しを直接実行するようにしています。rb_gen_ivtbl_get() では複数 Ractor 用の VM のロック取得をしているけど、rb_mark_generic_ivar() の呼び出し時には既にロック取得済みのはずなので不要とのこと。
