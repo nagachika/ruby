@@ -1,0 +1,1 @@
+encoding.c の enc_compatible_latter() の呼び元で共通して行なっていた Encoding の index の比較によるショートカットを enc_compatible_latter() 内に移動して共有するリファクタリング。
