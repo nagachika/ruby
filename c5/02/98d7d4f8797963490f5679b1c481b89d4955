@@ -1,0 +1,1 @@
+io.c に fd を直接受け取るのではなく rb_io_t を受け取る rb_io_blocking_region() と rb_io_blocking_region_wait() という API を追加して、IO/File や IO::Buffer の実装からもこちらを利用するようにリファクタリングしています。rb_io_t を opaque にするための地均しということかなと思います。 https://github.com/ruby/ruby/pull/11795
