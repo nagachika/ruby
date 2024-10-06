@@ -1,0 +1,1 @@
+configure で atomic_signal_fence() というマクロ? 関数? の存在チェックをする時に #include するヘッダの指定で # がコメントみたいにみえる(ハイライトされる?)のを避けるため "@%:@" という記法を使っています。 autoconf でメタキャラクタそのものを表現するために使う quadrigraphs というらしい。知らなかった。 https://www.gnu.org/software/autoconf/manual/autoconf-2.63/html_node/Quadrigraphs.html
