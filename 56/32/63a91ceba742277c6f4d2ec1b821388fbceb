@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の yamatanooroti を利用したテストで類似のシナリオを含む 2つのテストメソッドを合体させて前処理(?)を共有させるようにしています。 https://github.com/ruby/reline/pull/749
