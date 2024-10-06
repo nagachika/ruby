@@ -1,0 +1,1 @@
+bundler の rubygems の拡張で不評になった古い rubygems 対応の monkey patch を削除しています。
