@@ -1,0 +1,1 @@
+irb の補完のデフォルトの挙動を rbs による型ベースの TypeCompletor を試して reqire "repl_type_completor" が LoadError になったら従来の RegexpCompletor に fallback するようにしています。 https://github.com/ruby/irb/pull/1010
