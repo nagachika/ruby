@@ -1,0 +1,1 @@
+GitHub Actions の parse.y を parser として使う workflow でテストのターゲットを分けていたのを make check に集約させるようにしています。
