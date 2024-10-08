@@ -1,0 +1,1 @@
+IO#readline が引数に受け取る delimiter の文字列のバイトサイズがその internal encoding に対して正しく 1文字のバイト幅になっているかどうかのチェックを追加しています。 [ruby-core:119470] [Bug #20787]
