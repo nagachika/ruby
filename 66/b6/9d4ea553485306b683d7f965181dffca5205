@@ -1,0 +1,1 @@
+Float#to_s の rdoc 用コメントのサンプルコードを最後にまとめて書いてたのをサポートする記法それぞれごとに書くように構成を変更しています。 https://github.com/ruby/ruby/pull/11683
