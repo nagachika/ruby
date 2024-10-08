@@ -1,0 +1,1 @@
+template/limits.c.tmpl および template/sizes.c.tmpl で RbConfig::SIZEOF の Hash を生成する時に key となる文字列に rb_str_new_lit () を利用して C のリテラルをそのまま文字列に使うことで不要なヒープの確保を抑制するようにしています。
