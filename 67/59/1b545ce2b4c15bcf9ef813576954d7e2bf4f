@@ -1,0 +1,1 @@
+dbb1abacf0538db61496cd25d9616dfa18327cd9 の続きで RbConfig::SIZEOF の Hash のキーの文字列を作るのをさらに rb_usascii_str_new_lit() に変更して Encoding を US-ASCII で作るようにしています。
