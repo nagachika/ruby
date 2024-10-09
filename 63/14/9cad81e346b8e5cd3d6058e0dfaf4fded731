@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv のテストで IPv4 のテストの時に明示するため Resolv::DNS.open のキーワード引数 use_ipv6: false を渡すようにしています。
