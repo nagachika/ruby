@@ -1,0 +1,1 @@
+63149cad81e346b8e5cd3d6058e0dfaf4fded731 の変更が有効になるように標準添付ライブラリ resolv で Resolv::DNS#use_ipv6? が呼ばれた時に未初期化だったら Resolv::DNS::Config#lazy_initialize を呼び出すようにしています。
