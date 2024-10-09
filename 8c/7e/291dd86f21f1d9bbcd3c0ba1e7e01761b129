@@ -1,0 +1,1 @@
+doc/ChangeLog/ 配下の過去の ChangeLog や doc/maintainers.md などで default gem の json の upstream の参照を ruby/json に変更しています。過去の ChangeLog とかは記録なので変えるのがいいのかちょっと微妙な気はしますが。
