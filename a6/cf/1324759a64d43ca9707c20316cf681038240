@@ -1,0 +1,1 @@
+c32fd1b5ed6709dfbed3d19cac881886576e231b で vm_objtostring() に ASAN 利用時に rb_bug() で異常終了させるデバッグ用コードを入れてたのを revert しています。 6acf03618a937f5302fbd3043f9c3420a49f8cb3 が対応した修正だったようです。
