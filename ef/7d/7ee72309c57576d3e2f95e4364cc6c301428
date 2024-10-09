@@ -1,0 +1,1 @@
+GitHub Actions で GitHub の pull request のラベルで Documentation がついていたら実行を抑制しようとしていたところで contains() による判定を "Documentation" 全体を指定するようにしています。引数が object filter というものになってて配列みたいなものなので、文字列の部分一致ではなくて要素に含まれるかの判定なので全体一致している必要があったようです。
