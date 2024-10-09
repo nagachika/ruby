@@ -1,0 +1,1 @@
+拡張ライブラリ json で String#to_json の Encoding に対して不正な文字列の時のテストを追加しています。 https://github.com/flori/json/issues/344
