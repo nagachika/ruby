@@ -1,0 +1,1 @@
+bundler でコマンド実行時に Windows 環境で実行ファイルが "bundle.bat" だった時の対応を追加しています。
