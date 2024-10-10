@@ -1,0 +1,1 @@
+NEWS の default gems や bundled gems のバージョンリストを自動更新するためのスクリプト tool/update-NEWS-gemlist.rb で bundled gems の新規追加にも対応できるようにしています。
