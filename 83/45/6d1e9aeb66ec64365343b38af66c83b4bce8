@@ -1,0 +1,1 @@
+rubygems のサブコマンドの実装を require するところで LoadError が発生した時に無視させるようにしています。
