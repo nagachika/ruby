@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で同期する default gems に win32 からリポジトリを分離した win32-registry を追加しています。
