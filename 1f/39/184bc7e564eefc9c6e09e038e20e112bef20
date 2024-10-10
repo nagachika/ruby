@@ -1,0 +1,1 @@
+Fiber 用の coroutine 実装のアセンブリファイル群で coroutine_transfer() という関数のシンボルを参照する時にシンボル名の prefix をつけるマクロを個別に定義していたのを template/Makefile.in でまとめてマクロ定義しておくようにしています。
