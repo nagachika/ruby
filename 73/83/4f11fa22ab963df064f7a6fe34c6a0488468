@@ -1,0 +1,1 @@
+47db8bc01cac3b0008de62a0f6300ec00acef9b1 で bundler で rubygems の Gem::Specification#gem_dir の上書き定義を削除していたのを revert して、再定義の警告抑制のための remove_method を追加しています。
