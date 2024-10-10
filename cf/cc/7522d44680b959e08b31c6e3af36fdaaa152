@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッド system_gems でも環境変数 GEM_PATH のすりかえをしないようにしています。
