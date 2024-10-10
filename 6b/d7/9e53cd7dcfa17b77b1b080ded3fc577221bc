@@ -1,0 +1,1 @@
+abd01d616aaeae7ad93838b75610bec6de0c6dc1 の続きで bundler のテストのヘルパーメソッド realworld_system_gems で gem install コマンド実行時に --verbose オプションを付加するようにしています。
