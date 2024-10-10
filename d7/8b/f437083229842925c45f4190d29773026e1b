@@ -1,0 +1,1 @@
+dee15211c154cc70409a6010883140f259d1c483 と同様に拡張ライブラリ socket の UNIXSocket でも BLOCKING_REGION_FD() のかわりに rb_io_blocking_region() を利用するようにしています。
