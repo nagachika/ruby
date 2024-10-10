@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket#recvfrom の実装で rb_thread_io_blocking_region() のかわりに rb_io_t をそのまま渡す rb_io_blocking_region() を使うようにして rb_io_t 構造体の内容に依存しないようにしています。
