@@ -1,0 +1,1 @@
+YJIT で Module#name が呼ばれた時に直接 rb_mod_name() を呼び出すインライン化をする最適化。 https://github.com/ruby/ruby/pull/11819
