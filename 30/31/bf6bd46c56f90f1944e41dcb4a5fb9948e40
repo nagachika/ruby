@@ -1,0 +1,1 @@
+拡張ライブラリ socket の UDPSocket の実装でも BLOCKING_REGION_FD() のかわりに rb_io_blocking_region() を利用するようにしています。
