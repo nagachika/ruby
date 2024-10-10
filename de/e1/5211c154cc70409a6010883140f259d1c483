@@ -1,0 +1,1 @@
+拡張ライブラリ socket の BasicSocket#send で BLOCKING_REGION_FD() マクロを利用していたところを rb_io_blocking_region() を利用するようにしています。
