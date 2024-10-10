@@ -1,0 +1,1 @@
+internal/fixnum.h に利用している MUL_OVERFLOW_FIXNUM_P() マクロのために #include "internal/bits.h" を追加しています。
