@@ -1,0 +1,1 @@
+irb の debug モード時の入力を消費する時に改行を出力する処理を環境変数 RUBY_DEBUG_TEST_UI が設定されている時に限るようにしています。 https://github.com/ruby/irb/pull/1014
