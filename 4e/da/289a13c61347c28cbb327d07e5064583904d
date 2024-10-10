@@ -1,0 +1,1 @@
+fc2efc2bdb5e8f48b83757d8de1ae90750150e84 で更新した同期処理で default gems の win32-registry を upstream から同期しています。リポジトリとしては分離したけど標準添付ライブラリとしては ext/win32/ の配下になるんですね。
