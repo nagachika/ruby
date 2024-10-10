@@ -1,0 +1,1 @@
+GitHub Actions の check_misc workflow の rdoc によるドキュメント生成でコミットログや pull request のラベルなどからドキュメントの変更を検出した時だけ実行させるようにしています。
