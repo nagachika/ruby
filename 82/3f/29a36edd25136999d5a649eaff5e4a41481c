@@ -1,0 +1,1 @@
+拡張ライブラリ socket で rb_io_t 構造体の内容に直接アクセスしないように rb_io_mode() や rb_io_descriptor() といった accesesor 関数を利用するようにしています。
