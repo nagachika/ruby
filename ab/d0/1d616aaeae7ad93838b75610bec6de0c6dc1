@@ -1,0 +1,1 @@
+bundler のテストの realworld_system_gems というヘルパーメソッドで GEM_PATH を置換せずに実行するようにしています。
