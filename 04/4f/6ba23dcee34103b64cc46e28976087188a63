@@ -1,0 +1,1 @@
+GitHub Actions の check_misc という workflow に rdoc によるドキュメント生成と結果のアップロードをするステップを追加しています。
