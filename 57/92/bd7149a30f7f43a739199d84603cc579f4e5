@@ -1,0 +1,1 @@
+Object#object_id や Object#__id__ を再定義しようとした時に出力する警告メッセージを def や define_method で定義した時だけでなく alias や attr_reader などで定義しようとした時にも出力されるようにしています。
