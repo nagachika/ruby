@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc が生成する HTML のドキュメントでメソッドの対応するソースコードを開閉できるようにするところの HTML/CSS の実装を変更しているようです。 https://github.com/ruby/rdoc/pull/1176
