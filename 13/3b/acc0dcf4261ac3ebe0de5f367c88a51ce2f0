@@ -1,0 +1,1 @@
+NEWS で win32 から分離した win32-sspi の名前を net-http-sspi と改名しています。
