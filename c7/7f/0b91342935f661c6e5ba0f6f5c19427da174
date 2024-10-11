@@ -1,0 +1,1 @@
+macOS の 13.0 以降で fork の対応のために Objective-C のランタイムを初期化する workaround のため CFStringCreateWithBytesNoCopy() を呼んでたところで、さらに 15.0 では CFStringCreateWithBytesNoCopy() の1回目ではうまく動かなくて 2回呼ぶ必要があったとのことで 2回呼ぶようにしています。 macOS の 15.1 では修正済みとのことですが。 [ruby-core:118577] [Bug #20631]
