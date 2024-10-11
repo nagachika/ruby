@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#gem_dir メソッドの定義を復活させています。古い bundler から利用される時に必要なので互換性のためということみたいです。
