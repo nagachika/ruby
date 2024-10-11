@@ -1,0 +1,1 @@
+configre のオプションに --with-parser を追加して利用する parser 実装を選択できるようにしています。
