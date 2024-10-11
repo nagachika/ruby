@@ -1,0 +1,1 @@
+vm_method.c の rb_method_entry_alloc() で引数の defined_class が nil か T_CLASS/T_ICLASS 型のオブジェクトであることを確認する VM_ASSERT() を追加しています。 https://github.com/ruby/ruby/pull/11715
