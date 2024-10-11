@@ -1,0 +1,1 @@
+RbConfig::CONFIG の "LIBRUBY_RELATIVE" キーが mswin 環境でセットされていなかった不具合を修正しています。 [ruby-core:119491] [Bug #20791]
