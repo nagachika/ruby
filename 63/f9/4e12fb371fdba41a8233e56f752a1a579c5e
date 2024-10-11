@@ -1,0 +1,1 @@
+c77f0b91342935f661c6e5ba0f6f5c19427da174 の修正で動くようになった Process.daemon のテストを macOS  15.0 で skip していたのをやめています。
