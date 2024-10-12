@@ -1,0 +1,1 @@
+Time#strptime の rdoc 用コメントで Time という文字列がリンクになるのを抑制しています。
