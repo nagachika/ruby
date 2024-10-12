@@ -1,0 +1,1 @@
+gc/default.c で同一ファイル内なのでインターフェース経由せず直接 rb_gc_impl_copy_finalizer() を呼び出しています。
