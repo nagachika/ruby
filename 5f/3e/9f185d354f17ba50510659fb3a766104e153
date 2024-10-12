@@ -1,0 +1,1 @@
+Enumerable#each_with_index の rdoc 用コメントに背後で each メソッドを呼ぶことを明示しています。
