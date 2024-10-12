@@ -1,0 +1,1 @@
+fc40bd7cbdd878181feed592244fa7a20b0d99a9 と同様に gc/default.c で rb_gc_impl_writebarrier_unprotect() を直接呼び出すようにしています。
