@@ -1,0 +1,1 @@
+GitHub Actions の check_misc で rdoc によるドキュメント生成をドキュメント変更のコミットでのみ実施するようにしていたのを rdoc の upstream からの同期のコミット時にも動かすようにしています。
