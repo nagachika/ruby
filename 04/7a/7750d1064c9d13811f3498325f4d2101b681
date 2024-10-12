@@ -1,0 +1,1 @@
+Time#strptime の rdoc 用コメントで Date がリンク化されるのを抑制するエスケープを追加。
