@@ -1,0 +1,1 @@
+a838f980f599d95ccf344157f7074e997af31f48 で rb_method_entry_alloc() に追加した VM_ASSERT() で defined_class が偽の時の条件は if 文にくくり出して、assertion にひっかかった時のメッセージを追加しています。また不要な prototype 宣言を削除しています。
