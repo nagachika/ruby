@@ -1,0 +1,1 @@
+rubygems の gems pristine で default gems を対象にした時の処理が重複していたのを修正しています。
