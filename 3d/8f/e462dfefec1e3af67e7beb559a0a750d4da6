@@ -1,0 +1,1 @@
+GC の実装のインターフェースのひとつ config_set() の戻り値を void にして、gc.c の gc_config_set() の実装であらためて config_get() を呼んで返すようにしています。
