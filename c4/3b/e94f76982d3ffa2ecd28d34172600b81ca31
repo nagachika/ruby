@@ -1,0 +1,1 @@
+拡張ライブラリ socket の関数群で fd を直接扱わずに rb_io_descriptor() などの関数を使って VALUE の値から得るようにしています。 rb_io_t 構造体のレイアウトに依存しないようにするための変更だと思われます。 https://github.com/ruby/ruby/pull/11847
