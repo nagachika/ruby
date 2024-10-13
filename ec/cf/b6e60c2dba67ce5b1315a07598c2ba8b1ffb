@@ -1,0 +1,1 @@
+irb のヒストリ機能の実装のメソッドの切り出しなどのリファクタリング。 https://github.com/ruby/irb/pull/1013
