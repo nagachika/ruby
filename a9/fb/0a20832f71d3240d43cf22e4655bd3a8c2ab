@@ -1,0 +1,1 @@
+doc/yjit/yjit.md でインストールの方法として YJIT の Rust 実装部分を変更する必要の有無で rustc のインストール方法の推奨を変えるように記述しています。 https://github.com/ruby/ruby/pull/11878
