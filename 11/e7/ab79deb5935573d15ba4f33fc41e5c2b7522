@@ -1,0 +1,1 @@
+Enumerable#each_with_index で確保する中間オブジェクトの数を減らす最適化。構造体 struct vm_ifunc のメンバーをインデックスの保持に流用するようにしています。 https://github.com/ruby/ruby/pull/11868
