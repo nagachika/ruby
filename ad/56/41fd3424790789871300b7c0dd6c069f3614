@@ -1,0 +1,1 @@
+拡張ライブラリ socket で connect 時のタイムアウトに IO#timeout によるタイムアウトの実装を利用するようにしています。引き続き IO 待ちに fd ではなく VALUE を受け取る rb_io_wait() を利用することで構造体 rb_io_t のレイアウトに依存しないようにするための変更かなと思います。 https://github.com/ruby/ruby/pull/11880
