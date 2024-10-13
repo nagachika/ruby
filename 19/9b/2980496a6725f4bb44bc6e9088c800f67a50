@@ -1,0 +1,1 @@
+irb のテストで yamatanooriti による仮想端末を使ったテストで yamatanooroti のほうを拡張して不要になったコードを削除しています。 yamatanooroti の依存バージョンの更新とかはいらないのかな。 https://github.com/ruby/irb/pull/1001
