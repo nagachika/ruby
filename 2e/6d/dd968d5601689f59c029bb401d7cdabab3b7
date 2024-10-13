@@ -1,0 +1,1 @@
+envutil.rb のテスト用ヘルパーメソッド under_gc_compact_stress で GC.auto_compact が定義されているかチェックするようにしています。
