@@ -1,0 +1,1 @@
+同じく生成する ruby-runner.h から PRELOADENV マクロ定義を削除しています。
