@@ -1,0 +1,1 @@
+テストで GC.compact がサポートされているかの確認に GC::OPTS をみていたのを respond_to? で GC.compact の定義の有無をみるように変更しています。
