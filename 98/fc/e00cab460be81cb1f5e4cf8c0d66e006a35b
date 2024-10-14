@@ -1,0 +1,1 @@
+標準添付ライブラリ reline でタブによる補完で候補が 1つに絞られて補完された場合さらにタブを押下された時に補完結果からさらに補完開始する挙動を行うようにしているようです。 https://github.com/ruby/reline/issues/760 https://github.com/ruby/reline/pull/761
