@@ -1,0 +1,1 @@
+rubygems の gem contents サブコマンドの default gems での扱いの不具合修正。
