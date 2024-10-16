@@ -1,0 +1,1 @@
+LEGAL から拡張ライブラリ json の ext/json/generator/generator.c のファイル部分についてのライセンス記述が最近の 6e47968929f2ee77376d28a6561266d8f8e3a4f7 と 74d459fd52ef85f92f7c20819afcc4ffcf11714d のあたりで再実装されたために不要になったようで削除しています。 https://github.com/ruby/json/pull/567
