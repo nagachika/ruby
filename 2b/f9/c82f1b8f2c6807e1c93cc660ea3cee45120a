@@ -1,0 +1,1 @@
+標準添付ライブラリ yaml の YAML::Store の実装で YAML.safe_load の permitted_classes キーワード引数が使えない古い psych への対応を追加しています。
