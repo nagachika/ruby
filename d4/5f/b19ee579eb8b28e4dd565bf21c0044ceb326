@@ -1,0 +1,1 @@
+標準添付ライブラリ yaml の YAML::DBM の実装で可能なら YAML.safe_load を利用するようにしています。
