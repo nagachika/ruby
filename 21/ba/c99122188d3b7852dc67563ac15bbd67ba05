@@ -1,0 +1,1 @@
+標準添付ライブラリ yaml の YAML::DBM は拡張ライブラリ dbm の wrapper みたいになっていて dbm に依存していたので、require 時に LoadError になったらクラス定義自体をスキップするようにしています。
