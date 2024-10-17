@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で HTML のドキュメントを生成する時に meta タグでそのページのキーワードや説明を生成するようにしています。 https://github.com/ruby/rdoc/pull/1091
