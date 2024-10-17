@@ -1,0 +1,1 @@
+標準添付ライブラリ yaml の YAML::Store の実装で YAML.load のかわりに可能なら YAML.safe_load を利用するようにしています。
