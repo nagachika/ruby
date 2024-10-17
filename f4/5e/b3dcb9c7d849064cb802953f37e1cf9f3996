@@ -1,0 +1,1 @@
+bootstraptest で GC.compact がサポートされているかのチェックに defined? を利用していたのを respond_to? を使うように変更しています。
