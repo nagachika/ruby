@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の各種クラスの struct RBasic::flags に RUBY_TYPED_FROZEN_SHAREABLE を立てて複数 Ractor で共有可能なオブジェクトにしています。 https://github.com/ruby/fiddle/pull/139
