@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の JRuby 向けの実装を TruffleRuby でも利用するようにしています。 https://github.com/ruby/fiddle/pull/149
