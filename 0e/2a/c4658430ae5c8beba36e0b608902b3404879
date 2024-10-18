@@ -1,0 +1,1 @@
+拡張ライブラリ json の 43e08133c35351f0efd7bdfacf490b0ef38ecc22 で ruby 実装化した JSON::Ext::Generator::State の #configure メソッドでオプションの処理をキーごとに存在チェックして処理していたのを Hash#each で渡されたオプションのみ処理するようにしています。これも代表的な使いかたでの高速化のためだと思われます。
