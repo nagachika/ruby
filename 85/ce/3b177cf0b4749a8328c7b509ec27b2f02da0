@@ -1,0 +1,1 @@
+標準添付ライブラリ win32-registry で fiddle の JRuby/TruffleRuby 向け実装の非互換に対応するための修正。
