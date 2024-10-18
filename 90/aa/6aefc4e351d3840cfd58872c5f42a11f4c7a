@@ -1,0 +1,1 @@
+prism で SyntaxError 発生時のメモリリークを修正しています。
