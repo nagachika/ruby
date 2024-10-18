@@ -1,0 +1,1 @@
+libexec/syntax_suggest で ruby 本体内で使った時に require_relative の LoadError を捕捉して require しなおすようにしています。
