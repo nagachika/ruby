@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow 用のシェルスクリプトで共有ライブラリから GC 実装を読み込むための設定部分がもう不要になったようで削除しています。
