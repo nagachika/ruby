@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.of でメソッドの指定に Thread::Backtrace::Location を受付けるようにしています。
