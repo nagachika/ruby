@@ -1,0 +1,1 @@
+YJIT のテストで GC.compact を利用するものを GC.compact が未サポートの時に skip するようにしています。
