@@ -1,0 +1,1 @@
+標準添付ライブラリ win32-registry の gemspec ファイルの spec.files から rakelib/ の配下および Rakefile も除外するようにしています。
