@@ -1,0 +1,1 @@
+bundler の Gemfile 内で "gemspec" による指定を 2回書けるようにしているようです。
