@@ -1,0 +1,1 @@
+拡張ライブラリ etc が configure 時に --enable-load-relative でビルドされている ruby 向けにビルドされている時に Etc.sysconfdir が正しいパスを返せてなかったのを修正しています。
