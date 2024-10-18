@@ -1,0 +1,1 @@
+bundler の bundle check サブコマンドで正常終了時に #lock メソッドを呼ぶ対象を Bundler.definition の結果に変更しています。
