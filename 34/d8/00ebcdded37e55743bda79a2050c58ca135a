@@ -1,0 +1,1 @@
+標準添付ライブラリ win32-registry の gemspec ファイルの spec.files から .mailmap を除外するようにしています。
