@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc でコマンドラインオプションの --embed-mixins と指定すると Module#include や Object#extend で追加されたメソッドや定数もそのクラスのドキュメントに含めるようにする機能を追加しているようです。 https://github.com/ruby/rdoc/pull/842
