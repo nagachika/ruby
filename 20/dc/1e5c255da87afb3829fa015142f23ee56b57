@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON::Parser が引数の文字列が ASCII-8NIT の時に Encoding を変更するため freeze されている時に dup していたのを、破壊的な変更なので常に dup するようにしています。
