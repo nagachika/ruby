@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.[] と Kernel#JSON() で引数を to_str で変換した結果が String でない場合の対応を追加しています。しかし to_str を 2回呼んでるのは不要な気が。
