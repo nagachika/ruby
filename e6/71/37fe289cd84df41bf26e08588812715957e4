@@ -1,0 +1,1 @@
+681787d11f2d71790cec4b2094086e2bb6629ac9 で libexec/syntax_suggext の require_relative の LoadError を捕捉するようにしたのをやめて単に require を使うようにしています。
