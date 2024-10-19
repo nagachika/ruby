@@ -1,0 +1,1 @@
+拡張ライブラリ json の key? メソッドの呼び出しを rb_funcall() でしていたのを直接 rb_hash_lookup2() 関数を呼ぶように最適化しています。 https://github.com/ruby/json/pull/512
