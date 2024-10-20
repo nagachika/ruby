@@ -1,0 +1,1 @@
+Ractor local storage の GC 用の mark 関数で st_table をループするのに値のみ必要なので rb_id_table_foreach() のかわりに rb_id_table_foreach_values() を利用するようにリファクタリングしています。
