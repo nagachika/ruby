@@ -1,0 +1,1 @@
+Process.warmup が呼び出された時に T_STRING 型オブジェクトの coderange を scan する処理の実装を gc/default.c から gc.c の rb_gc_prepare_heap_process_object() に移動して、今まで gc/default.c で処理していたところからこの関数を呼ぶようにしています。warmup ですることは本体が決めるってことか。
