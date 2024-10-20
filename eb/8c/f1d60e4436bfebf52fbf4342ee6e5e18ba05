@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr に IPAddr#as_json と IPAddr#to_json メソッドを追加しています。文字列にしています。
