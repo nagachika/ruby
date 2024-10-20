@@ -1,0 +1,1 @@
+irb で chilled string の警告抑制のための dup を追加しています。 https://github.com/ruby/irb/pull/1019
