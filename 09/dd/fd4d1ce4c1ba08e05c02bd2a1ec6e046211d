@@ -1,0 +1,1 @@
+irb でドキュメントの表示に pager を起動する時に alternate screen への切り替えのエスケープシーケンスを使うようにしています。 https://github.com/ruby/irb/pull/988
