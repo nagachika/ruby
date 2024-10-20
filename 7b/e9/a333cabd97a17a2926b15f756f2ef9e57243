@@ -1,0 +1,1 @@
+YJIT で定数の inline cache? が複数 Ractor 対応しているかどうかをチェックして不要な処理を省けるようにしているようです。 https://github.com/ruby/ruby/pull/11917
