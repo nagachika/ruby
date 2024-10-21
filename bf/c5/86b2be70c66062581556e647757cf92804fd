@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr の IPAddr#to_json の実装で as_json に引数を委譲し忘れていたのを修正しているのと、Kernel#format を使っていたのを文字列リテラルの式展開を利用する変更。
