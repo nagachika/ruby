@@ -1,0 +1,1 @@
+irb のヒストリファイルまわりのテストで IRB.conf の設定を復旧するようにしたり Encoding.default_{external,internal} を復旧するようにするなどの修正。 https://github.com/ruby/irb/pull/1022
