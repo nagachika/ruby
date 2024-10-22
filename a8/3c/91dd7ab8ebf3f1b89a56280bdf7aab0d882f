@@ -1,0 +1,1 @@
+e7cb70be4eb7411204f73ee748e317fefaa0410a での String#rindex の最適化時にバッファのアクセスの off-by-one の不具合があったようで独自の memchr() 実装を利用する環境で異常終了することがあったのを修正しています。 [ruby-core:119514] [Bug #20796]
