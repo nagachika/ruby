@@ -1,0 +1,1 @@
+bundler のテストの gem の source の git リポジトリに github.com に依存していたところをローカルのファイルに変更しています。
