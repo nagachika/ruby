@@ -1,0 +1,1 @@
+Linux での Thread の実装で pthread 用の stack を事前に alloca() で確保するようにしていた reserve_stack() という関数を削除して事前確保をやめています。元々 Linux Kernel の不具合の回避のためにやっていたことで、それがずいぶん前に修正されたのでそろそろ不要になったということみたいです。 [ruby-core:119556] [Bug #20804]
