@@ -1,0 +1,1 @@
+rubygems および bundler の古い TruffleRuby の対応のための分岐を削除しています。
