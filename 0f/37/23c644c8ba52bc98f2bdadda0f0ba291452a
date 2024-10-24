@@ -1,0 +1,1 @@
+Numeric#dup と Numeric#+@ メソッドを ruby 実装するようにしています。これにより b41c65b57735ce0d556b6fdad0ce490e939b1c7a での YJIT での Numeric#dup のインライン化の最適化は不要になったので削除されています。 https://github.com/ruby/ruby/pull/11933
