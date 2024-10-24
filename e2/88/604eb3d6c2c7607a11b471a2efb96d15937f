@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で端末からの読み込んだ文字列の Encoding の想定に Encoding.default_external ではなく使っている IO の encoding を参照するようにしています。 https://github.com/ruby/reline/pull/765
