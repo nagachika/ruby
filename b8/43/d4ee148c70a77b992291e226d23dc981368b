@@ -1,0 +1,1 @@
+bundler のダミーの? bundler 自身の Specification で executables に bundler を追加していたのを削っています。
