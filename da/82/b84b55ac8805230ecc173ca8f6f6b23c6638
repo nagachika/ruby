@@ -1,0 +1,1 @@
+Array#inspect の rdoc 用コメントの call-seq に現在 alias になってる #to_s も追加しています。 https://github.com/ruby/ruby/pull/11935
