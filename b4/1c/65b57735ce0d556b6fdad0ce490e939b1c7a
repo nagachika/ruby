@@ -1,0 +1,1 @@
+YJIT で Numeric#dup と Kernel#dup メソッドをインライン化する最適化を追加しています。
