@@ -1,0 +1,1 @@
+rubyspec の ObjectSpace.memsize_of のテストで利用した Symbol がたまたま他でも使われて失敗するのを避けるため衝突しないように長い Symbol を使うようにしています。 [ruby-core:119549] [Bug #20803]
