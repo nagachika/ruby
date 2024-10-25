@@ -1,0 +1,1 @@
+rubygems で Array#map + #compact を使っていたのを #filter_map を利用するようにリファクタリングしています。
