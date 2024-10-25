@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_stat() での不正なキーでの例外発生を gc.c の rb_gc_stat() に引き上げています。
