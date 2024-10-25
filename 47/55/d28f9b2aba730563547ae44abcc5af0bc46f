@@ -1,0 +1,1 @@
+拡張ライブラリ zlib で rb_ensure() によるコールバックのネストが多段になっていたのをひとつ解消して zstream_run_synchronized() という関数を削除して(zstream_run_try() に融合させて)います。
