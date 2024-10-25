@@ -1,0 +1,1 @@
+YJIT の Rust 実装の PendingBranch::set_target に must_use attribute を追加しています。
