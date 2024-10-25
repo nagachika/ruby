@@ -1,0 +1,1 @@
+configure で macOS の時に HomeBrew による gcc 利用時に -pipe オプションがうまく動かないので使わないようにしています。
