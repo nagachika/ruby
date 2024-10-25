@@ -1,0 +1,1 @@
+gc/default.c の gc_info_decode() からキーが不正だった時の例外発生を gc.c の rb_gc_latest_gc_info() に引き上げています。
