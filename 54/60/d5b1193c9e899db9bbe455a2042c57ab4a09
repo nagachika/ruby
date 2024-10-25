@@ -1,0 +1,1 @@
+gc/default.c の rb_gc_impl_stat_heap() からエラー時の例外発生を本体側の gc.c の gc_stat_heap() に引き上げています。
