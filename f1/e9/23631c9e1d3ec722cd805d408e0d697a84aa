@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のおそらく 78378cae66f0ed354d966c6a13359b0e0861f27f の修正に対応したテストの追加。 https://github.com/ruby/reline/pull/773
