@@ -1,0 +1,1 @@
+GC の実装を共有ライブラリ化した時に RUBY_DEBUG を有効にしてビルドした時のビルドエラー修正のため rb_ractor_setup_belonging() を export するようにしています。
