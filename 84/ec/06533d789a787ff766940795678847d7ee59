@@ -1,0 +1,1 @@
+common.mk の shared-gc ターゲットでコンパイラオプションの参照を $cflags から $CFLAGS に変更し $CPPFLAGS も追加しています。
