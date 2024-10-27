@@ -1,0 +1,1 @@
+拡張ライブラリ json で rubygems の不具合で default gems の拡張ライブラリのロードの不具合を検出するために JSON::Generator::State#initialize に警告出力をさせるコードを埋め込んでいます。うーん、そうだとするとこれって upstream の時だけ入れたいんじゃないのかな? https://github.com/ruby/json/issues/647 https://github.com/rubygems/rubygems/pull/6490
