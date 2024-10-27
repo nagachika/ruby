@@ -1,0 +1,1 @@
+拡張ライブラリ json の Ractor 対応についてのテストで assert_separately を利用していたのを直接 Kernel#fork で子プロセスを作るようにしています。子プロセスでの require "json" を避けようとしているみただけどちょっとよくわからず。
