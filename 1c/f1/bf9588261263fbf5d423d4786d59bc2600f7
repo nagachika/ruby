@@ -1,0 +1,1 @@
+拡張ライブラリ json の gemspec ファイルの spec.files に lib/json/ext/generator/state.rb を追加しています。
