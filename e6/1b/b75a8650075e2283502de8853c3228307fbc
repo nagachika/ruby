@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の最適化らしいのですが JRuby 向けの最適化みたいで ruby 本体に同期されたのはテストだけです。 https://github.com/ruby/strscan/pull/110
