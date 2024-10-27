@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで Array#permutation が定義されていない古い ruby のための分岐を削除しています。
