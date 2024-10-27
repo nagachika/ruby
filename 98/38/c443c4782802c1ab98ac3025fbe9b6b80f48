@@ -1,0 +1,1 @@
+RJIT が有効でない時に Init_builtin_rjit() と Init_builtin_rjit_c() という関数のダミー定義をして inits.c で preprocessor 分岐を不要にしています。
