@@ -1,0 +1,1 @@
+拡張ライブラリ json の数値の parse 時の不要なメソッドチェックを削る最適化。なのですが最後の hunk では opts への代入の削り漏れがありそう。 https://github.com/ruby/json/pull/512
