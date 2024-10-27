@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の extconf.rb で mkmf.rb の dummy_makefile を利用していたのを独自のテンプレートを使うようにしています。mkmf.rb が JRuby でうまくいかなかったためみたいです。 https://github.com/ruby/fiddle/issues/153 https://github.com/ruby/fiddle/pull/155
