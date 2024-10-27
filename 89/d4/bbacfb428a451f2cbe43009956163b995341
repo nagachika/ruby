@@ -1,0 +1,1 @@
+拡張ライブラリ json のバージョンを 2.7.3.rc1 に更新しています。また JSON::VERSION_ARRAY や VERSION_{MAJOR,MINOR,BUILD} といった定数は削除しています。
