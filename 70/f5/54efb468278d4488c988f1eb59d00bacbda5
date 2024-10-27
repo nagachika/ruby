@@ -1,0 +1,1 @@
+拡張ライブラリ json の 7dfc1f3d66d6041631da4a94767dfa33ff290945 で切り出して 9045258c8891b3a71d1adb9045c2a106fbcc53ee でメッセージの切り詰めをした raise_parse_error() 関数でブロック内で宣言した自動変数の配列へのポインタをそのブロックから出た後で使ってしまっていた不具合を修正しています。 https://github.com/ruby/json/pull/625
