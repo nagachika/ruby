@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::Ext::Parser.new の引数に明示的に keyword splat を使うようにしています。 https://github.com/ruby/json/issues/650 https://github.com/ruby/json/issues/651
