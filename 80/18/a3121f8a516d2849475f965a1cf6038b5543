@@ -1,0 +1,1 @@
+拡張ライブラリ json の初期化関数 Init_generator() で rb_require() で JSON::Generator::State をロードするようにしています。 json と json_pure の競合のための workaround みたいですが、$LOAD_PATH に依存するだろうし意味あるのかな。 https://github.com/ruby/json/issues/646
