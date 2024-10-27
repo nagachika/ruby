@@ -1,0 +1,1 @@
+bundler のオプション --normalize-platforms を追加して Gemfile.lock に記述する platform の名前の正規化を指示できるようにしています。
