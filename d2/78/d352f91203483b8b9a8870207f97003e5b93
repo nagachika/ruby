@@ -1,0 +1,1 @@
+parse.y で Lrama の inline rule 機能を使ってリテラル類のルールをまとめるリファクタリング。
