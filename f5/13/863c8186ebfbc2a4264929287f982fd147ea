@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で StringIO#ungetc で引数が Integer で指定されたものが Encoding の codepoint として不正なものだった時の例外発生のための関数呼び出しのあとに UNREACHABLE マクロを置いてコンパイラへのヒントにしています。
