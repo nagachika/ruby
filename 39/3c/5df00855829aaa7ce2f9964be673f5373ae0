@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で SafeStringValue() という $SAFE に関係するマクロで互換性のためだけに残されていたものを利用していたので StringValue() に変更しています。内容は同じ。
