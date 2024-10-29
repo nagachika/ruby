@@ -1,0 +1,1 @@
+Windows 用の win32/configure.bat や win32/Makefile.sub, win32/setup.mak などのビルドプロセス関係のファイルのリファクタリング。
