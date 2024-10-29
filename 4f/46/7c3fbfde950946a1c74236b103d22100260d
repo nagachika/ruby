@@ -1,0 +1,1 @@
+doc/windows.md にインストールするプログラム名(ruby.exe)を変更したい時の方法として configure.bat のオプション --program-prefix、--program-suffix、--install-name、--so-name などのオプション指定による方法を記述して Makefile を直接編集する方法は削除しています。
