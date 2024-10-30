@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight のテストで警告抑制のため一時的に Warning.warn を再定義するようにしています。
