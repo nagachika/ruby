@@ -1,0 +1,1 @@
+bafcbfe363ef05fe570c96abce316e2f2c7f3589 の make test-bundled-gems の準備でインストールする gem に simplecov-json を追加したのを revert しています。拡張ライブラリに依存していてうまくいかなかったようです。
