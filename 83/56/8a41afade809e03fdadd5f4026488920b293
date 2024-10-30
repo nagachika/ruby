@@ -1,0 +1,1 @@
+common.mk で make test-bundled-gems-prepare で net-imap の 0.5.0 で依存が追加された simplecov をインストールする gem に追加しています。
