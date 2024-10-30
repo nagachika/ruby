@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb の個別の gem 向けの処理の一部を汎用化しています。
