@@ -1,0 +1,1 @@
+本体のテストに使う test/unit 自体のテストでタイムアウトの挙動のテストのため sleep する時間に EnvUtil.apply_timeout_scale を使って環境変数 RUBY_TEST_TIMEOUT_SCALE によるスケーリングに対応するようにしています。
