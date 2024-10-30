@@ -1,0 +1,1 @@
+58797b7f74737b8896583c9bfa6546ef6756681a で拡張ライブラリ json の ext/json/extconf.rb を同期しないようにしてたのを revert しています。
