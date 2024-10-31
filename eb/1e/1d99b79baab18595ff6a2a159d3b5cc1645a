@@ -1,0 +1,1 @@
+vm_method.c の VM_ASSERT() で VALUE 値のオブジェクトの型をチェックするのに BUILTIN_TYPE() のかわりに RB_TYPE_P() を利用するようにして、エラー時のメッセージに rb_obj_info() によるダンプ結果を埋め込むようにしています。
