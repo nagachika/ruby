@@ -1,0 +1,1 @@
+さらに 21b3dfa03bf613aad303b889dd63ef64bb2ada9b の拡張ライブラリ error_highlight の警告抑制のための処理で Module#class_eval を利用するようにリファクタリングしています。
