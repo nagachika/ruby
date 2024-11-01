@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する GitHub Actions 用の workflow の設定ファイルテンプレートのインデントの修正。
