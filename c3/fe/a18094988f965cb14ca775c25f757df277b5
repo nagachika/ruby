@@ -1,0 +1,1 @@
+bundler の bundle gem で Rust 製拡張ライブラリを含む時の rb-sys.gem への依存関係を Gemfile に追加していたのを gemspec ファイルの spec.dependency に追加するようにしています。
