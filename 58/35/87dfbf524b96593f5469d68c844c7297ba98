@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の 21b3dfa03bf613aad303b889dd63ef64bb2ada9b 以降の警告抑制のための Warning#warn 再定義の仕組みで元のメソッドを取り出すのに Module#instance_method を使うように修正しています。
