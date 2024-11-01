@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Config#to_s の rdoc 用コメントの typo 修正。
