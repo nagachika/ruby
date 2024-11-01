@@ -1,0 +1,1 @@
+rubygems の gem update --system で標準添付されている bundler を消してしまわないようにする対応のようです。
