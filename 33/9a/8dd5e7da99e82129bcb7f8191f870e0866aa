@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の static 変数 ossl_ssl_ex_vcb_idx を削除して OpenSSL の SSL_get_ex_data() という関数を使う機構でオブジェクトを保持するのではなくて OpenSSL::SSL::SSLContext のインスタンス変数に格納されているのを参照するようにしています。どうもインスタンス変数への格納はもとからしていたみたいです。
