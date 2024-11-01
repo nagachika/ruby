@@ -1,0 +1,1 @@
+non-blocking Fiber で利用する Scheduler のインターフェースに blocking_region というメソッドを追加して rb_nogvl() で GVL を解放する時にその処理を Proc オブジェクト化したものを引数に渡してこのフックを呼ぶようにしています。なるほどこれでほとんどすべての block する処理を汎用的に Scheduler で処理できるようになるわけですかね? https://github.com/ruby/ruby/pull/11963 [ruby-core:119646] [Feature #20855]
