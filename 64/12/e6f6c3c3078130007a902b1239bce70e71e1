@@ -1,0 +1,1 @@
+拡張ライブラリ json でデコード時に文字列の Encoding 変換をするのに rb_str_conv_enc() を直接呼んでいたのを rb_funcall() で String#encode メソッドを呼び出すように変更しています。
