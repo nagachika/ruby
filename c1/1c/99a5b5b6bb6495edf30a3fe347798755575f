@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションによるビルドなどを試す compilers workflow でドキュメントのみの変更の時に skip するための if を使いまわすためのリファクタリング。
