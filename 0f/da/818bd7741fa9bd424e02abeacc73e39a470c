@@ -1,0 +1,1 @@
+拡張ライブラリを含む default gems の make install 時の処理の修正をしているようです。 bundled gems のテストから json への依存関係がある時にうまく処理できなかった模様。
