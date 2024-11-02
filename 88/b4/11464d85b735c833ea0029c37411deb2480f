@@ -1,0 +1,1 @@
+eb19156a288b585c58f3161a86d5b10f8f9704b6 で追加した json のテストが JRuby で通らないようなので JRuby ではテストメソッド定義をスキップするようにしています。 https://github.com/ruby/json/issues/138
