@@ -1,0 +1,1 @@
+拡張ライブラリ json のエンコード時のバッファの初期状態でのバッファをスタック上に取り、大きなサイズが必要になってからヒープに置くように最適化しています。 https://github.com/ruby/json/issues/655 https://github.com/ruby/json/issues/657
