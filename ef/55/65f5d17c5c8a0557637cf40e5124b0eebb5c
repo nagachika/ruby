@@ -1,0 +1,1 @@
+拡張ライブラリ json でエンコード時に String を継承したクラスのインスタンスについて to_json メソッドを呼び出すようにしてサブクラスでのカスタマイズ可能にしています。 https://github.com/ruby/json/issues/667
