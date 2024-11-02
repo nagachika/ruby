@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb のデバッグ用の puts が残っていたのを削除。
