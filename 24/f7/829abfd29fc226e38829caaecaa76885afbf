@@ -1,0 +1,1 @@
+blocking_region_begin() 内の preprocessor 分岐が参照しているマクロ RUBY_VM_CRITICAL_SECTION は既に(?)定義されていなかったので RUBY_ASSERT_CRITICAL_SECTION に修正しています。
