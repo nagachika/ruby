@@ -1,0 +1,1 @@
+Proc#hash のテストで GC.compact を利用するテストは GC.compact が未実装の環境では skip するようにしています。
