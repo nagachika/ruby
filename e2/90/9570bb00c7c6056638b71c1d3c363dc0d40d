@@ -1,0 +1,1 @@
+Windows 環境で rb_atomic_t 型として LONG を定義する時に winsock2.h および windows.h を #include するようにしています。
