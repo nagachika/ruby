@@ -1,0 +1,1 @@
+rubygems の WebAuthn 対応で WebAuthn と OTP による MFA の併用をする時の不具合? を修正しています。
