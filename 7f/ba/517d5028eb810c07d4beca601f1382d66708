@@ -1,0 +1,1 @@
+rubygems の RubyGems.org との通信時の OTP パラメーターの設定が冗長だったのを修正しています。
