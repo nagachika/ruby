@@ -1,0 +1,1 @@
+rubygems のテストで利用する例外を RuntimeError でなく SystemExit を継承させるようにしています。RuntimeError だと rescue されてしまうことがあるので。
