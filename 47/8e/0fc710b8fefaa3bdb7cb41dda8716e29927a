@@ -1,0 +1,1 @@
+Array#each を ruby 実装に変更していたのを C 実装にして、YJIT が有効な時だけ ruby 実装で再定義するようにしています。backtrace などの細かな非互換と YJIT 利用時の速度への影響を天秤にかけて両立を目指したということでしょうか。 https://github.com/ruby/ruby/pull/11955
