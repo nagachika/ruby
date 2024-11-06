@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で拡張ライブラリ json の同期時に benchmark/ ディレクトリの変更を取り込まないようにしています。
