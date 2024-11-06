@@ -1,0 +1,1 @@
+rb_bug() などでの異常終了時の出力に non-blocking Fiber 用の scheduler が設定されているか否かも出力するようにしています。
