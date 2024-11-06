@@ -1,0 +1,1 @@
+2d2d363012f6806fe6ad3fd699837a47ba599b10 の異常終了時の non-blocking Fiber 用 Scheduler 有無の判定を rb_fiber_scheduler_current() ではなく rb_fiber_scheduler_get() を利用するように修正しています。 rb_fiber_scheduler_current() は Fiber.blocking のブロック内などで一時的に nil を返すことがあるため。
