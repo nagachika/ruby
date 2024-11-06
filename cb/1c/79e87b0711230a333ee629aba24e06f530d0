@@ -1,0 +1,1 @@
+common.mk などの依存関係の再生成を行うための GitHub Actions の workflow で利用する os を ubuntu-20.04 固定から ubuntu-latest に更新しています。
