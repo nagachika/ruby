@@ -1,0 +1,1 @@
+87fb44dff6409a19d12052cf0fc07ba80a4c45ac の non-blocking Fiber 用の Scheduler のインターフェースに blocking_region というフックを追加した変更を revert しています。 https://github.com/ruby/ruby/pull/12013
