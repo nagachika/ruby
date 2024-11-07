@@ -1,0 +1,1 @@
+拡張ライブラリ json で rb_str_new_frozen() を利用するリファクタリング。
