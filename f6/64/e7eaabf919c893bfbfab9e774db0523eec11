@@ -1,0 +1,1 @@
+拡張ライブラリ json で文字列を継承した子クラスのインスタンスが渡された時のエンコードの挙動の修正。 https://github.com/ruby/json/pull/668 https://github.com/ruby/json/pull/674
