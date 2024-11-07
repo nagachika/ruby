@@ -1,0 +1,1 @@
+ブロックを呼ばないメソッドにブロックを渡した時の警告の出力の判定をより厳密にするモードを Warning[:strict_unused_block] = true で設定できるようにしています。 [ruby-core:91214] [Feature #15554]
