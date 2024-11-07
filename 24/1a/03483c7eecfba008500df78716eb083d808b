@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で拡張ライブラリ json の upstream からの同期時に ext/json/lib/json/truffle_ruby/ も削除するようにしています。
