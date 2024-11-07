@@ -1,0 +1,1 @@
+irb で pager コマンドを起動していた時の割り込みで子プロセスを停止させるために SIGTERM を送出するところで Windows 環境では SIGTERM が使えないので Errno::EINVAL が発生してしまうので rescue して SIGKILL で改めて停止させる(Windows でも SIGKILL はエミュレートされるので使える)ようにしています。 https://github.com/ruby/irb/pull/1026
