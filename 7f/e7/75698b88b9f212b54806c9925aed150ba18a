@@ -1,0 +1,1 @@
+bundler のテストで利用する jruby-jars という gem のバージョンを更新しています。
