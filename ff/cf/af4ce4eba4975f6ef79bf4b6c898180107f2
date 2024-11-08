@@ -1,0 +1,1 @@
+bundler で Gemfile の source の指定がないものを deprecated として警告を出すようにしていたのをやめているようです。
