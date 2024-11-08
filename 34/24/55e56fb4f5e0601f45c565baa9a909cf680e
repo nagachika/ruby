@@ -1,0 +1,1 @@
+標準添付ライブラリ logger のログレベルの切り替えのスコープを Logger#level_key を再定義することで Fiber 単位以外に変更することができるようにしています。 https://github.com/ruby/logger/pull/103
