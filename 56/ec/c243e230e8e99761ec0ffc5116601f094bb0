@@ -1,0 +1,1 @@
+Proc と同様に Method も GC.compact による移動によって hash メソッドの返り値が変化してしまうという不具合を修正しています。 [ruby-core:119738] [Bug #20868]
