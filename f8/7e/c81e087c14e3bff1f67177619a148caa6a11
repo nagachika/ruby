@@ -1,0 +1,1 @@
+Hash#inspect のテストで警告抑制のため一時的に $VERBOSE = nil を設定しています。
