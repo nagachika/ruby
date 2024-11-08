@@ -1,0 +1,1 @@
+拡張ライブラリ json で deprecated の警告に deprecated カテゴリを指定して警告出力するようにしています。
