@@ -1,0 +1,1 @@
+IO#reopen で引数に IO オブジェクトを渡して fd 共有した場合には {internal,external}_encoding の指定もコピーするようにしています。 [ruby-core:119537] [Bug #20802]
