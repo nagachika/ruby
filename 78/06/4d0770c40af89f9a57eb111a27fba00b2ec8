@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストで autoload による定数参照時の load で prism 利用時に SystemStackError が発生することがあるようで、無視させるようにしています。
