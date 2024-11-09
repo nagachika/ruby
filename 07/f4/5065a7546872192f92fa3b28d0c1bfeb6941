@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in で MinGW 向けのコンパイラオプション設定の修正。
