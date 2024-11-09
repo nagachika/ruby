@@ -1,0 +1,1 @@
+rubyspec の Kernel#sleep のテストを子プロセス? に分離して行なうようにしています。 https://github.com/ruby/spec/pull/1210
