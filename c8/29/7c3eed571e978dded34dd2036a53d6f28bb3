@@ -1,0 +1,1 @@
+C API に rb_threadptr_interrupt_exec() と rb_ractor_interrupt_exec() という関数を追加して、Thread や Ractor に対して割り込みを行なってコールバック関数で指定した処理を実行させることができるようにしています。いかにも取り扱い注意が必要そうな API ですね。
