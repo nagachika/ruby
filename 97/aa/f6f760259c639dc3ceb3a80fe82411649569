@@ -1,0 +1,1 @@
+rb_thread_check_ints() と同様に rb_execution_context_t を引数に受け取る rb_ec_check_ints() 関数を追加し、ec が得られるところではこちらを呼ぶことで GET_EC() を使わずにすませるようにしています。
