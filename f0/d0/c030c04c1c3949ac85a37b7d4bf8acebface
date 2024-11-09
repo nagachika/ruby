@@ -1,0 +1,1 @@
+Ractor.main? というメソッドを追加して現在実行中の Ractor が main Ractor かどうか取得できるようにしています。
