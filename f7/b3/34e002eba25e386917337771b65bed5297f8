@@ -1,0 +1,1 @@
+bundler の bundle lock サブコマンドに --add-checksums オプションを追加しています。lock ファイルに CHECKSUMS セクションの出力を指定するもののようです。
