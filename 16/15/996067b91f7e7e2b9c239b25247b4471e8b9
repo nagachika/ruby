@@ -1,0 +1,1 @@
+vm_sync.h で rb_vm_lock_enter_body()/rb_vm_lock_enter_body_cr()/rb_vm_lock_enter_body_nb() などの関数の宣言に NOINLINE() マクロを利用して inline 化を抑制させるようにしています。
