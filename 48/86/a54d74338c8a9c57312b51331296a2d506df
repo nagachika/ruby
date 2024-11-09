@@ -1,0 +1,1 @@
+RJIT 用の binding に c8297c3eed571e978dded34dd2036a53d6f28bb3 で追加した interrupt_exec_tasks の export を追加しています。
