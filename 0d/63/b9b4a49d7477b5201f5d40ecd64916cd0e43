@@ -1,0 +1,1 @@
+Ractor 間のオブジェクトの転送に使う Ractor.receive, Ractor.yield で送受信先が close されていないかのチェックを追加しています。
