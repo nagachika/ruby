@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で互換性のため URI::REGEXP などの定数のアクセスがあった時に警告を出しつつ URI::RFC2396_XXX の値を返すようにしています。 https://github.com/ruby/uri/issues/125
