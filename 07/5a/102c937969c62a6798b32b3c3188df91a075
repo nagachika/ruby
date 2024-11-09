@@ -1,0 +1,1 @@
+Ractor local storage にアクセスするための Ractor.[] および Ractor.[]= というクラスメソッド(特異メソッド)で現在の Ractor の値を設定/取得できるようにしています。別の Ractor の storage にはアクセスできないのでクラスメソッドのほうが自然ということで追加。 [ruby-core:119050] [Feature #20715]
