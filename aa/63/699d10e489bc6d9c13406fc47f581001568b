@@ -1,0 +1,1 @@
+multi Ractor モードで main Ractor 以外の Ractor から require した時の問題の解決のため require の処理を main Ractor に実施させるようにしています。なるほどこのために c8297c3eed571e978dded34dd2036a53d6f28bb3 で rb_ractor_interrupt_exec() を追加したんですね。 [ruby-core:118542] [Feature #20627]
