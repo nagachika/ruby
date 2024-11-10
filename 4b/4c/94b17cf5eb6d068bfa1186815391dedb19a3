@@ -1,0 +1,1 @@
+GitHub Actions の parse.y を parser に使うビルドのテストで ruby の実行時ではなくビルド時の configure に --with-praser=parse.y を渡してデフォルトを切り替えておくようにしています。
