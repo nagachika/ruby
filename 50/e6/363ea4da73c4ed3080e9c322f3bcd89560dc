@@ -1,0 +1,1 @@
+bundler による rubygems の Gem::Specification の再定義での location という accessor の定義を未使用のため削除しています。
