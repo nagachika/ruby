@@ -1,0 +1,1 @@
+bundler の Bundler::EndpointSpecification の source という accessor の定義を削除しています。
