@@ -1,0 +1,1 @@
+configure でコンパイラのサポートを調べて internal/bits.h に ADD_OVERFLOW_P()/ADD_OVERFLOW_SIGNED_INTEGER_P()/SUB_OVERFLOW_P()/SUB_OVERFLOW_FIXNUM_P() といった整数の加減算時のオーバーフローをチェックするマクロ定義を追加しています。
