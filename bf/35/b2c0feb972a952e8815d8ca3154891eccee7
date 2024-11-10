@@ -1,0 +1,1 @@
+bundler による Gem::Specification#source の再定義を Module の prepend を利用するようにしています。
