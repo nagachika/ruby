@@ -1,0 +1,1 @@
+bundler で lockfile に記載のない platform 固有の gem が使われている時? に警告を出力するようにしています。
