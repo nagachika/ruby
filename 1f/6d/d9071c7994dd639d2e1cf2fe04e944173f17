@@ -1,0 +1,1 @@
+Kernel#sprintf で ASCII-8BIT の Encoding の文字列の場合に coderange のスキャンを省略していたところが String#ascii_only? の判定を間違う原因になっていたようでチェックを行うように修正しています。 [ruby-core:119855] [Bug #20883]
