@@ -1,0 +1,1 @@
+303a52c201a693345cf789e9fb7edbcefcb34ec9 の続きで tool/rbinstall.rb と tool/mkrunnable.rb で実行ファイルの配置場所を libexec ディレクトリから /usr/bin/ などの bin ディレクトリ配下に変更しているようです。 [ruby-core:119534] [Bug #20800]
