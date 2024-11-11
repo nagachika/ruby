@@ -1,0 +1,1 @@
+configure に --enable-multiarch オプションをつけた時? に make install で ruby 実行ファイルが /usr/libexec/$(arch)/bin/ の配下にインストールされるのを /usr/libexec/$(arch)/ 直下にインストールするように修正しています。 [ruby-core:119534] [Bug #20800]
