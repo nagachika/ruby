@@ -1,0 +1,1 @@
+303a52c201a693345cf789e9fb7edbcefcb34ec9 と 379bbd6d9c1269809aea4566da0727eaf3f77c32 のさらに続きで tool/rbinstall.rb でインストール先を決めるのに RbConfig::CONFIG["target"] を prefix として使っていたのを config.sub による置換を考慮した "config_target" という項目を追加してこれを利用するように再修正しています。 [ruby-core:119534] [Bug #20800]
