@@ -1,0 +1,1 @@
+拡張ライブラリ json の関数名 JSON_parse_float() を JSON_parse_number() に改名。
