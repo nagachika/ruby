@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in で MUNICODE_FLAG という変数への代入に "=" でなく ":=" を使っています。これどう違うんだろう。
