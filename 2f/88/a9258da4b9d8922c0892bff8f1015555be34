@@ -1,0 +1,1 @@
+unsigned int の Integer の VALUE 値への変換や Windows 環境での select() の fd の最大値を得る関数で RBIMPL_CAST() を用いた明示的キャストを追加しています。IL32 環境でのオーバーフローの可能性を考慮。
