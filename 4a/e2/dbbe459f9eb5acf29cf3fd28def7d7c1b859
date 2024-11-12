@@ -1,0 +1,1 @@
+0867ca3407dfc4d0a35a74eb95c0d8ebc7cb655e で追加した GitHub Actions の cygwin 版 workflow でインストールするパッケージに libyaml-devel を追加し、openssl-devel は libssl-devel に変更しています。
