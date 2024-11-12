@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle::Function.new に関数名として Symbol も受付けるようにしています。 https://github.com/ruby/fiddle/issues/159
