@@ -1,0 +1,1 @@
+include/ruby/internal/has/builtin.h に整数のオーバーフローのチェック用マクロの利用可能について判定するマクロ RBIMPL_HAS_BUILTIN___builtin_sub_overflow_p の定義を追加しています。
