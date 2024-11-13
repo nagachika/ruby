@@ -1,0 +1,1 @@
+bundler の bundle config に lockfile_checksums という設定を追加して Gemfile.lock の CHECKSUMS セクションを出力するかどうかを設定ファイルで保持できるようにしています。
