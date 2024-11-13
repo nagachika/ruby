@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TCPSocket.new に接続の高速化のため Happy Eyeballs Version 2 の実装を追加しています。 https://github.com/ruby/ruby/pull/11653 [ruby-core:119442] [Feature #20782]
