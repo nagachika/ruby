@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテストで TCPSocket.new の発生する例外として期待する例外クラスに Net::OpenTimeout も追加しています。Happy Eyeballs V2 の実装により環境によっては発生する例外が変化する場合があったようです。
