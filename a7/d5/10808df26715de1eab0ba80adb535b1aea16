@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md のドキュメントに configure のオプション --with-opt-dir の使いかたと環境変数 CONFIGURE_ARGS で configure に渡すオプション指定する手法について追記しています。
