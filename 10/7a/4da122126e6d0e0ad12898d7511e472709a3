@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で Data#pretty_print の実装で attribute が private に変更されている場合を考慮するようにしています。 [ruby-core:119575] [Bug #20808]
