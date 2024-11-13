@@ -1,0 +1,1 @@
+GitHub Actions の依存関係の自動更新用の workflow でドキュメントの変更時に skip する設定を削除しています。が一緒に bf741c6fac4613c597a2dffe8a3856a950a154bd の pp の gemspec ファイルの変更が revert されてしまっています。
