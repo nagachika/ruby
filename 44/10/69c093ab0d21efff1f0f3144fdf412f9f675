@@ -1,0 +1,1 @@
+require 時に default gems や bundled gems の警告を出力するための lib/bundled_gems.rb で fiddle について警告を抑制する特別扱いをしていたのを revert しています。
