@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で Module/Class に Module#set_temporary_name でつけられた名前を出力する時にエスケープが漏れてて出力結果の JSON が不正なエンコード状態になる可能性があった不具合を修正しています。 [ruby-core:119903] [Bug #20892]
