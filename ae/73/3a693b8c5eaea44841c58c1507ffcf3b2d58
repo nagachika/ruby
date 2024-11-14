@@ -1,0 +1,1 @@
+bundler で openssl が require できなかった時のエラーメッセージに元の LoadError の例外メッセージも含めるようにしています。
