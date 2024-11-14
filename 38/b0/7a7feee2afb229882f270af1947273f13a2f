@@ -1,0 +1,1 @@
+prelude.rb で Binding#irb で自動的に require "irb" するために Gemfile に記述されていない default gems を require するための force_activate というメソッドを使っていたのを削除しています。
