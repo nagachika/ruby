@@ -1,0 +1,1 @@
+7d5fdd97cce8c6ac321ee0f5e63e969656247af8 の続きで標準添付ライブラリ uri の gemspec ファイルの spec.files から除外する対象の rakelib/ の配下を追加しています。
