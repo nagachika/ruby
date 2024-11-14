@@ -1,0 +1,1 @@
+Symbol#name の実装を ruby 実装に移動しています。引数はないので YJIT での inline 化のためかな?
