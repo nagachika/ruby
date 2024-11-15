@@ -1,0 +1,1 @@
+ruby -v で表示する RUBY_DESCRIPTION に GC の実装のすりかえ時にその名前も含めるようにしています。 RUBY_DESCRIPTION がどんどん複雑化していきますね。 [ruby-core:119506] [Feature #20794]
