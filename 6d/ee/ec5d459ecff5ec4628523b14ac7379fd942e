@@ -1,0 +1,1 @@
+Symbol#to_s で返す文字列を文字列リテラル同様に chilled string にして破壊的変更で警告を出すようにしています。 struct RBasic::flags のビットフラグの利用を変更していてずいぶん手がこんでますね。ここまでしてやりたい変更かなぁという気もしますが。 https://github.com/ruby/ruby/pull/12065 [ruby-core:117240] [Feature #20350]
