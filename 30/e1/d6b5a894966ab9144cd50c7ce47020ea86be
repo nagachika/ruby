@@ -1,0 +1,1 @@
+YJIT の --yjit-stats の統計情報に inline_block_count というカウンタを追加しています。直近の iterator 系メソッドの ruby 実装化の効果測定のためでしょうか。 https://github.com/ruby/ruby/pull/12081
