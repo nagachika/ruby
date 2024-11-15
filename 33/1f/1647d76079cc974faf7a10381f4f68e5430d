@@ -1,0 +1,1 @@
+bundler のテストで URI のデフォルトの parser を URI::RFC2396_PARSER に変更していたのが不要になったみたいでやめています。
