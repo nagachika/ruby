@@ -1,0 +1,1 @@
+fa10441981c89deec914ba243360b40c5aede6ed で導入した GC の実装に要求する rb_gc_impl_active_gc_name() が返す文字列が RB_GC_MAX_NAME_LEN (20文字)を超えてたら警告を出して切り詰めていたのを rb_bug() で異常終了させるようにしています。
