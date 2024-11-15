@@ -1,0 +1,1 @@
+rubygems で Gem::URI::DEFAULT_PARSER.escape を利用していたところを obsoleted になったとのことで Gem::URI::RFC2396_PARSER.escape に変更しています。
