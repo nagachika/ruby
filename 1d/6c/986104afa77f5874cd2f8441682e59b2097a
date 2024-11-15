@@ -1,0 +1,1 @@
+標準添付ライブラリ uri に互換性のため URI::REGEXP::PATTERN の配下の定数を URI::RFC2396_REGEXP からコピーするようにしています。
