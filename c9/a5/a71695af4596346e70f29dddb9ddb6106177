@@ -1,0 +1,1 @@
+d57d85548f92143054d90af11b00a25e0239bce0 と同様に Array#select も YJIT が有効な時だけ ruby 実装に移動しています。
