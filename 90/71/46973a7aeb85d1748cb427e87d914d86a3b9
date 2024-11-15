@@ -1,0 +1,1 @@
+d57d85548f92143054d90af11b00a25e0239bce0 の Integer#downto の ruby 実装に Enumerator を返すケースについてのコメントを追加しています。
