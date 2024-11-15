@@ -1,0 +1,1 @@
+GC.config に Hash を引数に与えて設定する時に :implementation の項目があたら上書きはできないので ArgumentError を発生させるようにしています。 すると old_config = GC.config でバックアップして GC.config = old_config で復旧というのはできないわけですね。
