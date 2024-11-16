@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TTCPSocket.new の Happy Eyeballs V2 のためのオプション :fast_fallback のデフォルト値を false に変更してデフォルトでは無効にしています。 https://github.com/ruby/ruby/pull/12070
