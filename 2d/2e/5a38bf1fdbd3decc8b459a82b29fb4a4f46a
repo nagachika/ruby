@@ -1,0 +1,1 @@
+b44272fcb456bb723d3dfa3b3736a05a2cbf30b2 と 1063b5a140370a6c43b0ae19e5abc72d74b68b75 のさらに続きで lib/bundled_gems.rb のテストをさらに bundler のテストに移植しています。
