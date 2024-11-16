@@ -1,0 +1,1 @@
+bundled gems の require の警告のための lib/bundled_gems.rb で拡張ライブラリ fiddle をサブディレクトリのファイルを直接 require することがある gem の対象リストに追加しています。
