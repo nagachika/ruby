@@ -1,0 +1,1 @@
+b44272fcb456bb723d3dfa3b3736a05a2cbf30b2 で RbConfig::CONFIG["rubylibdir"] のディレクトリがない時の対応は lib/bundled_gems.rb のテスト時の問題だったようで、bundler に移植したテストで環境変数を設定することで通知するので分岐条件をこの環境変数のチェックに変更しています。
