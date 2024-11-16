@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の SyntaxSuggest::StringIO というクラスの実装で puts メソッドで改行が追加されてなかった不具合を修正しています。
