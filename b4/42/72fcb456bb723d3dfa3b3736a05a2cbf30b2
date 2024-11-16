@@ -1,0 +1,1 @@
+require 時の default gems や bundled gems の警告のための lib/bundled_gems.rb で RbConfig::CONFIG["rubylibdir"] のディレクトリがない時の対応の追加と、このファイルのテストの一部を bundler のテストに移植しています。
