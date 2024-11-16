@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TCPSocket.new の Happy Eyeballs V2 の対応で IPv6 のアドレスへの接続が ECONNREFUSED になった時にすぐに IPv4 に fallback せず遅延が入ってしまう挙動を修正しています。 https://github.com/ruby/ruby/pull/12087
