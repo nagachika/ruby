@@ -1,0 +1,1 @@
+YJIT で Integer#pred の実装を直接実行コードを生成する最適化。 https://github.com/ruby/ruby/pull/12082
