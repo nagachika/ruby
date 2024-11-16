@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Terminfo モジュールを削除して fiddle への依存を消しています。termios がもう不要な時代か……。 https://github.com/ruby/reline/pull/769
