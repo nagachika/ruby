@@ -1,0 +1,1 @@
+YJIT で String#dup に対して直接実行コードを生成する最適化。 https://github.com/ruby/ruby/pull/12090
