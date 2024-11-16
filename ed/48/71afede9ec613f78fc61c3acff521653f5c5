@@ -1,0 +1,1 @@
+tool/fake.rb に RbConfig の "rubyarchdir" と "rubylibdir" の置換も追加しています。
