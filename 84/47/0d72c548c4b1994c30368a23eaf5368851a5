@@ -1,0 +1,1 @@
+51666c827b5aa9289113699670cbd6910ea2b3b1 で拡張ライブラリ socket の TCPSocket.new の Happy Eyeballs V2 のオプションをデフォルトで無効にしたので対応するテストを一時的に skip しています。 https://github.com/ruby/ruby/pull/12097
