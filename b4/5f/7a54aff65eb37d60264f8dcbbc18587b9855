@@ -1,0 +1,1 @@
+lib/bundled_gems.rb でテスト時の ARCHDIR の設定を $LOAD_PATH から .ext/common/ を持つものを探索するように修正しています。
