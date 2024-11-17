@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の 226cfda3069c76c094d294a68585b5772fcc730a で切り出した lib/syntax_suggest/mini_stringio.rb に SyntaxSuggest::MiniStringIO クラスの存在理由をコメントに追記しています。
