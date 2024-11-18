@@ -1,0 +1,1 @@
+bc409f3fe3fab2e540f8630aced0655be68dfac3 の再修正。 win32/mkexports.rb でシンボル _ucrt_int_to_float を無視させるための条件で prefix に "_" を追加した名前でチェックしていたのを削っています。この処理の前で削っているため。
