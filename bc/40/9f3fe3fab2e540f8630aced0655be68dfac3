@@ -1,0 +1,1 @@
+win32/mkexports.rb で最近の VC で __ucrt_int_to_float というシンボルが追加されたので __ucrt という prefix も無視する対象に追加しています。
