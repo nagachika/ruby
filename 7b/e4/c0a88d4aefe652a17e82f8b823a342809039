@@ -1,0 +1,1 @@
+63ae1e3cb5d302e5229143c00152328166d26780 で win32/mkexports.rb で flip-flop 文法を使ってたのをやめてたのを revert しています。当時のコメントには flip-flop が deprecated になったのでってあるけどそういえばその後 deprecated にするのをやめたんでしたっけ?
