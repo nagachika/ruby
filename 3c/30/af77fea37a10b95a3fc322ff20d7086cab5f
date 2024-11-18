@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 の実装で構造体 struct fast_fallback_inetsock_arg のメンバー cancelled を削除してそのメンバーへのポインタを引き回して使っていたのをやめています。関数から抜けた後にそのポインタを参照してしまって無効なスタックを使ってしまう不具合が ASAN でみつかったみたいです。 https://github.com/ruby/ruby/pull/12105
