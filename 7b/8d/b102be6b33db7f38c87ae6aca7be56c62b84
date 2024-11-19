@@ -1,0 +1,1 @@
+win32/ifchange.bat で古い Windows 向けの command.com での実行をサポートするための部分を削っています。
