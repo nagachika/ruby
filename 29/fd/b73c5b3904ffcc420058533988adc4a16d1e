@@ -1,0 +1,1 @@
+拡張ライブラリ digest の rb_digest_make_metadata() という inline 関数内で digest.so 内の rb_digest_wrap_metadata() シンボルを探して呼び出す実装を、拡張ライブラリの静的リンク時に無効化するようにしています。これも WASM/WASI 環境向けの修正のようです。
