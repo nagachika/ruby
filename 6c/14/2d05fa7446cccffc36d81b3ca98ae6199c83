@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile で fd を指定して File.new してファイルパスを持たない File を作れるかを実際に実行して試すために IO::NULL を利用していたのをやめて単に RUBY_VERSION でチェックするようにしています。 WASM/WASI 環境で IO::NULL のデバイスファイルがないのでそれでも動くようにするため。 https://github.com/ruby/tempfile/pull/36
