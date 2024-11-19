@@ -1,0 +1,1 @@
+Windows 環境向けのワイド文字バージョンの main() 関数の wmain() 関数を export している時は main() 関数は export しないようにしています。
