@@ -1,0 +1,1 @@
+GC の実装の GC の実装名を返す関数 rb_gc_impl_active_gc_name() が返した文字列が長すぎた時の rb_bug() のフォーマット指示子を修正。
