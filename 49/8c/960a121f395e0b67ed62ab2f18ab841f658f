@@ -1,0 +1,1 @@
+bundler のテストのために tool/bundler/test_gems.rb で zeitwerk への依存を明示していたのを消して make test-bundler-prepare で gem install するようにしています。
