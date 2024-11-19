@@ -1,0 +1,1 @@
+bundler のテストで zeitwerk 利用時の require での default gems/bundled gems の警告のテストでロードするファイルパスの探索を変更しています。 498c960a121f395e0b67ed62ab2f18ab841f658f で gem install したことに対する追随?
