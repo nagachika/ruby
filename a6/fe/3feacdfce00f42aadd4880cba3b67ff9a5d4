@@ -1,0 +1,1 @@
+bc409f3fe3fab2e540f8630aced0655be68dfac3 および 6588cc4e29074d7b0d3d78725769d2efba1c25ee のさらに続きで win32/mkexports.rb で _ucrt_ ではじまるシンボルを無視するかわりにコンパイラオプションに -Zc:inline を追加するようにしています。
