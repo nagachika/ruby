@@ -1,0 +1,1 @@
+b23c5063e8ccfe67d0bd64a87b18b00675b0577d の標準添付ライブラリ net/http の Net::HTTPSession 定数の復活が Net::HTTP の下にネストしていたのを修正しています。
