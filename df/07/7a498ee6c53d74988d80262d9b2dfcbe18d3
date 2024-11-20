@@ -1,0 +1,1 @@
+bundler のテストに移植した lib/bundled_gems.rb のテストファイルを spec/budler の配下から spec/ 直下に移動しています。
