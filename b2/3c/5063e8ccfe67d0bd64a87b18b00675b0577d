@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http に互換性のための定数 Net::HTTPSession (Net::HTTP の別名)を復活させています。
