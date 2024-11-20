@@ -1,0 +1,1 @@
+make test-bundled-gems のために gem install する gem のリストに rspec を追加しています。
