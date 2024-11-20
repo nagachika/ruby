@@ -1,0 +1,1 @@
+29fdb73c5b3904ffcc420058533988adc4a16d1e の拡張ライブラリ digest の静的リンク時の対応で preprocess 分岐のマクロ EXTSTATIC の参照前に defined? でチェックするようにしています。
