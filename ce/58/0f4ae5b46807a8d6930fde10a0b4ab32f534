@@ -1,0 +1,1 @@
+make test-bundled-gems の依存関係を分割して lib/bundled_gems.rb のテスト単独の target を追加しています。
