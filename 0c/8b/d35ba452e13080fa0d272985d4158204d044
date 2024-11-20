@@ -1,0 +1,1 @@
+make test-bundled-gems のテストのための gem install のリストに zeitwerk を追加しています。
