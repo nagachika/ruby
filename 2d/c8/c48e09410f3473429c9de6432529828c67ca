@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストのために test-bundled-test の前処理で gem install するリストにさらに sinatra、rack、tilt、mustermann、base64、compact_index、rack-test などを追加しています。
