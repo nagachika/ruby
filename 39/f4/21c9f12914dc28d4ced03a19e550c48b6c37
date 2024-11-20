@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の gemspec ファイルの spec.files リストの漏れを修正。 https://github.com/ruby/rdoc/pull/1211
