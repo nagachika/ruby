@@ -1,0 +1,1 @@
+deprecated カテゴリの警告を出力してきた Refinement#refined_class メソッドを削除しています。 [ruby-core:119960] [Feature #20901]
