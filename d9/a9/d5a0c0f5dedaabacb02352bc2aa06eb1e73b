@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストで環境変数の設定をトップレベル(正確にはトップレベルの RSpec.describe ブロック内)で実行していたのを before(:suite) のブロック内で実行するようにしています。
