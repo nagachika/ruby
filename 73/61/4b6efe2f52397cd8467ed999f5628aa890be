@@ -1,0 +1,1 @@
+ce580f4ae5b46807a8d6930fde10a0b4ab32f534 で分離した lib/bundled_gems.rb のテストのターゲットに $(PREPARE_BUNDLED_GEMS) への依存関係を追加しています。
