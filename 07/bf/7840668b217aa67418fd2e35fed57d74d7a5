@@ -1,0 +1,1 @@
+lib/budled_gems.rb のテスト用のターゲット make bundled_gems_spec-run の依存関係を install-for-test-bundled-gems に変更しています。 $(PREPARE_BUNDLED_GEMS) は bundled gems のチェックアウトも含まれていてこれは不要なので。
