@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストで logger や zeitwerk を require するパスの探索を修正しています。
