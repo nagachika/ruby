@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で標準添付ライブラリの delegate に依存していたのをやめるようにしています。また irb の context (main) としてセットするオブジェクトの提供するメソッドの前提を置いていた(kind_of? や to_s, inspect, class などのメソッドが組み込みのものであるなど)ところをいくつか回避するようにしています。 https://github.com/ruby/irb/pull/1031
