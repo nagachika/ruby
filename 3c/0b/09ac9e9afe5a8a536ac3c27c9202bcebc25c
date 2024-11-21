@@ -1,0 +1,1 @@
+IO::Buffer#copy がバッファサイズが大きい時に処理時間がかかるので、IO_BUFFER_BLOCKING_SIZE (現在 1MiB)を超える場合は GVL を解放して blocking region で実行するようにしています。 https://github.com/ruby/ruby/pull/12021 [ruby-core:119972] [Feature #20902]
