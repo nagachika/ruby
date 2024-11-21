@@ -1,0 +1,1 @@
+bundler のテストで bundle binstub サブコマンド実行時のチェックの修正。
