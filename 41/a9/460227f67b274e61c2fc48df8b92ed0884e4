@@ -1,0 +1,1 @@
+string.c の flags のビットフラグ STR_PRECOMPUTED_HASH のコメントでの説明の typo 修正。
