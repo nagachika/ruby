@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で main のオブジェクトの組み込みメソッドを呼ぶために再定義を考慮して instance_method で UnboundMethod を取り出して bind_call で呼ぶ仕組みを IRB::Context の配下のメソッドに移動しています。 https://github.com/ruby/irb/pull/1034
