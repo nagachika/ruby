@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションなどを試す workflow のための .github/actions/compilers/entrypoint.sh で make install していたのをやめています。
