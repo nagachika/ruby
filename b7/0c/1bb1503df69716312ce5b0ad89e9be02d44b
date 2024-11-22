@@ -1,0 +1,1 @@
+rubygems の gem push サブコマンドに --attestation というオプションを追加しています。gem の署名に使うオプションのようです。
