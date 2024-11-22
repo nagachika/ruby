@@ -1,0 +1,1 @@
+bundler のテストでの support/build_metadata の require の位置を変更しています。
