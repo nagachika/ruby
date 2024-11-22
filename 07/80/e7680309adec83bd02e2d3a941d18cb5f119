@@ -1,0 +1,1 @@
+bundler の lib/bundled_gems.rb のテスト spec/bundled_gems_spec.rb から不要になった require_relative を削除しています。
