@@ -1,0 +1,1 @@
+拡張ライブラリ zlib が blocking region 内で rb_str_set_len() を呼んでいたのが問題ということで GVL の解放する区間を狭めて、バッファ用の文字列オブジェクトには rb_str_locktmp() で同時に変更するのを防ぐ機構を使うようにしています。 https://github.com/ruby/zlib/pull/88 [ruby-core:119724] [Bug #20863]
