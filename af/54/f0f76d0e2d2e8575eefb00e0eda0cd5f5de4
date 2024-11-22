@@ -1,0 +1,1 @@
+bundler のテストで gem install する時に --verbose オプションをつけていたのを --quiet に変更しています。
