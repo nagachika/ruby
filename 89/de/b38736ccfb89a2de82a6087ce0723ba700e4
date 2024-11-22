@@ -1,0 +1,1 @@
+T_BIGNUM の多倍長整数の除算の処理の途中で GVL を解放する rb_nogvl() の呼び出しでも 9c268302bfb4890d3757caa60981802a88bfbd89 で導入した RB_NOGVL_OFFLOAD_SAFE を指定するようにしています。  https://github.com/ruby/ruby/pull/12132
