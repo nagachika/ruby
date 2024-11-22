@@ -1,0 +1,1 @@
+YJIT の統計情報のカウンタ compilation_failure を --yjit-stats 指定なしで計測するカウンタに追加しています。 https://github.com/ruby/ruby/pull/12128
