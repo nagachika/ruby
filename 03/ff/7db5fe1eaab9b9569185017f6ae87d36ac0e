@@ -1,0 +1,1 @@
+scheduler.c で VM_ASSERT() ではなく RUBY_ASSERT() を利用するように修正しています。 https://github.com/ruby/ruby/pull/12129
