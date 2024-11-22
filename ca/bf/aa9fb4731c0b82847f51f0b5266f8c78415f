@@ -1,0 +1,1 @@
+bootstraptest/test_fork.rb の不安定なテストでタイムアウトの許容時間を延ばしています。
