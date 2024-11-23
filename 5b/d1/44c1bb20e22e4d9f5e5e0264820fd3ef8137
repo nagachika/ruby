@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で ASAN を有効にした CI で異常終了が発生してるのでそのデバッグのため端末サイズを得る console_winsize() で ioctl(2) に TIOCGWINSZ を指定して端末サイズを得る実装をして ioctl() が正数を返した時に rb_bug() で異常終了させるようにしています。
