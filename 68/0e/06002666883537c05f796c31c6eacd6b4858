@@ -1,0 +1,1 @@
+prism parser 利用時に拡張ライブラリ coverage を使った branch coverage の計測時に異常終了する不具合を修正しています。 https://github.com/simplecov-ruby/simplecov/issues/1113 [ruby-core:119735] [Bug #20866]
