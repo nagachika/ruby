@@ -1,0 +1,1 @@
+GC の外部実装 gc/mmtk に Mark & Sweep アルゴリズムの実装を追加しています。 [ruby-core:119676] [Feature #20860]
