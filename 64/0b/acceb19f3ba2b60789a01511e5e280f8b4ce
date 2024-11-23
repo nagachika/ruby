@@ -1,0 +1,1 @@
+GitHub Actions の parse.y を parser に指定する workflow で configure に渡すオプションが typo していて parse.y の指定ができてなかったのを修正しています。
