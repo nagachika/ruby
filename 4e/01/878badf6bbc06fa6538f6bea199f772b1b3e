@@ -1,0 +1,1 @@
+C API のテスト用の拡張ライブラリ ext/-test-/econv/append.c で引数の文字列への変換を追加しています。 [ruby-core:119980] [Bug #20903]
