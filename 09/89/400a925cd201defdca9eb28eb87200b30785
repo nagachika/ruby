@@ -1,0 +1,1 @@
+bundler の Bundler#which の Windows 環境での戻り値に .exe 拡張子まで含めるようにしているようです。
