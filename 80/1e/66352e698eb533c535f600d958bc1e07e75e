@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb に gc の外部実装の mmtk を upstream の ruby/mmtk から同期させる対応を追加しています。標準添付されるようになるんですね。
