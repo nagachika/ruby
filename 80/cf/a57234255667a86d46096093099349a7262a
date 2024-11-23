@@ -1,0 +1,1 @@
+win32/Makiefile.sub の要求する Windows のバージョンを更新しています。 Windows 8 以降をサポート(Vista のサポートを終了)しているようです。 [ruby-core:118237] [Feature #20563]
