@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Request#sign の第2引数 digest に nil が渡された時に対応するようにしています。 Ed25519 の鍵を利用する時にこの対応の必要があったようです。
