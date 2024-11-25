@@ -1,0 +1,1 @@
+拡張ライブラリ socket の名前解決の Happy Eyeballs V2 の実装で名前解決を実施する address family が 1つだけの時も thread 間の通知のために pipe を利用する準備を実行するようにしています。 https://github.com/ruby/ruby/pull/12156
