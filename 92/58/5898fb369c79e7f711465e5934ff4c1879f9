@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 の実装で構造体 struct fast_fallback_getaddrinfo_entry のメモリ領域を複数回確保している時に 2回目以降のエラー時にメモリ解放がされていなかったので複数の構造体のぶんをまとめて 1度の calloc(3) で確保するようにしています。
