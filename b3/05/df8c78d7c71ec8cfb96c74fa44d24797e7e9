@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で拡張ライブラリ strscan の同期処理時に doc/strscan/ ディレクトリを同期する時に upstream になくてもエラーを無視するようにしています。古いバージョンはこのディレクトリがないからとのこと。
