@@ -1,0 +1,1 @@
+標準添付ライブラリ uri のテストで正規表現の定数を取り込むための include で URI::REGEXP::PATTERN の指定を URI::RFC2396_REGEXP::PATTERN に修正して警告を抑制しています。が、なんかこのテストはわざと deprecated の定数を参照するテストで $VERBOSE = nil で警告抑制しているっぽいので、抑制不足なのかも? include しているところでも抑制が必要なのか。 https://github.com/ruby/uri/pull/138
