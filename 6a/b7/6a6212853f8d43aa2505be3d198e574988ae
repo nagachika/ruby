@@ -1,0 +1,1 @@
+rubygems のテストで使うダミーの gem パッケージ取得用のクラスで Net::HTTPRequest の content_type が未設定の時の警告抑制のためデフォルト値を設定するようにしています。 https://github.com/ruby/ruby/commit/b70c1bb1503df69716312ce5b0ad89e9be02d44b のテストの変更で content_type の設定が行なわれなくなるパスがあったみたいです。
