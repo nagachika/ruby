@@ -1,0 +1,1 @@
+Hash#inspect の Encoding.default_external の影響を確認するテストで Encoding.default_external を元の値に戻すところまでを警告抑制のための $VERBOSE = nil のセットしている中で行うようにしています。Encoding.default_external の変更って警告出るんだっけ?
