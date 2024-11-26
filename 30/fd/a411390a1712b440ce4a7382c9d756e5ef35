@@ -1,0 +1,1 @@
+bf47b1b5230759dd16fc0930753d37a3eb6f30e2 で追加した標準添付ライブラリ reline のテストで Reline::LineEditor.new に受付けられない第2引数を渡していたのを削除しています。
