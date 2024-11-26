@@ -1,0 +1,1 @@
+拡張ライブラリ socket で構造体 struct wait_fast_fallback_arg のメンバー cancelled の初期化の型の間違いを修正しています。
