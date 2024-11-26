@@ -1,0 +1,1 @@
+bundled gems のテストの skip を指定する tool/rbs_skip_tests に macOS 15 で不安定なテストの skip 指定を追加しています。
