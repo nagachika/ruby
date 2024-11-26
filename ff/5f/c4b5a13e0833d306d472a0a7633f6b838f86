@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeball V2 の実装で名前解決待ちと connect 待ちの socket の fd をまとめて select(2) で待ち受けている時に両者を区別しなかったため、connect 待ちの fd がない状態で select() からかえると connect 失敗として扱われる不具合があったようで、接続確認前に待ち中の fd の有無をチェックするように修正しています。この修正と共に TCPSocket.new の :fast_fallback オプションのデフォルト値を true に戻しています。 https://github.com/ruby/ruby/pull/12153
