@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の補完処理でクオートの処理などの不具合の修正をしているようです。 https://github.com/ruby/reline/pull/763
