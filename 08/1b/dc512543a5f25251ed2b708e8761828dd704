@@ -1,0 +1,1 @@
+YJIT の Rust 実装のコマンドラインオプション指定の typo 修正。 https://github.com/ruby/ruby/pull/12167
