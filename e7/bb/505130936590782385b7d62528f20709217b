@@ -1,0 +1,1 @@
+bundler の Bundler::Installer の処理の一部を Bundler::Definition#setup_domain! というメソッドに切り出すリファクタリング。
