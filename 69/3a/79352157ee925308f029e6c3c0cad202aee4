@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON.dump でエラーが発生した時に内部的に利用している singleton な例外オブジェクトを外に漏らしてしまっていたのを修正しています。 https://github.com/ruby/json/issues/710
