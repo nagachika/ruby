@@ -1,0 +1,1 @@
+common.mk に make clean-shared-gc および make distclean-shared-gc ターゲットを追加して共有ライブラリとしてビルドした GC 実装のディレクトリの掃除ができるようにしています。
