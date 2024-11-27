@@ -1,0 +1,1 @@
+1d9dc4c5044c056d9c3ec61aafde9905dba49a67 の続きで標準添付ライブラリ uri のテストで deprecated になっている URI::REGEXP::PATTERN を利用するために include する部分も含めて全体を EnvUtil.suppress_warning で包んで警告抑制するようにしています。
