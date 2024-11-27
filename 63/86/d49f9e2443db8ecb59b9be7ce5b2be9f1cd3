@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#converge_specs などで development_dependencies を考慮に含めるのをやめるようにしています。
