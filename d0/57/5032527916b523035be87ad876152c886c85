@@ -1,0 +1,1 @@
+common.mk の GC 実装を共有ライブラリとしてビルドする時のアクションで ext/extmk.rb を使って Makefile 生成するようにしています。
