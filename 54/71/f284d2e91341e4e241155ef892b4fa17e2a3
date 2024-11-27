@@ -1,0 +1,1 @@
+bundled gems の rbs のテストの skip する指定のための tool/rbs_skip_tests に json のテストを追記しています。
