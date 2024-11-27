@@ -1,0 +1,1 @@
+bundler で platform に合致する spec の探索で候補が 1つだけの時のショートカット追加。
