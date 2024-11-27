@@ -1,0 +1,1 @@
+kernel.rb で Kernel#with_yjit の定義を明示的に private にするようにしています。特異メソッドの Kernel.with_yjit が定義されないようにってことだけど、module_function の状態で後から private にしたら特異メソッドって消えるのかな? それとも private の引数の部分でメソッド定義することで context が変化するのかな。
