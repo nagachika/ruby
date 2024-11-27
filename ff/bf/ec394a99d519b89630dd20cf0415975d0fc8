@@ -1,0 +1,1 @@
+configure の MinGW 環境での NET_LUID という型の存在チェックをする時に windows.h ヘッダを #include するように指定しています。
