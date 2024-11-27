@@ -1,0 +1,1 @@
+NEWS に Hash.new のキーワード引数 capacity の追加について追記しています。 [Feature #19236]
