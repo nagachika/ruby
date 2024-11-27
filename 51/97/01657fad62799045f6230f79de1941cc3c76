@@ -1,0 +1,1 @@
+NEWS に Kernel#singleton_method が include/prepend した Module のメソッドも返すようになった変更について追記しています。 [Bug #20620]
