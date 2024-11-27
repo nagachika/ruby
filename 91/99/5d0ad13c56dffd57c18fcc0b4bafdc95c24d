@@ -1,0 +1,1 @@
+bundler のテストで bundle install を実行する時に --verbose オプションを渡してたのを削っています。
