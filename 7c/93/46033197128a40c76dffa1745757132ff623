@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet#dependencies のリファクタリング。
