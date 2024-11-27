@@ -1,0 +1,1 @@
+bundler で Bundler::Definition のインスタンス変数の初期化を分岐によって異なる順番で初期化していたのをそろえるようにしています。 Object Shapes で異なる shapes にならないようにするためですかね?
