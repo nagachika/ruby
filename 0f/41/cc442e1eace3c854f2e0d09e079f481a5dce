@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の補完処理のクオートの処理の再修正。 https://github.com/ruby/reline/pull/782
