@@ -1,0 +1,1 @@
+bundler のテストで let で source や remote の URL の値を注入していたのをやめて直接書くようにしています。
