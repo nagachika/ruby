@@ -1,0 +1,1 @@
+bundler の Bundler::Deifinition#converge_locked_specs で @gems_to_unlock のリストの gem を除外していたのを #converge_specs で実施するように移動しています。
