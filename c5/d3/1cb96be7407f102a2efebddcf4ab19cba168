@@ -1,0 +1,1 @@
+common.mk および template/Makefile.in の GC の実装の共有ライブラリ化ビルド時のルールを修正しています。common.mk は Windows 環境でも使われるので shell に依存したアクションは書けないので template/Makefile.in のほうに逃がしています。
