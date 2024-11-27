@@ -1,0 +1,1 @@
+bundler の lockfile に記述のある gem のバージョンが yank された時の挙動の修正? みたいです。
