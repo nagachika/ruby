@@ -1,0 +1,1 @@
+NEWS に MatchData#bytebegin と MatchData#byteend の新規メソッド追加について追記しています。
