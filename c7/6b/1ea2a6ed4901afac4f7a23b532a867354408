@@ -1,0 +1,1 @@
+bundler に Bundler::Materialization という Class を追加して依存関係解決の最適化をやりやすくしているようです。
