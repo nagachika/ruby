@@ -1,0 +1,1 @@
+Symbol#to_s が再定義されていないか確認するのに check_cfunc() を使っていたところを check_method_basic_definition() という関数を導入して METHOD_ENTRY_BASIC() マクロを利用するようにしています。これは flags をチェックするだけなのでたぶん高速になるということかと。
