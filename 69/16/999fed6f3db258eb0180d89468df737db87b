@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#most_specific_locked_platform で参照するインスタンス変数の間違いを修正。
