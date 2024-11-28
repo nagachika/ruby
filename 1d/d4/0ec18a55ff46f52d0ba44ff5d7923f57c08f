@@ -1,0 +1,1 @@
+Array#include? メソッドで receiver が配列リテラルの場合 ISeq に埋め込まれている配列から duparray 命令で複製を作ってからメソッドが呼ばれますが、Array#include? メソッドが再定義されていなければ ISeq 上で検出して dup を抑制するため opt_duparray_send という VM 命令を導入してこれを使って include? メソッド呼び出しをするようにしています。この新規の最適化用 VM 命令内でメソッド名に応じて適当な C の実装を呼ぶようにして、他のメソッドでも同様の最適化ができる余地を作っているようです。 https://github.com/ruby/ruby/pull/12123
