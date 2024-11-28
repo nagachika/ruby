@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で sys_fail() というマクロで errno を参照する前に rb_io_path() を呼び出していて、この中で errno がリセットされてしまう場合があって不正な errno で rb_syserr_fail_str() を呼んでしまい異常終了することがあったので、rb_io_path() の呼び出し前に errno の値をローカル変数に退避して直接 rb_syserr_fail_str() を呼ぶように修正しています。
