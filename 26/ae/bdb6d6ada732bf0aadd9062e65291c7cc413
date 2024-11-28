@@ -1,0 +1,1 @@
+make test-bundled-gems-spec で mspec を実行する時に環境変数 BUNDLED_GEMS を --env オプションを使って渡すようにしています。
