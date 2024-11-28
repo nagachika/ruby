@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で GC の外部実装 mmtk を同期する時のメインブランチ名の指定を追加しています。
