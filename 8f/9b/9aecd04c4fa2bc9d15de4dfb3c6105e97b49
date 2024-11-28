@@ -1,0 +1,1 @@
+YJIT で VM 命令の opt_reverse という命令のコンパイル対応を追加しています。 https://github.com/ruby/ruby/pull/12175
