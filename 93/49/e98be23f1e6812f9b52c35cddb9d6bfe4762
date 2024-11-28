@@ -1,0 +1,1 @@
+make test-bundled-gems でテストを実行する gem を環境変数 BUNDLED_GEMS で指定する時にカンマ区切りで複数指定できるようにしています。
