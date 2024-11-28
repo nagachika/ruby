@@ -1,0 +1,1 @@
+benchmark/ ディレクトリに拡張ライブラリ strscan のベンチマークを追加しています。これ benchmakr/strscan/ とかにネストしたほうがいいですかね。
