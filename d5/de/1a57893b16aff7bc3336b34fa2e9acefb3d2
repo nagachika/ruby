@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に StringScanner#scan_integer というメソッドを新規追加して String#to_i で変換できるような文字列の先頭からの整数部分をスキャンする実装を追加しています。 Kernel#Integer() みたいに 10進数以外の表記のサポートはないので注意が必要です。ぱっとみた感じ "_" で桁を区切るのにも対応していないみたいですね(String#to_i はサポートしている)。 https://github.com/ruby/strscan/issues/113 https://github.com/ruby/strscan/pull/115
