@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で make test-bundled-gems の実行時に test-all, test-spec などを実行しないようにしています。
