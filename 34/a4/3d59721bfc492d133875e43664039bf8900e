@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で IO#external_encoding が古い ruby では IOError 例外を発生させる場合があったようで rescue を追加しています。 https://github.com/ruby/reline/pull/785
