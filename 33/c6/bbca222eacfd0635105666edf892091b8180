@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のテストの Reline::Keystroke のマルチバイト文字対応のテストで locale によって Encoding 変換に失敗した時にスキップするようにしています。 https://github.com/ruby/reline/pull/784
