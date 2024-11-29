@@ -1,0 +1,1 @@
+拡張ライブラリ json のコンパイル時の警告除去のため raise_generator_error() という関数にフォーマット文字列の指定をする RBIMPL_ATTR_FORMAT() マクロによる修飾を追加しています。
