@@ -1,0 +1,1 @@
+bundler の lib/bundled_gems.rb のテストで Windows で問題があったものを skip するようにしています。
