@@ -1,0 +1,1 @@
+YJIT が有効な時だけ Enumerable の一部のメソッドを ruby 実装に切り替えるための Kernel#with_yjit メソッドを生やすのを Module#with_yjit に移動しています。
