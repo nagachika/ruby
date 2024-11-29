@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で test-bundled-gems でエラーを無視する gem の指定から minitest、prime、repl_type_completor なおを削っています。
