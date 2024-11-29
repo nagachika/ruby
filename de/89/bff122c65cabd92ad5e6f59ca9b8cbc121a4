@@ -1,0 +1,1 @@
+b8f248ee5a38b1123a8dac6e8895640e64504ea7 のさらに続きで compile.c の INIT_ANCHOR() マクロでも LINK_ANCHOR::anchor->next を NULL にリセットするようにしています。また prism_compile.c で INIT_ANCHOR() を使っていたところを削っています。 DECL_ANCHOR() だけで良くなったからということみたいです。けど DECL_ANCHOR() と INIT_ANCHOR() では LINK_ELEMENT::next メンバーの値は違うんじゃないかな?
