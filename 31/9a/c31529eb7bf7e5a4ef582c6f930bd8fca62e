@@ -1,0 +1,1 @@
+AST から ISeq へのコンパイル時のジャンプ先を管理するための LINK_ANCHOR が無限ループに陥らないように APPEND_LIST() で RUBY_ASSERT() による assertion を追加しています。
