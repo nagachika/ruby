@@ -1,0 +1,1 @@
+rb_must_asciicompat() という文字列の Encoding をチェックする関数で rb_enc_get() で rb_encoding_t を得るのではなくて rb_enc_get_index() で encindex を取得して US-ASCII, ASCII-8BIT, UTF-8 などの時のショートカットを追加しています。
