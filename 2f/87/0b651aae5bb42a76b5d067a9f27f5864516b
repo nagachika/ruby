@@ -1,0 +1,1 @@
+NEWS に Ractor の Kernel#require 対応や Ractor.main? メソッドの追加などについて追記しています。
