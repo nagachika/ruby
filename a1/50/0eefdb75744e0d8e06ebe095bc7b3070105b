@@ -1,0 +1,1 @@
+743a31d639d4c96827b1b17f59c829c1ec31abc3 で rdoc によるドキュメント化の coverage のために追加した doc/time.rb を削除しています。 ruby のリポジトリでは不要とのことで、もともと upstream で追加されたものだったのかな?
