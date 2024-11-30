@@ -1,0 +1,1 @@
+拡張ライブラリ socket で TCPSocket.new のオプション :fast_fallback を明示的に指定しなかった時に Socket.tcp_fast_fallback の設定を利用するようにしています。rb_const_get() と rb_ivar_get() を使っていて通常よく通るパスなのでちょっと重そうですね。 rb_cSocket を直接参照するのはまずいのかな。 https://github.com/ruby/ruby/pull/12210
