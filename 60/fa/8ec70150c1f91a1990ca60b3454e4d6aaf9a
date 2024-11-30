@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で make test-all までのテストにしていたのを make check (test, test-spec の実行も含む)に拡張しています。
