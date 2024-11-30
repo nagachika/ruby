@@ -1,0 +1,1 @@
+node.c の rb_node_buffer_free() で引数の nb の NULL チェックが不要とのことで削除しています。
