@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の gemspec ファイルの spec.files を全てリテラルで列挙するのをやめて一部は Dir.glob を使って動的にファイルリストを取得するようにしています。 https://github.com/ruby/rdoc/pull/1212
