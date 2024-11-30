@@ -1,0 +1,1 @@
+拡張ライブラリ socket で TCPSocket.new の名前解決時の native thread 間の通信のための pipe の fd が close() されずに残る可能性があった不具合を修正しています。 https://github.com/ruby/ruby/pull/12181
