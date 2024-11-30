@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow でテスト時の並列化のためのオプションに --job-status=normal というのも渡していたのを削っています。なんだっけこのオプション。
