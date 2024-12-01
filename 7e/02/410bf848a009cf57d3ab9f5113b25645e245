@@ -1,0 +1,1 @@
+c06dcba964954d948b9c7b7f12314fcd82fe62af で補完処理時の Encoding の非互換時に無視させる時に後続の String#start_with? でのチェックも飛ばしていたのをやめています。 https://github.com/ruby/reline/pull/787
