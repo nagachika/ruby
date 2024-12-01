@@ -1,0 +1,1 @@
+25ad7e8e6c272bf4d13bbd575bb184cd7542714d で gc.c 側でメモリ確保の関数群の戻り値チェックして NULL だった時に NoMemoryError 例外を発生させるのに ruby_memerror_body() を呼んでたのを ruby_memerror() を直接呼ぶようにしています。
