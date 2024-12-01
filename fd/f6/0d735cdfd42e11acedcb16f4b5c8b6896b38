@@ -1,0 +1,1 @@
+common.mk の prism 関係の依存関係の記述に Windows (nmake) 対応のため $(srcs_vpath) をつけるようにしています。
