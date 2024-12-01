@@ -1,0 +1,1 @@
+C 定義のメソッドを alias した method entry を呼んだ時の TracePoint のイベントで TracePoint#parameters を呼ぶと異常終了する可能性があった不具合を修正しています。 [ruby-core:120031] [Bug #20915]
