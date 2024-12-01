@@ -1,0 +1,1 @@
+rb_sym2str() の引数名を id → symbol に変更し Doxygen 用コメントの説明も修正しています。
