@@ -1,0 +1,1 @@
+bundler のローカルの git リポジトリを source とする時の .git/ ディレクトリを cache するようにしているようです。
