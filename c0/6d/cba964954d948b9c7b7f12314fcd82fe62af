@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で環境変数 RELINE_TEST_ENCODING をチェックしてテスト時の default_external? の Encoding 指定をしていたのをやめて RELINE_TEST_ENCODING という ruby の定数を参照するようにしています。うーん ruby 本体内では定義しているところがないので、upstream のテストで定義しているんでしょうか? またテストで Enumerable#map の戻り値を受けてなかったのを修正しています。 https://github.com/ruby/reline/pull/743
