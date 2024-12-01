@@ -1,0 +1,1 @@
+tool/leaked-globals で export されているシンボルの無視する対象に __dtrace という prefix のものも追加しています。 [ruby-core:120012] [Bug #20910]
