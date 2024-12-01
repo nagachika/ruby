@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 対応で select/poll で待つイベントから Connection Attempt Delay のタイムアウト待ちを消す処理が不足していた分岐があったのを修正しています。 https://github.com/ruby/ruby/pull/12223
