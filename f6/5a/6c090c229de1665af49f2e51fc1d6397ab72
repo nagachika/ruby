@@ -1,0 +1,1 @@
+定数の cache 実装で実際に st_insert() する時に vm->inserting_constant_cache_id に対象の定数名の ID を一時的にセットして呼ぶようにしています。コミットログによると st_insert() で GC が発生する可能性があり、そこで今操作中の定数の参照をもつ最後の ISeq が回収されると st_table が解放されてしまうかもしれないので、それを防ぐためということです。 https://github.com/ruby/ruby/pull/12203 [ruby-core:120048] [Bug #20921]
