@@ -1,0 +1,1 @@
+win32/configure.bat の --with-ntver オプションに番号? 以外に名前による指定(https://learn.microsoft.com/en-us/cpp/porting/modifying-winver-and-win32-winnt#remarks)を受付けるようにしているようです。
