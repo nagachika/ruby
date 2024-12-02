@@ -1,0 +1,1 @@
+win32/Makefile.sub の Windows のバージョン NTVER 変数のデフォルト値の設定をマジックナンバーで書いてたのを _WIN32_WINNT_WIN8 変数を参照するようにしています。また生成する config.h に _WIN32_WINNT_WIN8 マクロの定義を追加しています。
