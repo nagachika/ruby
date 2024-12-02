@@ -1,0 +1,1 @@
+fdf60d735cdfd42e11acedcb16f4b5c8b6896b38 で common.mk の prism 関係の依存関係に $(srcs_vpath) を追加した変更のうち incs というターゲットの依存関係に追加した部分以外は不要だったそうで revert しています。
