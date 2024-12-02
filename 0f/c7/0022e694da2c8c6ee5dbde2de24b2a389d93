@@ -1,0 +1,1 @@
+標準添付ライブラリ reline で SINGWINCH と SIGCONT のシグナルハンドラを定義しているところで元々定義されていたハンドラがあったらそれも呼ぶようにしています。 https://github.com/ruby/reline/pull/788
