@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の設定ファイル関連のテストで環境変数 INPUTRC の影響を受けて失敗する可能性があったものを環境変数 INPUTRC を空文字列にセットして実行するようにしています。 https://github.com/ruby/reline/pull/789
