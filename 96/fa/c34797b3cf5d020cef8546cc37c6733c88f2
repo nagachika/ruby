@@ -1,0 +1,1 @@
+Windows 版のビルド用 win32/configure.bat で echo on/off にして bat ファイルの実行のコマンドを出力させる? --[no-]debug-configure というオプションを追加しています。また(こっちのほうがメインみたいですが) --with-opt-dir オプションに複数のパスを渡せるようにしているようです。
