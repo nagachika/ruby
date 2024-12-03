@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の文字列間の Encoding のチェックに rb_enc_check() を呼び出す前に Encoding が異なるかどうかを判定する wrapper を追加する最適化と、ASCII compatible な文字列であることを確認する時に US-ASCII/UTF-8/ASCII-8BIT の時のショートカットを追加する最適化。 https://github.com/ruby/strscan/pull/117
