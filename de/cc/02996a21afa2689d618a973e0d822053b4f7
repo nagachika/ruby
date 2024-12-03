@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で古い TruffleRuby のサポートのため rb_syserr_fail_str() の代替実装を追加しています。
