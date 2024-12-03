@@ -1,0 +1,1 @@
+94f8bc95e3c6e7917628e0465c687bd61d6d8531 で標準添付ライブラリ secureraundom の CI でのみ実行するようにしたテストをさらに Apple Silicon 版の macOS でのみ実施するように条件を追加しています。このテストから利用している check_forking_random_bytes で fork して子プロセスで同じ乱数が発生しないことを確認するための試行回数を増やしています。
