@@ -1,0 +1,1 @@
+make distclean-local で yasmdata.rb というファイルを削除していたのをやめています。YARV 関係のファイルみたいだけどもう生成しなくなっているので。
