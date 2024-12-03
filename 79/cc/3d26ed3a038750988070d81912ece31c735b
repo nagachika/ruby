@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に d5de1a57893b16aff7bc3336b34fa2e9acefb3d2 で追加した StringScanner#scan_integer の引数処理を ruby 実装に移植した上で基数を指定するキーワード引数 base を追加して、16進数にも対応するようにしています。 https://github.com/ruby/strscan/pull/115
