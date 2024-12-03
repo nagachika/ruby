@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で strscan の同期処理時に upstream の lib/ 配下の ruby 実装のメソッドのためのコピーの追加。
