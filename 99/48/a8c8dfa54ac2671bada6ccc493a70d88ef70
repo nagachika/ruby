@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で IO::ConsoleMode::VERSION 定数の文字列を freeze するようにしています。
