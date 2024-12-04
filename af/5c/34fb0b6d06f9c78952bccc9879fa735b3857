@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のメソッド名のソートのための文字種の判定に String#codepoints を利用していたのを String#ord に変更しています。中間配列の確保の抑制のため? https://github.com/ruby/rdoc/pull/1220
