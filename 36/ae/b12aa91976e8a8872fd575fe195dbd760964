@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の標準出力への書き出しの buffering を実装しています。パフォーマンスの改善のためみたいですね。 https://github.com/ruby/reline/pull/790
