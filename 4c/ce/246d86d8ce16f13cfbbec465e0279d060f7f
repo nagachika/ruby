@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::ClassModule#superclass= というメソッドでクラス名? を期待していたところを RDoc::ClassModule のインスタンスも受付けるようにしています。 https://github.com/ruby/rdoc/pull/1222
