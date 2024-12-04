@@ -1,0 +1,1 @@
+拡張ライブラリ socket の IPv6 の名前解決のエラーで Socket::ResolutionError という例外を捕捉対象に追加しています。また例外捕捉時に exit してプロセス終了? してしまっていたのを return に修正しています。 https://github.com/ruby/ruby/pull/12213
