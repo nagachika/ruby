@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ socket のテストでソケットの connect 時に firewall ルールにより接続できないような環境を考慮して Errno::ECONNREFUSED を捕捉して skip するようにしています。
