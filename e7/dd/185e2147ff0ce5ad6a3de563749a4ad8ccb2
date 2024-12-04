@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout.timeout で明示的に秒数に nil を渡すのも ArgumentError 例外発生に再度変更しています。お、そこ変更してしまうんだ。 [ruby-core:119513] [Bug #20795]
