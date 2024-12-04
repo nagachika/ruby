@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout で Timeout.timeout の秒数に負の値を指定した時に ArgumentError を発生させるようにしています。 [ruby-core:119513] [Bug #20795]
