@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout.timeout の引数でやはり nil だけは許容するように再度変更しています。 [ruby-core:119513] [Bug #20795]
