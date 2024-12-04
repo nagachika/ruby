@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout のテストの require_relative を require に変更しています。コミットログはこの次のコミットのものの間違いみたいですね。 [ruby-core:119513] [Bug #20795]
