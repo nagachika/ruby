@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout.timeout の引数チェックの条件をシンプルにするため nil の対応は ArgumentError 発生の前に移動しています。が、こうすると今度は Numeric でも nil でもない時に zero? メソッドの呼び出しが NoMethodError になる可能性がありますね。まあでもそれはこの一連の変更をする前からなので互換性という意味では良いのですが。 [ruby-core:119513] [Bug #20795]
