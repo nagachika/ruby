@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout.timeout の rdoc 用コメントの引数についての説明を再度少し修正しています。 [ruby-core:119513] [Bug #20795]
