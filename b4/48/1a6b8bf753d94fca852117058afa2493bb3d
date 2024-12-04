@@ -1,0 +1,1 @@
+doc/windows.md の Windows 環境でのビルド方法の説明で configure.bat の --with-opt-dir オプションの引数にドライブレターを書くようにしているのと、nmake prepare-vcpkg 実行時に管理者権限がいる旨を追記しています。
