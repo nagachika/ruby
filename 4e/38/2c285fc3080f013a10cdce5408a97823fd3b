@@ -1,0 +1,1 @@
+make test-budled-gems のために依存している gem をインストールするアクションで json-schema のバージョンの指定を追加しています。
