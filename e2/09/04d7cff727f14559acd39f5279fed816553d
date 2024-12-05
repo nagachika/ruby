@@ -1,0 +1,1 @@
+拡張ライブラリ socket の名前解決時の thread 間協調のためのロックの struct fast_fallback_getaddrinfo_shared::lock をポインタではなく構造体内に埋め込んで参照演算子で渡すようにして、メモリリークを修正しています。 https://github.com/ruby/ruby/pull/12239
