@@ -1,0 +1,1 @@
+common.mk のターゲット test-bundler-parallel のアクションでも rspec のオプションに RSPECOPTS 変数が反映されるようにしています。
