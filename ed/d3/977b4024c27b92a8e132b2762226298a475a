@@ -1,0 +1,1 @@
+標準添付ライブラリ logger のログファイルの rotation で Windows でのファイル削除のために File::SHARE_DELETE というビットフラグを open 時の flags に指定するようにしています。
