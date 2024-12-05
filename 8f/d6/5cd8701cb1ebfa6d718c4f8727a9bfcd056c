@@ -1,0 +1,1 @@
+NEWS の GC の外部実装で差し替える機能の記述で GC module という名称を GC library と変更しています。
