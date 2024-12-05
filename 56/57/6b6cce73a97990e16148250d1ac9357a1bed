@@ -1,0 +1,1 @@
+common.mk のターゲット bundled_gems_spec-run では逆に rspec のオプションに RSPECOPTS 変数の内容を渡すのをやめています。
