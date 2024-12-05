@@ -1,0 +1,1 @@
+NEWSに標準添付ライブラリ net/http と uri の deprecated にした定数の記述と標準添付ライブラリ timeout の Timeout.timeout の引数チェックの追加について追記しています。
