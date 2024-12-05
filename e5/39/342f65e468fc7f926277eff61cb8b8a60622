@@ -1,0 +1,1 @@
+標準添付ライブラリ irb で組み込みコマンドの show_source と ls で引数の処理のエラー時のメッセージを修正しています。 https://github.com/ruby/irb/pull/1039
