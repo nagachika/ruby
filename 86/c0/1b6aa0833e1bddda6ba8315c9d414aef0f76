@@ -1,0 +1,1 @@
+gc.c の malloc_usable_size() というマクロ定義をしているところで定義できない場合に #include <malloc.h> していたのを削っています。 チケットをみると jemalloc など malloc の代替実装を利用する時にビルドできなくなっていたようです。 [ruby-core:120087] [Bug #20928]
