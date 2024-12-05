@@ -1,0 +1,1 @@
+vm.c の ruby_vm_destruct() で th が NULL かのチェックは不要なので削っています。
