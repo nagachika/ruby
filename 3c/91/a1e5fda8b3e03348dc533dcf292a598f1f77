@@ -1,0 +1,1 @@
+MSAN を有効にしてビルドした時にも ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS() というマクロを定義して局所的なチェックの無効化ができるようにしています。
