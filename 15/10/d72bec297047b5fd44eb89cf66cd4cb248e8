@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.generate の :script_safe オプション指定時の Unicode のいくつかの文字の意図しないエスケープを修正しています。 https://github.com/ruby/json/issues/71
