@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow のための独自アクションで Launchable 対応を暫定的にオフにしています。 https://github.com/ruby/ruby/pull/12268
