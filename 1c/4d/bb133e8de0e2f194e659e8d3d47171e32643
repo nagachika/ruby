@@ -1,0 +1,1 @@
+VM 命令の objtostring で対象が Symbol の時に C の関数 rb_sym2str() を直接呼び出すコードを生成する最適化を追加しています。 https://github.com/ruby/ruby/pull/12247
