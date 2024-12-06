@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のコメントに使うタグの :main: と :title: という指定を deprecated にして使われてた時に警告を出力するようにしています。 https://github.com/ruby/rdoc/pull/1218
