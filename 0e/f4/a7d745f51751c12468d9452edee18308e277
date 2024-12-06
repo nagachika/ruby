@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 3.7.0 に更新しています。また rbs の skip するテストの指定を追加しています。 https://github.com/ruby/ruby/pull/12265
