@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 向けの workflow に GC 実装を共有ライブラリ化するビルドが追加されていたのが ffb26a53d16d4b7a75f9c57b8f558757104fd22f で追加された workflow で行なわれるようになったので削除しています。
