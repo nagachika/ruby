@@ -1,0 +1,1 @@
+Time#zone のテストで返される文字列の Encoding のチェックで Encoding.default_internal を参照していたのをやめて常に locale encoding を使うようにしています。 [ruby-core:120089] [Bug #20929]
