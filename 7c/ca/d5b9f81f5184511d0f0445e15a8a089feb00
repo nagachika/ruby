@@ -1,0 +1,1 @@
+darray.h から internal/bits.h の #include を削除して gc/default/default.c から直接 #include するようにしています。
