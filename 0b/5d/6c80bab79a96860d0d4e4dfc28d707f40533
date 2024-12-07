@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow に configure 時に --with-gmp オプションを指定するビルドを追加しています。
