@@ -1,0 +1,1 @@
+bc214d10b8854fec728b3b2fe472e58688661cba の続きで macOS の macOS 版 workflow で --with-jemalloc を指定する時に --with-opt-dir も指定して configure が jemalloc のライブラリがみつけられるようにしています。
