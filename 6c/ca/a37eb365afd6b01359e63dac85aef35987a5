@@ -1,0 +1,1 @@
+compile.c の compile_shareable_literal_constant() で変数の初期化漏れを修正。magic comment の shareable_constant_value: experimental_everything を指定した時に異常終了することがあったようです。 [ruby-core:120080] [Bug #20926]
