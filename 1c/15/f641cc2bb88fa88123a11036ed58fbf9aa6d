@@ -1,0 +1,1 @@
+78762b52185aa80ee55c0d49b495aceed863dce2 の続きで Time#zone で返される文字列の Encoding として Windows 環境では常に UTF-8 を使うようにしています。 [ruby-core:120089] [Bug #20929]
