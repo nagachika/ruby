@@ -1,0 +1,1 @@
+NEWS に Time#zone の文字列の Encoding を Windows では UTF-8 に固定する変更について追記しています。 [ruby-core:120089] [Bug #20929]
