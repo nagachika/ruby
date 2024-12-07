@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストを GC の実装を共有ライブラリ化した時に skip するようにしています。
