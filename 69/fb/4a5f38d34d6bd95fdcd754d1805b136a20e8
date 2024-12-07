@@ -1,0 +1,1 @@
+test-bundled-gems のテストで Windows 環境においてエラーを無視する gem のリストから typeprof を削っています。
