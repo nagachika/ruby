@@ -1,0 +1,1 @@
+標準添付ライブラリ reline のキー入力を symbol に対応付けるテーブルで 1byte の時は数値で、複数バイトの時は文字列で対応付けを持っていたのを文字列ベースにそろえて lookup の処理をまとめているようです。 https://github.com/ruby/reline/pull/715
