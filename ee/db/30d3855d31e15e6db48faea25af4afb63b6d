@@ -1,0 +1,1 @@
+signal.c で変数 ruby_disable_gc を直接セットしていたのをやめて GC の公開 API の rb_gc_enable() および rb_gc_disable_no_rest() を利用するようにしています。 default 以外の実装に対応するため。
