@@ -1,0 +1,1 @@
+vm.c で symbol.h を #include するようにしています。 STATIC_ID2SYM() マクロを利用するため? みたいですけど vm*.c 系でこのマクロ直接は使ってないしちょっとよくわからないですね。 https://github.com/ruby/ruby/pull/12272
