@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテストの JRuby での skip 追加。 https://github.com/ruby/rdoc/pull/1225
