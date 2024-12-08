@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL の関数からのコールバックとして呼ばれる関数 ssl_servername_cb() では ruby の例外を発生させてはいけないのに配列の新規確保があり例外が発生する可能性があったのでこれをやめています。 SSL_get_servername() の結果を渡すためだったので rb_protect() で呼ぶ関数内で SSL_get_servername() を呼ぶようにしています。
