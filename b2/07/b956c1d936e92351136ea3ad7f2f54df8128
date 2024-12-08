@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC で発生させる例外を間違えて OpenSSL::PKey::DSAError にしていたので OpenSSL::PKey::ECError に修正しています。
