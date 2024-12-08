@@ -1,0 +1,1 @@
+NEWS の singleton_method へのリンクのため Kernel ではなく Object のメソッドとして書くようにしています。 rdoc の仕様のためみたいです。
