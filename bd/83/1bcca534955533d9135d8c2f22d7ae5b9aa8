@@ -1,0 +1,1 @@
+1c15f641cc2bb88fa88123a11036ed58fbf9aa6d の Windows 環境での Time#zone の返す文字列の Encoding の変更で wcsftime() という関数を利用してタイムゾーンの表現を得るようにしています。 32bit の MinGW 環境で元使っていた _strftime_l() が利用できないため。 [ruby-core:120089] [Bug #20929]
