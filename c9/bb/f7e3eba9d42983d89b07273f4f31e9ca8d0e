@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#set_params に渡した :options オプションの内容をそのまま上書きではなくビットフラグを追加で立てるようにしています。
