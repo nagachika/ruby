@@ -1,0 +1,1 @@
+rubygems で Gem::Specification.reset の呼び出し時のよけいな警告を抑制するようにしているようです。
