@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#options のビットフラグ OpenSSL::SSL::OP_ALL を初期状態で立てていたのをやめています。サードパーティーライブラリの OpenSSL のシステム全体の設定ファイルによる指定を尊重するためとのこと。環境によっては影響を受けるかもしれないですね。
