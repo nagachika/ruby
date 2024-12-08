@@ -1,0 +1,1 @@
+doc/index.md というファイルを追加して .rdoc_options で main_page として README.md のかわりにこちらを指定するようにしています。  https://github.com/ruby/ruby/pull/12227
