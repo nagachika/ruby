@@ -1,0 +1,1 @@
+gc_impl.h に rb_gc_impl_active_gc_name() という外部化した GC の実装の名前を返す関数の prototype 宣言を追加しています。ついでに GC のインターフェースの構造体 rb_gc_function_map_t のメンバーの順番も入れ替えています。
