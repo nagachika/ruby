@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::RDoc#parse_file の rescue 節で最後に raise している後に不要な nil が置かれていたのを削除しています。 https://github.com/ruby/rdoc/pull/1137
