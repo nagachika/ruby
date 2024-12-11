@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace._dump などで IO を渡された時の出力先を VALUE でオブジェクトのまま保持していたのが異常終了が起きる可能性があった(comact 時かな?)ようなので rb_io_stdio_file() で stdio の FILE 構造体として取り出して保持しておくようにしています。
