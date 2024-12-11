@@ -1,0 +1,1 @@
+parse.y の未使用の関数マクロ rb_warn0L_experimental() の定義を削除しています。
