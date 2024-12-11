@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で require "securerandom" が失敗した時の対応が書かれていたのが不要として削除しています。
