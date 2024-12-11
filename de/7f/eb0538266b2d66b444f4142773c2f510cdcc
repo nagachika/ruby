@@ -1,0 +1,1 @@
+ea7e34fd5d9323f07ab9fdfa561b752d3546dfde の続きで mmtk の extconf.rb で make clean 時に .rustc_info.json というファイルも削除するようにしています。
