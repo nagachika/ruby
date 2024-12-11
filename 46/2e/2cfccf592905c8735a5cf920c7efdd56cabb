@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 用の独自アクションで launchable verify を実行していたのを削除しています。デバッグ用で入れてたものかな? https://github.com/ruby/ruby/pull/12299
