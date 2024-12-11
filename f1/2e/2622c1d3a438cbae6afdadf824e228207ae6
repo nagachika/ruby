@@ -1,0 +1,1 @@
+make の clean 系ターゲットの Modular GC 関連のものが Unix 系のコマンドを前提としていたので common.mk から一部 template/Makefile.in と win32/Makefile.sub のプラットフォーム固有のものに移動しています。
