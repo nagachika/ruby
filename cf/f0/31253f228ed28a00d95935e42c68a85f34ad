@@ -1,0 +1,1 @@
+YJIT の Rust 実装でレジスタの再利用を強化する最適化のようです。 https://github.com/ruby/ruby/pull/12287
