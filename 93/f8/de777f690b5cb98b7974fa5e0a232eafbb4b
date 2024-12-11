@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc に --expand_defs というコマンドラインオプションを追加して rdoc-ref で別のファイルを参照しているところを展開するようにしています。 https://github.com/ruby/rdoc/pull/1141
