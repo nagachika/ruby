@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストで libncurses.so を探す時に /usr/lib64/ もターゲットに加えるようにしています。 https://github.com/ruby/fiddle/pull/161
