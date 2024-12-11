@@ -1,0 +1,1 @@
+parse.y の %require "3.0" という directive を削除しています。既に parse.y の処理は Lrama を利用するようになっているので不要なので。
