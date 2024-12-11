@@ -1,0 +1,1 @@
+Process::Status.wait の実装で non-blocking Fiber 用の scheduler が Thread に設定されているかチェックしているところで nil チェックが抜けていたのを修正しています。
