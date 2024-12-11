@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の win32/resolv/ の extconf.rb で CRuby 以外の実装ではビルドしない(Makefile を生成しない)ようにしています。
