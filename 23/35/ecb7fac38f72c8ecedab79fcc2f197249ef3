@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の debugger 対応時にも長い出力に pager を利用するようにしています。 https://github.com/ruby/irb/pull/1043
