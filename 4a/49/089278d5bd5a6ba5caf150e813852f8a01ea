@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle.dlopen の引数のライブラリ名に "-l" が先頭についていても許容するようにしています。コンパイラオプションのような書きかたを許容するということですね。 https://github.com/ruby/fiddle/pull/166
