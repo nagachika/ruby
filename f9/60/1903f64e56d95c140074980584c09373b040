@@ -1,0 +1,1 @@
+拡張ライブラリ socket でイベント待ちのために select(2) を直接利用していたのを CRuby 本体の rb_thread_fd_select() を再利用するようにしています。待つ fd の数が FD_SETSIZE を超えると異常終了してしまうので、可変長に対応した rb_fdset_t を利用するため。そういえば昔そういう工夫をされていたなぁ。 https://github.com/ruby/ruby/pull/12292 [ruby-core:120114] [Bug #20932]
