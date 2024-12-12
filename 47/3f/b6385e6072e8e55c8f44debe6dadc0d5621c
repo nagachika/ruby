@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle に Fiddle::Pointer.read、Fiddle::Pointer.write というそのポインタの指すアドレス上の値を読み書きするショートカットのクラスメソッドを追加しています。 https://github.com/ruby/fiddle/pull/165
