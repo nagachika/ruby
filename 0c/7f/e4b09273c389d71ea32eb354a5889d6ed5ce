@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle のテストでサンプルとして読み込むための libncurses を探すためのパスに b5ed7aae3be78f15ea46e56b8b7f19f25d1c0788 で /usr/lib64 を追加した時に /usr/lib/ を除外してしまっていたのを修正しています。 https://github.com/ruby/fiddle/pull/164
