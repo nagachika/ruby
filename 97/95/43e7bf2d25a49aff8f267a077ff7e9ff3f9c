@@ -1,0 +1,1 @@
+IO#readline などの行指向読み込みの実装で rb_str_encode() を利用していたところを rb_str_conv_enc() に置き換えるリファクタリング。
