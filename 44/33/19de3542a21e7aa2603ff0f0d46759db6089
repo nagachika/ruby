@@ -1,0 +1,1 @@
+bundler の man ページの bundle exec, bundle lock, bundle update のページに --gemfile オプションの説明を追記しています。
