@@ -1,0 +1,1 @@
+1967ae20b99d3012abef7a0219d1b085a0637fff で追加した turbo_tests を使った並列テスト化のための wrapper コマンド spec/bin/parallel_rspec で require_relative のパスを修正しています。
