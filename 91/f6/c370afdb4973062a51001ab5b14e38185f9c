@@ -1,0 +1,1 @@
+make test-bundler-parallel で parallel_rspec のかわりに turbo_test というコマンドを利用するようにしています。
