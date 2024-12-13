@@ -1,0 +1,1 @@
+make test-bundler-parallel でも RSPECOPTS 変数で渡すオプションを rspec ではなく spec/bin/parallel_rspec の引数として渡すようにしています。
