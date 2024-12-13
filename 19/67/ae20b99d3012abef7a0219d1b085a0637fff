@@ -1,0 +1,1 @@
+make test-bundler-parallel の並列テスト関連で 91f6c370afdb4973062a51001ab5b14e38185f9c の続きで spec/lib/turbo_tests/ というのを追加して turbo_test というツールを vendoring? しているようです。
