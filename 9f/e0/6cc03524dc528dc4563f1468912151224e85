@@ -1,0 +1,1 @@
+YJIT の linter の static_mut_refs という警告を抑制するようにしているようです。
