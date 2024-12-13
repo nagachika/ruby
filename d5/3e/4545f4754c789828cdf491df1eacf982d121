@@ -1,0 +1,1 @@
+同じく YJIT の Rust 実装で linter の dead_code の警告を抑制するようにしているようです。
