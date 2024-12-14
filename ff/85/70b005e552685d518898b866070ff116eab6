@@ -1,0 +1,1 @@
+Exception の rdoc 用コメントで LoadError だけ明示的にリンクを貼ってたのを cross reference にまかせるようにしています。また lib/bundled_gems.rb の rdoc の抑制に :nodoc: を利用するようにしています。
