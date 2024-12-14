@@ -1,0 +1,1 @@
+NEWS に Array#fetch_values、String#append_as_bytes、Time#xmlschema などの新規追加メソッドについて追記しています。
