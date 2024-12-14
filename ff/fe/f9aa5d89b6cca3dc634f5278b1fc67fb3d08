@@ -1,0 +1,1 @@
+Thread の自動的に切り替えを発生させる time slice の時間を変更するための環境変数 RUBY_THREAD_TIMESLICE を追加しています。ミリ秒単位で指定。 [ruby-core:119683] [Feature #20861]
