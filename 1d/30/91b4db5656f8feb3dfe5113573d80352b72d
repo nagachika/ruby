@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す compilers workflow のための独自アクションの実装の shell スクリプトで launchable record コマンドの使いかたを変更しています。テストの種類ごとに session というのを分けて整形? するようにしているようです。 https://github.com/ruby/ruby/pull/12314
