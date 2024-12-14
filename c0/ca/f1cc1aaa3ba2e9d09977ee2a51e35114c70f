@@ -1,0 +1,1 @@
+irb の debugger 連係時の history ファイルの読み込みを実装しています。 https://github.com/ruby/irb/pull/1046
