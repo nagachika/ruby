@@ -1,0 +1,1 @@
+YJIT の Rust 実装で linter の指定自体の警告を無視するため unknown_lints というのを局所的に許可するようにしています。
