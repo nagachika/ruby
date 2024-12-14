@@ -1,0 +1,1 @@
+拡張ライブラリ win32ole の定数を rb_deprecate_constant() で deprecated にするようにしています。
