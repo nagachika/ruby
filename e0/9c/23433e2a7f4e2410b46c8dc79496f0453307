@@ -1,0 +1,1 @@
+0bdb38ba6be208064a514c12a9b80328645689f8 で Ractor.store_if_absent のために追加した Mutex の構造体メンバーの mark 処理が漏れていたのを修正しています。また Ractor.store_if_absent の rdoc 用コメントを追加しています。 そして NEWS に Ractor.store_if_absent メソッドの新規追加について追記しています。
