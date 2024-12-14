@@ -1,0 +1,1 @@
+ca2d19d4e5a47822c250179f88c814c5f401e9bd で追加した C API rb_bug_without_die() を使って rb_objspace_alloc() で ASAN のエラー検出があった時に VM の情報をダンプするようにしています。
