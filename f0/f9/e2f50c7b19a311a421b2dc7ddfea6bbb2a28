@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv.new の第1引数に DNS::Config の設定を Hash で渡せるようにしています。
