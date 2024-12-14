@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の rubygems に埋め込む機構の変更みたいですが、lib/rubygems_plugin.rb は誤って upstream から同期されてそうです。 https://github.com/ruby/ruby/pull/1171
