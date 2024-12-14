@@ -1,0 +1,1 @@
+Ractor.store_if_absent というメソッドを新規追加して current Ractor の Ractor local storage に指定したキーがない時だけ代入する atomic な処理を追加しています。専用の Mutex を rb_ractor_t 構造体に持ってこれで排他処理するようにしています。 [ruby-core:119769] [Feature #20875]
