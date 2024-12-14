@@ -1,0 +1,1 @@
+NEWS に Symbol#to_s が chilled string を返すので破壊的変更をすると警告が出ることを追記しています。
