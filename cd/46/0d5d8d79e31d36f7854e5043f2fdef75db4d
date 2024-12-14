@@ -1,0 +1,1 @@
+rubygems と bundler に vendoring している securerandom のバージョンを更新しています。
