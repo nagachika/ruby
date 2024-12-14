@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の undo/redo の実装で変更後に自動インデントが動いてしまわないようにしています。 https://github.com/ruby/reline/pull/793
