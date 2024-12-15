@@ -1,0 +1,1 @@
+YJIT の Rust 実装のリファクタリング。高速化のためみたいです。 https://github.com/ruby/ruby/pull/12326
