@@ -1,0 +1,1 @@
+non-blocking Fiber のための Scheduler が備えるべきインターフェースを説明するための rdoc によるドキュメント化のためのコメントとダミーのメソッド定義(コメントアウトされている)に #blocking_operation_wait メソッドのエントリを追加しています。
