@@ -1,0 +1,1 @@
+String#+@ の rdoc 用コメントでも chilled string も複製することを追記しています。 [ruby-core:116382] [Feature #20205]
