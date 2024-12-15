@@ -1,0 +1,1 @@
+M:N Threads を有効にしてビルドした時に rb_thread_t::sched::finished に true をセットするところに決して到達せず Thread が回収されない? という不具合を修正しているようです。 [ruby-core:118620] [Bug #20638]
