@@ -1,0 +1,1 @@
+bundler で指定のバージョンの bundler で起動しなおす処理で自分自身のコマンド名を $PROGRAM_NAME という変数を使っていたのを Process.argv0 を利用するように修正しています。
