@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の内部的クラスに rdoc の :nodoc: タグをつけてドキュメント化を抑制しています。 https://github.com/ruby/irb/pull/1047
