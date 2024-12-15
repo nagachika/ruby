@@ -1,0 +1,1 @@
+Array#fetch_values の rdoc 用コメントのサンプルコードの結果表示のミスを修正しています。 https://github.com/ruby/ruby/pull/12337
