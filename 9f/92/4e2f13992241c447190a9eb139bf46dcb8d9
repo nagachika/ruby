@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeball V2 の機能を個別の Socket ではなく全体的に on/off するための API Socket.tcp_fast_fallback= を追加しています。また環境変数 RUBY_TCP_NO_FAST_FALLBACK の指定で起動時のこのデフォルト値を決定できるようにしています。環境変数は拡張ライブラリ socket の初期化関数呼び出し時に効くので最初に require "socket" をする時点のものが使われます。名前の通り指定すると無効にする環境変数で "0" 以外の文字列が指定されると Happy Eyeball V2 が無効になります。 https://github.com/ruby/ruby/pull/12257
