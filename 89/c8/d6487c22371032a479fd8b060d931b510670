@@ -1,0 +1,1 @@
+Array の shuffle/shuffle! などいくつかのメソッドの rdoc 用コメントの英文法の修正。 https://github.com/ruby/ruby/pull/12340
