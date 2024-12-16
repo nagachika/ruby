@@ -1,0 +1,1 @@
+拡張ライブラリ socket の rdoc 用コメントの Socket.tcp_fast_fallback= へのリンク切れを修正しています。
