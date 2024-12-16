@@ -1,0 +1,1 @@
+magic comment の shareable_constant_value: experimental_everything が指定されている時に Hash リテラル内に Hash を keyword splat の記法を使って展開すると展開されずに Hash 自体が値として使われてしまっていた不具合を修正しています。 [ruby-core:120082] [Bug #20927]
