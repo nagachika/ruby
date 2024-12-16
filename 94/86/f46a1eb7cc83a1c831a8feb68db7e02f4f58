@@ -1,0 +1,1 @@
+NEWS の拡張ライブラリ socket の Happy Eyeballs V2 サポートの Socket.tcp と TCPSocket.new についての記述のセクションをマージして 1つでまとめて書いています。 https://github.com/ruby/ruby/pull/12347
