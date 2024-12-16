@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::MarkupReference クラスの rdoc 用コメントでリンクの貼りかたの説明を修正しています。 https://github.com/ruby/rdoc/pull/1242
