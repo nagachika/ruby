@@ -1,0 +1,1 @@
+doc/syntax/calling_methods.rdoc に keyword rest 引数の記法についての説明を加筆しています。また NilClass の rdoc 用コメントに **nil のように keyword rest に nil を渡せることを追記しています。 https://github.com/ruby/ruby/pull/12228
