@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の rubygems の統合のための RDoc::RubygemsHook クラスに force というプロパティを追加しています。差分には参照しているところはないですが rubygems 側が force= を呼ぶのでそれを受付けるために必要ということみたいです。 https://github.com/ruby/rdoc/pull/1244
