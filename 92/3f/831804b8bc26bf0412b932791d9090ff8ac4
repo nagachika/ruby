@@ -1,0 +1,1 @@
+error.c に ca2d19d4e5a47822c250179f88c814c5f401e9bd で追加した C API rb_bug_without_die() に RBIMPL_ATTR_FORMAT() を使ってフォーマット文字列を含むことをコンパイラにヒントを伝えるようにしています。
