@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の fiddle/ffi_backend 利用時の Fiddle::Function#call の実装で引数として受付ける型を拡張しています。 https://github.com/ruby/fiddle/pull/162
