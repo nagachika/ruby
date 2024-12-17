@@ -1,0 +1,1 @@
+3a4433dddd4ba27d23feff83efd9d48604420df8 の続きで標準添付ライブラリ securerandom の古い ruby 用の互換性のため追加した SecureRandom.alphanumeric の実装を定義そのものを RUBY_VERSION で分岐して古い ruby の時だけメソッド追加するようにしています。
