@@ -1,0 +1,1 @@
+Ractor.main? が C の真偽値をそのまま返していたので RBOOL() で true/false を返すようにしています。 [ruby-core:120251] [Bug #20954]
