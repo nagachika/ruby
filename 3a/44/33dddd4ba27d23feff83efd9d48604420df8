@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom の ruby 3.2 以前で利用した時の互換性のため SecureRandom.alphanumeric の実装で super を使わない独自実装を追加しています。
