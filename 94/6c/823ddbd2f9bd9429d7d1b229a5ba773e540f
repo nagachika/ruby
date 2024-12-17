@@ -1,0 +1,1 @@
+標準添付ライブラリ random の Random::Formatter::ALPHANUMERIC という定数の内容を配列の要素も含めて freeze するようにしています。
