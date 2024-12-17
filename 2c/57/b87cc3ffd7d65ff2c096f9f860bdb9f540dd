@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::Unicode のメソッドの実装を byte 単位での操作をしていたのを String#grapheme_clusters を利用して文字単位操作にして不正なバイト列が発生しないようにしているようです。 https://github.com/ruby/reline/pull/720
