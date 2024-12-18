@@ -1,0 +1,1 @@
+ObjectSpace.trace_object_allocations で管理に使う st_table の key は GC で回収されている可能性があるので rb_gc_pointer_to_heap_p() という C API を追加して、VALUE 値としてアクセスする前にこの関数で生きている heap 内を指していることを確認するようにしています。 GC.compact 時に異常終了する可能性があったようです。
