@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations の compaction 対応の処理で st_table の key の変更に追随するためコールバック関数で ST_REPLACE を返すのでは不十分で st_insert() で新たな key を追加して ST_DELETE を返して挿入しなおすようにしています。
