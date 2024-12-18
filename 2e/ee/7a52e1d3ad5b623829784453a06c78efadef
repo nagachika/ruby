@@ -1,0 +1,1 @@
+main.c の __asan_default_options() という関数を export するため RUBY_SYMBOL_EXPORT_BEGIN/RUBY_SYMBOL_EXPORT_END で囲むようにしています。
