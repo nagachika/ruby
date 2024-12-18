@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の lib/irb/.document ファイルを削除して irb 配下のファイルのドキュメント化を抑制するためトップレベルの .rdoc_options に exclude: の設定を追加しています。
