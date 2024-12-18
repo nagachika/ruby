@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations で GC.compact の対応の実装で st_table の key と value の取り違いを修正しています。
