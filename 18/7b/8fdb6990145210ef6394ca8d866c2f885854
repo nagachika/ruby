@@ -1,0 +1,1 @@
+Fiber のための coroutine の arm64 アーキテクチャのための実装で Windows では Thread Information Block なる領域が必要になるのでそこを避けて register などを退避するための offset を追加しています。
