@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow 用のシェルスクリプトで Launchable で test-spec の結果の情報を収集する設定を追加しています。 https://github.com/ruby/ruby/pull/12364
