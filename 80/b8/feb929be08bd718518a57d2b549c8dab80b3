@@ -1,0 +1,1 @@
+gc.c 内で GC の外部実装のインターフェースの rb_gc_impl_location() を直接呼んでいたところを gc_location_internal() という wrapper 関数を定義してこれを経由して呼ぶようにしています。
