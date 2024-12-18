@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Encoding を意識した読み込みの処理を実装してマルチバイト文字の扱いを改善しているようです。 https://github.com/ruby/reline/pull/792
