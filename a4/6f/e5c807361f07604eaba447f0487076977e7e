@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の C のソースコードの解析時に rb_define_global_const() による定数定義を認識するようにしています。 https://github.com/ruby/ruby/pull/12357
