@@ -1,0 +1,1 @@
+doc/_timezones.rdoc の timezone オブジェクトについての記述に utc_to_local の解釈について追記しています。 [ruby-core:120232] [Bug #20951]
