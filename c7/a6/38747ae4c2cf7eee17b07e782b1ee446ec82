@@ -1,0 +1,1 @@
+File::Constants 配下の定数の rdoc 用コメントの Document-const: タグを削除しています。 rb_file_const() という関数で定義されているのですが rdoc がこの関数を直接認識するようになったからみたいです。 https://github.com/ruby/ruby/pull/12357
