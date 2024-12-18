@@ -1,0 +1,1 @@
+bundler の bundle lock の --add-checksums オプション指定時の新規の gem インストールがなかった時の不要な処理をスキップするようにしているようです。
