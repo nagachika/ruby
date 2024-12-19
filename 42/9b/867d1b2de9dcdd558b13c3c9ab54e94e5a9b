@@ -1,0 +1,1 @@
+Module#autoload の管理のためのテーブルの GC.compact 時の参照更新で rb_gc_update_tbl_refs() を呼んでいましたがこのテーブルの key は ID なので rb_gc_ref_update_table_values_only() を呼ぶように修正しています。
