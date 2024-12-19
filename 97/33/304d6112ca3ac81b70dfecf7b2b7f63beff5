@@ -1,0 +1,1 @@
+80b8feb929be08bd718518a57d2b549c8dab80b3 で gc.c に GC の外部実装の rb_gc_impl_location() の wrapper として追加した gc_location_internal() に rb_gc_impl_pointer_to_heap_p() の呼び出しチェックも追加しています。 GC_ASSERT() つきなのでデバッグ用のビルド時だけかな。
