@@ -1,0 +1,1 @@
+構造体 rb_execution_context_t の GC.compact 時の参照更新の処理で vm control frame の更新時に VM_FRAME_MAGIC_DUMMY というタイプの時は処理を skip するようにしています。これはなぜだろう。
