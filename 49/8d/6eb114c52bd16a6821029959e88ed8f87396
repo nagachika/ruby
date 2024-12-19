@@ -1,0 +1,1 @@
+拡張ライブラリ socket の名前解決のための native thread を起動するところで fork が発生するとデッドロックになる恐れがあるので rb_thread_prevent_fork() を利用するようにしています。 https://github.com/ruby/ruby/pull/12366
