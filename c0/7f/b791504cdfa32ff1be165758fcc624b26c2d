@@ -1,0 +1,1 @@
+Process.spawn や Kernel#exec で引数の fd の処理を行う run_exec_dup2() でエラー時に fd leak する不具合を修正しています。 Coverity Scan による検出とのこと。
