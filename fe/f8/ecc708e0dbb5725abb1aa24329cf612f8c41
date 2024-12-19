@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のコードブロック内で cross reference によるリンク生成が有効になるようにしています。 https://github.com/ruby/rdoc/pull/1240
