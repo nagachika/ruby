@@ -1,0 +1,1 @@
+bundler で古い rubygems の時に Gem::Uri.redact メソッドの代替実装を追加するようにしています。
