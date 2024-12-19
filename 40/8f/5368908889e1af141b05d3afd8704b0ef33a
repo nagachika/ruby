@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc のテーブルのマークアップで位置調整の attribute の :center という指定に対応するようにしています。 https://github.com/ruby/rdoc/pull/1247
