@@ -1,0 +1,1 @@
+GitHub Actions の check_misc という workflow から default gems のバージョン更新で NEWS を追随させるアクションを default_gems という workflow に分離しています。
