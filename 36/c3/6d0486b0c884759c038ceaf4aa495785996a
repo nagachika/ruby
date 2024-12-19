@@ -1,0 +1,1 @@
+Windows 版の win32/Makefile.sub で arm64 アーキテクチャを許容するようにしています。
