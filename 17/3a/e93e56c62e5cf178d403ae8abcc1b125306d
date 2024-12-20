@@ -1,0 +1,1 @@
+Proc クラスの rdoc 用コメントで暗黙のブロックパラメーターの _1, _2 や it についての記述を追記し、これらは変数ではなく "soft keyword" であると定めています。 https://github.com/ruby/ruby/pull/12375 [ruby-core:120303] [Bug #20965]
