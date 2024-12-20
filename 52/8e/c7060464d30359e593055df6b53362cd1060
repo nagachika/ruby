@@ -1,0 +1,1 @@
+Solaris の Oracle Developer Studio を使ったビルド時に MAYBE_UNUSED() マクロを使った関数の宣言がエラーになったそうで RBIMPL_ATTR_MAYBE_UNUSED() を直接利用するようにしています。 [ruby-core:120299] [Bug #20963]
