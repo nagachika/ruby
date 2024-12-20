@@ -1,0 +1,1 @@
+make test-bundled-gems でエラーを無視する対象から net-imap を削っています。
