@@ -1,0 +1,1 @@
+暗黙の block parameter it を defs/id.def に追加して固有の ID を割り振るようにしてます。これにより it の参照があるブロック内での Binding の Binding#local_variables に it が出るようになるみたいです。 https://github.com/ruby/ruby/pull/12398 [ruby-core:120252] [Bug #20955] [ruby-core:120303] [Bug #20965]
