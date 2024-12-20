@@ -1,0 +1,1 @@
+cont.c の fiber_entry() という関数の宣言に使っている修飾子のマクロ COROUTINE を COROUTINE_DECL に変更しています。 ARM64 Windows 版の coroutine 実装でも COROUTINE_DECL というマクロが定義されているのでその関連ですね。
