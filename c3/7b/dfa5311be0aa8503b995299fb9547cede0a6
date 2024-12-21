@@ -1,0 +1,1 @@
+ASAN 用の関数 asan_poison_object()/asan_unpoison_object() でオブジェクトの slot の struct RVALUE の先頭のメンバーのみ poison/unpoison していたのを slot 全体(slot サイズを拡張している heap の場合後続の領域も)を対象とするようにしています。
