@@ -1,0 +1,1 @@
+imemo.c の vm_ccs_free() で無効化する callcache が解放済みの領域を指している場合の異常終了を避けるため rb_gc_pointer_to_heap_p() でのチェックを追加しています。 https://github.com/ruby/ruby/pull/11995 で同時に呼ばれている rb_objspace_garbage_object_p() の中にこのチェックも含めるという変更も提案されていますが、全ての箇所でこのチェックをするとパフォーマンスの劣化があるということでひとまず局所的に修正しているようです。
