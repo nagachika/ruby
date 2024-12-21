@@ -1,0 +1,1 @@
+GC のデフォルト実装の try_move() で NULL ポインタに対して asan_unpoison_object() を呼ぶ可能性があったので NULL チェックして呼ぶように修正しています。
