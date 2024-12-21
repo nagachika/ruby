@@ -1,0 +1,1 @@
+GC のデフォルトの実装の ractor_cache_allocate_slot() で slot の ASAN 向け unpoison 漏れがあったのを修正しています。
