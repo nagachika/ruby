@@ -1,0 +1,1 @@
+internal/sanitizers.h の asan_poison_object() の prototype 宣言を RUBY_SYMBOL_EXPORT_BEGIN/RUBY_SYMBOL_EXPORT_END のあいだに入れて export するようにしています。
