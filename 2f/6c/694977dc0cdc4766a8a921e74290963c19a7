@@ -1,0 +1,1 @@
+メモリ確保の失敗時に NoMemoryError 例外を発生させる rb_memerror() で例外発生させることができないケースで exit(3) する条件を追加しています。現在 push されている tag の複数 Ractor の協調用の struct rb_vm_tag::lock_rec が実行中の rb_execution_context_t の値と一致していない場合 tag jump 後の unlock で異常終了してしまうので例外発生せずメッセージを出してプロセス終了させるようにしています。
