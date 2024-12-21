@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 関連のテストで ensure で後始末をするようにしています。 assert_separately で子プロセスを起動していますがそこでの Thread などのリソースも停止してから抜けるようにしています。 https://github.com/ruby/ruby/pull/12406
