@@ -1,0 +1,1 @@
+標準添付ライブラリの一覧を含むドキュメント doc/standard_library.rdoc を doc/standard_library.md として Markdown で書きなおしています。 https://github.com/ruby/ruby/pull/12404
