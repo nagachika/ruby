@@ -1,0 +1,1 @@
+ASAN 有効化時に __sanitizer_set_death_callback() で設定する関数 asan_death_callback() (名前からして ASAN がプロセスを異常終了させたい時に呼ばれるコールバック関数?)で rb_bug_without_die() でバックトレースを表示させる時に GET_VM() で rb_vm_t が初期化済みであることを確認するようにしています。初期化前のエラーを想定したものかと思いましたがコミットログをみると逆に終了時の LSAN によるダンプ出力中で既に rb_vm_t が破棄されている場合に意図しない異常終了になったというものみたいです。 https://github.com/ruby/ruby/pull/12309#issuecomment-2555766525
