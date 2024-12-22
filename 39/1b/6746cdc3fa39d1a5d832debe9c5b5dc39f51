@@ -1,0 +1,1 @@
+prism 利用時に magic comment の shareable_constant_value: experimental_everything の指定があると Hash の keyword splat の記法が NotImplementedError になるという不具合を修正しています。 [ruby-core:120033] [Bug #20916]
