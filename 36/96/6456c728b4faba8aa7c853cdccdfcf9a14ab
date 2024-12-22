@@ -1,0 +1,1 @@
+load.c の search_required() で文字列の VALUE を持つ変数 lookup_name のバッファを取り出した後で GC による回収がされてしまう恐れがあったので RB_GC_GUARD() による保護を追加しています。
