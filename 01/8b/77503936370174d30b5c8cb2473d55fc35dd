@@ -1,0 +1,1 @@
+Fiber 用の VM stack と machine stack をまとめて管理する Fiber pool の解放処理時に linked list の先頭要素だけ解放してメモリリークしていたのを修正しています。プロセス終了時の処理なので通常問題はならないけど RUBY_FREE_AT_EXIT で終了時の全メモリ解放と LSAN を使って検出したみたいです。
