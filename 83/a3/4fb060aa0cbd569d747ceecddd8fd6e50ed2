@@ -1,0 +1,1 @@
+.rdoc_options の exclude に .gemspec を追加して任意の  .gemspec ファイルをドキュメント化の対象から除外するようにしています。
