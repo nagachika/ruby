@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に PKCS12_set_mac() 関数の wrapper である OpenSSL::PKCS12#set_mac メソッドを新規追加しています。 https://github.com/ruby/openssl/issues/772
