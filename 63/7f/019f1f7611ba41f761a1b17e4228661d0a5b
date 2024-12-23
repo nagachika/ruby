@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Cipher#update の第2引数に出力先として指定する String オブジェクトが渡された場合バッファが共有されていたら複製する必要があるので rb_str_modify() または rb_str_modify_expand() を呼ぶように修正しています。 [ruby-core:120141] [Bug #20937]
