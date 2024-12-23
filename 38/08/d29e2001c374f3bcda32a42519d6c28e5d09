@@ -1,0 +1,1 @@
+chilled symbol に対する Symbol#to_s の呼び出し時の警告メッセージに "warning: " という prefix を付けていたのが冗長なので削っています。
