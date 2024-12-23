@@ -1,0 +1,1 @@
+Ractor クラスの require の実装のために内部的に利用するメソッドに rdoc 用の :nodoc: タグを追記しています。 https://github.com/ruby/ruby/pull/12389
