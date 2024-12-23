@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストでたまに失敗してしまう OpenSSL::SSL::SSLContext#session_new_cb のコールバック内での例外のテストに対策のためダミーサーバーの server_proc というコールバックの実装にこのテスト独自のものを渡すようにして例外を無視させるようにしています。 https://github.com/ruby/openssl/issues/828
