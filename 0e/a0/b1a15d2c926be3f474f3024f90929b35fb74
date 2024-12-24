@@ -1,0 +1,1 @@
+ドキュメント doc/ruby/option_dump.md からコマンドラインオプション --dump の引数の parsetree_with_comment の説明を削除しています。 --dump の指定方法は全般的に変わったので。
