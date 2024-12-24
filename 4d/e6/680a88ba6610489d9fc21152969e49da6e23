@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストに default gems のサブディレクトリ内を直接 require した時の警告の制限についてコメントを追記しています。
