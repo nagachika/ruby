@@ -1,0 +1,1 @@
+Windows 版の win32/Makefile.sub に make modular-gc-precheck ターゲットを追加しています。
