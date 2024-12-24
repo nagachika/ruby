@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で try_link にキーワード引数 ldflags を追加してリンカオプションを指定を可能にしています。また環境変数 PKG_CONFIG で pkg-config の指定をできるようにして Windows 環境で利用するようにしています。さらに Windows 環境で pkg-config のオプションに --msvc-syntax を渡すようにしています。 チケット参照がコミットログにあるんですがどうも番号間違いみたいで、たぶん次のチケットだと思います。   https://github.com/ruby/ruby/pull/9815 [ruby-core:116555] [Feature #20233]
