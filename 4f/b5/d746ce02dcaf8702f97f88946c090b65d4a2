@@ -1,0 +1,1 @@
+common.mk の make modular-gc のターゲットからインストール部分を install-modular-gc に切り出して分離しています。
