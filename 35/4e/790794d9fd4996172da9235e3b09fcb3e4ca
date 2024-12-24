@@ -1,0 +1,1 @@
+GitHub Actions の modular GC テスト用の workflow で環境変数 MODULAR_GC_DIR の設定の不要な分岐を削除しています。
