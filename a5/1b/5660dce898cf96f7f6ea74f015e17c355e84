@@ -1,0 +1,1 @@
+require での default gems の警告のための lib/bundled_gems.rb で Kernel.warn への uplevel キーワード引数に渡すための Gem::BUNDLED_GEMS.uplevel の参照を 1回にしてローカル変数を使いまわすようにしています。 uplevel がバックトレースから検索するので結構重い処理なのでその冗長な処理を避けるため。
