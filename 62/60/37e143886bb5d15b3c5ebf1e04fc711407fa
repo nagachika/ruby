@@ -1,0 +1,1 @@
+Modular GC による GC 実装の共有ライブラリ化と LOAD_RELATIVE の有効化を同時にした時の GC 実装のロード処理の対応を追加。
