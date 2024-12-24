@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の be7e5f1f85685a757bea6c8dae4e30914a5eec67 の変更の再修正で Windows 環境での pkg-config オプション --msvc-syntax の追加を削除して、またライブラリ指定の整形用のフォーマット文字列に LIBARG と LIBPATHFLAG という定数を再利用するようにして Windows 環境向けの不要な分岐を削除しています。
