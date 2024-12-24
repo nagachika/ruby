@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で Kernel.warn に渡すための uplevel の決定のための処理で先頭の 3 つのスタックフレームは無視するという実装だったのを label が replace_require または require のものを探すという実装に変更しています。
