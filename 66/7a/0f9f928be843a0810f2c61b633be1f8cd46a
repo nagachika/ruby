@@ -1,0 +1,1 @@
+46fec0f62a1803d44edb8b06e39ac0f358e56670 で暗黙のブロックパラメーター it を Binding#local_variables が返すようにしていたのをやめています。まだ議論が収束していないみたいで 3.4 では変更しないことにしたようです。 https://bugs.ruby-lang.org/issues/20970#note-6 https://bugs.ruby-lang.org/issues/20965#note-7
