@@ -1,0 +1,1 @@
+rubyspec で拡張ライブラリ win32ole のテストで deprecated になった定数の参照で出る警告を抑制するための $VERBOSE の一時的設定をしています。
