@@ -1,0 +1,1 @@
+common.mk に goruby のテスト用のターゲット make hello というターゲットを追加して GitHub Actions でこれを利用するようにしています。
