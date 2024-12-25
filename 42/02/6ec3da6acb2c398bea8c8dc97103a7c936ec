@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で bundled gems の子ディレクトリの feature を直接 require した時の gem 名の判定を書き換えています。
