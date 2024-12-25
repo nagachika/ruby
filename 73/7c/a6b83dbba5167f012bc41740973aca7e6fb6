@@ -1,0 +1,1 @@
+gems/bundled_gems と NEWS の bundled gems のバージョンリストの  rbs のバージョンを 3.8.0 に更新しています。 https://github.com/ruby/ruby/pull/12453
