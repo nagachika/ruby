@@ -1,0 +1,1 @@
+GitHub Actions の NEWS の default gems/bundled gems のバージョンリストを自動更新するための workflow を fork したリポジトリでは動かさないようにしています。
