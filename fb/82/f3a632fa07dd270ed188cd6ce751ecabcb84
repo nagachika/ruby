@@ -1,0 +1,1 @@
+Time の timezone オブジェクトの Encoding についての Windows 向けの変更を一時 revert しています。 3.4 リリース時には変更しないことにしたようです。
