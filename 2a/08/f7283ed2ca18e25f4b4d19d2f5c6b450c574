@@ -1,0 +1,1 @@
+native thread の確保時のエラー処理を修正。 https://github.com/ruby/ruby/pull/12441 [ruby-core:119413] [Bug #20779]
