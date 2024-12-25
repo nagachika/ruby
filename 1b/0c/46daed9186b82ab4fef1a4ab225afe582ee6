@@ -1,0 +1,1 @@
+ヘルプメッセージの --dump=insns の +comment が parser に parse.y を使っている時だけ利用可能であることを追記しています。 [ruby-core:120378] [Bug #20979]
