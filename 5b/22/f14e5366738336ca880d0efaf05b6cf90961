@@ -1,0 +1,1 @@
+vm_eval.c の prism 用の eval による ISeq を作る pm_eval_make_iseq() で ISeq のオブジェクトの参照が最適化で消えて GC で回収されないように RB_GC_GUARD() による保護を追加しています。
