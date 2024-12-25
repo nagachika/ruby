@@ -1,0 +1,1 @@
+Ractor 間を send/receive で移動させたオブジェクトが元々 freeze されていても freeze 状態が解除されるという不具合を修正しています。 [ruby-core:112207] [Bug #19408]
