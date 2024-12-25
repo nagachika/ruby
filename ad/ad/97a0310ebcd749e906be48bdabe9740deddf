@@ -1,0 +1,1 @@
+Fiber#[] で参照する fiber local storage の key が Symbol でない時に例外を発生させていたのを Thread#[] と同様に to_str で文字列に変換できるものなら受付けるようにしています。 [ruby-core:120367] [Bug #20978]
