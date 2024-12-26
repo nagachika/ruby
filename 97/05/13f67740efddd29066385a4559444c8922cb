@@ -1,0 +1,1 @@
+common.mk で rdoc によるドキュメントの coverage を確認するための undocumented ターゲットで出力を sort するようにしています。
