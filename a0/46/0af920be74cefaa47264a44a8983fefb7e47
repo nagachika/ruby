@@ -1,0 +1,1 @@
+Process::Status の rubyspec のテストを ruby_version_is で 3.3 のみで実行していたのを 3.4 でも実行するようにしています。
