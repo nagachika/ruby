@@ -1,0 +1,1 @@
+ドキュメントや rdoc 用コメント内でバックトレースでのクオートを現状に合わせて修正したり、Exception#set_backtrace などの rdoc 用コメントに説明を追記しています。 https://github.com/ruby/ruby/pull/12420
