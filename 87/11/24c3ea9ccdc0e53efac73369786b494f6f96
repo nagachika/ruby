@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper::Lexer クラスを :nodoc: タグをつけて rdoc によるドキュメント化を抑制するようにしています。
