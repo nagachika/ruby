@@ -1,0 +1,1 @@
+NEWS を再度リセットして、NEWS の default gems や bundled gems のバージョンリストの自動更新は参照している stdgems.org が更新されるまで停止したそうです。なるほど。
