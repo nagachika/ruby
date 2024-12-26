@@ -1,0 +1,1 @@
+NEWS の YJIT の変更点のセクションに --yjit-perf=codegen オプションについて追記。
