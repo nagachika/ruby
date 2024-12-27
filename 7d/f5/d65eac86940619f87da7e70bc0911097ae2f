@@ -1,0 +1,1 @@
+公開 C API の rb_undefine_finalizer() が削除されてしまっていたのを復活させています。 https://github.com/ruby/ruby/pull/12468a [ruby-core:120404] [Bug #20981]
