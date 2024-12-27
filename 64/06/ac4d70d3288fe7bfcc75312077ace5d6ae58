@@ -1,0 +1,1 @@
+bundler の Bundler::FeatureFlag.bundler_3_mode? みたいなメソッドを動的に定義しているところでメソッド呼び出ししていたのをインスタンス変数の参照に変更しています。 Windows でなぜかたまに失敗する race condition があるのがこれで直らないかなーという感じみたいです。
