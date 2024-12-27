@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc に --apply-default-exclude オプションを追加して --exclude オプションの指定があってもデフォルトの指定も保持する(上書きでなく追加にする)ようにしています。 https://github.com/ruby/ruby/pull/12386 https://github.com/ruby/rdoc/pull/1251
