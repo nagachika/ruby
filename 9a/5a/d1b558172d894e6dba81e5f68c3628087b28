@@ -1,0 +1,1 @@
+thread.c の Init_thread() で size_t が符号つきの時? の警告抑制のための条件分岐を追加しています。
