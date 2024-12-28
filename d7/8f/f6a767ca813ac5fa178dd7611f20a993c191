@@ -1,0 +1,1 @@
+19c39e4cfaa467e69b9848c9c5496d7f50d39c7f の ENV.inspect のテストで Windows 環境での Encoding の指定を修正しています。 [ruby-core:120414] [Bug #20984]
