@@ -1,0 +1,1 @@
+Windows 版の win32/Makefile.sub で make clean 系のターゲットで .bundle/ の配下の削除も追加しています。
