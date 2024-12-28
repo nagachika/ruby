@@ -1,0 +1,1 @@
+bundler の bundle outdated サブコマンドでインストールされていない gem を指定した時のエラーを修正しています。
