@@ -1,0 +1,1 @@
+拡張ライブラリ win32 のテスト用の拡張ライブラリの extconf.rb の make clean ターゲットで消すファイルに object file 名を追加しています。
