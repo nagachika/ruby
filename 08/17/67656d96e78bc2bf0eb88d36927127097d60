@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ socket のテストで connect 時の Errno::ENETUNREACH を捕捉して skip するようにしています。
