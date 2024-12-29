@@ -1,0 +1,1 @@
+parse.y の正規表現リテラルの parse 時のチェックのコードをまとめています。実際に ripper で Ripper::Lexer#scan した時の token の並びが変わるみたいです。
