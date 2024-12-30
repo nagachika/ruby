@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の gemspec ファイルの spec.documentation_uri を spec.homepage と同じにしていたのを GitHub Pages のサイトの URL に変更しています。 https://github.com/ruby/irb/pull/1055
