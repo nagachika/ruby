@@ -1,0 +1,1 @@
+parser が Ctrl や Meta キーで修飾されたマルチバイト文字を SyntaxError として拒絶するようにしています。 ripper 利用時に tokenize で誤った分割したバイト列を返してしまっていたようです。 [ruby-core:120435] [Bug #20990]
