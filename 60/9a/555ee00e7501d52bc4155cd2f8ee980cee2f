@@ -1,0 +1,1 @@
+標準添付ライブラリ irb の組み込みコマンドの show_doc の別名として ri というコマンドに対応しています。 https://github.com/ruby/irb/pull/1054
