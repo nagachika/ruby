@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテストで使うダミーサーバーのリファクタリング。 TCPServer#close などを呼ぶのを teardown にせずサーバーの Thread 内の ensure 節に移動しています。 JRuby での割り込みの処理の実装の詳細により race condition が発生するのを避けるためとのこと。
