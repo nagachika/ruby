@@ -1,0 +1,1 @@
+GitHub Actions の各種 ruby バージョンでの rubyspec を実行する workflow で起動対象とするファイルに設定ファイル自身も含めるようにしています。
