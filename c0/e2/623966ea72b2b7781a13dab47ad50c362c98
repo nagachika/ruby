@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc で定数名が自動的にクロスリファレンスでリンクになるのを抑制するために --autolink-excluded-words というオプションで抑制する単語を指定できるようにしています。 https://github.com/ruby/rdoc/pull/1259
