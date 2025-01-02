@@ -1,0 +1,1 @@
+GitHub Actions の spec_guards workflow で利用している ruby/setup-ruby アクションが更新されていなかったので手動でバージョン更新しています。
