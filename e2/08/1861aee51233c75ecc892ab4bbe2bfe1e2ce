@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc に .document ファイルを追加して自動生成されるスクリプトの冗長なドキュメント化を抑制するようにしています。 https://github.com/ruby/rdoc/pull/1265
