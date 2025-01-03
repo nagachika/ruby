@@ -1,0 +1,1 @@
+ruby リポジトリ自体の rdoc によるドキュメント生成時のオプションを指定する .rdoc_options に c0e2623966ea72b2b7781a13dab47ad50c362c98 で追加した autolink_excluded_words を追加して "Ruby" と "Set" という単語が自動的にそれぞれの定数へのクロスリファレンスになってしまうのを抑制しています。
