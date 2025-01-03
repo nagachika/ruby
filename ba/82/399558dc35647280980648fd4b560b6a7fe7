@@ -1,0 +1,1 @@
+Universal Parser 用の構造体 rb_parser_config_t の関数ポインタのメンバー ary_push が不要になっていたので削除しています。
