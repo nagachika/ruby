@@ -1,0 +1,1 @@
+parse.y に ident_or_const または tFID にマッチさせるルール inline_opeartion というルールを追加するリファクタリング。
