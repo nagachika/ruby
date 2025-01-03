@@ -1,0 +1,1 @@
+8e34346afeb3dcce69b128d7db2025d2318b52f4 に続いて .rdoc_options の --autolink_excluded_words オプションの指定に Method も追加して rdoc 用コメントの Method のエスケープをやめています。
