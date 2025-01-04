@@ -1,0 +1,1 @@
+bundler のテストで shell に依存していて Windows で skip していたものを Windows 対応しています。
