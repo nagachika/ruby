@@ -1,0 +1,1 @@
+gc.c の size_add_overflow() という関数を rbimmpl_size_add_overflow() と改名して memory.h ヘッダの inline 関数として定義を移動しています。
