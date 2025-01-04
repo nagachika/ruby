@@ -1,0 +1,1 @@
+GC の default 実装の heap_page_allocate() で rb_darray_insert() のかわりに rb_darray_insert_without_gc() を利用するようにしています。GC の処理中に GC を発生させるのを避けるため。
