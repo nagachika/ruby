@@ -1,0 +1,1 @@
+Fiber 用 coroutine の win32/win64 版の実装のヘッダファイルに COROUTINE_DECL マクロの定義を追加しています。警告の抑制のため。
