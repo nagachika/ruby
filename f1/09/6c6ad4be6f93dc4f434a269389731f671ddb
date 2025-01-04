@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で irb の同期時にドキュメントのファイルを doc/irb/ にコピーするのをやめて、同期済みの doc/irb/ 配下のファイルを削除しています。 https://github.com/ruby/ruby/pull/12325 https://github.com/ruby/ruby/pull/12416
