@@ -1,0 +1,1 @@
+darray.h に rb_darray_calloc_mul_add() という inline 関数の定義を追加しています。
