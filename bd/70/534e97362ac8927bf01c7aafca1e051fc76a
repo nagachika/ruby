@@ -1,0 +1,1 @@
+darray.h の rb_darray_realloc_mul_add_without_gc() でも size_t の乗算と加算に rbimpl_size_mul_or_raise() と rbimpl_size_add_or_raise() を利用して overflow チェックするようにしています。
