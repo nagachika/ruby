@@ -1,0 +1,1 @@
+darray.h に rb_darray_realloc_mul_add() という inline 関数を新規追加しています。
