@@ -1,0 +1,1 @@
+darray の API rb_darray_calloc_mul_add_without_gc() で size_t の乗算と加算に overflow チェックつきの rbimpl_size_add_or_raise() と rbimpl_size_mul_or_raise() をそれぞれ利用するようにしています。
