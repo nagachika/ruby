@@ -1,0 +1,1 @@
+24a740796050b72aa2d35339ba2a317d4eda7b75 で darray の rb_darray_make_without_gc() や rb_darray_append_without_gc() といった API を削除していたのを revert しています。公開 C API ではないですがここから続く変更でこの API 群を利用するようにしているようです。
