@@ -1,0 +1,1 @@
+b33c1e4bb2943779b9e7a8034cb6763ef9c25e67 および 4b02a7b794b6c565eae0ed3c8dfedc1b8daf4e49 で切り出して改名した setup_vparser() の重複した空白の除去。
