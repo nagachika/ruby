@@ -1,0 +1,1 @@
+internal/struct.h の未使用の inline 関数 rb_struct_const_heap_ptr() の定義を削除しています。
