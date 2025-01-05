@@ -1,0 +1,1 @@
+parse.y にパラメータつきルール def_endless_method を導入するリファクタリング。
