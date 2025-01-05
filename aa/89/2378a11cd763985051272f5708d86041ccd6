@@ -1,0 +1,1 @@
+parse.y の words という rule の参照時に <node> タグをつけていたのを words の定義の部分でつけるようにしています。
