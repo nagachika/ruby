@@ -1,0 +1,1 @@
+ast.c の rb_ast_parse_str()/rb_ast_parse_file()/rb_ast_parse_array() などから共通部分を rb_ast_compile() という関数に切り出すリファクタリング。
