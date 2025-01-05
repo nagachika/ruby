@@ -1,0 +1,1 @@
+parse.y で command_call ノードの値に value_expr() を呼ぶために command_call_value というノードの定義を追加しています。
