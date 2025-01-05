@@ -1,0 +1,1 @@
+f00c5102c046c8376b0c680423686ac2fcb99592 と同様に parse.y で p_primitive ノードの値に value_expr() を呼ぶだけの新しいノード定義 p_primitive_value を導入するリファクタリング。
