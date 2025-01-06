@@ -1,0 +1,1 @@
+標準添付ライブラリ reline でテストのために(?)定義していた Reline::Unicode::EscapedChars という定数を削除して、Encoding まわりのテストを Reline.core.encoding が UTF-8 じゃない時は skip するようにしています。 https://github.com/ruby/reline/pull/800
