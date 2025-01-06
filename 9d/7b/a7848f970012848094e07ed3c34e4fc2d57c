@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree.parse のテストで警告抑制のために一時的に $VERBOSE に false を設定していたのが不十分だったので nil を設定するように修正しています。
