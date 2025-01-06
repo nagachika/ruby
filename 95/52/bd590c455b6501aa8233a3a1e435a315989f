@@ -1,0 +1,1 @@
+標準添付ライブラリ irb に upstream から最新版をマージしています。主に rdoc 用コメント? の削除みたいです。 https://github.com/ruby/ruby/pull/12486
