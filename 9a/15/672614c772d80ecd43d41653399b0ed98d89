@@ -1,0 +1,1 @@
+標準添付ライブラリ reline の Reline::LineEditor でペースト後のカーソル位置の計算時に端末サイズを超えた位置になった場合にスクロールされない不具合を修正しています。 https://github.com/ruby/reline/pull/801
