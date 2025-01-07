@@ -1,0 +1,1 @@
+LEGAL に bundler のテストの並列化に使う turbo_test のライセンス情報を追記しています。 [ruby-core:120474] [Bug #21002]
