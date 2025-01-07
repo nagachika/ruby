@@ -1,0 +1,1 @@
+標準添付ライブラリ securerandom の gemspec ファイルで spec.metadata["changelog_uri"] の設定を追加しています。
