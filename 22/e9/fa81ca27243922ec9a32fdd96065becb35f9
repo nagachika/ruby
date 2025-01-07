@@ -1,0 +1,1 @@
+GC の default 実装の objspace_malloc_size() で引数の hint が指定されてた時は malloc_usable_size() を呼ばず常に hint をそのまま返すようにしています。この関数が返すサイズはメモリ使用量の概算のためで正確な値である必要はないので hint があればそれで良しとしているようです。
