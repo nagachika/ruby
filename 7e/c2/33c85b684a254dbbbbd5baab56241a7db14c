@@ -1,0 +1,1 @@
+拡張ライブラリ socket の定数 Socket::IPV6_ADRESS_FORMAT を Socket::IPV6_ADDRESS_FORMAT と typo を修正して改名しています。
