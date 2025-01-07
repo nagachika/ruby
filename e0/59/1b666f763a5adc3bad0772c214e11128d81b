@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow で launchable コマンドの実行がエラーになった時に処理を止めないようにしています。 https://github.com/ruby/ruby/pull/12449
