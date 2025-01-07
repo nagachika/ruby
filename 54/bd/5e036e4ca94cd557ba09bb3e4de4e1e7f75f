@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で vcpkg に最新版を使えるように scoop による vcpkg のインストールを追加しています。
