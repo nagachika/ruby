@@ -1,0 +1,1 @@
+NEWS の default gems のバージョンリストに rubygems, bundler, fiddle, stringio のバージョンを追記しています。また win32-registry が新規追加の default gems として追記されていますが、これは 3.4 で追加されたと思うので検出ミス?
