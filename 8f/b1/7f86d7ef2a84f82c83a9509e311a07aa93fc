@@ -1,0 +1,1 @@
+prism 利用時に defined? の引数の式の形によって VM スタックの不整合が発生する不具合を修正しています。 https://github.com/ruby/ruby/pull/12518 [ruby-core:120506] [Bug #21006]
