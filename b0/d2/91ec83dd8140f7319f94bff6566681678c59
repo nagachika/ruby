@@ -1,0 +1,1 @@
+doc/syntax/literals.rdoc 内で String のクロスリファレンスを抑制するためのエスケープを追加。
