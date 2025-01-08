@@ -1,0 +1,1 @@
+Enumerable#sum で合算中の結果の値が Float で要素が Numeric を継承した独自の値だった時に結果がおかしくなる不具合を修正しています。 [ruby-core:120512] [Bug #21008]
