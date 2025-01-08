@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc の RDoc::RubygemsHook の削除されたメソッド群が gem server で必要だったそうで復活させています。 https://github.com/ruby/rdoc/pull/1270
