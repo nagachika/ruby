@@ -1,0 +1,1 @@
+rb_bug() での異常終了時の CPU レジスタの情報を出力する処理で LARCH_REG_A1 や LARCH_REG_S3 などの A2〜 S3〜 の定数は定義されていない事があるので、それぞれ LARCH_REG_A0 や LARCH_REG_S0 からの offset 追加で指定するようにしています。
