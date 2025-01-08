@@ -1,0 +1,1 @@
+拡張ライブラリ json で文字列を escape して出力する時の処理をよく使うオプションの script_safe: false, ascii_only: false の時を前提として軽量化しているようです。
