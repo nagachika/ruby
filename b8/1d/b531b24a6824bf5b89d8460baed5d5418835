@@ -1,0 +1,1 @@
+magic comment の shareable_constant_value: experimental_everything の利用時に多値代入を利用した時に変数の NULL チェックが不足していて異常終了する可能性があった不具合を修正しています。 [ruby-core:120529] [Bug #21011]
