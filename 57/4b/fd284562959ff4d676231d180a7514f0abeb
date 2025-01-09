@@ -1,0 +1,1 @@
+doc/maintainers.md と doc/standard_library.md の ostruct のエントリを default gems から bundled gems に変更しています。
