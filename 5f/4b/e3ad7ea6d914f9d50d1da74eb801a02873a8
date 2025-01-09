@@ -1,0 +1,1 @@
+標準添付ライブラリ ostruct を削除して gems/bundled_gems に追加しています。この時点では gem 名はまだ ostruct ですね。
