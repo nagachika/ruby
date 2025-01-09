@@ -1,0 +1,1 @@
+configure の --with-parser の指定が上書きされて有効になっていなかったのを修正しています。 また GitHub Actions の parse.y を利用したビルドのための workflow で本当に parse.y 利用したビルドになっているか確認するようにしています。 [ruby-core:120553] [Bug #21017]
