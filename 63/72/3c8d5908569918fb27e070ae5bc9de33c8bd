@@ -1,0 +1,1 @@
+prism 利用時の ISeq に AST の node_id が設定されない場合があった不具合を修正しています。 [ruby-core:120538] [Bug #21014]
