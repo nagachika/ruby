@@ -1,0 +1,1 @@
+rubyspec で拡張ライブラリ win32ole のテスト時に deprecated になった定数の参照による警告を抑制するための $VERBOSE の設定を追加しています。 upstream からのマージの時に巻き戻ってしまっていたようです。
