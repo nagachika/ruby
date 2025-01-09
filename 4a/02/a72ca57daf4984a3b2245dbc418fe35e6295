@@ -1,0 +1,1 @@
+lib/bundled_gems.rb でテスト時のために TEST_BUNDLED_GEMS_FAKE_RBCONFIG という環境変数をみて LIBDIR や ARCHDIR を差し替えていたのをやめて、テスト側で Gem::BUNDLED_GEMS の定数を上書きするようにしています。
