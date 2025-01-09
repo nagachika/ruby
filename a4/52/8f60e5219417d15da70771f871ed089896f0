@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで ostruct を利用していたところで明示的な require と LoadError になった時の skip を追加しています。
