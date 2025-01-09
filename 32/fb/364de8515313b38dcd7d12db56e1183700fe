@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストで default gems のサンプルとして使っていた ostruct を erb を使うように変更しています。
