@@ -1,0 +1,1 @@
+compile.c に関数 new_child_iseq_with_callback() の wrapper である NEW_CHILD_ISEQ_WITH_CALLBACK() という関数マクロを導入するリファクタリング。
