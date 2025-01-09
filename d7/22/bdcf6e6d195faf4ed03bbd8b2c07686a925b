@@ -1,0 +1,1 @@
+bundler のテスト環境変数 BUNDLED_GEMS で実行する gem を指定する時に ostruct という gem 名は openstruct にすりかえるようにしています。また rubygems.org では「予約されています」という状態だけど名前変更されるのかな。
