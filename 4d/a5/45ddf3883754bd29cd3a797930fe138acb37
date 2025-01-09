@@ -1,0 +1,1 @@
+$LOADED_FEATURES.freeze した時のテストで require する例として ostruct が利用されていたのも erb に変更しています。
