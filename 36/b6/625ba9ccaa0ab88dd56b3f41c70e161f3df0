@@ -1,0 +1,1 @@
+parse.y で ISALPHA()、ISDIGIT() などのマクロを経由して関数を呼ぶようにしています。
