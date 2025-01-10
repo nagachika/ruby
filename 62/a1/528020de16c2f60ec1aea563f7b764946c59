@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトに Variable Width Allocation で拡張サイズの slot を割当てることができるようにしています。
