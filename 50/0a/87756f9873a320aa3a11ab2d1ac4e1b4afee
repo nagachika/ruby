@@ -1,0 +1,1 @@
+prism 利用時に pattern match の Array pattern 内に "**" があった時に SyntaxError にするようにしています。 https://github.com/ruby/prism/issues/3381
