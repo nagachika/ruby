@@ -1,0 +1,1 @@
+ruby 本体のテストに使う test/unit で Benchmark を利用した CPU 利用率をチェックする assertion メソッド assert_cpu_usage_low で Benchmark を利用せず独自に Process を利用して実装するようにしています。
