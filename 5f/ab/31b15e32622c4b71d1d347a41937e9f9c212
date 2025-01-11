@@ -1,0 +1,1 @@
+configure に target_cpu=riscv64/target_os=openbsd の時の対応を追加しています。
