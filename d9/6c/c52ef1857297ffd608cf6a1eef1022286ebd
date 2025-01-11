@@ -1,0 +1,1 @@
+rubygems の gem env で表示する情報に credential files を追加しています。
