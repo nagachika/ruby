@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から bundled gems に移行した ostruct, logger, pstore, benchmark の項目を削除しています。
