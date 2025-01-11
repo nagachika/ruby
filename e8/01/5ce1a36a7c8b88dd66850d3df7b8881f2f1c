@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest のテストで spec の describe を後置 if で実行除外していたのが linter でエラーになったそうなのでちゃんと skip を使うようにしています。
