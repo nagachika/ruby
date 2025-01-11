@@ -1,0 +1,1 @@
+bundler のテストなどで logger の bundled gems 化についての対応。
