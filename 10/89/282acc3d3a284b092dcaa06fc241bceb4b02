@@ -1,0 +1,1 @@
+bundled gems の syntax_suggest のテストで benchmark を例として利用していたところを require ができなかったら skip するようにしています。
