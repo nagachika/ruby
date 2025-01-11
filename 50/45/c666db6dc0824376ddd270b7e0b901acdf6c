@@ -1,0 +1,1 @@
+Hash の rdoc 用コメント群で Hash#inspect の変更に合わせて評価結果の表示なども変更しています。 https://github.com/ruby/ruby/pull/12540
