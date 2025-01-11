@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストで autoload のテストに使うために Benchmark を使っていたのを bundled gems 化により Tempfile を使うように変更しています。
