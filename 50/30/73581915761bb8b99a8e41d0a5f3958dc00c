@@ -1,0 +1,1 @@
+gems/bundled_gems の pstore と logger にテストに使う commit hash の指定を追加しています。
