@@ -1,0 +1,1 @@
+NEWS の default gems から bundled gems に移行した gem リストに pstore, logger, benchmark を追加しています。
