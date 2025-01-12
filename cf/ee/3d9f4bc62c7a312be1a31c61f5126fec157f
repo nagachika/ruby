@@ -1,0 +1,1 @@
+58b4e249ed8d33fc78528bc77516d541c04d65f2 で GitHub Actions の Modular GC 用 workflow で GITHUB_WORKFLOW をセットして Ractor の btest をスキップさせていたのをやめています。 f76d40789d2c7185df26e925636827c06eda7157 の mmtk の機能設定の変更で不具合が修正されたみたいです。
