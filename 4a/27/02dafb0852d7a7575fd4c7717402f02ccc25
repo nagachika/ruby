@@ -1,0 +1,1 @@
+Modular GC 利用時に ruby_load_modular_gc_from_argv() という既に存在しない関数の prototype 宣言が残っていたのを削除しています。
