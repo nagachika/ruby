@@ -1,0 +1,1 @@
+doc/encodings.rdoc に String.new に引数の指定がなかった時の文字列の Encoding が ASCII-8BIT になることを追記しています。あれ、そうなのか。 [ruby-core:120602] [Bug #21025]
