@@ -1,0 +1,1 @@
+YJIT や RJIT の統計情報で使うための rb_vm_insns_count というグローバル変数を thread local な変数として修飾子(__thread や _Thread_local など)を追加して、Rust 実装からは直接変数を触らず専用の関数 rb_yjit_vm_insns_count() を定義してこれを経由して参照させるようにしています。 Ractor を利用した時のパフォーマンスに影響があったようです。 [ruby-dev:52086] [Bug #20489]
