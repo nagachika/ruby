@@ -1,0 +1,1 @@
+C++ 用のヘッダ cstdbool は C++17 以降の標準では deprecated になっているとのことで #include しているところの __cplusplus の条件を追加しています。 [ruby-core:120601] [Bug #21024]
