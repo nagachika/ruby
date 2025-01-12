@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストで環境変数 GITHUB_WORKFLOW をチェックするところで存在チェックしていたのが冗長だったので条件から削っています。
