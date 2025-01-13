@@ -1,0 +1,1 @@
+irb の例外処理で SyntaxError や Encoding まわりのエラー発生時に "Maybe IRB bug" とメッセージを出していたところを GitHub の issues ページに誘導するようメッセージ強化しています。 https://github.com/ruby/irb/pull/1061
