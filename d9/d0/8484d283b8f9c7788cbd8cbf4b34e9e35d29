@@ -1,0 +1,1 @@
+C API rb_path_check() の Doxygen 用コメントにちゃんと説明が書かれていなかったので処理内容などを追記しています。 [ruby-core:120335] [Feature #20971]
