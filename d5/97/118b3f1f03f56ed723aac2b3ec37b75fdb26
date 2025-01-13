@@ -1,0 +1,1 @@
+fa1427a63e26d24b0aca37d66af705a57d2aa2e2 の続きでコンパイラで fall through の指定する記法がない時の PRISM_FALLTHROUGH マクロの定義を追加しています。
