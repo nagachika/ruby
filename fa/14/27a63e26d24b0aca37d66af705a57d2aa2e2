@@ -1,0 +1,1 @@
+prism switch 文の fallthrough の警告抑制のためコメントで書いてたのを PRISM_FALLTHROUGH というマクロで可能ならコンパイラの attributes などの機能で明示的に指定するようにしています。
