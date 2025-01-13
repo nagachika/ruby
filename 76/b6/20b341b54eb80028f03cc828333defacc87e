@@ -1,0 +1,1 @@
+irb の IRB.conf[:SAVE_HISTORY] の設定に件数ではなく true/false が設定されるのを許容するようにしています。 true 指定時のデフォルト件数は 1000件。 https://github.com/ruby/irb/pull/1062
