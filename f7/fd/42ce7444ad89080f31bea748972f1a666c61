@@ -1,0 +1,1 @@
+C API rb_path_check() の宣言をヘッダファイル include/ruby/internal/intern/hash.h から include/ruby/internal/intern/file.h に移動しています。定義がソースファイル間で移動したのに追随させているようです。
