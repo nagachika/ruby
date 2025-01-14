@@ -1,0 +1,1 @@
+Range#step が返す Enumerator で元の Range の開始と終了が同じ値で終端を含む Range の時は1つだけの要素を含むはずなのに空になっていた不具合を修正しています。 [ruby-core:120619] [Bug #21030]
