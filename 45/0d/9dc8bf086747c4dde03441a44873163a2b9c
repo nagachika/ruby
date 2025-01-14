@@ -1,0 +1,1 @@
+irb の IRB::Context クラスの private メソッドをメソッド定義ごとに private を呼んでたのを末尾に移動して private のセクションを作るようにしています。けどこうすると文脈依存が増えるので個別に private するほうがより良いような気はする。 https://github.com/ruby/irb/pull/1064
