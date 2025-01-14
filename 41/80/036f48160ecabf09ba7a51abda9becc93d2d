@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream からのコミットの取り込み時に commit hash の指定の形式のチェックを追加しています。
