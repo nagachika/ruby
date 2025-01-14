@@ -1,0 +1,1 @@
+doc/encodings.rdoc や String の rdoc 用コメントのサンプルコードなどで Encoding の指定に文字列ではなく Encoding 配下の定数を利用するようにしています。
