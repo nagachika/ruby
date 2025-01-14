@@ -1,0 +1,1 @@
+common.mk の make incs ターゲットの依存関係に probes.h も追加しています。
