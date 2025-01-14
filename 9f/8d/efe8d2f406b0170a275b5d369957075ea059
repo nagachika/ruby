@@ -1,0 +1,1 @@
+irb でオブジェクトの表示の色付けで BasicObject のために Object#respond_to? と Object#inspect を UnboundMethod として取り出して bind+call していたのをやめています。 標準添付ライブラリ pp のほうで対応されているのでここで独自に対応する必要がなくなったということみたいです。 https://github.com/ruby/irb/pull/1051
