@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet#version_for というメソッドを切り出すリファクタリング。
