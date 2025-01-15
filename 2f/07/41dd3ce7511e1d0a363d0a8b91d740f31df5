@@ -1,0 +1,1 @@
+599fbeaffa8e029e11223c24af47a55500f23fc3 で拡張ライブラリ json の TruffleRuby 向けの対応のために定義している JSON::Ext::Parser クラスのクラスメソッド parser の再定義で警告が出ないようにするため alias_method で自分自身の alias にするようにしています。
