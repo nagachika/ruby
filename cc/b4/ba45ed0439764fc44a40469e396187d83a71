@@ -1,0 +1,1 @@
+common.mk などでも parse.y を処理するためのコマンドを指定する変数 YACC を LRAMA に変更しています。
