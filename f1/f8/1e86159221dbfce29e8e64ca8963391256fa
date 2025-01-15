@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle で C の構造体の解析する時の bool 型の検出を修正しています。 https://github.com/ruby/fiddle/issue/168 https://github.com/ruby/fiddle/pull/169
