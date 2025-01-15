@@ -1,0 +1,1 @@
+rb_path_check() の API の宣言に RBIMPL_ATTR_DEPRECATED_INTERNAL_ONLY() マクロをつけて外部から呼ばれるのは obsoleted にしています。
