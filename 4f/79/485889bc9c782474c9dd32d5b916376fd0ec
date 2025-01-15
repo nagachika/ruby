@@ -1,0 +1,1 @@
+2f5d31d38ad6918410da1c41936e043f47725d4f で拡張ライブラリ openssl の OpenSSL::Buffer の <</concat メソッドに alias して使うため定義した append_as_bytes というメソッドを直接呼ぶようにしています。
