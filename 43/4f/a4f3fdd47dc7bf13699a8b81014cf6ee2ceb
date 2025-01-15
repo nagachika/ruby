@@ -1,0 +1,1 @@
+bundler のテスト用に tapioca という gem を使う Gemfile/Gemfile.lock を追加しています。
