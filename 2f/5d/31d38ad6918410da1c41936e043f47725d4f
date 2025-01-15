@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Buffer で保持しているバッファ全体を書き込む時に不要な部分文字列の生成を抑制しています。また ossl_ssl_write_internal() という関数の引数の文字列オブジェクトを freeze させずに rb_str_locktmp() を使ったロックを使うようにしています。 [ruby-core:120336] [Bug #20972]
