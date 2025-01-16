@@ -1,0 +1,1 @@
+標準添付ライブラリ erb でさらに ERRB::Compiler::Scanner のインスタンス変数 @scanner_map の Hash も Ractor 間で共有可能にマークして複数 Ractor 利用時に register_scanner で複製を作るようにしています。
