@@ -1,0 +1,1 @@
+拡張ライブラリビルドのための ext/extmk.rb で生成する Makefile で gem の bin/ ディレクトリ配下も symbolic link を張るようにしています。よくわからないけど default gems か bundled gems のビルドのため?
