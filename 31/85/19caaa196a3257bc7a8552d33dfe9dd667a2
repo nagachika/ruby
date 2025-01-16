@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で LibreSSL とリンクしている時に ENGINE_load_xxx() という一部の関数群の存在チェックをやめています。
