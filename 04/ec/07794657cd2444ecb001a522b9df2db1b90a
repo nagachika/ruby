@@ -1,0 +1,1 @@
+non-blocking Fiber 用の C API rb_fiber_scheduler_unblock() でコールバックメソッドの呼び出し時に errno が上書きされないよう退避しておく修正。 https://github.com/ruby/ruby/pull/12576 [ruby-core:120674] [Bug #21038]
