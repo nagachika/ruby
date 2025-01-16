@@ -1,0 +1,1 @@
+1b3037081ef9fc121b83e213d997a069acd5904b で include/ruby/internal/stdbool.h の #include <cstdbool> する条件の変更の続きで、そもそも #include <stdbool> を削除しています。 [ruby-core:120601] [Bug #21024]
