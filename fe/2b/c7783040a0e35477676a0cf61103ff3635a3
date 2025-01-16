@@ -1,0 +1,1 @@
+doc/maintainers.md および doc/standard_library.md で最近 bundled gems に移行した benchmark, logger, pstore, rdoc などのエントリを移動しています。
