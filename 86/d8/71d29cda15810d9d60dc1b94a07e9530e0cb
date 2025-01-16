@@ -1,0 +1,1 @@
+標準添付ライブラリ rdoc を削除して gems/bundled_gems に rdoc を追加しています。 rdoc も bundled gems になるんだ。
