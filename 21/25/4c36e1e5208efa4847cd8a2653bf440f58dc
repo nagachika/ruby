@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から rdoc の同期用の処理を削除しています。
