@@ -1,0 +1,1 @@
+bundled gems のテスト用のツール tool/test-bundled-gems.rb で win32ole のテストは Windows 以外では省略するようにしています。
