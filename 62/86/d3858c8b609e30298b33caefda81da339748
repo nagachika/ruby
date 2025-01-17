@@ -1,0 +1,1 @@
+Process.spawn に渡す環境変数のテストで Windows 環境でのテスト時に必須の環境変数に PROCESSOR_ARCHITECTURE を追加しています。 ARM 上で x86 の emulation をする場合に Windows ではこの環境変数が必要みたいです。
