@@ -1,0 +1,1 @@
+prism defined? の後方参照の特殊変数に対する挙動が parse.y と異なっていたのを修正。 https://github.com/ruby/ruby/pull/12584 [ruby-core:120712] [Bug #21043]
