@@ -1,0 +1,1 @@
+test/test_extlibs.rb で拡張ライブラリのビルド成功を確認するテストから win32ole を削除しています。
