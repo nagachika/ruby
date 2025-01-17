@@ -1,0 +1,1 @@
+39cfba0b5e4dd37d9b92916b36f0e4609e0b3fb9 の tool/rbinstall.rb での RbInstall::UnpackedInstaller#generate_plugins の再定義は revert してかわりに(?)グローバル変数 $destdir を絶対パスにしておくようにしています。 rubygems の plugin の読み込みのため。
