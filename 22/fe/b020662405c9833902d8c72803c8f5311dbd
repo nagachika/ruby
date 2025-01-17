@@ -1,0 +1,1 @@
+2599ac38cd24669cb7afa8b08e735bd25eb1b30a の再修正で tool/rbinstall.rb で $destdir を絶対パスにするのを $destdir が空文字列の時の抑制するようにしています。
