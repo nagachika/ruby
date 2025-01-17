@@ -1,0 +1,1 @@
+gems/lib/rake/extensiontask.rb で win32ole の bundled gems のテストのために Rake::ExtensionTask#lib_dir メソッドを空っぽで定義追加しています。
