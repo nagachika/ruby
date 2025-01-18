@@ -1,0 +1,1 @@
+bundler のテストで $LOAD_PATH を変更していたところで Spec::Path.sinatra_dependency_paths というヘルパーメソッドに追加するパスをまとめるリファクタリング。
