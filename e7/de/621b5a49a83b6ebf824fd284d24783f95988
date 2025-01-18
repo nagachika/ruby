@@ -1,0 +1,1 @@
+bundler の rubygems の plugin の読み込み処理の対応の修正。
