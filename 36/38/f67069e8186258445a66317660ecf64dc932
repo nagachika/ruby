@@ -1,0 +1,1 @@
+rubygems の Gem::Specification の Marshal.load での licenses の情報の展開時に誤って配列をネストさせていたのを修正しています。
