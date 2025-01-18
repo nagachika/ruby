@@ -1,0 +1,1 @@
+Windows 環境での Fiber 実装での Windows 向けの setjmp() を使った workaround を ARM64 版でも有効になるようにしています。
