@@ -1,0 +1,1 @@
+gc.c の mark_current_machine_context() の WASM 環境の時の定義で引数の const 修飾子を削っています。
