@@ -1,0 +1,1 @@
+a9d37ac3e5385c7aaec64e32de3d254903f4b5c0 の続きで GitHub Actions の Ubuntu 用 workflow で ruby/setup-ruby アクションによる ruby インストールを arm 版の時にスキップするようにしています。 ruby/setup-ruby が arm64 環境をサポートできていないため元から入っている system ruby を利用するとのこと。
