@@ -1,0 +1,1 @@
+ruby_current_ec を thread local な変数として宣言できないので ruby_current_ec() という関数として定義する条件を macOS(darwin) の時にしていたのを arm64 の時と条件コンパイルの preprocessor 条件を変更しています。
