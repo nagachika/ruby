@@ -1,0 +1,1 @@
+prism の定数 Prism::VERSION を freeze した文字列にしています。複数 Ractor 対応のためとのこと。 https://github.com/ruby/prism/pull/3422
