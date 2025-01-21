@@ -1,0 +1,1 @@
+拡張ライブラリ json の手書き parser の json_eat_comments() という関数の戻り値を void から bool に変更しています。呼び元で条件として使っていたのに void になってたため無限ループ状態に陥る場合があったみたいです。 https://github.com/ruby/ruby/pull/12598
