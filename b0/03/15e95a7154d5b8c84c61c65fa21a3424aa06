@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から bundled gems に移動した win32ole の同期用処理を削っています。
