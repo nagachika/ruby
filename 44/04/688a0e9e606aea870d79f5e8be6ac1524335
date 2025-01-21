@@ -1,0 +1,1 @@
+tool/rbs_skip_tests で rbs のテストの skip 対象を追加しています。たぶん json の更新の影響?
