@@ -1,0 +1,1 @@
+GitHub Actions の YJIT のテストを行う workflow で環境変数 LIBCLANG_PATH を指定するようにしています。
