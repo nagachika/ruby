@@ -1,0 +1,1 @@
+GitHub Actions の workflows で ubuntu-20.04 を利用していたところを ubuntu-22.04 に更新しています。
