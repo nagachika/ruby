@@ -1,0 +1,1 @@
+GitHub Actions の YJIT のテストの workflow で指定するコンパイラを clang-14 に更新しています。
