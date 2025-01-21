@@ -1,0 +1,1 @@
+ef585744c0db927efa8fbb072912458c2200bb5e の拡張ライブラリ json の parser の再実装で JSON::Ext::ParserConfig オブジェクトから参照しているオブジェクトへの RGenGC 用の write barrier の追加。
