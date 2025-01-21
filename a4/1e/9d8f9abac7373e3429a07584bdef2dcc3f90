@@ -1,0 +1,1 @@
+GitHub Actions の WASM 環境の workflow で tool/config.guess と tool/config.sub を tool/downloader.rb でダウンロードしなおすようにしています。環境によってダウンロードするファイルが変化したりするんだっけ?
