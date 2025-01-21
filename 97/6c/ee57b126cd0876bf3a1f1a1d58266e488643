@@ -1,0 +1,1 @@
+bundler で gemspec ファイルの読み込み処理で eval_yaml_gemspec メソッドで明示的に YAML ファイルとして読み込もうとしている時にも失敗したら通常の(?) ruby スクリプトとして eval しなおす処理を削っています。
