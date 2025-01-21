@@ -1,0 +1,1 @@
+拡張ライブラリ json の手書き parser で構造体 JSON_ParserState のメンバーとして JSON_ParserConfig を持たせていたのを消して関数の引数として取り回すようにしています。
