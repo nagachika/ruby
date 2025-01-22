@@ -1,0 +1,1 @@
+拡張ライブラリ json の parser の json_eat_comments() の戻り値を bool から void に再度変更して例外を発生させるようにしています。
