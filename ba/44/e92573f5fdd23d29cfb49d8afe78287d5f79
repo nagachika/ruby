@@ -1,0 +1,1 @@
+拡張ライブラリ json の ragel 利用削除に伴ない common.mk のルールの削除と ext/json/parser/prereq.mk という makefile を削除しています。
