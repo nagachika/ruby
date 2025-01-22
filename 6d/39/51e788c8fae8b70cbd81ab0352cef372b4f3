@@ -1,0 +1,1 @@
+Travis-CI の設定で arm64-linux でのテストを消しています。 GitHub Actions でカバーされるようになったため。
