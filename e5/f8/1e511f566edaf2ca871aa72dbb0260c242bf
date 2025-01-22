@@ -1,0 +1,1 @@
+標準添付ライブラリ ereror_highlight で STDERR を利用していたところを $stderr を参照するように変更しています。 Ractor 対応のためとのこと。
