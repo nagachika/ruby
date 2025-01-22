@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv.bind_random_port の定義を OS によって切り替えて UNIX 系 OS では UDPSocket#bind で port 番号の指定を 0 にする方法で実装するようにしています。
