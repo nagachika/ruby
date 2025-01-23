@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::DH のテストを OpenSSL の 1.1.1c 以前で skip していたところで LibreSSL とリンクしていた時も誤って skip していたのを修正しています。
