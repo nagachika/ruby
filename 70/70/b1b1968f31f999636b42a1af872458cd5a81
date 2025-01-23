@@ -1,0 +1,1 @@
+Process::GID.from_name のテストで許容する例外の Errno::XXXX を定義されているかを確認しながら追加していたのを共通の親クラスの SystemCallError でまとめて許容するようにしています。
