@@ -1,0 +1,1 @@
+tool/make-snapshot でビルド時に parse.y をコンパイルするのにビルド対象のリポジトリ(パッケージ)内の Lrama (またはなければ bison)を利用するようにしています。実行している tool/make-snapshot に入っている Lrama を使ってしまっていたみたいです。なるほど。
