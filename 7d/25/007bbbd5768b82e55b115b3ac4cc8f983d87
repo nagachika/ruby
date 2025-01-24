@@ -1,0 +1,1 @@
+5b1caffcbaa90fb5ecb1c44f3b4381307645bdbc の pull request にラベルを付与するための GitHub Actions の workflow の設定で、doc/ の配下の変更が含まれていれば Documentation ラベルを付与するようになってたので、doc/ の配下のみの変更の時にラベル付与するよう修正しています。
