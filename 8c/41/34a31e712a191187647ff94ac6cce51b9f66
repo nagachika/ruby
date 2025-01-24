@@ -1,0 +1,1 @@
+irb の組み込みコマンド copy のテストで起動する ruby コマンドを決め打ちで書いてたのを EnvUtil.rubybin を参照するように修正しています。 https://github.com/ruby/irb/pull/1071
