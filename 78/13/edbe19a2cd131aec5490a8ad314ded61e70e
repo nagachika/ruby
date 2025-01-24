@@ -1,0 +1,1 @@
+irb で結果を表示するための pretty_print に時間がかかる時のために結果を逐次表示するようにしているようです。 https://github.com/ruby/irb/pull/1040
