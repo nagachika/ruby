@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#sysread でバッファに使う文字列オブジェクトの変更を抑制するため rb_str_locktmp() でロックするタイミングを修正してロックしたままになる可能性があった不具合を修正しています。
