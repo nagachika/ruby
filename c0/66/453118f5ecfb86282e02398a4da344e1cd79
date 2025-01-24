@@ -1,0 +1,1 @@
+irb の評価結果の逐次表示の改行などの非表示文字の処理を修正しています。 https://github.com/ruby/irb/pull/1069
