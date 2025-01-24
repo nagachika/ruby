@@ -1,0 +1,1 @@
+ext/extmk.rb の create_makefile にブロックが渡された時の yield を追加しています。
