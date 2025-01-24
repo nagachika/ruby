@@ -1,0 +1,1 @@
+doc/maintainers.md および doc/standard_library.md の win32ole の項目を bundled gems のセクションに移動しています。
