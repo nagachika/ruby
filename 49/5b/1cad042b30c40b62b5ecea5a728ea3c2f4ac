@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL の TS_VERIFY_CTX_set0_certs() という API を利用するように実装を変更しています。
