@@ -1,0 +1,1 @@
+拡張ライブラリ oepnssl の OpenSSL::PKey::{RSA,DSA,DH} の parames メソッドで対応しないキーの値に OpenSSL::BN の 0 の値を返していたのを nil を返すように変更しています。
