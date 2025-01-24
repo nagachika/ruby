@@ -1,0 +1,1 @@
+require で警告をだす lib/bundled_gems.rb のテストで fiddle や erb を利用していたものが不適当になったので openssl を使うように変更しています。
