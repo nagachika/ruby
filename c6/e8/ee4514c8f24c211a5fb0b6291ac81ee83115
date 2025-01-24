@@ -1,0 +1,1 @@
+irb に組み込みコマンドの copy を追加して、式の評価結果をクリップボードにコピーすることができるようにしています。これは便利そう。実際のコピーは pbcopy や xclip、あるいは IRB.conf[:COPY_COMMAND] で設定可能なコマンドを呼び出してそれに任せるようです。 https://github.com/ruby/irb/pull/1044
