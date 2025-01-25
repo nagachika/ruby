@@ -1,0 +1,1 @@
+Process::GID.from_name のテストで発生する例外を 7070b1b1968f31f999636b42a1af872458cd5a81 で SystemCallError で指定するのが親クラスの指定ではだめだったみたいなので c51668d24962602b781a7348451de807f74b05be で新規追加した assert_raise_kind_of を利用するように修正しています。
