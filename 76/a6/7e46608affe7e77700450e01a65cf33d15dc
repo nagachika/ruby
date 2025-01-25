@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 対応のための独自アクションで設定を追加して Predictive Test Selection という機能を有効にしています。この機能は実行すべきテストを変更内容から機械学習によって推定してそのテストを実行するというものみたいです。すごい。 https://github.com/ruby/ruby/pull/12617
