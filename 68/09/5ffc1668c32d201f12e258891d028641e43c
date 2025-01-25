@@ -1,0 +1,1 @@
+default gems の require で警告を出力するための lib/bundled_gems.rb で irb や reline のための特別処理をしていたのが不要になったので削除しています。
