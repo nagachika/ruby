@@ -1,0 +1,1 @@
+gems/bundled_gems の irb と reline のテストに利用する commit hash の指定を追加しています。
