@@ -1,0 +1,1 @@
+本体のテストや default gems のテストに(?)使う tool/lib/core_assertions.rb に Test::Unit::CoreAssertions#assert_raise_kind_of という例外の親クラスの指定ができる assertion メソッドを新規追加しています。 assert_raise は子クラスの例外だとだめなんだ。
