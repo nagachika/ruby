@@ -1,0 +1,1 @@
+bundler のテストで irb が require できない時に利用するテストを skip するようにしています。
