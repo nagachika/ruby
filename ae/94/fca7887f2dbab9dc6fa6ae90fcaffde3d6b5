@@ -1,0 +1,1 @@
+本体のテストに使う test/unit 自体のテストに assertion メソッド Test::Unit::CoreAssertions#assert_raise_with_message のテストを追加しています。
