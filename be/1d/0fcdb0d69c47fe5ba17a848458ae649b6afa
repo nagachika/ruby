@@ -1,0 +1,1 @@
+default gems の require で警告を出力するための lib/bundled_gems.rb で一度削除されていた Gem::BUNDLED_GEMS.force_activate というメソッドを復活させて prelude.rb で Binding#irb での動的 require の対応に利用しています。
