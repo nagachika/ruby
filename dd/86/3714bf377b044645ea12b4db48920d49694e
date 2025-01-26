@@ -1,0 +1,1 @@
+vm_cc_valid_p() という RJIT 用の? inline 関数の API が不要になっていたので削除しています。
