@@ -1,0 +1,1 @@
+require 済みの feature をチェックする rb_feature_p() という関数で渡された feature が既に絶対パス指定だった時に get_expanded_load_path() を呼んで展開済みの features のパスを構築する処理をスキップするようにしています。パフォーマンスのためみたいです。 https://github.com/fxn/zeitwerk/pull/308
