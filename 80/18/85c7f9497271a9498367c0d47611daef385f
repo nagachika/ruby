@@ -1,0 +1,1 @@
+common.mk で make exam のターゲットに bundled gems テストのためのインストール処理の依存関係を追加しています。
