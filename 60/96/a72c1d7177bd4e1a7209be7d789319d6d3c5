@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb から bundled gems に移行した irb と reline の同期処理を削除しています。
