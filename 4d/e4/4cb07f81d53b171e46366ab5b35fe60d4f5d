@@ -1,0 +1,1 @@
+bundler のテストで default gems の例として rdoc を利用していたところを、rdoc がもう bundled gems になったので json を使うように変更しています。
