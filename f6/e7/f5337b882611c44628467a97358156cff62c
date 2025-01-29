@@ -1,0 +1,1 @@
+bundler の Bundler::Dependency の未使用になったインスタンス変数の削除。
