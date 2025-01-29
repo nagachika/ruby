@@ -1,0 +1,1 @@
+GitHub Actions の Cygwin 版 workflow の make の -j オプションでのジョブ数指定を増やしています。
