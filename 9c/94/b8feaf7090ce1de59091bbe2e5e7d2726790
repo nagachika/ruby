@@ -1,0 +1,1 @@
+bundler のテストの helper の simulate_windows というメソッドを削除して呼び元で直接 simulate_platform を呼ぶように変更しています。
