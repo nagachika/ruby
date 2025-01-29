@@ -1,0 +1,1 @@
+bundler で Thread#name= メソッドの存在を respond_to? でチェックしていたのをもう不要として削っています。
