@@ -1,0 +1,1 @@
+GC の default 実装で 9e5ff79c5be426c3e6fef80449620075cbca7671 で引数追加した rb_gc_vm_weak_table_foreach() を利用するようにしています。詳細読めてませんがインスタンス変数の GC.compact 時の参照更新処理を最適化するためみたいです。
