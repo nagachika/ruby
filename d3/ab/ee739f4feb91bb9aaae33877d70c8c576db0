@@ -1,0 +1,1 @@
+46b544c54955348ef1ea9692b837b061f59f91cd で rubyspec の拡張ライブラリ socket のテストで hostname のかわりに uname -n を使うように変更したのを、uname コマンドがない Windows 系で例外を捕捉して hostname に fallback するように対応しています。 https://github.com/ruby/ruby/pull/12655
