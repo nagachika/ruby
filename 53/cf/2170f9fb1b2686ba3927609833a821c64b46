@@ -1,0 +1,1 @@
+拡張ライブラリ json の .gemspec ファイルの homepage や documentation_url などのリンクを更新しています。また metadata["wiki_url"] は削除しています。
