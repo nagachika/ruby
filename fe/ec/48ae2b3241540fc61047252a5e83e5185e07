@@ -1,0 +1,1 @@
+GC の mmtk 実装の rb_gc_vm_weak_table_foreach() 呼び出しに 9e5ff79c5be426c3e6fef80449620075cbca7671 で追加した引数を追加しています。
