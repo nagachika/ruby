@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap や ObjectSpace::WeakKeyMap のテーブルの traverse をする API rb_gc_vm_weak_table_foreach() に weak_only という引数を追加しています。この時点では未使用みたいですが後の最適化のためみたいです。
