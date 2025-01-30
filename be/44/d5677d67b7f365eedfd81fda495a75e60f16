@@ -1,0 +1,1 @@
+GC の default 実装の stress_to_class() および set_stress_to_class() マクロの定義で未使用の変数の警告抑制のため objspace の参照を追加しています。
