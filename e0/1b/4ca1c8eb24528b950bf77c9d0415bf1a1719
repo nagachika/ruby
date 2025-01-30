@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で ErrorHighlight::Spotter の fetch_line というユーティリティメソッドを利用するようにリファクタリングしています。エラー範囲の開始行の設定が漏れているケースがあったものの修正でもあるようです。 https://github.com/ruby/error_highlight/pull/58
