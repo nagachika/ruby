@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 用の独自アクションで設定を環境変数を使って指定していたのをコマンドラインオプション --get-tests-from-previous-sessions を利用するように変更しています。 https://github.com/ruby/ruby/pull/12650
