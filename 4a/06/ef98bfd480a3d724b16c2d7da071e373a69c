@@ -1,0 +1,1 @@
+GitHub Actions の Mod GC 用の workflow で make check に失敗があった時に exit 1 していた result という step を削除しています。
