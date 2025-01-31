@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで benchmark.gem に依存していたところを Process.clock_gettime を直接使うように変更しています。
