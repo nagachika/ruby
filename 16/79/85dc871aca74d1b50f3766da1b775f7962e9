@@ -1,0 +1,1 @@
+895aa44b81013513e1e504a683ee6eaa6f03bb46 の続きで rubyspec の gemspec のテストでそもそも環境変数 GEM_HOME が未設定の時も skip するようにしています。
