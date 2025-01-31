@@ -1,0 +1,1 @@
+rubyspec の rubygems のテストで環境変数 GEM_HOME の設定がうまく反映できていない特殊な環境? でテストを skip するようにしています。
