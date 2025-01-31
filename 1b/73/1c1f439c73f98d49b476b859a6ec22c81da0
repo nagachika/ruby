@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::XXX クラス群の to_der、to_pem などで export 用の変換をする時に鍵の情報に不足がないかの検証を行なって不足時に例外を発生させるようにしています。 https://github.com/ruby/openssl/issues/845
