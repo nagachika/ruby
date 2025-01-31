@@ -1,0 +1,1 @@
+bundler のテストで irb に依存しているものの require 失敗を捕捉して skip するようにしています。
