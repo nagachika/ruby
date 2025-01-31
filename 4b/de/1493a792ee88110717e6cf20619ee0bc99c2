@@ -1,0 +1,1 @@
+node.h の nd_line() および nd_set_line() を関数マクロから inline 関数としての定義に変更しています。
