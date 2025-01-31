@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 版 workflow で make に -j4 オプションを渡して並列でビルドやテスト実行を行うようにしています。
