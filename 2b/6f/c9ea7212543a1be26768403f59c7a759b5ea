@@ -1,0 +1,1 @@
+ext/extmk.rb の修正。チケットをみるに Msys2 や MinGW 環境でのビルドの対応みたいです。 [ruby-core:120802] [Bug #21092]
