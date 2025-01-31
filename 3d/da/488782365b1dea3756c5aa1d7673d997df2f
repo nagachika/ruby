@@ -1,0 +1,1 @@
+libexec/ 配下の irb, rdoc, ri など bundled gems のコマンドを削除しています。
