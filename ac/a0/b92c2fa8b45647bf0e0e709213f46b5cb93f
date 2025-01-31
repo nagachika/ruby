@@ -1,0 +1,1 @@
+thread.c の rb_thread_io_blocking_call() という関数で変数 prev_mn_schedulable に longjmp(3) による変数の clobber の警告抑制のため volatile 修飾子を追加しています。
