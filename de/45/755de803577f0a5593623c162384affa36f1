@@ -1,0 +1,1 @@
+GC の default 実装で GC.add_stress_to_class で指定したクラスを管理するのに配列のかわりに ID をキーとする Hash を利用するように変更しています。また GC_DEBUG_STRESS_TO_CLASS というマクロをデフォルト真に定義していますが、これはデバッグ用の変更の戻し忘れ?
