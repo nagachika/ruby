@@ -1,0 +1,1 @@
+rdoc 用コメントの call-seq のインデント修正。 https://github.com/ruby/ruby/pull/12662
