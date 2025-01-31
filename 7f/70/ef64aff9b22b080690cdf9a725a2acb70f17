@@ -1,0 +1,1 @@
+拡張ライブラリ json の gemspec の spec.files に不要になった拡張子 .rl の指定を削除。また JSON::Fragment の rdoc 用コメントの英文の修正。
