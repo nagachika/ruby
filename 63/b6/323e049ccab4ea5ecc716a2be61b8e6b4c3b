@@ -1,0 +1,1 @@
+拡張ライブラリ socket の接続処理時に使うメモリの解放処理時の対象のアドレスの NULL チェックを追加。 https://github.com/ruby/ruby/pull/12661
