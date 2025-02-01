@@ -1,0 +1,1 @@
+起動時に Ractor を管理する linked list 構造の初期化が完了していない場合に異常終了していたので、ruby_single_main_ractor という変数が利用可能ならそちらを参照するように変更しています。 [ruby-core:120833] [Bug #21099]
