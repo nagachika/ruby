@@ -1,0 +1,1 @@
+rubyspec の Marshal.dump のテストで flonum の Float の結果がエラーになるのを避けるため子プロセスに分離して実行するようにしています。
