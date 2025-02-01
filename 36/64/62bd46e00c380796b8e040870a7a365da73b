@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md にビルド時に必要な git のバージョンの最低バージョンとして 2.32 を指定する記述を追加しています。
