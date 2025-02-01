@@ -1,0 +1,1 @@
+bundler のテストに JRuby でのテストに使う jruby-jars のバージョンの指定を更新しています。
