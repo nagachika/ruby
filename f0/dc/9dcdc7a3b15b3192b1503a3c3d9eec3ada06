@@ -1,0 +1,1 @@
+Module#alias_method などで private のメソッドに異なる可視性で alias を作ろうとした時のメッセージを修正しています。
