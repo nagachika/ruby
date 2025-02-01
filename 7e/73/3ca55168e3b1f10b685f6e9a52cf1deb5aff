@@ -1,0 +1,1 @@
+YJIT の Rust 実装で rb_simple_iseq_p() や rb_iseq_only_kwparam_p() といった C の関数の宣言(?) をする extern に "C" の指定が漏れてたのを修正しています。
