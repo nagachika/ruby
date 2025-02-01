@@ -1,0 +1,1 @@
+YJIT の Rust 実装の yjit/src/stats.rs で古くなっていたコメントの修正。
