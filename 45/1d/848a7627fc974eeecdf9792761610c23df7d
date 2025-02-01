@@ -1,0 +1,1 @@
+bundler の bundle install 時に binstubs を生成する処理で bundler 自身の binstub の生成を抑制するようにしています。
