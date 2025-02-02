@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ socket のテストでホスト名を得るのに hostname を使うか uname -n を使うかを例外発生で捕捉していたのを platfomr_is_not を使って明示的に Windows 環境とそれ以外でコマンドを使いわけるようにしています。
