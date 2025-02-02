@@ -1,0 +1,1 @@
+tool/rbinstall.rb で man のドキュメントファイルを gzip/bzip2 圧縮するようにしています。
