@@ -1,0 +1,1 @@
+tool/rbinstall.rb で man ページの生成時の bundler 向けの例外処理をやめています。
