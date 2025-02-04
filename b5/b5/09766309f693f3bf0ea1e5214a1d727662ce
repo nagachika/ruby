@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle.last_error や Fiddle.win32_last_error などのメソッドをメソッド内で OS やインタプリタの種類による分岐をしていたのをメソッド定義自体を分岐するようにして動的な分岐を減らしています。 https://github.com/ruby/fiddle/pull/172
