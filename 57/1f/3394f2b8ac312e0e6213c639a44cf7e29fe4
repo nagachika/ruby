@@ -1,0 +1,1 @@
+571f3394f2b8ac312e0e6213c639a44cf7e29fe4 の続きで Array#shuffle や Array#shuffle! で乱数生成器が指定した上限を超える整数を返した時にエラーになることを確認するテストを rubyspec に追加しています。 [ruby-core:120857] [Bug #21106]
