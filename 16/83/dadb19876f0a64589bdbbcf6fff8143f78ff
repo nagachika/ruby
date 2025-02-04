@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 の実装で IPv4 と IPv6 の接続試行で一方でだけ名前解決が失敗してもう一方は名前解決は成功したものの他のエラーが発生した時にも Socket::ResolutionError 例外が発生してしまうという不具合を修正しています。 https://github.com/ruby/ruby/pull/12678 [ruby-core:120787] [Bug #21088]
