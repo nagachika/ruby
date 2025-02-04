@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#min_version= と #max_version= メソッドの実装を ruby 実装から C の拡張ライブラリ実装に移動して、min と max の両方を同時に設定する set_minmax_proto_version メソッドに委譲していたのをやめています。 0 に指定すると変更しないという意味だという前提でそういう実装をしてたみたいですが OpenSSL 1.1.1 からそのような挙動でなくなったとのことで必要な変更のみ API を呼ぶようにしています。
