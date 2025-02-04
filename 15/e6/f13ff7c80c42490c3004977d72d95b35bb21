@@ -1,0 +1,1 @@
+拡張ライブラリ fiddle の Fiddle.last_error の JRuby 向け実装で真偽値を返していたのを errnno の整数を返すように修正しています。 https://github.com/ruby/fiddle/pull/173
