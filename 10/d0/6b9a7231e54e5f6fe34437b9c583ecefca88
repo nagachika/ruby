@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv から拡張ライブラリ win32 に同梱されている win32/resolv を require する時に既に load 済みでないかどうか defined? で Win32::Resolv の定義有無を確認してから require するようにしています。
