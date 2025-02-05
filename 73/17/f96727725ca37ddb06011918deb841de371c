@@ -1,0 +1,1 @@
+rubyspec の flonum の Marshal.dump のテストをヘルパーメソッド quarantine! で子プロセスに分離するのを it の外側でくくってしまっていたので it の中で使うように再修正しています。 https://github.com/ruby/ruby/pull/12692
