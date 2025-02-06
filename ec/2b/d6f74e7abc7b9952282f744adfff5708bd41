@@ -1,0 +1,1 @@
+拡張ライブラリがビルドされたかチェックする test/test_extlibs.rb のテストから fiddle を削除しています。
