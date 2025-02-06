@@ -1,0 +1,1 @@
+GitHub Actions のリリース時の workflow で ruby/docker-images の GitHub Actions をトリガーするところで arch と latest というパラメーターを渡していたのを削除しています。未使用になったとのこと。
