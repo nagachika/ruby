@@ -1,0 +1,1 @@
+333bc26d82370e2f5d324c1a24e7885fde4b9657 のさらに続きで win32/resolv で registry の値を読み込むメソッドにキーワード引数 expand を追加して Win32::Registry#read_s_expand を使うケースもカバーするようにしています。
