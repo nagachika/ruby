@@ -1,0 +1,1 @@
+rjit.rb で bundled gems を展開した .bundle/gems/ 配下の fiddle のパスを $LOAD_PATH に追加するようにしています。
