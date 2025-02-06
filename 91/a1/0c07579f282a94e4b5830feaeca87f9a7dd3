@@ -1,0 +1,1 @@
+ObjectSpace::WeakKeyMap#[]= でキーに即値の VALUE が渡された時の ArgumentError 例外のメッセージの修正。 [ruby-core:120878] [Bug #21112]
