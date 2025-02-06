@@ -1,0 +1,1 @@
+078e723b24b6329280b83791c46f31dc284008d3 や a487698cc789624924ef5e309ffbffcc36f754ca のさらに続きで win32/resolv で win32/registry が利用できない時の Get-ItemProperty コマンドでの fallback 実装をメソッドに切り出すリファクタリング。
