@@ -1,0 +1,1 @@
+make test-bundled-gems の Windows 上の時に失敗を許容する gem のリストから net-smtp を削除しています。
