@@ -1,0 +1,1 @@
+bundler の bundle doctor サブコマンドで Fiddle.dlopen を利用していたところをメソッドに切り出して LoadError に対応するようにしています。
