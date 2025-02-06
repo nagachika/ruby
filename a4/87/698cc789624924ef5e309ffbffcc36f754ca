@@ -1,0 +1,1 @@
+078e723b24b6329280b83791c46f31dc284008d3 の続きで win32/resolv で Win32::Registry#read_s を使ったレジストリの値の読み込みが win32/registry が使えない場合に Powershell の Get-ItemProperty コマンド? を利用するように fallback 実装を追加しています。
