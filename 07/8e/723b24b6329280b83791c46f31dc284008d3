@@ -1,0 +1,1 @@
+02a9c05e3ecc5b4a382ca9c7ca3e4adb79844bc2 の続きで win32/resolv から win32/registry の Win32::Registry#read_s のために一度 open した Win32::Registry を使いまわしていたのを毎回 open しなおすようにしています。open のブロックがネストしているところがあってそれを避けるためとのことのようです。
