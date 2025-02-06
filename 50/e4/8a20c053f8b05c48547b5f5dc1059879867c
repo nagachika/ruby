@@ -1,0 +1,1 @@
+GitHub Actions のリリース用の workflow で rbenv の ruby-build プラグインへのバージョン追加を行う Actions をトリガーする時の openssl_version パラメーターの指定を OpenSSL のリポジトリのリリース情報から自動取得するようにしています。
