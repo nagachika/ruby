@@ -1,0 +1,1 @@
+bundler で rubygems の Gem::Dependency を継承した独自のクラスを使ってけど不要だったところを直接 Gem::Dependency を利用するように最適化しています。
