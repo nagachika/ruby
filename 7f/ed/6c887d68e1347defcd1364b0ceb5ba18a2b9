@@ -1,0 +1,1 @@
+bundler の Bundler::EndpointSpecification で不要なオブジェクトの生成を抑制する最適化。
