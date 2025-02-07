@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で require 時の警告で bundled gems になっているかこれからなる予定かで警告メッセージを少し変更するようにしています。
