@@ -1,0 +1,1 @@
+lib/bundled_gems.rb の SINCE_FAST_PATH という定数が不要になってたので削除しています。
