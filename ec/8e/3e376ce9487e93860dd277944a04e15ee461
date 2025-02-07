@@ -1,0 +1,1 @@
+rjit.rb で 9052d0d534828f5b8bd5d94b3863f8afbd617053 で fiddle のための $LOAD_PATH へのパス追加をしていたのを require "fiddle" が LoadError になってリトライする時だけ変更するようにしています。
