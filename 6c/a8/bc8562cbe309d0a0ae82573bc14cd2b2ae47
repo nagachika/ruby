@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow 用の独自 action で docker run で起動するコンテナに環境変数 GITHUB_SERVER_URL を伝播させるようにしています。 https://github.com/ruby/ruby/pull/12704
