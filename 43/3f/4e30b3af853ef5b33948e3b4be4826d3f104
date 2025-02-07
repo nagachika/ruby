@@ -1,0 +1,1 @@
+lib/bundled_gems.rb で bundled gems のネストしたパスを require した時の対応のための PREFIXED という定数を使ってたのを削除しています。
