@@ -1,0 +1,1 @@
+bundler の Bundler::EndpointSpecification というクラスの @dependencies というインスタンス変数を参照が必要になるまで初期化を遅延する最適化。メモリ使用量を抑えることができるみたいです。
