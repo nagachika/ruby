@@ -1,0 +1,1 @@
+tool/rbinstall.rb で default gems の gemspec ファイルを読み込む時に spec.files を git ls-files コマンドから切り出してファイルリストを作る方式の対応で split が無引数の時にも対応できるよう切り出す正規表現を修正しています。
