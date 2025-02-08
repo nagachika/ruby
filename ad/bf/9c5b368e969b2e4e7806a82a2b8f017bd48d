@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストに openssl.cnf の設定が OpenSSL::SSL::SSLContext#min_version に反映されることを確認するテストを追加しています。
