@@ -1,0 +1,1 @@
+rubyspec の 拡張ライブラリ socket のテストで socket の対向側が close された後の recvmsg_nonblock や recvfrom_nonblock などが IO::EAGAINWaitReadable を発生しうるので補足してリトライさせるようにしています。またこの例外を回避しようとして子プロセスを起動してテストするようにしていたのをやめています。
