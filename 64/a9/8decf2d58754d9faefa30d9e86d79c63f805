@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで assert_handshake_error という assertion メソッドを誤って使ってたところを assert_raise でより厳密な例外クラスを確認するように修正しています。
