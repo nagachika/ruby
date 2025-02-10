@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで assert_raise や assert_nothing_raised で例外の有無を確認する assertion でブロックを意図した部分に絞るようにしています。
