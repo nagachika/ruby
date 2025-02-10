@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#npn_protocols に不正な引数を渡すテストで不要なサーバー起動をやめています。
