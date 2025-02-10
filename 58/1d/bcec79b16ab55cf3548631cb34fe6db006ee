@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで OpenSSL::SSL::SSLContext#ssl_version= を利用していたところをかわりに OpenSSL::SSL::SSLContext#max_version= を使うように変更しています。またバージョンの指定に Symbol ではなく定数を利用するようにしています。
