@@ -1,0 +1,1 @@
+ruby-runner.c で bundled gems をロードできるようにするために環境変数 GEM_PATH と GEM_HOME を設定するところで、既に環境変数 GEM_PATH が設定済みだったら上書きしないようにしています。
