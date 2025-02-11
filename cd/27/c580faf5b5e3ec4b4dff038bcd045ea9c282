@@ -1,0 +1,1 @@
+GitHub Actions の Lauchable 用の独自アクションの実装で launchable の --flavor オプションの workflow という項目の指定を追加しています。たぶん表示用のラベルみたいなものとして使う指定ではないかと思われます。 https://github.com/ruby/ruby/pull/12720
