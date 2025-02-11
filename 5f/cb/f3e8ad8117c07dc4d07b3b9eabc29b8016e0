@@ -1,0 +1,1 @@
+GitHub Actions の Mod GC 用の workflow でデバッグ用に環境変数を設定したビルドをする設定を削除しています。
