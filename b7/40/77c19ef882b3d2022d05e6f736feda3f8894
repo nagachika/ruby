@@ -1,0 +1,1 @@
+GC の実験実装 mmtk の Rust 実装で plan を指定する環境変数 MMTK_PLAN が未指定の時の値を MarkSweep から Immix というものに変更しています。
