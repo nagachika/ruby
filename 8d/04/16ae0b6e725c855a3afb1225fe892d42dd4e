@@ -1,0 +1,1 @@
+dynamic symbol の ID と名前を管理するグローバル変数 ruby_global_symbols のメンバーを GC.compact で移動可能にしています。
