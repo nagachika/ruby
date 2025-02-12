@@ -1,0 +1,1 @@
+Array のメソッドの rdoc 用コメント郡の call-seq でも receiver を書かない表記に揃えています。
