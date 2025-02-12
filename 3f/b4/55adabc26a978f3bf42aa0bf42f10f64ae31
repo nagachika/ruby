@@ -1,0 +1,1 @@
+8d0416ae0b6e725c855a3afb1225fe892d42dd4e の続きでグローバル変数 ruby_global_symbols のメンバーのテーブルの GC.compact での移動対応の処理を関数に切り出しています。
