@@ -1,0 +1,1 @@
+Hash の包含関係を確かめるメソッド郡(==, <=, <, >=, >)の包括的な説明を doc/hash_inclusion.rdoc というファイルに追加してここへのリンクを rdoc 用コメントに含めるようにしています。 https://github.com/ruby/ruby/pull/12634
