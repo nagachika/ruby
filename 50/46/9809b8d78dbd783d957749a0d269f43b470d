@@ -1,0 +1,1 @@
+GC の実験実装 mmtk のテストで環境変数 RUBY_TEST_TIMEOUT_SCALE によるタイムアウトの増減に対応しています。
