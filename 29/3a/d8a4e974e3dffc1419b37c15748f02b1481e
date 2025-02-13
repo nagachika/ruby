@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::Generator::State#to_h のキーワード引数 as_json に Proc オブジェクトしか受け付けなかったのを false も許容するようにしています。 https://github.com/ruby/json/issues/748
