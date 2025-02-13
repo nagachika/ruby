@@ -1,0 +1,1 @@
+template/Makefile.in の YJIT の libyjit.a についてのコメントが古くなっていたので削っています。
