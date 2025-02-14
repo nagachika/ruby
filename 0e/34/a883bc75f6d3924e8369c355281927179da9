@@ -1,0 +1,1 @@
+rjit.rb で fiddle の LoadError 時の retry が無限ループ状態になってしまっていたみたいで 2度目はトップレベル return ですぐ抜けるようにしています。
