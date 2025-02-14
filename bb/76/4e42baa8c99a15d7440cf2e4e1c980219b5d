@@ -1,0 +1,1 @@
+bundler の Bundler::LazySpecification のメソッド切り出しするリファクタリング。
