@@ -1,0 +1,1 @@
+bundler の Bundler::LazySpecification のキャッシュ生成で platform が一致しない gem をエラーにしないようにしている? みたいです。
