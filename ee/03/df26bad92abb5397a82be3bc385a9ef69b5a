@@ -1,0 +1,1 @@
+bundler の --prefer-local オプション指定時の挙動の修正。
