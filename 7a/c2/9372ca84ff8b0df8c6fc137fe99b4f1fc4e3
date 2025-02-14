@@ -1,0 +1,1 @@
+bundler の Bundler::LazySpecification の __materialize__ というメソッドを choose_compatible に解明して private メソッドにしています。
