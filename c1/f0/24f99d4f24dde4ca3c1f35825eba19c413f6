@@ -1,0 +1,1 @@
+拡張ライブラリ psych でメソッド内で遅延させて require "stringio" しているところを処理を軽くするため StringIO が未定義の時だけ require するように分岐を追加しています。 https://github.com/ruby/psych/pull/686
