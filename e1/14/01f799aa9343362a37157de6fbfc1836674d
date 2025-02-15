@@ -1,0 +1,1 @@
+bundler の platform の指定で mswin や mingw の指定を deprecated に指定して警告を出すようにしています。
