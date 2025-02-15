@@ -1,0 +1,1 @@
+budler のテストで古い bundler で実行除外するための spec の filter で不要になってるものを削除しています。
