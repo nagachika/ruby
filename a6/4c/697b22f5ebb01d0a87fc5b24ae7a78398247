@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet の reset! メソッドを削除して add_spec/remove_spec といったメソッドを追加して配列でなく Hash で管理するようにしています。
