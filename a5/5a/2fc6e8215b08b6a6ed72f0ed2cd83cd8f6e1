@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet#[]= で上書きするキーをまず削除するようにしています。
