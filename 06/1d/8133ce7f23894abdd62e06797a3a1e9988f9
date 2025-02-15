@@ -1,0 +1,1 @@
+bundler の Bundler::RubygemsIntegration#replace_gem の不要な引数を削除しています。
