@@ -1,0 +1,1 @@
+複数の Thread を利用して deadlock が検出された時に各 Thread のバックトレースを表示する機能が 3.0 以降で表示されなくなっていたので実装を復活させています。そういえば昔たまにみたことがありますね。 https://github.com/ruby/ruby/pull/12721 [ruby-core:120930] [Bug #21127]
