@@ -1,0 +1,1 @@
+yjit/yjit.mk で cargo build 実行時に環境変数 MACOSX_DEPLOYMENT_TARGET を設定するようにしています。
