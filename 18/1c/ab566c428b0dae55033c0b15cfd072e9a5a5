@@ -1,0 +1,1 @@
+bundler の platform の指定で MinGW の環境の指定に利用する定数を変更しています。
