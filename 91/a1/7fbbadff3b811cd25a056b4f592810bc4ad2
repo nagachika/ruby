@@ -1,0 +1,1 @@
+bundler のテストで platform の指定に使っていた mswin や mingw 系の名前の利用をやめています。
