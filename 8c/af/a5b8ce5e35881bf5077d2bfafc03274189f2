@@ -1,0 +1,1 @@
+性能のために YJIT で VM 命令のカウンタの計測を configure 時に --enable-yjit=stats や --enable-yjit=dev_nodebug を指定してビルドした時だけ行なうようにしています。
