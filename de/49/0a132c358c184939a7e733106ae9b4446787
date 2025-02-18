@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で configure.bat の引数に --with-gmp を追加しています。
