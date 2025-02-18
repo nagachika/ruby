@@ -1,0 +1,1 @@
+win32/Makefile.sub で XCFLAGS 変数に XINCFLAGS も含めるようにちています。 libgmp のリンクのためみたいです。
