@@ -1,0 +1,1 @@
+bundler で rubygems の development dependency を :development グループの依存関係にマッピングしていたのをやめているようです。
