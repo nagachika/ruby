@@ -1,0 +1,1 @@
+YJIT の Rust 実装の C binding から rb_get_iseq_body_total_calls() という未使用の関数を削除しています。
