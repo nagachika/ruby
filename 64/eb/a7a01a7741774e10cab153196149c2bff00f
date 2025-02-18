@@ -1,0 +1,1 @@
+tool/file2lastrev.rb で git rev-parse サブコマンドで commit hash を取得するのに失敗した時にエラーを無視するようにしています。
