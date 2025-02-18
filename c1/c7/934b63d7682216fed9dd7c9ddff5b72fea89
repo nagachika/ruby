@@ -1,0 +1,1 @@
+dir.c で定数マクロ O_CLOEXEC を定義するのを fcntl.h の include の後にしてシステムが定義しているものを尊重するようにしています。 [ruby-core:120940] [Bug #21128]
