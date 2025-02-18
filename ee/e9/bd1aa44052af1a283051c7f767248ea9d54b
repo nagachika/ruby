@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#scan_until で引数に文字列を渡した時にマッチ位置が正しく設定されていなかった不具合を修正しています。 https://github.com/ruby/strscan/issue/131 https://github.com/ruby/strscan/pull/138
