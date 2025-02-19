@@ -1,0 +1,1 @@
+暗黙のブロックパラメーター _1, _2 などは Binding#local_variables や Binding#local_variable_{get,set} では扱えないようにしています。 [ruby-core:120303] [Bug #20965] [ruby-core:120743] [Bug #21049]
