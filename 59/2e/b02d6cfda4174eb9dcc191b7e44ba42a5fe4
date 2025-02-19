@@ -1,0 +1,1 @@
+bundler の Bundler::Definition の依存関係変更検出の実装のリファクタリング。
