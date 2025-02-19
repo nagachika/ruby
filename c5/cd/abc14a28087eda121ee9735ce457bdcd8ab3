@@ -1,0 +1,1 @@
+bundler の Bundler::Definition の不要な処理を削っています。
