@@ -1,0 +1,1 @@
+bundler の Bundler::Definition.new の unlock 引数の処理のリファクタリング。
