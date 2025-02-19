@@ -1,0 +1,1 @@
+Hash#each_pair の rdoc 用コメントの call-seq の typo 修正と Enumerator を返すサンプルコードの削除。
