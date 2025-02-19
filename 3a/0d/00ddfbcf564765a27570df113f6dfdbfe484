@@ -1,0 +1,1 @@
+993fd96ce6bb763e08207bb3d53824d5d46d07a4 の変更に追随して Binding#local_variables の暗黙のブロックパラメーター _1, _2 や it についてのテストを追加しています。 [ruby-core:120303] [Bug #20965] [ruby-core:120743] [Bug #21049]
