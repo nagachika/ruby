@@ -1,0 +1,1 @@
+拡張ライブラリ socket の ext/socket/raddrinfo.c の static でない関数名に raddrinfo_ という prefix を付けるように統一しています。 https://github.com/ruby/ruby/pull/12764
