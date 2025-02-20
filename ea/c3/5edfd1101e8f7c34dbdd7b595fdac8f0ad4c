@@ -1,0 +1,1 @@
+WASM/WASI 環境で mprotect(3) の空の代替実装を wasm/missing.c に置いていたのが WASI で emulation されるようになったので削除して環境側のものを呼ぶほうにしています。ただし PROT_NONE フラグは未サポートなので WASM/WASI 環境ではこのフラグを渡す呼び出しは避けるように preprocessor 分岐を追加しています。
