@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 用の独自アクションで Launchable の未使用になっていた? ファイル名指定の環境変数指定と後始末の処理を削除しています。 https://github.com/ruby/ruby/pull/12782
