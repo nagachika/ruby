@@ -1,0 +1,1 @@
+3f07bc76ff6a11232d9f18e5eaa31835c195e8f0 の Time のタイムゾーンの Windows での表示の変更の続き。Windows の時の文字列の Encoding の locale encoding へのセットを追加しています。 [ruby-core:121083] [Bug #21144]
