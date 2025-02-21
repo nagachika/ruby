@@ -1,0 +1,1 @@
+7b6e07ea93cfc42bfb8bdf875555d2c8c7d5e507 で追加した C API rb_gc_object_metadata() の GC 実装が mmtk の時の実装を追加しています。といってもこの実装の時は空っぽのリストで返しています。
