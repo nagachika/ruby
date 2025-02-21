@@ -1,0 +1,1 @@
+7b6e07ea93cfc42bfb8bdf875555d2c8c7d5e507 で追加した rb_gc_object_metadata() で GC の default 実装で RGenGC の age の情報を返すようにしています。
