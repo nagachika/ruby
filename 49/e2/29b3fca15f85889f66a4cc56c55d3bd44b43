@@ -1,0 +1,1 @@
+5e45f2a0bce9a94b1b5f9eda615344e74a39e597 に追随して GC の default 実装の時に rb_gc_object_metadata() で返す配列の要素数の定数マクロの値を増やしています。
