@@ -1,0 +1,1 @@
+6d75599a1aade9f8081d0691a9da1e62a5428e95 で get_local_variable_ptr() の第1引数の型を rb_env_t** から rb_env_t* に変更していましたが、bind_local_variable_set() の処理では実際には必要だったとのことで revert しています。NULL がかえった時かな?
