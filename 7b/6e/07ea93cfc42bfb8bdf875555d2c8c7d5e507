@@ -1,0 +1,1 @@
+rb_obj_gc_flags() という関数を再実装して改名した rb_gc_object_metadata() という C API を追加してオブジェクトの struct RBasic::flags の内容や RGenGC 用のビットマップの値などを返す公式の API を作り、拡張ライブラリ objspace から rb_obj_gc_flags のかわりにこれを利用するように変更しています。
