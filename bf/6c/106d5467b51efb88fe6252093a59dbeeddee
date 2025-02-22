@@ -1,0 +1,1 @@
+拡張ライブラリ strscan で StringScanner#scan_integer で基数を指定する base に 16 が指定された時に prefix の 0x だけあってそのあとに16進数として解釈できる文字列が続いてない時に 0 の部分を読み込むようにしています。うーん、なるほど。 https://github.com/ruby/strscan/issues/140 https://github.com/ruby/strscan/pull/141
