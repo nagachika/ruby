@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket::Ifaddr#flags の rdoc 用に戻り値の意味についての記述を追記しています。
