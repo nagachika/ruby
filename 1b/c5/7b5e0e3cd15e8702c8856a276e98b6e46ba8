@@ -1,0 +1,1 @@
+arm64 アーキテクチャの macOS (Apple Silicon) での Fiber 用 coroutine の実装で使っている libunwind で複数 Ractor 利用時に不具合があるようでその workaround としてバックトレース取得時の処理のスキップをするようにしています。 [ruby-core:121127] [Bug #21150]
