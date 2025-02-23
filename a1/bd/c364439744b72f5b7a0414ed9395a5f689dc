@@ -1,0 +1,1 @@
+rubyspec で Binding#local_variables などの挙動の 3.4 までの挙動をテストしている部分で ruby_version_is に渡している Range オブジェクトを終端を含まない Range にしています。
