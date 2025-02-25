@@ -1,0 +1,1 @@
+ruby の man ページの環境変数についてのセクションの RUBY_THREAD_TIMESLICE の説明が RUBY_PAGER の説明の途中に割り込んで書かれていたのを修正しています。
