@@ -1,0 +1,1 @@
+87f9c3c65e38fa3e5c6ef097e2cf63ff448f48d6 の続きで正規表現のマッチ処理で後方参照のための MatchData オブジェクトの flags に MATCH_BUSY フラグが立っていなかったら使いまわすようにしています。 [ruby-core:118682] [Misc #20652]
