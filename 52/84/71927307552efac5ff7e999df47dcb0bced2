@@ -1,0 +1,1 @@
+bundler の bundle lock で platform を削除する時の処理のリファクタリング。
