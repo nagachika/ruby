@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の TruffleRuby 向けの skip をやめています。 https://github.com/ruby/strscan/pull/144
