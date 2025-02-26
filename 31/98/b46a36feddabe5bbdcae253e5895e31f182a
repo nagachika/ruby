@@ -1,0 +1,1 @@
+parse.y のマクロ名に使われている TERMINTOR という単語の typo を修正して TERMINATOR にしています。
