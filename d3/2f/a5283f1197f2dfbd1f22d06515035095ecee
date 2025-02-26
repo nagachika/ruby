@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler のための関数で struct timeval から Float オブジェクトでタイムアウト値を計算する rb_fiber_scheduler_make_timeout() で浮動小数点のリテラルに f の suffix をつけて float (単精度)にしてたのをやめています。 https://github.com/ruby/ruby/pull/12803
