@@ -1,0 +1,1 @@
+拡張ライブラリ strscan で StringScanner#scan_integer などの正規表現を受け取らないメソッドを使った後に StringScanner#named_captures の値がクリアされていなかった不具合を修正しています。 https://github.com/ruby/strscan/issues/135 https://github.com/ruby/strscan/pull/142
