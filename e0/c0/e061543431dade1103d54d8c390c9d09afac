@@ -1,0 +1,1 @@
+rubygems の Rust 製拡張ライブラリを使う時のテストの fiddle 依存で require に失敗した時の対応を追加しています。
