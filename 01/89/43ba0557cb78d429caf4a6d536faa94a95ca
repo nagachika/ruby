@@ -1,0 +1,1 @@
+拡張ライブラリ strscan でマッチ後に StringScanner#[] メソッドで named capture を取得しようとした時のその前のマッチが文字列によるものか正規表現によるものかで挙動が違っていたのを、IndexError 例外を発生させる挙動に揃えています。 https://github.com/ruby/strscan/issues/139 https://github.com/ruby/strscan/pull/143
