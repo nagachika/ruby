@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI#merge や URI#join で receiver 側の userinfo をクリアするようにしています。ユーザー名やパスワードが不要に残ってしまわないように。
