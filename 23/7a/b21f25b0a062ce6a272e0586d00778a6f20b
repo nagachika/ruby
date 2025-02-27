@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI.escapeElement, CGI.unescapeElement で利用している正規表現を修正して閉じかっこの対応がついていないタグのエスケープもするようにしています。
