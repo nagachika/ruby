@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の rdoc 用コメントで URI.escape を利用していたところを URI::RFC2396_PARSER を利用するように変更しています。
