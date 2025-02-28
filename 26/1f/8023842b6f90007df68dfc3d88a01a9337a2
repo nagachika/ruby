@@ -1,0 +1,1 @@
+bundler のテストで irb の require に失敗したらスキップする処理を before のブロックに移動して全テストで skip させるようにしています。
