@@ -1,0 +1,1 @@
+ruby 本体のテストに使う test/unit 自体のテストで並列テストのテストにおけるタイムアウトをのばしています。 https://github.com/ruby/ruby/pull/12822
