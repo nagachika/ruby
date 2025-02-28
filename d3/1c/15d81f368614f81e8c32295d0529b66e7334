@@ -1,0 +1,1 @@
+Array#sort の rdoc 用コメントに利用例として Numeric#nonzero? のドキュメントへの言及を追記しています。
