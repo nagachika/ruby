@@ -1,0 +1,1 @@
+921ca9d8a83aff50d04cec8d788bf43631702dd5 で bundler のテストで erb のかわりに syntax_suggest を使うようにしてましたが default gems でなくてもいいところも(?)変更してたので一部戻しています。
