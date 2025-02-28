@@ -1,0 +1,1 @@
+bundler のテストで default gems の例として irb を使っているところがあったので erb を利用するように変更しています。
