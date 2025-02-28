@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON::ParseError 時のエラー箇所を示すために一部を切り出す処理でマルチバイト文字を含んでいる時に文字境界を意識するように修正しています。 https://github.com/ruby/json/issues/755
