@@ -1,0 +1,1 @@
+正規表現の大文字小文字を無視するマッチがぎりぎり 1 byte に収まらない codepoint の時に間違っていた不具合を修正しています。 https://github.com/ruby/ruby/pull/16145
