@@ -1,0 +1,1 @@
+bundler のテストで default gems として syntax_suggest を利用しているところで syntax_suggest のバージョンをみて skip する時の条件を引き上げています。
