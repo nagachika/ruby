@@ -1,0 +1,1 @@
+bundler の default gems の実行ファイルについてのテストを Windows 環境で skip するようにしています。
