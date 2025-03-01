@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Digest.hexdigest のテストで assert_equal の引数の順序が逆だったのを修正しています。
