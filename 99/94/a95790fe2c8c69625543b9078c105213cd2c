@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Certificate のテストで LibreSSL で skip していたものを通すようにテストで作る証明書の作成方法を修正しています。
