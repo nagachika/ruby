@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL.fips_mode のテストを FIPS モードが利用可能でない時 skip していたのを TEST_RUBY_OPENSSL_FIPS_ENABLED という環境変数の指定有無によって skip するかどうか判定するようにしています。 OpenSSL 3.0.0 以降 OpenSSL::OPENSSL_FIPS という定数での判定が深野うになってしまったためとのこと。
