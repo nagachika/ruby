@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで TLS 1.1 以前を使うテストでシステムの設定によってエラー? にならないように OpenSSL::SSL::SSLContext#security_level= でチェックを抑制するようにしています。
