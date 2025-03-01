@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#ttyname のテストで子プロセス内に僅かな sleep を追加しています。macOS でたまにテストが失敗してしまうのを避けるためとのこと。 https://github.com/ruby/ruby/pull/12829 [ruby-core:118879] [Bug #20682]
