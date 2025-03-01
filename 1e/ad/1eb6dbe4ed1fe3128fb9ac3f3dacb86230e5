@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションなどを試す workflow のタイムアウトの指定を伸ばしています。 https://github.com/ruby/ruby/pull/12827
