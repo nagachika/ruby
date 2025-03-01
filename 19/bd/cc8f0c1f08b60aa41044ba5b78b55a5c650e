@@ -1,0 +1,1 @@
+bundler で rubygems.org のインデックスの取得時の 206 Partial Content ステータスの処理の修正。
