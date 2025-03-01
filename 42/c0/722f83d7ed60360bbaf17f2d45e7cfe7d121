@@ -1,0 +1,1 @@
+RUBY_CONST_ID() マクロと rb_intern() マクロの Doxygen 用コメント(?) を更新しています。 RUBY_CONST_ID() のほうが移植性があるとのこと。
