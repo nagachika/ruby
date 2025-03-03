@@ -1,0 +1,1 @@
+parse.y の f_marg_list と f_marg_list というルールを Lrama の機能で mlhs() というパラメータつきルールを導入して実装するようリファクタリングしています。
