@@ -1,0 +1,1 @@
+YJIT の RubyVM::YJIT.enable のキーワード引数に mem_size と call_threshold というのを追加して JIT コンパイルする条件や実行コードに利用するメモリ領域のサイズなどを動的に指定できるようにしています。 https://github.com/ruby/ruby/pull/12505
