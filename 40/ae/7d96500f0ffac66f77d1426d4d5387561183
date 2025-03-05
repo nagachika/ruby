@@ -1,0 +1,1 @@
+.gdbinit の rp コマンドで T_HASH 型オブジェクトの AR table 実装対応をしています。
