@@ -1,0 +1,1 @@
+GC の mmtk の実装のテストの setup で EnvUtil.timeout_scale を上書きしていたのを teardown で元に戻す処理が mmtk が無効で skip した時にも行なわれてしまうため設定されてた timeout_scale がクリアされてしまっていた不具合を修正しています。
