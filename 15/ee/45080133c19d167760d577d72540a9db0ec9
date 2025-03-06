@@ -1,0 +1,1 @@
+rubyspec の String#-@ のテストを削除して同様のものを test-all のテストに追加しています。 JRuby や TruffleRuby でうまくいかないためとのこと。
