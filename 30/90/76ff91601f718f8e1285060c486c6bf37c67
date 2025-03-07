@@ -1,0 +1,1 @@
+TracePoint#disable のテストで並列テスト時に意図しないイベントが(Thread の切り替えにより?)混じることがあるので除外するように条件を追加しています。 https://github.com/ruby/ruby/pull/12854
