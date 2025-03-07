@@ -1,0 +1,1 @@
+Hash オブジェクトや VM 内部での諸々の管理用テーブルに使われる st_table でエントリの削除を表すために hash 関数の値として -1 を特別扱いしているのですが、その判定を do_hash() 関数から normalize_hash_value() という関数に切り出して rb_st_add_direct_with_hash() でも同じ判定と変換を行うようにしています。 Hash オブジェクトの実装を要素数が少ない時の配列を使う AR Hash から st_table を使う ST Hash に変換する時に使われる処理で hash 関数が -1 を返した時に取り出せないエントリを作ってしまっていたようです。 [ruby-core:121239] [Bug #21170]
