@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::GeneratorError という例外クラスで detailed_message を再定義していますが、ここで super しているのが古い ruby だとまだ Exception#detailed_message が定義されていない可能性があるので defined? でチェックするようにしています。
