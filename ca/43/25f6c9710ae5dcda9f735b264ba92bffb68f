@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.memsize_of の共有文字列についてのテストで共有元文字列を取り出すための ObjectSpace#each_object のブロック内での String#== の演算子の左右を入れ替えています。同じじゃんという気がしますが ObjectSpace#each_object で取り出したオブジェクト x の == メソッドは再定義されているとか undef されている可能性があってたまに失敗するのでそれを避けるためとのことです。なるほどなぁ。
