@@ -1,0 +1,1 @@
+pull request に自動的に reviewers を追加するための GitHub Actions を対象のブランチが master の時だけ動作するように条件を追加しています。
