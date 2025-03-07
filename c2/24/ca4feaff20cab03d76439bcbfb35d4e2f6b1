@@ -1,0 +1,1 @@
+fstring の管理テーブルへの登録する fstr_update_callback() で同じ文字列の登録があるものの、その文字列が GC で回収予定だった場合に置き換える際に古いほうの文字列オブジェクトの struct RBasic::flags の RSTRING_FSTR ビットフラグを落として、回収時に fstring のテーブルからエントリが消されないようにしています。 [ruby-core:121246] [Bug #21172]
