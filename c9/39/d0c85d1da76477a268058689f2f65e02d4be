@@ -1,0 +1,1 @@
+GitHub Actions の Launchable を利用する時のコマンドラインオプションに標準出力/標準エラー出力のログファイルをアップロードする指定を追加しているようです。 https://github.com/ruby/ruby/pull/12785
