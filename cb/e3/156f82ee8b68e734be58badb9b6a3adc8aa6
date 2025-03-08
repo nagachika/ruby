@@ -1,0 +1,1 @@
+開始点が指定されない(nil の) beginless Range に対して Range#max は取れてもいいはずなのに TypeError や RangeError 例外が発生していたので期待した結果を返すように対応しています。 [ruby-core:121252] [Bug #21174] [ruby-core:121253] [Bug #21175]
