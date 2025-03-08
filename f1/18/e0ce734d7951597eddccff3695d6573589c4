@@ -1,0 +1,1 @@
+cbe3156f82ee8b68e734be58badb9b6a3adc8aa6 に対応して rubyspec の Range#max のテストも変更しています。 [ruby-core:121252] [Bug #21174] [ruby-core:121253] [Bug #21175]
