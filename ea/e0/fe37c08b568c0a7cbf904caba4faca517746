@@ -1,0 +1,1 @@
+parse.y の AST の class 文に対応する NODE_CLASS に継承用の記号や end の位置も含む位置情報を持たせるようにしています。
