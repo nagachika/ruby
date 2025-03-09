@@ -1,0 +1,1 @@
+Hash#rehash の rdoc 用コメントの手直し。 "Calling this method ensures that the hash table is valid." と追記されているんだけどここでいう valid ってどういう意味だろ?
