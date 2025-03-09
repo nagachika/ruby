@@ -1,0 +1,1 @@
+ruby の man ページの環境変数 RUBY_THREAD_VM_STACK_SIZE および RUBY_THREAD_MACHINE_STACK_SIZE の未指定時のデフォルト値の間違いを修正。
