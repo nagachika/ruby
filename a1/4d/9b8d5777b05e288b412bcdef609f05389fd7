@@ -1,0 +1,1 @@
+String オブジェクトは String#hash で文字列に含まれるのが ASCII 文字のみの場合 Encoding の情報を hash 値の計算に含まないようにしていたようなのですが fstring の管理のための fstring_hash() ではこれだと衝突が多くなってパフォーマンスに悪影響があるため独自に Encoding 情報を hash 値計算に追加するようにしています。
