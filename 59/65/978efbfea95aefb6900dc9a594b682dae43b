@@ -1,0 +1,1 @@
+parse.y の rb_node_yield_new() という関数に new_yield() で呼んでた no_blockarg() の呼び出しの分岐もマージして NODE_YIELD の生成に専用の関数を作ってたのをやめるリファクタリング。
