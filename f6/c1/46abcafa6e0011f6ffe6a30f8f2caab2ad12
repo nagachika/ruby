@@ -1,0 +1,1 @@
+RJIT が gem として分離されたので bootstraptest/test_rjit.rb を削除しています。
