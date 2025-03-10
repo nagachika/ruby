@@ -1,0 +1,1 @@
+parse.y のユーザー定義ルールの inline_operation を opeartion と改名して inline_operation を持つだけの operation というルールを削除しています。
