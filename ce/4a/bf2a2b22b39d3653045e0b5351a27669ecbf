@@ -1,0 +1,1 @@
+bundler のテストで irb の require を before ブロックに移動してた 261f8023842b6f90007df68dfc3d88a01a9337a2 を revert しています。
