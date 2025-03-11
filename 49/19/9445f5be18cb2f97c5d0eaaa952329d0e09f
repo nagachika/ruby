@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の gemspec ファイルの spec.rdoc_options を削除しています。 .rdoc_options ファイルに記述しているので不要ということみたいです。
