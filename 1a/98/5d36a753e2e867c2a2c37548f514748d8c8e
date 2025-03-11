@@ -1,0 +1,1 @@
+bundler のテストで irb が bundled gems になったのに対応しています。
