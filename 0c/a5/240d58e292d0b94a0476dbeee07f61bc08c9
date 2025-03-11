@@ -1,0 +1,1 @@
+bundler のテストで bundle console のテストを除外してたのをやめています。
