@@ -1,0 +1,1 @@
+bundler で生成する Gemfile の Hash リテラルの記法に key: "value" の記法を利用するようにしています。
