@@ -1,0 +1,1 @@
+bundler のテストで irb の require に失敗したら skip する処理を追加した 750e6195040ec3f9d0b172ac1a49a49d9b7d8ba0 を revert しています。
