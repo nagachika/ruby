@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の gemspec ファイルの spec.description を README.md の先頭から読み込むようにしています。
