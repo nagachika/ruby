@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse で引数が nil の時のチェックを obj&.meth のような safe-navigation operator の記法を使って書くようリファクタリングしています。
