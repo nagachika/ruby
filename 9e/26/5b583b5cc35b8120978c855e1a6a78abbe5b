@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse でオプションの引数の validation を指定する引数にクラスで Integer を指定するのとは別に配列や Range でその範囲や候補を指定できるように機能強化しています。 https://github.com/ruby/optparse/issues/80
