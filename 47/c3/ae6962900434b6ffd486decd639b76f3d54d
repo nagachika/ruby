@@ -1,0 +1,1 @@
+GC.latest_gc_info のテストで ObjectSpace::WeakMap の回収によるサイズの削減をチェックする assertion で条件を緩めています。保守的 GC のため残ってしまうことがあるため?
