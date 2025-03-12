@@ -1,0 +1,1 @@
+拡張ライブラリ socket で複数 Ractor 利用時に定数の参照が non-sharable なオブジェクトの利用でエラーになっていたようで、Socket::HostnameResolutionStore 配下の定数 PRIORITY_ON_V6/PRIORITY_ON_V4 の配列を freeze するようにしています。 [ruby-core:121278] [Bug #21179]
