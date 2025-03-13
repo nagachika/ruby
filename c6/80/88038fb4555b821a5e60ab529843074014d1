@@ -1,0 +1,1 @@
+GitHub Actions で Launchable のデータ送信のタイムアウトによるリトライを抑制するように環境変数 LAUNCHABLE_SKIP_TIMEOUT_RETRY を設定しています。 https://github.com/ruby/ruby/pull/12877
