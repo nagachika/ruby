@@ -1,0 +1,1 @@
+bundler のテストで default gem の例として syntax_suggest を使うようにしてたのをまた erb を利用するように戻しています。
