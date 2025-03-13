@@ -1,0 +1,1 @@
+bundler のテストで 51958bae66df026823fff159dd7513daf74f5727 で FileUtils.rm_r を使うように変更したところが rm_r では不足してたようで FileUtils.rm_rf を使うように戻しています。
