@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON の parse 時に \Uxxxx の記法で Unicode 文字を書いているところでバイト数が足りてなかった時にJSON::ParseError 例外を発生させるようにしています。
