@@ -1,0 +1,1 @@
+win32/Makefile.sub で rubyspec の C API テスト用の拡張ライブラリビルドの ld コマンドのオプションを修正しています。
