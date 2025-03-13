@@ -1,0 +1,1 @@
+bundler のテストで .bundle/cache/compact_index へのファイルパスを返すヘルパーメソッドの導入。
