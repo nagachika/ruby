@@ -1,0 +1,1 @@
+win32/Makefile.sub の WIndows 環境で rubyspec の C API テスト用の拡張ライブラリをビルドしたあとで中間ファイル群を削除するようにしています。
