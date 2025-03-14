@@ -1,0 +1,1 @@
+path_check() というファイルパスに含まれるディレクトリに誰でも書き込めるものがないかチェックする C API を deprecated にしています。 [ruby-core:120335] [Feature #20971]
