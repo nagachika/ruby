@@ -1,0 +1,1 @@
+doc/marshal.rdoc に _dump メソッドを定義することによる独自 Marshal 対応は非推奨と追記しています。
