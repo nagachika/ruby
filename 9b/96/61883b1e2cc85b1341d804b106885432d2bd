@@ -1,0 +1,1 @@
+AST から ISeq へのコンパイル時の関数 iseqw_s_compile_file() で中間オブジェクトの AST を GC から保護するため RB_GC_GUARD() を追加しています。
