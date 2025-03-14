@@ -1,0 +1,1 @@
+prism の拡張ライブラリ部分? を Ractor safe にマークするため Init_prism() に rb_ext_ractor_safe() の呼び出しを追加しています。またいくつかリテラルに freeze を追加しています。
