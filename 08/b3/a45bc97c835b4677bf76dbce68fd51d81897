@@ -1,0 +1,1 @@
+vm_make_env_each() で GC の対象ではない ISeq の VALUE をスタックに積んでしまって SEGV が発生する可能性があったという不具合を修正しているようです。 [ruby-core:121280] [Bug #21180]
