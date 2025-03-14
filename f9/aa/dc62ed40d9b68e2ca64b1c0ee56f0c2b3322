@@ -1,0 +1,1 @@
+tool/annocheck/ 配下の Dockerfile のベースイメージを ghcr.io を使うように変更しています。
