@@ -1,0 +1,1 @@
+parse.y に args_tail_basic というユーザー定義ルールを追加して args_tail および block_args_tail というルールのアクションをまとめています。
