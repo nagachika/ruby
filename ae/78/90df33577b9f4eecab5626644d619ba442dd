@@ -1,0 +1,1 @@
+VM 命令の sendforward と invokesuperforward の実装で rb_execution_context_t のポインタを GET_EC() で取得するようにしてたのを VM 実行ループの関数に渡されている引数の ec を参照するように修正しています。
