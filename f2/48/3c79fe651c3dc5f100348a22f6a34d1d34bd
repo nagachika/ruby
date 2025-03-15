@@ -1,0 +1,1 @@
+67e6ccb23fd910b70b0d690adcb56395778c9f2a の prism の Translator で Set を使う最適化の続きで Array#to_set で Set を生成していたのを Set.new を使うように変更しています。引数に同じ配列を渡すので効率的にはあんまり変わらない気がするけど何か違うのかな。また require "set" を消しているのはいいのかな。
