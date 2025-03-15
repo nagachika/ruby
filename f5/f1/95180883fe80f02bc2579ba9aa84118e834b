@@ -1,0 +1,1 @@
+parse.y の lhs のルールで ident_or_const というルールを参照してアクションをまとめています。
