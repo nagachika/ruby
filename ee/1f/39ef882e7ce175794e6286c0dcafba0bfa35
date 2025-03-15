@@ -1,0 +1,1 @@
+Module#autoload や Kernel#autoload の rdoc 用コメントに引数に指定するファイル名にその autoload を実行しているファイル自身を書いてはならないという注意事項を追記しています。 [ruby-core:121142] [Misc #21154]
