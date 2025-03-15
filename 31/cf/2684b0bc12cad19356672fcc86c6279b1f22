@@ -1,0 +1,1 @@
+bdb25959fb047af0358f33d7327b7752dca14aa4 に追随して GC の mmtk 実装でも rb_gc_impl_object_metadata() で返す情報に object_id を含めるようにしています。
