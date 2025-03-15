@@ -1,0 +1,1 @@
+prism の Translator の実装で Enumerable#revert と #find を使っていたのを Enumerable#reverse_each で Enumerator を作って Enumerator#find を呼ぶようにして中間配列の生成を抑制する最適化。
