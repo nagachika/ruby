@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace._dump などでオブジェクトの情報をダンプする時に使う GC 実装のオブジェクトのメタデータを返すコールバックで object_id も返すようにして objspace 側で rb_obj_id() を呼んでたのをやめています。
