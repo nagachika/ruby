@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TCPSocket.open で port 番号の指定に nil を渡した時の異常終了を修正。
