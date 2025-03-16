@@ -1,0 +1,1 @@
+拡張ライブラリ socket のテストで assert_raise_kind_of や assert_include といった assertion メソッドを利用するようにリファクタリングしています。
