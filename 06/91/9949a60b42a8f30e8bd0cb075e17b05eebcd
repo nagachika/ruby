@@ -1,0 +1,1 @@
+Time#utc? の rdoc 用コメントに Time.new の timezone を指定して作ったのは utc? => true にならない(Time.utc や Time#utc などで作成した Time オブジェクトでないと true にならない)ということを追記しています。おおそうなのか。 [ruby-core:121066] [Bug #21141]
