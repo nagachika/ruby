@@ -1,0 +1,1 @@
+proc.c の switch 文の case に誤った enum 型の定数を書いていた(enum rb_block_type のところに enum rb_block_handler_type の定数を書いていた)のを修正しています。同じ並び順で同じ数の初期値指定のない enum だったのでたまたま同じ数値になってたので特に問題にはなってなかったようです。
