@@ -1,0 +1,1 @@
+ASAN を有効にした時のオプションを取得する C API __asan_default_options() を公開関数としています。
