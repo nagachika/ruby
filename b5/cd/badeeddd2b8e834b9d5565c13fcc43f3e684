@@ -1,0 +1,1 @@
+Range#overlap? で引数に nil..nil という空集合?の Range を渡した時に true を返すように修正しています。 [ruby-core:121372] [Bug #21185]
