@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトの GC.compact に対応した mark 処理で callcache 用の T_IMEMO タイプの時の rb_gc_mark_movable() の呼び出し時に cc->klass の NULL チェックを追加しています。
