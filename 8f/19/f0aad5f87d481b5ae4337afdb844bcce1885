@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse でオプションの引数の validation としてタプル(2要素の配列)の配列を渡して enum とその名前が指定された時の値のペアを指定してた時に引数の前方一致で補完する処理がエラーになっていた不具合を修正しています。 https://github.com/ruby/optparse/issues/93 https://github.com/ruby/optparse/issues/94
