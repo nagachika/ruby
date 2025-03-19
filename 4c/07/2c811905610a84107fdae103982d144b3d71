@@ -1,0 +1,1 @@
+テスト用のライブラリ tool/lib/core_assertions.rb の assert_warning や assert_raise_with_message の期待値の引数に Proc オブジェクトを渡せるようにしています。
