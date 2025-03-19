@@ -1,0 +1,1 @@
+ISeq の GC.compact 対応で ISeq から指すオブジェクトの pin down を避けるようにしています。詳細読めてませんがけっこう大きな変更ですね。 https://github.com/ruby/ruby/pull/12880
