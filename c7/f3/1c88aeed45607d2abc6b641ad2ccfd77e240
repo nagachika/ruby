@@ -1,0 +1,1 @@
+bc85c8d8529b58c5c649f418ca549569ba348caa で追加されていた Array#fetch_values のテストを追加しています。 [ruby-core:118969] [Feature #20702]
