@@ -1,0 +1,1 @@
+include/ruby/internal/encoding/coderange.h の警告除去のためのキャスト追加。
