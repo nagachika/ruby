@@ -1,0 +1,1 @@
+prelude.rb で定義する Binding#irb で任意の引数を受け取って Kernel#irb に移譲するようにしています。 https://github.com/ruby/ruby/pull/12796
