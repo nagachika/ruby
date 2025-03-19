@@ -1,0 +1,1 @@
+rubygems の Gem::Version#<=> による比較処理の高速化。
