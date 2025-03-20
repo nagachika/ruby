@@ -1,0 +1,1 @@
+prism の更新。 defined? についての不具合修正。 [ruby-core:120618] [Bug #21029]
