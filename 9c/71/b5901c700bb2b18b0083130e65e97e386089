@@ -1,0 +1,1 @@
+Windows 版で SystemCallError.new(-1) の例外メッセージをほかの環境に合わせています。 [ruby-core:120748] [Bug #21083]
