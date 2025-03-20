@@ -1,0 +1,1 @@
+4f82a6f3e8d332926f9e3b615201d1b21a482f2f で対応した Unicode の Indic_Conjunct_Break に対応して正規表現の \p{XXX} のプロパティ(文字クラス指定)でも対応するようにしています。
