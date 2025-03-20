@@ -1,0 +1,1 @@
+0f6c647b1a1e313e3cb4fe79d4b63ffa2b7a6a6e の rubyspec の修正の再修正。正規表現を Regexp.new でなくリテラルを使うようにしています。 [ruby-core:120748] [Bug #21083]
