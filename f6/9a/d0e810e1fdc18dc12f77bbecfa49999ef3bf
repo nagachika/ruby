@@ -1,0 +1,1 @@
+Module#set_temporary_name でモジュール/クラスに名前をつけた時にそのモジュール/クラスの名前空間の下に定義した Module/Class の name に伝播しない不具合(不具合なのかな?)を修正しています。 [ruby-core:120808] [Bug #21094]
