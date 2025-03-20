@@ -1,0 +1,1 @@
+Unicode のデータファイルを処理する tool/enc-unicode.rb で Indic_Conjunct_Break というプロパティ? を処理できるよう対応を追加しています。 [ruby-core:114936] [Feature #19908]
