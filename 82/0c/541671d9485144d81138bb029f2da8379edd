@@ -1,0 +1,1 @@
+def xxx.meth; end のような特異メソッドを定義する構文で receiver が __FILE__ のような特殊な変数の時に SyntaxError にするようにしています。 [ruby-core:120611] [Bug #21026]
