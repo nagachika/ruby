@@ -1,0 +1,1 @@
+prism の更新。 Prism::Node の deprecated な node 利用時の警告に Kernel#warn の category キーワード引数の指定を使っていたのをやめています。ruby 2.7 で対応していないため。
