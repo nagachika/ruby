@@ -1,0 +1,1 @@
+b5e9a2da4c668fe73f9fcca2b237def56c507464 の続きで prism で Kernel#warn の古い ruby のための代替実装を追加して警告の deprecated カテゴリの指定を再度追加しています。
