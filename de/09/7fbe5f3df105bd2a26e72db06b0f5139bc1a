@@ -1,0 +1,1 @@
+de48e47ddf78aba02fd9623bc7ce685540a10743 の  Module#const_added と Class#inherited の呼ばれる順番を入れ替えた変更で  inherited が呼ばれた時点で定数への代入も完了しているようにするため、コールバック呼び出しを含む rb_const_set() から定数代入部分を rb_const_set_raw() として切り出して先に呼ぶように変更しています。やっぱり困るケースありますよね。 [ruby-core:121077] [Misc #21143] [ruby-core:121413] [Bug #21193]
