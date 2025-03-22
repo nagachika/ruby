@@ -1,0 +1,1 @@
+UnboundMethod#bind_call で構造体 struct rb_method_definition_struct の参照カウンタ reference_count の増減が複数 Ractor 利用時に排他されていなくて二重に free(3) が呼ばれてしまったりする可能性があった不具合を修正しています。 [ruby-core:120128] [Bug #20934]
