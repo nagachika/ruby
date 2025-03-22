@@ -1,0 +1,1 @@
+prism の Ractor safe 対応のテストで pipe の close 漏れの後始末。
