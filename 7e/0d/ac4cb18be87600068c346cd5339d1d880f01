@@ -1,0 +1,1 @@
+RbConfig の配下の定数参照の複数 Ractor でのテストを追加しています。 https://github.com/ruby/ruby/pull/11762
