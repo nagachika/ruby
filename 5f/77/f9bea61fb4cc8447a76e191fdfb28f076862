@@ -1,0 +1,1 @@
+IO#read_nonblock などにシグナルで割り込みが発生した場合に不正に errno をクリアしてしまった結果異常終了することがあったようで修正しています。 https://github.com/ruby/ruby/pull/12961 [ruby-core:121428] [Bug #21195]
