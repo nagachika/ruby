@@ -1,0 +1,1 @@
+bootstraptest の Kernel#fork と Process.waitpid のテスト? でたまに失敗するので許容する待ち時間を伸ばしています。また bundler のテストで期待するエラーメッセージが(git のバージョンによって?)違うことがあるみたいで許容するメッセージの条件を緩めています。 https://github.com/ruby/ruby/pull/12963
