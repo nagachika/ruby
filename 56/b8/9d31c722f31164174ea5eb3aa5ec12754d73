@@ -1,0 +1,1 @@
+GitHub Actions の Launchable でアップロードするためのログファイル生成のためのリダイレクト部分で改行のエスケープ漏れがあったのを修正しています。 https://github.com/ruby/ruby/pull/12974
