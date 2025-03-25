@@ -1,0 +1,1 @@
+bundler のメッセージやコメントなどで "lock file" と記述していたのを "lockfile" にそろえています。
