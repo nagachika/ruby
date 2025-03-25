@@ -1,0 +1,1 @@
+bundler で lockfile の CHECKSUMS のチェックを強化しています。
