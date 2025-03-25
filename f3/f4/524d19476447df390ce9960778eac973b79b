@@ -1,0 +1,1 @@
+a59333c58bbe0df0baaada6d3cc4a64b0aaf911e で拡張ライブラリ json に追加された fpconv を ext/json/ext/vendor/fpconv/ に置いてたのをヘッダファイルなどをまとめて ext/json/vendor/fpconv.c の 1ファイルにまとめるようにしています。 README.md や license は削除されています。
