@@ -1,0 +1,1 @@
+bundler の rubygems の拡張で Gem::Specification#lock_name というメソッドを切り出すリファクタリング。
