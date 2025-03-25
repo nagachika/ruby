@@ -1,0 +1,1 @@
+eb91c664dc0b4d69db09ae913f2d7a5ef3490d74 の Kernel#fork のテストの待ち時間延長や bundler の git のエラーメッセージの変化対応を revert しています。
