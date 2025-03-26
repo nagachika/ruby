@@ -1,0 +1,1 @@
+同じく GC の実装の関数ポインタをまとめた構造体 rb_gc_function_map_t で ractor_cache_free メンバーの位置を移動しています。
