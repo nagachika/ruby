@@ -1,0 +1,1 @@
+GC の実装の関数ポインタをまとめた構造体 rb_gc_function_map_t のレイアウトを変更しています。objspace_free メンバーの位置を移動。
