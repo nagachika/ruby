@@ -1,0 +1,1 @@
+さらに GC の default 実装の ruby_autocompact_compare_func という変数も static 変数に変更しています。
