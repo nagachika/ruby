@@ -1,0 +1,1 @@
+GC の default 実装の ruby_enable_autocompact の型を int から bool に変更してさらに static 変数にしています。
