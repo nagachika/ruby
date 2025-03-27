@@ -1,0 +1,1 @@
+bootstraptest の Kernel#fork のテストで子プロセスが異常終了した時に検出するようにしています。
