@@ -1,0 +1,1 @@
+GC の default 実装で即値でないことがわかっている VALUE について FL_TEST() のかわりに FL_TEST_RAW() を利用するように変更しています。
