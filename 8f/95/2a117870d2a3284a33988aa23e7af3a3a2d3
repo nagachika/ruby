@@ -1,0 +1,1 @@
+thread_pthread.c で VM_CHECK_MODE が 1以上の時に利用される fork 時の Ractor 用のロック変数(構造体メンバー)の再初期化をするよう修正しています。
