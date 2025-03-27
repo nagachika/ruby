@@ -1,0 +1,1 @@
+b9e9a1034a9530c8e3db83239224fb70e464e509 の続きで拡張ライブラリ etc の Etc.sysconfdir は Ractor-safe ではなかったのでメソッド定義を移動しています。
