@@ -1,0 +1,1 @@
+bundler のテストでテストの並列化のために使う turbo_tests を vendoring していたのをやめて gem パッケージを tool/bundler/dev_gems.rb.lock の依存関係に追加するようにしています。
