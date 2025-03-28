@@ -1,0 +1,1 @@
+GitHub Actions のいろんな ruby バージョンで rubyspec をテストする workflow で 3.0 でのテストを削除。
