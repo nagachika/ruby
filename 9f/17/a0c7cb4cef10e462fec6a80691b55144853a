@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::SAFE_STATE_PROTOTYPE という定数を削除しています。 JRuby や TruffleRuby から使われてたようですけどそれはやめたのかな。
