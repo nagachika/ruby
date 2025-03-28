@@ -1,0 +1,1 @@
+拡張ライブラリ json で整数のエンコードの高速化のため jeaiii-ltoa という実装を vendoring しているようです。
