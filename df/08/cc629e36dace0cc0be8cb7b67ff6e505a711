@@ -1,0 +1,1 @@
+bundler に vendoring されている connection_pool という gem を更新しています。
