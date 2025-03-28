@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.unparse (generate の alias) や JSON.restore (load の alias) や JSON.fast_unparse などという alias を削除しています。こんなのがあるの知らなかった。
