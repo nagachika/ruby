@@ -1,0 +1,1 @@
+拡張ライブラリ etc の Ractor-safe についてのテストが ModGC を有効にした時の GitHub Actions の workflow で不安定なので skip するようにしています。 https://github.com/ruby/etc/pull/55 [ruby-core:121465] [Bug #21204]
