@@ -1,0 +1,1 @@
+template/configure-ext.mk.tmpl で拡張ライブラリ用の extconf.rb を探しているところでテスト用などの対象でないファイルパスを除外するようにしています。
