@@ -1,0 +1,1 @@
+特殊変数 $/ の文字列を freeze して Ractor 対応をしています。 [ruby-core:120862] [Feature #21109]
