@@ -1,0 +1,1 @@
+spec/ruby の拡張ライブラリ json のテストに ruby_version_is で 3.4 まででのみテストするように guard を追加しています。
