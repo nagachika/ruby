@@ -1,0 +1,1 @@
+tool/rbs_skip_tests に拡張ライブラリ json の変更により失敗するテストの skip 指定を追加しています。
