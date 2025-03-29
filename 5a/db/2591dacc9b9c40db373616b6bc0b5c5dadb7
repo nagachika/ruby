@@ -1,0 +1,1 @@
+GC の実装に mmtk を利用している時に Ractor のテストが失敗しやすいということで GitHub Actions の ModGC を使う workflow の時に skip するようにしています。 https://github.com/ruby/ruby/pull/12996
