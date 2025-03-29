@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで assert_deprecated_warning という assertion メソッドを利用するようにしています。
