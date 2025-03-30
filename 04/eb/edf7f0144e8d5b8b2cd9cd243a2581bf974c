@@ -1,0 +1,1 @@
+拡張ライブラリから TracePoint の情報を得るための C API 群 rb_tracearg_parameters()、rb_tracearg_eval_script()、rb_tracearg_instruction_sequence() を呼べるように宣言をヘッダファイルに追加しています。 [ruby-core:119272] [Feature #20757]
