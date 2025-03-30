@@ -1,0 +1,1 @@
+.gdbinit の struct RBasic::flags のビットフラグの内容を表示する print_flags コマンドで RUBY_FL_PROMOTED フラグへの統合に追随して修正しています。
