@@ -1,0 +1,1 @@
+04ebedf7f0144e8d5b8b2cd9cd243a2581bf974c で追加したぶんも含め include/ruby/debug.h の関数宣言につけている RBIMPL_ATTR_NONNULL() マクロによる修飾子に引数を追加して第1引数が NULL でないことを宣言するようにしています。
