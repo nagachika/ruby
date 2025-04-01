@@ -1,0 +1,1 @@
+3a730be8b464454878a42132f6fecb98ab4c1b5b の続きで cont_init() で cont->saved_ec.tag を NULL に初期化していたのが不要になったのでやめています。
