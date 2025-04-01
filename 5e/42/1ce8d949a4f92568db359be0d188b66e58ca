@@ -1,0 +1,1 @@
+Thread#group が Ractor に対応してなかったのを修正しています。 Ractor 毎に ThreadGroup を作成して Ractor 配下の Thread のデフォルトの ThreadGroup を分けるようにしています。うーんなるほど。 https://github.com/ruby/ruby/pull/13013 [ruby-core:101894] [Bug #17506]
