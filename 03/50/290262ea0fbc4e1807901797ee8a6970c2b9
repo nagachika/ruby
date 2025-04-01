@@ -1,0 +1,1 @@
+String, Array, Hash などで slot 内にバッファを埋め込む embedded な状態のオブジェクトを Ractor 間で移動させた時に Variable Width Allocation に対応していなくてバッファが足りていない不具合を修正しています。 [ruby-core:116799] [Bug #20271] [ruby-core:116779] [Bug #20267] [ruby-core:116666] [Bug #20255]
