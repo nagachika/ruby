@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストで ModGC を使っていると不安定なものを GitHub Actions の ModGC を使う workflow で skip するようにしています。
