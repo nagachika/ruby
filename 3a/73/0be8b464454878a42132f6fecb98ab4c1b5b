@@ -1,0 +1,1 @@
+PUSH_TAG()/POP_TAG() などの大域脱出で使う rb_vm_tag_jmpbuf_init() で引数に rb_vm_tag_jmpbuf_t だけを受け取ってたのを struct rb_vm_tag 全体を受け取って linked list 構造のひとつ前の jmpbuf を解放するようにしています。 WASM/WASI 実装の時のメモリリークの修正みたいです。
