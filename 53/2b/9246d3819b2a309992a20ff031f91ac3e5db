@@ -1,0 +1,1 @@
+5e421ce8d949a4f92568db359be0d188b66e58ca の続きで Ractor 毎のデフォルトの ThreadGroup の初期化処理を thread_do_start_proc() の最初のほうに引き上げています。 https://github.com/ruby/ruby/pull/13013 [ruby-core:101894] [Bug #17506]
