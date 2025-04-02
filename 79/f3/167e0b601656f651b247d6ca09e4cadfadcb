@@ -1,0 +1,1 @@
+bundler の rubygems の Gem::Specification の配列のメタデータを扱う時に新しい rubygems では freeze されている配列を freeze されていない配列にすりかえて扱うようにしているようです。
