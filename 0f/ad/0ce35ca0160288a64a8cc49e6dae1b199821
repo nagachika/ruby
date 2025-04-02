@@ -1,0 +1,1 @@
+prism の C 実装で malloc()/free() のかわりに xmalloc()/xfree() を利用するようにしています。
