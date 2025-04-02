@@ -1,0 +1,1 @@
+rubyspec の spec.files や spec.executables などの配列のメタデータを内部でインスタンス変数に保持する時にソートしておくようにしています。
