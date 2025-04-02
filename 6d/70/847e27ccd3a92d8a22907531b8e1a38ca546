@@ -1,0 +1,1 @@
+io_buffer.c の rb_io_buffer_type_free() および rb_io_buffer_type_size() を static 関数にしています。
