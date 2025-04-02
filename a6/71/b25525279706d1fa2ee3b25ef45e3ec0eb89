@@ -1,0 +1,1 @@
+GC.stat_heap の :slot_size についてのテストが不安定なため skip するようにしています。 https://github.com/ruby/ruby/pull/13025 [ruby-core:121463] [Bug #21203]
