@@ -1,0 +1,1 @@
+bundler で古い rubygems のサポートのために持っていた GemParser の代替実装を削除しています。
