@@ -1,0 +1,1 @@
+require 時の default gems などで警告を出すための lib/bundled_gems.rb で ruby 3.1 で警告を出すようにしていた gem 群の設定を削除しています。
