@@ -1,0 +1,1 @@
+rubyspec の C API のテストでも Solaris 向けの分岐条件を削除しています。
