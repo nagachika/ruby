@@ -1,0 +1,1 @@
+372515f33c908b36b3f5fbd2edcb34c69b418500 と 3a730be8b464454878a42132f6fecb98ab4c1b5b で WASM/WASI 版でのメモリリーク修正のはずが OOM が発生してしまったとのことで revert しています。
