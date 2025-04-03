@@ -1,0 +1,1 @@
+test-all で環境による分岐で Solaris 環境向けの条件を削除しています。 Solaris での CI がなくなったので。
