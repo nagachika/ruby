@@ -1,0 +1,1 @@
+file.c で preprocessor 分岐で Linux であることを確認するのに __LINUX__ というマクロをみていたのを __linux__ に修正しています。
