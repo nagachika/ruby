@@ -1,0 +1,1 @@
+GitHub Actions の Windows 用 workflow で scoop でインストールする cmake のバージョンを 3.31.6 に固定するようにしています。 CMake の最新版が 4 になってビルドエラーが起きてたようです。
