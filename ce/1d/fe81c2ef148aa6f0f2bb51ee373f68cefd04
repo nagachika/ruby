@@ -1,0 +1,1 @@
+Thread::ConditionVariable クラスの rdoc 用コメントのサンプルコードで ConditionVariable#wait の呼び出しを条件が満たされるまで繰り返すという作法に則ってなかったのを修正しています。またこのあたりの説明を追記しています。
