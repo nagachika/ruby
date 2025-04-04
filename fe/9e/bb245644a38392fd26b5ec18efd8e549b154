@@ -1,0 +1,1 @@
+vm_core.h で #ifdef YJIT での preprocessor 分岐が不要に繰り返されていたのを削って 1つの分岐でまとめるようにしています。
