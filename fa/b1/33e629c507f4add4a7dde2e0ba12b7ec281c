@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテストで Net::HTTP#open_timeout の設定に環境変数 RUBY_TEST_TIMEOUT_SCALE による調節が効くように EnvUtil.apply_timeout_scale を利用するようにしています。
