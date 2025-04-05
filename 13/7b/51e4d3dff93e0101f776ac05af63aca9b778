@@ -1,0 +1,1 @@
+複数 Ractor を作成して起動時の single ractor mode を解除する時の処理で GC を実行していたのを削っています。昔あった Transient Heap を消すための処理だったけどもう Transient Heap がなくなって不要になってたとのこと。
