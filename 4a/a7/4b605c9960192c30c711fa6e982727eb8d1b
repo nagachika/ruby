@@ -1,0 +1,1 @@
+ISeq へのコンパイル時に struct rb_iseq_constant_body::call_data の配列のサイズが 0 の時は ZALLOC_N() を呼ばずに NULL をセットするようにしています。
