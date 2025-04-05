@@ -1,0 +1,1 @@
+bundler のテストで Windwos 環境での workaround が不要になったとのことで削っています。
