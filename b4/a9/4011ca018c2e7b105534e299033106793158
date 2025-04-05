@@ -1,0 +1,1 @@
+GitHub Actions の dependabot による pull request を CI 完了時にマージするための workflow で ruby/ruby でのみ動くようにしています。
