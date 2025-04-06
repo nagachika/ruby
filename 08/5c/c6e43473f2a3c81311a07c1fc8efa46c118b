@@ -1,0 +1,1 @@
+0350290262ea0fbc4e1807901797ee8a6970c2b9 の Ractor 間の String/Array/Hash の移動で Variable Width Allocation の対応をした修正の再修正で、rb_obj_clone() の呼び出しが不要なコールバックの起動を伴なってしまっていたのでこれを使わず独自にオブジェクトをコピーする処理を書き下しています。
