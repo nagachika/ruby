@@ -1,0 +1,1 @@
+default gems の require に警告を出すための lib/bundled_gems.rb のテストのための tool/test-bundled-gems.rb で子プロセスを起動する時にタイムアウト時に子プロセスを止めるために送信するシグナルから Windows 環境の場合は SIGTERM を除外しています。Windows では別プロセスに SIGTERM を送信することをエミュレーションできないため。
