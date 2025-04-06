@@ -1,0 +1,1 @@
+d22e7660427e1e9929e8444135199b5c3e731246 と同様に tool/test-bundled-gems.rb で子プロセスを停止させるために送信するシグナルから Windows の場合 SIGINT も除外しています。親プロセス(同じ端末 root process)も同時に停止してしまうとのこと。
