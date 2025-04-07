@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストが YJIT 有効かつ ModGC の利用時に不安定なので実行除外するための条件の間違いを修正しています。 https://github.com/ruby/ruby/pull/13067
