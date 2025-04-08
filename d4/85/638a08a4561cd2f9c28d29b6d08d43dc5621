@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb でテストのエラーを許容する bundled gems に win32ole を追加しています。
