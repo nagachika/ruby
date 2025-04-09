@@ -1,0 +1,1 @@
+dtoa() の代替実装 missing/dtoa.c のメモリ管理用の関数 Balloc()/Bfree() でデッドロックが起こり得る不具合があったのでただの malloc()/free() の wrapper としています。
