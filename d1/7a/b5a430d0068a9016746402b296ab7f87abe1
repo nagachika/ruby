@@ -1,0 +1,1 @@
+GC の mmtk 実装の mark 処理を別 thread で実行していた? のと rb_mmtk_scan_gc_roots() 内で直接呼ぶようにしています。
