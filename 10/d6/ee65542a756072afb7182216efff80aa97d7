@@ -1,0 +1,1 @@
+File.dirname のテストの一部をスキップする判定に環境変数 GITHUB_ACTIONS をみて GitHub Actions での実行時のみにしていたのを削っています。
