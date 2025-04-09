@@ -1,0 +1,1 @@
+Ractor.new の experimental 警告の出力に Kernel.warn を利用するようにしています。
