@@ -1,0 +1,1 @@
+gems/bundled_gems で win32ole のテストに使う commit hash の指定を追加しています。また d485638a08a4561cd2f9c28d29b6d08d43dc5621 で bundled gems のテストでエラーを無視するリストに win32ole を追加してしのいでいたのを戻しています。
