@@ -1,0 +1,1 @@
+misc/lldb_cruby.py など lldb 用のコマンドの拡張で struct RVALUE という構造体の宣言が消えたために動かなくなっていたのを対応しています。あれ本当だいつのまに。 Variable Width Allocation の対応関係ですかね。 https://github.com/ruby/ruby/pull/13048
