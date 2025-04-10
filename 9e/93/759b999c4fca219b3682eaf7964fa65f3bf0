@@ -1,0 +1,1 @@
+10d6ee65542a756072afb7182216efff80aa97d7 の File.dirname のテストの一部 assertion を Windows でスキップするための早期 return の後に実行できる assertion があったようなので順序を変更しています。
