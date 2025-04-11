@@ -1,0 +1,1 @@
+bundler のテストを更新し、tool/sync_deffault_gems.rb で bundler のテストのディレクトリ構成の変更に追随させています。
