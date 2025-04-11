@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテスト spec/bundled_gems_spec.rb に gem の有効化に失敗した時のテストを追加しています。
