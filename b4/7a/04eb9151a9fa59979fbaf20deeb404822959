@@ -1,0 +1,1 @@
+lib/bundled_gems.rb の Gem::BUNDLED_GEMS.force_activate の再修正。
