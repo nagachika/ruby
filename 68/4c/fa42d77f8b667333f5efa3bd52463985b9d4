@@ -1,0 +1,1 @@
+prelude.rb で Binding#irb で require "irb" を実行する定義で LoadError 時に Gem::BUNDLED_GEMS.force_activate を実行してからリトライする時に retry 文を使っていたのでリトライ回数が無制限になってたのを require "irb" するだけにして必要以上にリトライする可能性をなくしています。
