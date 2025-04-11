@@ -1,0 +1,1 @@
+c5c0bb5afcbbc054c9e8f4e4b9209253d42f7326 に関連して Module#const_added の rdoc 用コメントに class 文での子クラス定義時の Class#inherited との呼ばれる順番についてサンプルを追記しています。また rubyspec にこの順番についてのテストを追加しています。
