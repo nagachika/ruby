@@ -1,0 +1,1 @@
+de48e47ddf78aba02fd9623bc7ce685540a10743 と de097fbe5f3df105bd2a26e72db06b0f5139bc1a で Module#const_added と Class#inherited の呼ばれる順番を入れ替えたのが、チケットでの議論の結果元の順序に戻しています。 [ruby-core:121077] [Misc #21143] [ruby-core:121413] [Bug #21193]
