@@ -1,0 +1,1 @@
+default gems の require 時の警告を出力するための lib/bundled_gems.rb で Gem::BUNDLED_GEMS.force_activate で Gemfile がない時(コード上で Bundler の setup をした時?)の対応を追加しています。 3390b6a515c4195905ef3be715fb611cce7ccaf5 で追加したテストに対応した変更かな。
