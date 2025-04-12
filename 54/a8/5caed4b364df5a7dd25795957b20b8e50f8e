@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で /etc/resolv.conf などから読み込んだデータを freeze して返すようにしています。
