@@ -1,0 +1,1 @@
+doc/windows.md に Windows でサードパーティーライブラリのインストールに pacman 以外のパッケージマネージャなどを利用する際の configure のサンプルを追記しています。
