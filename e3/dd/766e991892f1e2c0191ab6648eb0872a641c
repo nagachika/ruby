@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv::DNS::Resource::ClassHash という定数を Hash から無名 Module にして特異メソッドで Resolv::DNS::Resource の名前空間の配下に定数を追加することで値を保持する実装にしています。 Ractor safe にするためってことだけど定数を動的に定義するのは大丈夫なんだっけ?
