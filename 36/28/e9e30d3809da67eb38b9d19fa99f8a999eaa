@@ -1,0 +1,1 @@
+構造体 rb_thread_t で未使用になってた profile 用の stat_insn_usage というメンバーを削除しています。 YARV で導入したけどいつのまにか使わなくなってたらしいです。
