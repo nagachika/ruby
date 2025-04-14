@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で生成する Makefile で変数 CLEANLIBS の定義の構築方法を修正しています。
