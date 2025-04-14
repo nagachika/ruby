@@ -1,0 +1,1 @@
+regexec.c の MEMOIZE_LOOKAROUND_MATCH_CACHE_POINT() というマクロに引数を受けつけるように定義を修正しています。
