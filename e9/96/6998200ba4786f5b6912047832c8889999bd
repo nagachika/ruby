@@ -1,0 +1,1 @@
+parse.y の user defined rule の asgn() の未使用の第1引数を削除しています。
