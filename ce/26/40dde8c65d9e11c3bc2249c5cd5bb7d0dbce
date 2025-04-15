@@ -1,0 +1,1 @@
+bundler の platform 固有のバージョンが lockfile に書かれてた時の依存関係更新の処理の不具合の修正。
