@@ -1,0 +1,1 @@
+ruby_thread_has_gvl_p() という関数を公開 C API 関数にしています。
