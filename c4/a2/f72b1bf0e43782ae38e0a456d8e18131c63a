@@ -1,0 +1,1 @@
+bundler の bundle lock の --normalize-platforms の不具合修正。
