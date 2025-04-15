@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の文字列バッファのサイズが int の範囲を越える時の StringScanner#pos でのオーバーフローを修正。値は long で保持しているけど INT2FIX() や NUM2INT() で変換していたため LONG2FIX()/NUM2LONG() を使うようにしています。 https://github.com/ruby/strscan/pull/147
