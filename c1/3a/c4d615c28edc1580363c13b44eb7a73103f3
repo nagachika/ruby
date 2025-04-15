@@ -1,0 +1,1 @@
+string.c や array.c の関数のいくつかに ruby_thread_has_gvl_p() を利用して現在の thread が GVL を取得していることを確認する RUBY_ASSERT() での assertion を追加しています。 [ruby-core:119783] [Feature #20877]
