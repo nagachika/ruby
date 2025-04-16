@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::JSONError のクラスメソッド JSON::JSONError.wrap というのを削除しています。
