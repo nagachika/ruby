@@ -1,0 +1,1 @@
+拡張ライブラリ json で Kernel に追加される j と jj という private メソッドを deprecated にしています。
