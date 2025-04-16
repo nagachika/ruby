@@ -1,0 +1,1 @@
+bundler の bundle lock サブコマンドの --normalize-platforms オプション指定時に正しい platform 名ないものを削るようにしているようです。
