@@ -1,0 +1,1 @@
+bundler で bundle lock --add-platform サブコマンドで platform の指定が条件を満たせない時? の例外を発生させるようにしています。
