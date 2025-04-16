@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::NaN と JSON::Infinity の定数に Float のゼロ除算で値を作ってたのを Float::NAN および Float::Infinity 定数を直接参照するようにしています。
