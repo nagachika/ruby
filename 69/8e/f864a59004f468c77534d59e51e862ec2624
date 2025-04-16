@@ -1,0 +1,1 @@
+IO.select の timeout の引数に Float::INFINITY を受け付けてタイムアウトなしを指定できるようにしています。 [ruby-core:118467] [Feature #20610]
