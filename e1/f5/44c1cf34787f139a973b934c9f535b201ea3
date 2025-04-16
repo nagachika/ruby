@@ -1,0 +1,1 @@
+lldb 用のプラグインの misc/lldb_rb/ で struct RBasic の型を得るためのスクリプトが誤って YJIT 用の yjit::cruby::autogened::RBasic を参照してしまうので "::" をつけてトップレベルの型を取得するようにしています。
