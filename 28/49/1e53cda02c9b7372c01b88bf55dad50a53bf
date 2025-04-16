@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で rb_io_mode_t 型を利用するようにしています。 https://github.com/ruby/stringio/pull/129
