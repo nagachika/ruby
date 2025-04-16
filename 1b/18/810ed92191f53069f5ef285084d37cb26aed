@@ -1,0 +1,1 @@
+bundler の Bundler::Definition#resolution_packages を #resolution_base と改名しています。
