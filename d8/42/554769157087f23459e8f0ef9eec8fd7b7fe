@@ -1,0 +1,1 @@
+tool/rbinstall.rb の RbInstall.no_write メソッドに渡すオプションから :dir_mode を抜き出してるところに理由をコメントで追記しています。
