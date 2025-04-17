@@ -1,0 +1,1 @@
+構造体 rb_io_t のメンバー mode のために enum rb_io_mode という enum 型の定義を追加しています。ビットフラグなんですけど enum にするのはどういう動機なんだろう。昨日拡張ライブラリ stringio で rb_io_mode 型があったら使うようにしてましたけど、あれは先行して入れてたんですね。 https://github.com/ruby/ruby/pull/7894
