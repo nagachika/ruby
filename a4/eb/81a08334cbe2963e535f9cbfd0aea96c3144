@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL で静的チェックを行う workflow で advanced-security/filter-sarif アクションのバージョンを更新しています。見落してましたが 49c29cff479546df7e267d97ceb1f08a4d537a8e では逆にバージョンをダウンさせてしまってたみたいです。
