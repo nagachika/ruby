@@ -1,0 +1,1 @@
+GitHub Actions の workflows で actions/checkout、ruby/setup-ruby、advanced-security/filter-sarif などの actions のバージョンをまとめて更新しています。
