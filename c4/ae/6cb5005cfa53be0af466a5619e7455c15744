@@ -1,0 +1,1 @@
+マシンスタックの overflow のチェックで rb_thread_t が取得できる場合はそこから th->ec->machine で取得できるスタックサイズとアドレスを利用して get_stack() の呼び出しを省略するようにしています。 Fiber 利用時にその Fiber のマシンスタックでなく Thread の main Fiber のスタックのアドレス/サイズを返してしまってたのでオーバーフロー時に異常終了していたのを修正しているようです。 https://github.com/ruby/ruby/pull/13101
