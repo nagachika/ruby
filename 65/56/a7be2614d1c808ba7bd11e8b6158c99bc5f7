@@ -1,0 +1,1 @@
+GitHub Actions の check_misc という workflow で行末の空白を検出してエラーにするための step をコメントアウトしています。
