@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket の syswrite などに StringIO のように文字列に変換できるけど String そのものではない引数を渡した時にうまく変換した値を使えてなかったのを修正しています。変換はしてたんだけど変換前の VALUE を rb_str_locktmp() に渡してしまっていたようです。
