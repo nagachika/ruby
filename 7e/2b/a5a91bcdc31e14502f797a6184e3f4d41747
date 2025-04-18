@@ -1,0 +1,1 @@
+b4c29b7af648051430de5439740b6b08756d1d83 からの続きで GitHub Actions の Windows 版 workflow で scoop をインストールする時にインストーラーを PowerShell の iex というコマンドで管理者権限で? 実行させていたのをやめて Set-ExecutionPolicy というのを使って通常ユーザーで実行できるように署名検証をしてから(?)実行するようにしています。
