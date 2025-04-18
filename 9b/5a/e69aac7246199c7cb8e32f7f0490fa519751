@@ -1,0 +1,1 @@
+b4c29b7af648051430de5439740b6b08756d1d83 の続きで GitHub Actions の Widows 版 workflow で coreutils のかわりに uutils-coreutils というパッケージを使うようにしています。
