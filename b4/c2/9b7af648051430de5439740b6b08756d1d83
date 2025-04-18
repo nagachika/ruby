@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で scoop を使って coreutils のインストールも行うようにして msys2 の利用をやめています。 msys2 に Arm 版がないためとのこと。
