@@ -1,0 +1,1 @@
+標準添付ライブラリ win32/resolv で PowerShell で Select-Object コマンドを呼び出す時に引数にクオートを追加しています。
