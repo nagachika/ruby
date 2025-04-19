@@ -1,0 +1,1 @@
+チケットで提案されていたり([Feature #21221]) RubyKaigi 2025 でも発表があった(https://rubykaigi.org/2025/presentations/maximecb.html#day2) ZJIT の実装が master ブランチにマージされました。これにより ZJIT の実装をしていたブランチでの履歴が一斉に master に入ったので、ここからしばらく ZJIT のマージ時のコミットとして固定のコメントをつけています。 [ruby-core:121560] [Feature #21221]
