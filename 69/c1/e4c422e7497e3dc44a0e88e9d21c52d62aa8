@@ -1,0 +1,1 @@
+GitHub Actions の check_misc workflow でデバッグのために github という変数? の内容をダンプするようにしています。
