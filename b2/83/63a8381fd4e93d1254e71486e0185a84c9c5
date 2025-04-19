@@ -1,0 +1,1 @@
+include/ruby/atomic.h に RUBY_ATOMIC_VALUE_SET() という変数への値の代入を atomic に行うためのマクロ定義を追加しています。コンパイラがサポートしていれば __atomic_store_n() というコンパイラ組み込み関数を利用するようにしています。
