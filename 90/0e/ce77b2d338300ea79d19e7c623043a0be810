@@ -1,0 +1,1 @@
+Unicode のデータファイルからヘッダなどを自動生成するためのテンプレート template/unicode_norm_gen.tmpl および各種 normalize のためのテーブルを生成する lib/unicode_normalize/normalize.rb で Unicode 16.0.0 での変更点をサポートするための事前準備として修正しています。
