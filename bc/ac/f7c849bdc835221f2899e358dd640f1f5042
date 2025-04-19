@@ -1,0 +1,1 @@
+GitHub Actions の check_misc から tool/auto-style.rb を実行する時にコミットを作るために必要な情報を環境変数で追加しています。
