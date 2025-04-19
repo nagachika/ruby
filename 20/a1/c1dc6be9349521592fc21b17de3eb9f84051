@@ -1,0 +1,1 @@
+IO 関係の関数で fd を直接渡さずに struct rb_io (rb_io_t) を渡すようにしています。とはいえ fd も一緒に渡している(rb_io_t を追加しているだけで使ってない)関数もあるけどどういう意図だろう。 https://github.com/ruby/ruby/pull/13134
