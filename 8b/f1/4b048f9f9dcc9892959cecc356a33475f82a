@@ -1,0 +1,1 @@
+tool/lib/vcs.rb で既に ruby 公式の subversion 版のリポジトリは停止していて使いみちがないので SVN 用の実装を削除しています。
