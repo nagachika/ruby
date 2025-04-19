@@ -1,0 +1,1 @@
+57b6a7503f19a9ffb53b1c505c7e093d7a6e33a4 で導入した fstring 管理用の hash set を wrap している T_TYPEDDATA のオブジェクトのメモリ使用量を ObjectSpace で認識できるように dsize 関数を実装しています。
