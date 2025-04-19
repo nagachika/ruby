@@ -1,0 +1,1 @@
+fstring の管理のためのテーブルを st_table から専用の hash set を struct fstring_table_struct という構造体を導入して実装しています。これにより wait-free な参照と lock-free な(テーブルサイズの拡張がなければ)追加ができてとても並列化しやすくなって複数 Ractor 利用時にパフォーマンスが良くなるようです。single Ractor でも軽量そうと思いましたがパターンによっては fstring の種類がとても多いと少し遅くなることもあるようです。 [ruby-core:121670] [Feature #21268]
