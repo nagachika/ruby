@@ -1,0 +1,1 @@
+fstring を rb_vm_fstring_table() のテーブルから除去して struct RBasic::flags の RSTRING_FSTR ビットを落とす処理を rb_gc_free_fstring() という関数に切り出しています。文字列自体を free するわけではないのっでちょっとまぎらわしい名前ですね。
