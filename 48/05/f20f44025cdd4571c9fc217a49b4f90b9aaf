@@ -1,0 +1,1 @@
+3e1dae8d2a95a08b9a1e5a8b16febb12924be398 で追加した GitHub Actions で tool/auto-style.rb を実行するための step で github.event.before/github.event.after といったプロパティを利用するように修正しています。
