@@ -1,0 +1,1 @@
+realpath(3) がエラーを返した時の errno のチェックで WASM/WASI 環境では ENOTSUP がセットされる可能性があるので、それも rb_check_realpath_emulate() に fallback する条件に追加しています。
