@@ -1,0 +1,1 @@
+GitHub Actions の check_misc workflow で行末の空白除去などの 8c6f250dcf4624892347e7d15c9739c043528abf で追加した tool/auto-style.rb の実行を行うようにしています。
