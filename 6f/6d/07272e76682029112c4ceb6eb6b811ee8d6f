@@ -1,0 +1,1 @@
+io.c の rb_io_s_binread() にて enum 型で定数のひとつとして複数のビットフラグを持つ fmode を定義していたのを、導入した enum rb_io_mode 型を使って自動変数として定義するように変更しています。なんかいまいちこの enum 型導入の動機がよくわかってないけど。 https://github.com/ruby/ruby/pull/13128
