@@ -1,0 +1,1 @@
+ということで GitHub Actions により(たぶん) benchmark/app_fib.rb が自動で行末の空白が除去されています。
