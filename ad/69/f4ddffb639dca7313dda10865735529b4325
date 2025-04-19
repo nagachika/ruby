@@ -1,0 +1,1 @@
+Enumerable クラスの rdoc 用コメントの size メソッドについての bbf873521a01c1c44297b9dd52cf4e309ae5b496 での追記部分を拡張して Enumerator#size のポリシーも追記しています。
