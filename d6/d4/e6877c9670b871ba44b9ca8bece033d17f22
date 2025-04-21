@@ -1,0 +1,1 @@
+io.c の rb_io_fptr_finalize() という関数に実際の処理が書かれた rb_io_fptr_finalize_internal() 内と重複した冗長な条件分岐があったのを整理して rb_io_fptr_finalize_internal() は削除しています。 https://github.com/ruby/ruby/pull/13136
