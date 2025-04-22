@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で ruby/setup-ruby での ruby のインストールは arm 版の時は行なわないようにしています。
