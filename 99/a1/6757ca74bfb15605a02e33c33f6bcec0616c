@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の arm 版の時に vcpkg でのインストール先のドライブが D: ではなく C: になる(C: ドライブしかない)のでドライブレターを matrix.os をみて分岐するようにしています。
