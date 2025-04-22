@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で環境セットアップで実行する bat ファイルを指定する環境変数 VCVARS の設定を arm 版 Windows 向けのものを追加しています。
