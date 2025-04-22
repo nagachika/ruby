@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で arm 版の Windows の時に tool/file2lastrev.rb の実行がうまくいかないとのことで独自に PowerShell の Set-Content で revision.h を出力するようにしています。定数マクロの内容が固定なのでたぶんデバッグというか動作確認用?
