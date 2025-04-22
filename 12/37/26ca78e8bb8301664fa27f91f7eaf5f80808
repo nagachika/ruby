@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の arm 版 Windows 向けの vc と vcvars の変数指定を削除しています。
