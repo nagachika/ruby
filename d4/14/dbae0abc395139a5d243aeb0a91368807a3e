@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の arm 版 Windows の時に実行するテストを make check から make test-spec (rubyspec のみ実行)にしています。
