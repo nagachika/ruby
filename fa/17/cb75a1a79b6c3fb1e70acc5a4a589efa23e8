@@ -1,0 +1,1 @@
+Enumerable の rdoc 用コメントの size メソッドの挙動について特に Enumerator#size がどんな値を返すかの期待についてさらに追記しています。また Enumerable#drop_while の rdoc 用コメントに Enumerator を返す時のサンプルコードを追加しています。
