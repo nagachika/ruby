@@ -1,0 +1,1 @@
+bundler の bundle doctor ssl 実行時に拡張ライブラリ openssl が使えない時の workaround を追加しています。
