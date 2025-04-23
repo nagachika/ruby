@@ -1,0 +1,1 @@
+bundler の bundle doctor ssl に rubygems のサーバーの TLS 設定のチェックする機能を追加しています。
