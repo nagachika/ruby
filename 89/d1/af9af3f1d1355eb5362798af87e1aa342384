@@ -1,0 +1,1 @@
+bundler の bundle doctor サブコマンド用のクラス定義を CLI::Doctor::Diagnose に改名して lib/bundler/cli/doctor/diagnose.rb に移動しています。
