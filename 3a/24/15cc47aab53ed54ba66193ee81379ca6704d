@@ -1,0 +1,1 @@
+bundler の bundle doctor ssl のテストで ruby 本体では失敗するものを実行除外するようにしています。
