@@ -1,0 +1,1 @@
+libexec/ssl_check.rb というツールを追加しています。rubygems か bundler からのマージで誤って入ったのかなと思いましたが upstream が https://github.com/rubygems/ruby-ssl-check とのことで意図的に追加されたみたいですね。
