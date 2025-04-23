@@ -1,0 +1,1 @@
+bundler の bundle doctor サブコマンドに --ssl オプションまたは ssl サブサブコマンドを追加しています。 これに ef82273c04c8d0b8f858d6fdbcc50155ad9921f9 で追加した libexec/ssl_check.rb を利用するのかな。
