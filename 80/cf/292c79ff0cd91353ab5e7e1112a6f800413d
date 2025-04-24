@@ -1,0 +1,1 @@
+rubyspec の Module#const_added のテストにコールバックで superclass が得られることを確認するテストを追加しています。
