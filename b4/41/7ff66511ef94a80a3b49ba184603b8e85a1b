@@ -1,0 +1,1 @@
+Encoding::UNICODE_VERSION という定数を追加して現在の Unicode のバージョンを返すようにしています。
