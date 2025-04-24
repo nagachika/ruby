@@ -1,0 +1,1 @@
+GC の default 実装および mmtk 実装の rb_gc_impl_define_finalizer() に VM ロックを追加しています。複数 Ractor 利用時のために排他が必要なのに抜けてたみたいです。
