@@ -1,0 +1,1 @@
+7c30bd50df8617063c99630112e1015ec5a743c3 の追加修正で GC の default 実装と mmtk 実装の rb_gc_impl_define_finalizer() の VM ロック追加で途中で return するパスでの unlock 漏れを修正しています。
