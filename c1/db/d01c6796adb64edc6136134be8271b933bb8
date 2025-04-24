@@ -1,0 +1,1 @@
+non-blocking Fiber での Kernel#sleep のテストで sleep の戻り値の停止していた時間のチェックにすこし余裕を持たせています。sleep の戻り値はクロックの歪みの影響とか受けるのかな? https://github.com/ruby/ruby/pull/13152
