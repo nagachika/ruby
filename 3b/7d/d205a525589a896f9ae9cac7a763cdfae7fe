@@ -1,0 +1,1 @@
+Unicode のデータからヘッダファイルなどを生成するテンプレート template/unicode_norm_gen.tmpl で不要な空の埋め込みがあったのを削除しています。
