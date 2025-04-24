@@ -1,0 +1,1 @@
+GitHub Actions の check_misc workflow の自動で行末の空白除去などを行う step で fork したリポジトリではチェックも行わないようにしています。差分を取るための github.event.before という変数プロパティが新規のブランチでは取れないためとのこと。
