@@ -1,0 +1,1 @@
+ZJIT 用に --zjit-dump-lir というオプションを追加して中間表現の LIR というレイヤーのものをダンプできるようにしています。中間表現も Higher-level と Lower-level で 2階層になってるみたいですね。 https://github.com/ruby/ruby/pull/13139
