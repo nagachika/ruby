@@ -1,0 +1,1 @@
+tool/update-bundled_gems.rb で gems/bundled_gems の自動更新時に gem.date が 1980-01-02 という特定の時刻だったら利用しないようにしています。 888820c581065c7d5cbcd4a137af1e66a708979c の自動更新でコミットログがちょっとおかしかったのはこの部分の影響で gemspec の指定? がない時に rubygems が自動で埋める日付だったみたいです。
