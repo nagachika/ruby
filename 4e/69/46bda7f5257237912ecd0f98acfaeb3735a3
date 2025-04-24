@@ -1,0 +1,1 @@
+8bf14b048f9f9dcc9892959cecc356a33475f82a で tool/lib/vcs.rb から SVN 対応を削除した時にコミットログから ChangeLog を整形する Proc をちゃんと代入できていなかった? 不具合を修正しています。
