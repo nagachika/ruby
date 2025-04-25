@@ -1,0 +1,1 @@
+lib/bundler/fetcher.rb ではそもそも CGI が不要だったので require "cgi" を削除しています。
