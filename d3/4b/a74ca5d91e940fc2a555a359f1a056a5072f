@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg でパッケージインストールする時に --vcpkg-root オプションで scoop で入れた vcpkg のディレクトリを明示的に指定するようにしています。
