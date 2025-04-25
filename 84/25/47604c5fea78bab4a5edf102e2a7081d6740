@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で VCPKG_BINARY_SOURCES という環境変数の設定を vcpkg install の step だけじゃなく全体で設定するようにしています。
