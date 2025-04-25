@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による静的解析の workflow で CODEQL_ACTION_CLEANUP_TRAP_CACHES という環境変数の設定を追加しています。 cache が大量になってきたので削減するためとのこと。
