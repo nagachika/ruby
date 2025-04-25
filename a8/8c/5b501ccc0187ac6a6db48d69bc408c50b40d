@@ -1,0 +1,1 @@
+rubygems/bundler および prism のテンプレートで bundled gems の cgi を利用する時に require "cgi" と全体を require していたのを require "cgi/util" のみ require するようにしています。
