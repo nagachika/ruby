@@ -1,0 +1,1 @@
+doc/zjit.md で make test-all で特定のテストメソッドだけ実行する時の TESTS 環境変数の指定の方法を修正しています。 https://github.com/ruby/ruby/pull/13163
