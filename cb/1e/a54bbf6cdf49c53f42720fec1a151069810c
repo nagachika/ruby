@@ -1,0 +1,1 @@
+GC の default 実装で対応している拡張ライブラリ objspace の ObjectSpace.dump で出力するオブジェクトのフラグに sharable を追加しています。
