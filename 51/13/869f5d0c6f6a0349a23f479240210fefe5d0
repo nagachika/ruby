@@ -1,0 +1,1 @@
+Thread#join の引数の扱いのテストが flasky とのことで Thread が終了するまで Thread.pass で強制的にコンテキスト切り替えを起こして Thread#join を呼んだ時に確実に Thread が終了しているようにしています。
