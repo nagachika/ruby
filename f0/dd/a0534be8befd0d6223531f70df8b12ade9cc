@@ -1,0 +1,1 @@
+rubygems の WebAuthn の実装で CGI.parse を利用していたところを文字列分割(String#split)によるパラメーターの分解と URI.decode_www_form_component に置き換えています。
