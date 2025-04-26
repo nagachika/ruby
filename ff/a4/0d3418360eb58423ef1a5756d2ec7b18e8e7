@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg のパッケージのキャッシュに actions/cache アクションを利用するようにしています。
