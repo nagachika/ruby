@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg のキャッシュのための actions/cache の key に利用するのを matrix の target から os に変更しています。
