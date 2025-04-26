@@ -1,0 +1,1 @@
+GC のデフォルト実装で拡張ライブラリ objspace の ObjectSpace.dump から呼ばれる rb_gc_impl_object_metadata() のためのメタデータの数を示す定数マクロが更新されていなかったので 7 -> 9 に増やしています。
