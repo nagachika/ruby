@@ -1,0 +1,1 @@
+GitHub Actions に Windows の ARM 版の専用の workflow を別途追加して、Windows 版 workflow の matrix からは消しています。同居していると vckpg のキャッシュがうまく効かなくなっていたとのこと。
