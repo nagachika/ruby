@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.unparse, JSON.restore などの削除した古いメソッドの別名を警告つきで復活させています。
