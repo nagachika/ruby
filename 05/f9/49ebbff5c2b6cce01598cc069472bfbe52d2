@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::PRETTY_STATE_PROTOTYPE という定数を警告つき(Module#const_missing のフックで参照する都度警告を出すようにして)で復活させています。
