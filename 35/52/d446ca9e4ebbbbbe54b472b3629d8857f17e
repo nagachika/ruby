@@ -1,0 +1,1 @@
+rubyspec の ObjectSpace.allocation_class_path のテストが Class#new のインライン化で影響を受けるので新旧どちらでも通るように expect を動的に決めるようにしています。 [ruby-core:121565] [Feature #21254]
