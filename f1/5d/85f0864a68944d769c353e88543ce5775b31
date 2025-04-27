@@ -1,0 +1,1 @@
+compile.c の ISeq へのコンパイル処理の parse.y 版の実装でも Class#new の opt_new 命令利用に対応しています。そうか parser ごとに compile.c も一部別々の実装を持っているから新規命令追加した時は両方対応が必要なのか……。 [ruby-core:121565] [Feature #21254]
