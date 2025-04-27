@@ -1,0 +1,1 @@
+RubyKaigi のセッションでも予告されていた Class#new つまりいろんなクラスの Xxx.new でオブジェクトを作成する時の処理を ISeq 上でインライン化して高速化するようにしています。このため VM 命令に opt_new というのが新規追加されています。また副作用としてバックトレースが変化するようです。 https://github.com/ruby/ruby/pull/13080 [ruby-core:121565] [Feature #21254]
