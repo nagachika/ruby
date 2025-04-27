@@ -1,0 +1,1 @@
+GC の実装で拡張ライブラリ objspace の ObjectSpace.dump の実装からオブジェクトのフラグなどを取得するための API rb_gc_impl_object_metadata() で返すメタデータの種類を定数マクロで定義していたのですが、追随漏れをしがちということで sizeof で自動的にサイズが計算されるようにしています。
