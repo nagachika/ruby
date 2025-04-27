@@ -1,0 +1,1 @@
+ZJIT で JIT で対応できない種類の引数渡しなどを含むメソッド呼び出しを side-exit? あるいは不要な処理をスキップする? ようにしているようです。 https://github.com/ruby/ruby/pull/13182
