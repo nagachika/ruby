@@ -1,0 +1,1 @@
+Class#new のインライン化のため追加した VM 命令 opt_new で TracePoint や set_trace_func でトレースが有効化されて VM 命令が trace 用になってた時には脱最適化してメソッド呼び出しに fallback するようにしています。  [ruby-core:121565] [Feature #21254]
