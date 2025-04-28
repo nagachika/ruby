@@ -1,0 +1,1 @@
+と思ったら cont_restore_thread() で WASM/WASI 版のビルドの時に jumpbuf の解放処理の実装を追加しています。
