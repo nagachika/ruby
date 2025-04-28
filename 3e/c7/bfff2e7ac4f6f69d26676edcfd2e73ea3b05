@@ -1,0 +1,1 @@
+e4f85bfc311a3812de7bc2e9d068934e8b364574 で Set の組み込み化のために導入された set_table を rb_vm_t::unused_block_warning_table で利用するようにしています。やはり VM 内部で利用されている st_table の代替として set_table の利用が拡がりそうですね。
