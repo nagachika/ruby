@@ -1,0 +1,1 @@
+GC.latest_gc_info の :weak_references_count と :retained_weak_references_count 項目のテストの安定化のため配列の参照を消す前に Array#clear を呼んで配列のバッファもクリアして Array オブジェクトが解放されなかった時も配列内の参照から mark されないようにします。
