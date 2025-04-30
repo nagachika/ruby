@@ -1,0 +1,1 @@
+ZJIT での定数参照の cache まわりの最適化。 https://github.com/ruby/ruby/pull/13183
