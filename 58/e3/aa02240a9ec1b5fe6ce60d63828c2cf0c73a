@@ -1,0 +1,1 @@
+ZJIT で不要な? trace つきバージョンの命令に対応するコードを削除しているようです。 https://github.com/ruby/ruby/pull/13189
