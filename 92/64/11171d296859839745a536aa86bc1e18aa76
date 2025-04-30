@@ -1,0 +1,1 @@
+組み込みクラスになった Set の Marshal.dump/Marshal.load で Hash を利用して標準添付ライブラリ自体の set 由来の Set を dump したものと互換性を保つようにしています。なるほどなー。このため Hash の default_proc を設定する C API rb_hash_set_default() の static 修飾子を削除して set.c から使えるようにしています。
