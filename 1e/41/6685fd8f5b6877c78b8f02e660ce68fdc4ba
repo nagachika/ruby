@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で ISeq を HIR に変換したあとの optimize() の呼び出しが重複していたのを削っています。 https://github.com/ruby/ruby/pull/13196
