@@ -1,0 +1,1 @@
+include/ruby/internal/anyargs.h の rb_define_method() 系の関数に関数ポインタ型の引数の明示的キャストを追加した関数マクロによる wrapper 定義を追加しています。 Windows (MinGW) で GCC 15 にするとビルドエラーになってたのを修正するためみたいです。 [ruby-core:121745] [Bug #21286]
