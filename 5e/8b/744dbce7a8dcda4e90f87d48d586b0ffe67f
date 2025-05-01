@@ -1,0 +1,1 @@
+include/ruby/internal/value_type.h のオブジェクトの即値の型を示す enum の RUBY_T_TRUE/RUBY_T_FALSE のコメントが逆になってたのを修正しています。
