@@ -1,0 +1,1 @@
+拡張ライブラリ json の SIMD 命令による実装の追加時に追加した ext/json/generator/simd.h から extconf.h を #include していたのを削除しています。
