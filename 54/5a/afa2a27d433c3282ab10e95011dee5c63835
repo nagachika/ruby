@@ -1,0 +1,1 @@
+ZJIT 専用の Makefile zjit/zjit.mk に zjit-test-lldb というターゲットを追加しています。 lldb 経由で ZJIT の Rust 実装のテストを起動するターゲットのようです。
