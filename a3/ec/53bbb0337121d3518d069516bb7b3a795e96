@@ -1,0 +1,1 @@
+拡張ライブラリ json で ARM 版の CPU でビルドした時に有効にする SIMD 命令を利用した実装を追加しています。 https://github.com/ruby/json/pull/743
