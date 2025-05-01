@@ -1,0 +1,1 @@
+prism 利用時に AST から ISeq へのコンパイル時の Class#new のインライン化の最適化時に &. による safe-navigator 演算子の処理と組み合わさった時に stack inconsistency error になっていた不具合を修正しています。
