@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON.pretty_generate で JSON 生成した時のインデントの不一致を修正しているようです。 ついでに(?) JSON_Generator_State を関数の引数で引き回していたのを同じく引数に渡している struct generate_json_data から取れるため不要なので削っています。 https://github.com/ruby/json/issues/790
