@@ -1,0 +1,1 @@
+組み込みクラス Set の実装で GC.compact による移動時に set_table の compaction は行わないようにしています。 set_compact_table() はオブジェクト確保を含む可能性があるため GC 中に実行すべきではないため。
