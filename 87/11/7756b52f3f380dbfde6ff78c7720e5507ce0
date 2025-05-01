@@ -1,0 +1,1 @@
+Set の組み込みクラス化の時に追加された st.c の set_add_direct_with_hash() が未使用だったので削除しています。
