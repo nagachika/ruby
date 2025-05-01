@@ -1,0 +1,1 @@
+拡張ライブラリ json の extconf.rb で create_header の呼び出しを削除しています。 configure 時に --with-static-linked-ext をつけて拡張ライブラリを静的リンクした時のエラー修正とのこと。
