@@ -1,0 +1,1 @@
+GitHub Actions の pull request に自動で reviewers をつけるための workflow で team 名を yjit から jit に変更しています。 https://github.com/ruby/ruby/pull/13209
