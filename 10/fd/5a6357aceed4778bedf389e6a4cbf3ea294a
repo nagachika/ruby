@@ -1,0 +1,1 @@
+b42c8398ba84437cd6e96cbf6ccaf5ac5eff32b6 の prism 利用時の ISeq への Class#new のコンパイルの変更に対応したテストを追加しています。
