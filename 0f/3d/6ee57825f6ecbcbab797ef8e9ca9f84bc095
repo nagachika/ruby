@@ -1,0 +1,1 @@
+マクロ USE_ZJIT=0 を指定してビルドされた時に ZJIT 関連の処理を消すよう preprocessor の分岐を追加しています。 https://github.com/ruby/ruby/pull/13199
