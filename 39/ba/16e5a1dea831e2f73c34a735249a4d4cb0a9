@@ -1,0 +1,1 @@
+gems/bundled_gems で repl_type_completor のテストで使う commit hash の指定を追加して、make test-bundled-gems でエラーを無視する gem に mswin/mingw の時に repl_type_completor を追加していたのを削っています。
