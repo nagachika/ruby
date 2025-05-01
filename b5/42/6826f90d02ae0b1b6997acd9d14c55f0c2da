@@ -1,0 +1,1 @@
+e6974be5458907d4e809a84d775c3e6b7f4fcea9 で追加した Set の GC.compact 時の挙動のテストで GC.compact が NotImplementedError を返した時に無視するように rescue を追加しています。
