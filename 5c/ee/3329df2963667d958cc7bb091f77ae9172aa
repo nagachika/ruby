@@ -1,0 +1,1 @@
+拡張ライブラリ objspace のテストで ObjectSpace.allocation_class_path の結果が TracePoint を有効にしてテストを実行していると変化してテストがこけてしまうので一時的にコメントアウトしています。 [ruby-core:121791] [Bug #21298]
