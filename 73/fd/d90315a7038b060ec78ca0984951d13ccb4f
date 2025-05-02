@@ -1,0 +1,1 @@
+ZJIT の Class#new のインライン化で使う VM 命令 opt_new のメソッド呼び出しに fallback する時の実装を出力するようにしているようです。ZJIT の実装よくわからないな(YJIT もよくわかってないけどまだもうちょっと見た目で想像がつく)。 https://github.com/ruby/ruby/pull/13216
