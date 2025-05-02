@@ -1,0 +1,1 @@
+GC に mmtk 実装を利用している時に finalizer のテストを skip する指定を test/.excludes-mmtk/TestObjSpace.rb というファイルから test/.excludes-mmtk/TestObjectSpace.rb という新規ファイルに切り出しています。
