@@ -1,0 +1,1 @@
+tool/test-coverage.rb の at_exit ブロック内で GC.stress = false を実行してプロセス終了時の coverage のレポート作成? の処理を遅くしないようにしています。
