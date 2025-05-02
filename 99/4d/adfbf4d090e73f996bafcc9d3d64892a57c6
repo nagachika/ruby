@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow から OS_VER という環境変数の設定が不要になってたので削除しています。
