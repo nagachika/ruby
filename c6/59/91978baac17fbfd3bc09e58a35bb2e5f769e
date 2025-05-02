@@ -1,0 +1,1 @@
+Object Shapes の実装のリスト操作で VM lock を使わずに atomic な操作ができるケースで lock を回避する最適化パスを追加しています。
