@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境の workflow でもうすぐ EOL になる windows-2019 の指定を matrix から消しています。
