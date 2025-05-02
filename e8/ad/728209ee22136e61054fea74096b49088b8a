@@ -1,0 +1,1 @@
+ISeq のテストで RubyVM::InstructionSequence#to_binary を直接呼んでいたのを RuntimeError を捕捉して skip するヘルパーメソッドを追加してこれを利用するようにしています。coverage を取っていると ISeq の binary ダンプが失敗するためとのこと。trace 版の VM 命令に差し変わるからかな。
