@@ -1,0 +1,1 @@
+さらに GC の mmtk 実装利用時に Ractor のテストを skip するための指定を test/.excludes-mmtk/TestEtc.rb というファイルで追加しています。
