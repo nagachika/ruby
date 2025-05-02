@@ -1,0 +1,1 @@
+主に Ractor の実装で現在の rb_execution_context_t を得るのに GET_EC() ではなくて rb_current_ec_noinline() を利用するようにしています。 GET_EC() の実体である rb_current_execution_context() は rb_current_ec_noinline() の結果と thread local storage から得た rb_current_ec() の結果が同一かどうかの assertion を含んでいて、LLVM 18 の最適化でなんらかの値の使いまわしかなにかでこれがこけることがあるみたいです。
