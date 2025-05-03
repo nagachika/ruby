@@ -1,0 +1,1 @@
+Set の組み込みクラス化にともない tool/sync_default_gems.rb から set の同期処理を削っています。
