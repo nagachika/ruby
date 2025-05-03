@@ -1,0 +1,1 @@
+vm_method.c の prepare_callable_method_entry() に直前の if 文の条件と同じなので無意味な VM_ASSERT() があったのを削っています。
