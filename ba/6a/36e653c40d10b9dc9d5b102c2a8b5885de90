@@ -1,0 +1,1 @@
+拡張ライブラリ digest の各アルゴリズムの extconf.rb 用のライブラリ ext/digest/digest_conf.rb で --without-common-digest オプションを渡された時の処理の不具合修正。
