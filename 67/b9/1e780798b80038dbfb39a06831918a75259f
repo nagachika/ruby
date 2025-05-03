@@ -1,0 +1,1 @@
+昨日の b42afa1dbcbb91e89852b3b3bc72484d7f0a5528 での GCC 15 での char の配列に対する警告抑制のための attribute 追加が逆に GCC 13.3.0 で警告が出てたとのことで symbol.c の自動変数への初期化子に RBIMPL_ATTR_NONSTRING() をつけていたのを削っています。 char の配列の配列だったらか不要だった?
