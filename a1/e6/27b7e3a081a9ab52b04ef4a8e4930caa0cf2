@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Data クラスのオブジェクト対応で load 時に initialize メソッドを通常のメソッド呼び出しで呼ぶかわりに rb_struct_initialize() 関数を直接呼ぶようにしています。
