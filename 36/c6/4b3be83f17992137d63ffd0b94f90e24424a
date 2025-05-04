@@ -1,0 +1,1 @@
+gc.c で即値が来ないとわかっている rb_gc_obj_free_vm_weak_references() や rb_gc_mark_children() などの関数で FL_TEST() のかわりに FL_TEST_RAW() を利用して flags のチェックを行うようにしています。
