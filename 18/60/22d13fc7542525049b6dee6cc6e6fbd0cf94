@@ -1,0 +1,1 @@
+WASM/WASI 実装での setjmp()/longjmp() の実装のための jmpbuf の構造体のバッファサイズの定数マクロ WASM_SETJMP_STACK_BUFFER_SIZE のサイズを 4/3 倍に増やしています。 Namespace の機能の追加のために拡張が必要になったとのこと。
