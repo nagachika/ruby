@@ -1,0 +1,1 @@
+yjit.c や zjit.c で CRuby 本体の API を Rust 実装から使うための wrapper 関数群の定義を jit.c というファイルにまとめて共有? しているようです。 YJIT と ZJIT 両方利用可能にしてビルドするために必要だったみたいです。
