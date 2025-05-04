@@ -1,0 +1,1 @@
+ZJIT で配列リテラルにメソッドを呼ぶ時の不要なオブジェクト生成を抑制するための最適化命令 opt_newarray_send に対応した HIR 生成を実装しているようです。 https://github.com/ruby/ruby/pull/13242
