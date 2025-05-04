@@ -1,0 +1,1 @@
+VM 命令(insns) のメタデータからソースコードを生成するためのテンプレート tool/ruby_vm/views/insns_info.inc.erb で生成するヘッダ(正確には .inc ファイル)で二重 #include 時の抑制のための #ifndef による guard を追加しています。
