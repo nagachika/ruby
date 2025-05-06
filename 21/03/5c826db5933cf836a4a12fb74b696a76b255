@@ -1,0 +1,1 @@
+組み込みクラスになった Set の Set#initialize の実装でも配列のループ時に RARRAY_PTR_USE() マクロを利用していたのをループ中の配列オブジェクトの変更に対応するため毎回 RARRAY_LENG() と RARRAY_AREF() マクロを使って要素を取り出すように修正しています。 [ruby-core:121809] [Bug #21306]
