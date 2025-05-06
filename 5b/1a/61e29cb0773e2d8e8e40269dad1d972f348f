@@ -1,0 +1,1 @@
+拡張ライブラリ digest の digest/sha1 の実装で局所的に警告を抑制するための RB_DIGEST_WARNING_IGNORED() マクロを使ってたところを対象の警告の指定が存在する GCC 11 以降でのみ使うように preprocessor 分岐の条件に追加しています。
