@@ -1,0 +1,1 @@
+GCC 15 での char の配列に対する NUL 終端に関する警告を抑制する attribute の指定を GCC のバージョンに応じて ON/OFF する RBIMPL_ATTR_NONSTRING_ARRAY() という更なる wrapper マクロを定義して一部の配列の配列の変数宣言にこれを使うようにしています。
