@@ -1,0 +1,1 @@
+拡張ライブラリ socket の名前解決のための子 thread と引数をやりとりするための構造体の struct fast_fallback_getaddrinfo_shared 内の配列のバッファの解放が後になると free(3) された後のメモリを触ることがありえてしまったので、両者のメモリ管理を同一の場所で行うように修正しています。 https://github.com/ruby/ruby/pull/13231
