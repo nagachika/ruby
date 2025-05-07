@@ -1,0 +1,1 @@
+shape.c と variable.c の Object Shapes 関連のソースでのポインタ型の記法の style を修正。
