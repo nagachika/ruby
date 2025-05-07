@@ -1,0 +1,1 @@
+3a2e56e6855b36ca4fe1e086c3eed89ec2c4af31 の続きで is_coroutine_start() での preprocessor 分岐に defined() で USE_MN_THREADS マクロが定義されているかどうかのチェックも追加しています。
