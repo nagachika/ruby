@@ -1,0 +1,1 @@
+variable.c で ivtbl->shape_id の初期化に shape_id_t 型の SHAPE_OBJ_TOO_COMPLEX を使ってたのを enum shape_type 型の OBJ_TOO_COMPLEX_SHAPE_ID を使うよう修正しています。実際に値も違ってそうですね。まあでも本来の値より大きな値から開始なので実害はなかったのかな。
