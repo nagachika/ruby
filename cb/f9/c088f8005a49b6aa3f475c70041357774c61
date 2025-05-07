@@ -1,0 +1,1 @@
+YJIT で詳しい条件はわかりませんが control frame を積まずに呼ぶブロック(Proc オブジェクト)の呼び出し後で JIT のコンパイル単位の block を分けるようにしています。 https://github.com/ruby/ruby/pull/13245
