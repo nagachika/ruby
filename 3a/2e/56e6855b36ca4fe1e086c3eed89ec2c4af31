@@ -1,0 +1,1 @@
+USE_MN_THREADS=0 で M:N Thread を無効にしてビルドするとビルド失敗していたようで vm_dump.c の is_coroutine_start() に preprocessor 分岐を追加しています。 1bc57b5e0e3cd15e8702c8856a276e98b6e46ba8 で追加した部分ですね。
