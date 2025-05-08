@@ -1,0 +1,1 @@
+GC の default 実装で Ractor 毎の個別の heap cache に確保したオブジェクト数は別途カウントして一定の数値に達した度に rb_heap_t::total_allocated_objects に加算するようにしています。複数 Ractor からの total_allocated_objects のカウントアップが競合して誤った値になる可能性があったので RUBY_ATOMIC_SIZE_ADD() を使って競合しないようにして、そのコストを抑えるために一定の数ごとに加算にしているのだと思います。
