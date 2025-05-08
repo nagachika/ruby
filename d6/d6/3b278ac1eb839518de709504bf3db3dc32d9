@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による静的解析の workflow で github/codeql-action/init アクションの debug パラメーターを true に設定しています。
