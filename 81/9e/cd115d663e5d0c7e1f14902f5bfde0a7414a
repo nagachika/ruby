@@ -1,0 +1,1 @@
+rubygems の gem パッケージにファイルを追加する時の mtime を  Gem::Package::TarWriter#add_file の引数で指定できるようにしています。
