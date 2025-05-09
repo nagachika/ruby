@@ -1,0 +1,1 @@
+Ractor 間での ENV のテストで Ractor 間でやりとりするオブジェクトを object_id の結果の整数を使ってたのを ENV 自身を渡すようにしています。けど ENV って Ractor shareable なのかな。
