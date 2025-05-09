@@ -1,0 +1,1 @@
+オブジェクトの object_id (__id__) の値を管理するテーブルを Object Shapes の rb_shape_t の管理するインスタンス変数のテーブルに同居させて Object Shapes で管理するようにしているようです。0ea210d1ea257162642969edce665935cc87c643 でのメンバー名の変更や d34c15054708c84e9d3305ede0752820b42ac498 での rb_shape_t::flags メンバーの追加などはこのための準備も兼ねてたようです。 https://github.com/ruby/ruby/pull/13159
