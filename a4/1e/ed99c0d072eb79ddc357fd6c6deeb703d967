@@ -1,0 +1,1 @@
+819ecd115d663e5d0c7e1f14902f5bfde0a7414a で追加した rubygems の Gem::Package::TarWriter のテストで引数に渡す Time と assertion で比較する Time を同一のものを使うようにしています。
