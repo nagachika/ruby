@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#scan_integer のテストに "+" や "-" だけの文字列の時のテストケースを追加しています。 https://github.com/ruby/strscan/pull/152 https://github.com/ruby/strscan/pull/153
