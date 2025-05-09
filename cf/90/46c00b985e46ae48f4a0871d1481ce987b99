@@ -1,0 +1,1 @@
+GC で id_to_obj_tbl を GC.compact で更新する処理で st_foreach_with_replace() を使って st_foreach() のコールバック内で st_insert() する実装を置き換えています。一時的に GC を停止するのを不要にするため。
