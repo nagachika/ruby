@@ -1,0 +1,1 @@
+GC の default 実装 gc/default/default.c で internal/hash.h で宣言されている API を利用しないようにしています。rb_hash_has_key() のかわりに rb_hash_lookup2() を、rb_hash_stlike_foreach() のかわりに rb_hash_foreach() を利用するようにしています。
