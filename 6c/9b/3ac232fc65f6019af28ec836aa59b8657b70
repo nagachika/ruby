@@ -1,0 +1,1 @@
+Object Shapes の実装で SHAPE_OBJ_TOO_COMPLEX の定数を直接参照する実装をしなくて済むように rb_shape_too_complex_p() や b_shape_id_too_complex_p() といった C API を追加して GC や YJIT/ZJIT からはこれを利用するようにしています。 https://github.com/ruby/ruby/pull/13159
