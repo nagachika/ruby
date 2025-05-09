@@ -1,0 +1,1 @@
+variable.c のコンパイル時の警告抑制のため明示的な初期化と UNREACHABLE_RETURN() で到達しない節の明示をしています。
