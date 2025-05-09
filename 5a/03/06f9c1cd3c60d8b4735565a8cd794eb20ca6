@@ -1,0 +1,1 @@
+拡張ライブラリ strscan のテストに StringScanner#scan_integer の前に StringScanner#pos= で位置を指定するケースを追加しています。 https://github.com/jruby/jruby/issues/8823 https://github.com/ruby/strscan/pull/150
