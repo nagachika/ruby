@@ -1,0 +1,1 @@
+構造体 rb_classext_t のメンバー iv_ptr を fields と改名して対応するマクロや変数名、関数名なども追随して変更しています。 https://github.com/ruby/ruby/pull/13159
