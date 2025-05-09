@@ -1,0 +1,1 @@
+f48e45d1e9c4412d5f3ee49241d0b9359651ce7c の object_id の管理を Object Shapes に混ぜる変更の追随で GC の mark 処理の rb_gc_vm_weak_table_foreach() で不要になったテーブル種類 RB_GC_VM_ID_TO_OBJ_TABLE_KEYS の処理を削っています。
