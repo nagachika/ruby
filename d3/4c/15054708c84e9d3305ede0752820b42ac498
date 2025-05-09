@@ -1,0 +1,1 @@
+Object Shapes の構造体 rb_shape_t に flags メンバーを追加してビットフラグで frozen という状態を持てるようにしてインスタンス変数のコピー処理を軽量化? しているようです。が、これ自体が目的というよりは次からの object_id の情報を Object Shapes に持たせる変更のための準備という感じみたいです。 https://github.com/ruby/ruby/pull/13159
