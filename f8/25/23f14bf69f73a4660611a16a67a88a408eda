@@ -1,0 +1,1 @@
+Object Shapes の実装の変更続きで rb_shape_transition_frozen() の戻り値も rb_shape_t から rb_shape_id に変更しています。
