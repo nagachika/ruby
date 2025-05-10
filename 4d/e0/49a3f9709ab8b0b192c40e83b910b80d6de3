@@ -1,0 +1,1 @@
+ObjectSpace._id2ref の rdoc 用コメントに deprecated であることを追記して利用時に deprecated カテゴリの警告を出力するようにしています。 [ruby-core:90464] [Feature #15408]
