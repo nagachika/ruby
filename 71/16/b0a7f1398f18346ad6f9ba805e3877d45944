@@ -1,0 +1,1 @@
+rb_vm_t の解放処理から Object Shapes の解放処理を rb_shape_free_all() という関数に切り出しています。
