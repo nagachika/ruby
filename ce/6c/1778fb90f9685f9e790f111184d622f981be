@@ -1,0 +1,1 @@
+rubyspec の cgi についてのテストを 3.4 以前でのみ実行するように ruby_version_is を追加しています。
