@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の拡張ライブラリとして切り出されている cgi/escape を使う処理を CGI::Escape という独立したモジュールに切り出して lib/cgi/escape.rb というファイルに分離しています。 cgi/escape だけ require して使うことができるように。
