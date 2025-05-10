@@ -1,0 +1,1 @@
+gc.c で rb_shape_t を直接触っていたところを ROBJECT_FIELDS_COUNT() を利用するようにしています。
