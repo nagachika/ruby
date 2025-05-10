@@ -1,0 +1,1 @@
+GC の default 実装で RB_DEBUG_COUNTER_INC() などのマクロを呼び出してるところを #if USE_DEBUG_COUNTER の preprocessor 分岐でくくっていたのをやめています。チェックしなくてもマクロの展開結果が空になるので不要だったとのこと。
