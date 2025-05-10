@@ -1,0 +1,1 @@
+30ef0f180b396314521d1309e7732ce921cd2fab の変更に追随して rb_gc_impl_ractor_cache_free() という関数内で無意味になってたコードを削除しています。
