@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI::Escape および CGI::Util のテストでそれぞれ必要な cgi/escape と cgi/util のみ require するようにしています。
