@@ -1,0 +1,1 @@
+同様に Object Shapes の実装で rb_shape_t を直接触らせないように rb_shape_get_next_iv_shape() の引数と戻り値の型も shape_id_t に変更しています。
