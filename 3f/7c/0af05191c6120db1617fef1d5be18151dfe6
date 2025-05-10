@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_obj_too_complex() という関数を rb_shape_obj_too_complex_p() に改名しています。
