@@ -1,0 +1,1 @@
+rb_shape_get_parent() という関数はただの RSHAPE() の wrapper になってたので削除して直接 RSHAPE() を呼ぶように展開しています。
