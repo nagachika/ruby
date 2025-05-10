@@ -1,0 +1,1 @@
+再度 Object Shapes の関数名を RB_OBJ_SHAPE() を rb_obj_shape() に、RB_OBJ_SHAPE_ID() を rb_obj_shape_id() に、RSHAPE() を rb_shape_lookup() に改名しています。
