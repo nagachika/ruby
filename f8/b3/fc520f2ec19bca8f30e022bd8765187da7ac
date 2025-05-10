@@ -1,0 +1,1 @@
+Object Shapes の実装で rb_shape_traverse_from_new_root() の戻り値や引数の型を rb_shape_t から shape_id_t に変更して内部的な型を表出させないようにしています。
