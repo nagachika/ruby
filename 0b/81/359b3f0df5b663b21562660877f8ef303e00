@@ -1,0 +1,1 @@
+rb_shape_frozen_shape_p という関数を static にして shape.c の外部から呼ばれないようにしています。
