@@ -1,0 +1,1 @@
+rubygems/bundler や erb、net/http などの標準添付ライブラリで require "cgi/escape" を使うように追随しています。ただ cgi が古いと LoadError になるので require "cgi" や require "cgi/util" に fallback するようにしています。
