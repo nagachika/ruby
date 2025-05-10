@@ -1,0 +1,1 @@
+shape.h から存在しなくなってた rb_obj_debug_shape() という関数の宣言を削除しています。
