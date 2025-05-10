@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_get_shape() を RB_OBJ_SHAPE() に、rb_shape_get_shape_id() を RB_OBJ_SHAPE_ID() に改名しています。
