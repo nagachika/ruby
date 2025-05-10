@@ -1,0 +1,1 @@
+Object Shapes の実装の変更続きで rb_shape_get_next() および rb_shape_get_next_no_warnings() の戻り値と引数も rb_shape_t から rb_shape_id に変更しています。また関数名も rb_shape_transition_add_ivar() などに変更しています。
