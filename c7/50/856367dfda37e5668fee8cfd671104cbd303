@@ -1,0 +1,1 @@
+variable.c の switch 文の警告除去のため default 節を追加しています。
