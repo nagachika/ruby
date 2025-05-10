@@ -1,0 +1,1 @@
+Object Shapes の実装で同様に rb_shape_depth() や rb_shape_edges_count() でも rb_shape_t を直接受け取らず shape_id_t を受け取って内部で rb_shape_t を lookup するようにしています。
