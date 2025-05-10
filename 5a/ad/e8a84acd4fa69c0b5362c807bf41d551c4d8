@@ -1,0 +1,1 @@
+互換性、というか従来の require が LoadError にならないようにするために lib/cgi.rb と lib/cgi/util.rb を再度追加して、警告を出力しつつ cgi/escape のみ require するようにしています。
