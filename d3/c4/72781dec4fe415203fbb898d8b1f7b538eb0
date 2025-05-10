@@ -1,0 +1,1 @@
+bundler に vendoring している net-http-persistent から require "cgi" していたのを require "cgi/util" と部分的な require をするようにしています。またクエリパラメーターの解析に CGI.parse を使っていたのを Gem::URI.decode_www_form に更新しています。
