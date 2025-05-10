@@ -1,0 +1,1 @@
+shape.h から rb_shape_get_root_shape() の宣言を削除して rb_shape_t の root を外部から直接取得しないようにしています。
