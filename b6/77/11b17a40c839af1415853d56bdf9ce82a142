@@ -1,0 +1,1 @@
+0ea210d1ea257162642969edce665935cc87c643 の変更で Object Shapes によるインスタンス変数削除で TOO_COMPLEX な shape の時の判定に不具合が生じていたので rb_shape_too_complex_p() を一貫して使うように修正しています。
