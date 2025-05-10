@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_get_shape_by_id() の関数名を RSHAPE() に改名しています。
