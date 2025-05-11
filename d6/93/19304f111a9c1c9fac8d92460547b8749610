@@ -1,0 +1,1 @@
+拡張ライブラリ psych に Psych.safe_load_stream メソッドを追加しています。load_stream の safe_load 版。
