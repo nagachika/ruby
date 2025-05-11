@@ -1,0 +1,1 @@
+そもそも defs/gmake.mk や win32/Makefile.sub に rubyspec の拡張ライブラリビルド用のルールがあるのがへんじゃない? ということで削除しています。
