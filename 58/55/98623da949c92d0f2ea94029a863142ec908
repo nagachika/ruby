@@ -1,0 +1,1 @@
+win32/win32.c で clock_gettime() と clock_getres() の代替実装をしていたところをそれぞれ HAVE_CLOCK_GETTIME と HAVE_CLOCK_GETRES マクロの存在チェックをしてシステムに存在してたら定義しないようにしています。
