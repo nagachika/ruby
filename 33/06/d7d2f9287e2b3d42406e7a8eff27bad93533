@@ -1,0 +1,1 @@
+GC の default 実装で fork 後に呼ばれる API rb_gc_impl_after_fork() で Ractor の新オブジェクトの cache をクリアする処理が親プロセスでも実行されてしまっていたので修正しています。これ親でも呼ばれるのか。
