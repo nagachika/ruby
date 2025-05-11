@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.safe_load_stream の文法エラー時のテストを追加しています。
