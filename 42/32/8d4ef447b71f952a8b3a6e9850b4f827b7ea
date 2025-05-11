@@ -1,0 +1,1 @@
+拡張ライブラリ psych の load 系メソッド群のテストケースに safe_load_stream のテストも追加しています。
