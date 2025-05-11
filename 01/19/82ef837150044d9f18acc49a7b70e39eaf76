@@ -1,0 +1,1 @@
+ObjectSpace._id2ref のテストで deprecated 警告が出るようになったので EnvUtil.suppress_warning のブロックでかこんで抑制するようにしています。
