@@ -1,0 +1,1 @@
+rubyspec の ObjectSpace._id2ref のテストを 3.4 以前と 3.5 で分けて警告出力をチェックするようにしています。 [ruby-core:90464] [Feature #15408]
