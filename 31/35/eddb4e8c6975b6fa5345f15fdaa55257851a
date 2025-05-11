@@ -1,0 +1,1 @@
+Object Shapes の実装に関わるマクロ FIRST_T_OBJECT_SHAPE_ID を遮蔽してかわりに rb_shape_root() という API を提供するようにしています。
