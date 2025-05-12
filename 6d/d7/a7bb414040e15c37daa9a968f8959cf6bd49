@@ -1,0 +1,1 @@
+d9502a8386cae343054183e68683d3bbdbb1f383 で改名した rb_obj_field_get() の実装で shape が TOO_COMPLEX の時にも対応するようにしています。従来は RUBY_ASSERT() でチェックしてたので TOO_COMPLEX の時はこの関数は呼ばないようにしていたみたいです。
