@@ -1,0 +1,1 @@
+Object Shapes の API rb_field_get() の名前を rb_obj_field_get() に変更しています。
