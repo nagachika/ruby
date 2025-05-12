@@ -1,0 +1,1 @@
+585598623da949c92d0f2ea94029a863142ec908 で警告抑制のため Windows 環境で clock_gettime() および clock_getres() の代替定義に HAVE_CLOCK_GETTIME や HAVE_CLOCK_GETRES の定義をチェックするようにしてたのを revert しています。実際には利用できなくても win32/Makefile.sub で生成する config.h にマクロが無条件で定義されてしまうので環境によってはビルドできなくなってしまってたとのこと。
