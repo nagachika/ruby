@@ -1,0 +1,1 @@
+ObjectSpace.each_object の rdoc 用コメントにさらにこれが既知の問題として認識されていることを追記しています。 [Bug #19387]
