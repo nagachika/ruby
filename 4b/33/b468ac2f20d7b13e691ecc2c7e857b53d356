@@ -1,0 +1,1 @@
+namespace.c で rb_define_private_method() や rb_define_singleton_method() に渡す関数ポインタの型の不一致が生じてたので無用なキャストが生じないように関数の引数を経由させないようにしています。
