@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境向け workflow で revision.h を step で適当に生成していたところを git log コマンドを使って現在の最新のコミットから情報を得るようにしています。
