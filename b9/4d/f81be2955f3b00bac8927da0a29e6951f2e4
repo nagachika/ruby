@@ -1,0 +1,1 @@
+82f645e818a6c8029c40fd3cddcec7e2d3c1b559 で Namespace の rb_data_type_t の flags に RUBY_TYPED_WB_PROTECTED を指定していましたが、実際には Write Barrier が不足していた? みたいで RUBY_TYPED_FREE_IMMEDIATELY に戻しています。
