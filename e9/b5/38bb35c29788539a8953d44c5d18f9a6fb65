@@ -1,0 +1,1 @@
+Namespace 導入後起動時の namespace_initialize() で異常終了していたのを修正しているようです。Namespace の id を rb_obj_id() を使って生成していたのがまだ使えないタイミングで呼ばれていた? ので別途 namespace.c に通し番号を採番するための static 変数を導入してここから採番するようにしています。
