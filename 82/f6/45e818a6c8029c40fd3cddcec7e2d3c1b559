@@ -1,0 +1,1 @@
+Namespace クラスの TypedData 用の rb_data_type_t で flags に RUBY_TYPED_WB_PROTECTED を指定して RGenGC の WB-protected になるようにしています。
