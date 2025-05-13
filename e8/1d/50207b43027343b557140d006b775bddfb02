@@ -1,0 +1,1 @@
+Namespace の実装の追加に追随して YJIT/ZJIT 向けの C binding の再生成を行なっています。
