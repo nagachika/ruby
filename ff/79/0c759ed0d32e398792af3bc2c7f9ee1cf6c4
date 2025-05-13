@@ -1,0 +1,1 @@
+struct RClass の構造体の bit fields を削除してサイズ削減するため prime_classext_readable は ns_classext_tbl メンバーが設定されてるかどうかで判定、prime_classext_writable は struct RBasic::flags の未使用のビットフラグのところを使うようにしています。
