@@ -1,0 +1,1 @@
+bundler の bundle doctor サブコマンドで macOS での otool -L の出力の解析を修正しています。
