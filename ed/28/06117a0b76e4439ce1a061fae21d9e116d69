@@ -1,0 +1,1 @@
+common.mk と defs/gmake.mk での rubyspec での C API テスト用拡張ライブラリのターゲットの依存関係を整理しています。
