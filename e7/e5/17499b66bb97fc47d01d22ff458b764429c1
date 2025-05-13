@@ -1,0 +1,1 @@
+rubyspec で Namespace.enabled? でチェックしているところで古い ruby のためにそもそも定数が定義されているか defined? でのチェックも追加しています。
