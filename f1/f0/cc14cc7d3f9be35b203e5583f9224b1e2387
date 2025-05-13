@@ -1,0 +1,1 @@
+b42afa1dbcbb91e89852b3b3bc72484d7f0a5528 で regenc.h での構造体宣言に GCC 15 での警告抑制のための __attribute__((nonstring)) を追加するのを存在チェックしてから書くように preprocessor 分岐を追加してたところで __has_attribute() によるチェックと、そもそも __has_attribute 自体が定義されているかを同時にチェックしていたのが VC では警告が出てたようで #if を 2段にネストさせて分けるようにしています。
