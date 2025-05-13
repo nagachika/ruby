@@ -1,0 +1,1 @@
+拡張ライブラリ json に vendoring している fpconv.c で double の式から int の変数への代入時に明示的なキャストを追加しています。
