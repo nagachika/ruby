@@ -1,0 +1,1 @@
+defs/gmake.mk と win32/Makefile.sub から rubyspec の C API テスト用拡張ライブラリのビルド用のルールを削除した 2a9236366d6016738a756caecab03263565a20c7 を revert しています。 MinGW 環境で問題があったようです。
