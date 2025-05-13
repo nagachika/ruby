@@ -1,0 +1,1 @@
+待望の新機能 Namespace on read が実装されました。ここから Namespace の開発ブランチでの関連の変更/修正がしばらく続きます。大きな変更としては namespace.c の追加、struct RClass の特に rb_classext_t 構造体のレイアウトを変更して rb_namespace_t の埋め込み、定数やインスタンス変数の管理の構造の変更などがあります。非常に CRuby のコア部分に密接に絡んだ機能になるので変更はそれなりに大きいですね。 [ruby-core:121837] [Feature #21311]
