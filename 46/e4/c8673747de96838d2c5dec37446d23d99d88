@@ -1,0 +1,1 @@
+configure で MinGW 環境の時に HAVE_CLOCK_GETTIME と HAVE_CLOCK_GETRES は無条件で定義するように指定していたのをやめて存在チェックするようにしています。
