@@ -1,0 +1,1 @@
+internal/namespace.h の追加に伴ない common.mk や各種 depend ファイルの依存関係の更新。
