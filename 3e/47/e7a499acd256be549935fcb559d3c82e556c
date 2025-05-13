@@ -1,0 +1,1 @@
+Windows 環境で winpthreads-git というライブラリが clock_gettime()/clock_getres() を提供しているので再定義になるという問題についての再対応で MinGW の時だけ定義を抑制するようにしています。
