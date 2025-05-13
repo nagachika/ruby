@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で cgi 全体の同期処理は削除してかわりに cgi/escape の部分を ruby/cgi から同期するように対応しています。
