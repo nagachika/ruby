@@ -1,0 +1,1 @@
+ObjectSpace._id2ref の実装で GC のタイミングによって rb_bug() で異常終了することがあったので、初期化時(最初に ObjectSpace._id2ref が呼ばれた時?)は rb_bug() 呼び出しを抑制するように static 変数と追加して初期化完了前かどうかわかるようにしています。
