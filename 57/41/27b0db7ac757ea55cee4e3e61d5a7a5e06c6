@@ -1,0 +1,1 @@
+autoload 用の管理テーブルの GC の mark 処理に Namespace 対応を追加しています。
