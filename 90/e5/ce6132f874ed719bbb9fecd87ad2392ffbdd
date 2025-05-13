@@ -1,0 +1,1 @@
+struct RClass から rb_classext_t を得るためのマクロ RCLASS_EXT() を RCLASS_EXT_PRIME() と改名しています。Namespace 導入により複数の rb_classext_t が所属する可能性があるようになったのでそれが意識できるように。
