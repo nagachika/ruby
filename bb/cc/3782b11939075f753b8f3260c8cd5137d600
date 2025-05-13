@@ -1,0 +1,1 @@
+GC の T_OBJECT 型オブジェクトの mark 処理でインスタンス変数を traverse する処理の Namespace 対応の修正。
