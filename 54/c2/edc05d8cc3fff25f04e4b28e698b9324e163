@@ -1,0 +1,1 @@
+Namespace#inspect で表示する ID が e9b538bb35c29788539a8953d44c5d18f9a6fb65 の修正の前の rb_obj_id() での採番のままになっていたので rb_namespace_t::ns_id を参照するように修正しています。
