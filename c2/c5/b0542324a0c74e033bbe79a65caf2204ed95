@@ -1,0 +1,1 @@
+variable.c の Object Shapes 関連の変更を誤って巻き戻していたのを修正しています。
