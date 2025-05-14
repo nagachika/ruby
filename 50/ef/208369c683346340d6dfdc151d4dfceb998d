@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ParserError に line と column という属性を持たせてメッセージにもこれらの位置情報を埋め込むようにしています。
