@@ -1,0 +1,1 @@
+rubygems、bundler や prism, net/http などの標準添付ライブラリで require "cgi/escape" を CGI::EscapeExt が未定義の時だけ行うようにしています。ruby 2.3 以降で require "cgi/escape" は実行可能な状態になってたそうなのでサポートされている全てのバージョンで require 可能だったみたいです。
