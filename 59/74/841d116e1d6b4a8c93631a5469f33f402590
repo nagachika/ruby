@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグ用の定数 FL_SEEN_OBJ_ID が object_id の Object Shapes による管理により不要になっていたので削除しています。
