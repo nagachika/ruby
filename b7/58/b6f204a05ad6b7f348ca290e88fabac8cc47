@@ -1,0 +1,1 @@
+namespace.c にコンパイラの最適化による GC の mark 漏れを防ぐための RB_GC_GUARD() を追加しています。
