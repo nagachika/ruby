@@ -1,0 +1,1 @@
+ZJIT の size_exit する時の命令の生成の修正。コメントによると不要な nop が追加されるのを抑制しているようです。 https://github.com/ruby/ruby/pull/13295
