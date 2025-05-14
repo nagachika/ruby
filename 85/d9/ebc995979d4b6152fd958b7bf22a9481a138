@@ -1,0 +1,1 @@
+gc.c の重複した asan_unpoisoning_object() マクロの定義を削除しています。
