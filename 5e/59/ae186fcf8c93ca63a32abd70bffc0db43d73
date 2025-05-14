@@ -1,0 +1,1 @@
+18d395e0784401585b5c14300e689de55e208647 の拡張ライブラリ stringio の変更で chilled String の存在チェックのため RUBY_API_VERSION_MINOR をチェックしている preprocessor 分岐で ruby 4.0 以降も考慮するようにしています。
