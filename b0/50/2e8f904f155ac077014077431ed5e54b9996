@@ -1,0 +1,1 @@
+Class.allocate および Class#allocate の C 実装で rb_obj_respond_to() で allocate メソッドが呼べるかチェックしていた(なぜ?)のを削除しています。テストの変更をみると Class#allcate を UnboundMethod として取り出してクラスを渡して bind_call した時に TypeError にしていたのをやめるようにしているようです。この元のチェックはなんだろう。
