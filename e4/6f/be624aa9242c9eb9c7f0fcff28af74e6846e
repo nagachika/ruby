@@ -1,0 +1,1 @@
+rubygems で Gem::SafeYAML の定義時に psych を require していたのが冗長なので削除しています。
