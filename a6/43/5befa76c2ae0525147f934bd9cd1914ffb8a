@@ -1,0 +1,1 @@
+Object Shapes で object_id 用のエントリが含まれている時の shape を得る関数で rb_shape_t を直接返さずに shape_id_t を返すように変更しています。また rb_obj_field_get() や general_field_set() なども shape_id_t で shape を指定させるように引数を変更しています。
