@@ -1,0 +1,1 @@
+YJIT でコードのブロックへの分割が不足していたところを修正しているようです。 https://github.com/ruby/ruby/pull/13282
