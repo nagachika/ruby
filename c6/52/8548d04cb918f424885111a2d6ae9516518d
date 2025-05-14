@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルで cgi への依存関係を削除しています。が require "cgi/escape" の LoadError の捕捉を消しているのはいいのかな?
