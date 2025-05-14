@@ -1,0 +1,1 @@
+子 Ractor から Ractor.main の Ractor local storage の操作をするとその Ractor 自身の storage が変更される(まあ main Ractor のを変更できてしまうのもおかしいのですが)ので、自身の Ractor 以外の Ractor に対して [] や []= が呼ばれた時に RuntimeError 例外を発生させるようにしています。そもそもインスタンスメソッドのほうは obsoleted とコメントされていてクラスメソッドのほうを使うのが推奨みたいですね。 [ruby-core:111967] [Bug #19367]
