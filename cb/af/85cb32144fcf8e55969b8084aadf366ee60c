@@ -1,0 +1,1 @@
+c71f9b8aee9b11467e2bb91d841e166f6b36c8af の続きで標準添付ライブラリ erb で require "erb/escape" の拡張ライブラリロードの LoadError 捕捉しているところのコメントを最新の理由(BASERUBY に古い ruby を使ってる場合を考慮)に合わせて書き直しています。
