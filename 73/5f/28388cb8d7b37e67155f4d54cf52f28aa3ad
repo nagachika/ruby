@@ -1,0 +1,1 @@
+標準添付ライブラリ erb のサポートする ruby バージョンを 3.2.0 以降に更新して、require "cgi/escape" を lib/erb.rb から lib/erb/util.rb に移動しています。また古い cgi と一緒に使っている場合を考慮して CGI.escapeURIComponent が未定義だったら代替実装を使うようにしています。
