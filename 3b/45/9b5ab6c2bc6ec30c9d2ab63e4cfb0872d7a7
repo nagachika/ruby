@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL を実行する workflow で github/codeql-action/init アクションに dependency-caching: false を指定してキャッシュを利用させないようにしています。
