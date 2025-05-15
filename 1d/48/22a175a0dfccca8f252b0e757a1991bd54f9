@@ -1,0 +1,1 @@
+複数 Ractor で複数 Thread も利用して Ractor.receive や Ractor#take を重複して呼ぶとデッドロックというか Thread が起きなくなってしまうことがある不具合を修正しています。 [ruby-core:102473] [Bug #17624] [ruby-core:120671] [Bug #21037]
