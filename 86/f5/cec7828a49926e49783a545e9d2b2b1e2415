@@ -1,0 +1,1 @@
+misc/tsan_suppressions.txt というファイルを追加しています。TSAN とは ASAN とか MSAN みたいな仲間で Thread Sanitizer というツールのことで、どうもそのツールでの誤検出(というか既知の問題?)を抑制するための指定ファイルみたいですねこれは。
