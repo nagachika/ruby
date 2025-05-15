@@ -1,0 +1,1 @@
+標準添付ライブラリ erb で require "erb/escape" の LoadError 捕捉をやめるのを再度適用しています。BASERUBY が 3.1 以降になったので $LOAD_PATH.resolve_feature_path で例外発生しなくなったからとのこと。 https://github.com/ruby/erb/pull/61
