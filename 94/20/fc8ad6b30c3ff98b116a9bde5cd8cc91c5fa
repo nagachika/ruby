@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で struct RBasic::flags のビットフラグ用のマクロ RUBY_FL_USER2 と RUBY_FL_USER3 を使ってるところでコメントでそれぞれ STR_CHILLED_LITERAL と STR_CHILLED_SYMBOL_TO_S のつもり、と書いています。そのマクロ直接使えばいいような気もするけど、定義されてない場合を考慮してってことかな。その場合はフラグ立てても意味がないと思うから存在チェックして代替定義として 0 にしておくのがいい気がするけど……。 https://github.com/ruby/stringio/pull/128 https://github.com/ruby/stringio/pull/133
