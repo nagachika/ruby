@@ -1,0 +1,1 @@
+Hash#transform_values のイテレータ内で Hash#rehash が呼ばれると free(3) 後のメモリを触ってしまう不具合を修正しています。 Hash の内容を書き換えるイテレーター用の関数 rb_hash_stlike_foreach_with_replace() を rb_ensure() を使って Hash のイテレーターの入れ子レベルの管理を行うようにしています。なるほど確かこの iter_lev が 0 になるまでは Hash の実装の st_table のバッファの要素は削除などのフラグだけ立てた状態にして実際には書き換えないようにするみたいなことをしてましたね。 [ruby-core:122052] [Bug #21331]
