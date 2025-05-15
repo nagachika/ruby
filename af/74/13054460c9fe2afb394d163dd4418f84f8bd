@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL を実行する workflow で dependency-caching や環境変数 CODEQL_ACTION_CLEANUP_TRAP_CACHES の指定はうまく効かなかったみたいで、最後に gh コマンドで明示的にキャッシュのパージを行なう step を追加して対応しています。
