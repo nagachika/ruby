@@ -1,0 +1,1 @@
+GitHub Actions の WASM/WASI 用の workflow で環境変数 WASMTIME_BACKTRACE_DETAILS を指定してテスト実行するようにしています。デバッグのため。
