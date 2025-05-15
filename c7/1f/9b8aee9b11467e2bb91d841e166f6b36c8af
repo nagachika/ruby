@@ -1,0 +1,1 @@
+4a9d46ce07c5135e6a1fbc7da5ea9b1f21030d94 で標準添付ライブラリ erb での require "erb/escape" の LoadError 捕捉をやめてたのを revert しています。
