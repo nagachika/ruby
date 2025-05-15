@@ -1,0 +1,1 @@
+Object#object_id を Class/Module のインスタンス(T_CLASS, T_MODULE 型オブジェクト)の場合には struct RClass のメンバーに直接埋め込んでそちらを参照するようにしています。Namespace の導入でインスタンス変数は Namespace ごとに管理されるのと、最近 object_id の管理を Object Shapes によるインスタンス変数の管理に混ぜるように変更したのがちょうど衝突して、Namespace 毎にクラス/モジュールの object_id が変化してしまう? ようになってしまったのでその対策のようです。なるほど。
