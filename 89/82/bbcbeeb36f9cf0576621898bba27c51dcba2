@@ -1,0 +1,1 @@
+標準添付ライブラリ erb のバージョンを指定する定数 ERB::VERSION を private_constant にしてたので gemspec ファイルで Module#const_get を使わないといけなかったのをやめて普通の定数にしています。
