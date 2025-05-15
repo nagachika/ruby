@@ -1,0 +1,1 @@
+gc.c の id_to_obj_tbl_XXX() という関数群を id2ref_tbl_XXX() と改名しています。
