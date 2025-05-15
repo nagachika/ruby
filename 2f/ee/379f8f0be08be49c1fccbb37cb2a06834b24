@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で actions/checkout アクションを使って .github/ ディレクトリだけ? clone するようにしています。slack 通知で利用するため?
