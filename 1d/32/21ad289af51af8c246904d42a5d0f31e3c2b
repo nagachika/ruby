@@ -1,0 +1,1 @@
+e8e7daa71a4915e3cfcf0dccc8392cdacc55866e からのさらに続きで標準添付ライブラリ erb での require "erb/escape" のところで $LOAD_PATH.resolve_feature_path を使って拡張ライブラリがロードできるかのチェックをしていたのをやめて require してみて LoadError を捕捉する方法にしています。miniruby で実行すると $LOAD_PATH.resolve_feature_path の判定は成功するけど拡張ライブラリは読み込めないということが起きてしまうため。
