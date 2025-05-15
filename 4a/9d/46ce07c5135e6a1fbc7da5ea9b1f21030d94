@@ -1,0 +1,1 @@
+標準添付ライブラリ erb で require "erb/escape" で拡張ライブラリのロードをする時に LoadError を rescue していたのをやめています。 https://github.com/ruby/erb/pull/61
