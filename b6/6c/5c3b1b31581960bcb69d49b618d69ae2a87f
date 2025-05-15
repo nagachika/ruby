@@ -1,0 +1,1 @@
+bb180b87b43c45e17ff49735a26d7a188d5c8396 の Hash のイテレーターでの iter_lev 更新の漏れの修正を revert しています。 WASM/WASI 向けのビルド利用時に rb_ensure() で jmpbuf を確保するのが GC 中のメモリ確保で異常終了が起きてしまうため。 [ruby-core:122052] [Bug #21331]
