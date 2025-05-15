@@ -1,0 +1,1 @@
+bundler に vendoring する gem の指定をするファイルで net-http および net-http-persistent を commit hash 指定するようにしています。
