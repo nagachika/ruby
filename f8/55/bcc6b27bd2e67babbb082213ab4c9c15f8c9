@@ -1,0 +1,1 @@
+bundler に vendoring している net-http と net-http-persistent を更新しています。
