@@ -1,0 +1,1 @@
+af7413054460c9fe2afb394d163dd4418f84f8bd の GitHub Actions の CodeQL 実行 workflow の再修正。gh extension で拡張のインストールをしていたのを gh コマンドの cache サブコマンドという組み込みの実装を使うように変更しています。
