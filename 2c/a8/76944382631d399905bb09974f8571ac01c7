@@ -1,0 +1,1 @@
+クラスの rb_classext_t の T_ICLASS 用の includer というメンバーは T_ICLASS の時だけ使うので通常のクラスと singleton_class (いずれも T_CLASS) の時のための共用体に埋め込んで VALUE 1つぶん構造体のサイズを節約しています。
