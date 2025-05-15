@@ -1,0 +1,1 @@
+rubygems のテストで TruffleRuby 向けに skip していたテストの skip をやめています。
