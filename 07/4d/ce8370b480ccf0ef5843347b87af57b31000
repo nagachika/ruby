@@ -1,0 +1,1 @@
+ZJIT の Rust 実装に u8/u16/u32/u64 といった整数型への変換のための IntoUsize という trait の定義を追加しています。
