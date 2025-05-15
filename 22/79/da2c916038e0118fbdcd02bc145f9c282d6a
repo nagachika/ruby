@@ -1,0 +1,1 @@
+リポジトリからのビルド時の BASERUBY の最低要求バージョンを 3.1 以降に引き上げています。 https://github.com/ruby/ruby/pull/13321
