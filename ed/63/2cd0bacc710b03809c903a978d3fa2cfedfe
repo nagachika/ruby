@@ -1,0 +1,1 @@
+GC の実装(default, mmtk 両方)で finalizer 用の管理 st_table からエントリを消す rb_gc_impl_undefine_finalizer() で VM ロックの取得をするように修正しています。
