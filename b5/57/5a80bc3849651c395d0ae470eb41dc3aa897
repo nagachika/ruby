@@ -1,0 +1,1 @@
+Object#object_id で Object Shapes で管理されている shape から id を取得するのに VM 全体の lock を取得していたのを、multi Ractor 利用時のみにしてそうでない時は極力 lock を避けるよう(新規に採番する時以外は lock しないよう)にしています。
