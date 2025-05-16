@@ -1,0 +1,1 @@
+String#[] の rdoc 用コメントの call-seq 修正と新規文字列を返すメソッド一覧へのリンク追加。 https://github.com/ruby/ruby/pull/13335
