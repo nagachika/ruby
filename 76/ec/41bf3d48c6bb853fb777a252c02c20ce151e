@@ -1,0 +1,1 @@
+RUBY_ABI_VERSION を更新しています。 ce51ef30df5bf07ec3881a377f0011b8f20ec507 あたりで struct RTypedData の構造体レイアウトを変更したのが影響して古い定義でビルドした拡張ライブラリを使うと異常終了してしまうみたいな事象がよく起きてたみたいなので古い拡張ライブラリを読み込んでしまわないようにするため。 https://github.com/ruby/ruby/pull/13190
