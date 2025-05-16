@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で revision.h を生成するための step で shell に渡すコマンドのクオートの追加などの修正。
