@@ -1,0 +1,1 @@
+bb180b87b43c45e17ff49735a26d7a188d5c8396 の Hash#transform_values の修正と似てますが Hash#update のイテレーター中でも Hash#rehash が呼ばれると異常終了する可能性があった不具合を修正しています。こちらも Hash のイテレーションのネストを管理して終わってからテーブル整理するための iter_lev の管理を追加しています。 [ruby-core:122054] [Bug #21333]
