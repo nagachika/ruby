@@ -1,0 +1,1 @@
+GC の default 実装の newobj_fill() という関数で引数の obj の slot の struct RBasic の後の部分を VALUE の 3つ目以降のオフセットに決め打ちにしていたのを sizeof(struct Basic) で計算するようにしています。
