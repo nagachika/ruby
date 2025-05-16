@@ -1,0 +1,1 @@
+struct rb_io 構造体に fork_generation というメンバーを追加して IO#close での別 Thread での IO の blocking 中処理の待ちのためのリストが fork した子プロセスに引き継がれないようにしています。 https://github.com/ruby/ruby/pull/13343
