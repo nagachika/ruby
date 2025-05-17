@@ -1,0 +1,1 @@
+thread.c の system_working という変数を volatile 修飾子つきで定義していたのを rb_atomic_t 型にして RUBY_ATOMIC_LOAD()/RUBY_ATOMIC_SET() を使って atomic に操作するようにしています。
