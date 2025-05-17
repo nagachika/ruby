@@ -1,0 +1,1 @@
+rubyspec の magic comment の encoding 指定を emacs の "-*-" で挟む記法をやめています。 binary は emacs での encoding 名ではないのでとのこと。
