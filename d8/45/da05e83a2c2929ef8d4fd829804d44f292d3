@@ -1,0 +1,1 @@
+Ractor 利用時に rb_thread_t::running_time_us のリセットがタイマー割り込みの時に必ず 0 にリセットするようにしています。Ractor 利用時には限らないかも?
