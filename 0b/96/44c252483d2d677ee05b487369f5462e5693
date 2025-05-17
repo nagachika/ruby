@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストで AWS-LC にリンクしている時に skip していた  OpenSSL::PKCS7 のテストを実行するようにしています。
