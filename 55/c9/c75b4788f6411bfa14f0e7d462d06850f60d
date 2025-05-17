@@ -1,0 +1,1 @@
+Class#new のインライン化のための最適化命令 opt_new で TracePoint など trace 命令化が有効になっている時に脱最適化していたのをやめています。 power_assert の問題への対処みたいですね。 https://bugs.ruby-lang.org/issues/21298#note-5
