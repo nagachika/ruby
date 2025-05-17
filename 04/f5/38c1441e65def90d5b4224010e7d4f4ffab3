@@ -1,0 +1,1 @@
+GC の default 実装で GC の実装が拡張ライブラリとしてビルドされる時に internal/sanitizers.h ヘッダを使わないように必要な ASAN 用のマクロ rb_asan_〜() などのダミーの定義を追加するようにしています。
