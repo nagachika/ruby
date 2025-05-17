@@ -1,0 +1,1 @@
+ObjectSpace.memsize_of の IO での対応で fork 後の子プロセスでは IO#close 時の待ち合わせのためのメンバー類が触れない可能性があるので計算から除外するようにしています。 https://github.com/ruby/ruby/pull/13359
