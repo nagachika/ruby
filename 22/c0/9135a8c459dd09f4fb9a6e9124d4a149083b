@@ -1,0 +1,1 @@
+Object#initialize_copy の実装でインスタンス変数がない時に shape_id をコピーしないようにしています。たぶん object_id の管理にも Object Shapes を使うようにしたのでインスタンス変数がなくても shape がある場合があって、その時はコピー不要なのでということだと思います。
