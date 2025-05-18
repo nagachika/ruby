@@ -1,0 +1,1 @@
+GC の実装の rb_gc_impl_copy_finalizer() で finalizer の設定されたオブジェクトが Object#clone で複製された時に新しいオブジェクトの object_id で関連を登録するように修正しています。
