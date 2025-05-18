@@ -1,0 +1,1 @@
+finalizer の実行時の run_final() 関数の呼び出しは finalizer_table の走査を含むので VM 全体のロック取得後に行うようにしています。
