@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTP::SSL_IVNAMES や Net::HTTPResponse::CODE_CLASS_TO_OBJ, Net::HTTPResponse::CODE_TO_OBJ といった定数の配列を freeze しておくようにしています。 Ractor 対応のため。
