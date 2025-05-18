@@ -1,0 +1,1 @@
+GC の default と mmtk 実装の rb_gc_impl_copy_finalizer() の実装で finalizer_table への操作をするところで VM 全体のロック取得を追加しています。
