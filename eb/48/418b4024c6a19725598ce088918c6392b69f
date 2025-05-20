@@ -1,0 +1,1 @@
+rubygems の Gem::Platform の文字列表現からの生成の不具合修正。
