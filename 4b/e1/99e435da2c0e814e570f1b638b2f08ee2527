@@ -1,0 +1,1 @@
+rubygems の Gem::Platform#initialize の実装を書き換えています。
