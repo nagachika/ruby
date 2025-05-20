@@ -1,0 +1,1 @@
+bundler のテストで require "rack" しているところが cgi/util を require していて警告が出るとのことで require "rack/test" と範囲を狭めて require するようにしています。
