@@ -1,0 +1,1 @@
+拡張ライブラリ json で JSON.pretty_generate でエラーが発生することがあった不具合を修正しています。
