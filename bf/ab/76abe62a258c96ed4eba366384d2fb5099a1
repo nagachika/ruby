@@ -1,0 +1,1 @@
+bundler のテスト要の Gemfile.lock の PLATFORM セクションの表示を修正。
