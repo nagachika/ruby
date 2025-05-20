@@ -1,0 +1,1 @@
+rubygems の Gem::Platform の文字列からの生成時の対応強化。
