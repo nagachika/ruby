@@ -1,0 +1,1 @@
+lib/cgi.rb および lib/cgi/util.rb で require された時に出力する警告メッセージで uplevel の指定を Gem::BUNDLED_GEMS.uplevel を利用して調節するようにしています。
