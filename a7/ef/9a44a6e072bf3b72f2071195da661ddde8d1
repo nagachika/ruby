@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で機械語の disasm 表示のための依存関係の伝播について修正しているようです。 https://github.com/ruby/ruby/pull/13372
