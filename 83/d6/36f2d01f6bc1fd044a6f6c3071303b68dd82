@@ -1,0 +1,1 @@
+プロセス終了時の Object Shapes の管理構造を解放する rb_shape_free_all() の呼び出しのタイミングを後のほうに移動しています。 rb_objspace_free_objects() で Object Shapes の情報が必要になるのでその後に回しているようです。 [ruby-core:122192] [Bug #21352]
