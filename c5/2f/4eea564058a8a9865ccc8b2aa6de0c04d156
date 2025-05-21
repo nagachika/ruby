@@ -1,0 +1,1 @@
+標準添付ライブラリの set の一部の sorted_set がまだ残っていたのを削除して、prelude.rb で SortedSet に autoload が設定されていたのを削除しています。 Set を組込みにした時に sorted_set だけ標準添付に残ってたんですね。 [ruby-core:121746] [Feature #21287]
