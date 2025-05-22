@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で C 実装の関数の呼び出しを削除する最適化? の準備みたいなことをしているようです。 https://github.com/ruby/ruby/pull/13363
