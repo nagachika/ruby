@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL の workflow で CodeQL の初期化処理で cache の利用をオフにしています。
