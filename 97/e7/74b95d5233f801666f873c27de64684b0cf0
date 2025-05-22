@@ -1,0 +1,1 @@
+bundler のテスト時のための gemfile と lock ファイルで rack のバージョンを更新し、cgi の依存を削除しています。
