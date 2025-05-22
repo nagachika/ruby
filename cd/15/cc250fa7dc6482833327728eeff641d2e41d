@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用の workflow で YJIT/ZJIT 両方有効にしたビルドで make zjit-test を実行するようにしています。
