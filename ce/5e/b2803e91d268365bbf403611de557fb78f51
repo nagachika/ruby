@@ -1,0 +1,1 @@
+GitHub Actions の YJIT および ZJIT 有効化する workflow でテスト前に --{y,z}jit-dump-disasm オプション が正常に動いているかの確認を追加しています。
