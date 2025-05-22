@@ -1,0 +1,1 @@
+ヘッダファイル include/ruby/internal/stdbool.h でシステムヘッダ stdbool.h がない時の分岐を削除しています。 [ruby-core:122101] [Bug #21340]
