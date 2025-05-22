@@ -1,0 +1,1 @@
+rb_execution_context_t::interrupt_flag フラグの操作をコンパイラの支援による atomic な操作用のマクロを利用するようにしています。
