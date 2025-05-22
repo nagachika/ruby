@@ -1,0 +1,1 @@
+同じく signal.c の変数 signal_buff のメンバー size の操作に RUBY_ATOMIC_LOAD() マクロを利用するようにしています。
