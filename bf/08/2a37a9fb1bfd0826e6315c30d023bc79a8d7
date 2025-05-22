@@ -1,0 +1,1 @@
+GitHub Actions の default gems の更新チェックの workflow で環境セットアップ前に master ブランチでのみ実行するようにするためのチェックを移動しています。
