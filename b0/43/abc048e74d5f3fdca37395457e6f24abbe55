@@ -1,0 +1,1 @@
+gc/default/default.c で RVALUE_OVERHEAD というマクロを定義していましたが既に定義済みの時に上書きしないようにしています。
