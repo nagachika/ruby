@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Addrinfo の TypedData 構造体を Ractor 間で共有可能な破壊的変更できないクラスとして宣言しています。
