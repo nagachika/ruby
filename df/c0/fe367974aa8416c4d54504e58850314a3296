@@ -1,0 +1,1 @@
+defs/jit.mk で YJIT/ZJIT の Rust 実装のライブラリの依存関係に jit.rs を追加しています。
