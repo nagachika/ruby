@@ -1,0 +1,1 @@
+MinGW で clock_gettime() や clock_getres() が提供されるようになったので存在チェックをして代替実装を使わないようにする変更が逆に古い MinGW で動かなくなっていたようなので、代替実装が必要かどうか NEED_CLOCK_GETTIME と NEED_CLOCK_GETRES というマクロ定義を __MINGW32__ および HAVE_CLOCK_GETTIME/HAVE_CLOCK_GETRES をみて Msys と MinGW とで条件を分けて判定するようにしています。
