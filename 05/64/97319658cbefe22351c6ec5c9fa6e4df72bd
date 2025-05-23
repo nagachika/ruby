@@ -1,0 +1,1 @@
+49b306ecb9e2e9e06e0b1590bacc5f4b38169c3c の Hash#merge のイテレーター内での Hash 変更時に st_table の更新を抑制するために iter_lev をインクリメントするようにした修正で st_update() に渡すユーザーデータの構造体 struct update_arg の value メンバーの値に意図しない値が初期化されていて異常終了する場合があった不具合を修正しています。 [ruby-core:122218] [Bug #21357]
