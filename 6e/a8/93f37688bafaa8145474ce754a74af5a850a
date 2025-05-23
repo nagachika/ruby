@@ -1,0 +1,1 @@
+Class の初期化時の処理の Namespace 対応で Namespace が有効でない時に struct RClass の rb_classext_t を書き込み可能にフラグを立てるようにする修正。
