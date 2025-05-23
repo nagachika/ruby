@@ -1,0 +1,1 @@
+defs/jit.mk で Rust のコンパイル時に環境変数 MACOSX_DEPLOYMENT_TARGET=11.0 の指定を追加しています。
