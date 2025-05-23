@@ -1,0 +1,1 @@
+GC で callcache のエントリの mark 処理のための関数で rb_id_table_foreach() のかわりに rb_id_table_foreach_values() を利用するようにして key の参照を省いています。 VM lock が不要になるので最適化になるほか mmtk 実装での不具合の修正になるそうです。
