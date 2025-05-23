@@ -1,0 +1,1 @@
+インスタンス変数の探索時の Object Shapes の too_complex の判定に rb_shape_obj_too_complex_p() を使ってたのを rb_shape_id のほうで判定する rb_shape_id_too_complex_p() を呼ぶようにしています。 効率化のため。
