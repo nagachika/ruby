@@ -1,0 +1,1 @@
+GC の mark 処理で T_OBJECT 型オブジェクトのインスタンス変数などの mark する処理で Object Shapes の too_complex の時の assertion を削除しています。Namespace との組み合わせで有り得るようになったため?
