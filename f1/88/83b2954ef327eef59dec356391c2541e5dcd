@@ -1,0 +1,1 @@
+Module を include/extend した時に継承リストに差し込む T_ICLASS を複製する時に Namespace のための rb_classext_t のテーブルの初期化が不要なのでやめています。
