@@ -1,0 +1,1 @@
+ZJIT の VM 命令 getinstancevariable と setinstancevariable の中間表現 HIR への翻訳の対応を追加しているようです。 https://github.com/ruby/ruby/pull/13413
