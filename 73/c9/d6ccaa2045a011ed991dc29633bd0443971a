@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler で fiber_interrupt というコールバックメソッドに対応して blocking region に入っている処理への割り込みができるようにして、これを利用して Fiber 利用時の IO 処理に同じ IO に別の Thread (Fiber?) から IO#close が呼ばれた時に割り込みをかけることができるようにしているようです。 https://github.com/ruby/ruby/pull/12839
