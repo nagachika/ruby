@@ -1,0 +1,1 @@
+f18883b2954ef327eef59dec356391c2541e5dcd の T_ICLASS で Namespace 用の rb_classext_t の拡張テーブルの初期化をやめた変更の続きで T_ICLASS 型オブジェクトでの初期化がまだ残ってたところをしないようにしています。また誤った RUBY_ASSERT() の位置?を移動しています。
