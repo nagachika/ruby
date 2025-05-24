@@ -1,0 +1,1 @@
+73c9d6ccaa2045a011ed991dc29633bd0443971a の fiber_interrupt フックメソッドの追加に伴ない RUBY_FIBER_SCHEDULER_VERSION というマクロの値をインクリメントして 3 にしています。 https://github.com/ruby/ruby/pull/13424
