@@ -1,0 +1,1 @@
+ZJIT で VM 命令 splatarray, concattoarray, pushtoarray の対応を追加しています。 https://github.com/ruby/ruby/pull/13429
