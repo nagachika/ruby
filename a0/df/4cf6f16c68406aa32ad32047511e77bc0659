@@ -1,0 +1,1 @@
+同じく ZJIT で VM 命令 opt_newarray_send を翻訳する時に未対応の引数の時に Side-exit を使うようにしています。
