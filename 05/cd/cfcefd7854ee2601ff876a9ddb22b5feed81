@@ -1,0 +1,1 @@
+Module#initialze_copy で Class/Module の複製をする時に RCLASS_SET_ALLOCATOR() の呼び出しを T_CLASS の時だけ行うようにしています。
