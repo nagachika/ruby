@@ -1,0 +1,1 @@
+Module#remove_instance_variable の実装で複数 Ractor 時のための VM lock の実装を追加しています。
