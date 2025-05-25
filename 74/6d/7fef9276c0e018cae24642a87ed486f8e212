@@ -1,0 +1,1 @@
+Ractor 間のオブジェクトの移動時に struct RBasic::flags の RGenGC 用の FL_PROMOTED ビットフラグを伝播させるようにしています。
