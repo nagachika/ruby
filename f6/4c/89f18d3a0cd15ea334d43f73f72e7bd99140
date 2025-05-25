@@ -1,0 +1,1 @@
+子 Ractor 内で require をした時にそのスクリプトから例外が発生した時に、その例外の所属する Ractor を呼び出し元に変更するようにしています。require は main Ractor で行なうようにしているので例外の所属が main Ractor になるためで、デバッグモードで assertion にひっかかってたそうです。
