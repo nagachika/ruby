@@ -1,0 +1,1 @@
+Object Shapes 関係の関数 rb_shape_transition_remove_ivar() の内容の一部を呼び元のほうに展開しています。
