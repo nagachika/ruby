@@ -1,0 +1,1 @@
+RCLASS_ALLOCATOR() に引数が T_CLASS または T_ICLASS であることを確認する RUBY_ASSERT() を追加しています。
