@@ -1,0 +1,1 @@
+rb_class_superclass() で不要な RCLASS_SUPER() の呼び出しを避けるように最適化しています。
