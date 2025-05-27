@@ -1,0 +1,1 @@
+bundler で c9ba3d0bacc291c852bb9d4609010c5b1fab7680 の変更で削除した validate_rust_builder_rubygems_version の呼び出しが残ってたところがあったので削除しています。
