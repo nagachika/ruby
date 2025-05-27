@@ -1,0 +1,1 @@
+さらにあちこちのソースファイルで f2ca66fefc809f3a6f92864d3e7d3f1769f7bfbd で追加した RB_VM_LOCKING() マクロを利用して RB_VM_LOCK_ENTER() と RB_VM_LOCK_LEAVE() のペアのかわりにしています。
