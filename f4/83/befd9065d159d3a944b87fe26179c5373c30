@@ -1,0 +1,1 @@
+Object Shapes で shape_id を struct RBasic に埋め込むため、32-bits 環境において struct RBasic のレイアウトを変更しています。 64-bits の環境では struct RBasic の flags に埋め込んでいたのである程度管理場所が似たような感じになってあちこちで #if で分岐していたのをまとめることができるようになるのでソースコード上はシンプルになると。 struct RBasic の拡張は大きな変更ですがまあそもそも 32-bits 環境って最近そんなにないと思うので影響はあまりないかも。 [ruby-core:122203] [Feature #21353]
