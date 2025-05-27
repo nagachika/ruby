@@ -1,0 +1,1 @@
+bundler で古い rubygems 対応で(?) Gem::LATEST_RUBY_WITHOUT_PATCH_VERSIONS という定数が未定義の時に定義を追加していたのを削除しています。
