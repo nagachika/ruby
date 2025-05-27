@@ -1,0 +1,1 @@
+ということで f2ca66fefc809f3a6f92864d3e7d3f1769f7bfbd で導入した RB_VM_LOCKING() マクロを利用してさらに encoding.c で GLOBAL_ENC_TABLE_LOCKING()、symbol.c で GLOBAL_SYMBOLS_LOCKING() というマクロを定義して ENTER/LEAVE のペアを書くかわりにこれにブロックをつけて書くようにリファクタリングしています。
