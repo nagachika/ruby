@@ -1,0 +1,1 @@
+Ractor 間のオブジェクトの受け渡し時に struct RBasic::flags の RGenGC 用のビットフラグ RUBY_FL_PROMOTED の値をコピーしないようにしています。
