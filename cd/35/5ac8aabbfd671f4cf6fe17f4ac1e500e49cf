@@ -1,0 +1,1 @@
+tool/rbs_skip_tests で bundled gems の rbs のテストで cgi 関係のテストを skip 対象に追加しています。 https://github.com/ruby/ruby/pull/13287
