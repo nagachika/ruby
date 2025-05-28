@@ -1,0 +1,1 @@
+Object Shapes 関係の直接 rb_shape_t を渡す関数 rb_shape_too_complex_p() のかわりに shape_id_t を指定する rb_shape_id_too_complex_p() を渡すようにしたり、管理テーブルのコピーをするための処理を shape.c 内に rb_shape_rebuild() という関数や rb_shape_copy_fields()、rb_shape_copy_complex_ivars() などを追加して、shape.c の外での rb_shape_t を直接使わせないようにしています。
