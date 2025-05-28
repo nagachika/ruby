@@ -1,0 +1,1 @@
+新しい Windows の SDK でビルドしようとした時のビルドエラーの対策で win32/mkexports.rb で export から除外する symbol のパターンを追加しています。 [ruby-core:121574] [Bug #21255]
