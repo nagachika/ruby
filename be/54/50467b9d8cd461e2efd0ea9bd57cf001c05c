@@ -1,0 +1,1 @@
+ObjectSpace.id2ref のためのオブジェクトの rb_data_type_t の GC.compact 対応の関数を削除しています。 gc_update_references() で別途対応しているので不要で、回収済みの不正なオブジェクトを参照してしまう可能性があったようです。
