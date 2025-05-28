@@ -1,0 +1,1 @@
+さらに shape.c の rb_shape_id() や rb_shape_each_shape() といった関数も rb_shape_t ではなく shape_id_t を扱うようにして shape.c の外で rb_shape_t を直接扱うのを減らしています。まだ参照箇所はあるのでこのシリーズはもうしばらく続きそうですね。
