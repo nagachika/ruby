@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcvarsall.bat で指定する Windows SDK のバージョンを更新しています。
