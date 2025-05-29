@@ -1,0 +1,1 @@
+Object Shapes の shape_id とインスタンス変数の index を callcache や inline cache の整数にビット列として埋め込んで管理しているものをセットしたり取り出したりする関数を整備してインターフェースを統一しています。
