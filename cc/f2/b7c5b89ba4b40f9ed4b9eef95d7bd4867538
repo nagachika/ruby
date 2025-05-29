@@ -1,0 +1,1 @@
+Object Shapes の too_complex かどうか判定する関数 rb_shape_too_complex_p() も引数は shape_id_t で指定するようにしています。
