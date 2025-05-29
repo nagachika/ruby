@@ -1,0 +1,1 @@
+shape.c 内の inline 関数 rb_shape_frozen_shape_p() を shape_frozen_p() に改名しています。
