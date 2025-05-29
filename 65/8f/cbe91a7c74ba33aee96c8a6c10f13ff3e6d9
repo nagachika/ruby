@@ -1,0 +1,1 @@
+vm_callinfo.h の vm_cc_attr_index() と vm_cc_attr_index_dest_shape_id() という inline 関数の定義を削除して呼び元では vm_cc_atomic_shape_and_index() をかわりに利用するようにしています。
