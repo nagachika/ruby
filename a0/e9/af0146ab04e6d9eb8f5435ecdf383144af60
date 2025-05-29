@@ -1,0 +1,1 @@
+vm_callinfo.h の vm_ic_attr_index_dest_shape_id() という未使用の inline 関数の定義を削除しています。
