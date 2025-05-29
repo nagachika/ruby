@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_get_iv_index() という関数の引数を rb_shape_t から shape_id_t に変更しています。
