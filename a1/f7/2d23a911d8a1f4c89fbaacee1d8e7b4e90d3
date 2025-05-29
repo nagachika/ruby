@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_id_has_object_id() を rb_shape_has_object_id() と改名して shape.c の外からはこの関数を呼ぶようにしています。
