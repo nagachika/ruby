@@ -1,0 +1,1 @@
+rb_shape_set_shape_id() という関数を rb_obj_set_shape_id() に改名しています。
