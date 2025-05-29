@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_t を shape.c の外で直接扱わず shape_id_t で参照するようにさらに変更しています。
