@@ -1,0 +1,1 @@
+bundled gems のテスト用? の tool/lib/gem_env.rb というファイルで環境変数 GEM_HOME と GEM_PATH に設定していたのですが GEM_PATH の設定は削除しています。
