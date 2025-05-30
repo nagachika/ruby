@@ -1,0 +1,1 @@
+クラスオブジェクトの生成する class_alloc() の引数から flags を削ってかわりに flags に埋め込む T_CLASS/T_MODULE/T_ICLASS などの enum ruby_value_type の値のみ渡すようにリファクタリングしています。
