@@ -1,0 +1,1 @@
+String#split のブロック内でその String オブジェクトのバッファが変更されてしまったら例外を発生させて不正なアドレス参照を避けるようにしています。 https://github.com/ruby/ruby/pull/13462 [ruby-core:122327] [Bug #21380]
