@@ -1,0 +1,1 @@
+prism の C ソースコードを生成するテンプレート prism/templates/template.rb で String#ljust を利用するようにリファクタリングしています。
