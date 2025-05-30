@@ -1,0 +1,1 @@
+configure の ZJIT 用の --enable-zjit オプションの引数に dev_nodebug という指定を追加しています。disasm などはできるけど RUBY_DEBUG は定義しないというモード。 https://github.com/ruby/ruby/pull/13456
