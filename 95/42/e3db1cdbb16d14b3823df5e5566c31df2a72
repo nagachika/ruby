@@ -1,0 +1,1 @@
+doc/windows.md に 6256c52667cd84a7b76f2eed532be78c3a82ffb5 で追記した Visual Studio Build Tools でのインストールに使う設定ファイル(JSON)のサンプルから不要な Component の指定を削除しています。
