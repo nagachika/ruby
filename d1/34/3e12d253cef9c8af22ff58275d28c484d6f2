@@ -1,0 +1,1 @@
+T_CLASS および T_MODULE 型のオブジェクトの struct RBasic::flags に設定できるビットフラグの定数に RCLASS_IS_INITIALIZED というのを追加して、これらのクラス/モジュールの初期化や複製が行なわれる rb_mod_init_copy()/make_metaclass()/ensure_includable()/rb_class_modify_check() などの関数でセットするようにして重複した初期化を例外にするようにしています。Namespace の導入に伴なう処理の負荷の変更に対応するための最適化というのが同期みたいです。
