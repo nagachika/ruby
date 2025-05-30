@@ -1,0 +1,1 @@
+prism/templates/include/prism/ast.h.erb から生成するヘッダファイルで rdoc で処理を停止するようにしています。
