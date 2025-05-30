@@ -1,0 +1,1 @@
+doc/windows.md のビルド手順の準備に ridk install というコマンド実行を追加しています。
