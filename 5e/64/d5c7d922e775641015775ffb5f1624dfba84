@@ -1,0 +1,1 @@
+prism の rdoc 用コメントを markdown 記法に変更するため "__FILE__" をクオートしています。
