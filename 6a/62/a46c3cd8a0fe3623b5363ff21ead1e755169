@@ -1,0 +1,1 @@
+rb_classext_t 構造体の max_iv_count や variation_count といったメンバーへの値をセットする時に Namespace を考慮して対応する rb_classext_t にセットしていましたが、この値は Variable Width Allocation でどの slot size の heap を使うかの判定に使うとか Object Shapes の管理の参考に使うものなので struct RClass 内に埋め込まれている部分だけで意味があるので RCLASS_EXT_PRIME() を通して Namespace ごとの rb_classext_t に設定するのをやめています。
