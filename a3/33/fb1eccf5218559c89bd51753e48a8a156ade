@@ -1,0 +1,1 @@
+Windows でのビルド向けに win32/install-buildtools.cmd と win32/vssetup.cmd というファイルを追加してセットアップを適切に行なえるようにして、GitHub Actions で利用したり doc/windows.md の手順に反映させたりしています。
