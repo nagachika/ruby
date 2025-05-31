@@ -1,0 +1,1 @@
+GC の mmtk 実装で RBASIC_RESET_FLAGS() マクロを利用していたのをやめて flags を直接触るようにして internal/object.h ヘッダへの依存をなくしています。
