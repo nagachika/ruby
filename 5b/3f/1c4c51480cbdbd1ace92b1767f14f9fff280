@@ -1,0 +1,1 @@
+Fiber の machine stack の使いまわしのための pool の操作時に複数 Ractor 対応のため VM ロックの取得を追加しています。
