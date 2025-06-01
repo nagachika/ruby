@@ -1,0 +1,1 @@
+おそらく ef2bb61018cd9ccb5b61a3d91911e04a773da4a7 の変更の影響だと思いますが  gesm/bundled_gems の matrix, prime, bigdecimal, csv, ostruct などの gem でテストに利用する commit hash の指定を追加しています。また rbs のテストの skip する対象に Ractor についてのテストを追記しています。
