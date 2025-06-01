@@ -1,0 +1,1 @@
+事前に定義済みの組み込みの ID を持つ Symbol に Ractor.monitor 用で使う aborted と exited を追加しています。
