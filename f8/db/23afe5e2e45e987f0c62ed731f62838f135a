@@ -1,0 +1,1 @@
+ZJIT の整数の演算が連続した時にもインライン化の最適化を行えるように対応しているようです。 https://github.com/ruby/ruby/pull/13465
