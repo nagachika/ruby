@@ -1,0 +1,1 @@
+rubyspec で File::Stat#birthtime の Linux での実装追加に追随しています。 [ruby-core:121475] [Feature #21205]
