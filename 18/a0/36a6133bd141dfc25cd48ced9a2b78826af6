@@ -1,0 +1,1 @@
+File::Stat の実装に Linux の statx(2) という system call が使えたら使って実装するように変更しています。 Linux で File::Stat#birthtime が NotImplementedError になってたので実装しているようです。 [ruby-core:121475] [Feature #21205]
