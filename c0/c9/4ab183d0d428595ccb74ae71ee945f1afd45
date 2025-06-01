@@ -1,0 +1,1 @@
+プロセス起動時に GC.stress = true してみるというテストが ef2bb61018cd9ccb5b61a3d91911e04a773da4a7 の Ractor::Port 導入で失敗するとのことで一時的に skip するようにしています。
