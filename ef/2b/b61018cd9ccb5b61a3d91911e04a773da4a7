@@ -1,0 +1,1 @@
+Ractor 間でオブジェクトのやりとりをするための機構として Ractor::Port という新たなクラスと Ractor の #join, #value, #monitor, #unmonitor などのメソッドを追加して、Ractor#take と Ractor.yield という従来のメソッドは削除しています。詳細はチケットおよびコミットログへ。 https://github.com/ruby/ruby/pull/13445 [ruby-core:121621] [Feature #21262]
