@@ -1,0 +1,1 @@
+gems/bundled_gems と NEWS の bigdecimal のバージョンリストを 3.2.1 に更新し、rubyspec の 49b7a092fa42341faf98d53fee11cfb776201ff0 で skip していた bigdecimal のテストを修正しています。 https://github.com/ruby/ruby/pull/13482
