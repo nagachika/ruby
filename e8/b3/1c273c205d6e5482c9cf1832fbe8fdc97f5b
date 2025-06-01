@@ -1,0 +1,1 @@
+gems/bundled_gems の rake のバージョンを 13.2.1 に戻しています。bundler のテストが失敗するためとのこと。
