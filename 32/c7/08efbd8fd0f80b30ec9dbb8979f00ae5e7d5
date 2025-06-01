@@ -1,0 +1,1 @@
+gems/bundled_gems の rake のバージョンが再度 13.3.0 に更新されています。 commit hash 指定しないと自動的に更新されちゃいますね。
