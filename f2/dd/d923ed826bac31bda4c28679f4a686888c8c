@@ -1,0 +1,1 @@
+bundler のテストで使う lockfile の rake のバージョンを 13.3.0 に更新しています。
