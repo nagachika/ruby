@@ -1,0 +1,1 @@
+a333fb1eccf5218559c89bd51753e48a8a156ade で追加した win32/install-buildtools.cmd というコマンドファイルで winget install のところ誤って winget uninstall と書いてたのを修正しています。
