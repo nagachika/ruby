@@ -1,0 +1,1 @@
+rubyspec の Linux 環境での File.birthtime のサポートへの追随で statx(2) システムコールのない古い Linux では変わらず NotImplementedError になるので、捕捉して skip するようにしています。
