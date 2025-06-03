@@ -1,0 +1,1 @@
+rubyspec の File.birthtime のテストで引数が to_path メソッドでファイルパスに変換できる任意オブジェクトの時のテストで事前に一度文字列を渡して File.birthtime を呼んでおくようにしています。statx(2) のない古い Linux の時の NotImplementedError を 4c26a38ed3c0322a3a9116ea7a32d7d48bf74727 で捕捉するようにしていましたが、引数に渡す mock のほうのチェックに先にひっかかってしまうのでとのこと。
