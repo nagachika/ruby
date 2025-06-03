@@ -1,0 +1,1 @@
+73c9d6ccaa2045a011ed991dc29633bd0443971a で non-blocking Fiber のための Scheduler のフックメソッドのインターフェースとして fiber_interrupt というメソッドの対応を追加していましたが、古い Scheduler の実装で fiber_interrupt が実装されていない場合を考慮して respond_to? 相当のチェックを行なうようにしています。 https://github.com/ruby/ruby/pull/13492
