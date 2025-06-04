@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の Ractor 対応のテストで ef2bb61018cd9ccb5b61a3d91911e04a773da4a7 で Ractor.yield や Ractor#take がなくなったのでテストを書き直していましたがこれが古い ruby で動かないので古いバージョンも残すようにしています。
