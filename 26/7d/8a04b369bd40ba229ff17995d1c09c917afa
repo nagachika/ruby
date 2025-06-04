@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の Ractor 対応のテストで ef2bb61018cd9ccb5b61a3d91911e04a773da4a7 で Ractor#take メソッドが削除された時に Ractor#value を使うように変更されたのが古い ruby でテストする時に動かなくなってしまっていたので、Ractor#value を #take の alias として定義しなおすように対応しています。
