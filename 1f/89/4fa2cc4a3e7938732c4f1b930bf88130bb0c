@@ -1,0 +1,1 @@
+bundler の platform の mingw 関連のサポートの変更に追随したテストの修正。
