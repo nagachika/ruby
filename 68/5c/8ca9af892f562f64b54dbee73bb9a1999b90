@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary のテストで iseq_to_binary というヘルパーメソッドを使っていたのをやめています。ここのテストは assert_no_memory_leak という assertion メソッドを使っているため子プロセスを起動して実行しているためヘルパーメソッドが定義されていないためかな。
