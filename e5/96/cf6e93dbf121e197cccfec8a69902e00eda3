@@ -1,0 +1,1 @@
+VM の命令で行う処理を実装するための内部的なオブジェクトである VmFrozenCore のクラスを T_ICLASS から通常の T_CLASS に変更しています。 internal_object_p() で内部的オブジェクトかの判定のために設定してたみたいですが直接 rb_mRubyVMFrozenCore のオブジェクトの場合を例外として判定するようにしています。
