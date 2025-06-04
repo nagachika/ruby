@@ -1,0 +1,1 @@
+暗黙のブロックパラメーター it を含んだスクリプトの RubyVM::InstructionSequence#to_binary でのバイナリダンプで異常終了する不具合を修正しています。 [ruby-core:122274] [Bug #21370]
