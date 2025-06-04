@@ -1,0 +1,1 @@
+Object Shapes で新たな shape の shape_id を採番する処理で複数 Ractor 利用時の VM lock 取得が重いので RUBY_ATOMIC_PTR_LOAD() や RUBY_ATOMIC_FETCH_ADD() を利用した lock free な実装に変更しています。
