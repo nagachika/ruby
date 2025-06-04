@@ -1,0 +1,1 @@
+Object Shapes の管理テーブルの mark 処理で rb_shape_t::edges のメンバーを GC.compact で移動できないよう pin-down するようにしています。
