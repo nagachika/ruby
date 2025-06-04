@@ -1,0 +1,1 @@
+bundler の bundle gem でプロジェクト生成する時の gemspec ファイルの spec.files に含めないようにするファイルを指定する処理のリファクタリング。
