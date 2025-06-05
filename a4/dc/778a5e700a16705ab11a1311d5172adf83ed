@@ -1,0 +1,1 @@
+GitHub Actions の launchable と通信ができなかったり重くて時間がかかる時にすぐあきらめるように環境変数 LAUNCHABLE_COMMIT_TIMEOUT を設定しておくようにしています。 https://github.com/ruby/ruby/pull/13513
