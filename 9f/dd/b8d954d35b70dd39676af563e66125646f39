@@ -1,0 +1,1 @@
+thread.c の rb_gc_set_stack_end() で警告抑制のため局所的に -Wdangling-pointer を無効化する #pragma 利用する preprocessor 条件を __has_warning() を使ってたのを __GNUC__ をチェックするようにしています。 __has_warning() は GCC では使えなかったとのこと。
