@@ -1,0 +1,1 @@
+ZJIT の Rust 実装内のテストで ruby スクリプト片として Array#size を使うべきとろこ #length を呼んでいたのを修正しています。
