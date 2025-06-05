@@ -1,0 +1,1 @@
+lib/cgi/util.rb の require された時の警告メッセージに CGI.parse 利用時には cgi.gem を使うようにサジェストする文言を追加しています。
