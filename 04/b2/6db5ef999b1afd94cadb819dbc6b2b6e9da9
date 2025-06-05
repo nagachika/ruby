@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_ractor に Ractor の同期機構が 3.5(master) の変更前の古い物だったら alias 定義するスクリプト片を子プロセス起動時に差し込むようにしています。
