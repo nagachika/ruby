@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler のフックメソッドに fiber_interrupt が追加されて未定義だとエラーが出るようになったので、テストで使っている Scheduler にもメソッド定義するようにしています。中身は空ですが。
