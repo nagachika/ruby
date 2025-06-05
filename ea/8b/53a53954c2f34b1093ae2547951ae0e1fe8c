@@ -1,0 +1,1 @@
+RUBY_ABI_VERSION マクロの値をインクリメントしています。そして GC の実装で rb_gc_impl_writebarrier() に即値(SPECIAL_CONST_P() が真の VALUE)を渡しても無視するように分岐を追加して呼び元での分岐をなくしています。
