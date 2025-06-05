@@ -1,0 +1,1 @@
+構造体 rb_callcache_t や struct iseq_inline_iv_cache_entry のメンバーでビット列の埋め込みの表現を upper/lower から former/latter と変更しています。エンディアンによらない表現ということかな。
