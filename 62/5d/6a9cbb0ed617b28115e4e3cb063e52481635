@@ -1,0 +1,1 @@
+Object Shapes の shape が freeze されているかどうかを type メンバーで持たせてたのを shape_id_t のビットに埋め込んで構造体をみなくても判定できるようにしています。
