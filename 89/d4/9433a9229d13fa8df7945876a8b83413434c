@@ -1,0 +1,1 @@
+Ractor の開放時の関連する Ractor::Ports の解放漏れの修正。
