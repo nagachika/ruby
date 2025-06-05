@@ -1,0 +1,1 @@
+compile.c の iseq_set_local_table() で ALLOC_N() マクロの警告抑制のために ASSUME() マクロを使ってコンパイラに前提を伝えるようにしています。
