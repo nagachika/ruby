@@ -1,0 +1,1 @@
+625d6a9cbb0ed617b28115e4e3cb063e52481635 の続きで Object Shapes で shape_id_t に埋め込むようにした frozen のフラグを落としてアクセスするためのマクロ RBASIC_SHAPE_ID_FOR_READ() を追加してインスタンス変数などの参照時にこれを利用するようにしています。
