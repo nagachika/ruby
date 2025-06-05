@@ -1,0 +1,1 @@
+Object Shapes の TOO_COMPELX の状態を構造体の type メンバーで持たせていたのを frozen と同じく shape_id_t 内にビットフラグとして埋め込むようにして、構造体を得なくても id だけで判定できるようにしています。
