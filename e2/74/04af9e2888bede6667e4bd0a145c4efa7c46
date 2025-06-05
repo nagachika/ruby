@@ -1,0 +1,1 @@
+Object Shapes で rb_shape_t を示す shape_id_t 型をアーキテクチャによらず 32bits の整数にしています。shape_id は attr_index_t 内に埋め込む都合から数値としての上限は 16 bits で表現できる範囲なので無駄に大きな型を使わないようにしているようです。 https://github.com/ruby/ruby/pull/13341 / [Feature #21353]
