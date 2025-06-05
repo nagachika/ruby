@@ -1,0 +1,1 @@
+標準添付ライブラリ etc の Ractor 対応テストで古い ruby 向けに Ractor#join メソッドの alias を定義する対応を revert しています。
