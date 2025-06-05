@@ -1,0 +1,1 @@
+インスタンス変数が定義済みか確認する rb_ivar_defined() 関数で T_CLASS/T_MODULE 型オブジェクトの時は Ractor 向けに? VM 全体のロック取得するようにしています。
