@@ -1,0 +1,1 @@
+prism の RubyVM::InstructionSequence.new でのエラー時のメモリリークの修正。 [ruby-core:122382] [Bug #21394]
