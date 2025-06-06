@@ -1,0 +1,1 @@
+ruby_atomic.h の rbimpl_atomic_u64_load_relaxed() の実装の Windows 版でキャストを追加しています。警告抑制のため?
