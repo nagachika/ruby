@@ -1,0 +1,1 @@
+GitHub Actions の Windows 用 workflow で win32/vssetup.cmd の実行に渡すオプションの指定をオプションごと matrix に指定してたのを -vcvars_ver オプションの引数だけ書くようにしています。
