@@ -1,0 +1,1 @@
+gc.c の空っぽになっていた関数 rb_malloc_info_show_results() を削除しています。
