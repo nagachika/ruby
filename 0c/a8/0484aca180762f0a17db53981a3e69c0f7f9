@@ -1,0 +1,1 @@
+main Ractor の初期化時のコンパイラの最適化による GC mark 漏れの修正のため RB_GC_GUARD() による保護を追加しています。
