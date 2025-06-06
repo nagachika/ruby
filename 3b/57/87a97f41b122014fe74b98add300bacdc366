@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Addrinfo クラスを RGenGC のための Write Barrier を設定して WB-protected に指定しています。
