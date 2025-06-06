@@ -1,0 +1,1 @@
+同じく ruby_atomic.h の rbimpl_atomic_load_relaxed()/rbimpl_atomic_u64_load_relaxed()/rbimpl_atomic_u64_set_relaxed() などの inline 関数の引数に volatile 修飾子を追加しています。
