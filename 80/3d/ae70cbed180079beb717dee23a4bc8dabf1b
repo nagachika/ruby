@@ -1,0 +1,1 @@
+bundler の platform の対応の x64-mingw32 という古い指定を deprecated にして警告を出力するようにしています。 x64-mingw-ucrt が代替とのこと。
