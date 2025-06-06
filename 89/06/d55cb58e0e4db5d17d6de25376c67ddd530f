@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の実装で文字列オブジェクトの flags をチェックして chilled string の判定をする処理を str_chilled_p() という関数に切り出しています。 https://github.com/ruby/stringio/pull/136
