@@ -1,0 +1,1 @@
+non-blocking Fiber の blocking する処理の管理のために内部的なクラス FiberSchedulerBlockingOperation を定義して管理に必要な情報をこのオブジェクト内に保持させるようにしています。メモリ管理に不具合があったので GC にまかせるようにしようということかな?
