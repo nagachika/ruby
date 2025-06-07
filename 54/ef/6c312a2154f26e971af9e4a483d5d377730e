@@ -1,0 +1,1 @@
+main Thread ではない Thread で root Fiber に Fiber#kill を呼ぶとその Thread の #join 時に異常終了するという不具合を修正しています。シンプルにそのケースの分岐が足りていなかったようです。 https://github.com/ruby/ruby/pull/13526 [ruby-core:122458] [Bug #21400]
