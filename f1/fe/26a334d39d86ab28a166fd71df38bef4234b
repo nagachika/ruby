@@ -1,0 +1,1 @@
+5da3dc88d68a7dce616e583c18213ea6a3bc6c37 の GitHub Actions の workflows での Launchable セットアップのタイムアウト指定を誤ってテスト実行の step につけてたのを修正しています。
