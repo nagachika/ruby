@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md にデバッグ用に ruby をビルドする時の RUBY_DEBUG の指定などについてのドキュメントを追記しています。
