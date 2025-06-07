@@ -1,0 +1,1 @@
+Binding#clone の実装で Binding#dup の実装関数 binding_dup() を呼んでそのあとさらに rb_obj_clone_setup() を呼んでいて処理が重複していたので binding_dup() から共通の処理を binding_copy() という関数に切り出して共有するようにしています。
