@@ -1,0 +1,1 @@
+GitHub Actions の workflows で Launchable 対応の標準出力/標準エラー出力をリダイレクトするファイルの指定を専用のアクションにまとめるようにしています。
