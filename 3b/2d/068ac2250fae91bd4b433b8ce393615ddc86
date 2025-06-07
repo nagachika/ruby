@@ -1,0 +1,1 @@
+bundler の bundle exec サブコマンドのテストの出力チェックの強化。
