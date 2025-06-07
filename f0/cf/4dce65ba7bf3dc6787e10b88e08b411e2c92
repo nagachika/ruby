@@ -1,0 +1,1 @@
+non-blocking Fiber 利用時に Thread#join がまだ停止していないのに処理を返してしまうことがあった不具合を修正しているようです。 https://github.com/ruby/ruby/pull/13532
