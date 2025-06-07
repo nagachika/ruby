@@ -1,0 +1,1 @@
+shape.c のコメントに削除された RubyVM.debug_shape というメソッドに言及したところがあったので RubyVM::Shape.of に修正しています。
