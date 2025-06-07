@@ -1,0 +1,1 @@
+rubyspec の File.birthtime などのテストで古い Linux で NotImplementedError になっていた時に skip していたのをメッセージをチェックして  "birthtime() function" で始まっていたら OK とするように assertion に変更しています。
