@@ -1,0 +1,1 @@
+81a23c5793fecaff5f75cefe6a6e03dab99df16b で non-blocking Fiber の Scheduler の unblock フックメソッドを呼ぶ時に rb_execution_context_t::interrupt_flag が設定されていた時に rb_bug() で異常終了する時のメッセージにフラグの値を表示するようにしています。
