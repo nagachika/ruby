@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::BN の Ractor 対応のテストで Ractor#value がない古い ruby の対応を追加しています。
