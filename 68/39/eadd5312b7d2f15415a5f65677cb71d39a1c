@@ -1,0 +1,1 @@
+bundler のテストに git リポジトリを source とする時の proxy 対応のテストを追加しています。
