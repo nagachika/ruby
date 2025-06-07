@@ -1,0 +1,1 @@
+bundler の git リポジトリを source とする時の Bundler::Source::GitProxy#has_revision_cached? で参照すべき commit hash が直接指定されている時の対応。
