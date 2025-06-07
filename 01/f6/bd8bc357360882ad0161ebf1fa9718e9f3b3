@@ -1,0 +1,1 @@
+ZJIT のテストの assertion メソッド assert_compiles にキーワード引数 insns を追加して指定した VM 命令が ISeq 内に存在することもチェックするように強化しています。
