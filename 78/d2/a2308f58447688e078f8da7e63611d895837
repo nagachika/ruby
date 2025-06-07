@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 用の独自アクションの後始末処理を専用の step に切り出しています。
