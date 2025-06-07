@@ -1,0 +1,1 @@
+shape.c の transition_frozen() という関数名が内容と一致していなかったので transition_complex() と改名しています。
