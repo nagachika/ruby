@@ -1,0 +1,1 @@
+bundler の Bundler::GemHelpers という Module の実装の一部を rubygems の Gem::Platform に移植しています。不要だったメソッドはそのまま削除しているようです。
