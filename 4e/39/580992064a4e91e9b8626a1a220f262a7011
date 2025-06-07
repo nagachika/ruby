@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_t の capasity メンバーに直接アクセスせず RSHAPE_CAPACITY() マクロを利用するようにしています。
