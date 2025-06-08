@@ -1,0 +1,1 @@
+Object Shapes で shape のバッファに必要なサイズを拡張する時に Variable Width Allocation による拡張 slot サイズに埋め込む余地がある場合はヒープにバッファを確保せずにその上限に合わせて適切な ObjectSpace の heap を使うようにしています。
