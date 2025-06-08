@@ -1,0 +1,1 @@
+複数 Ractor 利用時に finalizer を設定した時に設定した Ractor が main Ractor ではない場合にオブジェクトの所属 Ractor チェックに(Proc オブジェクトが?)ひっかかってエラーになってしまうので、とりあえずプロセス全体で共有するフラグ変数を定義してfinalizer 実行時にこのフラグを立ててその時に所属 Ractor チェックをスキップするようにしています。rb_gc_run_obj_finalizer() の実行が並行することはないのかな。
