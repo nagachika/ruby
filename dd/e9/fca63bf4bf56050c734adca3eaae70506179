@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler が #fiber_interrupt メソッドを呼ぶ時に rb_execution_context_t::interrupt_flag をチェックしていたのをちゃんと割り込みに対応するビットのみチェックするように修正しています。ビットフラグなので対象ではないビットが立っている場合があってエラーになっていたようです。
