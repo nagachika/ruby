@@ -1,0 +1,1 @@
+gems/bundled_gems にテストに使う commit hash が指定された時に bundled gems のインストールがうまくされないという問題の対応? みたいですが次で revert されているのでうまくいかなかったみたいです。 [ruby-core:122352] [Bug #21388]
