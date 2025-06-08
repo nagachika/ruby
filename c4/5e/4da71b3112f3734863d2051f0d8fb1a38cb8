@@ -1,0 +1,1 @@
+common.mk で install-all、install-nodoc などの install-xxx 系のターゲットで tool/rbinstall.rb の引数 --install に渡す引数を "all" 固定にしていたのを INSTALL_ALL という変数を経由して指定するようにしています。環境変数で install 対象を切り替えられるようにするため?
