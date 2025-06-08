@@ -1,0 +1,1 @@
+gc.h の関数の prototype 宣言で GC の実装を拡張ライブラリにする Modular GC を使ってない時に static 修飾子をつけるため条件によって定義するマクロ MODULAR_GC_FN を導入しています。あれでもヘッダファイルで static 修飾子つけて意味あるんだっけ?
