@@ -1,0 +1,1 @@
+tool/rbinstall.rb で install をスキップする gem 名の出力のための整形で gem 名をうまく出せてなかったのを修正しています。
