@@ -1,0 +1,1 @@
+raw_shape_id() および shape_id() で引数が NULL の時の分岐は削除して RUBY_ASSERT() で assertion するようにしています。
