@@ -1,0 +1,1 @@
+Object Shapes の shape の管理する Object Space の heap を必要な slot サイズに合わせて? 変更してコピーできるようにしています。極力 shape を slot に埋め込みにするための変更の一環のようです。
