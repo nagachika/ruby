@@ -1,0 +1,1 @@
+Object Shapes でオブジェクトの Variable Width Allocation による slot サイズの異なる heap 間の移動の時の shape の変更処理が shape_id_t に埋め込む heap_index の更新だけでできるようになったのでシンプルな実装にしています。
