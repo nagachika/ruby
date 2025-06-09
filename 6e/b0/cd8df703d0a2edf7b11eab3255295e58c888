@@ -1,0 +1,1 @@
+Object Shapes の SHAPE_T_OBJECT というビットフラグの定数も 689ec5114624978f47edcba4f055e62017e4ac36 の変更に伴ない不要にできるので削除しているようです。
