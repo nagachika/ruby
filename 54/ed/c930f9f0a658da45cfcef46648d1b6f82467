@@ -1,0 +1,1 @@
+689ec5114624978f47edcba4f055e62017e4ac36 で導入したマクロ SHAPE_ID_HEAP_INDEX_OFFSET の値を -1 しています。YJIT 利用時に最上位ビットを使うと異常終了したとのことで。
