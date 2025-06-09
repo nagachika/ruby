@@ -1,0 +1,1 @@
+Object Shapes の構造体 rb_shape_t の heap_index メンバーも flags に shape_id_t に埋め込めるようになって不要になったので削除しています。
