@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_t::edges を mark 時に GC.compact で移動できないよう pin-down していたのをやめています。
