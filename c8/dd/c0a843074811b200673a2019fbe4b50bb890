@@ -1,0 +1,1 @@
+Module#refine のブロック内でメソッド定義をするとメソッドキャッシュのクリアのために全オブジェクトのスキャンが発生してとても遅かったという問題の修正。 rb_vm_t::cc_refinement_table というメンバーに set_table のテーブルを持つようにして Refinements 化でのメソッド呼び出しの callcache を管理するようにしています。
