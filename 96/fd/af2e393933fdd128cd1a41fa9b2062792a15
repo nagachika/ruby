@@ -1,0 +1,1 @@
+Linux でシステムコール statx(2) を利用する時の構造体 struct statx の stx_XXX メンバーへの代入時のキャストの型を __u32 から uint32_t に変更しています。 alpine でのビルド時のエラー修正。
