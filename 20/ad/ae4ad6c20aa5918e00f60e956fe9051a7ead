@@ -1,0 +1,1 @@
+rubyspec の File.birthtime のテストで NotImplementedError が発生した時のメッセージのチェックを環境によって変化するのでバリエーションを追加しています。
