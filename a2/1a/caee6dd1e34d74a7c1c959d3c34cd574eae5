@@ -1,0 +1,1 @@
+f4135feafc558111c7388b823a64652e09999161 で追加した Object#inspect で表示するインスタンス変数を指定できる instance_variables_to_inspect フックメソッドの対応の NEWS のエントリの英文法を修正しています。
