@@ -1,0 +1,1 @@
+common.mk の bundled gems のパッケージを展開する clone-bundled-gems-src のアクションを独自に書いてたのを test-bundled-gems-fetch の tool/fetch-bundled_gems.rb を利用するアクションを再利用するようにしています。
