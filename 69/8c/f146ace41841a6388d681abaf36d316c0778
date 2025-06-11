@@ -1,0 +1,1 @@
+gems/bundled_gems にテストに使う commit hash の指定がある時にリポジトリから clone する処理を commit hash の指定がある時だけ実施するようにしているようです。
