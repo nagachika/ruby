@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler で cancel 処理の修正をしています。 https://github.com/ruby/ruby/pull/13570
