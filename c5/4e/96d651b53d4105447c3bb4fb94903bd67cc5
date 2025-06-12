@@ -1,0 +1,1 @@
+shape.c の edges() という関数で引数の edges が Qfalse の時に不要な処理をスキップするようにしています。 RubyVM::Shape.transition_tree メソッドで異常終了する可能性があったみたいです。
