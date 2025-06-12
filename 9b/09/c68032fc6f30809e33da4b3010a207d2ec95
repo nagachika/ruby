@@ -1,0 +1,1 @@
+さらに common.mk の make tset-bundler の実行時に ruby から Kernel#exec でプロセスを置き換えて rspec を実行するようにしていたのをやめて直接 rspec のスクリプトを実行させるようにしています。
