@@ -1,0 +1,1 @@
+bundler の bundle install 時にいろいろある platform から gem を選択する時のロジックを調節しているようです。
