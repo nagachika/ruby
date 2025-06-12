@@ -1,0 +1,1 @@
+54edc930f9f0a658da45cfcef46648d1b6f82467 で shape.h のマクロ SHAPE_ID_HEAP_INDEX_OFFSET の定義で YJIT で異常終了するために -1 していたものが不要になったみたいで元に戻しています。
