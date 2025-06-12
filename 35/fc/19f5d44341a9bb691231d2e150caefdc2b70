@@ -1,0 +1,1 @@
+bcb4fbe2ebba2efbea1933f0ac32b87dc48b2021 の Enumerator::ArithmeticSequence のデータの持ちかた変更で不要になったインスタンス変数用の ID を初期化時に rb_intern_const() していたのを削除しています。
