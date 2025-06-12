@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http でリクエスト時にリクエストヘッダの content-type をデフォルトで設定する機能が警告つきで行なわれていたのを削除しています。 https://github.com/ruby/net-http/issues/205
