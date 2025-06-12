@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPGenericRequest に pretty_print メソッドを追加して pp で整形して出力に対応するようにしています。
