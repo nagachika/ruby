@@ -1,0 +1,1 @@
+make test-bundler のために spec/bin/rspec というファイルを追加して .bundle/bin 配下にインストールされるもののかわりに bundler の upstream から同期したこれを利用するようにしています。
