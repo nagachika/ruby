@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で actions/cache アクションに指定するパスを決め打ちで書いてたものを github.workspace 変数を利用するようにしています。最近突然うまくキャッシュが効かなくなってたみたいです。
