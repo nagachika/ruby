@@ -1,0 +1,1 @@
+Object Shapes の Class のインスタンス変数の管理する shape を rb_classext_t::fields_obj から得るようになったので shape_id_t もこれを利用して Namespace が分かれたクラスでもそれぞれの shape を管理するようにしています。これによりクラスの shape が常に too_complex になっていたのを解消しているようです。なるほど Namespace 対応というのもクラスのインスタンス変数についての話だったのかな。
