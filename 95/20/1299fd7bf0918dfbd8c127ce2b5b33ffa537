@@ -1,0 +1,1 @@
+ここしばらく同様の変更が続いていましたが shape.c と shape.h の外で Object Shapes の rb_shape_t 構造体を直接触っているところをついに完全に shape_id_t を経由して扱うようにしたみたいです。
