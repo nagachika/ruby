@@ -1,0 +1,1 @@
+nil (NilClass) のメソッドの to_c, rationalize などの数値への変換系メソッドを ruby 実装に置き換えています。 to_i と to_f は既に変更済みなのでそれらに追随ということですね。
