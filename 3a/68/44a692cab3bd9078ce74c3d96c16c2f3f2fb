@@ -1,0 +1,1 @@
+詳細わかりませんが make test-bundler で利用するための spec/bin/rspec で require するファイルの変更をしています。
