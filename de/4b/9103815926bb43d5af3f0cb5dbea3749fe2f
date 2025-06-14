@@ -1,0 +1,1 @@
+GET_SHAPE_TREE() というマクロも削除してグローバル変数 rb_shape_tree を直接触るようにしています。
