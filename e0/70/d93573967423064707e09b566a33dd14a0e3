@@ -1,0 +1,1 @@
+YJIT 関連だけで残ってた rb_shape_lookup() の呼び出し元を使わないようにして rb_shape_lookup() の定義を削除しています。
