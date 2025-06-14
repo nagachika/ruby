@@ -1,0 +1,1 @@
+shape.h の RSHAPE() は rb_shape_lookup() のエイリアスとしてマクロ定義されていたのを inline 関数として同じ内容を定義しています。逆に rb_shape_lookup() のほうが RSHAPE() を呼ぶだけの関数になっています。
