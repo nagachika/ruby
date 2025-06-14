@@ -1,0 +1,1 @@
+Time オブジェクトの mark 処理や GC.compact 時の処理で WIDEVALUE から VALUE への変換が必要なところを修正しています。
