@@ -1,0 +1,1 @@
+正規表現の Regexp#match の最適化のための? reg_cache というグローバル変数のオブジェクトが複数 Ractor から使われると競合するので main Ractor の時のみ利用するようにしています。
