@@ -1,0 +1,1 @@
+複数 Ractor 利用時に子 Ractor の Thread 内で require を実行してその完了を待たずに Ractor の main Thread が終了すると処理待ちの Thread がそのまま回収されてしまい、解放済みのメモリ参照で異常終了する場合があった不具合を修正しています。Thread のマシンスタック上に置いていた require 要求の情報を T_DATA 型のオブジェクトとして作ることで GC の対象になるようにしています。 [ruby-core:120795] [Bug #21090]
