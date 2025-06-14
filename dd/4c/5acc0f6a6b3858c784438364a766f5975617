@@ -1,0 +1,1 @@
+vm_callinfo.h の VM_CALLCACHE_UNMARKABLE および VM_CALLCACHE_ON_STACK というビットフラグ定数の定義を IMEMO_FL_USER4 や IMEMO_FL_USER5 という予約された定数を使って定義するようにしています。歴史的経緯で? struct RBasic::flags 用の定数を使ってしまっていたようです。値も違ってたっぽいですね。
