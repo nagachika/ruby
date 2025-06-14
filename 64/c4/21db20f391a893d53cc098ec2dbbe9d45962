@@ -1,0 +1,1 @@
+bundler のテストで cgi への依存を cgi/util と cgi/escape に分割しています。
