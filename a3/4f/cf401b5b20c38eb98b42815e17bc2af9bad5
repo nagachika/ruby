@@ -1,0 +1,1 @@
+割り込み処理を管理する構造体 struct rb_interrupt_exec_task の flags にセットするビットフラグの定数に rb_interrupt_exec_flag_new_thread というのを追加して割り込み処理のために新たな Thread を立てる場合の処理をその他の割り込みの処理と一元化して threadptr_interrupt_exec_exec() という関数内で Thread 起動する分岐をするようにしています。コミットログによると実装の共有化の他に GC の mark 漏れの修正? もあるようです。
