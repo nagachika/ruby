@@ -1,0 +1,1 @@
+File::Stat#dev や #rdev でシステムコール statx(2) 利用時には makedev() の戻り値が異なるので整数の変換マクロを ULL2NUM() を利用するように修正しています。
