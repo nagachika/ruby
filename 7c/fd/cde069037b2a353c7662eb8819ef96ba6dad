@@ -1,0 +1,1 @@
+ruby_atomic.h の rbimpl_atomic_u64_load_relaxed() や rbimpl_atomic_u64_set_relaxed() の引数の型として RBIMPL_ALIGNAS(8) というマクロでアライメントの指定もつけた 64 bits unsigned な整数を定義するようにしています。
