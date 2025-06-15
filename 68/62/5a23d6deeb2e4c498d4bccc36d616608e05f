@@ -1,0 +1,1 @@
+non-blocking Fiber の IO などのブロック処理の割り込みの不具合修正。修飾的な変更も多くてわかりにくいのですがおそらく rb_fiber_scheduler_blocking_operation_execute() で rb_thread_resolve_unblock_function() の呼び出しで ubf (un-block function) のチェックと RUBY_UBF_IO や RUBY_UBF_PROCESS などの組込みの割り込み指定の時に ubf_select() の指定に切り替える修正が本質的な部分だと思います。 https://github.com/ruby/ruby/pull/13614
