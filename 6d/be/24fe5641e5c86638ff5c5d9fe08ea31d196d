@@ -1,0 +1,1 @@
+a99d941cacbb9d5d277400abf76f5648f91009ea で shape_id_t のビットにインスタンス変数有無を持たせたのが struct RBasic::flags のビットフラグ FL_EXIVAR と役割が重複しているのでこのフラグを利用していたところを shape_id_t で確認する関数の呼び出しで置き換えています。
