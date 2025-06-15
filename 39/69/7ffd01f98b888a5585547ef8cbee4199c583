@@ -1,0 +1,1 @@
+5342d9130beb44f9aa1dddbb7f6276bf01c7404f の続きで generic_ivar_set_shape_fields() で利用している構造体のメンバが不要になってたので削ってローカル変数として持つようにしています。
