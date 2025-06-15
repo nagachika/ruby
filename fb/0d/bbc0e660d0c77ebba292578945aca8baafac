@@ -1,0 +1,1 @@
+拡張ライブラリ date の Marshal.load 時の処理で rb_copy_generic_ivar() の呼び出しの引数の順序が 99a72df16d6174f171754c3a4dcd48c07108097e で反対になってしまってたのを修正しています。
