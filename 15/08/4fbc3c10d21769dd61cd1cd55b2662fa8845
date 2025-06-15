@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグの定数 FL_EXIVAR が不要になったのでまずは値を 0 で定義したうえで deprecated にしています。
