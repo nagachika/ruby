@@ -1,0 +1,1 @@
+拡張ライブラリ date で struct RBasic::flags のビットフラグの定数 FL_EXIVAR を参照していたところをやめています。フラグをチェックしてから rb_copy_generic_ivar() の呼び出しの必要の有無を判定していたみたいですが常に呼ぶようにしています。
