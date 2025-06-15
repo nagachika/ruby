@@ -1,0 +1,1 @@
+GC の mmtk の Rust 実装の未使用のマクロ RUBY_FL_EXIVAR への参照を削除しています。
