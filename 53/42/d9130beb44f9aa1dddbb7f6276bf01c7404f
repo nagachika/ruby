@@ -1,0 +1,1 @@
+st_table の更新関数 st_update() で各要素についてのコールバック関数を呼び出した後で st_table::rebuilds_num が変化していたら困るので assert(3) で同じ値になってることをチェックしています。というのはチェックのためで本命は Object Shapes の generic_ivar_set_shape_fields() でこの制限に違反していたみたいで、st_update() を利用してたのをやめて独自にループして st_insert() を実行するようにしています。 [ruby-core:122518] [Bug #21438]
