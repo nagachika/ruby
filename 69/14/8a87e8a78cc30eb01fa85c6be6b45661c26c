@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用の workflows で一部の bootstraptest を実行するようにしています。 https://github.com/ruby/ruby/pull/13613
