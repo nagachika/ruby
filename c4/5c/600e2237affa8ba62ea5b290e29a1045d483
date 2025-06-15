@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp のキーワード引数に open_timeout も追加しています。connect_timeout とは別? と思いましたが引数チェックをみるに resolve(名前解決)+connect でまとめて open_timeout として指定できるようにしているようです。コミットログに丁寧に背景が書かれていて、名前解決や接続の処理がアドレスごとに並列で行なわれるようになった結果タイムアウトの影響の把握が難しくなっているので、わかりやすく全体のタイムアウトだけ指定したいという動機が出てきたようです。 https://github.com/ruby/ruby/pull/13368 [ruby-core:122164] [Feature #21347]
