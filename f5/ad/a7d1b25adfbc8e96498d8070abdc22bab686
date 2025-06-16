@@ -1,0 +1,1 @@
+rubyspec の C API のテストで拡張ライブラリ fiddle を require して LoadError になった時に top-level return でファイル全体をスキップするようにしています。 OpenBSD でエラーになってるとのこと。
