@@ -1,0 +1,1 @@
+同じく ObjectSpace::WeakMap のテストで ObjectSpace::WeakMap の残っている要素数をチェックする assertion で上限を配列サイズに対する比率で指定するように修正しています。上限が厳しすぎて失敗することがあったようです。
