@@ -1,0 +1,1 @@
+GitHub Actions の Launchable のセットアップのためのコマンドでタイムアウト時にプロセスを停止するためシグナル送信する時にプロセスグルームに対してシグナル送信するように修正しています。 https://github.com/ruby/ruby/pull/13622
