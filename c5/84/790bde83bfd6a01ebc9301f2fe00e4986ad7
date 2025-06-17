@@ -1,0 +1,1 @@
+parse.y の NODE_COLON2 ノードに位置情報を持たせる変更。
