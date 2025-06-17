@@ -1,0 +1,1 @@
+rubygems から bundler の require のために Gem::Platform 配下の定数の保護を行う lib/rubygems/bundler_integration.rb というファイルを用意してこれを経由して require するようにしています。古い bundler と一緒に使った時のための対応とのこと。
