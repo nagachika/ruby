@@ -1,0 +1,1 @@
+gc.c と object.c の rb_bug() のメッセージの typo 修正。
