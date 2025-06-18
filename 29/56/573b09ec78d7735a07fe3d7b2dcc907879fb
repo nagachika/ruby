@@ -1,0 +1,1 @@
+IO::Buffer の IO::Buffer.for に freeze された文字列を渡した時に無用な rb_str_locktmp()/rb_str_unlocktmp() の呼び出しをスキップするようにしています。
