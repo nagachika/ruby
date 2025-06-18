@@ -1,0 +1,1 @@
+rb_vm_t::self メンバーの GC の mark 処理と GC.compact 時の移動対応の処理を gc.c の rb_gc_mark_roots() で行なっていたのを vm.c の rb_vm_mark() や rb_vm_update_references() で行なうように整理しています。同時に GC.compact で移動可能にしているようです。
