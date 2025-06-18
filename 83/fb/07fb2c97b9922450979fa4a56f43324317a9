@@ -1,0 +1,1 @@
+IO のバッファとして使わている時の String オブジェクトを排他処理するための rb_str_locktmp() で freeze されている文字列の時にその struct RBasic::flags を更新してしまうことがあったそうで、rb_check_frozen() でチェックして FrozenError を発生させるようにしています。 [ruby-core:120465] [Bug #20998]
