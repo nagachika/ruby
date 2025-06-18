@@ -1,0 +1,1 @@
+Object Shapes で struct gen_fields_tbl の配列のサイズ上限に達して xrealloc() する時にその後の処理でポインタを入れ替える前に GC が発生する可能性があり xrealloc() により free された領域を触ってしまう可能性があったので xmalloc() + xfree() による確保と解放で st_insert() した後に free() するように実装しなおしています。 [ruby-core:122518] [Bug #21438]
