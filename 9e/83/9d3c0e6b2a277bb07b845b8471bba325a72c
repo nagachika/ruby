@@ -1,0 +1,1 @@
+クラスのインスタンス変数の参照の shape_id を struct RBasic::flags から得る最適化。
