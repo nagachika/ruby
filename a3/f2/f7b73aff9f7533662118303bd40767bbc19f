@@ -1,0 +1,1 @@
+GitHub Actions の depandabot の pull request を自動マージするための workflow で lewagon/wait-on-check-action というアクションに使う GitHub のトークンの指定を変更しています。
