@@ -1,0 +1,1 @@
+GitHub Actions のこまかなタスクを実行する workflow でインデントなどの自動修正をする step の実行条件にイベントが pull requet のものであることを追加しています。
