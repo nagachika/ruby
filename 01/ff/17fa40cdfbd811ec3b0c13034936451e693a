@@ -1,0 +1,1 @@
+ZJIT の VM の最適化命令 opt_hash_freeze, opt_ary_freeze, opt_str_freeze, opt_str_uminus の対応を追加。
