@@ -1,0 +1,1 @@
+4cc58c3a6fdb70de36f585e4ce8ad66b5db43938 の続きで IO::Buffer の GC.compact 時の移動対応を実装しています。 [ruby-core:121498] [Bug #21210]
