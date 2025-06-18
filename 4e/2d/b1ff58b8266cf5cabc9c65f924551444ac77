@@ -1,0 +1,1 @@
+bundler の default gems が指定された時のテストの古い rubygems 向け対応を削除しています。
