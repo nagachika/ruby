@@ -1,0 +1,1 @@
+bundler のテストで利用するダミーサーバーで Rackup::Server.start に渡すクラスを変更しています。
