@@ -1,0 +1,1 @@
+6012145299cfa4ab561360c78710c7f2941a7e9d の IO::Buffer の mark 処理の実装を RUBY_REFERENCES() マクロを利用した書きかたにしたのを revert しています。結構前の変更だけどなぜだろう。と思ったら次で GC.compact 対応が実装されてました。 [ruby-core:121498] [Bug #21210]
