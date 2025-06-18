@@ -1,0 +1,1 @@
+自動的にインデントやコーディングスタイルの修正をするための tool/auto-style.rb で Array#shelljoin で作ったコマンドラインを Kernel#system に渡していたのを元になる配列を直接渡すように変更しています。 shell を経由させないため。
