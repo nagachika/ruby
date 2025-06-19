@@ -1,0 +1,1 @@
+T_IMEMO の Object Shapes 用の imemo_fields タイプの操作の RGenGC 用の Write Barrier の漏れを修正しています。
