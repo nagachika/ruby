@@ -1,0 +1,1 @@
+vm_backtrace.c の bt_update_cfunc_loc() という関数を bt_backpatch_loc() に、その他変数名の cfunc_counter を backpatch_counter と改名しています。このあとの変更で cfunc に限らず使うようになるのでふさわしい名前にしておくという下準備のようです。
