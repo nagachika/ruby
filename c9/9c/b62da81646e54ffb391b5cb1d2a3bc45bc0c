@@ -1,0 +1,1 @@
+4cb0205f51c1c49270027c41f539e8d120a13b6c の tool/auto-style.rb の修正の再修正で String#gsub! の戻り値で変更の有無を判定するようにしています。
