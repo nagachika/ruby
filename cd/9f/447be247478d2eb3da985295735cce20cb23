@@ -1,0 +1,1 @@
+ということで通常のオブジェクトの Object Shapes によるインスタンス変数管理にも T_IMEMO 型のオブジェクトを利用するようにしています。というかクラス以外では使ってなかったのか? https://github.com/ruby/ruby/pull/13589
