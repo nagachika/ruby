@@ -1,0 +1,1 @@
+332f83d1ab418cd82ba8da542fce73e611da8141 の一部 revert で make test-bundled-gems でエラーを無視する gem に rbs と debug を再度追加しています。
