@@ -1,0 +1,1 @@
+Enumerable#tally の実装で RGenGC 用の Write Barrier を入れるタイミングを Hash の更新のコールバック関数内から rb_hash_stlike_update() 全体から帰ってきた後に入れるように修正しています。コールバック関数から抜けた後の st_update() で GC が走る可能性があるのでコールバック関数内での Write Barrier は早すぎたみたいです。
