@@ -1,0 +1,1 @@
+gems/bundled_gems の debug のバージョンを 1.11.0 に更新し、irb はテストに使う commit hash の指定を追加しています。
