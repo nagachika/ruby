@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトの型の一種として Object Shapes のインスタンス変数などの管理テーブルを wrap したものを持つようにしたもののタイプを imemo_class_fields から imemo_fields に改名しています。
