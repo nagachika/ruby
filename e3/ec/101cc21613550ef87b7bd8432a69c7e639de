@@ -1,0 +1,1 @@
+Fiber 利用時に rb_execution_context_t の cfp と VM スタックポインタをリセットする関数 rb_ec_clear_vm_stack() で VM スタックのポインタをクリアする前に cfp をクリアして、シグナル割り込み時に不整合のある状態が見えないようにしています。 [ruby-core:122548] [Bug #21441]
