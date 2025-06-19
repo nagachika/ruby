@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu と macOS 用 workflows で make runirb を実行する step を追加しています。また common.mk の make runirb ターゲットで irb を起動する時の ruby のオプションに -rrubygems を追加しています。
