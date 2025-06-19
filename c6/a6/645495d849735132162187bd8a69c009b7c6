@@ -1,0 +1,1 @@
+a7dc515c1df34c9952401cfb17d52266b7cf5534 と同様に組み込みクラスの Marshal 対応の定義を追加する rb_marshal_define_compat() でも RGenGC 用 Write Barrier の挿入位置を st_insert() 呼び出しの後に移動しています。
