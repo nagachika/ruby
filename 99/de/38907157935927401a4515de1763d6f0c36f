@@ -1,0 +1,1 @@
+89b3e4719209d47f223256daee4bccbe7ae92d60 からの続きで命令列のバイナリフォーマットからの読み込み実装に RGenGC 用 Write Barrier を追加しています。
