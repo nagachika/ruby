@@ -1,0 +1,1 @@
+bundler の gem の spec.ignore という属性の扱いについて修正しています。
