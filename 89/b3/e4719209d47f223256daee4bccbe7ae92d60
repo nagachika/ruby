@@ -1,0 +1,1 @@
+Ractor::Port の初期化の実装に RGenGC 用の Write Barrier を追加しています。ここから同様の変更がしばらく続きます。
