@@ -1,0 +1,1 @@
+NEWS の instance_variables_to_inspect メソッドで Object#inspect で表示するインスタンス変数を指定できるようにした変更についてのエントリにチケット参照を追記しています。 [Feature #21219]
