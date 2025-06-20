@@ -1,0 +1,1 @@
+doc/standard_library.md と doc/maintainers.md の cgi のエントリを削除および cgi/escape に限定しています。
