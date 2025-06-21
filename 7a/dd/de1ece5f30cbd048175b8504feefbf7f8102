@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow では ruby/setup-ruby の更新でビルドできなくなってしまったようなのでバージョンを戻しています。
