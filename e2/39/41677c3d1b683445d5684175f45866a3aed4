@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems や default gems の更新確認やスタイルのチェックなど細かな作業をしている check_misc などの workflows で GitHub のトークンを参照するための secret 名を新しいものに更新しています。
