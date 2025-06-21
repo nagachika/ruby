@@ -1,0 +1,1 @@
+GitHub Actions の pull request に自動で reviewer を割り当てるための workflow で利用する GitHub のトークンの secret 名を別のものに変更しています。処理ごとにトークンを分けるようにしているようです。
