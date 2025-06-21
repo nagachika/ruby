@@ -1,0 +1,1 @@
+GitHub Actions の Scorecards 用の workflow で使う ossf/scorecard-action や github/codeql-action/upload-sarif アクションの更新や typo 修正。
