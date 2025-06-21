@@ -1,0 +1,1 @@
+GitHub Actions の Windows の WSL2 でのビルド用の workflow で利用する os を windows-2025 に固定しています。これにより winget のインストールの step が不要になるみたいです。
