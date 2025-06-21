@@ -1,0 +1,1 @@
+GitHub Actions の workflows で利用している actions/checkout、ruby/setup-ruby や actions/upload-artifact などのアクションのバージョンを一括で更新しています。
