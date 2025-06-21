@@ -1,0 +1,1 @@
+GitHub Actions の Scorecards 用の workflow でコメントアウトされていた results.sarif というファイルを artifact としてアップロードするステップを復活させています。
