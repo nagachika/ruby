@@ -1,0 +1,1 @@
+GitHub Actions の dependabot の pull request を自動マージする処理で使う GitHub のトークンの secret 名を変更しています。
