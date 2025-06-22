@@ -1,0 +1,1 @@
+prism で PM_CONSTANT_PATH_NODE という AST のノードのキーワード引数部分での処理が漏れていたのを修正しています。
