@@ -1,0 +1,1 @@
+gc/default/default.c で tick_t の型定義のコメントをその preprocessor 分岐の中に移動しています。
