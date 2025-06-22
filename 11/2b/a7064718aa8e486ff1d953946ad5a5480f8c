@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::SSL::SSLContext#sigalgs= および OpenSSL::SSL::SSLContext#client_signals= というメソッドを新規追加しています。一瞬 signals と空目しますが sign algorithms の略でしょうかね? 署名に使うアルゴリズムを指定する文字列を指定するようです。サンプルはテストコード参照。NEWS にも追記が欲しいですね。
