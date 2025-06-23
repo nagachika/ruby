@@ -1,0 +1,1 @@
+fork(3) が利用可能な環境でのみ使われる関数の定義を HAVE_WORKING_FORK の preprocessor 分岐内に入れるなどの未使用関数/変数の警告抑制のための修正。
