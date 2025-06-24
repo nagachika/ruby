@@ -1,0 +1,1 @@
+T_CLASS の Namespace ごとに分離されている rb_classext_t を管理する ns_classext_tbl へのアクセスに RCLASS_CLASSEXT_TBL() マクロを常に利用するようにリファクタリングしています。
