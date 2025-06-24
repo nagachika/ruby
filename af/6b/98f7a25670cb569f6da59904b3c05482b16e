@@ -1,0 +1,1 @@
+マシンスタックのオーバーフロー検出時に復旧可能かどうかの判定をしている関数 check_stack_overflow で条件ごとの判定結果を int でマジックナンバーで表していたのを ruby_stack_overflow_critical_level という enum 型の定数を導入しています。
