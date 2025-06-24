@@ -1,0 +1,1 @@
+struct RClass::ns_classext_tbl にアクセスする RCLASS_CLASSEXT_TBL() をマクロから inline 関数にして 96a0c2065a95d076978de41e8bfacbd19858d0bb で導入した struct RBasic::flags のビットフラグの RCLASS_NAMESPACEABLE が立っているかのチェックをするようにしています。うーんしかしこのビットが立ってない時にはセットしないという変更も行なわれているので、フラグのチェックしなくても結果は NULL になるんじゃないのかな?
