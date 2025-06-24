@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグに T_CLASS/T_ICLASS/T_MODULE 型オブジェクトの時に環境変数 RUBY_NAMESPACE をチェックして Namespace が有効かどうか判定する前に作成されたコアの組み込みクラスの時にフラグを立てる RCLASS_NAMESPACEABLE というのを追加しています。結果 Namespace が有効じゃなくてもフラグは立つみたいだけどそれは意図的なのかな?
