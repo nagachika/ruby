@@ -1,0 +1,1 @@
+struct RClass には Namespace 用に rb_classext_t を管理するテーブル ns_classext_tbl のメンバーが増えてますが、これが不要な場合(Namespace 内で新規に定義された Class/Module?)にはそのメンバーのぶんを節約するため struct RClass からは ns_classext_tbl を削り、かわりに ns_classext_tbl を追加した struct RClass_namespaceable という構造体を追加して struct RBasic::flags のビットフラグをみてどちらとして解釈するかを切り替えることで slot にインスタンス変数を埋め込める領域を増やすようにしています。なるほどここまでの変更はこのための布石だったみたいですね。
