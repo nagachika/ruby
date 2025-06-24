@@ -1,0 +1,1 @@
+bundler で gem の取得時? に発生する HTTP プロトコルに関する例外リストに Errno::EADDRNOTAVAIL を追加しています。
