@@ -1,0 +1,1 @@
+bundler で bundler 自身を更新する時に Kernel.exec でプロセスを上書きする時に環境変数 BUNDLER_ORIG_GEM_HOME と BUNDLER_ORIG_GEM_PATH も引き継ぐようにしています。
