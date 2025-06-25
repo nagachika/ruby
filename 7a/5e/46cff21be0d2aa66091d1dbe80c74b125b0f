@@ -1,0 +1,1 @@
+lib/rubygems.rb の shebang のあとの Copyright のコメントとのあいだに空行を追加しています。
