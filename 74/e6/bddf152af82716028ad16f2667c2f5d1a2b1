@@ -1,0 +1,1 @@
+ZJIT で VM 内部の処理のためのオブジェクトを格納する変数 rb_mRubyVMFrozenCore を Rust 実装から参照できるようにして VM 命令 putspecialobject のオペランドがこのオブジェクトだった時に最適化? するようにしています。 https://github.com/ruby/ruby/pull/13683
