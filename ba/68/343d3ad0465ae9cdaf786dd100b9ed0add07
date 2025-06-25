@@ -1,0 +1,1 @@
+IO#close でその IO に対する blocking region に入っている Thread を待つための処理で作成する Mutex オブジェクトに割り込み可能フラグを立てておくようにしています。 https://github.com/ruby/ruby/pull/13684
