@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグ FL_FREEZE を操作するのを直接行なってたところを OBJ_FREEZE()、OBJ_FROZEN_RAW()、OBJ_FROZEN() といったマクロを利用するのを徹底するようにしています。オブジェクトの freeze の管理は Object Shapes の shape_id_t に埋め込まれるようになっているのでそことの整合性が壊れないようにするため。また freeze のフラグを T_CLASS/T_MODULE では Namespace ごとの fields_obj で管理するようにするための処理を関数に切り出しています。 [ruby-core:122042] [Bug #21330]
