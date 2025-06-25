@@ -1,0 +1,1 @@
+ZJIT で freeze されている配列の要素の参照(Array#[])のインライン化の最適化? https://github.com/ruby/ruby/pull/13666
