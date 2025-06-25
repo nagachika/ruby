@@ -1,0 +1,1 @@
+doc/standard_library.md の tmpdir のエントリを拡張ライブラリから pure ruby のライブラリのセクションに移動しています。
