@@ -1,0 +1,1 @@
+GitHub Actions の gems/bundled_gems の更新などを行う workflow で自動的に生成するコミットのコミットログに NEWS.md の変更のみの時に "[DOC]" タグをつけるようにしています。
