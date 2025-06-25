@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.parse の rdoc 用コメントの allow_trailing_comma や freeze オプションの説明を追記しています。
