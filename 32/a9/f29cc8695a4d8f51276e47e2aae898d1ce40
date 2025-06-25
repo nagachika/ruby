@@ -1,0 +1,1 @@
+bundler の CI でのエラー対策? のためにあった環境変数 BUNDLER_SPEC_ORIGINAL_CMD をみる対応がもう不要になったようで削除しています。
