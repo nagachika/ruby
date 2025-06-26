@@ -1,0 +1,1 @@
+Object Shapes のインスタンス変数テーブルを wrap する T_IMEMO 型オブジェクトへの参照追加時に RGenGC 用の Write Barrier の追加が漏れていたのを修正しています。
