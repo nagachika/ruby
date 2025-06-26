@@ -1,0 +1,1 @@
+443ed45a4e6434e6b09a05e6d2f9c89b20aa384c で書き直した rb_vm_rewrite_cref() で RGenGC 用の Write Barrier が漏れていたのを修正しています。
