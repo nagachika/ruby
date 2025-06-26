@@ -1,0 +1,1 @@
+複数 Ractor 利用時に Kernel#fork を利用すると呼んだ thread 以外の native thread の残骸が残って子プロセスが異常終了してしまうという不具合があるため、main Ractor 以外では Kernel#fork を呼ぶと Ractor::IsolationError 例外を発生させて禁止するようにしています。 [ruby-core:101952] [Bug #17516]
