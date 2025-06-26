@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout のタイマー用 Thread の起動について Timeout.ensure_timeout_thread_created で Mutex のロックを取得済みの時に再度 Thread::Mutex#synchronize を呼ぶのを避けるようにしています。シグナルハンドラ内で使われた時に再入する可能性がありエラーになるのでということですが、シグナルハンドラ内だけでしか使われないとここでタイマー用 Thread の起動がされなくてタイムアウトできないような気も。ただこの修正は JRuby や TruffleRuby での不具合のためみたいです。 [ruby-core:112664] [Bug #19473]
