@@ -1,0 +1,1 @@
+89b3e4719209d47f223256daee4bccbe7ae92d60 からの一連の変更のうち 521b2fcba4e96898bfd237c79f17f19530b7a030 で RGenGC の Write Barrier 追加をしていたのがタイミングが間違ってたとのことで、ISeq のバイナリフォーマットからの読み込み時の例外処理用の catch table の取り込み処理の関数 ibf_load_catch_table() で関数内で確保した struct iseq_catch_table を返していたのを関数内で rb_iseq_body_t::catch_table メンバーへの代入まで行うようにしています。この後の RB_OBJ_WRITE() より前に代入しておく必要があったということでしょうか。
