@@ -1,0 +1,1 @@
+method entry に通し番号をつけるための method_serial という static 変数を rb_method_definition_create() の関数内からファイルスコープに移動して、RUBY_ATOMIC_FETCH_ADD() マクロを利用してインクリメントが atomic に行なわれるようにしています。
