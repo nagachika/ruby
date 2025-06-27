@@ -1,0 +1,1 @@
+bundler の Bundler.bundler_major_version で Gem::Version のメソッドを利用するようにしています。
