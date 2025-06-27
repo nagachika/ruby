@@ -1,0 +1,1 @@
+rubygems で FileUtils を利用しているところで遅延して require "fileutils" するようにしています。
