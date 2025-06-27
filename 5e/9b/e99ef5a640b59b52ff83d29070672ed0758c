@@ -1,0 +1,1 @@
+compile.c で RARRAY_AREF() に渡すインデックスの変数の型を int から long に修正しています。
