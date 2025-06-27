@@ -1,0 +1,1 @@
+bundler のテストで Bundler::VERSION に依存した分岐を書き換えています。
