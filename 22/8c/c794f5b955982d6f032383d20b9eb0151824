@@ -1,0 +1,1 @@
+42f753d829d564c0c787741995a2c0dd3be51fd8 の続きで標準添付ライブラリ uri で URI の scheme 部の文字のエスケープに使う Unicode の codepoint を変更しています。 TruffleRuby のための変更とのこと。
