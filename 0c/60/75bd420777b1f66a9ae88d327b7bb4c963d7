@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey#inspect などの実装で EVP_PKEY_get0_type_name() や EVP_PKEY_get0_provider() といった OpenSSL の API が利用可能なら使って得た情報も含めるようにしています。
