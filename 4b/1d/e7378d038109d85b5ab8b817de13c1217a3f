@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の Kernel#URI() の rdoc 用コメントのサンプルに require "uri" を明記するようにしています。
