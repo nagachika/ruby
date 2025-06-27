@@ -1,0 +1,1 @@
+gc.c や shape.c、string.c でそれぞれ定義していた RUBY_ATOMIC_VALUE_LOAD() というマクロを ruby_atomic.h で定義して共通化するようにしています。
