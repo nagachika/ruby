@@ -1,0 +1,1 @@
+bundler の Bundler#reset_paths! で不要なインスタンス変数の再初期化を削除しています。
