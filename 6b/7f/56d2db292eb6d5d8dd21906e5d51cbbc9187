@@ -1,0 +1,1 @@
+struct RBasic::flags のフラグチェックするマクロなどから使われる RB_FL_ABLE() では T_NODE 型のオブジェクトではないかチェックする分岐が含まれていましたが、もう不要だろうということで RBIMPL_ASSERT_OR_ASSUME() による assertion に置き換えて常時有効な分岐はなくしています。
