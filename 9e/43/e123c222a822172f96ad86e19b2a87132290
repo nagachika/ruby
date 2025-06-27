@@ -1,0 +1,1 @@
+tool/rbinstall.rb で bundled gems の gemspec の spec.files と実際にパッケージに入っているファイルが食い違う場合に実際のファイルのほうを使うようにしているそうです。
