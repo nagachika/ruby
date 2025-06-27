@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey の実装で EVP_PKEY_new_raw_private_key_ex() や EVP_PKEY_new_raw_public_key_ex() といった新しい? API が利用可能なら使うようにしています。
