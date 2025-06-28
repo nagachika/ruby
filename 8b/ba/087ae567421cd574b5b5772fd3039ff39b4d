@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp にキーワード引数 open_timeout を追加した件について NEWS に追記しています。 [Feature #21347]
