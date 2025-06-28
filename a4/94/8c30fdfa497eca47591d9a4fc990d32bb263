@@ -1,0 +1,1 @@
+80f53eba4076a11c7b547ac406c15da7aa5a2345 で GC_ASSERT() にメッセージの引数を追加したのを利用して GC の default 実装での assertion の失敗時に gc_mode() の状態を含めたメッセージを表示させるようにしています。
