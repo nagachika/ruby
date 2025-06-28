@@ -1,0 +1,1 @@
+thread.c のマシンスタックの底を保存しておく rb_gc_set_stack_end() という関数で警告の局所的な抑制のための COMPILER_WARNING_IGNORED() の利用を GCC の時だけにするための preprocessor 分岐で RBIMPL_COMPILER_IS() というマクロを利用するようにしています。 コミットログをみると __GNUC__ で判定していたのが WASM/WASI の時に有効にならないためみたいです。
