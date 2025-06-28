@@ -1,0 +1,1 @@
+d9efc56c16267fabcfc764fd27cf4e464a231a76 のリトライのようで拡張ライブラリ io/console のテストで assert_ctrl という assertion メソッドで "^C" に限らずコントロール文字を削るようにしています。
