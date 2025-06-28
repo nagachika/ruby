@@ -1,0 +1,1 @@
+GC の Variable Width Allocation による heap ごとに拡張されていることを確認するテストで安定化のため GC.stat で統計情報を得る前に GC の明示的起動を追加しています。
