@@ -1,0 +1,1 @@
+特定の Namespace の配下でスクリプト片を eval する Namespace#eval メソッドを追加しています。 [ruby-core:122242] [Feature #21365]
