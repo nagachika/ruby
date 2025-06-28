@@ -1,0 +1,1 @@
+gems/bundled_gems の power_assert のテストに利用する commit hash を更新しています。また GitHub Actions の make test-bundled-gems のエラーを無視する gem から power_assert を削っています。 https://github.com/ruby/power_assert/pull/58
