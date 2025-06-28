@@ -1,0 +1,1 @@
+Object Shapes のインスタンス変数の代入の実装で generic_field_set() と generic_ivar_set() の共通部分を括り出すリファクタリング。
