@@ -1,0 +1,1 @@
+ZJIT の Rust 実装でメソッドの引数の数が 1 大きく処理されてるところがあったのを修正しています。 https://github.com/ruby/ruby/pull/13719
