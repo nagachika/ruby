@@ -1,0 +1,1 @@
+util.c の8進数/16進数の文字列を整数に変換する ruby_scan_oct() と ruby_scan_hex() で ruby_scan_digits() に処理を委譲するようリファクタリングしています。
