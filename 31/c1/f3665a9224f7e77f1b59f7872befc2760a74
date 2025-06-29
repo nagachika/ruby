@@ -1,0 +1,1 @@
+prelude.rb の実行のために? TMP_RUBY_PREFIX という定数を設定していたのが 9faa9ced9640d23fc5dc1efd635f6b8ebc1a3ceb で不要になっていたのに残っていたので削除しています。
