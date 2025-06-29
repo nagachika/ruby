@@ -1,0 +1,1 @@
+ractor_safe_set.c というソースファイルに string.c から fstring の Ractor safe にするための実装の一部を移動しています。テーブル管理のまわりを他のところでも使いまわすためみたいです。
