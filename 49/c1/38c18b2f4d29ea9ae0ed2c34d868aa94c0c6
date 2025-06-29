@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のバイナリフォーマットへの dump 時の書き込みサイズの指定のオーバーフローチェックを追加。
