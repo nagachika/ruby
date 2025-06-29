@@ -1,0 +1,1 @@
+シグナルハンドラを設定する時に排他するための mutex を Windows 環境で(?)のみ static 変数で追加して signal(3) 呼び出し部分を排他処理するようにしています。 https://github.com/ruby/ruby/pull/13712
