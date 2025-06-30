@@ -1,0 +1,1 @@
+require の default gems や bundled gems についての警告を出力するための lib/bundled_gems.rb で Gem::BUNDLED_GEMS.uplevel で -1 を返すパスで nil を返すようにしてそのまま Kernel.warn の uplevel キーワード引数に渡せるようにリファクタリングしています。
