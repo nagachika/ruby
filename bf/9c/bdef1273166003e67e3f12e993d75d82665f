@@ -1,0 +1,1 @@
+tool/auto-style.rb の Git#initialize で commit hash の指定がなかった時に HEAD の参照を使うようにしています。 GitHub Actions で呼ばれる時に github.event.pull_request.merge_commit_sha が空のことがあるためとのこと。
