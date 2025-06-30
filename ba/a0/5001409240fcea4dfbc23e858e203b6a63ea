@@ -1,0 +1,1 @@
+require で default gems や bundled gems に対する警告を出力するための lib/bundled_gems.rb で警告かエラーかのレベルの分類のために格納している変数の値を文字列から Symbol に変更しています。
