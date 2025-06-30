@@ -1,0 +1,1 @@
+259b0233d826104840d0b52ebb14e0a3435d4497 の続きで標準添付ライブラリ optparse で RbConfig::CONFIG["EXECUTABLE_EXTS"] が nil の時にエラーにならないようにしています。 JRuby 対応とのこと。
