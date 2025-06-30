@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の OptionParser#program_name で実行ファイルの名前から拡張子を削るルールをもうすこし厳密にして RbConfig::CONFIG["EXECUTABLE_EXTS"] の拡張子の時のみ削るようにしています。
