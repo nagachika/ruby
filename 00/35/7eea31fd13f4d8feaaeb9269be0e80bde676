@@ -1,0 +1,1 @@
+e06c74e5f72b9ecfa071a10e3cd6f4dbaf3539e9 からの続きで Object Shapes でクラスのインスタンス変数に追加する時に too complex の場合でなおかつ複数 Ractor 利用時には T_IMEMO 型の fields_obj オブジェクトを複製しておくようにしています。
