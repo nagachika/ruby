@@ -1,0 +1,1 @@
+bundler の bundle gem サブコマンドに --bundle オプションを追加してプロジェクト作成時に bundle install まで自動で実行させるようにしています。
