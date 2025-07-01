@@ -1,0 +1,1 @@
+rubygems で rubygems.org にログインする時に要求する scope に push_rubygem を追加しています。
