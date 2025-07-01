@@ -1,0 +1,1 @@
+拡張ライブラリ json の SIMD 関連のヘッダと extconf.rb 用のスクリプトを ext/json/ext/simd/ から ext/json/simd/ に移動しています。
