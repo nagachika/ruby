@@ -1,0 +1,1 @@
+拡張ライブラリ json で json/generator と json/parser の両方に extconf.rb があるので SIMD 関係の判定を ext/json/ext/simd/conf.rb というファイルに切り出して共有化するようにしています。
