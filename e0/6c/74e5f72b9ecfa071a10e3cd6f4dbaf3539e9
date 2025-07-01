@@ -1,0 +1,1 @@
+Object Shapes の class_fields_ivar_set() で too complex の時の処理を imemo_fields_complex_from_obj() に委譲するリファクタリング。
