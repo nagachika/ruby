@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の extconf.rb でも 11fe8b26c1402461297cab902283c4601e699b35 と同様に関数の存在チェック時に ruby/io.h の #include の指定を追加しています。
