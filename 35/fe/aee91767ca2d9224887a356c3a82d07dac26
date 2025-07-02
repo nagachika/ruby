@@ -1,0 +1,1 @@
+同じく String#bytesplice の rdoc 用コメントを doc/string/bytesplice.rdoc に切り出して :include: タグで埋め込むようにしています。
