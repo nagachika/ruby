@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の gemspec ファイルの spec.files の Dir.glob にキーワード引数 base を追加して実行ディレクトリではなく gemspec ファイルの配置位置からの相対パスで指定するようにしています。
