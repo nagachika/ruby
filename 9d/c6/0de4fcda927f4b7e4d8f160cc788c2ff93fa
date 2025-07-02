@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルが lib/erb.gemspec にあったのを lib/erb/erb.gemspec とサブディレクトリ内に入れるようにしています。
