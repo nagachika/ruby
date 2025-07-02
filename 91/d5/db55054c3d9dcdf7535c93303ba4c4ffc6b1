@@ -1,0 +1,1 @@
+拡張ライブラリ json の generator/parser それぞれの extconf.rb から simd.rb を取り込むのに require_relative ではなくて Kernel#load を使うようにして重複して読み込めるようにしています。
