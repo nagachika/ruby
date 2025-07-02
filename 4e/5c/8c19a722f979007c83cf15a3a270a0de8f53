@@ -1,0 +1,1 @@
+prism の shebang の処理で NULL チェック漏れを修正しています。
