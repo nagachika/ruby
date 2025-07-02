@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストでプラットフォームをチェックするのに RUBY_PLATFORM をみていたのを RbConfig::CONFIG['host_os'] をチェックするように変更しています。 JRuby のための修正みたいです。
