@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse の gemspec ファイルの spec.files で Dir.glob を利用するのではなく git ls-files を使ってリストするようにしています。
