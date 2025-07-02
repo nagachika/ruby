@@ -1,0 +1,1 @@
+Class/Module などの複製時のインスタンス変数のコピー処理に rb_ivar_foreach() を利用していたのを rb_imemo_fields_clone() を呼ぶようにリファクタリング? しています。
