@@ -1,0 +1,1 @@
+bundler の gem ダウンロード時の例外クラスのリストで Errno::ENETDOWN と Errno::EHOSTUNREACH をリトライ不可の例外に移動しています。
