@@ -1,0 +1,1 @@
+bundler の設定ファイルの BUNDLE_VERBOSE が --verbose オプションの指定しなくても効くようにしています。
