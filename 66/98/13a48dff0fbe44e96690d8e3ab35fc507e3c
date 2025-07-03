@@ -1,0 +1,1 @@
+bundler のテストに tsort.gem を利用していたのを pathname に変更しています。
