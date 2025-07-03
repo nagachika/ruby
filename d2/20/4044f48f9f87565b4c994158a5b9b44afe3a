@@ -1,0 +1,1 @@
+c3bfce512baf6d0427216ea2ae24b7f191dfebee で削除してた bundler の Bundler::Fetcher::NET_ERRORS という定数を復活させて deprecated にしています。
