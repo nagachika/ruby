@@ -1,0 +1,1 @@
+bundler の Bundler::Fetcher::HTTP_ERRORS という例外クラスを列挙している定数を Bundler::Fetcher::Downloader::HTTP_ERRORS に移動しています。
