@@ -1,0 +1,1 @@
+bundler の bundle viz サブコマンドのテストでも ruby-graphviz を実際にサーバーからインストールしないように? しているようです。
