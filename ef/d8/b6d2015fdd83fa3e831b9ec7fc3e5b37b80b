@@ -1,0 +1,1 @@
+bundler で Bundler.setting の呼び出し時に receiver を明記するようにリファクタリングしています。
