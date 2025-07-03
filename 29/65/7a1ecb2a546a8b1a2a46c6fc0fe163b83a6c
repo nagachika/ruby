@@ -1,0 +1,1 @@
+9dc60de4fcda927f4b7e4d8f160cc788c2ff93fa で標準添付ライブラリ erb の gemspec ファイルの位置を移動したのに追随して tool/sync_default_gems.rb での同期処理時のコピー先も変更しています。
