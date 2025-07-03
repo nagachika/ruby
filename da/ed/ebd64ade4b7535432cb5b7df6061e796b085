@@ -1,0 +1,1 @@
+bundler の bundle config の print_only_version_number という設定を削除しています。
