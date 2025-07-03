@@ -1,0 +1,1 @@
+require 時の default gems や bundled gems の警告を出力するための lib/bundled_gems.rb で net/http のように "/" を含む feature 名の時の分割で生成される中間オブジェクトを減らすようにリファクタリングしています。
