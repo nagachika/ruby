@@ -1,0 +1,1 @@
+tool/downloader.rb で net/https が利用できない時に http プロトコル(HTTPS ではなくて)でアクセスするために URI の schema を書き換えたりしていたハックを削除しています。 http を使ってたサイトが https にリダイレクトするようになっていたのでもう不要になったため。
