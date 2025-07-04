@@ -1,0 +1,1 @@
+tool/downloader.rb でダウンロードした時の HTTP ヘッダの last-modified の値を取り出すのを with_retry のブロックの外に移動しています。元も URI#read を呼んだ後ではあるのだけどこれ違いがあるのかな?
