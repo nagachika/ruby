@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で bundler のテストの spec/bin/ 配下のファイルを出力する対象に bundle コマンドも追加しています。
