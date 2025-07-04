@@ -1,0 +1,1 @@
+ZJIT で ISeq をコンパイルする時に推定される消費 VM スタックのサイズが 256 に収まらない時にコンパイルを諦めるようにしています。 https://github.com/ruby/ruby/pull/13770
