@@ -1,0 +1,1 @@
+intern_str() の呼び出しは複数 Ractor 時のために専用のロックの取得が必要なので不足していた rb_id_attrset()、rb_intern3()、rb_intern_str() などの関数でロック取得するようにしています。
