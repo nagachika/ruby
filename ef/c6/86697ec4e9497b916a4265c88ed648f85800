@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションを試したりする workflow で Launchable 対応を一時的に削除しています。 Launchable サービス側で不安定な状態だそうで一時的な措置とのこと。 https://github.com/ruby/ruby/pull/13759
