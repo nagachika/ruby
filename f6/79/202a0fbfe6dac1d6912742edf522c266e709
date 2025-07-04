@@ -1,0 +1,1 @@
+common.mk の make test-bundler-prepare ターゲットのコマンド内でコマンドライン上で ruby の -e オプションで書いてた環境変数の設定を tool/lib/bundle_env.rb に切り出して -r オプションで読み込ませるようにしています。また 4126c1c52219eec79f76f51687c5830234c5c6c6 で同期に追加した spec/bin/bundle を利用するようにしています。
