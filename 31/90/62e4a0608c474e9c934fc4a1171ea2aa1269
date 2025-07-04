@@ -1,0 +1,1 @@
+tool/downloader.rb で config.guess や config.sub など GCC 関連のスクリプトをダウンロードするために使っていたミラーサイトを配列として管理して失敗した時に fallback するのをベタ書きではなく動的にリスト追加できるようにしています。
