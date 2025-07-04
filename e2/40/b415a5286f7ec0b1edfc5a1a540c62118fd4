@@ -1,0 +1,1 @@
+ZJIT で side-exit する時の命令に reason というオペランド(?)を追加して理由を表記できるようにしています。 https://github.com/ruby/ruby/pull/13768
