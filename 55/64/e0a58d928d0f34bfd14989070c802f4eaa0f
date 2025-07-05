@@ -1,0 +1,1 @@
+GitHub Actions の scorecards 用の workflow で利用している ossf/scorecard-action アクションのバージョン指定の commit hash を修正? しています。
