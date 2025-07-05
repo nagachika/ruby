@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg のキャッシュを利用するための actions/cache アクションのパスの指定を相対パスにしています。
