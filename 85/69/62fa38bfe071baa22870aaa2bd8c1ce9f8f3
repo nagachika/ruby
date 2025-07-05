@@ -1,0 +1,1 @@
+Ractor#value や Ractor#join の実装で利用している C 関数 ractor_set_successor_once() で Ractor 単位のロックの取得をせず ATOMIC_PTR_CAS() で atomic 操作することで lock-free にしています。
