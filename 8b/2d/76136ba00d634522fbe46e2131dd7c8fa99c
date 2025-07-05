@@ -1,0 +1,1 @@
+rb_sym2id() で引数の sym が GC で回収済みでないことを rb_objspace_garbage_object_p() でチェックする RUBY_ASSERT() での assertion を追加しています。
