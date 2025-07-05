@@ -1,0 +1,1 @@
+bootstraptest の Ractor 関係のテストで YJIT が有効な時に skip していたものを ZJIT が有効な時も skip するようにしています。 https://github.com/ruby/ruby/pull/13774
