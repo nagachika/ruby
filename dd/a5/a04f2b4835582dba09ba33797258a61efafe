@@ -1,0 +1,1 @@
+cf4d37fbc079116453e69cf08ea8007d0e1c73e6 の続きで Encoding の管理のためのロックの粒度を変更している? みたいです。コミットログをみると Encoding.default_{internal,external} の設定や参照を lock-free にするって書いてあるけどそんなふうにはみえないですね。
