@@ -1,0 +1,1 @@
+benchmark で利用するために vendoring している benchmark_driver で Ractor#take メソッドを利用していたのを Ractor#value に変更しています。
