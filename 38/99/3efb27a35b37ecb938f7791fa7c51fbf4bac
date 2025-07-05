@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#ecdh_curves= メソッドの名前を #groups= と改名しています。おー、でもこれは古いのも別名として残して deprecated 警告を出しておいたほうが良いのでは? あと NEWS への追記が必要ですね。
