@@ -1,0 +1,1 @@
+Object sShapes の関数 rb_shape_copy_fields() から未使用の第4引数 src を削除しています。
