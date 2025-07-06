@@ -1,0 +1,1 @@
+8b2d76136ba00d634522fbe46e2131dd7c8fa99c の rb_sym2id() の変更と同様に rb_check_symbol() でも引数が GC 回収済みでないことを確認する rb_objspace_garbage_object_p() の RB_ASSERT() でのチェックを追加して、dsymbol_check() の呼び出しは削っています。
