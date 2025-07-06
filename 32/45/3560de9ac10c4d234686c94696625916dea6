@@ -1,0 +1,1 @@
+variable.c の rb_replace_generic_ivar() という関数で RGenGC 用の Write Barrier を追加しています。この関数は現状 Ractor 間のオブジェクトの移動のためだけに使われているみたいです。
