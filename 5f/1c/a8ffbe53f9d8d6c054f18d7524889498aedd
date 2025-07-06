@@ -1,0 +1,1 @@
+Ractor の実装で RGenGC のための Write Barrier を挿入するためのマクロ CHECK_AND_REPLACE() で誤ったオブジェクトを書き込み対象として Write Barrier を設定してしまっていた不具合を修正して、参照を書き込むオブジェクトを引数として明示的に受け取るようにしています。 従来は常に引数の obj_traverse_replace_i() の関数の引数 obj が対象だったのでマクロ内で決め打ちにしてましたが、Object Shapes のための T_IMEMO 型 fields_obj の時に不具合があったようです。
