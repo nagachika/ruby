@@ -1,0 +1,1 @@
+rb_copy_generic_ivar() というオブジェクト複製時にインスタンス変数をコピーする関数でも RGenGC 用の Write Barrier の対象とするオブジェクトが間違っていたのを修正しています。
