@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC の初期化や OpenSSL::PKey::EC::Grouppoint_conversion_form= などの実装で渡された Symbol について SYM2ID() を呼び出していたのをやめて Symbol のまま扱うようにしています。 SYM2ID() を呼ぶと static symbol になってしまうのでそれを避けるため。
