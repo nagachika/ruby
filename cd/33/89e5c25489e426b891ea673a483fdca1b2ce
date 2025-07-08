@@ -1,0 +1,1 @@
+bundler の設定から path_relative_to_cwd という項目を削除しています。
