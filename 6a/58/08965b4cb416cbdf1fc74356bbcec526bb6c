@@ -1,0 +1,1 @@
+bundler の設定項目の setup_makes_kernel_gem_public を削除しています。
