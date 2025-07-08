@@ -1,0 +1,1 @@
+bundler の auto_clean_without_path という設定を削除して  bundler_4_mode? のフラグを直接使うようにしています。また bundler の man ページを更新しています。
