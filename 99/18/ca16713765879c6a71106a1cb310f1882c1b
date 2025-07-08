@@ -1,0 +1,1 @@
+bundler の default_install_uses_path という設定も削除して bundler_4_mode? で代替しています。
