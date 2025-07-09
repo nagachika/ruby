@@ -1,0 +1,1 @@
+標準添付ライブラリ tsort の gemspec ファイルで spec.files の設定で除外するファイルの指定を git ls-files のオプションに渡すようにしています。
