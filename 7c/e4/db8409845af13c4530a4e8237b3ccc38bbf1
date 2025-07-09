@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate のテストでただの assert のかわりによりエラーメッセージがわかりやすい assert_equal や assert_predicate などの assertion メソッドを利用するようにしています。
