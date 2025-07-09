@@ -1,0 +1,1 @@
+AppVeyor でのテストのスキップのためのファイル test/.excludes/_appveyor/TestArray.rb が残ってましたが、既に AppVeyor の利用は停止しているのでファイル削除しています。
