@@ -1,0 +1,1 @@
+関数/構造体/ソース・ヘッダファイル名の ractor_safe_set を concurrent_set に改名しています。 別に Ractor に固有の実装ではないからということみたいです。
