@@ -1,0 +1,1 @@
+51de7c75e57d52468cef6492728282eb1c069caf の続きで標準添付ライブラリ tsort の gemspec で spec.files から除外するファイルに .git や .gitignore などのファイルと gemspec 自身を追加しています。
