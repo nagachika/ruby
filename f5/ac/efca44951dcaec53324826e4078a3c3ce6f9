@@ -1,0 +1,1 @@
+標準添付ライブラリ uri のテストでもただの assert のかわりに assert_equal や refute_equal といった assertion メソッドを利用してエラー時のメッセージがわかりやすくなるようにしています。
