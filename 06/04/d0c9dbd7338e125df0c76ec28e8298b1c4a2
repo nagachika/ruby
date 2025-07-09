@@ -1,0 +1,1 @@
+String#capitalize! の rdoc 用コメントのサンプルを削除して String#capitalize と同じとしています。
