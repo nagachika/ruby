@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の validation のための機構を用意してとりあえず簡単な validator を追加しているようです。ISeq から HIR に変換した時に検証するようです。 https://github.com/ruby/ruby/pull/13780
