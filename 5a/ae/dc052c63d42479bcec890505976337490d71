@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の vcpkg のキャッシュのための step の順序を変更しています。 VsDevCmd.bat という bat ファイルの実行後に影響を受けてしまうからとのこと。
