@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の gemspec ファイルで spec.required_ruby_version に 3.0 以降を指定追加しています。
