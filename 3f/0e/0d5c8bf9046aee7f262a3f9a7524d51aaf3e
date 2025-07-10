@@ -1,0 +1,1 @@
+拡張ライブラリ io/nonblock の gemspec ファイルの spec.required_ruby_version を 3.0 以降に引き上げています。
