@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する gemspec ファイルで source_code_uri や changelog_uri を bundler の設定で指定しておけるようにしています。
