@@ -1,0 +1,1 @@
+String#chr の rdoc 用コメントを doc/string/chr.rdoc というファイルに切り出して :include: で取り込むようにしています。
