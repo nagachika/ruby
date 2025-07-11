@@ -1,0 +1,1 @@
+Object Shapes で rb_shape_tree_t::next_shape_id メンバーへのアクセスに RUBY_ATOMIC_LOAD() を使って atomic な参照をするために rb_shapes_count() という inline 関数を定義して常にこれを経由して参照するようにしています。
