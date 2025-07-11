@@ -1,0 +1,1 @@
+Object Shapes で shape_id が上限を越えた時の処理を修正して複数 Ractor 環境での不要なリトライを避けるようにしています。
