@@ -1,0 +1,1 @@
+bundler に vendoring されている resolv のバージョンを 0.6.2 に更新しています。
