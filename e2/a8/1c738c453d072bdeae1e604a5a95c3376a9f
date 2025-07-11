@@ -1,0 +1,1 @@
+ZJIT で VM 命令 opt_and と opt_or の整数(Fixnum)の場合のインライン化を実装しています。
