@@ -1,0 +1,1 @@
+VM 命令の最適化命令 opt_and と opt_or に属性 zjit_profile を付与しています。
