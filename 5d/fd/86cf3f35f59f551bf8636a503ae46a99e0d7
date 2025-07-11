@@ -1,0 +1,1 @@
+Object Shapes の赤黒木構造の GC の mark 処理と compact 処理時のループが最後の要素を処理漏れしていたのを修正しています。
