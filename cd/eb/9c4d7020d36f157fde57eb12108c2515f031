@@ -1,0 +1,1 @@
+拡張ライブラリ socket の AddrInfo.getaddrinfo のキーワード引数 timeout が効いていなかった不具合の修正。また Socket.tcp の fast_fallback に false を指定していた時の不具合も修正しているようです。 https://github.com/ruby/ruby/pull/13803 [ruby-core:122698] [Bug #21506]
