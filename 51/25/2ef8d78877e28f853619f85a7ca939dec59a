@@ -1,0 +1,1 @@
+String#concat の rdoc 用コメントを別ファイルに切り出して :include: タグで取り込むようにしています。 https://github.com/ruby/ruby/pull/13836
