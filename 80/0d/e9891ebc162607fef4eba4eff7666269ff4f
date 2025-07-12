@@ -1,0 +1,1 @@
+rubyspec の Unicode の join_control に関するテストのバージョンの上限を引き上げています。 [ruby-core:112223] [Bug #19417]
