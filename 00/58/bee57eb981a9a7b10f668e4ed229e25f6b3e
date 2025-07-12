@@ -1,0 +1,1 @@
+拡張ライブラリ socket の rb_getaddrinfo() で構造体 struct getaddrinfo_arg のメンバーをメモリ解放後に参照する可能性があったのでローカル変数に対比しておいて使うように修正しています。 https://github.com/ruby/ruby/pull/13856
