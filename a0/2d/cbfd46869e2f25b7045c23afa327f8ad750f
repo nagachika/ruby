@@ -1,0 +1,1 @@
+Module.gccct_clear_table というクラスメソッドの定義を削除しています。Namespace の追加時にデバッグ用のものがまぎれこんでいたようです。
