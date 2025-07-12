@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で panic で異常終了する時にかわりに rb_bug() で異常終了させるようにする処理で環境変数 ZJIT_RB_BUG が設定されてなければ rb_bug() を呼ばないようにしていた時に、ZJIT_RB_BUG を設定するように促すメッセージを表示するようにしています。 https://github.com/ruby/ruby/pull/13852
