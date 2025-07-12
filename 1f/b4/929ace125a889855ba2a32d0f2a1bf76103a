@@ -1,0 +1,1 @@
+複数 Ractor 利用時の Encoding の拡張ライブラリを自動的にロードする処理の排他のため構造体 struct rb_encoding_entry にメンバーを追記してロード処理を排他するようにしています。
