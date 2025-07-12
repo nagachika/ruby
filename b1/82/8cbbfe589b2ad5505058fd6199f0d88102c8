@@ -1,0 +1,1 @@
+ZJIT の LIR に PatchPoint という命令? を追加して組み込みメソッドのインライン最適化の脱最適化のための仕組みを実装しているようです。 https://github.com/ruby/ruby/pull/13850
