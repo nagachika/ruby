@@ -1,0 +1,1 @@
+複数 Ractor 利用時に子 Ractor で Kernel#exit を実行するとハングアップしてしまっていた不具合を修正しています。 [ruby-core:122685] [Bug #21505]
