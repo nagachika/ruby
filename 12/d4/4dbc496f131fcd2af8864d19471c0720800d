@@ -1,0 +1,1 @@
+Ractor 内で require した時の main Ractor で require 実行させて待つための関数でコールバック関数の呼び出しをまたいで構造体 struct cross_ractor_require のメンバーの値が変化しない前提になってたのを修正して、事前にメンバーの値をローカル変数に取っておくようにしています。
