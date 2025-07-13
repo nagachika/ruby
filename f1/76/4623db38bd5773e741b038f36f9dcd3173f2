@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI にマッチさせる正規表現で scheme 部分を大文字小文字を区別しないようにしています。 https://github.com/ruby/uri/pull/38
