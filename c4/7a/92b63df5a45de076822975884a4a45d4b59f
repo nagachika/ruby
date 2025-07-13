@@ -1,0 +1,1 @@
+標準添付ライブラリ uri のクラスメソッド URI::Generic.build 内でクラスにアクセスするつもりで self.class と書いてしまっていたのを self に修正しています。
