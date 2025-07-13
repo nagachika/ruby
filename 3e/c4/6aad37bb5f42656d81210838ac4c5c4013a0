@@ -1,0 +1,1 @@
+ZJIT で生成した実行コード内に参照が埋め込まれているオブジェクトへの GC の mark 処理を実装しているようです。 https://github.com/ruby/ruby/pull/13862
