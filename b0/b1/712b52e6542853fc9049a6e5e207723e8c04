@@ -1,0 +1,1 @@
+ZJIT の Rust 実装でプロファイリングに使う内部構造を変更して最適化しています。 https://github.com/ruby/ruby/pull/13809
