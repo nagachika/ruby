@@ -1,0 +1,1 @@
+dbf7a0c713c39bdfd22c24e69f4bb0b89c9cab65 と同様に組み込みメソッド? の IO#wait の rdoc 用コメントの call-seq も修正しています。そうか今は IO#wait は組み込みメソッド化されているから io/wait を使わなくても呼べるので io/wait の実装は古い ruby 向けの実装だけなのか。 [ruby-core:122729] [Bug #21509]
