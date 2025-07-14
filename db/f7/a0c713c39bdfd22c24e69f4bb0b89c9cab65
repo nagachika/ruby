@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait の IO#wait の rdoc 用コメントの call-seq に第1引数に timeout を受け取る形式もあると書かれていたのが実態とあってなかったので修正しています。 [ruby-core:122729] [Bug #21509]
