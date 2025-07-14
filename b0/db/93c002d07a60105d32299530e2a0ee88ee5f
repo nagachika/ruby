@@ -1,0 +1,1 @@
+String#count の rdoc 用コメントを doc/string/count.rdoc に分離して :include: タグで取り込むようにして、サンプルを追加しています。
