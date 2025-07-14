@@ -1,0 +1,1 @@
+String#delete の rdoc 用コメントも doc/string/delete.rdoc というファイルに分離して :include: タグで取り込むようにしてサンプルを追加しています。
