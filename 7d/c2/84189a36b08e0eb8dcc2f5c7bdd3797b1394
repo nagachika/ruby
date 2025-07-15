@@ -1,0 +1,1 @@
+bundler の bundler/rubygems_ext を require する順序の変更。いちばん最初に読み込むようにしています。
