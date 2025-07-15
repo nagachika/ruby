@@ -1,0 +1,1 @@
+1c48aa6f4a52e60fa46f838b5810556defb2604a で定義した Gem.load_bundler を Gem.load_bundler_extensions と改名して bundler 全体でなく bundler/rubygems_ext のみ require するようにしています。
