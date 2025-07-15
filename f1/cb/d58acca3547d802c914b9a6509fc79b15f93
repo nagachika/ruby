@@ -1,0 +1,1 @@
+rubygems で生成する binstub で古い rubygems をサポートするために生成していたコードを削除しています。
