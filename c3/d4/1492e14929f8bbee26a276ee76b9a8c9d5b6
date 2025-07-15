@@ -1,0 +1,1 @@
+1c48aa6f4a52e60fa46f838b5810556defb2604a からのさらに続きで Gem.load_bundler_extensions で bundler のバージョンも明示的に指定するようにしています。よくわかりませんが古い bundler での警告避けのためみたいです。
