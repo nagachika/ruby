@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/bundler_integration.rb の内容を Gem.load_bundler という特異メソッドとして定義するように移動しています。
