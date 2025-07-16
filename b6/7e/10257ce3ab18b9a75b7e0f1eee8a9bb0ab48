@@ -1,0 +1,1 @@
+Pathname の ruby 実装の組み込みメソッドを書くファイル名を pathname.rb から pathname_builtin.rb に改名しています。 [ruby-core:101710] [Feature #17473]
