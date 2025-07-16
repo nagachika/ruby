@@ -1,0 +1,1 @@
+Pathname#mkpath の実装を lib/pathname.rb から pathname_builtin.rb に移動して組み込みメソッドにしています。 [ruby-core:101710] [Feature #17473]
