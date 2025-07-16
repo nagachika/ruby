@@ -1,0 +1,1 @@
+id_table.c の RUBY_ASSERT() によるチェックを1箇所にまとめて、struct rb_id_table を取り出すのに managed_id_table_ptr() という inline 関数を一貫して利用するようにするリファクタリング。
