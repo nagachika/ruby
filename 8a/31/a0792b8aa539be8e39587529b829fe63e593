@@ -1,0 +1,1 @@
+ドキュメント化対象のファイルを指定する .document に pathname_builtin.rb を追記しています。また ext/.document から拡張ライブラリの時の pathname のファイルのリストを削除しています。
