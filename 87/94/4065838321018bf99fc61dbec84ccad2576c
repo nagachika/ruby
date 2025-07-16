@@ -1,0 +1,1 @@
+拡張ライブラリ pathname に附属していた ruby 実装のメソッド群を pathname.rb に移動して起動時に読み込むようにしています。 [ruby-core:101710] [Feature #17473]
