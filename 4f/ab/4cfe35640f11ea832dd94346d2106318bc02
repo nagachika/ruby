@@ -1,0 +1,1 @@
+pathname.c の Init_pathname() と InitVM_pathname() の内容を入れ替えています。一応 Init_xxx() がプロセスの最初で InitVM_xxx() は VM 毎に呼ばれるという決まり(実際には両方1回だけ呼ばれる)でしたっけ。 [ruby-core:101710] [Feature #17473]
