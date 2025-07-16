@@ -1,0 +1,1 @@
+Init_pathname() で互換性のため pathname.so を LOADED_FEATURES に加えるようにしています。 [ruby-core:101710] [Feature #17473]
