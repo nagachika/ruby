@@ -1,0 +1,1 @@
+test/.excludes/URI/TestMailTo.rb を追加して標準添付ライブラリ uri の正規表現のテストを実行除外するほうにしています。
