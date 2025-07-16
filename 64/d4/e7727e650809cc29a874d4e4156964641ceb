@@ -1,0 +1,1 @@
+String#delete_suffix! の rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/13872
