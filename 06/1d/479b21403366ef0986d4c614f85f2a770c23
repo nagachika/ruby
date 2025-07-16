@@ -1,0 +1,1 @@
+GitHub Actions の rdoc によるドキュメント生成を行うステップで tool/rdoc-srcdir の実行時に -I./lib オプションを渡していたのを削っています。rdoc が標準添付ライブラリの時の名残りで既に bundled gems なので不要になっていた。
