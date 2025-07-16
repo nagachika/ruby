@@ -1,0 +1,1 @@
+imemo.c の未使用の rb_cc_table_free() という関数を削除しています。
