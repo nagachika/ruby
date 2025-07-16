@@ -1,0 +1,1 @@
+51a3ea5adeb452e51c119a395acfd5c87cc63735 の続きで YJIT でメモリ領域の権限管理の parallel GC 対応のための修正。
