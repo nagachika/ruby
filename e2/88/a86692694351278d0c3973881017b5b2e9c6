@@ -1,0 +1,1 @@
+ZJIT の Rust 実装のメソッド呼び出し後の sp の復旧処理を追加。 https://github.com/ruby/ruby/pull/13882
