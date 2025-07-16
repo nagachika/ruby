@@ -1,0 +1,1 @@
+imemo.c の cc_table_mark_i() と rb_cc_table_mark() という未使用の関数を削除しちえます。
