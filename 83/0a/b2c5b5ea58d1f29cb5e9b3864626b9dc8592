@@ -1,0 +1,1 @@
+6d17a3e6472b4c6ce81f5308fc07050855114410 の ObjectSpace.count_objects の修正部分に先に Symbol を作成する意図についてコメントを追記しています。
