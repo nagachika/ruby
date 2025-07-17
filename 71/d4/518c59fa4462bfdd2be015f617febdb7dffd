@@ -1,0 +1,1 @@
+標準添付ライブラリ erb に附属している拡張ライブラリ erb/escape の Init 関数で rb_ext_ractor_safe() を呼び出して Ractor safe に宣言しています。 https://github.com/ruby/erb/pull/63
