@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの実装で sudo の絶対パスを command -v sudo で得ていたところを sudo が使えるかどうか確認して使える時だけ定義するようにしています。
