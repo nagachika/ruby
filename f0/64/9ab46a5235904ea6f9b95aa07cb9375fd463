@@ -1,0 +1,1 @@
+parse.y 利用時に defined?(x;) のように最後にセミコロンを含む式を defined? に渡した時に nil を返していたので "expression" を返すように修正しています。 https://github.com/ruby/ruby/pull/12949 [ruby-core:120618] [Bug #21029]
