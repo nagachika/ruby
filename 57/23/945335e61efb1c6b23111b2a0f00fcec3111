@@ -1,0 +1,1 @@
+ZJIT で make test-all の一部のテストを実行するターゲット make zjit-test-all を追加しています。 https://github.com/ruby/ruby/pull/13791
