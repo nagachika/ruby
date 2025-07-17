@@ -1,0 +1,1 @@
+concurrent_set の API で利用する構造体 struct concurrent_set のメンバー funcs に const 修飾子を追加しています。
