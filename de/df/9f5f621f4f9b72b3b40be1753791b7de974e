@@ -1,0 +1,1 @@
+GCC 15 での警告除去のため file.c で nul 文字終端していない文字配列の宣言に RBIMPL_ATTR_NONSTRING() を利用するようにしています。
