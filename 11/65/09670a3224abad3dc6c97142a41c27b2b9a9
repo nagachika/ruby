@@ -1,0 +1,1 @@
+ZJIT のテスト用の make zjit-test ターゲットを ZJIT を利用するように configure で設定されてる時だけ定義するようにしています。
