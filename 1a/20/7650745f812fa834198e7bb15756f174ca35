@@ -1,0 +1,1 @@
+YJIT と ZJIT 用の makefile で共通部分を defs/jit.mk に共通化しています。
