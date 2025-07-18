@@ -1,0 +1,1 @@
+32bfb61d349b49ddedb7d34d9e434063324aafcc で configure の AC_CHECK_FUNCS() 内の行継続を削って警告抑制していたのを revertg しています。 autoconf のバージョンが古いと行継続が必要だったみたいです。
