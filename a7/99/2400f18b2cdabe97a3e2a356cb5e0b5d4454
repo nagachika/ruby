@@ -1,0 +1,1 @@
+include/ruby/atomic.h の preprocessor 分岐を整理して #else を使わず明示的に条件を書くようにして、どれにも当てはまらない時に #else 内に #error でエラーにするようにしています。
