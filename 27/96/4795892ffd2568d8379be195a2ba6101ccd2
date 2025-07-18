@@ -1,0 +1,1 @@
+Process::UID.from_name に不正な文字列を渡した時のテストで発生する例外に SystemCallError (実際には Errno::RNOENT みたいです)も許容するようにしています。
