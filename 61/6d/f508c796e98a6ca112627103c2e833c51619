@@ -1,0 +1,1 @@
+GitHub Actions の reviewer を自動でセットするための workflow で test/.excludes-zjit/ も ZJIT メンバーに assign するようにしています。
