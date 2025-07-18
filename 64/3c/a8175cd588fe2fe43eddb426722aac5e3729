@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用の workflow で make zjit-test-all の実行に --seed で固定の乱数 seed を渡すようにしています。 https://github.com/ruby/ruby/pull/13912
