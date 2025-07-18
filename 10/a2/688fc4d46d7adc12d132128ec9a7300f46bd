@@ -1,0 +1,1 @@
+ba490059b4eb70cb33fbc159e4ee0d12bdd37951 で拡張ライブラリ socket で切り出した rsock_raise_user_specified_timeout() という関数の宣言に NORETURN() マクロを使うようにしています。
