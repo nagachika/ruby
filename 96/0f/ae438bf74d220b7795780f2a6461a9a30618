@@ -1,0 +1,1 @@
+ZJIT で GC.compact での参照移動対応のための memory barrier のための rb_gc_writebarrier_remember() の呼び出しを追加しています。
