@@ -1,0 +1,1 @@
+bundler の bundle cache の --path オプションに引数を "=" で繋げて書いた時に deprecated 警告が出てしまってた不具合を修正しています。
