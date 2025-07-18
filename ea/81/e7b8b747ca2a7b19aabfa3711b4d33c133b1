@@ -1,0 +1,1 @@
+ZJIT 用の make zjit-test-all ターゲットの時の TESTS 変数に渡すパスの最後の "/" を削っています。 https://github.com/ruby/ruby/pull/13911
