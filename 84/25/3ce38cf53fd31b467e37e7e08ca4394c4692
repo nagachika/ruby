@@ -1,0 +1,1 @@
+Ractor のドキュメントで Ractor::Port の導入と Ractor#take と Ractor.yield の廃止で古くなってた記述を更新しています。
