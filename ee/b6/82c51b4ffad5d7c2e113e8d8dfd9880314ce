@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.link_entry, FileUtils.copy_entry, FileUtils.copy_file などのメソッドの rdoc 用コメントのマークアップの修正と省略可能な引数の説明の修正。
