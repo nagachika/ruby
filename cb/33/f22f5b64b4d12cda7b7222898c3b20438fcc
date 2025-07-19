@@ -1,0 +1,1 @@
+ZJIT で GC の compaction 対応のための write barrier 対応の修正。
