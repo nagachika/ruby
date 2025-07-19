@@ -1,0 +1,1 @@
+ZJIT で JIT コンパイルされたメソッド間での呼び出しの最適化を引数の数が多い時にあきらめる修正。 https://github.com/ruby/ruby/pull/13939
