@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.ln_sr で noop: true が指定された時に引数チェックより前に return するようにしています。
