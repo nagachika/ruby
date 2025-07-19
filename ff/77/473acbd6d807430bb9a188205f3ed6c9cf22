@@ -1,0 +1,1 @@
+ZJIT のコンパイルしたコード領域のメモリの GC mark 処理の修正? https://github.com/ruby/ruby/pull/13937
