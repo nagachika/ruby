@@ -1,0 +1,1 @@
+prism で不正な encoding の magic comment を parse した時に異常終了する可能性があった不具合を修正しています。 [ruby-core:122625] [Bug #21461]
