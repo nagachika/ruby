@@ -1,0 +1,1 @@
+拡張ライブラリ socket の rsock_raise_user_specified_timeout() という関数の定義で無引数のところに明示的に void を書くようにしています。警告抑制のため。コミットログには NORETURN() をつけたとありますがそれはこのコミットには含まれてないですね。 https://github.com/ruby/ruby/pull/13928
