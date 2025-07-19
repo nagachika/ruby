@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.ln_s や ln_sr で target_directory オプションが false に指定されてた時に src に複数のファイルが配列で指定されてたら ArgumentError を発生させるように修正しています。
