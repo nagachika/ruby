@@ -1,0 +1,1 @@
+ZJIT の整数の扱いでのオーバーフローの修正。 https://github.com/ruby/ruby/pull/13942
