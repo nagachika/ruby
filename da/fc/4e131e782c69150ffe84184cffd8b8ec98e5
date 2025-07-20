@@ -1,0 +1,1 @@
+concurrent_set.c の RUBY_ASSERT() のチェックの境界条件を修正しています。
