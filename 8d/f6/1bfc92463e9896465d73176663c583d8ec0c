@@ -1,0 +1,1 @@
+ZJIT に JIT コンパイルしたメソッドが再定義された時にコンパイルしたコードを無効化する処理を追加しています。 https://github.com/ruby/ruby/pull/13875
