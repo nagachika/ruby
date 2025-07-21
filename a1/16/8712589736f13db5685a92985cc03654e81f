@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.fu_each_src_dest0 で引数の src の各要素を File.path で変換しておくようにしています。 rbs のための workaroud とのこと。
