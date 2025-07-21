@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.ln_sr のさらに再修正で dest のファイルパスの解決に File.realpath でなく File.realdirpath を利用してディレクトリの存在チェックも行うようにしています。
