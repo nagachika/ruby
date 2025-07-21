@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.ln_sr のさらに再修正でやっぱり File.realdirpath でパスのリンクの解決をしてリンクを相対パス化するようにしています。
