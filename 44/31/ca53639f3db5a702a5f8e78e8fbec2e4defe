@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.remove_dir で渡されたパスがディレクトリでない時に Errno::ENOTDIR 例外を発生させるようにしています。
