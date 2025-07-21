@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.ln_s から FileUtils.ln_sr を呼ぶ時にキーワード引数 target_directory も伝播させるようにしています。
