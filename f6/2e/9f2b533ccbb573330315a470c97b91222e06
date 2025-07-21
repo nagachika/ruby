@@ -1,0 +1,1 @@
+同じく標準添付ライブラリ fileutils に 4431ca53639f3db5a702a5f8e78e8fbec2e4defe で追加した FileUtils.remove_dir で引数のパスがディレクトリじゃなかった時の例外発生は force 引数が true の時は発生させないように修正しています。
