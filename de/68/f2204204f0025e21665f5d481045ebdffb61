@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils.ln_sr でやはり noop: true の時もパスの解決処理は行うようにして、File.realdirpath で dest パスの展開をしていたのをやめています。
