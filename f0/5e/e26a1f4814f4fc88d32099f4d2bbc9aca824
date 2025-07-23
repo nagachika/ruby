@@ -1,0 +1,1 @@
+concurrent_set.c に要素を検索する rb_concurrent_set_find() という関数を追加しています。
