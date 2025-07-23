@@ -1,0 +1,1 @@
+rubygems および bundler のテストで ReshimInstaller.reshim という特異メソッドのダミー実装を追加しています。
