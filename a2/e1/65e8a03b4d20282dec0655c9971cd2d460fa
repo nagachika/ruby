@@ -1,0 +1,1 @@
+おそらく 2bcb155b49bb421ee82c0d5980546a5071113407 の変更で構造体 rb_symbols_t のメンバー dsymbol_fstr_hash が不要になったようで削除しています。
