@@ -1,0 +1,1 @@
+String#dump の rdoc 用コメントを doc/string/dump.rdoc というファイルに切り出して :include: タグで展開するようにしています。そしてサンプルを追加しています。
