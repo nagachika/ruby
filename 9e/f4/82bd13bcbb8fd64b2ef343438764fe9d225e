@@ -1,0 +1,1 @@
+concurrent_set.c に concurrent_set のサイズを取得する rb_concurrent_set_size() という関数を追加しています。
