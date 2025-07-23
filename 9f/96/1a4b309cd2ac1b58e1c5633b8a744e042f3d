@@ -1,0 +1,1 @@
+rubygems で古い(2.5.22 以前) bundler 利用時に環境変数 BUNDLE_BIN_PATH が設定されていたらそのファイルを load するようにしています。
