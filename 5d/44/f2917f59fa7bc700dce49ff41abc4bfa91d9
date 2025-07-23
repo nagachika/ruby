@@ -1,0 +1,1 @@
+concurrent_set の concurrent_set_try_resize_without_locking() と rb_concurrent_set_find_or_insert() という関数でキーの VALUE が改修済みかどうか判定する前に即値かどうかの判定を追加しています。不要な判定処理をスキップするため。
