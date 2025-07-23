@@ -1,0 +1,1 @@
+拡張ライブラリ化されている Encoding の index のチェック時に autoload のトリガーを先に実行するようにしています。また Encoding の autoload 処理での複数 Ractor 利用時のためのロックの粒度を大きくして load と index の登録までをまとめて行なうようにしています。
