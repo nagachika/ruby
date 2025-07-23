@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストでただの assert や refute のかわりに assert_true, assert_false などを利用するようにリファクタリングしています。
