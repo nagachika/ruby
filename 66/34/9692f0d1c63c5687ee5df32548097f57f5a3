@@ -1,0 +1,1 @@
+concurrent_set のコールバック関数群に key の削除時に呼ぶ free 関数の指定を受け付けるようにして、dynamic symbol の管理に使う時にメモリ解放に使うようにしています。
