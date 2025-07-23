@@ -1,0 +1,1 @@
+bundled gems の rbs のテストで fileutils の型についてのテストを skip するようにしています。
