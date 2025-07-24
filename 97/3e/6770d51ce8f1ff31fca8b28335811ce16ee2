@@ -1,0 +1,1 @@
+GC の default 実装の gc_start() で rb_objspace_t::flags::immediate_sweep フラグをセットする処理を gc_enter() の呼び出し後に移動しています。gc_enter() 内の RB_GC_VM_LOCK() でのロック内でセットすべきだったからということみたいです。
