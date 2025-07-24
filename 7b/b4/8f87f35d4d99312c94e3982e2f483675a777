@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::SSL::SSLSocket#sigalg, #peer_sigalg, #group といった署名アルゴリズムについてのメソッドを(外部ライブラリが対応する関数を提供していれば)追加しています。
