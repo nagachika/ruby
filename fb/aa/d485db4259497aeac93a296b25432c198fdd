@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 対応用の独自アクションで launchable subset コマンド実行していたのを削除しています。機械学習で実行すべきテストをサンプリングするという機能を使う時のためのコマンドみたいですが現在なにか問題があったようでその機能を使わないようにしているようです。 https://github.com/ruby/ruby/pull/13969
