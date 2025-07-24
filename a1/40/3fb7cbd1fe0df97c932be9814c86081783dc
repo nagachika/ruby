@@ -1,0 +1,1 @@
+prism 利用時に文字列リテラルの連結をした時に freeze フラグを落とす処理のリトライ。 https://github.com/ruby/prism/pull/3606 [ruby-core:121389] [Bug #21187]
