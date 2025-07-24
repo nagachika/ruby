@@ -1,0 +1,1 @@
+concurrent_set のイレテーション処理で要素を削除した時の struct concurrent_set::deleted_entries のインクリメントが漏れてたのを修正。
