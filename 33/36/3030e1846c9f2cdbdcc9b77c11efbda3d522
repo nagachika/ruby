@@ -1,0 +1,1 @@
+ZJIT でローカル変数の書き込み時に VM スタックの底に置かれる env を更新する時に RGenGC 用の Write Barrier の設定が漏れていたので rb_vm_env_write() という関数を使って更新するように修正しています。
