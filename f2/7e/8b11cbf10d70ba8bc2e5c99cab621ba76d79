@@ -1,0 +1,1 @@
+test/.excludes-zjit/ に test 内で zjit-test-all で実行を除外するテストクラスの指定を追加しています。
