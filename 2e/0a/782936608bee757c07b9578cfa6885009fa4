@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT のテスト用 workflow で make zjit-test のかわりに make zjit-test を実行するようにして zjit-tset-all も回すようにしています。
