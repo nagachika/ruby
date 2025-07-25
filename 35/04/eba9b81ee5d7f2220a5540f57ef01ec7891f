@@ -1,0 +1,1 @@
+zjit/zjit.mk の make zjit-test-all で test-all の実行対象として test/ruby/ 配下のみを指定していたのを削って全体を対象にしています。
