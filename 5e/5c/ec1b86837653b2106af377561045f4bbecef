@@ -1,0 +1,1 @@
+bigand_int() の戻り値でショートカットで 0 を返す時に Integer (FIXNUM) を返すべきところ C の int の 0 をそのまま返していたところがあった不具合を修正しています。 https://github.com/ruby/ruby/pull/13987
