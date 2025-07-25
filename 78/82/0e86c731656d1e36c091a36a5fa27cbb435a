@@ -1,0 +1,1 @@
+ObjectSpace.memsize_of の rdoc 用コメントに  Variable Width Allocation 対応に追随した記述を追記しています。
