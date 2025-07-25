@@ -1,0 +1,1 @@
+rb_inter_str() などでの ruby_global_symbols() の追加も GLOBAL_SYMBOLS_LOCKING() での排他処理が不要になったので削除しています。
