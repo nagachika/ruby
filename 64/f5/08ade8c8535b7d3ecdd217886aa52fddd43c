@@ -1,0 +1,1 @@
+Kernel#raise では例外の元となった例外(Exception#cause) を指定するためのキーワード引数 cause があるので、Thread#raise および Fiber#raise にも同じキーワード引数を受け付けるようにしています。 https://github.com/ruby/ruby/pull/13967 [ruby-core:122229] [Feature #21360]
