@@ -1,0 +1,1 @@
+class.c の ensure_origin() という関数で struct rb_classext_t::_origin を上書きする時の RGenGC 用の Write Barrier の追加漏れを修正しています。
