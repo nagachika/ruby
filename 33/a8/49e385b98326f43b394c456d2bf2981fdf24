@@ -1,0 +1,1 @@
+dynanic symbol の削除時に concurrent_set を利用するようになったので不要になった GLOBAL_SYMBOLS_LOCKING() によるロック取得を削除しています。
