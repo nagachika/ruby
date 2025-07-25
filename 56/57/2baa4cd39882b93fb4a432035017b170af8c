@@ -1,0 +1,1 @@
+String#each_grapheme_cluster の rdoc 用コメントのサンプルを強化。 https://github.com/ruby/ruby/pull/13981
