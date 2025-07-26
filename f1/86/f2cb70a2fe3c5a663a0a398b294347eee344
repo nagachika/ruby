@@ -1,0 +1,1 @@
+Universal Parser で文字列をオブジェクト化するため? の T_IMEMO 型オブジェクトの種類の imemo_parser_strterm というのが未使用になってたので削除しています。
