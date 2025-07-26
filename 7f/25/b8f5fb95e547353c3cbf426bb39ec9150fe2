@@ -1,0 +1,1 @@
+TSAN (Thread Sanitizer) のチェックを局所的に無効にするための ATTRIBUTE_NO_ADDRESS_SAFETY_ANALYSIS() というマクロを導入しています。 rb_gc_mark_machine_context() という関数で無効にするためみたいですが、それを指定しているところはみあたらないですね。
