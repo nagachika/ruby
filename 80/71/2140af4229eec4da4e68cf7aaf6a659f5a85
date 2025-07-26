@@ -1,0 +1,1 @@
+bundler の bundle gem で作成するプロジェクトの gemspec ファイルのテンプレートのインデントの修正。
