@@ -1,0 +1,1 @@
+拡張ライブラリ json の SIMD 対応のための extconf.rb で使うスクリプトでコンパイラの組み込み関数 __builtin_cpu_supports() が利用できるかチェックするようにしています。 https://github.com/ruby/json/issues/827
