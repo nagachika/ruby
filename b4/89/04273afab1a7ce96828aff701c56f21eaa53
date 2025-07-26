@@ -1,0 +1,1 @@
+拡張ライブラリ json で RGenGC 用の Write Barrier が不足していたのを修正しています。
