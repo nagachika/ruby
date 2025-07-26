@@ -1,0 +1,1 @@
+vm_core.h で Ractor 間の排他のためのロックの所有者チェックの処理を vm_locked_by_ractor_p() という inline 関数に切り出しています。
