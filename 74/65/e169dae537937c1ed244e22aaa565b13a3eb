@@ -1,0 +1,1 @@
+test/.excludes-zjit/ 配下の zjit-test-all で実行除外するテストを指定するファイルで冗長なもの? を削除しています。逆に test/.excludes-zjit/TestFixnum.rb は追加しています。
