@@ -1,0 +1,1 @@
+parse.y の NODE の位置情報を取得する処理の switch 分の NODE_DEFINED に対応する case をアルファベット順? に位置を移動して、また fd492a45eb747f49d1f35c09332b654ada0280dc で追加したテストに defined? に引数をかっこで括った時のテストも追加しています。
