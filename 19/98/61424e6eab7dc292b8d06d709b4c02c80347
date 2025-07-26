@@ -1,0 +1,1 @@
+common.mk で bundled gems の gem パッケージを展開するターゲットで outdate-bundled-gems ターゲットにも依存関係を持たせて、削除された bundled gems の展開されたファイル群を掃除するようにしています。
