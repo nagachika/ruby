@@ -1,0 +1,1 @@
+parse.y で defined? に対応する NODE_DEFINED ノードに位置情報を持たせるようにしています。
