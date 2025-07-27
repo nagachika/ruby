@@ -1,0 +1,1 @@
+同様に sym_find() でも concurrent_set の利用で GLOBAL_SYMBOLS_LOCKING() での排他が不要になっていたので削除しています。
