@@ -1,0 +1,1 @@
+代入記号つきメソッドなどの ID を管理する rb_id_attrset() 内で concurrent_set の利用により GLOBAL_SYMBOLS_LOCKING() による排他が不要になったので削除しています。
