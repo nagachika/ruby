@@ -1,0 +1,1 @@
+symbol.c の register_static_symid_str() でも concurrent_set の利用により GLOBAL_SYMBOLS_LOCKING() による排他が不要になっていたので削除しています。また register_static_symid_str() 自体削除して呼び元の register_static_symid() 内にインライン展開しています。
