@@ -1,0 +1,1 @@
+拡張ライブラリ json のヘッダファイル ext/json/simd/simd.h の preprocessor 分岐などのインデントの修正。常に行頭に # がくるようにしています。
