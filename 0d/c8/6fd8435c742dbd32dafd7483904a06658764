@@ -1,0 +1,1 @@
+bundler のテストの Bundler.feature_flag による分岐は不要として削っています。
