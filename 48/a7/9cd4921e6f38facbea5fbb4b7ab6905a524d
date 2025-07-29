@@ -1,0 +1,1 @@
+d0020d58f468b83e69b0494ffa83990db8f18d45 からの続きで拡張ライブラリ json で deprecation warning の出力時の特異メソッドの uplevel の調節で引数のデフォルト値を Kernel#warn の uplevel に渡すための値と合わせるようにして不要な演算を削っています。これ呼び元の調節はいらないのかな。
