@@ -1,0 +1,1 @@
+bundler のテストで install_gemfile というヘルパーメソッドを利用するようにリファクタリング。
