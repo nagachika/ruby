@@ -1,0 +1,1 @@
+bundler の Bundler.feature_flag.bundler_4_mode? というのを参照していたところを一部 Bundler.feature_flag.bundler_5_mode? に変更しています。
