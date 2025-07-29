@@ -1,0 +1,1 @@
+標準添付ライブラリ English の gemspec ファイルの spec.files から除外するファイルに Rakefile, Gemfile, gemspec ファイル自身、.git/ や .gitignore などのファイルを追加しています。
