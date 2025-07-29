@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の ossl_pkcs7_XXX_new() といった関数でも明示的に NULL を渡した時の対応を削除しています。
