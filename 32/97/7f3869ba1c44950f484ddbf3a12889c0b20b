@@ -1,0 +1,1 @@
+rubygems のテストで ec01cd9bbbaf3e6f324e0a6769b8383857d2bc07 で一度 revert していた ossl_x509_new() の不正な引数に対する挙動に依存していたテストを書き換えています。
