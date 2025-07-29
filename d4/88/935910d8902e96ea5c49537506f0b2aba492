@@ -1,0 +1,1 @@
+ID の種類を列挙する enum ruby_id_types の定数から RUBY_ID_JUNK というのを削除して RUBY_ID_INTERNAL に統一しています。元々 RUBY_ID_INTERNAL は RUBY_ID_JUNK の別名として同じ値を持ってたので実質変更はないと思います。
