@@ -1,0 +1,1 @@
+YJIT の初期化のための関数 Init_builtin_yjit_hook() の呼び出しを ruby_opt_init() から rb_call_builtin_inits() に移動して、さらに RubyVM::YJIT#call_yjit_hooks メソッドを呼ぶのに yjit_hook.rb に ruby で書いてたのを Rust 実装の yjit_init() 内から rb_fucall() 関数を使って呼ぶようにしています。 https://github.com/ruby/ruby/pull/14032
