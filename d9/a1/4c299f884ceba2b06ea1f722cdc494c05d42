@@ -1,0 +1,1 @@
+Namespace 関連の C API のテスト用の拡張ライブラリで関数の宣言に RUBY_FUNC_EXPORTED を利用して export するようにしています。 mswin でのコンパイルエラー対策のため。
