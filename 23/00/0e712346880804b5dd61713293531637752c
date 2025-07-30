@@ -1,0 +1,1 @@
+hash.c に HASH_DEBUG が定義されてる時に internal/gc.h を #include していたのを削っています。不要になっていた模様。
