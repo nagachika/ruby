@@ -1,0 +1,1 @@
+標準添付ライブラリ shellwords の gemspec ファイルの spec.bindir と spec.executables の設定が不要なので削除しています。
