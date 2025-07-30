@@ -1,0 +1,1 @@
+AST から VM 命令列へのコンパイル時に peephole 最適化のため命令の入れ替えをする時に compile_data_alloc2() を呼ぶタイミングで GC が発生する可能性があるので、実際に INSN の変更をする前に compile_data_alloc2() の呼び出しをしておいてから変更するようにするため、類似の処理を insn_replace_with_operands() という関数に切り出して修正しています。
