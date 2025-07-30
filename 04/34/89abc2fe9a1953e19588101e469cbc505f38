@@ -1,0 +1,1 @@
+ZJIT で nil, true, false, Symbol や flonum の Float などの即値のオブジェクトが期待される時の? 型チェックの命令を出力するのに対応しています。 https://github.com/ruby/ruby/pull/14017
