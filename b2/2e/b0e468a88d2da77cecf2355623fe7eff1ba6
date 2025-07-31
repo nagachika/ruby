@@ -1,0 +1,1 @@
+configure に ZJIT 用の --zjit-stats というオプションを追加して ZJIT で YJIT と同様の? 統計情報用カウンタのダンプ機能を有効にできるようにしているようです。 https://github.com/ruby/ruby/pull/14034
