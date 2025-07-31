@@ -1,0 +1,1 @@
+ZJIT 専用のデバッグのための bisect (テストがエラーになりはじめたコミットを特定する手法)用のツールを導入しているようです。 https://github.com/ruby/ruby/pull/14041
