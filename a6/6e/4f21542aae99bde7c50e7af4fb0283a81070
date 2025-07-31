@@ -1,0 +1,1 @@
+Bignum の時の Integer#[] に 2引数与えた時の処理の最適化。不要な処理やコピーの抑制など。 https://github.com/ruby/ruby/pull/14007
