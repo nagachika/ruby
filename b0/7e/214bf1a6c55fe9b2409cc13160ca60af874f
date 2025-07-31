@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md の ASAN について master ブランチでしか動かないという記述を削除しています。3.4 からはサポートされた状態でリリースされているため。
