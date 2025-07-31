@@ -1,0 +1,1 @@
+Hash#replace の rdoc 用コメントに Hash の要素がない時の参照に使われる default の値や Proc オブジェクトも上書きされることを追記しています。
