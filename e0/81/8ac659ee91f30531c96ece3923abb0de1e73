@@ -1,0 +1,1 @@
+rubyspec で ruby -v で出力される description の +PRISM を削るための処理でもブランチ名にマッチしてしまう問題を対応している? みたいです。
