@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で ossl_x509_new() などの関数に NULL を渡すと例外を発生させるようにする ec01cd9bbbaf3e6f324e0a6769b8383857d2bc07 を一旦 revert していたのをリトライしています。
