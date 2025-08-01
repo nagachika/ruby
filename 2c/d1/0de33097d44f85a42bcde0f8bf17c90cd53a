@@ -1,0 +1,1 @@
+YJIT と ZJIT で統計情報取得のための hook を入れる機構を共有するようにしているようです。 https://github.com/ruby/ruby/pull/14044
