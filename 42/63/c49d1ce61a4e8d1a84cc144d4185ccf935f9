@@ -1,0 +1,1 @@
+bootstraptest の YJIT 用のテストで対象としていた VM 命令がなくなったことにより意味がなくなってたテストを削除しています。 https://github.com/ruby/ruby/pull/14033
