@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg のキャッシュを actions/cache/save アクションで保存するのを master ブランチと安定版ブランチでのみ有効にしています。
