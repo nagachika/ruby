@@ -1,0 +1,1 @@
+Ractor 利用時に子 Ractor での require を main Ractor で実行させるのを待ち受けるための内部的に利用するオブジェクトの mark 関数の定義に RUBY_TYPED_DECL_MARKING フラグを立てて使う宣言的な記法(7142328a94c85cc5f23630396f248b32133f87ab で導入されたもの)を使うようにしています。久しぶりにこれみたな。
