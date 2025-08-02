@@ -1,0 +1,1 @@
+variable.c の general_ivar_set() の RUBY_ASSERT() にエラー時のメッセージを追加。
