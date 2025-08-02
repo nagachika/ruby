@@ -1,0 +1,1 @@
+複数 Ractor 利用時に require を main Ractor に実行させて待つために使われる内部的オブジェクトを RGenGC 用の WB-protected なオブジェクトにしています。
