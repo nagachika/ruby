@@ -1,0 +1,1 @@
+Symbol の管理用の構造体 rb_symbols_t のメンバー last_id を next_id という名前に変更して型も rb_atomic_t にして atomic な操作で更新するようにして VM 全体のロックを不要にしています。
