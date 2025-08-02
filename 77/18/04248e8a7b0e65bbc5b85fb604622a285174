@@ -1,0 +1,1 @@
+ARGF から参照される IO? などのオブジェクトは pin down されて GC.compact で移動できなくなっていたので ARGF の mark 処理で参照の mark を rb_gc_mark() から rb_gc_mark_and_move() に変更して参照の移動に対応するようにしています。
