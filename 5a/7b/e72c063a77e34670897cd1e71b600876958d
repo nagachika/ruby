@@ -1,0 +1,1 @@
+84ee71df4540c9c13854c86d6b30bf8f385780c8 の続きで general_ivar_set() の RUBY_ASSERT() のメッセージにさらに shape_id の情報を詳しく埋め込むようにしています。デバッグ中みたいですね。
