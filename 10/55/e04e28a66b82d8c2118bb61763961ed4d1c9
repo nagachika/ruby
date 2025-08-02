@@ -1,0 +1,1 @@
+object.c の rb_obj_copy_ivar() で冗長なローカル変数の代入を削っています。
