@@ -1,0 +1,1 @@
+ということで fc5e1541e4bb4b7995b6acc1ea6121b60fc64e7a と f2a7e48deadb9101d49c9b613abf5a83c9e1dd49 の下準備を経て rb_classext_t::cc_tbl の call cache の参照を RCU を用いた更新にして参照時に lock free にすることで複数 Ractor 利用時のパフォーマンス改善をしようとしているようです。
