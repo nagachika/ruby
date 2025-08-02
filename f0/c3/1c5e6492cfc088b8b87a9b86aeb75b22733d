@@ -1,0 +1,1 @@
+Object Shapes の RSHAPE_PARENT() という inline 関数の名前が実態に合ってないということで RSHAPE_PARENT_RAW_ID() に改名しています。また RSHAPE_DIRECT_CHILD_P() という inline 関数も導入しています。
