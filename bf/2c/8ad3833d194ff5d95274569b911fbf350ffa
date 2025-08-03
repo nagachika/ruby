@@ -1,0 +1,1 @@
+ractor_sync.c の構造体 struct ractor_selector の未使用のメンバー r を削除しています。
