@@ -1,0 +1,1 @@
+ZJIT の arm64 版で HIR の IncrCounter という命令の実装をコメントアウトしていたのを有効化しています。統計情報のカウンタのための命令かな? https://github.com/ruby/ruby/pull/14086
