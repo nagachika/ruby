@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKCS7#add_data の実装のエラー時の例外メッセージを追加するなどの改善。
