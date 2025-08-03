@@ -1,0 +1,1 @@
+prism の AST の表現を変換する translator の不具合修正。 lambda のブロック内の特殊なブロック変数 it の扱いを修正。
