@@ -1,0 +1,1 @@
+call cache のエントリの構造体 struct rb_class_cc_entries の最後の実際のエントリの構造体の配列をヒープにメモリ確保してポインタで保持していたのを struct rb_class_cc_entries の末尾に可変長の配列として埋め込みで持つようにしています。
