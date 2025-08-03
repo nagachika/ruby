@@ -1,0 +1,1 @@
+call cache の管理テーブルのオブジェクトの複製時の RGenGC 用 Write Barrier の漏れを修正しています。
