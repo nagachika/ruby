@@ -1,0 +1,1 @@
+Object Shapes のインスタンス変数などを管理する obj_fields の Hash の各要素を traverse する関数で ID が ID_INTERNAL タイプの時に無視する処理を追加しています。 too_complex の時の考慮みたいです。
