@@ -1,0 +1,1 @@
+GitHub Actions の雑多なチェックなどを行なってる workflow の rdoc でのドキュメンテーションの coverage を出してる step で lib/ と ext/ の配下は除外するようにしています。
