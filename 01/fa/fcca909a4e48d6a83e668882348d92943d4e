@@ -1,0 +1,1 @@
+common.mk の rdoc-coverage と undocumented ターゲットで rdoc コマンド実行時の対象ディレクトリを $(srcdir) からカレントディレクトリ(.) に変更しています。out-of-place ビルドの時にこれでいいのかな?
