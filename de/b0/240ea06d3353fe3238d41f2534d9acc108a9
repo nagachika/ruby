@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse で設定ファイルを読む時に環境変数 XDG_CONFIG_XXX 系や HOME で指定されているものは File.expand_path で展開しないようにしています。
