@@ -1,0 +1,1 @@
+テスト用のユーティリティ群 envutil に deprecated カテゴリの警告の設定を一時的に変更するためのユーティリティメソッド EnvUtil.deprecation_warning を追加して tool/lib/core_assertions.rb でこれを利用するようにリファクタリングしています。 https://github.com/ruby/test-unit-ruby-core/pull/8
