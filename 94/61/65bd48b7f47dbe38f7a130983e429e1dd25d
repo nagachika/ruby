@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションなどを試す workflow で clang 22 でのビルドを追加しています。
