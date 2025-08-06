@@ -1,0 +1,1 @@
+make zjit-test-all で実行除外しているテストのうち通るようになったはずのものを実行するようにしています。 https://github.com/ruby/ruby/pull/14097
