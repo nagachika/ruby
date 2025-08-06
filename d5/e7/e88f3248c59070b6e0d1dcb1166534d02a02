@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb のテストで pkg-config の出力結果を比較するために sort する部分を含んだ assert_equal_sorted という assertion メソッドを切り出して定義しています。pkg_config メソッドが nil を返した時(pkg-config コマンドが失敗した時?)に NoMethodError になってしまっていたのを修正しています。
