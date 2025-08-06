@@ -1,0 +1,1 @@
+8091f3bce588f9062fdda08977c67ba09c9095dd で削除した make zjit-test-all での skip 指定のうち Thread のテストは通らなかったようで skip 指定を戻しています。
