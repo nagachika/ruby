@@ -1,0 +1,1 @@
+load.c の関数 ext_config_push()、ext_config_pop() の struct rb_ext_config の引数の宣言に volatile 修飾子を追加しています。setjmp()/longjmp() による clobbered の警告抑制のため。
