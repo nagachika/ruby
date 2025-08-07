@@ -1,0 +1,1 @@
+ZJIT の HIR の disasm でテスト時には行番号の表示を抑制してテストを書きやすくしているようです。 https://github.com/ruby/ruby/pull/14124
