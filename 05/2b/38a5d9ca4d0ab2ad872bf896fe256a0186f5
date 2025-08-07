@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#datadir というメソッドを deprecated にして警告出力するようにしています。
