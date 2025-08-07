@@ -1,0 +1,1 @@
+51f88f9922ef0a8c670eb541de726ae0d11a1706 で rubygems の deprecated 警告出力のためのメソッドの version 引数を追加しましたが、そのデフォルト値として Gem::Deprecate.next_rubygems_major_version を呼び出してたのを nil にしておいて、このメソッド内で wrapper メソッドを動的に定義するその wrapper メソッド内で Gem::Deprecate.next_rubygems_major_version を呼ぶようにしています。スクリプトのロード時点ではまだ呼べない可能性があるからってことかな。
