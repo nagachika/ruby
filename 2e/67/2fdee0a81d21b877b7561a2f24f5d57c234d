@@ -1,0 +1,1 @@
+prism のテストの TruffleRuby と JRuby 対応の分岐を CRuby でない時にスキップするように対応しています。
