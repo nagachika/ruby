@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb のテストで環境変数 PKG_CONFIG_PATH に設定するパスを Windows 環境(msys/cygwin) の時に変換するためのメソッド mkintpath を通すように修正しています。
