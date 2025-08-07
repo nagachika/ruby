@@ -1,0 +1,1 @@
+rubygems の S3 の署名つき URL 作成時にメタデータサーバーから署名用の credential を得てメタデータサーバーへのリクエストの X-aws-ec2-metadata-token ヘッダに付与するようにしています。 AWS の EC2 上で動いている時のための実装ですね。
