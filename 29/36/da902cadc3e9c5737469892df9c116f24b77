@@ -1,0 +1,1 @@
+prism の Ractor 対応のテスト Ractor#take の廃止と Ractor#value 利用の対応。
