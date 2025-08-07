@@ -1,0 +1,1 @@
+ZJIT の Kernel#Float のインライン最適化で呼び出す関数の戻り値の型についての annotation を修正しています。 flonum となっていたけど一般に Float がかえってくるので。 https://github.com/ruby/ruby/pull/14123
