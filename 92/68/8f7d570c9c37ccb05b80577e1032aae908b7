@@ -1,0 +1,1 @@
+Object Shapes でインスタンス変数や object_id を参照するためのテーブル参照を rb_obj_fields() という関数で fields_obj を得るようにリファクタリングしています。
