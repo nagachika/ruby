@@ -1,0 +1,1 @@
+8691a4ada14de39a607f96ea128184da40168b90 からの続きの rubygems の S3 の署名つき URL 発行の処理のリファクタリングと IMDSv2 というのが使えなかった場合に IMDSv1 に fallback する実装の追加。
