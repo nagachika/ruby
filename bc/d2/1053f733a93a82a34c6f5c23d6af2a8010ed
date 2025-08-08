@@ -1,0 +1,1 @@
+parse.y の AST の NODE の module 文に対応する NODE_MODULE に位置情報の保持を追加しています。
