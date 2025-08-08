@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で T_IMEMO 型オブジェクトの imemo_callcache タイプの時の処理でも callcache が invalidate されているかをチェックして不正なアクセスを抑制するようにしています。
