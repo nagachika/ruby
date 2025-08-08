@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトの GC.compact による移動の参照更新の処理で imemo_callcache 型の時に既にその callcache が invalidate されてた時に mark 処理をスキップするように修正しています。
