@@ -1,0 +1,1 @@
+make zjit-test-all で TestFixnum のテストを skip していたのを実行するようにしています。たぶん 21cb1c9e929e9aaad24a9b64576aceb54b8e4e7a で修正したのでしょう。
