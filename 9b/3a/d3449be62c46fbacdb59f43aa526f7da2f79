@@ -1,0 +1,1 @@
+子 Ractor での require 時に main Ractor に require 実行させてそれを待つための機構で内部的に使う T_TYPEDDATA 型オブジェクトのクラスの宣言に RUBY_TYPED_EMBEDDABLE フラグをつけて構造体部分を Variable Width Allocation で拡張された slot に埋め込めるようにしています。
