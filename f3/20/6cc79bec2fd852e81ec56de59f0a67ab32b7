@@ -1,0 +1,1 @@
+T_STRUCT 型のオブジェクトで定義されている attribute は Variable Width Allocation で拡張された slot に埋め込みで保持されている場合がありますが、ここにさらに VALUE を埋め込む余地がある場合に追加のインスタンス変数や object_id などのための fields_obj への参照も埋め込むようにしています。
