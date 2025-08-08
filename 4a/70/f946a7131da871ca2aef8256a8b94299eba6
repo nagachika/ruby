@@ -1,0 +1,1 @@
+ZJIT で複数 Ractor を利用しはじめた時に Ractor が1つの前提で生成されたコードを破棄するための機構を準備しているみたいです。 https://github.com/ruby/ruby/pull/14121
