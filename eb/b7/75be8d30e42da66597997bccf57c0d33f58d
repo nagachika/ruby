@@ -1,0 +1,1 @@
+ZJIT の x86_64 向けの実行コード生成での整数の型の扱いの不具合修正。 https://github.com/ruby/ruby/pull/14125
