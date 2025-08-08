@@ -1,0 +1,1 @@
+構造体 struct rb_callcache のメンバーにアクセスするための inline 関数 vm_cc_cme() と vm_cc_call() に VM_ASSERT() で invalidate されてないことをチェックするようにしています。
