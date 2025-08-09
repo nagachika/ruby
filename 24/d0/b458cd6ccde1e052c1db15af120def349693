@@ -1,0 +1,1 @@
+Random の内部実装で利用する T_TYPEDDATA 型オブジェクトを RGenGC のための WB-protected にしています。
