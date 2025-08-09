@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb のテストで 79d8a3159f60d32396c8281fe438e86ab97e3daa で pkg-config が呼べるか pkg-config --version を実行してみて確認してたのを revert しています。 find_executable0 ではオプションは渡せなかったので。
