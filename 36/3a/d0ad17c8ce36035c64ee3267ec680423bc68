@@ -1,0 +1,1 @@
+ZJIT の Rus 実装に HeapObject というオブジェクトの型を追加しています。即値じゃないオブジェクトってことかな? https://github.com/ruby/ruby/pull/14140
