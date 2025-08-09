@@ -1,0 +1,1 @@
+Marshal.dump/Marshal.load でクラスを置換するための marshal_compat_table という内部的オブジェクトで GC.compact の時のオブジェクトの移動に対応する処理で移動していない時の不要な書き込みを抑制するようにしています。
