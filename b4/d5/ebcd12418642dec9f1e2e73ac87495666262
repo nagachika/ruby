@@ -1,0 +1,1 @@
+拡張ライブラリ stringio のテストに StringIO.new(nil) で作ったインスタンスに StringIO#eof? を呼ぶテストを追加しています。 31f2d8990dcebf84cbbd3fedf838babaa59554a3 の修正に入れ忘れたテストみたいですね。
