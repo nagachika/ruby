@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb のテストで環境変数 PKG_CONFIG_PATH を設定する時に mkintpath を通すようにした 8e9ea4c202fb104d7c17ad1f3cc59d697120501a を revert しています。
