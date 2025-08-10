@@ -1,0 +1,1 @@
+ZJIT で命令のオペランドがメモリ上にある時の対応漏れを修正。 https://github.com/ruby/ruby/pull/14153
