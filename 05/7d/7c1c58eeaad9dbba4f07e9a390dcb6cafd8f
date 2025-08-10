@@ -1,0 +1,1 @@
+関数 object_id_to_ref() 内で rb_gc_disable_no_rest() を呼んでたところを rb_gc_disable() を呼び出して incremental GC の途中の状態で処理してしまわないようにしています。
