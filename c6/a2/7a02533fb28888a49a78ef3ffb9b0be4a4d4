@@ -1,0 +1,1 @@
+tool/zjit_bisect.rb の Shellwords.join を使うかわりに配列のまま Open3.popen3 に渡すようにしています。
