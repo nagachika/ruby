@@ -1,0 +1,1 @@
+Array#fill の rdoc 用コメントの call-seq が new_array を返すという表記になってたので self を返すというように修正しています。
