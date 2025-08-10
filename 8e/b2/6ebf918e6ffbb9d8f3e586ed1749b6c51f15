@@ -1,0 +1,1 @@
+ZJIT の HIR を graphviz で可視化できるように出力するデバッグ機能を追加しようとしているようです。 https://github.com/ruby/ruby/pull/14117
