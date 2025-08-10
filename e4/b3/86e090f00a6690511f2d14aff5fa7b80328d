@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 用の workflow で  Strawberry Perl というパッケージに含まれている pkg-config.bat が観賞してしまうとのことでファイル名を改名してしまうようにしています。
