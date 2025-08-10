@@ -1,0 +1,1 @@
+ZJIT のデバッグ用ツール tool/zjit_bisect.rb でテスト用の子プロセスがタイムアウトした時に SIGKILL で停止するようにしています。
