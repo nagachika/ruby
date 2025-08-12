@@ -1,0 +1,1 @@
+doc/ruby/options.md から Experimental Options という主に JIT 系のオプションの説明のセクションを削除して --jit オプションのセクションを追加しています。 --jit は --yjit の alias というのは今の master では正しい説明なのかな?
