@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow で ruby/setup-ruby アクションのかわりに msys2/setup-msys2 という Msys2 用アクションを利用するように変更しています。
