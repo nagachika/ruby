@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境用 workflow でデフォルトのシェルを cmd にして sh を使いたいところで明示するように切り替えています。
