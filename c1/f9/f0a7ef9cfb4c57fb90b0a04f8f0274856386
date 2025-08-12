@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow で vcpkg でのパッケージインストールなどに Windows-2019 以前のための対応をしていたのを削除しています。
