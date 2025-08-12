@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 環境向け workflow に MSYS2_LOCATION という環境変数を設定する step を追加しています。
