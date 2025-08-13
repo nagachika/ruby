@@ -1,0 +1,1 @@
+同じく .rdoc_options の autolink_excluded_words に YJIT もクロスリファレンス化抑制するよう追記しています。
