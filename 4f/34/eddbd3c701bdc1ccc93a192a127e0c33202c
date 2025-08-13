@@ -1,0 +1,1 @@
+プロセス起動時の初期化処理で Namespace 用の rb_namespace_init_done() と ruby_init_prelude() の呼び出しを JIT 系の初期化の前に呼ぶようにしています。 https://github.com/ruby/ruby/pull/14171
