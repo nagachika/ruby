@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用の workflow で利用する Rust のバージョン指定を build matrix 内に入れるようにしています。
