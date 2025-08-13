@@ -1,0 +1,1 @@
+RubyVM::ZJIT.enabled? メソッドを追加しています。 https://github.com/ruby/ruby/pull/14159
