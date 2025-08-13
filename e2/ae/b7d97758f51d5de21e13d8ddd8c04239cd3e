@@ -1,0 +1,1 @@
+common.mk の .rbbin と .rbinc の拡張子のルールで $< や $@ などの特殊変数を使ってたところを $(SRC_FILE) と  $(OS_DEST_FILE) という変数を利用するようにしています。nmake でサポートされてないから共通で使える変数を template/Makefile.in と win32/Makefile.sub でそれぞれ定義しているみたいですね。
