@@ -1,0 +1,1 @@
+GC.config の rdoc 用コメントの call-seq で引数を指定した時の戻り値も GC.config と同じにしています。
