@@ -1,0 +1,1 @@
+.rdoc_options で ZJIT というのを自動でクロスリファレンス化しないように autolink_excluded_words の設定に追加しています。
