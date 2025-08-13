@@ -1,0 +1,1 @@
+ZJIT の統計情報のプロファイラに GC.compact による ZJIT のコード内の参照更新に使った時間を計測するようにしています。 https://github.com/ruby/ruby/pull/14158
