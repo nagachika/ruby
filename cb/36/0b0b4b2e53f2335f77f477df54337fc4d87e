@@ -1,0 +1,1 @@
+ruby_atomic.h のマクロ RUBY_ATOMIC_VALUE_LOAD() のために VALUE へのキャストつきの inline 関数 rbimpl_atomic_value_load() の定義を追加しています。
