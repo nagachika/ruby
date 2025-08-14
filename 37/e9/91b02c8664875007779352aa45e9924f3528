@@ -1,0 +1,1 @@
+GitHub Actions で rdoc のカバレッジをチェックするジョブで利用する rdoc をブランチやタグで指定したら upstream のリポジトリ ruby/rdoc から pull してきて使うようにしています。
