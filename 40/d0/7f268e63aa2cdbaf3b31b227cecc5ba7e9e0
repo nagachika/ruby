@@ -1,0 +1,1 @@
+doc/NEWS/NEWS-3.0.0.md の Thread#join の Scheduler 対応についての記述が Thread クラスのセクションの外にずれていたので記述位置を修正しています。
