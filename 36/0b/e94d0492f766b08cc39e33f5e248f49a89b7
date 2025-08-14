@@ -1,0 +1,1 @@
+T_TYPEDDATA 型のオブジェクトで f3206cc79bec2fd852e81ec56de59f0a67ab32b7 で T_STRUCT 型オブジェクトでやったのと同じように Variable Width Allocation による slot の領域に埋め込んだ構造体の余りがあったらインスタンス変数や object_id の管理のための T_IMEMO オブジェクトへの参照 fields_obj も slot 内に埋め込むようにしています。
