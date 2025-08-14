@@ -1,0 +1,1 @@
+099df0b40b215b2fc5db59569d45c59ee48111a7 の続きで GitHub Actions の Ubuntu 向け workflow で ppc64le/s390x でのビルド時の環境変数 HOME の設定を追加しています。
