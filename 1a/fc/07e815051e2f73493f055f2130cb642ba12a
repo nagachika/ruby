@@ -1,0 +1,1 @@
+複数 Ractor 利用時の String#encode での暗黙の Encoding の load でデッドロックする恐れがあった不具合を修正。
