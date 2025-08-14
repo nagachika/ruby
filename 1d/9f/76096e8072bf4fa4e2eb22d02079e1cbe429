@@ -1,0 +1,1 @@
+include/ruby/atomic.h で定義する atomic な操作用の inline 関数が引数に memory order を指定する int 型引数を受け取るようにして、そこから利用しているコンパイラの builtin 関数に固定値で渡していたのを指定できるようにして、実際にソースファィルから利用するマクロの段階で memory order を指定するようにしています。実際に今のところ指定しているのは RBIMPL_ATOMIC_SEQ_CST だけで変更はないみたいですが、今後別の memory order を指定するマクロを追加する予定なのかな?
