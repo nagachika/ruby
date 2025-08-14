@@ -1,0 +1,1 @@
+099df0b40b215b2fc5db59569d45c59ee48111a7 からの GitHub Actions の Ubuntu 向け workflow の s390x でのビルド追加の追加修正で rubyspec の拡張ライブラリ etc のテストにパッチを当てて実行除外するようにしています。
