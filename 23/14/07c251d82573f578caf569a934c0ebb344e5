@@ -1,0 +1,1 @@
+ZJIT でなんらかの理由で JIT コンパイルできなかった ISeq を struct IseqPayload に status というメンバーを追加して保存しておいて、同じ ISeq を再度コンパイルしようとした時に無駄な処理を省いてすぐあきらめるようにしています。 https://github.com/ruby/ruby/pull/14195
