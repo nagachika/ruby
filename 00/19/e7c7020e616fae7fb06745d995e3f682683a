@@ -1,0 +1,1 @@
+Module#autoload 用の管理テーブルの mark 関数と compact 関数を同一にしてどちらでも rb_gc_mark_and_move() を呼び出すようにしています。
