@@ -1,0 +1,1 @@
+複数の Enumerable を連結した Enumerator を生成する Enumerator::Chain に RGenGC 用の Write Barrier を追加して WB-protected に宣言しています。
