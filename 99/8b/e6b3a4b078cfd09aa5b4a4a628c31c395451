@@ -1,0 +1,1 @@
+ZJIT のデバッグ目的で中間表現 HIR での最適化を抑制する --zjit-disable-hir-opt オプションを追加しています。 https://github.com/ruby/ruby/pull/14181
