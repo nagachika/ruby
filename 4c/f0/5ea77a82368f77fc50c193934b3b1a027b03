@@ -1,0 +1,1 @@
+include/ruby/atomic.h  で stdatomic.h を使う (_Atomic という型を使うだけで関数を利用しない)時の実装でも inline 関数  atomic_fetch_xxx() を利用して memory order の指定をするようにしています。
