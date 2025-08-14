@@ -1,0 +1,1 @@
+ZJIT の x86_64 向けの命令生成で不要なロード命令の生成を抑制する最適化。 https://github.com/ruby/ruby/pull/14177
