@@ -1,0 +1,1 @@
+include/ruby/atomic.h で定義している inline 関数の rbimpl_atomic_ptr_set()/rbimpl_atomic_value_set()/rbimpl_atomic_set() などをそれぞれ rbimpl_atomic_ptr_store()/rbimpl_atomic_value_store()/rbimpl_atomic_store() のように set -> store と改名しています。
