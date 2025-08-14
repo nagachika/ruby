@@ -1,0 +1,1 @@
+77d29ef73cba81e7c18ab9bb95e0756b9f173f38 の続きで ruby_atomic.h のマクロ ATOMIC_LOAD_RELAXED() で memory order の指定のために独立した inline 関数を定義していたのをやめて rbimpl_atomic_load() の memory order の引数に RBIMPL_ATOMIC_RELAXED を指定するようにしています。
