@@ -1,0 +1,1 @@
+gems/bundled_gems の rdoc のテスト(というかおそらく 37e991b02c8664875007779352aa45e9924f3528 で指定できるようになった GitHub Actions で利用するバージョンの指定?)のための commit hash の指定を追加しています。
