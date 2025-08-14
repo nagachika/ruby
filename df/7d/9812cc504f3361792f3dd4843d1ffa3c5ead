@@ -1,0 +1,1 @@
+ZJIT の HIR の SetGlobal 命令(グローバル変数への代入)でフックが定義されていると例外が発生する可能性があり leaf 命令でなくなるのでスタックフレームの用意などを省略しないようにしています。 https://github.com/ruby/ruby/pull/14197
