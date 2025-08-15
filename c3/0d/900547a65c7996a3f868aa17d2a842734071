@@ -1,0 +1,1 @@
+8f6f9e88c70bbae08b2830d2bec63c89d6367b27 で gems/bundled_gems の rdoc のテストに使う commit hash の指定を追加していたのを revert しています。
