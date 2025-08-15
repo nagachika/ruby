@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で RbConfig::CONFIG を参照しているので明示的に require "rbconfig" を追加しています。
