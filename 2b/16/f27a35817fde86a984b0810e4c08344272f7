@@ -1,0 +1,1 @@
+ZJIT の HIR の ObjeToString 命令の不具合修正。 https://github.com/ruby/ruby/pull/14196
