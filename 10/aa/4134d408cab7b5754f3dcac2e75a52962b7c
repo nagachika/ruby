@@ -1,0 +1,1 @@
+Object Shapes でインスタンス変数や object_id を管理するための T_IMEMO 型オブジェクトの fields_obj に持ち主のクラスではなく持ち主のオブジェクト自身の参照を持たせるようにしています。object_id から ObjectSpace.id2ref でオブジェクトを得る時に直接的に参照を得ることができるので効率的になるようです。
