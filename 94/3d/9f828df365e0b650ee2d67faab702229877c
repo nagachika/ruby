@@ -1,0 +1,1 @@
+ZJIT の HIR の NewHash 命令の副作用判定の不具合修正。
