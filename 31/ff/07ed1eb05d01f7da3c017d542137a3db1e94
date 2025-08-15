@@ -1,0 +1,1 @@
+コマンドラインオプションの --help で表示するメッセージに https://docs.ruby-lang.org/en/master/ruby/options_md.html を含めています。うーんこういうのってリリースバージョンとのずれとか永続性とか気になるけど。
