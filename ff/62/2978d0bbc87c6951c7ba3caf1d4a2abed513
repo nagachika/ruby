@@ -1,0 +1,1 @@
+GC.measure_total_time と GC.total_time の rdoc 用コメントのサンプル追記。
