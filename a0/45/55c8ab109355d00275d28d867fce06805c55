@@ -1,0 +1,1 @@
+prism の AST 表現を変換する translator で parse.y による parse 処理時の lexer 実装の異常終了? の修正。
