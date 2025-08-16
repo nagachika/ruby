@@ -1,0 +1,1 @@
+YJIT と ZJIT を同時に有効にしてビルドした時に ruby -v で表示する description の設定で競合して assertion でエラーになってしまっていたのを修正しています。
