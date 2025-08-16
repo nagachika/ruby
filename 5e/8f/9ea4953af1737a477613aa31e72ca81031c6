@@ -1,0 +1,1 @@
+GC.compact でヒープが小さくなることを確認するテストが失敗することがあるようでタイムアウトをのばしています。 https://github.com/ruby/ruby/pull/14233
