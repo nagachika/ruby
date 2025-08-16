@@ -1,0 +1,1 @@
+GitHub Actions の各 workflows で コミットログに "Document" という文字列があるだけでビルドをスキップしていたのはやめるようにしています。 https://github.com/ruby/ruby/pull/14232
