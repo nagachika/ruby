@@ -1,0 +1,1 @@
+複数 Ractor 利用時に Ractor 間で Ractor.receive や Ractor::Port#send でオブジェクトの移動を行うテストで macOS で不安定なものがあるそうで skip するようにしています。 https://github.com/ruby/ruby/pull/14231
