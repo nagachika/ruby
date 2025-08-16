@@ -1,0 +1,1 @@
+YJIT と ZJIT を両方有効にしてビルドした時にコマンドラインオプションの --enable に yjit と zjit をどちらも処理できるようにしています。 preprocessor で #elsif を使っていたので YJIT が有効だと ZJIT 用の処理が削られてしまっていたようです。
