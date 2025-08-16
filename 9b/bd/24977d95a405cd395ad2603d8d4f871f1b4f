@@ -1,0 +1,1 @@
+5aa5112443274feb21f8c52789e216e213f4cf69 で追加した struct RData と struct RTypedData 構造体の data メンバーのオフセットを静的にチェックする RBIMPL_STATIC_ASSERT() が C++98 でビルドする時にうまく動かないようで preprocessor 分岐でその条件の時には実施しないようにしています。 https://github.com/ruby/ruby/pull/14229
