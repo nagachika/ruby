@@ -1,0 +1,1 @@
+複数 Ractor 利用時の Encoding の autoload のテストを s390x アーキテクチャの時と mswin の時に skip するようにしています。
