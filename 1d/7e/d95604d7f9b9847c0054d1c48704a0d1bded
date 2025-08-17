@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR をダンプするオプションを HIR の最適化がオフでも効くようにしているようです。 https://github.com/ruby/ruby/pull/14242
