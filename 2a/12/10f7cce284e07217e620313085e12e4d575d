@@ -1,0 +1,1 @@
+特殊なグローバル変数を参照する VM 命令 getspecial の ZJIT での対応実装。 https://github.com/ruby/ruby/pull/13642
