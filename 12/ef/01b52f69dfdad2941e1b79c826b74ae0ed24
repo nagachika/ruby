@@ -1,0 +1,1 @@
+拡張ライブラリ socket の UNIXSocket での fd を渡す機能の複数 Thread を利用するテストが macOS で不安定とのことで skip しています。
