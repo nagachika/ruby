@@ -1,0 +1,1 @@
+Kernel#test のテストも macOS で不安定とのことで skip しています。 https://github.com/ruby/ruby/pull/14245
