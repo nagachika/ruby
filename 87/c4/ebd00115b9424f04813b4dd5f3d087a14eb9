@@ -1,0 +1,1 @@
+おそらく 79f52020e2fcc167415e06f16e5d9868571908b3 で assert_raise_with_message 内で Encoding.default_internal を設定するのをやめた影響でしょうが元々 Encoding.default_internal が US-ASCII に設定されている環境で失敗するテストが結構あったので呼び元での EnvUtil.with_default_internal の呼び出しをさらに追加しています。
