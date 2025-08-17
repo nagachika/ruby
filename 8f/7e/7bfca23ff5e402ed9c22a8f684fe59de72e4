@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で PC と SP のセットが不足しているケースがあった不具合を修正。 https://github.com/ruby/ruby/pull/14234
