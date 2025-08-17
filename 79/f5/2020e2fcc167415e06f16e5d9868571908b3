@@ -1,0 +1,1 @@
+本体のテスト用の assertion メソッド assert_raise_with_message 内で EnvUtil.with_default_internal を呼んで Encoding.default_internal を設定していたのをやめて、必要な箇所では呼び元のほうで設定するようにしています。コミットログをみると複数の Ractor でテストを並列実行? しようという実験をしているみたいで、その時に Encoding.default_internal の変更が影響して失敗してしまうことがあるのでその影響を小さくするためみたいです。
