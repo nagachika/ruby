@@ -1,0 +1,1 @@
+GVL 解放まわりの C API のテストでたまに失敗するとのことで待ち時間の誤差の許容幅を広げています。 https://github.com/ruby/ruby/pull/14246
