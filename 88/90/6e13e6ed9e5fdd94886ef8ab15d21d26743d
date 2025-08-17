@@ -1,0 +1,1 @@
+Ractor の Ractor::Port#send を使ったテストが macOS で skip していたものが Windows でも不安定とのことで skip する条件に mswin も追加しています。 https://github.com/ruby/ruby/pull/14247
