@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で環境変数 TMP と TEMP に設定するパスを RUNNER_TEMP という環境変数のパスをそのまま使うようにしています。こっちのほうが高速なデバイスかもということで。
