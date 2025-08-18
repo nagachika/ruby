@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の vcpkg のキャッシュがあった時に不要な vcpkg install の実行をスキップするようにしています。
