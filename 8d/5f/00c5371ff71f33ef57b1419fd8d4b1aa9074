@@ -1,0 +1,1 @@
+bundler の verbose モードでの deprecated なオプションへの警告が過剰に出ていたのを修正。
