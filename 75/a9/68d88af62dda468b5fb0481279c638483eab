@@ -1,0 +1,1 @@
+defs/gmake.mk に fix-depends check-depends というターゲットを追加して tool/update-deps で依存関係の再生成を行うようにしています。
