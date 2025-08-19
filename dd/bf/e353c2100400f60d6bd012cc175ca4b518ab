@@ -1,0 +1,1 @@
+tool/make-snapshot で autoconf を環境変数 AUTOCONF の指定より ./autogen.sh を優先して実行するようにしています。
