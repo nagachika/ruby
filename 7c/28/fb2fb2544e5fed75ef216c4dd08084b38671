@@ -1,0 +1,1 @@
+template/Makefile.in に make test-pc というターゲットを追加して pkg-config コマンドの実行可否? をチェックするようにして GitHub Actions の Ubuntu 版 workflow にこの実行 step を追加しています。 [ruby-core:122972] [Bug #21546]
