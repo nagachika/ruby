@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の prism の同期処理に 90cb2bb871ff5d6d4d0dfbed2ee352c7ff818a87 で追加された generate-srcs.mk.rb のリセット処理を追加しています。
