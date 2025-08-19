@@ -1,0 +1,1 @@
+bundler の bundle update で更新が行なわれない場合があった不具合の修正。
