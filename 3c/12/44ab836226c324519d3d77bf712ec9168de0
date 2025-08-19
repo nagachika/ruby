@@ -1,0 +1,1 @@
+common.mk に clean-cache というターゲットを追加しています。 bundled gems のビルドした拡張ライブラリのディレクトリ削除を含むようです。
