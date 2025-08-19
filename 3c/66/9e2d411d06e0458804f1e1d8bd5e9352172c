@@ -1,0 +1,1 @@
+bundler のテストの古い rubygems で skip するための spec のフィルタを削除しています。
