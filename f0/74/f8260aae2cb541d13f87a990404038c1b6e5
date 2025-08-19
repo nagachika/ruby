@@ -1,0 +1,1 @@
+bundler の bundle cache の deprecated なオプション --all に対応する --no-all を指定した時に警告が出ていなかったのを修正しています。
