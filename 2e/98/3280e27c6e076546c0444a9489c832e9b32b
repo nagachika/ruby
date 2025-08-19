@@ -1,0 +1,1 @@
+a6aa8e67f16cafb74cd86d0ba2467755e56bab20 の続きで bundler のテストで新しい rubygems に依存しているテストの実行除外を spec のフィルタ指定で行うようにしています。
