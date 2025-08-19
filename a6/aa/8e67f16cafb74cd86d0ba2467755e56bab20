@@ -1,0 +1,1 @@
+bundler のテストで rubygems に vendoring されている timeout を require する時の feature 名を修正しています。
