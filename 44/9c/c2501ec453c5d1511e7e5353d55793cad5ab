@@ -1,0 +1,1 @@
+tool/make-snapshot でファイルから読み込むクラスメソッドに IO.read のかわりに File.read を利用するようにしています。
