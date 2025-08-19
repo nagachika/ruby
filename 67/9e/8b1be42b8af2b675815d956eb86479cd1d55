@@ -1,0 +1,1 @@
+bundler の bundle show サブコマンドの --outdated オプションは影響しないようにして警告で --verbose を代替として表示するよう deprecated メッセージを変更しています。
