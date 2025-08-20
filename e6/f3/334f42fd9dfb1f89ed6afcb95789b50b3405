@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence の mark と compact 対応の update 関数に rb_gc_mark_movable() と rb_gc_location() でなく rb_gc_mark_and_move() を利用するようにしています。
