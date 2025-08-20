@@ -1,0 +1,1 @@
+同じく ZJIT の Rust 実装の side_exit() 関数も Option を返すのをやめています。
