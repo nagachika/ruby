@@ -1,0 +1,1 @@
+Object Shapes の rb_obj_shape_id() を即値の VALUE に対して呼んだ時に特別な定数を返していたのを rb_bug() で異常終了するようにして、呼び元でチェックして例外発生させるようにしています。 https://github.com/ruby/ruby/pull/14266
