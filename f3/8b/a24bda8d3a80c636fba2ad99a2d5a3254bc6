@@ -1,0 +1,1 @@
+ZJIT のコード内からの ISeq への参照を GC.compact の影響による参照更新を正しく行うように対応しています。 https://github.com/ruby/ruby/pull/14250
