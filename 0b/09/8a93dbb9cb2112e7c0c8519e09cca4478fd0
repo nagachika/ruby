@@ -1,0 +1,1 @@
+Random の実装に RGenGC 用の Write Barrier が漏れていたのを修正しています。
