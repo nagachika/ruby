@@ -1,0 +1,1 @@
+ZJIT の newrange 命令に対応するコード生成で gen_prepare_call_with_gc() の実装になっていたのを gen_prepare_non_leaf_call() にして例外発生に備えた準備(主にコントロールフレームを積む?)を加えた呼び出しをするようにしています。
