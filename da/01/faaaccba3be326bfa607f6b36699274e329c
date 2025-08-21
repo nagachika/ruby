@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で lir::Opnd.try_num_bits() メソッドを削除して呼び元にインライン展開するようにしています。 https://github.com/ruby/ruby/pull/14272
