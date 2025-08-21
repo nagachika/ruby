@@ -1,0 +1,1 @@
+dependabot による更新チェックの設定に vcpkg のパッケージについて追記しています。 GitHub Actions の Windows 版 workflow 内に書かれているもののバージョンを更新してくれるのかな?
