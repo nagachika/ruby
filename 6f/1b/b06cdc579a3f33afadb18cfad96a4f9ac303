@@ -1,0 +1,1 @@
+Hash#inspect のテストで Encoding.external を一時的に変更するところをユーティリティメソッド EnvUtil.with_default_external を利用するようにしています。以降同様の変更が続きます。
