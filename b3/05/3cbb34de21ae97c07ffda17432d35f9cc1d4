@@ -1,0 +1,1 @@
+Object#hash の rdoc 用コメントの手直し。なんですが "A hash value that exceeds the capacity of an Integer is truncated before being used" のあたりは不正確な表現ですね(Integer はここでは ruby の Integer クラスのことを指すように読めますが Integer は透過的に T_BIGNUM になるので上限というのがない。たぶんここでいいたいのは long のことではないかと。
