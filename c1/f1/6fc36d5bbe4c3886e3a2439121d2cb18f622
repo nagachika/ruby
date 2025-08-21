@@ -1,0 +1,1 @@
+RubyVM::Shape.of を即値オブジェクトに対して呼んだ時のテストで Symbol に対して呼ぶテストが CPU アーキテクチャが 32bits システムの時には Symbol が即値にならないため失敗するので削除しています。 https://github.com/ruby/ruby/pull/14271
