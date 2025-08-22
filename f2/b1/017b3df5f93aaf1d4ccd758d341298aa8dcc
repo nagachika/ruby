@@ -1,0 +1,1 @@
+libm に存在する expm1() と log1p() に対応する Math のメソッド Math.expm1 と Math.log1p を新規追加しています。それぞれ Math.exp(x)-1 と Math.log(x+1) と一致する関数みたいです。 C99 で定義されているライブラリ関数だそうです。 [ruby-core:122898] [Feature #21527]
