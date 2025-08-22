@@ -1,0 +1,1 @@
+configure で CentOS 6 向けに __deprecated__ の attribute のチェックをしていたのをもう不要として削除しています。
