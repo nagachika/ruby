@@ -1,0 +1,1 @@
+.gdbinit の rp コマンドで T_OBJECT 型オブジェクトのダンプでインスタンス変数が slot に埋め込まれている数を取得するのにすでに削除された rb_shape_get_shape() という関数が利用されていたので inline 関数 RSHAPE_CAPACITY() を呼ぶようにしています。
