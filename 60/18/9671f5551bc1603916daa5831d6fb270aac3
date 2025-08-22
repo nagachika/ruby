@@ -1,0 +1,1 @@
+vcpkg.json の builtin-baseline の commit hash を更新しています。 dependabot で更新するようにしてた vcpkg のバージョンっていうのはこれのことか。
