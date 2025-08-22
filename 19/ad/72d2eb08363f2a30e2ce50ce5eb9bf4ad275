@@ -1,0 +1,1 @@
+ZJIT でさらに Option を返してた関数の戻り値を削っています。 https://github.com/ruby/ruby/pull/14286
