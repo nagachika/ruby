@@ -1,0 +1,1 @@
+Object Shapes の struct RBasic::flags のビットフラグ用定数マクロの SPECIAL_CONST_SHAPE_ID を削除しています。
