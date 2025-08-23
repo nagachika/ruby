@@ -1,0 +1,1 @@
+ZJIT の Rust 実装のスタックの初期化漏れの修正。 https://github.com/ruby/ruby/pull/14294
