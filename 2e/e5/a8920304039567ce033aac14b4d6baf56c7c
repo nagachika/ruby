@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_search_method() の戻り値を struct rb_callcache* から struct rb_callable_method_entry_struct * にして呼び元で何箇所も vm_cc_cme() を書かなくていいようにリファクタリングしています。 https://github.com/ruby/ruby/pull/14299
