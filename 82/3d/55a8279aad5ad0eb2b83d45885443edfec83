@@ -1,0 +1,1 @@
+メソッド探索を行う callable_method_entry_or_negative() でクラスの callcache からの探索を rb_classext_t::cc_tbl のテーブルによるキャッシュを参照する fastpath を追加しています。
