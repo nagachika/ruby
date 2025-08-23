@@ -1,0 +1,1 @@
+yjit/not_gmake.mk で BSD 系 OS での YJIT 向けのビルドエラーの修正。
