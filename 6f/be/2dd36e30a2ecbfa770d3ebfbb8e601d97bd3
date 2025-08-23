@@ -1,0 +1,1 @@
+String#insert の rdoc 用コメントを doc/string/insert.rdoc というファイルに切り出して :include: タグで取り込むようにしています。またサンプルにマルチバイト文字を含む時の例を追加しています。
