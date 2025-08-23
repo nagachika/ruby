@@ -1,0 +1,1 @@
+ractor.c の rb_obj_is_main_ractor() という関数が未使用になっていたので削除しています。
