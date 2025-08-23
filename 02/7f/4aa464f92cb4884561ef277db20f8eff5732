@@ -1,0 +1,1 @@
+String#hash の rdoc 用コメントを doc/string/hash.rdoc という別ファイルに切り出して :include: タグで取り込むようにしています。またサンプルを追加しています。 https://github.com/ruby/ruby/pull/14253
