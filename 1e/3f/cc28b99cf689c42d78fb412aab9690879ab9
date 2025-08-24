@@ -1,0 +1,1 @@
+ractor_sync.c の ractor_port_initialzie() と ractor_port_initialzie_copy() という関数名が typo していたのでそれぞれ ractor_port_initialize()/ractor_port_initialize_copy() と改名しています。
