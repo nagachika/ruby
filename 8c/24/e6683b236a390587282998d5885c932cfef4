@@ -1,0 +1,1 @@
+ZJIT の統計情報を得る RubyVM::ZJIT.stats メソッドに引数で取得したいキーを指定したらその値を直接返す機能を追加しています。 https://github.com/ruby/ruby/pull/14309
