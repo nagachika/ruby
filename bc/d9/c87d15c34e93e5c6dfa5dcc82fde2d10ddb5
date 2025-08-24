@@ -1,0 +1,1 @@
+ZJIT で分岐や jump, leave 命令のところに HIR の CheckInterrupts 命令を挿入するようにしています。
