@@ -1,0 +1,1 @@
+複数 Ractor 利用時の Encoding の処理の追加修正。 Encoding の変換用の transfer テーブルをイテレートする際に複数 Ractor 環境下では複製を作ってから利用するようにしています。なかなか Ractor と Encoding の問題厳しそうですね。
