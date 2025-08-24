@@ -1,0 +1,1 @@
+GC の default 実装の heap 管理まわりで GC_ASSERT() による assertion を追加してデバッグ時にロジックエラーを検出するようにしています。
