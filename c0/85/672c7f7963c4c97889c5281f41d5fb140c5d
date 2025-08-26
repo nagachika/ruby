@@ -1,0 +1,1 @@
+1b4a380855ab141c3b8cf3cdc0725cd24784fc62 の再修正で Pathname#initialize の ruby 実装で引数が文字列でない時の TypeError 発生を追加しています。 C 実装の時の仕様にあわせているようです。
