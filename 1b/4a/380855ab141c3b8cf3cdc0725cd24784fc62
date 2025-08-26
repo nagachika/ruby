@@ -1,0 +1,1 @@
+組み込みクラスになった Pathname の実装に多くのメソッドを ruby 実装にする変更を取り込んでいます。 https://github.com/ruby/pathname/pull/57
