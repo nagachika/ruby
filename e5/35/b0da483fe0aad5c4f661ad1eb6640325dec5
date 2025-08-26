@@ -1,0 +1,1 @@
+Object Shapes のインスタンス変数管理の関数 obj_ivar_set_transition_too_complex() は rb_evict_fields_to_hash() を呼んでいるだけで同じものなので削除して rb_evict_fields_to_hash() を直接呼ぶようにしています。
