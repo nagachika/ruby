@@ -1,0 +1,1 @@
+Windows 版のビルドプロセスで win32/configure.bat に --without-baseruby をつけた時のビルドエラーを修正しています。
