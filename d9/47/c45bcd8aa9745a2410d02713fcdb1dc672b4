@@ -1,0 +1,1 @@
+Pathname#realdirpath メソッドをクラスメソッド Pathname.realdirpath に委譲するメソッドとして ruby 実装で追加しています。
