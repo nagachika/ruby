@@ -1,0 +1,1 @@
+Kernel#Pathname() と Kernel.Pathname() を別々に定義していたのを Module#module_function を使って自動的に定義させるようにしています。 rubyspec でみつけたっていうけどこれって ruby レベルで別のメソッドだってわかるんだっけ? 再定義したらわかるか……?
