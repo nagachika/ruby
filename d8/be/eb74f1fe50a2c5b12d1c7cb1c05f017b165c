@@ -1,0 +1,1 @@
+Object Shapes の class_fields_ivar_set() から generic_shape_ivar() を利用するようにリファクタリングしています。
