@@ -1,0 +1,1 @@
+同じく vm_getivar() でも T_OBJECT と T_CLASS/T_MODULE の処理を共有化するリファクタリング。
