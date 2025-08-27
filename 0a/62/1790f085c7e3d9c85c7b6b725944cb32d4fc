@@ -1,0 +1,1 @@
+Object Shapes の rb_obj_ivar_set() から処理を関数として切り出したり generic_shape_ivar() に委譲したりするリファクタリング。
