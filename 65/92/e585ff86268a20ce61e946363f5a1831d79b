@@ -1,0 +1,1 @@
+同じく T_OBJECT と T_IMEMO の fields_obj の扱いを共通化して rb_obj_field_get() でもコード簡略化しています。
