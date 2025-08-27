@@ -1,0 +1,1 @@
+common.mk の Unicode の lib/unicode_normalize/tables.rb の自動生成のルールの BASERUBY なしの時の対応に問題があったのを修正しているようです。
