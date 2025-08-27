@@ -1,0 +1,1 @@
+7d79475bec4803a93424c1dfd2e2fec1dfd9ab14 で Pathname#realdirpath を C 実装で追加していたのが d947c45bcd8aa9745a2410d02713fcdb1dc672b4 の ruby 実装での追加と重複したので削除しています。
