@@ -1,0 +1,1 @@
+Pathname#initialize で引数が String でない時に TypeError を発生させるようにしていましたが、さらに to_path メソッドが呼べればそれも呼ぶチェックを追加しています。
