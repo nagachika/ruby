@@ -1,0 +1,1 @@
+ObjectSpace.count_objects で結果の Hash のキーに使うための :TOTAL と :FREE という Symbol の生成を最後に行なっていたのが結果の不安定さに繋がってたようなので最初に rb_intern() を呼び出しておくようにしています。
