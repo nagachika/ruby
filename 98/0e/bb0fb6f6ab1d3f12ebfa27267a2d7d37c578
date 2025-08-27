@@ -1,0 +1,1 @@
+ZJIT の統計情報に JIT コンパイルの失敗のカウンタを失敗の理由ごとに追加してダンプできるようにしています。 https://github.com/ruby/ruby/pull/14310
