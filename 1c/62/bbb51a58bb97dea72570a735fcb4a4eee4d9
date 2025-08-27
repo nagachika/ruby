@@ -1,0 +1,1 @@
+Pathname#lutime メソッドを追加して File.lutime に委譲するようにしています。未実装の環境では NotImplementedError が発生するのでテストでこれを捕捉するようにしています。
