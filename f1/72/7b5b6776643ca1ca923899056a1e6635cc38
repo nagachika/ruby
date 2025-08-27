@@ -1,0 +1,1 @@
+Object Shapes の rb_obj_set_shape_id() という関数の定義を削除して RB_SET_SHAPE_ID() を直接使うようにしています。
