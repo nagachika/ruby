@@ -1,0 +1,1 @@
+14bdf4b57dcd3169a8717dc893fd1e1be897deeb で T_OBJECT と T_IMEMO の fields_obj のメモリレイアウト統一のため同一に扱えるようになった部分を rb_ivar_lookup() でコード簡略化するリファクタリング。
