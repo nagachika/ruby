@@ -1,0 +1,1 @@
+Pathname::SEPARATOR_LIST や Pathname::SEPARATOR_PAT、Pathname::ABSOLUTE_PATH といった定数の rdoc 用コメントを追記しています。
