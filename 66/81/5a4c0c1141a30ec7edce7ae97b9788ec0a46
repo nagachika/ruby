@@ -1,0 +1,1 @@
+拡張ライブラリ json の Ractor を利用したテストで警告抑制のため Warning[:experimental] = false を設定するようにしています。
