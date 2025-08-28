@@ -1,0 +1,1 @@
+VM 命令の opt_aref_with と opt_aset_with という命令を削除しています。これらは Hash の要素を引いたり代入する時のものですが、キーが freeze されてない String の時の最適化で文字列リテラルが freeze されがちな今の環境ではあまり影響がないのと、chilled string との対応が中途半端? なので消そうということになったみたいです。 [ruby-core:123069] [Feature #21553]
