@@ -1,0 +1,1 @@
+Ractor のテストで mswin と darwin で skip していたテストを mingw でもスキップするようにしています。
