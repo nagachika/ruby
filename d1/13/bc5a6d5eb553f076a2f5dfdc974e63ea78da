@@ -1,0 +1,1 @@
+variable.c の class_fields_ivar_set() で goto を利用しているために未初期化の変数を使うパスがあった不具合を修正しています。 https://github.com/ruby/ruby/pull/14348
