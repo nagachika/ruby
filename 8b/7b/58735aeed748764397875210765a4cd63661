@@ -1,0 +1,1 @@
+ZJIT に未対応の VM 命令があった時に全体をコンパイルやめるのではなく side-exit するようにしています。 https://github.com/Shopify/ruby/issues/700 https://github.com/ruby/ruby/pull/14212
