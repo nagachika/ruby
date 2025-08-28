@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで非常に大きな自然指数表記の Float の parse で Float::INFINITY を返すというのを確認する assertion を追加しています。
