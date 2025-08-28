@@ -1,0 +1,1 @@
+14bdf4b57dcd3169a8717dc893fd1e1be897deeb で struct RBasic::flags のビットフラグの定数として OBJ_FIELD_EMBED というのを追加して OBJ_FIELD_EXTERNAL の反対の意味で使うようにリファクタリングしてましたが、やっぱろ OBJ_FIELD_EMBED をやめて OBJ_FIELD_HEAP という名前でまた反対の意味で使うビットフラグ定数を追加しています。
