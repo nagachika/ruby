@@ -1,0 +1,1 @@
+fb6e3a80009a744a4e0b75660f1ce6da65e20e6c の VM 命令 opt_aref_with と opt_aset_with の削除に追随してテストや ZJIT のコメントの変更をしています。
