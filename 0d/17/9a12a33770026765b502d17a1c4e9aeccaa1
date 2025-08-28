@@ -1,0 +1,1 @@
+GitHub Actions の s390x でのビルドを Ubuntu 用の workflow から .github/workflows/ubuntu-ibm.yml という専用の workflow に分離しています。 https://github.com/ruby/ruby/pull/14353
