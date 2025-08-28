@@ -1,0 +1,1 @@
+String#intern の rdoc 用コメントを doc/string/intern.rdoc に切り出しています。 https://github.com/ruby/ruby/pull/14314
