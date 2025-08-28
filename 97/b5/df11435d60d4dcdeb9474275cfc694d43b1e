@@ -1,0 +1,1 @@
+拡張ライブラリ json で 4d6b1241f628392cad79c8aef1477445514135f2 で切り出してた fbuffer_append_str_repeat() という関数で fbuffer_append_str() を呼び出す都度 capa の追加をしていたのを capa を追加しない fbuffer_append_reserved() という関数を追加して事前に必要なサイズぶん 1回で capa を増やしてからこれを呼ぶように最適化しています。
