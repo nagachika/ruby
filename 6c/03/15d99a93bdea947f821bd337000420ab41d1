@@ -1,0 +1,1 @@
+rb_hook_list_mark_and_update() という関数を rb_hook_list_mark_and_move() に改名しています。
