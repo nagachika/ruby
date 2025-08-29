@@ -1,0 +1,1 @@
+rb_method_entry_t の GC mark 関数 mark_and_move_method_entry() でメソッド本体が BMETHOD つまり define_method にブロックを渡して定義したようなメソッドの時の rb_method_bmethod_t::hooks の mark に rb_hook_list_mark_and_move() を呼んで GC.compact で移動可能にしています。
