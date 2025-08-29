@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で 2ccb2de677849732181224cb9fd1a831dbaac4c0 からの変更を利用して ArgumentError の時のエラー箇所の表示としてメソッド定義の箇所も表示するようにしています。 [ruby-core:122964] [Feature #21543]
