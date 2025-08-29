@@ -1,0 +1,1 @@
+GitHub Actions の s390x でのビルド用 workflow .github/workflows/ubuntu-ibm.yml を削除しています。
