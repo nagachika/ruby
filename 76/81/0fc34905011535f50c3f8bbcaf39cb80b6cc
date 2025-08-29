@@ -1,0 +1,1 @@
+ZJIT の統計情報の side-exit のカウンタの実装はまだされてなかったみたいで実装追加しています。 https://github.com/ruby/ruby/pull/14357
