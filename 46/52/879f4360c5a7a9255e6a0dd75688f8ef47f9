@@ -1,0 +1,1 @@
+ZJIT でいくつかの組み込みメソッドについて戻り値の型を指定して最適化するようにしています。 https://github.com/ruby/ruby/pull/14363
