@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight の gemspec ファイルの spec.required_ruby_version で最低サポートバージョンを 3.2 以降に引き上げています。
