@@ -1,0 +1,1 @@
+ractor_lock() および ractor_unlock() で rb_ractor_t::malloc_gc_disabled をセットする時に引数を使うのではなくて GET_RACTOR() で現在実行中の rb_execution_context_t の Ractor を使うように修正しています。
