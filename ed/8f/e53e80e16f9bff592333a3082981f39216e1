@@ -1,0 +1,1 @@
+2ccb2de677849732181224cb9fd1a831dbaac4c0 の変更の続きで ISeq から位置情報を得る処理で NODE_SCOPE の node_id を取得するために rb_iseq_body_t::location::node_id を参照する処理を追加しています。 [ruby-core:122964] [Feature #21543]
