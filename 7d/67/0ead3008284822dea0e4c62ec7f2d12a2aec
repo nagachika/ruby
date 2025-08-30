@@ -1,0 +1,1 @@
+ZJIT で rb_zjit_profile_disable() という関数を呼んで型情報プロファイルを無効化するタイミングを移動しています。 JIT で生成されたコードから別の JIT コードを直接呼び出す時に無効化がされない不具合? を修正しているようです。 https://github.com/Shopify/ruby/issues/719 https://github.com/ruby/ruby/pull/14385
