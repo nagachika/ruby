@@ -1,0 +1,1 @@
+prism/generate-srcs.mk.rb という不要になってた prism の Makefile 更新用? のツールを削除しています。
