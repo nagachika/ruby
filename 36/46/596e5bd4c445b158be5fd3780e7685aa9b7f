@@ -1,0 +1,1 @@
+b6d4882c05d64aa6cb5ff8761584ae910de67f21 の追加修正。 YJIT の Rust 実装で Ractor を利用していない時だけ rb_ivar_get_at() C 関数の呼び出しを leaf として扱う最適化。
