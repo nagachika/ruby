@@ -1,0 +1,1 @@
+ZJIT の統計情報のカウンタに code_region_bytes というのを追加しています。 https://github.com/ruby/ruby/pull/14389
