@@ -1,0 +1,1 @@
+3646596e5bd4c445b158be5fd3780e7685aa9b7f のさらに再修正で YJIT から呼ぶためのインスタンス変数のインデックスを得る C 関数 rb_ivar_get_at_no_ractor_check() を追加しています。
