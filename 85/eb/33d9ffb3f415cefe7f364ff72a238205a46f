@@ -1,0 +1,1 @@
+GC compaction のテストで GC.verify_compaction_references の結果をチェックするテストで不確実性のために持たせる数値のバッファを少し広げています。 RHEL10 で失敗していたとのこと。
