@@ -1,0 +1,1 @@
+Object Shapes でインスタンス変数の削除時の too_complex への遷移の不具合修正。
