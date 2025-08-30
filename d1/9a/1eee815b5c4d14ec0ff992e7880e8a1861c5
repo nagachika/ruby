@@ -1,0 +1,1 @@
+ZJIT 用のターゲット make zjit-test で Rust 実装のテスト実行時に --no-fail-fast オプションを追加しています。
