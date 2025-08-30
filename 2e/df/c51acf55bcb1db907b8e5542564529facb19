@@ -1,0 +1,1 @@
+Thread::Queue と Thread::SizedQueue を GC.compact によるオブジェクト移動に対応させています。
