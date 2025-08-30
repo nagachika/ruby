@@ -1,0 +1,1 @@
+ZJIT のオブジェクトの型情報のプロファイラで Variable Width Allocation により値が slot に埋め込まれているかどうか? のフラグ管理を追加しています。
