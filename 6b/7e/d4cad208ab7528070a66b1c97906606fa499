@@ -1,0 +1,1 @@
+ZJIT 用の make ターゲット zjit-test-update を追加しています。テスト用の Rust ライブラリを更新するものみたいです。
