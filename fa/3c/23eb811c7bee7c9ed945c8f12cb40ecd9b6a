@@ -1,0 +1,1 @@
+ZJIT の getglobal 命令の実行を leaf ではない命令としてコントロールフレームの準備するように修正しています。 https://github.com/ruby/ruby/pull/14387
