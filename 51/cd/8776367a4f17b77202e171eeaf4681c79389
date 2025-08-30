@@ -1,0 +1,1 @@
+ZJIT にメソッドの callcache の無効化の時のフックを起動する rb_zjit_cme_invalidate() の呼び出しが不足していたところがあったのを修正しています。
