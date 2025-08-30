@@ -1,0 +1,1 @@
+ZJIT で VM 命令 getinstancevariable/setinstancevariable などの命令に複数 Ractor 利用時にコードを無効化するための PathPoint を挿入する変更。 https://github.com/ruby/ruby/pull/14375
