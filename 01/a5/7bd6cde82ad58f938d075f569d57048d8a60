@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems の更新用 workflow で gems/bundled_gems にテスト用 commit hash の指定がしばらく更新されないままだとメッセージを出力するようにしています。
