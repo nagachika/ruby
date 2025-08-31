@@ -1,0 +1,1 @@
+GitHub Actions の YJIT 用 workflow から make yjit-bench を実行するジョブを削除しています。 https://github.com/ruby/ruby/pull/14394
