@@ -1,0 +1,1 @@
+さらに Object#class の実装で ruby 実装から C の関数を呼ぶ時に self が NULL になることはありえないので NULL チェックも省いた関数 rb_obj_class_must() を追加して、ruby 実装からはこちらを呼ぶようにしています。なんですが、RCLASS_SUPER() で親を辿った時に NULL というのもチェックを省いているけどこれはいいのかな。
