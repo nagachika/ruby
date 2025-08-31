@@ -1,0 +1,1 @@
+2f6a9c51670dd6dcc1cae52e4a793143fb148eb6 と同様に rb_jit_vm_unlock() という関数を追加して YJIT/ZJIT 双方から呼ぶように統合しています。
