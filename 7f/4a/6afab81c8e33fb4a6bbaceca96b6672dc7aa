@@ -1,0 +1,1 @@
+ZJIT の defined? についての不具合が修正されて不要になった side-exit を削除しています。 https://github.com/Shopify/ruby/issues/703 https://github.com/ruby/ruby/pull/14308 https://github.com/ruby/ruby/pull/14401
