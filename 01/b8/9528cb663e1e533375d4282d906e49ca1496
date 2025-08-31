@@ -1,0 +1,1 @@
+fd0c772db7e5098c2b8e03559317a3592074dfe7 からの続きでさらに T_MODULE も同様の判定方法を使えるように fake_class_p() を拡張しています。このために T_MODULE の時の struct RBasic::flags のビットフラグ RMODULE_IS_REFINEMENT を下位 2 bit 目から 6 bit 目に移動しています。これは T_CLASS の時の RUBY_FL_SINGLETON と同じ位置のビットを避けるためみたいですね。
