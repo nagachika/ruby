@@ -1,0 +1,1 @@
+ZJIT の send 命令のコンパイル時に ZJIT の統計情報カウンタの dynamic_send_count のインクリメントを行うようにしています。
