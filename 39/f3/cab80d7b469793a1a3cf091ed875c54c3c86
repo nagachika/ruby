@@ -1,0 +1,1 @@
+vm_insnhelper.c に rb_vm_sendforward() という関数を追加して rb_vm_send() の中で分岐していた委譲用引数の時の処理を関数として別に分けるようにしています。 https://github.com/ruby/ruby/pull/14393
