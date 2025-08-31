@@ -1,0 +1,1 @@
+YJIT と ZJIT からそれぞれ複数 Ractor モードかどうか判定する関数の名称を rb_{yjit,zjit}_multi_ractor_p() -> rb_jit_multi_ractor_p() と改名して統合しています。
