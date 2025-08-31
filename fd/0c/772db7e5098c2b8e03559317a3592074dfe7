@@ -1,0 +1,1 @@
+Object#class の実装で T_ICLASS をスキップするためのループの部分をインライン化して struct RBasic::flags のフラグチェックだけで判定するように軽量化しています。
