@@ -1,0 +1,1 @@
+ZJIT でインスタンス変数参照の HIR の GetIvar 命令で型プロファイル情報を元に既知の Object Shapes の shape の時のインライン化最適化を実装しています。 https://github.com/ruby/ruby/pull/14388
