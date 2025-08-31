@@ -1,0 +1,1 @@
+Object#class の ruby 実装から呼び出す f5da6395bd3fdf4b76a480f174cd304823ddc57f で追加した関数 rb_obj_class_must() を static inline 関数にしています。ruby 実装から呼ぶ関数を inline 関数にしちゃってもいいんだっけ? と思ったけど Primitive.cexpr! で埋め込んでるから展開後にコンパイル時にインライン化されるからいいのかな。ヘッダファイルじゃなくて object.c で定義しているけど……。
