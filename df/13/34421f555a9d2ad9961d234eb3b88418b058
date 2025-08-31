@@ -1,0 +1,1 @@
+ZJIT に未対応の VM 命令で JIT コンパイルをキャンセルした時の統計情報カウンタを追加しています。 https://github.com/ruby/ruby/pull/14392
