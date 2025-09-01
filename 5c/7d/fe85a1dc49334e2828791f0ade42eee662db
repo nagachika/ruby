@@ -1,0 +1,1 @@
+Module#initialize_copy メソッドを定義していたのを削除して、その実装だった rb_mod_init_copy() の呼び出しを Object#clone や Object#dup の実装から呼ばれる init_copy() という関数内でオブジェクトが T_CLASS/T_MODULE の時に呼ぶようにしています。クラスの dup をした時に initialize_dup を呼ぶ時点クラスの継承ツリーが不完全な状態になるという不具合があってその修正のため rb_mod_init_copy() の呼び出しを initialize_{dup,clone} のメソッド呼び出し前に行なう必要があったようです。 [ruby-core:122945] [Bug #21538]
