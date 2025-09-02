@@ -1,0 +1,1 @@
+Ractor::Port クラスの導入で deprecated にしていた Ractor#take を削除しています。もうすぐに削除しちゃうんですね。 [ruby-core:121621] [Feature #21262]
