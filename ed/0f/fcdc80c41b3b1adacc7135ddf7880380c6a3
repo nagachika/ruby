@@ -1,0 +1,1 @@
+Unicode 用のコード生成テンプレート template/unicode_norm_gen.tmpl で古い BASERUBY のサポートのための Enumerable#each_slice の代替実装を書いていたのがもうサポートしている BASERUBY のバージョンでは不要になっていたので削除しています。 https://docs.ruby-lang.org/en/3.4/NEWS/NEWS-1_8_7.html
