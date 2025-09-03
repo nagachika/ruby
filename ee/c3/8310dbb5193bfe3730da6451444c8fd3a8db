@@ -1,0 +1,1 @@
+GC の default 実装で mark しようとした slot が T_NONE 型だった時に異常終了するチェックを gc_mark_check_t_none() という関数に切り出してい共有するようにしています。
