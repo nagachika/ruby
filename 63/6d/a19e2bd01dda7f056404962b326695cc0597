@@ -1,0 +1,1 @@
+eec38310dbb5193bfe3730da6451444c8fd3a8db で切り出した gc_mark_check_t_none() にさらに RGenGC 関連の情報として objspace->rgengc.parent_object の内容のダンプも異常終了時のメッセージに埋め込むようにしています。
