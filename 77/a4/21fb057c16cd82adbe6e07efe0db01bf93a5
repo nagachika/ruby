@@ -1,0 +1,1 @@
+TracePoint で trace を有効化した時に ZJIT/YJIT(?) の JIT コンパイルを無効化して IT コードも利用しないようにする? ようにしているようです。 https://github.com/ruby/ruby/pull/14407
