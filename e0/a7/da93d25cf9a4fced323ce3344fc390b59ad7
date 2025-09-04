@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の関数名 gen_save_pc() を gen_prepare_call_with_gc() に改名。 https://github.com/ruby/ruby/pull/14427
