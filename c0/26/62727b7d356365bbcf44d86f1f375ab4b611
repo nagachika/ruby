@@ -1,0 +1,1 @@
+ZJIT の HIR に開始/終了がどちらも T_FIXNUM の範囲の整数の場合の Range の生成を最適化する NewRangeFixnum という命令を追加しています。 https://github.com/ruby/ruby/pull/14409
