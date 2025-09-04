@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタに JIT コンパイルの失敗時の理由ごとの集計をより正確に? 取れるようにしています。 https://github.com/ruby/ruby/pull/14408
