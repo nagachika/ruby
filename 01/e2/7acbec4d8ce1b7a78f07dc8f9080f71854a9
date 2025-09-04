@@ -1,0 +1,1 @@
+Random.rand の rdoc 用コメントの rdoc 用コメントに引数に Float を指定した時の Random.rand と Kernel#rand の挙動の違いについて追記しています。へー、こういう違いがあるのか。
