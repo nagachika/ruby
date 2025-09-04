@@ -1,0 +1,1 @@
+configure の --enable-mathn という実態がなくなってたオプションを削除しています。
