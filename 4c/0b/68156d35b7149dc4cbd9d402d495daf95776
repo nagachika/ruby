@@ -1,0 +1,1 @@
+test/.excludes-zjit/ で ZJIT でスキップするテストの指定をいくつか削除しています。 https://github.com/ruby/ruby/pull/14430
