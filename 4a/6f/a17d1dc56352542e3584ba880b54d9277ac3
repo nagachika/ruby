@@ -1,0 +1,1 @@
+rubygems の gem sources サブコマンドの URL の扱いで正規化した URL を扱うように修正しています。
