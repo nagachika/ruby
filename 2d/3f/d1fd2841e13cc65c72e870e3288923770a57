@@ -1,0 +1,1 @@
+bundler の bundle cache の --frozen オプションと --no-prune オプションを deprecated にして警告を出力するようにしています。
