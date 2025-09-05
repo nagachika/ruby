@@ -1,0 +1,1 @@
+doc/zjit.md に cargo doc による Rust 実装部分のドキュメント生成(?) の方法を追記しています。
