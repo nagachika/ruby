@@ -1,0 +1,1 @@
+拡張ライブラリ json の switch 文で警告抑制のため default 節を追加しています。 https://github.com/ruby/json/pull/843
