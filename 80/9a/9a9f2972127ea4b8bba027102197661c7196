@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタに compile_error_exception_handler を追加して例外処理のコンパイルの失敗回数を取得できるようにしているようです。 https://github.com/ruby/ruby/pull/14428
