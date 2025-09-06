@@ -1,0 +1,1 @@
+rubygems で did_you_mean を利用する時の respond_to? のチェックの前の defined? でチェックしてた定数が既に削除された定数だったので DidYouMean モジュールをチェックするように修正しています。
