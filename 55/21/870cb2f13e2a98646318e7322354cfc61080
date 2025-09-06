@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用 workflow で make btest のかわりに make test を実行するようにしています。 https://github.com/ruby/ruby/pull/14447
