@@ -1,0 +1,1 @@
+rubygems の gem sources サブコマンドに --prepend と --append オプションを追加して source の追加位置を指定できるようにしています。
