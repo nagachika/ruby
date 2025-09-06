@@ -1,0 +1,1 @@
+Encoding.locale_charmap の実装に macOS 向けの分岐を追加しています。macOS での不具合? の対処として nl_langinfo() が NULL を返した時に "UTF-8" に fallback するようにしています。
