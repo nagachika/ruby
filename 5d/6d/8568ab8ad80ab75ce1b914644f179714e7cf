@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 用 workflow で os=ubuntu-24.04-arm での実行を一時的にコメントアウトして無効化しています。実行が開始されない状態になってるそうです。
