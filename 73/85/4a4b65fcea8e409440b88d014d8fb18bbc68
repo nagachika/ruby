@@ -1,0 +1,1 @@
+ppc64le 環境で ruby_current_ec を thread local な変数として宣言するため preprocessor 分岐の条件に defined(__powerpc64__) を追加しています。 [ruby-core:122932] [Bug #21534]
