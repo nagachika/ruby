@@ -1,0 +1,1 @@
+83bc6ced920c51ffc3783b03f2e1c7f89f5c2fd5 の MJIT 用の VM コード生成ツールのテンプレート削除で不要になった処理を tool/ruby_vm/models/bare_instructions.rb から削除しています。
