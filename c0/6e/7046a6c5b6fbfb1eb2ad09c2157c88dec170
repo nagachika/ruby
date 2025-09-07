@@ -1,0 +1,1 @@
+GitHub Actions の IBM 系アーキテクチャ向け workflow で一部の UNIX の group ID についてのテストを skip するよう書き換えていたのを usermod -g で現在のユーザーを runner グループに追加しておく回避方法に変更しています。
