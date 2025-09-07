@@ -1,0 +1,1 @@
+insns.def の VM 命令の leaf 属性の指定として leafness_of_check_ints というのを設定している条件つき分岐命令がありましたが、この属性は MJIT のためのものでもう不要なのでただの false に変更しています。
