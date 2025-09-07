@@ -1,0 +1,1 @@
+test/.excludes-zjit/ の make zjit-test-all でスキップするテストの指定の不要になったものを削除しています。 https://github.com/ruby/ruby/pull/14453
