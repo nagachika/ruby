@@ -1,0 +1,1 @@
+テストで子プロセスを起動する時に ZJIT を有効化するための --zjit 指定を伝播させる修正。 https://github.com/ruby/ruby/pull/14460
