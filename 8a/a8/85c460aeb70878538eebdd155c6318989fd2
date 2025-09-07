@@ -1,0 +1,1 @@
+cd07c3cbae7e287350d713ead237aeef27cc2b9e の再修正で rubygems のテストで skip する条件としてチェックする環境変数を GITHUB_ACTION_REPOSITORY から GITHUB_REPOSITORY に修正しています。
