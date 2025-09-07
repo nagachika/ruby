@@ -1,0 +1,1 @@
+ZJIT で eval 系のメソッドの処理で EP が退避された時に JIT コンパイルしたコードでの処理を side-exit するようにしています。 https://github.com/ruby/ruby/pull/14448
