@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用 workflow の matrix で make zjit-check を使うようにまとめています。 https://github.com/ruby/ruby/pull/14459
