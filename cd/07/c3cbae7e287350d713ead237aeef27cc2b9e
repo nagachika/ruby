@@ -1,0 +1,1 @@
+rubygems のテストで GitHub Actions のみでたまに失敗するものがあるみたいで環境変数 GITHUB_ACTION_REPOSITORY で判定して skip するようにしています。
