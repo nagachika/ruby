@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream からのコミットを取得する時の git log コマンドに --no-show-signature オプションを付与するようにしています。ローカルの設定で log.showSignature が設定されていると期待したフォーマットにならない場合があるのでそれを抑制するためみたいです。
