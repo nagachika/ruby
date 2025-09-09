@@ -1,0 +1,1 @@
+IO#ungetc で読み戻した IO に対して IO#each_codepoint を呼ぶと IOError が発生するという不具合を修正しています。 rb_io_check_byte_readable() と rb_io_check_char_readable() の呼び間違えで不要なチェックが含まれていたみたいです。コミットログのチケット参照がたぶん間違えていますね。 https://github.com/ruby/ruby/pull/14455 [ruby-core:123176] [Bug #21562]
