@@ -1,0 +1,1 @@
+doc/format_specifications.rdoc の String#sprintf などのフォーマット文字列の仕様の幅と精度の説明の強化とサンプルの追加などドキュメントの強化をしています。
