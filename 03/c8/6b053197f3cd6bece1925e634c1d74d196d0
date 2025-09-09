@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグに RUBY_TYPED_FL_IS_TYPED_DATA を追加して、これまで struct RTypedData::type のビットフラグで判定していたのをより一般的にチェックできるようにしています。
