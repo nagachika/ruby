@@ -1,0 +1,1 @@
+rubygems のテストで cd07c3cbae7e287350d713ead237aeef27cc2b9e で GitHub Actions で skip するようにしていたものは RubyCI でもたまに失敗していたようでデバッグのために assert_equal のエラーメッセージをチェックしています。
