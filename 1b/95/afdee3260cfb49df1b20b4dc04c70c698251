@@ -1,0 +1,1 @@
+YJIT の JIT コンパイル時の. assertion のメッセージを強化しています。 https://github.com/ruby/ruby/pull/14480
