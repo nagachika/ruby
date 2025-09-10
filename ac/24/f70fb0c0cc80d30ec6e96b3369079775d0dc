@@ -1,0 +1,1 @@
+rubygems で did_you_mean を使ったサブコマンドの suggestion 出力を有効にする条件を修正しています。
