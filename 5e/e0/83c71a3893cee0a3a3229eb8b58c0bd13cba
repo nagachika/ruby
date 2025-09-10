@@ -1,0 +1,1 @@
+RUBY_ABI_VERSION マクロを 3 -> 4 に更新しています。 03c86b053197f3cd6bece1925e634c1d74d196d0 の T_TYPEDDATA のフラグを struct RBasic::flags のフラグに移動した時に互換性の問題があったので ABI を上げて拡張ライブラリはコンパイルしなおしが必要になるようです。
