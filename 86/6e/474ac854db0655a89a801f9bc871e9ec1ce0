@@ -1,0 +1,1 @@
+Class#new の最適化で使われる VM 命令 opt_new の ZJIT でのバックトレースを調節するための対応を実装しています。 https://github.com/ruby/ruby/pull/14461
