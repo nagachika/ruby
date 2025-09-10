@@ -1,0 +1,1 @@
+rb_alias_variable() で struct rb_global_entry のメモリ確保に ALLOC() を使っていたのを ZALLOC() を使って確保した領域の初期化をするようにしています。
