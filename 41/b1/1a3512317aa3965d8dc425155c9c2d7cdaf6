@@ -1,0 +1,1 @@
+ZJIT 向けのコマンドラインオプションに --zjit-stats=quiet の対応を追加しています。終了時の統計情報のダンプを抑制する(カウント自体は行う)というものです。 https://github.com/ruby/ruby/pull/14467
