@@ -1,0 +1,1 @@
+ZJIT での arm64 版のコード生成で分岐命令の生成時のコードが大規模化した時もサポートできるようにする対応。 https://github.com/ruby/ruby/pull/14446
