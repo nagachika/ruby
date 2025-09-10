@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタをリセットする RubyVM::ZJIT.reset_stats! というメソッドを新規追加しています。
