@@ -1,0 +1,1 @@
+拡張ライブラリ fcntl で Fcntl の配下の定数に macOS でサポートされる Fcntl::F_PREALLOCATE、Fcntl::F_ALLOCATECONTIG、Fcntl::F_ALLOCATEALL などといったフラグ定数を追加しています。
