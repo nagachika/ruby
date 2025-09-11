@@ -1,0 +1,1 @@
+構造体 struct iseq_inline_constant_cache_entry の未使用のメンバー削除。名前からして _unused1、_unused2 という名前でしたが struct RNODE とメモリアライメントをそろえるために padding していたのだと思われますが、もう NODE で共通の構造体を使う慣例は廃止されているので不要になっていたと思われます。
