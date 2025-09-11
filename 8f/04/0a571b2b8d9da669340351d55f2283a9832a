@@ -1,0 +1,1 @@
+9d0b621b051c0f3cc356c9bedf081456f1d7dfd6 のリトライで GitHub Actions の ZJIT 用 workflow での --seed オプションの指定を test_all_opts という変数経由で渡すように変更しています。元ので指定していた testopts っていう変数はそもそも使われてなかったっぽいですね。
