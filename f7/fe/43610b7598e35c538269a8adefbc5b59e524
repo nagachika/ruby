@@ -1,0 +1,1 @@
+ZJIT で VM 命令の objtostring の値スタックのオブジェクトが String の時の最適化を実装しています。文字列内の式展開の高速化のため。 https://github.com/ruby/ruby/pull/14469
