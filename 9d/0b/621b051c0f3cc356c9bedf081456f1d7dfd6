@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用の workflow で make check 実行時の --seed オプションの指定を追加しています。
