@@ -1,0 +1,1 @@
+82d62d4bea9194e400661c3f33b5ddb42684df86 の構造体変更に追随して YJIT と ZJIT の C binding も変更しています。
