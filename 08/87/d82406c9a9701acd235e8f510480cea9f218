@@ -1,0 +1,1 @@
+missing/dtoa.c の mult() と lshft() という関数で引数の Bigint が表現する整数が 0 の時の早期 return するショートカットパスを追加しています。
