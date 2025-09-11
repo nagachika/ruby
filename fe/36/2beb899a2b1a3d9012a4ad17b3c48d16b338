@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタの表示の時のキーの文字列の破壊的変更を避けるようにしています。現在は影響ないですが Symbol#to_s が fstring を返すようになった時のことを見据えて FrozenError の発生を抑制するためみたいです。 https://github.com/ruby/ruby/pull/14485
