@@ -1,0 +1,1 @@
+ZJIT の invokebuiltin 命令の JIT コンパイルのテストを skip していたのが不要になったので実行するように戻しています。 https://github.com/ruby/ruby/pull/14488
