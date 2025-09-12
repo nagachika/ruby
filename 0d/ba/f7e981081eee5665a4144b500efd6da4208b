@@ -1,0 +1,1 @@
+YJIT 用の make ターゲット yjit-smoke-test を yjit-check と改名しています。
