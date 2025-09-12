@@ -1,0 +1,1 @@
+bundler のサブコマンド deployment, capistrano, vlad などの実装を削除しています。
