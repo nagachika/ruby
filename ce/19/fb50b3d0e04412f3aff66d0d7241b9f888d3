@@ -1,0 +1,1 @@
+bundler の bundle cache サブコマンドの --path オプションのメッセージを修正しています。
