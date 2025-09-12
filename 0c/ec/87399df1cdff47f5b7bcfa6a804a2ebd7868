@@ -1,0 +1,1 @@
+VM のコード生成用のスクリプトで RubyVM::ZJITInstructions というクラス名を RubyVM::ZJITInstruction と変更して関連してメソッド名も変更するリファクタリング。 https://github.com/ruby/ruby/pull/14507
