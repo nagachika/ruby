@@ -1,0 +1,1 @@
+concurrent_set.c で内部的なオブジェクト VM/concurrent_set の mark 関数を NULL にしていたのを空の関数を定義して指定するようにしています。わざと WB-ubnprotected なオブジェクトにすることで concurrent_set のオブジェクトがすぐに RGenGC の old 世代にならないようにというちょっとした調節みたいです。
