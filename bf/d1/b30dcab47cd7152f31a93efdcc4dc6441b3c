@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストの test_helper.rb で可能なら simplecov を利用して coverge を取るようにしています。
