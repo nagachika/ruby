@@ -1,0 +1,1 @@
+13c2f8d5c2b41ec78344ae60f9b5ec1564029418 と 877b625922e0f8de4e7ad801dd0306e69b34d263 での ZJIT の Rust 実装のリファクタリングで消した変数を復活させて名前だけ変更しています。 https://github.com/ruby/ruby/pull/14504
