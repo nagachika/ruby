@@ -1,0 +1,1 @@
+bundler の deprecated にしていた Bundler.with_clean_env などのメソッド群をエラー? にするようにしています。
