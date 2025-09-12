@@ -1,0 +1,1 @@
+vm_insnhelper.c の rb_vm_invokesuper() を委譲用引数の有無に応じで中で分岐していたのを関数自体を分けて rb_vm_invokesuperforward() という関数を分離しています。 https://github.com/ruby/ruby/pull/14492
