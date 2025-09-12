@@ -1,0 +1,1 @@
+VM のコード生成用スクリプトで TracePoint 有効化時の VM 命令と ZJIT 向けの命令? のクラスを分離するリファクタリング。 https://github.com/ruby/ruby/pull/14509
