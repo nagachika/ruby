@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用 workflow でテスト時に環境変数 ZJIT_RB_BUG=1 を渡すようにしています。 https://github.com/ruby/ruby/pull/14500
