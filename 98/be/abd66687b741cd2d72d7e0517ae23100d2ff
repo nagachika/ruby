@@ -1,0 +1,1 @@
+bundler の bundle lock 時に source が変更されて不整合があった時の対応の修正。
