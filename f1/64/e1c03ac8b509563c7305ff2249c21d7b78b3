@@ -1,0 +1,1 @@
+729d602e290a3d986c8fc3d178cf1e56f93a88a4 の assertion の対応さらに続き。 require の実装で利用する rb_feature_p() でも配列サイズを越える ARRAY_REF() の呼び出しの可能性があったので事前チェックを追加しています。
