@@ -1,0 +1,1 @@
+729d602e290a3d986c8fc3d178cf1e56f93a88a4 の assertion の対応さらに続き。 Exception#set_backtrace でも Array のサイズを越えるインデックスでの ARRAY_REF() を抑制するよう事前チェックを追加しています。
