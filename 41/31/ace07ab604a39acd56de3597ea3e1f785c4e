@@ -1,0 +1,1 @@
+YJIT および ZJIT の C binding で関数などが定義されているヘッダファイルをコメントで埋め込んでたのを消しています。 https://github.com/ruby/ruby/pull/14519
