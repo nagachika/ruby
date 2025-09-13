@@ -1,0 +1,1 @@
+GitHub Actions の YJIT 用の workflow で cargo がなくてもビルドできるのを確認するため cargo コマンドを削除しておくステップを追加しています。
