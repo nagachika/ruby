@@ -1,0 +1,1 @@
+bundler で .ruby-version などのファイルからバージョンを得ようとしてなかった時の例外を GemfileError にすりかえるようにしています。
