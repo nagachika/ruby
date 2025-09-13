@@ -1,0 +1,1 @@
+rubyspec の C API  用拡張ライブラリで Set の C 実装化に関するものを 3.5 のみで定義するように preprocessor 分岐を追加しています。
