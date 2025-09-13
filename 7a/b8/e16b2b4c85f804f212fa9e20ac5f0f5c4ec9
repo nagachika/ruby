@@ -1,0 +1,1 @@
+GitHub Actions に rubyspec の C API テスト用の拡張ライブラリをキャッシュするための独自アクションを追加して Ubuntu と macOS 用の workflow から利用するようにしています。
