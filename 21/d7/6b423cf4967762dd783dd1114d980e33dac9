@@ -1,0 +1,1 @@
+729d602e290a3d986c8fc3d178cf1e56f93a88a4 の assertion の対応さらに続き。 Method#inspect および UnboundMethod#inspect の実装でも配列のサイズを越えた ARRAY_AREF() の呼び出しがあったのを修正しています。
