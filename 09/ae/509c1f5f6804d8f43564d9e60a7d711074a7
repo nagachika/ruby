@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストの test_helper.rb で標準添付ライブラリの coverage での coverage 取得も追加しています。 https://github.com/ruby/json/pull/853
