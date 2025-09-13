@@ -1,0 +1,1 @@
+同じく rubyspec の C API のテストで Set の C 実装化についてのテストを 3.5 でのみ実行するように ruby_version_is を追加しています。
