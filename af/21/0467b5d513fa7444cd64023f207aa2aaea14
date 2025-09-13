@@ -1,0 +1,1 @@
+AST のテストの警告除去のため RubyVM::AbstractSyntaxTree.parse 時に EnvUtil.suppress_warning で警告抑制するようにしています。
