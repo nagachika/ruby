@@ -1,0 +1,1 @@
+File.dirname が相対パスに対して返す文字列 "." の Encoding を常に US-ASCII にしていたのを元の文字列の Encoding にそろえるようにしています。うーん、なるほど? ASCII-incompatible な Encoding の文字列が渡される可能性はないのか、と思うとこれでいいのかちょっと不安。 [ruby-core:123175] [Bug #21561]
