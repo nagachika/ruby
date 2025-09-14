@@ -1,0 +1,1 @@
+prism 用のの Makefile の prism/srcs.mk に BASERUBY がない時のルールを追加しています。
