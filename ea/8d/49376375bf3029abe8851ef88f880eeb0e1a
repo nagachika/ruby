@@ -1,0 +1,1 @@
+prism が対象とする ruby のバージョンを version.h から取り込むようにしています。prism のバージョンを更新することで自動的に最新版の ruby の文法を parse してしまわないようにするためみたいです。 https://github.com/ruby/ruby/pull/14523
