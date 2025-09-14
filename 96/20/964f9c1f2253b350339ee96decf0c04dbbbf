@@ -1,0 +1,1 @@
+ea8d49376375bf3029abe8851ef88f880eeb0e1a で prism が同梱されている ruby のバージョンをヘッダから取得して文法のバージョンとして使おうとしてたのを RUBY_API_VERSION_MAJOR/RUBY_API_VERSION_MINOR を利用するようにしています。
