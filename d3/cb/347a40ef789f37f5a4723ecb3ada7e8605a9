@@ -1,0 +1,1 @@
+YJIT と ZJIT の実装をさらに共有して jit.c に移動しています。 https://github.com/ruby/ruby/pull/14520
