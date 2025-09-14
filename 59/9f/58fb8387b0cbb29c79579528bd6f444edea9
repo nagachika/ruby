@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB クラスの rdoc 用コメントを markdown 形式にして大きく追記しています。 https://github.com/ruby/erb/pull/67
