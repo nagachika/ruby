@@ -1,0 +1,1 @@
+tool/auto-style.rb で修正対象のファイルに .y の拡張子のファイル(parse.y) を追加しています。
