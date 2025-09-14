@@ -1,0 +1,1 @@
+5a2cedd051634d6d1c8fbf48b0327f8cd8eec495 のリトライ。 prism/srcs.mk の依存関係追加と同時に元になる prism/srcs.mk.in にも同じ差分を入れています。
