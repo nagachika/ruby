@@ -1,0 +1,1 @@
+f2dbc4ec82a0e103ac1e3f64f5983540cdc75fd3 の 1行メソッド定義の文法のテストに assert_valid_syntax を利用するようにリファクタリングしています。
