@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の c0820058243842d1391d896baf67914a8ea50e13 の再修正で ERR_peek_error() が 0 を返した時に ERR_GET_REASON() に渡してしまわないようにしています。
