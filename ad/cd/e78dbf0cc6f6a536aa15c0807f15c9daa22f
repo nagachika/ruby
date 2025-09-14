@@ -1,0 +1,1 @@
+imemo.c の rb_imemo_tmpbuf_new() の内容を IMEMO_NEW() に委譲するリファクタリング。
