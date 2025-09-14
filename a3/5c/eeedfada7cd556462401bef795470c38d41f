@@ -1,0 +1,1 @@
+5a2cedd051634d6d1c8fbf48b0327f8cd8eec495 の prism/srcs.mk の変更を revert しています。GitHub Actions で依存関係チェックで差分が検出されてしまってエラーになったとのこと。
