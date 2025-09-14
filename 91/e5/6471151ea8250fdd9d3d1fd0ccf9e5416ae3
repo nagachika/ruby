@@ -1,0 +1,1 @@
+addr2line.c や namespace.c、拡張ライブラリ socket で strcpy(3) を利用していたところが OpenBSD で警告の対象となっていたので利用を避けるようにしています。 strlcpy() や memcpy() など明示的に長さを指定する関数を使いましょうということみたいですね。
