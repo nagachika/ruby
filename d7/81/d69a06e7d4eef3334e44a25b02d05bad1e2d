@@ -1,0 +1,1 @@
+prism 利用時の SyntaxError の例外メッセージがマルチバイト文字を含む時に適切な Encoding を持たせるように修正しています。 [ruby-core:122899] [Bug #21528]
