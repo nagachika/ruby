@@ -1,0 +1,1 @@
+Prism::Translation::Parser の rdoc 用コメントに対象となる ruby のバージョンを明示的に指定する方法を追記しています。
