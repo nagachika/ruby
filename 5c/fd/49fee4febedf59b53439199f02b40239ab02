@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB#initialize の rdoc 用コメントを markdown 化して手直ししています。 https://github.com/ruby/erb/pull/68
