@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で RGENGC_OBJ_INFO マクロを定義するビルドのジョブを削除しています。
