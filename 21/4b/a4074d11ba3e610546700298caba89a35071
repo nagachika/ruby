@@ -1,0 +1,1 @@
+win32/Makefile.sub の include/ruby/config.h の依存関係に ABI バージョン定義のヘッダファイルを追加して ABI 更新時に再生成させるようにしています。
