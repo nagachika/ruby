@@ -1,0 +1,1 @@
+tool/downloader.rb の警告抑制のため require "net/http" の前後で一時的に $VERBOSE を nil に設定しています。
