@@ -1,0 +1,1 @@
+GitHub Actions の rubyspec の C API テスト用拡張ライブラリのキャッシュ用の独自アクションで master ブランチでのみキャッシュ保存するようにしています。
