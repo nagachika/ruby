@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で configure に --enable-yjit や --enable-zjit を指定するビルドを削除しています。
