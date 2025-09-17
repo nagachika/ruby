@@ -1,0 +1,1 @@
+imemo.c の rb_imemo_tmpbuf_parser_heap() という関数が未使用になっていたので削除しています。また構造体 struct rb_imemo_tmpbuf_struct で不要になっていた linked list 構造用の next メンバーも削除しています。
