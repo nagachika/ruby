@@ -1,0 +1,1 @@
+rb_current_ec() の実装を inline 化可能かどうかの preprocessor 分岐の条件をまとめた RB_THREAD_CURRENT_EC_NOINLINE というマクロを導入するリファクタリング。
