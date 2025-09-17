@@ -1,0 +1,1 @@
+b0ce1fd549a3227ef4d9f65e4cdf0df93e4adeb0 および 1e3e04cd657c35fdd8d95096195d6b72b64e516c からのさらに続きで rb_imemo_tmpbuf_new() の定義で RGenGC の WB-unprotected なオブジェクトを作るよう flags の指定を修正しています。
