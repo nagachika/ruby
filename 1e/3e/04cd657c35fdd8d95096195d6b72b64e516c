@@ -1,0 +1,1 @@
+b0ce1fd549a3227ef4d9f65e4cdf0df93e4adeb0 の続き? で rb_imemo_tmpbuf_new() の定義を internal/imemo.h から imemo.c に移動しています。
