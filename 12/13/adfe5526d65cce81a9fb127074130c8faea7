@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで ostruct が require できない時に JSONGenericObjectTest のテストクラスの定義をスキップしています。
