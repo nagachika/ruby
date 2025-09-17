@@ -1,0 +1,1 @@
+さらに git log のサブコマンドの --no-show-signature オプションをつけるように 85bd3fb870aca52c778cf32be424e13a1372fbf1 で対応してしまってたのでこれも configure で使えるかチェックしています。
