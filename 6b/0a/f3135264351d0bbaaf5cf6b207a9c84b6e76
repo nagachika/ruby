@@ -1,0 +1,1 @@
+bundler の設定ファイルなどでの allow_offline_install という設定項目を削除しています。
