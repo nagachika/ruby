@@ -1,0 +1,1 @@
+ZJIT の配列を展開する splat 引数渡しとキーワード引数渡しのメソッド呼び出しの対応を revert しているようです。 https://github.com/ruby/ruby/pull/14565
