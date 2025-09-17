@@ -1,0 +1,1 @@
+bundler の bundle gem サブオマンドの --no-rubocop の deprecated 警告のメッセージ修正。
