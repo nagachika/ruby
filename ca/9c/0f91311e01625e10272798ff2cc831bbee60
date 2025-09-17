@@ -1,0 +1,1 @@
+rubygems で FileUtils.chmod のかわりに File#chmod (インスタンスメソッド)を使うようにしています。
