@@ -1,0 +1,1 @@
+ZJIT でブロック引数(meth(&b) のような記法)のメソッド呼び出しのサポートを追加しています。 https://github.com/ruby/ruby/pull/14537
