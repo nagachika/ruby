@@ -1,0 +1,1 @@
+rubygems の tar パッケージの読み込み時の IO#copy_stream に to_io で変換不要にするよう呼び元で IO を取り出して渡すようにしています。a71b339477a291a93fc9f83266eaad3423df6acc の続き?
