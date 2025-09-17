@@ -1,0 +1,1 @@
+GitHub Actions の arm 環境向け workflow で 5d6d8568ab8ad80ab75ce1b914644f179714e7cf でコメントアウトしていた os=ubuntu-24.04-arm での実行を再開しています。
