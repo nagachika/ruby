@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトを使って GC で自動的に解放される内部的な一時バッファを作るための関数 rb_imemo_tmpbuf_auto_free_pointer() を rb_imemo_tmpbuf_new() と改名して imemo.c の同名の static 関数は削除しています。
