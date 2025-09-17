@@ -1,0 +1,1 @@
+bundler の bundle gem サブコマンドの rubocop 関係のオプションなどの対応を man ページやテストから削除しています。
