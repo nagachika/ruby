@@ -1,0 +1,1 @@
+1213adfe5526d65cce81a9fb127074130c8faea7 で拡張ライブラリ json で require "ostruct" ができなかった時にテストクラス定義自体をスキップしたため個別のテストで skip を追加していた 0dc1cd407e7775610f2bcaef6c1282369867f91c が不要になったとのことで revert しています。
