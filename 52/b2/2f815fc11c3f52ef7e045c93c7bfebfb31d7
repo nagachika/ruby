@@ -1,0 +1,1 @@
+ZJIT の開発モードでビルドした時に C の関数から ruby の実行が行なわれないかの動的チェックを追加しているようです。 https://github.com/ruby/ruby/pull/14553
