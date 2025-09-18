@@ -1,0 +1,1 @@
+bundler の bundle remove の --install オプション指定を deprecated からエラーを発生させるように変更しています。
