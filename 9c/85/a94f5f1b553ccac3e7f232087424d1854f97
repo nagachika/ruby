@@ -1,0 +1,1 @@
+tool/lib/vcs.rb で Kernel#system を上書きするためのモジュールで古い ruby 向けにキーワード引数 exception の対応を独自実装していたのをやめて単に super を呼ぶようにしています。
