@@ -1,0 +1,1 @@
+13a57c9c35866f25b0b12fbe4c4df475711b09eb で追加した tool/sync_default_gems.rb のテストを Linux と macOS でのみ実行するようにしています。
