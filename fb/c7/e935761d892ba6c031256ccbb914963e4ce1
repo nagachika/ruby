@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md においてソースツリーからのビルド時に git の 2.32 以降を要求するという前提条件になってたので configure と win32/Makefile.sub での git のバージョンチェックの下限を引き上げています。
