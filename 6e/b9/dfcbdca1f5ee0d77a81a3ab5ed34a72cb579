@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタから既に使われなくなってた unhandled_call_block_arg と unhandled_call_tailcall を削除しています。
