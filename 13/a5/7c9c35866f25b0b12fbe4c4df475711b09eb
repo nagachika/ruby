@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で git コマンドを実行する時に core.autocrlf=false と core.eol=lf の設定をコマンドラインで指定してパース時に CR の考慮を不要にするようにしています。
