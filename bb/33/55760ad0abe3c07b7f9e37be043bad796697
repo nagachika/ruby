@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の GetBlockParamProxy から一部の機能を Const という命令に分割しています。 https://github.com/ruby/ruby/pull/14583
