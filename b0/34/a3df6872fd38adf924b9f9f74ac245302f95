@@ -1,0 +1,1 @@
+spec/bundled_gems_spec.rb で Dir.[] の戻り値を map(&:to_s) で文字列してたのが不要なので削っています。ついでに Array#first で先頭の要素を取り出してたのも splat 代入を使うようにしています。
