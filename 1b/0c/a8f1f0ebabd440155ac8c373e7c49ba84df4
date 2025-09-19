@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の optimize_direct_sends() という関数を type_specialize() に改名。
