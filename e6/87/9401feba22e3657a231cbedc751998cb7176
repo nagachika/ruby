@@ -1,0 +1,1 @@
+blocking Fiber 利用時に Scheduler で割り込みを抑制するために ec->interrupt_mask にビットマスクを追加する実装を行なっています。 Thread.handle_interrupt の実装で使うものでしたっけこれ。 https://github.com/ruby/ruby/pull/14588
