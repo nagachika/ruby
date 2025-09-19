@@ -1,0 +1,1 @@
+Encoding の自動ロード処理の race condition の修正のため enc_register_at() で引数に渡された rb_raw_encoding を直接書き換えずに一時変数上で初期化して最後にまとめて代入するようにしています。
