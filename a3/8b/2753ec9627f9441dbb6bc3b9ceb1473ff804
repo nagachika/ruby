@@ -1,0 +1,1 @@
+GC の mmtk 実装でも 74075617b17ab80db74a5e7c1c8515601a8ce6f4 での newobj_of() の引数変更に対応する rb_gc_impl_new_obj() の実装の引数を変更しています。
