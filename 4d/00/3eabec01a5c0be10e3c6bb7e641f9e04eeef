@@ -1,0 +1,1 @@
+GitHub Actions の YJIT と ZJIT を有効化した workflow で環境変数 RUBY_CRASH_REPORT を設定してファイルにダンプして、結果を表示するようにしています。
