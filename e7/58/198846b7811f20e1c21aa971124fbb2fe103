@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で引数で gem 名リストを受け取る時に fnmatch でマッチできる "*" などのメタキャラクタを解釈するようにしています。
