@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の ObjectAlloc 命令の実装で c31a73d7ea410c74e1c6bc887619898eac3c8795 の ObjectAllocClass 命令の導入で誤った最適化が行なわれる可能性があった不具合を修正しています。
