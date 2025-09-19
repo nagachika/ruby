@@ -1,0 +1,1 @@
+ZJIT の統計情報収集時にメソッドの種別(C 実装/ruby 実装/alias/Module#define_method によるブロックのメソッド化など定義の方法による種別)を含めるようにしています。 https://github.com/ruby/ruby/pull/14533
