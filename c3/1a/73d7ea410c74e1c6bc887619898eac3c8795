@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に ObjectAlloc という命令を追加しています。
