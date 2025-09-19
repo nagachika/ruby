@@ -1,0 +1,1 @@
+複数 Ractor 利用時の ObjectSpace.trace_object_allocations のテストを一時 skip しています。
