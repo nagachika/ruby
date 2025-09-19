@@ -1,0 +1,1 @@
+rb_class_allocate_instance() という関数に klass の設定のチェックして rb_bug() で異常終了させる処理を追加し ZJIT からのオブジェクト確保時に allocator をクラスに応じて設定するため rb_class_allocate_instance() を呼ぶように修正しています。
