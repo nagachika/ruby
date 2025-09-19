@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::Cipher::AuthTagError という例外クラスを導入して OpenSSL から EVP_CIPH_FLAG_AEAD_CIPHER というエラーフラグが返された時にこの例外を発生させるようにしています。一応元々発生させていた OpenSSL::Cipher::CipherError を継承した例外クラスなのである程度互換性は保てていそうです。 https://github.com/ruby/openssl/pull/939
