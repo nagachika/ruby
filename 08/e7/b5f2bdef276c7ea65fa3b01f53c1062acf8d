@@ -1,0 +1,1 @@
+c0820058243842d1391d896baf67914a8ea50e13 の拡張ライブラリ openssl の OpenSSL::PKey.read での一部エラーでのリトライ抑制を revert しています。リトライ可能かどうかの判定が ERR_peek_error() だけでは不完全だったみたいです。
