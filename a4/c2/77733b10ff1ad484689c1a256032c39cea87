@@ -1,0 +1,1 @@
+bundler の設定の cache_all という項目のデフォルト値を true に変更しています。
