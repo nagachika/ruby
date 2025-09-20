@@ -1,0 +1,1 @@
+子 Ractor からの require の対応のための構造体 struct cross_ractor_require の いくつかの同時には使わないメンバーを共用体を使うことで構造体サイズを削減しています。
