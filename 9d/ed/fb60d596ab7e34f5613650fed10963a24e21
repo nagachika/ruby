@@ -1,0 +1,1 @@
+bundler の bundle plugin instaall の --local-git オプション削除のエラー発生のコード位置を移動しています。
