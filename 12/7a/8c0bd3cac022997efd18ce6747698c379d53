@@ -1,0 +1,1 @@
+bundler の bundle plugin install サブコマンドの --local-git を指定するとエラーになるようにしています。
