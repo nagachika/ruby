@@ -1,0 +1,1 @@
+詳細わかりませんが ZJIT から C の可変長引数の関数を呼び出す処理の最適化? をしているようです。  https://github.com/ruby/ruby/pull/14575
