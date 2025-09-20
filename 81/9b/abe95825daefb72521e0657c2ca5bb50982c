@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB::NOT_GIVEN という定数に rdoc 用コメントを追加しています。これ private constant だから :nodoc: のほうがいいのではないかな。
