@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB#make_compiler の rdoc 用コメントのサンプルコードの不要な代入削除。
