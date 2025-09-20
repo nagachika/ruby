@@ -1,0 +1,1 @@
+newobj_of() で GC のイベントフック実行中に別の Ractor で GC が発生しないように VM のロックに RB_VM_LOCK_ENTER_CR_LEV()/RB_VM_LOCK_LEAVE_CR_LEV() ではなく RB_GC_VM_LOCK_NO_BARRIER()/RB_GC_VM_UNLOCK_NO_BARRIER() を利用するようにしています。
