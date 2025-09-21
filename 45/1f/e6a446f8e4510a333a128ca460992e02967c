@@ -1,0 +1,1 @@
+ZJIT の VM 命令 opt_{ary,str,hash}_freeze や opt_str_uminus などの実装の脱最適化時に VM の値スタックに receiver を push しなおす必要があったのを行なっていなかった不具合修正。 https://github.com/Shopify/ruby/issues/760
