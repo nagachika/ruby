@@ -1,0 +1,1 @@
+477b1e79b71af422136df29b259d9bb3ce8449e2 の再修正。 imemo_fields_new() ではなく rb_imemo_new() を利用するように再修正しています。
