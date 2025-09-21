@@ -1,0 +1,1 @@
+Encoding のロード処理から enc_load_from_base() という関数を切り出すリファクタリング。
