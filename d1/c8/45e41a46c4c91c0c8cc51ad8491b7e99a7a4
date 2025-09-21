@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用 workflow に --zjit-disable-hir-opt オプションをつけて make check 実行するパターンを追加しています。
