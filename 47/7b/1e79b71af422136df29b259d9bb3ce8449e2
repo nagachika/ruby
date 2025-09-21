@@ -1,0 +1,1 @@
+Object Shapes の fields_obj 用の T_IMEMO 型オブジェクトを確保する時に imemo_fields_new() を使っていたのを rb_imemo_new() を使って struct rb_fields のサイズを明示的に指定してメモリ確保するようにしています。将来的なメンバー追加時に自動的に追随できるようにするためみたいです。
