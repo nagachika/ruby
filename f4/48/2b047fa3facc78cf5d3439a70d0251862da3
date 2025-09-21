@@ -1,0 +1,1 @@
+GitHub Actions で shell でコマンド実行するときに set -x して実行内容を表示させるようにしています。デバッグしやすくするため。 https://github.com/ruby/ruby/pull/14609
