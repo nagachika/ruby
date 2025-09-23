@@ -1,0 +1,1 @@
+GC の default 実装で RGenGC の WB-protected なオブジェクトかどうかの assertion で FL_TEST() で struct RBasic::flags のビットフラグを直接チェックしていたのを RVALUE_WB_UNPROTECTED() でのチェックに修正しています。もう FL_WB_PROTECTED フラグは使ってないから、とコミットログにはありますが、実際は使ってるところもありそう。
