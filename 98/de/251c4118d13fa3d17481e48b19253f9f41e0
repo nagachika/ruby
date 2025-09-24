@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の DefinedIvar 命令の戻り値の型推論を強化しています。 https://github.com/ruby/ruby/pull/14628
