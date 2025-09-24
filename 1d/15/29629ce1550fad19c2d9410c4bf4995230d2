@@ -1,0 +1,1 @@
+IO.popen の rdoc 用コメントにブロック渡しで呼び出した時の戻り値の記述をより明確にしています。 https://github.com/ruby/ruby/pull/14626
