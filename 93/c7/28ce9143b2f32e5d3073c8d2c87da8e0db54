@@ -1,0 +1,1 @@
+YJIT で JIT コンパイルする対象の ISeq が GC.compact による移動への対応が不完全で mark 漏れが発生する可能性があった不具合を修正しています。またクラス変数の参照の最適化も行なっています。 https://github.com/ruby/ruby/pull/14625
