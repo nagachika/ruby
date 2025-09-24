@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用の workflows で --zjit-disable-hir-opt オプションをつけて実行する job でオプションの順序を変更していさう。順番に意味あるのかな? と思ったけど job の名前についての変更みたいなので先頭に重要な(知りたい)オプションをもってくることで GitHub 上で閲覧したときにわかりやすくするためということかな。 https://github.com/ruby/ruby/pull/14632
