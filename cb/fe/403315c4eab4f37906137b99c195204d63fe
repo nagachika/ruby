@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタに send_fallback_polymorphic と send_fallback_polymorphic というのを追加しています。また従来存在してた  send_fallback_xxx というカウンタを unspecialized_def_type_xxx というふうに接頭語を変更しています。 https://github.com/ruby/ruby/pull/14608
