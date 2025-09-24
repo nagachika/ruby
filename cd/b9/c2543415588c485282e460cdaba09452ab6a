@@ -1,0 +1,1 @@
+ZJIT でメソッド実装の可変長引数の C 関数を呼び出す時に receiver の型チェックを追加して異常終了を回避する修正。 https://github.com/ruby/ruby/pull/14630
