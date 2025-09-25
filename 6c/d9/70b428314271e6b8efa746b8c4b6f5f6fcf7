@@ -1,0 +1,1 @@
+拡張ライブラリ psych の extconf.rb で pkg_config('yaml-0.1') でパッケージがみつかった時に find_header などの冗長な実行を抑制しています。
