@@ -1,0 +1,1 @@
+ZJIT のテスト実行時のデバッガ経由の起動で lldb 決め打ちでなく gdb も使えるように zjit/zjit.mk で ZJIT_DEBUGGER という変数を使うようにしています。また zjit-test-{lldb,gdb,rr} というデバッガ指定のターゲットも追加しています。 https://github.com/ruby/ruby/pull/14637
