@@ -1,0 +1,1 @@
+method.h の METHOD_ENTRY_CACHED_SET() というマクロを inline 関数化して rb_callable_method_entry_t::flags のビットフラグの設定を method entry の cache が実際に存在する時だけ行なうようにしています。複数 Ractor からの利用時の race condition を避けるためみたいです。
