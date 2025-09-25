@@ -1,0 +1,1 @@
+55b1ba3bf276ba82173bd961fb8e0f08bf4182a6 の Ractor.shareable_proc の追加時に実装した ibf_dump_lvar_states() という関数で ISeq の変数の再代入の有無などの状態をバイナリフォーマットダンプ時に出力する時のバッファサイズの計算が間違っていたのを修正しています。
