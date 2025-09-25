@@ -1,0 +1,1 @@
+make zjite-test で ZJIT の Rust 実装テストでは中間表現 HIR の生成までで止めてたのを実際に最終的な実行コードまで生成して、実際に実行して? テストするようにしています。 https://github.com/ruby/ruby/pull/14639
