@@ -1,0 +1,1 @@
+ZJIT からメソッド実装の C の関数呼び出し時のスタックオーバーフローチェックを追加しています。 https://github.com/ruby/ruby/pull/14636
