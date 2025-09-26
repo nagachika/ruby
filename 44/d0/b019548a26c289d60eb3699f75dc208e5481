@@ -1,0 +1,1 @@
+9a5e48f4144bea6fc3e8fb82cfacf4a650d9cc9b の gc_validate_pc() の再修正で引数の obj が T_IMEMO の時だけでなく struct RBasic::klass が NULL に設定されている内部的オブジェクトの場合も cfp->pc のチェックをスキップするようにしています。
