@@ -1,0 +1,1 @@
+rb_bug() で GET_EC() マクロで現在の rb_execution_context_t を得られるかチェックしていたのを rb_current_execution_context() という関数(GET_EC() の実体)を引数に false を渡して呼んで、VM_ASSERT() での NULL チェックを抑制するようにしています。GET_EC() だとデバッグ用のビルド時に ec が NULL だと assertion にひっかかってしまうので。
