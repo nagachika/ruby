@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のバイナリフォーマットからの load で ARMv7 での浮動小数点数のアライメントの制限の対応のため直接バッファを double としてアクセスせずに変数にコピーしてから解釈するように修正しています。 [ruby-core:123209] [Bug #21569]
