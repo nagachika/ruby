@@ -1,0 +1,1 @@
+ZJIT が参照している method entry を GC.compact による移動に追随していなかった不具合を修正しています。
