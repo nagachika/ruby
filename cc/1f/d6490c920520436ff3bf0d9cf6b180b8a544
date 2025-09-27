@@ -1,0 +1,1 @@
+61a0de1b652f8e1c79ef762ecf41bdea3f799d25 の再修正。不要になった cfp->pc の null チェックを削除しています。 https://github.com/ruby/ruby/pull/14653
