@@ -1,0 +1,1 @@
+Fiber から Thread::Mutex 利用した時に Fiber が GC で解放された場合に不正メモリアクセスが発生する可能性があった不具合を修正しています。 Mutex の実装の構造体 rb_mutex_t にロックを保持している Thread への参照を持つ thread メンバーを追加して Mutex の解放処理時の unlock のために Fiber が参照できなくても Thread を直接参照できるようにしています。 [ruby-core:122121] [Bug #21342]
