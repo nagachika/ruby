@@ -1,0 +1,1 @@
+RGenGC のために GC の処理中に親オブジェクトを保持する rb_objspace_t::rgengc::parent_object を対象のオブジェクトを mark する親オブジェクトが RGenGC における young なオブジェクトだった場合は設定しないようにしていたのを常にセットしておいて、親が young かどうかはまた別に専用の parent_object_old_p というメンバーに保持してそちらで assertion の判定をするように修正しています。異常終了時にどのオブジェクトからの参照で mark されたのかがわからないと困るので。
