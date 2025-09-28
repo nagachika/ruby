@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr の IPAddr#ipv4_compact メソッドで返す IPAddr の @mask_addr の上位ビットのマスクを追加するように修正しています。
