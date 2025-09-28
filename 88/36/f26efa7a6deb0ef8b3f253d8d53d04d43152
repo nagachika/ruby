@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の rdoc 用コメントのサンプルコードなどの修正/改善と erb コマンドのヘルプメッセージの整形。 https://github.com/ruby/erb/pull/85
