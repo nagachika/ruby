@@ -1,0 +1,1 @@
+tool/auto-style.rb を実行する GitHub Actions の 9b5eb828025cf0b7c023325e6e086422bcada355 の変更で tool/auto-style.rb の第3引数を省略するようになったので空文字列かどうかではなく nil かどうかで dry_run のチェックをするように変更しています。
