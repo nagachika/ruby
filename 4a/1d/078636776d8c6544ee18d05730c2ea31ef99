@@ -1,0 +1,1 @@
+9b5eb828025cf0b7c023325e6e086422bcada355 の再修正。 tool/auto-check.rb を実行する GitHub Actions のジョブでトピックブランチや安定版ブランチで実行されないようにしています。
