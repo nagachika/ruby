@@ -1,0 +1,1 @@
+tool/auto-style.rb で git コマンド起動時に Kernel#system の引数の渡しかたを若干変更しています。
