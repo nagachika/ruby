@@ -1,0 +1,1 @@
+RUBY_DEBUG マクロを定義したデバッグビルド時に Kernel#dump_classext というデバッグ用メソッドを定義するようにしています。
