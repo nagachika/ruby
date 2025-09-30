@@ -1,0 +1,1 @@
+Namespace の機能で現在の Namespace を特定するための方法や Namespace 自体の管理のための構造体を大幅に変更しています。現在の Namespace をコントロールフレームの ep に格納するようにして Namespace の特定を簡単にしたり、 $LOAD_PATH や $LOADED_FEATURES などの情報を rb_namespace_t 構造体単位で保持するように分割したりして、Refinements を利用して Namespace ごとの load/require の処理を実装していたのをやめるなど、実装をわかりやすくシンプルにする大規模な変更のようです。
