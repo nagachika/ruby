@@ -1,0 +1,1 @@
+8b5ac5abf258270b32ef63a6acb4eb0d191f79d9 の Object Shapes 関連の修正で root namespace の初期化時に明示的に too_complex にする必要がなくなってた? ので rb_evict_ivars_to_hash() の呼び出しを削除しています。
