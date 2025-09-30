@@ -1,0 +1,1 @@
+common.mk の拡張ライブラリ ripper のソースコードの自動生成の依存関係に ext/ripper/depend と ext/ripper/extconf.rb を追加しています。
