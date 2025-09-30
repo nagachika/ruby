@@ -1,0 +1,1 @@
+Class の初期化時に Namespace 用の rb_classext_t を管理するための st_table のポインタの NULL 初期化を追加しています。
