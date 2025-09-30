@@ -1,0 +1,1 @@
+control frame のスタックから現在の Namespace を特定する処理で C 実装のメソッドのための frame をスキップするように修正しています。
