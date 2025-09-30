@@ -1,0 +1,1 @@
+Namespace#eval の実装で実行されるコードから Namespace を特定するための namespace_push()/namespace_pop() という機構を使っていたのが不要になったのでやめています。元の実装は分離が不完全で Namespace#eval に渡されたコードから呼び元のローカル変数にアクセスできる可能性があったみたいです。
