@@ -1,0 +1,1 @@
+root namespace と main namespace を返すためのデバッグ用のメソッド Namespace.root と Namespace.main を RUBY_DEBUG マクロを定義してビルドしたデバッグビルド時に限ってメソッド定義しています。
