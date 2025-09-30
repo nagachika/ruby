@@ -1,0 +1,1 @@
+Namespace 関連ででデバッグビルド時に追加する Namespace.root や Namespace.main などのメソッドは rdoc によるドキュメント化を抑制するために :nodoc: タグのコメントをつけておくようにしています。
