@@ -1,0 +1,1 @@
+namespace.c の未使用になっていた static 関数を削除しています。
