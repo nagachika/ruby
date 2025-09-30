@@ -1,0 +1,1 @@
+namespace.c のグローバルな static 変数 root_namespace_data の初期化子に必要なメンバーを網羅するようにしています。警告抑制のため?
