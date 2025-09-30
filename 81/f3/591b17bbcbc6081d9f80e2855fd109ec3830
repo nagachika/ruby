@@ -1,0 +1,1 @@
+vm_insnhelper.h の GET_BLOCK_HANDLER() というマクロを Namespace を考慮する VM_CF_BLOCK_HANDLER() という inline 関数を利用するように修正しています。
