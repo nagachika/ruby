@@ -1,0 +1,1 @@
+NAMESPACE_OBJ_P() マクロの実装でオブジェクトのクラスを得るのに CLASS_OF() マクロを使ってたのを rb_obj_class() を呼んで T_ICLASS などをスキップするように修正しています。
