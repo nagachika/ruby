@@ -1,0 +1,1 @@
+Namespace.current が呼び元の Namespace を返すように修正? しています。
