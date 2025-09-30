@@ -1,0 +1,1 @@
+namespace.c の大幅な変更に伴ない依存関係や YJIT/ZJIT のための C binding の再生成をしています。
