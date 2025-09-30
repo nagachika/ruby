@@ -1,0 +1,1 @@
+vm_set_top_stack() から namespace (ns) の有無による分岐が不要になってたので削除するリファクタリング。
