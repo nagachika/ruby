@@ -1,0 +1,1 @@
+ZJIT で attr_reader や attr_writer で定義されたインスタンス変数アクセスのメソッドの呼び出しをインライン化する最適化を実装しています。 https://github.com/ruby/ruby/pull/14629
