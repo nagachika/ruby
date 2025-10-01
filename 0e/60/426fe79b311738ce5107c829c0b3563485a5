@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタに dynamic_getivar_count と dynamic_setivar_count を追加して最適化されていないインスタンス変数のアクセス回数を集計するようにしています。 https://github.com/ruby/ruby/pull/14615
