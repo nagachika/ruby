@@ -1,0 +1,1 @@
+40bb47665d3ff57e0f2eb5a9fd9e0109617015c9 の attr_reader や attr_writer で定義されたメソッドのインスタンス変数参照を ZJIT で最適化する変更に不具合があったみたいで revert しています。
