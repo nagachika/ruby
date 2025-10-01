@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL のバージョンをチェックしていた preprocessor 分岐が複数あったのをより意図を明確にするため OSSL_HAVE_IMMUTABLE_PKEY というマクロを定義してこれを参照するようにリファクタリングしています。
