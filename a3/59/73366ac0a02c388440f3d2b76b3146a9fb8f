@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で step にベタ書きしていたコマンドを win32/lastrev.bat という bat ファイルに切り出しています。
