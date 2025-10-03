@@ -1,0 +1,1 @@
+attr_writer で定義したメソッドの呼び出しを ZJIT でインライン化する最適化のリトライ。 https://github.com/ruby/ruby/pull/14678
