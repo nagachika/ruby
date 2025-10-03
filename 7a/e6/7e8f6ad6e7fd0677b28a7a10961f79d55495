@@ -1,0 +1,1 @@
+require で load した feature 名の重複チェック? のための darray での管理リストのコピーするインデックスのミスで誤って LoadError が発生する可能性があった不具合を修正しています。 [ruby-core:123207] [Bug #21568]
