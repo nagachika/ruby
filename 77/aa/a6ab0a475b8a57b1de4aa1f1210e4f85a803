@@ -1,0 +1,1 @@
+prism で magic commect の frozen_string_litrals 指定時に式の埋め込みのある場合それが全て fstring でないかぎり freeze しないように修正しています。 [ruby-core:121389] [Bug #21187]
