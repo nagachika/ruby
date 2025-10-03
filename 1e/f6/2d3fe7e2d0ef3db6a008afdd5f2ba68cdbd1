@@ -1,0 +1,1 @@
+ZJIT で profiler で VM 命令ごと? の実行回数のカウンタの精度が不足していたので整数の幅を大きくしています。 https://github.com/ruby/ruby/pull/14698
