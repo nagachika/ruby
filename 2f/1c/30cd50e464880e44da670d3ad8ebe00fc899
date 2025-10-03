@@ -1,0 +1,1 @@
+ZJIT 用のコマンドラインオプション --zjit-trace-exits を追加して ZJIT で side-exit したメソッドのプロファイラで処理できるファイルをダンプする機能を追加しています。 https://github.com/ruby/ruby/pull/14640
