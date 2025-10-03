@@ -1,0 +1,1 @@
+ZJIT からメソッドの位置情報を得るために Hash にオブジェクトを詰める関数 rb_zjit_add_frame() で samples, total_samples, edges, lines といった項目もセットするようにしています。プロファイラ対応のためかな?
