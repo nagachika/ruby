@@ -1,0 +1,1 @@
+ZJIT の side-exit の情報をダンプする --zjit-trace-exits オプションを --zjit-stats をつけなくても使えるようにしています。 https://github.com/ruby/ruby/pull/14688
