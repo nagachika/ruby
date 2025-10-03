@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr のテストの warning 抑制というか警告メッセージの確認のため assert_warning を利用しています。
