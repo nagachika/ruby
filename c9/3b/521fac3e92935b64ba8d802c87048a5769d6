@@ -1,0 +1,1 @@
+tool/lib/memory_status.rb で Windows 環境でメモリ使用量などを得るのに fiddle が使えない時に PowerShell を使った代替方法を実装しています。
