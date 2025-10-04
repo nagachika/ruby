@@ -1,0 +1,1 @@
+ZJIT の --zjit-trace-exits オプションで side-exit したメソッド呼び出しのトレース情報をダンプする際にサイズが大きくなりすぎないようにサンプリングを指定するオプション --zjit-trace-exits-sample-rate も追加しています。 https://github.com/ruby/ruby/pull/14696
