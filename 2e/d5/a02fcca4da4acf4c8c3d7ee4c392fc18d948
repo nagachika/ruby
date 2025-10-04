@@ -1,0 +1,1 @@
+ZJIT の HIR にオブジェクトの特異クラスが定義された時に脱最適化するための命令を追加してます。 https://github.com/ruby/ruby/pull/14680
