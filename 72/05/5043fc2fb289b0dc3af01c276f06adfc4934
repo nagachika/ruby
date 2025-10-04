@@ -1,0 +1,1 @@
+GitHub Actions の macOS 用の workflow で GitHub Actions の macos-13 の runner が削除されるとのことで build matrix から os: macos-13 の指定を削除しています。
