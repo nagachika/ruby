@@ -1,0 +1,1 @@
+rb_managed_id_table_lookup() 関数への引数に struct rb_class_cc_entries のポインタ変数へのポインタを VALUE* にキャストして渡していたのが strict aliasing の警告を起こしていたので VALUE 型の変数を利用して後で値を読み出す時にキャストするように修正しています。 [ruby-core:123360] [Bug #21620]
