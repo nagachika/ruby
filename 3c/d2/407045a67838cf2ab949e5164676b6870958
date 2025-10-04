@@ -1,0 +1,1 @@
+IO::Buffer クラスの compact 関数で rb_gc_mark_and_move() を呼んでいたのが問題があったようで rb_gc_location() を呼んで参照を更新する処理に書き換えています。
