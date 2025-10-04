@@ -1,0 +1,1 @@
+プロセス終了時の rb_vm_t の開放処理 ruby_vm_destruct() で環境変数 RUBY_FREE_AT_EXIT が設定されていて徹底的にメモリ開放する時に main Thread の rb_thread_t 構造体も常に開放するようにしています。 fork した子プロセスでは開放を抑制していたのをやめています。
