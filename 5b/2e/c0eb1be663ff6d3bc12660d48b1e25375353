@@ -1,0 +1,1 @@
+load.c の require_internal() で "clobberred by setjmp/longjmp" の警告になるのを抑制するため rb_loading_namespace() の戻り値を volatile 修飾子のついた変数内に格納しておくようにしています。
