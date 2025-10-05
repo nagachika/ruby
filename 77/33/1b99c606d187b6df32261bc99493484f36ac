@@ -1,0 +1,1 @@
+8337de95bc6f89c20cf16ac98aaef8e86c9a4992 で追加した ZJIT の HIR の CCallWithFrame 命令の実行回数のカウンタを追加しています。 https://github.com/ruby/ruby/pull/14722
