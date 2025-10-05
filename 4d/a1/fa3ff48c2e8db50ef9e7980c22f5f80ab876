@@ -1,0 +1,1 @@
+GitHub Actions での tool/notify-github-pr.rb 起動時に渡す .git ディレクトリパスの修正。
