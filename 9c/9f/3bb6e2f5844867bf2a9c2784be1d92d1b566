@@ -1,0 +1,1 @@
+GitHub Actions から pull request の情報を git notes に追加するための GIT_AUTHOR_NAME/GIT_COMMITTER_NAME/EMAIL などの環境変数の設定を追加しています。
