@@ -1,0 +1,1 @@
+GC の default 実装の rb_gc_impl_writebarrier() に GC_ASSERT() で GC 中に呼ばれていないことをチェックするようにしています。
