@@ -1,0 +1,1 @@
+ZJIT で C 実装のメソッド呼び出し用に中間表現 HIR の命令 CCallWithFrame というのを追加して、インライン化できないメソッドの関数呼び出しを通常のメソッド探索を省略できる最適化を行うようにしています。 https://github.com/ruby/ruby/pull/14661
