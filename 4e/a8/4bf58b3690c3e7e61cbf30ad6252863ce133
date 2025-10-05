@@ -1,0 +1,1 @@
+ecc5ebc69a76f3a267a90b9af3d6754b3cc21265 で追加したツール tool/notes-github-pr.rb で svn のアカウント名からメールアドレスに変換するための設定を git.ruby-lang.org リポジトリの YAML ファイルから読み込むようにしています。
