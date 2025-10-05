@@ -1,0 +1,1 @@
+tool/notes-github-pr.rb というツールを追加して GitHub Actions から pull request がマージされた時に git notes にその URL やマージしたアカウントについて追加するようにしています。git notes のデフォルトの refs/notes/commits って ChangeLog の修正の為に使ってるんじゃなかったっけ? 行指向でヘッダをつけていた気がするから混ざっても問題ないのかな。 (自分の fork である github.com/nagachika/ruby ではこの ruby trunk changes のコメントを入れるのに使ってますが) https://github.com/ruby/ruby/pull/14725
