@@ -1,0 +1,1 @@
+tool/notify-slack-commits.rb というツールを追加して GitHub Actions で master ブランチへのコミットごとの Slack 通知を行うようにしています。
