@@ -1,0 +1,1 @@
+ba48e6c9ca91653cf791e85cc1b245876cda18a4 の修正で GitHub Ations から Slack 通知のための Webhook URL の参照する secret 名を修正しています。
