@@ -1,0 +1,1 @@
+おそらく ecc5ebc69a76f3a267a90b9af3d6754b3cc21265 のツールで必要になった GitHub token を GitHub Actions で使うための secret の参照を追加しています。
