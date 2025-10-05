@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で leak check の抑制のためにオプションの指定を設定する環境変数を ASAN_OPTIONS から LSAN_OPTIONS に修正しています。
