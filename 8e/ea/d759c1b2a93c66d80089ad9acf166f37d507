@@ -1,0 +1,1 @@
+8337de95bc6f89c20cf16ac98aaef8e86c9a4992 の再修正で HIR の CCallWithFrame 命令の引数の数の上限を緩和しています。
