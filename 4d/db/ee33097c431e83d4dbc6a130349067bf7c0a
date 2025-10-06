@@ -1,0 +1,1 @@
+4b50d0b41cc0a4c808d0d128e7068e4b3b9331bf の続きで標準添付ライブラリ pp で Set が組み込みかどうかを UnboundMethod#source_location で調べて標準添付ライブラリかどうかで判定するようにしています。method_defined? のほうが素直な気がするけどなんでだろう。
