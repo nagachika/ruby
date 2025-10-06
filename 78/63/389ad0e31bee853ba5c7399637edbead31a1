@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Store#flags のデフォルト値に OpenSSL::X509::V_FLAG_CRL_CHECK_ALL をセットしていたのをやめています。 OpenSSL の 3.6.0 以降でこのフラグが設定されていると検証でエラー? 警告? が発生してしまうようです。
