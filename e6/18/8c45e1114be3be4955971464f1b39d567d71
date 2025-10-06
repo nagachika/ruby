@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date._parse で引数に nil を渡した時に TypeError を発生させるようにしています。
