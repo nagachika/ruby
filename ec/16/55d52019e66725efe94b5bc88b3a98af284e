@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で Set の表示のフォーマットを本体の Set#inspect にあわせて変更しています。 https://github.com/ruby/pp/pull/43
