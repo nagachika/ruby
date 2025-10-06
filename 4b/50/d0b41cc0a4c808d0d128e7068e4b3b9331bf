@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で Set の pretty_print, pretty_print_cycle を定義する時に再定義にならないように method_defined? でのチェックを追加しています。 3.5 で Set が組み込みクラスになった時に元から定義されるようになったため。
