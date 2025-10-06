@@ -1,0 +1,1 @@
+テストでわざと SEGV を発生させる時に ASAN_OPTIONS で ASAN による対応を抑制していたのを LSAN_OPTIONS も指定するようにしています。
