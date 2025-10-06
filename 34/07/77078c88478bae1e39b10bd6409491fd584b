@@ -1,0 +1,1 @@
+ruby 2.7 では Data 定数の参照が警告を出力するので Data.define の存在有無を defined? でチェックする時に一時的に $VERBOSE=nil に設定するようにしています。 defined? での参照でも警告出るんだ。
