@@ -1,0 +1,1 @@
+プロセス終了時に環境変数 FREE_AT_EXIT が指定されててメモリを徹底的に解放する場合に main Thread に対応する native thread を開放するのに単に xfree() を呼んでたのを native_thread_destroy_atfork() を呼ぶようにして環境によってシグナル処理用の altstack や追加のメモリ領域の開放も行うように修正しています。
