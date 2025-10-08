@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で URI#userinfo= で userinfo を設定した時にユーザー名や password の部分もリセットされるようにしています。
