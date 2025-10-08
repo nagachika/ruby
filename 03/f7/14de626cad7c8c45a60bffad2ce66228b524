@@ -1,0 +1,1 @@
+template/fake.rb.in で Ruby というモジュールの定義時の予約済みの警告を抑制するために一時的に $VERBOSE=nil を設定するようにしています。
