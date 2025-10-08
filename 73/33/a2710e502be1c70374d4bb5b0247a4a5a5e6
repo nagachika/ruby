@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の統計情報カウンタの名称を返すメソッドの実装で余分な文字列の確保を抑制する最適化。 https://github.com/ruby/ruby/pull/14743
