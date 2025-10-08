@@ -1,0 +1,1 @@
+default gems の upstream からの自動更新を GitHub Actions で行うように workflow を追加しています。 https://github.com/ruby/ruby/pull/14749
