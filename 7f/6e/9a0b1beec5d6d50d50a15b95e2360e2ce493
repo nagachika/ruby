@@ -1,0 +1,1 @@
+3ba5cfd1cb77b61b2b1ad1d03271bc1fe7b71969 で追加した default gems の upstream からの同期の GitHub Actions で clone 時の履歴の取得数で fetch-depth: 0 を指定すると master のブランチだけでなく全ブランチ/tag も取得してしまって遅いので 999999 という充分大きな数を指定するようにしています。
