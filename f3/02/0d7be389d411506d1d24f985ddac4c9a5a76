@@ -1,0 +1,1 @@
+ZJIT の統計情報をリセットする RubyVM::ZJIT.reset_stats! のテストで確認項目を追加しています。 https://github.com/ruby/ruby/pull/14738
