@@ -1,0 +1,1 @@
+3ba5cfd1cb77b61b2b1ad1d03271bc1fe7b71969 で追加した default gems の upstream からの同期の GitHub Actions の workflow で環境変数の設定で API 起動の時を想定した client payload の参照を削除しています。
