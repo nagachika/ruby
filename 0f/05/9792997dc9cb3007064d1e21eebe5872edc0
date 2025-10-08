@@ -1,0 +1,1 @@
+Namespace の main namespace の初期化時の重複したメンバー初期化を削除しています。
