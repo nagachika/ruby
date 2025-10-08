@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で URI#authority メソッドを追加して URI の user, password, host, port をまとめて返すようにしています。
