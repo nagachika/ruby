@@ -1,0 +1,1 @@
+Namespace のデバッグ用に VM_ASSERT_NAMESPACEABLE_TYPE() というアサーション用マクロを追加したり Namespace#root?, #main?, #user? などのメソッドを追加しています。
