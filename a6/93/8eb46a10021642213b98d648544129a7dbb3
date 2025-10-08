@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream から cherry-pick などでコミットを取り込む時に、ruby のリポジトリ側で削除されている状態のファイルの変更は取り込まないようにしています。
