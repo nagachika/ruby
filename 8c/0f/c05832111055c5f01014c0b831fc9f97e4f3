@@ -1,0 +1,1 @@
+3ba5cfd1cb77b61b2b1ad1d03271bc1fe7b71969 で追加した default gems の upstream からの同期の GitHub Actions の workflow で repository_dispatch という設定を削除しています。 API 経由で workflow を起動するための設定みたいですね。
