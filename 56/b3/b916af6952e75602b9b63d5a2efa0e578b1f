@@ -1,0 +1,1 @@
+安定版メンテナンス用のツール tool/merger.rb でパッチの情報を取得するのに git.ruby-lang.org の Web インターフェースを使っていたのを GitHub から取得するようにしています。
