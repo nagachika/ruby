@@ -1,0 +1,1 @@
+https://github.com/ruby/ruby/pull/14765 の GitHub Actions の追加の修正。同期用のスクリプトにブランチ名の指定を渡すようにしています。
