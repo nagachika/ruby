@@ -1,0 +1,1 @@
+2bb6fe3854e2a4854bb89bfce4eaaea9d848fd1b と同様に struct RArray も RBASIT_INIT マクロを利用して初期化するようにしています。 [Bug #21629]
