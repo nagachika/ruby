@@ -1,0 +1,1 @@
+GitHub Actions で GitHub に push されたコミットを canonical なリポジトリ(git.ruby-lang.org) のほうに同期させる job を追加しています。 https://github.com/ruby/ruby/pull/14765
