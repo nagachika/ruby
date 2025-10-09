@@ -1,0 +1,1 @@
+a0e7341bfd424010f31876e42ca2b553404b35fc の GitHub Actions での bugs.ruby-lang.org への同期処理で curl に -s オプションを追加してプログレス表示を抑制しています。
