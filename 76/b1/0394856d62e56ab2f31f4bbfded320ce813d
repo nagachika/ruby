@@ -1,0 +1,1 @@
+GitHub Actions から pull request の情報を git notes に追加したりスタイルを自動修正したり slack 通知したり git.ruby-lang.org と同期をとったりという諸々の処理を .github/workflows/post_push.yml という独立した workflow に分離しています。 https://github.com/ruby/ruby/pull/14768
