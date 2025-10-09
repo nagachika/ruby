@@ -1,0 +1,1 @@
+pthread 版での rb_native_mutex_lock() の実装で NATIVE_MUTEX_LOCK_DEBUG_YIELD というマクロを定義してビルドしたら pthread_mutex_lock() の呼び出し前に sched_yield(2) を呼び出してカーネルのスケジューリングさせて native thread を切り替えるようにしています。不具合があった時に顕在化しやすくなるようにしているという感じですね。
