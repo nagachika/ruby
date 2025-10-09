@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT を有効にする workflow で bundled gems のテストの実行も行うようにしています。
