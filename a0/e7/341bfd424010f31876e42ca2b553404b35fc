@@ -1,0 +1,1 @@
+76b10394856d62e56ab2f31f4bbfded320ce813d で分離した GitHub Actions の workflow に bugs.ruby-lang.org が持ってるリポジトリへの同期処理の job も追加しています。
