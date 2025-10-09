@@ -1,0 +1,1 @@
+b05d64aa501ecfe321443ed7e5f246dd88abf01e で追加した GitHub Actions で GitHub から git.ruby-lang.org へコミットを同期させる job で master ブランチ以外も安定版ブランチは対象にしています。
