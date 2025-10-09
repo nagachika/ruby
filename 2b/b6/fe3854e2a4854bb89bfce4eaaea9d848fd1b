@@ -1,0 +1,1 @@
+43dbb9a93f4de3f1170d7d18641c30e81cc08365 からの続きで struct RBasic の構造体の初期化のための RBASIC_INIT という定数マクロを導入して struct RString 構造体の初期化子として利用するようにしています。同じチケットを参照しているのでこれも clang 21 対応なのかな。 [Bug #21629]
