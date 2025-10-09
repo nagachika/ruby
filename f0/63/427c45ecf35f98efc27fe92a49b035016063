@@ -1,0 +1,1 @@
+76b10394856d62e56ab2f31f4bbfded320ce813d で分離した .github/workflows/post_push.yml という workflow から独自アクションでの環境セットアップの step を削除しています。
