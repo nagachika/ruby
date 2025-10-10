@@ -1,0 +1,1 @@
+7ec03e12b4fa1f8a16e35131688bb7fd17e7d097 の再修正で GitHub Actions でメール送信のために実行する sendmail をフルパスで指定するように修正しています。
