@@ -1,0 +1,1 @@
+GitHub Actions の default gems の同期処理の job 名に gem 名を含めるようにしています。
