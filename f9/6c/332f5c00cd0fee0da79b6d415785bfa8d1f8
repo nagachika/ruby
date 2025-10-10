@@ -1,0 +1,1 @@
+bundler で Gemfile に install_if というメソッドが使われていた時の不具合修正。 https://github.com/rubygems/rubygems/issues/8985
