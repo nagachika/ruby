@@ -1,0 +1,1 @@
+tool/commit_email.rb のテストで環境変数 TZ を指定して subject の時刻の表記を固定するようにしています。
