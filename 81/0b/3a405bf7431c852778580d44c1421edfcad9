@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Provider.load のテストで OpenSSL::Provider.load("default") の呼び出しも追加しています。暗黙のうちに "default" も呼ばれてたけど必然ではないので予防的に修正ということみたいです。
