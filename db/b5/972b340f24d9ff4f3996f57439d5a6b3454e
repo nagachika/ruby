@@ -1,0 +1,1 @@
+tool/commit_email.rb でメールの subject のエンコードに nkf を使っていたのを base64 を使うように移行しています。
