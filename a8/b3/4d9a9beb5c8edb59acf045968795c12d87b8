@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の複数 Ractor 対策として OpenSSL::SSL::SSLContext::DEFAULT_PARAMS 定数の Hash を freeze して、また設定値を Ractor local storage で Ractor 毎に管理するようにしています。
