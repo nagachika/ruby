@@ -1,0 +1,1 @@
+GitHub Actions の Slack 通知用の独自 action で通知先の channel の指定ができるようにして default gems の同期失敗のエラー通知先を追加しています。
