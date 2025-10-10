@@ -1,0 +1,1 @@
+gems/bundled_gems の rdoc のバージョンを更新したうえでテストに使う commit hash の指定も追加しています。
