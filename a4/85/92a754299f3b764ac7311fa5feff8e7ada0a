@@ -1,0 +1,1 @@
+common.mk の make tset-tool ターゲットで ruby を起動する時に TESTS 変数を渡すようにしています。
