@@ -1,0 +1,1 @@
+tool/commit_email.rb のテストで子プロセスの起動時に nkf や base64 などの bundled gems を使うため tool/test/init.rb で GEM_HOME や GEM_PATH をクリアする時に元の値を保存しておいてそれを子プロセス起動時に渡すようにしています。 https://github.com/ruby/ruby/pull/14794
