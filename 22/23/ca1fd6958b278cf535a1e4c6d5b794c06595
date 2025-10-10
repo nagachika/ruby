@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラ/コンパイルオプションをためす workflow で configure 時に --with-gmp を指定したビルドで bignum 関係のテストのみ実行するようにしています。 https://github.com/ruby/ruby/pull/14798
