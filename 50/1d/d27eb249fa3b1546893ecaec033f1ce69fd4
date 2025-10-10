@@ -1,0 +1,1 @@
+GitHub Actions のコミットの同期処理で ssh の鍵ファイルの permission を設定してたところをファイル作成時に umask しておくように変更しています。
