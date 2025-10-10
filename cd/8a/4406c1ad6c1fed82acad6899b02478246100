@@ -1,0 +1,1 @@
+tool/commit_email.rb のテストが Windows 環境だとダミーの sendmail がうまく機能しないので skip しています。
