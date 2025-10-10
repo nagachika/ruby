@@ -1,0 +1,1 @@
+GitHub Actions での default gems の同期処理の Slack へのエラー通知にラベルを追加してエラーの概要がわかるようにしています。
