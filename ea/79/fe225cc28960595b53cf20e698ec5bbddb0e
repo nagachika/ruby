@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL::SSL::SSLContext#tmp_dh のデフォルトとして SSL_CTX_set_dh_auto() 関数の結果を利用するようにしています。
