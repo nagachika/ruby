@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の extconf.rb で OpenSSL の関数 SSL_CTX_set0_tmp_dh_pkey() を検出すべき have_func で関数名を間違えていたのを修正しています。
