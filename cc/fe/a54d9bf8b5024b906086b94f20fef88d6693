@@ -1,0 +1,1 @@
+bundler のテストで --no-keep-file-descriptors というオプションが deprecated から削除になったので使えないことを確認するテストに変更しています。
