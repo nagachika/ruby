@@ -1,0 +1,1 @@
+GitHub Actions の定期実行や API 実行時に Slack 通知が動いていなかったのを修正しています。
