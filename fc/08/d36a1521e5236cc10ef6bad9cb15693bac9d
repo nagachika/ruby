@@ -1,0 +1,1 @@
+コミットメール送信のために追加したツールのファイル名を tool/commit-mail.rb から tool/commit-email.rb に変更しています。
