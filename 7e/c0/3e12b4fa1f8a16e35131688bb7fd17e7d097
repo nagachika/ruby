@@ -1,0 +1,1 @@
+コミット時に ruby-csv のメーリングリストにメール送信するのを GitHub Actions で行なうようにしています。 GitHub Actions の環境から直接はメールが送信できないので従来メール送信してた git.ruby-lang.org に ssh で繋げて sendmail するようにしています。 https://github.com/ruby/ruby/pull/14779
