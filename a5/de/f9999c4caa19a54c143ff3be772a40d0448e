@@ -1,0 +1,1 @@
+GitHub Actions で default gems の upstream の更新を取り込む workflow で git clone 時の fetch-depth の指定を削除しています。前履歴を使ってファイル名の変更の考慮ができるようにするため。
