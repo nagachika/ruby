@@ -1,0 +1,1 @@
+Windows 向けの .bat ファイルや .cmd ファイルで @setlocal で EnableExtensions DisableDelayedExpansion を設定しています。変数展開のタイミングについての設定みたいです。
