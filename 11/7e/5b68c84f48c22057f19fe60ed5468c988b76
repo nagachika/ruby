@@ -1,0 +1,1 @@
+ZJIT で HIR をダンプする時に CCallWithFrame 命令が CallCFunc という表示のままだった(?)ので変更しています。
