@@ -1,0 +1,1 @@
+bundler の Bundler.feature_flag.default_cli_command もフラグから Bundler.settings[:default_cli_command] に移行しています。
