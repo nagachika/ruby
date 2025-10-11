@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 向けの workflow で Rust 向けの C-binding を生成する時に利用する clang のバージョンを 14 → 16 に変更しています。
