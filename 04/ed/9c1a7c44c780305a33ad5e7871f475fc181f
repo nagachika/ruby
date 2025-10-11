@@ -1,0 +1,1 @@
+テスト用の拡張ライブラリの ext/-test-/asan/ の位置を ext/-test-/sanitizers/ に移動しています。
