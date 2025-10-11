@@ -1,0 +1,1 @@
+bundler の Bundler.rubygems.all_specs も deprecate から削除のフェーズにして呼ばれたらエラーを発生させるようにしています。
