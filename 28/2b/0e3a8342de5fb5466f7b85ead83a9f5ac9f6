@@ -1,0 +1,1 @@
+bundler の plugin 機能が有効かどうか? 判定するのに Bundler.feature_flag.plugins? というメソッドを利用していたのを Bundler.settings[:plugins] の有無で判定するように修正しています。
