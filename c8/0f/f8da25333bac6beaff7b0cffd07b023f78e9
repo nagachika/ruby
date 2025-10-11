@@ -1,0 +1,1 @@
+ということで 04ed9c1a7c44c780305a33ad5e7871f475fc181f で解明したテスト用の拡張ライブラリ ext/-test-/sanitizers/ で Test::Sanitizers.lsan_enabled? という LSAN が有効かどうか判定するメソッドを追加しています。
