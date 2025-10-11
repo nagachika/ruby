@@ -1,0 +1,1 @@
+04ed9c1a7c44c780305a33ad5e7871f475fc181f でディレクトリを移動したテスト用の拡張ライブラリ ext/-test-/sanitizers/ で定義していた ASAN が有効化されているか判定するメソッドを Test::Sanitizers.enabled? から Test::Sanitizers.asan_enabled? とメソッド名に ASAN 向けであることがわかるようにしています。
