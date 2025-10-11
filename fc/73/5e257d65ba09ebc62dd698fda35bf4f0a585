@@ -1,0 +1,1 @@
+e1c998ab917ba3a319ca0fd32f0857f1dbace906 の続きで ZJIT で Array#reverse の呼び出しを leaf で省略可能というマークをつけるようにしています。
