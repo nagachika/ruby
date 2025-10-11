@@ -1,0 +1,1 @@
+bundler の Bundler.feature_flag.update_requires_all_flag? もフラグから Bundler.settings[:update_requires_all_flag] に移行しています。
