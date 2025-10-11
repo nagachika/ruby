@@ -1,0 +1,1 @@
+Process.setrlimit のテストで c80ff8da25333bac6beaff7b0cffd07b023f78e9 で導入した判定メソッドを利用して LSAN が有効化されていたら skip するようにしています。
