@@ -1,0 +1,1 @@
+ZJIT 向けの zjit.c で定義していた enum にタグをつけています。 https://github.com/ruby/ruby/pull/14802
