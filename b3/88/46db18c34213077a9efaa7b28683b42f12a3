@@ -1,0 +1,1 @@
+bundler の Bundler.feature_flag.global_gem_cache? も削除して Bundler.settings[:global_gem_cache] に移行しています。
