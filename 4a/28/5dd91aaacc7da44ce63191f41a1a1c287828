@@ -1,0 +1,1 @@
+bundler のテストに default_cli_command という設定についてのテストを追加しています。
