@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 向け workflow で Slack 通知のラベルに os の情報も含めるようにしています。
