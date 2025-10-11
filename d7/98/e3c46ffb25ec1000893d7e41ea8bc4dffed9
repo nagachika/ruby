@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の CCallVariadic という命令の属性にも return_type と elidable というのを追加しています。
