@@ -1,0 +1,1 @@
+Windows で BASERUBY がない時のチェックをする tool/missing-baseruby.bat で RubyVM::InstructionSequence が存在しなかったら利用不可と判定するようにしています。
