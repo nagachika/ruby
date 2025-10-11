@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md と doc/windows.md で BASERUBY として必要な ruby の最低バージョンを 3.1 以降に引き上げています。
