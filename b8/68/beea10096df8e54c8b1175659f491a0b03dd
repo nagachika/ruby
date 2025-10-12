@@ -1,0 +1,1 @@
+コミットの push 時に ruby-csv ML にメールを飛ばすためのツール tool/commit-email.rb で git show コマンド実行時に --no-show-signature オプションをつけてコミットに署名がついている時の表示を抑制するようにしています。
