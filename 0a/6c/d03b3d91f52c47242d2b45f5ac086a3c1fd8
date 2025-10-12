@@ -1,0 +1,1 @@
+ASSERT_vm_locking_with_barrier() という関数を追加して複数 Ractor 利用時に VM ロックを取得しているかどうかだけでなく barrier で他の Ractor が停止しているかもデバッグビルド時にチェックできるようにして、fstring の管理や concurrent_set の実装で利用しています。
