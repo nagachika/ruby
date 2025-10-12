@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に ArrayArefFixnum という Array#[] 専用の命令を追加して引数が Fixnum であることが確実な場合に rb_ary_entry() を直接呼び出すコードを生成する最適化を行うようにしています。 https://github.com/ruby/ruby/pull/14717
