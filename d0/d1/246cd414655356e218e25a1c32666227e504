@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の同期のため upstream のリポジトリを git fetch する時の --depth オプションの値を 500 を指定するようにしています。
