@@ -1,0 +1,1 @@
+tool/commit-email.rb のテストで macOS で configure に --enable-load-relative を指定してビルドしていた場合にうまく動かないためとのことで sendmail を偽装するコマンドを ruby スクリプトからシェルスクリプトに変更しています。
