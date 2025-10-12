@@ -1,0 +1,1 @@
+GC の default 実装で Lazy Sweep の続きの GC を開始する時には rb_gc_vm_barrier() による複数 Ractor の待ちを強制していなかったのをこの時も rb_gc_vm_barrier() を呼び出すようにしています。 dfree 関数などが並列実行できないので。
