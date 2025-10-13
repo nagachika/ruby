@@ -1,0 +1,1 @@
+GitHub Actions の Rust のビルドでの警告をチェックする workflow で cargo doc の実行での警告も検出するようにジョブを追加しています。
