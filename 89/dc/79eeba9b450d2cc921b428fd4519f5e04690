@@ -1,0 +1,1 @@
+テストで子プロセスを起動する assert_separately で LSAN が有効だった時に thread の leak 検出の警告メッセージを削るようにしています。
