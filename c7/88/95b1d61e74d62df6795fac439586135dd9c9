@@ -1,0 +1,1 @@
+rb_bug() で異常終了する時にバックトレースなどを表示する時に環境変数 RUBY_BUGREPORT_NAMESPACE_ENV が設定されていたら Namespace のデバッグのためにマシンスタックの control frame を辿って ep が切り替わるごとに Namespace の情報をダンプする特別なバックトレースを出力するようにしています。
