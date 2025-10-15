@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet#for メソッドの第2引数に true/false を渡す deprecated にしていた呼び方をエラーになるようにしています。
