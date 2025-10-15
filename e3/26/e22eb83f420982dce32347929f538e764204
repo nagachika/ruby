@@ -1,0 +1,1 @@
+bundler で lockfile に記述する PLATFORM の形式として mingw や mswin といった名前は deprecated にしていたのを major バージョンアップに伴ないエラーにするようにしています。
