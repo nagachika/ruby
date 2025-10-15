@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の拡張ライブラリによる html_escape の実装で同じ条件の if 文が連続していたので1つの if 文にまとめるリファクタリング。 https://github.com/ruby/erb/pull/88
