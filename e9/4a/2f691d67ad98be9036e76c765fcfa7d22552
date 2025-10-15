@@ -1,0 +1,1 @@
+Thread 毎にローカルだった $DEBUG や $VERBOSE といった特殊変数が Ractor local になっていたのですがその値が GC の mark 対象になっていなかったので追加しています。まあ通常は nil/false/true などの即値を入れるので実害はあまりなさそうですね。 [ruby-core:123477] [Bug #21638]
