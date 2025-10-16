@@ -1,0 +1,1 @@
+Namespace のデバッグ用の特異メソッド Namespace.is_builtin? を削除しています。
