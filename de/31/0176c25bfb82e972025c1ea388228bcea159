@@ -1,0 +1,1 @@
+ZJIT で String#to_s のような非常に単純な処理のメソッドや Array#[] のように専用の中間表現 HIR での命令が対応しているようなメソッドのインライン展開の実装方法を HIR レベルで対応するようにしています。これにより型推論を用いてより広範囲なメソッド呼び出しがインライン化の対象にできるみたいです。 https://github.com/Shopify/ruby/issues/792 https://github.com/ruby/ruby/pull/14679
