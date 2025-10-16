@@ -1,0 +1,1 @@
+ZJIT で VM の最適化命令 opt_ltlt と opt_aset のプロファイリングを有効化しています。 https://github.com/ruby/ruby/pull/14834
