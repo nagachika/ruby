@@ -1,0 +1,1 @@
+bundler の bundle exec の --keep-file-descriptors オプションのヘルプメッセージをバージョンアップに伴なう変更に追随して変更しています。
