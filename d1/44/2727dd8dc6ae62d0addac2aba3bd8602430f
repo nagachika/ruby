@@ -1,0 +1,1 @@
+ZJIT で Thread#current の呼び出しをインライン化する時に stack frame を積むのを省略する最適化。 https://github.com/Shopify/ruby/issues/795 https://github.com/ruby/ruby/pull/14832
