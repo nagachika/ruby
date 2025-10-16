@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の gemspec ファイルに spec.metadata["changelog_url"] の項目を追加しています。 https://github.com/ruby/erb/pull/8
