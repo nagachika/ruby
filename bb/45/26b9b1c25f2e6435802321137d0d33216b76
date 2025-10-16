@@ -1,0 +1,1 @@
+ZJIT の side-exit の理由の統計情報を得るカウンタを有効にするオプション --zjit-trace-exits に引数で side-exit の理由を指定してそれだけ取得できるようにしています。  https://github.com/ruby/ruby/pull/14831
