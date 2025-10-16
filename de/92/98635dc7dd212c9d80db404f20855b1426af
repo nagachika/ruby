@@ -1,0 +1,1 @@
+ZJIT で VM の最適化命令の opt_size, opt_length, opt_regexpmatch2 などもプロファイリングを有効化しています。 https://github.com/ruby/ruby/pull/14837
