@@ -1,0 +1,1 @@
+bundler の Bundler::FeatureFlag.settings_xxx 系メソッドを削除しています。
