@@ -1,0 +1,1 @@
+Namespace のための USE_NAMESPACE_GVAR_TBL() マクロで root namespace と main namespace でグローバル変数のテーブル参照を分離するようにしているようです。これに伴ない rb_gvar_set() での TODO コメントを削除しています。
