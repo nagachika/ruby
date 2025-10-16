@@ -1,0 +1,1 @@
+bundler のテストに lockfile の platform の指定に mingw を使っている時のテストを追加しています。 f142d1b598d54b71a85f5ab952a96f9af14cf434 で削除したものですがこれは間違いだったようです。
