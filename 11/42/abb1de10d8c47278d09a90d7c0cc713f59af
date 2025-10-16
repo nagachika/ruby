@@ -1,0 +1,1 @@
+doc/contributing/making_changes_to_stdlibs.md の標準添付ライブラリの例として csv が上げられていたのが bundled gems になっているので erb に変更しています。
