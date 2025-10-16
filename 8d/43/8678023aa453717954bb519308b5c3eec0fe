@@ -1,0 +1,1 @@
+rubygems の Gem::Specification の不要なメモ化をやめてインスタンス変数を減らしています。
