@@ -1,0 +1,1 @@
+bundler の checksum のサポートで source が compact index API を提供していないサーバーの時に checksum が得られなくてデフォルトだと lockfile に checksum が記録されないみたいでした。これの対策としてこのような場合は bundle install 時に実際にインストールするパッケージから checksum を計算して利用するようにしています。
