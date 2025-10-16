@@ -1,0 +1,1 @@
+rb_class_remove_subclass_head() 関数につけていた備忘録的な TODO コメントを削除しています。
