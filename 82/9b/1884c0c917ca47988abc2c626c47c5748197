@@ -1,0 +1,1 @@
+prism の整数リテラルに明示的に 1U のように unsigned を指定する suffix を付ける警告除去。
