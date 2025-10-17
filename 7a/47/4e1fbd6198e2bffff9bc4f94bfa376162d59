@@ -1,0 +1,1 @@
+ZJIT で String#getbyte をインライン化する最適化を実装しています。 https://github.com/ruby/ruby/pull/14842
