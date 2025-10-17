@@ -1,0 +1,1 @@
+Namespace のテストで assert_equal の引数の expect と result の順序が逆だったのを修正しています。
