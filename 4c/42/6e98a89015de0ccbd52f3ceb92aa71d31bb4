@@ -1,0 +1,1 @@
+31a1a39ace8971f7ac8e1d192c4e61ae89108422 の再修正で ZJIT で GC を停止する時に rb_gc_disable_no_rest() のかわりに rb_gc_disable() を使うようにしています。再入による異常終了が発生する可能性があったようです。
