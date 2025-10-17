@@ -1,0 +1,1 @@
+ZJIT の Integer#succ もインライン化する最適化を実装しています。 https://github.com/ruby/ruby/pull/14846
