@@ -1,0 +1,1 @@
+ZJIT で de310176c25bfb82e972025c1ea388228bcea159 の最適化の際に Array#[] で引数が Fixnum の時に定数に展開する最適化が receiver の Array が freeze されていない時も行なわれていて不具合になっていたのを修正しています。 https://github.com/ruby/ruby/pull/14841
