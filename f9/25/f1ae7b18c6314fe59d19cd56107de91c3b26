@@ -1,0 +1,1 @@
+ZJIT で BasicObject#initialize メソッドのインライン化の最適化を実装しています。 BasicObject.new って実行回数多いのかな。 https://github.com/ruby/ruby/pull/14856
