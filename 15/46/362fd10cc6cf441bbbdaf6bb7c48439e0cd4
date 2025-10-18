@@ -1,0 +1,1 @@
+89961f8581e0b6c84dd24b01c3e1c0f39bd1fdb6 で configure で定義するようにしたので不要になった include/ruby/win32.h での HAVE_CLOCK_GETTIME などのマクロ定義を削除しています。また Windows 版の代替実装の clock_gettime()/clock_getres() に rb_w32_ の prefix を付けるようマクロ定義を追加しています。
