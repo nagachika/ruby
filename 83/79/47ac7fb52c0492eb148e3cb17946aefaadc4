@@ -1,0 +1,1 @@
+68e03213271f44ae63ad4a4e1ebe3ed59d589a9c で tool/lib/core_assertions.rb でテスト用の拡張ライブラリの require が失敗した時の対応を削除していましたが、やっぱり対応するようにしています。
