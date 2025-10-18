@@ -1,0 +1,1 @@
+configure で IL32LLP64 (つまり int/long が 32bits で long long とポインタが 64bits) という環境、たぶん Windows かな? で 64bits の変数を 32bits にキャストした時の警告を抑制するようにコンパイラオプションを追加するようにしています。当座の回避のためみたいです。
