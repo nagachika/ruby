@@ -1,0 +1,1 @@
+prism をライブラリとして利用する時の Prism.parse の version キーワード引数に "current" をサポートして定数の RUBY_VERSION を取得してこれを利用するようにしています。
