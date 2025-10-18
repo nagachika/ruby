@@ -1,0 +1,1 @@
+b2d4dc9c46719b1a67bd24a4b4cf444c90621a78 で Windows 版の Process.clock_gettime に指定できる clock 種類を増やす時に誤って変数の型を書き漏れていたのを修正しています。
