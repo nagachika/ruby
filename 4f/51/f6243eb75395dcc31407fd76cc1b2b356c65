@@ -1,0 +1,1 @@
+rubygems の Gem::RemoteFetcher#fetch_path で schema に応じたメソッドを呼ぶところで schema が想定される文字列であることをチェックしています。
