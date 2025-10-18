@@ -1,0 +1,1 @@
+Windows 版での Process.clock_gettime で指定できる clock の種類の定数を CLOCK_PROCESS_CPUTIME_ID や CLOCK_THREAD_CPUTIME_ID を追加しています。
