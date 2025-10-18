@@ -1,0 +1,1 @@
+f5d3b6e6261569a7205b637052d1fec45ae4620b で prism の Prism.parse の version: "current" サポートの実装で Gem::Version に依存していたのをやめて "." で分割する独自実装を書いています。
