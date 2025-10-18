@@ -1,0 +1,1 @@
+ZJIT で脱最適化のために side-exit できるように命令を書き換えられる patchpoint で再定義などにより side-exit した時の side-exit の理由別カウンタですべての patchpoint が1つにまとめられていたのを、さらに patchpoint の追加理由によってカウンタを分けるようにしています。 https://github.com/ruby/ruby/pull/14858
