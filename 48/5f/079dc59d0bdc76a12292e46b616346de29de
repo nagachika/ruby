@@ -1,0 +1,1 @@
+configure で Windows 環境や macOS での objcopy コマンドに空のコマンド ":" の指定を追加しています。元々 ac_cv_prog_ac_ct_OBJCOPY という変数は設定していましたがこれに加えて ac_ct_OBJCOPY と ac_cv_prog_OBJCOPY も定義しています。これらは何が違うんだろう。
