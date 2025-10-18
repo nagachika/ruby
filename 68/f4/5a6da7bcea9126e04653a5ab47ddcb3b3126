@@ -1,0 +1,1 @@
+f5d3b6e6261569a7205b637052d1fec45ae4620b の prism の変更時に追加したテストの assertion で RUBY_VERSION のフォーマットが x.y.z になってる前提になってたものを削除しています。
