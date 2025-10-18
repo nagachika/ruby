@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 用の workflow の actions/setup-python が ppc64le や s390x の環境でうまく動かないのでこれらの環境では Java 版を利用する? ように対応しています。
