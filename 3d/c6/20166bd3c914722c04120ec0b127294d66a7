@@ -1,0 +1,1 @@
+ win32/install-msys-packages.cmd という Windows 環境でのビルド環境のセットアップ? のためのスクリプトを追加しています。
