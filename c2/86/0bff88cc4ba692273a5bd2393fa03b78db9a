@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 版の workflow で arm64 の環境でのビルドも追加しています。
