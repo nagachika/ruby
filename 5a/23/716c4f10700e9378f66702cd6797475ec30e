@@ -1,0 +1,1 @@
+標準添付ライブラリのテストで使う tool/lib/core_assertions.rb の assert_linear_performance で時間を測定するために Process.clock_gettime で使う clock の種類を選ぶ時に Process.clock_getres で充分な精度がない種類は使わないようにしています。
