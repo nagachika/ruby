@@ -1,0 +1,1 @@
+doc/maintainers.md の rubygems と bundler の upstream リポジトリの組織を rubygems から ruby に変更しています。 ruby org に移管になってたんだ。 tool/sync_default_gems.rb などの指定はまだ変わってないですが。
