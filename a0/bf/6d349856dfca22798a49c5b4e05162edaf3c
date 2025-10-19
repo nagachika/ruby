@@ -1,0 +1,1 @@
+ZJIT で Kernel#respond_to? メソッドの呼び出しのインライン化の最適化を実装しています。なかなか複雑な中間表現で実装されていますね。 https://github.com/ruby/ruby/pull/14873
