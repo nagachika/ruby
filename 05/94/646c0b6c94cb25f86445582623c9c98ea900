@@ -1,0 +1,1 @@
+ZJIT で Hash#size もインライン化の最適化をしています。 https://github.com/ruby/ruby/pull/14871
