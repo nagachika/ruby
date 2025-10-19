@@ -1,0 +1,1 @@
+ZJIT で String#empty? のインライン化の最適化対応をしています。 https://github.com/ruby/ruby/pull/14836
