@@ -1,0 +1,1 @@
+bundler の lockfile の PLATFORM に指定する名称から mingw のサポートを削除したのを deprecated に戻しています。
