@@ -1,0 +1,1 @@
+zjit/.gitattributes に hir.rs, cruby_methods.rs, codegen.rs について merge=union の指定を追加しています。マージ時に conflict しにくくするため。 https://github.com/ruby/ruby/pull/14865
