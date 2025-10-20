@@ -1,0 +1,1 @@
+Namespace の実体を管理する Namespace::Entry クラスのインスタンスのうち root namespace に対応するものを初期化する時に T_TYPEDDATA の管理構造体別にして rb_root_namespace_data_type というのを定義しています。識別子の wrap_struct_name の名前だけ変化させていますが、これって同じクラスで別の rb_data_type_t を使うのってありなんだっけ。
