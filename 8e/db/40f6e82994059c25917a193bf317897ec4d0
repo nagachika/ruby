@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の rubygems/bundler の upstream リポジトリを rubygems/rubygems から ruby/rubygems に変更しています。 fb72e188ef2401c5399d855c198783a256a524c0 でドキュメント上変更されていた GitHub の組織の移管への対応ですね。
