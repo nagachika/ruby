@@ -1,0 +1,1 @@
+d7f412e685aee3138213734ad81ffd5fe0e4be8c と eb4a6f0cda35e9f7dc926d5cf66efdfaf3136ac3 からのさらに続きで root namespace の時だけ Namespace::Entry の解放処理で loaded_features_index メンバーの st_table 解放処理を追加しています。
