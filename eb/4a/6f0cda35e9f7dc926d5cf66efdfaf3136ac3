@@ -1,0 +1,1 @@
+d7f412e685aee3138213734ad81ffd5fe0e4be8c からの続きで root namespace 用の Namespace::Entry の free 関数とその他の Namespace のものを分けて、root namespace の時は wrap している構造体そのものは free しないままで、その他の namespace の時は解放するようにしてメモリリークを修正しています。なるほど d7f412e685aee3138213734ad81ffd5fe0e4be8c はこのための変更だったんですね。
