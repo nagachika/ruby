@@ -1,0 +1,1 @@
+bundler の bundle gem で Rust 製の拡張ライブラリを含む時の Cargo.toml のテンプレートで magnus というライブラリのバージョン指定を更新しています。
