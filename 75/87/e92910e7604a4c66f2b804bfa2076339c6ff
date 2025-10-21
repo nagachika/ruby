@@ -1,0 +1,1 @@
+ISeq の peephole 最適化で Range の両端がリテラルの時の最適化が始点に条件分岐を含むような式があるケースでも誤って効いてしまって、不正な ISeq を生成して stack inconsistency error で異常終了してしまう不具合を修正しています。 [ruby-core:123500] [Bug #21644]
