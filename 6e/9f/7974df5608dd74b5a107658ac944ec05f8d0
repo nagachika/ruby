@@ -1,0 +1,1 @@
+doc/contributing/concurrency_guide.md というドキュメントを追加して VM の lock や barrier の機構についてや割り込みと timer thread の働きなどについて追記しています。
