@@ -1,0 +1,1 @@
+ZJIT で引数の処理のための VM 命令 expandarray の JIT コンパイル対応を実装して、このために中間表現 HIR にもいくつか命令を追加しています。 https://github.com/ruby/ruby/pull/14847
