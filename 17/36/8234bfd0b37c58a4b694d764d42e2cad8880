@@ -1,0 +1,1 @@
+ZJIT で Integer#% に対応する中間表現 FixnumMod は定義されていたもののその機械語の生成が実装されていなかったので実装を追加しています。 https://github.com/ruby/ruby/pull/14857
