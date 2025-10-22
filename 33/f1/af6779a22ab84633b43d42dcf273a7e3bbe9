@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の Param 命令のパラメーター idx が未使用だったので削除しています。 https://github.com/ruby/ruby/pull/14872
