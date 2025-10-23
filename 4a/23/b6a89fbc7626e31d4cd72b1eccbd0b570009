@@ -1,0 +1,1 @@
+Namespace の実装で Namespace 毎の rb_classext_t の構造体を st_table で管理するために追加する RCLASS_SET_NAMESPACE_CLASSEXT() というマクロで rb_st_insert() を直接使っているのを st_update() を利用する rb_class_set_namespace_classext() という関数を定義して使うようにして、既に対応するエントリがあった時にメモリリークしてしまっていた不具合を修正しています。
