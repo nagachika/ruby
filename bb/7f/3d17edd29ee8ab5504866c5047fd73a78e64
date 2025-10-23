@@ -1,0 +1,1 @@
+35c2230734e65e8ab55aa718ca6ea02ca9622984 と同様に RUBY_OFFSET_RSTRING_LEN などの定数を YJIT と ZJIT から参照するための実装を jit.c に移動して共有しています。
