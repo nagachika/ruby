@@ -1,0 +1,1 @@
+String#scan の rdoc 用コメントを doc/string/scan.rdoc という独立したファイルに切り出す変更。 https://github.com/ruby/ruby/pull/14884
