@@ -1,0 +1,1 @@
+ZJIT で attr_writer によるメソッドでインスタンス変数を設定する処理をインライン化している場合に receiver が freeze されていて FrozenError が発生した時に例外処理のための stack frame が省略されているため異常終了してしまっていた不具合を修正しています。
