@@ -1,0 +1,1 @@
+rb_class_classext_free() という関数の実装を gc.c から class.c に移動しています。
