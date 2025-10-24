@@ -1,0 +1,1 @@
+9a75c05b5ab7eaee9e3db14b5651034bb414aa5e で ZJIT の --zjit-trace-exits オプションのトレース情報でサンプリング数が 0 のものを表示しない変更を revert しています。 https://github.com/ruby/ruby/pull/14905
