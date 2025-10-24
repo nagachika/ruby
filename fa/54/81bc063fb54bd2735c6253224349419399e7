@@ -1,0 +1,1 @@
+YJIT 向けに定義していた rb_yjit_iseq_builtin_attr() という関数を rb_jit_iseq_builtin_attrs() に改名して jit.c に移動し YJIT と ZJIT で共有するようにしています。またこれを使って ZJIT から InvokeBuiltin という HIR の命令を処理する時に対象のメソッドが leaf かどうか判定して不要な control frame の push を抑制できるようにしています。 https://github.com/Shopify/ruby/issues/670
