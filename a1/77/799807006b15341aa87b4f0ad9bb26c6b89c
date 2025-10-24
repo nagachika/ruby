@@ -1,0 +1,1 @@
+45907b1b00d09ce2c40f5073ff540d8b63217d96 と bc00c4468e0054ca896d2b83d3020180915f64cf の変更の追随で GC の実装インタフェースに rb_gc_impl_checking_shareable() という関数を追加して rb_gc_obj_shareable_p() を gc.c に引き上げて default 実装と mmtk 実装で共有するようにしています。mmtk では使ってないですが。
