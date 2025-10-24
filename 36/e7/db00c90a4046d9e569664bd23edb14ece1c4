@@ -1,0 +1,1 @@
+拡張ライブラリ socket の TCPSocket.new の rdoc 用コメントの call-seq にキーワード引数 open_timeout の記述を追記しています。
