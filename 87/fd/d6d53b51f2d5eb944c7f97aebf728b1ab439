@@ -1,0 +1,1 @@
+ZJIT 向けの bisect ツール tool/zjit_bisect.rb にテスト実行に make test-all などの make で実行するコマンドに対応するようにしています。 https://github.com/ruby/ruby/pull/14584
