@@ -1,0 +1,1 @@
+ZJIT で String#<< メソッドに専用の中間表現 HIR の命令 StringAppend を追加して rb_str_buf_append() の呼び出しを直接行うように最適化しています。 https://github.com/ruby/ruby/pull/14861
