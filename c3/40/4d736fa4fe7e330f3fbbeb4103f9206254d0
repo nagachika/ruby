@@ -1,0 +1,1 @@
+fa5481bc063fb54bd2735c6253224349419399e7 の続きで ZJIT の HIR の InvokeBuiltin 命令のコード生成時に leaf フラグを利用するようにしています。
