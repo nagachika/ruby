@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#binmode の rdoc 用コメントのリンクの修正。 https://github.com/ruby/ruby/pull/147
