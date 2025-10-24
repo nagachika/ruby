@@ -1,0 +1,1 @@
+ZJIT の side-exit のプロファイル情報を出力するオプション --zjit-trace-exits に side-exit の種類を指定する引数に不正な文字列が渡された時の対応を追加しています。 https://github.com/ruby/ruby/pull/14911
