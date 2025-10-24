@@ -1,0 +1,1 @@
+include/ruby/ractor.h に RB_OBJ_SET_FROZEN_SHAREABLE() という inline 関数を追加してあるオブジェクトを freeze するのと Ractor sharable にするのを同時にセットできるようにしています。またデバッグのために STRICT_VERIFY_SHAREABLE というマクロを定義してビルドするとこの関数が呼ばれた時にそのオブジェクトから参照されるオブジェクトが全て Ractor sharable か検証するチェックが走るようにしています。
