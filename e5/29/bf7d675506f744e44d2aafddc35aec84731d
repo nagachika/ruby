@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 版の workflow で arm64 アーキテクチャで clang を使うビルド? で make test までで止めてたのを make check で test-all や rubyspec まで実行するようにしています。
