@@ -1,0 +1,1 @@
+bundler の bundle console サブコマンドで irb の読み込みに失敗した場合の bundled gems の irb を読み込むための Gem::BUNDLED_GEMS.force_activate を使ったリトライを追加しています。
