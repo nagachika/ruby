@@ -1,0 +1,1 @@
+ZJIT の Array#<< と Array#push が 1引数の時に HIR の ArrayPush 命令にして rb_ary_push() 関数の直接呼び出しに最適化させています。 https://github.com/ruby/ruby/pull/14926
