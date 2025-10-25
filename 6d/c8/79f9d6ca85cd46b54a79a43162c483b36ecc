@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO.new の rdoc 用コメントの手直しと StringIO#binmode の rdoc 用コメントのリンク修正。 https://github.com/ruby/stringio/pull/144
