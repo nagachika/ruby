@@ -1,0 +1,1 @@
+d7f412e685aee3138213734ad81ffd5fe0e4be8c で Namespace::Entry の T_TYPEDDATA の構造体設定を root namespace で別にする変更の追加修正で親クラスならぬ親 rb_data_type_t 型を指定するメンバーに rb_namespace_data_type を指定するようにしています。なるほどこういう指定ができるんですね。
