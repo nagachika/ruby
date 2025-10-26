@@ -1,0 +1,1 @@
+ZJIT で String#length, String#bytesize, String#size などのメソッドのアノテーションを追加してメソッドコールではなく直接 C の関数が呼び出されるようにして、さらに control frame を省略して呼び出すよう最適化しています。 https://github.com/ruby/ruby/pull/14928
