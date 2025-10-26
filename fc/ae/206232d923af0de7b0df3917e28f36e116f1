@@ -1,0 +1,1 @@
+String#sub! の rdoc 用コメントを String#sub を参照するように簡略化しています。
