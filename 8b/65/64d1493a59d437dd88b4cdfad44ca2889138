@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の CCallWithFrame 命令で machine stack の(?)オーバーフローチェックのコードを生成するようにしています。
