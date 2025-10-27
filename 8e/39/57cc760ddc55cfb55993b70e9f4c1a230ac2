@@ -1,0 +1,1 @@
+af8c448129f07faf55248e583a7e5a1b8d55600f からの続きで Process のテスト test/ruby/test_process.rb で macOS の時に伝播させる環境変数に TMPDIR を追加しています。 GitHub Actions の macOS の環境で自動的に TMPDIR が設定されるのでそれを上書きするためみたいです。
