@@ -1,0 +1,1 @@
+Unicode の normalize のためのモジュール UnicodeNormalize を定義した lib/unicode_normalize/normalize.rb のソートのアルゴリズムを改善して最適化しています。
