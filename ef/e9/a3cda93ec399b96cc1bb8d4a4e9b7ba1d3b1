@@ -1,0 +1,1 @@
+Namespace のテストに root namespace に Namespace#eval でファイルを load させた時のテストを追加しています。
