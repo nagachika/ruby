@@ -1,0 +1,1 @@
+tool/lib/vcs.rb のコミットログから ChangeLog を生成する処理で ruby/foo#100 みたいな表記を GitHub へのリンクに置換するようにしています。
