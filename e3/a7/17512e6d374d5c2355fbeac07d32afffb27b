@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#closed? の rdoc 用コメントにサンプルを追記して close_read, close_write との関係を明示しています。
