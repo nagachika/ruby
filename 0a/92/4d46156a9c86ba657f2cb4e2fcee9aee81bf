@@ -1,0 +1,1 @@
+T_TYPEDDATA 型オブジェクトの wrap している構造体ポインタを得るための RTYPEDDATA_GET_DATA() で embed されている時のアドレス計算をメンバーの参照に置き換えています。
