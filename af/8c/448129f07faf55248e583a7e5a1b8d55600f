@@ -1,0 +1,1 @@
+Process のテスト test/ruby/test_process.rb で Linux の環境で環境変数 LD_PRELOAD を子プロセスに伝播させる変数として明示的に指定してたのをやめています。 RbConfig::CONFIG['PRELOADENV'] の設定を使うところがあってここでカバーされるので冗長だったようです。
