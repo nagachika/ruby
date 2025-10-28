@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO クラスの rdoc 用コメントを独立したファイル doc/stringio/stringio.md に分離しています。
