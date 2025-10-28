@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の win32-registry の gemspec ファイルで spec.files から除外するファイルリストの .gitignore などの git 関係のファイルの追加と除外方法を git ls-files のオプションを使う方式に変更しています。
