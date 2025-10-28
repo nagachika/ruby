@@ -1,0 +1,1 @@
+bundler の major version 更新により不要になった if 文の条件を削除しています。
