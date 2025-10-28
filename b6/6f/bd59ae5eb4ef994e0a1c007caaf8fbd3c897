@@ -1,0 +1,1 @@
+vm_method.c の rb_vm_ccs_invalidate_and_free() に static 修飾子を追加しています。
