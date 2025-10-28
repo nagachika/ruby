@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#closed_read? の rdoc 用コメントにサンプルコードを追加しています。 https://github.com/ruby/stringio/pull/152
