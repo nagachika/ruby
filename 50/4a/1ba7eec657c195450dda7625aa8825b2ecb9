@@ -1,0 +1,1 @@
+bundler のテストで bundle lock のテストのサンプルの Gemfile に uri.gem を使ってたのが default gems の uri のバージョン更新でエラーになる? みたいで foo というダミーの gem を使うように修正しています。
