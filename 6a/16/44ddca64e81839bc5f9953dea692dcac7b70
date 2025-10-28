@@ -1,0 +1,1 @@
+bundler のテストで環境変数 GEM_HOME の影響でテストが失敗する場合があったそうで spec_helper.rb に gem "diff-lcs" を追加しています。うーん、なんだろうこれ。
