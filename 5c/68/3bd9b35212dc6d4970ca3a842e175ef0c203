@@ -1,0 +1,1 @@
+String#succ の rdoc 用コメントを独立したファイル doc/string/succ.rdoc に分離してサンプルを少し増やしています。
