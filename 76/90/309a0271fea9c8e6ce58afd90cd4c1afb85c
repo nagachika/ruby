@@ -1,0 +1,1 @@
+組み込みクラスになった Pathname の標準添付ライブラリの名残りの lib/pathname.rb の rdoc 用コメントに一部メソッドが require "pathname" が必要なことを追記しています。 https://bugs.ruby-lang.org/issues/21640#note-16
