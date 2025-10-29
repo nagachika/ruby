@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream のコミットを cherry-pick する時に conflict した場合に gitg diff を表示するようにしています。
