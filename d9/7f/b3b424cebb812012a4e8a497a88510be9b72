@@ -1,0 +1,1 @@
+ZJIT の side-exit のプロファイル用の --zjit-trace-exits オプション指定時の出力時に出力先ファイルをフルパスで表示するようにしています。 https://github.com/ruby/ruby/pull/14966
