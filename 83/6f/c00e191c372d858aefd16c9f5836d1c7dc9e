@@ -1,0 +1,1 @@
+String#swapcase の rdoc 用コメントを独立したファイル doc/string/swapcase.rdoc に切り出しサンプル追加しています。
