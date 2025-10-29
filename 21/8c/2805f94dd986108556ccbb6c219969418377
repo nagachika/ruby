@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#each_codepoint の rdoc 用コメントにサンプルコードを追加。
