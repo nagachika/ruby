@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#each_char の rdoc 用コメントのサンプルコード追加。 https://github.com/ruby/stringio/pull/158
