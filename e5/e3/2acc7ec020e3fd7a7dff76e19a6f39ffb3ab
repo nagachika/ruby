@@ -1,0 +1,1 @@
+ZJIT の型推論に Kernel#frozen? が真偽値(true/false)を返すというアノテーションを追加しています。
