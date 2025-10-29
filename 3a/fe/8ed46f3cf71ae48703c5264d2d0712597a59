@@ -1,0 +1,1 @@
+rubygems の Gem::Installer#default_spec_file で対象のディレクトリがなければ掘る処理を追加しています。
