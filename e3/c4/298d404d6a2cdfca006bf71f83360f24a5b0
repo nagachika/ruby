@@ -1,0 +1,1 @@
+String#swapcase! の rdoc 用コメントを swapcase を参照するように簡略化。
