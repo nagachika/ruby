@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトの CODE_OF_CONDUCT.md のテンプレートを Ruby 自体の CoC をベースにしたシンプルなものにしています。
