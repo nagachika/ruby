@@ -1,0 +1,1 @@
+d67aba8a5d81383880e05504de9a52ab6b2a015e の対応? のためテストで使うヘルパーメソッドとして Gem::Installer#install_default_gem というメソッドを追加定義しています。
