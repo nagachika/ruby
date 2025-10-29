@@ -1,0 +1,1 @@
+ZJIT の型推論で Symbol#to_s と Symbol#name に戻り値が String であることを指定しています。
