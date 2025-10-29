@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の InvokeBuiltin 命令に戻り値の型のパラメーターを追加しています。
