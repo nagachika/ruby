@@ -1,0 +1,1 @@
+rubygems の Gem::Installer のオプションの install_as_default という設定の対応を削除しています。
