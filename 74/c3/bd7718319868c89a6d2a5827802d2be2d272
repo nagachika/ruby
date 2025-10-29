@@ -1,0 +1,1 @@
+a9f24aaccb28b786068cce9df0d6beaf84f7ce7f で String のメソッドのアノテーションを追加してメソッド呼び出しを C の関数を直接呼び出すようにした時に String#bytesize のエントリが重複して追加されていたので削っています。 https://github.com/ruby/ruby/pull/14968
