@@ -1,0 +1,1 @@
+ZJIT の低レイヤの中間表現 LIR の ParallelMov という命令の書き込み先としてメモリをサポートする拡張をしています。 https://github.com/ruby/ruby/pull/14975
