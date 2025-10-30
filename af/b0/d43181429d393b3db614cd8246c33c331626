@@ -1,0 +1,1 @@
+GitHub Actions で ZJIT を有効にしたテストの実行時に --seed オプションを指定して再現性を保つようにしていたのを削除しています。 https://github.com/ruby/ruby/pull/14976
