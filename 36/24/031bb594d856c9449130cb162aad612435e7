@@ -1,0 +1,1 @@
+ZJIT で Kernel#nil? および NilClass#nil? を定数としてインライン展開する最適化を追加しています。
