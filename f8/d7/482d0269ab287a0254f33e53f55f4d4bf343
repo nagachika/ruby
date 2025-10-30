@@ -1,0 +1,1 @@
+rubyspec の Symbol#inspect のテストで UTF-8 の文字を \uXXXX の記法を使うようにしています。
