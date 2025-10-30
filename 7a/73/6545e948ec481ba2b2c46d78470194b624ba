@@ -1,0 +1,1 @@
+ZJIT で Array#pop メソッドで直接 rb_ary_pop() を呼び出す最適化を実装しています。 https://github.com/Shopify/ruby/issues/814 https://github.com/ruby/ruby/pull/14933
