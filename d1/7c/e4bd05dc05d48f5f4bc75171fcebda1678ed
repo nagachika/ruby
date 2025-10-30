@@ -1,0 +1,1 @@
+Marhshal.dump の rdoc 用コメントで dump できないクラスの例として古い T_DATA 型オブジェクトのことをさしていたほうの Data クラスが上げられていたので削除しています。今は Struct の一種になっているので dump できそうですね。 [ruby-core:123569] [Bug #21652]
