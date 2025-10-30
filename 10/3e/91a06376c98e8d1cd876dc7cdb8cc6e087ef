@@ -1,0 +1,1 @@
+rubyspec の Symbol#inspect のテストで ruby 1.8 以前の古い挙動も許容するようにしてたところを削除しています。
