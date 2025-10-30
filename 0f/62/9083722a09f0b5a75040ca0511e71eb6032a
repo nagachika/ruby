@@ -1,0 +1,1 @@
+拡張ライブラリ date のテストで Time に nsec や subsec メソッドがあるかどうかのチェックに Time.allocate でインスタンスを作って respond_to? でチェックしていたのを method_defined? でクラスから直接確認するようにしています。
