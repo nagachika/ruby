@@ -1,0 +1,1 @@
+doc/syntax/refinements.rdoc のドキュメントから Refinements と Module#include, #prepend の関係について記述したところを削除しています。これは実態にあってなかったのかな?
