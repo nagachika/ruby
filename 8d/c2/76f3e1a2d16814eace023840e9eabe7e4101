@@ -1,0 +1,1 @@
+Windows 版でビルドのために vcpkg でサードパーティーライブラリをインストールするための vcpkg.json で vcpkg のバージョン指定の commit hash を更新しています。
