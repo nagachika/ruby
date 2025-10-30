@@ -1,0 +1,1 @@
+tool/commit-email.rb のテストである tool/test/test_commit_email.rb で teardown にダミーの sendmail コマンド用のファイルの後始末を追加しています。
