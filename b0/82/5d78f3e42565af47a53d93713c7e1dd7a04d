@@ -1,0 +1,1 @@
+tool/rbinstall.rb で rubygems の削除された Gem::Installer#install_with_default_gem に依存しているところがあったので独自に実装するようにしています。
