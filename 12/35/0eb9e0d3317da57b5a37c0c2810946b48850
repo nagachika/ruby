@@ -1,0 +1,1 @@
+IO#wait_readable や IO#wait_priority などのメソッドや拡張ライブラリ io/wait の代替実装や IO#nread なども、IO#ungetc により書き戻された文字列をサポートするようにしています。従来は IO#ungetc の書き戻しがあると byte 読み込みのオペレーションとしてチェックが走り IOError 例外が発生するようになっていました。 [ruby-core:123389] [Bug #21625]
