@@ -1,0 +1,1 @@
+String#encode の変換できない時の fallback 呼び出し時のメモリリークを修正しています。
