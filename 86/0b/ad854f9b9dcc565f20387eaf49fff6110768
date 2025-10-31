@@ -1,0 +1,1 @@
+同様に rb_hook_list_t という構造体の GC mark 処理する rb_hook_list_mark_and_move() という関数でも Ractor sharable のチェックを厳密にする時に処理全体をスキップするようにしています。
