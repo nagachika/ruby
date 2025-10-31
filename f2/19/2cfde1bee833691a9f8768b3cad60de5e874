@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の compile_side_exits という関数を compile_exits に改名しています。
