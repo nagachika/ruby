@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の win32/resolv で require 'win32/registry' が失敗した時に捕捉する例外に Gem::LoadError も追加しています。 [ruby-core:123504] [Bug #21645]
