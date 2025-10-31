@@ -1,0 +1,1 @@
+Ractor オブジェクトが GC で mark される時に別の Ractor から受け取るオブジェクトの queue を mark する時に Ractor sharable のチェックを厳しく実行している時は sharable でないオブジェクトが queue に含まれているとエラーになってしまうので mark をスキップするようにしています。え、いいのかな?
