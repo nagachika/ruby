@@ -1,0 +1,1 @@
+ZJIT のデバッグのために低レベル中間表現 LIR のダンプ機能を強化しています。 https://github.com/ruby/ruby/pull/14986
