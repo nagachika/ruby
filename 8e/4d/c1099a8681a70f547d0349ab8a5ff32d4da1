@@ -1,0 +1,1 @@
+Ractor の作成時に rb_ractor_t::name に格納する文字列オブジェクトを Ractor sharable としてマークするようにしています。
