@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence の保持するオブジェクト参照を GC の mark 処理する時に Ractor sharable のチェックを厳密にしているとエラーになるみたいなのでスキップしています。
