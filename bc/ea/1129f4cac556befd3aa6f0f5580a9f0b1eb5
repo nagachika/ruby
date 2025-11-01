@@ -1,0 +1,1 @@
+同じく正規表現エンジンで過去に最適化のために修正したけど効果がなかったという変更の revert を upstream から取り込んでいます。 https://github.com/k-takata/Onigmo/commit/cef834cb3a6e278fa252f52b704c65175a970ac0
