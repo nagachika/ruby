@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の VERSION 定数と VERSION_CODE 定数の指定のしかたを変更しています。元は VERSION_CODE を代入してここから VERSION を構築していましたが逆に VERISON を代入してそこから VERSION_CODE を整形するようにしています。
