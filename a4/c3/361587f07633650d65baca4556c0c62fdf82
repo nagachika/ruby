@@ -1,0 +1,1 @@
+GC の mmtk 実装のための Cargo.toml と Cargo.lock を更新して mmtk-core のバージョンを新しくしています。
