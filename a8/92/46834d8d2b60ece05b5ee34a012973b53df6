@@ -1,0 +1,1 @@
+正規表現エンジン Onigmo の upstream から skip table の初期化タイミングの間違いで未初期化の状態のテーブルを使ってしまう可能性があった不具合を修正しています。 https://github.com/k-takata/Onigmo/pull/120
