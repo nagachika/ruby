@@ -1,0 +1,1 @@
+正規表現エンジン Onigmo で OnigCodePoint の変数の値が負になるような演算順序になってたのを修正しているのを取り込んでいます。 https://github.com/k-takata/Onigmo/pull/107
