@@ -1,0 +1,1 @@
+標準添付ライブラリ uri の URI::DEFAULT_PARSER という定数を参照するのをやめて URI.parser= で parser を入れ替えた時に URI::PARSER 定数を設定しなおしてこの定数を参照するようにしています。これ multi thread で remove_const して const_set する瞬間にエラーになるタイミングができたりしないかな。
