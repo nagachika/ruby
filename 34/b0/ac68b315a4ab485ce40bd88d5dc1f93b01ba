@@ -1,0 +1,1 @@
+ZJIT で splat 引数を使ったメソッド呼び出しで side-exit が発生するのを避けるため最初からあきらめて通常のメソッド呼び出し機構を使うようにしているようです。 https://github.com/ruby/ruby/pull/15005
