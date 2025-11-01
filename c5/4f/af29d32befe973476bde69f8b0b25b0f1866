@@ -1,0 +1,1 @@
+GitHub Actions のリリース作業用の workflow で Docker イメージのビルドの GitHub Actions を起動するためのステップで呼び出す workflow の指定をパスでより明確にするようにしています。リポジトリだけ指定して起動することもできるんですね。
