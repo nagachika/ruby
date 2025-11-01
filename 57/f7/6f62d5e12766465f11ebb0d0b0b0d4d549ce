@@ -1,0 +1,1 @@
+ZJIT の型推論の不具合の workaround で Kernel#class メソッドが返す型を Class と指定していたのを一時的に? やめています。 https://github.com/ruby/ruby/pull/15001
