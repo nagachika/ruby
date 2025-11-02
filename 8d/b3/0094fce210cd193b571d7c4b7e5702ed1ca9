@@ -1,0 +1,1 @@
+ZJIT の BasicObject#!= の annotation から no_gc, leaf, elidable といった属性を削除しています。実際には BasicObject#!= の実装は "==" メソッドを rb_funcall() で呼び出してからそれを否定するというものだったため、メソッド呼び出し機構で任意の ruby コード実行が行なわれる可能性があるので最適化できなかったためということみたいです。
