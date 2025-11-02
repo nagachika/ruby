@@ -1,0 +1,1 @@
+拡張ライブラリ json で babf50e33bb0d9e1f3c37d11c1cfdc50c4f5bc7e に続いて parse 時の空白をスキップする処理にも SWAR という SIMD 命令を利用する実装による最適化を追加しています。
