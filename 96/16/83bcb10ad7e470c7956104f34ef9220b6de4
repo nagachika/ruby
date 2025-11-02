@@ -1,0 +1,1 @@
+static link された拡張ライブラリの Init_xxx() 関数を require した Namespace 内で実行するようにしています。通常の(共有ライブラリの)拡張ライブラリの時はファイル自体にコピーを Namespace ごとに作るようですが static link されている時は Init_xxx() を複数回呼ぶことになるのかな?
