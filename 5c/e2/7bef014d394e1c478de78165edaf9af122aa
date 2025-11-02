@@ -1,0 +1,1 @@
+defs/gmake.mk で make bump_news というターゲットで NEWS.md を doc/NEWS/NEWS-x.y.0.md に移動して NEWS.md を空にする処理を追加して make matz で NEWS の更新も行なうようにしています。
