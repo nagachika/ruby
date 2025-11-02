@@ -1,0 +1,1 @@
+33a026fedd43fa5472937e77834397742fed6180 の続きで Ractor.make_sharable に Proc オブジェクトを渡して Ractor::Error が発生した時のメッセージまでチェックするようにしています。
