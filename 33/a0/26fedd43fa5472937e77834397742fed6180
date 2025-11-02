@@ -1,0 +1,1 @@
+Ractor.make_shareable で Proc を変換するテストで self が sharable な場合に成功することもテストするようにしています。
