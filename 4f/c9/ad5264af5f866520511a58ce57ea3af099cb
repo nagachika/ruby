@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_populate_cc() でどちらを通っても結果が同じなので不要だった分岐を削除しています。
