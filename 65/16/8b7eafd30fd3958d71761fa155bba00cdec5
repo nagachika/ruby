@@ -1,0 +1,1 @@
+デバッグビルド時にのみ定義する Namespace.root, Namespace.main などのデバッグ用メソッドの定義を制御する preprocessor 分岐の条件で RUBY_DEBUG が 0 で定義されてた時はデバッグビルド扱いにしないように修正しています。
