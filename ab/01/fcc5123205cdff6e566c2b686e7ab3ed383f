@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で panic 時に低レベル中間表現 LIR のダンプをする処理の表示する行数を減らして、出力先を標準出力から標準エラー出力に変更しています。 https://github.com/ruby/ruby/pull/15019
