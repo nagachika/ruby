@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_populate_cc() 内でメソッドがみつからなかった時の不要な call cache の複製を抑制するため処理順序を入れ替えています。
