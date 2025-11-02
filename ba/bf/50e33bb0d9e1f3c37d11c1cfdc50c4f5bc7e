@@ -1,0 +1,1 @@
+拡張ライブラリ json の json_parse_digits() に CPU が little endian の時に SWAR という SIMD 命令を利用した実装を使って最適化しています。 SWAR って福岡 Rubyist 会議 04 で Matz が mruby の実装に試したという話をされてましたね。
