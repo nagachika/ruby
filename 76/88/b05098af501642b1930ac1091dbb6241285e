@@ -1,0 +1,1 @@
+ZJIT で alias で作られたメソッドの呼び出しを最適化対象から外していたのを VM_METHOD_TYPE_ALIAS のメソッドはメソッドの実体まで辿る探索を行なってそれを元に最適化可否を判定するようにしています。 https://github.com/ruby/ruby/pull/15018
