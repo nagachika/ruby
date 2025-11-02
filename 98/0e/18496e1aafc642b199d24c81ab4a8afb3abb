@@ -1,0 +1,1 @@
+65168b7eafd30fd3958d71761fa155bba00cdec5 と同様に namespace.c のデバッグビルド判定の preprocessor 分岐の条件をもう一箇所修正しています。
