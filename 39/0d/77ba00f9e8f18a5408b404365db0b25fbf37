@@ -1,0 +1,1 @@
+String#encode で fallback 引数の Proc オブジェクトを使った時にその戻り値が String でない時のメモリリークを修正しています。
