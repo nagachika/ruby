@@ -1,0 +1,1 @@
+gems/bundled_gems の irb と repl_type_completor のバージョンをそれぞれ 1.15.3 と 0.1.12 に更新しています。 https://github.com/ruby/ruby/pull/15030
