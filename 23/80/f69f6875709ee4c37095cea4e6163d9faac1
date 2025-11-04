@@ -1,0 +1,1 @@
+dba4c9fbe79bdc3b7679330760d2b27d29a9911a と同様に struct RArray 用の埋め込み時の slot サイズを計算する ary_embed_size() でも struct RArray のサイズを下回らないように修正しています。
