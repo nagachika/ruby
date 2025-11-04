@@ -1,0 +1,1 @@
+bc77a11bd845e4c3d79b990c196fedca37e9ab0b で追加した Namespace のテストのうち添付の拡張ライブラリを全て Namespace 下で require するテストが Windows 版でタイムアウトするとのことで skip しています。
