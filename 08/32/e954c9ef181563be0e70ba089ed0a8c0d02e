@@ -1,0 +1,1 @@
+拡張ライブラリ json の parser のソースコードで共通の処理を関数 json_string_cacheable_p() として切り出すリファクタリング。
