@@ -1,0 +1,1 @@
+struct RString の slot に文字列バッファも埋め込む時に必要になるサイズを計算する rb_str_embed_size() という関数で逆に struct RString 自体よりも必要なサイズが小さい時に struct RString のサイズ(VWA のない場合の本来の slot サイズ)は確保するように修正しています。
