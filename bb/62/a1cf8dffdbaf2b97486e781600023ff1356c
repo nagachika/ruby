@@ -1,0 +1,1 @@
+Namespace のテストで experimental の警告が出るのを無視するように assert_separately に ignore_stderr: true を渡しています。
