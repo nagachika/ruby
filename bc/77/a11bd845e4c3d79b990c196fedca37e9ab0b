@@ -1,0 +1,1 @@
+Namespace のテストに Namespace.current のいろんな Namespace 内でのテストや拡張ライブラリの Namespace 内での require ができるかどうかのテストを追加しています。
