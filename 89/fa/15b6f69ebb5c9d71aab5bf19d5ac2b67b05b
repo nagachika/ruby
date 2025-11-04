@@ -1,0 +1,1 @@
+89fa15b6f69ebb5c9d71aab5bf19d5ac2b67b05b の追加修正で Namespace.root の実装である C 関数のデバッグビルドの範囲から外に出す変更。
