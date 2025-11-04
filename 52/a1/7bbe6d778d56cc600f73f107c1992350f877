@@ -1,0 +1,1 @@
+拡張ライブラリ json で文字列を fstring 化するのに String#-@ を rb_funcall() でメソッド呼び出ししていたのを rb_str_to_interned_str() 関数を直接呼び出すようにしています。この C API が未定義の場合は従来通り rb_funcall() する代替実装でサポートするようにしています。
