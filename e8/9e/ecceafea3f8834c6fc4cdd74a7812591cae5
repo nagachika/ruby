@@ -1,0 +1,1 @@
+rb_define_class() や rb_define_module() で Namespace をチェックしていた分岐が不要で、定数の定義が rb_namespace_t::ns_object 配下に定義しても通常の処理のままでも追加位置が変わらなかったということで分岐を削除しています。
