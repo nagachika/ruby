@@ -1,0 +1,1 @@
+gc_continue() で複数 Ractor 利用時に VM barrier を取得する処理を incremental marking や lazy sweep の処理が残っている状態でなければスキップするようにしています。複数 Ractor 利用時のパフォーマンス改善のため。 https://github.com/ruby/ruby/pull/14425
