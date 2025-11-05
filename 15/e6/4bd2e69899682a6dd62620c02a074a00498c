@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#gets の rdoc 用コメントを doc/stringio/gets.rdoc という独立したファイルに分離して説明やサンプルを追記しています。
