@@ -1,0 +1,1 @@
+ZJIT で String#bytesize メソッドの呼び出しを C の関数呼び出しから直接対応する実行コードを生成するインライン化を実装しています。 https://github.com/ruby/ruby/pull/15033
