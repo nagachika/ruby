@@ -1,0 +1,1 @@
+拡張ライブラリ json のいくつかの inline 関数で inline 修飾子と ALWAYS_INLINE() マクロが重複していたので inline を削っています。
