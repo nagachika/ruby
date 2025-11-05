@@ -1,0 +1,1 @@
+2c2eaa3103e5cf1cbfc2b16d9db975a9b8a0399a の rubygems の Gem::Package::TarHeader の定数の文字列を freeze した変更を revert しています。
