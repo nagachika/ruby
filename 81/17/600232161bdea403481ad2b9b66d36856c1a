@@ -1,0 +1,1 @@
+ZJIT で VM 命令の opt_duparray_send の JIT コンパイル対応を追加しています。 https://github.com/ruby/ruby/pull/14885
