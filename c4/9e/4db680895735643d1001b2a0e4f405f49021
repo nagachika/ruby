@@ -1,0 +1,1 @@
+拡張ライブラリ json の json_eat_whitespace() という関数の inline 修飾子のかわりに ALWAYS_INLINE() マクロを利用してより強くインライン化されるように指示しています。
