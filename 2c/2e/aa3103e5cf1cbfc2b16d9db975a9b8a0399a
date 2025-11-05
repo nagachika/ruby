@@ -1,0 +1,1 @@
+rubygems の Gem::Package::TarHeader 配下の文字列を持つ定数の文字列オブジェクトが freeze されていなかったので複数 Ractor での共有ができなかったので freeze するようにしています。
