@@ -1,0 +1,1 @@
+拡張ライブラリ json の rstring_cache_fetch() という関数で ALWAYS_INLINE() マクロを使って常に inline 化する、文字列オブジェクトのバッファを得るのに RSTRING_GETMEM() を利用する、文字列の比較に SIMD 命令を利用した SWAR を使った実装を用いるなどの最適化を施しています。 https://github.com/ruby/json/issue/888
