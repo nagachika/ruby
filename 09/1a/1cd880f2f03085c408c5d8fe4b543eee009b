@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ strscan についてのテストで obsoleted になったメソッドのテストを削除しています。
