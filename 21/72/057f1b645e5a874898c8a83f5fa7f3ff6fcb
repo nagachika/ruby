@@ -1,0 +1,1 @@
+GitHub Actions の tool/sync_default_gems.rb を実行する workflow で ruby 3.4 を利用するようにしています。最近の変更で暗黙のブロックパラメーター it の利用があったため。
