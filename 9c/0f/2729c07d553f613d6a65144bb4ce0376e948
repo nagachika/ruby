@@ -1,0 +1,1 @@
+標準添付ライブラリ stringio の StringIO#internal_encoding の rdoc 用コメントを手直ししています。 https://github.com/ruby/stringio/pull/166
