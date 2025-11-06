@@ -1,0 +1,1 @@
+拡張ライブラリ stringio にテストを追加しています。コミットログをみると upstream では JRuby 向けの実装の修正も含まれていたようです。 https://github.com/jruby/jruby/issues/9035
