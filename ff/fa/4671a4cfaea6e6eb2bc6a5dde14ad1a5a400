@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に e9e5a4a4541eb2612fd8e5621edd15d964751d06 で消しすぎてた StringScanner#rest? メソッドを復活させています。
