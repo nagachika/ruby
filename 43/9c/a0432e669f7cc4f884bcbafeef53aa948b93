@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner::Id という古い CSV や Subversion 時代の自動置換を使った定数の定義を削除しています。
