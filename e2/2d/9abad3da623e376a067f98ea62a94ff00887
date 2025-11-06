@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の strio_nil() という関数の Doxygen 用コメント? の小さな修正。なんかコミットログと内容が違ってそうな気がしますね。 https://github.com/ruby/stringio/pull/168
