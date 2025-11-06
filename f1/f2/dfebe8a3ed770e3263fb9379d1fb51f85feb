@@ -1,0 +1,1 @@
+GC のデフォルト実装で finalizer で登録されたブロックの呼び出しを行う時に複数 Ractor 用の VM ロックを外すように修正しています。 https://github.com/ruby/ruby/pull/15050
