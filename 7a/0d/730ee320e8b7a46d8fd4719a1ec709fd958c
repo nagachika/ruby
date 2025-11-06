@@ -1,0 +1,1 @@
+fffa4671a4cfaea6e6eb2bc6a5dde14ad1a5a400 と同様に rubyspec で strscan のテストを削除した時に StringScanner#rest? のテストも消していたのを復活させています。
