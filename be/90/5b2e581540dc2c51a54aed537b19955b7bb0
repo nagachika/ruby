@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の strio_self() という関数の Doxygen 用? コメントの修正。これもコミットログと内容が一致していないみたいですね。 https://github.com/ruby/stringio/pull/169
