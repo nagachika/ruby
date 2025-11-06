@@ -1,0 +1,1 @@
+ZJIT 用の --zjit-mem-size オプションが ZJIT が使うメモリ全体の上限を指定するはずが実行コードを生成する領域のサイズを指定していたのでこれを修正し、実行コード領域のサイズを個別に指定するために --zjit-exec-mem-size というオプションを追加しています。 https://github.com/ruby/ruby/pull/15041
