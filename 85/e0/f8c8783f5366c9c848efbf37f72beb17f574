@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で uptream からコミットを cherry-pick する時の conflict 解消の方法を変更しています。
