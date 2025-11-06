@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream から取得したコミットのコミットログを書き換えるのに git filter-branch サブコマンドを利用した実装をしていたのを git commit --amend を使うようにシンプルにしています。また --message-filter オプションの対応を削除しています。
