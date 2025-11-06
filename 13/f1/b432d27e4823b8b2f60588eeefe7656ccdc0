@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#rest? メソッドの rdoc 用コメントから obsolete であるという記述を削除しています。
