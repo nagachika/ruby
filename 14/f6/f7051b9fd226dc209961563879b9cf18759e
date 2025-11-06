@@ -1,0 +1,1 @@
+GC の modular GC のインターフェースを規定する gc_function_map 構造体に checking_shareable() という関数のポインタを追加しています。Ractor sharable のチェック厳密化についての関数かな?
