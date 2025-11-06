@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の upstream からの変更の取り込み時に merge commit があった時に、conflict 解消を含む merge commit の場合その変更内容をまとめて取り込むことで upstream のメンテナが行なった conflict 解消をそのまま取り込むことで自動的にマージ可能になる可能性が高いので方針を変更しています。
