@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#string= の rdoc 用コメントの英文修正。 https://github.com/ruby/stringio/pull/172
