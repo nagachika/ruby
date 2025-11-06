@@ -1,0 +1,1 @@
+拡張ライブラリ stescan の不要になった static 変数 id_byteslice を削除しています。
