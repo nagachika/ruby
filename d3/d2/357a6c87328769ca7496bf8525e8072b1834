@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の ZJIT を有効にしたテストの workflow でベンチマークを実行するジョブを追加しています。 https://github.com/ruby/ruby/pull/15040
