@@ -1,0 +1,1 @@
+gems/bundled_gems の test-unit と typeprof のバージョンを更新しています。また NEWS の bundled gems のバージョンリストの power_assert, test-unit のバージョンを更新し、typeprof の項目を追加しています。
