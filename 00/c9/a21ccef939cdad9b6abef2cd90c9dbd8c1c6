@@ -1,0 +1,1 @@
+doc/contributing/glossary.md の用語集に bmethod や cme など CRuby VM 内部構造についての用語を追加しています。またいくつかの説明を少し変更しています。 https://github.com/ruby/ruby/pull/15070
