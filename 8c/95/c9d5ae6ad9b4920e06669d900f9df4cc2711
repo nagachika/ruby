@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.unix_socket_abstract_name? という private な特異メソッドで RUBY_PLATFORM 定数で分岐していたのをメソッド定義自体を RUBY_PLATFORM をみて分岐して中身は固定にしています。
