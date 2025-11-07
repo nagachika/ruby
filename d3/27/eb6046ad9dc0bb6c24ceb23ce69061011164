@@ -1,0 +1,1 @@
+ZJIT で Object Shapes によるオブジェクトのインスタンス変数の保持の形式の想定をして最適化しているところで中間表現 HIR の GuardShape という命令で脱最適化のための guard を入れていて、そこで side-exit した時の統計情報カウンタを追加しています。 https://github.com/ruby/ruby/pull/15052
