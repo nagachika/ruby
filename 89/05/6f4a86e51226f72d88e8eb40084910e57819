@@ -1,0 +1,1 @@
+拡張ライブラリ socket の ext/socket/lib/socket.rb に rdoc 用のタグ :nodoc: を追加して private なメソッドのドキュメント化を抑制しています。またいくつかのクラスメソッドを private にしています。
