@@ -1,0 +1,1 @@
+ZJIT の --zjit-stats で表示する統計情報のメモリ使用量にコード領域だけでなく中間表現の領域やトータルのサイズなども表示するようにしています。 https://github.com/ruby/ruby/pull/15059
