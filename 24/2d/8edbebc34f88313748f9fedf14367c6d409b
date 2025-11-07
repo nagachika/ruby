@@ -1,0 +1,1 @@
+拡張ライブラリがビルドできていることを確認するテストや autoload 関係のテストで assert_separately で子プロセスを起動する時の timeout 値をのばしています。
