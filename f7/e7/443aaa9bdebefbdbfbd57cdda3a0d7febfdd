@@ -1,0 +1,1 @@
+rubyspec の 拡張ライブラリ openssl についてのテストを 18ab5023b63af88eddb083e89e19224e9f25af4d の OpenSSL::Digest のアルゴリズム名不正時の例外クラス変更に追随させています。
