@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Cipher.new の引数に不明なアルゴリズム指定を渡した時の例外を ArgumentError から OpenSSL::Cipher::CipherError に変更しています。これをみると意図的に例外クラスは変えてそうですね。
