@@ -1,0 +1,1 @@
+Namespace でクラスの子クラスからの参照を管理する参照カウンタの増減が atomic でないため異常終了する可能性があったので ATOMIC_LOAD_RELAXED() や RUBY_ATOMIC_FETCH_ADD()、RUBY_ATOMIC_FETCH_SUB() などを利用して atomic に操作するように修正しています。  https://github.com/ruby/ruby/pull/15083
