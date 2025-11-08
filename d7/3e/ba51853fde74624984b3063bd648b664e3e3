@@ -1,0 +1,1 @@
+prism で 1行メソッド定義の引数? 多重代入? にかっこが書いてあるような記法が通ってしまっていたのを SyntaxError にするように修正しています。 [ruby-core:123631] [Bug #21660] https://github.com/ruby/prism/pull/3674
