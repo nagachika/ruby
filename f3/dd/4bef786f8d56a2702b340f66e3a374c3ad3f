@@ -1,0 +1,1 @@
+tool/rbs_skip_tests で json の更新で rbs のテストが失敗しはじめたので skip するようにしています。
