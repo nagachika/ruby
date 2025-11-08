@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Digest.new の引数に不正なアルゴリズム名を指定した時に OpenSSL::Digest::DigestError 例外を発生させるようにしています。 ArgumentError でもいいんではないかな。
