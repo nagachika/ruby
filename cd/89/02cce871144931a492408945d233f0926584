@@ -1,0 +1,1 @@
+拡張ライブラリ json の内部的なメソッド SON::State#[] と SON::State#[]= を deprecated にして警告を出力するようにしています。
