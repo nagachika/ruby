@@ -1,0 +1,1 @@
+50b9d9d355b2c64101ebdd2f2de0e9010bb050dc からの Namespace → Ruby::Box の改名のため変更したファイル名に追随して依存関係や #include のよるヘッダ名指定を変更しています。
