@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT を有効化する macOS 版 workflow で ruby-bench というベンチマーク実行するジョブでは環境変数 MAKEFLAGS をリセットしてデフォルトでセットされてる -j4 を消すようにしています。 https://github.com/ruby/ruby/pull/15084
