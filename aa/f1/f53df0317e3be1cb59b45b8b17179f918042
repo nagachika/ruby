@@ -1,0 +1,1 @@
+YJIT/ZJIT 用の C binding と ABI テストでも Namespace → RubyVM::Box 改名の影響に追随しています。
