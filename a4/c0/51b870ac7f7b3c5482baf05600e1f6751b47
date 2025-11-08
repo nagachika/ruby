@@ -1,0 +1,1 @@
+file.c の rb_path_check() という未使用の関数の定義を削除しています。 include/ruby/internal/intern/file.h に宣言が残ってますね。
