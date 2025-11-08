@@ -1,0 +1,1 @@
+ZJIT の invokeblock のプロファイリング処理(おそらく 02267417da32bf480f7050ff2ab182076aa0ad83 で追加したもの)で VALUE の値を保持するところで GC.compact によるオブジェクト移動への追随の実装が不足していて異常終了する可能性があったのを修正しています。 https://github.com/ruby/ruby/pull/15085
