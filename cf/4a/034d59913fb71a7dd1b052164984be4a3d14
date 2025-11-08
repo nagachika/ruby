@@ -1,0 +1,1 @@
+vm.c の定数のキャッシュ管理用 st_table の memsize 対応のコールバックであやまって rb_st_memsize() を呼んでたところを rb_set_memsize() に修正しています。
