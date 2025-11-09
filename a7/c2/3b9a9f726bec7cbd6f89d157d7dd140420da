@@ -1,0 +1,1 @@
+bundler で Pathname.pwd を使っていたところを Dir.pwd を使うようおきかえています。
