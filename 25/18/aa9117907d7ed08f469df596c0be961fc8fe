@@ -1,0 +1,1 @@
+bundler のテストで一時ディレクトリの削除に Pathname#rmtree を使っていたところを fileutils の FileUtils.rm_rf を使うように書き換えています。
