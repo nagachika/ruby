@@ -1,0 +1,1 @@
+bundler で require "pathname" や Kernel#autoload による自動ロードを設定しているのを Pathname が定義済みだったら抑制しています。組み込みクラスになったので不要な require をなくすため。
