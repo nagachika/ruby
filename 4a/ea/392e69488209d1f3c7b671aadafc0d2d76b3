@@ -1,0 +1,1 @@
+ZJIT で String#setbyte の引数が Fixnum な整数の時に直接実行コードを生成する最適化を実装しています。 https://github.com/ruby/ruby/pull/14927
