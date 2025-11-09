@@ -1,0 +1,1 @@
+bundler のテストでも Pathname が定義済みだったら require "pathname" を抑制しています。
