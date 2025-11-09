@@ -1,0 +1,1 @@
+bundler の他の部分でも require "pathname" を削除しています。
