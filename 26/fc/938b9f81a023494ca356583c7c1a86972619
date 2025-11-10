@@ -1,0 +1,1 @@
+common.mk で make rdoc-coverage や make undocumented といったドキュメントの網羅性を確認するターゲットでチェックから除外するライブラリの指定を追加しています。
