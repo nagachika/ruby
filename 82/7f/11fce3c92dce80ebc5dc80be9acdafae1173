@@ -1,0 +1,1 @@
+14f6f7051b9fd226dc209961563879b9cf18759e で GC の実装のインタフェースを規定する構造体 gc_function_map に checking_shareable という関数を追加していましたが、これは消して gc.c に共通の API として rb_gc_verify_shareable() というのを追加して GC の個別の実装に依存しないようにしています。
