@@ -1,0 +1,1 @@
+bundler で lockfile に RUBY VERSION セクションを出力する時に古い ruby のバージョンに含まれてた patchlevel の表記を削るようにしています。
