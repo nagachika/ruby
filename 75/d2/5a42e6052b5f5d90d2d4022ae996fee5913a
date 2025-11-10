@@ -1,0 +1,1 @@
+Complex#to_s の rdoc 用コメントに説明と大量のサンプルを追記しています。また doc/string.rb のメソッド一覧に String#to_c を追加、doc/syntax/literals.rdoc の typo の修正も行なっています。
