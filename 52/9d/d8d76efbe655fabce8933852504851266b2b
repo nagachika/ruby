@@ -1,0 +1,1 @@
+GitHub Actions の Cygwin 用 workflow で make extract-gems を実行する step がエラーになっているということでコメントアウトしています。
