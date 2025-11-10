@@ -1,0 +1,1 @@
+GC の mmtk 実装の rb_gc_impl_shutdown_call_finalizer() で複数 Ractor 対応のための VM ロックの取得を追加しています。
