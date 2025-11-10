@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::ZStream#flush_next_in メソッドの rdoc 用コメントに説明を追記しています。
