@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の open_timeout オプションを Timeout.timeout を利用して実装していたのを拡張ライブラリ socket の TCPSocket.open のキーワード引数 open_timeout を利用するようにしています。3.5 以降での実装ですがとりあえず呼んでみて ArgumentError が発生したら Timeout に fallback するという実装になっています。
