@@ -1,0 +1,1 @@
+rubygems の Gem::Package の verify_checksums などのメソッドを private にしています。
