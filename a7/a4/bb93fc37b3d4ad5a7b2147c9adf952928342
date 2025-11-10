@@ -1,0 +1,1 @@
+tool/auto_review_pr.rb というツールと GitHub Actions の workflow .github/workflows/auto_review_pr.yml を追加して、default gems になっている標準添付ライブラリ/拡張ライブラリの変更を伴なう pull request に対して自動的に upstream に pull request を送るように促すコメントを追加するようにしています。 https://github.com/ruby/ruby/pull/15116
