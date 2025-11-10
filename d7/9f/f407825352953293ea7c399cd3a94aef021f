@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で Windows 環境かどうかの判定結果を保持する Resolv::WINDOWS という private 定数を定義していたのを削除して最初の判定で require 'win32/resolv' してそれ以降は Win32::Resolv が定義済みかどうかで判定するようにしています。
