@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の f710e6bb54a1e2cfe808222bc8d70d8f68ab5dc9 の再修正で TCPSocket.open のキーワード引数 open_timeout 指定が ArgumentError 発生させた時にチェックするメッセージを古い ruby 対応のために修正しています。
