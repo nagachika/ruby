@@ -1,0 +1,1 @@
+拡張ライブラリ digest の Digest::VERSION 定数に rdoc 用コメントを追加しています。
