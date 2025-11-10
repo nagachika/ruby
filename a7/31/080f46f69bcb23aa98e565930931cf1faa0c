@@ -1,0 +1,1 @@
+GC の rb_gc_obj_optimal_size() で T_ARRAY と T_STRING についてバッファの埋め込み時に必要なサイズを返す時に VWA で埋め込めないサイズになる時に struct RArray や struct RString の部分だけのサイズを返すように修正しています。
