@@ -1,0 +1,1 @@
+GitHub Actions の default gems の upstream からの同期を行う workflow .github/workflows/sync_default_gems.yml で git pull する時のオプションを --ff-only から --rebase に変更しています。
