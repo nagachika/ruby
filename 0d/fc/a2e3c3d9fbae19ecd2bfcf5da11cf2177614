@@ -1,0 +1,1 @@
+標準添付ライブラリ forwardable の Forwardable::FORWARDABLE_VERSION という定数の rdoc 用コメントを追加しています。
