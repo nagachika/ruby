@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr の gemspec ファイルの spec.files から ipaddr.gemspec 自身を削除しています。
