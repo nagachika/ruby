@@ -1,0 +1,1 @@
+Refinements で Module で定義されたメソッドを Module#refine ブロック内で再定義した時に、オリジナルのメソッドを探索する際に rb_method_entry_t::defined_class が NULL になる可能性の考慮漏れで異常終了してしまう可能性があった不具合を修正しています。 https://github.com/ruby/ruby/pull/15114 [ruby-dev:52181] [Bug #21673]
