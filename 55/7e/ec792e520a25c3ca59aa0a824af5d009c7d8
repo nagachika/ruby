@@ -1,0 +1,1 @@
+gem_prelude.rb や lib/bundled_gems.rb、tool/ の配下のツールなどにも rdoc 用のコメントを追加しています。また tool/rdoc-srcdir で rbconfig.rb もドキュメント化の対象に追加するようにしています。
