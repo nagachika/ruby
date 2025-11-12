@@ -1,0 +1,1 @@
+pthread 実装の Thread で複数 Ractor 利用時に timer_thread の処理とイベント発生による ubf 呼び出しで race condition があったそうで、thread_sched_lock という新たなロックを導入してこれを防ぐようにしています。 https://github.com/ruby/ruby/pull/15067 [ruby-core:123318] [Bug #21614]
