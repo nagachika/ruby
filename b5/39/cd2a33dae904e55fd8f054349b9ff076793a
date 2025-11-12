@@ -1,0 +1,1 @@
+ZJIT で JIT コンパイルをあきらめてキャンセルする side-exit や脱最適化のための PatchPoint の実行コードを個別に生成していたのを共有するコードを生成してそこにジャンプするようにしてコード領域の削減をしています。 https://github.com/ruby/ruby/pull/15105
