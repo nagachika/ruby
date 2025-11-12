@@ -1,0 +1,1 @@
+9d44cb0b2b5520b2b299851003ca2a97bf1e2079 からの続きで RSTRING_GETMEM() マクロの定義の中で HAVE_STMT_AND_DECL_IN_EXPR で分岐していたのですが、これはもう不要ということで単純に RSTRING_PTR() と RSTRING_LEN() を呼ぶだけのマクロにシンプルにしています。 [ruby-core:123582] [Bug #21655]
