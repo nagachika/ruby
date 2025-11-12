@@ -1,0 +1,1 @@
+vm.c の jit_compile_exception() 関数をコンパイルする preprocessor 分岐の条件に USE_ZJIT も追加しています。
