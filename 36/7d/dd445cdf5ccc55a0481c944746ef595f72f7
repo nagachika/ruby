@@ -1,0 +1,1 @@
+9d44cb0b2b5520b2b299851003ca2a97bf1e2079 の続きで inline 関数 rbimpl_rstring_getmem() の定義自体を削除しています。 [ruby-core:123582] [Bug #21655]
