@@ -1,0 +1,1 @@
+rb_class_classext_free_subclasses() の VM_ASSERT() のメッセージの format 指示子の整数の精度の指定を修正しています。
