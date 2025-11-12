@@ -1,0 +1,1 @@
+bootstraptest/runner.rb で RUBY_PATCHLEVEL 定数が定義されている時のメッセージ出力の埋め込み定数の間違いを修正。 https://github.com/ruby/ruby/pull/15072
