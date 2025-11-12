@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタに patch_point_count というのを追加しています。 https://github.com/ruby/ruby/pull/15100
