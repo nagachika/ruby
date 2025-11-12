@@ -1,0 +1,1 @@
+ZJIT の HIR の命令列への変換時に Snapshot 命令を生成する処理がちらばっていたのを分岐の前にまとめるリファクタリング。 https://github.com/ruby/ruby/pull/15082
