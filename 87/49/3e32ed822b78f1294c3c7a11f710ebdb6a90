@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations_start などで内部的に利用するオブジェクトの GC.compact での参照更新処理でメモリリークする可能性があった不具合を修正しています。
