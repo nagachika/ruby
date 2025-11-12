@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタで side-exit の理由についてさらに細分化してカウントするようにしています。 https://github.com/ruby/ruby/pull/15127
