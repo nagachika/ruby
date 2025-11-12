@@ -1,0 +1,1 @@
+2998c8d6b99ec49925ebea42198b29c3e27b34a7 の Class のサブクラスからの参照カウンタの操作を atomic にした変更を revert しています。パフォーマンスに影響でもあったのかな? https://github.com/ruby/ruby/pull/15138
