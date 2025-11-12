@@ -1,0 +1,1 @@
+Thread#kill の rdoc 用コメントにこれは対象の Thread が停止するまで待たないことを明記しています。 https://github.com/ruby/ruby/pull/15132
