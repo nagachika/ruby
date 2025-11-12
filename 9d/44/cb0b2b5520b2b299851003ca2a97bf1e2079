@@ -1,0 +1,1 @@
+GCC の最近のバージョンで ipa-modref という最適化が行なわれると GCC の不具合があって異常終了してしまうという問題への workaround として RSTRING_PTR() や RSTRING_END(), RSTRING_GETMEM() で利用していた inline 関数 rbimpl_rstring_getmem() を使うのをやめて直接各関数内でバッファへのポインタや RSTRING_LEN() を得るようにしています。 [ruby-core:123582] [Bug #21655]
