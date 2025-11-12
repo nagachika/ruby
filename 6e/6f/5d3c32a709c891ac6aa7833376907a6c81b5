@@ -1,0 +1,1 @@
+a4dff09be79b52288a47658964d25e5aa84fc960 で Refinements の Module#refine のブロック内で再定義したメソッドをその Refinement の外で Symbol#to_proc で Proc オブジェクト化した時の不具合修正に対応したテストを追加しています。 [ruby-core:121629] [Bug #21265]
