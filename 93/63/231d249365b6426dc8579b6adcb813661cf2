@@ -1,0 +1,1 @@
+Ractor のテストで assert_ractor を使ったテストの ensure で GC.stress の値を復旧する後処理がありましたが、既に不要になっていたので削除しています。
