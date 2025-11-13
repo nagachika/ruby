@@ -1,0 +1,1 @@
+default gems の require 時の警告のための lib/bundled_gems.rb で対象の ruby バージョンの指定の 3.5 を 4.0 に更新しています。
