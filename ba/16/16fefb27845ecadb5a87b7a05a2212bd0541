@@ -1,0 +1,1 @@
+bundler のテスト用の gemfile に rubygems-generate_index という gem の依存関係を追加しています。
