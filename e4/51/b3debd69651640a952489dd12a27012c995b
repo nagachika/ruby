@@ -1,0 +1,1 @@
+id_table.c の rb_managed_id_table_type という T_TYPEDDATA 型オブジェクトの型を指定する構造体宣言の不要なキャストを削除しています。
