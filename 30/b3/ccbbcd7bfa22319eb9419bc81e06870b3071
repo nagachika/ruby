@@ -1,0 +1,1 @@
+bundler のテストのヘルパーで rubygems-generate_index.gem を有効化するようにしています。
