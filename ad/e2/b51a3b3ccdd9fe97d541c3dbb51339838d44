@@ -1,0 +1,1 @@
+拡張ライブラリ coverage で st_table のかわりに Hash オブジェクトを使うようにしたので不要になっていた OBJ_WB_UNPROTECT() の呼び出し箇所を削除しています。
