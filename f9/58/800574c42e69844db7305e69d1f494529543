@@ -1,0 +1,1 @@
+rubygems の Gem::Package::TarHeader の定数を freeze した変更を再度適用しています。先日なぜか revert されていたやつですね。
