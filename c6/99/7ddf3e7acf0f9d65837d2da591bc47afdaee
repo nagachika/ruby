@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPSession という deprecated な定数の rdoc 用コメント内の ruby のバージョンの記述 3.5 を 4.0 に更新しています。
