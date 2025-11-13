@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_separately で子プロセスを起動する時に ruby のバージョンが 3.0 以前はコマンドラインオプションの -W:no-experimental を指定するようにしています。 power_assert が古い ruby で警告を出力するため stderr の内容のチェックでひっかかるのを防ぐためみたいです。しかし -W:no-experimental 自体が 3.0 くらいからじゃないかな。
