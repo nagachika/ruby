@@ -1,0 +1,1 @@
+テスト用のライブラリ envutil.rb の EnvUtil::Debugger クラスでブロック内に直接 rescue 節を書く記法が 2.4 からなので古い ruby 用に明示的な begin 節を追加しています。ブロックの rescue 記法ってもうそんなに前なんだっけ。
