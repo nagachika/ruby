@@ -1,0 +1,1 @@
+Integer#digits の Bignum になるような大きな整数の時の境界条件での不具合修正。 https://github.com/ruby/ruby/pull/15144 [ruby-core:123769] [Bug #21680]
