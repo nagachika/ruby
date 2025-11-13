@@ -1,0 +1,1 @@
+テスト用のライブラリ tool/lib/core_assertions.rb の assert_ractor で引数 require に配列で複数の feature を指定できるようにしています。
