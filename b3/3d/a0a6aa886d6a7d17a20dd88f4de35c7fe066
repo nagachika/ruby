@@ -1,0 +1,1 @@
+GitHub Actions の default gems の upstream から自動で更新する workflow で git コマンドのために EMAIL/GIT_AUTHOR_NAME/GIT_COMMITTER_NAME などの環境変数を設定しています。
