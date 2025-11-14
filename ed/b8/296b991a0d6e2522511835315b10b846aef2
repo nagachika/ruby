@@ -1,0 +1,1 @@
+82ecbbc918e9d6ae3add30dd68e26d56be8c88e7 の続きで Ractor#value の alias を定義するのを method_defined? で既に定義されている時に抑制するようにしています。
