@@ -1,0 +1,1 @@
+コミットごとにメールを飛ばすための tool/test/test_commit_email.rb で git コマンド実行時の環境変数に GIT_CONFIG_GLOBAL の設定も追加しています。実行環境の git の設定を無視させるため。
