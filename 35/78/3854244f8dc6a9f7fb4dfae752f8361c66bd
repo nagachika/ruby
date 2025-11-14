@@ -1,0 +1,1 @@
+6a055451843d28b9d75f581328cbdf6f03bea343 で拡張ライブラリ io/wait のソースコードから #include "ruby.h" も削除していましたがこれは残すようにしています。 ruby_abi_version シンボルのためとのこと。
