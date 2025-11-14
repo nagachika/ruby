@@ -1,0 +1,1 @@
+同じく rubygems のテストで古い ruby 向けに Ractor#value の alias 定義を追加しています。
