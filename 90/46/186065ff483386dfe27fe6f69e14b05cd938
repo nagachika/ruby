@@ -1,0 +1,1 @@
+bundler のテスト用の gemfile で test-unit-ruby-core への依存関係を追加しています。
