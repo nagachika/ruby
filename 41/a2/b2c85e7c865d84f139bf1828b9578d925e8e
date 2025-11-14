@@ -1,0 +1,1 @@
+rubygems のテストで assert_ractor が未定義の時に core_assertions をロードする処理を追加しています。 ruby 本体ではなくて upstream でテストする時のための処理みたいです。
