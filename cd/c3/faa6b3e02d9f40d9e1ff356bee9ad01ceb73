@@ -1,0 +1,1 @@
+936951b31238a873567be5fb049af9d383bc4c55 で rubyspec の ERB::VERSION での version guard 変更時にブロックの開き do を誤って削除していたのを戻しています。
