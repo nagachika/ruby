@@ -1,0 +1,1 @@
+標準添付ライブラリ erb で ERB.new の通常引数の safe_level や legacy_trim_mode などの古い通常引数を互換性のために残していたのを削除しています。 https://github.com/ruby/erb/pull/7 https://github.com/ruby/erb/pull/95
