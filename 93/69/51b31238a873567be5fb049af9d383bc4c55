@@ -1,0 +1,1 @@
+rubyspec の ERB::VERSION による version guard の範囲も 6.0.0 への更新に追随しています。
