@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB::Revision という古い CSV/Subversion の置換キーワードを保持するための定数を削除しています。
