@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で定義する assert_ractor で Windows 環境では skip させるようにしています。
