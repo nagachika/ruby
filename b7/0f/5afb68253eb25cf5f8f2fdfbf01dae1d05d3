@@ -1,0 +1,1 @@
+IO#nread と IO#ready? を削除しています。 IO#nread はさっき deprecated にしたばかりですが io-wait.gem のバージョンを 0.3.6 → 0.4.0 に上げたので 0.3.6 が gem としての移行バージョンということですね。
