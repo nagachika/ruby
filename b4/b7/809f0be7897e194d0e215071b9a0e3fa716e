@@ -1,0 +1,1 @@
+37a05b591c989abe1ca524c3ff98b088d7e6a656 で tool/test/test_commit_email.rb で実行する git に環境の .gitconfig を無視させるため環境変数 GIT_CONFIG_GLOBAL を設定する時に IO::NULL で null device (/dev/null など)を指定させていたのは Windows ではうまくいかなかったようなので一時ディレクトリを指定するように変更しています。
