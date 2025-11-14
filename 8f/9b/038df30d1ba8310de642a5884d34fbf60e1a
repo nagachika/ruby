@@ -1,0 +1,1 @@
+ZJIT の Rust 実装に独自に JSON の encoder 実装を追加しています。 https://github.com/ruby/ruby/pull/15162
