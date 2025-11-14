@@ -1,0 +1,1 @@
+rubyspec の ERB::VERSION での version guard で ERB::VERSION を private constant としていたので Module#const_get を利用するようにしています。
