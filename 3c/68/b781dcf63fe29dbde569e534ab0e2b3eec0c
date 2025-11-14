@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_ractor で Ractor 自体が未定義の時は早期 return でなにもしないようにしていたのを、これも明示的な skip (omit) を呼ぶようにしています。
