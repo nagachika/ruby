@@ -1,0 +1,1 @@
+13407d959ab6e481db3148ea76f46c2f5aa70479 で tool/lib/core_assertions.rb の assert_ractor で Windows 環境だと skip していたのはやめて問題の発生していたと思われる rubygems のテスト部分で Windows 環境でテストクラス定義自体をやめるように対応しています。
