@@ -1,0 +1,1 @@
+拡張ライブラリ io/wait に #include "ruby.h" を追加していますが、35783854244f8dc6a9f7fb4dfae752f8361c66bd と重複していますね。
