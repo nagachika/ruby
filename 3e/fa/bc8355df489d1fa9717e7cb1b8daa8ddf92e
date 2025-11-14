@@ -1,0 +1,1 @@
+rubygems の Gem::Platform に deconstruct_keys メソッドを追加して pattern match で利用できるようにしています。
