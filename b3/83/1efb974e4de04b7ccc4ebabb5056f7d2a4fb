@@ -1,0 +1,1 @@
+rubygems の deprecated にしていたメソッド Gem::BasicSpecification.default_specifications_dir の定義を削除しています。
