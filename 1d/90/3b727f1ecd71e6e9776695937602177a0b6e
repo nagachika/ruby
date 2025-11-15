@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の net-http.gemspec ファイルの required_ruby_version を 2.7.0 以降に引き上げています。
