@@ -1,0 +1,1 @@
+rubygems のテストでメソッドが定義されているかどうかを Module#instance_methods でリストを取得して Array#include? でチェックしていたのを Module#method_defined? で確認するよう効率化しています。
