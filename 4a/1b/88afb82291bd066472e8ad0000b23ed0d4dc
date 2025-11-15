@@ -1,0 +1,1 @@
+default gems として upstream のある標準添付ライブラリのみの変更の pull request に自動的に upstream に誘導するコメントをつける機能で lib/unicode_normaklize.rb への変更が un.gem に誤ってマッチしてしまったみたいで除外するルールを追加しています。
