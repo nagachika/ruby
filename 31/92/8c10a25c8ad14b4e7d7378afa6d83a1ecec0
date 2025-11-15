@@ -1,0 +1,1 @@
+rubygems の deprecated にしていた Gem::Specification#validate_metadata, #validate_dependencies, #validate_permissions などのメソッドを削除しています。
