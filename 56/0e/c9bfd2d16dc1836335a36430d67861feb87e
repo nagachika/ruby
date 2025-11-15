@@ -1,0 +1,1 @@
+parse.y の block_call ルールの ripper 向けのアクション部で不要な NULL チェックを削っています。
