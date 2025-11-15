@@ -1,0 +1,1 @@
+rubygems の deprecated にしていたメソッド Gem::DependencyInstaller#find_gems_with_sources を削除しています。
