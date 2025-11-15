@@ -1,0 +1,1 @@
+ZJIT の arm64 環境向けのコード生成で異常終了していた不具合の修正。 https://github.com/ruby/ruby/pull/15177
