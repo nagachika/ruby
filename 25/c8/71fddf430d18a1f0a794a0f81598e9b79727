@@ -1,0 +1,1 @@
+d4020dd5faf28486123853e7f00c36139fc07793 の endless range について Range#to_set が停止しない問題の修正が通常の Range の時に Range#size を呼ぶのがコストが高い場合にパフォーマンスが悪化する問題があったとのことで revert しています。なるほどなぁ。 [Bug #21513]
