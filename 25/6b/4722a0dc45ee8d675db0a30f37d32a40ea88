@@ -1,0 +1,1 @@
+GC の mmtk 実装利用時に複数 Ractor が起動している状態で fork を実行すると不正な状態になる不具合があったので rb_gc_impl_before_fork()/rb_gc_impl_after_fork() で VM 全体のロックを取得/解放するようにしています。
