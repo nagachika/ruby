@@ -1,0 +1,1 @@
+internal/set_table.h および internal/st.h から include/ruby/ 配下のヘッダファイルを #include する時に "include/" ディレクトリもパスに含めるようにしています。 -I$(srcdir)/include はコマンドラインオプションで指定されそうだからいらないような気もしますが名前の衝突の回避のためとかかな?
