@@ -1,0 +1,1 @@
+bundler の lockfile 生成時の BUNDLED WITH セクションのインデントの空白の数を修正しています。
