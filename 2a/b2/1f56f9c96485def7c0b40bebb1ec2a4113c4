@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http での net-http.gemspec ファイルで uri.gem への依存関係のバージョンを 0.11.1 以降にして、Host ヘッダの値を設定するのに URI::HTTP#authority メソッドを利用するようにしています。
