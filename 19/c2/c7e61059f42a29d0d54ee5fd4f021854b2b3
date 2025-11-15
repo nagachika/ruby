@@ -1,0 +1,1 @@
+rubygems のテストで rubocop による指摘を反映して Regexp#match? を利用するようにしています。
