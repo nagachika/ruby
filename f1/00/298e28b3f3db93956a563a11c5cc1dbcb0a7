@@ -1,0 +1,1 @@
+拡張ライブラリ socket で名前解決のためにバックグラウンド thread を起動する時に、起動後に pthread_detach() を呼ぶのではなくて pthread_attr_setdetachstate() で attr をセットして起動と同時に detach するように指定しています。異常終了する場合があったみたいです。glibc の不具合による race condition のせいという解釈みたいですが workaround としてこの対応をしたみたいです。まあでも glibc が修正されてもこのほうが良さそうな気はしますね。 https://github.com/ruby/ruby/pull/15142 [ruby-core:123768] [Bug #21679]
