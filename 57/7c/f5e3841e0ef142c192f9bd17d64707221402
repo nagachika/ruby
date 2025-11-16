@@ -1,0 +1,1 @@
+doc/command_line/environment.md というコマンドラインオプションについてのドキュメントのファイルを削除しています。 doc/ruby/options.md に移行済みだったようです。
