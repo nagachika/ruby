@@ -1,0 +1,1 @@
+GitHub Actions の Cygwin の workflow でサードパーティーライブラリとして rubygems をインストールするようにしています。 make extract-gems の実行のために必要みたいです。同梱しているものではだめなのかな。
