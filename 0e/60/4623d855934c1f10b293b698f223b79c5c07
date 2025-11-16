@@ -1,0 +1,1 @@
+prism でメソッドの存在チェックに instance_methods + include? を使ってたのを method_defined? を利用する最適化。
