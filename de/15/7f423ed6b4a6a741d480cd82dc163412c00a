@@ -1,0 +1,1 @@
+ZJIT のテスト時に標準添付ライブラリ resolv の複数の DNS を利用するテスト? を skip するようにしています。 https://github.com/ruby/ruby/pull/15192
