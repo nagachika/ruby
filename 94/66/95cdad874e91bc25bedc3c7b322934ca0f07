@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT のテストを実行する workflows で変数 TESTOPTS の指定に環境変数 RUBY_TESTOPTS の値も混ぜるようにしています。
