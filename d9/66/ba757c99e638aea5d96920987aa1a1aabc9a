@@ -1,0 +1,1 @@
+946695cdad874e91bc25bedc3c7b322934ca0f07 の GitHub Actions の ZJIT テストの workflows の変更を revert しています。 make test-bundled-gems で期待したように機能しなかったとのこと。
