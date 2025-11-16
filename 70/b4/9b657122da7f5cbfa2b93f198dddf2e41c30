@@ -1,0 +1,11 @@
+IO#each_codepoint の実装で io_read_encoding() の呼び出しをループ内で繰り返していたのを、結果が不変のはずということでループ前に 1回呼んで結果を使いまわすようにしています。うーむ、まあ途中で変化してしまったらそれはそれで大丈夫なのか? とは思うけど、rb_yield() でブロックを呼び出しているから任意の ruby コードが動くのでなぁ。少しだけ調べてみるとどうもやはり途中で IO#set_encoding すること自体はできてしまって、その時に新しい Encoding における1文字(codepoint)ぶんのバイト列がかえってきたものを rb_enc_codepoint() で処理しようとしてしまう可能性がありそう。
+[追記]と思って以下のような例を作って実験してみたところ、3.3.10 でも途中で encoding が変わっても追随していなかったので元の挙動から変わっていないようです。[/追記]
+open("tmp.txt", "rb:ascii-8bit") do |io|
+  io.each_codepoint do |c|
+    p c
+    if c == '2'.ord
+      io.set_encoding(Encoding::UTF_8)
+    end
+  end
+end
+File.unlink("tmp.txt")
