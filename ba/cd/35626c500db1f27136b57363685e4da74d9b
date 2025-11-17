@@ -1,0 +1,1 @@
+compile.c の IBF_OBJECT_INTERNAL という未使用のマクロ定義を削除しています。
