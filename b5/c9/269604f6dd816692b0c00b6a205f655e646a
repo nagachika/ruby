@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#each_line の rdoc 用コメントを doc/stringio/each_line.md に切り出し、しているみたいなのですがそのファイルはこのコミットでは追加されていないようです。 https://github.com/ruby/stringio/pull/165
