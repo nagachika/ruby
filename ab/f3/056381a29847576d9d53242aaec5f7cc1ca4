@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#size の rdoc 用コメントもファイルを分離しようとしているようですが、このコミットでは追加されていません。 tool/sync_default_gems.rb で自動取り込みする時に doc/ のディレクトリが取り込み対象になってないのかな。 https://github.com/ruby/stringio/pull/171
