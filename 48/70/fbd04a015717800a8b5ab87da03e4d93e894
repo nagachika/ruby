@@ -1,0 +1,1 @@
+vm_dump.c で arm64 の時に行なっていたスタックトレースを遡る時の unw_step() と unw_get_reg() という API を利用した処理を PowerPC アーキテクチャの時にも利用するようにしています。 https://github.com/ruby/ruby/pull/14650
