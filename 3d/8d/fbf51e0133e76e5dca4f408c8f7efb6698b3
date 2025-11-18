@@ -1,0 +1,1 @@
+GitHub Actions で使うためのツール tool/commit-email.rb のテストである  tool/test/test_commit_email.rb で git コマンドがないと通らないものを Kernel#system で git コマンド利用可否をチェックして skip するようにしています。
