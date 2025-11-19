@@ -1,0 +1,1 @@
+tool/format-release で既に使わなくなった .tar.bz2 でのパッケージの対応を削除しています。
