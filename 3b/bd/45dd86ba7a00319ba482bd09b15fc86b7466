@@ -1,0 +1,1 @@
+version.c で RUBY_API_VERSION_NAME マクロを定義する位置を修正して未定義になる条件がないようにしています。
