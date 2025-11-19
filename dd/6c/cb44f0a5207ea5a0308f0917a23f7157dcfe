@@ -1,0 +1,1 @@
+f3e8bc877076e4d0759cd788c4a8f87d88ffc836 の続きで bundler で did_you_mean を使って gem の候補を出す時に明示的に require せず defined? でクラスが定義済みの時だけ利用するようにしています。
