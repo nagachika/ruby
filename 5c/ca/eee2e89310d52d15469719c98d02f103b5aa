@@ -1,0 +1,1 @@
+rubygems で Gem::Specification#version= に nil を渡した時に暗黙の変換をしてしまうのを避けて nil のままにするようにしています。逆に Gem::Version.create に nil を渡すと 0 を渡した時と同じものを返すようにしています。
