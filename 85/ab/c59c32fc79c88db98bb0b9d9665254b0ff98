@@ -1,0 +1,1 @@
+VM のスタックとマシンスタックについての説明を書いた doc/yarv_frame_layout.md を doc/contributing/vm_stack_and_frames.md に移動して大幅に加筆しています。
