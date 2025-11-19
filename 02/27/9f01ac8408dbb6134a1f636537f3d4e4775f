@@ -1,0 +1,1 @@
+rubygems の gem build の deprecated にしていた -C オプションを削除しています。
