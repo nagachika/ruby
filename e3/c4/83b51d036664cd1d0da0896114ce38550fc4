@@ -1,0 +1,1 @@
+f3e8bc877076e4d0759cd788c4a8f87d88ffc836 で did_you_mean を使うようにしたことで不要になった bundler の Bundler::SimilarityDetector クラスの定義をファイルごと削除しています。
