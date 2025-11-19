@@ -1,0 +1,1 @@
+string.c の slot への埋め込み文字列の複製時の str_duplicate_setup_embed() で終端文字が 1バイトである前提のコードがあったので TERM_LEN() マクロで文字のバイト数を使うようにしています。
