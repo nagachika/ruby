@@ -1,0 +1,1 @@
+rubygems に vendorig している net-http を 0.7.0 に引き下げています。 JRuby でうまく動かなかったとのこと。
