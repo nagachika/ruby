@@ -1,0 +1,1 @@
+テスト用ユーティリティ EnvUtil の EnvUtil.current_parser メソッドで RUBY_DESCRIPTION から parser の種類を抜き出す時に mod GC の表示が入るのに対応しています。
