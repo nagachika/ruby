@@ -1,0 +1,1 @@
+rubygems で vendoring している net-http を 0.8.0 に更新しています。また net-http-persistent をリリースされている gem を使うように変更している? みたいですが bundler 用の gemfile と lockfile が conflict したままのようです。
