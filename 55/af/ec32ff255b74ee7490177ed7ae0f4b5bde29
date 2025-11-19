@@ -1,0 +1,1 @@
+同じく bundler で did_you_mean を使って gem の候補を出すところで大文字小文字を無視したら一致する候補があったら DidYouMean::SpellChecker の利用せずにそれを使うようにしています。
