@@ -1,0 +1,1 @@
+rubygems の不要になった Gem::Deprecate モジュールのための require を削除しています。
