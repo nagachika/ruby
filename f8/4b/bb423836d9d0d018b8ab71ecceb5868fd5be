@@ -1,0 +1,1 @@
+ZJIT を有効化する RubyVM::ZJIT.enable でプロセス起動後に ZJIT を有効化できるようにしています。なんとこれで有効化すると RUBY_DESCRIPTION 定数の内容も書き換えるようです。
