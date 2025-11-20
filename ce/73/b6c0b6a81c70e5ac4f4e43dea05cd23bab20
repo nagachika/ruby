@@ -1,0 +1,1 @@
+ZJIT の 0e10dfded0498cf71efb9fc61a804db6db540009 の Struct の inline 化最適化の続きでオブジェクトが freeze されてないかのチェックを行う HIR の命令 GuardNotFrozen の位置を早めてその結果の receiver を LoadField 命令などで利用するようにしています。
