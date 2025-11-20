@@ -1,1 +1,1 @@
-bundler で Gem::Installer#generate_plugins メソッドのの存在チェックで method_defined? の第2引数 false を渡して親クラスや Module での定義はチェックしないようにしています。
+bundler で Gem::Installer#generate_plugins メソッドの存在チェックで method_defined? の第2引数 false を渡して親クラスや Module での定義はチェックしないようにしています。
