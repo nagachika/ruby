@@ -1,0 +1,1 @@
+bundler でメソッド定義をチェックするのに instance_methods + include? を使っていたのを method_defined?  にする最適化。
