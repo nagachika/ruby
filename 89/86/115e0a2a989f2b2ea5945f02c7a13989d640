@@ -1,0 +1,1 @@
+common.mk の revision.h を生成するルールで tool/ifchange を利用して tar パッケージからのビルド時に不要な revision.h の再生成を抑制するようにしています。 [ruby-core:123854] [Bug #21697]
