@@ -1,0 +1,1 @@
+GC の mmtk 実装の Kernel#fork 前の処理で rb_gc_vm_barrier() による複数 Ractor の同期が不足していたのを修正しています。
