@@ -1,0 +1,1 @@
+String#unicode_normalize メソッドの rdoc 用コメントを doc/string/unicode_normalize.rdoc という独立したファイルに切り出し :include: で取り込むようにしています。
