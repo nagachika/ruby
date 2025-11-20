@@ -1,0 +1,1 @@
+ZJIT で BasicObject#! メソッドの実装を HIR で実現するインライン最適化。 https://github.com/ruby/ruby/pull/15201
