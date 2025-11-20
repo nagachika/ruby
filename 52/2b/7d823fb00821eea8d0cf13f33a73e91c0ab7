@@ -1,0 +1,1 @@
+拡張ライブラリ openssl のテストでダミーサーバーの OpenSSL::SSL::SSLContext に sigalgs を明示的に設定するようにしています。 RHEL 9.7 でのテスト失敗の対策みたいです。
