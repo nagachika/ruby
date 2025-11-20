@@ -1,0 +1,1 @@
+vmargs.c で定義していたマクロ KW_SPECIFIED_BITS_MAX を VM_KW_SPECIFIED_BITS_MAX と改名(prefix 追加)して vm_core.h で定義し YJIT/ZJIT から参照するようにしています。
