@@ -1,0 +1,1 @@
+YJIT の Proc#call の最適化で複数 Ractor を利用しているかどうかのチェックをしていた分岐が不要とのことで削っています。 https://github.com/ruby/ruby/pull/15092
