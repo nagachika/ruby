@@ -1,0 +1,1 @@
+ZJIT で Struct のインスタンスの attribute の代入を inline 化する最適化。
