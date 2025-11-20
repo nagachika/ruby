@@ -1,0 +1,1 @@
+拡張ライブラリ etc の gemspec ファイルで required_ruby_version の最低バージョンを 2.7.0 に引き上げています。
