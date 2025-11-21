@@ -1,0 +1,1 @@
+GC.stat_heap が返す Hash のキーに :heap_free_slots を追加しています。 [ruby-core:117432] [Feature #20408]
