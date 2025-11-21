@@ -1,0 +1,1 @@
+default gems の標準添付ライブラリの同期ツール tool/sync_default_gems.rb のためのテストで s390x-linux の環境の git に不具合があって通らないケースがあるので skip するようにしています。
