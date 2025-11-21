@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタに CCall 命令で呼び出す C 実装の関数の呼び出し回数を関数ごとに集計するものを追加しています。 https://github.com/ruby/ruby/pull/15240
