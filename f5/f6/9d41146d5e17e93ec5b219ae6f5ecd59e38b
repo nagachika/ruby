@@ -1,0 +1,1 @@
+GC.stat_heap が返す情報のキーに :heap_final_slots を追加しています。これは finalizer 実行待ちの slot 数かな? [ruby-core:117432] [Feature #20408]
