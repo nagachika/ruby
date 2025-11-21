@@ -1,0 +1,1 @@
+ZJIT 向けにメソッドに渡されたブロックの実体を返すための関数 rb_vm_untag_block_handler() で引数が VM_BLOCK_HANDLER_NONE だった時に Qnil を返す対応を追加しています。
