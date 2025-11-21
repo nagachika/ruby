@@ -1,0 +1,1 @@
+拡張ライブラリ win32 の win32/resolv で win32/registry (gem としては win32-registry という別の gem になっている)や PowerShell の実行に依存していたのをやめて独自に拡張ライブラリでレジストリ読み込みの実装を持つように変更しています。
