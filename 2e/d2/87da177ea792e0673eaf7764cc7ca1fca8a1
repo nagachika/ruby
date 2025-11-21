@@ -1,0 +1,1 @@
+ZJIT 用のオプション --zjit-dump-hir-iongraph を追加しています。 ZJIT の高レベル中間表現 HIR の内容を Iongraph という形式でダンプしてくれるものみたいです。 Iongraph というのは SpiderMonkey プロジェクトのツールみたいです。 https://github.com/ruby/ruby/pull/14999
