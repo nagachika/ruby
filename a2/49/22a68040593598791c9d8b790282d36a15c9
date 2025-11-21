@@ -1,0 +1,1 @@
+vm.c の rb_zjit_option_enabled_p() の宣言が不要になっていたようで削除しています。
