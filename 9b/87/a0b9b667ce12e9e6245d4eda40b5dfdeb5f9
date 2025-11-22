@@ -1,0 +1,1 @@
+Ruby::Box 用に Box 別の rb_classext_t を登録する rb_class_set_box_classext() に RGenGC 用の rb_gc_writebarrier_remember() 呼び出しを追加しています。
