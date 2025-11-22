@@ -1,0 +1,1 @@
+ruby_atomic.h の rbimpl_atomic_u64_fetch_add() という関数に実装に stdatomic.h ヘッダが使える場合の atomic_fetch_add_explicit() を使った実装を削っています。 64 bit 整数についての atomic な操作のビルトイン関数がない場合(cross compile 時など?)にビルドできていなかったのと、load/set/add などの関数群でサポートをそろえるため一旦削るということみたいです。
