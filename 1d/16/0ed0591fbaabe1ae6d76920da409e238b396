@@ -1,0 +1,1 @@
+bundler で Gem::Version のオブジェクトの比較に文字列を渡していたところを明示的に Gem::Version を作って渡すようにしています。また rubygems の Gem::Version#<=> の deprecated 警告出す時に uplevel の指定を追加して呼び出し元を表示させるようにしています。
