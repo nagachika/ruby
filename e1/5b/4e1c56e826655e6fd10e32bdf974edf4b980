@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの compilers/action でコンパイラのデフォルトを clang-18 から clang-20 に更新しています。
