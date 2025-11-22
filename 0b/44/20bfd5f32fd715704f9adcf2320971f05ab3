@@ -1,0 +1,1 @@
+prism の実装で src/dest で重複のあるバッファの可能性があるので memcpy(3) ではなく memmove(3) を利用するように修正しています。 https://github.com/ruby/prism/issue/3736
