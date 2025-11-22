@@ -1,0 +1,1 @@
+ZJIT の 2ed287da177ea792e0673eaf7764cc7ca1fca8a1 で追加した Iongraph 形式での HIR ダンプ時に重複した出力ができることがあった不具合を修正しています。 https://github.com/Shopify/ruby/issues/877 https://github.com/ruby/ruby/pull/15263
