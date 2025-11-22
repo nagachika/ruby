@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::Generator の C 実装でもう使っていない Symbol/ID を保持する static 変数を削除しています。
