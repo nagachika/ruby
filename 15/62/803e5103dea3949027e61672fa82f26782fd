@@ -1,0 +1,1 @@
+bundler に bundle install --no-lock というオプションを追加して lockfile の生成や更新を抑制できるようにしています。
