@@ -1,0 +1,1 @@
+String#valid_encoding? の rdoc 用コメントを doc/string/valid_encoding_p.rdoc という独立したファイルに分離しています。
