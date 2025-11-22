@@ -1,0 +1,1 @@
+ZJIT の生成するコードのインスタンス変数の参照/代入の処理で VM の inline cache の機構を利用して最適化できるようにしています。 VM 側に rb_vm_getinstancevariable() という関数を追加してこれを呼び出す CCall 命令を作るようにしています。
