@@ -1,0 +1,1 @@
+bundler で cache 削除のため File.delete でファイル削除する時に既に対象のファイルがなくて Errno::ENOENT が発生した時に無視するように rescue を追加しています。 https://github.com/ruby/rubygems/pull/9095
