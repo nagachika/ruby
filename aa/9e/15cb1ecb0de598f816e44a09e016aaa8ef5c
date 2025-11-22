@@ -1,0 +1,1 @@
+IO::Buffer.map でファイルの途中からメモリへの mapping をした時に不正メモリアクセスする可能性があった不具合の修正と不正な引数に対する例外メッセージを明確化しています。 https://github.com/ruby/ruby/pull/15264 [ruby-core:123871] [Feature #21700]
