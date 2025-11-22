@@ -1,0 +1,1 @@
+bundler の Gemfile 内で lockfile というメソッドで lockfile のファイル名を任意に指定できる機能を追加しています。
