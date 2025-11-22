@@ -1,0 +1,1 @@
+cm_core.h の構造体 struct rb_iseq_constant_body の内部に埋め込まれるかたちで定義されている構造体にタグがついていなかったものを rb_iseq_parameters とタグ名をつけています。ZJIT の Rust 実装で利用する時に名前がついているほうが可読性が良いのでということみたいです。
