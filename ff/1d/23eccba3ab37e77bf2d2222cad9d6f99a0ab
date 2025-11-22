@@ -1,0 +1,1 @@
+Thread::Mutex をロックしている Fiber を特定するために構造体 rb_mutex_t から直接 rb_fiber_t へのポインタを保持していたのを、GC.compact の影響など GC との干渉を避けるために、rb_fiber_t 構造体に fiber_serial というメンバーを追加して通し番号で Fiber を同定できるようにしてこの番号で持つようにしています。
