@@ -1,0 +1,1 @@
+bundler で環境変数 BUNDLE_LOCKFILE で lockfile のファイル名を指定できるようにしています。 --no-lockfile オプション > Gemfile 内の lockfile 指定 > 環境変数 BUNDKLE_LOCKFILE > デフォルトの名前(gemfile 名 + ".lock) という優先順序らしいのですがファイルより下だと Gemfile に書かれてたら変更できないのでなんとなくよくある優先順序と違うなという気がしますね。
