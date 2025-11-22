@@ -1,0 +1,1 @@
+bundler の platform 名の指定で古い Windows 系環境の名前を廃止していたのを deprecated 警告を出力するに留めるように戻しています。
