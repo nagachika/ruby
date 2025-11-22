@@ -1,0 +1,1 @@
+rubygems のテストで Gem::Version#<=> の deprecated 警告をチェックする時に厳密な文字列比較でなく assert_match で正規表現マッチで確認するように緩めています。
