@@ -1,0 +1,1 @@
+Kernel#fork 時に実行する before_fork_ruby() で rb_gc_before_fork() と before_exec() の順序を入れ替えて before_exec() を先に実行するようにしています。デッドロックが起きる可能性があったのを修正しているみたいです。
