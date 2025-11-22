@@ -1,0 +1,1 @@
+String#upcase! の rdoc 用コメントのサンプルなどを削除し String#upcase を参照させるようにしています。
