@@ -1,0 +1,1 @@
+bundler の Bundler::UI::Shell のテストでグローバルな Bundler.ui をそのまま使わず新規にインスタンスを作成してそれを使うようにしています。
