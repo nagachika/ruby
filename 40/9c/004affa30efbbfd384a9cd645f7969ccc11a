@@ -1,0 +1,1 @@
+bd60600d00f13234cad83c9c5af5b6607a4b0fba の続きで bundler で Bundler::UI::Shell でログ出力のための log_level などの管理を thread local storage を利用して multi-thread safe にしています。
