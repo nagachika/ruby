@@ -1,0 +1,1 @@
+拡張ライブラリ json で内部で利用する JSON::Coder というクラスを Ractor sharable にするように対応を追加しています。
