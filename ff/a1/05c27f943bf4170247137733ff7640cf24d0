@@ -1,0 +1,1 @@
+bdca2a9975c7859f2e1702a517d59bb6cb254acb の再修正で古い ruby 向けに RUBY_TYPED_FROZEN_SHAREABLE の定義をするのをソースファイル ext/json/parser/parser.c からヘッダファイル ext/json/json.h に移動しています。
