@@ -1,0 +1,1 @@
+ZJIT で中間表現 HIR の命令 GuardNotFrozen を C の関数 rb_obj_frozen_p() を呼び出す実装にしていたのを直接コード生成するように最適化しています。
