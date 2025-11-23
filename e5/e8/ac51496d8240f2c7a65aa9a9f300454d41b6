@@ -1,0 +1,1 @@
+ZJIT で String#empty? メソッドを関数呼び出しにしていたのを直接実装するよう最適化しています。 https://github.com/ruby/ruby/pull/15283
