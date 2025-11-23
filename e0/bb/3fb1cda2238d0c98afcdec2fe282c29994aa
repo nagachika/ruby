@@ -1,0 +1,1 @@
+ZJIT で Integer#<< メソッドの右辺値が定数で receiver が Fixnum の範囲だった時のインライン最適化。 https://github.com/ruby/ruby/pull/15258
