@@ -1,0 +1,1 @@
+ZJIT の x86_64 のコード生成の不具合修正(あるいは効率化?)。 https://github.com/Shopify/ruby/issues/876
