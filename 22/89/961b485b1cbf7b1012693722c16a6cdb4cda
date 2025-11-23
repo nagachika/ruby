@@ -1,0 +1,1 @@
+rubygems で Gem::Version#<=> で引数に文字列が渡された時の deprecated 警告出力をやめています。
