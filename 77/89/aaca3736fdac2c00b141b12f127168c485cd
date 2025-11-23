@@ -1,0 +1,1 @@
+Integer#** の rdoc 用コメントにサンプルと引数に Rational や Complex を渡した時の挙動についての記述を追加しています。
