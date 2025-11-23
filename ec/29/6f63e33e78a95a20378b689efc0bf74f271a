@@ -1,0 +1,1 @@
+拡張ライブラリ json の string_scan() という inline 関数の戻り値が bool のところ return 1 や return 0 としていたのを true/false を使うように修正しています。
