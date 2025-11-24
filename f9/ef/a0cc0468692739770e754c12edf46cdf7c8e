@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Group#curve_name で不正な曲線が設定されていた時に "UNDEF" という文字列が帰っていたのを nil を返すよう修正(?)しています。
