@@ -1,0 +1,1 @@
+Init_Box() や Init_version() などの初期化関数で Ruby モジュールの参照を得るのに rb_path2class() で定数名からの取得として書いてたのを rb_define_module() を使うようにしています。なんでかなと思ったら rdoc にドキュメント用のコメントを認識させるためとのこと。けど Init_Box() のほうは直前に rdoc 用コメントはないんですけどね。 [ruby-core:123813] [Misc #21688]
