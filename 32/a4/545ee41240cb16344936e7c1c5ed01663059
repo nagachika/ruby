@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow で macos-15 で C API のテストを行なわないようにしています。
