@@ -1,0 +1,1 @@
+fork 系で vfork(2) を利用する条件に ASAN が有効化されていないことを追加しています。古い ASAN で vfork(2) がサポートされていないことがあるとのこと。 https://github.com/google/sanitizers/issues/925
