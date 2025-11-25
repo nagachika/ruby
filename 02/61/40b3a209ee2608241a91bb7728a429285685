@@ -1,0 +1,1 @@
+prism 不正メモリアクセスによる異常終了の可能性があった不具合修正。 https://github.com/ruby/prism/issue/3738
