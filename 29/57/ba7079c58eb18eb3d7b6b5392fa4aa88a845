@@ -1,0 +1,1 @@
+というわけで bbf4bde75e4c8d2eacc40fc5e544ee73b20cf586 の続きで configure で atomic 用の GCC の組み込み関数の利用可否チェックで libatomic が不要ならリンクしないようにしています。
