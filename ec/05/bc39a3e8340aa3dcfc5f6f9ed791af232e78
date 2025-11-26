@@ -1,0 +1,1 @@
+さらに bbf4bde75e4c8d2eacc40fc5e544ee73b20cf586 の続き? で ruby_atomic.h で rb_native_mutex_t という型を使ってたところをrb_nativethread_mutex_t を利用するように変更しています。どう違うんだろ、と思ったらそもそも rb_native_mutex_t は現在存在していないのでここを通るような preprocessor 分岐の時にビルドエラーになっていたみたいです。
