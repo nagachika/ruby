@@ -1,0 +1,1 @@
+bundler の bundle install に --lockfile オプションを追加して、環境変数などに続いてオプションでも lockfile のファイル名を指定可能にしています。 --no-lockfile で lockfile を作らないという指定はできてましたがファイル名の指定も受け付けるようにしています。
