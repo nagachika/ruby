@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow でビルドの step にタイムアウトを付けています。
