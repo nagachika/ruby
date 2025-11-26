@@ -1,0 +1,1 @@
+d3b6f835d565ec1590059773fc87589ddf8adc37 の rbimpl_atomic_u64_fetch_add() の実装で stdatomic.h の組み込み関数による実装を復活させたのを revert しています。 https://github.com/ruby/ruby/pull/15311
