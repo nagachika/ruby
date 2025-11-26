@@ -1,0 +1,1 @@
+8a68dc7bdd3d1c97677a6633a4f2b5e524c492ae を revert してまた rbimpl_atomic_u64_fetch_add() の実装で stdatomic.h の atomic_fetch_add_explicit() を利用した実装を復活させています。 revert 合戦になってますね。次で追加の修正が入っているみたいです。
