@@ -1,0 +1,1 @@
+GC の default 実装で複数 Ractor 利用時の Kernel#fork 前後のフックで Ractor の同期をとるための barrier の呼び出し前に専用の lock を取って不正な GC の状態が発生しないようにしています。
