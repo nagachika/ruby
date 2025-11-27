@@ -1,0 +1,1 @@
+0654bcd4f809e97bca4a099fa78db9990fa5a4ae で先にテストを追加した Ruby::Box がまだ参照されているのに GC で回収されてしまう不具合の修正として rb_execution_context_t や imemo_env 型の T_IMEMO オブジェクトからの mark 処理を追加しています。
