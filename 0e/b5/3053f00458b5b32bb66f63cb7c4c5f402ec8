@@ -1,0 +1,1 @@
+ZJIT の VM 命令 setinstancevariable で Object Shapes による最適化が効く簡単なケースで直接コード生成するインライン最適化を行うようにしています。 https://github.com/ruby/ruby/pull/15290
