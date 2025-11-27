@@ -1,0 +1,1 @@
+gems/bundled_gems の test-unit のバージョンを 3.7.3 に更新しています。また NEWS の bundled gems のバージョンリストの rdoc と test-unit のバージョンを更新しています。
