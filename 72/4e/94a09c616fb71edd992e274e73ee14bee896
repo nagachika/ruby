@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用の workflow で make btest 時に --zjit-call-threshold=2 をつけて JIT コンパイルが行なわれやすいようにして実行しています。
