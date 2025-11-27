@@ -1,0 +1,1 @@
+gems/bundled_gems の rdoc のバージョンを 6.16.0 に更新しています。また .rdoc_options に theme の指定や footer の項目を追加しています。 https://github.com/ruby/ruby/pull/15319
