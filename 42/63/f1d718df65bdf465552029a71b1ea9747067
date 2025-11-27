@@ -1,0 +1,1 @@
+ff1d23eccba3ab37e77bf2d2222cad9d6f99a0ab で導入した Fiber を特定するための通し番号 fiber_serial を Ractor 毎にローカルに採番するようにして atomic 操作を不要にしています。なるほど Fiber は Ractor をまたがらないですからね。
