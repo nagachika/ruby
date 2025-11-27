@@ -1,0 +1,1 @@
+6ace0251ef47e669994adf268cbf4362c292bab0 の続きで、標準添付ライブラリ optparse で無引数の private がなくなったため不要になった public も削除しています。
