@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout のテストで assert_separately で起動する子プロセスの ruby に -W0 オプションを渡していたのが test-unit の更新で不要になったとのことで revert しています。
