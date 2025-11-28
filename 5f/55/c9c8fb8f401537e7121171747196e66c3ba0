@@ -1,0 +1,1 @@
+YJIT で多値代入の構文で右辺値を配列として分解するために to_ary を呼び出す時にそれが method_missing で実現されていた時の不具合を修正しています。 https://github.com/ruby/ruby/pull/15325 [ruby-core:123889] [Bug #21707]
