@@ -1,0 +1,1 @@
+GC の mark 処理で Object Shapes の too_complex のチェックが重複して行なわれるのを避けるためのリファクタリング。 https://github.com/ruby/ruby/pull/15274
