@@ -1,0 +1,1 @@
+IO::Buffer#each_byte の第1引数が常に無視されていて第2引数以降だけがひとつずれて解釈されて使われていた不具合を修正しています。なんでこんなことに。 https://github.com/ruby/ruby/pull/15309
