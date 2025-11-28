@@ -1,0 +1,1 @@
+make distclean や make realclean で prism のビルド用のタイムスタンプファイルとビルドディレクトリも削除するようにしています。
