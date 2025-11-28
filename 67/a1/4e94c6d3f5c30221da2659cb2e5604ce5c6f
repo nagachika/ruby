@@ -1,0 +1,1 @@
+795e290ead63bdcc79e35d569759e07d594267ab の続きでさらに RVALUE_AGE_SET_BITMAP() の呼び出しを RVALUE_AGE_SET_BITMAP() で行なっていたのを削って、必要な時だけ行なうようにあちこちの関数に入れるようにしています。
