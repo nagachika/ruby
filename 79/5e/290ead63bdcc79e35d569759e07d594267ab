@@ -1,0 +1,1 @@
+RGenGC のための RVALUE_AGE_SET() という関数が世代管理のための bitmap の更新に加えてオブジェクトの struct RBasic::flags のビットフラグの設定も行なっていたのですが、GC.compact 時の移動など bitmap の更新のみでよい場合にもこれが呼ばれていたので RVALUE_AGE_SET_BITMAP() という関数を分離して bitmap の更新のみ行なえばいい時はこちらを呼ぶように最適化しています。
