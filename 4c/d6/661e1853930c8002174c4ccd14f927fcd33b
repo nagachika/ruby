@@ -1,0 +1,1 @@
+doc/ 配下のドキュメントファイル群をいくつか doc/{contributing,language,jit,security}/ などのサブディレクトリに分類してディレクトリ構造で整理しています。 https://github.com/ruby/ruby/pull/15154
