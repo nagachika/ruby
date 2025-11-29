@@ -1,0 +1,1 @@
+GC の default 実装で bitmap により生存オブジェクトの指定をする機能で Variable Width Allocation の場合 slot の先頭はとびとびの値になるので事前に slot サイズに応じて mask を作成することで不要なチェックを飛ばせるよう最適化しています。
