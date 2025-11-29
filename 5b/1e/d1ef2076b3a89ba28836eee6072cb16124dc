@@ -1,0 +1,1 @@
+4cd6661e1853930c8002174c4ccd14f927fcd33b の続きで doc/language/ 内のいくつかのドキュメントで同一ファイル内へのリンクでファイル名を書いていたものを省略するようにしています。 https://github.com/ruby/ruby/pull/15339
