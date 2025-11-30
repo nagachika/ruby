@@ -1,0 +1,1 @@
+34290048be4a480437bbfff3dc5d8bf93e495d9b のさらに続きでやはり RUBY_PLATFORM のチェックに正規表現を使っていたのを String#include? を使うように変更しています。
