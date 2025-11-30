@@ -1,0 +1,1 @@
+bundler の無引数での bundle コマンドの実行のデフォルトの挙動を bundle help 相当に変更していたのを bundle install に戻しています。この挙動に慣れている人が相当多くて反対意見が多かったみたいです。 https://github.com/ruby/rubygems/issues/9124
