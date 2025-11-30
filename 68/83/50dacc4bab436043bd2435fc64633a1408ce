@@ -1,0 +1,1 @@
+Numerical#fdiv, Numerical#div, Numerical#to_int メソッドの rdoc 用コメントで "derived class" を "subclass of Numeric" と書きかえています。
