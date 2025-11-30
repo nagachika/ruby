@@ -1,0 +1,1 @@
+vm_insnhelper.c の static 関数 vm_getinstancevariable() の宣言に ALWAYS_INLINE() を使って常にインライン化されるようにしています。
