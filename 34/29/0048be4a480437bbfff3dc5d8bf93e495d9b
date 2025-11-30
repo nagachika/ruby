@@ -1,0 +1,1 @@
+7bd80e7e3e3dbb724616c038e6e0944128d6f905 からの rubygems の拡張ライブラリビルド時の -j オプション追加の nmake の対応で、コマンド名だけでなくて RUBY_PLATFORM で mswin を含んでいるかもチェックするようにしています。mswin 以外で nmake 使うことあるのかな。
