@@ -1,0 +1,1 @@
+413d15a3440abf570fc4bff24fe4b5ee8b7880a5 および 7bd80e7e3e3dbb724616c038e6e0944128d6f905 の続き。nmake かどうかの単純な判定を正規表現で行なってたのを String#include? に変更しています。
