@@ -1,0 +1,1 @@
+bundler の bundle コマンドを無引数で実行した時に設定の default_cli_command が指定されていなかったら将来デフォルトの挙動が bundle install にならないことを警告メッセージに出力するようにしています。
