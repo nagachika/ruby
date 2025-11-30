@@ -1,0 +1,1 @@
+bundler の checksums の計算処理のメソッドに require "rubygems/package" を追加しています。
