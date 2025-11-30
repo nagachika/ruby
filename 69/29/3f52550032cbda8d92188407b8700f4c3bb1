@@ -1,0 +1,1 @@
+7dae2a1f488afc4133dfbd6ea243aaeb71107f71 の続きで bundler の bundle コマンドを無引数で実行した時の挙動について、bundle install 相当の処理をしたうえで Gemfile が存在しない時には bundle help の挙動をするようにしています。 https://github.com/ruby/rubygems/issues/9124
