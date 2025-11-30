@@ -1,0 +1,1 @@
+413d15a3440abf570fc4bff24fe4b5ee8b7880a5 の続きで nmake の時は -j オプションを受け付けないので MAKEFLAGS を設定しないようにしています。
