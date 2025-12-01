@@ -1,0 +1,1 @@
+prism が内部に持っている Unicode の codepoint のテーブルを更新しています。 ruby 本体に追随するためとのこと。prism は独自に Unicode のテーブルを持ってるのか。
