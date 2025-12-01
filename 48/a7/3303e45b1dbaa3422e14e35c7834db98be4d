@@ -1,0 +1,1 @@
+標準添付ライブラリ prism の Prism::Source#find_line で独自に while 文で二分探索が実装されていたのを Array#bsearch_index を利用するようにリファクタリングしています。
