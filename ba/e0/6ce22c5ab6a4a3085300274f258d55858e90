@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で各ソースファイルの Init_xxx() 関数に rdoc のための OpenSSL クラスと OpenSSL::OpenSSLError の定義をするコードを #if 0 でコメントアウトした状態で書いていたのをやめています。 rdoc の機能強化(https://redirect.github.com/ruby/rdoc/pull/1217)によりこの対策はもう不要になっていたようです。
