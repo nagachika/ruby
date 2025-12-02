@@ -1,0 +1,1 @@
+array.c の ARY_SET_PTR_FORCE() と ARY_SET_PTR() というマクロで不要なセミコロンが含まれていたのを削っています。
