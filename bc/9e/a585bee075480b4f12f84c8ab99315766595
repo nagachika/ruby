@@ -1,0 +1,1 @@
+Fiber の終了時の処理 rb_fiber_close() に fiber local storage のための rb_execution_context_t::storage メンバーの Qnil クリアも追加しています。 https://github.com/ruby/ruby/pull/15253
