@@ -1,0 +1,1 @@
+signal.c の trap_handler() で不要になっていた分岐を削除しています。
