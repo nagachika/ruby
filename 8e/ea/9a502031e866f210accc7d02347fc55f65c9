@@ -1,0 +1,1 @@
+Kernel#fork 時に Thread の native thread の解放処理をする時に Thread に対応する non-blocking Fiber 用の Scheduler の参照も nil でクリアしておくようにしています。 https://github.com/ruby/ruby/pull/15354
