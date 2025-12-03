@@ -1,0 +1,1 @@
+win32/rm.bat で del コマンドのまえに rd コマンドを使うようにしています。 symbolic link の対応のためみたいです。
