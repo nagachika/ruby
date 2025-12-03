@@ -1,0 +1,1 @@
+ZJIT の可変長引数を受け取る C 実装のメソッドを中間表現 HIR の CCallVaridic 対応をする最適化。 https://github.com/ruby/ruby/pull/14898
