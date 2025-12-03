@@ -1,0 +1,1 @@
+win32/Makefile.sub の make distclean、make realclean などで空のディレクトリの削除の対応を追加しています。
