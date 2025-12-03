@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の workflow でビルド後に nmake distclean を実行するようにしています。従来も distclean を実行する step はありましたが make コマンドを呼んでたので nmake を明示的に使うよう指定できるように専用 action も拡張しています。
