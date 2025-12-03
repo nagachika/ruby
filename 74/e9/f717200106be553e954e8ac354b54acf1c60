@@ -1,0 +1,1 @@
+ZJIT において String#ascii_only? メソッドを例外の発生しない leaf メソッドとして annotation を追加しています。
