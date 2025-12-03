@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の AnyToString 命令で対象がもともと String だった時に定数畳み込みする最適化。
