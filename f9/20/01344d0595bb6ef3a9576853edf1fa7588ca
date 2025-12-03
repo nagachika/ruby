@@ -1,0 +1,1 @@
+doc/jit/zjit.md の --zjit-dump-hir-iongraph オプションで出力した Iongraph 形式のファイルの可視化方法のコマンドラインを修正しています。 https://github.com/ruby/ruby/pull/15357
