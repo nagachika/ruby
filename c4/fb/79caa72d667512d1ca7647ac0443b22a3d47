@@ -1,0 +1,1 @@
+win32/Makefile.sub の make distclean の依存関係を追加して生成コードの削除などがされるようにしているようです。
