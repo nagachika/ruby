@@ -1,0 +1,1 @@
+GC の default 実装で拡張ライブラリ objspace の ObjectSpace._dump でオブジェクトの情報をダンプする時のメタデータの項目に RGenGC の remembered フラグを追加しています。
