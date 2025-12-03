@@ -1,0 +1,1 @@
+win32/Makefile.sub で sub-make 実行時の余計な出力の抑制など表示を整形しています。
