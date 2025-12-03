@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の ObjToString 命令の実装で型についての Guard にプロファイル情報をより有効に使える GuardType を利用するように改善しています。
