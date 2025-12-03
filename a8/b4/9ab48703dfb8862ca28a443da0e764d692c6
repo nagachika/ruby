@@ -1,0 +1,1 @@
+特異クラスのメソッドを remove_method で削除した時の call cache についてのテストケースを追加しています。 https://github.com/ruby/ruby/pull/15360
