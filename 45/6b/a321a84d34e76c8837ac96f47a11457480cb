@@ -1,0 +1,1 @@
+bundler の bundle install サブコマンドで BUNDLE_LOCKFILE 環境変数の影響の優先順位を上げて Gemfile の記述を上書きできるようにしているようです。やっぱりそうですよね。
