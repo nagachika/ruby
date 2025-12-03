@@ -1,0 +1,1 @@
+shape.h の RBASIC_FIELDS_COUNT() という inline 関数で rb_obj_shape_id() を呼んでたのを RBASIC_SHAPE_ID() という inline 関数を使うようにして不要なチェックを省略する最適化をしています。 https://github.com/ruby/ruby/pull/15273
