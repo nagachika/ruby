@@ -1,0 +1,1 @@
+win32/Makefile.sub で prism の生成コード類や依存関係管理のための timestamp ファイルなどの削除処理を追加しています。
