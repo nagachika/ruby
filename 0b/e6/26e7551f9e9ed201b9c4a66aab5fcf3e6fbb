@@ -1,0 +1,1 @@
+common.mk で make clean の削除対象に .ext/timestamp/ ディレクトリを追加しています。
