@@ -1,0 +1,1 @@
+win32/Makefile.sub の make distclean の削除対象に miniprelude.c を追加しています。
