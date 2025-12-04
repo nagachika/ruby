@@ -1,0 +1,1 @@
+拡張ライブラリ json に JSON.generate に Fload::NAN を渡した時のテストを追加しています。
