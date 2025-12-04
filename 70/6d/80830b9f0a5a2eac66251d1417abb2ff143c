@@ -1,0 +1,1 @@
+bundler のテストで警告抑制のため Bundler.ui を Bundler::UI::Silent.new に差し替える setup を追加しています。
