@@ -1,0 +1,1 @@
+Float クラスの rdoc 用コメントを削除して doc/float.rb というファイルに移動しています。 Float を open class で開いてその前にコメントを書くというスタイルだけどなんで doc/float.rdoc とドキュメント専用のファイルにしてないんだろう。
