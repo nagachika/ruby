@@ -1,0 +1,1 @@
+標準添付ライブラリ prism の ripper の Node への translator で明示的に利用中の ruby のバージョンの文法を使うように指定を追加しています。
