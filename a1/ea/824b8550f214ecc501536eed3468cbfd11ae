@@ -1,0 +1,1 @@
+prism の PM_OPTIONAL_LOCATION_NOT_PROVIDED_VALUE という Node の位置情報の初期化子として使うマクロを削除しています。
