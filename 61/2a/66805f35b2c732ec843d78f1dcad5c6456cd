@@ -1,0 +1,1 @@
+Object Shapes の shape_get_next() という関数で不要なチェックを削除しています。
