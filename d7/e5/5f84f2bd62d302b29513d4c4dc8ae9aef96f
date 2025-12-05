@@ -1,0 +1,1 @@
+2b23b05bf2c0f30f2c4ee9bb3030fa58f2cba3a6 で追加した ZJIT の Rust 実装の InsnIter をコード生成部分で利用するリファクタリング。
