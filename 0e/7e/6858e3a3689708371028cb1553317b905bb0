@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych.load などの load 系メソッドにキーワード引数 parse_symbols を追加して false を指定すると :sym みたいなのを文字列として解釈するようにしています。
