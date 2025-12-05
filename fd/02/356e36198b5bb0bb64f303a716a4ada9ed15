@@ -1,0 +1,1 @@
+ZJIT の VM 命令 newarray の対応で rb_ary_new_capa() で配列オブジェクトを作成して要素を1つずつ rb_ary_push() で追加していたのを rb_ec_ary_new_from_values() という C の関数を利用して 1度の関数呼び出しで作成する最適化。 https://github.com/ruby/ruby/pull/15391
