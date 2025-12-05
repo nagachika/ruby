@@ -1,0 +1,1 @@
+同じく Object Shapes の shape_get_next() という関数からオブジェクトのクラスを取得する処理を obj_get_owner_class() という関数に切り出して呼び元で呼んでから klass を引数に渡すようにリファクタリングしています。
