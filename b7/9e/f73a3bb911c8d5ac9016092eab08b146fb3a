@@ -1,0 +1,1 @@
+parse.y の value_expr() というマクロを削除して直接 value_expr() 関数を呼ぶようにしています。以前は ripper で value_expr() が signature が異なる関数として定義されていたのでその吸収のために必要だったようですが、今はもう不要になっていたようです。
