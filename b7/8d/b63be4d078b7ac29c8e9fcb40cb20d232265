@@ -1,0 +1,1 @@
+8c3909935e2ba9f79bf3492772c77c305a0d370b の TracePoint の NEWOBJ フックで Object Shapes が利用できるようにした修正の追加修正? で fstring_concurrent_set_create() 内での RUBY_ASSERT() でのチェックを rb_obj_gen_fields_p() で fields_obj のエントリがあるかをみてたのを rb_shape_obj_has_ivars() でインスタンス変数があるかというチェックに修正しています。 fields_obj は object_id の保持にも使われるけどそちらは問題がないため。 [ruby-core:123902] [Bug #21710]
