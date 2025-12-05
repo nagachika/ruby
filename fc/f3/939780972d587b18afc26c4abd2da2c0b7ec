@@ -1,0 +1,1 @@
+TypedData_Get_Struct() マクロの実体として rbimpl_check_typeddata() という関数を追加して、T_TYPEDDATA 型のオブジェクトで内容を示す rb_data_type_t が一致する時に RTYPEDDATA_GET_DATA() マクロを利用するショートカットを追加しています。
