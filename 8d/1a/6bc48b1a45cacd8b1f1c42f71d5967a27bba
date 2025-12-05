@@ -1,0 +1,1 @@
+228d13f6ed914d1e7f6bd2416e3f5be8283be865 の続き? で rb_gc_mark_children() 内で T_STRUCT 型オブジェクトの mark 処理でインスタンス変数などを管理する fields_obj に mark を伝播する時に rb_shape_obj_has_fields() で fields_obj が存在しているかチェックするようにしています。
