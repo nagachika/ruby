@@ -1,0 +1,1 @@
+Module#autoload 用の内部的に利用する autoload_const という型のオブジェクトを RGenGC 用の Write Barrier を追加して WB-protected にしています。
