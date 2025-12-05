@@ -1,0 +1,1 @@
+ZJIT で Kernel#class メソッドを C 関数 rb_class_real() を直接呼び出すインライン化を行なっています。 https://github.com/ruby/ruby/pull/15397
