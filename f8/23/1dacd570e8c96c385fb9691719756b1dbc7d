@@ -1,0 +1,1 @@
+ruby 実装されている組み込みメソッドの Ractor.store_if_absent から C 関数 ractor_local_value_store_if_absent() を呼び出すところで Primitive.attr! でブロックが渡されることをアノテーション追加しています。未使用のブロック渡しの警告が出てしまっていたのでその抑制のため。
