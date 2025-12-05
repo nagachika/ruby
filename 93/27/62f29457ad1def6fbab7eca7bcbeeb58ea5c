@@ -1,0 +1,1 @@
+bundler で gem を取得するための HTTPS のコネクションを複数保持する connection pool を実装して並列でダウンロードできるようにしています。
