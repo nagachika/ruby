@@ -1,0 +1,1 @@
+関数 rb_obj_exivar_p() と rb_obj_gen_fields_p() と改名しています。
