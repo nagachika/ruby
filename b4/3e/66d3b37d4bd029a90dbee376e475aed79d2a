@@ -1,0 +1,1 @@
+同様に Object Shapes の rb_shape_transition_add_ivar_no_warnings() という関数でオブジェクト自体を渡していたのをそのクラスと shape_id を渡すように変更しています。
