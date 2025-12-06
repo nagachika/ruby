@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout モジュールのメソッドのうち timeout 以外を private にしています。
