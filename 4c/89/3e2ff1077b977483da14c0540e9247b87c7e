@@ -1,0 +1,1 @@
+f2cd772329b8d07e29ed114480ff99ad36acbd75 で導入した RUBY_TYPED_FROZEN_SHAREABLE_NO_REC ビットフラグを Method/UnboundMethod のインスタンスで設定するようにしています。
