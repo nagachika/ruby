@@ -1,0 +1,1 @@
+rb_data_type_t::flags のビットフラグに RUBY_TYPED_FROZEN_SHAREABLE_NO_REC を追加(ただしなぜか include/ruby/internal/core/rtypeddata.h にはコメントだけで ractor_core.h で定義している)して、T_TYPEDDATA 型オブジェクトで Ractor.make_sharable に渡された時にこのオブジェクトから参照している他のオブジェクトに Ractor.make_shareable を呼ぶ再帰的な処理を行なわず、かわりに既に ractor sharable かチェックしてそうでなかったら RactorError 例外を発生させるようにしています。
