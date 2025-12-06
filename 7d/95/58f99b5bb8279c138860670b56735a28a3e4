@@ -1,0 +1,1 @@
+bootstraptset の Ractor のテストで並列で Class.new でクラスを作った時の不具合? を避けるために先にクラス群を作っておいてから Module#define_method でメソッド定義をするように書き換えています。
