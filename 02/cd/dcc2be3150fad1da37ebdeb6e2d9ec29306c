@@ -1,0 +1,1 @@
+Proc オブジェクトから receiver self の参照をなくして Ractor shareable にする処理で関数内で生成した Proc オブジェクトを Ractor shareable にする前に複製を作るようにしています。これは作成したばかりの Proc なのになんでだろう。
