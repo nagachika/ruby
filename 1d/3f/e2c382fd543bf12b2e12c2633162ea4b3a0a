@@ -1,0 +1,1 @@
+Proc オブジェクト(ブロック)から定義された UnbountMethod は Ractor shaerable ではないので元の Ractor からしか利用できないのでそのチェックのために Ractor オブジェクトの参照を持っていましたが、GC の mark をしていなかったので、mark せずに Ractor 毎のユニークな通し番号だけ持つようにしています。
