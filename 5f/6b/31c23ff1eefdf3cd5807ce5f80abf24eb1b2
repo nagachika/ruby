@@ -1,0 +1,1 @@
+non-blocking Fiber のための Scheduler が設定された状態で Kernel#fork で子プロセスを起動すると、不正な状態の Scheduler が子プロセスに残ってしまって異常終了や意図しないブロック状態になってしまう可能性があったので、fork 時には Scheduler を削除して、Fiber を blocking モードに変更してしまうようにしています。 non-blocking のつもりで書いた Fiber が blocking になってうまく動くのかはわかりませんが、fork を考慮したアプリケーションでは子プロセスで再度 Scheduler を Thread にセットすることを想定しているみたいです。 https://github.com/ruby/ruby/pull/15385
