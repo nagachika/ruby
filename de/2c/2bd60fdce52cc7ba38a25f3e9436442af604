@@ -1,0 +1,1 @@
+class_switch_superclass() という関数でクラスがそのクラスを継承している子クラスのリストからも移動させる処理が複数 Ractor 利用時に race condition があったので RB_VM_LOCKING() による排他を追加しています。 https://github.com/ruby/ruby/pull/15356
