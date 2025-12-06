@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の open_timeout の実装で拡張ライブラリ socket の open_timeout の対応有無を調べてサポートされていない時(古い ruby の時)にエラーが発生した時に、rescue 節の中で Timeout.timeout を使った代替実装をしていたため、そこで例外が発生すると Exception#cause に本来無関係な ArgumentError が格納されてエラーメッセージに含まれるので誤解されてしまうという問題を修正しています。socket が open_timeout をサポートしない時は rescue 節を抜けた後で Timeout.timeout を利用するようにしています。
