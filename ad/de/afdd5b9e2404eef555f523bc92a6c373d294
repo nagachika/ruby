@@ -1,0 +1,1 @@
+8296524fd6cf2fb9ae1eca4be722fe9ee2c26f37 と同様に yjit/yjit.mk でも ZJIT 用のライブラリのターゲットを追加するかの分岐を変更しています。
