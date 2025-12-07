@@ -1,0 +1,1 @@
+YJIT/ZJIT 共通の Rust 実装で警告抑制のための crate attribute を追加しています。
