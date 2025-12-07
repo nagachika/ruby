@@ -1,0 +1,1 @@
+File.path メソッドの tet-all のテストと rubyspec のテストに非ASCII-compatible なエンコーディングの文字列や NUL 文字を含む文字列などを渡した時のテストを追加しています。
