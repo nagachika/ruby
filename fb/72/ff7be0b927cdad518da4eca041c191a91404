@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラオプションを試す workflow で古い clang を使う時は configure 時に --disable-zjit を指定して ZJIT 無効化してビルドするようにしています。
