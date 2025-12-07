@@ -1,0 +1,1 @@
+NEWS の ZJIT のセクションを YJIT の前に移動して少し説明を修正しています。もう JIT なしよりは多くのベンチマークで速くなってきたとのこと。 https://github.com/ruby/ruby/pull/15426
