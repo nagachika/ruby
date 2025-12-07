@@ -1,0 +1,1 @@
+228d13f6ed914d1e7f6bd2416e3f5be8283be865 の新規オブジェクトの初期化時に Object Shapes の shape_id を渡して GC が走る可能性がある処理の前に Object Shapes のセットアップをしておく変更を revert しています。shape.h への依存関係ができたので ModGC で拡張ライブラリとしてビルドできなくなってしまうため。
