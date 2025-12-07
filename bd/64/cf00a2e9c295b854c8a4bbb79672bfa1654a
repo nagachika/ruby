@@ -1,0 +1,1 @@
+String#capitalize の rdoc 用コメントを doc/string/capitalize.rdoc という独立したファイルに分離して :include: で取り込むようにしています。
