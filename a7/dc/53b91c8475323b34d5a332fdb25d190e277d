@@ -1,0 +1,1 @@
+bignum.c の rb_ull2big() や rb_ll2big()、rb_uint128t2big() といった 128-bits の整数(LONG_LONG)を変換する関数を IO::Buffer から利用できるように static 修飾子を外して、IO::Buffer#get_value の変数タイプ指定に :u128、:U128、:s128、:S128 などのサポートを追加しています。 https://github.com/ruby/ruby/pull/15399
