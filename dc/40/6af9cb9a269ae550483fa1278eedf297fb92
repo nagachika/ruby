@@ -1,0 +1,1 @@
+ec28bd75a869c2e525388582370239a9ff8c19e7 の再修正で Ractor.shareable? の typo を修正しています。defined? の中なので常に Ractor サポートしない実装になってて気がつかなかったのですね。
