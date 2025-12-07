@@ -1,0 +1,1 @@
+prism のバッファの境界を越えた参照の不具合修正。 https://github.com/ruby/prism/issues/3790
