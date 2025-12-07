@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Ractor.shareable 関連のテストで Intel 上の macOS (x86_64-darwin) で失敗しているのでテストメソッド定義をスキップするように分岐の条件に RUBY_PLATFORM での判定を追加しています。
