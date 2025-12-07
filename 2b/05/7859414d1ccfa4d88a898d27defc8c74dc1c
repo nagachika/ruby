@@ -1,0 +1,1 @@
+rb_thread_call_with_gvl() という C API を既に GVL を取得している状態で呼んでもそのままコールバック関数を呼ぶようにして使いやすくしています。 [ruby-core:119239] [Feature #20750]
