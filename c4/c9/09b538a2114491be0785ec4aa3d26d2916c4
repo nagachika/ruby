@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR のダンプ時に GetLocal/SetLocal 命令の表示に変数名を含めるようにしています。 https://github.com/ruby/ruby/pull/15423
