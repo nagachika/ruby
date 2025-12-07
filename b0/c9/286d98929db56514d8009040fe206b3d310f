@@ -1,0 +1,1 @@
+T_BIGNUM 型のオブジェクトを Variable Width Allocation に対応して拡張した slot サイズ内により大きな整数も埋め込めるようにしています。
