@@ -1,0 +1,1 @@
+prism の実装の pm_encoding_xx() 関数群に引数の n が 0 の時のチェックを追加しています。 潜在的に不正メモリアクセスをする可能性があったようです。 https://github.com/ruby/prism/issue/3784
