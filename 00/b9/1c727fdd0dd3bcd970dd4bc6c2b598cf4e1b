@@ -1,0 +1,1 @@
+ec28bd75a869c2e525388582370239a9ff8c19e7 からの標準添付ライブラリ timeout の修正の続きで Process.get_clocktime を Method オブジェクトとして取り出すところをシンプルに書き換えています。
