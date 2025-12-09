@@ -1,0 +1,1 @@
+prism のビルド用の prism/srcs.mk で distclean で prism ディレクトリ削除時に失敗してもエラーにしないようにしています。
