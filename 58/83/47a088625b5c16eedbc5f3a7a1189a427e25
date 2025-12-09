@@ -1,0 +1,1 @@
+ObjectSpace._id2ref で object_id でテーブルからオブジェクトの参照を引く処理が複数 Ractor 利用時に race condition があり異常終了する可能性があったのを修正するため参照する時じゃなくてテーブルへの追記の時に RB_VM_LOCKING() で VM 全体のロック取得するようにしています。
