@@ -1,0 +1,1 @@
+拡張ライブラリ date の初期化関数 Init_date_core() で 1/2 の Rational を保持する変数を rb_gc_register_mark_object() で GC の mark するために登録するのを変数への代入の直後に移動しています。あいだに GC が走る可能性がある処理が挟まっていたため。
