@@ -1,0 +1,1 @@
+42f5654b69244b5892ff2c2eba8d838064d2cd9f の non-blocking Fiber Scheduler の yield メソッド対応のテストで標準エラー出力に出していた出力を抑制しています。 が、ついでに e7f9abdc910bbb37d04e8e65e9bad5f36fa074e1 の tool/sync_default_gems.rb の変更が巻き戻されてしまっているようです。
