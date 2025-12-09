@@ -1,0 +1,1 @@
+組み込みの Pathname の Pathname#relative_path_from を複数 Ractor 対応しています。パスの比較をする Proc オブジェクトを定数に格納して使いまわしていたのを private method としてい定義するように修正しています。
