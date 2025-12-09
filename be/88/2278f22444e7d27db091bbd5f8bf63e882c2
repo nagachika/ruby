@@ -1,0 +1,1 @@
+RBIMPL_ATTR_DEPRECATED_SINCE()/RBIMPL_ATTR_DEPRECATED_INTERNAL()/RBIMPL_ATTR_DEPRECATED_INTERNAL_ONLY() といったマクロの定義を include/ruby/backward.h から include/ruby/internal/attr/deprecated.h というヘッダに移動しています。
