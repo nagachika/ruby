@@ -1,0 +1,1 @@
+Pathname の ruby 実装で利用していた内部的定数を private にしてさらに freeze しています。
