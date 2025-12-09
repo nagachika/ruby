@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の pathname.gem の upstream の repository から組み込みの pathname の実装への同期を追加しています。 pathname は default gem ではなくなって組込みになったのですが、まだ upstream が本体なんですね
