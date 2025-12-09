@@ -1,0 +1,1 @@
+d3aa7b889f572237467156f3c6bc3c68ef45e9c4 と同様に拡張ライブラリ openssl の openssl_asn1.c でも ASN1_OCTET_STRING の操作に ASN1_STRING_XXX() のマクロ群を利用するようにしています。
