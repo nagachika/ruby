@@ -1,0 +1,1 @@
+組み込みクラスになった Pathname の to_path メソッドを alias として定義する時に alias 文を使うことで Symbol を不要にしていあす。また Pathname::TO_PATH という過去の互換性のための定数を削除しています。
