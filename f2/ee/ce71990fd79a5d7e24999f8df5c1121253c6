@@ -1,0 +1,1 @@
+internal/time.h で ruby_reset_timezone() という関数の定義に RBIMPL_ATTR_DEPRECATED_INTERNAL_ONLY() マクロを使って deprecated にマークしていたのが実際には preprocessor で有効になることがなかった? ので削除しています。
