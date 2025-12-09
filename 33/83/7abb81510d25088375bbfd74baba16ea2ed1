@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#pos= の rdoc 用コメントのリンク修正。 https://github.com/ruby/stringio/pull/194
