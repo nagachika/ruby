@@ -1,0 +1,1 @@
+rb_mutex_sleep() において GET_EC() で rb_execution_context_t を取得するのを関数の先頭に移動しています。 なぜかわかりませんが coroutine の関係で? sleep 後に取得すると clang-16,18 でビルドした時には不正な値になってることがあったみたいです。
