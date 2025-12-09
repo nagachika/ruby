@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler に io_close のフックメソッドの仕様を追加しています。 IO#close 時に fd の整数を引数として呼び出します。 https://github.com/ruby/ruby/pull/15434
