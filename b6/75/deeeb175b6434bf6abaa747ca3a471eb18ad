@@ -1,0 +1,1 @@
+Pathname#initialize で引数の変換に File.path を利用してシンプルにしています。
