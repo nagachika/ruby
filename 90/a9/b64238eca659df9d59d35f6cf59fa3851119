@@ -1,0 +1,1 @@
+clang の最適化により Ractor に対応する rb_execution_context_t を取得するときに rb_current_execution_context() では native thread ごとの値がキャッシュされてしまい thread 切り替え後に誤った値を使って異常終了になってしまうことがあったようで、ractor_lock() や ractor_unlock() といった関数で rb_current_ec_noinline() というインライン化を抑制して ec を取得する関数を利用するようにしています。
