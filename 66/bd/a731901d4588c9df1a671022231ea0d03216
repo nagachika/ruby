@@ -1,0 +1,1 @@
+IO::Buffer のテストから未使用の変数代入を削除しています。 https://github.com/ruby/ruby/pull/15451
