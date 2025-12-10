@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグの定数 RUBY_FL_EXIVAR の deprecated のためのビルド時の警告メッセージの typo 修正。
