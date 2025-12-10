@@ -1,0 +1,1 @@
+rubygems で bundler のインストールする際に bin/bundle の実行ファイルのみインストールして他の実体は default gems の添付されているものを利用するように? しています。
