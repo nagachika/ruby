@@ -1,0 +1,1 @@
+parse.y で FORWARD_ARGS_WITH_RUBY2_KEYWORDS という既に使っていないマクロでの preprocessor 分岐を削除しています。
