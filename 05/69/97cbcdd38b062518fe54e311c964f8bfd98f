@@ -1,0 +1,1 @@
+parse.y で利用している struct rb_args_info という構造体の ruby2_keywords というメンバーは既に利用がなくなっていたので削除しています。
