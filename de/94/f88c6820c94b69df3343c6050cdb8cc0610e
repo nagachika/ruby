@@ -1,0 +1,1 @@
+TracePoint のイベントフックを Ractor 毎に管理していたのを GC 関連の内部的に利用しているフックを rb_vm_struct 構造体の global_hooks というメンバーを追加してプロセス(VM)全体で統一して管理するようにしています。
