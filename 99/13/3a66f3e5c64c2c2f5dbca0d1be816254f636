@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http で拡張ライブラリ socket の TCPSocket#initialize がキーワード引数 open_timeout をサポートしているかどうかのチェック方法を、一度呼んでみて ArgumentError を捕捉するという方法から instance_method + parameters という方法を使うことで $DEBUG=true 時の例外発生に伴なうメッセージが出ないようにしています。 https://github.com/ruby/net-http/pull/224
