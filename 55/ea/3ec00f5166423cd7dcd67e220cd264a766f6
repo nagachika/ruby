@@ -1,0 +1,1 @@
+2e828dd98feeec5bab5ea85f0661638524004a01 で IO::Buffer#get_value の 128-bits の変数の扱いの aliasing の警告抑制のために導入した共用体の宣言を internal/numeric.h に移動して numeric.c の rb_int128_to_numeric() という関数でも利用するようにしています。
