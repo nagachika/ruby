@@ -1,0 +1,1 @@
+65995c22f892e103fdf2601fdccd0202483a4fca で標準添付ライブラリ timeout の Ractor.shareable 関連のテストを Intel/Mac で実行しないようにしていたのを revert しています。
