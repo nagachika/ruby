@@ -1,0 +1,1 @@
+bundler で bundle コマンドを無引数で実行した時のメッセージの変更をしています。また bundle install 時にも Gemfile がなかったらヘルプメッセージ表示に fallback するように変更しています。
