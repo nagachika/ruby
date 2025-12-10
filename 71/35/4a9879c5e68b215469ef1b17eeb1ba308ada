@@ -1,0 +1,1 @@
+prism の pattern match の Hash パターンの文法での位置情報の保持を修正しています。
