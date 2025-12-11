@@ -1,0 +1,1 @@
+rubyspec で RUBY_VERSION をチェックしていたところにヘルパーメソッド ruby_version_is を利用するリファクタリング。
