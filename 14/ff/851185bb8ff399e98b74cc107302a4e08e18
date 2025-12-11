@@ -1,0 +1,1 @@
+標準添付ライブラリ forwardable で Kernel#eval でメソッド定義するためのスクリプトを組み立てる時に警告が発生したり SyntaxError になる可能性があったのを修正しています。 https://github.com/ruby/forwardable/issues/35 [ruby-core:123890] [Bug #21708]
