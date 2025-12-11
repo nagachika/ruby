@@ -1,0 +1,1 @@
+07e85e1dba3e15c714044660f731a90ce86c8c24 で導入した Ruby::Box のテストで assert_separately のかわりに assert_ruby_status を利用するように変更して、共有ライブラリがなくなったことをチェックするのを子プロセスの終了後に移動しています。Windows での制約により利用中に消せないため。
