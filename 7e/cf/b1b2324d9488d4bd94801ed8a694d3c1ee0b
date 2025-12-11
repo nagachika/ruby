@@ -1,0 +1,1 @@
+拡張ライブラリ win32/resolv のスクリプトで registry の値を読み取るのに "NV Domain" のかわりに "Domain" を利用するようにしています。
