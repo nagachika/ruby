@@ -1,0 +1,1 @@
+NUM2PTR() および PTR2NUM() という変換マクロが各所で定義されていたのを include/ruby/internal/arithmetic/intptr_t.h にまとめています。
