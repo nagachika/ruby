@@ -1,0 +1,1 @@
+81fbdff8fdf2ae7afb2fa19319ff7d40379521fe の続きで内部で利用している concurrent_set の構造で要素の VALUE が GC で回収済みのオブジェクトかどうか判定して再利用できるようにしています。
