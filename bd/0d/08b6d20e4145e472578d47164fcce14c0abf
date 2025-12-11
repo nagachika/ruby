@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR のダンプ時にコメントとして脱最適化の理由を表示するようにしています。 https://github.com/ruby/ruby/pull/15454
