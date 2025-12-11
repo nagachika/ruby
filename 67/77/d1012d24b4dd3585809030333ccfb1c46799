@@ -1,0 +1,1 @@
+拡張ライブラリ monitor で Monitor クラスの T_TYPEDDATA 型オブジェクトの定義で GC.compact 対応するようにしています。 また rb_data_type_t::flags のビットフラグに RUBY_TYPED_EMBEDDABLE を追加して Variable Width Allocation を利用して slot に構造体を埋め込めるようにしています。
