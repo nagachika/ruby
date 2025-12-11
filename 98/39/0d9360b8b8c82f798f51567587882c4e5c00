@@ -1,0 +1,1 @@
+rbimpl_check_typeddata() 関数の宣言に RBIMPL_ATTR_PURE_UNLESS_DEBUG() をつけて pure 関数としていたのを削除しています。例外が発生する可能性があるため。 [ruby-core:124103] [Bug #21771]
