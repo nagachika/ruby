@@ -1,0 +1,1 @@
+ZJIT の統計情報をダンプする --zjit-stats オプションで出力先のファイル名を指定することができるようにしています。 https://github.com/ruby/ruby/pull/15414
