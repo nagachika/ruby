@@ -1,0 +1,1 @@
+拡張ライブラリ monitor の実装で rb_fiber_current() が繰り返し呼ばれていたのを 1度だけ呼んで結果を格納するように最適化しています。このために struct monitor_args という構造体を導入してこれに current_fiber を持たせることで関数をまたがって同じ Fiber の参照を持ち回れるようにしています。
