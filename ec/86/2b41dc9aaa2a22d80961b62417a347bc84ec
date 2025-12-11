@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションなどを試す workflow で マクロ USE_FLONUM=0 を指定して Float に flonum を使わないようにビルドする時に ZJIT を無効化するようにしています。 https://github.com/ruby/ruby/pull/15471
