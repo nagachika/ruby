@@ -1,0 +1,1 @@
+Refinements でメソッドの可視性を private や public などのメソッドで変更するだけの時に SystemStackError が発生してしまうことがあった不具合を修正しています。 [ruby-core:122558] [Bug #21446]
