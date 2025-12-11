@@ -1,0 +1,1 @@
+ZJIT で Fixnum の範囲の整数の Integer#/ のインライン化を実装しています。 https://github.com/ruby/ruby/pull/15452
