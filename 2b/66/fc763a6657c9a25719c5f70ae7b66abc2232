@@ -1,0 +1,1 @@
+vm_core.h の inline 関数 rb_current_execution_context() 内のコメントの typo 修正。
