@@ -1,0 +1,1 @@
+ZJIT で VM 命令 opt_newarray_send の実装の不要なコピーを抑制する小さな最適化。
