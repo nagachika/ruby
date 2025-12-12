@@ -1,0 +1,1 @@
+Ractor 利用時の experimental 警告のメッセージを変更して Ractor is experimental から Ractor API is experimental にしています。また "there are many implementation issues." という文言は消しています。
