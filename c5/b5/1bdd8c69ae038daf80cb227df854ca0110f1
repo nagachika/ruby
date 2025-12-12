@@ -1,0 +1,1 @@
+parse.y 利用時に do...end による? ブロックを渡したメソッドの戻り値(つまり end のあと)に .() の記法で Proc#call を行なおうとすると SyntaxError になるのを修正しています。 [ruby-core:123914] [Bug #21712]
