@@ -1,0 +1,1 @@
+C API の rb_tracepoint_new() から TracePoint を使って RUBY_INTERNAL_EVENT_NEWOBJ のイベントのフック内で rb_obj_id() を呼ぶという拡張ライブラリを使ったテストを削除しています。 [Bug #21710] の修正が 8c3909935e2ba9f79bf3492772c77c305a0d370b でなされましたが、その後の議論によると https://bugs.ruby-lang.org/issues/21710#note-23 などからこの呼び出しをサポートしないようにしたようです。
