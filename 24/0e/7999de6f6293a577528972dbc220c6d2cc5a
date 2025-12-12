@@ -1,0 +1,1 @@
+NEWS に c76ba839b153805f0498229284fea1a809308dbc で追加した String#strip 系メソッドの引数追加について追記しています。 [ruby-core:123063] [Feature #21552]
