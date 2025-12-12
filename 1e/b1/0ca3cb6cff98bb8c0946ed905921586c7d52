@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 関連の workflow で ruby-bench でベンチマークを実行するジョブで fluentd、psych-load、railsbench の 3つを実行除外するようにしています。 https://github.com/ruby/ruby/pull/15479
