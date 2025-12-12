@@ -1,0 +1,1 @@
+internal/bits.h に追加していた整数の演算のオーバーフローチェックつきのマクロ ADD_OVERFLOW_P() や SUB_OVERFLOW_P() などを parser_bits.h にも追加し、rb_popcount32() と rb_popcount64()  の関数の実装の修正も parser_bits.h に適用しています。 internal/bits.h への変更を移植しているようです。 [ruby-core:123827] [Misc #21690]
