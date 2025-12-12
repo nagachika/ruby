@@ -1,0 +1,1 @@
+ZJIT で freeze されたオブジェクトの attr_reader などからインスタンス変数を読み込む処理では結果が固定のはずなので定数畳み込みの最適化を行うようにしているようです。 https://github.com/ruby/ruby/pull/15483
