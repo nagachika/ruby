@@ -1,0 +1,1 @@
+defs/jit.mk の RUST_LIB_TOUCH という変数の定義を cargo コマンドが利用可能な時だけ行うようにしています。
