@@ -1,0 +1,1 @@
+b0ea9070d4f42f1844af7eac347ddfb9b4760439 と同様の不要になった touch コマンド実行の削除を zjit/zjit.mk でも行なっています。
