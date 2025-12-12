@@ -1,0 +1,1 @@
+Encoding クラスのオブジェクトは T_TYPEDDATA 型のオブジェクトですが struct RData として扱っていた古いコードが一部残っていたので RDATA() のかわりに RTYPEDDATA_GET_DATA() を使うなど移行しています。
