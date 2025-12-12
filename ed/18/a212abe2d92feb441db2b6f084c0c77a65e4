@@ -1,0 +1,1 @@
+ZJIT のインスタンス変数を設定する処理で Objective Shapes の too_complex の時のチェックを C 関数 rb_shape_get_iv_index() の呼び出し前に行うようにして異常終了を修正しているようです。 https://github.com/ruby/ruby/pull/15478
