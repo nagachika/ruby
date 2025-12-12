@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.parse のオプションとして allow_control_characters を追加して文字列内にコントロール文字が含まれていてもエラーとしないよう指定可能にしています。
