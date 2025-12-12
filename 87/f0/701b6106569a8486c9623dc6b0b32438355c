@@ -1,0 +1,1 @@
+bundler の gemspec ファイルで spec.files の設定のため Dir.glob を呼ぶ時にキーワード引数 base を指定しています。 ruby 本体のリポジトリ上でも正しい値が得られるようにするため?
