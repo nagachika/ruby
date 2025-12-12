@@ -1,0 +1,1 @@
+String#undump で \u による Unicode の文字と \xXX の記法が隣接していた? 時に常に例外が発生していたのを、\xXX が ASCII 文字の範囲であれば許容するようにしています。 [ruby-core:113041] [Bug #19558]
