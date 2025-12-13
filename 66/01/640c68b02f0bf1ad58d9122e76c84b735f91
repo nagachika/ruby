@@ -1,0 +1,1 @@
+tool/make-snapshot でバージョンを major と minor のみ指定して tag ではなく branch からビルドするケースを別の正規表現でマッチさせるようにしています。
