@@ -1,0 +1,1 @@
+win32/win32.c の rb_w32_osid() という関数を include/ruby/win32.h に移動して inline 関数にして、常に VER_PLATFORM_WIN32_NT を返すようにしています。
