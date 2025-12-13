@@ -1,0 +1,1 @@
+tool/format-release の YAML.load を YAML.unsafe_load に変更しています。ちょっと前に www.ruby-lang.org のほうで YAML に Date オブジェクトを埋め込むようにしたからその影響かな。
