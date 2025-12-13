@@ -1,0 +1,1 @@
+C の実装からブロックの呼び出しをする rb_yield() でも GET_EC() の繰り返しを抑制するために rb_ec_yield() という rb_execution_context_t を引数で渡すバージョンを定義して Thread::Mutex#synchronize を最適化しています。
