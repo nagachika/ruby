@@ -1,0 +1,1 @@
+拡張ライブラリ json の JRuby で失敗するテストの skip を revert しています。
