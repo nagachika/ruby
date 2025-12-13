@@ -1,0 +1,1 @@
+組み込みクラス Thread::ConditionVariable の実装を ruby 実装にして Primitive を経由して C の関数を呼び出す方式にしています。特に複雑な引数処理があるわけじゃないけど、と思ったけど Mutex との一貫性のためみたいです。
