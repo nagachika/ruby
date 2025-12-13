@@ -1,0 +1,1 @@
+gc.c の rb_gc_obj_free_vm_weak_references() に引数が即値でないことをチェックする assertion を追加しています。
