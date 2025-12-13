@@ -1,0 +1,1 @@
+07b2356a6ad314b9a7b2bb9fc0527b440f004faa と類似の変更? 拡張ライブラリ monitor でも Monitor#exit で不要な rb_fiber_current() を呼ぶのを抑制しています。
