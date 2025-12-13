@@ -1,0 +1,1 @@
+tool/make-snapshot でもうだいぶ前からリリースパッケージに含めなくなってた patchlevel の対応の処理を削っています。
