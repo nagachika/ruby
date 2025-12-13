@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout のテストで SIGUSR1 を利用するテストは Signal.list をチェックして SIGUSR1 がある時だけ定義するようにしています。
