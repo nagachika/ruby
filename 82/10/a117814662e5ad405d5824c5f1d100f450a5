@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストで ObjectSpace._id2ref に渡す id に対応するオブジェクトが GC されないように変数に保持しておくように? しています。
