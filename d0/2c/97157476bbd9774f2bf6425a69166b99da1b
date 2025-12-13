@@ -1,0 +1,1 @@
+tool/merger.rb で更新時に patchlevel をインクリメントする処理を 4.0 移行は停止しています。 https://github.com/ruby/ruby/pull/15502 [ruby-core:124071] [Misc #21770]
