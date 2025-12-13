@@ -1,0 +1,1 @@
+thread_pthread.c の thread_sched_to_waiting_common0() という関数を削除してその中で分岐していた処理をそれぞれの呼び元に展開するリファクタリング。
