@@ -1,0 +1,1 @@
+tool/rbinstall.rb で default gems の gemspec ファイルを読み込む時に spec.files を lib/ の配下のファイルパスに読み替える変換を追加しています。
