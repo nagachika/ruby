@@ -1,0 +1,1 @@
+ZJIT で Hash を **kw のように splat してキーワード引数として渡すメソッドの呼び出し方をしているところを最適化を抑制させるようにしています。 https://github.com/ruby/ruby/pull/15513
