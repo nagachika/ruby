@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout.timeout をシグナルハンドラ内でも利用できるようにしています。 Timeout::Sync というモジュールを追加して Thread::Mutex#synchronize で "can't be called from trap context" という例外が発生した時に新規の Thread を起動してそこから synchronize を呼ぶ workaround を実装しています。 https://github.com/ruby/timeout/issues/17
