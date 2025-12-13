@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の Timeout.timeout の rdoc 用コメントの整理と Thread.handle_interrupt を使った時の注意事項を追記しています。
