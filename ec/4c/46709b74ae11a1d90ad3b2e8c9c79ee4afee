@@ -1,0 +1,1 @@
+tool/format-release と tool/releng/update-www-meta.rb からバージョン番号にまつわる処理を Module として切り出して tool/ruby-version.rb というスクリプトに抽出しています。
