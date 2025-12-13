@@ -1,0 +1,1 @@
+Binding#local_variable_defined? がブロックの番号による暗黙のパラメーター(_1, _2) などに反応してしまっていた不具合を修正しています。 [ruby-core:124157] [Bug #21776]
