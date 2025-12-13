@@ -1,0 +1,1 @@
+ZJIT でメソッド呼び出し時に private、protected などの可視性のチェックが漏れてたところがあったのを修正しています。 https://github.com/Shopify/ruby/issues/874 https://github.com/ruby/ruby/pull/15501
