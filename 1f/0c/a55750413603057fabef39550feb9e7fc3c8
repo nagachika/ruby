@@ -1,0 +1,1 @@
+tool/make-snapshot でも 4.0 以降のタグ名のフォーマット変更に対応させています。 https://github.com/ruby/ruby/pull/15514
