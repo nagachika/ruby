@@ -1,0 +1,1 @@
+ec4c46709b74ae11a1d90ad3b2e8c9c79ee4afee の再修正で tool/format-release から切り出したメソッドの呼び出しのメソッド名間違いを修正。
