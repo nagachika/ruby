@@ -1,0 +1,1 @@
+tool/make-snapshot の不要になった変数を削除しています。
