@@ -1,0 +1,1 @@
+GitHub Actions の PR の reviewers を自動的にセットするための workflow で doc/yjit と doc/zjit が doc/jit/ 配下に統合されたので指定を修正しています。
