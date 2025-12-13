@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout で Thread.handle_interrupt で明示的に割り込みが有効になるようにしています。呼び元で割り込みがマスクされた状態で呼ばれるとうまくタイムアウトできなくなってしまうため。なるほど。 https://github.com/ruby/timeout/issues/41
