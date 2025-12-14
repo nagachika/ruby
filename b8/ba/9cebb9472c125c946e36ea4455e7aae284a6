@@ -1,0 +1,1 @@
+Binding#implicit_parameters、Binding#implicit_parameter_get、Binding#implicit_parameter_defined? に暗黙のブロックパラメーターとしては不正な名前を渡した時に異常終了する可能性があった不具合を修正しています。 ID2SYM() で ID から逆引きして Symbol を作ってましたが元になる Symbol が引数に渡されているのでそれを直接使うようにしています。dynamic symbol の時に異常終了する可能性があったみたいですね。 https://github.com/ruby/ruby/pull/15530 [ruby-core:120743] [Bug #21049]
