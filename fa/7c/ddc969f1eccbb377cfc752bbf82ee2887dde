@@ -1,0 +1,1 @@
+Binding#local_variable_defined? が暗黙のブロックパラメーター(_1, _2 など)に反応しなくなりましたが、逆にこれら暗黙のブロックパラメーターを対象とするメソッド Binding#implicit_parameters、Binding#implicit_parameter_get、Binding#implicit_parameter_defined? というメソッド群を追加しています。ただし暗黙のブロックパラメーター it には対応していないようです。 [ruby-core:120743] [Bug #21049]
