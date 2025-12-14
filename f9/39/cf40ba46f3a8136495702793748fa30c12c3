@@ -1,0 +1,1 @@
+NEWS に Binding#implicit_parameters、Binding#implicit_parameter_get、Binding#implicit_parameter_defined? などのメソッド追加について追記しています。 [ruby-core:120743] [Bug #21049]
