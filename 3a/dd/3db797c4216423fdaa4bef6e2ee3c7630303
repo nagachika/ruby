@@ -1,0 +1,1 @@
+最近やっている rb_context_execution_t を持ち回って GET_EC() の呼び出しを減らす活動を non-blocking Fiber まわりの実装でも行なっています。 GET_THREAD() も減らすようにしているようです。最適化のためだと思いますがなかなか大変だなこれは。いくつか非 static な関数の引数変更もあり、今やらないほうがいいような気も。 https://github.com/ruby/ruby/pull/15506
