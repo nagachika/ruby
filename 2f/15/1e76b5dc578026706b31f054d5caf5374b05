@@ -1,0 +1,1 @@
+ZJIT から C 実装の関数を呼ぶための HIR 命令 CCall や CCallWithFrame、InvokeBuiltin などでアーキテクチャごとにレジスタ渡しできる数以上の引数を持つ関数の呼び出しにもスタックを利用して対応するようにしています。 https://github.com/ruby/ruby/pull/15312
