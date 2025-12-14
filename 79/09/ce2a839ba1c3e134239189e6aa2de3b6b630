@@ -1,0 +1,1 @@
+8d8159e7d87e4fd1594ce2fad3d2653e47fb1026 で race condition を避けるために Thread を起床させるイベントに通し番号をつけるために導入した rb_thread_t::event_serial というメンバーを struct rb_thread_sched_item という構造体の配下にネストさせています。 https://github.com/ruby/ruby/pull/15500
