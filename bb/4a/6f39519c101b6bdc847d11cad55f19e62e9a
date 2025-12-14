@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の Prism::Translation::RubyParser のコメントの扱いの不具合修正。
