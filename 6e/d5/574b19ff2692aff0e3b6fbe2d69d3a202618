@@ -1,0 +1,1 @@
+1eb10ca3cb6cff98bb8c0946ed905921586c7d52 で GitHub Actions の ZJIT 用の workflows で ruby-bench でベンチマークを取るときに fluentd、psych-load、railsbench を除外していたのを revert しています。直近のローカル変数がらみの修正で通るようになったのかな?
