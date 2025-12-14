@@ -1,0 +1,1 @@
+Encoding の実装で filesystem encoding の encindex も毎回探索されていたのを static 変数にキャッシュして使いまわすように最適化しています。
