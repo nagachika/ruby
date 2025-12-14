@@ -1,0 +1,1 @@
+Binding#implicit_parameters、Binding#implicit_parameter_get、Binding#implicit_parameter_defined? の rdoc 用コメントを追記しています。 [ruby-core:120743] [Bug #21049]
