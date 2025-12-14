@@ -1,0 +1,1 @@
+fa7cddc969f1eccbb377cfc752bbf82ee2887dde の続きで  Binding#implicit_parameters、Binding#implicit_parameter_get、Binding#implicit_parameter_defined? で暗黙のブロックパラメーター it にも対応するようにしています。 [ruby-core:120743] [Bug #21049]
