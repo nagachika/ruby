@@ -1,0 +1,1 @@
+ZJIT の Rust 実装において Object Shapes の rb_shape_id に対応する専用の型(実体としては uint32_t と同様ですが)を定義しています。型で区別するためと、ダンプ時の表示も改善するためみたいです。 https://github.com/ruby/ruby/pull/15489 https://github.com/ruby/ruby/pull/15528
