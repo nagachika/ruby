@@ -1,0 +1,1 @@
+Ractor.make_shareable に receiver への依存がある Proc を渡した時(というか Symbol#to_proc で作られた Proc 以外は全て?) に例外を発生させるようにしています。 [ruby-core:124156] [Bug #21775]
