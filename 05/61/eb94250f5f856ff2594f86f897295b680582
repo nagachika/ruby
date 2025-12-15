@@ -1,0 +1,1 @@
+prism で正規表現リテラル内のローカル変数への capture の処理のエスケープまわりで無限ループに陥ることがある不具合の修正。 https://github.com/ruby/prism/pull/3729
