@@ -1,0 +1,1 @@
+Enumerator.produce にキーワード引数 size を追加して、生成する Enumerator の size メソッドが呼ばれた時に返す値を指定できるようにしています。 Integer や Float::INFINITY を指定できることができる他にも Proc オブジェクトを渡して動的に決定することもできるようにしています。 [ruby-core:123875] [Feature #21701]
