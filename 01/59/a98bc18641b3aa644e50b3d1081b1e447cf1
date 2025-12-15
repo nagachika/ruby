@@ -1,0 +1,1 @@
+rbs のテストを一時的に除外するための tool/rbs_skip_tests に Enumerator.produce についてのテストを除外対象にしています。おそらく 79a6ec74831cc47d022b86dfabe3c774eaaf91ca の影響でしょうか。チケット番号の参照が 20925 になっているけどおそらく [Feature #21701] の間違い?
