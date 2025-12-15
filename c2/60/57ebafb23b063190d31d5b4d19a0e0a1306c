@@ -1,0 +1,1 @@
+拡張ライブラリを静的リンクする時のサポートのため InitVM_xxx() 関数も prefix を追加してシンボル名の衝突を防ぐようにしています。 https://github.com/ruby/io-console/pull/105 [ruby-core:124187] [Bug #21779]
