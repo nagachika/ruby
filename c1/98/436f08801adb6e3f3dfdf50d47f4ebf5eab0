@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイラ/コンパイルオプションを試す workflow 用のシェルスクリプトで configure 時に --without-git オプションをつけるようにしています。
