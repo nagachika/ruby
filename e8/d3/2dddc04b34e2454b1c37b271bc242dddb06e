@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の例外クラス OpenSSL::OpenSSLError に detailed_message メソッドを独自に定義して OpenSSL の ERR_get_error_all() や ERR_get_error_line_data() といった API で収集したエラーについての情報をメッセージに埋め込むようにしています。
