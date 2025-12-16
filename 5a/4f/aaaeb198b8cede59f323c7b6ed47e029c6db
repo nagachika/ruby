@@ -1,0 +1,1 @@
+box.c の root_box という static 変数で保持している rb_box_t 構造体の初期化を初期化子による代入で行なっていたのを配列として宣言して initialize_root_box() で行うようにしています。またいくつかの rb_data_type_t 型変数の宣言に static 修飾子を追加しています。
