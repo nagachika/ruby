@@ -1,0 +1,1 @@
+reline の doc/reline/face.md というドキュメントファイルを削除しています。 reline は bundled gems になったので。
