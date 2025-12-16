@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の RubyParsre の tranlation で ruby_parser.gem に依存していたのを sexp.gem で代替?するようにしています。 RubyParser::SyntaxError という例外クラスのみが必要だったみたいなので独自に定義するようにしています。
