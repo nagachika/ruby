@@ -1,0 +1,1 @@
+4a84fa1b39e1bcd8c62b2b5225535dabcdcfdac4 の続きで標準添付ライブラリ prism の ruby_parser の translation で依存する gem 名として sexp ではなく sexp_processor を警告メッセージに表示するようにしています。
