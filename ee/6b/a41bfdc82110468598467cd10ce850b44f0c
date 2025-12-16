@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::OPENSSL_VERSION および OpenSSL::OPENSSL_LIBRARY_VERSION の文字列や、そのほか Hash の定数などを freeze しておくようにしています。 Ractor 対応のため。
