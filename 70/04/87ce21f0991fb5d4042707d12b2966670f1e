@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の Net::HTTPS のテストの古い OpenSSL の不具合回避のコード削除や openssl のない環境での skip 処理の変更などのリファクタリング。
