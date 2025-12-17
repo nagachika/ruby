@@ -1,0 +1,1 @@
+Array#detect を Array#find の C 実装と同じ内容のメソッド(コミットログには alias とあるけど厳密には alias 文による alias とはちょっと違う)として新規追加しています。 [ruby-core:123754] [Feature #21678]
