@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB::Compiler::TrimScanner::ERB_STAG という定数に格納する文字列を freeze しています。 Ractor 対応のため。 https://github.com/ruby/erb/pull/100
