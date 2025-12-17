@@ -1,0 +1,1 @@
+Fiber の実装である rb_fiber_t への参照を直接持たなくてすむようにするため導入された Fiber に独自の通し番号をつけた rb_serial_t 型整数を rb_execution_context_t::fiber_serial メンバーに保持するようにして Thread::Mutex の実装関連の関数でも rb_serial_t で Fiber を指定するようにして最適化しています。
