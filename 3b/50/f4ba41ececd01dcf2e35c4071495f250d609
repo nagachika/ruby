@@ -1,0 +1,1 @@
+bundler の ruby version の mise.toml の指定? でクオート記号の揺れを許容するようにしています。
