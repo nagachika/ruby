@@ -1,0 +1,1 @@
+bundler の bundle install のエラーメッセージの修正。 https://github.com/ruby/rubygems/issue/9188
