@@ -1,0 +1,1 @@
+拡張ライブラリ socket の open_timeout が負の値(または処理開始してからタイムアウト値を計算するまでのあいだの時間を引いた結果負になってしまった場合)に対応しています。 https://github.com/ruby/ruby/pull/15578
