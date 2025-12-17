@@ -1,0 +1,1 @@
+073c4e1cc712064e626914fa4a5a8061f903a637 の Method/UnboundMethod/Proc の #source_location の返す情報の拡張を revert しています。カラム番号が文字単位でなく byte 単位になっていたためとのこと。 [Feature #6012] [ruby-core:124206] [Bug #21783]
