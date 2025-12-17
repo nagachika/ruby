@@ -1,0 +1,1 @@
+28b195fc67788c03be59c2a4cbf0cad52ac3b90f の続きで Fiber を特定するための通し番号の変数や構造体メンバーにつけていた名前の fiber_serial を ec_serial に改名しています。
