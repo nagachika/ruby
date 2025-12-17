@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp の後始末で名前解決用の Thread が終了するまで Thread#join で待つようにしています。https://github.com/ruby/ruby/pull/15131
