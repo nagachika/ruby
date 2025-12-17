@@ -1,0 +1,1 @@
+ZJIT の HIR の iongraph 形式のダンプを行うツール tool/zjit_iongraph.rb を追加しています。ダンプ結果の html ファイルもコミットされているけどこれはミスかな? https://github.com/ruby/ruby/pull/15466
