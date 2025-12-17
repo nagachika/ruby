@@ -1,0 +1,1 @@
+3038286a4bf7832f1c42c8cc9774ee6ff19876fc の拡張ライブラリ Socket.tcp の Thread の後始末を revert しています。CI で resolv のテストが失敗してしまったためとのこと。 https://github.com/ruby/ruby/pull/15565
