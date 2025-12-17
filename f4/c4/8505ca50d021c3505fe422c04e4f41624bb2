@@ -1,0 +1,1 @@
+Ruby::Box 関連の C API のテストのための拡張ライブラリの extconf.rb など一部のファイルパス指定が namespace のままだったのを修正しています。
