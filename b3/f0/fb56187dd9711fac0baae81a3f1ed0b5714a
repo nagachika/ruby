@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Psych::Visitor::ToRuby の初期化メソッドを Data#initialize メソッドを UnboundMethod として取り出して bind_call するようにして C 実装の初期化関数を削除しています。
