@@ -1,0 +1,1 @@
+bundler の bundle pristine が複数の gem が git タイプの source 指定で同一リポジトリを指していた時の不具合修正をしています。 https://github.com/ruby/rubygems/issues/9186
