@@ -1,0 +1,1 @@
+Ruby::Box#inspect が表示するクラス名も Namespace のままだったのを Box::Ruby に修正しています。
