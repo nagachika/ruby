@@ -1,0 +1,1 @@
+61500c6f48135ef018f5e496ff292a86b0043c65 で Enumerator#to_set と Enumerable#to_set とは別に #size メソッドに依存して定義してたのを revert しています。 [ruby-core:124190] [Bug #21780]
