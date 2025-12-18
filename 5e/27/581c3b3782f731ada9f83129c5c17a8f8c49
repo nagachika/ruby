@@ -1,0 +1,1 @@
+623559faa3dd0927b4034a752226a30ae8821604 と cc048f7571c5d054b04dad39cb61d008b30f663a の続きで ZJIT の実装から呼ぶための関数 rb_zjit_writebarrier_check_immediate() を追加して、この中で即値チェックをしてから rb_gc_writebarrier() を呼ぶようにしています。
