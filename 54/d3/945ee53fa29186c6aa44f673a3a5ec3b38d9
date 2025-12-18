@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp などでタイムアウト発生時の例外メッセージに対象の接続先アドレスやホスト名とポート番号を表示するようにしています。 https://github.com/ruby/ruby/pull/15582
