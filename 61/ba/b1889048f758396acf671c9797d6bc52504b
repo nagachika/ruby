@@ -1,0 +1,1 @@
+rbimpl_size_mul_overflow_tag という構造体タグ名を rbimpl_size_overflow_tag と改名しちえます。またそのメンバーの名前も改名しています。
