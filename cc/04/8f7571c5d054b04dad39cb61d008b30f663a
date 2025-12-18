@@ -1,0 +1,1 @@
+ZJIT の 623559faa3dd0927b4034a752226a30ae8821604 での即値渡ししないようにするチェック追加を revert しています。 https://github.com/ruby/ruby/pull/15542
