@@ -1,0 +1,1 @@
+IO::Buffer#clear のテストが実装されていなかったのを assertion を追加しています。
