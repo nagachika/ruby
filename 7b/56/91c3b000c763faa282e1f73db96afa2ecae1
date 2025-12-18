@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp などでタイムアウト時に発生する例外が名前解決の結果接続先が複数あった時と1つの時で例外クラスが異なっていたのを IO::TiemoutError に統一しています。 https://github.com/ruby/ruby/pull/15602
