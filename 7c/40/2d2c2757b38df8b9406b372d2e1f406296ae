@@ -1,0 +1,1 @@
+IO::Buffer の作成時に experimental 警告を出力する実装を initialize と IO::Buffer.map の実装それぞれにしていたのを allocator のところに集約しています。他にもインスタンスを作る方法があったので警告が漏れてるところがあったようです。
