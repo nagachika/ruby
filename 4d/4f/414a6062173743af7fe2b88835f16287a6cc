@@ -1,0 +1,1 @@
+GC の default 実装の assertion に ASSUME() を使ってたところを RBIMPL_ASSERT_OR_ASSUME() に変更しています。
