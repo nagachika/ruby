@@ -1,0 +1,1 @@
+x86_64 アーキテクチャにもバージョンがあるそうで、x8664-v2 において memory alignment の問題で文字列の検索に SIMD を利用する search_nonascii() でアライメントを取るためのキャストをするかわりにローカル変数を作ってそこに memcpy() するという実装にしています。 "Practically, this yields the same binary output in many situations" と書いてあるけどそうなのかな? memcpy(3) が実際には組み込み関数で実装されているから最適化の結果消えるということだろうか。 [ruby-core:123920] [Bug #21715]
