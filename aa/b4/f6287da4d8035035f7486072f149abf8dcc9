@@ -1,0 +1,1 @@
+09a29e1312121fed5704ac196413c3b5ecb83fd7 と類似で Ractor sharable でないインスタンス変数の参照時の例外メッセージにもクラス名とインスタンス変数名を含めるようにしています。 https://github.com/ruby/ruby/pull/15563
