@@ -1,0 +1,1 @@
+cbcbbb2fbe57fb17b3bd6b93244c4f37f3626c7e の続きで Ractor::IsolationError の例外メッセージでフォーマット指示子に PRIsVALUE を利用して定数名の Encoding を保持するようにしています。
