@@ -1,0 +1,1 @@
+NEWS に拡張ライブラリ socket のタイムアウト時の例外の変更について追記しています。 https://github.com/ruby/ruby/pull/15608
