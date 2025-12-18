@@ -1,0 +1,1 @@
+TracePoint や set_trace_func による(ユーザーが定義できる) イベントフックの管理は ISeq 単位ではなくて Ractor に紐づけるように管理方法を変更して、対象の Ractor の実行時にのみ起動されるようにしています。ちょっと因果関係がよくわからないのですがある Ractor が GC で回収されると全ての TracePoint が無効になるという不具合があったようです。  htttps://github.com/ruby/ruby/pull/15468 [ruby-core:110656] [Bug #19112]
