@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.tcp などの open_timeout が指定された時に名前解決にかかった時間を差し引いた残りを connect のタイムアウトとして使うように再計算がされないケースがあったのを修正しています。 https://github.com/ruby/ruby/pull/15596
