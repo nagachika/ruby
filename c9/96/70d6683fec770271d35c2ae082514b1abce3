@@ -1,0 +1,1 @@
+79a6ec74831cc47d022b86dfabe3c774eaaf91ca で Enumerator.produce に size 引数を追加して生成される Enumerator の size メソッドの挙動を指定できるようにした時にデフォルトを nil を返すようにしてたのを Float::INFINITY を返すように変更しています。互換性のため? [ruby-core:124190] [Bug #21780]
