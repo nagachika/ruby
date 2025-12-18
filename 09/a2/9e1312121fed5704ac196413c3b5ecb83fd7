@@ -1,0 +1,1 @@
+variable.c の main Ractor 以外からクラス変数にアクセスした時の例外を発生させる CVAR_ACCESSOR_SHOULD_BE_MAIN_RACTOR() マクロでクラス名と変数名をメッセージに含めるようにしています。 https://github.com/ruby/ruby/pull/15562
