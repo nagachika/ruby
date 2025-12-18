@@ -1,0 +1,1 @@
+rb_obj_written() から rb_gc_writebarrier() を呼び出す時にも即値チェックを追加して即値は渡さないようにしています。また RUBY_ABI_VERSION を更新しています。GC の実装のインターフェースの規約が変化するため?
