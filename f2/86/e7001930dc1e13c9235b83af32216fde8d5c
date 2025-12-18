@@ -1,0 +1,1 @@
+win32/setup.mak でコンパイラオプションに -source-charset:utf-8  を渡すようにしています。
