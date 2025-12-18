@@ -1,0 +1,1 @@
+GitHub Actions の様々なチェックを行う workflow のソースコードが ASCII 文字のみというのをチェックするジョブを削除しています。
