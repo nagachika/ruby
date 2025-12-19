@@ -1,0 +1,1 @@
+YJIT や ZJIT のビルド時に make から rustc を起動する時に jobserver の情報を引き継ぐようにしています。警告抑制のためとのこと。
