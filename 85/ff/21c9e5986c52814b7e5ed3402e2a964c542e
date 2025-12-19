@@ -1,0 +1,1 @@
+get_local_variable_ptr() の戻り値に RBOOL() を使ってたのをやめています。警告の抑制のため。
