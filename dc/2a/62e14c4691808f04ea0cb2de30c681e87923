@@ -1,0 +1,1 @@
+tool/commit-email.rb のテストで setup が途中でエラーになった時? にインスタンス変数が初期化されない時のために teardown で変数の nil チェックを追加しています。
