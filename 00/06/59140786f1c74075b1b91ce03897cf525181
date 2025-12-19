@@ -1,0 +1,1 @@
+標準添付ライブラリ delegate で再度 Ractor.shareable_proc を利用するのを削除しています。あれ?
