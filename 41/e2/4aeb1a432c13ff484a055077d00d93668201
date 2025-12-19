@@ -1,0 +1,1 @@
+NEWS の拡張ライブラリ socket の open_timeout 指定時などの例外クラスの変更についての記述に少し追記しています。 https://github.com/ruby/ruby/pull/15610
