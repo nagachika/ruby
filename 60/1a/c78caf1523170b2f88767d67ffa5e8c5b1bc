@@ -1,0 +1,1 @@
+ObjectSpace.each_object の rdoc 用コメントの即値オブジェクトについての記述やサンプルコードを修正しています。 https://github.com/ruby/ruby/pull/15564
