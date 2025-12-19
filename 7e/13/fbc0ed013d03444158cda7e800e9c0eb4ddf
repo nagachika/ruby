@@ -1,0 +1,1 @@
+gems/bundled_gems と NEWS の bundled gems バージョンリストの rbs のバージョンを更新しています。 またこれにより rbs のテストのスキップリストを整理して、rubyspec の bigdecimal 関連のテストに version guard 追加や削除をしています。 https://github.com/ruby/ruby/pull/15611
