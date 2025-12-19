@@ -1,0 +1,1 @@
+Ractor の memsize から呼ばれる ractor_sync_memsize() という関数で rb_ractor_t::sync::ports の st_table のサイズを算出するのをテーブルが存在するかどうかチェックを追加しています。
