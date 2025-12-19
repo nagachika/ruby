@@ -1,0 +1,1 @@
+6e0f2b31f0f4a2a942f3c1daad1bb64852fe6815 の標準添付ライブラリ delegate で Ractor.shareable_proc で Proc オブジェクトを共有可能にするようにしていたのを再度適用しています。あれ? どこで revert されていたんだろう。
