@@ -1,0 +1,1 @@
+標準添付ライブラリの delegate で Proc オブジェクトのせいで Ractor 間で共有不可能になっていたので Ractor.shareable_proc で変換するようにしています。
