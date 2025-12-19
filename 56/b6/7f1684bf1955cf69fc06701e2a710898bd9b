@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump などでオブジェクトの情報をダンプする際に Ractor 対応のため? RB_VM_LOCKING() による VM 全体のロック取得が必要だったので修正しています。このため RB_VM_LOCKING() した上でコールバック関数を呼ぶ rb_vm_lock_with_barrier() という C API を追加しています。 https://github.com/ruby/ruby/pull/15569
