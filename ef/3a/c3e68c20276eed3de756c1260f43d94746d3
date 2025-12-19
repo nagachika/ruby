@@ -1,0 +1,1 @@
+Set の各種 rdoc 用コメントの Set#inspect の表示の変更への追随やクラスのドキュメントの追記をしています。 https://github.com/ruby/ruby/pull/15547
