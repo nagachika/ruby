@@ -1,0 +1,1 @@
+T_TYPEDDATA 型オブジェクトの定義に渡す memsize 用関数でポインタの NULL チェックを全体的に追加しています。 https://github.com/ruby/ruby/pull/15633
