@@ -1,0 +1,1 @@
+YJIT および ZJIT の C binding で rb_execution_context_t 構造体の各メンバーのオフセットを定数として定義しておくようにしています。
