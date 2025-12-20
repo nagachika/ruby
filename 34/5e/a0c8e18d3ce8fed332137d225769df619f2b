@@ -1,0 +1,1 @@
+YJIT で  Module#define_method にブロックを渡したメソッドを Ractor 利用時にも対応するようにしています。Proc オブジェクトが Ractor shareable であればサポートするようにしています。またそうでなくても Ractor の通し番号である ractor_id を生成したコードと一緒に保存しておいて同じ Ractor からの呼び出しであれば JIT コードを利用するようにしています。なるほど〜。
