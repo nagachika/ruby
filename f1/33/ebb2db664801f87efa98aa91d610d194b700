@@ -1,0 +1,1 @@
+gems/bundled_gems と NEWS の bundled gems のバージョンリストの rdoc のバージョンを 7.0.1 に更新しています。 また .rdoc_options から generator_name の指定を削除しています。 https://github.com/ruby/ruby/pull/15628
