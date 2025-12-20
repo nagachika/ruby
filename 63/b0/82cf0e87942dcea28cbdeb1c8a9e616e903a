@@ -1,0 +1,1 @@
+rb_execution_context_t 構造体に ractor_id メンバーを直接持つように効率化しています。
