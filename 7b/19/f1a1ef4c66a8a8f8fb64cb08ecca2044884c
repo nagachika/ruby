@@ -1,0 +1,1 @@
+bundled gems の rbs のテストの実行除外指定に Ractor 関係のテストクラスを 2つ追加しています。 Windows で固まってしまうとのこと。
