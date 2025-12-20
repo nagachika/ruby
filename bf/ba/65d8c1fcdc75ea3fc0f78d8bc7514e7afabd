@@ -1,0 +1,1 @@
+make の jobserver に対応するための処理を tool/lib/test/jobserver.rb  というファイルに Test::JobServer モジュールとして切り出しています。
