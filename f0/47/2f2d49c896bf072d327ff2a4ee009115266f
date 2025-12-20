@@ -1,0 +1,1 @@
+d0b72429a93e54f1f956b4aedfc25c57dc7001aa で追加した Array#pack と String#unpack の新しい指示子について doc/language/packed_data.rdoc にも追記しています。 [ruby-core:124258] [Feature #21785]
