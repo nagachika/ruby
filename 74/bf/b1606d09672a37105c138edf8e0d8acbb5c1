@@ -1,0 +1,1 @@
+encoded_iseq_trace_instrument() の先頭の ASSERT_vm_locking() を削除しています。既に VM lock なしで呼んでも良くなっていたみたいです。 https://github.com/ruby/ruby/pull/15616
