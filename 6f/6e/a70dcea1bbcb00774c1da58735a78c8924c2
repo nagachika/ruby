@@ -1,0 +1,1 @@
+rubyspec の jobserver 対応のコードで fd から不要に IO.for_fd で IO オブジェクトを生成していたのをやめています。
