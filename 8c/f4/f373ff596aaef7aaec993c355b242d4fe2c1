@@ -1,0 +1,1 @@
+Thread::SizedQueue の T_TYPEDDATA としての型情報の定義 szqueue_data_type で親クラスとして Thread::Queue の queue_data_type を指定するようにして、継承により不要になったメソッド定義を削除しています。いいと思うけど今やらなくてもという気も。
