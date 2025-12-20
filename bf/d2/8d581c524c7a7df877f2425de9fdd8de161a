@@ -1,0 +1,1 @@
+rb_singleton_class() で必要に応じてロック取得することで複数 Ractor 対応しています。 https://github.com/ruby/ruby/pull/15591
