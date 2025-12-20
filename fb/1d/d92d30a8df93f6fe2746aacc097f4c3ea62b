@@ -1,0 +1,1 @@
+mutex_trylock() という関数名が Solaris でシステム関数? と衝突しているみたいで do_mutex_trylock() と改名しています。 [ruby-core:124305] [Bug #21793]
