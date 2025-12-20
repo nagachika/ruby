@@ -1,0 +1,1 @@
+thread_sync.c の Thread::Queue, Thread::SizedQueue の pop の実装で引数に rb_execution_context_t を渡すようにして GET_EC() の呼び出しをしないようにしています。
