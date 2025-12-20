@@ -1,0 +1,1 @@
+NEWS に non-blocking Fiber 用の Scheduler のコールバック追加や IO#flush のフック呼び出しの修正についてなどを追記しています。 https://github.com/ruby/ruby/pull/15629
