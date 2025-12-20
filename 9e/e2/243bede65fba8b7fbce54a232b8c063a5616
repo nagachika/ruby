@@ -1,0 +1,1 @@
+non-blocking Fiber 利用時に IO#flush を呼び出した時に Scheduler の io_write コールバックが呼ばれていなかった不具合を修正しています。 https://github.com/ruby/ruby/pull/15609
