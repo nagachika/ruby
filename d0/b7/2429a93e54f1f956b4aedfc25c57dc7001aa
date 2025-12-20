@@ -1,0 +1,1 @@
+Array#pack や String#unpack の指示子に 128 bits の little endian の数値を示す文字 R/r を追加しています。 [ruby-core:124258] [Feature #21785]
