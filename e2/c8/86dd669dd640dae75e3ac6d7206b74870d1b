@@ -1,0 +1,1 @@
+prism である種の不正なブロック引数の書きかたを SyntaxError にする修正。 https://github.com/ruby/prism/pull/3669
