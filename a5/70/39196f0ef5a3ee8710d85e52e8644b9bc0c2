@@ -1,0 +1,1 @@
+Enumerator#size メソッドの rdoc 用コメントに size が返す値が実際に Enumerator が値を返す数と一致しない可能性があることについて追記しています。 https://github.com/ruby/ruby/pull/15615
