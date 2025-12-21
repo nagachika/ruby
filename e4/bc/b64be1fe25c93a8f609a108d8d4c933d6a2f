@@ -1,0 +1,1 @@
+Dir.new と Dir.open メソッドの rdoc 用コメントのサンプルでキーワード引数 encoding に渡すのを文字列での指定でなく Encoding::US_ASCII などの定数での指定に変更しています。
