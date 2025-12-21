@@ -1,0 +1,1 @@
+Signal.trap の rdoc 用コメントの手直しして IGNORE や DEFAULT など文字列で指定するハンドラの挙動など改善しています。
