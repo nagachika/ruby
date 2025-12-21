@@ -1,0 +1,1 @@
+メソッド呼び出しの callcache のテーブルを複製する rb_vm_cc_table_dup() で、既に invalidate したと mark されているエントリはコピーする必要がないのでスキップするようにています。
