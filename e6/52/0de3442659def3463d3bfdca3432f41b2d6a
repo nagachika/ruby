@@ -1,0 +1,1 @@
+rubyspec の C API テスト用の拡張ライブラリのビルドが configure に --enable-shared と --with-ext="" を指定してビルドしていた時にエラーになっていたのを修正しています。拡張ライブラリをビルドしない指定にしてると C API テスト用の拡張ライブラリもビルドされなくなってしまっていたので enable-shared 指定時に明示的に rubyspec-capiext を追加するようにしています。 [ruby-core:124292] [Bug #21792]
