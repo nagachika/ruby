@@ -1,0 +1,1 @@
+Array#find, Array#rfind, Fiber#raise, Range#to_set などの追加メソッドの rdoc 用コメントの修正など。特に Range#to_set はコメントがなかったのでまるごと追加しています。 https://github.com/ruby/ruby/pull/15634
