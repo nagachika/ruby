@@ -1,0 +1,1 @@
+Integer#<=>, Float#<=>, Rational#<=>, Complex#<=> の rdoc 用コメントをまとめて手直ししています。
