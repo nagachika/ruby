@@ -1,0 +1,1 @@
+Array#pack と String#unpack の 128 bits の整数のための r/R 指示子の追加については 4.1 に延期することになってたみたいので revert しています。
