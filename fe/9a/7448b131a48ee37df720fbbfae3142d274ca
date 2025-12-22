@@ -1,0 +1,1 @@
+gc.c の newobj_of() で Variable Width Allocation の拡張 slot の memset() でのクリア処理を必要な時だけ行うように slot のサイズのチェックを追加しています。
