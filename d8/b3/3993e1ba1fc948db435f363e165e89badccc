@@ -1,0 +1,1 @@
+box.c の rb_box_cleanup_local_extension() で Windows 環境の時にビルド時の未使用の変数の警告が発生するので (viod) キャストを追加しています。
