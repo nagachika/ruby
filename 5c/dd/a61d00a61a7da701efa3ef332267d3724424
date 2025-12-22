@@ -1,0 +1,1 @@
+doc/language/globals.md の特殊変数の説明に初期値や代入可能かどうかなどの情報も追加しています。 https://github.com/ruby/ruby/pull/15545
