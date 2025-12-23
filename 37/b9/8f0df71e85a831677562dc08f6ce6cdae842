@@ -1,0 +1,1 @@
+GC の mmtk 実装の Variable Width Allocation? の slot サイズ別の heap に 32 bytes slot のもの(最小のサイズ)を追加しています。
