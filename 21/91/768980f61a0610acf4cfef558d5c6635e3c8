@@ -1,0 +1,1 @@
+doc/language/packed_data.rdoc で一般名詞としての Integer や Float の意図しないクロスリファレンス化を抑制しています。
