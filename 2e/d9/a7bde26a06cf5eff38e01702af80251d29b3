@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを更新して、rbs のテストの BigDecimal についてのテストの skip の指定を削除しています。 https://github.com/ruby/ruby/pull/15701
