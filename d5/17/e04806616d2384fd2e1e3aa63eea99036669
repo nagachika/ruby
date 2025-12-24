@@ -1,0 +1,1 @@
+Method#call と Method#[] と Method#=== メソッドの実体は同じなので rdoc 用コメントをマージしています。
