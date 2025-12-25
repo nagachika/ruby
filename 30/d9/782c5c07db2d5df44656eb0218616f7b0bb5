@@ -1,0 +1,1 @@
+non-blocking Fiber の Scheduler を使ったテストのリファクタリング。
