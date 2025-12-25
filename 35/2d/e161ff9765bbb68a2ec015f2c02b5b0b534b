@@ -1,0 +1,1 @@
+version.c の RUBY_API_VERSION_STR というマクロの定義で最後に余計な "." が入っていたのを修正しています。
