@@ -1,0 +1,1 @@
+Ruby::Box の利用時の experimental warning で表示する URL を絶対 URL にして docs.ruby-lang.org のサイトの URL を表示するようにしています。
