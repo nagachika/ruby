@@ -1,0 +1,1 @@
+正規表現関連のドキュメントで "Pattern Matching" という語彙を利用しているところが、文法としての pattern matching の導入によりあいまいになるので "Regular Expression" という語彙を利用するように変更しています。
