@@ -1,0 +1,1 @@
+doc/syntaax.rdoc および doc/syntax/layout.rdoc に主に改行の役割や行継続の条件などについての説明を追加しています。 https://github.com/ruby/ruby/pull/15696
