@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で Windows 版で失敗を無視する gem 名を整理しています。
