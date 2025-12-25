@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler についての rdoc 用コメントの追加や英文/マークアップの修正など。 https://github.com/ruby/ruby/pull/15708
