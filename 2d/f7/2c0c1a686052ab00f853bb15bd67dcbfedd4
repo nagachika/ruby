@@ -1,0 +1,1 @@
+non-blocking Fiber のテストのための Scheduler の仮実装の io_write フックで IO.for_fd の利用をやめています。テストが不安定になるため。
