@@ -1,0 +1,1 @@
+NEWS に標準添付ライブラリ net/http の Content-Type ヘッダの未指定時の挙動の非互換について追記しています。 https://github.com/ruby/net-http/issues/205
