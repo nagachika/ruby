@@ -1,0 +1,1 @@
+ba2f6972193cdbd7c1e77e26212513e47926b115 で revert した 9b576cd6255aba97e5e2f55f4b09f00c7dd0e839 の ruby_api_version_name() という関数を切り出しているところは復活させています。 Ruby::Box の実装でも警告に含める URL を組み立てる時に利用しているため。
