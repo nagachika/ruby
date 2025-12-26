@@ -1,0 +1,1 @@
+Ruby::Box のテストで早期 return で一部の assertion をスキップしていたのが残っていたので return 文を削除しています。
