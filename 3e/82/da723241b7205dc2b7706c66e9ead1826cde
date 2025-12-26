@@ -1,0 +1,1 @@
+ZJIT において VM 命令 jump, branchif, leave などのジャンプ系命令はローカル変数の invalidate を行うかどうかの判定時に leaf な命令として扱って invalidate しないようにしています。 VM ではこれらの命令は割り込みチェックが行なわれるため任意の ruby コード実行が挟まる可能性があるのですが、ZJIT で生成したコードを実行する時には割り込みがあったらこれらの命令を実行せずに side-exit するように実装されているため、これらの命令を non-leaf として扱う必要がないみたいです。 https://github.com/ruby/ruby/pull/15694
