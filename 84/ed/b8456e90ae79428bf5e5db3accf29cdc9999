@@ -1,0 +1,1 @@
+8d097bc472fc66221dee23bb8f9e0dddac16db23 で minitest のバージョンを 5.27.0 に戻してたのを revert して再度 6.0.0 に更新しています。
