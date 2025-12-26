@@ -1,0 +1,1 @@
+と、思ったら tool/rbs_skip_tests に rbs のテストの test-unit の更新でこけるもの? を skip する指定を追加しています。
