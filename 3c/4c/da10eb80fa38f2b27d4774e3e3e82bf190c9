@@ -1,0 +1,1 @@
+NEWS の ZJIT の項目に ZJIT を有効にするようビルドするのに必要な Rust のバージョンについて追記しています。  https://github.com/ruby/ruby/pull/15728
