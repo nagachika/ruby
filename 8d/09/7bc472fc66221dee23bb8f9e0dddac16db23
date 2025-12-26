@@ -1,0 +1,1 @@
+gems/bundled_gems と NEWS の bundled gems のバージョンリストの minitest のバージョンを 6.0.0 から 5.27.0 に戻しています。
