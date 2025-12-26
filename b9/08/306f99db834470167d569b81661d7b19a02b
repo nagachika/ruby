@@ -1,0 +1,1 @@
+688c1f6c5e96dfa3e4f6b16c617545ded7c8c0b4 でドキュメント内の正規表現の機能についての語彙として "Pattern Match" という語を文法としての pattern match が導入されたのであいまいさ回避のため "Regular Expression" と変更してましたが、再度 "Matched Data" というタイトルに変更しています。
