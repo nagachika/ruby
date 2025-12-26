@@ -1,0 +1,1 @@
+b92bc9654120547f9dd261ce04dacdb17bf720e1 の続きで skip するテストの指定を tool/rbs_skip_tests_windows のほうに移動しています。 Windows でのみ失敗するみたいですね。
