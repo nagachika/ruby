@@ -1,0 +1,1 @@
+10b97f52fd2cba189b8952fcb02c4d6dd9b1b6f2 からの続きで Continuation の実装でも同じく gen_fields_cache という構造体メンバーがもつオブジェクトに weak ref の宣言を使うように変更しています。 [ruby-core:120749] [Feature #21084]
