@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で TCPSocket#read が nil を返した時の対応を追加しています。
