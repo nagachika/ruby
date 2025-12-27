@@ -1,0 +1,1 @@
+10b97f52fd2cba189b8952fcb02c4d6dd9b1b6f2 の続きで GC の mmtk 実装でも GC の IF の handle_weak_references() の実装を追加しています。 [ruby-core:120749] [Feature #21084]
