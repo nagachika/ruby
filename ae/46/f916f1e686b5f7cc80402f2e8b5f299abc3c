@@ -1,0 +1,1 @@
+拡張ライブラリ stringio の StringIO#read の rdoc 用コメントを doc/stringio/read.rdoc という独立したファイルに追加して :include: タグで取り込んでいます。 https://github.com/ruby/stringio/pull/197
