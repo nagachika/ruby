@@ -1,0 +1,1 @@
+10b97f52fd2cba189b8952fcb02c4d6dd9b1b6f2 の続きで ObjectSpace::WeakMap と ObjectSpace::WeakKeyMap で実際に追加した API rb_gc_declare_weak_refere() を利用して weak ref を持つことを宣言させるように実装を変更しています。 [ruby-core:120749] [Feature #21084]
