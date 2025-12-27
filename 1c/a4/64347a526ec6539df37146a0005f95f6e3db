@@ -1,0 +1,1 @@
+GitHub Actions で rb_warn_deprecated_to_remove_at() で廃止するバージョンンの指定をしている deprecated 警告出力で指定しているバージョンをチェックして削除予定のバージョンになったら検出するようにしています。
