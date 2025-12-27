@@ -1,0 +1,1 @@
+GitHub Actions で default gems の upstream からの更新や NEWS の default gems や bundled gems のバージョン更新のジョブが再び動くように環境変数の設定を変更しています。
