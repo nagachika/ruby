@@ -1,0 +1,1 @@
+rb_gc_force_recycle() という inline 関数の宣言を削除しています。
