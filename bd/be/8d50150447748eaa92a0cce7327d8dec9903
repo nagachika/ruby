@@ -1,0 +1,1 @@
+rubygems の Gem::AtomicFileWriter というのを導入して tar パッケージを書きかけの状態が残らないように一時ファイルに書き込んでから rename() するようにしています。
