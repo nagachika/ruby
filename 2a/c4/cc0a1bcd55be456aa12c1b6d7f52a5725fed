@@ -1,0 +1,1 @@
+互換性のために残していた? struct RBasic::flags のビットフラグ用定数 RUBY_FL_DUPPED を削除しています。
