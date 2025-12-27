@@ -1,0 +1,1 @@
+tainted や trusted に関する C API 群がずっと deprecated になっていたままだったので削除しています。
