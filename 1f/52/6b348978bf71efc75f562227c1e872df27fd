@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr で InvalidAddressError 例外を発生させる時の例外メッセージに埋め込むアドレスの情報を IPAddr#to_s の結果を埋め込むように修正しています。
