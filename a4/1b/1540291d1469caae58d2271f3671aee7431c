@@ -1,0 +1,1 @@
+complex.c の deprecated になっていた C API rb_complex_polar() を削除しています。
