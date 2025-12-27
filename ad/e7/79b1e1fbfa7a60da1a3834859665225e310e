@@ -1,0 +1,1 @@
+10b97f52fd2cba189b8952fcb02c4d6dd9b1b6f2 で追加した weak ref の宣言を callcache の T_IMEMO 型オブジェクトでも利用して実装するよう変更しています。 [ruby-core:120749] [Feature #21084]
