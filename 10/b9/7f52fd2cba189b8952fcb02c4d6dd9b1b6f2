@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap のようなクラスで weak ref を持たせたオブジェクトに struct RBasic::flags のビットフラグで弱参照を持つことを明示的に宣言させて、GC の mark 処理からこのようなオブジェクトの mark 時にコールバックを呼び出し WeakMap などから対応するエントリを回収させるようにしています。 WeakMap の実装が効率的になり、不正メモリアクセスの危険性も抑えることができるようです。 [ruby-core:120749] [Feature #21084]
