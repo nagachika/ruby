@@ -1,0 +1,1 @@
+deprecated になっていた inline 関数 rb_clone_setup() と rb_dup_setup() の定義を削除しています。
