@@ -1,0 +1,1 @@
+ずっと deprecated だった rb_iterate() という C API の定義を削除しています。
