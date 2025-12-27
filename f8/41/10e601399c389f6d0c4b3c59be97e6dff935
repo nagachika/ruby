@@ -1,0 +1,1 @@
+rb_data_object_alloc() および rb_data_typed_object_alloc() という deprecated としてマークされてた関数の定義を削除しています。
