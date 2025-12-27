@@ -1,0 +1,1 @@
+Ruby::Box のテストで experimental の警告メッセージ内の ruby の実行ファイル名が変更された時のために RbConfig::CONFIG["ruby_install_name"] を参照するように修正しています。 https://github.com/ruby/ruby/pull/15734
