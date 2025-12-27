@@ -1,0 +1,1 @@
+標準添付ライブラリ pp で inspect で表示するインスタンス変数の指定をする instance_variables_to_inspect メソッドが private になっていても対応するようにしています。 https://github.com/ruby/pp/pull/70
