@@ -1,0 +1,1 @@
+rb_clear_constant_cache() という deprecated になっていた関数の定義を削除しています。
