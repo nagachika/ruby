@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol に拡張ライブラリ socket の TCPSocket.new がキーワード引数 open_timeout を受け付けるかどうかを判定して Net::Protocol::TCP_SOCKET_NEW_HAS_OPEN_TIMEOUT という定数に結果を保存しておくようにしています。
