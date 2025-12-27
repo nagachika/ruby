@@ -1,0 +1,1 @@
+bundled gems rbs の Windows 版で skip するテストの指定に rubygems の atomic なファイル書き込みのテストを追加しています。
