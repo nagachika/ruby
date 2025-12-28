@@ -1,0 +1,1 @@
+拡張ライブラリ socket でソケット接続時に local 側の port 番号が指定されている場合に Happy Eyeballs V2 による IPv4/IPv6 の同時接続試行を行わないよう抑制する変更。port 番号が指定されていると両方の接続先アドレスに対して接続するためのソケットの local 側の port が衝突してしまうため。なるほどー。 is_local_port_fixed() の最後の return はその直前に port <= 0 があるので常に 1 (真)になる気がします。 https://github.com/ruby/ruby/pull/15732
