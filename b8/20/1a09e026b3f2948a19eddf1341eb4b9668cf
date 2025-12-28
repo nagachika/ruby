@@ -1,0 +1,1 @@
+gems/bundled_gems のバージョンリストの minitest と test-unit のバージョンを更新しています。また NEWS の bundled gems のリストに minitest、test-unit、rss、net-imap、typeprof、debug、mutex_m、rdoc などを追記しています。はて他のはなぜ追記されたのだろう。
