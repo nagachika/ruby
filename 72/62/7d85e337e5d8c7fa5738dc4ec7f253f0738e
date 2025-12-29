@@ -1,0 +1,1 @@
+rb_typeddata_xxx() といった rb_data_typed_t 構造体によるオブジェクトに関する関数宣言に RBIMPL_ATTR_NONNULL() マクロを使って引数の数と戻り値が NULL にならないことをコンパイラへのヒントに渡すようにしています。
