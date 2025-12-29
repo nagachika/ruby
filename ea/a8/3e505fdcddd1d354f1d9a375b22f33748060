@@ -1,0 +1,1 @@
+Thread の作成時にその root Fiber は明示的に必要とされるまでオブジェクトとしては確保されていなかったのを root Fiber は常に確保するようにしています。 コミットログによると 10b97f52fd2cba189b8952fcb02c4d6dd9b1b6f2 の weak ref の実装変更に伴ない weak ref を持つオブジェクトは struct RBasic::flags のフラグで明示的に宣言するようになったのですが Thread がこの宣言を持ってないという問題があり、Fiber にこれを代替させる? ことで解決しようとしているようです。Thread の flags にビットを追加しないのはなぜなんだろう。
