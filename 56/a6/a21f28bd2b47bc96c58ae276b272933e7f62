@@ -1,0 +1,1 @@
+RTYPEDDATA_GET_DATA() 内の return で関数の戻り値の型が void* なのにデバッグビルド時の型チェックエラー時に false を返していたので NULL に修正しています。
