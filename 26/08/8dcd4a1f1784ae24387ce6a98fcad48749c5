@@ -1,0 +1,1 @@
+0f64da9672d88921439f6fdb306d16fece9b9c90 で導入した関数 rb_unexpected_type() の Doxygen 用コメントに private としてのマークを追加して、直接呼ばないように注意書きも追加しています。
