@@ -1,0 +1,1 @@
+拡張ライブラリ socket の a8c3d5e127776d74eb068c95610277feb99adcf0 の変更で導入したローカルのポート番号指定があるかどうかチェックする関数 is_local_port_fixed() で冗長だった条件分岐を整理しています。 https://github.com/ruby/ruby/pull/15757
