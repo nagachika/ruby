@@ -1,0 +1,1 @@
+T_TYPEDDATA 型オブジェクトの作成やポインタ取り出しを行うマクロ TypedData_Make_Struct0() と RTYPEDDATA_TYPE() の定義でポインタのキャストを行なっているところに RBIMPL_CAST() マクロを使うようにしています。 C++ でのコンパイル向けに必要とのこと。
