@@ -1,0 +1,1 @@
+Thread への Thread#raise での例外による割り込みと signal による割り込みを併用した時のテストが MinGW 環境で終了しなくなってしまうらしく skip しています。
