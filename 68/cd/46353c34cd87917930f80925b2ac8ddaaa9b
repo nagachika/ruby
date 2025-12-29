@@ -1,0 +1,1 @@
+Random オブジェクトから rb_random_interface_t 構造体のポインタを取り出す inline 関数 rb_rand_if() に引数のオブジェクトの型チェックをする assertion を追加しています。
