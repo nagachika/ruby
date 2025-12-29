@@ -1,0 +1,1 @@
+doc/string/ 配下の String クラスのメソッドのドキュメントのサンプルでキリル文字を使ってたものを削除しています。 e69f41a0a88df1d843f5d94cc4e5e757b96300e0 で doc/contributing/documentation_guide.md に追記したガイドラインに則ってマルチバイト文字の例は極力日本語を使うという方針に沿うためですかね。
