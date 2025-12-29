@@ -1,0 +1,1 @@
+Range#set や Set#to_set、Enumerable#to_set の第1引数に返すオブジェクトのクラスを指定する deprecated になっていた機能を削除しています。
