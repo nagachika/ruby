@@ -1,0 +1,1 @@
+T_TYPEDDATA 型オブジェクトの型チェックと例外発生させる関数を rb_unexpected_object_type() および rb_unexpected_typeddata() として切り出し、rb_check_typeddata() の実体の inline 関数化しています。
