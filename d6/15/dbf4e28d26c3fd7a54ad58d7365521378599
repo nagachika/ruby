@@ -1,0 +1,1 @@
+doc/matchdata/ 配下のドキュメントや doc/language/character_selectors.rdoc でサンプルコードにキリル文字を使っていたところを日本語を使うように変更しています。
