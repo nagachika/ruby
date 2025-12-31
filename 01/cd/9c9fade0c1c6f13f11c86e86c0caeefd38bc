@@ -1,0 +1,1 @@
+GC でオブジェクトを明示的に pin-down するための API rb_gc_register_pinning_obj() というのを追加して、何箇所かから呼んでいます。実際の GC の default 実装での実装はただの空の関数なので何も実効性はないようです。
