@@ -1,0 +1,1 @@
+enumerator.c の struct product_state という構造体の index というメンバーの順序を変更して構造体サイズを小さくし(padding をなくして)、引数の配列のためのメモリ確保に ALLOCA() を使っていたのを ALLOCV() を使うようにしてスタックオーバーフローしにくいようにしています。
