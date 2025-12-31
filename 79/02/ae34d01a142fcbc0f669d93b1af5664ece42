@@ -1,0 +1,1 @@
+GC の C API rb_gc_move_obj_during_marking() という関数を追加しています。 GC.compact によるオブジェクトの slot 移動が起きた時に対象のオブジェクトがインスタンス変数を持っていたら? generic_ivar のテーブルの mark 処理を走らせるようにしていています。まだ定義を追加しただけで呼び元はないですが。
