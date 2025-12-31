@@ -1,0 +1,1 @@
+クラスを作成する時に Ruby::Box の root box 内で作成する場合に class_alloc0() の第3引数 boxable に true を渡すようにしています。 root box 内で Module を include した時に作成される IClass が複数の rb_classext_t を持てないように初期化されてしまって異常終了? する可能性があった不具合を修正しています。
