@@ -1,0 +1,1 @@
+GC の mmtk 版実装でオブジェクトの移動をサポートしています。 7902ae34d01a142fcbc0f669d93b1af5664ece42 で追加した rb_gc_move_obj_during_marking() はここで利用しているようです。
