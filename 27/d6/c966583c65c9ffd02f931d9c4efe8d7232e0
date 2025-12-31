@@ -1,0 +1,1 @@
+GitHub Actions の rubyspec を実行する workflow で実行対象の ruby バージョンに 4.0 系列を追加しています。
