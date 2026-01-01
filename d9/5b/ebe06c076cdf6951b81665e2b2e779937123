@@ -1,0 +1,1 @@
+RTYPEDDATA_EMBEDDED_P() という inline 関数を RBIMPL_ATTR_DEPRECATED_INTERNAL_ONLY() を使って内部でのみ利用されるようにしています。
