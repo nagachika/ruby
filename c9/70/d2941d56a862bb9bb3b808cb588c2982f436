@@ -1,0 +1,1 @@
+d82fc3360d7cfa7e1e1a4dddb668b4c38808538a からの一連の変更の続きで -> の記法による Proc オブジェクトの Proc#source_location のカラム位置の判定を変更しています。 [ruby-core:124206] [Bug #21783] [ruby-core:124207] [Bug #21784]
