@@ -1,0 +1,1 @@
+d82fc3360d7cfa7e1e1a4dddb668b4c38808538a に追随して Proc#source_location、Method#source_location の rdoc 用コメントの戻り値の説明を修正しています。 [ruby-core:124206] [Bug #21783]
