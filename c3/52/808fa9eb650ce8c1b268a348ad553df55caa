@@ -1,0 +1,1 @@
+rb_data_type_t::flags のビットフラグのチェック用に RB_DATA_TYPE_EMBEDDABLE_P() と RTYPEDDATA_EMBEDDABLE_P() というマクロを導入して利用しています。
