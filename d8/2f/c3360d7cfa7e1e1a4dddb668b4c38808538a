@@ -1,0 +1,1 @@
+4.0.0 のリリース前に一度 revert されていた Proc#source_locaition や Method#source_location の戻り値への終了行やカラム位置の情報を追加する変更を最適用しています。 [ruby-core:42579] [Feature #6012] [ruby-core:124206] [Bug #21783]
