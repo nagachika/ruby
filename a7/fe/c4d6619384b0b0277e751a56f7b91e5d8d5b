@@ -1,0 +1,1 @@
+rubyspec の Proc#source_location や {Unbound,}Method#source_location のテストで ruby_version_is による guard を 4.1 未満の時に修正しています。
