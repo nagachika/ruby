@@ -1,0 +1,1 @@
+Thread のシグナルによる割り込みに関するテストの skip を MinGW から Windows 全般にしています。またテスト用ユーティリティの assert_separately 自身のテストも Windows で skip しています。
