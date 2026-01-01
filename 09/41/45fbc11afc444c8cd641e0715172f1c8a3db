@@ -1,0 +1,1 @@
+ヘッダファイル include/ruby/internal/core/rtypeddata.h で TYPED_DATA_EMBEDDED と TYPED_DATA_PTR_MASK というマクロの定義を移動して Doxygen のドキュメント化を抑制するセクションの中に移動しています。
