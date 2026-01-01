@@ -1,0 +1,1 @@
+d5af8d785888f3af5efb844be5948df71d777b22 の Ruby::Box の修正で class_alloc() で root box かどうかのチェックをしているところでその前に rb_box_available() で Box が利用可能かどうかのチェックをするようにしています。 root box のチェックがある程度思い処理なのでショートカットのためみたいです。
