@@ -1,0 +1,1 @@
+rb_method_entry_alloc() から明示的にオブジェクトを pin-down する新しく 01cd9c9fade0c1c6f13f11c86e86c0caeefd38bc で導入された rb_gc_register_pinning_obj() という C API を利用して method entry の T_IMEMO 型オブジェクトを pin-down しています。
