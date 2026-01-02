@@ -1,0 +1,1 @@
+GC の mmtk 実装から利用する C API の is_data_encoding() のかわりに is_obj_encoding() を利用するようにしています。 T_TYPEDDATA 型オブジェクトかどうかのチェックも含めるようにしています。
