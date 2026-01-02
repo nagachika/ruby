@@ -1,0 +1,1 @@
+include/ruby/internal/core/rtypeddata.h で T_TYPEDDATA 型オブジェクトかどうかチェックする処理を RBIMPL_TYPEDDATA_PRECONDITION() というマクロに切り出すリファクタリングと RTYPEDDATA_EMBEDDED_P() にチェックを追加しています。
