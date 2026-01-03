@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb のテストで git のバージョンをチェックするために String#delete_prefix で "git version " という prefix を消しこんでいたのを String#[] に正規表現を渡して "git version " の後に続く文字列を切り出すように変更しています。より複雑な出力にも対応するため。
