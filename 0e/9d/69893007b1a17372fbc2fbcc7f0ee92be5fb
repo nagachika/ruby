@@ -1,0 +1,1 @@
+テストでただの assert を使っているところを失敗時のメッセージがわかりやすいように assert_predicate や assert_empty, assert_equal などの assertion メソッドを利用するようにしています。あとよくわからないですが Ractor::Port のテストで Object#frozen? の結果を送信してたところを object そのものを送信するように変更しています。
