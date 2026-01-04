@@ -1,0 +1,1 @@
+Thread::Queue および Thread::SizedQueue の initialize や push, close などほぼ全てのメソッドを ruby 実装にして実体の C 関数を Primitive を使って呼ぶ組込みクラスの実装に変更しています。
