@@ -1,0 +1,1 @@
+60d9b10dab9c9e92518f5579e6d36006c0dd359d の続き? で GC の mmtk 実装の e7695ba3d9f0e8ee17025af4d42ecaf2dad47f29 での T_NONE オブジェクトのチェック時の rb_bug() での異常終了を rb_mmtk_gc_thread_bug() という関数を利用するように変更しています。
