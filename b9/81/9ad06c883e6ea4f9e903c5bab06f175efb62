@@ -1,0 +1,1 @@
+Hash#dup や Hash#replace での Hash の内容の複製処理 hash_copy() 関数でオリジナルの Hash が compare_by_identity のハッシュだった場合に戻り値を明示的に pin-down するため rb_gc_register_pinning_obj() を呼んでいます。
