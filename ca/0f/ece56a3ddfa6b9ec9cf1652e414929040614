@@ -1,0 +1,1 @@
+doc/language/box.md のサンプルコードで String#blank? メソッドを追加しているところで String#=~ を使ってたところを String#match? メソッドを使って戻り値が true/false になるようにしています。
