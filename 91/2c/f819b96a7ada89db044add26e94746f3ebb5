@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKey::EC::Group#initialize の不正な数の引数に対する ArgumentError 例外のメッセージに渡された引数の数と期待した数の範囲を含めるようにしています。
