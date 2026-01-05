@@ -1,0 +1,1 @@
+gc.c に rb_gc_print_backtrace() という C API を追加しています。Modular GC で GC の実装を共有ライブラリ化した時用のものみたいです。
