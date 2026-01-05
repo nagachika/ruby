@@ -1,0 +1,1 @@
+tool/lib/vcs.rb でコミットログから ChangeLog を生成するためのメソッドで base_url キーワード引数のデフォルト値を true に変更しています。 git remote コマンドから URL を得て使うという挙動をするものみたいです。
