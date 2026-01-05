@@ -1,0 +1,1 @@
+doc/language/box.md の Ruby::Box のサンプルコードで Ruby::Box#require を使っているところを実際に動かせるように Ruby::Box#require_relative を利用するように変更しています。
