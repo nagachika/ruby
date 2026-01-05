@@ -1,0 +1,1 @@
+5b87294d2fc84b7039a703cbbd02c7cf50c5b560 で追加した rb_gc_print_backtrace() を GC の mmtk 実装で異常終了時に使うようにしています。
