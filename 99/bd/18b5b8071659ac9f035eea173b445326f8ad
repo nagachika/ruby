@@ -1,0 +1,1 @@
+bundled gems の rbs のテストをスキップする指定のファイル tool/rbs_skip_tests_windows からエントリをひとつ削除しています。
