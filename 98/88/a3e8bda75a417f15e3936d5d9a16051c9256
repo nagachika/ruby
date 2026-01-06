@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ socket の UNIXSocket#recvfrom のテストで Windows と macOS で実行除外していたテストは BSD 系でも動かないということで逆に Linux でのみ実行するように guard を変更しています。
