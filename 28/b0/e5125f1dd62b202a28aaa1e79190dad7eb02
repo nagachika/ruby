@@ -1,0 +1,1 @@
+rb_cObject という変数の宣言を include/ruby/internal/core/rdata.h から削除しています。ちょっとよくわかっていないのですが昔 T_DATA 型オブジェクトのクラスであった Data (今は Struct の一種としてリサイクルされている)の実体である rb_cData のためにこの宣言があったみたいで、もう不要になっていたのが消し忘れていたようです。 [ruby-dev:51128] [Bug #18433]
