@@ -1,0 +1,1 @@
+bundler のテストで使う lockfile の minitest のバージョンを 5 系に止めるようにしています。 minitest を 6系にすると問題があったみたいです。
