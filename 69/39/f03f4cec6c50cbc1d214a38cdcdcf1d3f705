@@ -1,0 +1,1 @@
+構造体 struct rb_data_type_struct の関数ポインタをまとめた function に予約してあった場所に handle_weak_references というメンバーを追加して mark 処理時の弱参照の更新処理のフック関数を登録できるようにして、ObjectShapce::WeakMep や Continuation  や Fiber など独自に処理を持つクラスを rb_gc_handle_weak_references() から分岐して呼んでたのをこのメンバー経由で呼ぶように一般化しています。
