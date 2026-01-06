@@ -1,0 +1,1 @@
+default gems の require で警告を出す lib/bundled_gems.rb のテストで ruby のバージョンがハードコードされていたのを RUBY_VERSION 定数を参照するように変更しています。
