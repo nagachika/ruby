@@ -1,0 +1,1 @@
+bundler の bundle clean 実行時の実行している bundler 自身を消さないように? しています。
