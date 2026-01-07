@@ -1,0 +1,1 @@
+子プロセスが終了した時の SIGCHLD で無引数の Kernel#sleep から目覚めてしまうという不具合を修正しています。 https://github.com/ruby/ruby/pull/15802 [ruby-core:124383] [Bug #21812]
