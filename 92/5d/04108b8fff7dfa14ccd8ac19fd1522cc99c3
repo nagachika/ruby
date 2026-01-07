@@ -1,0 +1,1 @@
+common.mk に make rake ターゲットを追加して bundled gems の rake を使って実行するようにしています。
