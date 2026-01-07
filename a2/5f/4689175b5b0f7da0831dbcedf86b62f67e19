@@ -1,0 +1,1 @@
+Comparable#>=, Hash#>=, Integer#>=, Float#>= などの rdoc 用コメントをまとめて修正しています。
