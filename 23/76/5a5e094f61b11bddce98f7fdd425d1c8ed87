@@ -1,0 +1,1 @@
+ZJIT の中間表現を Iongraph という形式でダンプするツールで利用する HTML ファイル tool/zjit_iongraph.html を更新しています。 https://github.com/ruby/ruby/pull/15806
