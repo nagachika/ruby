@@ -1,0 +1,1 @@
+GC の mmtk 実装を拡張ライブラリとしてビルドする時のための extconf.rb でデバッグビルド時に CPPFLAGS に -DMMTK_DEBUG を追加しています。
