@@ -1,0 +1,1 @@
+bundler の GemRequireError および DirectoryRemovalError 例外のエラーメッセージに元となる例外の full_message も埋め込むようにしています。
