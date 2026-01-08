@@ -1,0 +1,1 @@
+configure で BASERUBY のバージョンが古いとか CRuby ではない時の警告メッセージをより詳細しています。
