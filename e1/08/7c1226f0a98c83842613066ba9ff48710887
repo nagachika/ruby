@@ -1,0 +1,1 @@
+bundler で Gemfile の gem 毎の source の指定を変更(git や path など)した時にそれが依存する gem が、別の gem からも依存されている時にその gem の source が変更されないという不具合(?)を修正しています。そもそも source 変更した時に依存先の gem の source も変更するっていう挙動知らなかった……。
