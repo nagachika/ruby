@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_ary の実装でコンパイラの最適化により GC の mark 漏れが発生する可能性があったので RB_GC_GUARD() による最適化による参照消滅の回避を追加しています。
