@@ -1,0 +1,1 @@
+標準添付ライブラリ time の gemspec ファイルの spec.metadata["changelog_uri"] を追加しています。 GitHub の Releases ページを利用しています。
