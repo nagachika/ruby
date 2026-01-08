@@ -1,0 +1,1 @@
+configure 時に rustc_flags という変数を指定することで ZJIT (GC の mmtk 実装も?)の Rust のビルド時に渡すオプションを指定可能にしています。
