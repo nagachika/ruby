@@ -1,0 +1,1 @@
+GC の mmtk 実装にデバッグビルド用の GC.compress によるオブジェクト移動時の writebarrier? の実装でポインタが有効な slot かのチェックを追加しています。
