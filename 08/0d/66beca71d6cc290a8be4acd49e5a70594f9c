@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ soccket のテストでたまに失敗してしまうテストにリトライを導入してエラー率を下げるようにしています。 https://github.com/ruby/ruby/pull/15818
