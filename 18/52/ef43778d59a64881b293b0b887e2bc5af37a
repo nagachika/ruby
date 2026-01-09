@@ -1,0 +1,1 @@
+configure に --with-baseruby を明示的に指定して、その ruby のバージョンが BASERUBY としてサポートしているより古いバージョンだった時に configure をエラーにするようにしています。
