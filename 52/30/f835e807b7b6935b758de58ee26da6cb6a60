@@ -1,0 +1,1 @@
+String, Array, Regexp などの #[] メソッドの rdoc 用コメントの体裁をまとめて修正しています。
