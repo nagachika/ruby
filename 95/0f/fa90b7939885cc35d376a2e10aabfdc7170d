@@ -1,0 +1,1 @@
+ZJIT で Array#[]= メソッドをインライン化するために中間表現 HIR に ArrayAset という命令を追加し諸々のチェック(バッファ共有や freeze など)のあと直接配列のバッファを操作する機械語を生成するようにしています。 https://github.com/ruby/ruby/pull/15747
