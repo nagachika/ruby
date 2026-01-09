@@ -1,0 +1,1 @@
+default gems や bundled gems の require 時の警告メッセージを出すための lib/bundled_gems.rb で benchmark-ips という gem のファイルを require した時に誤って警告が出てしまうのに対処しています。この gem は require "benchmark/ips" という feature 名で require するので、benchmark.gem の一部という判定になってしまうわけですね。 [ruby-core:124443] [Bug #21828]
