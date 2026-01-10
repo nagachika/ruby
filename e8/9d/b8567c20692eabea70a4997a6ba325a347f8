@@ -1,0 +1,1 @@
+aa7eb97d062e260f0d704b78e93c470ac8444129 で追加した GC の mmtk 実装のマクロ MMTK_ASSERT() を使って rb_gc_impl_writebarrier() でオブジェクト参照が T_NONE でないかのチェックを追加しています。
