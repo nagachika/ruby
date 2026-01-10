@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_separately で assertion の回数の情報を子プロセスから回収して正しいカウントが取れるように修正しています。
