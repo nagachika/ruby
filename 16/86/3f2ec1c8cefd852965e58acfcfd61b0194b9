@@ -1,0 +1,1 @@
+標準添付ライブラリ prism に拡張ライブラリ ripper から Ripper::Lexer::State と同様のクラスを独自に Prism::LexCompat::State として定義しています。ripper 依存をなくすためかな。
