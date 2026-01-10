@@ -1,0 +1,1 @@
+Windows 環境のビルドプロセスで古い Windows での制限回避のため? win32/configure.bat で一時的に中間的な Makefile を作成して nmake 実行していたのをやめています。
