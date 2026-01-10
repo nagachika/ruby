@@ -1,0 +1,1 @@
+Enumerator::ArithmeticSequence#first の実装で整数のオーバーフローを考慮していなかった分岐を修正しています。
