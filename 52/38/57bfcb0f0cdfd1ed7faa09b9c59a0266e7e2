@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の GuardShape という命令をなくして LoadField と GuardBitEquals というより汎用的でプリミティブな命令に分割しています。 https://github.com/ruby/ruby/pull/15821
