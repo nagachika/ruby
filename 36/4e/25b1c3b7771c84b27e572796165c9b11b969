@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_separately で組み込みクラスのメソッド再定義された時に誤動作しないように Class#instance_method で UnboundMethod を取り出して UnboundMethod#bind_call を使うことで確実に狙った組み込みメソッドを呼ぶようにしています。また最適化についての長いテストメソッドを細かく分割しています。
