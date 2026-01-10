@@ -1,0 +1,1 @@
+C API テスト用の拡張ライブラリの stack_alloca_overflow() という関数名を stack_overflow() に改名し、テスト用のメソッドの名前も #alloca_overflow から #stack_overflow に改名するリファクタリング。
