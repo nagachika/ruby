@@ -1,0 +1,1 @@
+Comparable, Hash, Integer, Float, Module などの #> メソッドの rdoc 用コメントの記述をまとめて手直しています。
