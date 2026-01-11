@@ -1,0 +1,1 @@
+51ab7b0405e39d6defe0b236e23f43b42aa6c1da の続きで YJIT 利用時に Struct のインスタンスが freeze されている時に属性に代入しようとした時に side_exit するようなコードを生成するように YJIT を対応させています。 https://github.com/ruby/ruby/pull/15835
