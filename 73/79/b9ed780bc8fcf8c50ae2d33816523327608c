@@ -1,0 +1,1 @@
+T_STRUCT と T_DATA 型オブジェクトのインスタンス変数の管理方法では fields_obj が作成されないので GC の mark 処理時の rb_mark_generic_ivar() の呼び出しをスキップする最適化を実装しています。
