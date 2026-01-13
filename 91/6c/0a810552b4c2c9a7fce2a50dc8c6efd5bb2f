@@ -1,0 +1,1 @@
+おそらく 73be9992e93072be803ffd5173e29dcf597e04ef で不要になったと思われる rb_RSTRUCT_SET() を ZJIT の C-binding から削除しています。
