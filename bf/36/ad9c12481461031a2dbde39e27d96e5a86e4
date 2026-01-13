@@ -1,0 +1,1 @@
+同じく rb_RSTRUCT_LEN() も ZJIT の C-binding から削除しています。
