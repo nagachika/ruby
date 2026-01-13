@@ -1,0 +1,1 @@
+T_STRUCT 型オブジェクトの操作のマクロ RSTRUCT_{LEN,GET,SET}() などは internal/struct.h というヘッダを #include すると freeze チェックなどを省いた内部用のものにすりかえられるようなハックがされていて、YJIT/ZJIT で問題が起きることがあったようなので RSTRUCT_XXX_RAW() のように内部用の inline 関数は明示的に名前を変えて定義するようにリファクタリングしています。 https://github.com/ruby/ruby/pull/15835
