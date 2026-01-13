@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.count_tdata_objects の rdoc 用コメントを修正しています。そもそもこれなんだっけ、と思ったら T_DATA 型オブジェクトのみのカウントをしてくれるようです。こんなのあったっけ?
