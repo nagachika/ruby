@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb で backport 対象のコミットを探す対象のブランチを master から origin/master に変更しています。
