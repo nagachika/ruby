@@ -1,0 +1,1 @@
+tool/mk_builtin_loader.rb の ruby 実装の組み込みメソッド用の .rb を処理するための Primitive.cexpr を展開する処理でローカル変数の参照があった場合に位置情報の行番号がずれる場合があったのを修正しています。
