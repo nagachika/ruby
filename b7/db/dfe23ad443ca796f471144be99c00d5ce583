@@ -1,0 +1,1 @@
+rubygems の Gem::AtomicFileWriter で一時ファイルに書き出してから rename する処理を一時ファイル作成を標準添付ライブラリ tempfile に依存していたのをやめて独自に SecureRandom を使って乱数からファイル名を生成する処理を書くようにしています。 securerandom に依存するのはいいのか?
