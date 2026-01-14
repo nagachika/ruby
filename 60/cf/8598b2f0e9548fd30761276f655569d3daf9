@@ -1,0 +1,1 @@
+error.c および include/ruby/internal/core/rtypeddata.h で rb_typeddata_xxx() といった関数を利用していたのを rbimpl_typeddata_is_kind_of_inline() などの internal 用の関数を使うように修正しています。
