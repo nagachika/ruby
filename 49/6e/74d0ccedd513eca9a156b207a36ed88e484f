@@ -1,0 +1,1 @@
+onigmo の upstream からの同期。 onig_new() が異常終了することがあるという不具合の修正。 onig_reg_init() での regex_t のメンバーの初期化順序を調節してエラー時の早期 return 前に必須のメンバーは初期化しておくようにしています。
