@@ -1,0 +1,1 @@
+prism の Prism::Translation::Ripper::Lexer の定義を独立したファイルに切り出しています。
