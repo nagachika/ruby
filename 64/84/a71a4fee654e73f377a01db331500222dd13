@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の同期対象に default gems ではないですが正規表現エンジンの onigmo を追加しています。 regxxxx.{c,h} と include/ruby/onigmo.h および enc/ を同期しています。 enc/ って onigmo から来てるんだっけ? ということでここからしばらく onigmo 同期の変更が続きます。
