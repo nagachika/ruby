@@ -1,0 +1,1 @@
+ZJIT の HIR 命令 SendWithoutBlockDirect でメソッド呼び出しする時の引数サイズの制限チェックを追加しています。 https://github.com/ruby/ruby/pull/15854
