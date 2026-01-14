@@ -1,0 +1,1 @@
+onigmo の upstream からの同期。不要なエラーコードの対応を #if 0 で preprocessor によるコメントアウトしています。
