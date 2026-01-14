@@ -1,0 +1,1 @@
+onigmo の upstream からの同期。エラー時のエラーメッセージの文字列バッファの設定が漏れていて? 異常終了する可能性があった不具合の修正。 https://github.com/k-takata/Onigmo/issues/132
