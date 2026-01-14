@@ -1,0 +1,1 @@
+onigmo の upstream からの同期。 enc/ 配下で USE_CASE_MAP_API マクロの定義に対応しています。
