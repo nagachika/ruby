@@ -1,0 +1,1 @@
+rubygems の gem install 時の拡張ライブラリビルドで並列 make 実行する時の -j に指定する並列度を Etc.nprocessors で得る時に require "etc" が LoadError になった時の fallback を追加しています。
