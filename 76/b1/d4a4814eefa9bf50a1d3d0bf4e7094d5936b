@@ -1,0 +1,1 @@
+onigmo の upstream からの同期。 USE_CAPTURE_HISTORY マクロを考慮して不要なエラーメッセージ対応を除外する preprocessor 分岐を追加。
