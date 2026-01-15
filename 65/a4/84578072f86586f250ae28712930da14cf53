@@ -1,0 +1,1 @@
+ZJIT で freeze されたオブジェクトのインスタンス変数などを読み込む際に Object Shapes の shape 情報を定数として展開するようにしたり、不要な実行時のチェックを削るなどの最適化しています。 https://github.com/Shopify/ruby/issues/915
