@@ -1,0 +1,1 @@
+IO.select の実装で戻り値に返す fd リストの配列をあらかじめ必要なサイズの capa を持った状態で確保する最適化。 https://github.com/ruby/ruby/pull/15850
