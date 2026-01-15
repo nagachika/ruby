@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で Onigmo は rubygems.org でリリースされているバージョンかどうかのチェックをスキップするようにしています。
