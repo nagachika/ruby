@@ -1,0 +1,1 @@
+993046847931c6c26ca518dfaf9be6c23c34fc78 の続きで YJIT の cpop_all() に RegMapping という型の引数を追加して cpush_all() で返したレジスタ構成を復旧させるようにして不具合修正しています。
