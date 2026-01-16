@@ -1,0 +1,1 @@
+同じく default gems や bundled gems の require に警告を出すための lib/bundled_gems.rb にコメントを追記しています。
