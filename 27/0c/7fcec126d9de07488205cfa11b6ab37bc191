@@ -1,0 +1,1 @@
+同じく default gems や bundled gems の require に警告を出すための lib/bundled_gems.rb の force_activate で環境変数 BUNDLE_GEMFILE や BUNDLE_LOCKFILE を一時的に上書きするようにしています。環境変数ってグローバルなリソースなので並列実行時とかに問題が起きないかな?
