@@ -1,0 +1,1 @@
+configure および cygwin/GNUmakefile.in で古い LLVM 向けの対応がもう不要なので削除しています。
