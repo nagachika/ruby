@@ -1,0 +1,1 @@
+default gems や bundled gems の require に警告を出すための lib/bundled_gems.rb で Binding#irb で irb.gem を強制的に activate してロードしている処理がうまく動かなくなっていたのを修正しているようです。 [ruby-core:123966] [Bug #21723]
