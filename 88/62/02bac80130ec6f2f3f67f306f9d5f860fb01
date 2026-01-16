@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb の assert_separately で子プロセス内での assertion 数を数えた結果がうまく伝わってなかったのを修正しています。
