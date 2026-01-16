@@ -1,0 +1,1 @@
+default gems や bundled gems の require に警告を出すための lib/bundled_gems.rb のためのテストに Gem::BUNDLED_GEMS.force_activate のテストケースを追加しています。
