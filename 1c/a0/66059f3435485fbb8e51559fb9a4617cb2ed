@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の Insn::GuardBitEquals で簡易的に実装していた型ごとに同値性をチェックする処理を Type::has_value メソッドとして一般化した実装を追加するリファクタリング。 https://github.com/ruby/ruby/pull/15867
