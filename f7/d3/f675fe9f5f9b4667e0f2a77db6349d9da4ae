@@ -1,0 +1,1 @@
+8c39d8d34313550cb72d491ad2a834c772b44734 の続きで win32/setup.mk の -baseruby- ターゲットで BASERUBY がみつからなかった時のエラーの発生させかたを cmd.exe に対応させるために修正しています。
