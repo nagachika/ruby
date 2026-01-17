@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の Prism::Translation::Ripper::Lexer を Ripper を継承したクラスとして定義するようにしています。また ripper を模倣するため? Prism::Translation::Ripper::Lexer::Elem クラスも移植してきています。 irb からの利用のためとのこと。うーんなんか冗長そう。
