@@ -1,0 +1,1 @@
+win32/setup.mk の -basic-vars- というターゲットのアクションの一部を -baseruby- と -gmp- という新しいターゲットに分離しています。
