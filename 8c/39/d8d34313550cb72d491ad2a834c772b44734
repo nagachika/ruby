@@ -1,0 +1,1 @@
+win32/setup.mk の -baseruby- ターゲットで BASERUBY 実行前に ./tool に移動するようにしています。
