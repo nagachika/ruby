@@ -1,0 +1,1 @@
+RUBY_ABI_VERSION を 1 に上げて構造体 rb_data_type_t の function メンバーに reserved 領域を追加して 7つまで追加の関数ポインタが持てるようにしています。
