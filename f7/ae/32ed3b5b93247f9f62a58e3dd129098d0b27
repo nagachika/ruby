@@ -1,0 +1,1 @@
+Symbol のうち組み込みの ID を持っているものは GC.compact で移動できないよう pin-down するようにしています。
