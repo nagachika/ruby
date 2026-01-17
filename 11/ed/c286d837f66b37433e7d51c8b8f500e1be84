@@ -1,0 +1,1 @@
+Array#map と Array#select の ruby 実装バージョンで Array#<< メソッドに依存していたので Array#<< の再定義の影響を受けていたので Primitive.cexpr! を利用して C の関数 rb_ary_push() を直接呼び出すようにしています。 Array のイテレータ系メソッドの ruby 実装は JIT が有効な時だけ使っているので JIT 有無で挙動が変わってしまっていたようです。
