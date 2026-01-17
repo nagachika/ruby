@@ -1,0 +1,1 @@
+internal/imemo.h 内で STATIC_ASSERT() で同じチェック内容が重複していたのを修正しています。
