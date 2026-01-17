@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の命令 ArrayArefFixnum を ArrayAref と改名しています。そしてオペランドの index を Fixnum でなく CInt64 を受け取るように変更しています。
