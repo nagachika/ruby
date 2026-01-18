@@ -1,0 +1,1 @@
+1f3c52dc155fb7fbc42fc8e146924091ba1dfa20 で rb_interned_str() の返す文字列の encoding を ASCII-8BIT にしたのを revert しています。
