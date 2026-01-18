@@ -1,0 +1,1 @@
+common.mk で rubyspec の C API 用拡張ライブラリの依存関係を保持する変数に internal/abi.h を追加しています。
