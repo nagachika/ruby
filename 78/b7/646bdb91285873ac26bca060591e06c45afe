@@ -1,0 +1,1 @@
+1f3c52dc155fb7fbc42fc8e146924091ba1dfa20 のリトライで rb_interned_str() で戻り値の文字列オブジェクトに ASCII 文字のみ含まれる場合は encoding を US-ASCII に保持するようにしています。 https://github.com/ruby/ruby/pull/15894 [ruby-core:124579] [Bug #21842]
