@@ -1,0 +1,1 @@
+rb_interned_str() 関数が返す文字列オブジェクトの encoding を ASCII-8BIT にしています。従来 US-ASCII になっていたようです。ふーむ、これいいのかな? [ruby-core:124579] [Bug #21842]
