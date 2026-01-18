@@ -1,0 +1,1 @@
+0e0fad1e58f23ee0e12ab06c1bcd171cba2947f2 の追加修正で ZJIT の HIR の effect system のための Insn.effects_of に 0e0fad1e58f23ee0e12ab06c1bcd171cba2947f2 で追加した InvokeProc 命令の対応を追加しています。
