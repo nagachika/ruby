@@ -1,0 +1,1 @@
+T_IMEMO を使ってメモリ解放を GC にまかせる一時メモリ確保のための rb_free_tmp_buffer() で ruby_sized_xfree() を呼び出して統計情報に反映させるようにしています。
