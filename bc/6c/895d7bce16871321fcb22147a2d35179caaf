@@ -1,0 +1,1 @@
+ZJIT で最適化のために中間表現 HIR が持つ副作用をより細かくトレースできるようにしているようで、zjit/src/hir_effect/ というサブディレクトリを追加して、Rust コードを生成する Ruby スクリプトやその生成物を追加しています。現時点ではこれを利用した最適化は行なってないみたいですが今後のための準備という感じでしょうか。 ZJIT の HIR effect system については Blog へのリンクがコミットログに記載されています。 https://bernsteinbear.com/blog/compiler-effects/ https://github.com/ruby/ruby/pull/15359
