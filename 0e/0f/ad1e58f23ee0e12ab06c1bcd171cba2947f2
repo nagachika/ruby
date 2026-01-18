@@ -1,0 +1,1 @@
+yjit.c で定義していた rb_optimized_call() という Proc を呼び出す関数を jit.c に移動して ZJIT でもメソッド呼び出しを使わずこの関数を直接呼ぶ最適化を実装しています。 https://github.com/Shopify/ruby/issues/865 https://github.com/ruby/ruby/pull/15859
