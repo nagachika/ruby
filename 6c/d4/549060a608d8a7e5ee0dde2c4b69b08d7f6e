@@ -1,0 +1,1 @@
+File.join で引数が ASCII-8BIT/US-ASCII/UTF-8 の文字列だけの時に最適化した fastpath の実装を追加しています。
