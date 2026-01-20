@@ -1,0 +1,1 @@
+GC の mmtk 実装で finalizer 関連の実装のデバッグのための MMTK_ASSERT() での assertion を追加/削除しています。
