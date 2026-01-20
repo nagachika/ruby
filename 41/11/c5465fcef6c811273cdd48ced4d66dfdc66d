@@ -1,0 +1,1 @@
+GC の mmtk 実装でデバッグ用の assertion に RUBY_ASSERT() を利用していたところを MMTK_ASSERT() マクロを利用するように変更しています。
