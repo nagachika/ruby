@@ -1,0 +1,1 @@
+6cd4549060a608d8a7e5ee0dde2c4b69b08d7f6e で導入した File.join の fastpath 実装の rb_file_join_fastpath() で冗長な StringValueCStr() の呼び出しを削っています。
