@@ -1,0 +1,1 @@
+先日結果の文字列の Encoding について変更のあった rb_interned_str() の Doxygen 用コメントを実装に合わせて修正しています。 https://github.com/ruby/ruby/pull/15897 [ruby-core:124579] [Bug #21842]
