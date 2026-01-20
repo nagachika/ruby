@@ -1,0 +1,1 @@
+rubygems の Gem::AtomicFileWriter で開いた File オブジェクトに IO#binmode を呼ぶようにしています。 File.open の flags に File::BINARY は指定していますが IO#binmode はこれとは別に指定する必要があったようです。
