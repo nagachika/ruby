@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb でサブコマンドの all などを指定して全 default gems の同期処理をする時に onigmo は対象から外すようにしています。
