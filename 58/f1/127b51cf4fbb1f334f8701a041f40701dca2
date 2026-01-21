@@ -1,0 +1,1 @@
+直前の 35a7b5159f39de2cac848c072674e5350cc41aa4 での prism の ripper 互換対応を revert しています。 syntax_suggest のテストがエラーになってしまったようです。
