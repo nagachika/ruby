@@ -1,0 +1,1 @@
+File.extname の実装でも Encoding の前提を置いて ASCII-compatible な場合にデリミタの検索などを高速化する最適化を適用しています。
