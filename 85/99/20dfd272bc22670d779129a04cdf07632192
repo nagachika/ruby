@@ -1,0 +1,1 @@
+prism の Prism::Source#line_to_byte_offset というメソッドの追加するリファクタリング。
