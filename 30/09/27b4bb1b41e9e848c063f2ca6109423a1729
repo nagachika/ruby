@@ -1,0 +1,1 @@
+ext/extmk.rb で依存関係の追加。よくわかってませんが RUBY_ABI_VERSION を更新した時に拡張ライブラリの default gems の再ビルドをするためみたいです。 [ruby-core:124596] [Bug #21845]
