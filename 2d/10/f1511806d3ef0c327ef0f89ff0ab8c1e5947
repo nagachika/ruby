@@ -1,0 +1,1 @@
+11d29d32d270d2a98642858fdca25a5272563995 で file.c に導入した strrdirsep() という inline 関数を File.dirname の第2引数に 2以上の数を指定した時にも使うように最適化しています。
