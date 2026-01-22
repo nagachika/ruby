@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の CPushAll と CPopAll 命令を削除しています。 993046847931c6c26ca518dfaf9be6c23c34fc78 のあたりの変更で不要になったのだと思います。
