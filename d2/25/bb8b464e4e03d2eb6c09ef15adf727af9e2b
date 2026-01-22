@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の IsA 命令を C の関数 rb_obj_is_kind_of() を呼んでいたのを String/Array/Hash のいずれかのクラスのインスタンスの場合は直接コード生成するインライン化を行う最適化を実装しています。 https://github.com/Shopify/ruby/issues/880 https://github.com/ruby/ruby/pull/15878
