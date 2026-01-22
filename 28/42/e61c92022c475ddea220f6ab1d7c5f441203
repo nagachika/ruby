@@ -1,0 +1,1 @@
+ということで一旦 revert されていた 35a7b5159f39de2cac848c072674e5350cc41aa4 の prism の ripper 模倣対応を再度コミットしています。syntax_suggest のテスト失敗が revert の理由だったので 20113a228d2098a4ee61a2466c809a1081b0e403 で対応したということでしょうね。
