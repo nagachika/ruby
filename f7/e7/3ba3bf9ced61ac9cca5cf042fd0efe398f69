@@ -1,0 +1,1 @@
+ZJIT の arm64 アーキテクチャ向けでレジスタの退避のためのスタックへの push/pop を 2つずつまとめて push/pop する命令(stp/ldp) を利用することでメモリ効率を改善する最適化。このために中間表現 HIR に CPushPair/CPopPairInto という命令が追加されています。
