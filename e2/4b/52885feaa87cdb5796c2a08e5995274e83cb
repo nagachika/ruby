@@ -1,0 +1,1 @@
+VM の値スタックに乗っている VALUE が pin-down されていたので rb_gc_mark_movable() で GC.compact で移動可能として mark 処理するようにしています。rb_gc_mark_vm_stack_values() という関数は残されているのですけど、呼び元を確認してみると pin_array_list_mark() という関数からスタックじゃない配列について呼んでいるので、もう関数名を変えちゃったほうがよさそうですね。
