@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の prism 利用時の workaround の分岐に入る条件に Prism::VERSION のチェックも追加しています。 prism の最新版で修正されると不要になるということみたいですね。
