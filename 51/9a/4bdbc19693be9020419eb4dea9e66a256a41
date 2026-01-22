@@ -1,0 +1,1 @@
+昨日までの File.join, File.dirname, File.extname などと同様に File.basename も引数の文字列の Encoding が ASCII-compatible なものだった時の fastpath を実装する最適化。
