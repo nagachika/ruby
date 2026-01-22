@@ -1,0 +1,1 @@
+ZJIT で省略されたキーワード引数を含むメソッド呼び出しの最適化を行なっています。 https://github.com/ruby/ruby/pull/15873
