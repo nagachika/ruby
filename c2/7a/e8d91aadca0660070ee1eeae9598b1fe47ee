@@ -1,0 +1,1 @@
+拡張ライブラリ psych のテストで Data の構造が違うものを load した時の例外メッセージのチェックを緩めています。 https://github.com/ruby/ruby/pull/15910 [ruby-core:124594] [Bug #21844]
