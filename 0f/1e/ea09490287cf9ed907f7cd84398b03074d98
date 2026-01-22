@@ -1,0 +1,1 @@
+c959741695d9cccd5376775596dce643b5a500a1 で追加した rubygems のテストが TruffleRuby では失敗するそうで skip する条件に追加しています。
