@@ -1,0 +1,1 @@
+GC の mmtk 実装の rb_mmtk_update_global_tables() という関数に moving という引数を追加しています。これは GC.compact のことなのか mmtk で moving GC を使うモードのことなのかどっちなのかよくわからず。なんとなく後者のことのような気がします。
