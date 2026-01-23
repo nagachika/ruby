@@ -1,0 +1,1 @@
+doc/maintainers.md および doc/standard_library.md で組込みクラスに移行したためなくなった pathname のエントリを削除しています。
