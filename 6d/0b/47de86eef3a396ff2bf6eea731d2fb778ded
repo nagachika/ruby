@@ -1,0 +1,1 @@
+ZJIT のアセンブラに近いほうの低レベルの中間表現 LIR を単なる命令列として持つのではなく CFG (Control Flow Graph) というブロック単位に分割して処理フローが管理しやすい構造で保持するようにリファクタリングしています。最終的にはレジスタの割り当てロジックに linear scan register allocation というアルゴリズムを適用したいのでその準備ということらしいです。 参考: https://bernsteinbear.com/blog/linear-scan/ https://github.com/ruby/ruby/pull/15879
