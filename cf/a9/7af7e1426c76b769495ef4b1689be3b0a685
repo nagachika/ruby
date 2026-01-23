@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に GetLEP という命令を追加して現在のスコープの Environment へのポインタ ep を取得する処理をひとつの命令にまとめています。これまで GuardSuperMethodEntry や GetBlockHandler といった命令内に埋め込まれていた処理を分離することで重複した処理をまとめる最適化の余地ができるというのが目的のようです。 https://github.com/ruby/ruby/pull/15917
