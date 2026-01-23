@@ -1,0 +1,1 @@
+ちょっとよくわかりませんでしたが ZJIT で super 呼び出し時の receiver の型情報のプロファイリングをより詳細にできるように管理方法を改善しているようです。 https://github.com/ruby/ruby/pull/15928
