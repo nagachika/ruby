@@ -1,0 +1,1 @@
+GitHub の pull request に自動的に label を付与するための設定で backport ラベルをつける対象のブランチに 4.x 系のブランチ名も追加しています。 https://github.com/ruby/ruby/pull/15925
