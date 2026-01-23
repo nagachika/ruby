@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に RefineType という型情報を管理するための命令を追加して、VM 命令 bnrachif, branchunless, branchnil などの分岐命令から HIR に翻訳する時にそれぞれの分岐先での変数の型についての前提が追加できるようにしています。またここで利用するために型システムに Truthy, Falsy, NotNil といった型を追加しています。 https://github.com/ruby/ruby/pull/15915
