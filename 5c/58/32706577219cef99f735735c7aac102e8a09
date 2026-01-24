@@ -1,0 +1,1 @@
+ZJIT で C 実装のメソッドの関数呼び出しで alias されたメソッドの呼び出し時に rb_aliased_callable_method_entry() を呼んで method entry の解決を行って対応することで side exit (?) を回避する最適化。 https://github.com/ruby/ruby/pull/15947
