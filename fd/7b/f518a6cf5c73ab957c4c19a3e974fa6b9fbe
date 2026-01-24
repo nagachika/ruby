@@ -1,0 +1,1 @@
+ZJIT の低レベル中間表現 LIR の昨日の 6d0b47de86eef3a396ff2bf6eea731d2fb778ded での CFG 構造導入の追加修正かなと思いますがコンパイル失敗時のエラーカウンタを増やす処理部分にブロックを導入しています。 https://github.com/ruby/ruby/pull/15932
