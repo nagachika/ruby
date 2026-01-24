@@ -1,0 +1,1 @@
+ZJIT で side-exit の理由別のカウンタで GuardShape という理由による場合のカウンタのインクリメントが抜けていたのを修正しています。 https://github.com/ruby/ruby/pull/15936
