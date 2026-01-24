@@ -1,0 +1,1 @@
+Pathname のテストで Pathname.new に NUL 文字を含む文字列を渡した時のテストを TruffleRuby で skip させています。
