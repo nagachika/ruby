@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.memsize_of_all で引数に Class でないものが渡されたらすぐに return するショートカットを追加しています。
