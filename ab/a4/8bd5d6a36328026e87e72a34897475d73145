@@ -1,0 +1,1 @@
+4449100a1116d8cce85bb4a0854c22a83ce7443d と 5b7b81a7b19225736cb62f34e2be83f27db46445 の Pathname のテストを TruffleRuby で skip させる変更を revert しています。TruffleRuby で修正版をリリースしたそうです。
