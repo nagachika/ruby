@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の sync_lib というメソッドが未使用になっていたので削除しています。また sync_default_gems メソッドで upstream の working copy がなかった時のエラー処理を追加しています。 https://github.com/ruby/ruby/pull/15933
