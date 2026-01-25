@@ -1,0 +1,1 @@
+ZJIT の統計情報をリセットする RubyVM::ZJIT::reset_stats! メソッドで最近? 追加されたカウンタ群のリセットも追加しています。 https://github.com/ruby/ruby/pull/15950
