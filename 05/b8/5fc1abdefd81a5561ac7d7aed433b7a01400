@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket.new にキーワード引数 sync_close を追加しています。SSLSocket の shutdown 時に利用している socket も close する指定です。 https://github.com/ruby/openssl/pull/955
