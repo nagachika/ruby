@@ -1,0 +1,1 @@
+M:N Thread の pthread 実装の kqueue_wait() で timer_thread_set_timeout() が 0 を返した時に kqueue(2) に渡す struct timespec を 0 クリアするようにしています。従来の実装でも tv_sec と tv_nsec は 0 クリアしているのでほぼ同じだと思うのですが、struct timespec 構造体に他のメンバーが存在する環境もあるかもしれないので、ということみたいです。しかしそうだとしたら timeout_ms > 0 の時も他のメンバーを 0 クリアしないといけないのでは? https://github.com/ruby/ruby/pull/15940
