@@ -1,0 +1,1 @@
+.gitignore に .claude, AGENTS.md, CLAUDE.md などのコーディングエージェント用のファイル群の指定を追加しています。 https://github.com/ruby/ruby/pull/15955
