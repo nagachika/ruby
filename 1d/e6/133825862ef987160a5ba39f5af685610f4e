@@ -1,0 +1,1 @@
+Hash#except メソッドの rdoc 用コメントのサンプルの評価結果の表示を Hash#inspect の変更に合わせて修正しています。
