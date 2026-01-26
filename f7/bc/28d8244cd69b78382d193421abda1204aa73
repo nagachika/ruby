@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の Prism::LexCompat::Token を SimpleDelegator を使って定義していたのを BasicObject を継承するクラスとして定義するように変更しています。これはただの Object じゃだめなのかな。
