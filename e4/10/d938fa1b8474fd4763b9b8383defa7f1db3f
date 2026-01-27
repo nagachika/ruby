@@ -1,0 +1,1 @@
+lib/rubygems/version.rb を単独で require された時のために Gem モジュールの定義を追加しています。
