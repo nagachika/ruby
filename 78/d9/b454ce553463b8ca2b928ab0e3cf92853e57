@@ -1,0 +1,1 @@
+rubygems で複数の gem に同一の feature 名が含まれる時にあるバージョンの組み合わせであれば衝突しない状態でも古いバージョンで衝突があるとうまく require でロードできないことがあるという不具合の修正をしているようです。 https://github.com/ruby/rubygems/issues/9238
