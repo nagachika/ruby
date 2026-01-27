@@ -1,0 +1,1 @@
+lib/rubygems/version.rb から不要になってた "deprecate" の require を削除しています。
