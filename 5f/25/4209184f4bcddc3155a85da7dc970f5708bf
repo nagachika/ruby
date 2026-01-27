@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の Prism::LexCompat に ripper 互換性のための対応を追加しています。
