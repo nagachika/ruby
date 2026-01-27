@@ -1,0 +1,1 @@
+519a4bdbc19693be9020419eb4dea9e66a256a41 の File.basename の最適化の修正で早期 return の return 文が足りてなかったので fastpath が動いてなかった不具合を修正しています。
