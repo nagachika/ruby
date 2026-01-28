@@ -1,0 +1,1 @@
+GC の default 実装で efde37b7122b23775b906ad90cf4e88e05b756a8 の sweep の fastpath 移動により gc_sweep_fast_path_p() 関数を定義する必要がなくなったので削除しています。
