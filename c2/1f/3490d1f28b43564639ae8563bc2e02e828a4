@@ -1,0 +1,1 @@
+GC の sweep 処理時にオブジェクトが外部ヒープを使っているかどうか、finalizer や id2ref の管理や Object Shapes などの追加でリソースを解放する処理が必要ないかをチェックして、不要な時に解放処理に fastpath を実装する最適化を行なっています。判定自体に時間かかりそうだけどマイクロベンチマークでけっこう効果があるみたいですね。 https://github.com/ruby/ruby/pull/15885 [ruby-core:124599] [Feature #21846]
