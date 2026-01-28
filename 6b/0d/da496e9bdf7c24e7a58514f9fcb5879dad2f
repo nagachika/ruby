@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR で変数の定義の漏れがないかのチェックを行うバリデーションを追加しています。 https://github.com/ruby/ruby/pull/15973
