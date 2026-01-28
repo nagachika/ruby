@@ -1,0 +1,1 @@
+GC の sweep 処理で fastpath を使えるかどうかの判定で T_BIGNUM の時に不要な Object Shapes の判定を削っています。
