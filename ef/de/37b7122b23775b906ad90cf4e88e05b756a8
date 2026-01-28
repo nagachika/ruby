@@ -1,0 +1,1 @@
+c21f3490d1f28b43564639ae8563bc2e02e828a4 で追加した GC の sweep 処理の fastpath 実装を GC の default 実装から本体の gc.c のほうに移動しています。
