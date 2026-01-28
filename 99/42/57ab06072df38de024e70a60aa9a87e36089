@@ -1,0 +1,1 @@
+Mutex を繰り返しロック取得する Thread がいた時に同じ Thread が動き続けて他の Thread に処理が回ってこなくなる可能性があった不具合を修正しています。構造体 rb_mutex_t に saved_running_time_us と wait_waking というメンバーを追加して、すぐに Mutex を取りなおした Thread の実行時間がリセットされてずっと割り当て対象になり続けるのを防いでいるようです  https://github.com/ruby/ruby/pull/15877 [ruby-core:124563] [Bug #21840]
