@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の rdoc 用コメントの Resolv::DNS#getresource の rdocl 用コメント(?)の定数リストの漏れを修正しています。
