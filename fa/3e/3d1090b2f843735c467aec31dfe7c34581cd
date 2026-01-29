@@ -1,0 +1,1 @@
+.git-blame-ignore-revs に git blame で無視する対象の commit hash として 23f9a0d655c4d405bb2397a147a1523436205486 と b839989fd22fef85e2af19de1bc83aa72a5b22bd の win32/*.bat の改行コード変更を追加しています。
