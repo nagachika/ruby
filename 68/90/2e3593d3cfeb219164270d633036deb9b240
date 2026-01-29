@@ -1,0 +1,1 @@
+標準添付ライブラリ prism の Prism::Node#find_all というメソッド(breadth_first_search_all への alias)を新規追加しています。 AST のサブツリーを探索してブロックの評価値が真になるノードを幅優先で全て配列に詰めて返すというメソッドのようです。
