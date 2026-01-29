@@ -1,0 +1,1 @@
+prism の Prism::Source#line_to_byte_offset というメソッドを #byte_offset に改名してカラム番号も引数に受け付けるように拡張しています。
