@@ -1,0 +1,1 @@
+標準添付ライブラリ prism の Prism::Translation::Ripper::Lexer::State::STATES という定数を Module#private_constants で private にしています。また Prism::Translation::Ripper::Lexer::State.cached メソッドを Prism::Translation::Ripper::Lexer::State.[] メソッドに改名しています
