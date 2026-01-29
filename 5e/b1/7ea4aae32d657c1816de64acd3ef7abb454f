@@ -1,0 +1,1 @@
+Hash#flatten の rdoc 用コメントのサンプルで Hash#inspect の Symbol キーの表示形式の変更に追随させています。
