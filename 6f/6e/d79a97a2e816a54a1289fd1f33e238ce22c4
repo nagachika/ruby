@@ -1,0 +1,1 @@
+ZJIT で meth(...) のような引数を委譲するメソッド引数渡しを利用する時の ISeq の VM 命令 invokesuperforward を可能な場合は C の関数 rb_vm_invokesuperforward() を直接呼び出すようにする最適化。 https://github.com/Shopify/ruby/issues/862 https://github.com/ruby/ruby/pull/15958
