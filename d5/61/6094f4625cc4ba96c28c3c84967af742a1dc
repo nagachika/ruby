@@ -1,0 +1,1 @@
+標準添付ライブラリ prism の Prism::LexerCompat#insert_on_sp メソッドを private にしています。
