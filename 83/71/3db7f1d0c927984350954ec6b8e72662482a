@@ -1,0 +1,1 @@
+c21f3490d1f28b43564639ae8563bc2e02e828a4 で GC の sweep 処理の fastpath を追加した時の各オブジェクトが fastpath を使えるかどうか判定する関数 rb_gc_obj_needs_cleanup_p() で、T_BIGNUM 型のオブジェクトも object_id が採番されていると Object Shapes の fields_obj の処理が必要な点の捕捉と T_DATA 型オブジョクトの時の判定が判定している箇所があったのを修正しています。
