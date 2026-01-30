@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の Prism::LexCompat::Token クラスを削除して配列で token を表現する実装に変更しています。
