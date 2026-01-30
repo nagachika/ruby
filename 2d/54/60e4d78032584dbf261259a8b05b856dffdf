@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の SendWithoutBlockDirect 命令を SendDirect と変更して、ブロックのあるメソッド呼び出しも一部の条件を満たしたものは rb_vm_send() を経由せずに直接メソッド呼び出し処理を実装するようにする最適化。 https://github.com/ruby/ruby/pull/15911
