@@ -1,0 +1,1 @@
+include/ruby/internal/fl_type.h から taint/infect 関係の不要になった定数マクロの定義を削除しています。
