@@ -1,0 +1,1 @@
+標準添付ライブラリ monitor のテストで Thread::ConditionVariable#wait の待ち時間をのばして flasky test 対策しているみたいです。 https://github.com/ruby/ruby/pull/15992
