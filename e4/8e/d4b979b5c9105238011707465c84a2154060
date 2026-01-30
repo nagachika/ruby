@@ -1,0 +1,1 @@
+同じく rubyspec の IO::Buffer.map のテストで fixture ファイルから読み込む時に read write モードで開いていたのをやめています。
