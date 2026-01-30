@@ -1,0 +1,1 @@
+prism の PRISM_ALIGNAS と PRISM_ALIGNOF というマクロの定義を stdalign.h ヘッダに依存しないキーワードを使うようにしています。
