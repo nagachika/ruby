@@ -1,0 +1,1 @@
+GitHub Actions の rubyspec をいろんな ruby バージョンで実行する workflow で ruby-3.2 を実行対象から外しています。
