@@ -1,0 +1,1 @@
+spec/ruby の IO::Buffer のテストで locale の影響? をうけるテストを String#b を使うなどして影響を受けないように修正しています。
