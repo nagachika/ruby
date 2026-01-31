@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に HasType という命令を追加して、メソッドの receiver が呼ばれる都度クラスが変化するような箇所でも最適化した JIT コードを生成できるように機能拡張しているようです。 https://github.com/ruby/ruby/pull/15949
