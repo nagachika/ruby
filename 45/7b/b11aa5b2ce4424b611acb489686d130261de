@@ -1,0 +1,1 @@
+GC の mmtk 実装に GC.stat の統計情報の :weak_references_count 項目の対応を追加しています。
