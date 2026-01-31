@@ -1,0 +1,1 @@
+ZJIT でブロック渡引数を持つメソッドの呼び出しの最適化のための getblockparamproxy 命令でブロックが渡されていなかった時に対応して side-exit せず JIT コンパイルが有効になるようにしています。 https://github.com/ruby/ruby/pull/15986
