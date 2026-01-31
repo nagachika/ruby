@@ -1,0 +1,1 @@
+.gitattributes に git diff 時に *.bat ファイルと *.cmd ファイルの改行コードの違いを無視させるように指定を追加しています。
