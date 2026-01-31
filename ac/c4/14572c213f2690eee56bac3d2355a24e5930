@@ -1,0 +1,1 @@
+2d5460e4d78032584dbf261259a8b05b856dffdf の ZJIT でブロック渡しのあるメソッド呼び出しの inline 化できる範囲を増やしているようです。 https://github.com/ruby/ruby/pull/15998
