@@ -1,0 +1,1 @@
+オブジェクトの slot を確保する時に slot 内を 0 初期化する処理で 0 埋めから除外する領域を struct RVALUE のサイズから struct RBasic のサイズに変更(縮小)しています。 T_TYPEDDATA 型オブジェクトで未初期化の状態で ObjectSpace.memsize_of を呼ぶと異常終了する不具合を修正しているようです。 https://github.com/ruby/ruby/pull/16002 [ruby-core:124638] [Bug #21854]
