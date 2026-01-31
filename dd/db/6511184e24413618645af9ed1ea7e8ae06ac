@@ -1,0 +1,1 @@
+lldb 用のコマンド拡張の misc/lldb_rb/utils.py で NODE 型のチェック方法を修正しています。
