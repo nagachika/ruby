@@ -1,0 +1,1 @@
+ZJIT の HIR から低レベル中間表現 LIR を生成する時に不要な PadPatchPoint 命令を生成するのを抑制しています。 https://github.com/ruby/ruby/pull/15974
