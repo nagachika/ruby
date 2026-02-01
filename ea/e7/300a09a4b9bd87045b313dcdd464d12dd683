@@ -1,0 +1,1 @@
+組み込みの T_TYPEDDATA 型オブジェクトの VM と Proc の VALUE から構造体を取り出す GetCoreDataFromValue() マクロで rb_data_type_t の型チェックが可能にするため引数に型情報を渡すようにしています。まだチェック自体は実装してなさそう?
