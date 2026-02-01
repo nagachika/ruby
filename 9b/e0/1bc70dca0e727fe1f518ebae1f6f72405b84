@@ -1,0 +1,1 @@
+GC の default 実装の rb_gc_impl_realloc() でも old_size に渡されたサイズが確保実装のものと一致するかデバッグビルド時にチェックするようにしています。またこれにより parse.y の PARSER_STRING_RESIZE_CAPA_TERM() マクロを修正しています。
