@@ -1,0 +1,1 @@
+jit.c の rb_optimized_call() という関数の第1引数が VALUE* と定義されていたのを VALUE に修正しています。 https://github.com/ruby/ruby/pull/6691
