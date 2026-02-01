@@ -1,0 +1,1 @@
+GC の default 実装で RGEnGC 用の age や WB-unprotected を管理する bitmap のビットフラグを落とす処理を word 単位でまとめて処理するように最適化しています。
