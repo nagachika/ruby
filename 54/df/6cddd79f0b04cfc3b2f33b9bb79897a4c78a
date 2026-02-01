@@ -1,0 +1,1 @@
+050c00141c7e8fdded5355b4c31e971ae21403d0 と同様に concurrent_set.c でも SIZED_FREE()/SIZED_FREE_N() マクロを利用してサイズを指定したメモリ解放するようにしています。
