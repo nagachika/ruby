@@ -1,0 +1,1 @@
+eae7300a09a4b9bd87045b313dcdd464d12dd683 で GetCoreDataFromValue() の定義を preprocessor 分岐でチェック有無を分けていたものの常にチェックなしになっていたので RUBY_CORE_DATA_TYPE_CHECK マクロおよび RUBY_DEBUG マクロの指定を考慮するように変更しています。
