@@ -1,0 +1,1 @@
+標準添付ライブラリとしても prism の ripper 互換対応の続き。Prism::Translator::Ripper.new の第1引数に to_str で文字列に変換できるオブジェクトも受け付けるようにしています。
