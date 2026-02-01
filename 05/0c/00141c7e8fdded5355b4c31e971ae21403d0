@@ -1,0 +1,1 @@
+SIZED_FREE() および SIZED_FREE_N() というマクロを導入して、これを利用することで variable.c で xfree() を使ってメモリ解放していたところを ruby_sized_xfree() を利用するように変更しています。
