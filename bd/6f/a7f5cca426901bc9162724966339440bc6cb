@@ -1,0 +1,1 @@
+プロセス起動時に objspace の初期化前のメモリ確保で ruby_mimmalloc() や ruby_mimcalloc() といった関数を使って確保したメモリの解放を ruby_xfree() で行なってしまっていたところを、対応する ruby_mimfree() で解放するように管理を強化しています。
