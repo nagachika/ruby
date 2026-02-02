@@ -1,0 +1,1 @@
+prism_compile.c の xfree() などを SIZED_FREE() や SIZED_FREE_N() を使うように変更しています。
