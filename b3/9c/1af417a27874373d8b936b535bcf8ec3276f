@@ -1,0 +1,1 @@
+cont.c の xfree() や free() を SIZED_FREE_N() や ruby_mimfree() を使うように変更しています。またこのために構造体 struct cont_saved_vm_stack に確保サイズを記録するためのメンバーを追加しています。
