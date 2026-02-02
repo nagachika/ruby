@@ -1,0 +1,1 @@
+string.c および marshal.c でもヒープメモリ解放に SIZED_FREE() や SIZED_FREE_N() を使うように変更しています。
