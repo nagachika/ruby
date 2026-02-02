@@ -1,0 +1,1 @@
+VM や main Thread、 main Ractor のメモリ確保を ruby_mimmalloc() で行なっていたのを static な変数を利用してヒープからメモリ確保するのを避けるようにしています。
