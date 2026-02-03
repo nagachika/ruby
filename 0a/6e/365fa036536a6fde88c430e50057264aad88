@@ -1,0 +1,1 @@
+eval_jump.c の xfree() を SIZED_FREE() を使うように変更しています。
