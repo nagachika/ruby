@@ -1,0 +1,1 @@
+variable.c、re.c、marshal.c、box.c などで xfree() や REALLOC_N() のかわりに SIZED_FREE() や SIZED_REALLOC_N() を使うように変更しています。 また scheduler.c の Fiber::Scheduler::BlockingOperation クラスの定義ではそもそもヒープのメモリを使わず slot に埋め込むようにしています。
