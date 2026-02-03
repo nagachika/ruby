@@ -1,0 +1,1 @@
+bundler の git source の時の git コマンド実行時の引数に nil のインスタンス変数を参照してしまう可能性があったみたいで memo 化つきの accessor を使うように修正しています。
