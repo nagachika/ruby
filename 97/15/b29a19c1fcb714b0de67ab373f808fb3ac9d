@@ -1,0 +1,1 @@
+9368ec5e8b992856d554f57c56e4d5a9c45f0f38 で追加した Array#find の ruby 実装で引数 if_none_proc の nil チェックを safe guard navigator 演算子(&.) を利用するようにリファクタリングしています。
