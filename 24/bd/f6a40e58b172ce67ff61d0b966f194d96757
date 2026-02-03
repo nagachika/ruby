@@ -1,0 +1,1 @@
+transcode.c の xfree() や REALLOC_N() などを SIZED_FREE() や SIZED_REALLOC_N() を使うように変更しています。
