@@ -1,0 +1,1 @@
+internal/gc.h から不要になった ruby_sized_xfree()、ruby_sized_xrealloc()、ruby_sized_xrealloc2() などのマクロや inline 関数を削除しています。
