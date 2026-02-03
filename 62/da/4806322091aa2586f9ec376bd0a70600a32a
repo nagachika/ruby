@@ -1,0 +1,1 @@
+vm_eval.c と vm_trace.c の xfree() などを SIZED_FREE() を使うように変更しています。
