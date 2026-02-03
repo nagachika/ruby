@@ -1,0 +1,1 @@
+組み込みメソッド Array#find を ruby 実装に移植して Array#each などと同様に JIT で最適化しやすいようにしています。
