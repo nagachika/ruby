@@ -1,0 +1,1 @@
+Hash#dig の rdoc 用コメントのサンプルで Hash#inspect の表示形式変更に追随させています。
