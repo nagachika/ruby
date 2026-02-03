@@ -1,0 +1,1 @@
+thread_pthread.c の一部の ruby_xfree() を SIZED_FREE() や SIZED_FREE_N() を使うように変更して、これにサイズを渡すためにマシンスタックサイズを構造体 struct rb_thread_sched_item のメンバー context_stack_size を追加して保持しておくようにしています。
