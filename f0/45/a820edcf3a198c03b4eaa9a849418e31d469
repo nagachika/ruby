@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv のテストで DNS の問い合わせタイムアウト時間も EnvUtil.apply_timeout_scale で環境変数による拡大に対応するようにしています。
