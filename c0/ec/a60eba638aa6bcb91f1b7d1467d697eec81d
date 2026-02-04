@@ -1,0 +1,1 @@
+拡張ライブラリ json で RUBY_INTEGER_UNIFICATION というマクロによる preprocessor 分岐を削除して常に RUBY_INTEGER_UNIFICATION が定義されていた場合のコードを利用するようにしています。 Fixnum と Bignum のクラスが分かれてた時代のための分岐みたいですね。
