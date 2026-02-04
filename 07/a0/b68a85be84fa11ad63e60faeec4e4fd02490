@@ -1,0 +1,1 @@
+Process.wait 中の例外による割り込みのテストで sleep で待つ時間を EnvUtil.apply_timeout_scale で環境変数によるタイムアウト延長の対象にしています。
