@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の private メソッド Timeout#timeout (include して使う前提)に短い rdoc 用コメントをつけています。 rdoc のドキュメントの coverage のためかな。
