@@ -1,0 +1,1 @@
+class.c の Doxygen 用? コメントの T_CLASS/T_MODULE/T_ICLASS の struct RBasic::flags のビットフラグの説明の定数マクロ名の修正。
