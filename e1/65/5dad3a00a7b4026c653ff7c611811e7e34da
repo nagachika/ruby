@@ -1,0 +1,1 @@
+一時的に GitHub Actions の ppc64le と s390x の環境の worker が動かないみたいなので Ubuntu 用 workflow でコメントアウトして動かさないようにしています。
