@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で scoop でインストールするパッケージの uutils-coreutils のバージョンを 0.5.0 を明示して固定するようにしています。
