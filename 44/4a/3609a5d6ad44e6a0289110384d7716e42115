@@ -1,0 +1,1 @@
+enc/make_encmake.rb および ext/extmk.rb で $LOAD_PATH にソースディレクトリを追加するのをやめてかわりに(?) tool/lib/ を追加するようにしています。
