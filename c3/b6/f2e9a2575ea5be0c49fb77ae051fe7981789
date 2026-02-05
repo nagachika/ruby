@@ -1,0 +1,1 @@
+ext/extmk.rb で require 'rubygems/platform' する位置を $LOAD_PATH を変更する後に移動しています。
