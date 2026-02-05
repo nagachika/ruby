@@ -1,0 +1,1 @@
+標準添付ライブラリ prism の Prism::LexCompat の ripper 互換性の対応。 https://github.com/ruby/prism/issues/3899
