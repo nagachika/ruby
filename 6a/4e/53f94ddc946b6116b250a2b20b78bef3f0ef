@@ -1,0 +1,1 @@
+prism で ruby のバージョンを得るために ruby レベルの定数 RUBY_VERSION を取得していたのをグローバル変数の ruby_version を直接参照するように変更しています。
