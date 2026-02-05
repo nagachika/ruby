@@ -1,0 +1,1 @@
+bundler の gem ダウンロード時に HTTP ステータス 416 Range Not Satisfied がかえってきた時の Range ヘッダを削るリトライ時の Accept-Encoding: gzip ヘッダの指定を削除しています。 Accept-Encoding を明示的に指定すると net/http がレスポンスを自動的に解凍しなくなって期待したレスポンスが得られなくなるみたいです。
