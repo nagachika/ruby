@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテストでソースディレクトリが symbolic link の時? のエラー対策のため require に渡すパスに File.expand_path のかわりに File.realpath を使って symbolic link の解決まで行なうようにしています。
