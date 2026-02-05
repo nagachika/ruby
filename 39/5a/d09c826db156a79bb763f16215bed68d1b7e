@@ -1,0 +1,1 @@
+bundler の man ページの bundle config の `local.GEM_NAME` による特定の gem のソースを指定する方法の注意事項を追記しています。
