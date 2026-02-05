@@ -1,0 +1,1 @@
+e1655dad3a00a7b4026c653ff7c611811e7e34da で GitHub Actions で一時的に ppc64le や s390x でのビルドを停止していたのを revert しています。環境が復活したようですね。
