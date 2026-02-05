@@ -1,0 +1,1 @@
+e6483d98907654d015ececd5de6a0079084f8f33 で追加した bundler のテストに対応する修正で source を path にしている gem の依存関係の gem の source を決定する時のチェックを厳密にしているようです。
