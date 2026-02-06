@@ -1,0 +1,1 @@
+common.mk で rbconfig.rb を生成する依存関係を整理して Unicode のバージョンの整合性チェックを行う処理を unicode-version というルールに分離しています。
