@@ -1,0 +1,1 @@
+doc/_regexp.rdoc の正規表現のドキュメントのリンク切れを修正しています。 https://github.com/ruby/ruby/pull/16018
