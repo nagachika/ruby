@@ -1,0 +1,1 @@
+Module#>= や Module#<= メソッドの rdoc 用コメントを手直ししています。 https://github.com/ruby/ruby/pull/15804
