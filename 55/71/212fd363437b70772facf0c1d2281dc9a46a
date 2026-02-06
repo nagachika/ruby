@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR でいくつかの用途に特化した Guard 系命令を削除して LoadField や GuardNoBitsSet などの汎用的な命令で代替するようにしています。また GC の mark 漏れによる異常終了の可能性があった不具合の修正も含まれているようです。 https://github.com/ruby/ruby/pull/16034
