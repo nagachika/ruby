@@ -1,0 +1,1 @@
+common.mk で rdoc に渡す --exclude オプションを追加して lib/rubygems/core_ext/kernel_require.rb をドキュメント化から除外するようにしています。
