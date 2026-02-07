@@ -1,0 +1,1 @@
+common.mk に rdoc のドキュメントの coverage チェックのためのターゲットを追加して GitHub Actions の misc check workflow から利用するようにしています。
