@@ -1,0 +1,1 @@
+引き続き win32/configure.bat から win32/shellsplit.cmd というコマンドラインの分割処理? のサブルーチンを切り出す修正。たいへんそう。
