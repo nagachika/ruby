@@ -1,0 +1,1 @@
+拡張ライブラリ json でコンパイラが noreturn attribute をサポートしていたらそれを使って NORETURN() マクロを定義するようにして、関数定義の箇所で RBIMPL_ATTR_NORETURN での有無で preprocessor 分岐していたのを NORETURN() マクロを利用するように整理しています。
