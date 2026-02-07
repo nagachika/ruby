@@ -1,0 +1,1 @@
+default/bundled gems の require 時の警告のための lib/bundled_gems.rb のテストで Gem::BUNDLED_GEMS::LIBDIR 定数を stub する時のパスを Spec::Path.source_lib_dir を参照して、さらに symbolic link を解決しておくようにしているようです。
