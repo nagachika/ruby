@@ -1,0 +1,1 @@
+common.mk の test-bundler ターゲットで起動する ruby に -C オプションでソースディレクトリに移動させていたのをやめています。かわりに -I オプションで渡す load path に $(srcdir) つきのパスを指定するようにしています。  https://github.com/ruby/ruby/pull/13520
