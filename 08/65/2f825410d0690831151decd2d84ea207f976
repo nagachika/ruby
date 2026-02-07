@@ -1,0 +1,1 @@
+lib/cgi.rb の警告メッセージで Gemfile に gem 'cgi' を追加するよう促す文言を追加しています。
