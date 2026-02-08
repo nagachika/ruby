@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の Graphviz 形式のダンプに使うスクリプトの不具合修正。 https://github.com/ruby/ruby/pull/16053
