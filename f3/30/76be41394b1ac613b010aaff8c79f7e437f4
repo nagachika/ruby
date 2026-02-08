@@ -1,0 +1,1 @@
+defs/jit.mk および yjit/yjit.mk, zjit/zjit.mk など JIT 系の Makefile で rustc のバージョンが更新された時に古いバージョンでビルドされた生成物を削除するようにしています。
