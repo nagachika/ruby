@@ -1,0 +1,1 @@
+rb_gc_register_address() および rb_gc_unregister_address() で RB_VM_LOCKING() マクロを使って vm->global_object_list の操作中に VM ロックを取得するようにしています。 https://github.com/ruby/ruby/pull/16097 [ruby-core:122683] [Bug #21504]
