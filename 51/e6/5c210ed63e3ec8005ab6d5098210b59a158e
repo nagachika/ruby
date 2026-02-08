@@ -1,0 +1,1 @@
+common.mk で verconf.h の依存関係に $(RBCONFIG) と変数経由で書いていたのを rbconfig.rb と直接ファイル名で記述するように展開しています。上のほうで rbconfig.rb が $(RBCONFIG) に依存しているので同じことなのでは……という気がしますが load.o のビルドが冗長に行なわれるのを避けるための変更とのこと。
