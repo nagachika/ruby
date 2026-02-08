@@ -1,0 +1,1 @@
+M:N Threads 利用時に一部のブロッキング処理が Thread を占有すると共有 native thread が不足した時に timer thread が native thread を新規に起動せず処理が滞ることがあった不具合を修正しています。 native thread の不足を検出した時に timer thread を起こして thread 追加させるようにしているようです。 https://github.com/ruby/ruby/pull/16009 [ruby-core:122683] [Bug #21504]
