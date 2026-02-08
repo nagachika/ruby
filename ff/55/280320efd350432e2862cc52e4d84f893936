@@ -1,0 +1,1 @@
+intgernal/imemo.h の構造体 struct vm_throw_data に予約フィールドとして置いてあった reserved メンバーを削除しています。構造体のメモリレイアウトのために置いてたけどもう不要になったとかかな? たぶん struct RVALUE の slot に置く構造体ではないような気がするけど。
