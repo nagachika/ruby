@@ -1,0 +1,1 @@
+Thread#raise で Thread に割り込んだ時にその Thread がキーワード引数を持つメソッドを実行中の場合に割り込み処理が rb_keyword_given_p() で誤ってキーワード引数の存在を判定してしまい異常終了する可能性があったという不具合を修正しています。例外の生成に rb_exception_setup() を呼んでいたのをやめて rb_exc_new() や rb_make_exception() を使うように修正しています。 [ruby-core:124688] [Bug #21865]
