@@ -1,0 +1,1 @@
+darray.h から rb_darray_swap_remove() という未使用のマクロ定義を削除しています。
