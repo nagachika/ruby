@@ -1,0 +1,1 @@
+internal/imemo.h の構造体 struct MEMO から不要な reserve メンバーを削除しています。昨日の ff55280320efd350432e2862cc52e4d84f893936 と同様でしょうか。
