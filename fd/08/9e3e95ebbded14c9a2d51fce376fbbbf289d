@@ -1,0 +1,1 @@
+7b3370a5579956404d742a2e104d72e7c89480e4 の M:N Threads での thread 供給のため timer thread を起こす変更を revert しています。 https://github.com/ruby/ruby/pull/16009
