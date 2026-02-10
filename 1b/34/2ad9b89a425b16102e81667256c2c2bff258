@@ -1,0 +1,1 @@
+rubygems の Gem::Package#verify_gz メソッドを削除して冗長な事前の data.tar.gz の検証を省略しています。
