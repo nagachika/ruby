@@ -1,0 +1,1 @@
+35cb1fed58101b8917e99eaa9371ed1d32f219af の続きで GitHub Actions の workflow で clang の -flto=auto オプションを指定したビルドに使うバージョンを clang-18 から clang-22 に更新しています。
