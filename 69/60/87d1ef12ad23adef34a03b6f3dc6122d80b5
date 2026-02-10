@@ -1,0 +1,1 @@
+bundler のテストで一時ファイルの後始末を追加していた 2d054ef64de31a3306fa9cbaea68cbb5aa0faf21 を revert しています。
