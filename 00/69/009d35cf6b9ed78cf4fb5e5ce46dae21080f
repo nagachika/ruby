@@ -1,0 +1,1 @@
+GC の mmtk 実装利用時に 40117ea04b7b5ff5a41f4d5ad4159692eca93bdd で修正していた ObjectSpace.dump のテストをスキップするようにしています。
