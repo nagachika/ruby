@@ -1,0 +1,1 @@
+ZJIT の有効化時に? RubyVM::ZJIT.call_jit_hooks メソッドを呼ぶようにしています。
