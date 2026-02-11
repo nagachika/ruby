@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の GuardGreaterEq 命令に reason を追加して side-exit 時の理由を伝播させるようにしています。
