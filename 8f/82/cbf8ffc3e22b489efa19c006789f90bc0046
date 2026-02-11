@@ -1,0 +1,1 @@
+dependabot の設定で cargo の更新の対象から gc/mmtk/ の配下を除外しています。upstream で更新チェックしているので ruby/ruby 内では不要とのこと。
