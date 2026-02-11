@@ -1,0 +1,1 @@
+ZJIT で VM 命令 getconstant のコンパイルに対応しています。また実装されてなかったんだ。 https://github.com/ruby/ruby/pull/16109
