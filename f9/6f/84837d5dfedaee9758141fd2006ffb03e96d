@@ -1,0 +1,1 @@
+Array クラスの組み込みメソッドの ruby 実装から Primitive.cexpr! 経由で呼び出す C の関数に ary_fetch_next() を呼び出していたのを JIT 専用の関数を導入して Primitive.rb_jit_ary_at や Primitive.rb_jit_fixnum_inc などの特殊メソッドで呼び出すようにしています。 C の関数呼び出しすらなくしてフラットなループとして実装したいということですかね。
