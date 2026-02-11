@@ -1,0 +1,1 @@
+rubygems の Gem::Specification クラスの rdoc 用コメントに gemspec ファイル内で分岐しないようにしましょうという注意を追記しています。
