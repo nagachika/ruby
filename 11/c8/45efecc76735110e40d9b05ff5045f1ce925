@@ -1,0 +1,1 @@
+f96f84837d5dfedaee9758141fd2006ffb03e96d で導入した Array の ZJIT 時に利用する組み込みメソッドの ruby 実装版の Primitive のメソッドで呼ぶ関数をさらに ZJIT でインライン化する最適化。
