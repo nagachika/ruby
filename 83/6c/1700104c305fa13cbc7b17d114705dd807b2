@@ -1,0 +1,1 @@
+UnboundMethod#== メソッドで Module#include や Module#prepend で差し込まれた T_ICLASS 経由のメソッドの時の誤判定を修正しています。 [ruby-core:124741] [Bug #21873]
