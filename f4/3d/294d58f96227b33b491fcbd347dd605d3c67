@@ -1,0 +1,1 @@
+組み込みクラスの ruby 実装から使う Primitive.attr! で設定できるメソッドの属性に :without_interrupts というのを追加して、この属性を持つメソッド内ではジャンプ系の VM 命令 jump, branchif, branchunless, branchnil などに _without_ints という suffix をつけた新しい命令を使うようにしています。 YJIT や ZJIT でもこれらの命令に対応してジャンプ後に割り込みチェックを行なわないようにしています。で Array#each などにこの属性を追加しています。
