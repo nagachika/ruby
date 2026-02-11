@@ -1,0 +1,1 @@
+doc/contributing/documentation_guide.md のリンクを絶対 URL にしていたのを相対パスでのリンクに変更しています。
