@@ -1,0 +1,1 @@
+Array#flatten! の rdoc 用コメントのサンプルの Hash#inspect の形式を変更しています。
