@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR のダンプ時に命令 GuardAnyBitSet と GuardNoBitsSet にビットマスクを定数名で表示するようにしています。 https://github.com/ruby/ruby/pull/16064
