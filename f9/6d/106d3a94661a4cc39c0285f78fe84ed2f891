@@ -1,0 +1,1 @@
+11c845efecc76735110e40d9b05ff5045f1ce925 の続き? で ZJIT 利用時の Array の組み込みメソッドの ruby 実装版で Array への要素追加も rb_ary_push() を呼んでたのを専用の関数 rb_jit_ary_push() を定義してこれを Primitive.rb_jit_ary_push で呼ぶようにしています。 JIT で関数を認識してこれも inline 化するためですかね。
