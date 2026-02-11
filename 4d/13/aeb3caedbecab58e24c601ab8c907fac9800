@@ -1,0 +1,1 @@
+ZJIT で defined?(yield) がメソッド内でない(トップレベル?)で書かれてた時に nil を返すショートカットを実装しています。 https://github.com/ruby/ruby/pull/16063
