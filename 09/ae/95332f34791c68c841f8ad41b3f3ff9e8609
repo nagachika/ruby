@@ -1,0 +1,1 @@
+RubyVM::ZJIT.stats_string で RubyVM::ZJIT.stats が nil を返した時に例外になるのを抑制するため safe guard operator を利用しています。 https://github.com/ruby/ruby/pull/16134
