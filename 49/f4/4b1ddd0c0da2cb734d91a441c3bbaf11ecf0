@@ -1,0 +1,1 @@
+836c1700104c305fa13cbc7b17d114705dd807b2 の UnboundMethod#== の修正に追随して rubyspec にテストを追加しています。 [ruby-core:124741] [Bug #21873]
