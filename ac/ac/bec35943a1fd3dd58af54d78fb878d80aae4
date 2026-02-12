@@ -1,0 +1,1 @@
+ZJIT のシンプルなメソッドを JIT コンパイルさせてみるテストを test/ruby/test_zjit.rb で ruby スクリプトで書いてたテストを Rust でのテストにして zjit/src/codegen_tests.rs という独立したファイルに移動しています。 https://github.com/ruby/ruby/pull/16130
