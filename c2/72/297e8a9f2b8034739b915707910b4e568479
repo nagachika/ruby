@@ -1,0 +1,1 @@
+ZJIT の型推論の実装の最適化。よくわかってませんが RPO (Reverse Post Order) という手法を使っていたのを Worklist というアルゴリズムを採用するようにしているそうです。 https://github.com/ruby/ruby/pull/16122
