@@ -1,0 +1,1 @@
+iseq.c の cc_is_active() で struct rb_callcaceh が生きてるかどうかのチェックで rb_vm_empty_cc_for_super() の戻り値との比較をすべきところをそのまま真偽値として解釈して常に return false してしまっていたのを修正しています。これは mark 漏れに繋がりそうなので backport したほうがよさそうですね。
