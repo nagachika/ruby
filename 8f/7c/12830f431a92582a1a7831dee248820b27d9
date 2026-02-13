@@ -1,0 +1,1 @@
+標準添付ライブラリ prettyprint の PrettyPrint::SingleLine クラスの #fill_breakable、#group_sub、#break_outmost_groups などのメソッドを追加しています。PrettyPrint クラスとの互換性のため。 [ruby-core:124769] [Bug #21874]
