@@ -1,0 +1,1 @@
+default gems や bundled gems の require 時の警告を出すための lib/bundled_gems.rb で benchmakr-ips.gem のように "-" を含む gem で require "benchmark/ips" のように bundled gems と同名のディレクトリの配下のスクリプトを require した時に誤って警告が出ていたのを対策しています。
