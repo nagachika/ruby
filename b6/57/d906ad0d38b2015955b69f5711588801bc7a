@@ -1,0 +1,1 @@
+ISeq の struct rb_callcaceh の GC.compact による移動の処理時に不要なメモリ書き込みを抑制することで fork 後の copy-on-write によるメモリコピーの発生を抑える最適化や実装のシンプル化を行なっています。
