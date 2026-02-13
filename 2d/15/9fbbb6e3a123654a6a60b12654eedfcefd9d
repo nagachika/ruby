@@ -1,0 +1,1 @@
+io.c, gc.c, debug.c などで _exit(2) の引数に直接 0 や 1とマジックナンバーを書いていたのを移植性のため EXIT_SUCCESS や EXIT_FAILURE などの定数マクロを使うように修正しています。
