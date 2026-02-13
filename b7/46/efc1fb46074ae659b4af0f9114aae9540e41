@@ -1,0 +1,1 @@
+と思ったら直前の b657d906ad0d38b2015955b69f5711588801bc7a の struct rb_callcache の GC mark/move 実装の変更を revert しています。
