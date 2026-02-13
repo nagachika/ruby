@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で struct RBasic::flags のビットフラグの操作を直接ビット演算を書いてたのを RB_FL_SET_RAW()、RB_FL_UNSET_RAW() などのマクロを利用するようにしています。
