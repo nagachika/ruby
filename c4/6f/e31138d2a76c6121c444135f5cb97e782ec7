@@ -1,0 +1,1 @@
+dtrace コマンドに渡すオプションに $(CPPFLAGS) をまるまる渡していたのを -D や -U などのオプションとその引数だけ抽出して渡すようにしています。 https://github.com/ruby/ruby/pull/12563#issuecomment-3691590489 [ruby-core:124680] [Bug #21862]
