@@ -1,0 +1,1 @@
+include/ruby/internal/scan_args.h  の定数マクロ RB_{SCAN_ARGS,PASS}_KEYWORDS などの Doxygen 用コメントの英文を修正。
