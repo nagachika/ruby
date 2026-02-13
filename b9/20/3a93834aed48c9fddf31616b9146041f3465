@@ -1,0 +1,1 @@
+prism の Array#pack, String#unpack の指示文字列の解析機能は利用されていないようなので削除しています。
