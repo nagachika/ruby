@@ -1,0 +1,1 @@
+bundler の bundle gem で Rust 製拡張ライブラリを含む gem を生成する時の GitHub Action の設定の雛形を追加しています。
