@@ -1,0 +1,1 @@
+GitHub Actions の rubybench の実行時に shipit というベンチマークを除外するようにしています。
