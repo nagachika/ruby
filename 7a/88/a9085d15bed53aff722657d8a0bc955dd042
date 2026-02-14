@@ -1,0 +1,1 @@
+rubygems の設定ファイルの DEFAULT_INSTALL_EXTENSION_IN_LIB という項目のデフォルト値を false に変更しています。
