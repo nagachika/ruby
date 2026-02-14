@@ -1,0 +1,1 @@
+2101c1bf091c30379daf96d4426a59e84002cccf の続きで rubygems で .gem ファイルのグローバルなキャッシュの Gem::RemoteFetcher#download での参照のリファクタリング。
