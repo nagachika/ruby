@@ -1,0 +1,1 @@
+bundler の bundle plugin サブコマンドで --help オプションの対応を追加しています。
