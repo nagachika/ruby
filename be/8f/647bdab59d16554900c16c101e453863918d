@@ -1,0 +1,1 @@
+Ractor.new のブロック内で外のスコープの変数への参照があった時に発生させる例外を ArgumentError から Ractor::IsolationError に変更しています。 [ruby-core:123062] [Bug #21551]
