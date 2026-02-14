@@ -1,0 +1,1 @@
+bundler で git source の gem について bundle install 時の group で対象外になっていても fetch されていたのを修正しています。
