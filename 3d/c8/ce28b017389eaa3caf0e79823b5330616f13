@@ -1,0 +1,1 @@
+bundler のテストに bundle help greet サブコマンドのテストを追加しています。
