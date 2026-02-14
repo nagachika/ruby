@@ -1,0 +1,1 @@
+String#unpack や String#unpack1 でフォーマット文字列内に "^" を書くことでその位置の文字列内の byte 単位のオフセットも同時に返すような機能を追加しています。 https://github.com/ruby/ruby/pull/15647  [ruby-core:124312] [Feature #21796]
