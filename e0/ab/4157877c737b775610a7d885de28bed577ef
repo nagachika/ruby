@@ -1,0 +1,1 @@
+bundler の bundle gem で Rust 製拡張ライブラリを含む gem の時の Cargo.toml の雛形の rb-sys-env の依存バージョンを更新しています。
