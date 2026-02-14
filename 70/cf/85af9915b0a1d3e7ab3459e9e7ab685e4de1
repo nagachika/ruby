@@ -1,0 +1,1 @@
+GitHub Actions の Cygwin 版 workflow で cygwin/cygwin-install-action アクションでパッケージのダウンロード元の URL の指定を追加しています。オリジナルのサイトが不調?
