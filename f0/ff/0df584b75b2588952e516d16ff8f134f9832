@@ -1,0 +1,1 @@
+Kernel#autoload_relative および Module#autoload_relative メソッドを追加し、autoload 相当のものでスクリプトファイルからの相対パスでのファイル指定を可能にしています。 https://github.com/ruby/ruby/pull/16148 [ruby-core:89934] [Feature #15330]
