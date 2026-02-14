@@ -1,0 +1,1 @@
+rubygems で gem を RubyGems.org から取得する時に HTTP レスポンスの X-Error-Message ヘッダでカスタムエラーメッセージが得られた時にそれを表示するようにしています。
