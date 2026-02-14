@@ -1,0 +1,1 @@
+bundler のテストで rubocop の警告抑制のため Hash 記法を修正しています。
