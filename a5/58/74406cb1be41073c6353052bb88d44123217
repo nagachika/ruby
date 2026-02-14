@@ -1,0 +1,1 @@
+2101c1bf091c30379daf96d4426a59e84002cccf の続きで bundler で利用中の rubygems が global cache をサポートしているかどうかのチェックを追加しています。
