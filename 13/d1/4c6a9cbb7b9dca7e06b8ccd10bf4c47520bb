@@ -1,0 +1,1 @@
+3b5ee7488c8064cd3b1afc41bc43afdb907fdf16 で追加した Dir.scan や Dir#scan で返すファイルタイプの Symbol のために作る文字列を fstring にしています。
