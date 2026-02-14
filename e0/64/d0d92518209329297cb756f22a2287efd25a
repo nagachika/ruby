@@ -1,0 +1,1 @@
+bundler の gem 名の検証で大文字アルファベットが含まれている時もエラーにするようにしています。おお、そうなんだ。けど割とうっかり書いてることありそう。 https://guides.rubygems.org/name-your-gem/
