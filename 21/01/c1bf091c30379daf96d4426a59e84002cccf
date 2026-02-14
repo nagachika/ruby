@@ -1,0 +1,1 @@
+rubygems と bundler で ruby のバージョンなどによらず共通の .gem ファイルのキャッシュを ~/.cache/gem/gems などのディレクトリに保持できるようにしています。
