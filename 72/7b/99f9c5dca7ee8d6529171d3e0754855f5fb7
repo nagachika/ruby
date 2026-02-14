@@ -1,0 +1,1 @@
+enc/make_encmake.rb で require で BASERUBY の環境のファイルをロードするのを防ぐため? $LOAD_PATH にパスを追加しています。
