@@ -1,0 +1,1 @@
+bundler の bundle gem で生成する Rust 製拡張ライブラリを含む時の Cargo.toml のテンプレートでデバッグビルドをデフォルトで有効にしています。
