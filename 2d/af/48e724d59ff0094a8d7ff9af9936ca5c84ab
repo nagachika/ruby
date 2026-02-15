@@ -1,0 +1,1 @@
+5c71c8c55bd71cff64e670097e4800d9e3d67ae4 の GC の bitmap の実装変更の続きで b53aada8da9615b4818da3d87dd92a5f2aea89b8 で slot_div_magic の値を初期化時に 1回計算するところで (1 << 32) になってて本来は -1 すべきだったのを UINT32_MAX を参照するように修正しています。
