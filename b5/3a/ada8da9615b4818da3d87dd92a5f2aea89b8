@@ -1,0 +1,1 @@
+1b65282961de25380d4c6e34d249136d0ea1fa5c で slot_div_magic の値の配列をリテラルとして定義していたのをやめて rb_gc_impl_objspace_init() で初期化時に 1回計算するようにしています。
