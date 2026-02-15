@@ -1,0 +1,1 @@
+98269b6d64f26d1e8f22f3d8fddd30393f009e17 で doc/language/packed_data.rdoc に追記した String#unpack の指示子の "^" のサンプルの typo 修正。肝心の "^" が "C" になっていました。
