@@ -1,0 +1,1 @@
+5c71c8c55bd71cff64e670097e4800d9e3d67ae4 の bitmap 実装の変更の続きで GC の default 実装で heap_add_page() で heap に struct heap_page を追加する時に bitmap の初期化を追加しています。これはこの変更前からの初期化漏れかも?
