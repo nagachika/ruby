@@ -1,0 +1,1 @@
+116d402067c1d01ed67b16ec93fb523bd5109d07 の明示的ブロック拒否のメソッド定義の文法 def m(&nil) の導入に対応して Method#parameters や Proc#parameters で :noblock という Symbol を返すようにしています。なるほど。
