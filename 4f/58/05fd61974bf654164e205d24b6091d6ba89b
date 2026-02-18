@@ -1,0 +1,1 @@
+bundler で git source の gem の git working copy を更新する処理を Bundler::Definition#missing_specs でも呼び出すようにしています。 コミットログをみると git fetch を並列で実行させるようにするためみたいです。
