@@ -1,0 +1,1 @@
+ObjectSpace.undefine_finalizer のテストでもタイムアウトを伸ばしています。
