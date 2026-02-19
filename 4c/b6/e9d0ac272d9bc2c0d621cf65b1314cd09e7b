@@ -1,0 +1,1 @@
+common.mk の test-bundler で一時ディレクトリのチェックの警告抑制に -e オプションでグローバル変数 $no_report_tmpdir を設定していたのを -s オプションで -no-report-tmpdir を指定するという方法で設定するように変更しています。
