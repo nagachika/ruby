@@ -1,0 +1,1 @@
+bundler で plugin 利用時に環境変数 BUNDLE_WITHOUT=default を指定して bundle install するとエラーが発生するという不具合を修正しています。エラー処理が不足していたようなので nil の考慮を追加しています。
