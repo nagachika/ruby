@@ -1,0 +1,1 @@
+complex.c で fun1() や fun2() という関数マクロを使って演算子メソッドを rb_funcall() を使ったメソッド呼び出すする関数を定義することで実装していたのをメソッド呼び出しを介さず receiver のクラスで分岐して直接対象の実装の関数を呼び出すようにしています。また f_zero_p() という関数が rational.c と complex.c で重複して定義されていたので internal/rational.h で inline 関数として定義するようにして共通化しています。
