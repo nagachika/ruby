@@ -1,0 +1,1 @@
+GitHub Actions の ruby-bench の実行時に除外するベンチマークから lobsters を削除しています。
