@@ -1,0 +1,1 @@
+default gems や bundled gems の require 時の警告のための lib/bundled_gems.rb のテストでテストにかかった時間を表示するようにしています。
