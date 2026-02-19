@@ -1,0 +1,1 @@
+common.mk の test-bundler の実行時に一時ディレクトリの削除を行うため tool/lib/_tmpdir.rb をロードさせるようにしています。
