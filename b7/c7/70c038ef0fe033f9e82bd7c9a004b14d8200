@@ -1,0 +1,1 @@
+e875ca2e7494e7c28af6dbf0ad0add5c81d6944c の bundled gems の gem ファイル取得の common.mk の依存関係の変更に追随して timestamp/clean ターゲットで削除するタイムスタンプファイルのパターンを追加しています。
