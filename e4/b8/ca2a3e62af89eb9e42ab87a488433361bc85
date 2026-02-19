@@ -1,0 +1,1 @@
+bundled gems の gem ファイルをダウンロードするツール tool/fetch-bundled_gems.rb のメッセージの改善。バージョン番号やタグ名のみ表示していたのを gem 名も表記するようにしています。
