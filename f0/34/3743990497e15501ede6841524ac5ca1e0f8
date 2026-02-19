@@ -1,0 +1,1 @@
+common.mk で bundled gems のテスト実行の依存関係に rubyspec の C API テスト用拡張ライブラリが含まれていたのを修正しています。
