@@ -1,0 +1,1 @@
+set.c の set_insert_wb() や set_table_insert_wb() の不要な引数 key_addr を削除しています。 NULL しか渡していないまたは渡しても呼び元で使ってなかったようです。
