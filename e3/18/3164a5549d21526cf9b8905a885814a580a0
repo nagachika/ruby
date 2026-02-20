@@ -1,0 +1,1 @@
+ZJIT で--zjit-trace-exits オプションを付けて実行した時の side-exit でスタックや VM の sp, pc を復旧する処理に問題があって異常終了する可能性があった不具合を修正しています。 https://github.com/ruby/ruby/pull/16195
