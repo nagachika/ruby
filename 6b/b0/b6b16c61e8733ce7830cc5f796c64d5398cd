@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の rdoc 用コメントでない(ドキュメント化の対象から外されている?)コメント内の不要な codeblock の markup を削除しています。 https://github.com/ruby/prism/pull/393
