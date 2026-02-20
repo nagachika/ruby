@@ -1,0 +1,1 @@
+ZJIT で Integer#% メソッドで両辺がリテラルの時に定数畳み込みして結果の定数を直接描き出すようにしています。 https://github.com/ruby/ruby/pull/16168
