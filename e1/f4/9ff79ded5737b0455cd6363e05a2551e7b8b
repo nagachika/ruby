@@ -1,0 +1,1 @@
+String#gsub や String#sub の実装で置換結果に Hash を渡した時の型チェックを強化しています。
