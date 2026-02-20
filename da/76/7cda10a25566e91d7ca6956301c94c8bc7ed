@@ -1,0 +1,1 @@
+vm_trace.c でロジック的にありえないパスに入った時の rb_bug() 呼び出しのメッセージで関数名が間違ってたのを修正しています。 https://github.com/ruby/ruby/pull/16196
