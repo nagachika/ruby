@@ -1,0 +1,1 @@
+prism の prism/prism.h に C++ 向けに extern "C" を追加しています。
