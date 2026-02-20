@@ -1,0 +1,1 @@
+dln.c の dln_load() という関数の内容が dln_load_feature() と完全に一緒だったので単に dln_load_feature() に委譲するように変更しています。
