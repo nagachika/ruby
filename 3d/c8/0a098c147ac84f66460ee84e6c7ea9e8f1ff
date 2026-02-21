@@ -1,0 +1,1 @@
+spec/bundled_gems_spec.rb から不要になった Spec::Rubygems.test_setup の呼び出しを削除しています。
