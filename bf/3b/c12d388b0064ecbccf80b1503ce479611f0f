@@ -1,0 +1,1 @@
+b9dc0a2bb8d08980aa98cf09a6e8615adcd8ffd4 で追加した YJIT のテストを bundler/setup を利用していたのを BUNDLER_SETUP に直接一時ファイルを指定する方法に変更しています。
