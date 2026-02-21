@@ -1,0 +1,1 @@
+make 時の rubyspec の C API テスト用拡張ライブラリのビルドのメッセージを GitHub Actions でグループ化して表示するための対応。
