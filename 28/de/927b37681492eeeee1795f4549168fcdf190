@@ -1,0 +1,1 @@
+doc/maintainers.md と doc/standard_library.md に bundled gems になった win32-registry のエントリを追加しています。これまで拡張ライブラリ win32 の一部という扱いだったので gem としては新規の追加という形になっています。
