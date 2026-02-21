@@ -1,0 +1,1 @@
+IO::Buffer#locked メソッドがブロック内で例外が発生した時にロックを解放していないという致命的な不具合を修正しています。 https://github.com/ruby/ruby/pull/16180 [ruby-core:124833] [Bug #21882]
