@@ -1,0 +1,1 @@
+rubygems の gem environment サブコマンドのヘルプメッセージに concurrent_downloads という設定項目を追加しています。
