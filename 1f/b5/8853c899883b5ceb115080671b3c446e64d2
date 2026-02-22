@@ -1,0 +1,1 @@
+tool/lib/colorize.rb の 2794351c9f1c2b6b65dac1bb6c978971c064b383 のリファクタリングで抽出した定数を private_constant に指定しています。また DEFAULT という元からあった定数も freeze した上で private にしています。
