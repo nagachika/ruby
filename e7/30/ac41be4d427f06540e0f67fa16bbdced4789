@@ -1,0 +1,1 @@
+YJIT の Rust 実装の use-after-free が発生する可能性がある不具合の修正をしています。
