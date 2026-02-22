@@ -1,0 +1,1 @@
+tool/lib/colorize.rb でサポートする色付けに bg_xxx と背景色指定も追加しています。
