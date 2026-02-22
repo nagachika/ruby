@@ -1,0 +1,1 @@
+5c71c8c55bd71cff64e670097e4800d9e3d67ae4 で GC 管理用の bitmap を Variable Width Allocation に対応して 1 slot を 1bit で表現できるようにした影響で不要になったマクロ NUM_IN_PAGE() を削除して bitmap のページ開始位置の計算を単純化しています。
