@@ -1,0 +1,1 @@
+RGenGC の young 世代のオブジェクトを大量に作った時の GC のテストの assertion の条件を緩めています。 [ruby-core:109256] [Bug #18929]
