@@ -1,0 +1,1 @@
+d256629bf9e194838d1837be74dcc0b8ff0bcfd6 の macOS でのリンク時の警告抑制のためのオプション削除を revert しています。 [ruby-core:114345] [Bug #19831]
