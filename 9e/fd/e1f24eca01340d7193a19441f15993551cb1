@@ -1,0 +1,1 @@
+GitHub Actions のドキュメントのカバレッジをチェックする workflow で make html というターゲット実行時に HTMLOUT=html という変数の指定を追加して出力先を明示しています。
