@@ -1,0 +1,1 @@
+GC の default 実装で Valgrind によるデバッグ用に解放した slot を未定義状態として宣言する VALGRIND_MAKE_MEM_UNDEFINED() に Variable Width Allocation の対応が漏れていて最小の slot サイズぶんしかマークしていなかったのを修正しています。またメモリプロファイル用の関数 gc_prof_set_heap_info() でも利用メモリ量の算出に Variable Width Allocation が考慮されていなかった不具合を修正しています。
