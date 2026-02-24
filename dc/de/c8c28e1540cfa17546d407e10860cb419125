@@ -1,0 +1,1 @@
+common.mk の update-man-date というターゲットでコマンドの先頭の "-" を削って man ページの最終更新日のチェックのエラー時に make 自体をエラーで停止するようにして、GitHub Actions の check_misc workflow で make update-man-date を実行するようにしています。
