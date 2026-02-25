@@ -1,0 +1,1 @@
+defs/gmake.mk で git の最新のコミットハッシュを取得する方法を git log の --format を指定する方法から git rev-parse HEAD コマンドを使うように変更しています。
