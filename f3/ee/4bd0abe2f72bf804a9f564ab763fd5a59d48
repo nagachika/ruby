@@ -1,0 +1,1 @@
+ZJIT で定数名のパスを取得する命令の HIR への変換時の冗長な命令を削る最適化? をしているようです。 https://github.com/ruby/ruby/pull/16229
