@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の配列を操作する命令群での receiver の型チェックが不足していて異常終了する可能性があった不具合を修正しているようです。 https://github.com/ruby/ruby/pull/16141
