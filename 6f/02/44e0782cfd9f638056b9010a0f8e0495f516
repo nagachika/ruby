@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR のローカル変数参照のための命令 GetLocal を GetEP と LoadField という2つの命令に分割して最適化しやすくしています。連続してローカル変数を参照する時に EP の取得をまとめることができるようにするためみたいです。 https://github.com/Shopify/ruby/issues/944 https://github.com/ruby/ruby/pull/16215
