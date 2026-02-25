@@ -1,0 +1,1 @@
+GitHub Actions の make fix-depends で依存関係ファイル更新の差分が出ないかのチェックをする workflow で git diff の出力に色をつけるようにしています。
