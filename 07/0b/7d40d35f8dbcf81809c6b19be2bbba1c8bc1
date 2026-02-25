@@ -1,0 +1,1 @@
+ZJIT で Integer#& メソッドの両辺が Fixnum の時に結果の定数を畳み込む最適化を実装しています。 https://github.com/ruby/ruby/pull/16226
