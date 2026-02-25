@@ -1,0 +1,1 @@
+ZJIT で脱最適化のための PatchPoint 命令が冗長に生成される場合があったのを省略する最適化を実装しています。 https://github.com/ruby/ruby/pull/16231
