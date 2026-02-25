@@ -1,0 +1,1 @@
+lib/bundled_gems.rb のテスト spec/bundled_gems_spec.rb でテストに利用する gem のパスを $LOAD_PATH に追加しています。
