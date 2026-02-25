@@ -1,0 +1,1 @@
+ZJIT で Integer#^ メソッドで両辺が Fixnum の範囲の時に畳み込みして結果を直接スタックに載せる最適化を実装しています。 https://github.com/ruby/ruby/pull/16225
