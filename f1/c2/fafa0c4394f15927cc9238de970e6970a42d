@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の GuardXxxx みたいな名前の命令群の副作用のアノテーションも必要以上に強かったので緩めています。これにより最適化で不要な PatchPoint 命令が減る場合があるみたいです。 https://github.com/ruby/ruby/pull/16236
