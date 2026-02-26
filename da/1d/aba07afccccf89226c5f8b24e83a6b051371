@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の CheckInterrupts 命令の副作用のアノテーションも緩和してより最適化が効きやすくなるようにしています。 https://github.com/ruby/ruby/pull/16240
