@@ -1,0 +1,1 @@
+GitHub Actions で make update-man-date を実行して man/ 配下のファイルの更新日のチェックをしていたジョブを削除しています。
