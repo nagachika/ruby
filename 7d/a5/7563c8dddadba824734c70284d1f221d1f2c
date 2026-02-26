@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の IsBitNotEqual と FixnumBitCheck 命令の副作用についてのアノテーションを修正しています。 https://github.com/ruby/ruby/pull/16237
