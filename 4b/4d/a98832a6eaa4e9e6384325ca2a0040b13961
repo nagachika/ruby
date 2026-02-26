@@ -1,0 +1,1 @@
+T_IMEMO をアンカーとした一時メモリ確保の C API の rb_alloc_tmp_buffer_with_count() の第3引数 cnt が使われていなかったのでこの引数をなくした rb_alloc_tmp_buffer() という C API を新設して、rb_alloc_tmp_buffer_with_count() はこの関数に委譲するようにしています。
