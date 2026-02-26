@@ -1,0 +1,1 @@
+prism で CRuby 本体のメモリ管理用の関数群 xmalloc() や xrealloc() などを利用する wrapper を導入して解放時に xfree_sized() でサイズを指定した解放処理を行うようにしています。
