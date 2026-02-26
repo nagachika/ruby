@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の IsBlockParamModified という命令から ep を取得する処理を分離して GetEP 命令とセットで使うようにしています。 GetLocal を分解したのと同様に ep の取得が冗長になっている場合にこれをまとめる最適化ができるようにするための準備のようです。 https://github.com/ruby/ruby/pull/16234
