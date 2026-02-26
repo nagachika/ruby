@@ -1,0 +1,1 @@
+同じく T_IMEMO 型オブジェクトをアンカーとした一時メモリ確保の関数 rb_imemo_tmpbuf_new_from_an_RString() 内の処理を rb_alloc_tmp_buffer() を再利用するようにリファクタリングしています。
