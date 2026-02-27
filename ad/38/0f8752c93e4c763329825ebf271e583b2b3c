@@ -1,0 +1,1 @@
+GitHub Actions の現在時刻を環境変数にセットするための date コマンド実行時の環境変数 TZ にセットする文字列が間違って Tokyo/Asia になってたのを Asia/Tokyo に修正しています。
