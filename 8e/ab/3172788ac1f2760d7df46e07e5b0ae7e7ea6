@@ -1,0 +1,1 @@
+Refinements によるメソッドの callcache のテーブルを T_IMEMO 型オブジェクトの一種から T_TYPEDDATA 型オブジェクトとして定義するように変更しています。
