@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の zstream の読み書きで zstream_run_func() から割り込みで抜けた時に、ちょうどそれ以上読み書きできるバッファがなかった場合にリトライループから抜けるようにチェックを追加しています。 https://github.com/ruby/zlib/pull/121
