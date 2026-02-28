@@ -1,0 +1,1 @@
+parse.y でブロックパラメーターの末尾にカンマを許容するためのパターンを block_param から block_param_def のルールに移動しています。
