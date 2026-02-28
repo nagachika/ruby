@@ -1,0 +1,1 @@
+8eab3172788ac1f2760d7df46e07e5b0ae7e7ea6 の続きで rb_gc_obj_needs_cleanup_p() に struct RBasic::flags のビットフラグの false を返す条件に imemo_callcache の時を追加しています。
