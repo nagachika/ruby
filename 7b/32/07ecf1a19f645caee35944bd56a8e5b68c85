@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 用 workflow で case() 式というのを活用するようにリファクタリングしています。
