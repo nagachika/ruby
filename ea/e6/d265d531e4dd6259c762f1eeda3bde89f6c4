@@ -1,0 +1,1 @@
+GitHub Actions の check_sast workflow で zizmorcore/zizmor というアクションのかわりにより統合された zizmorcore/zizmor-action というアクションを利用するように変更しています。
