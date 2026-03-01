@@ -1,0 +1,1 @@
+GitHub Actions の rubyspec の C API テスト用拡張ライブラリの更新チェックのための workflow で環境変数経由の設定にしたのを revert して zizmor の警告抑制のコメントで対応するようにしています。
