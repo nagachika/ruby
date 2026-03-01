@@ -1,0 +1,1 @@
+ZJIT で Integer#| の両辺が T_FIXNUM の定数の時に結果を直接書き込む畳み込み最適化を行うようにしています。 https://github.com/ruby/ruby/pull/16235
