@@ -1,0 +1,1 @@
+tool/update-NEWS-gemlist.rb での NEWS.md の更新時に手動での追記部分が削除されないようにする対応を追加しています。
