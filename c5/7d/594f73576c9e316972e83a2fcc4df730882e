@@ -1,0 +1,1 @@
+ZJIT で Class や Module のインスタンス変数の参照時のために C の関数を呼ぶかわりに中間表現 HIR の LoadField 命令を再利用して実装する最適化を行っています。ただこれは Ruby::Box 利用時には使えないため Box を作成した時に最適化コードを破棄するようにしているようです。 https://github.com/ruby/ruby/pull/16252
