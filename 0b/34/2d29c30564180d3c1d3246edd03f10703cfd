@@ -1,0 +1,1 @@
+GitHub Actions の codeql-analysis workflow に zizmor というツール? の実行のジョブを追加しています。聞いたことない名前ですが CodeQL の workflow に追加ということはコードの静的チェック系のツールなのでしょうか。
