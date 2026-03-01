@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR からローカル変数を参照する GetLocal が GetEP+LoadField というプリミティブな命令で表現されるようになったので削除してかわりに LoadSP というよりシンプルな命令を追加しています。 https://github.com/ruby/ruby/pull/16242
