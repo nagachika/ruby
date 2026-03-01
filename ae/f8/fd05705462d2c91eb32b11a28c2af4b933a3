@@ -1,0 +1,1 @@
+.github/zizmor.yml というファイルを追加して 0b342d29c30564180d3c1d3246edd03f10703cfd で workflow に追加した zizmor の設定ファイルを追加しています。この感じだと GitHub Actions 自体の設定のチェックのツールって感じでしょうか。
