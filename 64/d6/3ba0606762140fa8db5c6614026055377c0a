@@ -1,0 +1,1 @@
+GitHub Actions の workflows に persist-credentials: false という設定を各所に追加しています。
