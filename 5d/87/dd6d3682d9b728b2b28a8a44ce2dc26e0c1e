@@ -1,0 +1,1 @@
+ZJIT でメソッドの引数に m(**kw) のように Hash を展開してキーワード引数を渡す時の VM 命令 splatkw 命令の最初の対応をしています。 https://github.com/ruby/ruby/pull/16267
