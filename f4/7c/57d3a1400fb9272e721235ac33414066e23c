@@ -1,0 +1,1 @@
+GitHub Actions の独自 action の定義に zizmor の指摘を抑制するためのコメントを追加しています。やはり zizmor とは GitHub Actions の設定をチェックするツールみたいですね。
