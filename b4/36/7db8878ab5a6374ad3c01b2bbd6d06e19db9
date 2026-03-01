@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems の更新用 workflow で tool/update-NEWS-github-releases.rb も実行するようにしています。
