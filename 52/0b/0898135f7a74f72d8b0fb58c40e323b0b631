@@ -1,0 +1,1 @@
+GitHub Actions の codeql-analysis という workflow を check_sast と改名しています。zizmor が同居して CodeQL だけの workflow ではなくなったからですね。
