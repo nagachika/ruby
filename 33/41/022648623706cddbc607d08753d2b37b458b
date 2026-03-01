@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems の更新チェックの workflow で ruby-setup アクションで明示的に 4.0 の ruby を使うようにしています。 tool/update-NEWS-github-release.rb が 4.0 の機能に依存していたのですかね。
