@@ -1,0 +1,1 @@
+GitHub Actions の workflows で利用しているアクション群でタグ名で指定しているものを commit hash での指定とコメントでのバージョン番号の記述に切り替えています。
