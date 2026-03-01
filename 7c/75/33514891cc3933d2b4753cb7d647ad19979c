@@ -1,0 +1,1 @@
+aec4b44d1e339044d917f233be7025eea5aa672d で導入した tool/update-NEWS-github-release.rb を利用して NEWS.md の default gems と bundled gems のバージョンリストを更新しています。
