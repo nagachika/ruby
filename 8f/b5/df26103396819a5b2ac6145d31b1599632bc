@@ -1,0 +1,1 @@
+win32/configure.bat で --prefix= のように明示的に空文字列の prefix 指定をした時のエラー(?)を対策しています。
