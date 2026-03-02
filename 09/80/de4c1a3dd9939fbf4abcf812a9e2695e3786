@@ -1,0 +1,1 @@
+parse.y で new_args_tail() に毎回同じ引数を渡してた部分を new_empty_args_tail() というマクロを定義して wrap するリファクタリング。
