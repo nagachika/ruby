@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトの GitHub Actions の workflow 設定のテンプレートで permissions の設定を追加して、利用するアクションのバージョンも更新しています。最近 GitHub Actions の脆弱な設定を突いた攻撃が流行しているようなので bundle gem で作ったプロジェクトで対策を取っておくようにしているみたいです。
