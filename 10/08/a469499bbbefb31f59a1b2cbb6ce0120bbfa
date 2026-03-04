@@ -1,0 +1,1 @@
+bundler の bundle outdated サブコマンドで表示する gem リストにリリース日も出力するようにしています。
