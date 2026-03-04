@@ -1,0 +1,1 @@
+ENV オブジェクトに fetch_values メソッドを新規追加しています。 Hash#fetch_values と同様に使えるようにしているようですね。 [ruby-core:124198] [Feature #21781]
