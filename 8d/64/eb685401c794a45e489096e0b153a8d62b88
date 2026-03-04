@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で StringIO を freeze しても更新のないメソッドは FrozenError を発生させないようにしています。 571ce8d77968edcae4d908353f68b6d66d483131 のテストに対応する修正みたいですね。
