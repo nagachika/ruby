@@ -1,0 +1,1 @@
+ZJIT で T_TYPEDDATA 型オブジェクトのインスタンス変数の参照時に C の関数を呼び出していたのを中間表現 HIR の LoadField 命令を使って実装する最適化。 https://github.com/ruby/ruby/pull/16259
