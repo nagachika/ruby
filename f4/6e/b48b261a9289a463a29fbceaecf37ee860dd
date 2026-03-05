@@ -1,0 +1,1 @@
+shape_id_t の中に埋め込む Variable Width Allocation のための heap index のためのビットを 2 bit 増やしています。より多くの Variable Width Allocation の slot サイズのバリエーションを持てるようにしているということみたいです。
