@@ -1,0 +1,1 @@
+460566ab854e79ed43afdd0c01b14cbd7501fee6 での prism の誤った構文解析の修正を revert しています。よくわかりませんが結果的に parse.y と同じ解析をしているということ? みたいです。 https://github.com/ruby/prism/pull/3960
