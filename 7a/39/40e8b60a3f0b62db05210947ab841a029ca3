@@ -1,0 +1,1 @@
+parse.y で rb_node_list_new() という関数の内容を rb_node_list_new2() に委譲するようにリファクタリングしています。
