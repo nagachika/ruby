@@ -1,0 +1,1 @@
+a2db2d429f14514c67fcf0523891cd9062dd6a5b の ENV.fetch_values の追加時の実装で変数の型の間違いを修正しています。
