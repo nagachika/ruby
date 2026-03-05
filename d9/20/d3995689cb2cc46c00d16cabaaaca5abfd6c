@@ -1,0 +1,1 @@
+rubygems の一部の rubygems/request だけを直接 require すると必要なクラスがなくて Gem::Request.get_proxy_from_env がエラーになっていたので明示的な require_relative を追加しています。
