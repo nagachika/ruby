@@ -1,0 +1,1 @@
+prism が SyntaxError になるべき記法を通してしまうという不具合の修正。 [ruby-core:123915] [Bug #21713]
