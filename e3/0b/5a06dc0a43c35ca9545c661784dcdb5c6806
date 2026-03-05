@@ -1,0 +1,1 @@
+tool/zjit_diff.rb というツールを追加して ZJIT のベンチマークを実行してその結果を比較して表示するいつもの出力をスクリプト化しています。 https://github.com/ruby/ruby/pull/16160
