@@ -1,0 +1,1 @@
+NEWS に a2db2d429f14514c67fcf0523891cd9062dd6a5b で追加した ENV.fetch_values についてのエントリを追記しています。また ENV.fetch_values のテストも追加しています。 https://github.com/ruby/ruby/pull/16289
