@@ -1,0 +1,1 @@
+構造体 struct rb_callinfo のメンバー flag と argc の型を VALUE から unsigned int に変更して long より int が小さい環境では構造体サイズを小さくしています。
