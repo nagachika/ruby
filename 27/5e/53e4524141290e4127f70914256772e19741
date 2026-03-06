@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.load の :allow_blank オプション指定時に第2引数が文字列でない時の意図しない NoMethodError によるエラーを避けるようにしています。 https://github.com/ruby/json/pull/946
