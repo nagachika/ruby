@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR のオペランドをスキャンする Rust 実装の処理をマクロに切り出してリファクタリングしています。 https://github.com/ruby/ruby/pull/16305
