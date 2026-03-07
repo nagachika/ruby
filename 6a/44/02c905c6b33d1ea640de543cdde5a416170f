@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に Load-Store Forwarding という最適化手法を導入しています。冗長なメモリ読み書きの命令を削除する最適化みたいです。 https://github.com/ruby/ruby/pull/16228
