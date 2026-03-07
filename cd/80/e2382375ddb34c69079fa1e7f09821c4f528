@@ -1,0 +1,1 @@
+拡張ライブラリ json の FBuffer の構造体メンバーや変数の型の修正(unsigned long → size_t)。
