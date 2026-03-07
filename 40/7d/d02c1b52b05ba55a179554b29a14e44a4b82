@@ -1,0 +1,1 @@
+M:N Thread 利用時にメモリ量がとても少ない環境では起動時に Thread へのスタックの割り当てで vm.overcommit_memory=0 に設定された Linux 環境ではメモリ確保できなくてエラーになる場合があったので、mprotect(3) でスタック領域全域を読み書き可能にしていたのを PROP_NONE で初期化しておいて必要になった時点で PROT_READ|PROT_WRITE に変更するようにしています。 [ruby-core:124933] [Bug #21944]
