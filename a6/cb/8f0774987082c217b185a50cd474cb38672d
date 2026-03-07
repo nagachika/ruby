@@ -1,0 +1,1 @@
+configure で C++ コンパイラでの -fdeclspec オプションを試す時に cstdio の include をつけるようにしています。
