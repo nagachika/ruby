@@ -1,0 +1,1 @@
+rubygems のテストで WebAuthn のダミーサーバーを起動するテストが TruffleRuby でよく失敗するみたいなので skip するようにしています。
