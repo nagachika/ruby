@@ -1,0 +1,1 @@
+ZJIT で中間表現 HIR で CheckInterrupts 命令が冗長な場合に削除する最適化を追加しています。 各命令の副作用のアノテーション情報を利用して CheckInterrupts 命令のあとに割り込みが発生する可能性がある命令がなければ続く CheckInterrupts 命令は冗長とわかるので消すようにしているようです。 https://github.com/ruby/ruby/pull/16317
