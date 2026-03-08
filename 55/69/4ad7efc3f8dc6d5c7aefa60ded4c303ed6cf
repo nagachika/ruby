@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の Ripper.lex で and? や or! などの予約語+"?" や "!" の suffix のついたメソッド名の扱いを修正しています。 [ruby-core:124934] [Bug #21945]
