@@ -1,0 +1,1 @@
+common.mk の update-man-date ターゲットで実行するワンライナーで f3e1dfc8f61a7b0f2053d259cf7e037020014470 で追加した tool/lib/vcs.rb の VCS::GIT#author_date メソッドを利用してファイルの最終更新日ではなくコミットの author date を元にするようにしています。
