@@ -1,0 +1,1 @@
+ZJIT で両辺が Fixnum の範囲の Integer#/ と Integer#% メソッドを定数畳み込みする最適化。 https://github.com/ruby/ruby/pull/16168 https://github.com/ruby/ruby/pull/16233
