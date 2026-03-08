@@ -1,0 +1,1 @@
+tool/lib/vcs.rb に VCS::GIT#author_date メソッドを追加して git のコミットの author date を git log から読み取って Time オブジェクトにして返すようにしています。
