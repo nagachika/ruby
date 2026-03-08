@@ -1,0 +1,1 @@
+GitHub Actions の check_misc workflow で再度 man ページの最終更新日の記述を自動更新するジョブを追加しています。
