@@ -1,0 +1,1 @@
+6a92781ff6b4a4338aaf26cf79fbf9f0f20dc382 の続きで rubygems の Gem::YAMLSerializer で Psych の例外クラスと同名の例外クラスを定義する時に一部 initialize メソッドを独自定義していたのをやめています。
