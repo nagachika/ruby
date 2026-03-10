@@ -1,0 +1,1 @@
+bundler のテストで rubygems の use_psych 設定を考慮して assertion を変更しています。
