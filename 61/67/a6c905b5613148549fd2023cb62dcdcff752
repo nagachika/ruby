@@ -1,0 +1,1 @@
+rubygems でもう一カ所設定に応じて Psych のかわりに Gem::YAMLSerializer を使うように対応しています。
