@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer の Psych との互換性を高めるためのテスト追加。
