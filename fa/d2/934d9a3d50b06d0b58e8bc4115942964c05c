@@ -1,0 +1,1 @@
+rubygems のテストに Gem::YAMLSerializer のテストを追加しています。
