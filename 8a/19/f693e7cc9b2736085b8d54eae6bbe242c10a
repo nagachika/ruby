@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で @lines の配列に nil が格納されていた時のエラー回避。
