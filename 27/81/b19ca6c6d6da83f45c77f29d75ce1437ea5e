@@ -1,0 +1,1 @@
+rubygems のテストのヘルパーで Psych のかわりに YAMLSerializer を利用するようにしています。
