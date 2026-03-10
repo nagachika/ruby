@@ -1,0 +1,1 @@
+rubygems の Gem::SafeYAML の Gem::SafeYAML.unsafe_load は load と同一なので削除して常に load を使うようにしています。
