@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で Time オブジェクトを生成する時に標準添付ライブラリ time の Time.parse を使わずに正規表現で parse するようにしています。
