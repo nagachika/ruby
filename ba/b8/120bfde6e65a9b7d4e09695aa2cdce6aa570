@@ -1,0 +1,1 @@
+random.c の rand_init_default() で rb_random_t::default_seed_bits が 0 の時に不要なメモリ確保を避けるようにしています。
