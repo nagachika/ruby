@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout で non-blocking Fiber のための Scheduler を利用している時に Scheduler のフックを呼べていなくてうまくタイムアウトできていなかった不具合を修正しています。 https://github.com/socketry/async/issues/448 https://github.com/ruby/timeout/pull/97 [ruby-core:124950] [Bug #21947]
