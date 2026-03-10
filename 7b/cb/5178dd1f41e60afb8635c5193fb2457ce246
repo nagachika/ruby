@@ -1,0 +1,1 @@
+random.c の rb_memhash() で 32 bit プラットフォームで sip_uint64_t の上位ビットを捨ててしまっていたのを修正しています。
