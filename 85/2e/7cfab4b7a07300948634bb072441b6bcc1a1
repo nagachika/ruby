@@ -1,0 +1,1 @@
+2c9e4befbf014b3eff2e281aeb276fcf780055ca で導入した rubygems の psych 依存の設定をみて Psych を使うか Gem::YAMLSerializer を使うかを切り替えるようにしています。なるほど Gem::YAMLSerializer は fallback として使っていたけど本格的に代替するようにするための強化だったんですね。
