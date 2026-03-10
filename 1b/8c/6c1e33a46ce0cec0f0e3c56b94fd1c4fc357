@@ -1,0 +1,1 @@
+numeric.c の int_accurate_in_double() にて警告抑制のため明示的なキャストを追加しています。
