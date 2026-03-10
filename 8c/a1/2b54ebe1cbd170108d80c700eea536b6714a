@@ -1,0 +1,1 @@
+M:N Thread が OpenBSD の環境ではマシンスタックとして使う領域に MAP_STACK フラグを立てるために mprotect(2) ではなく mmap(2) を使うようにしています。
