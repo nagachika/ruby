@@ -1,0 +1,1 @@
+Gem::YamlSerializer の実装を内部クラスに分割するリファクタリング。
