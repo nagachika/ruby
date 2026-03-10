@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で例外クラスをエミュレートしてたのを require "psych/exception" を読み込んでオリジナルの例外クラスが使えるならそれを使うようにしています。 LoadError 発生時には同名の例外を定義しています。
