@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer の対応するクラスに YAML::PrivateType を追加しています。
