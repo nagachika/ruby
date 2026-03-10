@@ -1,0 +1,1 @@
+rubygems のパッケージ内の checksums.yaml.gz を出力する時に使う YAML ダンプも設定に応じて Gem::YAMLSerializer を利用するようにしています。
