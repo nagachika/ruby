@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で Psych 利用時の例外クラスを導入して発生させる例外もエミュレートするようにしています。
