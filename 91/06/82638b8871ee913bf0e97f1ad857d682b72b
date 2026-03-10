@@ -1,0 +1,1 @@
+rubygems の組み込みの Gem::YAMLSerializer の実装を強化してより広範なオブジェクトに対応するようにしています。
