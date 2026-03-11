@@ -1,0 +1,1 @@
+オブジェクトの確保時に Variable Width Allocation により slot サイズの異なる heap のどこに割り当てるのかを計算する処理をビット演算で計算していたのをテーブルルックアップを使うようにして最適化しています。またこれにより GC::INTERNAL_CONSTANTS から :BASE_SLOT_SIZE のエントリが削除されています。
