@@ -1,0 +1,1 @@
+208b173c258508057a3914b816bb69679da33fbf の続きで GC の default 実装で heap 内のインデックスを byte 単位から 8 bytes 単位で計算することで size_to_heap_idx テーブルを小さくしています。
