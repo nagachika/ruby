@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer の rdoc_options 項目の不要になってた? 変換処理を削っています。
