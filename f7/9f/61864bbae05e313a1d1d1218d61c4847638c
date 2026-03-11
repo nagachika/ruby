@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で最大の Array/Hash のネストレベルを設けています。循環参照による無限ループを避けるためですね。
