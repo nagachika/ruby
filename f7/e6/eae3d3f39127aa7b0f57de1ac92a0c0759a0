@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で空文字列が渡された時に空 Hash ではなく nil を返すように互換性のため? 変更しています。また文字列でなく nil が渡されたら TypeError を発生させるようにしています。
