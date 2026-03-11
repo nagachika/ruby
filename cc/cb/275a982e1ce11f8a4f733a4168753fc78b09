@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer 内で Hash の "requirement" というキーの内容を Gem::Requirement として変換? やチェックをしていた特別処理を削っています。
