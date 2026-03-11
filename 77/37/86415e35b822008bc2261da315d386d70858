@@ -1,0 +1,1 @@
+bundler のテストで設定項目をセットする時に bundle config の set の指定が漏れていたのを修正しています。
