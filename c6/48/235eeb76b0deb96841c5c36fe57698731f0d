@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で platform の変換処理で不正な値に対するエラー処理を追加しています。
