@@ -1,0 +1,1 @@
+bundler で nil の考慮不足により NoMethodError が発生する可能性があった不具合を修正しています。
