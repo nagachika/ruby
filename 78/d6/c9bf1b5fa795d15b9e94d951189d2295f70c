@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境の workflow で ae3ad5e13d8e4a2532c69f251b92a7deb2a53268 で sort コマンドの実行に coreutils コマンドを経由させてましたが、これも Windows の標準の sort.exe を実行してしまう? みたいで、これは大文字小文字を区別しないため意図した結果にならないので、coreutils パッケージでインストールされる? comm.exe のパスを探してそこにある sort.exe を実行するように PATH を調節するということをして目的の sort コマンドを起動できるようにしています。
