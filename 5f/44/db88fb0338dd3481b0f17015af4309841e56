@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer の Gem::Platform の構築処理の冗長な(もう使われていないフィールドを参照していた?)処理を削っています。
