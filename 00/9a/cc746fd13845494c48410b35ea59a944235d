@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer に Gem::Specification オブジェクトの対応を追加して、知らないクラス名が来た時に例外を発生させるようにしています。
