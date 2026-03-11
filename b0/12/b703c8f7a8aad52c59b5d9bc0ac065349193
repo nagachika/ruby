@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#skip_until のドキュメントの修正。 https://github.com/ruby/strscan/pull/196
