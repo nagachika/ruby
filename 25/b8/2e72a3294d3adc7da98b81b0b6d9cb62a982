@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer に YAML 1.2 の互換性のための変更を加えています。
