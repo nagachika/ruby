@@ -1,0 +1,1 @@
+prism の Prism::ParseResult#continuable? メソッドの実装を C に移植しているようです。
