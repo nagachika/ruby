@@ -1,0 +1,1 @@
+同様に rubygems の Gem::YAMLSerializer で requirements の項目の不要な変換も削除しています。
