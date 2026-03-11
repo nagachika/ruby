@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer のテストで  Gem.use_psych? をみて Psych に fallback するヘルパーメソッドを導入して skip していたテストを実行するようにしています。
