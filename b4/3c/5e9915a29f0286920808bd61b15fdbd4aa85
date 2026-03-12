@@ -1,0 +1,1 @@
+bundler の bundler/inline で Process.fork がサポートされている環境(Windows 以外?)では子プロセスを生成してそこで Bundler::Installer.install を実行するようにしています。 default gems の添付版のバージョンと異なるバージョンに依存している時? の警告の抑制のためとのこと。
