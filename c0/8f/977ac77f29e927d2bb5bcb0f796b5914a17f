@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に StringEqual という命令を追加して String#== の結果が自明の時に定数畳み込みする最適化を実装しています。これ畳み込みされるケースってそんなにあるんだろうか? https://github.com/ruby/ruby/pull/16106
