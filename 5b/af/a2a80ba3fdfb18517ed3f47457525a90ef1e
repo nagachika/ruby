@@ -1,0 +1,1 @@
+doc/maintainers.md の pathname を標準添付ライブラリから組込みに変更し、また set.c のメンテナを追記しています。
