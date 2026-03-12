@@ -1,0 +1,1 @@
+bundler の bundler/inline の後始末処理の徹底。古い ruby でのエラー対策みたいです。
