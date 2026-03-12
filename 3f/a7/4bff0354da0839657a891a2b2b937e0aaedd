@@ -1,0 +1,1 @@
+ZJIT で JIT コンパイルされたメソッド毎のカウンタのインクリメントが常に行なわれてたので --zjit-stats が指定された時(?)だけ命令を作るように修正しています。 https://github.com/ruby/ruby/pull/16330
