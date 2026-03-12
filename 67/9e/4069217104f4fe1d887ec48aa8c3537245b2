@@ -1,0 +1,1 @@
+detault gems や bundled gems の require 時の警告のための lib/bundled_gems.rb で bundled gems と同名のパスでネストした feature 名を持つ別の gem からの require の時の警告を抑制するための対応。 [ruby-core:124443] [Bug #21828]
