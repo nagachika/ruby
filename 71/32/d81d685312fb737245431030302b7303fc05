@@ -1,0 +1,1 @@
+bundler の bundler/inline で Gem::Specification.reset や Bundler のインスタンス変数 @bundle_path のリセットなどの後始末を追加しています。
