@@ -1,0 +1,1 @@
+tool/outdate-bundled-gems.rb というツールで不要になった bundled gems を削除する処理で誤って default gems のインストール先の? .gemspec ファイルを削除してしまうことがあったみたいで保護するための目印のコメントを追加するようにしています。
