@@ -1,0 +1,1 @@
+rubygems の Gem::SafeYAML.load を単に safe_load への alias として定義しなおしています。
