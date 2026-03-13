@@ -1,0 +1,1 @@
+rubygems で Gem::SafeYAML.load を利用していたところを明示的に Gem::SafeYAML.safe_load を呼ぶように変更しています。
