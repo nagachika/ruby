@@ -1,0 +1,1 @@
+thread_pthread.c の ubf_clear() という関数において rb_thread_t::unblock::func をクリアする処理で rb_thread_t::interrupt_lock のロックを取得するのを func が既に NULL だったらロック取得しないという最適化をしていましたが、これにより race condition が発生し interrupt_lock の取り合いでデッドロックが発生する可能性があったので、 func が NULL でも常にロック取得するようにしました。
