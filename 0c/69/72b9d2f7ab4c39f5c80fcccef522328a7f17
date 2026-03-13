@@ -1,0 +1,1 @@
+rubygems の Gem::SafeYAML.load で psych 利用時に常に safe_load を使うように修正しています。
