@@ -1,0 +1,1 @@
+rubygems の設定項目 install_extension_in_lib のデフォルト値を true に戻しています。
