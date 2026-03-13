@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer の Psych 互換性のため !binary というタグへの対応を実装しています。
