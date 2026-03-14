@@ -1,0 +1,1 @@
+ZJIT のテストやデバッグのために RubyVM::ZJIT.induce_compile_failure! というメソッドを追加して意図的に ZJIT の side exit を引き起こす命令を挿入するようにしています。
