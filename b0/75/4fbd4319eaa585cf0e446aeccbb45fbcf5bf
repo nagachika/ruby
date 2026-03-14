@@ -1,0 +1,1 @@
+ZJIT で中間表現 HIR の生成時に型プロファイルに依存した分岐の最適化をしているようです。 https://github.com/ruby/ruby/pull/16335
