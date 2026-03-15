@@ -1,0 +1,1 @@
+macOS での標準ライブラリの memmem(3) が遅いとのことで re.c で memmem(3) を利用する rb_memsearch_ss() という関数の実装を __APPLE__ マクロが定義されている時は使わないように preprocessor 分岐の条件を追加しています。
