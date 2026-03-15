@@ -1,0 +1,1 @@
+prism の pm_string_constant_init() という関数を export しています。 JIT の Rust 実装から使うため。
