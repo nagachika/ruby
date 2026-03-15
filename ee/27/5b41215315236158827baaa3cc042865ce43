@@ -1,0 +1,1 @@
+.gitignore に a70dbe1065f58a23a85e576d19e3434e6dd4bb64 で追加した tool/dump_ast.c をコンパイルして作ったツール dump_ast を無視するようにしています。
