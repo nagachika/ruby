@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装版で ruby を ISeq にコンパイルしてヘッダとして埋め込む処理を行う tool/mk_builtin_loader.rb で ripper を利用していたのを tool/dump_ast.c という C 実装のツールを追加して prism で parse して AST を JSON でダンプしたものを利用するように書き換えています。 tool/ に C 実装のツールを作るというのははじめてみたかも。チケット参照がなかったですが検索したらたぶんこれですね。 https://github.com/ruby/ruby/pull/10005 [ruby-core:116589] [Misc #20238]
