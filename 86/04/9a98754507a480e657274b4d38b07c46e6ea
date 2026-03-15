@@ -1,0 +1,1 @@
+prism の pm_line_offset_list_line_column() という関数も export するようにしています。コミットログをみるとなにか upstream の他の変更の一部という感じですけど。
