@@ -1,0 +1,1 @@
+finalizer のテストで assert_ractor を使ったテストのタイムアウトを伸ばしています。
