@@ -1,0 +1,1 @@
+rubygems および bundler のテストでの coverage 取得ですがこれは upstream でのテストのための機能追加みたいで ruby リポジトリ内でのテスト時には有効にならないようにわざと LoadError を raise するようにしています。
