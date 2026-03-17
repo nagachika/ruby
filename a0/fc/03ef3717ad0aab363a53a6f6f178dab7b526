@@ -1,0 +1,1 @@
+34e34d8f6b47dec7a6db748d5713920a2027bf6f の再修正。 bundler のテストで ruby 本体のリポジトリかどうか判定するために捜す bundler.gemspec のパスを修正しています。
