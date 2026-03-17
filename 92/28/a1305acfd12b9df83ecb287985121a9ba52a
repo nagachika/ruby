@@ -1,0 +1,1 @@
+標準添付ライブラリ uri で URI.join メソッド内で利用する URI parser を URI::DEFAULT_PARSER としていたのを設定によって切り替えする URI::PARSER を参照するように変更しています。
