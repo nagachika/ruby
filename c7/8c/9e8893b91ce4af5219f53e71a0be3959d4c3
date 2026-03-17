@@ -1,0 +1,1 @@
+bundler のテストでも simplecov.gem が利用できる時は coverage を取得するようにしているようです。
