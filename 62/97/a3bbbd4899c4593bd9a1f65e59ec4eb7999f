@@ -1,0 +1,1 @@
+README.EXT/README.EXT.ja は doc/extension.{ja.}rdoc に移動して移動先のみ書かれてる状態だったので削除。 doc/forwardable.rd.ja や doc/yarvarch.{en,ja} などの古いドキュメントは削除などドキュメントの整理をしています。 https://github.com/ruby/ruby/pull/16393
