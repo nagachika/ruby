@@ -1,0 +1,1 @@
+rubygems のテストで環境変数の設定に依存していたテストで GEM_HOME, GEM_PATH を上書きして Gem.use_paths を呼ぶように前処理と後始末を追加しています。
