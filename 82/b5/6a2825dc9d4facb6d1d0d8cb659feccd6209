@@ -1,0 +1,1 @@
+Enumerator::Lazy#tee メソッドを追加しています。 Object#tap に似たようなもので最終的に評価される時にブロックに要素を渡して呼び出しつつ Enumerator::Lazy を返すというパイプラインの途中にブロックを差し込めるメソッドです。 each メソッドでそれできないんだっけ? と思ったのですが Enumerator::Lazy#each は最後まで評価を続けてしまうんでしたね(なので無限リスト的な Lazy に each を呼ぶと止まらない)。 [ruby-core:122847] [Feature #21520]
