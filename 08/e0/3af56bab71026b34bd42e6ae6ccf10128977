@@ -1,0 +1,1 @@
+同じく構造体 rb_vm_t のメンバー overloaded_cme_table もポインタから直接 struct rb_id_table 構造体を埋め込むようにしています。
