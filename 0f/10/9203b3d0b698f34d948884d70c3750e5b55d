@@ -1,0 +1,1 @@
+構造体 struct rb_ractor_pub の targeted_hooks メンバーを st_table へのポインタにしていたのを st_table 自体を埋め込むようにしています。
