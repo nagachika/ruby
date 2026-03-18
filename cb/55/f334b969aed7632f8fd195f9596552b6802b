@@ -1,0 +1,1 @@
+構造体 struct rb_id_table の定義をヘッダファイル id_table.h に移動して他のソースファイルから参照できるようにしています。 ZJIT の binding も追加しているので ZJIT で使う予定なのかな。
