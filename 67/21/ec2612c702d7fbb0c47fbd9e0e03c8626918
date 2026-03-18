@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で T_TYPEDDATA 型オブジェクトを dump する時にヒープ上のメモリへの参照があるかどうか? のフラグ free_immediately のダンプを追加しています。
