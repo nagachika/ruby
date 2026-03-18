@@ -1,0 +1,1 @@
+Fiber の終了後にマシンスタック用のメモリ領域が解放されないケースがあった不具合を修正しています。 https://github.com/ruby/ruby/pull/16416 [ruby-core:125045] [Bug #21955]
