@@ -1,0 +1,1 @@
+rubyspec の gem owner のテストで master ブランチの ruby では通らなくなってたものを ruby_version_is で guard を追加しています。
