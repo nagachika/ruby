@@ -1,0 +1,1 @@
+ZJIT に bbf00cea2550024b2c8aab7f8c82fd1d62e1776f で追加した中間表現 HIR の命令 BreakPoint を ruby レベルで明示的に追加するためのメソッド RubyVM::ZJIT.induce_breakpoint! を追加しています。いちいち HIR の生成を変更しなくてもスクリプトから breakpoint を生成できるようにしています。
