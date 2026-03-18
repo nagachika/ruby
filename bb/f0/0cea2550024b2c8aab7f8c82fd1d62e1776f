@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR にデバッガ用の BearkPoint という命令を追加しています。元々 assembler に breakpoint を出力する機能はあったようで、中間表現 HIR で明示的に差し込むことができるようにしたみたいです。ZJIT 自体の開発時に BreakPoint 命令を生成するようにしてデバッグするという用途で通常の JIT で生成するわけではなさそうです。 https://github.com/ruby/ruby/pull/16390
