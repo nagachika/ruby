@@ -1,0 +1,1 @@
+rb_estimate_iv_count() という関数内で struct rb_id_table を rb_id_table_create() でヒープからメモリ確保していたのをやめてマシンスタック上に struct rb_id_table を配置して初期化して利用するようにしています。
