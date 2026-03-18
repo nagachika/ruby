@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer でとても古い gem の gemspec ファイルで余分な項目が存在して? 処理できないケースがあったのを修正しています。
