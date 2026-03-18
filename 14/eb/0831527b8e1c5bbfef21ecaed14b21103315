@@ -1,0 +1,1 @@
+rb_gccct_clear_table() という global callcache のテーブルをリセットする関数で MEMZERO() を利用して一括でメモリクリアする最適化。
