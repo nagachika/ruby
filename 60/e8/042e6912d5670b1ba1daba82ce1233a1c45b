@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer の psych との互換性を高めるための修正。
