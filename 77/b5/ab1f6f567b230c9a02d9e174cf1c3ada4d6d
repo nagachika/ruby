@@ -1,0 +1,1 @@
+ZJIT のオプション  --zjit-dump-asm や  --zjit-dump-disasm でダンプ結果をディレクトリ指定して process id を含むファイル名で出力するようにしています。
