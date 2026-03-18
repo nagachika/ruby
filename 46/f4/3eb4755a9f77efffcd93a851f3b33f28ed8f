@@ -1,0 +1,1 @@
+GitHub Actions のリリース作業に関する workflow で別の GitHub Actions の workflow を起動して docker image をビルドさせる時のコマンドラインを修正して repository_dispatch というイベントで workflow を起動する? ようにしています。
