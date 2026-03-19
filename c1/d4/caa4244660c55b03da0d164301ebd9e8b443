@@ -1,0 +1,1 @@
+bundler のテストで git の設定ファイルパスを変更するため環境変数 GIT_CONFIG_GLOBAL と GIT_CONFIG_NOSYSTEM を指定しています。
