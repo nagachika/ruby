@@ -1,0 +1,1 @@
+pull request に自動でコメントをつける tool/auto_review_pr.rb で ruby/ruby リポジトリ内にブランチを作って pull request を作ると canonical な git リポジトリとの同期に支障がある? みたいで fork したリポジトリから pull request を作るようにコメントを付けるようにしています。 https://github.com/ruby/ruby/pull/16446
