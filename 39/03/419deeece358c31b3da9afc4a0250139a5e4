@@ -1,0 +1,1 @@
+82b56a2825dc9d4facb6d1d0d8cb659feccd6209 で追加した Enumerator::Lazy#tee メソッドを #tap_each メソッドに改名しています。たしかにこちらのほうが類推はしやすそうですね。 [ruby-core:122847] [Feature #21520]
