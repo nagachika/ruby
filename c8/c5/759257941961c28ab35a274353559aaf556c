@@ -1,0 +1,1 @@
+rubygems の gem source の URL normalize の処理を再修正。共通処理をメソッドに切り出すリファクタリング。
