@@ -1,0 +1,1 @@
+bundler で git のバージョンを Bundler::Source::Git::GitProxy のインスタンス毎にキャッシュしていたのをクラス単位で(つまりプロセス全体で)共有するようにしています。
