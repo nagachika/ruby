@@ -1,0 +1,1 @@
+prism の更新に追随して pm_eval_make_iseq() から呼ぶ pm_constant_pool_insert_constant() の引数追加に対応しています。
