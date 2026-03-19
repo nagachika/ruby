@@ -1,0 +1,1 @@
+Thread::ConditionVarible のテストでタイミング合わせのために sleep を使っていたのが不確実なので条件が満たされるまで Thread.pass する busy loop で待つように修正しています。 https://github.com/ruby/ruby/pull/16442
