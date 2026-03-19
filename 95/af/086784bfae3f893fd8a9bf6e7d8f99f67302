@@ -1,0 +1,1 @@
+ZJIT で String#!= を HIR で直接実装するインライン化の最適化を実装しています。 https://github.com/ruby/ruby/pull/16391
