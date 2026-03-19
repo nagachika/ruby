@@ -1,0 +1,1 @@
+GitHub Actions の pull request の自動コメント付与のための workflow で workflow_dispatch で手動で pull requeest の ID を指定して起動もできるようにしています。
