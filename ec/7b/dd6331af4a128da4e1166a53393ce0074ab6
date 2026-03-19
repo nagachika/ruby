@@ -1,0 +1,1 @@
+rubygems の gem source で URL の冗長な "/" を削るようにしています。
