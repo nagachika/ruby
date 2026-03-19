@@ -1,0 +1,1 @@
+bundler のテストのヘルパーに with_simulated_platform というメソッドを追加して RbConfig::CONFIG の arch や host_os をすりかえて Platform を偽装してテスト実行できるようにしています。
