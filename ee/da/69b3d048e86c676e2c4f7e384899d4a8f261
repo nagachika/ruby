@@ -1,0 +1,1 @@
+bundler の gem ダウンロード? のリトライに exponential backoff によるインターバルの調節を追加しています。
