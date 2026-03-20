@@ -1,0 +1,1 @@
+bundler のテストで simplecov による coverage の標準出力への出力を抑制するようにしています。
