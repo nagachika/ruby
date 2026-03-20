@@ -1,0 +1,1 @@
+bundler が Gemfile.lock の CHECKSUMS セクションに bundler 自身のチェックサムも格納する機能を追加しています。
