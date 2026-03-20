@@ -1,0 +1,1 @@
+zjit/zjit.mk で libminiruby.a をリンクする時に既存のファイルがあったら消すようにしています。ar コマンドは古いファイルが残っていると上書きせずに追記しようとしておかしなことになる可能性があったみたいです。 https://github.com/ruby/ruby/pull/16439
