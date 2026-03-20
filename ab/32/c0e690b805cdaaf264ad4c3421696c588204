@@ -1,0 +1,1 @@
+複数 Ractor 利用時に他の Ractor からクラス変数のアクセスが Ractor::IsolationError でエラーになっていたのを修正? 仕様変更? しています。代入(変更)はできないけど参照するだけならできるようにしているようです。 https://github.com/ruby/ruby/pull/16308 [ruby-core:124924] [Feature #21942]
