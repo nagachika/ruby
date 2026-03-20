@@ -1,0 +1,1 @@
+35b9f9dcaa69f756b3aa97821020231333bed48d の変更により不要になった ZJIT 用の関数 rb_zjit_writebarrier_check_immediate() を削除しています。
