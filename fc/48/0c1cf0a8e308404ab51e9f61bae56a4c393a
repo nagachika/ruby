@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT をテストする workflow で環境変数 SYNTAX_SUGGEST_TIMEOUT で指定するタイムアウトを伸ばしています。 https://github.com/ruby/ruby/pull/16443
