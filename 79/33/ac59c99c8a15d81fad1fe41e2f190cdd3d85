@@ -1,0 +1,1 @@
+tool/mk_builtin_loader.rb で dump_ast ツールがないと黙って exit していたのを消してエラーが発生するようにしています。
