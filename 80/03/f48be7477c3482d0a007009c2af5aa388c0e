@@ -1,0 +1,1 @@
+misc/yjit_perf.py を ZJIT でも利用できるようにして misc/jit_perf.py と改名しています。
