@@ -1,0 +1,1 @@
+YJIT の  --yjit-perf=codegen オプションのプロファイル情報を処理する misc/yjit_perf.py という スクリプトでデータフォーマットの変更に対応しているようです。
