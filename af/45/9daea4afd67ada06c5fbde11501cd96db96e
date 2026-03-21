@@ -1,0 +1,1 @@
+ZJIT の TracePoint 利用時に JIT コンパイル自体をあきらめるという方法をコンパイルはして side-exit でメソッド呼び出し時に JIT コードから VM での実行に escape するようにしています。side-exit の理由のカウントするのと共に TracePoint の TAG_RETURN イベントの扱いを正確にする? という意味もあるみたいです。
