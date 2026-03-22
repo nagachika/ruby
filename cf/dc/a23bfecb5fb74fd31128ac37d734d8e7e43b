@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile_file メソッドで利用する parser が本体の設定が反映されず常に parse.y になっていたので揃えるようにしています。
