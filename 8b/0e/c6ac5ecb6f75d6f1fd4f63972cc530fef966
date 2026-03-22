@@ -1,0 +1,1 @@
+doc/strscan/.document を追加して helper_methods.md というファイルをドキュメント対象に追加していますが、strscan.md とか methods/ 配下の各メソッド用のファイルは含めなくてもいいのかな? https://github.com/ruby/strscan/pull/199
