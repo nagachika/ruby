@@ -1,0 +1,1 @@
+Process.fork 時に Thread の内部的なロックのための変数 rb_internal_thread_event_hooks_rw_lock の再初期化を行うようにしています。 [ruby-core:125078] [Bug #21959]
