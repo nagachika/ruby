@@ -1,0 +1,1 @@
+tool/make-snapshot で ruby 実装の組み込みメソッドのコンパイルのためのツール dump_ast の事前のビルドのステップへの対応を追加しています。 https://github.com/ruby/ruby/pull/16482
