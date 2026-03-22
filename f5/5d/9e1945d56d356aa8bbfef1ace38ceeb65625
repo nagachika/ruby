@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の ArrayMax 命令の JIT コンパイル対応を追加して C 実装の関数を呼び出すようにしています。この命令はこれまでまだ JIT 対応できていなかったようです。 https://github.com/ruby/ruby/pull/16411
