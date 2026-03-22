@@ -1,0 +1,1 @@
+ZJIT で T_FIXNUM な Integer を C の整数に変換する処理(unboxing)を JIT コンパイル時に解決しておくように最適化しています。 https://github.com/ruby/ruby/pull/16484
