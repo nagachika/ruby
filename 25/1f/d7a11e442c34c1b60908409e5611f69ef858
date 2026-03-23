@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の GuardGreaterEq 命令で比較する両方の値が定数の場合にコンパイル時点で結果がわかるので不要なコード生成を抑制するように最適化しています。 https://github.com/ruby/ruby/pull/16487
