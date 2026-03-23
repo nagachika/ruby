@@ -1,0 +1,1 @@
+prism の JRuby/TruffleRuby 向けの環境変数 PRISM_JAVA_BACKEND 省略時のデフォルト値を "default" にしています。
