@@ -1,0 +1,1 @@
+prism の JRuby 向けの識別子の型の定義を java.lang.String から byte[] に変更しています。
