@@ -1,0 +1,1 @@
+.git-blame-ignore-revs に直近の bundler の誤った削除のコミットを追加して git blame に無視させるようにしています。
