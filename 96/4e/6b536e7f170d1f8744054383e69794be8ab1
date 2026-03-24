@@ -1,0 +1,1 @@
+bundler のテストでruby 3.3 でかつ Windows 環境で ruby 本体が異常終了で失敗してしまうテストがあるみたいで skip しています。
