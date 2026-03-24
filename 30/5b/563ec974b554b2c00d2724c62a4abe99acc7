@@ -1,0 +1,1 @@
+T_TYPEDDATA 型オブジェクトの rb_data_type_t::flags に設定するビットフラグ用の定数 RUBY_TYPED_EMBEDDABLE について定数マクロを追加して doc/extension.rdoc にドキュメントを追記しています。 [ruby-core:124635] [Feature #21853]
