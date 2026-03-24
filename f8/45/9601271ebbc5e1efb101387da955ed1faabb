@@ -1,0 +1,1 @@
+doc/.document に strscan を追加しています。この指定があったら doc/strscan/.document で指定したファイル以外もドキュメント化されるのかな?
