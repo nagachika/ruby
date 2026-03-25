@@ -1,0 +1,1 @@
+ZJIT の Rust 実装でビルド時に関数などの symbol の重複でエラーになっていたのを解決しているようです。 https://github.com/ruby/ruby/pull/16479
