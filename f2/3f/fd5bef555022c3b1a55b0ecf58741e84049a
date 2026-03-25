@@ -1,0 +1,1 @@
+拡張ライブラリ json で 305b563ec974b554b2c00d2724c62a4abe99acc7 [Feature #21853] で対応した T_TYPEDDATA の rb_data_type_t::flags のフラグ RUBY_TYPED_EMBEDDABLE のマクロを公開した変更を利用して json の内部的な JSON/Generator/State オブジェクトにこのフラグを利用して Variable Width Allocation で拡張された slot 内に値を埋め込むようにしています。
