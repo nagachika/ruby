@@ -1,0 +1,1 @@
+f23ffd5bef555022c3b1a55b0ecf58741e84049a および 2a3a651840679ec1927a055021d9682a68d3be4f の拡張ライブラリ json での RUBY_TYPED_EMBEDDABLE フラグの利用を revert しています。
