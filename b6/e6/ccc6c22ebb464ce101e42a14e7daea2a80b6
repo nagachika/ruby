@@ -1,0 +1,1 @@
+Struct の一種の Data.define で定義したクラスの initialize メソッドで Hash を渡した時にキーが Integer なのはやっぱりエラーにするようにしています。 [ruby-core:124594] [Bug #21844]
