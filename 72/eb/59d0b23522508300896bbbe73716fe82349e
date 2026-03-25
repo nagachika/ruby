@@ -1,0 +1,1 @@
+正規表現のマッチ結果の MatchData に MatchData#integer_at というメソッドを新規追加して引数のインデックスで指定したグループ(0 の時はマッチした全体)の数字列を整数として parse した結果の Integer を返すようにしています。 [ruby-core:124905] [Feature #21932]
