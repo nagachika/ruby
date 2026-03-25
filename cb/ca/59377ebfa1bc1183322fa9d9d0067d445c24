@@ -1,0 +1,1 @@
+b6e6ccc6c22ebb464ce101e42a14e7daea2a80b6 で修正した spec/ruby のテストのエラーメッセージチェックを再修正しています。 [ruby-core:124594] [Bug #21844]
