@@ -1,0 +1,1 @@
+Ractor 間のオブジェクトの受け渡し時に ubf_ractor_wait() で race condition がありえて不正なメモリ参照をする可能性があった不具合を修正しています。 構造体 struct rb_unblock_callback に event_serial という通し番号のメンバーを追加して atomic な操作でインクリメントすることで ubf_ractor_wait() で意図した wakeup か判定するようにしています。
