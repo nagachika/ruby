@@ -1,0 +1,1 @@
+ZJIT の --zjit-perf オプションに引数を追加して --zjit-perf=hir を指定すると中間表現 HIR の種類ごと? のプロファイルを出力できるようにしているようです。 https://github.com/ruby/ruby/pull/16501
