@@ -1,0 +1,1 @@
+拡張ライブラリ json で [Feature #21853] で導入された RUBY_TYPED_EMBEDDABLE フラグを使ってオブジェクトの slot にデータを埋め込む f23ffd5bef555022c3b1a55b0ecf58741e84049a の変更のリトライ。
