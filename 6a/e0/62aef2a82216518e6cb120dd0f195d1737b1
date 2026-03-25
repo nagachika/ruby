@@ -1,0 +1,1 @@
+gems/bundled_gems で rdoc のテストに利用する commit hash の指定を追加しています。またこれと関係あるのかわかりませんが lib/bundled_gems.rb でも rodc 用コメントの :stopdoc: と :startdoc: のタグを利用するのをやめて :nodoc: に置き換えています。 https://github.com/ruby/ruby/pull/16506
