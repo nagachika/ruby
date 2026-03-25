@@ -1,0 +1,1 @@
+ZJIT で VM 命令の checkmatch の JIT コンパイル対応を追加しています。 https://github.com/ruby/ruby/pull/16496
