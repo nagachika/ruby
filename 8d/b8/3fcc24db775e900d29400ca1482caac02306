@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT を有効にした macOS 版の workflow でデバッグのため? に環境変数 RUST_BACKTRACE=1 を設定しています。 https://github.com/ruby/ruby/pull/16502
