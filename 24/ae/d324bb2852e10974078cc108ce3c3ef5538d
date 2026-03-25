@@ -1,0 +1,1 @@
+拡張ライブラリ json の 60116d5ee1060940ba3a84e3a1fe0ab8059c4c92 の変更に追随して NULL dereference を防ぐ条件を rvalue_stack_mark() 関数に追加しています。
