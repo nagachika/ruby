@@ -1,0 +1,1 @@
+a1143f1304f6de41ed990f0f52c9742fe237f40d で ZJIT で self のクラス(Object Shapes の shape)が異なる場合のインスタンス変数参照の JIT コンパイルに対応した部分で too complex になっていた shape の場合の対応が漏れていたのを追加しているようです。 https://github.com/ruby/ruby/pull/16526
