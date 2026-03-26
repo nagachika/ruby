@@ -1,0 +1,1 @@
+ZJIT の trace 機能で side-exit の発生箇所を検索できるようにしているようです。 https://github.com/ruby/ruby/pull/16470
