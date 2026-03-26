@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv のテストのタイムアウトをのばしています。 https://github.com/ruby/resolv/pull/125
