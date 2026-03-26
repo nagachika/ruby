@@ -1,0 +1,1 @@
+bundler の ruby のバージョン指定から patchlevel の指定の対応を除去しています。
