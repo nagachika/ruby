@@ -1,0 +1,1 @@
+bundler の bundle コマンドのサブコマンドを指定しなかった時の動作を指定する設定項目 default_cli_command を追加しています。
