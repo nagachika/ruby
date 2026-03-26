@@ -1,0 +1,1 @@
+bundler のテストで bundler/yaml_serializer の読み込みに require_relative で相対パス指定していたのをロードパスが通っている前提でただの require でロードするように変更しています。
