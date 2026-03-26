@@ -1,0 +1,1 @@
+NEWS と doc/extension.rdoc に RUBY_TYPED_EMBEDDABLE フラグの公開についてと RB_GC_GUARD() が必要になるケースについて追記しています。 なんだけどサンプルコードでの RB_GC_GUARD() に渡している変数名が間違ってそう。
