@@ -1,0 +1,1 @@
+GitHub Actions のトリガーの指定で dependabot による pull request を除外するための条件から event_name == "push" は冗長? なので削除しています。
