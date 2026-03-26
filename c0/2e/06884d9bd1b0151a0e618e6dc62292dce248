@@ -1,0 +1,1 @@
+GitHub Actions の静的チェック系の workflow から CodeQL 用のアクションの機能追加により? 不要になった step を削除しています。
