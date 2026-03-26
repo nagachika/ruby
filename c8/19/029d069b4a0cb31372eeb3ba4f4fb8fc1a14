@@ -1,0 +1,1 @@
+tool/outdate-bundled-gems.rb でソースディレクトリ以外でビルドしている時にファイルパスの解決に失敗してしまう不具合を修正しています。 https://github.com/ruby/ruby/pull/16531
