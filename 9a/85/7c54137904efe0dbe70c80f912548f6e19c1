@@ -1,0 +1,1 @@
+ZJIT のインスタンス変数の参照で複数の Object Shapes の shape に対応する処理に入るための分岐条件が不十分だった? のを修正しています。 https://github.com/ruby/ruby/pull/16533
