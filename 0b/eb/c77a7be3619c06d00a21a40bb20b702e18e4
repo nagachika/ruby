@@ -1,0 +1,1 @@
+rubyspec の IO.select のテストで環境によっては pipe への書き込み後すぐに対応する読み込み側 pipe が readable にならないのに対応するため timeout をつけたリトライを追加しています。 https://github.com/ruby/ruby/pull/16542
