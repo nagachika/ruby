@@ -1,0 +1,1 @@
+7ebfb754b5229a5c1ef33da1c931158169f0c86e と同様に GitHub Actions の Windows 関係の環境の workflow でも不要なトリガー条件を削除しています。
