@@ -1,0 +1,1 @@
+bundler の Bundler::Resolver::Strategy#next_term_to_try_from メソッドでインスタンス変数へのキャッシュにによる memo 化を行う最適化。
