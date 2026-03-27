@@ -1,0 +1,1 @@
+VM のメソッド探索などの関数群の引数に rb_iseq_t を渡していたのを cfp を渡して必要に応じて cfp->iseq を辿らせるようにしています。 ZJIT での今後の最適化のためのリファクタリングみたいです。 https://github.com/ruby/ruby/pull/16541
