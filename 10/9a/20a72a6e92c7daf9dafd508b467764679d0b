@@ -1,0 +1,1 @@
+TypedData_Make_Struct() の klass に特異クラスが渡されるとおかしな状態ができてしまうので RUBY_ASSERT() によるチェックを追加しています。また既存の Method#clone や Method#dup などで特異クラスを渡す可能性があったのでクラスを得るのに CLASS_OF() から rb_obj_class() を使うように修正しています。
