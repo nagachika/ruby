@@ -1,0 +1,1 @@
+RBIMPL_ATTR_NONSTRING_ARRAY() マクロの定義の preprocessor 分岐で RBIMPL_COMPILER_SINCE() で clang のバージョンをチェックしていたのを __clang_major__ マクロを直接チェックするように変更しています。
