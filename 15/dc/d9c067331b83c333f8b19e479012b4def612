@@ -1,0 +1,1 @@
+tool/lib/leakchecker.rb で Tempfile の残存チェック時に Tempfile#closed? が例外を発生させる可能性があったので rescue での捕捉を追加しています。 https://github.com/ruby/ruby/pull/16549
