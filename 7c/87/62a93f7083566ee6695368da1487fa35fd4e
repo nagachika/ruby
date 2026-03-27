@@ -1,0 +1,1 @@
+Fiber 用のマシンスタックを fiber pool から取得するための fiber_pool_stack_acquire() で空きがなかった時に追加しようとしてメモリエラーになった時に GC を実行してメモリ確保できないかリトライするようにしています。 https://github.com/ruby/ruby/pull/16535 [ruby-core:125124] [Bug #21964]
