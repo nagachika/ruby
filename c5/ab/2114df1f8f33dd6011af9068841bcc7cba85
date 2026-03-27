@@ -1,0 +1,1 @@
+finalizer 利用時の Thread#join のテストで GC の mmtk 実装では finalizer の実行が任意の thread で行なわれるため finalizer 内で Thread#wait した時に自分自身に wait を呼んでしまう可能性があったので Thread.current をチェックするようにしています。 https://github.com/ruby/ruby/pull/16559
