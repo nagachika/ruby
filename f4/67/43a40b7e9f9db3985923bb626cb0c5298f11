@@ -1,0 +1,1 @@
+rubygems のテストの helper.rb で simplecov による coverage の設定を test/unit のロードの前に移動しています。
