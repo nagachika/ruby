@@ -1,0 +1,1 @@
+template/Makefile.in で sed の GNU 版拡張機能に依存していたのをやめています。
