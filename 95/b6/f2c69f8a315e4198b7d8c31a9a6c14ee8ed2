@@ -1,0 +1,1 @@
+拡張ライブラリ json の Integer#to_s が上書きされてる時のテストを Kernel#fork を使って子プロセスで実行していたのをやめています。fork していたのは JRuby や TruffleRuby 向けの対応だったみたいでかわりに JRuby/TruffleRuby ではこのテストメソッドを定義しないようにしています。
