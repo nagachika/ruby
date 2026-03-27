@@ -1,0 +1,1 @@
+拡張ライブラリ socket のテストで macOS で UDP のダミーサーバーが例外を発生させて終了してしまうことがあるそうなので Errno::ENOBUFS という例外を捕捉して処理ループを続けるように対応しています。 https://github.com/ruby/ruby/pull/16553
