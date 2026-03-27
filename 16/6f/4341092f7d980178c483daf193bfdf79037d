@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR に ArrayMin という命令を追加して Array#min の最適化命令の JIT コンパイルに対応しています。 https://github.com/ruby/ruby/pull/16547
