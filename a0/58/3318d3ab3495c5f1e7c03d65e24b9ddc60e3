@@ -1,0 +1,1 @@
+RCLASS_ALLOCATOR() という inline 関数でも引数に特異クラスが渡されたら従来は処理をスキップして return していたのをRUBY_ASSERT() でチェックしてエラーにするようにしています。
