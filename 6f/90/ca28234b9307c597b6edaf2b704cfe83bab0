@@ -1,0 +1,1 @@
+拡張ライブラリ socket のテストの IO.select のタイムアウトを伸ばしています。 CI の一部の環境で 1sec のタイムアウトで IO.select がかえってこないことがあるみたいです。 https://github.com/ruby/ruby/pull/16569
