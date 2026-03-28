@@ -1,0 +1,1 @@
+bundled gems のテストを並列実行に対応させています。 https://github.com/ruby/ruby/pull/16513
