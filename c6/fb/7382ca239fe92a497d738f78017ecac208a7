@@ -1,0 +1,1 @@
+bundler のテストで bundle config のかわりに明示的な bundle config set サブコマンドを使うように修正しています。
