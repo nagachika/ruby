@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで Integer#to_s を再定義するテストで TruffleRuby の時に JRuby の時ともまた違って例外が発生するみたいなので assertion をインタプリタの違いで分岐して変更しています。
