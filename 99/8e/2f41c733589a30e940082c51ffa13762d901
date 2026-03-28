@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の side attack などに耐性のある文字列の比較用のメソッド OpenSSL.fixed_length_secure_compare で StringValuePtr() を連続して呼んでいたところで StringValuePtr() が暗黙にオブジェクトを String に変換するために to_str メソッドを呼び出すので、そこで任意の ruby コードが実行されて、その時に 1つめの文字列取得済みバッファが解放されてしまう可能性があるという不具合を修正しています。StringValuePtr() を使わずに 2つの文字列をまず StringValue() で両方とも文字列オブジェクトである状態を作ってから RSTRING_PTR() でポインタを取り出すようにしています。なるほどなぁ。
