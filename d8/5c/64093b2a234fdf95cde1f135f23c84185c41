@@ -1,0 +1,1 @@
+7c8762a93f7083566ee6695368da1487fa35fd4e で Fiber の machine stack pool を使いきった時の挙動のテストのために大量の Fiber を作らないといけなくてテストが重かったのを環境変数 RUBY_SHARED_FIBER_POOL_MINIMUM_COUNT と RUBY_SHARED_FIBER_POOL_MAXIMUM_COUNT で pool サイズを変更できるようにしてテスト用に小さな pool を作れるようにしてテストを軽量化しています。 https://github.com/ruby/ruby/pull/16570
