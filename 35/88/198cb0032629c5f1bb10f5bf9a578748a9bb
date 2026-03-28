@@ -1,0 +1,1 @@
+テストなどで一時ディレクトリ作成のために使うライブラリ tool/lib/_tmpdir.rb でディレクトリやファイルの削除時に Errno::EACCES の発生を無視するようにしています。 Windows 環境でディレクトリツリーの削除時に発生する可能性があるためとのこと。 https://github.com/ruby/ruby/pull/16577
