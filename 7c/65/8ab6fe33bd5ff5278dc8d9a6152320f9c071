@@ -1,0 +1,1 @@
+bacf17308ebffc87dcdeecb4f547742c1842291d と同様に bundler のテストで bundle config set --local を実行しているところもプロセス内で処理を行なうように最適化しています。
