@@ -1,0 +1,1 @@
+c8f97943efcd34fc1a4fdc789289a916104025f9 で導入した CFP_JIT_RETURN() という inline 関数を CFP_HAS_JIT_RETURN() に改名しています。
