@@ -1,0 +1,1 @@
+rb_class_allocate_instance() の実装を object.c から gc.c に移動しています。
