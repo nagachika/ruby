@@ -1,0 +1,1 @@
+Proc や Method, UnboundMethod の source_location メソッドの rdoc 用コメントの 31c3bcb4818d9f62a6ad5c284f152abb40d552d0 の変更を revert しています。
