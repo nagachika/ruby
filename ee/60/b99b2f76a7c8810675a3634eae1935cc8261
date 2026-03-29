@@ -1,0 +1,1 @@
+rb_cfp_iseq() を CFP_ISEQ() に、rb_cfp_pc() を CFP_PC() と改名しています。 ISEQ_BODY() との一貫性のためとのこと。
