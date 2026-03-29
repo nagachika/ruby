@@ -1,0 +1,1 @@
+ZJIT の rb_control_frame_struct::jit_return メンバーのリセット処理を C の rb_set_cfp_pc() 関数から Rust 実装に移動するリファクタリング。
