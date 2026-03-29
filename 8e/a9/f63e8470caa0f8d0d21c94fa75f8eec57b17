@@ -1,0 +1,1 @@
+tool/rbs_skip_tests に指定していた rbs のテストの source_location メソッドのテストの skip 指定を削除しています。
