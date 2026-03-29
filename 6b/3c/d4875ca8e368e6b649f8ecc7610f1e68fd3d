@@ -1,0 +1,1 @@
+マシンスタックが上限に達しようとしている時に ZJIT によるコンパイルを避けて VM での実行に fallback するようにしているようです。 JIT コンパイルのほうがマシンスタックを消費するためこうすることで SystemStackError の発生を極力回避するようにしているようです。 https://github.com/ruby/ruby/pull/16576
