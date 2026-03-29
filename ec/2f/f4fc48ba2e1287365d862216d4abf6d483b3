@@ -1,0 +1,1 @@
+tool/lib/_tmpdir.rb で do...end ブロック内の begin 節を削って直接 rescue 節を書くようにしています。
