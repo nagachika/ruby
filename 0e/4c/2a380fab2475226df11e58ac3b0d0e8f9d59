@@ -1,0 +1,1 @@
+Proc や Method の #source_location メソッドの rdoc 用コメントの変更を revert して以前のものに戻しています。
