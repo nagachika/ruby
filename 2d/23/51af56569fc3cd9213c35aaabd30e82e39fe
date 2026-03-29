@@ -1,0 +1,1 @@
+USE_SYMBOL_GC、BIGNUM_DEBUG などのもう使われてない preprocessor 分岐用のマクロ定義を削除して、それに対応した GitHub Actions のジョブも削除しています。 https://github.com/ruby/ruby/pull/16583
