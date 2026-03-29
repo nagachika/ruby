@@ -1,0 +1,1 @@
+ZJIT で軽量化した CFP のための構造体 zjit_jit_frame_t の定義を zjit.h と zjit/src/jit_frame.rs とで二重管理する状態になっていたのを C の構造体宣言を Rust 側では C binding を生成して取り込む方式にして解消しています。
