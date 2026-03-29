@@ -1,0 +1,1 @@
+vm_insnhelper.h の GET_ISEQ() マクロで rb_cfp_iseq() を利用していたのを rb_control_frame_t::_iseq メンバーを直接参照するようにしています。
