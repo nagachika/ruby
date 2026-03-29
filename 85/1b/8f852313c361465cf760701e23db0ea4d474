@@ -1,0 +1,1 @@
+クラスごとの allocator を呼び出す class_call_alloc_func() で rb_obj_class() と rb_class_real() で解決したクラスが一致することのチェックを例外発生させてたのを RUBY_ASSERT() マクロでのチェックに変更しています。RUBY_ASSERT() にしているのでデバッグビルドでない時にチェックが省略されるので高速化になるというのを目指しているようです。 [ruby-core:125140] [Feature #21966]
