@@ -1,0 +1,1 @@
+rubysec の #source_location のテストの ruby_version_is での guard を 4.0 の前後で分けるように修正しています。
