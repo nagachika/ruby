@@ -1,0 +1,1 @@
+ZJIT の軽量 CFP 用構造体の初期化処理を Rust 実装から rb_zjit_jit_frame_update_references() 関数を呼び出すようにリファクタリングしています。
