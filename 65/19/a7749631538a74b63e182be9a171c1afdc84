@@ -1,0 +1,1 @@
+ZJIT で IFUNC 型の C で実装されたブロックの呼び出し処理を最適化するため中間表現 HIR に InvokeBlockIfunc 命令を追加し rb_vm_yield_with_cfunc() 関数を直接呼び出すコードを生成するようにしています。
