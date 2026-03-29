@@ -1,0 +1,1 @@
+8f5e0d8ff82ff63d60da445826fa44be3d8d0820 の Proc や Method, UnboundMethod の source_location の返り値の変更を revert しています。 [Feature #6012]
