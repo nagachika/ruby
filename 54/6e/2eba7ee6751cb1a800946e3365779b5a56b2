@@ -1,0 +1,1 @@
+common.mk に make html-server というターゲットを新設して rdoc 用コメントをその場で反映させたドキュメントを閲覧できるサーバーを起動できるようにしています。 rdoc の新機能を利用しているものみたいです。 https://github.com/ruby/ruby/pull/16494
