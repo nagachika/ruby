@@ -1,0 +1,1 @@
+IO::Buffer#hexdump メソッドで dump 対象のバイト列の最大長の上限を設けてそれ以上のサイズが指定されたらエラーにしています。 https://github.com/ruby/ruby/pull/16593
