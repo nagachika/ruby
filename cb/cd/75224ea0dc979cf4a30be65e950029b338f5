@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に TruffleRuby 用の ruby 実装を追加しています。ruby 実装といっても Primitive を利用しているので native 実装のbinding を利用していると思われます。 https://github.com/ruby/strscan/issues/194 https://github.com/ruby/strscan/pull/195
