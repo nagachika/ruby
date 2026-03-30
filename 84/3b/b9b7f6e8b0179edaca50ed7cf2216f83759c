@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb を更新して拡張ライブラリ strscan の TruffleRuby 向け ruby 実装のファイルは同期対象から削っています。
