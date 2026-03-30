@@ -1,0 +1,1 @@
+vm_trace.c で rb_trace_arg_t::event の値のチェックする共通の処理を rb_tracearg_return_value() という関数に切り出すリファクタリング。 https://github.com/ruby/ruby/pull/16587
