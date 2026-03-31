@@ -1,0 +1,1 @@
+371255ffdb4f074fc2c6f37a6362c59a19e2692c で追加した cross compiling 用の GitHub Actions の workflow にさらに x86_64 の Linux 上で arm64 向けのビルドをするジョブも追加しています。
