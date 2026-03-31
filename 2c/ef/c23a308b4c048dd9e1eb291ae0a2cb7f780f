@@ -1,0 +1,1 @@
+tool/make-snapshot でパッケージ作成時に dump_ast を生成して .rbinc ファイルを生成し、dump_ast を削除してからパッケージ化するようにしています。
