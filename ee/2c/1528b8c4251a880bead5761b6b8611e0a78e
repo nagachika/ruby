@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装を .rbinc ファイルにするために使うツール dump_ast の導入に伴ない cross compiling がうまくできなくなっていたのを修正しようとしているようです。 cross compiling 時には build-tool/ ディレクトリ配下でホストのアーキテクチャで dump_ast をビルドするようにしています。
