@@ -1,0 +1,1 @@
+common.mk に cross compiling 用? にダミーの config.h を tmp/include/noarch/ruby/config.h に配置するようにしています。
