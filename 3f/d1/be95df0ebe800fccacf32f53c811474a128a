@@ -1,0 +1,1 @@
+GC.stat_heap の項目に :heap_allocatable_slots を追加して heap の page ごとにいくつの slot が格納できるかを取得できるようにしています。
