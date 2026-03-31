@@ -1,0 +1,1 @@
+ee2c1528b8c4251a880bead5761b6b8611e0a78e からの続きで実行形式ファイルの拡張子の指定についても cross compiling を意識して $(EXEEXT) ではなくて別途拡張子用の変数 BUILD_EXEEXT を利用するようにしています。
