@@ -1,0 +1,1 @@
+bundler の bundle gem で新規生成するプロジェクトの gemspec ファイルのテンプレートで Rust 製の拡張ライブラリを利用する場合の rb_sys の依存関係を追加しています。
