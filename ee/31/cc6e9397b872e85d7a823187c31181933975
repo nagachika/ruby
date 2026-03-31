@@ -1,0 +1,1 @@
+GitHub Actions の macOS 向け workflow でデバッグ用に core dump を S3 にアップロードするステップを追加した時に一緒に追加した? step を消し忘れていたのを削除しています。 https://github.com/ruby/ruby/pull/16591
