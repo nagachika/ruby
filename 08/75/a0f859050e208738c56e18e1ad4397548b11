@@ -1,0 +1,1 @@
+GC の default 実装の heap ごとの slot 数を固定にしていたのを、Variable Width Allocation による slot サイズの拡張に応じて heap の page ごとのメモリ使用量が増えてしまうので、逆にメモリサイズを固定にして page ごとの slot 数のほうを変化させるようにしています。てっきり既にそうなってたと思ってましたが今まで slot 数が固定だったんですねぇ。
