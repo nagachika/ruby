@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow 向けの独自アクションで不要な docker pull を抑制しています。
