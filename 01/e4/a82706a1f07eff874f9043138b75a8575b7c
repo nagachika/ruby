@@ -1,0 +1,1 @@
+prism のソースコード生成で FileUtils.mkdir_p や File.write がエラーを返した時にカレントディレクトリへの出力で代替する fallback を追加しています。
