@@ -1,0 +1,1 @@
+0875a0f859050e208738c56e18e1ad4397548b11 の変更で未使用になった GC の default 実装の minimum_slots_for_heap() という関数を削除しています。
