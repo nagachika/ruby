@@ -1,0 +1,1 @@
+GitHub Actions の CodeQL による静的チェックを除外するファイル指定で test/ は除外をやめ、spec/ も一部の fixture 以外は除外しないようにしています。
