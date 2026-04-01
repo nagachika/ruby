@@ -1,0 +1,1 @@
+ZJIT 用のオプション --zjit-max-versions を追加して JIT 再コンパイルの回数の上限を引き上げることができるようにしています。 https://github.com/ruby/ruby/pull/16607
