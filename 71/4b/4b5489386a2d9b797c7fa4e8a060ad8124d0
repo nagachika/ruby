@@ -1,0 +1,1 @@
+ZJIT で VM 命令 getblockparamproxy で side-exit しないで直接実装を生成するように最適化しています。 https://github.com/ruby/ruby/pull/16573
