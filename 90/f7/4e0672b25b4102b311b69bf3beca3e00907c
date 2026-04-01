@@ -1,0 +1,1 @@
+拡張ライブラリ strscan で T_TYPEDDATA 型オブジェクトの slot への埋め込みを利用するようにしています。またこれにより GC.compact によるオブジェクトの移動に対応するようにしています。 https://github.com/ruby/strscan/pull/201
