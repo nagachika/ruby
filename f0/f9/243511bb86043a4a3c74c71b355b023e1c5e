@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow の結果の通知用の step でも macOS の環境を利用していたのを Ubuntu を利用するようにしています。
