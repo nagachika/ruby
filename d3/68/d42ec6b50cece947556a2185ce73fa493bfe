@@ -1,0 +1,1 @@
+ZJIT 有効化時に open-uri の Proxy を使うテストも Linux 環境で実行除外するようにしています。 https://github.com/ruby/ruby/pull/16606
