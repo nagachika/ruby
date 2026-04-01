@@ -1,0 +1,1 @@
+GitHub Actions の workflow .github/workflows/pr-playground.yml にも明示的な権限の制限を追加しています。
