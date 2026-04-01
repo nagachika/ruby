@@ -1,0 +1,1 @@
+GC で callcache の invalidation を行う時の callcache がまだ生きているかの判定をより厳密にしています。 従来 klass だけチェックしていたのを cme も有効かチェックするようにしています。
