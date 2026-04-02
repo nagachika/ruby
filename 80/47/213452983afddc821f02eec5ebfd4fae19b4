@@ -1,0 +1,1 @@
+rubygems の gem push の署名対応で --attestation が渡されていたら JRuby とか GitHub Actions 内の実行かとかの条件にかかわらず処理を行うようにしています。
