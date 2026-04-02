@@ -1,0 +1,1 @@
+拡張ライブラリ pty の関数名の変更(set_device_mode() → prevent_messages())。
