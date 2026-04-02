@@ -1,0 +1,1 @@
+rubygems の gem push サブコマンドに署名つきの push? を行う機能を追加しているようです。 attestation っていうらしいですがなんだろう。
