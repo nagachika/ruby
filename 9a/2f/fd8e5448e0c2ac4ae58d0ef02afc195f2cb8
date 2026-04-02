@@ -1,0 +1,1 @@
+Ractor 間で Thread::Backtrace をコピー可能にしています。これにより Ractor 間で例外オブジェクトを backtrace つきで送受信できるようになるみたいです。このために Thread::Backtrace の #clone および #initialize_copy メソッドの定義を追加して、さらに Ractor がオブジェクトをコピーする時に rb_obj_clone() 関数を直接呼ばずに rb_funcall() で clone メソッドを呼ぶようにしています。 [ruby-core:124414] [Bug #21818]
