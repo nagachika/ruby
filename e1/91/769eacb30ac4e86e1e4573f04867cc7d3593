@@ -1,0 +1,1 @@
+pull request の reviewer を自動でつける設定で GitHub Actions の YJIT/ZJIT のテスト用の workflow のファイルを設定対象から除外するようにしています。
