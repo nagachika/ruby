@@ -1,0 +1,1 @@
+rubygems の gem push の例外処理時に通常時はバックトレースつきの Exception#full_message を使わず message を埋め込むに留めるように修正しています。
