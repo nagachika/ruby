@@ -1,0 +1,1 @@
+GitHub Actions の bundled gems や default gems の更新チェックで curl で stdgems.org からデータ取得する時に --retry オプションをつけてダウンロード失敗を吸収するようにしています。
