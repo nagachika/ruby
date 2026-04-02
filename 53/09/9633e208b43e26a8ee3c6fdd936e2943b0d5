@@ -1,0 +1,1 @@
+ruby のメモリアロケーターで解放(free)時にそのメモリ領域のサイズも明示的に渡す関数 ruby_sized_xfree()/ruby_sized_xrealloc() を ruby_xfree_sized()/ruby_xrealloc_sized() のように改名して、ヘッダファイル include/ruby/internal/xmalloc.h に宣言を追加しています。 internal/ ディレクトリ内だけど拡張ライブラリからも #include できるものなので実質 C API の追加ですかね? [ruby-core:124677] [Feature #21861]
