@@ -1,0 +1,1 @@
+GitHub Actions の commit push 後の同期処理などを行う workflow でいくつかの step にエラーでも停止しない設定を追加しています。 canonical な git リポジトリへの同期などネットワークの状態で失敗することがあるので後続の処理を止めないようにするため。
