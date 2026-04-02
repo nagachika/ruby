@@ -1,0 +1,1 @@
+budler のテストで bundler 自身の checksum のチェックで失敗する? ものを回避するため環境変数 BUNDLE_LOCKFILE_CHECKSUMS=false を設定して bundle コマンドを実行するようにしています。
