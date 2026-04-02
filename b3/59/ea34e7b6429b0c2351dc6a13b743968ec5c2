@@ -1,0 +1,1 @@
+bundler で bundler 自身の checksum を確認する処理で bundler.gem のキャッシュファイルがみつからない時に不要な処理をスキップする最適化。
