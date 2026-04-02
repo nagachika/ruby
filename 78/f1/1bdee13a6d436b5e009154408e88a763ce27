@@ -1,0 +1,1 @@
+ZJIT の VM 命令 opt_newarray_send の実装でオペランドの method の指定のうちサポートしていないもの(VM_OPT_NEWARRAY_SEND_PACK)があって side-exit していたのを直接実装するように対応しているようです。 https://github.com/ruby/ruby/pull/16596
