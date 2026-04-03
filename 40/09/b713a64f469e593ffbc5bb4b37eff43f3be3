@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree#inspect が "::Foo = 1" のような式を parse した AST の時に異常終了する不具合を修正しています。 https://github.com/ruby/ruby/pull/16642 [ruby-core:125161] [Bug #21974]
