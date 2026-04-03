@@ -1,0 +1,1 @@
+9233eae6a90087c47990ba6f9cdd3cbefc0ecfae で例外処理で Zlib::GzipReader の残りを読み捨てるのに read だとメモリ上に一度全体を読み込んでしまうので IO.copy_stream で IO::NULL のデバイルファイルに読み捨てるようにしています。
