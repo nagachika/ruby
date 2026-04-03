@@ -1,0 +1,1 @@
+定数の inline cache のために動的なクラスや特異クラスの時のチェックを実行時に行なっていたのを、parse 時点で判定して VM 命令の defineclass 命令で cref に VM_DEFINECLASS_FLAG_DYNAMIC_CREF フラグをつけておくようにしています。これにより不要に dynamic と判定されていた場合(class << self による特異クラス)が最適化されるみたいです。 [ruby-core:120213] [Bug #20948]
