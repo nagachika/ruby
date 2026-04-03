@@ -1,0 +1,1 @@
+ZJIT の HIR の graphviz での可視化のための不要なコードを削除しています。 https://github.com/ruby/ruby/pull/16630
