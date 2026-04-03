@@ -1,0 +1,1 @@
+rubygems の gem pristine --only-missing-extensions で対象の gem がなかった時にエラーにせず警告メッセージに留めるようにしています。
