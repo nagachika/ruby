@@ -1,0 +1,1 @@
+common.mk の make update-default-gemspecs ターゲットの依存関係に $(PROGRAM) を追加しています。
