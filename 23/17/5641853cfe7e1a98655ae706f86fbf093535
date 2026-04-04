@@ -1,0 +1,1 @@
+同じく 33b9d2ab9f45a0c66665fb8dc40ddebd07c7b7b7 で ZJIT 利用時に open-uri のテストの一部を skip していたのを revert しています。
