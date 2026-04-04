@@ -1,0 +1,1 @@
+Thread についてのテストで Windows 環境でタイムアウトしてしまうことがあったテストの timeout 値を引き上げています。 https://github.com/ruby/ruby/pull/16650
