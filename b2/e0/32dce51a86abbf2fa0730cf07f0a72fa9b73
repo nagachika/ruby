@@ -1,0 +1,1 @@
+GitHub Actions の pull request の reviewer を自動的に assign する workflow で利用していた action が fork したものだったらしく、必要な機能が upstream に取り込まれたのでそちらを使うように変更しています。
