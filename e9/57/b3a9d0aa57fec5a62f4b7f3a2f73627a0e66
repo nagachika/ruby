@@ -1,0 +1,1 @@
+ZJIT が有効な時にしか値を返さない CFP_JIT_RETURN() という関数を YJIT のためにも使われる箇所で呼んでいたのをやめて cfp->jit_return に直接アクセスするようにして、関数の名称も CFP_ZJIT_FRAME() に改名しています。 https://github.com/ruby/ruby/pull/16648
