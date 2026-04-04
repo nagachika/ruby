@@ -1,0 +1,1 @@
+Cargo.toml の開発環境向けビルドでの opt-level の設定を 0 → 1 に変更しています。 SystemStackError を回避するためとのこと。
