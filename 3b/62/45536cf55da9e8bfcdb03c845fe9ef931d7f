@@ -1,0 +1,1 @@
+テストでの fd や thread や一時ファイルなどのリソースの消し忘れを検出するための tool/lib/leakchecker.rb で TCPSocket の CLOSE_WAIT 状態のものはチェック対象からはずすようにしています。 ruby としては close していてもカーネル上のリソースとしてまだ残っているのが lsof では表示されることがあり誤検出になっていたため。
