@@ -1,0 +1,1 @@
+ZJIT で VM 命令 invokeblock でブロックが ifunc タイプだった時の HIR 命令 InvokeBlockIfunc を利用する最適化で、ifunc でない場合に side-exit していたのを分岐してただの InvokeBlock 命令を利用して JIT コードから fallback しないようにしています。 https://github.com/ruby/ruby/pull/16608
