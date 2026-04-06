@@ -1,0 +1,1 @@
+3b6245536cf55da9e8bfcdb03c845fe9ef931d7f のテストでリソースの解放漏れを検出する tool/lib/leakchecker.rb で TCPSocket の誤検出の修正を再修正しています。 IO.popen で IOError などが発生した場合も対応するため rescue 節での例外捕捉を追加しています。
