@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv::LOC::Coord.create で特殊変数の $1 や $~ を使うのをやめて MatchedData を利用するようにしています。
