@@ -1,0 +1,1 @@
+テストのリソースの解放漏れをチェックする tool/lib/leakchecker.rb の lsof のエラーの検出方法を Process::Status#success? でチェックせず有効な出力がされたかをヘッダ行をチェックすることで判定するように修正しています。
