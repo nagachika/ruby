@@ -1,0 +1,2 @@
+Hash#to_proc の rdoc 用コメントに Hash#default_proc= で設定したキーがない時に呼ばれる Proc オブジェクトの設定も効くこと(しかも Hash#to_proc で Proc オブジェクトを作った後に設定しても)ことをサンプルコードとして追記しています。
+全然関係ないですが Hash#to_proc で作った Proc を Hash#default_proc= で設定すると無限再帰を引き起こせそうですね。と思ったけど arity がチェックされてるので代入できなかった。
