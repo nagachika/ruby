@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv::LOC::Alt.create の引数チェックを厳格化しています。
