@@ -1,0 +1,1 @@
+rb_class_alloc() に RBIMPL_ASSERT_TYPE() で引数のオブジェクトの型についてのチェックを追加しています。
