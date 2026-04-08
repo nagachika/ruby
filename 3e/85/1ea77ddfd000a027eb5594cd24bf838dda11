@@ -1,0 +1,1 @@
+object.c の class_real() という inline 関数で特異クラスや IClass をスキップして継承ツリーの通常の親クラスを探索する時に RCLASS_SUPER() ではなく RCLASSEXT_SUPER(RCLASS_EXT_PRIME(cl)) を使うようにしています。Ruby Box の考慮のための処理をスキップして直接親クラスを辿るようにして最適化を図っているみたいです。
