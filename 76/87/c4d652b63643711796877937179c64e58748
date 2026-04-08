@@ -1,0 +1,1 @@
+ZJIT のトレース用に  --zjit-trace-compiles および --zjit-trace-invalidation というコマンドラインオプションを新規追加して、JIT コンパイルや side-exit などのイベントの発生について Perfetto というツールで可視化できるフォーマットでトレースを残せるようにしているようです。 https://github.com/ruby/ruby/pull/16666
