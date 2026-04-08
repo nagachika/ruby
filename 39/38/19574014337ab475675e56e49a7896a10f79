@@ -1,0 +1,1 @@
+GC の default 実装の incremental sweep で1度の sweep 処理で sweep する量を slot 数で指定していたのを byte 数で指定して Variable Width Allocation により slot サイズ拡張している時に一度に sweep する slot 数を減らすようにしています。大きい slot サイズの heap は利用頻度が少ないからということみたいです。
