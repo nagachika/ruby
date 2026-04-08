@@ -1,0 +1,1 @@
+String オブジェクトのバッファから部分文字列のオブジェクトを取り出す str_subseq() 関数で元の文字列の coderange が 7bit clean なら返す文字列の coderange にも ENC_CODERANGE_7BIT をセットするようにしています。
