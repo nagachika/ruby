@@ -1,0 +1,1 @@
+RCLASS_SINGLETON_P() や rb_obj_singleton_methods() において RB_TYPE_P() や RB_BUILTIN_TYPE() で型チェックするようにして即値のためのチェックを省略する小さな最適化。
