@@ -1,0 +1,1 @@
+直前の 7ddcaa4076c360b0a914bf660baa7b2f0af91e24 で incremental sweep の一度に処理するサイズを倍にしたのを revert しています。
