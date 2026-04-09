@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree の位置情報のテストで assert_equal の引数が反対だったのを修正しています。
