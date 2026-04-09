@@ -1,0 +1,1 @@
+gc.c の rb_gc_obj_needs_cleanup_p() という sweep 時にメモリ解放が必要か判定する関数内の T_IMEMO 型オブジェクト向けの処理を internal/imemo.h の inline 関数 rb_imemo_needs_cleanup_p() として切り出すリファクタリング。今のところ他で使ってるところはなさそうなのでなにかの準備かな?
