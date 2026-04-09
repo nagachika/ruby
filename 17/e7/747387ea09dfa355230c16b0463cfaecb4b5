@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest に Exception#detailed_message が定義されてない古い ruby 向けに load/require/requre_relative の代替実装を定義していたコードを削除しています。もう消されたコードなのでいいけどチェック内容と代替実装しているメソッドがマッチしてない感じでしたね。
