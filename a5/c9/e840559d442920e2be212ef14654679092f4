@@ -1,0 +1,1 @@
+5c7e3c202a74f7e39fa8f0d9cb66055ba7d57d43 と同様に拡張ライブラリ openssl の OpenSSL::KDF.scrypt メソッドでも重い処理を実行する時に GVL を解放するようにしています。こちらも OPENSSL_cleanse() でのバッファクリアの引数がポインタのポインタになってそうですね。
