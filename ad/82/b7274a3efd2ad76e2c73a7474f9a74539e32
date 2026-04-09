@@ -1,0 +1,1 @@
+1fb0aca3bac9544c01143a768f638fcfad7cff9c で切り出した inline 関数 rb_imemo_needs_cleanup_p() に T_IMEMO 型オブジェクトの種類が imemo_tmpbuf だった時の対応を追加しています。
