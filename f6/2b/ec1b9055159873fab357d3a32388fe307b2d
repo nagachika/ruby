@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で標準添付ライブラリ syntax_suggest の upstream からの同期時のファイルのマッピングの指定を追加してテストの同期がされるようにして、その結果の spec/syntax_suggest の同期も一緒にコミットしています。
