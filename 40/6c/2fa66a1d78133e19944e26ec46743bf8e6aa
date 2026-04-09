@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の Ripper::Lex のトークンを判定する分岐の typo 修正。
