@@ -1,0 +1,1 @@
+オブジェクトの内容を dump する時の T_IMEMO 型オブジェクトによる method entry のメソッドタイプ出力の typo 修正。 https://github.com/ruby/ruby/pull/16672
