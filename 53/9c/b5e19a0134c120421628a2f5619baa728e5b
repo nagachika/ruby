@@ -1,0 +1,1 @@
+f5ad01ea9731560f6c3bc5ad339533460cf92958 の追加修正。 bundler の bundle gem で作成するテストの rspec 用のテンプレートで利用する matcher を変更しています。
