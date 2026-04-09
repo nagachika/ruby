@@ -1,0 +1,1 @@
+bundler のテストで依存関係解決のテスト用の lockfile で利用している依存 gem の名前を parallel_tests から rubocop に変更しています。これはなぜだろう。
