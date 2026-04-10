@@ -1,0 +1,1 @@
+ZJIT の VM 命令 getblockparamproxy の処理で渡されるブロック引数が渡されないケースも最適化するようにしています。 https://github.com/ruby/ruby/pull/16636
