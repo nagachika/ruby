@@ -1,0 +1,1 @@
+ZJIT で Array#push メソッドの最適化時に Array が freeze されているかのチェックを追加しています。
