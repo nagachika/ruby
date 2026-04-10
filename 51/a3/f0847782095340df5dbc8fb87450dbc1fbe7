@@ -1,0 +1,1 @@
+prism で return a, &b という記法が SyntaxError にならずに受け付けられてしまうという不具合を修正しています。 [ruby-core:125218] [Bug #21988]
