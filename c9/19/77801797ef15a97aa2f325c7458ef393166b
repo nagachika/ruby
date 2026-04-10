@@ -1,0 +1,1 @@
+Variable Width Allocation のための heap サイズの配列に番兵として最後に 0 の要素を置いてましたが不要なので削除しています。
