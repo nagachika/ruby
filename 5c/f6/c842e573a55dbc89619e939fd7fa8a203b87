@@ -1,0 +1,1 @@
+1fb0aca3bac9544c01143a768f638fcfad7cff9c で internal/imemo.h に移動した rb_imemo_needs_cleanup_p() という関数をまた gc.c に移動して rb_gc_imemo_needs_cleanup_p() という名前に戻し、T_IMEMO 型オブジェクトが imemo_fields タイプの時の対応も追加しています。
