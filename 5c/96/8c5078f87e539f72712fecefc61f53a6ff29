@@ -1,0 +1,1 @@
+GC の default 実装で構造体 rb_objspace_t に sweeping_heaps というメンバーを追加して heap ごとの sweep 状態を bitfield として保持して判定を高速化しています。
