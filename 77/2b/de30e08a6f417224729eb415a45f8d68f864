@@ -1,0 +1,1 @@
+GC の default 実装で slot のサイズを計算するために pool_slot_sizes[0] を使ってたのを sizeof(VALUE) を明示的に利用するようにリファクタリングしています。
