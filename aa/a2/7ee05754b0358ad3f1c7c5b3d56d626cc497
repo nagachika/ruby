@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf の egrep_cpp メソッドで Kernel#system で egrep コマンドを実行する時に IO#reopen で標準出力を切り替えて実行してたのを system のキーワード引数 in を使って出力先をファイルに変更するように改善しています。
