@@ -1,0 +1,1 @@
+GC の default 実装と mmtk 実装両方で GC::INTERNAL_CONSTANTS に :RVALUE_SIZE という項目を追加して基本 slot サイズを参照できるようにしています。
