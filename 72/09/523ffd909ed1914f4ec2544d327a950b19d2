@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の 5c7e3c202a74f7e39fa8f0d9cb66055ba7d57d43 と a5c9e840559d442920e2be212ef14654679092f4 のOPENSSL_cleanse() の引数の間違いを修正しています。
