@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb に RbConfig::CONFIG の "CXX" の設定をチェックする cxx_command というメソッドを追加して f104525c71fbd6338e98050201253f2fe464ec9b で追加した cpp_command でこのメソッドで設定をチェックするようにしています。
