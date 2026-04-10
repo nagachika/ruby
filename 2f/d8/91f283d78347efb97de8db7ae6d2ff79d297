@@ -1,0 +1,1 @@
+Variable Width Allocation の slot サイズの定数をベタ書きしていたのを preprocessor を使って生成するようにリファクタリングしています。
