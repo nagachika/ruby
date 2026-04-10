@@ -1,0 +1,1 @@
+rb_obj_embedded_size() で引数の fields_count が 0 以下の時に 1 に切り上げる guard を追加しています。
