@@ -1,0 +1,1 @@
+GC のテストで skip するかどうかのチェックに使ってた GC::INTERNAL_CONSTANTS の項目を SIZE_POOL_COUNT から HEAP_COUNT に変更しています。
