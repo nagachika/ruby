@@ -1,0 +1,1 @@
+93710423e13814b8be725d369ed29dac081cb89f で inline 関数 rb_obj_embedded_size() に追加した引数 fields_count を 1以上に限定する guard を RACTOR_CHECK_MODE や GC_DEBUG マクロが真に指定されていた時だけ実行するようにしています。
