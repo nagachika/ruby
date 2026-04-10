@@ -1,0 +1,1 @@
+iseq_set_sequence() および ibf_load_object_hash() で不要な rb_hash_rehash() を呼んでいたのを削除しています。
