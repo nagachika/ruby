@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree::Node の位置情報が数字のノードでずれていた不具合を修正しています。 [ruby-core:125215] [Bug #21986]
