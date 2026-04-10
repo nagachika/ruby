@@ -1,0 +1,1 @@
+ZJIT のデバッグ用ツール tool/zjit_bisect.rb が ruby 3.4 の機能に依存しているので RUBY_VERSION をチェックして古い ruby の時は明示的にエラーにしています。
