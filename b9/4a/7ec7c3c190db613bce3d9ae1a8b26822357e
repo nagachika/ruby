@@ -1,0 +1,1 @@
+defs/gmake.mk の git rev-parse HEAD で最後のコミットハッシュを得る時に標準エラー出力を /dev/null に捨てるように修正しています。
