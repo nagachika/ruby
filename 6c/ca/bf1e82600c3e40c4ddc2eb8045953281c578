@@ -1,0 +1,1 @@
+ZJIT の Array#pop メソッドの innline 最適化で配列が freeze されていないかのチェックを追加しています。
