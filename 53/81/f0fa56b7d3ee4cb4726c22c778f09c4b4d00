@@ -1,0 +1,1 @@
+5c968c5078f87e539f72712fecefc61f53a6ff29 で構造体 rb_objspace_t に追加した sweeping_heaps を sweeping_heap_count に変更して bitfield として sweep 済み heap を保存していたのをカウンタとして数だけ保持するようにリファクタリングしています。
