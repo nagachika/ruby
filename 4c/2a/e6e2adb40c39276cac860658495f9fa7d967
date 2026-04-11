@@ -1,0 +1,1 @@
+inline 関数 rb_obj_embedded_size() で 93710423e13814b8be725d369ed29dac081cb89f および 3c28bb53a7447c1e8b88da1ccbae76801d5b643a でデバッグビルド時のみ最低 slot サイズを保証するようにしてましたが、preprocessor 分岐によらず常に struct RObject 構造体のサイズ以上のサイズを返すように変更しています。
