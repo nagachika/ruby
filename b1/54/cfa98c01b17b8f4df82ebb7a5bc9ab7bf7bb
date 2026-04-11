@@ -1,0 +1,1 @@
+macOS のファイルシステムのためにファイルパスの正規化を行う rb_str_normalize_ospath() で ASCII-compatible な文字しか含んでいない文字列の時のショートカットを追加して最適化しています。
