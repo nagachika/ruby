@@ -1,0 +1,1 @@
+ZJIT の型チェックの機構が Class の struct RBasic::klass が常に特異クラスであることと相性が悪く Class/Module のインスタンス変数の参照時に常に side-exit を起こしてしまっていたのを修正しています。
