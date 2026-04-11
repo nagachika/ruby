@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.load で配列から ISeq をロードする時に生成する Hash のうちサイズが固定のものに 82470d8b9b4a5958b5358e3526316e2b9bd9adce で追加した rb_hash_alloc_fixed_size() を使うようにしてたのを rb_hash_new_with_size() を利用するように戻しています。ここで生成した Hash はすぐに st_table ベースの実装に変換されるので、その際に不正メモリアクセスを起こす可能性があったようです。
