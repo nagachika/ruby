@@ -1,0 +1,1 @@
+tool/rdoc-srcdir で bundled gems のドキュメント生成時に Dir.glob で展開した結果の順番に依存していて、古いバージョンのディレクトリを使ってしまう可能性があったのを修正しているようです。 https://github.com/ruby/ruby/pull/16712
