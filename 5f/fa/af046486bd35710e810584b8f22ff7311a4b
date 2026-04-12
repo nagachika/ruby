@@ -1,0 +1,1 @@
+ZJIT の Rust 実装のテストの assert_compiles というアサーションのチェック内容に side-exit が発生しないことも確認するチェックを追加しています。
