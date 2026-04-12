@@ -1,0 +1,1 @@
+gems/bundled_gems の rdoc のテストに利用する commit hash の指定を変更しています。 https://github.com/ruby/ruby/pull/16713
