@@ -1,0 +1,1 @@
+Ruby::Box のために rb_classext_t を複製する rb_class_duplicate_classext() で cvc_tbl メンバーの複製時に shallow copy になっていて複数の rb_classext_t から同じメモリ領域を参照していて GC された時に不正メモリ参照や double free になる可能性があった不具合を修正しています。 st_table のエントリも deep copy するようにして対応しています。 https://github.com/ruby/ruby/pull/16594 [ruby-dev:52206] [Bug #21952]
