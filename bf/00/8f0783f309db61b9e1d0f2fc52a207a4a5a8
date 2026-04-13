@@ -1,0 +1,1 @@
+rubygems の gem spec サブコマンドの出力の Usage やエラーメッセージなどの修正。 https://github.com/ruby/rubygems/pull/9476
