@@ -1,0 +1,1 @@
+526344b56ea968d5704bdefe6e10bb3cf7f4f569 の続きで正規表現関係の特殊変数に rb_gvar_box_dynamic() を呼んで box_dynamic フラグを立ててたの $~ 以外は rb_gvar_box_ready() を呼ぶように変更しています。ちょっとよくわからないですが $~ 以外は rb_gvar_readonly_setter() を利用しているので box_dynamic にする必要はないとのこと。
