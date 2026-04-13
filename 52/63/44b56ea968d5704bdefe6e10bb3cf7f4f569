@@ -1,0 +1,1 @@
+正規表現のマッチ関係の特殊変数 $~, $&, $`, $', $+ などは Ruby::Box ごとにスコープがわかれていますが、正規表現のマッチに失敗した時にクリアする必要があるのに Box 利用時にはクリアれないという不具合があったのを修正しています。 rb_gvar_box_dynamic() という関数で構造体 struct rb_global_variable に追加したメンバー box_dynamic をセットして Box の利用時にも通常の getter/setter を利用するようにしています。 https://github.com/ruby/ruby/pull/16644
