@@ -1,0 +1,1 @@
+ar_table 実装による小さな Hash の実際の利用メモリサイズを最近の変更で? 小さく保つことができるようになったのに対応して rb_gc_obj_optimal_size() という関数で実際に必要なサイズを返すようにして GC.compact による移動時に? 小さな slot サイズに割り当てできるようにしています。 https://github.com/ruby/ruby/pull/16653
