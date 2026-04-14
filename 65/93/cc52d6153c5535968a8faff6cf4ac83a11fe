@@ -1,0 +1,1 @@
+BasicObject#initialize メソッドを再定義するとインスタンス変数の数を調べる rb_estimate_iv_count() という関数で superclass が nil を返すため異常終了してしまうという不具合があったので nil チェックを追加して修正しています。 [ruby-core:125237] [Bug #21992]
