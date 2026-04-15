@@ -1,0 +1,1 @@
+ruby/ruby-bench に修正がマージされたようなので GitHub Actions の workflows でチェックアウトする commit hash を固定していたのをやめています。
