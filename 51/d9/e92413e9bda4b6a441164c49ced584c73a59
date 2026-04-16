@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet で spec の検索に Hash を利用する速度改善。
