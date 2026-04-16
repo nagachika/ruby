@@ -1,0 +1,1 @@
+doc/file/timestamps.md というドキュメントファイルを追加して File::Stat や File のタイムスタンプ関連のメソッドについて記述しています。 https://github.com/ruby/ruby/pull/16722
