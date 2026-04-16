@@ -1,0 +1,1 @@
+ZJIT の Integer と Float の zero? とか even?, odd?, nan? などの "?" つきのメソッド群に戻り値についての型 annotate を追加しています。ZJIT での最適化がしやすくするため。
