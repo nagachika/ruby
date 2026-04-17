@@ -1,0 +1,1 @@
+GitHub の pull request に自動で reviewer を assign する設定で yjit/Cargo.lock と zjit/Cargo.lock の変更には reviewer を追加しないようにしています。 https://github.com/ruby/ruby/pull/16743
