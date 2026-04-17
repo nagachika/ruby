@@ -1,0 +1,1 @@
+aaad9e0f0640c4efe3987b2154c877ba108fc0a7 で flot_to_i() という関数の static 修飾子を外していましたが、グローバルなシンボルには rb_ という suffix をつけるという慣習があるので static 関数に戻して rb_flo_to_i() という wrapper 関数を追加してこちらを呼ぶようにしています
