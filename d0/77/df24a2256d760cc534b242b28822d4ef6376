@@ -1,0 +1,1 @@
+prism が while や until の条件部に defined? や flip-flop などの一部の文法を使った時に不正に値を VM の値スタックから pop してしまっていて異常終了に繋がっていた不具合を修正しています。 [ruby-core:125274] [Bug #22002]
