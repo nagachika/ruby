@@ -1,0 +1,1 @@
+bundle の bundle gem で作成するプロジェクトの gemspec ファイルのテンプレートに rubygems.org への gem push に mfa を要求する設定をコメントアウトした状態で書いておくようにしています。
