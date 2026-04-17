@@ -1,0 +1,1 @@
+template/configure-ext.mk.tmpl で拡張ライブラリのディレクトリを捜す方法に ext/ や .bundle/gems/ の配下をすべて調べていたのを Dir.glob で extconf.rb のあるディレクトリを先に抽出するように最適化しています。 [ruby-core:125276] [Bug #22003]
