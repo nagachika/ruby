@@ -1,0 +1,1 @@
+pull request への自動コメント追加に使っている tool/auto_review_pr.rb を拡張して、チケット参照のある PR の時に redmine の対象のチケットに自動的に pull request のリンクを含むコメントを投稿するようにしています。
