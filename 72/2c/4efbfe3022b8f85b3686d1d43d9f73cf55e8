@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で syntax_suggest の同期のために参照するブランチ名 main の指定を追加しています。
