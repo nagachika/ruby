@@ -1,0 +1,1 @@
+テスト用のユーティリティ tool/lib/envutil.rb で TruffleRuby 向けに timeout_scale を一律 10倍にしておくようにしています。
