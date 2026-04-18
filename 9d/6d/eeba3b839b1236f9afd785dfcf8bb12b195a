@@ -1,0 +1,1 @@
+tool/update-NEWS-github-release.rb で https://stdgems.org から情報を得る時に基準となる ruby のバージョンを teeny のバージョンに依存しないで X.Y.0 を基準にするようにして major バージョンリリース後の更新が蓄積されるように修正しています。
