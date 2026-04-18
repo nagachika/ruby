@@ -1,0 +1,1 @@
+9c682d3d562a3754a636ca40075dbce59d23a14e の envutil.rb の TruffleRuby での skip 追加の定義場所が間違っていたのを修正しています。
