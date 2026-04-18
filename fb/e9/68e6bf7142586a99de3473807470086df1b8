@@ -1,0 +1,1 @@
+tool/update-NEWS-github-release.rb の不要になっていたコードの削除などのリファクタリング。
