@@ -1,0 +1,1 @@
+tool/update-NEWS-github-release.rb でさらに https://stdgems.org/ からの情報取得時のネットワークエラーに対処してエラーメッセージを出すようにしています。
