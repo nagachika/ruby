@@ -1,0 +1,1 @@
+tool/update-NEWS-github-release.rb で NEWS の default gems や bundled gems の更新履歴を生成する時のリリースタグへのリンク生成で不要な footnote を削除する修正。
