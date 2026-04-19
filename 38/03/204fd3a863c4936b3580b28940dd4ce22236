@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON モジュールの rdoc 用コメントの NaN や Infinity についてのサンプルコードに JSON::NAN などの json 独自の定数についての言及も追加しています。
