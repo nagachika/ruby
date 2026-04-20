@@ -1,0 +1,1 @@
+拡張ライブラリ json で rb_enc_str_coderange() を呼んで文字列内の coderange を得る前に RB_ENC_CODERANGE() で cache されている coderange がないかチェックする最適化。このために json_str_coderange() という inline 関数を定義してこちらを呼ぶようにしています。
