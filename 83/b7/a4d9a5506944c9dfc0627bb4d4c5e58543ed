@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Certificate#serial= メソッドで OpenSSL の API X509_set_serialNumber() がエラーを返した時に例外を発生させるエラー処理を追加しています。
