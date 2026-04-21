@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKCS7::RecipientInfo#initialize で OpenSSL の API PKCS7_RECIP_INFO_set() のエラー処理でエラー判定をゼロの時としていましたが、エラー時に負数を返すこともあるみたいで 0以下の時にエラーとして扱うようにしています。
