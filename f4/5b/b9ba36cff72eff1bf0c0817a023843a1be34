@@ -1,0 +1,1 @@
+rubyspec の環境変数 LC_ALL の locale 設定に依存して失敗するテストの修正。 String#b で ASCII-8BIT にしてからメッセージの判定をするようにしています。
