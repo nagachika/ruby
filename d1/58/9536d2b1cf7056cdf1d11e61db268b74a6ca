@@ -1,0 +1,1 @@
+標準添付ライブラリ erb で ERB クラスの initialize でインスタンス変数 @_init に ERB の特異クラスを格納して不正なオブジェクトに対して ERB#result で eval させないようにしていましたが、ERB.def_method でも同じく @_init のチェックを行うようにしています。
