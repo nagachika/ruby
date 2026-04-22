@@ -1,0 +1,1 @@
+vm.c の jit_exec() 関数が JIT (YJIT or ZJIT) が有効な状態でビルドされる時だけ定義されるように preprocessor 分岐を追加しています。 WASM 向けのビルド時に未使用の関数で警告が出るのを抑制するため。
