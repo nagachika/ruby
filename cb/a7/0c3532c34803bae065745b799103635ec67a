@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile_file_prism メソッドでキーワード引数の frozen_string_literal の処理が行なわれていなかったのを修正しています。
