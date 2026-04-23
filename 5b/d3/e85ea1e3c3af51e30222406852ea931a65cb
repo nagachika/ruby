@@ -1,0 +1,1 @@
+rb_enc_str_coderange() という文字列の coderange のチェックとスキャンを行う関数をマクロで rb_enc_str_coderange_inline() という inline 関数に変換するようにしています。これも c568944b8f49074eb41495dd4c17508cd0eada14 の拡張ライブラリ json と同様に coderange のキャッシュを効かせるところを inline 化して、実際の coderange をスキャンするところを別関数にするという戦略かなと思います。
