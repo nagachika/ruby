@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で VM 命令列内の位置を表すインデックスのために YarvInsnIdx という専用の型を導入するリファクタリング。意図を明確にするためのものでコンパイル結果には変化ないと思われます。 https://github.com/ruby/ruby/pull/16783
