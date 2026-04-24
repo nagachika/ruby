@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で ISeq への参照を保持する JITStte#iseq という構造体のフィールド(Rust ではこの呼びかたでいいのだろうか)を削除しています。FrameState#iseq というのもあってこちらと同じ内容を保持していて冗長だったとのこと。 https://github.com/ruby/ruby/pull/16774
