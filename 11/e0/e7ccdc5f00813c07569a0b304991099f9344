@@ -1,0 +1,1 @@
+bundler で no_build_extension などの設定時に出す警告や man ページでの後から拡張ライブラリも完遂するための方法として gem pristine を指示していたのを bundle pristine に変更しています。
