@@ -1,0 +1,1 @@
+rubygems の gem install に --build-extension や --install-plugin などのオプションを追加して拡張ライブラリをビルドするか、プラグインをインストールするかの指定をできるようにしています。
