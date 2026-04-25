@@ -1,0 +1,1 @@
+bundler でも rubygems の --no-build-extension ya --no-install-plugin などのオプションをつけてインストールを行うよう指定できるように設定ファイルの項目に no_build_extension や no_install_plugin などのサポートを追加しています。
