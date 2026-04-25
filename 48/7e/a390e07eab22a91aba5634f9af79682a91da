@@ -1,0 +1,1 @@
+rubygems の gem install --no-build-extension が git リポジトリからの直接 install 時に効かなかったので Gem::Installer#build_extensions メソッド内で分岐するように修正しています。
