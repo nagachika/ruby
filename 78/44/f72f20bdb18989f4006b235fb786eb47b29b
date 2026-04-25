@@ -1,0 +1,1 @@
+bundler のテストに設定ファイルの項目の no_install_plugin の指定により plugin のインストールを skip する時の空のディレクトリを削除する 8dc707519f24df1cc54c8bddea70d5ab48de1059 についてのテストを追加しています。
