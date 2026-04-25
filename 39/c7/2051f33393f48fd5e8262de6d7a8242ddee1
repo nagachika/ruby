@@ -1,0 +1,1 @@
+rubygems の gem install 時の plugin のインストールにファイルの存在チェックをして警告抑制するようにしています。
