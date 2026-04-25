@@ -1,0 +1,1 @@
+rubygems の gem install に --no-install-plugin をつけて plugin のインストールを抑制した時に install 後にその plugin を load する処理もスキップするようにしています。
