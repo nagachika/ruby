@@ -1,0 +1,1 @@
+rb_int_parse_cstr() という C の文字列から整数を parse して取り出す関数を公開関数として C API に追加しています。おっ、jinroq さんの contribution だ。たしか strscan で使おうというものですね。
