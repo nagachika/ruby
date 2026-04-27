@@ -1,0 +1,1 @@
+Thread::Backtrace#initialize_copy の実装でも RGenGC 用の Write Barrier のため rb_gc_writebarrier_remember() の呼び出しを追加しています。
