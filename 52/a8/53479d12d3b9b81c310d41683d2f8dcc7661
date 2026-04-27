@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence のバイナリフォーマットからの load 処理の関数 ibf_load_code() で ISeq の GC の mark 用の bitmap を一時的にマシンスタック上に構築してから構造体設定するまでのあいだに GC が発生すると本来の mark 処理が行なわれないという潜在的な問題を修正しています。
