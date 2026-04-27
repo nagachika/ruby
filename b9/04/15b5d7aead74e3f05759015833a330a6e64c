@@ -1,0 +1,1 @@
+class.c の copy_tables() という static 関数でも定数テーブルコピー時に RGenGC 用に rb_gc_writebarrier_remember() の呼び出しを追加しています。
