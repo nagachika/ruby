@@ -1,0 +1,1 @@
+hach.c の rb_hash_rehash_i() に RGenGC 用の write barrier を追加しています。
