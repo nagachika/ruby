@@ -1,0 +1,1 @@
+class.c の rb_class_set_box_classext() という関数で RGenGC のための rb_gc_writebarrier_remember() の呼び出しが遅くてその前の st_insert() で GC が走る可能性があったので順序を入れ替えています。
