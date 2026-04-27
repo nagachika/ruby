@@ -1,0 +1,1 @@
+T_OBJECT や T_CLASS, T_MODULE、T_IMEMO など以外の型のオブジェクトで Object Shapes の too complex になってるオブジェクトでインスタンス変数の数を返す rb_ivar_count() という関数計算した数を戻り値に反映させていなくて 0 を返してしまうという不具合があったのを修正しています。これはひどい。
