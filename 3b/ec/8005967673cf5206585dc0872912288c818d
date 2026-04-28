@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile_file のキーワード引数 frozen_string_literal を指定した呼び出しのテストを追加しています。
