@@ -1,0 +1,1 @@
+ObjectSpace.memsize_of の T_DATA 型オブジェクトの時の対応関数 rb_objspace_data_type_memsize() で T_TYPEDDATA 型の場合のヒープから取得したメモリサイズの取得に malloc_usable_size() を呼び出していたのを CALC_EXACT_MALLOC_SIZE が定義されている場合に標準添付ライブラリによる malloc の管理用ヘッダの構造まで考慮して正確なバッファサイズを得るようにしています。いつのまにこんな仕組みが入ったんだろう。
