@@ -1,0 +1,1 @@
+e603aa0d2fecc80ef386c23886c9328933f86fcc と同様に RGENGC_WB_PROTECTED_REGEXP マクロも削除して常に T_REGEXP 型オブジェクトが RGenGC の WB-protected なオブジェクトになるようにしています。
