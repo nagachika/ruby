@@ -1,0 +1,1 @@
+79aa1d238fffe9726de7fdb3fadad2bcf92d7a9b からの続きで、リファクタリングで統合した rb_newobj_of() 関数からさらに rb_ec_newobj_of() という関数に改名して rb_newobj_of() はこれに GET_EC() で rb_execution_context_t を取得する wrapper 関数として定義しなおしています。
