@@ -1,0 +1,1 @@
+さらに NEWOBJ_OF() のリファクタリングで、flags に FL_WB_PROTECTED のビットが立っているかで分岐させていたのを、もう WB-protected なオブジェクトのほうが主流なので NEWOBJ_OF() は暗黙のうちに FL_WB_PROTECTED を立てるようにして、WB-unprotected なオブジェクトの確保用に UNPROTECTED_NEWOBJ_OF() マクロを用意するようにしています。
