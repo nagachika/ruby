@@ -1,0 +1,1 @@
+e603aa0d2fecc80ef386c23886c9328933f86fcc と同様に既に未使用となっていた RGENGC_WB_PROTECTED_NODE_CREF マクロも削除しています。
