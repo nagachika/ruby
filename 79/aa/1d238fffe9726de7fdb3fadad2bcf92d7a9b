@@ -1,0 +1,1 @@
+新規オブジェクトを確保する特に NEWOBJ_OF() マクロから呼ばれる関数 rb_wb_protected_newobj_of() と rb_wb_unprotected_newobj_of() を rb_newobj_of() に統合して rb_execution_context_t の取得方法を統一するリファクタリング。
