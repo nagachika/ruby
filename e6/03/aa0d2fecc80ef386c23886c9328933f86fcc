@@ -1,0 +1,1 @@
+T_ARRAY 型オブジェクトが RGenGC の WB-protected であることを示す RGENGC_WB_PROTECTED_ARRAY というマクロはもう削除して常に WB-protected として扱うようにリファクタリングしています。
