@@ -1,0 +1,1 @@
+MatchData クラスのオブジェクトの wrap する構造体 rb_matchext_t をヒープに配置するのをやめて struct RMatch 内に埋め込むようにしています。 Variable Width Allocation で RVALUE のサイズに限定する必要がなくなったので slot 内に埋め込んでいるようです。
