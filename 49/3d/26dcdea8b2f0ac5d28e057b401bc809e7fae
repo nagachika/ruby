@@ -1,0 +1,1 @@
+正規表現エンジン Onigmo で正規表現の parse, compile 時に内部的に割り当てる正規表現内の要素の通し番号による ID の採番でオーバーフロー時に明示的に例外を発生させるようにしています。 https://github.com/ruby/ruby/pull/16801
