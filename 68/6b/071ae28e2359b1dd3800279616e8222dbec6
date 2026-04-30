@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL の PKCS7_SIGNER_INFO_set() という API もエラー時に負の値がかえる可能性もあるようなのでエラーチェックを修正しています。
