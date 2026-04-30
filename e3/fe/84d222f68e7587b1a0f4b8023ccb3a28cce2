@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL の 1.1.1 から追加されている OPENSSL_sk_new_reserve() という API が利用可能なら sk_ASN1_TYPE_new_null() のかわりにこれを利用するようにしています。
