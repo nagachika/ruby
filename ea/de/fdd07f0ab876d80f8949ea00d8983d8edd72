@@ -1,0 +1,1 @@
+IO::Buffer#bit_count メソッドを新規追加しています。これは RubyKaigi 2026 の Ruby Committers and the World で String#popcount を追加したいという話題で Samuel がコメントしていたやつですかね。バイナリ列の表現でもある IO::Buffer に 1 の bit を数えるメソッドです。offset と size も byte 単位での指定ができます。 https://github.com/ruby/ruby/pull/16784
