@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket の #finished_message と #peer_finished_message メソッドでマシンスタック上にバッファを確保してそこに読み込んでから String オブジェクトを生成していたのを先に String オブジェクトをサイズ指定して作成してそのバッファ上に直接読み込むようにしています。
