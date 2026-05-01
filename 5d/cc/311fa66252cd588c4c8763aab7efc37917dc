@@ -1,0 +1,1 @@
+Enumerator#inspect や Enumerator::ArithmeticSequence#inspect の実装で中間オブジェクトのコンパイラ最適化で参照がなくなって GC の mark 漏れが発生するのを避けるための RB_GC_GUARD() を追加しています。
