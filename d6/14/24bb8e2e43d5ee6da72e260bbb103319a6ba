@@ -1,0 +1,1 @@
+ZJIT で rb_control_frame_t::jit_return の値に特別な値を格納して JIT 実行のフレームであることを示す ZJIT_JIT_RETURN_POISON という値を 2 から 0xbadfbadfbadfbadfULL という値に変更しています。この値をポインタとして参照してしまった時に SIGSEGV を発生させたいのと、それが JIT フレームであるせいだということがすぐわかるようにするための数値として選ばれたみたいです。
