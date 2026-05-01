@@ -1,0 +1,1 @@
+bundler の Gemfile.lock の生成時の checksum の算出で環境変数 SKIP_BUNDLER_CHECKSUM が設定されていたら空配列を返すようにしています。 https://github.com/ruby/rubygems/pull/9501
