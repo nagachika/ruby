@@ -1,0 +1,1 @@
+File.birthtime および File::Stat#birthtime と Pathname#birthtime の rdoc 用コメントをまとめて同じような記述になるよう手直ししています。  https://github.com/ruby/ruby/pull/16744
