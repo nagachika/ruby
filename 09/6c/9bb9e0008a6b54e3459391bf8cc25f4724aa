@@ -1,0 +1,1 @@
+struct MEMO 型構造体の共用体 u3 の部分を GC で mark する時に格納されているのが VALUE か long かが GC 時に判定できなかったので、保守的な mark を行い、GC.compact で移動できないよう pin-down する mark を行なっていました。 struct RBasic::flags のビットフラグに MEMO_U3_IS_VALUE というのを導入して、flags をみて u3 の内容が VALUE かどうか判定できるようにして、より正確な mark と pin-down の回避を行なっています。
