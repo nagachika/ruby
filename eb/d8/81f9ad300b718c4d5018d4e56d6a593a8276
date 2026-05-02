@@ -1,0 +1,1 @@
+MatchData#named_captures と MatchData#deconstruct_keys で onig_foreach_name() のコールバック用に中間オブジェクトとして T_IMEMO 型オブジェクトを生成していたのを、struct named_captures_data という専用の構造体を宣言してマシンスタック上に確保してポインタを渡すようにリファクタリングしています。
