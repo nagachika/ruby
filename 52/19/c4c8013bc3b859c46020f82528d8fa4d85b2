@@ -1,0 +1,1 @@
+bundler のテスト用の gemfile や lockfile の rb_sys および nokogiri や erb などの gem バージョンを更新しています。
