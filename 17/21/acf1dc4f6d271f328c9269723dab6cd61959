@@ -1,0 +1,1 @@
+ZJIT で Class#allocate メソッドを明示的に呼んだ時に中間表現 HIR の ObjectAllocClass 命令を使って軽量な C 関数呼び出しを行うように最適化しています。
