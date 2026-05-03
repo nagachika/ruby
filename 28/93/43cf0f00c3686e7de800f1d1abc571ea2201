@@ -1,0 +1,1 @@
+Object Shapes のインスタンス変数を格納するための fields_obj のための T_IMEMO 型オブジェクトの確保のための API を整理してメモリ確保と shape_id の設定をまとめて実行するようにしています。
