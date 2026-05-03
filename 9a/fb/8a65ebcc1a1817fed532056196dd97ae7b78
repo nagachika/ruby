@@ -1,0 +1,1 @@
+Object Shapes のための構造体 rb_shape_tree_t の配列 capacities をヒープに別途メモリを確保していたのを構造体内に SHAPE_ID_HEAP_INDEX_MAX 個の配列として埋め込みにして、next_shape_id と cache_size というメンバーは削除して独立した static 変数に切り出し、root_shape は shape_list と同一で冗長だったので削除とリファクタリングしています。
