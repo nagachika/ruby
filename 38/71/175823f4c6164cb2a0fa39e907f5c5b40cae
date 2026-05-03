@@ -1,0 +1,1 @@
+shape.h 内の構造体 struct rb_shape の宣言で type の型を uint8_t の整数型から enum shape_type を利用するようにリファクタリングしています。
