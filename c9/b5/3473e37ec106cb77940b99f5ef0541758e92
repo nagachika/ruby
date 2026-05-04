@@ -1,0 +1,1 @@
+Object Shapes の too_complex への遷移の API 群の関数名変更、inline 化などの大きめのリファクタリングをしています。
