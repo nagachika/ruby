@@ -1,0 +1,1 @@
+Object Shapes でインスタンス変数の配置が複雑になって too_complex に移行する時の関数 transition_complex() で不要な赤黒木の探索をなくしてシンプルにするリファクタリング。
