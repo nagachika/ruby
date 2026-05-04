@@ -1,0 +1,1 @@
+YJIT や ZJIT でインスタンス変数のインデックスの ivar_index の型を u16 に決め打ちにしていたのを C の attr_index_t 型を取り込んでこれを利用するように修正しています。将来 ivar_index を 1byte に変更する予定なのでってことみたいです。 ついでに? Cargo.lock で Rust のパッケージ insta のバージョンを 1.47.2 に更新しています。 https://github.com/ruby/ruby/pull/16817 から一部抜粋した変更らしいです。
