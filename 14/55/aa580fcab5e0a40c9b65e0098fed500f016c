@@ -1,0 +1,1 @@
+Object Shapes の木構造を再構築する rb_shape_rebuild() で実際に再構築が不要な条件で処理をスキップする最適化。
