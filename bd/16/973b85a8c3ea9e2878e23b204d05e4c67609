@@ -1,0 +1,1 @@
+proc.c の rb_proc_call_kw() で引数の配列オブジェクトのバッファを得るのに RARRAY_CONST_PTR() を呼んでたのを RARRAY_PTR() に修正しています。実際にはバッファの内容を書き変える可能性があるので Writer Barrier つきの RARRAY_PTR() を使う必要がありました。 f617eff63e10b65566042f20b4a76d4f392d131b で導入した wbcheck 実装でみつけたのかな。
