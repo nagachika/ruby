@@ -1,0 +1,1 @@
+Object Shapes 関連のビットマスクの定数 SHAPE_ID_READ_ONLY_MASK から SHAPE_ID_FL_HAS_OBJECT_ID を除外しています。
