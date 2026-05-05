@@ -1,0 +1,1 @@
+Object Shapes に関する内部的な関数や変数名の raw_id を offset に変更するリファクタリング。
