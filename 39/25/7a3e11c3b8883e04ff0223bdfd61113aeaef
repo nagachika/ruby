@@ -1,0 +1,1 @@
+構造体 struct RObject の共用体に st_table の hash というメンバーを追加して Object Shapes の too_complex 時のインスタンス変数テーブルを同じ共用体の heap.table から無理矢理キャストして使っていたのを本来の型で扱えるようにしています。実体としては変化ないはず。
