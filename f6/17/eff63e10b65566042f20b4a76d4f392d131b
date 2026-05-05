@@ -1,0 +1,1 @@
+GC の modGC による別実装として gc/wbcheck/ というのを追加しています。詳細はみてませんが RGenGC の WriteBarrier の検証をするためのデバッグ的用途のための実装みたいです。
