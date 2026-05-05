@@ -1,0 +1,1 @@
+Object Shapes に関する定数 RubyVM::Shape::SHAPE_MAX_EMBEDDED_CAPACITY を追加して、テストでマジックナンバー化していた Variable Width Allocation による拡張 slot に埋め込みできる上限をこの定数を参照するようにして実装の変更に追随できるようにしています。
