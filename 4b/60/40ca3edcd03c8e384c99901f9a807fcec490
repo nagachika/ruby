@@ -1,0 +1,1 @@
+拡張ライブラリ strscan のドキュメントの .md ファイル群から call-seq を削除して C のソースコードのコメントのほうに移植しています。 .md ファイルにある call-seq に先頭の ":" が抜けてて機能してなかったようです。 https://github.com/ruby/strscan/pull/203
