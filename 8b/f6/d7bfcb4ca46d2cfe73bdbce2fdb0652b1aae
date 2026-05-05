@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.load_iseq を再定義すると coverage が正常に取れなくなるという不具合を修正しています。coverage の設定を set_compile_option_from_ast() で行なっていたのを rb_iseq_new_eval() に移動して漏れないようにしています。また RubyVM::InstructionSequence.compile_file などのメソッドの実装からも coverage の設定を呼び出すように修正しています。 [ruby-core:125377] [Bug #22018]
