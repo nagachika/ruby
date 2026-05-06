@@ -1,0 +1,1 @@
+880901afbb4687d6410e616fbc55e123141d34ca で改名した revalidate_setivar_cache() の定義に ALWAYS_INLINE() を利用して常に inline 化されるようにしています。
