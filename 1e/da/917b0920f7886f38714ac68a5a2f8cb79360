@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_t 構造体の parent_id を parent_offset に改名しています。ビットフラグの情報が含まれていないことを明示するための改名みたいです。
