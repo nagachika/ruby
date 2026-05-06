@@ -1,0 +1,1 @@
+GC.compact による移動時に T_OBJECT 型オブジェクトを Variable Width Allocation による slot サイズの異なる heap 間の移動で Object Shapes の再構築時の GC の再帰的発生の対策がもう不要になっているので削除してシンプルにしています。 https://github.com/ruby/ruby/pull/6926 https://github.com/ruby/ruby/pull/6938
