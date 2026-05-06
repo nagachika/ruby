@@ -1,0 +1,1 @@
+GC の mmtk 実装ではマルチスレッドを利用するため GC 実装内で rb_execution_context_t を取得する時に GET_EC() が期待した動作をしないので専用に関数 rb_gc_get_ec() を導入して、GC 中は rb_objspace_t にメンバー vm_context を追加して GC 開始時に格納しておいた rb_execution_context_t を利用参照するようにしています。
