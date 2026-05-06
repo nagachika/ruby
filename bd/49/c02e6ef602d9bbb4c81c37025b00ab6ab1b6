@@ -1,0 +1,1 @@
+shape.c の inline 関数の shape_id() や shape_offset() を SHAPE_ID() や SHAPE_OFFSET() と大文字の関数名に改名しています。慣習的にはマクロを大文字で命名することが多いですが、変数名として使いたい名前なのでそこと衝突するのを避けるためとのこと。
