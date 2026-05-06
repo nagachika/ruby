@@ -1,0 +1,1 @@
+同じく prism の ripper 用 AST 生成で Array のかわりに Set を使ったり case 文による分岐を if 文による分岐に変更するなどの最適化。
