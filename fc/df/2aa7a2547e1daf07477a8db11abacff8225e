@@ -1,0 +1,1 @@
+vm_callinfo.h の vm_pack_shape_and_index() で index をインクリメントして構造体に詰めておいて vm_unpack_shape_and_index() でデクリメントして取り出しているのが無駄だったのでそのまま設定するようにリファクタリングしています。
