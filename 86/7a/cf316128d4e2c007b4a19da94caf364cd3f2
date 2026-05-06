@@ -1,0 +1,1 @@
+内部的に利用している memory_view というオブジェクトも RGenGC 用の Write Barrier を追加して WB-protected なオブジェクトにしています。これなにに使ってるんだっけ?
