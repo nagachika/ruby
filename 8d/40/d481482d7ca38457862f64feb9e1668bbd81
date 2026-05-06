@@ -1,0 +1,1 @@
+Object Shapes の shape_id のインラインキャッシュのチェック処理を revalidate_cache() という関数に切り出して共有化するリファクタリング。
