@@ -1,0 +1,1 @@
+IO.write メソッドの rdoc 用コメントにもサンプルを追加し、サンプルコードでは IO.write ではなく File.write を使うようにしています。 https://github.com/ruby/ruby/pull/16857
