@@ -1,0 +1,1 @@
+Object Shapes の rb_shape_id のキャッシュの初期化に使う定数 INVALID_SHAPE_ID を -1 をキャストして定義していたのを SHAPE_BUFFER_SIZE-1 として利用するビット数を減らして定義するようにしています。 uint64_t の変数に 2つの shape_id を詰めてキャッシュできるようにするためみたいです。
