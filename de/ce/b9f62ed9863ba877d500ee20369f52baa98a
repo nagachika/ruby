@@ -1,0 +1,1 @@
+Object Shapes の実装に関連して rb_shape_obj_*() という関数名を rb_obj_shape_*() と改名しています。
