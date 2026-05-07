@@ -1,0 +1,1 @@
+6074e53703cf22b837c58f010c99651de7ad442f の INVALID_SHAPE_ID の変更で下準備しておいた shape_id のキャッシュを uint64_t に source shape と destination shape をセットにして詰めるよう省スペース化する変更です。構造体や関数の追加もあり結構大きな差分ですね。
