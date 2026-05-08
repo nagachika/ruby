@@ -1,0 +1,1 @@
+a42a6bc2adca25070706688b3b8247d26160364f からの続きで bundler で Gemfile の override に :all で全 gem の条件を上書きする記法で version の指定を含めるのをエラーになるようにしています。
