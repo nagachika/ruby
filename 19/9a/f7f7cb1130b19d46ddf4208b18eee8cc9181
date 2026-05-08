@@ -1,0 +1,1 @@
+a42a6bc2adca25070706688b3b8247d26160364f からの続きで bundler の Bundler::Dsl にも override という attr を追加しています。 Gemfile で gem のかわりに override というメソッドを書けるようにしています。なるほど、依存関係を無視して gem をインストールするみたいな機能かな。
