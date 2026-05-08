@@ -1,0 +1,1 @@
+rubygems の PLATFORM の指定の名前から Windows 版の cygwin の対応を削除しています。
