@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream から同期するリポジトリから cgi と pathname を削除しています。
