@@ -1,0 +1,1 @@
+imemo.c で RUBY_DEBUG マクロが定義されている時だけ使われる変数のコンパイラ警告抑制のため preprocessor 分岐を追加しています。
