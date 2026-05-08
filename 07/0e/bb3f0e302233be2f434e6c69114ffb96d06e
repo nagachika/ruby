@@ -1,0 +1,1 @@
+ZJIT でブロックが Proc オブジェクト化されて EP がヒープに剥がされた時に PatchPoint を書き換えて JIT コンパイルされたコードを無効化する処理が PatchPoint を invariants.no_ep_escape_iseq_patch_points から消さないので繰り返しコールバックが呼ばれてしまっていたのを修正しています。
