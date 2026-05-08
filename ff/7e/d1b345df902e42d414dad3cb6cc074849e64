@@ -1,0 +1,1 @@
+bundler の Bundler::LockfileParser#initialize が lockfile でない文字列に対してチェックを強化して警告を発生させるようにしています。
