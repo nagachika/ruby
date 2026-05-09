@@ -1,0 +1,1 @@
+gc.c で 06fc5c24820e1cba55183f8d3a33959192d4bf36 で導入した rb_gc_get_ec() を使ってなかったところが残っていたので GET_EC() から rb_gc_get_ec() に変更しています。また GC の default 実装で gc_start() で struct rb_gc_vm_context::ec を初期化しておくようにしています。
