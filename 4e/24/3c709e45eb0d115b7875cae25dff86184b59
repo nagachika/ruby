@@ -1,0 +1,1 @@
+Pathname::SEPARATOR_LIST という内部的な? 定数を削除しています。
