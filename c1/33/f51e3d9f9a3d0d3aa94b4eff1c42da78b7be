@@ -1,0 +1,1 @@
+ZJIT の 070ebb3f0e302233be2f434e6c69114ffb96d06e の修正と同様に invariants の PatchPoint の処理時に削除してなくて invariants の要素が増え続ける可能性があったのを修正しています。
