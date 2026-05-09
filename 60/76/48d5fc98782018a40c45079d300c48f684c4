@@ -1,0 +1,1 @@
+bundler の bundle config get で指定の設定項目がなかった時に終了ステータスを 1 で終了させるようにしています。 https://github.com/ruby/rubygems/issues/3215
