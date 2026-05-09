@@ -1,0 +1,1 @@
+GitHub Actions の workflows で ruby-bench の実行時に環境変数 BUNDLER_VERSION=0 の指定を追加しています。古い bundler が 4e243c709e45eb0d115b7875cae25dff86184b59 で削除した Pathname::SEPARATOR_LIST ? に依存していたらしく、これを回避するためとのこと。 https://github.com/ruby/rubygems/pull/9529
