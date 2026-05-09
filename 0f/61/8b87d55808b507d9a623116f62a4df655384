@@ -1,0 +1,1 @@
+607648d5fc98782018a40c45079d300c48f684c4 からの続きで bundler の bundle config get のテストで終了ステータスが非0の時に例外を起こさないように raise_on_error: false の指定を追加しています。
