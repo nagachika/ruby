@@ -1,0 +1,1 @@
+ここから昨日 bundler に追加された Gemfile に書ける override メソッドのオプションを追加して全 gem の required_ruby_version の指定を無視させる機能の追加が続きます。
