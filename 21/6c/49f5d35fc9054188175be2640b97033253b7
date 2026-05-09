@@ -1,0 +1,1 @@
+file.c の DOSISH または __CYGWIN__ というマクロで Windows 形式のパスの時の preprocessor 分岐していたのを FILE_ALT_SEPARATOR とか DOSISH_DRIVE_LETTER とかその場所ごとの意図がわかるようなマクロで分岐するようにリファクタリングしています。
