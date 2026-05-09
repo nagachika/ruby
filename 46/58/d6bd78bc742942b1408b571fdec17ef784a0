@@ -1,0 +1,1 @@
+bundler の gemfile を指定する設定を環境変数 BUNDLE_LOCKFILE に反映する処理を bundle config サブコマンドではスキップするようにしています。bundle config gemfile unset が効かないという不具合を修正しているそうです。
