@@ -1,0 +1,1 @@
+GC の mmtk 実装に RACTOR_CHECK_MODE を 1以上に指定して Ractor のデバッグ用にビルドした時のオブジェクトの slot を拡張して ractor の id を格納するというデバッグ機能への対応を追加しています。
