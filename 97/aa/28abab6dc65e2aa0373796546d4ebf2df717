@@ -1,0 +1,1 @@
+.gdbinit によるデバッガのカスタムコマンドの rb_ps で最近の構造体の変更などに追随する修正。 https://github.com/ruby/ruby/pull/16896
