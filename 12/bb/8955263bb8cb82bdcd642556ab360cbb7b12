@@ -1,0 +1,1 @@
+さらに T_MATCH 型オブジェクトのマッチ情報全体の配列にアクセスするための RMATCH_BEG_PTR() と RMATCH_END_PTR() という inline 関数も追加しています。今のところ memcmp(3) とか rb_memhash() に渡してるだけなので大丈夫だけど GC が発生し得るところで使うと危ない感じがしますね。
