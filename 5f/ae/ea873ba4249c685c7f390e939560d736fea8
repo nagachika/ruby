@@ -1,0 +1,1 @@
+gc.c の rb_gc_event_hook() にて ModGC で GC 実装の拡張ライブラリ化をしていた場合に rb_execute_context_t を rb_current_ec_set() で保存しておいて mmtk 実装での GC thread からのイベントフック実行時に rb_gc_get_ec() での EC 取得に対応するようにしています。
