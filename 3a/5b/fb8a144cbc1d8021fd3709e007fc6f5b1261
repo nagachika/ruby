@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の Function::find の実装を Insn::for_each_operand_mut を利用することで劇的に短くシンプルにリファクタリングされています。 https://github.com/ruby/ruby/pull/16902
