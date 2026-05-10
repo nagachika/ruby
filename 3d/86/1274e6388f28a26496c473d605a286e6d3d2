@@ -1,0 +1,1 @@
+T_MATCH 型オブジェクトの構造体メンバーにアクセスする inline 関数 RMATCH_BEG(), RMATCH_END(), RMATCH_NREGS() などを導入して struct re_registers::num_regs などに直接アクセスしないようにリファクタリングしています。
