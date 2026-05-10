@@ -1,0 +1,1 @@
+3d861274e6388f28a26496c473d605a286e6d3d2 の続きで re.c に定義されていた BEG() と END() というマクロで構造体メンバーにアクセスしてたところが残ってたので RMATCH_BEG()/RMATCH_END() に置き換えています。 struct re_registers::num_regs に直接アクセスしているところも残っていたのでこれも RMATCH_NUMREGS() に置き換えています。
