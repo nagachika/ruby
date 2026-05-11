@@ -1,0 +1,1 @@
+scheduler.c の rb_fiber_scheduler_blocking_operation_wait() に中間オブジェクトの blocking_operation がコンパイラ最適化による参照の喪失で GC の mark されなくなる可能性を防ぐための RB_GC_GUARD() を追加しています。 https://github.com/ruby/ruby/pull/16908
