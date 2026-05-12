@@ -1,0 +1,1 @@
+Kernel#Rational() が引数に "1r" のようにリテラルで許容されている r の suffix が付いている文字列を解釈しないという不具合を修正しています。 e08ec2b3882efc7f65f9834fa3bd9b63c10988a9 のテストメソッド分割にも依存。 https://github.com/ruby/ruby/pull/11447 [ruby-core:118941] [Bug #20697]
