@@ -1,0 +1,1 @@
+shape.c のプロセス初期化時の Init_default_shapes() での rb_bug() の size_t 型変数のためのフォーマット指示子を修正しています。
