@@ -1,0 +1,1 @@
+include/ruby/internal/attr/format.h に MinGW 環境のために #include <stdio.h> を追加しています。 __MINGW_PRINTF_FORMAT というマクロ定義を取り込むためとのこと。
