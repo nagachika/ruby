@@ -1,0 +1,1 @@
+Array#pack と String#unpack のキーワード引数 offset に負の整数で末尾からの指定にも対応するように機能拡張しています。 https://github.com/ruby/ruby/pull/16641 [ruby-core:125180] [Feature #21979]
