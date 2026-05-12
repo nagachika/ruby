@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler のフックで EC_PUSH_TAG() で大域脱出を捕捉する処理で rb_execute_context_t::cfp を保存しておいて巻き戻す処理を追加しています。 https://github.com/ruby/ruby/pull/16916
