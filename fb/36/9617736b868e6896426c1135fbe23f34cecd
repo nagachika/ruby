@@ -1,0 +1,1 @@
+拡張ライブラリ json の parser の内部的オブジェクトで RGenGC の Write Barrier 漏れがあったので修正しています。
