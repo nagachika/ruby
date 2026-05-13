@@ -1,0 +1,1 @@
+parse.y で END のブロック内の break や next, redo が許容されていたのを SyntaxError を発生させるようにしています。 https://github.com/ruby/ruby/pull/15185 [ruby-core:117434] [Bug #20409]
