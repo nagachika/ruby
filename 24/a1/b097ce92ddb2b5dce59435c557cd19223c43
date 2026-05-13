@@ -1,0 +1,1 @@
+rb_classext_t 構造体を Ruby::Box ごとに管理するための st_table のキーにそのクラスの object_id を使っていましたが、GC の mmtk 実装でこのテーブルを lookup するために object_id を得るために rb_execution_context_t の参照を得るのに問題があったとのことでクラスの参照である VALUE の値そのものを key として使うように変更しています。key も value もどっちも同じクラスオブジェクトの参照なので Set のように使っています。クラスは GC.compact で移動しないよう pin されているオブジェクトなので VALUE を直接 key に使うことができるとのこと。なるほど。
