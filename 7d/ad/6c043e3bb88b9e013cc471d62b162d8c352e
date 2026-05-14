@@ -1,0 +1,1 @@
+Pathname#split_names という private メソッドも ruby 実装から C 実装に移植しています。
