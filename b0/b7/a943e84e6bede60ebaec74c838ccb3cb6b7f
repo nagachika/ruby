@@ -1,0 +1,1 @@
+Pathname の組み込みメソッドの ruby 実装のコードで Pathname#<=> と Pathname#sub が未定義の時の fallback 定義がもう不要になってたので削除しています。
