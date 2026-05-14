@@ -1,0 +1,1 @@
+common.mk の make test-bundler での $(XRUBY) の実行時に --enable-gems オプションを明示的に渡すようにしています。 RUN_OPTS で --disable-gems が指定されているためこれを打ち消す必要があったみたいです。 https://github.com/ruby/ruby/pull/16910 [ruby-core:125417] [Bug #22057]
