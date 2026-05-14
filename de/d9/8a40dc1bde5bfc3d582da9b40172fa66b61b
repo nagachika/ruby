@@ -1,0 +1,1 @@
+ファイルパスが NUL 文字を含んでいないかのチェックの関数を rb_get_path_check_no_convert() として切り出して Pathname の実装でも流用するようにしています。
