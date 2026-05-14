@@ -1,0 +1,1 @@
+common.mk で rdoc が bundled gems になったため rdoc の実行に --enable-gems をつけた ruby を利用するようにしています。
