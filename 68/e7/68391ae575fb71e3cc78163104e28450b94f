@@ -1,0 +1,1 @@
+common.mk でコマンド分に ruby のスクリプトを -e オプションに長い文字列で渡していたのを tool/lib/bundled_gems.rb に移動しています。
