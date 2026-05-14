@@ -1,0 +1,1 @@
+IO::Buffer#each_byte で引数の offset と length からくる終点の位置がバッファ内に収まっているかの引数チェックを追加して ArgumentError 例外を発生させるようにしています。 https://github.com/ruby/ruby/pull/16823
