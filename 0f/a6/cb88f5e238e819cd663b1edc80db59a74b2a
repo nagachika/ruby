@@ -1,0 +1,1 @@
+プロセス初期化時の Init_Cont() で FiberError 例外のためのオブジェクトの変数 rb_eFiberError の初期化を fiber_pool_initialize() の前に移動しています。 ruby.wasm で Fiber pool の初期化中に例外を発生させる場合があり、その時点でまだ変数が初期化されていないため異常終了になってしまう可能性があったようです。 https://github.com/ruby/ruby/pull/16925 [ruby-dev:52210] [Bug #21989]
