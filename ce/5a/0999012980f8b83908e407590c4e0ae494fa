@@ -1,0 +1,1 @@
+Pathname#del_trailing_separator という private メソッドも ruby 実装から C 実装に移植しています。
