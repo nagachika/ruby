@@ -1,0 +1,1 @@
+Pathname の Pathname#prepend_prefix の実装で private メソッド add_trailing_separator を使いまわすリファクタリング。
