@@ -1,0 +1,1 @@
+Pathname の ruby 実装で参照していた Pathname::SEPARATOR_PAT という定数の参照のかわりに Pathname#has_separator? という private メソッドの定義を C 実装で追加してこれを利用するようにしています。
