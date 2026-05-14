@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で古い Windows 環境でも make test-bundled-gems を実行するように matrix に追加しています。
