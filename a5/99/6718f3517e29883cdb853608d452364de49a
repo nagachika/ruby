@@ -1,0 +1,1 @@
+7c5c967fca7c873414b1eed56d662dc4118123dd の変更で不要になった Pathname::SEPARATOR_PAT という定数を削除しています。
