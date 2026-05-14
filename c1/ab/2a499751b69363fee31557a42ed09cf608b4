@@ -1,0 +1,1 @@
+GitHub Actions の WASM 用 workflow に ruby/setup-ruby アクションで ruby 3.1 をセットアップするステップを .github/actions/setup/directories の実行前に移動しています。直近の変更で default gems の gemspec 更新のためのスクリプトが新しめの ruby を必要とするようになったためかと思われます。
