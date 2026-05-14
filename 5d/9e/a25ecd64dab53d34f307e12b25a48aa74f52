@@ -1,0 +1,1 @@
+configure の RUNRUBY_COMMAND でディレクトリ変更のコマンドを cd と決め打ちで書いてたのを $(CHDIR) を使うようにしています。
