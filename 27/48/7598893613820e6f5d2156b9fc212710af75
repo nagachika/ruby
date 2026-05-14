@@ -1,0 +1,1 @@
+common.mk の ext/configure-ext.mk の依存関係に default gems の gemspec ファイルの更新処理を追加しています。
