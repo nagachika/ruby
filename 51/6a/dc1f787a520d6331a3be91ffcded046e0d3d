@@ -1,0 +1,1 @@
+Pathname#has_training_separator? というメソッドも ruby 実装から C 実装に移植しています。
