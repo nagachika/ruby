@@ -1,0 +1,1 @@
+9021799650021684e5586215f00f0b701d6160ab の Pathname#absolute? の実装の C への移植で不要になった Pathname::ABSOLUTE_PATH という正規表現の定数を削除しています。
