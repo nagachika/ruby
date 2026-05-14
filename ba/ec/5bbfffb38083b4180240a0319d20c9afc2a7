@@ -1,0 +1,1 @@
+Set の compare_by_identity にして同値性でなく同一性で管理するようにした Set の場合 VALUE 値そのものがキーとして使われるため GC.compact での移動してはいけなくなるので、GC の mark 処理時に pin-down するようにしています。 https://github.com/ruby/ruby/pull/16923 [ruby-core:125466] [Bug #22064]
