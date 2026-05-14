@@ -1,0 +1,1 @@
+組み込みメソッド Pathname#children の ruby 実装で Dir.foreach を利用していたのを Dir.children を使うようにリファクタリングしています。
