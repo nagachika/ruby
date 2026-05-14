@@ -1,0 +1,1 @@
+Pathname の組み込みメソッド Pathname#mkpath の ruby 実装で File.dirname の呼び出しが繰り返されてたところをローカル変数に代入して使いまわすように最適化しています。
