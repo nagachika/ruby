@@ -1,0 +1,1 @@
+ZJIT で不要な型 guard の命令(TypeGuard)が除去されないという不具合があったのを修正しているようです。 https://github.com/ruby/ruby/pull/16828
