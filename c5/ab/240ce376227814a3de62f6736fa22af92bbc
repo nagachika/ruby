@@ -1,0 +1,1 @@
+GC の開始時に rb_execution_context_t を保存しておく rb_gc_initialize_vm_context() の呼び出しをプロセスの初期化中でまだ準備ができていない時の早期 return の条件分岐の後に移動しています。 ec がまだ取得できない時に呼ばれる可能性があったため。
