@@ -1,0 +1,1 @@
+common.mk で rdoc の実行のために cross compiling 時には BASERUBY を使うように修正しています。
