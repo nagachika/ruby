@@ -1,0 +1,1 @@
+GitHub Actions の ModGC を有効化する workflow で ctions-rust-lang/setup-rust-toolchain アクションの cache-bin というオプションを false にしています。キャッシュ利用が意図しない結果になることがあるためみたいです。 https://github.com/ruby/ruby/pull/16953
