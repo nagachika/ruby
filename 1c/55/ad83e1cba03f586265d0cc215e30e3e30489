@@ -1,0 +1,1 @@
+gems/bundled_gems の minitest と net-imap のバージョンをそれぞれ 6.0.6 と 0.6.4 に更新しています。また NEWS の bundled gems の更新履歴をアップデートしています。
