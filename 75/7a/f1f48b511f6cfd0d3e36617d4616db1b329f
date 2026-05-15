@@ -1,0 +1,1 @@
+ZJIT のインスタンス変数の扱いで Object Shapes の shape が変化した時に JIT コンパイルしたコードを破棄して再コンパイルするようにしているようです。 https://github.com/ruby/ruby/pull/16881
