@@ -1,0 +1,1 @@
+コミットログと内容が一致してなくてよくわからないのですが 61aa46c41648c6d1e9b0daa1a292de551fde78df の string.c のインデントの修正を巻き戻して .git-blame-ignore-revs への追記も消しています。はて?
