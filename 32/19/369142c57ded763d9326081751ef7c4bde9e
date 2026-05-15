@@ -1,0 +1,1 @@
+b28949c4df755caa0be23a22d7853bd1b6b5dd66 の続きで rubygems で環境変数 BUNDLE_VERSION に lockfile と指定されていた時の挙動を修正しています。
