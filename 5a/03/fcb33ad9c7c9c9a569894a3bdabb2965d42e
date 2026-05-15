@@ -1,0 +1,1 @@
+Class のテストでも 627f1586f0d7fb4b12c885a63d8f9afd261d651a と同様に定数の再定義警告抑制のため remove_const を追加しています。
