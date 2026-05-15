@@ -1,0 +1,1 @@
+bundler のテストの File.readable?, File.writable? のモックの追加?
