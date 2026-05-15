@@ -1,0 +1,1 @@
+Kernel#Hash() の rdoc 用コメントのサンプルで Hash#inspect のフォーマットを新しいものに追随させています。
