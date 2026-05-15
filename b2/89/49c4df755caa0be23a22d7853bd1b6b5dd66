@@ -1,0 +1,1 @@
+rubygems が環境変数 BUNDLE_VERSION を利用する処理で system を指定しても lockfile の指定が使われてしまうという不具合を修正しているようです。
