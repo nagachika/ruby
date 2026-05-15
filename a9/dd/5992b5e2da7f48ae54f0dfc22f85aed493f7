@@ -1,0 +1,1 @@
+同じく bundler で Bundler::Plugin::API.hook で登録できるイベントフックに gem のダウンロードや git の clone の前後でのフックを追加しています。
