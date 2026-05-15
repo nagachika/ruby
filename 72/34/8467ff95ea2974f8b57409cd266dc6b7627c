@@ -1,0 +1,1 @@
+bundler で plugin の読み込み前後での Bundler::Plugin::API.hook で登録できるイベントフックのタイプを追加しています。
