@@ -1,0 +1,1 @@
+common.mk の update-default-gemspecs ターゲットの依存関係に rbconfig.rb を追加しています。
