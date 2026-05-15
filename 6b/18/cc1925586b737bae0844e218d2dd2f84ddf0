@@ -1,0 +1,1 @@
+tool/rbinstall.rb に regenerate_plugins_for というメソッドを追加しています。追加しただけだなと思ったけどこれは rubygems の Gem::Installer を継承したクラスのメソッドなので Gem::Installer のメソッドを再定義して挙動を変更しているものですね。
