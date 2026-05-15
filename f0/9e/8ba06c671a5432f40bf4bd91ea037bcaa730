@@ -1,0 +1,1 @@
+ZJIT の Rust 実装でデバッグ用の機能の AssemblerPanicHook という構造体を削除しています。 https://github.com/ruby/ruby/pull/16928
