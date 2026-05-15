@@ -1,0 +1,1 @@
+rubygems の Gem::Version#approximate_recommendation で返す依存関係の書きかたで "~>" ではなく ">=" を使うように変更しています。
