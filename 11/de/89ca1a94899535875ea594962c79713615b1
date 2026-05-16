@@ -1,0 +1,1 @@
+parse.y および prism で END ブロック内での next も SyntaxError にしています。 [ruby-core:117434] [Bug #20409]
