@@ -1,0 +1,1 @@
+Ruby::Box のテストで Windows 版の CI でタイムアウトしているようで制限を伸ばしています。 https://github.com/ruby/ruby/pull/16963
