@@ -1,0 +1,1 @@
+tool/rdoc-srcdir で require 'rbs' していたのを削っています。バージョンの依存関係かなにかで? 動かないので暫定的な処置みたいです。 https://github.com/ruby/ruby/pull/16983
