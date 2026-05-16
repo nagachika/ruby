@@ -1,0 +1,1 @@
+Thread.each_caller_location でバックトレースのインデックス間違いで異常終了する可能性があった不具合を修正しています。 [ruby-core:125497] [Bug #22070]
