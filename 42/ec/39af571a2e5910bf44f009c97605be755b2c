@@ -1,0 +1,1 @@
+re.c で namev_to_backref_number() という関数に渡す引数を struct re_registers から VALUE に変更するリファクタリング。
