@@ -1,0 +1,1 @@
+rubygems で Open3.popen2e を使ってコマンド実行するところで標準入力の pipe をすぐに close するようにしています。
