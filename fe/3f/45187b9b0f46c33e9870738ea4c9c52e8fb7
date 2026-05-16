@@ -1,0 +1,1 @@
+T_MATCH 型オブジェクトのバッファを Variable Width Allocation による拡張 slot を利用して slot 内に埋め込めるようにしています。
