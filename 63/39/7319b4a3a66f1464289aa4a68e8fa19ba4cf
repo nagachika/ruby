@@ -1,0 +1,1 @@
+GC の mmtk 実装でも ec106b10a9998734eadd9a6ad14ab8209b9da5cc で gc.c の共通部分に移動した rb_ractor_setup_belonging() の呼び出しをしていたので削除しています。
