@@ -1,0 +1,1 @@
+rb_gc_obj_needs_cleanup_p() で GC の sweep 時に free 関数の呼び出しが必要か判定して不要なら高速に処理するという従来の仕組みで fe3f45187b9b0f46c33e9870738ea4c9c52e8fb7 で T_MATCH のオブジェクトで slot 埋め込みが可能になったので、その場合はこの関数で true を返すようにしています。
