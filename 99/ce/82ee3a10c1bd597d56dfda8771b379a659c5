@@ -1,0 +1,1 @@
+gems/bundled_gems の rdoc のテストで使う commit hash の指定を変更。 b5e6e0a425efcd21a62028f5c7b7d879396cb411 を revert しています。
