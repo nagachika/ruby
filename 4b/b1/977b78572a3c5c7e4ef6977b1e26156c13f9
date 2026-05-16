@@ -1,0 +1,1 @@
+internal/class.h 内の RCLASS_PRIME_CLASSEXT_WRITABLE_P() および RCLASS_SET_PRIME_CLASSEXT_WRITABLE() で FL_TEST() のかわりに FL_TEST_RAW() を、FL_SET() のかわりに FL_SET_RAW() を利用して不要な即値判定を省く最適化。
