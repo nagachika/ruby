@@ -1,0 +1,1 @@
+GC の default 実装で RACTOR_CHECK_MODE が真の時のオブジェクト確保時の rb_ractor_setup_belonging() 呼び出しを gc.c に移動しています。
