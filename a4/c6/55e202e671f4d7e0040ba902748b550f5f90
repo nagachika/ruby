@@ -1,0 +1,1 @@
+doc/syntax/refinements.rdoc の Refinements の Module#include に関する記述が古い仕様のままだったので修正しています。
