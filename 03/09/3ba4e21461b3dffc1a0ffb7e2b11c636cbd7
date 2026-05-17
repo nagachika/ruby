@@ -1,0 +1,1 @@
+tool/update-deps で依存関係の更新のため make -p の結果を parse する時に bundled gems の配下を無視するためのルールを追加しています。
