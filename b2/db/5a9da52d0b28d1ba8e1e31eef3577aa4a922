@@ -1,0 +1,1 @@
+GitHub Actions の WASM 版 workflow で configure に --disable-install-doc オプションを追加しています。また C API のテスト用の拡張ライブラリのビルドをスキップするようにしているようです。
