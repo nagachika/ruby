@@ -1,0 +1,1 @@
+GitHub Actions の cross compiling を行う workflow で apt-get でパッケージをインストールする処理を独自アクションの .github/actions/setup/ubuntu/action.yml を利用するようにしています。
