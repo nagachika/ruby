@@ -1,0 +1,1 @@
+GitHub Actions の WASM 版や cross compiling 用の workflows で BASERUBY のセットアップを行う処理を専用のアクションとして .github/actions/setup/baseruby/action.yml に分離して後処理も追加しています。
