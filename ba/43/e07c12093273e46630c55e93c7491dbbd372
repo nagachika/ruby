@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で Windows 11 ARM 版でのビルドをコメントアウトして除外しています。 scoop での依存ライブラリインストールがそもそもうまくいかないみたいです。
