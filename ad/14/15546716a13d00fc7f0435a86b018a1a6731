@@ -1,0 +1,1 @@
+Ractor のデバッグのため RB_GC_OBJ_HAS_SUFFIX を真にしてコンパイルしている時に struct RVALUE に追加のフィールドを追加するための型を gc/gc.h で定義するようにしています。 mmtk でも使いまわすためかな。
