@@ -1,0 +1,1 @@
+common.mk の ext/configure-ext.mk の依存関係に extract-gems を追加しています。 また gems/bundled_gems の rdoc のテストに使う commit hash の指定を更新しています。
