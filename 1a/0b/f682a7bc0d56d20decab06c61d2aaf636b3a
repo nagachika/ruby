@@ -1,0 +1,1 @@
+Pathname#absolute? の rdoc 用コメントのサンプルで Pathname.new のかわりに Kernel#Pathname() を使うようにしています。 https://github.com/ruby/ruby/pull/16980
