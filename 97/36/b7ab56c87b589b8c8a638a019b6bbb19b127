@@ -1,0 +1,1 @@
+Refinements でメソッドを上書きしている Module を include したクラスのメソッドでの super の呼び出しは NoMethodError 例外を発生させるようにしています。 [ruby-core:125511] [Bug #22071]
