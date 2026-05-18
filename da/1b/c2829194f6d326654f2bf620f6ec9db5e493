@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の scoop での uutils-coreutils のインストールをそもそもやめて、利用していた  comm.exe の代替を PowerShell で書くようにしているようです。
