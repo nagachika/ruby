@@ -1,0 +1,1 @@
+Ractor のデバッグのために struct RVALUE の末尾のフィールドを追加するデバッグビルド用のマクロ RB_GC_OBJ_HAS_SUFFIX が #ifdef でチェックされてたので gc/gc.h で未定義なら 0 に定義するようにして #if 値でチェックするようにしています。
