@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の ded07a7d929dea4457e1c5c1466f34e7f5a8cd46 と ba43e07c12093273e46630c55e93c7491dbbd372 の Windows 11 ARM 版を除外する変更を revert しています。
