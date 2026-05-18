@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で --vcpkg-root オプションを指定していたのを削除してデフォルトのフォルダを利用するようにしています。
