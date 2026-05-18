@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg を scoop でインストールするのは manifest モードというのに対応しているバージョンを利用するためみたいで、既に対応していたら scoop でのインストールはスキップするようにしています。
