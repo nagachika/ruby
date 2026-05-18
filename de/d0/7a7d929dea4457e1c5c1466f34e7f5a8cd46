@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow の scoop でインストールする uutils-coreutils のバージョンを固定していたのを解除しています。
