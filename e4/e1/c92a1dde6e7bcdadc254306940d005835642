@@ -1,0 +1,1 @@
+d036506b15e0fe34a36b00cfd461d409b1fcc97d で case 文の最適化のための cdhash の値が st_data_t 型をそのまま保持するようにしたので必要なところで Fixnum に変換する必要があったのが漏れていたり、cdhash が Hash 実装でなくなったので rb_hash_foreach() と st_foreach() に変更する必要があったのが漏れてたりしたのを修正しています。
