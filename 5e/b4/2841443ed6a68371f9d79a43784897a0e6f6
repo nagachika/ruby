@@ -1,0 +1,1 @@
+rb_class_path_cached() という C API を利用していたところは rb_mod_name() で代替するようにしています。元々は rb_mod_name() が遅かったので別の関数が用意されていましたが今は単に rb_mod_name() を呼ぶだけの wrapper 関数となっていたので廃止しようとしているようです。
