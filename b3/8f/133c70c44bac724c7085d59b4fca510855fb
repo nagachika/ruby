@@ -1,0 +1,1 @@
+io_buffer.c の memory_xor() および memory_not() の引数に const 修飾子を追加しています。 警告抑制?
