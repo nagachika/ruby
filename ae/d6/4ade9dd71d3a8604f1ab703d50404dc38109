@@ -1,0 +1,1 @@
+構造体 rb_vm_t の GC の mark root として使うための global_object_list を linked list として定義していたのを配列として保持するようにしています。
