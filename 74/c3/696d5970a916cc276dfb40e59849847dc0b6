@@ -1,0 +1,1 @@
+debug_counter.h のカウンタに obj_imemo_subclasses という項目を追加して imemo_subclasses タイプの T_IMEMO 型オブジェクトの解放時にインクリメントするようにしています。確保時じゃなくて開放時なんだな。
