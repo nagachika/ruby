@@ -1,0 +1,1 @@
+bc8fc5da9116f40e9f44a795b97cdbe991206515 からの続きで GitHub Actions でパッケージでのテストを行う workflow で古い macOS 版でも make test-bundler-parallel を実行するようにしています。
