@@ -1,0 +1,1 @@
+fafb55877aaf34592278eb3ef9ba3f61473d0a56 で Refinements 利用時の super でスタックオーバーフローなどが起きるのを修正した時に Method/UnboundMethod の arity や parameters が変化してしまっていた? という不具合を修正しているようです。
