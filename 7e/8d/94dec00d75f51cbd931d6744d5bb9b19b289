@@ -1,0 +1,1 @@
+doc/language/format_specifications.rdoc のフォーマット指示子の説明から %F という対応していない指示子が含まれていたのを削っています。
