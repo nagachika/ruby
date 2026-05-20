@@ -1,0 +1,1 @@
+Fiber 用の coroutine 実装の ppc64le 向けの coroutine_transfer に、ELFv2 ABI で要求される global entry prologue というのを追加しています。詳細な説明はコミットログをみてもらったほうがいいですが PLT 経由で呼ばれた時に不正なアドレス参照になる可能性があったので ABI の作法に従うようにしたというものみたいです。
