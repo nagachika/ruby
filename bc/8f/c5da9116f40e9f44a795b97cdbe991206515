@@ -1,0 +1,1 @@
+GitHub Actions にリリースパッケージの作成時のテスト(作成した tarball からのビルドとテスト)を行う workflow を追加しています。これまて ruby/actions という別のリポジトリで daily で動かしてたものを ruby/ruby 本体で行なうようにしているようです。
