@@ -1,0 +1,1 @@
+bc8fc5da9116f40e9f44a795b97cdbe991206515 からの続きで GitHub Actions でパッケージでのテストを行う workflow で template injection を防ぐために展開する内容を環境変数を経由するようにしています。
