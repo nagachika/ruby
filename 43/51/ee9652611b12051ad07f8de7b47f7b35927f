@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の GetSpecialSymbol および GetSpecialNumber 命令の型アノテーションを強化しています。 https://github.com/ruby/ruby/pull/17012
