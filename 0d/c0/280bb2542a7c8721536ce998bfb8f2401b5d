@@ -1,0 +1,1 @@
+fd6a25342f071ada81bf0b452a6fd530468d7bb8 の続きで GitHub Actions の workflow の template injection の対処のため archname を環境変数を経由して渡すようにしています。
