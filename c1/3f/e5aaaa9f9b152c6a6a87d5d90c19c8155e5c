@@ -1,0 +1,1 @@
+GitHub Actions のパッケージ作成用の workflow  github/actions/make-snapshot/action.yml でも .tar.bz2 のパッケージについてのテストは削除しています。
