@@ -1,0 +1,1 @@
+tool/make-snapshot で .tar.bz2 のパッケージへの対応はもう不要なので削除しています。
