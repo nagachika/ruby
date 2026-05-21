@@ -1,0 +1,1 @@
+Pathname の absolute? と relative? のチェックをまとめて行なうようにテストを改良しています。
