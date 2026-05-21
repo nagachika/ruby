@@ -1,0 +1,1 @@
+Module#define_method にブロックを渡して定義されたメソッドについての Method#super_method が異常終了する可能性があった不具合を修正しています。
