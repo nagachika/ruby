@@ -1,0 +1,1 @@
+GitHub Actions の tar パッケージでのビルドの確認用 workflow で展開後の cd するディレクトリ名の指定に workflow の引数の archname を利用するようにしています。
