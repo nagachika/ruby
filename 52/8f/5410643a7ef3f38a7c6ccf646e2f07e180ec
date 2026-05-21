@@ -1,0 +1,1 @@
+test/.excludes/TestThread.rb を追加して mswin 環境で Thread#join を finalizer から呼ぶテスト? を skip させています。
