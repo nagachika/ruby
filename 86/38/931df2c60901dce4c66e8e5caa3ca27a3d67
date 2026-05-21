@@ -1,0 +1,1 @@
+GC の mmtk 実装の警告抑制のため rb_bug() で異常終了させるため return しない関数の定義に RBIMPL_ATTR_NORETURN() をつけています。
