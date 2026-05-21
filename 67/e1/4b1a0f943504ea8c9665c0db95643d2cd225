@@ -1,0 +1,1 @@
+Pathname#del_trailing_separator のテストの Windows 向け分岐を整理するリファクタリング。
