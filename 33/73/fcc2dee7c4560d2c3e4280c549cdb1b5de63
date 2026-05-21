@@ -1,0 +1,1 @@
+IO::Buffer#~ でも IO::Buffer#slice で作った slice の元の IO::Buffer のバッファが解放済みの時のチェックと例外発生を追加しています。
