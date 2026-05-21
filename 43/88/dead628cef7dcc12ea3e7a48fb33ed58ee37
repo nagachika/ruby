@@ -1,0 +1,1 @@
+GitHub Actions のパッケージ作成の確認の workflow で古い Windows 環境でのビルド確認を削除しています。
