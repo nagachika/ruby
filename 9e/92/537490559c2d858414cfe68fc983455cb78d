@@ -1,0 +1,1 @@
+GitHub Actions に daily で起動する workflow を追加して tar パッケージ作成とビルドのテストはこの workflow から dispatch することで master と各安定版ブランチのものを起動するようにしています。どのブランチでテストするかを master で管理できるようにするためですね。
