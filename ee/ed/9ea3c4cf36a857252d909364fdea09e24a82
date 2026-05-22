@@ -1,0 +1,1 @@
+gc/gc.h から rb_gc_update_set_refs() のための関数群を gc.c に移動してインライン展開するリファクタリング。
