@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の Ubuntu 版で test-bundled-gems のために ruby/setup-ruby で 3.2 の ruby をインストールさせていたのを削除しています。
