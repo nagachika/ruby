@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の Ubuntu 版で ~/.gnupg/ の削除はまだ必要だったみたいで復活させています。
