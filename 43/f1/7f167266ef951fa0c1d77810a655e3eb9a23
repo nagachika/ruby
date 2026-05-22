@@ -1,0 +1,1 @@
+template/configure-ext.mk.tmpl にて --with-ext と --without-ext というオプションの対応を追加して特定の拡張ライブラリをビルド対象から外すなどの指定ができるようにしています。
