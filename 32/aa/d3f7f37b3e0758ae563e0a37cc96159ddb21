@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用の独自アクションでパッケージを actions/upload-artifact でアップロードするかどうかを制御できる引数を追加しています。
