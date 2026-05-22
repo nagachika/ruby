@@ -1,0 +1,1 @@
+common.mk で cross-compiling 時に ext/configure-ext.mk の生成時に 43f17f167266ef951fa0c1d77810a655e3eb9a23 で追加した --without-ext オプションを利用して ext/-text-/ の拡張ライブラリのビルドを抑制するようにしています。
