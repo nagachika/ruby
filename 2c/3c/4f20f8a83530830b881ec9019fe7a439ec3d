@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の Ubuntu 版で apt のパッケージをなにやら再インストール? していた workaround ももう不要になってたみたいなので削除しています。
