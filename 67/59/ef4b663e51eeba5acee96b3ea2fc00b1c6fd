@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の Windows 版でも確認のため gem -v と bundle -v を実行させてたのを revert しています。
