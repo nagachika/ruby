@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージテスト用の workflow の macOS 版で不要になってた HomeBrew のインストール処理を削除しています。
