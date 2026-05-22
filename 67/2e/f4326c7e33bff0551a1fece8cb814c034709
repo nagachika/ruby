@@ -1,0 +1,1 @@
+ec114e5701839ac5bb8a97f901333b865ff96c8a で変更した GC の default 実装での xmalloc()/xfree() の管理のためのカウンタの情報を GC.stat でそれぞれ :total_malloc_bytes/:total_free_bytes という項目で返すようにしています。
