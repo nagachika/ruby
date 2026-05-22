@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の Ubuntu 版で ruby -v でバージョン番号確認するために実行する ruby のパスを指定できるようにしていたのをやめています。
