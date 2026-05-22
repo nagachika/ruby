@@ -1,0 +1,1 @@
+85e95675d142f7fa8637484aba59b4e07ad8f2fe の続きで GitHub Actions のリリースパッケージのテスト用 workflow の Ubuntu 版で ruby -v を実行してたところで gem -v, bundle -v も実行するようにしています。
