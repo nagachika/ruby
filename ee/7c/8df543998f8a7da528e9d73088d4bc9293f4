@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow で 187a056e78dcea0dd69645955b0994485e05d0fc で追加した Slack 通知のための notify-release-channel を workflow_dispatch での起動時のみ参照するように制限しています。
