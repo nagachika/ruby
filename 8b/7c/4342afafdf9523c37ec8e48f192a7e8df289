@@ -1,0 +1,1 @@
+GC の default 実装で前回の GC からの xmalloc()/xfree() でのメモリ確保/解放の差分をとるための snapshot 保存を sweep 完了直後に移動して、free() の数が sweep 中のものを漏らしていた? のを修正しています。
