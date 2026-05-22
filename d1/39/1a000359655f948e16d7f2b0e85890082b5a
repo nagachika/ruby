@@ -1,0 +1,1 @@
+defined? が protected なメソッドの呼び出しの式に対して nil を返すことがあるという不具合を修正しています。発生している現象は Refinements とは関係ないのですが修正箇所をみると Refinements 関連の対応で発生した不具合っぽいですね。 [ruby-core:125553] [Bug #22076]
