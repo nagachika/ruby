@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#match?, #skip, #scan_full, #scan_byte などの rdoc 用コメントの call-seq の戻り値の記述の間違いを修正しています。 https://github.com/ruby/strscan/pull/207
