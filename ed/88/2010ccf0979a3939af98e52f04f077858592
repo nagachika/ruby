@@ -1,0 +1,1 @@
+GC の default 実装の GC.stat の total_allocated_objects と total_freed_objects の項目のセット前に ractor_cache_flush_count() を呼ぶようにしています。Ractor 毎のオブジェクトキャッシュ関係だっけこれ?
