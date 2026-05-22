@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の引数でエラーを許容する bundled gem の指定を受け付けていたのを削除しています。
