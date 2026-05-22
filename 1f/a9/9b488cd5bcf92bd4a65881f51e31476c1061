@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の Ubuntu 版で ~/.gnupg/ ディレクトリを削除していたのをやめています。こういう歴史的経緯で必要だった(けど不要になった) workaround がいっぱいあるんですねぇ。
