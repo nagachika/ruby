@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の macOS と Windows 版でも gem -v と bundle -v を実行させるようにしています。
