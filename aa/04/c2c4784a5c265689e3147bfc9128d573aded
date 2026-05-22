@@ -1,0 +1,1 @@
+GitHub Actions のリリースパッケージのテスト用 workflow の Ubuntu 版で world writable directory による警告抑制のための前処理の step を統合するリファクタリング。
