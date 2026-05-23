@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテスト用 workflow で T_BIGNUM のための libgmp のインストールを追加しています。
