@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテスト用 workflow の Slack 通知のために checkout する時に persist-credentials: false オプションを付けています。
