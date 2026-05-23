@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージを BASERUBY なしでビルドする workflow で configure 時の条件パターンを増やしています。
