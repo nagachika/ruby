@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテスト用 workflow の macOS 版で HomeBrew でインストールする openssl パッケージを 1.1 にバージョン固定していたのを解除しています。
