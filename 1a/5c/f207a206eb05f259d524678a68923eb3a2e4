@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテスト用 workflow で readline など不要になったサードパーティーライブラリのインストールを削除しています。
