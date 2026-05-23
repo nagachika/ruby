@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテスト用 workflow の失敗時の Slack 通知の設定を整理しています。
