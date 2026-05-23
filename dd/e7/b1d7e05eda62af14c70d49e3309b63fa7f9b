@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテスト用 workflow でデバッグのためにホームディレクトリ配下のファイル群の hash digest を保存しておく処理を save-stats.rb というファイルに書き出して保存して同じスクリプトを冗長に書いてたのを避けるようにしています。
