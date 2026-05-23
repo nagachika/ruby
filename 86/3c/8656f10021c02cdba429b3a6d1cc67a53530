@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#syswrite_nonblock の rdoc 用コメントのオプション引数 :exception についての記述を追記しています。
