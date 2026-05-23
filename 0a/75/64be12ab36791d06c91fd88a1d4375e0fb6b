@@ -1,0 +1,1 @@
+tool/lib/bundled_gem.rb で Refinements を利用して IO.popen や Kernel#` (シングルクオートで括るリテラル表現)でのコマンド実行を潰した状態で .gemspec ファイルを eval させるようにしています。セキュリティ観点かなと思ったけど(それもあるだろうけど) bundled gems の gemspec なので spec.files の取得のために git コマンドを使う場合の git コマンド実行の失敗を避けるためとのこと。
