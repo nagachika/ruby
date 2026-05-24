@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージでのテスト実行の workflow で [DOC] というコミットログや pull request のタイトルがついていたり dependabot による更新の場合に実行除外するようにしています。
