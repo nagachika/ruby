@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテストの Ubuntu 向け workflow で Pathname#each_child を使うかわりに Dir.each_child を使うようにしています。
