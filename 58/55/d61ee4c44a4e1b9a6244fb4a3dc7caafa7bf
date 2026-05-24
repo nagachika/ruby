@@ -1,0 +1,1 @@
+VM 命令 newhash と toregexp の実装で C の関数を 2回呼んでたのを wrap した関数 1つにまとめて insn.def での定義では 1回の関数呼び出しだけ書くようにまとめています。 ZJIT からの C 関数呼び出しを 1回にして、その先はコンパイラにより inline 最適化されることを期待するという感じかな? https://github.com/ruby/ruby/pull/17092
