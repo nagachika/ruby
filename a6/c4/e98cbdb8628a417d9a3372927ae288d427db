@@ -1,0 +1,1 @@
+String#codepoints で ASCII-compatible な Encoding の文字列の場合に ASCII 範囲の文字の時に rb_enc_codepoint_len() の呼び出しを抑制する最適化。
