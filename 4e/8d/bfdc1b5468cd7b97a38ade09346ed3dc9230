@@ -1,0 +1,1 @@
+numeric.c でマジックナンバーが埋め込まれてたのを定数マクロ DBL_DIG を参照するようにしています。また Float#round についてのテストを test_numeric.rb から test_float.rb に移動しています。 http://bugs.ruby-lang.org/issues/14635
