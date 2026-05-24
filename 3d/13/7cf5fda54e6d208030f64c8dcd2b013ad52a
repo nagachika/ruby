@@ -1,0 +1,1 @@
+process.c の rb_execarg_parent_end() 内の RB_GC_GUARD() が冗長だったので削除しています。
