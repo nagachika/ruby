@@ -1,0 +1,1 @@
+ZJIT の cfp 管理の軽量化のために導入した JITFrame を cfp->jit_return メンバーに埋め込んでいたのをマシンスタック上に配置してそのポインタを cfp->jit_return で保持するように変更しています。cfp のメンバーを更新するのは複数 Ractor 利用時に atomicity の確保が問題になりやすいので頻繁に書き換える情報をマシンスタック上に移動するという設計方針みたいです。 https://github.com/ruby/ruby/pull/16955
