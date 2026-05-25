@@ -1,0 +1,1 @@
+Kernel#binding の rdoc 用コメントのサンプルにおける Hash#inspect のフォーマットを新しいものに変更しています。
