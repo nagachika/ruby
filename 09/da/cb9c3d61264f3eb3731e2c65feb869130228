@@ -1,1 +1,1 @@
-Float#ceil や Float#floor が極端に大きな桁数の指定の時に正しい結果が得られていなかったので Rational を利用して丸めを行うようにしています。 09dacb9c3d61264f3eb3731e2c65feb869130228 のリファクタリングは #ceil と #floor でも f_round_n() を使いまわすように切り出すためだったんですね。 [ruby-core:125565] [Bug #22079]
+Float#ceil や Float#floor が極端に大きな桁数の指定の時に正しい結果が得られていなかったので Rational を利用して丸めを行うようにしています。 97ec327efc74b0df42421fa4344d1f05452d0623 のリファクタリングは #ceil と #floor でも f_round_n() を使いまわすように切り出すためだったんですね。 [ruby-core:125565] [Bug #22079]
