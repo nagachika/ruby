@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で default gems の upstream と同期する時にリストに含まれない gem 名が指定された時に明示的に例外を発生させるようにしています。
