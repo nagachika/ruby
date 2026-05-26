@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージのテストをする workflow で git fetch する対象のブランチを pull request の場合 base ブランチに設定するようにしています。
