@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージからのビルドをテストする workflow で checkout 時の fetch-depth を 0 から 1 に変更しています。
