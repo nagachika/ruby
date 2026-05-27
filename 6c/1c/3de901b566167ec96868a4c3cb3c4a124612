@@ -1,0 +1,1 @@
+String#undump のテストの冗長な assertion の削除と String#upcase のテストケースの追加。
