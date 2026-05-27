@@ -1,0 +1,1 @@
+String#scrub で ASCII compatible な Encoding の文字列で ASCII 文字の部分を簡易なループで読み飛ばす最適化。 https://github.com/ruby/ruby/pull/16359
