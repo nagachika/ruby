@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#named_captures の rdoc 用コメントの戻り値の型が Array から Hash に変更されたのに説明を追随させています。
