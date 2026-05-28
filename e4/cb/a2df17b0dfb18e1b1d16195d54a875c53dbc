@@ -1,0 +1,1 @@
+re.c の rb_reg_new_ary() という関数は YJIT/ZJIT から呼ぶために定義してたみたいで、 rb_reg_new_from_values() を呼ぶように変更したことで不要になったので関数定義自体を削除しています。
