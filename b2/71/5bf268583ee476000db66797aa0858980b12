@@ -1,0 +1,2 @@
+29a596f87deb06779bef6549d88e6f7b26974c3d からのさらに続きで Ruby::Box 利用時のメソッドキャッシュの invalidate でメソッド定義されている Box ではない Box から呼ばれている可能性も考慮して? 全 Box 用の rb_classext_t について invalidate_callable_method_entry_in_every_m_table() を呼ぶようにしています。
+invalidate_callable_method_entry_in_every_m_table() で GC が走る可能性があったら rb_ary_new() で確保している内部的な Array オブジェクトを klass=0 にして ObjectSpace.each_object から隠すのがより安全ですね。
