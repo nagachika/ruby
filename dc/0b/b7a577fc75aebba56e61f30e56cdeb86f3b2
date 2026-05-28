@@ -1,0 +1,1 @@
+YJIT の Rust 実装から C 関数の rb_reg_new_ary() を使っていたのを Array オブジェクトではなく C の VALUE の配列(バッファ)を受け取る rb_reg_new_from_values() を直接呼ぶようにリファクタリングしています。
