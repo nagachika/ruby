@@ -1,0 +1,1 @@
+ZJIT の C binding から不要になっていた rb_reg_new_ary() を削除しています。
