@@ -1,0 +1,1 @@
+Ruby::Box 利用時にメソッドキャッシュの invalidate で method entry の me->owner のキャッシュからもクリアするようにしています。
