@@ -1,0 +1,1 @@
+ZJIT で C の真偽値を Qtrue/Qfalse として HIR の Test 命令でチェックしている時は不要な変換を省略する最適化。 https://github.com/ruby/ruby/pull/16949
