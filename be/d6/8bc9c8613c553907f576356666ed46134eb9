@@ -1,0 +1,1 @@
+拡張ライブラリ json のエンコード処理で内部的な構造体の RB_OBJ_WRITTEN() での RGenGC 用の Write Barrier を追加しています。
