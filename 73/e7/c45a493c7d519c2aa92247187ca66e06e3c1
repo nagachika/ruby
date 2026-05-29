@@ -1,0 +1,1 @@
+rubygems のテストで YAML の load 時の配列などのネストの上限に達した時の例外として JRuby の場合の SnakeYAML による例外にも対応するようにしています。
