@@ -1,0 +1,1 @@
+rubygems の独自の Gem::YAMLSerializer で配列のネストの深さの上限チェックを追加しています。
