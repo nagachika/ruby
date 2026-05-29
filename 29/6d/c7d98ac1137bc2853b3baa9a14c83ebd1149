@@ -1,0 +1,1 @@
+rubygems の Gem::Package#create_symlink で File.symlink の TypeError 発生を捕捉するようにしています。 Windows 環境の JRuby 対応の一部。
