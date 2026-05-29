@@ -1,0 +1,1 @@
+ZJIT の super 呼び出し時の冗長な guard 命令を除去する最適化。 https://github.com/ruby/ruby/pull/17128
