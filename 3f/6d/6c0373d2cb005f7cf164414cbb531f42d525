@@ -1,0 +1,1 @@
+Marshal で T_BIGNUM 型の Integer のロード時の符号が期待した文字かのチェックを追加しています。
