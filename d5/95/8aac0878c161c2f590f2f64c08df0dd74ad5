@@ -1,0 +1,1 @@
+rubygems から a4bea1fa535f964ac6d1b27daa6579af5fceb862 の変更で不要になった独自の lockfile の parser 実装を削除しています。
