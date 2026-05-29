@@ -1,0 +1,1 @@
+rubygems の独自の Gem::YAMLSerializer の YAML の alias 対応で存在しない alias 名の参照時のエラー処理を追加しています。
