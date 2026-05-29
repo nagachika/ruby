@@ -1,0 +1,1 @@
+bundler の Bundler::LockfileParser をライブラリとして利用するため? new 時にキーワード引数で lockfile のファイルパスを指定できるようにしています。
