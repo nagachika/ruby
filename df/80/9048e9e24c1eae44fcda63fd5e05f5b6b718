@@ -1,0 +1,1 @@
+rubygems のテストで Windows 上の JRuby で動かすための対応や skip をしています。
