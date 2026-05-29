@@ -1,0 +1,1 @@
+rubygems から bundler の Bundler::LockfileParser を利用するようにするリファクタリング? 0cf401e3a91585529e33a1b5d6ebe99ef2fe1e90 で追加したキーワード引数は rubygems から利用するためだったみたいですね。
