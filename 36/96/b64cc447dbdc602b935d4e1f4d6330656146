@@ -1,0 +1,1 @@
+rubygems の独自の Gem::YAMLSerializer で配列などのネストが上限に達した時の例外オブジェクトを psych の時とそろえるようにしています。
