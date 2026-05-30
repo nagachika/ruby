@@ -1,0 +1,1 @@
+複数 Ractor 利用時 Module#define_method にブロックを渡して定義したメソッからの super の呼び出しが異常終了する可能性があった不具合の修正。VM 命令 invokesuper に caller cache のエントリを取り出す Ractor safe な処理を追加しています。 [ruby-core:125581] [Bug #22084]
