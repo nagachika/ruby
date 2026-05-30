@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージでのテストの workflow の actions/checkout アクションに persist-credentials: false という指定を追加しています。
