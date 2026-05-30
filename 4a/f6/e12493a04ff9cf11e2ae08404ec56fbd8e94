@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグの定数 RUBY_FL_USERPRIV0 を RUBY_FL_UNUSED6 に改名しています。 a26f528b3bf1eaecff18520f6ba8083c9c0cbf73 で struct RData を廃止した時に未使用になっていたので。
