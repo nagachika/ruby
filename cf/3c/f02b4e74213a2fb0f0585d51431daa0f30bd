@@ -1,0 +1,1 @@
+同じく GitHub Actions の check_sast workflow で spec/ruby/core/regexp/timeout_spec.rb を ReDOS のチェック対象から外しています。
