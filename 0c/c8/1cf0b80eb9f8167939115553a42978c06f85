@@ -1,0 +1,1 @@
+hash.c の rb_hash_st_table_set() という関数を static 関数に変更しています。またただの wrapper になってた RHASH_ST_TABLE_SET() というマクロの利用もやめています。
