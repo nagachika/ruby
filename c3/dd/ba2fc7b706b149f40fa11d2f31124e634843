@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Timestamp の実装で d2i_*() の関数群のポインタ引数に渡して結果を書き込ませる方法ではなく戻り値のポインタを参照するように使いかたを変更しています。 メモリリークする可能性があったみたいです。 https://github.com/ruby/openssl/issues/1011
