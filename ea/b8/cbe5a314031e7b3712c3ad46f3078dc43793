@@ -1,0 +1,1 @@
+bundler のテストで利用していた compact_index.gem を依存関係から消して spec/bundler/support/artifice/helpers/compact_index.rb に代替を埋め込むようにしています。
