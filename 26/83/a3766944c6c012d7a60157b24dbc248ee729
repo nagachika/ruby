@@ -1,0 +1,1 @@
+.gdbinit と misc/lldb_rb/ でデバッガでの struct RData 対応を削除して struct RTypedData として扱うようにしています。
