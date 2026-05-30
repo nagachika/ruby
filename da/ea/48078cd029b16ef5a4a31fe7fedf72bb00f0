@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージでのテストの workflows で不要な secrets を読み込まないように指定を厳密にしています。
