@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::PKCS7#type= の実装で strcmp() ではなく memcmp() を使って NUL 文字が含まれている時の不具合を修正しています。
