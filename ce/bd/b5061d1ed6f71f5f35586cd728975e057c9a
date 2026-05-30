@@ -1,0 +1,1 @@
+Pathname#extname の rdoc 用コメントを追加して、File.extname の rdoc 用コメントも同様の内容に手直ししています。 https://github.com/ruby/ruby/pull/17103
