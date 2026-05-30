@@ -1,0 +1,1 @@
+5c762e786bb14ec46a15e1073e1d806fa9a39a1c の再修正で GitHub Actions の macOS 版 workflow で macos-26 に更新した matrix のうち古い gcc でのビルド? のためのものを macos-15 に戻しています。
