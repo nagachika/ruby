@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Digest の配下の各クラスのクラスメソッドなどを動的に定義していたところを複数 Ractor 対応のため Module#define_method で定義していたのを Module#class_eval に渡す文字列内で def 文で定義するように変更しています。
