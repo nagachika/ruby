@@ -1,0 +1,1 @@
+Pathname#expand_path の rdoc 用コメントを追加しています。また File.expand_path の rdoc 用コメントも同じような内容に手直ししています。
