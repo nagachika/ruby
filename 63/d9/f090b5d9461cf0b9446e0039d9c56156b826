@@ -1,0 +1,1 @@
+Object Shapes の shape_id_t 型のビットレイアウトに shape_id_layout という 2 bit の情報を埋め込んで、ここをみればインスタンス変数のロードのためにどの操作をすればいいかわかるようにして高速化しようとしています。ただしこのコミットはすぐ次のコミットで revert されています。 https://github.com/ruby/ruby/pull/17139
