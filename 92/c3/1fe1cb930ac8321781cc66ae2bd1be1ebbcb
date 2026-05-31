@@ -1,0 +1,1 @@
+ZJIT で T_DATA 型オブジェクトの対応処理が残っていたところがあったので削除するリファクタリング。 https://github.com/ruby/ruby/pull/17140
