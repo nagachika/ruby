@@ -1,0 +1,1 @@
+locale encoding を得る rb_locale_encindex() という関数で enc_table を操作する時に RUBY_ATOMIC_LOAD()/RUBY_ATOMIC_SET() を利用して atomic に操作されるようにしています。おそらく複数 Ractor 対応かと思われます。
