@@ -1,0 +1,1 @@
+RUBY_ABI_VERSION マクロを 2 → 3 に更新しています。 T_DATA 型オブジェクトのメモリレイアウト変更で一度上げてましたが、struct RData の廃止と rbimpl_rtypeddata_p() の削除でさらに上げるみたいです。
