@@ -1,0 +1,1 @@
+ZJIT で control frame を軽量化した JITFrame を利用しておいて side-exit 発生時に C 実装に戻る前に正式な control frame に書き戻す処理を vm.c で rb_zjit_materialize_frames() の呼び出しで行なっていた実装を ZJIT の Rust 実装で rb_zjit_materialize_frames() を呼び出してから exit_trampoline() にジャンプする trampoline 実装を追加してこれで書き戻すように変更しています。 https://github.com/ruby/ruby/pull/17132
