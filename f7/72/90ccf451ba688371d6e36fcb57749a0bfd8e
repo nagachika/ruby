@@ -1,0 +1,1 @@
+Method#source_location の rdoc 用コメントにサンプルコードや C 実装のメソッドの時は nil を返すことなど記述を強化しています。
