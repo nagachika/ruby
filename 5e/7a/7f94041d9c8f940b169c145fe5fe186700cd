@@ -1,0 +1,1 @@
+TracePoint オブジェクトを GC.compact で移動可能なオブジェクトにしています。
