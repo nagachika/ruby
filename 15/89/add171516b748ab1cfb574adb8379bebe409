@@ -1,0 +1,1 @@
+Array#pack や String#unpack の指示子についてのドキュメント doc/language/packed_data.rdoc を doc/language/packed_data.md に移動して Markdown 記法に変更しています。テーブル記法を使いたかったためみたいです。
