@@ -1,0 +1,1 @@
+GC の mmtk 実装の rb_mmtk_gc_thread_panic_handler() という関数の定義に RBIMPL_ATTR_NORETURN() をつけて警告を抑制しています。また C の配列の宣言のサイズに const の変数を指定するのもコンパイラによっては警告が出るため enum による定数の利用に変更しています。
