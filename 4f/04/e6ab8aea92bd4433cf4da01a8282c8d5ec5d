@@ -1,0 +1,1 @@
+807159283eacc613fa4ceee2a9c986711d619327 で追加した bundler のテストのヘルパーに COMPACT_INDEX_REF という環境変数が設定されていたら既に存在している compact_index を削除して再ダウンロードするようにしています。
