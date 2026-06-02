@@ -1,0 +1,1 @@
+bundler のテストのヘルパーメソッドに compact_index.gem を vendoring する処理を追加しています。
