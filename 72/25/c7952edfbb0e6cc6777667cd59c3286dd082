@@ -1,0 +1,1 @@
+GC の compaction 時に Hash の要素の参照更新に使う hash_replace_ref() という関数で rb_gc_location() の呼び出しが繰り返されていたのを一度読んだ結果を使いまわすように最適化しています。
