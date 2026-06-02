@@ -1,0 +1,1 @@
+拡張ライブラリ strscan に数値の文字列を整数として取り出す StringScanner#integter_at メソッドを追加しています。 https://github.com/ruby/strscan/pull/205 [ruby-core:124928] [Feature #21943]
