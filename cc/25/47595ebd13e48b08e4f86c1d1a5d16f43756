@@ -1,0 +1,1 @@
+DTrace 利用時の GC の default 実装での incremental marking の mark イベントが捕捉できるように修正しています。
