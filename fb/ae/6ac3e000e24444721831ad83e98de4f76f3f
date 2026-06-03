@@ -1,0 +1,1 @@
+bundler の bundle outdated 出力に cooldown 中であることをメッセージに出力。
