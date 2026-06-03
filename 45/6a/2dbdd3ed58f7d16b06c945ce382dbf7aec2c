@@ -1,0 +1,1 @@
+rubygems で pubgrub の導入にあわせてロックファイルが "a (>= 1)" 等の制約を保持できるよう ActivationRequest に元の requirement を渡すようにしています。
