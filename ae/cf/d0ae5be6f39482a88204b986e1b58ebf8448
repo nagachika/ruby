@@ -1,0 +1,1 @@
+random.c の Windows 版での解放処理を finalizer に任せてたのを rb_set_end_proc() を使ってプロセス終了時に実行させるようにしています。
