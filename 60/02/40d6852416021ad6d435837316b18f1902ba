@@ -1,0 +1,1 @@
+rubygems の exec コマンドでも Gem::DependencyResolutionError を捕捉するようにしています。
