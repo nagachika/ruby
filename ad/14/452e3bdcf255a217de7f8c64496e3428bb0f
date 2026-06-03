@@ -1,0 +1,1 @@
+array.c の rb_jit_ary_at_end() に Doxygen 用? のコメントを追記しています。
