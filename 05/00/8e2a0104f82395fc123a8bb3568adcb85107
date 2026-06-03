@@ -1,0 +1,1 @@
+bundler の cooldown 期間内バージョンを resolver でフィルタしエラー時に --cooldown 0 を示唆するメッセージを出力。
