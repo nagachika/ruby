@@ -1,0 +1,1 @@
+ZJIT で四則演算のメソッドで引数が定数の時の定数展開する最適化。 https://github.com/ruby/ruby/pull/17131
