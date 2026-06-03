@@ -1,0 +1,1 @@
+Struct の rdoc 用コメント群でサンプル内の Hash#inspect の表示を Symbol キーの表示の変更に追随させています。
