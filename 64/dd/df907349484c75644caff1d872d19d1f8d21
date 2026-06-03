@@ -1,0 +1,1 @@
+bundler の bundle install/update/add/outdated に --cooldown フラグ追加。
