@@ -1,0 +1,1 @@
+ここから bundler に cooldown 機能を実装するための変更が続くようです。 EndpointSpecification に created_at 属性を追加。
