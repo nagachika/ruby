@@ -1,0 +1,1 @@
+rubygems の依存関係解決で同一 version の複数の source があった時に宣言が早かったほうを優先するように bundler の仕様に合わせています。
