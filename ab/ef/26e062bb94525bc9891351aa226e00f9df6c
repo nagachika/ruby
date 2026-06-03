@@ -1,0 +1,1 @@
+bundler の compact index の created_at の parse を Time.iso8601 から Time.new に変更して require "time" をなくしています。 Time.new って ISO-8601 形式の文字列受け付けるんだ。
