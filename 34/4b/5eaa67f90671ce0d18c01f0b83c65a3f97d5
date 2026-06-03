@@ -1,0 +1,1 @@
+GC の rb_gc_modular_gc_loaded_p() という関数の定義自体を modGC を有効にしてビルドした時だけ定義するようにしています。
