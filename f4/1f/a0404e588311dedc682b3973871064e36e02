@@ -1,0 +1,1 @@
+rubygems で compact_index の依存関係の記述に created_at が含まれている時の時刻の ":" を String#split で分割してしまわないように分割数の指定を追加しています。
