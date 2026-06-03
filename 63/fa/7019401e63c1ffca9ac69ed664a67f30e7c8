@@ -1,0 +1,1 @@
+bundler で Gemfile DSL の source ..., cooldown: N 対応と CLI > config > Gemfile の優先順位で参照。
