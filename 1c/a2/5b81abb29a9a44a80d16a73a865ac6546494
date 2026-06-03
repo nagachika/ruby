@@ -1,0 +1,1 @@
+bundler の git コマンド実行する処理で git の gc 処理が走らないように gc.auto=0 と maintenance.auto=false の設定をしておくようにしています。
