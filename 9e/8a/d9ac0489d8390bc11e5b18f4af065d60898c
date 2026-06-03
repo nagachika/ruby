@@ -1,0 +1,1 @@
+prism で if や unless の条件部に後置 if/unless を持つような式を書くのを SyntaxError にしています。
