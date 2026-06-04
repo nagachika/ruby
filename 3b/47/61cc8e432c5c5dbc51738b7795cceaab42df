@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR にダンプ時にコメントを表示するためだけの命令 Comment を追加しています。コンパイル結果には影響を持ちません。 https://github.com/ruby/ruby/pull/15166
