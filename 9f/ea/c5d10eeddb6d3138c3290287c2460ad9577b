@@ -1,0 +1,1 @@
+ZJIT で T_FIXNUM 型オブジェクトに対する Integer#/ の戻り値の型を Fixnum でなく Integer に拡張しています。 FIXNUM_MIN / -1 とすると -FIXNUM_MIN となり Fixnum で表現可能な範囲を越えるため。 https://github.com/ruby/ruby/pull/17165
