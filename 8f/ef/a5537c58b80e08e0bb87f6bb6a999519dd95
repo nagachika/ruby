@@ -1,0 +1,1 @@
+拡張ライブラリ json で 4.1 から導入されている確保サイズの指定つきの ruby_sized_xfree() 関数を使うため JSON_SIZED_FREE() や JSON_SIZED_FREE_N() といったマクロを導入して ruby のバージョン間の差分を吸収するようにしています。
