@@ -1,0 +1,1 @@
+doc/file/filename_matching.md というファイルを追加して File.fnmatch で使えるメタキャラクタなどについての説明を追記しています。
