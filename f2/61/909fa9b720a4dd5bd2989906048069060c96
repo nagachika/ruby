@@ -1,0 +1,1 @@
+ZJIT の型推論でメソッドの receiver が即値でないことをいつくかの条件で検証して HeapBasicObject の guard を省略できるように最適化しています。 https://github.com/ruby/ruby/pull/17155
