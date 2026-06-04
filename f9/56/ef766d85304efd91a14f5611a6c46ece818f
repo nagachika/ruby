@@ -1,0 +1,1 @@
+63ba697b6079c6fc4b66270c9498ab32884aef22 の再修正。 bundler の rubygems に対するモンキーパッチ用の Module の定義は常に行なうようにして、prepend するかどうかだけ rubygems のバージョンで制御するようにしています。
