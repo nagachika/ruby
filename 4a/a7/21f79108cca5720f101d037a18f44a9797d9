@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の RefineType 命令が既に不要な型推論が行なわれていたら削除する最適化を加えています。 https://github.com/ruby/ruby/pull/17183
