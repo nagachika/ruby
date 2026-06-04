@@ -1,0 +1,1 @@
+bundler に古い rubygems での利用時に compact index の処理を修正するための monkey patch を追加しています。
