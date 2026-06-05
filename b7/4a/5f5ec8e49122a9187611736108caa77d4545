@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の IsNil という命令を削除して HasType で代替するようにしています。
