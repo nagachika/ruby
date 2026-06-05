@@ -1,0 +1,1 @@
+ZJIT の control frame の軽量化版 JITFrame の内容の初期化タイミングを JIT コンパイルされたメソッドのコードに入る時に行うように変更して、初期化漏れが起きる可能性があった不具合を修正しています。 https://github.com/ruby/ruby/pull/17188
