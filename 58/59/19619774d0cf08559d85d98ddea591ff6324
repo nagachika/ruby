@@ -1,0 +1,1 @@
+GC の mmtk 実装でプロセス終了時の rb_gc_obj_free() の呼び出し前に環境変数で全メモリ解放の指示があるかチェックする rb_gc_obj_needs_cleanup_p() でのチェックを追加しています。
