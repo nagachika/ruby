@@ -1,0 +1,1 @@
+ZJIT で VM 命令の definedivar をコンパイルする際に Object Shapes の複数の shape がありえることが型プロファイルからわかっていた時に脱最適化していたのを分岐を含むコードにコンパイルするようにしています。 https://github.com/Shopify/ruby/issues/980 https://github.com/ruby/ruby/pull/16981
