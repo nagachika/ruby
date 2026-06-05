@@ -1,0 +1,1 @@
+bundler の bundle env サブコマンドで ruby のバージョン管理ツール(rvm や rbenv)などの情報の表示を削除しています。
