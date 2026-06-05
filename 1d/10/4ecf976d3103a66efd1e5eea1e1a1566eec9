@@ -1,0 +1,1 @@
+ZJIT で即値でないオブジェクトとわかっている時の冗長なチェックを省く最適化。 https://github.com/ruby/ruby/pull/17151
