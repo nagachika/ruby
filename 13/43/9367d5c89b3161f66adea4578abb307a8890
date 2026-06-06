@@ -1,0 +1,1 @@
+rubygems の Gem::Text#clean_text で制御文字を "." に置換するようにしています。
