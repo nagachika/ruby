@@ -1,0 +1,1 @@
+拡張ライブラリ json の内部的に利用されるクラス JSON::Ext::ParserConfig を GC.compact で移動可能なオブジェクトにしています。
