@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の gemspec ファイルで spec.required_ruby_version を 2.7.0 以降に更新しています。C99 標準の記述を許容するため。
