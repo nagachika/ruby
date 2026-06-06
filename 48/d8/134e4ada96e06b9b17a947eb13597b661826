@@ -1,0 +1,1 @@
+rubygems で spec.bindir で指定されたディレクトリが symbolic link でなく、また実装に存在しているかをチェックしています。
