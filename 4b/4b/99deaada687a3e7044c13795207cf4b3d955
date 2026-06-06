@@ -1,0 +1,1 @@
+rubygems の Gem::Text#clean_text のテストをより厳密なチェックにしています。
