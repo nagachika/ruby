@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で vcpkg install 実行前に vcpkg のリポジトリを git pull して最新版を取得するようにしています。
