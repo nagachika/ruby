@@ -1,0 +1,1 @@
+拡張ライブラリ json の parse 時の関数 json_decode_object() から一部の処理を json_on_duplicate_key() という関数に切り出すリファクタリングと json_value_completed() という関数で switch 文の各 case 節から直接 return して関数末尾には UNREACHABLE を置くリファクタリング。細かい最適化みたいです。
