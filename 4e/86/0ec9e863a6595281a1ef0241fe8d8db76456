@@ -1,0 +1,1 @@
+rubygems の spec.executable に指定されているファイルが実際にあるかチェックを追加しています。
