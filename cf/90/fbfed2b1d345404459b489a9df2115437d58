@@ -1,0 +1,1 @@
+rubygems で spec.executables に文字列以外のオブジェクトが渡された場合はエラーにしています。
