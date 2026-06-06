@@ -1,0 +1,1 @@
+String#inspect でエスケープのある文字をスキャンする処理で Encoding と coderange によっては ASCII 文字の範囲であれば高速に判定できるのでこの fastpath を追加して、多くのケースで高速化しています。
