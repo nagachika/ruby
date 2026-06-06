@@ -1,0 +1,1 @@
+rubyspec の IO::Buffer.map のテストでプロセス間の共有メモリのテストを OpenBSD では除外しています。
