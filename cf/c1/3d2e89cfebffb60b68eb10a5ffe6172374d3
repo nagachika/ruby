@@ -1,0 +1,1 @@
+拡張ライブラリ json の内部的に利用する JSON::State などのクラスの memsize 関数で Variable Width Allocation による slot 埋め込みを利用している場合の対応を追加しています。
