@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON_Parser_rvalue_stack_type という変数の初期化子に RGenGC 用の WriteBarrier unprotected である旨コメントを追加しています。
