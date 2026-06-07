@@ -1,0 +1,1 @@
+拡張ライブラリ json の json_parse_any() という関数で switch 文の各 case で json_push_value() と json_value_completed() を呼んでいたのを switch 文の後でまとめて呼ぶようにリファクタリングしています。
