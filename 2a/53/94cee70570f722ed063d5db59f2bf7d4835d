@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket::AncillaryData#inspect メソッドで FreeBSD 環境での出力を強化しているそうです。なんだろこのクラス。
