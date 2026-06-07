@@ -1,0 +1,1 @@
+拡張ライブラリ json の json_match_keyword() という関数の宣言に ALWAYS_INLINE() マクロを利用して inline されるようにしています。
