@@ -1,0 +1,1 @@
+M:N Threads の実装で CPU 数を推定? する変数 default_max_cpu を 8 固定にしていたのを sysconf(2) で CPU 数を取得するようにしています。 https://github.com/ruby/ruby/pull/17100
