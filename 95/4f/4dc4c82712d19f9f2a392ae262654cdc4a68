@@ -1,0 +1,1 @@
+b2715bf268583ee476000db66797aa0858980b12 で Ruby::Box 用の rb_classext_t のリストに対して invalidate_callable_method_entry_in_every_m_table() を呼ぶ処理を追加した際に中間オブジェクトの配列を rb_ary_new() で作成していたのを rb_ary_hidden_new() を使って ObjectSpace.each_object で検出されないようにしています。
