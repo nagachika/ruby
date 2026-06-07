@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations などのメソッドでオブジェクトの確保をトレースする時に GC の解放処理にも TracePoint でフックを登録して内部的オブジェクト参照を解放していたのが trace を終了した後に解放される場合フックが呼ばれずリークする可能性があったので weak ref 用の関数を使って st_table_t から弱参照としてオブジェクトを保持するように修正しています。
