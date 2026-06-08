@@ -1,0 +1,1 @@
+IO::Buffer#and!, IO::Buffer#or!, IO::Buffer#xor! などのメソッドも IO::Buffer#& などと同様にバッファ解放済みの slice について呼ばれた時のチェックを追加しています。
