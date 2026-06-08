@@ -1,0 +1,1 @@
+拡張ライブラリ json の内部的なオブジェクトの JSON_Parser_frame_stack_type (これクラスが定義されていないな)を RGenGC の WB-protected なオブジェクトとして flags のビットフラグを立てています。
