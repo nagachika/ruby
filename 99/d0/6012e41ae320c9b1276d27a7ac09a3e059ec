@@ -1,0 +1,1 @@
+sprintf.c の CHECK() という関数マクロ内の処理から expand_result() という関数を切り出すリファクタリング。
