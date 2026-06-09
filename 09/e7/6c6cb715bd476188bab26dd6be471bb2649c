@@ -1,0 +1,1 @@
+IO::Buffer.size_of で引数に配列で型を表す Symbol に動的な Symbol が渡された時に静的な Symbol を作ってしまわないようにしています。
