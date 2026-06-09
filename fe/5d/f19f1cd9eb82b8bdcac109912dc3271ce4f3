@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.parse で JavaScript スタイルのコメント "/* */" や "//" の行コメント (C 風ともいえる)を deprecated にして警告を出力するようにしています。またオプションの allow_comments を追加して false が指定されると例外を発生させるようにしています。
