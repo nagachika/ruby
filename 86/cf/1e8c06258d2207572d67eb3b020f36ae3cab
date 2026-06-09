@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで fe5df19f1cd9eb82b8bdcac109912dc3271ce4f3 の変更で JSON.parse がコメントに対して警告を出すようになったので警告抑制のため EnvUtil.suppress_warning を利用するようにしています。
