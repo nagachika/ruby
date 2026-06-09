@@ -1,0 +1,1 @@
+IO::Buffer の処理で offset, length, encoding などの引数を変換するために to_int, to_str を呼ぶ可能性があり、そこで ruby スクリプトが実行されることで receiver の IO::Buffer が解放される可能性があるため、IO::Buffer#get_string や IO::Buffer#resize などのメソッドでアクセスの直前にバッファが利用可能かのチェックを追加しています。
