@@ -1,0 +1,1 @@
+rb_vm_search_method_slowpath() および callable_method_entry_or_negative() という関数で引数の klass が既に T_NONE であるという不正な状態の場合に明示的に rb_bug() で異常終了させるというデバッグ処理を追加しています。
