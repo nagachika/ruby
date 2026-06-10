@@ -1,0 +1,1 @@
+doc/language/frozen_objects.md というドキュメントファイルを追加して各種クラスの freeze メソッドの rdoc 用コメントからリンクするようにしています。
