@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションで利用している actions/setup-java や actions/setup-python のバージョンを更新しています。
