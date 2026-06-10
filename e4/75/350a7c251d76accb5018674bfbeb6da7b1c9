@@ -1,0 +1,1 @@
+IO::Buffer の VALUE から struct rb_io_buffer を得るヘルパー関数 get_io_buffer() を切り出すリファクタリング。
