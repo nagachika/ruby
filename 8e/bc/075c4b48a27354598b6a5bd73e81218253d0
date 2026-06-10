@@ -1,0 +1,1 @@
+IO::Buffer の IO::Buffer#set_value や IO::Buffer#set_values の実装で io_buffer_try_lock() で struct rb_io_buffer::flags にビットフラグを立てて rb_ensure() で落とすというロック処理を不要として削除して実装をシンプルにしています。
