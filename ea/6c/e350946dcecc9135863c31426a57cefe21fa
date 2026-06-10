@@ -1,0 +1,1 @@
+拡張ライブラリ psych の Encoding オブジェクトの load 処理に class_loader を通すことで safe_load 時の許可リストのチェックが有効に働くように修正しています。
