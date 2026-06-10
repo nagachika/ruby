@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージでのテストの macOS 版 workflow で brew install に --quiet オプションを付与しています。
