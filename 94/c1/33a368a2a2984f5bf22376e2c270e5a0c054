@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の multipart field の content-type などに改行を含んでいると例外を発生させるようにしています。 https://github.com/ruby/net-http/issues/195
