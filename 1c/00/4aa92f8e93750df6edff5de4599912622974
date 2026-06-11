@@ -1,0 +1,1 @@
+ZJIT で Object Shapes の shape_id_t の値のビットにアクセスパターンを埋め込むようにしたので struct RBasic::flags をみる必要がなくなったため処理をシンプルにして必要な命令数を減らす最適化。 https://github.com/ruby/ruby/pull/17187
