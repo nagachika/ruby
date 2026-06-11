@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace::InternalObjectWrapper クラスの rdoc 用コメントにデバッグ用なので実用しないようにという注意書きを追記しています。
