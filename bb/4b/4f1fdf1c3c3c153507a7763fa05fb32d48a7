@@ -1,0 +1,1 @@
+94c133a368a2a2984f5bf22376e2c270e5a0c054 の再修正で標準添付ライブラリ net/http の encode_multipart_form_data メソッドで content-type の値に String オブジェクトでないものが渡される可能性があったので to_s での変換を行うようにして互換性を回復させています。
