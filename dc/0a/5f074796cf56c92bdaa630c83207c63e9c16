@@ -1,0 +1,1 @@
+T_TYPEDDATA 型オブジェクトの解放処理時に use-after-free の不具合があったのを修正しています。 [ruby-core:125675] [Bug #22101]
