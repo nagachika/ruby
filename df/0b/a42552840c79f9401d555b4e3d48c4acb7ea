@@ -1,0 +1,1 @@
+rb_vsprintf() や rb_str_catf() などのフォーマット系の関数で VALUE の文字列を埋め込む時にそのエンコーディングが ASCII-incompatible になるのを避けてエラーにするようにしています。
