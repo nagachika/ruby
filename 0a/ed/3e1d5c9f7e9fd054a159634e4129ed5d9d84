@@ -1,0 +1,1 @@
+ZJIT の VM 命令 getblockparamproxy のサポートを強化しています。 Proc 渡しによるブロック引数の時の JIT コンパイル対応を追加しているみたいです。
