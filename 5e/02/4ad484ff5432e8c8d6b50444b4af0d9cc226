@@ -1,0 +1,1 @@
+rubygems の Gem::Package.new の security_policy のオプションを古い形式の gem ? の時に破棄していたのを修正しています。
