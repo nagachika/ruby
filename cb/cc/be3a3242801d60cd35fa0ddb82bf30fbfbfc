@@ -1,0 +1,1 @@
+bundler の Bundler::Plugin::DummySource というクラスを Bundler::Plugin::UnloadedSource に改名しています。
