@@ -1,0 +1,1 @@
+bundler の plugins_in_lockfile という設定を削除して常に plugin を lockfile に記録するようにしています。
