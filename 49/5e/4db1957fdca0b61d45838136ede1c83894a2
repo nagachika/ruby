@@ -1,0 +1,1 @@
+bundler の bundle update で引数で指定された gem があったらその依存関係も validation が走ってしまっていた? 不具合を修正しています。
