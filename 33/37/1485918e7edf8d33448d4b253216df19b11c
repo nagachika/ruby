@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で rdoc 用のコメントの :startdoc: タグを追加して MakeMakefile#have_const メソッドのドキュメント生成を有効化しています。 https://github.com/ruby/ruby/pull/17254
