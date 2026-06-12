@@ -1,0 +1,1 @@
+prism が %-literal のデリミタにマルチバイト文字を使った時に SyntaxError にするように修正しています。
