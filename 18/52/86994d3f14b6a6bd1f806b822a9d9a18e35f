@@ -1,0 +1,1 @@
+拡張ライブラリ rubygems のインデックス解析時のメモリ消費量を抑制する最適化。Marshal のデコード時に同じリンク先を指すリンクにキャッシュを利用するようにしています。 https://github.com/ruby/rubygems/issues/9368
