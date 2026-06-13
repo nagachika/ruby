@@ -1,0 +1,1 @@
+File.grpowned? と Pathname#gropwned? の rdoc 用コメントを合わせて手直ししています。
