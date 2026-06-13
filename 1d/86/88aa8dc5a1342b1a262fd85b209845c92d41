@@ -1,0 +1,1 @@
+拡張ライブラリ psych の BOM 対応で String#delete_prefix を利用する小さな最適化。
