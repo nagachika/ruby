@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.trace_object_allocations のテストのタイムアウト対策のため確保するオブジェクト数を減らしています。
