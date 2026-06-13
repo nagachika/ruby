@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版の workflow に環境変数 RUBY_TEST_TIMEOUT_SCALE でテストのタイムアウトを伸ばす指定を追加しています。
