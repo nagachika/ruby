@@ -1,0 +1,1 @@
+rubygems の独自 YAML パーサー Gem::YAMLSerializer でタグの roundtrip が可能になるように修正しています。 https://github.com/ruby/rubygems/issues/9560
