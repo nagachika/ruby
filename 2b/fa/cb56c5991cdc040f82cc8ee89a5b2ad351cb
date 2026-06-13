@@ -1,0 +1,1 @@
+TracePoint のテストで並列実行時に flasky になっていたのを修正するため TracePoint のフックで finalizer での実装を拾ってしまうのを検出して無視するように修正しています。
