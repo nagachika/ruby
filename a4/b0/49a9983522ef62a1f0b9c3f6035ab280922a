@@ -1,0 +1,1 @@
+gc.c の rb_gc_register_mark_object() で複数 Ractor 利用時の race condition 修正のため RB_VM_LOCKING() での排他を追加しています。
