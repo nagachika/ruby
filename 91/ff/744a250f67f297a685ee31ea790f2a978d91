@@ -1,0 +1,1 @@
+Array#join と File.join と Pathname#join と Set#join の rdoc 用コメントをまとめて手直ししています。 Array や Set の join と File/Pathname の join はデリミタの扱いなどちょっと違うような気がするけど……。
