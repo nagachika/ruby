@@ -1,0 +1,1 @@
+gc/extconf_base.rb で生成する Makefile のコマンドの行頭にタブを入れるように修正しています。
