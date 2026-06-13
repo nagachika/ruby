@@ -1,0 +1,1 @@
+rubygems の独自 YAML parser Gem::YAMLSerializer でコントロール文字のエスケープ対応を強化しています。
