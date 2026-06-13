@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Socket.gethostbyname や Socket.gethostbyaddr などのクラスメソッドを削除しています。長らく deprecated にして警告を出していたメソッドです。 [ruby-core:104229] [Feature #17944]
