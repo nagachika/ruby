@@ -1,0 +1,1 @@
+Array#join で要素が全て String で Encoding も変換が不要なものだったらシンプルに memcpy(3) でコピーする fastpath を追加しています。
