@@ -1,0 +1,1 @@
+GC の RGenGC 用の Write Barrier 検証用の実装 wbcheck で rb_gc_impl_get_vm_context というインタフェースの実装を追加しています。
