@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 版 workflow に clang の -fsanitize=address オプションつきで ASAN を有効にしたビルドを追加しています。
