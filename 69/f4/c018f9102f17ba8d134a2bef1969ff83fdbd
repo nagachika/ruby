@@ -1,0 +1,1 @@
+ZJIT のかなり大きな根本的な変更です。コードの inline 最適化を再帰的に実行するようにしてより積極的に inline 化できるようにしているようです。これに関連して ZJIT 用のコマンドラインオプションも追加していて --zjit-inline-threshold/--zjit-inline-budget/--zjit-inline-max-iterations/--zjit-inline-deny などでどのくらい inline 化を繰り返すかなどの指定もできるようにしています。実際にはこの変更では高速化は達成できておらず、さらに最適化の改善のためにフレームワークを整えている状態というものみたいです。 https://github.com/ruby/ruby/pull/16966
