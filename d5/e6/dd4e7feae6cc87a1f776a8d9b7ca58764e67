@@ -1,0 +1,1 @@
+Pathname#lchmod の rdoc 用コメントを追加し File.lchmod の rdoc 用コメントも同様のサンプルコードを追記する変更をしています。 https://github.com/ruby/ruby/pull/17303
