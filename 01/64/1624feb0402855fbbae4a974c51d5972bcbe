@@ -1,0 +1,1 @@
+Pathname#mkdir の rdoc 用コメントを追記し Dir.mkdir の rdoc 用コメントもあわせて手直ししています。
