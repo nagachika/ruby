@@ -1,0 +1,1 @@
+Object Shapes で shape を too_complex にする条件に rb_shape_tree の容量越えのチェックも追加しています。オブジェクトに object_id が割り当てられていた時にはそれも fields_obj で管理されるため object_id の追加時に容量越えをする時にチェックが漏れていて異常終了する可能性があったようです。
