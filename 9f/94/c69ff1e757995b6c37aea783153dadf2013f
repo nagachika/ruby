@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow でも ee66ecf25b28e8ccf1f0aa45003941731f4e8a86 と同様に os: macos-15-intel 版の時に prefix を一時ディレクトリに変更するようにしています。
