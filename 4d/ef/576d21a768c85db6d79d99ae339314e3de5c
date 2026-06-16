@@ -1,0 +1,1 @@
+require 時に default gems について警告を出すための lib/bundled_gems.rb で default gem を require した gem を検出するためにバックトレースを読み飛ばす数を固定にしていたのがうまく機能しない場合があったみたいなので読み飛ばしのロジックを修正しています。
