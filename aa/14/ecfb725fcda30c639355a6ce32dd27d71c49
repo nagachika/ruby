@@ -1,0 +1,1 @@
+39c0b0b6da1bbc026ceb4399c2847e0c69a8ae60 での vm_core.h の VM_BH_ISEQ_BLOCK_P() の異常終了ログ強化の続きで、メッセージのフォーマット指示子を修正しています。
