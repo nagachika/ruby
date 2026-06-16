@@ -1,0 +1,1 @@
+Dir.glob や Pathname.glob の rdoc 用コメントを doc/file/filename_globbing.md へのリンクにして詳細はこちらにまとめるようにしています。 https://github.com/ruby/ruby/pull/17265
