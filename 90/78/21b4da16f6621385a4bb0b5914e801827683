@@ -1,0 +1,1 @@
+bundler の jobserver 対応の続き。 jobserver の後始末が漏れる可能性があった不具合を修正しています。
