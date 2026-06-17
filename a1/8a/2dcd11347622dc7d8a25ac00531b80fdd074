@@ -1,0 +1,1 @@
+require で default gems に警告を出すための lib/bundled_gems.rb でバックトレースを読み飛ばす処理の説明をコメントで追記しています。 [ruby-core:117674] [Bug #20450] [ruby-core:123966] [Bug #21723]
