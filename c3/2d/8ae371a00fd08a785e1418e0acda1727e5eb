@@ -1,0 +1,1 @@
+YJIT で Module#define_method によるメソッド定義したメソッドから super した時の異常終了する場合があった不具合を修正しています。 [ruby-core:125770] [Bug #22116]
