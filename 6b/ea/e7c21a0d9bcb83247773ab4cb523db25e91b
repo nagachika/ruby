@@ -1,0 +1,1 @@
+ZJIT で引数の数が 7つ以上の時の CCall 命令で異常終了する可能性があったので side-exit するようにしています。 https://github.com/ruby/ruby/pull/17286
