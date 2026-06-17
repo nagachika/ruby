@@ -1,0 +1,1 @@
+require で default gems に警告を出すための lib/bundled_gems.rb で 39550359be70f9ba1a2d7a6d35afc31e8feb985d で追記したコメントを rdoc 用コメントとして解釈されるように体裁を修正しています。
