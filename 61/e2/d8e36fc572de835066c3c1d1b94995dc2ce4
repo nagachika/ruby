@@ -1,0 +1,1 @@
+拡張ライブラリ json の浮動小数点数の parse 処理を vendoring していた ryu.h というヘッダの実装から fast_float_parser.h という実装に乗り換えています。
