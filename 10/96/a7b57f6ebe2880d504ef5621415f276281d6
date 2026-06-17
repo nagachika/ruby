@@ -1,0 +1,1 @@
+61e2d8e36fc572de835066c3c1d1b94995dc2ce4 で導入した拡張ライブラリ json の fast_float_parser.h の Windows サポートのための __builtin_clzll() の代替実装を含む ffc_nlz_int64() という関数を導入しています。
