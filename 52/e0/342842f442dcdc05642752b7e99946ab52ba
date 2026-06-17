@@ -1,0 +1,1 @@
+61e2d8e36fc572de835066c3c1d1b94995dc2ce4 の拡張ライブラリ json の  ryu.h から fast_float_parser.h への乗り換えに対応して LEGAL のライセンス記述を更新して、また depend ファイルの依存関係も更新しています。
