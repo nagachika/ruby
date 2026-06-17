@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser で JSON の塊を処理して区切りがついたところでエラー情報をリセットして、そこまでのエラーをクリアして続きの parse に持ち込まないようにしています。 https://github.com/ruby/json/issues/1008
