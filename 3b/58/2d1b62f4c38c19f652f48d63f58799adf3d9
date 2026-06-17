@@ -1,0 +1,1 @@
+61e2d8e36fc572de835066c3c1d1b94995dc2ce4 で拡張ライブラリ json に導入された fast_float_parser.h の __builtin_clzll() の存在チェックをより厳密にしています。
