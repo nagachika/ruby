@@ -1,0 +1,1 @@
+bundler の jobserver 対応の続き。--jobserver-auth オプションの順番の問題で誤った fd を利用する可能性があったのを修正しているようです。
