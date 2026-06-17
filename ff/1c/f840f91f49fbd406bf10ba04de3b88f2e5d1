@@ -1,0 +1,1 @@
+bundler の lockfile に PLATFORM 指定がある場合の不具合修正。
