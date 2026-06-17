@@ -1,0 +1,1 @@
+c2879d4eb1c2f232c893656a49a2c53353aebf04 で追加した拡張ライブラリ json の JSON::ResumableParser の #partial_value メソッドで内部状態を書き換えてしまう不具合を修正しています。 https://github.com/ruby/json/issues/1005
