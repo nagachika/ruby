@@ -1,0 +1,1 @@
+bundler の jobserver 対応の続きで bundler のテストで make test-bundler-parallel 経由で実行されると -j オプションが重複してうまくテストできないので skip するようにしています。
