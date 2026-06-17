@@ -1,0 +1,1 @@
+GitHub Actions の ModGC を有効にするテストの workflow で環境変数 RUBY_TEST_TIMEOUT_SCALE を設定してテストのタイムアウトを伸ばすようにしています。
