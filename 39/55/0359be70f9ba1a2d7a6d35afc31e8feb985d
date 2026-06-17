@@ -1,0 +1,1 @@
+require で default gems に警告を出す lib/bundled_gems.rb で force_activate メソッドに説明コメントを追加しています。
