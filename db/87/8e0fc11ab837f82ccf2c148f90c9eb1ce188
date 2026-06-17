@@ -1,0 +1,1 @@
+ZJIT で C の関数やメソッド呼び出し時に GC 時の追跡のため VM stack に引数などの値を退避(spill)する必要がありましたが、VALUE の値がマシンスタックやレジスタに置かれている時の記録するため構造体 zjit_jit_frame_t の末尾に stack map というものを導入して spill を避けることができるようにしています。  https://github.com/ruby/ruby/pull/17120
