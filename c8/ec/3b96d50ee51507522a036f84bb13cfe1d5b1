@@ -1,0 +1,1 @@
+61e2d8e36fc572de835066c3c1d1b94995dc2ce4 で拡張ライブラリ json に導入した fast_float_parser.h の ffc_nlz_int64() の実装の preprocessor 分岐を bigdecimal を参考に修正しています。
