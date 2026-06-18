@@ -1,0 +1,1 @@
+GitHub Actions の post_push workflow で bugs.ruby-lang.org へのアクセスがエラーになっても workflow はエラー扱いにしないようにしています。
