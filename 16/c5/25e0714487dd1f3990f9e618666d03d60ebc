@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 版 workflow で s390x および ppc64le の環境でテストのタイムアウトを伸ばすため環境変数 RUBY_TEST_TIMEOUT_SCALE を設定しています。
