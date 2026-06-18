@@ -1,0 +1,1 @@
+GC の default 実装の rb_gc_impl_garbage_object_p() から T_NONE, T_ZOMBIE, T_MOVED などの無効な slot の判定をする処理を gc_slot_live_object_p() という関数に吊り出して rb_gc_impl_garbage_object_p() は lazy sweep 時の判定のみするようにしています。
