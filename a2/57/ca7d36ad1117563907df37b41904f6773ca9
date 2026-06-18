@@ -1,0 +1,1 @@
+doc/extension.rdoc と doc/extension.ja.rdoc のあまりに古い記述は削除しています。拡張ライブラリがサポートされるようになったのは 1.1 の頃なのかぁ。
