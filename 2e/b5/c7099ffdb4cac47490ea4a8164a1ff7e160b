@@ -1,0 +1,1 @@
+doc/extension.rdoc と doc/extension.ja.rdoc の RUBY_REF_EDGE() マクロの説明が古かったのを修正しています。
