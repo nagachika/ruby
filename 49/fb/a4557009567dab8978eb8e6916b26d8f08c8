@@ -1,0 +1,1 @@
+GC の default 実装の gc_malloc_counters_snapshot() という関数の戻り値は常に捨てられていたので戻り値を void に変更しています。
