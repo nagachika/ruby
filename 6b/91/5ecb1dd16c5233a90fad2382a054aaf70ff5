@@ -1,0 +1,1 @@
+gc.c の rb_gc_pointer_to_heap_p() という関数を削除しています。また GC の default 実装の rb_gc_impl_pointer_to_heap_p() でオブジェクトヒープ内を指しているアドレスがさらに T_NONE や T_ZOMBIE, T_MOVED などを指しているかどうかのチェックも含めるように変更(修正?)しています。
