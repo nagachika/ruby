@@ -1,0 +1,1 @@
+include/ruby/internal/abi.h のマクロ RUBY_ABI_VERSION を上げています。 78495ca41572efad625e683280c654bb46da95af で公開 C API の rb_alloc_tmp_buffer() の引数を追加したため。
