@@ -1,0 +1,1 @@
+GC の各実装のインタフェースを規定する関数ポインタの pointer_to_heap_p を live_object_p に改名しています。
