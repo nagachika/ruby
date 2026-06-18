@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump_all のテストで File.readlines + each を使っていたところを File.foreach を使って逐次読み込むようにしてメモリ使用量を抑えています。タイムアウトすることがあったようなのでその対策。
