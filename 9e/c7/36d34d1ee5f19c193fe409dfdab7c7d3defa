@@ -1,0 +1,1 @@
+GitHub Actions の pull request のブランチでの実装を試す playground を作る workflow で WASM のビルド結果がみつからない時にエラーにせず無視するようにしています。
