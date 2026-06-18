@@ -1,0 +1,1 @@
+prism を FFI 経由で利用する時の Prism.parse_comments の位置情報の扱いの不具合修正。
