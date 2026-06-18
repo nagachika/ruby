@@ -1,0 +1,1 @@
+標準添付ライブラリ yaml の gemspec ファイルから不要な spec.bindir と spec.executables の設定を削除しています。
