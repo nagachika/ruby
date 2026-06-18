@@ -1,0 +1,1 @@
+doc/extension.rdoc と doc/extension.ja.rdoc に Variable Width Allocation により slot に構造体を埋め込んだ T_TYPEDDATA 型オブジェクトについての注意を追記しています。
