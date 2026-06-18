@@ -1,0 +1,1 @@
+T_IMEMO 型オブジェクトの一種の imemo_callcache の GC.compact でのオブジェクト移動の対応時の weakref の実装を rb_gc_location() を利用するようにリファクタリングしています。
