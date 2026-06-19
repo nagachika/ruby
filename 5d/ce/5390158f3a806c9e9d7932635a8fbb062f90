@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow の brew install するステップに brew uninstall bicep と brew untap aws/tap azure/bicep の実行を追加しています。なんだろこれ。 GitHub Actions の環境に事前に入れられてるものがなにかしらテストに影響をしていたということかな。
