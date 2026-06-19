@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Compact Index から取得したバージョン毎の created_at を rubygems 本体から参照するようにしています。
