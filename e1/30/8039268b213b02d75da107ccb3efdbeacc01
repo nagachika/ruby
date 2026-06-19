@@ -1,0 +1,1 @@
+ZJIT でコンパイルした ISeq をスクリプトのトップレベルや eval の直下で呼び出された時? の対応を追加しているようです。 https://github.com/ruby/ruby/pull/17351
