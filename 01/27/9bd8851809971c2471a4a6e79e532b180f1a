@@ -1,0 +1,1 @@
+37697760a52f68f2c3844fa52a6ec993df784732 のさらに続きで bundler の jobserver 対応の Windows での skip は条件が広すぎたので nmake でビルドしている時という判定にして MinGW では jobserver 利用するようにしています。
