@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Gem::Source で Compact Index が使えない時に Marshal 形式に fallback する条件の不具合修正。
