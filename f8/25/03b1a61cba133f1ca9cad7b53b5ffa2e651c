@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Gem::Source からも Gem::CompactIndexClient を利用するように実装をすりかえています。
