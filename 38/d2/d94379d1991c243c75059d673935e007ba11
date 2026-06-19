@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Gem::CompactIndexClient に各パーツへの facade となる API メソッドを追加しています。
