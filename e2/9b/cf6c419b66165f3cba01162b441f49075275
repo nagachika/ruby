@@ -1,0 +1,1 @@
+GC の rb_gc_unregister_address() で配列の要素を前に詰める処理で MEMMOVE() に渡すポインタが間違っていた不具合を修正しています。ちょっと前のグローバルな mark root を配列にした変更での regression ですね。おそらく aed64ade9dd71d3a8604f1ab703d50404dc38109。なので backport は不要そうです。
