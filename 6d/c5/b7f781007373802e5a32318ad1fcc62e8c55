@@ -1,0 +1,1 @@
+GC の default 実装で xmalloc/xfree で統計を取っている malloc_increase の値が起因で GC を実行する時に gc_rest() を呼んで全 sweep を実施していたのを Lazy Sweep が効くようにして malloc_increase が充分小さくなるまで gc_sweep_step_for_malloc() を呼ぶようにして細かいステップで sweep 試行するようにしています。
