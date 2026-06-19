@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Compact Index の Digest/Repr-Digest ヘッダが不正な値の時のエラー処理を修正しています。
