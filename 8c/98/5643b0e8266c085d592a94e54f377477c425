@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Gem::Resolver::APISet#versions から Gem::CompactIndexClient を利用するように実際に rubygems 本体の処理に組み込んでいます。
