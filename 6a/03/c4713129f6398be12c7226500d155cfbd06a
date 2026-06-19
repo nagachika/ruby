@@ -1,0 +1,1 @@
+ここから rubygems に bundler から独立した Compact Index のクライアント実装を追加する変更が続きます。まず Gem::CompactIndexClient::CacheFile クラスを実装しています。
