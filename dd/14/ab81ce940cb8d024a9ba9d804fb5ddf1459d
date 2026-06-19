@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Gem::CompactIndexClient::HTTPFetcher が HTTP レスポンスステータス 308 で追随するようにしています。
