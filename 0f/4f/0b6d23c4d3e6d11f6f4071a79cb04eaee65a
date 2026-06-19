@@ -1,0 +1,1 @@
+bundler の mirror サーバーの接続確認で TCPSocket#connect_nonblock を利用していたのを getsockopt(Socket::SOL_SOCKET, Socket::SO_ERROR) を利用した判定を行うように改善しています。BSD 系 OS で誤判定していた問題の対策みたいです。
