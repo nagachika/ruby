@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。テストで生成するテストデータファイルを binary モードで書き出すように修正しています。
