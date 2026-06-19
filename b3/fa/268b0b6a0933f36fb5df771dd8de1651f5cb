@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。不正な created_at のためのチェック追加。
