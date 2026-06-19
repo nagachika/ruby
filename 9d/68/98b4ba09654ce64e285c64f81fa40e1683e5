@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 require "pathname" を必要な時だけ実行するように分岐を追加しています。
