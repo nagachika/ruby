@@ -1,0 +1,1 @@
+rubygems の CompactIndexClient の実装シリーズ続き。 Gem::Source で Compact Index のために作成する一時ディレクトリが作りっぱなしだったので at_exit で後始末を登録しておくようにしています。
