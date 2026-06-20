@@ -1,0 +1,1 @@
+String#upcase や String#downcase で fastpath を利用する条件に Encoding が ASCII-8BIT の時も追加しています。
