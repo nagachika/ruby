@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser でこれも #parse 時の on_load コールバックから JSON::ResumableParser#<< の呼び出しを禁止するチェックを追加しています。
