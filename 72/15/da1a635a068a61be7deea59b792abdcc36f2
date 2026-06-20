@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser で NUL 文字があると parse が止まってしまう不具合を修正しています。
