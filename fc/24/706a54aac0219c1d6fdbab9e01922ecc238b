@@ -1,0 +1,1 @@
+bundler が source として git リポジトリを利用している時に Git LFS によるファイルを利用している時の不具合を修正しています。 https://github.com/ruby/rubygems/issues/9612
