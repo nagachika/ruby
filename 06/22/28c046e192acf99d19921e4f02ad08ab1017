@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser の実装の構造体 JSON_ParserState に parser メンバーを追加し ResumableParser_acquire() の引数の型を変更するなどのリファクタリング。
