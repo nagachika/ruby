@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser の #parse の on_load コールバック内から別に JSON.parse を読んだ時のエラー処理が競合を起こしていた不具合を修正しています。 https://github.com/ruby/json/issues/1024#issuecomment-4745232736
