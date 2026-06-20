@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで TruffleRuby で skip していたのを JRuby の時だけ skip するようにしています。
