@@ -1,0 +1,1 @@
+GC の mmtk 実装でメモリ不足時に rb_memerror() を呼び出し NoMemoryError 例外を発生させるようにしています。
