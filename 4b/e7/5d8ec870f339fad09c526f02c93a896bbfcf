@@ -1,0 +1,1 @@
+common.mk の make update-default-gemspec ターゲットで miniruby の -C オプションを渡していましたが --enable-load-relative でビルドした時に実行がエラーになる環境があったようです。
