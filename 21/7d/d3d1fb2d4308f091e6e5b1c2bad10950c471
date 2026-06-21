@@ -1,0 +1,1 @@
+String#capitalize! で ASCII 文字のみ含む時に String#upcase の fastpath 用の処理を流用するようにしています。
