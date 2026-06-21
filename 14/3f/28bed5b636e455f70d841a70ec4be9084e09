@@ -1,0 +1,1 @@
+b5c53030ccc7bd350d0f7d0e648b7bee5577d5c1 と同様に rb_define_module() と rb_define_module_id_under() の実装も共通化して rb_define_module() から rb_define_module_id_under() に委譲するようにリファクタリングしています。
