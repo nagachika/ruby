@@ -1,0 +1,1 @@
+関数マクロ rb_define_method() で rb_define_method_id のほうを利用して引数の mid に rb_intern_const() を使うようにしています。引数がリテラルの場合コンパイラの最適化で定数畳み込みされるのを期待した最適化です。
