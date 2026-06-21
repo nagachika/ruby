@@ -1,0 +1,1 @@
+rb_define_class(), rb_define_class_under(), rb_define_module(), rb_define_module_under() などの関数と同名のマクロを include/ruby/internal/module.h で定義してメソッド名に rb_intern_const() を適用して id 版の関数を呼ぶようにしています。関数本体の定義前では同名のマクロを undef するようにしています。んーそうかバイナリ互換的には関数を消せないけど新規にビルドする時には id 版を使わせるようにするということか。
