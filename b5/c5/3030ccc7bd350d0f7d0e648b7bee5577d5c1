@@ -1,0 +1,1 @@
+rb_define_class() と rb_define_class_under()  の重複を共通化して rb_define_class() から rb_define_class_under() に委譲するリファクタリング。
