@@ -1,0 +1,1 @@
+be5877d1539e2802743904662f532b2b8237ce1e で拡張ライブラリ openssl に OpenSSL::HPKE を追加した時にヘッダファイルやソースファイルが追加されているので ext/openssl/depend を再生成しています。
