@@ -1,0 +1,1 @@
+GC::Profiler クラスの rdoc 用コメントを gc.c から gc/default/default.c に移動していますまた .document に gc/default を追記して gc/default/ 配下のソースコードもドキュメント化の対象にしています。
