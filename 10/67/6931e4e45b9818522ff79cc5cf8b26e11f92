@@ -1,0 +1,1 @@
+file.c の rb_find_file_ext() と rb_find_file() から共通する処理を expand_feature() という関数に切り出して共有するリファクタリング。
