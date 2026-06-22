@@ -1,0 +1,1 @@
+拡張ライブラリ json の大域脱出のために rb_throw_obj() と rb_catch_obj() を使うのが TruffleRuby で使えなかったことで例外を利用する fallback 実装していたのを TruffleRuby 側の修正で rb_throw_obj() を使えるようになったので TruffleRuby の時にバージョンでチェックして不具合のあるバージョンでのみ例外を利用するようにしています。 https://github.com/ruby/json/pull/1031
