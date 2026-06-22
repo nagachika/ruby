@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に HPKE (Hybrid Public Key Encryption) という方式を実装した OpenSSL::HPKE::Suite クラスなどの新規クラス/モジュールを追加しています。 NEWS に追記するに相応しい新機能っぽいですね。
