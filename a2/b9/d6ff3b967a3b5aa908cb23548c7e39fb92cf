@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の各種 OpenSSL::PKey のクラスの initialize_copy の実装で OpenSSL3 からは const になっている? 型にあわせて const をつけるため OSSL_3_const 修飾子をつけるようにしています。
