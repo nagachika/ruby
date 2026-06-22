@@ -1,0 +1,1 @@
+d57e5f41a1115de0d792c98c9b7a98b6d0331295 で拡張ライブラリ json の大域脱出に rb_throw_obj() を使うかどうかで TruffleRuby のバージョンの確認に RUBY_VERSION を参照していたのを RUBY_ENGINE_VERSION でチェックするように修正しています。
