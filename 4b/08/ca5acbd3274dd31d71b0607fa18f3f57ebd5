@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 上で ZJIT を有効にした workflow で環境変数の CARGO_NET_RETRY と CARGO_HTTP_MULTIPLEXING の設定を追加して cargo のパッケージ取得のエラー抑制しています。
