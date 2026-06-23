@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 版 workflow で syntax_suggest のテストのタイムアウト延長のため環境変数 SYNTAX_SUGGEST_TIMEOUT の設定も追加しています。
