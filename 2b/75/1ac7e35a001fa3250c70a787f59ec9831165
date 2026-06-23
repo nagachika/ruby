@@ -1,0 +1,1 @@
+標準添付ライブラリ tmpdir の Dir.mktmpdir のブロック付き呼び出し時の後始末で FileUtils.remove_entry を呼ぶ時に force 引数に true を渡すようにして既に削除されていてもエラーにならないようにしています。
