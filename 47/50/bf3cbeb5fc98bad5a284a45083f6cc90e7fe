@@ -1,0 +1,1 @@
+rubyspec の標準添付ライブラリ tmpdir のテストを 2b751ac7e35a001fa3250c70a787f59ec9831165 での変更に追随してバージョン毎の FuleUtils.remove_entry の期待値を変更しています。
