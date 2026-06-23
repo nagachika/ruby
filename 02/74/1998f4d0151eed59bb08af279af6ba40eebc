@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の rdoc 用コメントのリンク修正。 https://github.com/ruby/net-http/issues/288 https://github.com/ruby/net-http/issues/289 https://github.com/ruby/net-http/issues/290 https://github.com/ruby/net-http/ssues/291 https://github.com/ruby/net-http/issues/293 https://github.com/ruby/net-http/issues/294
