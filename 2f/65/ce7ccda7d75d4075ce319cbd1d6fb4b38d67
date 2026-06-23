@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser で渡された文字列が freeze されていてなおかつ UTF-8 などマルチバイトエンコーディングの時に文字列を追加すると新規バッファ用の文字列オブジェクトが ASCII-8BIT で作られてそこに追加しようとして Encoding::CompatibilityError が発生する不具合を修正しています。
