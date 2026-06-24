@@ -1,0 +1,1 @@
+RGenGC の Write Barrier のテストのための GC 実装 wbcheck でエラー検出時に exit(1) で終了させていたのを rb_bug() を利用して異常終了させるようにしています。
