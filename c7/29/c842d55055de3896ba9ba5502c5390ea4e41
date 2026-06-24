@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に依存ライブラリが EVP_PKEY_encapsulate_init() 関数を提供している場合に OpenSSL::PKey#encapsulate および OpenSSL::PKey#decapsulate メソッドを定義する機能追加。
