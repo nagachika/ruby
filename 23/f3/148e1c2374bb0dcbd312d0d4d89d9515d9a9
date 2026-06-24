@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の CGI.unescapeHTML の ruby 実装の fallback 版で Encoding まわりのエラーが発生する不具合を修正しています。 https://github.com/ruby/cgi/issues/103
