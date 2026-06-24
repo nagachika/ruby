@@ -1,0 +1,1 @@
+ZJIT の C binding から未使用の型 rbimpl_typeddata_flags を削除しています。
