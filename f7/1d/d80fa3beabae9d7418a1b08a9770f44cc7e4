@@ -1,0 +1,1 @@
+parser に prism を使用していた時にスクリプト末尾のカンマを正しく SyntaxError にする不具合修正。
