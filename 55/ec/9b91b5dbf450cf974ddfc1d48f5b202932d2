@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の gemspec ファイルで JRuby や TruffleRuby? の時に依存関係に追加する jruby-openssl のバージョンの指定を削除しています。
