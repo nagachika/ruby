@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグの定数に RUBY_TYPED_THREAD_SAFE_FREE というのを追加しています。今のところこのビットを立ててるところがないですが、T_TYPEDDATA 型オブジェクトで free 関数が thread-safe であることを示すビットフラグだそうです。これが立っていると GC でオブジェクト開放時にそのスレッドですぐ free 関数を呼べるという意図みたいで RUBY_TYPED_FREE_IMMEDIATELY と対となる(というか役割はかぶってる)フラグのようです。 [ruby-core:125475] [Feature #22067]
