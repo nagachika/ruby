@@ -1,0 +1,1 @@
+String#casecmp? に両方の文字列が ASCII 文字のみの文字列だった時に単純なバイト(char)単位の比較をする fastpath を追加する最適化。
