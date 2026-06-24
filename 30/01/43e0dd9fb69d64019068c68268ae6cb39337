@@ -1,0 +1,1 @@
+RGenGC の Write Barrier のテストのための GC 実装 wbcheck で before_fork の API の実装が空だったのを fork 前に GC を実行してチェックさせるようにしています。
