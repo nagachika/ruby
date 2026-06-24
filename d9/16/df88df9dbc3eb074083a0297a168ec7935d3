@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の h, escape_html, unescape_html などの escaleHTML/unescaleHTML への alias の定義を拡張ライブラリによる実装の利用時には CGI::EscapeExt に生やすように対応しています。
