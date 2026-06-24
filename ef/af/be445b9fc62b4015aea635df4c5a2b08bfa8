@@ -1,0 +1,1 @@
+db878e0fc11ab837f82ccf2c148f90c9eb1ce188 で ZJIT に導入した stack maps に複数の stack frame をまとめて記録できるようにしているようです。 https://github.com/ruby/ruby/pull/17373
