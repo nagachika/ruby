@@ -1,0 +1,1 @@
+GitHub Actions の Rust を利用する workflow で環境変数 CARGO_NET_RETRY と CARGO_HTTP_MULTIPLEXING を設定して cargo のパッケージダウンロードエラーに対応しています。
