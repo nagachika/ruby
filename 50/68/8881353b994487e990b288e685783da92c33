@@ -1,0 +1,1 @@
+rubygems のテストから未使用の OpenSSL::SSL::SSLContext の tmp_dh_callback 設定を削除しています。
