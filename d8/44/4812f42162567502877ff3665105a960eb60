@@ -1,0 +1,1 @@
+parse.y で return 文や break, next などにブロックを渡す記法が SyntaxError にならないのを修正しています。 [ruby-core:125803] [Bug #22124]
