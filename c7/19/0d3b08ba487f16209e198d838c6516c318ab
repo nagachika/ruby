@@ -1,0 +1,1 @@
+構造体 struct rb_native_thread の machine_stack_maxsize メンバーを削除し関連する関数や定数を削除しています。未使用になってたみたいです。 https://github.com/ruby/ruby/pull/17435
