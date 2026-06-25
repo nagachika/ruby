@@ -1,0 +1,1 @@
+d44862fe2a5d68de648eccae7743899b6a5c870a で導入していた struct RBasic::flags のビットフラグの定数 RUBY_TYPED_THREAD_SAFE_FREE を実際には使っていなかったのを RUBY_TYPED_FREE_IMMEDIATELY と置き換えるかたちで T_TYPEDDATA 型オブジェクトの定義で使うようにしています。 RUBY_TYPED_FREE_IMMEDIATELY は消すのかな?
