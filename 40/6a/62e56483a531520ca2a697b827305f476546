@@ -1,0 +1,1 @@
+ZJIT の receiver の型が多態的な時のメソッド呼び出しの処理生成のリファクタリング。 https://github.com/ruby/ruby/pull/17437
