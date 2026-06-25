@@ -1,0 +1,1 @@
+e91fb8fe37e6df8cfec94cc291260fffbe41ab2a で導入した rubygems の強い暗号化方式についてのテストを未サポートの環境で skip するようにしています。
