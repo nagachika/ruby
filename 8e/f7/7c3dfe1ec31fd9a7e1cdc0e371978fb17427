@@ -1,0 +1,1 @@
+spec/bin/bundle に bundler のテスト用に switch_rubygems の require_relative を追加しています。システムの bundler を呼んでしまわないようにするため?
