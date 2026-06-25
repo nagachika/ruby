@@ -1,0 +1,1 @@
+正規表現リテラル内に script encoding に対して不正なバイト列が書かれていた時に CompileError を発生させる修正。  [ruby-core:125821] [Bug #22127]
