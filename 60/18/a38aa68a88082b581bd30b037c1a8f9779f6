@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で bundler の upstream のディレクトリ構造の変更に追随させています。
