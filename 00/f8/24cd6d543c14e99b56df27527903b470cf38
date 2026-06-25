@@ -1,0 +1,1 @@
+ZJIT でブロック引数を取り回す VM 命令 getblockparamproxy を JIT コンパイル後に型がプロファイルが変化して side-exit したあとの再コンパイル対応を導入しているようです。
