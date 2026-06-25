@@ -1,0 +1,1 @@
+ZJIT の統計情報でインスタンス変数の脱最適化の理由ごとのカウンタを細分化しています。 https://github.com/ruby/ruby/pull/17455
