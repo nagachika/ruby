@@ -1,0 +1,1 @@
+bundler の upstream リポジトリでのディレクトリ構造変更に伴ない bundler.gemspec ファイル内のリンクや bundler のテストでのファイルパス参照を対応しています。
