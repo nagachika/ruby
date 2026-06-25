@@ -1,0 +1,1 @@
+ZJIT で VM 命令の opt_getconstant_path を中間表現 HIR の GetConstantPath という命令にマッピングしていたの Ractor を使用していなくてインラインキャッシュが存在していればただの Const 命令を生成するようにしています。これまで HIR の GetConstantPath の実装内で行なっていた最適化を HIR の列のレベルで表現するようにしているというものみたいです。
