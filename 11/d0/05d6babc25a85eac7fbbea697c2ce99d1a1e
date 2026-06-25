@@ -1,0 +1,1 @@
+parser に prism を利用している時の不正な do ... end ブロックの記法が SyntaxError になっていなかった? 不具合を修正しています。
