@@ -1,0 +1,1 @@
+doc/syntax/refinements.rdoc に Refinements 利用時の super による親クラスメソッド呼び出しの解決についての仕様を追記しています。
