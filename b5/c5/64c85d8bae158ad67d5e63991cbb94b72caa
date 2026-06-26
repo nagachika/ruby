@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で sym_IMPLICIT と sym_EXPLICIT という変数が用意されていて Init 関数で Symbol がセットされていましたが sym_EXPLICIT との比較だけして else 節で sym_IMPLICIT の場合の処理が書かれていたため sym_IMPLICIT が参照されていなかったため未使用のグローバル変数の警告が出ていたので、明示的に比較したうえでどちらにも一致しなかった場合の else 節で例外を発生させるエラー処理を追加しています。
