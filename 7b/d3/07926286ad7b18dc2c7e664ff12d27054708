@@ -1,0 +1,1 @@
+テストでの各種リソースの解放漏れをチェックする leakchecker.rb で socket のチェック時に lsof で socket の状態が CLOSE_WAIT のものを除外していましたが CLOSED というのも除外するようにしています。
