@@ -1,0 +1,1 @@
+拡張ライブラリ socket や Struct#inspect の実装で rb_id2str() のかわりに rb_sym2str() を利用する最適化。
