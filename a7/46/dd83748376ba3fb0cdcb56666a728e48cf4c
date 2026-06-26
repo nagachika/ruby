@@ -1,0 +1,1 @@
+拡張ライブラリ json の T_TYPEDDATA 型オブジェクトの struct RBasic::flags のビットフラグに使う定数の RUBY_TYPED_FREE_IMMEDIATELY → RUBY_TYPED_THREAD_SAFE_FREE への置き換えの対応。 https://github.com/ruby/ruby/pull/17395
