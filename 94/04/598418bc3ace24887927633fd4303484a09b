@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の rdoc 用コメントのリンク修正と tool/sync_default_gems.rb で rdoc 用コメント内のリンクの書き換え対応を強化しています。
