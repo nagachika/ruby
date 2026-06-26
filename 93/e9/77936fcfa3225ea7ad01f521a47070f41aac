@@ -1,0 +1,1 @@
+String#ascii_only? と String#valid_encoding? の実装を ruby 実装から Primitive.cexpr! を使って C の関数を呼び出す実装に移植しています。 引数の処理が複雑なメソッドというわけでもないので ZJIT でのインライン化のためかなと思われます。
