@@ -1,0 +1,1 @@
+bundler で独自に vendoring していた tsort を削除して rubygems に vendoring している tsort を利用するようにしています。
