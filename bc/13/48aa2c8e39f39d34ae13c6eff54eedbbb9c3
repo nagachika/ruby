@@ -1,0 +1,1 @@
+rubygems に vendoring している uri で Gem::URI::VERSION の存在チェックをして toplevel return して二重 load された時の警告を抑制するようにしています。
