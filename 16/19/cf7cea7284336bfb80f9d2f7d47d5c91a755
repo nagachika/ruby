@@ -1,0 +1,1 @@
+String を一時的バッファとして IO::Buffer として扱うための C API rb_io_buffer_for_reading() と rb_io_buffer_for_writing() という関数を追加しています。 GC.compact からの保護とか後始末などをまとめて安全に扱えるようにするため関数としてまとめたというものみたいです。 https://github.com/ruby/ruby/pull/17473
