@@ -1,0 +1,1 @@
+と、思ったらやはり 93e977936fcfa3225ea7ad01f521a47070f41aac の続きで ZJIT で String#ascii_only? や String#valid_encoding? をインライン化する最適化を導入しています。
