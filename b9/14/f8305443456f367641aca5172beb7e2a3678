@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::X509::Store#flags および #clear_flags のメソッドを新規追加しています。
