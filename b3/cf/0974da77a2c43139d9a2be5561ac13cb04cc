@@ -1,0 +1,1 @@
+d663de3fc43a8bb54bbdde12764b54bff4369da0 での Regexp#== の実装最適化での不要な RBOOL() マクロ利用を削除しています。
