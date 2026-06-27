@@ -1,0 +1,1 @@
+rubygems に vendoring している securerandom の重複した load での警告抑制のため定数の存在チェックしての toplevel return を追加しています。
