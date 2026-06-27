@@ -1,0 +1,1 @@
+YJIT/ZJIT のプロファイル結果を処理するスクリプトを misc/jit_perf.py から misc/jit_perf.rb に Python から Ruby に移植しています。これに対応してドキュメントの doc/jit/{y,z}jit.md での使いかたの説明も書き換えています。 https://github.com/ruby/ruby/pull/17474
