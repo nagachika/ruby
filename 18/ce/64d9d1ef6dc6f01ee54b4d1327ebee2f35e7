@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグ用の定数マクロの Doxygen 用コメントを追加しています。
