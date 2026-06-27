@@ -1,0 +1,1 @@
+bundler の gemspec ファイルの spec.files に rubygems に vendoring されている securerandom のファイル群を追加しています。
