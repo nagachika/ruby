@@ -1,0 +1,1 @@
+gc.c の rb_newobj_of_with_shape() を static 関数に変更しています。
