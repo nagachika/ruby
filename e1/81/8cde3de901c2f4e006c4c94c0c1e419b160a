@@ -1,0 +1,1 @@
+GC::Profiler.raw_data に :GC_MARK_WALL_TIME と :GC_SWEEP_WALL_TIME というキーも追加して mark, sweep の処理のトータル時間を計測できるようにしています。
