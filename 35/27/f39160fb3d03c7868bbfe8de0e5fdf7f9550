@@ -1,0 +1,1 @@
+bundler のテストの securerandom の vendoring 廃止の追随。
