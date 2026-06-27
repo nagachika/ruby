@@ -1,0 +1,1 @@
+GC::Profiler.raw_data のキーに :GC_COMPACT_WALL_TIME を追加して GC.compact 処理の時間を計測できるようにしています。
