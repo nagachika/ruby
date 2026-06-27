@@ -1,0 +1,1 @@
+ModGC で GC 実装を共有ライブラリに分離している時に CRuby 内部の高精度タイマー用の hrtime が利用できないため代替実装を gc/default/default.c 内に定義するようにしています。
