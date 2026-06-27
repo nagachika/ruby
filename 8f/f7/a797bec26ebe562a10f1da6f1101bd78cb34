@@ -1,0 +1,1 @@
+bundler に vendoring されている securerandom を削除して rubygems に vendoring されているものを流用するようにしています。
