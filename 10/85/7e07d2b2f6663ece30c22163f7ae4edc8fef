@@ -1,0 +1,1 @@
+GC::Profiler.raw_data で返す Hash のキーに :GC_STOP_TIME と :GC_STW_TIME というキーを追加して GC の処理時間から Ractor の停止のための待ち時間と、実際に stop the world して GC している時間を独立して計測できるようにしています。
