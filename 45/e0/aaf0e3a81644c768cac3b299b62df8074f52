@@ -1,0 +1,1 @@
+GC::Profiler.raw_data の :GC_SWEEP_WALL_TIME の項目から :GC_COMPACT_WALL_TIME の compaction の時間を除外するようにしています。
