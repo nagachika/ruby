@@ -1,0 +1,1 @@
+ZJIT の PadPatchPoint という中間表現 HIR の命令の生成するコードに perf でのプロファイルに名前をつけるための対応。 https://github.com/ruby/ruby/pull/17517
