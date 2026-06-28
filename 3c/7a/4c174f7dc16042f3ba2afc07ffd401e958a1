@@ -1,0 +1,1 @@
+ef4626e5b92805cf07c5bfb7816307376a8e06a9 の続きで common.mk に移動した test-syntax-suggest のコマンドで -I オプションで複数のパスを区切るデリミタに ":" を決め打ちで書いてたのを $(PATH_SEPARATOR) 変数を利用するようにしています。 Windows 環境対応のため。
