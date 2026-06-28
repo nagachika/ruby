@@ -1,0 +1,1 @@
+inline 関数 ROBJECT_FIELDS() を include/ruby/internal/core/robject.h から internal/object.h に移動して非公開 API としています。
