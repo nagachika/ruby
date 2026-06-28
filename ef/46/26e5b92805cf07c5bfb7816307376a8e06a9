@@ -1,0 +1,1 @@
+make test-syntax-suggest のターゲットの記述を template/Makefile.in から common.mk に移動して Windows 版(nmake 利用時)にも syntax-suggest のテストが行なわれるようにしています。
