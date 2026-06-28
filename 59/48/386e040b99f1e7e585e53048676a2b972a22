@@ -1,0 +1,1 @@
+ZJIT で生成するコードの pref でのプロファイル情報に名前が表示されるようにする対応を関数に切り出してまだ無名のままだった trampoline 処理でも対応するようにしています。 https://github.com/ruby/ruby/pull/17515
