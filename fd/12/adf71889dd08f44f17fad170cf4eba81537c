@@ -1,0 +1,1 @@
+GC の default 実装の rb_gc_verify_internal_consistency() というデバッグ用関数を static 関数に変更しています。
