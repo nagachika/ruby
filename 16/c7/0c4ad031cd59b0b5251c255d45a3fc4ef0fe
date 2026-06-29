@@ -1,0 +1,1 @@
+テストでの各種リソースの解放漏れを検出する leakchecker.rb で socket のチェック時にアドレスタイプが AF_SYSTEM の socket はあ skip するようにしています。 macOS の kernel が利用しているものでアプリケーションで閉じることができないものがあるみたいです。
