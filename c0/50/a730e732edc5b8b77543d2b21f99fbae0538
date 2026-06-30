@@ -1,0 +1,1 @@
+d5c649dc367aaa786134290834e884fb5f620a50 の rubygems の Gem::AtomicFileWriter で Windows 環境でのファイルパスサイズ上限対応を再修正。
