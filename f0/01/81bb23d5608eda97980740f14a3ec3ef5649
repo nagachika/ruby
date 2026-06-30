@@ -1,0 +1,1 @@
+tool/runruby.rb で Windows 環境で openssl の証明書ファイル指定の環境変数がない場合に BASERUBY に含まれる証明書を流用するように対応しています。
