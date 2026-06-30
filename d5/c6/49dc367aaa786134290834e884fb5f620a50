@@ -1,0 +1,1 @@
+rubygems のファイルを排他的に書き出す Gem::AtomicFileWriter で Windows 環境でのパスの長さ上限に達しないようにする対応。
