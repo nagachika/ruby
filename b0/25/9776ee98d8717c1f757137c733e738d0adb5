@@ -1,0 +1,1 @@
+doc/distribution/windows.md に nmake check の実行のためには一部のテストの symbolic link 作成のために Developer Mode を有効にする必要があることを追記しています。
