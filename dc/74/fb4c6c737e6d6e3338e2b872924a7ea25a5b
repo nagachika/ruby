@@ -1,0 +1,1 @@
+bundler のテストで拡張子なし実行ファイル（erb, bin/gem）を bundle exec するテストを Windows 環境で skip しています。
