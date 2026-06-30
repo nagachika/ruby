@@ -1,0 +1,1 @@
+bundler のテストで Windows 環境で nmake でビルド時に jobserver は利用しないので関連するテストを skip しています。
