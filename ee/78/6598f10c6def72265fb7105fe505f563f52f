@@ -1,0 +1,1 @@
+Windows 環境での relative target という機能? を利用して実装していた File.symlink が相対パスのリンクの解決に不具合があったのを修正しているようです。
