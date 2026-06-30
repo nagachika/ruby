@@ -1,0 +1,1 @@
+bundler のテストで mswin でのみ skip したいテストを mingw でも skip していたので条件を修正しています。
