@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で rbs も Resolv.getaddress('localhost') が実行できることに依存しているそうなのでこれが使えない時に allow_failure に追加しています。
