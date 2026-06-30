@@ -1,0 +1,1 @@
+tool/fake.rb で mkmf 生成 Makefile の RUBY を baseruby に固定していたのを cross compiling でない場合はビルドした ruby を利用するようにしています。
