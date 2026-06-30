@@ -1,0 +1,1 @@
+bundler のテストで Windows 環境での jobserver 関連のテストの skip をさらに追加しています。
