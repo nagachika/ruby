@@ -1,0 +1,1 @@
+Windows 版の w32_symlink() の変数名 absolute を independent に改名。
