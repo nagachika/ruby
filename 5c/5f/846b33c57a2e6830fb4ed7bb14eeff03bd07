@@ -1,0 +1,1 @@
+bundler のテストで古い Windows 環境での gem の cache に関するテストが通せないので skip しています。
