@@ -1,0 +1,1 @@
+File.symlink、File.symlink?、File.readlink と Pathname#readlink、Pathname#make_symlink、Pathname#symlink? などのメソッド群の rdoc 用コメントを追記、手直ししています。
