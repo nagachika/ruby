@@ -1,0 +1,1 @@
+bundler のテストの Windows 環境での platform 関係のテストがうまく前提条件を満たせないので skip しています。
