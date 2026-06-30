@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で diff コマンドがないと minitest のテストが通らないそうで diff コマンドの有無を確認してなかったら minitest を allow_failure にしています。
