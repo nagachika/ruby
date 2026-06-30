@@ -1,0 +1,1 @@
+spec/bundled_gems_spec.rb で bundle exec つきでスクリプト実行する時に Windows 環境では明示的に ruby コマンドを指定する必要があるのでその差異を吸収するようにしています。
