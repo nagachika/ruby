@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser#partial_value の実装でバッファの off-by-one の不具合があったので 1要素大きくバッファを確保するように修正しています。
