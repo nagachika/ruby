@@ -1,0 +1,1 @@
+TracePoint のテストで ObjectSpace._id2ref を利用してオブジェクトが解放されたことをチェックしていたのが deprecated になって警告が出るので finalizer を利用した方法に書き換えています。
