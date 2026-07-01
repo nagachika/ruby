@@ -1,0 +1,1 @@
+未使用になった関数 shape_get_next_iv_shape() を shape.c/shape.h から削除。
