@@ -1,0 +1,1 @@
+IO の STDIN の Encoding についてのテストで Windows 向けの対応を追加しています。
