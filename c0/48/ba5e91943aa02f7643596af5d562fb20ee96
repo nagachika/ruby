@@ -1,0 +1,1 @@
+GC の mmtk 実装の rb_gc_impl_heap_id_for_size() という関数の実装が冗長だったのでシンプルにリファクタリングしています。
