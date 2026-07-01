@@ -1,0 +1,1 @@
+rubygems のファイルの permission に関するテストを Windows 環境かどうかで skip していたのをやめてチェック方法を修正しています。
