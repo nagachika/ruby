@@ -1,0 +1,1 @@
+rubygems のテストで symbolic link を使うテストを Windows 環境かどうかで skip していたのをやめて symlink_supported? でチェックするように変更しています。
