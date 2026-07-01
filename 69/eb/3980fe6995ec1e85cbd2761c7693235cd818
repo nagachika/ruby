@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の GetIvar 命令に渡す inline cache のポインタをインタプリタから得られるものを渡すように対応を追加しています。いつからか null を渡すようになってしまっていたようなのを修正しています。 https://github.com/ruby/ruby/pull/17559
