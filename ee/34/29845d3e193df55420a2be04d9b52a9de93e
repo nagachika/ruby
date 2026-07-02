@@ -1,0 +1,1 @@
+bundler のテストで bundle install していたところを bundle lock に留める最適化。
