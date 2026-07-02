@@ -1,0 +1,1 @@
+bundler のテストで依存関係の assertion のチェック対象に "activesupport 2.3.2" が重複していたのを削っています。
