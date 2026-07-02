@@ -1,0 +1,1 @@
+ZJIT の Rust 実装から C の binding rb_get_call_data_ci() を呼び出してメソッド呼び出しの callinfo を得ていたのを引数の構造体から直接メンバーを参照するようにして関数呼び出しを不要にしています。
