@@ -1,0 +1,1 @@
+common.mk の make modular-gc ターゲットの依存関係に ruby 本体と rbconfig.rb を追加しています。
