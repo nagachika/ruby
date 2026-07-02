@@ -1,0 +1,1 @@
+tool/lib/path.rb でシンボリックリンクをはる時に指定のパスがリンクを置くディレクトリなのかリンクそのものなのかを区別するため target_directory というキーワード引数を追加しています。また共通の処理を ln_target_directory という private メソッドに切り出しています。
