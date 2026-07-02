@@ -1,0 +1,1 @@
+GC の mmtk 実装利用時に skip するテストの指定に 71e925cc0884664f4ddba2dce51d8309a608fda1 の GC::Profiler のリングバッファ化で追加したテストを追記しています。 GC の default 実装でのみ意味のあるテストなので。
