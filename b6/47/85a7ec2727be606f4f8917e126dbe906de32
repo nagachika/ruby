@@ -1,0 +1,1 @@
+bundler の bundle lock のテストで不要な前処理を削る最適化。
