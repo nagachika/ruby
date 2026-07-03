@@ -1,0 +1,1 @@
+shape.c の rb_shape_get_root_shape() という関数を static 関数にしています。
