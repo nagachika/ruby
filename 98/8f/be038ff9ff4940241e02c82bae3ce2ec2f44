@@ -1,0 +1,1 @@
+静的リンク拡張ライブラリのビルド周りで、EXTSTATIC のチェックを PRE_LIBRUBY_UPDATE に移動しています。
