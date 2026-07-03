@@ -1,0 +1,1 @@
+ce089a3de1953ee8f2cf730f68dc72dd7cec3a3b からの拡張ライブラリ psych の libfyaml 対応の続きで RB_GC_GUARD() を複数追加してコンパイラによる最適化で GC mark 漏れを起こす不具合の対策をしています。
