@@ -1,0 +1,1 @@
+ce089a3de1953ee8f2cf730f68dc72dd7cec3a3b からの拡張ライブラリ psych の libfyaml 対応の続きで、外部 Encoding が UTF-16 の時に UTF-8 に変換してから libfyaml に渡すようにしています。
