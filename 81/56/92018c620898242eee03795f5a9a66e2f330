@@ -1,0 +1,1 @@
+make testl-all のテスト群でもう不要になっていた Windows 環境での skip を削除しています。
