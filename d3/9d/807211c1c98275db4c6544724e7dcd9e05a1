@@ -1,0 +1,1 @@
+bundler で Bundler::Fetcher#connection が OpenSSL::PKey::RSA.new をハードコードしていて ML-DSA のクライアント証明書に対応できなかったのを修正しています。
