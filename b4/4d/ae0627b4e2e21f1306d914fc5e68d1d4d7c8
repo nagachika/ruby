@@ -1,0 +1,1 @@
+bundler のテストで require "support/artifice/compact_index" は 2 回目の呼び出しでファイルが読み込まれず不十分だったため、Artifice を明示的に有効化して parallel_installer_spec のホスト到達失敗を修正。
