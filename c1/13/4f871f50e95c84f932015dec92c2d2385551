@@ -1,0 +1,1 @@
+bundler のテストで Artifice.deactivate が Gem::Net::HTTP を一時的に上書きしているのを元に戻せてなかったのを修正しています。
