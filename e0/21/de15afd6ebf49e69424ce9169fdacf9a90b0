@@ -1,0 +1,1 @@
+array.c の ArithmeticSequence を作る実装のリファクタリング。 step を先にチェックすることで step が 0 の時の不要なチェックを飛ばせるようにしているみたいです。
