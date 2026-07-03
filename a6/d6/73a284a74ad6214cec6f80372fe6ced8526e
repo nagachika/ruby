@@ -1,0 +1,1 @@
+ZJIT の Rust 製テストにシグナルハンドラ内から rb_profile_frames を呼ぶテストを追加しています。 https://github.com/ruby/ruby/pull/17194
