@@ -1,0 +1,1 @@
+ce089a3de1953ee8f2cf730f68dc72dd7cec3a3b からの拡張ライブラリ psych の libfyaml 対応の続きで psych のテストに libfyaml 利用時のみの独自のテストも追加しています。
