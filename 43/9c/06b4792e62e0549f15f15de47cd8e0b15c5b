@@ -1,0 +1,1 @@
+Symbol#empty? メソッドを ruby 実装にして ZJIT の型アノテーションを追加することで最適化されるようにしているようです。 https://github.com/ruby/ruby/pull/17464
