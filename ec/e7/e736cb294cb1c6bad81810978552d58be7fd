@@ -1,0 +1,1 @@
+bundler で Windows 環境での改行コードの違いで lockfile が書き変わってしまっていた不具合の修正。
