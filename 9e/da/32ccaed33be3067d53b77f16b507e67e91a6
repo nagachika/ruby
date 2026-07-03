@@ -1,0 +1,1 @@
+bundler のテストで既に不要になっていた Windows での skip を削除しています。
