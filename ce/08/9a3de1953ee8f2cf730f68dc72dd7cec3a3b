@@ -1,0 +1,1 @@
+拡張ライブラリ psych で configure 時の --enable-libfyaml を受け付けて libfyaml という外部ライブラリを利用するバージョンの実装を追加しています。
