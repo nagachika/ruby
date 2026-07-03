@@ -1,0 +1,1 @@
+ce089a3de1953ee8f2cf730f68dc72dd7cec3a3b からの拡張ライブラリ psych の libfyaml 対応の続きで YAML  の yes, no, on, off などの boolean にする扱いについて利用するライブラリによって(YAML 1.1 か 1.2 かで)扱いを変えるようにしています。悪名高い yes, no, on, off を真偽値にするのは YAML 1.2 からは廃止されてるんですね。
