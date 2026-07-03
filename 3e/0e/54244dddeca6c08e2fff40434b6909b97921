@@ -1,0 +1,1 @@
+Ractor のテストで Windows でタイムアウトしてしまうテストの skip 追加。 https://github.com/ruby/ruby/pull/17625
