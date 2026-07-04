@@ -1,0 +1,1 @@
+Ractor を新規作成する時に呼び元の Thread の main fiber の Fiber local storage を継承してしまっていた不具合を修正しています。
