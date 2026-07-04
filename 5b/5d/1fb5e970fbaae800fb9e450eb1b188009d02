@@ -1,0 +1,1 @@
+configure で FreeBSD で DTrace を無効にしていた条件を削除して FreeBSD でも DTrace を使えるようにしています。
