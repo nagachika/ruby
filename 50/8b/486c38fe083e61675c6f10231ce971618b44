@@ -1,0 +1,1 @@
+bundler のテストの make test-bundler-parallel で並列実行する時のファイルの分散方法を過去の実行時間をベースに効率よく分散することでトータルの待ち時間を改善するようにしています。 https://github.com/ruby/ruby/pull/17647
