@@ -1,0 +1,1 @@
+Object#clone の処理が複数 Ractor からの並行実行時にキャッシュの遅延初期化の race condition があったので RUBY_ATOMIC_VALUE_CAS() を利用して排他処理する関数を導入してこれを利用するように修正しています。
