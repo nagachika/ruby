@@ -1,0 +1,1 @@
+vm.c の rb_free_vm_opt_tables() という関数を static 関数に変更しています。
