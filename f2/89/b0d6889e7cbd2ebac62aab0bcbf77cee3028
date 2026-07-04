@@ -1,0 +1,1 @@
+Ractor.current や Ractor.count, Ractor.main, Ractor#name などの Ractor の ruby 実装のメソッド群に Primitive.attr! :leaf で例外発生しないメソッドの annotation を追加して YJIT や ZJIT での control frame 省略の最適化を促しています。
