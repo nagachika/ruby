@@ -1,0 +1,1 @@
+Object Shapes の shape_id_t 型のビット内に直接 Variable Width Allocation の拡張された slot サイズを埋め込むようにして、従来は slot サイズのリストのインデックスを持っていたのを直接サイズを持つため GC というか Object Space の実装がどのような slot サイズの heap を用意しているかに依存しないようにしています。
