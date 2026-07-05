@@ -1,0 +1,1 @@
+Ractor のテストに Ractor 作成後の main Fiber の Fiber local storage についてのテストを追加しています。おそらく昨日の f5ef758a756b325208c9d052326bb64239e4b1aa に対応したテストだと思われます。
