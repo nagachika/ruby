@@ -1,0 +1,1 @@
+GVL 解放状態で実行できない処理などを遅延実行するための postponed_job に rb_postponed_job_trigger_for_ractor() という内部的 C API を追加して処理を実行する Ractor も指定可能にしています。 Ractor を意識した GC 関連の機能で使う予定みたいです。
