@@ -1,0 +1,1 @@
+ObjectSpace.each_object などで Object Space の heap 全体を走査する時の VM 全体の排他処理の呼ぶ場所を rb_objspace_each_objects() という関数内に移動して、あちこちの呼び元でいちいち RB_VM_LOCKING() を使わないといけなかったのを不要にするようリファクタリングしています。ついでに rb_iseq_remove_coverage_all() ではもともと呼び忘れていたようなのでその修正も含むようです。
