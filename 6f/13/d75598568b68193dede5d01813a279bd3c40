@@ -1,0 +1,1 @@
+vm_trace.c の GVL 確保していない状態で後で実行するための処理を遅延実行する postponed_job を実際に実行する rb_postponed_job_flush() でジョブをリストから取り出す時に Thread 間の協調のため RUBY_ATOMIC_PTR_LOAD() を利用するようにしています。追加するほうが GVL なしで追加するため RUBY_ATOMIC_PTR_EXCHANGE() を使っているので読むほうも atomic に処理する必要がありました。
