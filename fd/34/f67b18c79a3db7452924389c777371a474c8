@@ -1,0 +1,1 @@
+GitHub Actions の Cygwin 環境向けの workflow で cygwin のパッケージのインストール時に ruby-devel をインストールするように追加しています。また gem パッケージの fiddle を明示的に gem install するようにしています。
