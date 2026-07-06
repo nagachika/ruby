@@ -1,0 +1,1 @@
+Numeric#round の rdoc 用コメントの call-seq にキーワード引数 half を追記しています。
