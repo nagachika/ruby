@@ -1,0 +1,1 @@
+tool/auto_review_pr.rb で upstream repository へのリンクを埋め込む時に組織が ruby 以外の repository の場合にリンクミスしていたのを修正しています。
