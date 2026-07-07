@@ -1,0 +1,1 @@
+正規表現オブジェクト T_REGEXP 型のオブジェクトの構造体を Variable Width Allocation の拡張した slot に埋め込むようにしています。
