@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で 72be7924c1af5b374a039474cfe7572c5fd95b8d で導入したヘルパー関数 ossl_want_uninitialized() を使ったチェックを ext/openssl/ossl_ts.c でも利用するようにリファクタリングしています。
