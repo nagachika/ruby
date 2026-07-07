@@ -1,0 +1,1 @@
+prism に 4c4ce5520cf1ec51a6c7728fca31805119b640d5 で追加した PRISM_ASSUME() マクロの定義で macOS での clang でのビルド向けの preprocessor 分岐を修正しています。
