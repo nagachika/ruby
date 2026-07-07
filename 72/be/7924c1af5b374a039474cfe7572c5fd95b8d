@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に ossl_want_uninitialized() という C API  を追加しています。 T_TYPEDDATA 型のオブジェクトの VALUE を受けてそれが既に初期化済みだったら例外を発生させるというヘルパー関数です。
