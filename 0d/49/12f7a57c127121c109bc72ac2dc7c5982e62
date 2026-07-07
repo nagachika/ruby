@@ -1,0 +1,1 @@
+IO#timeout= メソッドの実装でタイムアウト値を格納する時に RGenGC の Write Barrier の挿入が不足していたのを修正しています。
