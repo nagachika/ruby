@@ -1,0 +1,1 @@
+encoding.c でオブジェクトを Ractor 間共有可能にマークするための struct RBagic::flags のビットフラグを立てるのに直接ビットマスク定数を使ってたのを RB_OBJ_SET_SHAREABLE() というマクロを使ってセットするようにリファクタリングしています。
