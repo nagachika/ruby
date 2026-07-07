@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Provider.load で TypedData_Wrap_Struct() で GC が発生する可能性がありそこで例外が発生すると確保済みの構造体メモリ領域が解放されず leak するため先に NULL ポインタで TypedData_Wrap_Struct() を呼び出しオブジェクトを確保しておいてから構造体を確保後代入するという順番に変更しています。
