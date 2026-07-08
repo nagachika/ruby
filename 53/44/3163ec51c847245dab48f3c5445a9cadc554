@@ -1,0 +1,1 @@
+Thread::Mutex#unlock の rdoc 用コメントを C 実装の関数の前に書いてたのを ruby 実装のほうに移植しています。
