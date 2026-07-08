@@ -1,0 +1,1 @@
+ZJIT のオプション --zjit-max-versions のデフォルト値を 4に引き上げています。 https://github.com/ruby/ruby/pull/17562
