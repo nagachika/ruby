@@ -1,0 +1,1 @@
+関数 rb_shape_capacity() を rb_shape_embedded_capacity() に改名するリファクタリング。
