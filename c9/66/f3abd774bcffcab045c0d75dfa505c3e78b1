@@ -1,0 +1,1 @@
+rb_imemo_fields_new() から内容の一部を imemo_fields_new() という static 関数に切り出し使いまわすリファクタリング。
