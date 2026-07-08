@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で不要なメモリ確保を避けるため確保位置を移動しています。 https://github.com/ruby/ruby/pull/17680
