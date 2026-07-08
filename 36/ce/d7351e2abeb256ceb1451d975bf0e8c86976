@@ -1,0 +1,1 @@
+C API の拡張ライブラリを利用したテストで Variable Width Allocation の slot サイズが可変になった影響に対応しています。
