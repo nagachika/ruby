@@ -1,0 +1,1 @@
+regcomp.c の onig_reg_copy_body() で exact_end メンバーのコピー元を間違っていた不具合を修正しています。 T_REGEXP を embeddable にした b58a6024a07ab0bf7f45d1a17fe216822125444a の時に入た不具合の修正のようです。
