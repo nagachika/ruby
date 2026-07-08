@@ -1,0 +1,1 @@
+Object Shapes で shape の最大容量を動的に決定するようにしています。従来 SHAPE_MAX_CAPACITY は GC が確保可能な最大容量以下にする必要がありましたが、rb_shape_tree_t に max_capacity を復活させ、GC が Variable Width Allocation により確保可能な slot の最大サイズを報告する新 API rb_gc_impl_max_allocation_size を追加して両者を分離可能にしています。
