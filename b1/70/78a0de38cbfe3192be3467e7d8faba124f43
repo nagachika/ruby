@@ -1,0 +1,1 @@
+d9b4ab5b40615c06dd93991af4f3787f1a3dd5b8 の変更で preprocessor 分岐によっては未使用になってた関数の (void)キャストすることで未使用警告の抑制。また process.c で has_privilege() を ASAN が有効な時だけ定義するようにして未使用警告の抑制。
