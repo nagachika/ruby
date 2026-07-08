@@ -1,0 +1,1 @@
+HIR のプロファイリングでの可視性を向上するための perf のシンボル追加。 https://github.com/ruby/ruby/pull/17519
