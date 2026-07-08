@@ -1,0 +1,1 @@
+Object Shapes のヘルパー関数  rb_shape_transition_slot_size() および rb_obj_shape_transition_slot_size() を追加するリファクタリング。
