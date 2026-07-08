@@ -1,0 +1,1 @@
+Object Shapes 用のマクロ RBASIC_SET_SHAPE_ID() で shape_id_t の SHAPE_ID_LAYOUT_MASK のビットマスク部分も落として設定するようにしています。これをセットしたい時は RBASIC_SET_FULL_SHAPE_ID() を呼ぶようにしています。この部分を変更する箇所は少ないので呼び元でセットしなおす処理を書いてたのを不要にするリファクタリングです。
