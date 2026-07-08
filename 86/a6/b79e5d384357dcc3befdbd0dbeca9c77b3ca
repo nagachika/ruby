@@ -1,0 +1,1 @@
+文字列の C API のテストで Object Space の Variable Width Allocation による可変 slot サイズの上限に依存していた部分を依存しないように修正しています。
