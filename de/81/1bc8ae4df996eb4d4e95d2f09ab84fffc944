@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の assert! のなかで副作用を持つ式を書いてたのをやめるよう修正。 https://github.com/ruby/ruby/pull/17678
