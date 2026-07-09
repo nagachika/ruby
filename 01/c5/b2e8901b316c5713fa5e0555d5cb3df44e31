@@ -1,0 +1,1 @@
+template/Makefile.in の DTrace 関連のオブジェクトファイルの定義に thread.o と vm_sync.o を追記しています。
