@@ -1,0 +1,1 @@
+Object Shapes の shape_id_t のビットパターン内に slot サイズを埋め込むようにしたので GC.compact によるオブジェクト移動で slot サイズの異なるヒープ間を移動した時に shape_id_t も書き換える処理をするため T_OBJECT 以外のオブジェクトについても rb_gc_obj_changed_slot_size() を呼ぶようにしています。また T_ARRAY 型と T_STRING 型オブジェクトの struct RBasic::flags にセットするビットフラグに RARRAY_FAKEARY と STR_FAKESTR というのを追加して、この処理からダミーのバッファを wrap しているオブジェクト除外する判定ができるようにしています。
