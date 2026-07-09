@@ -1,0 +1,1 @@
+gc.c にデバッグ用に xfree 関数を無効化する static 変数 g_nofree を定義して真にセットすることで実行時に解放処理を無効化するという機構がありましたが、マクロ RUBY_NO_FREE コンパイル時に -DRUBY_NO_FREE で指定した時のみ有効になるように preprocessor 分岐を追加しています。
