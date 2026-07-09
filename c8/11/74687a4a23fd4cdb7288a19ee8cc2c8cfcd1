@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump のテストで GC.stat_heap を使って slot_size の値のチェックまでしていましたが、具体的な値まではみず slot_size の項目に数値があれば良しと条件を緩めています。
