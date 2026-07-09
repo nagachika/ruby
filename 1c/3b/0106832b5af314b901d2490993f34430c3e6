@@ -1,0 +1,1 @@
+coverage のリセット処理時に rb_vm_t::me2counter メンバのリセットも追加しています。
