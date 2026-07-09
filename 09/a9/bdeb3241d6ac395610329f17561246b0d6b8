@@ -1,0 +1,1 @@
+YJIT/ZJIT 利用時に Array#find メソッドの ruby 実装化が非互換のため rubyspec でエラーになってしまうそうで一時的に コメントアウトしています。
