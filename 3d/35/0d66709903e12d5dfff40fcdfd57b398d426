@@ -1,0 +1,1 @@
+同じく Object Shapes で shape_id_t のビットパターンに slot サイズを埋め込むようになったため rb_gc_obj_slot_size() をこの shape_id_t から値を抽出する軽量な実装に書き換えています。
