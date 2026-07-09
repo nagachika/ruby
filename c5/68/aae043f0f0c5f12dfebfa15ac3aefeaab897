@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の Insn::InvokeBuiltin() の戻り値の型を Option で wrap するのをやめています。これもサイズ削減のため?
