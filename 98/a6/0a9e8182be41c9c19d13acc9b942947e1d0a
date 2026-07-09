@@ -1,0 +1,1 @@
+rb_check_convert_type_with_id() という関数の冒頭の分岐までの fast path を internal/object.h の inline 関数として切り出し、分岐後の残りの処理を rb_check_convert_type_with_id_slow() という関数として object.c に残す最適化。
