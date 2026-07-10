@@ -1,0 +1,1 @@
+deprecated warning を出していた ObjectSpace._id2ref メソッドを実際に削除しています。 [ruby-core:125882] [Feature #22135]
