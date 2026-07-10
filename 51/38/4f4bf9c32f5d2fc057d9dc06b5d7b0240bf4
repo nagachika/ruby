@@ -1,0 +1,1 @@
+841ea9d5024e1aeb4be4d03734214ad22e0d7607 に対応して ZJIT から呼ぶ rb_zjit_hash_new_size() という関数を bindgen で binding 生成するようにしています。
