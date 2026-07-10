@@ -1,0 +1,1 @@
+Time#memsize のテストで Variable Width Allocation の slot サイズに依存してたテストを GC の内部状態が取れる時だけチェックするように対応しています。
