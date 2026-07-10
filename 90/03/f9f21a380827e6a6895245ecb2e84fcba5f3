@@ -1,0 +1,1 @@
+ZJIT でメソッドを inline 化した最適化を行う場合に軽量化 JITFrame を積む時にレジスタの内容などを退避していた処理を遅延して、実際に大域脱出などで control frame の実体化が必要な時に行なうようにしています。 https://github.com/ruby/ruby/pull/17387
