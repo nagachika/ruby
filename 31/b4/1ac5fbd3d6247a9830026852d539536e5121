@@ -1,0 +1,1 @@
+M:N Thread 有効化時に Thread の終了時に実装で利用している coroutine の coroutine_transfer() を呼び出す前に rb_thread_t::sched.finished のフラグを立てていて、参照前に GC で解放されて use-after-free が発生しうる race condition がありました。 struct rb_thread_context という構造体を追加して coroutine が参照する実行時情報をまとめて Thread の終了処理を修正しています。
