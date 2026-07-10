@@ -1,0 +1,1 @@
+ZJIT から呼ぶための gc_bump_pointer_heap() という関数を削除しています。関連して gc_ractor_jit_cursor_sync() という関数も削除されています。また GC の default 実装の構造体の統合などのリファクタリングも同時に行なっています。
