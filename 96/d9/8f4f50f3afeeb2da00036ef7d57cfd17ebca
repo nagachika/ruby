@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の LoadField および StoreField 命令のオペランドの num_bits をコンパイル時に想定していたのを明示的に引数で引き回すようにしています。 https://github.com/ruby/ruby/pull/17504
