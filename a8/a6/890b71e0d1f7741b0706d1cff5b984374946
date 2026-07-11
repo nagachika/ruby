@@ -1,0 +1,1 @@
+gc.c の obj_free_object_id() という ObjectSpace._id2ref の削除により空になっていた関数を削除しています。
