@@ -1,0 +1,1 @@
+Enumerator::Lazy#to_enum がメソッド名を文字列で渡すと無視されていた不具合を修正。Symbol への変換が抜けてたようです。 [ruby-core:125997] [Bug #22189]
