@@ -1,0 +1,1 @@
+END ブロックや Kernel#at_exit で登録したプロセス終了時に実行させるコードの実行は常に main Ractor で実行されるため、そもそも main Ractor 以外でこれらの呼んだ(実行した)時に Ractor::IsolationError 例外を発生させるようにしています。 [ruby-core:125903] [Feature #22139]
