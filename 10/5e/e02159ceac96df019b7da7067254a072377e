@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で StringIO#set_encoding でバッファ文字列の flags の STR_CHILLED_SYMBOL_TO_S のチェックを ruby 4.1 以降行なわないようにしています。これ以降の Symbol#to_s で freeze された文字列を返すようにする変更への追随が先に入ったものと思われます。 https://github.com/ruby/ruby/pull/17781 [ruby-core:125891] [Feature #22137]
