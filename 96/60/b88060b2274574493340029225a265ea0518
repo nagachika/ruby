@@ -1,0 +1,1 @@
+ZJIT で中間表現 HIR の IsBlockGiven 命令のオペランドを EP からそこから読み込んだ block handler を渡すようにしています。 https://github.com/ruby/ruby/pull/17756
