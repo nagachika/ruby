@@ -1,0 +1,1 @@
+オブジェクトの参照を traverse するための rb_objspace_reachable_objects_from() や rb_objspace_reachable_objects_from_root() で GC の mark 処理を再利用して使うためカスタムのコールバック変数を格納していた rb_vm_t::gc.mark_func_data がプロセス内で共有されているため Ractor 間で競合が起こっていたので Ractor ごとにコールバック関数を持てるようにして対応しています。
