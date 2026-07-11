@@ -1,0 +1,1 @@
+Kernel#sprintf が $DEBUG に true を設定しているとフォーマット文字列に対して引数が多すぎる時に例外を発生させていたのをやめています。 [ruby-core:125889] [Feature #22136]
