@@ -1,0 +1,1 @@
+bundler で拡張ライブラリビルドのための jobserver を BSD make でも nmake と同様サポートしていないようなので BSD 系 OS でも jobserver を利用しないようにしています。
