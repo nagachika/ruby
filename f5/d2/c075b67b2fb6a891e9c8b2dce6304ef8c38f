@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL 3.0 での options の型のサイズが 64 bits に拡張されたのに対応するようにしています。
