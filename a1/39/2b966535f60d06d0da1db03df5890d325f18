@@ -1,0 +1,1 @@
+52f58888037ce87f404010ca0417c83d94f8e520 と同様に rb_gc_register_mark_object() で mark の root とするオブジェクトを管理する配列を VM 全体で共有していたのを Ractor ごとに持つようにしています。 Ractor ごとの GC の導入のための一連の準備のうちのひとつ。
