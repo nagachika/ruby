@@ -1,0 +1,1 @@
+Symbol#to_s が chilled string を返すようにしていたのを freeze された文字列を返すように変更しています。 [ruby-core:125891] [Feature #22137]
