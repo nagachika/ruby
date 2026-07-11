@@ -1,0 +1,1 @@
+M:N Thread 有効化時に実装に使っている coroutine が ucontext 利用の実装の時に終了した coroutine の context を得ることができていなくて double free などが発生して異常終了する可能性があった不具合を修正しています。
