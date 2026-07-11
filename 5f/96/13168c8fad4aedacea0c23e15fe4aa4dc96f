@@ -1,0 +1,1 @@
+Pathname#each_line や Pathname.glob の rdoc 用コメントの call-seq の typo 修正や Pathname#readlines の rdoc 用コメントの追加。
