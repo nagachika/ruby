@@ -1,0 +1,1 @@
+Variable Width Allocation による拡張 slot のサイズは Object Shapes の shape_id_t のなかにビットパターンとして埋め込むようになったため 7 bits で表現できる範囲に収める必要があり、Array の埋め込み可否の判定で rb_gc_size_allocatable_p() を呼ぶ時に事前にその上限を越えてないかチェックするようにしています。ちょっとよくわかりませんが、将来的な変更時の保険のためのチェック強化かなという気がします。
