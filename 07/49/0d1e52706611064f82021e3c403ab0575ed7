@@ -1,0 +1,1 @@
+tool/redmine-backporter.rb が redmine の挙動変更でエラーになっていたようで issue 読み取りの時にも認証用の API Key を渡すヘッダを追加するようにしています。
