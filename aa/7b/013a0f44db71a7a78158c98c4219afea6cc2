@@ -1,0 +1,1 @@
+GVL を解放して関数を実行する rb_nogvl() の flags 引数のビットに RB_NOGVL_PENDING_INTR_FAIL という定数を追加して、呼び出し時点で既に保留中の割り込みがあったらコールバック関数を呼ばずにすぐ返るようにしています。また BLOCKING_REGION() マクロから rb_nogvl() を呼ぶ時にこのビットを立てるようにして代表的な使われかたで割り込みチェックを有効にしています。 https://github.com/ruby/ruby/pull/17553 [ruby-core:125892] [Feature #22138]
