@@ -1,0 +1,1 @@
+ZJIT の --zjit-stats での統計情報出力時の出力するカウンタに compile_hir_optimize_load_store_time_ns、compile_hir_remove_redundant_patch_points_time_ns、compile_hir_remove_duplicate_check_interrupts_time_ns などを追加しています。
