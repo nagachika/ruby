@@ -1,0 +1,1 @@
+Kernel#Float() や String#to_f メソッドで文字列から浮動小数点数への変換時に ERANGE エラーが発生すると警告を出力していたのをやめています。 [ruby-core:125586] [Feature #22085]
