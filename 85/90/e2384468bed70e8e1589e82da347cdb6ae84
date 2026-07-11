@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の AnyToString 命令の型を StringExact に変更して常に String を返すことを保証するように型推論するようにしています。
