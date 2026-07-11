@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL の 3.0 から追加された EVP_PKEY_get_params() という関数を利用する OpenSSL::PKey#get_param メソッドを新規追加しています。
