@@ -1,0 +1,1 @@
+ZJIT で JIT で生成されたメソッドから同じく JIT 生成されたメソッドの関数を直接呼び出す JIT-to-JIT 呼び出し時にプロファイラが未初期化の frame を触ってしまう可能性があった(シグナル処理などしている場合?)に異常終了する可能性があった race condition を修正しています。 https://github.com/ruby/ruby/pull/17760
