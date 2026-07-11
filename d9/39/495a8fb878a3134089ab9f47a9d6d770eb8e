@@ -1,0 +1,1 @@
+thread_pthread.c で未使用の変数の警告除去のため RUBY_DTRACE_RTS_SET_RUNNING() マクロに渡す引数のためだけの変数を削除して直接マクロ引数に渡すようにしています。
