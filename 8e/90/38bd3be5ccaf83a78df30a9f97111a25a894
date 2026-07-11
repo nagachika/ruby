@@ -1,0 +1,1 @@
+GC の mmtk 実装でも Variable Width Allocation による slot サイズを固定のリストではなく自由に決められるように対応しています。
