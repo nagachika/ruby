@@ -1,0 +1,1 @@
+doc/file/filename_globbing.md および Dir.[] や Dir.glob の rdoc 用コメントに複数の引数を受け取る記述を復活させています。
