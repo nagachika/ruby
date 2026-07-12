@@ -1,0 +1,1 @@
+整数のビットの立ってる数を返す Integer#bit_count メソッドを新規追加しています。 [ruby-core:116083] [Feature #20163]
