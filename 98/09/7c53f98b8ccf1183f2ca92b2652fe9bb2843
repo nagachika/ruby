@@ -1,0 +1,1 @@
+tool/binary-package.rb というツールを追加し、Windows 環境で nmake binary-package というターゲットを追加して、ビルド済みのバイナリとランタイムの DLL、ライセンスファイルなどを含んだ zip ファイルを作成するみたいです。けどコマンドとしては tar acf を使ってるみたいだけど zip になるのかな? [Misc #22180]
