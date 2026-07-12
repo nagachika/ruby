@@ -1,0 +1,1 @@
+98097c53f98b8ccf1183f2ca92b2652fe9bb2843 で追加した tool/binary-package.rb で runtime の DLL の同梱をやめています。 [Misc #22180]
