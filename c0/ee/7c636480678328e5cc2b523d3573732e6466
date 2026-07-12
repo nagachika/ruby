@@ -1,0 +1,1 @@
+98097c53f98b8ccf1183f2ca92b2652fe9bb2843 で追加した tool/binary-package.rb で Windows に含まれる bsdtar コマンドを利用するために明示的に %SystemRoot%\System32\tar.exe のファイルパスを指定するようにしています。存在しなかったらパス指定のない tar を使うようにしています。 [Misc #22180]
