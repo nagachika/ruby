@@ -1,0 +1,1 @@
+ZJIT の Float の演算をインライン化する最適化で flonum (即値)でない Float オブジェクトの時に side-exit すると再コンパイルが行なわれなかったのを再コンパイルしてメソッド呼び出しに fallback するようにしています。 https://github.com/ruby/ruby/pull/17776
