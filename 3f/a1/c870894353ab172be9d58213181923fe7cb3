@@ -1,0 +1,1 @@
+Ractor の同期のための rb_ractor_sched_barrier_join() で待ち中になった Ractor の数のカウンタを間違ってカウントして不完全が barrier になる可能性があった不具合を修正しています。
