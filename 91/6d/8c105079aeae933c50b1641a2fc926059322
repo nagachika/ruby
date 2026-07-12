@@ -1,0 +1,1 @@
+Variable Width Allocation による拡張 slot への構造体やバッファの埋め込みについて Struct の埋め込み可能かどうかの判定時に 、Object Shapes の shape_id_t 内の 7 bits で slot サイズを表現するようになったことによる上限も考慮するようにしています。
