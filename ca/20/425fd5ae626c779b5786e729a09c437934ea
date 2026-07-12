@@ -1,0 +1,1 @@
+M:N Thread の有効化時に fiber_current() で Fiber の execution context を参照する時にコンパイラの最適化によりレジスタを利用していて、これが coroutine の切り替えにより誤った Fiber の execution context を参照してしまう可能性があった不具合を修正しています。GET_EC() ではなく rb_current_ec_noinline() を使うようにしてコンパイラによる inline 化を抑制するようにしてこれを回避しています。
