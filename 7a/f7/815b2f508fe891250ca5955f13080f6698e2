@@ -1,0 +1,1 @@
+fec7b8b6e7667d02ecdc04781c4ba284a476cb7e での tool/binary-package.rb で rbconfig.rb のファイルパスの調節のコードをリファクタリングしています。 [Misc #22180]
