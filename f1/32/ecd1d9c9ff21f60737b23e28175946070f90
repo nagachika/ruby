@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で nmake binary-package によるパッケージ作成とその展開後のチェックの step を追加しています。 [Misc #22180]
