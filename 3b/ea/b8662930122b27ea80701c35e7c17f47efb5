@@ -1,0 +1,1 @@
+ZJIT のテストを ruby から Rust 実装に移植し、残る ruby 製のテストを  test/ruby/test_zjit.rb から test_zjit_cli.rb に改名しています。
