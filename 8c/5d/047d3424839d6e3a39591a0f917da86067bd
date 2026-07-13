@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の tarball パッケージのテストの workflow で a7c51ea16fac38e5d1d085a03331a84cf4f18c70 と同様の URL の動的な組み立てをするように修正しています。
