@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で c409e8bed3134ad6bc9459cbe19ca5e7407821ca の続きで NuGet の URL を fork したリポジトリでも動くように動的に変えるようにしています。
