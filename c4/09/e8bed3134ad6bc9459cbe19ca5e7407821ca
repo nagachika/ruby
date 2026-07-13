@@ -1,0 +1,1 @@
+GitHub Actions の Windows 環境での tarball パッケージテストの workflow で指定していた permissions が不要だったみたいで削除しています。
