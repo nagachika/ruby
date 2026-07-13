@@ -1,0 +1,1 @@
+rubyspec の Integer#bit_count のテストで should raise_error の matcher を使っていたのを should.raise というメソッドチェインを利用するようにしています。 [ruby-core:116083] [Feature #20163]
