@@ -1,0 +1,1 @@
+拡張ライブラリから指定した pid の子プロセスの終了ステータスを得るための C API rb_process_status_for() というのを新規追加しています。実体としては元から存在していた rb_process_status_new() を改名して include/ruby/internal/intern/process.h に宣言を追加しています。 https://github.com/ruby/ruby/pull/15213 [ruby-core:123883] [Feature #21704]
