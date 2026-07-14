@@ -1,0 +1,1 @@
+拡張ライブラリ json の extconf.rb で組み込み関数 __builtin_clzll() の存在チェックをしていましたが、ruby 本体がチェックした結果の HAVE_BUILTIN___BUILTIN_CLZLL マクロに依存するようにしています。 https://github.com/ruby/json/pull/1052
