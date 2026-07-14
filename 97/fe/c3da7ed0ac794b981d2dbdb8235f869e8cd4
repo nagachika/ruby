@@ -1,0 +1,1 @@
+bignum.c と gc/default/default.c に GCC の 4.4 の時に不要な変数宣言や空の attribute 宣言があったのを削除しています。
