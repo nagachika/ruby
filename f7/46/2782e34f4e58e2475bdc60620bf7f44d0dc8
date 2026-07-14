@@ -1,0 +1,1 @@
+tool/lib/test/unit.rb の -I オプションの引数をデリミタで分割する時に ":" の決め打ちにしていたのを定数 File::PATH_SEPARATOR を参照するようにして主に Windows 環境向けに修正しています。
