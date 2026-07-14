@@ -1,0 +1,1 @@
+gems/bundled_gems の net-imap のテストに使う commit hash の指定を変更しています。また bundled gems のテスト用にインストールする gem リストから simplecov-html および simpleconv-json を削除しています。
