@@ -1,0 +1,1 @@
+win32/configure.bat の --with-ntver オプションの引数の処理を修正しています。
