@@ -1,0 +1,1 @@
+c2243efe696c27d1e69bab8584bead00880f61da の再修正で common.mk の benchmark ターゲットのコマンドで File::ALT_SEPARATOR 定数の値チェックをして必要な時だけファイルパスのデリミタ変換するようにしています。
