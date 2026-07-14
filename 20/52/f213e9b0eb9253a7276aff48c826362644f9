@@ -1,0 +1,1 @@
+GitHub Actions の MinGW 向け workflow で dependabot による pull request のうち vcpkg の更新だけはスキップしないで実行していましたが、これもスキップするようにしています。
