@@ -1,0 +1,1 @@
+common.mk の probes.h の依存関係に vm_ops.h を追加しています。
