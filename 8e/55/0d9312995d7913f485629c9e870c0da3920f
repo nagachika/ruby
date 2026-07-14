@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#getch の rdoc 用コメントの call-seq で nil が返される場合があることを追記しています。
