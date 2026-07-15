@@ -1,0 +1,1 @@
+win32/setup.mak の古い VC の不具合のための workaround を削除しています。
