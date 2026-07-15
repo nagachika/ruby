@@ -1,0 +1,1 @@
+古い GCC のための workaround の preprocessor 分岐などを削除。現在 CRuby のビルドには GCC 4.9 以降が要求されるようになっているので、それ以前の GCC 向けの分岐は不要になっているため。
