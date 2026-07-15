@@ -1,0 +1,1 @@
+fc8b340e3c89db7c5e7ad6b0d890c98baac916f5 の続きで tool/mk_builtin_loader.rb で String#encode の universal_newline キーワード引数を利用するようにしています。
