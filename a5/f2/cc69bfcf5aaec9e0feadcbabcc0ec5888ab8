@@ -1,0 +1,1 @@
+bundler を古い rubygems と組み合わせて使った時のために Bundler::RubyGemsGemInstaller#remove_stale_plugins の代替実装を追加しています。
