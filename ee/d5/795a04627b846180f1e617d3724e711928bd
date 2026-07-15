@@ -1,0 +1,1 @@
+bundler で tsort をロードする時に rubygems に vendoring されている tsort がロードできなかった時の fallback で Gem::Tsort の再代入の警告を抑制するため defined? で存在チェックするようにしています。
