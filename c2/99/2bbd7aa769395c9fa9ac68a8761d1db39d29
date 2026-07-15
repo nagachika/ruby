@@ -1,0 +1,1 @@
+Kernel#fork 時の子プロセスでの初期化処理で Ractor の barrier 用の rb_vm_t::ractor.sched のメンバーの初期化を追加しています。
