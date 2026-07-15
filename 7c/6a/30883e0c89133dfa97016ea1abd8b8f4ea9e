@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストに GC.compact を実行するテストを追加しています。
