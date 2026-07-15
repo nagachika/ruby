@@ -1,0 +1,1 @@
+bundler で rubygems に vendoring されている tsort をロードする時の feature 名を rubygems のバージョンによって変化するので両方試すようにしています。
