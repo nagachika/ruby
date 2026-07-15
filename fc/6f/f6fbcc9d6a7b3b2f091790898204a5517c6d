@@ -1,0 +1,1 @@
+ractor_sync.c の Ractor::Port の実装に RB_GC_GUARD() でコンパイル時最適化による GC mark 漏れを防ぐマクロを追加しています。
