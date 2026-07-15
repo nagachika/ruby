@@ -1,0 +1,1 @@
+ZJIT でメソッド内の命令のスキャン時に不要なコピーを抑制する最適化。 https://github.com/ruby/ruby/pull/17858
