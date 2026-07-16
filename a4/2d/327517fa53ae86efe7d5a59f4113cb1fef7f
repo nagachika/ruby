@@ -1,0 +1,1 @@
+ZJIT の HIR で割り込みチェックの CheckInterrupts 命令を挿入しているジャンプ命令で、ジャンプ先が後のアドレスの場合はループを形成しないので割り込みチェックは省略するように最適化しています。 https://github.com/ruby/ruby/pull/17878
