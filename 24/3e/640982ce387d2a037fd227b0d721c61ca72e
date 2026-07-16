@@ -1,0 +1,1 @@
+T_OBJECT のインスタンス変数が heap に確保されている状態から再度 slot 内への埋め込みに変更する処理を rb_gc_obj_changed_slot_size() から gc_ref_update_object() に移動しています。テストをみてもよくわからなかったですがどういう場合に再埋め込みが可能な条件が成立するんだろう。
