@@ -1,0 +1,1 @@
+ZJIT の軽量 JITFrame の対応のため vm_args.c の RUBY_ASSERT() によるチェックを修正しています。 https://github.com/ruby/ruby/pull/17875
