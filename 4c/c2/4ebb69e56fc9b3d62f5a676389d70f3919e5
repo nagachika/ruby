@@ -1,0 +1,1 @@
+compile.c の opobj_inspect() という関数で rb_str_resurrect() および rb_ary_resurrect() という関数を利用して inspect で表示可能にしています。
