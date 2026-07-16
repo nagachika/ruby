@@ -1,0 +1,1 @@
+cce7041630642c56dd4e32eb669d9fd8bffa4040 の Proc#refined 追加時の rubyspec に追加したテストで古い matcher を利用していたので修正しています。 [ruby-core:125650] [Feature #22097]
