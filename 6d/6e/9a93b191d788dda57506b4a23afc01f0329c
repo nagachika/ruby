@@ -1,0 +1,1 @@
+vm_opts.h から不要になっていたマクロ OPT_GLOBAL_METHOD_CACHE と OPT_UNIFY_ALL_COMBINATION の定義を削除しています。
