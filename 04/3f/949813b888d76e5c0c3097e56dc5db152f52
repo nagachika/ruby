@@ -1,0 +1,1 @@
+vm_backtrace.c の oldbt_print() および oldbt_bugreport() のフォーマット文字列の %s を %.*s + RSTRING_LENINT() に変更し、長さ付きで出力するようにした。これも NUL 終端依存をやめる変更の一部ですかね?
