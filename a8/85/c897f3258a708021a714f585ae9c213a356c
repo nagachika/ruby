@@ -1,0 +1,1 @@
+bundled gems のテストで net-imap のテストが古い simplecov の API を使っていた NoMethodError になっていたので、SIMPLECOV_DISABLE を設定して無効化し、テスト用 gem のインストールから simplecov を除外しています。
