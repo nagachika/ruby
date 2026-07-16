@@ -1,0 +1,1 @@
+T_OBJECT 型オブジェクトも too complex の時のインスタンス変数を T_IMEMO 型オブジェクトの fields_obj 経由で持つようになったので、構造体 struct rb_fields 内の共用体で st_table へのポインタを持っていたのを直接 st_table を埋め込むようにしています。 e0083cffa31ae58f6326fb7a62199f4e59d86e87 の変更の続きですね。
