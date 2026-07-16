@@ -1,0 +1,1 @@
+Object Shapes の rb_obj_copy_ivar() および rb_copy_generic_ivar() の処理を統合するリファクタリング。
