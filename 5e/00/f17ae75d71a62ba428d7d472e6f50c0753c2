@@ -1,0 +1,1 @@
+gems/bundled_gems の net-imap のテストに使う commit hash の指定が a885c897f3258a708021a714f585ae9c213a356c で不要になったようなので削除しています。
