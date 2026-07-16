@@ -1,0 +1,1 @@
+ZJIT の defined?(yield) によるブロック有無の判定はインライン展開時に定数化するようにしています。 https://github.com/ruby/ruby/pull/17861
