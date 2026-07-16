@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版で YJIT を有効にする workflow で Rust 実装のテスト実行のための cargo 実行を独立したジョブから既存ジョブのステップに組込むようにしています。
