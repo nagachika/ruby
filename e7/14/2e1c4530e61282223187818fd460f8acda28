@@ -1,0 +1,1 @@
+GitHub Actions の tarball パッケージでのテストを行う workflow の macOS 版のランナー節約のために不要なステップを削除しています。
