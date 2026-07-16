@@ -1,0 +1,1 @@
+Proc#refined というメソッドを新規追加して、Refinements で Module を using した状態の Proc オブジェクトの複製を作ることができるようにしています。 [ruby-core:125650] [Feature #22097]
