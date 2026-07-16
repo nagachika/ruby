@@ -1,0 +1,1 @@
+vm_callinfo.h の VM_ASSERT() によるチェックが複数 Ractor 利用時に成り立たない可能性があるものだったので複数 Ractor 利用時の条件を assertion に追加しています。
