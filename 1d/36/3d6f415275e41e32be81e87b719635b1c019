@@ -1,0 +1,1 @@
+tool/zjit_analyze_perf_map_size.rb という --zjit-perf によるプロファイル情報の出力を解析するツールを追加しています。 https://github.com/ruby/ruby/pull/17734
