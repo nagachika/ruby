@@ -1,0 +1,1 @@
+ZJIT の Rust 実装内での Object Shapes の T_DATA 型オブジェクトのレイアウトのための enum 定数の名称を変更しています。
