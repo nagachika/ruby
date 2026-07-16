@@ -1,0 +1,1 @@
+shape.c の static 変数の id_object_id を削除してかわりに構造体 rb_shape_tree_t にメンバー id_object_id を追加し、too complex なオブジェクトのインスタンス変数のイテレート時に object_id 用の ID のみ除外するように修正しています。
