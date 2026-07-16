@@ -1,0 +1,1 @@
+prism で利用している PRISM_ASSUME() マクロのための attribute のサポート条件が間違っていたので preprocessor 分岐を修正しています。
