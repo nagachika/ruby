@@ -1,0 +1,1 @@
+NEWS の String#unpack についての記述が Array#pack と同居していたので String クラスの変更として分離しています。
