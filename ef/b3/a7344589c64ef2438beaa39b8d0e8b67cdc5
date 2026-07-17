@@ -1,0 +1,1 @@
+shape.h の rb_imemo_fields_ptr() から fields_obj の取り出しを削除していて、そのかわり? variable.c の obj_fields_each() に fields_obj 変数の定義と代入を追加しているのですが、この変数使ってないので、途中でコミットしてしまった? みたいですね。
