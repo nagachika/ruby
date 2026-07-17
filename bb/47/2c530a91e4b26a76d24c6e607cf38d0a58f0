@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr に IPAddr#multicast? および IPAddr#link_local_multicast? というメソッドを新規追加してアドレスが multicast アドレスかどうか簡単に判定できるようにしています。
