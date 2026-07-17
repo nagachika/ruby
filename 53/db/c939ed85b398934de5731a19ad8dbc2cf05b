@@ -1,0 +1,1 @@
+cygwin/GNUmakefile.in の cygwin 向けでない時の -mno-cygwin オプションの追加を削除しています。
