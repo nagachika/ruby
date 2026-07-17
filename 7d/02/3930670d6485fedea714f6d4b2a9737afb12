@@ -1,0 +1,1 @@
+win32/mkexports.rb に $arch の SuperH 向けの対応が残っていたのを掃除しています。
