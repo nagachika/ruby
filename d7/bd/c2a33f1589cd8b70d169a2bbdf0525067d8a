@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で csv.gem のテスト実行する時に Ractor 関係のテストは Windows 環境では skip するようにしています。
