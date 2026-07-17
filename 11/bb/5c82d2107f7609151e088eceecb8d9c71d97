@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow で launchctl コマンドを実行して ReportCrash サービスを起動しないようにしています。
