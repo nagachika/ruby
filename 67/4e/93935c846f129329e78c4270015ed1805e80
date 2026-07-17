@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版の tarball を使うテストでパッケージのキャッシュに使うファイルパスに archname を利用するようにしています。
