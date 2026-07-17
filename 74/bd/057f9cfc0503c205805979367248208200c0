@@ -1,0 +1,1 @@
+同じく shape.h の inline 関数 ROBJECT_FIELDS_HASH() を削除して呼び元に展開するリファクタリング。 efb3a7344589c64ef2438beaa39b8d0e8b67cdc5 の変更はここの準備だったみたいですね。
