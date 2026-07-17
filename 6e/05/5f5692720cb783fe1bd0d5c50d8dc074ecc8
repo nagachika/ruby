@@ -1,0 +1,1 @@
+拡張ライブラリ socket のテストでのハングアップする可能性があった不具合の修正。 https://github.com/ruby/ruby/pull/17889
