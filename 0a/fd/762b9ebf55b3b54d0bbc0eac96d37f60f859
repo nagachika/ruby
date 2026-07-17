@@ -1,0 +1,1 @@
+同じく shape.h の inline 関数 ROBJECT_FIELDS_CAPACITY() を削除して呼び元に展開するリファクタリング。
