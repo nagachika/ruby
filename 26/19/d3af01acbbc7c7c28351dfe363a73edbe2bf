@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で Windows 環境では debug.gem のテストも実行しないようにしています。 pty に依存しているため。
