@@ -1,0 +1,1 @@
+cce7041630642c56dd4e32eb669d9fd8bffa4040 での Proc#refined の追加の再修正で cont.c の rb_fiber_start() で EC_PUSH_TAG() と EC_POP_TAG() のあいだのセクションで rb_proc_refinements_cref() を呼び出すのを避けて事前に呼び出して変数の格納しておくようにしています。Intel CC の不具合でビルドエラーになることがあったみたいです。
