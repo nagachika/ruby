@@ -1,0 +1,1 @@
+gc.c の rb_gc_obj_needs_cleanup_p() という関数で大きな switch 文を書いてたのを、複数の case 節で共通していた一部の条件(T_IMEMO 型など)を switch 文の前に if 文に括り出すリファクタリング。
