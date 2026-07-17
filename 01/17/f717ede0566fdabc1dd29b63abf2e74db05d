@@ -1,0 +1,1 @@
+win32/win32.c の Windows CE (!?) 向けの preprocessor 分岐を削除しています。
