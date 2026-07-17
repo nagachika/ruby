@@ -1,0 +1,1 @@
+e9444aa0dadf59777d07509e23006e741ff66838 で追加した Array#pack, String#unpack の新機能の NEWS のエントリでチケット参照をリンクにするための footnote を追記しています。 [ruby-core:125953] [Feature #22185]
