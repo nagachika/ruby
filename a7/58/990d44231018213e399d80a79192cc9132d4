@@ -1,0 +1,1 @@
+Time.new の offset に整数が渡された時の早期 return を追加する最適化。
