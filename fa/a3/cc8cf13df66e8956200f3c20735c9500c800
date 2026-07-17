@@ -1,0 +1,1 @@
+Ractor.send でオブジェクトを Ractor 間で移動した場合 Object Space の slot も移動し、元の slot は抜け殻を意味する RactorMovedObject というダミーのクラスのインスタンスとして上書きされていましたが、この時 shape_id もリセットしてしまったため shape_id_t 内の slot サイズを表すビット列が実際の slot サイズと不一致になってしまっていたので、この領域を維持するように修正しています。
