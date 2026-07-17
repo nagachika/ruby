@@ -1,0 +1,1 @@
+ZJIT の --zjit-stats での出力の C 実装のメソッド名にクラス付きの名前を出せるように対応しています。 https://github.com/ruby/ruby/pull/17895
