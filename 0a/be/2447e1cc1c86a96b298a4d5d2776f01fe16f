@@ -1,0 +1,1 @@
+time.c の time_zonelocal() で簡易に引数が timeozne オブジェクトかどうか判定する shortcut を追加して respond_to? を呼び出す重い判定をスキップする最適化。
