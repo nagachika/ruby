@@ -1,0 +1,1 @@
+struct RBasic::flags のビットフラグ ROBJECT_HEAP 定数を削除しています。このビットの役割は shape_id_t 内のレイアウトで代替されるようになっているので不要になっていました。
