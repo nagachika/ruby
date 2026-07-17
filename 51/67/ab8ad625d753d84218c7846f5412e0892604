@@ -1,0 +1,1 @@
+GitHub Actions の macOS 環境の workflow で debug.gem のテストのために RUBY_DEBUG_TEST_NO_REMOTE という環境変数をセットしています。
