@@ -1,0 +1,1 @@
+ractor.c の rb_ary_entry() のかわりに RARRAY_AREF() を、RB_TYPE_P() のかわりに RB_BUILTIN_TYPE() を利用するリファクタリング。
