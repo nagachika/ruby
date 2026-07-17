@@ -1,0 +1,1 @@
+Proc#refined のための rb_iseq_original_iseq() という ISeq を複製する関数に race condition があったので、ポインタを original_iseq メンバーにセットする前にバッファの内容を完成させておくように修正しています。またポインタの設定も ATOMIC_PTR_CAS() を使って atomic に行うようにしています。
