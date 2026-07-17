@@ -1,0 +1,1 @@
+shape.h から inline 関数 ROBJECT_FIELDS_COUNT()、ROBJECT_FIELDS_COUNT_COMPLEX()、ROBJECT_FIELDS_COUNT_NOT_COMPLEX() を削除して呼び元に展開するリファクタリング。
