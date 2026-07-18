@@ -1,0 +1,1 @@
+ZJIT で Kernel#throw による VM 命令 throw で JIT コンパイルキャンセルせずに side-exit するように対応を緩めています。 https://github.com/ruby/ruby/pull/17902
