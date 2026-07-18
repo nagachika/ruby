@@ -1,0 +1,1 @@
+configure および dln.c から Interix サポートのための分岐を削除しています。
