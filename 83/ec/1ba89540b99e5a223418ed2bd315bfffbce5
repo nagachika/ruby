@@ -1,0 +1,1 @@
+configure で DTrace の有効化チェックで arm 上での FreeBSD では DTrace を無効化するようにしています。
