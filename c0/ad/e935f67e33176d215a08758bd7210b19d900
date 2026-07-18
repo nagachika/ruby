@@ -1,0 +1,1 @@
+random.c の乱数の元として Windows 環境で古い CryptAPI に対応した実装を削除しています。
