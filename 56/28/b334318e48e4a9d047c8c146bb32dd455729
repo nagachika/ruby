@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の dump 時の C の関数ポインタの表示のための換算を間違えていた不具合を修正しています。 https://github.com/ruby/ruby/pull/17947
