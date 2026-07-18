@@ -1,0 +1,1 @@
+vmtrace.c の rb_postponed_job_flush() で EC_PUSH_TAG()/EC_POP_TAG() の間で参照する変数の宣言に volatile 修飾子を追加して clobbered 警告を修正しています。
