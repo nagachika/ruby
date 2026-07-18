@@ -1,0 +1,1 @@
+61441f2d7242148cc45efdf6f3ebce4c43eaf7c6 の ZJIT の VM 命令 throw で side-exit する対応を revert しています。
