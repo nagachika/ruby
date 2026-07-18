@@ -1,0 +1,1 @@
+標準添付ライブラリ erb で Marshal.load で読み込むことでインスタンス変数 @_init を使って initialize での初期化を正しく経由しているかのチェックを迂回できる可能性が残っていたので BasieObject#equal? を Method として取り出して bind_call することで確実に同一性チェックするように修正しています。
