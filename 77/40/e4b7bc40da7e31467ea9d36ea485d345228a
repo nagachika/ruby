@@ -1,0 +1,1 @@
+GC の default 実装で Windoows の MSVC での警告抑制のための workaround を追加しています。
