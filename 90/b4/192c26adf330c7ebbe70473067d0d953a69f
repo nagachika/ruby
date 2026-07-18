@@ -1,0 +1,1 @@
+thread.c の thread_start_func_2() でも EC_PUSH_TAG()/EC_POP_TAG() のあいだで参照する変数の宣言に volatile 修飾子を追加しています。
