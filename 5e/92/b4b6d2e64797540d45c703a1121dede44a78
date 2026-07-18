@@ -1,0 +1,1 @@
+ZJIT の ARM64 版 --zjit-stats で出力する統計量にマシンスタックの使用量を測定するカウンタ total_native_stack_bytes を追加しています。
