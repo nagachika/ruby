@@ -1,0 +1,1 @@
+ZJIT の型プロファイリングの仕組みを ISeq の JIT コンパイルを再コンパイルする時の処理をシンプルにするための方針変更のようです。 https://github.com/ruby/ruby/pull/17915
