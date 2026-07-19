@@ -1,0 +1,1 @@
+gem としての prism に各種プラットフォーム向けのコンパイル済み gem の配布をはじめたようで lib/prism.rb の require でバージョン別の拡張ライブラリを require して LoadError 発生時に pure ruby 版? への fallback をするようにしています。
