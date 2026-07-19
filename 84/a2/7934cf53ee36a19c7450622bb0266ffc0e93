@@ -1,0 +1,1 @@
+fiber_switch() 内で引数の fiber の rb_fiber_t::cont.self の値をローカル変数に代入したうえで RB_GC_GUARD() でコンパイラ最適化による参照の喪失で GC で解放されるのを防いでいます。 Coroutine 実装の都合でコンテキストの switch 中にマシンスタックからの参照による mark が行なわれなくなる可能性があったとかでしょうか。 https://github.com/ruby/ruby/pull/17957 [ruby-core:126087] [Bug #22196]
