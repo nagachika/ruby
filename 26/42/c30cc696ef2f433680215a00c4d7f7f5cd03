@@ -1,0 +1,1 @@
+configure や common.mk などで変数名を改名するリファクタリング?
