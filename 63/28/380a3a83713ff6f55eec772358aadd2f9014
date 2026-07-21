@@ -1,0 +1,1 @@
+標準添付ライブラリ time の 77d0d22b59e175a3f5ad64e53c0eaa7aa11eafcd で導入した Regexp#match? を利用する最適化実装で引数の文字列の String#strip が漏れていたのを修正しています。
