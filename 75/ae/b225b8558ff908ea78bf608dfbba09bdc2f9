@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.disasm で ISeq のダンプする時に struct rb_iseq_constant_body::mandatory_only_iseq という構造体メンバーの ISeq もトラバースするようにしています。 ruby 実装による組み込みメソッドで Primitive.mandatory_only? メソッドを追加して省略可能な引数がないメソッドの時の最適化をしているもので b1b73936c15fd490159a9b30ab50b8d5dfea1264 で追加された機構に関連するものですが、当時ほぼ Time の最適化のために導入されてたみたいでテストも Time のメソッドを利用しています。
