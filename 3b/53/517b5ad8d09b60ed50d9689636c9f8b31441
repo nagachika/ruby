@@ -1,0 +1,1 @@
+gem_prelude.rb で syntax_suggest/core_ext のみを require していたのを syntax_suggest 全体を require するようにしています。また ErrorHighlight、DidYouMean、SyntaxSuggest などの default gems で提供されている定数を builtin.c の rb_define_gem_modules() で rb_define_module() で定義していたのを rb_autoload_str() で autoload 設定に変更しています。 autoload 設定時って defined? でも load されるんだっけ? [ruby-core:124984] [Feature #21951]
