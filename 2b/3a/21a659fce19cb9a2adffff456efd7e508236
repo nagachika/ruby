@@ -1,0 +1,1 @@
+rubygems の gem update --system の冗長な処理を削除しています。
