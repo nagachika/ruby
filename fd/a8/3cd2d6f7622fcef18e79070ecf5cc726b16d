@@ -1,0 +1,1 @@
+拡張ライブラリ ripper の ext/ripper/tools/dsl.rb で rb_ary_new_from_args() に渡す引数が整数でも警告(コンパイルエラー?)を回避するため論理和ビット演算とキャストを追加しています。
