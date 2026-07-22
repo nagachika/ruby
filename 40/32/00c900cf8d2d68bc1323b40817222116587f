@@ -1,0 +1,1 @@
+拡張ライブラリ socket で構造体 struct cmsgcred および struct sockcred が提供されていないのため preprocessor 分岐の条件を修正しています。
