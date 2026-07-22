@@ -1,0 +1,1 @@
+d991b06bf88c346533bc201a98d6f760f000526d からの続きで rubygems の gem update --system で既に bundler が通常の gem としてインストールされていた時の上書き処理を修正しているようです。
