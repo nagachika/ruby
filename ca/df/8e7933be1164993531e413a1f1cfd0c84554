@@ -1,0 +1,1 @@
+gem_prelude.rb から error_highlight, did_you_mean, syntax_suggest の require を削除して、Exception#detailed_message が呼ばれた時にはじめて遅延ロードするようにして起動時間を稼いでいます。 [ruby-core:124984] [Feature #21951]
