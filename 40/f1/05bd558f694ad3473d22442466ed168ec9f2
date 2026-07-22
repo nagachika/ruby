@@ -1,0 +1,1 @@
+T_STRUCT 型オブジェクトの struct RStruct の fields_obj を共用体内から出して、埋め込みかどうかで fields_obj の構造体内の位置が変化していたのを固定するようにしています。また Range クラスも T_STRUCT 型のためサイズを節約するため excl メンバーを struct RBasic::flags のビットフラグで表現するように同時に変更しています。
