@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT 用 workflow で --zjit=dev でビルドした時にたまに失敗する Hash のテストを実行除外するように指定しています。
