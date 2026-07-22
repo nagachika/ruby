@@ -1,0 +1,1 @@
+201dece9d7464a5fba21a8c355da68f09445b748 で Process.warmup から一部 default gems を強制 load する処理で main Ractor からのみ実行するようにしていましたが、子 Ractor での require は main Ractor に委譲する仕組みがあるため require しても良かったのでこの制限を廃止しています。
