@@ -1,0 +1,1 @@
+builtin.c の rb_define_gem_modules() のコメントを直近の変更に追随させています。
