@@ -1,0 +1,1 @@
+make runruby で環境変数 RUNRUBY_USE_GDB を指定した時に .gdbinit を二重にロードしていたそうなのでこれを回避しています。
