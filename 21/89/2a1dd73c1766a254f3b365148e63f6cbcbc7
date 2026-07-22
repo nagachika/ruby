@@ -1,0 +1,1 @@
+bundler のテストに require "tmpdir" を追加しています。
