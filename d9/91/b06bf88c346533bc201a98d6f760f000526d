@@ -1,0 +1,1 @@
+rubygems の gem update --system で bundler のインストール先が間違ってしまうことがあった不具合の修正のようです。 https://github.com/ruby/rubygems/issues/9685
