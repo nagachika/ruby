@@ -1,0 +1,1 @@
+Process.warmup に cadf8e7933be1164993531e413a1f1cfd0c84554 で導入した default gems の遅延した load を強制的に load させるようにしています。
