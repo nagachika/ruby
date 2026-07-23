@@ -1,0 +1,1 @@
+MemoryView の内部実装の rb_memory_view_t 構造体で多次元配列を1つのバッファで表現する時の strides が NULL の時の考慮が漏れていたのを修正しています。 https://github.com/ruby/ruby/pull/17851
