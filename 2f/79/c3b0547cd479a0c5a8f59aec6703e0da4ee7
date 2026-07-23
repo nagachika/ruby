@@ -1,0 +1,1 @@
+VM のコード生成用のツールの tool/ruby_vm/helpers/c_escape.rb でもう不要になっていたヘルパーメソッドを削除しています。 https://github.com/ruby/ruby/pull/18002
