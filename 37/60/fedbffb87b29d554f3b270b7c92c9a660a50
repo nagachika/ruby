@@ -1,0 +1,1 @@
+Object Shapes の shape_id_t 型の変数内の 7-bits のフィールドに Variable Width Allocation による slot サイズを埋め込むようにしたことでこのサイズを越える slot サイズが扱えないようになってましたが、SHAPE_ID_CAPACITY_MAX という最大値が設定されていたら「実際の slot サイズはこれ以上である」というマーカーとして利用して、rb_gc_obj_slot_size() を読んで実際の slot サイズを取得する slow path に fallback するようにしてより大きな slot size もサポートできるようにしています。
