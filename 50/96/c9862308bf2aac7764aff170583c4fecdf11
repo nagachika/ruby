@@ -1,0 +1,1 @@
+bootstraptest のテストでもうひとつ clang-17 でビルド時に一時的に skip するようにしています。 https://github.com/ruby/ruby/pull/18003
