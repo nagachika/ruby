@@ -1,0 +1,1 @@
+vm.c および vm_core.h に ZJIT の JITFrame 関連の処理にコメントを追加しています。
