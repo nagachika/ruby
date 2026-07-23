@@ -1,0 +1,1 @@
+ZJIT で rest 引数を持つメソッド呼び出しにも inline 化する最適化を有効にしています。 https://github.com/ruby/ruby/pull/17995
