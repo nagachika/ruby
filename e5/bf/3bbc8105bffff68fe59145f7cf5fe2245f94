@@ -1,0 +1,1 @@
+rubygems および bundler で Gem.ruby のファイルパスに空白が含まれている時の不具合修正。
