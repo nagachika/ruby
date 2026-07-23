@@ -1,0 +1,1 @@
+拡張ライブラリ json の extconf.rb に CFLAGS に -mno-outline を追加させる append_cflags 呼び出しを追加しています。
