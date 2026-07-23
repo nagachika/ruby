@@ -1,0 +1,1 @@
+ZJIT の軽量化した control frame の JITFrame を longjmp(3) 時に実際の cfp に実体化する処理に不具合があったのを修正しているようです。
