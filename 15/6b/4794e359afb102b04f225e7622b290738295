@@ -1,0 +1,1 @@
+vm_eval.c の rb_iterate0() という関数で EC_PUSH_TAG()/EC_POP_TAG() の間で参照される引数をローカル変数に代入しておくようにして、さらに変数に volatile 修飾子を追加しています。 ポインタの場合に volatile をつける位置が難しいんですよね。 https://github.com/ruby/ruby/pull/17931
