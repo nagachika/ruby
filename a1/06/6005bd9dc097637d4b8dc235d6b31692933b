@@ -1,0 +1,1 @@
+array.c の rb_jit_ary_push() という関数を static 関数化しています。
