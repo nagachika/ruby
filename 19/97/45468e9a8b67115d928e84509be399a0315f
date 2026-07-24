@@ -1,0 +1,1 @@
+rubygems で Kernel#format メソッドを呼ぶために明示的に receiver (Kernel) を指定して特異メソッド経由で呼ぶようにしています。
