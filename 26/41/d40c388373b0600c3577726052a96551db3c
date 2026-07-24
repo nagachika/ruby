@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest の不要になっていた private メソッド code_with_context を削除しています。 https://github.com/ruby/syntax_suggest/pull/260
