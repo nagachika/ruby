@@ -1,0 +1,1 @@
+異常終了時の処理の関数 rb_current_box_in_crash_report() の Ruby::Box 対応で GET_EC() が NULL になる場合を考慮できていなかったのを修正しています。
