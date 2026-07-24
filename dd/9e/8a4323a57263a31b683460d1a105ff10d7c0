@@ -1,0 +1,1 @@
+rubygems の Gem::Requirement#marshal_load のリファクタリング。
