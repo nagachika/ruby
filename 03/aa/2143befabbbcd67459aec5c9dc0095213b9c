@@ -1,0 +1,1 @@
+7d4461e16298ca29b1409423d99f202d336a1f9d の依存関係生成ツール導入の続き。 GitHub Actions の check_dependencies workflow でコンパイラ起動が不要になったため簡素化しています。 [ruby-core:126138] [Misc #22206]
