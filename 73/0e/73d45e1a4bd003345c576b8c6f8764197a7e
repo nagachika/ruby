@@ -1,0 +1,1 @@
+cont.c の rb_fiber_start() の EC_PUSH_TAG()/EC_POP_TAG() のあいだでアクセスする引数を volatile 修飾子つきの変数に格納しておくようにして clobbered error を回避するよう修正しています。
