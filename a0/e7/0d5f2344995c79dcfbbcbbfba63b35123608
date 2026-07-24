@@ -1,0 +1,1 @@
+bundled gem の拡張ライブラリは .bundle/gems 内でビルドされるため、mkmf.log や Makefile、オブジェクトファイルなどが残り、UnpackedGem#collect がそれらをインストール先へ含めていた。再現性が壊れるので、収集時にフィルタしてソースのみ配置するようにしています。 [ruby-core:125247] [Bug #21995]
