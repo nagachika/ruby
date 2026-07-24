@@ -1,0 +1,1 @@
+rubygems の Gem.glob_files_in_dir で Dir.glob に渡す base_path の File.expand_path 呼び出しを 1回だけして使いまわすように最適化しています。これって Dir.glob に渡す前に base_path を expand_path しておくのじゃだめなのかな。
