@@ -1,0 +1,1 @@
+bundler の checksum 対応で空の checksum が返される時の対応漏れを修正しています。
