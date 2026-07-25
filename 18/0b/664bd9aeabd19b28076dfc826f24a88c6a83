@@ -1,0 +1,1 @@
+昨日の 7d4461e16298ca29b1409423d99f202d336a1f9d 以降の依存関係生成のツールの tool/mkdepend.rb へのおきかえの続きで、切り出した lib/mkmf/depend.rb のリファクタリング。 [ruby-core:126138] [Misc #22206]
