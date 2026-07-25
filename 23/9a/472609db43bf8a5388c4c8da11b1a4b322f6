@@ -1,0 +1,1 @@
+ENV.keys が返す配列の要素の文字列の Encoding を locale から env_encoding() という関数を利用して Windows 環境の時に UTF-8 に固定するようにしています。
