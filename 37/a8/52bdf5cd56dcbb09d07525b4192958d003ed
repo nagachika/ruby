@@ -1,0 +1,1 @@
+array.c の ZJIT でのインライン化のための関数群の命名法則を rb_jit_xxx() から rb_builtin_xxx() に変更しています。 https://github.com/ruby/ruby/pull/18039
