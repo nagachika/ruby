@@ -1,0 +1,1 @@
+同じく Windows 環境での socketpair_unix_path() 関数での GetTempPathW() のエラー処理を追加する修正。
