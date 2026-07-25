@@ -1,0 +1,1 @@
+GitHub の pull request に自動で label を付与する設定の .github/labeler.yml で jit label を付与する条件を追加しています。 https://github.com/ruby/ruby/pull/18040
