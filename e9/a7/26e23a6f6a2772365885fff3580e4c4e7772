@@ -1,0 +1,1 @@
+Windows 版での get_handle_pathname() という関数のエラー処理時に out 引数の pathptr が指すポインタを NULL でクリアして返すように修正しています。
