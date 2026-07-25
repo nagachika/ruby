@@ -1,0 +1,1 @@
+Proc#refined の実装で追加した refinement_memo_lookup() および refinement_memo_key_match() で cref を VALUE 型の引数で取り回していたのを rb_cref_t * で渡すようにリファクタリングしています。キャストが必要な場所を減らすためかな?
