@@ -1,0 +1,1 @@
+コミットフック? で GitHub の pull request 情報を git notes で保存するツール tool/notes-github-pr.rb で GitHub との通信の一時的なエラーで処理がエラー終了してしまっていたのでリトライを追加しています。
