@@ -1,0 +1,1 @@
+prism の Prism.parse で直接 SyntaxError 例外を raise するようにしています。またその時の例外メッセージの整形を CRuby のものを移植しています。
