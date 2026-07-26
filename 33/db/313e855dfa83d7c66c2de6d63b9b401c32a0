@@ -1,0 +1,1 @@
+fa055b6d8bfa2510d546c2a3eb346744660073bd で追加した Array#find_index、Array#rindex への offset キーワード引数について NEWS エントリを追記し、rubyspec に対応するテストを追加しています。 rubyspec は version guard が必要ですね。 [ruby-core:99380] [Feature #17056]
