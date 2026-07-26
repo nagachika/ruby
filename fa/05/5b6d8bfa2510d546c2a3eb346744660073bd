@@ -1,0 +1,1 @@
+Array#find_index、Array#rindex といった最初にみつけた要素のインデックスを返す系のメソッドにキーワード引数 offset を追加して、探索を開始する開始位置を指定できるようにしています。 rindex の場合は offset は符号反転して末尾からの位置の指定になるみたいですね。  [ruby-core:99380] [Feature #17056]
