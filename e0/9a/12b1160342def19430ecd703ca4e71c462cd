@@ -1,0 +1,1 @@
+IO::Buffer#readonly? の rdoc 用コメントの説明で IO::Buffer.for にブロックを渡さずに作った時も readonly になるという点を追記しています。 https://github.com/ruby/ruby/pull/18062
