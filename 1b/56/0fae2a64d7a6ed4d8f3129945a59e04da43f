@@ -1,0 +1,1 @@
+と、思ったら fa055b6d8bfa2510d546c2a3eb346744660073bd および 33db313e855dfa83d7c66c2de6d63b9b401c32a0 の Array#find_index などのキーワード引数追加について revert しています。 Enumerator を返す時の挙動など仕様をもう少し考慮する必要がありそうということみたいです。 https://bugs.ruby-lang.org/issues/17056#note-14 [ruby-core:99380] [Feature #17056]
