@@ -1,0 +1,1 @@
+ruby 実装の builtin メソッド定義を .rbinc にするためのツール tool/dump_ast.mkmf.rb で生成する Makefile のコマンドに $(Q) 変数を使ってコマンドの表示の抑制が効くようにしています。
