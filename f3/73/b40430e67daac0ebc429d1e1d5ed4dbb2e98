@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの setup/directories で最初に tool/missing-baseruby.bat を実行して BASERUBY の存在とバージョンチェックを行うようにしています。
