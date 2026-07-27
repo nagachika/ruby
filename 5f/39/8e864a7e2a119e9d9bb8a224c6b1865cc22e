@@ -1,0 +1,1 @@
+ruby.c の ruby_incpush_expand() という関数を static 関数に変更しています。
