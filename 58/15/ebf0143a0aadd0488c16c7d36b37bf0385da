@@ -1,0 +1,1 @@
+GitHub Actions での CI でビルド時に環境変数 RUBY_DUMP_AST を設定して builtin メソッド定義の .rbinc 作成のためのツール dump_ast を毎回ビルドするのを抑制しています。
