@@ -1,0 +1,1 @@
+vm_insnhelper.c にメソッドの再定義チェックを行う OP_UNREDEFINED_P() マクロを導入するリファクタリング。
