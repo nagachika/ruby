@@ -1,0 +1,1 @@
+62f325a9554cbf31de17dce2213d8f08da74df63 で newobj_alloc() での GC.stress = true 時の GC 実行を追加した影響でここから条件付きで呼び出される newobj_bump_pointer_miss() 内での GC.stress 対応の実行が重複してしまっていたのでこちらは削っています。newobj_bump_pointer_miss() は newobj_alloc() からしか呼ばれない static 関数のため他への影響もなし。
