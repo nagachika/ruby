@@ -1,0 +1,1 @@
+GitHub Actions の annocheck workflow で ruby/setup-ruby アクションの実行を独自アクションの setup_directories のステップの前に移動しています。 make up の実行に BASERUBY が必要なため。
