@@ -1,0 +1,1 @@
+同じく tool/dump_ast.mkmf.rb でオブジェクトファイルの拡張子が異なる(cross compiling 時?)の不具合修正をしています。
