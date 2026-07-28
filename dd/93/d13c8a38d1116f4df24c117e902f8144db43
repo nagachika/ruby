@@ -1,0 +1,1 @@
+ruby 実装の組み込みメソッドの .rbinc 化のためのツール dump_ast コマンドに --version オプションで PRISM_VERSION の出力機能を追加しています。
