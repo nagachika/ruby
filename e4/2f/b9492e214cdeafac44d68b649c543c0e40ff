@@ -1,0 +1,1 @@
+GitHub Actions の ModGC 利用時の workflow にテストケースごとのタイムアウトを新調する環境変数 RUBY_TEST_TIMEOUT_SCALE の設定を OS や GC 実装の種類で変更するようにしています。
