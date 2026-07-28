@@ -1,0 +1,1 @@
+Makefile 系ファイルのテンプレートから sed コマンドを使ってファイル生成する処理を GitHub Actions の workflow に直接書いてたのを tool/gen-sources.bash というスクリプトに切り出しています。
