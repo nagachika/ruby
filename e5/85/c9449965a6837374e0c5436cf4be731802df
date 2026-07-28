@@ -1,0 +1,1 @@
+Windows 環境でのマシンスタックのサイズの推定を GetCurrentThreadStackLimits() API を用いて正確にする修正。 [ruby-core:70364] [Bug #11438]
