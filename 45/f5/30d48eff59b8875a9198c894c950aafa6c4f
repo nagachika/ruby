@@ -1,0 +1,1 @@
+Range#step のサンプルコードの評価値の誤りを修正、というか評価値の記述を削除しています。 https://github.com/ruby/ruby/pull/17938
