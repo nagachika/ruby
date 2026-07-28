@@ -1,0 +1,1 @@
+IO::Buffer#set_value および IO::Buffer#set_values の rdoc 用コメントのサンプルコードの評価値が誤っていたのを修正しています。 https://github.com/ruby/ruby/pull/18078
