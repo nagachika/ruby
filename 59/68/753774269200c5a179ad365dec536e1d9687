@@ -1,0 +1,1 @@
+70fa08003fe3bb66a678c80b8d8f1aab9b654e3e の続きで ENV.reject の rdoc 用コメントの同様の修正漏れの再修正。 https://github.com/ruby/ruby/pull/17936
