@@ -1,0 +1,1 @@
+IO::Buffer#hexdump および IO::Buffer#<=> の rdoc 用コメントの返り値の記述が不足 or 間違っていたのを修正、またサンプルコードの追記をしています。 https://github.com/ruby/ruby/pull/18089
