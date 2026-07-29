@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の parser.gem 互換性の改善。 Hash リテラルの key: value のような Symbol キーの記法の返す AST が互換性がない形になることがあったようです。
