@@ -1,0 +1,1 @@
+doc/maintainers.md 内の English.rb の rubygems.org のリンクを修正しています。 gem の URL は小文字に正規化されるみたいですね。
