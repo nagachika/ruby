@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の parser.gem との互換性の修正の 6a0b6ef6335fe9af1de5643b47daef6dec94e6b7 の再修正で型チェック不足で NoMethodError になる可能性があったのを修正しています。
