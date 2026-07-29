@@ -1,0 +1,1 @@
+IO::Buffer#& メソッドの rdoc 用コメントのサンプルコードの評価結果の inspect の形式を修正しています。 https://github.com/ruby/ruby/pull/18087
