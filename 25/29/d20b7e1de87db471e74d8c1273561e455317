@@ -1,0 +1,1 @@
+28d74f4a11a402b25a0a3c7240c0509c287d5d6e の続きで ZJIT の ARm64 向けコンパイル処理で不要になっていた関数 emit_jmp_ptr_with_invalidation() を削除しています。
