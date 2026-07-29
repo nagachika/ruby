@@ -1,0 +1,1 @@
+NEWS に Integer#bit_count メソッドの新規追加について追記しています。 [Feature #20163]
