@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で gen_invokeblock_ifunc() が callinfo を捨てて引数を渡していたためキーワード引数が通常の引数として扱われていた? 不具合を修正しています。 https://github.com/ruby/ruby/pull/17971
