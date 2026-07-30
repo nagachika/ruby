@@ -1,0 +1,1 @@
+bundler の bundle lock と bundle cache サブコマンドに --cooldown オプションを追加して更新されたばかりの gem は更新対象にしないようにしています。
