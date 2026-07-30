@@ -1,0 +1,1 @@
+variable.c の未使用になっていた rb_autoload_copy_table_for_box() および autoload_copy_table_for_box_i() 関数の定義を削除しています。
