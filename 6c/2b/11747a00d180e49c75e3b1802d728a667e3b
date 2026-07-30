@@ -1,0 +1,1 @@
+GitHub Actions のいろんなコンパイルオプションなどを試す compilers workflow で clang での workaround のために追加しているコンパイルオプションについて説明しているコメントで対象のバージョンの記述を詳細化しています。
