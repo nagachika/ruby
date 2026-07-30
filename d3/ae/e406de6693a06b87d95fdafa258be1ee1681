@@ -1,0 +1,1 @@
+Ractor::Port.allocate で作成した Ractor::Port オブジェクトが未初期化のためメソッドを呼ぶと異常終了が発生してしまうので未初期化時に TypeError を発生させるチェックを追加しています。 [ruby-core:126183] [Bug #22214]
