@@ -1,0 +1,1 @@
+ff6ac97529962b824d528b4bf32485179bb25805 の ZJIT の VM 命令 throw で side-exit する対応(61441f2d7242148cc45efdf6f3ebce4c43eaf7c6) を revert していたのを revert して、再度適用しています。 https://github.com/ruby/ruby/pull/18099
