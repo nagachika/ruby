@@ -1,0 +1,1 @@
+bundler のテストで x86_64-linux 上では --cooldown 0 が platform 固有ビルドに解決されるため include_gems が ruby platform を期待して失敗していたテストを修正
