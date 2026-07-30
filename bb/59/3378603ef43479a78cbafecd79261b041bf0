@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON モジュールの rdoc 用コメントで JSON.generate のキーワード引数 max_nesting の説明を追記しています。
