@@ -1,0 +1,1 @@
+eb9d72aea164a050f06e39bddd66150cd86f6a4d で Variable Width Allocation による大きな slot にバッファが埋め込まれている String オブジェクトの複製時にヒープにバッファを持つ形式にして shared string にすることで省メモリ化とコピーの抑制をする最適化で、上限のサイズを 1024 から 256 にさらに縮めています。
