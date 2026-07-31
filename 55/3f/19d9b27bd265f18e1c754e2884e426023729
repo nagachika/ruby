@@ -1,0 +1,1 @@
+Process::Status.wait の rdoc 用コメントで $? は設定しないのでその旨記述を修正しています。 https://github.com/ruby/ruby/pull/18109
