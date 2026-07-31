@@ -1,0 +1,1 @@
+GitHub Actions の Windows 系の workflow で vcpkg のインストール後に bootstrap-vcpkg.bat を実行するようにしています。
