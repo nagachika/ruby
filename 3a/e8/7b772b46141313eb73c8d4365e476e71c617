@@ -1,0 +1,1 @@
+GC の mmtk 実装の定数マクロ MMTK_MAX_OBJ_SIZE の定義を削除して slot サイズの上限をなくしています。
