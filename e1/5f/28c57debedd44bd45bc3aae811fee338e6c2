@@ -1,0 +1,1 @@
+bundler の HTTPS 通信時に UserAgent に userinfo を含めないように修正しています。
