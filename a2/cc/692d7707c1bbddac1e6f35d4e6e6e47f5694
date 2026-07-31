@@ -1,0 +1,1 @@
+Proc#refined が ISeq の複製を作る時にそれを Ractor shareable にして複数 Ractor 利用時にもサポートするようにしています。
