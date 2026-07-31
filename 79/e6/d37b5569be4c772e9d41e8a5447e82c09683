@@ -1,0 +1,1 @@
+TracePoint の line イベントでループの条件部の行での? 発火が漏れることがあった不具合を修正しています。 https://github.com/ruby/ruby/pull/18122 [Bug #22218]
