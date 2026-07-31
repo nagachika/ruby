@@ -1,0 +1,1 @@
+id_table.c の rb_managed_id_table_dup()、 rb_managed_id_table_size()、rb_managed_id_table_foreach_values() などの関数で struct rb_id_table を wrap している内部的オブジェクトがコンパイラの最適化により参照がなくなって GC で解放される可能性があるのを保護するため RB_GC_GUARD() を追加しています。
