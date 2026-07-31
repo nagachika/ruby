@@ -1,0 +1,1 @@
+ZJIT の HIR の UnboxFixnum 命令を副作用なしという扱いに変更しています。 https://github.com/ruby/ruby/pull/18103
