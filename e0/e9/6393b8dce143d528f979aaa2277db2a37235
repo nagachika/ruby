@@ -1,0 +1,1 @@
+GC の実装が mmtk の時に除外するテストに String の capacity に関するテストを追加しています。
