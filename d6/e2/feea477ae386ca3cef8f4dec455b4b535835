@@ -1,0 +1,1 @@
+Ractor#memsize から使われる ractor_sync_memsize() という関数でメモリサイズの計算が間違っていたのを修正しています。
