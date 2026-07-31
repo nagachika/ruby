@@ -1,0 +1,1 @@
+GitHub の pull request に自動で label をセットする設定で C-binding の更新のみの時は jit ラベルの対象外にしているようです。なんだけど (*.rs) にも ! をつけているのはこれで合ってるのかな? https://github.com/ruby/ruby/pull/18116
