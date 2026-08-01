@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT の有効化時の workflow に cargo test --doc の実行を追加しています。またこれで発見されたと思われる Rust 実装のドキュメント用コメントの修正をしています。
