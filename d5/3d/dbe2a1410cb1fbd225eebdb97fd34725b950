@@ -1,0 +1,1 @@
+thread_pthread.c の rb_internal_thread_event_hooks_rw_lock_atfork() という関数を static 関数に変更しています。
