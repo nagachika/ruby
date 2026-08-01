@@ -1,0 +1,1 @@
+Integer のうち T_BIGNUM 型の多倍長整数のオブジェクトを文字列化する時の最適化としてプロセス内部で共有されているキャッシュが複数 Ractor 利用時に race condition があり異常終了する可能性があったので rbimpl_atomic_value_load() と rbimpl_atomic_value_cas() など atomic な操作を行うようにして複数 Ractor 対応しています。
