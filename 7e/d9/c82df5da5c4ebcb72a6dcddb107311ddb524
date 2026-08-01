@@ -1,0 +1,1 @@
+Regexp#match および String#match でマッチしなかった時の特殊変数 $~ のクリアが冗長に 2回行われていたのでクリアする箇所を移動して解消しています。 https://github.com/ruby/ruby/pull/18101
