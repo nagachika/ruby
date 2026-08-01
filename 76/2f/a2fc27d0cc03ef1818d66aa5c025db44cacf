@@ -1,0 +1,1 @@
+GitHub Actions の bundled gem syntax_suggest のテストのタイムアウトを伸ばすため SYNTAX_SUGGEST_TIMEOUT 環境変数の設定を変更しています。
