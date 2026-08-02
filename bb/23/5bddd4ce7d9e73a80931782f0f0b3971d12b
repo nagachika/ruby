@@ -1,0 +1,1 @@
+defs/gmake.mk で revision.h の再生成を tarball からのビルド時に毎回実行するようになっていたため sub-make ごとに再生成が実行され cross compiling 時に? race condition が発生しうる問題があったので、tarball からのビルドでは revision.h を生成しなおさないようにしています。
