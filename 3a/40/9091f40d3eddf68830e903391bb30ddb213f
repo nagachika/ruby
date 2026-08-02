@@ -1,0 +1,1 @@
+GC の mmtk 実装で GC.disable にした状態での GC.start で enabled にする挙動を実装しています。
