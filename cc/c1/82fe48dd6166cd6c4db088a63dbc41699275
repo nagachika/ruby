@@ -1,0 +1,1 @@
+GC の mmtk 実装で GC.enable/GC.disable の設定による GC の有効/無効が mmtk-core 自体にそのための機能が追加されたのでそれを利用するようにしているようです。
