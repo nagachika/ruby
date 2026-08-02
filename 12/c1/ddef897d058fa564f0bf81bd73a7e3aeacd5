@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で共有バッファのメモリ管理のためのカウンタの操作に RUBY_ATOMIC_INC()/RUBY_ATOMIC_DEC() などの atomic 処理を使うようにしています。複数 Ractor 対応のための修正。 https://github.com/ruby/stringio/pull/223
