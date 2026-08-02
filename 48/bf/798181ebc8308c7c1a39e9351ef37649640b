@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr の bb472c530a91e4b26a76d24c6e607cf38d0a58f0 で新規追加された IPAddr#multicast? および IPAddr#link_local_multicast? のテストのチェック対象を増やして強化しています。
