@@ -1,0 +1,1 @@
+tool/teset-bundled-gems.rb に rexml のテストに --ignore-name=/linear_performance/ オプションを追加するように特別処理を追加しています。
