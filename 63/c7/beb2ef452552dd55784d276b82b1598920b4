@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で 6c86149af4aa9f38c1521a77d93948f4ce34836b で TruffleRuby では rb_prepend_module() 関数がなくて対応できなかった IO#istty の拡張を rb_funcall() で prepend を呼び出す fallback 実装を行うことで対応するようにしています。
