@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で 1aa7f893782cc090926532a2bee8fe8dffd5c2de で導入した console_wintty_p() という関数を console_platform_tty_p() と改名して一般化しています。
