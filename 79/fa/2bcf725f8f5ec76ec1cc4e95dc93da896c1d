@@ -1,0 +1,1 @@
+rubyspec に rb_prepend_module() という C API のテスト用の拡張ライブラリとテストを追加しています。
