@@ -1,0 +1,1 @@
+拡張ライブラリ io/console に Windows 版(cygwin と msys 版)で IO#tty? と IO#istty の代替実装を追加するために無名モジュールを作ってそれを IO に prepend するようにしています。
