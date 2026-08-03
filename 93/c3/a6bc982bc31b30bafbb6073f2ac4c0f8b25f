@@ -1,0 +1,1 @@
+拡張ライブラリ io/console に 1aa7f893782cc090926532a2bee8fe8dffd5c2de で導入した cygwin および msys 環境での IO#istty の省略可能引数の Symbol :cygwin および :msys に加え :any も受け付けて任意の疑似端末を許容する判定をできるようにしています。
