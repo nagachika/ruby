@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の 1aa7f893782cc090926532a2bee8fe8dffd5c2de 以降で IO に tty? や istty のために無名モジュールを作って prepend する処理が rb_prepend_module() がない環境(TruffleRuby)で使えないので関数存在チェックして preprocessor 分岐するようにしています。
