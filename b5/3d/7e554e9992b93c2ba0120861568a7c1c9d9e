@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の extconf.rb で Windows 環境では ttyname_r() や ttyname() の関数存在チェックを実施しないようにしています。
