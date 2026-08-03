@@ -1,0 +1,1 @@
+Pathname#pipe? および Pathname#rmdir の rdoc 用コメントのマークアップの修正。 https://github.com/ruby/ruby/pull/18154
