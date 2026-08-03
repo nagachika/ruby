@@ -1,0 +1,1 @@
+UnboundMethod が Ractor 間で共有可能(shareable) でなかったのを修正しています。実装としては T_TYPEDDATA 型オブジェクトで flags に RUBY_TYPED_FROZEN_SHAREABLE_NO_REC ビットが立っている時に shareable_p_enter() で shareable として判定させるようにしています。
