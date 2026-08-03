@@ -1,0 +1,1 @@
+rubyspec の ENV のテストでキーの Encoding を locale 依存にしていたのを既に導入していた環境に応じた Encoding を返すヘルパーメソッド利用に切り替えています。
