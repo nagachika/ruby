@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#tty? および IO#istty の cygwin 環境での拡張はとりやめています。
