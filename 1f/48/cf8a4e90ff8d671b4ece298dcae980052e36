@@ -1,0 +1,1 @@
+bundler で Gem::YAMLSerializer の仕様の細かい差異を吸収するために Bundler::Plugin::Index で対応を追加しています。
