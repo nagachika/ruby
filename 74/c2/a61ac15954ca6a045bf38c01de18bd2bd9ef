@@ -1,0 +1,1 @@
+rubygems のテストで SSL/TLS 用テスト証明書(ca_cert.pem/client.pem/ssl_cert.pem/ssl_key.pem)を再生成しています。
