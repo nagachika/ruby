@@ -1,0 +1,1 @@
+rubygems の Gem::Security.write というメソッドを削除して Gem::Security.write_private_key と Gem::Security.write_certificate という 2つのメソッドに分割して引数を整理しています。証明書の書き出し時にも passphrase を渡すようになってたので目的に応じてメソッドを分けるようにしています。
