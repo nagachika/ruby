@@ -1,0 +1,1 @@
+compile.c の compile_massign_lhs() にて RGenGC 用の Write Barrier を挿入してリセットしているメンバー名が間違っていたのを修正しています。
