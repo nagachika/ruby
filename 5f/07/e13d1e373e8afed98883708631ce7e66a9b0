@@ -1,0 +1,1 @@
+bundler の gemspec ファイルの spec.files に lib/rubygems/yaml_serializer.rb を追加しています。rubygems のファイルですが bundler の独立した gem としてのパッケージ内でも完結するようにしています。
