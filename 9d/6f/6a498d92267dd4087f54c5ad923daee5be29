@@ -1,0 +1,1 @@
+rubyspec に C API の rb_process_status_for() のテストを追加しています。
