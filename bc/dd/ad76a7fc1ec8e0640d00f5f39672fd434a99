@@ -1,0 +1,1 @@
+cadf8e7933be1164993531e413a1f1cfd0c84554 による起動時の prelude での default gems のロードを遅延する最適化について NEWS に追記しています。 [ruby-core:124984] [Feature #21951]
