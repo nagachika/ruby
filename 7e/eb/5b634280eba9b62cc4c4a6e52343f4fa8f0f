@@ -1,0 +1,1 @@
+GC の default 実装の未使用になってた DURING_GC_COULD_MALLOC_REGION_START() と DURING_GC_COULD_MALLOC_REGION_END() というマクロ定義を削除しています。
