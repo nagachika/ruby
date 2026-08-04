@@ -1,0 +1,1 @@
+rubygems で OpenSSL::PKey#to_pem を利用していたところを #priavte_to_pem または #public_to_pem と鍵の種類によって明示的にメソッドを呼び分けるようにしています。
