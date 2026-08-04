@@ -1,0 +1,1 @@
+GC の default 実装で TRY_WITH_GC() というマクロでメモリ確保を含む処理でエラー時に GC を実行して再試行するという処理をまとめているもので objspace_malloc_gc_stress() の呼び出し時に GC.disable になってないかのチェックを追加しています。よくわかってませんが複数 Ractor 利用時の不具合の修正みたいです。
