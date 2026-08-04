@@ -1,0 +1,1 @@
+vm_trace.c の change_c_events < 0 用 assertion が比較先を間違っていて異常終了してしまう可能性があった不具合を修正しています。
