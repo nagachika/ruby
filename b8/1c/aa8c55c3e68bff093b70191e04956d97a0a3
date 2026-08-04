@@ -1,0 +1,1 @@
+rubyspec の C API のテスト用拡張ライブラリから不要な prototype 宣言を削除しています。
