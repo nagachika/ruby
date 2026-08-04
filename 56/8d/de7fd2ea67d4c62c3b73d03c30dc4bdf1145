@@ -1,0 +1,1 @@
+NEWS に bundled gems から外れた gem のリストのセクションを追加して net-ftp と net-pop を追記しています。 [ruby-core:124497] [Feature #21835]
