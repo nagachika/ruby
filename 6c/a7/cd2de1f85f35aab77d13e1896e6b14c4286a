@@ -1,0 +1,1 @@
+b26b0227f83849db0d450ce09f39ed9a72aad24b の再修正。 thread.c の rb_vm_coverage_record_me() の条件の間違いを修正しています。
