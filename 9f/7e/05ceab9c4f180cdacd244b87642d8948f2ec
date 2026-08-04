@@ -1,0 +1,1 @@
+bundler から Gem::YAMLSerializer を利用するようにしています。
