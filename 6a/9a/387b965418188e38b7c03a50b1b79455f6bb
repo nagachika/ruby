@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#tty? などの拡張のための無名モジュール作成のところで rdoc によるドキュメント生成を抑制するために :stopdoc: と :startdoc: で挟んでいたのを :nodoc: タグのコメントを使うように変更しています。確か C のコメント内だと startdoc/stopdoc は使えないんだっけ?
