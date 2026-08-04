@@ -1,0 +1,1 @@
+rubyspec に C API の rb_int_parse_cstr() のテストを追加しています。
