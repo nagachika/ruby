@@ -1,0 +1,1 @@
+拡張ライブラリ coverage の method_coverage_i() から処理の一部を method_coverage_add() という関数に切り出すリファクタリング。
