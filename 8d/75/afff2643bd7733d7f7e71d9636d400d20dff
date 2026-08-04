@@ -1,0 +1,1 @@
+ruibygems の Gem::YAMLSerializer が rubygems と bundler の両方に同梱されて異なるパスで require されると定数再定義の警告が出力されるため、定義済みの時に toplevel return で早期 return してクラス定義をスキップするようにしています。
