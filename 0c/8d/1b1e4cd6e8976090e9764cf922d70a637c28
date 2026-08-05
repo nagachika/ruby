@@ -1,0 +1,1 @@
+win32/vssetup.cmd で cmd.exe が = で引数を分割するため -vcvars_ver=14.29 が 2 トークンになり VsDevCmd.bat に無視されていた問題を修正しています。
