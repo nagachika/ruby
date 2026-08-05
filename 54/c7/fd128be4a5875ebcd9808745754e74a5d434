@@ -1,0 +1,1 @@
+Ractor 間でオブジェクトが共有可能かチェックする make_shareable_check_shareable() でオブジェクトの型が T_DATA かチェックしていたのが VM_ASSERT() で通常ビルド時は通らないため異常終了する可能性があったので if 文で分岐して Ractor::Error 例外を発生させるようにしています。
