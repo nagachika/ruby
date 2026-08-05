@@ -1,0 +1,1 @@
+bundler の gemspec ファイルの spec.files に rubygems 内の compact_index_client のファイル群を追加しています。
