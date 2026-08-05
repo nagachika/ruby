@@ -1,0 +1,1 @@
+bundler の bundle install でインストールのエラー時の処理中に BUNDLE_GEMFILE 環境変数が未設定だと GemfileNotFound 例外が発生して元の例外が隠されてしまっていたので GemfileNotFound を捕捉するように修正しています。
