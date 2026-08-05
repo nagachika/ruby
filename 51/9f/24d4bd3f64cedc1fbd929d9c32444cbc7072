@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で 9d92f30a43e02e2ab1040df3e2ac4ef54c1b86c9 の修正により不要になった nmake incs と nmake mini の明示的な実行を削除しています。
