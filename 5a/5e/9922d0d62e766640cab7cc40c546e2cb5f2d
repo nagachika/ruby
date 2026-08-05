@@ -1,0 +1,1 @@
+rubygems 内 compact_index_client の実装で require_relative のかわりに require を使うように書き換えています。この後 bundler からも rubygems 内の compact_index_client の実装を流用するようにするためその準備だと思われます。
