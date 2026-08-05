@@ -1,0 +1,1 @@
+bundler 側に同梱されていた compact_index_client が持っていたファイルアクセスのフック機構を rubygems 側の compact_index_client に移植しています。
