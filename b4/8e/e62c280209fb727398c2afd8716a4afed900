@@ -1,0 +1,1 @@
+bundler の gemspec の spec.files に rubygems に vendoring されている pub_grub のファイル群を追加して bundler から rubygems 内の pub_grub を利用できるようにしています。
