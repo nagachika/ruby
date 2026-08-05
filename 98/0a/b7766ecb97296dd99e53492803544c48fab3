@@ -1,0 +1,1 @@
+b48ee62c280209fb727398c2afd8716a4afed900 からの続きで bundler で rubygems に vendoring されている pub_grub を利用するように変更しています。
