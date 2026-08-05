@@ -1,0 +1,1 @@
+bundler から rubygems の Gem::CompacIndexClient を利用するように切り替えています。
