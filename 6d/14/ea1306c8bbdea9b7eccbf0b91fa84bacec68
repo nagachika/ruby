@@ -1,0 +1,1 @@
+拡張ライブラリの coverage と bundled gems の debug を併用した時に異常終了することがあった不具合を修正。TracePoint のコールバック内でその TracePoint の #disable メソッドを呼ぶと解放済みメモリを参照する可能性があったようです。 [ruby-core:126198] [Bug #22217]
