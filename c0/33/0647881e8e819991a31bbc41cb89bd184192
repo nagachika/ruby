@@ -1,0 +1,1 @@
+rubygems に vendoring されている pub_grub の重複して load された時に toplevel return でスキップしてクラス再定義の警告を回避するようにしています。
