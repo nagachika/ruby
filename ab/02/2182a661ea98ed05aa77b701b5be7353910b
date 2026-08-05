@@ -1,0 +1,1 @@
+bundler に同梱されていた compact_index_client は rubygems 版に乗り換えたので削除しています。
