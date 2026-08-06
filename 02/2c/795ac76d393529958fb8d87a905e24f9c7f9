@@ -1,0 +1,1 @@
+ZJIT で receiver に複数の候補がある場合の JIT コンパイル時に最適化に必要な情報が伝播されず最適化が弱くなっていたのを修正しています。 https://github.com/ruby/ruby/pull/18057
