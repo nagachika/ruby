@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERb::Scanner の Ractor safe にするための処理を共有する Hash オブジェクトを freeze して更新時には Hash#merge で新規に Hash オブジェクトを生成してまた freeze しクラスのインスタンス変数に格納するオブジェクトをさしかえるという方針に変更しています。うーんでもこれは race condition があるので VM 単位のロックが必要そう。
