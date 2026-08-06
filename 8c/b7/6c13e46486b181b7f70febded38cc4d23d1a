@@ -1,0 +1,1 @@
+st.c の st_table 構造体のサイズを 48 bytes から 40 bytes に縮小しています。 st_table::entries_start をポインタで保持していたのを unsigned char のオフセットで保持するようにしています。
