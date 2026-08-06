@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の初期化をすりぬけるのを防ぐための BasicObject#equal? を UnboundMethod として取り出して使ってたのをやめています。再定義のおそれがなくなったわけではないと思いますが UnboundMethod の利用が複数 Ractor 利用時に Ractor shareable でなくてエラーになった模様。
