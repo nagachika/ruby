@@ -1,0 +1,1 @@
+ZJIT の T_IMEMO 型オブジェクトについての型情報を追加して fields_obj を types::IMemo として扱うように再修正しています。
