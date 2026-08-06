@@ -1,0 +1,1 @@
+ZJIT の Object Shapes によるインスタンス変数管理のためのテーブルを wrap している fields_obj の型の判定を変更しています。
