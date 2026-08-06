@@ -1,0 +1,1 @@
+rubygems の compact_index_client でリクエストヘッダに range があった時はリトライしないようにしています。
