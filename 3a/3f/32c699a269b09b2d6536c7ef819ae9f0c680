@@ -1,0 +1,1 @@
+ZJIT の生成する JIT コードでの cfp->block_code のクリア漏れの修正。
