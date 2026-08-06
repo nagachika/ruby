@@ -1,0 +1,1 @@
+prism の xcalloc() でのメモリ確保失敗時に abort(3) を呼ぶようにしています。 xcalloc() はメモリ確保失敗時に NoMemoryError 発生させるんだっけ?
