@@ -1,0 +1,1 @@
+prism にも 93638d07e1a4b6c7fe02d1154fd31f201d5faeca の parse.y と同様に AST にソースコードの hash 値を保持するようにしています。
