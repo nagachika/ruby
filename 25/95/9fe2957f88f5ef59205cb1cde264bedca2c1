@@ -1,0 +1,1 @@
+93638d07e1a4b6c7fe02d1154fd31f201d5faeca や 2d6295241f6970d714a35177f0e6d7c0e920b7b7 で parse.y/prism で構築する AST にソースコードの hash 値を保存するようにしたのを RubyVM::InstructionSequence#source_hash のメソッドで取り出せるようにしたり、バイナリフォーマットでの dump/load 時のフォーマットにも追加しています。
