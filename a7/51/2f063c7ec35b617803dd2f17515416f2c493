@@ -1,0 +1,1 @@
+a3c7ff63ea5ade187ec87d2344ca296a9e90cf64 の Windows 版の File.stat の高速化のリファクタリング。 [ruby-core:112045] [Bug #19378]
