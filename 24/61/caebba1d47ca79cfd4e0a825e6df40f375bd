@@ -1,0 +1,1 @@
+String に bit 単位の操作を行う String#bit_get, String#bit_set?, String#bit_set, String#bit_clear, String#bit_flip, String#bit_count およびビット列としての操作を行う String#bitwise_not, String#bitwise_and, String#bitwise_or, String#bitwise_xor などの新規メソッド群を追加しています。 NEWS エントリが必要ですね。 https://github.com/ruby/ruby/pull/17353 [ruby-core:125775] [Feature #22118]
