@@ -1,0 +1,1 @@
+rubygems の環境変数 BUNDLER_SETUP が設定されていた時に require するところにコメントを追記しています。
