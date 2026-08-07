@@ -1,0 +1,1 @@
+Windows 版での File.stats の実装でファイルハンドラを開いていて重かったので GetFileInformationByName() という API を利用して軽量化しています。ただし古い Windows で動かないのとファイルの種類によっては対応していないので従来の実装への fallback も残しています。
