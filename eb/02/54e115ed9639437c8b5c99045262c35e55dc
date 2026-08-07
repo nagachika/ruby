@@ -1,0 +1,1 @@
+Thread::Backtrace::Location#source_range で ISeq に保存されているスクリプトの hash 値を利用して一致しているかチェックして、不一致だったら実行時に parse したものから変更されているので RuntimeError を発生させています。 [ruby-core:126092] [Bug #22197]
