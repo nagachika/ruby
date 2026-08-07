@@ -1,0 +1,1 @@
+ruby 起動時の gem_prelude.rb で環境変数 BUNDLER_SETUP 退避しておいて require "bundler/setup" 後に復旧するようにしています。 did_you_mean などの例外処理時に autload 時に遅延ロードするようにした bundled gems の対応により不要になってたのと、Ruby::Box の main Box でのみ実行するように修正しています。 [ruby-dev:52235] [Bug #22123]
