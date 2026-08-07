@@ -1,0 +1,1 @@
+ISeq のバイナリフォーマットからのロードを行う RubyVM::InstructionSequence.load_from_binary メソッドに対応する処理を拡張ライブラリから呼べるよう C API として rb_iseq_load_from_binary() を新規追加しています。 [ruby-core:126211] [Feature #22222]
