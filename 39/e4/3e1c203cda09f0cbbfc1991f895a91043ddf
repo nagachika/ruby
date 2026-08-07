@@ -1,0 +1,1 @@
+Proc#refined で戻り値を Refinements を有効にした Proc オブジェクトに変更することでメソッドチェインで複数の refined を呼ぶことができるようにしています。また無引数での Proc#refined も許容し self をのまま返すようにしています。また内部実装も ISeq の複製を実際に呼び出す時まで遅延するようにしています。 [ruby-core:126165] [Feature #22213]
