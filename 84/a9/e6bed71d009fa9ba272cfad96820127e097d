@@ -1,0 +1,1 @@
+Thread::Backtrace::Location#source_range というメソッドを新規追加して、コードの位置情報の開始/終了の範囲を持つ Ruby::SourceRange を返すようにしています。 [ruby-core:126160] [Feature #22212]
