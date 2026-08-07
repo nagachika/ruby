@@ -1,0 +1,1 @@
+a89b3a6fd5cb5f382adfef7d28dfc73e330f614d の続きで構造体 rb_method_definition_t に original_module メンバーを追加してメソッドの移植元の Module/Class を直接保持することで実装を簡単にしています。 [ruby-core:126092] [Bug #22197]
