@@ -1,0 +1,1 @@
+hash.c の rb_hash_init() で capa の指定があったら無条件で st_table 利用にしていたのを小さいサイズなら ar_table を利用するようにしています。
