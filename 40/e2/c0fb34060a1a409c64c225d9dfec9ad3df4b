@@ -1,0 +1,1 @@
+拡張ライブラリ strscan の StringScanner#scan 後にバッファの文字列オブジェクトが切り詰められた時に StringScanner#charpos が現在の文字列のサイズに丸めて返すように修正しています。
