@@ -1,0 +1,1 @@
+25959fe2957f88f5ef59205cb1cde264bedca2c1 で追加した RubyVM::InstructionSequence#source_hash および #node_id メソッドを削除しています。未使用だからとしていますが今後使うんじゃないのかなぁ。
