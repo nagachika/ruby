@@ -1,0 +1,1 @@
+hash.c や process.c で T_HASH 型オブジェクトの st_table を RHASH_TBL_RAW() で直接取り出して操作していたところを API 経由で操作して内部実装に依存しないようにしています。
