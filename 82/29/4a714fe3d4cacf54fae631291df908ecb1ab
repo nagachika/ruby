@@ -1,0 +1,1 @@
+拡張ライブラリ socket で macOS の darwin 27 での connect(2) が nonblock connect 時に誤って EISCONN を返すことがあったプラットフォームの問題に対処するため #getsockopt に SO_ERROR を渡して正しいエラーコードを取得するようにしています。 [ruby-core:126222] [Bug #22223]
