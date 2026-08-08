@@ -1,0 +1,1 @@
+Module#descendants メソッドを新規追加しています。 Module/Class を ancestors に持つような Module/Class のリストを配列で返すというメソッドです。 [ruby-core:62193] [Feature #9779]
