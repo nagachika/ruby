@@ -1,0 +1,1 @@
+ZJIT で String#<< で両辺の文字列の Encoding が一致していた時の高速化を YJIT と同様の実装を行うようにしています。 https://github.com/ruby/ruby/pull/18230
