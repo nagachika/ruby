@@ -1,0 +1,1 @@
+Proc#syntax_tree、Method#syntax_tree、UnboundMethod#syntax_tree、RubyVM::InstructionSequence#syntax_tree といった新規メソッドを追加してこれらのオブジェクトから RubyVM::AbstractSyntaxTree::Node などの AST 情報を取得できるようにしています。昨日追加直後に削除された RubyVM::InstructionSequence#source_hash などのメソッドも復活されています。 [ruby-core:124311] [Feature #21795]
