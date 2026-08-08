@@ -1,0 +1,1 @@
+NEWS に Ractor local GC (per-Ractor GC という名称になった模様)の追加や Ractor#value の仕様変更について追記しています。
