@@ -1,0 +1,1 @@
+rubyspec の C API のテストのための拡張ライブラリに rb_deprecate_constant() のためのメソッド定義を追加しています。
