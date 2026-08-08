@@ -1,0 +1,1 @@
+RubyVM::AbstractSyntaxTree モジュールの rdoc 用コメントに代替として prism の利用を推奨するように追記しています。 [ruby-core:124418] [Feature #21826]
