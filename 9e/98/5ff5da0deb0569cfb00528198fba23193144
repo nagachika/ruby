@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#to_binary のテストで coverage を有効化した状態ではエラーになるのでその場合は skip するようにしています。
