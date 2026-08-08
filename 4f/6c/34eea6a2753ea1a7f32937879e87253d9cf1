@@ -1,0 +1,1 @@
+Ractor のテストに per-Ractor GC 関係の? テストを追加しています。
