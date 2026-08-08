@@ -1,0 +1,1 @@
+標準添付ライブラリ time の Time.rfc3339 のエラー時に発生させる例外のメッセージに "invalid xmlschema format" と入っていたので "invalid rfc3339 format" となるように例外発生をヘルパーメソッド内から呼び元に吊り出しています。
