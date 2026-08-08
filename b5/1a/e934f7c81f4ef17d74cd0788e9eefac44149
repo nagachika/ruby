@@ -1,0 +1,1 @@
+internal/gc.h から vm_core.h の #include を削除して、構造体 struct rb_ractor_struct の宣言と ruby_atomic.h の #include だけ行なうようにしています。これにより internal/gc.h 経由で vm_core.h に依存していた箇所に #include の追加などを行なっています。 [ruby-core:126185] [Feature #22215]
