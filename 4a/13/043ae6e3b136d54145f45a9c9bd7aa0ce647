@@ -1,0 +1,1 @@
+fork 時に rb_vm_t::once_lock および rb_vm_t::once_cond という構造体メンバーも再初期化するようにしています。
