@@ -1,0 +1,1 @@
+96589334512bc960fabb5908ce8cc25a245ce090 で追加したばかりの Module#descendants が Ruby::Box を考慮していなかったので呼び出し元の Box では ancestors に含まれない Class/Module が含まれる可能性があった不具合を修正しています。
