@@ -1,0 +1,1 @@
+b62b9b6fe3e205b934f01f5a027aa4ad8d971af7 で rubyspec に追加した C API テスト用拡張ライブラリの警告抑制と、should raise_error ではなく shoud.raise の matcher を使うように変更しています。
