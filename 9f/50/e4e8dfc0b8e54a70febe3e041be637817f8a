@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで LoadError を捕捉して無視する直前の e56f452e4678d974e26aabcfc6e9f13ec8ecdc5d を revert しています。また common.mk で make check の最後でリモートとの差分に #include の変更が含まれていないかチェックしていたのは依存関係更新の自動化に伴ない不要になったので削っています。なんか変更が混ざってる?
