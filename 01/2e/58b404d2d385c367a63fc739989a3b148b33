@@ -1,0 +1,1 @@
+RUBY_INTERNAL_EVENT_NEWOBJ による NEWOBJ() でのフックを有効化した時のために ZJIT でのオブジェクト生成のインライン化したコードに脱最適化のための PatchPoint 命令を埋め込むようにしています。
