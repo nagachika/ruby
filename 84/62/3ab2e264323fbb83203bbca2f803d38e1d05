@@ -1,0 +1,1 @@
+拡張ライブラリ io/console で Windows 版で IO::Console::Mode クラスに virtual_terminal_processing=, wrap_at_eol_output= などのメソッドを新規追加してエスケープシーケンス処理や行末の折り返しなどの挙動の設定、確認ができるようにしています。
