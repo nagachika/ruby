@@ -1,0 +1,1 @@
+GC の default 実装の gc_mark_set()/gc_mark_check_t_none()/rgengc_check_relation()/gc_aging()/gc_grey() などの関数の宣言に ALWAYS_INLINE() を使って強制的に inline 化させるようにしています。
