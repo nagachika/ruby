@@ -1,0 +1,1 @@
+rubyspec の File.setgid のテストが macOS で失敗していたので一時無効化しています。
