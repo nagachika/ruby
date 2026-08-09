@@ -1,0 +1,1 @@
+st_table 構造体のメモリレイアウトを変更しています。 先日の 8cb76c13e46486b181b7f70febded38cc4d23d1a での st_table のサイズ削減時に entries_start メンバーのサイズを 1 byte に変更したのは unsigned int に戻し、rebuilds_num のほうを unsigned char に変更しています。より上限に達しやすいほうを大きなサイズにしたということみたいです。
