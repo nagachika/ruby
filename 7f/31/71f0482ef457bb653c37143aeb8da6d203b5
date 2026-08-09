@@ -1,0 +1,1 @@
+c7fae2f6513e7fe6afea05ac4e9794fb21e1d49a の続きで GC の default 実装の GC_PROFILE_MORE_DETAIL マクロが定義されている時だけ使うフィールドの計算部分を preprocessor 分岐で囲むようにしています。
