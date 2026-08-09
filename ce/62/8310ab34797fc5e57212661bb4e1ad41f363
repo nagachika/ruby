@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の JRuby サポートのための FFI 実装版で最近の Windows 対応を有効化するため gemspec ファイルの JRuby 向けの spec.files に lib/ffi/io/console/windows_console.rb を追加しています。
