@@ -1,0 +1,1 @@
+ZJIT の --zjit-stats オプションに引数を指定した時のファイルの拡張子をチェックして .josn だった時は出力形式に JSON を使うように変更しています。 https://github.com/ruby/ruby/pull/18228
