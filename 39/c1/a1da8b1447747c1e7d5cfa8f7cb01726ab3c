@@ -1,0 +1,1 @@
+GC の Ractor の mark 処理でマシンスタックを th->ec および fiber->cont.saved_ec 経由で 2回 mark 処理していたのでこの重複を省いています。
