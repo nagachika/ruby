@@ -1,0 +1,1 @@
+Proc#syntax_tree のテストが coverage が有効化されていると失敗するので skip するようにしています。
