@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_sendish() という関数の宣言に ALWAYS_INLINE() マクロを使って inline 化を強制するようにしています。
