@@ -1,0 +1,1 @@
+RGenGC のための rgengc_check_relation() で old のオブジェクトを rememberset に登録する処理を不要に重複して行なっていたのをスキップするように最適化しています。
