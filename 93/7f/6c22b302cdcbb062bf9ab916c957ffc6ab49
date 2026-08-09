@@ -1,0 +1,1 @@
+テストで assert_includes を使ってたところを assert_include を使うよう変更しています。
