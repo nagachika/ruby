@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の Windows 専用の IO#console_input_events メソッドにキーワード引数 timeout を追加してイベントを待つ時間の上限を指定できるようにしています。
