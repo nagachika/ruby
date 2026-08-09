@@ -1,0 +1,1 @@
+拡張ライブラリ io/console に IO#hide_curser および IO#show_cursor というメソッドを新規追加し、カーソルの表示/非表示を指定できるようにしています。
