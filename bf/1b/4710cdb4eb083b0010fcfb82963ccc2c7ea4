@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストの LoadError の捕捉が 9f50e4e8dfc0b8e54a70febe3e041be637817f8a で誤って revert されていたのを戻しています。やっぱり意図的ではなかったんだ。
