@@ -1,0 +1,1 @@
+bf1b4710cdb4eb083b0010fcfb82963ccc2c7ea4 で拡張ライブラリ io/console のテストで fiddle の LoadError を捕捉したところで pend を使って明示的な skip にしてメッセージを残すようにしています。
