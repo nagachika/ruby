@@ -1,0 +1,1 @@
+test/.excludes-mmtk/TestGc.rb に mmtk 利用時に GC::Profiler のテストを skip する指定を追加しています。
