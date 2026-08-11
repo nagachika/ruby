@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで IO#iflush と IO#ioflush のテストを IO#_io_console_stty という private メソッドが定義されている時は skip するようにしています。コミットログをみるとこれも upstream では JRuby 向けの? 修正が行なわれているけど ruby 本体にはテストのみ同期されている感じかな?
