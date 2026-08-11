@@ -1,0 +1,1 @@
+テスト用のユーティリティ tool/lib/envutil.rb の invoke_ruby で --parser= の引数が指定されていた時に ruby --help を実行して利用可能な parser を取得する時に環境変数 PAGER および RUBY_PAGER を明示的にクリアしてヘルプメッセージの表示にページャーが起動されないようにしています。
