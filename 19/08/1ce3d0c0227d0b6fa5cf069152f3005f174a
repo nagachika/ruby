@@ -1,0 +1,1 @@
+per-Ractor GC で rb_gc_get_objspace() で rb_current_ractor_raw() が繰り返し呼ばれていたのを呼び元で呼び出した結果をローカル変数に保存して使いまわす小さな最適化。しかしこれで inline 化のされかたが変わって結構な高速化に繋がるようです。
