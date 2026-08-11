@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストで環境変数 JSON_COVERAE を設定して coverage を有効化した時の coverage 出力先のディレクトリを .coverage にする指定を追加しています。
