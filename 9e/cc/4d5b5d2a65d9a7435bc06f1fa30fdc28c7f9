@@ -1,0 +1,1 @@
+per-Ractor GC 導入時に global GC (という概念も導入された?) の GC::Profiler での計測漏れがあったのを修正しています。
