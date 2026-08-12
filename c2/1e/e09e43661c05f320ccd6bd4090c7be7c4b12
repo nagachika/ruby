@@ -1,0 +1,1 @@
+ZJIT の HIR ダンプ時に PushInlineFrame 命令にメソッド名を出力するようにしています。
