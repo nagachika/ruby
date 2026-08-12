@@ -1,0 +1,1 @@
+e768a87a175ced5cde30bb203abf3d088844d0ad からの続きで、拡張ライブラリ objspace の ObjectSpace.trace_object_allocations_start の実装の assert(3) がひっかかるようになっていたのですが、条件が実装の変更により変わったためだったので assert() 文を削除しています。
