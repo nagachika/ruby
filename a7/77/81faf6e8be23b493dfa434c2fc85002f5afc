@@ -1,0 +1,1 @@
+複数 Ractor 利用時に終了して回収された Ractor に所属していたオブジェクトが zombie objspace のヒープに所属しているので ObjectSpace.dump_all で zombie heap は除外していたのをダンプ対象にするようにしています。
