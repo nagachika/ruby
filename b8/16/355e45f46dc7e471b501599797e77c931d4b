@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.generate の escape_slash というオプションを削除しています。
