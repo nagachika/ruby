@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::JSON_LOADED という定数定義を削除しています。
