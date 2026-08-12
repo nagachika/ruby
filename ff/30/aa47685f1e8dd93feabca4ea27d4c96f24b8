@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.unparse, JSON.fast_unparse, JSON.pretty_unparse, JSON.restore などの deprecated にしていた JSON.dump の別名を削除しています。
