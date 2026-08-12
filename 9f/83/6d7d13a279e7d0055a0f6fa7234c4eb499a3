@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.parse でキーワード引数 allow_duplicate_key のデフォルトの指定を false にして、重複したキーの出現をエラーにしています。
