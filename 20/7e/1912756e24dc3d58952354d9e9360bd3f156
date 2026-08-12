@@ -1,0 +1,1 @@
+ZJIT の arm64 版で利用できるレジスタを拡張しているようです。 AAPCS64 という ABI に準拠すると 8つまで argument register が使えるそうです。 https://github.com/ruby/ruby/pull/18257
