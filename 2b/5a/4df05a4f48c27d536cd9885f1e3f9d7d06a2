@@ -1,0 +1,1 @@
+fcf9205ae17032900479765987fb1bcb6b5921dc で追加した Ractor 間の MatchData オブジェクト移動のテストに移動元のオブジェクトの Ractor.shareable? のチェックを追加しています。
