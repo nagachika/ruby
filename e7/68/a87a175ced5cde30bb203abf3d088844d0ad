@@ -1,0 +1,1 @@
+per-Ractor GC の導入後 Ractor の終了後に Ractor ごとの object space が回収されずに残るという問題があったので、Ractor ごとの heap をその Ractor の Thread の後始末時に回収させるように大幅な変更をしているようです。以降関連した変更が続きます。
