@@ -1,0 +1,1 @@
+Ractor#monitor で Ractor::Port を監視する時に Ractor::Port を識別するのに ractor_port_id() だけだと異なる Ractor の port を同一視する可能性があったので所属する Ractor も比較するように修正しています。
