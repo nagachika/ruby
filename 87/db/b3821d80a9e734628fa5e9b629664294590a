@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.parse の create_additions というオプションを削除しています。こんな機能あったんだ。
