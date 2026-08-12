@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.parse の allow_comments の指定のデフォルト値を false に設定しています。
