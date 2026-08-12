@@ -1,0 +1,1 @@
+拡張ライブラリ json の deprecated にしていた定数 JSON::PRETTY_STATE_PROTOTYPE (正確には const_missing で値を返していた)を削除しています。
