@@ -1,0 +1,1 @@
+per-Ractor GC 導入後に GC.compact の処理に使う時間が GC::Profiler に反映されなくなっていた不具合を修正しています。
