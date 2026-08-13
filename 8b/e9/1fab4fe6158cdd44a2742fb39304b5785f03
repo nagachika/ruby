@@ -1,0 +1,1 @@
+昨日の Ractor の終了時のリソース解放の処理の変更の続きで、Ractor#join で終了を待つ Ractor が spin lock 状態で CPU を過剰に利用してしまっていたので、解放処理全体を待たずに Ractor#join が返るようにしています。
