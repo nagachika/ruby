@@ -1,0 +1,1 @@
+拡張ライブラリ strscan で Subvertion (CSV かも?) 時代の $Id$ の展開結果を埋め込んでた StringScanner::Id や StringScanner::StanError などの不要な定数を削除しています。 https://github.com/ruby/strscan/pull/216
