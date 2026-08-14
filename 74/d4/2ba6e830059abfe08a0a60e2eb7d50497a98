@@ -1,0 +1,1 @@
+per-Ractor GC の導入に伴ない不要になっていた GC 関連の関数 rb_gc_vm_weak_table_essential_p()、gc_sweep_weak_table_i() やそれを呼び出す処理を削除しています。
