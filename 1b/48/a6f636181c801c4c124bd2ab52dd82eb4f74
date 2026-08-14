@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で find() メソッドの利用を避けメモリコピーを抑制する最適化。 https://github.com/ruby/ruby/pull/18307
