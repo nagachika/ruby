@@ -1,0 +1,1 @@
+拡張ライブラリ zlib で struct zstream::stream.state の初期化漏れを修正しています。不正なポインタ参照を引き起こす可能性があったみたいです。 https://github.com/ruby/zlib/pull/141
