@@ -1,0 +1,1 @@
+win32/install-buildtools.cmd の再修正で winget でインストールする VisualStudio のバージョンの指定を変更しています。
