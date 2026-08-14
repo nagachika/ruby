@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の PushInlineFrame/PopInlineFrame 命令でメソッド呼び出しのインライン化の際に control frame を積んでいるものの大域脱出などが存在せず不要だとわかった場合はこれを削除するように最適化しています。 https://github.com/ruby/ruby/pull/18231
