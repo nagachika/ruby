@@ -1,0 +1,1 @@
+per-Ractor GC で main Ractor での mark 処理時に rb_sym_global_symbols_mark_and_move() の呼び出しが不要とのことでスキップするようにしています。
