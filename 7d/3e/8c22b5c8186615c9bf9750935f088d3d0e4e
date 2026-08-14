@@ -1,0 +1,1 @@
+Windows 版のビルドプロセスの修正。 win32/vssetup.cmd や win32/install-buildtools.cmd で set コマンドの引数にクオートを追加しています。
