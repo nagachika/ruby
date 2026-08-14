@@ -1,0 +1,1 @@
+GC の default 実装の fork 時のフックに GC の page pool 用 mutex の初期化を追加しています。
