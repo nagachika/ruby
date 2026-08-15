@@ -1,0 +1,1 @@
+ZJIT の VALUE 値の追跡のための stack maps で gen_prepare_non_leaf_call() のあとに呼び出した C の関数が cfp->sp を更新する可能性があることを考慮しておらず誤ったマッピングを使ってしまう可能性があった不具合を修正しています。 stack maps の値の持ちかた自体も変更しているようです。
