@@ -1,0 +1,1 @@
+拡張ライブラリ digest の BLAKE3 実装の extconf.rb に SIMD 実装を有効化するためのチェックを追加しています。
