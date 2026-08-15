@@ -1,0 +1,1 @@
+M:N Thread 関連の SNT_KEEP_SECONDS というマクロが正数の時だけの preprocessor 分岐によるコードを削除しています。
