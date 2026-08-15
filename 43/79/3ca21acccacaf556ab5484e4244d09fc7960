@@ -1,0 +1,1 @@
+M:N Thread 有効化時に native thread の thread pool からやるべきタスクがない native thread は停止させるようにしています。起床させられたけどやることがない、というのが 3回連続(SNT_IDLE_RETIRE という定数マクロで調節)続いたら止めるようにしています。
