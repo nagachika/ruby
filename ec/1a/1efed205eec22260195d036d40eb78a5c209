@@ -1,0 +1,1 @@
+defs/gmake.mk に encdb.h と transdb.h の依存関係の記述を追加しています。
