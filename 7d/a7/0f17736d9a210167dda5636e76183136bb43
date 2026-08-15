@@ -1,0 +1,1 @@
+要素数の少ない Hash は ar_hash といって配列に key, value をつめる実装が利用されますが、ar_hash の Hash への要素の検索を SWAR という SIMD 命令を使わずに一括処理するテクニックを利用して若干高速化しています。 SWAR って Matz が福岡Rubyist会議04 で mruby に利用したと話していたやつですね。
