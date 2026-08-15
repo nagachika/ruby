@@ -1,0 +1,1 @@
+YJIT および ZJIT 利用時にブロックの Proc オブジェクト化により EP のエスケープが発生すると複数 Ractor 利用時に VM ロックを取る重い処理が走り、これが同じ ISeq について不要に繰り返し呼ばれていたので、最初の 1回だけにするように最適化しています。 https://github.com/ruby/ruby/pull/18176 [ruby-core:126226] [Bug #22224]
