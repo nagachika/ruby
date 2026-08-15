@@ -1,0 +1,1 @@
+Process.rlimit のテストで環境変数の freeze された文字列に対して破壊的変更を行なおうとして FrozenError が発生していたところを修正しています。
