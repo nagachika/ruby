@@ -1,0 +1,1 @@
+M:N Thread 有効化時に Kernel#fork などで子プロセス生成時に子プロセスで native thread のカウンタやマシンスタック、timer thread の通知用の fd のリセットなどの後始末を追加しています。
