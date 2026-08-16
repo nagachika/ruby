@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で bundled gems の fiddle のテストの実行時にコマンドラインオプションの -zjit-call-threshold=1 の指定があった時は test_no_memory_leak というテストメソッドのエラーを無視させるようにしています。
