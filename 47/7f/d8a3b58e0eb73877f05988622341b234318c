@@ -1,0 +1,1 @@
+M:N Thread 有効化時に IO#wait_readable などで短いタイムアウトでの待ちを繰り返す処理でのパフォーマンスの改善のため IO 待ちを M:N Thread の scheduler で考慮するように対応しています。
