@@ -1,0 +1,1 @@
+zjit.h の stack maps 関連のマクロやヘルパー関数の定義を #if USE_ZJIT の preprocessor 分岐の中に移動して ZJIT 無効化時のコンパイラ警告を抑制しています。
