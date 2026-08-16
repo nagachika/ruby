@@ -1,0 +1,1 @@
+さらに拡張ライブラリ digest/blake3 の extconf.rb で生成する Makefile から -DRUBY_EXTCONF_H オプションの指定を削って、かわりに extconf.h に出力するマクロ群の定義をオプションとして渡すようにしています。 gem としてのパッケージ作成時のための修正?
