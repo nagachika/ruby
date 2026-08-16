@@ -1,0 +1,1 @@
+M:N Thread 有効化時に rb_nogvl() で ubf として RUBY_UBF_IO や RUBY_UBF_PROCESS などの定数が渡されてた時に誤って ubf の処理を async safe として扱ってしまうという潜在的な不具合を修正しています。
