@@ -1,0 +1,1 @@
+Hash#freeze の実装で Hash の実装が ar_table の(要素数が小さくて配列を使っている)時に ar_compact_table() を呼び出して小さい slot に収めることができるようにしています。この時点で heap を移動するわけではないですが GC.compact 時により slot サイズの小さい heap に移動できるようにということですかね。
