@@ -1,0 +1,1 @@
+M:N Thread で native thread が不要と判断して終了する時に rb_native_thread 構造体や sigaltstack などの付随するリソースが解放されずメモリリークしていた不具合を修正しています。
