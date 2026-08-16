@@ -1,0 +1,1 @@
+拡張ライブラリ digest の Digest::BLAKE3 の導入を一旦 revert しています。 CI でエラーが発生していた模様。
