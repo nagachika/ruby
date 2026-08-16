@@ -1,0 +1,1 @@
+拡張ライブラリ digest/blake3 のバージョン番号を返す定数 Digest::BLAKE3::VERSION および Digest::BLAKE3::LIBRARY_VERSION を追加しています。
