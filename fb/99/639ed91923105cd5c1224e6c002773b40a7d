@@ -1,0 +1,1 @@
+rb_hash_new_with_size() という関数は rb_hash_new_capa() とほぼ同じ働きをしていたので rb_hash_new_capa() のほうに一本化して内部から常に rb_hash_new_capa() を利用するようにして、rb_hash_new_with_size() は削除しています。
