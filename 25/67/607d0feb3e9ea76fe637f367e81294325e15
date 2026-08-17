@@ -1,0 +1,1 @@
+thread.c の rb_thread_create_ractor() という関数から前半を create_ractor_alloc_thread() という関数に切り出して分割しています。実質なにも変更はないと思いますが処理が複雑で s390x 環境でのビルド時にコンパイラの SSA corruption というエラーを引き起こしてビルドエラーになっていたようです。そんなことあるんだ。
