@@ -1,0 +1,1 @@
+Thread の実装に rb_thread_sched_winding_begin() と rb_thread_sched_winding_end() という関数を導入し、pthread バックエンドの時のみ vm->ractor.sched.winding_cnt を atomic な処理で increment/decrement するようにし、thread_start_func_2() の末尾での Thread の終了時に main Ractor の終了処理を行う時にこの関数で挟んでプロセス終了時の ruby_vm_destruct() で Ractor の後始末を待つ時にこの経路の Ractor 解放処理も考慮させるようにしています。
