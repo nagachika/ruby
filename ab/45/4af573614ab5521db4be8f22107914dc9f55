@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの setup/directories で bundled gems のキャッシュのキーに OS 名およびアーキテクチャ名を含めないようにして異なる環境向けの workflows 間で共有できるようにしています。
