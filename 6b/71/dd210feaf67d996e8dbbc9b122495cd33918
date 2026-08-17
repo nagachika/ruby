@@ -1,0 +1,1 @@
+bootstraptest の Process.rlimit でプロセス数制限している状態での M:N Thread 有効化時の共有 native thread 枯渇時の対応を確認するテストが環境の CPU 数に依存して失敗するのを修正しているようです。
