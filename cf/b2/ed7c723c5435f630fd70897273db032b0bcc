@@ -1,0 +1,1 @@
+thread.c で -Wdangling-pointer というコンパイラ警告を局所的に無視させるための pragma 追加の条件に GCC のバージョンが 12 以降であることも追加しています。
