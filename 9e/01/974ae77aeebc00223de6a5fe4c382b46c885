@@ -1,0 +1,1 @@
+thread.c および ractor_sync.c の EC_PUSH_TAG()/EC_POP_TAG() のあいだに参照される変数に volatile 修飾子を追加する修正。
