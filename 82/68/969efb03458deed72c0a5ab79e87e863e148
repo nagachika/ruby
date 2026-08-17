@@ -1,0 +1,1 @@
+tool/mkdepend.rb による依存関係の実行を configure や win32/setup.mk からの実行にしていたのを Makefile のアクションを利用するようにしています。また depend の prism 関係のヘッダのスキャン指定を絞っています。 [ruby-core:126138] [Misc #22206]
