@@ -1,0 +1,1 @@
+Fiber 用の coroutine 実装の asyncify, emscripten, ucontext および pthread 版の実装で M:N Thread の時に解放済みの target に struct coroutine_context を復旧しようとして異常終了してしまう可能性があった不具合の修正。
