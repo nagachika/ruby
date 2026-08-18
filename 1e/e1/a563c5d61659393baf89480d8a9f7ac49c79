@@ -1,0 +1,1 @@
+拡張ライブラリ digest/blake3 の extconf.rb で生成する Makefile で $(<) 変数の参照を使っていたのをやめています。 nmake でサポートされていないため。
