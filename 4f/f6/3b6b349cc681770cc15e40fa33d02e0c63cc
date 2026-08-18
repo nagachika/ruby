@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow で clang-22 で -flto-auto を指定するビルドで enable_shared: false の指定を削除して libruby を共有ライブラリリンクさせるようにしています。
