@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の link_config メソッドで RbConfig::CONFIG の "LIBS" の内容を $extmk で分岐して静的リンクを使うようにしていたのを configure で決めたリンク方法を利用するように修正しています。
