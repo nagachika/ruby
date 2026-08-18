@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の Prism.find から rubyvm キーワード引数を削除しています。RubyVM 定数の存在の有無で判定するように変更しています。 https://github.com/ruby/prism/pull/4202
