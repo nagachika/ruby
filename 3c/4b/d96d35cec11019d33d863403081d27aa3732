@@ -1,0 +1,1 @@
+拡張ライブラリ digest/blake3 の extconf.rb で Makefile の CPPFLAGS を書き換えていた 2febd4bd301d62d29ec024c4ca813bf6a9d72b72 や 4490cedbf95f50f4abc30bc2071dad8bbf971ca8 などの変更を revert しています。
