@@ -1,0 +1,1 @@
+common.mk の clean-build-tool や clean-modular-gc などのターゲットでの削除処理時のメッセージを抑制するようにリダイレクトを追加しています。
