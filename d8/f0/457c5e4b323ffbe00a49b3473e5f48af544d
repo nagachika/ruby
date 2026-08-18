@@ -1,0 +1,1 @@
+GC stress 化での Exception#detailed_message の呼び出しのテストがたまに worker 全体のタイムアウトして失敗していたのを修正しています。 Exception#detailed_message の初回呼び出し時に error_highlight などの default gems をロードするためこのテスト内で初回の呼び出しだった時にのみエラーになっていたみたいです。事前の detailed_message を呼び出して gem をロードしておくことで回避しています。
