@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow で並列化の shard 内のジョブの配分を調節して全体が短い時間で終わるようにしています。
