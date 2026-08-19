@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow で Link Time Optimization を試すのに使う clang のバージョンを clang-23 に更新しています。
