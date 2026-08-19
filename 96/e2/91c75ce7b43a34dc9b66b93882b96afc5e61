@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow で 5d201a91074d4249bf4edb9506d376163fff4773 からの続きでさらに細かい単位で shard を分割するようにして効率的に並列処理できるようにしています。
