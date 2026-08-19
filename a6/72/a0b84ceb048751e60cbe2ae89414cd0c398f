@@ -1,0 +1,1 @@
+rubygems の Gem::Installer#verify_spec で spec.platform のフォーマットチェックする正規表現を強化して "/" などのパス区切り文字を拒否するようにチェック強化しています。
