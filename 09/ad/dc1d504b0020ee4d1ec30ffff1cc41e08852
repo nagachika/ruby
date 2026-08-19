@@ -1,0 +1,1 @@
+rubygems の Gem::SafeMarshal::Visitors::ToRuby クラスで許可リストに含まれないクラスのオブジェクトが Marshal.load で生成されてしまうのを回避するため許可クラスをハードコードしたチェックを追加しています。
