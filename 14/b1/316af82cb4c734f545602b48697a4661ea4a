@@ -1,0 +1,1 @@
+d15f18d87ae5895fb77314f9baa52d22f07ebbfd からの rubygems の cooldown 機能追加の続き。 cooldown によりインストールが抑制された gem についてメッセージを出力するようにしています。
