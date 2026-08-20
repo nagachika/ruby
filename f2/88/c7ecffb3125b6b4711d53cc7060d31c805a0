@@ -1,0 +1,1 @@
+同じく GitHub Actions の check_misc workflow に RBIMPL_HAS_BUILTIN_XXX マクロの定義の漏れがないかをチェックする step を追加しています。
