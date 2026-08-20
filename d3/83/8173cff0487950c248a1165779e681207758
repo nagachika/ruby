@@ -1,0 +1,1 @@
+ZJIT の VM 命令 invokeblock のインライン最適化で不要に side-exit してしまう可能性があった不具合を修正しているようです。
