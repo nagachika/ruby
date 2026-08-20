@@ -1,0 +1,1 @@
+rubygems の gem uninstall --user-install で GEM_HOME の設定のディレクトリが存在しない時に File.realpath を呼ばないようにしてエラーを回避しています。
