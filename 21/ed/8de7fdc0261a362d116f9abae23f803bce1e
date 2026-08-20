@@ -1,0 +1,1 @@
+f288c7ecffb3125b6b4711d53cc7060d31c805a0 で追加した GitHub Actions でのチェックでみつけたと思われる RBIMPL_HAS_BUILTIN___builtin_memcpy と RBIMPL_HAS_BUILTIN___builtin_bswap128 マクロの定義を include/ruby/internal/has/builtin.h に追加しています。
