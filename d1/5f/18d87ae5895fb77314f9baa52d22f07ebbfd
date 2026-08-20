@@ -1,0 +1,1 @@
+rubygems に Gem::Cooldown を追加しリリース直後の gem のインストールを抑制する cooldown 機能を実装しています。
