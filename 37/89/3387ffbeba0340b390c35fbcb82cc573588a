@@ -1,0 +1,1 @@
+同じく GitHub Actions の check_misc workflow で前の step が失敗しても続きを実行するように if: always() の指定を各 step に追加しています。
