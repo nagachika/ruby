@@ -1,0 +1,1 @@
+GitHub Actions の configure やヘッダファイルの重複 #include guard 用の preprocessor マクロのチェックでエラー時のメッセージにマーカーを埋め込んでいます。 CI でのデバッグ用ですかね。
