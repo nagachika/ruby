@@ -1,0 +1,1 @@
+ZJIT において VM 命令 opt_getconstant_path のコンパイル時に rb_jit_constcache_shareable() を利用して定数畳み込みの最適化の条件を広げています。従来は複数 Ractor を利用したら不可能にしてましたが定数キャッシュが共有可能と判定されたら有効にしています。
