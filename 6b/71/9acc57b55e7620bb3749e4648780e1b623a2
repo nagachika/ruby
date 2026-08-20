@@ -1,0 +1,1 @@
+rb_internal_thread_add_event_hook() などのコールバック用 C API のテストが per-Ractor GC の導入後失敗していたのを修正しています。テスト用拡張ライブラリでの mark 処理を修正する必要があったようです。また Ractor 用の atomic 処理も追加しています。
