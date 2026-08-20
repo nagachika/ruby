@@ -1,0 +1,1 @@
+GitHub Actions の make check-depends を実行して依存関係の更新を検出するのに専用の workflow check_dependencies を作っていたのを check_misc のなかの step に移動しています。
