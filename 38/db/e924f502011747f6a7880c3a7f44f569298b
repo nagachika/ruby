@@ -1,0 +1,1 @@
+GC の vm_weak_table_gen_fields_foreach() という関数で解放された weekmap の key の shape_id をクリアする処理が mmtk 実装の時に異常終了になる可能性があるので既に T_NONE になっていないかのチェックを追加しています。
