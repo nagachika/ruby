@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で Regexp#match? がまだない古い ruby の対策で Regexp#=~ を利用するようにしています。
