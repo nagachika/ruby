@@ -1,0 +1,1 @@
+ここから一連の変更は Ractor 間のオブジェクトの Ractor::Port 経由の移動時に ractor_shareable でないオブジェクトをコピーする時の性能改善のため、コピーを ObjectSpace の heap 内に作らずに xmalloc() などで確保したメモリに一時保管しておき、受信時にオブジェクト化するという off-heap 戦略というのを取る変更と、関連する GC の修正です。 https://github.com/ruby/ruby/pull/18392
