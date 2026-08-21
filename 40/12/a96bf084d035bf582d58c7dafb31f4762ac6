@@ -1,0 +1,1 @@
+構造体 struct rb_iseq_body の lvar_state メンバーを enum から uint8_t にしてビットフラグ管理にして構造体サイズを削減しています。
