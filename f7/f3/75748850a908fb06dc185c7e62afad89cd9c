@@ -1,0 +1,1 @@
+defs/jit.mk で target/.rustc-version に出力するための rustc -V の出力を空白で分割して一部を取り出していたのを全体を出力するようにしています。
