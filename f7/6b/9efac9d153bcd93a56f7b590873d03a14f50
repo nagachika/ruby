@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb でさらに -W にカテゴリを指定するオプションの対応がない古い ruby の対応を追加しています。
