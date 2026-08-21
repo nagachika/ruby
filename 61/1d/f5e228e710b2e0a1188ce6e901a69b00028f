@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の IsMethodCfunc 命令でメソッド探索時の ISeq の cme の取り出しかたを self.frame_state_iseq() から取り出すように修正しています。
