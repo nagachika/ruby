@@ -1,0 +1,1 @@
+d9c8673dea43825640ddfea29962a2100d034049 から続いて iseq.c の memsize の関数に rb_iseq_constant_body::outer_variables のメモリ量も加算しています。
