@@ -1,0 +1,1 @@
+GC の mmtk 実装での GC 内の thread からの呼び出しにより vm_cc_check_cme() などのヘルパー関数が assertion エラーになるのを対策しています。
