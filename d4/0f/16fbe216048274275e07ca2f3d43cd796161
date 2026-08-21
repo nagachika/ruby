@@ -1,0 +1,1 @@
+Ractor の ractor_mark_unshareable_parts() という関数の assertion が GC が mmtk 実装の時の前提でエラーになっていたのでチェック位置を移動しています。
