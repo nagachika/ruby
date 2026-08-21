@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb を更新しています。 af5c4efdc0ac85a02f4d9ec7ccb187f0ea0746e7 の対応による upstream からの同期ですね。古い ruby でのブロック内の rescue 節が SyntaxError になるのに対策しています。
