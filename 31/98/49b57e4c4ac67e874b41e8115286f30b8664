@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の rdoc 用コメント内のサンプルで OpenSSL::PKey::{DH,DSA,RSA}#public_key メソッドを使っているところを削って PKey そのものを使うようにしています。 #public_key メソッドは obsoleted になっているとのこと。
