@@ -1,0 +1,1 @@
+vm.c の rb_vm_ep_in_heap_p() において rb_execution_context_t が NULL になるのを許容するようにしています。 GC が mmtk 実装の時に GC 内で起動される thread から呼ばれた時に NULL になり assertion エラーになっていたため。
