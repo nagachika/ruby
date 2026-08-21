@@ -1,0 +1,1 @@
+7d5aaefc01e9a34484b50b388baa4fdb3283d407 から続く Ractor 間のオブジェクトコピーの off-heap 戦略への一連の変更の一部です。 https://github.com/ruby/ruby/pull/18392
