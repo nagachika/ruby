@@ -1,0 +1,1 @@
+vm_insnhelper.c の vm_search_method_slowpath0() という関数に struct rb_call_data と iseq の対応が正しいかの VM_ASSERT() の検証を追加しています。
