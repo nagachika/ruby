@@ -1,0 +1,1 @@
+GC の mmtk 実装のの per-Ractor GC での異常終了回避のための修正。
