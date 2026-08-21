@@ -1,0 +1,1 @@
+Encoding の変換用の内部的オブジェクトの ObjectSpace.memsize_of のための関数でポインタが NULL の時に 0 を返すように厳密にしています。
