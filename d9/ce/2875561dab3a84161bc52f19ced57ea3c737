@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb に Method#bind_call を使っていたため古い ruby で動かなかったのを bind + call を使うように対応しています。
