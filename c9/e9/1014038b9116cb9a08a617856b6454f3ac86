@@ -1,0 +1,1 @@
+5fe8b5ca6963762c7e107b5ea463bb1c2ea5a415 および d43737d2a8a66c4eaae5035695ee585ef8dc452c の続きで拡張ライブラリ coverage の method coverage の計測時にもキーの hash 値計算の負荷を避けるため内部構造を変更しています。 [ruby-core:126431] [Bug #22250]
