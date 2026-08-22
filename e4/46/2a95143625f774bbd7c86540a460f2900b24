@@ -1,0 +1,1 @@
+Ractor::Port の受信 queue 内のデータが Ractor::Port 自体が GC で回収されても回収されず、Port がなくなっているので受信されないため残り続けるという問題の対策のため、ractor_port_mark() で Ractor::Port の死活監視をして queue 用のテーブルの解放処理を別途実装しています。
