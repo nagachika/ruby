@@ -1,0 +1,1 @@
+構造体 struct rb_iseq_constant_body から has_source_hash メンバーを削除して source_hash が 0 の時に未設定という判定にするようにして構造体サイズを縮小しています。
