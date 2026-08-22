@@ -1,0 +1,1 @@
+bundler に vendoring されている connection_pool.gem のバージョンを更新しています。
