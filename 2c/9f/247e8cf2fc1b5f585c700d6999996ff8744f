@@ -1,0 +1,1 @@
+bundler から net-http-persistent への依存を消して Gem::Request を利用するようにしています。
