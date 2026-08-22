@@ -1,0 +1,1 @@
+拡張ライブラリ psych の parse 時に protected_event_location() 関数内での例外が握り潰される場合があったのを修正しています。
