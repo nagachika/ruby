@@ -1,0 +1,1 @@
+bundler から vendoring していた net-http-persistent および connection_pool を削除しています。 2c9f247e8cf2fc1b5f585c700d6999996ff8744f の対応で不要になったようです。
