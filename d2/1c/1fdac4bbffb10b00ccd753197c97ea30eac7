@@ -1,0 +1,1 @@
+bundler のテストで skip 時に不要な after での復旧処理が走って Gem::Request::ConnectionPools の状態を壊してしまっていたのを修正しています。
