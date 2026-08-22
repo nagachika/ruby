@@ -1,0 +1,1 @@
+5fe8b5ca6963762c7e107b5ea463bb1c2ea5a415 の続きで拡張ライブラリ coverage の branch coverage の計測時にキーの hash 値計算が高負荷になっていたので key を freeze するようにして Hash のテンプレートを作成し、これを複製して利用することで hash 計算結果がキャッシュされるように? しています。 [ruby-core:126431] [Bug #22250]
