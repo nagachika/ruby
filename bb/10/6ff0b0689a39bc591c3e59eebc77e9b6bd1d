@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap のテストを追加しています。 [ruby-core:126434] [Bug #22251]
