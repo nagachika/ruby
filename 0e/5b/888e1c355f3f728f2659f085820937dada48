@@ -1,0 +1,1 @@
+File.atime, File#atime, File::Stat#atime の rdoc 用コメントの主にサンプルコードを変更しています。 https://github.com/ruby/ruby/pull/18346
