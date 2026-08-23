@@ -1,0 +1,1 @@
+Process::Status オブジェクトの T_TYPEDDATA の型を指定する rb_data_type_t::flags のビットフラグに RUBY_TYPED_FROZEN_SHAREABLE を追加して、インスタンスが Ractor shareable になるようにしています。
