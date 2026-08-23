@@ -1,0 +1,1 @@
+GitHub Actions の ZJIT を有効化する workflows で Rust のバックトレース表示のため環境変数 RUST_BACKTRACE および ZJIT_RB_BUG を全体で設定しています。 https://github.com/ruby/ruby/pull/18412
