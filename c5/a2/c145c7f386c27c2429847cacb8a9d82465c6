@@ -1,0 +1,1 @@
+IO::Buffer に #lock, #unlock, #new_locked, #free_locked というメソッド群を追加して、共有ロック方式にしています。構造体 struct rb_io_buffer に lock_count メンバーを追加し、slice で生成された IO::Buffer から共有ロックを介してバッファアクセスするようにしています。なるほど直前の 81cefb5c9d5523c542a3e31c79e6e1ecc6dd417b で slice 時に常に IO::Buffer を source にしたのはこの変更を意味あるものにするためだったのですね。 https://github.com/ruby/ruby/pull/18429
