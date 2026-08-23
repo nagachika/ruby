@@ -1,0 +1,1 @@
+IO::Buffer#slice で新たな IO::Buffer オブジェクトを作る時に、String オブジェクトをバッファとする IO::Buffer の時は同じ String オブジェクトを source として参照していましたが、receiver の IO::Buffer を source にするようにしています。これにより receiver の IO::Buffer の解放に伴ない slice された IO::Buffer のバッファへのアクセスは invalid になるようになったみたいですが、これなぜだろう。確かに一貫性としてはいい気がしますが元の挙動も便利な気もします。 https://github.com/ruby/ruby/pull/18430
