@@ -1,0 +1,1 @@
+IO::Buffer#resize に 0 を渡すと mremap(3) に不正な引数を渡してしまっていたのでバッファを解放して早期 return するように修正しています。 https://github.com/ruby/ruby/pull/18432 [ruby-core:126326] [Bug #22234]
