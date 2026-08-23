@@ -1,0 +1,1 @@
+io_buffer.c の IO::Buffer#readonly? を定義する関数の関数名などを慣習にあわせて改名し整理しています。 https://github.com/ruby/ruby/pull/18431
