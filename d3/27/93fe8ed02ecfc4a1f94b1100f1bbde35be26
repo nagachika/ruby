@@ -1,0 +1,1 @@
+Ractor.select や Ractor::Port#receive にキーワード引数 timeout を追加して、オブジェクト受信待ちにタイムアウトをかけることができるようにしています。
