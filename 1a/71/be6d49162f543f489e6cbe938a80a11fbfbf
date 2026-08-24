@@ -1,0 +1,1 @@
+M:N Thread で native thread のカウンタの操作を ractor_sched_lock() でロックによる排他を行なっていたのを ATOMIC CAS 操作でロックフリーにしています。
