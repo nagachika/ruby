@@ -1,0 +1,1 @@
+M:N Thread 利用時に timer thread が IO 待ちの Thread を起こす処理に race condition があり rb_thread_t::ractor の NULL 参照で異常終了する可能性があった不具合を修正しています。 e1bce29aac8926ae4c1dfedd914ebe8e04e5cd7b で Ractor 終了時の 1秒の待ちを解消する変更により顕在化したみたいです。修正方法はちょっと複雑で condition variable を追加して timer thread が複数の Thread を起こしおわるまでこの条件変数でバリアさせるようにしています。
