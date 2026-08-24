@@ -1,0 +1,1 @@
+IO::Buffer の実装の io_buffer_free() から io_buffer_zero() というユーティリティ関数を使うようにリファクタリングしています。 https://github.com/ruby/ruby/pull/18443
