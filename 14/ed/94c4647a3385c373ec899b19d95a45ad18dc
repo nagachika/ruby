@@ -1,0 +1,1 @@
+vm_core.h から不要になった preprocessor 分岐を削除しています。
