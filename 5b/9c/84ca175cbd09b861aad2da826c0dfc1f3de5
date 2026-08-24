@@ -1,0 +1,1 @@
+Kernel#fork で子プロセスを起動した時に Ractor は 1つになりますが、object space は zombie 状態で残っているのにそれも存在しないものと判定されてしまい mark 漏れが発生する可能性があったのを修正しています。 rb_gc_single_objspace_p() 関数で ruby_single_main_ractor() だけでなく vm->gc.zombie_objspaces_count などのチェックを追加しています。
