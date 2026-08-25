@@ -1,0 +1,1 @@
+IO::Buffer#valid? の rdoc 用コメントの説明を slice についての解説を中心に書き直しています。 https://github.com/ruby/ruby/pull/18469
