@@ -1,0 +1,1 @@
+rubygems で正規表現のかわりに String#delete_prefix を利用する最適化。
