@@ -1,0 +1,1 @@
+IO::Buffer で各種メソッドの操作で size=0 の時に不正なアドレス参照をしてしまう可能性があったのでチェックを強化しています。 https://github.com/ruby/ruby/pull/18465
