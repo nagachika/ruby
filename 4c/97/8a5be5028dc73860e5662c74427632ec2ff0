@@ -1,0 +1,1 @@
+IO::Buffer#valid? の実装でサイズ 0 の slice を valid と判定するように変更しています。 https://github.com/ruby/ruby/pull/18461
