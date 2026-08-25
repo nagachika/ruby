@@ -1,0 +1,1 @@
+プロセス起動時に初期化処理が終わったことを VM に伝える Process.warmup で最後に Object Space の heap の allocatable_bytes をリセットしてあまりに大きなサイズが保持されて GC の間隔があくのを防ぐようにしています。
