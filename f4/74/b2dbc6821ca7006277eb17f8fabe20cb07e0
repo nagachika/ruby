@@ -1,0 +1,1 @@
+bundler の bundle outdated で gem のバージョン解決の memo 化による最適化。
