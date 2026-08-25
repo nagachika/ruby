@@ -1,0 +1,1 @@
+struct rb_block および rb_proc_t 構造体の enum 型メンバーのかわりに bit field を利用し、さらに rb_proc_t を Proc のタイプ別の共用体として宣言することで Proc オブジェクトの実装の構造体サイズを削減しています。
