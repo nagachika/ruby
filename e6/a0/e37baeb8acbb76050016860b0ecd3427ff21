@@ -1,0 +1,1 @@
+rubygems および bundler で created_at の日時の文字列にオフセットがない時にローカル時刻として解釈されていたのを UTC で解釈するように修正しています。 cooldown の判定の修正のため。
