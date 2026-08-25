@@ -1,0 +1,1 @@
+IO::Buffer#slice で作った slice の IO::Buffer に対して IO::Buffer#resize を呼んだ時に複製をせずにサイズの調節のみするようにしています。 https://github.com/ruby/ruby/pull/18446
