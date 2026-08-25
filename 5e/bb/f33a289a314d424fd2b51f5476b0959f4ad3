@@ -1,0 +1,1 @@
+IO::Buffer#free や IO::Buffer#resize などのメソッドで freeze された receiver の時に FrozenError 例外を発生させるようにしています。 https://github.com/ruby/ruby/pull/18473 [ruby-core:126200] [Bug #22219]
