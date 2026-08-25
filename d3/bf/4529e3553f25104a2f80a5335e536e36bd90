@@ -1,0 +1,1 @@
+IO::Buffer.new や IO::Buffer.map の引数のビットフラグで競合するビットを同時に指定するなどの不正な値が渡れたら例外を発生させるようにチェックを強化しています。 https://github.com/ruby/ruby/pull/18470 [ruby-core:123724] [Bug #21672]
