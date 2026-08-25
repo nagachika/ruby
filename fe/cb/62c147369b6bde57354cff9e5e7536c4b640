@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb による onigmo の upstream からの同期時のスキップファイルに encoding.c を追加しています。
