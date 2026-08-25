@@ -1,0 +1,1 @@
+hash.c の hash_alloc_capa() から st_table の初期化を呼ぶ処理を hash_init_capa() という別の関数に分離して、Hash#dup などの複製時には st_table の再初期化は呼ばないようにしています。重複した初期化でメモリリークしていたのを修正しているみたいです。
