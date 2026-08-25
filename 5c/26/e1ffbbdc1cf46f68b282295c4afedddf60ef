@@ -1,0 +1,1 @@
+bundler の bundle outdated で都度 Time.now していたのを 1回取得した時刻を使い回すようにしています。
