@@ -1,0 +1,1 @@
+bundler の cooldown の設定値を Kernel#Integer() で不正な値の指定を警告を出力するようにしています。
