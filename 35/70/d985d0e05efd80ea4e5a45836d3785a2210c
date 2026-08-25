@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow でコンパイル失敗時にソースツリーを保存するように? してすぐ再実行できるようにしています。
