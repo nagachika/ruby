@@ -1,0 +1,1 @@
+ae04a9d9beefe4c72ea6c084ec9ee6a09207be65 の追加修正で bundler のファイルパス操作に古い rubygems を使うのを防ぐため bundler 内にヘルパーメソッドを持つようにしています。
