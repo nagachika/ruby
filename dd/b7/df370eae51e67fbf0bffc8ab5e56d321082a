@@ -1,0 +1,1 @@
+GitHub Actions の compilers workflow で大量のジョブがあるので実行順序やグルーピングを調節して全体の時間を短縮するようにしています。
