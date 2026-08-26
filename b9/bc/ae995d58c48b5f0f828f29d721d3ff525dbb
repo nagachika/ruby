@@ -1,0 +1,1 @@
+IO::Buffer#resize で readonly? のフラグが消えてしまっていた不具合を修正しています。 https://github.com/ruby/ruby/pull/18487
