@@ -1,0 +1,1 @@
+rubygems の gem update --system で表示する変更内容を CHANGELOG.md からではなくリリースノートから取得するようにしています。 CHANGELOG.md だと長くて詳細すぎるため。 https://github.com/ruby/rubygems/pull/9789
