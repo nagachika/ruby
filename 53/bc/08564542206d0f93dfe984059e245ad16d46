@@ -1,0 +1,1 @@
+IO::Buffer.map の offset キーワード引数はファイルの内容をメモリに mmap する時にアライメントの制約があり、不正な値が指定されても素通りしていたのでチェックして ArgumentError を発生させるようにしています。 https://github.com/ruby/ruby/pull/18474 [ruby-core:123871] [Feature #21700]
