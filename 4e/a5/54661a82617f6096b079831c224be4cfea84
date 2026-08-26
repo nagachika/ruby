@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv でタイムアウト発生時に Resolv::DNS::Requester を requester pool に返却してしまうとレスポンスが混ざる可能性があるので廃棄するようにしています。
