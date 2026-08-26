@@ -1,0 +1,1 @@
+46c287e2ca39da63d5164e2b7227308a41554c9a からの続きで array.c の rb_ary_splice() を ary_splice() と改名して、rb_ary_splice() は挿入する配列を指定する引数を C の配列で渡すのでなく Array オブジェクトの VALUE を渡す形式にしています。 [ruby-core:126480] [Bug #22259]
