@@ -1,0 +1,1 @@
+gems/bundled_gems の rbs のバージョンを 4.2.0 に更新し、同時に typeprof のテストに使う commit hash の指定を追加しています。また tool/rbs_skip_tests に skip 指定を追加しています。
