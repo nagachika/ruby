@@ -1,0 +1,1 @@
+ISeq の構造体のメンバーアクセスのための inline 関数 ISEQ_BODY_VARIABLE()、ISEQ_BODY_VARIABLE_SCRIPT_LINES()、ISEQ_BODY_VARIABLE_COVERAGE() などなどを追加するリファクタリング。
