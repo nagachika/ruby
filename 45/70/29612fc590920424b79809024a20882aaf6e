@@ -1,0 +1,1 @@
+hash.c の hash_alloc_capa() を hash_alloc() に、rb_hash_alloc_copy() を hash_alloc_capa() に、hash_alloc() を rb_hash_alloc_copy() にそれぞれ改名しています。
