@@ -1,0 +1,1 @@
+IO::Buffer の #read, #write, #pread, #pwrite などのメソッド群の引数を read(io, offset, length) のように offset を先に変更しています。そして length で指定したサイズまで読み書きするまでループしていたのを 1回のシステムコールで行なわれた読み書きで結果を返し、length で指定したサイズ以下の読み書きで return する可能性があるようにメソッドの仕様を変更しています。これにあわせて non-blocking Fiber 用の scheduler の仕様も変更しています。 https://github.com/ruby/ruby/pull/18483
