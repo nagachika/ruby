@@ -1,0 +1,1 @@
+753ace46feb620bce2716fddee92ebec73f1bfa1 からの続きで IO::Buffer を C API 経由で利用する時に IO::Buffer のインスタンスを渡した時にバッファのロックの抜けがあったのを修正しているようです。 https://github.com/ruby/ruby/pull/18490
