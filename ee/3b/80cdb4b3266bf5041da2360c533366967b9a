@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol の Net::BufferedIO#readuntil メソッドにキーワード引数 limit を追加して 1度のメソッド呼び出しで読み込み続けるサイズに上限を設けて、これを越えたら例外 Net::ReadLimitExceeded を発生させるようにしています。
