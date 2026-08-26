@@ -1,0 +1,1 @@
+ZJIT の Rust 実装で HashMap の作成時に capacity を指定して作る小さな最適化。 https://github.com/ruby/ruby/pull/18411
