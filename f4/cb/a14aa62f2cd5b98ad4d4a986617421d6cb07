@@ -1,0 +1,1 @@
+rubygems の Gem::Util::AtomicFileWriter で一時ファイルのファイル名のサイズ上限を考慮するようにしています。
