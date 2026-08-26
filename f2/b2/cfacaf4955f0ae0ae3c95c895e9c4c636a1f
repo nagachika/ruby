@@ -1,0 +1,1 @@
+rubygems の Gem::Util::AtomicFileWriter で一時ファイルへの出力が flush される前に rename(2) でファイル置換される可能性があったのを修正しています。
