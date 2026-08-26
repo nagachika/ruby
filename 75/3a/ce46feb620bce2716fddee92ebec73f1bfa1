@@ -1,0 +1,1 @@
+IO::Buffer#copy や #initialize_copy でバッファの内容のコピー時に GVL を解放して別 Thread が動くことでコピー対象のバッファが解放されて異常終了になる可能性があったので、コピー時にコピー元と先のそれぞれをロックするようにしています。このロック状態の取得のため IO::Buffer.locked_for_reading や IO::Buffer.locked_for_writing などのクラスメソッドも追加しています。 https://github.com/ruby/ruby/pull/18489
