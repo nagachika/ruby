@@ -1,0 +1,1 @@
+YJIT の case 文の最適化できる分岐数の上限を 63 から 256 に引き上げています。 https://github.com/ruby/ruby/pull/18374
