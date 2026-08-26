@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ParserError という例外クラスに #json_path メソッドを新規追加して ParseError の発生箇所を jq で指定するような path の表記で返せるようにしています。 https://github.com/ruby/json/pull/1062
