@@ -1,0 +1,1 @@
+85220035ca470284e11cd4627375c5a1ba5e13ed で追加した関数 rb_ident_set_new() を利用して Array#flatten の内部実装で ident hash のかわりに set を利用するようにしています。
