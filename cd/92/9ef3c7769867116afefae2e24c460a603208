@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 向け workflow で ubuntu-26.04-arm でのテストをコメントアウトしていたのを復帰させています。
