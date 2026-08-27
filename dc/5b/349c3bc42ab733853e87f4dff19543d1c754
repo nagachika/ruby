@@ -1,0 +1,1 @@
+rubygems でも Ruby::Box 対応をしています。 Marshal.load が使えない? ので Gem::Util.deep_dup で代替しています。
