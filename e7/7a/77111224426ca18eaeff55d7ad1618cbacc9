@@ -1,0 +1,1 @@
+GC の default 実装の mark_roots() 関数で引数の objspace を VALUE 型としてローカル変数に格納しておいて RB_GC_GUARD() で参照が消えるのを防いでいます。けど rb_objspace_t* を VALUE にキャストしておいて意味があるのかな。 [ruby-core:126493] [Bug #22261]
