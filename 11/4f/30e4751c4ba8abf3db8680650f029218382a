@@ -1,0 +1,1 @@
+rubygems の compact_index_client で HTTP のリダイレクト時に https から http へのリダイレクトをエラーにするようにしています。
