@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::BN が Marshal.dump に対応していなかったので marshal_load/marshal_dump メソッド定義を追加して対応しています。
