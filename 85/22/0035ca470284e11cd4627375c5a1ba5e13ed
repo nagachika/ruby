@@ -1,0 +1,1 @@
+set.c に Set の内部的な関数 rb_ident_set_new() を追加するリファクタリング。
