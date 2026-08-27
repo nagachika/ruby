@@ -1,0 +1,1 @@
+bundler の Bundler::Settings の rubygems の credential store 対応を実装しています。
