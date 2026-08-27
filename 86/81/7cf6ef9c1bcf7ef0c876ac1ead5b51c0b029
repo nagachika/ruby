@@ -1,0 +1,1 @@
+37f38a3702a2d6ba9db8a0e0cf32ca4ddd0bf548 で追加した RUBY_BOX=1 指定時の rubygems のテストを Windows 環境では skip するようにしています。
