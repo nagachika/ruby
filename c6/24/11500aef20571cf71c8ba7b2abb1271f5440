@@ -1,0 +1,1 @@
+bundler で Bundler::Source::Git#to_s でメッセージ出力のためブランチ名を得る時に git の fetch が行なわれる可能性があったのを抑制するように最適化しています。
