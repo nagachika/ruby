@@ -1,0 +1,1 @@
+Hash の実装を ar_table で配列ベースにする時の要素数の上限を定数マクロにしていたのを RHASH_AR_TABLE_MAX_BOUND() という inline 関数で取得するようにしています。まだ結局定数を return しているだけですか Variable Width Allocation による拡張 slot で埋め込みできる数を可変にする布石でしょうかね。
