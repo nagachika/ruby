@@ -1,0 +1,1 @@
+bundler の Ruby::Box 対応。gemspec ファイルの eval のために Binding を得る方法を Box 利用時に Ruby::Box.current を使うようにしています。
