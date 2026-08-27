@@ -1,0 +1,1 @@
+a5338c320a4f4106144847f9a2af767a09f79c91 での ractor_sync.c の clobbered 警告抑制のために関数を切り出した時の NOINLINE() 宣言の追加の preprocessor 条件を再修正しています。
