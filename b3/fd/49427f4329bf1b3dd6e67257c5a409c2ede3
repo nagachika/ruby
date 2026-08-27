@@ -1,0 +1,1 @@
+rubygems の compact_index_client でソケット通信などの SocketError や SystemCallError (Errno::EXXX) が発生するのに rescue 対象として Gem::RemoteFetcher::FetchError しか捕捉していなかったので、低レベルの例外を捕捉して Gem::RemoteFetcher::FetchError で wrap して raise しなおす rescue を追加しています。
