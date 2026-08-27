@@ -1,0 +1,1 @@
+ractor_sync.c の EC_EXEC_TAG()/EC_POP_TAG() 利用箇所の clobbered error の警告抑制のためこの間の処理を関数に切り出しています。
