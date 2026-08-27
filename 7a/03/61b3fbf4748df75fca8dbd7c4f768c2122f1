@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で fiddle のテストのテストメソッドを skip する指定の条件に ZJIT 利用時に加えて parse.y 利用時という条件も追加しています。
