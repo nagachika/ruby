@@ -1,0 +1,1 @@
+rubygems で gem signout した時に credential 情報の参照をリセットするようにしています。
