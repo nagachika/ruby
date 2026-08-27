@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http で content-length ヘッダのチェックを厳密にして不正な値や複数のヘッダがあった時に同一の値でない時などを例外にするようにしています。 https://github.com/ruby/net-http/pull/324
