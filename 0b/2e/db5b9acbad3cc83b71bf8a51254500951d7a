@@ -1,0 +1,1 @@
+Hash の Hash#compare_by_identity により key を同一性で判定する ident hash を作ると常に st_table 実装になっていて小さくても配列ベースの ar_table にはならなかったのですが、ident hashも ar_table 実装にできるようにしています。
