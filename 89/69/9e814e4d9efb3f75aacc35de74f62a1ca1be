@@ -1,0 +1,1 @@
+hash.c の hash_dup_capa() で st_table 実装の時の中身のクリアが漏れていたのを修正しています。
