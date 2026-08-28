@@ -1,0 +1,1 @@
+47aa05a71e745361b97ab09b29bbfce651e6a4ed の bundler への prune 設定追加の再修正。 bundler の gem 再ダウンロード処理が不要なところまで影響していた? のを修正しているようです。
