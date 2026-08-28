@@ -1,0 +1,1 @@
+Hash の要素数の少ない時の ar_table 実装で hash 値の下位 1byte のキャッシュで高速な探索をしてた実装でキーがクリアされている時の RHASH_AR_CLEARED_HINT にたまたま一致した時のロスを防ぐため、このキャッシュに登録する時に RHASH_AR_CLEARED_HINT と一致していたら値をずらして RHASH_AR_CLEARED_HINT で登録しておき、キャッシュ参照が RHASH_AR_CLEARED_HINT だったら常にクリアされた要素だと判定できるようにしています。キャッシュがアンバランスになるわけですけど hint を元にして値を取得した後の UNDEF_P() のほうが高コスト? という判断でしょうか。
