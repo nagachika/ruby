@@ -1,0 +1,1 @@
+ISeq の struct rb_callcaceh の GC.compact による移動の処理の最適化/リファクタリング。 b657d906ad0d38b2015955b69f5711588801bc7a で一度入ったけど revert されていたものです。 これも同じく f95e71cc1e2a082393d58db1eb6f57b09694f8cb の修正で再適用できるようになったのかも。
