@@ -1,0 +1,1 @@
+Windows では Ruby::Box で拡張ライブラリの分離のために DLL をコピーしていたのを FreeLibrary() API で解放する処理が不正メモリアクセスを起こしていたのを解放処理を ruby_vm_destruct() まで遅らせて修正しています。
