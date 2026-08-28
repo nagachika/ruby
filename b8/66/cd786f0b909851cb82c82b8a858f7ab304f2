@@ -1,0 +1,1 @@
+47aa05a71e745361b97ab09b29bbfce651e6a4ed の bundler への prune 設定追加の再修正。 bundle cache の実装が install サブコマンド相当の実行後に gem のコピーを行なうため prune 設定があるとコピーすべき gem ファイルが消えてしまうので削除タイミングを調節しています。
