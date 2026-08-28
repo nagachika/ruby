@@ -1,0 +1,1 @@
+47aa05a71e745361b97ab09b29bbfce651e6a4ed の bundler への prune 設定追加の再修正。 cache からなくなった gem の再ダウンロードが自動的に行なわれるようにしています。
