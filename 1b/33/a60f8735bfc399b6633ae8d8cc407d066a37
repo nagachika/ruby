@@ -1,0 +1,1 @@
+bundler の設定の no_prune という既存の設定名がまぎらわしいので keep_outdated_cache に改名しています。
