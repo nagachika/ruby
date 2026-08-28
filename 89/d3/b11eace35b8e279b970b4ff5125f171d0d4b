@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext の GC.compact 対応が不完全で ALPN および NPN のコールバック用に保持されていた参照が更新されていなかったのを修正しています。 そもそもコピーを保持せず毎回 SSL_get_SSL_CTX() で唯一の参照元からとってくるようにしています。
