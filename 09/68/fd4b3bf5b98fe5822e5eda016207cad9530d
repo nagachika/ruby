@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler の契約として #fiber_interrupt メソッドは必須として respond_to? でのチェックは削除しています。 https://github.com/ruby/ruby/pull/18513
