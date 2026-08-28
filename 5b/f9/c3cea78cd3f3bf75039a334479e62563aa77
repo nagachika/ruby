@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の Resolv::DNS の label や name のサイズ超過時に発生させる例外を ArgumentError から ResolvError に変更して resolv のメソッド内から呼ばれる時に例外が捕捉されるようにしています。
