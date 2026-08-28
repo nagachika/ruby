@@ -1,0 +1,1 @@
+bundler の bundle install や bundle update のあとにダウンロードした gem のキャッシュなどを削除する処理を設定(prune)できるようにしています。
