@@ -1,0 +1,1 @@
+YJIT と ZJIT が同時に有効化されることはないので、構造体 struct rb_iseq_constant_body に yjit_payload と zjit_payload という 2つのポインタのメンバーを持ってたのはどちらかしか使われなくて無駄だったので jit_payload という 1つのメンバーに統合して構造体サイズを削減しています。
