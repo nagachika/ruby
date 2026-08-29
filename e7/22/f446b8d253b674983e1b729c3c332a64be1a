@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の depend ファイルで .list ファイルから .inc ファイルへの変換に extract-vk.rb スクリプトを利用するようにしています。このため win32_vk.inc の依存関係に extract-vk.rb を追加しています。
