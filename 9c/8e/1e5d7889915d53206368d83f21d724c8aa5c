@@ -1,0 +1,1 @@
+7c3a23a0399b6aad4f97e1c88f522bae41910f03 の bundler の変更に伴ない rubygems の設定の credential_store の on/off 対応について bundler と異なっていることをコメントに注記しています。
