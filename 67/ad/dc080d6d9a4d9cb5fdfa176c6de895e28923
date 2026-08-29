@@ -1,0 +1,1 @@
+b414f2825d1a5f83c52d2b2e416fb65629cd844d の続きで標準添付ライブラリ mkmf 内の mkmf/depend.rb で生成された依存関係の重複を削除する処理をやめています。 tool/sync_default_gems.rb で depend ファイルを upstream から同期した時に depend ファイルの内容が変化して相互の同期ができるようにするためみたいです。 [ruby-core:126138] [Misc #22206]
