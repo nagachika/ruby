@@ -1,0 +1,1 @@
+bundler の credential_store 設定が off という文字列を false として読み込む独自の仕様が入っていたので共通の仕様にそろえています。
