@@ -1,0 +1,1 @@
+拡張ライブラリ date の extconf.rb でビルド時の警告抑制のため -Wno-default-const-init-field-unsafe というオプションの指定を試すようにしています。 [Bug #21629]
