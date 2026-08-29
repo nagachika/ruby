@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で upstream に depend ファイルがあったらそれも同期して mkmf/depend を利用して変換して取り込むようにしています。 [ruby-core:126138] [Misc #22206]
