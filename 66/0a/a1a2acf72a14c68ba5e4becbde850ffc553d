@@ -1,0 +1,1 @@
+rubygems の lockfile の読み込みで Bundler::LockfileParser が書き出したファイルを復旧する処理がエラー時に誤った復旧で逆にファイルを壊してしまうのを修正しています。
