@@ -1,0 +1,1 @@
+rubygems の定数 Gem::CREDENTIAL_STORE_ON および Gem::CREDENTIAL_STORE_OFF を private_constant で private な定数にしています。
