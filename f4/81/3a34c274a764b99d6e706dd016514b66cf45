@@ -1,0 +1,1 @@
+VM 命令へのコンパイル時に VM 値スタックの上2つを入れ替える swap 命令でその前の命令 2つを入れ替えても副作用がないケース(putnil や putobject、putself などの INDEPENDENT_INSN とされた一部の命令だけの時)は命令を入れ替えて swap 命令を削る peephole 最適化を追加しています。
