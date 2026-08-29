@@ -1,0 +1,1 @@
+rubygems で gem install -g で lockfile の PLUGIN SOURCE セクションがあると plugin を実行してしまうので、余計な処理を実行しないため plugin 読み込みを抑制するようにしています。
