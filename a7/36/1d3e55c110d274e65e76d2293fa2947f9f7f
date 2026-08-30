@@ -1,0 +1,1 @@
+File.chmod と Pathname#chmod の rdoc 用コメントを手直しして doc/file/filesystem_modes.md へのリンクを追加しています。
