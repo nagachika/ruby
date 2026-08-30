@@ -1,0 +1,1 @@
+構造体 rb_iseq_location_t から base_label メンバーを削除して、都度同じ構造体の label もしくは local_iseq の location の label に解決するようにして構造体サイズを削減しています。
