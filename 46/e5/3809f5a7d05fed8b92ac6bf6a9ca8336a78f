@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date および DateTime オブジェクトを Variable Width Allocation による拡張 slot へ埋め込む方式にして GC.compact 対応と Ractor shareable 対応をしています。
