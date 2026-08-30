@@ -1,0 +1,1 @@
+M:N Thread 有効化時の Thread の scheduler 実装を POSIX 版と Windows 版で共有するようにしているようです。
