@@ -1,0 +1,1 @@
+depend ファイルにて .deps/depend の依存関係に $(REVISION_H) を追加しています。
