@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence.compile および compile_file のキーワード引数の coverage_enabled が false を渡しても無視されて常に coverage 収集されるようになっていた不具合を修正しています。そして拡張ライブラリ coverage で Coverage.line_stub 内で  RubyVM::InstructionSequence.compile_file を利用しているため coverage 情報が上書きされていたので、有効になった coverage_enabled: false を渡すようにしています。 [ruby-core:126513] [Bug #22269]
