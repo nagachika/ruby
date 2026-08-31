@@ -1,0 +1,1 @@
+M:N Thread 有効化時の scheduler で epoll(2) システムコールのために fd を登録/削除する epoll_ctl(2) の呼び出しが繰り返されているのが非効率だったので、epoll() の引数 epoll_events の events ビットフラグに EPOLLONESHOT というフラグを指定するようにして、一度セットした fd はイベントが発火するまで保持したままになるようにすることで epoll_ctl() の呼び出しを減らす最適化。
