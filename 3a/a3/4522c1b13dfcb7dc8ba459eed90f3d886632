@@ -1,0 +1,1 @@
+標準添付ライブラリ timeout の gemspec ファイルの spec.files を作る時に gemspec 自身を除去する時に File.basename をつかってすりぬけないようにしています。とはいえこれ timeout.gemspec ファイルがリポジトリのトップレベルにあることを前提にしているので ruby 本体に同期した状態だとすりぬけてしまいますけどね。
