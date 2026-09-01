@@ -1,0 +1,1 @@
+bundler のテストで Rust 製拡張ライブラリのテスト時に古い ruby で rtypeddata.h がない時に skip するようにしています。
