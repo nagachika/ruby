@@ -1,0 +1,1 @@
+transcode.c の rb_econv_insert_output() で realloc 時のサイズ計算でポインタへのポインタからサイズを得る時に誤って dereference せずにポインタ演算してしまっていたため異常なサイズを渡してしまっていた不具合を修正しています。
