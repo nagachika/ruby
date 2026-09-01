@@ -1,0 +1,1 @@
+Ruby::Box 有効化時の Kernel#autoload による自動 require で Ruby::Box#require を呼んでいたため rubygems などが再定義している require の処理が行なわれないためエラーになる場合があったのを修正しています。
