@@ -1,0 +1,1 @@
+rubygems および bundler のテストで使う simplecov のバージョンの依存を 1.1 以降に更新しています。
