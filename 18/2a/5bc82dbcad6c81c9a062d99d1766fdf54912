@@ -1,0 +1,1 @@
+OpenSSL::SSL::SSLServer の rdoc 用コメントにこのクラスの利用は deprecated としています。なんと。 TCPServer で接続を受け付けてから OpenSSL::SSL::SSLSocket で wrap する使いかたが推奨されています。
