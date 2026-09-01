@@ -1,0 +1,1 @@
+.gitignore の coverage/ 以下の指定を simplecov のバージョン更新に伴なって変更しています。
