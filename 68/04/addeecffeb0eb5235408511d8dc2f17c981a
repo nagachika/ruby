@@ -1,0 +1,1 @@
+transcode.c の transcode_loop() 内で一時的に生成するオブジェクトのコンパイラ最適化による GC の mark 漏れを修正するため RB_GC_GUARD() での保護を追加しています。
