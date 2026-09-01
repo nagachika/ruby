@@ -1,0 +1,1 @@
+Ruby::Box 利用時の Module#prepend によるモジュールが Module#ancestors で意図した順序にならない不具合を修正しています。
