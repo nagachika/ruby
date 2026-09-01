@@ -1,0 +1,1 @@
+rubygems のテスト test_gem_rdoc.rb の先頭で Gem::RDoc.load_rdoc しておくことで autoload による? 遅延 require のエラーを抑制しています。
