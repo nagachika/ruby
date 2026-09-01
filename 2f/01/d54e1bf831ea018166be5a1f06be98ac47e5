@@ -1,0 +1,1 @@
+rubygems と bundler のテストで simplecov の deprecated になったメソッドを代替メソッドに置き換えています。
