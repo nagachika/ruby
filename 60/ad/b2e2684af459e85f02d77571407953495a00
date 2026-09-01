@@ -1,0 +1,1 @@
+common.mk の make update-coverage で gem install する simplecov のバージョンの依存 1.1 以上を明示するようにしています。また
