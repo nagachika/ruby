@@ -1,0 +1,1 @@
+YJIT および ZJIT で d571f80b12a8725f1aee1613a9f1bd535697db02 の変更の jit_entry_calls のインクリメントする条件を rb_yjit_compiling_p および rb_zjit_compiling_p という変数に集約しています。ISeq ごとのカウンタの上限チェックから static なプロセス内で1つの変数での判定になるけどいいのかな。JIT 用メモリを使いきったらもう追加のコンパイルは行なわれないからということか。
