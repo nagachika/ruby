@@ -1,0 +1,1 @@
+ZJIT の統計情報で JIT-to-JIT で直接呼び出された時しかカウントしておらずインタプリタから呼ばれた時の計測が漏れていたのを修正しています。 https://github.com/ruby/ruby/pull/18564
