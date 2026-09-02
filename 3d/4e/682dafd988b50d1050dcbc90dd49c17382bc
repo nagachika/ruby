@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の Windows 向けのキーコードのテーブルを生成するための Makefile の依存関係を depend から win32_vk.mk というファイルに切り出して、extconf.rb で gperf コマンドが利用可能な時だけ利用するようにしています。
