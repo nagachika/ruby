@@ -1,0 +1,1 @@
+大域脱出用の VM 命令 thrown を ZJIT でサポートするようにしています。 https://github.com/ruby/ruby/pull/18541
