@@ -1,0 +1,1 @@
+File::Stat#executable? と Pathname#exacutable? の rdoc 用コメントにサンプルコードを追加しています。
