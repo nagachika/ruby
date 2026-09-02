@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#min_version, #max_version の rdoc 用コメントの英文の修正。
