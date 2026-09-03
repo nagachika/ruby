@@ -1,0 +1,1 @@
+rubygems で並列で gem ダウンロードしている時に書きかけの gem ファイルを読んでしまう不具合を Gem::AtomicFileWriter を利用して修正しています。
