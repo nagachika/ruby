@@ -1,0 +1,1 @@
+標準添付ライブラリ time の Time.rfc2822 の rdoc 用コメントのサンプルコードの typo 修正。 https://github.com/ruby/time/pull/76
