@@ -1,0 +1,1 @@
+ZJIT の VM 命令 thrown の対応のための関数 rb_zjit_throw() に NOERTURN() で attribute を追加しています。
