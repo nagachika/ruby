@@ -1,0 +1,1 @@
+bundler の bundle exec でカレントディレクトリつきのパス指定をしていると "./" が余分に追加されるのを抑制しています。 https://github.com/ruby/rubygems/issues/8930
