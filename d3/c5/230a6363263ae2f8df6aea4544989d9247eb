@@ -1,0 +1,1 @@
+rubygems のテストで GitHub Actions でのテスト? のため環境変数 GITHUB_ACTIONS を通常クリアするようにして、必要なテストでだけ明示的に設定するようにしています。
