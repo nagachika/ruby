@@ -1,0 +1,1 @@
+rubygems の deprecated にしていた Gem::BasicSpecification#datadir メソッドを削除しています。
