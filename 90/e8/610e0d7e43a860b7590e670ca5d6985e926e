@@ -1,0 +1,1 @@
+YJIT や ZJIT 用の ISeq の構造体のメンバー jit_entry_calls、jit_exception_calls などの型を unsigned long から unsigned int に変更して構造体サイズを減らしています。
