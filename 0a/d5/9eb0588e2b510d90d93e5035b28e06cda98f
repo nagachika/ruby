@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/security.rb の case 文の when 節の順序をかえるだけのリファクタリング。これなにか実効的な意味あるのかな?
