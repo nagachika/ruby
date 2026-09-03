@@ -1,0 +1,1 @@
+rubygems の古くて不正なバイト列を含む gemspec ファイルの対応を Gem::SafeYaml を利用するようにしています。
