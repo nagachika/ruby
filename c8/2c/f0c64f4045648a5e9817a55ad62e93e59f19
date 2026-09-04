@@ -1,0 +1,1 @@
+rubygems の compact_index_client の redirect 対応時に同一ドメインであれば認証情報を引き継ぐようにしています。
