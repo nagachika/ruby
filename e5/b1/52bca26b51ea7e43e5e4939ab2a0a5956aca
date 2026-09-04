@@ -1,0 +1,1 @@
+rubygems の Gem::AtomicFileWriter のファイル操作時に File.chown や File.chmod などのクラスメソッドより File#chown, File#chmod などのインスタンスメソッドを用いて、実際に開いているファイルを確実に操作するようにしています。ファイル削除or移動+再作成で実際に開いているファイルとファイルパスで指定したものが別ものになる可能性があるからですかね。
