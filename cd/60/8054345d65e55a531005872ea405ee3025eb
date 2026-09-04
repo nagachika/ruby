@@ -1,0 +1,1 @@
+rubygems の compact_index_client で HTTP ステータス 416 Range Not Satisfiable が帰ってきた時のリトライ時に If-None-Match ヘッダを削るようにしています。
