@@ -1,0 +1,1 @@
+bundler の gemspec ファイルから LICENSE-bundler.md と README-bundler.md というファイルは削ってかわりに MIT.txt を追加しています。
