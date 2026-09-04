@@ -1,0 +1,1 @@
+f791417e718460b84b46c3b8cba9a4158d5b308c の ZJIT の splat 引数の最適化の再修正。Rust の panic する恐れがあったようです。
