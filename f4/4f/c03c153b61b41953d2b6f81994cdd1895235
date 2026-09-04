@@ -1,0 +1,1 @@
+rubygems の compact_index_client で HTTP ステータス 204 No Content をエラー扱いにするよう修正しています。
