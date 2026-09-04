@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の Snapshot 命令があると control frame の省略を抑制していたので無視できるようにしています。
