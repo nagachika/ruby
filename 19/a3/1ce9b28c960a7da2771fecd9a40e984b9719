@@ -1,0 +1,1 @@
+bundler の git source の proxy の認証情報に credential_store を利用できるようにしています。
