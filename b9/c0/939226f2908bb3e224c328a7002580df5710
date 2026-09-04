@@ -1,0 +1,1 @@
+rubygems の Gem::AtomicFileWriter の 2ce8a2dc200ef88210aba9d995b865bc936852b5 の String#scrub! 利用を revert しています。String#scrub! は非互換な Encoding の文字列の時に? 例外を発生させる可能性があったため。
