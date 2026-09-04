@@ -1,0 +1,1 @@
+rubygems の Gem::AtomicFileWriter で Strinc#byteslice のかわりに String#scrub! を利用するようにしています。うーん、なんだろこれ?
