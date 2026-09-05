@@ -1,0 +1,1 @@
+win32/configure.bat の --without-ext 引数の configure_args 変数への追加が重複していたのを修正しています。
