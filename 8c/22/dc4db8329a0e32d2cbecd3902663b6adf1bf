@@ -1,0 +1,1 @@
+bundler の bundle config で rubygems 側の gemrc の cooldown 設定を認識するようにしています。
