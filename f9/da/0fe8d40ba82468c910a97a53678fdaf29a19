@@ -1,0 +1,1 @@
+bundler のテストのヘルパで ChangeLog 生成を修正。 rubygems と bundler で ChangeLog を共有するようにしているみたいです。
