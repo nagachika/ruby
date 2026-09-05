@@ -1,0 +1,1 @@
+ext/extmk.rb で exts.mk 再生成時に ldflags の値が消える問題を修正しています。
