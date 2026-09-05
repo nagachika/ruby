@@ -1,0 +1,1 @@
+doc/contributing/building_ruby.md に ef21bf4d7975f7d0f4ffb6b87ea47d17fdaca37f で追記した拡張ライブラリの静的リンク時の記述から GNU make 4 以降が必須という記述を削除しています。
