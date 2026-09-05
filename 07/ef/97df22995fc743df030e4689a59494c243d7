@@ -1,0 +1,1 @@
+Array#each の実装で要素ごとのループの中で rb_yield() を呼び出すことで rb_execution_context_t を毎回取得していたのでループの外で GET_EC() で取得してローカル変数に格納しておいて rb_ec_yield() を使う最適化。 https://github.com/ruby/ruby/pull/18610
