@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO.default_console_size で環境変数 LINES/COLUMNS で指定された数値が 0 や負の数の時にデフォルト値に fallback するように修正しています。
