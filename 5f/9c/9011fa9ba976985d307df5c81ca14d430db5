@@ -1,0 +1,1 @@
+bundler のテストで getconf という外部コマンドに依存していたところを Windows の時は環境変数 PATH を参照するようにして Windows 対応しています。
