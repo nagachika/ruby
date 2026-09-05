@@ -1,0 +1,1 @@
+rubyspec の拡張ライブラリ etc の Etc.getlogin のテストの Windows 版で環境変数 USER も考慮されることにテストを合わせています。
