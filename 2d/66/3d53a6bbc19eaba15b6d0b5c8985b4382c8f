@@ -1,0 +1,1 @@
+tool/runruby.rb で Windows 環境で環境変数 SSL_CERT_FILE による証明書ファイルの指定を変更できるようにしています。
