@@ -1,0 +1,1 @@
+rubygems のテスト用ヘルパーの setup で環境変数 BUNDLE_COOLDOWN をクリアするようにしています。
