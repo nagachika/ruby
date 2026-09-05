@@ -1,0 +1,1 @@
+NEWS に 522f6ea22744b8ae92a50cee26785ddd5b64b7e7 での String#tr の Hash 引数を受け付ける新規機能追加について追記しています。 [ruby-core:126356] [Feature #22238]
