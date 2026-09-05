@@ -1,0 +1,1 @@
+rubygems および bundler の cooldown 機能が競合していたのを修正しています。
