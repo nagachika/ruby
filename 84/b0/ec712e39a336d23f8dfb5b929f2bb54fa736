@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の extconf.rb で all: ターゲットを先頭に書くようにしています。
