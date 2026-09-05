@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストに io/console/size の明示的な require を追加しています。
