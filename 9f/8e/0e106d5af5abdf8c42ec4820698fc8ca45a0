@@ -1,0 +1,1 @@
+拡張ライブラリ io/console の IO#ttyname のテストで JRuby 向けの対応をしています。
