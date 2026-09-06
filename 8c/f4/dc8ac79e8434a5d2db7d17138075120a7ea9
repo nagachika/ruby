@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR を dump するオプション --zjit-dump-hir に引数を追加して標準出力ではなくファイルに直接出力できるようにしています。 https://github.com/ruby/ruby/pull/18604
