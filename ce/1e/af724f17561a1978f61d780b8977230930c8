@@ -1,0 +1,1 @@
+ZJIT の control frame を軽量化する JITFrame のアドレスを 32 bits の範囲に収まる位置に配置するようにしているようです。命令を作る時にサイズを小さくできるため。 mmap(3) でアドレスの範囲についてのヒントなんてできたんですね。 https://github.com/ruby/ruby/pull/18620
