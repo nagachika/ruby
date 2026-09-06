@@ -1,0 +1,1 @@
+string.c の tr_buffer_ensure_capa() で SIZED_REALLOC_N() マクロの結果を再代入していましたがマクロで代入も行なっていて冗長なので削除しています。
