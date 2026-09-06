@@ -1,0 +1,1 @@
+prism で論理演算子メソッドの連結の処理が非効率だったのを修正しています。 https://github.com/ruby/prism/pull/4221 [ruby-core:126573] [Bug #22294]
