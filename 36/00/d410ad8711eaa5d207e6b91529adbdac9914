@@ -1,0 +1,1 @@
+おそらく 45d586ad60ba807dbb8c5f17b0ac156095eb4fbf の時に修正した rb_classext_t::max_iv_count のインクリメントを Object と BasicObject で抑制して必要 slot サイズが増えるのを避ける変更に対応したテストを追加しています。 [ruby-core:126564] [Bug #22290]
