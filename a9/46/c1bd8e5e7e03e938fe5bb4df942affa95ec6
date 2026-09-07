@@ -1,0 +1,1 @@
+prism 利用時の parser で論理演算子 &&, || および and/or の値を得る関数で不要に子ノードを辿っていたのをやめています。 https://github.com/ruby/prism/pull/4221
