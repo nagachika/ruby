@@ -1,0 +1,1 @@
+File.lchmod と Pathname#lchmod の rdoc 用コメントにサポートされてない環境で発生する例外のクラスを Errno::ENOTSUP から NotImplementedError に修正しています。たぶん Windows 環境ですかね。
