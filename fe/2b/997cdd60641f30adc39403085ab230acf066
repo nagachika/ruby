@@ -1,0 +1,1 @@
+rubygems の gem install で拡張ライブラリのビルド時の mkmf.log や gem_make.out をインストール先に残さないようにしています。
