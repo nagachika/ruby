@@ -1,0 +1,1 @@
+rubygems の gem build に --ruby-abi X.Y オプションを追加し、特定の ruby バージョンの C API を対象にして拡張ライブラリをビルドできるようにしているようです。ここから一連の変更は rubygems で gem のバージョンを SHA ハッシュ値により特定の内容の gem を指定してインストールできるようにする content addressable gem 対応という変更のようです。
