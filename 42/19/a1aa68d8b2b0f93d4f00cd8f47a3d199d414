@@ -1,0 +1,1 @@
+拡張ライブラリ json で文字列内の不完全な surrogate pair の終端が無視されていたのを JSON::ParseError にするようにしています。
