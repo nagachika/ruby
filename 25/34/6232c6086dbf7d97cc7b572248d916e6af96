@@ -1,0 +1,1 @@
+rubygems の d5de6900450f1c9062f12b7ced6e92c3382c5110 からの一連の content addressasble gems 対応の続き。署名検証用の証明書のプラグイン対応を ABI 指定ごとに管理できるようにしているようです。
