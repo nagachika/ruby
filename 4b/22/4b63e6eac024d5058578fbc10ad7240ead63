@@ -1,0 +1,1 @@
+8c5fae1b42d8d14b6232eb8e9a026d8ebc9f97cd のさらに再々修正。 Ruby::Box の Symbol#to_proc による Proc 対応のリファクタリングと潜在的? stack consistency error の修正。
