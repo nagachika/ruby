@@ -1,0 +1,1 @@
+rubygems の fe2b997cdd60641f30adc39403085ab230acf066 のビルドログをインストール先に置かなくした変更の再修正。 git source の gem のビルドログを commit hash ごとのディレクトリに配置するように対応しています。
