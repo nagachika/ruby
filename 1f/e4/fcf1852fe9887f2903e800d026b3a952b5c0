@@ -1,0 +1,1 @@
+Ruby::Box 利用時に Binding と Proc#to_proc で作られる IFUNC の組み合わせで異常終了することがある不具合を修正しています。 https://github.com/ruby/ruby/pull/16890 [ruby-core:125174] [Bug #21977]
