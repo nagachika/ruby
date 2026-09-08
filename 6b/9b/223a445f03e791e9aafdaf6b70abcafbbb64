@@ -1,0 +1,1 @@
+rubygems と bundler の直近の変更で壊れたテストの修正。
