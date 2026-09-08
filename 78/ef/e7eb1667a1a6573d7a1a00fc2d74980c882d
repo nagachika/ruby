@@ -1,0 +1,1 @@
+fe2b997cdd60641f30adc39403085ab230acf066 で rubygems で gem install の mkmf.log などを残さないようにするために作る build_info ディレクトリを uninstall 時に削除するようにしています。
