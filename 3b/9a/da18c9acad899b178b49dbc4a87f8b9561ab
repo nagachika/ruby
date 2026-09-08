@@ -1,0 +1,1 @@
+Symbol#to_proc の Ruby::Box 対応。 ruby 実装のイテレータメソッドからの呼び出しで main Box を使ってしまうのを修正しています。 [ruby-dev:52212] [Bug #22015]
