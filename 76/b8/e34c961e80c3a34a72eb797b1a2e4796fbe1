@@ -1,0 +1,1 @@
+rubygems の fe2b997cdd60641f30adc39403085ab230acf066 のビルドログをインストール先に置かなくした変更の再修正。 gem install 時に拡張ライブラリの extconf.rb が正常終了したものの Makefile が生成されなかった時のエラー処理を修正。
