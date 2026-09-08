@@ -1,0 +1,1 @@
+3b9ada18c9acad899b178b49dbc4a87f8b9561ab の再修正。Symbol#to_proc による Proc の呼び出しの Ruby::Box 対応の再々修正。  [ruby-dev:52199] [Feature #21881]
