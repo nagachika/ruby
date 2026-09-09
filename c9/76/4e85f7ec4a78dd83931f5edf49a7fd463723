@@ -1,0 +1,1 @@
+parse.y でも && や || などの論理演算子がたくさん連結していた時の処理が非効率だったのを修正しています。 a946c1bd8e5e7e03e938fe5bb4df942affa95ec6 の prism の修正と同様ですかね。 https://github.com/ruby/ruby/pull/18638
