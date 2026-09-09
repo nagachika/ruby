@@ -1,0 +1,1 @@
+M:N Threads に環境変数 RUBY_MN_THREADS=2 を指定すると main Thread も coroutine 化するようにしているようです。従来(RUBY_MN_THREADS=1 の時)は main Thread は M:N Threads の対象外だったんですね。
