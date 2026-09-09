@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http のテストで OpenSSL::SSL::SSLSocket#session_reused? が nil を返してもテストをエラーにしないようにしています。 JRuby 向け対応のようです。
