@@ -1,0 +1,1 @@
+さらに M:N Threads で環境変数に RUBY_MN_THREADS=-1 を指定すると子 Ractor 内の全 Thread に native thread を割り当ててしまうようにしています。デバッグ用。
