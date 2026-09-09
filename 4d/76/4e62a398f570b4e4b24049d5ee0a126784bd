@@ -1,0 +1,1 @@
+プロセス終了時の Ractor 終了待ちの処理の関数を vm_sync.c から thread_sched.c に移動するリファクタリング。
