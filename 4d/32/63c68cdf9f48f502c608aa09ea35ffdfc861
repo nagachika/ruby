@@ -1,0 +1,1 @@
+rubygems の gem パッケージ展開時の symbolic link の扱いの不具合修正。
