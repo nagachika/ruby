@@ -1,0 +1,1 @@
+21bc49cf7358c2f0540624e534e0fe81a1b12a16 と同様に標準添付ライブラリ net/http で transfer-encoding ヘッダの chunked が最後でない時に content-length ヘッダの値を使って読み込んでしまうのを避けるように修正しています。これも RFC 9112 の準拠のためみたいです。
