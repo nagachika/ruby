@@ -1,0 +1,1 @@
+ac9cc92a49dbdf821750ff3b8be3a0ed6109c789 の String#rindex の不具合修正が不完全だったので同様の追加修正をしています。
