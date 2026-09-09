@@ -1,0 +1,1 @@
+NEWS に ce6f2009724406081d409308bdce3eacd5f91db2 や c5777a3ac5c2114b9aaa6c5d2806ea58bb794c95 の M:N Threads のモードを指定する環境変数 RUBY_MN_THREADS について追記しています。
