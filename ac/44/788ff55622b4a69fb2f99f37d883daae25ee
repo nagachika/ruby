@@ -1,0 +1,1 @@
+RGENGC_CHECK_MODE マクロを定義してビルドした時に GC の page pool 用の lock の二重ロックを検出するように pthread_mutex の設定を行うようにしています。
