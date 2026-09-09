@@ -1,0 +1,1 @@
+common.mk の make update-src が revision.h を空ファイルにしていたのをやめています。 tarball 上で make up した時に壊れないようにする対処のようです。 [ruby-core:123854] [Bug #21697]
