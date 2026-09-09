@@ -1,0 +1,1 @@
+Windows 環境で Time.new などで timezone 設定時に常に UTF-8 前提で扱っていたのを適切に変換するようにしています。 [ruby-core:112058] [Bug #19383]
