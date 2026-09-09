@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http で Net::HTTPHeader#chunked? が transfer-encoding が "chuncked, gzip" の時も true を返していたため chunked, gzip で終端後のバイトが読み残される不具合があったのを修正しています。 RFC 9112 に準拠して chunked が最後にくるときだけ true にするよう修正。
