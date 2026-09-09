@@ -1,0 +1,1 @@
+d7f64c1f761f352f86217020c84b0adb1482d14c の続きで GitHub Actions の Windows 環境の workflows で環境変数 NoDefaultCurrentDirectoryInExePath を設定してカレントディレクトリを実行ファイル探索に含めない環境でのビルドを行うようにしています。
