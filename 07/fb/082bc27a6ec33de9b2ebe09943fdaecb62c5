@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の不要なメソッドを削除するリファクタリング。 https://github.com/ruby/ruby/pull/18395
