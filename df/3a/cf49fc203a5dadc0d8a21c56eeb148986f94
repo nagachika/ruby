@@ -1,0 +1,1 @@
+Pathname#rmtree の rdoc 用コメントで戻り値の記述が間違っていたのを修正しています。 [ruby-core:126559] [Bug #22288]
