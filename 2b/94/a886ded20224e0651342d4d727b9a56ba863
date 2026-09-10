@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の拡張ライブラリ erb/escape で ERB クラスや ERB::Escape クラスの VALUE を保持するグローバル変数を定義していたのを削除してローカル変数を使うようにしています。 https://github.com/ruby/erb/pull/138
