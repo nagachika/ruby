@@ -1,0 +1,1 @@
+win32/win32.c の cmd.exe の組み込みコマンドのリストに mklink コマンドを追加ししています。 ただコミットログをみると無関係そうなので直近の 1d9a72944ba97ba1d76c3491968ecf1764e80f64、c0d6ffc72d91175e4baebe41cff3e7d6cf6422ce、9a2b620825060d80c1bbcd42ce360d39af6ef02b の変更を意図せず revert してしまってそうです。
