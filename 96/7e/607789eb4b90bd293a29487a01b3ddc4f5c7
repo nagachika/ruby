@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::Coder#initialize の rdoc 用コメントの call-seq が JSON.new になっていたのと引数がキーワード引数になったのに追随させて修正しています。
