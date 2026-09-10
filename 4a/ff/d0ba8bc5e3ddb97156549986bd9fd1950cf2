@@ -1,0 +1,1 @@
+doc/contributing/efficient_extensions.md というドキュメントファイルを追加して ruby 4 向けに最新の C API を使った拡張ライブラリの書きかたについてのドキュメントを整備しています。 https://github.com/ruby/ruby/pull/18492
