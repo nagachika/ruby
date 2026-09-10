@@ -1,0 +1,1 @@
+thread_sched.c の未使用の static 関数 mn_threads_enabled_p() を削除して thread_sched_mn.c に移動しています。うーんけど thread_sched.c にまだ mn_threads_enabled_p() を呼んでるところあるっぽけどな。 thread_sched_mn.c を #include しているふうでもないし。
