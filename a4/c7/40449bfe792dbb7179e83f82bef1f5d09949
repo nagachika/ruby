@@ -1,0 +1,1 @@
+include/ruby/ractor.h の rb_obj_set_shareable() の宣言を明示的な export する宣言のセクションに移動して拡張ライブラリから利用できるようにしています。
