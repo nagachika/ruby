@@ -1,0 +1,1 @@
+1d9a72944ba97ba1d76c3491968ecf1764e80f64 の String#tr の SIMD 対応修正の再修正。決して成立しない不要な分岐があったので削除して RUBY_ASSERT() による assertion に置き換えています。
