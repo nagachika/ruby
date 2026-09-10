@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB::Util.html_escape で SIMD 命令を利用して高速化しています。 https://github.com/ruby/erb/pull/136
