@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の拡張ライブラリ erb/escape のための execonf.rb で環境変数 ERB_DISABLE_SIMD を設定すると明示的に SIMD 命令の利用を抑制できるようにしています。 https://github.com/ruby/erb/pull/140
