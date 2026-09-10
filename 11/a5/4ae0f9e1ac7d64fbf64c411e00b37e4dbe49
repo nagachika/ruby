@@ -1,0 +1,1 @@
+finalizer の設定されているオブジェクトを Ractor 間で移動すると移動元の slot のオブジェクトを RactorMovedObject クラスにする時に struct RBasic::flags の FL_FINALIZE フラグが落とされていて、これが finalizer 管理用テーブルに残っているエントリと不整合になるためデバッグビルド時に assertion で異常終了になっていたのでフラグを維持しています。 [ruby-core:122261] [Bug #21368]
