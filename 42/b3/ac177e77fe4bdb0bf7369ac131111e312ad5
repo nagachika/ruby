@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の拡張ライブラリ erb/escape の preserve_original_state() という関数を削除して Encoding の指定つきで String オブジェクト生成する rb_enc_str_new() を利用するようにリファクタリングしています。 https://github.com/ruby/erb/pull/139
