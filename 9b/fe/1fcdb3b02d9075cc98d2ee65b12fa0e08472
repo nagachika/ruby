@@ -1,0 +1,1 @@
+Ractor::Port#close で閉じるとその port で受信待ちしていた Ractor が起床せず待ち続けてしまう不具合を修正しています。
