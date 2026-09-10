@@ -1,0 +1,1 @@
+ObjectSpace.each_object の rdoc 用コメントで複数 Ractor 使用時には Ractor unshareable なオブジェクトはイテレータで呼ばれないというのを制限事項としていたのを、正式な仕様として記述するようにしています。 [ruby-core:112091] [Bug #19387]
