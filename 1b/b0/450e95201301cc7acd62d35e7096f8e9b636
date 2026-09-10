@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB::Util.escape_html のさらなる細かい最適化。 https://github.com/ruby/erb/pull/137
