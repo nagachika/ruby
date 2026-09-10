@@ -1,0 +1,1 @@
+File.symlink? と Pathname#symlink? の rdoc 用コメントの手直し。
