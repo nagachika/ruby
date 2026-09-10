@@ -1,0 +1,1 @@
+特異クラスからその特異クラスの定義の元になっているオブジェクトを参照する Class#attached_object メソッドが Ractor 間の isolation を無視して返してしまっていたので、別 Ractor からの呼び出しでは Ractor::IsolationError 例外を発生させるように修正しています。 [ruby-core:123549] [Bug #21649]
