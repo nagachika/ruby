@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb でテストの経過時間の測定のために clock_gettime(3) に指定する clock の候補の CLOCK_THREAD_CPUTIME_ID というのは M:N Threads 有効化時だと native thread が切り替わる可能性があって不正な値になる(負になる)可能性があるので使わないようにしています。
