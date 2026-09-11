@@ -1,0 +1,1 @@
+.github/labeler.yml でバックポート用の pull requests には jit ラベル付与を抑制するようにしているようです。
