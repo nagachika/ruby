@@ -1,0 +1,1 @@
+bundler の bundle info/show/open に完全一致した gem のみに対応するオプション --exact-match を追加しています。
