@@ -1,0 +1,1 @@
+GC の default 実装で GC::Profile の GC に使った時間の計測で clock_gettime(3) の CLOCK_THREAD_CPUTIME_ID を利用するようにしてプロセス全体の CPU 時間を計測していたのを収集スレッド単体の CPU 時間に変更。複数 Ractor 利用時に誤差が入るのを修正しています。
