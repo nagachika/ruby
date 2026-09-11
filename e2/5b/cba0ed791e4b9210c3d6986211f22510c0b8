@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr で IPAddr#link_local_multicast? のマスクが /16 になっていたのを /24 に修正しています。
