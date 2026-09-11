@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで IO#_io_console_stty の定義有無で skip していたのを skip ではなくテストメソッドの定義自体を分岐するようにしています。
