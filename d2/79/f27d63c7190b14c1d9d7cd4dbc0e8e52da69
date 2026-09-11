@@ -1,0 +1,1 @@
+ISEQ_TRANSLATED という定数を YIJT/ZJIT の Rust 実装で定義していたのを C binding 生成で取り込むようにしています。また ZJIT では使ってなかったので単に削除しています。
