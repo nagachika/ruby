@@ -1,0 +1,1 @@
+acc5cd03d9e479b4fae8d01e75d20ae98076600c からの続きで rb_classext_t に owner_ractor_id というメンバーを追加して Class/Module の生成時にその Ractor の ractor_id を保持して Ractor の Class/Module の所有権を導入しています。 [ruby-core:126235] [Feature #22226]
