@@ -1,0 +1,1 @@
+M:N Threads 有効化時に割り込まれた IO wait が timeout として扱われていて IO#wait_readable が nil を返していたのを修正しています。
