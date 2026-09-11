@@ -1,0 +1,1 @@
+GC の default 実装で Ractor 作成時に GC の profile 情報の GC.measure_total_time を引き継ぐようにしています。
