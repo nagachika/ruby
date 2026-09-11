@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB::Util.escape_html の SIMD 対応版の未定義挙動の修正。 https://github.com/ruby/erb/pull/142
