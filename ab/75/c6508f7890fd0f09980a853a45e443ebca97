@@ -1,0 +1,1 @@
+0c6ae574be422771d27200ce16553d5a522971f6 で bindgen で生成するようにした定数 RSTRUCT_EMBED_LEN_MASK の型を usize 型に変更しています。
