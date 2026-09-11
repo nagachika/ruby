@@ -1,0 +1,1 @@
+bundler の bundle update --bundler でバージョン比較でエラーになっていたのを修正しています。
