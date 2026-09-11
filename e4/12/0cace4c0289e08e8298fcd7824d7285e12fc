@@ -1,0 +1,1 @@
+拡張ライブラリ objspace のテストに ObjectSpace.dump で RGenGC 用の Write-Barrier のフラグを表示する機能のチェックを追加しています。
