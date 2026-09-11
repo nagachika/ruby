@@ -1,0 +1,1 @@
+thread_win32.c で w32_mutex() 関数の定義を preprocessor 分岐に入れて未使用関数の警告を抑制しています。
