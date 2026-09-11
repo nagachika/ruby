@@ -1,0 +1,1 @@
+Symbol.all_symbols の実装で全 Ractor を動作を止めるための rb_vm_barrier() の呼び出しを追加しています。
