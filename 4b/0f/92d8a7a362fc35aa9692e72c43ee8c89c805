@@ -1,0 +1,1 @@
+GC の default 実装で MinGW 向けビルドでの unused variable の警告抑制のため変数宣言を preprocessor 分岐内に移動して修正しています。
