@@ -1,0 +1,1 @@
+ZJIT の関数スタブでブロックハンドラをマシンスタックに退避するようにしています。 https://github.com/ruby/ruby/pull/18686
