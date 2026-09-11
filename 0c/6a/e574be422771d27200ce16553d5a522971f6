@@ -1,0 +1,1 @@
+同様に YJIT や ZJIT の Rust 実装で RSTRUCT_EMBED_LEN_MASK の定数を定義していたのを bindgen で C の宣言から生成して取り込むようにしています。
