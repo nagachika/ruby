@@ -1,0 +1,1 @@
+bundle update --bundler --pre が無視されていたのを、--pre を尊重するよう修正。
