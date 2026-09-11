@@ -1,0 +1,1 @@
+bootstraptest の Ractor のテストでメモリの少ない環境(qemu 利用の OpenBSD)向けに、テストで起動する Thread 数を 1000→100 に削減しています。
