@@ -1,0 +1,1 @@
+.github/labeler.yml で dependabot による pull requests にも jit ラベルがつかないようにしています。
