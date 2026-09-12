@@ -1,0 +1,1 @@
+IO::Buffer の #clear, #set_string, #set_value などの更新系のメソッドが IO::Buffer 自体が freeze されている時のチェックが漏れていたの修正しています。 [ruby-core:126600] [Bug #22301]
