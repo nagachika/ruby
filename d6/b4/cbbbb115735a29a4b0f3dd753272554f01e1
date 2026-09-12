@@ -1,0 +1,1 @@
+c8d4d7b709c456985946ca07182dd5e453cad803 の対応により GC の mmtk 実装利用時に objspace のテストを実行除外していたのが不要になったので test/.excludes-mmtk/TestObjSpace.rb からテストメソッド指定をひとつ削除しています。
