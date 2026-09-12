@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストでも FreeBSD でのテストの skip を解除しています。
