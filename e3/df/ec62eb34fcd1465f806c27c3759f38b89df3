@@ -1,0 +1,1 @@
+Time の timezone の処理のテストでも FreeBSD での実行除外を解消しています。
