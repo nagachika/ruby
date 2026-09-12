@@ -1,0 +1,1 @@
+未使用になっていた関数群 rb_vm_opt_newarray_pack()、rb_autoload()、rb_big_fdiv()、rb_io_unbuffered()、rb_ractor_hooks()、rb_assert_sig() の定義をまとめて削除しています。
