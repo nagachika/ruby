@@ -1,0 +1,1 @@
+parse.y で不要そうな Node を削除する最適化(?) の影響で TracePoint の :line イベントや coverage による line coverage が取れなくなる場合があった不具合を、改行フラグ付き nil を残すようにして修正しています。 [ruby-core:126625] [Bug #22302]
