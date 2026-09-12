@@ -1,0 +1,1 @@
+Kernel#fork などで子プロセスを fork した時に cont.c の static 変数 rb_jit_cont_init を再初期化する修正。
