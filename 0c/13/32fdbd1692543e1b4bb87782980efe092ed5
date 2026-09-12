@@ -1,0 +1,1 @@
+rubyspec の Process.getpriority の Process::PRIO_PGRP を指定するテストも FreeBSD で実行除外していたのを解除しています。
