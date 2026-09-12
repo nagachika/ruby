@@ -1,0 +1,1 @@
+YJIT や ZJIT で VM 命令の intern は例外を発生させたりオブジェクト生成する可能性があるため leaf attribute を false 設定修正しています。
