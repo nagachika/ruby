@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb で Intel の icc 向けの workaround が icc の更新により修正されていて不要になっているため削除しています。
