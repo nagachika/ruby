@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest で private メソッドの $stderr.warn を呼んで NoMethodError になっていたので receiver なしの Kernel#warn を呼ぶように修正しています。
