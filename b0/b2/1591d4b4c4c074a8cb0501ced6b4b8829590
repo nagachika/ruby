@@ -1,0 +1,1 @@
+bootstraptest でも FreeBSD で実行除外していたテストを復帰させています。 [ruby-core:107790] [Bug #18613]
