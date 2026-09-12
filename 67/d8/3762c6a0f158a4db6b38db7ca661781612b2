@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で macOS においては nameserver への 2回目の通信がすぐエラーにならずタイムアウトを待つという不具合があったため、ECONNREFUSED が発生した時に UDP socket を作りなおすようにしています。
