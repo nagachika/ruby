@@ -1,0 +1,1 @@
+rubyspec の Kernel#require のテストで、起動時からロード済みの features から除外するものを見直しています。
