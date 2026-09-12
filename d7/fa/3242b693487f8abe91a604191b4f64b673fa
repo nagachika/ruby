@@ -1,0 +1,1 @@
+GC の mmtk 実装利用時に ObjectSpace.dump で RGenGC の WB フラグが表示されるように対応しているようです。
