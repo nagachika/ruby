@@ -1,0 +1,1 @@
+coroutine 実装の amd64 版で Intel の CET という脆弱性対策の機能を有効化されると未対応になっていたのを対応しているようです。 https://github.com/ruby/ruby/pull/5895
