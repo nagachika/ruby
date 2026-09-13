@@ -1,0 +1,1 @@
+ZJIT の Fixnum 同士の除算の時に結果が Bignum にならない(左辺が FIXNUM_MIN ではないか右辺が -1 でない)というのがわかっている場合は型推論を Integer でなく Fixnum としてより狭い推論を行うようにしています。 https://github.com/ruby/ruby/pull/18685
