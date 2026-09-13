@@ -1,0 +1,1 @@
+fc04a8309277f0904222540c6c16e40ec2147e7f および 0c7c2107ed731b9e79d6afc2981d457a39a450a0 の続きで bootstraptest に追加したテストを GC が mmtk 実装の時に skip するのをやめてテスト内容自体を変更して GC::INTERNAL_CONSTANTS に依存せず固定のメンバー数にして mmtk でも動かせるようにしています。
