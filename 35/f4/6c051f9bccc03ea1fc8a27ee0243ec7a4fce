@@ -1,0 +1,1 @@
+internal/set.h というヘッダファイルを追加して array.c で直接 prototype 宣言していた rb_ident_set_new() の宣言をヘッダで行なうようにリファクタリングしています。
