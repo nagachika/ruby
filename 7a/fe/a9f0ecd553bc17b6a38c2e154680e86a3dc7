@@ -1,0 +1,1 @@
+ZJIT の String#byteslice で型推論の結果引数が Fixnum の場合にメソッド呼び出しをバイパスして直接 rb_str_byte_substr() 関数を呼び出すように最適化しています。
