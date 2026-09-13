@@ -1,0 +1,1 @@
+15a43f6688797516f5b25f7e26c6a9e06af752ad の追加修正で coroutine 実装の ppc64le 版のインデント修正のみ。 https://github.com/ruby/ruby/pull/18772
