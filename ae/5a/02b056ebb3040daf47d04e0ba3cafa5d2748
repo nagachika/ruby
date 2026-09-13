@@ -1,0 +1,1 @@
+IO::Buffer の read/write などのメソッドでバッファの操作を抑制するための後処理が例外発生時にスキップされてしまい不正な状態の IO::Buffer ができて use-after-free が起こりえる不具合を修正しています。 https://github.com/ruby/ruby/pull/18666
