@@ -1,0 +1,1 @@
+internal/cont.h が iseq.h を #include していた依存関係をなくすためヘッダの #include 関係を整理しています。 prism への依存を減らすための変更のようです。 https://github.com/ruby/ruby/pull/13984
