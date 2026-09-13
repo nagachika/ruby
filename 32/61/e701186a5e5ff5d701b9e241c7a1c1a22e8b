@@ -1,0 +1,1 @@
+Fiber や M:N Threads のための coroutine 実装の ppc/ppc64 版実装でもレジスタの退避が不足していたのを修正しています。 https://github.com/ruby/ruby/pull/18773
