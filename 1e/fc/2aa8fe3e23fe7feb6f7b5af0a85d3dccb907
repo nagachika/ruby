@@ -1,0 +1,1 @@
+ZJIT の meth(...) のような委譲用引数のメソッド呼び出しを直接コード生成できるように対応しています。 https://github.com/ruby/ruby/pull/18606
