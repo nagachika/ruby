@@ -1,0 +1,1 @@
+Windows 版での getsockopt() の SO_ERROR の対応でエラーコードの変換を行なって Errno::ECONNREFUSED が Unix 系 OS と同様に発生するように対応しているようです。これによりテストで Windows 対応のため例外クラスのチェックを緩めていたのもやめています。 [ruby-core:108069] [Bug #18661]
