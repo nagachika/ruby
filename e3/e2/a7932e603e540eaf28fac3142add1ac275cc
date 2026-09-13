@@ -1,0 +1,1 @@
+File.readlinek および Pathname#readlink の rdoc 用コメントを手直ししています。
