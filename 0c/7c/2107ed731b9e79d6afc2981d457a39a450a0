@@ -1,0 +1,1 @@
+fc04a8309277f0904222540c6c16e40ec2147e7f で追加した bootstraptest の YJIT 有効化するテストで GC が mmtk 実装の時に GC::INTERNAL_CONSTANTS の必要な項目がなくて失敗するので skip するようにしています。
