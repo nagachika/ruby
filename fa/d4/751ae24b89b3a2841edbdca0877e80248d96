@@ -1,0 +1,1 @@
+Module#method_defined? メソッドに省略可能な第3引数 include_all を追加して private メソッドも判定に含むかどうか指定できるようにしています。 [ruby-core:126584] [Feature #22297]
