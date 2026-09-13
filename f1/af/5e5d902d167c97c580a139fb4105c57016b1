@@ -1,0 +1,1 @@
+43405ac6f2fc8b59087e39230a0c1fbbfa927aca の続きで拡張ライブラリ socket で Windows 版でソケット接続が拒否された時に IO#read_nonblock がすぐに返らなかったのを select() や poll() で待つイベントを Windows 版で IO::PRIORITY を追加して、即座に例外発生させるように修正しています。
