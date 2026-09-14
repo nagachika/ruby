@@ -1,0 +1,1 @@
+File.lchmod および Pathname#lchmod の rdoc 用コメントにサンプルコードを追加して(69d785afcf4c15812e10845cebff747e8c358f8a で消したのを復活させて)います。
