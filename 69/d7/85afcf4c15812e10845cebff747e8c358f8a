@@ -1,0 +1,1 @@
+File.lchmod および Pathname#lchmod の rdoc 用コメントのサンプルコードを削除して doc/file/symbolic_links.md へのリンクに変更しています。
