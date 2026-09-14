@@ -1,0 +1,1 @@
+GitHub Actions の Cygwin 版で autogen.sh を実行する時に環境変数 AUTORECONF=autoreconf-2.73 を設定しています。
