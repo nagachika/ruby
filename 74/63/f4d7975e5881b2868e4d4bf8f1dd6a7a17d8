@@ -1,0 +1,1 @@
+File.lchown および Pathname#lchown の rdoc 用コメントに doc/file/symbolic_links.md へのリンクを追加しています。
