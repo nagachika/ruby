@@ -1,0 +1,1 @@
+標準添付ライブラリ erb の ERB::Util.html_escape のテストを追加しています。  https://github.com/ruby/erb/pull/141 https://github.com/ruby/erb/pull/144
