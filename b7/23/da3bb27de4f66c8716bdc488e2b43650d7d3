@@ -1,0 +1,1 @@
+IO.copy_stream のテストを Windows 環境で skip していたのをやめています。
