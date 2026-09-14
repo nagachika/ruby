@@ -1,0 +1,1 @@
+prism の Prism.parse_file の引数を to_str や to_path で変換するようにしています。
