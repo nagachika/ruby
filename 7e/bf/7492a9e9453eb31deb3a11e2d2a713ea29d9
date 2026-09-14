@@ -1,0 +1,1 @@
+thread.c で EC_PUSH_TAG()/EC_POP_TAG() のあいだで参照する変数に volatile 修飾子をつけて定義するようにしています。コンパイラ警告抑制のため。
