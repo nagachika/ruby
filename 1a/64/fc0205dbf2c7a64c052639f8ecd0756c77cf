@@ -1,0 +1,1 @@
+rubyspec で拡張ライブラリ socket のテストを Windows 環境で skip していたものをやめています。
