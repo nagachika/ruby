@@ -1,0 +1,1 @@
+File.lutime および Pathname#lutime の rdoc 用コメントに doc/file/symbolic_links.md へのリンクを追加しています。
