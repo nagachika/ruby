@@ -1,0 +1,1 @@
+string.c の String#chomp! と String#delete_suffix! の処理の共通部分を str_shrink() という関数に切り出すリファクタリング。
