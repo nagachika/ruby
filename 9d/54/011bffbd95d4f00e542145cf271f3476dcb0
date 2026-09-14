@@ -1,0 +1,1 @@
+Ractor 内で TracePoint を利用していた時に Ractor の終了後の解放処理で rb_hook_list_t の解放が行なわれてなくてメモリリークしていたのを修正しています。
