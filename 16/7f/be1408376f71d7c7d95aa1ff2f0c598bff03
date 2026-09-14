@@ -1,0 +1,1 @@
+拡張ライブラリ io/console のテストで Windows 環境で定義を省略していた IO#input_pending? についてのテストメソッドを復帰させています。
