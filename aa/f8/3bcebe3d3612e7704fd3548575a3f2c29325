@@ -1,0 +1,1 @@
+non-blocking Fiber 用の Scheduler の API 仕様を更新して fiber_interrupt の第1引数には Fiber そのものではなくて FiberSchedulerInterruptTarget という(実際には名前はついていなくて内部的な無名の)クラスのインスタンスで wrap したオブジェクトを渡すようにしています。例外が漏れる不具合の修正のための仕様変更みたいです。 https://github.com/ruby/ruby/pull/18793 [ruby-core:124851] [Bug #21918]
