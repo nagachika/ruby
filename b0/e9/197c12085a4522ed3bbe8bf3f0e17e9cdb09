@@ -1,0 +1,1 @@
+fed732c8f4e4e9218bae7a2e5b142dc9b072a40e の続きで互換性のため $LOADED_FEATURES に io/wait が含まれるようにしています。
