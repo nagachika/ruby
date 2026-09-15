@@ -1,0 +1,1 @@
+Fiber や N:M Threads のための coroutine 実装の pthread 版で coroutine_create_thread() がエラーを返した時の mutex のロック解放漏れを修正しています。 https://github.com/ruby/ruby/pull/18818
