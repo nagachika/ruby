@@ -1,0 +1,1 @@
+Ractor#monitor に渡した Ractor::Port に送信されるイベントを Symbol だけから Ractor のインスタンスとのタプル(2要素の配列)を渡すように仕様変更しています。複数の Ractor を同じ Ractor::Port で監視できるようにするため。
