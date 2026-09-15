@@ -1,0 +1,1 @@
+Thread#thread_variable_set で thread local variable に nil をセットすると変数自体を削除するようにしています。 https://github.com/ruby/ruby/pull/18811 [ruby-core:111789] [Feature #19333]
