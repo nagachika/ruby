@@ -1,0 +1,1 @@
+cdd238ab3272bfbae70b82352479cc2efe3256cf の追加修正で attr 名を caller_box から caller_user_box に変更しています。また caller が root box の frame だった時のために frame を遡って普通の box を見付けるまで探索するようにしています。
