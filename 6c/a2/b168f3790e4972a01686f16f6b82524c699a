@@ -1,0 +1,1 @@
+abac51a1ceae2c151baec4db328b91e46e85194c で導入した GC の default 実装の初期 heap サイズの設定の環境変数 RUBY_GC_HEAP_INIT_BYTES に下限を設けています。
