@@ -1,0 +1,1 @@
+GC の default 実装の Ractor local GC で Ractor ごとの heap の初期サイズを小さくしています。また環境変数の RUBY_GC_RACTOR_HEAP_INIT_BYTES でこの初期サイズを調節可能にしています。
