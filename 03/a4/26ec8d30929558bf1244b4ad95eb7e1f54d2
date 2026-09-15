@@ -1,0 +1,1 @@
+String#bit_set、#bit_clear、#bit_flip、#bit_count に (offset, length) や Range でビット範囲を指定する引数を追加しています。 https://github.com/ruby/ruby/pull/18562 [ruby-dev:52243] [Feature #22279]
