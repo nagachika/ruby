@@ -1,0 +1,1 @@
+GC の default 実装の各 Ractor の空き slot 数の下限が大きすぎて毎回 major GC が走ってしまうので下限の計算を修正しています。
