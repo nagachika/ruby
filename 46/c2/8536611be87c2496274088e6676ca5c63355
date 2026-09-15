@@ -1,0 +1,1 @@
+308677c7032a5cf76b7a053011534360eda43e64 の変更で不要になっていた ractor_sync.c の ractor_basket_new_ref() という関数を削除しています。
