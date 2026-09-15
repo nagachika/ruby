@@ -1,0 +1,1 @@
+Fiber や M:N Threads 用の coroutine 実装の asyncify/emscripten/pthread/ucontext 版の coroutine_transfer() の戻り値を target 自身から current->from に変更しています。 https://github.com/ruby/ruby/pull/18814
