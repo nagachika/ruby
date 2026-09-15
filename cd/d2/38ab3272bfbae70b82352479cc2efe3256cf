@@ -1,0 +1,1 @@
+ruby 実装の組み込みメソッドを Ruby::Box 有効化時に呼び元の Box 内で動かすため struct rb_iseq_constant_body::builtin_attrs のビットフラグに BUILTIN_ATTR_CALLER_BOX を追加して呼び出し時の特別処理を追加しています。
