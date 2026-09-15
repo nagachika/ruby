@@ -1,0 +1,1 @@
+coroutine 実装の pthread 版で pthread の native thread をまたがって動かせるように対応しています。 https://github.com/ruby/ruby/pull/18820
