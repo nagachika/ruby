@@ -1,0 +1,1 @@
+rubygems のテストで Gem::Specification.dirs= 関連のテストが JRuby で失敗するので skip しています。
