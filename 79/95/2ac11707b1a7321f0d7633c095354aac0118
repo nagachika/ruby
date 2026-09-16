@@ -1,0 +1,1 @@
+bundler のテストで File.expand_path の stub が Ruby::Box 利用時に余分に呼ばれるためうまく設定できていなかったのを修正しています。
