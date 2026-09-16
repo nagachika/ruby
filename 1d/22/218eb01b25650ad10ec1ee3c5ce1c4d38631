@@ -1,0 +1,1 @@
+a4e120519b425a6fab9ef31c855ecd1c50a15837 の rubygems の Gem::Specification.dirs= の修正の再修正。キャッシュクリアするのを reset メソッド内に移動しています。
