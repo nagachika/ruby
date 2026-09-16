@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 対応の init_fast_fallback_inetsock_internal() でコールバックに渡される test_mode_settings というオブジェクトの型のチェックが不足していて不正なオブジェクトが渡されてきた時に異常終了する可能性があったのでチェックを強化しています。
