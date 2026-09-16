@@ -1,0 +1,1 @@
+rubygems のテストで $VERBOSE で警告抑制していたのが Ruby::Box 利用時には効かないので skip しています。
