@@ -1,0 +1,1 @@
+file.c の rb_file_s_birthtime() という関数を static 関数にしています。
