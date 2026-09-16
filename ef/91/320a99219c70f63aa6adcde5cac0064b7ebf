@@ -1,0 +1,1 @@
+rubygems の gem update --user-install の処理中に Gem::Specification.dirs をプロセス全体で書き換えていたのをローカル変数に複製したものを使うように対応しています。
