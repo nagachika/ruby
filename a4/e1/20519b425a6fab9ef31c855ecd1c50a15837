@@ -1,0 +1,1 @@
+rubygems の Gem::Specification.dirs= の memo 化の影響で誤った代入結果になる可能性があったので処理後にキャッシュを破棄する不具合修正。
