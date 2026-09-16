@@ -1,0 +1,1 @@
+bundler のテストで content-addressed ABI 指定が prerelease 版(リリース前のバージョン)の ruby (今は 4.1.0.dev) で通らないため skip するようにしています。
