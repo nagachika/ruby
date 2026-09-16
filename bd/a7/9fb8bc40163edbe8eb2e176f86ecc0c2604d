@@ -1,0 +1,1 @@
+Ruby::Box 利用時の rubygems と bundler のテストが experimental warning でエラーになっていたので -W:no-experimental で抑制する修正。
