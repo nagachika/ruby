@@ -1,0 +1,1 @@
+bundler の Bundler.setup で lockfile の CHECKSUMS に空のエントリが出力される? のを抑制しています。
