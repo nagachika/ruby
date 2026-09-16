@@ -1,0 +1,1 @@
+GitHub Actions のリリースプロセス用の publish workflow で Slack への通知の step を追加しています。
