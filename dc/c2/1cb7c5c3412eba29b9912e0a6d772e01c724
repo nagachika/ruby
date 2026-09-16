@@ -1,0 +1,1 @@
+rubygems と bundler のテストで $stdout や $stderr を差し替えているものが Ruby::Box 利用時に効かなくなるので skip するようにしています。
