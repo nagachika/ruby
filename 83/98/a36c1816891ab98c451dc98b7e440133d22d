@@ -1,0 +1,1 @@
+rubygems の Gem::Specification.dirs についてのテストも stdout の差し替えをしていたので Ruby::Box 利用時に skip するようにしています。
