@@ -1,0 +1,1 @@
+拡張ライブラリ socket の static 関数 allocate_fast_fallback_getaddrinfo_hints() の名前を init_fast_fallback_getaddrinfo_hints() に改名しています。
