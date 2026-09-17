@@ -1,0 +1,1 @@
+macOS の最新版の SDK でのビルドエラー修正。 macOS の 27 de新規追加されたシステムコール? の dup3(), pipe2() の存在チェックをしてない時には dup2(), pipe() に fallback するようにしています。 configure でのチェックでなくて io.c で直接 preprocessor を駆使しているのはなぜだろう。 [ruby-core:126678] [Bug #22311]
