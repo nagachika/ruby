@@ -1,0 +1,1 @@
+bundler で git source の利用時に の safe.bareRepository=explicit の設定が行われていると bare リポジトリの指定には --git-dir オプションを使うようにしてエラーを修正。 https://github.com/ruby/rubygems/issues/7515
