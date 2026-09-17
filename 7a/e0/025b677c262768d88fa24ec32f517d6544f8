@@ -1,0 +1,1 @@
+bundler の bundle outdated --groups でグループに所属しない gem を最後に回すように再修正。
