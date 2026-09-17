@@ -1,0 +1,1 @@
+UnoundMethod#bind で作った Method オブジェクトに対して Method#inspect した時に RUBY_DEBUG を有効化した時の assertion で異常終了してしまっていたので T_ICLASS を skip する処理を追加して修正しています。 [ruby-core:126737] [Bug #22321]
