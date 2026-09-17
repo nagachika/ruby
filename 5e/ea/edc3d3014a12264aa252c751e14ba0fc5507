@@ -1,0 +1,1 @@
+Array#flatten で内部的に #to_ary メソッドを呼んだ時にフックなどが動いて対象の Array のバッファ変更が起きると use-after-free が起きる可能性があった不具合を修正しています。 RARRAY_LEN() の再チェックを追加しています。 [ruby-core:126730] [Bug #22318]
