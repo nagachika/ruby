@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol でも require "io/wait" を古い ruby でのみ実施するように RUBY_VERSION のチェックを追加しています。
