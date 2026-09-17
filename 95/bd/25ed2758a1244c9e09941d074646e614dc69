@@ -1,0 +1,1 @@
+標準添付ライブラリ resolve で require "io/wait" を古い ruby でのみ実行するよう RUBY_VERSION のチェックを追加しています。
