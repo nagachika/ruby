@@ -1,0 +1,1 @@
+GitHub Actions に coroutine の amd64 での shadow stack 対応のテストをするための workflow を追加しています。 https://github.com/ruby/ruby/pull/18778
