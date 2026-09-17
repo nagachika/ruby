@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の StoreField 命令の副作用の annotation をメモリの書き込みに絞ってより最適化されやすくしています。 https://github.com/ruby/ruby/pull/18764
