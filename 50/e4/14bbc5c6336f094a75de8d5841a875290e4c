@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で test-unit-ruby-core の同期処理のファイルの対応付けをより詳細にしています。ディレクトリ単位の指定だと rm_rf で削除するので消しすぎてしまうため。
