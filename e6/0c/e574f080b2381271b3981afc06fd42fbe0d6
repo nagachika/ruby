@@ -1,0 +1,1 @@
+0b8e0b1c28bc839095e2c0e884313f0f5ef1fc53 で rubygems の間接的な resolv の vendoring をやめたために Gem::AtomicFileWriter で明示的な require "securerandom" が行なわれ default gem を使うようになっていたので、vendoring されている Gem::SecureRandom を利用するように変更しています。
