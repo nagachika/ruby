@@ -1,0 +1,1 @@
+cce5b24fcd26e84d20e38fb58886b89bc42f62b0 の bundler の修正で bundle outdated --groups 指定時の gem の表示順序が壊れていたのを修正。
