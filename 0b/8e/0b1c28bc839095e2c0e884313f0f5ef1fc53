@@ -1,0 +1,1 @@
+rubygems に vendoring している net/http がさらに resolv を vendoring していたのを、必要な IP アドレス判定用の正規表現のみ埋め込むことで resolv の vendoring を解除しています。 https://bugs.ruby-lang.org/issues/22317
