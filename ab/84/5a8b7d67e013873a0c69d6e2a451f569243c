@@ -1,0 +1,1 @@
+imemo.c でも #ifdef RUBY_DEBUG を #if RUBY_DEBUG に修正。
