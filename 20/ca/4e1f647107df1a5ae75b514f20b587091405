@@ -1,0 +1,1 @@
+Encoding::Converter が引数に渡された Encoding の名称の C の文字列をそのまま構造体に格納していたため呼び元で解放後に use-after-free を起こす可能性があったので解決した transcoder_entry_t に保持されている文字列を参照するように修正しています。 [ruby-core:126738] [Bug #22322]
