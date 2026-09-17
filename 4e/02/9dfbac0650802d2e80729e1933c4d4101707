@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で 同期してきたバージョンが rubygems.org の最新より新しい(まだリリースされていない)場合、自動的に version に .dev を追加するようにしています。
