@@ -1,0 +1,1 @@
+rubygems の gem build --platform にローカルの platform を指定すると、ruby platform の gem ができていたので、指定の通りの platform の gem を作るように修正しています。 https://github.com/ruby/rubygems/issues/9344
