@@ -1,0 +1,1 @@
+e0d7be539582c5d17a74491618290950714823e3 の追加修正で rubyspec の大きすぎるサイズ指定時に許容する例外に RangeError も追加しています。 LLP64 環境では NUM2LONG() での変換時点で RangeError が発生するため。
