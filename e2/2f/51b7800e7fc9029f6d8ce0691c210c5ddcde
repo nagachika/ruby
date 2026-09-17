@@ -1,0 +1,1 @@
+enc/make_encmake.rb で File.basename の結果のチェックに "/" が含まれていて絶対一致しない条件になっていたので修正しています。
