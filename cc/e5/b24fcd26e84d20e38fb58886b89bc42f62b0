@@ -1,0 +1,1 @@
+bundler の bundle outdated --groups の出力を最後に gem 名で並べ直していたため、グループ分けが消えていたので --groups 指定時はこの並べ直しを抑制しています。
