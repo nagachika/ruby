@@ -1,0 +1,1 @@
+さらに cce5b24fcd26e84d20e38fb58886b89bc42f62b0 の再修正。 bundler の bundle outdated --groups の表示順のグループごとの表示を修正しています。
