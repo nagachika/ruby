@@ -1,0 +1,1 @@
+String#bit_set、#bit_clear、#bit_flip メソッド群で、長さのチェック前に frozen チェックを行い chilled string への警告をが Warning.warn でフックされて任意 ruby スクリプトが動く余地を潰すため。このため frozen でかつ範囲外の指定をしたときの例外が IndexError から FrozenError に変化します。 [ruby-core:126720] [Bug #22316]
