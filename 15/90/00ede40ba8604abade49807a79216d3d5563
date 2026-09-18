@@ -1,0 +1,1 @@
+GitHub Actions の shadow stack 対応の coroutine テストの workflow にドキュメント変更のみの時に skip する設定を追加しています。
