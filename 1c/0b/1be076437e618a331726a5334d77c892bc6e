@@ -1,0 +1,1 @@
+alias や Module#alias_method でメソッドの alias 定義しようとした時にそのメソッドが Object のメソッドだった時に $VERBOSE 設定時に警告を出すようにしています。はてなぜかな、と思ったのですが BasicObject を継承したクラスに Kernel で定義されたメソッドを alias したメソッドエントリをもつ Module を include してその alias メソッドを呼ぶと、Kernel は ancestors に含まれないクラスのインスタンスなのに Kernel のメソッドが呼ばれるというおかしな状態が作れてしまうので将来的にはこれを禁止したいということみたいです。 [ruby-core:126537] [Bug #22276]
