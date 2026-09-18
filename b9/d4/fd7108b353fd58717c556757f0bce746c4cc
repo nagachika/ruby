@@ -1,0 +1,1 @@
+rb_typeddata_inherited_p() の Doxygen 用コメントに古くなったコメントがあったので削除しています。 [ruby-core:126741] [Bug #22323]
