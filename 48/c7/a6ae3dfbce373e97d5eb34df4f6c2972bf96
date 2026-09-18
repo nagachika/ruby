@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol の Net::BufferedIO#read メソッドの引数のサイズが負の数だったら ArgumentError 例外ですぐエラーにするようチェックを追加しています。
