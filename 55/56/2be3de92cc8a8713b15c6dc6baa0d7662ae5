@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の最適化処理で CheckInterrupts 命令の重複を解消する処理の実装で最後の 1つを残すように変更してより最適化しやくなる? ようにしています。 https://github.com/ruby/ruby/pull/18774
