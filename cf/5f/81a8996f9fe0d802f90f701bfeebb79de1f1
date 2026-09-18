@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で拡張ライブラリ json の同期処理時に depend ファイルは同期しないようにしています。 ruby 本体の depend は upstream にはないので削除されてしまうのを抑制するため。
