@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol の Net::InternetMessageIO でデバッグログの On/Off の制御が例外などの大域脱出で壊れるのを修正するため ensure 節での復帰を行うように修正しています。
