@@ -1,0 +1,1 @@
+標準添付ライブラリ net/protocol の Net::BufferedIO#write0 という内部メソッドで TLS のサポートのため? IO#write_nonblock が :wait_readable という Symbol を返した時のケースをサポートするようにしています。
