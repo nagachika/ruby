@@ -1,0 +1,1 @@
+rubygems の Gem::AtomicFileWriter で vendored_securerandom を require する際に defined? で定数の存在チェックしていたのをやめています。他の Thread でロード中の時に中途半端な Gem::SecureRandom が見えてしまう可能性があるので require/load の排他処理にまかせるようにしています。
