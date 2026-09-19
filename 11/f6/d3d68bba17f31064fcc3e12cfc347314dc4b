@@ -1,0 +1,1 @@
+拡張ライブラリ socket の BasicSocket#close_write で rb_io_flush() の呼び出しを追加して shutdown() 前にバッファ内容を書き出すようにしています。 https://github.com/ruby/ruby/pull/18900
