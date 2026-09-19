@@ -1,0 +1,1 @@
+rubygems と bundler の不要になった古い ruby 向けの対応を削除しています。
