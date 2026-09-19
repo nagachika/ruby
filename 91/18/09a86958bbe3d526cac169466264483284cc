@@ -1,0 +1,1 @@
+同じく Ractor 間のオブジェクトコピーのための ractor courier で正規表現オブジェクト Regexp の複製処理を追加しています。
