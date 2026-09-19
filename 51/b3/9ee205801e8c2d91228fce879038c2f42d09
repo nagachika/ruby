@@ -1,0 +1,1 @@
+rubygems で Gem::Installer#verify_spec で spec.version のパターンをチェックして不正なスクリプトが gemspec に埋め込まれるのを防ぐようにしています。
