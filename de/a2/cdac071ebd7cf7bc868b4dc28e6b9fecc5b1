@@ -1,0 +1,1 @@
+同じく Ractor 間のオブジェクトコピーのための ractor courier で Marshal の実装を流用できるようになったために不要になった明示的な Marshal 利用のパスをしています。
