@@ -1,0 +1,1 @@
+GC の mmtk 実装の NoGC 実装利用時に環境変数 MMTK_HEAP_MODE の "cpu"  や "ruby"  という指定は無意味なので "fixed" に fallback させています。
