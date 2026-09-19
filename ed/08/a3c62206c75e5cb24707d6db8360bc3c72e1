@@ -1,0 +1,1 @@
+rubygems のテストの追加と 89c8b8d3799f4cb41d4b210f2c8ebdaba44505d4 と同様の捕捉例外追加と socket を close する後始末を ensure 節にする修正。
