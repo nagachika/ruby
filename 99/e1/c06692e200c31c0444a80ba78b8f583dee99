@@ -1,0 +1,1 @@
+複数 Ractor 対応時に require 用に gem を activate するための Ractor._activated というメソッドで無名モジュールを作成して Module#prepend で require を差し替えていたのを Object.module_eval で alias を作るという方法に切り替えています。 Rails の CI でエラーが発生していたみたいです。 [ruby-core:126497] [Bug #22263]
