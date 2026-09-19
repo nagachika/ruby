@@ -1,0 +1,1 @@
+rubygems および bundler の古い openssl のバージョンの対応を削除しています。
