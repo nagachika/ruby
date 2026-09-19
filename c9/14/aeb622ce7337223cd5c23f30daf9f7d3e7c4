@@ -1,0 +1,1 @@
+String#encode のコールバックの Proc から receiver の文字列オブジェクトが破壊的変更が行われると異常終了する可能性があった不具合を RSTRING_PTR()/RSTRING_LEN() を取り直して変更がないかチェックして例外発生させるようにして対処しています。 [ruby-core:126760] [Bug #22330]
