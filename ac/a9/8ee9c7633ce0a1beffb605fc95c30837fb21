@@ -1,0 +1,1 @@
+Ruby::Box 利用時の特殊変数 $stdin/$stdout/$>/$stderr の差し替えが効くように対応しています。 [ruby-core:124705] [Bug #21867]
