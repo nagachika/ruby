@@ -1,0 +1,1 @@
+rb_class_inherited_p()、rb_class_superclass()、rb_intern_const() の 3つの関数の prototype 宣言に RBIMPL_ATTR_PURE() という attribute 指定のマクロを使っていたのですが、これらの関数は副作用をもっているため RBIMPL_ATTR_NOALIAS() に変更しています。 [ruby-core:126742] [Bug #22324]
