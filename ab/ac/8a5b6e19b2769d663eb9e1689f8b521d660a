@@ -1,0 +1,1 @@
+1c13d07cfca130ae3c0631d24ef21680099c02a7 の警告追加に伴なって test-all および rubyspec の alias の利用を修正しています。
