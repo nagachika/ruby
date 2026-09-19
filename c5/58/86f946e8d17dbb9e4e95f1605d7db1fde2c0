@@ -1,0 +1,1 @@
+GC の defaualt GC で finalizer の管理用リストの操作で Ractor Local GC の導入で VM lock が不要になってたので削除しています。
