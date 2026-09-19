@@ -1,0 +1,1 @@
+同じく String#tr の SIMD 命令対応でループ上限を格納する変数の型を unsigned にして不要な assertion を削除しています。
