@@ -1,0 +1,1 @@
+同じく Ractor 間のオブジェクトコピーのための ractor courier で Marshal の dump の実装を流用するようにしているみたいです。このために rb_marshal_compat_lookup() という内部 API を追加しています。
