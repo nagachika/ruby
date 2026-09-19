@@ -1,0 +1,1 @@
+rubygems のテスト用のダミーサーバーの socket 通信で捕捉する例外に Errno::ECONNABORTED, Errno::ECONNRESET を追加しています。
