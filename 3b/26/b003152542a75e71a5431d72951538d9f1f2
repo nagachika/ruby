@@ -1,0 +1,1 @@
+sync モードの IO で IO#write に複数の引数を渡した時に IOV_MAX を越えているとバッファに残したままになっていたので、sync モードの動作をさせるため flush しておくようにしています。 この関数(io_binwritev())内では sync モードの分岐はないですが、そもそもこの関数の呼び元は 1つで、そこにくるのは sync モードの時だけなので無条件で flush してもいいということみたいでした。 https://github.com/ruby/ruby/pull/18905
