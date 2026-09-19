@@ -1,0 +1,1 @@
+rubygems で URI の https://TOKEN:@host/ が password を空文字列として解釈するので redacted で TOKEN が残るのを修正しています。
