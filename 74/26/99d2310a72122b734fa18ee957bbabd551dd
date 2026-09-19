@@ -1,0 +1,1 @@
+同じく Ractor 間のオブジェクトコピーのための ractor courier で Marshal が使う marshal_dump/marshal_load や _dump/_load, _dump_data/_load_data などのメソッドが定義されていたらこれを利用するようにしています。
