@@ -1,0 +1,1 @@
+rubygems の Gem::RemoteFetcher#fetch_http でリダイレクト処理、Location ヘッダの扱いの不具合などを compact_index_client と揃えるよう修正しています。
