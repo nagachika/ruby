@@ -1,0 +1,1 @@
+Module#prepend で追加された Module 内のメソッドに対して alias や Module#alias_method で alias を作成した時に deprecated 警告を出すようにしています。 昨日の 1c0b1be076437e618a331726a5334d77c892bc6e での Kernel で定義されたメソッドの alias を警告するのと同様 ancestors に登場しない Module のメソッドを呼び得るからということみたいです。 [ruby-core:126530] [Bug #22273]
