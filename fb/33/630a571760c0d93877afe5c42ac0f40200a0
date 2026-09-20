@@ -1,0 +1,1 @@
+GC の default 実装で Ractor Local GC での sweep lock 取得が不要なので削除し、rb_gc_rest() で VM 全体の lock を取得するようにしています。 がこの後 9f6f03ecae7f97864f296f2a043607f776d5c4d2 で再修正されています。
