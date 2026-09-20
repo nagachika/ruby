@@ -1,0 +1,1 @@
+rb_freeze_singleton_class() という関数の宣言に RBIMPL_ATTR_DEPRECATED_EXT() をつけて、Ruby 4.2 からは非公開関数として fl_type.h から prototype 宣言を削除するように予約しています。
