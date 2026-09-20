@@ -1,0 +1,1 @@
+GitHub Actions の coroutine 実装の amd64 の shadow stack 対応のテストを行う workflow で SHSTK が無効の時にエラーにしていましたが /proc/cpuinfo をチェックして未対応のアーキテクチャの場合はエラーにしないようにしています。
