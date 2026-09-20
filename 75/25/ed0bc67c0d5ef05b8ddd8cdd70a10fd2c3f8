@@ -1,0 +1,1 @@
+1c0b1be076437e618a331726a5334d77c892bc6e で alias 対象のメソッドが Object(Kernel) で定義されたメソッドの時に deprecated 警告を出すようにした変更に対応するため rubyspec のテストで version guard を追加しています。 [ruby-core:126537] [Bug #22276]
