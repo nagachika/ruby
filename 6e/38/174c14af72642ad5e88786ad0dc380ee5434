@@ -1,0 +1,1 @@
+ZJIT でブロック引数渡しでのメソッド呼び出しでもプロファイルされたレシーバ型ごとに HasType 分岐＋特殊化 send を並べる最適化を行うようにしています。外れたら汎用の send に fallback します。 https://github.com/ruby/ruby/pull/18567
