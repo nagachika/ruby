@@ -1,0 +1,1 @@
+fb33630a571760c0d93877afe5c42ac0f40200a0 の再修正。 GC のテストが SIGABRT で異常終了するようになってしまっていたので VM lock が必要かどうかの判定 gc_local_gc_holds_vm_lock() を object space が 1つだけかどうかで判定するように修正しています。
