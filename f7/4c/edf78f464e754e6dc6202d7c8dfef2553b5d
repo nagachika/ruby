@@ -1,0 +1,1 @@
+a323b13af90ade4f890c9dd6d4ad84497d48b3e9 からの続きで rb_obj_freeze() 内で OBJ_FROZEN() によるチェックや即値オブジェクトが渡された時に rb_bug() で異常終了させるチェックを削除して単に OBJ_FREEZE() を呼ぶだけの wrapper 関数にしています。
