@@ -1,0 +1,1 @@
+Array の initialize メソッドを無理矢理呼ぶと assertion にひっかかって異常終了することがあったので capa の設定前に明示的に len を一旦 0 にリセットするようにしています。 [ruby-core:126768] [Bug #22333]
