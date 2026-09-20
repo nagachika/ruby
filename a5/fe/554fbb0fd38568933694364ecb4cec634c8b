@@ -1,0 +1,1 @@
+ZJIT で再コンパイルのために JIT コンパイルされたコードを破棄するのをプロファイルされた型から外れていた時に即座に行なっていたのを --zjit-num-exits-until-invalidate で指定される回数まで待つようにしています。 https://github.com/ruby/ruby/pull/18849
