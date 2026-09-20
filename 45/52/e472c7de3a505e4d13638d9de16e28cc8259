@@ -1,0 +1,1 @@
+include/ruby/internal/attr/noalias.h のコメントの typo 修正。単語のあいだの空白の入りかたがへんですけど横幅を合わせるために間延びさせてるんですかね?
