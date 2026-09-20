@@ -1,0 +1,1 @@
+RB_OBJ_FREEZE() がただの rb_obj_freeze_inline() の alias にしていたのを既に RB_OBJ_FROZEN() が真ならスキップするチェックつきの inline 関数に変更しています。
