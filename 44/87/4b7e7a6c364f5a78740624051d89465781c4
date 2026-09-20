@@ -1,0 +1,1 @@
+String#strip, String#lstrip, String#rstrip およびその ! つき破壊的メソッド群などで引数に対する to_str メソッド呼び出し内で receiver の文字列バッファが破壊的変更で変化した場合に異常終了してしまう可能性があった不具合をまとめて修正しています。 RSTRING_GETMEM() の取り直しをするようにしています。
