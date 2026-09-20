@@ -1,0 +1,1 @@
+IO::Buffer#get_string でも引数に to_str メソッドを呼び出して文字列オブジェクトへの変換を行う場合があり、そこで receiver の IO::Buffer#resize メソッドでバッファが破棄されていると異常終了する可能性があったのでバッファをサイズの取得を引数の処理後に行うようにタイミングをずらして修正しています。 https://github.com/ruby/ruby/pull/18919 [ruby-core:126782] [Bug #22336]
