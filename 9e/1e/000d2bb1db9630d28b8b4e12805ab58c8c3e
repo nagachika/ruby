@@ -1,0 +1,1 @@
+File.mtime, File::State#mtime および File#mtime メソッドの rdoc 用コメントにまとめてサンプルとリンクを追記しています。
