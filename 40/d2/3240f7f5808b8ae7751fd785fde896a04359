@@ -1,0 +1,1 @@
+d87ffb271a80fb108de3465d12ada829f3c130af の続きでキーワード引数の処理の重複した処理を args_setup_kw_parameters_not_found() という関数に切り出して共有するようにリファクタリングしています。
