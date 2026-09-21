@@ -1,0 +1,1 @@
+win32/Makefile.sub で $(MSC_VER) をチェックして CPPFLAGS に preprocessor 関連のオプション(-Zc:preprocessor や -experimental:preprocessor) を追加するようにしています。 RUBY_ASSERT_MESG_WHEN() などのマクロの引数の扱いのために新しい preprocessor の挙動をさせるようにするために指定が必要だったようです。 またこれに伴ない coroutine 実装の win32/win64 版をビルドするためのルールで as へのコマンドラインオプションから $(XCFLAGS) と $(CPPFLAGS) を削除しています。preprocessor 用のオプションが as に渡されても存在しないからでしょう。
