@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の未使用のメソッド FileUtils#fu_copy_stream0 を削除しています。
