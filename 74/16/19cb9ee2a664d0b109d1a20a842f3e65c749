@@ -1,0 +1,1 @@
+File.pipe? と File::Stat#pipe?、Pathname#pipe? の rdoc 用コメントの手直し。
