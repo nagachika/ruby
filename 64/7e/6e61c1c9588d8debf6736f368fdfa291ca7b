@@ -1,0 +1,1 @@
+be820c30cb188b043976f806da776896deb836d5 の続きで標準添付ライブラリ fileutils の FileUtils#rm_r のテストで Windows の時にも skip していましたが、root ユーザーかどうかのチェック root_in_posix? が Windows 環境でも tgrue を返すとのことで条件をまとめるリファクタリング。
