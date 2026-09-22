@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils のテストで Windows 環境で dir コマンドで symbolic link に <SYMLINKD> の表示が出ない環境はテストを skip するようにしています。 https://github.com/ruby/ruby/pull/17545 で追加したテストですが WIndows の環境によっては不具合があってうまく通らないみたいです。
