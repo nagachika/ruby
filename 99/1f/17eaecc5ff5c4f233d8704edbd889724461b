@@ -1,0 +1,1 @@
+GitHub Actions の独自 action で環境変数 RUBY_DUMP_AST へ設定する内容を ./dump_ast-required-unexpectedly とわざと存在しないコマンド名にして *.rbinc ファイルの生成後に dump_ast が呼ばれないことを確認するようにしています。
