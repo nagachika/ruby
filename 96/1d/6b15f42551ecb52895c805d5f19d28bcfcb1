@@ -1,0 +1,1 @@
+File.readable_real? と File::Stat#readable_real? の rdoc 用コメントの手直し。
