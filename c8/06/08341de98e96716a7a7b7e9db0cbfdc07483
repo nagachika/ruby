@@ -1,0 +1,1 @@
+File.readable?、File::Stat#readable? および Pathname#readable? の rdoc 用コメントの手直し。
