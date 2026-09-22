@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の FileUtils#ln_sr で symbolic link を経由して同じ実体のディレクトリに対する相対パスの symblic link を作ろうとして空文字列のリンクになるのを回避するようにしています。
