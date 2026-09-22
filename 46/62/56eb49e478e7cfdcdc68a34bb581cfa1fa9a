@@ -1,0 +1,1 @@
+GitHub Actions の tarball を作成するテストの workflows でも 991f17eaecc5ff5c4f233d8704edbd889724461b と同様に RUBY_DUMP_AST にわざと不正な名前を指定して dump_ast の呼び出しをエラーにするようにしています。
