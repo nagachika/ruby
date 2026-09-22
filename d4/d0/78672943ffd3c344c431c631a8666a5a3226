@@ -1,0 +1,1 @@
+String#byteindex で引数に to_int を呼び出して変換する時に receiver の String が破壊的変更が行なわれりつ異常終了する可能性があったので文字列サイズを得る RSTRING_LEN() を引数変換の後に呼ぶように移動しています。
