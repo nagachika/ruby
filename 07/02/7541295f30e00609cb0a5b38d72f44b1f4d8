@@ -1,0 +1,1 @@
+File の rdoc 用コメント群で access(3) や eaccess(3) という記述を code タグでマークアップするようにしています。
