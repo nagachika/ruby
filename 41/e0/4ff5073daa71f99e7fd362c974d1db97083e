@@ -1,0 +1,1 @@
+prism の特殊変数 __FILE__ の Node に PM_NODE_FLAG_STATIC_LITERAL というフラグをつけて静的にファイルパスを埋め込んでいたのをやめています。ISeq にファイルパスが埋め込まれて dump/load で可搬にならないのを防ぐためみたいです。 [ruby-core:102310] [Feature #17593]
