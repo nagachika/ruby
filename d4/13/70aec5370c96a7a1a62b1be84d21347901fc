@@ -1,0 +1,1 @@
+Dir#each、#each_child、#scan メソッドのブロックで receiver の Dir を close すると、dirp->dir が NULL になり異常終了していたので、ブロック呼び出し後に閉じられていないか確かめて IOError を発生させるように修正しています。
