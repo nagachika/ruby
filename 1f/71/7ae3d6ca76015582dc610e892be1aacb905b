@@ -1,0 +1,1 @@
+GC の mmtk 実装時の GC.config[:mmtk_plan] のテストを環境変数 MMTK_HEAP_MODE=fixed を設定して動かすようにしています。
