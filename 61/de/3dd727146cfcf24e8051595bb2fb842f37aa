@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の T_TYPEDDATA 型オブジェクトの大部分のクラスの rb_data_type_t で flags のフラグを RUBY_TYPED_FREE_IMMEDIATELY から RUBY_TYPED_THREAD_SAFE_FREE に変更して Ractor local GC で直接解放可能にしています。
