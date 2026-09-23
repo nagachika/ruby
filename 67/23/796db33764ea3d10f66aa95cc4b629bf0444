@@ -1,0 +1,1 @@
+Dir#path、File.path、IO#path などの rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/18936
