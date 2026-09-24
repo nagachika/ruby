@@ -1,0 +1,1 @@
+ISeq 解放時に ZJIT のフックから get_or_create_iseq_payload() を呼んで jit_payload をクリアしているのですが、ZJIT が利用していない ISeq でも呼び出して jit_payload を確保してしまっていたのを修正。ポインタを取得して NULL なら何もしない処理  get_iseq_payload_ptr() を追加しています。 https://github.com/ruby/ruby/pull/18953
