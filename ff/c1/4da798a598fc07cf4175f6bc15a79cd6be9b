@@ -1,0 +1,1 @@
+File.setuid? と File::Stat#setuid? および Pathname#setuid? の rdoc 用コメントの手直し。 https://github.com/ruby/ruby/pull/18965
