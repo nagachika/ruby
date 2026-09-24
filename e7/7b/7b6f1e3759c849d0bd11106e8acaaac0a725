@@ -1,0 +1,1 @@
+ZJIT で Struct で生成したクラスのインスタンス生成時に例外が発生しないように 1070504b89be433a1af1498e2fad51661ae1b315 で変更したのでこれを利用して leaf 判定して最適化されるようにしています。 https://github.com/ruby/ruby/pull/18835
