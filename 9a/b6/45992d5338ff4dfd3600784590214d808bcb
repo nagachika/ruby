@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils のテストの FileUtils.cmp やその alias についてのテストケースを追加しています。 https://github.com/ruby/fileutils/issues/180 https://github.com/ruby/fileutils/issues/184
