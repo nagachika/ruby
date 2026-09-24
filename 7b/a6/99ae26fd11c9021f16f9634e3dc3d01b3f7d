@@ -1,0 +1,1 @@
+Fiber の解放処理を postponed job を使わず mutex によるロックで排他して Ractor Local GC で直接解放するようにしています。
