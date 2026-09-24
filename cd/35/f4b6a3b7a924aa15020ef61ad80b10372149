@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils のテストで FileUtils.cd のテストケースを追加しています。 https://github.com/ruby/fileutils/issues/182
