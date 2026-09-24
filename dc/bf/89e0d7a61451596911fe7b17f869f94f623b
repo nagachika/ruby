@@ -1,0 +1,1 @@
+ZJIT の低レベル中間表現 LIR の Abort 命令を処理を返さない終端命令? として扱うようにして不要な return 用の命令の生成を抑制しています。 https://github.com/ruby/ruby/pull/18967
