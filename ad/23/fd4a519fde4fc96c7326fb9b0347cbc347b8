@@ -1,0 +1,1 @@
+Windows 環境での File.stat が symbolic link がループを形成していた時のエラーを無視してしまっていたので Errno::ELOOP として発生させるようにしています。 [ruby-core:126825] [Bug #22340]
