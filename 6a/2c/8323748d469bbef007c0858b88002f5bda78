@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils のテストで FileUtils.options というメソッドのテストメソッドが空っぽだったのでテストを追加しています。 https://github.com/ruby/fileutils/issues/194
