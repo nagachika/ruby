@@ -1,0 +1,1 @@
+tool/zjit_diff.rb というツールのオプションに --zjit-stats を追加し ZJIT の stats 収集の on/off の指定を可能にしています。 stats のカウンタのための処理が性能に与える影響を除外したい時のため。 https://github.com/ruby/ruby/pull/18893
