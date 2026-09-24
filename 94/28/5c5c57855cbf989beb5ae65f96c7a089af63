@@ -1,0 +1,1 @@
+Encoding.locale_charmap の rdoc 用コメントに情報が得られなかったら nil を返すと書いてあるけど実際には nil を返すことはないので記述を削除しています。 https://github.com/ruby/ruby/pull/18943
