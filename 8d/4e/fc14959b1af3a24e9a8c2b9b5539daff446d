@@ -1,0 +1,1 @@
+Kernel#dup の実装で即値(special const)では複製を行わないことを前提に ZJIT で receiver が即値とわかっている場合は dup 命令を削除する最適化を行うようにしています。 https://github.com/ruby/ruby/pull/18872
