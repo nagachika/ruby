@@ -1,0 +1,1 @@
+File.size と File#size, File::Stat#size の rdoc 用コメントにサンプルを追記しています。
