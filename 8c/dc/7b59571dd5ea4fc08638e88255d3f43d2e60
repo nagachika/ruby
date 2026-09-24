@@ -1,0 +1,1 @@
+prism の不具合で異常終了する可能性があった memcpy(3) の未定義挙動の修正。 https://github.com/ruby/prism/pull/4228 [ruby-core:126449] [Bug #22254]
