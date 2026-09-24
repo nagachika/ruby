@@ -1,0 +1,1 @@
+ZJIT で Class#superclass で receiver がコンパイル時にわかっていたらその superclass を定数として畳み込む最適化を追加しています。 https://github.com/ruby/ruby/pull/18682
