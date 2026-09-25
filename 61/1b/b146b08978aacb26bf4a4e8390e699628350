@@ -1,0 +1,1 @@
+deprecated warning など最初は $VERBOSE 設定時のみ警告にして将来のバージョンで常に警告出力するようにするなどの予約をコード書き換えせずに行なえるようにするための関数 rb_warn_to_remove() および rb_warn_to_remove_at() と deprecated warning 用の rb_warn_scheduled_deprecation() を追加しています。RUBY_API_VERSION_CODE を利用して指定したバージョンからデフォルト警告、次に RUBY_DEBUG 有効化時にビルドエラーを起こすようにしています。実際に最近の alias での警告をこれを利用して出すようにしています。 [ruby-core:126656] [Feature #22304]
