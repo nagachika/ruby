@@ -1,0 +1,1 @@
+marshal.c の構造体 struct dump_arg のメンバー compat_tbl をポインタで st_table を持っていたのを構造体内に埋め込みで持つようにして初期化の有無を has_compat_tbl という bool 型メンバーで持つようにリファクタリングしています。省メモリと malloc(3) の回数を減らすため? Marshal.dump の内部的構造体を最適化するのにどの程度現実的な意味があるんだろう?
