@@ -1,0 +1,1 @@
+ZJIT のローカル変数読み書きの特殊命令 getlocal_WC_0 や setlocal_WC_0 の対応を追加しています。
