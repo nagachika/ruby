@@ -1,0 +1,1 @@
+st.c の set_keys() という static 関数の static 修飾子を削除しています。 Windows の MSVC での最適化を無効にしたビルド時にリンクエラーになったとのこと。
