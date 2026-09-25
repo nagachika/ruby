@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の SendDirect 命令から side-exit 時に状態を壊さないように VM stack の状態を保持するよう修正しています。 https://github.com/ruby/ruby/pull/18983
