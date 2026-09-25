@@ -1,0 +1,1 @@
+ZJIT で rb_yarv_str_eql_internal() という関数に T_STRING 型でないオブジェクトを渡す可能性があったのを修正しています。 https://github.com/ruby/ruby/pull/18971
