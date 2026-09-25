@@ -1,0 +1,1 @@
+ruby 実装の組み込みメソッド定義から使える Promitive.cexpr! でローカル変数に書き込む機能を廃止しています。 ZJIT での最適化のしやすさのためみたいです。また代替として Promitive.local_self! を追加しています。 https://github.com/ruby/ruby/pull/18873
