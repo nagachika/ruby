@@ -1,0 +1,1 @@
+ZJIT でブロック呼び出しの最適化版で ec->cfp への書き込みをしていたのをやめています。JIT-to-JIT の呼び出し時に異常終了することがあった不具合の修正みたいです。 https://github.com/ruby/ruby/pull/18979
