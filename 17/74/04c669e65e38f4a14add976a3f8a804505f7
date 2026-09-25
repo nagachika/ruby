@@ -1,0 +1,1 @@
+5a395d2ad60e5e823bfe0d5fb0e7039af3789df5 と同様に marshal.c の構造体 struct dump_arg のメンバー data を構造体内に埋め込みにしています。
