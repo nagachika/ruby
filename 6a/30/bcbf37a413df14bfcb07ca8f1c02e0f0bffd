@@ -1,0 +1,1 @@
+5a395d2ad60e5e823bfe0d5fb0e7039af3789df5 と類似で marshal.c の構造体 struct load_arg のメンバー partial_objects を構造体内に埋め込みにしています。
