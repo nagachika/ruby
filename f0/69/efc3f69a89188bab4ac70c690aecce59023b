@@ -1,0 +1,1 @@
+Set#classifi, Set#divide, Set#flatten, Set#map などのメソッド群が返す Set オブジェクトが compare_by_identity のフラグを引き継いでいなかった不具合を修正しています。
