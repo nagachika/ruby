@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で新しめの ruby で Thread::Backtrace::Location#syntax_tree が使えるなら利用するようにしています。
