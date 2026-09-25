@@ -1,0 +1,1 @@
+ac0debb1744e60146c842de5cb4adee8f39acca2 の続きで Ruby::Box 利用時に alias で作られた別名のグローバル変数を defined? で正しく判定できていなかった不具合を修正しています。
