@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL のエラー時に openssl_clear_error() でエラー情報をクリアせずに例外を呼ぶパスが残っていたのを修正しています。 OpenSSL は内部の静的な領域にエラー情報を保持しているので対応した時にクリアしないと後続の処理がエラー扱いになる可能性があるのでした。 https://github.com/ruby/openssl/pull/1114
