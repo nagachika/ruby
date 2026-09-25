@@ -1,0 +1,1 @@
+bundler の bundle gem で生成するプロジェクトの Cargo.toml で使う magnus パッケージのバージョンを更新しています。
