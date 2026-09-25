@@ -1,0 +1,1 @@
+323f42515c81c52d94ffb05dbe9abcc445159c15 に対応して File.expand_path と Pathname#sub_ext のテストにテストケースを追加しています。
