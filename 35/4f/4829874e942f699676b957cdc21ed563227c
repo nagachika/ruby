@@ -1,0 +1,1 @@
+tool/auto_review_pr.rb で prism_compile.c の変更が含まれている時の upstream_repos から除外する upstream 名の間違いを修正。
