@@ -1,0 +1,1 @@
+98e99961ff4d5d8d7e31e31c161419a79e43c14c と同様に internal/compilers.h の FLEX_ARY_LEN マクロの定義で MSVC では構造体末尾に置く可変長配列の要素数に 0 を使わないようにしています。
