@@ -1,0 +1,1 @@
+internal/compilers.h の BITFIELD() マクロの preprocessor 分岐で MSVC 利用時には任意の型指定を使わないようにしています。
