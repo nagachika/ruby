@@ -1,0 +1,1 @@
+ruby 本体テスト用の test/unit で jobserver による並列度の調節が --repeat-count による2度目以降の実行時に効いていなかった不具合を修正しています。
