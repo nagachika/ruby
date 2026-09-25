@@ -1,0 +1,1 @@
+ZJIT で String#to_sym の呼び出しを String#intern と同様に HIR の StringIntern 命令に変換してインライン最適化するようにしています。
