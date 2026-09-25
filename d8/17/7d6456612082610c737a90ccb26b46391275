@@ -1,0 +1,1 @@
+ZJIT の文字列の struct RBasic::flags の読み込みを HIR で実装するようにして最適化により共通化できるようにしています。 https://github.com/ruby/ruby/pull/18894
