@@ -1,0 +1,1 @@
+c29739cb3ef483c215b0c13d30c96cc21b0f680b で追加された RubyVM::YJIT.max_compile_time_ns のテストが flasky だったので指定する時間を大きく引き上げています。
