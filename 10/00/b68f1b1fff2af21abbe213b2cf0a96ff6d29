@@ -1,0 +1,1 @@
+file.c の Windows 環境の分岐のためのマクロ USE_NTFS_ADS を削除して USE_NFTS で代替しています。
