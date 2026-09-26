@@ -1,0 +1,1 @@
+IO::Buffer#set_string でバッファサイズが大きい時には GVL を解放して memmove() を呼ぶためそこで別の Thread からバッファ解放されると use-after-free になるので、io_buffer_lock()/io_buffer_unlock() で IO::Buffer のバッファのロックを取得しておくようにしています。
