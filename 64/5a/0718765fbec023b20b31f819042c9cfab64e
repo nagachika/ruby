@@ -1,0 +1,1 @@
+bootstraptest の Kernel#fork のテストで子プロセスで sleep する時間を少しだけ伸ばしています。
