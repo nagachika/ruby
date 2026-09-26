@@ -1,0 +1,1 @@
+prism/internal/bit.h で Windows 環境の pm_ctzll() の実装に _BitScanForward64() という API を利用するのを 64 bit MSVC でのビルド時に限るよう preprocessor 分岐の条件を追加しています。
