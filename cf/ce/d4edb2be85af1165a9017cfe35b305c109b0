@@ -1,0 +1,1 @@
+GC.stat の統計情報で global compaction の CPU 時間の計測が複数 Ractor 利用時に重複した計算が行なわれることがあった不具合を修正しています。
