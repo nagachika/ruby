@@ -1,0 +1,1 @@
+tool/auto_review_pr.rb で onigmo から移植してきたソースコードへの変更の pull request に upstream への pull request を推奨するコメントをさせていたのをやめています。
