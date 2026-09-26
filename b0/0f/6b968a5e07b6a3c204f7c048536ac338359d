@@ -1,0 +1,1 @@
+io.c の既に存在しないマクロ HAVE_SPAWNVE による preprocessor 分岐を削除しています。
