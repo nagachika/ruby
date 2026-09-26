@@ -1,0 +1,1 @@
+process.c の主に Windows 向けの不要な preprocessor 分岐を削除して整理しています。
