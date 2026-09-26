@@ -1,0 +1,1 @@
+ZJIT の Rust 実装の不要な処理を削るリファクタリング。 https://github.com/Shopify/ruby/issues/1066 https://github.com/ruby/ruby/pull/18998
