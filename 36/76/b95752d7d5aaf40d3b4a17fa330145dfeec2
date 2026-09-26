@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR のダンプ時の表示に含めるコメントに行番号の対応を追加するオプション --zjit-dump-hir-map を追加しています。 https://github.com/ruby/ruby/pull/18752
