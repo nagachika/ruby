@@ -1,0 +1,1 @@
+io.c の  preprocessor 分岐の __BOW__ というマクロの判定を削除しています。 BSD on Windows という激レアな環境向けのマクロみたいです。
