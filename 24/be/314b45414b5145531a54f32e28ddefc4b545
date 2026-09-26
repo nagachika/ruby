@@ -1,0 +1,1 @@
+詳細は把握できていませんが複数 Ractor 利用時に GC の incremental marking を無効化していたのを可能にしているようです。
