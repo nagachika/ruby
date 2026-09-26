@@ -1,0 +1,1 @@
+include/ruby/atomic.h の preprocessor 分岐の rbimpl_atomic_size_fetch_add() の実装に InterlockedExchangeAdd64() を使う条件を _WIN32 の定義から _WIN64 に変更して 32 bit Windows でのビルドエラー? を修正しています。
