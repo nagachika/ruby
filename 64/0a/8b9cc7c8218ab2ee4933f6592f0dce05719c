@@ -1,0 +1,1 @@
+拡張ライブラリ etc の Etc.uname で Windows ARM64 の環境でアーキテクチャが unknown になっていたので "ARM64" を返せるように対応を追加しています。
