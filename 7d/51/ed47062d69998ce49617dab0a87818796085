@@ -1,0 +1,1 @@
+拡張ライブラリ etc の Etc.uname で 32 bit Windows の対応を削除しています。
