@@ -1,0 +1,1 @@
+stdckdint.h の有無の判定で、__has_include が使えるならそちらを優先し、configure による判定結果の HAVE_STDCKDINT_H は __has_include が無い場合のみ参照するようにしています。拡張ライブラリを ruby 本体より古いコンパイラでビルドしたときに、存在しないヘッダを include してしまうのを避けるためみたいです。
