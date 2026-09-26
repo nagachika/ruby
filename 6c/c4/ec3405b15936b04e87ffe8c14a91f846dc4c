@@ -1,0 +1,1 @@
+60c206b683d5e55d0d8b90556c5d84070b05b3e3 の GC.stat の scope キーワード引数追加に対応して sample/gc_stat_ractors.rb というサンプルスクリプトを追加しています。
