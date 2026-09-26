@@ -1,0 +1,1 @@
+90a78de81cd1bce980438a4509f01eca3ce61c01 の続きでマシンスタックのオーバーフローチェックをする stawck_check() で STACK_LEVEL_MAX が 0 の時の早期 return を追加しています。 WASM/WASI 環境でのエラー回避のためみたいです。
