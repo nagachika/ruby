@@ -1,0 +1,1 @@
+GC.stat にキーワード引数 scope を追加して :ractor/:local は Ractor ごとの object space の統計情報を返し、:global を指定するとプロセス全体の合計を返すようにしています。
