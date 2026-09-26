@@ -1,0 +1,1 @@
+io.c の nogvl_fdatasync() 内の不要になってた Windows 向け preprocessor 分岐を削除しています。
