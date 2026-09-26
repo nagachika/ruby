@@ -1,0 +1,1 @@
+rubygems および bundler の gem ダウンロード時の redirect 対応で認証情報を追随させる条件を hostname のみの判定から schema と port も含めるように厳しくしています。
