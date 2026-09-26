@@ -1,0 +1,1 @@
+io.c で io.h の #include をする条件から DOSISH を削除して cygwin 環境でのみ #include するようにしています。
