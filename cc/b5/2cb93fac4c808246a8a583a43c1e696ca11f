@@ -1,0 +1,1 @@
+rubygems の gem uinstall 時に build_info ファイルも削除するようにしています。
