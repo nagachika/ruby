@@ -1,0 +1,1 @@
+dir.c で Windows 向けに mkdir/rmdir/opendir の代替実装へのマクロ定義をしていたのが既に include/ruby/win32.h および win32/dir.h で定義済みで冗長だったので削除しています。
