@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で os: 11-arm の環境で test-all の実行をしていなかった(btest, test-basic, test-tool のみ) のを make check で全テストを実行するようにしています。 [ruby-core:121699] [Feature #21277]
