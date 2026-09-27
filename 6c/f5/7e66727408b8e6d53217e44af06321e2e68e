@@ -1,0 +1,1 @@
+thread_none.c の return しない関数 rb_ractor_sched_wait() の宣言に NORETURN() マクロを使うようにしています。
