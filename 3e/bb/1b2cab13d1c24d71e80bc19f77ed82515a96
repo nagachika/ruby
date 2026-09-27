@@ -1,0 +1,1 @@
+Dir.chdir で複数 Thread でブロックつきの chdir をした時の排他のためのロック機構で複数 Ractor 利用時に Ractor shareable でない文字列を参照してしまう可能性があったので格納する path を複製して shareable にしています。
