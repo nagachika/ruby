@@ -1,0 +1,1 @@
+rubyspec の RbConfig の "host_cpu" 項目のテストで  mswin 環境での skip を追加しています。
