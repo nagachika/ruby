@@ -1,0 +1,2 @@
+拡張ライブラリ win32/resolv で rb_define_method() などの関数に渡す関数ポインタを RUBY_METHOD_FUNC() マクロを用いて明示的にキャストするようにしています。Windows 環境でのビルドエラーの対応みたいです。
+https://github.com/ruby/resolv/issues/92
