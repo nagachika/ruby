@@ -1,0 +1,1 @@
+dir.c で Windows 向けの preprocessor 分岐の不要になっていたものを削除しています。
