@@ -1,0 +1,1 @@
+include/ruby/internal/compiler_is/msvc.h でも昨日の d0711718afef13bf3c8289f5425ff031b1676bf6 と同様に最低バージョンを 1915 に引き上げています。
