@@ -1,0 +1,1 @@
+File.truncate と File#truncate および Pathname#truncate の rdoc 用コメントをまとめて手直ししています。
