@@ -1,0 +1,1 @@
+win32/Makefile.sub の NTVER 変数を _WIN32_WINNT_WIN8 から _WIN32_WINNT_WIN10 に引き上げています。
