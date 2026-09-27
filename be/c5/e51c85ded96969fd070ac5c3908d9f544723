@@ -1,0 +1,1 @@
+Class.new.freeze.dup のように freeze したインスタンスの dup で複製したインスタンスに対して instance_variable_set でインスタンス変数設定を行うとなぜか Ractor::IsolationError 例外が発生していたのを修正しています。 Object Shapes の fields_obj の freeze 状態が伝播していた模様。 [ruby-core:126842] [Bug #22378]
