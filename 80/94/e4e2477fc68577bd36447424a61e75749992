@@ -1,0 +1,1 @@
+IO#read で読み込み時に IO::TimeoutError が発生した時に途中まで読み込んだ内容が喪失してしまっていたので io_bufread() の呼び出しに rb_rescue2() を使って例外発生時にバッファに読み戻しを行う io_restore_read_buffer() という関数を追加して復旧するようにしています。またこのため io_bufread() にどこまで読んだかを返すための out 引数を追加しています。 https://github.com/ruby/ruby/pull/19053
