@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump の T_HASH の時の出力出力に ar_table 実装の場合の表示を追加しています。
