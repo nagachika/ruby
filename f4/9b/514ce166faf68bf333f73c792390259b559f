@@ -1,0 +1,1 @@
+include/ruby/win32.h の intptr_t、uintptr_t、INTPTR_MAX マクロ定義を削除して #include <stdint.h> にまかせるようにしています。古い VC のためで最低バージョン引き上げにより不要になったとのこと。
