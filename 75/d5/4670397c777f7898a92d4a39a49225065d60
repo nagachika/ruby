@@ -1,0 +1,1 @@
+標準添付ライブラリ tempfile で、Windows では開いているファイルを削除しようとするとエラーになるので unlink でエラーを無視するのですが Tempfile::FinalizerManager では Errno::ENOENT のみ rescue していて finalizer 経由の削除時にはこのエラーが標準エラー出力に出てしまっていたので Errno::EACCES も捕捉するようにしています。
