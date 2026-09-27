@@ -1,0 +1,1 @@
+GC.stat の scope: :global を渡したテストで assert_separately の子プロセス内で raise することでエラーを起こしていたのを assert_equal を使ってより期待値とエラー内容がわかりやすくなるようにしています。
