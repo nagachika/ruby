@@ -1,0 +1,1 @@
+2ad6b99a98058ce25de2d1d536f291b93d893834 での rb_gc_register_address() の仕様変更に伴ない別の Ractor の unshareable なオブジェクトを登録できなくなったので、誤って登録しているところがないかの検証のため RUBY_DEBUG マクロまたは ASAN 有効化時に登録時に不正でないかのチェックを行うようにしています。
