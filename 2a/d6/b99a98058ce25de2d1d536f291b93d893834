@@ -1,0 +1,1 @@
+GC の mark の root を登録する rb_gc_register_address() で登録されたアドレスをグローバルなリストで管理していたのを呼び元の Ractor ごとに管理するようにして Ractor local GC で対象の部分だけ処理できるようにしてロック取得を省けるようにしています。 [ruby-core:126538] [Feature #22277]
