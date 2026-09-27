@@ -1,0 +1,1 @@
+c45c9c26747789006e64c6a71572bffb2871bff7 で MSVC の最低バージョンが 1915 になったので、include/ruby/internal/ 配下のより古いバージョンのサポートのための RBIMPL_COMPILER_SINCE() マクロの利用が不要になったので削除しています。
