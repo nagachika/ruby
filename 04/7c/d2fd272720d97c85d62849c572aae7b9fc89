@@ -1,0 +1,1 @@
+gc/default/default.c の gc_aligned_malloc() 内の _aligned_malloc() の prototype 宣言 を削除。これも MSVC の最低バージョン引き上げにより不要になった模様。
