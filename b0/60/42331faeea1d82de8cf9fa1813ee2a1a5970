@@ -1,0 +1,1 @@
+拡張ライブラリ win32/resolv のテストのスキップ条件に Win32::Resolv.tcpip_params の存在チェックを追加しています。JRuby でのエラー回避のため。
