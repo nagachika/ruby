@@ -1,0 +1,1 @@
+Array#sum で要素に Float が含まれている時の誤差軽減のため Kahan-Babuska balancing compensated summation というアルゴリズムを利用する条件分岐でカウンタの i をデクリメントしていたのでブロックの呼び出し回数が増えていたのを避けるようにしています。なのですが e への代入も削除しているので init_is_float は真だけど e が Float ではない状態で RB_FLOAT_TYPE_P(e) が真のパスに goto 文で突入していて不正な処理が行なわれるようになっていそうです。
