@@ -1,0 +1,1 @@
+internal/compilers.h のマクロ MSC_VERSION_SINCE / MSC_VERSION_BEFORE は既に利用箇所なくなっていたので削除しています。internal/bits.h と parser_bits.h の include コメント (MSC_VERSION_SINCE のために include している、というもの)も実態に合わせて __has_builtin のためと修正しています。
