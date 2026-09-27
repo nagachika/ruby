@@ -1,0 +1,1 @@
+win32/Makefile.sub で missing/langinfo.c のビルドを削除しています。
