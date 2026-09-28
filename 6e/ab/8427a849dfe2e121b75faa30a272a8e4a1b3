@@ -1,0 +1,1 @@
+GC.disable 中に Ractor が終了すると postmortem GC が実行されなくて不正な状態になる不具合があったので ready_to_gc() で postmortem GC の時は強制的に GC 有効化するようにしています。
