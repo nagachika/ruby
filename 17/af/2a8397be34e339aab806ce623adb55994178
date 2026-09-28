@@ -1,0 +1,1 @@
+fa3cbf9e769d5750858ff8ace305ae5ff25be08f の続きで拡張ライブラリ etc で Windows 環境の pGetActiveProcessorCount() API に渡すための定数 ALL_PROCESSOR_GROUPS が未定義の時の代替定義を追加しています。 MinGW でのビルドエラー回避のためみたいです。
