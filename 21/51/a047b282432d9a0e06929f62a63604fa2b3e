@@ -1,0 +1,1 @@
+Process.spawn での環境変数の扱いのテストで除外対象の環境変数に Windows 環境化で PROCESSOR_ARCHITEW6432 を追加しています。
