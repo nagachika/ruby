@@ -1,0 +1,1 @@
+7505510c235afb10ee85ce676fd4a2ffd3ed78d4 の追加修正で GitHub Actions の Windows 版 workflow で x86 版のビルドの判定を case() コマンド(?)を利用するようにリファクタリングしています。
