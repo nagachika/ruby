@@ -1,0 +1,1 @@
+file.c で既に不要になっていた Windows 向けの preprocessor 分岐を削除しています。
