@@ -1,0 +1,1 @@
+3e7be388180b57ac97d9e2bf637af17232e7897a と 10eee53bd5aeaa758d32d2a512f2b595ff338484 により CharNext() というマクロが不要になったので eval_intern.h から定義を削除しています。
