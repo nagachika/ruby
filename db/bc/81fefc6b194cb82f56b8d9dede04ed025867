@@ -1,0 +1,1 @@
+dln.c および util.c で不要になっていた Windows 環境での missing/file.h の #include を削除しています。
