@@ -1,0 +1,1 @@
+5feb9db04d4478a8fbd153fbf18b1a565e8b22a7 と同様に file.c と hash.c の STAT()/lstat()/access()/truncate() などなどの Windows 版での別名関数へのマクロ定義を削除しています。
