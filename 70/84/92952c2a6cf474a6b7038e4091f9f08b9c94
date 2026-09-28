@@ -1,0 +1,1 @@
+テスト用のユーティリティ EnvUtil の EnvUtil.timeout が標準添付ライブラリ timeout の Timeout.timeout メソッドを 3引数で呼んでいましたが古い ruby (2.3 以前なので相当古いですね)の timeout では 2引数までしか受け付けないため EnvUtil.timeout の第3引数が省略されて nil だったら渡さないよう splat 渡しを使うようにしています。
