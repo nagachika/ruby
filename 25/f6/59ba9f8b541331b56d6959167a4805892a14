@@ -1,0 +1,1 @@
+ZJIT でインライン化されたメソッドの return で不要な HIR の CHeckInterrupts 命令を抑制する最適化。 https://github.com/ruby/ruby/pull/19065
