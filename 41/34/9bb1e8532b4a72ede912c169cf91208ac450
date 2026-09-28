@@ -1,0 +1,1 @@
+fa3cbf9e769d5750858ff8ace305ae5ff25be08f で変更した拡張ライブラリ etc のテストで環境変数 NUMBER_OF_PROCESSORS を読んでいましたが変数が設定されていない時に to_i により 0 になっていたので Kernel#Integer() を使って未設定時にはエラーになるようにしています。
