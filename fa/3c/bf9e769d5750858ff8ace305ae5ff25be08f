@@ -1,0 +1,1 @@
+拡張ライブラリ etc で Etc.nprocessors が Windows 環境だと GetSystemInfo() という API を利用していて、これだとプロセッサ数として取れるのは 64 が上限だったので GetActiveProcessorCount() という API が利用可能ならこれを使って正確な数を取得できるようにしています。
