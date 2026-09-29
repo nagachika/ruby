@@ -1,0 +1,1 @@
+File.unlink と Dir.unlink および Pathname#unlink の rdoc 手直しして、共通したリンク先として doc/file/hard_links.md を切り出しています。
