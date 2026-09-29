@@ -1,0 +1,1 @@
+IO::Buffer の実体である構造体 struct rb_io_buffer の base がポインタとして常に実際に参照するアドレス位置を持っていたのを、IO::Buffer#slice で作った slice や String のバッファをベースとする IO::Buffer の時にはそのバッファの先頭からのオフセットを保持するように内部実装を変更しています。 resize などで source のバッファが移動した時に無効化する対応はしていたものの slice の寿命の管理などが複雑だったので source の変更後も slice が有効になるように根本的な修正をしています。 https://github.com/ruby/ruby/pull/19090
