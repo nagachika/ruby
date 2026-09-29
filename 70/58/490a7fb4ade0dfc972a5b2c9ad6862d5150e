@@ -1,0 +1,1 @@
+prism の RbConfig::CONFIG["host_os"] の判定から djgpp, wince, bccwin を削除しています。
