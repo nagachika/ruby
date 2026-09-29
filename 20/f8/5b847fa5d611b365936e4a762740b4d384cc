@@ -1,0 +1,1 @@
+標準添付ライブラリ fileutils の RUBY_PLATFORM での判定からも wince, bccwin, emx(OS/2) を削除。
