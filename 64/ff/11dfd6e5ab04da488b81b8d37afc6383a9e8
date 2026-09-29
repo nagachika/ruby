@@ -1,0 +1,1 @@
+File.writable? と File::Stat#writable? および Pathname#writable? の rdoc 用コメントの手直し。
