@@ -1,0 +1,1 @@
+File.world_readable? および Pathname#world_readable? の rdoc 用コメントの手直し。
