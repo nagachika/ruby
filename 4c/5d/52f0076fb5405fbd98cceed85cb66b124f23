@@ -1,0 +1,1 @@
+bundler のテストで使う fixture の Gemfile.lock 内の rubyzip のバージョンを更新しています。
