@@ -1,0 +1,1 @@
+rubygems と bundler の OS の判定からも djgpp, wince, bccwin を削除しています。
