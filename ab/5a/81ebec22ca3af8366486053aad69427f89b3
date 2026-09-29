@@ -1,0 +1,1 @@
+configure やテストで DJGPP, Windows CE, VMS, NeXTSTEP, OS/2, BeOS や Borland などの既にサポートを打ち切った OS やコンパイラ向けの分岐や対応を削除しています。
