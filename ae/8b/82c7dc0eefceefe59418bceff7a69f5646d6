@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv の RUBY_PLATFORM による分岐からも同様に bccwin を削除。
