@@ -1,0 +1,1 @@
+ec3b6b12e7fdd9eb833ba867eb862956a85f424b の続きで、arity が T_FIXNUM かどうかで分岐していましたが常に NUM2INT() を呼べばその中で Fixnum にも対応していたので常に NUM2INT() を呼ぶようにリファクタリングしています。 [ruby-core:126553] [Bug #22284]
