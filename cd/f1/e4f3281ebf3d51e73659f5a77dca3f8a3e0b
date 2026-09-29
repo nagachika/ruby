@@ -1,0 +1,1 @@
+File.writable_real?、File::Stat#writable_real? および Pathname#writable_real? の rdoc 用コメントを手直しています。
