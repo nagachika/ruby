@@ -1,0 +1,1 @@
+IO::Buffer#get_string で Encoding の変換や to_io でのオブジェクト変更などで任意 ruby 実行が発生する可能性があり、そこで IO::Buffer のバッファが変更される可能性があるのでバッファのロック取得や再取得を行うようにして異常終了にならないようにする修正を行なっています。 https://github.com/ruby/ruby/pull/19086
