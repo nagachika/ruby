@@ -1,0 +1,1 @@
+rubygems の Gem::Specification#to_ruby が生成する gemspec のに不正な値を埋め込める不具合があったのを修正しています。
