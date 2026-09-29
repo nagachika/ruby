@@ -1,0 +1,1 @@
+rubygems と bundler の gem のダウンロードでリダイレクト時にヘッダの X-Gemfile-Source を使っていたのを host や port の異なる URL へのリダイレクト時は削除するようにしています。
