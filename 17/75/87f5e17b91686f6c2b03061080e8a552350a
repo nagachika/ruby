@@ -1,0 +1,1 @@
+Array#cycle の実装で LONG2FIX() で整数を変換していたのを LONG2NUM() に修正しています。
