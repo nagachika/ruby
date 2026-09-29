@@ -1,0 +1,1 @@
+さらに configure や IO まわりや拡張ライブラリ pty などでもサポートを終了している AtheOS, AmigaOS, HI-UX/MPP, IRIX, OSF/1, QNX, ESIX, UX/PDS, System V Release 4, RISC OS などの OS 対応を削除しています。
