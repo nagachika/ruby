@@ -1,0 +1,3 @@
+man/ の man page の日付を更新。
+
+man/ruby.1 を変更したことで check_misc CI が man の日付更新を要求したため、erb.1/goruby.1/ruby.1 の .Dd 日付を更新。
