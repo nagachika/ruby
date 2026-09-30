@@ -1,0 +1,1 @@
+file.c の Windows 向けに stat() をすりかえるためのマクロ STAT() が先日の 224bb40844b1f5dfe6b698ee699bb4ee60683fec で Windows 向けの分岐がなくなって不要になっていたので削除しています。
