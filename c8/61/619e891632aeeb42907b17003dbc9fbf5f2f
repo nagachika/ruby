@@ -1,0 +1,1 @@
+Enumerable #min, #max, #min_by, #max_by などのメソッドでブロック呼び出しで渡す memo 用構造体 struct nmin_data のメンバーの VALUE 型のものを GC の mark 処理のため先頭に移動しています。この memo 用構造体をマシンスタックに置くのをやめて T_IMEMO オブジェクトとして? 確保するようにして不正なメモリアクセスが起こる可能性を修正しています。 [ruby-core:126878] [Bug #22388]
