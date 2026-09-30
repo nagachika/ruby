@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 の実装で thread からのエラー通知のためのフラグ struct fast_fallback_getaddrinfo_entry::has_syserr をチェックする時にもロックを取っていなくてコンパイラ最適化などの影響でフラグの読み取りがされなくなりハングアップ状態になるなどの不具合の可能性があったのでここもロックを取得してからフラグチェックするように修正しています。
