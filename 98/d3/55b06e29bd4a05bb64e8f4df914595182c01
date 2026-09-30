@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で os: "11-arm" 版の時にビルド失敗を許容するようにしています。 windows-11-arm の GitHub Actions のランタイムの更新によりテストがエラーになることがあったみたいです。
