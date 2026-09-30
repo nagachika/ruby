@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で環境変数 RUBY_DEBUG=wer を指定してテスト実行するようにして、さらに異常終了時のレポートを artifact として保存するようにしています。
