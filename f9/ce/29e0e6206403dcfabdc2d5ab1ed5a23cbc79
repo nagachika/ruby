@@ -1,0 +1,1 @@
+win32/Makefile.sub で INSTALL_STATIC_LIBRARY 変数の置換を追加し、また INSTALL_STATIC_LIBRARY 変数にデフォルト値として yes を設定するようにしています。
