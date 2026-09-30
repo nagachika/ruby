@@ -1,0 +1,1 @@
+Enumerator::Lazy#each_with_index メソッドを新規追加しています。 [ruby-core:121076] [Bug #21142]
