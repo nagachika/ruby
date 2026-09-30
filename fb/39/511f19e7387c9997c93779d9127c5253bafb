@@ -1,0 +1,1 @@
+ZJIT の case 文のための最適化命令の opt_case_dispatch をプロファイリング中は Hash lookup をやめていた  7eab8b5d488da8474d7b31196e3d06b2ff90399d の変更の再修正で、プロファイル情報を使っていないためにプロファイル収集の命令から通常の命令に戻すトリガーも消失してしまっていたため case 文の最適化がずっと有効にならないという不具合を修正しています。 https://github.com/ruby/ruby/pull/19080
