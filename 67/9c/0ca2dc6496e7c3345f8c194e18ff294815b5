@@ -1,0 +1,1 @@
+Array#product の実装で内部的に使う Array オブジェクトの RBASIC_CLEAR_CLASS() の呼び出しは作成時に rb_ary_hidden_new() を利用していて既に klass が 0 だったので不要のため削除しています。
