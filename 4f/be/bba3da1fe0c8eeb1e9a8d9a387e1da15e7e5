@@ -1,0 +1,1 @@
+b72d2fec2c532f953868f6748cc8e9546b2a1239 の続きで拡張ライブラリ socket の Happy Eyeballs V2 対応の getsockopt(3) のカウンタ巻き戻し忘れをもう一カ所追加しています。status < 0 の時は break/continue するか例外発生させて抜けるのでその下のエラー処理には入らないため。なんだけど err != 0 になるのは常に status < 0 だったりしないのかな。
