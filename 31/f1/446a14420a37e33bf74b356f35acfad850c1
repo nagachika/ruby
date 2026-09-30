@@ -1,0 +1,1 @@
+Array#permutation, Array#combination, Array#repeated_{permutation,combination} などのメソッド群の共通処理を ary_make_hidden_shared_copy() という static 関数に切り出すリファクタリング。
