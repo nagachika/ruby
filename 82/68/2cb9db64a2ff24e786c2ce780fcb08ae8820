@@ -1,0 +1,3 @@
+Windows 環境の FILETIME という型からの変換処理を filetime_to_timespec() という関数に切り出して整理するリファクタリング。
+
+FILETIME → UNIX time 変換の重複を整理。filetime_to_unixtime と filetime_to_nsec が同じ値を 2 回変換していたのを、秒とナノ秒を一度に返す filetime_split_ns に統合し、stati128_handle の atime/mtime/ctime 取得を 6 呼び出しから 3 呼び出しに削減。
