@@ -1,0 +1,1 @@
+Ractor の終了時に Ractor::Port 用のテーブルを解放した後に配下の Thread の ensure 節などで Ractor::Port を作ると異常終了する可能性があったので、テーブルが解放済みなら Ractor::ClosedError 例外を発生させるように修正しています。 [ruby-core:126866] [Bug #22386]
