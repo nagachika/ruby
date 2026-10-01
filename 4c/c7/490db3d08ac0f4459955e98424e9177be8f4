@@ -1,0 +1,1 @@
+Kernel#autoload のテストで Ruby::Box を参照しているところが JRuby など他実装でエラーになっていたので defined? で存在チェックするように修正しています。
