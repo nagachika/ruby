@@ -1,0 +1,1 @@
+Ruby::Box 有効化時にで T_DATA 型オブジェクト? を Ractor.new に渡すテストを追加しています。
