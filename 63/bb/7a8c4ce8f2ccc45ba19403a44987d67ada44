@@ -1,0 +1,1 @@
+ObjectSpace.memsize_of による Ractor の使用メモリの推定に抜けがあったので修正しています。
