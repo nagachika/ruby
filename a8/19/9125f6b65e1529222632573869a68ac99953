@@ -1,0 +1,1 @@
+GitHub Actions の macOS でも crash dump を収集して Launchable を利用して保存? するようにしています。
