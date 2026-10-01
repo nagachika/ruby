@@ -1,0 +1,1 @@
+645a0718765fbec023b20b31f819042c9cfab64e で bootstraptest の Kernel#fork のテストの sleep を OpenBSD でのエラー回避のため少しのばしていましたが、効かなかったようなので元に戻して CI の OpenBSD 環境の時は skip するようにしています。
