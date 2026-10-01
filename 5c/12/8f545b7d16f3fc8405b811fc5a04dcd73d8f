@@ -1,0 +1,1 @@
+T_HASH 型オブジェクトから st_table を得る 公開 C API である RHASH_TBL() マクロを deprecated としています。 現在は配列による内部実装の ar_table 実装もあり強制変換を伴うので将来的には消したいみたいです。 [ruby-core:126293] [Feature #22232]
