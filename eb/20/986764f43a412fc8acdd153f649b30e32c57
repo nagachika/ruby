@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow での crash dump 収集の追加修正。 minidump で収集できる情報が足りないので Windows Error Reporting (WER) 機能? を利用するようにしています。
