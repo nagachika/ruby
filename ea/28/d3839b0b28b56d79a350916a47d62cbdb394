@@ -1,0 +1,1 @@
+Marshal.load で任意のオブジェクトを wrap するエンコード方法で Module が wrap されていた時にグローバルな書き換えがおこってしまうので Module の wrap エラーにするようにしています。Marshal.dump ではこのようなエンコードは行われないはずなので不正なバイナリのはずなので。  https://github.com/ruby/ruby/pull/19115
