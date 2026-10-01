@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow でのクラッシュダンプ収集で保持するダンプの数の上限設定を引き上げています。
