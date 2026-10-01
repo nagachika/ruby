@@ -1,0 +1,1 @@
+rb_io_maybe_wait() で引数の error が EAGAIN および EWOULDBLOCK の時に rb_io_wait() を呼ぶと Fiber が切り替わって errno が変化してしまう可能性があるため errno に引数の error を復旧してから return するように修正しています。 https://github.com/ruby/ruby/pull/19121 [ruby-core:126882] [Bug #22391]
