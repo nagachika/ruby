@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow で crash dump 収集機能追加の再修正で収集する情報を増やすための registry 設定を追加しています。
