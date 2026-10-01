@@ -1,0 +1,1 @@
+GC の default 実装の gc_start_global() で compaction 処理のための read barrier の設定を参照の更新処理前に行なうよう修正しています。 Ractor Local GC 導入時の不具合かな?
