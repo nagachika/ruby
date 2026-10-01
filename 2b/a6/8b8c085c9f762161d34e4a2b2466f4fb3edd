@@ -1,0 +1,1 @@
+GitHub Actions の WIndows 版 workflow での vcpkg のインストール時に MSVC の 14.51 が不具合? のためビルド失敗することがあったので古いコンパイラに fallback するようにしています。
