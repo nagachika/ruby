@@ -1,0 +1,1 @@
+ZJIT で RubyVM::ZJIT.reset_stats! が複数 Ractor 利用時に race condition が発生していたので VM ロックを取得するように修正しています。
