@@ -1,0 +1,1 @@
+メソッドの callcache の Refinements 対応の rb_vm_insert_cc_refinement() という関数で SIZED_REALLOC_N() を呼んだ時点で GC によって compaction が行なわれて vm->cc_refinement_set が参照するオブジェクトの slot が変化して use-after-free が発生する可能性があったので、realloc 後に再度オブジェクトから構造体取り出し(RTYPEDDATA_GET_DATA())を行うようにして修正しています。 [ruby-core:126893] [Bug #22397]
