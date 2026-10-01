@@ -1,0 +1,1 @@
+IO::Buffer の slice からさらに slice を作った時に親を辿った根本の IO::Buffer/String への参照を持つようにしていたのを直接の親を source として持つようにして IO::Buffer#get_bytes でこれに対応しています。また IO::Buffer#soure という slice の親を返すメソッドを新規追加しています。 https://github.com/ruby/ruby/pull/19091
