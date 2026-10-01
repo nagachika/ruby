@@ -1,0 +1,1 @@
+RubyVM::YJIT.enable から起動されるフックメソッド? が Ruby::Box 有効化時に master box しかメソッド書き換えしないので Array#each の書き換えを確認するテストが失敗していたのでとりあえず Ruby::Box 有効化時には skip するようにしています。  [ruby-core:126659] [Bug #22306]
