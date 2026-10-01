@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版での crash dump アップロード時のパターンが余分なファイルにもマッチしていたので制限を強化しています。また bundled gems の拡張ライブラリの共有ライブラリパスも含めるようにしています。
