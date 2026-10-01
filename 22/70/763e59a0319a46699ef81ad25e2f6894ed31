@@ -1,0 +1,1 @@
+GitHub Actions の Ubuntu 系の workflows で core dump を収集して artifact として保存するように独自アクションを追加しています。
