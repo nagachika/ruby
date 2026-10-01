@@ -1,0 +1,1 @@
+Ruby::Box 有効化時に static link されている prism が複数の Box に load できないのでエラーになるテストを skip するようにしています。 [ruby-core:126653] [Bug #22305]
