@@ -1,0 +1,1 @@
+bundler の bundle platform サブコマンドの表示を実行時に実際に使われる platform を表示するように? 修正しています。
