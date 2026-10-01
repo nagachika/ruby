@@ -1,0 +1,1 @@
+ZJIT の VM 命令 invokeblock の ISeq のポインタを Const::CPtr のまま埋め込んでいたのを Const::Value として ruby のオブジェクト参照として埋め込むようにして GC.compact 時の移動に対応できるように? しています。 https://github.com/ruby/ruby/pull/19108
