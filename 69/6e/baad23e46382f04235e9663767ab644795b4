@@ -1,0 +1,1 @@
+defs/jit.mk で libjit.rlib の依存関係に jit/src/lib.rs を追加しています。
