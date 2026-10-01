@@ -1,0 +1,1 @@
+IO#write の書き込みに使う文字列は IO 処理中 tmplock という独自のロックで書き換えをロックされますが、slot 内にバッファを埋め込んでいる場合に複数 Ractor で同時に使うと use-after-free が発生するという不具合を修正。rb_str_tmp_frozen_no_embed_acquire() で即 return する条件から rb_str_reembeddable_p() を削って heap にバッファを移動させないようにしています。 [ruby-core:126851] [Bug #22382]
