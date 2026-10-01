@@ -1,0 +1,1 @@
+doc/contributing/documentation_guide.md に rdoc 用のドキュメントに書くサンプルコードは前提なしに実際に実行できるコードを書くことやリソースの解放など後始末も含めるなどのガイドラインを追記しています。 https://github.com/ruby/ruby/pull/19101
