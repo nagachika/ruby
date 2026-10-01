@@ -1,0 +1,1 @@
+GC.compact での参照移動の検出のための read barrier のためのシグナルハンドラでの sigmask 設定に sigprocmask(2) を使っていたのを pthread_sigmask() があればこちらを使うように修正しています。 macOS ではマルチスレッド環境で sigprocmask() を使うのは未定義挙動とのこと。実際にハングアップが起きることがあったみたいです。 [ruby-core:126879] [Bug #22389]
