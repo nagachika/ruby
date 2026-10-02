@@ -1,0 +1,1 @@
+bundler の git source 対応の sparse_checkout オプションの対応を追加して特定のサブディレクトリのみチェックアウトできるようにしています。
