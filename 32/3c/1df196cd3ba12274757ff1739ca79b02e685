@@ -1,0 +1,1 @@
+string.c の str_shared_replace() という関数で slot へのバッファ埋め込みした文字列のバッファへのコピーをした後の Encoding の設定を rb_enc_associate() で行なっていたのを rb_enc_raw_set() に変更しています。終端文字のサイズが Encoding によって変化するのを意識して capa の再計算が行なわれるのが余計なのでそれを省くようにしているようです。 [ruby-core:126871] [Bug #22387]
