@@ -1,0 +1,1 @@
+File.utime および Pathname#utime の rdoc 用コメントの手直し。
