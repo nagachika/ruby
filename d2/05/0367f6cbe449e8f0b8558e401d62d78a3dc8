@@ -1,0 +1,1 @@
+c8ba43bbd0527535e48fa5cb639336839ca44063 からのさらに続きで bundler の bundle lock で Gemfile の lockfile が偽の時に警告の出力を追加しています。
