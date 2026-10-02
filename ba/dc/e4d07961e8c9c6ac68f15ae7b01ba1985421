@@ -1,0 +1,1 @@
+3ea4bc3f79a913e03ee1b1ea3e21572ee8036095 の続きで set.c の set_merge_enum_into() で GC から保護するための RB_GC_GUARD() を追加しています。
