@@ -1,0 +1,1 @@
+c8ba43bbd0527535e48fa5cb639336839ca44063 からの続きで bundler の bundle lock で環境変数の BUNDLE_LOCKFILE のほうを Gmefile の lockfile 指定より優先するように再修正しています。k
