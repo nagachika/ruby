@@ -1,0 +1,1 @@
+rb_str_tmp_frozen_no_embed_{acquire,release}() を rb_str_no_gvl_safe_{acquire,release}() と名称変更して C API として公開しています。 slot にバッファが埋め込まれた T_STRING 型オブジェクトのバッファは compaction のための Read Barrier で参照するとシグナル発生するので、拡張ライブラリから GVL を解放して文字列バッファを安全に読めるようにするため。
