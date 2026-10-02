@@ -1,0 +1,1 @@
+id_table.c の rb_managed_id_table_insert() という関数でもテーブルのバッファを増やすために GC が走り compaction が行なわれると不正なポインタを参照して use-after-free が発生する可能性があった不具合で同様に RB_GC_GUARD() を追加することで修正しています。 RB_GC_GUARD() にこういう compaction 対策の使いかたもあったんですな。
