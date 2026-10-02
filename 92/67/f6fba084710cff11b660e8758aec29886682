@@ -1,0 +1,1 @@
+Enumerator::Lazy#flat_map でも memo 用構造体をマシンスタック上に置いていたためブロックがエスケープされると use-after-free が起こりえる不具合を修正しています。 T_IMEMO 型オブジェクトとして確保するようにしています。 [ruby-core:126878] [Bug #22388]
