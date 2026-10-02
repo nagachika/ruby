@@ -1,0 +1,1 @@
+ZJIT の定数畳み込み最適化でコンパイルエラーが発生する可能性があった不具合の修正。 https://github.com/ruby/ruby/pull/19129
