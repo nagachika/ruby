@@ -1,0 +1,1 @@
+Windows 版での at_exit の処理が ruby の Thread に対応しない native thread で実行されてしまう可能性があったようで pipe_exit() という関数で rb_current_execution_context() をチェックして ruby の Thread でなかったら処理をスキップするようにしています.
