@@ -1,0 +1,1 @@
+tool/lib/core_assertions.rb で multi Ractor 対応のための定数 freeze, メソッドの定義を bmethod(ブロック渡しの define_method による定義)から通常のメソッドへの変更などを行なっています。 https://github.com/ruby/ruby/pull/19141
