@@ -1,0 +1,1 @@
+win32/Makefile.sub の STACK_GROW_DIRECTION 変数の定義が arm64 の時に未定義になっていたので条件分岐をはずして常に定義するようにしています。
