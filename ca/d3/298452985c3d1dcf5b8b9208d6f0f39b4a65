@@ -1,0 +1,1 @@
+f283be755b7499ee76c5b0a6f38e0b9ac8363735 および b33ab420c566852a7105f9fb9ba2dade4491f477 での rubygems の例外クラスを Error の子クラスから Gem::InstallError を継承するように変更しています。
