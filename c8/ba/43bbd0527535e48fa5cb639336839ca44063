@@ -1,0 +1,1 @@
+bundler の bundle lock で Gemfile の lockfile の指定を優先するように修正しています。
