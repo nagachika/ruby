@@ -1,0 +1,1 @@
+32 bits Windows でのエラー対策で struct stat や fstat() を利用していたのを struct _stat64 や _fstat64() という明示的な  64 bits 版構造体/関数を利用するようにしています。
