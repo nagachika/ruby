@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser でオブジェクトの key の文字列の parse で NUL 文字によりエラーが発生していた時に処理が止まる? 不具合を修正しています。
