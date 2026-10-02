@@ -1,0 +1,1 @@
+テスト用のユーティリティとして assert_in_ractor という assertion メソッドを追加しています。 Ractor を起動してそのブロック内で assertion メソッドを使ってその結果を呼び元に送信するという assert_separatedly の Ractor 版のようなものみたいです。
