@@ -1,0 +1,1 @@
+Windows 環境で File.expand_path などが drive letter ("C:" みたいなの)を含むファイルパスの扱いの不具合を修正しています。 [ruby-core:86365] [Bug #14640]
