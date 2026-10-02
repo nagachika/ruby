@@ -1,0 +1,1 @@
+92a384921f2200c8cbe1bf9584d26a0c14a6947e の bundler の git source の sparse_checkout 対応の再修正。未使用になったメソッドの削除。
