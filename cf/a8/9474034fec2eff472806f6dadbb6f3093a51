@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Happy Eyeballs V2 対応の native thread 間通知の pipe への write(2) のエラー時に errno を struct fast_fallback_getaddrinfo_entry::error に保存するのが漏れていて誤ったエラーを出していたのを修正しています。
