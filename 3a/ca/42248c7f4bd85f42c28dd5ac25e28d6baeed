@@ -1,0 +1,1 @@
+enumrator.c の lazy_grep_iter_proc() および lazy_grep_v_iter_proc() でも e45f082e39924a0cd0644a1287ae2391df7321d2 や ce37be7c778e1b5ad7ff6a38f837512a3aaf6eec と同様に compaction によりポインタが無効になる不具合の対策のため RB_GC_GUARD() を追加しています。
