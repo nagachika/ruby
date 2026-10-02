@@ -1,0 +1,1 @@
+dd7be7ce695a118104c132c5aec917884fc1974b の rb_vm_insert_cc_refinemen() での realloc 後の構造体再取得の再修正で RB_GC_GUARD() でポインタの保護をする修正方法に変更しています。 [ruby-core:126893] [Bug #22397]
