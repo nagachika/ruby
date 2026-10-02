@@ -1,0 +1,1 @@
+Windows 版での read の関数 rb_w32_read_internal() で size の上限チェックを追加して INT_MAX 以上だったら INT_MAX に丸めて実行するようにしています。 32 bits 版 Windows ではその先の API が 32 bits の変数で長さを渡していたのでエラーになりえるため。
