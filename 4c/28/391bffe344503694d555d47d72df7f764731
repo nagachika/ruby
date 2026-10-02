@@ -1,0 +1,1 @@
+e45f082e39924a0cd0644a1287ae2391df7321d2 や ce37be7c778e1b5ad7ff6a38f837512a3aaf6eec と同様に、かと思いきやこれは従来と同じで thread_sync.c の monitor_enter0() でコンパイラ最適化により参照がなくなり mark 漏れで解放されてしまい無効ポインタ参照になるのを防ぐために RB_GC_GUARD() を追加しています。
