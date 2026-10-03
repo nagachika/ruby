@@ -1,0 +1,1 @@
+.gdbinit で YJIT/ZJIT 有効化してビルドした時にしか存在しない関数 rb_get_cfp_iseq() に依存していたのを修正しています。
