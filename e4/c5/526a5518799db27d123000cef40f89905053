@@ -1,0 +1,1 @@
+ZJIT の Struct によるクラスのインスタンス作成時の処理のインライン最適化。 https://github.com/ruby/ruby/pull/19119
