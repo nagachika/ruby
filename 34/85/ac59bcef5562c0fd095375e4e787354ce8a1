@@ -1,0 +1,1 @@
+win32/resource.rb で生成する .rc ファイルの FILEFLAGS という項目で prerelease 版の時の対応を追加しています。
