@@ -1,0 +1,1 @@
+GitHub Actions の Launchable 対応のための独自 action で環境が macOS かの判定を runner.os で判定するように修正しています。7ac157d9659e8ce7562f11798b923c57ec9bfaa8 で追加した os: xcode-27 というのが macos で始まってなかったため誤判定したのに対応しています。
