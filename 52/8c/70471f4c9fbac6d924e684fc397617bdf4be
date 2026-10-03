@@ -1,0 +1,1 @@
+Fiber 用の coroutine のテスト用のコードで main() と wmain() が定義されていて MSVC で警告が出ていたので preprocessor 分岐で必要なエントリポイントを定義するように修正しています。
