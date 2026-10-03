@@ -1,0 +1,1 @@
+GC の default 実装の rgengc_check_relation() という関数で WB-unprotected なオブジェクトは常に RGenGC の young なオブジェクトになるため冗長だった条件を削除しています。
