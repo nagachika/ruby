@@ -1,0 +1,1 @@
+misc/lldb_cruby.py の rbbt でバックトレースを得る時に ZJIT による JITFrame で control frame を省略している時に対応するようにしています。
