@@ -1,0 +1,1 @@
+misc/gdb.py で 226f37059ec5f3ea3a1417e0bab630c64dbc8ac3 で構造体 rb_control_frame_t のメンバー cfp を _cfp と改名したのに追随させています。
