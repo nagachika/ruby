@@ -1,0 +1,1 @@
+win32/resource.rb で生成する .rc ファイルの CompnyName という項目の URL の schema を http から https に変更しています。
