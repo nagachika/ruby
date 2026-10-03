@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で Windows 環境で C:\etc\resolv.conf というファイルがあると registry の設定の前にそちらを読んでしまうのを避けるように修正しています。
