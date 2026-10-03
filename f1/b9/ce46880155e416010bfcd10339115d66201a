@@ -1,0 +1,1 @@
+ZJIT の型 profiling でブロックを Proc オブジェクト化して保持して GC で回収されなくしていた不具合を修正しています。 https://github.com/ruby/ruby/pull/19148
