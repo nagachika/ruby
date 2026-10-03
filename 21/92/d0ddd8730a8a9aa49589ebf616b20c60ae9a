@@ -1,0 +1,1 @@
+rubyparser.h の構造体末尾の可変長配列のサイズ指定に関するマクロ FLEX_ARY_LEN の定義の preprocessor 分岐に _MSC_VER のチェックも追加しています。 internal/compilers.h での定義と食い違ってたのを修正しているみたいです。
