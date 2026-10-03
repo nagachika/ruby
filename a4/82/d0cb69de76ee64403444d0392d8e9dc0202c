@@ -1,0 +1,1 @@
+misc/lldb_cruby.py で core file を読み込ませた lldb でのシンボル名の解決でエラーになっていたのに対策しています。
