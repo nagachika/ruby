@@ -1,0 +1,1 @@
+rubygems の Gem::Package でファイルの mode を設定する時に sticky bits を無視するようにしています。
