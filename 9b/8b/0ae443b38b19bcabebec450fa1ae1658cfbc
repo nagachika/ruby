@@ -1,0 +1,1 @@
+GC の mmtk 実装の rb_gc_impl_pinned_p() が常に false を返していたのをちゃんと実装しています。
