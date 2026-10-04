@@ -1,0 +1,1 @@
+Solaris 9 以前のサポートを終了して hash.c の setenv()/unsetenv() の代替実装を削除しています。
