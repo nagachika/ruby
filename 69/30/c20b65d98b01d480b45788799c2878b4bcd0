@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.generate に rfc8785 というキーワード引数を追加し、その名のとおり RTC 8785 に従ってオブジェクトのキーのソートや浮動小数点数のエンコード形式を変更するようにしています。 https://github.com/ruby/json/issues/1038
