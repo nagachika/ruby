@@ -1,0 +1,1 @@
+rb_method_definition_eq() で rb_equal() を使っていたため Proc#== をメソッド呼び出し経由で呼び出しそこで VM lock を保持した状態で ruby のメソッド実行をしていたためデバッグビルド時に assertion にひっかかってしまっていたので、proc_eq() を rb_proc_eq() として非 static 関数にしてこの関数を直接呼び出すように修正しています。 [ruby-core:126896] [Bug #22398]
