@@ -1,0 +1,1 @@
+io.c に EWS-UX という OS  のサポートのための preprocessor 分岐が残っていたのを削除しています。
