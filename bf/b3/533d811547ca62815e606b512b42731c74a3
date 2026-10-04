@@ -1,0 +1,1 @@
+dln.c のもう不要になってる NeXT サポートのための preprocessor 分岐の削除。
