@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の rdoc 用コメントで OpenSSL::SSL::SSLServer が deprecated になったのに追随してサンプルコード内で TCPServer と OpenSSL::SSL::SSLSocket を使う書きかたに変更しています。
