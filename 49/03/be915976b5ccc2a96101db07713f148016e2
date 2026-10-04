@@ -1,0 +1,1 @@
+io.c で古い Linux Kernel のための workaround を削除しています。
