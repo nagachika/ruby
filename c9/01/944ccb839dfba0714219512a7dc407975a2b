@@ -1,0 +1,1 @@
+dln.c および numeric.c に UNICOS/mp という OS のサポートの preprocessor 分岐の条件が残っていたのを削除しています。
