@@ -1,0 +1,1 @@
+hash.c で古い OS や glibc での unsetenv(3) の戻り値の違いをサポートするための preprocessor 分岐を削除しています。
