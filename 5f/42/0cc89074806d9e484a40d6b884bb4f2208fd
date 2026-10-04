@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL モジュールの rdoc 用コメントのサンプルコード内の deprecated になってた OpenSSL::SSL::SSLContext の #cert=, #key= などのメソッドを利用していたのを #add_certificate に変更しています。
