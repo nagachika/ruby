@@ -1,0 +1,1 @@
+ZJIT の Array#[] メソッドで引数の offset が範囲外の時に side-exit するのをやめて直接処理するコードを生成するようにしています。また Array#first メソッドをインライン最適化するようにしています。 https://github.com/ruby/ruby/pull/18989
