@@ -1,0 +1,1 @@
+IO::Buffer の slice に関連して IO::Buffer::Storage と IO::Buffer::Slice という子クラスを追加して slice で作られたものかオリジナルのバッファを持つものかをクラスで分離するように内部実装を変更しています。 IO::Buffer の直接のインスタンスは作れないようにしていて、うーむなるほど……。 slice の IO::Buffer の挙動も少し変更されてる? IO::Buffer はまだしばらく落ち着くまでかかりそうですね。 https://github.com/ruby/ruby/pull/19186
