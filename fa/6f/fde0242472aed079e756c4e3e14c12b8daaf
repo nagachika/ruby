@@ -1,0 +1,1 @@
+テスト時に各種タイムアウトの値をスケーリングするための環境変数 RUBY_TEST_TIMEOUT_SCALE を参照する処理を tool/lib/envutil.rb に移動しています。 test-bundled-gems でこの環境変数が参照されていなかったので共通して読み込まれる envutil.rb に置くようにしたようです。
