@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow で 108a92ac633365c71e3af654a7663271f2dc7891 で --repeat-count オプションを削られた macos-26 でのテストジョブを削除しています。 --repeat-count オプションをつけることがこのジョブの本来の意図でそれが削られて単に冗長なジョブになっていたということみたいです。
