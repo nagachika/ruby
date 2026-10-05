@@ -1,0 +1,1 @@
+Array オブジェクトのバッファを slot 内に埋め込めるか判定する rb_ary_embeddable_p() で flags に埋め込めるサイズを越えてないかのチェックも追加しています。 Variable Width Allocation でより大きな slot サイズを持てるようになったので flags 内のビットに埋め込むバッファの埋め込みサイズを越える可能性があったため。
