@@ -1,0 +1,1 @@
+テスト用のユーティリティ tool/test/test_envutil.rb で Test::Unit::CoreAssertions を include するようにしています。fa6ffde0242472aed079e756c4e3e14c12b8daaf の変更で test-budled-gems で test-unit.gem から利用されるようになったので ruby 本体のテスト用の test/unit に独自の assertion を取り込むため。
