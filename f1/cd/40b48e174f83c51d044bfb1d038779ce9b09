@@ -1,0 +1,1 @@
+File.executable? および File.chmod、File#chmod の rdoc 用コメントでもサンプルコード内の独自ヘルパーメソッドの利用をやめています。
