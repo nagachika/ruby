@@ -1,0 +1,1 @@
+bundler のテストの ruby 本体の repo で skip していたのを対象の gem より先に RUBYLIB に load されるファイルがあるかという判定に変更しています。
