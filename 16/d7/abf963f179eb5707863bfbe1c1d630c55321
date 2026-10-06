@@ -1,0 +1,1 @@
+本体のテスト用の test/unit の並列テストで worker プロセスを kill する時の pid の指定を Windows 環境では @real_pid というインスタンス変数を参照するように修正しています。
