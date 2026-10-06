@@ -1,0 +1,1 @@
+win32/dir.h に IFTODT() というマクロ定義を追加しています。 Windows での Dir.glob の高速化のためみたいです。
