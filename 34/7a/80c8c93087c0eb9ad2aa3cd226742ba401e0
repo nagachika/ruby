@@ -1,0 +1,1 @@
+bundler のテストで ruby の本体の repo で skip していたテストをライブラリのロードパスに ast.rb がある時だけ skip するように変更しています。
