@@ -1,0 +1,1 @@
+635e6b9a057bd0a7918ac26727806a2d6de7b4be で使ってた bundler のテストの helper メソッド ruby_core_tarball? を条件を反転して git_repository? に改名するリファクタリング。
