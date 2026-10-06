@@ -1,0 +1,1 @@
+include/ruby/internal/core/robject.h から ROBJECT_FIELDS の opacity な再帰的定義を削除しています。
