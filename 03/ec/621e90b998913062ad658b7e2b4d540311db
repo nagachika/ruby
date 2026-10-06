@@ -1,0 +1,1 @@
+16d7abf963f179eb5707863bfbe1c1d630c55321 と 162ce2fee8d952e351ccfdc71a1b9c7ac9e6e676 の続きで本体のテスト用の test/unit で Windows 環境での pid の変更を target_pid というメソッドに切り出して共有するリファクタリング。
