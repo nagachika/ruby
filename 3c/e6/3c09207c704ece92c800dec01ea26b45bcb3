@@ -1,0 +1,1 @@
+File.atime, File#atime, File::Stat#atime, Pathname#atime などの rdoc 用コメントをまとめて手直ししています。 https://github.com/ruby/ruby/pull/19206
