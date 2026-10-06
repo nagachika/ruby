@@ -1,0 +1,1 @@
+bundler のテストの ruby の commit hash に unknown を許容する条件を tarball 経由の(.git/ の存在しない)環境に絞っています。
