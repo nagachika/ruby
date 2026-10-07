@@ -1,0 +1,1 @@
+同じく ISeq の peephole optimization で remove_unreachable_chunk() というヘルパー関数でメモリ確保を繰り返していて効率が悪かったのを一度確保した配列を使いまわすようにして最適化しています。 https://github.com/ruby/ruby/pull/18823 [ruby-core:126689] [Bug #22313]
