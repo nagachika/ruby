@@ -1,0 +1,1 @@
+File.birthtime、File::Stat#birthtime, Pathname#birthtime の rdoc 用コメントをまとめて手なおししています。今回は File#birthtime は触ってないみたい?
