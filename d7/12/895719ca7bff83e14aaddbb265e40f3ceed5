@@ -1,0 +1,1 @@
+IO#set_encoding に Encoding オブジェクトを渡した時に newline などのキーワード引数が無視されていた不具合を修正しています。 https://github.com/ruby/ruby/pull/19215 [ruby-core:126149] [Bug #22209]
