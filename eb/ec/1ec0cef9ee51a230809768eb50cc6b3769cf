@@ -1,0 +1,1 @@
+File.blockdev?、FIle::Stat#blockdev? および Pathname#blockdev? の rdoc 用コメントを手直ししています。ここでも File#blockdev? が抜ける……と思いましたがなぜか File#blockdev? というメソッドはないみたいです。
