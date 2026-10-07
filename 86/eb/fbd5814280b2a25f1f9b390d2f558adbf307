@@ -1,0 +1,1 @@
+VM のメインループの実装方式のマクロ OPT_DIRECT_THREADED_CODE および OPT_CALL_THREADED_CODE をみて trace ありの VM 命令を元に戻す変更をしていたのを常に実行するようにしています。これも YJIT での問題の修正になってるみたいです。
