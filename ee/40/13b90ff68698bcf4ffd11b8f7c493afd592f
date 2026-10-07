@@ -1,0 +1,1 @@
+GC.stat の :global_gc_count の項目を global GC の回数を返していたのを、呼び元の Ractor が起動した global GC の回数のみを返すように変更しています。
