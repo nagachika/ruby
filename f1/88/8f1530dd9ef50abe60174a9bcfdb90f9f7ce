@@ -1,0 +1,1 @@
+c49d7bd9831f8d31b5a77f7122f76d33263c751f の結果 vm_exec.c での USE_MACHINE_REGS マクロでの preprocessor 分岐は不要になったので削除して、これにより USE_MACHINE_REGS マクロ定義も削除しています。
