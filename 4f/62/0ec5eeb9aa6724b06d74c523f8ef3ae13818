@@ -1,0 +1,1 @@
+addr2line.c が MACH-O フォーマット向けのビルドで crt_externs.h ヘッダがないために iOS SDK でビルドできないというビルドエラーを修正しています。 [ruby-core:126905] [Bug #22401]
