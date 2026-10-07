@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.generate で ASCII-8BIT な Encoding の文字列を内容が UTF-8 として valid であれば警告を出しつつ変換して出していたのを例外を発生させるようにしています。
