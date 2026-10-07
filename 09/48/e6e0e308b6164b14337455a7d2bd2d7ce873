@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL::SSL::SSLContext を差し替えた時に GC で元の Context が OpenSSL 側から使われているのに解放されてしまうので内部的な("@" から始まらない)インスタンス変数を生成してそこから元の SSLContext の参照を保持しておくようにしています。
