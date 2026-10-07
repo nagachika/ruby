@@ -1,0 +1,1 @@
+vm_exec.c の USE_MACHINE_REGS というマクロの定義を 0 から 1 に変更。 MSVC 向けの最適化みたいです。
