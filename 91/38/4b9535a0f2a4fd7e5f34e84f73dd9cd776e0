@@ -1,0 +1,1 @@
+VM のループの実装の種類として threaded code を使わない時も ISeq オブジェクトの struct RBasic::flags に ISEQ_TRANSLATED というビットフラグを立てるようにしています。よくわかってませんが YJIT がこのフラグをみてて VM の実装モードにより不整合が起きてたみたいです。
