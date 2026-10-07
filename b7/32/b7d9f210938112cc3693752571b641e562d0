@@ -1,0 +1,1 @@
+ruby_atomic.h および include/ruby/atomic.h の 64bits Windows 向けの対応(preprocessor 分岐)を追加しています。
