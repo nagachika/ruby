@@ -1,0 +1,1 @@
+File.file?、File::Stat#file? および Pathname#file? の rdoc 用コメントをまとめて手直ししています。
