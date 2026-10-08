@@ -1,0 +1,1 @@
+File.ftype、File::Stat#ftype および Pathname#ftype の rdoc 用コメントをまとめて手直ししています。
