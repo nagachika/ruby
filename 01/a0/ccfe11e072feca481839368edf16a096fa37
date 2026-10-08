@@ -1,0 +1,1 @@
+File.grpowned?、File::Stat#grpowned? および Pathname#grpowned? の rdoc 用コメントをまとめて手直ししています。
