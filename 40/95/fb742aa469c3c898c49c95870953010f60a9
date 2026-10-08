@@ -1,0 +1,1 @@
+rubygems の lib/rubygems/resolver/api_set.rb 内にあった autoload でも絶対パス指定から feature 名のみの指定に修正しています。
