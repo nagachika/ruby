@@ -1,0 +1,1 @@
+prism を利用してコンパイルした ISeq をダンプして RubyVM::InstructionSequence#load_from_binary で別の環境でダンプしたバイナリ形式の ISeq を読み込んだ時に ISeq に __FILE__ 用のファイルパスが埋め込まれていたのでそのファイルパスを解決しようとしてエラーになる? ので埋め込まないようにしています。かわりに load 時にかわりのファイルパスを指定できるようにする予定みたいですが現時点ではまだ未対応のようです。 [ruby-core:102310] [Feature #17593] [ruby-core:126890] [Feature #22395]
