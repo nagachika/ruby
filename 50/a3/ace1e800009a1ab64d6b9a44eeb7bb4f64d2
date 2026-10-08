@@ -1,0 +1,1 @@
+rubygems での autoload の設定を File.expand_path でフルパスに解決していたのを "rubygems/xxx" のように feature 名のみの指定に変更しています。重複した load を防ぐためみたいです。
