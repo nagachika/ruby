@@ -1,0 +1,1 @@
+File.execuatable_real?、File::Stat#executable_real? および Pathname#executable_real? の rdoc 用コメントをまとめて手直ししています。
