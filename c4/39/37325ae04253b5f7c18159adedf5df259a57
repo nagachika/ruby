@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb の追加修正で all release モードでの upstream repo のチェックアウトするタグ名を git tag から取得してたのを rubygems.org の API を使って gem の最新版から決定するように修正しています。
