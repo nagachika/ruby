@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で all release モードでの同期時に  depend ファイルを最小化する処理はスキップしています。また prerelease フラグを誤ってつけてしまう不具合があったようなのでそれも修正しています。
