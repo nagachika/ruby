@@ -1,0 +1,1 @@
+rubygems の content-addressable gem のビルド用の Rake タスク対応を追加しています。
