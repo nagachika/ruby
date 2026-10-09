@@ -1,0 +1,1 @@
+dd1208afa7b8012edaabc26cc4d2366c0d0d8139 で GitHub Actions の check_misc から default_gems に workflow を抽出した時に不要になってた permission.write の指定を消しています。
