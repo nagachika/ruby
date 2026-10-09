@@ -1,0 +1,1 @@
+File.execuatable?、File::Stat#executable? および Pathname#executable? の rdoc 用コメントをまとめて手直ししています。
