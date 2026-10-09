@@ -1,0 +1,1 @@
+bundler のテストの ruby 本体での skip を追加。
