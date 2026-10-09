@@ -1,0 +1,1 @@
+rubygems の gem build サブコマンドに --content-addressable オプションを追加して --ruby-abi のかわりに指定できるようにしています。
