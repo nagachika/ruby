@@ -1,0 +1,1 @@
+Proc#curry  によって作成される Proc オブジェクトの複製時に rb_func_proc_dup() で ep が正しく複製されていなくて異常終了する可能性があった不具合を修正。Symbol#to_proc で作った Proc と Proc#curry で作られる Proc は ifunc という同じ内部のタイプなのですが内部構造が少し異なっていたのを対応しきれていなかったようです。いやー難しい。 [ruby-core:126977] [Bug #22412]
