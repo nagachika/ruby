@@ -1,0 +1,1 @@
+Class.allocate で initialize を通さず作った Class のインスタンス(クラス)でも Class#singleton_class を呼ぶと初期化済みのフラグが立てられて、結果そのクラスのインスタンス作成時に初期化チェックをすり抜けて異常終了に繋がる不具合があったので make_metaclass() での初期化フラグを立てるのをやめて rb_class_initialize() と BasicObject については初期化関数 Init_class_hierarchy() で別途呼ぶようにして回避しています。
