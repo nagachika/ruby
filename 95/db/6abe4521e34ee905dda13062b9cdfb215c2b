@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.generate でキーワード引数 rfc8785 に true を指定した時に競合する他の indent, space, allow_nan などのキーワード引数が競合する値で指定された時に ArgumentError を発生させるように対応しています。
