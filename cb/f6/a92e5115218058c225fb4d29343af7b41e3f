@@ -1,0 +1,1 @@
+IO.allocate で initialize による初期化を通ってない IO オブジェクトに対して IO#external_encoding や IO#internal_encoding を呼ぶと不正メモリアクセスで異常終了していたのでチェックして例外が発生するようにしています。 [ruby-core:126975] [Bug #22410]
