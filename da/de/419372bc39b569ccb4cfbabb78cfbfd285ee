@@ -1,0 +1,1 @@
+ZJIT で String, Array, Hash の freeze と String#-@ の最適化をインライン最適化に強化しています。 https://github.com/ruby/ruby/pull/18985
