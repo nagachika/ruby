@@ -1,0 +1,1 @@
+拡張ライブラリ objspace の ObjectSpace.dump で ISeq の出力時に JIT(YJIT/ZJIT) が有効な時に jit_entry_calls などの JIT 関連の情報を出すようにしています。
