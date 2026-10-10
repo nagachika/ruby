@@ -1,0 +1,1 @@
+ここから連続して String や Array のサイズのために long のかわりに rb_len_t という型を導入して置き換える一連の変更が続きます。動機としては LLP64 な環境(mswin/MSVC) で long が 32 bits のため上限が小さくなってしまっているのでこれを拡張したいというものみたいですが、現時点ではまだ rb_len_t は long の別名として typedef されています。 [ruby-core:126900] [Feature #22400]
