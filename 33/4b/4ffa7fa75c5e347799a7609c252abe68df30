@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。 672cb48d09c4e0df8e2fd9868628fb825d849f58 で追記した NEWS のエントリの英文法修正(mswin で rb_len_t を long から変更するのは将来に残しているというのを強調するため will を追加)。 [ruby-core:126900] [Feature #22400]
