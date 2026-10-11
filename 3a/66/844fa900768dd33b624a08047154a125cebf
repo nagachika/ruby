@@ -1,0 +1,1 @@
+Refinements で Module を refine した時に super を呼ぶメソッドを refine で上書きしたメソッド内でさらに super を呼ぶのをエラーにしていたのを許可するように対応しているようです。 Module を refine した時に iclass を追加するようにしているようですが詳細は読めてないです。 [ruby-core:126675] [Feature #22309]
