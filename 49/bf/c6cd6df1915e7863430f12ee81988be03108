@@ -1,0 +1,1 @@
+doc/extension.rdoc に Appendix H を追加して doc/efficient_extensions.md へのリンクを貼っています。GitHub への直リンクになってるのでたぶんあとで rdoc-ref で書き直されそう。
