@@ -1,0 +1,1 @@
+3a66844fa900768dd33b624a08047154a125cebf からの一連の Refinements の変更の続きで Module を refine した時の Method#call および UnboundMethod#bind_call のテストを追加しています。
