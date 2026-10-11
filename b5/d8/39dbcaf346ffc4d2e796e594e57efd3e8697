@@ -1,0 +1,1 @@
+ractor_sync.c の Ractor 間のオブジェクト移動のための構造体 struct ractor_basket のメンバーを共用体を使って詰め込むことで構造体サイズを縮小しています。
