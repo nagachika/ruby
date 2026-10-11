@@ -1,0 +1,1 @@
+3a66844fa900768dd33b624a08047154a125cebf からの一連の Refinements の変更の続き。直接の変更ではなくて Module を refine した時の iclass の cache のための Hash のかわりに weakmap を使うために公開する API を追加しています。
