@@ -1,0 +1,1 @@
+3a66844fa900768dd33b624a08047154a125cebf からの一連の Refinements の変更の続き。 35c32429e186b986fbee8c28f709185d451d45d7 で追加した weakmap 用の C API を利用して Module を refine した時の iclass の cache に WeakMap を利用するようにリファクタリングしています。
