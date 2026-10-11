@@ -1,0 +1,1 @@
+3a66844fa900768dd33b624a08047154a125cebf からの一連の Refinements の変更の続き。 module_refinement_iclass() でキャッシュ管理の操作を複数 Ractor から呼べるように RB_VM_LOCKING() で VM ロック取得して排他するようにしています。
