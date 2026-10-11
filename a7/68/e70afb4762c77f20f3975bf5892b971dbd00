@@ -1,0 +1,1 @@
+GitHub Actions の shstk-amd64 というワークフローで利用するコンテナイメージに ghcr.io にホスティングされているミラーを利用するようにしています。 Docker Hub の rate limit の制限にひっかかってた模様。
