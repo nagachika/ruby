@@ -1,0 +1,1 @@
+3a66844fa900768dd33b624a08047154a125cebf からの一連の Refinements の変更の続き。 Module を refine した時の Method#instance_method による UnboundMethod を bind_call した時の対応を追加。
