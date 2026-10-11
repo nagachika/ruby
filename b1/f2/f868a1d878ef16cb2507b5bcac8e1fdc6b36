@@ -1,0 +1,1 @@
+3a66844fa900768dd33b624a08047154a125cebf の続きで Method と UnboundMethod の super_method メソッドが返すオブジェクトを先程の Refinements の実装変更に追随させているようです。
