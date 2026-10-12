@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket の #connect、#accept、#sysread、#syswrite などのメソッドとその xxxx_nonblock 版の実装を ruby 実装に移植して、コア部分のみを C 実装の private メソッドに残すようにしています。 blocking 処理を ruby のループで実装するようにしています。
