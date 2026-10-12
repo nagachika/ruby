@@ -1,0 +1,1 @@
+d7e7bf83daf15c80f343b1a64130b50b5065bd0f の変更を使って prism を同期しなおして lib/prism から lib/ruby/prism に移動しクラス名も Ruby::Prism として定義するようにしています。 [ruby-core:126847] [Bug #22379]
