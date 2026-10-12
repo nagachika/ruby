@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で prism の動機時に lib/ruby/prism.rb など lib/ruby/ 配下にコピーするようにしています。prism を default gems として扱わないようにして、さらにコピー時にクラス名などの定数名も Ruby::Prism のように Ruby モジュールの配下にネストさせるように編集するようにしています。 [ruby-core:126847] [Bug #22379]
