@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の 9bc5516f32a187de4d33ded00b43fd7fca557e90 での ruby 実装への移植でバッファの String オブジェクトを String.new(capacity: xxx) で生成していたのを C 拡張部分で rb_str_buf_new() を呼ぶ private メソッド string_new_capacity を追加してこれを経由するようにしています。キーワード引数処理のオーバーヘッドを回避するためとのこと。若干泥縄感がありますが workaround ということなので根本対応は別途予定されているようです。
