@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。 b377234135aa3479d338d0d8893fe70794dbf847 で追加した rb_len2long() と rb_out_of_long() C API 追加について追記しています。 [ruby-core:126900] [Feature #22400]
