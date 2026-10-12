@@ -1,0 +1,1 @@
+9b23d39c4437ff6ab72ec93f9aafef6b2a81b5f6 での prism の埋め込み化の対応続き。Ruby::Box のテストで prism の feature 名変更に追随させています。 [ruby-core:126847] [Bug #22379]
