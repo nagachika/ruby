@@ -1,0 +1,1 @@
+c29739cb3ef483c215b0c13d30c96cc21b0f680b で追加した YJIT のコンパイルに利用する時間の予算設定をする RubyVM::YJIT.max_compile_time_ns= メソッドが YJIT が無効化された状態で呼ばれると異常終了してしまっていた不具合を修正しています。 [ruby-core:127023] [Bug #22421]
