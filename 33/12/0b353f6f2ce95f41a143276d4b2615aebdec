@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#connect と #accept に timeout キーワード引数を追加して接続/接続待ちの blocking にもタイムアウトを設定できるようにしています。
