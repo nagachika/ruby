@@ -1,1 +1,1 @@
-昨日の rb_len_t の導入の続きで拡張ライブラリから rb_len_t 型の利用可否を反転するため HAVE_RB_LEN_T というマクロを定義するようにしています。 [ruby-core:126900] [Feature #22400]
+昨日の rb_len_t の導入の続きで拡張ライブラリから rb_len_t 型の利用可否を判定するため HAVE_RB_LEN_T というマクロを定義するようにしています。 [ruby-core:126900] [Feature #22400]
