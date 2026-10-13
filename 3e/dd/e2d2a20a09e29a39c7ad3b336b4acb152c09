@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。 [ruby-core:126900] [Feature #22400] 標準添付ライブラリ cgi の拡張ライブラリ cgi/escape のテストで CGI.escapeHTML に巨大な文字列を渡してエラーを発生させるテストで使うサイズの計算に rb_len_t を利用するように修正しています。
