@@ -1,0 +1,1 @@
+win32/Makefile.sub の make prepare-vcpkg ターゲットのアクションで最初に DLL ファイル(へのリンク)を削除するようにしています。古いリンクがあると mklink がエラーになるためとのこと。
