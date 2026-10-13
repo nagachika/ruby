@@ -1,0 +1,1 @@
+dir.c で構造体 struct dirent に d_type メンバーがない環境のための preprocessor 分岐を追加しています。 Haiku のサポートのためみたいです。
