@@ -1,0 +1,1 @@
+configure で Haiku 向けに PIE をデフォルトで無効にするようにしています。
