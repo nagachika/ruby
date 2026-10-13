@@ -1,0 +1,1 @@
+prism の pm_parser_init() で __FILE__ のためのファイルパスを保持するための構造体メンバーの初期化を修正して NULL でなく空文字列を格納しておくようにしています。 https://github.com/ruby/prism/issues/4249
