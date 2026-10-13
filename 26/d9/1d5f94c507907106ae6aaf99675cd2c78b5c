@@ -1,0 +1,1 @@
+rubygems のテスト用のサミーサーバーで TCPServer.new 時に "localhost" を明示的に指定するようにしています。
