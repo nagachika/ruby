@@ -1,0 +1,1 @@
+Module の Refinements についてのテストの assert_esparately のタイムアウト指定をはずしています。 CI の Windows 環境での失敗回避のため。
