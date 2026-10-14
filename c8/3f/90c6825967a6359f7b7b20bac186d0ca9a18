@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。拡張ライブラリ zlib の対応。 [ruby-core:126900] [Feature #22400]
