@@ -1,0 +1,1 @@
+ARGF.read_nonblock で fd に O_NONBLOCK を設定しそこねていたのを修正しています。 https://github.com/ruby/ruby/pull/6524
