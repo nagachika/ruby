@@ -1,0 +1,1 @@
+io.c の io_getpartial() と io_read_nonblock() の処理を統合するリファクタリング。
