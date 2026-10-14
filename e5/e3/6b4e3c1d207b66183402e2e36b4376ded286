@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。 4f42bb946cb44bfee841f748122c8a974c2f8a78 に続いて parse.y や universal_parser.c の桁位置のチェックで rb_long2int() を rb_len2int() に変更しています。 [ruby-core:126900] [Feature #22400]
