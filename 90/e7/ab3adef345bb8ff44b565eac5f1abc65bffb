@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser での parse 時に \uXXXX 記法の桁が不足していた時の例外を JSON::ParserError に変更しています。
