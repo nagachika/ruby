@@ -1,0 +1,1 @@
+IO::Buffer の pread/pwrite の引数を保持するための構造体の off_t 型メンバを rb_off_t に更新しています。
