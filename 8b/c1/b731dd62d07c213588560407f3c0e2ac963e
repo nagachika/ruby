@@ -1,0 +1,1 @@
+File.owned?、File::Stat#owned? および Pathname#owned? の rdoc 用コメントを手直し。
