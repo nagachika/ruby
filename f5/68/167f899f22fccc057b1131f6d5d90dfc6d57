@@ -1,0 +1,1 @@
+ZJIT で eval や Binding#local_variable_set によるローカル変数の代入をすると更新後の値が参照できない場合がある不具合を修正しています。
