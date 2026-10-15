@@ -1,0 +1,1 @@
+拡張ライブラリ openssl に OpenSSL::SSL::SSLSocket#each_char メソッドを新規追加しています。また OpenSSL::SSL::SSLSocket#each_byte にブロックを渡さず呼んだ時に Enumerator を返すようにしています。
