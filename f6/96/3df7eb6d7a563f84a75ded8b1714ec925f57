@@ -1,0 +1,1 @@
+0adee861cb586a011fc4c77eb00758cb3f2cfd93 の続きで Class の allocator 廃止により Class の初期化チェックが不要になったので削除しています。
