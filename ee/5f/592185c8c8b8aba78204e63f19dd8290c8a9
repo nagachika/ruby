@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で frozen_string_literal 対応のため "" を返してたところを String.new で freeze されてない文字列を返すようにしています。
