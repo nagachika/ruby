@@ -1,0 +1,1 @@
+dfbcdda93952f7ed18131a14e1010d403e7f5c02 の Ruby::Box の autoload 対応の再修正。詳細よくわかってませんが二重管理になっていた autoload のエントリを一本化しているようです。 [ruby-core:126653] [Bug #22305]
