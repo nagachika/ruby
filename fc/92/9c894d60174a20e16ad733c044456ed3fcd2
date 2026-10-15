@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Buffering で String のサブクラスを定義していたのをやめて Refinements を利用するように変更しています。おお、標準添付ライブラリでの Refinements の利用。
