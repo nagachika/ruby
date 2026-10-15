@@ -1,0 +1,1 @@
+File.mtime、File::Stat#mtime および Pathname#mtime の rdoc 用コメントの手直し。
