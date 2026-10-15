@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#syswrite, #syswrite_nonblock でも StringValue() マクロで(to_str メソッドによる変換を試すようにしてたのを to_s メソッドによる明示的変換を行うように変更しています。
