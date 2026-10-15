@@ -1,0 +1,1 @@
+Windows での YJIT/ZJIT のコード領域の protect をかける処理が遅いのを対策しています。
