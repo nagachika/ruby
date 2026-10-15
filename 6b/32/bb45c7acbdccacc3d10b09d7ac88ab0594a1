@@ -1,0 +1,1 @@
+tool/rbinstall.rb の load_gemspec で gemspec 内のローカル変数が上書きできてしまうのを空のメソッド内の Binding を生成してそこで eval するようにして回避しています。
