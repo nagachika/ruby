@@ -1,0 +1,1 @@
+標準添付ライブラリ resolv で Windows 版でのみ同じ port に bind 済みでも bind が成功してしまうので setsockopt で SO_REUSEADDR を落として設定するようにしています。
