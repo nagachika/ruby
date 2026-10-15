@@ -1,0 +1,1 @@
+bac98d1454ca3018cecba2fd284eb33164d2f28c の続きで Ruby::Prism の rdoc 用コメントに require "ruby/prism" するべきでない理由を追記しています。 [ruby-core:126653] [Bug #22305]
