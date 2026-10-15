@@ -1,0 +1,1 @@
+tool/rbinstall.rb の load_gemspec でファイルパス処理の不具合修正。default gems のロード失敗の対策みたいです。 [ruby-core:127021] [Bug #22420]
