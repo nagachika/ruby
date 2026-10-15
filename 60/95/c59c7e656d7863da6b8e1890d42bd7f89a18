@@ -1,0 +1,1 @@
+標準添付ライブラリ net/http の resolv への依存をやめて Resolv::IPv4::Regex や Resolv::IPv6::Regex などの正規表現リテラルのみ必要だったので定義をコピーしています。
