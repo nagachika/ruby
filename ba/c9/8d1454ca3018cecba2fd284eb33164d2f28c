@@ -1,0 +1,1 @@
+Ruby::Prism の rdoc 用コメントに require "ruby/prism" は不要なことを明記しています。
