@@ -1,0 +1,1 @@
+prism の parse の version 指定のデフォルト値を "latest" から "nearest" に変更しています。
