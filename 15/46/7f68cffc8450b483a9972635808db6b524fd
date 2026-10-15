@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#puts でも IO#puts にそえろえて配列でネストした引数も受け付けて flatten で展開するようにしています。
