@@ -1,0 +1,1 @@
+parser としての prism の組み込み化の Ruby::Box 対応。 autoload を設定した定数 Ruby::Prism が最初に参照した box からのみ見えるというのを、参照した box にではなくて autoload 設定した box で読み込むようにして共有されるように? しています。 [ruby-core:126653] [Bug #22305]
