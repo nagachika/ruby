@@ -1,0 +1,1 @@
+variable.c の autoload_data() を autoload_entry() に改名するリファクタリング。
