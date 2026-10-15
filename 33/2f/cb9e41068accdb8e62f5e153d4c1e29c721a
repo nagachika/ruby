@@ -1,0 +1,1 @@
+複数 Ractor から Encoding を並行で autoload するテストが Windows でタイムアウトしたためタイムアウトを伸ばしています。
