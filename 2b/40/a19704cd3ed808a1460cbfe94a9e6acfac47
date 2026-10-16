@@ -1,0 +1,1 @@
+ここより mswin 環境で nmake のかわりに GNU make でビルドできるようにするための Windows 環境でのビルドシステム関連の修正が続きます。 win32/makedirs.bat の並列ビルド対応。
