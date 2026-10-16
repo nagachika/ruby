@@ -1,0 +1,1 @@
+iseq.h から #include "prism_compile.h" を削除して必要なソースファイル(.c)から直接 #include するようにリファクタリングしています。
