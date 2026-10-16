@@ -1,0 +1,1 @@
+error_hightlight や did_you_mean, syntax_suggest などの default gems を遅延ロードする機構を autoload と同じ仕組みを使うようにして同期的に load を待つようにしています。 [ruby-core:127110] [Bug #22442]
