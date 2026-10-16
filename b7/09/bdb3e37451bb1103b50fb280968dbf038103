@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションの環境セットアップ用のツール  tool/gen-sources.bash の呼び出し時の引数をオプションで変更できるようにして compilers workflow から extract-gems も引数に追加して bundled gems の展開を行うようにしています。
