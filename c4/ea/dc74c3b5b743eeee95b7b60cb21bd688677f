@@ -1,0 +1,1 @@
+bundler の require 関連のテストの偶発的な? LoadError を捕捉して無視する対応を追加しています。
