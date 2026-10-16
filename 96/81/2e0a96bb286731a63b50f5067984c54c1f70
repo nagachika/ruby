@@ -1,0 +1,1 @@
+File.socket?、File::Stat#socket? および Pathname#socket? の rdoc 用コメントの手直し。
