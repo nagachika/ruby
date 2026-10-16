@@ -1,0 +1,1 @@
+同じく Windows 環境での clang-cl でのビルドサポートのための修正。sprintf.c でも同様に clang-cl 向けの修正をしています。
