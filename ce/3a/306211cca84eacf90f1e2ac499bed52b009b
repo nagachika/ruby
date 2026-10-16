@@ -1,0 +1,1 @@
+同じく Windows 環境での clang-cl でのビルドサポートのための修正。 doc/distribution/windows.md に clang-cl でのビルド方法を追記しています。
