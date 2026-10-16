@@ -1,0 +1,1 @@
+ZJIT の有効化時に BasicObject#!= メソッドの定義を ruby 実装の組み込みメソッド定義を利用するようにしています。inline 最適化できるようにするためですね。ZJIT の時だけなのは Array#each などと同じくバックトレースの変化などを避けるためかな? https://github.com/ruby/ruby/pull/19162
