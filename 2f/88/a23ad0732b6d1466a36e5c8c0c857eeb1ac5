@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.parse の SIMD 対応で x8664 環境で __builtin_cpu_supports("sse2") での実行時分岐をやめて常に SSE2 を使うようにしています。
