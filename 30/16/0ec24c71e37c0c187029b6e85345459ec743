@@ -1,0 +1,1 @@
+win32/firewall.cmd というコマンドを追加して Windows でのテスト時の警告ダイアログ抑制のための手順を doc/distribution/windows.md に追記しています。
