@@ -1,0 +1,1 @@
+RubyVM::ZJIT.max_compile_ns= メソッドと RubyVM::AJIT.total_compile_time_ns メソッドを追加し YJIT と同様に JIT コンパイルに使える時間の予算管理を可能にしています。徐々に時間を追加(max を引き上げ)ることによって時間方向に分散できるようにするものです。 [ruby-core:126329] [Feature #22236]
