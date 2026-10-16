@@ -1,0 +1,1 @@
+同じく Windows 環境での clang-cl でのビルドサポートのための修正。 thread_win32.c の関数の型を修正。
