@@ -1,0 +1,1 @@
+vm_eval.c の check_funcall_exec() という関数で method_missing メソッドを呼び出す時にブロックパラメーターの扱いに問題があって異常終了する可能性があったのを修正しています。テストをみると Array#zip で内部的に引数のメソッドを呼ぶに時に method_missing の呼び出しが発生する時に起きてたみたいです。たぶん Array#zip 限定ではなさそう。 [ruby-core:127100] [Bug #22436]
