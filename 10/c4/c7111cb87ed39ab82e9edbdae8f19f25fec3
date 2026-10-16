@@ -1,0 +1,1 @@
+2b40a19704cd3ed808a1460cbfe94a9e6acfac47 から続く mswin 環境での GNU make 対応の続き。 enc/depend と mkmf.rb のタイムスタンプファイル作成の失敗を無視する Windows での並行ビルド対応。
