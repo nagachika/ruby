@@ -1,0 +1,1 @@
+GitHub Actions の独自 action で 50608f224a0dd481f06d52d54cd2c25b21a710af の修正に対応して tool/gen-sources.bash 実行時に環境変数 HAVE_GIT=yest と GIT=git を渡すようにしています。
