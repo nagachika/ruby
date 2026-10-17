@@ -1,0 +1,1 @@
+拡張ライブラリ socket の b896f80598cc096c84d57b2024813e994637af3b での Socket.tcp_with_fast_fallback の不具合修正の再修正。変数名を使うべきところ誤って Symbol を書いていたので意図した修正になってませんでした。 [ruby-core:122742] [Bug #21512]
