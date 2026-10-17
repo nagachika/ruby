@@ -1,0 +1,1 @@
+さらに prism が誤って parse を通してしまっていた不正な構文を SyntaxError にする修正。
