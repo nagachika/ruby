@@ -1,0 +1,1 @@
+Thread で割り込み処理をする時に大域脱出用の情報がセットされていた th->ec->errinfo が Qnil に上書きされて異常終了してしまう可能性があったので rb_threadptr_execute_interrupts で errinfo を保存して復旧するように修正しています。 [ruby-core:126992] [Bug #22415]
