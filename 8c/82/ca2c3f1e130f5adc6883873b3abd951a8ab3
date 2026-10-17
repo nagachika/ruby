@@ -1,0 +1,1 @@
+File.world_readable?、File::Stat#world_readable? および Pathname#world_readable? の rdoc 用コメントをまとめて手直ししています。
