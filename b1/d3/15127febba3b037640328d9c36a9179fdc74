@@ -1,0 +1,1 @@
+Ractor local GC の mark 処理で rb_gc_mark_ctx という型を各所で rb_gc_current_mark_ctx() で取得しなおしていたのを引数として引き回すことで不要にする最適化。
