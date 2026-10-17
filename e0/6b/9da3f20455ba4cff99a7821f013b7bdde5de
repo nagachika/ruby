@@ -1,0 +1,1 @@
+Kernel#fork 後の子プロセスでの rb_thread_release_fork_lock() での rwlock 解放を行なわずに rb_thread_reset_fork_lock() でロック変数の再初期化のみ行うようにしています。 FreeBSD では既にそのようになっていたのですが macOS でも同じ問題があった? みたいで全環境で同じ処理にしています。 [ruby-core:127118] [Bug #22445]
