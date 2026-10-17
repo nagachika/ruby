@@ -1,0 +1,1 @@
+Github Actions の独自 action で 7569e3af0f768b8ed972da5a357fa4099a979ea1 で HAVE_GIT 環境変数の設定を step に対してしていたのを tool/gen-sources.bash スクリプト実行のコマンドラインで個別にも指定するようにしています。また .github/workflows/compilers.yml でのアクションへのオプションで makeup の指定は不要になっていたので元に戻しています。
