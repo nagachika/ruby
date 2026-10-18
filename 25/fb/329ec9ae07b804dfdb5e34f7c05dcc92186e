@@ -1,0 +1,1 @@
+Hash の複製時に ar_table 実装での要素を追加する ar_add_direct_i() コールバック関数で RGenGC 用の Write Barrier が抜けていたのを追加しています。 RGenGC デバッグ用の GC 実装 wbcheck でのテストで発見したとのこと。
