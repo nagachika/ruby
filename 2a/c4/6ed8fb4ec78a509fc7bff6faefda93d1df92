@@ -1,0 +1,1 @@
+メソッド引数処理の setup_parameters_complex() という関数で RARRAY_LEN() の戻り値を -1 しているため空配列の時に要素参照時に -1 を渡してしまっていたのを修正しています。 61261bf5c432a4de57b1ca38627dabbc3cc93490 の変更による assertion で発見したものだと思われます。
