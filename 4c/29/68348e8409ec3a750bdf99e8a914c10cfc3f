@@ -1,0 +1,1 @@
+Ractor local GC で rb_execution_context_t のマークのための関数群でも b1d315127febba3b037640328d9c36a9179fdc74 と同様に struct rb_gc_mark_ctx を引数で引き回して利用するようにしています。
