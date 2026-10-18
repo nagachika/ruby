@@ -1,0 +1,1 @@
+配列の要素を取得するマクロ RARRAY_AREF() の実装を RBIMPL_AREF_PTR() という inline 関数に切り出しデバッグビルド時に RUBY_ASSERT() によるインデックスの範囲チェックを行うようにしています。
