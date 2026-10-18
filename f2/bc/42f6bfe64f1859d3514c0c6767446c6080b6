@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#sysread, #read_nonblock および OpenSSL::Buffering#read, #readpartial の引数に負数が渡された時に ArgumentError 例外を発生させるようにチェックを追加しています。 IO と挙動を揃えるためかな?
