@@ -1,0 +1,1 @@
+gems/bundled_gems の irb のテストに使う commit hash の指定を更新しています。 alias の仕様変更(deprecated 警告)への対応みたいです。 https://github.com/ruby/irb/pull/1256
