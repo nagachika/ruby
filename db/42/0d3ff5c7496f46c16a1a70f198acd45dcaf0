@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。NEWS の追記で rb_len_t の拡張対象を mswin から 64-bit mswin に修正しています。
