@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。NEWS に mswin での String や Array のインデックスの上限拡張を追記しています。
