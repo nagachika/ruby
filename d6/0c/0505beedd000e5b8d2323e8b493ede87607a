@@ -1,0 +1,1 @@
+テスト用ユーティリティ envutil.rb の EnvUtil.terminate でデバッガで attach してダンプを得る時にはタイムアウトなしで Process.wait で待つようにしています。
