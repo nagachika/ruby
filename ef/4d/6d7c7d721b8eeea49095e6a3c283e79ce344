@@ -1,0 +1,1 @@
+default gems でも利用するテスト用のユーティリティ tool/lib/core_assertions.rb で assert_no_memory_leak メソッドに samples と growth_rate_ration キーワード引数を追加して繰り返し実行して徐々にメモリ使用量が増えてないかというチェック方法の指定を可能にしています。
