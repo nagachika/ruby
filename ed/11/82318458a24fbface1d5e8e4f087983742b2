@@ -1,0 +1,1 @@
+03e337664345b69daae99c763788293beb33ab94 からの一連の rb_len_t の導入続き。 mswin での rb_len_t の型変更により RUBY_ABI_VERSION をインクリメントして 6 に更新しています。
