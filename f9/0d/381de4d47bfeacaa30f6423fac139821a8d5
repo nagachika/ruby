@@ -1,0 +1,1 @@
+Struct#initialize でメンバー数を内部的なインスタンス変数 __members__ から取得してたのをやめて inline 関数 RSTRUCT_LEN_RAW() で得るようにしています。
