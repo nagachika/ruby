@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で bundled gems の fiddle のテスト Atest_no_memory_leak を skip する条件を削除して常に skip するようにしています。
