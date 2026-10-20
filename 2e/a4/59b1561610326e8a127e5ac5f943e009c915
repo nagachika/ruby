@@ -1,0 +1,1 @@
+同じく tool/lib/core_assertions.rb の assert_no_memory_leak に追加したキーワード引数 samples に Range オブジェクトを渡して sample 数の最小/最大を指定して、最小回数を越えてメモリ使用量の増加が収まったら早めに打ち切るようにして時間短縮できるようにしています。
