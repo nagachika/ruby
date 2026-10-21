@@ -1,0 +1,1 @@
+prism の Prism::Source#checksum で parse したソースコードの checksum を保持して parse 後にファイルが変更されたら検出できるようにしています。
