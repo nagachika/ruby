@@ -1,0 +1,1 @@
+ZJIT の最適化処理で不要な処理をスキップする最適化。 https://github.com/ruby/ruby/pull/18871
