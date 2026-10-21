@@ -1,0 +1,1 @@
+addr2line.c の main_exe_path() という関数定義の OpenBSD 向けの preprocessor 分岐を追加しています。
