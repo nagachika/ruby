@@ -1,0 +1,1 @@
+ZJIT のために incremental marking 中かどうかを判定するフラグを Ractor Local GC 対応のため objspace ごとに持つように変更しています。 RGenGC 用の Write Barrier の省略の判定に使われていて誤って Write Barrier 省略してしまう場合があったようです。
