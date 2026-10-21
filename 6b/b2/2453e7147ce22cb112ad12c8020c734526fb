@@ -1,0 +1,1 @@
+prism のヘッダファイルにを C++ でのビルド時の対応のため #ifdef __cplusplus でかこんだ extern "C" のブロックを追加しています。
