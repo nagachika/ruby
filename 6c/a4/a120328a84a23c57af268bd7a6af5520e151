@@ -1,0 +1,1 @@
+複数 Ractor 利用時に String#unicode_normalize メソッドが main Ractor 以外から呼ぶと lib/unicode_normalize/normalize.rb の定数の Hash オブジェクトによるテーブルを参照しようとして non-shareable なため例外になっていたのを修正しています。特異メソッドを定義して定数参照のかわりにメソッドで Ractor 単位に遅延初期化するようにしています。 [ruby-core:126572] [Bug #22293]
