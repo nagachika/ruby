@@ -1,0 +1,1 @@
+rubyspec の標準添付ライブラリ ipaddr のテストを最近の仕様変更(IPv6 の規格に違反した記法の警告)に追随させています。 https://github.com/ruby/ipaddr/pull/130
