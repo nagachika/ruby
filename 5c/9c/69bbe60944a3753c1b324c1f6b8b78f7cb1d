@@ -1,0 +1,1 @@
+ae6ef1bfb5e9005a75f81f03de8672bed4927e92 で導入した Prism::Source の checksum を ISeq の source hash として利用するようにしています。
