@@ -1,0 +1,1 @@
+doc/language/packed_data.md の String#unpack, Array#pack の指示子の説明表に "!" つきの指示子について追加しています。 https://github.com/ruby/ruby/pull/19431
