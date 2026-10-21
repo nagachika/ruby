@@ -1,0 +1,1 @@
+8d205a7e2f3f08cc1b5a593173f92cc2df9abd1a と類似で M:N Thread 有効化時に rb_thread_io_blocking_call() でも GVL 解放前に errno を 0 クリアしていたのが実際に blocking region で syscall を呼び出す thread ではないものを初期化してしまう可能性があったので BLOCKING_REGION() マクロによるブロック内で errno = 0; するように修正しています。うーむこういうのいっぱいありそうですね。
