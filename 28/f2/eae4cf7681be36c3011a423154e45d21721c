@@ -1,0 +1,1 @@
+Kernel#fork や Process.spawn 前に標準出力/標準エラー出力を flush する処理で rb_stdout/rb_stderr を直接参照していたのを rb_ractor_stdout()/rb_ractor_stderr() を呼んで Ractor ごとの IO を使うように修正しています。別 Ractor の IO を操作することでデッドロック検出にひっかかって例外が発生していたようです。 [ruby-core:127096] [Bug #22434]
