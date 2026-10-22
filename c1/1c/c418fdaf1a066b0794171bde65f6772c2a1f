@@ -1,0 +1,1 @@
+3357fecc4b297532545565dcc34b0a1ca0776317 で prism に導入した pm_visit_result_t という enum を pm_node_find() でも戻り値に使うようにしています。
