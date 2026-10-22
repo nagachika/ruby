@@ -1,0 +1,1 @@
+prism/compiler/format.h で #include <stdio.h> するようにしています。 MinGW での警告抑制のため。
