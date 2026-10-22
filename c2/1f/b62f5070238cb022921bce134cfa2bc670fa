@@ -1,0 +1,1 @@
+GitHub Actions の macOS 版 workflow で make zjit-test-build を実行するジョブを追加しています。
