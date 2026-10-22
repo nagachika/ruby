@@ -1,0 +1,1 @@
+prism の magic comment の処理での xmalloc() でのメモリ確保を不要にするリファクタリング。
