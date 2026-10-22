@@ -1,0 +1,1 @@
+5beeb48f7b54bde0faf9a930cb0611dea49633ad と同様に thread.c の do_select() でも native_fd_select() がエラーではない時も EINTR を返すようにしています。
