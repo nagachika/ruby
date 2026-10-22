@@ -1,0 +1,1 @@
+prism の深い AST のコンパイル時にスタックオーバーフローさせないように post-order traversal するように変更しています。
