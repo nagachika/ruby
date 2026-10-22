@@ -1,0 +1,1 @@
+prism の pm_options_new() で pm_options_t::line を 1 で初期化するようにしています。
