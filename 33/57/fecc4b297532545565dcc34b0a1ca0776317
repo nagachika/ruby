@@ -1,0 +1,1 @@
+prism の C API の戻り値の変更。 node の traversal を中断できるようにしているようです。
