@@ -1,0 +1,1 @@
+thread.c の wait_for_single_fd_blocking_region() で ppoll(2) がエラーではないけど帰る時に lerrno ポインタ引数で返す errno 情報に EINTR を返してリトライさせるようにしています。
