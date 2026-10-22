@@ -1,0 +1,1 @@
+プロセス終了時の finalizer 処理で複数 Ractor 利用時に ASAN での誤検出? を抑制するため asan_unpoisoning_object() を追加しています。
