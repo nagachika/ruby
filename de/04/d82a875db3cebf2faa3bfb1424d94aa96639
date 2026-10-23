@@ -1,0 +1,1 @@
+rb_len_t 型の変換用のマクロ LEN2FIX()、FIX2LEN()、FIX2ULEN()、NUM2ULEN() などを公開ヘッダに追加しています。
