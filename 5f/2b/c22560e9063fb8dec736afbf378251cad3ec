@@ -1,0 +1,1 @@
+標準添付ライブラリ syntax_suggest で Prism を利用していて、prism のうち組み込みパーサー部分は Ruby::Prism になりライブラリとしての prism は bundled gems になったので Ruby::Prism があればそちらを使って require "prism" しないように対応しています。 https://github.com/ruby/syntax_suggest/pull/266
