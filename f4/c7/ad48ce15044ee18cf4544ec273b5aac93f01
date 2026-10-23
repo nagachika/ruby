@@ -1,0 +1,1 @@
+組み込みメソッドの ruby 実装で使える Primitive.attr! に :always_inline という指定を追加して ZJIT で強制的に inline 化するようにして、BasicObject#!= の定義にこれを利用しています。
