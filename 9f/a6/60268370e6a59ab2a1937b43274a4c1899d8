@@ -1,0 +1,1 @@
+Windows の GNU Make 対応の win32/GNUmakefile.sub で生成する config.h に SIZEOF_RB_LEN_T 定数マクロ定義の出力を追加しています。 4e746b14fd2482bb7bf2218d28b868c79d7b33dc の対応漏れ追随。
