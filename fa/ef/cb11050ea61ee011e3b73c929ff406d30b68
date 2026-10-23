@@ -1,0 +1,1 @@
+Kernel#sprintf で Encoding の変換により終端文字(NUL 文字)のサイズが変化することで realloc(3) しても古いバッファを参照してしまうケースがあったので RSTRING_PTR() でポインタを取り直すようにしています。 [ruby-core:127200] [Bug #22461]
