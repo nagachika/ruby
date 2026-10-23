@@ -1,0 +1,1 @@
+thread_pthread.h で ruby_current_ec という変数の宣言を preprocessor 分岐の外に出して arm64 や ppc64le の環境で未定義になってたのを修正しています。
