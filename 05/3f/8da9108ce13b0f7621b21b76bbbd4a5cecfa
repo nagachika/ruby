@@ -1,0 +1,1 @@
+M:N Thread 有効化時に複数 Ractor 利用時に rb_execution_context_t の参照が native thread の乗り換えが起きると誤った ec を参照してしまう可能性があるので常に inline 化を抑制した rb_current_ec() を利用するように対応しています。 [ruby-core:127168] [Bug #22453]
