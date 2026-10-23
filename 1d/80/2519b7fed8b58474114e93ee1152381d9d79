@@ -1,0 +1,1 @@
+String#bitwise_and, #bitwise_or, #bitwise_xor などの rdoc 用コメントが存在していなかったので追加しています。マクロで関数定義を生成するようになってたので Document-method: を使って明示的にメソッド名を指定した rdoc 用コメントを追加しています。
