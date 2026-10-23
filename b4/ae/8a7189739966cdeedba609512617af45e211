@@ -1,0 +1,1 @@
+rubyspec の Dir.scan のテストで /dev/null などのデバイスファイルのコンテナ内で d_type が DT_REG など通常と異なる値になって失敗するので環境をチェックして skip するようにしています。
