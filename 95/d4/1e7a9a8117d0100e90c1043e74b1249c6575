@@ -1,0 +1,1 @@
+RubyVM::InstructionSequence#disasm の ISeq の attr の表示に WITHOUT_INTERRUPTS と CALLER_USER_BOX という最近追加されたフラグを追加しています。
