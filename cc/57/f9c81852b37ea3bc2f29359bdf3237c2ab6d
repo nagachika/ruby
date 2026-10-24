@@ -1,0 +1,1 @@
+複数 Ractor 利用時に Class/Module のインスタンス変数を参照/更新した時の Ractor::IsolationError のメッセージにクラス名とインスタンス変数名を含めるようにしています。
