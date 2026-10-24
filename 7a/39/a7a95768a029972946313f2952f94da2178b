@@ -1,0 +1,1 @@
+Ractor local GC で Ractor の終了時に Ractor ごとの heap の最後の page を empty_pages に返さないようにしていたので、objspace のフラグに ownerless というビットフラグを追加して Ractor 終了時の GC ではこれを立てて不要な page を回収に回すように修正しています。
