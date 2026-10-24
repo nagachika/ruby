@@ -1,0 +1,1 @@
+ZJIT で &blk のようなブロック引数のあるメソッド呼び出しも inline 最適化の対象にするよう対応しています。 https://github.com/ruby/ruby/pull/19077
