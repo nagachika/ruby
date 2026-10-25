@@ -1,0 +1,1 @@
+GC の統計情報のカウンタ更新のために include/ruby/atomic.h に RUBY_ATOMIC_SIZE_LOAD() と size_t 用の atomic 処理のマクロを新規追加しています。
