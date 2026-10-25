@@ -1,0 +1,1 @@
+ZJIT の String#ascii_only? および String#valid_encoding? を inline 化する最適化で文字列の coderange が未定の時に size-exit していたのをその場で coderange スキャンを行うようにしています。 https://github.com/ruby/ruby/pull/19454
