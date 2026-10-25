@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL.verify_wildcard で第2引数が ".example.com" のように先頭のラベルが空の SAN dNSName の時に例外が発生していたので許容するように修正しています。
