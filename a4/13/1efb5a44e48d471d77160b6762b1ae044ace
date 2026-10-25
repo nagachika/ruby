@@ -1,0 +1,1 @@
+複数 Ractor 利用時に別の Ractor の Class/Module を dup/clone などで複製すると Ractor::IsolationError で例外発生させるようにしています。複製時に元の Class/Module からのオブジェクトグラフを走査し複製する際の race condition などの問題があるため複製そのものを禁止したようです。
