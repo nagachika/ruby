@@ -1,0 +1,1 @@
+GC.stat のキーワード引数 scope を process に変更して true 指定時はプロセス全体の統計情報を、false (デフォルト)は実行している Ractor local の統計情報を返すようにしています。
