@@ -1,0 +1,1 @@
+Windows 版の rb_w32_read_internal() でファイルハンドルの close 漏れがあったのを修正しています。
