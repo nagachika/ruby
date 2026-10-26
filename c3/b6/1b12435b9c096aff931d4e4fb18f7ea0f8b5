@@ -1,0 +1,1 @@
+Windows での IO 中の割り込み処理で CancelIo() という API を呼んだ後に GetOverlappedResult() で読めたデータを処理して喪失を防ぐように修正しています。
