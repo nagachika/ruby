@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::Inflate#inflate の rdoc 用コメントにキーワード引数 buffer には毎回同じ String を渡し破壊的メソッドを呼ばないことなどの制約事項を追記しています。
