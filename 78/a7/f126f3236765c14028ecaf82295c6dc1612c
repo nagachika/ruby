@@ -1,0 +1,1 @@
+正規表現の命令列へのコンパイル時の compile_length_tree() という関数の戻り値のチェックを強化。 https://github.com/ruby/ruby/pull/19505
