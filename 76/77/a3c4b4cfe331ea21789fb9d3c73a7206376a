@@ -1,0 +1,1 @@
+そして組み込みメソッド Array#find の ruby 実装版を復活させた c007fb1b1f13b31fb186faaeb2b78e5b18e243b9 も revert して再度コメントアウトされた状態に戻しています。
