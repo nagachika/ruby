@@ -1,0 +1,1 @@
+7d104f9de0c83c227d96c240eb4a66b8fc4d362e と同じく拡張ライブラリ zlib の Zlib::Inflate#inflate のキーワード引数 buffer で渡した時に立てた ZSTREAM_REUSE_BUFFER フラグがクリアされずに続いて Zlib::Inflate#<< などで内部オブジェクトの klass 設定が行なわれず異常終了する可能性があった不具合を修正しています。
