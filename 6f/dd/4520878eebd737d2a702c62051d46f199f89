@@ -1,0 +1,1 @@
+Thread#name= を終了した Thread について呼ぶと異常終了などを起こすので rb_thread_t::status をチェックして終了後は処理をスキップするようにしています。 [ruby-core:127230] [Bug #22471]
