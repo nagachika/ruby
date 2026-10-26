@@ -1,0 +1,1 @@
+複数 Ractor 利用時に Mutex の所有者を管理するための serial id が Ractor 間で衝突する可能性があり別 Thread から Mutex を unlock できてしまう可能性があった不具合を修正しています。 Ractor 作成時にその main Thread の rb_thread_t::ec::serial を所属 Ractor の通し番号から作成するように修正しています。
