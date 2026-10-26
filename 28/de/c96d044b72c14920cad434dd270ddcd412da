@@ -1,0 +1,1 @@
+組み込みメソッド Array#find の C 実装でブロックなしで Enumerator を返す時のための RETURN_ENUMERATOR() マクロを rb_check_arity() の後に移動して不正な引数の時の例外を優先するようにしています。
