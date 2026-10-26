@@ -1,0 +1,1 @@
+7a6648c10446ceb8b5ca2293a1fdbcd2b99cc458 の組み込みメソッド Array#find の ruby 実装版の修正は C 実装側で対応されて不要になったようなので revert しています。
