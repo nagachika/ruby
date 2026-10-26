@@ -1,0 +1,1 @@
+Windows 版の rb_w32_set_nonblock2() にて pipe のモード変更のため SetNamedPipeHandleState() という関数を変更がなくても呼んでいたのを、変更がある時だけ呼ぶように修正しています。
