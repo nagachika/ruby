@@ -1,0 +1,1 @@
+bundler の bundle lock --add-checksums --add-platform arm64-darwin とすると platform 専用の gem の checksum が登録されないという不具合を修正しています。
