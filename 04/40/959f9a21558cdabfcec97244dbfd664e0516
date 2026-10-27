@@ -1,0 +1,1 @@
+bundler の override 対応で不正な version 指定のエラー処理を修正しています。
