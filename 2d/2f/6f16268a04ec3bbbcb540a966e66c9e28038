@@ -1,0 +1,1 @@
+rubygems の拡張ライブラリを含む gem のビルド時のソースファイル読み込み時に Encoding 処理関連でエラーになることがあったので ASCII-8BIT で読み込むようにしています。 Fixes https://github.com/ruby/rubygems/pull/9966
