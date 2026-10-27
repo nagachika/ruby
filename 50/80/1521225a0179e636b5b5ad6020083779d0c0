@@ -1,0 +1,1 @@
+Array#[] の rdoc 用コメントの手直しと beginless, endless の Range を渡した時のサンプルを追記。
