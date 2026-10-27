@@ -1,0 +1,1 @@
+rubygems の gem uninstall で bin ディレクトリがない時に処理が中断していたのを修正しています。 https://github.com/ruby/rubygems/pull/9959
