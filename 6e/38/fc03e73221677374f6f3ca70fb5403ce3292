@@ -1,0 +1,1 @@
+50801521225a0179e636b5b5ad6020083779d0c0 の続きで rubygems の gem build 時のファイル読み込みで File.foreach のかわりに File.open のブロック内で File#each_line.with_index を利用するようにリファクタリングしています。 JRuby でうまく動かないらしいです。
