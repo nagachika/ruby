@@ -1,0 +1,1 @@
+rubygems のテストで利用するコマンドの shebang で起動する ruby を Gem.ruby で決めるようにしています。
