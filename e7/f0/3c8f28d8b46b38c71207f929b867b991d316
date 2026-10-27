@@ -1,0 +1,1 @@
+3d973f2b5a6ed47f5968c04d28593ccc28c6f0f2 から続いて rubyspec の musl 対応。 Encoding.locale_charmap のテストをスキップするようにしています。
