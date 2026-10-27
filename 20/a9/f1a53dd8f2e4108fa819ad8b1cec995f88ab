@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::Inflate#inflate のブロック内で #sync メソッドを呼んだら Zlib::InProgressError 例外を発生させるようにして不正な状態になるのを避けています。
