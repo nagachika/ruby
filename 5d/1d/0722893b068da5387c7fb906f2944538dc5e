@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の Zlib::Inflate#sync の rdoc 用コメントの戻り値の記述と #inflate 中に呼ぶと例外になる 20a9f1a53dd8f2e4108fa819ad8b1cec995f88ab の変更について追記しています。
