@@ -1,0 +1,1 @@
+msul libc が pthread_getattr_np(3) で定義されているものの正しい値を返さないという問題があるそうで Linux の glibc 以外では MAINSTACKADDR_AVAILABLE マクロを 0 に定義して main thread のマシンスタックの取得を抑制しています。 [ruby-core:117684] [Bug #20452]
