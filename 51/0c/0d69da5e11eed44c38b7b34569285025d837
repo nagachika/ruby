@@ -1,0 +1,1 @@
+bundler の Gemfile で指定した override を Gemfile.lock に OVERRIDES というセクションを追加して保存するように対応しています。
