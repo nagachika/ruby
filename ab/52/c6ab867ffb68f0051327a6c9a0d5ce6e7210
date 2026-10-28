@@ -1,0 +1,1 @@
+り で inttypes.h の前に sys/types.h を #include するようにしています。 newlib という C ライブラリでビルドエラーになっていたみたいです。
