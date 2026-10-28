@@ -1,0 +1,1 @@
+rbs の不安定なテストを skip するように tool/rbs_skip_tests にエントリを追加しています。 https://github.com/ruby/ruby/pull/19542
