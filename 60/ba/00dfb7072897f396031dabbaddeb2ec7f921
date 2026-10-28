@@ -1,0 +1,1 @@
+GitHub Actions の windows 版 workflow で WindowsApps というプログラム? が含まれるパスを環境変数 PATH から除外するようにしています。
