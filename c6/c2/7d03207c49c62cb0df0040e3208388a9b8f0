@@ -1,0 +1,1 @@
+リリース作業用の GitHub Actions の workflow で mswin 版のバイナリパッケージの zip パッケージを公開ディレクトリに移動する処理を自動化しています。
