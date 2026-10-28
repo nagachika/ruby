@@ -1,0 +1,1 @@
+parse.y の 16進数と 8進数表記の処理のコールバック関数を universal parser 用の構造体 rb_parser_config_t のメンバーから削除して ruby_scan_digits() を利用するようにリファクタリングしています。
