@@ -1,0 +1,1 @@
+テスト用のユーティリティ tool/lib/core_assertions.rb の assert_no_memory_leak のタイムアウト時に子プロセスが標準入力読み込みでブロックしてハングアップする可能性があったのを修正しています。 https://github.com/ruby/test-unit-ruby-core/pull/37
