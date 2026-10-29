@@ -1,0 +1,1 @@
+File.realdirpath で symbolic link の解決をする時に参照先の文字列オブジェクトが GC で回収されるのを防ぐための RB_GC_GUARD() を追加しています。 [ruby-core:127256] [Bug #22479]
