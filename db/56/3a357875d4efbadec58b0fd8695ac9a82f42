@@ -1,0 +1,1 @@
+vm.c の rb_ec_clear_vm_stack() という関数に atomic_signal_fence() の呼び出しを追加。コンパイラによる機械語命令の順序変更により異常終了する可能性があったのを修正しています。 [ruby-core:127252] [Bug #22477]
