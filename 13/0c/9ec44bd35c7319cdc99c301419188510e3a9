@@ -1,0 +1,1 @@
+tool/make-snapshot で tar パッケージを生成する時に最後に EOA (End of Archive) のマーカーが出力されていなかったのを追加しています。 [ruby-core:127259] [Bug #22480]
