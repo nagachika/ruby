@@ -1,0 +1,1 @@
+prism のメモリ確保失敗時の abort(3) による異常終了を PRISM_OOM() マクロを定義することで差し替えられるようにしています。今のところ結局 prism/internal/oom.h で abort の呼び出しに定義していますが、rb_eNoMemError 例外とかに変更するのかな。
