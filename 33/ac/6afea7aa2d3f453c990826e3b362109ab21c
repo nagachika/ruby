@@ -1,0 +1,1 @@
+ZJIT の型プロファイルの String#% の戻り値のクラスを String 固定(サブクラスは含まない)に変更しています。 https://github.com/ruby/ruby/pull/19479
