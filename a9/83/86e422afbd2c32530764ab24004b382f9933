@@ -1,0 +1,1 @@
+拡張ライブラリ socket の raddrinfo_pthread_create() を raddrinfo_thread_create() と改名し引数から不要な thread id を削除しています。
