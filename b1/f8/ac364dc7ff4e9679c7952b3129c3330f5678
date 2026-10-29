@@ -1,0 +1,1 @@
+3a55e5c6d34728ffcb5158dd7c36643e11c37f04 の到達不能なコード内の ensure が呼ばれてしまう不具合の修正の再修正。今度は逆に ensure 節が実行されない場合ができてしまっていたので条件分岐を修正しています。 https://github.com/ruby/ruby/pull/19513#issuecomment-6460531535
