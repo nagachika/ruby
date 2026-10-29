@@ -1,0 +1,1 @@
+ZJIT のブロック呼び出しの対応呼び出し形式を拡張して side-exit を減らす最適化。 https://github.com/ruby/ruby/pull/19549
