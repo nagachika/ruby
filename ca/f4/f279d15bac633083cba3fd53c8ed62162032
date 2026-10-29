@@ -1,0 +1,1 @@
+prism の ab52c6ab867ffb68f0051327a6c9a0d5ce6e7210 での newlib 対応の再修正。フォーマット文字列の指示子の %d のかわりに PRIi32 マクロを利用するようにして sys/types.h の不要な #include を削除しています。
