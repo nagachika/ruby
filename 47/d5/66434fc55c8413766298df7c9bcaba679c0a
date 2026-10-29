@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Addrinfo の名前解決が mswin では割り込み可能な実装になっていなかったのを、_beginthreadex() というライブラリ関数を使った thread? による実装で対応するようにしています。
