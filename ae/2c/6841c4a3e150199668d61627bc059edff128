@@ -1,0 +1,1 @@
+vm.c に struct rb_callcache の static な変数 vm_uncached_cc というのを定義して Module のメソッドエントリに関するメソッド群で callcache の生成を抑制してこの静的な変数への参照を利用するようにしています。通常 Class/Module に対して数回しか呼ばれないので callcache を作るメリットがないためということみたいです。
