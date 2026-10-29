@@ -1,0 +1,1 @@
+Ruby::Box#inspect で表示する box_id の文字列化にフォーマット文字列 %lf での埋め込みを使うようにして、わざわざ LONG2NUM() で Integer 化してから rb_funcall() による to_s のメソッド呼び出しをしていたのをやめています。
