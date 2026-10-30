@@ -1,0 +1,1 @@
+String#upcase, #downcase, #capitalize, #capitalize!, #swapcase などの rdoc 用コメントの call-seq の省略可能引数の記述を必須引数のように変更しています。がコミットログをみると(そして実際に)第1引数は省略可能で、省略時の値が :ascii ではない(Unicode の case mapping) というだけなので、この記法だと誤解があるけど、どうも Unicode を明示的に指定する方法はないらしい? https://github.com/ruby/ruby/pull/19582
