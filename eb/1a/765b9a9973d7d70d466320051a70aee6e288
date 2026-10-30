@@ -1,0 +1,1 @@
+ZJIT の HIR 命令 ArrayAset で struct RBaisc::flags のキャッシュを保持するようにして最適化しやすく? しているようです。
