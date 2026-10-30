@@ -1,0 +1,1 @@
+macOS での pthread では pthread_create(3) の第1引数に実際に thread が起動した「後に」 thread id を書き戻すことがあり、その前にこの struct rb_native_thread のメモリ領域が free されてしまう可能性があって use-after-free になるケースがあったので、ローカル変数で受け取って struct rb_native_thread::thread_id には起動した thread 内で pthread_self() で thread id を得てセットするように修正しています。起動後に thread id が設定されない期間が存在しますが、そのあいだは Thread#native_thread_id は nil を返すようにしています。
