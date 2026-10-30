@@ -1,0 +1,1 @@
+ObjectSpace::WeakMap や ObjectSpace::WeakKeyMap やその他 VM 内部の弱参照の解放処理で GC の mark 処理時に Ractor の Object Space を取得するために rb_execution_context_t を得るのい毎回 thread local storage を引いていて遅かったので、objspace を引数でとり回すように最適化しています。
