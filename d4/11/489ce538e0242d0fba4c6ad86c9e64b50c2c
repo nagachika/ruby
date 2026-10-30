@@ -1,0 +1,1 @@
+include/ruby/internal/memory.h で rbimpl_size_add_overflow() の定義に x64 版 MSVC でのビルド時に _addcarry_u64() という組み込み関数? を利用した実装を追加しています。
