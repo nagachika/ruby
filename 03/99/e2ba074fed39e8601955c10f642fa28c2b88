@@ -1,0 +1,1 @@
+dir.c および process.c で MinGW 上での clang でのコンパイル時の警告抑制のため preprocessor 分岐の条件追加や未使用変数のキャストなどを追加しています。
