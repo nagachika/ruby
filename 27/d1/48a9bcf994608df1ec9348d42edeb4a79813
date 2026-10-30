@@ -1,0 +1,1 @@
+rubyspec の spec_helper.rb から不要になった古い ruby 向けの分岐を削除しています。
