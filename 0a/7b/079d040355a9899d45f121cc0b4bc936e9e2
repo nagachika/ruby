@@ -1,0 +1,1 @@
+ZJIT の RGenGC 用の HIR 命令 Write Barrier のための命令の生成を即値の時には省略する最適化。
