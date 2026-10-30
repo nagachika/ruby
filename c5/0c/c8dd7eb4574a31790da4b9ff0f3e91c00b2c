@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の ArrayAref, ArrayArefChecked の副作用の設定が過剰だったので修正しています。
