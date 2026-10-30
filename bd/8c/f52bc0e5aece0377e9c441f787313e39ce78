@@ -1,0 +1,1 @@
+GitHub Actions のリリース用の workflow publish で RUBY_VERSION のフォーマットを検証するステップを追加しています。
