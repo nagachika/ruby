@@ -1,0 +1,1 @@
+45bcb337e176d511b217164b3b859412f7892f0d の続きで拡張ライブラリ openssl の OpenSSL::OCSP::BasicResponse#initialize で再初期化をチェックしれ例外発生させるようにしています。
