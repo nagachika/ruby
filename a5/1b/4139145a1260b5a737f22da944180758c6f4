@@ -1,0 +1,1 @@
+ZJIT の VM 命令 newrange で両端が Fixnum の時の最適化を beginless range や endless range (どちらかが nil)の時にも使えるようにしています。
