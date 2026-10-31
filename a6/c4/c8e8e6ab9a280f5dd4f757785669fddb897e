@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#min_version= および #max_version= を追加して対応する TLS protocol のバージョンの範囲を個別に指定できるようにしています。 https://github.com/ruby/openssl/issues/1125
