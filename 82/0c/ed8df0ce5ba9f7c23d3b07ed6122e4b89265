@@ -1,0 +1,1 @@
+Windows 版のビルドプロセスの win32/Makefile.sub で reconfig ターゲットで verconf.mk が更新されていた時はビルドを中断して最初からやりなおさせるようにしています。
