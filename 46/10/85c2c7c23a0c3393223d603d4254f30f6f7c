@@ -1,0 +1,1 @@
+ZJIT の中間表現 HIR の SendDirect および PushInlineFrame でスタックオーバーフロー時の fallback で誤ったメソッド呼び出しをしてしまう不具合を修正しています。
