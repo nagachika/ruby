@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で OpenSSL::HMAC.allocate で確保した initialize による初期化が行なわれてないオブジェクトに reset メソッドを呼ぶと異常終了する不具合を修正。構造体に wrap するメモリ領域の確保を initialize メソッドで行なうようにしています。
