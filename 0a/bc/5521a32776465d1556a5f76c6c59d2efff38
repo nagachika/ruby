@@ -1,0 +1,1 @@
+f34d844d4f70f184c095ff137b1a1d05bea2fa0b の続きで Windows 環境では GC による free region のリストの順序も変更してたのを元に戻しています。
