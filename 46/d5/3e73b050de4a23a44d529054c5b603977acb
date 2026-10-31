@@ -1,0 +1,1 @@
+Windows 版の win32/GNUmakefile.sub で GNUmakefile 自身の再生成のルールを追加しています。
