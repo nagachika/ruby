@@ -1,0 +1,1 @@
+IO::Buffer#== メソッドを定義しています。引数が IO::Buffer でない時は false を返すようにショートカット? を追加しています。 https://github.com/ruby/ruby/pull/19604
