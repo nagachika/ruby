@@ -1,0 +1,1 @@
+include/ruby/internal/memory.h で MinGW 上の clang-cl でのビルド時の警告抑制のため intrinsic pragma を使わないようにしています。
