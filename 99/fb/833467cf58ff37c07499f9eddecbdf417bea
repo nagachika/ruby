@@ -1,0 +1,1 @@
+Process.spawn や Kernel#system のコマンドラインや環境変数に渡す文字列に NUL 文字を含んだり wide char の Encoding は弾く処理を共通化してチェックを強化しています。
