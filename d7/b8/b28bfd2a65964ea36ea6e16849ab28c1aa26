@@ -1,0 +1,1 @@
+5263a42ccff5828bed95eb92fb791dcd33f3d487 に対応して Integer, Float, String, Symbol の #== メソッドの再定義時のテストを追加しています。
