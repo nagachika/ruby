@@ -1,0 +1,1 @@
+opt_equality_specialized() の後半の処理を opt_equality_specialized_miss() という関数に切り出して、opt_equality_by_mid() からの呼び出しではこちらを使い即値の同一性チェックを省くようにしています。
