@@ -1,0 +1,1 @@
+NilClass, TrueClass, FalseClass の #== メソッド定義を追加して rb_obj_equal() を直接呼ぶ最適化の対象になるようにしています。
