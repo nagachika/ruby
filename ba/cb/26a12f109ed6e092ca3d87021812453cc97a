@@ -1,0 +1,1 @@
+win32/file.c で rb_default_home_dir() 内で xfree() を使っていたところを free() に修正しています。xmalloc() が使えるようになる前? に malloc(3) で確保するメモリ領域であったため。
