@@ -1,0 +1,1 @@
+f62a6346c2021834ff71675305f009fa4e3a4c17 で切り出した opt_equality_specialized_miss() を internal/object.h に移動して inline 関数としてさらに rb_equal_inline()、rb_eql_inline() も inline 関数として rb_eql() をマクロ経由でインライン展開するようにしています。
