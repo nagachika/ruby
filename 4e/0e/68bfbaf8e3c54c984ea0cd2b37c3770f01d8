@@ -1,0 +1,1 @@
+win32/GNUmakefile.sub および win32/Makefile.sub で XCFLAGS に -DPRISM_XALLOCATOR オプションを追加するようにして prism に ruby 本体のアロケータ xmalloc() を利用させるように? しています。
