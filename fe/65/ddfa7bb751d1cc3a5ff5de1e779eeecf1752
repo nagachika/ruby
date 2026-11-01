@@ -1,0 +1,1 @@
+組み込みメソッド Array#find の ruby 実装版を互換性の問題でコメントアウトしていたものを再度有効にしています。 https://github.com/ruby/ruby/pull/19525
