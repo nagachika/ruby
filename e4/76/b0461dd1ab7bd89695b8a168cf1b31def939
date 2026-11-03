@@ -1,0 +1,1 @@
+include/ruby/util.h の DECIMAL_SIZE_OF_BITS() という関数マクロの Doxygen 用コメントの引数 n の有効範囲が誤ってたので修正しています。
