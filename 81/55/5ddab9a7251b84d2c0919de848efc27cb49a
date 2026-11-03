@@ -1,0 +1,1 @@
+internal/class.h の rb_classext_t の classpath メンバーを共用体メンバーの as の中に移動して refinement_iclasses とメモリオフセットを共有するようにしています。というかこれまで IClass の時に classpath を流用していたのを実体に合わせて名前を分けるようにするリファクタリングのようです。
