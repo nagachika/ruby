@@ -1,0 +1,1 @@
+vcpkg.json に overlay-triplets の設定を追加して GitHub Actions の Windows 版 workflow で vcpkg のコマンドラインオプションで指定していたのを代替しています。
