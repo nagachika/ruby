@@ -1,0 +1,1 @@
+GitHub Actions の check_misc workflow の __has_builtin() のチェックを prism では存在チェックマクロが異なるのでチェック方法を分離しています。
