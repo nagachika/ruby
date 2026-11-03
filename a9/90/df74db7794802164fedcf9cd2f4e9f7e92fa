@@ -1,0 +1,1 @@
+numeric.c と bignum.c で重複していた 10進数変換のテーブルを bignum.c に集約して変換用の inline 関数 ruby_convert_to_decimals() を internal/bignum.h に追加しています。
