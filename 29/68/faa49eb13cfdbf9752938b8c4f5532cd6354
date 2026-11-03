@@ -1,0 +1,1 @@
+win32/install-gnumeke.cmd に config.h.W32 の先頭に #define HAVE_STDINT_H 1 を追加するようにして ARM64 Windows での GNUMake でのビルド対応をしています。
