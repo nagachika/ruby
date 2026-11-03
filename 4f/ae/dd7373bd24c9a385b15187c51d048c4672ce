@@ -1,0 +1,1 @@
+a990df74db7794802164fedcf9cd2f4e9f7e92fa の続きで任意の基数での数値の文字列変換を ruby_convert_to_digits() という inline 関数に切り出しています。
