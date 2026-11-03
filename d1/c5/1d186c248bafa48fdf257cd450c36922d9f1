@@ -1,0 +1,1 @@
+win32/install-buildtools.cmd に ARM64 Windows でのビルドのためインストールパッケージを追加しています。
