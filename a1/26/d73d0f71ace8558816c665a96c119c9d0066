@@ -1,0 +1,1 @@
+prism の C API pm_options_stack_budget_set() を追加してマシンスタックの消費量の上限を設定できるようにしているようです。
