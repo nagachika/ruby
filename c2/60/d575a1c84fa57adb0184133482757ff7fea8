@@ -1,0 +1,1 @@
+parse.y の pattern match の hash pattern の **x のようなパターンで重複キーのチェックが漏れていて変数名の重複がエラーになっていなかったのを修正しています。 [ruby-core:126699] [Bug #22314]
