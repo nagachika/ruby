@@ -1,0 +1,1 @@
+Enumerator::Lazy#each_with_index にブロックを渡して呼び出した時に super を呼んで Enumerable#each_with_index としてその場で評価するようにしています。が、これって #map みたいに Lazy に動かなくていいのかな? #each は eager に動くのでそれに合わせるということか……。 [ruby-core:121076] [Bug #21142] [ruby-core:127301] [Bug #22496]
