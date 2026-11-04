@@ -1,0 +1,1 @@
+f426fa44e32e461f0610bfec0b15f95475c181c6 で無名の Struct の子クラスを生成する anonymous_struct() から rb_class_inherited() の呼び出しを削除したので Data.define が inherited フックを呼ばなくなっていたので rb_data_define() 内に rb_class_inherited() の呼び出しを追加しています。が、ここでも第2引数に super を渡していますね。
