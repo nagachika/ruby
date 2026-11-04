@@ -1,0 +1,1 @@
+組み込みメソッド Array#each_index の定義を C 実装から ruby 実装に変更して JIT 有効化時にインライン化できるようにしています。 https://github.com/ruby/ruby/pull/19627
