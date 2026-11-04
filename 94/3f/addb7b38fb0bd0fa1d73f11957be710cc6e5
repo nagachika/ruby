@@ -1,0 +1,1 @@
+標準添付ライブラリ cgi の拡張ライブラリ cgi/escape で #include "ruby/util.h" を追加して明示的な extern 宣言していたのをやめています。
