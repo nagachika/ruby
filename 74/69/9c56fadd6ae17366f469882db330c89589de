@@ -1,0 +1,1 @@
+bundler の Gemfile の platforms ブロック内に gemspec を書いた時にその依存関係による間接的な gem にも platform 条件が伝播するように修正しています。
