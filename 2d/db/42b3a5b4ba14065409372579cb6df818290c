@@ -1,0 +1,1 @@
+prism に a126d73d0f71ace8558816c665a96c119c9d0066 で追加していた pm_options_stack_budget_set() でのマシンスタックの上限設定に達した時のエラーメッセージを変更しています。
