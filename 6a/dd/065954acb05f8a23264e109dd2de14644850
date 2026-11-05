@@ -1,0 +1,1 @@
+bundler に vendoring されている fileutils を常時読み込むのをやめて Module#autoload による読み込みに変更しています。
