@@ -1,0 +1,1 @@
+ZJIT で多値代入の右辺値に nil を渡した時の expandarray 命令が side exit していたのを JIT コンパイルできるようにしているようです。 https://github.com/ruby/ruby/pull/19633
