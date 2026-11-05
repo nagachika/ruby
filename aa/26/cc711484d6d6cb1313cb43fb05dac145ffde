@@ -1,0 +1,1 @@
+GitHub Actions の workflows で環境変数 BUNDLER_VERSION の設定を削除しています。
