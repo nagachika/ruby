@@ -1,0 +1,1 @@
+GitHub Actions の Windows 向け workflow に mimalloc を利用したビルドを追加しています。
