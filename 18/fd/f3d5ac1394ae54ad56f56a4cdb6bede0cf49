@@ -1,0 +1,1 @@
+prism の整数のデコードで rb_funcall() で String#to_i メソッドを呼び出してたのを rb_integer_unpack() を利用するように最適化しています。
