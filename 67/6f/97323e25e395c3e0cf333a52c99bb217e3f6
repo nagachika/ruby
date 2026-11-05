@@ -1,0 +1,1 @@
+6add065954acb05f8a23264e109dd2de14644850 で bundler で fileutils を autoload で読み込むようにしたため並列ダウンロード時にロード途中の FileUtils を参照してしまってエラーになるのを避けるため Worker 起動時に明示的に require するようにしています。
