@@ -1,0 +1,1 @@
+昨日の f426fa44e32e461f0610bfec0b15f95475c181c6 と 9e651a3b749e7e94ce25da6872f23eef451daecf で rb_class_inherited() の引数の順序が逆になっていたのを修正しています。
