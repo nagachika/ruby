@@ -1,0 +1,1 @@
+GitHub Actions のリリース用 workflow から docker イメージ更新用の workflow を起動するようにしています。 https://github.com/ruby/ruby/pull/19690
