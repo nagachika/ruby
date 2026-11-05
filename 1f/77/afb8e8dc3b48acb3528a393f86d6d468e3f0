@@ -1,0 +1,1 @@
+rb_str_resize() および rb_str_modify_expand() でバッファサイズのチェック時に終端文字(NUL文字)のサイズを考慮し忘れていたのを修正しています。
