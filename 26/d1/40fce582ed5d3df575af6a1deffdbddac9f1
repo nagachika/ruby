@@ -1,0 +1,1 @@
+70ad14ae95f3d27f505be7729c73cf54db1653ba に追加して side_exit_count のカウントを抑制する専用のオプション --zjit-no-exit-counting を追加しています。
