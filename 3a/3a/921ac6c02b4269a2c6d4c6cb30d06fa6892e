@@ -1,0 +1,1 @@
+1d490a00b21a3efac5b65b26ef7c1057fbc776f2 と同様の respond_to?(:callcc) で分岐していたので常に skip されていたテストを respond_to? の第2引数に true を渡して callcc が private メソッドになったのに対応するようにしています。
