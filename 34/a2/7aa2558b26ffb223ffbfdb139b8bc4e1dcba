@@ -1,0 +1,1 @@
+bundler の Bundler::SpecSet#validate_deps で不要な処理をしていて重かったのを修正しています。
