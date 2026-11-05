@@ -1,0 +1,1 @@
+1d0d76d9acb1780b70e5bca25d79b09d2538dbee の ZJIT の Ineger#anybits? の実装の変更で使った FixnumNeq という命令は削除されてたので元に戻しています。
