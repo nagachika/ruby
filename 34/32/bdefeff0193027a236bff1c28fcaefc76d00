@@ -1,0 +1,1 @@
+bundler の default gems のための処理でも不要な処理を抑制するための最適化。
