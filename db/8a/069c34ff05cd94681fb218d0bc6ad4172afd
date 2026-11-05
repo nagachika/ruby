@@ -1,0 +1,1 @@
+ZJIT の --zjit-trace-compiles のトレース出力にコードサイズの情報を追加しているようです。 https://github.com/ruby/ruby/pull/19392
