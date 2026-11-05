@@ -1,0 +1,1 @@
+ZJIT で Integer#anybits? が receiver も引数も Fixnum の範囲の時に inline 化する最適化を導入しています。 このメソッドそんなに頻繁に使われるのかな?
