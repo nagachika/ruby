@@ -1,0 +1,1 @@
+Hash#each のブロック内に callcc で飛び込む処理のテストを削除しています。既に respond_to?(:callcc) の分岐により常に skip する状態になっていたようです。 [ruby-core:118706] [Bug #20655]
