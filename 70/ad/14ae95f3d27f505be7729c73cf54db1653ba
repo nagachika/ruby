@@ -1,0 +1,1 @@
+ZJIT の統計情報カウンタの side_exit_count は --zjit-stats の指定がなくても常にカウントするようにしています。
