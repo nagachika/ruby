@@ -1,0 +1,1 @@
+rubygems の Gem::Requirement.default は頻繁に呼ばれるので Gem::Requirement.new に引数を渡していたのをやめて処理を軽くしています。
