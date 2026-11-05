@@ -1,0 +1,1 @@
+prism で Rational のリテラルの parse でも中間メモリの確保を抑制する最適化。
