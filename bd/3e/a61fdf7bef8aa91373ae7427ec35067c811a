@@ -1,0 +1,1 @@
+WIndows 向けに configure.bat の引数に --with-mimalloc を追加して mimalloc という malloc 実装を利用したビルドに対応しています。
