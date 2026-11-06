@@ -1,0 +1,1 @@
+ZJIT に IO::Buffer#get_value メソッドの特定の条件化で直接命令コードを生成する inline 最適化を実装しています。 IO::Buffer の最適化とは意外ですね。
