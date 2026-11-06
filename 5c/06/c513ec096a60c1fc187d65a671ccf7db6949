@@ -1,0 +1,1 @@
+複数 Ractor 利用時に Signal.trap に渡したブロックも Ractor.shareable_proc したのと同様の扱いをするようにしているようです。 [ruby-core:127115] [Feature #22444]
