@@ -1,0 +1,1 @@
+テスト用のユーティリティ envutil の EnvUtil::Debugger.search で環境変数 RUBY_TEST_DEBUGGER をみて利用するデバッガを指定できるようにしています。
