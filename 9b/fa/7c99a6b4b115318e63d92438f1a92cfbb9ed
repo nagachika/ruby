@@ -1,0 +1,1 @@
+YJIT および ZJIT の実行コード領域のメモリサイズ指定の上限を設定しています。 https://github.com/ruby/ruby/pull/19720
