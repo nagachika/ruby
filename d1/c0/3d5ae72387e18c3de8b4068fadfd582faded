@@ -1,0 +1,1 @@
+8490ef93a115f8ab24c548c1d50cdf3f5bc7b1c7 の再修正。 Windows 版での gethostname(3) のキャッシュを抑制する環境変数 _CLUSTER_NETWORK_NAME_ が空の時はキャッシュを有効化するように条件を修正しています。
