@@ -1,0 +1,1 @@
+Windows の rb_w32_gethostname() でホスト名をキャッシュして毎回 gethostname(3) を呼ばないようにしています。
