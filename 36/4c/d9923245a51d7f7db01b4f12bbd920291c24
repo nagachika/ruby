@@ -1,0 +1,1 @@
+include/ruby/internal/arithmetic/len_t.h に RB_LEN2FIX というマクロ定義を追加しています。
