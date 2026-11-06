@@ -1,0 +1,1 @@
+20f7a33f7d4ad78927e25b4ebd23aad20952d4b6 の続きで bundler の bundle lock サブコマンドに --add-ruby-abi to --remove-ruby-abi を追加して直接 RUBY ABIS セクションの指定を編集できるようにしています。
