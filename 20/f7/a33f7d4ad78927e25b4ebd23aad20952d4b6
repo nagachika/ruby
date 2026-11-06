@@ -1,0 +1,1 @@
+bundler の lockfile に RUBY ABIS というセクションを追加して ruby 本体の ABI Version の範囲を指定するようにしています。 content addressed gem のサポートする ABI バージョンの指定を考慮するため?
