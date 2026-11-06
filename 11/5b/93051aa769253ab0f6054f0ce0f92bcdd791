@@ -1,0 +1,1 @@
+Windows 版での w32_geten() の確保するメモリ領域を Windows の fiber local storage に変更して別の native thread での呼び出しで上書きされるのを防いでいます。
