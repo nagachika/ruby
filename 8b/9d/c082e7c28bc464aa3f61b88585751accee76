@@ -1,0 +1,1 @@
+ZJIT でブロックを渡して呼ばれたメソッド内での super が side-exit していたのを修正しています。 https://github.com/ruby/ruby/pull/19682
