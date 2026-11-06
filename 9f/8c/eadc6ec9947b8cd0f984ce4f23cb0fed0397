@@ -1,0 +1,1 @@
+5b107ccfbd1238cc03ca6667c73034df00855f74 と同様に bundler の frozen モードでの lockfile が不正な状態の時の対応。
