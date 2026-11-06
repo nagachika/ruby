@@ -1,0 +1,1 @@
+Windows 版の w32_getenv() で環境変数の全体を取り出して変換して処理してたのを GetEnvironmentVariableW() という API を利用して必要な環境変数を直接得るように最適化しています。
