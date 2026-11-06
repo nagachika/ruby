@@ -1,0 +1,1 @@
+bundler の content addressed gem 対応で RUBY ABIS にのっている Ruby ABI バージョンが現在の ruby のバージョンと一致していない時の処理を修正。
