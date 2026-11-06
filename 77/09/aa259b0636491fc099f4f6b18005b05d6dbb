@@ -1,0 +1,1 @@
+bundler の lockfile の CONTENT ADDRESSES セクションの出力に ruby の ABI バージョンを記録するようにしています。
