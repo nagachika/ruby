@@ -1,0 +1,1 @@
+bundler の content addressed gem を指定した時の lockfile のセクションを追加して複数の指定を持てるようにしています。
