@@ -1,0 +1,1 @@
+prism で Kernel#warn メソッドを public メソッドとして再定義してしまっていたのを private メソッドに変更しています。
