@@ -1,0 +1,1 @@
+Ractor.new に渡すブロックを  Ractor.shareable_proc で環境から切り離すのと同様の処理を行うようにして、外部の変数参照を shareable な値のみ許すように変更しています。 [ruby-core:127115] [Feature #22444]
