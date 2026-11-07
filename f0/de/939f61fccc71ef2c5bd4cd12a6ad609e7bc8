@@ -1,0 +1,1 @@
+YJIT で特異クラスの一致判定を yjit.c に rb_yjit_attached_object_is() という C 関数として切り出してこれを Rust から C binding 経由で呼ぶように変更しています。
