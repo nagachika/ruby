@@ -1,0 +1,1 @@
+GC の default 実装の arena 管理を list 管理から bitmask による管理に変更して madvise(3) を一括で呼べるようにしています。
