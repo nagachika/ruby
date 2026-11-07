@@ -1,0 +1,1 @@
+mswin 版の clang-cl でのビルドエラー対策で LDSHARED に -clang:--rtlib=compiler-rt というオプションを追加しています。
