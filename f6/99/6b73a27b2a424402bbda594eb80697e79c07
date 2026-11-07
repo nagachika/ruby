@@ -1,0 +1,1 @@
+GitHub Actions の Windows 版 workflow に arm64 + YJIT の環境でのテストを追加しています。
