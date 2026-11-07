@@ -1,0 +1,1 @@
+Enumerable の rdoc 用コメントのメソッド一覧に #to_set を追加しています。また Set クラスの rdoc 用コメントでも Enumerable#to_set に言及を追加しています。
