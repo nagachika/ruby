@@ -1,0 +1,1 @@
+GitHub Actions の check_misc workflow に C のソースコードに含まれる文字が UTF-8 として正しいバイト列になっているかをチェックするジョブを追加しています。
