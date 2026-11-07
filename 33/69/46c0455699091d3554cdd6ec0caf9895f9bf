@@ -1,0 +1,1 @@
+Marshal.load の実装で利用する構造体 struct load_arg の GC mark 処理でメンバー src と proc の mark 漏れがあったのを修正しています。通常は呼び元から参照されているため顕在化していませんでしたが Ractor.make_shareable から内部的に利用される時に参照が失なわれて GC で回収される可能性があったようです。
