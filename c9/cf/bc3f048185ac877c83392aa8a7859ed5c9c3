@@ -1,0 +1,1 @@
+$LOADED_FEATURES を freeze すると require で専用の例外メッセージで例外を発生させるはずが汎用の FrozenError が発生してしまっていたのを修正しています。
