@@ -1,0 +1,1 @@
+テスト用ユーティリティ envutil.rb で RbConfig.ruby の文字列を freeze して Ractor 感で共有可能にしています。
