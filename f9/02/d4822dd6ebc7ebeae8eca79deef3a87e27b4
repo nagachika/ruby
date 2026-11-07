@@ -1,0 +1,1 @@
+拡張ライブラリ socket の Windows 版での名前解決で native thread との通信に pipe を利用するようにしています。
