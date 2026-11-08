@@ -1,0 +1,1 @@
+複数 Ractor 利用時に object_id の参照が VM ロックが必要で非効率になっていたので T_DATA 型のオブジェクトの fields_obj の読み書きに atomic な処理を使って高速化しています。
