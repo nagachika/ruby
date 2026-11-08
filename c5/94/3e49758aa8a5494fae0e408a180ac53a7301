@@ -1,0 +1,1 @@
+Array#sort のブロックを渡さない時の Fixnum, String, Float の要素の比較の時の最適化を既存の OPTIMIZED_CMP() というマクロを利用するようにリファクタリングしています。
