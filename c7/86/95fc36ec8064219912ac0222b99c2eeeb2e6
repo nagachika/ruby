@@ -1,0 +1,1 @@
+aca385b2a102bf9354faa63af9bc4ba8ad466cf3 の GC の mmtk 実装の GC.disable と GC.start を併用した時の処理に Ractor 利用時にまだ問題が残ってたので再修正しています。
