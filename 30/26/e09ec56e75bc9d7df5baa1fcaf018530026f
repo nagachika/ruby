@@ -1,0 +1,1 @@
+prism に PRISM_ASSERT() というマクロを導入して abort() を差し替えられるようにしています。
