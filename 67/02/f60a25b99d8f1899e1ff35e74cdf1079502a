@@ -1,0 +1,1 @@
+2a8f329f59d7c81188ba64627b129bebba7768b7 の追加修正で rb_obj_fields() でも T_DATA 型オブジェクトの時の fields_obj の参照に rbimpl_atomic_value_load() を利用するようにしています。
