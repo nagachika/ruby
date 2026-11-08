@@ -1,0 +1,1 @@
+Ractor の native thread 確保数をチェックするテストを GC の実装が default 以外の時に skip するようにしています。
