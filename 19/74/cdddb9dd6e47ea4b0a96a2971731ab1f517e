@@ -1,0 +1,1 @@
+vm.c の rb_block_param_proxy という変数に格納しているブロック引数の Proc 化遅延のためのオブジェクトを freeze していたのを rb_ractor_make_shareable() で Ractor 間で共有可能にしています。 YJIT 利用時に複数 Ractor でエラーになっていたのを修正するためみたいです。
