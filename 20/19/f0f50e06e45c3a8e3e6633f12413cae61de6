@@ -1,0 +1,1 @@
+rubyspec の C API のテストで rb_len_t 型の導入に対応して rb_len_t が long より幅が大きい時に挙動が変わるのに対応しています。
