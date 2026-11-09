@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket#initialize で rb_funcall() を使って IO オブジェクトの IO#nonblock= メソッドを呼び出していたのをやめて connect/accept 時に呼ばれる ossl_ssl_setup() 内で rb_io_set_nonblock() 関数を直接呼び出すようにしています。これにより io/nonblock 依存をなくしています。
