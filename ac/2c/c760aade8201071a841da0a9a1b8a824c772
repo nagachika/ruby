@@ -1,0 +1,1 @@
+ff54952ce685ac106d5403354d1d9e92bc9bdd80 の続きで Windows 版の config.h の生成時に clang-cl 向けのマクロ HAVE_VA_ARGS_MACRO の定義も追加しています。
