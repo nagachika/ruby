@@ -1,0 +1,1 @@
+2019f0f50e06e45c3a8e3e6633f12413cae61de6 の続きで rubyspec の C API のテスト用拡張ライブラリで Check_Type() で渡された数値が T_BIGNUM 型でない時に例外を発生させるようにしています。
