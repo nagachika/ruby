@@ -1,0 +1,1 @@
+bundler の bundle clean で、ディレクトリ削除に FileUtils.rm_rf ではなく FileUtils.rm_r を使うようにし、権限エラーが報告されるようにしています。
