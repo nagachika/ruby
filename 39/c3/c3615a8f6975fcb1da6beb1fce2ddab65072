@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストの追加。 upstream では JRuby 向けの修正が行なわれてたみたいですが CRuby にはテストのみが同期されているみたいです。 https://github.com/ruby/json/pull/1127
