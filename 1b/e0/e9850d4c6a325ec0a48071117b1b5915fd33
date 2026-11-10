@@ -1,0 +1,1 @@
+rubygems の使われていない Gem::DependencyList#remove_specs_unsatisfied_by と Gem::DependencyList#spec_predecessors を削除しています。
