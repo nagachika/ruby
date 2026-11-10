@@ -1,0 +1,1 @@
+1be0e9850d4c6a325ec0a48071117b1b5915fd33 で削除した Gem::DependencyList#spec_predecessors を復活させています。まだ使っているところが残っていたため。
