@@ -1,0 +1,1 @@
+template/limits.c.tmpl で RbConfig::LIMITS に定義する項目に rb_len_t 用の RB_LEN_MAX、RB_LEN_MIN、RB_ULEN_MAX を追加しています。
