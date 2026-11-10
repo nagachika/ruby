@@ -1,0 +1,1 @@
+tool/test-bundled-gems.rb で prism のテストの前に rake templates を実行するようにしています。リリース版 prism はタグのチェックアウトでテストされ、生成ファイルが含まれないためです。
