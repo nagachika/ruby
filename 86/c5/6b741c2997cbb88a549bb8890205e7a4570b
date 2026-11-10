@@ -1,0 +1,1 @@
+rubygems の Gem::Command#merge_options を削除しています。
