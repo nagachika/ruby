@@ -1,0 +1,1 @@
+拡張ライブラリ zlib の zstream_run() で処理後に next_in をクリアするようにし、Zlib::Deflate#deflate のブロック内で break した後に Zlib::Deflate#params を呼ぶと残りの入力が二重に圧縮される不具合を修正しています。
