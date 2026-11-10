@@ -1,0 +1,1 @@
+bundler で clean 設定が有効な時の bundle install / bundle update 後の自動 clean は、削除できないものがあっても警告のみでエラー終了しないようにしています。
