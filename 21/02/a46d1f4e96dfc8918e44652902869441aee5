@@ -1,0 +1,1 @@
+bundler のテスト用マッチャ include_gems の否定形で、ダッシュを含む gem 名をスラッシュ区切りのパスで require するように直しています。
