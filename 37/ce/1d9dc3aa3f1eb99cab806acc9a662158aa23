@@ -1,0 +1,1 @@
+rubygems の使われていない Gem::AvailableSet#to_request_set と Gem::AvailableSet#inject_into_list を削除しています。
