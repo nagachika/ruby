@@ -1,0 +1,1 @@
+include/ruby/internal/memory.h から deprecated としていた inline 関数 rb_mul_size_overflow() を削除し、これを使っていた dir.c では rbimpl_size_mul_or_raise() を呼ぶように変更しています。
