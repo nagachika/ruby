@@ -1,0 +1,1 @@
+bundler で git ソースの copy_to が失敗した時に、元々 working tree があったチェックアウトは削除しないようにしています。local override の作業コピーが消えてしまうためです。
