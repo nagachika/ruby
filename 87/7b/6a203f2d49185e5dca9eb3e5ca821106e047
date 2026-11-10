@@ -1,0 +1,1 @@
+internal/bits.h に rb_len_t のオーバーフロー判定用のマクロ MUL_OVERFLOW_LEN_P()、ADD_OVERFLOW_LEN_P()、SUB_OVERFLOW_LEN_P() の定義を追加しています。
