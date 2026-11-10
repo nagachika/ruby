@@ -1,0 +1,1 @@
+9bc016fa0ad9a8ce4014e311ddec659bab01eb8c の続きで、bundler の bundle clean で削除対象のディレクトリが既に消えていた場合は削除済みとして扱うようにしています。
