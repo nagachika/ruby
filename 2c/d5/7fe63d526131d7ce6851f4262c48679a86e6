@@ -1,0 +1,1 @@
+Fixnum の Integer#size が sizeof(long) を返していたのを sizeof(rb_len_t) を返すように直しています。
