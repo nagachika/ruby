@@ -1,0 +1,1 @@
+rubyspec のヘルパーに max_rb_ulen_t を追加し、fixnum_max と fixnum_min を rb_len_t のサイズから計算するようにしています。
