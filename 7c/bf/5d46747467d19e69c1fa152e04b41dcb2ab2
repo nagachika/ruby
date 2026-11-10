@@ -1,0 +1,1 @@
+rubyspec の Integer#size のテストの guard を、long のサイズではなく rb_len_t のサイズで判定するように修正ています。
