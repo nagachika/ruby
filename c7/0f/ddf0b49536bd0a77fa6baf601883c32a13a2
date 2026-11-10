@@ -1,0 +1,1 @@
+rubygems の Gem::DependencyInstaller#install_development_deps を削除しています。
