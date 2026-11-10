@@ -1,0 +1,1 @@
+GC の RGenGC のデバッグ用の wbcheck 実装で rb_gc_impl_latest_gc_info を実装し、GC.stat に total_allocated_objects を追加しています。
