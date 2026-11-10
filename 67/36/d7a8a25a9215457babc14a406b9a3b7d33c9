@@ -1,0 +1,1 @@
+7782268aa5bd7e31a8703133c72f72ea2eb14acd の続きで、bundler の bundle clean で git キャッシュと拡張ディレクトリの削除も権限エラーを報告する対象にしています。
