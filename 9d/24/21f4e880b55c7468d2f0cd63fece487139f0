@@ -1,0 +1,1 @@
+rubygems の Gem::Resolver::DependencyRequest#implicit? を削除しています。
