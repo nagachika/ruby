@@ -1,0 +1,1 @@
+rubyspec の Bignum のテストで定義していた max_ulong を mspec のヘルパーに移動しています。
