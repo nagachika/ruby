@@ -1,0 +1,1 @@
+rubyspec の C API のテストで、NUM2ULONG の例を rb_len_t が long より広い環境では実行しないように guard を追加しています。
