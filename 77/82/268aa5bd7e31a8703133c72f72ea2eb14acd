@@ -1,0 +1,1 @@
+bundler の bundle clean で削除に失敗したパスがあっても処理を続け、削除できたものだけを報告して、最後に Bundler::CleanError で失敗をまとめて報告するようにしています。
