@@ -1,0 +1,1 @@
+Array#join で全要素が同じ Encoding の String のときの高速化パス ary_join_fast() で、結果の長さがオーバーフローしそうな場合は長さチェックが行なわれる通常パスに fallback するようにしています。
