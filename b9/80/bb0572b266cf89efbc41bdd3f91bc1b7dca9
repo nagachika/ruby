@@ -1,0 +1,1 @@
+internal/bits.h に size_t 用のオーバーフロー判定マクロ MUL_OVERFLOW_SIZE_P()、ADD_OVERFLOW_SIZE_P()、SUB_OVERFLOW_SIZE_P() の定義を追加しています。しかし ADD_OVERFLOW_SIZE_P() と SUB_OVERFLOW_SIZE_P() の定義の引数 b のあとにカンマが抜けているようです。
