@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の time_t の変換に NUM2LONG() などを使っていたのを正しく NUM2TIMET(), TIMET2NUM() などの変換マクロを利用するように修正しています。
