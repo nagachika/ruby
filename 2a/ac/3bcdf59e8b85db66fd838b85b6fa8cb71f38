@@ -1,0 +1,1 @@
+拡張ライブラリ json でもバッファのサイズなどの型を long から rb_len_t への移行に追随させています。 https://github.com/ruby/json/pull/1133
