@@ -1,0 +1,1 @@
+504689bd605887a03629edeb717e1554401e7caa の続きで、拡張ライブラリ openssl で OpenSSL 3.3 以降の SSL_SESSION_get_time_ex()、SSL_SESSION_set_time_ex()、SSL_CTX_flush_sessions_ex() があればそちらを使うようにしています。
