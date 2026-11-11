@@ -1,0 +1,1 @@
+Array#fill のブロック形式でブロック内で配列が freeze されていても無視していたので、rb_ary_modify() を呼んで FrozenError を投げるようにしています。 [ruby-core:127395] [Bug #22529]
