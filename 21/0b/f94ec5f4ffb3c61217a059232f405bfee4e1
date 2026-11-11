@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer.load が文書先頭の UTF-8 BOM を無視するようにしています。BOM のチェックはバイト単位で行なっています。
