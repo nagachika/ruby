@@ -1,0 +1,1 @@
+Hash の ar_table の容量の上限を RHASH_AR_TABLE_MAX_SIZE にしていのが 32 ビット環境のみだったのを、常に行なうようにしています。
