@@ -1,0 +1,1 @@
+bundler の spec 追加のみ。f75e449bf62023c447aa6b766c0ed184b7e3cb12 と 9290799fa7ac222d9e4aebcb76447c12efcd9dd6 で修正した2つの入力が Bundler::Settings で正しく読まれることを確認するテストを追加しています。
