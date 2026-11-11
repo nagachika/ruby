@@ -1,0 +1,1 @@
+Kernel#fork や Process.fork の実装で fork(2) が EAGAIN で失敗した時のリトライ待ちのあいだの例外が引数の status が NULL の場合に喪失していたのを再発生させるようにしています。そもそもこの rb_fork_ruby() という関数の呼び元は現在ではどこも NULL を渡して呼び出してそうですね。
