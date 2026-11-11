@@ -1,0 +1,1 @@
+b980bb0572b266cf89efbc41bdd3f91bc1b7dca9 の再修正で、internal/bits.h の ADD_OVERFLOW_SIZE_P() と SUB_OVERFLOW_SIZE_P() の定義で SIZE_MAX の前にカンマが抜けていたのを修正しています。
