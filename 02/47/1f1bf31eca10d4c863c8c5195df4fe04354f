@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で verify_callback の例外を rb_warn() で警告する前に一時的な StoreContext をクリアするようにしています。Warning.warn で大域脱出が発生すると double free が発生する可能性があったようです。
