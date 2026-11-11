@@ -1,0 +1,1 @@
+bundler のミラーの到達確認で connect_nonblock() がすぐに Errno::EHOSTUNREACH を投げる場合に rescue 対象でなかったためフォールバックしていなかったのを、SystemCallError を rescue して到達不能なミラーとして扱うようにしています。
