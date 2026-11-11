@@ -1,0 +1,1 @@
+bundler の Mirror#validate! でミラーのホスト名が解決できない時に Socket.getaddrinfo() の SocketError がそのまま上がっていたのを、rescue してフォールバックするようにしています。
