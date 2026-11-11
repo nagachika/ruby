@@ -1,0 +1,1 @@
+NEWS に mswin の新しいビルド方法として clang-cl でのビルド、--with-gnu-make による GNU make でのビルド、--with-mimalloc による mimalloc の利用について追記しています。
