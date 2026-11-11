@@ -1,0 +1,1 @@
+bundler のミラーのアドレス解決で IPv6 リテラルのホスト名に角括弧が付いたまま Socket.getaddrinfo() に渡されていたのを、URI#hostname を使って角括弧を外すようにしています。
