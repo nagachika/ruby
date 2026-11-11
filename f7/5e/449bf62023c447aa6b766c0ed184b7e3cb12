@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer.load が空文書や null 文書 ("---" だけなど) の時に nil ではなく空の Hash を返すように修正しています。Gem::SafeYAML.safe_load は Psych と同じく nil を返し続けるよう load を経由しない形にしています。 https://github.com/ruby/rubygems/issues/10017
