@@ -1,0 +1,1 @@
+4077d7ecd8cc118e71fb91e2e44ad855ce55e723 の続きで、未使用になった core_hash_coerce() と m_core_hash_coerce() を vm.c から削除しています。
