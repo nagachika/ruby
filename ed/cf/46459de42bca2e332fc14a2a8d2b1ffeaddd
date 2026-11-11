@@ -1,0 +1,1 @@
+bundler のミラーの到達確認で Socket.getaddrinfo() がソケットタイプごとにエントリを返すため到達不能なミラーで fallback_timeout の 3 倍待っていたのを、Socket::SOCK_STREAM を指定して各アドレスを 1 回だけ確認するようにしています。
