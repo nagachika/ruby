@@ -1,0 +1,1 @@
+prism コンパイラで引数なしの super のキーワード引数を組み立てる時に core#hash_merge_ptr を使っていたのを、compile.c と同様に破壊的な core#hash_merge_bang_ptr を使うよう変更して不要なコピーを省いています。
