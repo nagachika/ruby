@@ -1,0 +1,1 @@
+array.c の整数(Fixnum)のインクリメントを行う rb_builtin_fixnum_inc() で FIX2LEN() で変換した結果を LONG2FIX() で変換していたので LEN2FIX() を使うように修正しています。
