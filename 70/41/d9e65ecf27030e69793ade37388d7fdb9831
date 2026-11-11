@@ -1,0 +1,1 @@
+ZJIT で invokeblock のブロックハンドラの型分布を数えていた実験用カウンタを削除しています。 https://github.com/ruby/ruby/pull/17852
