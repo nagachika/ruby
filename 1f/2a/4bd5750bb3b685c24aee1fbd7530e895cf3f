@@ -1,0 +1,1 @@
+rubygems の Gem::SpecificationPolicy#validate_extension_require_relative で require_relative の検証時に解決したパスを Pathname#cleanpath で正規化してから spec.files と照合するように修正しています。../ や ./ を含むパスで RubyGems 4.2 で壊れるという誤った警告が gem build 時に出ていました。
