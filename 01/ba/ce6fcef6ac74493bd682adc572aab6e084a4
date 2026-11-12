@@ -1,0 +1,1 @@
+ZJIT の VM 命令 gen_new_hash の最適化を Symbol キーだけでなく String キーにの時にも有効化するように拡張しています。
