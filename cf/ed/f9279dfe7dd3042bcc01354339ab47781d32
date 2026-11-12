@@ -1,0 +1,1 @@
+rubygems の Gem::YAMLSerializer で、複数行にまたがるクォート付きスカラーを YAML の規則どおりに折り畳んで読み込むようにしています。
