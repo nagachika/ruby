@@ -1,0 +1,1 @@
+bundler で bundle install / bundle update 時に、実行中の Ruby に同梱された default gem より古いバージョンがバンドルに含まれていれば警告するようにしています。 https://github.com/ruby/net-http/issues/362
