@@ -1,0 +1,1 @@
+a2e54c7da142b57b2c48770309590a3ec4fc0c7e の続きで拡張ライブラリ openssl で戻り値をチェックしていなかった OpenSSL の呼び出しにエラーチェックを追加しています。 https://github.com/ruby/openssl/issues/1038
