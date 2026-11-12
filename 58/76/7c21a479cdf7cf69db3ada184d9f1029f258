@@ -1,0 +1,1 @@
+fork 時の thread_sched_atfork() で fork した子プロセスで native thread の pthread_t (nt->thread_id) を pthread_self() で再取得するようにしています。コメントをみると実際には glibc で fork 後に新しい pthread_t になることはないみたいですが今後の変更の耐性のため。
