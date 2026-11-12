@@ -1,0 +1,1 @@
+拡張ライブラリ openssl で戻り値を無視していた {SSL_SESSION, TS_REQ, X509_STORE}_set_*() 系の関数呼び出しにエラーチェックを追加しています。 https://github.com/ruby/openssl/issues/1038
