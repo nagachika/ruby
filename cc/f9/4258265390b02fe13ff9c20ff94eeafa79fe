@@ -1,0 +1,1 @@
+bundler のテストで Gem.default_dir を上書きした時に Gem.find_default_spec のキャッシュを作り直すようにし、gemspec をコピーする回避策を削除しています。
