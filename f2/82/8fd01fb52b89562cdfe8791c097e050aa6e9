@@ -1,0 +1,1 @@
+hash.c の rb_any_cmp() で fast path を利用するかどうかの条件を左辺が String または Symbol で右辺の型が異なればすぐ -1 を返して不一致にするようにしています。
