@@ -1,0 +1,1 @@
+bundler の bundle-plugin の man ページに HOOKS の節を追加し、プラグインのフックの登録方法と Bundler::Plugin::Events の全イベントを説明しています。
