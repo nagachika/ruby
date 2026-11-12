@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::Timestamp::Factory#create_timestamp を全体を rb_protect() を利用して後始末処理を追加して、TS_RESP_CTX_set_signer_key() などのエラーチェック漏れとメモリリークを修正しています。
