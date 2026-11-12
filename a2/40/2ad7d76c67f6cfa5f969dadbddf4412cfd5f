@@ -1,0 +1,1 @@
+bundler の gemfile の man ページで、ruby ディレクティブの patchlevel オプションは互換のために受け付けるが無視されることを明記しています。
