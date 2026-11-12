@@ -1,0 +1,1 @@
+Ractor Local GC でオブジェクトが属する Object Space からその所有者の Ractor へと辿れるようにする C API rb_gc_obj_ractor() を追加しています。構造体 rb_objspace_t に ractor メンバーを追加して参照を保持しておくようにしています。
