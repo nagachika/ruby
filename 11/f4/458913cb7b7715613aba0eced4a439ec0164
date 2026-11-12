@@ -1,0 +1,1 @@
+prism の識別子の字句解析で、ASCII 識別子をまとめてスキャンする fast path を全ての Encoding で使うようにしています。
