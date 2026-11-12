@@ -1,0 +1,1 @@
+GC の mmtk 実装で MMTk の性能計測用関数 harness_begin / harness_end を Ruby から呼べるよう、GC::MMTk.harness_begin と GC::MMTk.harness_end を追加しています。
