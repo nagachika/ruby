@@ -1,0 +1,1 @@
+9e16f8e19f99d0b7baf88cef23cb2a4222974eff の続きで、default gem のダウングレード警告で実行中の Bundler 自身は対象から外すようにしています。
