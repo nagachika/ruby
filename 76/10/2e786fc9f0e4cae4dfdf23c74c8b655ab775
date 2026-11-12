@@ -1,0 +1,1 @@
+range.c の rb_range_component_beg_len() で、終端が RB_LEN_MAX の inclusive range で end++ や end - beg がオーバーフローしていたのを、終端を RB_LEN_MAX を上限として丸めて修正しています。
