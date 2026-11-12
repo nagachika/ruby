@@ -1,0 +1,1 @@
+bundler の inline.rb のコメントで、fork してインストールする理由の例として挙げていた default gem を securerandom から tempfile などに修正しています。
