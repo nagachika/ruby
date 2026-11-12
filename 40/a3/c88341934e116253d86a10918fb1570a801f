@@ -1,0 +1,1 @@
+rubygems のテスト test_gem_safe_yaml.rb で Psych.unsafe_load を使うテストが yaml を require していなかったのを修正しています。
