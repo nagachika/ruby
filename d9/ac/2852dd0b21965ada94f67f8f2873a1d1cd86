@@ -1,0 +1,1 @@
+rubyspec の Socket#connect のテストで、Errno::ENETUNREACH の場合に加えて Errno::EHOSTUNREACH の場合も skip するようにしています。
