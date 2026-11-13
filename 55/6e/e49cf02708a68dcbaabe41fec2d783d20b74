@@ -1,0 +1,1 @@
+61157ea901bac701918fec17906c552198e6ef6e の続きで、テストで使う古い Gem::NameTuple の stand-in クラスに RubyGems 4.0 の platform の正規化などを追加しています
