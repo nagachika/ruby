@@ -1,0 +1,1 @@
+ZJIT で Integer#pred の receiver が Fixnum の時に直接減算する命令を出力する inline 最適化するようにしています。 https://github.com/ruby/ruby/pull/19842
