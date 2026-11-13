@@ -1,0 +1,1 @@
+一度もシンボル化されていない名前で obj.singleton_method(name) を呼んだときに、正しい NameError にならない不具合の修正。識別子に対応する ID がなかった時に ID2SYM() に 0 を渡してしまっていた。 [ruby-core:127412] [Bug #22535]
