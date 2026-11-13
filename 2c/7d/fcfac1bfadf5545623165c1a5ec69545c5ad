@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLSocket に接続ごとに証明書を直接追加できる OpenSSL::SSL::SSLSocket#add_certificate メソッドを追加しています。 https://github.com/ruby/openssl/issues/1125
