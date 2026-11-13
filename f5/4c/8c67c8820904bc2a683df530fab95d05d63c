@@ -1,0 +1,1 @@
+993fd8f4a3bda4cebede642a72684305e6480630 の続きで、保持している返信ポートを Ractor オブジェクトの GC 用の mark 関数 ractor_mark() でもマークをしていたため、GC.verify_internal_consistency が異常を検出するという問題を修正しています。unshareable なメンバーは ractor_sync_mark() でマークするのにまかせるようにしています。
