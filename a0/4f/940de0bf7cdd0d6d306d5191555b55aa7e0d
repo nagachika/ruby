@@ -1,0 +1,1 @@
+bundler の content-addressed な lockfile を古い RubyGems で扱う時に checksum が衝突する問題を修正しています
