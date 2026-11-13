@@ -1,0 +1,1 @@
+993fd8f4a3bda4cebede642a72684305e6480630 の続きで、Ractor ごとに保持する返信用 Ractor::Port を Ractor#join と非 main Ractor からの require、autoload での待ち合わせ用にも使うようにしています
