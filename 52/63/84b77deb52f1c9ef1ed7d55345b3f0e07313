@@ -1,0 +1,1 @@
+fork 後の子プロセスで main Ractor へ send すると異常終了してしまうという不具合の修正。fork 後に main Ractor の waiters リストが死んだスレッドの waiter を指したまま残っていたのでリストを初期化しなおすようにしています。
