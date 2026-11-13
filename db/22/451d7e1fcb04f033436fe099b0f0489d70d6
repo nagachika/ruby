@@ -1,0 +1,1 @@
+オブジェクト生成の new を最適化する VM 命令 opt_new で最適化された時に Refinements によって initialize メソッドが再定義されている時に Foo.new のように new メソッドを読んだ場所で refinements が有効だとそこで再定義された initialize が呼ばれてしまうという不具合を修正しています。呼んじゃだめなのかちょっと混乱しますが initialize は Class#new の中から内部的に呼ばれるので呼び元の refinements の影響を受けるのは本来おかしいし、opt_new の導入前は実際に元の initialize が呼ばれる挙動だったようです。 [ruby-core:127442] [Bug #22539]
