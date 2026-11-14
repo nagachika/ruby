@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で open3 の JRuby 関連ファイルの除外パターンを修正して lib/open3/jruby.rb を削除しています。誤って追加されたものだったんですね。
