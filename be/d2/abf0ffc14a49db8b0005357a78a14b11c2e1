@@ -1,0 +1,1 @@
+Process.spawn や Kernel#system などの子プロセス起動系メソッドの rlimit オプションに範囲外の値を渡すと、fork 後の子プロセスで RangeError が上がってしまうという不具合があり、fork 前にチェックして例外を発生させるように修正しています。
