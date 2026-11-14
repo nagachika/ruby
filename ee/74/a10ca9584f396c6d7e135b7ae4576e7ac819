@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#servername_cb の rdoc 用コメントに 2c7dfcfac1bfadf5545623165c1a5ec69545c5ad で新しく追加された OpenSSL::SSL::SSLSocket#add_certificate と組み合わせて使う方法を推奨するようにしています。
