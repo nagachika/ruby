@@ -1,0 +1,1 @@
+24e55673ec55be2ba7317d2ee6fb99df4b77af89 の続きで、Gem::SafeMarshal の Bignum 変換は長いバイト列を分割して変換するようにして JRuby や TruffleRuby でも線形時間になるようにしています。
