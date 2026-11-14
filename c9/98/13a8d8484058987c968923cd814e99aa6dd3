@@ -1,0 +1,1 @@
+拡張ライブラリ socket で IPv6 が無効な環境で require 'socket' が NameError で失敗する問題を修正しています。ext/socket/lib/socket.rb の ADDRESS_FAMILIES で Socket::AF_INET6 が定義されている場合だけ ipv6 エントリを含めるようにしています。実行時に無効ということでなくてシステムとしてサポートされてないっていう場合なのでかなり限られた環境の問題っぽいですね。 [ruby-core:127419] [Bug #22538]
