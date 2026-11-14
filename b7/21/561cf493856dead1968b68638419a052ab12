@@ -1,0 +1,1 @@
+e33ba4b3a5bef574832465683fabe105b5e2e24f の続きで、ZJIT で getinstancevariable のプロファイルでは self の shape だけを記録するようにして特異クラスを持つレシーバでも最適化できるようにしています。
