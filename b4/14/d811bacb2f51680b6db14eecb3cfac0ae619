@@ -1,0 +1,1 @@
+拡張ライブラリ rubygems の Gem::YAMLSerializer で行末や単独行に置かれた YAML アンカーを読めるようにしています。 https://github.com/ruby/rubygems/pull/10061
