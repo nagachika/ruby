@@ -1,0 +1,1 @@
+拡張ライブラリ rubygems の Gem::SafeMarshal の Bignum 変換を線形時間にしています。
