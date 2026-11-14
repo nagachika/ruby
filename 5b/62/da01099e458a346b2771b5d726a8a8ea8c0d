@@ -1,0 +1,1 @@
+UnboundMethod#bind でメソッドの owner が ancestors 継承リストの複数箇所に現れる場合に誤ったメソッドが呼ばれる問題を修正しています。
