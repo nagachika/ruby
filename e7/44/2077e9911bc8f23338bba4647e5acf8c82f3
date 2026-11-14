@@ -1,0 +1,1 @@
+拡張ライブラリ open3 に JRuby 用の代替実装 lib/open3/jruby.rb を追加して、JRuby でさらに JRuby::Util.native_popen? が真の時だけ利用するようにしています。
