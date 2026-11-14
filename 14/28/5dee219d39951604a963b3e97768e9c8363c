@@ -1,0 +1,1 @@
+7142a3debbda9c35bef9921fc59a27225969b979 の Hash.new のキーワード引数 capacity 指定時と同様に String.new にキーワード引数 capacity を渡す呼び出しを高速化しています。 https://github.com/ruby/ruby/pull/19537
