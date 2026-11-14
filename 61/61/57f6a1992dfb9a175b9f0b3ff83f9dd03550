@@ -1,0 +1,1 @@
+5b62da01099e458a346b2771b5d726a8a8ea8c0d の再修正で、UnboundMethod#super_method を bind する前後で Method#== の結果が変わってしまう場合がある問題を修正しています。
