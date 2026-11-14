@@ -1,0 +1,1 @@
+44cbf2c159560d0d133a4d2e41a9e4b4ef9a9f37 の続きで、bundler で古い RubyGems がロック済み platform gem を変更した場合は RUBY ABIS を書き出さないようにしています。
