@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストの追加。upstream では JRuby 向けに JSON::State#dup で rfc8785 の設定を保持する修正が行なわれていましたが CRuby にはテストのみが同期されているみたいです。
