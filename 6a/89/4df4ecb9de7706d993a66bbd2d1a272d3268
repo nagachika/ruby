@@ -1,0 +1,1 @@
+複数 Ractor 環境での race condition の修正で Struct と Class/Module のインスタンス変数や object_id のための fields_obj を atomic に読み書きするようにしています。
