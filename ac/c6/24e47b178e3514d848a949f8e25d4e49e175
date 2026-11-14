@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON::ResumableParser で二重に initialize できてしまうのを禁止するようにしています。
