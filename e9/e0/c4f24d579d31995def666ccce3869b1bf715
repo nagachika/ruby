@@ -1,0 +1,1 @@
+magic comment #shareable_constant_value: literal のもとで C ||= foo のような定数への自己代入をコンパイルすると異常終了してしまうという不具合を修正しています。定数名を Symbol のまま渡していたのが Ractor shareable のチェックで異常終了を発生させていたので String で渡すようにしています。 [ruby-core:127456] [Bug #22543]
