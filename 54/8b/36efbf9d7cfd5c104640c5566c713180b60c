@@ -1,0 +1,1 @@
+9009e0392969b9c87c062dd1ffead173c6edc555 の続きで、拡張ライブラリ json の JSON.generate の script_safe: true オプションと ascii_only: true オプションを併用した時に < がすべてエスケープされてしまう問題を修正しています。タグ判定を行なう unsafe_html_tag_p() を ascii_only の経路でも使うようにしています。
