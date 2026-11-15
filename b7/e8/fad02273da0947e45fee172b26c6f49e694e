@@ -1,0 +1,1 @@
+MemoryView の format 文字列を解析する rb_memory_view_parse_item_format() で format に空白が含まれると確保した配列の末尾を越えて要素を書き込む範囲外書き込みが起きていた不具合を修正しています。空白を読み飛ばす処理が要素数を数える1回目のスキャンにしかなかったので、実際に配列を埋める2回目にも同じ処理を入れています。 https://github.com/ruby/ruby/pull/19807
