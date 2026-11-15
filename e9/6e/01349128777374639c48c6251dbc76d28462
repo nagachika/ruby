@@ -1,0 +1,1 @@
+9009e0392969b9c87c062dd1ffead173c6edc555 の続きで、拡張ライブラリ json の JSON.generate の script_safe: true オプションで <script や </script の判定を大文字小文字を区別せずに行なうようにしています。 https://github.com/ruby/json/pull/1141
