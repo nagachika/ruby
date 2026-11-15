@@ -1,0 +1,1 @@
+標準添付ライブラリ ipaddr に IPAddr#unspecified? というメソッドを新規追加しています。 "0.0.0.0" みたいなアドレスのことを unspecified address というみたいですね。 https://github.com/ruby/ipaddr/issues/138
