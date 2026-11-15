@@ -1,0 +1,1 @@
+a7f545413f79359dc888c51c64afce1a73e4417d の続きで、拡張ライブラリ json の JSON.generate の script_safe: true オプションでエスケープする対象を <script、</script、<!-- だけに絞り、すべての "/" をエスケープするのをやめています。
