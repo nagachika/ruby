@@ -1,0 +1,1 @@
+c59c4d717a2e687972341eab1574196e97d7d7be の再修正。 Module#include 済みのモジュールに2回以上 prepend すると、prepend したモジュールが ancestors に重複して現れてしまうという問題を修正しています [ruby-core:127246] [Bug #22475]
