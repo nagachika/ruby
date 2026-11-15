@@ -1,0 +1,1 @@
+e96e01349128777374639c48c6251dbc76d28462 の続きで、拡張ライブラリ json の JSON.generate の script_safe: true オプションで タグ判定を行なう unsafe_html_tag_p() を word 単位のコピーや比較を使うように書き直して高速化しています。
