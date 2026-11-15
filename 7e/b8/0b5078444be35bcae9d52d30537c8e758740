@@ -1,0 +1,1 @@
+make test-tool で TESTOPTS に -j を指定すると、子テストが make の jobserver を引き継いで止まってしまう問題を修正しています。
