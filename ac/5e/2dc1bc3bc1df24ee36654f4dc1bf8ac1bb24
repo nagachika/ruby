@@ -1,0 +1,1 @@
+internal/sanitizers.h の NO_ASAN マクロから NOINLINE を外し、ASAN が無効なビルドでも対象の関数をインライン化できるようにしています。
