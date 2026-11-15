@@ -1,0 +1,1 @@
+拡張ライブラリ json の JSON.generate のオプション script_safe: true で "/" のほかに Unicode の U+2028 (LINE SEPARATOR) と U+2029 (PARAGRAPH SEPARATOR) をエスケープするのをやめています。古い JavaScript の処理系でこれらの文字がエラーになるためだったみたいですがもう不要になったみたいです。
