@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の RubyParser 互換レイヤで、def の前にマルチバイト文字があるとコメントの切り出し位置がずれてしまう問題を修正しています。バイトオフセットで位置が返ってくるのを String#[] で文字単位に切り出していたのを String#byteslice で切り出すようにしています。 https://github.com/ruby/prism/pull/4369
