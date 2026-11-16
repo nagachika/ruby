@@ -1,0 +1,1 @@
+346d1f63b7774ea5fd580f3f8756ccdc66ff9d7a の続きで、string.c の STR_EMBEDDABLE_P() に追加した RUBY_ASSERT のうち termlen が 4 以下という前提のものが CESU-8 のようなエンコーディングで失敗してしまうため削除しています。 [ruby-core:127476] [Bug #22547]
