@@ -1,0 +1,1 @@
+548b36efbf9d7cfd5c104640c5566c713180b60c の再修正で、拡張ライブラリ json の JSON.generate の script_safe: true オプションを指定すると " や \、制御文字が出力されずに消えてしまう場合があった不具合を修正しています。escape_UTF8_char() での switch 文の分岐を修正しています。 https://github.com/ruby/json/pull/1146
