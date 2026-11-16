@@ -1,0 +1,1 @@
+拡張ライブラリ json のテストの追加。upstream では JRuby 実装で開始位置が 0 でない共有文字列の場合に JSON.generate の script_safe: true オプションのタグ判定がずれてしまう問題の修正が行なわれたようですが CRuby にはテストのみが同期されているみたいです。
