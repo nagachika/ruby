@@ -1,0 +1,1 @@
+tool/sync_default_gems.rb で RubyGems と Bundler の同期元を ruby/rubygems の master から 4.1 ブランチに変更しています。
