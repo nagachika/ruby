@@ -1,0 +1,1 @@
+rb_str_drop_bytes() で chilled string の警告出力時のフックで receiver の文字列が変更されると use-after-free になってしまう問題を修正しています。str_modifiable() を呼んでからポインタと長さを取得するようにしています。
