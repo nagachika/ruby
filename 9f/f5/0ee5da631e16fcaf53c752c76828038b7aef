@@ -1,0 +1,1 @@
+b58a6024a07ab0bf7f45d1a17fe216822125444a の続きで T_REGEXP 型オブジェクトで regex_t が struct RRegexp の slot 内に埋め込まれるようになったのに合わせて、ObjectSpace.memsize_of でのメモリサイズ計算が追随していなかったのを修正しています。
