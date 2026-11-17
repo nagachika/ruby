@@ -1,0 +1,1 @@
+Encoding::Converter#primitive_convert で入力と出力に同じ String を渡すことができてしまって、元の入力文字列のサイズを超えて読んでしまう不具合を修正しています。#to_str 経由で同じ String になる場合も含めて、同じ String になる場合は ArgumentError を発生させて中断するようにしています。
