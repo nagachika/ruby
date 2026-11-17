@@ -1,0 +1,1 @@
+拡張ライブラリ stringio でデータを共有する StringIO が回収されると、解放済みの文字列を参照してしまう use-after-free が起こりえる不具合を修正しています。データを共有する時に両者のオブジェクトを RGenGC の WB-unprotected にしています。これにより毎回 minor GC で mark されるため解放から保護できるようになります。 https://github.com/ruby/stringio/pull/235
