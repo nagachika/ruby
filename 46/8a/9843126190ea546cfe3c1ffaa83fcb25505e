@@ -1,0 +1,1 @@
+26beec7fb8a62db518eb14a0d1dab724240eaab0 の続きで、string.c の String#tr の SIMD 検索で比較用ベクトルを毎回作り直していたのを、準備時に一度だけ作るようにしています。
