@@ -1,0 +1,1 @@
+拡張ライブラリ etc の test_sysconfdir で File.absolute_path? のチェックに File.method_defined? を使っていたため誤判定していて常にテストが定義されていなかったのを、条件を取り除いて修正しています。 https://github.com/ruby/etc/pull/112
