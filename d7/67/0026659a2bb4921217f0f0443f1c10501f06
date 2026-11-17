@@ -1,0 +1,1 @@
+標準添付ライブラリとしての prism の parser.gem 互換レイヤで &nil 引数を持つメソッドを変換すると NoMethodError になってしまう問題を修正しています。 https://github.com/ruby/prism/pull/4370
