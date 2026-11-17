@@ -1,0 +1,1 @@
+Hash の ar_table 実装の時の ar_find_entry_hint() を最適化しています。キー同士が同一オブジェクトの場合の fast path を分離し、ar_equal() の NOINLINE を外してインライン化させるようにしています。
