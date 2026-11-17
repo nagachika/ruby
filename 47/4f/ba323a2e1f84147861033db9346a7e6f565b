@@ -1,0 +1,1 @@
+拡張ライブラリ etc のテストで対象のメソッドが未実装かどうかの判定に Etc.confstr を呼んでいたのを IO#pathconf を呼ぶように修正しています。 https://github.com/ruby/etc/pull/114
