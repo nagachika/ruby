@@ -1,0 +1,1 @@
+ARM64 向け MSVC で thread_sync.c の rb_mutex_unlock_th() をコンパイルすると Internal compiler error になってしまう問題の回避策として、THREAD_STOPPED と THREAD_KILLED の case で別々に呼んでいた rb_bug() を1回の呼び出しにまとめています。コンパイラの不具合対策? みたいです。
