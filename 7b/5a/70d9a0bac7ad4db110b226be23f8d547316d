@@ -1,0 +1,1 @@
+String#tr のベンチマークで ERB::Util.html_escape を使ったエスケープとの比較を追加しています。
