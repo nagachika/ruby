@@ -1,0 +1,1 @@
+77837ed9e2de844ff17125fcfb2d548e4a87e800 と同様に windows-11-arm runner image の更新への対応で、win32/Makefile.sub および win32/GNUmakefile.sub の JIT_LIBS に synchronization.lib を追加しています。Rust 1.100.0 から WaitOnAddress などの import が staticlib に埋め込まれなくなったため、YJIT のリンクで未解決シンボルになっていました。
