@@ -1,0 +1,1 @@
+string.c の String#tr の実装から検索の準備処理を tr_trans_pairs_search_prepare() として切り出すリファクタリング。
