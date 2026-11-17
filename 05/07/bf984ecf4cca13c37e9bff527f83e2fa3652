@@ -1,0 +1,1 @@
+String#append_as_bytes で chilled string の警告出力のフックで引数の文字列が変更されると、バッファオーバーフローしてしまう可能性があった不具合を修正しています。警告を出す str_modify_keep_cr() を容量の計算より前に呼ぶようにしています。
