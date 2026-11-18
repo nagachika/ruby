@@ -1,0 +1,1 @@
+ZJIT で、レシーバの型がポリモーフィックな !=（opt_neq）がプロファイルされた型ごとに特殊化して最適化するようにしています。 https://github.com/ruby/ruby/pull/19909
