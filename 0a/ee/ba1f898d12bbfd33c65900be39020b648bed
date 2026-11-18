@@ -1,0 +1,1 @@
+prism で、pm_encoding_property_char() の到達しなくなった UTF-8 と CESU-8 の分岐を削除しています。
