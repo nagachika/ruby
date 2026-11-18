@@ -1,0 +1,1 @@
+f4d672b2df1c9e4f064a46d75ab78c90d4af7c70 の続きで、拡張ライブラリ stringio の upstream で JRuby 実装で StringIO#each_codepoint が文字列の終端を越えて読んでしまう不具合を修正しているようです。CRuby にはテストのみが同期されています。
