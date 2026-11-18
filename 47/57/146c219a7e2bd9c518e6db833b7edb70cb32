@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date#step、Date#upto、Date#downto で、比較できない limit を渡すと環境によって異なる例外になっていたのを、ArgumentError になるように統一しています。
