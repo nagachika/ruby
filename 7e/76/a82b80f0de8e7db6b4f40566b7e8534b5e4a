@@ -1,0 +1,1 @@
+0b9d58fc53bd992cdc54088ba37e898765815ce2 の続きで、ZJIT の side exit が必ず Stack Maps を持つようになったのに合わせて、stack_map を必須に変えています。
