@@ -1,0 +1,1 @@
+parse.y の rb_parser_enc_cr_str_buf_cat() で、エンコーディングが非互換の場合に compile_error の後も処理が続いてしまっていたのを、その場で return するように修正しています。Ripper や RubyVM::AbstractSyntaxTree.parse では compile_error が戻ってくるため。
