@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で StringIO#read(0, buf) が buf ではなく新しい空文字列を返していたのと、StringIO#pread(0, offset, buf) が buf を空にしていなかったのを、IO の挙動に合わせて修正しています。 https://github.com/ruby/stringio/pull/238 [ruby-core:127092] [Bug #22433]
