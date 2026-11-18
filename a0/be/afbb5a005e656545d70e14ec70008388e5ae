@@ -1,0 +1,1 @@
+RARRAY_PTR() が freeze された配列に対しても RGenGCの WB-unprotected に降格する処理を行なっていたので、freeze された配列は内容の変更がないため RGenGC の WB-protected のままにするようにしています。
