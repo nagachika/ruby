@@ -1,0 +1,1 @@
+拡張ライブラリ stringio で、固定幅エンコーディングで文字列が文字の途中のバイトで終わっている場合に StringIO#gets などに limit を指定すると文字列の終端を越えて読んでしまう不具合を修正しています。 https://github.com/ruby/stringio/pull/233
