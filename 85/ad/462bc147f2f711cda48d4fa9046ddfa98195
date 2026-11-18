@@ -1,0 +1,1 @@
+標準添付ライブラリ error_highlight で、parse.y 利用時にブロックの SCOPE ノードを ITER ノードと同様に扱うようにし、lambda や define_method の引数エラーの注釈が表示されなくなっていたのを修正しています。
