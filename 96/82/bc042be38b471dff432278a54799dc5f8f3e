@@ -1,0 +1,1 @@
+prism の Ruby::Prism::StringQuery に、パースのバージョンを指定する version キーワード引数を追加しています。
