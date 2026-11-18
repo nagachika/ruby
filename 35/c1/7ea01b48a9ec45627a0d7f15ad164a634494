@@ -1,0 +1,1 @@
+prism で、識別子の文字判定に pm_encoding_ascii_alpha_p() と pm_encoding_ascii_alnum_p() を使うようにリファクタリングしています。
