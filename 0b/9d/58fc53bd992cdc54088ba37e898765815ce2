@@ -1,0 +1,1 @@
+649d072336e0f3d9beb60b044977bedaf3bc06dc の続きで、ZJIT の side exit でローカル変数を spill するコードスタブを Stack Maps に置き換えています。
