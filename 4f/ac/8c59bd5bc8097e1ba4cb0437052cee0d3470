@@ -1,0 +1,1 @@
+prism で、バージョン文字列のパースを pm_options_version_parse() として切り出し、公開 API の pm_options_version_supported_p() を追加しています。
