@@ -1,0 +1,1 @@
+ZJIT で vm.c の zjit_materialize_frames() から stack map のデコードと書き込みのループを zjit_frame_write_stack() として切り出すリファクタリング。
