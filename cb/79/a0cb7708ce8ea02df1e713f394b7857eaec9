@@ -1,0 +1,1 @@
+649d072336e0f3d9beb60b044977bedaf3bc06dc の続きで、ZJIT でインライン化された callee の GetBlockParam 命令で caller の環境がエスケープする場合に、caller のローカル変数が Stack Maps から書き出されなかったのを修正しています。
