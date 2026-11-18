@@ -1,0 +1,1 @@
+ZJIT の Stack Maps に、フレームの env data を飛ばす SKIP_VM_ENV_DATA と、caller のフレームへ移る PREV_FRAME の2つのオペコードを追加しています。
