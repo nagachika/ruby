@@ -1,0 +1,1 @@
+拡張ライブラリ date の Date#<=> で、Float::NAN との比較で ArgumentError になってしまっていたのを、nil を返すように修正しています。Date#== も例外にならなくなります。
