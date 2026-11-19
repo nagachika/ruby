@@ -1,0 +1,1 @@
+prism で標準の assert() を PRISM_ASSERT に置き換えています。
