@@ -1,0 +1,1 @@
+make lcov が lcov 2.4 で失敗していたのを修正しています。tool/run-lcov.rb で lcov と genhtml に対応する --ignore-errors を渡すようにしています。
