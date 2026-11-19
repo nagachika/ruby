@@ -1,0 +1,1 @@
+prism で arena の型付き確保マクロ PM_ARENA_ALLOC()、PM_ARENA_ALLOC_ARRAY()、PM_ARENA_ZALLOC()、PM_ARENA_ZALLOC_ARRAY()、PM_ARENA_REALLOC() を追加し、呼び出し側を置き換えています。配列確保では乗算オーバーフローの検査も行なうようにしています。
