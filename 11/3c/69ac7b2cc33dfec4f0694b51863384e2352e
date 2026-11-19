@@ -1,0 +1,1 @@
+prism で pm_arena_alloc_overflow() が戻らないことを示す PRISM_NORETURN を追加し、宣言に付けています。
