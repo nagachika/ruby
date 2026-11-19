@@ -1,0 +1,1 @@
+prism で文字列リテラルと長さを渡していた pm_buffer_append_string() の呼び出しを、長さを sizeof から求める PM_BUFFER_APPEND_LITERAL に置き換えています。
