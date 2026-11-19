@@ -1,0 +1,1 @@
+ZJIT の Rust 製テスト用に生成される libminiruby.a が make clean で削除されずに残ってしまう問題を修正しています。zjit/zjit.mk に clean-libminiruby ターゲットを追加して clean-local から呼ばれるようにしています。
