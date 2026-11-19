@@ -1,0 +1,1 @@
+prism で HashNode と KeywordHashNode のフラグを、要素の追加時に判定するようにしています。
