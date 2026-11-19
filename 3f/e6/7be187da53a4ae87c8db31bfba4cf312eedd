@@ -1,0 +1,1 @@
+prism で pm_node_list_open_append() の強制インライン化をやめ、コンパイラの判断に任せるようにしています。
