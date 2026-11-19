@@ -1,0 +1,1 @@
+拡張ライブラリ openssl の OpenSSL::SSL::SSLContext#add_certificate と OpenSSL::SSL::SSLSocket#add_certificate で extra_certs を省略すると、以前に設定した追加証明書のチェーンが残ってしまう問題を修正しています。SSL_CTX_set0_chain() / SSL_set0_chain() を常に呼んでチェーンをリセットするようにしています。
