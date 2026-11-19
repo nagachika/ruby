@@ -1,0 +1,1 @@
+GitHub Actions の zjit-ubuntu workflow に、ruby/spec を ZJIT を有効化にして実行するジョブを追加しています。
