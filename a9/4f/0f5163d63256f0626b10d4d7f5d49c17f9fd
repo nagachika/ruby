@@ -1,0 +1,1 @@
+afa3da1b051ccccc1e6b8ee56f84a9f4faab757f の続きで、拡張ライブラリ zlib の NUM2ULEN のフォールバック定義のガードが NUM2LEN になっていたのを NUM2ULEN に修正しています。
