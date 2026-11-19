@@ -1,0 +1,1 @@
+標準添付ライブラリ mkmf.rb の find_executable で、バックスラッシュ区切りの Windows の絶対パスが絶対パスとして扱われず見つからなかった問題を修正しています。File.absolute_path? で判定するようにしています。 https://github.com/ruby/setup-ruby/pull/978
