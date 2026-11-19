@@ -1,0 +1,1 @@
+prism 側で constant id list から capacity を削除する変更に備えて、prism_compile.c で pm_constant_id_list_t の初期化子から capacity の設定を削除しています。
