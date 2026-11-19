@@ -1,0 +1,1 @@
+prism の find のテストを、同梱 prism と組み込み prism の node_id が一致する場合だけ実行するようにしています。
