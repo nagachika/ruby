@@ -1,0 +1,1 @@
+標準添付ライブラリ optparse のドキュメントで、他のファイルから include されるだけの creates_option.rdoc が単独ページとして生成されないようにしています。
