@@ -1,0 +1,1 @@
+prism で AST の pm_node_list_t から capacity を削除し、size を uint32_t に変更しています。パース中の補助リスト用に pm_scratch_node_list_t を新設しています。
