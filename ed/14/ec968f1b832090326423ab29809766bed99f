@@ -1,0 +1,1 @@
+prism で arena に pm_arena_alloc_aligned() を追加し、node chunk の確保でアラインのために余分に確保していた分をなくしています。
