@@ -1,0 +1,1 @@
+prism で補間付き文字列などのノードの parts を node list chunks 方式に移行し、位置計算を pm_interpolated_location() に集約しています。
