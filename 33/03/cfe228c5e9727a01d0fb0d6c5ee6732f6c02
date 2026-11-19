@@ -1,0 +1,1 @@
+prism で CaseNode と CaseMatchNode の conditions を node list chunks 方式に移行しています。
