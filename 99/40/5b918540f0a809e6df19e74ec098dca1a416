@@ -1,0 +1,1 @@
+拡張ライブラリ socket で MinGW でも Happy Eyeballs v2 を有効にして native thread を起動して名前解決するようにしています。 https://github.com/ruby/ruby/pull/19921
