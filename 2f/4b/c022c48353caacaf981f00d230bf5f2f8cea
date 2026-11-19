@@ -1,0 +1,1 @@
+c70fa7f0e9e8bbca6d47f3fa3e679bd9e1d44baa の続きで、prism_compile.c でノードリストのインデックスやサイズの変数を uint32_t に揃えています。
