@@ -1,0 +1,1 @@
+f901ce17982c031b215c47667bac98fc41b668a3 の続きで、mkmf の find_executable のテストヘルパーで open を File.open に変更しています。
