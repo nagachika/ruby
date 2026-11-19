@@ -1,0 +1,1 @@
+Method#to_proc で作った proc に対して RubyVM::InstructionSequence.of が nil を返していたのを、元となるメソッドの iseq を返すように修正しています。
