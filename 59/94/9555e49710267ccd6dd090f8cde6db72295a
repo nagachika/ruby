@@ -1,0 +1,1 @@
+prism で ArrayPatternNode と FindPatternNode を node list chunks 方式に移行しています。
