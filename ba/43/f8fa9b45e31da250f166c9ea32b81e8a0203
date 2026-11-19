@@ -1,0 +1,1 @@
+prism で arena の確保サイズ計算のオーバーフロー検査を追加し、pm_arena_realloc() の直接呼び出しを PM_ARENA_REALLOC マクロに置き換えています。
