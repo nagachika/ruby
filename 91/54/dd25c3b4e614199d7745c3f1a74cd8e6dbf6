@@ -1,0 +1,1 @@
+prism で pm_constant_id_list_t から capacity を削除し、pm_constant_id_list_init() をサイズ分の配列を確保する API に変更しています。
