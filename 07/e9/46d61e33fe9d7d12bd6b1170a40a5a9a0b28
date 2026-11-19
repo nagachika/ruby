@@ -1,0 +1,1 @@
+9154dd25c3b4e614199d7745c3f1a74cd8e6dbf6 の続きで、vm_eval.c の pm_eval_make_iseq で新しい pm_constant_id_list_init() の API に追従しています。
