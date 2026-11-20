@@ -1,0 +1,1 @@
+prism の診断に Encoding::CompatibilityError 用のエラーレベルを追加しています。まだ使われませんが、後続の正規表現まわりの変更の下準備です。
