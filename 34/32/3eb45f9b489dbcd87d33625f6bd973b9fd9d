@@ -1,0 +1,1 @@
+prism の regexp_parity_test.rb で、実行中は Encoding.default_internal を UTF-8 にするようにしています。ロケールで期待値が変わらないようにするためです。
