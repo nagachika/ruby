@@ -1,0 +1,1 @@
+parse.y で rescue 節の中で class や module を書いた後の retry が構文エラーになっていたのを修正しています。 [ruby-core:127581] [Bug #22599]
