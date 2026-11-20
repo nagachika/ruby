@@ -1,0 +1,1 @@
+prism の regexp_parity_test.rb から、parse.y のエラーメッセージの引用の違いで比較できないケースを外しています。
