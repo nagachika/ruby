@@ -1,0 +1,1 @@
+prism_compile.c で、prism がエンコーディング非互換のエラーレベルを返した場合は Encoding::CompatibilityError を作るようにしています。
