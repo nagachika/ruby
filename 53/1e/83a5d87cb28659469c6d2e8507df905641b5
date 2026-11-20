@@ -1,0 +1,1 @@
+prism の正規表現のテストとして、parse.y と Onigmo の結果と直接比べる regexp_parity_test.rb を追加し、手書きの期待値のテストを置き換えています。
