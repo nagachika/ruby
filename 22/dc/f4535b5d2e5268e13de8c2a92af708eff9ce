@@ -1,0 +1,1 @@
+Onigmo の match cache の確保に失敗したときにマッチスタックが double free になる問題を修正しています。
