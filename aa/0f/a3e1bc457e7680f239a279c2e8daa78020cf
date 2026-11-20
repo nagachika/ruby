@@ -1,0 +1,1 @@
+Kernel#class などの leaf builtin メソッドの呼び出しで、複数の Ractor が call cache を競合して NULL を参照しうる不具合を修正しています。あわせてメソッドの可視性の変更とキャッシュの無効化を VM バリアの中でまとめて行うようにしています。 [ruby-core:127495] [Bug #22553]
