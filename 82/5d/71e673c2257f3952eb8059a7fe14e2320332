@@ -1,0 +1,1 @@
+ZJIT で `Primitive.attr! :inline_block` の付いたメソッド(Array#each など)を予算に関係なくインライン化するようにしています。対象メソッドに `:always_inline` 属性を追加しています。 https://github.com/ruby/ruby/pull/17864
