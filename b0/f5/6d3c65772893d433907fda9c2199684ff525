@@ -1,0 +1,1 @@
+prism で埋め込みを持つ正規表現のエンコーディングが連結できない場合のエラーを、SyntaxError ではなく Encoding::CompatibilityError として出すようにしています。
