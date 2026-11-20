@@ -1,0 +1,1 @@
+GC のシャットダウン時のファイナライザの assertion で、ASAN で poison された zombie オブジェクトの FL_FINALIZE を確認する前に unpoison するようにしています。 https://github.com/ruby/ruby/pull/19455
