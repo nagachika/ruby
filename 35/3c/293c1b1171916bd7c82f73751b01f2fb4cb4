@@ -1,0 +1,1 @@
+prism で Unicode エスケープの breakpoint の文字集合が PM_STRPBRK_CACHE_SIZE より短く、キャッシュのキーの比較が配列の外を読んでいたのを修正しています。
