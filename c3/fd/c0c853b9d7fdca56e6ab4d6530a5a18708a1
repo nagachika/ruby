@@ -1,0 +1,1 @@
+prism の StatementsNode に、文の一覧が BEGIN ブロックを含むかを表すフラグを追加しています。
