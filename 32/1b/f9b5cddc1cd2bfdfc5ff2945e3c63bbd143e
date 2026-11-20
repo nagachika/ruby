@@ -1,0 +1,1 @@
+GitHub Actions の publish ワークフローのランナーを ubuntu-24.04 に固定しています。ubuntu-latest が ubuntu-26.04 を指すようになり失敗していたためです。 https://github.com/ruby/ruby/pull/20007
