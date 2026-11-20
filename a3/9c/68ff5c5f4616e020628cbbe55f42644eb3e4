@@ -1,0 +1,1 @@
+prism の errors_test.rb にあった成功ケースのテストをフィクスチャに移し、parser gem 互換と Ripper 互換の変換の不具合もあわせて修正しています。
