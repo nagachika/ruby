@@ -1,0 +1,1 @@
+prism の regexp_parity_test.rb で不正な正規表現を parse.y でコンパイルする際の警告を抑制するようにしています。
