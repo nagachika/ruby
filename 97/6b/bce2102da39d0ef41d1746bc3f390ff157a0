@@ -1,0 +1,1 @@
+Emacs-Mule エンコーディングの case fold のコールバックが負の長さを返すことがあったのを、onigenc_mbn_mbc_case_fold() を使うようにして修正しています。stateless-ISO-2022-JP とその KDDI 版も同様です。
