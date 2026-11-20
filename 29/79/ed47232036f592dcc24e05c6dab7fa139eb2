@@ -1,0 +1,1 @@
+GitHub Actions の9つの workflow で、bundled gems のテストで repl_type_completor の失敗を許容するようにしています。
