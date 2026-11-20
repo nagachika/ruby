@@ -1,0 +1,1 @@
+prism で ensure 節のある begin 式の値チェックで、rescue 節が値を返す場合も begin 式が値を持つとみなすようにしています。本体が return でもエラーになっていたためです。
