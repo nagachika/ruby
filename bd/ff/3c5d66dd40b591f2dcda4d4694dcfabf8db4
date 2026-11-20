@@ -1,0 +1,1 @@
+String#upcase などの rb_str_casemap() で結果の長さの合計がオーバーフローしうる問題を修正しています。合計を rb_len_t で数えて加算前に確認し、大きすぎる場合は ArgumentError にするようにしています。
