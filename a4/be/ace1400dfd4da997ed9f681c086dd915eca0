@@ -1,0 +1,1 @@
+`Thread.new(1, :to_s, &:send)` のように呼び出し元フレームのない場所で Kernel#send を Symbol から Proc 化したブロックを呼ぶと VM スタックの範囲外を読む問題を修正しています。send_internal() で呼び出し元の self を参照しないようにしています。
