@@ -1,0 +1,1 @@
+prism の regexp_parity_test.rb の比較をゆるめ、parse.y が報告するエラーを prism も同じ回数以上出していれば一致とみなすようにしています。
