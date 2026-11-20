@@ -1,0 +1,1 @@
+725d7085c087c986c6113dfa1f7428877d57add8 の続きで、prism の freeze テストで Encoding のチェックを Ruby 3.0 未満でもスキップするようにしています。
