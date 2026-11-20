@@ -1,0 +1,1 @@
+テスト用アサーションの assert_valid_syntax と assert_syntax_error に `parser:` オプションを追加し、parse.y と prism の両方で構文を確認できるようにしています。
