@@ -1,0 +1,1 @@
+拡張ライブラリ socket で `--disable-ipv6` のビルドでも IPv6 アドレスが使われてしまう問題を修正しています。名前解決を IPv4 に限定し、`Socket.ip_address_list` では IPv6 のアドレスを読み飛ばすようにしています。 https://github.com/ruby/ruby/pull/19948 [ruby-core:127419] [Bug #22538]
