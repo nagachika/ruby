@@ -1,0 +1,1 @@
+2979ed47232036f592dcc24e05c6dab7fa139eb2 の続きで、tarball からのビルドとテストを実行する workflow でも bundled gems のテストで repl_type_completor の失敗を許容するようにしています。
