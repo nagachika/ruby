@@ -1,0 +1,1 @@
+vm_insnhelper.c の Ruby 実装のメソッドの呼び出しのセットアップで、param_size と local_size を受ける変数や引数の型を unsigned int に統一しています。
