@@ -1,0 +1,1 @@
+スレッドが Mutex を保持したまま終了すると、次にその Mutex を lock したスレッドが終了したスレッドの Mutex のリストを引き継いでしまい、関係ない Mutex まで解放してしまう問題を修正しています。rb_threadptr_unlock_all_locking_mutexes() でリストからの切り離しを rb_mutex_unlock_th() に任せるようにしています。 [ruby-core:127568] [Bug #22598]
