@@ -1,0 +1,1 @@
+ZJIT で iseq_may_write_block_code() の結果を ISeq の payload にキャッシュするようにしています。フレームを持つ C 関数の呼び出しや side exit のたびに ISeq を読み直していたため、大きなメソッドのコンパイルに時間がかかるのに対策しています。 https://github.com/ruby/ruby/pull/19680 https://github.com/Shopify/ruby/issues/1064
