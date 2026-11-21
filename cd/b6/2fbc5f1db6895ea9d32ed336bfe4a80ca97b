@@ -1,0 +1,1 @@
+.git-blame-ignore-revs に、Array#index と Array#rindex の offset: キーワード引数の revert と再適用のコミットを追加して git blame で無視するようにしています。 [ruby-core:99380] [Feature #17056]
