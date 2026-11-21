@@ -1,0 +1,1 @@
+tool/merger.rb で backport する時のコミットメッセージの最初に "merged revision(s) xxxx" の行を持つ形式にしていたのを、元のコミットメッセージを残して末尾に (cherry picked from commit ...) の行を付ける git cherry-pick -x と同じ形式に変更しています。 これに対応してメンテナンス用ツールの tool/redmine-backporter.rb の done コマンドで revision を捜す時の処理も対応しています。
