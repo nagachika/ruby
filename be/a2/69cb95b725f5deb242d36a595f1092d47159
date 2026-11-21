@@ -1,0 +1,1 @@
+gems/bundled_gems の repl_type_completor のバージョンを 0.1.18 に更新しています。prism の変更に対応したため、bundled gems のテストで repl_type_completor の失敗を許容する設定を各 workflow から外しています。 https://github.com/ruby/ruby/pull/20049
