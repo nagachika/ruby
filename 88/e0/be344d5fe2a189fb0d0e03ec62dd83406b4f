@@ -1,0 +1,1 @@
+Array#sort! で一時配列のバッファを引き継ぐときに RGenGC 用の Write Barrier が不足していて、old 世代の配列が young な要素を参照したままになって回収されてしまう可能性があった不具合を修正しています。バッファの付け替え後に rb_gc_writebarrier_remember() を呼ぶようにしています。
