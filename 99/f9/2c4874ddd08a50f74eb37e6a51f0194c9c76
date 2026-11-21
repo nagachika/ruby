@@ -1,0 +1,1 @@
+revert されていた Array#index、Array#find_index、Array#rindex への offset: キーワード引数の追加を再適用しています。前回の revert は Enumerator 化する時の仕様などに未解決の点があるからとのことでしたが、その対応は続く 5a0cd92a814529e5f57f221764f62beb3a934740 で行なわれるようです。 [ruby-core:99380] [Feature #17056]
