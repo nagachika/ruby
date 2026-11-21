@@ -1,0 +1,1 @@
+99f92c4874ddd08a50f74eb37e6a51f0194c9c76 の続きで、Array#index と Array#rindex で対象のオブジェクトを指定せず offset: だけを指定した場合にも Enumerator を返すように修正しています。 [ruby-core:99380] [Feature #17056]
