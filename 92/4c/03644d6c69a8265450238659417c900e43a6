@@ -1,0 +1,1 @@
+信頼できない入力を正規表現のパターンとして渡すことは推奨しない旨を、doc/security/security.rdoc と doc/_regexp.rdoc、Regexp.new や String#match などの rdoc に追記しています。 https://github.com/ruby/ruby/pull/20032 [ruby-core:127318] [Misc #22502]
