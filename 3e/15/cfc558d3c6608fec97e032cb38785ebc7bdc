@@ -1,0 +1,1 @@
+GitHub Actions の独自アクションで makeup 入力を run スクリプト内に直接展開していたのを、環境変数経由で渡すようにしています。 https://github.com/ruby/ruby/pull/20033
